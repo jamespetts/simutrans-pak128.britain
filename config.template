@@ -20,5 +20,5 @@ NAMESUFFIX = -ex
 
 #files and dirs to be copied into the pakset directory 
 #(default compat.tab only)
-CPFILES = compat.tab readme.txt licence.txt demo.sve
-CPFILES += sound/ config/ text/
+#CPFILES = compat.tab readme.txt licence.txt demo.sve
+CPFILES += sound/ 
