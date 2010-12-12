@@ -1,0 +1,7 @@
+Obj=ground
+Name=Outside
+# This field is used to give the pakset's version.
+copyright=Pak128.Britain-Ex 0.7.1
+# hangtyp * animation
+#water outside
+Image[0][0]=images/ls-water-128.0.0

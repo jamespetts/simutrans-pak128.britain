@@ -1030,6 +1030,10 @@ PowerDest
 Local substation
 PowerSource
 Distribution substation
+remove tracks
+Remove railway tracks
+Remove wayobj track
+Remove electrification
 #_________________________________program_text__________________________________
 #_________________________________program_text__________________________________
 CATEGORY_01
@@ -3422,6 +3426,10 @@ ReliantRobin(Yellow)
 Trotter's Independent Trading Co.: New York - Milan - Peckham
 Volvo-V70-Police
 Volvo V70 police car
+Volvo-240-Estate(Blue)
+Volvo 240 estate
+Volvo-240-Estate(Silver)
+Volvo 240 estate
 LondonTaxi-Lanchester
 Black cab
 #__________________________________Way constraints__________________________________

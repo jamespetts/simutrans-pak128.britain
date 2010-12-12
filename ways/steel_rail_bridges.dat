@@ -14,7 +14,7 @@ maintenance=2000
 # BELOW GRAPHICS USED AS STOPGAP.
 pillar_distance=1
 cursor=images/wooden-trestle.2.1
-icon=> images/wooden-trestle.2.0
+icon=> images/bridgesTODO.0.3
 BackImage[NS]=images/wooden-trestle.0.5,0,32
 FrontImage[NS]=images/wooden-trestle.1.5,0,32
 BackImage[EW]=images/wooden-trestle.0.4,0,32
@@ -54,7 +54,7 @@ maintenance=2250
 # BELOW GRAPHICS USED AS STOPGAP.
 pillar_distance=1
 cursor=images/wooden-trestle.2.1
-icon=> images/wooden-trestle.2.0
+icon=> images/bridgesTODO.0.2
 BackImage[NS]=images/wooden-trestle.0.5,0,32
 FrontImage[NS]=images/wooden-trestle.1.5,0,32
 BackImage[EW]=images/wooden-trestle.0.4,0,32
@@ -94,7 +94,7 @@ maintenance=2350
 # BELOW GRAPHICS USED AS STOPGAP.
 pillar_distance=1
 cursor=images/wooden-trestle.2.1
-icon=> images/wooden-trestle.2.0
+icon=> images/bridgesTODO.0.5
 BackImage[NS]=images/wooden-trestle.0.5,0,32
 FrontImage[NS]=images/wooden-trestle.1.5,0,32
 BackImage[EW]=images/wooden-trestle.0.4,0,32
@@ -134,7 +134,7 @@ maintenance=2200
 # BELOW GRAPHICS USED AS STOPGAP.
 pillar_distance=1
 cursor=images/wooden-trestle.2.1
-icon=> images/wooden-trestle.2.0
+icon=> images/bridgesTODO.0.3
 BackImage[NS]=images/wooden-trestle.0.5,0,32
 FrontImage[NS]=images/wooden-trestle.1.5,0,32
 BackImage[EW]=images/wooden-trestle.0.4,0,32
@@ -174,7 +174,7 @@ maintenance=2400
 # BELOW GRAPHICS USED AS STOPGAP.
 pillar_distance=1
 cursor=images/wooden-trestle.2.1
-icon=> images/wooden-trestle.2.0
+icon=> images/bridgesTODO.0.0
 BackImage[NS]=images/wooden-trestle.0.5,0,32
 FrontImage[NS]=images/wooden-trestle.1.5,0,32
 BackImage[EW]=images/wooden-trestle.0.4,0,32
@@ -215,7 +215,7 @@ maintenance=2275
 # BELOW GRAPHICS USED AS STOPGAP.
 pillar_distance=1
 cursor=images/wooden-trestle.2.1
-icon=> images/wooden-trestle.2.0
+icon=> images/bridgesTODO.0.3
 BackImage[NS]=images/wooden-trestle.0.5,0,32
 FrontImage[NS]=images/wooden-trestle.1.5,0,32
 BackImage[EW]=images/wooden-trestle.0.4,0,32
@@ -256,7 +256,7 @@ maintenance=2275
 # BELOW GRAPHICS USED AS STOPGAP.
 pillar_distance=1
 cursor=images/wooden-trestle.2.1
-icon=> images/wooden-trestle.2.0
+icon=> images/bridgesTODO.0.0
 BackImage[NS]=images/wooden-trestle.0.5,0,32
 FrontImage[NS]=images/wooden-trestle.1.5,0,32
 BackImage[EW]=images/wooden-trestle.0.4,0,32
@@ -297,7 +297,7 @@ maintenance=2500
 # BELOW GRAPHICS USED AS STOPGAP.
 pillar_distance=1
 cursor=images/wooden-trestle.2.1
-icon=> images/wooden-trestle.2.0
+icon=> images/bridgesTODO.0.1
 BackImage[NS]=images/wooden-trestle.0.5,0,32
 FrontImage[NS]=images/wooden-trestle.1.5,0,32
 BackImage[EW]=images/wooden-trestle.0.4,0,32
@@ -337,7 +337,7 @@ maintenance=3000
 # BELOW GRAPHICS USED AS STOPGAP.
 pillar_distance=1
 cursor=images/wooden-trestle.2.1
-icon=> images/wooden-trestle.2.0
+icon=> images/bridgesTODO.0.0
 BackImage[NS]=images/wooden-trestle.0.5,0,32
 FrontImage[NS]=images/wooden-trestle.1.5,0,32
 BackImage[EW]=images/wooden-trestle.0.4,0,32
@@ -377,7 +377,7 @@ maintenance=2600
 # BELOW GRAPHICS USED AS STOPGAP.
 pillar_distance=1
 cursor=images/wooden-trestle.2.1
-icon=> images/wooden-trestle.2.0
+icon=> images/bridgesTODO.0.0
 BackImage[NS]=images/wooden-trestle.0.5,0,32
 FrontImage[NS]=images/wooden-trestle.1.5,0,32
 BackImage[EW]=images/wooden-trestle.0.4,0,32
@@ -415,7 +415,7 @@ maintenance=2750
 # BELOW GRAPHICS USED AS STOPGAP.
 pillar_distance=1
 cursor=images/wooden-trestle.2.1
-icon=> images/wooden-trestle.2.0
+icon=> images/bridgesTODO.0.0
 BackImage[NS]=images/wooden-trestle.0.5,0,32
 FrontImage[NS]=images/wooden-trestle.1.5,0,32
 BackImage[EW]=images/wooden-trestle.0.4,0,32
@@ -453,7 +453,7 @@ maintenance=4000
 # BELOW GRAPHICS USED AS STOPGAP.
 pillar_distance=1
 cursor=images/wooden-trestle.2.1
-icon=> images/wooden-trestle.2.0
+icon=> images/bridgesTODO.0.1
 BackImage[NS]=images/wooden-trestle.0.5,0,32
 FrontImage[NS]=images/wooden-trestle.1.5,0,32
 BackImage[EW]=images/wooden-trestle.0.4,0,32

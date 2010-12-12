@@ -105,7 +105,7 @@ general_tool[29]=16,15,,
 general_tool[30]=13,9,,
 general_tool[31]=14,11,, 
 general_tool[32]=15,13,, 
-general_tool[33]=,,11,
+general_tool[33]=,1,11,
 general_tool[34]=,,11,
 general_tool[35]=17,,11,K
 
@@ -336,12 +336,13 @@ toolbar[2][3]=tunnels(2)
 toolbar[2][4]=wayobjs(2)
 toolbar[2][5]=signs(2)
 toolbar[2][6]=general_tool[17],16,,2 
-toolbar[2][7]=buildings(33,2)
-toolbar[2][8]=buildings(34,2)
-toolbar[2][9]=buildings(35,2)
-toolbar[2][10]=buildings(35,0)
-toolbar[2][11]=general_tool[14],,t,2
-toolbar[2][12]=general_tool[18],,e,2
+toolbar[2][7]=general_tool[33],29,,2
+toolbar[2][8]=buildings(33,2)
+toolbar[2][9]=buildings(34,2)
+toolbar[2][10]=buildings(35,2)
+toolbar[2][11]=buildings(35,0)
+toolbar[2][12]=general_tool[14],,t,2
+toolbar[2][13]=general_tool[18],,e,2
 
 # monorailtools (waytype 5)
 toolbar[3][0]=ways(5,0)
@@ -374,8 +375,9 @@ toolbar[5][1]=ways(2,7)
 toolbar[5][2]=wayobjs(7)
 toolbar[5][3]=signs(7)
 toolbar[5][4]=general_tool[17],16,,2
-toolbar[5][5]=buildings(33,7)
-toolbar[5][6]=buildings(34,7)
+toolbar[5][5]=general_tool[33],30,,7
+toolbar[5][6]=buildings(33,7)
+toolbar[5][7]=buildings(34,7)
 # road stops
 #toolbar[4][7]=buildings(34,1)
 
@@ -387,11 +389,12 @@ toolbar[6][3]=tunnels(1)
 toolbar[6][4]=wayobjs(1)
 toolbar[6][5]=signs(1)
 toolbar[6][6]=general_tool[17],18,,1 
-toolbar[6][7]=buildings(33,1)
-toolbar[6][8]=buildings(34,1)
-toolbar[6][9]=buildings(35,1)
-toolbar[6][10]=buildings(35,0)
-toolbar[6][11]=general_tool[14],,s,1
+toolbar[6][7]=general_tool[33],30,,1
+toolbar[6][8]=buildings(33,1)
+toolbar[6][9]=buildings(34,1)
+toolbar[6][10]=buildings(35,1)
+toolbar[6][11]=buildings(35,0)
+toolbar[6][12]=general_tool[14],,s,1
 
 # shiptools (waytype 3)
 toolbar[7][0]=ways(3,0)

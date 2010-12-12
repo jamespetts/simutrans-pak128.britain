@@ -18,6 +18,7 @@ length=13
 
 weight=41
 cost=1296000
+upgrade_price=0
 runningcost=66
 sound=-1
 increase_maintenance_after_years=23
@@ -27,6 +28,8 @@ bidirectional=1
 
 loading_time=7500
 comfort=90
+
+upgrade[0]=BR-153-Trolley(Regional)
 
 Constraint[Prev][0]=BR-153(Regional)
 Constraint[Prev][1]=BR-153-Trolley(Regional)
@@ -90,6 +93,8 @@ bidirectional=1
 loading_time=7500
 comfort=90
 catering_level=1
+
+upgrade[0]=BR-153(Regional)
 
 Constraint[Prev][0]=BR-153(Regional)
 Constraint[Prev][1]=BR-153-Trolley(Regional)
