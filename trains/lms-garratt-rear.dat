@@ -1,5 +1,6 @@
 obj=vehicle
 name=LMS-Garratt-Rear(Black)
+engine_type=steam
 speed=80
 power=0
 copyright=James

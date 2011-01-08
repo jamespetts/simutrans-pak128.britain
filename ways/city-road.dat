@@ -1,12 +1,12 @@
 Obj=way
 Name=city_road
 waytype=road
-cost=3000
-maintenance=10
+cost=30000
+maintenance=450
 topspeed=50
 max_weight=35
-intro_year = 1900
-intro_month = 6
+intro_year = 1905
+intro_month = 2
 icon=> ./images/city_road.3.4
 cursor=./images/city_road.3.5
 Image[-][0]=./images/city_road.1.2

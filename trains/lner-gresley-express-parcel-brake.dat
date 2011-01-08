@@ -24,6 +24,14 @@ increase_maintenance_after_years=15
 years_before_maintenance_max_reached=30
 # Wooden bodied vehicles become obsolete sooner.
 
+Constraint[Next][0]=LNER-Gresley-Express-Coach(Teak)
+Constraint[Next][1]=LNER-Gresley-Express-Brake(Teak)
+Constraint[Next][2]=LNER-Gresley-Express-Dining(Teak)
+Constraint[Next][3]=LNER-Gresley-Express-Mail(Teak)
+Constraint[Next][4]=LNER-Gresley-Express-TPO(Teak)
+Constraint[Next][5]=LNER-Gresley-Express-Parcel-Brake(Teak)
+Constraint[Next][6]=none
+
 EmptyImage[E]=./images/lner-gresley-express-parcel-brake.0
 EmptyImage[SE]=./images/lner-gresley-express-parcel-brake.1
 EmptyImage[S]=./images/lner-gresley-express-parcel-brake.2

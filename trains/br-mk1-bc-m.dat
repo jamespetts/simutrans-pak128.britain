@@ -25,6 +25,28 @@ comfort=110
 
 upgrade[0]=BR-Mk1-BC(Blue-Grey)
 
+Constraint[Next][0]=BR-Mk1-GUV(Rail-Blue)
+Constraint[Next][1]=BR-Mk1-TO(Blue-Grey)
+Constraint[Next][2]=BR-Mk1-BC(Blue-Grey)
+Constraint[Next][3]=BR-Mk1-TO(Maroon)
+Constraint[Next][4]=BR-Mk1-BC(Maroon)
+Constraint[Next][5]=BR-Mk1-TO(Crimson-Cream)
+Constraint[Next][6]=BR-Mk1-BC(Crimson-Cream)
+Constraint[Next][7]=BR-Mk1-RBR(Blue-Grey)
+Constraint[Next][8]=BR-Mk1-BG(Blue-Grey)
+Constraint[Next][9]=BR-Mk1-RBR(Maroon)
+Constraint[Next][10]=BR-Mk1-BG(Maroon)
+Constraint[Next][11]=BR-Mk1-RBR(Crimson-Cream)
+Constraint[Next][12]=BR-Mk1-BG(Crimson-Cream)
+Constraint[Next][13]=BR-Mk1-RMB(Blue-Grey)
+Constraint[Next][14]=BR-Mk1-RMB(Maroon)
+Constraint[Next][15]=BR-Mk1-RMB(Crimson-Cream)
+Constraint[Next][16]=BR-Mk2a-RMB(Blue-Grey)
+Constraint[Next][17]=BR-Mk2a-BSO(Blue-Grey)
+Constraint[Next][18]=BR-Mk2a-TSO(Blue-Grey)
+Constraint[Next][19]=none
+
+
 EmptyImage[E]=./images/br-mk1-bc-m.0
 EmptyImage[SE]=./images/br-mk1-bc-m.1
 EmptyImage[S]=./images/br-mk1-bc-m.2

@@ -17,7 +17,7 @@ length=4
 
 weight=4
 cost=300000
-runningcost=95
+runningcost=12
 sound=-1
 
 comfort=55

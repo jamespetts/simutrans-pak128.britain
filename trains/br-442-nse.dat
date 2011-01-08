@@ -7,9 +7,8 @@ speed=160
 copyright=James
 intro_year=1988
 intro_month=2
-#retire_year=2004
-#retire_month=7
-# TODO: Add retirement dates when the class 444 is added.
+retire_year=2001
+retire_month=3
 waytype=track
 freight=Passagiere
 payload=65
@@ -18,12 +17,13 @@ length=13
 
 weight=39
 cost=590000
-runningcost=290
+runningcost=45
 sound=-1
 
 can_lead_from_rear=1
 bidirectional=0
 way_constraint_permissive[0]=0
+increase_maintenance_after_years=21
 
 loading_time=9250
 comfort=145
@@ -50,9 +50,8 @@ speed=160
 copyright=James
 intro_year=1988
 intro_month=2
-#retire_year=2004
-#retire_month=7
-# TODO: Add retirement dates when the class 444 is added.
+retire_year=2001
+retire_month=3
 waytype=track
 freight=Passagiere
 payload=72
@@ -61,12 +60,13 @@ length=13
 
 weight=35
 cost=590000
-runningcost=290
+runningcost=31
 sound=-1
 
 can_lead_from_rear=0
 bidirectional=1
 way_constraint_permissive[0]=0
+increase_maintenance_after_years=21
 
 loading_time=9250
 comfort=145
@@ -91,11 +91,11 @@ speed=160
 copyright=James
 intro_year=1988
 intro_month=2
-#retire_year=2004
-#retire_month=7
-# TODO: Add retirement dates when the class 444 is added.
+retire_year=2001
+retire_month=3
 waytype=track
 power=1200
+tractive_effort=145
 freight=Passagiere
 payload=51
 overcrowded_capacity=14
@@ -110,6 +110,7 @@ can_lead_from_rear=0
 bidirectional=1
 catering_level=3
 way_constraint_permissive[0]=0
+increase_maintenance_after_years=21
 
 loading_time=9250
 comfort=145
@@ -134,9 +135,8 @@ speed=160
 copyright=James
 intro_year=1988
 intro_month=2
-#retire_year=2004
-#retire_month=7
-# TODO: Add retirement dates when the class 444 is added.
+retire_year=2001
+retire_month=3
 waytype=track
 freight=Passagiere
 payload=72
@@ -145,12 +145,13 @@ length=13
 
 weight=35
 cost=590000
-runningcost=290
+runningcost=31
 sound=-1
 
 can_lead_from_rear=0
 bidirectional=1
 way_constraint_permissive[0]=0
+increase_maintenance_after_years=21
 
 loading_time=9250
 comfort=145
@@ -178,9 +179,8 @@ engine_type=electric
 copyright=James
 intro_year=1988
 intro_month=2
-#retire_year=2004
-#retire_month=7
-# TODO: Add retirement dates when the class 444 is added.
+retire_year=2001
+retire_month=3
 waytype=track
 freight=Passagiere
 payload=65
@@ -189,12 +189,13 @@ length=13
 
 weight=39
 cost=590000
-runningcost=290
+runningcost=31
 sound=-1
 
 can_lead_from_rear=1
 bidirectional=0
 way_constraint_permissive[0]=0
+increase_maintenance_after_years=21
 
 loading_time=9250
 comfort=145
@@ -211,5 +212,3 @@ EmptyImage[W]=./images/br-442.2.4
 EmptyImage[NW]=./images/br-442.2.5
 EmptyImage[N]=./images/br-442.2.6
 EmptyImage[NE]=./images/br-442.2.7
-
---

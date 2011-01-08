@@ -20,11 +20,32 @@ sound=-1
 can_lead_from_rear=0
 bidirectional=1
 
-loading_time=4000
-comfort=96
+loading_time=4100
+comfort=97
 increase_maintenance_after_years=15
 years_before_maintenance_max_reached=30
 # Wooden bodied vehicles become obsolete sooner.
+
+Constraint[Next][0]=SR-Maunsell-Third(Green)
+Constraint[Next][1]=SR-Maunsell-Brake(Green)
+Constraint[Next][2]=SR-Maunsell-Dining(Green)
+Constraint[Next][3]=SR-Maunsell-Parcels(Green)
+Constraint[Next][4]=SR-Maunsell-Mail(Green)
+Constraint[Next][5]=SR-Maunsell-TPO(Green)
+Constraint[Next][6]=LSWR-Ironclad-Pantry
+Constraint[Next][7]=SR-Bulleid-Express-Coach(Green)
+Constraint[Next][8]=SR-Bulleid-Express-Brake(Green)
+Constraint[Next][9]=SR-Bulleid-Express-Dining(Green)
+Constraint[Next][10]=LSWR-Ironclad-Brake
+Constraint[Next][11]=LSWR-Ironclad
+Constraint[Next][12]=LSWR-Ironclad-Dining
+Constraint[Next][13]=LSWR-Ironclad-Parcels
+Constraint[Next][14]=LSWR-Ironclad-Mail
+Constraint[Next][15]=LSWR-Ironclad-TPO
+Constraint[Next][16]=LSWR-corridor
+Constraint[Next][17]=LSWR-corridor-brake-rear
+Constraint[Next][18]=LSWR-corridor-brake-front
+Constraint[Next][19]=none
 
 EmptyImage[E]=./images/sr-maunsell-brake.0
 EmptyImage[SE]=./images/sr-maunsell-brake.1
@@ -34,4 +55,3 @@ EmptyImage[W]=./images/sr-maunsell-brake.4
 EmptyImage[NW]=./images/sr-maunsell-brake.5
 EmptyImage[N]=./images/sr-maunsell-brake.6
 EmptyImage[NE]=./images/sr-maunsell-brake.7
-

@@ -3,6 +3,7 @@ name=BR-378Rear(LT)
 engine_type=electric
 speed=120
 power=250
+tractive_effort=142
 #gear=420
 copyright=Kieron
 intro_year=2009

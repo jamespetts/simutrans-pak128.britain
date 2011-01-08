@@ -24,7 +24,7 @@ bidirectional=0
 way_constraint_permissive[2]=2
 
 loading_time=5200
-comfort=61
+comfort=96
 
 Constraint[Prev][0]=BR-317-Driving-Rear
 Constraint[Prev][1]=none
@@ -57,7 +57,7 @@ overcrowded_capacity=20
 length=10
 engine_type=electric
 power=764
-tractive_effort=68
+tractive_effort=125
 
 weight=50
 cost=1975000
@@ -69,7 +69,7 @@ bidirectional=0
 way_constraint_permissive[2]=2
 
 loading_time=5200
-comfort=61
+comfort=96
 
 Constraint[Next][0]=BR-317-Trailer
 
@@ -112,7 +112,7 @@ bidirectional=0
 way_constraint_permissive[2]=2
 
 loading_time=5200
-comfort=61
+comfort=96
 
 Constraint[Prev][0]=BR-317-Motor
 
@@ -156,7 +156,7 @@ bidirectional=0
 way_constraint_permissive[2]=2
 
 loading_time=5200
-comfort=61
+comfort=96
 
 Constraint[Next][0]=BR-317-Driving-Front
 Constraint[Next][1]=none
@@ -172,5 +172,3 @@ EmptyImage[W]=./images/br-317-bg-2.1.4
 EmptyImage[NW]=./images/br-317-bg-2.1.5
 EmptyImage[N]=./images/br-317-bg-2.1.6
 EmptyImage[NE]=./images/br-317-bg-2.1.7
-
-

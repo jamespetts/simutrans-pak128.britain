@@ -4,8 +4,8 @@ speed=145
 copyright=James
 intro_year=1890
 intro_month=7
-retire_year=1935
-retire_month=6
+retire_year=1908
+retire_month=2
 waytype=track
 freight=Passagiere
 payload=60
@@ -30,6 +30,12 @@ Constraint[Next][3]=CC-Clerestory-Dining
 Constraint[Next][4]=CC-Clerestory-Parcel-Brake
 Constraint[Next][5]=CC-Clerestory-TPO
 
+Constraint[Prev][0]=CC-Clerestory-Coach
+Constraint[Prev][1]=CC-Clerestory-Brake
+Constraint[Prev][2]=CC-Clerestory-Mail
+Constraint[Prev][3]=CC-Clerestory-Dining
+Constraint[Prev][4]=CC-Clerestory-Parcel-Brake
+Constraint[Prev][5]=CC-Clerestory-TPO
 
 EmptyImage[E]=./images/choc-cream-clerestory.0.0
 EmptyImage[SE]=./images/choc-cream-clerestory.0.1

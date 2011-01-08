@@ -8,8 +8,8 @@ freight=Passagiere
 
 payload=61
 speed=88
-power=95
-gear=90
+power=85
+#gear=90
 weight=7
 length=7
 cost=2650000

@@ -4,7 +4,7 @@ copyright=JamesHood
 waytype=road
 engine_type=diesel
 smoke=Diesel
-power=120
+power=282
 speed=88
 weight=12
 length=3
@@ -48,7 +48,7 @@ copyright=JamesHood
 waytype=road
 engine_type=diesel
 smoke=Diesel
-power=120
+power=282
 speed=88
 weight=12
 length=3
@@ -73,23 +73,15 @@ EmptyImage[NE]=./images/leyland-daf-95-tractor.1.7
 Constraint[Prev][0]=none
 Constraint[Next][0]=LargeArticTrailerMail
 
-
-loading_time=0
-#upgrade[0]=
-#upgrade_price=
-available_only_as_upgrade=0
-fixed_maintenance=09
-overcrowded_capacity=0
-comfort=0
 -------------------------------------
-1987
+
 obj=vehicle
 name=DAFXFArtic
 copyright=JamesHood
 waytype=road
 engine_type=diesel
 smoke=Diesel
-power=130
+power=355
 speed=90
 weight=12
 length=3
@@ -132,7 +124,7 @@ copyright=JamesHood
 waytype=road
 engine_type=diesel
 smoke=Diesel
-power=130
+power=355
 speed=90
 weight=12
 length=3

@@ -16,7 +16,8 @@ length=11
 
 weight=30
 cost=1460000
-runningcost=95
+upgrade_price=1109600
+runningcost=27
 sound=-1
 increase_maintenance_after_years=10
 years_before_maintenance_max_reached=15
@@ -37,7 +38,8 @@ Constraint[Next][1]=BR-414[HAP]Front(Blue-Grey)
 Constraint[Next][2]=BR-419[MLV](Blue-Grey)
 Constraint[Next][3]=BR-499[TLV](Blue-Grey)
 Constraint[Next][4]=BR-423-DTCL-Front
-Constraint[Next][5]=none
+Constraint[Next][5]=BR-4EPB(front)
+Constraint[Next][6]=none
 
 EmptyImage[E]=./images/br-414-bg.1.0
 EmptyImage[SE]=./images/br-414-bg.1.1

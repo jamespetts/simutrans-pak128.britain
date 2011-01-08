@@ -43,9 +43,9 @@ capital_threshold_size = 25000
 # by the growth factors; ergo, the lower the number, the higher the growth. Longer games
 # should have less growth, whereas shorter games do better with more growth.
 
-growthfactor_villages = 600
-growthfactor_cities = 400
-growthfactor_capitals = 200
+growthfactor_villages = 915
+growthfactor_cities = 625
+growthfactor_capitals = 375
 
 # These settings determine the proportion of passengers who travel to industries and
 # attractions respectively. 
@@ -61,7 +61,7 @@ tourist_percentage = 8
 # For example, if the number is set at 2, there will be an equal chance
 # of passengers having 0, 1 or 2 alternative destinations).
 
-max_alternative_destinations = 7
+max_alternative_destinations = 5
 
 # The program will generate three groups of passengers: (1) local;
 # (2) midrange; and (3) long distance. The program will look for a town within
@@ -349,7 +349,7 @@ factory_worker_radius = 128
 ################################## Finance settings #################################
 
 # Starting money of the player. Given in Credit cents (1/100 Cr)
-starting_money = 50000000
+starting_money = 25000000
 
 # Maintenance costs of buildings
 maintenance_building = 1800
@@ -468,7 +468,7 @@ drive_left = 1
 # city_road[0]=name,1900,1920
 # city_road[1]=name2,1921,1950
 
-city_road[0]=city_road,1905,2050
+city_road[0]=city_road,1905,2100
 city_road[1]=cobblestone_road,1781,1904
 city_road[2]=dirt_road,1700,1780
 

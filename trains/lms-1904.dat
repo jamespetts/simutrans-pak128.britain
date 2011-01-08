@@ -1,3 +1,4 @@
+# "High capacity" open third
 obj=vehicle
 name=LMS-d1904-Coach
 speed=160
@@ -8,8 +9,8 @@ retire_year=1951
 retire_month=2
 waytype=track
 freight=Passagiere
-payload=56
-overcrowded_capacity=23
+payload=60
+overcrowded_capacity=25
 length=10
 
 weight=30
@@ -21,13 +22,21 @@ can_lead_from_rear=0
 bidirectional=1
 
 loading_time=7300
-comfort=100
+comfort=110
 
 Constraint[Next][0]=LMS-d1904-Coach
 Constraint[Next][1]=LMS-d2007-Parcel-Brake
 Constraint[Next][2]=LMS-d1904-Dining
 Constraint[Next][3]=LMS-Mail
 Constraint[Next][4]=LMS-TPO
+Constraint[Next][5]=LMS-open-brake-rear
+
+Constraint[Prev][0]=LMS-d1904-Coach
+Constraint[Prev][1]=LMS-d2007-Parcel-Brake
+Constraint[Prev][2]=LMS-d1904-Dining
+Constraint[Prev][3]=LMS-Mail
+Constraint[Prev][4]=LMS-TPO
+Constraint[Prev][5]=LMS-open-brake-front
 
 EmptyImage[E]=./images/lms-d1904-m.0
 EmptyImage[SE]=./images/lms-d1904-m.1
@@ -63,7 +72,7 @@ can_lead_from_rear=0
 bidirectional=1
 
 loading_time=7300
-comfort=100
+comfort=110
 increase_maintenance_after_years=15
 years_before_maintenance_max_reached=30
 # Wooden bodied vehicles become obsolete sooner.
@@ -73,6 +82,14 @@ Constraint[Next][1]=LMS-d2007-Parcel-Brake
 Constraint[Next][2]=LMS-d1904-Dining
 Constraint[Next][3]=LMS-Mail
 Constraint[Next][4]=LMS-TPO
+Constraint[Next][5]=LMS-open-brake-rear
+
+Constraint[Prev][0]=LMS-d1904-Coach
+Constraint[Prev][1]=LMS-d2007-Parcel-Brake
+Constraint[Prev][2]=LMS-d1904-Dining
+Constraint[Prev][3]=LMS-Mail
+Constraint[Prev][4]=LMS-TPO
+Constraint[Prev][5]=LMS-open-brake-front
 
 EmptyImage[E]=./images/lms-d1904-m.0
 EmptyImage[SE]=./images/lms-d1904-m.1

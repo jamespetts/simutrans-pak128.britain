@@ -2,19 +2,18 @@ obj=vehicle
 name=BR-313Pantograph(Blue-Grey)
 engine_type=electric
 speed=120
-power=328
+power=0
+tractive_effort=0
 #gear=680
 copyright=Kieron
 intro_year=1975
 intro_month=12
-intro_month=5
-retire_year=2009
-retire_month=7
-#TODO: This is late - when the Class 350 is added, this should revert to 2004.
+retire_year=1991
+retire_month=12
 waytype=track
 freight=Passagiere
 payload=84
-overcrowded_capacity=30
+overcrowded_capacity=36
 length=11
 
 weight=30

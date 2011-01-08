@@ -2,7 +2,8 @@ obj=vehicle
 name=BR-375-6Front(SE)
 engine_type=electric
 speed=160
-power=250
+power=500
+tractive_effort=158
 #gear=420
 copyright=Kieron
 intro_year=1999
@@ -28,10 +29,10 @@ can_lead_from_rear=1
 bidirectional=0
 
 Constraint[Prev][0]=BR-375-6Rear(SE)
-Constraint[Prev][1]=none
+Constraint[Prev][1]=BR-375Rear(SE)
+Constraint[Prev][2]=none
 
-Constraint[Next][0]=BR-375-6Middle(SE)
-Constraint[Next][1]=BR-375-6Rear(SE)
+Constraint[Next][0]=BR-375-6Middle1(SE)
 
 EmptyImage[E]=./images/br-375-se.0.0
 EmptyImage[SE]=./images/br-375-se.0.1
@@ -45,10 +46,11 @@ EmptyImage[NE]=./images/br-375-se.0.7
 ---
 
 obj=vehicle
-name=BR-375-6Middle(SE)
+name=BR-375-6Middle1(SE)
 engine_type=electric
 speed=160
-power=500
+power=0
+tractive_effort=0
 #gear=420
 copyright=Kieron
 intro_year=1999
@@ -64,6 +66,52 @@ length=11
 weight=40
 cost=1852000
 upgrade_price=89610
+runningcost=45
+sound=-1
+
+loading_time=6400
+comfort=97
+
+can_lead_from_rear=0
+bidirectional=1
+
+Constraint[Prev][0]=BR-375-6Front(SE)
+
+Constraint[Next][0]=BR-375-6Rear(SE)
+Constraint[Next][1]=BR-375-6Middle2(SE)
+
+EmptyImage[E]=./images/br-375-pantograph.0.0
+EmptyImage[SE]=./images/br-375-pantograph.0.1
+EmptyImage[S]=./images/br-375-pantograph.0.2
+EmptyImage[SW]=./images/br-375-pantograph.0.3
+EmptyImage[W]=./images/br-375-pantograph.0.4
+EmptyImage[NW]=./images/br-375-pantograph.0.5
+EmptyImage[N]=./images/br-375-pantograph.0.6
+EmptyImage[NE]=./images/br-375-pantograph.0.7
+
+---
+
+obj=vehicle
+name=BR-375-6Middle2(SE)
+engine_type=electric
+speed=160
+power=500
+tractive_effort=158
+#gear=420
+copyright=Kieron
+intro_year=1999
+intro_month=10
+#retire_year=2025
+#retire_month=1
+waytype=track
+freight=Passagiere
+payload=66
+overcrowded_capacity=22
+length=11
+
+weight=40
+cost=1008000
+upgrade_price=89610
 runningcost=138
 sound=-1
 
@@ -73,13 +121,9 @@ comfort=97
 can_lead_from_rear=0
 bidirectional=1
 
-Constraint[Prev][0]=BR-375Front(SE)
-Constraint[Prev][1]=BR-375Middle(SE)
+Constraint[Prev][0]=BR-375-6Middle1(SE)
 
-Constraint[Next][0]=BR-375Rear(SE)
-Constraint[Next][1]=BR-375Middle(SE)
-
-# TODO: Produce graphic with pantograph for this unit.
+Constraint[Next][0]=BR-375-6Rear(SE)
 
 EmptyImage[E]=./images/br-375-se.1.0
 EmptyImage[SE]=./images/br-375-se.1.1
@@ -96,7 +140,8 @@ obj=vehicle
 name=BR-375-6Rear(SE)
 engine_type=electric
 speed=160
-power=250
+power=500
+tractive_effort=158
 #gear=420
 copyright=Kieron
 intro_year=1999
@@ -121,11 +166,12 @@ comfort=97
 can_lead_from_rear=1
 bidirectional=0
 
-Constraint[Prev][0]=BR-375-6Middle(SE)
-Constraint[Prev][1]=BR-375-6Front(SE)
+Constraint[Prev][0]=BR-375-6Middle2(SE)
+Constraint[Prev][1]=BR-375-6Middle1(SE)
 
 Constraint[Next][0]=BR-375-6Front(SE)
-Constraint[Next][1]=none
+Constraint[Next][1]=BR-375Front(SE)
+Constraint[Next][2]=none
 
 EmptyImage[E]=./images/br-375-se.2.0
 EmptyImage[SE]=./images/br-375-se.2.1

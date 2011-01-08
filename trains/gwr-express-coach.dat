@@ -19,8 +19,9 @@ sound=-1
 
 can_lead_from_rear=0
 bidirectional=1
-loading_time=4000
-comfort=108
+loading_time=4200
+# These are still "all door" types.
+comfort=90
 increase_maintenance_after_years=15
 years_before_maintenance_max_reached=30
 # Wooden bodied vehicles become obsolete sooner.
@@ -32,6 +33,12 @@ Constraint[Next][3]=GWR-Express-Mail
 Constraint[Next][4]=GWR-Express-TPO
 Constraint[Next][5]=GWR-Express-Parcel-Brake
 
+Constraint[Prev][0]=GWR-Express-Coach
+Constraint[Prev][1]=GWR-Express-Brake
+Constraint[Prev][2]=GWR-Express-Dining
+Constraint[Prev][3]=GWR-Express-Mail
+Constraint[Prev][4]=GWR-Express-TPO
+Constraint[Prev][5]=GWR-Express-Parcel-Brake
 
 EmptyImage[E]=./images/gwr-express-coach.0
 EmptyImage[SE]=./images/gwr-express-coach.1
@@ -66,8 +73,8 @@ can_lead_from_rear=0
 bidirectional=1
 catering_level=3
 
-loading_time=4000
-comfort=108
+loading_time=4200
+comfort=98
 increase_maintenance_after_years=15
 years_before_maintenance_max_reached=30
 # Wooden bodied vehicles become obsolete sooner.
@@ -78,6 +85,13 @@ Constraint[Next][2]=GWR-Express-Dining
 Constraint[Next][3]=GWR-Express-Mail
 Constraint[Next][4]=GWR-Express-TPO
 Constraint[Next][5]=GWR-Express-Parcel-Brake
+
+Constraint[Prev][0]=GWR-Express-Coach
+Constraint[Prev][1]=GWR-Express-Brake
+Constraint[Prev][2]=GWR-Express-Dining
+Constraint[Prev][3]=GWR-Express-Mail
+Constraint[Prev][4]=GWR-Express-TPO
+Constraint[Prev][5]=GWR-Express-Parcel-Brake
 
 EmptyImage[E]=./images/gwr-express-coach.0
 EmptyImage[SE]=./images/gwr-express-coach.1

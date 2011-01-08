@@ -1,11 +1,11 @@
 obj=vehicle
 name=Metropolitan-Bogie-Third
-speed=95
+speed=70
 copyright=Kieron
 intro_year=1898
 intro_month=8
-retire_year=1940
-retire_month=3
+retire_year=1919
+retire_month=7
 waytype=track
 freight=Passagiere
 payload=84
@@ -19,8 +19,9 @@ sound=-1
 can_lead_from_rear=0
 bidirectional=1
 
+#TODO: Make these upgradeable to motor coaches and/or push pull vehicles.
 loading_time=3500
-comfort=65
+comfort=68
 
 EmptyImage[E]=./images/met-bogie-third.0
 EmptyImage[SE]=./images/met-bogie-third.1

@@ -61,6 +61,7 @@ increase_maintenance_after_years=8
 years_before_maintenance_max_reached=11
 
 Constraint[Prev][0]=BR-4MT(Black)
+Constraint[Prev][1]=BR-5MT(Black)
 
 EmptyImage[E]=./images/br-4mt.1.0
 EmptyImage[SE]=./images/br-4mt.1.1

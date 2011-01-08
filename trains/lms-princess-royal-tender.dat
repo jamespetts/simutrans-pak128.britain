@@ -20,6 +20,7 @@ increase_maintenance_after_years=6
 years_before_maintenance_max_reached=10
 
 Constraint[Prev][0]=LMS-Princess-Royal(Maroon)
+Constraint[Prev][1]=LMS-Stanier-7P-non-streamlined
 
 EmptyImage[E]=./images/lms-princess-royal.1.0
 EmptyImage[SE]=./images/lms-princess-royal.1.1

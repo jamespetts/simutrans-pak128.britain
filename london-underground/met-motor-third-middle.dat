@@ -1,6 +1,6 @@
 obj=vehicle
 name=Metropolitan-Motor-Third-Middle
-speed=95
+speed=65
 engine_type=electric
 power=0
 copyright=Kieron

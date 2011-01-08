@@ -25,6 +25,7 @@ years_before_maintenance_max_reached=12
 
 can_lead_from_rear=0
 bidirectional=1
+upgrade[0]=BR-2MT-Tank(Black)-Push-Pull
 
 EmptyImage[E]=./images/br-2mt-tank.0.0
 EmptyImage[SE]=./images/br-2mt-tank.0.1
@@ -35,3 +36,42 @@ EmptyImage[NW]=./images/br-2mt-tank.0.5
 EmptyImage[N]=./images/br-2mt-tank.0.6
 EmptyImage[NE]=./images/br-2mt-tank.0.7
 
+---
+
+obj=vehicle
+name=BR-2MT-Tank(Black)-Push-Pull
+engine_type=steam
+smoke=Steam
+speed=135
+#gear=300
+power=551
+tractive_effort=82
+copyright=Kieron
+intro_year=1953
+intro_month=7
+retire_year=1957
+retire_month=6
+waytype=track
+freight=None
+payload=0
+length=7
+
+weight=67
+cost=3275000
+upgrade_price=95000
+runningcost=601
+sound=-1
+increase_maintenance_after_years=6
+years_before_maintenance_max_reached=12
+
+can_lead_from_rear=0
+bidirectional=1
+
+EmptyImage[E]=./images/br-2mt-tank.0.0
+EmptyImage[SE]=./images/br-2mt-tank.0.1
+EmptyImage[S]=./images/br-2mt-tank.0.2
+EmptyImage[SW]=./images/br-2mt-tank.0.3
+EmptyImage[W]=./images/br-2mt-tank.0.4
+EmptyImage[NW]=./images/br-2mt-tank.0.5
+EmptyImage[N]=./images/br-2mt-tank.0.6
+EmptyImage[NE]=./images/br-2mt-tank.0.7

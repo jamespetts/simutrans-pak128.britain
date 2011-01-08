@@ -16,7 +16,7 @@ length=11
 
 weight=41
 cost=1272000
-runningcost=264
+runningcost=44
 sound=-1
 increase_maintenance_after_years=13
 
@@ -28,7 +28,7 @@ loading_time=6000
 comfort=97
 
 Constraint[Prev][0]=BR-309Middle(Blue-Grey)
-Constraint[Next][1]=BR-309Griddle(Blue-Grey)
+Constraint[Prev][1]=BR-309Griddle(Blue-Grey)
 Constraint[Prev][2]=BR-309/1Front(Blue-Grey)
 
 Constraint[Next][0]=BR-309/1Front(Blue-Grey)

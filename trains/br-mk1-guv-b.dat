@@ -22,6 +22,8 @@ comfort=0
 can_lead_from_rear=0
 bidirectional=1
 
+Constraint[Next][0]=any
+
 EmptyImage[E]=./images/br-mk1-guv-b.0
 EmptyImage[SE]=./images/br-mk1-guv-b.1
 EmptyImage[S]=./images/br-mk1-guv-b.2

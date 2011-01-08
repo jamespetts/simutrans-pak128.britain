@@ -25,6 +25,14 @@ increase_maintenance_after_years=15
 years_before_maintenance_max_reached=30
 # Wooden bodied vehicles become obsolete sooner.
 
+Constraint[Next][0]=GWR-Express-Coach
+Constraint[Next][1]=GWR-Express-Brake
+Constraint[Next][2]=GWR-Express-Dining
+Constraint[Next][3]=GWR-Express-Mail
+Constraint[Next][4]=GWR-Express-TPO
+Constraint[Next][5]=GWR-Express-Parcel-Brake
+Constraint[Next][6]=none
+
 EmptyImage[E]=./images/gwr-express-parcel-brake.0
 EmptyImage[SE]=./images/gwr-express-parcel-brake.1
 EmptyImage[S]=./images/gwr-express-parcel-brake.2

@@ -32,6 +32,12 @@ Constraint[Next][3]=GWR-Express-Mail
 Constraint[Next][4]=GWR-Express-TPO
 Constraint[Next][5]=GWR-Express-Parcel-Brake
 
+Constraint[Prev][0]=GWR-Express-Coach
+Constraint[Prev][1]=GWR-Express-Brake
+Constraint[Prev][2]=GWR-Express-Dining
+Constraint[Prev][3]=GWR-Express-Mail
+Constraint[Prev][4]=GWR-Express-TPO
+Constraint[Prev][5]=GWR-Express-Parcel-Brake
 
 EmptyImage[E]=./images/gwr-express-mail.0
 EmptyImage[SE]=./images/gwr-express-mail.1
@@ -77,6 +83,13 @@ Constraint[Next][2]=GWR-Express-Dining
 Constraint[Next][3]=GWR-Express-Mail
 Constraint[Next][4]=GWR-Express-TPO
 Constraint[Next][5]=GWR-Express-Parcel-Brake
+
+Constraint[Prev][0]=GWR-Express-Coach
+Constraint[Prev][1]=GWR-Express-Brake
+Constraint[Prev][2]=GWR-Express-Dining
+Constraint[Prev][3]=GWR-Express-Mail
+Constraint[Prev][4]=GWR-Express-TPO
+Constraint[Prev][5]=GWR-Express-Parcel-Brake
 
 EmptyImage[E]=./images/gwr-express-tpo.0
 EmptyImage[SE]=./images/gwr-express-tpo.1

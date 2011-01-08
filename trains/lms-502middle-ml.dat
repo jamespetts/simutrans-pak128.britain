@@ -6,19 +6,18 @@ power=0
 copyright=Kieron
 intro_year=1939
 intro_month=8
-retire_year=1968
-retire_month=1
+retire_year=1956
+retire_month=4
 waytype=track
 freight=Passagiere
 payload=102
-overcrowded_capacity=36
+overcrowded_capacity=55
 length=11
 
 weight=24
-cost=16320
-runningcost=137
+cost=163200
+runningcost=65
 sound=-1
-increase_maintenance_after_years=10
 
 can_lead_from_rear=0
 bidirectional=1
@@ -27,10 +26,8 @@ loading_time=6400
 comfort=90
 
 Constraint[Prev][0]=LMS-502Front(Maroon)
-Constraint[Prev][1]=LMS-502Middle(Maroon)
 
 Constraint[Next][0]=LMS-502Rear(Maroon)
-Constraint[Next][1]=LMS-502Middle(Maroon)
 
 EmptyImage[E]=./images/lms-502-ml.1.0
 EmptyImage[SE]=./images/lms-502-ml.1.1

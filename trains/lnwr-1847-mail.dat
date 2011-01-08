@@ -31,6 +31,16 @@ Constraint[Next][6]=LNWR-1847-Mail
 Constraint[Next][7]=LNWR-6Wheel-Mail
 Constraint[Next][8]=MSLR-4Wheel-Mail
 
+Constraint[Prev][0]=LNWR-6Wheel-First
+Constraint[Prev][1]=LNWR-6Wheel-Guard
+Constraint[Prev][2]=MSLR-4Wheel-Composite
+Constraint[Prev][3]=MSLR-4Wheel-Brake
+Constraint[Prev][4]=LNWR-1847-First
+Constraint[Prev][5]=LNWR-1847-Brake
+Constraint[Prev][6]=LNWR-1847-Mail
+Constraint[Prev][7]=LNWR-6Wheel-Mail
+Constraint[Prev][8]=MSLR-4Wheel-Mail
+
 EmptyImage[E]=./images/lnwr-1847-mail.0
 EmptyImage[SE]=./images/lnwr-1847-mail.1
 EmptyImage[S]=./images/lnwr-1847-mail.2

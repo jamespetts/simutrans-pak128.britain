@@ -22,6 +22,27 @@ bidirectional=1
 loading_time=6400
 comfort=0
 
+Constraint[Next][0]=SR-Maunsell-Third(Green)
+Constraint[Next][1]=SR-Maunsell-Brake(Green)
+Constraint[Next][2]=SR-Maunsell-Dining(Green)
+Constraint[Next][3]=SR-Maunsell-Parcels(Green)
+Constraint[Next][4]=SR-Maunsell-Mail(Green)
+Constraint[Next][5]=SR-Maunsell-TPO(Green)
+Constraint[Next][6]=LSWR-Ironclad-Pantry
+Constraint[Next][7]=SR-Bulleid-Express-Coach(Green)
+Constraint[Next][8]=SR-Bulleid-Express-Brake(Green)
+Constraint[Next][9]=SR-Bulleid-Express-Dining(Green)
+Constraint[Next][10]=LSWR-Ironclad-Brake
+Constraint[Next][11]=LSWR-Ironclad
+Constraint[Next][12]=LSWR-Ironclad-Dining
+Constraint[Next][13]=LSWR-Ironclad-Parcels
+Constraint[Next][14]=LSWR-Ironclad-Mail
+Constraint[Next][15]=LSWR-Ironclad-TPO
+Constraint[Next][16]=LSWR-corridor
+Constraint[Next][17]=LSWR-corridor-brake-rear
+Constraint[Next][18]=LSWR-corridor-brake-front
+Constraint[Next][19]=none
+
 EmptyImage[E]=./images/sr-maunsell-parcels.0
 EmptyImage[SE]=./images/sr-maunsell-parcels.1
 EmptyImage[S]=./images/sr-maunsell-parcels.2

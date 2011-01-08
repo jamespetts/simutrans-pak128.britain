@@ -16,7 +16,7 @@ length=11
 
 weight=31
 cost=1300000
-runningcost=132
+runningcost=24
 sound=-1
 
 can_lead_from_rear=0

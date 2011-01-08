@@ -1,7 +1,7 @@
 obj=vehicle
 name=SR-401[BIL]Rear(Green)
 engine_type=electric
-speed=97
+speed=120
 power=0
 copyright=Kieron
 intro_year=1935
@@ -16,20 +16,21 @@ length=11
 
 weight=31
 cost=1512000
-runningcost=122
+runningcost=37
 sound=-1
 increase_maintenance_after_years=23
 
 can_lead_from_rear=1
 bidirectional=0
 
-loading_time=4000
+loading_time=4100
 comfort=82
 
 Constraint[Prev][0]=SR-401[BIL]Front(Green)
 
 Constraint[Next][0]=SR-401[BIL]Front(Green)
-Constraint[Next][1]=none
+Constraint[Next][1]=SR-4LAV(front)
+Constraint[Next][2]=none
 
 EmptyImage[E]=./images/sr-bil-g.1.0
 EmptyImage[SE]=./images/sr-bil-g.1.1

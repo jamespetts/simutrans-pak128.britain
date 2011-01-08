@@ -72,6 +72,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <None Include="attractions\old_school.dat" />
+    <None Include="attractions\stonechurch.dat" />
     <None Include="boats\boats192\ss-great-britain.dat" />
     <None Include="boats\boats192\ss-great-western.dat" />
     <None Include="boats\boats224\ss-great-eastern.dat" />
@@ -101,6 +103,7 @@
     <None Include="bus\morris-ld.dat" />
     <None Include="bus\morris-marina-van.dat" />
     <None Include="bus\morris-minor-van.dat" />
+    <None Include="bus\optare-alero.dat" />
     <None Include="bus\RHVolvoOlympian.dat" />
     <None Include="bus\scammell-1955-artic.dat" />
     <None Include="bus\scammell-crusader.dat" />
@@ -119,18 +122,53 @@
     <None Include="industry\fishing-port.dat" />
     <None Include="industry\gas-power-stations.dat" />
     <None Include="trains\br-150-rr.dat" />
+    <None Include="trains\br-307.dat" />
+    <None Include="trains\br-321.dat" />
+    <None Include="trains\br-444.dat" />
+    <None Include="trains\br-450.dat" />
+    <None Include="trains\br-4epb.dat" />
     <None Include="trains\br-315.dat" />
     <None Include="trains\br-317-bg.dat" />
     <None Include="trains\br-375-dual-voltage.dat" />
     <None Include="trains\br-455-bg.dat" />
     <None Include="trains\br-456-nse.dat" />
+    <None Include="trains\br-507.dat" />
     <None Include="trains\br-5mt.dat" />
+    <None Include="trains\c2c-357.dat" />
     <None Include="trains\gwr-517.dat" />
     <None Include="trains\gwr-churchward-star-tender.dat" />
     <None Include="trains\gwr-churchward-star.dat" />
     <None Include="trains\gwr-hawksworth-county.dat" />
+    <None Include="trains\lbscr-balloon.dat" />
+    <None Include="trains\lbscr-bogie-sub.dat" />
+    <None Include="trains\lbscr-d1.dat" />
+    <None Include="trains\lbscr-e3.dat" />
+    <None Include="trains\lbscr-i3.dat" />
+    <None Include="trains\lbscr-j.dat" />
+    <None Include="trains\lbscr-non-cor-lav.dat" />
+    <None Include="trains\lms-0-4-4T.dat" />
+    <None Include="trains\lms-2p.dat" />
+    <None Include="trains\lms-4p-tanks.dat" />
+    <None Include="trains\lms-4p.dat" />
+    <None Include="trains\lms-non-cor.dat" />
+    <None Include="trains\lms-open-brake.dat" />
+    <None Include="trains\lms-push-pull.dat" />
+    <None Include="trains\lnwr-precedent.dat" />
+    <None Include="trains\lswr-corridor.dat" />
+    <None Include="trains\lswr-emu.dat" />
+    <None Include="trains\lswr-ironclads.dat" />
     <None Include="trains\lswr-n15.dat" />
+    <None Include="trains\mr-1632.dat" />
+    <None Include="trains\mr-1833.dat" />
     <None Include="trains\mr-2441.dat" />
+    <None Include="trains\mr-483.dat" />
+    <None Include="trains\mr-non-cor.dat" />
+    <None Include="trains\mr-push-pull.dat" />
+    <None Include="trains\sr-3sub.dat" />
+    <None Include="trains\sr-4-lav.dat" />
+    <None Include="trains\sr-6-pan.dat" />
+    <None Include="trains\SR-augmentation-trailer.dat" />
+    <None Include="trains\sr-bullied-4-sub.dat" />
     <None Include="trams\1-deck-closed.dat" />
     <None Include="trams\1-deck-trailer.dat" />
     <None Include="industry\1750-china-shop.dat" />
@@ -433,6 +471,7 @@
     <None Include="boats\boats192\east-indiaman.dat" />
     <None Include="..\..\simutrans-experimental-binaries\text\en\edittools.txt" />
     <None Include="..\..\simutrans-experimental-binaries\text\en\electricity.txt" />
+    <None Include="ways\early-brick-bridge.dat" />
     <None Include="ways\electrification.dat" />
     <None Include="text\en.tab" />
     <None Include="stations\extensions.dat" />
@@ -850,7 +889,6 @@
     <None Include="trains\sr-schools.dat" />
     <None Include="trains\sr-wc-4-6-2-rebuilt.dat" />
     <None Include="trains\sr-wc-4-6-2.dat" />
-    <None Include="trains\sr[cor]middle1-g.dat" />
     <None Include="ways\sssr.dat" />
     <None Include="bus\stage-wagons.dat" />
     <None Include="bus\stagecoach.dat" />

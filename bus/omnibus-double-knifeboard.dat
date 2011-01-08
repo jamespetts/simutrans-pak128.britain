@@ -1,10 +1,9 @@
 obj=vehicle
 name=OmnibusDoubleKnifeboard
 copyright=JamesPetts&JamesHood
-
 waytype=road
 freight=Passagiere
-payload=30
+payload=24
 overcrowded_capacity=2
 speed=18
 weight=4

@@ -16,7 +16,7 @@ power=0
 
 weight=36
 cost=1575000
-runningcost=125
+runningcost=33
 sound=-1
 increase_maintenance_after_years=23
 
@@ -60,6 +60,7 @@ payload=64
 overcrowded_capacity=21
 length=11
 power=750
+tractive_effort=116
 engine_type=electric
 
 weight=41
@@ -91,6 +92,7 @@ EmptyImage[NE]=./images/br-423-bg-1.1.7
 
 obj=vehicle
 name=BR-423-TSO
+engine_type=electric
 speed=140
 copyright=Kieron&JamesPetts
 intro_year=1967
@@ -105,7 +107,7 @@ length=11
 
 weight=34
 cost=1575000
-runningcost=125
+runningcost=28
 sound=-1
 increase_maintenance_after_years=23
 
@@ -148,7 +150,7 @@ power=0
 
 weight=36
 cost=1575000
-runningcost=125
+runningcost=33
 sound=-1
 increase_maintenance_after_years=23
 

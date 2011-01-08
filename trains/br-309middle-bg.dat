@@ -1,5 +1,6 @@
 obj=vehicle
 name=BR-309Middle(Blue-Grey)
+engine_type=electric
 speed=160
 copyright=Kieron
 intro_year=1962
@@ -14,7 +15,7 @@ length=11
 
 weight=34
 cost=1272000
-runningcost=264
+runningcost=32
 sound=-1
 increase_maintenance_after_years=13
 
@@ -41,6 +42,7 @@ EmptyImage[NE]=./images/br-mk1-bg.7
 
 obj=vehicle
 name=BR-309Griddle(Blue-Grey)
+engine_type=electric
 speed=160
 copyright=Kieron
 intro_year=1962
@@ -55,7 +57,7 @@ length=11
 
 weight=36
 cost=1332000
-runningcost=305
+runningcost=62
 sound=-1
 increase_maintenance_after_years=13
 

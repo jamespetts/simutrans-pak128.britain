@@ -28,7 +28,6 @@ Constraint[Next][0]=BR-Mk4-TSO(Intercity)
 Constraint[Next][1]=BR-Mk4-DVT(Intercity)
 Constraint[Next][2]=BR-Mk4-RSB(Intercity)
 
-
 EmptyImage[E]=./images/br-mk4-rsb-ic.0
 EmptyImage[SE]=./images/br-mk4-rsb-ic.1
 EmptyImage[S]=./images/br-mk4-rsb-ic.2

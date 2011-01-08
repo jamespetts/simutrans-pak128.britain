@@ -28,6 +28,50 @@ years_before_maintenance_max_reached=12
 
 can_lead_from_rear=0
 bidirectional=1
+upgrade[0]=LMS-3F-Jinty-Push-Pull
+
+EmptyImage[E]=./images/lms-jinty.0
+EmptyImage[SE]=./images/lms-jinty.1
+EmptyImage[S]=./images/lms-jinty.2
+EmptyImage[SW]=./images/lms-jinty.3
+EmptyImage[W]=./images/lms-jinty.4
+EmptyImage[NW]=./images/lms-jinty.5
+EmptyImage[N]=./images/lms-jinty.6
+EmptyImage[NE]=./images/lms-jinty.7
+
+---
+
+obj=vehicle
+name=LMS-3F-Jinty-Push-Pull
+engine_type=steam
+smoke=Steam
+speed=75
+#gear=190
+power=400
+tractive_effort=93
+copyright=Kieron
+intro_year=1924
+intro_month=6
+retire_year=1953
+retire_month=11
+# In reality, these were only built until 1931.
+# However, there are no suitable replacements yet.
+waytype=track
+freight=None
+payload=0
+length=6
+
+weight=49
+cost=1584000
+upgrade_price=55000
+runningcost=199
+sound=-1
+increase_maintenance_after_years=9
+years_before_maintenance_max_reached=12
+
+can_lead_from_rear=0
+bidirectional=1
+upgrade[0]=LMS-3F-Jinty-Push-Pull
 
 EmptyImage[E]=./images/lms-jinty.0
 EmptyImage[SE]=./images/lms-jinty.1

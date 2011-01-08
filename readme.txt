@@ -159,4 +159,21 @@ HISTORY
 	CHANGE: MOSE script and parameters (neroden)
 	ADD: more shop graphics (Archon & Wlindley)
 	ADD: HQs (Wlindley)
-	
+13/06/2010: r291-r294
+	ADD: More citybuildings (Archon)
+	FIX: Correct syntax for tram waytypes
+	FIX: River and canal upgrade costs
+12/09/2010: r317-320
+	FIX: various bus and truck weights were incorrect (AEO)
+	FIX: various rail vehicle constraints were broken (AEO)
+	FIX: graphical glitch on brick station with overroof
+	FIX: LNWR PoW class intro date was wrong (Archon)
+	FIX: LNER A3 graphics had some stray pixels (AEO)
+	ADD: Three new boats
+	ADD: New EMUs (JamesPetts)
+	ADD: Volvo RH Class bus (VOLVO)
+	ADD: VOLVO's citycars (VOLVO)
+	ADD: Open crossings for early years (WLindley)
+	ADD: Snow images for AHB Crossing
+26/10/2010: r329 (release of 1.08)
+	ADD: SS Great Britain, SS Great Eastern, Iron Paddle Steamer

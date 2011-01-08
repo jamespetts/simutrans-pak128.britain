@@ -20,8 +20,12 @@ sound=-1
 can_lead_from_rear=0
 bidirectional=1
 
-loading_time=4000
-comfort=108
+loading_time=4200
+# These are still "all door" types.
+comfort=98
+increase_maintenance_after_years=15
+years_before_maintenance_max_reached=30
+# Wooden bodied vehicles become obsolete sooner.
 
 EmptyImage[E]=./images/gwr-express-brake.0
 EmptyImage[SE]=./images/gwr-express-brake.1

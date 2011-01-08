@@ -1,0 +1,77 @@
+obj=vehicle
+name=LMS-2P
+engine_type=steam
+smoke=Steam
+speed=125
+#gear=400
+power=910
+tractive_effort=79
+copyright=James
+intro_year=1928
+intro_month=1
+retire_year=1932
+retire_month=7
+waytype=track
+freight=None
+payload=0
+length=6
+
+weight=55
+cost=7025000
+runningcost=745
+sound=-1
+increase_maintenance_after_years=23
+years_before_maintenance_max_reached=18
+
+Constraint[Next][0]=LMS-2P-Tender
+
+# Consider whether this needs its own graphic.
+# The only visual difference from the 1000 class
+# was the absence of outside cylinders (not
+# easily visible in these pngs) and black livery.
+# The black livery here has been produced in the 
+# GIMP, and loses a little detail with the 
+# lettering.
+
+EmptyImage[E]=./images/lms-2p.0.0
+EmptyImage[SE]=./images/lms-2p.0.1
+EmptyImage[S]=./images/lms-2p.0.2
+EmptyImage[SW]=./images/lms-2p.0.3
+EmptyImage[W]=./images/lms-2p.0.4
+EmptyImage[NW]=./images/lms-2p.0.5
+EmptyImage[N]=./images/lms-2p.0.6
+EmptyImage[NE]=./images/lms-2p.0.7
+
+---
+
+obj=vehicle
+name=LMS-2P-Tender
+speed=125
+power=0
+copyright=James
+intro_year=1928
+intro_month=1
+retire_year=1932
+retire_month=7
+waytype=track
+freight=None
+payload=0
+length=4
+
+weight=43
+cost=0
+runningcost=0
+sound=-1
+increase_maintenance_after_years=23
+
+Constraint[Prev][0]=LMS-2P
+
+EmptyImage[E]=./images/lms-2p.1.0
+EmptyImage[SE]=./images/lms-2p.1.1
+EmptyImage[S]=./images/lms-2p.1.2
+EmptyImage[SW]=./images/lms-2p.1.3
+EmptyImage[W]=./images/lms-2p.1.4
+EmptyImage[NW]=./images/lms-2p.1.5
+EmptyImage[N]=./images/lms-2p.1.6
+EmptyImage[NE]=./images/lms-2p.1.7
+

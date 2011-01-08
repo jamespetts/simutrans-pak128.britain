@@ -3,6 +3,7 @@ name=BR-390RearCab(Virgin)
 engine_type=electric
 speed=225
 power=855
+tractive_effort=155
 #gear=400
 copyright=Kieron
 intro_year=2003

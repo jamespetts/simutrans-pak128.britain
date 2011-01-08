@@ -3,6 +3,7 @@ name=BR-309/1Front(Blue-Grey)
 engine_type=electric
 speed=160
 power=846
+tractive_effort=90
 #gear=340
 copyright=Kieron
 intro_year=1962

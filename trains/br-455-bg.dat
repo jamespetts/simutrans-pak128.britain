@@ -9,7 +9,7 @@ retire_month=9
 waytype=track
 freight=Passagiere
 payload=74
-overcrowded_capacity=26
+overcrowded_capacity=32
 length=10
 engine_type=electric
 power=0
@@ -54,10 +54,11 @@ retire_month=9
 waytype=track
 freight=Passagiere
 payload=84
-overcrowded_capacity=30
+overcrowded_capacity=36
 length=10
 engine_type=electric
 power=746
+tractive_effort=137
 
 weight=50
 cost=1860000
@@ -72,6 +73,7 @@ loading_time=5200
 comfort=61
 
 Constraint[Next][0]=BR-455-Trailer
+Constraint[Next][1]=BR-507(centre2)
 
 Constraint[Prev][0]=BR-455-Driving-Front
 
@@ -97,7 +99,7 @@ retire_month=9
 waytype=track
 freight=Passagiere
 payload=86
-overcrowded_capacity=30
+overcrowded_capacity=36
 length=10
 engine_type=electric
 power=0
@@ -140,7 +142,7 @@ retire_month=9
 waytype=track
 freight=Passagiere
 payload=74
-overcrowded_capacity=26
+overcrowded_capacity=32
 length=10
 engine_type=electric
 power=0
@@ -161,8 +163,8 @@ Constraint[Next][0]=BR-456-DMSO
 Constraint[Next][1]=BR-455-Driving-Front
 Constraint[Next][2]=none
 
-
 Constraint[Prev][0]=BR-455-Trailer
+Constraint[Prev][1]=BR-507(centre2)
 
 EmptyImage[E]=./images/br-455-bg-2.1.0
 EmptyImage[SE]=./images/br-455-bg-2.1.1
@@ -172,5 +174,3 @@ EmptyImage[W]=./images/br-455-bg-2.1.4
 EmptyImage[NW]=./images/br-455-bg-2.1.5
 EmptyImage[N]=./images/br-455-bg-2.1.6
 EmptyImage[NE]=./images/br-455-bg-2.1.7
-
-

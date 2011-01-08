@@ -1,5 +1,3 @@
-#TODO: Produce a non-streamlined version of the Princess Coronation
-
 obj=vehicle
 name=LMS-Stanier-7P(Maroon)
 engine_type=steam
@@ -7,24 +5,26 @@ smoke=Steam
 speed=170
 #gear=380
 power=2450
-tractive_effort=147
+tractive_effort=180
 copyright=Kieron
 intro_year=1937
 intro_month=6
-retire_year=1954
-retire_month=4
+retire_year=1946
+retire_month=2
 waytype=track
 freight=None
 payload=0
 length=9
 
-weight=108
+weight=110
 cost=10458000
 runningcost=2343
 sound=-1
 air_resistance=884
-increase_maintenance_after_years=6
+increase_maintenance_after_years=14
 years_before_maintenance_max_reached=10
+
+upgrade[0]=LMS-Stanier-7P-non-streamlined
 
 Constraint[Next][0]=LMS-Stanier-7P-Tender(Maroon)
 
@@ -36,4 +36,43 @@ EmptyImage[W]=./images/lms-stanier-7p.0.4
 EmptyImage[NW]=./images/lms-stanier-7p.0.5
 EmptyImage[N]=./images/lms-stanier-7p.0.6
 EmptyImage[NE]=./images/lms-stanier-7p.0.7
+
+---
+
+obj=vehicle
+name=LMS-Stanier-7P-non-streamlined
+engine_type=steam
+smoke=Steam
+speed=170
+#gear=380
+power=2450
+tractive_effort=180
+copyright=Kieron
+intro_year=1946
+intro_month=2
+retire_year=1954
+retire_month=4
+waytype=track
+freight=None
+payload=0
+length=8
+
+weight=107
+cost=10020000
+upgrade_price=10000
+runningcost=2100
+sound=-1
+increase_maintenance_after_years=7
+years_before_maintenance_max_reached=10
+
+Constraint[Next][0]=LMS-Princess-Royal-Tender(Maroon)
+
+EmptyImage[E]=./images/lms-8p-non-streamlined.0.0
+EmptyImage[SE]=./images/lms-8p-non-streamlined.0.1
+EmptyImage[S]=./images/lms-8p-non-streamlined.0.2
+EmptyImage[SW]=./images/lms-8p-non-streamlined.0.3
+EmptyImage[W]=./images/lms-8p-non-streamlined.0.4
+EmptyImage[NW]=./images/lms-8p-non-streamlined.0.5
+EmptyImage[N]=./images/lms-8p-non-streamlined.0.6
+EmptyImage[NE]=./images/lms-8p-non-streamlined.0.7
 

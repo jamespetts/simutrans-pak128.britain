@@ -5,13 +5,13 @@ copyright=Kieron/James
 intro_year=1870
 intro_month=12
 intro_month=3
-retire_year=1888
+retire_year=1906
 waytype=track
 freight=Post
 payload=34
 length=6
 
-weight=12
+weight=10
 cost=320000
 runningcost=22
 sound=-1
@@ -26,6 +26,13 @@ Constraint[Next][2]=GNR-4Wheel-Composite
 Constraint[Next][3]=GNR-4Wheel-Brake
 Constraint[Next][4]=GNR-6Wheel-Mail
 Constraint[Next][5]=GNR-4Wheel-Mail
+
+Constraint[Prev][0]=GNR-6Wheel-First
+Constraint[Prev][1]=GNR-6Wheel-Guard
+Constraint[Prev][2]=GNR-4Wheel-Composite
+Constraint[Prev][3]=GNR-4Wheel-Brake
+Constraint[Prev][4]=GNR-6Wheel-Mail
+Constraint[Prev][5]=GNR-4Wheel-Mail
 
 EmptyImage[E]=./images/gnr-4wheel-mail.0
 EmptyImage[SE]=./images/gnr-4wheel-mail.1

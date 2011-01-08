@@ -4,6 +4,7 @@ engine_type=electric
 speed=80
 #gear=100
 power=131
+tractive_effort=55
 copyright=Kieron
 intro_year=1987
 intro_month=3

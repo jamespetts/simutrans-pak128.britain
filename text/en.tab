@@ -81,7 +81,7 @@ Brick Railway Viaduct
 BrickViaduct320
 Brick Railway Viaduct
 WoodenTrestle
-Wooden Trestle Rail Bridge 
+Wooden Trestle Rail Bridge
 WoodenTrestleHeavy
 Wooden Trestle Rail Bridge (heavy)
 ShortSteelGirder
@@ -494,6 +494,8 @@ NelsonColumn2
 Nelson's Column
 Fountain
 Fountain
+Old_brick_school
+Victorian School
 #____________________________________factory____________________________________
 #____________________________________factory____________________________________
 ArableFarm1750
@@ -1032,8 +1034,20 @@ PowerSource
 Distribution substation
 remove tracks
 Remove railway tracks
-Remove wayobj track
-Remove electrification
+Remove wayobj %s
+Remove electrification %s
+track
+(rail)
+tram_track
+(tramway)
+road
+(road)
+monorail_track
+(monorail)
+narrowgauge_track
+(narrow gauge rail)
+maglev_track
+(maglev)
 #_________________________________program_text__________________________________
 #_________________________________program_text__________________________________
 CATEGORY_01
@@ -1145,15 +1159,15 @@ Canal tunnel
 #____________________________________rail-vehicle____________________________________
 #____________________________________rail-vehicle____________________________________
 DLR-P86Front
-Docklands Light Railway P86 (front)
+Docklands Light Railway P86
 DLR-P86Rear
 Docklands Light Railway P86 (rear)
 DLR-B92Front
-Docklands Light Railway B92 (front)
+Docklands Light Railway B92
 DLR-B92Rear
 Docklands Light Railway B92 (rear)
 DLR-B07Front
-Docklands Light Railway B07 (front)
+Docklands Light Railway B07
 DLR-B07Rear
 Docklands Light Railway B07 (rear)
 Metropolitan-Class-E
@@ -1166,8 +1180,12 @@ LMR-Rocket-Tender
 LMR "Rocket" (tender)
 LBSCR-A1
 LBSCR Class A1 "Terrier" 0-6-0T
+LBSCR-D1
+LBSCR Class D1 0-4-2T
 LMS-3F-Jinty
 LMS Class 3F "Jinty" 0-6-0T
+LMS-3F-Jinty-Push-Pull
+LMS Class 3F "Jinty" 0-6-0T (push-pull)
 GWR-PannierTank
 GWR Pannier Tank 57xx 0-6-0T
 MR-Kirtley156(Maroon)
@@ -1228,7 +1246,7 @@ LNER-A3(Green)
 LNER Class A3 4-6-2
 LNER-A1-Tender(Green)
 LNER Class A1/A3 (tender)
-BR-5MT(Green)
+BR-5MT(Black)
 BR Standard Class 5MT 2-6-0
 BR-7MT(Green)
 BR Standard Class 7MT "Britannia" 4-6-2
@@ -1404,9 +1422,9 @@ SR-404[COR]Middle(Green)
 SR 4-Cor EMU (middle)
 SR-404[COR]Middle1(Green)
 SR 4-Cor EMU (middle)
-SR-404[COR]Middle-buf(Green)
+SR-404[COR]Middle-Buf(Green)
 SR 4-Cor EMU (buffet car)
-SR-404[COR]Middle-res(Green)
+SR-404[COR]Middle-Res(Green)
 SR 4-Cor EMU (restaurant car)
 SR-404[COR]Middle2(Green)
 SR 4-Cor EMU (middle)
@@ -1415,7 +1433,27 @@ SR 4-Cor EMU (rear)
 SR-401[BIL]Front(Green)
 SR 2-Bil EMU
 SR-401[BIL]Rear(Green)
-SR 2B-il EMU (rear)
+SR 2-Bil EMU (rear)
+SR-4LAV(front)
+SR 4-LAV EMU
+SR-4LAV(rear)
+SR 4-LAV EMU (rear)
+SR-4LAV(centre1)
+SR 4-LAV EMU (centre)
+SR-4LAV(centre2)
+SR 4-LAV EMU (centre, with lavatory)
+SR-6PAN(front)
+SR 6-PAN EMU
+SR-6PAN(trailer1)
+SR 6-PAN EMU (centre)
+SR-6PAN(trailer2)
+SR 6-PAN EMU (centre)
+SR-6PAN(buffet)
+SR 6-PAN EMU (pantry car)
+SR-6PAN(trailer4)
+SR 6-PAN EMU (centre)
+SR6-PAN(rear)
+SR 6-PAN EMU (rear)
 BR-370FrontCab(IC)
 BR Class 370 APT
 BR-370Coach(IC)
@@ -1436,6 +1474,8 @@ SR-Bulleid-Express-Coach(Green)
 SR Bulleid Express Carriage
 BR-180Middle(FGW)
 BR Class 180 "Adelante" (middle)
+BR-180Middle-Buffet(FGW)
+BR Class 180 "Adelante" (buffet)
 BR-180Rear(FGW)
 BR Class 180 "Adelante" (rear)
 BR-220Middle(Virgin)
@@ -1455,7 +1495,7 @@ BR Class 456 EMU (DMSO)
 BR-456-DTSO
 BR Class 456 EMU (DTSO)
 BR-455-Driving-Front
-BR Class 455 EMU (front)
+BR Class 455 EMU
 BR-455-Motor
 BR Class 455 EMU (power)
 BR-455-Trailer
@@ -1463,7 +1503,7 @@ BR Class 455 EMU (trailer)
 BR-455-Driving-Rear
 BR Class 455 EMU (rear)
 BR-317-Driving-Front
-BR Class 317 EMU (front)
+BR Class 317 EMU
 BR-317-Motor
 BR Class 317 EMU (power)
 BR-317-Trailer
@@ -1473,23 +1513,35 @@ BR Class 317 (rear)
 BR-365Front(NSE)
 BR Class 365 "Networker Express" EMU
 BR-365Middle(NSE)
-BR Class 365 "Networker Express" EMU (middle)
+BR Class 365 "Networker Express" EMU (centre)
 BR-365Power(NSE)
 BR Class 365 "Networker Express" EMU (power)
 BR-365Rear(NSE)
 BR Class 365 "Networker Express" EMU (rear)
 BR-375Front(SE)
 BR Class 375 "Electrostar" EMU
-BR-375Middle(SE)
-BR Class 375 "Electrostar" EMU (middle)
+BR-375Middle1(SE)
+BR Class 375 "Electrostar" EMU (centre trailer)
+BR-375Middle2(SE)
+BR Class 375 "Electrostar" EMU (centre motor)
 BR-375Rear(SE)
 BR Class 375 "Electrostar" EMU (rear)
 BR-375-6Front(SE)
 BR Class 375/6 "Electrostar" EMU
-BR-375-6Middle(SE)
-BR Class 375/6 "Electrostar" EMU (middle)
+BR-375-6Middle1(SE)
+BR Class 375/6 "Electrostar" EMU (pantograph trailer)
+BR-375-6Middle2(SE)
+BR Class 375/6 "Electrostar" EMU (centre motor)
 BR-375-6Rear(SE)
 BR Class 375/6 "Electrostar" EMU (rear)
+c2c-357(front)
+BR Class 357 "Electrostar" EMU
+c2c-357(centre1)
+BR Class 357 "Electrostar" EMU (pantograph trailer)
+c2c-357(centre2)
+BR Class 357 "Electrostar" EMU (centre motor)
+c2c-357(rear)
+BR Class 357 "Electrostar" EMU (rear)
 BR-390FrontCab(Virgin)
 BR Class 390 "Pendolino"
 BR-390FrontCoach(Virgin)
@@ -1518,6 +1570,34 @@ BR-414[HAP]Front(Blue-Grey)
 BR Class 414 "2-Hap" EMU
 BR-414[HAP]Rear(Blue-Grey)
 BR Class 414 "2-Hap" EMU (rear)
+BR-4EPB(front)
+BR Class 415/6 "2/4-EPB" EMU
+BR-2EPB(rear)
+BR Class 416 "2-EPB" EMU (rear)
+BR-4EPB(rear)
+BR Class 415 "4-EPB" EMU (rear)
+BR-4EPB(centre1)
+BR Class 415 "4-EPB" EMU (centre)
+BR-4EPB(centre2)
+BR Class 415 "4-EPB" EMU (centre)
+BR-444(front)
+SWT Class 444 "Desiro" EMU
+BR-444(centre1)
+BR Class 444 "Desiro" EMU (centre)
+BR-444(centre2)
+BR Class 444 "Desiro" EMU (centre)
+BR-444(centre3)
+BR Class 444 "Desiro" EMU (centre)
+BR-444(rear)
+BR Class 444 "Desiro" EMU (rear)
+BR-450(front)
+BR Class 450 "Desiro" EMU
+BR-450(centre1)
+BR Class 450 "Desiro" EMU (centre)
+BR-450(centre2)
+BR Class 450 "Desiro" EMU (centre)
+BR-450(rear)
+BR Class 450 "Desiro" EMU (rear)
 GWR-Gloucester-Railcar
 GWR Gloucester Railcar
 GWR-Autocoach
@@ -1590,14 +1670,30 @@ BR-315Pantograph(Blue-Grey)
 BR Class 315 EMU (pantograph)
 BR-315Rear(Blue-Grey)
 BR Class 315 EMU (rear)
+BR-507(front)
+BR Class 507/8 EMU
+BR-507(centre1)
+BR Class 507/8 EMU (centre)
+BR-507(centre2)
+BR Class 508 EMU (centre)
+BR-507(rear)
+BR Class 507/8 EMU (rear)
 BR-319Front(NSE)
 BR Class 319 EMU
 BR-319Engine(NSE)
-BR Class 319 EMU (engine)
+BR Class 319 EMU (motor)
 BR-319Pantograph(NSE)
 BR Class 319 EMU (pantograph)
 BR-319Rear(NSE)
 BR Class 319 EMU (rear)
+BR-321(front)
+BR Class 321 EMU
+BR-321(pantograph)
+BR Class 321 EMU (pantograph)
+BR-321(motor)
+BR Class 321 EMU (motor)
+BR-321(rear)
+BR Class 321 EMU (rear)
 BR-156Front(Regional)
 BR Class 156 "Super-Sprinter" DMU
 BR-156Front-Trolley(Regional)
@@ -1605,7 +1701,7 @@ BR Class 156 "Super-Sprinter" DMU (with trolley service)
 BR-156Rear(Regional)
 BR Class 156 "Super-Sprinter" DMU (rear)
 BR-150Front(Regional)
-BR Class 150 "Sprinter" DMU (front)
+BR Class 150 "Sprinter" DMU
 BR-150Centre(Regional)
 BR Class 150 "Sprinter" DMU (centre)
 BR-150Rear(Regional)
@@ -1666,6 +1762,8 @@ RM-325Rear(RM)
 Royal Mail Class 325 EMU (rear)
 BR-499[TLV](Blue-Grey)
 BR Class 499 TLV
+BR-489[GLV]
+BR Class 489 GLV
 BR-489[GLV](Intercity)
 BR Class 489 GLV
 BR-419[MLV](Blue-Grey)
@@ -1673,7 +1771,7 @@ BR Class 419 MLV
 BR-Mk1-GUV(Rail-Blue)
 Br Mk.1 GUV
 Autic-4_Car_Transporter(Front)
-Autic Car Transporter (front)
+Autic Car Transporter
 Autic-4_Car_Transporter(Middle1)
 Autic Car Transporter (middle)
 Autic-4_Car_Transporter(Middle2)
@@ -1681,7 +1779,7 @@ Autic Car Transporter (middle)
 Autic-4_Car_Transporter(Rear)
 Autic Car Transporter (rear)
 Cartic-4_Car_Transporter(Front)
-Cartic Car Transporter (front)
+Cartic Car Transporter 
 Cartic-4_Car_Transporter(Middle1)
 Cartic Car Transporter (middle)
 Cartic-4_Car_Transporter(Middle2)
@@ -1762,22 +1860,66 @@ SR-Maunsell-Third(Green)
 SR Maunsell Express Carriage
 SR-Maunsell-Dining(Green)
 SR Maunsell Dining Carriage
+LSWR-Ironclad
+LSWR "Ironclad" corridor coach
+LSWR-Ironclad-Brake
+LSWR "Ironclad" corridor coach (brake)
+LSWR-Ironclad-Dining
+LSWR "Ironclad" corridor dining coach
+LSWR-Ironclad-Pantry
+LSWR "Ironclad" corridor pantry coach
+LSWR-Ironclad-Mail
+LSWR "Ironclad" mail coach
+LSWR-Ironclad-TPO
+LSWR "Ironclad" TPO
 GWR-Express-Brake
 GWR Express Carriage (brake)
 GWR-Express-Coach
 GWR Express Carriage
 LMS-d1904-Coach
-LMS Standard Carriage
+LMS high capacity open carriage
+LMS-open-brake-front
+LMS open brake
+LMS-open-brake-rear
+LMS open brake
 LMS-d2007-Parcel-Brake
 LMS Parcel Brake Carriage
 LMS-d1904-Dining
 LMS Dining car
+LMS-non-cor-lav
+LMS standard non-corridor carriage (lavatory)
+LMS-non-cor-non-lav
+LMS standard non-corridor carriage
+LMS-non-cor-brake-front
+LMS standard non-corridor carriage (brake)
+LMS-non-cor-brake-rear
+LMS standard non-corridor carriage (brake)
+LMS-push-pull-brake
+LMS push-pull set (driving trailer)
+LMS-push-pull-centre-1
+LMS push-pull set (centre trailer)
+LMS-push-pull-centre-2
+LMS push-pull set (centre trailer)
+MR-push-pull-front
+MR push-pull set (front)
+MR-push-pull-rear
+MR push-pull set (rear)
+MR-non-cor-lav
+MR standard non-corridor carriage (lavatory)
+MR-non-cor-non-lav
+MR standard non-corridor carriage
+MR-non-cor-brake-front
+MR standard non-corridor carriage (brake)
+MR-non-cor-brake-rear
+MR standard non-corridor carriage (brake)
 LMS-Garratt-Middle(Black)
 LMS Garratt 2-6-0+0-6-2 (boiler)
 LMS-Garratt-Front(Black)
 LMS Garratt 2-6-0+0-6-2
 LMS-Garratt-Rear(Black)
 LMS Garratt 2-6-0+0-6-2 (back)
+LMS-0-4-4T
+LMS 2P Class 0-4-4T (push-pull)
 GWR-2800(Green)
 GWR 2800 Class 2-8-0
 GWR-2800-Tender(Green)
@@ -1798,6 +1940,20 @@ MR-1000(Maroon)
 MR 1000 Class 4-4-0
 MR-1000-Tender(Maroon)
 MR 1000 Class (tender)
+MR-483
+MR 483 Class 4-4-0
+MR-483(tender)
+MR 483 Class 4-4-0 (tender)
+LMS-2P
+LMS Class 2P 4-4-0
+LMS-2P(tender)
+LMS Class 2P 4-4-0 (tender)
+LMS-4P
+LMS Class 4P 4-4-0
+LMS-4P(tender)
+LMS Class 4P 4-4-0 (tender)
+MR-1833
+MR 1833 Class 0-4-4T
 SR-N15
 SR N15 Class "King Arthur" 4-6-0
 SR-N15-Tender
@@ -1806,6 +1962,20 @@ LSWR-N15
 LSWR N15 Class 4-6-0
 LSWR-N15-Tender
 LSWR N15 Class 4-6-0 (tender)
+LSWR-corridor
+LSWR corridor carriage
+LSWR-corridor-brake-front
+LSWR corridor carriage (brake)
+LSWR-corridor-brake-rear
+LSWR corridor carriage (brake)
+LBSCR-balloon-full-brake
+LBSCR "Balloon" carriage (full brake)
+LBSCR-balloon-brake-front
+LBSCR non-corridor lavatory "Balloon" carriage (brake)
+LBSCR-balloon-brake-rear
+LBSCR non-corridor lavatory "Balloon" carriage (brake)
+LBSCR-balloon
+LBSCR non-corridor lavatory "Balloon" carriage
 SR-Schools
 SR V Class "Schools" 4-4-0
 SR-Schools-Tender
@@ -1819,9 +1989,11 @@ LNER Class P2 2-8-2
 LNER-P2-Tender(Green)
 LNER Class P2 2-8-2 (tender)
 LMS-Stanier-7P(Maroon)
-LMS Class 8P "Princess Coronation" 4-6-2
+LMS Class 8P "Princess Coronation" 4-6-2 (streamlined)
 LMS-Stanier-7P-Tender(Maroon)
 LMS Class 8P "Princess Coronation" 4-6-2 (tender)
+LMS-Stanier-7P-non-streamlined
+LMS Class 8P "Princess Coronation" 4-6-2 (non-streamlined)
 NER-ClassES1(Green)
 NER Class ES1 Bo-Bo
 NER-ClassEF1(Green)
@@ -1902,10 +2074,26 @@ LBSCR-B1-Gladstone-Tender
 LBSCR Class B1 "Gladstone" 0-4-2 (tender)
 LBSCR-L-Tank(Umber)
 LBSCR Class L "Brighton Baltic" 4-6-4T
+LBSCR-J
+LBSCR Class J 4-6-2T
+LBSCR-I3
+LBSCR Class I3 4-4-2T
+LBSCR-E5
+LBSCR Class E5 0-6-2T
+LBSCR-non-cor-lav
+LBSCR non-corridor lavatory coach
+LBSCR-non-cor-lav-brake-rear
+LBSCR non-corridor lavatory coach (brake)
+LBSCR-non-cor-lav-brake-front
+LBSCR non-corridor lavatory coach (brake)
 LNWR-Jumbo(Black)
-LNWR "Jumbo" Class 2-2-2-0
+LNWR "Jumbo" Class 2-2-0
 LNWR-Jumbo-Tender(Black)
-LNWR "Jumbo" Class 2-2-2-0 (tender)
+LNWR "Jumbo" Class 2-2-0 (tender)
+LNWR-Precedent
+LNWR "Precedent" Class 2-2-0
+LNEW-Precedent-Tender
+LNWR "Precedent" Class 2-2-0 (tender)
 GER-Claud-Hamilton(Blue)
 GER Class S46 "Claud Hamilton" 4-4-0
 GER-Claud-Hamilton-Tender(Blue)
@@ -2038,8 +2226,6 @@ CC-Clerestory-Dining
 GWR corridor clerestory dining car
 GWR-Express-Dining
 GWR express dining car
-LMS-d1904-dining
-LMS dining car
 LNER-Gresley-Express-Dining(Teak)
 LNER dining car (teak)
 SR-Bulleid-Express-Dining(Green)
@@ -2169,13 +2355,21 @@ GWR 4073 "Castle" Class 4-6-0
 GWR-Castle-Tender
 GWR 4073 "Castle" Tender
 BR-506Front(BR-Blue)
-BR Class 506 EMU (front)
+BR Class 506 EMU
 BR-506Centre(BR-Blue)
 BR Class 506 EMU (centre)
 BR-506Rear(BR-Blue)
 BR Class 506 EMU (rear)
+BR-307(front)
+BR Class 307 EMU
+BR-307(centre1)
+BR Class 307 EMU (motor)
+BR-307(centre2)
+BR Class 307 EMU (centre trailer)
+BR-307(rear)
+BR Class 307 EMU (rear)
 BR-304Front(BR-Blue)
-BR Class 304 EMU (driving trailer)
+BR Class 304 EMU
 BR-304Centre-Trailer(BR-Blue)
 BR Class 304 EMU (centre trailer)
 BR-304Centre-Motor(BR-Blue)
@@ -2184,12 +2378,16 @@ BR-304Rear(BR-Blue)
 BR Class 304 EMU (driving trailer)
 BR-2MT-Tank(Black)
 BR Standard Class 2MT 2-6-2T
+BR-2MT-Tank(Black)-Push-Pull
+BR Standard Class 2MT 2-6-2T (push pull)
 BR-Class57(FGW)
 BR Class 57
 BR-4MT(Black)
 BR Standard Class 4MT 2-6-0
 BR-4MT-Tender(Black)
-BR Standard Class 4MT tender
+BR Standard tender
+BR-5MT(Black)
+BR Standard Class 5MT 2-6-0
 GWR-Saint
 GWR 2900 "Saint" Class 4-6-0
 GWR-Saint-Tender
@@ -2207,11 +2405,69 @@ GWR 1000 "County" Class 4-6-0
 GWR-Hawksworth-County-Tender
 GWR 1000 "County" Tender
 LMS-Fowler-3P-Tank
-LMS Class 3P
-GWR-Hawksworth-County
-GWR 1000 "County" Class 4-6-0
-GWR-Hawksworth-County-Tender
-GWR 1000 "County" Tender
+LMS Class 3P 2-6-2T
+LMS-Fowler-3P-Tank-Push-Pull
+LMS Class 3P 2-6-2T (push-pull)
+LMS-Fowler-4P-Tank
+LMS Class 4P 2-6-4T
+LMS-Fairburn-4P-Tank
+LMS Class 4P 2-6-4T (Fairburn design)
+BR-150Front(Regional)
+BR Class 150 "Sprinter" DMU (front)
+BR-150Centre(Regional)
+BR Class 150 "Sprinter" DMU (centre)
+BR-150Rear(Regional)
+BR Class 150 "Sprinter" DMU (rear)
+BR-456-DMSO
+BR Class 456 EMU (DMSO)
+BR-456-DTSO
+BR Class 456 EMU (DTSO)
+BR-455-Driving-Front
+BR Class 455 EMU (front)
+BR-455-Motor
+BR Class 455 EMU (power)
+BR-455-Trailer
+BR Class 455 EMU (trailer)
+BR-455-Driving-Rear
+BR Class 455 EMU (rear)
+BR-317-Driving-Front
+BR Class 317 EMU (front)
+BR-317-Motor
+BR Class 317 EMU (power)
+BR-317-Trailer
+BR Class 317 EMU (trailer)
+BR-317-Driving-Rear
+BR Class 317 (rear)
+LSWR-EMU(front)
+LSWR suburban EMU (front driving motor)
+LSWR-EMU(centre)
+LSWR suburban EMU (centre trailer)
+LSWR-EMU(rear)
+LSWR suburban EMU (rear driving motor)
+SR-3SUB(front)
+SR 3-SUB (front driving motor)
+SR-3SUB(rear)
+SR 3-SUB (rear driving motor)
+SR-3SUB(centre)
+SR 3-SUB (centre trailer)
+SR-4SUB(front)
+SR 4-SUB
+SR-4SUB(centre1)
+SR 4-SUB (centre trailer)
+SR-4SUB(centre2)
+SR 4-SUB (centre trailer)
+SR-4SUB(rear)
+SR 4-SUB (rear driving motor)
+SR-augmentation-trailer(front)
+SR EMU augmentation trailer
+SR-augmentation-trailer(rear)
+SR EMU augmentation trailer
+LBSCR-bogie-sub
+LBSCR bogie suburban carriage
+LBSCR-bogie-sub-brake-front
+LBSCR bogie suburban carriage (brake)
+LBSCR-bogie-sub-brake-rear
+LBSCR bogie suburban carriage (brake)
 #____________________________________tram-vehicle____________________________________
 #____________________________________tram-vehicle____________________________________
 1-Deck-Trailer
@@ -2355,7 +2611,7 @@ Guy Arab
 AECSwift
 AEC Swift
 MercedesCitaroG(Front)
-Mercedes Citaro G (front)
+Mercedes Citaro G
 MercedesCitaroK
 Mercedes Citaro K
 WrightStreetcar(Front)
@@ -2378,8 +2634,10 @@ LeylandAtlantean
 Leyland Atlantean
 VolvoCitybus
 Volvo Citybus
-VolvoOlympian
+VolvoOlympian (1 door)
 Volvo Olympian
+RHVolvoOlympian
+Volvo Olympian (2 doors)
 VolvoB7TL
 Volvo B7TL
 LeylandOlympian
@@ -2890,6 +3148,10 @@ MaudslayVanLong
 Maudslay Van (long goods)
 MaudslayVanPost
 Maudslay Van (mail)
+RHVolvoOlympian
+Volvo RH Class
+OptareAlero
+Optare Alero
 #____________________________________water-vehicle____________________________________
 #____________________________________water-vehicle____________________________________
 BoatHorsesDouble
@@ -3426,12 +3688,12 @@ ReliantRobin(Yellow)
 Trotter's Independent Trading Co.: New York - Milan - Peckham
 Volvo-V70-Police
 Volvo V70 police car
-Volvo-240-Estate(Blue)
-Volvo 240 estate
-Volvo-240-Estate(Silver)
-Volvo 240 estate
 LondonTaxi-Lanchester
 Black cab
+Volvo-240-Estate(Blue)
+Volvo 240 Estate
+Volvo-240-Estate(Silver)
+Volvo 240 Estate
 #__________________________________Way constraints__________________________________
 #__________________________________Way constraints__________________________________
 Permissive 0

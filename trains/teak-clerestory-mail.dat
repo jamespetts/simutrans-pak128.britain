@@ -29,6 +29,13 @@ Constraint[Next][3]=Teak-Clerestory-TPO
 Constraint[Next][4]=Teak-Clerestory-Dining
 Constraint[Next][5]=Teak-Clerestory-Parcel-Brake
 
+Constraint[Prev][0]=Teak-Clerestory-Coach
+Constraint[Prev][1]=Teak-Clerestory-Brake
+Constraint[Prev][2]=Teak-Clerestory-Mail
+Constraint[Prev][3]=Teak-Clerestory-TPO
+Constraint[Prev][4]=Teak-Clerestory-Dining
+Constraint[Prev][5]=Teak-Clerestory-Parcel-Brake
+
 EmptyImage[E]=./images/teak-clerestory-mail.0.0
 EmptyImage[SE]=./images/teak-clerestory-mail.0.1
 EmptyImage[S]=./images/teak-clerestory-mail.0.2

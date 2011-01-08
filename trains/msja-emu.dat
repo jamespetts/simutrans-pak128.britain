@@ -92,6 +92,7 @@ name=MSJ&A-EMU-driving-motor
 engine_type=electric
 speed=97
 power=978
+tractive_effort=108
 copyright=Kieron&JamesPetts
 intro_year=1931
 intro_month=5

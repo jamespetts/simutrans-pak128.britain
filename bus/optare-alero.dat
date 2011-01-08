@@ -1,0 +1,37 @@
+obj=vehicle
+name=OptareAlero
+copyright=MatthewWilson
+#Original image by James Petts & James Hood
+waytype=road
+engine_type=diesel
+freight=Passagiere
+payload=16
+overcrowded_capacity=5
+speed=70
+power=100
+gear=100
+weight=5
+length=5
+cost=550000
+runningcost=150
+intro_year=2001
+intro_month=34
+# Do not retire this until replacements are available.
+#retire_year=2009
+#retire_month=2
+
+comfort=60
+loading_time=3075
+
+Constraint[Prev][0]=none
+Constraint[Next][0]=none
+
+EmptyImage[E]=./images/optare-alero.0.0
+EmptyImage[SE]=./images/optare-alero.0.1
+EmptyImage[S]=./images/optare-alero.0.2
+EmptyImage[SW]=./images/optare-alero.0.3
+EmptyImage[W]=./images/optare-alero.0.4
+EmptyImage[NW]=./images/optare-alero.0.5
+EmptyImage[N]=./images/optare-alero.0.6
+EmptyImage[NE]=./images/optare-alero.0.7
+

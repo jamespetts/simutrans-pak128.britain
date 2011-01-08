@@ -2,9 +2,10 @@ obj=vehicle
 name=LNWR-Bloomer(Red)
 engine_type=steam
 smoke=Steam
-speed=85
+# Ahrons (p. 231) records the maximum service speed of a Bloomer being 72mph (115km/h), and a start to stop average of 52mph (83km/h) with 7 6-wheelers.
+speed=110
 #gear=350
-power=200
+power=440
 copyright=James
 intro_year=1851
 intro_month=5

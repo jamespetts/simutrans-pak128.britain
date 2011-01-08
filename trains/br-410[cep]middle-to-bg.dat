@@ -1,5 +1,6 @@
 obj=vehicle
 name=BR-410[CEP]Middle(Blue-Grey)
+engine_type=electric
 speed=145
 copyright=Kieron
 intro_year=1957
@@ -13,7 +14,7 @@ length=11
 
 weight=34
 cost=1680000
-runningcost=165
+runningcost=30
 sound=-1
 increase_maintenance_after_years=7
 
@@ -39,6 +40,7 @@ EmptyImage[NE]=./images/br-mk1-bg.7
 
 obj=vehicle
 name=BR-410[CEP]Buffet(Blue-Grey)
+engine_type=electric
 speed=145
 copyright=Kieron
 intro_year=1957
@@ -53,7 +55,7 @@ length=11
 
 weight=36
 cost=1720000
-runningcost=185
+runningcost=65
 sound=-1
 increase_maintenance_after_years=7
 

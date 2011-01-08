@@ -1,9 +1,10 @@
 obj=vehicle
 name=Metropolitan-Vickers
 engine_type=electric
-speed=105
+speed=85
 #gear=200
-power=600
+power=626
+tractive_effort=100
 copyright=Kieron
 intro_year=1922
 intro_month=2

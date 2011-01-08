@@ -3,6 +3,7 @@ name=BR-370FrontPower(IC)
 engine_type=electric
 speed=240
 power=2983
+tractive_effort=200
 #gear=290
 copyright=Kieron
 intro_year=1980

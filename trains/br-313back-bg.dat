@@ -2,25 +2,24 @@ obj=vehicle
 name=BR-313Rear(Blue-Grey)
 engine_type=electric
 speed=120
-power=0
+power=328
+tractive_effort=135
 copyright=Kieron
 intro_year=1975
 intro_month=12
-retire_year=2009
-retire_month=7
-#TODO: This is late - when the Class 350 is added, this should revert to 2004.
+retire_year=1991
+retire_month=12
 waytype=track
 freight=Passagiere
 payload=74
-overcrowded_capacity=26
+overcrowded_capacity=32
 length=11
 
 weight=38
 cost=1237000
 runningcost=55
 sound=-1
-increase_maintenance_after_years=5
-#TODO: Change above when retirement date changes
+increase_maintenance_after_years=26
 
 can_lead_from_rear=1
 bidirectional=0

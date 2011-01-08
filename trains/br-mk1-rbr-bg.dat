@@ -42,7 +42,24 @@ Constraint[Next][12]=BR-Mk1-BG(Crimson-Cream)
 Constraint[Next][13]=BR-Mk2a-RMB(Blue-Grey)
 Constraint[Next][14]=BR-Mk2a-BSO(Blue-Grey)
 Constraint[Next][15]=BR-Mk2a-TSO(Blue-Grey)
-Constraint[Next][16]=none
+
+Constraint[Prev][0]=BR-Mk1-GUV(Rail-Blue)
+Constraint[Prev][1]=BR-Mk1-TO(Blue-Grey)
+Constraint[Prev][2]=BR-Mk1-BC(Blue-Grey)
+Constraint[Prev][3]=BR-Mk1-TO(Maroon)
+Constraint[Prev][4]=BR-Mk1-BC(Maroon)
+Constraint[Prev][5]=BR-Mk1-TO(Crimson-Cream)
+Constraint[Prev][6]=BR-Mk1-BC(Crimson-Cream)
+Constraint[Prev][7]=BR-Mk1-RBR(Blue-Grey)
+Constraint[Prev][8]=BR-Mk1-BG(Blue-Grey)
+Constraint[Prev][9]=BR-Mk1-RBR(Maroon)
+Constraint[Prev][10]=BR-Mk1-BG(Maroon)
+Constraint[Prev][11]=BR-Mk1-RBR(Crimson-Cream)
+Constraint[Prev][12]=BR-Mk1-BG(Crimson-Cream)
+Constraint[Prev][13]=BR-Mk2a-RMB(Blue-Grey)
+Constraint[Prev][14]=BR-Mk2a-BSO(Blue-Grey)
+Constraint[Prev][15]=BR-Mk2a-TSO(Blue-Grey)
+
 
 EmptyImage[E]=./images/br-mk1-rbr-bg.0
 EmptyImage[SE]=./images/br-mk1-rbr-bg.1

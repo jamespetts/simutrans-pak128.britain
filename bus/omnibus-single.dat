@@ -1,10 +1,9 @@
-# First really successful motor bus design.
 obj=vehicle
 name=OmnibusSingle
 copyright=JamesPetts&JamesHood
 waytype=road
 freight=Passagiere
-payload=10
+payload=22
 speed=18
 weight=3
 length=3
@@ -21,7 +20,7 @@ increase_maintenance_after_years=20
 years_before_maintenance_max_reached=45
 
 Constraint[Prev][0]=RoadHorsesDouble
-Constraint[Prev][1]=RoadHorsesSingle
+
 Constraint[Next][0]=none
 
 EmptyImage[E]=./images/omnibus-single.0.0

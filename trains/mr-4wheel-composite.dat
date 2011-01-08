@@ -4,7 +4,7 @@ speed=115
 copyright=Kieron/James
 intro_year=1866
 intro_month=3
-retire_year=1888
+retire_year=1911
 retire_month=9
 waytype=track
 freight=Passagiere
@@ -12,7 +12,7 @@ payload=30
 overcrowded_capacity=15
 length=6
 
-weight=12
+weight=10
 cost=300000
 runningcost=19
 sound=-1
@@ -24,7 +24,6 @@ can_lead_from_rear=0
 bidirectional=1
 increase_maintenance_after_years=45
 
-
 Constraint[Next][0]=MR-6Wheel-First
 Constraint[Next][1]=MR-6Wheel-Guard
 Constraint[Next][2]=MR-4Wheel-Composite
@@ -32,6 +31,12 @@ Constraint[Next][3]=MR-4Wheel-Brake
 Constraint[Next][4]=MR-6Wheel-Mail
 Constraint[Next][5]=MR-4Wheel-Mail
 
+Constraint[Prev][0]=MR-6Wheel-First
+Constraint[Prev][1]=MR-6Wheel-Guard
+Constraint[Prev][2]=MR-4Wheel-Composite
+Constraint[Prev][3]=MR-4Wheel-Brake
+Constraint[Prev][4]=MR-6Wheel-Mail
+Constraint[Prev][5]=MR-4Wheel-Mail
 
 EmptyImage[E]=./images/mr-4wheel-composite.0
 EmptyImage[SE]=./images/mr-4wheel-composite.1

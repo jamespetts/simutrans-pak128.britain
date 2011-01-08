@@ -12,7 +12,7 @@ payload=10
 overcrowded_capacity=5
 length=6
 
-weight=12
+weight=10
 cost=295000
 runningcost=19
 sound=-1
@@ -22,6 +22,17 @@ loading_time=3500
 
 can_lead_from_rear=0
 bidirectional=1
+
+Constraint[Next][0]=LNWR-6Wheel-First
+Constraint[Next][1]=LNWR-6Wheel-Guard
+Constraint[Next][2]=MSLR-4Wheel-Composite
+Constraint[Next][3]=MSLR-4Wheel-Brake
+Constraint[Next][4]=LNWR-1847-First
+Constraint[Next][5]=LNWR-1847-Brake
+Constraint[Next][6]=LNWR-1847-Mail
+Constraint[Next][7]=LNWR-6Wheel-Mail
+Constraint[Next][8]=MSLR-4Wheel-Mail
+Constraint[Next][9]=none
 
 EmptyImage[E]=./images/mslr-4wheel-brake.0
 EmptyImage[SE]=./images/mslr-4wheel-brake.1

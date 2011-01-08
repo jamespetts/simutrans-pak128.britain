@@ -20,7 +20,7 @@ loading_time=4250
 
 weight=4
 cost=220000
-runningcost=85
+runningcost=10
 sound=-1
 
 Constraint[Prev][0]=none

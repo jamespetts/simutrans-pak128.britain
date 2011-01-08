@@ -1,5 +1,6 @@
 obj=vehicle
 name=SR-404[COR]Middle2(Green)
+engine_type=electric
 speed=120
 copyright=Kieron
 intro_year=1937
@@ -14,7 +15,7 @@ length=11
 
 weight=32
 cost=1680000
-runningcost=132
+runningcost=40
 sound=-1
 increase_maintenance_after_years=24
 

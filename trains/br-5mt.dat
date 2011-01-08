@@ -25,13 +25,11 @@ years_before_maintenance_max_reached=13
 
 Constraint[Next][0]=BR-4MT-Tender(Black)
 
-# TODO: Need new graphics for this locomotive different to the Stanier design
-
-EmptyImage[E]=./images/lms-stanier-5mt.0.0
-EmptyImage[SE]=./images/lms-stanier-5mt.0.1
-EmptyImage[S]=./images/lms-stanier-5mt.0.2
-EmptyImage[SW]=./images/lms-stanier-5mt.0.3
-EmptyImage[W]=./images/lms-stanier-5mt.0.4
-EmptyImage[NW]=./images/lms-stanier-5mt.0.5
-EmptyImage[N]=./images/lms-stanier-5mt.0.6
-EmptyImage[NE]=./images/lms-stanier-5mt.0.7
+EmptyImage[E]=./images/br-standard-5mt.0.0
+EmptyImage[SE]=./images/br-standard-5mt.0.1
+EmptyImage[S]=./images/br-standard-5mt.0.2
+EmptyImage[SW]=./images/br-standard-5mt.0.3
+EmptyImage[W]=./images/br-standard-5mt.0.4
+EmptyImage[NW]=./images/br-standard-5mt.0.5
+EmptyImage[N]=./images/br-standard-5mt.0.6
+EmptyImage[NE]=./images/br-standard-5mt.0.7

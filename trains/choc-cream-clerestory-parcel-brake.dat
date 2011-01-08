@@ -4,7 +4,7 @@ speed=145
 copyright=James
 intro_year=1890
 intro_month=7
-retire_year=1923
+retire_year=1908
 retire_month=2
 waytype=track
 freight=Post
@@ -20,6 +20,13 @@ can_lead_from_rear=0
 bidirectional=1
 loading_time=4750
 comfort=0
+
+Constraint[Prev][0]=CC-Clerestory-Coach
+Constraint[Prev][1]=CC-Clerestory-Brake
+Constraint[Prev][2]=CC-Clerestory-Mail
+Constraint[Prev][3]=CC-Clerestory-Dining
+Constraint[Prev][4]=CC-Clerestory-Parcel-Brake
+Constraint[Prev][5]=CC-Clerestory-TPO
 
 EmptyImage[E]=./images/choc-cream-clerestory-mail.1.0
 EmptyImage[SE]=./images/choc-cream-clerestory-mail.1.1

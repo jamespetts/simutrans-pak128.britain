@@ -27,6 +27,14 @@ Constraint[Next][1]=LMS-d2007-Parcel-Brake
 Constraint[Next][2]=LMS-d1904-Dining
 Constraint[Next][3]=LMS-Mail
 Constraint[Next][4]=LMS-TPO
+Constraint[Next][5]=LMS-open-brake-rear
+
+Constraint[Prev][0]=LMS-d1904-Coach
+Constraint[Prev][1]=LMS-d2007-Parcel-Brake
+Constraint[Prev][2]=LMS-d1904-Dining
+Constraint[Prev][3]=LMS-Mail
+Constraint[Prev][4]=LMS-TPO
+Constraint[Prev][5]=LMS-open-brake-front
 
 EmptyImage[E]=./images/lms-mail.0
 EmptyImage[SE]=./images/lms-mail.1
@@ -71,6 +79,14 @@ Constraint[Next][1]=LMS-d2007-Parcel-Brake
 Constraint[Next][2]=LMS-d1904-Dining
 Constraint[Next][3]=LMS-Mail
 Constraint[Next][4]=LMS-TPO
+Constraint[Next][5]=LMS-open-brake-rear
+
+Constraint[Prev][0]=LMS-d1904-Coach
+Constraint[Prev][1]=LMS-d2007-Parcel-Brake
+Constraint[Prev][2]=LMS-d1904-Dining
+Constraint[Prev][3]=LMS-Mail
+Constraint[Prev][4]=LMS-TPO
+Constraint[Prev][5]=LMS-open-brake-front
 
 EmptyImage[E]=./images/lms-tpo.0
 EmptyImage[SE]=./images/lms-tpo.1

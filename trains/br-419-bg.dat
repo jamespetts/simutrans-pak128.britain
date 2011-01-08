@@ -4,6 +4,7 @@ engine_type=electric
 speed=145
 #gear=340
 power=410
+tractive_effort=99
 copyright=Kieron
 intro_year=1959
 intro_month=1

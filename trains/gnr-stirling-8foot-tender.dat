@@ -1,6 +1,6 @@
 obj=vehicle
 name=GNR-Stirling8Foot-Tender
-speed=125
+speed=135
 power=0
 copyright=Kieron
 intro_year=1870

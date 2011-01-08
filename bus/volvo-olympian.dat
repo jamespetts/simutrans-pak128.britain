@@ -20,7 +20,7 @@ intro_month=6
 retire_year=2003
 retire_month=4
 
-comfort=31
+comfort=51
 loading_time=7125
 
 Constraint[Prev][0]=none

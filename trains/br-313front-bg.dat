@@ -3,17 +3,17 @@ name=BR-313Front(Blue-Grey)
 engine_type=electric
 speed=120
 power=328
+tractive_effort=135
 #gear=680
 copyright=Kieron
 intro_year=1975
 intro_month=12
-retire_year=2009
-retire_month=7
-#TODO: This is late - when the Class 350 is added, this should revert to 2004.
+retire_year=1991
+retire_month=12
 waytype=track
 freight=Passagiere
 payload=74
-overcrowded_capacity=26
+overcrowded_capacity=32
 length=11
 
 weight=36

@@ -25,6 +25,7 @@ comfort=0
 
 Constraint[Prev][0]=BR-Mk1-POS(RoyalMail)
 Constraint[Prev][1]=BR-Mk1-TPO(RoyalMail)
+
 Constraint[Next][0]=none
 
 EmptyImage[E]=./images/br-mk1-bg-rm.0

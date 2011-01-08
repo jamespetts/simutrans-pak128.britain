@@ -18,7 +18,7 @@ length=5
 
 weight=36
 cost=1100000
-runningcost=27
+runningcost=270
 sound=-1
 increase_maintenance_after_years=38
 years_before_maintenance_max_reached=20
@@ -60,7 +60,7 @@ length=5
 weight=36
 cost=1100000
 upgrade_price=47000
-runningcost=27
+runningcost=270
 sound=-1
 available_only_as_upgrade=1
 increase_maintenance_after_years=18

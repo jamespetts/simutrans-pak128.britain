@@ -16,7 +16,7 @@ years_before_maintenance_max_reached=50
 
 weight=1
 cost=100000
-runningcost=50
+runningcost=26
 sound=-1
 
 EmptyImage[E]=./images/bus-horse-double.0
@@ -44,7 +44,7 @@ length=2
 
 weight=1
 cost=50000
-runningcost=25
+runningcost=13
 sound=-1
 increase_maintenance_after_years=20
 years_before_maintenance_max_reached=50

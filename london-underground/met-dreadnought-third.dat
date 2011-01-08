@@ -1,11 +1,11 @@
 obj=vehicle
 name=Metropolitan-Dreadnought-Third
-speed=105
+speed=70
 copyright=Kieron
 intro_year=1919
 intro_month=7
-retire_year=1961
-retire_month=12
+retire_year=1925
+retire_month=4
 waytype=track
 freight=Passagiere
 payload=108

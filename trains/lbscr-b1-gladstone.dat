@@ -7,7 +7,7 @@ speed=120
 power=700
 copyright=James
 intro_year=1882
-intro_month=11
+intro_month=12
 retire_year=1891
 retire_month=10
 waytype=track
@@ -15,7 +15,7 @@ freight=None
 payload=0
 length=5
 
-weight=40
+weight=39
 cost=5796000
 runningcost=924
 sound=-1

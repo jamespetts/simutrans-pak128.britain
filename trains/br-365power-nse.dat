@@ -1,3 +1,4 @@
+# Note that this is not the power car, but the pantograph car: see http://en.wikipedia.org/wiki/British_Rail_Class_365
 obj=vehicle
 name=BR-365Power(NSE)
 engine_type=electric

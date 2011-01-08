@@ -2,18 +2,17 @@ obj=vehicle
 name=LBSCR-4Wheel-Brake
 speed=120
 copyright=Kieron/James
-intro_year=1870
-intro_month=1
-retire_year=1904
+intro_year=1872
+intro_month=4
+retire_year=1901
 retire_month=1
-# Temporary measure - should retire sooner. Need later suburban non-corridoors.
 waytype=track
 freight=Passagiere
-payload=18
-overcrowded_capacity=9
+payload=30
+overcrowded_capacity=10
 length=6
 
-weight=9
+weight=10
 cost=285000
 runningcost=17
 sound=-1
@@ -23,6 +22,10 @@ loading_time=3500
 
 can_lead_from_rear=0
 bidirectional=1
+
+Constraint[next][0]=LBSCR-4Wheel-First
+Constraint[next][1]=LBSCR-4Wheel-Brake
+Constraint[next][2]=none
 
 EmptyImage[E]=./images/lbscr-4wheel-brake.0
 EmptyImage[SE]=./images/lbscr-4wheel-brake.1

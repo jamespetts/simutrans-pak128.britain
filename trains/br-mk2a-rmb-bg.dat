@@ -33,7 +33,6 @@ Constraint[Next][4]=BR-Mk1-BG(Blue-Grey)
 Constraint[Next][5]=BR-Mk1-RMB(Blue-Grey)
 Constraint[Next][6]=BR-Mk1-RBR(Blue-Grey)
 Constraint[Next][7]=BR-Mk1-TO(Blue-Grey)
-Constraint[Next][8]=none
 
 EmptyImage[E]=./images/br-mk2a-rmb-bg.0
 EmptyImage[SE]=./images/br-mk2a-rmb-bg.1

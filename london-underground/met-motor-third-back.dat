@@ -1,9 +1,10 @@
 obj=vehicle
 name=Metropolitan-Motor-Third-Back
 engine_type=electric
-speed=90
+speed=65
 #gear=250
 power=400
+tractive_effort=70
 copyright=Kieron
 intro_year=1905
 intro_month=4

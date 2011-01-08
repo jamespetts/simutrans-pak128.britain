@@ -16,7 +16,7 @@ length=11
 
 weight=29
 cost=826000
-runningcost=48
+runningcost=25
 sound=-1
 increase_maintenance_after_years=23
 

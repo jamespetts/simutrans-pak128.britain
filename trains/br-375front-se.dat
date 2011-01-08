@@ -2,7 +2,8 @@ obj=vehicle
 name=BR-375Front(SE)
 engine_type=electric
 speed=160
-power=250
+power=500
+tractive_effort=158
 #gear=420
 copyright=Kieron
 intro_year=2001
@@ -16,7 +17,7 @@ overcrowded_capacity=20
 length=12
 
 weight=46
-cost=1008000
+cost=1512000
 runningcost=132
 sound=-1
 
@@ -29,10 +30,10 @@ way_constraint_permissive[0]=0
 upgrade[0]=BR-375/6Front(SE)
 
 Constraint[Prev][0]=BR-375Rear(SE)
-Constraint[Prev][1]=none
+Constraint[Prev][1]=BR-375-6Rear(SE)
+Constraint[Prev][2]=none
 
-Constraint[Next][0]=BR-375Middle(SE)
-Constraint[Next][1]=BR-375Rear(SE)
+Constraint[Next][0]=BR-375Middle1(SE)
 
 EmptyImage[E]=./images/br-375-se.0.0
 EmptyImage[SE]=./images/br-375-se.0.1

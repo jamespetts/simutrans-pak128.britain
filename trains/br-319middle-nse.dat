@@ -3,7 +3,7 @@ name=BR-319Engine(NSE)
 engine_type=electric
 speed=160
 power=990
-tractive_effort=89
+tractive_effort=150
 #gear=530
 copyright=Kieron
 intro_year=1987
@@ -18,7 +18,7 @@ length=11
 
 weight=51
 cost=2500000
-runningcost=231
+runningcost=30
 sound=-1
 
 can_lead_from_rear=0

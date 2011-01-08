@@ -16,7 +16,7 @@ length=11
 
 weight=34
 cost=1890000
-runningcost=152
+runningcost=41
 sound=-1
 increase_maintenance_after_years=15
 
@@ -62,7 +62,7 @@ length=11
 
 weight=32
 cost=1890000
-runningcost=152
+runningcost=26
 sound=-1
 increase_maintenance_after_years=15
 
@@ -93,7 +93,7 @@ name=BR-304Centre-Motor(BR-Blue)
 engine_type=electric
 speed=120
 power=618
-tractive_effort=75
+tractive_effort=122
 copyright=Kieron&JamesPetts
 intro_year=1960
 intro_month=4
@@ -153,7 +153,7 @@ increase_maintenance_after_years=15
 
 weight=34
 cost=1890000
-runningcost=152
+runningcost=41
 sound=-1
 
 can_lead_from_rear=1

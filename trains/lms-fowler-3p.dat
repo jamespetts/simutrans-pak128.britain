@@ -25,6 +25,7 @@ years_before_maintenance_max_reached=12
 
 can_lead_from_rear=0
 bidirectional=1
+upgrade[0]=LMS-Fowler-3P-Tank-Push-Pull
 
 EmptyImage[E]=./images/lms-fowler-3p.0.0
 EmptyImage[SE]=./images/lms-fowler-3p.0.1
@@ -35,3 +36,42 @@ EmptyImage[NW]=./images/lms-fowler-3p.0.5
 EmptyImage[N]=./images/lms-fowler-3p.0.6
 EmptyImage[NE]=./images/lms-fowler-3p.0.7
 
+---
+
+obj=vehicle
+name=LMS-Fowler-3P-Tank-Push-Pull
+engine_type=steam
+smoke=Steam
+speed=120
+#gear=300
+power=625
+tractive_effort=98
+copyright=Kieron&JamesPetts
+intro_year=1930
+intro_month=3
+retire_year=1953
+retire_month=7
+waytype=track
+freight=None
+payload=0
+length=7
+
+weight=67
+cost=3006214
+upgrade_price=49000
+runningcost=681
+sound=-1
+increase_maintenance_after_years=5
+years_before_maintenance_max_reached=12
+
+can_lead_from_rear=0
+bidirectional=1
+
+EmptyImage[E]=./images/lms-fowler-3p.0.0
+EmptyImage[SE]=./images/lms-fowler-3p.0.1
+EmptyImage[S]=./images/lms-fowler-3p.0.2
+EmptyImage[SW]=./images/lms-fowler-3p.0.3
+EmptyImage[W]=./images/lms-fowler-3p.0.4
+EmptyImage[NW]=./images/lms-fowler-3p.0.5
+EmptyImage[N]=./images/lms-fowler-3p.0.6
+EmptyImage[NE]=./images/lms-fowler-3p.0.7

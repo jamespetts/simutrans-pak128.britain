@@ -18,7 +18,7 @@ intro_month=6
 retire_year=2003
 retire_month=4
 
-comfort=31
+comfort=51
 loading_time=5750
 
 Constraint[Prev][0]=none
@@ -32,4 +32,3 @@ EmptyImage[W]=./images/RHVolvoOlympian.0.4
 EmptyImage[NW]=./images/RHVolvoOlympian.0.5
 EmptyImage[N]=./images/RHVolvoOlympian.0.6
 EmptyImage[NE]=./images/RHVolvoOlympian.0.7
-

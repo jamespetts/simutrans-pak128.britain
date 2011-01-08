@@ -13,7 +13,7 @@ retire_month=9
 waytype=track
 freight=Passagiere
 payload=84
-overcrowded_capacity=29
+overcrowded_capacity=35
 length=10
 
 weight=36
@@ -65,7 +65,7 @@ retire_month=9
 waytype=track
 freight=Passagiere
 payload=79
-overcrowded_capacity=27
+overcrowded_capacity=33
 length=10
 
 weight=36
@@ -110,7 +110,7 @@ retire_month=9
 waytype=track
 freight=Passagiere
 payload=79
-overcrowded_capacity=27
+overcrowded_capacity=33
 length=10
 
 weight=36
@@ -144,4 +144,3 @@ EmptyImage[W]=./images/br-150-rr-2.0.4
 EmptyImage[NW]=./images/br-150-rr-2.0.5
 EmptyImage[N]=./images/br-150-rr-2.0.6
 EmptyImage[NE]=./images/br-150-rr-2.0.7
-

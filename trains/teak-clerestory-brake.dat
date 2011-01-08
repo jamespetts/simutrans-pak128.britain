@@ -4,7 +4,7 @@ speed=145
 copyright=James
 intro_year=1894
 intro_month=4
-retire_year=1923
+retire_year=1913
 retire_month=5
 waytype=track
 freight=Passagiere
@@ -22,6 +22,14 @@ bidirectional=1
 
 loading_time=4750
 comfort=97
+
+Constraint[Next][0]=Teak-Clerestory-Coach
+Constraint[Next][1]=Teak-Clerestory-Brake
+Constraint[Next][2]=Teak-Clerestory-Mail
+Constraint[Next][3]=Teak-Clerestory-TPO
+Constraint[Next][4]=Teak-Clerestory-Dining
+Constraint[Next][5]=Teak-Clerestory-Parcel-Brake
+Constraint[Next][6]=none
 
 EmptyImage[E]=./images/teak-clerestory.1.0
 EmptyImage[SE]=./images/teak-clerestory.1.1

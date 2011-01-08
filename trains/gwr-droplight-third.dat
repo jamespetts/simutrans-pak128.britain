@@ -5,7 +5,7 @@ speed=130
 copyright=Kieron
 intro_year=1908
 intro_month=2
-retire_year=1935
+retire_year=1924
 retire_month=1
 waytype=track
 freight=Passagiere
@@ -21,12 +21,16 @@ sound=-1
 can_lead_from_rear=0
 bidirectional=1
 
-loading_time=4000
-comfort=82
+loading_time=4100
+comfort=89
 
 Constraint[Next][0]=GWR-Droplight-Third(Mahogany)
 Constraint[Next][1]=GWR-Droplight-Brake(Mahogany)
 Constraint[Next][2]=GWR-Droplight-Dining(Mahogany)
+
+Constraint[Prev][0]=GWR-Droplight-Third(Mahogany)
+Constraint[Prev][1]=GWR-Droplight-Brake(Mahogany)
+Constraint[Prev][2]=GWR-Droplight-Dining(Mahogany)
 
 EmptyImage[E]=./images/gwr-droplight-third-m.0
 EmptyImage[SE]=./images/gwr-droplight-third-m.1
@@ -43,8 +47,8 @@ speed=130
 copyright=Kieron
 intro_year=1908
 intro_month=2
-retire_year=1950
-retire_month=10
+retire_year=1924
+retire_month=1
 waytype=track
 freight=Passagiere
 payload=24
@@ -59,12 +63,16 @@ catering_level=3
 
 can_lead_from_rear=0
 bidirectional=1
-loading_time=4000
-comfort=82
+loading_time=4100
+comfort=89
 
 Constraint[Next][0]=GWR-Droplight-Third(Mahogany)
 Constraint[Next][1]=GWR-Droplight-Brake(Mahogany)
 Constraint[Next][2]=GWR-Droplight-Dining(Mahogany)
+
+Constraint[Prev][0]=GWR-Droplight-Third(Mahogany)
+Constraint[Prev][1]=GWR-Droplight-Brake(Mahogany)
+Constraint[Prev][2]=GWR-Droplight-Dining(Mahogany)
 
 EmptyImage[E]=./images/gwr-droplight-third-m.0
 EmptyImage[SE]=./images/gwr-droplight-third-m.1

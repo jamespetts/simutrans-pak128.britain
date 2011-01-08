@@ -31,6 +31,13 @@ Constraint[Next][3]=LNER-Gresley-Express-Mail(Teak)
 Constraint[Next][4]=LNER-Gresley-Express-TPO(Teak)
 Constraint[Next][5]=LNER-Gresley-Express-Parcel-Brake(Teak)
 
+Constraint[Prev][0]=LNER-Gresley-Express-Coach(Teak)
+Constraint[Prev][1]=LNER-Gresley-Express-Brake(Teak)
+Constraint[Prev][2]=LNER-Gresley-Express-Dining(Teak)
+Constraint[Prev][3]=LNER-Gresley-Express-Mail(Teak)
+Constraint[Prev][4]=LNER-Gresley-Express-TPO(Teak)
+Constraint[Prev][5]=LNER-Gresley-Express-Parcel-Brake(Teak)
+
 EmptyImage[E]=./images/lner-gresley-express-mail.0
 EmptyImage[SE]=./images/lner-gresley-express-mail.1
 EmptyImage[S]=./images/lner-gresley-express-mail.2
@@ -73,6 +80,13 @@ Constraint[Next][2]=LNER-Gresley-Express-Dining(Teak)
 Constraint[Next][3]=LNER-Gresley-Express-Mail(Teak)
 Constraint[Next][4]=LNER-Gresley-Express-TPO(Teak)
 Constraint[Next][5]=LNER-Gresley-Express-Parcel-Brake(Teak)
+
+Constraint[Prev][0]=LNER-Gresley-Express-Coach(Teak)
+Constraint[Prev][1]=LNER-Gresley-Express-Brake(Teak)
+Constraint[Prev][2]=LNER-Gresley-Express-Dining(Teak)
+Constraint[Prev][3]=LNER-Gresley-Express-Mail(Teak)
+Constraint[Prev][4]=LNER-Gresley-Express-TPO(Teak)
+Constraint[Prev][5]=LNER-Gresley-Express-Parcel-Brake(Teak)
 
 EmptyImage[E]=./images/lner-gresley-express-tpo.0
 EmptyImage[SE]=./images/lner-gresley-express-tpo.1

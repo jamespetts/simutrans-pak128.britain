@@ -1,7 +1,7 @@
 obj=vehicle
 name=LNWR-Bloomer-Tender(Red)
 engine_type=steam
-speed=85
+speed=110
 copyright=James
 intro_year=1851
 intro_month=5

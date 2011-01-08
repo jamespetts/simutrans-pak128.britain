@@ -3,7 +3,8 @@ name=BR-414[HAP]Front(Blue-Grey)
 engine_type=electric
 speed=121
 #gear=700
-power=373
+power=
+tractive_effort=115
 copyright=Kieron
 intro_year=1956
 intro_month=4
@@ -17,6 +18,7 @@ length=11
 
 weight=40
 cost=1460000
+upgrade_price=1109600
 runningcost=95
 sound=-1
 increase_maintenance_after_years=10
@@ -37,7 +39,9 @@ Constraint[Prev][1]=BR-414[HAP]Rear(Blue-Grey)
 Constraint[Prev][2]=BR-419[MLV](Blue-Grey)
 Constraint[Prev][3]=BR-499[TLV](Blue-Grey)
 Constraint[Prev][4]=BR-423-DTCL-Rear
-Constraint[Prev][5]=none
+Constraint[Prev][5]=BR-4EPB(rear)
+Constraint[Prev][6]=BR-2EPB(rear)
+Constraint[Prev][7]=none
 
 Constraint[Next][0]=BR-414[HAP]Rear(Blue-Grey)
 

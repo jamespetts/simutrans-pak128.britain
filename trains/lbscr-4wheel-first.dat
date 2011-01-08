@@ -1,19 +1,19 @@
+# See http://basilicafields.wordpress.com/2010/12/19/lbscr-carriages
 obj=vehicle
 name=LBSCR-4Wheel-First
 speed=110
 copyright=Kieron
-intro_year=1868
+intro_year=1872
 intro_month=4
-retire_year=1904
+retire_year=1901
 retire_month=1
-# Temporary measure - should retire sooner. Need later suburban non-corridoors.
 waytype=track
 freight=Passagiere
-payload=34
-overcrowded_capacity=17
+payload=50
+overcrowded_capacity=25
 length=6
 
-weight=9
+weight=10
 cost=285000
 runningcost=17
 sound=-1
@@ -23,6 +23,9 @@ loading_time=3500
 
 can_lead_from_rear=0
 bidirectional=1
+
+Constraint[Prev][0]=LBSCR-4Wheel-First
+Constraint[Prev][1]=LBSCR-4Wheel-Brake
 
 Constraint[next][0]=LBSCR-4Wheel-First
 Constraint[next][1]=LBSCR-4Wheel-Brake

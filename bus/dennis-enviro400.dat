@@ -21,7 +21,7 @@ intro_month=1
 #retire_month=5
 # Do not retire - no replacements available!
 
-comfort=64
+comfort=66
 loading_time=5750
 
 Constraint[Prev][0]=none

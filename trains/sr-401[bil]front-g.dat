@@ -1,9 +1,10 @@
 obj=vehicle
 name=SR-401[BIL]Front(Green)
 engine_type=electric
-speed=97
+speed=120
 #gear=650
 power=410
+tractive_effort=107
 copyright=Kieron
 intro_year=1935
 intro_month=4
@@ -25,11 +26,12 @@ can_lead_from_rear=1
 bidirectional=0
 way_constraint_permissive[0]=0
 
-loading_time=4000
+loading_time=4100
 comfort=82
 
 Constraint[Prev][0]=SR-401[BIL]Rear(Green)
-Constraint[Prev][1]=none
+Constraint[Prev][1]=SR-4LAV(rear)
+Constraint[Prev][2]=none
 
 Constraint[Next][0]=SR-401[BIL]Rear(Green)
 
