@@ -25,7 +25,7 @@ CPFILES += licence.txt
 CPFILES += demo.sve
 CPFILES += config
 CPFILES += text
-CPFILES += sound
+#CPFILES += sound
 
 DIRS64 :=
 DIRS64 += gui/gui64
