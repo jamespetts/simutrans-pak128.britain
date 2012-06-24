@@ -7,7 +7,8 @@ speed=198
 power=220
 #gear=1
 freight=Post
-payload=14
+#payload 1.2t
+payload=24
 weight=4
 #length=8
 cost=1800000

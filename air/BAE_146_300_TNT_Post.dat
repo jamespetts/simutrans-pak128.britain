@@ -7,7 +7,8 @@ speed=775
 power=13500
 #gear=1
 freight=Post
-payload=110
+#payload 9.4t
+payload=188
 weight=29,1
 #length=8
 cost=16000000
@@ -44,6 +45,7 @@ speed=775
 power=13500
 #gear=1
 freight=meat
+#payload 9.4t
 payload=110
 weight=29,1
 #length=8
@@ -81,6 +83,7 @@ speed=775
 power=13500
 #gear=1
 freight=Bucher
+#payload 9.4t
 payload=110
 weight=29,1
 #length=8

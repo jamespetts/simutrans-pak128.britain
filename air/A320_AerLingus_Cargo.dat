@@ -7,7 +7,8 @@ speed=828
 power=27600
 #gear=1
 freight=Post
-payload=210
+#payload 17.8t
+payload=356
 weight=51
 #length=8
 cost=50000000
@@ -44,6 +45,7 @@ speed=828
 power=27600
 #gear=1
 freight=Bucher
+#payload 17.8t
 payload=210
 weight=51
 #length=8
@@ -81,6 +83,7 @@ speed=828
 power=27600
 #gear=1
 freight=fish
+#payload 17.8t
 payload=210
 weight=51
 #length=8
