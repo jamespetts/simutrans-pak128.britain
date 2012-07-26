@@ -42,12 +42,17 @@ DIRS128 += ways
 
 DIRS192 := 
 DIRS192 += boats/boats192
+DIRS192 := 
+DIRS192 += air/air192
+
 
 DIRS224 := 
 DIRS224 += boats/boats224
 
+DIRS256 := 
+DIRS256 += air/air256
 
-DIRS := $(OUTSIDE) $(DIRS64) $(DIRS128) $(DIRS192) $(DIRS224)
+DIRS := $(OUTSIDE) $(DIRS64) $(DIRS128) $(DIRS192) $(DIRS224) $(DIRS256)
 
 
 .PHONY: $(DIRS) copy tar zip
@@ -96,6 +101,11 @@ $(DIRS224):
 	@echo "===> PAK224 $@"
 	@mkdir -p $(PAKDIR)
 	@$(MAKEOBJ) quiet PAK224 $(PAKDIR)/ $@/ > /dev/null
+
+$(DIRS256):
+	@echo "===> PAK256 $@"
+	@mkdir -p $(PAKDIR)
+	@$(MAKEOBJ) quiet PAK256 $(PAKDIR)/ $@/ > /dev/null
 
 $(OUTSIDE):
 	@echo "===> OUTSIDE with REVISION and grounds"

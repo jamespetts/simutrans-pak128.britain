@@ -7,6 +7,7 @@ speed=851
 power=25300
 #gear=1
 freight=Post
+#payload=19.2t
 payload=384
 weight=57
 #length=8
