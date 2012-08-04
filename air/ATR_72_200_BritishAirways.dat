@@ -22,7 +22,10 @@ retire_month=6
 
 increase_maintenance_after_years=30
 
-minimum_runway_length=1333
+# @ ISA (sea level, 0Centigrades), Runway Dry
+#minimum_runway_length=1400
+# @ ISA+10C, Runway dry = +10%
+minimum_runway_length=1550
 
 sound=aircraft-jet_stop.wav
 

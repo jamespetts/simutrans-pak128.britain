@@ -19,7 +19,11 @@ retire_month=12
 comfort=100
 min_loading_time=2400
 max_loading_time=2400
-minimum_runway_length=1500
+
+# @ ISA (sea level, 0Centigrades), Runway Dry
+#minimum_runway_length=1000
+# @ ISA+10C, Runway dry = +10%
+minimum_runway_length=1100
 
 increase_maintenance_after_years=30
 

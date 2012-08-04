@@ -21,7 +21,11 @@ smoke=Diesel
 
 min_loading_time=1800
 max_loading_time=1800
-minimum_runway_length=700
+
+# @ ISA (sea level, 0Centigrades), Runway Dry
+#minimum_runway_length=1600
+# @ ISA+10C, Runway dry = +10%
+minimum_runway_length=1750
 
 #sound=aircraft-jet_stop.wav
 

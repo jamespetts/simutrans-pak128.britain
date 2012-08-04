@@ -25,7 +25,10 @@ increase_maintenance_after_years=30
 
 sound=aircraft-jet_stop.wav
 
-minimum_runway_length=1333
+# @ ISA (sea level, 0Centigrades), Runway Dry
+#minimum_runway_length=1400
+# @ ISA+10C, Runway dry = +10%
+minimum_runway_length=1550
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
@@ -65,7 +68,10 @@ retire_month=06
 
 increase_maintenance_after_years=30
 
-minimum_runway_length=1333
+# @ ISA (sea level, 0Centigrades), Runway Dry
+#minimum_runway_length=1400
+# @ ISA+10C, Runway dry = +10%
+minimum_runway_length=1550
 
 sound=aircraft-jet_stop.wav
 
@@ -108,7 +114,10 @@ retire_month=06
 
 increase_maintenance_after_years=30
 
-minimum_runway_length=1333
+# @ ISA (sea level, 0Centigrades), Runway Dry
+#minimum_runway_length=1400
+# @ ISA+10C, Runway dry = +10%
+minimum_runway_length=1550
 
 sound=aircraft-jet_stop.wav
 

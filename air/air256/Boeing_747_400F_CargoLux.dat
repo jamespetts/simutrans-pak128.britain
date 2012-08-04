@@ -20,7 +20,11 @@ sound=aircraft-jet_stop.wav
 
 min_loading_time=3600
 max_loading_time=3600
-minimum_runway_length=2890
+
+# @ ISA (sea level, 0Centigrades), Runway Dry
+#minimum_runway_length=3200
+# @ ISA+10C, Runway dry = +10%
+minimum_runway_length=3500
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none

@@ -20,7 +20,11 @@ retire_month=12
 
 min_loading_time=3600
 max_loading_time=3600
-minimum_runway_length=1500
+
+# @ ISA (sea level, 0Centigrades), Runway Dry
+#minimum_runway_length=1100
+# @ ISA+10C, Runway dry = +10%
+minimum_runway_length=1200
 
 sound=aircraft-jet_stop.wav
 
@@ -59,7 +63,11 @@ retire_month=12
 
 min_loading_time=3600
 max_loading_time=3600
-minimum_runway_length=1500
+
+# @ ISA (sea level, 0Centigrades), Runway Dry
+#minimum_runway_length=1100
+# @ ISA+10C, Runway dry = +10%
+minimum_runway_length=1200
 
 sound=aircraft-jet_stop.wav
 
@@ -98,6 +106,11 @@ retire_month=12
 
 min_loading_time=3600
 max_loading_time=3600
+
+# @ ISA (sea level, 0Centigrades), Runway Dry
+#minimum_runway_length=1100
+# @ ISA+10C, Runway dry = +10%
+minimum_runway_length=1200
 
 sound=aircraft-jet_stop.wav
 
