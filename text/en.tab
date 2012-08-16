@@ -116,6 +116,9 @@ ATR_42_300F(FedEx)Piece
 ATR 42 300 Series (piece goods)
 ATR_42_300F(FedEx)Cool
 ATR 42 300 Series (foods)
+ATR_42_500F(DHL)Post
+ATR_42_500F(DHL)Piece
+ATR_42_500F(DHL)Cool
 ATR72_200(FedEx)Post
 ATR 72 200 Series (post)
 ATR72_200(FedEx)Piece
