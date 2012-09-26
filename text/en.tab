@@ -130,14 +130,16 @@ ATR72_200(FedEx)Piece
 ATR 72 200 Series (piece goods)
 ATR72_200(FedEx)Cool
 ATR 72 200 Series (foods)
+ATR72_200(BritishAirways)
+ATR 72 200 Series
+ATR_72_500(AurignyAirServices)
+ATR 72 500 Series
 Airbus320(AerLingus)Post
 Airbus A320 (post)
 Airbus320(AerLingus)Piece
 Airbus A320 (piece goods)
 Airbus320(AerLingus)Cool
 Airbus A320 (foods)
-ATR72_200(BritishAirways)
-ATR 72 200 Series
 FordTrimotorMail
 Ford Trimotor (mail)
 Ford-Trimotor-NSA
