@@ -209,7 +209,7 @@ retire_month=6
 
 Constraint[Next][0]=HorseBargeCool
 Constraint[Next][1]=HorseBargeBulk
-Constraint[Next]30[2]=HorseBargeLong
+Constraint[Next][2]=HorseBargeLong
 Constraint[Next][3]=HorseBargePiece
 Constraint[Next][4]=none
 Constraint[Prev][0]=none

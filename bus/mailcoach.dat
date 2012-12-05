@@ -11,8 +11,8 @@ cost=30000
 runningcost=8
 intro_year=1784
 intro_month=1
-retire_year=1842
-retire_month=6
+retire_year=1883
+retire_month=11
 increase_maintenance_after_years=25
 years_before_maintenance_max_reached=35
 
