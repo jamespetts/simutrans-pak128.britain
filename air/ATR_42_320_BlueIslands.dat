@@ -5,7 +5,7 @@ waytype=air
 engine_type=diesel
 speed=450
 power=3132
-tractive_effort=12
+tractive_effort=25
 #gear=1
 freight=Passagiere
 payload=48
@@ -40,3 +40,5 @@ EmptyImage[W]=images/ATR_42_320_BlueIsland.0.6
 EmptyImage[NW]=images/ATR_42_320_BlueIsland.0.5
 EmptyImage[N]=images/ATR_42_320_BlueIsland.0.4
 EmptyImage[NE]=images/ATR_42_320_BlueIsland.0.3
+
+-------------

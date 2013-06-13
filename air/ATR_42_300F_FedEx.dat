@@ -5,7 +5,7 @@ waytype=air
 engine_type=diesel
 speed=450
 power=2980
-tractive_effort=11
+tractive_effort=24
 #gear=1
 freight=Post
 #payload 2.1t
@@ -48,7 +48,7 @@ waytype=air
 engine_type=diesel
 speed=450
 power=2980
-tractive_effort=11
+tractive_effort=24
 #gear=1
 freight=Bucher
 #payload 2.1t
@@ -91,7 +91,7 @@ waytype=air
 engine_type=diesel
 speed=450
 power=2980
-tractive_effort=11
+tractive_effort=24
 #gear=1
 freight=meat
 #payload 2.1t

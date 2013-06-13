@@ -5,7 +5,7 @@ waytype=air
 engine_type=diesel
 speed=450
 power=3220
-tractive_effort=12
+tractive_effort=25
 #gear=1
 freight=Post
 #payload 4.8t
@@ -48,7 +48,7 @@ waytype=air
 engine_type=diesel
 speed=450
 power=3220
-tractive_effort=12
+tractive_effort=25
 #gear=1
 freight=Bucher
 #payload 4.8t
@@ -92,7 +92,7 @@ waytype=air
 engine_type=diesel
 speed=450
 power=3220
-tractive_effort=12
+tractive_effort=25
 #gear=1
 freight=fish
 #payload 4.8t
@@ -126,3 +126,5 @@ EmptyImage[W]=./images/ATR_72_200_FedEx.0.6
 EmptyImage[NW]=./images/ATR_72_200_FedEx.0.5
 EmptyImage[N]=./images/ATR_72_200_FedEx.0.4
 EmptyImage[NE]=./images/ATR_72_200_FedEx.0.3
+
+-------------

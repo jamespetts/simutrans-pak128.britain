@@ -5,7 +5,7 @@ waytype=air
 engine_type=diesel
 speed=198
 power=940
-tractive_effort=4
+tractive_effort=17
 #gear=1
 freight=Post
 #payload 1.2t
