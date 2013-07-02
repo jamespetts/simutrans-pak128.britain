@@ -18,6 +18,7 @@ intro_month=7
 comfort=107
 min_loading_time=2200
 max_loading_time=2200
+catering_level=2
 
 # @ ISA (sea level, 0Centigrades), Runway Dry
 #minimum_runway_length=1300
