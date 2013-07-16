@@ -96,7 +96,7 @@ Constraint[Next][5]=ClipperAddLong
 Constraint[Next][6]=ClipperAddLivestock
 Constraint[Next][7]=none
 
-EmptyImage[E]=../images/holds.0.1,,40,56
+EmptyImage[E]=../images/holds.0.1,40,56
 EmptyImage[SE]=../images/holds.0.1,48,40
 EmptyImage[S]=../images/holds.0.1,48,48
 EmptyImage[SW]=../images/holds.0.1,64,64
@@ -105,7 +105,7 @@ EmptyImage[NW]=../images/holds.0.1,48,40
 EmptyImage[N]=../images/holds.0.1,56,48
 EmptyImage[NE]=../images/holds.0.1,64,48
 
-FreightImage[E]=../images/holds.1.1,,40,56
+FreightImage[E]=../images/holds.1.1,40,56
 FreightImage[SE]=../images/holds.1.1,48,40
 FreightImage[S]=../images/holds.1.1,48,48
 FreightImage[SW]=../images/holds.1.1,64,64
@@ -152,7 +152,7 @@ Constraint[Next][5]=ClipperAddLong
 Constraint[Next][6]=ClipperAddLivestock
 Constraint[Next][7]=none
 
-EmptyImage[E]=../images/holds.0.2,,40,56
+EmptyImage[E]=../images/holds.0.2,40,56
 EmptyImage[SE]=../images/holds.0.2,48,40
 EmptyImage[S]=../images/holds.0.2,48,48
 EmptyImage[SW]=../images/holds.0.2,64,64
@@ -162,7 +162,7 @@ EmptyImage[N]=../images/holds.0.2,56,48
 EmptyImage[NE]=../images/holds.0.2,64,48
 
 freightimagetype[4]=Cement
-FreightImage[4][E]=../images/holds.0.4,,40,56
+FreightImage[4][E]=../images/holds.0.4,40,56
 FreightImage[4][SE]=../images/holds.0.4,48,40
 FreightImage[4][S]=../images/holds.0.4,48,48
 FreightImage[4][SW]=../images/holds.0.4,64,64
@@ -172,7 +172,7 @@ FreightImage[4][N]=../images/holds.0.4,56,48
 FreightImage[4][NE]=../images/holds.0.4,64,48
 
 freightimagetype[3]=Kohle
-FreightImage[3][E]=../images/holds.0.3,,40,56
+FreightImage[3][E]=../images/holds.0.3,40,56
 FreightImage[3][SE]=../images/holds.0.3,48,40
 FreightImage[3][S]=../images/holds.0.3,48,48
 FreightImage[3][SW]=../images/holds.0.3,64,64
@@ -182,7 +182,7 @@ FreightImage[3][N]=../images/holds.0.3,56,48
 FreightImage[3][NE]=../images/holds.0.3,64,48
 
 freightimagetype[2]=Eisenerz
-FreightImage[2][E]=../images/holds.1.2,,40,56
+FreightImage[2][E]=../images/holds.1.2,40,56
 FreightImage[2][SE]=../images/holds.1.2,48,40
 FreightImage[2][S]=../images/holds.1.2,48,48
 FreightImage[2][SW]=../images/holds.1.2,64,64
@@ -192,7 +192,7 @@ FreightImage[2][N]=../images/holds.1.2,56,48
 FreightImage[2][NE]=../images/holds.1.2,64,48
 
 freightimagetype[1]=Stone
-FreightImage[1][E]=../images/holds.0.4,,40,56
+FreightImage[1][E]=../images/holds.0.4,40,56
 FreightImage[1][SE]=../images/holds.0.4,48,40
 FreightImage[1][S]=../images/holds.0.4,48,48
 FreightImage[1][SW]=../images/holds.0.4,64,64
@@ -202,7 +202,7 @@ FreightImage[1][N]=../images/holds.0.4,56,48
 FreightImage[1][NE]=../images/holds.0.4,64,48
 
 freightimagetype[0]=grain
-FreightImage[0][E]=../images/holds.1.3,,40,56
+FreightImage[0][E]=../images/holds.1.3,40,56
 FreightImage[0][SE]=../images/holds.1.3,48,40
 FreightImage[0][S]=../images/holds.1.3,48,48
 FreightImage[0][SW]=../images/holds.1.3,64,64
@@ -249,7 +249,7 @@ Constraint[Next][5]=ClipperAddLong
 Constraint[Next][6]=ClipperAddLivestock
 Constraint[Next][7]=none
 
-EmptyImage[E]=../images/holds.1.4,,40,56
+EmptyImage[E]=../images/holds.1.4,40,56
 EmptyImage[SE]=../images/holds.1.4,48,40
 EmptyImage[S]=../images/holds.1.4,48,48
 EmptyImage[SW]=../images/holds.1.4,64,64
@@ -259,7 +259,7 @@ EmptyImage[N]=../images/holds.1.4,56,48
 EmptyImage[NE]=../images/holds.1.4,64,48
 
 freightimagetype[1]=Bretter
-FreightImage[1][E]=../images/holds.1.5,,40,56
+FreightImage[1][E]=../images/holds.1.5,40,56
 FreightImage[1][SE]=../images/holds.1.5,48,40
 FreightImage[1][S]=../images/holds.1.5,48,48
 FreightImage[1][SW]=../images/holds.1.5,64,64
@@ -269,7 +269,7 @@ FreightImage[1][N]=../images/holds.1.5,56,48
 FreightImage[1][NE]=../images/holds.1.5,64,48
 
 freightimagetype[0]=Stahl
-FreightImage[0][E]=../images/holds.0.5,,40,56
+FreightImage[0][E]=../images/holds.0.5,40,56
 FreightImage[0][SE]=../images/holds.0.5,48,40
 FreightImage[0][S]=../images/holds.0.5,48,48
 FreightImage[0][SW]=../images/holds.0.5,64,64
@@ -316,7 +316,7 @@ Constraint[Next][5]=ClipperAddLong
 Constraint[Next][6]=ClipperAddLivestock
 Constraint[Next][7]=none
 
-EmptyImage[E]=../images/holds.0.7,,40,56
+EmptyImage[E]=../images/holds.0.7,40,56
 EmptyImage[SE]=../images/holds.0.7,48,40
 EmptyImage[S]=../images/holds.0.7,48,48
 EmptyImage[SW]=../images/holds.0.7,64,64
@@ -325,7 +325,7 @@ EmptyImage[NW]=../images/holds.0.7,48,40
 EmptyImage[N]=../images/holds.0.7,56,48
 EmptyImage[NE]=../images/holds.0.7,64,48
 
-FreightImage[E]=../images/holds.1.7,,40,56
+FreightImage[E]=../images/holds.1.7,40,56
 FreightImage[SE]=../images/holds.1.7,48,40
 FreightImage[S]=../images/holds.1.7,48,48
 FreightImage[SW]=../images/holds.1.7,64,64
@@ -372,7 +372,7 @@ Constraint[Next][5]=ClipperAddLong
 Constraint[Next][6]=ClipperAddLivestock
 Constraint[Next][7]=none
 
-EmptyImage[E]=../images/holds.0.6,,40,56
+EmptyImage[E]=../images/holds.0.6,40,56
 EmptyImage[SE]=../images/holds.0.6,48,40
 EmptyImage[S]=../images/holds.0.6,48,48
 EmptyImage[SW]=../images/holds.0.6,64,64
@@ -381,7 +381,7 @@ EmptyImage[NW]=../images/holds.0.6,48,40
 EmptyImage[N]=../images/holds.0.6,56,48
 EmptyImage[NE]=../images/holds.0.6,64,48
 
-FreightImage[E]=../images/holds.1.6,,40,56
+FreightImage[E]=../images/holds.1.6,40,56
 FreightImage[SE]=../images/holds.1.6,48,40
 FreightImage[S]=../images/holds.1.6,48,48
 FreightImage[SW]=../images/holds.1.6,64,64
@@ -428,7 +428,7 @@ Constraint[Next][5]=ClipperAddLong
 Constraint[Next][6]=ClipperAddLivestock
 Constraint[Next][7]=none
 
-EmptyImage[E]=../images/holds.0.8,,40,56
+EmptyImage[E]=../images/holds.0.8,40,56
 EmptyImage[SE]=../images/holds.0.8,48,40
 EmptyImage[S]=../images/holds.0.8,48,48
 EmptyImage[SW]=../images/holds.0.8,64,64
@@ -437,7 +437,7 @@ EmptyImage[NW]=../images/holds.0.8,48,40
 EmptyImage[N]=../images/holds.0.8,56,48
 EmptyImage[NE]=../images/holds.0.8,64,48
 
-FreightImage[E]=../images/holds.1.8,,40,56
+FreightImage[E]=../images/holds.1.8,40,56
 FreightImage[SE]=../images/holds.1.8,48,40
 FreightImage[S]=../images/holds.1.8,48,48
 FreightImage[SW]=../images/holds.1.8,64,64
