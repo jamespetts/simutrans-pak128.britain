@@ -169,13 +169,13 @@ Boeing 727 200 series
 Boeing_727_200Adv(DHL)Post
 Boeing 727 200 Advanced series (mail)
 Boeing727_100(UPS)Cargo
-Beoing 727 100 series (piece goods)
+Boeing 727 100 series (piece goods)
 Boeing727_100(UPS)CargoCool
-Beoing 727 100 series (perishable goods)
+Boeing 727 100 series (perishable goods)
 Boeing_727_200(TNT)CargoPiece
-Beoing 727 200 series (piece goods)
+Boeing 727 200 series (piece goods)
 Boeing_727_200(TNT)CargoCool
-Beoing 727 200 series (foods)
+Boeing 727 200 series (foods)
 Boeing_727_100(DanAirLondon)
 Boeing 727 100 series
 Boeing727_100(DHL)Post
@@ -239,7 +239,7 @@ Steel bowstring arch bridge
 SteelTruss
 Steel truss bridge
 IronArchRailBridge
-Iron arch rridge
+Iron arch bridge
 IronLatticeGirderRailBridge
 Iron lattice girder bridge
 PlateGirderConcrete
@@ -463,51 +463,51 @@ Bungalow
 RES_KG_1930_01_01
 Bungalow
 RES_JH_1970_00_02
-Detatched House
+Detached House
 RES_JH_1970_01_02
-Detatched House
+Detached House
 RES_JH_1970_02_02
-Detatched House
+Detached House
 RES_KG_1930_00_02
-Detatched House
+Detached House
 RES_KG_1890_00_02
 Town House
 RES_KG_1990_00_02
-Detatched House
+Detached House
 RES_KG_1990_01_02
-Detatched House
+Detached House
 RES_KG_1700_00_02
 Terraced Houses
 RES_KG_1920_00_02
-Detatched House
+Detached House
 RES_KG_1960_04_03
-Semi-detatched Houses
+Semi-detached Houses
 RES_JH_1750_00_04
 Town House
 RES_KG_1880_00_04
 Semi-detached Cottages
 RES_KG_1910_00_04
-Semi-detatched Town Houses
+Semi-detached Town Houses
 RES_KG_1700_01_04
 Terraced Houses
 RES_KG_1960_01_04
-Semi-detatched Houses
+Semi-detached Houses
 RES_KG_1980_00_04
-Semi-detatched Houses
+Semi-detached Houses
 RES_KG_1980_01_04
-Semi-detatched Houses
+Semi-detached Houses
 RES_KG_1890_01_05
-Victorian Semi-detatched Houses
+Victorian Semi-detached Houses
 RES_KG_1870_00_06
-Victorian Semi-detatched Houses
+Victorian Semi-detached Houses
 RES_KG_1910_01_06
-Victorian Semi-detatched Town Houses
+Victorian Semi-detached Town Houses
 RES_KG_1880_01_06
 Victorian Terraced Houses
 RES_KG_1950_01_08
 Maisonettes
 RES_KG_1960_02_08
-Semi-detatched Houses
+Semi-detached Houses
 RES_JH_1970_03_04
 Bungalows
 RES_KG_1960_03_12
@@ -553,7 +553,7 @@ Small Factory
 IND_JH_1860_00_10
 Gasometer
 RES_KG_1990_02_03
-Semi-detatched Houses
+Semi-detached Houses
 IND_JH_1750_03_04
 Warehouse
 IND_WL_1950_00_04
@@ -669,23 +669,23 @@ Prefabs
 RES_JH_1890_01_02
 Town House
 RES_KG_1930_00_02B
-Detatched House
+Detached House
 RES_JH_1890_02_03A
-Detatched House
+Detached House
 RES_JH_1890_02_03B
-Detatched House
+Detached House
 RES_A_1850_00_4
 Town House
 RES_A_1890_02_04
 Corner Terrace
 RES_JH_1930_00_04
-Suburban Semi-detatched Houses
+Suburban Semi-detached Houses
 RES_JH_1930_00_04B
-Suburban Semi-detatched Houses
+Suburban Semi-detached Houses
 RES_JH_1890_00_06A
-Semi-detatched Town Houses
+Semi-detached Town Houses
 RES_JH_1890_00_06B
-Semi-detatched Town Houses
+Semi-detached Town Houses
 RES_JH_1870_00_06A
 Terraced Houses
 RES_JH_1870_00_06B
@@ -1929,27 +1929,27 @@ Four wheel four compartment carriage
 4-wheel-1860s-brake-front
 Four wheel two compartment brake carriage
 4-wheel-1860s-brake-rear
-Four wheel two compartment brake cariage
+Four wheel two compartment brake carriage
 4-wheel-1860s-full-brake
 Four wheel mail/brake carriage
 4-wheel-1860s-mail
-Four wheel mail cariage
+Four wheel mail carriage
 4-wheel-1860s-tpo
 Four wheel travelling post office
 4-wheel-1870s-unfitted
 Four wheel four compartment carriage
 4-wheel-1870s-brake-unfitted
-Four wheel mail/brake cariage
+Four wheel mail/brake carriage
 4-wheel-1870s-mail-unfitted
-Four wheel mail cariage
+Four wheel mail carriage
 4-wheel-1870s-tpo-unfitted
 Four wheel TPO
 4-wheel-1870s-fitted
 Four wheel four compartment carriage (continuously braked)
 4-wheel-1870s-brake-fitted
-Four wheel mail/brake cariage (continuously braked)
+Four wheel mail/brake carriage (continuously braked)
 4-wheel-1870s-mail-fitted
-Four wheel mail cariage (continuously braked)
+Four wheel mail carriage (continuously braked)
 4-wheel-1870s-tpo-fitted
 Four wheel TPO (continuously braked)
 4-wheel-sub-1870s-unfitted
@@ -1965,11 +1965,11 @@ Four wheel three compartment brake carriage (continuously braked)
 4-wheel-sub-1870s-brake-rear-fitted
 Four wheel three compartment brake carriage (continuously braked)
 LBSCR-4wheel-parliamentary-second
-LBSCR four comaprtment Parliamentary carriage
+LBSCR four compartment Parliamentary carriage
 LBSCR-4wheel-parliamentary-third
-LBSCR five comaprtment Parliamentary carriage
+LBSCR five compartment Parliamentary carriage
 LBSCR-4wheel-parliamentary-third-brake
-LBSCR five comaprtment Parliamentary brake carriage
+LBSCR five compartment Parliamentary brake carriage
 LBSCR-4wheel-open
 LBSCR open carriage
 LBSCR-4wheel-open-brake
@@ -2407,9 +2407,9 @@ BR Mk. 1 open carriage
 BR-Mk1-SK
 BR Mk. 1 corridor vestibule carriage
 BR-Mk1-BSO-front
-BR Mk. 1 open brake cariage
+BR Mk. 1 open brake carriage
 BR-Mk1-BSO-rear
-BR Mk. 1 open brake cariage (rear)
+BR Mk. 1 open brake carriage (rear)
 BR-Mk1-BSK-rear
 BR Mk. 1 corridor vestibule brake carriage (rear)
 BR-Mk1-BSK-front
@@ -2545,7 +2545,7 @@ Metropolitan 1905 Motorised Stock
 Metropolitan-Motor-Third-Middle
 Metropolitan 1905 Motorised Stock (centre)
 Metropolitan-Motor-Third-Back
-Metropolitan 1905 Mororised Stock (rear)
+Metropolitan 1905 Motorised Stock (rear)
 Metropolitan-Bogie-Third
 Metropolitan Bogie Carriage
 Metropolitan-Dreadnought-Third
@@ -3625,9 +3625,9 @@ BR Class 101 DMU
 BR-101-TSL
 BR Class 101 DMU (centre trailer)
 BR-101-DMCL
-BR Class 101 DMU (drivng motor - rear)
+BR Class 101 DMU (driving motor - rear)
 BR-101-DTCL
-BR Class 101 DMU (drivng trailer - rear)
+BR Class 101 DMU (driving trailer - rear)
 BR-120-DMBC
 BR Class 120 cross-country DMU
 BR-120-TSLRB
@@ -3851,7 +3851,7 @@ NET Bombardier Incentro (rear)
 Blackpool-Balloon
 Blackpool Balloon
 Blackpool-Millenium
-Blackpool Millenium
+Blackpool Millennium
 Metrolink-T86(Front)
 Metrolink T86
 Metrolink-T86(Rear)
@@ -5419,7 +5419,7 @@ Station building concourse
 ModernStationBuilding
 Station building concourse
 CountryStationBuilding
-Country atation building
+Country station building
 ModernPostOffice
 Post office
 OldPostOffice
@@ -5445,7 +5445,7 @@ Staging inn
 ModernBusShelter
 Bus stop with shelter
 OldBusShelter
-Bus stop with ahelter
+Bus stop with shelter
 OldBusShelterWmail
 Bus stop with shelter and post box
 ModernBusTerminal
@@ -5483,9 +5483,9 @@ Apron
 ControlTowerModern
 Control tower
 1950sTerminalBuildingEntrance
-Terminal building wntrance
+Terminal building entrance
 TerminalModernBuildingEntrance
-Terminal building wntrance
+Terminal building entrance
 DecoTerminalBuildingEntrance
 Terminal building
 DecoTerminalBuildingTower
