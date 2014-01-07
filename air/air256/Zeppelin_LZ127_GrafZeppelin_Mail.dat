@@ -10,6 +10,8 @@ power=1765
 tractive_effort=52
 #gear=1
 freight=Post
+
+# payload 15t
 payload=12000
 
 # dead-weight = 150.000lb

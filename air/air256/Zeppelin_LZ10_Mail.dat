@@ -11,12 +11,7 @@ tractive_effort=11
 #gear=1
 freight=Post
 #payload 7t
-
-#Experimental
 payload=7000
-
-#Standard
-payload=140
 
 # dead-weight = 45.520pound
 weight=21
