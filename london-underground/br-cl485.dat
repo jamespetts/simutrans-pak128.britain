@@ -61,14 +61,14 @@ EmptyImage[NW][1]=./images/br-cl485-bg.0.5
 EmptyImage[N][1]=./images/br-cl485-bg.0.6
 EmptyImage[NE][1]=./images/br-cl485-bg.0.7
 
-EmptyImage[E][0]=./images/br-cl485-nse.0.0
-EmptyImage[SE][0]=./images/br-cl485-nse.0.1
-EmptyImage[S][0]=./images/br-cl485-nse.0.2
-EmptyImage[SW][0]=./images/br-cl485-nse.0.3
-EmptyImage[W][0]=./images/br-cl485-nse.0.4
-EmptyImage[NW][0]=./images/br-cl485-nse.0.5
-EmptyImage[N][0]=./images/br-cl485-nse.0.6
-EmptyImage[NE][0]=./images/br-cl485-nse.0.7
+EmptyImage[E][2]=./images/br-cl485-nse.0.0
+EmptyImage[SE][2]=./images/br-cl485-nse.0.1
+EmptyImage[S][2]=./images/br-cl485-nse.0.2
+EmptyImage[SW][2]=./images/br-cl485-nse.0.3
+EmptyImage[W][2]=./images/br-cl485-nse.0.4
+EmptyImage[NW][2]=./images/br-cl485-nse.0.5
+EmptyImage[N][2]=./images/br-cl485-nse.0.6
+EmptyImage[NE][2]=./images/br-cl485-nse.0.7
 --
 obj=vehicle
 name=BR-Class485Middle1

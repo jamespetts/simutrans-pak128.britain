@@ -113,14 +113,14 @@ liverytype[0]=BR-Blue
 liverytype[1]=BR-Large-Logo
 liverytype[2]=NSE-Standard
 
-EmptyImage[E]=./images/br-310-12-pant.0.0
-EmptyImage[SE]=./images/br-310-12-pant.0.1
-EmptyImage[S]=./images/br-310-12-pant.0.2
-EmptyImage[SW]=./images/br-310-12-pant.0.3
-EmptyImage[W]=./images/br-310-12-pant.0.4
-EmptyImage[NW]=./images/br-310-12-pant.0.5
-EmptyImage[N]=./images/br-310-12-pant.0.6
-EmptyImage[NE]=./images/br-310-12-pant.0.7
+EmptyImage[E][0]=./images/br-310-12-pant.0.0
+EmptyImage[SE][0]=./images/br-310-12-pant.0.1
+EmptyImage[S][0]=./images/br-310-12-pant.0.2
+EmptyImage[SW][0]=./images/br-310-12-pant.0.3
+EmptyImage[W][0]=./images/br-310-12-pant.0.4
+EmptyImage[NW][0]=./images/br-310-12-pant.0.5
+EmptyImage[N][0]=./images/br-310-12-pant.0.6
+EmptyImage[NE][0]=./images/br-310-12-pant.0.7
 
 EmptyImage[E][1]=./images/br-312-panto-bg.1.4
 EmptyImage[SE][1]=./images/br-312-panto-bg.1.5
