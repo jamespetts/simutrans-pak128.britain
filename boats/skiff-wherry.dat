@@ -29,7 +29,10 @@ range=6
 Constraint[Next][0]=mail-space
 Constraint[Prev][0]=none
 
+way_constraint_permissive[1]=4  # waterway
 way_constraint_prohibitive[2]=2 # Barge
+way_constraint_prohibitive[3]=3 # Tub
+way_constraint_prohibitive[4]=4 # Narrow
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
 
@@ -81,7 +84,10 @@ range=6
 Constraint[Next][0]=mail-space
 Constraint[Prev][0]=none
 
+way_constraint_permissive[1]=4  # waterway
 way_constraint_prohibitive[2]=2 # Barge
+way_constraint_prohibitive[3]=3 # Tub
+way_constraint_prohibitive[4]=4 # Narrow
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
 
@@ -133,7 +139,10 @@ range=6
 Constraint[Next][0]=mail-space
 Constraint[Prev][0]=none
 
+way_constraint_permissive[1]=4  # waterway
 way_constraint_prohibitive[2]=2 # Barge
+way_constraint_prohibitive[3]=3 # Tub
+way_constraint_prohibitive[4]=4 # Narrow
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
 
@@ -185,7 +194,10 @@ range=6
 Constraint[Next][0]=mail-space
 Constraint[Prev][0]=none
 
+way_constraint_permissive[1]=4  # waterway
 way_constraint_prohibitive[2]=2 # Barge
+way_constraint_prohibitive[3]=3 # Tub
+way_constraint_prohibitive[4]=4 # Narrow
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
 
@@ -237,7 +249,10 @@ range=6
 Constraint[Next][0]=mail-space
 Constraint[Prev][0]=none
 
+way_constraint_permissive[1]=4  # waterway
 way_constraint_prohibitive[2]=2 # Barge
+way_constraint_prohibitive[3]=3 # Tub
+way_constraint_prohibitive[4]=4 # Narrow
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
 
@@ -289,7 +304,10 @@ range=6
 Constraint[Next][0]=mail-space
 Constraint[Prev][0]=none
 
+way_constraint_permissive[1]=4  # waterway
 way_constraint_prohibitive[2]=2 # Barge
+way_constraint_prohibitive[3]=3 # Tub
+way_constraint_prohibitive[4]=4 # Narrow
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
 
