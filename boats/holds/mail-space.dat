@@ -8,6 +8,10 @@ payload=50
 intro_year=1750
 intro_month=1
 
+way_constraint_prohibitive[2]=2 # Barge
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
+
 length=1
 min_loading_time=20
 max_loading_time=60
