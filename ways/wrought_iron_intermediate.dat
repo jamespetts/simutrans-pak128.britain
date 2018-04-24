@@ -6,10 +6,10 @@ cost=36000
 maintenance=725
 topspeed=100
 max_weight=9
-intro_year = 1837
-intro_month = 8
-retire_year = 1867
-retire_month = 12
+intro_year=1837
+intro_month=8
+retire_year=1867
+retire_month=12
 wear_capacity=231840000
 
 icon=> ./images/wrought_iron_intermediate.3.4
@@ -38,6 +38,7 @@ ImageUp2[3][0]=./images/wrought_iron_intermediate.1.3
 ImageUp2[6][0]=./images/wrought_iron_intermediate.1.4
 ImageUp2[9][0]=./images/wrought_iron_intermediate.0.0
 ImageUp2[12][0]=./images/wrought_iron_intermediate.0.5
+
 Image[-][1]=./images/rail-snow.1.2
 Image[N][1]=./images/rail-snow.1.5
 Image[S][1]=./images/rail-snow.2.1

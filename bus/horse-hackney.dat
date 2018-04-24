@@ -16,14 +16,19 @@ length=2
 brake_force=1
 rolling_resistance=0
 
-weight=0.5
+weight=0.4
 axle_load=0
 cost=60000
-runningcost=12
-fixed_cost=230
+runningcost=3
+fixed_cost=850
 
 sound=ylearkisto-horse.wav
-range=30
+# Is this lower correct? The article suggests that these horses were "prized for their ground-covering ability", and could trot at 20mph and 50 miles in a day -
+# but it is unclear whether these were pulling a carriage or merely being ridden. It seems to make more sense for these slightly smaller horses, less coach
+# horses than cab horses, to have a shorter range than the true coach horses. Players have been observed using them instead of Fresians when their range 
+# was the same as that of the Fresian at 30km. 
+# http://www.dailymail.co.uk/news/article-2120454/End-road-original-Hackney-carriage-Breed-horse-pulled-London-cabs-faces-wiped-century-motors-took-over.html
+range=20
 
 EmptyImage[E]=./images/horse-hackney-single_E.0.0,-33,14
 EmptyImage[SE]=./images/horse-hackney-single_SE.0.0,-13,0
@@ -53,14 +58,14 @@ length=2
 brake_force=2
 rolling_resistance=0
 
-weight=1
+weight=0.8
 axle_load=0
 cost=120000
-runningcost=24
-fixed_cost=460
+runningcost=5
+fixed_cost=1200
 
 sound=ylearkisto-horses.wav
-range=30
+range=20
 
 EmptyImage[E]=./images/horse-hackney-double_E.0.0,-33,14
 EmptyImage[SE]=./images/horse-hackney-double_SE.0.0,-13,0
@@ -70,4 +75,3 @@ EmptyImage[W]=./images/horse-hackney-double_W.0.0,4,5
 EmptyImage[NW]=./images/horse-hackney-double_NW.0.0,12,10
 EmptyImage[N]=./images/horse-hackney-double_N.0.0,0,33
 EmptyImage[NE]=./images/horse-hackney-double_NE.0.0,0,24
-

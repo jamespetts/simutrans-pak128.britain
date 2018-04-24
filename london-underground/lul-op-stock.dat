@@ -15,7 +15,8 @@ retire_year=1949
 retire_month=11
 waytype=track
 freight=Passagiere
-payload=40
+payload[0]=0
+payload[1]=40
 overcrowded_capacity=92
 
 weight=36.3
@@ -29,7 +30,8 @@ way_constraint_permissive[3]=3
 
 min_loading_time=20
 max_loading_time=47
-comfort=66
+comfort[0]=0
+comfort[1]=66
 
 Constraint[Prev][0]=LUL_OP_StockRearDM
 Constraint[Prev][1]=District_KLMN_StockRearDM
@@ -51,7 +53,9 @@ EmptyImage[W]=./images/lul-op-stock-front.1.0
 EmptyImage[NW]=./images/lul-op-stock-front.1.1
 EmptyImage[N]=./images/lul-op-stock-front.1.2
 EmptyImage[NE]=./images/lul-op-stock-front.1.3
+
 --
+
 obj=vehicle
 name=LUL_OP_StockMiddle
 engine_type=electric
@@ -64,7 +68,8 @@ retire_year=1949
 retire_month=11
 waytype=track
 freight=Passagiere
-payload=44
+payload[0]=0
+payload[1]=44
 overcrowded_capacity=102
 
 weight=30
@@ -72,13 +77,13 @@ axles=4
 cost=700000
 runningcost=35
 
-
 bidirectional=0
 way_constraint_permissive[3]=3
 
 min_loading_time=20
 max_loading_time=47
-comfort=66
+comfort[0]=0
+comfort[1]=66
 
 Constraint[Prev][0]=LUL_OP_StockFrontDM
 Constraint[Prev][1]=District_KLMN_StockFrontDM
@@ -96,7 +101,9 @@ EmptyImage[W]=./images/lul-op-stock-middle.1.0
 EmptyImage[NW]=./images/lul-op-stock-middle.1.1
 EmptyImage[N]=./images/lul-op-stock-middle.1.2
 EmptyImage[NE]=./images/lul-op-stock-middle.1.3
-----
+
+---
+
 obj=vehicle
 name=LUL_OP_StockRearDM
 engine_type=electric
@@ -112,7 +119,8 @@ retire_year=1949
 retire_month=11
 waytype=track
 freight=Passagiere
-payload=40
+payload[0]=0
+payload[1]=40
 overcrowded_capacity=92
 
 weight=36.3
@@ -126,7 +134,8 @@ way_constraint_permissive[3]=3
 
 min_loading_time=20
 max_loading_time=47
-comfort=66
+comfort[0]=0
+comfort[1]=66
 
 Constraint[Prev][0]=LUL_OP_StockMiddle
 Constraint[Prev][1]=LUL_OP_StockFrontDM
@@ -140,7 +149,6 @@ Constraint[Next][1]=District_KLMN_StockFrontDM
 Constraint[Next][2]=District_G_StockFrontDM
 Constraint[Next][3]=none
 
-
 EmptyImage[E]=./images/lul-op-stock-rear.1.4
 EmptyImage[SE]=./images/lul-op-stock-rear.1.5
 EmptyImage[S]=./images/lul-op-stock-rear.1.6
@@ -149,4 +157,3 @@ EmptyImage[W]=./images/lul-op-stock-rear.1.0
 EmptyImage[NW]=./images/lul-op-stock-rear.1.1
 EmptyImage[N]=./images/lul-op-stock-rear.1.2
 EmptyImage[NE]=./images/lul-op-stock-rear.1.3
---

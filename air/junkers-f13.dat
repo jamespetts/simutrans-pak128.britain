@@ -8,10 +8,14 @@ copyright=Emmanuel Baranger
 waytype=air
 engine_type=petrol
 speed=160
-power=228
+power=126
 tractive_effort=2
 freight=Passagiere
-payload=4
+payload[0]=0
+payload[1]=0
+payload[2]=0
+payload[3]=0
+payload[4]=4
 weight=1.1
 #length=8
 cost=1000000
@@ -20,14 +24,19 @@ intro_year=1920
 intro_month=4
 retire_year=1932
 retire_month=6
-comfort=66
+
+comfort[0]=0
+comfort[1]=0
+comfort[2]=0
+comfort[3]=0
+comfort[4]=66
 min_loading_time=1550
 max_loading_time=1550
 catering_level=0
 
 minimum_runway_length=200
 
-range=1400
+range=1200
 
 sound=planelow.wav
 
@@ -51,10 +60,12 @@ copyright=Emmanuel Baranger
 waytype=air
 engine_type=petrol
 speed=160
-power=228
+power=126
 tractive_effort=2
 freight=Post
-payload=650
+# Max. payload 500kg
+payload[0]=0
+payload[1]=650
 weight=1.1
 #length=8
 cost=1000000
@@ -63,14 +74,13 @@ intro_year=1920
 intro_month=4
 retire_year=1932
 retire_month=6
-comfort=66
+
 min_loading_time=1550
 max_loading_time=1750
-catering_level=0
 
 minimum_runway_length=200
 
-range=1400
+range=1200
 
 sound=planelow.wav
 

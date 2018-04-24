@@ -1,4 +1,5 @@
 # https://en.wikipedia.org/wiki/De_Havilland_Comet
+# http://www.zoggavia.com/uploads/COMET_4_FLIGHT_DRAWING_195606_1500.jpg
 obj=vehicle
 name=dh-comet-4
 copyright=SketchVC10
@@ -11,16 +12,18 @@ tractive_effort=187
 #gear=1
 freight=Passagiere
 # http://www.oocities.org/capecanaveral/lab/8803/fcomette.htm
-# 109: 1 class
-# 81: 2 class
-# 56: 3 class
-payload=109
+payload[0]=0
+payload[1]=0
+payload[2]=32
+payload[3]=0
+payload[4]=24
 # http://www.oocities.org/capecanaveral/lab/8803/fcomette.htm
 weight=34.2
 #length=8
 # £1.16m
 # http://www.oocities.org/capecanaveral/lab/8803/fcomette.htm
 cost=14000000
+upgrade_price=5000
 # 5,450lb/h per engine: 
 # http://www.oocities.org/capecanaveral/lab/8803/fcomette.htm
 runningcost=3000
@@ -29,7 +32,11 @@ intro_month=9
 retire_year=1963
 retire_month=8
 
-comfort=124
+comfort[0]=0
+comfort[1]=0
+comfort[2]=124
+comfort[3]=0
+comfort[4]=151
 min_loading_time=2400
 max_loading_time=2400
 
@@ -38,19 +45,105 @@ catering_level=4
 # http://www.oocities.org/capecanaveral/lab/8803/fcomette.htm
 minimum_runway_length=2290
 
-# Awaiting permission to use an authentic Comet 4 sound
 sound=robin-pinnock-bac-1-11.wav
 # http://www.oocities.org/capecanaveral/lab/8803/fcomette.htm
 range=5190
 
+upgrade[0]=dh-comet-4-high-density
+
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
-EmptyImage[E]=./images/dh-comet-4_E.0.0
-EmptyImage[SE]=./images/dh-comet-4_SE.0.0
-EmptyImage[S]=./images/dh-comet-4_S.0.0
-EmptyImage[SW]=./images/dh-comet-4_SW.0.0
-EmptyImage[W]=./images/dh-comet-4_W.0.0
-EmptyImage[NW]=./images/dh-comet-4_NW.0.0
-EmptyImage[N]=./images/dh-comet-4_N.0.0
-EmptyImage[NE]=./images/dh-comet-4_NE.0.0
+liverytype[0]=BOAC-speedbird
+liverytype[1]=Private-operator
+
+EmptyImage[E][0]=./images/dh-comet-4_E.0.0
+EmptyImage[SE][0]=./images/dh-comet-4_SE.0.0
+EmptyImage[S][0]=./images/dh-comet-4_S.0.0
+EmptyImage[SW][0]=./images/dh-comet-4_SW.0.0
+EmptyImage[W][0]=./images/dh-comet-4_W.0.0
+EmptyImage[NW][0]=./images/dh-comet-4_NW.0.0
+EmptyImage[N][0]=./images/dh-comet-4_N.0.0
+EmptyImage[NE][0]=./images/dh-comet-4_NE.0.0
+
+EmptyImage[E][1]=./images/dh-comet-4-private_E.0.0
+EmptyImage[SE][1]=./images/dh-comet-4-private_SE.0.0
+EmptyImage[S][1]=./images/dh-comet-4-private_S.0.0
+EmptyImage[SW][1]=./images/dh-comet-4-private_SW.0.0
+EmptyImage[W][1]=./images/dh-comet-4-private_W.0.0
+EmptyImage[NW][1]=./images/dh-comet-4-private_NW.0.0
+EmptyImage[N][1]=./images/dh-comet-4-private_N.0.0
+EmptyImage[NE][1]=./images/dh-comet-4-private_NE.0.0
+
+---
+
+obj=vehicle
+name=dh-comet-4-high-density
+copyright=SketchVC10
+# https://3dwarehouse.sketchup.com/model/u9da6147e-60dc-4700-a7fe-0437fe85db48/BOAC-DeHavilland-Comet-4-G-APDN
+waytype=air
+engine_type=turbine
+speed=805
+power=28189
+tractive_effort=187
+#gear=1
+freight=Passagiere
+# http://www.oocities.org/capecanaveral/lab/8803/fcomette.htm
+payload[0]=0
+payload[1]=0
+payload[2]=109
+# http://www.oocities.org/capecanaveral/lab/8803/fcomette.htm
+weight=34.2
+#length=8
+# £1.16m
+# http://www.oocities.org/capecanaveral/lab/8803/fcomette.htm
+cost=14000000
+upgrade_price=5000
+# 5,450lb/h per engine: 
+# http://www.oocities.org/capecanaveral/lab/8803/fcomette.htm
+runningcost=3000
+intro_year=1958
+intro_month=9
+retire_year=1963
+retire_month=8
+
+comfort[0]=0
+comfort[1]=0
+comfort[2]=124
+min_loading_time=2400
+max_loading_time=2400
+
+catering_level=4
+
+# http://www.oocities.org/capecanaveral/lab/8803/fcomette.htm
+minimum_runway_length=2290
+
+sound=robin-pinnock-bac-1-11.wav
+# http://www.oocities.org/capecanaveral/lab/8803/fcomette.htm
+range=5190
+
+upgrade[0]=dh-comet-4
+
+Constraint[Next][0]=none
+Constraint[Prev][0]=none
+
+liverytype[0]=BOAC-speedbird
+liverytype[1]=Private-operator
+
+EmptyImage[E][0]=./images/dh-comet-4_E.0.0
+EmptyImage[SE][0]=./images/dh-comet-4_SE.0.0
+EmptyImage[S][0]=./images/dh-comet-4_S.0.0
+EmptyImage[SW][0]=./images/dh-comet-4_SW.0.0
+EmptyImage[W][0]=./images/dh-comet-4_W.0.0
+EmptyImage[NW][0]=./images/dh-comet-4_NW.0.0
+EmptyImage[N][0]=./images/dh-comet-4_N.0.0
+EmptyImage[NE][0]=./images/dh-comet-4_NE.0.0
+
+EmptyImage[E][1]=./images/dh-comet-4-private_E.0.0
+EmptyImage[SE][1]=./images/dh-comet-4-private_SE.0.0
+EmptyImage[S][1]=./images/dh-comet-4-private_S.0.0
+EmptyImage[SW][1]=./images/dh-comet-4-private_SW.0.0
+EmptyImage[W][1]=./images/dh-comet-4-private_W.0.0
+EmptyImage[NW][1]=./images/dh-comet-4-private_NW.0.0
+EmptyImage[N][1]=./images/dh-comet-4-private_N.0.0
+EmptyImage[NE][1]=./images/dh-comet-4-private_NE.0.0

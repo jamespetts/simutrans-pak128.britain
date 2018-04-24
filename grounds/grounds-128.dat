@@ -73,16 +73,16 @@ Image[20][0]=images/ground-slope-walls-128.1.7
 Image[21][0]=images/ground-slope-walls-128.1.8
 --------------------------------------------------------------------------------
 #
-#                                   Water
+#                                   Water (old)
 #
 #-------------------------------------------------------------------------------
-Obj=ground
-Name=Water
+#Obj=ground
+#Name=Water
 # hangtyp * animation
-Image[0][0]=images/ls-water-128.0.0
-Image[1][0]=images/ls-water-128.0.1
-Image[2][0]=images/ls-water-128.0.2
-Image[3][0]=images/ls-water-128.0.3
+#Image[0][0]=images/ls-water-128.0.0
+#Image[1][0]=images/ls-water-128.0.1
+#Image[2][0]=images/ls-water-128.0.2
+#Image[3][0]=images/ls-water-128.0.3
 --------------------------------------------------------------------------------
 #
 #

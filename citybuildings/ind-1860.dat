@@ -3,7 +3,16 @@ Name=IND_JH_1860_00_10
 copyright=James
 type=ind
 chance=200
-Level=10
+Level=5
+# Gasometer
+population_and_visitor_demand_capacity=0
+employment_capacity=3
+mail_demand=0
+class_proportion_jobs[0]=50
+class_proportion_jobs[1]=50
+class_proportion_jobs[2]=0
+class_proportion_jobs[3]=0
+class_proportion_jobs[4]=0
 intro_year=1860
 retire_year=1950
 needs_ground=1
@@ -11,4 +20,4 @@ dims=1,1,1
 
 BackImage[0][0][0][0][0][0]=images/ind/1860-gasometer.0.0
 BackImage[0][0][0][0][0][1]=images/ind/1860-gasometer.0.1
---
+

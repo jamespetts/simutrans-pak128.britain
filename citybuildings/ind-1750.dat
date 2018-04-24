@@ -4,6 +4,22 @@ copyright=James
 type=ind
 chance=25
 Level=7
+# Small warehouse
+population_and_visitor_demand_capacity=1
+# Imagine * 16 for density. 4 warehousemen per warehouse = 64
+# Divide by 2 for scaling.
+employment_capacity=32
+mail_demand=3
+class_proportion[0]=20
+class_proportion[1]=50
+class_proportion[2]=25
+class_proportion[3]=3
+class_proportion[4]=2
+class_proportion_jobs[0]=65
+class_proportion_jobs[1]=15
+class_proportion_jobs[2]=20
+class_proportion_jobs[3]=0
+class_proportion_jobs[4]=0
 intro_year=1750
 retire_year=1918
 needs_ground=1
@@ -25,6 +41,22 @@ copyright=James&WLindley
 type=ind
 chance=25
 Level=8
+# Slightly larger warehouse
+population_and_visitor_demand_capacity=1
+# Imagine * 16 for density. 6 warehousemen per warehouse = 96
+# Divide by 2 for scaling.
+employment_capacity=48
+mail_demand=4
+class_proportion[0]=20
+class_proportion[1]=50
+class_proportion[2]=25
+class_proportion[3]=3
+class_proportion[4]=2
+class_proportion_jobs[0]=65
+class_proportion_jobs[1]=15
+class_proportion_jobs[2]=20
+class_proportion_jobs[3]=0
+class_proportion_jobs[4]=0
 intro_year=1840
 retire_year=1948
 needs_ground=1
@@ -46,6 +78,22 @@ copyright=James&WLindley
 type=ind
 chance=25
 Level=6
+# Very small warehouse
+population_and_visitor_demand_capacity=1
+# Imagine * 16 for density. 3 warehousemen per warehouse = 48
+# Divide by 2 for scaling.
+employment_capacity=24
+mail_demand=2
+class_proportion[0]=20
+class_proportion[1]=50
+class_proportion[2]=25
+class_proportion[3]=3
+class_proportion[4]=2
+class_proportion_jobs[0]=65
+class_proportion_jobs[1]=15
+class_proportion_jobs[2]=20
+class_proportion_jobs[3]=0
+class_proportion_jobs[4]=0
 intro_year=1750
 retire_year=1875
 needs_ground=1
@@ -66,6 +114,22 @@ copyright=James&WLindley
 type=ind
 chance=25
 Level=4
+# Very small warehouse
+population_and_visitor_demand_capacity=1
+# Imagine * 12 for density. 3 warehousemen per warehouse = 36
+# Divide by 2 for scaling.
+employment_capacity=18
+mail_demand=1
+class_proportion[0]=20
+class_proportion[1]=50
+class_proportion[2]=25
+class_proportion[3]=3
+class_proportion[4]=2
+class_proportion_jobs[0]=65
+class_proportion_jobs[1]=15
+class_proportion_jobs[2]=20
+class_proportion_jobs[3]=0
+class_proportion_jobs[4]=0
 intro_year=1750
 retire_year=1880
 needs_ground=1
@@ -84,7 +148,23 @@ Obj=building
 Name=IND_A_1750_00_10
 copyright=Archon
 type=IND
-chance=100
+chance=70
+# Substantial workshops
+population_and_visitor_demand_capacity=0
+# Imagine * 8 for density. 16 workers per workshop
+# Divide by 2 for scaling.
+employment_capacity=64
+mail_demand=3
+class_proportion[0]=20
+class_proportion[1]=50
+class_proportion[2]=25
+class_proportion[3]=3
+class_proportion[4]=2
+class_proportion_jobs[0]=35
+class_proportion_jobs[1]=50
+class_proportion_jobs[2]=15
+class_proportion_jobs[3]=0
+class_proportion_jobs[4]=0
 Level=10
 intro_year=1750
 retire_year=1938
@@ -105,6 +185,22 @@ Name=IND_JH_1750_04_02
 copyright=James
 type=ind
 chance=10
+# Smithy
+population_and_visitor_demand_capacity=10
+# Imagine * 10 for density. 4 workers per smithy
+# Divide by 2 for scaling.
+employment_capacity=20
+mail_demand=3
+class_proportion[0]=20
+class_proportion[1]=50
+class_proportion[2]=25
+class_proportion[3]=3
+class_proportion[4]=2
+class_proportion_jobs[0]=35
+class_proportion_jobs[1]=50
+class_proportion_jobs[2]=15
+class_proportion_jobs[3]=0
+class_proportion_jobs[4]=0
 Level=2
 intro_year=1750
 retire_year=1900
@@ -125,6 +221,22 @@ Name=IND_JH_1750_05_02
 copyright=James
 type=ind
 chance=10
+# Carpenter
+population_and_visitor_demand_capacity=10
+# Imagine * 10 for density. 5 workers per carpenter's shop
+# Divide by 2 for scaling.
+employment_capacity=25
+mail_demand=3
+class_proportion[0]=20
+class_proportion[1]=50
+class_proportion[2]=25
+class_proportion[3]=3
+class_proportion[4]=2
+class_proportion_jobs[0]=35
+class_proportion_jobs[1]=50
+class_proportion_jobs[2]=15
+class_proportion_jobs[3]=0
+class_proportion_jobs[4]=0
 Level=2
 intro_year=1750
 retire_year=1900
@@ -146,6 +258,20 @@ copyright=James
 type=ind
 chance=10
 Level=1
+# Pasture
+population_and_visitor_demand_capacity=0
+employment_capacity=2
+mail_demand=0
+class_proportion[0]=20
+class_proportion[1]=50
+class_proportion[2]=25
+class_proportion[3]=3
+class_proportion[4]=2
+class_proportion_jobs[0]=100
+class_proportion_jobs[1]=0
+class_proportion_jobs[2]=0
+class_proportion_jobs[3]=0
+class_proportion_jobs[4]=0
 intro_year=1750
 retire_year=1930
 needs_ground=1
@@ -165,6 +291,15 @@ Name=IND_JH_1750_07_01
 copyright=James
 type=ind
 chance=10
+# Pasture
+population_and_visitor_demand_capacity=0
+employment_capacity=2
+mail_demand=0
+class_proportion_jobs[0]=100
+class_proportion_jobs[1]=0
+class_proportion_jobs[2]=0
+class_proportion_jobs[3]=0
+class_proportion_jobs[4]=0
 Level=1
 intro_year=1750
 retire_year=1930
@@ -185,6 +320,22 @@ Name=IND_JH_1750_08_03
 copyright=James
 type=ind
 chance=10
+# Cooper
+population_and_visitor_demand_capacity=0
+# Imagine * 8 for density. 6 workers per cooper
+# Divide by 2 for scaling.
+employment_capacity=24
+mail_demand=4
+class_proportion[0]=20
+class_proportion[1]=50
+class_proportion[2]=25
+class_proportion[3]=3
+class_proportion[4]=2
+class_proportion_jobs[0]=35
+class_proportion_jobs[1]=50
+class_proportion_jobs[2]=15
+class_proportion_jobs[3]=0
+class_proportion_jobs[4]=0
 Level=3
 intro_year=1750
 retire_year=1900

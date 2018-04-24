@@ -8,7 +8,8 @@ retire_year=1877
 retire_month=1
 waytype=track
 freight=Passagiere
-payload=30
+payload[0]=0
+payload[1]=30
 overcrowded_capacity=15
 length=5
 brake_force=4
@@ -22,34 +23,15 @@ runningcost=17
 
 upgrade[0]=LBSCR-4Wheel-Brake-front-fitted
 
-comfort=52
+comfort[0]=0
+comfort[1]=52
 min_loading_time=10
 max_loading_time=30
 
 can_lead_from_rear=0
 bidirectional=1
 
-Constraint[Next][0]=LBSCR-4wheel-open
-Constraint[Next][1]=LBSCR-4wheel-open-brake
-Constraint[Next][2]=LBSCR-4wheel-open-sided
-Constraint[Next][3]=LBSCR-4wheel-open-sided-brake
-Constraint[Next][4]=LBSCR-4wheel-parliamentary-second
-Constraint[Next][5]=LBSCR-4wheel-parliamentary-third
-Constraint[Next][6]=LBSCR-4wheel-parliamentary-third-brake
-Constraint[Next][7]=LBSCR-20ft-third
-Constraint[Next][8]=LBSCR-20ft-brake-rear
-Constraint[Next][9]=LBSCR-20ft-full-brake
-Constraint[Next][10]=LBSCR-20ft-mail
-Constraint[Next][11]=LBSCR-craven-third
-Constraint[Next][12]=LBSCR-craven-second
-Constraint[Next][13]=LBSCR-craven-brake-rear
-Constraint[Next][14]=LBSCR-craven-full-brake
-Constraint[Next][15]=LBSCR-craven-mail
-Constraint[Next][16]=LBSCR-4Wheel-Brake-rear
-Constraint[Next][17]=LBSCR-4Wheel-First
-Constraint[Next][18]=LBSCR-4Wheel-full-brake
-Constraint[Next][19]=LBSCR-4Wheel-Second
-Constraint[Next][20]=none
+Constraint[Next][0]=any
 
 liverytype[0]=LBSCR-Stroudley
 liverytype[1]=LBSCR-Marsh
@@ -104,7 +86,8 @@ retire_year=1877
 retire_month=1
 waytype=track
 freight=Passagiere
-payload=30
+payload[0]=0
+payload[1]=30
 overcrowded_capacity=15
 length=5
 brake_force=4
@@ -118,33 +101,13 @@ runningcost=17
 
 upgrade[0]=LBSCR-4Wheel-Brake-rear-fitted
 
-comfort=52
+comfort[0]=0
+comfort[1]=52
 min_loading_time=10
 max_loading_time=30
 
 can_lead_from_rear=0
 bidirectional=1
-
-Constraint[Prev][0]=LBSCR-4wheel-open
-Constraint[Prev][1]=LBSCR-4wheel-open-brake
-Constraint[Prev][2]=LBSCR-4wheel-open-sided
-Constraint[Prev][3]=LBSCR-4wheel-open-sided-brake
-Constraint[Prev][4]=LBSCR-4wheel-parliamentary-second
-Constraint[Prev][5]=LBSCR-4wheel-parliamentary-third
-Constraint[Prev][6]=LBSCR-4wheel-parliamentary-third-brake
-Constraint[Prev][7]=LBSCR-20ft-third
-Constraint[Prev][8]=LBSCR-20ft-brake-front
-Constraint[Prev][9]=LBSCR-20ft-full-brake
-Constraint[Prev][10]=LBSCR-20ft-mail
-Constraint[Prev][11]=LBSCR-craven-third
-Constraint[Prev][12]=LBSCR-craven-second
-Constraint[Prev][13]=LBSCR-craven-brake-front
-Constraint[Prev][14]=LBSCR-craven-full-brake
-Constraint[Prev][15]=LBSCR-craven-mail
-Constraint[Prev][16]=LBSCR-4Wheel-Brake-front
-Constraint[Prev][17]=LBSCR-4Wheel-First
-Constraint[Prev][18]=LBSCR-4Wheel-full-brake
-Constraint[Prev][19]=LBSCR-4Wheel-Second
 
 liverytype[0]=LBSCR-Stroudley
 liverytype[1]=LBSCR-Marsh
@@ -187,6 +150,8 @@ EmptyImage[NW][3]=./images/lbscr-4wheel-brake-olive-rear.1.1
 EmptyImage[N][3]=./images/lbscr-4wheel-brake-olive-rear.1.2
 EmptyImage[NE][3]=./images/lbscr-4wheel-brake-olive-rear.1.3
 
+# *** FITTED VEHICLES HEREINAFTER ***
+
 ---
 
 obj=vehicle
@@ -199,7 +164,8 @@ retire_year=1901
 retire_month=1
 waytype=track
 freight=Passagiere
-payload=30
+payload[0]=0
+payload[1]=30
 overcrowded_capacity=15
 length=5
 brake_force=5
@@ -211,7 +177,8 @@ cost=340000
 upgrade_price=80000
 runningcost=18
 
-comfort=52
+comfort[0]=0
+comfort[1]=52
 min_loading_time=10
 max_loading_time=30
 
@@ -292,7 +259,8 @@ retire_year=1901
 retire_month=1
 waytype=track
 freight=Passagiere
-payload=30
+payload[0]=0
+payload[1]=30
 overcrowded_capacity=15
 length=5
 brake_force=5
@@ -304,7 +272,8 @@ cost=340000
 upgrade_price=80000
 runningcost=18
 
-comfort=52
+comfort[0]=0
+comfort[1]=52
 min_loading_time=10
 max_loading_time=30
 

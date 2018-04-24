@@ -8,11 +8,15 @@ copyright=Emmanuel Baranger
 waytype=air
 engine_type=petrol
 speed=190
-power=331
-tractive_effort=2
+power=298
+tractive_effort=4
 freight=Passagiere
-payload=6
-weight=1.7
+payload[0]=0
+payload[1]=0
+payload[2]=0
+payload[3]=0
+payload[4]=6
+weight=1.9
 #length=8
 cost=1750000
 runningcost=375
@@ -21,7 +25,12 @@ intro_month=7
 # Guessed
 retire_year=1935
 retire_month=9
-comfort=66
+
+comfort[0]=0
+comfort[1]=0
+comfort[2]=0
+comfort[3]=0
+comfort[4]=66
 min_loading_time=1600
 max_loading_time=1600
 catering_level=0
@@ -53,11 +62,13 @@ copyright=Emmanuel Baranger
 waytype=air
 engine_type=petrol
 speed=190
-power=331
-tractive_effort=2
+power=298
+tractive_effort=4
 freight=Post
-payload=1100
-weight=1.7
+# Max. payload for cargo not given
+payload[0]=0
+payload[1]=1100
+weight=1.9
 #length=8
 cost=1750000
 runningcost=375
@@ -66,10 +77,9 @@ intro_month=7
 # Guessed
 retire_year=1935
 retire_month=9
-comfort=66
+
 min_loading_time=1600
 max_loading_time=1800
-catering_level=0
 
 # Guessed
 minimum_runway_length=300

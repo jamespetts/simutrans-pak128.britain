@@ -12,7 +12,8 @@ retire_month=6
 waytype=narrowgauge_track
 freight=Passagiere
 # http://www.festipedia.org.uk/wiki/Carriage_105 (non-lavatory configuration)
-payload=36
+payload[0]=0
+payload[1]=36
 length=7
 rolling_resistance=17
 
@@ -21,7 +22,8 @@ axles=4
 cost=570000
 runningcost=25
 
-comfort=65
+comfort[0]=0
+comfort[1]=65
 
 can_lead_from_rear=0
 bidirectional=1

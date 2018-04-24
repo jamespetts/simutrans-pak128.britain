@@ -1,14 +1,15 @@
+# https://en.wikipedia.org/wiki/HSC_Our_Lady_Pamela
 obj=vehicle
 name=HSC-Our-Lady
 copyright=James
 waytype=water
 engine_type=diesel
-smoke=diesel
-speed=55
+smoke=Diesel-light
+speed=54
 power=2869
-gear=100
 freight=Passagiere
-payload=290
+payload[0]=0
+payload[1]=395
 weight=200
 length=10
 cost=86000000
@@ -19,10 +20,12 @@ retire_year=1996
 retire_month=7
 
 #http://thm-a01.yimg.com/nimage/dd2a03bd1f034982
-comfort=109
+comfort[0]=0
+comfort[1]=109
 # 15-20 minutes
 min_loading_time=900
 max_loading_time=1200
+range=250
 
 way_constraint_prohibitive[6]=6 # Large ship
 

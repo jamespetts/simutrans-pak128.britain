@@ -42,7 +42,6 @@ BackImage[3][0][0][0][0][0]=airport-apron-jetway.0.5
 icon=> airport-apron-jetway.0.7
 cursor=airport-apron-jetway.0.6
 ---------------------------------------
-# Does this have any actual economic/operational function...?
 Obj=building
 Name=ControlTowerModern
 # must be 1*1
@@ -51,11 +50,23 @@ waytype=air
 Dims=1,1,1
 noconstruction=1
 level=4
+population_and_visitor_demand_capacity=5
+employment_capacity=50
+mail_demand=6
+class_proportion[0]=0
+class_proportion[1]=4
+class_proportion[2]=46
+class_proportion[3]=50
+class_proportion[4]=0
+class_proportion_jobs[0]=0
+class_proportion_jobs[1]=5
+class_proportion_jobs[2]=25
+class_proportion_jobs[3]=68
+class_proportion_jobs[4]=2
 NoInfo=1
 needs_ground=1
 intro_year=1949
 intro_month=8
-needs_ground=1
 is_control_tower=1
 icon=> control-tower-modern.0.3
 cursor=control-tower-modern.0.2

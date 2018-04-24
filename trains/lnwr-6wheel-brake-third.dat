@@ -14,7 +14,8 @@ retire_year=1896
 retire_month=2
 waytype=track
 freight=Passagiere
-payload=30
+payload[0]=0
+payload[1]=30
 overcrowded_capacity=15
 length=6
 brake_force=5
@@ -24,7 +25,8 @@ axles=3
 cost=304000
 runningcost=24
 
-comfort=69
+comfort[0]=0
+comfort[1]=69
 
 can_lead_from_rear=0
 bidirectional=1

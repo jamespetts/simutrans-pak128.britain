@@ -10,7 +10,10 @@ retire_year=1980
 retire_month=5
 waytype=track
 freight=Passagiere
-payload=80
+payload[0]=0
+payload[1]=80
+payload[2]=0
+payload[3]=0
 overcrowded_capacity=80
 length=11
 
@@ -27,7 +30,10 @@ way_constraint_permissive[2]=2
 
 min_loading_time=12
 max_loading_time=43
-comfort=77
+comfort[0]=0
+comfort[1]=78
+comfort[2]=0
+comfort[3]=129
 
 # Multiple working with BR classes 302-312:
 # http://en.wikipedia.org/wiki/British_Rail_Class_312
@@ -95,8 +101,11 @@ retire_year=1980
 retire_month=5
 waytype=track
 freight=Passagiere
-payload=79
-overcrowded_capacity=79
+payload[0]=0
+payload[1]=59
+payload[2]=0
+payload[3]=20
+overcrowded_capacity=64
 length=11
 
 weight=32
@@ -112,7 +121,10 @@ way_constraint_permissive[2]=2
 
 min_loading_time=12
 max_loading_time=43
-comfort=77
+comfort[0]=0
+comfort[1]=78
+comfort[2]=0
+comfort[3]=129
 
 Constraint[Prev][0]=BR-304Front
 
@@ -175,7 +187,10 @@ retire_year=1980
 retire_month=5
 waytype=track
 freight=Passagiere
-payload=96
+payload[0]=0
+payload[1]=96
+payload[2]=0
+payload[3]=0
 overcrowded_capacity=96
 length=11
 increase_maintenance_after_years=15
@@ -185,14 +200,16 @@ axles=4
 cost=1890000
 runningcost=152
 
-
 can_lead_from_rear=0
 bidirectional=1
 way_constraint_permissive[2]=2
 
 min_loading_time=12
 max_loading_time=43
-comfort=77
+comfort[0]=0
+comfort[1]=78
+comfort[2]=0
+comfort[3]=129
 
 Constraint[Prev][0]=BR-304Front
 Constraint[Prev][1]=BR-304Centre-Trailer
@@ -254,7 +271,10 @@ retire_year=1980
 retire_month=5
 waytype=track
 freight=Passagiere
-payload=82	   
+payload[0]=0
+payload[1]=82
+payload[2]=0
+payload[3]=0
 overcrowded_capacity=82
 length=11
 increase_maintenance_after_years=15
@@ -271,7 +291,10 @@ way_constraint_permissive[2]=2
 
 min_loading_time=12
 max_loading_time=43
-comfort=77
+comfort[0]=0
+comfort[1]=78
+comfort[2]=0
+comfort[3]=129
 
 Constraint[Prev][0]=BR-304Centre-Motor
 

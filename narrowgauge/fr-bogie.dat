@@ -10,7 +10,8 @@ retire_year=1886
 retire_month=10
 waytype=narrowgauge_track
 freight=Passagiere
-payload=42
+payload[0]=0
+payload[1]=42
 length=6
 rolling_resistance=19
 brake_force=0
@@ -20,7 +21,8 @@ axles=4
 cost=520000
 runningcost=19
 
-comfort=37
+comfort[0]=0
+comfort[1]=37
 upgrade[0]=FR-bogie-fitted
 
 can_lead_from_rear=0
@@ -104,7 +106,8 @@ retire_year=1893
 retire_month=6
 waytype=narrowgauge_track
 freight=Passagiere
-payload=42
+payload[0]=0
+payload[1]=42
 length=6
 rolling_resistance=19
 
@@ -113,7 +116,8 @@ cost=560000
 upgrade_price=26000
 runningcost=21
 
-comfort=37
+comfort[0]=0
+comfort[1]=37
 available_only_as_upgrade=0
 
 can_lead_from_rear=0
@@ -184,4 +188,3 @@ EmptyImage[W][5]=./images/fr-bogie-red-cream.1.4,10,5
 EmptyImage[NW][5]=./images/fr-bogie-red-cream.1.5,0,5
 EmptyImage[N][5]=./images/fr-bogie-red-cream.1.6,-10,5
 EmptyImage[NE][5]=./images/fr-bogie-red-cream.1.7,-10,0
-

@@ -7,9 +7,9 @@ smoke=Diesel
 sound=ship-horn_a.wav
 speed=40
 power=30400
-gear=100
 freight=Passagiere
-payload=2000
+payload[0]=0
+payload[1]=2000
 weight=15000
 length=14
 cost=94000000
@@ -18,11 +18,13 @@ intro_year=2011
 intro_month=7
 is_tall=1
 
-comfort=168
+comfort[0]=0
+comfort[1]=168
 catering_level=4
 # 30-45 minutes
 min_loading_time=2400
 max_loading_time=2700
+range=350
 
 Constraint[Next][0]=POSpiritAddMail
 Constraint[Next][1]=POSpiritAddPiece

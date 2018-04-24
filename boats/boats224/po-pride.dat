@@ -7,9 +7,9 @@ smoke=Diesel
 sound=ship-horn_a.wav
 speed=41
 power=23170
-gear=100
 freight=Passagiere
-payload=2290
+payload[0]=0
+payload[1]=2290
 weight=11000
 length=14
 cost=90000000
@@ -20,11 +20,13 @@ retire_year=2003
 retire_month=3
 is_tall=1
 
-comfort=163
+comfort[0]=0
+comfort[1]=163
 catering_level=4
 # 30-45 minutes
 min_loading_time=1800
 max_loading_time=2700
+range=300
 
 Constraint[Next][0]=POPrideAddMail
 Constraint[Next][1]=POPrideAddPiece

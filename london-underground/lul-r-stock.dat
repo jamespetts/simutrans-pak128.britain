@@ -15,7 +15,8 @@ retire_year=1969
 retire_month=2
 waytype=track
 freight=Passagiere
-payload=40
+payload[0]=0
+payload[1]=40
 overcrowded_capacity=92
 
 # Aluminium construction. Exact weight saving not clear.
@@ -30,7 +31,8 @@ way_constraint_permissive[3]=3
 
 min_loading_time=20
 max_loading_time=47
-comfort=66
+comfort[0]=0
+comfort[1]=66
 
 Constraint[Prev][0]=LUL_R_StockRearDM
 Constraint[Prev][1]=none
@@ -58,7 +60,9 @@ EmptyImage[W][1]=./images/lul-r-stock-front.1.0
 EmptyImage[NW][1]=./images/lul-r-stock-front.1.1
 EmptyImage[N][1]=./images/lul-r-stock-front.1.2
 EmptyImage[NE][1]=./images/lul-r-stock-front.1.3
+
 --
+
 obj=vehicle
 name=LUL_R_StockMiddle
 engine_type=electric
@@ -74,7 +78,8 @@ retire_year=1969
 retire_month=2
 waytype=track
 freight=Passagiere
-payload=44
+payload[0]=0
+payload[1]=44
 overcrowded_capacity=102
 
 weight=33
@@ -87,7 +92,8 @@ way_constraint_permissive[3]=3
 
 min_loading_time=20
 max_loading_time=47
-comfort=66
+comfort[0]=0
+comfort[1]=66
 
 Constraint[Prev][0]=LUL_R_StockFrontDM
 Constraint[Prev][1]=LUL_R_StockMiddle
@@ -115,7 +121,9 @@ EmptyImage[W][1]=./images/lul-r-stock-middle.1.0
 EmptyImage[NW][1]=./images/lul-r-stock-middle.1.1
 EmptyImage[N][1]=./images/lul-r-stock-middle.1.2
 EmptyImage[NE][1]=./images/lul-r-stock-middle.1.3
-----
+
+---
+
 obj=vehicle
 name=LUL_R_StockRearDM
 engine_type=electric
@@ -131,7 +139,8 @@ retire_year=1969
 retire_month=2
 waytype=track
 freight=Passagiere
-payload=40
+payload[0]=0
+payload[1]=40
 overcrowded_capacity=92
 
 weight=35
@@ -145,7 +154,8 @@ way_constraint_permissive[3]=3
 
 min_loading_time=20
 max_loading_time=47
-comfort=66
+comfort[0]=0
+comfort[1]=66
 
 Constraint[Prev][0]=LUL_R_StockMiddle
 Constraint[Prev][1]=LUL_R_StockFrontDM
@@ -173,4 +183,3 @@ EmptyImage[W][1]=./images/lul-r-stock-rear.1.0
 EmptyImage[NW][1]=./images/lul-r-stock-rear.1.1
 EmptyImage[N][1]=./images/lul-r-stock-rear.1.2
 EmptyImage[NE][1]=./images/lul-r-stock-rear.1.3
---

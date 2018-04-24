@@ -9,7 +9,8 @@ name=omnibus-double-knifeboard-later
 copyright=JamesPetts&JamesHood
 waytype=road
 freight=Passagiere
-payload=26
+payload[0]=0
+payload[1]=26
 overcrowded_capacity=2
 speed=11
 weight=0.9
@@ -25,7 +26,8 @@ rolling_resistance=115
 brake_force=1
 is_tall=1
 
-comfort=25
+comfort[0]=0
+comfort[1]=25
 # Rear platform with conductor: 2.0 seconds per passenger
 min_loading_time=3
 max_loading_time=52

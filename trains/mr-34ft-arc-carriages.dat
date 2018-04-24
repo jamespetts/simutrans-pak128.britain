@@ -12,7 +12,8 @@ retire_year=1887
 retire_month=8
 waytype=track
 freight=Passagiere
-payload=50
+payload[0]=0
+payload[1]=50
 overcrowded_capacity=25
 # 34ft: http://www.vintagecarriagestrust.org/Midland.htm
 length=6
@@ -31,7 +32,8 @@ can_lead_from_rear=0
 bidirectional=1
 min_loading_time=17
 max_loading_time=47
-comfort=74
+comfort[0]=0
+comfort[1]=74
 
 Constraint[Next][0]=4-wheel-1870s-fitted
 Constraint[Next][1]=4-wheel-1870s-brake-fitted
@@ -185,7 +187,8 @@ retire_year=1897
 retire_month=6
 waytype=track
 freight=Passagiere
-payload=38
+payload[0]=0
+payload[1]=38
 overcrowded_capacity=20
 # 34ft: http://www.vintagecarriagestrust.org/Midland.htm
 length=6
@@ -196,12 +199,12 @@ cost=345000
 upgrade_price=49285
 runningcost=27
 
-
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=17
 max_loading_time=47
-comfort=85
+comfort[0]=0
+comfort[1]=85
 
 Constraint[Next][0]=4-wheel-1870s-fitted
 Constraint[Next][1]=4-wheel-1870s-brake-fitted
@@ -356,7 +359,8 @@ retire_year=1897
 retire_month=6
 waytype=track
 freight=Passagiere
-payload=30
+payload[0]=0
+payload[1]=30
 overcrowded_capacity=15
 length=6
 
@@ -365,12 +369,12 @@ axles=3
 cost=332000
 runningcost=25
 
-
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=17
 max_loading_time=47
-comfort=74
+comfort[0]=0
+comfort[1]=74
 
 Constraint[Next][0]=4-wheel-1870s-fitted
 Constraint[Next][1]=4-wheel-1870s-brake-fitted
@@ -432,7 +436,6 @@ Constraint[Next][56]=MR-60ft-clerestory-lav-3rd-d484
 Constraint[Next][57]=MR-60ft-clerestory-brake-3rd-d496-rear
 Constraint[Next][58]=none
 
-
 liverytype[0]=MR-Early
 liverytype[1]=MR-Standard
 
@@ -467,7 +470,8 @@ retire_year=1897
 retire_month=6
 waytype=track
 freight=Passagiere
-payload=30
+payload[0]=0
+payload[1]=30
 overcrowded_capacity=15
 length=6
 
@@ -476,12 +480,12 @@ axles=3
 cost=332000
 runningcost=25
 
-
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=17
 max_loading_time=47
-comfort=85
+comfort[0]=0
+comfort[1]=85
 
 Constraint[Prev][0]=4-wheel-1870s-fitted
 Constraint[Prev][1]=4-wheel-1870s-brake-fitted
@@ -585,7 +589,6 @@ weight=11
 axles=3
 cost=332000
 runningcost=25
-
 
 can_lead_from_rear=0
 bidirectional=1
@@ -753,7 +756,6 @@ weight=11
 axles=3
 cost=332000
 runningcost=29
-
 
 can_lead_from_rear=0
 bidirectional=1

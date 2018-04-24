@@ -1,16 +1,17 @@
+# As invented by William Jessop
+# https://en.wikipedia.org/wiki/Wagonway#Metal_rails_introduced
 Obj=way
 Name=cast_iron_track
 waytype=track
 cost=30000
 maintenance=800
-# See: http://www.rainhilltrials.com/index.cfm/page/article/id/46/listid/27/title/The%20Liverpool%20and%20Manchester%201830%20Onwards
 topspeed=27
-max_weight=6
-intro_year = 1814
-intro_month = 2
-retire_year = 1840
-retire_month = 5
-wear_capacity=30240000
+max_weight=4
+intro_year=1789
+intro_month=10
+retire_year=1831
+retire_month=9
+wear_capacity=8640000
 
 icon=> ./images/cast_iron.3.4
 cursor=./images/cast_iron.3.5

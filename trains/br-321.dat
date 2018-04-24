@@ -10,8 +10,11 @@ retire_year=1994
 retire_month=2
 waytype=track
 freight=Passagiere
-payload=78
-overcrowded_capacity=59
+payload[0]=0
+payload[1]=78
+payload[2]=0
+payload[3]=0
+overcrowded_capacity=62
 length=11
 brake_force=21
 rolling_resistance=13
@@ -28,21 +31,82 @@ way_constraint_permissive[2]=2
 
 min_loading_time=15
 max_loading_time=55
-comfort=84
+comfort[0]=0
+comfort[1]=84
+comfort[2]=0
+comfort[3]=145
 
 Constraint[Prev][0]=BR-321(rear)
 Constraint[Prev][1]=none
 
 Constraint[Next][0]=BR-321(pantograph)
 
-EmptyImage[E]=./images/br-456-nse.0.0
-EmptyImage[SE]=./images/br-456-nse.0.1
-EmptyImage[S]=./images/br-456-nse.0.2
-EmptyImage[SW]=./images/br-456-nse.0.3
-EmptyImage[W]=./images/br-456-nse.0.4
-EmptyImage[NW]=./images/br-456-nse.0.5
-EmptyImage[N]=./images/br-456-nse.0.6
-EmptyImage[NE]=./images/br-456-nse.0.7
+liverytype[0]=NSE-Standard
+
+EmptyImage[E][0]=./images/br-321-dtso-nse_E.0.0
+EmptyImage[SE][0]=./images/br-321-dtso-nse_SE.0.0
+EmptyImage[S][0]=./images/br-321-dtso-nse_S.0.0
+EmptyImage[SW][0]=./images/br-321-dtso-nse_SW.0.0
+EmptyImage[W][0]=./images/br-321-dtso-nse_W.0.0
+EmptyImage[NW][0]=./images/br-321-dtso-nse_NW.0.0
+EmptyImage[N][0]=./images/br-321-dtso-nse_N.0.0
+EmptyImage[NE][0]=./images/br-321-dtso-nse_NE.0.0
+
+----
+
+obj=vehicle
+name=BR-321(front-composite)
+engine_type=electric
+speed=160
+power=0
+copyright=Kieron
+intro_year=1988
+intro_month=1
+retire_year=1994
+retire_month=2
+waytype=track
+freight=Passagiere
+payload[0]=0
+payload[1]=56
+payload[2]=0
+payload[3]=16
+overcrowded_capacity=62
+length=11
+brake_force=21
+rolling_resistance=13
+
+weight=29
+axles=4
+cost=1921000
+runningcost=47
+sound=video47-class-319.wav
+
+can_lead_from_rear=1
+bidirectional=0
+way_constraint_permissive[2]=2
+
+min_loading_time=15
+max_loading_time=55
+comfort[0]=0
+comfort[1]=84
+comfort[2]=0
+comfort[3]=145
+
+Constraint[Prev][0]=BR-321(rear)
+Constraint[Prev][1]=none
+
+Constraint[Next][0]=BR-321(pantograph)
+
+liverytype[0]=NSE-Standard
+
+EmptyImage[E][0]=./images/br-321-dtco-nse_E.0.0
+EmptyImage[SE][0]=./images/br-321-dtco-nse_SE.0.0
+EmptyImage[S][0]=./images/br-321-dtco-nse_S.0.0
+EmptyImage[SW][0]=./images/br-321-dtco-nse_SW.0.0
+EmptyImage[W][0]=./images/br-321-dtco-nse_W.0.0
+EmptyImage[NW][0]=./images/br-321-dtco-nse_NW.0.0
+EmptyImage[N][0]=./images/br-321-dtco-nse_N.0.0
+EmptyImage[NE][0]=./images/br-321-dtco-nse_NE.0.0
 
 ----
 
@@ -58,8 +122,11 @@ retire_year=1994
 retire_month=2
 waytype=track
 freight=Passagiere
-payload=74
-overcrowded_capacity=56
+payload[0]=0
+payload[1]=79
+payload[2]=0
+payload[3]=0
+overcrowded_capacity=58
 length=11
 brake_force=21
 rolling_resistance=13
@@ -69,27 +136,33 @@ axles=4
 cost=1921000
 runningcost=47
 
-
 can_lead_from_rear=0
 bidirectional=1
 way_constraint_permissive[2]=2
 
 min_loading_time=15
 max_loading_time=55
-comfort=84
+comfort[0]=0
+comfort[1]=84
+comfort[2]=0
+comfort[3]=145
 
 Constraint[Prev][0]=BR-321(front)
+Constraint[Prev][1]=BR-321(front-composite)
 
 Constraint[Next][0]=BR-321(motor)
 
-EmptyImage[E]=./images/br-319-nse.1.0
-EmptyImage[SE]=./images/br-319-nse.1.1
-EmptyImage[S]=./images/br-319-nse.1.2
-EmptyImage[SW]=./images/br-319-nse.1.3
-EmptyImage[W]=./images/br-319-nse.1.4
-EmptyImage[NW]=./images/br-319-nse.1.5
-EmptyImage[N]=./images/br-319-nse.1.6
-EmptyImage[NE]=./images/br-319-nse.1.7
+liverytype[0]=NSE-Standard
+
+EmptyImage[E][0]=./images/br-319-mso-nse_E.0.0
+EmptyImage[SE][0]=./images/br-319-mso-nse_SE.0.0
+EmptyImage[S][0]=./images/br-319-mso-nse_S.0.0
+EmptyImage[SW][0]=./images/br-319-mso-nse_SW.0.0
+EmptyImage[W][0]=./images/br-319-mso-nse_W.0.0
+EmptyImage[NW][0]=./images/br-319-mso-nse_NW.0.0
+EmptyImage[N][0]=./images/br-319-mso-nse_N.0.0
+EmptyImage[NE][0]=./images/br-319-mso-nse_NE.0.0
+
 
 ---
 
@@ -107,8 +180,11 @@ retire_year=1994
 retire_month=2
 waytype=track
 freight=Passagiere
-payload=79
-overcrowded_capacity=59
+payload[0]=0
+payload[1]=74
+payload[2]=0
+payload[3]=0
+overcrowded_capacity=54
 length=11
 brake_force=39
 rolling_resistance=13
@@ -118,27 +194,31 @@ axles=4
 cost=2021000
 runningcost=220
 
-
 can_lead_from_rear=0
 bidirectional=1
 way_constraint_permissive[2]=2
 
 min_loading_time=15
 max_loading_time=55
-comfort=84
+comfort[0]=0
+comfort[1]=84
+comfort[2]=0
+comfort[3]=145
 
 Constraint[Prev][0]=BR-321(pantograph)
 
 Constraint[Next][0]=BR-321(rear)
 
-EmptyImage[E]=./images/br-319-nse.2.0
-EmptyImage[SE]=./images/br-319-nse.2.1
-EmptyImage[S]=./images/br-319-nse.2.2
-EmptyImage[SW]=./images/br-319-nse.2.3
-EmptyImage[W]=./images/br-319-nse.2.4
-EmptyImage[NW]=./images/br-319-nse.2.5
-EmptyImage[N]=./images/br-319-nse.2.6
-EmptyImage[NE]=./images/br-319-nse.2.7
+liverytype[0]=NSE-Standard
+
+EmptyImage[E][0]=./images/br-319-tsol-nse_E.0.0
+EmptyImage[SE][0]=./images/br-319-tsol-nse_SE.0.0
+EmptyImage[S][0]=./images/br-319-tsol-nse_S.0.0
+EmptyImage[SW][0]=./images/br-319-tsol-nse_SW.0.0
+EmptyImage[W][0]=./images/br-319-tsol-nse_W.0.0
+EmptyImage[NW][0]=./images/br-319-tsol-nse_NW.0.0
+EmptyImage[N][0]=./images/br-319-tsol-nse_N.0.0
+EmptyImage[NE][0]=./images/br-319-tsol-nse_NE.0.0
 
 ---
 
@@ -154,8 +234,11 @@ retire_year=1994
 retire_month=2
 waytype=track
 freight=Passagiere
-payload=78
-overcrowded_capacity=59
+payload[0]=0
+payload[1]=78
+payload[2]=0
+payload[3]=0
+overcrowded_capacity=62
 length=11
 brake_force=21
 rolling_resistance=13
@@ -172,18 +255,24 @@ way_constraint_permissive[2]=2
 
 min_loading_time=15
 max_loading_time=55
-comfort=84
+comfort[0]=0
+comfort[1]=84
+comfort[2]=0
+comfort[3]=145
 
 Constraint[Prev][0]=BR-321(motor)
 
 Constraint[Next][0]=BR-321(front)
-Constraint[Next][1]=none
+Constraint[Next][1]=BR-321(front-composite)
+Constraint[Next][2]=none
 
-EmptyImage[E]=./images/br-456-nse.1.0
-EmptyImage[SE]=./images/br-456-nse.1.1
-EmptyImage[S]=./images/br-456-nse.1.2
-EmptyImage[SW]=./images/br-456-nse.1.3
-EmptyImage[W]=./images/br-456-nse.1.4
-EmptyImage[NW]=./images/br-456-nse.1.5
-EmptyImage[N]=./images/br-456-nse.1.6
-EmptyImage[NE]=./images/br-456-nse.1.7
+liverytype[0]=NSE-Standard
+
+EmptyImage[E][0]=./images/br-321-dtso-rear-nse_E.0.0
+EmptyImage[SE][0]=./images/br-321-dtso-rear-nse_SE.0.0
+EmptyImage[S][0]=./images/br-321-dtso-rear-nse_S.0.0
+EmptyImage[SW][0]=./images/br-321-dtso-rear-nse_SW.0.0
+EmptyImage[W][0]=./images/br-321-dtso-rear-nse_W.0.0
+EmptyImage[NW][0]=./images/br-321-dtso-rear-nse_NW.0.0
+EmptyImage[N][0]=./images/br-321-dtso-rear-nse_N.0.0
+EmptyImage[NE][0]=./images/br-321-dtso-rear-nse_NE.0.0

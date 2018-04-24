@@ -1,3 +1,4 @@
+# https://en.wikipedia.org/wiki/British_Rail_Class_501
 obj=vehicle
 name=BR-501(DMB)
 engine_type=electric
@@ -12,7 +13,8 @@ retire_year=1965
 retire_month=12
 waytype=track
 freight=Passagiere
-payload=83
+payload[0]=0
+payload[1]=83
 overcrowded_capacity=59
 length=11
 
@@ -29,7 +31,8 @@ way_constraint_permissive[3]=3
 
 min_loading_time=10
 max_loading_time=40
-comfort=77
+comfort[0]=0
+comfort[1]=77
 
 Constraint[Prev][0]=BR-501(DTB)
 Constraint[Prev][1]=none
@@ -81,7 +84,8 @@ retire_year=1965
 retire_month=12
 waytype=track
 freight=Passagiere
-payload=90
+payload[0]=0
+payload[1]=90
 overcrowded_capacity=66
 length=11
 
@@ -98,7 +102,8 @@ way_constraint_permissive[3]=3
 
 min_loading_time=10
 max_loading_time=40
-comfort=77
+comfort[0]=0
+comfort[1]=77
 
 Constraint[Prev][0]=BR-501(DMB)
 
@@ -149,7 +154,8 @@ retire_year=1965
 retire_month=12
 waytype=track
 freight=Passagiere
-payload=83
+payload[0]=0
+payload[1]=83
 overcrowded_capacity=65
 length=11
 
@@ -166,7 +172,8 @@ way_constraint_permissive[3]=3
 
 min_loading_time=10
 max_loading_time=40
-comfort=77
+comfort[0]=0
+comfort[1]=77
 
 Constraint[Prev][0]=BR-501(T)
 

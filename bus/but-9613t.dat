@@ -20,12 +20,12 @@ intro_month=11
 retire_year=1966
 retire_month=1
 is_tall=1
+sound=androo4519-btu9613t.wav
 
 comfort=49
 # Rear platform with conductor (8ft wide): 1.8 seconds per passenger
 min_loading_time=3
 max_loading_time=127
-sound=androo4519-btu9613t.wav
 
 liverytype[0]=Glasgow-Corporation-revised-1
 liverytype[1]=Glasgow-Corporation-revised-2

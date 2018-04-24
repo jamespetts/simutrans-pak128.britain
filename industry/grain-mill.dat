@@ -9,20 +9,36 @@ retire_year=1840
 retire_month=10
 copyright=James
 level=4
-pax_level=9
-passenger_demand=8
+employment_capacity=4
 mail_demand=1
+class_proportion[0]=2
+class_proportion[1]=3
+class_proportion[2]=20
+class_proportion[3]=30
+class_proportion[4]=0
+class_proportion_jobs[0]=50
+class_proportion_jobs[1]=40
+class_proportion_jobs[2]=5
+class_proportion_jobs[3]=5
+class_proportion_jobs[4]=0
 climates=tropic,mediterran,temperate
 Location=City
-distributionweight=18  
-Productivity=22 
-Range=6
+distributionweight=18
+# http://www.heckingtonwindmill.org.uk/discover-milling.html
+# A large, 8-sailed windmill produced up to 5 tonnes of flour
+# per day when running 24 hours/day. That equates to 1 1/3rd 
+# tonnes of flour per 6.4 hours. At 840kg/flour per unit, that 
+# gives 1.58 units/nominal month, suggesting a range of 1-2
+# units per nominal month.
+Productivity=1 
+Range=1
 max_distance_to_consumer=50
 passenger_boost=700
 mail_boost=50
 electricity_amount=0
 electricity_boost=0
 MapColor=82
+needs_ground=1
 sound=pcwvdmark-windmill.wav
 InputGood[0]=grain
 InputCapacity[0]=140 
@@ -30,12 +46,12 @@ InputFactor[0]=100
 #InputSupplier[0]=2  
 OutputGood[0]=flour
 OutputCapacity[0]=140 
-OutputFactor[0]=100  
+OutputFactor[0]=100
 
 expand_probability=10
 expand_minimum=10
-expand_range=5
-expand_times=3
+expand_range=1
+expand_times=2
 
 Dims=1,1,4
 BackImage[2][0][0][0][0][0]=windmill.0.0
@@ -74,22 +90,40 @@ BackImage[3][0][0][0][3][1]=windmill-rot4-snow.1.1
 BackImage[2][0][0][0][3][1]=windmill-rot4-snow.1.2
 BackImage[1][0][0][0][3][1]=windmill-rot4-snow.1.3
 --------------------
+# Steam powered stone mill
+# Each run of stones can grind 9 bushels
+# per hour, each bushel giving rise to 42lb/flour 
+# per hour (that is, 19kg/hour). This equates
+# to 0.022 units of flour/hour, or 0.144 units
+# per bushel per nominal month (6.4 hours).
+# Per run of stones, that equates to 1.3 units
+# of flour per nominal month (6.4 hours). 
+# https://en.wikipedia.org/wiki/Albion_Mills,_Southwark#cite_note-VCS-5
 Obj=factory
-name=GrainMill1840
+name=GrainMill1820
 copyright=James
-intro_year=1840
+intro_year=1820
 intro_month=12
-retire_year=1910
+retire_year=1885
 retire_month=10
 level=6
-pax_level=13  
-passenger_demand = 32
-mail_demand = 2
+employment_capacity=25
+mail_demand=3
+class_proportion[0]=2
+class_proportion[1]=3
+class_proportion[2]=20
+class_proportion[3]=30
+class_proportion[4]=0
+class_proportion_jobs[0]=30
+class_proportion_jobs[1]=50
+class_proportion_jobs[2]=15
+class_proportion_jobs[3]=3
+class_proportion_jobs[4]=2
 climates=tropic,arctic,desert,mediterran,temperate,tundra,rocky
 Location=City
 distributionweight=7  
-Productivity=69 
-Range=23  
+Productivity=3 
+Range=30  
 max_distance_to_consumer=100
 electricity_amount=2
 electricity_boost=850
@@ -113,8 +147,12 @@ expand_minimum=19
 expand_range=8
 expand_times=3
 
-upgrade[0]=GrainMill1910
+upgrade[0]=GrainMill1880
 upgrade[1]=GrainMill1945
+
+# TODO: Have graphics for this earlier stone mill
+# based on the Albion Flour Mill. These are currently
+# the same as the later roller mill
 
 BackImage[0][0][0][0][0][0]=grain-mill.0.0
 BackImage[0][0][0][1][0][0]=grain-mill.0.1
@@ -150,22 +188,33 @@ BackImage[3][0][1][0][0][1]=grain-mill.5.0
 BackImage[3][0][1][1][0][1]=grain-mill.5.1
 
 --------------------
+# Roller mill
+
 Obj=factory
-name=GrainMill1910
-intro_year=1910
+name=GrainMill1880
+intro_year=1880
 intro_month=12
 retire_year=1945
 retire_month=10
 copyright=James
 level=8
-pax_level=14 
-passenger_demand = 48
-mail_demand = 3 
+employment_capacity=20
+mail_demand=3
+class_proportion[0]=2
+class_proportion[1]=3
+class_proportion[2]=20
+class_proportion[3]=30
+class_proportion[4]=0
+class_proportion_jobs[0]=25
+class_proportion_jobs[1]=51
+class_proportion_jobs[2]=17
+class_proportion_jobs[3]=5
+class_proportion_jobs[4]=2
 climates=tropic,arctic,desert,mediterran,temperate,tundra,rocky
 Location=City
 distributionweight=6  
-Productivity=126 
-Range=46
+Productivity=5 
+Range=50
 max_distance_to_consumer=250
 electricity_amount=3
 electricity_boost=1000
@@ -234,14 +283,23 @@ retire_year=1975
 retire_month=10
 copyright=James
 level=6
-pax_level=12  
-passenger_demand = 32
-mail_demand = 3
+employment_capacity=25
+mail_demand=7
+class_proportion[0]=2
+class_proportion[1]=3
+class_proportion[2]=20
+class_proportion[3]=30
+class_proportion[4]=0
+class_proportion_jobs[0]=25
+class_proportion_jobs[1]=51
+class_proportion_jobs[2]=17
+class_proportion_jobs[3]=5
+class_proportion_jobs[4]=2
 climates=tropic,arctic,desert,mediterran,temperate,tundra,rocky
 Location=City
 distributionweight=5  
-Productivity=286 
-Range=69  
+Productivity=15 
+Range=40
 passenger_boost=700
 mail_boost=50
 electricity_amount=4
@@ -282,20 +340,30 @@ BackImage[3][0][0][0][0][1]=grain-mill-modern.3.2
 BackImage[3][0][1][0][0][1]=grain-mill-modern.3.3
 
 --------------------
+# http://iaomp2016.in/mine/12432/when-producing-200-tons-of-flour-machinery/
 Obj=factory
 name=GrainMill1975
 intro_year=1975
 intro_month=12
 copyright=James
 level=3
-pax_level=7  
-passenger_demand = 32
-mail_demand = 3
+employment_capacity=15
+mail_demand=5
+class_proportion[0]=2
+class_proportion[1]=3
+class_proportion[2]=20
+class_proportion[3]=30
+class_proportion[4]=0
+class_proportion_jobs[0]=10
+class_proportion_jobs[1]=40
+class_proportion_jobs[2]=35
+class_proportion_jobs[3]=12
+class_proportion_jobs[4]=3
 climates=tropic,arctic,desert,mediterran,temperate,tundra,rocky
 Location=City
 distributionweight=3  
-Productivity=314 
-Range=34 
+Productivity=60 
+Range=20 
 passenger_boost=700
 mail_boost=50
 electricity_amount=6
@@ -332,4 +400,4 @@ BackImage[3][0][0][0][0][0]=grain-mill-modern.3.0
 BackImage[3][0][1][0][0][0]=grain-mill-modern.3.1
 BackImage[3][0][0][0][0][1]=grain-mill-modern.3.2
 BackImage[3][0][1][0][0][1]=grain-mill-modern.3.3
---------------------
+

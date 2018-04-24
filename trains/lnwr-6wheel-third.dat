@@ -14,7 +14,8 @@ retire_year=1896
 retire_month=2
 waytype=track
 freight=Passagiere
-payload=50
+payload[0]=0
+payload[1]=50
 overcrowded_capacity=25
 length=6
 brake_force=5
@@ -24,7 +25,8 @@ axles=3
 cost=304000
 runningcost=24
 
-comfort=69
+comfort[0]=0
+comfort[1]=69
 
 upgrade[0]=LNWR-6Wheel-lav
 
@@ -158,7 +160,8 @@ retire_year=1916
 retire_month=5
 waytype=track
 freight=Passagiere
-payload=38
+payload[0]=0
+payload[1]=38
 overcrowded_capacity=20
 length=6
 brake_force=5
@@ -168,10 +171,10 @@ axles=3
 upgrade_price=49285
 runningcost=24
 
-
 # Note that only half the passengers in this carriage have lavatory access:
 # see Jenkinson (LNWR) p. 101 (this is D279).
-comfort=76
+comfort[0]=0
+comfort[1]=76
 
 can_lead_from_rear=0
 bidirectional=1

@@ -22,6 +22,7 @@ is_tall=1
 # 40-60 minutes
 min_loading_time=2400
 max_loading_time=3600
+range=100
 
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
@@ -54,7 +55,6 @@ waytype=water
 engine_type=steam
 speed=15
 power=200
-#gear=1200
 smoke=Steam
 freight=meat
 payload=45
@@ -71,6 +71,7 @@ is_tall=1
 # 40-60 minutes
 min_loading_time=2400
 max_loading_time=3600
+range=100
 
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
@@ -103,10 +104,9 @@ waytype=water
 engine_type=steam
 speed=15
 power=200
-#gear=1200
 smoke=Steam
 freight=Post
-payload=45
+payload=450
 weight=50
 length=6
 cost=8909120
@@ -120,6 +120,7 @@ is_tall=1
 # 40-60 minutes
 min_loading_time=2400
 max_loading_time=3600
+range=100
 
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
@@ -144,4 +145,3 @@ FreightImage[W]=./images/ps-industry-mail.1.4
 FreightImage[NW]=./images/ps-industry-mail.1.5
 FreightImage[N]=./images/ps-industry-mail.1.6
 FreightImage[NE]=./images/ps-industry-mail.1.7
-----------------------------------------

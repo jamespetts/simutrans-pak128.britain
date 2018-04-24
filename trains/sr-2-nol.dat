@@ -12,11 +12,14 @@ retire_year=1940
 retire_month=12
 waytype=track
 freight=Passagiere
-payload=84
-overcrowded_capacity=42
+payload[0]=0
+payload[1]=75
+payload[2]=0
+payload[3]=0
+overcrowded_capacity=37
 length=11
 
-weight=40
+weight=42.1
 axles=4
 cost=1680000
 upgrade_price=336000
@@ -26,12 +29,15 @@ increase_maintenance_after_years=25
 
 can_lead_from_rear=1
 bidirectional=0
-# TODO: Set this.
+# Is this not possibly useful other than as an upgrade?
 #available_only_as_upgrade=1
 
 min_loading_time=10
 max_loading_time=40
-comfort=75
+comfort[0]=0
+comfort[1]=75
+comfort[2]=0
+comfort[3]=82
 way_constraint_permissive[0]=0
 
 upgrade[0]=BR-414[HAP]Front
@@ -101,18 +107,22 @@ retire_year=1940
 retire_month=12
 waytype=track
 freight=Passagiere
-payload=84
-overcrowded_capacity=42
+payload[0]=0
+payload[1]=60
+payload[2]=0
+payload[3]=25
+overcrowded_capacity=30
 length=11
 
-weight=30
+weight=29.7
 axles=4
 cost=720000
 upgrade_price=140000
 runningcost=123
-sound=video47-emu-generic.wav
+sound=x24tohayes-epb.wav
 increase_maintenance_after_years=25
-# TODO: Set this.
+
+# Is this not possibly useful other than as an upgrade?
 #available_only_as_upgrade=1
 
 can_lead_from_rear=1
@@ -129,7 +139,10 @@ upgrade[6]=BR-4EPB(centre2)
 
 min_loading_time=10
 max_loading_time=40
-comfort=75
+comfort[0]=0
+comfort[1]=75
+comfort[2]=0
+comfort[3]=82
 
 Constraint[Prev][0]=SR-2-NOL-front
 

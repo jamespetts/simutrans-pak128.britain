@@ -1,6 +1,9 @@
+# This is now mainly based on Highland Railway bolster wagons.
+# See "Highland Railway carriages and wagons" by Peter Tatlow p. 154 onwards.
+# See also (the original inspiration for this wagon)
+# http://www.lnwrs.org.uk/Wagons/open/Diag001.php
 obj=vehicle
 name=LongD1
-#?
 speed=56
 copyright=James
 intro_year=1855
@@ -14,45 +17,55 @@ length=3
 brake_force=0
 rolling_resistance=19
 
-#?
-weight=4
+# http://www.lnwrs.org.uk/Wagons/open/Diag001.php
+weight=4.3
 axle_load=6
 way_wear_factor=15000
 cost=100000
 runningcost=5
-
 
 min_loading_time=360
 max_loading_time=975
 
 Constraint[Next][0]=any
 
-EmptyImage[E]=./images/wagon-long-d1.0.0
-EmptyImage[SE]=./images/wagon-long-d1.0.1
-EmptyImage[S]=./images/wagon-long-d1.0.2
-EmptyImage[SW]=./images/wagon-long-d1.0.3
-EmptyImage[W]=./images/wagon-long-d1.0.4
-EmptyImage[NW]=./images/wagon-long-d1.0.5
-EmptyImage[N]=./images/wagon-long-d1.0.6
-EmptyImage[NE]=./images/wagon-long-d1.0.7
+EmptyImage[E]=./images/long-8t-empty_E.0.0
+EmptyImage[SE]=./images/long-8t-empty_SE.0.0
+EmptyImage[S]=./images/long-8t-empty_S.0.0
+EmptyImage[SW]=./images/long-8t-empty_SW.0.0
+EmptyImage[W]=./images/long-8t-empty_W.0.0
+EmptyImage[NW]=./images/long-8t-empty_NW.0.0
+EmptyImage[N]=./images/long-8t-empty_N.0.0
+EmptyImage[NE]=./images/long-8t-empty_NE.0.0
+
+freightimagetype[2]=WroughtIron
+FreightImage[2][E]=./images/long-8t-iron_E.0.0
+FreightImage[2][SE]=./images/long-8t-iron_SE.0.0
+FreightImage[2][S]=./images/long-8t-iron_S.0.0
+FreightImage[2][SW]=./images/long-8t-iron_SW.0.0
+FreightImage[2][W]=./images/long-8t-iron_W.0.0
+FreightImage[2][NW]=./images/long-8t-iron_NW.0.0
+FreightImage[2][N]=./images/long-8t-iron_N.0.0
+FreightImage[2][NE]=./images/long-8t-iron_NE.0.0
 
 freightimagetype[1]=Stahl
-FreightImage[1][E]=./images/wagon-long-d1.2.0
-FreightImage[1][SE]=./images/wagon-long-d1.2.1
-FreightImage[1][S]=./images/wagon-long-d1.2.2
-FreightImage[1][SW]=./images/wagon-long-d1.2.3
-FreightImage[1][W]=./images/wagon-long-d1.2.4
-FreightImage[1][NW]=./images/wagon-long-d1.2.5
-FreightImage[1][N]=./images/wagon-long-d1.2.6
-FreightImage[1][NE]=./images/wagon-long-d1.2.7
+FreightImage[1][E]=./images/long-8t-steel_E.0.0
+FreightImage[1][SE]=./images/long-8t-steel_SE.0.0
+FreightImage[1][S]=./images/long-8t-steel_S.0.0
+FreightImage[1][SW]=./images/long-8t-steel_SW.0.0
+FreightImage[1][W]=./images/long-8t-steel_W.0.0
+FreightImage[1][NW]=./images/long-8t-steel_NW.0.0
+FreightImage[1][N]=./images/long-8t-steel_N.0.0
+FreightImage[1][NE]=./images/long-8t-steel_NE.0.0
 
 freightimagetype[0]=Bretter
-FreightImage[0][E]=./images/wagon-long-d1.1.0
-FreightImage[0][SE]=./images/wagon-long-d1.1.1
-FreightImage[0][S]=./images/wagon-long-d1.1.2
-FreightImage[0][SW]=./images/wagon-long-d1.1.3
-FreightImage[0][W]=./images/wagon-long-d1.1.4
-FreightImage[0][NW]=./images/wagon-long-d1.1.5
-FreightImage[0][N]=./images/wagon-long-d1.1.6
-FreightImage[0][NE]=./images/wagon-long-d1.1.7
+FreightImage[0][E]=./images/long-8t-wood_E.0.0
+FreightImage[0][SE]=./images/long-8t-wood_SE.0.0
+FreightImage[0][S]=./images/long-8t-wood_S.0.0
+FreightImage[0][SW]=./images/long-8t-wood_SW.0.0
+FreightImage[0][W]=./images/long-8t-wood_W.0.0
+FreightImage[0][NW]=./images/long-8t-wood_NW.0.0
+FreightImage[0][N]=./images/long-8t-wood_N.0.0
+FreightImage[0][NE]=./images/long-8t-wood_NE.0.0
+
 

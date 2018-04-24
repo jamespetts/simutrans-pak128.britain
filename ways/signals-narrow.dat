@@ -814,7 +814,6 @@ intro_year=1860
 intro_month=2
 retire_year=1880
 retire_month=5
-signal_groups=2
 
 # DANGER
 Image[0]=images/semaphore-lower-quadrant-short-post-junction-danger.1.2,42,-2

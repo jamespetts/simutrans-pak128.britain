@@ -1,4 +1,4 @@
-#Pax
+# Steerage
 obj=vehicle
 name=ClipperAddPax
 copyright=James
@@ -6,7 +6,8 @@ waytype=water
 engine_type=sail
 speed=20
 freight=Passagiere
-payload=70
+payload[0]=0
+payload[1]=70
 intro_year=1837
 intro_month=1
 retire_year=1900
@@ -14,7 +15,8 @@ retire_month=9
 
 length=3
 
-comfort=135
+comfort[0]=0
+comfort[1]=91
 catering_level=4
 # 1-2 hours
 min_loading_time=3600
@@ -30,6 +32,8 @@ Constraint[Prev][4]=ClipperAddCool
 Constraint[Prev][5]=ClipperAddLong
 Constraint[Prev][6]=ClipperAddLivestock
 Constraint[Prev][7]=ClipperAddPax
+Constraint[Prev][8]=ClipperAddPax-second-class
+Constraint[Prev][9]=ClipperAddPax-first-class
 
 Constraint[Next][0]=ClipperAddPax
 Constraint[Next][1]=ClipperAddBulk
@@ -38,7 +42,145 @@ Constraint[Next][3]=ClipperAddPiece
 Constraint[Next][4]=ClipperAddCool
 Constraint[Next][5]=ClipperAddLong
 Constraint[Next][6]=ClipperAddLivestock
-Constraint[Next][7]=none
+Constraint[Next][7]=ClipperAddPax-second-class
+Constraint[Next][8]=ClipperAddPax-first-class
+Constraint[Next][9]=none
+
+EmptyImage[E]=../images/holds.0.0,40,56
+EmptyImage[SE]=../images/holds.0.0,48,40
+EmptyImage[S]=../images/holds.0.0,48,48
+EmptyImage[SW]=../images/holds.0.0,64,64
+EmptyImage[W]=../images/holds.0.0,64,32
+EmptyImage[NW]=../images/holds.0.0,48,40
+EmptyImage[N]=../images/holds.0.0,56,48
+EmptyImage[NE]=../images/holds.0.0,64,48
+
+FreightImage[E]=../images/holds.1.0,40,56
+FreightImage[SE]=../images/holds.1.0,48,40
+FreightImage[S]=../images/holds.1.0,48,48
+FreightImage[SW]=../images/holds.1.0,64,64
+FreightImage[W]=../images/holds.1.0,64,32
+FreightImage[NW]=../images/holds.1.0,48,40
+FreightImage[N]=../images/holds.1.0,56,48
+FreightImage[NE]=../images/holds.1.0,64,48
+--
+obj=vehicle
+name=ClipperAddPax-second-class
+copyright=James
+waytype=water
+engine_type=sail
+speed=20
+freight=Passagiere
+payload[0]=0
+payload[1]=0
+payload[2]=14
+intro_year=1837
+intro_month=1
+retire_year=1900
+retire_month=9
+
+length=3
+
+comfort[0]=0
+comfort[1]=0
+comfort[2]=170
+catering_level=4
+# 1-2 hours
+min_loading_time=3600
+max_loading_time=7200
+
+way_constraint_prohibitive[6]=6 # Large ship
+
+Constraint[Prev][0]=ClipperHull
+Constraint[Prev][1]=ClipperAddBulk
+Constraint[Prev][2]=ClipperAddMail
+Constraint[Prev][3]=ClipperAddPiece
+Constraint[Prev][4]=ClipperAddCool
+Constraint[Prev][5]=ClipperAddLong
+Constraint[Prev][6]=ClipperAddLivestock
+Constraint[Prev][7]=ClipperAddPax
+Constraint[Prev][8]=ClipperAddPax-second-class
+Constraint[Prev][9]=ClipperAddPax-first-class
+
+Constraint[Next][0]=ClipperAddPax
+Constraint[Next][1]=ClipperAddBulk
+Constraint[Next][2]=ClipperAddMail
+Constraint[Next][3]=ClipperAddPiece
+Constraint[Next][4]=ClipperAddCool
+Constraint[Next][5]=ClipperAddLong
+Constraint[Next][6]=ClipperAddLivestock
+Constraint[Next][7]=ClipperAddPax-second-class
+Constraint[Next][8]=ClipperAddPax-first-class
+Constraint[Next][9]=none
+
+EmptyImage[E]=../images/holds.0.0,40,56
+EmptyImage[SE]=../images/holds.0.0,48,40
+EmptyImage[S]=../images/holds.0.0,48,48
+EmptyImage[SW]=../images/holds.0.0,64,64
+EmptyImage[W]=../images/holds.0.0,64,32
+EmptyImage[NW]=../images/holds.0.0,48,40
+EmptyImage[N]=../images/holds.0.0,56,48
+EmptyImage[NE]=../images/holds.0.0,64,48
+
+FreightImage[E]=../images/holds.1.0,40,56
+FreightImage[SE]=../images/holds.1.0,48,40
+FreightImage[S]=../images/holds.1.0,48,48
+FreightImage[SW]=../images/holds.1.0,64,64
+FreightImage[W]=../images/holds.1.0,64,32
+FreightImage[NW]=../images/holds.1.0,48,40
+FreightImage[N]=../images/holds.1.0,56,48
+FreightImage[NE]=../images/holds.1.0,64,48
+--
+obj=vehicle
+name=ClipperAddPax-first-class
+copyright=James
+waytype=water
+engine_type=sail
+speed=20
+freight=Passagiere
+payload[0]=0
+payload[1]=0
+payload[2]=0
+payload[3]=10
+intro_year=1837
+intro_month=1
+retire_year=1900
+retire_month=9
+
+length=3
+
+comfort[0]=0
+comfort[1]=0
+comfort[2]=0
+comfort[3]=175
+catering_level=4
+# 1-2 hours
+min_loading_time=3600
+max_loading_time=7200
+
+way_constraint_prohibitive[6]=6 # Large ship
+
+Constraint[Prev][0]=ClipperHull
+Constraint[Prev][1]=ClipperAddBulk
+Constraint[Prev][2]=ClipperAddMail
+Constraint[Prev][3]=ClipperAddPiece
+Constraint[Prev][4]=ClipperAddCool
+Constraint[Prev][5]=ClipperAddLong
+Constraint[Prev][6]=ClipperAddLivestock
+Constraint[Prev][7]=ClipperAddPax
+Constraint[Prev][8]=ClipperAddPax-second-class
+Constraint[Prev][9]=ClipperAddPax-first-class
+
+Constraint[Next][0]=ClipperAddPax
+Constraint[Next][1]=ClipperAddBulk
+Constraint[Next][2]=ClipperAddMail
+Constraint[Next][3]=ClipperAddPiece
+Constraint[Next][4]=ClipperAddCool
+Constraint[Next][5]=ClipperAddLong
+Constraint[Next][6]=ClipperAddLivestock
+Constraint[Next][7]=ClipperAddPax-second-class
+Constraint[Next][8]=ClipperAddPax-first-class
+Constraint[Next][9]=none
 
 EmptyImage[E]=../images/holds.0.0,40,56
 EmptyImage[SE]=../images/holds.0.0,48,40
@@ -86,6 +228,8 @@ Constraint[Prev][4]=ClipperAddCool
 Constraint[Prev][5]=ClipperAddLong
 Constraint[Prev][6]=ClipperAddLivestock
 Constraint[Prev][7]=ClipperAddPax
+Constraint[Prev][8]=ClipperAddPax-second-class
+Constraint[Prev][9]=ClipperAddPax-first-class
 
 Constraint[Next][0]=ClipperAddPax
 Constraint[Next][1]=ClipperAddBulk
@@ -94,7 +238,9 @@ Constraint[Next][3]=ClipperAddPiece
 Constraint[Next][4]=ClipperAddCool
 Constraint[Next][5]=ClipperAddLong
 Constraint[Next][6]=ClipperAddLivestock
-Constraint[Next][7]=none
+Constraint[Next][7]=ClipperAddPax-second-class
+Constraint[Next][8]=ClipperAddPax-first-class
+Constraint[Next][9]=none
 
 EmptyImage[E]=../images/holds.0.1,40,56
 EmptyImage[SE]=../images/holds.0.1,48,40
@@ -142,6 +288,8 @@ Constraint[Prev][4]=ClipperAddCool
 Constraint[Prev][5]=ClipperAddLong
 Constraint[Prev][6]=ClipperAddLivestock
 Constraint[Prev][7]=ClipperAddPax
+Constraint[Prev][8]=ClipperAddPax-second-class
+Constraint[Prev][9]=ClipperAddPax-first-class
 
 Constraint[Next][0]=ClipperAddPax
 Constraint[Next][1]=ClipperAddBulk
@@ -150,7 +298,9 @@ Constraint[Next][3]=ClipperAddPiece
 Constraint[Next][4]=ClipperAddCool
 Constraint[Next][5]=ClipperAddLong
 Constraint[Next][6]=ClipperAddLivestock
-Constraint[Next][7]=none
+Constraint[Next][7]=ClipperAddPax-second-class
+Constraint[Next][8]=ClipperAddPax-first-class
+Constraint[Next][9]=none
 
 EmptyImage[E]=../images/holds.0.2,40,56
 EmptyImage[SE]=../images/holds.0.2,48,40
@@ -239,6 +389,8 @@ Constraint[Prev][4]=ClipperAddCool
 Constraint[Prev][5]=ClipperAddLong
 Constraint[Prev][6]=ClipperAddLivestock
 Constraint[Prev][7]=ClipperAddPax
+Constraint[Prev][8]=ClipperAddPax-second-class
+Constraint[Prev][9]=ClipperAddPax-first-class
 
 Constraint[Next][0]=ClipperAddPax
 Constraint[Next][1]=ClipperAddBulk
@@ -247,7 +399,9 @@ Constraint[Next][3]=ClipperAddPiece
 Constraint[Next][4]=ClipperAddCool
 Constraint[Next][5]=ClipperAddLong
 Constraint[Next][6]=ClipperAddLivestock
-Constraint[Next][7]=none
+Constraint[Next][7]=ClipperAddPax-second-class
+Constraint[Next][8]=ClipperAddPax-first-class
+Constraint[Next][9]=none
 
 EmptyImage[E]=../images/holds.1.4,40,56
 EmptyImage[SE]=../images/holds.1.4,48,40
@@ -306,6 +460,8 @@ Constraint[Prev][4]=ClipperAddCool
 Constraint[Prev][5]=ClipperAddLong
 Constraint[Prev][6]=ClipperAddLivestock
 Constraint[Prev][7]=ClipperAddPax
+Constraint[Prev][8]=ClipperAddPax-second-class
+Constraint[Prev][9]=ClipperAddPax-first-class
 
 Constraint[Next][0]=ClipperAddPax
 Constraint[Next][1]=ClipperAddBulk
@@ -314,7 +470,9 @@ Constraint[Next][3]=ClipperAddPiece
 Constraint[Next][4]=ClipperAddCool
 Constraint[Next][5]=ClipperAddLong
 Constraint[Next][6]=ClipperAddLivestock
-Constraint[Next][7]=none
+Constraint[Next][7]=ClipperAddPax-second-class
+Constraint[Next][8]=ClipperAddPax-first-class
+Constraint[Next][9]=none
 
 EmptyImage[E]=../images/holds.0.7,40,56
 EmptyImage[SE]=../images/holds.0.7,48,40
@@ -362,6 +520,8 @@ Constraint[Prev][4]=ClipperAddCool
 Constraint[Prev][5]=ClipperAddLong
 Constraint[Prev][6]=ClipperAddLivestock
 Constraint[Prev][7]=ClipperAddPax
+Constraint[Prev][8]=ClipperAddPax-second-class
+Constraint[Prev][9]=ClipperAddPax-first-class
 
 Constraint[Next][0]=ClipperAddPax
 Constraint[Next][1]=ClipperAddBulk
@@ -370,7 +530,9 @@ Constraint[Next][3]=ClipperAddPiece
 Constraint[Next][4]=ClipperAddCool
 Constraint[Next][5]=ClipperAddLong
 Constraint[Next][6]=ClipperAddLivestock
-Constraint[Next][7]=none
+Constraint[Next][7]=ClipperAddPax-second-class
+Constraint[Next][8]=ClipperAddPax-first-class
+Constraint[Next][9]=none
 
 EmptyImage[E]=../images/holds.0.6,40,56
 EmptyImage[SE]=../images/holds.0.6,48,40
@@ -418,6 +580,8 @@ Constraint[Prev][4]=ClipperAddCool
 Constraint[Prev][5]=ClipperAddLong
 Constraint[Prev][6]=ClipperAddLivestock
 Constraint[Prev][7]=ClipperAddPax
+Constraint[Prev][8]=ClipperAddPax-second-class
+Constraint[Prev][9]=ClipperAddPax-first-class
 
 Constraint[Next][0]=ClipperAddPax
 Constraint[Next][1]=ClipperAddBulk
@@ -426,7 +590,9 @@ Constraint[Next][3]=ClipperAddPiece
 Constraint[Next][4]=ClipperAddCool
 Constraint[Next][5]=ClipperAddLong
 Constraint[Next][6]=ClipperAddLivestock
-Constraint[Next][7]=none
+Constraint[Next][7]=ClipperAddPax-second-class
+Constraint[Next][8]=ClipperAddPax-first-class
+Constraint[Next][9]=none
 
 EmptyImage[E]=../images/holds.0.8,40,56
 EmptyImage[SE]=../images/holds.0.8,48,40

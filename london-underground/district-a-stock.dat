@@ -16,7 +16,8 @@ retire_year=1905
 retire_month=1
 waytype=track
 freight=Passagiere
-payload=44
+payload[0]=0
+payload[1]=44
 overcrowded_capacity=74
 
 # Note that these had wooden underframes, which proved insufficiently robust,
@@ -33,13 +34,15 @@ way_constraint_permissive[3]=3
 
 min_loading_time=25
 max_loading_time=53
-comfort=60
+comfort[0]=0
+comfort[1]=60
 
 Constraint[Prev][0]=District_A_StockRearDM
 Constraint[Prev][1]=none
 
 Constraint[Next][0]=District_A_StockMiddle
-Constraint[Next][1]=District_A_StockRearDM
+Constraint[Next][1]=District_A_StockMiddle-first
+Constraint[Next][2]=District_A_StockRearDM
 
 # These were apparently originally bright yellow: see Hamilton Ellis p. 260.
 
@@ -51,7 +54,9 @@ EmptyImage[W]=./images/district-a-stock-front.1.0
 EmptyImage[NW]=./images/district-a-stock-front.1.1
 EmptyImage[N]=./images/district-a-stock-front.1.2
 EmptyImage[NE]=./images/district-a-stock-front.1.3
---
+
+---
+
 obj=vehicle
 name=District_A_StockMiddle
 engine_type=electric
@@ -64,7 +69,8 @@ retire_year=1905
 retire_month=1
 waytype=track
 freight=Passagiere
-payload=48
+payload[0]=0
+payload[1]=48
 overcrowded_capacity=82
 
 weight=29
@@ -72,16 +78,17 @@ axles=4
 cost=1400000
 runningcost=35
 
-
 way_constraint_permissive[3]=3
 
 min_loading_time=25
 max_loading_time=53
-comfort=60
+comfort[0]=0
+comfort[1]=60
 
 Constraint[Prev][0]=District_A_StockFrontDM
 Constraint[Prev][1]=District_A_StockMiddle
-Constraint[Prev][2]=District_A_StockRearDM
+Constraint[Prev][2]=District_A_StockMiddle-first
+Constraint[Prev][3]=District_A_StockRearDM
 
 Constraint[Next][0]=District_A_StockRearDM
 Constraint[Next][1]=District_A_StockMiddle
@@ -94,7 +101,62 @@ EmptyImage[W]=./images/district-a-stock-middle.1.0
 EmptyImage[NW]=./images/district-a-stock-middle.1.1
 EmptyImage[N]=./images/district-a-stock-middle.1.2
 EmptyImage[NE]=./images/district-a-stock-middle.1.3
-----
+
+---
+
+# https://machorne.wordpress.com/2013/07/07/a-first-class-mystery-on-the-district-railway/
+obj=vehicle
+name=District_A_StockMiddle-first
+engine_type=electric
+speed=60
+length=8
+copyright=James
+intro_year=1903
+intro_month=8
+retire_year=1905
+retire_month=1
+waytype=track
+freight=Passagiere
+payload[0]=0
+payload[1]=0
+payload[2]=0
+payload[3]=48
+overcrowded_capacity=82
+
+weight=29
+axles=4
+cost=1400000
+runningcost=35
+
+way_constraint_permissive[3]=3
+
+min_loading_time=25
+max_loading_time=53
+# The same layout - just different seat coverings.
+comfort[0]=0
+comfort[1]=60
+comfort[2]=0
+comfort[3]=61
+
+Constraint[Prev][0]=District_A_StockFrontDM
+Constraint[Prev][1]=District_A_StockMiddle
+Constraint[Prev][2]=District_A_StockRearDM
+
+Constraint[Next][0]=District_A_StockRearDM
+Constraint[Next][1]=District_A_StockMiddle
+Constraint[Next][2]=District_A_StockMiddle-first
+
+EmptyImage[E]=./images/district-a-stock-middle.1.4
+EmptyImage[SE]=./images/district-a-stock-middle.1.5
+EmptyImage[S]=./images/district-a-stock-middle.1.6
+EmptyImage[SW]=./images/district-a-stock-middle.1.7
+EmptyImage[W]=./images/district-a-stock-middle.1.0
+EmptyImage[NW]=./images/district-a-stock-middle.1.1
+EmptyImage[N]=./images/district-a-stock-middle.1.2
+EmptyImage[NE]=./images/district-a-stock-middle.1.3
+
+---
+
 obj=vehicle
 name=District_A_StockRearDM
 engine_type=electric
@@ -110,7 +172,8 @@ retire_year=1905
 retire_month=1
 waytype=track
 freight=Passagiere
-payload=44
+payload[0]=0
+payload[1]=44
 overcrowded_capacity=74
 
 weight=34
@@ -125,15 +188,17 @@ way_constraint_permissive[3]=3
 
 min_loading_time=25
 max_loading_time=53
-comfort=60
+comfort[0]=0
+comfort[1]=60
 
 Constraint[Prev][0]=District_A_StockMiddle
-Constraint[Prev][1]=District_A_StockFrontDM
+Constraint[Prev][1]=District_A_StockMiddle-first
+Constraint[Prev][2]=District_A_StockFrontDM
 
 Constraint[Next][0]=District_A_StockFrontDM
 Constraint[Next][1]=District_A_StockMiddle
-Constraint[Next][2]=none
-
+Constraint[Next][2]=District_A_StockMiddle-first
+Constraint[Next][3]=none
 
 EmptyImage[E]=./images/district-a-stock-rear.1.4
 EmptyImage[SE]=./images/district-a-stock-rear.1.5
@@ -143,4 +208,3 @@ EmptyImage[W]=./images/district-a-stock-rear.1.0
 EmptyImage[NW]=./images/district-a-stock-rear.1.1
 EmptyImage[N]=./images/district-a-stock-rear.1.2
 EmptyImage[NE]=./images/district-a-stock-rear.1.3
---

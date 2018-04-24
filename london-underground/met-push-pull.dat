@@ -10,7 +10,8 @@ retire_year=1935
 retire_month=9
 waytype=track
 freight=Passagiere
-payload=70
+payload[0]=0
+payload[1]=70
 overcrowded_capacity=35
 length=7
 
@@ -20,14 +21,14 @@ upgrade_price=7000
 cost=755000
 runningcost=22
 
-
 can_lead_from_rear=0
 bidirectional=1
 available_only_as_upgrade=1
 
 min_loading_time=10
 max_loading_time=30
-comfort=73
+comfort[0]=0
+comfort[1]=73
 
 Constraint[Next][0]=met-bogie-push-pull-rear
 
@@ -67,7 +68,8 @@ retire_year=1935
 retire_month=9
 waytype=track
 freight=Passagiere
-payload=50
+payload[0]=0
+payload[1]=50
 overcrowded_capacity=25
 length=7
 
@@ -77,14 +79,14 @@ upgrade_price=7000
 cost=755000
 runningcost=22
 
-
 can_lead_from_rear=0
 bidirectional=1
 available_only_as_upgrade=1
 
 min_loading_time=10
 max_loading_time=30
-comfort=73
+comfort[0]=0
+comfort[1]=73
 
 Constraint[Next][0]=met-bogie-push-pull-rear
 Constraint[Next][1]=met-bogie-push-pull-centre
@@ -126,7 +128,8 @@ retire_year=1935
 retire_month=9
 waytype=track
 freight=Passagiere
-payload=60
+payload[0]=0
+payload[1]=60
 overcrowded_capacity=30
 length=7
 
@@ -135,14 +138,14 @@ axles=4
 upgrade_price=75000
 cost=855000
 
-
 can_lead_from_rear=1
 bidirectional=1
 available_only_as_upgrade=1
 
 min_loading_time=10
 max_loading_time=30
-comfort=73
+comfort[0]=0
+comfort[1]=73
 
 Constraint[Next][0]=none
 
@@ -172,4 +175,3 @@ EmptyImage[W][1]=./images/met-bogie-push-pull-lt.1.0
 EmptyImage[NW][1]=./images/met-bogie-push-pull-lt.1.1
 EmptyImage[N][1]=./images/met-bogie-push-pull-lt.1.2
 EmptyImage[NE][1]=./images/met-bogie-push-pull-lt.1.3
-

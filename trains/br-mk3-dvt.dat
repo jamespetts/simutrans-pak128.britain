@@ -2,7 +2,7 @@ obj=vehicle
 name=BR-Mk3-DVT
 speed=200
 copyright=Kieron
-intro_year=1988
+intro_year=1985
 intro_month=5
 retire_year=1989
 retire_month=11
@@ -18,23 +18,23 @@ axles=4
 cost=641000
 runningcost=20
 
-
 can_lead_from_rear=1
 bidirectional=0
 
 min_loading_time=20
 max_loading_time=50
 
-
 Constraint[Prev][0]=BR-Mk3a-TSO
 Constraint[Prev][1]=BR-Mk3a-TRB
-Constraint[Prev][2]=BR-Mk3-TRFB
+Constraint[Prev][2]=BR-Mk3a-TRFB
+Constraint[Prev][3]=BR-Mk3a-FO
 
 Constraint[Next][0]=None
 
 liverytype[0]=BR-Blue
 liverytype[1]=IC-Swallow
 liverytype[2]=Chiltern-Mainline
+liverytype[3]=Virgin-original
 
 EmptyImage[E][0]=./images/br-mk3-bg.3.0
 EmptyImage[SE][0]=./images/br-mk3-bg.3.1
@@ -63,3 +63,11 @@ EmptyImage[NW][2]=./images/br-mk3-dvt-chiltern.1.1
 EmptyImage[N][2]=./images/br-mk3-dvt-chiltern.1.2
 EmptyImage[NE][2]=./images/br-mk3-dvt-chiltern.1.3
 
+EmptyImage[E][3]=./images/br-mk3-dvt-vt_E.0.0
+EmptyImage[SE][3]=./images/br-mk3-dvt-vt_SE.0.0
+EmptyImage[S][3]=./images/br-mk3-dvt-vt_S.0.0
+EmptyImage[SW][3]=./images/br-mk3-dvt-vt_SW.0.0
+EmptyImage[W][3]=./images/br-mk3-dvt-vt_W.0.0
+EmptyImage[NW][3]=./images/br-mk3-dvt-vt_NW.0.0
+EmptyImage[N][3]=./images/br-mk3-dvt-vt_N.0.0
+EmptyImage[NE][3]=./images/br-mk3-dvt-vt_NE.0.0

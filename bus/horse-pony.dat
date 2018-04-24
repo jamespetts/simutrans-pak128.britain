@@ -19,8 +19,8 @@ rolling_resistance=0
 weight=0.8
 axle_load=0
 cost=20000
-runningcost=10
-fixed_cost=75
+runningcost=2
+fixed_cost=625
 
 sound=ylearkisto-horse.wav
 range=25
@@ -56,8 +56,8 @@ rolling_resistance=0
 weight=1.6
 axle_load=0
 cost=40000
-runningcost=20
-fixed_cost=150
+runningcost=3
+fixed_cost=750
 
 sound=ylearkisto-horses.wav
 range=25

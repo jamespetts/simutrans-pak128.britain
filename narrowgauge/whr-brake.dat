@@ -8,7 +8,8 @@ retire_year=1964
 retire_month=5
 waytype=narrowgauge_track
 freight=Passagiere
-payload=28
+payload[0]=0
+payload[1]=28
 length=6
 rolling_resistance=18
 
@@ -17,7 +18,8 @@ axles=4
 cost=575000
 runningcost=19
 
-comfort=40
+comfort[0]=0
+comfort[1]=40
 available_only_as_upgrade=0
 
 can_lead_from_rear=0

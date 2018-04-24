@@ -11,7 +11,8 @@ intro_year=1989
 intro_month=1
 waytype=track
 freight=Passagiere
-payload=42
+payload[0]=0
+payload[1]=42
 overcrowded_capacity=138
 
 weight=26
@@ -31,7 +32,8 @@ way_constraint_permissive[0]=0
 min_loading_time=15
 max_loading_time=45
 # http://upload.wikimedia.org/wikipedia/commons/2/25/483004_Interior.JPG
-comfort=61
+comfort[0]=0
+comfort[1]=61
 
 Constraint[Prev][0]=BR-Class483Rear
 Constraint[Prev][1]=none
@@ -60,7 +62,9 @@ EmptyImage[W][1]=./images/br-cl483-heritage.0.4
 EmptyImage[NW][1]=./images/br-cl483-heritage.0.5
 EmptyImage[N][1]=./images/br-cl483-heritage.0.6
 EmptyImage[NE][1]=./images/br-cl483-heritage.0.7
+
 --
+
 obj=vehicle
 name=BR-Class483NDM
 engine_type=electric
@@ -74,14 +78,14 @@ intro_year=1989
 intro_month=1
 waytype=track
 freight=Passagiere
-payload=40
+payload[0]=0
+payload[1]=40
 overcrowded_capacity=130
 
 weight=25
 axles=4
 upgrade_price=80000
 runningcost=6
-
 
 available_only_as_upgrade=1
 
@@ -93,7 +97,8 @@ way_constraint_permissive[0]=0
 
 min_loading_time=15
 max_loading_time=45
-comfort=61
+comfort[0]=0
+comfort[1]=61
 
 Constraint[Prev][0]=BR-Class483Front
 
@@ -120,7 +125,9 @@ EmptyImage[W][1]=./images/br-cl483-heritage.1.4
 EmptyImage[NW][1]=./images/br-cl483-heritage.1.5
 EmptyImage[N][1]=./images/br-cl483-heritage.1.6
 EmptyImage[NE][1]=./images/br-cl483-heritage.1.7
+
 --
+
 obj=vehicle
 name=BR-Class483Trailer
 engine_type=electric
@@ -131,14 +138,14 @@ intro_year=1989
 intro_month=1
 waytype=track
 freight=Passagiere
-payload=40
+payload[0]=0
+payload[1]=40
 overcrowded_capacity=150
 
 weight=18
 axles=4
 upgrade_price=40000
 runningcost=3
-
 
 available_only_as_upgrade=1
 
@@ -150,7 +157,8 @@ way_constraint_permissive[0]=0
 
 min_loading_time=15
 max_loading_time=45
-comfort=61
+comfort[0]=0
+comfort[1]=61
 
 Constraint[Prev][0]=BR-Class483NDM
 Constraint[Prev][1]=BR-Class483Front
@@ -191,7 +199,8 @@ intro_year=1989
 intro_month=1
 waytype=track
 freight=Passagiere
-payload=42
+payload[0]=0
+payload[1]=42
 overcrowded_capacity=138
 
 weight=26
@@ -210,7 +219,8 @@ way_constraint_permissive[0]=0
 
 min_loading_time=15
 max_loading_time=45
-comfort=61
+comfort[0]=0
+comfort[1]=61
 
 Constraint[Prev][0]=BR-Class483NDM
 Constraint[Prev][1]=BR-Class483Trailer
@@ -239,5 +249,3 @@ EmptyImage[W][1]=./images/br-cl483-heritage.2.4
 EmptyImage[NW][1]=./images/br-cl483-heritage.2.5
 EmptyImage[N][1]=./images/br-cl483-heritage.2.6
 EmptyImage[NE][1]=./images/br-cl483-heritage.2.7
---
-

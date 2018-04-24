@@ -19,12 +19,12 @@ intro_year=1958
 intro_month=11
 retire_year=1966
 retire_month=1
+sound=androo4519-btu9613t.wav
 
 comfort=49
 # Single door with conductor: 2.5 seconds per passenger
 min_loading_time=4
 max_loading_time=125
-sound=androo4519-btu9613t.wav
 
 liverytype[0]=Glasgow-Corporation-revised-2
 

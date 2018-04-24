@@ -4,7 +4,8 @@ name=OmnibusDoubleGardenseat
 copyright=JamesPetts&JamesHood
 waytype=road
 freight=Passagiere
-payload=28
+payload[0]=0
+payload[1]=28
 overcrowded_capacity=3
 speed=11
 weight=1.1
@@ -20,7 +21,8 @@ rolling_resistance=120
 brake_force=1
 is_tall=1
 
-comfort=30
+comfort[0]=0
+comfort[1]=30
 # Rear platform with conductor: 2.0 seconds per passenger
 min_loading_time=3
 max_loading_time=56

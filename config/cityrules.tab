@@ -15,7 +15,8 @@
 # Adapted April 2010 by James E. Petts for Pak128.Britain-Ex
 
 # how far cities should be minimum apart (default 16)
-minimum_city_distance = 16
+# 80 tiles = 10km at 125m/tile
+minimum_city_distance = 80
 
 # at which number of inhabitants we need a new market?
 industry_increase_every = 7500

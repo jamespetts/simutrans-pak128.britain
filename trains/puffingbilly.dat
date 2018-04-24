@@ -6,34 +6,39 @@ speed=10
 # Based on real performance data of a locomotive said to be similar to this at p. 21 of this ebook:
 # https://ia600309.us.archive.org/17/items/evolutionofsteam00nokerich/evolutionofsteam00nokerich.pdf
 power=8
-tractive_effort=4
+# http://www.steamlocomotive.com/locobase.php?country=Great_Britain&wheel=0-4-0&railroad=wylam
+tractive_effort=1
 copyright=James
 intro_year=1813
 intro_month=10
-retire_year=1830
+retire_year=1815
 retire_month=8
 waytype=track
 freight=None
 payload=0
-length=3
+length=2
 brake_force=0
 rolling_resistance=19
+# High as not sprung
+way_wear_factor=21044
 
-weight=6
+# http://www.steamlocomotive.com/locobase.php?country=Great_Britain&wheel=0-4-0&railroad=wylam
+weight=9.1
 axles=2
 cost=924000
-runningcost=60
+runningcost=15
+fixed_cost=1135
+
 sound=lwalker-br-4mt-tank.wav
 increase_maintenance_after_years=42
 
 Constraint[Next][0]=PuffingBilly-Tender
 
-EmptyImage[E]=./images/puffing-billy.1.4
-EmptyImage[SE]=./images/puffing-billy.1.5
-EmptyImage[S]=./images/puffing-billy.1.6
-EmptyImage[SW]=./images/puffing-billy.1.7
-EmptyImage[W]=./images/puffing-billy.1.0
-EmptyImage[NW]=./images/puffing-billy.1.1
-EmptyImage[N]=./images/puffing-billy.1.2
-EmptyImage[NE]=./images/puffing-billy.1.3
-
+EmptyImage[E]=./images/puffing-billy_E.0.0
+EmptyImage[SE]=./images/puffing-billy_SE.0.0
+EmptyImage[S]=./images/puffing-billy_S.0.0
+EmptyImage[SW]=./images/puffing-billy_SW.0.0
+EmptyImage[W]=./images/puffing-billy_W.0.0
+EmptyImage[NW]=./images/puffing-billy_NW.0.0
+EmptyImage[N]=./images/puffing-billy_N.0.0
+EmptyImage[NE]=./images/puffing-billy_NE.0.0

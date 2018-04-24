@@ -1,3 +1,5 @@
+# http://www.emus.co.uk/zone/manchester/manchester2.htm
+# See also Jenkinson pp. 433-4
 obj=vehicle
 name=MSJ&A-EMU-driving-trailer
 engine_type=electric
@@ -10,11 +12,14 @@ retire_year=1951
 retire_month=4
 waytype=track
 freight=Passagiere
-payload=96
+payload[0]=0
+payload[1]=96
+payload[2]=0
+payload[3]=0
 overcrowded_capacity=48
 length=10
 
-weight=32
+weight=30.9
 axles=4
 cost=1663000
 runningcost=118
@@ -27,7 +32,10 @@ way_constraint_permissive[1]=1
 
 min_loading_time=10
 max_loading_time=30
-comfort=75
+comfort[0]=0
+comfort[1]=75
+comfort[2]=0
+comfort[3]=88
 
 Constraint[Prev][0]=MSJ&A-EMU-driving-motor
 Constraint[Prev][1]=none
@@ -80,11 +88,14 @@ retire_year=1951
 retire_month=4
 waytype=track
 freight=Passagiere
-payload=108
+payload[0]=0
+payload[1]=60
+payload[2]=0
+payload[3]=40
 overcrowded_capacity=54
 length=10
 
-weight=31
+weight=30.9
 axles=4
 cost=1663000
 runningcost=118
@@ -97,7 +108,10 @@ way_constraint_permissive[1]=1
 
 min_loading_time=10
 max_loading_time=30
-comfort=75
+comfort[0]=0
+comfort[1]=75
+comfort[2]=0
+comfort[3]=88
 
 Constraint[Prev][0]=MSJ&A-EMU-driving-trailer
 
@@ -151,11 +165,14 @@ retire_year=1951
 retire_month=4
 waytype=track
 freight=Passagiere
-payload=72
+payload[0]=0
+payload[1]=72
+payload[2]=0
+payload[3]=0
 overcrowded_capacity=36
 length=10
 
-weight=58
+weight=57.9
 axles=4
 cost=1663000
 runningcost=118
@@ -167,7 +184,10 @@ bidirectional=0
 
 min_loading_time=10
 max_loading_time=30
-comfort=75
+comfort[0]=0
+comfort[1]=75
+comfort[2]=0
+comfort[3]=88
 way_constraint_permissive[1]=1
 
 Constraint[Prev][0]=MSJ&A-EMU-centre-trailer

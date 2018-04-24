@@ -13,7 +13,8 @@ retire_year=1983
 retire_month=1
 waytype=track
 freight=Passagiere
-payload=40
+payload[0]=0
+payload[1]=40
 overcrowded_capacity=125
 rolling_resistance=13
 
@@ -28,7 +29,8 @@ bidirectional=0
 
 min_loading_time=15
 max_loading_time=45
-comfort=57
+comfort[0]=0
+comfort[1]=57
 
 way_constraint_prohibitive[1]=1
 way_constraint_permissive[3]=3
@@ -71,7 +73,8 @@ retire_year=1983
 retire_month=1
 waytype=track
 freight=Passagiere
-payload=40
+payload[0]=0
+payload[1]=40
 overcrowded_capacity=152
 rolling_resistance=13
 
@@ -89,7 +92,8 @@ way_constraint_permissive[3]=3
 
 min_loading_time=15
 max_loading_time=45
-comfort=57
+comfort[0]=0
+comfort[1]=57
 
 Constraint[Prev][0]=1967TubeStockFront
 
@@ -133,7 +137,8 @@ retire_year=1983
 retire_month=1
 waytype=track
 freight=Passagiere
-payload=36
+payload[0]=0
+payload[1]=36
 overcrowded_capacity=126
 rolling_resistance=13
 
@@ -151,7 +156,8 @@ way_constraint_permissive[3]=3
 
 min_loading_time=15
 max_loading_time=45
-comfort=57
+comfort[0]=0
+comfort[1]=57
 
 Constraint[Prev][0]=1967TubeStockMiddle1
 
@@ -193,7 +199,8 @@ retire_year=1983
 retire_month=1
 waytype=track
 freight=Passagiere
-payload=40
+payload[0]=0
+payload[1]=40
 overcrowded_capacity=125
 rolling_resistance=13
 
@@ -211,7 +218,8 @@ way_constraint_permissive[3]=3
 
 min_loading_time=15
 max_loading_time=45
-comfort=57
+comfort[0]=0
+comfort[1]=57
 
 Constraint[Prev][0]=1967TubeStockMiddle1
 Constraint[Prev][1]=1967TubeStockMiddle2

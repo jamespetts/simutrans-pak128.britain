@@ -1,3 +1,4 @@
+# http://www.kernowmodelrailcentre.com/p/54986/32-640Z-Bachmann-Class-438-4-TC-Unit-number-416-BR-Blue
 obj=vehicle
 name=BR-491[TC]Front
 speed=145
@@ -9,7 +10,10 @@ retire_year=1980
 retire_month=2
 waytype=track
 freight=Passagiere
-payload=64
+payload[0]=0
+payload[1]=64
+payload[2]=0
+payload[3]=0
 overcrowded_capacity=24
 length=11
 
@@ -25,7 +29,10 @@ bidirectional=0
 
 min_loading_time=25
 max_loading_time=120
-comfort=136
+comfort[0]=0
+comfort[1]=136
+comfort[2]=0
+comfort[3]=154
 
 Constraint[Prev][0]=BR-430[REP]Rear
 Constraint[Prev][1]=BR-491[TC]Rear
@@ -55,7 +62,10 @@ retire_year=1980
 retire_month=2
 waytype=track
 freight=Passagiere
-payload=40
+payload[0]=0
+payload[1]=40
+payload[2]=0
+payload[3]=0
 overcrowded_capacity=18
 length=11
 
@@ -65,13 +75,15 @@ cost=1240400
 upgrade_price=206733
 runningcost=30
 
-
 can_lead_from_rear=0
 bidirectional=1
 
 min_loading_time=25
 max_loading_time=120
-comfort=136
+comfort[0]=0
+comfort[1]=136
+comfort[2]=0
+comfort[3]=154
 
 Constraint[Prev][0]=BR-491[TC]Front
 
@@ -99,8 +111,11 @@ retire_year=1980
 retire_month=2
 waytype=track
 freight=Passagiere
-payload=64
-overcrowded_capacity=24
+payload[0]=0
+payload[1]=0
+payload[2]=0
+payload[3]=42
+overcrowded_capacity=0
 length=11
 
 weight=35.4
@@ -109,13 +124,15 @@ cost=1772000
 upgrade_price=295333
 runningcost=30
 
-
 can_lead_from_rear=0
 bidirectional=1
 
 min_loading_time=25
 max_loading_time=120
-comfort=136
+comfort[0]=0
+comfort[1]=136
+comfort[2]=0
+comfort[3]=154
 
 Constraint[Prev][0]=BR-491[TC]Brake
 
@@ -142,7 +159,10 @@ retire_year=1980
 retire_month=2
 waytype=track
 freight=Passagiere
-payload=21
+payload[0]=0
+payload[1]=21
+payload[2]=0
+payload[3]=0
 overcrowded_capacity=6
 length=11
 
@@ -157,7 +177,10 @@ bidirectional=1
 
 min_loading_time=25
 max_loading_time=120
-comfort=136
+comfort[0]=0
+comfort[1]=136
+comfort[2]=0
+comfort[3]=154
 catering_level=3
 
 Constraint[Prev][0]=BR-491[TC]Brake
@@ -185,7 +208,10 @@ retire_year=1980
 retire_month=2
 waytype=track
 freight=Passagiere
-payload=64
+payload[0]=0
+payload[1]=64
+payload[2]=0
+payload[3]=0
 overcrowded_capacity=24
 length=11
 
@@ -201,7 +227,10 @@ bidirectional=0
 
 min_loading_time=25
 max_loading_time=120
-comfort=136
+comfort[0]=0
+comfort[1]=136
+comfort[2]=0
+comfort[3]=154
 
 Constraint[Prev][0]=BR-491[TC]Middle
 Constraint[Prev][1]=BR-491[TC]Buffet

@@ -1,0 +1,35 @@
+# http://myweb.tiscali.co.uk/gansg/4-rstock/04arstock1.htm
+obj=vehicle
+name=brake-6t
+speed=56
+copyright=James/JamesPetts
+intro_year=1841
+intro_month=4
+retire_year=1863
+retire_month=1
+freight=Bucher
+payload=0
+waytype=track
+brake_force=1
+rolling_resistance=19
+
+length=3
+
+# Guessed
+weight=6
+cost=110000
+runningcost=20
+
+bidirectional=1
+
+EmptyImage[E]=./images/brake-6t_E.0.0
+EmptyImage[SE]=./images/brake-6t_SE.0.0
+EmptyImage[S]=./images/brake-6t_S.0.0
+EmptyImage[SW]=./images/brake-6t_SW.0.0
+EmptyImage[W]=./images/brake-6t_W.0.0
+EmptyImage[NW]=./images/brake-6t_NW.0.0
+EmptyImage[N]=./images/brake-6t_N.0.0
+EmptyImage[NE]=./images/brake-6t_NE.0.0
+
+
+

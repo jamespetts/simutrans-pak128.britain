@@ -1,9 +1,28 @@
+# Inn
 Obj=building
 Name=COM_A_1750_00_10
 copyright=Archon
 type=com
 chance=100
 Level=10
+# Larger beer house that brews its own beer on the premises.
+# Estimate 250 customers/day, x 4 (to take account of the relative size)
+# yields 1000/day, / 16 hours * 6.4 hours = 400
+# Then halve it to take into account meters/tile, etc.
+population_and_visitor_demand_capacity=200
+# Imagining a staff of 4 in each of 11 shops
+employment_capacity=26
+mail_demand=10
+class_proportion[0]=23
+class_proportion[1]=28
+class_proportion[2]=25
+class_proportion[3]=20
+class_proportion[4]=4
+class_proportion_jobs[0]=50
+class_proportion_jobs[1]=40
+class_proportion_jobs[2]=10
+class_proportion_jobs[3]=0
+class_proportion_jobs[4]=0
 intro_year=1750
 retire_year=1895
 needs_ground=1
@@ -19,13 +38,31 @@ BackImage[2][0][0][0][0][1]=images/com/1750_inn.1.2
 BackImage[3][0][0][0][0][1]=images/com/1750_inn.1.3
 
 ---
-
+# Terraced shops
 Obj=building
 Name=COM_A_1750_01_08
 copyright=Archon
 type=COM
 chance=50
 Level=8
+# Slightly larger slightly speciality shop, e.g. tailor, chandler, chemist, etc.
+# Estimate 25 customers/day, x 11 (to take account of the relative size)
+# yields 275/day, / 16 hours * 6.4 hours = 110
+# Then halve it to take into account meters/tile, etc.
+population_and_visitor_demand_capacity=55
+# Imagining a staff of 5 in each of 11 shops
+employment_capacity=28
+mail_demand=9
+class_proportion[0]=5
+class_proportion[1]=13
+class_proportion[2]=32
+class_proportion[3]=31
+class_proportion[4]=19
+class_proportion_jobs[0]=30
+class_proportion_jobs[1]=55
+class_proportion_jobs[2]=15
+class_proportion_jobs[3]=0
+class_proportion_jobs[4]=0
 intro_year=1750
 retire_year=1880
 needs_ground=1
@@ -50,13 +87,31 @@ BackImage[5][0][0][0][0][1]=images/com/1750-terrace-stone-shops.2.1
 BackImage[6][0][0][0][0][1]=images/com/1750-terrace-stone-shops.2.2
 BackImage[7][0][0][0][0][1]=images/com/1750-terrace-stone-shops.2.3 
 ---
-
+# Terraced shops
 Obj=building
 Name=COM_A_1750_02_08
 copyright=Archon
 type=COM
 chance=50
 Level=8
+# Slightly larger slightly speciality shop, e.g. tailor, chandler, chemist, etc.
+# Estimate 25 customers/day, x 11 (to take account of the relative size)
+# yields 275/day, / 16 hours * 6.4 hours = 110
+# Then halve it to take into account meters/tile, etc.
+population_and_visitor_demand_capacity=55
+# Imagining a staff of 5 in each of 11 shops
+employment_capacity=28
+mail_demand=9
+class_proportion[0]=5
+class_proportion[1]=13
+class_proportion[2]=32
+class_proportion[3]=31
+class_proportion[4]=19
+class_proportion_jobs[0]=30
+class_proportion_jobs[1]=55
+class_proportion_jobs[2]=15
+class_proportion_jobs[3]=0
+class_proportion_jobs[4]=0
 intro_year=1750
 retire_year=1880
 needs_ground=1
@@ -82,13 +137,30 @@ BackImage[6][0][0][0][0][1]=images/com/1750-terrace-stone-shops.2.2
 BackImage[7][0][0][0][0][1]=images/com/1750-terrace-stone-shops.2.3
 
 ----
-
+# Coaching inn
 Obj=building
 Name=COM_A_1750_03_07
 copyright=Archon
 type=com
 chance=100
 Level=7
+# Inn that brews its own beer on the premises.
+# Estimate 150 customers/day, x 4 (to take account of the relative size)
+# yields 600/day, / 16 hours * 6.4 hours = 240
+# Then halve it to take into account meters/tile, etc.
+population_and_visitor_demand_capacity=120
+employment_capacity=18
+mail_demand=8
+class_proportion[0]=23
+class_proportion[1]=28
+class_proportion[2]=25
+class_proportion[3]=20
+class_proportion[4]=4
+class_proportion_jobs[0]=50
+class_proportion_jobs[1]=40
+class_proportion_jobs[2]=10
+class_proportion_jobs[3]=0
+class_proportion_jobs[4]=0
 intro_year=1750
 retire_year=1880
 needs_ground=1
@@ -102,13 +174,33 @@ BackImage[0][0][0][0][0][1]=images/com/1750-coach-inn.1.0
 BackImage[1][0][0][0][0][1]=images/com/1750-coach-inn.1.1
 BackImage[2][0][0][0][0][1]=images/com/1750-coach-inn.1.2
 BackImage[3][0][0][0][0][1]=images/com/1750-coach-inn.1.3
+
 --
+# Shops
 Obj=building
 Name=COM_A_1750_04_06
 copyright=Archon
 type=com
 chance=100
 Level=6
+# Small slightly speciality shop, e.g. tailor, chandler, chemist, etc.
+# Estimate 12 customers/day, x 11 (to take account of the relative size)
+# yields 132/day, / 16 hours * 6.4 hours = 52.8
+# Then halve it to take into account meters/tile, etc.
+population_and_visitor_demand_capacity=26
+# Imagining a staff of 4 in each of 11 shops
+employment_capacity=22
+mail_demand=7
+class_proportion[0]=5
+class_proportion[1]=13
+class_proportion[2]=32
+class_proportion[3]=31
+class_proportion[4]=19
+class_proportion_jobs[0]=30
+class_proportion_jobs[1]=55
+class_proportion_jobs[2]=15
+class_proportion_jobs[3]=0
+class_proportion_jobs[4]=0
 intro_year=1750
 retire_year=1870
 needs_ground=1

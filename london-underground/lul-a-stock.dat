@@ -16,7 +16,8 @@ retire_year=1980
 retire_month=1
 waytype=track
 freight=Passagiere
-payload=54
+payload[0]=0
+payload[1]=54
 overcrowded_capacity=117
 
 weight=32.1
@@ -30,7 +31,8 @@ way_constraint_permissive[3]=3
 
 min_loading_time=19
 max_loading_time=50
-comfort=65
+comfort[0]=0
+comfort[1]=65
 
 Constraint[Prev][0]=LUL_A_StockRearDM
 Constraint[Prev][1]=none
@@ -57,7 +59,9 @@ EmptyImage[W][1]=./images/lul-a-stock-refurb-front.1.0
 EmptyImage[NW][1]=./images/lul-a-stock-refurb-front.1.1
 EmptyImage[N][1]=./images/lul-a-stock-refurb-front.1.2
 EmptyImage[NE][1]=./images/lul-a-stock-refurb-front.1.3
+
 --
+
 obj=vehicle
 name=LUL_A_StockMiddle1
 engine_type=electric
@@ -70,7 +74,8 @@ retire_year=1980
 retire_month=1
 waytype=track
 freight=Passagiere
-payload=58
+payload[0]=0
+payload[1]=58
 overcrowded_capacity=125
 
 weight=21.8
@@ -84,7 +89,8 @@ way_constraint_permissive[3]=3
 
 min_loading_time=19
 max_loading_time=50
-comfort=65
+comfort[0]=0
+comfort[1]=65
 
 Constraint[Prev][0]=LUL_A_StockFrontDM
 
@@ -111,7 +117,9 @@ EmptyImage[W][1]=./images/lul-a-stock-refurb-middle.1.0
 EmptyImage[NW][1]=./images/lul-a-stock-refurb-middle.1.1
 EmptyImage[N][1]=./images/lul-a-stock-refurb-middle.1.2
 EmptyImage[NE][1]=./images/lul-a-stock-refurb-middle.1.3
-----
+
+---
+
 obj=vehicle
 name=LUL_A_StockMiddle2
 engine_type=electric
@@ -124,7 +132,8 @@ retire_year=1980
 retire_month=1
 waytype=track
 freight=Passagiere
-payload=58
+payload[0]=0
+payload[1]=58
 overcrowded_capacity=125
 
 weight=21.8
@@ -132,13 +141,13 @@ axles=4
 cost=1400000
 runningcost=33
 
-
 bidirectional=0
 way_constraint_permissive[3]=3
 
 min_loading_time=19
 max_loading_time=50
-comfort=65
+comfort[0]=0
+comfort[1]=65
 
 Constraint[Prev][0]=LUL_A_StockMiddle1
 
@@ -164,7 +173,9 @@ EmptyImage[W][1]=./images/lul-a-stock-refurb-middle.1.0
 EmptyImage[NW][1]=./images/lul-a-stock-refurb-middle.1.1
 EmptyImage[N][1]=./images/lul-a-stock-refurb-middle.1.2
 EmptyImage[NE][1]=./images/lul-a-stock-refurb-middle.1.3
+
 --
+
 obj=vehicle
 name=LUL_A_StockRearDM
 engine_type=electric
@@ -180,7 +191,8 @@ retire_year=1980
 retire_month=1
 waytype=track
 freight=Passagiere
-payload=54
+payload[0]=0
+payload[1]=54
 overcrowded_capacity=117
 
 weight=32.1
@@ -194,7 +206,8 @@ way_constraint_permissive[3]=3
 
 min_loading_time=19
 max_loading_time=50
-comfort=65
+comfort[0]=0
+comfort[1]=65
 
 Constraint[Prev][0]=LUL_A_StockMiddle1
 Constraint[Prev][1]=LUL_A_StockMiddle2
@@ -222,4 +235,3 @@ EmptyImage[W][1]=./images/lul-a-stock-refurb-rear.1.0
 EmptyImage[NW][1]=./images/lul-a-stock-refurb-rear.1.1
 EmptyImage[N][1]=./images/lul-a-stock-refurb-rear.1.2
 EmptyImage[NE][1]=./images/lul-a-stock-refurb-rear.1.3
---

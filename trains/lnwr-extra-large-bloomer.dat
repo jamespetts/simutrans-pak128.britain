@@ -30,21 +30,21 @@ Constraint[Next][0]=LNWR-Bloomer-Tender
 liverytype[0]=LNWR-Early
 liverytype[1]=LNWR-Black
 
-EmptyImage[E][0]=./images/lnwr-extra-large-bloomer.1.4
-EmptyImage[SE][0]=./images/lnwr-extra-large-bloomer.1.5
-EmptyImage[S][0]=./images/lnwr-extra-large-bloomer.1.6
-EmptyImage[SW][0]=./images/lnwr-extra-large-bloomer.1.7
-EmptyImage[W][0]=./images/lnwr-extra-large-bloomer.1.0
-EmptyImage[NW][0]=./images/lnwr-extra-large-bloomer.1.1
-EmptyImage[N][0]=./images/lnwr-extra-large-bloomer.1.2
-EmptyImage[NE][0]=./images/lnwr-extra-large-bloomer.1.3
+EmptyImage[E][0]=./images/lnwr-extra-large-bloomer_E.0.0
+EmptyImage[SE][0]=./images/lnwr-extra-large-bloomer_SE.0.0
+EmptyImage[S][0]=./images/lnwr-extra-large-bloomer_S.0.0
+EmptyImage[SW][0]=./images/lnwr-extra-large-bloomer_SW.0.0
+EmptyImage[W][0]=./images/lnwr-extra-large-bloomer_W.0.0
+EmptyImage[NW][0]=./images/lnwr-extra-large-bloomer_NW.0.0
+EmptyImage[N][0]=./images/lnwr-extra-large-bloomer_N.0.0
+EmptyImage[NE][0]=./images/lnwr-extra-large-bloomer_NE.0.0
 
-EmptyImage[E][1]=./images/lnwr-extra-large-bloomer-black.1.4
-EmptyImage[SE][1]=./images/lnwr-extra-large-bloomer-black.1.5
-EmptyImage[S][1]=./images/lnwr-extra-large-bloomer-black.1.6
-EmptyImage[SW][1]=./images/lnwr-extra-large-bloomer-black.1.7
-EmptyImage[W][1]=./images/lnwr-extra-large-bloomer-black.1.0
-EmptyImage[NW][1]=./images/lnwr-extra-large-bloomer-black.1.1
-EmptyImage[N][1]=./images/lnwr-extra-large-bloomer-black.1.2
-EmptyImage[NE][1]=./images/lnwr-extra-large-bloomer-black.1.3
+EmptyImage[E][1]=./images/lnwr-extra-large-bloomer-black_E.0.0
+EmptyImage[SE][1]=./images/lnwr-extra-large-bloomer-black_SE.0.0
+EmptyImage[S][1]=./images/lnwr-extra-large-bloomer-black_S.0.0
+EmptyImage[SW][1]=./images/lnwr-extra-large-bloomer-black_SW.0.0
+EmptyImage[W][1]=./images/lnwr-extra-large-bloomer-black_W.0.0
+EmptyImage[NW][1]=./images/lnwr-extra-large-bloomer-black_NW.0.0
+EmptyImage[N][1]=./images/lnwr-extra-large-bloomer-black_N.0.0
+EmptyImage[NE][1]=./images/lnwr-extra-large-bloomer-black_NE.0.0
 

@@ -21,7 +21,7 @@ weight=78
 axle_load=20
 cost=4147200
 runningcost=594
-sound=keithpeter-gwr-hall.wav
+sound=nick-parry-gwr-city-class.wav
 increase_maintenance_after_years=18
 years_before_maintenance_max_reached=15
 
@@ -63,7 +63,7 @@ axle_load=20
 cost=4165000
 upgrade_price=400000
 runningcost=594
-
+sound=nick-parry-gwr-city-class.wav
 
 can_lead_from_rear=0
 bidirectional=1

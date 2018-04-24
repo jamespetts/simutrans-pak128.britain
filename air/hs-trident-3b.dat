@@ -7,14 +7,21 @@ copyright=SketchVC10, Airbus A330 and Tristar
 # https://3dwarehouse.sketchup.com/model/42afceb5cd90d5b87697d3904b168b/British-European-Airways-Trident-3B-1966
 waytype=air
 engine_type=turbine
-speed=917
+# The real economical cruising speed is hard to find.
+# Wikipedia has the "crusing speed" as 937km/h, but this is the maximum cruising speed, not the economical
+# cruising speed. The below speed is therefore the maximum cruising speed multiplied by the ratio of the
+# Boeing 707's economical cruising speed to its maximum cruising speed (slightly above 0.9). 
+speed=830
 power=27849
 # Figure below given with booster
 tractive_effort=182
 #gear=1
 freight=Passagiere
-# "Typical" seating is 180
-payload=180
+payload[0]=0
+payload[1]=0
+payload[2]=122
+payload[3]=0
+payload[4]=28
 weight=38.0
 #length=8
 cost=14500000
@@ -25,7 +32,11 @@ intro_month=4
 retire_year=1978
 retire_month=1
 
-comfort=143
+comfort[0]=0
+comfort[1]=0
+comfort[2]=139
+comfort[3]=0
+comfort[4]=173
 min_loading_time=2000
 max_loading_time=2000
 
@@ -40,6 +51,95 @@ minimum_runway_length=2415
 
 sound=robin-pinnock-bac-1-11.wav
 range=3597
+
+upgrade[0]=hs-trident-3b-high-density
+
+Constraint[Next][0]=none
+Constraint[Prev][0]=none
+
+liverytype[0]=BEA-red-square
+liverytype[1]=BEA-speedjack
+liverytype[2]=BA-Union-flag
+
+EmptyImage[E][0]=./images/hs-trident-3b-bea_E.0.0
+EmptyImage[SE][0]=./images/hs-trident-3b-bea_SE.0.0
+EmptyImage[S][0]=./images/hs-trident-3b-bea_S.0.0
+EmptyImage[SW][0]=./images/hs-trident-3b-bea_SW.0.0
+EmptyImage[W][0]=./images/hs-trident-3b-bea_W.0.0
+EmptyImage[NW][0]=./images/hs-trident-3b-bea_NW.0.0
+EmptyImage[N][0]=./images/hs-trident-3b-bea_N.0.0
+EmptyImage[NE][0]=./images/hs-trident-3b-bea_NE.0.0
+
+EmptyImage[E][1]=./images/hs-trident-3b-bea-late_E.0.0
+EmptyImage[SE][1]=./images/hs-trident-3b-bea-late_SE.0.0
+EmptyImage[S][1]=./images/hs-trident-3b-bea-late_S.0.0
+EmptyImage[SW][1]=./images/hs-trident-3b-bea-late_SW.0.0
+EmptyImage[W][1]=./images/hs-trident-3b-bea-late_W.0.0
+EmptyImage[NW][1]=./images/hs-trident-3b-bea-late_NW.0.0
+EmptyImage[N][1]=./images/hs-trident-3b-bea-late_N.0.0
+EmptyImage[NE][1]=./images/hs-trident-3b-bea-late_NE.0.0
+
+EmptyImage[E][2]=./images/hs-trident-3b-ba_E.0.0
+EmptyImage[SE][2]=./images/hs-trident-3b-ba_SE.0.0
+EmptyImage[S][2]=./images/hs-trident-3b-ba_S.0.0
+EmptyImage[SW][2]=./images/hs-trident-3b-ba_SW.0.0
+EmptyImage[W][2]=./images/hs-trident-3b-ba_W.0.0
+EmptyImage[NW][2]=./images/hs-trident-3b-ba_NW.0.0
+EmptyImage[N][2]=./images/hs-trident-3b-ba_N.0.0
+EmptyImage[NE][2]=./images/hs-trident-3b-ba_NE.0.0
+
+---
+
+obj=vehicle
+name=hs-trident-3b-high-density
+copyright=SketchVC10, Airbus A330 and Tristar
+# https://3dwarehouse.sketchup.com/model/ud5ec1405-860d-4f33-aebe-fea4ce739917/British-Airways-Hawker-trident-3B-G-AWZF-1977
+# https://3dwarehouse.sketchup.com/model/49f0266a0c96abcec503a3776fc280fe/British-Airtours-1976-Hawker-Siddeley-Trident-3B
+# https://3dwarehouse.sketchup.com/model/42afceb5cd90d5b87697d3904b168b/British-European-Airways-Trident-3B-1966
+waytype=air
+engine_type=turbine
+# The real economical cruising speed is hard to find.
+# Wikipedia has the "crusing speed" as 937km/h, but this is the maximum cruising speed, not the economical
+# cruising speed. The below speed is therefore the maximum cruising speed multiplied by the ratio of the
+# Boeing 707's economical cruising speed to its maximum cruising speed (slightly above 0.9). 
+speed=830
+power=27849
+# Figure below given with booster
+tractive_effort=182
+#gear=1
+freight=Passagiere
+payload[0]=0
+payload[1]=0
+payload[2]=180
+weight=38.0
+#length=8
+cost=14500000
+runningcost=3700
+intro_year=1971
+intro_month=4
+# Guessed
+retire_year=1978
+retire_month=1
+
+comfort[0]=0
+comfort[1]=0
+comfort[2]=139
+min_loading_time=2000
+max_loading_time=2000
+
+catering_level=3
+
+# Difficult to find for the 3B, so using data for the original 1C. This may be wrong.
+# https://www.flightglobal.com/FlightPDFArchive/1964/1964%20-%200940.PDF
+# @ ISA (sea level, 0Centigrades), Runway Dry
+#minimum_runway_length=2195
+# @ ISA+10C, Runway dry = +10%
+minimum_runway_length=2415
+
+sound=robin-pinnock-bac-1-11.wav
+range=3597
+
+upgrade[0]=hs-trident-3b
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none

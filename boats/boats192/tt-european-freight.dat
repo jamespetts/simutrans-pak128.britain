@@ -21,6 +21,7 @@ is_tall=1
 # 35-50 minutes
 min_loading_time=2100
 max_loading_time=3000
+range=320
 
 # This ought also to have the earlier TT livery available, as it launched a year 
 # before the orange livery was introduced: http://en.wikipedia.org/wiki/European_Ferries

@@ -22,67 +22,67 @@ retire_month=8
 min_loading_time=90
 max_loading_time=360
 
-constraint[next][0]=none 
+constraint[next][0]=none
 constraint[prev][0]=none
 
-EmptyImage[E]=./images/thornycroft-bt.0.0
-EmptyImage[SE]=./images/thornycroft-bt.0.1
-EmptyImage[S]=./images/thornycroft-bt.0.2
-EmptyImage[SW]=./images/thornycroft-bt.0.3
-EmptyImage[W]=./images/thornycroft-bt.0.4
-EmptyImage[NW]=./images/thornycroft-bt.0.5
-EmptyImage[N]=./images/thornycroft-bt.0.6
-EmptyImage[NE]=./images/thornycroft-bt.0.7
+EmptyImage[E]=./images/thornycroft-bt-bulk-empty_E.0.0,-33,14
+EmptyImage[SE]=./images/thornycroft-bt-bulk-empty_SE.0.0,-13,0
+EmptyImage[S]=./images/thornycroft-bt-bulk-empty_S.0.0,0,0
+EmptyImage[SW]=./images/thornycroft-bt-bulk-empty_SW.0.0,-8,10
+EmptyImage[W]=./images/thornycroft-bt-bulk-empty_W.0.0,4,5
+EmptyImage[NW]=./images/thornycroft-bt-bulk-empty_NW.0.0,12,10
+EmptyImage[N]=./images/thornycroft-bt-bulk-empty_N.0.0,0,33
+EmptyImage[NE]=./images/thornycroft-bt-bulk-empty_NE.0.0,0,24
 
 freightimagetype[4]=Cement
-FreightImage[4][E]=./images/thornycroft-bt.3.0
-FreightImage[4][SE]=./images/thornycroft-bt.3.1
-FreightImage[4][S]=./images/thornycroft-bt.3.2
-FreightImage[4][SW]=./images/thornycroft-bt.3.3
-FreightImage[4][W]=./images/thornycroft-bt.3.4
-FreightImage[4][NW]=./images/thornycroft-bt.3.5
-FreightImage[4][N]=./images/thornycroft-bt.3.6
-FreightImage[4][NE]=./images/thornycroft-bt.3.7
+FreightImage[4][E]=./images/thornycroft-bt-bulk-cement_E.0.0,-33,14
+FreightImage[4][SE]=./images/thornycroft-bt-bulk-cement_SE.0.0,-13,0
+FreightImage[4][S]=./images/thornycroft-bt-bulk-cement_S.0.0,0,0
+FreightImage[4][SW]=./images/thornycroft-bt-bulk-cement_SW.0.0,-8,10
+FreightImage[4][W]=./images/thornycroft-bt-bulk-cement_W.0.0,4,5
+FreightImage[4][NW]=./images/thornycroft-bt-bulk-cement_NW.0.0,12,10
+FreightImage[4][N]=./images/thornycroft-bt-bulk-cement_N.0.0,0,33
+FreightImage[4][NE]=./images/thornycroft-bt-bulk-cement_NE.0.0,0,24
 
 freightimagetype[3]=Kohle
-FreightImage[3][E]=./images/thornycroft-bt.1.0
-FreightImage[3][SE]=./images/thornycroft-bt.1.1
-FreightImage[3][S]=./images/thornycroft-bt.1.2
-FreightImage[3][SW]=./images/thornycroft-bt.1.3
-FreightImage[3][W]=./images/thornycroft-bt.1.4
-FreightImage[3][NW]=./images/thornycroft-bt.1.5
-FreightImage[3][N]=./images/thornycroft-bt.1.6
-FreightImage[3][NE]=./images/thornycroft-bt.1.7
+FreightImage[3][E]=./images/thornycroft-bt-bulk-coal_E.0.0,-33,14
+FreightImage[3][SE]=./images/thornycroft-bt-bulk-coal_SE.0.0,-13,0
+FreightImage[3][S]=./images/thornycroft-bt-bulk-coal_S.0.0,0,0
+FreightImage[3][SW]=./images/thornycroft-bt-bulk-coal_SW.0.0,-8,10
+FreightImage[3][W]=./images/thornycroft-bt-bulk-coal_W.0.0,4,5
+FreightImage[3][NW]=./images/thornycroft-bt-bulk-coal_NW.0.0,12,10
+FreightImage[3][N]=./images/thornycroft-bt-bulk-coal_N.0.0,0,33
+FreightImage[3][NE]=./images/thornycroft-bt-bulk-coal_NE.0.0,0,24
 
 freightimagetype[2]=Eisenerz
-FreightImage[2][E]=./images/thornycroft-bt.2.0
-FreightImage[2][SE]=./images/thornycroft-bt.2.1
-FreightImage[2][S]=./images/thornycroft-bt.2.2
-FreightImage[2][SW]=./images/thornycroft-bt.2.3
-FreightImage[2][W]=./images/thornycroft-bt.2.4
-FreightImage[2][NW]=./images/thornycroft-bt.2.5
-FreightImage[2][N]=./images/thornycroft-bt.2.6
-FreightImage[2][NE]=./images/thornycroft-bt.2.7
+FreightImage[2][E]=./images/thornycroft-bt-bulk-ore_E.0.0,-33,14
+FreightImage[2][SE]=./images/thornycroft-bt-bulk-ore_SE.0.0,-13,0
+FreightImage[2][S]=./images/thornycroft-bt-bulk-ore_S.0.0,0,0
+FreightImage[2][SW]=./images/thornycroft-bt-bulk-ore_SW.0.0,-8,10
+FreightImage[2][W]=./images/thornycroft-bt-bulk-ore_W.0.0,4,5
+FreightImage[2][NW]=./images/thornycroft-bt-bulk-ore_NW.0.0,12,10
+FreightImage[2][N]=./images/thornycroft-bt-bulk-ore_N.0.0,0,33
+FreightImage[2][NE]=./images/thornycroft-bt-bulk-ore_NE.0.0,0,24
 
 freightimagetype[1]=Stone
-FreightImage[1][E]=./images/thornycroft-bt.3.0
-FreightImage[1][SE]=./images/thornycroft-bt.3.1
-FreightImage[1][S]=./images/thornycroft-bt.3.2
-FreightImage[1][SW]=./images/thornycroft-bt.3.3
-FreightImage[1][W]=./images/thornycroft-bt.3.4
-FreightImage[1][NW]=./images/thornycroft-bt.3.5
-FreightImage[1][N]=./images/thornycroft-bt.3.6
-FreightImage[1][NE]=./images/thornycroft-bt.3.7
+FreightImage[1][E]=./images/thornycroft-bt-bulk-stone_E.0.0,-33,14
+FreightImage[1][SE]=./images/thornycroft-bt-bulk-stone_SE.0.0,-13,0
+FreightImage[1][S]=./images/thornycroft-bt-bulk-stone_S.0.0,0,0
+FreightImage[1][SW]=./images/thornycroft-bt-bulk-stone_SW.0.0,-8,10
+FreightImage[1][W]=./images/thornycroft-bt-bulk-stone_W.0.0,4,5
+FreightImage[1][NW]=./images/thornycroft-bt-bulk-stone_NW.0.0,12,10
+FreightImage[1][N]=./images/thornycroft-bt-bulk-stone_N.0.0,0,33
+FreightImage[1][NE]=./images/thornycroft-bt-bulk-stone_NE.0.0,0,24
 
 freightimagetype[0]=grain
-FreightImage[0][E]=./images/thornycroft-bt.4.0
-FreightImage[0][SE]=./images/thornycroft-bt.4.1
-FreightImage[0][S]=./images/thornycroft-bt.4.2
-FreightImage[0][SW]=./images/thornycroft-bt.4.3
-FreightImage[0][W]=./images/thornycroft-bt.4.4
-FreightImage[0][NW]=./images/thornycroft-bt.4.5
-FreightImage[0][N]=./images/thornycroft-bt.4.6
-FreightImage[0][NE]=./images/thornycroft-bt.4.7
+FreightImage[0][E]=./images/thornycroft-bt-bulk-grain_E.0.0,-33,14
+FreightImage[0][SE]=./images/thornycroft-bt-bulk-grain_SE.0.0,-13,0
+FreightImage[0][S]=./images/thornycroft-bt-bulk-grain_S.0.0,0,0
+FreightImage[0][SW]=./images/thornycroft-bt-bulk-grain_SW.0.0,-8,10
+FreightImage[0][W]=./images/thornycroft-bt-bulk-grain_W.0.0,4,5
+FreightImage[0][NW]=./images/thornycroft-bt-bulk-grain_NW.0.0,12,10
+FreightImage[0][N]=./images/thornycroft-bt-bulk-grain_N.0.0,0,33
+FreightImage[0][NE]=./images/thornycroft-bt-bulk-grain_NE.0.0,0,24
 ----------------------------------------
 obj=vehicle
 name=ThornycroftBTLong
@@ -108,37 +108,37 @@ retire_month=8
 min_loading_time=90
 max_loading_time=360
 
-constraint[next][0]=none 
+constraint[next][0]=none
 constraint[prev][0]=none
 
-EmptyImage[E]=./images/thornycroft-bt.12.0
-EmptyImage[SE]=./images/thornycroft-bt.12.1
-EmptyImage[S]=./images/thornycroft-bt.12.2
-EmptyImage[SW]=./images/thornycroft-bt.12.3
-EmptyImage[W]=./images/thornycroft-bt.12.4
-EmptyImage[NW]=./images/thornycroft-bt.12.5
-EmptyImage[N]=./images/thornycroft-bt.12.6
-EmptyImage[NE]=./images/thornycroft-bt.12.7
+EmptyImage[E]=./images/thornycroft-bt-long-empty_E.0.0,-33,14
+EmptyImage[SE]=./images/thornycroft-bt-long-empty_SE.0.0,-13,0
+EmptyImage[S]=./images/thornycroft-bt-long-empty_S.0.0,0,0
+EmptyImage[SW]=./images/thornycroft-bt-long-empty_SW.0.0,-8,10
+EmptyImage[W]=./images/thornycroft-bt-long-empty_W.0.0,4,5
+EmptyImage[NW]=./images/thornycroft-bt-long-empty_NW.0.0,12,10
+EmptyImage[N]=./images/thornycroft-bt-long-empty_N.0.0,0,33
+EmptyImage[NE]=./images/thornycroft-bt-long-empty_NE.0.0,0,24
 
 freightimagetype[1]=Bretter
-FreightImage[1][E]=./images/thornycroft-bt.5.0
-FreightImage[1][SE]=./images/thornycroft-bt.5.1
-FreightImage[1][S]=./images/thornycroft-bt.5.2
-FreightImage[1][SW]=./images/thornycroft-bt.5.3
-FreightImage[1][W]=./images/thornycroft-bt.5.4
-FreightImage[1][NW]=./images/thornycroft-bt.5.5
-FreightImage[1][N]=./images/thornycroft-bt.5.6
-FreightImage[1][NE]=./images/thornycroft-bt.5.7
+FreightImage[1][E]=./images/thornycroft-bt-long-wood_E.0.0,-33,14
+FreightImage[1][SE]=./images/thornycroft-bt-long-wood_SE.0.0,-13,0
+FreightImage[1][S]=./images/thornycroft-bt-long-wood_S.0.0,0,0
+FreightImage[1][SW]=./images/thornycroft-bt-long-wood_SW.0.0,-8,10
+FreightImage[1][W]=./images/thornycroft-bt-long-wood_W.0.0,4,5
+FreightImage[1][NW]=./images/thornycroft-bt-long-wood_NW.0.0,12,10
+FreightImage[1][N]=./images/thornycroft-bt-long-wood_N.0.0,0,33
+FreightImage[1][NE]=./images/thornycroft-bt-long-wood_NE.0.0,0,24
 
 freightimagetype[0]=Stahl
-FreightImage[0][E]=./images/thornycroft-bt.6.0
-FreightImage[0][SE]=./images/thornycroft-bt.6.1
-FreightImage[0][S]=./images/thornycroft-bt.6.2
-FreightImage[0][SW]=./images/thornycroft-bt.6.3
-FreightImage[0][W]=./images/thornycroft-bt.6.4
-FreightImage[0][NW]=./images/thornycroft-bt.6.5
-FreightImage[0][N]=./images/thornycroft-bt.6.6
-FreightImage[0][NE]=./images/thornycroft-bt.6.7
+FreightImage[0][E]=./images/thornycroft-bt-long-steel_E.0.0,-33,14
+FreightImage[0][SE]=./images/thornycroft-bt-long-steel_SE.0.0,-13,0
+FreightImage[0][S]=./images/thornycroft-bt-long-steel_S.0.0,0,0
+FreightImage[0][SW]=./images/thornycroft-bt-long-steel_SW.0.0,-8,10
+FreightImage[0][W]=./images/thornycroft-bt-long-steel_W.0.0,4,5
+FreightImage[0][NW]=./images/thornycroft-bt-long-steel_NW.0.0,12,10
+FreightImage[0][N]=./images/thornycroft-bt-long-steel_N.0.0,0,33
+FreightImage[0][NE]=./images/thornycroft-bt-long-steel_NE.0.0,0,24
 
 -----------------------------------------
 obj=vehicle
@@ -165,17 +165,17 @@ retire_month=8
 min_loading_time=90
 max_loading_time=360
 
-constraint[next][0]=none 
+constraint[next][0]=none
 constraint[prev][0]=none
 
-EmptyImage[E]=./images/thornycroft-bt.7.0
-EmptyImage[SE]=./images/thornycroft-bt.7.1
-EmptyImage[S]=./images/thornycroft-bt.7.2
-EmptyImage[SW]=./images/thornycroft-bt.7.3
-EmptyImage[W]=./images/thornycroft-bt.7.4
-EmptyImage[NW]=./images/thornycroft-bt.7.5
-EmptyImage[N]=./images/thornycroft-bt.7.6
-EmptyImage[NE]=./images/thornycroft-bt.7.7
+EmptyImage[E]=./images/thornycroft-bt-piece_E.0.0,-33,14
+EmptyImage[SE]=./images/thornycroft-bt-piece_SE.0.0,-13,0
+EmptyImage[S]=./images/thornycroft-bt-piece_S.0.0,0,0
+EmptyImage[SW]=./images/thornycroft-bt-piece_SW.0.0,-8,10
+EmptyImage[W]=./images/thornycroft-bt-piece_W.0.0,4,5
+EmptyImage[NW]=./images/thornycroft-bt-piece_NW.0.0,12,10
+EmptyImage[N]=./images/thornycroft-bt-piece_N.0.0,0,33
+EmptyImage[NE]=./images/thornycroft-bt-piece_NE.0.0,0,24
 
 
 -----------------------------------------
@@ -203,17 +203,17 @@ retire_month=8
 min_loading_time=90
 max_loading_time=360
 
-constraint[next][0]=none 
+constraint[next][0]=none
 constraint[prev][0]=none
 
-EmptyImage[E]=./images/thornycroft-bt.8.0
-EmptyImage[SE]=./images/thornycroft-bt.8.1
-EmptyImage[S]=./images/thornycroft-bt.8.2
-EmptyImage[SW]=./images/thornycroft-bt.8.3
-EmptyImage[W]=./images/thornycroft-bt.8.4
-EmptyImage[NW]=./images/thornycroft-bt.8.5
-EmptyImage[N]=./images/thornycroft-bt.8.6
-EmptyImage[NE]=./images/thornycroft-bt.8.7
+EmptyImage[E]=./images/thornycroft-bt-cool_E.0.0,-33,14
+EmptyImage[SE]=./images/thornycroft-bt-cool_SE.0.0,-13,0
+EmptyImage[S]=./images/thornycroft-bt-cool_S.0.0,0,0
+EmptyImage[SW]=./images/thornycroft-bt-cool_SW.0.0,-8,10
+EmptyImage[W]=./images/thornycroft-bt-cool_W.0.0,4,5
+EmptyImage[NW]=./images/thornycroft-bt-cool_NW.0.0,12,10
+EmptyImage[N]=./images/thornycroft-bt-cool_N.0.0,0,33
+EmptyImage[NE]=./images/thornycroft-bt-cool_NE.0.0,0,24
 
 -----------------------------------------
 obj=vehicle
@@ -240,17 +240,17 @@ retire_month=8
 min_loading_time=90
 max_loading_time=360
 
-constraint[next][0]=none 
+constraint[next][0]=none
 constraint[prev][0]=none
 
-EmptyImage[E]=./images/thornycroft-bt.9.0
-EmptyImage[SE]=./images/thornycroft-bt.9.1
-EmptyImage[S]=./images/thornycroft-bt.9.2
-EmptyImage[SW]=./images/thornycroft-bt.9.3
-EmptyImage[W]=./images/thornycroft-bt.9.4
-EmptyImage[NW]=./images/thornycroft-bt.9.5
-EmptyImage[N]=./images/thornycroft-bt.9.6
-EmptyImage[NE]=./images/thornycroft-bt.9.7
+EmptyImage[E]=./images/thornycroft-bt-livestock_E.0.0,-33,14
+EmptyImage[SE]=./images/thornycroft-bt-livestock_SE.0.0,-13,0
+EmptyImage[S]=./images/thornycroft-bt-livestock_S.0.0,0,0
+EmptyImage[SW]=./images/thornycroft-bt-livestock_SW.0.0,-8,10
+EmptyImage[W]=./images/thornycroft-bt-livestock_W.0.0,4,5
+EmptyImage[NW]=./images/thornycroft-bt-livestock_NW.0.0,12,10
+EmptyImage[N]=./images/thornycroft-bt-livestock_N.0.0,0,33
+EmptyImage[NE]=./images/thornycroft-bt-livestock_NE.0.0,0,24
 
 -----------------------------------------
 
@@ -278,17 +278,17 @@ retire_month=8
 min_loading_time=90
 max_loading_time=360
 
-constraint[next][0]=none 
+constraint[next][0]=none
 constraint[prev][0]=none
 
-EmptyImage[E]=./images/thornycroft-bt.10.0
-EmptyImage[SE]=./images/thornycroft-bt.10.1
-EmptyImage[S]=./images/thornycroft-bt.10.2
-EmptyImage[SW]=./images/thornycroft-bt.10.3
-EmptyImage[W]=./images/thornycroft-bt.10.4
-EmptyImage[NW]=./images/thornycroft-bt.10.5
-EmptyImage[N]=./images/thornycroft-bt.10.6
-EmptyImage[NE]=./images/thornycroft-bt.10.7
+EmptyImage[E]=./images/thornycroft-bt-post_E.0.0,-33,14
+EmptyImage[SE]=./images/thornycroft-bt-post_SE.0.0,-13,0
+EmptyImage[S]=./images/thornycroft-bt-post_S.0.0,0,0
+EmptyImage[SW]=./images/thornycroft-bt-post_SW.0.0,-8,10
+EmptyImage[W]=./images/thornycroft-bt-post_W.0.0,4,5
+EmptyImage[NW]=./images/thornycroft-bt-post_NW.0.0,12,10
+EmptyImage[N]=./images/thornycroft-bt-post_N.0.0,0,33
+EmptyImage[NE]=./images/thornycroft-bt-post_NE.0.0,0,24
 
 -----------------------------------------
 obj=vehicle
@@ -315,26 +315,24 @@ retire_month=8
 min_loading_time=90
 max_loading_time=360
 
-constraint[next][0]=none 
+constraint[next][0]=none
 constraint[prev][0]=none
 
-EmptyImage[E]=./images/thornycroft-bt.12.0
-EmptyImage[SE]=./images/thornycroft-bt.12.1
-EmptyImage[S]=./images/thornycroft-bt.12.2
-EmptyImage[SW]=./images/thornycroft-bt.12.3
-EmptyImage[W]=./images/thornycroft-bt.12.4
-EmptyImage[NW]=./images/thornycroft-bt.12.5
-EmptyImage[N]=./images/thornycroft-bt.12.6
-EmptyImage[NE]=./images/thornycroft-bt.12.7
+EmptyImage[E]=./images/thornycroft-bt-cars-empty_E.0.0,-33,14
+EmptyImage[SE]=./images/thornycroft-bt-cars-empty_SE.0.0,-13,0
+EmptyImage[S]=./images/thornycroft-bt-cars-empty_S.0.0,0,0
+EmptyImage[SW]=./images/thornycroft-bt-cars-empty_SW.0.0,-8,10
+EmptyImage[W]=./images/thornycroft-bt-cars-empty_W.0.0,4,5
+EmptyImage[NW]=./images/thornycroft-bt-cars-empty_NW.0.0,12,10
+EmptyImage[N]=./images/thornycroft-bt-cars-empty_N.0.0,0,33
+EmptyImage[NE]=./images/thornycroft-bt-cars-empty_NE.0.0,0,24
 
 freightimagetype[0]=Autos
-FreightImage[0][E]=./images/thornycroft-bt.11.0
-FreightImage[0][SE]=./images/thornycroft-bt.11.1
-FreightImage[0][S]=./images/thornycroft-bt.11.2
-FreightImage[0][SW]=./images/thornycroft-bt.11.3
-FreightImage[0][W]=./images/thornycroft-bt.11.4
-FreightImage[0][NW]=./images/thornycroft-bt.11.5
-FreightImage[0][N]=./images/thornycroft-bt.11.6
-FreightImage[0][NE]=./images/thornycroft-bt.11.7
-
------------------------------------------
+FreightImage[0][E]=./images/thornycroft-bt-cars-loaded_E.0.0,-33,14
+FreightImage[0][SE]=./images/thornycroft-bt-cars-loaded_SE.0.0,-13,0
+FreightImage[0][S]=./images/thornycroft-bt-cars-loaded_S.0.0,0,0
+FreightImage[0][SW]=./images/thornycroft-bt-cars-loaded_SW.0.0,-8,10
+FreightImage[0][W]=./images/thornycroft-bt-cars-loaded_W.0.0,4,5
+FreightImage[0][NW]=./images/thornycroft-bt-cars-loaded_NW.0.0,12,10
+FreightImage[0][N]=./images/thornycroft-bt-cars-loaded_N.0.0,0,33
+FreightImage[0][NE]=./images/thornycroft-bt-cars-loaded_NE.0.0,0,24

@@ -1,3 +1,4 @@
+# http://www.bluebell-railway.co.uk/bluebell/pic2/electric/VEP_DIAG_MS001.jpg
 obj=vehicle
 name=BR-423-DTCL-Front
 speed=140
@@ -8,8 +9,11 @@ retire_year=1981
 retire_month=11
 waytype=track
 freight=Passagiere
-payload=75
-overcrowded_capacity=75
+payload[0]=0
+payload[1]=38
+payload[2]=0
+payload[3]=24
+overcrowded_capacity=22
 length=11
 engine_type=electric
 power=0
@@ -27,7 +31,10 @@ way_constraint_permissive[0]=0
 
 min_loading_time=15
 max_loading_time=50
-comfort=79
+comfort[0]=0
+comfort[1]=79
+comfort[2]=0
+comfort[3]=144
 
 Constraint[Prev][0]=BR-410[CEP]Rear
 Constraint[Prev][1]=BR-414[HAP]Rear
@@ -84,8 +91,11 @@ retire_year=1981
 retire_month=11
 waytype=track
 freight=Passagiere
-payload=64
-overcrowded_capacity=64
+payload[0]=0
+payload[1]=58
+payload[2]=0
+payload[3]=0
+overcrowded_capacity=35
 length=11
 power=750
 gear=80
@@ -105,7 +115,10 @@ way_constraint_permissive[0]=0
 
 min_loading_time=15
 max_loading_time=50
-comfort=79
+comfort[0]=0
+comfort[1]=79
+comfort[2]=0
+comfort[3]=144
 
 Constraint[Prev][0]=BR-423-DTCL-Front
 Constraint[Next][0]=BR-423-TSO
@@ -154,8 +167,11 @@ retire_year=1981
 retire_month=11
 waytype=track
 freight=Passagiere
-payload=83
-overcrowded_capacity=83
+payload[0]=0
+payload[1]=98
+payload[2]=0
+payload[3]=0
+overcrowded_capacity=59
 length=11
 
 weight=34
@@ -171,7 +187,10 @@ way_constraint_permissive[0]=0
 
 min_loading_time=15
 max_loading_time=50
-comfort=79
+comfort[0]=0
+comfort[1]=79
+comfort[2]=0
+comfort[3]=144
 
 Constraint[Prev][0]=BR-423-MBSO
 Constraint[Next][0]=BR-423-DTCL-Rear
@@ -219,8 +238,11 @@ retire_year=1981
 retire_month=11
 waytype=track
 freight=Passagiere
-payload=75
-overcrowded_capacity=75
+payload[0]=0
+payload[1]=38
+payload[2]=0
+payload[3]=24
+overcrowded_capacity=22
 length=11
 engine_type=electric
 power=0
@@ -238,7 +260,10 @@ way_constraint_permissive[0]=0
 
 min_loading_time=15
 max_loading_time=50
-comfort=79
+comfort[0]=0
+comfort[1]=79
+comfort[2]=0
+comfort[3]=144
 
 Constraint[Next][0]=BR-410[CEP]Front
 Constraint[Next][1]=BR-414[HAP]Front

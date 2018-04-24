@@ -8,7 +8,8 @@ retire_year=1926
 retire_month=9
 waytype=track
 freight=Passagiere
-payload=64
+payload[0]=0
+payload[1]=64
 overcrowded_capacity=30
 length=10
 
@@ -17,13 +18,13 @@ axles=4
 cost=633000
 runningcost=39
 
-
 can_lead_from_rear=0
 bidirectional=1
 
 min_loading_time=25
 max_loading_time=55
-comfort=127
+comfort[0]=0
+comfort[1]=127
 
 Constraint[Prev][0]=SR-Maunsell-Third
 Constraint[Prev][1]=SR-Maunsell-Brake-front
@@ -132,7 +133,8 @@ retire_year=1926
 retire_month=9
 waytype=track
 freight=Passagiere
-payload=24
+payload[0]=0
+payload[1]=24
 overcrowded_capacity=10
 length=10
 
@@ -141,14 +143,14 @@ axles=4
 cost=675000
 runningcost=46
 
-
 can_lead_from_rear=0
 bidirectional=1
 catering_level=3
 
 min_loading_time=25
 max_loading_time=55
-comfort=127
+comfort[0]=0
+comfort[1]=127
 
 Constraint[Prev][0]=SR-Maunsell-Third
 Constraint[Prev][1]=SR-Maunsell-Brake-front
@@ -257,7 +259,8 @@ retire_year=1926
 retire_month=9
 waytype=track
 freight=Passagiere
-payload=56
+payload[0]=0
+payload[1]=56
 overcrowded_capacity=16
 length=10
 
@@ -266,14 +269,14 @@ axles=4
 cost=646000
 runningcost=42
 
-
 can_lead_from_rear=0
 bidirectional=1
 catering_level=2
 
 min_loading_time=25
 max_loading_time=55
-comfort=127
+comfort[0]=0
+comfort[1]=127
 
 Constraint[Prev][0]=SR-Maunsell-Third
 Constraint[Prev][1]=SR-Maunsell-Brake-front
@@ -385,7 +388,8 @@ retire_year=1926
 retire_month=9
 waytype=track
 freight=Passagiere
-payload=32
+payload[0]=0
+payload[1]=32
 overcrowded_capacity=19
 length=10
 
@@ -394,13 +398,13 @@ axles=4
 cost=633000
 runningcost=25
 
-
 can_lead_from_rear=0
 bidirectional=1
 
 min_loading_time=25
 max_loading_time=55
-comfort=127
+comfort[0]=0
+comfort[1]=127
 
 Constraint[Prev][0]=SR-Maunsell-Third
 Constraint[Prev][1]=SR-Maunsell-Brake-front
@@ -482,7 +486,8 @@ retire_year=1926
 retire_month=9
 waytype=track
 freight=Passagiere
-payload=32
+payload[0]=0
+payload[1]=32
 overcrowded_capacity=19
 length=10
 
@@ -490,7 +495,6 @@ weight=34
 axles=4
 cost=633000
 runningcost=25
-
 
 can_lead_from_rear=0
 bidirectional=1
@@ -587,7 +591,6 @@ weight=33
 axles=4
 cost=633000
 runningcost=39
-
 
 can_lead_from_rear=0
 bidirectional=1
@@ -708,7 +711,6 @@ weight=33
 axles=4
 cost=675000
 runningcost=46
-
 
 can_lead_from_rear=0
 bidirectional=1

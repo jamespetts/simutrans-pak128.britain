@@ -7,7 +7,9 @@ freight=Passagiere
 # by John Day at p. 6 gives it as probably 20.
 # This is contrary to what is painted inside the replica
 # of this vehicle in the London Transport Museum. 
-payload=20
+payload[0]=0
+payload[1]=0
+payload[2]=20
 speed=8
 weight=1.3
 axle_load=1
@@ -21,7 +23,9 @@ retire_month=5
 rolling_resistance=170
 brake_force=0
 
-comfort=33
+comfort[0]=0
+comfort[1]=0
+comfort[2]=33
 # Single door with conductor: 2.5 seconds per passenger
 min_loading_time=4
 max_loading_time=50

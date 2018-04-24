@@ -12,7 +12,10 @@ retire_year=1981
 retire_month=7
 waytype=track
 freight=Passagiere
-payload=50
+payload[0]=0
+payload[1]=56
+payload[2]=0
+payload[3]=0
 overcrowded_capacity=17
 length=11
 
@@ -29,7 +32,10 @@ way_constraint_permissive[2]=2
 
 min_loading_time=25
 max_loading_time=120
-comfort=137
+comfort[0]=0
+comfort[1]=137
+comfort[2]=0
+comfort[3]=154
 
 Constraint[Prev][0]=BR-309Rear
 Constraint[Prev][1]=none
@@ -79,6 +85,7 @@ EmptyImage[NE][3]=./images/br-309-a-nse.1.3
 
 ---
 
+# http://www.networksoutheast.net/uploads/3/5/5/9/3559064/134_orig.jpg
 obj=vehicle
 name=BR-309-2Front
 engine_type=electric
@@ -91,7 +98,10 @@ retire_year=1981
 retire_month=7
 waytype=track
 freight=Passagiere
-payload=50
+payload[0]=0
+payload[1]=32
+payload[2]=0
+payload[3]=18
 overcrowded_capacity=17
 length=11
 
@@ -108,7 +118,10 @@ way_constraint_permissive[2]=2
 
 min_loading_time=25
 max_loading_time=120
-comfort=137
+comfort[0]=0
+comfort[1]=137
+comfort[2]=0
+comfort[3]=154
 
 Constraint[Prev][0]=BR-309Rear
 Constraint[Prev][1]=none
@@ -155,90 +168,10 @@ EmptyImage[W][3]=./images/br-309-a1-nse.1.0
 EmptyImage[NW][3]=./images/br-309-a1-nse.1.1
 EmptyImage[N][3]=./images/br-309-a1-nse.1.2
 EmptyImage[NE][3]=./images/br-309-a1-nse.1.3
----
-
-obj=vehicle
-name=BR-309Rear
-engine_type=electric
-speed=160
-power=0
-copyright=Kieron
-intro_year=1962
-intro_month=10
-retire_year=1981
-retire_month=7
-waytype=track
-freight=Passagiere
-payload=50
-overcrowded_capacity=17
-length=11
-
-weight=41
-axles=4
-cost=1272000
-runningcost=44
-sound=x24tohayes-epb.wav
-increase_maintenance_after_years=13
-
-can_lead_from_rear=1
-bidirectional=0
-way_constraint_permissive[2]=2
-
-min_loading_time=25
-max_loading_time=120
-comfort=137
-
-Constraint[Prev][0]=BR-309Middle
-Constraint[Prev][1]=BR-309Griddle
-Constraint[Prev][2]=BR-309-1Front
-
-Constraint[Next][0]=BR-309-1Front
-Constraint[Next][1]=BR-309-2Front
-Constraint[Next][2]=none
-
-liverytype[0]=BR-Revised
-liverytype[1]=BR-Blue
-liverytype[2]=Jaffa-Cake
-liverytype[3]=NSE-Standard
-
-EmptyImage[E][0]=./images/br-309-c-m.1.4
-EmptyImage[SE][0]=./images/br-309-c-m.1.5
-EmptyImage[S][0]=./images/br-309-c-m.1.6
-EmptyImage[SW][0]=./images/br-309-c-m.1.7
-EmptyImage[W][0]=./images/br-309-c-m.1.0
-EmptyImage[NW][0]=./images/br-309-c-m.1.1
-EmptyImage[N][0]=./images/br-309-c-m.1.2
-EmptyImage[NE][0]=./images/br-309-c-m.1.3
-
-EmptyImage[E][1]=./images/br-309-c-bg.1.4
-EmptyImage[SE][1]=./images/br-309-c-bg.1.5
-EmptyImage[S][1]=./images/br-309-c-bg.1.6
-EmptyImage[SW][1]=./images/br-309-c-bg.1.7
-EmptyImage[W][1]=./images/br-309-c-bg.1.0
-EmptyImage[NW][1]=./images/br-309-c-bg.1.1
-EmptyImage[N][1]=./images/br-309-c-bg.1.2
-EmptyImage[NE][1]=./images/br-309-c-bg.1.3
-
-EmptyImage[E][2]=./images/br-309-c-jaffa.1.4
-EmptyImage[SE][2]=./images/br-309-c-jaffa.1.5
-EmptyImage[S][2]=./images/br-309-c-jaffa.1.6
-EmptyImage[SW][2]=./images/br-309-c-jaffa.1.7
-EmptyImage[W][2]=./images/br-309-c-jaffa.1.0
-EmptyImage[NW][2]=./images/br-309-c-jaffa.1.1
-EmptyImage[N][2]=./images/br-309-c-jaffa.1.2
-EmptyImage[NE][2]=./images/br-309-c-jaffa.1.3
-
-EmptyImage[E][3]=./images/br-309-c-nse.1.4
-EmptyImage[SE][3]=./images/br-309-c-nse.1.5
-EmptyImage[S][3]=./images/br-309-c-nse.1.6
-EmptyImage[SW][3]=./images/br-309-c-nse.1.7
-EmptyImage[W][3]=./images/br-309-c-nse.1.0
-EmptyImage[NW][3]=./images/br-309-c-nse.1.1
-EmptyImage[N][3]=./images/br-309-c-nse.1.2
-EmptyImage[NE][3]=./images/br-309-c-nse.1.3
 
 ----
 
+# http://www.networksoutheast.net/uploads/3/5/5/9/3559064/142_orig.jpg
 obj=vehicle
 name=BR-309Middle
 engine_type=electric
@@ -250,7 +183,10 @@ retire_year=1981
 retire_month=7
 waytype=track
 freight=Passagiere
-payload=64
+payload[0]=0
+payload[1]=64
+payload[2]=0
+payload[3]=0
 overcrowded_capacity=21
 length=11
 
@@ -267,7 +203,10 @@ way_constraint_permissive[2]=2
 
 min_loading_time=25
 max_loading_time=120
-comfort=137
+comfort[0]=0
+comfort[1]=137
+comfort[2]=0
+comfort[3]=154
 
 Constraint[Prev][0]=BR-309Power
 Constraint[Next][0]=BR-309Rear
@@ -326,7 +265,10 @@ retire_year=1981
 retire_month=7
 waytype=track
 freight=Passagiere
-payload=34
+payload[0]=0
+payload[1]=34
+payload[2]=0
+payload[3]=0
 overcrowded_capacity=17
 length=11
 
@@ -343,7 +285,10 @@ way_constraint_permissive[2]=2
 
 min_loading_time=25
 max_loading_time=120
-comfort=137
+comfort[0]=0
+comfort[1]=137
+comfort[2]=0
+comfort[3]=154
 catering_level=3
 
 Constraint[Prev][0]=BR-309Power
@@ -392,6 +337,7 @@ EmptyImage[NE][3]=./images/br-mk1-rmb-nse.1.3
 
 ----
 
+# http://www.networksoutheast.net/uploads/3/5/5/9/3559064/75_orig.jpg
 obj=vehicle
 name=BR-309Power
 engine_type=electric
@@ -406,7 +352,10 @@ retire_year=1981
 retire_month=7
 waytype=track
 freight=Passagiere
-payload=48
+payload[0]=0
+payload[1]=48
+payload[2]=0
+payload[3]=0
 overcrowded_capacity=16
 length=11
 
@@ -423,7 +372,10 @@ way_constraint_permissive[2]=2
 
 min_loading_time=25
 max_loading_time=120
-comfort=137
+comfort[0]=0
+comfort[1]=137
+comfort[2]=0
+comfort[3]=154
 
 Constraint[Prev][0]=BR-309-2Front
 
@@ -470,3 +422,91 @@ EmptyImage[W][3]=./images/br-309-p-nse.1.0
 EmptyImage[NW][3]=./images/br-309-p-nse.1.1
 EmptyImage[N][3]=./images/br-309-p-nse.1.2
 EmptyImage[NE][3]=./images/br-309-p-nse.1.3
+
+---
+
+obj=vehicle
+name=BR-309Rear
+engine_type=electric
+speed=160
+power=0
+copyright=Kieron
+intro_year=1962
+intro_month=10
+retire_year=1981
+retire_month=7
+waytype=track
+freight=Passagiere
+payload[0]=0
+payload[1]=32
+payload[2]=0
+payload[3]=18
+overcrowded_capacity=17
+length=11
+
+weight=41
+axles=4
+cost=1272000
+runningcost=44
+sound=x24tohayes-epb.wav
+increase_maintenance_after_years=13
+
+can_lead_from_rear=1
+bidirectional=0
+way_constraint_permissive[2]=2
+
+min_loading_time=25
+max_loading_time=120
+comfort[0]=0
+comfort[1]=137
+comfort[2]=0
+comfort[3]=154
+
+Constraint[Prev][0]=BR-309Middle
+Constraint[Prev][1]=BR-309Griddle
+Constraint[Prev][2]=BR-309-1Front
+
+Constraint[Next][0]=BR-309-1Front
+Constraint[Next][1]=BR-309-2Front
+Constraint[Next][2]=none
+
+liverytype[0]=BR-Revised
+liverytype[1]=BR-Blue
+liverytype[2]=Jaffa-Cake
+liverytype[3]=NSE-Standard
+
+EmptyImage[E][0]=./images/br-309-c-m.1.4
+EmptyImage[SE][0]=./images/br-309-c-m.1.5
+EmptyImage[S][0]=./images/br-309-c-m.1.6
+EmptyImage[SW][0]=./images/br-309-c-m.1.7
+EmptyImage[W][0]=./images/br-309-c-m.1.0
+EmptyImage[NW][0]=./images/br-309-c-m.1.1
+EmptyImage[N][0]=./images/br-309-c-m.1.2
+EmptyImage[NE][0]=./images/br-309-c-m.1.3
+
+EmptyImage[E][1]=./images/br-309-c-bg.1.4
+EmptyImage[SE][1]=./images/br-309-c-bg.1.5
+EmptyImage[S][1]=./images/br-309-c-bg.1.6
+EmptyImage[SW][1]=./images/br-309-c-bg.1.7
+EmptyImage[W][1]=./images/br-309-c-bg.1.0
+EmptyImage[NW][1]=./images/br-309-c-bg.1.1
+EmptyImage[N][1]=./images/br-309-c-bg.1.2
+EmptyImage[NE][1]=./images/br-309-c-bg.1.3
+
+EmptyImage[E][2]=./images/br-309-c-jaffa.1.4
+EmptyImage[SE][2]=./images/br-309-c-jaffa.1.5
+EmptyImage[S][2]=./images/br-309-c-jaffa.1.6
+EmptyImage[SW][2]=./images/br-309-c-jaffa.1.7
+EmptyImage[W][2]=./images/br-309-c-jaffa.1.0
+EmptyImage[NW][2]=./images/br-309-c-jaffa.1.1
+EmptyImage[N][2]=./images/br-309-c-jaffa.1.2
+EmptyImage[NE][2]=./images/br-309-c-jaffa.1.3
+
+EmptyImage[E][3]=./images/br-309-c-nse.1.4
+EmptyImage[SE][3]=./images/br-309-c-nse.1.5
+EmptyImage[S][3]=./images/br-309-c-nse.1.6
+EmptyImage[SW][3]=./images/br-309-c-nse.1.7
+EmptyImage[W][3]=./images/br-309-c-nse.1.0
+EmptyImage[NW][3]=./images/br-309-c-nse.1.1
+EmptyImage[N][3]=./images/br-309-c-nse.1.2
+EmptyImage[NE][3]=./images/br-309-c-nse.1.3

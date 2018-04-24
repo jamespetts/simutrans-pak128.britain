@@ -24,6 +24,7 @@ intro_month=5
 retire_year=1927
 retire_month=11
 is_tall=1
+sound=graham-french-tilling-stevens-1930.wav
 
 comfort=23
 # Rear platform with conductor: 2.0 seconds per passenger
@@ -83,6 +84,7 @@ intro_month=10
 retire_year=1929
 retire_month=12
 is_tall=1
+sound=graham-french-tilling-stevens-1930.wav
 
 comfort=32
 # Rear platform with conductor: 2.0 seconds per passenger
@@ -151,6 +153,7 @@ intro_year=1928
 intro_month=7
 retire_year=1931
 retire_month=3
+sound=graham-french-tilling-stevens-1930.wav
 
 comfort=35
 # Rear platform with conductor: 2.0 seconds per passenger

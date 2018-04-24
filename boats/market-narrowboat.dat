@@ -1,13 +1,13 @@
-
 obj=vehicle
 Name=MarketNarrowboat
 copyright=Jamespetts
 waytype=water
 speed=7
 freight=Passagiere
-payload=25
+payload[0]=0
+payload[1]=25
 weight=10
-length=8
+length=3
 cost=20000
 runningcost=2
 intro_year=1761
@@ -15,7 +15,8 @@ intro_month=1
 retire_year=1918
 retire_month=1
 
-comfort=56
+comfort[0]=0
+comfort[1]=56
 catering_level=2
 # 2-3 minutes
 min_loading_time=120

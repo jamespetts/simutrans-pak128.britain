@@ -1,3 +1,4 @@
+# Third class only: https://en.wikipedia.org/wiki/LYR_electric_units#Liverpool_to_Ormskirk
 obj=vehicle
 name=L&YR-EMU-driving-motor
 engine_type=electric
@@ -12,7 +13,8 @@ retire_year=1935
 retire_month=1
 waytype=track
 freight=Passagiere
-payload=87
+payload[0]=0
+payload[1]=75
 overcrowded_capacity=26
 length=10
 
@@ -20,7 +22,7 @@ weight=55
 axles=4
 cost=13210000
 runningcost=114
-sound=video47-emu-generic.wav
+sound=x24tohayes-epb.wav
 increase_maintenance_after_years=17
 
 can_lead_from_rear=1
@@ -28,7 +30,8 @@ bidirectional=0
 
 min_loading_time=20
 max_loading_time=75
-comfort=72
+comfort[0]=0
+comfort[1]=72
 way_constraint_permissive[1]=1
 
 Constraint[Prev][0]=L&YR-EMU-driving-trailer
@@ -71,7 +74,8 @@ retire_year=1935
 retire_month=1
 waytype=track
 freight=Passagiere
-payload=95
+payload[0]=0
+payload[1]=85
 overcrowded_capacity=29
 length=10
 
@@ -79,7 +83,7 @@ weight=29
 axles=4
 cost=13210000
 runningcost=114
-sound=video47-emu-generic.wav
+sound=x24tohayes-epb.wav
 increase_maintenance_after_years=17
 
 can_lead_from_rear=1
@@ -88,7 +92,8 @@ way_constraint_permissive[1]=1
 
 min_loading_time=20
 max_loading_time=75
-comfort=72
+comfort[0]=0
+comfort[1]=72
 
 Constraint[Prev][0]=L&YR-EMU-driving-motor
 

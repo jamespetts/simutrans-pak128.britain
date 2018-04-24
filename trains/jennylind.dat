@@ -24,8 +24,9 @@ rolling_resistance=19
 # Ahrons (p. 76) gives the weight as "slightly more than 24 tons".
 weight=24.3
 axle_load=10
-cost=4992000
-runningcost=396
+cost=19968000
+runningcost=198
+fixed_cost=28320
 
 
 Constraint[Next][0]=JennyLind-Tender

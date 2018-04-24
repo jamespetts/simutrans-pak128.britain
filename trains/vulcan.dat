@@ -1,0 +1,41 @@
+# See Ahrons, p. 24 and
+# http://www.steamlocomotive.com/locobase.php?country=Great_Britain&wheel=0-6-0&railroad=ls
+# http://enuii.com/vulcan_foundry/photographs/Drawings/no%2010%20leicester%20&%20swannington%20%27Vulcan%27%201835.jpg
+obj=vehicle
+name=vulcan
+engine_type=steam
+smoke=Steam
+speed=44
+# Estimated
+power=54
+tractive_effort=11
+copyright=Kieron/JamesPetts
+intro_year=1834
+intro_month=2
+retire_year=1848
+retire_month=8
+waytype=track
+freight=None
+payload=0
+length=4
+brake_force=0
+rolling_resistance=19
+
+# http://www.steamlocomotive.com/locobase.php?country=Great_Britain&wheel=0-6-0&railroad=ls
+weight=17.2
+axle_load=6
+cost=6790000
+runningcost=16
+fixed_cost=1400
+sound=lwalker-br-4mt-tank.wav
+
+Constraint[Next][0]=LMR-Planet-Tender
+
+EmptyImage[E]=./images/vulcan_E.0.0
+EmptyImage[SE]=./images/vulcan_SE.0.0
+EmptyImage[S]=./images/vulcan_S.0.0
+EmptyImage[SW]=./images/vulcan_SW.0.0
+EmptyImage[W]=./images/vulcan_W.0.0
+EmptyImage[NW]=./images/vulcan_NW.0.0
+EmptyImage[N]=./images/vulcan_N.0.0
+EmptyImage[NE]=./images/vulcan_NE.0.0

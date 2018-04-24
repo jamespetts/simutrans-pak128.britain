@@ -1,3 +1,4 @@
+# http://www.steamlocomotive.com/locobase.php?country=Great_Britain&wheel=2-2-0&railroad=lm
 obj=vehicle
 name=LMR-Rocket
 engine_type=steam
@@ -24,18 +25,20 @@ way_wear_factor=9375
 
 # Weight confirmed by "The Railway Engineer", July 1929 ed., p. 265
 weight=5
+axle_load=3
 cost=5544000
-runningcost=500
+runningcost=7
+fixed_cost=1075
 sound=lwalker-br-4mt-tank.wav
 increase_maintenance_after_years=25
 
 Constraint[Next][0]=LMR-Rocket-Tender
 
-EmptyImage[E]=./images/lmr-rocket.1.4
-EmptyImage[SE]=./images/lmr-rocket.1.5
-EmptyImage[S]=./images/lmr-rocket.1.6
-EmptyImage[SW]=./images/lmr-rocket.1.7
-EmptyImage[W]=./images/lmr-rocket.1.0
-EmptyImage[NW]=./images/lmr-rocket.1.1
-EmptyImage[N]=./images/lmr-rocket.1.2
-EmptyImage[NE]=./images/lmr-rocket.1.3
+EmptyImage[E]=./images/lmr-rocket_E.0.0
+EmptyImage[SE]=./images/lmr-rocket_SE.0.0
+EmptyImage[S]=./images/lmr-rocket_S.0.0
+EmptyImage[SW]=./images/lmr-rocket_SW.0.0
+EmptyImage[W]=./images/lmr-rocket_W.0.0
+EmptyImage[NW]=./images/lmr-rocket_NW.0.0
+EmptyImage[N]=./images/lmr-rocket_N.0.0
+EmptyImage[NE]=./images/lmr-rocket_NE.0.0

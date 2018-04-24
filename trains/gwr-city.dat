@@ -28,7 +28,7 @@ weight=56
 axle_load=17
 cost=9273600
 runningcost=1122
-sound=keithpeter-gwr-hall.wav
+sound=nick-parry-gwr-city-class.wav
 increase_maintenance_after_years=36
 years_before_maintenance_max_reached=20
 

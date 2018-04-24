@@ -8,7 +8,9 @@ name=omnibus-single-small
 copyright=JamesPetts&JamesHood
 waytype=road
 freight=Passagiere
-payload=12
+payload[0]=0
+payload[1]=0
+payload[2]=12
 overcrowded_capacity=3
 speed=11
 weight=0.6
@@ -23,7 +25,9 @@ retire_month=6
 rolling_resistance=109
 brake_force=1
 
-comfort=26
+comfort[0]=0
+comfort[1]=0
+comfort[2]=26
 # Single door with conductor: 2.5 seconds per passenger
 min_loading_time=3
 max_loading_time=30

@@ -12,7 +12,8 @@ retire_year=1982
 retire_month=3
 waytype=track
 freight=Passagiere
-payload=74
+payload[0]=0
+payload[1]=74
 overcrowded_capacity=56
 length=11
 
@@ -27,7 +28,8 @@ bidirectional=0
 
 min_loading_time=15
 max_loading_time=50
-comfort=56
+comfort[0]=0
+comfort[1]=56
 way_constraint_permissive[0]=0
 
 Constraint[Prev][0]=BR-507(rear)
@@ -71,7 +73,8 @@ retire_year=1982
 retire_month=3
 waytype=track
 freight=Passagiere
-payload=86
+payload[0]=0
+payload[1]=86
 overcrowded_capacity=64
 length=11
 
@@ -80,13 +83,13 @@ axles=4
 cost=1120000
 runningcost=54
 
-
 can_lead_from_rear=0
 bidirectional=1
 
 min_loading_time=15
 max_loading_time=50
-comfort=56
+comfort[0]=0
+comfort[1]=56
 way_constraint_permissive[0]=0
 
 Constraint[Prev][0]=BR-507(front)
@@ -114,7 +117,9 @@ EmptyImage[W][1]=./images/br-507-trailer-nse.1.0
 EmptyImage[NW][1]=./images/br-507-trailer-nse.1.1
 EmptyImage[N][1]=./images/br-507-trailer-nse.1.2
 EmptyImage[NE][1]=./images/br-507-trailer-nse.1.3
+
 ---
+
 obj=vehicle
 name=BR-507(centre2)
 engine_type=electric
@@ -128,7 +133,8 @@ retire_year=1982
 retire_month=3
 waytype=track
 freight=Passagiere
-payload=86
+payload[0]=0
+payload[1]=86
 overcrowded_capacity=64
 length=11
 
@@ -137,13 +143,13 @@ axles=4
 cost=1120000
 runningcost=54
 
-
 can_lead_from_rear=0
 bidirectional=1
 
 min_loading_time=15
 max_loading_time=50
-comfort=56
+comfort[0]=0
+comfort[1]=56
 way_constraint_permissive[0]=0
 
 Constraint[Prev][0]=BR-507(centre1)
@@ -154,6 +160,7 @@ Constraint[Next][1]=BR-455-Driving-Rear
 
 liverytype[0]=BR-Blue
 liverytype[1]=NSE-Standard
+liverytype[2]=SWT-orange-stripe
 
 EmptyImage[E][0]=./images/br-507-trailer-bg.1.4
 EmptyImage[SE][0]=./images/br-507-trailer-bg.1.5
@@ -173,6 +180,15 @@ EmptyImage[NW][1]=./images/br-507-trailer-nse.1.1
 EmptyImage[N][1]=./images/br-507-trailer-nse.1.2
 EmptyImage[NE][1]=./images/br-507-trailer-nse.1.3
 
+EmptyImage[E][2]=./images/br-455-7-middle-swt_E.0.0
+EmptyImage[SE][2]=./images/br-455-7-middle-swt_SE.0.0
+EmptyImage[S][2]=./images/br-455-7-middle-swt_S.0.0
+EmptyImage[SW][2]=./images/br-455-7-middle-swt_SW.0.0
+EmptyImage[W][2]=./images/br-455-7-middle-swt_W.0.0
+EmptyImage[NW][2]=./images/br-455-7-middle-swt_NW.0.0
+EmptyImage[N][2]=./images/br-455-7-middle-swt_N.0.0
+EmptyImage[NE][2]=./images/br-455-7-middle-swt_NE.0.0
+
 ---
 
 obj=vehicle
@@ -189,7 +205,8 @@ retire_year=1982
 retire_month=3
 waytype=track
 freight=Passagiere
-payload=74
+payload[0]=0
+payload[1]=74
 overcrowded_capacity=56
 length=11
 
@@ -205,7 +222,8 @@ way_constraint_permissive[0]=0
 
 min_loading_time=15
 max_loading_time=50
-comfort=56
+comfort[0]=0
+comfort[1]=56
 
 Constraint[Prev][0]=BR-507(centre1)
 Constraint[Prev][1]=BR-507(centre2)

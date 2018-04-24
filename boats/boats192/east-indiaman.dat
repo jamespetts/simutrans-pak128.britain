@@ -5,7 +5,6 @@ waytype=water
 engine_type=sail
 speed=15
 power=1270
-#gear=1200
 weight=300
 length=12
 cost=2000000
@@ -25,15 +24,16 @@ Constraint[Next][3]=EastIndiamanAddPiece
 Constraint[Next][4]=EastIndiamanAddCool
 Constraint[Next][5]=EastIndiamanAddLong
 Constraint[Next][6]=EastIndiamanAddLivestock
+Constraint[Next][7]=EastIndiamanAddPax-second-class
+Constraint[Next][8]=EastIndiamanAddPax-first-class
+
 Constraint[Prev][0]=none
 
-EmptyImage[E]=../images/east-indiaman.1.0,-31,-46
-EmptyImage[SE]=../images/east-indiaman.1.1,-31,-46
-EmptyImage[S]=../images/east-indiaman.1.2,-31,-46
-EmptyImage[SW]=../images/east-indiaman.1.3,-31,-46
-EmptyImage[W]=../images/east-indiaman.1.4,-31,-46
-EmptyImage[NW]=../images/east-indiaman.1.5,-31,-46
-EmptyImage[N]=../images/east-indiaman.1.6,-31,-46
-EmptyImage[NE]=../images/east-indiaman.1.7,-31,-46
--------------
-
+EmptyImage[E]=../images/east-indiaman_E.0.0,-31,-46
+EmptyImage[SE]=../images/east-indiaman_SE.0.0,-31,-46
+EmptyImage[S]=../images/east-indiaman_S.0.0,-31,-46
+EmptyImage[SW]=../images/east-indiaman_SW.0.0,-31,-46
+EmptyImage[W]=../images/east-indiaman_W.0.0,-31,-46
+EmptyImage[NW]=../images/east-indiaman_NW.0.0,-31,-46
+EmptyImage[N]=../images/east-indiaman_N.0.0,-31,-46
+EmptyImage[NE]=../images/east-indiaman_NE.0.0,-31,-46

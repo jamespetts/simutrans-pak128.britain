@@ -20,11 +20,11 @@ freight=None
 payload=0
 length=5
 
-# Weight guessed based on Mansion House type
-weight=47
-axle_load=14
-cost=8300000
-runningcost=850
+# http://www.steamlocomotive.com/locobase.php?country=Great_Britain&wheel=2-4-2&railroad=lnw
+weight=51.3
+axle_load=15
+cost=8500000
+runningcost=855
 sound=lwalker-br-4mt-tank.wav
 
 can_lead_from_rear=0

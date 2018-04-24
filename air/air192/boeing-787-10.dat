@@ -11,8 +11,13 @@ speed=903
 power=118149
 tractive_effort=640
 freight=Passagiere
-# 330 (32 + 298) in a mixed class arrangement
-payload=440
+# These numbers are guessed as no detailed
+# four class cabin plans are currently available.
+payload[0]=0
+payload[1]=150
+payload[2]=44
+payload[3]=47
+payload[4]=8
 weight=136.9
 #length=8
 # US$306m (2015 - Wikipedia)
@@ -22,8 +27,12 @@ runningcost=2420
 # (as of June 2017), so should be added when known.
 intro_year=2017
 intro_month=3
-comfort=134
 
+comfort[0]=0
+comfort[1]=134
+comfort[2]=170
+comfort[3]=205
+comfort[4]=207
 min_loading_time=2400
 max_loading_time=2400
 catering_level=3

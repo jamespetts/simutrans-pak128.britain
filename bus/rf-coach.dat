@@ -22,6 +22,8 @@ intro_year=1951
 intro_month=10
 retire_year=1970
 retire_month=8
+# TODO: Use a more authentic sound for this type.
+sound=video47-bristol-k.wav
 
 comfort=77
 # Coach (short distance): 5.0 seconds per passenger

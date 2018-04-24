@@ -14,20 +14,25 @@ power=42159
 tractive_effort=234
 #gear=1
 freight=Passagiere
-# Below payload for two class version.
-# Single class version is 215. Further
-# details on this are hard to find.
-payload=189
+payload[0]=0
+payload[1]=165
+payload[2]=0
+payload[3]=12
+payload[4]=0
 weight=44.6
 #length=8
 cost=52000000
+upgrade_price=5000
 runningcost=4050
 intro_year=1998
 intro_month=4
 retire_year=2020
 retire_month=12
 
-comfort=105
+comfort[0]=0
+comfort[1]=137
+comfort[2]=0
+comfort[3]=154
 min_loading_time=2400
 max_loading_time=2400
 catering_level=2
@@ -36,6 +41,8 @@ minimum_runway_length=2900
 
 sound=laxspotter97-boeing737-800.wav
 range=5460
+
+upgrade[0]=boeing-737-900er-high-density
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
@@ -48,4 +55,50 @@ EmptyImage[W]=./images/boeing-737-900er_W.0.0
 EmptyImage[NW]=./images/boeing-737-900er_NW.0.0
 EmptyImage[N]=./images/boeing-737-900er_N.0.0
 EmptyImage[NE]=./images/boeing-737-900er_NE.0.0
+---
+obj=vehicle
+name=boeing-737-900er-high-density
+copyright=kaichinshih
+# https://www.cgtrader.com/free-3d-models/aircraft/commercial/united-airlines-boeing-737-924-er-n75436-continental-airlines-75th-anniversary-retro-livery-2015-wi-fi-dome
+waytype=air
+engine_type=turbine
+# LRC (TAS)
+speed=844
+power=42159
+tractive_effort=234
+#gear=1
+freight=Passagiere
+payload[0]=215
+weight=44.6
+#length=8
+cost=52000000
+upgrade_price=5000
+runningcost=4050
+intro_year=1998
+intro_month=4
+retire_year=2020
+retire_month=12
 
+comfort[0]=103
+min_loading_time=2400
+max_loading_time=2400
+catering_level=1
+
+minimum_runway_length=2900
+
+sound=laxspotter97-boeing737-800.wav
+range=5460
+
+upgrade[0]=boeing-737-900er
+
+Constraint[Next][0]=none
+Constraint[Prev][0]=none
+
+EmptyImage[E]=./images/boeing-737-900er_E.0.0
+EmptyImage[SE]=./images/boeing-737-900er_SE.0.0
+EmptyImage[S]=./images/boeing-737-900er_S.0.0
+EmptyImage[SW]=./images/boeing-737-900er_SW.0.0
+EmptyImage[W]=./images/boeing-737-900er_W.0.0
+EmptyImage[NW]=./images/boeing-737-900er_NW.0.0
+EmptyImage[N]=./images/boeing-737-900er_N.0.0
+EmptyImage[NE]=./images/boeing-737-900er_NE.0.0

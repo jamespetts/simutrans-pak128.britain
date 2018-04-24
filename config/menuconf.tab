@@ -288,22 +288,22 @@ dialog_tool[28]=26,n
 # fence = 255
 #
 # following buildingstype are defined (for buildings(#))
-# unbekannt         =  0
-# attraction_city   =  1
-# attraction_land   =  2
-# denkmal           =  3
-# fabrik            =  4
-# rathaus           =  5
-# weitere           =  6
-# firmensitz        =  7
-# hafen             = 11
+# unknown         	=  0
+# attraction_city   	=  1
+# attraction_land   	=  2
+# monument           	=  3
+# industry            	=  4
+# townhall           	=  5
+# additional           	=  6
+# headquarters        	=  7
+# harbour             	= 11
 # the following are in the form x,y with y= waytype (0 for none)
-# depot				= 33
+# depot			= 33
 # generic_stop		= 34
-# generic_extension = 35
-# flat_dock			= 36
+# generic_extension 	= 35
+# flat_dock		= 36
 # EXTENDED SPECIFIC
-# signalbox			= 70
+# signalbox		= 70
 #
 # IMPORTANT: toolbar[2] must not be mentioned before toolbar[1]!
 # SPACES have a meaning here! Do not use spaces, if you did not intend so!
@@ -370,16 +370,6 @@ toolbar[1][9]=general_tool[4],46,,56 #eastslope x2
 toolbar[1][10]=general_tool[4],14,,82 #all up slope
 toolbar[1][11]=general_tool[4],15,,83 #all down slope
 toolbar[1][12]=general_tool[5]
-toolbar[1][13]=general_tool[38],34,,-1
-toolbar[1][14]=general_tool[38],33,,+1
-toolbar[1][15]=general_tool[39],42,,0
-toolbar[1][16]=general_tool[39],35,,1
-toolbar[1][17]=general_tool[39],37,,2
-toolbar[1][18]=general_tool[39],40,,3
-toolbar[1][19]=general_tool[39],36,,4
-toolbar[1][20]=general_tool[39],38,,5
-toolbar[1][21]=general_tool[39],39,,6
-toolbar[1][22]=general_tool[39],41,,7
 
 # railtools
 toolbar[2][0]=ways(2,0)
@@ -534,6 +524,16 @@ toolbar[11][11]=dialog_tool[22],,&
 toolbar[11][12]=dialog_tool[23],,�
 toolbar[11][13]=general_tool[28]
 toolbar[11][14]=simple_tool[6]
+toolbar[11][15]=general_tool[38],34,,-1
+toolbar[11][16]=general_tool[38],33,,+1
+toolbar[11][17]=general_tool[39],42,,0
+toolbar[11][18]=general_tool[39],35,,1
+toolbar[11][19]=general_tool[39],37,,2
+toolbar[11][20]=general_tool[39],40,,3
+toolbar[11][21]=general_tool[39],36,,4
+toolbar[11][22]=general_tool[39],38,,5
+toolbar[11][23]=general_tool[39],39,,6
+toolbar[11][24]=general_tool[39],41,,7
 
 # list tools
 toolbar[12][0]=dialog_tool[14]

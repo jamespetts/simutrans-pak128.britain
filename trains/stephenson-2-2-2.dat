@@ -1,0 +1,48 @@
+# There are a great many very similar 2-2-2s of the late 1830s:
+# see Ahrons p. 35 onwards. This is the Stephenson version, which
+# appears to be a 2-2-2 version of the "Lion". Many different
+# railways used this basic design (made by various manufacturers),
+# with small detail differences.
+obj=vehicle
+name=stephenson-2-2-2
+engine_type=steam
+smoke=Steam
+# Extrapolated, although firegreate area
+# not known, so guessed 
+speed=85
+power=45
+# Calculated from data from Ahrons, p. 35
+# Loss factor set at 0.5
+tractive_effort=6
+copyright=James/JamesPetts
+intro_year=1838
+intro_month=11
+retire_year=1842
+retire_month=2
+waytype=track
+freight=None
+payload=0
+length=3
+brake_force=0
+rolling_resistance=19
+way_wear_factor=22713
+
+# Guessed
+weight=12.5
+# http://www.steamlocomotive.com/locobase.php?country=Great_Britain&wheel=2-2-2&railroad=lm
+axle_load=5
+cost=7400500
+runningcost=16
+fixed_cost=1320
+sound=lwalker-br-4mt-tank.wav
+
+Constraint[Next][0]=LMR-Patentee-Tender
+
+EmptyImage[E]=./images/stephenson-2-2-2_E.0.0
+EmptyImage[SE]=./images/stephenson-2-2-2_SE.0.0
+EmptyImage[S]=./images/stephenson-2-2-2_S.0.0
+EmptyImage[SW]=./images/stephenson-2-2-2_SW.0.0
+EmptyImage[W]=./images/stephenson-2-2-2_W.0.0
+EmptyImage[NW]=./images/stephenson-2-2-2_NW.0.0
+EmptyImage[N]=./images/stephenson-2-2-2_N.0.0
+EmptyImage[NE]=./images/stephenson-2-2-2_NE.0.0

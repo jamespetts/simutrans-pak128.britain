@@ -22,6 +22,7 @@ intro_year=1901
 intro_month=4
 retire_year=1915
 retire_month=6
+sound=graham-french-leyland-n-type.wav
 
 comfort=18
 # Weird arrangement: 5 seconds per passenger

@@ -3,12 +3,12 @@ name=HSC-WightRyder
 copyright=James
 waytype=water
 engine_type=diesel
-smoke=diesel
+smoke=Diesel
 speed=60
 power=3000
-gear=100
 freight=Passagiere
-payload=260
+payload[0]=0
+payload[1]=260
 weight=150
 length=10
 cost=91000000
@@ -18,10 +18,12 @@ intro_month=9
 # Most modern catamaran so no retire year.
 
 # http://commons.wikimedia.org/wiki/File:Wight_Ryder_II_interior_2.jpg
-comfort=101
+comfort[0]=0
+comfort[1]=101
 # 15-20 minutes
 min_loading_time=900
 max_loading_time=1200
+range=85
 
 way_constraint_prohibitive[6]=6 # Large ship
 

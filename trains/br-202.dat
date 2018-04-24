@@ -13,7 +13,10 @@ retire_year=1963
 retire_month=9
 waytype=track
 freight=Passagiere
-payload=32
+payload[0]=0
+payload[1]=32
+payload[2]=0
+payload[3]=0
 overcrowded_capacity=11
 length=11
 
@@ -28,7 +31,10 @@ bidirectional=0
 
 min_loading_time=25
 max_loading_time=120
-comfort=117
+comfort[0]=0
+comfort[1]=129
+comfort[2]=0
+comfort[3]=146
 
 Constraint[Prev][0]=BR-205Rear
 Constraint[Prev][1]=BR-202-rear
@@ -37,37 +43,29 @@ Constraint[Prev][2]=none
 Constraint[Next][0]=BR-202-rear
 Constraint[Next][1]=BR-202-trailer
 Constraint[Next][2]=BR-202-buffet
+Constraint[Next][3]=BR-202-trailer-first
 
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue
-liverytype[2]=BR-Large-Logo
 
-EmptyImage[E][0]=./images/br-202-front-g.1.4
-EmptyImage[SE][0]=./images/br-202-front-g.1.5
-EmptyImage[S][0]=./images/br-202-front-g.1.6
-EmptyImage[SW][0]=./images/br-202-front-g.1.7
-EmptyImage[W][0]=./images/br-202-front-g.1.0
-EmptyImage[NW][0]=./images/br-202-front-g.1.1
-EmptyImage[N][0]=./images/br-202-front-g.1.2
-EmptyImage[NE][0]=./images/br-202-front-g.1.3
+EmptyImage[E][0]=./images/br-202-front-g_E.0.0
+EmptyImage[SE][0]=./images/br-202-front-g_SE.0.0
+EmptyImage[S][0]=./images/br-202-front-g_S.0.0
+EmptyImage[SW][0]=./images/br-202-front-g_SW.0.0
+EmptyImage[W][0]=./images/br-202-front-g_W.0.0
+EmptyImage[NW][0]=./images/br-202-front-g_NW.0.0
+EmptyImage[N][0]=./images/br-202-front-g_N.0.0
+EmptyImage[NE][0]=./images/br-202-front-g_NE.0.0
 
-EmptyImage[E][1]=./images/br-202-front-b.1.4
-EmptyImage[SE][1]=./images/br-202-front-b.1.5
-EmptyImage[S][1]=./images/br-202-front-b.1.6
-EmptyImage[SW][1]=./images/br-202-front-b.1.7
-EmptyImage[W][1]=./images/br-202-front-b.1.0
-EmptyImage[NW][1]=./images/br-202-front-b.1.1
-EmptyImage[N][1]=./images/br-202-front-b.1.2
-EmptyImage[NE][1]=./images/br-202-front-b.1.3
+EmptyImage[E][1]=./images/br-202-front-bg_E.0.0
+EmptyImage[SE][1]=./images/br-202-front-bg_SE.0.0
+EmptyImage[S][1]=./images/br-202-front-bg_S.0.0
+EmptyImage[SW][1]=./images/br-202-front-bg_SW.0.0
+EmptyImage[W][1]=./images/br-202-front-bg_W.0.0
+EmptyImage[NW][1]=./images/br-202-front-bg_NW.0.0
+EmptyImage[N][1]=./images/br-202-front-bg_N.0.0
+EmptyImage[NE][1]=./images/br-202-front-bg_NE.0.0
 
-EmptyImage[E][2]=./images/br-202-front-bg.1.4
-EmptyImage[SE][2]=./images/br-202-front-bg.1.5
-EmptyImage[S][2]=./images/br-202-front-bg.1.6
-EmptyImage[SW][2]=./images/br-202-front-bg.1.7
-EmptyImage[W][2]=./images/br-202-front-bg.1.0
-EmptyImage[NW][2]=./images/br-202-front-bg.1.1
-EmptyImage[N][2]=./images/br-202-front-bg.1.2
-EmptyImage[NE][2]=./images/br-202-front-bg.1.3
 
 ----
 
@@ -84,7 +82,10 @@ retire_year=1963
 retire_month=9
 waytype=track
 freight=Passagiere
-payload=32
+payload[0]=0
+payload[1]=32
+payload[2]=0
+payload[3]=0
 overcrowded_capacity=11
 length=11
 
@@ -100,11 +101,15 @@ bidirectional=0
 
 min_loading_time=25
 max_loading_time=120
-comfort=117
+comfort[0]=0
+comfort[1]=129
+comfort[2]=0
+comfort[3]=146
 
 Constraint[Prev][0]=BR-202-front
 Constraint[Prev][1]=BR-202-trailer
 Constraint[Prev][2]=BR-202-buffet
+Constraint[Prev][3]=BR-202-trailer-first
 
 Constraint[Next][0]=BR-205Front
 Constraint[Next][1]=BR-202-front
@@ -112,34 +117,24 @@ Constraint[Next][2]=none
 
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue
-liverytype[2]=BR-Large-Logo
 
-EmptyImage[E][0]=./images/br-202-rear-g.1.4
-EmptyImage[SE][0]=./images/br-202-rear-g.1.5
-EmptyImage[S][0]=./images/br-202-rear-g.1.6
-EmptyImage[SW][0]=./images/br-202-rear-g.1.7
-EmptyImage[W][0]=./images/br-202-rear-g.1.0
-EmptyImage[NW][0]=./images/br-202-rear-g.1.1
-EmptyImage[N][0]=./images/br-202-rear-g.1.2
-EmptyImage[NE][0]=./images/br-202-rear-g.1.3
+EmptyImage[E][0]=./images/br-202-rear-g_E.0.0
+EmptyImage[SE][0]=./images/br-202-rear-g_SE.0.0
+EmptyImage[S][0]=./images/br-202-rear-g_S.0.0
+EmptyImage[SW][0]=./images/br-202-rear-g_SW.0.0
+EmptyImage[W][0]=./images/br-202-rear-g_W.0.0
+EmptyImage[NW][0]=./images/br-202-rear-g_NW.0.0
+EmptyImage[N][0]=./images/br-202-rear-g_N.0.0
+EmptyImage[NE][0]=./images/br-202-rear-g_NE.0.0
 
-EmptyImage[E][1]=./images/br-202-rear-b.1.4
-EmptyImage[SE][1]=./images/br-202-rear-b.1.5
-EmptyImage[S][1]=./images/br-202-rear-b.1.6
-EmptyImage[SW][1]=./images/br-202-rear-b.1.7
-EmptyImage[W][1]=./images/br-202-rear-b.1.0
-EmptyImage[NW][1]=./images/br-202-rear-b.1.1
-EmptyImage[N][1]=./images/br-202-rear-b.1.2
-EmptyImage[NE][1]=./images/br-202-rear-b.1.3
-
-EmptyImage[E][2]=./images/br-202-rear-bg.1.4
-EmptyImage[SE][2]=./images/br-202-rear-bg.1.5
-EmptyImage[S][2]=./images/br-202-rear-bg.1.6
-EmptyImage[SW][2]=./images/br-202-rear-bg.1.7
-EmptyImage[W][2]=./images/br-202-rear-bg.1.0
-EmptyImage[NW][2]=./images/br-202-rear-bg.1.1
-EmptyImage[N][2]=./images/br-202-rear-bg.1.2
-EmptyImage[NE][2]=./images/br-202-rear-bg.1.3
+EmptyImage[E][1]=./images/br-202-rear-bg_E.0.0
+EmptyImage[SE][1]=./images/br-202-rear-bg_SE.0.0
+EmptyImage[S][1]=./images/br-202-rear-bg_S.0.0
+EmptyImage[SW][1]=./images/br-202-rear-bg_SW.0.0
+EmptyImage[W][1]=./images/br-202-rear-bg_W.0.0
+EmptyImage[NW][1]=./images/br-202-rear-bg_NW.0.0
+EmptyImage[N][1]=./images/br-202-rear-bg_N.0.0
+EmptyImage[NE][1]=./images/br-202-rear-bg_NE.0.0
 
 ----
 
@@ -155,7 +150,10 @@ retire_year=1963
 retire_month=9
 waytype=track
 freight=Passagiere
-payload=64
+payload[0]=0
+payload[1]=64
+payload[2]=0
+payload[3]=0
 overcrowded_capacity=21
 length=11
 
@@ -164,52 +162,113 @@ axles=4
 cost=1300000
 runningcost=24
 
+can_lead_from_rear=0
+bidirectional=1
+
+min_loading_time=25
+max_loading_time=120
+comfort[0]=0
+comfort[1]=129
+comfort[2]=0
+comfort[3]=146
+
+Constraint[Prev][0]=BR-202-front
+Constraint[Prev][1]=BR-202-trailer
+Constraint[Prev][2]=BR-202-buffet
+Constraint[Prev][3]=BR-202-trailer-first
+
+Constraint[Next][0]=BR-202-rear
+Constraint[Next][1]=BR-202-trailer
+Constraint[Next][2]=BR-202-buffet
+Constraint[Next][3]=BR-202-trailer-first
+
+liverytype[0]=BR-Revised
+liverytype[1]=BR-Blue
+
+EmptyImage[E][0]=./images/br-202-trailer-g_E.0.0
+EmptyImage[SE][0]=./images/br-202-trailer-g_SE.0.0
+EmptyImage[S][0]=./images/br-202-trailer-g_S.0.0
+EmptyImage[SW][0]=./images/br-202-trailer-g_SW.0.0
+EmptyImage[W][0]=./images/br-202-trailer-g_W.0.0
+EmptyImage[NW][0]=./images/br-202-trailer-g_NW.0.0
+EmptyImage[N][0]=./images/br-202-trailer-g_N.0.0
+EmptyImage[NE][0]=./images/br-202-trailer-g_NE.0.0
+
+EmptyImage[E][1]=./images/br-202-trailer-bg_E.0.0
+EmptyImage[SE][1]=./images/br-202-trailer-bg_SE.0.0
+EmptyImage[S][1]=./images/br-202-trailer-bg_S.0.0
+EmptyImage[SW][1]=./images/br-202-trailer-bg_SW.0.0
+EmptyImage[W][1]=./images/br-202-trailer-bg_W.0.0
+EmptyImage[NW][1]=./images/br-202-trailer-bg_NW.0.0
+EmptyImage[N][1]=./images/br-202-trailer-bg_N.0.0
+EmptyImage[NE][1]=./images/br-202-trailer-bg_NE.0.0
+
+----
+
+obj=vehicle
+name=BR-202-trailer-first
+engine_type=diesel
+speed=120
+power=0
+copyright=Junna/Cake/JamesPetts
+intro_year=1957
+intro_month=4
+retire_year=1963
+retire_month=9
+waytype=track
+freight=Passagiere
+payload[0]=0
+payload[1]=0
+payload[2]=0
+payload[3]=48
+overcrowded_capacity=24
+length=11
+
+weight=30
+axles=4
+cost=1300000
+runningcost=24
 
 can_lead_from_rear=0
 bidirectional=1
 
 min_loading_time=25
 max_loading_time=120
-comfort=120
+comfort[0]=0
+comfort[1]=129
+comfort[2]=0
+comfort[3]=146
 
 Constraint[Prev][0]=BR-202-front
 Constraint[Prev][1]=BR-202-trailer
 Constraint[Prev][2]=BR-202-buffet
+Constraint[Prev][3]=BR-202-trailer-first
 
 Constraint[Next][0]=BR-202-rear
 Constraint[Next][1]=BR-202-trailer
 Constraint[Next][2]=BR-202-buffet
+Constraint[Next][3]=BR-202-trailer-first
 
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue
-liverytype[2]=BR-Large-Logo
 
-EmptyImage[E][0]=./images/br-202-trailer-g.1.4
-EmptyImage[SE][0]=./images/br-202-trailer-g.1.5
-EmptyImage[S][0]=./images/br-202-trailer-g.1.6
-EmptyImage[SW][0]=./images/br-202-trailer-g.1.7
-EmptyImage[W][0]=./images/br-202-trailer-g.1.0
-EmptyImage[NW][0]=./images/br-202-trailer-g.1.1
-EmptyImage[N][0]=./images/br-202-trailer-g.1.2
-EmptyImage[NE][0]=./images/br-202-trailer-g.1.3
+EmptyImage[E][0]=./images/br-202-trailer-first-g_E.0.0
+EmptyImage[SE][0]=./images/br-202-trailer-first-g_SE.0.0
+EmptyImage[S][0]=./images/br-202-trailer-first-g_S.0.0
+EmptyImage[SW][0]=./images/br-202-trailer-first-g_SW.0.0
+EmptyImage[W][0]=./images/br-202-trailer-first-g_W.0.0
+EmptyImage[NW][0]=./images/br-202-trailer-first-g_NW.0.0
+EmptyImage[N][0]=./images/br-202-trailer-first-g_N.0.0
+EmptyImage[NE][0]=./images/br-202-trailer-first-g_NE.0.0
 
-EmptyImage[E][1]=./images/br-202-trailer-b.1.4
-EmptyImage[SE][1]=./images/br-202-trailer-b.1.5
-EmptyImage[S][1]=./images/br-202-trailer-b.1.6
-EmptyImage[SW][1]=./images/br-202-trailer-b.1.7
-EmptyImage[W][1]=./images/br-202-trailer-b.1.0
-EmptyImage[NW][1]=./images/br-202-trailer-b.1.1
-EmptyImage[N][1]=./images/br-202-trailer-b.1.2
-EmptyImage[NE][1]=./images/br-202-trailer-b.1.3
-
-EmptyImage[E][2]=./images/br-202-trailer-bg.1.4
-EmptyImage[SE][2]=./images/br-202-trailer-bg.1.5
-EmptyImage[S][2]=./images/br-202-trailer-bg.1.6
-EmptyImage[SW][2]=./images/br-202-trailer-bg.1.7
-EmptyImage[W][2]=./images/br-202-trailer-bg.1.0
-EmptyImage[NW][2]=./images/br-202-trailer-bg.1.1
-EmptyImage[N][2]=./images/br-202-trailer-bg.1.2
-EmptyImage[NE][2]=./images/br-202-trailer-bg.1.3
+EmptyImage[E][1]=./images/br-202-trailer-first-bg_E.0.0
+EmptyImage[SE][1]=./images/br-202-trailer-first-bg_SE.0.0
+EmptyImage[S][1]=./images/br-202-trailer-first-bg_S.0.0
+EmptyImage[SW][1]=./images/br-202-trailer-first-bg_SW.0.0
+EmptyImage[W][1]=./images/br-202-trailer-first-bg_W.0.0
+EmptyImage[NW][1]=./images/br-202-trailer-first-bg_NW.0.0
+EmptyImage[N][1]=./images/br-202-trailer-first-bg_N.0.0
+EmptyImage[NE][1]=./images/br-202-trailer-first-bg_NE.0.0
 
 ----
 
@@ -225,7 +284,10 @@ retire_year=1963
 retire_month=9
 waytype=track
 freight=Passagiere
-payload=35
+payload[0]=0
+payload[1]=35
+payload[2]=0
+payload[3]=0
 overcrowded_capacity=15
 length=11
 
@@ -234,48 +296,42 @@ axles=4
 cost=1300000
 runningcost=24
 
-
 can_lead_from_rear=0
 bidirectional=1
 catering_level=3
 
 min_loading_time=25
 max_loading_time=120
-comfort=120
+comfort[0]=0
+comfort[1]=129
+comfort[2]=0
+comfort[3]=146
 
 Constraint[Prev][0]=BR-202-front
 Constraint[Prev][1]=BR-202-trailer
+Constraint[Prev][2]=BR-202-trailer-first
 
 Constraint[Next][0]=BR-202-rear
 Constraint[Next][1]=BR-202-trailer
+Constraint[Next][2]=BR-202-trailer-first
 
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue
-liverytype[2]=BR-Large-Logo
 
-EmptyImage[E][0]=./images/br-202-buffet-g.1.4
-EmptyImage[SE][0]=./images/br-202-buffet-g.1.5
-EmptyImage[S][0]=./images/br-202-buffet-g.1.6
-EmptyImage[SW][0]=./images/br-202-buffet-g.1.7
-EmptyImage[W][0]=./images/br-202-buffet-g.1.0
-EmptyImage[NW][0]=./images/br-202-buffet-g.1.1
-EmptyImage[N][0]=./images/br-202-buffet-g.1.2
-EmptyImage[NE][0]=./images/br-202-buffet-g.1.3
+EmptyImage[E][0]=./images/br-202-buffet-g_E.0.0
+EmptyImage[SE][0]=./images/br-202-buffet-g_SE.0.0
+EmptyImage[S][0]=./images/br-202-buffet-g_S.0.0
+EmptyImage[SW][0]=./images/br-202-buffet-g_SW.0.0
+EmptyImage[W][0]=./images/br-202-buffet-g_W.0.0
+EmptyImage[NW][0]=./images/br-202-buffet-g_NW.0.0
+EmptyImage[N][0]=./images/br-202-buffet-g_N.0.0
+EmptyImage[NE][0]=./images/br-202-buffet-g_NE.0.0
 
-EmptyImage[E][1]=./images/br-202-buffet-b.1.4
-EmptyImage[SE][1]=./images/br-202-buffet-b.1.5
-EmptyImage[S][1]=./images/br-202-buffet-b.1.6
-EmptyImage[SW][1]=./images/br-202-buffet-b.1.7
-EmptyImage[W][1]=./images/br-202-buffet-b.1.0
-EmptyImage[NW][1]=./images/br-202-buffet-b.1.1
-EmptyImage[N][1]=./images/br-202-buffet-b.1.2
-EmptyImage[NE][1]=./images/br-202-buffet-b.1.3
-
-EmptyImage[E][2]=./images/br-202-buffet-bg.1.4
-EmptyImage[SE][2]=./images/br-202-buffet-bg.1.5
-EmptyImage[S][2]=./images/br-202-buffet-bg.1.6
-EmptyImage[SW][2]=./images/br-202-buffet-bg.1.7
-EmptyImage[W][2]=./images/br-202-buffet-bg.1.0
-EmptyImage[NW][2]=./images/br-202-buffet-bg.1.1
-EmptyImage[N][2]=./images/br-202-buffet-bg.1.2
-EmptyImage[NE][2]=./images/br-202-buffet-bg.1.3
+EmptyImage[E][1]=./images/br-202-buffet-bg_E.0.0
+EmptyImage[SE][1]=./images/br-202-buffet-bg_SE.0.0
+EmptyImage[S][1]=./images/br-202-buffet-bg_S.0.0
+EmptyImage[SW][1]=./images/br-202-buffet-bg_SW.0.0
+EmptyImage[W][1]=./images/br-202-buffet-bg_W.0.0
+EmptyImage[NW][1]=./images/br-202-buffet-bg_NW.0.0
+EmptyImage[N][1]=./images/br-202-buffet-bg_N.0.0
+EmptyImage[NE][1]=./images/br-202-buffet-bg_NE.0.0

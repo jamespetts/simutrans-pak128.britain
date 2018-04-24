@@ -26,15 +26,16 @@ Constraint[Next][3]=BrigAddPiece
 Constraint[Next][4]=BrigAddCool
 Constraint[Next][5]=BrigAddLong
 Constraint[Next][6]=BrigAddLivestock
+Constraint[Next][7]=BrigAddPax-first-class
+
 Constraint[Prev][0]=none
 
-EmptyImage[E]=./images/brig.0.0
-EmptyImage[SE]=./images/brig.0.1
-EmptyImage[S]=./images/brig.0.2
-EmptyImage[SW]=./images/brig.0.3
-EmptyImage[W]=./images/brig.0.4
-EmptyImage[NW]=./images/brig.0.5
-EmptyImage[N]=./images/brig.0.6
-EmptyImage[NE]=./images/brig.0.7
+EmptyImage[E]=./images/brig_E.0.0
+EmptyImage[SE]=./images/brig_SE.0.0
+EmptyImage[S]=./images/brig_S.0.0
+EmptyImage[SW]=./images/brig_SW.0.0
+EmptyImage[W]=./images/brig_W.0.0
+EmptyImage[NW]=./images/brig_NW.0.0
+EmptyImage[N]=./images/brig_N.0.0
+EmptyImage[NE]=./images/brig_NE.0.0
 
-----------------------------------------

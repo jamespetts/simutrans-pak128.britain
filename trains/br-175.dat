@@ -13,7 +13,8 @@ retire_year=2007
 retire_month=10
 waytype=track
 freight=Passagiere
-payload=55
+payload[0]=0
+payload[1]=55
 overcrowded_capacity=17
 length=13
 brake_force=37
@@ -27,7 +28,8 @@ sound=video47-class-175.wav
 
 min_loading_time=30
 max_loading_time=150
-comfort=132
+comfort[0]=0
+comfort[1]=132
 
 can_lead_from_rear=1
 bidirectional=0
@@ -77,7 +79,8 @@ retire_year=2007
 retire_month=10
 waytype=track
 freight=Passagiere
-payload=62
+payload[0]=0
+payload[1]=62
 overcrowded_capacity=19
 length=13
 brake_force=37
@@ -91,7 +94,8 @@ sound=video47-class-175.wav
 
 min_loading_time=30
 max_loading_time=150
-comfort=132
+comfort[0]=0
+comfort[1]=132
 
 can_lead_from_rear=1
 bidirectional=0
@@ -141,7 +145,8 @@ retire_year=2007
 retire_month=10
 waytype=track
 freight=Passagiere
-payload=76
+payload[0]=0
+payload[1]=76
 overcrowded_capacity=23
 length=12
 brake_force=37
@@ -157,7 +162,8 @@ upgrade[0]=BR-175Middle-trolley
 
 min_loading_time=30
 max_loading_time=150
-comfort=132
+comfort[0]=0
+comfort[1]=132
 
 can_lead_from_rear=0
 bidirectional=1
@@ -208,7 +214,8 @@ retire_year=2007
 retire_month=10
 waytype=track
 freight=Passagiere
-payload=76
+payload[0]=0
+payload[1]=76
 overcrowded_capacity=23
 length=12
 brake_force=37
@@ -224,7 +231,8 @@ upgrade[0]=BR-175Middle
 
 min_loading_time=30
 max_loading_time=150
-comfort=132
+comfort[0]=0
+comfort[1]=132
 catering_level=1
 
 can_lead_from_rear=0

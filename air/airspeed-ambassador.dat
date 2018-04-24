@@ -11,7 +11,10 @@ tractive_effort=15
 #gear=1
 freight=Passagiere
 # "Up to" 60 passengers
-payload=60
+payload[0]=0
+payload[1]=0
+payload[2]=0
+payload[3]=60
 weight=16.0
 #length=8
 cost=8900000
@@ -21,7 +24,10 @@ intro_month=2
 retire_year=1961
 retire_month=12
 
-comfort=117
+comfort[0]=0
+comfort[1]=0
+comfort[2]=0
+comfort[3]=117
 min_loading_time=2200
 max_loading_time=2200
 

@@ -8,11 +8,11 @@ sound=ship-horn_a.wav
 # http://www.doverferryphotosforums.co.uk/wordpress/mv-horsa-past-and-present/
 speed=36
 power=8575
-#gear=500
 weight=7500
 length=10
 freight=Passagiere
-payload=1400
+payload[0]=0
+payload[1]=1400
 cost=85600000
 runningcost=700
 intro_year=1972
@@ -21,11 +21,13 @@ retire_year=1987
 retire_month=1
 is_tall=1
 
-comfort=157
+comfort[0]=0
+comfort[1]=157
 catering_level=4
 # 35-50 minutes
 min_loading_time=2100
 max_loading_time=3000
+range=300
 
 liverytype[0]=Sealink-red
 liverytype[1]=Sealink-British-Ferries

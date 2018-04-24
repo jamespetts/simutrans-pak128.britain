@@ -1,16 +1,17 @@
-# 30lb/yard
+# 18lb/yard
+# https://www.festipedia.org.uk/wiki/Rail_Types#T-rail
 Obj=way
 Name=wrought_iron_N
 waytype=narrowgauge_track
-cost=9500
+cost=7500
 maintenance=225
 topspeed=52
-max_weight=5
-intro_year=1844
+max_weight=3
+intro_year=1842
 intro_month=10
 retire_year=1878
 retire_month=1
-wear_capacity=95000000
+wear_capacity=32000000
 
 icon=> ./images/wrought-iron-narrow.3.4
 cursor=./images/wrought-iron-narrow.3.5

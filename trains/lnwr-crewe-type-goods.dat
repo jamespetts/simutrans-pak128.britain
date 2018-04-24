@@ -1,0 +1,55 @@
+# See Ahrons p. 52 for details. 
+obj=vehicle
+name=lnwr-crewe-type-goods
+engine_type=steam
+smoke=Steam
+speed=85
+# Extrapolated
+power=85
+# Calculated from data from Ahrons, p. 52
+# Loss factor set at 0.7
+tractive_effort=18
+copyright=James/jamespetts
+intro_year=1844
+intro_month=12
+retire_year=1858
+retire_month=2
+waytype=track
+freight=None
+payload=0
+length=4
+brake_force=0
+rolling_resistance=19
+way_wear_factor=33862
+
+# Weight taken from Ahrons, p. 52
+weight=19.8
+# http://www.steamlocomotive.com/locobase.php?country=Great_Britain&wheel=2-4-0&railroad=lnw
+axle_load=9
+cost=14778000
+runningcost=171
+fixed_cost=18158
+sound=lwalker-br-4mt-tank.wav
+
+Constraint[Next][0]=LNWR-Bloomer-Tender
+
+liverytype[0]=LNWR-Early
+liverytype[1]=LNWR-Black
+
+EmptyImage[E][0]=./images/lnwr-crewe-type-goods_E.0.0
+EmptyImage[SE][0]=./images/lnwr-crewe-type-goods_SE.0.0
+EmptyImage[S][0]=./images/lnwr-crewe-type-goods_S.0.0
+EmptyImage[SW][0]=./images/lnwr-crewe-type-goods_SW.0.0
+EmptyImage[W][0]=./images/lnwr-crewe-type-goods_W.0.0
+EmptyImage[NW][0]=./images/lnwr-crewe-type-goods_NW.0.0
+EmptyImage[N][0]=./images/lnwr-crewe-type-goods_N.0.0
+EmptyImage[NE][0]=./images/lnwr-crewe-type-goods_NE.0.0
+
+EmptyImage[E][1]=./images/lnwr-crewe-type-goods-black_E.0.0
+EmptyImage[SE][1]=./images/lnwr-crewe-type-goods-black_SE.0.0
+EmptyImage[S][1]=./images/lnwr-crewe-type-goods-black_S.0.0
+EmptyImage[SW][1]=./images/lnwr-crewe-type-goods-black_SW.0.0
+EmptyImage[W][1]=./images/lnwr-crewe-type-goods-black_W.0.0
+EmptyImage[NW][1]=./images/lnwr-crewe-type-goods-black_NW.0.0
+EmptyImage[N][1]=./images/lnwr-crewe-type-goods-black_N.0.0
+EmptyImage[NE][1]=./images/lnwr-crewe-type-goods-black_NE.0.0

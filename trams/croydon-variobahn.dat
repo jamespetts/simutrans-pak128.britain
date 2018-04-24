@@ -134,7 +134,6 @@ intro_year=2012
 intro_month=3
 gear=80
 power=160
-gear=80
 tractive_effort=24
 waytype=tram_track
 freight=Passagiere

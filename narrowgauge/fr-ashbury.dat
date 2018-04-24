@@ -13,7 +13,8 @@ freight=Passagiere
 # Assumed four per side, which is probably about right for third class
 # at a squeeze in the 1860s. The modern Ffestiniog rates these as three
 # per side, giving 12 seats, but this is less than the small Birmingham.
-payload=16
+payload[0]=0
+payload[1]=16
 length=2
 rolling_resistance=19
 brake_force=0
@@ -23,7 +24,8 @@ axles=2
 cost=280000
 runningcost=12
 
-comfort=30
+comfort[0]=0
+comfort[1]=30
 upgrade[0]=FR-Ashbury-fitted
 
 can_lead_from_rear=0
@@ -107,7 +109,8 @@ retire_year=1935
 retire_month=10
 waytype=narrowgauge_track
 freight=Passagiere
-payload=16
+payload[0]=0
+payload[1]=16
 length=2
 rolling_resistance=19
 
@@ -116,7 +119,8 @@ axles=2
 upgrade_price=20000
 runningcost=13
 
-comfort=30
+comfort[0]=0
+comfort[1]=30
 available_only_as_upgrade=1
 
 can_lead_from_rear=0

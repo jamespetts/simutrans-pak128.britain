@@ -23,6 +23,7 @@ intro_month=12
 retire_year=1931
 retire_month=5
 is_tall=1
+sound=graham-french-tilling-stevens-1930.wav
 
 comfort=21
 # Rear platform with conductor: 2.0 seconds per passenger

@@ -11,7 +11,11 @@ tractive_effort=40
 freight=Passagiere
 # "Up to 100 passengers on main deck plus 14 in lower deck lounge; typical seating for 63 or 84 passengers"
 # (Wikipedia)
-payload=84
+payload[0]=0
+payload[1]=0
+payload[2]=0
+payload[3]=0
+payload[4]=84
 weight=37.9
 #length=8
 # US$1,225,000 (1945) (according to Wikipedia)
@@ -23,7 +27,11 @@ intro_month=4
 retire_year=1955
 retire_month=8
 
-comfort=127
+comfort[0]=0
+comfort[1]=0
+comfort[2]=0
+comfort[3]=0
+comfort[4]=127
 min_loading_time=2400
 max_loading_time=2400
 

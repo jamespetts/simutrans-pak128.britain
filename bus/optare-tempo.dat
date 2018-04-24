@@ -23,12 +23,12 @@ intro_year=2004
 intro_month=1
 retire_year=2012
 retire_month=6
+sound=video47-optare-tempo.wav
 
 comfort=39
 # Single entrance pay driver (low floor): 3.8 seconds per passenger
 min_loading_time=5
 max_loading_time=175
-sound=video47-optare-tempo.wav
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=none

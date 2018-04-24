@@ -8,7 +8,8 @@ retire_year=1941
 retire_month=9
 waytype=track
 freight=Passagiere
-payload=64
+payload[0]=0
+payload[1]=64
 overcrowded_capacity=30
 length=10
 
@@ -17,13 +18,13 @@ axles=4
 cost=633000
 runningcost=39
 
-
 can_lead_from_rear=0
 bidirectional=1
 
 min_loading_time=25
 max_loading_time=55
-comfort=129
+comfort[0]=0
+comfort[1]=129
 
 Constraint[Prev][0]=SR-Maunsell-Third
 Constraint[Prev][1]=SR-Maunsell-Brake-front
@@ -122,7 +123,8 @@ retire_year=1941
 retire_month=9
 waytype=track
 freight=Passagiere
-payload=56
+payload[0]=0
+payload[1]=56
 overcrowded_capacity=34
 length=10
 
@@ -131,13 +133,13 @@ axles=4
 cost=625000
 runningcost=39
 
-
 can_lead_from_rear=0
 bidirectional=1
 
 min_loading_time=25
 max_loading_time=55
-comfort=136
+comfort[0]=0
+comfort[1]=136
 
 Constraint[Prev][0]=SR-Maunsell-Third
 Constraint[Prev][1]=SR-Maunsell-Brake-front
@@ -236,7 +238,8 @@ retire_year=1941
 retire_month=9
 waytype=track
 freight=Passagiere
-payload=24
+payload[0]=0
+payload[1]=24
 overcrowded_capacity=10
 length=10
 
@@ -245,14 +248,14 @@ axles=4
 cost=675000
 runningcost=56
 
-
 can_lead_from_rear=0
 bidirectional=1
 catering_level=4
 
 min_loading_time=25
 max_loading_time=55
-comfort=129
+comfort[0]=0
+comfort[1]=129
 
 Constraint[Prev][0]=SR-Maunsell-Third
 Constraint[Prev][1]=SR-Maunsell-Brake-front
@@ -351,7 +354,8 @@ retire_year=1941
 retire_month=9
 waytype=track
 freight=Passagiere
-payload=24
+payload[0]=0
+payload[1]=24
 overcrowded_capacity=10
 length=10
 
@@ -360,14 +364,14 @@ axles=4
 cost=650000
 runningcost=42
 
-
 can_lead_from_rear=0
 bidirectional=1
 catering_level=3
 
 min_loading_time=25
 max_loading_time=55
-comfort=129
+comfort[0]=0
+comfort[1]=129
 
 Constraint[Prev][0]=SR-Maunsell-Third
 Constraint[Prev][1]=SR-Maunsell-Brake-front
@@ -466,7 +470,8 @@ retire_year=1941
 retire_month=9
 waytype=track
 freight=Passagiere
-payload=48
+payload[0]=0
+payload[1]=48
 overcrowded_capacity=24
 length=10
 
@@ -475,13 +480,13 @@ axles=4
 cost=633000
 runningcost=25
 
-
 can_lead_from_rear=0
 bidirectional=1
 
 min_loading_time=25
 max_loading_time=55
-comfort=129
+comfort[0]=0
+comfort[1]=129
 
 Constraint[Prev][0]=SR-Maunsell-Third
 Constraint[Prev][1]=SR-Maunsell-Brake-front
@@ -553,7 +558,8 @@ retire_year=1941
 retire_month=9
 waytype=track
 freight=Passagiere
-payload=48
+payload[0]=0
+payload[1]=48
 overcrowded_capacity=24
 length=10
 
@@ -562,13 +568,13 @@ axles=4
 cost=633000
 runningcost=25
 
-
 can_lead_from_rear=0
 bidirectional=1
 
 min_loading_time=25
 max_loading_time=55
-comfort=129
+comfort[0]=0
+comfort[1]=129
 
 Constraint[Next][0]=SR-Maunsell-Third
 Constraint[Next][1]=SR-Maunsell-Brake-rear
@@ -648,7 +654,6 @@ weight=12
 axles=2
 cost=633000
 runningcost=39
-
 
 can_lead_from_rear=0
 bidirectional=1
@@ -771,7 +776,6 @@ axles=2
 cost=633000
 runningcost=39
 
-
 can_lead_from_rear=0
 bidirectional=1
 
@@ -856,7 +860,6 @@ weight=33
 axles=4
 cost=633000
 runningcost=39
-
 
 can_lead_from_rear=0
 bidirectional=1
@@ -967,7 +970,6 @@ weight=33
 axles=4
 cost=675000
 runningcost=46
-
 
 can_lead_from_rear=0
 bidirectional=1

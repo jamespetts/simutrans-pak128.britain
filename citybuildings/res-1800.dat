@@ -8,6 +8,17 @@ chance=33
 Level=2
 intro_year=1800
 retire_year=1850
+# Tall terraced townhouse over 3 storeys. 
+# Upper middle classes with servants.
+# Estimate population of 9 per house (including servants) x 14 (higher density layout)
+# yields 126, / 16 hours * 6.4 hours = 50.4
+# Half when meters/tile taken into account
+population_and_visitor_demand_capacity=25
+class_proportion[0]=0
+class_proportion[1]=35
+class_proportion[2]=0
+class_proportion[3]=60
+class_proportion[4]=5
 needs_ground=1
 dims=1,1,4
 clusters=2
@@ -27,6 +38,17 @@ copyright=James
 type=res
 chance=33
 Level=2
+# Tall terraced townhouse over 3 storeys. 
+# Upper middle classes with servants.
+# Estimate population of 9 per house (including servants) x 14 (higher density layout)
+# yields 126, / 16 hours * 6.4 hours = 50.4
+# Half when meters/tile taken into account
+population_and_visitor_demand_capacity=25
+class_proportion[0]=0
+class_proportion[1]=35
+class_proportion[2]=0
+class_proportion[3]=60
+class_proportion[4]=5
 intro_year=1800
 retire_year=1850
 needs_ground=1

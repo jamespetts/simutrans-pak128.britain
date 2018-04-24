@@ -5,13 +5,15 @@ copyright=James
 waytype=water
 speed=25
 freight=Passagiere
-payload=200
+payload[0]=0
+payload[1]=200
 intro_year=1853
 intro_month=5
 retire_year=1880
 retire_month=7
 
-comfort=113
+comfort[0]=0
+comfort[1]=144
 
 length=3
 

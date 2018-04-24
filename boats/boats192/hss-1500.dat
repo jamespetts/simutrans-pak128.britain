@@ -6,9 +6,9 @@ engine_type=diesel
 smoke=Diesel
 speed=70
 power=68000
-gear=100
 freight=Passagiere
-payload=1500
+payload[0]=0
+payload[1]=1500
 weight=1000
 length=12
 cost=188200000
@@ -23,6 +23,7 @@ catering_level=4
 # 25-30 minutes
 min_loading_time=1500
 max_loading_time=1800
+range=300
 
 Constraint[Next][0]=HSS-1500(AddMail)
 Constraint[Prev][0]=none

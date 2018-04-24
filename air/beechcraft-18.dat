@@ -5,12 +5,15 @@ copyright=Neil Wilson
 # http://www.sharecg.com/v/47789/browse/5/3D-Model/Beechcraft-Beech-18-C-45
 waytype=air
 engine_type=petrol
-speed=354
-power=672
-tractive_effort=4
+speed=298
+power=604
+tractive_effort=5
 freight=Passagiere
-payload=8
-weight=2.7
+payload[0]=0
+payload[1]=0
+payload[2]=0
+payload[3]=8
+weight=3.2
 #length=8
 cost=1000000
 runningcost=475
@@ -18,7 +21,11 @@ intro_year=1937
 intro_month=1
 retire_year=1969
 retire_month=11
-comfort=79
+
+comfort[0]=0
+comfort[1]=0
+comfort[2]=0
+comfort[3]=79
 min_loading_time=1600
 max_loading_time=1600
 catering_level=0
@@ -49,12 +56,14 @@ copyright=Neil Wilson
 # http://www.sharecg.com/v/47789/browse/5/3D-Model/Beechcraft-Beech-18-C-45
 waytype=air
 engine_type=petrol
-speed=354
-power=672
-tractive_effort=4
+speed=298
+power=604
+tractive_effort=5
 freight=Post
-payload=1250
-weight=2.7
+# payload: 750kg
+payload[0]=0
+payload[1]=1250
+weight=3.2
 #length=8
 cost=1000000
 runningcost=475
@@ -62,7 +71,7 @@ intro_year=1937
 intro_month=1
 retire_year=1969
 retire_month=11
-comfort=79
+
 min_loading_time=1600
 max_loading_time=1800
 

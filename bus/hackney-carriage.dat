@@ -4,8 +4,11 @@ name=HackneyCarriage
 copyright=James
 waytype=road
 freight=Passagiere
-payload=4
-speed=13
+payload[0]=0
+payload[1]=0
+payload[2]=0
+payload[3]=2
+speed=12
 weight=0.2
 way_wear_factor=2
 length=3
@@ -13,12 +16,15 @@ cost=10000
 runningcost=5
 intro_year=1750
 intro_month=1
-retire_year=1913
+retire_year=1845
 retire_month=4
 rolling_resistance=40
 brake_force=0
 
-comfort=30
+comfort[0]=0
+comfort[1]=0
+comfort[2]=0
+comfort[3]=30
 # Necessary to prohibit this vehicle from bridleways
 axle_load=1
 min_loading_time=7
@@ -49,4 +55,3 @@ EmptyImage[W]=./images/hackney-carriage_W.0.0,4,5
 EmptyImage[NW]=./images/hackney-carriage_NW.0.0,12,10
 EmptyImage[N]=./images/hackney-carriage_N.0.0,0,33
 EmptyImage[NE]=./images/hackney-carriage_NE.0.0,0,24
-

@@ -20,6 +20,7 @@ intro_year=1912
 intro_month=2
 retire_year=1920
 retire_month=2
+sound=graham-french-leyland-n-type.wav
 
 comfort=26
 # Rear platform with conductor: 2.0 seconds per passenger

@@ -1,0 +1,67 @@
+# These are Leicester & Swannington carriages;
+# intended for minor railways. See Midland 
+# Railway Carriages by Lacy & Dow, pp. 8-9.
+# https://cdn.globalauctionplatform.com/2a8bcfc7-99db-4e45-b8ea-a51c0101e0f0/316f84f8-a424-4388-b799-1e2436539fa7/original.jpg
+obj=vehicle
+name=l&s-open-carriage
+speed=55
+copyright=JamesPetts
+intro_year=1832
+intro_month=7
+retire_year=1845
+retire_month=1
+waytype=track
+freight=Passagiere
+payload[0]=0
+payload[1]=0
+payload[2]=24
+overcrowded_capacity=10
+length=2
+brake_force=0
+rolling_resistance=19
+
+# See Lacy & Dow, p. 9
+weight=1.6
+axles=2
+cost=680000
+runningcost=7
+
+comfort[0]=0
+comfort[1]=0
+comfort[2]=12
+min_loading_time=17
+max_loading_time=47
+
+can_lead_from_rear=0
+bidirectional=1
+
+Constraint[Prev][0]=l&s-enclosed-carriage
+Constraint[Prev][1]=l&s-enclosed-carriage-brake-front
+Constraint[Prev][2]=l&s-composite-carriage
+Constraint[Prev][3]=l&s-composite-carriage-brake-front
+Constraint[Prev][4]=l&s-open-carriage
+
+Constraint[Next][0]=l&s-enclosed-carriage
+Constraint[Next][1]=l&s-enclosed-carriage-brake-rear
+Constraint[Next][2]=l&s-composite-carriage
+Constraint[Next][3]=l&s-composite-carriage-brake-rear
+Constraint[Next][4]=l&s-open-carriage
+
+EmptyImage[E]=./images/l&s-open-carriage_E.0.0
+EmptyImage[SE]=./images/l&s-open-carriage_SE.0.0
+EmptyImage[S]=./images/l&s-open-carriage_S.0.0
+EmptyImage[SW]=./images/l&s-open-carriage_SW.0.0
+EmptyImage[W]=./images/l&s-open-carriage_W.0.0
+EmptyImage[NW]=./images/l&s-open-carriage_NW.0.0
+EmptyImage[N]=./images/l&s-open-carriage_N.0.0
+EmptyImage[NE]=./images/l&s-open-carriage_NE.0.0
+
+FreightImage[E]=./images/l&s-open-carriage-loaded_E.0.0
+FreightImage[SE]=./images/l&s-open-carriage-loaded_SE.0.0
+FreightImage[S]=./images/l&s-open-carriage-loaded_S.0.0
+FreightImage[SW]=./images/l&s-open-carriage-loaded_SW.0.0
+FreightImage[W]=./images/l&s-open-carriage-loaded_W.0.0
+FreightImage[NW]=./images/l&s-open-carriage-loaded_NW.0.0
+FreightImage[N]=./images/l&s-open-carriage-loaded_N.0.0
+FreightImage[NE]=./images/l&s-open-carriage-loaded_NE.0.0
+

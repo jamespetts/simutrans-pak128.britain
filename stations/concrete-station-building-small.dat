@@ -11,6 +11,20 @@ intro_month=3
 Dims=1,1,4
 NoInfo=1
 Level=1
+# Passenger data guessed
+population_and_visitor_demand_capacity=1
+employment_capacity=7
+mail_demand=3
+class_proportion[0]=0
+class_proportion[1]=4
+class_proportion[2]=46
+class_proportion[3]=50
+class_proportion[4]=0
+class_proportion_jobs[0]=5
+class_proportion_jobs[1]=35
+class_proportion_jobs[2]=55
+class_proportion_jobs[3]=5
+class_proportion_jobs[4]=0
 
 maintenance=8000
 cost=615000

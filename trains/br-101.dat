@@ -1,3 +1,4 @@
+# http://www.railcar.co.uk/print/diagrams/523.jpg
 obj=vehicle
 name=BR-101-DMBS
 engine_type=diesel
@@ -13,7 +14,10 @@ retire_year=1959
 retire_month=12
 waytype=track
 freight=Passagiere
-payload=52
+payload[0]=0
+payload[1]=52
+payload[2]=0
+payload[3]=0
 overcrowded_capacity=31
 length=10
 
@@ -28,7 +32,10 @@ bidirectional=0
 
 min_loading_time=20
 max_loading_time=60
-comfort=82
+comfort[0]=0
+comfort[1]=82
+comfort[2]=0
+comfort[3]=0
 
 Constraint[Prev][0]=BR-121
 Constraint[Prev][1]=BR-117-DMS
@@ -104,7 +111,7 @@ EmptyImage[N][5]=./images/br-101-dmbs-rr.1.2
 EmptyImage[NE][5]=./images/br-101-dmbs-rr.1.3
 
 ----
-
+# http://www.railcar.co.uk/print/diagrams/623.jpg
 obj=vehicle
 name=BR-101-TSL
 engine_type=diesel
@@ -118,7 +125,10 @@ retire_year=1959
 retire_month=12
 waytype=track
 freight=Passagiere
-payload=71
+payload[0]=0
+payload[1]=71
+payload[2]=0
+payload[3]=0
 overcrowded_capacity=25
 length=10
 
@@ -127,13 +137,15 @@ axles=4
 cost=591000
 runningcost=26
 
-
 can_lead_from_rear=0
 bidirectional=1
 
 min_loading_time=20
 max_loading_time=60
-comfort=82
+comfort[0]=0
+comfort[1]=82
+comfort[2]=0
+comfort[3]=0
 
 Constraint[Prev][0]=BR-101-DMBS
 
@@ -192,7 +204,7 @@ EmptyImage[N][4]=./images/br-101-tsl-rr.1.2
 EmptyImage[NE][4]=./images/br-101-tsl-rr.1.3
 
 ----
-
+# http://www.railcar.co.uk/print/diagrams/621.jpg
 obj=vehicle
 name=BR-101-DMCL
 engine_type=diesel
@@ -208,7 +220,10 @@ retire_year=1959
 retire_month=12
 waytype=track
 freight=Passagiere
-payload=65
+payload[0]=0
+payload[1]=53
+payload[2]=0
+payload[3]=12
 overcrowded_capacity=28
 length=10
 
@@ -223,7 +238,10 @@ bidirectional=0
 
 min_loading_time=20
 max_loading_time=60
-comfort=82
+comfort[0]=0
+comfort[1]=82
+comfort[2]=0
+comfort[3]=110
 
 Constraint[Prev][0]=BR-101-TSL
 Constraint[Prev][1]=BR-101-DMBS
@@ -297,7 +315,7 @@ EmptyImage[N][5]=./images/br-101-dtcl-rr.1.2
 EmptyImage[NE][5]=./images/br-101-dtcl-rr.1.3
 
 ----
-
+# http://www.railcar.co.uk/print/diagrams/630.jpg
 obj=vehicle
 name=BR-101-DTCL
 engine_type=diesel
@@ -312,7 +330,10 @@ retire_year=1959
 retire_month=12
 waytype=track
 freight=Passagiere
-payload=65
+payload[0]=0
+payload[1]=53
+payload[2]=0
+payload[3]=12
 overcrowded_capacity=28
 length=10
 
@@ -327,7 +348,10 @@ bidirectional=0
 
 min_loading_time=20
 max_loading_time=60
-comfort=82
+comfort[0]=0
+comfort[1]=82
+comfort[2]=0
+comfort[3]=110
 
 Constraint[Prev][0]=BR-101-TSL
 Constraint[Prev][1]=BR-101-DMBS

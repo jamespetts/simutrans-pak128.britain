@@ -1,0 +1,37 @@
+# https://en.wikipedia.org/wiki/Friesian_horse
+obj=vehicle
+name=rail-horse-friesian-single
+engine_type=bio
+speed=12
+# See http://gluedideas.com/content-collection/Textbook-on-Roads-and-Pavements-1908/Tractive-Power-of-Horses.html
+gear=32
+power=1
+tractive_effort=1
+copyright=James&jamespetts
+intro_year=1750
+intro_month=1
+retire_year=1918
+retire_month=3
+waytype=track
+length=2
+brake_force=1
+rolling_resistance=0
+
+weight=1.2
+axle_load=0
+cost=50000
+runningcost=3
+fixed_cost=600
+
+sound=ylearkisto-horses.wav
+range=60
+
+EmptyImage[E]=./images/horse-friesian-single-rail_E.0.0
+EmptyImage[SE]=./images/horse-friesian-single-rail_SE.0.0
+EmptyImage[S]=./images/horse-friesian-single-rail_S.0.0
+EmptyImage[SW]=./images/horse-friesian-single-rail_SW.0.0
+EmptyImage[W]=./images/horse-friesian-single-rail_W.0.0
+EmptyImage[NW]=./images/horse-friesian-single-rail_NW.0.0
+EmptyImage[N]=./images/horse-friesian-single-rail_N.0.0
+EmptyImage[NE]=./images/horse-friesian-single-rail_NE.0.0
+

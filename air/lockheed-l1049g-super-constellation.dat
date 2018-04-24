@@ -10,11 +10,15 @@ speed=547
 power=9696
 tractive_effort=69
 freight=Passagiere
-# 62-95 passengers in a multi-class configuration
-payload=109
+payload[0]=0
+payload[1]=0
+payload[2]=0
+payload[3]=0
+payload[4]=62
 weight=36.1
 #length=8
 cost=12500000
+upgrade_price=5000
 runningcost=3000
 # Guessed: November 1951 is correct for the L-1049 original
 intro_year=1952
@@ -22,7 +26,11 @@ intro_month=9
 retire_year=1958
 retire_month=2
 
-comfort=127
+comfort[0]=0
+comfort[1]=0
+comfort[2]=0
+comfort[3]=0
+comfort[4]=147
 min_loading_time=2400
 max_loading_time=2400
 
@@ -35,6 +43,66 @@ minimum_runway_length=1200
 sound=x705547-constellation.wav
 
 range=8700
+
+upgrade[0]=lockheed-l1049-g-super-constellation-high-density
+
+Constraint[Next][0]=none
+Constraint[Prev][0]=none
+
+EmptyImage[E]=./images/lockheed-l1049-g-super-constellation_E.0.0
+EmptyImage[SE]=./images/lockheed-l1049-g-super-constellation_SE.0.0
+EmptyImage[S]=./images/lockheed-l1049-g-super-constellation_S.0.0
+EmptyImage[SW]=./images/lockheed-l1049-g-super-constellation_SW.0.0
+EmptyImage[W]=./images/lockheed-l1049-g-super-constellation_W.0.0
+EmptyImage[NW]=./images/lockheed-l1049-g-super-constellation_NW.0.0
+EmptyImage[N]=./images/lockheed-l1049-g-super-constellation_N.0.0
+EmptyImage[NE]=./images/lockheed-l1049-g-super-constellation_NE.0.0
+
+---
+
+obj=vehicle
+name=lockheed-l1049-g-super-constellation-high-density
+copyright=SketchVC10
+# https://3dwarehouse.sketchup.com/model/uff46f999-2374-451e-9d33-b691db43a7fc/Lockheed-L-1049G-Super-Constellation-QANTAS-1957
+waytype=air
+engine_type=petrol
+speed=547
+power=9696
+tractive_effort=69
+freight=Passagiere
+payload[0]=0
+payload[1]=0
+payload[2]=0
+payload[3]=95
+weight=36.1
+#length=8
+cost=12500000
+upgrade_price=5000
+runningcost=3000
+# Guessed: November 1951 is correct for the L-1049 original
+intro_year=1952
+intro_month=9
+retire_year=1958
+retire_month=2
+
+comfort[0]=0
+comfort[1]=0
+comfort[2]=0
+comfort[3]=125
+min_loading_time=2400
+max_loading_time=2400
+
+catering_level=4
+
+# 3,937ft
+# http://www.varig-airlines.com/en/constellation.htm
+minimum_runway_length=1200
+
+sound=x705547-constellation.wav
+
+range=8700
+
+upgrade[0]=lockheed-l1049-g-super-constellation
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none

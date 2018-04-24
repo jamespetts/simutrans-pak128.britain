@@ -8,7 +8,8 @@ retire_year=1930
 retire_month=10
 waytype=track
 freight=Passagiere
-payload=76
+payload[0]=0
+payload[1]=76
 overcrowded_capacity=40
 length=10
 
@@ -17,12 +18,12 @@ axles=4
 cost=561200
 runningcost=34
 
-
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=10
 max_loading_time=40
-comfort=94
+comfort[0]=0
+comfort[1]=94
 
 increase_maintenance_after_years=17
 years_before_maintenance_max_reached=30
@@ -74,6 +75,7 @@ Constraint[Next][42]=MR-50ft-arc-lav-d1060
 Constraint[Next][43]=MR-50ft-arc-brake-rear-d557
 Constraint[Next][44]=MR-48ft-arc-d487
 Constraint[Next][45]=MR-48ft-arc-brake-d501-rear
+Constraint[Next][46]=BR-Mk1-Sub-cl
 
 Constraint[Prev][0]=BR-Mk1-Sub
 Constraint[Prev][1]=LNWR-6Wheel-non-lav
@@ -121,6 +123,7 @@ Constraint[Prev][42]=MR-50ft-arc-lav-d1060
 Constraint[Prev][43]=MR-50ft-arc-brake-front-d557
 Constraint[Prev][44]=MR-48ft-arc-d487
 Constraint[Prev][45]=MR-48ft-arc-brake-d501-front
+Constraint[Prev][46]=BR-Mk1-Sub-cl
 
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
@@ -155,7 +158,8 @@ retire_year=1952
 retire_month=10
 waytype=track
 freight=Passagiere
-payload=108
+payload[0]=0
+payload[1]=108
 overcrowded_capacity=54
 length=10
 
@@ -164,13 +168,13 @@ axles=4
 cost=500000
 runningcost=33
 
-
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=10
 max_loading_time=40
 # More comfortable than the MR equivalents because of more space between compartments
-comfort=78
+comfort[0]=0
+comfort[1]=78
 
 increase_maintenance_after_years=17
 years_before_maintenance_max_reached=30
@@ -222,6 +226,7 @@ Constraint[Next][42]=MR-50ft-arc-lav-d1060
 Constraint[Next][43]=MR-50ft-arc-brake-rear-d557
 Constraint[Next][44]=MR-48ft-arc-d487
 Constraint[Next][45]=MR-48ft-arc-brake-d501-rear
+Constraint[Next][46]=BR-Mk1-Sub-cl
 
 Constraint[Prev][0]=BR-Mk1-Sub
 Constraint[Prev][1]=LNWR-6Wheel-non-lav
@@ -269,6 +274,7 @@ Constraint[Prev][42]=MR-50ft-arc-lav-d1060
 Constraint[Prev][43]=MR-50ft-arc-brake-front-d557
 Constraint[Prev][44]=MR-48ft-arc-d487
 Constraint[Prev][45]=MR-48ft-arc-brake-d501-front
+Constraint[Prev][46]=BR-Mk1-Sub-cl
 
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
@@ -303,7 +309,8 @@ retire_year=1952
 retire_month=10
 waytype=track
 freight=Passagiere
-payload=72
+payload[0]=0
+payload[1]=72
 overcrowded_capacity=36
 length=10
 
@@ -312,13 +319,13 @@ axles=4
 cost=500000
 runningcost=33
 
-
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=10
 max_loading_time=40
 # More comfortable than the MR equivalents because of more space between compartments
-comfort=78
+comfort[0]=0
+comfort[1]=78
 upgrade[0]=LMS-push-pull-brake
 
 increase_maintenance_after_years=17
@@ -371,7 +378,8 @@ Constraint[Next][42]=MR-50ft-arc-lav-d1060
 Constraint[Next][43]=MR-50ft-arc-brake-rear-d557
 Constraint[Next][44]=MR-48ft-arc-d487
 Constraint[Next][45]=MR-48ft-arc-brake-d501-rear
-Constraint[Next][46]=none
+Constraint[Next][46]=BR-Mk1-Sub-cl
+Constraint[Next][47]=none
 
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
@@ -406,7 +414,8 @@ retire_year=1952
 retire_month=10
 waytype=track
 freight=Passagiere
-payload=72
+payload[0]=0
+payload[1]=72
 overcrowded_capacity=36
 length=10
 
@@ -415,13 +424,13 @@ axles=4
 cost=500000
 runningcost=33
 
-
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=10
 max_loading_time=40
 # More comfortable than the MR equivalents because of more space between compartments
-comfort=78
+comfort[0]=0
+comfort[1]=78
 upgrade[0]=LMS-push-pull-brake
 
 increase_maintenance_after_years=17
@@ -474,6 +483,7 @@ Constraint[Prev][42]=MR-50ft-arc-lav-d1060
 Constraint[Prev][43]=MR-50ft-arc-brake-front-d557
 Constraint[Prev][44]=MR-48ft-arc-d487
 Constraint[Prev][45]=MR-48ft-arc-brake-d501-front
+Constraint[Prev][46]=BR-Mk1-Sub-cl
 
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
@@ -508,7 +518,8 @@ retire_year=1952
 retire_month=10
 waytype=track
 freight=Passagiere
-payload=60
+payload[0]=0
+payload[1]=60
 overcrowded_capacity=30
 length=10
 
@@ -517,12 +528,12 @@ axles=4
 cost=561200
 runningcost=34
 
-
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=10
 max_loading_time=40
-comfort=94
+comfort[0]=0
+comfort[1]=94
 upgrade[0]=LMS-push-pull-brake
 
 increase_maintenance_after_years=17
@@ -575,7 +586,8 @@ Constraint[Next][42]=MR-50ft-arc-lav-d1060
 Constraint[Next][43]=MR-50ft-arc-brake-rear-d557
 Constraint[Next][44]=MR-48ft-arc-d487
 Constraint[Next][45]=MR-48ft-arc-brake-d501-rear
-Constraint[Next][46]=none
+Constraint[Next][46]=BR-Mk1-Sub-cl
+Constraint[Next][47]=none
 
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
@@ -610,7 +622,8 @@ retire_year=1952
 retire_month=10
 waytype=track
 freight=Passagiere
-payload=60
+payload[0]=0
+payload[1]=60
 overcrowded_capacity=30
 length=10
 
@@ -619,12 +632,12 @@ axles=4
 cost=561200
 runningcost=34
 
-
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=10
 max_loading_time=40
-comfort=94
+comfort[0]=0
+comfort[1]=94
 upgrade[0]=LMS-push-pull-brake
 
 increase_maintenance_after_years=17
@@ -677,6 +690,7 @@ Constraint[Prev][42]=MR-50ft-arc-lav-d1060
 Constraint[Prev][43]=MR-50ft-arc-brake-front-d557
 Constraint[Prev][44]=MR-48ft-arc-d487
 Constraint[Prev][45]=MR-48ft-arc-brake-d501-front
+Constraint[Prev][46]=BR-Mk1-Sub-cl
 
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early

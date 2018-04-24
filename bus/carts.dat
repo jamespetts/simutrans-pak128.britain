@@ -410,7 +410,7 @@ Constraint[Prev][9]=road-horse-irish-draught-single
 Constraint[Prev][10]=road-horse-hackney-single
 Constraint[Prev][11]=road-horse-hackney-double
 
-Constraint[Next][0]=none 
+Constraint[Next][0]=none
 
 EmptyImage[E]=./images/mail-cart-new_E.0.0,-33,14
 EmptyImage[SE]=./images/mail-cart-new_SE.0.0,-13,0

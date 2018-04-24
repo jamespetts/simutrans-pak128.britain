@@ -1,3 +1,4 @@
+# See Jenkinson, p. 391
 obj=vehicle
 name=SR-4SUB(front)
 engine_type=electric
@@ -12,7 +13,8 @@ retire_year=1953
 retire_month=9
 waytype=track
 freight=Passagiere
-payload=84
+payload[0]=0
+payload[1]=84
 overcrowded_capacity=50
 length=11
 
@@ -27,7 +29,8 @@ bidirectional=0
 
 min_loading_time=10
 max_loading_time=40
-comfort=70
+comfort[0]=0
+comfort[1]=70
 way_constraint_permissive[0]=0
 
 Constraint[Prev][0]=SR-3SUB(rear)
@@ -91,7 +94,8 @@ retire_year=1953
 retire_month=9
 waytype=track
 freight=Passagiere
-payload=84
+payload[0]=0
+payload[1]=84
 overcrowded_capacity=42
 length=11
 
@@ -107,7 +111,8 @@ way_constraint_permissive[0]=0
 
 min_loading_time=10
 max_loading_time=40
-comfort=70
+comfort[0]=0
+comfort[1]=70
 
 Constraint[Prev][0]=SR-4SUB(centre2)
 
@@ -169,7 +174,8 @@ retire_year=1953
 retire_month=9
 waytype=track
 freight=Passagiere
-payload=106
+payload[0]=0
+payload[1]=106
 overcrowded_capacity=63
 length=11
 
@@ -178,14 +184,14 @@ axles=4
 cost=872000
 runningcost=36
 
-
 can_lead_from_rear=0
 bidirectional=1
 way_constraint_permissive[0]=0
 
 min_loading_time=10
 max_loading_time=40
-comfort=70
+comfort[0]=0
+comfort[1]=70
 
 Constraint[Prev][0]=SR-4SUB(front)
 
@@ -237,7 +243,8 @@ retire_year=1953
 retire_month=9
 waytype=track
 freight=Passagiere
-payload=108
+payload[0]=0
+payload[1]=108
 overcrowded_capacity=54
 length=11
 
@@ -253,7 +260,8 @@ way_constraint_permissive[0]=0
 
 min_loading_time=10
 max_loading_time=40
-comfort=70
+comfort[0]=0
+comfort[1]=70
 
 Constraint[Next][0]=SR-4SUB(rear)
 Constraint[Next][1]=SR-3SUB(rear)

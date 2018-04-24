@@ -10,7 +10,8 @@ intro_year=2010
 intro_month=12
 waytype=track
 freight=Passagiere
-payload=59
+payload[0]=0
+payload[1]=59
 overcrowded_capacity=44
 length=12
 brake_force=35
@@ -21,10 +22,10 @@ axles=4
 cost=1057500
 runningcost=126
 
-
 min_loading_time=17
 max_loading_time=55
-comfort=85
+comfort[0]=0
+comfort[1]=93
 
 can_lead_from_rear=1
 bidirectional=0
@@ -57,7 +58,8 @@ intro_year=2010
 intro_month=12
 waytype=track
 freight=Passagiere
-payload=73
+payload[0]=0
+payload[1]=73
 overcrowded_capacity=55
 length=12
 brake_force=30
@@ -68,10 +70,10 @@ axles=4
 cost=1899100
 runningcost=43
 
-
 min_loading_time=17
 max_loading_time=55
-comfort=85
+comfort[0]=0
+comfort[1]=93
 
 can_lead_from_rear=0
 bidirectional=1
@@ -104,7 +106,8 @@ intro_year=2010
 intro_month=12
 waytype=track
 freight=Passagiere
-payload=73
+payload[0]=0
+payload[1]=73
 overcrowded_capacity=55
 length=12
 brake_force=30
@@ -115,10 +118,10 @@ axles=4
 cost=1899100
 runningcost=43
 
-
 min_loading_time=17
 max_loading_time=55
-comfort=85
+comfort[0]=0
+comfort[1]=93
 
 can_lead_from_rear=0
 bidirectional=1
@@ -151,7 +154,8 @@ intro_year=2010
 intro_month=12
 waytype=track
 freight=Passagiere
-payload=59
+payload[0]=0
+payload[1]=59
 overcrowded_capacity=44
 length=12
 brake_force=35
@@ -162,10 +166,10 @@ axles=4
 cost=1057500
 runningcost=126
 
-
 min_loading_time=17
 max_loading_time=55
-comfort=85
+comfort[0]=0
+comfort[1]=93
 
 can_lead_from_rear=1
 bidirectional=0

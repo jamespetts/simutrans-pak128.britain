@@ -11,7 +11,8 @@ retire_year=1924
 retire_month=4
 waytype=track
 freight=Passagiere
-payload=108
+payload[0]=0
+payload[1]=108
 overcrowded_capacity=54
 length=10
 
@@ -20,13 +21,13 @@ axles=4
 cost=500000
 runningcost=32
 
-
 can_lead_from_rear=0
 bidirectional=1
 
 min_loading_time=17
 max_loading_time=47
-comfort=74
+comfort[0]=0
+comfort[1]=74
 
 Constraint[Next][0]=4-wheel-1870s-fitted
 Constraint[Next][1]=4-wheel-1870s-brake-fitted
@@ -156,7 +157,6 @@ Constraint[Prev][60]=LMS-non-cor-brake-front
 Constraint[Prev][61]=LMS-non-cor-brake-lav-front
 Constraint[Prev][62]=MR-50ft-arc-non-lav-d555
 
-
 liverytype[0]=MR-Standard
 liverytype[1]=BR-Early
 
@@ -193,7 +193,8 @@ retire_year=1924
 retire_month=4
 waytype=track
 freight=Passagiere
-payload=72
+payload[0]=0
+payload[1]=72
 overcrowded_capacity=36
 length=10
 
@@ -202,13 +203,13 @@ axles=4
 cost=490000
 runningcost=32
 
-
 can_lead_from_rear=0
 bidirectional=1
 
 min_loading_time=17
 max_loading_time=47
-comfort=74
+comfort[0]=0
+comfort[1]=74
 
 Constraint[Next][0]=4-wheel-1870s-fitted
 Constraint[Next][1]=4-wheel-1870s-brake-fitted
@@ -311,7 +312,8 @@ retire_year=1924
 retire_month=4
 waytype=track
 freight=Passagiere
-payload=72
+payload[0]=0
+payload[1]=72
 overcrowded_capacity=36
 length=10
 
@@ -320,13 +322,13 @@ axles=4
 cost=490000
 runningcost=32
 
-
 can_lead_from_rear=0
 bidirectional=1
 
 min_loading_time=17
 max_loading_time=47
-comfort=74
+comfort[0]=0
+comfort[1]=74
 
 Constraint[Prev][0]=4-wheel-1870s-fitted
 Constraint[Prev][1]=4-wheel-1870s-brake-fitted

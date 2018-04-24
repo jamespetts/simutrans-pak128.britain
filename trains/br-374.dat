@@ -1,3 +1,5 @@
+# New Eurostar
+# https://en.wikipedia.org/wiki/British_Rail_Class_374
 # Multi-voltage, including 1.5k DC
 obj=vehicle
 name=BR-374(front)
@@ -11,7 +13,10 @@ intro_year=2015
 intro_month=12
 waytype=track
 freight=Passagiere
-payload=36
+payload[0]=0
+payload[1]=0
+payload[2]=0
+payload[3]=36
 length=12
 brake_force=45
 rolling_resistance=13
@@ -22,10 +27,12 @@ axles=4
 cost=1057500
 runningcost=126
 
-
 min_loading_time=35
 max_loading_time=165
-comfort=144
+comfort[0]=0
+comfort[1]=144
+comfort[2]=0
+comfort[3]=155
 
 can_lead_from_rear=1
 bidirectional=0
@@ -57,7 +64,10 @@ intro_year=2015
 intro_month=12
 waytype=track
 freight=Passagiere
-payload=76
+payload[0]=0
+payload[1]=76
+payload[2]=0
+payload[3]=0
 length=12
 brake_force=30
 rolling_resistance=13
@@ -67,10 +77,12 @@ axles=4
 cost=1899100
 runningcost=43
 
-
 min_loading_time=35
 max_loading_time=165
-comfort=144
+comfort[0]=0
+comfort[1]=144
+comfort[2]=0
+comfort[3]=155
 
 can_lead_from_rear=0
 bidirectional=1
@@ -106,7 +118,10 @@ intro_year=2015
 intro_month=12
 waytype=track
 freight=Passagiere
-payload=76
+payload[0]=0
+payload[1]=76
+payload[2]=0
+payload[3]=0
 length=12
 brake_force=45
 rolling_resistance=13
@@ -116,10 +131,12 @@ axles=4
 cost=1899100
 runningcost=43
 
-
 min_loading_time=35
 max_loading_time=165
-comfort=144
+comfort[0]=0
+comfort[1]=144
+comfort[2]=0
+comfort[3]=155
 
 can_lead_from_rear=0
 bidirectional=1
@@ -155,7 +172,10 @@ intro_year=2015
 intro_month=12
 waytype=track
 freight=Passagiere
-payload=32
+payload[0]=0
+payload[1]=32
+payload[2]=0
+payload[3]=0
 length=12
 brake_force=45
 rolling_resistance=13
@@ -169,7 +189,10 @@ catering_level=4
 
 min_loading_time=35
 max_loading_time=165
-comfort=144
+comfort[0]=0
+comfort[1]=144
+comfort[2]=0
+comfort[3]=155
 
 can_lead_from_rear=0
 bidirectional=1
@@ -195,6 +218,62 @@ EmptyImage[NE]=./images/br-374-power.1.3
 ---
 
 obj=vehicle
+name=BR-374(first)
+engine_type=electric
+speed=320
+power=2000
+tractive_effort=71
+gear=80
+copyright=James
+intro_year=2015
+intro_month=12
+waytype=track
+freight=Passagiere
+payload[0]=0
+payload[1]=0
+payload[2]=0
+payload[3]=40
+length=12
+brake_force=45
+rolling_resistance=13
+
+weight=60
+axles=4
+cost=1899100
+runningcost=43
+
+catering_level=4
+
+min_loading_time=35
+max_loading_time=165
+comfort[0]=0
+comfort[1]=144
+comfort[2]=0
+comfort[3]=155
+
+can_lead_from_rear=0
+bidirectional=1
+
+Constraint[Prev][0]=BR-374(panto)
+Constraint[Prev][1]=BR-374(power)
+Constraint[Prev][2]=BR-374(buffet)
+
+Constraint[Next][0]=BR-374(power)
+Constraint[Next][1]=BR-374(panto)
+Constraint[Next][2]=BR-374(buffet)
+
+EmptyImage[E]=./images/br-374-power.1.4
+EmptyImage[SE]=./images/br-374-power.1.5
+EmptyImage[S]=./images/br-374-power.1.6
+EmptyImage[SW]=./images/br-374-power.1.7
+EmptyImage[W]=./images/br-374-power.1.0
+EmptyImage[NW]=./images/br-374-power.1.1
+EmptyImage[N]=./images/br-374-power.1.2
+EmptyImage[NE]=./images/br-374-power.1.3
+
+---
+
+obj=vehicle
 name=BR-374(rear)
 engine_type=electric
 speed=320
@@ -206,7 +285,10 @@ intro_year=2015
 intro_month=12
 waytype=track
 freight=Passagiere
-payload=36
+payload[0]=0
+payload[1]=0
+payload[2]=0
+payload[3]=36
 length=12
 brake_force=45
 rolling_resistance=13
@@ -217,10 +299,12 @@ axles=4
 cost=1057500
 runningcost=126
 
-
 min_loading_time=35
 max_loading_time=165
-comfort=144
+comfort[0]=0
+comfort[1]=144
+comfort[2]=0
+comfort[3]=155
 
 can_lead_from_rear=1
 bidirectional=0

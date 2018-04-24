@@ -6,8 +6,13 @@ name=stagecoach-georgian
 copyright=James
 waytype=road
 freight=Passagiere
-payload=4
-overcrowded_capacity=7
+# Outside
+payload[0]=0 
+payload[1]=0
+payload[2]=7
+# Inside
+payload[3]=4
+overcrowded_capacity=0
 speed=15
 weight=0.85
 axle_load=1
@@ -20,9 +25,15 @@ retire_year=1798
 retire_month=7
 brake_force=0
 rolling_resistance=150
-# Inside only
+
 # Better suspension
-comfort=49
+# Outside
+comfort[0]=15
+comfort[1]=15
+comfort[2]=15
+# Inside
+comfort[3]=49
+
 min_loading_time=300
 max_loading_time=600
 
@@ -53,4 +64,3 @@ FreightImage[W]=./images/stagecoach-georgian-loaded_W.0.0,4,5
 FreightImage[NW]=./images/stagecoach-georgian-loaded_NW.0.0,12,10
 FreightImage[N]=./images/stagecoach-georgian-loaded_N.0.0,0,33
 FreightImage[NE]=./images/stagecoach-georgian-loaded_NE.0.0,0,24
-

@@ -1,0 +1,37 @@
+# https://en.wikipedia.org/wiki/Yorkshire_Coach_Horse
+# https://regencyredingote.wordpress.com/2013/04/12/yorkshire-coach-horse-the-regency-aston-martin/
+obj=vehicle
+name=rail-horse-yorkshire-coach-single
+engine_type=bio
+speed=18
+power=1
+gear=36
+tractive_effort=1
+copyright=James&jamespetts
+intro_year=1805
+intro_month=1
+retire_year=1918
+retire_month=3
+waytype=track
+length=2
+brake_force=1
+rolling_resistance=0
+
+weight=1.4
+axle_load=0
+cost=250000
+runningcost=3
+fixed_cost=638
+
+sound=ylearkisto-horses.wav
+range=38
+
+EmptyImage[E]=./images/horse-yorkshire-coach-single-rail_E.0.0
+EmptyImage[SE]=./images/horse-yorkshire-coach-single-rail_SE.0.0
+EmptyImage[S]=./images/horse-yorkshire-coach-single-rail_S.0.0
+EmptyImage[SW]=./images/horse-yorkshire-coach-single-rail_SW.0.0
+EmptyImage[W]=./images/horse-yorkshire-coach-single-rail_W.0.0
+EmptyImage[NW]=./images/horse-yorkshire-coach-single-rail_NW.0.0
+EmptyImage[N]=./images/horse-yorkshire-coach-single-rail_N.0.0
+EmptyImage[NE]=./images/horse-yorkshire-coach-single-rail_NE.0.0
+

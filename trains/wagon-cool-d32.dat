@@ -1,6 +1,6 @@
+# http://www.lnwrs.org.uk/Wagons/vans/Diag032.php
 obj=vehicle
 name=CoolD32
-#?
 speed=56
 copyright=James
 intro_year=1855
@@ -14,14 +14,11 @@ length=3
 brake_force=0
 rolling_resistance=19
 
-#?
-weight=4
-axle_load=6
-way_wear_factor=9100
+# http://www.lnwrs.org.uk/Wagons/vans/Diag032.php
+weight=5.5
+axle_load=5
 cost=100000
 runningcost=5
-
-
 
 min_loading_time=300
 max_loading_time=900
@@ -29,13 +26,13 @@ bidirectional=1
 
 Constraint[Next][0]=any
 
-EmptyImage[E]=./images/wagon-cool-d32.0.0
-EmptyImage[SE]=./images/wagon-cool-d32.0.1
-EmptyImage[S]=./images/wagon-cool-d32.0.2
-EmptyImage[SW]=./images/wagon-cool-d32.0.3
-EmptyImage[W]=./images/wagon-cool-d32.0.4
-EmptyImage[NW]=./images/wagon-cool-d32.0.5
-EmptyImage[N]=./images/wagon-cool-d32.0.6
-EmptyImage[NE]=./images/wagon-cool-d32.0.7
+EmptyImage[E]=./images/cool-d32_E.0.0
+EmptyImage[SE]=./images/cool-d32_SE.0.0
+EmptyImage[S]=./images/cool-d32_S.0.0
+EmptyImage[SW]=./images/cool-d32_SW.0.0
+EmptyImage[W]=./images/cool-d32_W.0.0
+EmptyImage[NW]=./images/cool-d32_NW.0.0
+EmptyImage[N]=./images/cool-d32_N.0.0
+EmptyImage[NE]=./images/cool-d32_NE.0.0
 
 

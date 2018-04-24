@@ -11,7 +11,8 @@ retire_year=1898
 retire_month=6
 waytype=track
 freight=Passagiere
-payload=40
+payload[0]=0
+payload[1]=40
 overcrowded_capacity=20
 length=8
 
@@ -21,8 +22,8 @@ cost=350000
 upgrade_price=12000
 runningcost=27
 
-
-comfort=75
+comfort[0]=0
+comfort[1]=75
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=17
@@ -102,7 +103,8 @@ retire_year=1897
 retire_month=4
 waytype=track
 freight=Passagiere
-payload=22
+payload[0]=0
+payload[1]=22
 overcrowded_capacity=15
 length=8
 
@@ -112,8 +114,8 @@ cost=390000
 upgrade_price=12000
 runningcost=29
 
-
-comfort=82
+comfort[0]=0
+comfort[1]=82
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=17
@@ -193,7 +195,8 @@ retire_year=1897
 retire_month=4
 waytype=track
 freight=Passagiere
-payload=56
+payload[0]=0
+payload[1]=56
 overcrowded_capacity=30
 length=8
 
@@ -203,8 +206,8 @@ cost=390000
 upgrade_price=12000
 runningcost=27
 
-
-comfort=82
+comfort[0]=0
+comfort[1]=82
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=17
@@ -322,7 +325,8 @@ retire_year=1897
 retire_month=4
 waytype=track
 freight=Passagiere
-payload=70
+payload[0]=0
+payload[1]=70
 overcrowded_capacity=35
 length=8
 
@@ -332,8 +336,8 @@ cost=350000
 upgrade_price=12000
 runningcost=27
 
-
-comfort=75
+comfort[0]=0
+comfort[1]=75
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=17
@@ -450,7 +454,8 @@ retire_year=1898
 retire_month=6
 waytype=track
 freight=Passagiere
-payload=40
+payload[0]=0
+payload[1]=40
 overcrowded_capacity=20
 length=8
 
@@ -460,10 +465,10 @@ cost=350000
 upgrade_price=12000
 runningcost=27
 
-
 upgrade[0]=LNWR-8wheel-radial-brake-lav-rear
 
-comfort=75
+comfort[0]=0
+comfort[1]=5
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=17
@@ -542,7 +547,8 @@ retire_year=1897
 retire_month=4
 waytype=track
 freight=Passagiere
-payload=22
+payload[0]=0
+payload[1]=22
 overcrowded_capacity=15
 length=8
 
@@ -552,8 +558,8 @@ cost=390000
 upgrade_price=12000
 runningcost=27
 
-
-comfort=82
+comfort[0]=0
+comfort[1]=82
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=17
@@ -638,7 +644,6 @@ weight=19
 axles=4
 cost=390000
 runningcost=27
-
 
 can_lead_from_rear=0
 bidirectional=1

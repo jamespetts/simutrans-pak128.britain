@@ -177,8 +177,11 @@ way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Next][0]=none
+
 Constraint[Prev][0]=IronPaddleSteamer
 Constraint[Prev][1]=PSPremier
+
+Constraint[Prev][2]=ps-premier-covered
 
 EmptyImage[E]=../images/holds.0.1,96,64
 EmptyImage[SE]=../images/holds.0.1,80,32

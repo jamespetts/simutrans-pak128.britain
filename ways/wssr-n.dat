@@ -1,4 +1,5 @@
 # 40lb/yard
+# https://www.festipedia.org.uk/wiki/Rail_Types#Bullhead
 Obj=way
 Name=wssrN
 waytype=narrowgauge_track
@@ -6,7 +7,7 @@ cost=12000
 maintenance=165
 topspeed=60
 max_weight=7
-intro_year=1871
+intro_year=1878
 intro_month=4
 retire_year=1950
 retire_month=2

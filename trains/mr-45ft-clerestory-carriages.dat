@@ -18,7 +18,6 @@ axles=4
 cost=470000
 runningcost=30
 
-
 can_lead_from_rear=0
 bidirectional=1
 
@@ -53,7 +52,6 @@ weight=23
 axles=4
 cost=520000
 runningcost=32
-
 
 can_lead_from_rear=0
 bidirectional=1

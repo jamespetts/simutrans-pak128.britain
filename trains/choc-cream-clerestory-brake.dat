@@ -8,7 +8,10 @@ retire_year=1908
 retire_month=2
 waytype=track
 freight=Passagiere
-payload=36
+payload[0]=0
+payload[1]=36
+payload[2]=0
+payload[3]=0
 length=10
 
 weight=25
@@ -16,12 +19,12 @@ axles=4
 cost=648000
 runningcost=32
 
-
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=20
 max_loading_time=50
-comfort=126
+comfort[0]=0
+comfort[1]=126
 
 Constraint[Next][0]=CC-Clerestory-Coach
 Constraint[Next][1]=CC-Clerestory-Brake

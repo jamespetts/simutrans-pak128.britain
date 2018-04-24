@@ -1,8 +1,22 @@
 obj=building
-name=COM_SAR_1860_00_24
+name=COM_SAR_1880_00_24
 copyright=Sarlock
 type=com
 level=24
+# Offices with shops underneath
+population_and_visitor_demand_capacity=260
+employment_capacity=100
+mail_demand=34
+class_proportion[0]=10
+class_proportion[1]=15
+class_proportion[2]=20
+class_proportion[3]=25
+class_proportion[4]=30
+class_proportion_jobs[0]=5
+class_proportion_jobs[1]=20
+class_proportion_jobs[2]=42
+class_proportion_jobs[3]=28
+class_proportion_jobs[4]=5
 chance=10
 intro_year=1880
 retire_year=1915

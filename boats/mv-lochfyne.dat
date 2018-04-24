@@ -8,7 +8,10 @@ sound=ship-horn_b.wav
 speed=30
 power=783
 freight=Passagiere
-payload=1200
+payload[0]=0
+payload[1]=900
+payload[2]=0
+payload[3]=300
 weight=400
 length=12
 cost=85000000
@@ -17,39 +20,41 @@ cost=85000000
 runningcost=450
 intro_year=1931
 intro_month=3
-#retire_year=1950
-#retire_month=7
+retire_year=1950
+retire_month=7
 is_tall=1
 
 # Comfort adversely affected by vibrations
-comfort=99
-catering_level=2
+comfort[0]=0
+comfort[1]=99
+comfort[2]=0
+comfort[3]=117
+catering_level=3
 # 20-30 minutes
 min_loading_time=1200
 max_loading_time=1400
+range=135
 
 way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
-EmptyImage[E]=./images/mv-lochfyne.1.4
-EmptyImage[SE]=./images/mv-lochfyne.1.5
-EmptyImage[S]=./images/mv-lochfyne.1.6
-EmptyImage[SW]=./images/mv-lochfyne.1.7
-EmptyImage[W]=./images/mv-lochfyne.1.0
-EmptyImage[NW]=./images/mv-lochfyne.1.1
-EmptyImage[N]=./images/mv-lochfyne.1.2
-EmptyImage[NE]=./images/mv-lochfyne.1.3
+EmptyImage[E]=./images/mv-lochfyne_E.0.0
+EmptyImage[SE]=./images/mv-lochfyne_SE.0.0
+EmptyImage[S]=./images/mv-lochfyne_S.0.0
+EmptyImage[SW]=./images/mv-lochfyne_SW.0.0
+EmptyImage[W]=./images/mv-lochfyne_W.0.0
+EmptyImage[NW]=./images/mv-lochfyne_NW.0.0
+EmptyImage[N]=./images/mv-lochfyne_N.0.0
+EmptyImage[NE]=./images/mv-lochfyne_NE.0.0
 
 freightimagetype[0]=Passagiere
-FreightImage[0][E]=./images/mv-lochfyne-loaded.1.4
-FreightImage[0][SE]=./images/mv-lochfyne-loaded.1.5
-FreightImage[0][S]=./images/mv-lochfyne-loaded.1.6
-FreightImage[0][SW]=./images/mv-lochfyne-loaded.1.7
-FreightImage[0][W]=./images/mv-lochfyne-loaded.1.0
-FreightImage[0][NW]=./images/mv-lochfyne-loaded.1.1
-FreightImage[0][N]=./images/mv-lochfyne-loaded.1.2
-FreightImage[0][NE]=./images/mv-lochfyne-loaded.1.3
-
-----------
+FreightImage[0][E]=./images/mv-lochfyne-loaded_E.0.0
+FreightImage[0][SE]=./images/mv-lochfyne-loaded_SE.0.0
+FreightImage[0][S]=./images/mv-lochfyne-loaded_S.0.0
+FreightImage[0][SW]=./images/mv-lochfyne-loaded_SW.0.0
+FreightImage[0][W]=./images/mv-lochfyne-loaded_W.0.0
+FreightImage[0][NW]=./images/mv-lochfyne-loaded_NW.0.0
+FreightImage[0][N]=./images/mv-lochfyne-loaded_N.0.0
+FreightImage[0][NE]=./images/mv-lochfyne-loaded_NE.0.0

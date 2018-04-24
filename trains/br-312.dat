@@ -11,7 +11,10 @@ retire_year=1981
 retire_month=4
 waytype=track
 freight=Passagiere
-payload=84
+payload[0]=0
+payload[1]=84
+payload[2]=0
+payload[3]=0
 overcrowded_capacity=45
 length=11
 
@@ -28,7 +31,10 @@ way_constraint_permissive[2]=2
 
 min_loading_time=25
 max_loading_time=120
-comfort=84
+comfort[0]=0
+comfort[1]=83
+comfort[2]=0
+comfort[3]=130
 
 # Multiple working with BR classes 302-312:
 # http://en.wikipedia.org/wiki/British_Rail_Class_312
@@ -86,7 +92,10 @@ retire_year=1981
 retire_month=4
 waytype=track
 freight=Passagiere
-payload=84
+payload[0]=0
+payload[1]=84
+payload[2]=0
+payload[3]=0
 overcrowded_capacity=45
 length=11
 
@@ -94,7 +103,6 @@ weight=35
 axles=4
 cost=1272000
 runningcost=44
-sound=video47-emu-generic.wav
 increase_maintenance_after_years=13
 
 can_lead_from_rear=0
@@ -103,7 +111,10 @@ way_constraint_permissive[2]=2
 
 min_loading_time=25
 max_loading_time=120
-comfort=84
+comfort[0]=0
+comfort[1]=83
+comfort[2]=0
+comfort[3]=130
 
 Constraint[Prev][0]=BR-312-BDTSOL
 
@@ -157,7 +168,10 @@ retire_year=1981
 retire_month=4
 waytype=track
 freight=Passagiere
-payload=90
+payload[0]=0
+payload[1]=90
+payload[2]=0
+payload[3]=0
 overcrowded_capacity=77
 length=11
 
@@ -174,7 +188,10 @@ way_constraint_permissive[2]=2
 
 min_loading_time=25
 max_loading_time=120
-comfort=84
+comfort[0]=0
+comfort[1]=83
+comfort[2]=0
+comfort[3]=130
 
 Constraint[Prev][0]=BR-312-MBSO
 
@@ -226,7 +243,10 @@ retire_year=1981
 retire_month=4
 waytype=track
 freight=Passagiere
-payload=84
+payload[0]=0
+payload[1]=41
+payload[2]=0
+payload[3]=19
 overcrowded_capacity=50
 length=11
 
@@ -243,7 +263,10 @@ way_constraint_permissive[2]=2
 
 min_loading_time=25
 max_loading_time=120
-comfort=84
+comfort[0]=0
+comfort[1]=83
+comfort[2]=0
+comfort[3]=130
 
 Constraint[Prev][0]=BR-312-TSO
 

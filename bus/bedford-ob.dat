@@ -1,0 +1,44 @@
+# https://en.wikipedia.org/wiki/Bedford_OB
+obj=vehicle
+name=bedford-ob
+copyright=Hotrod1
+# https://3dwarehouse.sketchup.com/model/6df43847-51af-4b8f-89bf-a11eb3c9cd11/1949-Bedford-OB
+waytype=road
+engine_type=petrol
+freight=Passagiere
+payload=29
+overcrowded_capacity=0
+speed=64
+# http://storfjorden.no/asite/images/Busser/Bedford_modeller.pdf
+power=62
+tractive_effort=4
+gear=50
+weight=3.6
+length=5
+cost=630000
+runningcost=100
+intro_year=1939
+intro_month=8
+retire_year=1951
+retire_month=11
+is_tall=0
+sound=philflyer-bedford-ob.wav
+
+comfort=63
+# Coach (short distance): 5.0 seconds per passenger
+min_loading_time=30
+max_loading_time=140
+
+Constraint[Prev][0]=none
+Constraint[Next][0]=none
+
+liverytype[0]=Non-London
+
+EmptyImage[E][0]=./images/bedford-ob_E.0.0,-33,14
+EmptyImage[SE][0]=./images/bedford-ob_SE.0.0,-13,0
+EmptyImage[S][0]=./images/bedford-ob_S.0.0,0,0
+EmptyImage[SW][0]=./images/bedford-ob_SW.0.0,-8,10
+EmptyImage[W][0]=./images/bedford-ob_W.0.0,4,5
+EmptyImage[NW][0]=./images/bedford-ob_NW.0.0,12,10
+EmptyImage[N][0]=./images/bedford-ob_N.0.0,0,33
+EmptyImage[NE][0]=./images/bedford-ob_NE.0.0,0,24

@@ -1,16 +1,20 @@
 # http://www.lbscr.org/models/coaches/JH-photos/1851-Second.jpg
+# http://web.archive.org/web/20170315123748/http://www.lbscr.org/models/coaches/JH-photos/1851-Second.jpg
+# This vehicle is inferred to be earlier than the larger vehicles, but this is not clearly confirmed.
 
 obj=vehicle
 name=LBSCR-4wheel-parliamentary-second
-speed=115
+speed=125
 copyright=JamesPetts
-intro_year=1850
+intro_year=1851
 intro_month=11
-retire_year=1855
+retire_year=1858
 retire_month=1
 waytype=track
 freight=Passagiere
-payload=32
+payload[0]=0
+payload[1]=0
+payload[2]=32
 overcrowded_capacity=16
 length=3
 brake_force=0
@@ -21,8 +25,9 @@ axles=2
 cost=99000
 runningcost=8
 
-
-comfort=31
+comfort[0]=0
+comfort[1]=0
+comfort[2]=31
 min_loading_time=17
 max_loading_time=47
 
@@ -31,48 +36,7 @@ bidirectional=1
 
 upgrade[0]=milk-van
 
-Constraint[Next][0]=LBSCR-4wheel-open
-Constraint[Next][1]=LBSCR-4wheel-open-brake
-Constraint[Next][2]=LBSCR-4wheel-open-sided
-Constraint[Next][3]=LBSCR-4wheel-open-sided-brake
-Constraint[Next][4]=LBSCR-4wheel-parliamentary-second
-Constraint[Next][5]=LBSCR-4wheel-parliamentary-third
-Constraint[Next][6]=LBSCR-4wheel-parliamentary-third-brake
-Constraint[Next][7]=LBSCR-20ft-third
-Constraint[Next][8]=LBSCR-20ft-brake-rear
-Constraint[Next][9]=LBSCR-20ft-full-brake
-Constraint[Next][10]=LBSCR-20ft-mail
-Constraint[Next][11]=LBSCR-craven-third
-Constraint[Next][12]=LBSCR-craven-second
-Constraint[Next][13]=LBSCR-craven-brake-rear
-Constraint[Next][14]=LBSCR-craven-full-brake
-Constraint[Next][15]=LBSCR-craven-mail
-Constraint[Next][16]=LBSCR-4Wheel-Brake-rear
-Constraint[Next][17]=LBSCR-4Wheel-First
-Constraint[Next][18]=LBSCR-4Wheel-full-brake
-Constraint[Next][19]=LBSCR-4Wheel-Second
-
-Constraint[Prev][0]=LBSCR-4wheel-open
-Constraint[Prev][1]=LBSCR-4wheel-open-brake
-Constraint[Prev][2]=LBSCR-4wheel-open-sided
-Constraint[Prev][3]=LBSCR-4wheel-open-sided-brake
-Constraint[Prev][4]=LBSCR-4wheel-parliamentary-second
-Constraint[Prev][5]=LBSCR-4wheel-parliamentary-third
-Constraint[Prev][6]=LBSCR-4wheel-parliamentary-third-brake
-Constraint[Prev][7]=LBSCR-20ft-third
-Constraint[Prev][8]=LBSCR-20ft-brake-front
-Constraint[Prev][9]=LBSCR-20ft-full-brake
-Constraint[Prev][10]=LBSCR-20ft-mail
-Constraint[Prev][11]=LBSCR-craven-third
-Constraint[Prev][12]=LBSCR-craven-second
-Constraint[Prev][13]=LBSCR-craven-brake-front
-Constraint[Prev][14]=LBSCR-craven-full-brake
-Constraint[Prev][15]=LBSCR-craven-mail
-Constraint[Prev][16]=LBSCR-4Wheel-Brake-front
-Constraint[Prev][17]=LBSCR-4Wheel-First
-Constraint[Prev][18]=LBSCR-4Wheel-full-brake
-Constraint[Prev][19]=LBSCR-4Wheel-Second
-
+Constraint[Next][0]=any
 
 EmptyImage[E]=./images/lbscr-4wheel-parliamentary-second.1.4
 EmptyImage[SE]=./images/lbscr-4wheel-parliamentary-second.1.5
@@ -86,19 +50,21 @@ EmptyImage[NE]=./images/lbscr-4wheel-parliamentary-second.1.3
 ---
 
 # http://www.lbscr.org/models/coaches/JH-photos/1850-Third.jpg
+# http://web.archive.org/web/20170315134232/http://lbscr.org/Models/coaches/JH-photos/1850-Third.jpg
 
 obj=vehicle
 name=LBSCR-4wheel-parliamentary-third
-speed=115
+speed=125
 copyright=JamesPetts
 intro_year=1850
 intro_month=11
-retire_year=1855
+retire_year=1857
 retire_month=1
 waytype=track
 freight=Passagiere
-payload=40
-overcrowded_capacity=20
+payload[0]=0
+payload[1]=50
+overcrowded_capacity=25
 length=4
 brake_force=0
 rolling_resistance=19
@@ -109,8 +75,8 @@ cost=98000
 upgrade_price=24500
 runningcost=8
 
-
-comfort=31
+comfort[0]=0
+comfort[1]=31
 min_loading_time=17
 max_loading_time=47
 
@@ -119,47 +85,7 @@ bidirectional=1
 
 upgrade[0]=milk-van
 
-Constraint[Next][0]=LBSCR-4wheel-open
-Constraint[Next][1]=LBSCR-4wheel-open-brake
-Constraint[Next][2]=LBSCR-4wheel-open-sided
-Constraint[Next][3]=LBSCR-4wheel-open-sided-brake
-Constraint[Next][4]=LBSCR-4wheel-parliamentary-second
-Constraint[Next][5]=LBSCR-4wheel-parliamentary-third
-Constraint[Next][6]=LBSCR-4wheel-parliamentary-third-brake
-Constraint[Next][7]=LBSCR-20ft-third
-Constraint[Next][8]=LBSCR-20ft-brake-rear
-Constraint[Next][9]=LBSCR-20ft-full-brake
-Constraint[Next][10]=LBSCR-20ft-mail
-Constraint[Next][11]=LBSCR-craven-third
-Constraint[Next][12]=LBSCR-craven-second
-Constraint[Next][13]=LBSCR-craven-brake-rear
-Constraint[Next][14]=LBSCR-craven-full-brake
-Constraint[Next][15]=LBSCR-craven-mail
-Constraint[Next][16]=LBSCR-4Wheel-Brake-rear
-Constraint[Next][17]=LBSCR-4Wheel-First
-Constraint[Next][18]=LBSCR-4Wheel-full-brake
-Constraint[Next][19]=LBSCR-4Wheel-Second
-
-Constraint[Prev][0]=LBSCR-4wheel-open
-Constraint[Prev][1]=LBSCR-4wheel-open-brake
-Constraint[Prev][2]=LBSCR-4wheel-open-sided
-Constraint[Prev][3]=LBSCR-4wheel-open-sided-brake
-Constraint[Prev][4]=LBSCR-4wheel-parliamentary-second
-Constraint[Prev][5]=LBSCR-4wheel-parliamentary-third
-Constraint[Prev][6]=LBSCR-4wheel-parliamentary-third-brake
-Constraint[Prev][7]=LBSCR-20ft-third
-Constraint[Prev][8]=LBSCR-20ft-brake-front
-Constraint[Prev][9]=LBSCR-20ft-full-brake
-Constraint[Prev][10]=LBSCR-20ft-mail
-Constraint[Prev][11]=LBSCR-craven-third
-Constraint[Prev][12]=LBSCR-craven-second
-Constraint[Prev][13]=LBSCR-craven-brake-front
-Constraint[Prev][14]=LBSCR-craven-full-brake
-Constraint[Prev][15]=LBSCR-craven-mail
-Constraint[Prev][16]=LBSCR-4Wheel-Brake-front
-Constraint[Prev][17]=LBSCR-4Wheel-First
-Constraint[Prev][18]=LBSCR-4Wheel-full-brake
-Constraint[Prev][19]=LBSCR-4Wheel-Second
+Constraint[Next][0]=any
 
 
 EmptyImage[E]=./images/lbscr-4wheel-parliamentary-third.1.4
@@ -183,8 +109,9 @@ retire_year=1855
 retire_month=1
 waytype=track
 freight=Passagiere
-payload=38
-overcrowded_capacity=19
+payload[0]=0
+payload[1]=48
+overcrowded_capacity=24
 length=4
 brake_force=1
 rolling_resistance=19
@@ -194,8 +121,8 @@ axles=2
 cost=105000
 runningcost=8
 
-
-comfort=31
+comfort[0]=0
+comfort[1]=31
 min_loading_time=17
 max_loading_time=47
 

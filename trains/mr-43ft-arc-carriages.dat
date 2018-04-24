@@ -8,7 +8,8 @@ retire_year=1897
 retire_month=5
 waytype=track
 freight=Passagiere
-payload=70
+payload[0]=0
+payload[1]=70
 overcrowded_capacity=35
 # 45ft
 length=8
@@ -25,7 +26,8 @@ can_lead_from_rear=0
 bidirectional=1
 min_loading_time=20
 max_loading_time=50
-comfort=77
+comfort[0]=0
+comfort[1]=77
 
 Constraint[Next][0]=4-wheel-1870s-fitted
 Constraint[Next][1]=4-wheel-1870s-brake-fitted
@@ -145,7 +147,6 @@ Constraint[Prev][55]=MR-54ft-eliptical-non-lav-brake-front-d1246
 Constraint[Prev][56]=MR-60ft-clerestory-lav-3rd-d484
 Constraint[Prev][57]=MR-60ft-clerestory-brake-3rd-d496-front
 
-
 liverytype[0]=MR-Early
 liverytype[1]=MR-Standard
 
@@ -179,7 +180,8 @@ retire_year=1897
 retire_month=5
 waytype=track
 freight=Passagiere
-payload=58
+payload[0]=0
+payload[1]=58
 overcrowded_capacity=30
 # 45ft
 length=8
@@ -198,7 +200,8 @@ can_lead_from_rear=0
 bidirectional=1
 min_loading_time=20
 max_loading_time=50
-comfort=88
+comfort[0]=0
+comfort[1]=88
 
 Constraint[Next][0]=4-wheel-1870s-fitted
 Constraint[Next][1]=4-wheel-1870s-brake-fitted
@@ -340,7 +343,8 @@ retire_year=1897
 retire_month=5
 waytype=track
 freight=Passagiere
-payload=50
+payload[0]=0
+payload[1]=50
 overcrowded_capacity=25
 # 45ft
 length=8
@@ -351,13 +355,14 @@ axles=4
 cost=510000
 runningcost=29
 
-upgrade[0]=MR-clayton-8wheel-arc-roof-brake-front-lav
+upgrade[0]=MR-clayton-8wheel-arc-roof-brake-lav-front
 
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=20
 max_loading_time=50
-comfort=77
+comfort[0]=0
+comfort[1]=77
 
 Constraint[Next][0]=4-wheel-1870s-fitted
 Constraint[Next][1]=4-wheel-1870s-brake-fitted
@@ -452,7 +457,8 @@ retire_year=1897
 retire_month=5
 waytype=track
 freight=Passagiere
-payload=50
+payload[0]=0
+payload[1]=50
 overcrowded_capacity=25
 # 45ft
 length=8
@@ -463,13 +469,14 @@ axles=4
 cost=510000
 runningcost=29
 
-upgrade[0]=MR-clayton-8wheel-arc-roof-brake-rear-lav
+upgrade[0]=MR-clayton-8wheel-arc-roof-brake-lav-rear
 
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=20
 max_loading_time=50
-comfort=77
+comfort[0]=0
+comfort[1]=77
 
 Constraint[Prev][0]=4-wheel-1870s-fitted
 Constraint[Prev][1]=4-wheel-1870s-brake-fitted
@@ -564,7 +571,8 @@ retire_year=1897
 retire_month=5
 waytype=track
 freight=Passagiere
-payload=38
+payload[0]=0
+payload[1]=38
 overcrowded_capacity=20
 # 45ft
 length=8
@@ -583,7 +591,8 @@ can_lead_from_rear=0
 bidirectional=1
 min_loading_time=20
 max_loading_time=50
-comfort=88
+comfort[0]=0
+comfort[1]=88
 
 Constraint[Next][0]=4-wheel-1870s-fitted
 Constraint[Next][1]=4-wheel-1870s-brake-fitted
@@ -666,7 +675,8 @@ retire_year=1897
 retire_month=5
 waytype=track
 freight=Passagiere
-payload=38
+payload[0]=0
+payload[1]=38
 overcrowded_capacity=20
 # 45ft
 length=8
@@ -684,7 +694,8 @@ can_lead_from_rear=0
 bidirectional=1
 min_loading_time=20
 max_loading_time=50
-comfort=88
+comfort[0]=0
+comfort[1]=88
 
 Constraint[Prev][0]=4-wheel-1870s-fitted
 Constraint[Prev][1]=4-wheel-1870s-brake-fitted
@@ -902,7 +913,6 @@ Constraint[Prev][54]=MR-54ft-eliptical-non-lav-d1277
 Constraint[Prev][55]=MR-54ft-eliptical-non-lav-brake-front-d1246
 Constraint[Prev][56]=MR-60ft-clerestory-lav-3rd-d484
 Constraint[Prev][57]=MR-60ft-clerestory-brake-3rd-d496-front
-
 
 liverytype[0]=MR-Early
 liverytype[1]=MR-Standard

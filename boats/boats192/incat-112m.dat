@@ -4,12 +4,11 @@ name=Incat112m
 copyright=James
 waytype=water
 engine_type=diesel
-smoke=Diesel
 speed=80
 power=32000
-gear=100
 freight=Passagiere
-payload=1200
+payload[0]=0
+payload[1]=1200
 weight=750
 length=12
 cost=162500000
@@ -17,11 +16,13 @@ runningcost=870
 intro_year=2009
 intro_month=2
 
-comfort=156
+comfort[0]=0
+comfort[1]=176
 catering_level=4
 # 30-40 minutes
 min_loading_time=1800
 max_loading_time=2400
+range=350
 
 Constraint[Next][0]=Incat112m(AddMail)
 Constraint[Prev][0]=none

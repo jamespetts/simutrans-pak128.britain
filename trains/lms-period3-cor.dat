@@ -13,7 +13,8 @@ retire_month=2
 waytype=track
 freight=Passagiere
 # Three per side in the thirds. Long distance stock.
-payload=42
+payload[0]=0
+payload[1]=42
 overcrowded_capacity=20
 length=10
 
@@ -22,9 +23,9 @@ axles=4
 cost=755000
 runningcost=37
 
-
 # Long distance three per side in the thirds, no individual compartment doors.
-comfort=145
+comfort[0]=0
+comfort[1]=145
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=25
@@ -174,7 +175,8 @@ retire_month=2
 waytype=track
 freight=Passagiere
 # Three per side in the thirds. Long distance stock.
-payload=24
+payload[0]=0
+payload[1]=24
 overcrowded_capacity=10
 length=10
 
@@ -183,9 +185,9 @@ axles=4
 cost=755000
 runningcost=37
 
-
 # Long distance three per side in the thirds, no individual compartment doors.
-comfort=143
+comfort[0]=0
+comfort[1]=143
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=25
@@ -287,7 +289,8 @@ retire_month=2
 waytype=track
 freight=Passagiere
 # Three per side in the thirds. Long distance stock.
-payload=24
+payload[0]=0
+payload[1]=24
 overcrowded_capacity=10
 length=10
 
@@ -296,9 +299,9 @@ axles=4
 cost=755000
 runningcost=37
 
-
 # Long distance three per side in the thirds, no individual compartment doors.
-comfort=143
+comfort[0]=0
+comfort[1]=143
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=25
@@ -400,7 +403,8 @@ retire_month=2
 waytype=track
 freight=Passagiere
 # 2 + 2 seating
-payload=60
+payload[0]=0
+payload[1]=60
 overcrowded_capacity=32
 length=10
 
@@ -409,13 +413,13 @@ axles=4
 cost=700000
 runningcost=37
 
-
 # "High capacity" open third.
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=25
 max_loading_time=180
-comfort=136
+comfort[0]=0
+comfort[1]=136
 
 Constraint[Next][0]=LNWR-45ft-cor-full-brake
 Constraint[Next][1]=LNWR-42ft-cor
@@ -561,7 +565,8 @@ retire_month=2
 waytype=track
 freight=Passagiere
 # 2 + 2 seating
-payload=40
+payload[0]=0
+payload[1]=40
 overcrowded_capacity=22
 length=10
 
@@ -570,12 +575,12 @@ axles=4
 cost=700000
 runningcost=37
 
-
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=25
 max_loading_time=180
-comfort=136
+comfort[0]=0
+comfort[1]=136
 
 Constraint[Next][0]=LNWR-45ft-cor-full-brake
 Constraint[Next][1]=LNWR-42ft-cor
@@ -673,7 +678,8 @@ retire_month=2
 waytype=track
 freight=Passagiere
 # 2 + 2 seating
-payload=40
+payload[0]=0
+payload[1]=40
 overcrowded_capacity=22
 length=10
 
@@ -682,12 +688,12 @@ axles=4
 cost=700000
 runningcost=37
 
-
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=25
 max_loading_time=180
-comfort=136
+comfort[0]=0
+comfort[1]=136
 
 Constraint[Prev][0]=LNWR-45ft-cor-full-brake
 Constraint[Prev][1]=LNWR-42ft-cor
@@ -783,7 +789,8 @@ retire_year=1951
 retire_month=2
 waytype=track
 freight=Passagiere
-payload=33
+payload[0]=0
+payload[1]=33
 length=11
 rolling_resistance=17
 
@@ -792,12 +799,12 @@ axles=4
 cost=910000
 runningcost=50
 
-
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=25
 max_loading_time=180
-comfort=136
+comfort[0]=0
+comfort[1]=136
 catering_level=4
 
 Constraint[Next][0]=LNWR-45ft-cor-full-brake
@@ -943,7 +950,8 @@ retire_year=1951
 retire_month=2
 waytype=track
 freight=Passagiere
-payload=24
+payload[0]=0
+payload[1]=24
 overcrowded_capacity=10
 length=10
 
@@ -952,12 +960,12 @@ axles=4
 cost=820000
 runningcost=44
 
-
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=25
 max_loading_time=180
-comfort=136
+comfort[0]=0
+comfort[1]=136
 catering_level=3
 
 Constraint[Next][0]=LNWR-45ft-cor-full-brake
@@ -1111,7 +1119,6 @@ axles=4
 cost=548000
 runningcost=22
 
-
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=25
@@ -1168,7 +1175,6 @@ weight=30
 axles=4
 cost=700000
 runningcost=37
-
 
 can_lead_from_rear=0
 bidirectional=1
@@ -1324,7 +1330,6 @@ weight=30
 axles=4
 cost=777500
 runningcost=39
-
 
 can_lead_from_rear=0
 bidirectional=1

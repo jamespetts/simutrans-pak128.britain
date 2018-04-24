@@ -12,7 +12,8 @@ retire_year=1955
 retire_month=10
 waytype=track
 freight=Passagiere
-payload=70
+payload[0]=0
+payload[1]=70
 overcrowded_capacity=35
 length=11
 
@@ -28,7 +29,8 @@ way_constraint_permissive[0]=0
 
 min_loading_time=15
 max_loading_time=45
-comfort=72
+comfort[0]=0
+comfort[1]=72
 
 Constraint[Prev][0]=SR-3SUB(rear)
 Constraint[Prev][1]=LSWR-EMU(rear)
@@ -89,9 +91,11 @@ retire_year=1955
 retire_month=10
 waytype=track
 freight=Passagiere
-# In reality, 56 - but this includes first class. There were 8 compartments, the 3rd class compartments seating 12 each.
-payload=64
-overcrowded_capacity=32
+payload[0]=0
+payload[1]=32
+payload[2]=0
+payload[3]=24
+overcrowded_capacity=16
 length=11
 
 weight=31
@@ -105,7 +109,10 @@ bidirectional=0
 
 min_loading_time=15
 max_loading_time=45
-comfort=83
+comfort[0]=0
+comfort[1]=83
+comfort[2]=0
+comfort[3]=91
 
 Constraint[Prev][0]=sr-2hal-front
 

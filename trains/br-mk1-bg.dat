@@ -19,7 +19,6 @@ axles=4
 cost=583000
 runningcost=66
 
-
 can_lead_from_rear=0
 bidirectional=1
 upgrade[0]=BR-499[TLV]

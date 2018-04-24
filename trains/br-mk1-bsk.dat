@@ -8,7 +8,10 @@ retire_year=1963
 retire_month=8
 waytype=track
 freight=Passagiere
-payload=24
+payload[0]=0
+payload[1]=24
+payload[2]=0
+payload[3]=0
 overcrowded_capacity=22
 length=11
 
@@ -17,12 +20,15 @@ axles=4
 cost=595000
 runningcost=34
 
-
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=25
 max_loading_time=120
-comfort=144
+comfort[0]=0
+comfort[1]=144
+comfort[2]=0
+comfort[3]=157
+
 increase_maintenance_after_years=34
 
 Constraint[Next][0]=BR-Mk1-GUV
@@ -41,7 +47,15 @@ Constraint[Next][12]=BR-Mk2-TSO
 Constraint[Next][13]=BR-Mk2-RFB
 Constraint[Next][14]=LNER-Gresley-Express-Dining
 Constraint[Next][15]=LNER-Gresley-Express-Buffet
-Constraint[Next][16]=none
+Constraint[Next][16]=BR-Mk1-BFK-rear
+Constraint[Next][17]=BR-Mk1-CK
+Constraint[Next][18]=BR-Mk1-FK
+Constraint[Next][19]=BR-Mk1-FO
+Constraint[Next][20]=BR-Mk2a-FK
+Constraint[Next][21]=BR-Mk2a-BFK
+Constraint[Next][22]=BR-Mk2-FO
+Constraint[Next][23]=BR-Mk1-FK
+Constraint[Next][24]=none
 
 liverytype[0]=BR-Early
 liverytype[1]=BR-Revised
@@ -116,7 +130,10 @@ retire_year=1963
 retire_month=8
 waytype=track
 freight=Passagiere
-payload=24
+payload[0]=0
+payload[1]=24
+payload[2]=0
+payload[3]=0
 overcrowded_capacity=22
 length=11
 
@@ -125,12 +142,15 @@ axles=4
 cost=595000
 runningcost=34
 
-
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=25
 max_loading_time=120
-comfort=144
+comfort[0]=0
+comfort[1]=144
+comfort[2]=0
+comfort[3]=157
+
 increase_maintenance_after_years=34
 
 Constraint[Prev][0]=BR-Mk1-GUV
@@ -149,6 +169,14 @@ Constraint[Prev][12]=BR-Mk2-TSO
 Constraint[Prev][13]=BR-Mk2-RFB
 Constraint[Prev][14]=LNER-Gresley-Express-Dining
 Constraint[Prev][15]=LNER-Gresley-Express-Buffet
+Constraint[Prev][16]=BR-Mk1-BFK-front
+Constraint[Prev][17]=BR-Mk1-CK
+Constraint[Prev][18]=BR-Mk1-FK
+Constraint[Prev][19]=BR-Mk1-FO
+Constraint[Prev][20]=BR-Mk2a-FK
+Constraint[Prev][21]=BR-Mk2a-BFK
+Constraint[Prev][22]=BR-Mk2-FO
+Constraint[Prev][23]=BR-Mk1-FK
 
 liverytype[0]=BR-Early
 liverytype[1]=BR-Revised

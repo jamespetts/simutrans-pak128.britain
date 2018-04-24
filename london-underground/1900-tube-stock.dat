@@ -13,7 +13,8 @@ retire_year=1923
 retire_month=1
 waytype=track
 freight=Passagiere
-payload=42
+payload[0]=0
+payload[1]=42
 overcrowded_capacity=84
 
 weight=23
@@ -31,7 +32,8 @@ way_constraint_permissive[3]=3
 
 min_loading_time=22
 max_loading_time=80
-comfort=53
+comfort[0]=0
+comfort[1]=53
 
 Constraint[Prev][0]=1903TubeStockRear
 Constraint[Prev][1]=none
@@ -59,7 +61,8 @@ retire_year=1923
 retire_month=5
 waytype=track
 freight=Passagiere
-payload=48
+payload[0]=0
+payload[1]=48
 overcrowded_capacity=120
 
 weight=15
@@ -79,7 +82,8 @@ way_constraint_permissive[3]=3
 
 min_loading_time=22
 max_loading_time=80
-comfort=53
+comfort[0]=0
+comfort[1]=53
 
 Constraint[Prev][0]=1903TubeStockFront
 Constraint[Prev][1]=1900TubeStockTrailer
@@ -115,7 +119,8 @@ retire_year=1923
 retire_month=1
 waytype=track
 freight=Passagiere
-payload=42
+payload[0]=0
+payload[1]=42
 overcrowded_capacity=84
 
 weight=23
@@ -133,7 +138,8 @@ way_constraint_permissive[3]=3
 
 min_loading_time=22
 max_loading_time=80
-comfort=53
+comfort[0]=0
+comfort[1]=53
 
 Constraint[Prev][0]=1900TubeStockTrailer
 

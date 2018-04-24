@@ -29,8 +29,8 @@ max_loading_time=2750
 catering_level=3
 upgrade[0]=vickers-vanguard-952-piece
 upgrade[1]=vickers-vanguard-952-cool
-upgrade[2]=vickers-vanguard-923-piece
-upgrade[3]=vickers-vanguard-923-cool
+upgrade[2]=vickers-vanguard-953-piece
+upgrade[3]=vickers-vanguard-953-cool
 
 # @ ISA (sea level, 0Centigrades), Runway Dry
 #minimum_runway_length=2286

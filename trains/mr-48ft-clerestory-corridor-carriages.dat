@@ -9,7 +9,8 @@ retire_year=1904
 retire_month=3
 waytype=track
 freight=Passagiere
-payload=36
+payload[0]=0
+payload[1]=36
 overcrowded_capacity=18
 length=9
 
@@ -18,13 +19,13 @@ axles=4
 cost=560000
 runningcost=38
 
-
 can_lead_from_rear=0
 bidirectional=1
 
 min_loading_time=20
 max_loading_time=50
-comfort=133
+comfort[0]=0
+comfort[1]=133
 
 Constraint[Next][0]=MR-31ft-clerestory-cor-brake-d568
 Constraint[Next][1]=MR-48ft-clerestory-cor-d575
@@ -113,7 +114,8 @@ retire_year=1904
 retire_month=3
 waytype=track
 freight=Passagiere
-payload=24
+payload[0]=0
+payload[1]=24
 overcrowded_capacity=12
 length=9
 
@@ -122,13 +124,13 @@ axles=4
 cost=560000
 runningcost=38
 
-
 can_lead_from_rear=0
 bidirectional=1
 
 min_loading_time=20
 max_loading_time=50
-comfort=133
+comfort[0]=0
+comfort[1]=133
 
 Constraint[Next][0]=MR-31ft-clerestory-cor-brake-d568
 Constraint[Next][1]=MR-48ft-clerestory-cor-d575
@@ -184,7 +186,8 @@ retire_year=1904
 retire_month=3
 waytype=track
 freight=Passagiere
-payload=24
+payload[0]=0
+payload[1]=24
 overcrowded_capacity=12
 length=9
 
@@ -193,13 +196,13 @@ axles=4
 cost=560000
 runningcost=38
 
-
 can_lead_from_rear=0
 bidirectional=1
 
 min_loading_time=20
 max_loading_time=50
-comfort=133
+comfort[0]=0
+comfort[1]=133
 
 Constraint[Prev][0]=MR-31ft-clerestory-cor-brake-d568
 Constraint[Prev][1]=MR-48ft-clerestory-cor-d575
@@ -263,7 +266,6 @@ weight=24
 axles=4
 cost=550000
 runningcost=36
-
 
 can_lead_from_rear=0
 bidirectional=1

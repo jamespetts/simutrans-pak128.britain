@@ -6,9 +6,15 @@ name=StageCoach
 copyright=James
 waytype=road
 freight=Passagiere
-payload=4
-overcrowded_capacity=6
-speed=11
+# Outside
+payload[0]=0 
+payload[1]=0
+payload[2]=6
+# Inside
+payload[3]=4
+overcrowded_capacity=0
+# The speed of theis early one is guessed.
+speed=12
 weight=1.35
 axle_load=1
 length=3
@@ -21,9 +27,13 @@ retire_month=6
 brake_force=0
 rolling_resistance=182
 
-# Inside only
 # Apparently, these have a *very* hard/bumpy ride.
-comfort=38
+# Outside
+comfort[0]=12
+comfort[1]=12
+comfort[2]=12
+# Inside
+comfort[3]=38
 min_loading_time=300
 max_loading_time=600
 
@@ -54,4 +64,3 @@ FreightImage[W]=./images/stagecoach-early-loaded_W.0.0,4,5
 FreightImage[NW]=./images/stagecoach-early-loaded_NW.0.0,12,10
 FreightImage[N]=./images/stagecoach-early-loaded_N.0.0,0,33
 FreightImage[NE]=./images/stagecoach-early-loaded_NE.0.0,0,24
-

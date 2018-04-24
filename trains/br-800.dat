@@ -1,6 +1,8 @@
 # TODO: In reality, these are bi-mode vehicles.
 # Make these electro-diesel when bi-mode capability is added to the code.
-# TODO: When these are introduced, ascertain whether there are buffet car facilities and add these if necessary.
+# https://en.wikipedia.org/wiki/British_Rail_Class_800
+# These have a trolley and a kitchen, so hard to judge appropriate catering level.
+# http://www.hitachi.com/rev/pdf/2014/r2014_10_105.pdf
 obj=vehicle
 name=BR-800Front
 engine_type=diesel
@@ -9,13 +11,14 @@ speed=225
 power=0
 copyright=Kieron/James
 intro_year=2017
-intro_month=1
-#retire_year=2045
-#retire_month=1
+intro_month=10
 waytype=track
 freight=Passagiere
-payload=35
-overcrowded_capacity=9
+payload[0]=0
+payload[1]=0
+payload[2]=0
+payload[3]=15
+overcrowded_capacity=0
 length=14
 brake_force=30
 rolling_resistance=13
@@ -29,7 +32,11 @@ sound=johno4521-class-800-diesel.wav
 
 min_loading_time=28
 max_loading_time=160
-comfort=129
+comfort[0]=0
+comfort[1]=129
+comfort[2]=0
+comfort[3]=142
+catering_level=2
 
 can_lead_from_rear=1
 bidirectional=0
@@ -60,12 +67,13 @@ tractive_effort=55
 gear=50
 copyright=Kieron/James
 intro_year=2017
-intro_month=1
-#retire_year=2045
-#retire_month=1
+intro_month=10
 waytype=track
 freight=Passagiere
-payload=72
+payload[0]=0
+payload[1]=88
+payload[2]=0
+payload[3]=0
 overcrowded_capacity=18
 length=14
 brake_force=35
@@ -76,10 +84,12 @@ axles=4
 cost=2067000
 runningcost=660
 
-
 min_loading_time=28
 max_loading_time=160
-comfort=129
+comfort[0]=0
+comfort[1]=129
+comfort[2]=0
+comfort[3]=142
 
 can_lead_from_rear=0
 bidirectional=1
@@ -87,12 +97,12 @@ bidirectional=1
 Constraint[Prev][0]=BR-800Front
 Constraint[Prev][1]=BR-800MiddlePower
 Constraint[Prev][2]=BR-800MiddleTrailer
-Constraint[Prev][3]=BR-800MiddleTrolley
+Constraint[Prev][3]=BR-800MiddleComposite
 
 Constraint[Next][0]=BR-800MiddlePower
 Constraint[Next][1]=BR-800Rear
 Constraint[Next][2]=BR-800MiddleTrailer
-Constraint[Next][3]=BR-800MiddleTrolley
+Constraint[Next][3]=BR-800MiddleComposite
 
 EmptyImage[E]=./images/br-800-middle-gwr.1.4
 EmptyImage[SE]=./images/br-800-middle-gwr.1.5
@@ -111,12 +121,13 @@ engine_type=diesel
 speed=225
 copyright=Kieron/James
 intro_year=2017
-intro_month=1
-#retire_year=2045
-#retire_month=1
+intro_month=10
 waytype=track
 freight=Passagiere
-payload=72
+payload[0]=0
+payload[1]=88
+payload[2]=0
+payload[3]=0
 overcrowded_capacity=18
 length=14
 brake_force=30
@@ -124,26 +135,26 @@ rolling_resistance=13
 
 can_lead_from_rear=0
 bidirectional=1
-upgrade[0]=BR-800MiddleTrolley
 
 min_loading_time=28
 max_loading_time=160
-comfort=129
+comfort[0]=0
+comfort[1]=129
+comfort[2]=0
+comfort[3]=142
 
 weight=47
 axles=4
 cost=2067000
-upgrade_price=1000
 runningcost=660
-
 
 Constraint[Prev][0]=BR-800MiddlePower
 Constraint[Prev][1]=BR-800MiddleTrailer
-Constraint[Prev][2]=BR-800MiddleTrolley
+Constraint[Prev][2]=BR-800MiddleComposite
 
 Constraint[Next][0]=BR-800MiddlePower
 Constraint[Next][1]=BR-800MiddleTrailer
-Constraint[Next][2]=BR-800MiddleTrolley
+Constraint[Next][2]=BR-800MiddleComposite
 
 EmptyImage[E]=./images/br-800-middle-gwr.1.4
 EmptyImage[SE]=./images/br-800-middle-gwr.1.5
@@ -157,17 +168,18 @@ EmptyImage[NE]=./images/br-800-middle-gwr.1.3
 ---
 
 obj=vehicle
-name=BR-800MiddleTrolley
+name=BR-800MiddleComposite
 engine_type=diesel
 speed=225
 copyright=Kieron/James
 intro_year=2017
-intro_month=1
-#retire_year=2045
-#retire_month=1
+intro_month=10
 waytype=track
 freight=Passagiere
-payload=72
+payload[0]=0
+payload[1]=38
+payload[2]=0
+payload[3]=30
 overcrowded_capacity=18
 length=14
 brake_force=30
@@ -178,24 +190,23 @@ bidirectional=1
 
 min_loading_time=28
 max_loading_time=160
-comfort=129
-catering_level=1
-upgrade[0]=BR-800MiddleTrailer
+comfort[0]=0
+comfort[1]=129
+comfort[2]=0
+comfort[3]=142
 
 weight=47
 axles=4
 cost=2067000
-upgrade_price=1000
 runningcost=675
-
 
 Constraint[Prev][0]=BR-800MiddlePower
 Constraint[Prev][1]=BR-800MiddleTrailer
-Constraint[Prev][2]=BR-800MiddleTrolley
+Constraint[Prev][2]=BR-800MiddleComposite
 
 Constraint[Next][0]=BR-800MiddlePower
 Constraint[Next][1]=BR-800MiddleTrailer
-Constraint[Next][2]=BR-800MiddleTrolley
+Constraint[Next][2]=BR-800MiddleComposite
 
 EmptyImage[E]=./images/br-800-middle-gwr.1.4
 EmptyImage[SE]=./images/br-800-middle-gwr.1.5
@@ -215,13 +226,14 @@ speed=225
 power=0
 copyright=Kieron/James
 intro_year=2017
-intro_month=1
-#retire_year=2045
-#retire_month=1
+intro_month=10
 waytype=track
 freight=Passagiere
-payload=35
-overcrowded_capacity=9
+payload[0]=0
+payload[1]=56
+payload[2]=0
+payload[3]=0
+overcrowded_capacity=12
 length=14
 brake_force=35
 rolling_resistance=13
@@ -239,7 +251,10 @@ bidirectional=0
 
 min_loading_time=28
 max_loading_time=160
-comfort=129
+comfort[0]=0
+comfort[1]=129
+comfort[2]=0
+comfort[3]=142
 
 Constraint[Next][0]=BR-800Front
 Constraint[Next][1]=none

@@ -93,7 +93,7 @@ Image[80][0]=images/texture-lightmap.0.14	# nw2,ne2,se2,sw2	TODO	0 up 2
 Obj=ground
 Name=ClimateTexture
 # water
-Image[0][0]=images/texture-climate.0.0
+Image[0][0]=images/texture-climate-pak128.0.0
 # beach/desert
 Image[1][0]=images/texture-climate.0.1
 # tropic (uses standard grass)

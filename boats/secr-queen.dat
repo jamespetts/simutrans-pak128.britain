@@ -1,3 +1,4 @@
+# https://en.wikipedia.org/wiki/TSS_The_Queen
 obj=vehicle
 name=SECRQueen
 copyright=James
@@ -7,12 +8,14 @@ smoke=Steam
 sound=ship-horn_a.wav
 speed=40
 power=4250
-#gear=400
 weight=800
 length=10
 cost=22500000
 freight=Passagiere
-payload=700
+payload[0]=0
+payload[1]=450
+payload[2]=0
+payload[3]=125
 runningcost=510
 intro_year=1903
 intro_month=4
@@ -20,23 +23,26 @@ retire_year=1925
 retire_month=1
 is_tall=1
 
-comfort=150
+comfort[0]=0
+comfort[1]=95
+comfort[2]=0
+comfort[3]=165
 catering_level=4
 # 40-60 minutes
 min_loading_time=2400
 max_loading_time=3600
+range=260
 
 way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Next][0]=SECRQueenAddMail
 Constraint[Prev][0]=none
 
-EmptyImage[E]=images/secr-queen.1.0
-EmptyImage[SE]=images/secr-queen.1.1
-EmptyImage[S]=images/secr-queen.1.2
-EmptyImage[SW]=images/secr-queen.1.3
-EmptyImage[W]=images/secr-queen.1.4
-EmptyImage[NW]=images/secr-queen.1.5
-EmptyImage[N]=images/secr-queen.1.6
-EmptyImage[NE]=images/secr-queen.1.7
----
+EmptyImage[E]=./images/secr-queen_E.0.0
+EmptyImage[SE]=./images/secr-queen_SE.0.0
+EmptyImage[S]=./images/secr-queen_S.0.0
+EmptyImage[SW]=./images/secr-queen_SW.0.0
+EmptyImage[W]=./images/secr-queen_W.0.0
+EmptyImage[NW]=./images/secr-queen_NW.0.0
+EmptyImage[N]=./images/secr-queen_N.0.0
+EmptyImage[NE]=./images/secr-queen_NE.0.0

@@ -1,5 +1,7 @@
 # http://en.wikipedia.org/wiki/Metropolitan_Railway_electric_multiple_units#Early_units
 # Note that it should be possible to have one of these with a cab at both ends: see above.
+# TODO: Find out when the Metropolitan abolished first class. It is not clear whether 
+# these should have first class capability. Assuming all third for now.
 obj=vehicle
 name=Metropolitan1905GateFront
 engine_type=electric
@@ -15,14 +17,14 @@ retire_year=1913
 retire_month=10
 waytype=track
 freight=Passagiere
-payload=36
+payload[0]=0
+payload[1]=36
 overcrowded_capacity=64
 
 weight=34
 axles=4
 cost=7000000
 runningcost=125
-
 
 can_lead_from_rear=1
 bidirectional=0
@@ -31,7 +33,8 @@ way_constraint_permissive[3]=3
 
 min_loading_time=22
 max_loading_time=80
-comfort=62
+comfort[0]=0
+comfort[1]=62
 
 Constraint[Prev][0]=Metropolitan1905GateRear
 Constraint[Prev][1]=Metropolitan1913CircleRear
@@ -50,7 +53,9 @@ EmptyImage[W]=./images/met-1905-gate-front.1.0
 EmptyImage[NW]=./images/met-1905-gate-front.1.1
 EmptyImage[N]=./images/met-1905-gate-front.1.2
 EmptyImage[NE]=./images/met-1905-gate-front.1.3
---
+
+---
+
 obj=vehicle
 name=Metropolitan1905GateMiddle
 engine_type=electric
@@ -63,14 +68,14 @@ retire_year=1913
 retire_month=10
 waytype=track
 freight=Passagiere
-payload=40
+payload[0]=0
+payload[1]=40
 overcrowded_capacity=70
 
 weight=29
 axles=4
 cost=1400000
 runningcost=35
-
 
 can_lead_from_rear=0
 bidirectional=1
@@ -79,7 +84,8 @@ way_constraint_permissive[3]=3
 
 min_loading_time=22
 max_loading_time=80
-comfort=62
+comfort[0]=0
+comfort[1]=62
 
 Constraint[Prev][0]=Metropolitan1905GateFront
 Constraint[Prev][1]=Metropolitan1913CircleFront
@@ -103,7 +109,9 @@ EmptyImage[W]=./images/met-1905-gate-middle.1.0
 EmptyImage[NW]=./images/met-1905-gate-middle.1.1
 EmptyImage[N]=./images/met-1905-gate-middle.1.2
 EmptyImage[NE]=./images/met-1905-gate-middle.1.3
-----
+
+---
+
 obj=vehicle
 name=Metropolitan1905GateRear
 engine_type=electric
@@ -119,14 +127,14 @@ retire_year=1913
 retire_month=10
 waytype=track
 freight=Passagiere
-payload=36
+payload[0]=0
+payload[1]=36
 overcrowded_capacity=64
 
 weight=34
 axles=4
 cost=7000000
 runningcost=125
-
 
 can_lead_from_rear=1
 bidirectional=0
@@ -135,7 +143,8 @@ way_constraint_permissive[3]=3
 
 min_loading_time=22
 max_loading_time=80
-comfort=62
+comfort[0]=0
+comfort[1]=62
 
 Constraint[Prev][0]=Metropolitan1905GateMiddle
 Constraint[Prev][1]=Metropolitan1913CircleMiddle
@@ -154,4 +163,3 @@ EmptyImage[W]=./images/met-1905-gate-rear.1.0
 EmptyImage[NW]=./images/met-1905-gate-rear.1.1
 EmptyImage[N]=./images/met-1905-gate-rear.1.2
 EmptyImage[NE]=./images/met-1905-gate-rear.1.3
---

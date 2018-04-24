@@ -8,7 +8,8 @@ retire_year=1992
 retire_month=9
 waytype=track
 freight=Passagiere
-payload=74
+payload[0]=0
+payload[1]=74
 overcrowded_capacity=56
 length=10
 engine_type=electric
@@ -28,7 +29,8 @@ way_constraint_permissive[0]=0
 
 min_loading_time=15
 max_loading_time=50
-comfort=57
+comfort[0]=0
+comfort[1]=57
 
 Constraint[Prev][0]=BR-456-DTSO
 Constraint[Prev][1]=BR-455-Driving-Rear
@@ -38,6 +40,8 @@ Constraint[Next][0]=BR-455-Motor
 
 liverytype[0]=BR-Blue
 liverytype[1]=NSE-Standard
+liverytype[2]=SWT-orange-stripe
+liverytype[3]=Southern
 
 EmptyImage[E][0]=./images/br-455-driving-trailer-front-bg.1.4
 EmptyImage[SE][0]=./images/br-455-driving-trailer-front-bg.1.5
@@ -57,6 +61,24 @@ EmptyImage[NW][1]=./images/br-455-driving-trailer-front-nse.1.1
 EmptyImage[N][1]=./images/br-455-driving-trailer-front-nse.1.2
 EmptyImage[NE][1]=./images/br-455-driving-trailer-front-nse.1.3
 
+EmptyImage[E][2]=./images/br-455-driving-trailer-front-swt_E.0.0
+EmptyImage[SE][2]=./images/br-455-driving-trailer-front-swt_SE.0.0
+EmptyImage[S][2]=./images/br-455-driving-trailer-front-swt_S.0.0
+EmptyImage[SW][2]=./images/br-455-driving-trailer-front-swt_SW.0.0
+EmptyImage[W][2]=./images/br-455-driving-trailer-front-swt_W.0.0
+EmptyImage[NW][2]=./images/br-455-driving-trailer-front-swt_NW.0.0
+EmptyImage[N][2]=./images/br-455-driving-trailer-front-swt_N.0.0
+EmptyImage[NE][2]=./images/br-455-driving-trailer-front-swt_NE.0.0
+
+EmptyImage[E][3]=./images/br-455-driving-trailer-front-s_E.0.0
+EmptyImage[SE][3]=./images/br-455-driving-trailer-front-s_SE.0.0
+EmptyImage[S][3]=./images/br-455-driving-trailer-front-s_S.0.0
+EmptyImage[SW][3]=./images/br-455-driving-trailer-front-s_SW.0.0
+EmptyImage[W][3]=./images/br-455-driving-trailer-front-s_W.0.0
+EmptyImage[NW][3]=./images/br-455-driving-trailer-front-s_NW.0.0
+EmptyImage[N][3]=./images/br-455-driving-trailer-front-s_N.0.0
+EmptyImage[NE][3]=./images/br-455-driving-trailer-front-s_NE.0.0
+
 ---
 
 obj=vehicle
@@ -69,7 +91,8 @@ retire_year=1992
 retire_month=9
 waytype=track
 freight=Passagiere
-payload=84
+payload[0]=0
+payload[1]=84
 overcrowded_capacity=63
 length=10
 engine_type=electric
@@ -84,14 +107,14 @@ axles=4
 cost=1860000
 runningcost=120
 
-
 can_lead_from_rear=1
 bidirectional=0
 way_constraint_permissive[0]=0
 
 min_loading_time=15
 max_loading_time=50
-comfort=57
+comfort[0]=0
+comfort[1]=57
 
 Constraint[Next][0]=BR-455-Trailer
 Constraint[Next][1]=BR-507(centre2)
@@ -100,6 +123,8 @@ Constraint[Prev][0]=BR-455-Driving-Front
 
 liverytype[0]=BR-Blue
 liverytype[1]=NSE-Standard
+liverytype[2]=SWT-orange-stripe
+liverytype[3]=Southern
 
 EmptyImage[E][0]=./images/br-455-motor-bg.1.4
 EmptyImage[SE][0]=./images/br-455-motor-bg.1.5
@@ -119,6 +144,24 @@ EmptyImage[NW][1]=./images/br-455-motor-nse.1.1
 EmptyImage[N][1]=./images/br-455-motor-nse.1.2
 EmptyImage[NE][1]=./images/br-455-motor-nse.1.3
 
+EmptyImage[E][2]=./images/br-455-motor-swt_E.0.0
+EmptyImage[SE][2]=./images/br-455-motor-swt_SE.0.0
+EmptyImage[S][2]=./images/br-455-motor-swt_S.0.0
+EmptyImage[SW][2]=./images/br-455-motor-swt_SW.0.0
+EmptyImage[W][2]=./images/br-455-motor-swt_W.0.0
+EmptyImage[NW][2]=./images/br-455-motor-swt_NW.0.0
+EmptyImage[N][2]=./images/br-455-motor-swt_N.0.0
+EmptyImage[NE][2]=./images/br-455-motor-swt_NE.0.0
+
+EmptyImage[E][3]=./images/br-455-motor-s_E.0.0
+EmptyImage[SE][3]=./images/br-455-motor-s_SE.0.0
+EmptyImage[S][3]=./images/br-455-motor-s_S.0.0
+EmptyImage[SW][3]=./images/br-455-motor-s_SW.0.0
+EmptyImage[W][3]=./images/br-455-motor-s_W.0.0
+EmptyImage[NW][3]=./images/br-455-motor-s_NW.0.0
+EmptyImage[N][3]=./images/br-455-motor-s_N.0.0
+EmptyImage[NE][3]=./images/br-455-motor-s_NE.0.0
+
 ---
 
 obj=vehicle
@@ -131,7 +174,8 @@ retire_year=1992
 retire_month=9
 waytype=track
 freight=Passagiere
-payload=86
+payload[0]=0
+payload[1]=86
 overcrowded_capacity=64
 length=10
 engine_type=electric
@@ -144,14 +188,14 @@ axles=4
 cost=1860000
 runningcost=120
 
-
 can_lead_from_rear=1
 bidirectional=0
 way_constraint_permissive[0]=0
 
 min_loading_time=15
 max_loading_time=50
-comfort=57
+comfort[0]=0
+comfort[1]=57
 
 Constraint[Prev][0]=BR-455-Motor
 
@@ -161,6 +205,8 @@ Constraint[Next][0]=BR-455-Driving-Rear
 
 liverytype[0]=BR-Blue
 liverytype[1]=NSE-Standard
+liverytype[2]=SWT-orange-stripe
+liverytype[3]=Southern
 
 EmptyImage[E][0]=./images/br-317-trailer-bg.1.4
 EmptyImage[SE][0]=./images/br-317-trailer-bg.1.5
@@ -180,6 +226,24 @@ EmptyImage[NW][1]=./images/br-317-trailer-nse.1.1
 EmptyImage[N][1]=./images/br-317-trailer-nse.1.2
 EmptyImage[NE][1]=./images/br-317-trailer-nse.1.3
 
+EmptyImage[E][2]=./images/br-455-trailer-swt_E.0.0
+EmptyImage[SE][2]=./images/br-455-trailer-swt_SE.0.0
+EmptyImage[S][2]=./images/br-455-trailer-swt_S.0.0
+EmptyImage[SW][2]=./images/br-455-trailer-swt_SW.0.0
+EmptyImage[W][2]=./images/br-455-trailer-swt_W.0.0
+EmptyImage[NW][2]=./images/br-455-trailer-swt_NW.0.0
+EmptyImage[N][2]=./images/br-455-trailer-swt_N.0.0
+EmptyImage[NE][2]=./images/br-455-trailer-swt_NE.0.0
+
+EmptyImage[E][3]=./images/br-455-trailer-s_E.0.0
+EmptyImage[SE][3]=./images/br-455-trailer-s_SE.0.0
+EmptyImage[S][3]=./images/br-455-trailer-s_S.0.0
+EmptyImage[SW][3]=./images/br-455-trailer-s_SW.0.0
+EmptyImage[W][3]=./images/br-455-trailer-s_W.0.0
+EmptyImage[NW][3]=./images/br-455-trailer-s_NW.0.0
+EmptyImage[N][3]=./images/br-455-trailer-s_N.0.0
+EmptyImage[NE][3]=./images/br-455-trailer-s_NE.0.0
+
 ---
 
 obj=vehicle
@@ -192,7 +256,8 @@ retire_year=1992
 retire_month=9
 waytype=track
 freight=Passagiere
-payload=74
+payload[0]=0
+payload[1]=74
 overcrowded_capacity=56
 length=10
 engine_type=electric
@@ -212,7 +277,8 @@ way_constraint_permissive[0]=0
 
 min_loading_time=15
 max_loading_time=50
-comfort=57
+comfort[0]=0
+comfort[1]=57
 
 Constraint[Next][0]=BR-456-DMSO
 Constraint[Next][1]=BR-455-Driving-Front
@@ -223,6 +289,8 @@ Constraint[Prev][1]=BR-507(centre2)
 
 liverytype[0]=BR-Blue
 liverytype[1]=NSE-Standard
+liverytype[2]=SWT-orange-stripe
+liverytype[3]=Southern
 
 EmptyImage[E][0]=./images/br-455-driving-trailer-rear-bg.1.4
 EmptyImage[SE][0]=./images/br-455-driving-trailer-rear-bg.1.5
@@ -241,3 +309,21 @@ EmptyImage[W][1]=./images/br-455-driving-trailer-rear-nse.1.0
 EmptyImage[NW][1]=./images/br-455-driving-trailer-rear-nse.1.1
 EmptyImage[N][1]=./images/br-455-driving-trailer-rear-nse.1.2
 EmptyImage[NE][1]=./images/br-455-driving-trailer-rear-nse.1.3
+
+EmptyImage[E][2]=./images/br-455-driving-trailer-rear-swt_W.0.0
+EmptyImage[SE][2]=./images/br-455-driving-trailer-rear-swt_NW.0.0
+EmptyImage[S][2]=./images/br-455-driving-trailer-rear-swt_N.0.0
+EmptyImage[SW][2]=./images/br-455-driving-trailer-rear-swt_NE.0.0
+EmptyImage[W][2]=./images/br-455-driving-trailer-rear-swt_E.0.0
+EmptyImage[NW][2]=./images/br-455-driving-trailer-rear-swt_SE.0.0
+EmptyImage[N][2]=./images/br-455-driving-trailer-rear-swt_S.0.0
+EmptyImage[NE][2]=./images/br-455-driving-trailer-rear-swt_SW.0.0
+
+EmptyImage[E][3]=./images/br-455-driving-trailer-rear-s_E.0.0
+EmptyImage[SE][3]=./images/br-455-driving-trailer-rear-s_SE.0.0
+EmptyImage[S][3]=./images/br-455-driving-trailer-rear-s_S.0.0
+EmptyImage[SW][3]=./images/br-455-driving-trailer-rear-s_SW.0.0
+EmptyImage[W][3]=./images/br-455-driving-trailer-rear-s_W.0.0
+EmptyImage[NW][3]=./images/br-455-driving-trailer-rear-s_NW.0.0
+EmptyImage[N][3]=./images/br-455-driving-trailer-rear-s_N.0.0
+EmptyImage[NE][3]=./images/br-455-driving-trailer-rear-s_NE.0.0

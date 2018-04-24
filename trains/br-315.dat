@@ -12,7 +12,8 @@ retire_year=1992
 retire_month=7
 waytype=track
 freight=Passagiere
-payload=74
+payload[0]=0
+payload[1]=74
 overcrowded_capacity=56
 length=11
 rolling_resistance=13
@@ -28,11 +29,13 @@ bidirectional=0
 
 min_loading_time=15
 max_loading_time=50
-comfort=56
+comfort[0]=0
+comfort[1]=56
 way_constraint_permissive[2]=2
 
 Constraint[Prev][0]=BR-315Rear
-Constraint[Prev][1]=none
+Constraint[Prev][1]=BR-314Rear
+Constraint[Prev][2]=none
 
 Constraint[Next][0]=BR-315Pantograph
 
@@ -72,7 +75,8 @@ retire_year=1992
 retire_month=7
 waytype=track
 freight=Passagiere
-payload=84
+payload[0]=0
+payload[1]=84
 overcrowded_capacity=64
 length=11
 rolling_resistance=13
@@ -88,7 +92,8 @@ bidirectional=1
 
 min_loading_time=15
 max_loading_time=50
-comfort=56
+comfort[0]=0
+comfort[1]=56
 way_constraint_permissive[2]=2
 
 Constraint[Prev][0]=BR-315Front
@@ -132,7 +137,8 @@ retire_year=1992
 retire_month=7
 waytype=track
 freight=Passagiere
-payload=84
+payload[0]=0
+payload[1]=84
 overcrowded_capacity=64
 length=11
 rolling_resistance=13
@@ -142,13 +148,13 @@ axles=4
 cost=1120000
 runningcost=53
 
-
 can_lead_from_rear=0
 bidirectional=1
 
 min_loading_time=15
 max_loading_time=50
-comfort=56
+comfort[0]=0
+comfort[1]=56
 way_constraint_permissive[2]=2
 
 Constraint[Prev][0]=BR-315Pantograph
@@ -191,7 +197,8 @@ retire_year=1992
 retire_month=7
 waytype=track
 freight=Passagiere
-payload=74
+payload[0]=0
+payload[1]=74
 overcrowded_capacity=56
 length=11
 rolling_resistance=13
@@ -208,13 +215,15 @@ way_constraint_permissive[2]=2
 
 min_loading_time=15
 max_loading_time=50
-comfort=56
+comfort[0]=0
+comfort[1]=56
 
 Constraint[Prev][0]=BR-315Pantograph
 Constraint[Prev][1]=BR-315Trailer
 
 Constraint[Next][0]=BR-315Front
-Constraint[Next][1]=none
+Constraint[Next][1]=BR-314Front
+Constraint[Next][2]=none
 
 liverytype[0]=BR-Blue
 liverytype[1]=NSE-Standard

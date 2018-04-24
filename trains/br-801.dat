@@ -1,6 +1,7 @@
 # TODO: In reality, these are bi-mode vehicles.
 # Make these electro-diesel when bi-mode capability is added to the code.
-# TODO: When these are introduced, ascertain whether there are buffet car facilities and add these if necessary.
+# https://en.wikipedia.org/wiki/British_Rail_Class_801
+# These have a trolley and a kitchen, so hard to judge appropriate catering level.
 obj=vehicle
 name=BR-801Front
 engine_type=electric
@@ -8,13 +9,14 @@ speed=225
 power=0
 copyright=Kieron/James
 intro_year=2017
-intro_month=1
-#retire_year=2045
-#retire_month=1
+intro_month=10
 waytype=track
 freight=Passagiere
-payload=35
-overcrowded_capacity=9
+payload[0]=0
+payload[1]=0
+payload[2]=0
+payload[3]=15
+overcrowded_capacity=0
 length=14
 rolling_resistance=13
 brake_force=30
@@ -24,11 +26,15 @@ weight=40
 axles=4
 cost=2067000
 runningcost=660
-sound=panos-g-ac-loco-generic.wav
+sound=panos-g-class-395.wav
 
 min_loading_time=28
 max_loading_time=160
-comfort=129
+comfort[0]=0
+comfort[1]=129
+comfort[2]=0
+comfort[3]=142
+catering_level=2
 
 can_lead_from_rear=1
 bidirectional=0
@@ -59,12 +65,13 @@ tractive_effort=62
 gear=80
 copyright=Kieron/James
 intro_year=2017
-intro_month=1
-#retire_year=2045
-#retire_month=1
+intro_month=10
 waytype=track
 freight=Passagiere
-payload=72
+payload[0]=0
+payload[1]=88
+payload[2]=0
+payload[3]=0
 overcrowded_capacity=18
 length=14
 brake_force=35
@@ -75,10 +82,12 @@ axles=4
 cost=2067000
 runningcost=660
 
-
 min_loading_time=28
 max_loading_time=160
-comfort=129
+comfort[0]=0
+comfort[1]=129
+comfort[2]=0
+comfort[3]=142
 
 can_lead_from_rear=0
 bidirectional=1
@@ -87,12 +96,12 @@ way_constraint_permissive[2]=2
 Constraint[Prev][0]=BR-801Front
 Constraint[Prev][1]=BR-801MiddlePower
 Constraint[Prev][2]=BR-801MiddleTrailer
-Constraint[Prev][3]=BR-801MiddleTrolley
+Constraint[Prev][3]=BR-801MiddleComposite
 
 Constraint[Next][0]=BR-801MiddlePower
 Constraint[Next][1]=BR-801Rear
 Constraint[Next][2]=BR-801MiddleTrailer
-Constraint[Next][3]=BR-801MiddleTrolley
+Constraint[Next][3]=BR-801MiddleComposite
 
 EmptyImage[E]=./images/br-801-middle-virgin.1.4
 EmptyImage[SE]=./images/br-801-middle-virgin.1.5
@@ -111,12 +120,13 @@ engine_type=electric
 speed=225
 copyright=Kieron/James
 intro_year=2017
-intro_month=1
-#retire_year=2045
-#retire_month=1
+intro_month=10
 waytype=track
 freight=Passagiere
-payload=72
+payload[0]=0
+payload[1]=88
+payload[2]=0
+payload[3]=0
 overcrowded_capacity=18
 length=14
 brake_force=35
@@ -127,11 +137,14 @@ axles=4
 cost=2067000
 runningcost=660
 
-upgrade[0]=BR-801MiddleTrolley
+upgrade[0]=BR-801MiddleComposite
 
 min_loading_time=28
 max_loading_time=160
-comfort=129
+comfort[0]=0
+comfort[1]=129
+comfort[2]=0
+comfort[3]=142
 
 can_lead_from_rear=0
 bidirectional=1
@@ -139,11 +152,11 @@ way_constraint_permissive[2]=2
 
 Constraint[Prev][0]=BR-801MiddlePower
 Constraint[Prev][1]=BR-801MiddleTrailer
-Constraint[Prev][2]=BR-801MiddleTrolley
+Constraint[Prev][2]=BR-801MiddleComposite
 
 Constraint[Next][0]=BR-801MiddlePower
 Constraint[Next][1]=BR-801MiddleTrailer
-Constraint[Next][2]=BR-801MiddleTrolley
+Constraint[Next][2]=BR-801MiddleComposite
 
 EmptyImage[E]=./images/br-801-middle-virgin.1.4
 EmptyImage[SE]=./images/br-801-middle-virgin.1.5
@@ -157,18 +170,19 @@ EmptyImage[NE]=./images/br-801-middle-virgin.1.3
 ---
 
 obj=vehicle
-name=BR-801MiddleTrolley
+name=BR-801MiddleComposite
 engine_type=electric
 speed=225
 copyright=Kieron/James
 intro_year=2017
-intro_month=1
-#retire_year=2045
-#retire_month=1
+intro_month=10
 waytype=track
 freight=Passagiere
-payload=72
-overcrowded_capacity=18
+payload[0]=0
+payload[1]=38
+payload[2]=0
+payload[3]=30
+overcrowded_capacity=9
 length=14
 brake_force=35
 rolling_resistance=13
@@ -182,8 +196,10 @@ upgrade[0]=BR-801MiddleTrailer
 
 min_loading_time=28
 max_loading_time=160
-comfort=129
-catering_level=1
+comfort[0]=0
+comfort[1]=129
+comfort[2]=0
+comfort[3]=142
 
 can_lead_from_rear=0
 bidirectional=1
@@ -191,11 +207,11 @@ way_constraint_permissive[2]=2
 
 Constraint[Prev][0]=BR-801MiddlePower
 Constraint[Prev][1]=BR-801MiddleTrailer
-Constraint[Prev][2]=BR-801MiddleTrolley
+Constraint[Prev][2]=BR-801MiddleComposite
 
 Constraint[Next][0]=BR-801MiddlePower
 Constraint[Next][1]=BR-801MiddleTrailer
-Constraint[Next][2]=BR-801MiddleTrolley
+Constraint[Next][2]=BR-801MiddleComposite
 
 EmptyImage[E]=./images/br-801-middle-virgin.1.4
 EmptyImage[SE]=./images/br-801-middle-virgin.1.5
@@ -215,13 +231,14 @@ speed=225
 power=0
 copyright=Kieron/James
 intro_year=2017
-intro_month=1
-#retire_year=2045
-#retire_month=1
+intro_month=10
 waytype=track
 freight=Passagiere
-payload=35
-overcrowded_capacity=9
+payload[0]=0
+payload[1]=56
+payload[2]=0
+payload[3]=0
+overcrowded_capacity=12
 length=14
 brake_force=30
 rolling_resistance=13
@@ -231,11 +248,14 @@ weight=40
 axles=4
 cost=2067000
 runningcost=660
-sound=panos-g-ac-loco-generic.wav
+sound=panos-g-class-395.wav
 
 min_loading_time=28
 max_loading_time=160
-comfort=129
+comfort[0]=0
+comfort[1]=129
+comfort[2]=0
+comfort[3]=142
 
 can_lead_from_rear=1
 bidirectional=0

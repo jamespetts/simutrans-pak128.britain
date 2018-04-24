@@ -3,13 +3,15 @@ name=BHC-AP1-88_100
 copyright=James
 waytype=water
 engine_type=petrol
-smoke=diesel
+smoke=Diesel
 sound=hovercraft.wav
 speed=90
 power=894
 gear=100
 freight=Passagiere
-payload=100
+payload[0]=0
+payload[1]=0
+payload[2]=100
 weight=48
 length=10
 cost=120000000
@@ -17,9 +19,12 @@ runningcost=9500
 intro_year=1983
 intro_month=3
 retire_year=2005
-intro_month=11
+retire_month=11
 
-comfort=55
+comfort[0]=0
+comfort[1]=0
+comfort[2]=55
+range=100
 # Hovercraft loading time: approx. 15 mins:
 # http://www.theyworkforyou.com/debates/?id=1986-06-05a.1100.0#g1124.0
 min_loading_time=900
@@ -44,7 +49,7 @@ name=BHC-AP1-88_400(Piece)
 copyright=James
 waytype=water
 engine_type=petrol
-smoke=diesel
+smoke=Diesel
 sound=hovercraft.wav
 speed=90
 power=894
@@ -58,7 +63,7 @@ runningcost=9500
 intro_year=1983
 intro_month=3
 retire_year=2005
-intro_month=11
+retire_month=11
 
 way_constraint_prohibitive[6]=6 # Large ship
 
@@ -68,6 +73,7 @@ Constraint[Next][0]=none
 # http://www.theyworkforyou.com/debates/?id=1986-06-05a.1100.0#g1124.0
 min_loading_time=900
 max_loading_time=1020
+range=100
 
 EmptyImage[E]=./images/ap1-88-cargo-empty.1.0
 EmptyImage[SE]=./images/ap1-88-cargo-empty.1.1
@@ -92,7 +98,7 @@ name=BHC-AP1-88_400(Cool)
 copyright=James
 waytype=water
 engine_type=petrol
-smoke=diesel
+smoke=Diesel
 sound=hovercraft.wav
 speed=90
 power=894
@@ -106,7 +112,7 @@ runningcost=9500
 intro_year=1983
 intro_month=3
 retire_year=2005
-intro_month=11
+retire_month=11
 
 way_constraint_prohibitive[6]=6 # Large ship
 
@@ -116,6 +122,7 @@ Constraint[Next][0]=none
 # http://www.theyworkforyou.com/debates/?id=1986-06-05a.1100.0#g1124.0
 min_loading_time=900
 max_loading_time=1020
+range=100
 
 EmptyImage[E]=./images/ap1-88-cargo-empty.1.0
 EmptyImage[SE]=./images/ap1-88-cargo-empty.1.1
@@ -134,4 +141,3 @@ FreightImage[W]=./images/ap1-88-cargo-cool.1.4
 FreightImage[NW]=./images/ap1-88-cargo-cool.1.5
 FreightImage[N]=./images/ap1-88-cargo-cool.1.6
 FreightImage[NE]=./images/ap1-88-cargo-cool.1.7
----

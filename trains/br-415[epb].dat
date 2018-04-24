@@ -12,7 +12,8 @@ retire_year=1975
 retire_month=12
 waytype=track
 freight=Passagiere
-payload=84
+payload[0]=0
+payload[1]=84
 overcrowded_capacity=42
 length=11
 
@@ -30,7 +31,8 @@ increase_maintenance_after_years=16
 min_loading_time=10
 max_loading_time=40
 # http://www.semgonline.com/gallery/class415_7.html
-comfort=77
+comfort[0]=0
+comfort[1]=77
 way_constraint_permissive[0]=0
 
 Constraint[Prev][0]=BR-410[CEP]Rear
@@ -103,7 +105,8 @@ retire_year=1975
 retire_month=12
 waytype=track
 freight=Passagiere
-payload=90
+payload[0]=0
+payload[1]=90
 overcrowded_capacity=45
 length=11
 
@@ -120,7 +123,8 @@ increase_maintenance_after_years=16
 
 min_loading_time=10
 max_loading_time=40
-comfort=77
+comfort[0]=0
+comfort[1]=77
 way_constraint_permissive[0]=0
 
 Constraint[Prev][0]=BR-4EPB(front)
@@ -191,7 +195,8 @@ retire_year=1975
 retire_month=12
 waytype=track
 freight=Passagiere
-payload=90
+payload[0]=0
+payload[1]=90
 overcrowded_capacity=45
 length=11
 
@@ -208,7 +213,8 @@ increase_maintenance_after_years=16
 
 min_loading_time=10
 max_loading_time=40
-comfort=77
+comfort[0]=0
+comfort[1]=77
 way_constraint_permissive[0]=0
 
 Constraint[Prev][0]=BR-4EPB(centre2)
@@ -278,7 +284,8 @@ retire_year=1975
 retire_month=12
 waytype=track
 freight=Passagiere
-payload=108
+payload[0]=0
+payload[1]=108
 overcrowded_capacity=54
 length=11
 
@@ -288,14 +295,14 @@ cost=945000
 upgrade_price=567000
 runningcost=35
 
-
 can_lead_from_rear=0
 bidirectional=1
 increase_maintenance_after_years=16
 
 min_loading_time=10
 max_loading_time=40
-comfort=77
+comfort[0]=0
+comfort[1]=77
 way_constraint_permissive[0]=0
 
 Constraint[Prev][0]=BR-4EPB(front)
@@ -358,7 +365,8 @@ retire_year=1975
 retire_month=12
 waytype=track
 freight=Passagiere
-payload=108
+payload[0]=0
+payload[1]=108
 overcrowded_capacity=54
 length=11
 
@@ -368,14 +376,14 @@ cost=945000
 upgrade_price=567000
 runningcost=35
 
-
 can_lead_from_rear=0
 bidirectional=1
 increase_maintenance_after_years=16
 
 min_loading_time=10
 max_loading_time=40
-comfort=77
+comfort[0]=0
+comfort[1]=77
 way_constraint_permissive[0]=0
 
 Constraint[Prev][0]=BR-4EPB(centre1)

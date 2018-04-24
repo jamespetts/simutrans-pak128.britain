@@ -21,8 +21,9 @@ rolling_resistance=19
 # Not given in Ahrons: guessed to be slightly less than the Jenny Lind
 weight=23.6
 axle_load=10
-cost=3570000
-runningcost=320
+cost=17850000
+runningcost=177
+fixed_cost=19438
 sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=JennyLind-Tender

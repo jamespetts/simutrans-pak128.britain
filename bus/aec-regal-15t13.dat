@@ -10,7 +10,7 @@ payload=30
 overcrowded_capacity=3
 speed=50
 power=89
-tractive_effort=12
+tractive_effort=11
 gear=50
 # Guessed
 weight=6.2

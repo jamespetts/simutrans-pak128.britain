@@ -1,0 +1,26 @@
+Obj=building
+Name=staging-post-rail
+# must be 1*1
+type=stop
+waytype=track
+intro_year=1807
+intro_month=3
+retire_year=1852
+retire_month=2
+noconstruction=1
+enables_pax=1
+enables_post=1
+enables_ware=1
+NoInfo=1
+Dims=1,1,2
+level=1
+allow_underground=0
+capacity=10
+cost=4000
+maintenance=400
+BackImage[0][0][0][0][0][0]=staging-post-stop.0.0
+FrontImage[0][0][0][0][0][0]=staging-post-stop.0.1
+BackImage[1][0][0][0][0][0]=staging-post-stop.0.2
+FrontImage[1][0][0][0][0][0]=staging-post-stop.0.3
+icon=> staging-post-stop.0.5
+cursor=staging-post-stop.0.4

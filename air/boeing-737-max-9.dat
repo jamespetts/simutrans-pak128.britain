@@ -1,0 +1,100 @@
+# https://en.wikipedia.org/wiki/Boeing_737_MAX
+# http://www.b737.org.uk/737maxdiffs.htm
+obj=vehicle
+name=boeing-737-max-9
+copyright=PlanespotterA320
+# https://3dwarehouse.sketchup.com/model/1900e97c-2a95-4b72-acaf-11a818915244/United-Airlines-Boeing-737-MAX-9?hl=en
+waytype=air
+engine_type=turbine
+# LRC (TAS)
+speed=839
+power=46842
+tractive_effort=260
+freight=Passagiere
+payload[0]=0
+payload[1]=162
+payload[2]=0
+payload[3]=16
+payload[4]=0
+weight=47.6
+#length=8
+cost=56000000
+upgrade_price=5000
+runningcost=3950
+intro_year=2017
+intro_month=5
+
+comfort[0]=0
+comfort[1]=137
+comfort[2]=0
+comfort[3]=154
+min_loading_time=2400
+max_loading_time=2400
+catering_level=2
+
+# Data not available: Boeing recommends treating the 737-NG takeoff
+# charts as a "conservative estimate", so reducing from 2900 to 2800
+minimum_runway_length=2800
+
+sound=laxspotter97-boeing-737-max-8.wav
+range=5960
+
+upgrade[0]=boeing-737-max-9-high-density
+
+Constraint[Next][0]=none
+Constraint[Prev][0]=none
+
+EmptyImage[E]=./images/boeing-737-max-9_E.0.0
+EmptyImage[SE]=./images/boeing-737-max-9_SE.0.0
+EmptyImage[S]=./images/boeing-737-max-9_S.0.0
+EmptyImage[SW]=./images/boeing-737-max-9_SW.0.0
+EmptyImage[W]=./images/boeing-737-max-9_W.0.0
+EmptyImage[NW]=./images/boeing-737-max-9_NW.0.0
+EmptyImage[N]=./images/boeing-737-max-9_N.0.0
+EmptyImage[NE]=./images/boeing-737-max-9_NE.0.0
+---
+obj=vehicle
+name=boeing-737-max-9-high-density
+copyright=PlanespotterA320
+# https://3dwarehouse.sketchup.com/model/1900e97c-2a95-4b72-acaf-11a818915244/United-Airlines-Boeing-737-MAX-9?hl=en
+waytype=air
+engine_type=turbine
+# LRC (TAS)
+speed=839
+power=46842
+tractive_effort=260
+freight=Passagiere
+payload[0]=220
+weight=47.6
+#length=8
+cost=56000000
+upgrade_price=5000
+runningcost=3950
+intro_year=2017
+intro_month=5
+
+comfort[0]=100
+min_loading_time=2400
+max_loading_time=2400
+catering_level=1
+
+# Data not available: Boeing recommends treating the 737-NG takeoff
+# charts as a "conservative estimate", so reducing from 2900 to 2800
+minimum_runway_length=2800
+
+sound=laxspotter97-boeing-737-max-8.wav
+range=4578
+
+upgrade[0]=boeing-737-max-9
+
+Constraint[Next][0]=none
+Constraint[Prev][0]=none
+
+EmptyImage[E]=./images/boeing-737-max-9_E.0.0
+EmptyImage[SE]=./images/boeing-737-max-9_SE.0.0
+EmptyImage[S]=./images/boeing-737-max-9_S.0.0
+EmptyImage[SW]=./images/boeing-737-max-9_SW.0.0
+EmptyImage[W]=./images/boeing-737-max-9_W.0.0
+EmptyImage[NW]=./images/boeing-737-max-9_NW.0.0
+EmptyImage[N]=./images/boeing-737-max-9_N.0.0
+EmptyImage[NE]=./images/boeing-737-max-9_NE.0.0

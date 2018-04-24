@@ -10,18 +10,26 @@ speed=503
 power=6560
 tractive_effort=47
 freight=Passagiere
-# 60-81 passengers depending on configuration (Wikipedia)
-payload=81
+payload[0]=0
+payload[1]=0
+payload[2]=0
+payload[3]=0
+payload[4]=60
 weight=22.4
 #length=8
 cost=10900000
+upgrade_price=5000
 runningcost=2600
 intro_year=1943
 intro_month=1
 retire_year=1946
 retire_month=11
 
-comfort=126
+comfort[0]=0
+comfort[1]=0
+comfort[2]=0
+comfort[3]=0
+comfort[4]=147
 min_loading_time=2400
 max_loading_time=2400
 
@@ -34,6 +42,65 @@ minimum_runway_length=1829
 sound=x705547-constellation.wav
 
 range=6392
+
+upgrade[0]=lockheed-l049-constellation-high-density
+
+Constraint[Next][0]=none
+Constraint[Prev][0]=none
+
+EmptyImage[E]=./images/lockheed-l049-constellation_E.0.0
+EmptyImage[SE]=./images/lockheed-l049-constellation_SE.0.0
+EmptyImage[S]=./images/lockheed-l049-constellation_S.0.0
+EmptyImage[SW]=./images/lockheed-l049-constellation_SW.0.0
+EmptyImage[W]=./images/lockheed-l049-constellation_W.0.0
+EmptyImage[NW]=./images/lockheed-l049-constellation_NW.0.0
+EmptyImage[N]=./images/lockheed-l049-constellation_N.0.0
+EmptyImage[NE]=./images/lockheed-l049-constellation_NE.0.0
+
+--
+
+obj=vehicle
+name=lockheed-l049-constellation-high-density
+copyright=SketchVC10
+# https://3dwarehouse.sketchup.com/model/uc032125a-50aa-4f18-9244-4f0b4bac3305/BOAC-Lockheed-L-049-Constellation-1947-Baltimore
+waytype=air
+engine_type=petrol
+speed=503
+power=6560
+tractive_effort=47
+freight=Passagiere
+payload[0]=0
+payload[1]=0
+payload[2]=0
+payload[3]=81
+weight=22.4
+#length=8
+cost=10900000
+upgrade_price=5000
+runningcost=2600
+intro_year=1943
+intro_month=1
+retire_year=1946
+retire_month=11
+
+comfort[0]=0
+comfort[1]=0
+comfort[2]=0
+comfort[3]=125
+min_loading_time=2400
+max_loading_time=2400
+
+catering_level=4
+
+# http://dutchfs.com/files/handleidingen/Connie_FSDZigns_Handleiding1.pdf
+# 6,000ft
+minimum_runway_length=1829
+
+sound=x705547-constellation.wav
+
+range=6392
+
+upgrade[0]=lockheed-l049-constellation
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none

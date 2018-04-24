@@ -9,7 +9,8 @@ retire_year=1923
 retire_month=1
 waytype=track
 freight=Passagiere
-payload=56
+payload[0]=0
+payload[1]=56
 overcrowded_capacity=35
 length=10
 
@@ -18,7 +19,6 @@ axles=4
 cost=620000
 runningcost=32
 
-
 can_lead_from_rear=0
 bidirectional=1
 
@@ -26,7 +26,8 @@ min_loading_time=20
 max_loading_time=50
 # These are 6'3 rather than 6'5 between compartments as the clerestories were;
 # but have more advanced features (better lavatories, etc.). 
-comfort=122
+comfort[0]=0
+comfort[1]=122
 
 Constraint[Next][0]=MR-31ft-clerestory-cor-brake-d568
 Constraint[Next][1]=MR-48ft-clerestory-cor-d575
@@ -128,7 +129,8 @@ retire_year=1923
 retire_month=1
 waytype=track
 freight=Passagiere
-payload=24
+payload[0]=0
+payload[1]=24
 overcrowded_capacity=14
 length=10
 
@@ -137,7 +139,6 @@ axles=4
 cost=620000
 runningcost=32
 
-
 can_lead_from_rear=0
 bidirectional=1
 
@@ -145,7 +146,8 @@ min_loading_time=20
 max_loading_time=50
 # These are 6'3 rather than 6'5 between compartments as the clerestories were;
 # but have more advanced features (better lavatories, etc.). 
-comfort=122
+comfort[0]=0
+comfort[1]=122
 
 Constraint[Next][0]=MR-31ft-clerestory-cor-brake-d568
 Constraint[Next][1]=MR-48ft-clerestory-cor-d575
@@ -216,7 +218,8 @@ retire_year=1923
 retire_month=1
 waytype=track
 freight=Passagiere
-payload=24
+payload[0]=0
+payload[1]=24
 overcrowded_capacity=14
 length=10
 
@@ -225,7 +228,6 @@ axles=4
 cost=620000
 runningcost=32
 
-
 can_lead_from_rear=0
 bidirectional=1
 
@@ -233,7 +235,8 @@ min_loading_time=20
 max_loading_time=50
 # These are 6'3 rather than 6'5 between compartments as the clerestories were;
 # but have more advanced features (better lavatories, etc.). 
-comfort=122
+comfort[0]=0
+comfort[1]=122
 
 Constraint[Prev][0]=MR-31ft-clerestory-cor-brake-d568
 Constraint[Prev][1]=MR-48ft-clerestory-cor-d575
@@ -309,7 +312,6 @@ weight=26
 axles=4
 cost=620000
 runningcost=32
-
 
 can_lead_from_rear=0
 bidirectional=1

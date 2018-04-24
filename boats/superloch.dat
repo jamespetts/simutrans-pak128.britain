@@ -3,13 +3,13 @@ name=Super-Loch
 copyright=Kieron
 waytype=water
 engine_type=diesel
-smoke=diesel
+smoke=Diesel
 sound=ship-horn_b.wav
 speed=20
 power=1200
-#gear=1200
 freight=Passagiere
-payload=250
+payload[0]=0
+payload[1]=250
 weight=230
 length=21
 cost=114000000
@@ -18,10 +18,12 @@ intro_year=2007
 intro_month=6
 is_tall=1
 
-comfort=90
+comfort[0]=0
+comfort[1]=90
 # 5-10 minutes
 min_loading_time=300
 max_loading_time=600
+range=100
 
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
@@ -37,5 +39,3 @@ EmptyImage[W]=./images/superloch.0.4,-12,-6
 EmptyImage[NW]=./images/superloch.0.5,0,0
 EmptyImage[N]=./images/superloch.0.6,12,-6
 EmptyImage[NE]=./images/superloch.0.7,0,0
-
-----------------------------------------

@@ -10,7 +10,6 @@ retire_year=1919
 retire_month=5
 topspeed=15
 max_weight=5
-intro_month=1
 upgrade_group=3
 way_only_cost=2000
 icon=> ./images/wood-trestle-elevated-road.3.4

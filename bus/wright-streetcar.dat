@@ -20,6 +20,8 @@ cost=3950000
 runningcost=180
 intro_year=2006
 intro_month=5
+# TODO: Add a more authentic sound for this
+sound=volvo-olympian-ff3170.wav
 
 comfort=42
 # Two smartcard/prepay: 2.0 seconds per passenger

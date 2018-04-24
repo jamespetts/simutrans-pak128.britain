@@ -163,6 +163,7 @@ cost=125000
 runningcost=50
 intro_year=2000
 intro_month=4
+sound=clarkster92-scania-h2870.wav
 
 EmptyImage[E]=./images/daf-cf-tractor_E.0.0,-33,14
 EmptyImage[SE]=./images/daf-cf-tractor_SE.0.0,-13,0
@@ -200,6 +201,7 @@ cost=125000
 runningcost=50
 intro_year=2000
 intro_month=4
+sound=clarkster92-scania-h2870.wav
 
 Freight=Post
 payload=900

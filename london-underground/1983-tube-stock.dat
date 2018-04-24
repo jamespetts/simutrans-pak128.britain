@@ -13,7 +13,8 @@ retire_year=1992
 retire_month=9
 waytype=track
 freight=Passagiere
-payload=48
+payload[0]=0
+payload[1]=48
 overcrowded_capacity=172
 rolling_resistance=13
 
@@ -28,7 +29,8 @@ bidirectional=0
 
 min_loading_time=18
 max_loading_time=50
-comfort=57
+comfort[0]=0
+comfort[1]=57
 
 way_constraint_prohibitive[1]=1
 way_constraint_permissive[3]=3
@@ -62,7 +64,8 @@ retire_year=1992
 retire_month=9
 waytype=track
 freight=Passagiere
-payload=48
+payload[0]=0
+payload[1]=48
 overcrowded_capacity=182
 rolling_resistance=13
 
@@ -70,7 +73,6 @@ weight=27
 axles=4
 cost=1550000
 runningcost=190
-
 
 can_lead_from_rear=0
 bidirectional=1
@@ -80,7 +82,8 @@ way_constraint_permissive[3]=3
 
 min_loading_time=18
 max_loading_time=50
-comfort=57
+comfort[0]=0
+comfort[1]=57
 
 Constraint[Prev][0]=1983TubeStockRearUNDM
 
@@ -108,7 +111,8 @@ retire_year=1992
 retire_month=9
 waytype=track
 freight=Passagiere
-payload=48
+payload[0]=0
+payload[1]=48
 overcrowded_capacity=182
 rolling_resistance=13
 
@@ -126,7 +130,8 @@ way_constraint_permissive[3]=3
 
 min_loading_time=18
 max_loading_time=50
-comfort=57
+comfort[0]=0
+comfort[1]=57
 
 Constraint[Prev][0]=1983TubeStockFrontDM
 Constraint[Prev][1]=1983TubeStockFrontUNDM
@@ -154,10 +159,10 @@ copyright=James
 intro_year=1983
 retire_year=1992
 retire_month=9
-retire_month=4
 waytype=track
 freight=Passagiere
-payload=48
+payload[0]=0
+payload[1]=48
 overcrowded_capacity=182
 rolling_resistance=13
 
@@ -175,7 +180,8 @@ way_constraint_permissive[3]=3
 
 min_loading_time=18
 max_loading_time=50
-comfort=57
+comfort[0]=0
+comfort[1]=57
 
 Constraint[Prev][0]=1983TubeStockMiddle1
 
@@ -207,7 +213,8 @@ retire_year=1992
 retire_month=9
 waytype=track
 freight=Passagiere
-payload=48
+payload[0]=0
+payload[1]=48
 overcrowded_capacity=182
 rolling_resistance=13
 
@@ -225,7 +232,8 @@ way_constraint_permissive[3]=3
 
 min_loading_time=18
 max_loading_time=50
-comfort=57
+comfort[0]=0
+comfort[1]=57
 
 Constraint[Prev][0]=1983TubeStockMiddle1
 Constraint[Prev][1]=1983TubeStockMiddle2
@@ -258,7 +266,8 @@ retire_year=1992
 retire_month=9
 waytype=track
 freight=Passagiere
-payload=48
+payload[0]=0
+payload[1]=48
 overcrowded_capacity=172
 rolling_resistance=13
 
@@ -276,7 +285,8 @@ way_constraint_permissive[3]=3
 
 min_loading_time=18
 max_loading_time=50
-comfort=57
+comfort[0]=0
+comfort[1]=57
 
 Constraint[Prev][0]=1983TubeStockMiddle1
 Constraint[Prev][1]=1983TubeStockMiddle2
@@ -293,5 +303,3 @@ EmptyImage[W]=./images/lu-1983.2.4
 EmptyImage[NW]=./images/lu-1983.2.5
 EmptyImage[N]=./images/lu-1983.2.6
 EmptyImage[NE]=./images/lu-1983.2.7
---
-

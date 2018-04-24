@@ -205,7 +205,7 @@ video47-ng-diesel.wav
 video47-class-45.wav
 video47-class-20.wav
 video47-a-stock.wav
-video47-emu-generic.wav
+video47-leyland-lion-lsc.wav
 (Artistic Licence 1.0)
 
 Keith Burnett
@@ -219,6 +219,7 @@ laurie-gwr-railcar.wav
 laurie-class-20.wav
 laurie-class-31.wav
 laurie-barclay-0-4-0.wav
+laurie-gwr-railmotor.wav
 (Artistic Licence 1.0)
 
 Russell Thewils
@@ -332,6 +333,9 @@ laxspotter97-boeing737-200.wav
 laxspotter97-boeing737-300.wav
 laxspotter97-boeing737-800.wav
 laxspotter97-boeing787-8.wav
+laxspotter97-boeing-b-17.wav
+laxspotter97-boeing747-8.wav
+laxspotter97-boeing-737-max-8.wav
 (Artistic Licence 1.0)
 
 Tom's Planes
@@ -343,6 +347,18 @@ https://www.youtube.com/channel/UCvQ4VDEg0COFn_s4FYShsww
 x705547-constellation.wav
 x705547-lockheed-electra-10a.wav
 x705547-junkers-ju-52.wav
+
+Nick Parry of Youtube
+https://www.youtube.com/watch?v=E9jaDgv1Skk&lc=z13rzpsixlfpd1ufj23asxbpfpnwuptnl.1500729724510568
+nick-parry-gwr-city-class.wav
+(Artistic Licence 1.0)
+
+Graham French of Youtube
+https://www.youtube.com/channel/UCZkGJE4wBESqHtnn2GD27-g
+https://www.youtube.com/watch?v=BXDvttNXkAA&lc=z23asxbpfpnwuptnlacdp43bu531hhj0tpdvlbuz1vdw03c010c.1504200923441183
+graham-french-leyland-n-type.wav
+graham-french-tilling-stevens-1930.wav
+graham-french-leyland-leopard.wav
 
 PCWV Dmark
 pcwvdmark-windmill.wav
@@ -444,11 +460,53 @@ magedu-hydro-plant.wav
 Clarkster92
 https://www.youtube.com/watch?v=TO0WVnP23f8&lc=z23asxbpfpnwuptnlacdp434vaq1x10djuyeck4cwj1w03c010c.1507757778928175
 clarkster92-caetano-levante.wav
+clarkster92-scania-h2870.wav
 (Artistic Licence 1.0)
 
 Steve O'Hara
 https://www.youtube.com/watch?v=cmgiW04YvNU
 steve-o-hara-daimler-cog5.wav
+(Artistic Licence 1.0)
+
+Mark Appleby
+https://www.youtube.com/watch?v=clAJrFSeh8s&lc=z23asxbpfpnwuptnlacdp432dfjkmzmf2wzccyxvvj1w03c010c.1508232337876091
+mark-appleby-hst-valenta.wav
+(Artistic Licence 1.0)
+
+84asrd84boxy
+https://www.youtube.com/watch?v=vWoV7g9r8dU&lc=z23asxbpfpnwuptnlacdp430y4ffmostbl3cuop1gjtw03c010c.1508247040862797
+x84asrd84boxy-hst-valenta.wav
+(Artistic Licence 1.0)
+
+Sans Pareil
+https://www.youtube.com/watch?v=44jaAtcw38g&lc=z23asxbpfpnwuptnlacdp435awpe3zbq2m1vyhvgc1pw03c010c.1508448137449622
+sans-pareil-hst-valenta.wav
+(Artistic Licence 1.0)
+
+Richard Walker
+https://www.youtube.com/watch?v=5rdoby-sgyU&lc=z23asxbpfpnwuptnlacdp43a34eb0kfy0v35zp5nypdw03c010c.1510122981286735
+richard-walker-aec-stl-diesel.wav
+(Artistic Licence 1.0)
+
+Magedu
+http://freesound.org/people/magedu/
+magedu-bicycle-bell.wav
+(CC Attribution)
+
+Phil Flyer
+https://www.youtube.com/watch?v=8iajMWj7yqw&lc=z23asxbpfpnwuptnlacdp4351pn0vwf0ocm0fbmjkslw03c010c.1510569091495068
+philflyer-bedford-ob.wav
+(Artistic Licence 1.0)
+
+Henergy1994
+https://www.youtube.com/watch?v=aztURUxuol8&lc=z23asxbpfpnwuptnlacdp435na0l3qpgvwj43sao4i5w03c010c.1510721669025969
+henergy1994-leyland-titan-td4.wav
+henergy1994-leyland-leopard.wav
+(Artistic Licence 1.0)
+
+Eckletickle
+https://www.youtube.com/watch?v=anEYZjslgNY&lc=z23asxbpfpnwuptnlacdp434cmgbv5ugkrqakanlp3lw03c010c.1520034031039161
+eclectickle-leyland-comet.wav
 (Artistic Licence 1.0)
 
 ** Links to licence terms and other notes **
@@ -459,3 +517,7 @@ CC Attribution non-commercial: https://creativecommons.org/licenses/by-nc/3.0/
 Public domain dedication: https://creativecommons.org/publicdomain/zero/1.0/
 
 All sounds have been modified from the original recordings by reducing the length, adding fading in/out and, in some cases, normalising and/or noise reduction.
+
+Links included by request of Eckletickle above:
+Isle of Man Railways: http://www.iomsrsa.org/ and https://www.gov.im/categories/travel-traffic-and-motoring/bus-and-rail/heritage-railways/
+Jurby Museum: http://www.jtmiom.im/

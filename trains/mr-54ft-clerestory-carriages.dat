@@ -9,7 +9,8 @@ retire_year=1915
 retire_month=12
 waytype=track
 freight=Passagiere
-payload=66
+payload[0]=0
+payload[1]=66
 overcrowded_capacity=37
 length=10
 
@@ -18,13 +19,13 @@ axles=4
 cost=550000
 runningcost=32
 
-
 can_lead_from_rear=0
 bidirectional=1
 
 min_loading_time=17
 max_loading_time=47
-comfort=101
+comfort[0]=0
+comfort[1]=101
 
 Constraint[Next][0]=4-wheel-1870s-fitted
 Constraint[Next][1]=4-wheel-1870s-brake-fitted
@@ -166,7 +167,8 @@ retire_year=1915
 retire_month=12
 waytype=track
 freight=Passagiere
-payload=38
+payload[0]=0
+payload[1]=38
 overcrowded_capacity=22
 length=10
 
@@ -175,13 +177,13 @@ axles=4
 cost=550000
 runningcost=32
 
-
 can_lead_from_rear=0
 bidirectional=1
 
 min_loading_time=17
 max_loading_time=47
-comfort=101
+comfort[0]=0
+comfort[1]=101
 
 Constraint[Next][0]=4-wheel-1870s-fitted
 Constraint[Next][1]=4-wheel-1870s-brake-fitted
@@ -265,7 +267,8 @@ retire_year=1915
 retire_month=12
 waytype=track
 freight=Passagiere
-payload=38
+payload[0]=0
+payload[1]=38
 overcrowded_capacity=22
 length=10
 
@@ -274,13 +277,13 @@ axles=4
 cost=550000
 runningcost=32
 
-
 can_lead_from_rear=0
 bidirectional=1
 
 min_loading_time=17
 max_loading_time=47
-comfort=101
+comfort[0]=0
+comfort[1]=101
 
 Constraint[Prev][0]=4-wheel-1870s-fitted
 Constraint[Prev][1]=4-wheel-1870s-brake-fitted
@@ -364,7 +367,8 @@ retire_year=1908
 retire_month=1
 waytype=track
 freight=Passagiere
-payload=80
+payload[0]=0
+payload[1]=80
 overcrowded_capacity=40
 length=10
 
@@ -373,13 +377,13 @@ axles=4
 cost=540000
 runningcost=32
 
-
 can_lead_from_rear=0
 bidirectional=1
 
 min_loading_time=17
 max_loading_time=47
-comfort=80
+comfort[0]=0
+comfort[1]=80
 
 Constraint[Next][0]=4-wheel-1870s-fitted
 Constraint[Next][1]=4-wheel-1870s-brake-fitted
@@ -522,7 +526,8 @@ retire_year=1908
 retire_month=1
 waytype=track
 freight=Passagiere
-payload=60
+payload[0]=0
+payload[1]=60
 overcrowded_capacity=30
 length=10
 
@@ -531,14 +536,14 @@ axles=4
 cost=540000
 runningcost=32
 
-
 can_lead_from_rear=0
 bidirectional=1
 
 min_loading_time=17
 max_loading_time=47
 # Reduction from 6'6 to 6'3 between partitions from 48ft versions and non-brake carriage.
-comfort=80
+comfort[0]=0
+comfort[1]=80
 
 Constraint[Next][0]=4-wheel-1870s-fitted
 Constraint[Next][1]=4-wheel-1870s-brake-fitted
@@ -622,7 +627,8 @@ retire_year=1908
 retire_month=1
 waytype=track
 freight=Passagiere
-payload=60
+payload[0]=0
+payload[1]=60
 overcrowded_capacity=30
 length=10
 
@@ -631,14 +637,14 @@ axles=4
 cost=540000
 runningcost=32
 
-
 can_lead_from_rear=0
 bidirectional=1
 
 min_loading_time=17
 max_loading_time=47
 # Reduction from 6'6 to 6'3 between partitions from 48ft versions and non-brake carriage.
-comfort=80
+comfort[0]=0
+comfort[1]=80
 
 Constraint[Prev][0]=4-wheel-1870s-fitted
 Constraint[Prev][1]=4-wheel-1870s-brake-fitted
@@ -728,7 +734,6 @@ weight=25
 axles=4
 cost=530000
 runningcost=30
-
 
 can_lead_from_rear=0
 bidirectional=1
@@ -885,7 +890,6 @@ weight=25
 axles=4
 cost=550000
 runningcost=45
-
 
 can_lead_from_rear=0
 bidirectional=1

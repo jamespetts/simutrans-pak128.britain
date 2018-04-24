@@ -1,3 +1,4 @@
+# https://www.flickr.com/photos/61090099@N04/28842561860
 obj=vehicle
 name=LeylandSherpaPiece
 copyright=JamesHood
@@ -26,14 +27,14 @@ constraint[prev][0]=none
 min_loading_time=30
 max_loading_time=300
 
-EmptyImage[E]=./images/leyland-sherpa.0.0
-EmptyImage[SE]=./images/leyland-sherpa.0.1
-EmptyImage[S]=./images/leyland-sherpa.0.2
-EmptyImage[SW]=./images/leyland-sherpa.0.3
-EmptyImage[W]=./images/leyland-sherpa.0.4
-EmptyImage[NW]=./images/leyland-sherpa.0.5
-EmptyImage[N]=./images/leyland-sherpa.0.6
-EmptyImage[NE]=./images/leyland-sherpa.0.7
+EmptyImage[E]=./images/leyland-sherpa-piece_E.0.0,-33,14
+EmptyImage[SE]=./images/leyland-sherpa-piece_SE.0.0,-13,0
+EmptyImage[S]=./images/leyland-sherpa-piece_S.0.0,0,0
+EmptyImage[SW]=./images/leyland-sherpa-piece_SW.0.0,-8,10
+EmptyImage[W]=./images/leyland-sherpa-piece_W.0.0,4,5
+EmptyImage[NW]=./images/leyland-sherpa-piece_NW.0.0,12,10
+EmptyImage[N]=./images/leyland-sherpa-piece_N.0.0,0,33
+EmptyImage[NE]=./images/leyland-sherpa-piece_NE.0.0,0,24
 
 -----------------------------------------
 obj=vehicle
@@ -64,14 +65,14 @@ constraint[prev][0]=none
 min_loading_time=30
 max_loading_time=300
 
-EmptyImage[E]=./images/leyland-sherpa.1.0
-EmptyImage[SE]=./images/leyland-sherpa.1.1
-EmptyImage[S]=./images/leyland-sherpa.1.2
-EmptyImage[SW]=./images/leyland-sherpa.1.3
-EmptyImage[W]=./images/leyland-sherpa.1.4
-EmptyImage[NW]=./images/leyland-sherpa.1.5
-EmptyImage[N]=./images/leyland-sherpa.1.6
-EmptyImage[NE]=./images/leyland-sherpa.1.7
+EmptyImage[E]=./images/leyland-sherpa-cool_E.0.0,-33,14
+EmptyImage[SE]=./images/leyland-sherpa-cool_SE.0.0,-13,0
+EmptyImage[S]=./images/leyland-sherpa-cool_S.0.0,0,0
+EmptyImage[SW]=./images/leyland-sherpa-cool_SW.0.0,-8,10
+EmptyImage[W]=./images/leyland-sherpa-cool_W.0.0,4,5
+EmptyImage[NW]=./images/leyland-sherpa-cool_NW.0.0,12,10
+EmptyImage[N]=./images/leyland-sherpa-cool_N.0.0,0,33
+EmptyImage[NE]=./images/leyland-sherpa-cool_NE.0.0,0,24
 -----------------------------------------
 obj=vehicle
 name=LeylandSherpaPost
@@ -101,11 +102,11 @@ constraint[prev][0]=none
 min_loading_time=30
 max_loading_time=200
 
-EmptyImage[E]=./images/leyland-sherpa.2.0
-EmptyImage[SE]=./images/leyland-sherpa.2.1
-EmptyImage[S]=./images/leyland-sherpa.2.2
-EmptyImage[SW]=./images/leyland-sherpa.2.3
-EmptyImage[W]=./images/leyland-sherpa.2.4
-EmptyImage[NW]=./images/leyland-sherpa.2.5
-EmptyImage[N]=./images/leyland-sherpa.2.6
-EmptyImage[NE]=./images/leyland-sherpa.2.7
+EmptyImage[E]=./images/leyland-sherpa-post_E.0.0,-33,14
+EmptyImage[SE]=./images/leyland-sherpa-post_SE.0.0,-13,0
+EmptyImage[S]=./images/leyland-sherpa-post_S.0.0,0,0
+EmptyImage[SW]=./images/leyland-sherpa-post_SW.0.0,-8,10
+EmptyImage[W]=./images/leyland-sherpa-post_W.0.0,4,5
+EmptyImage[NW]=./images/leyland-sherpa-post_NW.0.0,12,10
+EmptyImage[N]=./images/leyland-sherpa-post_N.0.0,0,33
+EmptyImage[NE]=./images/leyland-sherpa-post_NE.0.0,0,24

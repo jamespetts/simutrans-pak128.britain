@@ -2,8 +2,18 @@ Obj=building
 Name=RES_JH_1750_00_04
 copyright=James
 type=res
-chance=150
+chance=30
+# Large double fronted town house with basement for servants. Wealthy occupiers.
+# Estimate population of 10 per house (including servants) x 9 (larger gardens)
+# yields 90, / 16 hours * 6.4 hours = 36
+# Half when meters/tile taken into account
+population_and_visitor_demand_capacity=18
 Level=4
+class_proportion[0]=0
+class_proportion[1]=50
+class_proportion[2]=0
+class_proportion[3]=75
+class_proportion[4]=40
 intro_year=1750
 retire_year=1910
 needs_ground=1
@@ -24,8 +34,18 @@ Obj=building
 Name=RES_A_1750_00_08
 copyright=Archon
 type=res
-chance=110
+chance=45
+# Single fronted three storey walk-ups. Higher density. Middle class with some servants.
+# Estimate population of 9 per house (including servants) x 15 (high density)
+# yields 135, / 16 hours * 6.4 hours = 54
+# Half when meters/tile taken into account
+population_and_visitor_demand_capacity=27
 Level=8
+class_proportion[0]=0
+class_proportion[1]=50
+class_proportion[2]=0
+class_proportion[3]=75
+class_proportion[4]=40
 intro_year=1750
 retire_year=1850
 needs_ground=1
@@ -48,7 +68,17 @@ Name=RES_A_1750_01_08
 copyright=Archon
 type=RES
 chance=90
-Level=8
+Level=7
+# Single fronted two storey cottages of larger size. Lower middle class. Few servants.
+# Estimate population of 6 per house (including servants) x 16 (high density)
+# yields 96, / 16 hours * 6.4 hours = 54
+# Half when meters/tile taken into account
+population_and_visitor_demand_capacity=19
+class_proportion[0]=65
+class_proportion[1]=100
+class_proportion[2]=25
+class_proportion[3]=0
+class_proportion[4]=0
 intro_year=1750
 retire_year=1880
 needs_ground=1
@@ -70,7 +100,17 @@ Name=RES_A_1750_02_03
 copyright=Archon
 type=RES
 chance=95
+# Single fronted two storey stone cottage with large garden. Middle class. Few servants.
+# Estimate population of 6 per house (including servants) x 7 (low density)
+# yields 42, / 16 hours * 6.4 hours = 16.8
+# Half when meters/tile taken into account
+population_and_visitor_demand_capacity=8
 Level=3
+class_proportion[0]=65
+class_proportion[1]=100
+class_proportion[2]=32
+class_proportion[3]=0
+class_proportion[4]=0
 intro_year=1750
 retire_year=1850
 needs_ground=1
@@ -90,7 +130,17 @@ Name=RES_JH_1750_01_01
 copyright=James
 type=res
 chance=140
+# Agricultural labourers' dwellings or similar. Very low class. Lower denisty.
+# Estimate population of 8 per house x 5 (low density)
+# yields 40, / 16 hours * 6.4 hours = 16
+# Half when meters/tile taken into account
+population_and_visitor_demand_capacity=8
 Level=1
+class_proportion[0]=93
+class_proportion[1]=7
+class_proportion[2]=0
+class_proportion[3]=0
+class_proportion[4]=0
 intro_year=1750
 retire_year=1910
 needs_ground=1
@@ -111,7 +161,17 @@ Name=RES_JH_1750_02_01
 copyright=James
 type=res
 chance=155
-Level=1
+# Agricultural labourers' dwellings or similar. Very low class. High denisty.
+# Estimate population of 8 per house x 20 (high density)
+# yields 160, / 16 hours * 6.4 hours = 64
+# Half when meters/tile taken into account
+population_and_visitor_demand_capacity=32
+Level=2
+class_proportion[0]=90
+class_proportion[1]=10
+class_proportion[2]=0
+class_proportion[3]=0
+class_proportion[4]=0
 intro_year=1750
 retire_year=1910
 needs_ground=1

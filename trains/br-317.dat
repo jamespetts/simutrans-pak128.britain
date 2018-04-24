@@ -8,7 +8,10 @@ retire_year=1987
 retire_month=12
 waytype=track
 freight=Passagiere
-payload=74
+payload[0]=0
+payload[1]=74
+payload[2]=0
+payload[3]=0
 overcrowded_capacity=52
 length=10
 engine_type=electric
@@ -28,7 +31,10 @@ way_constraint_permissive[2]=2
 
 min_loading_time=15
 max_loading_time=55
-comfort=89
+comfort[0]=0
+comfort[1]=89
+comfort[2]=0
+comfort[3]=148
 
 Constraint[Prev][0]=BR-317-Driving-Rear
 Constraint[Prev][1]=none
@@ -68,7 +74,10 @@ retire_year=1987
 retire_month=12
 waytype=track
 freight=Passagiere
-payload=68
+payload[0]=0
+payload[1]=68
+payload[2]=0
+payload[3]=0
 overcrowded_capacity=48
 length=10
 engine_type=electric
@@ -82,14 +91,16 @@ axles=4
 cost=1975000
 runningcost=120
 
-
 can_lead_from_rear=1
 bidirectional=0
 way_constraint_permissive[2]=2
 
 min_loading_time=15
 max_loading_time=55
-comfort=89
+comfort[0]=0
+comfort[1]=89
+comfort[2]=0
+comfort[3]=148
 
 Constraint[Next][0]=BR-317-Driving-Rear
 
@@ -128,7 +139,10 @@ retire_year=1987
 retire_month=12
 waytype=track
 freight=Passagiere
-payload=74
+payload[0]=0
+payload[1]=52
+payload[2]=0
+payload[3]=18
 overcrowded_capacity=52
 length=10
 engine_type=electric
@@ -141,14 +155,16 @@ axles=4
 cost=1975000
 runningcost=120
 
-
 can_lead_from_rear=1
 bidirectional=0
 way_constraint_permissive[2]=2
 
 min_loading_time=15
 max_loading_time=55
-comfort=89
+comfort[0]=0
+comfort[1]=89
+comfort[2]=0
+comfort[3]=148
 
 Constraint[Prev][0]=BR-317-Driving-Front
 
@@ -157,23 +173,26 @@ Constraint[Next][0]=BR-317-Motor
 liverytype[0]=BR-Blue
 liverytype[1]=NSE-Standard
 
-EmptyImage[E][0]=./images/br-317-trailer-bg.1.4
-EmptyImage[SE][0]=./images/br-317-trailer-bg.1.5
-EmptyImage[S][0]=./images/br-317-trailer-bg.1.6
-EmptyImage[SW][0]=./images/br-317-trailer-bg.1.7
-EmptyImage[W][0]=./images/br-317-trailer-bg.1.0
-EmptyImage[NW][0]=./images/br-317-trailer-bg.1.1
-EmptyImage[N][0]=./images/br-317-trailer-bg.1.2
-EmptyImage[NE][0]=./images/br-317-trailer-bg.1.3
+# The 210 and 317 trailers are identical in appearance.
+# The original 317 graphics (kept in reserve) do not 
+# feature the yellow first class stripe.
+EmptyImage[E][0]=./images/br-210-trailer-composite-bg_E.0.0
+EmptyImage[SE][0]=./images/br-210-trailer-composite-bg_SE.0.0
+EmptyImage[S][0]=./images/br-210-trailer-composite-bg_S.0.0
+EmptyImage[SW][0]=./images/br-210-trailer-composite-bg_SW.0.0
+EmptyImage[W][0]=./images/br-210-trailer-composite-bg_W.0.0
+EmptyImage[NW][0]=./images/br-210-trailer-composite-bg_NW.0.0
+EmptyImage[N][0]=./images/br-210-trailer-composite-bg_N.0.0
+EmptyImage[NE][0]=./images/br-210-trailer-composite-bg_NE.0.0
 
-EmptyImage[E][1]=./images/br-317-trailer-nse.1.4
-EmptyImage[SE][1]=./images/br-317-trailer-nse.1.5
-EmptyImage[S][1]=./images/br-317-trailer-nse.1.6
-EmptyImage[SW][1]=./images/br-317-trailer-nse.1.7
-EmptyImage[W][1]=./images/br-317-trailer-nse.1.0
-EmptyImage[NW][1]=./images/br-317-trailer-nse.1.1
-EmptyImage[N][1]=./images/br-317-trailer-nse.1.2
-EmptyImage[NE][1]=./images/br-317-trailer-nse.1.3
+EmptyImage[E][1]=./images/br-210-trailer-composite-nse_E.0.0
+EmptyImage[SE][1]=./images/br-210-trailer-composite-nse_SE.0.0
+EmptyImage[S][1]=./images/br-210-trailer-composite-nse_S.0.0
+EmptyImage[SW][1]=./images/br-210-trailer-composite-nse_SW.0.0
+EmptyImage[W][1]=./images/br-210-trailer-composite-nse_W.0.0
+EmptyImage[NW][1]=./images/br-210-trailer-composite-nse_NW.0.0
+EmptyImage[N][1]=./images/br-210-trailer-composite-nse_N.0.0
+EmptyImage[NE][1]=./images/br-210-trailer-composite-nse_NE.0.0
 
 ---
 
@@ -187,7 +206,10 @@ retire_year=1987
 retire_month=12
 waytype=track
 freight=Passagiere
-payload=70
+payload[0]=0
+payload[1]=70
+payload[2]=0
+payload[3]=0
 overcrowded_capacity=49
 length=10
 engine_type=electric
@@ -207,7 +229,10 @@ way_constraint_permissive[2]=2
 
 min_loading_time=15
 max_loading_time=55
-comfort=89
+comfort[0]=0
+comfort[1]=89
+comfort[2]=0
+comfort[3]=148
 
 Constraint[Next][0]=BR-317-Driving-Front
 Constraint[Next][1]=none

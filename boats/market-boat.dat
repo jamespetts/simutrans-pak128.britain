@@ -4,9 +4,10 @@ copyright=Jamespetts
 waytype=water
 speed=7
 freight=Passagiere
-payload=50
+payload[0]=0
+payload[1]=50
 weight=10
-length=8
+length=4
 cost=20000
 runningcost=2
 intro_year=1761
@@ -14,7 +15,8 @@ intro_month=1
 retire_year=1802
 retire_month=1
 
-comfort=58
+comfort[0]=0
+comfort[1]=58
 catering_level=2
 # 2-3 minutes
 min_loading_time=120
@@ -48,5 +50,3 @@ FreightImage[0][W]=./images/dumb-barge-wooden-passenger-market-boat-loaded.1.0
 FreightImage[0][NW]=./images/dumb-barge-wooden-passenger-market-boat-loaded.1.1
 FreightImage[0][N]=./images/dumb-barge-wooden-passenger-market-boat-loaded.1.2
 FreightImage[0][NE]=./images/dumb-barge-wooden-passenger-market-boat-loaded.1.3
-
----

@@ -1,3 +1,4 @@
+# http://www.steamlocomotive.com/locobase.php?country=Great_Britain&wheel=2-2-0&railroad=lm
 obj=vehicle
 name=LMR-Planet
 engine_type=steam
@@ -29,21 +30,22 @@ rolling_resistance=19
 way_wear_factor=14600
 
 # Weight confirmed by Ahrons, p. 19
-weight=8
+weight=8.1
+axle_load=5
 cost=4752000
-runningcost=640
+runningcost=8
+fixed_cost=1120
 sound=lwalker-br-4mt-tank.wav
 years_before_maintenance_max_reached=70
 increase_maintenance_after_years=25
 
 Constraint[Next][0]=LMR-Planet-Tender
 
-EmptyImage[E]=./images/lmr-planet.1.4
-EmptyImage[SE]=./images/lmr-planet.1.5
-EmptyImage[S]=./images/lmr-planet.1.6
-EmptyImage[SW]=./images/lmr-planet.1.7
-EmptyImage[W]=./images/lmr-planet.1.0
-EmptyImage[NW]=./images/lmr-planet.1.1
-EmptyImage[N]=./images/lmr-planet.1.2
-EmptyImage[NE]=./images/lmr-planet.1.3
-
+EmptyImage[E]=./images/lmr-planet_E.0.0
+EmptyImage[SE]=./images/lmr-planet_SE.0.0
+EmptyImage[S]=./images/lmr-planet_S.0.0
+EmptyImage[SW]=./images/lmr-planet_SW.0.0
+EmptyImage[W]=./images/lmr-planet_W.0.0
+EmptyImage[NW]=./images/lmr-planet_NW.0.0
+EmptyImage[N]=./images/lmr-planet_N.0.0
+EmptyImage[NE]=./images/lmr-planet_NE.0.0

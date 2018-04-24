@@ -11,7 +11,6 @@ max_weight=520
 cost=570000
 maintenance=1500
 max_height=6
-max_weight=50
 
 has_own_way_graphics=0
 

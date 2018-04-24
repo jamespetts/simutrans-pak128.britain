@@ -1,0 +1,100 @@
+# https://en.wikipedia.org/wiki/Boeing_737_MAX
+# http://www.b737.org.uk/737maxdiffs.htm
+obj=vehicle
+name=boeing-737-max-7
+copyright=Putu Mulya D.
+# https://3dwarehouse.sketchup.com/model/u36b2e77b-d3af-4e3f-ae68-21412f593280/Sriwijaya-air-B-737-MAX-7
+waytype=air
+engine_type=turbine
+# LRC (TAS)
+speed=839
+power=42879
+tractive_effort=238
+freight=Passagiere
+payload[0]=0
+payload[1]=130
+payload[2]=0
+payload[3]=8
+payload[4]=0
+weight=41.1
+#length=8
+cost=55000000
+upgrade_price=5000
+runningcost=3850
+intro_year=2017
+intro_month=5
+
+comfort[0]=0
+comfort[1]=137
+comfort[2]=0
+comfort[3]=154
+min_loading_time=2400
+max_loading_time=2400
+catering_level=2
+
+# Data not available: Boeing recommends treating the 737-NG takeoff
+# charts as a "conservative estimate", so reducing from 2140 to 2000
+minimum_runway_length=2000
+
+sound=laxspotter97-boeing-737-max-8.wav
+range=7084
+
+upgrade[0]=boeing-737-max-7-high-density
+
+Constraint[Next][0]=none
+Constraint[Prev][0]=none
+
+EmptyImage[E]=./images/boeing-737-max-7_E.0.0
+EmptyImage[SE]=./images/boeing-737-max-7_SE.0.0
+EmptyImage[S]=./images/boeing-737-max-7_S.0.0
+EmptyImage[SW]=./images/boeing-737-max-7_SW.0.0
+EmptyImage[W]=./images/boeing-737-max-7_W.0.0
+EmptyImage[NW]=./images/boeing-737-max-7_NW.0.0
+EmptyImage[N]=./images/boeing-737-max-7_N.0.0
+EmptyImage[NE]=./images/boeing-737-max-7_NE.0.0
+---
+obj=vehicle
+name=boeing-737-max-7-high-density
+copyright=Putu Mulya D.
+# https://3dwarehouse.sketchup.com/model/u36b2e77b-d3af-4e3f-ae68-21412f593280/Sriwijaya-air-B-737-MAX-7
+waytype=air
+engine_type=turbine
+# LRC (TAS)
+speed=839
+power=42879
+tractive_effort=238
+freight=Passagiere
+payload[0]=172
+weight=41.1
+#length=8
+cost=55000000
+upgrade_price=5000
+runningcost=3850
+intro_year=2017
+intro_month=5
+
+comfort[0]=100
+min_loading_time=2400
+max_loading_time=2400
+catering_level=1
+
+# Data not available: Boeing recommends treating the 737-NG takeoff
+# charts as a "conservative estimate", so reducing from 2140 to 2000
+minimum_runway_length=2000
+
+sound=laxspotter97-boeing-737-max-8.wav
+range=5440
+
+upgrade[0]=boeing-737-max-7
+
+Constraint[Next][0]=none
+Constraint[Prev][0]=none
+
+EmptyImage[E]=./images/boeing-737-max-7_E.0.0
+EmptyImage[SE]=./images/boeing-737-max-7_SE.0.0
+EmptyImage[S]=./images/boeing-737-max-7_S.0.0
+EmptyImage[SW]=./images/boeing-737-max-7_SW.0.0
+EmptyImage[W]=./images/boeing-737-max-7_W.0.0
+EmptyImage[NW]=./images/boeing-737-max-7_NW.0.0
+EmptyImage[N]=./images/boeing-737-max-7_N.0.0
+EmptyImage[NE]=./images/boeing-737-max-7_NE.0.0

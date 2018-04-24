@@ -4,7 +4,7 @@ engine_type=steam
 smoke=Steam
 speed=142
 # Extrapolated
-power=277
+power=279
 # http://en.wikipedia.org/wiki/Midland_Railway_483_Class
 tractive_effort=78
 copyright=James
@@ -25,8 +25,8 @@ freight=None
 payload=0
 length=5
 
-weight=54
-axle_load=16
+weight=54.2
+axle_load=17
 cost=6841000
 upgrade_price=3420500
 runningcost=1430

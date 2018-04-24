@@ -11,6 +11,20 @@ intro_month=1
 Dims=1,1,4
 NoInfo=1
 Level=2
+# Passenger data guessed
+population_and_visitor_demand_capacity=4
+employment_capacity=36
+mail_demand=4
+class_proportion[0]=0
+class_proportion[1]=4
+class_proportion[2]=46
+class_proportion[3]=50
+class_proportion[4]=0
+class_proportion_jobs[0]=5
+class_proportion_jobs[1]=15
+class_proportion_jobs[2]=78
+class_proportion_jobs[3]=2
+class_proportion_jobs[4]=0
 
 maintenance=18650
 cost=1550000
@@ -41,6 +55,20 @@ intro_month=1
 Dims=1,1,2
 NoInfo=1
 Level=5
+# Passenger data guessed
+population_and_visitor_demand_capacity=6
+employment_capacity=64
+mail_demand=6
+class_proportion[0]=0
+class_proportion[1]=4
+class_proportion[2]=46
+class_proportion[3]=50
+class_proportion[4]=0
+class_proportion_jobs[0]=5
+class_proportion_jobs[1]=15
+class_proportion_jobs[2]=78
+class_proportion_jobs[3]=2
+class_proportion_jobs[4]=0
 
 maintenance=33120
 cost=2736000

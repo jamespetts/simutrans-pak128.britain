@@ -10,22 +10,26 @@ engine_type=turbine
 speed=794
 power=32040
 tractive_effort=178
-#gear=1
 freight=Passagiere
-# Below payload for single class version:
-# 8 premium and 120 economy is another varient.
-# 149 economy is the more cramped high capacity version.
-payload=141
+payload[0]=0
+payload[1]=118
+payload[2]=0
+payload[3]=8
+payload[4]=0
 weight=32.9
 #length=8
 cost=45000000
+upgrade_price=5000
 runningcost=3950
 intro_year=1984
 intro_month=11
 retire_year=1999
 retire_month=12
 
-comfort=105
+comfort[0]=0
+comfort[1]=135
+comfort[2]=0
+comfort[3]=152
 min_loading_time=2400
 max_loading_time=2400
 catering_level=2
@@ -38,6 +42,8 @@ minimum_runway_length=2133
 sound=laxspotter97-boeing737-300.wav
 range=4973
 
+upgrade[0]=boeing-737-300-high-density
+
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
@@ -49,4 +55,54 @@ EmptyImage[W]=./images/boeing-737-300_W.0.0
 EmptyImage[NW]=./images/boeing-737-300_NW.0.0
 EmptyImage[N]=./images/boeing-737-300_N.0.0
 EmptyImage[NE]=./images/boeing-737-300_NE.0.0
+---
+obj=vehicle
+name=boeing-737-300-high-density
+copyright=2001kraft-old
+# https://www.cgtrader.com/free-3d-models/aircraft/commercial/old-shenzhen-airlines-boeing-737-300
+waytype=air
+engine_type=turbine
+# LRC (TAS)
+speed=794
+power=32040
+tractive_effort=178
+freight=Passagiere
+payload[0]=0
+payload[1]=149
+weight=32.9
+#length=8
+cost=45000000
+upgrade_price=5000
+runningcost=3950
+intro_year=1984
+intro_month=11
+retire_year=1999
+retire_month=12
 
+comfort[0]=0
+comfort[1]=119
+min_loading_time=2400
+max_loading_time=2400
+catering_level=1
+
+# @ ISA (sea level, 0Centigrades), Runway Dry
+#minimum_runway_length=1939
+# @ ISA+20C, Runway dry = +10%
+minimum_runway_length=2133
+
+sound=laxspotter97-boeing737-300.wav
+range=4973
+
+upgrade[0]=boeing-737-300
+
+Constraint[Next][0]=none
+Constraint[Prev][0]=none
+
+EmptyImage[E]=./images/boeing-737-300_E.0.0
+EmptyImage[SE]=./images/boeing-737-300_SE.0.0
+EmptyImage[S]=./images/boeing-737-300_S.0.0
+EmptyImage[SW]=./images/boeing-737-300_SW.0.0
+EmptyImage[W]=./images/boeing-737-300_W.0.0
+EmptyImage[NW]=./images/boeing-737-300_NW.0.0
+EmptyImage[N]=./images/boeing-737-300_N.0.0
+EmptyImage[NE]=./images/boeing-737-300_NE.0.0

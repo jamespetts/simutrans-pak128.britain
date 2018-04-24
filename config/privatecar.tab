@@ -1,11 +1,23 @@
 # Private car ownership over different years. The numbers other than years are
 # percentages, and should be integers (i.e., no decimal point). 
 #
-# Source of data (1951 onwards): http://www.dft.gov.uk/pgr/statistics/datatablespublications/tsgb/2008edition/sectionninevehicles.pdf
+# Source of data (1951 onwards): http://webarchive.nationalarchives.gov.uk/20091009084502/http://www.dft.gov.uk/pgr/statistics/datatablespublications/tsgb/2008edition/sectionninevehicles.pdf
+# See also http://www.racfoundation.org/assets/rac_foundation/content/downloadables/low_income_motoring-bayliss-280909.pdf
+# This website has good modern data, but only two data points: https://www.ucl.ac.uk/transport-institute/pdfs/transport-poverty
 #
-# Figures before 1951 and after 2006 are educated guesses. Data is for the UK:
+# Figures before 1951 and after 2012 are educated guesses. Data are for the UK:
 # other countries might vary.
+#
+# This is indexed by passenger class (as of July 2017). 0 is the lowest and 4 the highest. Much of the quintile data are extrapolated as accurate data are hard to find,
+# especially for the higher income qunitiles. Note that the classes are not intended to represent actual income qunitiles, especially the highest classes.
 #
 # Author: James E. Petts (jamespetts)
 
-car_ownership=1750,1,1906,3,1935,6,1945,7,1951,14,1955,20,1958,26,1960,29,1963,36,1966,45,1968,49,1971,52,1974,55,1977,57,1980,59,1983,61,1986,62,1989,66,1993,69,1996,70,1999,72,2003,74,2006,76,2015,82
+car_ownership[0]=1750,0,1945,0,1955,2,1960,5,1965,7,1973,10,1980,18,1983,20,1992,30,1995,34,2002,40,2005,43,2012,52
+car_ownership[1]=1750,0,1945,0,1955,5,1960,10,1970,18,1976,23,1980,30,1985,41,1989,48,1995,53,2003,60,2012,65
+car_ownership[2]=1750,0,1906,0,1935,3,1945,5,1951,21,1955,25,1960,36,1966,45,1995,80,2012,80
+car_ownership[3]=1750,1,1800,2,1850,3,1880,4,1890,5,1898,6,1906,10,1920,20,1935,33,1945,40,1950,60,1958,70,1980,85,1995,90,2012,88
+car_ownership[4]=1750,95,2000,99,2050,98
+
+# These are the original general figures, not distinguished by income quintile
+# 1750,1,1906,3,1935,6,1945,7,1951,14,1955,20,1958,26,1960,29,1963,36,1966,45,1968,49,1971,52,1974,55,1977,57,1980,59,1983,61,1986,62,1989,66,1993,69,1996,70,1999,72,2003,74,2006,76,2015,82

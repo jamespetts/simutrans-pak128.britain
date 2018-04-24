@@ -15,7 +15,8 @@ power=39
 tractive_effort=3
 gear=50
 # One of these at the London 'Bus Museum is marked as 6t - the cwt marking is unclear on my photograph.
-weight=6
+# See also https://www.flickr.com/photos/14730981@N08/6831960262/in/album-72157629573765473/
+weight=6.3
 axles=2
 length=5
 cost=388750

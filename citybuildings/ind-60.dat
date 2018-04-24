@@ -2,13 +2,25 @@ Obj=building
 Name=IND_JH_1960_00_02
 copyright=James
 type=ind
-chance=50
+chance=30
 Level=2
+population_and_visitor_demand_capacity=3
+employment_capacity=25
+mail_demand=3
+class_proportion[0]=10
+class_proportion[1]=80
+class_proportion[2]=5
+class_proportion[3]=5
+class_proportion[4]=0
+class_proportion_jobs[0]=50
+class_proportion_jobs[1]=48
+class_proportion_jobs[2]=2
+class_proportion_jobs[3]=0
+class_proportion_jobs[4]=0
 intro_year=1960
-retire_year=2010
+#retire_year=2010
 needs_ground=1
 dims=1,1,4
-
 
 BackImage[2][0][0][0][0][0]=images/ind/1960-sewage-plant.0.0
 BackImage[1][0][0][0][0][0]=images/ind/1960-sewage-plant.0.1
@@ -18,4 +30,3 @@ BackImage[2][0][0][0][0][1]=images/ind/1960-sewage-plant.1.0
 BackImage[1][0][0][0][0][1]=images/ind/1960-sewage-plant.1.1
 BackImage[0][0][0][0][0][1]=images/ind/1960-sewage-plant.1.2
 BackImage[3][0][0][0][0][1]=images/ind/1960-sewage-plant.1.3
---

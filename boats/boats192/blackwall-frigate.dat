@@ -19,6 +19,8 @@ is_tall=1
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
 
+Constraint[Prev][0]=none
+
 Constraint[Next][0]=BlackwallFrigateAddPax
 Constraint[Next][1]=BlackwallFrigateAddBulk
 Constraint[Next][2]=BlackwallFrigateAddMail
@@ -26,15 +28,15 @@ Constraint[Next][3]=BlackwallFrigateAddPiece
 Constraint[Next][4]=BlackwallFrigateAddCool
 Constraint[Next][5]=BlackwallFrigateAddLong
 Constraint[Next][6]=BlackwallFrigateAddLivestock
-Constraint[Prev][0]=none
+Constraint[Next][7]=BlackwallFrigateAddPax-second-class
+Constraint[Next][8]=BlackwallFrigateAddPax-first-class
 
-EmptyImage[E]=../images/blackwall-frigate.1.0,-31,-46
-EmptyImage[SE]=../images/blackwall-frigate.1.1,-31,-46
-EmptyImage[S]=../images/blackwall-frigate.1.2,-31,-46
-EmptyImage[SW]=../images/blackwall-frigate.1.3,-31,-46
-EmptyImage[W]=../images/blackwall-frigate.1.4,-31,-46
-EmptyImage[NW]=../images/blackwall-frigate.1.5,-31,-46
-EmptyImage[N]=../images/blackwall-frigate.1.6,-31,-46
-EmptyImage[NE]=../images/blackwall-frigate.1.7,-31,-46
--------------
+EmptyImage[E]=../images/blackwall-frigate_E.0.0,-31,-46
+EmptyImage[SE]=../images/blackwall-frigate_SE.0.0,-31,-46
+EmptyImage[S]=../images/blackwall-frigate_S.0.0,-31,-46
+EmptyImage[SW]=../images/blackwall-frigate_SW.0.0,-31,-46
+EmptyImage[W]=../images/blackwall-frigate_W.0.0,-31,-46
+EmptyImage[NW]=../images/blackwall-frigate_NW.0.0,-31,-46
+EmptyImage[N]=../images/blackwall-frigate_N.0.0,-31,-46
+EmptyImage[NE]=../images/blackwall-frigate_NE.0.0,-31,-46
 

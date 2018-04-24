@@ -118,7 +118,6 @@ intro_month=1
 topspeed=175
 cost=550000
 maintenance=1800
-max_weight=140
 pillar_distance=2
 pillar_asymmetric=1
 #max_height=1

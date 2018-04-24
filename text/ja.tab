@@ -518,9 +518,9 @@ GrainMill
 製粉場
 GrainMill1750
 製粉場
-GrainMill1840
+GrainMill1820
 製粉場
-GrainMill1910
+GrainMill1880
 製粉場
 GrainMill1945
 製粉場
@@ -970,21 +970,21 @@ BR-104Rear
 BR Class 104 DMU 後部
 BR-121
 BR クラス121 DMU
-BR-142Front(Regional)
+br-142-front
 BR クラス142 ペーサー DMU
-BR-142Rear(Regional)
+br-142-rear
 BR クラス142 ペーサー DMU 後部
-BR-153(Regional)
+br-153
 BR クラス153 スーパースプリンター DMU
-BR-156Front(Regional)
+br-156-front
 BR クラス156 スーパースプリンター DMU
-BR-156Rear(Regional)
+br-156-rear
 BR クラス156 スーパースプリンター DMU 後部
-BR-158Front(Regional)
+br-158-front
 BR 158形 エクスプレス・スプリンター DMU
-BR-158Middle(Regional)
+br-158-centre
 BR 158形 エクスプレス・スプリンター DMU 中間部
-BR-158Rear(Regional)
+br-158-rear
 BR 158形 エクスプレス・スプリンター DMU 後部
 BR-165Front
 BR 165形 ネットワーク・ターボ DMU
@@ -1010,21 +1010,21 @@ BR-205Middle
 BR クラス205 DEMU 中間部
 BR-205Rear
 BR クラス205 DEMU 後部
-BR-220Front(Virgin)
+BR-220Front
 BR 220系 ボイジャー
-BR-220Middle(Virgin)
+BR-220Middle
 BR 220系 ボイジャー 中間部
-BR-220Rear(Virgin)
+BR-220Rear
 BR 220系 ボイジャー 後部
 BR-251FirstParlour
 BR クラス251 ブループルマン １等パーラーカー
-BR-251Front
+BR-251FrontFirst
 BR クラス251 ブループルマン
-BR-251Rear
+BR-251RearFirst
 BR クラス251 ブループルマン 後部
-BR-251SecondParlourFront
+BR-251SecondParlour
 BR クラス251 ブループルマン ２等パーラーカー　前部
-BR-251SecondParlourRear
+BR-251Kitchen
 BR クラス251 ブループルマン ２等パーラーカー　後部
 BR-303Front
 BR クラス303 EMU
@@ -1048,35 +1048,35 @@ BR-313Pantograph
 BR クラス313 EMU パンタ車
 BR-313Rear
 BR クラス313 EMU 後部
-BR-319Engine(NSE)
+BR-319Engine
 BR 319形 EMU 動力車
-BR-319Front(NSE)
+BR-319Front
 BR 319形 EMU
-BR-319Pantograph(NSE)
+BR-319Pantograph
 BR 319形 EMU パンタ車
-BR-319Rear(NSE)
+BR-319Rear
 BR 319形 EMU 後部
-BR-365Front(NSE)
+BR-365Front
 BR 365形 ネットワーカーエクスプレス EMU
-BR-365Middle(NSE)
+BR-365Middle
 BR 365形 ネットワーカーエクスプレス EMU 中間車
-BR-365Power(NSE)
+BR-365Power
 BR 365形 ネットワーカーエクスプレス EMU 中間車
-BR-365Rear(NSE)
+BR-365Rear
 BR 365形 ネットワーカーエクスプレス EMU 後部
-BR-370Buffet(IC)
+BR-370BrakeFirstFront
 BR クラス370 APT ビュフェ車
-BR-370Coach(IC)
+BR-370TrailerSecond
 BR クラス370 APT 客車
-BR-370FrontCab(IC)
+BR-370FrontCab
 BR クラス370 APT
-BR-370FrontPower(IC)
+BR-370FrontPower
 BR クラス370 APT 中間動力車
-BR-370RearCab(IC)
+BR-370RearCab
 BR クラス370 APT 後部
-BR-370RearPower(IC)
+BR-370RearPower
 BR クラス370 APT 中間動力車
-BR-370Restaurant(IC)
+BR-370BrakeFirstRear
 BR クラス370 APT 食堂車
 BR-373Coach
 BR 373形 ユーロスター 中間車
@@ -1100,21 +1100,21 @@ BR-378Middle
 BR クラス378 EMU 中間部
 BR-378Rear
 BR クラス378 EMU 後部
-BR-390Coach(Virgin)
+BR-390Coach
 BR 390形 ペンドリーノ 中間車
-BR-390FrontCab(Virgin)
+BR-390FrontCab
 BR 390形 ペンドリーノ
-BR-390FrontCoach(Virgin)
+BR-390FrontCoach
 BR 390形 ペンドリーノ 中間車
-BR-390FrontPantograph(Virgin)
+BR-390FrontPantograph
 BR 390形 ペンドリーノ パンタ車
-BR-390PoweredCoach(Virgin)
+BR-390PoweredCoach
 BR 390形 ペンドリーノ 動力車
-BR-390RearCab(Virgin)
+BR-390RearCab
 BR 390形 ペンドリーノ 後部
-BR-390RearCoach(Virgin)
+BR-390RearCoach
 BR 390形 ペンドリーノ 中間車
-BR-390RearPantograph(Virgin)
+BR-390RearPantograph
 BR 390形 ペンドリーノ パンタ車
 BR-395Front
 BR 395系 ジャベリン
@@ -1146,11 +1146,11 @@ BR-442-Middle3
 BR クラス442 NSE 中間車
 BR-442-Rear
 BR クラス442 NSE 後部
-BR-465Front(NSE)
+BR-465Front
 BR クラス465 ネットワーカー EMU
-BR-465Middle(NSE)
+BR-465Middle
 BR クラス465 ネットワーカー EMU 中間部
-BR-465Rear(NSE)
+BR-465Rear
 BR クラス465 ネットワーカー EMU 後部
 BR-489[GLV]
 BR クラス489 GLV

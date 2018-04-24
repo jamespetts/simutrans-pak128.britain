@@ -1,0 +1,61 @@
+# https://outercirclebus.files.wordpress.com/2014/01/1107-daimler-cog5-20130826-at-wythall-keith-thursfield.jpg
+# https://farm3.static.flickr.com/2832/10087045663_9502e3a0f9_b.jpg
+# https://images.fineartamerica.com/images-medium-large/1-birmingham-daimler-cog5-mike-jeffries.jpg
+# http://www.showbus.com/p13/Birmingham%20Daimler%20COG5%20Metro-Cammell%201107%205389.JPG
+obj=vehicle
+name=daimler-cog5-double
+copyright=JamesPetts&JamesHood
+waytype=road
+engine_type=diesel
+smoke=Diesel-light
+freight=Passagiere
+# https://books.google.co.uk/books?id=ay5mBAAAQBAJ&pg=PA53&lpg=PA53&dq=daimler+cog5+weight&source=bl&ots=HK0nwePTQ_&sig=cu9glNTm7Jhr7ILSdAsbhExoF1I&hl=en&sa=X&ved=0ahUKEwjQtdeBiabXAhVEKewKHTiWCT0Q6AEILjAC#v=onepage&q=daimler%20cog5%20weight&f=false
+payload=54
+overcrowded_capacity=4
+speed=50
+power=63
+tractive_effort=9
+gear=50
+# http://www.classicbuses.co.uk/busnews3.html
+# The above weight of 7.5t is for the "Sunseeker" coach
+# body, not the double deck 'bus body.
+# The 6.1t figure is suggested by p. 49 of "Daimler" by Allan Towsin
+weight=6.1
+length=6
+cost=961000
+runningcost=180
+intro_year=1934
+intro_month=9
+retire_year=1945
+retire_month=12
+is_tall=1
+sound=steve-o-hara-daimler-cog5.wav
+
+comfort=42
+# Rear platform with conductor: 2.0 seconds per passenger
+min_loading_time=3
+max_loading_time=108
+
+Constraint[Prev][0]=none
+Constraint[Next][0]=none
+
+liverytype[0]=Birmingham-Corporation
+liverytype[1]=Bradford-standard
+
+EmptyImage[E][0]=./images/daimler-cog5-double-birmingham_E.0.0,-33,14
+EmptyImage[SE][0]=./images/daimler-cog5-double-birmingham_SE.0.0,-13,0
+EmptyImage[S][0]=./images/daimler-cog5-double-birmingham_S.0.0,0,0
+EmptyImage[SW][0]=./images/daimler-cog5-double-birmingham_SW.0.0,-8,10
+EmptyImage[W][0]=./images/daimler-cog5-double-birmingham_W.0.0,4,5
+EmptyImage[NW][0]=./images/daimler-cog5-double-birmingham_NW.0.0,12,10
+EmptyImage[N][0]=./images/daimler-cog5-double-birmingham_N.0.0,0,33
+EmptyImage[NE][0]=./images/daimler-cog5-double-birmingham_NE.0.0,0,24
+
+EmptyImage[E][1]=./images/daimler-cog5-double-bradford_E.0.0,-33,14
+EmptyImage[SE][1]=./images/daimler-cog5-double-bradford_SE.0.0,-13,0
+EmptyImage[S][1]=./images/daimler-cog5-double-bradford_S.0.0,0,0
+EmptyImage[SW][1]=./images/daimler-cog5-double-bradford_SW.0.0,-8,10
+EmptyImage[W][1]=./images/daimler-cog5-double-bradford_W.0.0,4,5
+EmptyImage[NW][1]=./images/daimler-cog5-double-bradford_NW.0.0,12,10
+EmptyImage[N][1]=./images/daimler-cog5-double-bradford_N.0.0,0,33
+EmptyImage[NE][1]=./images/daimler-cog5-double-bradford_NE.0.0,0,24

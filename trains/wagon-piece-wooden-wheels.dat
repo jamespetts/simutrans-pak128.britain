@@ -1,0 +1,50 @@
+obj=vehicle
+name=wagon-piece-wooden-wheels
+speed=10
+copyright=James/JamesPetts
+intro_year=1700
+intro_month=1
+retire_year=1825
+retire_month=7
+waytype=track
+freight=Bucher
+payload=3
+length=2
+# At these low speeds, the train 
+# guards could run alongside the trains
+# and operate the brakes.
+brake_force=1
+# Much higher than the later wagons owing to their wooden wheels
+rolling_resistance=66
+
+weight=1
+axle_load=1
+# Much lower than iron wheeled wagons as wooden wheels are soft
+way_wear_factor=929
+cost=30000
+runningcost=1
+
+bidirectional=1
+
+min_loading_time=300
+max_loading_time=900
+way_constraint_prohibitive[0]=0
+
+EmptyImage[E]=./images/wagon-early1-general-wood-wheels-empty_E.0.0
+EmptyImage[SE]=./images/wagon-early1-general-wood-wheels-empty_SE.0.0
+EmptyImage[S]=./images/wagon-early1-general-wood-wheels-empty_S.0.0
+EmptyImage[SW]=./images/wagon-early1-general-wood-wheels-empty_SW.0.0
+EmptyImage[W]=./images/wagon-early1-general-wood-wheels-empty_W.0.0
+EmptyImage[NW]=./images/wagon-early1-general-wood-wheels-empty_NW.0.0
+EmptyImage[N]=./images/wagon-early1-general-wood-wheels-empty_N.0.0
+EmptyImage[NE]=./images/wagon-early1-general-wood-wheels-empty_NE.0.0
+
+FreightImage[E]=./images/wagon-early1-general-wood-wheels-piece_E.0.0
+FreightImage[SE]=./images/wagon-early1-general-wood-wheels-piece_SE.0.0
+FreightImage[S]=./images/wagon-early1-general-wood-wheels-piece_S.0.0
+FreightImage[SW]=./images/wagon-early1-general-wood-wheels-piece_SW.0.0
+FreightImage[W]=./images/wagon-early1-general-wood-wheels-piece_W.0.0
+FreightImage[NW]=./images/wagon-early1-general-wood-wheels-piece_NW.0.0
+FreightImage[N]=./images/wagon-early1-general-wood-wheels-piece_N.0.0
+FreightImage[NE]=./images/wagon-early1-general-wood-wheels-piece_NE.0.0
+

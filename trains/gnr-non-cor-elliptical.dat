@@ -10,7 +10,8 @@ retire_year=1927
 retire_month=12
 waytype=track
 freight=Passagiere
-payload=64
+payload[0]=0
+payload[1]=64
 overcrowded_capacity=32
 length=10
 
@@ -19,8 +20,8 @@ axles=4
 cost=580000
 runningcost=32
 
-
-comfort=102
+comfort[0]=0
+comfort[1]=102
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=10
@@ -93,7 +94,8 @@ retire_year=1927
 retire_month=12
 waytype=track
 freight=Passagiere
-payload=58
+payload[0]=0
+payload[1]=58
 overcrowded_capacity=29
 length=10
 
@@ -102,8 +104,8 @@ axles=4
 cost=580000
 runningcost=32
 
-
-comfort=102
+comfort[0]=0
+comfort[1]=102
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=10
@@ -155,7 +157,8 @@ retire_year=1927
 retire_month=12
 waytype=track
 freight=Passagiere
-payload=58
+payload[0]=0
+payload[1]=58
 overcrowded_capacity=29
 length=10
 
@@ -164,8 +167,8 @@ axles=4
 cost=580000
 runningcost=32
 
-
-comfort=102
+comfort[0]=0
+comfort[1]=102
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=10
@@ -204,7 +207,6 @@ axles=4
 cost=580000
 runningcost=32
 
-
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=35
@@ -240,7 +242,6 @@ weight=27.5
 axles=4
 cost=580000
 runningcost=32
-
 
 can_lead_from_rear=0
 bidirectional=1

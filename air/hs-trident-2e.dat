@@ -6,16 +6,25 @@ copyright=SketchVC10 and Garza Industries
 # https://3dwarehouse.sketchup.com/model/u93d3025b-2bb0-44ea-9eda-e85c1efd272c/BEA-Hawker-Siddeley-Tident-2E-1964
 waytype=air
 engine_type=turbine
-speed=937
+# The real economical cruising speed is hard to find.
+# Wikipedia has the "crusing speed" as 937km/h, but this is the maximum cruising speed, not the economical
+# cruising speed. The below speed is therefore the maximum cruising speed multiplied by the ratio of the
+# Boeing 707's economical cruising speed to its maximum cruising speed (slightly above 0.9). 
+speed=848
 power=27849
 tractive_effort=159
 #gear=1
 freight=Passagiere
 # "Typical" seating is 115; but some airlines used a high density configuration of up to 149: http://www.dehavillandmuseum.co.uk/aircraft/de-havilland-dh121-trident/
-payload=115
+payload[0]=0
+payload[1]=0
+payload[2]=95
+payload[3]=0
+payload[4]=20
 weight=33.2
 #length=8
 cost=13500000
+upgrade_price=5000
 runningcost=3600
 intro_year=1968
 intro_month=4
@@ -23,7 +32,11 @@ intro_month=4
 retire_year=1977
 retire_month=6
 
-comfort=143
+comfort[0]=0
+comfort[1]=0
+comfort[2]=139
+comfort[3]=0
+comfort[4]=173
 min_loading_time=2000
 max_loading_time=2000
 
@@ -37,6 +50,85 @@ minimum_runway_length=2415
 
 sound=robin-pinnock-bac-1-11.wav
 range=4300
+
+upgrade[0]=hs-trident-2e-high-density
+
+Constraint[Next][0]=none
+Constraint[Prev][0]=none
+
+liverytype[0]=BEA-red-square
+liverytype[1]=BEA-speedjack
+
+EmptyImage[E][0]=./images/hs-trident-2e-bea_E.0.0
+EmptyImage[SE][0]=./images/hs-trident-2e-bea_SE.0.0
+EmptyImage[S][0]=./images/hs-trident-2e-bea_S.0.0
+EmptyImage[SW][0]=./images/hs-trident-2e-bea_SW.0.0
+EmptyImage[W][0]=./images/hs-trident-2e-bea_W.0.0
+EmptyImage[NW][0]=./images/hs-trident-2e-bea_NW.0.0
+EmptyImage[N][0]=./images/hs-trident-2e-bea_N.0.0
+EmptyImage[NE][0]=./images/hs-trident-2e-bea_NE.0.0
+
+EmptyImage[E][1]=./images/hs-trident-2e-bea-late_E.0.0
+EmptyImage[SE][1]=./images/hs-trident-2e-bea-late_SE.0.0
+EmptyImage[S][1]=./images/hs-trident-2e-bea-late_S.0.0
+EmptyImage[SW][1]=./images/hs-trident-2e-bea-late_SW.0.0
+EmptyImage[W][1]=./images/hs-trident-2e-bea-late_W.0.0
+EmptyImage[NW][1]=./images/hs-trident-2e-bea-late_NW.0.0
+EmptyImage[N][1]=./images/hs-trident-2e-bea-late_N.0.0
+EmptyImage[NE][1]=./images/hs-trident-2e-bea-late_NE.0.0
+
+---
+
+# https://en.wikipedia.org/wiki/Hawker_Siddeley_Trident
+obj=vehicle
+name=hs-trident-2e-high-density
+copyright=SketchVC10 and Garza Industries
+# https://3dwarehouse.sketchup.com/model/u0e56c886-6be6-4418-b93c-cd797cf03c20/BEA-Trident-1C-G-ARPI
+# https://3dwarehouse.sketchup.com/model/u93d3025b-2bb0-44ea-9eda-e85c1efd272c/BEA-Hawker-Siddeley-Tident-2E-1964
+waytype=air
+engine_type=turbine
+# The real economical cruising speed is hard to find.
+# Wikipedia has the "crusing speed" as 937km/h, but this is the maximum cruising speed, not the economical
+# cruising speed. The below speed is therefore the maximum cruising speed multiplied by the ratio of the
+# Boeing 707's economical cruising speed to its maximum cruising speed (slightly above 0.9). 
+speed=848
+power=27849
+tractive_effort=159
+#gear=1
+freight=Passagiere
+# "Typical" seating is 115; but some airlines used a high density configuration of up to 149: http://www.dehavillandmuseum.co.uk/aircraft/de-havilland-dh121-trident/
+payload[0]=0
+payload[1]=0
+payload[2]=149
+weight=33.2
+#length=8
+cost=13500000
+upgrade_price=5000
+runningcost=3600
+intro_year=1968
+intro_month=4
+# Guessed
+retire_year=1977
+retire_month=6
+
+comfort[0]=0
+comfort[1]=0
+comfort[2]=139
+min_loading_time=2000
+max_loading_time=2000
+
+catering_level=3
+
+# https://www.flightglobal.com/FlightPDFArchive/1964/1964%20-%200940.PDF
+# @ ISA (sea level, 0Centigrades), Runway Dry
+#minimum_runway_length=2195
+# @ ISA+10C, Runway dry = +10%
+minimum_runway_length=2415
+
+sound=robin-pinnock-bac-1-11.wav
+range=4300
+
+upgrade[0]=hs-trident-2e
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none

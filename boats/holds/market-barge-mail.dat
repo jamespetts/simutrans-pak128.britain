@@ -10,7 +10,7 @@ intro_month=1
 retire_year=1802
 retire_month=1
 
-length=3
+length=0
 # 4-6 minutes
 min_loading_time=240
 max_loading_time=360

@@ -12,18 +12,28 @@ power=72072
 tractive_effort=400
 freight=Passagiere
 # 139 in a mixed class arrangement
-payload=174
+# https://www.jetphotos.com/photo/7930453 (123 seats in "second class")
+payload[0]=0
+payload[1]=0
+payload[2]=123
+payload[3]=0
+payload[4]=16
 weight=125.5
 #length=8
 cost=26000000
+upgrade_price=5000
 runningcost=4000
 intro_year=1965
 intro_month=10
 # Were only produced until 1970, but allow people to buy these later.
 retire_year=1972
 retire_month=9
-comfort=155
 
+comfort[0]=0
+comfort[1]=0
+comfort[2]=155
+comfort[3]=0
+comfort[4]=197
 min_loading_time=2500
 max_loading_time=2500
 catering_level=4
@@ -32,6 +42,74 @@ minimum_runway_length=2667
 
 sound=robin-pinnock-bac-1-11.wav
 range=7600
+
+upgrade[0]=vickers-super-vc10-high-density
+
+Constraint[Next][0]=none
+Constraint[Prev][0]=none
+
+liverytype[0]=BOAC-speedbird
+liverytype[1]=BA-Union-flag
+
+EmptyImage[E][0]=../images/vickers-super-vc10-boac_E.0.0,-64,-56
+EmptyImage[SE][0]=../images/vickers-super-vc10-boac_SE.0.0,-32,-32
+EmptyImage[S][0]=../images/vickers-super-vc10-boac_S.0.0,-110,0
+EmptyImage[SW][0]=../images/vickers-super-vc10-boac_SW.0.0,-32,-32
+EmptyImage[W][0]=../images/vickers-super-vc10-boac_W.0.0,0,-24
+EmptyImage[NW][0]=../images/vickers-super-vc10-boac_NW.0.0,-32,-32
+EmptyImage[N][0]=../images/vickers-super-vc10-boac_N.0.0,-110,0
+EmptyImage[NE][0]=../images/vickers-super-vc10-boac_NE.0.0,0,-32
+
+EmptyImage[E][1]=../images/vickers-super-vc10-ba_E.0.0,-64,-56
+EmptyImage[SE][1]=../images/vickers-super-vc10-ba_SE.0.0,-32,-32
+EmptyImage[S][1]=../images/vickers-super-vc10-ba_S.0.0,-110,0
+EmptyImage[SW][1]=../images/vickers-super-vc10-ba_SW.0.0,-32,-32
+EmptyImage[W][1]=../images/vickers-super-vc10-ba_W.0.0,0,-24
+EmptyImage[NW][1]=../images/vickers-super-vc10-ba_NW.0.0,-32,-32
+EmptyImage[N][1]=../images/vickers-super-vc10-ba_N.0.0,-110,0
+EmptyImage[NE][1]=../images/vickers-super-vc10-ba_NE.0.0,0,-32
+
+---
+
+obj=vehicle
+name=vickers-super-vc10-high-density
+copyright=Dominic Browne
+# CC-BY-SA (the original Blender model; modified and rendered by jamespetts)
+waytype=air
+engine_type=turbine
+speed=935
+# Power data not available - inferred from tractive force
+power=72072
+tractive_effort=400
+freight=Passagiere
+# http://www.michaelprophet.com/News_articles/News_articles2010/images_VC10/logo4.jpg
+payload[0]=0
+payload[1]=0
+payload[2]=163
+weight=125.5
+#length=8
+cost=26000000
+upgrade_price=5000
+runningcost=4000
+intro_year=1965
+intro_month=10
+# Were only produced until 1970, but allow people to buy these later.
+retire_year=1972
+retire_month=9
+
+comfort[0]=0
+comfort[1]=0
+comfort[2]=155
+min_loading_time=2500
+max_loading_time=2500
+catering_level=4
+
+minimum_runway_length=2667
+
+sound=robin-pinnock-bac-1-11.wav
+range=7600
+
+upgrade[0]=vickers-super-vc10
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none

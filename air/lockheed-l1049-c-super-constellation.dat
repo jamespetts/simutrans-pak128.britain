@@ -10,18 +10,26 @@ speed=489
 power=8980
 tractive_effort=64
 freight=Passagiere
-# 47-106 passengers depending on the configuration (Wikipedia)
-payload=106
+payload[0]=0
+payload[1]=0
+payload[2]=0
+payload[3]=0
+payload[4]=64
 weight=31.3
 #length=8
 cost=11500000
+upgrade_price=5000
 runningcost=2750
 intro_year=1951
 intro_month=11
 retire_year=1958
 retire_month=1
 
-comfort=127
+comfort[0]=0
+comfort[1]=0
+comfort[2]=0
+comfort[3]=0
+comfort[4]=147
 min_loading_time=2400
 max_loading_time=2400
 
@@ -33,6 +41,64 @@ minimum_runway_length=1075
 sound=x705547-constellation.wav
 
 range=8288
+
+upgrade[0]=lockheed-l1049-c-super-constellation-high-density
+
+Constraint[Next][0]=none
+Constraint[Prev][0]=none
+
+EmptyImage[E]=./images/lockheed-l1049-c-super-constellation_E.0.0
+EmptyImage[SE]=./images/lockheed-l1049-c-super-constellation_SE.0.0
+EmptyImage[S]=./images/lockheed-l1049-c-super-constellation_S.0.0
+EmptyImage[SW]=./images/lockheed-l1049-c-super-constellation_SW.0.0
+EmptyImage[W]=./images/lockheed-l1049-c-super-constellation_W.0.0
+EmptyImage[NW]=./images/lockheed-l1049-c-super-constellation_NW.0.0
+EmptyImage[N]=./images/lockheed-l1049-c-super-constellation_N.0.0
+EmptyImage[NE]=./images/lockheed-l1049-c-super-constellation_NE.0.0
+
+---
+
+obj=vehicle
+name=lockheed-l1049-c-super-constellation-high-density
+copyright=SketchVC10
+# https://3dwarehouse.sketchup.com/model/uff46f999-2374-451e-9d33-b691db43a7fc/Lockheed-L-1049G-Super-Constellation-QANTAS-1957
+waytype=air
+engine_type=petrol
+speed=489
+power=8980
+tractive_effort=64
+freight=Passagiere
+payload[0]=0
+payload[1]=0
+payload[2]=0
+payload[3]=106
+weight=31.3
+#length=8
+cost=11500000
+upgrade_price=5000
+runningcost=2750
+intro_year=1951
+intro_month=11
+retire_year=1958
+retire_month=1
+
+comfort[0]=0
+comfort[1]=0
+comfort[2]=0
+comfort[3]=125
+min_loading_time=2400
+max_loading_time=2400
+
+catering_level=4
+
+# Guessed based on the L-1049G
+minimum_runway_length=1075
+
+sound=x705547-constellation.wav
+
+range=8288
+
+upgrade[0]=lockheed-l1049-c-super-constellation
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none

@@ -4,6 +4,18 @@ copyright=Kieron
 type=res
 chance=50
 Level=1
+# Artisan's cottage, perhaps: large, double-fronted
+# Estimate population of 12 per house (including servants) x 5 (low density, large gardens)
+# yields 75, / 16 hours * 6.4 hours = 30
+# Half when meters/tile taken into account
+population_and_visitor_demand_capacity=15
+employment_capacity=0
+mail_demand=1
+class_proportion[0]=0
+class_proportion[1]=40
+class_proportion[2]=100
+class_proportion[3]=75
+class_proportion[4]=0
 intro_year=1600
 retire_year=1850
 needs_ground=1

@@ -11,7 +11,7 @@ overcrowded_capacity=2
 speed=32
 # Guessed
 power=36
-tractive_effort=5
+tractive_effort=6
 # Petrol electric has more transmission losses
 gear=40
 weight=4.6
@@ -24,6 +24,8 @@ intro_year=1928
 intro_month=9
 retire_year=1932
 retire_month=12
+# TODO: Use a more authentic sound for this
+sound=graham-french-tilling-stevens-1930.wav
 
 comfort=34
 # Single door with conductor: 2.5 seconds per passenger

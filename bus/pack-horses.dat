@@ -17,8 +17,8 @@ length=2
 weight=1
 axle_load=0
 cost=110000
-runningcost=15
-fixed_cost=500
+runningcost=5
+fixed_cost=1100
 
 sound=arnaud-coutancier-canal-horses.wav
 
@@ -52,8 +52,8 @@ length=2
 weight=1
 axle_load=0
 cost=110000
-runningcost=15
-fixed_cost=500
+runningcost=5
+fixed_cost=1100
 
 sound=arnaud-coutancier-canal-horses.wav
 
@@ -86,8 +86,8 @@ length=2
 weight=1
 axle_load=0
 cost=110000
-runningcost=15
-fixed_cost=500
+runningcost=5
+fixed_cost=1100
 
 sound=arnaud-coutancier-canal-horses.wav
 
@@ -121,8 +121,8 @@ length=2
 weight=1
 axle_load=0
 cost=110000
-runningcost=15
-fixed_cost=500
+runningcost=5
+fixed_cost=1100
 
 sound=arnaud-coutancier-canal-horses.wav
 
@@ -156,8 +156,8 @@ length=2
 weight=1
 axle_load=0
 cost=110000
-runningcost=15
-fixed_cost=500
+runningcost=5
+fixed_cost=1100
 
 sound=arnaud-coutancier-canal-horses.wav
 

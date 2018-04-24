@@ -1,0 +1,87 @@
+# https://en.wikipedia.org/wiki/Boeing_747-8
+# http://www.boeing.com/assets/pdf/commercial/airports/acaps/747_8.pdf
+obj=vehicle
+name=boeing-747-8f-piece
+copyright=Maberick Rocha
+# https://3dwarehouse.sketchup.com/model/u06b58560-172a-463f-8109-563b82657d4f/Korean-Air-Cargo-Boeing-747-8F?hl=en
+waytype=air
+engine_type=turbine
+speed=914
+power=213120
+tractive_effort=1184
+freight=Bucher
+# Payload 140t (Wikipedia)
+# However, this seems inconsistent with Milko's payloads.
+# Adopt a factor of Milko's payloads for the time being.
+payload=1008
+weight=197.1
+#length=8
+cost=150000000
+upgrade_price=5000
+runningcost=11000
+intro_year=2011
+intro_month=10
+
+min_loading_time=3400
+max_loading_time=3400
+
+# https://www.aircraftcompare.com/aircraft-specification/Boeing-747-8-VIP/40/spec
+minimum_runway_length=3291
+
+sound=laxspotter97-boeing747-8.wav
+range=14320
+
+Constraint[Next][0]=none
+Constraint[Prev][0]=none
+
+EmptyImage[E]=../images/boeing-747-8f_E.0.0,-62,-92
+EmptyImage[SE]=../images/boeing-747-8f_SE.0.0,-62,-92
+EmptyImage[S]=../images/boeing-747-8f_S.0.0,-62,-92
+EmptyImage[SW]=../images/boeing-747-8f_SW.0.0,-62,-92
+EmptyImage[W]=../images/boeing-747-8f_W.0.0,-62,-92
+EmptyImage[NW]=../images/boeing-747-8f_NW.0.0,-62,-92
+EmptyImage[N]=../images/boeing-747-8f_N.0.0,-62,-92
+EmptyImage[NE]=../images/boeing-747-8f_NE.0.0,-62,-92
+---
+obj=vehicle
+name=boeing-747-8f-cool
+copyright=Maberick Rocha
+# https://3dwarehouse.sketchup.com/model/u06b58560-172a-463f-8109-563b82657d4f/Korean-Air-Cargo-Boeing-747-8F?hl=en
+waytype=air
+engine_type=turbine
+speed=914
+power=213120
+tractive_effort=1184
+freight=fish
+# Payload 140t (Wikipedia)
+# However, this seems inconsistent with Milko's payloads.
+# Adopt a factor of Milko's payloads for the time being.
+payload=1008
+weight=197.1
+#length=8
+cost=150000000
+upgrade_price=5000
+runningcost=11000
+intro_year=2011
+intro_month=10
+
+min_loading_time=3400
+max_loading_time=3400
+
+# https://www.aircraftcompare.com/aircraft-specification/Boeing-747-8-VIP/40/spec
+minimum_runway_length=3291
+
+sound=laxspotter97-boeing747-8.wav
+range=14320
+
+Constraint[Next][0]=none
+Constraint[Prev][0]=none
+
+EmptyImage[E]=../images/boeing-747-8f_E.0.0,-62,-92
+EmptyImage[SE]=../images/boeing-747-8f_SE.0.0,-62,-92
+EmptyImage[S]=../images/boeing-747-8f_S.0.0,-62,-92
+EmptyImage[SW]=../images/boeing-747-8f_SW.0.0,-62,-92
+EmptyImage[W]=../images/boeing-747-8f_W.0.0,0,-62,-92
+EmptyImage[NW]=../images/boeing-747-8f_NW.0.0,-62,-92
+EmptyImage[N]=../images/boeing-747-8f_N.0.0,-62,-92
+EmptyImage[NE]=../images/boeing-747-8f_NE.0.0,-62,-92

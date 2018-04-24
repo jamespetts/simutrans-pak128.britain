@@ -6,8 +6,13 @@ name=stagecoach-regency
 copyright=James
 waytype=road
 freight=Passagiere
-payload=4
-overcrowded_capacity=9
+# Outside
+payload[0]=0 
+payload[1]=0
+payload[2]=7
+# Inside
+payload[3]=4
+overcrowded_capacity=0
 speed=18
 weight=1.2
 axle_load=1
@@ -21,9 +26,13 @@ retire_month=6
 brake_force=1
 rolling_resistance=115
 
-# Inside only
 # Leaf springs
-comfort=52
+# Outside
+comfort[0]=17
+comfort[1]=17
+comfort[2]=17
+# Inside
+comfort[3]=52
 min_loading_time=300
 max_loading_time=600
 

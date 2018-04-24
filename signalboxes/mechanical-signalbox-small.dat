@@ -3,8 +3,8 @@ Name=mechanical-signalbox-small
 Type=signalbox
 copyright=JamesPetts
 Level=1
-intro_year=1858
-intro_month=6
+intro_year=1860
+intro_month=2
 #retire_year=1971
 #retire_month=8
 
@@ -14,6 +14,16 @@ cost=500000
 population_and_visitor_demand_capacity=0
 employment_capacity=1
 mail_demand=1
+class_proportion[0]=0
+class_proportion[1]=4
+class_proportion[2]=66
+class_proportion[3]=30
+class_proportion[4]=0
+class_proportion_jobs[0]=0
+class_proportion_jobs[1]=0
+class_proportion_jobs[2]=100
+class_proportion_jobs[3]=0
+class_proportion_jobs[4]=0
 needs_ground=1
 
 signal_groups=2,3

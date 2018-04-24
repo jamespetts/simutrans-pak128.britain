@@ -12,7 +12,8 @@ retire_year=2001
 retire_month=12
 waytype=track
 freight=Passagiere
-payload=98
+payload[0]=0
+payload[1]=98
 overcrowded_capacity=69
 length=13
 brake_force=37
@@ -26,7 +27,8 @@ sound=video47-class-323.wav
 
 min_loading_time=17
 max_loading_time=55
-comfort=85
+comfort[0]=0
+comfort[1]=85
 
 can_lead_from_rear=1
 bidirectional=0
@@ -104,7 +106,8 @@ retire_year=2001
 retire_month=12
 waytype=track
 freight=Passagiere
-payload=98
+payload[0]=0
+payload[1]=98
 overcrowded_capacity=69
 length=13
 brake_force=37
@@ -118,7 +121,8 @@ sound=video47-class-323.wav
 
 min_loading_time=17
 max_loading_time=55
-comfort=85
+comfort[0]=0
+comfort[1]=85
 
 can_lead_from_rear=1
 bidirectional=0
@@ -196,7 +200,8 @@ retire_year=2001
 retire_month=12
 waytype=track
 freight=Passagiere
-payload=88
+payload[0]=0
+payload[1]=88
 overcrowded_capacity=62
 length=13
 brake_force=35
@@ -207,10 +212,10 @@ axles=4
 cost=1930000
 runningcost=170
 
-
 min_loading_time=17
 max_loading_time=55
-comfort=85
+comfort[0]=0
+comfort[1]=85
 
 can_lead_from_rear=0
 bidirectional=1

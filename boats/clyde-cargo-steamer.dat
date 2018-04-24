@@ -7,7 +7,6 @@ smoke=Steam
 sound=ship-horn_b.wav
 speed=20
 power=4550
-#gear=400
 weight=3500
 length=10
 cost=1780000
@@ -21,6 +20,7 @@ is_tall=1
 # 1-2 hours
 min_loading_time=3600
 max_loading_time=7200
+range=150
 
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
@@ -34,12 +34,11 @@ Constraint[Next][5]=ClydeCargoSteamerAddLong
 
 Constraint[Prev][0]=none
 
-EmptyImage[E]=images/clyde-cargo-steamer.1.0
-EmptyImage[SE]=images/clyde-cargo-steamer.1.1
-EmptyImage[S]=images/clyde-cargo-steamer.1.2
-EmptyImage[SW]=images/clyde-cargo-steamer.1.3
-EmptyImage[W]=images/clyde-cargo-steamer.1.4
-EmptyImage[NW]=images/clyde-cargo-steamer.1.5
-EmptyImage[N]=images/clyde-cargo-steamer.1.6
-EmptyImage[NE]=images/clyde-cargo-steamer.1.7
----
+EmptyImage[E]=./images/clyde-cargo-steamer_E.0.0
+EmptyImage[SE]=./images/clyde-cargo-steamer_SE.0.0
+EmptyImage[S]=./images/clyde-cargo-steamer_S.0.0
+EmptyImage[SW]=./images/clyde-cargo-steamer_SW.0.0
+EmptyImage[W]=./images/clyde-cargo-steamer_W.0.0
+EmptyImage[NW]=./images/clyde-cargo-steamer_NW.0.0
+EmptyImage[N]=./images/clyde-cargo-steamer_N.0.0
+EmptyImage[NE]=./images/clyde-cargo-steamer_NE.0.0

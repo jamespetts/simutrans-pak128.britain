@@ -4,6 +4,14 @@ copyright=Kieron
 type=res
 chance=65
 Level=2
+# Detached house with sizeable garden
+population_and_visitor_demand_capacity=11
+mail_demand=4
+class_proportion[0]=0
+class_proportion[1]=5
+class_proportion[2]=40
+class_proportion[3]=50
+class_proportion[4]=5
 intro_year=1920
 retire_year=1940
 needs_ground=1
@@ -18,4 +26,4 @@ BackImage[2][0][0][0][0][1]=images/res/1920-detatched-house-2f.1.0
 BackImage[1][0][0][0][0][1]=images/res/1920-detatched-house-2f.1.1
 BackImage[0][0][0][0][0][1]=images/res/1920-detatched-house-2f.1.2
 BackImage[3][0][0][0][0][1]=images/res/1920-detatched-house-2f.1.3
---
+

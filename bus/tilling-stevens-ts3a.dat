@@ -10,7 +10,7 @@ overcrowded_capacity=3
 speed=20
 # Guessed
 power=36
-tractive_effort=5
+tractive_effort=6
 # Petrol electric has more transmission losses
 gear=40
 weight=4.6
@@ -24,6 +24,8 @@ intro_month=4
 retire_year=1926
 retire_month=2
 is_tall=1
+# TODO: Use a more authentic sound for this
+sound=graham-french-leyland-n-type.wav
 
 comfort=21
 # Rear platform with conductor: 2.0 seconds per passenger

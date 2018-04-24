@@ -6,11 +6,12 @@ speed=46
 # Estimated
 power=70
 # Tractive effort value calculated from data from Ahrons (p. 48)
-# Loss factor set to 0.5, pressure was 75lb.
+# Loss factor set to 0.7, pressure was 75lb.
 tractive_effort=18
 copyright=James
-# There are divergent introduction dates for this given in various sources. Ahrons (p. 48) gives 1842-1848.
+# There are divergent introduction dates for this given in various sources. Ahrons (p. 48) gives 1845-1848.
 # http://www.steamindex.com/locotype/earlyloc.htm gives a build date of 1837, with no end date. 
+# Ahrons at p. 33 refers to a similar locomotive built in 1838 at p. 33, but regards it as a different class.
 # http://www.victorianweb.org/technology/railways/l5.html quotes Nock and refers to 1833, stating that a similar
 # engine was built by Hackworth in 1827, stating that the Derwent class were built until 1846.
 intro_year=1845
@@ -29,17 +30,18 @@ way_wear_factor=45629
 weight=22
 axles=3
 cost=5280000
-runningcost=330
+runningcost=141
+fixed_cost=14200
 sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=SDR-Derwent-Tender
 
-EmptyImage[E]=./images/sdr-derwent.1.4
-EmptyImage[SE]=./images/sdr-derwent.1.5
-EmptyImage[S]=./images/sdr-derwent.1.6
-EmptyImage[SW]=./images/sdr-derwent.1.7
-EmptyImage[W]=./images/sdr-derwent.1.0
-EmptyImage[NW]=./images/sdr-derwent.1.1
-EmptyImage[N]=./images/sdr-derwent.1.2
-EmptyImage[NE]=./images/sdr-derwent.1.3
+EmptyImage[E]=./images/sdr-derwent_E.0.0
+EmptyImage[SE]=./images/sdr-derwent_SE.0.0
+EmptyImage[S]=./images/sdr-derwent_S.0.0
+EmptyImage[SW]=./images/sdr-derwent_SW.0.0
+EmptyImage[W]=./images/sdr-derwent_W.0.0
+EmptyImage[NW]=./images/sdr-derwent_NW.0.0
+EmptyImage[N]=./images/sdr-derwent_N.0.0
+EmptyImage[NE]=./images/sdr-derwent_NE.0.0
 

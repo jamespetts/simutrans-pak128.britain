@@ -1,0 +1,43 @@
+# This is necessary to allow mail coaches to carry passengers, as they did in reality.
+# This has to be with the boat holds because of the image sizes (32x32 rather than 128x128)
+obj=vehicle
+name=mail-boot
+copyright=James
+waytype=road
+speed=18
+freight=Post
+payload=80
+intro_year=1787
+intro_month=4
+# Ensure that this is available until the parcel coach comes around.
+#retire_year=1842
+#retire_month=6
+retire_year=1883
+retire_month=11
+
+length=1
+min_loading_time=60
+max_loading_time=240
+
+Constraint[Prev][0]=MailCoach
+Constraint[Prev][1]=mailcoach-regency
+
+Constraint[Next][0]=none
+
+EmptyImage[E]=../images/holds.0.1,40,56
+EmptyImage[SE]=../images/holds.0.1,48,40
+EmptyImage[S]=../images/holds.0.1,48,48
+EmptyImage[SW]=../images/holds.0.1,64,64
+EmptyImage[W]=../images/holds.0.1,64,32
+EmptyImage[NW]=../images/holds.0.1,48,40
+EmptyImage[N]=../images/holds.0.1,56,48
+EmptyImage[NE]=../images/holds.0.1,64,48
+
+FreightImage[E]=../images/holds.1.1,40,56
+FreightImage[SE]=../images/holds.1.1,48,40
+FreightImage[S]=../images/holds.1.1,48,48
+FreightImage[SW]=../images/holds.1.1,64,64
+FreightImage[W]=../images/holds.1.1,64,32
+FreightImage[NW]=../images/holds.1.1,48,40
+FreightImage[N]=../images/holds.1.1,56,48
+FreightImage[NE]=../images/holds.1.1,64,48

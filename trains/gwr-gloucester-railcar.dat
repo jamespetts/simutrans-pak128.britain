@@ -13,7 +13,8 @@ retire_year=1948
 retire_month=1
 waytype=track
 freight=Passagiere
-payload=63
+payload[0]=0
+payload[1]=63
 overcrowded_capacity=37
 length=12
 
@@ -30,7 +31,8 @@ bidirectional=1
 min_loading_time=20
 max_loading_time=90
 # http://www.greatwestern.org.uk/aec2.htm
-comfort=83
+comfort[0]=0
+comfort[1]=83
 air_resistance=108
 
 Constraint[Prev][0]=none

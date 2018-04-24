@@ -1,0 +1,104 @@
+# http://www.airliners.net/aircraft-data/fokker-f-27-fairchild-f-27-fh-227/217
+obj=vehicle
+name=Fokker-F27-500
+copyright=Sky KoreSCL
+# https://3dwarehouse.sketchup.com/model/4200da53-9aa6-4fb8-9097-c925b21f0266/Aeronor-Chile-CC-CBS-Fokker-F-27-Friendship-1981
+waytype=air
+engine_type=turbine
+speed=490
+power=1425
+tractive_effort=10
+freight=Passagiere
+payload[0]=0
+payload[1]=0
+payload[2]=52
+weight=12
+#length=8
+cost=9200000
+upgrade_price=5000
+runningcost=1950
+intro_year=1967
+intro_month=11
+# Was 1986, but left a gap before the ATR-42 was introduced.
+retire_year=1988
+retire_month=6
+
+comfort[0]=0
+comfort[1]=0
+comfort[2]=112
+min_loading_time=1000
+max_loading_time=1000
+
+catering_level=2
+
+# http://www.brinkley.cc/AC/f275.htm
+minimum_runway_length=1189
+
+sound=bigpickle51-turboprop.wav
+range=1315
+
+upgrade[0]=Fokker-F27-500-high-density
+
+Constraint[Next][0]=none
+Constraint[Prev][0]=none
+
+EmptyImage[E]=./images/fokker-f27-500_E.0.0
+EmptyImage[SE]=./images/fokker-f27-500_SE.0.0
+EmptyImage[S]=./images/fokker-f27-500_S.0.0
+EmptyImage[SW]=./images/fokker-f27-500_SW.0.0
+EmptyImage[W]=./images/fokker-f27-500_W.0.0
+EmptyImage[NW]=./images/fokker-f27-500_NW.0.0
+EmptyImage[N]=./images/fokker-f27-500_N.0.0
+EmptyImage[NE]=./images/fokker-f27-500_NE.0.0
+
+---
+
+obj=vehicle
+name=Fokker-F27-500-high-density
+copyright=Sky KoreSCL
+# https://3dwarehouse.sketchup.com/model/4200da53-9aa6-4fb8-9097-c925b21f0266/Aeronor-Chile-CC-CBS-Fokker-F-27-Friendship-1981
+waytype=air
+engine_type=turbine
+speed=490
+power=1425
+tractive_effort=10
+freight=Passagiere
+payload[0]=0
+payload[1]=60
+weight=12
+#length=8
+cost=9200000
+upgrade_price=5000
+runningcost=1950
+intro_year=1967
+intro_month=11
+# Was 1986, but left a gap before the ATR-42 was introduced.
+retire_year=1988
+retire_month=6
+
+comfort[0]=0
+comfort[1]=104
+min_loading_time=1000
+max_loading_time=1000
+
+catering_level=1
+
+# http://www.brinkley.cc/AC/f275.htm
+minimum_runway_length=1189
+
+sound=bigpickle51-turboprop.wav
+range=1315
+
+upgrade[0]=Fokker-F27-500
+
+Constraint[Next][0]=none
+Constraint[Prev][0]=none
+
+EmptyImage[E]=./images/fokker-f27-500_E.0.0
+EmptyImage[SE]=./images/fokker-f27-500_SE.0.0
+EmptyImage[S]=./images/fokker-f27-500_S.0.0
+EmptyImage[SW]=./images/fokker-f27-500_SW.0.0
+EmptyImage[W]=./images/fokker-f27-500_W.0.0
+EmptyImage[NW]=./images/fokker-f27-500_NW.0.0
+EmptyImage[N]=./images/fokker-f27-500_N.0.0
+EmptyImage[NE]=./images/fokker-f27-500_NE.0.0

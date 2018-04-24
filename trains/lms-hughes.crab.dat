@@ -87,9 +87,6 @@ years_before_maintenance_max_reached=10
 Constraint[Prev][0]=LMS-Hughes-Crab
 
 liverytype[0]=LMS-Standard
-liverytype[1]=BR-Early
-
-liverytype[0]=LMS-Standard
 liverytype[1]=WW2-Austerity
 liverytype[2]=BR-Early
 

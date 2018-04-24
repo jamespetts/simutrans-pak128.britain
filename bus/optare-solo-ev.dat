@@ -15,12 +15,12 @@ tractive_effort=23
 gear=50
 length=5
 range=40
+sound=video47-byd-electric-bus.wav
 
 weight=7.1
 axles=2
 cost=5760000
 runningcost=60
-sound=video47-byd-electric-bus.wav
 
 comfort=40
 # Single entrance pay driver (low floor): 3.8 seconds per passenger

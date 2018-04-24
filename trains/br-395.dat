@@ -6,11 +6,10 @@ power=0
 copyright=Kieron
 intro_year=2009
 intro_month=6
-#retire_year=2045
-#retire_month=1
 waytype=track
 freight=Passagiere
-payload=27
+payload[0]=0
+payload[1]=27
 overcrowded_capacity=8
 length=12
 brake_force=30
@@ -27,7 +26,8 @@ bidirectional=0
 
 min_loading_time=20
 max_loading_time=65
-comfort=120
+comfort[0]=0
+comfort[1]=120
 air_resistance=108
 
 Constraint[Prev][0]=BR-395Rear
@@ -56,11 +56,10 @@ gear=80
 copyright=Kieron
 intro_year=2009
 intro_month=6
-#retire_year=2045
-#retire_month=1
 waytype=track
 freight=Passagiere
-payload=64
+payload[0]=0
+payload[1]=64
 overcrowded_capacity=19
 length=11
 brake_force=35
@@ -71,13 +70,13 @@ axles=4
 cost=2067000
 runningcost=660
 
-
 can_lead_from_rear=0
 bidirectional=1
 
 min_loading_time=20
 max_loading_time=65
-comfort=120
+comfort[0]=0
+comfort[1]=120
 
 Constraint[Prev][0]=BR-395Front
 Constraint[Prev][1]=BR-395Middle
@@ -104,11 +103,10 @@ power=0
 copyright=Kieron
 intro_year=2009
 intro_month=6
-#retire_year=2045
-#retire_month=1
 waytype=track
 freight=Passagiere
-payload=27
+payload[0]=0
+payload[1]=27
 overcrowded_capacity=8
 length=12
 brake_force=30
@@ -125,7 +123,8 @@ bidirectional=0
 
 min_loading_time=20
 max_loading_time=65
-comfort=120
+comfort[0]=0
+comfort[1]=120
 air_resistance=108
 
 Constraint[Next][0]=BR-395Front

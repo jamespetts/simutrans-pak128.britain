@@ -1,10 +1,8 @@
-%1$s Green %2$s
 %1$s High Road %2$s
 %1$s King's Road %2$s
 %1$s Axpool Road %2$s
 %1$s Axpool Street %2$s
 %1$s Axpool Lane %2$s
-%1$s Bankside %2$s
 %1$s Brook Lane %2$s
 %1$s Brook Street %2$s
 %1$s Brook Road %2$s
@@ -19,13 +17,11 @@
 %1$s Circus %2$s
 %1$s Colford Cottages %2$s
 %1$s Colford Road %2$s
-%1$s Corner %2$s
 %1$s Cornmarket %2$s
 %1$s Field Road %2$s
 %1$s Field Street %2$s
 %1$s Field Lane %2$s
 %1$s Gore Street %2$s
-%1$s Hall %2$s
 %1$s Hall Road %2$s
 %1$s Hall Street %2$s
 %1$s Herbert Road %2$s
@@ -107,7 +103,6 @@
 %1$s Roman Street %2$s
 %1$s Colin's Way %2$s
 %1$s Carver Street %2$s
-%1$s Park %2$s
 %1$s Low Street %2$s
 %1$s Parson's Park %2$s
 %1$s Parson Street %2$s
@@ -238,7 +233,7 @@
 %1$s Addison Road %2$s
 %1$s Addison Street %2$s
 %1$s Corn Exchange %2$s
-%1$s Market %2$s
+%1$s Marketplace Lane %2$s
 %1$s Market Street %2$s
 %1$s Cornford Road %2$s
 %1$s Blanket Lane %2$s
@@ -308,6 +303,7 @@
 %1$s Charterhouse Square %2$s
 %1$s Chapter House Square %2$s
 %1$s Robin Square %2$s
+%1$s Robin Street %2$s
 %1$s Nettle Street %2$s
 %1$s Cattle Market %2$s
 %1$s Tower Square %2$s
@@ -360,7 +356,6 @@
 %1$s Marshgate %2$s
 %1$s Marsh Lane %2$s
 %1$s Marsh Street %2$s
-%1$s Broadway %2$s
 %1$s Sett Street %2$s
 %1$s Hive Street %2$s
 %1$s Hyde Street %2$s
@@ -383,11 +378,6 @@
 %1$s Hutch Street %2$s
 %1$s Peter's Park %2$s
 %1$s Colinwood Lane %2$s
-%1$s Beeches %2$s
-%1$s Wood %2$s
-%1$s Copse %2$s
-%1$s Road %2$s
-%1$s Street %2$s
 %1$s Grimwood Road %2$s
 %1$s Bankgate %2$s
 %1$s Abbey Street %2$s
@@ -397,7 +387,6 @@
 %1$s Wickford Street %2$s
 %1$s Buckley Park %2$s
 %1$s Beechwood %2$s
-%1$s Marsh %2$s
 %1$s Old Cross %2$s
 %1$s Gospel Oak Park %2$s
 %1$s Eastminster %2$s
@@ -406,6 +395,7 @@
 %1$s Highminster %2$s
 %1$s Lowminster %2$s
 %1$s Minster Street %2$s
+%1$s Minster Square %2$s
 %1$s Mint Lane %2$s
 %1$s Westinghouse Street %2$s
 %1$s Rivet Road %2$s
@@ -576,6 +566,7 @@
 %1$s Chamberpot Street %2$s
 %1$s Night Porter Lane %2$s
 %1$s Night Cart Street %2$s
+%1$s Night Cart Lane %2$s
 %1$s Newsome Lane %2$s
 %1$s Newish Street %2$s
 %1$s Gromit Street %2$s
@@ -694,7 +685,6 @@
 %1$s Quilt Street %2$s
 %1$s Quilt Lane %2$s
 %1$s Candle Street %2$s
-%1$s Ponds %2$s
 %1$s Breen Street %2$s
 %1$s Gasket Street %2$s
 %1$s Pie Street %2$s
@@ -1054,7 +1044,6 @@
 %1$s Bassom Street %2$s
 %1$s Kaleidoscope Hill %2$s
 %1$s Gelding Street %2$s
-%1$s Gardens %2$s
 %1$s Halcyon Street %2$s
 %1$s Cannard Lane %2$s
 %1$s Widgeon Street %2$s
@@ -1092,6 +1081,19 @@
 %1$s Millicent Broadway %2$s
 %1$s Fawcett Lane %2$s
 %1$s Scudamore Road %2$s
+%1$s Pail Street %2$s
+%1$s Siphon Street %2$s
+%1$s Lumpyard Street %2$s
+%1$s Carrigan Square %2$s
+%1$s Fellowship Lane %2$s
+%1$s German Street %2$s
+%1$s Drying Ground Lane %2$s
+%1$s Bumbleflower Street %2$s
+%1$s Plugutrian Road %2$s
+%1$s Cubbage Lane %2$s
+%1$s Pied Pigeon Street %2$s
+%1$s Cabbage Street %2$s
+%1$s Hen Street %2$s
 %1$s Goldwig Street %2$s
 %1$s Wyvern Street %2$s
 %1$s Fenlock Lane %2$s
@@ -1122,7 +1124,7 @@
 %1$s Countinghouse Lane %2$s
 %1$s Beekeep Lane %2$s
 %1$s River Strand %2$s
-%1$s Drying Ground Lane %2$s
+%1$s Drying Ground Street %2$s
 %1$s Dog Street %2$s
 %1$s Duke Gardens %2$s
 %1$s Earl's Gardens %2$s
@@ -1132,3 +1134,44 @@
 %1$s Tricorn Park %2$s
 %1$s Quernery Lane %2$s
 %1$s Quince Grove %2$s
+%1$s Holroyd Street %2$s
+%1$s Ward Street %2$s
+%1$s Dulcal Gardens %2$s
+%1$s Hemlock Grove %2$s
+%1$s Nightshade Park %2$s
+%1$s Admiralty Street %2$s
+%1$s Pestle Street %2$s
+%1$s Callon Street %2$s
+%1$s Mandrake Street %2$s
+%1$s Blackberry Hill %2$s
+%1$s Bakehouse Hill %2$s
+%1$s Florian Street %2$s
+%1$s Barrow Lane %2$s
+%1$s Barrowmarket Street %2$s
+%1$s Spinnery Street %2$s
+%1$s Jenny Lane %2$s
+%1$s Olvira Street %2$s
+%1$s Featherwell Street %2$s
+%1$s Curlew Street %2$s
+%1$s Prize Pig Square %2$s
+%1$s Royal Court Lane %2$s
+%1$s Maunder Street %2$s
+%1$s Yogins Lane %2$s
+%1$s Bunting Lane %2$s
+%1$s Handcart Street %2$s
+%1$s Soapwood Street %2$s
+%1$s Mugwump Hill %2$s
+%1$s Wump Street %2$s
+%1$s Merlon Street %2$s
+%1$s Rampart Hill %2$s
+%1$s Crenell Street %2$s
+%1$s Hovrill Street %2$s
+%1$s Kerridge Street %2$s
+%1$s Morus Avenue %2$s
+%1$s Gublands Road %2$s
+%1$s Viceroy Road %2$s
+%1$s Scantlings Lane %2$s
+%1$s Lumpitt Street %2$s
+%1$s Cornwall Street %2$s
+%1$s Snood Street %2$s
+%1$s Erlin Street %2$s

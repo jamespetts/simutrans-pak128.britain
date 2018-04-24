@@ -10,7 +10,11 @@ speed=346
 power=3280
 tractive_effort=24
 freight=Passagiere
-payload=33
+payload[0]=0
+payload[1]=0
+payload[2]=0
+payload[3]=0
+payload[4]=33
 weight=24
 #length=8
 cost=7700000
@@ -19,7 +23,12 @@ intro_year=1940
 intro_month=7
 retire_year=1949
 retire_month=11
-comfort=96
+
+comfort[0]=0
+comfort[1]=0
+comfort[2]=0
+comfort[3]=0
+comfort[4]=96
 min_loading_time=2000
 max_loading_time=2000
 catering_level=1
@@ -27,10 +36,9 @@ catering_level=1
 # https://books.google.co.uk/books?id=NAHYdjQ5Pu8C&pg=PA390&lpg=PA390&dq=boeing+307+runway+length&source=bl&ots=D5y4vyLZNQ&sig=BByy30p8dThyRzWG1waztFYPMxs&hl=en&sa=X&ved=0ahUKEwi2xJiv4pXUAhWMLMAKHUBsCkEQ6AEIUjAJ#v=onepage&q=boeing%20307%20runway%20length&f=false
 minimum_runway_length=1615
 
-smoke=Diesel
 range=2816
 
-sound=ylearkisto-dc-3.wav
+sound=laxspotter97-boeing-b-17.wav
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none

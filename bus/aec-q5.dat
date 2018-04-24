@@ -12,9 +12,10 @@ speed=55
 power=67
 tractive_effort=8
 gear=50
-weight=6
+# https://www.flickr.com/photos/14730981@N08/6978114401/in/album-72157629573765473/
+weight=5.6
 axles=2
-length=5.2
+length=6
 cost=755000
 runningcost=170
 intro_year=1935

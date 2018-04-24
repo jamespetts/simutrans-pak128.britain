@@ -1,6 +1,6 @@
+# http://www.lnwrs.org.uk/Wagons/cattle/Diag021.php
 obj=vehicle
 name=LivestockD21
-#?
 speed=56
 copyright=James
 intro_year=1855
@@ -14,13 +14,11 @@ length=3
 brake_force=0
 rolling_resistance=19
 
-#?
-weight=4
-axle_load=3
-way_wear_factor=6200
+# http://www.lnwrs.org.uk/Wagons/cattle/Diag021.php
+weight=6.8
+axle_load=8
 cost=100000
 runningcost=5
-
 
 min_loading_time=300
 max_loading_time=900
@@ -28,13 +26,12 @@ bidirectional=1
 
 Constraint[Next][0]=any
 
-EmptyImage[E]=./images/wagon-livestock-d21.0.0
-EmptyImage[SE]=./images/wagon-livestock-d21.0.1
-EmptyImage[S]=./images/wagon-livestock-d21.0.2
-EmptyImage[SW]=./images/wagon-livestock-d21.0.3
-EmptyImage[W]=./images/wagon-livestock-d21.0.4
-EmptyImage[NW]=./images/wagon-livestock-d21.0.5
-EmptyImage[N]=./images/wagon-livestock-d21.0.6
-EmptyImage[NE]=./images/wagon-livestock-d21.0.7
-
+EmptyImage[E]=./images/livestock-8t_E.0.0
+EmptyImage[SE]=./images/livestock-8t_SE.0.0
+EmptyImage[S]=./images/livestock-8t_S.0.0
+EmptyImage[SW]=./images/livestock-8t_SW.0.0
+EmptyImage[W]=./images/livestock-8t_W.0.0
+EmptyImage[NW]=./images/livestock-8t_NW.0.0
+EmptyImage[N]=./images/livestock-8t_N.0.0
+EmptyImage[NE]=./images/livestock-8t_NE.0.0
 

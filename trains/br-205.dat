@@ -14,7 +14,10 @@ retire_year=1962
 retire_month=11
 waytype=track
 freight=Passagiere
-payload=84
+payload[0]=0
+payload[1]=84
+payload[2]=0
+payload[3]=0
 overcrowded_capacity=84
 length=11
 
@@ -29,7 +32,10 @@ bidirectional=0
 
 min_loading_time=12
 max_loading_time=43
-comfort=77
+comfort[0]=0
+comfort[1]=77
+comfort[2]=0
+comfort[3]=129
 
 Constraint[Prev][0]=BR-205Rear
 Constraint[Prev][1]=BR-202-rear
@@ -93,7 +99,10 @@ retire_year=1962
 retire_month=11
 waytype=track
 freight=Passagiere
-payload=62
+payload[0]=0
+payload[1]=49
+payload[2]=0
+payload[3]=13
 overcrowded_capacity=62
 length=11
 
@@ -109,7 +118,10 @@ bidirectional=0
 
 min_loading_time=12
 max_loading_time=43
-comfort=77
+comfort[0]=0
+comfort[1]=77
+comfort[2]=0
+comfort[3]=129
 
 Constraint[Prev][0]=BR-205Front
 Constraint[Prev][1]=BR-205Middle
@@ -173,7 +185,10 @@ retire_year=1962
 retire_month=11
 waytype=track
 freight=Passagiere
-payload=104
+payload[0]=0
+payload[1]=104
+payload[2]=0
+payload[3]=0
 overcrowded_capacity=104
 length=11
 
@@ -188,7 +203,10 @@ bidirectional=1
 
 min_loading_time=12
 max_loading_time=43
-comfort=77
+comfort[0]=0
+comfort[1]=77
+comfort[2]=0
+comfort[3]=129
 
 Constraint[Prev][0]=BR-205Front
 Constraint[Prev][1]=BR-205Middle

@@ -4,7 +4,6 @@ waytype=narrowgauge_track
 system_type=1
 intro_year=1954
 intro_month=6
-max_weight=200
 topspeed=100
 cost=450000
 maintenance=350

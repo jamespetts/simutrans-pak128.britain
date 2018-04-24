@@ -8,7 +8,8 @@ retire_year=1893
 retire_month=9
 waytype=track
 freight=Passagiere
-payload=40
+payload[0]=0
+payload[1]=40
 overcrowded_capacity=20
 length=8
 
@@ -21,7 +22,8 @@ runningcost=28
 upgrade[0]=LNWR-8wheel-radial-brake-lav-front
 upgrade[1]=LNWR-42ft-non-cor-brake-front
 
-comfort=73
+comfort[0]=0
+comfort[1]=73
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=17
@@ -102,7 +104,8 @@ retire_year=1915
 retire_month=5
 waytype=track
 freight=Passagiere
-payload=22
+payload[0]=0
+payload[1]=22
 overcrowded_capacity=15
 length=8
 
@@ -114,7 +117,8 @@ runningcost=28
 
 upgrade[0]=LNWR-42ft-non-cor-brake-lav-front
 
-comfort=80
+comfort[0]=0
+comfort[1]=80
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=17
@@ -198,7 +202,8 @@ retire_year=1915
 retire_month=5
 waytype=track
 freight=Passagiere
-payload=56
+payload[0]=0
+payload[1]=56
 overcrowded_capacity=30
 length=8
 
@@ -207,10 +212,10 @@ axles=4
 upgrade_price=49285
 runningcost=28
 
-
 upgrade[0]=LNWR-42ft-non-cor-lav
 
-comfort=80
+comfort[0]=0
+comfort[1]=80
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=17
@@ -330,7 +335,8 @@ retire_year=1893
 retire_month=9
 waytype=track
 freight=Passagiere
-payload=70
+payload[0]=0
+payload[1]=70
 overcrowded_capacity=35
 length=8
 
@@ -343,7 +349,8 @@ runningcost=28
 upgrade[0]=LNWR-8wheel-radial-lav
 upgrade[1]=LNWR-42ft-non-cor-non-lav
 
-comfort=73
+comfort[0]=0
+comfort[1]=73
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=17
@@ -460,7 +467,8 @@ retire_year=1893
 retire_month=9
 waytype=track
 freight=Passagiere
-payload=40
+payload[0]=0
+payload[1]=40
 overcrowded_capacity=20
 length=8
 
@@ -473,7 +481,8 @@ runningcost=28
 upgrade[0]=LNWR-8wheel-radial-brake-lav-rear
 upgrade[1]=LNWR-42ft-non-cor-brake-rear
 
-comfort=73
+comfort[0]=0
+comfort[1]=73
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=17
@@ -553,7 +562,8 @@ retire_year=1915
 retire_month=5
 waytype=track
 freight=Passagiere
-payload=22
+payload[0]=0
+payload[1]=22
 overcrowded_capacity=15
 length=8
 
@@ -562,10 +572,10 @@ axles=4
 upgrade_price=49285
 runningcost=28
 
-
 upgrade[0]=LNWR-42ft-non-cor-brake-lav-rear
 
-comfort=80
+comfort[0]=0
+comfort[1]=80
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=17
@@ -653,7 +663,6 @@ weight=18
 axles=4
 cost=350000
 runningcost=28
-
 
 upgrade[0]=LNWR-42ft-non-cor-full-brake
 

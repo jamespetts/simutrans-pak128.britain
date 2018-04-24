@@ -3,8 +3,8 @@ name=LMR-Bird
 engine_type=steam
 smoke=Steam
 speed=85
-# Estimated
-power=58
+# Extrapolated, although firegrate area guessed
+power=48
 # Calculated from data from Ahrons, p. 50
 # Loss factor set at 0.5. Assuming boiler pressure of 60psi.
 tractive_effort=6
@@ -25,18 +25,19 @@ way_wear_factor=28133
 weight=16
 axles=3
 cost=7557600
-runningcost=780
+runningcost=14
+fixed_cost=1320
 sound=lwalker-br-4mt-tank.wav
 years_before_maintenance_max_reached=70
 increase_maintenance_after_years=25
 
 Constraint[Next][0]=LMR-Patentee-Tender
 
-EmptyImage[E]=./images/lmr-bird.1.4
-EmptyImage[SE]=./images/lmr-bird.1.5
-EmptyImage[S]=./images/lmr-bird.1.6
-EmptyImage[SW]=./images/lmr-bird.1.7
-EmptyImage[W]=./images/lmr-bird.1.0
-EmptyImage[NW]=./images/lmr-bird.1.1
-EmptyImage[N]=./images/lmr-bird.1.2
-EmptyImage[NE]=./images/lmr-bird.1.3
+EmptyImage[E]=./images/lmr-bird_E.0.0
+EmptyImage[SE]=./images/lmr-bird_SE.0.0
+EmptyImage[S]=./images/lmr-bird_S.0.0
+EmptyImage[SW]=./images/lmr-bird_SW.0.0
+EmptyImage[W]=./images/lmr-bird_W.0.0
+EmptyImage[NW]=./images/lmr-bird_NW.0.0
+EmptyImage[N]=./images/lmr-bird_N.0.0
+EmptyImage[NE]=./images/lmr-bird_NE.0.0

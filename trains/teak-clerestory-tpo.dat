@@ -16,7 +16,6 @@ axles=4
 cost=775000
 runningcost=32
 
-
 can_lead_from_rear=0
 bidirectional=1
 catering_level=1

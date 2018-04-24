@@ -1,3 +1,4 @@
+# http://web.archive.org/web/20080219234521/http://www.therailwaycentre.com/New%20DMU%20Tech%20Data%20/DMU_165.html
 obj=vehicle
 name=BR-165Front
 engine_type=diesel
@@ -13,7 +14,10 @@ retire_year=1998
 retire_month=11
 waytype=track
 freight=Passagiere
-payload=88
+payload[0]=0
+payload[1]=60
+payload[2]=0
+payload[3]=24
 overcrowded_capacity=66
 length=13
 brake_force=27
@@ -29,7 +33,10 @@ increase_maintenance_after_years=23
 
 min_loading_time=17
 max_loading_time=55
-comfort=84
+comfort[0]=0
+comfort[1]=84
+comfort[2]=0
+comfort[3]=110
 
 can_lead_from_rear=1
 bidirectional=0
@@ -66,7 +73,10 @@ retire_year=1998
 retire_month=11
 waytype=track
 freight=Passagiere
-payload=106
+payload[0]=0
+payload[1]=106
+payload[2]=0
+payload[3]=0
 overcrowded_capacity=80
 length=13
 brake_force=27
@@ -83,7 +93,10 @@ bidirectional=1
 
 min_loading_time=17
 max_loading_time=55
-comfort=84
+comfort[0]=0
+comfort[1]=84
+comfort[2]=0
+comfort[3]=110
 
 Constraint[Prev][0]=BR-165Front
 Constraint[Prev][1]=BR-165Middle
@@ -116,7 +129,10 @@ retire_year=1998
 retire_month=11
 waytype=track
 freight=Passagiere
-payload=98
+payload[0]=0
+payload[1]=94
+payload[2]=0
+payload[3]=0
 overcrowded_capacity=74
 length=13
 brake_force=27
@@ -132,7 +148,10 @@ increase_maintenance_after_years=23
 
 min_loading_time=17
 max_loading_time=55
-comfort=84
+comfort[0]=0
+comfort[1]=84
+comfort[2]=0
+comfort[3]=110
 
 can_lead_from_rear=1
 bidirectional=0
@@ -151,5 +170,3 @@ EmptyImage[W]=./images/br-165-nse.2.4
 EmptyImage[NW]=./images/br-165-nse.2.5
 EmptyImage[N]=./images/br-165-nse.2.6
 EmptyImage[NE]=./images/br-165-nse.2.7
-
-

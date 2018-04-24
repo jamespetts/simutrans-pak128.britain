@@ -20,10 +20,10 @@ cost=682000
 runningcost=180
 intro_year=1932
 intro_month=12
-retire_year=1950
-retire_month=5
+retire_year=1937
+retire_month=3
 is_tall=1
-sound=video47-leyland-titan-pd1.wav
+sound=gareth-bull-leyland-titan-td1.wav
 
 comfort=42
 # Rear platform with conductor: 2.0 seconds per passenger

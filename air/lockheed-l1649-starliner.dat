@@ -1,4 +1,5 @@
 # https://en.wikipedia.org/wiki/Lockheed_L-1649_Starliner
+# http://www.zoggavia.com/uploads/Lufthansa_Superstar_Interior_Arrangement.jpg
 obj=vehicle
 name=lockheed-l1649-starliner
 copyright=SketchVC10
@@ -9,21 +10,28 @@ speed=467
 power=10140
 tractive_effort=72
 freight=Passagiere
-# Number of classes not given: 99 passengers is the Wikipedia figure: 114 is guessed as an all-economy configuration.
-payload=114
+payload[0]=0
+payload[1]=0
+payload[2]=0
+payload[3]=59
+payload[4]=8
 weight=45.6
 #length=8
 # US$3m (Wikipedia)
 cost=15500000
+upgrade_price=5000
 runningcost=3100
-# Guessed: November 1951 is correct for the L-1049 original
 intro_year=1957
 intro_month=6
 # The actual retirement is 1958, but the production run would then be too short.
 retire_year=1960
 retire_month=1
 
-comfort=127
+comfort[0]=0
+comfort[1]=0
+comfort[2]=0
+comfort[3]=127
+comfort[4]=149
 min_loading_time=2400
 max_loading_time=2400
 
@@ -36,6 +44,67 @@ minimum_runway_length=1200
 sound=x705547-constellation.wav
 
 range=9945
+
+upgrade[0]=lockheed-l1649-starliner-high-density
+
+Constraint[Next][0]=none
+Constraint[Prev][0]=none
+
+EmptyImage[E]=./images/lockheed-l1649-starliner_E.0.0
+EmptyImage[SE]=./images/lockheed-l1649-starliner_SE.0.0
+EmptyImage[S]=./images/lockheed-l1649-starliner_S.0.0
+EmptyImage[SW]=./images/lockheed-l1649-starliner_SW.0.0
+EmptyImage[W]=./images/lockheed-l1649-starliner_W.0.0
+EmptyImage[NW]=./images/lockheed-l1649-starliner_NW.0.0
+EmptyImage[N]=./images/lockheed-l1649-starliner_N.0.0
+EmptyImage[NE]=./images/lockheed-l1649-starliner_NE.0.0
+
+---
+
+obj=vehicle
+name=lockheed-l1649-starliner-high-density
+copyright=SketchVC10
+# https://3dwarehouse.sketchup.com/model/u70078171-5f64-4f63-b874-726e0f6d125f/Lufthansa-Lockheed-L1649-Starliner-D-ALAN-1957
+waytype=air
+engine_type=petrol
+speed=467
+power=10140
+tractive_effort=72
+freight=Passagiere
+payload[0]=0
+payload[1]=0
+payload[2]=0
+payload[3]=99
+weight=45.6
+#length=8
+# US$3m (Wikipedia)
+cost=15500000
+upgrade_price=5000
+runningcost=3100
+intro_year=1957
+intro_month=6
+# The actual retirement is 1958, but the production run would then be too short.
+retire_year=1960
+retire_month=1
+
+comfort[0]=0
+comfort[1]=0
+comfort[2]=0
+comfort[3]=127
+min_loading_time=2400
+max_loading_time=2400
+
+catering_level=4
+
+# 3,937ft
+# http://www.varig-airlines.com/en/constellation.htm
+minimum_runway_length=1200
+
+sound=x705547-constellation.wav
+
+range=9945
+
+upgrade[0]=lockheed-l1649-starliner
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none

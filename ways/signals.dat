@@ -43,6 +43,10 @@
 # 22: Station signal, time interval
 # 23: Auxilliary/distant signal, time interval
 # 24: Three aspect permissive, track circuit block
+# 25: Stop signal, time interval with telegraph
+# 26: Junction signal, time interval with telegraph
+# 27: Station signal, time interval with telegraph
+# 28: Auxilliary/distant signal, time interval with telegraph
 ---------------------------------------
 # RETB BOARD
 #--------------------------------------
@@ -161,7 +165,6 @@ has_selective_choose=0
 has_call_on=0
 max_distance_to_signalbox=0
 permissive=1
-signal_groups=7
 allow_underground=2
 upgrade_group=0
 signal_groups=5
@@ -368,7 +371,6 @@ permissive=0
 signal_groups=5
 allow_underground=0
 upgrade_group=1
-signal_groups=5
 intro_year=2009
 intro_month=6
 
@@ -404,7 +406,6 @@ permissive=0
 signal_groups=5
 allow_underground=0
 upgrade_group=2
-signal_groups=5
 intro_year=2009
 intro_month=6
 
@@ -439,7 +440,6 @@ permissive=0
 signal_groups=5
 allow_underground=0
 upgrade_group=3
-signal_groups=5
 intro_year=2009
 intro_month=6
 
@@ -479,7 +479,6 @@ permissive=0
 signal_groups=5
 allow_underground=0
 upgrade_group=4
-signal_groups=5
 intro_year=2009
 intro_month=6
 
@@ -525,7 +524,6 @@ permissive=0
 signal_groups=5
 allow_underground=0
 upgrade_group=5
-signal_groups=5
 intro_year=2009
 intro_month=6
 
@@ -566,7 +564,6 @@ permissive=0
 signal_groups=5
 allow_underground=0
 upgrade_group=6
-signal_groups=5
 intro_year=2009
 intro_month=6
 
@@ -617,7 +614,6 @@ permissive=0
 signal_groups=5
 allow_underground=0
 upgrade_group=7
-signal_groups=5
 intro_year=2009
 intro_month=6
 
@@ -998,8 +994,8 @@ upgrade_group=0
 signal_groups=4
 intro_year=1934
 intro_month=4
-retire_year=1948
-retire_month=1
+retire_year=1960
+retire_month=5
 
 # DANGER
 Image[0]=images/speed-signal-danger.1.2,42,-2
@@ -1049,8 +1045,8 @@ upgrade_group=0
 signal_groups=4
 intro_year=1934
 intro_month=4
-retire_year=1948
-retire_month=1
+retire_year=1960
+retire_month=5
 
 # DANGER
 Image[0]=images/speed-signal-permissive-danger.1.2,42,-2
@@ -1106,8 +1102,8 @@ allow_underground=0
 upgrade_group=0
 intro_year=1934
 intro_month=4
-retire_year=1948
-retire_month=1
+retire_year=1960
+retire_month=5
 
 # DANGER
 Image[0]=images/speed-signal-junction-danger.1.2,42,-2
@@ -1767,10 +1763,10 @@ Image[9]=images/signal-4-aspect-route-indicator-caution.1.0,-37,12
 Image[10]=images/signal-4-aspect-route-indicator-caution.1.1,-7,-18
 Image[11]=images/signal-4-aspect-route-indicator-caution.1.3,10,27
 # PRELIMINARY CAUTION
-Image[8]=images/signal-4-aspect-route-indicator-preliminary-caution.1.2,42,-2
-Image[9]=images/signal-4-aspect-route-indicator-preliminary-caution.1.0,-37,12
-Image[10]=images/signal-4-aspect-route-indicator-preliminary-caution.1.1,-7,-18
-Image[11]=images/signal-4-aspect-route-indicator-preliminary-caution.1.3,10,27
+Image[12]=images/signal-4-aspect-route-indicator-preliminary-caution.1.2,42,-2
+Image[13]=images/signal-4-aspect-route-indicator-preliminary-caution.1.0,-37,12
+Image[14]=images/signal-4-aspect-route-indicator-preliminary-caution.1.1,-7,-18
+Image[15]=images/signal-4-aspect-route-indicator-preliminary-caution.1.3,10,27
 Icon=> images/signal-icons-ex.2.8
 Cursor=images/signal-icons-ex.2.9
 ---------------------------------------
@@ -2389,10 +2385,10 @@ Image[9]=images/signal-tunnel-4-aspect-route-indicator-caution.1.0,-37,12
 Image[10]=images/signal-tunnel-4-aspect-route-indicator-caution.1.1,-7,-18
 Image[11]=images/signal-tunnel-4-aspect-route-indicator-caution.1.3,10,27
 # PRELIMINARY CAUTION
-Image[8]=images/signal-tunnel-4-aspect-route-indicator-preliminary-caution.1.2,42,-2
-Image[9]=images/signal-tunnel-4-aspect-route-indicator-preliminary-caution.1.0,-37,12
-Image[10]=images/signal-tunnel-4-aspect-route-indicator-preliminary-caution.1.1,-7,-18
-Image[11]=images/signal-tunnel-4-aspect-route-indicator-preliminary-caution.1.3,10,27
+Image[12]=images/signal-tunnel-4-aspect-route-indicator-preliminary-caution.1.2,42,-2
+Image[13]=images/signal-tunnel-4-aspect-route-indicator-preliminary-caution.1.0,-37,12
+Image[14]=images/signal-tunnel-4-aspect-route-indicator-preliminary-caution.1.1,-7,-18
+Image[15]=images/signal-tunnel-4-aspect-route-indicator-preliminary-caution.1.3,10,27
 Icon=> images/signal-icons-ex.1.6
 Cursor=images/signal-icons-ex.1.7
 ---------------------------------------
@@ -2455,7 +2451,6 @@ upgrade_group=9
 is_presignal=1
 intro_year=1924
 intro_month=7
-signal_groups=2
 # CAUTION
 Image[0]=images/semaphore-upper-quadrant-distant-caution.1.2,42,-2
 Image[1]=images/semaphore-upper-quadrant-distant-caution.1.0,-37,12
@@ -3517,7 +3512,6 @@ intro_year=1860
 intro_month=2
 retire_year=1880
 retire_month=5
-signal_groups=2
 
 # DANGER
 Image[0]=images/semaphore-lower-quadrant-junction-danger.1.2,42,-2
@@ -3907,7 +3901,6 @@ has_call_on=0
 max_distance_to_signalbox=1750
 permissive=0
 signal_groups=2
-allow_underground=1
 upgrade_group=0
 is_presignal=1
 intro_year=1864
@@ -4106,7 +4099,7 @@ max_distance_to_signalbox=500
 permissive=0
 signal_groups=12
 allow_underground=0
-upgrade_group=0
+upgrade_group=25
 is_signal=1
 intro_year=1848
 intro_month=12
@@ -4146,7 +4139,7 @@ max_distance_to_signalbox=1250
 permissive=0
 signal_groups=12
 allow_underground=0
-upgrade_group=0
+upgrade_group=28
 is_signal=1
 is_presignal=1
 intro_year=1848
@@ -4182,7 +4175,7 @@ max_distance_to_signalbox=500
 permissive=0
 signal_groups=12
 allow_underground=0
-upgrade_group=0
+upgrade_group=27
 is_signal=1
 is_longblocksignal=1
 intro_year=1848
@@ -4234,7 +4227,7 @@ max_distance_to_signalbox=625
 permissive=0
 signal_groups=12
 allow_underground=0
-upgrade_group=0
+upgrade_group=26
 is_signal=1
 free_route=1
 intro_year=1848
@@ -4461,6 +4454,183 @@ Cursor=images/semaphore-slotted-post-station-icon.1.0
 # at the Trent Valley Junction shown on that page. The station signal
 # is entirely fictional (inverse colour of main signal). 
 # Vane signals came in circa 1838: http://www.railsigns.uk/sect1page1/sect1page1.html
+# The early Cooke & Wheatstone telegraph signals were introduced in 1839:
+# http://www.cntr.salford.ac.uk/comms/ebirth.php
+obj=roadsign
+copyright=JamesPetts
+name=vane-signal-stop-with-telegraph
+waytype=track
+cost=1800
+signal_upgrade_cost=850
+maintenance=1750
+aspects=3
+working_method=time_interval_with_telegraph
+max_speed=135
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=500
+permissive=0
+signal_groups=12
+allow_underground=0
+upgrade_group=25
+is_signal=1
+intro_year=1839
+intro_month=2
+retire_year=1848
+retire_month=12
+
+# DANGER
+Image[0]=images/vane-signal-danger.1.2,42,-2
+Image[1]=images/vane-signal-danger.1.0,-37,12
+Image[2]=images/vane-signal-danger.1.1,-7,-18
+Image[3]=images/vane-signal-danger.1.3,10,27
+# CLEAR
+Image[4]=images/vane-signal-clear.1.2,42,-2
+Image[5]=images/vane-signal-clear.1.0,-37,12
+Image[6]=images/vane-signal-clear.1.1,-7,-18
+Image[7]=images/vane-signal-clear.1.3,10,27
+# CAUTION
+Image[8]=images/vane-signal-caution.1.2,42,-2
+Image[9]=images/vane-signal-caution.1.0,-37,12
+Image[10]=images/vane-signal-caution.1.1,-7,-18
+Image[11]=images/vane-signal-caution.1.3,10,27
+Icon=> images/signal-icons.8.0
+Cursor=images/signal-icons.8.1
+---------------------------------------
+obj=roadsign
+copyright=JamesPetts
+name=vane-signal-distant-with-telegraph
+waytype=track
+cost=1800
+signal_upgrade_cost=850
+maintenance=1750
+aspects=2
+working_method=time_interval_with_telegraph
+max_speed=135
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=1125
+permissive=0
+signal_groups=12
+allow_underground=0
+upgrade_group=28
+is_signal=1
+is_presignal=1
+intro_year=1838
+intro_month=3
+retire_year=1848
+retire_month=12
+
+# CAUTION
+Image[0]=images/vane-signal-aux-caution.1.2,42,-2
+Image[1]=images/vane-signal-aux-caution.1.0,-37,12
+Image[2]=images/vane-signal-aux-caution.1.1,-7,-18
+Image[3]=images/vane-signal-aux-caution.1.3,10,27
+# CLEAR
+Image[4]=images/vane-signal-aux-clear.1.2,42,-2
+Image[5]=images/vane-signal-aux-clear.1.0,-37,12
+Image[6]=images/vane-signal-aux-clear.1.1,-7,-18
+Image[7]=images/vane-signal-aux-clear.1.3,10,27
+Icon=> images/signal-icons.8.2
+Cursor=images/signal-icons.8.3
+---------------------------------------
+obj=roadsign
+copyright=JamesPetts
+name=vane-signal-junction-with-telegraph
+waytype=track
+cost=3500
+signal_upgrade_cost=1700
+maintenance=2800
+aspects=3
+working_method=time_interval_with_telegraph
+max_speed=135
+has_selective_choose=1
+has_call_on=0
+max_distance_to_signalbox=500
+permissive=0
+signal_groups=12
+allow_underground=0
+upgrade_group=26
+is_signal=1
+free_route=1
+intro_year=1839
+intro_month=2
+retire_year=1848
+retire_month=12
+
+# DANGER
+Image[0]=images/vane-junction-signal-danger.1.2,42,-2
+Image[1]=images/vane-junction-signal-danger.1.0,-37,12
+Image[2]=images/vane-junction-signal-danger.1.1,-7,-18
+Image[3]=images/vane-junction-signal-danger.1.3,10,27
+# CLEAR (subsidiary route)
+Image[4]=images/vane-junction-signal-clear.1.2,42,-2
+Image[5]=images/vane-junction-signal-clear.1.0,-37,12
+Image[6]=images/vane-junction-signal-clear.1.1,-7,-18
+Image[7]=images/vane-junction-signal-clear.1.3,10,27
+# CAUTION (subsidiary route)
+Image[8]=images/vane-junction-signal-caution.1.2,42,-2
+Image[9]=images/vane-junction-signal-caution.1.0,-37,12
+Image[10]=images/vane-junction-signal-caution.1.1,-7,-18
+Image[11]=images/vane-junction-signal-caution.1.3,10,27
+# CLEAR (main route)
+Image[12]=images/vane-junction-signal-clear-main.1.2,42,-2
+Image[13]=images/vane-junction-signal-clear-main.1.0,-37,12
+Image[14]=images/vane-junction-signal-clear-main.1.1,-7,-18
+Image[15]=images/vane-junction-signal-clear-main.1.3,10,27
+# CAUTION (main route)
+Image[16]=images/vane-junction-signal-caution-main.1.2,42,-2
+Image[17]=images/vane-junction-signal-caution-main.1.0,-37,12
+Image[18]=images/vane-junction-signal-caution-main.1.1,-7,-18
+Image[19]=images/vane-junction-signal-caution-main.1.3,10,27
+
+Icon=> images/vane-junction-signal-icon.1.1
+Cursor=images/vane-junction-signal-icon.1.0
+---------------------------------------
+obj=roadsign
+copyright=JamesPetts
+name=vane-station-signal-with-telegraph
+waytype=track
+cost=1800
+signal_upgrade_cost=850
+maintenance=1750
+aspects=3
+working_method=time_interval_with_telegraph
+max_speed=135
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=500
+permissive=0
+signal_groups=12
+upgrade_group=27
+allow_underground=0
+is_signal=1
+is_longblocksignal=1
+intro_year=1839
+intro_month=2
+retire_year=1848
+retire_month=12
+
+# DANGER
+Image[0]=images/vane-signal-station-danger.1.2,42,-2
+Image[1]=images/vane-signal-station-danger.1.0,-37,12
+Image[2]=images/vane-signal-station-danger.1.1,-7,-18
+Image[3]=images/vane-signal-station-danger.1.3,10,27
+# CLEAR
+Image[4]=images/vane-signal-station-clear.1.2,42,-2
+Image[5]=images/vane-signal-station-clear.1.0,-37,12
+Image[6]=images/vane-signal-station-clear.1.1,-7,-18
+Image[7]=images/vane-signal-station-clear.1.3,10,27
+# CAUTION	
+Image[8]=images/vane-signal-station-caution.1.2,42,-2
+Image[9]=images/vane-signal-station-caution.1.0,-37,12
+Image[10]=images/vane-signal-station-caution.1.1,-7,-18
+Image[11]=images/vane-signal-station-caution.1.3,10,27
+Icon=> images/signal-icons.8.4
+Cursor=images/signal-icons.8.5
+# NOTE: Token block and permissive signals not available in these early days.
+---------------------------------------
+# Plain time interval below here, without telegraph
 obj=roadsign
 copyright=JamesPetts
 name=vane-signal-stop
@@ -4640,7 +4810,7 @@ Cursor=images/signal-icons.8.5
 # For details of the historical colours, see here: http://gerald-massey.org.uk/Railway/c10_construction_%28IV%29.htm
 # and especially here: http://gerald-massey.org.uk/Railway/images/Track/P0.png
 # Note that time interval signalling was first used on the Liverpool & Manchester Railway
-# (see http://www.railsigns.uk/sect1page1/sect1page1.html ), so it cannot have been introduced beofre 1830, when that
+# (see http://www.railsigns.uk/sect1page1/sect1page1.html ), so it cannot have been introduced before 1830, when that
 # railway opened.
 obj=roadsign
 copyright=JamesPetts

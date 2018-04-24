@@ -8,7 +8,8 @@ intro_year=1997
 intro_month=6
 waytype=narrowgauge_track
 freight=Passagiere
-payload=36
+payload[0]=0
+payload[1]=36
 length=8
 rolling_resistance=17
 
@@ -18,7 +19,8 @@ cost=745000
 runningcost=25
 
 # http://www.flickr.com/photos/14730981@N08/8007231863/in/photostream/
-comfort=67
+comfort[0]=0
+comfort[1]=67
 
 can_lead_from_rear=0
 bidirectional=1

@@ -1,3 +1,4 @@
+# https://en.wikipedia.org/wiki/Morris_Commercial_J4
 obj=vehicle
 name=MorrisJ4Piece
 copyright=JamesHood
@@ -25,14 +26,14 @@ constraint[prev][0]=none
 min_loading_time=30
 max_loading_time=300
 
-EmptyImage[E]=./images/morris-j4.0.0
-EmptyImage[SE]=./images/morris-j4.0.1
-EmptyImage[S]=./images/morris-j4.0.2
-EmptyImage[SW]=./images/morris-j4.0.3
-EmptyImage[W]=./images/morris-j4.0.4
-EmptyImage[NW]=./images/morris-j4.0.5
-EmptyImage[N]=./images/morris-j4.0.6
-EmptyImage[NE]=./images/morris-j4.0.7
+EmptyImage[E]=./images/morris-j4-piece_E.0.0,-33,14
+EmptyImage[SE]=./images/morris-j4-piece_SE.0.0,-13,0
+EmptyImage[S]=./images/morris-j4-piece_S.0.0,0,0
+EmptyImage[SW]=./images/morris-j4-piece_SW.0.0,-8,10
+EmptyImage[W]=./images/morris-j4-piece_W.0.0,4,5
+EmptyImage[NW]=./images/morris-j4-piece_NW.0.0,12,10
+EmptyImage[N]=./images/morris-j4-piece_N.0.0,0,33
+EmptyImage[NE]=./images/morris-j4-piece_NE.0.0,0,24
 
 -----------------------------------------
 obj=vehicle
@@ -62,14 +63,15 @@ constraint[prev][0]=none
 min_loading_time=30
 max_loading_time=300
 
-EmptyImage[E]=./images/morris-j4.1.0
-EmptyImage[SE]=./images/morris-j4.1.1
-EmptyImage[S]=./images/morris-j4.1.2
-EmptyImage[SW]=./images/morris-j4.1.3
-EmptyImage[W]=./images/morris-j4.1.4
-EmptyImage[NW]=./images/morris-j4.1.5
-EmptyImage[N]=./images/morris-j4.1.6
-EmptyImage[NE]=./images/morris-j4.1.7
+EmptyImage[E]=./images/morris-j4-cool_E.0.0,-33,14
+EmptyImage[SE]=./images/morris-j4-cool_SE.0.0,-13,0
+EmptyImage[S]=./images/morris-j4-cool_S.0.0,0,0
+EmptyImage[SW]=./images/morris-j4-cool_SW.0.0,-8,10
+EmptyImage[W]=./images/morris-j4-cool_W.0.0,4,5
+EmptyImage[NW]=./images/morris-j4-cool_NW.0.0,12,10
+EmptyImage[N]=./images/morris-j4-cool_N.0.0,0,33
+EmptyImage[NE]=./images/morris-j4-cool_NE.0.0,0,24
+
 -----------------------------------------
 obj=vehicle
 name=MorrisJ4Post
@@ -98,11 +100,11 @@ constraint[prev][0]=none
 min_loading_time=30
 max_loading_time=200
 
-EmptyImage[E]=./images/morris-j4.2.0
-EmptyImage[SE]=./images/morris-j4.2.1
-EmptyImage[S]=./images/morris-j4.2.2
-EmptyImage[SW]=./images/morris-j4.2.3
-EmptyImage[W]=./images/morris-j4.2.4
-EmptyImage[NW]=./images/morris-j4.2.5
-EmptyImage[N]=./images/morris-j4.2.6
-EmptyImage[NE]=./images/morris-j4.2.7
+EmptyImage[E]=./images/morris-j4-post_E.0.0,-33,14
+EmptyImage[SE]=./images/morris-j4-post_SE.0.0,-13,0
+EmptyImage[S]=./images/morris-j4-post_S.0.0,0,0
+EmptyImage[SW]=./images/morris-j4-post_SW.0.0,-8,10
+EmptyImage[W]=./images/morris-j4-post_W.0.0,4,5
+EmptyImage[NW]=./images/morris-j4-post_NW.0.0,12,10
+EmptyImage[N]=./images/morris-j4-post_N.0.0,0,33
+EmptyImage[NE]=./images/morris-j4-post_NE.0.0,0,24

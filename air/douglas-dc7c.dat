@@ -10,8 +10,11 @@ speed=555
 power=10144
 tractive_effort=73
 freight=Passagiere
-# This is for a single class layout
-payload=105
+payload[0]=0
+payload[1]=0
+payload[2]=0
+payload[3]=0
+payload[4]=70
 weight=33.0
 #length=8
 # £800,000 in 1956; £930,000 in 1958
@@ -22,7 +25,67 @@ intro_month=4
 retire_year=1958
 retire_month=11
 
-comfort=127
+comfort[0]=0
+comfort[1]=0
+comfort[2]=0
+comfort[3]=0
+comfort[4]=145
+min_loading_time=2400
+max_loading_time=2400
+
+catering_level=4
+
+# Cannot find data, guessing based on DC-6
+minimum_runway_length=1325
+
+sound=kubanskiloewe-dc-6.wav
+
+range=9012
+
+Constraint[Next][0]=none
+Constraint[Prev][0]=none
+
+EmptyImage[E]=./images/douglas-dc-7c_E.0.0
+EmptyImage[SE]=./images/douglas-dc-7c_SE.0.0
+EmptyImage[S]=./images/douglas-dc-7c_S.0.0
+EmptyImage[SW]=./images/douglas-dc-7c_SW.0.0
+EmptyImage[W]=./images/douglas-dc-7c_W.0.0
+EmptyImage[NW]=./images/douglas-dc-7c_NW.0.0
+EmptyImage[N]=./images/douglas-dc-7c_N.0.0
+EmptyImage[NE]=./images/douglas-dc-7c_NE.0.0
+
+---
+
+obj=vehicle
+name=douglas-dc7c-high-density
+copyright=SketchVC10
+# https://3dwarehouse.sketchup.com/model/f4453381943f6039eba96cf317eae721/BOAC-DC-7C-Seven-Seas-G-AOIB
+waytype=air
+engine_type=petrol
+speed=555
+power=10144
+tractive_effort=73
+freight=Passagiere
+payload[0]=0
+payload[1]=0
+payload[2]=0
+payload[3]=105
+payload[4]=0
+weight=33.0
+#length=8
+# £800,000 in 1956; £930,000 in 1958
+cost=15000000
+runningcost=3000
+intro_year=1956
+intro_month=4
+retire_year=1958
+retire_month=11
+
+comfort[0]=0
+comfort[1]=0
+comfort[2]=0
+comfort[3]=129
+comfort[4]=0
 min_loading_time=2400
 max_loading_time=2400
 

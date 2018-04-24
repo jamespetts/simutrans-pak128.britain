@@ -16,10 +16,12 @@ axle_load=0
 cost=2
 length=6
 runningcost=1
+fixed_cost=500
 intro_year=1492
 intro_month=3
 retire_year=1921
 retire_month=3
+sound=sandeepkurissery-flock-of-sheep.wav
 
 # Presumably, it takes the farmer quite a while to gather
 # all of the livestock together to take to market (etc.). 
@@ -29,7 +31,6 @@ max_loading_time=300
 increase_maintenance_after_years=25
 years_before_maintenance_max_reached=75
 increase_maintenance_by_percent=250
-sound=sandeepkurissery-flock-of-sheep.wav
 
 constraint[next][0]=none
 constraint[prev][0]=none

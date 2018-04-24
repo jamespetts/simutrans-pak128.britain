@@ -8,21 +8,24 @@ retire_year=1969
 retire_month=3
 waytype=track
 freight=Passagiere
-payload=72
+payload[0]=0
+payload[1]=72
 overcrowded_capacity=36
 length=10
 
-weight=32
+# Marked as 29 tons on a vehicle on the Llangollen Railway:
+# https://www.flickr.com/photos/8336963@N07/19500762089/in/photostream/
+weight=29.4
 axles=4
 cost=431000
 runningcost=25
-
 
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=10
 max_loading_time=40
-comfort=76
+comfort[0]=0
+comfort[1]=76
 
 Constraint[Prev][0]=BR-Mk1-Sub-Brake-front
 Constraint[Prev][1]=BR-Mk1-Sub
@@ -30,9 +33,10 @@ Constraint[Prev][2]=LMS-non-cor-lav
 Constraint[Prev][3]=LMS-non-cor-non-lav
 Constraint[Prev][4]=LMS-non-cor-brake-front
 Constraint[Prev][5]=LMS-non-cor-brake-lav-front
-Constraint[Prev][6]=MR-non-cor-lav
-Constraint[Prev][7]=MR-non-cor-non-lav
-Constraint[Prev][8]=MR-non-cor-brake-front
+Constraint[Prev][6]=MR-50ft-arc-lav-d1060
+Constraint[Prev][7]=MR-54ft-eliptical-cor-d1047
+Constraint[Prev][8]=MR-54ft-eliptical-non-lav-brake-front-d1246
+Constraint[Prev][9]=BR-Mk1-Sub-cl
 
 liverytype[0]=BR-Early
 liverytype[1]=BR-Revised
@@ -78,21 +82,24 @@ retire_year=1969
 retire_month=3
 waytype=track
 freight=Passagiere
-payload=72
+payload[0]=0
+payload[1]=72
 overcrowded_capacity=36
 length=10
 
-weight=32
+# Marked as 29 tons on a vehicle on the Llangollen Railway:
+# https://www.flickr.com/photos/8336963@N07/19500762089/in/photostream/
+weight=29.4
 axles=4
 cost=431000
 runningcost=25
-
 
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=10
 max_loading_time=40
-comfort=77
+comfort[0]=0
+comfort[1]=76
 
 Constraint[Next][0]=BR-Mk1-Sub-Brake-rear
 Constraint[Next][1]=BR-Mk1-Sub
@@ -100,10 +107,11 @@ Constraint[Next][2]=LMS-non-cor-lav
 Constraint[Next][3]=LMS-non-cor-non-lav
 Constraint[Next][4]=LMS-non-cor-brake-rear
 Constraint[Next][5]=LMS-non-cor-brake-lav-rear
-Constraint[Next][6]=MR-non-cor-lav
-Constraint[Next][7]=MR-non-cor-non-lav
-Constraint[Next][8]=MR-non-cor-brake-rear
-Constraint[Next][9]=none
+Constraint[Next][6]=MR-50ft-arc-lav-d1060
+Constraint[Next][7]=MR-54ft-eliptical-cor-d1047
+Constraint[Next][8]=MR-54ft-eliptical-non-lav-brake-rear-d1246
+Constraint[Next][9]=BR-Mk1-Sub-cl
+Constraint[Next][10]=none
 
 liverytype[0]=BR-Early
 liverytype[1]=BR-Revised

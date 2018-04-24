@@ -10,7 +10,6 @@ topspeed=80
 cost=300000
 maintenance=750
 max_weight=175
-maintenance=750
 wear_capacity=276480000
 
 icon=> ./images/masonry-viaduct-elevated.3.4

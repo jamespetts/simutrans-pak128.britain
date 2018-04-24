@@ -13,7 +13,8 @@ retire_year=1923
 retire_month=5
 waytype=track
 freight=Passagiere
-payload=40
+payload[0]=0
+payload[1]=40
 overcrowded_capacity=80
 
 weight=27
@@ -30,7 +31,8 @@ way_constraint_permissive[3]=3
 
 min_loading_time=22
 max_loading_time=80
-comfort=52
+comfort[0]=0
+comfort[1]=52
 
 upgrade[0]=1920TubeStockAirDoorFront
 
@@ -72,14 +74,14 @@ retire_year=1923
 retire_month=5
 waytype=track
 freight=Passagiere
-payload=48
+payload[0]=0
+payload[1]=48
 overcrowded_capacity=106
 
 weight=23
 axles=4
 cost=350000
 runningcost=10
-
 
 can_lead_from_rear=0
 bidirectional=1
@@ -89,7 +91,8 @@ way_constraint_permissive[3]=3
 
 min_loading_time=22
 max_loading_time=80
-comfort=52
+comfort[0]=0
+comfort[1]=52
 
 Constraint[Prev][0]=1906TubeStockFront
 Constraint[Prev][1]=1906TubeStockTrailer
@@ -136,7 +139,8 @@ retire_year=1923
 retire_month=5
 waytype=track
 freight=Passagiere
-payload=40
+payload[0]=0
+payload[1]=40
 overcrowded_capacity=80
 
 weight=27
@@ -150,7 +154,8 @@ way_constraint_permissive[3]=3
 
 min_loading_time=22
 max_loading_time=80
-comfort=52
+comfort[0]=0
+comfort[1]=52
 
 can_lead_from_rear=1
 

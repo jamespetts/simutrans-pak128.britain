@@ -75,7 +75,6 @@ EmptyImage[W][4]=./images/lswr-k10-austerity.1.0
 EmptyImage[NW][4]=./images/lswr-k10-austerity.1.1
 EmptyImage[N][4]=./images/lswr-k10-austerity.1.2
 EmptyImage[NE][4]=./images/lswr-k10-austerity.1.3
-EmptyImage[NE][4]=./images/lswr-k10-austerity.1.3
 
 EmptyImage[E][5]=./images/lswr-k10-br.1.4
 EmptyImage[SE][5]=./images/lswr-k10-br.1.5

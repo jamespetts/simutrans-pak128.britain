@@ -8,7 +8,10 @@ retire_year=1975
 retire_month=3
 waytype=track
 freight=Passagiere
-payload=48
+payload[0]=0
+payload[1]=48
+payload[2]=0
+payload[3]=0
 overcrowded_capacity=23
 length=11
 
@@ -18,14 +21,17 @@ cost=724000
 upgrade_price=14480
 runningcost=39
 
-
 can_lead_from_rear=0
 bidirectional=1
 catering_level=3
 
 min_loading_time=25
 max_loading_time=120
-comfort=137
+comfort[0]=0
+comfort[1]=137
+comfort[2]=0
+comfort[3]=155
+
 increase_maintenance_after_years=22
 
 upgrade[0]=BR-430[REP]Buffet
@@ -47,6 +53,14 @@ Constraint[Next][12]=BR-Mk2-TSO
 Constraint[Next][13]=BR-Mk2-RFB
 Constraint[Next][14]=LNER-Gresley-Express-Dining
 Constraint[Next][15]=LNER-Gresley-Express-Buffet
+Constraint[Next][16]=BR-Mk1-BFK-rear
+Constraint[Next][17]=BR-Mk1-CK
+Constraint[Next][18]=BR-Mk1-FK
+Constraint[Next][19]=BR-Mk1-FO
+Constraint[Next][20]=BR-Mk2a-FK
+Constraint[Next][21]=BR-Mk2a-BFK
+Constraint[Next][22]=BR-Mk2-FO
+Constraint[Next][23]=BR-Mk1-FK
 
 Constraint[Prev][0]=BR-Mk1-GUV
 Constraint[Prev][1]=BR-Mk1-SK
@@ -64,6 +78,14 @@ Constraint[Prev][12]=BR-Mk2-TSO
 Constraint[Prev][13]=BR-Mk2-RFB
 Constraint[Prev][14]=LNER-Gresley-Express-Dining
 Constraint[Prev][15]=LNER-Gresley-Express-Buffet
+Constraint[Prev][16]=BR-Mk1-BFK-front
+Constraint[Prev][17]=BR-Mk1-CK
+Constraint[Prev][18]=BR-Mk1-FK
+Constraint[Prev][19]=BR-Mk1-FO
+Constraint[Prev][20]=BR-Mk2a-FK
+Constraint[Prev][21]=BR-Mk2a-BFK
+Constraint[Prev][22]=BR-Mk2-FO
+Constraint[Prev][23]=BR-Mk1-FK
 
 liverytype[0]=BR-Early
 liverytype[1]=BR-Revised

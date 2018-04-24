@@ -11,7 +11,7 @@ overcrowded_capacity=5
 speed=50
 # 45hp - see John Day, The Story of the London Bus, p. 68
 power=34
-tractive_effort=9
+tractive_effort=6
 gear=50
 # Guessed
 weight=7.5

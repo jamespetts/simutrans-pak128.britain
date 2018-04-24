@@ -10,7 +10,8 @@ retire_year=1964
 retire_month=5
 waytype=narrowgauge_track
 freight=Passagiere
-payload=33
+payload[0]=0
+payload[1]=33
 length=6
 rolling_resistance=18
 
@@ -19,9 +20,10 @@ axles=4
 cost=599750
 runningcost=29
 
-comfort=40
+comfort[0]=0
+comfort[1]=40
 # Passengers reputedly complained that these had
-# no more than lemonaid and biscuits when these
+# no more than lemonade and biscuits when these
 # were introduced.
 catering_level=1
 

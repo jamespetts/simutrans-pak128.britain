@@ -3,13 +3,15 @@ name=SR-N6-Winchester
 copyright=James
 waytype=water
 engine_type=diesel
-smoke=diesel
+smoke=Diesel
 sound=hovercraft.wav
 speed=90
 power=780
 gear=100
 freight=Passagiere
-payload=58
+payload[0]=0
+payload[1]=0
+payload[2]=58
 weight=11
 length=10
 cost=98000000
@@ -18,13 +20,16 @@ runningcost=7850
 intro_year=1965
 intro_month=6
 retire_year=1983
-intro_month=3
+retire_month=3
 
-comfort=56
+comfort[0]=0
+comfort[1]=0
+comfort[2]=56
 # Hovercraft loading time: approx. 15 mins:
 # http://www.theyworkforyou.com/debates/?id=1986-06-05a.1100.0#g1124.0
 min_loading_time=750
 max_loading_time=900
+range=110
 
 way_constraint_prohibitive[6]=6 # Large ship
 

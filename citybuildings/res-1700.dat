@@ -4,6 +4,16 @@ copyright=Kieron
 type=res
 chance=90
 Level=2
+# Semi-detached mid-sized cottages, apparently artezanal
+# Estimate population of 7 per house (including servants) x 8 (lower density)
+# yields 56, / 16 hours * 6.4 hours = 22.4
+# Half when meters/tile taken into account
+population_and_visitor_demand_capacity=11
+class_proportion[0]=0
+class_proportion[1]=40
+class_proportion[2]=100
+class_proportion[3]=75
+class_proportion[4]=0
 intro_year=1700
 retire_year=1870
 needs_ground=1
@@ -25,6 +35,16 @@ copyright=Kieron
 type=res
 chance=70
 Level=4
+# Semi-detached mid-sized cottages, apparently artezanal
+# Estimate population of 8 per house (including servants) x 12 (higher density)
+# yields 96, / 16 hours * 6.4 hours = 38.4
+# Half when meters/tile taken into account
+population_and_visitor_demand_capacity=20
+class_proportion[0]=0
+class_proportion[1]=55
+class_proportion[2]=100
+class_proportion[3]=25
+class_proportion[4]=0
 intro_year=1700
 retire_year=1870
 needs_ground=1

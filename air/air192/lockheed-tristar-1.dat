@@ -1,0 +1,163 @@
+# https://en.wikipedia.org/wiki/Lockheed_L-1011_TriStar
+# http://www.airliners.net/aircraft-data/lockheed-l-1011-tristar-150100150200250/271
+obj=vehicle
+name=tristar-1
+copyright=Tristar
+# https://3dwarehouse.sketchup.com/model/ua849ed62-d561-4a1f-af1d-a16be4128154/BEA-British-European-Airways-L-1011-385-1-Tristar-1-1976
+# https://3dwarehouse.sketchup.com/model/u68d2bd29-8552-4e58-8b88-c05ef177e4aa/British-Airways-L-1011-385-1-Tristar-1-1986
+# https://3dwarehouse.sketchup.com/model/udcb77dd0-c677-412d-88a2-3d13f0a79ae8/British-Airways-L-1011-385-1-TriStar-1-The-Coronation-Gold-Rose-1982
+waytype=air
+engine_type=turbine
+speed=890
+# Power data not available - inferred from tractive force
+power=103564
+tractive_effort=561
+freight=Passagiere
+# http://frequentlyflying.boardingarea.com/wp-content/uploads/2010/12/TWA-L-1011-100-522x1024.jpg
+payload[0]=0
+payload[1]=0
+payload[2]=214
+payload[3]=40
+payload[4]=18
+weight=110.0
+#length=8
+cost=60000000
+upgrade_price=5000
+runningcost=2850
+intro_year=1972
+intro_month=4
+retire_year=1979
+retire_month=8
+
+comfort[0]=0
+comfort[1]=0
+comfort[2]=148
+comfort[3]=174
+comfort[4]=194
+
+min_loading_time=2400
+max_loading_time=2400
+catering_level=4
+
+# http://www.airliners.net/forum/viewtopic.php?t=169751
+minimum_runway_length=2423
+
+# TODO: Get proper sounds for this.
+sound=laxspotter97-boeing747-400.wav
+range=5760
+
+upgrade[0]=tristar-1-high-density
+
+Constraint[Next][0]=none
+Constraint[Prev][0]=none
+
+liverytype[0]=BEA-speedjack
+liverytype[1]=BA-Union-flag
+liverytype[2]=BA-Landor
+
+EmptyImage[E][0]=../images/tristar-1-bea_E.0.0,-64,-56
+EmptyImage[SE][0]=../images/tristar-1-bea_SE.0.0,-32,-32
+EmptyImage[S][0]=../images/tristar-1-bea_S.0.0,-110,0
+EmptyImage[SW][0]=../images/tristar-1-bea_SW.0.0,-32,-32
+EmptyImage[W][0]=../images/tristar-1-bea_W.0.0,0,-24
+EmptyImage[NW][0]=../images/tristar-1-bea_NW.0.0,-32,-32
+EmptyImage[N][0]=../images/tristar-1-bea_N.0.0,-110,0
+EmptyImage[NE][0]=../images/tristar-1-bea_NE.0.0,0,-32
+
+EmptyImage[E][1]=../images/tristar-1-ba-early_E.0.0,-64,-56
+EmptyImage[SE][1]=../images/tristar-1-ba-early_SE.0.0,-32,-32
+EmptyImage[S][1]=../images/tristar-1-ba-early_S.0.0,-110,0
+EmptyImage[SW][1]=../images/tristar-1-ba-early_SW.0.0,-32,-32
+EmptyImage[W][1]=../images/tristar-1-ba-early_W.0.0,0,-24
+EmptyImage[NW][1]=../images/tristar-1-ba-early_NW.0.0,-32,-32
+EmptyImage[N][1]=../images/tristar-1-ba-early_N.0.0,-110,0
+EmptyImage[NE][1]=../images/tristar-1-ba-early_NE.0.0,0,-32
+
+EmptyImage[E][2]=../images/tristar-1-ba-landor_E.0.0,-64,-56
+EmptyImage[SE][2]=../images/tristar-1-ba-landor_SE.0.0,-32,-32
+EmptyImage[S][2]=../images/tristar-1-ba-landor_S.0.0,-110,0
+EmptyImage[SW][2]=../images/tristar-1-ba-landor_SW.0.0,-32,-32
+EmptyImage[W][2]=../images/tristar-1-ba-landor_W.0.0,0,-24
+EmptyImage[NW][2]=../images/tristar-1-ba-landor_NW.0.0,-32,-32
+EmptyImage[N][2]=../images/tristar-1-ba-landor_N.0.0,-110,0
+EmptyImage[NE][2]=../images/tristar-1-ba-landor_NE.0.0,0,-32
+
+---
+
+obj=vehicle
+name=tristar-1-high-density
+copyright=Tristar
+# https://3dwarehouse.sketchup.com/model/ua849ed62-d561-4a1f-af1d-a16be4128154/BEA-British-European-Airways-L-1011-385-1-Tristar-1-1976
+# https://3dwarehouse.sketchup.com/model/u68d2bd29-8552-4e58-8b88-c05ef177e4aa/British-Airways-L-1011-385-1-Tristar-1-1986
+# https://3dwarehouse.sketchup.com/model/udcb77dd0-c677-412d-88a2-3d13f0a79ae8/British-Airways-L-1011-385-1-TriStar-1-The-Coronation-Gold-Rose-1982
+waytype=air
+engine_type=turbine
+speed=890
+# Power data not available - inferred from tractive force
+power=103564
+tractive_effort=561
+freight=Passagiere
+# http://frequentlyflying.boardingarea.com/wp-content/uploads/2010/12/TWA-L-1011-100-522x1024.jpg
+payload[0]=0
+payload[1]=0
+payload[2]=400
+weight=110.0
+#length=8
+cost=60000000
+upgrade_price=5000
+runningcost=2850
+intro_year=1972
+intro_month=4
+retire_year=1979
+retire_month=8
+
+comfort[0]=0
+comfort[1]=0
+comfort[2]=148
+
+min_loading_time=2400
+max_loading_time=2400
+catering_level=4
+
+# http://www.airliners.net/forum/viewtopic.php?t=169751
+minimum_runway_length=2423
+
+# TODO: Get proper sounds for this.
+sound=laxspotter97-boeing747-400.wav
+range=5760
+
+upgrade[0]=tristar-1
+
+Constraint[Next][0]=none
+Constraint[Prev][0]=none
+
+liverytype[0]=BEA-speedjack
+liverytype[1]=BA-Union-flag
+liverytype[2]=BA-Landor
+
+EmptyImage[E][0]=../images/tristar-1-bea_E.0.0,-64,-56
+EmptyImage[SE][0]=../images/tristar-1-bea_SE.0.0,-32,-32
+EmptyImage[S][0]=../images/tristar-1-bea_S.0.0,-110,0
+EmptyImage[SW][0]=../images/tristar-1-bea_SW.0.0,-32,-32
+EmptyImage[W][0]=../images/tristar-1-bea_W.0.0,0,-24
+EmptyImage[NW][0]=../images/tristar-1-bea_NW.0.0,-32,-32
+EmptyImage[N][0]=../images/tristar-1-bea_N.0.0,-110,0
+EmptyImage[NE][0]=../images/tristar-1-bea_NE.0.0,0,-32
+
+EmptyImage[E][1]=../images/tristar-1-ba-early_E.0.0,-64,-56
+EmptyImage[SE][1]=../images/tristar-1-ba-early_SE.0.0,-32,-32
+EmptyImage[S][1]=../images/tristar-1-ba-early_S.0.0,-110,0
+EmptyImage[SW][1]=../images/tristar-1-ba-early_SW.0.0,-32,-32
+EmptyImage[W][1]=../images/tristar-1-ba-early_W.0.0,0,-24
+EmptyImage[NW][1]=../images/tristar-1-ba-early_NW.0.0,-32,-32
+EmptyImage[N][1]=../images/tristar-1-ba-early_N.0.0,-110,0
+EmptyImage[NE][1]=../images/tristar-1-ba-early_NE.0.0,0,-32
+
+EmptyImage[E][2]=../images/tristar-1-ba-landor_E.0.0,-64,-56
+EmptyImage[SE][2]=../images/tristar-1-ba-landor_SE.0.0,-32,-32
+EmptyImage[S][2]=../images/tristar-1-ba-landor_S.0.0,-110,0
+EmptyImage[SW][2]=../images/tristar-1-ba-landor_SW.0.0,-32,-32
+EmptyImage[W][2]=../images/tristar-1-ba-landor_W.0.0,0,-24
+EmptyImage[NW][2]=../images/tristar-1-ba-landor_NW.0.0,-32,-32
+EmptyImage[N][2]=../images/tristar-1-ba-landor_N.0.0,-110,0
+EmptyImage[NE][2]=../images/tristar-1-ba-landor_NE.0.0,0,-32

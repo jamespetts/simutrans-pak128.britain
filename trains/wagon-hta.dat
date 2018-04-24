@@ -15,7 +15,6 @@ brake_force=20
 weight=27
 axle_load=26
 way_wear_factor=127500
-axle_load=1
 cost=690000
 runningcost=12
 

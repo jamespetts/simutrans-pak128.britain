@@ -16,7 +16,8 @@ retire_year=2010
 retire_month=1
 waytype=track
 freight=Passagiere
-payload=32
+payload[0]=0
+payload[1]=32
 overcrowded_capacity=180
 rolling_resistance=13
 
@@ -31,7 +32,8 @@ way_constraint_permissive[3]=3
 
 min_loading_time=15
 max_loading_time=40
-comfort=57
+comfort[0]=0
+comfort[1]=57
 
 Constraint[Prev][0]=LUL_C_StockRearDM
 Constraint[Prev][1]=LUL_C_StockMiddle1
@@ -60,7 +62,9 @@ EmptyImage[W][1]=./images/lul-c-stock-refurb-front.1.0
 EmptyImage[NW][1]=./images/lul-c-stock-refurb-front.1.1
 EmptyImage[N][1]=./images/lul-c-stock-refurb-front.1.2
 EmptyImage[NE][1]=./images/lul-c-stock-refurb-front.1.3
+
 --
+
 obj=vehicle
 name=LUL_C_StockMiddle1
 engine_type=electric
@@ -73,7 +77,8 @@ retire_year=2010
 retire_month=1
 waytype=track
 freight=Passagiere
-payload=32
+payload[0]=0
+payload[1]=32
 overcrowded_capacity=180
 rolling_resistance=13
 
@@ -82,13 +87,13 @@ axles=4
 cost=1400000
 runningcost=33
 
-
 bidirectional=0
 way_constraint_permissive[3]=3
 
 min_loading_time=15
 max_loading_time=40
-comfort=57
+comfort[0]=0
+comfort[1]=57
 
 Constraint[Prev][0]=LUL_C_StockFrontDM
 
@@ -116,7 +121,9 @@ EmptyImage[W][1]=./images/lul-c-stock-refurb-middle.1.0
 EmptyImage[NW][1]=./images/lul-c-stock-refurb-middle.1.1
 EmptyImage[N][1]=./images/lul-c-stock-refurb-middle.1.2
 EmptyImage[NE][1]=./images/lul-c-stock-refurb-middle.1.3
-----
+
+---
+
 obj=vehicle
 name=LUL_C_StockMiddle2
 engine_type=electric
@@ -129,7 +136,8 @@ retire_year=2010
 retire_month=1
 waytype=track
 freight=Passagiere
-payload=32
+payload[0]=0
+payload[1]=32
 overcrowded_capacity=180
 rolling_resistance=13
 
@@ -138,13 +146,13 @@ axles=4
 cost=1400000
 runningcost=33
 
-
 bidirectional=0
 way_constraint_permissive[3]=3
 
 min_loading_time=15
 max_loading_time=40
-comfort=57
+comfort[0]=0
+comfort[1]=57
 
 Constraint[Prev][0]=LUL_C_StockMiddle1
 
@@ -171,7 +179,9 @@ EmptyImage[W][1]=./images/lul-c-stock-refurb-middle.1.0
 EmptyImage[NW][1]=./images/lul-c-stock-refurb-middle.1.1
 EmptyImage[N][1]=./images/lul-c-stock-refurb-middle.1.2
 EmptyImage[NE][1]=./images/lul-c-stock-refurb-middle.1.3
+
 --
+
 obj=vehicle
 name=LUL_C_StockRearDM
 engine_type=electric
@@ -187,7 +197,8 @@ retire_year=2010
 retire_month=1
 waytype=track
 freight=Passagiere
-payload=32
+payload[0]=0
+payload[1]=32
 overcrowded_capacity=180
 rolling_resistance=13
 
@@ -202,7 +213,8 @@ way_constraint_permissive[3]=3
 
 min_loading_time=15
 max_loading_time=40
-comfort=57
+comfort[0]=0
+comfort[1]=57
 
 Constraint[Prev][0]=LUL_C_StockMiddle1
 Constraint[Prev][1]=LUL_C_StockMiddle2
@@ -230,4 +242,3 @@ EmptyImage[W][1]=./images/lul-c-stock-refurb-rear.1.0
 EmptyImage[NW][1]=./images/lul-c-stock-refurb-rear.1.1
 EmptyImage[N][1]=./images/lul-c-stock-refurb-rear.1.2
 EmptyImage[NE][1]=./images/lul-c-stock-refurb-rear.1.3
---

@@ -6,10 +6,10 @@ cost=45000
 maintenance=650
 topspeed=120
 max_weight=13
-intro_year = 1850
-intro_month = 4
-retire_year = 1876
-retire_month = 11
+intro_year=1850
+intro_month=4
+retire_year=1876
+retire_month=11
 wear_capacity=446400000
 
 icon=> ./images/wrought_iron_improved_light.3.4

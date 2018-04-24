@@ -21,6 +21,8 @@ intro_year=1952
 intro_month=9
 retire_year=1970
 retire_month=8
+# TODO: Use a more authentic sound for this type.
+sound=video47-bristol-k.wav
 
 comfort=42
 # Single entrance with conductor: 2.5 seconds per passenger

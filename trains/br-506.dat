@@ -1,3 +1,4 @@
+# https://en.wikipedia.org/wiki/British_Rail_Class_506
 obj=vehicle
 name=BR-506Front
 engine_type=electric
@@ -12,7 +13,8 @@ retire_year=1965
 retire_month=12
 waytype=track
 freight=Passagiere
-payload=52
+payload[0]=0
+payload[1]=52
 overcrowded_capacity=39
 length=10
 
@@ -29,7 +31,8 @@ way_constraint_permissive[1]=1
 
 min_loading_time=15
 max_loading_time=55
-comfort=78
+comfort[0]=0
+comfort[1]=78
 
 Constraint[Prev][0]=BR-506Rear
 Constraint[Prev][1]=none
@@ -81,7 +84,8 @@ retire_year=1965
 retire_month=12
 waytype=track
 freight=Passagiere
-payload=62
+payload[0]=0
+payload[1]=62
 overcrowded_capacity=46
 length=10
 
@@ -98,7 +102,8 @@ way_constraint_permissive[1]=1
 
 min_loading_time=15
 max_loading_time=55
-comfort=78
+comfort[0]=0
+comfort[1]=78
 
 Constraint[Prev][0]=BR-506Front
 
@@ -149,7 +154,8 @@ retire_year=1965
 retire_month=12
 waytype=track
 freight=Passagiere
-payload=60
+payload[0]=0
+payload[1]=60
 overcrowded_capacity=45
 length=10
 
@@ -166,7 +172,8 @@ way_constraint_permissive[1]=1
 
 min_loading_time=15
 max_loading_time=55
-comfort=78
+comfort[0]=0
+comfort[1]=78
 
 Constraint[Prev][0]=BR-506Centre
 

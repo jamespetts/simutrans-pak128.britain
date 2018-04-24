@@ -4,8 +4,9 @@ name=short-stagecoach
 copyright=James&jamespetts
 waytype=road
 freight=Passagiere
-payload=16
-overcrowded_capacity=0
+payload[0]=0
+payload[1]=0
+payload[2]=16
 speed=12
 weight=0.7
 axle_load=1
@@ -20,7 +21,9 @@ brake_force=0
 # Eight wheels!
 rolling_resistance=125
 
-comfort=36
+comfort[0]=0
+comfort[1]=0
+comfort[2]=36
 min_loading_time=120
 max_loading_time=240
 

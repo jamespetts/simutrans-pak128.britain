@@ -24,6 +24,8 @@ intro_year=2002
 intro_month=2
 retire_year=2014
 retire_month=6
+# TODO: Add a more authentic sound for this
+sound=volvo-olympian-ff3170.wav
 
 comfort=38
 # Two door pay driver (low floor): 2.8 seconds per passenger
@@ -33,7 +35,7 @@ max_loading_time=105
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
 
-#TODO: Add multiple liveries and a one door option
+# TODO: Add multiple liveries and a one door option
 
 EmptyImage[E]=./images/wright-electrocity_E.0.0,-33,14
 EmptyImage[SE]=./images/wright-electrocity_SE.0.0,-13,0

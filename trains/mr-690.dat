@@ -6,8 +6,7 @@ name=MR-690
 engine_type=steam
 smoke=Steam
 speed=85
-# Estimated (no firegrate area data available)
-power=180
+power=192
 # Calculated from data from data at above website.
 # Loss factor set at 0.75 
 tractive_effort=53

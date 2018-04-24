@@ -1,10 +1,10 @@
+# http://myweb.tiscali.co.uk/gansg/4-rstock/04arstock1.htm
 obj=vehicle
 name=LivestockEarly3
-#?
 speed=40
-copyright=James
-intro_year=1835
-intro_month=7
+copyright=JamesPetts
+intro_year=1828
+intro_month=12
 retire_year=1855
 retire_month=5
 waytype=track
@@ -20,28 +20,25 @@ way_wear_factor=3250
 cost=77000
 runningcost=1
 
-
 bidirectional=1
 
 min_loading_time=300
 max_loading_time=900
 
-EmptyImage[E]=./images/wagon-livestock-early3.0.0
-EmptyImage[SE]=./images/wagon-livestock-early3.0.1
-EmptyImage[S]=./images/wagon-livestock-early3.0.2
-EmptyImage[SW]=./images/wagon-livestock-early3.0.3
-EmptyImage[W]=./images/wagon-livestock-early3.0.4
-EmptyImage[NW]=./images/wagon-livestock-early3.0.5
-EmptyImage[N]=./images/wagon-livestock-early3.0.6
-EmptyImage[NE]=./images/wagon-livestock-early3.0.7
+EmptyImage[E]=./images/wagon-livestock-5t-empty_E.0.0
+EmptyImage[SE]=./images/wagon-livestock-5t-empty_SE.0.0
+EmptyImage[S]=./images/wagon-livestock-5t-empty_S.0.0
+EmptyImage[SW]=./images/wagon-livestock-5t-empty_SW.0.0
+EmptyImage[W]=./images/wagon-livestock-5t-empty_W.0.0
+EmptyImage[NW]=./images/wagon-livestock-5t-empty_NW.0.0
+EmptyImage[N]=./images/wagon-livestock-5t-empty_N.0.0
+EmptyImage[NE]=./images/wagon-livestock-5t-empty_NE.0.0
 
-
-FreightImage[E]=./images/wagon-livestock-early3.1.0
-FreightImage[SE]=./images/wagon-livestock-early3.1.1
-FreightImage[S]=./images/wagon-livestock-early3.1.2
-FreightImage[SW]=./images/wagon-livestock-early3.1.3
-FreightImage[W]=./images/wagon-livestock-early3.1.4
-FreightImage[NW]=./images/wagon-livestock-early3.1.5
-FreightImage[N]=./images/wagon-livestock-early3.1.6
-FreightImage[NE]=./images/wagon-livestock-early3.1.7
-
+FreightImage[E]=./images/wagon-livestock-5t-loaded_E.0.0
+FreightImage[SE]=./images/wagon-livestock-5t-loaded_SE.0.0
+FreightImage[S]=./images/wagon-livestock-5t-loaded_S.0.0
+FreightImage[SW]=./images/wagon-livestock-5t-loaded_SW.0.0
+FreightImage[W]=./images/wagon-livestock-5t-loaded_W.0.0
+FreightImage[NW]=./images/wagon-livestock-5t-loaded_NW.0.0
+FreightImage[N]=./images/wagon-livestock-5t-loaded_N.0.0
+FreightImage[NE]=./images/wagon-livestock-5t-loaded_NE.0.0

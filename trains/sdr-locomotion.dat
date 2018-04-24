@@ -19,22 +19,24 @@ payload=0
 length=3
 brake_force=0
 rolling_resistance=19
-way_wear_factor=14600
+way_wear_factor=17638
 
 # Ahrons p. 3
 weight=8.5
+axle_load=4
 cost=1663200
-runningcost=105
+runningcost=10
+fixed_cost=1120
 sound=lwalker-br-4mt-tank.wav
 increase_maintenance_after_years=25
 
 Constraint[Next][0]=SDR-Locomotion-Tender
 
-EmptyImage[E]=./images/sdr-locomotion.1.4
-EmptyImage[SE]=./images/sdr-locomotion.1.5
-EmptyImage[S]=./images/sdr-locomotion.1.6
-EmptyImage[SW]=./images/sdr-locomotion.1.7
-EmptyImage[W]=./images/sdr-locomotion.1.0
-EmptyImage[NW]=./images/sdr-locomotion.1.1
-EmptyImage[N]=./images/sdr-locomotion.1.2
-EmptyImage[NE]=./images/sdr-locomotion.1.3
+EmptyImage[E]=./images/sdr-locomotion_E.0.0
+EmptyImage[SE]=./images/sdr-locomotion_SE.0.0
+EmptyImage[S]=./images/sdr-locomotion_S.0.0
+EmptyImage[SW]=./images/sdr-locomotion_SW.0.0
+EmptyImage[W]=./images/sdr-locomotion_W.0.0
+EmptyImage[NW]=./images/sdr-locomotion_NW.0.0
+EmptyImage[N]=./images/sdr-locomotion_N.0.0
+EmptyImage[NE]=./images/sdr-locomotion_NE.0.0

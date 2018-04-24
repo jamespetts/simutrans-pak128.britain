@@ -4,12 +4,11 @@ name=Incat74m
 copyright=James
 waytype=water
 engine_type=diesel
-smoke=Diesel
 speed=70
 power=14400
-gear=100
 freight=Passagiere
-payload=450
+payload[0]=0
+payload[1]=450
 weight=300
 length=12
 cost=125000000
@@ -17,11 +16,13 @@ runningcost=780
 intro_year=1990
 intro_month=4
 
-comfort=150
+comfort[0]=0
+comfort[1]=170
 catering_level=3
 # 30-40 minutes
 min_loading_time=1800
 max_loading_time=2400
+range=250
 
 Constraint[Next][0]=Incat74m(AddMail)
 Constraint[Prev][0]=none

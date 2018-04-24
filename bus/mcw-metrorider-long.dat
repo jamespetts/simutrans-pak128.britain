@@ -20,6 +20,8 @@ power=85
 tractive_effort=15
 gear=50
 length=5
+# TODO: Use a more authentic sound here
+sound=video47-optare-tempo.wav
 
 # Guessed
 weight=5.5

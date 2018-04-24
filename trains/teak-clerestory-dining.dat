@@ -8,7 +8,8 @@ retire_year=1913
 retire_month=5
 waytype=track
 freight=Passagiere
-payload=24
+payload[0]=0
+payload[1]=24
 overcrowded_capacity=12
 length=10
 
@@ -17,14 +18,14 @@ axles=4
 cost=775000
 runningcost=45
 
-
 can_lead_from_rear=0
 bidirectional=1
 catering_level=4
 
 min_loading_time=20
 max_loading_time=50
-comfort=128
+comfort[0]=0
+comfort[1]=128
 
 Constraint[Next][0]=Teak-Clerestory-Coach
 Constraint[Next][1]=Teak-Clerestory-Brake

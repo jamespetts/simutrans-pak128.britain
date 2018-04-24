@@ -7,7 +7,6 @@ smoke=Diesel
 sound=ship-horn_a.wav
 speed=40
 power=27000
-gear=100
 weight=13000
 length=14
 cost=91000000
@@ -19,6 +18,7 @@ is_tall=1
 # 30-45 minutes
 min_loading_time=2400
 max_loading_time=2700
+range=360
 
 upgrade[0]=POSuperEuropeanMixed
 

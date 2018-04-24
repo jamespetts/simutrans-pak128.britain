@@ -1,0 +1,81 @@
+# See Ahrons p. 58
+obj=vehicle
+name=stephenson-long-boiler-passenger
+engine_type=steam
+smoke=Steam
+# These were not good at speed
+speed=81
+power=76
+# Calculated from data from Ahrons, p. 58
+# Loss factor set at 0.6, assumed 80lbs pressure.
+tractive_effort=16
+copyright=Kieron/JamesPetts
+intro_year=1845
+intro_month=11
+retire_year=1849
+retire_month=10
+waytype=track
+freight=None
+payload=0
+length=4
+brake_force=0
+rolling_resistance=19
+
+sound=lwalker-br-4mt-tank.wav
+
+# See Ahrons p. 54
+weight=21.7
+axles=3
+cost=15400000
+runningcost=20
+fixed_cost=1800
+Constraint[Next][0]=stephenson-long-boiler-passenger-tender
+
+# TODO: Other liveries.
+liverytype[0]=MR-Early
+
+EmptyImage[E][0]=./images/stephenson-long-boiler-passenger-mr-green_E.0.0
+EmptyImage[SE][0]=./images/stephenson-long-boiler-passenger-mr-green_SE.0.0
+EmptyImage[S][0]=./images/stephenson-long-boiler-passenger-mr-green_S.0.0
+EmptyImage[SW][0]=./images/stephenson-long-boiler-passenger-mr-green_SW.0.0
+EmptyImage[W][0]=./images/stephenson-long-boiler-passenger-mr-green_W.0.0
+EmptyImage[NW][0]=./images/stephenson-long-boiler-passenger-mr-green_NW.0.0
+EmptyImage[N][0]=./images/stephenson-long-boiler-passenger-mr-green_N.0.0
+EmptyImage[NE][0]=./images/stephenson-long-boiler-passenger-mr-green_NE.0.0
+
+
+---
+
+obj=vehicle
+name=stephenson-long-boiler-passenger-tender
+engine_type=steam
+speed=81
+copyright=James/jamespetts
+intro_year=1845
+intro_month=11
+retire_year=1849
+retire_month=10
+waytype=track
+freight=None
+payload=0
+length=3
+brake_force=3
+
+# Weight not given in Ahrons, but guessed from contemporaneous types
+weight=14
+cost=0
+runningcost=0
+
+Constraint[Prev][0]=stephenson-long-boiler-passenger
+
+liverytype[0]=MR-Early
+
+EmptyImage[E][0]=./images/mr-133-tender-green_E.0.0
+EmptyImage[SE][0]=./images/mr-133-tender-green_SE.0.0
+EmptyImage[S][0]=./images/mr-133-tender-green_S.0.0
+EmptyImage[SW][0]=./images/mr-133-tender-green_SW.0.0
+EmptyImage[W][0]=./images/mr-133-tender-green_W.0.0
+EmptyImage[NW][0]=./images/mr-133-tender-green_NW.0.0
+EmptyImage[N][0]=./images/mr-133-tender-green_N.0.0
+EmptyImage[NE][0]=./images/mr-133-tender-green_NE.0.0
+

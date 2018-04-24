@@ -1,0 +1,314 @@
+obj=vehicle
+name=skiff-wherry-passenger
+copyright=jamespetts
+waytype=water
+engine_type=bio
+speed=3
+power=2
+freight=Passagiere
+payload[0]=0
+payload[1]=12
+weight=0.3
+length=6
+cost=10000
+runningcost=12
+intro_year=1750
+intro_month=1
+# These still run:
+# https://www.explorewalberswick.co.uk/ferry.php
+is_tall=0
+
+comfort[0]=0
+comfort[1]=20
+min_loading_time=20
+max_loading_time=60
+
+# Rowing is hard work
+range=6
+
+Constraint[Next][0]=mail-space
+Constraint[Prev][0]=none
+
+way_constraint_prohibitive[2]=2 # Barge
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
+
+EmptyImage[E]=./images/skiff-wherry-empty_E.0.0,-33,14
+EmptyImage[SE]=./images/skiff-wherry-empty_SE.0.0,-13,0
+EmptyImage[S]=./images/skiff-wherry-empty_S.0.0,0,0
+EmptyImage[SW]=./images/skiff-wherry-empty_SW.0.0,-8,10
+EmptyImage[W]=./images/skiff-wherry-empty_W.0.0,4,5
+EmptyImage[NW]=./images/skiff-wherry-empty_NW.0.0,12,10
+EmptyImage[N]=./images/skiff-wherry-empty_N.0.0,0,33
+EmptyImage[NE]=./images/skiff-wherry-empty_NE.0.0,0,24
+
+FreightImage[E]=./images/skiff-wherry-passengers_E.0.0,-33,14
+FreightImage[SE]=./images/skiff-wherry-passengers_SE.0.0,-13,0
+FreightImage[S]=./images/skiff-wherry-passengers_S.0.0,0,0
+FreightImage[SW]=./images/skiff-wherry-passengers_SW.0.0,-8,10
+FreightImage[W]=./images/skiff-wherry-passengers_W.0.0,4,5
+FreightImage[NW]=./images/skiff-wherry-passengers_NW.0.0,12,10
+FreightImage[N]=./images/skiff-wherry-passengers_N.0.0,0,33
+FreightImage[NE]=./images/skiff-wherry-passengers_NE.0.0,0,24
+
+---
+
+obj=vehicle
+name=skiff-wherry-livestock
+copyright=jamespetts
+waytype=water
+engine_type=bio
+speed=3
+power=2
+freight=livestock
+payload=5
+weight=0.3
+length=6
+cost=10000
+runningcost=12
+intro_year=1750
+intro_month=1
+# These still run:
+# https://www.explorewalberswick.co.uk/ferry.php
+is_tall=0
+
+min_loading_time=40
+max_loading_time=120
+
+# Rowing is hard work
+range=6
+
+Constraint[Next][0]=mail-space
+Constraint[Prev][0]=none
+
+way_constraint_prohibitive[2]=2 # Barge
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
+
+EmptyImage[E]=./images/skiff-wherry-empty_E.0.0,-33,14
+EmptyImage[SE]=./images/skiff-wherry-empty_SE.0.0,-13,0
+EmptyImage[S]=./images/skiff-wherry-empty_S.0.0,0,0
+EmptyImage[SW]=./images/skiff-wherry-empty_SW.0.0,-8,10
+EmptyImage[W]=./images/skiff-wherry-empty_W.0.0,4,5
+EmptyImage[NW]=./images/skiff-wherry-empty_NW.0.0,12,10
+EmptyImage[N]=./images/skiff-wherry-empty_N.0.0,0,33
+EmptyImage[NE]=./images/skiff-wherry-empty_NE.0.0,0,24
+
+FreightImage[E]=./images/skiff-wherry-livestock_E.0.0,-33,14
+FreightImage[SE]=./images/skiff-wherry-livestock_SE.0.0,-13,0
+FreightImage[S]=./images/skiff-wherry-livestock_S.0.0,0,0
+FreightImage[SW]=./images/skiff-wherry-livestock_SW.0.0,-8,10
+FreightImage[W]=./images/skiff-wherry-livestock_W.0.0,4,5
+FreightImage[NW]=./images/skiff-wherry-livestock_NW.0.0,12,10
+FreightImage[N]=./images/skiff-wherry-livestock_N.0.0,0,33
+FreightImage[NE]=./images/skiff-wherry-livestock_NE.0.0,0,24
+
+---
+
+obj=vehicle
+name=skiff-wherry-piece
+copyright=jamespetts
+waytype=water
+engine_type=bio
+speed=3
+power=2
+freight=vegetables
+payload=5
+weight=0.3
+length=6
+cost=10000
+runningcost=12
+intro_year=1750
+intro_month=1
+# These still run:
+# https://www.explorewalberswick.co.uk/ferry.php
+is_tall=0
+
+min_loading_time=40
+max_loading_time=120
+
+# Rowing is hard work
+range=6
+
+Constraint[Next][0]=mail-space
+Constraint[Prev][0]=none
+
+way_constraint_prohibitive[2]=2 # Barge
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
+
+EmptyImage[E]=./images/skiff-wherry-empty_E.0.0,-33,14
+EmptyImage[SE]=./images/skiff-wherry-empty_SE.0.0,-13,0
+EmptyImage[S]=./images/skiff-wherry-empty_S.0.0,0,0
+EmptyImage[SW]=./images/skiff-wherry-empty_SW.0.0,-8,10
+EmptyImage[W]=./images/skiff-wherry-empty_W.0.0,4,5
+EmptyImage[NW]=./images/skiff-wherry-empty_NW.0.0,12,10
+EmptyImage[N]=./images/skiff-wherry-empty_N.0.0,0,33
+EmptyImage[NE]=./images/skiff-wherry-empty_NE.0.0,0,24
+
+FreightImage[E]=./images/skiff-wherry-goods_E.0.0,-33,14
+FreightImage[SE]=./images/skiff-wherry-goods_SE.0.0,-13,0
+FreightImage[S]=./images/skiff-wherry-goods_S.0.0,0,0
+FreightImage[SW]=./images/skiff-wherry-goods_SW.0.0,-8,10
+FreightImage[W]=./images/skiff-wherry-goods_W.0.0,4,5
+FreightImage[NW]=./images/skiff-wherry-goods_NW.0.0,12,10
+FreightImage[N]=./images/skiff-wherry-goods_N.0.0,0,33
+FreightImage[NE]=./images/skiff-wherry-goods_NE.0.0,0,24
+
+---
+
+obj=vehicle
+name=skiff-wherry-cool
+copyright=jamespetts
+waytype=water
+engine_type=bio
+speed=3
+power=2
+freight=meat
+payload=5
+weight=0.3
+length=6
+cost=10000
+runningcost=12
+intro_year=1750
+intro_month=1
+# These still run:
+# https://www.explorewalberswick.co.uk/ferry.php
+is_tall=0
+
+min_loading_time=40
+max_loading_time=120
+
+# Rowing is hard work
+range=6
+
+Constraint[Next][0]=mail-space
+Constraint[Prev][0]=none
+
+way_constraint_prohibitive[2]=2 # Barge
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
+
+EmptyImage[E]=./images/skiff-wherry-empty_E.0.0,-33,14
+EmptyImage[SE]=./images/skiff-wherry-empty_SE.0.0,-13,0
+EmptyImage[S]=./images/skiff-wherry-empty_S.0.0,0,0
+EmptyImage[SW]=./images/skiff-wherry-empty_SW.0.0,-8,10
+EmptyImage[W]=./images/skiff-wherry-empty_W.0.0,4,5
+EmptyImage[NW]=./images/skiff-wherry-empty_NW.0.0,12,10
+EmptyImage[N]=./images/skiff-wherry-empty_N.0.0,0,33
+EmptyImage[NE]=./images/skiff-wherry-empty_NE.0.0,0,24
+
+FreightImage[E]=./images/skiff-wherry-goods_E.0.0,-33,14
+FreightImage[SE]=./images/skiff-wherry-goods_SE.0.0,-13,0
+FreightImage[S]=./images/skiff-wherry-goods_S.0.0,0,0
+FreightImage[SW]=./images/skiff-wherry-goods_SW.0.0,-8,10
+FreightImage[W]=./images/skiff-wherry-goods_W.0.0,4,5
+FreightImage[NW]=./images/skiff-wherry-goods_NW.0.0,12,10
+FreightImage[N]=./images/skiff-wherry-goods_N.0.0,0,33
+FreightImage[NE]=./images/skiff-wherry-goods_NE.0.0,0,24
+
+---
+
+obj=vehicle
+name=skiff-wherry-bulk
+copyright=jamespetts
+waytype=water
+engine_type=bio
+speed=3
+power=2
+freight=Kohle
+payload=2
+weight=0.3
+length=6
+cost=10000
+runningcost=12
+intro_year=1750
+intro_month=1
+# These still run:
+# https://www.explorewalberswick.co.uk/ferry.php
+is_tall=0
+
+min_loading_time=40
+max_loading_time=120
+
+# Rowing is hard work
+range=6
+
+Constraint[Next][0]=mail-space
+Constraint[Prev][0]=none
+
+way_constraint_prohibitive[2]=2 # Barge
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
+
+EmptyImage[E]=./images/skiff-wherry-empty_E.0.0,-33,14
+EmptyImage[SE]=./images/skiff-wherry-empty_SE.0.0,-13,0
+EmptyImage[S]=./images/skiff-wherry-empty_S.0.0,0,0
+EmptyImage[SW]=./images/skiff-wherry-empty_SW.0.0,-8,10
+EmptyImage[W]=./images/skiff-wherry-empty_W.0.0,4,5
+EmptyImage[NW]=./images/skiff-wherry-empty_NW.0.0,12,10
+EmptyImage[N]=./images/skiff-wherry-empty_N.0.0,0,33
+EmptyImage[NE]=./images/skiff-wherry-empty_NE.0.0,0,24
+
+FreightImage[E]=./images/skiff-wherry-goods_E.0.0,-33,14
+FreightImage[SE]=./images/skiff-wherry-goods_SE.0.0,-13,0
+FreightImage[S]=./images/skiff-wherry-goods_S.0.0,0,0
+FreightImage[SW]=./images/skiff-wherry-goods_SW.0.0,-8,10
+FreightImage[W]=./images/skiff-wherry-goods_W.0.0,4,5
+FreightImage[NW]=./images/skiff-wherry-goods_NW.0.0,12,10
+FreightImage[N]=./images/skiff-wherry-goods_N.0.0,0,33
+FreightImage[NE]=./images/skiff-wherry-goods_NE.0.0,0,24
+
+---
+
+obj=vehicle
+name=skiff-wherry-long
+copyright=jamespetts
+waytype=water
+engine_type=bio
+speed=3
+power=2
+freight=Bretter
+payload=2
+weight=0.3
+length=6
+cost=10000
+runningcost=12
+intro_year=1750
+intro_month=1
+# These still run:
+# https://www.explorewalberswick.co.uk/ferry.php
+is_tall=0
+
+min_loading_time=40
+max_loading_time=120
+
+# Rowing is hard work
+range=6
+
+Constraint[Next][0]=mail-space
+Constraint[Prev][0]=none
+
+way_constraint_prohibitive[2]=2 # Barge
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
+
+EmptyImage[E]=./images/skiff-wherry-empty_E.0.0,-33,14
+EmptyImage[SE]=./images/skiff-wherry-empty_SE.0.0,-13,0
+EmptyImage[S]=./images/skiff-wherry-empty_S.0.0,0,0
+EmptyImage[SW]=./images/skiff-wherry-empty_SW.0.0,-8,10
+EmptyImage[W]=./images/skiff-wherry-empty_W.0.0,4,5
+EmptyImage[NW]=./images/skiff-wherry-empty_NW.0.0,12,10
+EmptyImage[N]=./images/skiff-wherry-empty_N.0.0,0,33
+EmptyImage[NE]=./images/skiff-wherry-empty_NE.0.0,0,24
+
+FreightImage[E]=./images/skiff-wherry-goods_E.0.0,-33,14
+FreightImage[SE]=./images/skiff-wherry-goods_SE.0.0,-13,0
+FreightImage[S]=./images/skiff-wherry-goods_S.0.0,0,0
+FreightImage[SW]=./images/skiff-wherry-goods_SW.0.0,-8,10
+FreightImage[W]=./images/skiff-wherry-goods_W.0.0,4,5
+FreightImage[NW]=./images/skiff-wherry-goods_NW.0.0,12,10
+FreightImage[N]=./images/skiff-wherry-goods_N.0.0,0,33
+FreightImage[NE]=./images/skiff-wherry-goods_NE.0.0,0,24
+
+

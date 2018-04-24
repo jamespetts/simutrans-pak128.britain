@@ -12,6 +12,20 @@ retire_year=1960
 Dims=1,1,4
 NoInfo=1
 Level=2
+# Passenger data guessed
+population_and_visitor_demand_capacity=2
+employment_capacity=16
+mail_demand=5
+class_proportion[0]=0
+class_proportion[1]=4
+class_proportion[2]=46
+class_proportion[3]=50
+class_proportion[4]=0
+class_proportion_jobs[0]=20
+class_proportion_jobs[1]=35
+class_proportion_jobs[2]=42
+class_proportion_jobs[3]=3
+class_proportion_jobs[4]=0
 
 maintenance=11800
 cost=800000

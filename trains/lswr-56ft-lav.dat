@@ -11,7 +11,8 @@ retire_year=1923
 retire_month=11
 waytype=track
 freight=Passagiere
-payload=38
+payload[0]=0
+payload[1]=38
 overcrowded_capacity=22
 length=10
 
@@ -21,12 +22,12 @@ axles=4
 cost=725000
 runningcost=39
 
-
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=10
 max_loading_time=30
-comfort=89
+comfort[0]=0
+comfort[1]=89
 
 upgrade[0]=LSWR-EMU(centre)
 upgrade[1]=LSWR-EMU(rear)
@@ -137,7 +138,8 @@ retire_year=1923
 retire_month=11
 waytype=track
 freight=Passagiere
-payload=38
+payload[0]=0
+payload[1]=38
 overcrowded_capacity=22
 length=10
 
@@ -147,12 +149,12 @@ axles=4
 cost=725000
 runningcost=39
 
-
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=10
 max_loading_time=30
-comfort=89
+comfort[0]=0
+comfort[1]=89
 
 upgrade[0]=LSWR-EMU(centre)
 upgrade[1]=LSWR-EMU(rear)
@@ -262,7 +264,8 @@ retire_year=1923
 retire_month=11
 waytype=track
 freight=Passagiere
-payload=74
+payload[0]=0
+payload[1]=74
 overcrowded_capacity=46
 length=10
 
@@ -272,12 +275,12 @@ axles=4
 cost=728500
 runningcost=39
 
-
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=10
 max_loading_time=30
-comfort=89
+comfort[0]=0
+comfort[1]=89
 
 upgrade[0]=LSWR-EMU(centre)
 upgrade[1]=LSWR-EMU(rear)
@@ -412,4 +415,3 @@ EmptyImage[W][4]=./images/lswr-56ft-lav-br.1.0
 EmptyImage[NW][4]=./images/lswr-56ft-lav-br.1.1
 EmptyImage[N][4]=./images/lswr-56ft-lav-br.1.2
 EmptyImage[NE][4]=./images/lswr-56ft-lav-br.1.3
-

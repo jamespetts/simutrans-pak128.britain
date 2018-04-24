@@ -13,7 +13,8 @@ retire_year=1989
 retire_month=8
 waytype=track
 freight=Passagiere
-payload=26
+payload[0]=0
+payload[1]=26
 overcrowded_capacity=72
 
 weight=27
@@ -32,7 +33,8 @@ way_constraint_permissive[0]=0
 
 min_loading_time=17
 max_loading_time=47
-comfort=57
+comfort[0]=0
+comfort[1]=57
 
 Constraint[Prev][0]=BR-Class485Rear
 Constraint[Prev][1]=none
@@ -82,14 +84,14 @@ retire_year=1989
 retire_month=8
 waytype=track
 freight=Passagiere
-payload=42
+payload[0]=0
+payload[1]=42
 overcrowded_capacity=126
 
 weight=17
 axles=4
 upgrade_price=45000
 runningcost=3
-
 
 available_only_as_upgrade=1
 
@@ -101,7 +103,8 @@ way_constraint_permissive[0]=0
 
 min_loading_time=17
 max_loading_time=47
-comfort=57
+comfort[0]=0
+comfort[1]=57
 
 Constraint[Prev][0]=BR-Class485Front
 
@@ -138,7 +141,9 @@ EmptyImage[W][2]=./images/br-cl485-nse.1.4
 EmptyImage[NW][2]=./images/br-cl485-nse.1.5
 EmptyImage[N][2]=./images/br-cl485-nse.1.6
 EmptyImage[NE][2]=./images/br-cl485-nse.1.7
+
 ----
+
 obj=vehicle
 name=BR-Class485Middle2
 engine_type=electric
@@ -151,14 +156,14 @@ retire_year=1989
 retire_month=8
 waytype=track
 freight=Passagiere
-payload=38
+payload[0]=0
+payload[1]=38
 overcrowded_capacity=114
 
 weight=17
 axles=4
 upgrade_price=45000
 runningcost=3
-
 
 available_only_as_upgrade=1
 
@@ -170,7 +175,8 @@ way_constraint_permissive[0]=0
 
 min_loading_time=17
 max_loading_time=47
-comfort=57
+comfort[0]=0
+comfort[1]=57
 
 Constraint[Prev][0]=BR-Class485Middle1
 
@@ -223,7 +229,8 @@ retire_year=1989
 retire_month=8
 waytype=track
 freight=Passagiere
-payload=26
+payload[0]=0
+payload[1]=26
 overcrowded_capacity=72
 
 weight=27
@@ -242,7 +249,8 @@ way_constraint_permissive[0]=0
 
 min_loading_time=17
 max_loading_time=47
-comfort=57
+comfort[0]=0
+comfort[1]=57
 
 Constraint[Prev][0]=BR-Class485Middle1
 Constraint[Prev][1]=BR-Class485Middle2
@@ -280,5 +288,3 @@ EmptyImage[W][2]=./images/br-cl485-nse.2.4
 EmptyImage[NW][2]=./images/br-cl485-nse.2.5
 EmptyImage[N][2]=./images/br-cl485-nse.2.6
 EmptyImage[NE][2]=./images/br-cl485-nse.2.7
---
-

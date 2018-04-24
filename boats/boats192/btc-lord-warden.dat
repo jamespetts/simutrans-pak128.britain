@@ -7,11 +7,13 @@ smoke=Steam
 sound=ship-horn_a.wav
 speed=36
 power=11900
-#gear=400
 weight=6500
 length=10
 freight=Passagiere
-payload=700
+payload[0]=0
+payload[1]=550
+payload[2]=0
+payload[3]=150
 cost=84500000
 runningcost=750
 intro_year=1951
@@ -20,14 +22,15 @@ retire_year=1972
 retire_month=4
 is_tall=1
 
-comfort=158
+comfort[0]=0
+comfort[1]=158
+comfort[2]=0
+comfort[3]=175
 catering_level=4
 # 40-60 minutes
 min_loading_time=2400
 max_loading_time=3600
-
-liverytype[0]=BTC
-liverytype[1]=BR-ferries
+range=400
 
 way_constraint_prohibitive[6]=6 # Large ship
 
@@ -36,21 +39,23 @@ Constraint[Next][1]=BTCLordWardenAddPiece
 Constraint[Next][2]=BTCLordWardenAddCool
 Constraint[Prev][0]=none
 
-EmptyImage[E][0]=../images/BTC-lord-warden.1.0,-20,-30
-EmptyImage[SE][0]=../images/BTC-lord-warden.1.1,-20,-30
-EmptyImage[S][0]=../images/BTC-lord-warden.1.2,-20,-30
-EmptyImage[SW][0]=../images/BTC-lord-warden.1.3,-20,-30
-EmptyImage[W][0]=../images/BTC-lord-warden.1.4,-20,-30
-EmptyImage[NW][0]=../images/BTC-lord-warden.1.5,-20,-30
-EmptyImage[N][0]=../images/BTC-lord-warden.1.6,-20,-30
-EmptyImage[NE][0]=../images/BTC-lord-warden.1.7,-20,-30
+liverytype[0]=BTC
+liverytype[1]=BR-ferries
 
-EmptyImage[E][1]=../images/BTC-lord-warden-sealink.1.0,-20,-30
-EmptyImage[SE][1]=../images/BTC-lord-warden-sealink.1.1,-20,-30
-EmptyImage[S][1]=../images/BTC-lord-warden-sealink.1.2,-20,-30
-EmptyImage[SW][1]=../images/BTC-lord-warden-sealink.1.3,-20,-30
-EmptyImage[W][1]=../images/BTC-lord-warden-sealink.1.4,-20,-30
-EmptyImage[NW][1]=../images/BTC-lord-warden-sealink.1.5,-20,-30
-EmptyImage[N][1]=../images/BTC-lord-warden-sealink.1.6,-20,-30
-EmptyImage[NE][1]=../images/BTC-lord-warden-sealink.1.7,-20,-30
----
+EmptyImage[E][0]=../images/btc-lord-warden_E.0.0,-31,-46
+EmptyImage[SE][0]=../images/btc-lord-warden_SE.0.0,-31,-46
+EmptyImage[S][0]=../images/btc-lord-warden_S.0.0,-31,-46
+EmptyImage[SW][0]=../images/btc-lord-warden_SW.0.0,-31,-46
+EmptyImage[W][0]=../images/btc-lord-warden_W.0.0,-31,-46
+EmptyImage[NW][0]=../images/btc-lord-warden_NW.0.0,-31,-46
+EmptyImage[N][0]=../images/btc-lord-warden_N.0.0,-31,-46
+EmptyImage[NE][0]=../images/btc-lord-warden_NE.0.0,-31,-46
+
+EmptyImage[E][1]=../images/btc-lord-warden-sealink_E.0.0,-31,-46
+EmptyImage[SE][1]=../images/btc-lord-warden-sealink_SE.0.0,-31,-46
+EmptyImage[S][1]=../images/btc-lord-warden-sealink_S.0.0,-31,-46
+EmptyImage[SW][1]=../images/btc-lord-warden-sealink_SW.0.0,-31,-46
+EmptyImage[W][1]=../images/btc-lord-warden-sealink_W.0.0,-31,-46
+EmptyImage[NW][1]=../images/btc-lord-warden-sealink_NW.0.0,-31,-46
+EmptyImage[N][1]=../images/btc-lord-warden-sealink_N.0.0,-31,-46
+EmptyImage[NE][1]=../images/btc-lord-warden-sealink_NE.0.0,-31,-46

@@ -16,7 +16,8 @@ retire_year=1923
 retire_month=3
 waytype=track
 freight=Passagiere
-payload=44
+payload[0]=0
+payload[1]=44
 overcrowded_capacity=74
 
 # Note that these had wooden underframes, which proved insufficiently robust,
@@ -32,7 +33,8 @@ way_constraint_permissive[3]=3
 
 min_loading_time=20
 max_loading_time=47
-comfort=60
+comfort[0]=0
+comfort[1]=60
 
 Constraint[Prev][0]=District_E_StockRearDM
 Constraint[Prev][1]=District_KLMN_StockRearDM
@@ -40,14 +42,16 @@ Constraint[Prev][2]=District_G_StockRearDM
 Constraint[Prev][3]=District_BCD_StockRearDM
 Constraint[Prev][4]=none
 
-Constraint[Next][0]=District_E_StockMiddle
-Constraint[Next][1]=District_E_StockRearDM
-Constraint[Next][2]=District_KLMN_StockRearDM
-Constraint[Next][3]=District_G_StockRearDM
-Constraint[Next][4]=District_KLMN_StockMiddle
-Constraint[Next][5]=District_G_StockMiddle
-Constraint[Next][6]=District_BCD_StockMiddle
-Constraint[Next][7]=District_BCD_StockRearDM
+Constraint[Next][0]=District_E_StockRearDM
+Constraint[Next][1]=District_KLMN_StockRearDM
+Constraint[Next][2]=District_G_StockRearDM
+Constraint[Next][3]=District_BCD_StockRearDM
+Constraint[Next][4]=District_E_StockMiddle
+Constraint[Next][5]=District_KLMN_StockMiddle
+Constraint[Next][6]=District_G_StockMiddle
+Constraint[Next][7]=District_BCD_StockMiddle
+Constraint[Next][8]=District_BCD_StockMiddle-first
+Constraint[Next][9]=District_E_StockMiddle-first
 
 EmptyImage[E]=./images/district-e-stock.1.4
 EmptyImage[SE]=./images/district-e-stock.1.5
@@ -57,7 +61,9 @@ EmptyImage[W]=./images/district-e-stock.1.0
 EmptyImage[NW]=./images/district-e-stock.1.1
 EmptyImage[N]=./images/district-e-stock.1.2
 EmptyImage[NE]=./images/district-e-stock.1.3
---
+
+---
+
 obj=vehicle
 name=District_E_StockMiddle
 engine_type=electric
@@ -70,7 +76,8 @@ retire_year=1923
 retire_month=3
 waytype=track
 freight=Passagiere
-payload=48
+payload[0]=0
+payload[1]=48
 overcrowded_capacity=82
 
 weight=29
@@ -78,13 +85,13 @@ axles=4
 cost=1400000
 runningcost=33
 
-
 bidirectional=0
 way_constraint_permissive[3]=3
 
 min_loading_time=20
 max_loading_time=47
-comfort=60
+comfort[0]=0
+comfort[1]=60
 
 Constraint[Prev][0]=District_E_StockFrontDM
 Constraint[Prev][1]=District_KLMN_StockFrontDM
@@ -98,6 +105,8 @@ Constraint[Prev][8]=District_E_StockRearDM
 Constraint[Prev][9]=District_KLMN_StockRearDM
 Constraint[Prev][10]=District_G_StockRearDM
 Constraint[Prev][11]=District_BCD_StockRearDM
+Constraint[Prev][12]=District_BCD_StockMiddle-first
+Constraint[Prev][13]=District_E_StockMiddle-first
 
 Constraint[Next][0]=District_E_StockRearDM
 Constraint[Next][1]=District_KLMN_StockRearDM
@@ -107,6 +116,8 @@ Constraint[Next][4]=District_E_StockMiddle
 Constraint[Next][5]=District_KLMN_StockMiddle
 Constraint[Next][6]=District_G_StockMiddle
 Constraint[Next][7]=District_BCD_StockMiddle
+Constraint[Next][8]=District_BCD_StockMiddle-first
+Constraint[Next][9]=District_E_StockMiddle-first
 
 EmptyImage[E]=./images/district-e-stock.1.4
 EmptyImage[SE]=./images/district-e-stock.1.5
@@ -116,7 +127,81 @@ EmptyImage[W]=./images/district-e-stock.1.0
 EmptyImage[NW]=./images/district-e-stock.1.1
 EmptyImage[N]=./images/district-e-stock.1.2
 EmptyImage[NE]=./images/district-e-stock.1.3
-----
+
+---
+
+# https://machorne.wordpress.com/2013/07/07/a-first-class-mystery-on-the-district-railway/
+obj=vehicle
+name=District_E_StockMiddle-first
+engine_type=electric
+speed=65
+length=8
+copyright=James
+intro_year=1914
+intro_month=6
+retire_year=1923
+retire_month=3
+waytype=track
+freight=Passagiere
+payload[0]=0
+payload[1]=0
+payload[2]=0
+payload[3]=48
+overcrowded_capacity=82
+
+weight=29
+axles=4
+cost=1400000
+runningcost=33
+
+bidirectional=0
+way_constraint_permissive[3]=3
+
+min_loading_time=20
+max_loading_time=47
+# The same layout - just different seat coverings.
+comfort[0]=0
+comfort[1]=60
+comfort[2]=0
+comfort[3]=61
+
+Constraint[Prev][0]=District_E_StockFrontDM
+Constraint[Prev][1]=District_KLMN_StockFrontDM
+Constraint[Prev][2]=District_G_StockFrontDM
+Constraint[Prev][3]=District_BCD_StockFrontDM
+Constraint[Prev][4]=District_E_StockMiddle
+Constraint[Prev][5]=District_KLMN_StockMiddle
+Constraint[Prev][6]=District_G_StockMiddle
+Constraint[Prev][7]=District_BCD_StockMiddle
+Constraint[Prev][8]=District_E_StockRearDM
+Constraint[Prev][9]=District_KLMN_StockRearDM
+Constraint[Prev][10]=District_G_StockRearDM
+Constraint[Prev][11]=District_BCD_StockRearDM
+Constraint[Prev][12]=District_BCD_StockMiddle-first
+Constraint[Prev][13]=District_E_StockMiddle-first
+
+Constraint[Next][0]=District_E_StockRearDM
+Constraint[Next][1]=District_KLMN_StockRearDM
+Constraint[Next][2]=District_G_StockRearDM
+Constraint[Next][3]=District_BCD_StockRearDM
+Constraint[Next][4]=District_E_StockMiddle
+Constraint[Next][5]=District_KLMN_StockMiddle
+Constraint[Next][6]=District_G_StockMiddle
+Constraint[Next][7]=District_BCD_StockMiddle
+Constraint[Next][8]=District_BCD_StockMiddle-first
+Constraint[Next][9]=District_E_StockMiddle-first
+
+EmptyImage[E]=./images/district-e-stock.1.4
+EmptyImage[SE]=./images/district-e-stock.1.5
+EmptyImage[S]=./images/district-e-stock.1.6
+EmptyImage[SW]=./images/district-e-stock.1.7
+EmptyImage[W]=./images/district-e-stock.1.0
+EmptyImage[NW]=./images/district-e-stock.1.1
+EmptyImage[N]=./images/district-e-stock.1.2
+EmptyImage[NE]=./images/district-e-stock.1.3
+
+---
+
 obj=vehicle
 name=District_E_StockRearDM
 engine_type=electric
@@ -132,7 +217,8 @@ retire_year=1923
 retire_month=3
 waytype=track
 freight=Passagiere
-payload=44
+payload[0]=0
+payload[1]=44
 overcrowded_capacity=74
 
 weight=33.7
@@ -146,7 +232,8 @@ way_constraint_permissive[3]=3
 
 min_loading_time=20
 max_loading_time=47
-comfort=60
+comfort[0]=0
+comfort[1]=60
 
 Constraint[Prev][0]=District_E_StockMiddle
 Constraint[Prev][1]=District_E_StockFrontDM
@@ -156,6 +243,8 @@ Constraint[Prev][4]=District_G_StockMiddle
 Constraint[Prev][5]=District_G_StockFrontDM
 Constraint[Prev][6]=District_BCD_StockMiddle
 Constraint[Prev][7]=District_BCD_StockFrontDM
+Constraint[Prev][8]=District_BCD_StockMiddle-first
+Constraint[Prev][9]=District_E_StockMiddle-first
 
 Constraint[Next][0]=District_E_StockFrontDM
 Constraint[Next][1]=District_KLMN_StockFrontDM
@@ -165,8 +254,9 @@ Constraint[Next][4]=District_E_StockMiddle
 Constraint[Next][5]=District_KLMN_StockMiddle
 Constraint[Next][6]=District_G_StockMiddle
 Constraint[Next][7]=District_BCD_StockMiddle
-Constraint[Next][8]=none
-
+Constraint[Next][8]=District_BCD_StockMiddle-first
+Constraint[Next][9]=District_E_StockMiddle-first
+Constraint[Next][10]=none
 
 EmptyImage[E]=./images/district-e-stock.1.4
 EmptyImage[SE]=./images/district-e-stock.1.5
@@ -176,4 +266,3 @@ EmptyImage[W]=./images/district-e-stock.1.0
 EmptyImage[NW]=./images/district-e-stock.1.1
 EmptyImage[N]=./images/district-e-stock.1.2
 EmptyImage[NE]=./images/district-e-stock.1.3
---

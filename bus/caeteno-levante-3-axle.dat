@@ -25,6 +25,7 @@ runningcost=210
 intro_year=2005
 intro_month=9
 # Still in production to date
+sound=clarkster92-caetano-levante.wav
 
 comfort=99
 catering_level=1

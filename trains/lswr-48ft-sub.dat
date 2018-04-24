@@ -10,7 +10,8 @@ retire_year=1904
 retire_month=8
 waytype=track
 freight=Passagiere
-payload=60
+payload[0]=0
+payload[1]=60
 overcrowded_capacity=30
 length=9
 
@@ -20,12 +21,12 @@ axles=4
 cost=702500
 runningcost=34
 
-
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=10
 max_loading_time=30
-comfort=74
+comfort[0]=0
+comfort[1]=74
 
 upgrade[0]=LSWR-EMU(centre)
 upgrade[1]=LSWR-EMU(rear)
@@ -128,7 +129,8 @@ retire_year=1904
 retire_month=8
 waytype=track
 freight=Passagiere
-payload=60
+payload[0]=0
+payload[1]=60
 overcrowded_capacity=30
 length=9
 
@@ -137,12 +139,12 @@ axles=4
 cost=702500
 runningcost=34
 
-
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=10
 max_loading_time=30
-comfort=74
+comfort[0]=0
+comfort[1]=74
 
 upgrade[0]=LSWR-EMU(centre)
 upgrade[1]=LSWR-EMU(rear)
@@ -244,7 +246,8 @@ retire_year=1904
 retire_month=8
 waytype=track
 freight=Passagiere
-payload=80
+payload[0]=0
+payload[1]=80
 overcrowded_capacity=40
 length=9
 
@@ -254,12 +257,12 @@ axles=4
 cost=709000
 runningcost=34
 
-
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=10
 max_loading_time=30
-comfort=74
+comfort[0]=0
+comfort[1]=74
 
 upgrade[0]=LSWR-EMU(centre)
 upgrade[1]=LSWR-EMU(rear)
@@ -386,5 +389,3 @@ EmptyImage[W][3]=./images/lswr-48ft-sub-malachite.1.0
 EmptyImage[NW][3]=./images/lswr-48ft-sub-malachite.1.1
 EmptyImage[N][3]=./images/lswr-48ft-sub-malachite.1.2
 EmptyImage[NE][3]=./images/lswr-48ft-sub-malachite.1.3
-
-

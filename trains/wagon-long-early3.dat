@@ -1,15 +1,15 @@
+# http://myweb.tiscali.co.uk/gansg/4-rstock/04arstock1.htm
 obj=vehicle
 name=LongEarly3
-#?
 speed=40
-copyright=James
-intro_year=1835
-intro_month=2
+copyright=JamesPetts
+intro_year=1828
+intro_month=12
 retire_year=1855
-retire_month=6
+retire_month=5
 waytype=track
 freight=Bretter
-payload=6
+payload=5
 length=2
 brake_force=0
 rolling_resistance=19
@@ -20,27 +20,46 @@ way_wear_factor=10000
 cost=77000
 runningcost=1
 
-
 bidirectional=1
 min_loading_time=360
 max_loading_time=975
 
-EmptyImage[E]=./images/wagon-piece-early3.0.0
-EmptyImage[SE]=./images/wagon-piece-early3.0.1
-EmptyImage[S]=./images/wagon-piece-early3.0.2
-EmptyImage[SW]=./images/wagon-piece-early3.0.3
-EmptyImage[W]=./images/wagon-piece-early3.0.4
-EmptyImage[NW]=./images/wagon-piece-early3.0.5
-EmptyImage[N]=./images/wagon-piece-early3.0.6
-EmptyImage[NE]=./images/wagon-piece-early3.0.7
+EmptyImage[E]=./images/wagon-flat-5t-empty_E.0.0
+EmptyImage[SE]=./images/wagon-flat-5t-empty_SE.0.0
+EmptyImage[S]=./images/wagon-flat-5t-empty_S.0.0
+EmptyImage[SW]=./images/wagon-flat-5t-empty_SW.0.0
+EmptyImage[W]=./images/wagon-flat-5t-empty_W.0.0
+EmptyImage[NW]=./images/wagon-flat-5t-empty_NW.0.0
+EmptyImage[N]=./images/wagon-flat-5t-empty_N.0.0
+EmptyImage[NE]=./images/wagon-flat-5t-empty_NE.0.0
 
+freightimagetype[2]=WroughtIron
+FreightImage[2][E]=./images/wagon-flat-5t-iron_E.0.0
+FreightImage[2][SE]=./images/wagon-flat-5t-iron_SE.0.0
+FreightImage[2][S]=./images/wagon-flat-5t-iron_S.0.0
+FreightImage[2][SW]=./images/wagon-flat-5t-iron_SW.0.0
+FreightImage[2][W]=./images/wagon-flat-5t-iron_W.0.0
+FreightImage[2][NW]=./images/wagon-flat-5t-iron_NW.0.0
+FreightImage[2][N]=./images/wagon-flat-5t-iron_N.0.0
+FreightImage[2][NE]=./images/wagon-flat-5t-iron_NE.0.0
 
-FreightImage[E]=./images/wagon-piece-early3.2.0
-FreightImage[SE]=./images/wagon-piece-early3.2.1
-FreightImage[S]=./images/wagon-piece-early3.2.2
-FreightImage[SW]=./images/wagon-piece-early3.2.3
-FreightImage[W]=./images/wagon-piece-early3.2.4
-FreightImage[NW]=./images/wagon-piece-early3.2.5
-FreightImage[N]=./images/wagon-piece-early3.2.6
-FreightImage[NE]=./images/wagon-piece-early3.2.7
+freightimagetype[1]=Stahl
+FreightImage[1][E]=./images/wagon-flat-5t-steel_E.0.0
+FreightImage[1][SE]=./images/wagon-flat-5t-steel_SE.0.0
+FreightImage[1][S]=./images/wagon-flat-5t-steel_S.0.0
+FreightImage[1][SW]=./images/wagon-flat-5t-steel_SW.0.0
+FreightImage[1][W]=./images/wagon-flat-5t-steel_W.0.0
+FreightImage[1][NW]=./images/wagon-flat-5t-steel_NW.0.0
+FreightImage[1][N]=./images/wagon-flat-5t-steel_N.0.0
+FreightImage[1][NE]=./images/wagon-flat-5t-steel_NE.0.0
+
+freightimagetype[0]=Bretter
+FreightImage[0][E]=./images/wagon-flat-5t-wood_E.0.0
+FreightImage[0][SE]=./images/wagon-flat-5t-wood_SE.0.0
+FreightImage[0][S]=./images/wagon-flat-5t-wood_S.0.0
+FreightImage[0][SW]=./images/wagon-flat-5t-wood_SW.0.0
+FreightImage[0][W]=./images/wagon-flat-5t-wood_W.0.0
+FreightImage[0][NW]=./images/wagon-flat-5t-wood_NW.0.0
+FreightImage[0][N]=./images/wagon-flat-5t-wood_N.0.0
+FreightImage[0][NE]=./images/wagon-flat-5t-wood_NE.0.0
 

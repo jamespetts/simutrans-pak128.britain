@@ -58,9 +58,9 @@
 # II: Beer in bottles, wine in casks, bacon, biscuits, brass, china in casks or crates, coconut matting, nickel ore
 # III: Cotton and linen goods, cured bacon, blankets, books, boots in casks, cases or boxes, china in hampers, woollen cloth, tea, silver ore 
 # IV: Pineapples, fresh cured meats, china in boxes or cases, woollen cloth in boxes, cases parcels or hampers.
-# V: Amber, dyes, peaches and apricots, bonnet boxes, basketwork, bismouth, clocks, hats, artificial flowers, silk
+# V: Amber, dyes, peaches and apricots, bonnet boxes, basketwork, bismuth, clocks, hats, artificial flowers, silk
 #
-# 1844 Act - 1d/mile for "parliamentary" vehicles for passengers.
+# 1844 Act - 1d/mile for "parliamentary" vehicles for passengers. 50c/km = 80c/mile. Therefore, 80c is equal to 1d at 1900 levels.
 #
 # Ackworth, p. 145 has a table of maximum charges for each class for the GER, which was similar to that for other railway companies.
 # This dates from around the 1890s as far as can be ascertained. (See for example:
@@ -89,16 +89,28 @@ name=Passagiere
 mapcolor=79
 metric=
 catg=0
+number_of_classes=5
 #
 #value=42
 value=50
 #
-value[0]=60
+value[0]=55
 to_distance[0]=16
 value[1]=50
-to_distance[1]=32
-value[2]=47
-to_distance[2]=0
+to_distance[1]=500
+value[2]=45
+to_distance[2]=2500
+value[3]=40
+to_distance[3]=5000
+value[4]=35
+to_distance[4]=0
+
+class_revenue_percent[0]=60
+class_revenue_percent[1]=100
+class_revenue_percent[2]=133
+class_revenue_percent[3]=150
+class_revenue_percent[4]=200
+
 speed_bonus=18
 weight_per_unit=70
 -----------------------
@@ -108,6 +120,7 @@ obj=good
 name=Post
 metric= bundles
 catg=0
+number_of_classes=2
 #
 #value=48
 value=57
@@ -117,7 +130,15 @@ to_distance[0]=16
 value[1]=6
 to_distance[1]=32
 value[2]=5
-to_distance[2]=0
+to_distance[2]=500
+value[3]=2
+to_distance[3]=1000
+value[4]=1
+to_distance[4]=0
+
+class_revenue_percent[0]=100
+class_revenue_percent[1]=250
+
 speed_bonus=15
 weight_per_unit=1
 -----------------------
@@ -137,7 +158,6 @@ value[1]=56
 to_distance[1]=32
 value[2]=52
 to_distance[2]=0
-speed_bonus=18
 speed_bonus=2
 weight_per_unit=120
 ------------------------------------------
@@ -189,7 +209,6 @@ value[3]=50
 to_distance[3]=0
 speed_bonus=15
 weight_per_unit=1000
-metric=tonnen
 -----------------------
 ### BULK GOODS ###
 # Coal
@@ -306,7 +325,7 @@ weight_per_unit=1000
 # Not given, but treat as C
 obj=good
 name=Cement
-metric=tonnen
+metric=me
 catg=2
 #
 #value=35
@@ -921,7 +940,7 @@ to_distance[2]=80
 value[3]=23
 to_distance[3]=160
 value[4]=0
-to_distance[3]=0
+to_distance[4]=0
 speed_bonus=15
 weight_per_unit=385
 -----------------------

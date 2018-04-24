@@ -105,10 +105,11 @@ Image[20]=> menu_buttons.8.12
 Image[21]=> menu_buttons.8.13
 Image[27]=> menu_buttons.8.7
 # wayobject remover
-Image[29]=> menu_buttons.7.11
+# Nos. 29 and 32 appear to be duplicates - what is intended here?
+#Image[29]=> menu_buttons.7.11
 Image[30]=> menu_buttons.7.13
 Image[31]=> menu_buttons.7.12
-Image[32]=> menu_buttons.7.14
+#Image[32]=> menu_buttons.7.14
 #
 Image[22]=> menu_buttons.7.8
 Image[23]=> menu_buttons.7.9

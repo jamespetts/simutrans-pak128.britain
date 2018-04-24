@@ -3,12 +3,12 @@ name=HSC-FastCat
 copyright=James
 waytype=water
 engine_type=diesel
-smoke=diesel
+smoke=Diesel
 speed=63
 power=4000
-gear=100
 freight=Passagiere
-payload=360
+payload[0]=0
+payload[1]=360
 weight=250
 length=10
 cost=89000000
@@ -18,10 +18,12 @@ intro_month=7
 retire_year=2009
 retire_month=9
 
-comfort=112
+comfort[0]=0
+comfort[1]=112
 # 15-20 minutes
 min_loading_time=900
 max_loading_time=1200
+range=200
 
 way_constraint_prohibitive[6]=6 # Large ship
 

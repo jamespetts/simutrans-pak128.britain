@@ -40,6 +40,9 @@ Constraint[Prev][9]=BR-Class37
 Constraint[Prev][10]=BR-Class40
 Constraint[Prev][11]=BR-Class45
 Constraint[Prev][12]=none
+Constraint[Prev][13]=BR-Mk2a-BSO
+Constraint[Prev][14]=BR-Mk2a-SO
+Constraint[Prev][15]=BR-Mk2a-TSO
 
 liverytype[0]=BR-Early
 liverytype[1]=BR-Blue

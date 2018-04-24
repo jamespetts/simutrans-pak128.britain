@@ -1,9 +1,8 @@
 obj=vehicle
 name=CoolEarly1
-#?
-speed=10
+speed=25
 copyright=James
-intro_year=1750
+intro_year=1763
 intro_month=1
 retire_year=1918
 retire_month=11
@@ -20,29 +19,27 @@ way_wear_factor=2788
 cost=46000
 runningcost=1
 
-
 bidirectional=1
 
 min_loading_time=300
 max_loading_time=900
 way_constraint_prohibitive[0]=0
 
-EmptyImage[E]=./images/wagon-piece-early1.0.0
-EmptyImage[SE]=./images/wagon-piece-early1.0.1
-EmptyImage[S]=./images/wagon-piece-early1.0.2
-EmptyImage[SW]=./images/wagon-piece-early1.0.3
-EmptyImage[W]=./images/wagon-piece-early1.0.4
-EmptyImage[NW]=./images/wagon-piece-early1.0.5
-EmptyImage[N]=./images/wagon-piece-early1.0.6
-EmptyImage[NE]=./images/wagon-piece-early1.0.7
+EmptyImage[E]=./images/wagon-early1-general-empty_E.0.0
+EmptyImage[SE]=./images/wagon-early1-general-empty_SE.0.0
+EmptyImage[S]=./images/wagon-early1-general-empty_S.0.0
+EmptyImage[SW]=./images/wagon-early1-general-empty_SW.0.0
+EmptyImage[W]=./images/wagon-early1-general-empty_W.0.0
+EmptyImage[NW]=./images/wagon-early1-general-empty_NW.0.0
+EmptyImage[N]=./images/wagon-early1-general-empty_N.0.0
+EmptyImage[NE]=./images/wagon-early1-general-empty_NE.0.0
 
-
-FreightImage[E]=./images/wagon-piece-early1.3.0
-FreightImage[SE]=./images/wagon-piece-early1.3.1
-FreightImage[S]=./images/wagon-piece-early1.3.2
-FreightImage[SW]=./images/wagon-piece-early1.3.3
-FreightImage[W]=./images/wagon-piece-early1.3.4
-FreightImage[NW]=./images/wagon-piece-early1.3.5
-FreightImage[N]=./images/wagon-piece-early1.3.6
-FreightImage[NE]=./images/wagon-piece-early1.3.7
+FreightImage[E]=./images/wagon-early1-general-cool_E.0.0
+FreightImage[SE]=./images/wagon-early1-general-cool_SE.0.0
+FreightImage[S]=./images/wagon-early1-general-cool_S.0.0
+FreightImage[SW]=./images/wagon-early1-general-cool_SW.0.0
+FreightImage[W]=./images/wagon-early1-general-cool_W.0.0
+FreightImage[NW]=./images/wagon-early1-general-cool_NW.0.0
+FreightImage[N]=./images/wagon-early1-general-cool_N.0.0
+FreightImage[NE]=./images/wagon-early1-general-cool_NE.0.0
 

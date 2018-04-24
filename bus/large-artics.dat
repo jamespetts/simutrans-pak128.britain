@@ -96,6 +96,7 @@ cost=125000
 runningcost=50
 intro_year=2000
 intro_month=7
+sound=clarkster92-scania-h2870.wav
 
 min_loading_time=120
 max_loading_time=480
@@ -135,6 +136,7 @@ cost=125000
 runningcost=50
 intro_year=2000
 intro_month=7
+sound=clarkster92-scania-h2870.wav
 
 Freight=Post
 payload=1100

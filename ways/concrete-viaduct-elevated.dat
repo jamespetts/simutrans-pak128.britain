@@ -7,9 +7,7 @@ cost=570000
 maintenance=2000
 intro_year=1946
 intro_month=4
-topspeed=160
 max_weight=2250
-cost=570000
 # cssr
 way_only_cost=140000
 upgrade_group=2
@@ -75,9 +73,7 @@ cost=720000
 maintenance=2250
 intro_year=1965
 intro_month=11
-topspeed=200
 max_weight=3000
-cost=720000
 # cssr-125
 way_only_cost=150000
 upgrade_group=2
@@ -142,7 +138,6 @@ topspeed=225
 maintenance=2500
 intro_year=1988
 intro_month=5
-topspeed=225
 max_weight=3000
 cost=950000
 # cssri
@@ -208,9 +203,7 @@ system_type=1
 intro_year=1978
 topspeed=320
 maintenance=5000
-intro_year=1978
 intro_month=2
-topspeed=320
 max_weight=3000
 cost=1290000
 # tgv
@@ -268,4 +261,3 @@ ImageUp2[3][1]=./images/concrete-viaduct-elevated-hs-snow.1.3,0,32
 ImageUp2[6][1]=./images/concrete-viaduct-elevated-hs-snow.1.4,0,32
 ImageUp2[9][1]=./images/concrete-viaduct-elevated-hs-snow.0.0,0,32
 ImageUp2[12][1]=./images/concrete-viaduct-elevated-hs-snow.0.5,0,30
---

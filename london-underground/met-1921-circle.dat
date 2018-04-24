@@ -1,5 +1,6 @@
 # http://en.wikipedia.org/wiki/Metropolitan_Railway_electric_multiple_units#Circle_Stock
-#
+# TODO: Find out when the Metropolitan abolished first class. It is not clear whether 
+# these should have first class capability. Assuming all third for now.
 
 obj=vehicle
 name=Metropolitan1921CircleFront
@@ -17,7 +18,8 @@ retire_month=5
 waytype=track
 freight=Passagiere
 # Guessed based on District stock
-payload=44
+payload[0]=0
+payload[1]=44
 overcrowded_capacity=74
 
 weight=34
@@ -31,7 +33,8 @@ way_constraint_permissive[3]=3
 
 min_loading_time=20
 max_loading_time=46
-comfort=60
+comfort[0]=0
+comfort[1]=60
 
 Constraint[Prev][0]=Metropolitan1905GateRear
 Constraint[Prev][1]=Metropolitan1913CircleRear
@@ -62,7 +65,9 @@ EmptyImage[W][1]=./images/met-1921-circle-front-red.1.0
 EmptyImage[NW][1]=./images/met-1921-circle-front-red.1.1
 EmptyImage[N][1]=./images/met-1921-circle-front-red.1.2
 EmptyImage[NE][1]=./images/met-1921-circle-front-red.1.3
+
 --
+
 obj=vehicle
 name=Metropolitan1921CircleMiddle
 engine_type=electric
@@ -75,7 +80,8 @@ retire_year=1927
 retire_month=5
 waytype=track
 freight=Passagiere
-payload=48
+payload[0]=0
+payload[1]=48
 overcrowded_capacity=82
 
 weight=29
@@ -83,13 +89,13 @@ axles=4
 cost=1400000
 runningcost=35
 
-
 bidirectional=1
 way_constraint_permissive[3]=3
 
 min_loading_time=20
 max_loading_time=46
-comfort=60
+comfort[0]=0
+comfort[1]=60
 
 Constraint[Prev][0]=Metropolitan1905GateFront
 Constraint[Prev][1]=Metropolitan1913CircleFront
@@ -125,7 +131,9 @@ EmptyImage[W][1]=./images/met-1921-circle-middle-red.1.0
 EmptyImage[NW][1]=./images/met-1921-circle-middle-red.1.1
 EmptyImage[N][1]=./images/met-1921-circle-middle-red.1.2
 EmptyImage[NE][1]=./images/met-1921-circle-middle-red.1.3
-----
+
+---
+
 obj=vehicle
 name=Metropolitan1921CircleRear
 engine_type=electric
@@ -141,7 +149,8 @@ retire_year=1927
 retire_month=5
 waytype=track
 freight=Passagiere
-payload=44
+payload[0]=0
+payload[1]=44
 overcrowded_capacity=74
 
 weight=34
@@ -149,13 +158,13 @@ axles=4
 cost=8000000
 runningcost=132
 
-
 can_lead_from_rear=1
 way_constraint_permissive[3]=3
 
 min_loading_time=20
 max_loading_time=46
-comfort=60
+comfort[0]=0
+comfort[1]=60
 
 Constraint[Prev][0]=Metropolitan1905GateMiddle
 Constraint[Prev][1]=Metropolitan1913CircleMiddle
@@ -186,4 +195,4 @@ EmptyImage[W][1]=./images/met-1921-circle-rear-red.1.0
 EmptyImage[NW][1]=./images/met-1921-circle-rear-red.1.1
 EmptyImage[N][1]=./images/met-1921-circle-rear-red.1.2
 EmptyImage[NE][1]=./images/met-1921-circle-rear-red.1.3
---
+

@@ -7,9 +7,9 @@ smoke=Diesel
 sound=ship-horn_a.wav
 speed=40
 power=27000
-gear=100
 freight=Passagiere
-payload=2000
+payload[0]=0
+payload[1]=2000
 weight=13000
 length=14
 upgrade_price=200000
@@ -21,11 +21,13 @@ retire_year=2011
 retire_month=7
 is_tall=1
 
-comfort=166
+comfort[0]=0
+comfort[1]=166
 catering_level=4
 # 30-45 minutes
 min_loading_time=2400
 max_loading_time=2700
+range=360
 
 Constraint[Next][0]=POSuperEuropeanMixedAddMail
 Constraint[Next][1]=POSuperEuropeanMixedAddPiece

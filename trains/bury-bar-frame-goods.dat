@@ -1,0 +1,47 @@
+# https://en.wikipedia.org/wiki/Bury_Bar_Frame_locomotive
+# http://www.steamlocomotive.com/locobase.php?country=Great_Britain&wheel=2-2-0&railroad=lb
+# http://www.victorianweb.org/technology/railways/l6.html
+obj=vehicle
+name=bury-bar-frame-goods
+engine_type=steam
+smoke=Steam
+speed=56
+# Extrapolated
+power=34
+# Tractive effort value calculated from data from the above source
+# Loss factor set to 0.5
+tractive_effort=5
+copyright=Kieron/JamesPetts
+intro_year=1837
+intro_month=11
+retire_year=1849
+retire_month=1
+waytype=track
+freight=None
+payload=0
+length=3
+brake_force=0
+rolling_resistance=19
+way_wear_factor=18053
+
+# Guessed. Lighter than contemporary engines.
+# More weight than the passenger engine owing to
+# connecting rods
+weight=8.7
+axles=2
+cost=5050000
+runningcost=10
+fixed_cost=1200
+sound=lwalker-br-4mt-tank.wav
+
+Constraint[Next][0]=bury-bar-frame-tender
+
+EmptyImage[E]=./images/bury-bar-frame-goods_E.0.0
+EmptyImage[SE]=./images/bury-bar-frame-goods_SE.0.0
+EmptyImage[S]=./images/bury-bar-frame-goods_S.0.0
+EmptyImage[SW]=./images/bury-bar-frame-goods_SW.0.0
+EmptyImage[W]=./images/bury-bar-frame-goods_W.0.0
+EmptyImage[NW]=./images/bury-bar-frame-goods_NW.0.0
+EmptyImage[N]=./images/bury-bar-frame-goods_N.0.0
+EmptyImage[NE]=./images/bury-bar-frame-goods_NE.0.0
+

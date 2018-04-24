@@ -9,7 +9,8 @@ tractive_effort=3
 freight=Post
 #payload=100kg
 #extended
-payload=100
+payload[0]=0
+payload[1]=100
 #standard
 #payload=2
 weight=0.7

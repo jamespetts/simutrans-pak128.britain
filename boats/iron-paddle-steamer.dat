@@ -8,21 +8,28 @@ sound=ship-horn_b.wav
 speed=22
 power=90
 freight=Passagiere
-payload=320
+payload[0]=0
+payload[1]=200
+payload[2]=0
+payload[3]=120
 weight=45
 length=8
 cost=15676416
-runningcost=896
+runningcost=300
 intro_year=1844
 intro_month=2
 retire_year=1873
 retire_month=6
 is_tall=1
 
-comfort=68
+comfort[0]=0
+comfort[1]=36
+comfort[2]=0
+comfort[3]=68
 # 30-45 minutes
 min_loading_time=2400
 max_loading_time=2700
+range=100
 
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
@@ -30,21 +37,23 @@ way_constraint_prohibitive[6]=6 # Large ship
 Constraint[Next][0]=IronPaddleSteamerMail
 Constraint[Prev][0]=none
 
-EmptyImage[E]=./images/iron-paddle-steamer.1.4
-EmptyImage[SE]=./images/iron-paddle-steamer.1.5
-EmptyImage[S]=./images/iron-paddle-steamer.1.6
-EmptyImage[SW]=./images/iron-paddle-steamer.1.7
-EmptyImage[W]=./images/iron-paddle-steamer.1.0
-EmptyImage[NW]=./images/iron-paddle-steamer.1.1
-EmptyImage[N]=./images/iron-paddle-steamer.1.2
-EmptyImage[NE]=./images/iron-paddle-steamer.1.3
+EmptyImage[E]=./images/iron-paddle-steamer_E.0.0
+EmptyImage[SE]=./images/iron-paddle-steamer_SE.0.0
+EmptyImage[S]=./images/iron-paddle-steamer_S.0.0
+EmptyImage[SW]=./images/iron-paddle-steamer_SW.0.0
+EmptyImage[W]=./images/iron-paddle-steamer_W.0.0
+EmptyImage[NW]=./images/iron-paddle-steamer_NW.0.0
+EmptyImage[N]=./images/iron-paddle-steamer_N.0.0
+EmptyImage[NE]=./images/iron-paddle-steamer_NE.0.0
 
 freightimagetype[0]=Passagiere
-FreightImage[0][E]=./images/iron-paddle-steamer-loaded.1.4
-FreightImage[0][SE]=./images/iron-paddle-steamer-loaded.1.5
-FreightImage[0][S]=./images/iron-paddle-steamer-loaded.1.6
-FreightImage[0][SW]=./images/iron-paddle-steamer-loaded.1.7
-FreightImage[0][W]=./images/iron-paddle-steamer-loaded.1.0
-FreightImage[0][NW]=./images/iron-paddle-steamer-loaded.1.1
-FreightImage[0][N]=./images/iron-paddle-steamer-loaded.1.2
-FreightImage[0][NE]=./images/iron-paddle-steamer-loaded.1.3
+FreightImage[0][E]=./images/iron-paddle-steamer-loaded_E.0.0
+FreightImage[0][SE]=./images/iron-paddle-steamer-loaded_SE.0.0
+FreightImage[0][S]=./images/iron-paddle-steamer-loaded_S.0.0
+FreightImage[0][SW]=./images/iron-paddle-steamer-loaded_SW.0.0
+FreightImage[0][W]=./images/iron-paddle-steamer-loaded_W.0.0
+FreightImage[0][NW]=./images/iron-paddle-steamer-loaded_NW.0.0
+FreightImage[0][N]=./images/iron-paddle-steamer-loaded_N.0.0
+FreightImage[0][NE]=./images/iron-paddle-steamer-loaded_NE.0.0
+
+

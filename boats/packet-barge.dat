@@ -5,7 +5,8 @@ copyright=Jamespetts
 waytype=water
 speed=17
 freight=Passagiere
-payload=60
+payload[0]=0
+payload[1]=60
 weight=10
 length=8
 cost=20000
@@ -15,7 +16,8 @@ intro_month=1
 retire_year=1869
 retire_month=11
 
-comfort=60
+comfort[0]=0
+comfort[1]=60
 catering_level=2
 # 2-3 minutes
 min_loading_time=120

@@ -7,8 +7,13 @@ obj=vehicle
 name=mailcoach-regency
 copyright=James
 waytype=road
-freight=Post
-payload=140
+# The post is now in a separate boot
+freight=Passagiere
+# Mail coaches allowed for inside passengers only.
+payload[0]=0
+payload[1]=0
+payload[2]=0
+payload[3]=4
 speed=18
 weight=1.2
 axle_load=1
@@ -21,13 +26,18 @@ intro_month=12
 # Ensure that this is available until the parcel coach comes around.
 #retire_year=1842
 #retire_month=6
-#retire_year=1883
-#retire_month=11
+retire_year=1883
+retire_month=11
 rolling_resistance=115
 brake_force=1
 
-min_loading_time=60
-max_loading_time=240
+# Leaf springs
+comfort[0]=0
+comfort[1]=0
+comfort[2]=0
+comfort[3]=52
+min_loading_time=300
+max_loading_time=600
 
 Constraint[Prev][0]=road-horse-cleveland-bay-double
 Constraint[Prev][1]=road-horse-friesian-double
@@ -36,7 +46,7 @@ Constraint[Prev][3]=road-horse-shire-double
 Constraint[Prev][4]=road-horse-irish-draught-double
 Constraint[Prev][5]=road-horse-clydesdale-double
 
-Constraint[Next][0]=none
+Constraint[Next][0]=mail-boot
 
 EmptyImage[E]=./images/mailcoach-regency_E.0.0,-33,14
 EmptyImage[SE]=./images/mailcoach-regency_SE.0.0,-13,0

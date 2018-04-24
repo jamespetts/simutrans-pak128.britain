@@ -1,0 +1,52 @@
+# See Hamilton Ellis pp. 22-3
+# http://gerald-massey.org.uk/Railway/c13_operational.htm
+obj=vehicle
+name=gjr-bed-carriage
+speed=125
+copyright=James/jamespetts
+intro_year=1838
+intro_month=2
+retire_year=1842
+retire_month=2
+waytype=track
+freight=Passagiere
+payload[0]=0
+payload[1]=0
+payload[2]=0
+payload[3]=0
+payload[4]=10
+overcrowded_capacity=0
+length=3
+brake_force=0
+rolling_resistance=19
+
+# Guessed
+weight=2.8
+axles=2
+cost=200000
+runningcost=17
+
+comfort[0]=0
+comfort[1]=0
+comfort[2]=0
+comfort[3]=0
+comfort[4]=70
+min_loading_time=35
+max_loading_time=120
+
+can_lead_from_rear=0
+bidirectional=1
+
+Constraint[Next][0]=railway-mail-locker
+
+# TODO: Multiple liveries
+liverytype[0]=LMR-Standard
+
+EmptyImage[E][0]=./images/gjr-bed-carriage_E.0.0
+EmptyImage[SE][0]=./images/gjr-bed-carriage_SE.0.0
+EmptyImage[S][0]=./images/gjr-bed-carriage_S.0.0
+EmptyImage[SW][0]=./images/gjr-bed-carriage_SW.0.0
+EmptyImage[W][0]=./images/gjr-bed-carriage_W.0.0
+EmptyImage[NW][0]=./images/gjr-bed-carriage_NW.0.0
+EmptyImage[N][0]=./images/gjr-bed-carriage_N.0.0
+EmptyImage[NE][0]=./images/gjr-bed-carriage_NE.0.0

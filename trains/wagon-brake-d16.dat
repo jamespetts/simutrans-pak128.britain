@@ -1,9 +1,9 @@
+# http://www.lnwrs.org.uk/Wagons/brakes/Diag016.php
 obj=vehicle
 name=BrakeD16
-#?
 speed=80
 copyright=James
-intro_year=1855
+intro_year=1880
 intro_month=2
 retire_year=1903
 retire_month=4
@@ -15,21 +15,20 @@ rolling_resistance=19
 
 length=3
 
-#?
 weight=10
-cost=0
-runningcost=0
-
+cost=120000
+runningcost=20
 
 bidirectional=1
 
-EmptyImage[E]=./images/wagon-brake-d16.0.0
-EmptyImage[SE]=./images/wagon-brake-d16.0.1
-EmptyImage[S]=./images/wagon-brake-d16.0.2
-EmptyImage[SW]=./images/wagon-brake-d16.0.3
-EmptyImage[W]=./images/wagon-brake-d16.0.4
-EmptyImage[NW]=./images/wagon-brake-d16.0.5
-EmptyImage[N]=./images/wagon-brake-d16.0.6
-EmptyImage[NE]=./images/wagon-brake-d16.0.7
+EmptyImage[E]=./images/brake-d16_E.0.0
+EmptyImage[SE]=./images/brake-d16_SE.0.0
+EmptyImage[S]=./images/brake-d16_S.0.0
+EmptyImage[SW]=./images/brake-d16_SW.0.0
+EmptyImage[W]=./images/brake-d16_W.0.0
+EmptyImage[NW]=./images/brake-d16_NW.0.0
+EmptyImage[N]=./images/brake-d16_N.0.0
+EmptyImage[NE]=./images/brake-d16_NE.0.0
+
 
 

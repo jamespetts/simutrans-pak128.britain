@@ -14,7 +14,10 @@ retire_year=1992
 retire_month=1
 waytype=track
 freight=Passagiere
-payload=37
+payload[0]=0
+payload[1]=37
+payload[2]=0
+payload[3]=0
 overcrowded_capacity=15
 length=10
 
@@ -31,24 +34,29 @@ increase_maintenance_after_years=16
 
 min_loading_time=25
 max_loading_time=120
-comfort=109
+comfort[0]=0
+comfort[1]=89
+comfort[2]=0
+comfort[3]=148
 
 Constraint[Prev][0]=BR-210-DTSOL
 Constraint[Prev][1]=none
 
 Constraint[Next][0]=BR-210-TSO
+Constraint[Next][1]=BR-210-TCOL
 
 liverytype[0]=BR-Blue
 liverytype[1]=Regional-Railways
+liverytype[2]=NSE-Standard
 
-EmptyImage[E][0]=./images/br-210-front-bg.1.4
-EmptyImage[SE][0]=./images/br-210-front-bg.1.5
-EmptyImage[S][0]=./images/br-210-front-bg.1.6
-EmptyImage[SW][0]=./images/br-210-front-bg.1.7
-EmptyImage[W][0]=./images/br-210-front-bg.1.0
-EmptyImage[NW][0]=./images/br-210-front-bg.1.1
-EmptyImage[N][0]=./images/br-210-front-bg.1.2
-EmptyImage[NE][0]=./images/br-210-front-bg.1.3
+EmptyImage[E][0]=./images/br-210-front-bg_E.0.0
+EmptyImage[SE][0]=./images/br-210-front-bg_SE.0.0
+EmptyImage[S][0]=./images/br-210-front-bg_S.0.0
+EmptyImage[SW][0]=./images/br-210-front-bg_SW.0.0
+EmptyImage[W][0]=./images/br-210-front-bg_W.0.0
+EmptyImage[NW][0]=./images/br-210-front-bg_NW.0.0
+EmptyImage[N][0]=./images/br-210-front-bg_N.0.0
+EmptyImage[NE][0]=./images/br-210-front-bg_NE.0.0
 
 EmptyImage[E][1]=./images/br-210-front-rr.1.4
 EmptyImage[SE][1]=./images/br-210-front-rr.1.5
@@ -58,6 +66,15 @@ EmptyImage[W][1]=./images/br-210-front-rr.1.0
 EmptyImage[NW][1]=./images/br-210-front-rr.1.1
 EmptyImage[N][1]=./images/br-210-front-rr.1.2
 EmptyImage[NE][1]=./images/br-210-front-rr.1.3
+
+EmptyImage[E][2]=./images/br-210-front-nse_E.0.0
+EmptyImage[SE][2]=./images/br-210-front-nse_SE.0.0
+EmptyImage[S][2]=./images/br-210-front-nse_S.0.0
+EmptyImage[SW][2]=./images/br-210-front-nse_SW.0.0
+EmptyImage[W][2]=./images/br-210-front-nse_W.0.0
+EmptyImage[NW][2]=./images/br-210-front-nse_NW.0.0
+EmptyImage[N][2]=./images/br-210-front-nse_N.0.0
+EmptyImage[NE][2]=./images/br-210-front-nse_NE.0.0
 
 ----
 
@@ -74,7 +91,10 @@ retire_year=1992
 retire_month=1
 waytype=track
 freight=Passagiere
-payload=78
+payload[0]=0
+payload[1]=78
+payload[2]=0
+payload[3]=0
 overcrowded_capacity=50
 length=10
 
@@ -83,32 +103,37 @@ axles=4
 cost=580000
 runningcost=36
 
-
 can_lead_from_rear=0
 bidirectional=1
 increase_maintenance_after_years=16
 
 min_loading_time=25
 max_loading_time=120
-comfort=109
+comfort[0]=0
+comfort[1]=89
+comfort[2]=0
+comfort[3]=148
 
 Constraint[Prev][0]=BR-210-DM
 Constraint[Prev][1]=BR-210-TSO
+Constraint[Prev][2]=BR-210-TCOL
 
 Constraint[Next][0]=BR-210-DTSOL
 Constraint[Next][1]=BR-210-TSO
+Constraint[Next][2]=BR-210-TCOL
 
 liverytype[0]=BR-Blue
 liverytype[1]=Regional-Railways
+liverytype[2]=NSE-Standard
 
-EmptyImage[E][0]=./images/br-210-trailer-bg.1.4
-EmptyImage[SE][0]=./images/br-210-trailer-bg.1.5
-EmptyImage[S][0]=./images/br-210-trailer-bg.1.6
-EmptyImage[SW][0]=./images/br-210-trailer-bg.1.7
-EmptyImage[W][0]=./images/br-210-trailer-bg.1.0
-EmptyImage[NW][0]=./images/br-210-trailer-bg.1.1
-EmptyImage[N][0]=./images/br-210-trailer-bg.1.2
-EmptyImage[NE][0]=./images/br-210-trailer-bg.1.3
+EmptyImage[E][0]=./images/br-210-trailer-bg_E.0.0
+EmptyImage[SE][0]=./images/br-210-trailer-bg_SE.0.0
+EmptyImage[S][0]=./images/br-210-trailer-bg_S.0.0
+EmptyImage[SW][0]=./images/br-210-trailer-bg_SW.0.0
+EmptyImage[W][0]=./images/br-210-trailer-bg_W.0.0
+EmptyImage[NW][0]=./images/br-210-trailer-bg_NW.0.0
+EmptyImage[N][0]=./images/br-210-trailer-bg_N.0.0
+EmptyImage[NE][0]=./images/br-210-trailer-bg_NE.0.0
 
 EmptyImage[E][1]=./images/br-210-trailer-rr.1.4
 EmptyImage[SE][1]=./images/br-210-trailer-rr.1.5
@@ -118,6 +143,92 @@ EmptyImage[W][1]=./images/br-210-trailer-rr.1.0
 EmptyImage[NW][1]=./images/br-210-trailer-rr.1.1
 EmptyImage[N][1]=./images/br-210-trailer-rr.1.2
 EmptyImage[NE][1]=./images/br-210-trailer-rr.1.3
+
+EmptyImage[E][2]=./images/br-210-trailer-nse_E.0.0
+EmptyImage[SE][2]=./images/br-210-trailer-nse_SE.0.0
+EmptyImage[S][2]=./images/br-210-trailer-nse_S.0.0
+EmptyImage[SW][2]=./images/br-210-trailer-nse_SW.0.0
+EmptyImage[W][2]=./images/br-210-trailer-nse_W.0.0
+EmptyImage[NW][2]=./images/br-210-trailer-nse_NW.0.0
+EmptyImage[N][2]=./images/br-210-trailer-nse_N.0.0
+EmptyImage[NE][2]=./images/br-210-trailer-nse_NE.0.0
+
+----
+
+obj=vehicle
+name=BR-210-TCOL
+speed=145
+power=0
+tractive_effort=0
+copyright=Junna/Cake
+intro_year=1981
+intro_month=3
+# Until the introduction of the 165
+retire_year=1992
+retire_month=1
+waytype=track
+freight=Passagiere
+payload[0]=0
+payload[1]=52
+payload[2]=0
+payload[3]=18
+overcrowded_capacity=38
+length=10
+
+weight=51
+axles=4
+cost=580000
+runningcost=36
+
+can_lead_from_rear=0
+bidirectional=1
+increase_maintenance_after_years=16
+
+min_loading_time=25
+max_loading_time=120
+comfort[0]=0
+comfort[1]=89
+comfort[2]=0
+comfort[3]=148
+
+Constraint[Prev][0]=BR-210-DM
+Constraint[Prev][1]=BR-210-TSO
+Constraint[Prev][2]=BR-210-TCOL
+
+Constraint[Next][0]=BR-210-DTSOL
+Constraint[Next][1]=BR-210-TSO
+Constraint[Next][2]=BR-210-TCOL
+
+liverytype[0]=BR-Blue
+liverytype[1]=Regional-Railways
+liverytype[2]=NSE-Standard
+
+EmptyImage[E][0]=./images/br-210-trailer-composite-bg_E.0.0
+EmptyImage[SE][0]=./images/br-210-trailer-composite-bg_SE.0.0
+EmptyImage[S][0]=./images/br-210-trailer-composite-bg_S.0.0
+EmptyImage[SW][0]=./images/br-210-trailer-composite-bg_SW.0.0
+EmptyImage[W][0]=./images/br-210-trailer-composite-bg_W.0.0
+EmptyImage[NW][0]=./images/br-210-trailer-composite-bg_NW.0.0
+EmptyImage[N][0]=./images/br-210-trailer-composite-bg_N.0.0
+EmptyImage[NE][0]=./images/br-210-trailer-composite-bg_NE.0.0
+
+EmptyImage[E][1]=./images/br-210-trailer-rr.1.4
+EmptyImage[SE][1]=./images/br-210-trailer-rr.1.5
+EmptyImage[S][1]=./images/br-210-trailer-rr.1.6
+EmptyImage[SW][1]=./images/br-210-trailer-rr.1.7
+EmptyImage[W][1]=./images/br-210-trailer-rr.1.0
+EmptyImage[NW][1]=./images/br-210-trailer-rr.1.1
+EmptyImage[N][1]=./images/br-210-trailer-rr.1.2
+EmptyImage[NE][1]=./images/br-210-trailer-rr.1.3
+
+EmptyImage[E][2]=./images/br-210-trailer-composite-nse_E.0.0
+EmptyImage[SE][2]=./images/br-210-trailer-composite-nse_SE.0.0
+EmptyImage[S][2]=./images/br-210-trailer-composite-nse_S.0.0
+EmptyImage[SW][2]=./images/br-210-trailer-composite-nse_SW.0.0
+EmptyImage[W][2]=./images/br-210-trailer-composite-nse_W.0.0
+EmptyImage[NW][2]=./images/br-210-trailer-composite-nse_NW.0.0
+EmptyImage[N][2]=./images/br-210-trailer-composite-nse_N.0.0
+EmptyImage[NE][2]=./images/br-210-trailer-composite-nse_NE.0.0
 
 ----
 
@@ -134,7 +245,10 @@ retire_year=1992
 retire_month=1
 waytype=track
 freight=Passagiere
-payload=78
+payload[0]=0
+payload[1]=78
+payload[2]=0
+payload[3]=0
 overcrowded_capacity=50
 length=10
 
@@ -150,24 +264,29 @@ increase_maintenance_after_years=16
 
 min_loading_time=25
 max_loading_time=120
-comfort=109
+comfort[0]=0
+comfort[1]=89
+comfort[2]=0
+comfort[3]=148
 
 Constraint[Prev][0]=BR-210-TSO
+Constraint[Prev][1]=BR-210-TCOL
 
 Constraint[Next][0]=BR-210-DM
 Constraint[Next][1]=none
 
 liverytype[0]=BR-Blue
 liverytype[1]=Regional-Railways
+liverytype[2]=NSE-Standard
 
-EmptyImage[E][0]=./images/br-210-rear-bg.1.4
-EmptyImage[SE][0]=./images/br-210-rear-bg.1.5
-EmptyImage[S][0]=./images/br-210-rear-bg.1.6
-EmptyImage[SW][0]=./images/br-210-rear-bg.1.7
-EmptyImage[W][0]=./images/br-210-rear-bg.1.0
-EmptyImage[NW][0]=./images/br-210-rear-bg.1.1
-EmptyImage[N][0]=./images/br-210-rear-bg.1.2
-EmptyImage[NE][0]=./images/br-210-rear-bg.1.3
+EmptyImage[E][0]=./images/br-210-rear-bg_E.0.0
+EmptyImage[SE][0]=./images/br-210-rear-bg_SE.0.0
+EmptyImage[S][0]=./images/br-210-rear-bg_S.0.0
+EmptyImage[SW][0]=./images/br-210-rear-bg_SW.0.0
+EmptyImage[W][0]=./images/br-210-rear-bg_W.0.0
+EmptyImage[NW][0]=./images/br-210-rear-bg_NW.0.0
+EmptyImage[N][0]=./images/br-210-rear-bg_N.0.0
+EmptyImage[NE][0]=./images/br-210-rear-bg_NE.0.0
 
 EmptyImage[E][1]=./images/br-210-rear-rr.1.4
 EmptyImage[SE][1]=./images/br-210-rear-rr.1.5
@@ -177,3 +296,12 @@ EmptyImage[W][1]=./images/br-210-rear-rr.1.0
 EmptyImage[NW][1]=./images/br-210-rear-rr.1.1
 EmptyImage[N][1]=./images/br-210-rear-rr.1.2
 EmptyImage[NE][1]=./images/br-210-rear-rr.1.3
+
+EmptyImage[E][2]=./images/br-210-rear-nse_E.0.0
+EmptyImage[SE][2]=./images/br-210-rear-nse_SE.0.0
+EmptyImage[S][2]=./images/br-210-rear-nse_S.0.0
+EmptyImage[SW][2]=./images/br-210-rear-nse_SW.0.0
+EmptyImage[W][2]=./images/br-210-rear-nse_W.0.0
+EmptyImage[NW][2]=./images/br-210-rear-nse_NW.0.0
+EmptyImage[N][2]=./images/br-210-rear-nse_N.0.0
+EmptyImage[NE][2]=./images/br-210-rear-nse_NE.0.0

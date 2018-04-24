@@ -49,7 +49,8 @@ retire_year=1910
 retire_month=1
 waytype=track
 freight=Passagiere
-payload=35
+payload[0]=0
+payload[1]=35
 overcrowded_capacity=35
 
 # See here for capacity:
@@ -60,13 +61,13 @@ axles=4
 cost=350000
 runningcost=2
 
-
 can_lead_from_rear=0
 bidirectional=1
 
 min_loading_time=25
 max_loading_time=75
-comfort=54
+comfort[0]=0
+comfort[1]=54
 
 way_constraint_prohibitive[1]=1
 way_constraint_permissive[3]=3

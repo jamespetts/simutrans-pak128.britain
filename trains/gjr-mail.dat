@@ -1,0 +1,48 @@
+# These are the matching mail stowage versions of the very first
+# TPO. No illustrations are available, but they are described
+# (very generally) at Lacy & Dow, pp. 43-6
+obj=vehicle
+name=gjr-mail
+speed=125
+copyright=James/jamespetts
+intro_year=1840
+intro_month=5
+retire_year=1850
+retire_month=4
+waytype=track
+freight=Post
+payload=240
+length=3
+brake_force=0
+rolling_resistance=19
+
+# Guessed
+weight=3.8
+axles=2
+cost=160000
+runningcost=10
+
+min_loading_time=35
+max_loading_time=120
+
+can_lead_from_rear=0
+bidirectional=1
+
+constraint[Next][0]=any
+
+# TODO: Liveries
+
+liverytype[0]=LMR-Standard
+#liverytype[1]=MR-Early
+#liverytype[2]=LNWR-Early
+#liverytype[3]=GNR-early
+#liverytype[4]=LSWR-early
+
+EmptyImage[E][0]=./images/gjr-mail_E.0.0
+EmptyImage[SE][0]=./images/gjr-mail_SE.0.0
+EmptyImage[S][0]=./images/gjr-mail_S.0.0
+EmptyImage[SW][0]=./images/gjr-mail_SW.0.0
+EmptyImage[W][0]=./images/gjr-mail_W.0.0
+EmptyImage[NW][0]=./images/gjr-mail_NW.0.0
+EmptyImage[N][0]=./images/gjr-mail_N.0.0
+EmptyImage[NE][0]=./images/gjr-mail_NE.0.0

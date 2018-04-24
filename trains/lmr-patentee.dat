@@ -9,37 +9,39 @@ smoke=Steam
 speed=80
 power=37
 # Calculated from data from Ahrons, pp. 22-4
-# Loss factor set at 0.5.37
+# Loss factor set at 0.5
 tractive_effort=5
 copyright=James
 intro_year=1833
 intro_month=6
-retire_year=1842
-retire_month=2
+retire_year=1838
+retire_month=12
 waytype=track
 freight=None
 payload=0
 length=3
 brake_force=0
 rolling_resistance=19
-way_wear_factor=25125
+way_wear_factor=28453
 
-# Weight not available in Ahrons, guessed on basis of 1t more than "Planet".
-weight=9
-axles=3
+# Weight not available in Ahrons, guessed on basis of 2.5t more than "Planet".
+weight=10.5
+# http://www.steamlocomotive.com/locobase.php?country=Great_Britain&wheel=2-2-2&railroad=lm
+axle_load=4
 cost=7257600
-runningcost=770
+runningcost=14
+fixed_cost=1280
 sound=lwalker-br-4mt-tank.wav
 years_before_maintenance_max_reached=70
 increase_maintenance_after_years=25
 
 Constraint[Next][0]=LMR-Patentee-Tender
 
-EmptyImage[E]=./images/lmr-patentee.1.4
-EmptyImage[SE]=./images/lmr-patentee.1.5
-EmptyImage[S]=./images/lmr-patentee.1.6
-EmptyImage[SW]=./images/lmr-patentee.1.7
-EmptyImage[W]=./images/lmr-patentee.1.0
-EmptyImage[NW]=./images/lmr-patentee.1.1
-EmptyImage[N]=./images/lmr-patentee.1.2
-EmptyImage[NE]=./images/lmr-patentee.1.3
+EmptyImage[E]=./images/lmr-patentee_E.0.0
+EmptyImage[SE]=./images/lmr-patentee_SE.0.0
+EmptyImage[S]=./images/lmr-patentee_S.0.0
+EmptyImage[SW]=./images/lmr-patentee_SW.0.0
+EmptyImage[W]=./images/lmr-patentee_W.0.0
+EmptyImage[NW]=./images/lmr-patentee_NW.0.0
+EmptyImage[N]=./images/lmr-patentee_N.0.0
+EmptyImage[NE]=./images/lmr-patentee_NE.0.0

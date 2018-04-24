@@ -1,4 +1,4 @@
-# NOTE: There was also a 2-4-0 goods version of this - see Ahrons p. 52 for details. 
+# See Ahrons p. 52 for details. 
 obj=vehicle
 name=LNWR-crewe-type
 engine_type=steam
@@ -9,8 +9,8 @@ speed=92
 # Assumed to be level track, as no gradient information is given.
 power=83
 # Calculated from data from Ahrons, p. 52
-# Loss factor set at 0.65
-tractive_effort=15
+# Loss factor set at 0.7
+tractive_effort=12
 copyright=James/jamespetts
 intro_year=1845
 intro_month=4
@@ -19,17 +19,18 @@ retire_month=5
 waytype=track
 freight=None
 payload=0
-length=5
+length=4
 brake_force=0
 rolling_resistance=19
 way_wear_factor=33862
 
 # Weight taken from Ahrons, p. 52
-weight=18
+weight=18.3
 # Ibid
 axle_load=9
-cost=8015000
-runningcost=900
+cost=14427000
+runningcost=167
+fixed_cost=18011
 sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=LNWR-Bloomer-Tender
@@ -37,20 +38,20 @@ Constraint[Next][0]=LNWR-Bloomer-Tender
 liverytype[0]=LNWR-Early
 liverytype[1]=LNWR-Black
 
-EmptyImage[E][0]=./images/lnwr-crewe-type.1.4
-EmptyImage[SE][0]=./images/lnwr-crewe-type.1.5
-EmptyImage[S][0]=./images/lnwr-crewe-type.1.6
-EmptyImage[SW][0]=./images/lnwr-crewe-type.1.7
-EmptyImage[W][0]=./images/lnwr-crewe-type.1.0
-EmptyImage[NW][0]=./images/lnwr-crewe-type.1.1
-EmptyImage[N][0]=./images/lnwr-crewe-type.1.2
-EmptyImage[NE][0]=./images/lnwr-crewe-type.1.3
+EmptyImage[E][0]=./images/lnwr-crewe-type_E.0.0
+EmptyImage[SE][0]=./images/lnwr-crewe-type_SE.0.0
+EmptyImage[S][0]=./images/lnwr-crewe-type_S.0.0
+EmptyImage[SW][0]=./images/lnwr-crewe-type_SW.0.0
+EmptyImage[W][0]=./images/lnwr-crewe-type_W.0.0
+EmptyImage[NW][0]=./images/lnwr-crewe-type_NW.0.0
+EmptyImage[N][0]=./images/lnwr-crewe-type_N.0.0
+EmptyImage[NE][0]=./images/lnwr-crewe-type_NE.0.0
 
-EmptyImage[E][1]=./images/lnwr-crewe-type-black.1.4
-EmptyImage[SE][1]=./images/lnwr-crewe-type-black.1.5
-EmptyImage[S][1]=./images/lnwr-crewe-type-black.1.6
-EmptyImage[SW][1]=./images/lnwr-crewe-type-black.1.7
-EmptyImage[W][1]=./images/lnwr-crewe-type-black.1.0
-EmptyImage[NW][1]=./images/lnwr-crewe-type-black.1.1
-EmptyImage[N][1]=./images/lnwr-crewe-type-black.1.2
-EmptyImage[NE][1]=./images/lnwr-crewe-type-black.1.3
+EmptyImage[E][1]=./images/lnwr-crewe-type-black_E.0.0
+EmptyImage[SE][1]=./images/lnwr-crewe-type-black_SE.0.0
+EmptyImage[S][1]=./images/lnwr-crewe-type-black_S.0.0
+EmptyImage[SW][1]=./images/lnwr-crewe-type-black_SW.0.0
+EmptyImage[W][1]=./images/lnwr-crewe-type-black_W.0.0
+EmptyImage[NW][1]=./images/lnwr-crewe-type-black_NW.0.0
+EmptyImage[N][1]=./images/lnwr-crewe-type-black_N.0.0
+EmptyImage[NE][1]=./images/lnwr-crewe-type-black_NE.0.0

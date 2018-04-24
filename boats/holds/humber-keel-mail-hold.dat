@@ -1,0 +1,43 @@
+obj=vehicle
+name=humber-keel-mail-hold
+copyright=James
+waytype=water
+engine_type=sail
+speed=12
+freight=Post
+payload=500
+intro_year=1750
+intro_month=1
+retire_year=1900
+retire_month=6
+
+# 4-6 minutes
+min_loading_time=240
+max_loading_time=360
+
+length=1
+
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
+
+Constraint[Prev][0]=HumberKeelPassenger
+
+Constraint[Next][0]=none
+
+EmptyImage[E]=../images/holds.0.1,40,56
+EmptyImage[SE]=../images/holds.0.1,48,40
+EmptyImage[S]=../images/holds.0.1,48,48
+EmptyImage[SW]=../images/holds.0.1,64,64
+EmptyImage[W]=../images/holds.0.1,64,32
+EmptyImage[NW]=../images/holds.0.1,48,40
+EmptyImage[N]=../images/holds.0.1,56,48
+EmptyImage[NE]=../images/holds.0.1,64,48
+
+FreightImage[E]=../images/holds.1.1,40,56
+FreightImage[SE]=../images/holds.1.1,48,40
+FreightImage[S]=../images/holds.1.1,48,48
+FreightImage[SW]=../images/holds.1.1,64,64
+FreightImage[W]=../images/holds.1.1,64,32
+FreightImage[NW]=../images/holds.1.1,48,40
+FreightImage[N]=../images/holds.1.1,56,48
+FreightImage[NE]=../images/holds.1.1,64,48

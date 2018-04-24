@@ -1,0 +1,69 @@
+Obj=way
+# This is the original wooden waggonway
+Name=waggonway
+waytype=track
+cost=3250
+maintenance=400
+topspeed=10
+# A higher axle load is allowed,
+# but regular use of vehicles of this weight
+# will wear this out very fast.
+max_weight=4
+intro_year=1700
+intro_month=1
+retire_year=1833
+retire_month=7
+# This will not take many passes of a steam engine to wear out.
+wear_capacity=150000
+
+icon=> ./images/waggonway-wood-icon.1.1
+cursor=./images/waggonway-wood-icon.1.0
+Image[-][0]=./images/waggonway-wood_NSEW.0.0
+Image[N][0]=./images/waggonway-wood_N.0.0
+Image[S][0]=./images/waggonway-wood_S.0.0
+Image[E][0]=./images/waggonway-wood_E.0.0
+Image[W][0]=./images/waggonway-wood_W.0.0
+Image[NS][0]=./images/waggonway-wood_NS.0.0
+Image[EW][0]=./images/waggonway-wood_EW.0.0
+Image[NSE][0]=./images/waggonway-wood_NSE.0.0
+Image[NSW][0]=./images/waggonway-wood_NSW.0.0
+Image[NEW][0]=./images/waggonway-wood_NEW.0.0
+Image[SEW][0]=./images/waggonway-wood_SEW.0.0
+Image[NSEW][0]=./images/waggonway-wood_NSEW.0.0
+Image[NE][0]=./images/waggonway-wood_NE.0.0
+Image[SE][0]=./images/waggonway-wood_SE.0.0
+Image[NW][0]=./images/waggonway-wood_NW.0.0
+Image[SW][0]=./images/waggonway-wood_SW.0.0
+ImageUp[3][0]=./images/waggonway-wood-up_W.0.0
+ImageUp[6][0]=./images/waggonway-wood-up_S.0.0
+ImageUp[9][0]=./images/waggonway-wood-up_N.0.0
+ImageUp[12][0]=./images/waggonway-wood-up_E.0.0
+ImageUp2[3][0]=./images/waggonway-wood-up2_W.0.0
+ImageUp2[6][0]=./images/waggonway-wood-up2_S.0.0
+ImageUp2[9][0]=./images/waggonway-wood-up2_N.0.0
+ImageUp2[12][0]=./images/waggonway-wood-up2_E.0.0
+
+Image[-][1]=./images/waggonway-wood-snow_NSEW.0.0
+Image[N][1]=./images/waggonway-wood-snow_N.0.0
+Image[S][1]=./images/waggonway-wood-snow_S.0.0
+Image[E][1]=./images/waggonway-wood-snow_E.0.0
+Image[W][1]=./images/waggonway-wood-snow_W.0.0
+Image[NS][1]=./images/waggonway-wood-snow_NS.0.0
+Image[EW][1]=./images/waggonway-wood-snow_EW.0.0
+Image[NSE][1]=./images/waggonway-wood-snow_NSE.0.0
+Image[NSW][1]=./images/waggonway-wood-snow_NSW.0.0
+Image[NEW][1]=./images/waggonway-wood-snow_NEW.0.0
+Image[SEW][1]=./images/waggonway-wood-snow_SEW.0.0
+Image[NSEW][1]=./images/waggonway-wood-snow_NSEW.0.0
+Image[NE][1]=./images/waggonway-wood-snow_NE.0.0
+Image[SE][1]=./images/waggonway-wood-snow_SE.0.0
+Image[NW][1]=./images/waggonway-wood-snow_NW.0.0
+Image[SW][1]=./images/waggonway-wood-snow_SW.0.0
+ImageUp[3][1]=./images/waggonway-wood-snow-up_W.0.0
+ImageUp[6][1]=./images/waggonway-wood-snow-up_S.0.0
+ImageUp[9][1]=./images/waggonway-wood-snow-up_N.0.0
+ImageUp[12][1]=./images/waggonway-wood-snow-up_E.0.0
+ImageUp2[3][1]=./images/waggonway-wood-snow-up2_W.0.0
+ImageUp2[6][1]=./images/waggonway-wood-snow-up2_S.0.0
+ImageUp2[9][1]=./images/waggonway-wood-snow-up2_N.0.0
+ImageUp2[12][1]=./images/waggonway-wood-snow-up2_E.0.0

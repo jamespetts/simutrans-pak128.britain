@@ -1,3 +1,5 @@
+# https://en.wikipedia.org/wiki/British_Rail_Class_458
+# The "Juniper" units
 obj=vehicle
 name=BR-458(front)
 engine_type=electric
@@ -12,8 +14,12 @@ retire_year=2006
 retire_month=4
 waytype=track
 freight=Passagiere
-payload=71
-overcrowded_capacity=50
+# Capacity guessed as information hard to find
+payload[0]=0
+payload[1]=34
+payload[2]=0
+payload[3]=16
+overcrowded_capacity=32
 length=11
 brake_force=34
 rolling_resistance=13
@@ -23,10 +29,12 @@ axles=4
 cost=1057500
 runningcost=126
 
-
 min_loading_time=17
 max_loading_time=60
-comfort=87
+comfort[0]=0
+comfort[1]=87
+comfort[2]=0
+comfort[3]=104
 
 can_lead_from_rear=1
 bidirectional=0
@@ -73,7 +81,10 @@ retire_year=2006
 retire_month=4
 waytype=track
 freight=Passagiere
-payload=63
+payload[0]=0
+payload[1]=63
+payload[2]=0
+payload[3]=0
 overcrowded_capacity=44
 length=11
 brake_force=30
@@ -84,10 +95,12 @@ axles=4
 cost=1899100
 runningcost=43
 
-
 min_loading_time=17
 max_loading_time=60
-comfort=87
+comfort[0]=0
+comfort[1]=87
+comfort[2]=0
+comfort[3]=104
 
 can_lead_from_rear=0
 bidirectional=1
@@ -138,7 +151,10 @@ retire_year=2006
 retire_month=4
 waytype=track
 freight=Passagiere
-payload=68
+payload[0]=0
+payload[1]=68
+payload[2]=0
+payload[3]=0
 overcrowded_capacity=48
 length=11
 brake_force=30
@@ -149,10 +165,12 @@ axles=4
 cost=1899100
 runningcost=43
 
-
 min_loading_time=17
 max_loading_time=60
-comfort=87
+comfort[0]=0
+comfort[1]=87
+comfort[2]=0
+comfort[3]=104
 
 can_lead_from_rear=0
 bidirectional=1
@@ -202,9 +220,11 @@ retire_year=2006
 retire_month=4
 waytype=track
 freight=Passagiere
-# The Standard version of this is 20, but this seems bizarre; however, I cannot find information as to the capacity anywhere.
-payload=63
-overcrowded_capacity=44
+payload[0]=0
+payload[1]=34
+payload[2]=0
+payload[3]=16
+overcrowded_capacity=32
 length=12
 brake_force=34
 rolling_resistance=13
@@ -214,10 +234,12 @@ axles=4
 cost=1057500
 runningcost=126
 
-
 min_loading_time=17
 max_loading_time=60
-comfort=87
+comfort[0]=0
+comfort[1]=87
+comfort[2]=0
+comfort[3]=104
 
 can_lead_from_rear=1
 bidirectional=0

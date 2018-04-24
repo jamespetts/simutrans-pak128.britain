@@ -1,3 +1,5 @@
+# http://www.austinmemories.com/styled-52/styled-58/index.html
+# This is the 1.5t version
 obj=vehicle
 name=MorrisLDPiece
 copyright=JamesHood
@@ -24,14 +26,14 @@ constraint[prev][0]=none
 min_loading_time=30
 max_loading_time=300
 
-EmptyImage[E]=./images/morris-ld.0.0
-EmptyImage[SE]=./images/morris-ld.0.1
-EmptyImage[S]=./images/morris-ld.0.2
-EmptyImage[SW]=./images/morris-ld.0.3
-EmptyImage[W]=./images/morris-ld.0.4
-EmptyImage[NW]=./images/morris-ld.0.5
-EmptyImage[N]=./images/morris-ld.0.6
-EmptyImage[NE]=./images/morris-ld.0.7
+EmptyImage[E]=./images/morris-ld-piece_E.0.0,-33,14
+EmptyImage[SE]=./images/morris-ld-piece_SE.0.0,-13,0
+EmptyImage[S]=./images/morris-ld-piece_S.0.0,0,0
+EmptyImage[SW]=./images/morris-ld-piece_SW.0.0,-8,10
+EmptyImage[W]=./images/morris-ld-piece_W.0.0,4,5
+EmptyImage[NW]=./images/morris-ld-piece_NW.0.0,12,10
+EmptyImage[N]=./images/morris-ld-piece_N.0.0,0,33
+EmptyImage[NE]=./images/morris-ld-piece_NE.0.0,0,24
 
 -----------------------------------------
 obj=vehicle
@@ -60,14 +62,14 @@ constraint[prev][0]=none
 min_loading_time=30
 max_loading_time=300
 
-EmptyImage[E]=./images/morris-ld.1.0
-EmptyImage[SE]=./images/morris-ld.1.1
-EmptyImage[S]=./images/morris-ld.1.2
-EmptyImage[SW]=./images/morris-ld.1.3
-EmptyImage[W]=./images/morris-ld.1.4
-EmptyImage[NW]=./images/morris-ld.1.5
-EmptyImage[N]=./images/morris-ld.1.6
-EmptyImage[NE]=./images/morris-ld.1.7
+EmptyImage[E]=./images/morris-ld-cool_E.0.0,-33,14
+EmptyImage[SE]=./images/morris-ld-cool_SE.0.0,-13,0
+EmptyImage[S]=./images/morris-ld-cool_S.0.0,0,0
+EmptyImage[SW]=./images/morris-ld-cool_SW.0.0,-8,10
+EmptyImage[W]=./images/morris-ld-cool_W.0.0,4,5
+EmptyImage[NW]=./images/morris-ld-cool_NW.0.0,12,10
+EmptyImage[N]=./images/morris-ld-cool_N.0.0,0,33
+EmptyImage[NE]=./images/morris-ld-cool_NE.0.0,0,24
 -----------------------------------------
 obj=vehicle
 name=MorrisLDPost
@@ -95,11 +97,11 @@ constraint[prev][0]=none
 min_loading_time=25
 max_loading_time=250
 
-EmptyImage[E]=./images/morris-ld.2.0
-EmptyImage[SE]=./images/morris-ld.2.1
-EmptyImage[S]=./images/morris-ld.2.2
-EmptyImage[SW]=./images/morris-ld.2.3
-EmptyImage[W]=./images/morris-ld.2.4
-EmptyImage[NW]=./images/morris-ld.2.5
-EmptyImage[N]=./images/morris-ld.2.6
-EmptyImage[NE]=./images/morris-ld.2.7
+EmptyImage[E]=./images/morris-ld-post_E.0.0,-33,14
+EmptyImage[SE]=./images/morris-ld-post_SE.0.0,-13,0
+EmptyImage[S]=./images/morris-ld-post_S.0.0,0,0
+EmptyImage[SW]=./images/morris-ld-post_SW.0.0,-8,10
+EmptyImage[W]=./images/morris-ld-post_W.0.0,4,5
+EmptyImage[NW]=./images/morris-ld-post_NW.0.0,12,10
+EmptyImage[N]=./images/morris-ld-post_N.0.0,0,33
+EmptyImage[NE]=./images/morris-ld-post_NE.0.0,0,24

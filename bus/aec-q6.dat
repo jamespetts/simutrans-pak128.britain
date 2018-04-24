@@ -12,7 +12,8 @@ speed=70
 power=67
 tractive_effort=6
 gear=50
-weight=5.3
+# https://www.flickr.com/photos/14730981@N08/6978114401/in/album-72157629573765473/
+weight=5.7
 axles=2
 length=6
 cost=790000

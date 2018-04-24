@@ -21,6 +21,10 @@ intro_year=1939
 intro_month=3
 retire_year=1950
 retire_month=4
+# This is not quite authentic, but a fully authentic sound
+# cannot currently be located. This seems to be the closest
+# thing.
+sound=leyland-titan-pd2-ff3170.wav
 
 comfort=76
 # Coach (short distance): 5.0 seconds per passenger

@@ -9,7 +9,8 @@ retire_year=1924
 retire_month=1
 waytype=track
 freight=Passagiere
-payload=64
+payload[0]=0
+payload[1]=64
 overcrowded_capacity=32
 length=10
 
@@ -18,13 +19,13 @@ axles=4
 cost=716000
 runningcost=36
 
-
 can_lead_from_rear=0
 bidirectional=1
 
 min_loading_time=20
 max_loading_time=50
-comfort=129
+comfort[0]=0
+comfort[1]=129
 
 Constraint[Next][0]=GWR-Droplight-Third(Mahogany)
 Constraint[Next][1]=GWR-Droplight-Brake(Mahogany)
@@ -53,7 +54,8 @@ retire_year=1924
 retire_month=1
 waytype=track
 freight=Passagiere
-payload=24
+payload[0]=0
+payload[1]=24
 overcrowded_capacity=12
 length=10
 
@@ -68,7 +70,8 @@ can_lead_from_rear=0
 bidirectional=1
 min_loading_time=20
 max_loading_time=50
-comfort=129
+comfort[0]=0
+comfort[1]=129
 
 Constraint[Next][0]=GWR-Droplight-Third(Mahogany)
 Constraint[Next][1]=GWR-Droplight-Brake(Mahogany)

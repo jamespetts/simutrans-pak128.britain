@@ -7,20 +7,28 @@ smoke=Steam
 sound=ship-horn_a.wav
 speed=20
 power=850
-#gear=1200
 freight=Passagiere
-payload=148
+payload[0]=0
+payload[1]=0
+payload[2]=20
+payload[3]=0
+payload[4]=128
 weight=500
 length=12
 cost=17472000
-runningcost=800
+runningcost=340
+fixed_cost=28000
 intro_year=1838
 intro_month=4
 retire_year=1856
 retire_month=9
 is_tall=1
 
-comfort=193
+comfort[0]=0
+comfort[1]=0
+comfort[2]=171
+comfort[3]=0
+comfort[4]=193
 catering_level=4
 # 2-3 hours
 min_loading_time=7200
@@ -31,14 +39,14 @@ way_constraint_prohibitive[6]=6 # Large ship
 Constraint[Next][0]=SSGreatWesternAddMail
 Constraint[Prev][0]=none
 
-EmptyImage[E]=../images/ss-great-western.1.0,-31,-46
-EmptyImage[SE]=../images/ss-great-western.1.1,-31,-46
-EmptyImage[S]=../images/ss-great-western.1.2,-31,-46
-EmptyImage[SW]=../images/ss-great-western.1.3,-31,-46
-EmptyImage[W]=../images/ss-great-western.1.4,-31,-46
-EmptyImage[NW]=../images/ss-great-western.1.5,-31,-46
-EmptyImage[N]=../images/ss-great-western.1.6,-31,-46
-EmptyImage[NE]=../images/ss-great-western.1.7,-31,-46
+EmptyImage[E]=../images/ss-great-western_E.0.0,-31,-46
+EmptyImage[SE]=../images/ss-great-western_SE.0.0,-31,-46
+EmptyImage[S]=../images/ss-great-western_S.0.0,-31,-46
+EmptyImage[SW]=../images/ss-great-western_SW.0.0,-31,-46
+EmptyImage[W]=../images/ss-great-western_W.0.0,-31,-46
+EmptyImage[NW]=../images/ss-great-western_NW.0.0,-31,-46
+EmptyImage[N]=../images/ss-great-western_N.0.0,-31,-46
+EmptyImage[NE]=../images/ss-great-western_NE.0.0,-31,-46
 
 ----
 obj=vehicle

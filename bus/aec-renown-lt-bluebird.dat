@@ -1,4 +1,4 @@
-# http://www.countrybus.org/lt-bluebird/lt-bluebird4.html#bluebird
+# http://web.archive.org/web/20070906023410/http://www.countrybus.org.uk:80/LT/LT4.html#bluebird
 obj=vehicle
 name=aec-renown-lt-bluebird
 copyright=JamesPetts&JamesHood
@@ -10,9 +10,10 @@ payload=60
 overcrowded_capacity=5
 speed=50
 # These had diesel engines
-# See the Flanders & Swann song for the power rating
+# See the Flanders & Swann song for the power rating (97hp)
+# Confirmed here: http://webcache.googleusercontent.com/search?q=cache:zkrkIblLE7cJ:www.countrybus.org/LT/LT.html+&cd=8&hl=en&ct=clnk&gl=uk&client=firefox-b
 power=72
-tractive_effort=10
+tractive_effort=9
 gear=50
 # Guessed
 weight=7.7
@@ -25,7 +26,7 @@ intro_month=3
 retire_year=1942
 retire_month=8
 is_tall=1
-sound=video47-leyland-titan-pd1.wav
+sound=richard-walker-aec-stl-diesel.wav
 
 comfort=41
 # Rear platform with conductor: 2.0 seconds per passenger

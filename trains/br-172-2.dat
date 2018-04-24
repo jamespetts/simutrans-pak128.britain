@@ -13,7 +13,8 @@ intro_month=10
 #retire_month=10
 waytype=track
 freight=Passagiere
-payload=55
+payload[0]=0
+payload[1]=55
 overcrowded_capacity=50
 length=13
 brake_force=32
@@ -27,7 +28,8 @@ sound=video47-class-172.wav
 
 min_loading_time=12
 max_loading_time=50
-comfort=81
+comfort[0]=0
+comfort[1]=81
 
 can_lead_from_rear=1
 bidirectional=0
@@ -64,7 +66,8 @@ intro_month=10
 #retire_month=10
 waytype=track
 freight=Passagiere
-payload=62
+payload[0]=0
+payload[1]=62
 overcrowded_capacity=56
 length=13
 brake_force=32
@@ -78,7 +81,8 @@ sound=video47-class-172.wav
 
 min_loading_time=12
 max_loading_time=50
-comfort=81
+comfort[0]=0
+comfort[1]=81
 
 can_lead_from_rear=1
 bidirectional=0
@@ -115,7 +119,8 @@ intro_month=10
 #retire_month=10
 waytype=track
 freight=Passagiere
-payload=76
+payload[0]=0
+payload[1]=76
 overcrowded_capacity=68
 length=12
 brake_force=31
@@ -126,10 +131,10 @@ axles=4
 cost=1930000
 runningcost=170
 
-
 min_loading_time=12
 max_loading_time=50
-comfort=81
+comfort[0]=0
+comfort[1]=81
 
 can_lead_from_rear=0
 bidirectional=1

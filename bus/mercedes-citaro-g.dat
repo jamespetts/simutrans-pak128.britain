@@ -21,6 +21,8 @@ cost=7850000
 runningcost=187
 intro_year=2003
 intro_month=3
+# TODO: Use a more authentic sound for this type.
+sound=video47-optare-tempo.wav
 
 comfort=40
 # Three doors smartcard/prepay: 1.0 seconds per passenger

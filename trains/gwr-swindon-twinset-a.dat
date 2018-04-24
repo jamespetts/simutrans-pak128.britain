@@ -13,7 +13,8 @@ retire_year=1951
 retire_month=12
 waytype=track
 freight=Passagiere
-payload=60
+payload[0]=0
+payload[1]=60
 overcrowded_capacity=33
 length=12
 
@@ -29,7 +30,8 @@ bidirectional=0
 
 min_loading_time=25
 max_loading_time=90
-comfort=115
+comfort[0]=0
+comfort[1]=115
 air_resistance=108
 
 Constraint[Prev][0]=none

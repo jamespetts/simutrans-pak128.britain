@@ -9,7 +9,11 @@ speed=222
 power=1599
 tractive_effort=12
 freight=Passagiere
-payload=17
+payload[0]=0
+payload[1]=0
+payload[2]=0
+payload[3]=0
+payload[4]=17
 weight=5.9
 #length=8
 cost=2400000
@@ -19,7 +23,11 @@ intro_month=2
 retire_year=1952
 retire_month=1
 
-comfort=70
+comfort[0]=0
+comfort[1]=0
+comfort[2]=0
+comfort[3]=0
+comfort[4]=70
 
 min_loading_time=1800
 max_loading_time=1800

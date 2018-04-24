@@ -1,0 +1,65 @@
+# https://en.wikipedia.org/wiki/LZ_127_Graf_Zeppelin
+# http://www.airships.net/lz127-graf-zeppelin/
+obj=vehicle
+# https://en.wikipedia.org/wiki/Hindenburg-class_airship
+name=zeppelin-lz-129
+copyright=Clive9
+# https://www.blendswap.com/blends/view/83520
+# CC-BY
+waytype=air
+engine_type=diesel
+# This is taken from the LZ-130, as the range is based on this.
+speed=135
+power=2940
+tractive_effort=87
+freight=Passagiere
+payload[0]=0
+payload[1]=0
+payload[2]=0
+payload[3]=0
+payload[4]=50
+# The realistic weight does not work with contemporary grass runways/taxiways.
+# The dead-weight would have no effect on performance of a ligter than air vehicle
+# and is arguably not the correct figure to use anyway.
+weight=5
+# For landing pads
+axle_load=1
+cost=25000000
+runningcost=1200
+intro_year=1936
+intro_month=3
+retire_year=1940
+retire_month=5
+
+# Cabins with beds
+comfort[0]=0
+comfort[1]=0
+comfort[2]=0
+comfort[3]=0
+comfort[4]=211
+min_loading_time=2100
+max_loading_time=2100
+# Restaurant
+catering_level=5
+
+# @ ISA (sea level, 0Centigrades), Runway Dry
+#minimum_runway_length=0
+# @ ISA+10C, Runway dry = +10%
+minimum_runway_length=0
+
+# Not sure that this sound is appropriate here.
+#sound=planelow.wav
+# https://en.wikipedia.org/wiki/LZ_130_Graf_Zeppelin_II
+range=16500
+
+Constraint[Next][0]=none
+Constraint[Prev][0]=none
+
+EmptyImage[E]=../images/zeppelin-lz-129_E.0.0,-62,-92
+EmptyImage[SE]=../images/zeppelin-lz-129_SE.0.0,-62,-92
+EmptyImage[S]=../images/zeppelin-lz-129_S.0.0,-62,-92
+EmptyImage[SW]=../images/zeppelin-lz-129_SW.0.0,-62,-92
+EmptyImage[W]=../images/zeppelin-lz-129_W.0.0,0,-62,-92
+EmptyImage[NW]=../images/zeppelin-lz-129_NW.0.0,-62,-92
+EmptyImage[N]=../images/zeppelin-lz-129_N.0.0,-62,-92
+EmptyImage[NE]=../images/zeppelin-lz-129_NE.0.0,-62,-92

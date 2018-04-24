@@ -1,0 +1,36 @@
+# These are based on the early Highland Railway
+# goods brake vans.
+# See "Highland Railway carriages and wagons" by Peter Tatlow pp. 178-9.
+obj=vehicle
+name=brake-7-5t
+speed=56
+copyright=James/JamesPetts
+intro_year=1855
+intro_month=2
+retire_year=1889
+retire_month=7
+freight=Bucher
+payload=0
+waytype=track
+brake_force=2
+rolling_resistance=19
+
+length=3
+
+weight=7.5
+cost=130000
+runningcost=20
+
+bidirectional=1
+
+EmptyImage[E]=./images/brake-7-5t_E.0.0
+EmptyImage[SE]=./images/brake-7-5t_SE.0.0
+EmptyImage[S]=./images/brake-7-5t_S.0.0
+EmptyImage[SW]=./images/brake-7-5t_SW.0.0
+EmptyImage[W]=./images/brake-7-5t_W.0.0
+EmptyImage[NW]=./images/brake-7-5t_NW.0.0
+EmptyImage[N]=./images/brake-7-5t_N.0.0
+EmptyImage[NE]=./images/brake-7-5t_NE.0.0
+
+
+

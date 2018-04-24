@@ -1,0 +1,74 @@
+# As used on the original Liverpool & Manchester Railway:
+# https://books.google.co.uk/books?id=WBI1AAAAMAAJ&pg=PA275&lpg=PA275&dq=fishbelly+%22wrought+iron%22&source=bl&ots=oY4MUvoCdC&sig=HkWlSuwvyZsSwY9XLYb9Uh7pLSQ&hl=en&sa=X&ved=0ahUKEwjRzvL7xq_YAhWDzaQKHRqoDBYQ6AEILjAB#v=onepage&q&f=false
+# http://myweb.tiscali.co.uk/gansg/2-track/02track1.htm
+# https://lancashireminingmuseum.org/2017/05/02/fishbelly-rails-on-stone-sleepers-original-track-on-the-liverpool-manchester-bolton-leigh-railway-of-1830/
+# https://en.wikipedia.org/wiki/Wagonway#Metal_rails_introduced
+# 35lb/yard
+Obj=way
+Name=wrought_iron_fishbelly_heavy_track
+waytype=track
+cost=31700
+maintenance=765
+# The following suggests a limit of 27km/h:
+# http://www.rainhilltrials.com/index.cfm/page/article/id/46/listid/27/title/The%20Liverpool%20and%20Manchester%201830%20Onwards
+# However, this is doubtful, as higher speeds on the LMR, which was laid with this track initially and until 1835,
+# are recorded in many sources, e.g. Ahrons p. 65. 
+topspeed=80
+max_weight=6
+intro_year=1827
+intro_month=8
+retire_year=1845
+retire_month=2
+wear_capacity=28800000
+
+icon=> ./images/fishbelly-heavy.3.4
+cursor=./images/fishbelly-heavy.3.5
+Image[-][0]=./images/fishbelly-heavy.1.2
+Image[N][0]=./images/fishbelly-heavy.1.5
+Image[S][0]=./images/fishbelly-heavy.2.1
+Image[E][0]=./images/fishbelly-heavy.2.2
+Image[W][0]=./images/fishbelly-heavy.2.0
+Image[NS][0]=./images/fishbelly-heavy.1.0
+Image[EW][0]=./images/fishbelly-heavy.1.1
+Image[NSE][0]=./images/fishbelly-heavy.0.2
+Image[NSW][0]=./images/fishbelly-heavy.0.4
+Image[NEW][0]=./images/fishbelly-heavy.0.1
+Image[SEW][0]=./images/fishbelly-heavy.0.3
+Image[NSEW][0]=./images/fishbelly-heavy.1.2
+Image[NE][0]=./images/fishbelly-heavy.3.0
+Image[SE][0]=./images/fishbelly-heavy.2.3
+Image[NW][0]=./images/fishbelly-heavy.2.4
+Image[SW][0]=./images/fishbelly-heavy.2.5
+ImageUp[3][0]=./images/fishbelly-heavy.4.2
+ImageUp[6][0]=./images/fishbelly-heavy.4.3
+ImageUp[9][0]=./images/fishbelly-heavy.4.0
+ImageUp[12][0]=./images/fishbelly-heavy.4.1
+ImageUp2[3][0]=./images/fishbelly-heavy.1.3
+ImageUp2[6][0]=./images/fishbelly-heavy.1.4
+ImageUp2[9][0]=./images/fishbelly-heavy.0.0
+ImageUp2[12][0]=./images/fishbelly-heavy.0.5
+
+Image[-][1]=./images/rail-snow.1.2
+Image[N][1]=./images/rail-snow.1.5
+Image[S][1]=./images/rail-snow.2.1
+Image[E][1]=./images/rail-snow.2.2
+Image[W][1]=./images/rail-snow.2.0
+Image[NS][1]=./images/rail-snow.1.0
+Image[EW][1]=./images/rail-snow.1.1
+Image[NSE][1]=./images/rail-snow.0.2
+Image[NSW][1]=./images/rail-snow.0.4
+Image[NEW][1]=./images/rail-snow.0.1
+Image[SEW][1]=./images/rail-snow.0.3
+Image[NSEW][1]=./images/rail-snow.1.2
+Image[NE][1]=./images/rail-snow.3.0
+Image[SE][1]=./images/rail-snow.2.3
+Image[NW][1]=./images/rail-snow.2.4
+Image[SW][1]=./images/rail-snow.2.5
+ImageUp[3][1]=./images/rail-snow.4.2
+ImageUp[6][1]=./images/rail-snow.4.3
+ImageUp[9][1]=./images/rail-snow.4.0
+ImageUp[12][1]=./images/rail-snow.4.1
+ImageUp2[3][1]=./images/rail-snow.1.3
+ImageUp2[6][1]=./images/rail-snow.1.4
+ImageUp2[9][1]=./images/rail-snow.0.0
+ImageUp2[12][1]=./images/rail-snow.0.5

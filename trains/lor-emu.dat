@@ -1,3 +1,6 @@
+# See Hamilton Ellis, p. 257
+# http://www.historywebsite.co.uk/genealogy/Parker/OverheadRailway.htm
+# TODO: Add the later intermediate trailers
 obj=vehicle
 name=LOR-EMU(front)
 engine_type=electric
@@ -12,8 +15,11 @@ retire_year=1920
 retire_month=5
 waytype=track
 freight=Passagiere
-payload=40
-overcrowded_capacity=12
+payload[0]=0
+payload[1]=37
+payload[2]=0
+payload[3]=16
+overcrowded_capacity=18
 length=9
 
 weight=10
@@ -29,7 +35,10 @@ way_constraint_permissive[0]=0
 
 min_loading_time=20
 max_loading_time=46
-comfort=50
+comfort[0]=0
+comfort[1]=50
+comfort[2]=0
+comfort[3]=70
 
 Constraint[Prev][0]=LOR-EMU(trailer)
 Constraint[Prev][1]=none
@@ -62,8 +71,11 @@ retire_year=1920
 retire_month=5
 waytype=track
 freight=Passagiere
-payload=40
-overcrowded_capacity=15
+payload[0]=0
+payload[1]=41
+payload[2]=0
+payload[3]=16
+overcrowded_capacity=21
 length=9
 
 weight=10
@@ -79,7 +91,10 @@ way_constraint_permissive[0]=0
 
 min_loading_time=20
 max_loading_time=46
-comfort=50
+comfort[0]=0
+comfort[1]=50
+comfort[2]=0
+comfort[3]=70
 
 Constraint[Prev][0]=LOR-EMU(front)
 

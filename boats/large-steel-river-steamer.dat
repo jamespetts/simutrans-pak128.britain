@@ -6,9 +6,11 @@ engine_type=steam
 smoke=Steam
 speed=25
 power=500
-#gear=1200
 freight=Passagiere
-payload=500
+payload[0]=0
+payload[1]=350
+payload[2]=0
+payload[3]=150
 weight=200
 length=12
 cost=23000000
@@ -18,7 +20,10 @@ intro_month=2
 retire_year=1960
 retire_month=10
 
-comfort=36
+comfort[0]=0
+comfort[1]=36
+comfort[2]=0
+comfort[3]=60
 min_loading_time=60
 max_loading_time=150
 
@@ -47,5 +52,3 @@ FreightImage[0][W]=./images/iron-paddle-river-steamer-lcc-loaded.1.0
 FreightImage[0][NW]=./images/iron-paddle-river-steamer-lcc-loaded.1.1
 FreightImage[0][N]=./images/iron-paddle-river-steamer-lcc-loaded.1.2
 FreightImage[0][NE]=./images/iron-paddle-river-steamer-lcc-loaded.1.3
-
-----------

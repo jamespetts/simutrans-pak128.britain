@@ -14,7 +14,8 @@ retire_year=2010
 retire_month=10
 waytype=track
 freight=Passagiere
-payload=71
+payload[0]=0
+payload[1]=71
 overcrowded_capacity=53
 length=12
 brake_force=30
@@ -28,7 +29,8 @@ sound=panos-g-class-375.wav
 
 min_loading_time=17
 max_loading_time=60
-comfort=87
+comfort[0]=0
+comfort[1]=87
 
 can_lead_from_rear=1
 bidirectional=0
@@ -64,7 +66,8 @@ retire_year=2010
 retire_month=10
 waytype=track
 freight=Passagiere
-payload=62
+payload[0]=0
+payload[1]=62
 overcrowded_capacity=47
 length=12
 brake_force=27
@@ -75,10 +78,11 @@ axles=4
 cost=1512000
 runningcost=125
 
-
 min_loading_time=17
 max_loading_time=60
-comfort=87
+comfort[0]=0
+comfort[1]=87
+
 can_lead_from_rear=1
 bidirectional=0
 way_constraint_permissive[2]=2
@@ -112,7 +116,8 @@ retire_year=2010
 retire_month=10
 waytype=track
 freight=Passagiere
-payload=78
+payload[0]=0
+payload[1]=78
 overcrowded_capacity=59
 length=12
 brake_force=27
@@ -122,10 +127,10 @@ axles=4
 cost=1512000
 runningcost=125
 
-
 min_loading_time=17
 max_loading_time=60
-comfort=87
+comfort[0]=0
+comfort[1]=87
 
 can_lead_from_rear=1
 bidirectional=0
@@ -160,7 +165,8 @@ retire_year=2010
 retire_month=10
 waytype=track
 freight=Passagiere
-payload=71
+payload[0]=0
+payload[1]=78
 overcrowded_capacity=53
 length=13
 brake_force=30
@@ -174,7 +180,8 @@ sound=panos-g-class-375.wav
 
 min_loading_time=17
 max_loading_time=60
-comfort=87
+comfort[0]=0
+comfort[1]=87
 
 can_lead_from_rear=1
 bidirectional=0

@@ -14,6 +14,16 @@ cost=12500
 population_and_visitor_demand_capacity=0
 employment_capacity=1
 mail_demand=1
+class_proportion[0]=0
+class_proportion[1]=4
+class_proportion[2]=66
+class_proportion[3]=30
+class_proportion[4]=0
+class_proportion_jobs[0]=0
+class_proportion_jobs[1]=100
+class_proportion_jobs[2]=0
+class_proportion_jobs[3]=0
+class_proportion_jobs[4]=0
 needs_ground=1
 
 signal_groups=11
@@ -52,6 +62,17 @@ cost=21500
 population_and_visitor_demand_capacity=0
 employment_capacity=1
 mail_demand=1
+class_proportion[0]=0
+class_proportion[1]=4
+class_proportion[2]=66
+class_proportion[3]=30
+class_proportion[4]=0
+# Higher class jobs as the policemen need to be literate to work the telegraph equipment
+class_proportion_jobs[0]=0
+class_proportion_jobs[1]=0
+class_proportion_jobs[2]=100
+class_proportion_jobs[3]=0
+class_proportion_jobs[4]=0
 needs_ground=1
 
 signal_groups=12
@@ -71,3 +92,56 @@ BackImage[3][0][0][0][0][1]=images/policeman's-cottage-telegraph-snow.1.0
 
 Cursor=images/policeman's-cottage-telegraph-icon.1.0
 Icon=> images/policeman's-cottage-telegraph-icon.1.1
+
+---
+
+# See: http://www.cntr.salford.ac.uk/comms/ebirth.php
+# This early form of telegraph communication was more expensive
+# than later two wire systems, but was introduced in 1839.
+Obj=building
+Name=policeman's-cottage-with-telegraph-cooke-and-wheatstone
+Type=signalbox
+copyright=JamesPetts
+Level=1
+intro_year=1839
+intro_month=2
+retire_year=1848
+retire_month=12
+
+allow_underground=0
+maintenance=3000
+cost=37625
+population_and_visitor_demand_capacity=0
+employment_capacity=1
+mail_demand=1
+class_proportion[0]=0
+class_proportion[1]=4
+class_proportion[2]=66
+class_proportion[3]=30
+class_proportion[4]=0
+# Higher class jobs as the policemen need to be literate to work the telegraph equipment
+class_proportion_jobs[0]=0
+class_proportion_jobs[1]=0
+class_proportion_jobs[2]=100
+class_proportion_jobs[3]=0
+class_proportion_jobs[4]=0
+needs_ground=1
+
+signal_groups=12
+# This cannot be too restrictive, as this needs to allow for mechanically operated repeaters.
+radius=1500
+capacity=6
+
+dims=1,1,4
+BackImage[0][0][0][0][0][0]=images/policeman's-cottage-telegraph.1.3
+BackImage[1][0][0][0][0][0]=images/policeman's-cottage-telegraph.1.2
+BackImage[2][0][0][0][0][0]=images/policeman's-cottage-telegraph.1.1
+BackImage[3][0][0][0][0][0]=images/policeman's-cottage-telegraph.1.0
+BackImage[0][0][0][0][0][1]=images/policeman's-cottage-telegraph-snow.1.3
+BackImage[1][0][0][0][0][1]=images/policeman's-cottage-telegraph-snow.1.2
+BackImage[2][0][0][0][0][1]=images/policeman's-cottage-telegraph-snow.1.1
+BackImage[3][0][0][0][0][1]=images/policeman's-cottage-telegraph-snow.1.0
+
+Cursor=images/policeman's-cottage-telegraph-icon.1.0
+Icon=> images/policeman's-cottage-telegraph-icon.1.1
+

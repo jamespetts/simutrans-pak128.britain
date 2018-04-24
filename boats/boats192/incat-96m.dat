@@ -5,12 +5,11 @@ name=Incat96m
 copyright=James
 waytype=water
 engine_type=diesel
-smoke=Diesel
 speed=80
 power=28337
-gear=100
 freight=Passagiere
-payload=900
+payload[0]=0
+payload[1]=900
 # 260 cars
 weight=500
 length=12
@@ -19,11 +18,13 @@ runningcost=800
 intro_year=1998
 intro_month=12
 
-comfort=155
+comfort[0]=0
+comfort[1]=175
 catering_level=3
 # 30-40 minutes
 min_loading_time=1800
 max_loading_time=2400
+range=300
 
 Constraint[Next][0]=Incat96m(AddMail)
 Constraint[Prev][0]=none

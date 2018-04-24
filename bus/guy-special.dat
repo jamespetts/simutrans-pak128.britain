@@ -1,13 +1,15 @@
 # http://web.archive.org/web/20130822174206/http://www.countrybus.org/GS/GS.html
 # http://www.busesfestival.com/view_article.asp?id=9059
+# http://www.londonbusmuseum.com/museum-exhibits/single-decker-buses/guy-special-gs-34/
 obj=vehicle
 name=guy-special
 engine_type=diesel
 smoke=Diesel-light
 speed=64
 gear=50
-power=64
-tractive_effort=9
+# # http://www.londonbusmuseum.com/museum-exhibits/single-decker-buses/guy-special-gs-34/
+power=48
+tractive_effort=7
 copyright=Kieron
 intro_year=1953
 intro_month=10
@@ -17,12 +19,14 @@ waytype=road
 freight=Passagiere
 payload=26
 length=4
+# An authentic sound cannot be found for the time being:
+# use this until one is forthcoming.
+sound=swearingkevo-bristol-l6b.wav
 
 weight=4.1
 axles=2
 cost=300000
 runningcost=120
-
 
 comfort=37
 # Single door pay driver: 4.0 seconds per passenger

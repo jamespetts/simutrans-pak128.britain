@@ -13,6 +13,20 @@ retire_month=8
 Dims=1,1,4
 NoInfo=1
 Level=3
+# Passenger data guessed
+population_and_visitor_demand_capacity=4
+employment_capacity=55
+mail_demand=5
+class_proportion[0]=0
+class_proportion[1]=4
+class_proportion[2]=46
+class_proportion[3]=50
+class_proportion[4]=0
+class_proportion_jobs[0]=15
+class_proportion_jobs[1]=35
+class_proportion_jobs[2]=45
+class_proportion_jobs[3]=5
+class_proportion_jobs[4]=0
 
 maintenance=20400
 cost=2090000
@@ -46,6 +60,20 @@ Dims=1,1,4
 NoInfo=1
 Level=4
 is_control_tower=1
+# Passenger data guessed
+population_and_visitor_demand_capacity=6
+employment_capacity=75
+mail_demand=7
+class_proportion[0]=0
+class_proportion[1]=4
+class_proportion[2]=46
+class_proportion[3]=50
+class_proportion[4]=0
+class_proportion_jobs[0]=5
+class_proportion_jobs[1]=20
+class_proportion_jobs[2]=40
+class_proportion_jobs[3]=35
+class_proportion_jobs[4]=0
 
 maintenance=45000
 cost=4500000
@@ -70,7 +98,7 @@ type=extension
 waytype=track
 enables_pax=1
 intro_year=1922
-intro_year=3
+intro_month=3
 retire_year=1949
 retire_month=8
 # must be 1*2
@@ -78,6 +106,20 @@ retire_month=8
 Dims=1,1,4
 NoInfo=1
 Level=3
+# Passenger data guessed
+population_and_visitor_demand_capacity=4
+employment_capacity=55
+mail_demand=5
+class_proportion[0]=0
+class_proportion[1]=4
+class_proportion[2]=46
+class_proportion[3]=50
+class_proportion[4]=0
+class_proportion_jobs[0]=15
+class_proportion_jobs[1]=35
+class_proportion_jobs[2]=45
+class_proportion_jobs[3]=5
+class_proportion_jobs[4]=0
 
 maintenance=10200
 cost=1045000

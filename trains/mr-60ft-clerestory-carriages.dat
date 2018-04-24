@@ -9,7 +9,8 @@ retire_year=1900
 retire_month=10
 waytype=track
 freight=Passagiere
-payload=76
+payload[0]=0
+payload[1]=76
 overcrowded_capacity=44
 length=11
 rolling_resistance=17
@@ -19,13 +20,13 @@ axles=6
 cost=650000
 runningcost=37
 
-
 can_lead_from_rear=0
 bidirectional=1
 
 min_loading_time=17
 max_loading_time=47
-comfort=95
+comfort[0]=0
+comfort[1]=95
 
 Constraint[Next][0]=4-wheel-1870s-fitted
 Constraint[Next][1]=4-wheel-1870s-brake-fitted
@@ -167,7 +168,8 @@ retire_year=1900
 retire_month=10
 waytype=track
 freight=Passagiere
-payload=58
+payload[0]=0
+payload[1]=58
 overcrowded_capacity=32
 length=11
 rolling_resistance=17
@@ -177,13 +179,13 @@ axles=6
 cost=650000
 runningcost=37
 
-
 can_lead_from_rear=0
 bidirectional=1
 
 min_loading_time=17
 max_loading_time=47
-comfort=95
+comfort[0]=0
+comfort[1]=95
 
 Constraint[Next][0]=4-wheel-1870s-fitted
 Constraint[Next][1]=4-wheel-1870s-brake-fitted
@@ -267,7 +269,8 @@ retire_year=1900
 retire_month=10
 waytype=track
 freight=Passagiere
-payload=58
+payload[0]=0
+payload[1]=58
 overcrowded_capacity=32
 length=11
 rolling_resistance=17
@@ -277,13 +280,13 @@ axles=6
 cost=650000
 runningcost=37
 
-
 can_lead_from_rear=0
 bidirectional=1
 
 min_loading_time=17
 max_loading_time=47
-comfort=95
+comfort[0]=0
+comfort[1]=95
 
 Constraint[Prev][0]=4-wheel-1870s-fitted
 Constraint[Prev][1]=4-wheel-1870s-brake-fitted
@@ -372,7 +375,8 @@ retire_year=1900
 retire_month=5
 waytype=track
 freight=Passagiere
-payload=40
+payload[0]=0
+payload[1]=40
 length=11
 rolling_resistance=17
 
@@ -380,7 +384,6 @@ weight=42
 axles=6
 cost=873000
 runningcost=40
-
 
 comfort=141
 can_lead_from_rear=0
@@ -473,8 +476,8 @@ intro_month=4
 retire_year=1909
 retire_month=3
 waytype=track
-freight=Passagiere
-payload=40
+payload[0]=0
+payload[1]=40
 length=11
 rolling_resistance=17
 
@@ -483,8 +486,8 @@ axles=6
 cost=895000
 runningcost=44
 
-
-comfort=142
+comfort[0]=0
+comfort[1]=142
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=25

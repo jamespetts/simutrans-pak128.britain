@@ -25,67 +25,67 @@ max_loading_time=450
 available_only_as_upgrade=0
 fixed_maintenance=0
 
-constraint[next][0]=none 
+constraint[next][0]=none
 constraint[prev][0]=none
 
-EmptyImage[E]=./images/leyland-daf-65.0.0
-EmptyImage[SE]=./images/leyland-daf-65.0.1
-EmptyImage[S]=./images/leyland-daf-65.0.2
-EmptyImage[SW]=./images/leyland-daf-65.0.3
-EmptyImage[W]=./images/leyland-daf-65.0.4
-EmptyImage[NW]=./images/leyland-daf-65.0.5
-EmptyImage[N]=./images/leyland-daf-65.0.6
-EmptyImage[NE]=./images/leyland-daf-65.0.7
+EmptyImage[E]=./images/leyland-daf-65-bulk-empty_E.0.0,-33,14
+EmptyImage[SE]=./images/leyland-daf-65-bulk-empty_SE.0.0,-13,0
+EmptyImage[S]=./images/leyland-daf-65-bulk-empty_S.0.0,0,0
+EmptyImage[SW]=./images/leyland-daf-65-bulk-empty_SW.0.0,-8,10
+EmptyImage[W]=./images/leyland-daf-65-bulk-empty_W.0.0,4,5
+EmptyImage[NW]=./images/leyland-daf-65-bulk-empty_NW.0.0,12,10
+EmptyImage[N]=./images/leyland-daf-65-bulk-empty_N.0.0,0,33
+EmptyImage[NE]=./images/leyland-daf-65-bulk-empty_NE.0.0,0,24
 
 freightimagetype[4]=Cement
-FreightImage[4][E]=./images/leyland-daf-65.3.0
-FreightImage[4][SE]=./images/leyland-daf-65.3.1
-FreightImage[4][S]=./images/leyland-daf-65.3.2
-FreightImage[4][SW]=./images/leyland-daf-65.3.3
-FreightImage[4][W]=./images/leyland-daf-65.3.4
-FreightImage[4][NW]=./images/leyland-daf-65.3.5
-FreightImage[4][N]=./images/leyland-daf-65.3.6
-FreightImage[4][NE]=./images/leyland-daf-65.3.7
+FreightImage[4][E]=./images/leyland-daf-65-bulk-cement_E.0.0,-33,14
+FreightImage[4][SE]=./images/leyland-daf-65-bulk-cement_SE.0.0,-13,0
+FreightImage[4][S]=./images/leyland-daf-65-bulk-cement_S.0.0,0,0
+FreightImage[4][SW]=./images/leyland-daf-65-bulk-cement_SW.0.0,-8,10
+FreightImage[4][W]=./images/leyland-daf-65-bulk-cement_W.0.0,4,5
+FreightImage[4][NW]=./images/leyland-daf-65-bulk-cement_NW.0.0,12,10
+FreightImage[4][N]=./images/leyland-daf-65-bulk-cement_N.0.0,0,33
+FreightImage[4][NE]=./images/leyland-daf-65-bulk-cement_NE.0.0,0,24
 
 freightimagetype[3]=Kohle
-FreightImage[3][E]=./images/leyland-daf-65.1.0
-FreightImage[3][SE]=./images/leyland-daf-65.1.1
-FreightImage[3][S]=./images/leyland-daf-65.1.2
-FreightImage[3][SW]=./images/leyland-daf-65.1.3
-FreightImage[3][W]=./images/leyland-daf-65.1.4
-FreightImage[3][NW]=./images/leyland-daf-65.1.5
-FreightImage[3][N]=./images/leyland-daf-65.1.6
-FreightImage[3][NE]=./images/leyland-daf-65.1.7
+FreightImage[3][E]=./images/leyland-daf-65-bulk-coal_E.0.0,-33,14
+FreightImage[3][SE]=./images/leyland-daf-65-bulk-coal_SE.0.0,-13,0
+FreightImage[3][S]=./images/leyland-daf-65-bulk-coal_S.0.0,0,0
+FreightImage[3][SW]=./images/leyland-daf-65-bulk-coal_SW.0.0,-8,10
+FreightImage[3][W]=./images/leyland-daf-65-bulk-coal_W.0.0,4,5
+FreightImage[3][NW]=./images/leyland-daf-65-bulk-coal_NW.0.0,12,10
+FreightImage[3][N]=./images/leyland-daf-65-bulk-coal_N.0.0,0,33
+FreightImage[3][NE]=./images/leyland-daf-65-bulk-coal_NE.0.0,0,24
 
 freightimagetype[2]=Eisenerz
-FreightImage[2][E]=./images/leyland-daf-65.2.0
-FreightImage[2][SE]=./images/leyland-daf-65.2.1
-FreightImage[2][S]=./images/leyland-daf-65.2.2
-FreightImage[2][SW]=./images/leyland-daf-65.2.3
-FreightImage[2][W]=./images/leyland-daf-65.2.4
-FreightImage[2][NW]=./images/leyland-daf-65.2.5
-FreightImage[2][N]=./images/leyland-daf-65.2.6
-FreightImage[2][NE]=./images/leyland-daf-65.2.7
+FreightImage[2][E]=./images/leyland-daf-65-bulk-ore_E.0.0,-33,14
+FreightImage[2][SE]=./images/leyland-daf-65-bulk-ore_SE.0.0,-13,0
+FreightImage[2][S]=./images/leyland-daf-65-bulk-ore_S.0.0,0,0
+FreightImage[2][SW]=./images/leyland-daf-65-bulk-ore_SW.0.0,-8,10
+FreightImage[2][W]=./images/leyland-daf-65-bulk-ore_W.0.0,4,5
+FreightImage[2][NW]=./images/leyland-daf-65-bulk-ore_NW.0.0,12,10
+FreightImage[2][N]=./images/leyland-daf-65-bulk-ore_N.0.0,0,33
+FreightImage[2][NE]=./images/leyland-daf-65-bulk-ore_NE.0.0,0,24
 
 freightimagetype[1]=Stone
-FreightImage[1][E]=./images/leyland-daf-65.3.0
-FreightImage[1][SE]=./images/leyland-daf-65.3.1
-FreightImage[1][S]=./images/leyland-daf-65.3.2
-FreightImage[1][SW]=./images/leyland-daf-65.3.3
-FreightImage[1][W]=./images/leyland-daf-65.3.4
-FreightImage[1][NW]=./images/leyland-daf-65.3.5
-FreightImage[1][N]=./images/leyland-daf-65.3.6
-FreightImage[1][NE]=./images/leyland-daf-65.3.7
+FreightImage[1][E]=./images/leyland-daf-65-bulk-stone_E.0.0,-33,14
+FreightImage[1][SE]=./images/leyland-daf-65-bulk-stone_SE.0.0,-13,0
+FreightImage[1][S]=./images/leyland-daf-65-bulk-stone_S.0.0,0,0
+FreightImage[1][SW]=./images/leyland-daf-65-bulk-stone_SW.0.0,-8,10
+FreightImage[1][W]=./images/leyland-daf-65-bulk-stone_W.0.0,4,5
+FreightImage[1][NW]=./images/leyland-daf-65-bulk-stone_NW.0.0,12,10
+FreightImage[1][N]=./images/leyland-daf-65-bulk-stone_N.0.0,0,33
+FreightImage[1][NE]=./images/leyland-daf-65-bulk-stone_NE.0.0,0,24
 
 freightimagetype[0]=grain
-FreightImage[0][E]=./images/leyland-daf-65.4.0
-FreightImage[0][SE]=./images/leyland-daf-65.4.1
-FreightImage[0][S]=./images/leyland-daf-65.4.2
-FreightImage[0][SW]=./images/leyland-daf-65.4.3
-FreightImage[0][W]=./images/leyland-daf-65.4.4
-FreightImage[0][NW]=./images/leyland-daf-65.4.5
-FreightImage[0][N]=./images/leyland-daf-65.4.6
-FreightImage[0][NE]=./images/leyland-daf-65.4.7
+FreightImage[0][E]=./images/leyland-daf-65-bulk-grain_E.0.0,-33,14
+FreightImage[0][SE]=./images/leyland-daf-65-bulk-grain_SE.0.0,-13,0
+FreightImage[0][S]=./images/leyland-daf-65-bulk-grain_S.0.0,0,0
+FreightImage[0][SW]=./images/leyland-daf-65-bulk-grain_SW.0.0,-8,10
+FreightImage[0][W]=./images/leyland-daf-65-bulk-grain_W.0.0,4,5
+FreightImage[0][NW]=./images/leyland-daf-65-bulk-grain_NW.0.0,12,10
+FreightImage[0][N]=./images/leyland-daf-65-bulk-grain_N.0.0,0,33
+FreightImage[0][NE]=./images/leyland-daf-65-bulk-grain_NE.0.0,0,24
 ----------------------------------------
 obj=vehicle
 name=LeylandDAF65Long
@@ -114,37 +114,37 @@ max_loading_time=450
 available_only_as_upgrade=0
 fixed_maintenance=0
 
-constraint[next][0]=none 
+constraint[next][0]=none
 constraint[prev][0]=none
 
-EmptyImage[E]=./images/leyland-daf-65.11.0
-EmptyImage[SE]=./images/leyland-daf-65.11.1
-EmptyImage[S]=./images/leyland-daf-65.11.2
-EmptyImage[SW]=./images/leyland-daf-65.11.3
-EmptyImage[W]=./images/leyland-daf-65.11.4
-EmptyImage[NW]=./images/leyland-daf-65.11.5
-EmptyImage[N]=./images/leyland-daf-65.11.6
-EmptyImage[NE]=./images/leyland-daf-65.11.7
+EmptyImage[E]=./images/leyland-daf-65-long-empty_E.0.0,-33,14
+EmptyImage[SE]=./images/leyland-daf-65-long-empty_SE.0.0,-13,0
+EmptyImage[S]=./images/leyland-daf-65-long-empty_S.0.0,0,0
+EmptyImage[SW]=./images/leyland-daf-65-long-empty_SW.0.0,-8,10
+EmptyImage[W]=./images/leyland-daf-65-long-empty_W.0.0,4,5
+EmptyImage[NW]=./images/leyland-daf-65-long-empty_NW.0.0,12,10
+EmptyImage[N]=./images/leyland-daf-65-long-empty_N.0.0,0,33
+EmptyImage[NE]=./images/leyland-daf-65-long-empty_NE.0.0,0,24
 
 freightimagetype[1]=Bretter
-FreightImage[1][E]=./images/leyland-daf-65.5.0
-FreightImage[1][SE]=./images/leyland-daf-65.5.1
-FreightImage[1][S]=./images/leyland-daf-65.5.2
-FreightImage[1][SW]=./images/leyland-daf-65.5.3
-FreightImage[1][W]=./images/leyland-daf-65.5.4
-FreightImage[1][NW]=./images/leyland-daf-65.5.5
-FreightImage[1][N]=./images/leyland-daf-65.5.6
-FreightImage[1][NE]=./images/leyland-daf-65.5.7
+FreightImage[1][E]=./images/leyland-daf-65-long-wood_E.0.0,-33,14
+FreightImage[1][SE]=./images/leyland-daf-65-long-wood_SE.0.0,-13,0
+FreightImage[1][S]=./images/leyland-daf-65-long-wood_S.0.0,0,0
+FreightImage[1][SW]=./images/leyland-daf-65-long-wood_SW.0.0,-8,10
+FreightImage[1][W]=./images/leyland-daf-65-long-wood_W.0.0,4,5
+FreightImage[1][NW]=./images/leyland-daf-65-long-wood_NW.0.0,12,10
+FreightImage[1][N]=./images/leyland-daf-65-long-wood_N.0.0,0,33
+FreightImage[1][NE]=./images/leyland-daf-65-long-wood_NE.0.0,0,24
 
 freightimagetype[0]=Stahl
-FreightImage[0][E]=./images/leyland-daf-65.6.0
-FreightImage[0][SE]=./images/leyland-daf-65.6.1
-FreightImage[0][S]=./images/leyland-daf-65.6.2
-FreightImage[0][SW]=./images/leyland-daf-65.6.3
-FreightImage[0][W]=./images/leyland-daf-65.6.4
-FreightImage[0][NW]=./images/leyland-daf-65.6.5
-FreightImage[0][N]=./images/leyland-daf-65.6.6
-FreightImage[0][NE]=./images/leyland-daf-65.6.7
+FreightImage[0][E]=./images/leyland-daf-65-long-steel_E.0.0,-33,14
+FreightImage[0][SE]=./images/leyland-daf-65-long-steel_SE.0.0,-13,0
+FreightImage[0][S]=./images/leyland-daf-65-long-steel_S.0.0,0,0
+FreightImage[0][SW]=./images/leyland-daf-65-long-steel_SW.0.0,-8,10
+FreightImage[0][W]=./images/leyland-daf-65-long-steel_W.0.0,4,5
+FreightImage[0][NW]=./images/leyland-daf-65-long-steel_NW.0.0,12,10
+FreightImage[0][N]=./images/leyland-daf-65-long-steel_N.0.0,0,33
+FreightImage[0][NE]=./images/leyland-daf-65-long-steel_NE.0.0,0,24
 
 -----------------------------------------
 obj=vehicle
@@ -174,17 +174,17 @@ max_loading_time=450
 available_only_as_upgrade=0
 fixed_maintenance=0
 
-constraint[next][0]=none 
+constraint[next][0]=none
 constraint[prev][0]=none
 
-EmptyImage[E]=./images/leyland-daf-65.7.0
-EmptyImage[SE]=./images/leyland-daf-65.7.1
-EmptyImage[S]=./images/leyland-daf-65.7.2
-EmptyImage[SW]=./images/leyland-daf-65.7.3
-EmptyImage[W]=./images/leyland-daf-65.7.4
-EmptyImage[NW]=./images/leyland-daf-65.7.5
-EmptyImage[N]=./images/leyland-daf-65.7.6
-EmptyImage[NE]=./images/leyland-daf-65.7.7
+EmptyImage[E]=./images/leyland-daf-65-piece_E.0.0,-33,14
+EmptyImage[SE]=./images/leyland-daf-65-piece_SE.0.0,-13,0
+EmptyImage[S]=./images/leyland-daf-65-piece_S.0.0,0,0
+EmptyImage[SW]=./images/leyland-daf-65-piece_SW.0.0,-8,10
+EmptyImage[W]=./images/leyland-daf-65-piece_W.0.0,4,5
+EmptyImage[NW]=./images/leyland-daf-65-piece_NW.0.0,12,10
+EmptyImage[N]=./images/leyland-daf-65-piece_N.0.0,0,33
+EmptyImage[NE]=./images/leyland-daf-65-piece_NE.0.0,0,24
 
 
 -----------------------------------------
@@ -215,17 +215,17 @@ max_loading_time=450
 available_only_as_upgrade=0
 fixed_maintenance=0
 
-constraint[next][0]=none 
+constraint[next][0]=none
 constraint[prev][0]=none
 
-EmptyImage[E]=./images/leyland-daf-65.8.0
-EmptyImage[SE]=./images/leyland-daf-65.8.1
-EmptyImage[S]=./images/leyland-daf-65.8.2
-EmptyImage[SW]=./images/leyland-daf-65.8.3
-EmptyImage[W]=./images/leyland-daf-65.8.4
-EmptyImage[NW]=./images/leyland-daf-65.8.5
-EmptyImage[N]=./images/leyland-daf-65.8.6
-EmptyImage[NE]=./images/leyland-daf-65.8.7
+EmptyImage[E]=./images/leyland-daf-65-cool_E.0.0,-33,14
+EmptyImage[SE]=./images/leyland-daf-65-cool_SE.0.0,-13,0
+EmptyImage[S]=./images/leyland-daf-65-cool_S.0.0,0,0
+EmptyImage[SW]=./images/leyland-daf-65-cool_SW.0.0,-8,10
+EmptyImage[W]=./images/leyland-daf-65-cool_W.0.0,4,5
+EmptyImage[NW]=./images/leyland-daf-65-cool_NW.0.0,12,10
+EmptyImage[N]=./images/leyland-daf-65-cool_N.0.0,0,33
+EmptyImage[NE]=./images/leyland-daf-65-cool_NE.0.0,0,24
 
 -----------------------------------------
 obj=vehicle
@@ -255,17 +255,17 @@ max_loading_time=450
 available_only_as_upgrade=0
 fixed_maintenance=0
 
-constraint[next][0]=none 
+constraint[next][0]=none
 constraint[prev][0]=none
 
-EmptyImage[E]=./images/leyland-daf-65.9.0
-EmptyImage[SE]=./images/leyland-daf-65.9.1
-EmptyImage[S]=./images/leyland-daf-65.9.2
-EmptyImage[SW]=./images/leyland-daf-65.9.3
-EmptyImage[W]=./images/leyland-daf-65.9.4
-EmptyImage[NW]=./images/leyland-daf-65.9.5
-EmptyImage[N]=./images/leyland-daf-65.9.6
-EmptyImage[NE]=./images/leyland-daf-65.9.7
+EmptyImage[E]=./images/leyland-daf-65-livestock_E.0.0,-33,14
+EmptyImage[SE]=./images/leyland-daf-65-livestock_SE.0.0,-13,0
+EmptyImage[S]=./images/leyland-daf-65-livestock_S.0.0,0,0
+EmptyImage[SW]=./images/leyland-daf-65-livestock_SW.0.0,-8,10
+EmptyImage[W]=./images/leyland-daf-65-livestock_W.0.0,4,5
+EmptyImage[NW]=./images/leyland-daf-65-livestock_NW.0.0,12,10
+EmptyImage[N]=./images/leyland-daf-65-livestock_N.0.0,0,33
+EmptyImage[NE]=./images/leyland-daf-65-livestock_NE.0.0,0,24
 
 -----------------------------------------
 obj=vehicle
@@ -294,15 +294,14 @@ max_loading_time=390
 available_only_as_upgrade=0
 fixed_maintenance=0
 
-constraint[next][0]=none 
+constraint[next][0]=none
 constraint[prev][0]=none
 
-EmptyImage[E]=./images/leyland-daf-65.10.0
-EmptyImage[SE]=./images/leyland-daf-65.10.1
-EmptyImage[S]=./images/leyland-daf-65.10.2
-EmptyImage[SW]=./images/leyland-daf-65.10.3
-EmptyImage[W]=./images/leyland-daf-65.10.4
-EmptyImage[NW]=./images/leyland-daf-65.10.5
-EmptyImage[N]=./images/leyland-daf-65.10.6
-EmptyImage[NE]=./images/leyland-daf-65.10.7
------------------------------------------
+EmptyImage[E]=./images/leyland-daf-65-post_E.0.0,-33,14
+EmptyImage[SE]=./images/leyland-daf-65-post_SE.0.0,-13,0
+EmptyImage[S]=./images/leyland-daf-65-post_S.0.0,0,0
+EmptyImage[SW]=./images/leyland-daf-65-post_SW.0.0,-8,10
+EmptyImage[W]=./images/leyland-daf-65-post_W.0.0,4,5
+EmptyImage[NW]=./images/leyland-daf-65-post_NW.0.0,12,10
+EmptyImage[N]=./images/leyland-daf-65-post_N.0.0,0,33
+EmptyImage[NE]=./images/leyland-daf-65-post_NE.0.0,0,24

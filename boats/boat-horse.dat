@@ -14,7 +14,8 @@ length=8
 
 weight=0.7
 cost=50000
-runningcost=7
+runningcost=3
+fixed_cost=813
 
 sound=arnaud-coutancier-canal-horses.wav
 
@@ -97,7 +98,8 @@ length=8
 
 weight=1.4
 cost=100000
-runningcost=15
+runningcost=6
+fixed_cost=1250
 
 sound=arnaud-coutancier-canal-horses.wav
 range=24

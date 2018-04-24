@@ -24,6 +24,8 @@ intro_year=1969
 intro_month=11
 retire_year=1976
 retire_month=1
+# Temporary sound until a more suitalbe sound can be found
+sound=leyland-titan-pd3-ff3170.wav
 
 comfort=35
 # Single door pay driver: 4.0 seconds per passenger

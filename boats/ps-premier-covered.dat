@@ -1,0 +1,65 @@
+# PS Premier was not, in fact, ever covered;
+# but very similar boats were (e.g. "Sir Walter Raleigh")
+# of the Gravesend ferry circa 1854: see pp. 485-6 of
+# The London, Tilbury and Southend Railway (vol. 6) by
+# Peter Kay. The purpose of covering is to allow a first
+# class cabin.
+obj=vehicle
+name=ps-premier-covered
+copyright=James
+waytype=water
+engine_type=steam
+smoke=Steam
+sound=ship-horn_b.wav
+speed=20
+power=200
+freight=Passagiere
+payload[0]=0
+payload[1]=250
+payload[2]=0
+payload[3]=60
+weight=200
+length=8
+cost=14210000
+upgrade_price=1021000
+runningcost=212
+fixed_cost=24000
+intro_year=1852
+intro_month=11
+retire_year=1864
+retire_month=3
+is_tall=1
+
+comfort[0]=0
+comfort[1]=40
+comfort[2]=0
+comfort[3]=72
+# 20-30 minutes
+min_loading_time=1200
+max_loading_time=1400
+range=50
+
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
+
+Constraint[Next][0]=IronPaddleSteamerMail
+Constraint[Prev][0]=none
+
+EmptyImage[E]=./images/ps-premiere-covered_E.0.0
+EmptyImage[SE]=./images/ps-premiere-covered_SE.0.0
+EmptyImage[S]=./images/ps-premiere-covered_S.0.0
+EmptyImage[SW]=./images/ps-premiere-covered_SW.0.0
+EmptyImage[W]=./images/ps-premiere-covered_W.0.0
+EmptyImage[NW]=./images/ps-premiere-covered_NW.0.0
+EmptyImage[N]=./images/ps-premiere-covered_N.0.0
+EmptyImage[NE]=./images/ps-premiere-covered_NE.0.0
+
+freightimagetype[0]=Passagiere
+FreightImage[0][E]=./images/ps-premiere-covered-loaded_E.0.0
+FreightImage[0][SE]=./images/ps-premiere-covered-loaded_SE.0.0
+FreightImage[0][S]=./images/ps-premiere-covered-loaded_S.0.0
+FreightImage[0][SW]=./images/ps-premiere-covered-loaded_SW.0.0
+FreightImage[0][W]=./images/ps-premiere-covered-loaded_W.0.0
+FreightImage[0][NW]=./images/ps-premiere-covered-loaded_NW.0.0
+FreightImage[0][N]=./images/ps-premiere-covered-loaded_N.0.0
+FreightImage[0][NE]=./images/ps-premiere-covered-loaded_NE.0.0

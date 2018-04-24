@@ -120,21 +120,21 @@ BR-104Rear
 BR Class 104 (SZT) (ty³)
 BR-121
 BR Class 121 (SZT)
-BR-142Front(Regional)
+br-142-front
 BR Class 142 "Pacer" (SZT)
-BR-142Rear(Regional)
+br-142-rear
 BR Class 142 "Pacer" (SZT) (ty³)
-BR-153(Regional)
+br-153
 BR Class 153 "Super-Sprinter" (SZT)
-BR-156Front(Regional)
+br-156-front
 BR Class 156 "Super-Sprinter" (SZT)
-BR-156Rear(Regional)
+br-156-rear
 BR Class 156 "Super-Sprinter" (SZT) (ty³)
-BR-158Front(Regional)
+br-158-front
 BR Class 158 "Express Sprinter" (SZT)
-BR-158Middle(Regional)
+br-158-centre
 BR Class 158 "Express Sprinter" (SZT) (¶rodek)
-BR-158Rear(Regional)
+br-158-rear
 BR Class 158 "Express Sprinter" (EZT) (ty³)
 BR-165Front
 BR Class 165 "Network Turbo" (SZT)
@@ -160,21 +160,21 @@ BR-205Middle
 BR Class 205 (SEZT) (¶rodek)
 BR-205Rear
 BR Class 205 (SEZT) (ty³)
-BR-220Front(Virgin)
+BR-220Front
 BR Class 220 "Voyager"
-BR-220Middle(Virgin)
+BR-220Middle
 BR Class 220 "Voyager" (¶rodek)
-BR-220Rear(Virgin)
+BR-220Rear
 BR Class 220 "Voyager" (ty³)
 BR-251FirstParlour
 BR Class 251 "Blue Pullman" (salonik klasy 1.)
-BR-251Front
+BR-251FrontFirst
 BR Class 251 "Blue Pullman"
-BR-251Rear
+BR-251RearFirst
 BR Class 251 "Blue Pullman" (tylni wagon)
-BR-251SecondParlourFront
+BR-251SecondParlour
 BR Class 251 "Blue Pullman" (przedni salonik klasy 2.)
-BR-251SecondParlourRear
+BR-251Kitchen
 BR Class 251 "Blue Pullman" (tylni salonik klasy 2.)
 BR-303Front
 BR Class 303 (EZT)
@@ -198,35 +198,35 @@ BR-313Pantograph
 BR Class 313 (EZT) (pantograf)
 BR-313Rear
 BR Class 313 (EZT) (ty³)
-BR-319Engine(NSE)
+BR-319Engine
 BR Class 319 (EZT) (silnik)
-BR-319Front(NSE)
+BR-319Front
 BR Class 319 (EZT)
-BR-319Pantograph(NSE)
+BR-319Pantograph
 BR Class 319 (EZT) (pantograf)
-BR-319Rear(NSE)
+BR-319Rear
 BR Class 319 (EZT) (ty³)
-BR-365Front(NSE)
+BR-365Front
 BR Class 365 "Networker Express" (EZT)
-BR-365Middle(NSE)
+BR-365Middle
 BR Class 365 "Networker Express" (EZT) (¶rodek)
-BR-365Power(NSE)
+BR-365Power
 BR Class 365 "Networker Express" (EZT) (w. silnikowy)
-BR-365Rear(NSE)
+BR-365Rear
 BR Class 365 "Networker Express" (EZT) (ty³)
-BR-370Buffet(IC)
+BR-370BrakeFirstFront
 BR Class 370 APT (bufet)
-BR-370Coach(IC)
+BR-370TrailerSecond
 BR Class 370 APT (pasa¿erski)
-BR-370FrontCab(IC)
+BR-370FrontCab
 BR Class 370 APT
-BR-370FrontPower(IC)
+BR-370FrontPower
 BR Class 370 APT (przedni wagon silnikowy)
-BR-370RearCab(IC)
+BR-370RearCab
 BR Class 370 APT (tylni wagon)
-BR-370RearPower(IC)
+BR-370RearPower
 BR Class 370 APT (tylni wagon silnikowy)
-BR-370Restaurant(IC)
+BR-370BrakeFirstRear
 BR Class 370 APT (restauracyjny)
 BR-373Coach
 BR Class 373 "Eurostar" (pasa¿erski)
@@ -250,21 +250,21 @@ BR-378Middle
 BR London Overground Class 378 (EZT) (¶rodek)
 BR-378Rear
 BR London Overground Class 378 (EZT) (ty³)
-BR-390Coach(Virgin)
+BR-390Coach
 BR Class 390 "Pendolino" (pasa¿erski bez napêdu)
-BR-390FrontCab(Virgin)
+BR-390FrontCab
 BR Class 390 "Pendolino"
-BR-390FrontCoach(Virgin)
+BR-390FrontCoach
 BR Class 390 "Pendolino" (przedni wagon)
-BR-390FrontPantograph(Virgin)
+BR-390FrontPantograph
 BR Class 390 "Pendolino" (przedni pantograf)
-BR-390PoweredCoach(Virgin)
+BR-390PoweredCoach
 BR Class 390 "Pendolino" (pasa¿erski z napêdem)
-BR-390RearCab(Virgin)
+BR-390RearCab
 BR Class 390 "Pendolino" (tylni wagon)
-BR-390RearCoach(Virgin)
+BR-390RearCoach
 BR Class 390 "Pendolino" (tylni pasa¿erski)
-BR-390RearPantograph(Virgin)
+BR-390RearPantograph
 BR Class 390 "Pendolino" (tylni pantograf)
 BR-395Front
 BR Class 395 "Javelin"
@@ -296,11 +296,11 @@ BR-442-Middle3
 BR Class 442 (¶rodek)
 BR-442-Rear
 BR Class 442 (ty³)
-BR-465Front(NSE)
+BR-465Front
 BR Class 465 "Networker" (EZT)
-BR-465Middle(NSE)
+BR-465Middle
 BR Class 465 "Networker" (EZT) (¶rodek)
-BR-465Rear(NSE)
+BR-465Rear
 BR Class 465 "Networker" (EZT) (ty³)
 BR-489[GLV]
 BR Class 489 GLV\n

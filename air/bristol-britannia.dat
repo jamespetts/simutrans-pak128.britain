@@ -13,7 +13,11 @@ tractive_effort=51
 freight=Passagiere
 # Single class seating is 139 "coach class"
 # Max seats (presumably in high capacity format) is 149.
-payload=139
+payload[0]=0
+payload[1]=0
+payload[2]=115
+payload[3]=0
+payload[4]=24
 weight=38.5
 #length=8
 # £700,000 - £1,400,000 (1957) (according to Wikipedia)
@@ -26,7 +30,11 @@ intro_month=2
 retire_year=1960
 retire_month=11
 
-comfort=121
+comfort[0]=0
+comfort[1]=0
+comfort[2]=121
+comfort[3]=0
+comfort[4]=172
 min_loading_time=2400
 max_loading_time=2400
 
@@ -54,4 +62,4 @@ EmptyImage[NW]=./images/bristol-britannia-boac_NW.0.0
 EmptyImage[N]=./images/bristol-britannia-boac_N.0.0
 EmptyImage[NE]=./images/bristol-britannia-boac_NE.0.0
 
-# TODO: Cargo version
+# TODO: Cargo version (no models currently on 3d Warehouse)

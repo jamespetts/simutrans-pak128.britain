@@ -15,7 +15,8 @@ retire_year=1938
 retire_month=7
 waytype=track
 freight=Passagiere
-payload=36
+payload[0]=0
+payload[1]=36
 overcrowded_capacity=16
 length=11
 
@@ -24,12 +25,12 @@ axles=4
 cost=770000
 runningcost=38
 
-
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=20
 max_loading_time=50
-comfort=133
+comfort[0]=0
+comfort[1]=133
 
 Constraint[Next][0]=LNER-Gresley-Express-Coach
 Constraint[Next][1]=LNER-Gresley-Express-Brake-rear
@@ -99,7 +100,8 @@ retire_year=1938
 retire_month=7
 waytype=track
 freight=Passagiere
-payload=36
+payload[0]=0
+payload[1]=36
 overcrowded_capacity=16
 length=11
 
@@ -108,12 +110,12 @@ axles=4
 cost=770000
 runningcost=38
 
-
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=20
 max_loading_time=50
-comfort=133
+comfort[0]=0
+comfort[1]=133
 
 Constraint[Prev][0]=LNER-Gresley-Express-Coach
 Constraint[Prev][1]=LNER-Gresley-Express-Brake-front

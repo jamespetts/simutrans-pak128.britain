@@ -8,19 +8,22 @@ speed=15
 power=120
 #gear=1200
 freight=Passagiere
-payload=250
+payload[0]=0
+payload[1]=250
 weight=100
 length=12
-cost=12000000
-runningcost=2100
+cost=31150000
+runningcost=360
 intro_year=1842
 intro_month=5
 retire_year=1875
 retire_month=12
 
-comfort=29
+comfort[0]=0
+comfort[1]=29
 min_loading_time=60
 max_loading_time=120
+range=100
 
 way_constraint_permissive[4]=4  # Waterway
 way_constraint_prohibitive[5]=5 # Ship

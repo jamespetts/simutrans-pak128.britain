@@ -12,7 +12,8 @@ retire_year=2003
 retire_month=8
 waytype=track
 freight=Passagiere
-payload=85
+payload[0]=0
+payload[1]=85
 overcrowded_capacity=60
 length=11
 brake_force=38
@@ -26,14 +27,16 @@ sound=panos-g-class-375.wav
 
 min_loading_time=20
 max_loading_time=65
-comfort=87
+comfort[0]=0
+comfort[1]=87
 
 can_lead_from_rear=1
 bidirectional=0
 way_constraint_permissive[2]=2
 
 Constraint[Prev][0]=BR-333(rear)
-Constraint[Prev][1]=none
+Constraint[Prev][1]=BR-332(rear)
+Constraint[Prev][2]=none
 
 Constraint[Next][0]=BR-333(centre-pantograph)
 
@@ -73,7 +76,8 @@ retire_year=2003
 retire_month=8
 waytype=track
 freight=Passagiere
-payload=95
+payload[0]=0
+payload[1]=95
 overcrowded_capacity=66
 length=11
 brake_force=29
@@ -84,10 +88,10 @@ axles=4
 cost=1899100
 runningcost=43
 
-
 min_loading_time=20
 max_loading_time=65
-comfort=87
+comfort[0]=0
+comfort[1]=87
 
 can_lead_from_rear=0
 bidirectional=1
@@ -134,7 +138,8 @@ retire_month=8
 intro_month=1
 waytype=track
 freight=Passagiere
-payload=95
+payload[0]=0
+payload[1]=95
 overcrowded_capacity=66
 length=11
 brake_force=35
@@ -145,10 +150,10 @@ axles=4
 cost=1899100
 runningcost=43
 
-
 min_loading_time=20
 max_loading_time=65
-comfort=87
+comfort[0]=0
+comfort[1]=87
 
 can_lead_from_rear=0
 bidirectional=1
@@ -195,7 +200,8 @@ retire_year=2003
 retire_month=8
 waytype=track
 freight=Passagiere
-payload=85
+payload[0]=0
+payload[1]=85
 overcrowded_capacity=66
 length=11
 brake_force=38
@@ -209,7 +215,8 @@ sound=panos-g-class-375.wav
 
 min_loading_time=20
 max_loading_time=65
-comfort=87
+comfort[0]=0
+comfort[1]=87
 
 can_lead_from_rear=1
 bidirectional=0
@@ -219,7 +226,8 @@ Constraint[Prev][0]=BR-333(centre-pantograph)
 Constraint[Prev][1]=BR-333(centre-trailer)
 
 Constraint[Next][0]=BR-333(front)
-Constraint[Next][1]=none
+Constraint[Next][1]=BR-332(front)
+Constraint[Next][2]=none
 
 liverytype[0]=WYPTE-Northern-Spirit
 liverytype[1]=Northern-Metro

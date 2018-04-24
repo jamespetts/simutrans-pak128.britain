@@ -12,7 +12,10 @@ retire_year=1969
 retire_month=8
 waytype=track
 freight=Passagiere
-payload=84
+payload[0]=0
+payload[1]=84
+payload[2]=0
+payload[3]=0
 overcrowded_capacity=86
 length=11
 
@@ -34,7 +37,10 @@ upgrade[0]=BR-489[GLV]
 
 min_loading_time=20
 max_loading_time=46
-comfort=77
+comfort[0]=0
+comfort[1]=77
+comfort[2]=0
+comfort[3]=0
 
 Constraint[Prev][0]=BR-410[CEP]Rear
 Constraint[Prev][1]=BR-414[HAP]Rear
@@ -103,8 +109,11 @@ retire_year=1969
 retire_month=8
 waytype=track
 freight=Passagiere
-payload=62
-overcrowded_capacity=33
+payload[0]=0
+payload[1]=18
+payload[2]=0
+payload[3]=44
+overcrowded_capacity=26
 length=11
 
 weight=30
@@ -124,7 +133,10 @@ upgrade[0]=BR-489[GLV]
 
 min_loading_time=20
 max_loading_time=46
-comfort=110
+comfort[0]=0
+comfort[1]=110
+comfort[2]=0
+comfort[3]=144
 
 Constraint[Prev][0]=BR-414[HAP]Front
 

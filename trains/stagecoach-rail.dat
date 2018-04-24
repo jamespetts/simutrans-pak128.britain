@@ -1,0 +1,69 @@
+# See "A short history of the railway carriage", R. W. Kidner, p. 82
+# This is intended for horse haulage only.
+# https://ebid.s3.amazonaws.com/upload_big/3/0/0/uo_1465540541-6780-23.jpg
+obj=vehicle
+name=stagecoach-rail
+speed=20
+copyright=JamesPetts
+intro_year=1826
+intro_month=3
+retire_year=1850
+retire_month=1
+waytype=track
+freight=Passagiere
+# Outside
+payload[0]=0 
+payload[1]=0
+payload[2]=6
+# Inside
+payload[3]=4
+overcrowded_capacity=0
+axle_load=1
+length=3
+cost=101000
+runningcost=22
+brake_force=1
+rolling_resistance=19
+
+weight=1.6
+axles=2
+
+# Outside
+comfort[0]=0
+comfort[1]=0
+comfort[2]=18
+# Inside
+comfort[3]=53
+min_loading_time=300
+max_loading_time=600
+
+can_lead_from_rear=0
+bidirectional=1
+
+Constraint[Prev][0]=rail-horse-friesian-single
+Constraint[Prev][1]=rail-horse-cleveland-bay-single
+Constraint[Prev][2]=rail-horse-yorkshire-coach-single
+Constraint[Prev][3]=rail-horse-shire-single
+Constraint[Prev][4]=rail-horse-irish-draught-single
+Constraint[Prev][5]=rail-horse-clydesdale-single
+
+Constraint[Next][0]=none
+
+EmptyImage[E]=./images/stagecoach-rail_E.0.0
+EmptyImage[SE]=./images/stagecoach-rail_SE.0.0
+EmptyImage[S]=./images/stagecoach-rail_S.0.0
+EmptyImage[SW]=./images/stagecoach-rail_SW.0.0
+EmptyImage[W]=./images/stagecoach-rail_W.0.0
+EmptyImage[NW]=./images/stagecoach-rail_NW.0.0
+EmptyImage[N]=./images/stagecoach-rail_N.0.0
+EmptyImage[NE]=./images/stagecoach-rail_NE.0.0
+
+FreightImage[E]=./images/stagecoach-rail-loaded_E.0.0
+FreightImage[SE]=./images/stagecoach-rail-loaded_SE.0.0
+FreightImage[S]=./images/stagecoach-rail-loaded_S.0.0
+FreightImage[SW]=./images/stagecoach-rail-loaded_SW.0.0
+FreightImage[W]=./images/stagecoach-rail-loaded_W.0.0
+FreightImage[NW]=./images/stagecoach-rail-loaded_NW.0.0
+FreightImage[N]=./images/stagecoach-rail-loaded_N.0.0
+FreightImage[NE]=./images/stagecoach-rail-loaded_NE.0.0
+

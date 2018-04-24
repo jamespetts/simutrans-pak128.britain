@@ -1,3 +1,4 @@
+# See Jenkinson p. 404
 obj=vehicle
 name=1940TubeStockFront
 engine_type=electric
@@ -13,8 +14,9 @@ retire_year=1967
 retire_month=4
 waytype=track
 freight=Passagiere
-payload=40
-overcrowded_capacity=128
+payload[0]=0
+payload[1]=40
+overcrowded_capacity=60
 
 weight=24
 axles=4
@@ -27,7 +29,8 @@ bidirectional=0
 
 min_loading_time=17
 max_loading_time=48
-comfort=58
+comfort[0]=0
+comfort[1]=58
 
 way_constraint_prohibitive[1]=1
 way_constraint_permissive[3]=3
@@ -80,14 +83,14 @@ retire_year=1967
 retire_month=4
 waytype=track
 freight=Passagiere
-payload=48
-overcrowded_capacity=168
+payload[0]=0
+payload[1]=52
+overcrowded_capacity=80
 
 weight=16
 axles=4
 cost=300000
 runningcost=5
-
 
 can_lead_from_rear=0
 bidirectional=1
@@ -97,7 +100,8 @@ way_constraint_permissive[3]=3
 
 min_loading_time=17
 max_loading_time=48
-comfort=58
+comfort[0]=0
+comfort[1]=58
 
 Constraint[Prev][0]=1940TubeStockFront
 Constraint[Prev][1]=1940TubeStockMiddle
@@ -151,8 +155,9 @@ retire_year=1967
 retire_month=4
 waytype=track
 freight=Passagiere
-payload=40
-overcrowded_capacity=128
+payload[0]=0
+payload[1]=40
+overcrowded_capacity=60
 
 weight=24
 axles=4
@@ -168,7 +173,8 @@ way_constraint_permissive[3]=3
 
 min_loading_time=17
 max_loading_time=48
-comfort=58
+comfort[0]=0
+comfort[1]=58
 
 Constraint[Prev][0]=1940TubeStockMiddle
 
@@ -205,5 +211,3 @@ EmptyImage[W][2]=./images/1940-stock-nse.2.4
 EmptyImage[NW][2]=./images/1940-stock-nse.2.5
 EmptyImage[N][2]=./images/1940-stock-nse.2.6
 EmptyImage[NE][2]=./images/1940-stock-nse.2.7
---
-

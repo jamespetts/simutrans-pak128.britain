@@ -19,8 +19,8 @@ rolling_resistance=0
 weight=0.8
 axle_load=0
 cost=45000
-runningcost=12
-fixed_cost=100
+runningcost=3
+fixed_cost=813
 sound=colin-taft-horse-tram.wav
 
 way_constraint_prohibitive[0]=0
@@ -56,8 +56,8 @@ rolling_resistance=0
 weight=1.6
 axle_load=0
 cost=90000
-runningcost=24
-fixed_cost=200
+runningcost=5
+fixed_cost=1125
 sound=colin-taft-horse-tram.wav
 
 way_constraint_prohibitive[0]=0

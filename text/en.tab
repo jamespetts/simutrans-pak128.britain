@@ -9,15 +9,20 @@
 #                                                                              #
 #                                   authors:                                   #
 #                            James Hood (The Hood)                             #
-#			    James Petts (jamespetts)			       #
+#							James Petts (jamespetts)						   #
 #                                                                              #
 ################################################################################
 #____________________________________Stop Names_________________________________
 #____________________________________Stop Names_________________________________
+# NOTE: These are numbered 0-9 and then A-Z.
 1center
 %s %s
 1extern
-%s Junction %s
+%s Road %s
+1outer
+%s Corner %s
+1suburb
+%s Village %s
 1nord
 %s North %s
 1nordost
@@ -36,42 +41,86 @@
 %s West %s
 2center
 %s Central %s
+2outer
+%s City %s
+2suburb
+%s Fields %s
 2extern
-%s Road %s
+%s Junction %s
 3center
 %s Victoria %s
+3outer
+%s Broadway %s
+3suburb
+%s Greenfields %s
 3extern
 %s Fields %s
 4center
 %s Exchange %s
+4outer
+%s Street %s
+4suburb
+%s Copse %s
 4extern
 %s Heights %s
 5center
-%s City %s
+%s Town %s
+5outer
+%s Gate %s
+5suburb
+%s Hall %s
 5extern
 %s Rural %s
 6extern
 %s Woods %s
+6suburb
+%s Hill %s
+6outer
+%s New Town %s
 6center
 %s High Street %s
 7extern
 %s Brook %s
+7outer
+%s Green %s
 7center
 %s Piccadilly %s
+7suburb
+%s Lane %s
 8extern
 %s Meadow %s
+8outer
+%s Bridge %s
+8suburb
+%s Ponds %s
+8center
+%s Square %s
 9extern
 %s Stream %s
-10extern
+9suburb
+%s Bankside %s
+9outer
+%s Gardens %s
+Aextern
 %s County %s
-11extern
+Bextern
 %s Marsh %s
-12extern
+Cextern
 %s Lake %s
-13extern
+Dextern
 %s Hollow %s
-14extern
+Eextern
 %s Sands %s
+Fextern
+%s Beeches %s
+Gextern
+%s Wood %s
+Hextern
+%s Heath %s
+Iextern
+%s Grove %s
+Jextern
+%s Barns %s
 %s city %d %s
 %s City %d %s
 %s land %d %s
@@ -88,60 +137,70 @@ Airport
 Airport
 #_______________________air-vehicle___________________________
 #_______________________air-vehicle___________________________
-AirbusA319(EasyJet)
-Airbus A319 (low-cost)
-AirbusA319(BritishAirways)
-Airbus A319 (standard)
-AirbusA321(Monarch)
+airbus-a319-high-density
+Airbus A319 (high density)
+airbus-a319
+Airbus A319
+airbus-a321
 Airbus A321
-AirbusA318(BritishAirways)
+airbus-a321-high-density
+Airbus A321 (high density)
+airbus-a318
 Airbus A318
-AirbusA320(Thomson)
+airbus-a318-high-density
+Airbus A318 (high density)
+airbus-a320
 Airbus A320
-BAE146_300(JerseyEuropean)
-BAE 146 300 Series
-BAE146_100(DanAirLondon)
-BAE 146 100 Series
-BAE146_300QT(TNT)Post
-BAE 146 300 Series (mail)
-BAE146_300QT(TNT)Piece
-BAE 146 300 Series (piece goods)
-BAE146_300QT(TNT)Cool
-BAE 146 300 Series (perishable goods)
-ATR_42_320(BlueIslands)
-ATR 42 320 Series
-ATR_42_300F(FedEx)Post
-ATR 42 300 Series (mail)
-ATR_42_300F(FedEx)Piece
-ATR 42 300 Series (piece goods)
-ATR_42_300F(FedEx)Cool
-ATR 42 300 Series (perishable goods)
-ATR_42_500F(DHL)Post
-ATR 42 500F Series (mail)
-ATR_42_500F(DHL)Piece
-ATR 42 500F Series (goods)
-ATR_42_500F(DHL)Cool
-ATR 42 500F Series (perishable goods)
-ATR_42_500(TitanAirways)
-ATR 42 500 Series
-ATR72_200(FedEx)Post
-ATR 72 200 Series (mail)
-ATR72_200(FedEx)Piece
-ATR 72 200 Series (piece goods)
-ATR72_200(FedEx)Cool
-ATR 72 200 Series (perishable goods)
-ATR72_200(BritishAirways)
-ATR 72 200 Series
-ATR_72_500(AurignyAirServices)
-ATR 72 500 Series
-ATR_72_500(FarnairEurope)Post
-ATR 72 500 Series
-Airbus320(AerLingus)Post
+airbus-a320-high-density
+Airbus A320 (high density)
+airbus-a320-post
 Airbus A320 (mail)
-Airbus320(AerLingus)Piece
+airbus-a320-piece
 Airbus A320 (piece goods)
-Airbus320(AerLingus)Cool
+airbus-a320-cool
 Airbus A320 (perishable goods)
+bae-146-300
+BAE 146 300
+bae-146-100
+BAE 146 100
+bae-146-300qt-mail
+BAE 146 300 (mail)
+bae-146-300qt-piece
+BAE 146 300 (piece goods)
+bae-146-300qt-cool
+BAE 146 300 (perishable goods)
+bae-atp
+BAE ATP
+bae-atp-high-density
+BAE ATP (high density)
+atr-42-320
+ATR 42 320 Series
+atr-42-300f-post
+ATR 42 300 Series (mail)
+atr-42-300f-piece
+ATR 42 300 Series (piece goods)
+atr-42-300f-cool
+ATR 42 300 Series (perishable goods)
+atr-42-500f-post
+ATR 42 500F Series (mail)
+atr-42-500f-piece
+ATR 42 500F Series (goods)
+atr-42-500f-cool
+ATR 42 500F Series (perishable goods)
+atr-42-500
+ATR 42 500 Series
+atr-72-200f-post
+ATR 72 200 Series (mail)
+atr-72-200f-piece
+ATR 72 200 Series (piece goods)
+atr-72-200f-cool
+ATR 72 200 Series (perishable goods)
+atr-72-200
+ATR 72 200 Series
+atr-72-500
+ATR 72 500 Series
+atr-72-500-post
+ATR 72 500 Series
 aero-commander-681
 Aero Commander 680 "Courser"
 aero-commander-500
@@ -158,21 +217,29 @@ fairchild-metroliner-cool
 Fairchild Metroliner (perishable goods)
 FordTrimotorMail
 Ford Trimotor (mail)
-Ford-Trimotor-NSA
+ford-trimotor
 Ford Trimotor
 Fokker-F27-200
-Fokker F27 200
-Fokker_F27_100_300_BritishMidlandAir
-Fokker F27 100 300
-Fokker_F27_100_300_RoyalMail(Post)
-Fokker F27 100 300 (mail)
-BAC_111_200(BUA)
+Fokker F27-200 "Friendship"
+fokker-f27-100
+Fokker F27-100 "Friendship"
+fokker-f27-100-mail
+Fokker F27-100 "Friendship" (mail)
+Fokker-F27-500
+Fokker F27-500 "Friendship"
+Fokker-F27-500-high-density
+Fokker F27-500 "Friendship" (high density)
+fokker-f50
+Fokker 50
+fokker-f50-high-density
+Fokker 50 (high density)
+bac-1-11-200
 BAC One-eleven 200 Series
-BAC_111_500(Caledonian)
+bac-1-11-500
 BAC One-eleven 500 Series	
-Vickers Viscount 757 (Cambrian)
-Vickers Viscount 757 Series
-Vickers Viscount 802 (BEA)
+vickers-vc2-viscount-757
+Vickers VC-2 Viscount Type 757
+vickers-vc2-viscount-802
 Vickers Viscount 802 Series
 vickers-vanguard-952
 Vickers Vanguard 952
@@ -186,12 +253,20 @@ vickers-vanguard-953-cool
 Vickers Vanguard 953 "Merchantman" (perishable goods)
 vickers-vc10
 Vickers VC-10
+vickers-vc10-high-density
+Vickers VC-10 (high density)
 vickers-super-vc10
 Vickers Super VC-10
+vickers-super-vc10-high-density
+Vickers Super VC-10 (high density)
 convair-cv880
 Convair 880
+convair-cv880-high-density
+Convair 880 (high density)
 convair-cv990
 Convair 990 "Coronado"
+convair-cv990-high-density
+Convair 990 "Coronado" (high density)
 lockheed-10-electra
 Lockheed Model 10 Electra
 lockheed-vega
@@ -204,20 +279,40 @@ lockheed-orion-mail
 Lockheed Orion (mail)
 lockheed-l049-constellation
 Lockheed L-049 Constellation
+lockheed-l049-constellation-high-density
+Lockheed L-049 Constellation (high density)
 lockheed-l1049-c-super-constellation
 Lockheed L-1049C Super Constellation
+lockheed-l1049-c-super-constellation-high-density
+Lockheed L-1049C Super Constellation (high density)
 lockheed-l1049-g-super-constellation
 Lockheed L-1049G Super Constellation
+lockheed-l1049-g-super-constellation-high-density
+Lockheed L-1049G Super Constellation (high density)
 lockheed-l1649-starliner
 Lockheed L-1649A Starliner
+lockheed-l1649-starliner-high-density
+Lockheed L-1649A Starliner (high density)
 lockheed-electra-l188
-Lockheed L-188 Electra
+Lockheed L-188A Electra
+lockheed-electra-l188-high-density
+Lockheed L-188A Electra (high density)
+lockheed-electra-l188-c
+Lockheed L-188C Electra
+lockheed-electra-l188-c-high-density
+Lockheed L-188C Electra (high density)
 tristar-1
 Lockheed L-1011-1 Tristar
+tristar-1-high-density
+Lockheed L-1011-1 Tristar (high density)
 tristar-200
 Lockheed L-1011-200 Tristar
+tristar-200-high-density
+Lockheed L-1011-200 Tristar (high density)
 tristar-500
 Lockheed L-1011-500 Tristar
+tristar-500-high-density
+Lockheed L-1011-500 Tristar (high density)
 boeing-247
 Boeing 247
 boeing-247-mail
@@ -227,69 +322,129 @@ Boeing 307 Stratoliner
 boeing-377
 Boeing 377 Stratocruiser
 Boeing_707_120
-Boeing 707 120 series
-Boeing_707_420(BOAC)
-Boeing 707 420 series
-707_320C(PelicanCargoAirlines)Post
-Boeing 707 320 series
-Boeing_727_200(BritishAirWays)
-Boeing 727 200 series
-Boeing_727_200Adv(DHL)Post
-Boeing 727 200 Advanced series (mail)
-Boeing727_100(UPS)Cargo
-Boeing 727 100 series (piece goods)
-Boeing727_100(UPS)CargoCool
-Boeing 727 100 series (perishable goods)
-Boeing_727_200(TNT)CargoPiece
-Boeing 727 200 series (piece goods)
-Boeing_727_200(TNT)CargoCool
-Boeing 727 200 series (perishable goods)
-Boeing_727_100(DanAirLondon)
-Boeing 727 100 series
-Boeing727_100(DHL)Post
-Boeing 727 200 series (mail)
+Boeing 707-120
+boeing-707-120-high-density
+Boeing 707-120 (high density)
+boeing-707-420
+Boeing 707-420
+boeing-707-420-high-density
+Boeing 707-420 (high density)
+boeing-707-320c
+Boeing 707-320
+boeing-727-200
+Boeing 727-200
+boeing-727-200-high-density
+Boeing 727-200 (high density)
+boeing-727-200-advanced-mail
+Boeing 727-200 Advanced (mail)
+boeing-727-100-piece
+Boeing 727-100 (piece goods)
+boeing-727-100-cool
+Boeing 727-100 (perishable goods)
+boeing-727-200-advanced-piece
+Boeing 727-200 (piece goods)
+boeing-727-200-advanced-cool
+Boeing 727 200 (perishable goods)
+boeing-727-100
+Boeing 727-100 
+boeing-727-100-high-density
+Boeing 727-100 (high density)
+boeing-727-100-mail
+Boeing 727-200 (mail)
 boeing-737-100
 Boeing 737-100
+boeing-737-100-high-density
+Boeing 737-100 (high density)
 boeing-737-200
 Boeing 737-200
+boeing-737-200-high-density
+Boeing 737-200 (high density)
 boeing-737-300
 Boeing 737-300
+boeing-737-300-high-density
+Boeing 737-300 (high density)
 boeing-737-400
 Boeing 737-400
+boeing-737-400-high-density
+Boeing 737-400 (high density)
 boeing-737-700
 Boeing 737-700
+boeing-737-700-high-density
+Boeing 737-700 (high density)
 boeing-737-800
 Boeing 737-800
+boeing-737-800-high-density
+Boeing 737-800 (high density)
 boeing-737-900er
 Boeing 737-900ER
-Boeing_747_100(BOAC)
-Boeing 747 100 series
-Boeing_747_200(BritishCaledonian)
-Boeing 747 200 series
-Boeing_747_400(BritishAirWays)
-Boeing 747 400 series
-747_400F(CargoLux)Post
-Boeing 747 400 series (mail)
-Boeing_747_200F(SeaboardWorld)
-Boeing 747 200F series (mail)
+boeing-737-900er-high-density
+Boeing 737-900ER (high density)
+boeing-737-max-7
+Boeing 737 MAX 7
+boeing-737-max-7-high-density
+Boeing 737 MAX 7 (high density)
+boeing-737-max-8
+Boeing 737 MAX 8
+boeing-737-max-8-high-density
+Boeing 737 MAX 200
+boeing-737-max-9
+Boeing 737 MAX 9
+boeing-737-max-9-high-density
+Boeing 737 MAX 9 (high density)
+boeing-747-100
+Boeing 747-100
+boeing-747-100-high-density
+Boeing 747-100 (high density)
+boeing-747-200
+Boeing 747-200B
+boeing-747-200-high-density
+Boeing 747-200B (high density)
+boeing-747-400
+Boeing 747-400
+boeing-747-400-high-density
+Boeing 747-400 (high density)
+boeing-747-400f-mail
+Boeing 747-400F (mail)
+boeing-747-400f-piece
+Boeing 747-400F (piece goods)
+boeing-747-400f-cool
+Boeing 747-400F (perishable goods)
+boeing-747-200f-mail
+Boeing 747-200F (mail)
+boeing-747-200f-piece
+Boeing 747-200F (piece goods)
+boeing-747-200f-cool
+Boeing 747-200F (perishable goods)
+boeing-747-8i
+Boeing 747-8i
+boeing-747-8f-piece
+Boeing 747-8f (piece goods)
+boeing-747-8f-cool
+Boeing 747-8f (perishable goods)
 boeing-787-8
 Boeing 787-8 "Dreamliner"
+boeing-787-8-high-density
+Boeing 787-8 "Dreamliner" (high density)
 boeing-787-9
 Boeing 787-9 "Dreamliner"
+boeing-787-9-high-density
+Boeing 787-9 "Dreamliner" (high density)
 boeing-787-10
 Boeing 787-10 "Dreamliner"
-Aerospatiale_BAC_Concorde(BritishAirWays)
+aerospatiale-bac-concorde
 Aerospatiale/BAC Concorde
-Zeppelin_LZ127_GrafZeppelin
+zeppelin-lz127
 Graf Zeppelin LZ 127
-Zeppelin_LZ127_GrafZeppelin_Mail
+zeppelin-lz127-mail
 Graf Zeppelin LZ 127 (mail)
 Zeppelin_LZ10
 Zeppelin LZ 10 "Schwaben"
 Zeppelin_LZ10_Mail
 Zeppelin LZ 10 "Schwaben" (mail)
-Zeppelin_LZ6
+zeppelin-lz6
 Zeppelin LZ 6
+zeppelin-lz-129
+Graf Zeppelin LZ 129 "Hindenburg"
 HandleyPageO400
 Handley Page O/400
 HandleyPageO400_Mail
@@ -309,7 +464,13 @@ Junkers W34 (mail)
 ju-52
 Junkers JU 52
 caravelle
-Sud Aviation Caravelle
+Sud Aviation SE 210 Caravelle III
+caravelle-high-density
+Sud Aviation SE 210 Caravelle III (high denisty)
+super-caravelle
+Sud Aviation SE 210 Super Caravelle 10B
+super-caravelle-high-density
+Sud Aviation SE 210 Super Caravelle 10B (high denisty)
 beechcraft-18
 Beechcraft Model 18
 beechcraft-18-mail
@@ -338,52 +499,58 @@ Douglas_DC3A
 Douglas DC-3A "Dakota"
 Douglas_DC3A_Mail
 Douglas DC-3A "Dakota" (mail)
-Douglas_DC4_BritishUnitedAirways
+douglas-dc-4
 Douglas DC-4
-Douglas_DC4_C54_CargoPiece
+douglas-c54-piece
 Douglas DC-4 (piece goods)
-Douglas_DC4_C54_CargoCool
+douglas-c54-cool
 Douglas DC-4 (perishable goods)
-Douglas_DC4_C54_Mail
+douglas-c54-mail
 Douglas DC-4 (mail)
-Bristol_Type170_Mk32_BritishUnitedAirFerries
-Bristol Type 170 Mk32
-Bristol_Type170_Mk32_RoyalMail
+bristol-type-170
+Bristol Type 170 "Wayfarer"
+bristol-type-170-mail
 Bristol Type 170 Mk32 (mail)
-Bristol_Type170_Mk32_CargoCar
+bristol-type-170-cars
 Bristol Type 170 Mk32 (cars)
-Bristol_Type170_Mk32_CargoPiece
+bristol-type-170-piece
 Bristol Type 170 Mk32 (piece goods)
-Bristol_Type170_Mk32_CargoCool
+bristol-type-170-cool
 Bristol Type 170 Mk32 (perishable goods)
 bristol-britannia
 Bristol Britannia
-Vickers_VC1b_Viking_AirFerry
+vickers-vc1b-viking
 Vickers Viking VC1b
 MailMonoPlane
 Mail Mono Plane
-Douglas_DC6_LloydInternationalAirways
+douglas-dc-6
 Douglas DC-6
-Douglas_DC6A_RoyalMail
+douglas-dc-6-high-density
+Douglas DC-6 (high density)
+douglas-dc-6a-mail
 Douglas DC-6A
-Douglas_DC6A_CargoPiece
+douglas-dc-6a-piece
 Douglas DC-6A
-Douglas_DC6A_CargoCool
+douglas-dc-6a-cool
 Douglas DC-6A
-Douglas_DC6_BritishEagleAirways
+douglas-dc-6b
 Douglas DC-6B
-Douglas_DC4_BritishUnitedAirways
+douglas-dc-4
 Douglas DC-4
-Douglas_DC4_C54_Mail
+douglas-c54-mail
 Douglas C-54
-Douglas_DC4_C54_CargoPiece
+douglas-c54-piece
 Douglas C-54
-Douglas_DC4_C54_CargoCool
+douglas-c54-cool
 Douglas C-54
 douglas-dc7
 Douglad DC-7
+douglas-dc7-high-density
+Douglad DC-7 (high density)
 douglas-dc7c
 Douglas DC-7C "Seven Seas"
+douglas-dc7c-high-density
+Douglas DC-7C "Seven Seas" (high density)
 dhc3-otter
 DHC 3 Otter (mail)
 twin-otter-300
@@ -400,14 +567,28 @@ dh-comet-1
 De Havilland Comet
 dh-comet-4
 De Havilland Comet 4
+dh-comet-4-high-density
+De Havilland Comet 4 (high density)
+dh-comet-4b
+De Havilland Comet 4B
+dh-comet-4b-high-density
+De Havilland Comet 4B (high density)
 dh-comet-4c
 De Havilland Comet 4C
+dh-comet-4c-high-density
+De Havilland Comet 4C (high density)
 hs-trident-1c
 Hawker Siddeley Trident 1C
+hs-trident-1c-high-density
+Hawker Siddeley Trident 1C (high density)
 hs-trident-2e
 Hawker Siddeley Trident 2E
+hs-trident-2e-high-density
+Hawker Siddeley Trident 2E (high density)
 hs-trident-3b
 Hawker Siddeley Trident 3B
+hs-trident-3b-high-density
+Hawker Siddeley Trident 3B (high density)
 erj-145
 Embraer ERJ 145
 airspeed-ambassador
@@ -604,6 +785,14 @@ Crossing1750
 Open crossing
 Crossing1850
 Open crossing
+crossing-dirt-iron
+Open crossing
+crossing-cobbles-wood-waggonway
+Open crossing
+crossing-cobbles-iron-waggonway
+Open crossing
+crossing-dirt-iron-waggonway
+Open crossing
 #_____________________________________depot______________________________________
 #_____________________________________depot______________________________________
 AirHangarOld
@@ -723,7 +912,7 @@ Block of Flats
 RES_KG_1950_00_24
 Block of Flats
 RES_KG_1980_02_48
-Block of Flats
+Luxury flats
 COM_KG_1870_00_06
 Freehouse Pub
 COM_KG_1880_02_06
@@ -807,31 +996,31 @@ Warehouse
 COM_A_1750_00_10
 Inn
 COM_A_1750_01_08
-Terraced Shops
+Terraced shops
 COM_A_1750_02_08
-Terraced Shops
+Terraced shops
 COM_A_1880_00_10
-Shops and Offices
+Shops and offices
 IND_JH_1900_00_05
-Electrical Substation
+Electrical substation
 IND_WL_1980_00_04
 Car Park
 RES_A_1750_00_08
-Terraced Town Houses
+Terraced town houses
 RES_A_1750_01_08
-Terraced Houses
+Terraced houses
 RES_A_1880_00_15
 Tenements
 RES_A_1880_01_15
 Tenements
 RES_A_1750_01_08
-Terraced Houses
+Terraced houses
 RES_A_1750_02_03
 Cottage
 COM_A_1750_03_07
-Coaching Inn
+Coaching inn
 RES_A_1900_00_08
-Terraced Town Houses
+Terraced town houses
 RES_A_1870_00_12
 Tenements
 RES_A_1870_01_15
@@ -841,11 +1030,11 @@ Warehouse
 IND_A_1950_02_10
 Warehouse
 IND_A_1950_03_10
-Warehouse
+Light industrial unit
 IND_A_1750_00_10
 Workshop
 COM_A_1850_00_10
-The Swan Inn
+Beer House
 RES_A_1950_00_24
 Tower block
 RES_A_1950_00_28
@@ -858,8 +1047,12 @@ IND_A_1850_00_20
 Tower block
 COM_A_1750_04_06
 Shops
+COM_SAR_1880_00_24
+Shops and offices
 IND_A_1830_00_10
 Tileworks
+IND_A_1835_01_20
+Warehouse
 RES_JH_1750_01_01
 Hovels
 RES_JH_1750_02_01
@@ -1021,7 +1214,7 @@ Offices
 #____________________________________attractions____________________________________
 #____________________________________attractions____________________________________
 1980s-Small-Church
-Small Church
+Church
 1990s-Small-Library
 Library
 OldLibrary
@@ -1029,7 +1222,7 @@ Library
 Georgian_Mansion
 Manor house
 Greenhouse
-Greenhouse
+Botanical Gardens
 Large_Football_Ground
 Football stadium
 Small_Cricket_Ground
@@ -1041,7 +1234,7 @@ Rugby pitch
 Stonehenge
 Stonehenge
 Knight_Monument
-Monument of a Knight
+Chivalric Monument
 War_Memorial
 War Memorial
 NelsonColumn2
@@ -1051,19 +1244,19 @@ Fountain
 OldBrickSchool
 School
 LittlePark1870_1
-Small Park
+Park
 LittlePark1870_2
-Small Park
+Park
 Park1930_1
-Small Park
+Park
 Park1930_2
-Small Park
+Park
 SmallFountain
 Fountain
 BellTower
 Bell Tower
 OldTower
-Old Tower
+Tower
 CityCemetery
 Cemetery
 ParishChurchStMichaels
@@ -1099,7 +1292,7 @@ Castle
 Castle2
 Castle
 CastleKeep
-Castle Keep
+Castle
 Folly1
 Folly
 Folly2
@@ -1115,15 +1308,15 @@ Hospital
 #____________________________________factory____________________________________
 #____________________________________factory____________________________________
 ArableFarm1750
-Arable Farm
+Vegetable farm
 ArableFarm1840
-Arable Farm
+Vegetable farm
 ArableFarm1910
-Arable Farm
+Vegetable farm
 ArableFarm1945
-Arable Farm
+Vegetable farm
 ArableFarm1975
-Arable Farm
+Vegetable farm
 Bakery1750
 Bakery
 Bakery1840
@@ -1145,7 +1338,7 @@ Bookshop
 Bookshop1970
 Bookshop
 Brewery1750
-Brewery
+Common brewhouse
 Brewery1840
 Brewery
 Brewery1910
@@ -1165,17 +1358,17 @@ Brickworks
 Brickworks1985
 Brickworks
 BuildersYard1750
-Builders' Yard
+Builders' yard
 BuildersYard1800
-Builders' Yard
+Builders' yard
 BuildersYard1850
-Builders' Yard
+Builders' yard
 BuildersYard1905
-Builders' Yard
+Builders' yard
 BuildersYard1960
-Builders' Yard
+Builders' yard
 BuildersYard1985
-Builders' Yard
+Builders' yard
 Butchery1820
 Butcher
 Butchery1840
@@ -1193,7 +1386,7 @@ Cannery (meat)
 Cannery-meat1945
 Cannery (meat)
 Cannery-meat1975
-Food Processing Plant (meat)
+Food processing plant (meat)
 Cannery-fish1810
 Cannery (fish)
 Cannery-fish1860
@@ -1203,7 +1396,7 @@ Cannery (fish)
 Cannery-fish1945
 Cannery (fish)
 Cannery-fish1975
-Food Processing Plant (fish)
+Food processing plant (fish)
 Cannery-fruit1810
 Cannery (fruit)
 Cannery-fruit1860
@@ -1213,45 +1406,51 @@ Cannery (fruit)
 Cannery-fruit1945
 Cannery (fruit)
 Cannery-fruit1975
-Food Processing Plant (fruit)
+Food processing plant (fruit)
+Wainwright1750
+Wainwright
+Wainwright1790
+Wainwright
+Wainwright1840
+Wainwright
 CarDealership1910
-Car Dealership
+Car dealership
 CarDealership1925
-Car Dealership
+Car dealership
 CarDealership1950
-Car Dealership
+Car dealership
 CarDealership1970
-Car Dealership
+Car dealership
 CarFactory1910
-Car Factory
+Car factory
 CarFactory1925
-Car Factory
+Car factory
 CarFactory1950
-Car Factory
+Car factory
 CarFactory1970
-Car Factory
+Car factory
 CarFactory1980
-Car Factory
+Car factory
 CattleFarm1750
-Cattle Farm
+Cattle farm
 CattleFarm1840
-Cattle Farm
+Cattle farm
 CattleFarm1910
-Cattle Farm
+Cattle farm
 CattleFarm1945
-Cattle Farm
+Cattle farm
 CattleFarm1975
-Cattle Farm
+Cattle farm
 CementWorks1800
-Cement Works
+Cement works
 CementWorks1850
-Cement Works
+Cement works
 CementWorks1905
-Cement Works
+Cement works
 CementWorks1960
-Cement Works
+Cement works
 CementWorks1985
-Cement Works
+Cement works
 Chemist1860
 Chemist
 Chemist1955
@@ -1259,31 +1458,31 @@ Chemist
 Chemist1975
 Chemist
 ChinaShop1750
-China Shop
+China shop
 ChinaShop1850
-China Shop
+China shop
 ChinaShop1905
-China Shop
+China shop
 ClayPit1750
-Clay Pit
+Clay pit
 ClayPit1750
-Clay Pit
+Clay pit
 ClayPit1850
-Clay Pit
+Clay pit
 ClayPit1905
-Clay Pit
+Clay pit
 ClayPit1960
-Clay Pit
+Clay pit
 ClayPit1985
-Clay Pit
+Clay pit
 ClothesShop1750
-Clothes Shop
+Clothes shop
 ClothesShop1840
-Clothes Shop
+Clothes shop
 ClothesShop1910
-Clothes Shop
+Clothes shop
 ClothesShop1945
-Clothes Shop
+Clothes shop
 CoalMine1750
 Colliery
 CoalMine1790
@@ -1299,21 +1498,21 @@ Colliery
 CoalMine1970
 Colliery
 CoalPowerStation1882kraftwerk
-Coal-fired Power Station
+Coal-fired power station
 CoalPowerStation1910kraftwerk
-Coal-fired Power Station
+Coal-fired power station
 CoalPowerStation1920kraftwerk
-Coal-fired Power Station
+Coal-fired power station
 CoalPowerStation1955kraftwerk
-Coal-fired Power Station
+Coal-fired power station
 CoalPowerStation1970kraftwerk
-Coal-fired Power Station
+Coal-fired power station
 CoalYard1750
-Coal Merchant
+Coal merchant
 CoalYard1850
-Coal Merchant
+Coal merchant
 CoalYard1920
-Coal Merchant
+Coal merchant
 Dairy1750
 Dairy
 Dairy1840
@@ -1325,13 +1524,13 @@ Dairy
 Dairy1975
 Dairy
 DepartmentStore1907
-Department Store
+Department store
 DepartmentStore1935
-Department Store
+Department store
 DepartmentStore1960
-Department Store
+Department store
 DepartmentStore1990
-Department Store
+Department store
 FishingGround1750
 Fishery
 FishingGround1840
@@ -1351,67 +1550,67 @@ Fishmonger
 Fishmongers1945
 Fishmonger
 Fish-ChipShop1945
-Fish & Chip shop
+Fish & chip shop
 Fish-ChipShop1975
-Fish & Chip shop
+Fish & chip shop
 ForestSawmill1750
-Forest / Sawmill
+Forest / sawmill
 ForestSawmill1850
-Forest / Sawmill
+Forest / sawmill
 ForestSawmill1920
-Forest / Sawmill
+Forest / sawmill
 ForestSawmill1950
-Forest / Sawmill
+Forest / sawmill
 ForestSawmill1970
-Forest / Sawmill
+Forest / sawmill
 FurnitureFactory1750
-Furniture Factory
+Cabinet maker's workshop
 FurnitureFactory1850
-Furniture Factory
+Furniture factory
 FurnitureFactory1920
-Furniture Factory
+Furniture factory
 FurnitureFactory1950
-Furniture Factory
+Furniture factory
 FurnitureFactory1970
-Furniture Factory
+Furniture factory
 FurnitureShop1750
-Furniture Shop
+Furniture shop
 FurnitureShop1850
-Furniture Shop
+Furniture shop
 FurnitureShop1920
-Furniture Shop
+Furniture shop
 FurnitureShop1950
-Furniture Shop
+Furniture shop
 FurnitureShop1970
-Furniture Shop
+Furniture shop
 GasPowerStation1985kraftwerk
-Gas fired Power Station
+Gas fired power station
 GasPowerStation1995kraftwerk
-Gas fired Power Station
+Gas fired power station
 Gasworks1860
 Gasworks
 Gasworks1900
 Gasworks
 GrainFarm1750
-Grain Farm
+Grain farm
 GrainFarm1840
-Grain Farm
+Grain farm
 GrainFarm1910
-Grain Farm
+Grain farm
 GrainFarm1945
-Grain Farm
+Grain farm
 GrainFarm1975
-Grain Farm
+Grain farm
 GrainMill1750
 Windmill
-GrainMill1840
-Grain Mill
-GrainMill1910
-Grain Mill
+GrainMill1820
+Grain mill
+GrainMill1880
+Grain mill
 GrainMill1945
-Grain Mill
+Grain mill
 GrainMill1975
-Grain Mill
+Grain mill
 Greengrocers1820
 Greengrocer
 Greengrocers1840
@@ -1429,41 +1628,41 @@ Grocer
 Grocer1945
 Grocer
 Convenience1975
-Convenience Shop
+Convenience shop
 Supermarket1950
-Convenience Shop
+Convenience shop
 Supermarket1960
 Supermarket
 Supermarket1980
 Supermarket
 HardwareFactory1790
-Hardware Factory
+Hardware factory
 HardwareFactory1850
-Hardware Factory
+Hardware factory
 HardwareFactory1920
-Hardware Factory
+Hardware factory
 HardwareFactory1950
-Hardware Factory
+Hardware factory
 HardwareShop1750
-Hardware Shop
+Hardware shop
 HardwareShop1850
-Hardware Shop
+Hardware shop
 HardwareShop1920
-Hardware Shop
+Hardware shop
 HardwareShop1950
-Hardware Shop
+Hardware shop
 HardwareShop1945
-Hardware Shop
+Hardware shop
 IronOreMine1750
-Iron Ore Mine
+Iron Ore mine
 IronOreMine1850
-Iron Ore Mine
+Iron Ore mine
 IronOreMine1920
-Iron Ore Mine
+Iron Ore mine
 IronOreMine1950
-Iron Ore Mine
+Iron Ore mine
 IronOreMine1970
-Iron Ore Mine
+Iron Ore mine
 Ironworks1750
 Ironworks
 Ironworks1790
@@ -1487,17 +1686,17 @@ Newsagent
 Newsagent1970
 Newsagent
 OilPowerStation1950kraftwerk
-Oil-fired Power Station
+Oil-fired power station
 OilPowerStation1970kraftwerk
-Oil-fired Power Station
+Oil-fired power station
 OilRefinery1910
-Oil Refinery
+Oil refinery
 OilRefinery1925
-Oil Refinery
+Oil refinery
 OilRefinery1955
-Oil Refinery
+Oil refinery
 OilRefinery1975
-Oil Refinery
+Oil refinery
 OilRig1955
 Oil Rig
 OilRig1975
@@ -1519,31 +1718,31 @@ Orchard
 Orchard1975
 Orchard
 PaperMill1750
-Paper Mill
+Paper mill
 PaperMill1860
-Paper Mill
+Paper mill
 PaperMill1920
-Paper Mill
+Paper mill
 PaperMill1950
-Paper Mill
+Paper mill
 PaperMill1970
-Paper Mill
+Paper mill
 PetrolStation1910
-Petrol Station
+Petrol station
 PetrolStation1925
-Petrol Station
+Petrol station
 PetrolStation1955
-Petrol Station
+Petrol station
 PetrolStation1975
-Petrol Station
+Petrol station
 PharmaceuticalFactory1860
-Pharmaceuticals Factory
+Pharmaceuticals factory
 PharmaceuticalFactory1920
-Pharmaceuticals Factory
+Pharmaceuticals factory
 PharmaceuticalFactory1955
-Pharmaceuticals Factory
+Pharmaceuticals factory
 PharmaceuticalFactory1975
-Pharmaceuticals Factory
+Pharmaceuticals factory
 Pottery1750
 Pottery
 Pottery1850
@@ -1561,11 +1760,11 @@ Printworks
 Printworks1970
 Printworks
 Pub1750
-Pub
+Tavern
 Pub1840
-Pub
+Public House
 Pub1910
-Pub
+Pubblic House
 Pub1945
 Pub
 Pub1975
@@ -1581,15 +1780,15 @@ Quarry
 Quarry1985
 Quarry
 SheepFarm1750
-Sheep Farm
+Sheep farm
 SheepFarm1840
-Sheep Farm
+Sheep farm
 SheepFarm1910
-Sheep Farm
+Sheep farm
 SheepFarm1945
-Sheep Farm
+Sheep farm
 SheepFarm1975
-Sheep Farm
+Sheep farm
 Slaughterhouse1750
 Slaughter-house
 Slaughterhouse1840
@@ -1601,9 +1800,9 @@ Slaughter-house
 Slaughterhouse1975
 Slaughter-house
 SteelMill1790
-Steel Mill
+Steel mill
 SteelMill1855
-Steel Mill
+Steel mill
 SteelMill1920
 Steelworks
 SteelMill1950
@@ -1611,29 +1810,29 @@ Steelworks
 SteelMill1990
 Steelworks
 TextileMill1750
-Textile Mill
+Textile mill
 TextileMill1840
-Textile Mill
+Textile mill
 TextileMill1910
-Textile Mill
+Textile mill
 TextileMill1945
-Textile Mill
+Textile mill
 TextileMill1975
-Textile Mill
+Textile mill
 FishPort1750
-Fishing Port
+Fishing port
 FishPort1840
-Fishing Port
+Fishing port
 FishPort1910
-Fishing Port
+Fishing port
 FishPort1945
-Fishing Port
+Fishing port
 FishPort1975
-Fishing Port
+Fishing port
 GasPowerStation1985kraftwerk
-Gas-fired Power Station
+Gas-fired power station
 GasPowerStation1995kraftwerk
-Gas-fired Power Station
+Gas-fired power station
 Market1750
 Market
 Market1840
@@ -1755,8 +1954,8 @@ paletten
  crates
 sack
  sacks
-  bundles
-  bundles
+ bundles
+  bundles 
 m3
 kL
 #_____________________________________misc______________________________________
@@ -1904,6 +2103,14 @@ Vane auxilliary signal
 vane-signal-junction
 Vane choose signal
 vane-station-signal
+Vane station signal
+vane-signal-stop-with-telegraph
+Vane signal
+vane-signal-distant-with-telegraph
+Vane auxilliary signal
+vane-signal-junction-with-telegraph
+Vane choose signal
+vane-station-signal-with-telegraph
 Vane station signal
 sp-semaphore-stop
 Slotted post stop signal
@@ -2097,7 +2304,7 @@ lq-semaphore-junction-white-narrow
 Semaphore choose signal
 lq-semaphore-token-narrow
 Semaphore token block signal
-lq-semaphore-token-white
+lq-semaphore-token-white-narrow
 Semaphore token block signal
 lq-semaphore-combined-red-white-narrow
 Semaphore combined signal
@@ -2144,7 +2351,7 @@ Five aspect searchlight signal
 speed-signal-permissive
 Five aspect searchlight signal (permissive block)
 speed-signal-choose
-Five aspect searchlight chose signal
+Five aspect searchlight choose signal
 retb-board
 Radio Electronic Token Block stop board
 tvm-stop-board
@@ -2409,6 +2616,10 @@ LMS-Stanier-5MT
 LMS Class 5MT "Black Five" 4-6-0
 LMS-Stanier-5MT-Tender
 LMS Class 5MT "Black Five" (tender)
+stevenson-goods
+Stephenson goods engine 0-4-2
+vulcan
+Stephenson "Vulcan" 0-6-0
 LMR-Lion
 LMR "Lion" 0-4-2
 LMR-Planet
@@ -2613,18 +2824,20 @@ BR-Class91
 BR Class 91 "Electra"
 BR-Class92
 BR Class 92
-BR-370FrontPower(IC)
-BR Class 370 APT (front power unit)
-BR-370RearPower(IC)
-BR Class 370 APT (rear power unit)
 BR-373FrontCab
 BR Class 373 "Eurostar"
 BR-373RearCab
-BR Class 373 "Eurostar" (rear cab)
-BR-251Front
-BR Class 251 "Blue Pullman"
-BR-251Rear
-BR Class 251 "Blue Pullman" (rear cab)
+BR Class 373 "Eurostar" (rear)
+BR-373Coach
+BR Class 373 "Eurostar" (carriage, standard class)
+BR-373CoachFirstClass
+BR Class 373 "Eurostar" (carriage, first class)
+BR-373FrontPower
+BR Class 373 "Eurostar" (front power)
+BR-373RearPower
+BR Class 373 "Eurostar" (rear power)
+BR-373Catering
+BR Class 373 "Eurostar" (buffet)
 BR-442-Front
 BR Class 442 "Wessex Electric" (driving trailer - front)
 BR-442-Middle1
@@ -2637,32 +2850,136 @@ BR-442-Rear
 BR Class 442 "Wessex Electric" (driving trailer - rear)
 passenger-wagon
 Passenger wagon
+l&s-enclosed-carriage
+Light enclosed carriage
+l&s-enclosed-carriage-brake-front
+Light enclosed brake carriage
+l&s-enclosed-carriage-brake-rear
+Light enclosed brake carriage
+l&s-composite-carriage
+Light composite carriage
+l&s-composite-carriage-brake-front
+Light composite brake carriage
+l&s-composite-carriage-brake-rear
+Light composite brake carriage
+l&s-open-carriage
+Light open carriage
+railway-mail-locker
+Mail locker
+railway-mail-locker-rear
+Mail locker
+LMR-4Wheel-mail-short-wheelbase
+Four wheel mail carriage (+ mail locker)
+LMR-4Wheel-mail-short-wheelbase-Guard-front
+Four wheel mail brake carriage (+ mail locker)
+LMR-4Wheel-mail-short-wheelbase-Guard-rear
+Four wheel mail brake carriage (+ mail locker)
+lmr-4wheel-open-coach-short-wheelbase-covered
+Four wheel covered carriage (second class)
+lmr-4wheel-open-coach-short-wheelbase
+Four wheel open carriage (second class)
+LMR-4wheel-first-short-wheelbase
+Four wheel carriage (first class)
+LMR-4wheel-first-short-wheelbase-Guard-front
+Four wheel brake carriage (first class)
+LMR-4wheel-first-short-wheelbase-Guard-rear
+Four wheel brake carriage (first class)
 LMR-4Wheel-First
-Four wheel carriage (enclosed)
+Four wheel carriage (first class)
 LMR-4Wheel-First-Guard-front
-Four wheel brake carriage (enclosed)
+Four wheel brake carriage (first class)
 LMR-4Wheel-First-Guard-rear
-Four wheel brake carriage (enclosed)
+Four wheel brake carriage (first class)
+LMR-4Wheel-Open-Coach
+Four wheel open carriage (second class)
+lmr-4wheel-open-second
+Four wheel covered carriage (second class)
 LMR-4Wheel-Parliamentary
-Four wheel Parliamentary carriage
+Four wheel Parliamentary carriage (third class)
+6wheel-parliamentary
+Six wheel Parliamentary carriage (third class)
+gjr-bed-carriage
+Four wheel bed carriage (+ mail locker)
 LMR-4Wheel-TPO
-Four wheel TPO
+Four wheel flying post office
+gjr-mail
+Mail stowage carriage
 LMR-4Wheel-Mail
-Four wheel mail carriage
+Four wheel mail carriage (+ mail locker)
 LMR-4Wheel-Mail-Guard-front
-Four wheel mail/brake carriage
+Four wheel mail/brake carriage (+ mail locker)
 LMR-4Wheel-Mail-Guard-rear
-Four wheel mail/brake carriage (rear)
+Four wheel mail/brake carriage (+ mail locker)
+lbr-4wheel-open-second
+Four wheel open sided carriage (second class)
+lbr-4wheel-open-second-brake
+Four wheel open sided brake carriage (second class)
+b&djr-4wheel-first
+Four wheel carriage (first class)
+b&djr-4wheel-first-Guard-front
+Four wheel brake carriage (first class)
+b&djr-4wheel-first-Guard-rear
+Four wheel brake carriage (first class)
+b&djr-4wheel-second
+Four wheel enclosed carriage (second class)
+b&djr-4wheel-second-Guard-front
+Four wheel enclosed brake carriage (second class)
+b&djr-4wheel-second-Guard-rear
+Four wheel enclosed brake carriage (second class)
+4wheel-open-third
+Four wheel open truck (third class)
+4wheel-stanhope-brake
+Four wheel Stanhope brake wagon (fourth class)
+4wheel-stanhope
+4 wheel Stanhope wagon (fourth class)
+6wheel-stanhope
+Six wheel Stanhope wagon (fourth class)
+6wheel-stanhope-brake
+Six wheel Stanhope brake wagon (fourth class)
+mcr-4wheel-open-second
+Four wheel open sided carriage (second class)
+mcr-4wheel-open-second-brake-front
+Four wheel open sided brake carriage (second class)
+mcr-4wheel-open-second-brake-rear
+Four wheel open sided brake carriage (second class)
+mcr-4wheel-open-third
+Four wheel open carriage (third class)
+mr-4wheel-composite
+Four wheel composite carriage (first/second class)
+mr-4wheel-1848-first
+Four wheel three compartment carriage (first class)
+mr-4wheel-1848-first-brake-front
+Four wheel three compartment front brake carriage (first class)
+mr-4wheel-1848-first-brake-rear
+Four wheel three compartment rear brake carriage (first class)
+mr-4wheel-1848-second
+Four wheel three compartment carriage (second class)
+mr-4wheel-1848-second-brake-front
+Four wheel three compartment front brake carriage (second class)
+mr-4wheel-1848-second-brake-rear
+Four wheel three compartment rear brake carriage (second class)
 4-wheel-1850s
-Four wheel three compartment carriage
+Four wheel four compartment carriage (third class)
+4-wheel-1850s-second
+Four wheel four compartment carriage (second class)
+4-wheel-1850s-first
+Four wheel three compartment carriage (first class)
+4-wheel-1850s-composite
+Four wheel three compartment composite carriage (first/second class)
 4-wheel-1850s-brake
 Four wheel mail/brake carriage
+4-wheel-1860s-first
+Four wheel three compartment carriage (first class)
+4-wheel-1860s-second
+Four wheel four compartment carriage (second class)
+4-wheel-1860s-composite
+Four wheel four compartment composite carriage (first/second class)
 4-wheel-1860s
-Four wheel four compartment carriage
+Four wheel four compartment carriage (third class)
 4-wheel-1860s-brake-front
-Four wheel two compartment brake carriage
+Four wheel two compartment brake carriage (third class)
 4-wheel-1860s-brake-rear
-Four wheel two compartment brake carriage
+Four wheel two compartment brake carriage (third class)
 4-wheel-1860s-full-brake
 Four wheel mail/brake carriage
 4-wheel-1860s-mail
@@ -2697,32 +3014,44 @@ Four wheel TPO (continuously braked)
 Four wheel fast goods van (passenger rated) (continuously braked)
 4-wheel-1870s-milk-fitted
 Four wheel milk van (passenger rated) (continuously braked)
+4-wheel-sub-1870s-unfitted-composite
+Four wheel four compartment suburban composite carriage (first/second class)
 4-wheel-sub-1870s-unfitted
-Four wheel five compartment carriage
+Four wheel four compartment luggage composite carriage (first/second class)
+4-wheel-1870s-luggage-third-unfitted
+Four wheel four compartment luggage carriage (third class)
+4-wheel-1870s-tricomposite-unfitted
+Four wheel three compartment tricomposite luggage carriage (first/second/third class)
 4-wheel-sub-1870s-brake-front-unfitted
-Four wheel three compartment brake carriage
+Four wheel three compartment suburban brake carriage (third class)
 4-wheel-sub-1870s-brake-rear-unfitted
-Four wheel three compartment brake carriage
+Four wheel three compartment suburban brake carriage (third class)
 4-wheel-sub-1870s-fitted
-Four wheel five compartment carriage (continuously braked)
+Four wheel five compartment carriage (continuously braked) (third class)
+4-wheel-sub-1870s-fitted-composite
+Four wheel four compartment composite carriage (continuously braked) (first/second class)
+4-wheel-1870s-luggage-third-fitted
+Four wheel four compartment luggage carriage (continuously braked) (third class)
+4-wheel-1870s-tricomposite-fitted
+Four wheel three compartment tricomposite luggage carriage (continuously braked) (first/second/third class)
 4-wheel-sub-1870s-brake-front-fitted
-Four wheel three compartment brake carriage (continuously braked)
+Four wheel three compartment brake carriage (continuously braked) (third class)
 4-wheel-sub-1870s-brake-rear-fitted
-Four wheel three compartment brake carriage (continuously braked)
+Four wheel three compartment brake carriage (continuously braked) (third class)
 LBSCR-4wheel-parliamentary-second
-LBSCR four compartment Parliamentary carriage
+LBSCR four compartment Parliamentary carriage (second class)
 LBSCR-4wheel-parliamentary-third
-LBSCR five compartment Parliamentary carriage
+LBSCR five compartment Parliamentary carriage (third class)
 LBSCR-4wheel-parliamentary-third-brake
-LBSCR five compartment Parliamentary brake carriage
+LBSCR five compartment Parliamentary brake carriage (third class)
 LBSCR-4wheel-open
-LBSCR open carriage
+LBSCR open carriage (fourth class)
 LBSCR-4wheel-open-brake
-LBSCR open carriage (brake)
+LBSCR open brake carriage (fourth class)
 LBSCR-4wheel-open-sided-brake
-LBSCR open sided carriage (brake)
+LBSCR open sided brake carriage (third class)
 LBSCR-4wheel-open-sided
-LBSCR open sided carriage
+LBSCR open sided carriage (third class)
 LBSCR-craven-third
 LBSCR four wheel five compartment carriage
 LBSCR-craven-second
@@ -2736,15 +3065,23 @@ LBSCR four wheel mail/brake carriage
 LBSCR-craven-mail
 LBSCR four wheel mail carriage
 LBSCR-20ft-third
-LBSCR four wheel four compartment carriage (20ft)
+LBSCR Four wheel four compartment carriage (third class)
+LBSCR-20ft-second
+LBSCR Four wheel four compartment carriage (second class)
 LBSCR-20ft-brake-front
-LBSCR four wheel two compartment brake carriage (20ft)
+LBSCR Four wheel two compartment composite brake carriage (first/second class)
 LBSCR-20ft-brake-rear
-LBSCR four wheel two compartment brake carriage (rear) (20ft)
+LBSCR Four wheel two compartment composite brake carriage (first/second class)
+LBSCR-20ft-brake-third
+LBSCR Four wheel two compartment brake carriage (third class)
 LBSCR-20ft-mail
-LBSCR four wheel mail carriage (20ft)
+LBSCR Four wheel mail carriage
 LBSCR-20ft-full-brake
-LBSCR four wheel mail/brake carriage (20ft)
+LBSCR Four wheel mail/brake carriage
+LBSCR-20ft-first
+LBSCR Four wheel three compartment carriage (first class)
+LBSCR-20ft-composite
+LBSCR Four wheel three compartment composite carriage (first/second class)
 LBSCR-4Wheel-First
 LBSCR four wheel four compartment carriage
 LBSCR-4Wheel-Second
@@ -2779,18 +3116,30 @@ LBSCR-6Wheel-fast-freight-van
 LBSCR six wheel fast freight van
 LBSCR-6Wheel-fruit-and-milk-van
 LBSCR six wheel fruit and milk van
-BR-370Restaurant(IC)
-BR Class 370 APT (restaurant)
-BR-220Rear(Virgin)
+BR-220Rear
 BR Class 220 "Voyager" (rear)
-BR-221Rear(Virgin)
+BR-221Rear
 BR Class 221 "Super Voyager" (rear)
-BR-370Buffet(IC)
-BR Class 370 APT (buffet)
-LMR-4Wheel-Open-Coach
-LMR four wheel carriage (open)
-LMR-4Wheel-Open-Brake
-LMR four wheel brake carriage (open)
+BR-370FrontCab
+BR Class 370 APT
+BR-370TrailerSecond
+BR Class 370 APT (second class trailer)
+BR-370TrailerFirst
+BR Class 370 APT (first class trailer)
+BR-370BrakeFirstRear
+BR Class 370 APT (rear brake first)
+BR-370RearCab
+BR Class 370 APT (rear cab)
+BR-370FrontPower
+BR Class 370 APT (front power unit)
+BR-370RearPower
+BR Class 370 APT (rear power unit)
+BR-370BrakeFirstFront
+BR Class 370 APT (front brake first)
+BR-370RestaurantRear
+BR Class 370 APT (rear restaurant car)
+BR-370RestaurantFront
+BR Class 370 APT (front restaurant car)
 GNR-6Wheel-First
 GNR six wheel five compartment carriage
 GNR-6Wheel-cor-lav
@@ -3093,15 +3442,23 @@ MR-54ft-eliptical-non-lav-brake-rear-d1246
 Midland six compartment brake carriage (rear)
 MR-65ft-eliptical-dining-d1196
 Midland dining carriage
-BR-251SecondParlourFront
-BR Class 251 "Blue Pullman" (2nd class front parlour)
-BR-251SecondParlourRear
+BR-251FrontFirst
+BR Class 251 "Blue Pullman" (first class driving motor)
+BR-251FrontSecond
+BR Class 251 "Blue Pullman" (second class driving motor)
+BR-251SecondParlour
+BR Class 251 "Blue Pullman" (second class parlour)
+BR-251Kitchen
 BR Class 251 "Blue Pullman" (kitchen car)
 BR-251FirstParlour
-BR Class 251 "Blue Pullman" (1st class parlour)
-BR-220Front(Virgin)
+BR Class 251 "Blue Pullman" (first class parlour)
+BR-251RearFirst
+BR Class 251 "Blue Pullman" (first class rear motor)
+BR-251RearSecond
+BR Class 251 "Blue Pullman" (second class rear motor)
+BR-220Front
 BR Class 220 "Voyager"
-BR-221Front(Virgin)
+BR-221Front
 BR Class 221 "Super Voyager"
 GWR-ParkRoyal-Railcar
 GWR Park Royal Railcar
@@ -3175,18 +3532,6 @@ SR-6PAN(trailer4)
 SR 6-PAN EMU (centre)
 SR-6PAN(rear)
 SR 6-PAN EMU (rear)
-BR-370FrontCab(IC)
-BR Class 370 APT
-BR-370Coach(IC)
-BR Class 370 APT (centre)
-BR-370RearCab(IC)
-BR Class 370 APT (rear cab)
-BR-373FrontPower
-BR Class 373 "Eurostar" (front power)
-BR-373RearPower
-BR Class 373 "Eurostar" (rear power)
-BR-373Catering
-BR Class 373 "Eurostar" (buffet)
 BR-170Front
 BR Class 170 "Turbostar" DMU
 BR-170Middle
@@ -3211,6 +3556,8 @@ BR-180Middle
 BR Class 180 "Adelante" DMU (centre)
 BR-180Middle-Buffet
 BR Class 180 "Adelante" DMU (buffet)
+BR-180Middle-first
+BR Class 180 "Adelante" DMU (centre; first class)
 BR-180Rear
 BR Class 180 "Adelante" DMU (rear)
 BR-175Front
@@ -3221,13 +3568,13 @@ BR-175Middle
 BR Class 175 "Coradia" DMU (centre)
 BR-175Middle-trolley
 BR Class 175 "Coradia" DMU (centre, with trolley service)
-BR-220Middle(Virgin)
+BR-220Middle
 BR Class 220 "Voyager" (centre)
-BR-220Middle-shop(Virgin)
+BR-220Middle-shop
 BR Class 220 "Voyager" (centre with shop)
-BR-221Middle(Virgin)
+BR-221Middle
 BR Class 221 "Super Voyager" (centre)
-BR-221Middle-shop(Virgin)
+BR-221Middle-shop
 BR Class 221 "Super Voyager" (centre with shop)
 BR-800Front
 BR Class 800 "Super Express"
@@ -3235,8 +3582,8 @@ BR-800MiddlePower
 BR Class 800 "Super Express" (centre motor)
 BR-800MiddleTrailer
 BR Class 800 "Super Express" (centre trailer)
-BR-800MiddleTrolley
-BR Class 800 "Super Express" (centre trailer with trolley service)
+BR-800MiddleComposite
+BR Class 800 "Super Express" (centre trailer composite)
 BR-800Rear
 BR Class 800 "Super Express" (rear)
 BR-801Front
@@ -3245,13 +3592,13 @@ BR-801MiddlePower
 BR Class 801 "Super Express" (centre motor)
 BR-801MiddleTrailer
 BR Class 801 "Super Express" (centre trailer)
-BR-801MiddleTrolley
-BR Class 801 "Super Express" (centre trailer with trolley service)
+BR-801MiddleComposite
+BR Class 801 "Super Express" (centre trailer composite)
 BR-801Rear
 BR Class 801 "Super Express" (rear)
-BR-142Front(Regional)
+br-142-front
 BR Class 142 "Pacer" DMU
-BR-142Rear(Regional)
+br-142-rear
 BR Class 142 "Pacer" DMU (rear)
 BR-456-DMSO
 BR Class 456 EMU (DMSO)
@@ -3273,13 +3620,13 @@ BR-458(centre2)
 BR Class 458 "Juniper" EMU (centre motor)
 BR-458(rear)
 BR Class 458 "Juniper" EMU (rear)
-BR-460(front)
+BR-460-DMSO
 BR Class 460 "Juniper" EMU
-BR-460(centre1)
+BR-460-TSO
 BR Class 460 "Juniper" EMU (centre trailer)
-BR-460(centre2)
+BR-460-MSO
 BR Class 460 "Juniper" EMU (centre motor)
-BR-460(rear)
+BR-460-DMLFO
 BR Class 460 "Juniper" EMU (rear)
 BR-334Front
 BR Class 334 "Juniper" EMU
@@ -3301,13 +3648,13 @@ BR-323Rear
 BR Class 323 EMU (rear)
 BR-323Middle
 BR Class 323 EMU (centre)
-BR-365Front(NSE)
+BR-365Front
 BR Class 365 "Networker Express" EMU
-BR-365Middle(NSE)
+BR-365Middle
 BR Class 365 "Networker Express" EMU (centre)
-BR-365Power(NSE)
+BR-365Power
 BR Class 365 "Networker Express" EMU (power)
-BR-365Rear(NSE)
+BR-365Rear
 BR Class 365 "Networker Express" EMU (rear)
 BR-375Front
 BR Class 375 "Electrostar" EMU
@@ -3405,32 +3752,34 @@ BR-333(centre-pantograph)
 BR Class 333 EMU (centre trailer)
 BR-333(rear)
 BR Class 333 EMU (rear)
-BR-390FrontCab(Virgin)
+BR-390FrontCab
 BR Class 390 "Pendolino"
-BR-390FrontCoach(Virgin)
-BR Class 390 "Pendolino" (front coach)
-BR-390FrontPantograph(Virgin)
-BR Class 390 "Pendolino" (front pantograph)
-BR-390Coach(Virgin)
+BR-390FrontCoach
+BR Class 390 "Pendolino" (front coach, first class)
+BR-390FrontPantograph
+BR Class 390 "Pendolino" (front pantograph, first class)
+BR-390Coach
 BR Class 390 "Pendolino" (unpowered coach)
-BR-390PoweredCoach(Virgin)
+BR-390PoweredCoach
 BR Class 390 "Pendolino" (powered coach)
-BR-390RearPantograph(Virgin)
+BR-390PoweredCoachFirst
+BR Class 390 "Pendolino" (powered coach, first class)
+BR-390RearPantograph
 BR Class 390 "Pendolino" (rear pantograph)
-BR-390RearCoach(Virgin)
+BR-390RearCoach
 BR Class 390 "Pendolino" (rear coach)
-BR-390RearCab(Virgin)
+BR-390RearCab
 BR Class 390 "Pendolino" (rear cab)
-BR-373Coach
-BR Class 373 "Eurostar" (coach)
 BR-202-front
 BR Class 202 DEMU
 BR-202-rear
 BR Class 202 DEMU (rear)
 BR-202-trailer
-BR Class 202 DEMU (centre)
+BR Class 202 DEMU (centre trailer)
 BR-202-buffet
 BR Class 202 DEMU (buffet)
+BR-202-trailer-first
+BR Class 202 DEMU (centre trailer, first class)
 BR-205Front
 BR Class 205 DEMU
 BR-205Middle
@@ -3441,6 +3790,8 @@ BR-210-DM
 BR Class 210 DEMU
 BR-210-TSO
 BR Class 210 DEMU (centre trailer)
+BR-210-TCOL
+BR Class 210 DEMU (centre trailer composite)
 BR-210-DTSOL
 BR Class 210 DEMU (rear)
 BR-414[HAP]Front
@@ -3475,14 +3826,22 @@ BR-450(centre2)
 BR Class 450 "Desiro" EMU (centre trailer)
 BR-450(rear)
 BR Class 450 "Desiro" EMU (rear)
-BR-350(front)
-BR Class 350 "Desiro" EMU
-BR-350(centre1)
-BR Class 350 "Desiro" EMU (centre trailer)
-BR-350(centre2)
-BR Class 350 "Desiro" EMU (centre trailer)
-BR-350(rear)
-BR Class 350 "Desiro" EMU (rear)
+BR-350-1(front)
+BR Class 350/1 "Desiro" EMU
+BR-350-1(centre1)
+BR Class 350/1 "Desiro" EMU (centre trailer)
+BR-350-1(centre2)
+BR Class 350/1 "Desiro" EMU (centre trailer)
+BR-350-1(rear)
+BR Class 350/1 "Desiro" EMU (rear)
+BR-350-2(front)
+BR Class 350/2 "Desiro" EMU
+BR-350-2(centre1)
+BR Class 350/2 "Desiro" EMU (centre trailer)
+BR-350-2(centre2)
+BR Class 350/2 "Desiro" EMU (centre trailer)
+BR-350-2(rear)
+BR Class 350/2 "Desiro" EMU (rear)
 BR-700Front
 BR Class 700 "Desiro City" EMU
 BR-700Rear
@@ -3520,7 +3879,9 @@ BR Class 374 "Eurostar e320"
 BR-374(panto)
 BR Class 374 "Eurostar e320" (pantograph car)
 BR-374(power)
-BR Class 374 "Eurostar e320" (centre motor)
+BR Class 374 "Eurostar e320" (centre motor, standard class)
+BR-374(first)
+BR Class 374 "Eurostar e320" (centre motor, first class)
 BR-374(buffet)
 BR Class 374 "Eurostar e320" (buffet)
 BR-374(rear)
@@ -3535,14 +3896,24 @@ GWR-Droplight-Brake(Mahogany)
 GWR Toplight corridor brake
 GWR-Droplight-Dining(Mahogany)
 GWR Toplight corridor dining carriage
+BR-Mk1-BFK-rear
+BR Mk. 1 corridor brake carriage (first class, rear)
+BR-Mk1-BFK-front
+BR Mk. 1 corridor brake carriage (first class)
 BR-Mk1-RMB
 BR Mk. 1 mini-buffet
 BR-Mk1-RB
 BR Mk. 1 restaurant buffet
 BR-Mk1-TSO
-BR Mk. 1 open carriage
+BR Mk. 1 open carriage (second class)
+BR-Mk1-FO
+BR Mk. 1 open carriage (first class)
 BR-Mk1-SK
-BR Mk. 1 corridor vestibule carriage
+BR Mk. 1 corridor vestibule carriage (second class)
+BR-Mk1-CK
+BR Mk. 1 corridor vestibule carriage (composite)
+BR-Mk1-FK
+BR Mk. 1 corridor vestibule carriage (first class)
 BR-Mk1-BSO-front
 BR Mk. 1 open brake carriage
 BR-Mk1-BSO-rear
@@ -3565,14 +3936,8 @@ BR-Mk1-Sub-Brake-rear
 BR Mk. 1 compartment brake carriage (rear)
 BR-Mk1-Sub-Brake-front
 BR Mk. 1 compartment brake carriage
-BR-Mk2-TSO
-BR Mk. 2D Standard Open
-BR-Mk3-TSO
-BR Mk. 3 Standard Open
-BR-Mk3a-TSO
-BR Mk. 3a Standard Open
-BR-Mk4-TSO
-BR Mk. 4 Standard Open
+BR-Mk1-Sub-cl
+BR Mk. 1 compartment carriage (lavatory composite)
 BR-423-DTCL-Front
 BR Class 423 "4-Vep" EMU
 BR-423-MBSO
@@ -3621,11 +3986,11 @@ BR-491[TC]Buffet
 BR Class 491 "4-TC" trailer set (buffet)
 BR-491[TC]Rear
 BR Class 491 "4-TC" trailer set (rear)
-BR-158Front(Regional)
+br-158-front
 BR Class 158 "Express Sprinter" DMU 
-BR-158Middle(Regional)
+br-158-centre
 BR Class 158 "Express Sprinter" DMU (centre)
-BR-158Rear(Regional)
+br-158-rear
 BR Class 158 "Express Sprinter" DMU (rear)
 BR-303Front
 BR Class 303 EMU
@@ -3633,9 +3998,9 @@ BR-303Pantograph
 BR Class 303 EMU (pantograph)
 BR-303Rear
 BR Class 303 EMU (rear)
-BR-153(Regional)
+br-153
 BR Class 153 "Super-Sprinter" DMU
-BR-153-Trolley(Regional)
+br-153-trolley
 BR Class 153 "Super-Sprinter" DMU (with trolley service)
 BR-313Front
 BR Class 313 EMU
@@ -3643,6 +4008,18 @@ BR-313Pantograph
 BR Class 313 EMU (pantograph)
 BR-313Rear
 BR Class 313 EMU (rear)
+BR-314Front
+BR Class 314 EMU
+BR-314Pantograph
+BR Class 314 EMU (pantograph)
+BR-314Rear
+BR Class 314 EMU (rear)
+BR-318-Driving-Front
+BR Class 318 EMU
+BR-318-Motor
+BR Class 318 EMU (pantograph)
+BR-318-Driving-Rear
+BR Class 318 EMU (rear)
 BR-315Front
 BR Class 315 EMU
 BR-315Pantograph
@@ -3673,33 +4050,37 @@ BR-312-TSO
 BR Class 312 EMU (centre)
 BR-312-DTCOL
 BR Class 312 EMU (rear)
-BR-319Front(NSE)
-BR Class 319 EMU
-BR-319Engine(NSE)
+BR-319Front
+BR Class 319 EMU (standard class driving trailer)
+BR-319FrontComposite
+BR Class 319 EMU (composite driving trailer)
+BR-319Engine
 BR Class 319 EMU (motor)
-BR-319Pantograph(NSE)
+BR-319Pantograph
 BR Class 319 EMU (pantograph)
-BR-319Rear(NSE)
+BR-319Rear
 BR Class 319 EMU (rear)
 BR-321(front)
-BR Class 321 EMU
+BR Class 321 EMU (standard class driving trailer)
+BR-321(front-composite)
+BR Class 321 EMU (composite driving trailer)
 BR-321(pantograph)
 BR Class 321 EMU (pantograph)
 BR-321(motor)
 BR Class 321 EMU (motor)
 BR-321(rear)
 BR Class 321 EMU (rear)
-BR-156Front(Regional)
+br-156-front
 BR Class 156 "Super-Sprinter" DMU
-BR-156Front-Trolley(Regional)
+br-156-front-trolley
 BR Class 156 "Super-Sprinter" DMU (with trolley service)
-BR-156Rear(Regional)
+br-156-rear
 BR Class 156 "Super-Sprinter" DMU (rear)
-BR-150Front(Regional)
+br-150-front
 BR Class 150 "Sprinter" DMU
-BR-150Centre(Regional)
+br-150-centre
 BR Class 150 "Sprinter" DMU (centre)
-BR-150Rear(Regional)
+br-150-rear
 BR Class 150 "Sprinter" DMU (rear)
 NER-Tyneside-unit(front)
 NER Tyneside EMU
@@ -3716,7 +4097,9 @@ NER Tyneside EMU (motor parcels van)
 LNER-1937-Tyneside-EMU-front
 LNER Tyneside EMU
 LNER-1937-Tyneside-EMU-rear
-LNER Tyneside EMU (rear)
+LNER Tyneside EMU (rear, third class)
+LNER-1937-Tyneside-EMU-rear-composite
+LNER Tyneside EMU (rear, composite)
 LNER-1937-Tyneside-EMU-MPV
 LNER Tyneside EMU (motor parcels van)
 LMS-EMU-driving-trailer
@@ -3730,7 +4113,9 @@ LMS Class 502 EMU
 LMS-502Rear
 LMS Class 502 EMU (rear)
 LMS-502Middle
-LMS Class 502 EMU (centre)
+LMS Class 502 EMU (centre trailer, third class)
+LMS-502MiddleComposite
+LMS Class 502 EMU (centre trailer, composite)
 Metropolitan-Motor-Third-Front
 Metropolitan four compartment EMU driving carriage
 Metropolitan-Motor-Third-Middle
@@ -3762,17 +4147,25 @@ Metropolitan seven compartment bogie "Dreadnought" brake carriage
 met-dreadnought-brake-rear
 Metropolitan seven compartment bogie "Dreadnought" brake carriage (rear)
 met-ashbury-1863-third-unfitted
-Metropolitan eight wheel (radial) eight compartment carriage
+Metropolitan eight wheel (radial) eight compartment carriage (third class)
+met-ashbury-1863-composite-unfitted
+Metropolitan eight wheel (radial) seven compartment composite carriage (first/second class)
+met-ashbury-1863-first-unfitted
+Metropolitan eight wheel (radial) six compartment carriage (first class)
 met-ashbury-1863-brake-front-unfitted
-Metropolitan eight wheel (radial) five compartment brake carriage
+Metropolitan eight wheel (radial) six compartment brake carriage (third class)
 met-ashbury-1863-brake-rear-unfitted
-Metropolitan eight wheel (radial) five compartment brake carriage (rear)
+Metropolitan eight wheel (radial) six compartment brake carriage (rear) (third class)
 met-ashbury-1863-third-fitted
-Metropolitan eight wheel (radial) eight compartment carriage (continuously braked)
+Metropolitan eight wheel (radial) eight compartment carriage (continuously braked) (third class)
+met-ashbury-1863-composite-fitted
+Metropolitan eight wheel (radial) seven compartment composite carriage (continuously braked) (first/second class)
+met-ashbury-1863-first-fitted
+Metropolitan eight wheel (radial) six compartment carriage (continuously braked) (first class)
 met-ashbury-1863-brake-front-fitted
-Metropolitan eight wheel (radial) five compartment brake carriage (continuously braked)
+Metropolitan eight wheel (radial) five compartment brake carriage (continuously braked) (third class)
 met-ashbury-1863-brake-rear-fitted
-Metropolitan eight wheel (radial) five compartment brake carriage (rear) (continuously braked)
+Metropolitan eight wheel (radial) five compartment brake carriage (rear) (continuously braked) (third class)
 district-4-wheel-third-unfitted
 District four wheel four compartment carriage
 district-4-wheel-brake-front-unfitted
@@ -3788,53 +4181,59 @@ District four wheel two compartment brake carriage (rear) (continuously braked)
 District_A_StockFrontDM
 District A Stock
 District_A_StockMiddle
-District A Stock (trailer)
+District A Stock (third class trailer)
+District_A_StockMiddle-first
+District A Stock (first class trailer)
 District_A_StockRearDM
-District A Stock (rear DM)
+District A Stock (rear driving motor)
 District_BCD_StockFrontDM
 District B/C/D Stock
 District_BCD_StockMiddle
-District B/C/D Stock (trailer)
+District B/C/D Stock (third class trailer)
+District_BCD_StockMiddle-first
+District B/C/D Stock (first class trailer)
 District_BCD_StockRearDM
-District B/C/D Stock (rear DM)
+District B/C/D Stock (rear driving motor)
 District_E_StockFrontDM
 District E Stock
 District_E_StockMiddle
-District E Stock (trailer)
+District E Stock (third class trailer)
+District_E_StockMiddle-first
+District E Stock (first class trailer)
 District_E_StockRearDM
-District E Stock (rear DM)
+District E Stock (rear driving motor)
 District_F_StockFrontDM
 District F Stock
 District_F_StockMiddle1
-District F Stock (trailer)
+District F Stock (first class trailer)
 District_F_StockMiddle2
-District F Stock (trailer)
+District F Stock (third class trailer)
 District_F_StockRearDM
-District F Stock (rear DM)
+District F Stock (rear driving motor)
 District_G_StockFrontDM
 District G Stock
 District_G_StockMiddle
 District G Stock (trailer)
 District_G_StockRearDM
-District G Stock (rear DM)
+District G Stock (rear driving motor)
 District_KLMN_StockFrontDM
 District K/L/M/N Stock
 District_KLMN_StockMiddle
 District K/L/M/N Stock (trailer)
 District_KLMN_StockRearDM
-District K/L/M/N Stock (rear DM)
+District K/L/M/N Stock (rear driving motor)
 LUL_OP_StockFrontDM
 LUL O/P Stock
 LUL_OP_StockMiddle
 LUL O/P Stock (trailer)
 LUL_OP_StockRearDM
-LUL O/P Stock (rear DM)
+LUL O/P Stock (rear driving motor)
 LUL_R_StockFrontDM
 LUL R Stock
 LUL_R_StockMiddle
 LUL R Stock (trailer)
 LUL_R_StockRearDM
-LUL R Stock (rear DM)
+LUL R Stock (rear driving motor)
 LUL_A_StockFrontDM
 LUL A Stock
 LUL_A_StockMiddle1
@@ -3850,7 +4249,7 @@ LUL C Stock (trailer)
 LUL_C_StockMiddle2
 LUL C Stock (trailer)
 LUL_C_StockRearDM
-LUL C Stock (rear DM)
+LUL C Stock (rear driving motor)
 LUL_D_StockFrontDM
 LUL D Stock
 LUL_D_StockMiddle1
@@ -3858,44 +4257,44 @@ LUL D Stock (trailer)
 LUL_D_StockMiddle2
 LUL D Stock (trailer)
 LUL_D_StockRearUNDM
-LUL D Stock (rear UNDM)
+LUL D Stock (rear non-driving motor)
 LUL_D_StockRearDM
-LUL D Stock (rear DM)
+LUL D Stock (rear driving motor)
 LUL_S_Stock(Front)
 LUL S Stock
 LUL_S_Stock(Middle)
 LUL S Stock (middle)
 LUL_S_Stock(Rear)
-LUL S Stock (rear DM)
+LUL S Stock (rear driving motor)
 Metropolitan1905GateFront
 Metropolitan 1905 Gate Stock
 Metropolitan1905GateMiddle
 Metropolitan 1905 Gate Stock (trailer)
 Metropolitan1905GateRear
-Metropolitan 1905 Gate Stock (rear DM)
+Metropolitan 1905 Gate Stock (rear driving motor)
 Metropolitan1913CircleFront
 Metropolitan 1913 Circle Stock
 Metropolitan1913CircleMiddle
 Metropolitan 1913 Circle Stock (trailer)
 Metropolitan1913CircleRear
-Metropolitan 1913 Circle Stock (rear DM)
+Metropolitan 1913 Circle Stock (rear driving motor)
 Metropolitan1921CircleFront
 Metropolitan 1921 Circle Stock
 Metropolitan1921CircleMiddle
 Metropolitan 1921 Circle Stock (trailer)
 Metropolitan1921CircleRear
-Metropolitan 1921 Circle Stock (rear DM)
+Metropolitan 1921 Circle Stock (rear driving motor)
 met-jubilee-third
 Metropolitan four wheel five compartment "Jubilee" carriage
 met-jubilee-brake-front
 Metropolitan four wheel three compartment "Jubilee" brake carriage
 met-jubilee-brake-rear
 Metropolitan four wheel three compartment "Jubilee" brake carriage (rear)
-BR-465Front(NSE)
+BR-465Front
 BR Class 465 "Networker" EMU
-BR-465Middle(NSE)
+BR-465Middle
 BR Class 465 "Networker" EMU (centre)
-BR-465Rear(NSE)
+BR-465Rear
 BR Class 465 "Networker" EMU (rear)
 BR-165Front
 BR Class 165 "Network Turbo" DMU
@@ -3916,7 +4315,7 @@ BR Mk.3 DVT
 BR-Mk4-DVT
 BR-Mk.4 DVT
 GWR-Gloucester-Parcel-Railcar
-GWR Gloucester Parcel Railcar
+GWR Gloucester parcel railcar
 RM-325Front(RM)
 Royal Mail Class 325 EMU
 RM-325Middle(RM)
@@ -3932,79 +4331,79 @@ BR Class 489 guard's luggage van
 BR-419[MLV]
 BR Class 419 motor luggage van
 Autic-4_Car_Transporter(Front)
-Autic Car Transporter
+Autic car transporter
 Autic-4_Car_Transporter(Middle1)
-Autic Car Transporter (centre)
+Autic car transporter (centre)
 Autic-4_Car_Transporter(Middle2)
-Autic Car Transporter (centre)
+Autic car transporter (centre)
 Autic-4_Car_Transporter(Rear)
-Autic Car Transporter (rear)
+Autic car transporter (rear)
 Cartic-4_Car_Transporter(Front)
-Cartic Car Transporter 
+Cartic car transporter 
 Cartic-4_Car_Transporter(Middle1)
-Cartic Car Transporter (centre)
+Cartic car transporter (centre)
 Cartic-4_Car_Transporter(Middle2)
-Cartic Car Transporter (centre)
+Cartic car transporter (centre)
 Cartic-4_Car_Transporter(Rear)
-Cartic Car Transporter (rear)
+Cartic car transporter (rear)
 Bulk16T
-BR 16t Bulk Wagon
+BR 16t bulk wagon
 BulkRCH12T
-RCH 12t Bulk Wagon
+RCH 12t bulk wagon
 BulkRCH10T
-RCH 10t Bulk Wagon
+RCH 10t bulk wagon
 Bulk8T
-8t Bulk Wagon
+8t bulk wagon
 Bulk5T
-5t Bulk Wagon
+5t bulk wagon
 Bulk2T
-2t Bulk Wagon
+2t bulk "chaldron" wagon
 Bulk3T
-3t Bulk Wagon
+3t bulk wagon
 Bulk Hopper(HAA)
-BR HAA Hopper
+BR HAA hopper
 Bulk Hopper(HTA)
-BR HTA Hopper
+BR HTA hopper
 RCH-Tanker
-RCH Tanker Wagon
-Air Braked Tanker (TTA)
+RCH tanker wagon
+Air braked tanker (TTA)
 BR TTA Air-braked Tanker
-Bogie Tanker(TEA)
+Bogie tanker(TEA)
 BR TEA Bogie Tanker
 LNER-Coronation-Brake-Third-Twin(front)
-LNER "Coronation" Carriage (front brake twin)
+LNER "Coronation" carriage (front brake twin)
 LNER-Coronation-Brake-Third-Twin(rear)
-LNER "Coronation" Carriage (front brake twin)
+LNER "Coronation" carriage (front brake twin)
 LNER-Coronation-Brake-Third-Triple(front)
-LNER "Coronation" Carriage (front brake triple)
+LNER "Coronation" carriage (front brake triple)
 LNER-Coronation-Brake-Third-Triple(middle)
-LNER "Coronation" Carriage (front brake triple)
+LNER "Coronation" carriage (front brake triple)
 LNER-Coronation-Brake-Third-Triple(rear)
-LNER "Coronation" Carriage (front brake triple)
+LNER "Coronation" carriage (front brake triple)
 LNER-Coronation-Restaurant-Triple(front)
-LNER "Coronation" Carriage (restaurant triple)
+LNER "Coronation" carriage (restaurant triple)
 LNER-Coronation-Restaurant-Triple(middle)
-LNER "Coronation" Carriage (restaurant triple)
+LNER "Coronation" carriage (restaurant triple)
 LNER-Coronation-Restaurant-Triple(rear)
-LNER "Coronation" Carriage (restaurant triple)
+LNER "Coronation" carriage (restaurant triple)
 LNER-Coronation-RearBrake-Third-Twin(front)
-LNER "Coronation" Carriage (rear brake twin)
+LNER "Coronation" carriage (rear brake twin)
 LNER-Coronation-RearBrake-Third-Twin(rear)
-LNER "Coronation" Carriage (rear brake twin)
+LNER "Coronation" carriage (rear brake twin)
 LNER-Coronation-Observation
-LNER "Coronation" Observation Car
+LNER "Coronation" observation car
 LMS-Coronation-BFK(Maroon)
-LMS "Coronation Scot" Carriage (front brake)
+LMS "Coronation Scot" carriage (front brake)
 LMS-Coronation-BTK(Maroon)
-LMS "Coronation Scot" Carriage (rear brake)
+LMS "Coronation Scot" carriage (rear brake)
 LMS-Coronation-FK(Maroon)
-LMS "Coronation Scot" Dining Carriage
+LMS "Coronation Scot" dining carriage
 LMS-Coronation-TO(Maroon)
-LMS "Coronation Scot" Carriage 
+LMS "Coronation Scot" carriage 
 MR-Clerestory-Brake
-Midland Clerestory Carriage (brake)
+Midland clerestory carriage (brake)
 MR-Clerestory-Coach
-Midland Clerestory Carriage
+Midland clerestory carriage
 Teak-Clerestory-Brake
 GER five compartment corridor clerestory brake carriage
 Teak-Clerestory-Coach
@@ -4395,10 +4794,38 @@ PuffingBilly
 Wylam Colliery "Puffing Billy" 0-4-0
 PuffingBilly-Tender
 Wylam Colliery "Puffing Billy" (tender)
+stephenson-dodd-patent
+Stephenson and Dodd's Patent Engine 0-4-0
+stephenson-dodd-patent-tender
+Stephenson and Dodd's Patent Engine (tender)
+stephenson-improved
+Stephenson's Improved Engine 0-4-0
+stephenson-improved-tender
+Stephenson's Improved Engine (tender)
+sanspariel
+LMR "Sanspariel" 0-4-0
+sanspariel-tender
+LMR "Sanspariel" (tender)
+lancashire-witch
+B&LR "Lancashire Witch" 0-4-0
+lancashire-witch-tender
+B&LR "Lancashire Witch" (tender)
 SDR-Locomotion
 SDR "Locomotion" 0-4-0
 SDR-Locomotion-Tender
 SDR "Locomotion" (tender)
+royal-george
+SDR "Royal George" 0-6-0
+royal-george-tender
+SDR "Royal George" (tender)
+wilberforce
+SDR "Wilberforce" 0-6-0
+wilberforce-tender
+SDR "Wilberforce" (tender)
+sdr-mineral-engine
+SDR mineral engine 0-6-0
+sdr-mineral-engine-tender
+SDR mineral engine (tender)
 SDR-Derwent
 SDR "Derwent" 0-6-0
 SDR-Derwent-Tender
@@ -4410,7 +4837,23 @@ SDR 1001 Class (tender)
 LMR-Patentee
 LMR "Patentee" 2-2-2
 LMR-Patentee-Tender
-LMR "Patentee" (tender)
+Stephenson express tender
+stephenson-2-2-2
+Stephenson express engine 2-2-2
+tayleur-2-2-2
+Tayleur express engine 2-2-2
+hawthorn-2-2-2
+Hawthorn express engine 2-2-2
+stephenson-long-boiler-passenger
+Stephenson long boiler passenger engine 2-2-2
+stephenson-long-boiler-passenger-tender
+Stephenson long boiler passenger engine (tender)
+bury-bar-frame-goods
+Bury bar frame engine (goods) 0-4-0
+bury-bar-frame-passenger
+Bury bar frame engine (passenger) 2-2-0
+bury-bar-frame-tender
+Bury bar frame engine (tender)
 LNWR-DXgoods
 LNWR DX Goods 0-6-0
 LNWR-special-dx
@@ -4599,6 +5042,14 @@ rail-horse-clydesdale-single
 Clydesdale horse
 rail-horse-clydesdale-double
 Clydesdale horses (pair)
+rail-horse-friesian-single
+Friesian horse
+rail-horse-cleveland-bay-single
+Cleveland Bay horse
+rail-horse-yorkshire-coach-single
+Yorkshire coach horse
+stagecoach-rail
+Railway stage coach
 BR-121
 BR Class 121 DMU
 BR-378Front
@@ -4609,10 +5060,18 @@ BR-378Middle-unpowered
 BR London Overground Class 378 EMU (centre)
 BR-378Rear
 BR London Overground Class 378 EMU (rear)
+wagon-bulk-wooden-wheels
+Wooden 2t bulk "chaldron" wagon
+wagon-long-wooden-wheels
+Wooden flat wagon
+wagon-cool-wooden-wheels
+Wooden food wagon
+wagon-piece-wooden-wheels
+Wooden goods wagon
 LivestockEarly1
-Livestock truck
+Livestock wagon
 LivestockEarly2
-Livestock wagon (small)
+[DEPRECATED] Livestock wagon (small)
 LivestockEarly3
 Livestock wagon
 LivestockD21
@@ -4626,9 +5085,9 @@ Cartruck
 Wagon3CarBogie
 Carflat FW
 PieceEarly1
-Goods truck
+Goods wagon
 PieceEarly2
-Goods wagon (small)
+[DEPRECATED] Goods wagon (small)
 PieceEarly3
 Goods wagon
 PieceD32
@@ -4648,9 +5107,9 @@ FAA container flat
 CoolContainer
 FAA container flat (refrigerated containers)
 CoolEarly1
-Food truck
+Food wagon
 CoolEarly2
-Food wagon (small)
+[DEPRECATED] Food wagon (small)
 CoolEarly3
 Food wagon
 CoolD32
@@ -4668,23 +5127,27 @@ BR refrigerated van
 milk-van
 Food van (passenger rated)
 LongEarly1
-Open truck
+Flat wagon
 LongEarly2
-Open wagon (small)
+[DEPRECATED] Open wagon (small)
 LongEarly3
-Open wagon
+Flat wagon
 LongD1
-8t open wagon
+8t bolster wagon
 Long10T
-10t open wagon
+10t bolster wagon
 Long12T
-12t open wagon
+12t bolster wagon
 Long20T
-20t open wagon
+20t bolster wagon
 Long30T
-30t open wagon
+30t bolster wagon
 BrakeSR
 Southern brake van
+brake-6t
+6t brake van
+brake-7-5t
+7.5t brake van
 BrakeD16
 10t brake van
 BrakeD93
@@ -4701,32 +5164,54 @@ CC-Clerestory-Dining
 GWR corridor clerestory dining car
 GWR-Express-Dining
 GWR express dining car
+BR-Mk2-TSO
+BR Mk. 2D open carriage (second class)
+BR-Mk2-FO
+BR Mk. 2D open carriage (first class)
 BR-Mk2-RFB
-BR Mk. 2D Mini-Buffet
+BR Mk. 2D mini-buffet (first class)
 BR-Mk2-DBSO
-BR Mk. 2D Driving Brake Open
+BR Mk. 2D driving brake carriage (second class)
 BR-Mk2-BSO
-BR Mk. 2D Brake Open
+BR Mk. 2D brake carriage (second class)
+BR-Mk2-BFK
+BR Mk. 2D brake carriage (first class)
 BR-Mk2a-RMB
-BR Mk. 2 Mini-Buffet
+BR Mk. 2 mini-buffet (second class)
 BR-Mk2a-TSO
-BR Mk. 2 Tourist Open
+BR Mk. 2 tourist open carriage (second class)
 BR-Mk2a-SO
-BR Mk. 2 Standard Open
+BR Mk. 2 open carriage (second class)
+BR-Mk2a-FK
+BR Mk. 2 corridor carriage (first class)
 BR-Mk2a-BSO
-BR Mk. 2 Brake Open
+BR Mk. 2 open brake carriage (second class)
+BR-Mk2a-BFK
+BR Mk. 2 corridor brake carriage (first class)
 BR-Mk2-TSOT
-BR Mk. 2D Micro-Buffet
+BR Mk. 2D micro-buffet (second class)
 BR-Mk3-TRB
-BR Mk. 3 Buffet
+BR Mk. 3 buffet (first class)
 BR-Mk3a-TRB
-BR Mk. 3a Buffet
+BR Mk. 3a buffet (first class)
 BR-Mk3-TRFB
-BR Mk. 3 Restaurant Buffet
+BR Mk. 3 restaurant buffet (first class)
 BR-Mk3a-TRFB
-BR Mk. 3a Restaurant Buffet
+BR Mk. 3a restaurant buffet (first class)
+BR-Mk3-TSO
+BR Mk. 3 open carriage (second class)
+BR-Mk3a-TSO
+BR Mk. 3a open carriage (second class)
+BR-Mk3-FO
+BR Mk. 3 open carriage (first class)
+BR-Mk3a-FO
+BR Mk. 3a open carriage (first class)
+BR-Mk4-TSO
+BR Mk. 4 open carriage (standard class)
+BR-Mk4-FO
+BR Mk. 4 open carriage (first class)
 BR-Mk4-RSB
-BR Mk. 4 Restaurant Buffet
+BR Mk. 4 restaurant buffet (standard class)
 4-wheel-1850s-mail
 Four wheel mail carriage
 4-wheel-1850s-tpo
@@ -4881,11 +5366,11 @@ LMS-Stanier-4P-Tank
 LMS Class 4P 2-6-4T (Stanier design, 2 cylinders)
 LMS-Stanier-4P-Tank-3-cylinder
 LMS Class 4P 2-6-4T (Stanier design, 3 cylinders)
-BR-150Front(Regional)
+br-150-front
 BR Class 150 "Sprinter" DMU (front)
-BR-150Centre(Regional)
+br-150-centre
 BR Class 150 "Sprinter" DMU (centre)
-BR-150Rear(Regional)
+br-150-rear
 BR Class 150 "Sprinter" DMU (rear)
 BR-456-DMSO
 BR Class 456 EMU
@@ -4916,17 +5401,21 @@ Mersey Railway clerestory EMU
 Mersey-EMU(rear)
 Mersey Railway clerestory EMU (rear)
 Mersey-EMU(trailer)
-Mersey Railway clerestory EMU (centre)
+Mersey Railway clerestory EMU (third class trailer)
+Mersey-EMU(trailer-first)
+Mersey Railway clerestory EMU (first class trailer)
 Mersey-EMU-1923(front)
 Mersey Railway EMU
 Mersey-EMU-1923(rear)
 Mersey Railway EMU (rear)
 Mersey-EMU-1923(trailer)
-Mersey Railway EMU (centre)
+Mersey Railway EMU (third class trailer)
+Mersey-EMU-1923(trailer-first)
+Mersey Railway EMU (first class trailer)
 LSWR-EMU(front)
 LSWR suburban EMU (front driving motor)
 LSWR-EMU(centre)
-LSWR suburban EMU (centre trailer)
+LSWR suburban EMU (composite centre trailer)
 LSWR-EMU(rear)
 LSWR suburban EMU (rear driving motor)
 SR-3SUB(front)
@@ -5062,7 +5551,9 @@ LNWR Mansion House radial tank 2-4-2T
 LNWR-5ft-6-tank
 LNWR 5'6 radial tank 2-4-2T
 LNWR-crewe-type
-LNWR Crewe Type 2-2-2
+LNWR Crewe type 2-2-2
+lnwr-crewe-type-goods
+LNWR Crewe type (goods) 2-4-0
 LNWR-Cauliflower
 LNWR "Cauliflower" Class 0-6-0
 LNWR-Cauliflower-tender
@@ -5094,43 +5585,47 @@ LBSCR B4x Class 4-4-0
 LBSCR-E6
 LBSCR E6 Class 0-6-2T
 MR-133
-Midland 133 Class 2-2-2
+Midland 133 class 2-2-2
 MR-133-tender
-Midland 133 Class tender
+Midland 133 class tender
 MR-130
-Midland 130 "Crampton" Class 4-2-0
+Midland 130 "Crampton" class 4-2-0
 MR-130-tender
-Midland 130 Class tender
+Midland 130 class tender
 MR-1
-Midland 1 Class 2-2-2
+Midland 1 class 2-2-2
 MR-1-tender
-Midland 1 Class tender
+Midland 1 class tender
 MR-27
-Midland 27 Class 2-2-2
+Midland 27 class 2-2-2
 LNWR-Precendent
-LNWR "Precedent" Class 2-4-0
+LNWR "Precedent" class 2-4-0
 LNWR-Newton
-LNWR "Newton" Class 2-4-0
+LNWR "Newton" class 2-4-0
 LNWR-Newton-Tender
 LNWR express tender
 LNWR-Waterloo
-LNWR "Waterloo" Class 2-4-0
+LNWR "Waterloo" class 2-4-0
 LNWR-Waterloo-Tender
 LNWR express tender
 LNWR-Sampson
-LNWR "Sampson" Class 2-4-0
+LNWR "Sampson" class 2-4-0
 LNWR-Sampson-Tender
 LNWR express tender
+stephenson-long-boiler-goods
+Stephenson long boiler goods engine 0-6-0
+stephenson-long-boiler-goods-tender
+Stephenson long boiler goods engine (tender)
 MR-1738
-Midland 1738 Class 4-4-0
+Midland 1738 class 4-4-0
 MR-2203
-Midland 2203 Class 4-4-0
+Midland 2203 class 4-4-0
 MR-2781
-Midland 2781 Class "Belpaire" 4-4-0
+Midland 2781 class "Belpaire" 4-4-0
 MR-2781-Tender
-Midland 2781 Class "Belpaire" 4-4-0 (tender)
+Midland 2781 class "Belpaire" 4-4-0 (tender)
 LNWR-Precursor-tank
-LNWR "Precursor" Tank 4-4-2T
+LNWR "Precursor" tank 4-4-2T
 LNWR-Precursor
 LNWR "Precursor" 4-4-0
 LNWR-George-V
@@ -5146,9 +5641,9 @@ LNWR "Prince of Wales" 4-6-2T
 MR-483-Tender
 Midland tender
 MR-1873
-Midland 1873 "Neilson Goods" Class 0-6-0
+Midland 1873 "Neilson Goods" class 0-6-0
 MR-2736
-Midland 2736 Class 0-6-0
+Midland 2736 class 0-6-0
 LMS-4P-Tender
 LMS 4P Tender
 LMS-2P-Tender
@@ -5156,7 +5651,7 @@ LMS 2P Tender
 LNWR-Precedent-Tender
 LNWR express tender
 LNWR-Claughton
-LNWR Claughton Class 4-6-0
+LNWR Claughton class 4-6-0
 LNWR-Claughton-tender
 LNWR Claughton class tender
 LBSCR-0-4-2T
@@ -5168,37 +5663,37 @@ LBSCR standard goods tender
 LBSCR-standard-passenger
 LBSCR Standard Passenger Engine 2-4-0
 LBSCR-victoria
-LBSCR Victoria Class 2-2-2
+LBSCR Victoria class 2-2-2
 LBSCR-6ft-6-single
 LBSCR 6ft 6" Single 2-2-2
 LBSCR-standard-goods
-LBSCR Standard Goods Engine 0-6-0
+LBSCR standard goods engine 0-6-0
 LBSCR-small-goods
-LBSCR Small Goods Engine 0-6-0
+LBSCR small goods engine 0-6-0
 LBSCR-small-single
-LBSCR Small Single 2-2-2
+LBSCR small single 2-2-2
 LBSCR-Richmond
-LBSCR Richmond Class 0-4-2
+LBSCR Richmond class 0-4-2
 LBSCR-long-boiler-passenger
-LBSCR Long Boiler Engine (passenger) 2-4-0
+LBSCR long boiler engine (passenger) 2-4-0
 LBSCR-long-boiler-mixed
-LBSCR Long Boiler Engine (mixed traffic) 2-4-0
+LBSCR long boiler engine (mixed traffic) 2-4-0
 LBSCR-light-tank
-LBSCR Kemp Town Tank 2-4-0T
+LBSCR Kemp Town tank 2-4-0T
 LBSCR-single-well-tank
-LBSCR Single Well tank 2-2-2
+LBSCR single well tank 2-2-2
 LBSCR-G
-LBSCR G Class 2-2-2
+LBSCR G class 2-2-2
 LBSCR-croydon
-LBSCR Croydon Engine 2-4-0
+LBSCR Croydon engine 2-4-0
 LBSCR-Belgravia
-LBSCR Belgravia Class 2-4-0
+LBSCR Belgravia Ccass 2-4-0
 LBSCR-Belgravia-tender
 LBSCR tender
 LBSCR-sharp-well-tank
-LBSCR Sharp Well Tank 2-2-2WT
+LBSCR Sharp well tank 2-2-2WT
 LBR-2-4-0T
-L&BR Small Tank 2-4-0T
+L&BR small tank 2-4-0T
 LNWR-8wheel-radial-brake-front
 LNWR eight wheel (radial) four compartment brake
 LNWR-8wheel-radial-brake-lav-front
@@ -5666,6 +6161,8 @@ leyland-national-lnc
 Leyland National coach
 HackneyCarriage
 Hackney carriage
+hansom-cab
+Hansom Cab
 StageCoach
 Stage coach (rigid)
 stagecoach-georgian
@@ -5677,9 +6174,11 @@ Stage coach (braked)
 short-stagecoach
 Short stage coach
 MailCoach
-Mail coach (sprung)
+Mail coach (sprung) (+ mail boot)
 mailcoach-regency
-Mail coach (braked)
+Mail coach (braked) (+ mail boot)
+mail-boot
+Mail boot
 OmnibusSingle
 Horse omnibus
 omnibus-single-small
@@ -5736,6 +6235,14 @@ milnes-daimler-single
 Milnes-Dailmer motor omnibus (single deck)
 daimler-cc-double
 Daimler CC
+daimler-cog5-double
+Daimler COG5
+daimler-cog5-single
+Daimler COG5 (single deck)
+bedford-wtb
+Bedford WTB
+bedford-ob
+Bedford OB
 BTypeDouble
 AEC B Type (double deck)
 OmnibusDoubleGardenseat
@@ -5840,6 +6347,8 @@ AECRenownLT
 AEC Renown LT
 aec-regent-stl
 AEC Regent STL
+aec-regent-stl-late
+AEC Regent STL (revised)
 aec-rmc
 AEC Routemaster (coach)
 RoutemasterLongCoach
@@ -6268,18 +6777,22 @@ yorkshire-steam-wagon-wh-tanker
 Yorkshire Steam Wagon WH (bulk fluids)
 ParcelCoach
 Parcel Coach
-McNamaraDennisVanPost
-McNamara Dennis Van (mail)
+dennis-15cwt-van-post
+Dennis 15cwt van (mail)
+dennis-15cwt-van-piece
+Dennis 15cwt van (piece goods)
+dennis-15cwt-van-cool
+Dennis 15cwt van (perishable goods)
 AustinSevenPost
 Austin Seven Van (mail)
 AustinSevenCool
-Austin Seven Van (perishable goods)
+Austin Seven van (perishable goods)
 AustinSevenPiece
-Austin Seven Van (piece goods)
+Austin Seven van (piece goods)
 MorrisEightPost
-Morris Eight Van (mail)
+Morris Eight van (mail)
 MorrisEightCool
-Morris Eight Van (perishable goods)
+Morris Eight van (perishable goods)
 MorrisEightPiece
 Morris Eight Van (piece goods)
 ThornycroftBTPost
@@ -6693,7 +7206,7 @@ Saunders Roe N4 "Mountbatten class" Mk1 hovercraft
 SR-N4-Mountbatten-Mk3
 Saunders Roe N4 "Mountbatten class" Mk3 hovercraft
 MerseyFerry
-River ferry
+Coastal ferry
 SSGreatWestern
 SS Great Western
 SSGreatBritain
@@ -6789,7 +7302,11 @@ Fastcat class catamaran
 ClipperHull
 Clipper (hull)
 ClipperAddPax
-Clipper passenger berths
+Clipper steerage deck
+ClipperAddPax-second-class
+Clipper second class passenger cabins
+ClipperAddPax-first-class
+Clipper first class passenger cabins
 ClipperAddMail
 Clipper mail hold
 ClipperAddPiece
@@ -6805,7 +7322,9 @@ Clipper livestock hold
 BrigHull
 Brig (hull)
 BrigAddPax
-Brig passenger berths
+Brig steerage deck
+BrigAddPax-first-class
+Brig passenger cabins
 BrigAddMail
 Brig mail hold
 BrigAddPiece
@@ -6837,7 +7356,11 @@ Schooner livestock hold
 EastIndiamanHull
 East Indiaman (hull)
 EastIndiamanAddPax
-East Indiaman passenger berths
+East Indiaman steerage deck
+EastIndiamanAddPax-second-class
+East Indiaman second class passenger cabins
+EastIndiamanAddPax-first-class
+East Indiaman first class passenger cabins
 EastIndiamanAddMail
 East Indiaman mail hold
 EastIndiamanAddPiece
@@ -6853,7 +7376,11 @@ East Indiaman livestock hold
 BlackwallFrigateHull
 Blackwall Frigate (hull)
 BlackwallFrigateAddPax
-Blackwall Frigate passenger berths
+Blackwall Frigate steerage deck
+BlackwallFrigateAddPax-second-class
+Blackwall Frigate second class passenger cabins
+BlackwallFrigateAddPax-first-class
+Blackwall Frigate first class passenger cabins
 BlackwallFrigateAddMail
 Blackwall Frigate mail hold
 BlackwallFrigateAddPiece
@@ -6907,25 +7434,25 @@ Channel screw ship
 ChannelScrewSteamshipAddMail
 Mail hold
 SECRQueen
-SECR TS "The Queen" ferry
+Turbine channel ferry
 SECRQueenAddMail
-SECR TS "The Queen" ferry mail hold
+Turbine channel ferry mail hold
 SRIsleOfThanet
-SR TS "Isle of Thanet" ferry
+Large steam turbine channel ferry
 SRIsleOfThanetAddMail
-SR TS "Isle of Thanet" ferry mail hold
+Large steam turbine channel  ferry mail hold
 BTCLordWarden
-BTC TS "Lord Warden" ferry
+Modern turbine channel ferry
 BTCLordWardenAddMail
-BTC TS "Lord Warden" ferry mail hold
+Modern turbine channel ferry mail hold
 BTCLordWardenAddPiece
-BTC TS "Lord Warden" ferry piece goods hold
+Modern turbine channel ferry piece goods hold
 BTCLordWardenAddCool
-BTC TS "Lord Warden" ferry cooled goods hold
+Modern turbine channel ferry cooled goods hold
 SRInvicta
-SR TS "Invicta" ferry
+Turbine channel ferry
 SRInvictaAddMail
-SR TS "Invicta" ferry mail hold
+Turbine channel ferry mail hold
 SealinkHorsa
 Sealink MV "Horsa" ferry
 SealinkHorsaAddMail
@@ -7072,6 +7599,8 @@ ClydeSteamer
 Small iron coastal paddle ship
 PSPremier
 Iron coastal paddle ship (open deck)
+ps-premier-covered
+Iron coastal paddle ship (partly covered deck)
 PSWaverley2
 Compound coastal paddle ship
 RMSColumba
@@ -7270,8 +7799,8 @@ HorseBargePiece
 Unpowered horse barge (piece goods)
 HorseBargeLivestock
 Unpowered horse barge (livestock)
-HumberKeelMail
-Humber keel (mail)
+HumberKeelPassenger
+Humber keel (passengers and mail)
 HumberKeelBulk
 Humber keel (bulk goods)
 HumberKeelLong
@@ -7282,6 +7811,8 @@ HumberKeelLivestock
 Humber keel (livestock)
 HumberKeelCool
 Humber keel (perishable goods)
+humber-keel-mail-hold
+Mail hold
 NorfolkWherryBulk
 Norfolk wherry (bulk goods)
 NorfolkWherryLivestock
@@ -7296,6 +7827,18 @@ NorfolkWherryPassenger
 Norfolk wherry (passengers)
 NorfolkWherryPiece
 Norfolk wherry (piece goods)
+skiff-wherry-passenger
+Skiff wherry (passengers)
+skiff-wherry-bulk
+Skiff wherry (bulk goods)
+skiff-wherry-long
+Skiff wherry (long goods)
+skiff-wherry-piece
+Skiff wherry (piece goods)
+skiff-wherry-cool
+Skiff wherry (perishable goods)
+mail-space
+Mail space
 #____________________________________maglev-vehicle____________________________________
 #____________________________________maglev-vehicle____________________________________
 BR-M-Class9000
@@ -7344,10 +7887,16 @@ BR-Ultra-520DD(rear)
 Ultraspeed Class M30 "Platinum Jubilee" (rear)
 #______________________________________way______________________________________
 #______________________________________way______________________________________
+waggonway
+Wooden waggonway
 plateway
-Waggonway
+Strap iron waggonway
 cast_iron_track
 Cast iron track
+wrought_iron_fishbelly_track
+Wrought iron fishbelly track (28lb/yard)
+wrought_iron_fishbelly_heavy_track
+Wrought iron fishbelly track (35lb/yard)
 wrought_iron_light_track
 Wrought iron track (40lb/yard)
 wrought_iron_intermediate_track
@@ -7390,10 +7939,12 @@ tgv
 Steel track (high speed) - hard base (60kg/m)
 rail-mothballed
 Mothballed railway track
-cast_iron_N
-Cast iron narrow gauge track
+fishbelly_N
+Wrought iron fishbelly narrow gauge track (16lb/yard)
 wrought_iron_N
-Wrought iron narrow gauge track (30lb/yard)
+Wrought iron narrow gauge track (18lb/yard)
+wrought_iron_improved_N
+Wrought iron narrow gauge track (46lb/yard)
 wssrN
 Steel narrow gauge track (40lb/yard)
 wssrN-improved
@@ -7632,6 +8183,8 @@ StagingPost
 Staging post
 StagingInn
 Staging inn
+staging-post-rail
+Staging post
 ModernBusShelter
 Bus stop with shelter
 OldBusShelter
@@ -8076,6 +8629,8 @@ NewMini(Red)
 Mini Hatch
 NewMini(Black)
 Mini Hatch
+NewMini(White)
+Mini Hatch
 Triumph2000(Blue)
 Triumph 2000
 Triumph2000(Green)
@@ -8297,39 +8852,45 @@ Rover 9
 #__________________________________Way constraints__________________________________
 #__________________________________Way constraints__________________________________
 # Permissive
-Permissive 0
+Permissive 2-0
 DC Third Rail Electrification
-Permissive 1
+Permissive 7-1
 DC Overhead Catenary
-Permissive 2
+Permissive 2-1
+DC Overhead Catenary
+Permissive 2-2
 AC Overhead Catenary
-Permissive 3
+Permissive 2-3
 DC Fourth Rail Electrification
-Permissive 4
+Permissive 3-4
 Waterway
 # For the DLR - reserved for future use.
-Permissive 5
+Permissive 2-5
 Light rail electrification
-Permissive 6
+Permissive 7-5
+Light rail electrification
+Permissive 2-6
 [Unused] Permissive 6
-Permissive 7
+Permissive 2-7
 [Unused] Permissive 7
 # Prohibitive
-Prohibitive 0
+Prohibitive 7-0
 Tramway
-Prohibitive 1
+Prohibitive 2-0
+Tramway
+Prohibitive 2-1
 Tube tunnel
-Prohibitive 2
+Prohibitive 3-2
 Barge canal/small river
-Prohibitive 3
+Prohibitive 3-3
 Tub boat canal
-Prohibitive 4
+Prohibitive 3-4
 Narrow canal
-Prohibitive 5
+Prohibitive 3-5
 Ship canal/medium river
-Prohibitive 6
+Prohibitive 3-6
 Large ship canal/large river
-Prohibitive 7
+Prohibitive 3-7
 [Unused] Prohibitive 7
 #_____________________________________Climates_____________________________________
 #_____________________________________Climates_____________________________________
@@ -8354,15 +8915,17 @@ Mechanical signalbox
 mechanical-signalbox-small
 Mechanical signalbox (small)
 etrms-centre-large
-ETRMS control centre (large)
+ERTMS control centre (large)
 etrms-centre-small
-ETRMS control centre (small)
+ERTMS control centre (small)
 mini-signalling-centre
 Signalling centre (small)
 policeman's-cottage
 Railway policeman's cottage
+policeman's-cottage-with-telegraph-cooke-and-wheatstone
+Railway policeman's cottage (with telegraph, Cooke & Wheatstone)
 policeman's-cottage-with-telegraph
-Railway policeman's cottage (with telegraph)
+Railway policeman's cottage (with telegraph, two wire)
 power-signalbox-deco
 Power signalbox
 power-signalbox-large
@@ -8535,3 +9098,27 @@ Grey-Green
 Grey Green
 Go-Ahead-London
 Go Ahead London
+Virgin-Trains
+Virgin Trains
+Trainload-Freight
+Trainload Freight
+London-&-Birmingham
+London & Birmingham
+Stockton-Darlington
+Stockton & Darlington
+#______________________________________Classes______________________________________
+#______________________________________Classes______________________________________
+p_class[0]
+Very low
+p_class[1]
+Low
+p_class[2]
+Medium
+p_class[3]
+High
+p_class[4]
+Very high
+m_class[0]
+Normal
+m_class[1]
+Priority

@@ -9,7 +9,8 @@ retire_year=1907
 retire_month=6
 waytype=track
 freight=Passagiere
-payload=72
+payload[0]=0
+payload[1]=72
 overcrowded_capacity=22
 length=11
 rolling_resistance=17
@@ -20,12 +21,13 @@ axles=6
 cost=800000
 runningcost=38
 
-
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=20
 max_loading_time=50
-comfort=132
+
+comfort[0]=0
+comfort[1]=132
 
 Constraint[Next][0]=LNER-Gresley-Express-Coach
 Constraint[Next][1]=LNER-Gresley-Express-Brake-rear
@@ -97,7 +99,8 @@ retire_year=1907
 retire_month=6
 waytype=track
 freight=Passagiere
-payload=40
+payload[0]=0
+payload[1]=40
 overcrowded_capacity=15
 length=11
 rolling_resistance=17
@@ -108,12 +111,13 @@ axles=6
 cost=800000
 runningcost=38
 
-
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=20
 max_loading_time=50
-comfort=132
+
+comfort[0]=0
+comfort[1]==132
 
 Constraint[Next][0]=LNER-Gresley-Express-Coach
 Constraint[Next][1]=LNER-Gresley-Express-Brake-rear
@@ -162,7 +166,8 @@ retire_year=1907
 retire_month=6
 waytype=track
 freight=Passagiere
-payload=40
+payload[0]=0
+payload[1]=40
 overcrowded_capacity=15
 length=11
 rolling_resistance=17
@@ -173,12 +178,12 @@ axles=6
 cost=800000
 runningcost=38
 
-
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=20
 max_loading_time=50
-comfort=132
+comfort[0]=0
+comfort[1]=132
 
 Constraint[Prev][0]=LNER-Gresley-Express-Coach
 Constraint[Prev][1]=LNER-Gresley-Express-Brake-front
@@ -227,7 +232,8 @@ retire_month=6
 waytype=track
 freight=Passagiere
 # No data: guessed based on LNWR equivalent (which is shorter)
-payload=30
+payload[0]=0
+payload[1]=30
 length=11
 rolling_resistance=17
 
@@ -237,12 +243,13 @@ axles=6
 cost=950000
 runningcost=44
 
-
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=20
 max_loading_time=50
-comfort=132
+
+comfort[0]=0
+comfort[1]=132
 catering_level=4
 
 Constraint[Next][0]=LNER-Gresley-Express-Coach
@@ -315,7 +322,8 @@ retire_year=1907
 retire_month=6
 waytype=track
 freight=Passagiere
-payload=56
+payload[0]=0
+payload[1]=56
 overcrowded_capacity=16
 length=9
 
@@ -325,12 +333,13 @@ axles=4
 cost=740000
 runningcost=37
 
-
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=20
 max_loading_time=50
-comfort=123
+
+comfort[0]=0
+comfort[1]=123
 
 Constraint[Next][0]=LNER-Gresley-Express-Coach
 Constraint[Next][1]=LNER-Gresley-Express-Brake-rear
@@ -402,7 +411,8 @@ retire_year=1907
 retire_month=6
 waytype=track
 freight=Passagiere
-payload=32
+payload[0]=0
+payload[1]=32
 overcrowded_capacity=10
 length=9
 
@@ -412,12 +422,13 @@ axles=4
 cost=740000
 runningcost=37
 
-
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=20
 max_loading_time=50
-comfort=123
+
+comfort[0]=0
+comfort[1]=123
 
 Constraint[Next][0]=LNER-Gresley-Express-Coach
 Constraint[Next][1]=LNER-Gresley-Express-Brake-rear
@@ -467,7 +478,8 @@ retire_year=1907
 retire_month=6
 waytype=track
 freight=Passagiere
-payload=32
+payload[0]=0
+payload[1]=32
 overcrowded_capacity=10
 length=9
 
@@ -477,12 +489,13 @@ axles=4
 cost=740000
 runningcost=37
 
-
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=20
 max_loading_time=50
-comfort=123
+
+comfort[0]=0
+comfort[1]=123
 
 Constraint[Prev][0]=LNER-Gresley-Express-Coach
 Constraint[Prev][1]=LNER-Gresley-Express-Brake-front
@@ -540,7 +553,6 @@ axles=4
 cost=700000
 runningcost=37
 
-
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=25
@@ -576,7 +588,6 @@ weight=23.5
 axles=4
 cost=700000
 runningcost=36
-
 
 can_lead_from_rear=0
 bidirectional=1
@@ -661,7 +672,6 @@ weight=23.5
 axles=4
 cost=770000
 runningcost=38
-
 
 can_lead_from_rear=0
 bidirectional=1

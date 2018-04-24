@@ -1,5 +1,6 @@
 # http://www.b737.org.uk/techspecsoriginals.htm
 # http://www.airliners.net/aircraft-data/boeing-737-100200/91
+# http://www.boeing.com/assets/pdf/commercial/airports/acaps/737.pdf
 obj=vehicle
 name=boeing-737-100
 copyright=Emmanuel Baranger
@@ -12,18 +13,26 @@ power=22320
 tractive_effort=124
 #gear=1
 freight=Passagiere
-# Generally single class seating
-payload=100
+payload[0]=0
+payload[1]=0
+payload[2]=73
+payload[3]=0
+payload[4]=12
 weight=25.8
 #length=8
 cost=3800000
+upgrade_price=5000
 runningcost=3900
 intro_year=1967
 intro_month=12
 retire_year=1985
 retire_month=1
 
-comfort=105
+comfort[0]=0
+comfort[1]=0
+comfort[2]=105
+comfort[3]=0
+comfort[4]=170
 min_loading_time=2400
 max_loading_time=2400
 catering_level=2
@@ -36,6 +45,8 @@ minimum_runway_length=2012
 sound=laxspotter97-boeing737-200.wav
 range=2855
 
+upgrade[0]=boeing-737-100-high-density
+
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
@@ -47,4 +58,57 @@ EmptyImage[W]=./images/boeing-737-100_W.0.0
 EmptyImage[NW]=./images/boeing-737-100_NW.0.0
 EmptyImage[N]=./images/boeing-737-100_N.0.0
 EmptyImage[NE]=./images/boeing-737-100_NE.0.0
+---
+obj=vehicle
+name=boeing-737-100-high-density
+copyright=Emmanuel Baranger
+# https://www.blendswap.com/blends/view/75609
+waytype=air
+engine_type=turbine
+# LRC (TAS)
+speed=778
+power=22320
+tractive_effort=124
+#gear=1
+freight=Passagiere
+payload[0]=0
+payload[1]=0
+payload[2]=100
+weight=25.8
+#length=8
+cost=3800000
+upgrade_price=5000
+runningcost=3900
+intro_year=1967
+intro_month=12
+retire_year=1985
+retire_month=1
 
+comfort[0]=0
+comfort[1]=0
+comfort[2]=105
+min_loading_time=2400
+max_loading_time=2400
+catering_level=2
+
+# @ ISA (sea level, 0Centigrades), Runway Dry
+#minimum_runway_length=1829
+# @ ISA+20C, Runway dry = +10%
+minimum_runway_length=2012
+
+sound=laxspotter97-boeing737-200.wav
+range=2855
+
+upgrade[0]=boeing-737-100
+
+Constraint[Next][0]=none
+Constraint[Prev][0]=none
+
+EmptyImage[E]=./images/boeing-737-100_E.0.0
+EmptyImage[SE]=./images/boeing-737-100_SE.0.0
+EmptyImage[S]=./images/boeing-737-100_S.0.0
+EmptyImage[SW]=./images/boeing-737-100_SW.0.0
+EmptyImage[W]=./images/boeing-737-100_W.0.0
+EmptyImage[NW]=./images/boeing-737-100_NW.0.0
+EmptyImage[N]=./images/boeing-737-100_N.0.0
+EmptyImage[NE]=./images/boeing-737-100_NE.0.0

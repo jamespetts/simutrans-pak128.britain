@@ -10,7 +10,8 @@ retire_year=1968
 retire_month=9
 waytype=track
 freight=Passagiere
-payload=83
+payload[0]=0
+payload[1]=83
 overcrowded_capacity=62
 length=11
 rolling_resistance=13
@@ -28,7 +29,8 @@ way_constraint_permissive[2]=2
 
 min_loading_time=15
 max_loading_time=55
-comfort=82
+comfort[0]=0
+comfort[1]=82
 
 # Multiple working with BR classes 302-312:
 # http://en.wikipedia.org/wiki/British_Rail_Class_312
@@ -87,7 +89,8 @@ retire_year=1968
 retire_month=9
 waytype=track
 freight=Passagiere
-payload=70
+payload[0]=0
+payload[1]=70
 overcrowded_capacity=52
 length=11
 rolling_resistance=13
@@ -105,7 +108,8 @@ way_constraint_permissive[2]=2
 
 min_loading_time=15
 max_loading_time=55
-comfort=82
+comfort[0]=0
+comfort[1]=82
 
 Constraint[Prev][0]=BR-303Front
 
@@ -156,7 +160,8 @@ retire_year=1968
 retire_month=9
 waytype=track
 freight=Passagiere
-payload=83
+payload[0]=0
+payload[1]=83
 overcrowded_capacity=62
 length=11
 rolling_resistance=13
@@ -174,7 +179,8 @@ way_constraint_permissive[2]=2
 
 min_loading_time=15
 max_loading_time=55
-comfort=82
+comfort[0]=0
+comfort[1]=82
 
 Constraint[Prev][0]=BR-303Pantograph
 

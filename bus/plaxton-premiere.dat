@@ -21,13 +21,13 @@ intro_year=1991
 intro_month=6
 retire_year=2000
 retire_month=3
+sound=hkmtrhah-volvo-bm10.wav
 
 comfort=95
 catering_level=1
 # Coach: 7.5 seconds per passenger
 min_loading_time=30
 max_loading_time=377
-sound=hkmtrhah-volvo-bm10.wav
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=none

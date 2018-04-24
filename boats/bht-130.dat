@@ -3,13 +3,15 @@ name=BHT-130
 copyright=James
 waytype=water
 engine_type=petrol
-smoke=diesel
+smoke=Diesel
 sound=hovercraft.wav
 speed=90
 power=900
 gear=100
 freight=Passagiere
-payload=130
+payload[0]=0
+payload[1]=0
+payload[2]=130
 weight=48
 length=10
 cost=175000000
@@ -17,11 +19,14 @@ runningcost=8925
 intro_year=2005
 intro_month=11
 
-comfort=79
+comfort[0]=0
+comfort[1]=0
+comfort[2]=79
 # Hovercraft loading time: approx. 15 mins:
 # http://www.theyworkforyou.com/debates/?id=1986-06-05a.1100.0#g1124.0
 min_loading_time=900
 max_loading_time=1020
+range=100
 
 way_constraint_prohibitive[6]=6 # Large ship
 

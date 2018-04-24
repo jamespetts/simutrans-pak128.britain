@@ -15,6 +15,9 @@ waytype=road
 freight=Passagiere
 payload=20
 length=4
+# This is not quite right for the diesel Cub, but an authentic
+# sound cannot be located for the present.
+sound=graham-french-tilling-stevens-1930.wav
 
 comfort=35
 # One door pay driver: 4.0 seconds per passenger
@@ -25,7 +28,6 @@ weight=4
 axles=2
 cost=220000
 runningcost=100
-
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=none

@@ -1,0 +1,70 @@
+# As used on the original Stockton & Darlington Railway:
+# https://books.google.co.uk/books?id=WBI1AAAAMAAJ&pg=PA275&lpg=PA275&dq=fishbelly+%22wrought+iron%22&source=bl&ots=oY4MUvoCdC&sig=HkWlSuwvyZsSwY9XLYb9Uh7pLSQ&hl=en&sa=X&ved=0ahUKEwjRzvL7xq_YAhWDzaQKHRqoDBYQ6AEILjAB#v=onepage&q&f=false
+# http://myweb.tiscali.co.uk/gansg/2-track/02track1.htm
+# https://lancashireminingmuseum.org/2017/05/02/fishbelly-rails-on-stone-sleepers-original-track-on-the-liverpool-manchester-bolton-leigh-railway-of-1830/
+# https://en.wikipedia.org/wiki/Wagonway#Metal_rails_introduced
+# 28lb/yard
+Obj=way
+Name=wrought_iron_fishbelly_track
+waytype=track
+cost=30000
+maintenance=755
+topspeed=75
+max_weight=5
+intro_year=1820
+intro_month=4
+retire_year=1835
+retire_month=9
+wear_capacity=20160000
+
+icon=> ./images/fishbelly.3.4
+cursor=./images/fishbelly.3.5
+Image[-][0]=./images/fishbelly.1.2
+Image[N][0]=./images/fishbelly.1.5
+Image[S][0]=./images/fishbelly.2.1
+Image[E][0]=./images/fishbelly.2.2
+Image[W][0]=./images/fishbelly.2.0
+Image[NS][0]=./images/fishbelly.1.0
+Image[EW][0]=./images/fishbelly.1.1
+Image[NSE][0]=./images/fishbelly.0.2
+Image[NSW][0]=./images/fishbelly.0.4
+Image[NEW][0]=./images/fishbelly.0.1
+Image[SEW][0]=./images/fishbelly.0.3
+Image[NSEW][0]=./images/fishbelly.1.2
+Image[NE][0]=./images/fishbelly.3.0
+Image[SE][0]=./images/fishbelly.2.3
+Image[NW][0]=./images/fishbelly.2.4
+Image[SW][0]=./images/fishbelly.2.5
+ImageUp[3][0]=./images/fishbelly.4.2
+ImageUp[6][0]=./images/fishbelly.4.3
+ImageUp[9][0]=./images/fishbelly.4.0
+ImageUp[12][0]=./images/fishbelly.4.1
+ImageUp2[3][0]=./images/fishbelly.1.3
+ImageUp2[6][0]=./images/fishbelly.1.4
+ImageUp2[9][0]=./images/fishbelly.0.0
+ImageUp2[12][0]=./images/fishbelly.0.5
+
+Image[-][1]=./images/rail-snow.1.2
+Image[N][1]=./images/rail-snow.1.5
+Image[S][1]=./images/rail-snow.2.1
+Image[E][1]=./images/rail-snow.2.2
+Image[W][1]=./images/rail-snow.2.0
+Image[NS][1]=./images/rail-snow.1.0
+Image[EW][1]=./images/rail-snow.1.1
+Image[NSE][1]=./images/rail-snow.0.2
+Image[NSW][1]=./images/rail-snow.0.4
+Image[NEW][1]=./images/rail-snow.0.1
+Image[SEW][1]=./images/rail-snow.0.3
+Image[NSEW][1]=./images/rail-snow.1.2
+Image[NE][1]=./images/rail-snow.3.0
+Image[SE][1]=./images/rail-snow.2.3
+Image[NW][1]=./images/rail-snow.2.4
+Image[SW][1]=./images/rail-snow.2.5
+ImageUp[3][1]=./images/rail-snow.4.2
+ImageUp[6][1]=./images/rail-snow.4.3
+ImageUp[9][1]=./images/rail-snow.4.0
+ImageUp[12][1]=./images/rail-snow.4.1
+ImageUp2[3][1]=./images/rail-snow.1.3
+ImageUp2[6][1]=./images/rail-snow.1.4
+ImageUp2[9][1]=./images/rail-snow.0.0
+ImageUp2[12][1]=./images/rail-snow.0.5

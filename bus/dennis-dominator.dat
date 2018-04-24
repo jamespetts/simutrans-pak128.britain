@@ -25,6 +25,8 @@ intro_month=10
 retire_year=1996
 retire_month=4
 is_tall=1
+# Temporary sound - await a more suitable sound.
+sound=ff3170-mcw-metrobus.wav
 
 comfort=41
 min_loading_time=5

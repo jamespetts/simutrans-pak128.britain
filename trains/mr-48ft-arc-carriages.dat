@@ -9,7 +9,8 @@ retire_year=1910
 retire_month=4
 waytype=track
 freight=Passagiere
-payload=80
+payload[0]=0
+payload[1]=80
 overcrowded_capacity=40
 length=8
 
@@ -18,13 +19,13 @@ axles=4
 cost=440000
 runningcost=27
 
-
 can_lead_from_rear=0
 bidirectional=1
 
 min_loading_time=10
 max_loading_time=30
-comfort=73
+comfort[0]=0
+comfort[1]=73
 
 Constraint[Next][0]=4-wheel-1870s-fitted
 Constraint[Next][1]=4-wheel-1870s-brake-fitted
@@ -176,7 +177,8 @@ retire_year=1910
 retire_month=4
 waytype=track
 freight=Passagiere
-payload=60
+payload[0]=0
+payload[1]=60
 overcrowded_capacity=30
 length=8
 
@@ -184,7 +186,6 @@ weight=24.3
 axles=4
 cost=432000
 runningcost=27
-
 
 upgrade[0]=MR-push-pull-front
 upgrade[1]=MR-push-pull-rear
@@ -194,7 +195,8 @@ bidirectional=1
 
 min_loading_time=10
 max_loading_time=30
-comfort=73
+comfort[0]=0
+comfort[1]=73
 
 Constraint[Next][0]=4-wheel-1870s-fitted
 Constraint[Next][1]=4-wheel-1870s-brake-fitted
@@ -283,7 +285,8 @@ retire_year=1910
 retire_month=4
 waytype=track
 freight=Passagiere
-payload=60
+payload[0]=0
+payload[1]=60
 overcrowded_capacity=30
 length=8
 
@@ -291,7 +294,6 @@ weight=24.3
 axles=4
 cost=432000
 runningcost=27
-
 
 upgrade[0]=MR-push-pull-front
 upgrade[1]=MR-push-pull-rear
@@ -301,7 +303,8 @@ bidirectional=1
 
 min_loading_time=10
 max_loading_time=30
-comfort=73
+comfort[0]=0
+comfort[1]=73
 
 Constraint[Prev][0]=4-wheel-1870s-fitted
 Constraint[Prev][1]=4-wheel-1870s-brake-fitted
@@ -389,7 +392,8 @@ retire_year=1924
 retire_month=4
 waytype=track
 freight=Passagiere
-payload=60
+payload[0]=0
+payload[1]=60
 overcrowded_capacity=30
 length=8
 
@@ -399,12 +403,12 @@ cost=432000
 runningcost=27
 upgrade_price=25000
 
-
 can_lead_from_rear=1
 bidirectional=0
 min_loading_time=10
 max_loading_time=30
-comfort=73
+comfort[0]=0
+comfort[1]=73
 
 Constraint[Next][0]=MR-1632
 Constraint[Next][1]=LMS-0-4-4T
@@ -436,7 +440,8 @@ retire_year=1924
 retire_month=4
 waytype=track
 freight=Passagiere
-payload=60
+payload[0]=0
+payload[1]=60
 overcrowded_capacity=30
 length=8
 
@@ -446,12 +451,12 @@ cost=432000
 runningcost=27
 upgrade_price=25000
 
-
 can_lead_from_rear=1
 bidirectional=0
 min_loading_time=10
 max_loading_time=30
-comfort=73
+comfort[0]=0
+comfort[1]=73
 
 Constraint[Next][0]=none
 

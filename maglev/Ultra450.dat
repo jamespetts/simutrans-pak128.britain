@@ -10,7 +10,10 @@ intro_year=2004
 intro_month=1
 waytype=maglev_track
 freight=Passagiere
-payload=54
+payload[0]=0
+payload[1]=54
+payload[2]=0
+payload[3]=0
 overcrowded_capacity=15
 length=14
 weight=22
@@ -18,12 +21,14 @@ axles=1
 cost=24000000
 runningcost=650
 
-
 can_lead_from_rear=1
 bidirectional=0
 min_loading_time=25
 max_loading_time=160
-comfort=155
+comfort[0]=0
+comfort[1]=155
+comfort[2]=0
+comfort[3]=170
 air_resistance=103
 
 Constraint[Prev][0]=BR-Ultra-450(rear)
@@ -52,7 +57,10 @@ intro_year=2004
 intro_month=1
 waytype=maglev_track
 freight=Passagiere
-payload=82
+payload[0]=0
+payload[1]=82
+payload[2]=0
+payload[3]=0
 overcrowded_capacity=20
 length=14
 weight=25
@@ -60,12 +68,14 @@ axles=1
 cost=24000000
 runningcost=980
 
-
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=25
 max_loading_time=160
-comfort=155
+comfort[0]=0
+comfort[1]=155
+comfort[2]=0
+comfort[3]=170
 
 Constraint[Prev][0]=BR-Ultra-450(front)
 Constraint[Prev][1]=BR-Ultra-450(Open)
@@ -95,7 +105,10 @@ intro_year=2004
 intro_month=1
 waytype=maglev_track
 freight=Passagiere
-payload=32
+payload[0]=0
+payload[1]=32
+payload[2]=0
+payload[3]=0
 overcrowded_capacity=9
 length=14
 weight=28
@@ -103,12 +116,14 @@ axles=1
 cost=26200000
 runningcost=675
 
-
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=25
 max_loading_time=160
-comfort=155
+comfort[0]=0
+comfort[1]=155
+comfort[2]=0
+comfort[3]=170
 catering_level=3
 
 Constraint[Prev][0]=BR-Ultra-450(front)
@@ -139,20 +154,25 @@ intro_year=2004
 intro_month=1
 waytype=maglev_track
 freight=Passagiere
-payload=54
-overcrowded_capacity=15
+payload[0]=0
+payload[1]=0
+payload[2]=0
+payload[3]=40
+overcrowded_capacity=0
 length=14
 weight=22
 axles=1
 cost=24000000
 runningcost=650
 
-
 can_lead_from_rear=1
 bidirectional=0
 min_loading_time=25
 max_loading_time=160
-comfort=155
+comfort[0]=0
+comfort[1]=155
+comfort[2]=0
+comfort[3]=170
 air_resistance=103
 
 Constraint[Prev][0]=BR-Ultra-450(Open)

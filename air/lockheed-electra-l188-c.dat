@@ -1,0 +1,115 @@
+# http://www.airliners.net/aircraft-data/lockheed-l-188-electra/268
+# http://www.aviastar.org/air/usa/lok_l-188.php
+obj=vehicle
+name=lockheed-electra-l188-c
+copyright=707
+# https://3dwarehouse.sketchup.com/model/325f0b5ace799075bc0909d98a1ff2b4/Pacific-Southwest-Airlines-PSA-Lockheed-L-188C-Electra
+waytype=air
+engine_type=turbine
+speed=602
+power=11200
+tractive_effort=43
+freight=Passagiere
+payload[0]=0
+payload[1]=0
+payload[2]=60
+payload[3]=0
+payload[4]=14
+weight=27.9
+#length=8
+cost=11250000
+upgrade_price=5000
+runningcost=2425
+intro_year=1959
+intro_month=7
+retire_year=1961
+retire_month=12
+
+comfort[0]=0
+comfort[1]=0
+comfort[2]=111
+comfort[3]=0
+comfort[4]=137
+min_loading_time=2400
+max_loading_time=2400
+catering_level=3
+
+# https://www.skybrary.aero/index.php/L188
+# @ ISA (sea level, 0Centigrades), Runway Dry
+#minimum_runway_length=1290
+# @ ISA+10C, Runway dry = +10%
+minimum_runway_length=1419
+
+sound=robin-pinnock-lockheed-electra.wav
+# This is the main difference between this and the A
+range=3450
+
+upgrade[0]=lockheed-electra-l188-c-high-density
+
+Constraint[Next][0]=none
+Constraint[Prev][0]=none
+
+EmptyImage[E]=./images/lockheed-electra-l188-c_E.0.0
+EmptyImage[SE]=./images/lockheed-electra-l188-c_SE.0.0
+EmptyImage[S]=./images/lockheed-electra-l188-c_S.0.0
+EmptyImage[SW]=./images/lockheed-electra-l188-c_SW.0.0
+EmptyImage[W]=./images/lockheed-electra-l188-c_W.0.0
+EmptyImage[NW]=./images/lockheed-electra-l188-c_NW.0.0
+EmptyImage[N]=./images/lockheed-electra-l188-c_N.0.0
+EmptyImage[NE]=./images/lockheed-electra-l188-c_NE.0.0
+
+---
+
+obj=vehicle
+name=lockheed-electra-l188-c-high-density
+copyright=707
+# https://3dwarehouse.sketchup.com/model/325f0b5ace799075bc0909d98a1ff2b4/Pacific-Southwest-Airlines-PSA-Lockheed-L-188C-Electra
+waytype=air
+engine_type=turbine
+speed=602
+power=11200
+tractive_effort=43
+freight=Passagiere
+payload[0]=0
+payload[1]=0
+payload[2]=104
+weight=27.9
+#length=8
+cost=11250000
+upgrade_price=5000
+runningcost=2425
+intro_year=1959
+intro_month=7
+retire_year=1961
+retire_month=12
+
+comfort[0]=0
+comfort[1]=0
+comfort[2]=103
+min_loading_time=2400
+max_loading_time=2400
+catering_level=3
+
+# https://www.skybrary.aero/index.php/L188
+# @ ISA (sea level, 0Centigrades), Runway Dry
+#minimum_runway_length=1290
+# @ ISA+10C, Runway dry = +10%
+minimum_runway_length=1419
+
+sound=robin-pinnock-lockheed-electra.wav
+# This is the main difference between this and the A
+range=3450
+
+upgrade[0]=lockheed-electra-l188-c
+
+Constraint[Next][0]=none
+Constraint[Prev][0]=none
+
+EmptyImage[E]=./images/lockheed-electra-l188-c_E.0.0
+EmptyImage[SE]=./images/lockheed-electra-l188-c_SE.0.0
+EmptyImage[S]=./images/lockheed-electra-l188-c_S.0.0
+EmptyImage[SW]=./images/lockheed-electra-l188-c_SW.0.0
+EmptyImage[W]=./images/lockheed-electra-l188-c_W.0.0
+EmptyImage[NW]=./images/lockheed-electra-l188-c_NW.0.0
+EmptyImage[N]=./images/lockheed-electra-l188-c_N.0.0
+EmptyImage[NE]=./images/lockheed-electra-l188-c_NE.0.0

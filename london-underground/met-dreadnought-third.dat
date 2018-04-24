@@ -10,7 +10,8 @@ retire_year=1923
 retire_month=4
 waytype=track
 freight=Passagiere
-payload=108
+payload[0]=0
+payload[1]=108
 overcrowded_capacity=54
 length=9
 
@@ -18,7 +19,6 @@ weight=30.5
 axles=4
 cost=850000
 runningcost=26
-
 
 can_lead_from_rear=0
 bidirectional=1
@@ -28,7 +28,9 @@ upgrade[2]=met-mv-stock-rear
 
 min_loading_time=10
 max_loading_time=40
-comfort=74
+
+comfort[0]=0
+comfort[1]=74
 
 Constraint[Next][0]=met-jubilee-third
 Constraint[Next][1]=met-jubilee-brake-rear
@@ -85,7 +87,8 @@ retire_year=1923
 retire_month=4
 waytype=track
 freight=Passagiere
-payload=84
+payload[0]=0
+payload[1]=84
 overcrowded_capacity=42
 length=9
 
@@ -93,7 +96,6 @@ weight=30.5
 axles=4
 cost=850000
 runningcost=26
-
 
 can_lead_from_rear=0
 bidirectional=1
@@ -103,7 +105,9 @@ upgrade[2]=met-mv-stock-rear
 
 min_loading_time=10
 max_loading_time=40
-comfort=74
+
+comfort[0]=0
+comfort[1]=74
 
 Constraint[Next][0]=met-jubilee-third
 Constraint[Next][1]=met-jubilee-brake-rear
@@ -150,7 +154,8 @@ retire_year=1923
 retire_month=4
 waytype=track
 freight=Passagiere
-payload=84
+payload[0]=0
+payload[1]=84
 overcrowded_capacity=42
 length=9
 
@@ -158,7 +163,6 @@ weight=30.5
 axles=4
 cost=850000
 runningcost=26
-
 
 can_lead_from_rear=0
 bidirectional=1
@@ -168,7 +172,9 @@ upgrade[2]=met-mv-stock-rear
 
 min_loading_time=10
 max_loading_time=40
-comfort=74
+
+comfort[0]=0
+comfort[1]=74
 
 Constraint[Next][0]=met-jubilee-third
 Constraint[Next][1]=met-jubilee-brake-rear

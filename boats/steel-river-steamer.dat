@@ -6,9 +6,11 @@ engine_type=steam
 smoke=Steam
 speed=25
 power=500
-#gear=1200
 freight=Passagiere
-payload=400
+payload[0]=0
+payload[1]=250
+payload[2]=0
+payload[3]=150
 weight=150
 length=12
 cost=20000000
@@ -18,7 +20,10 @@ intro_month=4
 retire_year=1912
 retire_month=2
 
-comfort=33
+comfort[0]=0
+comfort[1]=33
+comfort[2]=0
+comfort[3]=62
 min_loading_time=60
 max_loading_time=150
 

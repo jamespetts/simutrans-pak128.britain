@@ -10,7 +10,6 @@ max_weight=60
 topspeed=50
 cost=250000
 maintenance=350
-max_weight=120
 wear_capacity=95000000
 
 icon=> ./images/masonry-viaduct-elevated-narrow.3.4

@@ -10,8 +10,11 @@ speed=895
 power=39504
 tractive_effort=286
 freight=Passagiere
-# 96 in mixed class
-payload=121
+payload[0]=0
+payload[1]=0
+payload[2]=80
+payload[3]=0
+payload[4]=12
 weight=51.2
 #length=8
 cost=18000000
@@ -23,7 +26,11 @@ intro_month=9
 retire_year=1967
 retire_month=10
 
-comfort=141
+comfort[0]=0
+comfort[1]=0
+comfort[2]=141
+comfort[3]=0
+comfort[4]=166
 min_loading_time=2400
 max_loading_time=2400
 
@@ -34,7 +41,59 @@ catering_level=4
 minimum_runway_length=2800
 
 sound=alessandro-camilo-boeing-707.wav
+range=4430
 
+Constraint[Next][0]=none
+Constraint[Prev][0]=none
+
+EmptyImage[E]=./images/convair-cv990_E.0.0
+EmptyImage[SE]=./images/convair-cv990_SE.0.0
+EmptyImage[S]=./images/convair-cv990_S.0.0
+EmptyImage[SW]=./images/convair-cv990_SW.0.0
+EmptyImage[W]=./images/convair-cv990_W.0.0
+EmptyImage[NW]=./images/convair-cv990_NW.0.0
+EmptyImage[N]=./images/convair-cv990_N.0.0
+EmptyImage[NE]=./images/convair-cv990_NE.0.0
+
+---
+
+obj=vehicle
+name=convair-cv990-high-density
+copyright=707 and AirbusA330
+# https://3dwarehouse.sketchup.com/model/b4575e5e6161fd497b164268a44f7712/Spantax-SA-Convair-CV-990A-Coronado
+waytype=air
+engine_type=turbine
+speed=895
+power=39504
+tractive_effort=286
+freight=Passagiere
+payload[0]=0
+payload[1]=0
+payload[2]=121
+weight=51.2
+#length=8
+cost=18000000
+# Turbofans
+runningcost=3865
+intro_year=1961
+intro_month=9
+# Should be 1963, but this makes the production run too short
+retire_year=1967
+retire_month=10
+
+comfort[0]=0
+comfort[1]=0
+comfort[2]=141
+min_loading_time=2400
+max_loading_time=2400
+
+catering_level=4
+
+# Cannot find proper data.
+# Inferred from information here: http://www.airliners.net/forum/viewtopic.php?t=753591
+minimum_runway_length=2800
+
+sound=alessandro-camilo-boeing-707.wav
 range=4430
 
 Constraint[Next][0]=none

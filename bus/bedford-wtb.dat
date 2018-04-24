@@ -1,0 +1,49 @@
+# https://books.google.co.uk/books?id=-H5rDQAAQBAJ&pg=PT85&lpg=PT85&dq=bedford+wtb+length&source=bl&ots=qMsrfMx2WV&sig=ttLKb3h4F1A1VZc0B7AX2VsZeAM&hl=en&sa=X&ved=0ahUKEwisr6SskJfYAhWEa1AKHc8nBxkQ6AEIUzAG#v=onepage&q&f=false
+obj=vehicle
+name=bedford-wtb
+copyright=Hotrod1/jamespetts
+# Modified from:
+# https://3dwarehouse.sketchup.com/model/6df43847-51af-4b8f-89bf-a11eb3c9cd11/1949-Bedford-OB
+waytype=road
+engine_type=petrol
+freight=Passagiere
+payload=26
+overcrowded_capacity=0
+speed=64
+# https://books.google.co.uk/books?id=-H5rDQAAQBAJ&pg=PT85&lpg=PT85&dq=bedford+wtb+length&source=bl&ots=qMsrfMx2WV&sig=ttLKb3h4F1A1VZc0B7AX2VsZeAM&hl=en&sa=X&ved=0ahUKEwisr6SskJfYAhWEa1AKHc8nBxkQ6AEIUzAG#v=onepage&q&f=false
+power=48
+# Fuel tank: 91l
+tractive_effort=3
+gear=50
+# Guessed
+weight=3.2
+length=5
+# These cost up to £785 (£290 chassis only)
+# https://books.google.co.uk/books?id=-H5rDQAAQBAJ&pg=PT85&lpg=PT85&dq=bedford+wtb+length&source=bl&ots=qMsrfMx2WV&sig=ttLKb3h4F1A1VZc0B7AX2VsZeAM&hl=en&sa=X&ved=0ahUKEwisr6SskJfYAhWEa1AKHc8nBxkQ6AEIUzAG#v=onepage&q&f=false
+cost=620000
+runningcost=99
+intro_year=1935
+intro_month=3
+retire_year=1939
+retire_month=11
+is_tall=0
+sound=philflyer-bedford-ob.wav
+
+comfort=63
+# Coach (short distance): 5.0 seconds per passenger
+min_loading_time=30
+max_loading_time=130
+
+Constraint[Prev][0]=none
+Constraint[Next][0]=none
+
+liverytype[0]=Non-London
+
+EmptyImage[E][0]=./images/bedford-wtb_E.0.0,-33,14
+EmptyImage[SE][0]=./images/bedford-wtb_SE.0.0,-13,0
+EmptyImage[S][0]=./images/bedford-wtb_S.0.0,0,0
+EmptyImage[SW][0]=./images/bedford-wtb_SW.0.0,-8,10
+EmptyImage[W][0]=./images/bedford-wtb_W.0.0,4,5
+EmptyImage[NW][0]=./images/bedford-wtb_NW.0.0,12,10
+EmptyImage[N][0]=./images/bedford-wtb_N.0.0,0,33
+EmptyImage[NE][0]=./images/bedford-wtb_NE.0.0,0,24

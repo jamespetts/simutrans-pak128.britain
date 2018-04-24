@@ -7,10 +7,10 @@ cost=40000
 maintenance=700
 topspeed=110
 max_weight=10
-intro_year = 1845
-intro_month = 5
-retire_year = 1872
-retire_month = 6
+intro_year=1845
+intro_month=5
+retire_year=1872
+retire_month=6
 wear_capacity=276480000
 
 icon=> ./images/wrought_iron.3.4
@@ -39,6 +39,7 @@ ImageUp2[3][0]=./images/wrought_iron.1.3
 ImageUp2[6][0]=./images/wrought_iron.1.4
 ImageUp2[9][0]=./images/wrought_iron.0.0
 ImageUp2[12][0]=./images/wrought_iron.0.5
+
 Image[-][1]=./images/rail-snow.1.2
 Image[N][1]=./images/rail-snow.1.5
 Image[S][1]=./images/rail-snow.2.1

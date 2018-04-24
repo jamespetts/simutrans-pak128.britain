@@ -11,7 +11,8 @@ intro_year=2017
 intro_month=5
 waytype=track
 freight=Passagiere
-payload=29
+payload[0]=0
+payload[1]=29
 overcrowded_capacity=67
 length=13
 brake_force=29
@@ -26,7 +27,8 @@ sound=panos-g-class-375.wav
 
 min_loading_time=15
 max_loading_time=55
-comfort=75
+comfort[0]=0
+comfort[1]=75
 
 can_lead_from_rear=1
 bidirectional=0
@@ -60,7 +62,8 @@ intro_year=2017
 intro_month=5
 waytype=track
 freight=Passagiere
-payload=29
+payload[0]=0
+payload[1]=29
 overcrowded_capacity=67
 brake_force=29
 length=13
@@ -75,7 +78,8 @@ sound=panos-g-class-375.wav
 
 min_loading_time=15
 max_loading_time=55
-comfort=75
+comfort[0]=0
+comfort[1]=75
 
 can_lead_from_rear=1
 bidirectional=0
@@ -111,7 +115,8 @@ intro_year=2017
 intro_month=5
 waytype=track
 freight=Passagiere
-payload=56
+payload[0]=0
+payload[1]=56
 overcrowded_capacity=128
 length=12
 brake_force=29
@@ -122,10 +127,10 @@ axles=4
 cost=1512000
 runningcost=132
 
-
 min_loading_time=15
 max_loading_time=55
-comfort=75
+comfort[0]=0
+comfort[1]=75
 
 can_lead_from_rear=0
 bidirectional=1
@@ -160,7 +165,8 @@ intro_year=2017
 intro_month=5
 waytype=track
 freight=Passagiere
-payload=56
+payload[0]=0
+payload[1]=56
 overcrowded_capacity=128
 length=12
 brake_force=29
@@ -171,10 +177,10 @@ axles=4
 cost=1512000
 runningcost=132
 
-
 min_loading_time=15
 max_loading_time=55
-comfort=75
+comfort[0]=0
+comfort[1]=75
 
 can_lead_from_rear=0
 bidirectional=1
@@ -193,6 +199,3 @@ EmptyImage[W]=./images/br-345-panto-crossrail.1.0
 EmptyImage[NW]=./images/br-345-panto-crossrail.1.1
 EmptyImage[N]=./images/br-345-panto-crossrail.1.2
 EmptyImage[NE]=./images/br-345-panto-crossrail.1.3
-
-
----

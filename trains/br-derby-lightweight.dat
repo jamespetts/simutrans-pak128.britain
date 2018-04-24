@@ -1,3 +1,4 @@
+# https://en.wikipedia.org/wiki/British_Rail_Derby_Lightweight
 obj=vehicle
 name=BR-Derby-Lightweight-DTCL
 engine_type=diesel
@@ -12,8 +13,11 @@ retire_year=1956
 retire_month=8
 waytype=track
 freight=Passagiere
-payload=66
-overcrowded_capacity=40
+payload[0]=0
+payload[1]=48
+payload[2]=0
+payload[3]=12
+overcrowded_capacity=28
 length=10
 
 weight=22
@@ -28,8 +32,10 @@ bidirectional=0
 
 min_loading_time=20
 max_loading_time=60
-# http://www.e-v-r.com/images/stocklist/79900_60.jpg
-comfort=84
+comfort[0]=0
+comfort[1]=84
+comfort[2]=0
+comfort[3]=111
 
 Constraint[Prev][0]=BR-Derby-Lightweight-DMBS
 
@@ -94,7 +100,10 @@ retire_year=1956
 retire_month=8
 waytype=track
 freight=Passagiere
-payload=52
+payload[0]=0
+payload[1]=52
+payload[2]=0
+payload[3]=0
 overcrowded_capacity=31
 length=10
 
@@ -110,7 +119,10 @@ bidirectional=0
 
 min_loading_time=20
 max_loading_time=60
-comfort=84
+comfort[0]=0
+comfort[1]=84
+comfort[2]=0
+comfort[3]=111
 
 Constraint[Prev][0]=BR-Derby-Lightweight-DTCL
 Constraint[Prev][1]=none
@@ -157,4 +169,3 @@ EmptyImage[W][3]=./images/br-derby-lightweight-dmbs-bg.1.0
 EmptyImage[NW][3]=./images/br-derby-lightweight-dmbs-bg.1.1
 EmptyImage[N][3]=./images/br-derby-lightweight-dmbs-bg.1.2
 EmptyImage[NE][3]=./images/br-derby-lightweight-dmbs-bg.1.3
-

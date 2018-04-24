@@ -10,7 +10,7 @@ overcrowded_capacity=4
 speed=50
 # 45hp - see John Day, The Story of the London Bus, p. 68
 power=34
-tractive_effort=9
+tractive_effort=6
 gear=50
 # A Regent ST 'bus in the London 'Bus Museum is marked as being 6t 11cwt
 weight=6.7

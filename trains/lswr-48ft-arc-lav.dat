@@ -10,7 +10,8 @@ retire_year=1896
 retire_month=10
 waytype=track
 freight=Passagiere
-payload=60
+payload[0]=0
+payload[1]=60
 overcrowded_capacity=30
 length=9
 
@@ -20,12 +21,12 @@ axles=4
 cost=700000
 runningcost=35
 
-
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=10
 max_loading_time=30
-comfort=86
+comfort[0]=0
+comfort[1]=86
 
 liverytype[0]=LSWR-pea-green
 liverytype[1]=LSWR-sage
@@ -80,7 +81,8 @@ retire_year=1896
 retire_month=10
 waytype=track
 freight=Passagiere
-payload=70
+payload[0]=0
+payload[1]=70
 overcrowded_capacity=35
 length=9
 
@@ -90,12 +92,12 @@ axles=4
 cost=709000
 runningcost=35
 
-
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=10
 max_loading_time=30
-comfort=86
+comfort[0]=0
+comfort[1]=86
 
 Constraint[Next][0]=4-wheel-1870s-fitted
 Constraint[Next][1]=4-wheel-1870s-brake-fitted
@@ -212,5 +214,3 @@ EmptyImage[W][3]=./images/lswr-48ft-arc-lav-malachite.1.0
 EmptyImage[NW][3]=./images/lswr-48ft-arc-lav-malachite.1.1
 EmptyImage[N][3]=./images/lswr-48ft-arc-lav-malachite.1.2
 EmptyImage[NE][3]=./images/lswr-48ft-arc-lav-malachite.1.3
-
-

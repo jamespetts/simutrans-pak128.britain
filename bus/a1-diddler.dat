@@ -27,8 +27,8 @@ retire_year=1937
 retire_month=8
 is_tall=1
 
-constraint[next][0]=none 
-constraint[prev][0]=none 
+constraint[next][0]=none
+constraint[prev][0]=none
 
 comfort=45
 min_loading_time=3

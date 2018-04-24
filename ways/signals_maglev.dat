@@ -19,7 +19,6 @@ permissive=1
 signal_groups=7
 allow_underground=2
 upgrade_group=0
-signal_groups=5
 intro_year=2004
 intro_month=1
 

@@ -10,16 +10,23 @@ speed=903
 power=118149
 tractive_effort=640
 freight=Passagiere
-# 290 (28 + 262) in a mixed class arrangement
-payload=406
+payload[0]=0
+payload[1]=127
+payload[2]=39
+payload[3]=42
+payload[4]=8
 weight=128.8
 #length=8
 cost=68500000
 runningcost=2325
 intro_year=2014
 intro_month=7
-comfort=134
 
+comfort[0]=0
+comfort[1]=134
+comfort[2]=170
+comfort[3]=205
+comfort[4]=207
 min_loading_time=2400
 max_loading_time=2400
 catering_level=3
@@ -43,4 +50,51 @@ EmptyImage[W]=../images/boeing-787-9_W.0.0,0,-24
 EmptyImage[NW]=../images/boeing-787-9_NW.0.0,-32,-32
 EmptyImage[N]=../images/boeing-787-9_N.0.0,-110,0
 EmptyImage[NE]=../images/boeing-787-9_NE.0.0,0,-32
+---
+obj=vehicle
+name=boeing-787-9-high-density
+copyright=Maberick Rocha
+# https://3dwarehouse.sketchup.com/model/u95beb13f-b02a-4840-bdcb-5944ea9bf43a/British-Airways-Boeing-787-9-DreamLiner-version-1
+waytype=air
+engine_type=turbine
+speed=903
+# Power data not available - inferred from tractive force
+power=118149
+tractive_effort=640
+freight=Passagiere
+payload[0]=0
+payload[1]=309
+payload[2]=35
+weight=128.8
+#length=8
+cost=68500000
+runningcost=2325
+intro_year=2014
+intro_month=7
 
+comfort[0]=0
+comfort[1]=134
+comfort[2]=170
+min_loading_time=2400
+max_loading_time=2400
+catering_level=2
+
+# @ ISA (sea level, 0Centigrades), Runway Dry
+#minimum_runway_length=2900
+# @ ISA+10C, Runway dry = +10%
+minimum_runway_length=3190
+
+sound=laxspotter97-boeing787-8.wav
+range=14140
+
+Constraint[Next][0]=none
+Constraint[Prev][0]=none
+
+EmptyImage[E]=../images/boeing-787-9_E.0.0,-64,-56
+EmptyImage[SE]=../images/boeing-787-9_SE.0.0,-32,-32
+EmptyImage[S]=../images/boeing-787-9_S.0.0,-110,0
+EmptyImage[SW]=../images/boeing-787-9_SW.0.0,-32,-32
+EmptyImage[W]=../images/boeing-787-9_W.0.0,0,-24
+EmptyImage[NW]=../images/boeing-787-9_NW.0.0,-32,-32
+EmptyImage[N]=../images/boeing-787-9_N.0.0,-110,0
+EmptyImage[NE]=../images/boeing-787-9_NE.0.0,0,-32

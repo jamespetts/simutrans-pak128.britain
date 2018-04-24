@@ -9,7 +9,8 @@ retire_year=1906
 retire_month=3
 waytype=track
 freight=Passagiere
-payload=56
+payload[0]=0
+payload[1]=56
 overcrowded_capacity=30
 length=8
 brake_force=12
@@ -19,12 +20,12 @@ axles=4
 cost=748000
 runningcost=37
 
-
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=20
 max_loading_time=50
-comfort=92
+comfort[0]=0
+comfort[1]=92
 
 upgrade[0]=LSWR-EMU(centre)
 upgrade[1]=LSWR-EMU(rear)
@@ -146,7 +147,8 @@ retire_year=1906
 retire_month=3
 waytype=track
 freight=Passagiere
-payload=38
+payload[0]=0
+payload[1]=38
 overcrowded_capacity=20
 length=8
 brake_force=12
@@ -156,12 +158,12 @@ axles=4
 cost=748000
 runningcost=37
 
-
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=20
 max_loading_time=50
-comfort=92
+comfort[0]=0
+comfort[1]=92
 
 upgrade[0]=LSWR-EMU(centre)
 upgrade[1]=LSWR-EMU(rear)
@@ -263,7 +265,8 @@ retire_year=1906
 retire_month=3
 waytype=track
 freight=Passagiere
-payload=38
+payload[0]=0
+payload[1]=38
 overcrowded_capacity=20
 length=8
 brake_force=12
@@ -273,12 +276,12 @@ axles=4
 cost=748000
 runningcost=37
 
-
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=20
 max_loading_time=50
-comfort=92
+comfort[0]=0
+comfort[1]=92
 
 upgrade[0]=LSWR-EMU(centre)
 upgrade[1]=LSWR-EMU(rear)

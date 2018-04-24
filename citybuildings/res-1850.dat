@@ -2,8 +2,15 @@ Obj=building
 Name=RES_A_1850_00_4
 copyright=Archon
 type=res
-chance=100
+chance=25
+population_and_visitor_demand_capacity=26
 Level=4
+# Large townhouse for wealthy individuals
+class_proportion[0]=0
+class_proportion[1]=35
+class_proportion[2]=0
+class_proportion[3]=45
+class_proportion[4]=20
 intro_year=1850
 retire_year=1910
 needs_ground=0
@@ -18,4 +25,3 @@ BackImage[0][0][0][0][0][1]=images/res/1850-brickhouses-3f.1.0
 BackImage[1][0][0][0][0][1]=images/res/1850-brickhouses-3f.1.1
 BackImage[2][0][0][0][0][1]=images/res/1850-brickhouses-3f.1.2
 BackImage[3][0][0][0][0][1]=images/res/1850-brickhouses-3f.1.3 
---

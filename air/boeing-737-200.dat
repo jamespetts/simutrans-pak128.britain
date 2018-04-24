@@ -13,8 +13,11 @@ power=25560
 tractive_effort=142
 #gear=1
 freight=Passagiere
-# Generally single class seating
-payload=115
+payload[0]=0
+payload[1]=0
+payload[2]=73
+payload[3]=0
+payload[4]=24
 weight=27.4
 #length=8
 cost=40000000
@@ -24,7 +27,11 @@ intro_month=2
 retire_year=1988
 retire_month=8
 
-comfort=105
+comfort[0]=0
+comfort[1]=0
+comfort[2]=105
+comfort[3]=0
+comfort[4]=170
 min_loading_time=2400
 max_loading_time=2400
 catering_level=2
@@ -36,6 +43,62 @@ minimum_runway_length=2189
 
 sound=laxspotter97-boeing737-200.wav
 range=3520
+
+upgrade[0]=boeing-737-200-high-density
+
+Constraint[Next][0]=none
+Constraint[Prev][0]=none
+
+EmptyImage[E]=./images/boeing-737-200_E.0.0
+EmptyImage[SE]=./images/boeing-737-200_SE.0.0
+EmptyImage[S]=./images/boeing-737-200_S.0.0
+EmptyImage[SW]=./images/boeing-737-200_SW.0.0
+EmptyImage[W]=./images/boeing-737-200_W.0.0
+EmptyImage[NW]=./images/boeing-737-200_NW.0.0
+EmptyImage[N]=./images/boeing-737-200_N.0.0
+EmptyImage[NE]=./images/boeing-737-200_NE.0.0
+---
+obj=vehicle
+name=boeing-737-200-high-density
+copyright=Emmanuel Baranger
+# https://www.blendswap.com/blends/view/75609
+# (Modified by lengthening)
+waytype=air
+engine_type=turbine
+# LRC (TAS)
+speed=778
+power=25560
+tractive_effort=142
+#gear=1
+freight=Passagiere
+payload[0]=0
+payload[1]=0
+payload[2]=115
+weight=27.4
+#length=8
+cost=40000000
+runningcost=4125
+intro_year=1968
+intro_month=2
+retire_year=1988
+retire_month=8
+
+comfort[0]=0
+comfort[1]=0
+comfort[2]=105
+min_loading_time=2400
+max_loading_time=2400
+catering_level=2
+
+# @ ISA (sea level, 0Centigrades), Runway Dry
+#minimum_runway_length=1990
+# @ ISA+20C, Runway dry = +10%
+minimum_runway_length=2189
+
+sound=laxspotter97-boeing737-200.wav
+range=3520
+
+upgrade[0]=boeing-737-200
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none

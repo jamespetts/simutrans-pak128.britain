@@ -1,0 +1,65 @@
+# See http://gerald-massey.org.uk/Railway/images/Operational/Carriage3.png
+# Little other information is available about these, but assume that they 
+# are early third class open wagons from a time when second class was becoming
+# routinely enclosed and third class passengers first started to be conveyed.
+obj=vehicle
+name=4wheel-open-third
+speed=125
+copyright=JamesPetts
+intro_year=1837
+intro_month=7
+retire_year=1845
+retire_month=4
+waytype=track
+freight=Passagiere
+# The payload of the (unillustrated) Birmingham
+# & Derby Junction thirds of 1839 was 40: see Lacy
+# & Dow p. 6.  However, these are smaller carriages.
+# Their capacity is assumed to be lower.
+payload[0]=0
+payload[1]=30
+overcrowded_capacity=15
+length=2
+brake_force=0
+rolling_resistance=19
+
+weight=1.9
+axles=2
+cost=60000
+runningcost=5
+
+comfort[0]=0
+comfort[1]=16
+min_loading_time=17
+max_loading_time=47
+
+can_lead_from_rear=0
+bidirectional=1
+
+Constraint[Next][0]=any
+
+# TODO: Add liveries 
+# (B&DJR, GJR, MCR, MR, LNWR, etc.)
+liverytype[0]=LMR-Standard
+#liverytype[1]=MR-Early
+#liverytype[2]=LNWR-Early
+#liverytype[3]=GNR-early
+#liverytype[4]=LSWR-early
+
+EmptyImage[E][0]=./images/4wheel-open-third_E.0.0
+EmptyImage[SE][0]=./images/4wheel-open-third_SE.0.0
+EmptyImage[S][0]=./images/4wheel-open-third_S.0.0
+EmptyImage[SW][0]=./images/4wheel-open-third_SW.0.0
+EmptyImage[W][0]=./images/4wheel-open-third_W.0.0
+EmptyImage[NW][0]=./images/4wheel-open-third_NW.0.0
+EmptyImage[N][0]=./images/4wheel-open-third_N.0.0
+EmptyImage[NE][0]=./images/4wheel-open-third_NE.0.0
+
+FreightImage[E][0]=./images/4wheel-open-third-loaded_E.0.0
+FreightImage[SE][0]=./images/4wheel-open-third-loaded_SE.0.0
+FreightImage[S][0]=./images/4wheel-open-third-loaded_S.0.0
+FreightImage[SW][0]=./images/4wheel-open-third-loaded_SW.0.0
+FreightImage[W][0]=./images/4wheel-open-third-loaded_W.0.0
+FreightImage[NW][0]=./images/4wheel-open-third-loaded_NW.0.0
+FreightImage[N][0]=./images/4wheel-open-third-loaded_N.0.0
+FreightImage[NE][0]=./images/4wheel-open-third-loaded_NE.0.0

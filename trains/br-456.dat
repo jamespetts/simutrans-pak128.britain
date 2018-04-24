@@ -8,7 +8,8 @@ retire_year=1995
 retire_month=6
 waytype=track
 freight=Passagiere
-payload=79
+payload[0]=0
+payload[1]=79
 overcrowded_capacity=59
 length=11
 engine_type=electric
@@ -30,7 +31,8 @@ way_constraint_permissive[0]=0
 
 min_loading_time=15
 max_loading_time=50
-comfort=79
+comfort[0]=0
+comfort[1]=79
 
 Constraint[Prev][0]=BR-456-DTSO
 Constraint[Prev][1]=BR-455-Driving-Rear
@@ -59,7 +61,8 @@ retire_year=1995
 retire_month=6
 waytype=track
 freight=Passagiere
-payload=51
+payload[0]=0
+payload[1]=51
 overcrowded_capacity=38
 length=11
 engine_type=electric
@@ -79,7 +82,8 @@ way_constraint_permissive[0]=0
 
 min_loading_time=15
 max_loading_time=50
-comfort=79
+comfort[0]=0
+comfort[1]=79
 
 Constraint[Next][0]=BR-456-DMSO
 Constraint[Next][1]=BR-455-Driving-Front

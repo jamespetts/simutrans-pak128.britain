@@ -1,4 +1,6 @@
 # http://www.airliners.net/aircraft-data/lockheed-l-188-electra/268
+# http://www.aviastar.org/air/usa/lok_l-188.php
+# http://www.wattsmedia.com/1968/images/l188tech.jpg
 obj=vehicle
 name=lockheed-electra-l188
 copyright=niltondc
@@ -8,23 +10,34 @@ engine_type=turbine
 speed=602
 power=11200
 tractive_effort=43
-#gear=1
 freight=Passagiere
-# Single class seating is 104
-payload=104
-weight=27.9
+# Guessed on the basis of 3 first class rows of 2 x 2 seats
+# plus an additional pair of first class seats in front of
+# the galley and all seats rear of the galley being economy.
+# Based on this diagram, but with a different layout: 
+# http://www.wattsmedia.com/1968/images/l188tech.jpg
+payload[0]=0
+payload[1]=0
+payload[2]=60
+payload[3]=0
+payload[4]=14
+weight=26.0
 #length=8
 cost=11000000
+upgrade_price=5000
 runningcost=2350
-intro_year=1959
-intro_month=1
+intro_year=1958
+intro_month=11
 retire_year=1961
-retire_month=12
+retire_month=11
 
-comfort=128
-min_loading_time=2000
-max_loading_time=2000
-
+comfort[0]=0
+comfort[1]=0
+comfort[2]=111
+comfort[3]=0
+comfort[4]=137
+min_loading_time=2400
+max_loading_time=2400
 catering_level=3
 
 # https://www.skybrary.aero/index.php/L188
@@ -34,7 +47,77 @@ catering_level=3
 minimum_runway_length=1419
 
 sound=robin-pinnock-lockheed-electra.wav
-range=3450
+# Extrapolated from comparing the fuel capacity of the L-188C and L-188A
+# Actual data for range of the L-188A claims it to be the same as that of
+# the L-188C, whereas the advantage of the C is explicitly stated to be
+# its longer range.
+range=2709
+
+upgrade[0]=lockheed-electra-l188-high-density
+
+Constraint[Next][0]=none
+Constraint[Prev][0]=none
+
+EmptyImage[E]=./images/lockheed-electra-l188_E.0.0
+EmptyImage[SE]=./images/lockheed-electra-l188_SE.0.0
+EmptyImage[S]=./images/lockheed-electra-l188_S.0.0
+EmptyImage[SW]=./images/lockheed-electra-l188_SW.0.0
+EmptyImage[W]=./images/lockheed-electra-l188_W.0.0
+EmptyImage[NW]=./images/lockheed-electra-l188_NW.0.0
+EmptyImage[N]=./images/lockheed-electra-l188_N.0.0
+EmptyImage[NE]=./images/lockheed-electra-l188_NE.0.0
+
+---
+
+obj=vehicle
+name=lockheed-electra-l188-high-density
+copyright=niltondc
+# https://3dwarehouse.sketchup.com/model/6238a084882d848823ec80b94592ceeb/Lockheed-L188-Electra-II
+waytype=air
+engine_type=turbine
+speed=602
+power=11200
+tractive_effort=43
+freight=Passagiere
+# Guessed on the basis of 3 first class rows of 2 x 2 seats
+# plus an additional pair of first class seats in front of
+# the galley and all seats rear of the galley being economy.
+# Based on this diagram, but with a different layout: 
+# http://www.wattsmedia.com/1968/images/l188tech.jpg
+payload[0]=0
+payload[1]=0
+payload[2]=98
+weight=26.0
+#length=8
+cost=11000000
+upgrade_price=5000
+runningcost=2350
+intro_year=1958
+intro_month=11
+retire_year=1961
+retire_month=11
+
+comfort[0]=0
+comfort[1]=0
+comfort[2]=106
+min_loading_time=2400
+max_loading_time=2400
+catering_level=3
+
+# https://www.skybrary.aero/index.php/L188
+# @ ISA (sea level, 0Centigrades), Runway Dry
+#minimum_runway_length=1290
+# @ ISA+10C, Runway dry = +10%
+minimum_runway_length=1419
+
+sound=robin-pinnock-lockheed-electra.wav
+# Extrapolated from comparing the fuel capacity of the L-188C and L-188A
+# Actual data for range of the L-188A claims it to be the same as that of
+# the L-188C, whereas the advantage of the C is explicitly stated to be
+# its longer range.
+range=2709
+
+upgrade[0]=lockheed-electra-l188
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none

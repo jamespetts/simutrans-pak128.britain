@@ -1,3 +1,4 @@
+# https://en.wikipedia.org/wiki/Humber_Keel
 obj=vehicle
 name=HumberKeelBulk
 copyright=James
@@ -5,7 +6,6 @@ waytype=water
 engine_type=sail
 speed=12
 power=111
-#gear=1200
 freight=Kohle
 payload=50
 weight=20
@@ -22,71 +22,72 @@ is_tall=1
 min_loading_time=2700
 max_loading_time=3600
 
+range=50
+
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
-way_constraint_permissive[4]=4  # Waterway
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
 
-EmptyImage[E]=./images/humber-keel.0.0
-EmptyImage[SE]=./images/humber-keel.0.1
-EmptyImage[S]=./images/humber-keel.0.2
-EmptyImage[SW]=./images/humber-keel.0.3
-EmptyImage[W]=./images/humber-keel.0.4
-EmptyImage[NW]=./images/humber-keel.0.5
-EmptyImage[N]=./images/humber-keel.0.6
-EmptyImage[NE]=./images/humber-keel.0.7
+EmptyImage[E]=./images/humber-keel-empty_E.0.0,-33,14
+EmptyImage[SE]=./images/humber-keel-empty_SE.0.0,-13,0
+EmptyImage[S]=./images/humber-keel-empty_S.0.0,0,0
+EmptyImage[SW]=./images/humber-keel-empty_SW.0.0,-8,10
+EmptyImage[W]=./images/humber-keel-empty_W.0.0,4,5
+EmptyImage[NW]=./images/humber-keel-empty_NW.0.0,12,10
+EmptyImage[N]=./images/humber-keel-empty_N.0.0,0,33
+EmptyImage[NE]=./images/humber-keel-empty_NE.0.0,0,24
 
 freightimagetype[4]=Cement
-FreightImage[4][E]=./images/humber-keel.3.0
-FreightImage[4][SE]=./images/humber-keel.3.1
-FreightImage[4][S]=./images/humber-keel.3.2
-FreightImage[4][SW]=./images/humber-keel.3.3
-FreightImage[4][W]=./images/humber-keel.3.4
-FreightImage[4][NW]=./images/humber-keel.3.5
-FreightImage[4][N]=./images/humber-keel.3.6
-FreightImage[4][NE]=./images/humber-keel.3.7
+FreightImage[4][E]=./images/humber-keel-bulk-cement_E.0.0,-33,14
+FreightImage[4][SE]=./images/humber-keel-bulk-cement_SE.0.0,-13,0
+FreightImage[4][S]=./images/humber-keel-bulk-cement_S.0.0,0,0
+FreightImage[4][SW]=./images/humber-keel-bulk-cement_SW.0.0,-8,10
+FreightImage[4][W]=./images/humber-keel-bulk-cement_W.0.0,4,5
+FreightImage[4][NW]=./images/humber-keel-bulk-cement_NW.0.0,12,10
+FreightImage[4][N]=./images/humber-keel-bulk-cement_N.0.0,0,33
+FreightImage[4][NE]=./images/humber-keel-bulk-cement_NE.0.0,0,24
 
 freightimagetype[3]=Kohle
-FreightImage[3][E]=./images/humber-keel.1.0
-FreightImage[3][SE]=./images/humber-keel.1.1
-FreightImage[3][S]=./images/humber-keel.1.2
-FreightImage[3][SW]=./images/humber-keel.1.3
-FreightImage[3][W]=./images/humber-keel.1.4
-FreightImage[3][NW]=./images/humber-keel.1.5
-FreightImage[3][N]=./images/humber-keel.1.6
-FreightImage[3][NE]=./images/humber-keel.1.7
+FreightImage[3][E]=./images/humber-keel-bulk-coal_E.0.0,-33,14
+FreightImage[3][SE]=./images/humber-keel-bulk-coal_SE.0.0,-13,0
+FreightImage[3][S]=./images/humber-keel-bulk-coal_S.0.0,0,0
+FreightImage[3][SW]=./images/humber-keel-bulk-coal_SW.0.0,-8,10
+FreightImage[3][W]=./images/humber-keel-bulk-coal_W.0.0,4,5
+FreightImage[3][NW]=./images/humber-keel-bulk-coal_NW.0.0,12,10
+FreightImage[3][N]=./images/humber-keel-bulk-coal_N.0.0,0,33
+FreightImage[3][NE]=./images/humber-keel-bulk-coal_NE.0.0,0,24
 
 freightimagetype[2]=Eisenerz
-FreightImage[2][E]=./images/humber-keel.2.0
-FreightImage[2][SE]=./images/humber-keel.2.1
-FreightImage[2][S]=./images/humber-keel.2.2
-FreightImage[2][SW]=./images/humber-keel.2.3
-FreightImage[2][W]=./images/humber-keel.2.4
-FreightImage[2][NW]=./images/humber-keel.2.5
-FreightImage[2][N]=./images/humber-keel.2.6
-FreightImage[2][NE]=./images/humber-keel.2.7
+FreightImage[2][E]=./images/humber-keel-bulk-ore_E.0.0,-33,14
+FreightImage[2][SE]=./images/humber-keel-bulk-ore_SE.0.0,-13,0
+FreightImage[2][S]=./images/humber-keel-bulk-ore_S.0.0,0,0
+FreightImage[2][SW]=./images/humber-keel-bulk-ore_SW.0.0,-8,10
+FreightImage[2][W]=./images/humber-keel-bulk-ore_W.0.0,4,5
+FreightImage[2][NW]=./images/humber-keel-bulk-ore_NW.0.0,12,10
+FreightImage[2][N]=./images/humber-keel-bulk-ore_N.0.0,0,33
+FreightImage[2][NE]=./images/humber-keel-bulk-ore_NE.0.0,0,24
 
 freightimagetype[1]=Stone
-FreightImage[1][E]=./images/humber-keel.3.0
-FreightImage[1][SE]=./images/humber-keel.3.1
-FreightImage[1][S]=./images/humber-keel.3.2
-FreightImage[1][SW]=./images/humber-keel.3.3
-FreightImage[1][W]=./images/humber-keel.3.4
-FreightImage[1][NW]=./images/humber-keel.3.5
-FreightImage[1][N]=./images/humber-keel.3.6
-FreightImage[1][NE]=./images/humber-keel.3.7
+FreightImage[1][E]=./images/humber-keel-bulk-stone_E.0.0,-33,14
+FreightImage[1][SE]=./images/humber-keel-bulk-stone_SE.0.0,-13,0
+FreightImage[1][S]=./images/humber-keel-bulk-stone_S.0.0,0,0
+FreightImage[1][SW]=./images/humber-keel-bulk-stone_SW.0.0,-8,10
+FreightImage[1][W]=./images/humber-keel-bulk-stone_W.0.0,4,5
+FreightImage[1][NW]=./images/humber-keel-bulk-stone_NW.0.0,12,10
+FreightImage[1][N]=./images/humber-keel-bulk-stone_N.0.0,0,33
+FreightImage[1][NE]=./images/humber-keel-bulk-stone_NE.0.0,0,24
 
 freightimagetype[0]=grain
-FreightImage[0][E]=./images/humber-keel.4.0
-FreightImage[0][SE]=./images/humber-keel.4.1
-FreightImage[0][S]=./images/humber-keel.4.2
-FreightImage[0][SW]=./images/humber-keel.4.3
-FreightImage[0][W]=./images/humber-keel.4.4
-FreightImage[0][NW]=./images/humber-keel.4.5
-FreightImage[0][N]=./images/humber-keel.4.6
-FreightImage[0][NE]=./images/humber-keel.4.7
+FreightImage[0][E]=./images/humber-keel-bulk-grain_E.0.0,-33,14
+FreightImage[0][SE]=./images/humber-keel-bulk-grain_SE.0.0,-13,0
+FreightImage[0][S]=./images/humber-keel-bulk-grain_S.0.0,0,0
+FreightImage[0][SW]=./images/humber-keel-bulk-grain_SW.0.0,-8,10
+FreightImage[0][W]=./images/humber-keel-bulk-grain_W.0.0,4,5
+FreightImage[0][NW]=./images/humber-keel-bulk-grain_NW.0.0,12,10
+FreightImage[0][N]=./images/humber-keel-bulk-grain_N.0.0,0,33
+FreightImage[0][NE]=./images/humber-keel-bulk-grain_NE.0.0,0,24
 
 ----------------------------------------
 obj=vehicle
@@ -96,7 +97,6 @@ waytype=water
 engine_type=sail
 speed=12
 power=111
-#gear=1200
 freight=Bretter
 payload=50
 weight=20
@@ -113,41 +113,42 @@ is_tall=1
 min_loading_time=2700
 max_loading_time=3600
 
+range=50
+
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
-way_constraint_permissive[4]=4  # Waterway
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
 
-EmptyImage[E]=./images/humber-keel.0.0
-EmptyImage[SE]=./images/humber-keel.0.1
-EmptyImage[S]=./images/humber-keel.0.2
-EmptyImage[SW]=./images/humber-keel.0.3
-EmptyImage[W]=./images/humber-keel.0.4
-EmptyImage[NW]=./images/humber-keel.0.5
-EmptyImage[N]=./images/humber-keel.0.6
-EmptyImage[NE]=./images/humber-keel.0.7
+EmptyImage[E]=./images/humber-keel-empty_E.0.0,-33,14
+EmptyImage[SE]=./images/humber-keel-empty_SE.0.0,-13,0
+EmptyImage[S]=./images/humber-keel-empty_S.0.0,0,0
+EmptyImage[SW]=./images/humber-keel-empty_SW.0.0,-8,10
+EmptyImage[W]=./images/humber-keel-empty_W.0.0,4,5
+EmptyImage[NW]=./images/humber-keel-empty_NW.0.0,12,10
+EmptyImage[N]=./images/humber-keel-empty_N.0.0,0,33
+EmptyImage[NE]=./images/humber-keel-empty_NE.0.0,0,24
 
 freightimagetype[1]=Bretter
-FreightImage[1][E]=./images/humber-keel.5.0
-FreightImage[1][SE]=./images/humber-keel.5.1
-FreightImage[1][S]=./images/humber-keel.5.2
-FreightImage[1][SW]=./images/humber-keel.5.3
-FreightImage[1][W]=./images/humber-keel.5.4
-FreightImage[1][NW]=./images/humber-keel.5.5
-FreightImage[1][N]=./images/humber-keel.5.6
-FreightImage[1][NE]=./images/humber-keel.5.7
+FreightImage[1][E]=./images/humber-keel-long-wood_E.0.0,-33,14
+FreightImage[1][SE]=./images/humber-keel-long-wood_SE.0.0,-13,0
+FreightImage[1][S]=./images/humber-keel-long-wood_S.0.0,0,0
+FreightImage[1][SW]=./images/humber-keel-long-wood_SW.0.0,-8,10
+FreightImage[1][W]=./images/humber-keel-long-wood_W.0.0,4,5
+FreightImage[1][NW]=./images/humber-keel-long-wood_NW.0.0,12,10
+FreightImage[1][N]=./images/humber-keel-long-wood_N.0.0,0,33
+FreightImage[1][NE]=./images/humber-keel-long-wood_NE.0.0,0,24
 
 freightimagetype[0]=Stahl
-FreightImage[0][E]=./images/humber-keel.6.0
-FreightImage[0][SE]=./images/humber-keel.6.1
-FreightImage[0][S]=./images/humber-keel.6.2
-FreightImage[0][SW]=./images/humber-keel.6.3
-FreightImage[0][W]=./images/humber-keel.6.4
-FreightImage[0][NW]=./images/humber-keel.6.5
-FreightImage[0][N]=./images/humber-keel.6.6
-FreightImage[0][NE]=./images/humber-keel.6.7
+FreightImage[0][E]=./images/humber-keel-long-steel_E.0.0,-33,14
+FreightImage[0][SE]=./images/humber-keel-long-steel_SE.0.0,-13,0
+FreightImage[0][S]=./images/humber-keel-long-steel_S.0.0,0,0
+FreightImage[0][SW]=./images/humber-keel-long-steel_SW.0.0,-8,10
+FreightImage[0][W]=./images/humber-keel-long-steel_W.0.0,4,5
+FreightImage[0][NW]=./images/humber-keel-long-steel_NW.0.0,12,10
+FreightImage[0][N]=./images/humber-keel-long-steel_N.0.0,0,33
+FreightImage[0][NE]=./images/humber-keel-long-steel_NE.0.0,0,24
 
 ----------------------------------------
 obj=vehicle
@@ -157,7 +158,6 @@ waytype=water
 engine_type=sail
 speed=12
 power=111
-#gear=1200
 freight=vegetables
 payload=50
 weight=20
@@ -174,31 +174,34 @@ is_tall=1
 min_loading_time=2700
 max_loading_time=3600
 
+range=50
+
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
-way_constraint_permissive[4]=4  # Waterway
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
 
-EmptyImage[E]=./images/humber-keel.0.0
-EmptyImage[SE]=./images/humber-keel.0.1
-EmptyImage[S]=./images/humber-keel.0.2
-EmptyImage[SW]=./images/humber-keel.0.3
-EmptyImage[W]=./images/humber-keel.0.4
-EmptyImage[NW]=./images/humber-keel.0.5
-EmptyImage[N]=./images/humber-keel.0.6
-EmptyImage[NE]=./images/humber-keel.0.7
+EmptyImage[E]=./images/humber-keel-empty_E.0.0,-33,14
+EmptyImage[SE]=./images/humber-keel-empty_SE.0.0,-13,0
+EmptyImage[S]=./images/humber-keel-empty_S.0.0,0,0
+EmptyImage[SW]=./images/humber-keel-empty_SW.0.0,-8,10
+EmptyImage[W]=./images/humber-keel-empty_W.0.0,4,5
+EmptyImage[NW]=./images/humber-keel-empty_NW.0.0,12,10
+EmptyImage[N]=./images/humber-keel-empty_N.0.0,0,33
+EmptyImage[NE]=./images/humber-keel-empty_NE.0.0,0,24
 
-FreightImage[E]=./images/humber-keel.7.0
-FreightImage[SE]=./images/humber-keel.7.1
-FreightImage[S]=./images/humber-keel.7.2
-FreightImage[SW]=./images/humber-keel.7.3
-FreightImage[W]=./images/humber-keel.7.4
-FreightImage[NW]=./images/humber-keel.7.5
-FreightImage[N]=./images/humber-keel.7.6
-FreightImage[NE]=./images/humber-keel.7.7
+FreightImage[E]=./images/humber-keel-piece_E.0.0,-33,14
+FreightImage[SE]=./images/humber-keel-piece_SE.0.0,-13,0
+FreightImage[S]=./images/humber-keel-piece_S.0.0,0,0
+FreightImage[SW]=./images/humber-keel-piece_SW.0.0,-8,10
+FreightImage[W]=./images/humber-keel-piece_W.0.0,4,5
+FreightImage[NW]=./images/humber-keel-piece_NW.0.0,12,10
+FreightImage[N]=./images/humber-keel-piece_N.0.0,0,33
+FreightImage[NE]=./images/humber-keel-piece_NE.0.0,0,24
+
 ----------------------------------------
+
 obj=vehicle
 name=HumberKeelCool
 copyright=James
@@ -206,7 +209,6 @@ waytype=water
 engine_type=sail
 speed=12
 power=111
-#gear=1200
 freight=meat
 payload=50
 weight=20
@@ -226,28 +228,31 @@ max_loading_time=3600
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
-way_constraint_permissive[4]=4  # Waterway
+range=50
+
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
 
-EmptyImage[E]=./images/humber-keel.0.0
-EmptyImage[SE]=./images/humber-keel.0.1
-EmptyImage[S]=./images/humber-keel.0.2
-EmptyImage[SW]=./images/humber-keel.0.3
-EmptyImage[W]=./images/humber-keel.0.4
-EmptyImage[NW]=./images/humber-keel.0.5
-EmptyImage[N]=./images/humber-keel.0.6
-EmptyImage[NE]=./images/humber-keel.0.7
+EmptyImage[E]=./images/humber-keel-empty_E.0.0,-33,14
+EmptyImage[SE]=./images/humber-keel-empty_SE.0.0,-13,0
+EmptyImage[S]=./images/humber-keel-empty_S.0.0,0,0
+EmptyImage[SW]=./images/humber-keel-empty_SW.0.0,-8,10
+EmptyImage[W]=./images/humber-keel-empty_W.0.0,4,5
+EmptyImage[NW]=./images/humber-keel-empty_NW.0.0,12,10
+EmptyImage[N]=./images/humber-keel-empty_N.0.0,0,33
+EmptyImage[NE]=./images/humber-keel-empty_NE.0.0,0,24
 
-FreightImage[E]=./images/humber-keel.8.0
-FreightImage[SE]=./images/humber-keel.8.1
-FreightImage[S]=./images/humber-keel.8.2
-FreightImage[SW]=./images/humber-keel.8.3
-FreightImage[W]=./images/humber-keel.8.4
-FreightImage[NW]=./images/humber-keel.8.5
-FreightImage[N]=./images/humber-keel.8.6
-FreightImage[NE]=./images/humber-keel.8.7
+FreightImage[E]=./images/humber-keel-cool_E.0.0,-33,14
+FreightImage[SE]=./images/humber-keel-cool_SE.0.0,-13,0
+FreightImage[S]=./images/humber-keel-cool_S.0.0,0,0
+FreightImage[SW]=./images/humber-keel-cool_SW.0.0,-8,10
+FreightImage[W]=./images/humber-keel-cool_W.0.0,4,5
+FreightImage[NW]=./images/humber-keel-cool_NW.0.0,12,10
+FreightImage[N]=./images/humber-keel-cool_N.0.0,0,33
+FreightImage[NE]=./images/humber-keel-cool_NE.0.0,0,24
+
 ----------------------------------------
+
 obj=vehicle
 name=HumberKeelLivestock
 copyright=James
@@ -255,7 +260,6 @@ waytype=water
 engine_type=sail
 speed=12
 power=111
-#gear=1200
 freight=livestock
 payload=50
 weight=20
@@ -272,41 +276,44 @@ is_tall=1
 min_loading_time=2700
 max_loading_time=3600
 
+range=50
+
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
-way_constraint_permissive[4]=4  # Waterway
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
 
-EmptyImage[E]=./images/humber-keel.0.0
-EmptyImage[SE]=./images/humber-keel.0.1
-EmptyImage[S]=./images/humber-keel.0.2
-EmptyImage[SW]=./images/humber-keel.0.3
-EmptyImage[W]=./images/humber-keel.0.4
-EmptyImage[NW]=./images/humber-keel.0.5
-EmptyImage[N]=./images/humber-keel.0.6
-EmptyImage[NE]=./images/humber-keel.0.7
+EmptyImage[E]=./images/humber-keel-empty_E.0.0,-33,14
+EmptyImage[SE]=./images/humber-keel-empty_SE.0.0,-13,0
+EmptyImage[S]=./images/humber-keel-empty_S.0.0,0,0
+EmptyImage[SW]=./images/humber-keel-empty_SW.0.0,-8,10
+EmptyImage[W]=./images/humber-keel-empty_W.0.0,4,5
+EmptyImage[NW]=./images/humber-keel-empty_NW.0.0,12,10
+EmptyImage[N]=./images/humber-keel-empty_N.0.0,0,33
+EmptyImage[NE]=./images/humber-keel-empty_NE.0.0,0,24
 
-FreightImage[E]=./images/humber-keel-livestock.1.0
-FreightImage[SE]=./images/humber-keel-livestock.1.1
-FreightImage[S]=./images/humber-keel-livestock.1.2
-FreightImage[SW]=./images/humber-keel-livestock.1.3
-FreightImage[W]=./images/humber-keel-livestock.1.4
-FreightImage[NW]=./images/humber-keel-livestock.1.5
-FreightImage[N]=./images/humber-keel-livestock.1.6
-FreightImage[NE]=./images/humber-keel-livestock.1.7
+FreightImage[E]=./images/humber-keel-livestock_E.0.0,-33,14
+FreightImage[SE]=./images/humber-keel-livestock_SE.0.0,-13,0
+FreightImage[S]=./images/humber-keel-livestock_S.0.0,0,0
+FreightImage[SW]=./images/humber-keel-livestock_SW.0.0,-8,10
+FreightImage[W]=./images/humber-keel-livestock_W.0.0,4,5
+FreightImage[NW]=./images/humber-keel-livestock_NW.0.0,12,10
+FreightImage[N]=./images/humber-keel-livestock_N.0.0,0,33
+FreightImage[NE]=./images/humber-keel-livestock_NE.0.0,0,24
+
 ----------------------------------------
+
 obj=vehicle
-name=HumberKeelMail
+name=HumberKeelPassenger
 copyright=James
 waytype=water
 engine_type=sail
 speed=12
 power=111
-#gear=1200
-freight=Post
-payload=500
+freight=Passagiere
+payload[0]=0
+payload[1]=20
 weight=20
 length=6
 cost=182500
@@ -321,27 +328,32 @@ is_tall=1
 min_loading_time=240
 max_loading_time=360
 
-Constraint[Next][0]=none
+comfort[0]=0
+comfort[1]=39
+
+range=50
+
+Constraint[Next][0]=humber-keel-mail-hold
+
 Constraint[Prev][0]=none
 
-way_constraint_permissive[4]=4  # Waterway
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
 
-EmptyImage[E]=./images/humber-keel.0.0
-EmptyImage[SE]=./images/humber-keel.0.1
-EmptyImage[S]=./images/humber-keel.0.2
-EmptyImage[SW]=./images/humber-keel.0.3
-EmptyImage[W]=./images/humber-keel.0.4
-EmptyImage[NW]=./images/humber-keel.0.5
-EmptyImage[N]=./images/humber-keel.0.6
-EmptyImage[NE]=./images/humber-keel.0.7
+EmptyImage[E]=./images/humber-keel-empty_E.0.0,-33,14
+EmptyImage[SE]=./images/humber-keel-empty_SE.0.0,-13,0
+EmptyImage[S]=./images/humber-keel-empty_S.0.0,0,0
+EmptyImage[SW]=./images/humber-keel-empty_SW.0.0,-8,10
+EmptyImage[W]=./images/humber-keel-empty_W.0.0,4,5
+EmptyImage[NW]=./images/humber-keel-empty_NW.0.0,12,10
+EmptyImage[N]=./images/humber-keel-empty_N.0.0,0,33
+EmptyImage[NE]=./images/humber-keel-empty_NE.0.0,0,24
 
-FreightImage[E]=./images/humber-keel.7.0
-FreightImage[SE]=./images/humber-keel.7.1
-FreightImage[S]=./images/humber-keel.7.2
-FreightImage[SW]=./images/humber-keel.7.3
-FreightImage[W]=./images/humber-keel.7.4
-FreightImage[NW]=./images/humber-keel.7.5
-FreightImage[N]=./images/humber-keel.7.6
-FreightImage[NE]=./images/humber-keel.7.7
+FreightImage[E]=./images/humber-keel-passengers_E.0.0,-33,14
+FreightImage[SE]=./images/humber-keel-passengers_SE.0.0,-13,0
+FreightImage[S]=./images/humber-keel-passengers_S.0.0,0,0
+FreightImage[SW]=./images/humber-keel-passengers_SW.0.0,-8,10
+FreightImage[W]=./images/humber-keel-passengers_W.0.0,4,5
+FreightImage[NW]=./images/humber-keel-passengers_NW.0.0,12,10
+FreightImage[N]=./images/humber-keel-passengers_N.0.0,0,33
+FreightImage[NE]=./images/humber-keel-passengers_NE.0.0,0,24

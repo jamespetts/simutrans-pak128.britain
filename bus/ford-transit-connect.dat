@@ -1,3 +1,5 @@
+# http://www.autoexpress.co.uk/ford/transit-connect
+# This is based on the long wheelbase version
 obj=vehicle
 name=FordTransitConnectPiece
 copyright=JamesHood
@@ -24,14 +26,14 @@ constraint[prev][0]=none
 min_loading_time=30
 max_loading_time=300
 
-EmptyImage[E]=./images/ford-transit-connect.0.0
-EmptyImage[SE]=./images/ford-transit-connect.0.1
-EmptyImage[S]=./images/ford-transit-connect.0.2
-EmptyImage[SW]=./images/ford-transit-connect.0.3
-EmptyImage[W]=./images/ford-transit-connect.0.4
-EmptyImage[NW]=./images/ford-transit-connect.0.5
-EmptyImage[N]=./images/ford-transit-connect.0.6
-EmptyImage[NE]=./images/ford-transit-connect.0.7
+EmptyImage[E]=./images/ford-transit-coonnect-piece_E.0.0,-33,14
+EmptyImage[SE]=./images/ford-transit-coonnect-piece_SE.0.0,-13,0
+EmptyImage[S]=./images/ford-transit-coonnect-piece_S.0.0,0,0
+EmptyImage[SW]=./images/ford-transit-coonnect-piece_SW.0.0,-8,10
+EmptyImage[W]=./images/ford-transit-coonnect-piece_W.0.0,4,5
+EmptyImage[NW]=./images/ford-transit-coonnect-piece_NW.0.0,12,10
+EmptyImage[N]=./images/ford-transit-coonnect-piece_N.0.0,0,33
+EmptyImage[NE]=./images/ford-transit-coonnect-piece_NE.0.0,0,24
 
 -----------------------------------------
 obj=vehicle
@@ -60,14 +62,14 @@ constraint[prev][0]=none
 min_loading_time=30
 max_loading_time=300
 
-EmptyImage[E]=./images/ford-transit-connect.1.0
-EmptyImage[SE]=./images/ford-transit-connect.1.1
-EmptyImage[S]=./images/ford-transit-connect.1.2
-EmptyImage[SW]=./images/ford-transit-connect.1.3
-EmptyImage[W]=./images/ford-transit-connect.1.4
-EmptyImage[NW]=./images/ford-transit-connect.1.5
-EmptyImage[N]=./images/ford-transit-connect.1.6
-EmptyImage[NE]=./images/ford-transit-connect.1.7
+EmptyImage[E]=./images/ford-transit-coonnect-cool_E.0.0,-33,14
+EmptyImage[SE]=./images/ford-transit-coonnect-cool_SE.0.0,-13,0
+EmptyImage[S]=./images/ford-transit-coonnect-cool_S.0.0,0,0
+EmptyImage[SW]=./images/ford-transit-coonnect-cool_SW.0.0,-8,10
+EmptyImage[W]=./images/ford-transit-coonnect-cool_W.0.0,4,5
+EmptyImage[NW]=./images/ford-transit-coonnect-cool_NW.0.0,12,10
+EmptyImage[N]=./images/ford-transit-coonnect-cool_N.0.0,0,33
+EmptyImage[NE]=./images/ford-transit-coonnect-cool_NE.0.0,0,24
 -----------------------------------------
 obj=vehicle
 name=FordTransitConnectPost
@@ -94,11 +96,11 @@ constraint[prev][0]=none
 min_loading_time=30
 max_loading_time=200
 
-EmptyImage[E]=./images/ford-transit-connect.2.0
-EmptyImage[SE]=./images/ford-transit-connect.2.1
-EmptyImage[S]=./images/ford-transit-connect.2.2
-EmptyImage[SW]=./images/ford-transit-connect.2.3
-EmptyImage[W]=./images/ford-transit-connect.2.4
-EmptyImage[NW]=./images/ford-transit-connect.2.5
-EmptyImage[N]=./images/ford-transit-connect.2.6
-EmptyImage[NE]=./images/ford-transit-connect.2.7
+EmptyImage[E]=./images/ford-transit-coonnect-post_E.0.0,-33,14
+EmptyImage[SE]=./images/ford-transit-coonnect-post_SE.0.0,-13,0
+EmptyImage[S]=./images/ford-transit-coonnect-post_S.0.0,0,0
+EmptyImage[SW]=./images/ford-transit-coonnect-post_SW.0.0,-8,10
+EmptyImage[W]=./images/ford-transit-coonnect-post_W.0.0,4,5
+EmptyImage[NW]=./images/ford-transit-coonnect-post_NW.0.0,12,10
+EmptyImage[N]=./images/ford-transit-coonnect-post_N.0.0,0,33
+EmptyImage[NE]=./images/ford-transit-coonnect-post_NE.0.0,0,24

@@ -1,4 +1,4 @@
-#Pax
+# Steerage
 obj=vehicle
 name=EastIndiamanAddPax
 copyright=James
@@ -6,13 +6,15 @@ waytype=water
 engine_type=sail
 speed=15
 freight=Passagiere
-payload=100
+payload[0]=0
+payload[1]=100
 intro_year=1700
 intro_month=1
 retire_year=1830
 retire_month=9
 
-comfort=105
+comfort[0]=0
+comfort[1]=86
 catering_level=4
 # 2-3 hours
 min_loading_time=7200
@@ -30,6 +32,8 @@ Constraint[Prev][4]=EastIndiamanAddCool
 Constraint[Prev][5]=EastIndiamanAddLong
 Constraint[Prev][6]=EastIndiamanAddLivestock
 Constraint[Prev][7]=EastIndiamanAddPax
+Constraint[Prev][8]=EastIndiamanAddPax-second-class
+Constraint[Prev][9]=EastIndiamanAddPax-first-class
 
 Constraint[Next][0]=EastIndiamanAddPax
 Constraint[Next][1]=EastIndiamanAddBulk
@@ -38,7 +42,145 @@ Constraint[Next][3]=EastIndiamanAddPiece
 Constraint[Next][4]=EastIndiamanAddCool
 Constraint[Next][5]=EastIndiamanAddLong
 Constraint[Next][6]=EastIndiamanAddLivestock
-Constraint[Next][7]=none
+Constraint[Next][7]=EastIndiamanAddPax-second-class
+Constraint[Next][8]=EastIndiamanAddPax-first-class
+Constraint[Next][9]=none
+
+EmptyImage[E]=../images/holds.0.0,80,40
+EmptyImage[SE]=../images/holds.0.0,48,32
+EmptyImage[S]=../images/holds.0.0,16,0
+EmptyImage[SW]=../images/holds.0.0,32,0
+EmptyImage[W]=../images/holds.0.0,64,32
+EmptyImage[NW]=../images/holds.0.0,24,8
+EmptyImage[N]=../images/holds.0.0,32,8
+EmptyImage[NE]=../images/holds.0.0,64,0
+
+FreightImage[E]=../images/holds.1.0,80,40
+FreightImage[SE]=../images/holds.1.0,48,32
+FreightImage[S]=../images/holds.1.0,16,0
+FreightImage[SW]=../images/holds.1.0,32,0
+FreightImage[W]=../images/holds.1.0,64,32
+FreightImage[NW]=../images/holds.1.0,24,8
+FreightImage[N]=../images/holds.1.0,32,8
+FreightImage[NE]=../images/holds.1.0,64,0
+---
+obj=vehicle
+name=EastIndiamanAddPax-second-class
+copyright=James
+waytype=water
+engine_type=sail
+speed=15
+freight=Passagiere
+payload[0]=0
+payload[1]=0
+payload[2]=20
+intro_year=1700
+intro_month=1
+retire_year=1830
+retire_month=9
+
+comfort[0]=0
+comfort[1]=0
+comfort[2]=160
+catering_level=4
+# 2-3 hours
+min_loading_time=7200
+max_loading_time=10800
+
+length=3
+
+way_constraint_prohibitive[6]=6 # Large ship
+
+Constraint[Prev][0]=EastIndiamanHull
+Constraint[Prev][1]=EastIndiamanAddBulk
+Constraint[Prev][2]=EastIndiamanAddMail
+Constraint[Prev][3]=EastIndiamanAddPiece
+Constraint[Prev][4]=EastIndiamanAddCool
+Constraint[Prev][5]=EastIndiamanAddLong
+Constraint[Prev][6]=EastIndiamanAddLivestock
+Constraint[Prev][7]=EastIndiamanAddPax
+Constraint[Prev][8]=EastIndiamanAddPax-second-class
+Constraint[Prev][9]=EastIndiamanAddPax-first-class
+
+Constraint[Next][0]=EastIndiamanAddPax
+Constraint[Next][1]=EastIndiamanAddBulk
+Constraint[Next][2]=EastIndiamanAddMail
+Constraint[Next][3]=EastIndiamanAddPiece
+Constraint[Next][4]=EastIndiamanAddCool
+Constraint[Next][5]=EastIndiamanAddLong
+Constraint[Next][6]=EastIndiamanAddLivestock
+Constraint[Next][7]=EastIndiamanAddPax-second-class
+Constraint[Next][8]=EastIndiamanAddPax-first-class
+Constraint[Next][9]=none
+
+EmptyImage[E]=../images/holds.0.0,80,40
+EmptyImage[SE]=../images/holds.0.0,48,32
+EmptyImage[S]=../images/holds.0.0,16,0
+EmptyImage[SW]=../images/holds.0.0,32,0
+EmptyImage[W]=../images/holds.0.0,64,32
+EmptyImage[NW]=../images/holds.0.0,24,8
+EmptyImage[N]=../images/holds.0.0,32,8
+EmptyImage[NE]=../images/holds.0.0,64,0
+
+FreightImage[E]=../images/holds.1.0,80,40
+FreightImage[SE]=../images/holds.1.0,48,32
+FreightImage[S]=../images/holds.1.0,16,0
+FreightImage[SW]=../images/holds.1.0,32,0
+FreightImage[W]=../images/holds.1.0,64,32
+FreightImage[NW]=../images/holds.1.0,24,8
+FreightImage[N]=../images/holds.1.0,32,8
+FreightImage[NE]=../images/holds.1.0,64,0
+---
+obj=vehicle
+name=EastIndiamanAddPax-first-class
+copyright=James
+waytype=water
+engine_type=sail
+speed=15
+freight=Passagiere
+payload[0]=0
+payload[1]=0
+payload[2]=0
+payload[3]=15
+intro_year=1700
+intro_month=1
+retire_year=1830
+retire_month=9
+
+comfort[0]=0
+comfort[1]=0
+comfort[2]=0
+comfort[3]=170
+catering_level=4
+# 2-3 hours
+min_loading_time=7200
+max_loading_time=10800
+
+length=3
+
+way_constraint_prohibitive[6]=6 # Large ship
+
+Constraint[Prev][0]=EastIndiamanHull
+Constraint[Prev][1]=EastIndiamanAddBulk
+Constraint[Prev][2]=EastIndiamanAddMail
+Constraint[Prev][3]=EastIndiamanAddPiece
+Constraint[Prev][4]=EastIndiamanAddCool
+Constraint[Prev][5]=EastIndiamanAddLong
+Constraint[Prev][6]=EastIndiamanAddLivestock
+Constraint[Prev][7]=EastIndiamanAddPax
+Constraint[Prev][8]=EastIndiamanAddPax-second-class
+Constraint[Prev][9]=EastIndiamanAddPax-first-class
+
+Constraint[Next][0]=EastIndiamanAddPax
+Constraint[Next][1]=EastIndiamanAddBulk
+Constraint[Next][2]=EastIndiamanAddMail
+Constraint[Next][3]=EastIndiamanAddPiece
+Constraint[Next][4]=EastIndiamanAddCool
+Constraint[Next][5]=EastIndiamanAddLong
+Constraint[Next][6]=EastIndiamanAddLivestock
+Constraint[Next][7]=EastIndiamanAddPax-second-class
+Constraint[Next][8]=EastIndiamanAddPax-first-class
+Constraint[Next][9]=none
 
 EmptyImage[E]=../images/holds.0.0,80,40
 EmptyImage[SE]=../images/holds.0.0,48,32
@@ -86,6 +228,8 @@ Constraint[Prev][4]=EastIndiamanAddCool
 Constraint[Prev][5]=EastIndiamanAddLong
 Constraint[Prev][6]=EastIndiamanAddLivestock
 Constraint[Prev][7]=EastIndiamanAddPax
+Constraint[Prev][8]=EastIndiamanAddPax-second-class
+Constraint[Prev][9]=EastIndiamanAddPax-first-class
 
 Constraint[Next][0]=EastIndiamanAddPax
 Constraint[Next][1]=EastIndiamanAddBulk
@@ -94,7 +238,9 @@ Constraint[Next][3]=EastIndiamanAddPiece
 Constraint[Next][4]=EastIndiamanAddCool
 Constraint[Next][5]=EastIndiamanAddLong
 Constraint[Next][6]=EastIndiamanAddLivestock
-Constraint[Next][7]=none
+Constraint[Next][7]=EastIndiamanAddPax-second-class
+Constraint[Next][8]=EastIndiamanAddPax-first-class
+Constraint[Next][9]=none
 
 EmptyImage[E]=../images/holds.0.1,80,40
 EmptyImage[SE]=../images/holds.0.1,48,32
@@ -142,6 +288,8 @@ Constraint[Prev][4]=EastIndiamanAddCool
 Constraint[Prev][5]=EastIndiamanAddLong
 Constraint[Prev][6]=EastIndiamanAddLivestock
 Constraint[Prev][7]=EastIndiamanAddPax
+Constraint[Prev][8]=EastIndiamanAddPax-second-class
+Constraint[Prev][9]=EastIndiamanAddPax-first-class
 
 Constraint[Next][0]=EastIndiamanAddPax
 Constraint[Next][1]=EastIndiamanAddBulk
@@ -150,7 +298,9 @@ Constraint[Next][3]=EastIndiamanAddPiece
 Constraint[Next][4]=EastIndiamanAddCool
 Constraint[Next][5]=EastIndiamanAddLong
 Constraint[Next][6]=EastIndiamanAddLivestock
-Constraint[Next][7]=none
+Constraint[Next][7]=EastIndiamanAddPax-second-class
+Constraint[Next][8]=EastIndiamanAddPax-first-class
+Constraint[Next][9]=none
 
 EmptyImage[E]=../images/holds.0.2,80,40
 EmptyImage[SE]=../images/holds.0.2,48,32
@@ -239,6 +389,8 @@ Constraint[Prev][4]=EastIndiamanAddCool
 Constraint[Prev][5]=EastIndiamanAddLong
 Constraint[Prev][6]=EastIndiamanAddLivestock
 Constraint[Prev][7]=EastIndiamanAddPax
+Constraint[Prev][8]=EastIndiamanAddPax-second-class
+Constraint[Prev][9]=EastIndiamanAddPax-first-class
 
 Constraint[Next][0]=EastIndiamanAddPax
 Constraint[Next][1]=EastIndiamanAddBulk
@@ -247,7 +399,9 @@ Constraint[Next][3]=EastIndiamanAddPiece
 Constraint[Next][4]=EastIndiamanAddCool
 Constraint[Next][5]=EastIndiamanAddLong
 Constraint[Next][6]=EastIndiamanAddLivestock
-Constraint[Next][7]=none
+Constraint[Next][7]=EastIndiamanAddPax-second-class
+Constraint[Next][8]=EastIndiamanAddPax-first-class
+Constraint[Next][9]=none
 
 EmptyImage[E]=../images/holds.1.4,80,40
 EmptyImage[SE]=../images/holds.1.4,48,32
@@ -306,6 +460,8 @@ Constraint[Prev][4]=EastIndiamanAddCool
 Constraint[Prev][5]=EastIndiamanAddLong
 Constraint[Prev][6]=EastIndiamanAddLivestock
 Constraint[Prev][7]=EastIndiamanAddPax
+Constraint[Prev][8]=EastIndiamanAddPax-second-class
+Constraint[Prev][9]=EastIndiamanAddPax-first-class
 
 Constraint[Next][0]=EastIndiamanAddPax
 Constraint[Next][1]=EastIndiamanAddBulk
@@ -314,7 +470,9 @@ Constraint[Next][3]=EastIndiamanAddPiece
 Constraint[Next][4]=EastIndiamanAddCool
 Constraint[Next][5]=EastIndiamanAddLong
 Constraint[Next][6]=EastIndiamanAddLivestock
-Constraint[Next][7]=none
+Constraint[Next][7]=EastIndiamanAddPax-second-class
+Constraint[Next][8]=EastIndiamanAddPax-first-class
+Constraint[Next][9]=none
 
 EmptyImage[E]=../images/holds.0.7,80,40
 EmptyImage[SE]=../images/holds.0.7,48,32
@@ -362,6 +520,8 @@ Constraint[Prev][4]=EastIndiamanAddCool
 Constraint[Prev][5]=EastIndiamanAddLong
 Constraint[Prev][6]=EastIndiamanAddLivestock
 Constraint[Prev][7]=EastIndiamanAddPax
+Constraint[Prev][8]=EastIndiamanAddPax-second-class
+Constraint[Prev][9]=EastIndiamanAddPax-first-class
 
 Constraint[Next][0]=EastIndiamanAddPax
 Constraint[Next][1]=EastIndiamanAddBulk
@@ -370,7 +530,9 @@ Constraint[Next][3]=EastIndiamanAddPiece
 Constraint[Next][4]=EastIndiamanAddCool
 Constraint[Next][5]=EastIndiamanAddLong
 Constraint[Next][6]=EastIndiamanAddLivestock
-Constraint[Next][7]=none
+Constraint[Next][7]=EastIndiamanAddPax-second-class
+Constraint[Next][8]=EastIndiamanAddPax-first-class
+Constraint[Next][9]=none
 
 EmptyImage[E]=../images/holds.0.6,80,40
 EmptyImage[SE]=../images/holds.0.6,48,32
@@ -419,6 +581,8 @@ Constraint[Prev][4]=EastIndiamanAddCool
 Constraint[Prev][5]=EastIndiamanAddLong
 Constraint[Prev][6]=EastIndiamanAddLivestock
 Constraint[Prev][7]=EastIndiamanAddPax
+Constraint[Prev][8]=EastIndiamanAddPax-second-class
+Constraint[Prev][9]=EastIndiamanAddPax-first-class
 
 Constraint[Next][0]=EastIndiamanAddPax
 Constraint[Next][1]=EastIndiamanAddBulk
@@ -427,7 +591,9 @@ Constraint[Next][3]=EastIndiamanAddPiece
 Constraint[Next][4]=EastIndiamanAddCool
 Constraint[Next][5]=EastIndiamanAddLong
 Constraint[Next][6]=EastIndiamanAddLivestock
-Constraint[Next][7]=none
+Constraint[Next][7]=EastIndiamanAddPax-second-class
+Constraint[Next][8]=EastIndiamanAddPax-first-class
+Constraint[Next][9]=none
 
 EmptyImage[E]=../images/holds.0.8,80,40
 EmptyImage[SE]=../images/holds.0.8,48,32
@@ -446,4 +612,3 @@ FreightImage[W]=../images/holds.1.8,64,32
 FreightImage[NW]=../images/holds.1.8,24,8
 FreightImage[N]=../images/holds.1.8,32,8
 FreightImage[NE]=../images/holds.1.8,64,0
--------------

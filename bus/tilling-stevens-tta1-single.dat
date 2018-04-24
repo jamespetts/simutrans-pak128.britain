@@ -24,6 +24,8 @@ intro_year=1911
 intro_month=2
 retire_year=1914
 retire_month=5
+# TODO: Use a more authentic sound for this
+sound=graham-french-leyland-n-type.wav
 
 comfort=27
 # Single door with conductor: 2.5 seconds per passenger
