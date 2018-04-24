@@ -12,13 +12,6 @@ length=1
 min_loading_time=20
 max_loading_time=60
 
-way_constraint_permissive[1]=4  # waterway
-way_constraint_prohibitive[2]=2 # Barge
-way_constraint_prohibitive[3]=3 # Tub
-way_constraint_prohibitive[4]=4 # Narrow
-way_constraint_prohibitive[5]=5 # Ship
-way_constraint_prohibitive[6]=6 # Large ship
-
 Constraint[Prev][0]=skiff-wherry-passenger
 Constraint[Prev][1]=skiff-wherry-livestock
 Constraint[Prev][2]=skiff-wherry-bulk
