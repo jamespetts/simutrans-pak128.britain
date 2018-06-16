@@ -5344,8 +5344,12 @@ GWR-Saint-Tender
 GWR 2900 "Saint" Tender
 GWR-Hall
 GWR 4900 "Hall" Class 4-6-0
+GWR-Hall-Hogwarts
+The "Hogwarts Express" Locomotive 4-6-0
 GWR-Hall-Tender
 GWR 4900 "Hall" Tender
+GWR-Hall-Tender-Hogwarts
+The "Hogwarts Express" Tender
 GWR-Modified-Hall
 GWR 6959 "Modified Hall" Class 4-6-0
 GWR-Modified-Hall-Tender
