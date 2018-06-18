@@ -30,6 +30,7 @@ weight=2
 axles=2
 cost=70000
 runningcost=7
+fixed_cost=29
 
 comfort[0]=20
 min_loading_time=17
@@ -84,6 +85,7 @@ weight=2
 axles=2
 cost=73000
 runningcost=9
+fixed_cost=4830
 
 comfort[0]=20
 min_loading_time=17

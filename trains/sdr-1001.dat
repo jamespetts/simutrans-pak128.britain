@@ -24,9 +24,10 @@ way_wear_factor=66421
 # Weight taken from "The Locomotive", 14th of January 1928, p. 14
 weight=32
 axles=3
-cost=3548160
+cost=7096320
 # These were economical to run: see above website.
-runningcost=700
+runningcost=172
+fixed_cost=34957
 sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=SDR-1001-Tender

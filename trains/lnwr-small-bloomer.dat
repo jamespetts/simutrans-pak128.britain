@@ -21,8 +21,9 @@ rolling_resistance=19
 # Weight given by Ahrons, p. 95
 weight=23.4
 axle_load=10
-cost=8125250
-runningcost=977
+cost=12187875
+runningcost=255
+fixed_cost=45078
 sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=LNWR-Bloomer-Tender

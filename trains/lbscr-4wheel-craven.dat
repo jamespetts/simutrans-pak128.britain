@@ -23,6 +23,7 @@ weight=8
 axles=2
 cost=200000
 runningcost=20
+fixed_cost=83
 
 comfort[0]=0
 comfort[1]=38
@@ -67,6 +68,7 @@ weight=8
 axles=2
 cost=200000
 runningcost=20
+fixed_cost=83
 
 comfort[0]=0
 comfort[1]=42
@@ -110,6 +112,7 @@ weight=8
 axles=2
 cost=200000
 runningcost=21
+fixed_cost=4883
 
 comfort[0]=0
 comfort[1]=38
@@ -153,6 +156,7 @@ weight=8
 axles=2
 cost=200000
 runningcost=21
+fixed_cost=4883
 
 comfort[0]=0
 comfort[1]=38
@@ -192,6 +196,7 @@ weight=8
 axles=2
 cost=154000
 runningcost=19
+fixed_cost=64
 
 min_loading_time=35
 max_loading_time=100
@@ -230,6 +235,7 @@ weight=8
 axles=2
 cost=154000
 runningcost=19
+fixed_cost=64
 
 min_loading_time=35
 max_loading_time=120

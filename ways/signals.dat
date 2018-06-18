@@ -165,9 +165,9 @@ has_selective_choose=0
 has_call_on=0
 max_distance_to_signalbox=0
 permissive=1
+signal_groups=7
 allow_underground=2
 upgrade_group=0
-signal_groups=5
 intro_year=1981
 intro_month=9
 

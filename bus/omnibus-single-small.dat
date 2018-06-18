@@ -18,6 +18,7 @@ axle_load=1
 length=3
 cost=69000
 runningcost=14
+fixed_cost=1280
 intro_year=1833
 intro_month=11
 retire_year=1912

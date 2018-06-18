@@ -4,7 +4,7 @@ engine_type=steam
 smoke=Steam
 speed=95
 # Extrapolated
-power=330
+power=295
 # http://en.wikipedia.org/wiki/Metropolitan_Railway_G_Class
 tractive_effort=91
 copyright=James/jamespetts

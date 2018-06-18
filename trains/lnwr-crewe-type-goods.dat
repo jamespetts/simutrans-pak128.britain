@@ -27,8 +27,8 @@ weight=19.8
 # http://www.steamlocomotive.com/locobase.php?country=Great_Britain&wheel=2-4-0&railroad=lnw
 axle_load=9
 cost=14778000
-runningcost=171
-fixed_cost=18158
+runningcost=190
+fixed_cost=38158
 sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=LNWR-Bloomer-Tender

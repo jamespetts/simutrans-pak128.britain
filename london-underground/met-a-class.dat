@@ -6,7 +6,7 @@ engine_type=steam
 smoke=Steam
 speed=95
 # Extrapolated: see data here: http://orion.math.iastate.edu/jdhsmith/term/slgbmet.htm
-power=208
+power=186
 # Tractive effort calculated using figures from http://orion.math.iastate.edu/jdhsmith/term/slgbmet.htm. Loss factor: 0.7
 tractive_effort=38
 copyright=James/jamespetts
@@ -25,7 +25,8 @@ weight=42
 # This should be 15.5, but no tracks that can take this available contemporaneously.
 axle_load=14
 cost=8750000
-runningcost=845
+runningcost=321
+fixed_cost=43646
 sound=lwalker-br-4mt-tank.wav
 
 bidirectional=1

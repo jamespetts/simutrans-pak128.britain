@@ -27,8 +27,9 @@ years_before_maintenance_max_reached=35
 # http://en.wikipedia.org/wiki/LB%26SCR_G_class
 weight=36.2
 axle_load=14
-cost=2850000
-runningcost=400
+cost=9975000
+runningcost=336
+fixed_cost=28156
 sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=LBSCR-Belgravia-tender

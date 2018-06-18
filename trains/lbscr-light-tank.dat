@@ -26,8 +26,9 @@ years_before_maintenance_max_reached=26
 # Not available; guessed from contemporaneous types
 weight=25
 axles=3
-cost=1985000
-runningcost=250
+cost=3970000
+runningcost=169
+fixed_cost=17654
 sound=lwalker-br-4mt-tank.wav
 
 liverytype[0]=LBSCR-Craven

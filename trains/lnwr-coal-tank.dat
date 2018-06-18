@@ -23,8 +23,9 @@ way_wear_factor=69300
 # http://en.wikipedia.org/wiki/LNWR_Webb_Coal_Tank
 weight=44
 axles=3
-cost=2000000
-runningcost=800
+cost=4000000
+runningcost=258
+fixed_cost=17667
 sound=lwalker-br-4mt-tank.wav
 
 can_lead_from_rear=0

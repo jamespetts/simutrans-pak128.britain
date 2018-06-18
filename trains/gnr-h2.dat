@@ -22,8 +22,9 @@ length=4
 # http://orion.math.iastate.edu/jdhsmith/term/slgbgnr.htm
 weight=39
 axle_load=14
-cost=86251402
-runningcost=921
+cost=10350168
+runningcost=316
+fixed_cost=28313
 sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=GNR-Stirling8Foot-Tender

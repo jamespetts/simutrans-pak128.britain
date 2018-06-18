@@ -24,6 +24,7 @@ axles=2
 cost=144000
 upgrade_price=15000
 runningcost=9
+fixed_cost=60
 
 comfort[0]=0
 comfort[1]=0
@@ -273,6 +274,7 @@ axles=2
 cost=150000
 upgrade_price=15000
 runningcost=9
+fixed_cost=4863
 
 comfort[0]=0
 comfort[1]=0
@@ -522,6 +524,7 @@ axles=2
 cost=150000
 upgrade_price=15000
 runningcost=9
+fixed_cost=4863
 
 comfort[0]=0
 comfort[1]=0

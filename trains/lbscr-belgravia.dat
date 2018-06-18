@@ -26,8 +26,9 @@ years_before_maintenance_max_reached=35
 # See Ahrons p. 191
 weight=41.9
 axle_load=8
-cost=2750000
-runningcost=354
+cost=12375000
+runningcost=335
+fixed_cost=29156
 
 
 Constraint[Next][0]=LBSCR-Belgravia-tender

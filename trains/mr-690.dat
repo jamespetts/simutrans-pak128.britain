@@ -25,8 +25,9 @@ way_wear_factor=69013
 # Guessed based on Johnson tanks
 weight=43
 axles=4
-cost=5612000
-runningcost=950
+cost=8418000
+runningcost=296
+fixed_cost=27508
 sound=lwalker-br-4mt-tank.wav
 increase_maintenance_after_years=40
 years_before_maintenance_max_reached=40

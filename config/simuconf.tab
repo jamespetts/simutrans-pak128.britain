@@ -637,7 +637,10 @@ minimum_staffing_percentage_full_production_producer_industry = 80
 ################################## Finance settings #################################
 
 # Starting money of the player. Given in Credit cents (1/100 Cr)
-starting_money = 25000000
+# This varies by year: more starting money is available in later years.
+starting_money[0]=1750,25000000,1
+starting_money[1]=1900,30000000,1
+starting_money[2]=2000,40000000,1
 
 # Maintenance costs of buildings
 # This is also in credit cents

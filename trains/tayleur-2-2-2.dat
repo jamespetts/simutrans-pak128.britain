@@ -32,8 +32,8 @@ weight=16.2
 # Guessed
 axle_load=7
 cost=8385500
-runningcost=15
-fixed_cost=1380
+runningcost=105
+fixed_cost=27494
 sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=LMR-Patentee-Tender

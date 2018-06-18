@@ -25,7 +25,8 @@ rolling_resistance=19
 weight=33.5
 axle_load=11
 cost=12350000
-runningcost=1425
+runningcost=303
+fixed_cost=45146
 sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=gnr-early-tender
@@ -50,4 +51,3 @@ EmptyImage[W][1]=./images/gnr-sturrock-coupled.1.0
 EmptyImage[NW][1]=./images/gnr-sturrock-coupled.1.1
 EmptyImage[N][1]=./images/gnr-sturrock-coupled.1.2
 EmptyImage[NE][1]=./images/gnr-sturrock-coupled.1.3
-

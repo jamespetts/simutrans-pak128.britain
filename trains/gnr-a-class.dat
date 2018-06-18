@@ -23,8 +23,9 @@ rolling_resistance=19
 # Weight taken from Ahrons, p. 172
 weight=32.8
 axle_load=13
-cost=82820000
-runningcost=900
+cost=12423000
+runningcost=284
+fixed_cost=29176
 sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=gnr-sturrock-tender

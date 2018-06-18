@@ -23,8 +23,9 @@ rolling_resistance=19
 # Weight obtained from Ahrons p. 169
 weight=29
 axle_load=9
-cost=8850000
-runningcost=1650
+cost=17700000
+runningcost=273
+fixed_cost=31375
 sound=lwalker-br-4mt-tank.wav
 
 upgrade[0]=LNWR-Jumbo
@@ -72,7 +73,6 @@ rolling_resistance=19
 
 weight=23
 cost=0
-runningcost=0
 
 
 upgrade[0]=LNWR-Jumbo-Tender

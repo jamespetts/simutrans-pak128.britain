@@ -22,8 +22,9 @@ way_wear_factor=51975
 # http://en.wikipedia.org/wiki/LNWR_17in_Coal_Engine
 weight=33
 axles=3
-cost=3750000
-runningcost=500
+cost=4687500
+runningcost=307
+fixed_cost=25953
 sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=LNWR-Cauliflower-tender

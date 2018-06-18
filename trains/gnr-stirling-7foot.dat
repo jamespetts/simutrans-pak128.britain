@@ -23,8 +23,9 @@ rolling_resistance=21
 # Recorded here as the "B" class
 weight=34
 axle_load=15
-cost=12750250
-runningcost=1650
+cost=19125375
+runningcost=390
+fixed_cost=47969
 sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=gnr-sturrock-tender

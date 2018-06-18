@@ -20,6 +20,7 @@ weight=9
 axles=2
 cost=285000
 runningcost=17
+fixed_cost=4919
 
 upgrade[0]=LBSCR-4Wheel-Brake-front-fitted
 
@@ -98,6 +99,7 @@ weight=9
 axles=2
 cost=285000
 runningcost=17
+fixed_cost=4919
 
 upgrade[0]=LBSCR-4Wheel-Brake-rear-fitted
 
@@ -176,6 +178,7 @@ axles=2
 cost=340000
 upgrade_price=80000
 runningcost=18
+fixed_cost=4942
 
 comfort[0]=0
 comfort[1]=52
@@ -271,6 +274,7 @@ axles=2
 cost=340000
 upgrade_price=80000
 runningcost=18
+fixed_cost=4942
 
 comfort[0]=0
 comfort[1]=52

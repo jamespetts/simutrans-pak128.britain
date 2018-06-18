@@ -22,8 +22,9 @@ rolling_resistance=19
 # http://orion.math.iastate.edu/jdhsmith/term/slgbgnr.htm
 weight=37
 axle_load=13
-cost=85920000
-runningcost=900
+cost=17184000
+runningcost=341
+fixed_cost=47160
 sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=gnr-sturrock-tender

@@ -20,7 +20,8 @@ length=4
 weight=27.5
 axles=3
 cost=3255000
-runningcost=461
+runningcost=255
+fixed_cost=25356
 sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=LNWR-DXgoods-Tender

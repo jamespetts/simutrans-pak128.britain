@@ -26,7 +26,8 @@ rolling_resistance=19
 weight=14
 axle_load=5
 cost=2877949
-runningcost=92
+runningcost=62
+fixed_cost=17199
 sound=the-mart-ban-wllr-tank.wav
 upgrade[0]=SingleFairlie-superheated
 

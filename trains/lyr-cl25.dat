@@ -22,8 +22,9 @@ way_wear_factor=61425
 # Weight given at: http://orion.math.iastate.edu/jdhsmith/term/slgblyr.htm
 weight=39
 axles=3
-cost=6752000
-runningcost=755
+cost=4051200
+runningcost=307
+fixed_cost=25688
 sound=lwalker-br-4mt-tank.wav
 increase_maintenance_after_years=30
 years_before_maintenance_max_reached=30

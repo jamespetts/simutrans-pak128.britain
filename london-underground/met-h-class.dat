@@ -5,7 +5,7 @@ engine_type=steam
 smoke=Steam
 speed=100
 # Extrapolated
-power=338
+power=302
 # http://en.wikipedia.org/wiki/Metropolitan_Railway_H_Class
 tractive_effort=82
 copyright=James/jamespetts

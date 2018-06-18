@@ -29,8 +29,8 @@ weight=18.3
 # Ibid
 axle_load=9
 cost=14427000
-runningcost=167
-fixed_cost=18011
+runningcost=186
+fixed_cost=38011
 sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=LNWR-Bloomer-Tender

@@ -21,8 +21,9 @@ length=5
 # Weight taken from Ahrons p. 220
 axle_load=14
 weight=46
-cost=7800000
-runningcost=450
+cost=4680000
+runningcost=215
+fixed_cost=17950
 sound=lwalker-br-4mt-tank.wav
 
 can_lead_from_rear=0

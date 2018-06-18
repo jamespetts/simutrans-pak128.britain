@@ -23,6 +23,7 @@ weight=2.7
 axles=2
 cost=140000
 runningcost=10
+fixed_cost=58
 
 upgrade[0]=LMR-4Wheel-First
 
@@ -88,6 +89,7 @@ weight=2.7
 axles=2
 cost=146000
 runningcost=10
+fixed_cost=4861
 
 upgrade[0]=LMR-4Wheel-First-Guard-front
 
@@ -153,6 +155,7 @@ weight=2.7
 axles=2
 cost=146000
 runningcost=10
+fixed_cost=4861
 
 upgrade[0]=LMR-4Wheel-First-Guard-rear
 

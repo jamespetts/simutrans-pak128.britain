@@ -26,6 +26,7 @@ weight=2.5
 axles=2
 cost=100000
 runningcost=9
+fixed_cost=42
 
 comfort[0]=0
 comfort[1]=0
@@ -84,6 +85,7 @@ weight=2.5
 axles=2
 cost=110000
 runningcost=9
+fixed_cost=4846
 
 comfort[0]=0
 comfort[1]=0
@@ -137,6 +139,7 @@ weight=2.5
 axles=2
 cost=110000
 runningcost=9
+fixed_cost=4846
 
 comfort[0]=0
 comfort[1]=0

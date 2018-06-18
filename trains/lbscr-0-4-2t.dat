@@ -25,7 +25,8 @@ way_wear_factor=41500
 weight=20
 axles=3
 cost=7010000
-runningcost=800
+runningcost=159
+fixed_cost=34921
 sound=lwalker-br-4mt-tank.wav
 
 can_lead_from_rear=0

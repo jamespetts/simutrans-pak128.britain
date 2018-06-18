@@ -356,6 +356,7 @@ weight=23.5
 axles=6
 cost=717120
 runningcost=32
+fixed_cost=5099
 
 upgrade[0]=MR-clayton-12wheel-clerestory-brake-lav-front
 
@@ -471,6 +472,7 @@ weight=23.5
 axles=6
 cost=717120
 runningcost=32
+fixed_cost=5099
 
 upgrade[0]=MR-clayton-12wheel-clerestory-brake-lav-rear
 

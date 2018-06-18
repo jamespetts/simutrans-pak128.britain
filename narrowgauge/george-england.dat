@@ -23,10 +23,17 @@ length=4
 rolling_resistance=20
 
 # http://www.festipedia.org.uk/wiki/Princess
-weight=10
-axles=2
+# The weights of these locomotives in original condition are not given:
+# the weights were increased to 10t in the 1880s, but by then the track
+# had been re-laid to a higher standard and could thus take a heavier
+# axle load. It is not clear what the weight originally was, but we 
+# know that the original track was 18lb/yard wrought iron, so make
+# these locomotives fit the calculated axle load limit for that track.
+weight=6.6
+axle_load=3
 cost=1726769
-runningcost=89
+runningcost=35
+fixed_cost=16719
 sound=the-mart-ban-wllr-tank.wav
 
 can_lead_from_rear=0

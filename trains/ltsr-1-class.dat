@@ -21,7 +21,8 @@ length=6
 axle_load=16
 weight=59.5
 cost=8000000
-runningcost=460
+runningcost=319
+fixed_cost=27333
 sound=lwalker-br-4mt-tank.wav
 
 can_lead_from_rear=0

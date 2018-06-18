@@ -18,6 +18,7 @@ length=3
 weight=10
 cost=120000
 runningcost=20
+fixed_cost=4850
 
 bidirectional=1
 

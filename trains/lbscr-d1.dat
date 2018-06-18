@@ -31,8 +31,9 @@ years_before_maintenance_max_reached=35
 # (Wikipedia seemed unreliable on this locomotive)
 weight=43
 axle_load=16
-cost=2210000
-runningcost=300
+cost=6630000
+runningcost=274
+fixed_cost=26763
 sound=lwalker-br-4mt-tank.wav
 
 liverytype[0]=LBSCR-Stroudley

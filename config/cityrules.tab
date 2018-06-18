@@ -33,7 +33,7 @@ minimum_building_density = 20
 
 # When a city tries to extend a road along a bridge, it will only succeed this percent of the time
 # (encouraging development in the other directions first)
-bridge_success_percentage = 30
+bridge_success_percentage = 35
 
 #
 # relative affinities for certain building types which can lead to clustering of certain building types

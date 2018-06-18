@@ -4,7 +4,7 @@ engine_type=steam
 smoke=Steam
 speed=85
 # Extrapolated
-power=251
+power=225
 # Calculated using data from https://orion.math.iastate.edu/jdhsmith/term/slgbmet.htm with loss factor of 0.8
 tractive_effort=72
 copyright=James/jamespetts

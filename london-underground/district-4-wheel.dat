@@ -19,6 +19,7 @@ weight=7.2
 axles=2
 cost=220000
 runningcost=26
+fixed_cost=92
 
 
 can_lead_from_rear=0
@@ -84,6 +85,7 @@ weight=7.2
 axles=2
 cost=210000
 runningcost=26
+fixed_cost=4888
 
 can_lead_from_rear=0
 bidirectional=1
@@ -144,6 +146,7 @@ weight=7.2
 axles=2
 cost=210000
 runningcost=26
+fixed_cost=4888
 
 can_lead_from_rear=0
 bidirectional=1
@@ -187,6 +190,7 @@ EmptyImage[N][1]=./images/district-4-wheel-brake-brown-rear.1.2
 EmptyImage[NE][1]=./images/district-4-wheel-brake-brown-rear.1.3
 
 ---
+# ** Fitted hereafter **
 
 obj=vehicle
 name=district-4-wheel-third-fitted
@@ -222,23 +226,27 @@ Constraint[Next][0]=met-jubilee-third
 Constraint[Next][1]=met-jubilee-brake-rear
 Constraint[Next][2]=met-ashbury-1863-brake-rear-fitted
 Constraint[Next][3]=met-ashbury-1863-third-fitted
-Constraint[Next][4]=met-bogie-third
-Constraint[Next][5]=met-bogie-brake-rear
-Constraint[Next][6]=met-dreadnought-third
-Constraint[Next][7]=met-dreadnought-brake-rear
-Constraint[Next][8]=district-4-wheel-third-fitted
-Constraint[Next][9]=district-4-wheel-brake-rear-fitted
+Constraint[Next][4]=met-ashbury-1863-composite-fitted
+Constraint[Next][5]=met-ashbury-1863-first-fitted
+Constraint[Next][6]=met-bogie-third
+Constraint[Next][7]=met-bogie-brake-rear
+Constraint[Next][8]=met-dreadnought-third
+Constraint[Next][9]=met-dreadnought-brake-rear
+Constraint[Next][10]=district-4-wheel-third-fitted
+Constraint[Next][11]=district-4-wheel-brake-rear-fitted
 
 Constraint[Prev][0]=met-jubilee-third
 Constraint[Prev][1]=met-jubilee-brake-front
 Constraint[Prev][2]=met-ashbury-1863-brake-front-fitted
 Constraint[Prev][3]=met-ashbury-1863-third-fitted
-Constraint[Prev][4]=met-bogie-third
-Constraint[Prev][5]=met-bogie-brake-front
-Constraint[Prev][6]=met-dreadnought-third
-Constraint[Prev][7]=met-dreadnought-brake-front
-Constraint[Prev][8]=district-4-wheel-third-fitted
-Constraint[Prev][9]=district-4-wheel-brake-front-fitted
+Constraint[Prev][4]=met-ashbury-1863-composite-fitted
+Constraint[Prev][5]=met-ashbury-1863-first-fitted
+Constraint[Prev][6]=met-bogie-third
+Constraint[Prev][7]=met-bogie-brake-front
+Constraint[Prev][8]=met-dreadnought-third
+Constraint[Prev][9]=met-dreadnought-brake-front
+Constraint[Prev][10]=district-4-wheel-third-fitted
+Constraint[Prev][11]=district-4-wheel-brake-front-fitted
 
 liverytype[0]=District-Standard
 liverytype[1]=LT
@@ -284,6 +292,7 @@ axles=2
 cost=230000
 upgrade_price=65000
 runningcost=26
+fixed_cost=4896
 
 can_lead_from_rear=0
 bidirectional=1
@@ -300,13 +309,15 @@ Constraint[Next][0]=met-jubilee-third
 Constraint[Next][1]=met-jubilee-brake-rear
 Constraint[Next][2]=met-ashbury-1863-brake-rear-fitted
 Constraint[Next][3]=met-ashbury-1863-third-fitted
-Constraint[Next][4]=met-bogie-third
-Constraint[Next][5]=met-bogie-brake-rear
-Constraint[Next][6]=met-dreadnought-third
-Constraint[Next][7]=met-dreadnought-brake-rear
-Constraint[Next][8]=district-4-wheel-third-fitted
-Constraint[Next][9]=district-4-wheel-brake-rear-fitted
-Constraint[Next][10]=none
+Constraint[Next][4]=met-ashbury-1863-composite-fitted
+Constraint[Next][5]=met-ashbury-1863-first-fitted
+Constraint[Next][6]=met-bogie-third
+Constraint[Next][7]=met-bogie-brake-rear
+Constraint[Next][8]=met-dreadnought-third
+Constraint[Next][9]=met-dreadnought-brake-rear
+Constraint[Next][10]=district-4-wheel-third-fitted
+Constraint[Next][11]=district-4-wheel-brake-rear-fitted
+Constraint[Next][12]=none
 
 EmptyImage[E][0]=./images/district-4-wheel-brake-front.1.4
 EmptyImage[SE][0]=./images/district-4-wheel-brake-front.1.5
@@ -349,6 +360,7 @@ axles=2
 cost=230000
 upgrade_price=65000
 runningcost=26
+fixed_cost=4896
 
 can_lead_from_rear=0
 bidirectional=1
@@ -365,24 +377,28 @@ Constraint[Next][0]=met-jubilee-third
 Constraint[Next][1]=met-jubilee-brake-rear
 Constraint[Next][2]=met-ashbury-1863-brake-rear-fitted
 Constraint[Next][3]=met-ashbury-1863-third-fitted
-Constraint[Next][4]=met-bogie-third
-Constraint[Next][5]=met-bogie-brake-rear
-Constraint[Next][6]=met-dreadnought-third
-Constraint[Next][7]=met-dreadnought-brake-rear
-Constraint[Next][8]=district-4-wheel-third-fitted
-Constraint[Next][9]=district-4-wheel-brake-rear-fitted
-Constraint[Next][10]=none
+Constraint[Next][4]=met-ashbury-1863-composite-fitted
+Constraint[Next][5]=met-ashbury-1863-first-fitted
+Constraint[Next][6]=met-bogie-third
+Constraint[Next][7]=met-bogie-brake-rear
+Constraint[Next][8]=met-dreadnought-third
+Constraint[Next][9]=met-dreadnought-brake-rear
+Constraint[Next][10]=district-4-wheel-third-fitted
+Constraint[Next][11]=district-4-wheel-brake-rear-fitted
+Constraint[Next][12]=district-4-wheel-brake-rear-fitted
 
 Constraint[Prev][0]=met-jubilee-third
 Constraint[Prev][1]=met-jubilee-brake-front
 Constraint[Prev][2]=met-ashbury-1863-brake-front-fitted
 Constraint[Prev][3]=met-ashbury-1863-third-fitted
-Constraint[Prev][4]=met-bogie-third
-Constraint[Prev][5]=met-bogie-brake-front
-Constraint[Prev][6]=met-dreadnought-third
-Constraint[Prev][7]=met-dreadnought-brake-front
-Constraint[Prev][8]=district-4-wheel-third-fitted
-Constraint[Prev][9]=district-4-wheel-brake-front-fitted
+Constraint[Prev][4]=met-ashbury-1863-composite-fitted
+Constraint[Prev][5]=met-ashbury-1863-first-fitted
+Constraint[Prev][6]=met-bogie-third
+Constraint[Prev][7]=met-bogie-brake-front
+Constraint[Prev][8]=met-dreadnought-third
+Constraint[Prev][9]=met-dreadnought-brake-front
+Constraint[Prev][10]=district-4-wheel-third-fitted
+Constraint[Prev][11]=district-4-wheel-brake-front-fitted
 
 EmptyImage[E][0]=./images/district-4-wheel-brake-rear.1.4
 EmptyImage[SE][0]=./images/district-4-wheel-brake-rear.1.5

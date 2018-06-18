@@ -17,6 +17,7 @@ weight=8.0
 axles=2
 cost=144000
 runningcost=12
+fixed_cost=60
 
 can_lead_from_rear=0
 bidirectional=1
@@ -118,6 +119,7 @@ weight=8.0
 axles=2
 cost=153000
 runningcost=11
+fixed_cost=24064
 
 catering_level=1
 can_lead_from_rear=0

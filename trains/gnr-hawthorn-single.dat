@@ -23,8 +23,9 @@ weight=28.2
 # http://orion.math.iastate.edu/jdhsmith/term/slgbgnr.htm
 # This has this listed as the "203 class"
 axle_load=11
-cost=8100000
-runningcost=940
+cost=16200000
+runningcost=225
+fixed_cost=46750
 sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=gnr-early-tender

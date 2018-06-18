@@ -27,8 +27,9 @@ years_before_maintenance_max_reached=35
 # http://en.wikipedia.org/wiki/LB%26SCR_Richmond_class
 weight=37.6
 axle_load=14
-cost=2900000
-runningcost=450
+cost=8700000
+runningcost=313
+fixed_cost=27625
 sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=LBSCR-Belgravia-tender

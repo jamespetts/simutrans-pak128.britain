@@ -4,7 +4,7 @@ engine_type=steam
 smoke=Steam
 speed=100
 # Extrapolated
-power=230
+power=206
 # Tractive effort from: http://www.brc-stockbook.co.uk/Met1.HTM
 tractive_effort=65
 copyright=Kieron

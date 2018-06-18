@@ -12,6 +12,8 @@ retire_month=1
 
 length=3
 
+way_constraint_prohibitive[6]=6 # Large ship
+
 Constraint[Prev][0]=SECRQueen
 Constraint[Next][0]=none
 

@@ -19,6 +19,8 @@ weight=5
 axle_load=5
 way_wear_factor=11375
 cost=90000
+fixed_cost=38
+runningcost=0
 upgrade_price=12250
 
 

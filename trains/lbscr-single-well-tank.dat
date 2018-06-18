@@ -24,8 +24,9 @@ way_wear_factor=36630
 # Weight not available, but guessed based on contemporaneous types.
 weight=20.4
 axle_load=9
-cost=7000000
-runningcost=820
+cost=14000000
+runningcost=168
+fixed_cost=45833
 sound=lwalker-br-4mt-tank.wav
 
 can_lead_from_rear=0

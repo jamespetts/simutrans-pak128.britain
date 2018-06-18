@@ -2991,7 +2991,7 @@ Four wheel fast goods van (passenger rated)
 4-wheel-1860s-milk
 Four wheel milk van (passenger rated)
 4-wheel-1870s-unfitted
-Four wheel four compartment carriage
+Four wheel four compartment composite carriage (first/second class)
 4-wheel-1870s-brake-unfitted
 Four wheel mail/brake carriage
 4-wheel-1870s-mail-unfitted
@@ -3003,7 +3003,7 @@ Four wheel fast goods van (passenger rated)
 4-wheel-1870s-milk-unfitted
 Four wheel milk van (passenger rated)
 4-wheel-1870s-fitted
-Four wheel four compartment carriage (continuously braked)
+Four wheel four compartment composite carriage (first/second class) (continuously braked)
 4-wheel-1870s-brake-fitted
 Four wheel mail/brake carriage (continuously braked)
 4-wheel-1870s-mail-fitted
@@ -3017,7 +3017,7 @@ Four wheel milk van (passenger rated) (continuously braked)
 4-wheel-sub-1870s-unfitted-composite
 Four wheel four compartment suburban composite carriage (first/second class)
 4-wheel-sub-1870s-unfitted
-Four wheel four compartment luggage composite carriage (first/second class)
+Four wheel five compartment carriage (third class)
 4-wheel-1870s-luggage-third-unfitted
 Four wheel four compartment luggage carriage (third class)
 4-wheel-1870s-tricomposite-unfitted
@@ -3217,9 +3217,13 @@ LNWR six wheel brake/mail carriage
 LNWR-6Wheel-brake-third
 LNWR six wheel three compartment brake carriage
 LNWR-6wheel-radial
-LNWR six wheel (radial) five compartment carriage
+LNWR six wheel (radial) five compartment carriage (third class)
+LNWR-6wheel-radial-first
+LNWR six wheel (radial) four compartment carriage (first class)
+LNWR-6wheel-radial-tricomposite
+LNWR six wheel (radial) four compartment tricomposite carriage (composite first/second/third class)
 LNWR-6wheel-radial-brake-third
-LNWR six wheel (radial) three compartment brake carriage
+LNWR six wheel (radial) three compartment brake carriage (third class)
 LNWR-6wheel-radial-full-brake
 LNWR six wheel (radial) mail/brake carriage
 LNWR-6wheel-radial-mail
@@ -3265,17 +3269,21 @@ LNWR corridor full brake (50ft)
 LNWR-50ft-cor-mail
 LNWR corridor mail carriage (50ft)
 MR-6Wheel-non-lav
-Midland six wheel five compartment carriage
+Midland six wheel five compartment carriage (third class)
+MR-6Wheel-non-lav-composite
+Midland six wheel five compartment carriage (composite first/third class)
 MR-6Wheel-lav
-Midland six wheel four compartment lavatory carriage
+Midland six wheel four compartment lavatory carriage (third class)
+MR-6Wheel-lav-composite
+Midland six wheel four compartment lavatory carriage (composite first/third class)
 MR-6wheel-clerestory-brake-d530
 Midland six wheel clerestory mail/brake carriage
 MR-6wheel-cove-brake-d530a
 Midland six wheel mail/brake carriage
 MR-6Wheel-brake-front
-Midland six wheel three compartment brake carriage
+Midland six wheel three compartment brake carriage (third class)
 MR-6Wheel-brake-rear
-Midland six wheel three compartment brake carriage (rear)
+Midland six wheel three compartment brake carriage (third class) (rear)
 MR-clayton-8wheel-arc-roof-third
 Midland eight wheel bogie seven compartment carriage
 MR-clayton-8wheel-arc-roof-third-lav
@@ -5687,7 +5695,7 @@ LBSCR G class 2-2-2
 LBSCR-croydon
 LBSCR Croydon engine 2-4-0
 LBSCR-Belgravia
-LBSCR Belgravia Ccass 2-4-0
+LBSCR Belgravia class 2-4-0
 LBSCR-Belgravia-tender
 LBSCR tender
 LBSCR-sharp-well-tank
@@ -6228,11 +6236,11 @@ Tilling-Stevens TS7 (pneumatic tyres; single deck)
 daimler-wagonette
 Daimler Wagonette
 milnes-daimler-single-1902
-Milnes Dailmer motor omnibus
+Milnes Daimler motor omnibus
 milnes-daimler-double
 Milnes-Daimler motor omnibus (double deck)
 milnes-daimler-single
-Milnes-Dailmer motor omnibus (single deck)
+Milnes-Daimler motor omnibus (single deck)
 daimler-cc-double
 Daimler CC
 daimler-cog5-double

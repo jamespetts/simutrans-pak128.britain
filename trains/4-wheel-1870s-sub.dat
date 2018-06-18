@@ -34,6 +34,7 @@ weight=9
 axles=2
 cost=300000
 runningcost=17
+fixed_cost=125
 
 upgrade[0]=4-wheel-sub-1870s-fitted
 
@@ -158,6 +159,7 @@ weight=9
 axles=2
 cost=312000
 runningcost=17
+fixed_cost=130
 
 upgrade[0]=4-wheel-sub-1870s-fitted-composite
 
@@ -281,6 +283,7 @@ weight=9
 axles=2
 cost=300000
 runningcost=17
+fixed_cost=4925
 
 upgrade[0]=4-wheel-sub-1870s-brake-front-fitted
 
@@ -404,6 +407,7 @@ weight=9
 axles=2
 cost=300000
 runningcost=17
+fixed_cost=4925
 
 upgrade[0]=4-wheel-sub-1870s-brake-rear-fitted
 
@@ -944,6 +948,7 @@ axles=2
 cost=355000
 upgrade_price=65000
 runningcost=22
+fixed_cost=4948
 
 comfort[0]=0
 comfort[1]=52
@@ -1107,6 +1112,7 @@ axles=2
 cost=355000
 upgrade_price=65000
 runningcost=22
+fixed_cost=4948
 
 comfort[0]=0
 comfort[1]=52

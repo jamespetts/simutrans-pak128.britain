@@ -24,8 +24,9 @@ rolling_resistance=19
 # Weight not available in Ahrons - guessed from contemporaneous types - see Ahrons p. 145 (table)
 weight=33
 axle_load=14
-cost=6972000
-runningcost=1477
+cost=20916000
+runningcost=311
+fixed_cost=48715
 sound=lwalker-br-4mt-tank.wav
 increase_maintenance_after_years=40
 years_before_maintenance_max_reached=40

@@ -24,8 +24,9 @@ weight=39
 axle_load=14
 # These should be expensive to construct and run by comparison to equivalents:
 # see: http://www.semgonline.com/steam/gladstone.html
-cost=5796000
-runningcost=924
+cost=11592000
+runningcost=368
+fixed_cost=28830
 sound=lwalker-br-4mt-tank.wav
 increase_maintenance_after_years=42
 years_before_maintenance_max_reached=30

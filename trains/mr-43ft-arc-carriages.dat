@@ -354,6 +354,7 @@ weight=18
 axles=4
 cost=510000
 runningcost=29
+fixed_cost=5013
 
 upgrade[0]=MR-clayton-8wheel-arc-roof-brake-lav-front
 
@@ -468,6 +469,7 @@ weight=18
 axles=4
 cost=510000
 runningcost=29
+fixed_cost=5013
 
 upgrade[0]=MR-clayton-8wheel-arc-roof-brake-lav-rear
 

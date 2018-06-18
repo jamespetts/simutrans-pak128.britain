@@ -21,6 +21,7 @@ weight=2
 axles=2
 cost=275000
 runningcost=14
+fixed_cost=115
 
 comfort[0]=0
 comfort[1]=34

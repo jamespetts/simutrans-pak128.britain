@@ -23,8 +23,9 @@ way_wear_factor=58950
 # Weight given by Ahrons, p. 221
 weight=38
 axles=3
-cost=7616000
-runningcost=995
+cost=3808000
+runningcost=299
+fixed_cost=25587
 sound=lwalker-br-4mt-tank.wav
 increase_maintenance_after_years=40
 years_before_maintenance_max_reached=40

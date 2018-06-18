@@ -27,8 +27,9 @@ bidirectional=0
 # Weight given on Ahrons, p. 203
 weight=39
 axles=3
-cost=2950000
-runningcost=314
+cost=7375000
+runningcost=359
+fixed_cost=27073
 sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=LBSCR-C-tender

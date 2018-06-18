@@ -6,7 +6,7 @@ engine_type=steam
 smoke=Steam
 speed=95
 # Extrapolated: see data here: http://orion.math.iastate.edu/jdhsmith/term/slgbmet.htm
-power=216
+power=193
 # Tractive effort calculated using figures from https://en.wikipedia.org/wiki/Metropolitan_Railway_A_Class. Loss factor: 0.8
 tractive_effort=48
 copyright=James/jamespetts
@@ -23,8 +23,9 @@ length=5
 weight=48
 # This should be 18.5, but no tracks that can take this available contemporaneously.
 axle_load=17
-cost=8825000
-runningcost=845
+cost=5295000
+runningcost=309
+fixed_cost=26206
 sound=lwalker-br-4mt-tank.wav
 
 bidirectional=1

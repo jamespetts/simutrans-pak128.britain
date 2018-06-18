@@ -357,6 +357,7 @@ weight=23
 axles=6
 cost=645408
 runningcost=31
+fixed_cost=5069
 
 upgrade[0]=MR-clayton-12wheel-arc-roof-brake-lav-front
 
@@ -472,6 +473,7 @@ weight=23
 axles=6
 cost=645408
 runningcost=31
+fixed_cost=5069
 
 upgrade[0]=MR-clayton-12wheel-arc-roof-brake-lav-rear
 

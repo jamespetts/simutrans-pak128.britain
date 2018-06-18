@@ -24,8 +24,9 @@ brake_force=0
 # Weight given by Ahrons, p. 189
 weight=36
 axle_load=15
-cost=7000000
-runningcost=1325
+cost=10500000
+runningcost=318
+fixed_cost=28375
 sound=lwalker-br-4mt-tank.wav
 increase_maintenance_after_years=40
 years_before_maintenance_max_reached=40

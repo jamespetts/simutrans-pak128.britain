@@ -21,8 +21,9 @@ rolling_resistance=19
 
 weight=36
 axle_load=13
-cost=2200000
-runningcost=270
+cost=6600000
+runningcost=237
+fixed_cost=26750
 sound=konakaboom-gwr-pannier.wav
 increase_maintenance_after_years=38
 years_before_maintenance_max_reached=20

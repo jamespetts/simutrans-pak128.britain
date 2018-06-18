@@ -23,7 +23,8 @@ brake_force=8
 weight=25
 axles=3
 cost=8100000
-runningcost=840
+runningcost=169
+fixed_cost=27375
 sound=lwalker-br-4mt-tank.wav
 
 can_lead_from_rear=0

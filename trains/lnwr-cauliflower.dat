@@ -21,8 +21,9 @@ length=4
 # Weight given by Ahrons, p. 222
 weight=33
 axles=3
-cost=4000000
-runningcost=510
+cost=4800000
+runningcost=295
+fixed_cost=26000
 sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=LNWR-Cauliflower-tender

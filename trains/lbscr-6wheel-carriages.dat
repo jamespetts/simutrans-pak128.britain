@@ -132,6 +132,7 @@ weight=13
 axles=3
 cost=332000
 runningcost=25
+fixed_cost=4938
 
 
 can_lead_from_rear=0
@@ -225,6 +226,7 @@ weight=13
 axles=3
 cost=332000
 runningcost=25
+fixed_cost=4938
 
 can_lead_from_rear=0
 bidirectional=1
@@ -314,6 +316,7 @@ weight=13
 axles=3
 cost=332000
 runningcost=25
+fixed_cost=4938
 
 can_lead_from_rear=0
 bidirectional=1

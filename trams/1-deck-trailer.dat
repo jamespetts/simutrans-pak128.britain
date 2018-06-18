@@ -15,6 +15,7 @@ weight=2.2
 axles=2
 cost=100000
 runningcost=8
+fixed_cost=4842
 
 years_before_maintenance_max_reached=75
 

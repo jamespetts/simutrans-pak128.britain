@@ -30,8 +30,8 @@ way_wear_factor=45629
 weight=22
 axles=3
 cost=5280000
-runningcost=141
-fixed_cost=14200
+runningcost=156
+fixed_cost=34200
 sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=SDR-Derwent-Tender

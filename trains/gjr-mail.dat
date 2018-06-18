@@ -21,6 +21,7 @@ weight=3.8
 axles=2
 cost=160000
 runningcost=10
+fixed_cost=67
 
 min_loading_time=35
 max_loading_time=120

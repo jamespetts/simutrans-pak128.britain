@@ -354,6 +354,7 @@ weight=18.5
 axles=4
 cost=597600
 runningcost=30
+fixed_cost=5049
 
 upgrade[0]=MR-clayton-8wheel-clerestory-brake-lav-front
 
@@ -468,6 +469,7 @@ weight=18.5
 axles=4
 cost=597600
 runningcost=30
+fixed_cost=5049
 
 upgrade[0]=MR-clayton-8wheel-clerestory-brake-lav-rear
 

@@ -24,8 +24,9 @@ rolling_resistance=19
 
 weight=28
 axle_load=12
-cost=8800000
-runningcost=1640
+cost=17600000
+runningcost=318
+fixed_cost=47333
 sound=lwalker-br-4mt-tank.wav
 upgrade[0]=LNWR-Waterloo
 

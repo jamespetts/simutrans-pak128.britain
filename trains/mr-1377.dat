@@ -22,8 +22,9 @@ way_wear_factor=63000
 # Weight confirmed by: http://en.wikipedia.org/wiki/Midland_Railway_1377_Class
 weight=40
 axles=3
-cost=1420000
-runningcost=190
+cost=3408000
+runningcost=299
+fixed_cost=25420
 sound=lwalker-br-4mt-tank.wav
 increase_maintenance_after_years=30
 years_before_maintenance_max_reached=20

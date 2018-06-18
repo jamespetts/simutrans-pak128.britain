@@ -28,8 +28,9 @@ years_before_maintenance_max_reached=35
 # http://en.wikipedia.org/wiki/LB%26SCR_E1_class
 weight=45
 axles=3
-cost=2200000
-runningcost=280
+cost=4400000
+runningcost=276
+fixed_cost=25833
 sound=lwalker-br-4mt-tank.wav
 
 liverytype[0]=LBSCR-Stroudley

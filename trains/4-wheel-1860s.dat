@@ -21,6 +21,7 @@ weight=8.2
 axles=2
 cost=250000
 runningcost=12
+fixed_cost=104
 
 can_lead_from_rear=0
 bidirectional=1
@@ -170,6 +171,7 @@ weight=8.5
 axles=2
 cost=290000
 runningcost=13
+fixed_cost=121
 
 can_lead_from_rear=0
 bidirectional=1
@@ -319,6 +321,7 @@ weight=8.5
 axles=2
 cost=315000
 runningcost=13
+fixed_cost=131
 
 can_lead_from_rear=0
 bidirectional=1
@@ -469,6 +472,7 @@ weight=8.1
 axles=2
 cost=200000
 runningcost=12
+fixed_cost=83
 
 can_lead_from_rear=0
 bidirectional=1
@@ -618,6 +622,7 @@ weight=8.0
 axles=2
 cost=200000
 runningcost=12
+fixed_cost=4883
 
 comfort[0]=0
 comfort[1]=42
@@ -765,6 +770,7 @@ weight=8.0
 axles=2
 cost=200000
 runningcost=12
+fixed_cost=4883
 
 comfort[0]=0
 comfort[1]=42
@@ -906,6 +912,7 @@ weight=8.0
 axles=2
 cost=200000
 runningcost=12
+fixed_cost=83
 
 min_loading_time=35
 max_loading_time=120
@@ -1045,6 +1052,7 @@ weight=8.0
 axles=2
 cost=200000
 runningcost=12
+fixed_cost=83
 
 min_loading_time=35
 max_loading_time=120
@@ -1186,6 +1194,7 @@ weight=8.3
 axles=2
 cost=200000
 runningcost=12
+fixed_cost=24083
 
 min_loading_time=35
 max_loading_time=120
@@ -1328,6 +1337,7 @@ weight=7.9
 axles=2
 cost=170000
 runningcost=12
+fixed_cost=71
 
 min_loading_time=300
 max_loading_time=900
@@ -1469,6 +1479,7 @@ weight=7.9
 axles=2
 cost=170000
 runningcost=12
+fixed_cost=71
 
 
 min_loading_time=300

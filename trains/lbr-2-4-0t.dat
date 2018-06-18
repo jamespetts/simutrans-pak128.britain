@@ -25,9 +25,9 @@ way_wear_factor=33775
 # Weight not available, but guessed based on contemporaneous types.
 weight=17
 axle_load=7
-cost=10160000
-runningcost=14
-fixed_cost=1200
+cost=7620000
+runningcost=91
+fixed_cost=27175
 sound=lwalker-br-4mt-tank.wav
 
 # Rough range based on 2 hours between coal/water stops. Someone with good steam knowledge should make a better value.

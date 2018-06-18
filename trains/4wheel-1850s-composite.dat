@@ -21,6 +21,7 @@ weight=8.1
 axles=2
 cost=161000
 runningcost=12
+fixed_cost=67
 
 can_lead_from_rear=0
 bidirectional=1

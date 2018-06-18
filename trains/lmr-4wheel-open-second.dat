@@ -23,6 +23,7 @@ axles=2
 cost=75000
 upgrade_price=15000
 runningcost=7
+fixed_cost=31
 
 comfort[0]=0
 comfort[1]=0

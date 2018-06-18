@@ -28,7 +28,8 @@ axle_load=14
 #axles=3
 cost=9550000
 # These were uneconomical: Ahrons, p. 174
-runningcost=955
+runningcost=332
+fixed_cost=27979
 sound=lwalker-br-4mt-tank.wav
 
 bidirectional=1

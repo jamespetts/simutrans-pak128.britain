@@ -32,8 +32,8 @@ weight=12.5
 # http://www.steamlocomotive.com/locobase.php?country=Great_Britain&wheel=2-2-2&railroad=lm
 axle_load=5
 cost=7400500
-runningcost=16
-fixed_cost=1320
+runningcost=91
+fixed_cost=27084
 sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=LMR-Patentee-Tender
