@@ -1758,7 +1758,7 @@ weight=18
 axles=4
 cost=350000
 runningcost=0
-fixed_cost=417
+fixed_cost=5205
 
 upgrade[0]=LNWR-42ft-non-cor-full-brake
 

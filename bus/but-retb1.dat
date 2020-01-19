@@ -27,6 +27,9 @@ comfort=49
 min_loading_time=4
 max_loading_time=125
 
+Constraint[Prev][0]=none
+Constraint[Next][0]=none
+
 liverytype[0]=Glasgow-Corporation-revised-2
 
 EmptyImage[E][0]=./images/but-retb1-glasgow_E.0.0,-33,14

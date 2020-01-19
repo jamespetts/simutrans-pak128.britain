@@ -1,0 +1,75 @@
+# https://en.wikipedia.org/wiki/GWR_157_Class_(Dean)
+# See also Ahrons p. 210
+obj=vehicle
+name=gwr-157
+engine_type=steam
+smoke=Steam
+speed=135
+# Extrapolated
+power=243
+# Calculated from data given at Ahrons p. 266 with a loss factor of 0.79
+tractive_effort=46
+copyright=James/JamesPetts
+intro_year=1878
+intro_month=11
+# Only built until 1879, but no replacements until later
+retire_year=1889
+retire_month=3
+waytype=track
+freight=None
+payload=0
+length=4
+brake_force=19
+
+# Ahrons p. 210: 36 tons 3 cwt
+weight=36.7
+# Ahrons p. 210: 16 tons 10 cwt
+axle_load=17
+cost=15941310
+runningcost=270
+fixed_cost=39387
+sound=nick-parry-gwr-city-class.wav
+
+Constraint[Next][0]=gwr-armstrong-tender
+
+liverytype[0]=GWR-dark-green
+liverytype[1]=GWR-standard-green
+liverytype[2]=GWR-overall-brown
+liverytype[3]=WW1-Austerity
+
+EmptyImage[E][0]=./locomotives/gwr-157-dark-green_E.0.0
+EmptyImage[SE][0]=./locomotives/gwr-157-dark-green_SE.0.0
+EmptyImage[S][0]=./locomotives/gwr-157-dark-green_S.0.0
+EmptyImage[SW][0]=./locomotives/gwr-157-dark-green_SW.0.0
+EmptyImage[W][0]=./locomotives/gwr-157-dark-green_W.0.0
+EmptyImage[NW][0]=./locomotives/gwr-157-dark-green_NW.0.0
+EmptyImage[N][0]=./locomotives/gwr-157-dark-green_N.0.0
+EmptyImage[NE][0]=./locomotives/gwr-157-dark-green_NE.0.0
+
+EmptyImage[E][1]=./locomotives/gwr-157_E.0.0
+EmptyImage[SE][1]=./locomotives/gwr-157_SE.0.0
+EmptyImage[S][1]=./locomotives/gwr-157_S.0.0
+EmptyImage[SW][1]=./locomotives/gwr-157_SW.0.0
+EmptyImage[W][1]=./locomotives/gwr-157_W.0.0
+EmptyImage[NW][1]=./locomotives/gwr-157_NW.0.0
+EmptyImage[N][1]=./locomotives/gwr-157_N.0.0
+EmptyImage[NE][1]=./locomotives/gwr-157_NE.0.0
+
+EmptyImage[E][2]=./locomotives/gwr-157-churchward_E.0.0
+EmptyImage[SE][2]=./locomotives/gwr-157-churchward_SE.0.0
+EmptyImage[S][2]=./locomotives/gwr-157-churchward_S.0.0
+EmptyImage[SW][2]=./locomotives/gwr-157-churchward_SW.0.0
+EmptyImage[W][2]=./locomotives/gwr-157-churchward_W.0.0
+EmptyImage[NW][2]=./locomotives/gwr-157-churchward_NW.0.0
+EmptyImage[N][2]=./locomotives/gwr-157-churchward_N.0.0
+EmptyImage[NE][2]=./locomotives/gwr-157-churchward_NE.0.0
+
+EmptyImage[E][3]=./locomotives/gwr-157-ww1-austerity_E.0.0
+EmptyImage[SE][3]=./locomotives/gwr-157-ww1-austerity_SE.0.0
+EmptyImage[S][3]=./locomotives/gwr-157-ww1-austerity_S.0.0
+EmptyImage[SW][3]=./locomotives/gwr-157-ww1-austerity_SW.0.0
+EmptyImage[W][3]=./locomotives/gwr-157-ww1-austerity_W.0.0
+EmptyImage[NW][3]=./locomotives/gwr-157-ww1-austerity_NW.0.0
+EmptyImage[N][3]=./locomotives/gwr-157-ww1-austerity_N.0.0
+EmptyImage[NE][3]=./locomotives/gwr-157-ww1-austerity_NE.0.0
+

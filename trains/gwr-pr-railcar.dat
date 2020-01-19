@@ -13,7 +13,8 @@ retire_year=1937
 retire_month=4
 waytype=track
 freight=Passagiere
-payload=69
+payload[0]=0
+payload[1]=69
 overcrowded_capacity=41
 length=12
 
@@ -30,19 +31,40 @@ bidirectional=1
 min_loading_time=20
 max_loading_time=90
 #http://www.greatwestern.org.uk/aec1.htm
-comfort=82
+comfort[0]=0
+comfort[1]=82
 air_resistance=108
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
 
+liverytype[0]=GWR-shirtbutton
+liverytype[1]=GWR-hawksworth
+liverytype[2]=BR-Early
 
-EmptyImage[E]=./railcars/gwr-railcars.0.0
-EmptyImage[SE]=./railcars/gwr-railcars.0.1
-EmptyImage[S]=./railcars/gwr-railcars.0.2
-EmptyImage[SW]=./railcars/gwr-railcars.0.3
-EmptyImage[W]=./railcars/gwr-railcars.0.4
-EmptyImage[NW]=./railcars/gwr-railcars.0.5
-EmptyImage[N]=./railcars/gwr-railcars.0.6
-EmptyImage[NE]=./railcars/gwr-railcars.0.7
+EmptyImage[E][0]=./railcars/gwr-pr-railcar_E.0.0
+EmptyImage[SE][0]=./railcars/gwr-pr-railcar_SE.0.0
+EmptyImage[S][0]=./railcars/gwr-pr-railcar_S.0.0
+EmptyImage[SW][0]=./railcars/gwr-pr-railcar_SW.0.0
+EmptyImage[W][0]=./railcars/gwr-pr-railcar_W.0.0
+EmptyImage[NW][0]=./railcars/gwr-pr-railcar_NW.0.0
+EmptyImage[N][0]=./railcars/gwr-pr-railcar_N.0.0
+EmptyImage[NE][0]=./railcars/gwr-pr-railcar_NE.0.0
 
+EmptyImage[E][1]=./railcars/gwr-pr-railcar-hawksworth_E.0.0
+EmptyImage[SE][1]=./railcars/gwr-pr-railcar-hawksworth_SE.0.0
+EmptyImage[S][1]=./railcars/gwr-pr-railcar-hawksworth_S.0.0
+EmptyImage[SW][1]=./railcars/gwr-pr-railcar-hawksworth_SW.0.0
+EmptyImage[W][1]=./railcars/gwr-pr-railcar-hawksworth_W.0.0
+EmptyImage[NW][1]=./railcars/gwr-pr-railcar-hawksworth_NW.0.0
+EmptyImage[N][1]=./railcars/gwr-pr-railcar-hawksworth_N.0.0
+EmptyImage[NE][1]=./railcars/gwr-pr-railcar-hawksworth_NE.0.0
+
+EmptyImage[E][2]=./railcars/gwr-pr-railcar-br_E.0.0
+EmptyImage[SE][2]=./railcars/gwr-pr-railcar-br_SE.0.0
+EmptyImage[S][2]=./railcars/gwr-pr-railcar-br_S.0.0
+EmptyImage[SW][2]=./railcars/gwr-pr-railcar-br_SW.0.0
+EmptyImage[W][2]=./railcars/gwr-pr-railcar-br_W.0.0
+EmptyImage[NW][2]=./railcars/gwr-pr-railcar-br_NW.0.0
+EmptyImage[N][2]=./railcars/gwr-pr-railcar-br_N.0.0
+EmptyImage[NE][2]=./railcars/gwr-pr-railcar-br_NE.0.0

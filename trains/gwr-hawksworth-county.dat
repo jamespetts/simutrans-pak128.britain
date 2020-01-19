@@ -14,7 +14,7 @@ retire_month=9
 waytype=track
 freight=None
 payload=0
-length=6
+length=7
 
 weight=78
 # http://en.wikipedia.org/wiki/GWR_1000_Class
@@ -30,6 +30,7 @@ Constraint[Next][0]=GWR-Hawksworth-County-Tender
 
 liverytype[0]=GWR-hawksworth
 liverytype[1]=BR-Early
+liverytype[2]=BR-Revised
 
 EmptyImage[E][0]=./locomotives/gwr-county_E.0.0
 EmptyImage[SE][0]=./locomotives/gwr-county_SE.0.0
@@ -49,6 +50,14 @@ EmptyImage[NW][1]=./locomotives/gwr-county-br_NW.0.0
 EmptyImage[N][1]=./locomotives/gwr-county-br_N.0.0
 EmptyImage[NE][1]=./locomotives/gwr-county-br_NE.0.0
 
+EmptyImage[E][2]=./locomotives/gwr-county-br-revised_E.0.0
+EmptyImage[SE][2]=./locomotives/gwr-county-br-revised_SE.0.0
+EmptyImage[S][2]=./locomotives/gwr-county-br-revised_S.0.0
+EmptyImage[SW][2]=./locomotives/gwr-county-br-revised_SW.0.0
+EmptyImage[W][2]=./locomotives/gwr-county-br-revised_W.0.0
+EmptyImage[NW][2]=./locomotives/gwr-county-br-revised_NW.0.0
+EmptyImage[N][2]=./locomotives/gwr-county-br-revised_N.0.0
+EmptyImage[NE][2]=./locomotives/gwr-county-br-revised_NE.0.0
 
 ----
 
@@ -79,6 +88,7 @@ Constraint[Prev][0]=GWR-Hawksworth-County
 
 liverytype[0]=GWR-hawksworth
 liverytype[1]=BR-Early
+liverytype[2]=BR-Revised
 
 EmptyImage[E][0]=./locomotives/gwr-hawksworth-tender_E.0.0
 EmptyImage[SE][0]=./locomotives/gwr-hawksworth-tender_SE.0.0
@@ -97,3 +107,12 @@ EmptyImage[W][1]=./locomotives/gwr-hawksworth-tender-br_W.0.0
 EmptyImage[NW][1]=./locomotives/gwr-hawksworth-tender-br_NW.0.0
 EmptyImage[N][1]=./locomotives/gwr-hawksworth-tender-br_N.0.0
 EmptyImage[NE][1]=./locomotives/gwr-hawksworth-tender-br_NE.0.0
+
+EmptyImage[E][2]=./locomotives/gwr-hawksworth-tender-br-revised_E.0.0
+EmptyImage[SE][2]=./locomotives/gwr-hawksworth-tender-br-revised_SE.0.0
+EmptyImage[S][2]=./locomotives/gwr-hawksworth-tender-br-revised_S.0.0
+EmptyImage[SW][2]=./locomotives/gwr-hawksworth-tender-br-revised_SW.0.0
+EmptyImage[W][2]=./locomotives/gwr-hawksworth-tender-br-revised_W.0.0
+EmptyImage[NW][2]=./locomotives/gwr-hawksworth-tender-br-revised_NW.0.0
+EmptyImage[N][2]=./locomotives/gwr-hawksworth-tender-br-revised_N.0.0
+EmptyImage[NE][2]=./locomotives/gwr-hawksworth-tender-br-revised_NE.0.0

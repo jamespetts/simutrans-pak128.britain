@@ -33,6 +33,9 @@ comfort=51
 min_loading_time=3
 max_loading_time=140
 
+Constraint[Prev][0]=none
+Constraint[Next][0]=none
+
 liverytype[0]=LT
 liverytype[1]=Glasgow-Corporation-standard
 liverytype[2]=Glasgow-Corporation-revised-1

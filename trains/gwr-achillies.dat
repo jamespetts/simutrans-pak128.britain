@@ -1,0 +1,62 @@
+# http://www.greatwestern.org.uk/m_in_3001.htm
+obj=vehicle
+name=gwr-achillies
+engine_type=steam
+smoke=Steam
+speed=146
+# Extrapolated
+power=240
+# http://www.greatwestern.org.uk/m_in_3001.htm
+tractive_effort=54
+copyright=James/JamesPetts
+intro_year=1894
+intro_month=3
+retire_year=1899
+retire_month=3
+waytype=track
+freight=None
+payload=0
+length=5
+
+# http://www.greatwestern.org.uk/m_in_3001.htm
+# 49 tons, 7cwt
+weight=50.2
+# http://50orion.math.iastate.edu/jdhsmith/term/slgbgw.htm
+axle_load=18
+cost=5475750
+runningcost=180
+fixed_cost=29760
+sound=nick-parry-gwr-city-class.wav
+
+Constraint[Next][0]=GWR-dean-tender
+
+liverytype[0]=GWR-standard-green
+liverytype[1]=GWR-overall-brown
+liverytype[2]=WW1-Austerity
+
+EmptyImage[E][0]=./locomotives/gwr-achillies_E.0.0
+EmptyImage[SE][0]=./locomotives/gwr-achillies_SE.0.0
+EmptyImage[S][0]=./locomotives/gwr-achillies_S.0.0
+EmptyImage[SW][0]=./locomotives/gwr-achillies_SW.0.0
+EmptyImage[W][0]=./locomotives/gwr-achillies_W.0.0
+EmptyImage[NW][0]=./locomotives/gwr-achillies_NW.0.0
+EmptyImage[N][0]=./locomotives/gwr-achillies_N.0.0
+EmptyImage[NE][0]=./locomotives/gwr-achillies_NE.0.0
+
+EmptyImage[E][1]=./locomotives/gwr-achillies-churchward_E.0.0
+EmptyImage[SE][1]=./locomotives/gwr-achillies-churchward_SE.0.0
+EmptyImage[S][1]=./locomotives/gwr-achillies-churchward_S.0.0
+EmptyImage[SW][1]=./locomotives/gwr-achillies-churchward_SW.0.0
+EmptyImage[W][1]=./locomotives/gwr-achillies-churchward_W.0.0
+EmptyImage[NW][1]=./locomotives/gwr-achillies-churchward_NW.0.0
+EmptyImage[N][1]=./locomotives/gwr-achillies-churchward_N.0.0
+EmptyImage[NE][1]=./locomotives/gwr-achillies-churchward_NE.0.0
+
+EmptyImage[E][2]=./locomotives/gwr-achillies-ww1-austerity_E.0.0
+EmptyImage[SE][2]=./locomotives/gwr-achillies-ww1-austerity_SE.0.0
+EmptyImage[S][2]=./locomotives/gwr-achillies-ww1-austerity_S.0.0
+EmptyImage[SW][2]=./locomotives/gwr-achillies-ww1-austerity_SW.0.0
+EmptyImage[W][2]=./locomotives/gwr-achillies-ww1-austerity_W.0.0
+EmptyImage[NW][2]=./locomotives/gwr-achillies-ww1-austerity_NW.0.0
+EmptyImage[N][2]=./locomotives/gwr-achillies-ww1-austerity_N.0.0
+EmptyImage[NE][2]=./locomotives/gwr-achillies-ww1-austerity_NE.0.0

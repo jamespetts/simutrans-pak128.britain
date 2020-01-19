@@ -82,20 +82,21 @@ Constraint[Prev][0]=LBSCR-C1
 liverytype[0]=LBSCR-Stroudley
 liverytype[1]=LBSCR-Marsh
 
-EmptyImage[E][0]=./locomotives/lbscr-c-tender-goods-green.1.4
-EmptyImage[SE][0]=./locomotives/lbscr-c-tender-goods-green.1.5
-EmptyImage[S][0]=./locomotives/lbscr-c-tender-goods-green.1.6
-EmptyImage[SW][0]=./locomotives/lbscr-c-tender-goods-green.1.7
-EmptyImage[W][0]=./locomotives/lbscr-c-tender-goods-green.1.0
-EmptyImage[NW][0]=./locomotives/lbscr-c-tender-goods-green.1.1
-EmptyImage[N][0]=./locomotives/lbscr-c-tender-goods-green.1.2
-EmptyImage[NE][0]=./locomotives/lbscr-c-tender-goods-green.1.3
+EmptyImage[E][0]=./locomotives/lbscr-c-tender-goods-green_E.0.0
+EmptyImage[SE][0]=./locomotives/lbscr-c-tender-goods-green_SE.0.0
+EmptyImage[S][0]=./locomotives/lbscr-c-tender-goods-green_S.0.0
+EmptyImage[SW][0]=./locomotives/lbscr-c-tender-goods-green_SW.0.0
+EmptyImage[W][0]=./locomotives/lbscr-c-tender-goods-green_W.0.0
+EmptyImage[NW][0]=./locomotives/lbscr-c-tender-goods-green_NW.0.0
+EmptyImage[N][0]=./locomotives/lbscr-c-tender-goods-green_N.0.0
+EmptyImage[NE][0]=./locomotives/lbscr-c-tender-goods-green_NE.0.0
 
-EmptyImage[E][1]=./locomotives/lbscr-c-tender-goods-black.1.4
-EmptyImage[SE][1]=./locomotives/lbscr-c-tender-goods-black.1.5
-EmptyImage[S][1]=./locomotives/lbscr-c-tender-goods-black.1.6
-EmptyImage[SW][1]=./locomotives/lbscr-c-tender-goods-black.1.7
-EmptyImage[W][1]=./locomotives/lbscr-c-tender-goods-black.1.0
-EmptyImage[NW][1]=./locomotives/lbscr-c-tender-goods-black.1.1
-EmptyImage[N][1]=./locomotives/lbscr-c-tender-goods-black.1.2
-EmptyImage[NE][1]=./locomotives/lbscr-c-tender-goods-black.1.3
+EmptyImage[E][1]=./locomotives/lbscr-c-tender-goods-black_E.0.0
+EmptyImage[SE][1]=./locomotives/lbscr-c-tender-goods-black_SE.0.0
+EmptyImage[S][1]=./locomotives/lbscr-c-tender-goods-black_S.0.0
+EmptyImage[SW][1]=./locomotives/lbscr-c-tender-goods-black_SW.0.0
+EmptyImage[W][1]=./locomotives/lbscr-c-tender-goods-black_W.0.0
+EmptyImage[NW][1]=./locomotives/lbscr-c-tender-goods-black_NW.0.0
+EmptyImage[N][1]=./locomotives/lbscr-c-tender-goods-black_N.0.0
+EmptyImage[NE][1]=./locomotives/lbscr-c-tender-goods-black_NE.0.0
+

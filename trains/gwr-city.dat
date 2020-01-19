@@ -1,4 +1,4 @@
-# Non-superheated version.
+# http://www.gwr.org.uk/no440s.html
 obj=vehicle
 name=GWR-City
 engine_type=steam
@@ -23,6 +23,8 @@ freight=None
 payload=0
 length=5
 
+upgrade[0]=gwr-city-superheated
+
 # http://en.wikipedia.org/wiki/GWR_3700_Class
 weight=56
 axle_load=17
@@ -33,14 +35,98 @@ sound=nick-parry-gwr-city-class.wav
 increase_maintenance_after_years=36
 years_before_maintenance_max_reached=20
 
-Constraint[Next][0]=GWR-Bulldog-Tender
+Constraint[Next][0]=GWR-dean-tender
 
-EmptyImage[E]=./locomotives/gwr-city_E.0.0
-EmptyImage[SE]=./locomotives/gwr-city_SE.0.0
-EmptyImage[S]=./locomotives/gwr-city_S.0.0
-EmptyImage[SW]=./locomotives/gwr-city_SW.0.0
-EmptyImage[W]=./locomotives/gwr-city_W.0.0
-EmptyImage[NW]=./locomotives/gwr-city_NW.0.0
-EmptyImage[N]=./locomotives/gwr-city_N.0.0
-EmptyImage[NE]=./locomotives/gwr-city_NE.0.0
+# NOTE: The 3d model for this locomotive is part of the gwr-bulldog.blend
+# file, which is intended to make up many different GWR outside frame
+# 4-4-0 classes. The correct configuration for this locomotive (in each
+# livery) is as follows:
+#
+# Layer 1 (common parts)
+# Layer 5 (6ft 8 1/2 in. wheels)
+# Layer 6 (wide cab)
+# Layer 7 (straight frames)
+# Layer 10 (standard no. 4 boiler)
+#
+# The gwr-city.blend file is deprecated.
+#
+# NB: The layer numbers in Blender are confusing. The numbers given above
+# are the numbers that can be selected using the number keys. However, in 
+# some contexts, such as in scripting, the numbers are reported as -1 the
+# above numbers, so that the lowest layer number is 0, not 1. The above 
+# numbers assume that the lowest numbered layer is 1.
+
+liverytype[0]=GWR-standard-green
+liverytype[1]=GWR-overall-brown
+liverytype[2]=WW1-Austerity
+liverytype[3]=GWR-chocolate-cream-lined
+liverytype[4]=GWR-shirtbutton
+liverytype[5]=WW2-Austerity
+liverytype[6]=BR-Early
+
+EmptyImage[E][0]=./locomotives/gwr-city_E.0.0
+EmptyImage[SE][0]=./locomotives/gwr-city_SE.0.0
+EmptyImage[S][0]=./locomotives/gwr-city_S.0.0
+EmptyImage[SW][0]=./locomotives/gwr-city_SW.0.0
+EmptyImage[W][0]=./locomotives/gwr-city_W.0.0
+EmptyImage[NW][0]=./locomotives/gwr-city_NW.0.0
+EmptyImage[N][0]=./locomotives/gwr-city_N.0.0
+EmptyImage[NE][0]=./locomotives/gwr-city_NE.0.0
+
+EmptyImage[E][1]=./locomotives/gwr-city-churchward_E.0.0
+EmptyImage[SE][1]=./locomotives/gwr-city-churchward_SE.0.0
+EmptyImage[S][1]=./locomotives/gwr-city-churchward_S.0.0
+EmptyImage[SW][1]=./locomotives/gwr-city-churchward_SW.0.0
+EmptyImage[W][1]=./locomotives/gwr-city-churchward_W.0.0
+EmptyImage[NW][1]=./locomotives/gwr-city-churchward_NW.0.0
+EmptyImage[N][1]=./locomotives/gwr-city-churchward_N.0.0
+EmptyImage[NE][1]=./locomotives/gwr-city-churchward_NE.0.0
+
+EmptyImage[E][2]=./locomotives/gwr-city-ww1-austerity_E.0.0
+EmptyImage[SE][2]=./locomotives/gwr-city-ww1-austerity_SE.0.0
+EmptyImage[S][2]=./locomotives/gwr-city-ww1-austerity_S.0.0
+EmptyImage[SW][2]=./locomotives/gwr-city-ww1-austerity_SW.0.0
+EmptyImage[W][2]=./locomotives/gwr-city-ww1-austerity_W.0.0
+EmptyImage[NW][2]=./locomotives/gwr-city-ww1-austerity_NW.0.0
+EmptyImage[N][2]=./locomotives/gwr-city-ww1-austerity_N.0.0
+EmptyImage[NE][2]=./locomotives/gwr-city-ww1-austerity_NE.0.0
+
+EmptyImage[E][3]=./locomotives/gwr-city-collett_E.0.0
+EmptyImage[SE][3]=./locomotives/gwr-city-collett_SE.0.0
+EmptyImage[S][3]=./locomotives/gwr-city-collett_S.0.0
+EmptyImage[SW][3]=./locomotives/gwr-city-collett_SW.0.0
+EmptyImage[W][3]=./locomotives/gwr-city-collett_W.0.0
+EmptyImage[NW][3]=./locomotives/gwr-city-collett_NW.0.0
+EmptyImage[N][3]=./locomotives/gwr-city-collett_N.0.0
+EmptyImage[NE][3]=./locomotives/gwr-city-collett_NE.0.0
+
+EmptyImage[E][4]=./locomotives/gwr-city-collett-unlined_E.0.0
+EmptyImage[SE][4]=./locomotives/gwr-city-collett-unlined_SE.0.0
+EmptyImage[S][4]=./locomotives/gwr-city-collett-unlined_S.0.0
+EmptyImage[SW][4]=./locomotives/gwr-city-collett-unlined_SW.0.0
+EmptyImage[W][4]=./locomotives/gwr-city-collett-unlined_W.0.0
+EmptyImage[NW][4]=./locomotives/gwr-city-collett-unlined_NW.0.0
+EmptyImage[N][4]=./locomotives/gwr-city-collett-unlined_N.0.0
+EmptyImage[NE][4]=./locomotives/gwr-city-collett-unlined_NE.0.0
+
+EmptyImage[E][5]=./locomotives/gwr-city-black_E.0.0
+EmptyImage[SE][5]=./locomotives/gwr-city-black_SE.0.0
+EmptyImage[S][5]=./locomotives/gwr-city-black_S.0.0
+EmptyImage[SW][5]=./locomotives/gwr-city-black_SW.0.0
+EmptyImage[W][5]=./locomotives/gwr-city-black_W.0.0
+EmptyImage[NW][5]=./locomotives/gwr-city-black_NW.0.0
+EmptyImage[N][5]=./locomotives/gwr-city-black_N.0.0
+EmptyImage[NE][5]=./locomotives/gwr-city-black_NE.0.0
+
+EmptyImage[E][6]=./locomotives/gwr-city-black_E.0.0
+EmptyImage[SE][6]=./locomotives/gwr-city-black_SE.0.0
+EmptyImage[S][6]=./locomotives/gwr-city-black_S.0.0
+EmptyImage[SW][6]=./locomotives/gwr-city-black_SW.0.0
+EmptyImage[W][6]=./locomotives/gwr-city-black_W.0.0
+EmptyImage[NW][6]=./locomotives/gwr-city-black_NW.0.0
+EmptyImage[N][6]=./locomotives/gwr-city-black_N.0.0
+EmptyImage[NE][6]=./locomotives/gwr-city-black_NE.0.0
+
+# 4'5" - 4'11" front; 1:1.1132
+# 5'0 - 5'6" rear; 1:1.1
 

@@ -20,9 +20,6 @@
 # 80 tiles = 10km at 125m/tile
 minimum_city_distance = 80
 
-# at which number of inhabitants we need a new market?
-industry_increase_every = 7500
-
 # chance for renovation versus new building (bigger number => less sprawling)
 # Note: the rougher the desired landscape, the lower that this number should be.
 #

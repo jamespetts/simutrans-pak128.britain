@@ -8,7 +8,9 @@ tractive_effort=40
 copyright=Kieron
 intro_year=1959
 intro_month=1
-retire_year=1961
+# Should be 1961, but there are no replacements.
+retire_year=1996
+#retire_year=1961
 retire_month=7
 waytype=track
 freight=Post

@@ -32,6 +32,7 @@ Constraint[Next][0]=GWR-Modified-Hall-Tender
 liverytype[0]=GWR-hawksworth
 liverytype[1]=WW2-Austerity
 liverytype[2]=BR-Early
+liverytype[3]=BR-Revised
 
 EmptyImage[E][0]=./locomotives/gwr-hall-modified_E.0.0
 EmptyImage[SE][0]=./locomotives/gwr-hall-modified_SE.0.0
@@ -59,6 +60,15 @@ EmptyImage[W][2]=./locomotives/gwr-hall-modified-br_W.0.0
 EmptyImage[NW][2]=./locomotives/gwr-hall-modified-br_NW.0.0
 EmptyImage[N][2]=./locomotives/gwr-hall-modified-br_N.0.0
 EmptyImage[NE][2]=./locomotives/gwr-hall-modified-br_NE.0.0
+
+EmptyImage[E][3]=./locomotives/gwr-hall-modified-br-revised_E.0.0
+EmptyImage[SE][3]=./locomotives/gwr-hall-modified-br-revised_SE.0.0
+EmptyImage[S][3]=./locomotives/gwr-hall-modified-br-revised_S.0.0
+EmptyImage[SW][3]=./locomotives/gwr-hall-modified-br-revised_SW.0.0
+EmptyImage[W][3]=./locomotives/gwr-hall-modified-br-revised_W.0.0
+EmptyImage[NW][3]=./locomotives/gwr-hall-modified-br-revised_NW.0.0
+EmptyImage[N][3]=./locomotives/gwr-hall-modified-br-revised_N.0.0
+EmptyImage[NE][3]=./locomotives/gwr-hall-modified-br-revised_NE.0.0
 
 
 ----
@@ -91,6 +101,7 @@ Constraint[Prev][0]=GWR-Modified-Hall
 liverytype[0]=GWR-hawksworth
 liverytype[1]=WW2-Austerity
 liverytype[2]=BR-Early
+liverytype[3]=BR-Revised
 
 EmptyImage[E][0]=./locomotives/gwr-hawksworth-tender_E.0.0
 EmptyImage[SE][0]=./locomotives/gwr-hawksworth-tender_SE.0.0
@@ -117,3 +128,12 @@ EmptyImage[W][2]=./locomotives/gwr-hawksworth-tender-br_W.0.0
 EmptyImage[NW][2]=./locomotives/gwr-hawksworth-tender-br_NW.0.0
 EmptyImage[N][2]=./locomotives/gwr-hawksworth-tender-br_N.0.0
 EmptyImage[NE][2]=./locomotives/gwr-hawksworth-tender-br_NE.0.0
+
+EmptyImage[E][3]=./locomotives/gwr-hawksworth-tender-br-revised_E.0.0
+EmptyImage[SE][3]=./locomotives/gwr-hawksworth-tender-br-revised_SE.0.0
+EmptyImage[S][3]=./locomotives/gwr-hawksworth-tender-br-revised_S.0.0
+EmptyImage[SW][3]=./locomotives/gwr-hawksworth-tender-br-revised_SW.0.0
+EmptyImage[W][3]=./locomotives/gwr-hawksworth-tender-br-revised_W.0.0
+EmptyImage[NW][3]=./locomotives/gwr-hawksworth-tender-br-revised_NW.0.0
+EmptyImage[N][3]=./locomotives/gwr-hawksworth-tender-br-revised_N.0.0
+EmptyImage[NE][3]=./locomotives/gwr-hawksworth-tender-br-revised_NE.0.0

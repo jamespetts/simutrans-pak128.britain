@@ -1,8 +1,8 @@
 obj=vehicle
-name=GWR-517Tank
+name=gwr-517
 engine_type=steam
 smoke=Steam
-speed=85
+speed=90
 # Extrapolated
 power=154
 # Data from: http://en.wikipedia.org/wiki/GWR_517_Class
@@ -10,8 +10,8 @@ tractive_effort=56
 copyright=James
 intro_year=1868
 intro_month=12
-retire_year=1885
-retire_month=9
+retire_year=1883
+retire_month=6
 waytype=track
 freight=None
 payload=0
@@ -19,69 +19,48 @@ length=5
 brake_force=12
 rolling_resistance=19
 
-weight=36
-axle_load=13
+# Guessed
+weight=34.8
+axle_load=12
 cost=6600000
+upgrade_price=1650000
 runningcost=155
 fixed_cost=29500
 sound=konakaboom-gwr-pannier.wav
-increase_maintenance_after_years=38
-years_before_maintenance_max_reached=20
 
 can_lead_from_rear=0
 bidirectional=1
 
-upgrade[0]=GWR-517Tank-AutoFitted
+upgrade[0]=gwr-517-rebuilt
+upgrade[1]=gwr-3571
 
-EmptyImage[E]=./locomotives/gwr-14xx_E.0.0
-EmptyImage[SE]=./locomotives/gwr-14xx_SE.0.0
-EmptyImage[S]=./locomotives/gwr-14xx_S.0.0
-EmptyImage[SW]=./locomotives/gwr-14xx_SW.0.0
-EmptyImage[W]=./locomotives/gwr-14xx_W.0.0
-EmptyImage[NW]=./locomotives/gwr-14xx_NW.0.0
-EmptyImage[N]=./locomotives/gwr-14xx_N.0.0
-EmptyImage[NE]=./locomotives/gwr-14xx_NE.0.0
+liverytype[0]=GWR-early
+liverytype[1]=GWR-dark-green
+liverytype[2]=GWR-standard-green
 
----
+EmptyImage[E][0]=./locomotives/gwr-517-early_E.0.0
+EmptyImage[SE][0]=./locomotives/gwr-517-early_SE.0.0
+EmptyImage[S][0]=./locomotives/gwr-517-early_S.0.0
+EmptyImage[SW][0]=./locomotives/gwr-517-early_SW.0.0
+EmptyImage[W][0]=./locomotives/gwr-517-early_W.0.0
+EmptyImage[NW][0]=./locomotives/gwr-517-early_NW.0.0
+EmptyImage[N][0]=./locomotives/gwr-517-early_N.0.0
+EmptyImage[NE][0]=./locomotives/gwr-517-early_NE.0.0
 
-obj=vehicle
-name=GWR-517Tank-AutoFitted
-engine_type=steam
-smoke=Steam
-speed=85
-# Extrapolated
-power=154
-# Data from: http://en.wikipedia.org/wiki/GWR_517_Class
-tractive_effort=56
-copyright=James
-intro_year=1905
-intro_month=2
-retire_year=1940
-retire_month=5
-waytype=track
-freight=None
-payload=0
-length=5
+EmptyImage[E][1]=./locomotives/gwr-517-dark-green_E.0.0
+EmptyImage[SE][1]=./locomotives/gwr-517-dark-green_SE.0.0
+EmptyImage[S][1]=./locomotives/gwr-517-dark-green_S.0.0
+EmptyImage[SW][1]=./locomotives/gwr-517-dark-green_SW.0.0
+EmptyImage[W][1]=./locomotives/gwr-517-dark-green_W.0.0
+EmptyImage[NW][1]=./locomotives/gwr-517-dark-green_NW.0.0
+EmptyImage[N][1]=./locomotives/gwr-517-dark-green_N.0.0
+EmptyImage[NE][1]=./locomotives/gwr-517-dark-green_NE.0.0
 
-weight=36
-axle_load=14
-cost=2200000
-upgrade_price=94000
-runningcost=58
-fixed_cost=17833
-sound=konakaboom-gwr-pannier.wav
-available_only_as_upgrade=1
-increase_maintenance_after_years=18
-years_before_maintenance_max_reached=20
-
-can_lead_from_rear=0
-bidirectional=1
-
-EmptyImage[E]=./locomotives/gwr-14xx_E.0.0
-EmptyImage[SE]=./locomotives/gwr-14xx_SE.0.0
-EmptyImage[S]=./locomotives/gwr-14xx_S.0.0
-EmptyImage[SW]=./locomotives/gwr-14xx_SW.0.0
-EmptyImage[W]=./locomotives/gwr-14xx_W.0.0
-EmptyImage[NW]=./locomotives/gwr-14xx_NW.0.0
-EmptyImage[N]=./locomotives/gwr-14xx_N.0.0
-EmptyImage[NE]=./locomotives/gwr-14xx_NE.0.0
+EmptyImage[E][2]=./locomotives/gwr-517_E.0.0
+EmptyImage[SE][2]=./locomotives/gwr-517_SE.0.0
+EmptyImage[S][2]=./locomotives/gwr-517_S.0.0
+EmptyImage[SW][2]=./locomotives/gwr-517_SW.0.0
+EmptyImage[W][2]=./locomotives/gwr-517_W.0.0
+EmptyImage[NW][2]=./locomotives/gwr-517_NW.0.0
+EmptyImage[N][2]=./locomotives/gwr-517_N.0.0
+EmptyImage[NE][2]=./locomotives/gwr-517_NE.0.0

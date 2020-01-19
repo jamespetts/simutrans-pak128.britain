@@ -1,0 +1,127 @@
+# http://www.gwr.org.uk/no440s.html
+# https://en.wikipedia.org/wiki/GWR_4100_Class
+obj=vehicle
+name=gwr-badminton-superheated
+engine_type=steam
+smoke=Steam
+speed=140
+# Extrapolated
+power=325
+# Calculated using figures from: http://orion.math.iastate.edu/jdhsmith/term/slgbgw.htm
+# Loss factor set to 0.85.
+tractive_effort=86
+copyright=James/JamesPetts
+intro_year=1911
+intro_month=4
+# Guessed
+retire_year=1928
+retire_month=8
+waytype=track
+freight=None
+payload=0
+length=5
+# The "Flower" class locomotives were built new as superheated,
+# and those are only superficially different to these, so are
+# treated here as teh same class.
+
+upgrade[0]=gwr-city-superheated
+
+# http://orion.math.iastate.edu/jdhsmith/term/slgbgw.htm
+weight=54
+axle_load=18
+cost=9273200
+upgrade_price=2003099
+runningcost=108
+fixed_cost=31695
+sound=nick-parry-gwr-city-class.wav
+
+Constraint[Next][0]=gwr-churchward-tender
+
+# NOTE: The 3d model for this locomotive is part of the gwr-bulldog.blend
+# file, which is intended to make up many different GWR outside frame
+# 4-4-0 classes. The correct configuration for this locomotive (in each
+# livery) is as follows:
+#
+# Layer 1 (common parts)
+# Layer 5 (6ft 8 1/2 in. wheels)
+# Layer 6 (wide cab)
+# Layer 8 (curved frames)
+# Layer 9 (standard no. 2 boiler)
+#
+# NB: The layer numbers in Blender are confusing. The numbers given above
+# are the numbers that can be selected using the number keys. However, in 
+# some contexts, such as in scripting, the numbers are reported as -1 the
+# above numbers, so that the lowest layer number is 0, not 1. The above 
+# numbers assume that the lowest numbered layer is 1.
+
+liverytype[0]=GWR-standard-green
+liverytype[1]=GWR-overall-brown
+liverytype[2]=WW1-Austerity
+liverytype[3]=GWR-chocolate-cream-lined
+liverytype[4]=GWR-shirtbutton
+liverytype[5]=WW2-Austerity
+liverytype[6]=BR-Early
+
+EmptyImage[E][0]=./locomotives/gwr-badminton-superheated_E.0.0
+EmptyImage[SE][0]=./locomotives/gwr-badminton-superheated_SE.0.0
+EmptyImage[S][0]=./locomotives/gwr-badminton-superheated_S.0.0
+EmptyImage[SW][0]=./locomotives/gwr-badminton-superheated_SW.0.0
+EmptyImage[W][0]=./locomotives/gwr-badminton-superheated_W.0.0
+EmptyImage[NW][0]=./locomotives/gwr-badminton-superheated_NW.0.0
+EmptyImage[N][0]=./locomotives/gwr-badminton-superheated_N.0.0
+EmptyImage[NE][0]=./locomotives/gwr-badminton-superheated_NE.0.0
+
+EmptyImage[E][1]=./locomotives/gwr-badminton-superheated-churchward_E.0.0
+EmptyImage[SE][1]=./locomotives/gwr-badminton-superheated-churchward_SE.0.0
+EmptyImage[S][1]=./locomotives/gwr-badminton-superheated-churchward_S.0.0
+EmptyImage[SW][1]=./locomotives/gwr-badminton-superheated-churchward_SW.0.0
+EmptyImage[W][1]=./locomotives/gwr-badminton-superheated-churchward_W.0.0
+EmptyImage[NW][1]=./locomotives/gwr-badminton-superheated-churchward_NW.0.0
+EmptyImage[N][1]=./locomotives/gwr-badminton-superheated-churchward_N.0.0
+EmptyImage[NE][1]=./locomotives/gwr-badminton-superheated-churchward_NE.0.0
+
+EmptyImage[E][2]=./locomotives/gwr-badminton-superheated-ww1-austerity_E.0.0
+EmptyImage[SE][2]=./locomotives/gwr-badminton-superheated-ww1-austerity_SE.0.0
+EmptyImage[S][2]=./locomotives/gwr-badminton-superheated-ww1-austerity_S.0.0
+EmptyImage[SW][2]=./locomotives/gwr-badminton-superheated-ww1-austerity_SW.0.0
+EmptyImage[W][2]=./locomotives/gwr-badminton-superheated-ww1-austerity_W.0.0
+EmptyImage[NW][2]=./locomotives/gwr-badminton-superheated-ww1-austerity_NW.0.0
+EmptyImage[N][2]=./locomotives/gwr-badminton-superheated-ww1-austerity_N.0.0
+EmptyImage[NE][2]=./locomotives/gwr-badminton-superheated-ww1-austerity_NE.0.0
+
+EmptyImage[E][3]=./locomotives/gwr-badminton-superheated-collett_E.0.0
+EmptyImage[SE][3]=./locomotives/gwr-badminton-superheated-collett_SE.0.0
+EmptyImage[S][3]=./locomotives/gwr-badminton-superheated-collett_S.0.0
+EmptyImage[SW][3]=./locomotives/gwr-badminton-superheated-collett_SW.0.0
+EmptyImage[W][3]=./locomotives/gwr-badminton-superheated-collett_W.0.0
+EmptyImage[NW][3]=./locomotives/gwr-badminton-superheated-collett_NW.0.0
+EmptyImage[N][3]=./locomotives/gwr-badminton-superheated-collett_N.0.0
+EmptyImage[NE][3]=./locomotives/gwr-badminton-superheated-collett_NE.0.0
+
+EmptyImage[E][4]=./locomotives/gwr-badminton-superheated-collett-unlined_E.0.0
+EmptyImage[SE][4]=./locomotives/gwr-badminton-superheated-collett-unlined_SE.0.0
+EmptyImage[S][4]=./locomotives/gwr-badminton-superheated-collett-unlined_S.0.0
+EmptyImage[SW][4]=./locomotives/gwr-badminton-superheated-collett-unlined_SW.0.0
+EmptyImage[W][4]=./locomotives/gwr-badminton-superheated-collett-unlined_W.0.0
+EmptyImage[NW][4]=./locomotives/gwr-badminton-superheated-collett-unlined_NW.0.0
+EmptyImage[N][4]=./locomotives/gwr-badminton-superheated-collett-unlined_N.0.0
+EmptyImage[NE][4]=./locomotives/gwr-badminton-superheated-collett-unlined_NE.0.0
+
+EmptyImage[E][5]=./locomotives/gwr-badminton-superheated-black_E.0.0
+EmptyImage[SE][5]=./locomotives/gwr-badminton-superheated-black_SE.0.0
+EmptyImage[S][5]=./locomotives/gwr-badminton-superheated-black_S.0.0
+EmptyImage[SW][5]=./locomotives/gwr-badminton-superheated-black_SW.0.0
+EmptyImage[W][5]=./locomotives/gwr-badminton-superheated-black_W.0.0
+EmptyImage[NW][5]=./locomotives/gwr-badminton-superheated-black_NW.0.0
+EmptyImage[N][5]=./locomotives/gwr-badminton-superheated-black_N.0.0
+EmptyImage[NE][5]=./locomotives/gwr-badminton-superheated-black_NE.0.0
+
+EmptyImage[E][6]=./locomotives/gwr-badminton-superheated-black_E.0.0
+EmptyImage[SE][6]=./locomotives/gwr-badminton-superheated-black_SE.0.0
+EmptyImage[S][6]=./locomotives/gwr-badminton-superheated-black_S.0.0
+EmptyImage[SW][6]=./locomotives/gwr-badminton-superheated-black_SW.0.0
+EmptyImage[W][6]=./locomotives/gwr-badminton-superheated-black_W.0.0
+EmptyImage[NW][6]=./locomotives/gwr-badminton-superheated-black_NW.0.0
+EmptyImage[N][6]=./locomotives/gwr-badminton-superheated-black_N.0.0
+EmptyImage[NE][6]=./locomotives/gwr-badminton-superheated-black_NE.0.0
+

@@ -19,7 +19,8 @@ payload=0
 length=4
 brake_force=20
 
-weight=39
+# https://en.wikipedia.org/wiki/LB%26SCR_B1_class
+weight=39.3
 # See Ahrons p. 288
 axle_load=14
 # These should be expensive to construct and run by comparison to equivalents:
