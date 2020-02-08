@@ -5754,30 +5754,82 @@ LNER-Gresley-Express-Parcel-Brake
 LNER brake/mail carriage
 LNER-Gresley-Express-TPO
 LNER travelling post office
-LNER-quad-art-a
+LNER-quad-art-a-third
 LNER quad articulated five compartment brake carriage (third class)
-LNER-quad-art-b
+LNER-quad-art-a-second
+LNER quad articulated five compartment brake carriage (second class)
+LNER-quad-art-b-third
 LNER quad articulated seven compartment carriage (third class)
+LNER-quad-art-b-second
+LNER quad articulated seven compartment carriage (second class)
 LNER-quad-art-c-third
 LNER quad articulated eight compartment carriage (third class)
 LNER-quad-art-c-com
-LNER quad articulated five compartment composite carriage (first/third class)
+LNER quad articulated seven compartment composite carriage (first/third class)
+LNER-quad-art-c-com-second
+LNER quad articulated seven compartment composite carriage (first/second class)
 LNER-quad-art-d-third
 LNER quad articulated eight compartment carriage (third class)
 LNER-quad-art-d-com
-LNER quad articulated five compartment composite carriage (first/third class)
+LNER quad articulated seven compartment composite carriage (first/third class)
+LNER-quad-art-d-com-second
+LNER quad articulated seven compartment composite carriage (first/second class)
 LNER-quad-art-e-third
 LNER quad articulated eight compartment carriage (third class)
 LNER-quad-art-e-com
-LNER quad articulated five compartment composite carriage (first/third class)
+LNER quad articulated seven compartment composite carriage (first/third class)
+LNER-quad-art-e-com-second
+LNER quad articulated seven compartment composite carriage (first/second class)
 LNER-quad-art-f-third
 LNER quad articulated eight compartment carriage carriage (third class)
 LNER-quad-art-f-com
-LNER quad articulated five compartment composite carriage (first/third class)
-LNER-quad-art-g
+LNER quad articulated seven compartment composite carriage (first/third class)
+LNER-quad-art-f-com-second
+LNER quad articulated seven compartment composite carriage (first/second class)
+LNER-quad-art-g-third
 LNER quad articulated seven compartment carriage (third class)
-LNER-quad-art-h
+LNER-quad-art-g-second
+LNER quad articulated seven compartment carriage (second class)
+LNER-quad-art-h-third
 LNER quad articulated five compartment brake carriage (third class)
+LNER-quad-art-h-second
+LNER quad articulated five compartment brake carriage (second class)
+LNER-quint-art-a
+LNER quint articulated six compartment brake carriage (third class)
+LNER-quint-art-b-1
+LNER quint articulated eight compartment carriage (third class)
+LNER-quint-art-b-2
+LNER quint articulated eight compartment carriage (third class)
+LNER-quint-art-b-3
+LNER quint articulated eight compartment carriage (third class)
+LNER-quint-art-c
+LNER quint articulated seven compartment composite carriage (first/second class)
+LNER-quint-art-d
+LNER quint articulated seven compartment composite carriage (first/second class)
+LNER-quint-art-e-1
+LNER quint articulated eight compartment carriage (third class)
+LNER-quint-art-e-2
+LNER quint articulated eight compartment carriage (third class)
+LNER-quint-art-e-3
+LNER quint articulated eight compartment carriage (third class)
+LNER-quint-art-f
+LNER quint articulated six compartment brake carriage (third class) (rear)
+LNER-standard-51ft-t
+LNER Standard 51ft eight compartment carriage (third class)
+LNER-standard-51ft-s
+LNER Standard 51ft eight compartment carriage (second class)
+LNER-standard-51ft-bt4-for
+LNER Standard 51ft four compartment brake carriage (third class) (rear)
+LNER-standard-51ft-bt4-rev
+LNER Standard 51ft four compartment brake carriage (third class)
+LNER-standard-51ft-cl
+LNER Standard 51ft seven compartment composite lavatory carriage (first/third class)
+LNER-standard-51ft-f
+LNER Standard 51ft seven compartment carriage (first class)
+LNER-standard-51ft-f2
+LNER Standard 51ft seven compartment carriage (first class, armrests removed)
+LNER-standard-51ft-com
+LNER Standard 51ft seven compartment composite carriage (first/third class)
 CC-Clerestory-Mail
 GWR clerestory mail van [DEPRECATED]
 MR-Clerestory-Mail
