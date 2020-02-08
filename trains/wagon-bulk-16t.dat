@@ -11,6 +11,7 @@ retire_year=1969
 retire_month=4
 waytype=track
 freight=Kohle
+mixed_load_prohibition=1
 payload=16
 length=3
 rolling_resistance=19
@@ -27,6 +28,7 @@ min_loading_time=480
 max_loading_time=600
 bidirectional=1
 
+Constraint[Prev][0]=any
 Constraint[Next][0]=any
 
 EmptyImage[E]=./wagons/wagon-bulk-16t-empty_E.0.0

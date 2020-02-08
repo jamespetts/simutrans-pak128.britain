@@ -2504,7 +2504,7 @@ FR-Small-Birmingham-second-fitted
 FR "Small Birmingham" knifeboard carriage (second class) (continuously braked)
 FR-Small-Birmingham-first-unfitted
 FR "Small Birmingham" knifeboard carriage (first class)
-FR-Small-Birmingham-second-fitted
+FR-Small-Birmingham-first-fitted
 FR "Small Birmingham" knifeboard carriage (first class) (continuously braked)
 FR-Ashbury-unfitted
 FR two compartment carriage (third class)
@@ -3114,10 +3114,12 @@ LBSCR-20ft-composite
 LBSCR Four wheel three compartment composite carriage (first/second class)
 LBSCR-4Wheel-First
 LBSCR four wheel four compartment carriage (first class)
-LBSCR-4Wheel-First-sub
-LBSCR four wheel five compartment carriage (first class)
+LBSCR-4Wheel-composite
+LBSCR four wheel four compartment composite carriage (first/second class)
 LBSCR-4Wheel-Second
 LBSCR four wheel five compartment carriage (second class)
+LBSCR-4Wheel-Third
+LBSCR four wheel five compartment carriage (third class)
 LBSCR-4Wheel-Brake-rear
 LBSCR four wheel three compartment brake carriage (third class) (rear)
 LBSCR-4Wheel-Brake-front
@@ -3130,6 +3132,10 @@ LBSCR-4Wheel-First-fitted
 LBSCR four wheel four compartment carriage (first class) (continuously braked)
 LBSCR-4Wheel-Second-fitted
 LBSCR four wheel five compartment carriage (second class) (continuously braked)
+LBSCR-4Wheel-composite-fitted
+LBSCR four wheel four compartment composite carriage (first/second class) (continuously braked)
+LBSCR-4Wheel-Third-fitted
+LBSCR four wheel five compartment carriage (third class) (continuously braked)
 LBSCR-4Wheel-Brake-rear-fitted
 LBSCR four wheel three compartment brake carriage (third class) (rear) (continuously braked)
 LBSCR-4Wheel-Brake-front-fitted
@@ -5749,29 +5755,29 @@ LNER brake/mail carriage
 LNER-Gresley-Express-TPO
 LNER travelling post office
 LNER-quad-art-a
-LNER Quad Art Brake Third
+LNER quad articulated five compartment brake carriage (third class)
 LNER-quad-art-b
-LNER Quad Art Short Third
+LNER quad articulated seven compartment carriage (third class)
 LNER-quad-art-c-third
-LNER Quad Art Third Inner carriage (first/third class)
+LNER quad articulated eight compartment carriage (third class)
 LNER-quad-art-c-com
-LNER Quad Art Composite Inner carriage (third class)
+LNER quad articulated five compartment composite carriage (first/third class)
 LNER-quad-art-d-third
-LNER Quad Art Composite Outer carriage (first/third class)
+LNER quad articulated eight compartment carriage (third class)
 LNER-quad-art-d-com
-LNER Quad Art Third Outer carriage (third class)
+LNER quad articulated five compartment composite carriage (first/third class)
 LNER-quad-art-e-third
-LNER Quad Art Third Outer carriage (third class)
+LNER quad articulated eight compartment carriage (third class)
 LNER-quad-art-e-com
-LNER Quad Art Composite Outer carriage (first/third class)
+LNER quad articulated five compartment composite carriage (first/third class)
 LNER-quad-art-f-third
-LNER Quad Art Third Inner carriage (third class)
+LNER quad articulated eight compartment carriage carriage (third class)
 LNER-quad-art-f-com
-LNER Quad Art Composite Inner carriage (first/third class)
+LNER quad articulated five compartment composite carriage (first/third class)
 LNER-quad-art-g
-LNER Quad Art Short Third carriage
+LNER quad articulated seven compartment carriage (third class)
 LNER-quad-art-h
-LNER Quad Art Brake Third carriage
+LNER quad articulated five compartment brake carriage (third class)
 CC-Clerestory-Mail
 GWR clerestory mail van [DEPRECATED]
 MR-Clerestory-Mail

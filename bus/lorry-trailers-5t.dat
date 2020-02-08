@@ -3,6 +3,7 @@ name=lorry-trailer-5t-bulk
 copyright=jamespetts
 waytype=road
 freight=Kohle
+mixed_load_prohibition=1
 payload=5
 speed=12
 weight=0.9

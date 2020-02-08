@@ -1,0 +1,8 @@
+--------------------
+Obj=symbol
+name=Upgradable
+copyright=Ranran
+# for vehicle which has upgrade target
+Image[0]=> ex-gui-icons.1.4
+Image[1]=> ex-gui-icons.1.5
+--------------------

@@ -104,6 +104,7 @@ fixed_cost=0
 increase_maintenance_after_years=16
 years_before_maintenance_max_reached=13
 
+#fixed_coupling[prev]=1
 Constraint[Prev][0]=GWR-Hall
 
 liverytype[0]=GWR-chocolate-cream-lined

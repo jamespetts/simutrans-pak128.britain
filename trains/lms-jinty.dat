@@ -63,7 +63,7 @@ engine_type=steam
 smoke=Steam
 speed=90
 # Extrapolated
-power=120
+power=208
 # http://en.wikipedia.org/wiki/LMS_Fowler_Class_3F
 tractive_effort=93
 copyright=Kieron
@@ -112,4 +112,3 @@ EmptyImage[W][1]=./locomotives/lms-3f-br_W.0.0
 EmptyImage[NW][1]=./locomotives/lms-3f-br_NW.0.0
 EmptyImage[N][1]=./locomotives/lms-3f-br_N.0.0
 EmptyImage[NE][1]=./locomotives/lms-3f-br_NE.0.0
-

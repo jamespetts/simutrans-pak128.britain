@@ -39,7 +39,8 @@ bidirectional=1
 min_loading_time=12
 max_loading_time=50
 
-Constraint[next][0]=any
+Constraint[Prev][0]=any
+Constraint[Next][0]=any
 
 EmptyImage[E]=./images/quarrymens-carriage-open-empty_E.0.0
 EmptyImage[SE]=./images/quarrymens-carriage-open-empty_SE.0.0
@@ -104,7 +105,8 @@ bidirectional=1
 min_loading_time=12
 max_loading_time=50
 
-Constraint[next][0]=any
+Constraint[Prev][0]=any
+Constraint[Next][0]=any
 
 EmptyImage[E]=./images/quarrymens-carriage-enclosed-empty_E.0.0
 EmptyImage[SE]=./images/quarrymens-carriage-enclosed-empty_SE.0.0
@@ -165,7 +167,8 @@ bidirectional=1
 min_loading_time=12
 max_loading_time=50
 
-Constraint[next][0]=any
+Constraint[Prev][0]=any
+Constraint[Next][0]=any
 
 EmptyImage[E]=./images/quarrymens-carriage-glazed_E.0.0
 EmptyImage[SE]=./images/quarrymens-carriage-glazed_SE.0.0

@@ -74,6 +74,7 @@ EmptyImage[NE][1]=./railcars/br-123-dmbs-bg_NE.0.0
 
 obj=vehicle
 name=BR-123-TCK
+engine_type=diesel
 speed=112
 power=0
 tractive_effort=0
@@ -140,6 +141,7 @@ EmptyImage[NE][1]=./carriages/br-mk1-sk-bg_NE.0.0
 
 obj=vehicle
 name=BR-123-TS
+engine_type=diesel
 speed=112
 power=0
 tractive_effort=0
@@ -205,6 +207,7 @@ EmptyImage[NE][1]=./carriages/br-mk1-sk-bg_NE.0.0
 # TSRB
 obj=vehicle
 name=BR-123-TBS
+engine_type=diesel
 speed=112
 power=0
 tractive_effort=0

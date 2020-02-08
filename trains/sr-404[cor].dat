@@ -49,6 +49,7 @@ Constraint[Prev][10]=none
 Constraint[Next][0]=SR-404[COR]Middle1
 Constraint[Next][1]=SR-404[COR]Middle-Res
 Constraint[Next][2]=SR-404[COR]Middle-Buf
+#fixed_coupling[next]=1
 
 liverytype[0]=SR-Olive-Green
 liverytype[1]=SR-Malachite-Green
@@ -373,6 +374,7 @@ comfort[3]=152
 Constraint[Prev][0]=SR-404[COR]Middle1
 Constraint[Prev][1]=SR-404[COR]Middle-Res
 Constraint[Prev][2]=SR-404[COR]Middle-Buf
+#fixed_coupling[prev]=1
 
 Constraint[Next][0]=SR-404[COR]Rear
 

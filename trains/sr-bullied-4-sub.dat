@@ -270,10 +270,12 @@ comfort[1]=70
 Constraint[Next][0]=SR-4SUB(rear)
 Constraint[Next][1]=SR-3SUB(rear)
 Constraint[Next][2]=LSWR-EMU(rear)
+#fixed_coupling[next]=1
 
 Constraint[Prev][0]=SR-4SUB(centre1)
 Constraint[Prev][1]=SR-3SUB(centre)
 Constraint[Prev][2]=LSWR-EMU(centre)
+#fixed_coupling[prev]=1
 
 liverytype[0]=SR-Malachite-Green
 liverytype[1]=BR-Early

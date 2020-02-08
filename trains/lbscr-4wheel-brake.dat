@@ -1,3 +1,10 @@
+# Stroudley Suburban Carriages
+# See http://basilicafields.wordpress.com/2010/12/19/lbscr-carriages
+
+# The fitted vehicles use the Westinghouse air brake
+# They therefore have better brake force than contemporaries,
+# but are more expensive.
+
 obj=vehicle
 name=LBSCR-4Wheel-Brake-front
 speed=145
@@ -33,6 +40,7 @@ max_loading_time=30
 can_lead_from_rear=0
 bidirectional=1
 
+Constraint[Prev][0]=any
 Constraint[Next][0]=any
 
 liverytype[0]=LBSCR-Stroudley

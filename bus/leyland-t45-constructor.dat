@@ -16,6 +16,7 @@ cost=125000
 runningcost=87
 fixed_cost=8065
 freight=Kohle
+mixed_load_prohibition=1
 payload=30
 
 Constraint[Prev][0]=none
@@ -166,6 +167,7 @@ cost=125000
 runningcost=87
 fixed_cost=8065
 freight=Oel
+mixed_load_prohibition=1
 payload=32
 
 Constraint[Prev][0]=none

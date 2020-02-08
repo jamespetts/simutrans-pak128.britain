@@ -10,6 +10,7 @@ retire_year=1903
 retire_month=8
 waytype=track
 freight=Kohle
+mixed_load_prohibition=1
 payload=8
 length=3
 brake_force=0
@@ -28,6 +29,7 @@ min_loading_time=480
 max_loading_time=600
 bidirectional=1
 
+Constraint[Prev][0]=any
 Constraint[Next][0]=any
 
 EmptyImage[E]=./wagons/wagon-bulk-8t-empty_E.0.0

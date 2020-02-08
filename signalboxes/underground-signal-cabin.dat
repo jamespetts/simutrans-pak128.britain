@@ -24,7 +24,7 @@ class_proportion_jobs[1]=0
 class_proportion_jobs[2]=100
 class_proportion_jobs[3]=0
 class_proportion_jobs[4]=0
-needs_ground=1
+needs_ground=0
 
 signal_groups=2
 radius=4000
@@ -67,7 +67,7 @@ class_proportion_jobs[1]=0
 class_proportion_jobs[2]=100
 class_proportion_jobs[3]=0
 class_proportion_jobs[4]=0
-needs_ground=1
+needs_ground=0
 
 signal_groups=5
 radius=7500

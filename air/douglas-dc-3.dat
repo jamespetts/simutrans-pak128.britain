@@ -77,7 +77,7 @@ EmptyImage[SW][2]=./images/Douglas_DC3_BOAC-speedbird.1.5
 EmptyImage[W][2]=./images/Douglas_DC3_BOAC-speedbird.1.6
 EmptyImage[NW][2]=./images/Douglas_DC3_BOAC-speedbird.1.7
 EmptyImage[N][2]=./images/Douglas_DC3_BOAC-speedbird.1.0
-EmptyImage[NE][2]=./images/Douglas_DC3_BOAC-speedbird.1.2
+EmptyImage[NE][2]=./images/Douglas_DC3_BOAC-speedbird.1.1
 
 EmptyImage[E][3]=./images/Douglas_DC3_BEA-unpainted.1.2
 EmptyImage[SE][3]=./images/Douglas_DC3_BEA-unpainted.1.3
@@ -86,7 +86,7 @@ EmptyImage[SW][3]=./images/Douglas_DC3_BEA-unpainted.1.5
 EmptyImage[W][3]=./images/Douglas_DC3_BEA-unpainted.1.6
 EmptyImage[NW][3]=./images/Douglas_DC3_BEA-unpainted.1.7
 EmptyImage[N][3]=./images/Douglas_DC3_BEA-unpainted.1.0
-EmptyImage[NE][3]=./images/Douglas_DC3_BEA-unpainted.1.7
+EmptyImage[NE][3]=./images/Douglas_DC3_BEA-unpainted.1.1
 
 EmptyImage[E][4]=./images/Douglas_DC3_BEA-red-line.0.2
 EmptyImage[SE][4]=./images/Douglas_DC3_BEA-red-line.0.3

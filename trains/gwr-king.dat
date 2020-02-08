@@ -119,6 +119,7 @@ fixed_cost=0
 increase_maintenance_after_years=25
 years_before_maintenance_max_reached=7
 
+#fixed_coupling[prev]=1
 Constraint[Prev][0]=GWR-King
 
 liverytype[0]=GWR-chocolate-cream-plain

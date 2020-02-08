@@ -81,6 +81,7 @@ EmptyImage[NE][2]=./railcars/br-210-front-nse_NE.0.0
 
 obj=vehicle
 name=BR-210-TSO
+engine_type=diesel
 speed=145
 power=0
 tractive_effort=0
@@ -159,6 +160,7 @@ EmptyImage[NE][2]=./railcars/br-210-trailer-nse_NE.0.0
 
 obj=vehicle
 name=BR-210-TCOL
+engine_type=diesel
 speed=145
 power=0
 tractive_effort=0
@@ -237,6 +239,7 @@ EmptyImage[NE][2]=./railcars/br-210-trailer-composite-nse_NE.0.0
 
 obj=vehicle
 name=BR-210-DTSOL
+engine_type=diesel
 speed=145
 power=0
 tractive_effort=0

@@ -8,6 +8,7 @@ retire_year=1966
 retire_month=3
 waytype=narrowgauge_track
 freight=Oel
+mixed_load_prohibition=1
 payload=2
 length=2
 brake_force=0
@@ -25,6 +26,7 @@ bidirectional=1
 min_loading_time=320
 max_loading_time=400
 
+Constraint[Prev][0]=any
 Constraint[Next][0]=any
 
 EmptyImage[E]=./images/ng-tanker_E.0.0

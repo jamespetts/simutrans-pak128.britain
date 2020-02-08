@@ -83,7 +83,7 @@ intro_month=3
 waytype=tram_track
 freight=Passagiere
 payload=35
-length=9
+length=7
 # http://en.wikipedia.org/wiki/CR4000
 overcrowded_capacity=69
 weight=18.2

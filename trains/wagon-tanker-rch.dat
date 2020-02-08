@@ -8,6 +8,7 @@ retire_year=1964
 retire_month=10
 waytype=track
 freight=Oel
+mixed_load_prohibition=1
 payload=26
 length=3
 brake_force=0
@@ -26,6 +27,7 @@ bidirectional=1
 min_loading_time=480
 max_loading_time=600
 
+Constraint[Prev][0]=any
 Constraint[Next][0]=any
 
 EmptyImage[E]=./wagons/wagon-tanker-rch_E.0.0

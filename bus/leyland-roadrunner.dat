@@ -3,6 +3,7 @@ name=LeylandRoadrunnerBulk
 copyright=JamesHood
 waytype=road
 freight=Kohle
+mixed_load_prohibition=1
 payload=6
 engine_type=diesel
 smoke=Diesel-light

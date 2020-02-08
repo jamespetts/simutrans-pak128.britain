@@ -99,6 +99,7 @@ years_before_maintenance_max_reached=13
 
 Constraint[Prev][0]=gwr-grange
 
+#fixed_coupling[prev]=1
 liverytype[0]=GWR-chocolate-cream-lined
 liverytype[1]=GWR-shirtbutton
 liverytype[2]=GWR-hawksworth

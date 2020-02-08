@@ -3,6 +3,7 @@ name=WagonBulk
 copyright=James
 waytype=road
 freight=Kohle
+mixed_load_prohibition=1
 payload=3
 speed=6
 weight=1

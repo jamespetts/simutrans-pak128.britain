@@ -107,6 +107,7 @@ EmptyImage[NE][4]=./railcars/br-117-dms-rr.1.3
 # http://www.railcar.co.uk/print/diagrams/851.jpg
 obj=vehicle
 name=BR-117-TCL
+engine_type=diesel
 speed=113
 power=0
 tractive_effort=0

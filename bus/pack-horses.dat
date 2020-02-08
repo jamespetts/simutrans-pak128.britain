@@ -5,6 +5,7 @@ speed=7
 power=2
 tractive_effort=2
 freight=Kohle
+mixed_load_prohibition=1
 payload=1
 copyright=James
 intro_year=1750

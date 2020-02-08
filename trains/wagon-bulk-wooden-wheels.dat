@@ -9,6 +9,7 @@ retire_year=1825
 retire_month=7
 waytype=track
 freight=Kohle
+mixed_load_prohibition=1
 payload=2
 length=2
 # These had manual brakes - at these low speeds,

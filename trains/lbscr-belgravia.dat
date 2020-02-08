@@ -79,6 +79,7 @@ fixed_cost=0
 can_lead_from_rear=0
 bidirectional=0
 
+#fixed_coupling[prev]=1
 Constraint[Prev][0]=LBSCR-Belgravia
 Constraint[Prev][1]=LBSCR-G
 Constraint[Prev][2]=LBSCR-Richmond

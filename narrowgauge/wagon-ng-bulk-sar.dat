@@ -6,6 +6,7 @@ intro_year=1966
 intro_month=3
 waytype=narrowgauge_track
 freight=Kohle
+mixed_load_prohibition=1
 payload=7
 length=5
 rolling_resistance=13

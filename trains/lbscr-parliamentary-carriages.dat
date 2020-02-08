@@ -37,6 +37,7 @@ bidirectional=1
 
 upgrade[0]=milk-van
 
+Constraint[Prev][0]=any
 Constraint[Next][0]=any
 
 EmptyImage[E]=./carriages/lbscr-4wheel-parliamentary-second_E.0.0
@@ -87,6 +88,7 @@ bidirectional=1
 
 upgrade[0]=milk-van
 
+Constraint[Prev][0]=any
 Constraint[Next][0]=any
 
 

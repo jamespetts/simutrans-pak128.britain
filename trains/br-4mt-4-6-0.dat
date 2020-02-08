@@ -71,6 +71,7 @@ fixed_cost=0
 increase_maintenance_after_years=8
 years_before_maintenance_max_reached=11
 
+#fixed_coupling[prev]=1
 Constraint[Prev][0]=BR-4MT-4-6-0
 Constraint[Prev][1]=BR-4MT-2-6-0
 Constraint[Prev][2]=BR-5MT

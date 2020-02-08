@@ -96,6 +96,7 @@ fixed_cost=0
 increase_maintenance_after_years=9
 years_before_maintenance_max_reached=18
 
+#fixed_coupling[prev]=1
 Constraint[Prev][0]=GWR-Modified-Hall
 
 liverytype[0]=GWR-hawksworth

@@ -573,6 +573,8 @@
     <None Include="narrowgauge\fr-bogie-van.dat" />
     <None Include="narrowgauge\fr-bogie.dat" />
     <None Include="narrowgauge\fr-goods-brake.dat" />
+    <None Include="narrowgauge\fr-hudson-toastrack.dat" />
+    <None Include="narrowgauge\fr-sentry-brake.dat" />
     <None Include="narrowgauge\fr-small-birmingham.dat" />
     <None Include="narrowgauge\fr-superbarn-service-coach.dat" />
     <None Include="narrowgauge\fr-superbarn.dat" />
@@ -582,9 +584,17 @@
     <None Include="narrowgauge\george-england.dat" />
     <None Include="narrowgauge\hibberd-planet.dat" />
     <None Include="narrowgauge\hunslet-alice.dat" />
+    <None Include="narrowgauge\hunslet-large-quarry.dat" />
+    <None Include="narrowgauge\hunslet-lilla.dat" />
+    <None Include="narrowgauge\hunslet-port.dat" />
+    <None Include="narrowgauge\hunslet-quarry.dat" />
+    <None Include="narrowgauge\lbr-carriages.dat" />
+    <None Include="narrowgauge\manning-wardle-2-6-2t-superheated.dat" />
+    <None Include="narrowgauge\manning-wardle-2-6-2t.dat" />
     <None Include="narrowgauge\narrowgauge-horse-clydesdale.dat" />
     <None Include="narrowgauge\narrowgauge-horse-irish-draught.dat" />
     <None Include="narrowgauge\narrowgauge-horse-shire.dat" />
+    <None Include="narrowgauge\quarrymens-carriage.dat" />
     <None Include="narrowgauge\single-fairlie-superheated.dat" />
     <None Include="narrowgauge\single-fairlie.dat" />
     <None Include="narrowgauge\single-shire.dat" />
@@ -606,6 +616,7 @@
     <None Include="narrowgauge\whr-brake.dat" />
     <None Include="narrowgauge\whr-buffet.dat" />
     <None Include="narrowgauge\whr-open.dat" />
+    <None Include="narrowgauge\whr-pullman.dat" />
     <None Include="pak1file\128\outside.dat" />
     <None Include="pedestrians\pedestrians-multiple.bak" />
     <None Include="pedestrians\pedestrians.dat" />
@@ -1041,6 +1052,7 @@
     <None Include="trains\lner-gresley-express-coach-all-doors.dat" />
     <None Include="trains\lner-gresley-express-dining.dat" />
     <None Include="trains\lner-p2.dat" />
+    <None Include="trains\lner-qaud-art.dat" />
     <None Include="trains\lner-tyneside-emu.dat" />
     <None Include="trains\lnwr-17in-coal-engine.dat" />
     <None Include="trains\lnwr-19in-express-goods.dat" />

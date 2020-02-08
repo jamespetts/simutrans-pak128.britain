@@ -29,6 +29,9 @@ runningcost=76
 fixed_cost=21583
 sound=the-mart-ban-ngg16.wav
 
+bidirectional=1
+
+has_front_cab=1
 Constraint[Next][0]=Garrett-K1-middle
 
 EmptyImage[W]=./images/garrett-k1-front_E.0.0
@@ -66,6 +69,7 @@ weight=0
 cost=0
 runningcost=0
 
+bidirectional=1
 
 Constraint[Prev][0]=Garrett-K1-front
 Constraint[Next][0]=Garrett-K1-rear
@@ -106,7 +110,10 @@ cost=0
 runningcost=0
 sound=the-mart-ban-ngg16.wav
 
+bidirectional=1
+
 Constraint[Prev][0]=Garrett-K1-middle
+has_rear_cab=1
 
 EmptyImage[W]=./images/garrett-k1-rear_E.0.0
 EmptyImage[NW]=./images/garrett-k1-rear_SE.0.0

@@ -23,6 +23,7 @@ fixed_cost=0
 increase_maintenance_after_years=6
 years_before_maintenance_max_reached=10
 
+#fixed_coupling[prev]=1
 Constraint[Prev][0]=LMS-Stanier-7P
 Constraint[Prev][1]=LMS-Stanier-7P-non-streamlined
 

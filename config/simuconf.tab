@@ -408,8 +408,7 @@ seperate_halt_capacities = 1
 
 # This setting determines the extent to which cities should be built far away from
 # other cities when the map is first generated. The higher the number, the further
-# away from each other that the cities are built. This is introduced in Simutrans-Extended
-# 9.0. It replaces Simutrans-Standard's setting of "minimum_city_distance".
+# away from each other that the cities are built.
 
 city_isolation_factor = 48
 
@@ -576,6 +575,12 @@ standard_axle_load = 8
 
 citycar_way_wear_factor = 2
 
+# If this setting should be enabled, it will be possible to see
+# information about what will happen to certain vehicle types in 
+# the future, specifically, when they will stop being produced and
+# whether they will have any upgrades.
+show_future_vehicle_information = 0
+
 ################################## Industry settings #################################
 
 # allow all possible supplier to connect to your factories?
@@ -658,6 +663,18 @@ maximum_intransit_percentage = 110
 
 minimum_staffing_percentage_consumer_industry = 66
 minimum_staffing_percentage_full_production_producer_industry = 80
+
+# This setting will connect every industry and attraction not in a town by road to the nearest town 
+# that it can reach whenever an industry or country attraction is built. The number specifies how far down
+# the rank order of nearest towns that the industry/attraction will try to connect to if it cannot
+# connect to the nearest town.
+# 
+# 0 = disabled
+# 1 = try to connect to the nearest town
+# 2 = try to connect to the nearest town, and, if unsuccessful, try to connect to the second nearest town
+# 3 = ...first, second, then third nearest town
+# ...etc.
+auto_connect_industries_and_attractions_by_road = 4
 
 ################################## Finance settings #################################
 
@@ -889,6 +906,29 @@ max_diversion_tiles = 18
 # 48 km/h = 30mph
 
 town_road_speed_limit = 48
+
+# How many private car routes to process in a step.
+# With a higher number, routing data in game will be updated
+# more frequently. With a lower number, responsiveness will
+# be improved. Turn this down if there are frequent moments
+# of unresponsiveness.
+# 
+# Default: 8
+# Setting to 0 means that all routes will be processed in
+# a step regardless of number.
+
+max_routes_to_process_in_a_step = 8
+
+# If the following setting is set to 1, private cars will assume
+# that they can reach anywhere on the map irrespective of the actual
+# road network. Private cars will not follow routes, but will drive
+# around semi-randomly at all times.
+#
+# Enabling this might improve performance on slow systems.
+# 
+# Default: 0
+
+assume_everywhere_connected_by_road = 0
 
 ################################ Vehicle settings ##############################
 
@@ -1146,7 +1186,10 @@ no_tree_climates = 130
 no_trees = 0
 
 # if set, no lakes will be created at all
-no_lakes = 0
+# Note that lakes do not work well with rivers at present:
+# rivers terminate in lakes no matter how large the river
+# nor how small the lake, and there are no outlets to the sea.
+no_lakes = 1
 
 ################################### Network settings ##############################
 

@@ -33,7 +33,8 @@ bidirectional=1
 min_loading_time=20
 max_loading_time=60
 
-Constraint[next][0]=any
+Constraint[Prev][0]=any
+Constraint[Next][0]=any
 
 EmptyImage[W]=./images/fr-superbarn-red-cream_E.0.0
 EmptyImage[NW]=./images/fr-superbarn-red-cream_SE.0.0

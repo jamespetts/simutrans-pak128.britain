@@ -18,7 +18,7 @@ cost=0
 runningcost=0
 fixed_cost=0
 
-
+#fixed_coupling[prev]=1
 Constraint[Prev][0]=MR-2631
 Constraint[Prev][1]=MR-1000
 Constraint[Prev][2]=MR-1000-superheated

@@ -273,7 +273,6 @@ Constraint[Next][4]=district-4-wheel-second-unfitted
 Constraint[Next][5]=district-4-wheel-first-unfitted
 Constraint[Next][6]=met-ashbury-1863-composite-unfitted
 Constraint[Next][7]=met-ashbury-1863-first-unfitted
-Constraint[Next][8]=none
 
 liverytype[0]=District-Standard
 liverytype[1]=LT
@@ -333,16 +332,6 @@ comfort[0]=0
 comfort[1]=39
 comfort[2]=42
 comfort[3]=58
-
-Constraint[Next][0]=met-ashbury-1863-third-unfitted
-Constraint[Next][1]=met-ashbury-1863-brake-rear-unfitted
-Constraint[Next][2]=district-4-wheel-third-unfitted
-Constraint[Next][3]=district-4-wheel-brake-rear-unfitted
-Constraint[Next][4]=district-4-wheel-second-unfitted
-Constraint[Next][5]=district-4-wheel-first-unfitted
-Constraint[Next][6]=met-ashbury-1863-composite-unfitted
-Constraint[Next][7]=met-ashbury-1863-first-unfitted
-Constraint[Next][8]=none
 
 Constraint[Prev][0]=met-ashbury-1863-third-unfitted
 Constraint[Prev][1]=met-ashbury-1863-brake-front-unfitted
@@ -728,7 +717,6 @@ Constraint[Next][15]=met-jubilee-first
 Constraint[Next][16]=met-bogie-second
 Constraint[Next][17]=met-bogie-first
 Constraint[Next][18]=met-dreadnought-first
-Constraint[Next][19]=none
 
 EmptyImage[E][0]=./images/district-4-wheel-brake-front_E.0.0
 EmptyImage[SE][0]=./images/district-4-wheel-brake-front_SE.0.0
@@ -784,27 +772,6 @@ comfort[0]=0
 comfort[1]=39
 comfort[2]=42
 comfort[3]=58
-
-Constraint[Next][0]=met-jubilee-third
-Constraint[Next][1]=met-jubilee-brake-rear
-Constraint[Next][2]=met-ashbury-1863-brake-rear-fitted
-Constraint[Next][3]=met-ashbury-1863-third-fitted
-Constraint[Next][4]=met-ashbury-1863-composite-fitted
-Constraint[Next][5]=met-ashbury-1863-first-fitted
-Constraint[Next][6]=met-bogie-third
-Constraint[Next][7]=met-bogie-brake-rear
-Constraint[Next][8]=met-dreadnought-third
-Constraint[Next][9]=met-dreadnought-brake-rear
-Constraint[Next][10]=district-4-wheel-third-fitted
-Constraint[Next][11]=district-4-wheel-brake-rear-fitted
-Constraint[Next][12]=district-4-wheel-second-fitted
-Constraint[Next][13]=district-4-wheel-first-fitted
-Constraint[Next][14]=met-jubilee-second
-Constraint[Next][15]=met-jubilee-first
-Constraint[Next][16]=met-bogie-second
-Constraint[Next][17]=met-bogie-first
-Constraint[Next][18]=met-dreadnought-first
-Constraint[Next][19]=none
 
 Constraint[Prev][0]=met-jubilee-third
 Constraint[Prev][1]=met-jubilee-brake-front

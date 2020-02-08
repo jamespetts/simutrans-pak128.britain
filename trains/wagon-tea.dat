@@ -9,6 +9,7 @@ intro_month=2
 #retire_month=7
 waytype=track
 freight=Oel
+mixed_load_prohibition=1
 payload=78
 length=10
 

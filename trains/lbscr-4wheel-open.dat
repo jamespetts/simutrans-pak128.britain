@@ -43,6 +43,7 @@ upgrade[0]=LBSCR-4wheel-open-sided
 upgrade[1]=LBSCR-4wheel-parliamentary-third
 upgrade[2]=milk-van
 
+Constraint[Prev][0]=any
 Constraint[Next][0]=any
 
 EmptyImage[E]=./carriages/lbscr-4wheel-open_E.0.0

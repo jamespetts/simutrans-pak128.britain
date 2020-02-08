@@ -40,7 +40,8 @@ bidirectional=1
 min_loading_time=25
 max_loading_time=50
 
-Constraint[next][0]=any
+Constraint[Prev][0]=any
+Constraint[Next][0]=any
 
 liverytype[0]=FR-Royal-Purple
 liverytype[1]=FR-Royal-Purple-Cream
@@ -141,7 +142,8 @@ bidirectional=1
 min_loading_time=25
 max_loading_time=50
 
-Constraint[next][0]=any
+Constraint[Prev][0]=any
+Constraint[Next][0]=any
 
 liverytype[0]=FR-Royal-Purple
 liverytype[1]=FR-Royal-Purple-Cream
@@ -244,7 +246,8 @@ bidirectional=1
 min_loading_time=25
 max_loading_time=50
 
-Constraint[next][0]=any
+Constraint[Prev][0]=any
+Constraint[Next][0]=any
 
 liverytype[0]=FR-Royal-Purple
 liverytype[1]=FR-Royal-Purple-Cream
@@ -345,7 +348,8 @@ bidirectional=1
 min_loading_time=25
 max_loading_time=50
 
-Constraint[next][0]=any
+Constraint[Prev][0]=any
+Constraint[Next][0]=any
 
 liverytype[0]=FR-Royal-Purple
 liverytype[1]=FR-Royal-Purple-Cream
@@ -448,7 +452,8 @@ bidirectional=1
 min_loading_time=25
 max_loading_time=50
 
-Constraint[next][0]=any
+Constraint[Prev][0]=any
+Constraint[Next][0]=any
 
 liverytype[0]=FR-Royal-Purple
 liverytype[1]=FR-Royal-Purple-Cream
@@ -549,7 +554,8 @@ bidirectional=1
 min_loading_time=25
 max_loading_time=50
 
-Constraint[next][0]=any
+Constraint[Prev][0]=any
+Constraint[Next][0]=any
 
 liverytype[0]=FR-Royal-Purple
 liverytype[1]=FR-Royal-Purple-Cream

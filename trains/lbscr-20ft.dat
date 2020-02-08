@@ -35,6 +35,7 @@ max_loading_time=47
 can_lead_from_rear=0
 bidirectional=1
 
+Constraint[Prev][0]=any
 Constraint[Next][0]=any
 
 liverytype[0]=LBSCR-Early
@@ -85,6 +86,7 @@ max_loading_time=47
 can_lead_from_rear=0
 bidirectional=1
 
+Constraint[Prev][0]=any
 Constraint[Next][0]=any
 
 liverytype[0]=LBSCR-Early
@@ -135,6 +137,7 @@ max_loading_time=47
 can_lead_from_rear=0
 bidirectional=1
 
+Constraint[Prev][0]=any
 Constraint[Next][0]=any
 
 liverytype[0]=LBSCR-Early
@@ -185,6 +188,7 @@ max_loading_time=47
 can_lead_from_rear=0
 bidirectional=1
 
+Constraint[Prev][0]=any
 Constraint[Next][0]=any
 
 liverytype[0]=LBSCR-Early
@@ -236,6 +240,7 @@ max_loading_time=47
 can_lead_from_rear=0
 bidirectional=1
 
+Constraint[Prev][0]=any
 Constraint[Next][0]=any
 
 liverytype[0]=LBSCR-Early
@@ -410,6 +415,7 @@ max_loading_time=120
 can_lead_from_rear=0
 bidirectional=1
 
+Constraint[Prev][0]=any
 Constraint[Next][0]=any
 
 liverytype[0]=LBSCR-Early

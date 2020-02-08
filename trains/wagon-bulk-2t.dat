@@ -9,6 +9,7 @@ retire_year=1918
 retire_month=11
 waytype=track
 freight=Kohle
+mixed_load_prohibition=1
 payload=2
 length=2
 brake_force=0

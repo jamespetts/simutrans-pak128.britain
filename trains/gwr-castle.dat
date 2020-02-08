@@ -111,6 +111,7 @@ fixed_cost=0
 increase_maintenance_after_years=8
 years_before_maintenance_max_reached=9
 
+#fixed_coupling[prev]=1
 Constraint[Prev][0]=GWR-Castle
 
 liverytype[0]=GWR-chocolate-cream-lined

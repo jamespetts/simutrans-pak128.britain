@@ -86,6 +86,7 @@ fixed_cost=0
 
 increase_maintenance_after_years=16
 
+#fixed_coupling[prev]=1
 Constraint[Prev][0]=MR-2781
 Constraint[Prev][1]=MR-1873
 Constraint[Prev][2]=MR-2736

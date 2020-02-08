@@ -117,6 +117,7 @@ runningcost=0
 fixed_cost=0
 
 
+#fixed_coupling[prev]=1
 Constraint[Prev][0]=LBSCR-C2
 Constraint[Prev][1]=LBSCR-C2x
 

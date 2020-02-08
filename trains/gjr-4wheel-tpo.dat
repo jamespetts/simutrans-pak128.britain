@@ -31,6 +31,7 @@ can_lead_from_rear=0
 bidirectional=1
 catering_level=1
 
+Constraint[Prev][0]=any
 Constraint[Next][0]=any
 
 # TODO: Liveries

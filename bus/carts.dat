@@ -3,6 +3,7 @@ name=CartBulk
 copyright=James
 waytype=road
 freight=Kohle
+mixed_load_prohibition=1
 payload=1
 speed=6
 weight=1

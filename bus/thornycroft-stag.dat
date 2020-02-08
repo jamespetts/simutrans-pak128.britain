@@ -5,6 +5,7 @@ name=ThornycroftStagBulk
 copyright=JamesPetts&JamesHood
 waytype=road
 freight=Kohle
+mixed_load_prohibition=1
 payload=12
 engine_type=petrol
 # 104hp for the petrol version
@@ -270,6 +271,7 @@ name=ThornycroftStagFluid
 copyright=JamesPetts&JamesHood
 waytype=road
 freight=Oel
+mixed_load_prohibition=1
 payload=14
 engine_type=petrol
 # 104hp for the petrol version

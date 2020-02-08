@@ -27,6 +27,9 @@ sound=konakaboom-black-five.wav
 increase_maintenance_after_years=14
 years_before_maintenance_max_reached=13
 
+bidirectional=1
+
+has_front_cab=1
 Constraint[Next][0]=LMS-Garratt-Middle
 
 EmptyImage[E]=./locomotives/lms-garratt.0.0

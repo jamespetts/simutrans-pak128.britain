@@ -69,6 +69,7 @@ fixed_cost=0
 
 upgrade[0]=LNWR-Jumbo-Tender
 
+#fixed_coupling[prev]=1
 Constraint[Prev][0]=LNWR-Precedent
 Constraint[Prev][1]=LNWR-precursor-webb
 

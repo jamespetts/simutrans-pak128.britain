@@ -22,6 +22,7 @@ fixed_cost=0
 increase_maintenance_after_years=7
 years_before_maintenance_max_reached=13
 
+#fixed_coupling[prev]=1
 Constraint[Prev][0]=BR-7MT
 Constraint[Prev][1]=BR-8P
 Constraint[Prev][2]=SR-MerchantNavyRebuilt_4-6-2

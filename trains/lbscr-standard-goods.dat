@@ -89,6 +89,7 @@ runningcost=0
 fixed_cost=0
 
 
+#fixed_coupling[prev]=1
 Constraint[Prev][0]=LBSCR-standard-goods
 Constraint[Prev][1]=LBSCR-small-goods
 Constraint[Prev][2]=LBSCR-long-boiler-mixed

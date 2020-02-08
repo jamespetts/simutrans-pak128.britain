@@ -21,6 +21,7 @@ cost=0
 runningcost=0
 fixed_cost=0
 
+#fixed_coupling[prev]=1
 Constraint[Prev][0]=LBSCR-standard-passenger
 Constraint[Prev][1]=LBSCR-victoria
 Constraint[Prev][2]=LBSCR-6ft-6-single

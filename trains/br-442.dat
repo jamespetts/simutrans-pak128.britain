@@ -133,7 +133,7 @@ weight=54
 axles=4
 cost=590000
 upgrade_price=472000
-runningcost=0
+runningcost=128
 fixed_cost=246
 
 can_lead_from_rear=0

@@ -20,7 +20,7 @@ cost=0
 runningcost=0
 fixed_cost=0
 
-
+#fixed_coupling[prev]=1
 Constraint[Prev][0]=LSWR-T9
 Constraint[Prev][1]=LSWR-S11
 Constraint[Prev][2]=LSWR-L11

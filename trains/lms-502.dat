@@ -44,6 +44,7 @@ Constraint[Prev][1]=none
 Constraint[Next][0]=LMS-502Middle
 Constraint[Next][1]=LMS-502Rear
 Constraint[Next][2]=LMS-502MiddleComposite
+#fixed_coupling[next]=1
 
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
@@ -126,10 +127,12 @@ comfort[3]=93
 Constraint[Prev][0]=LMS-502Front
 Constraint[Prev][1]=LMS-502MiddleComposite
 Constraint[Prev][2]=LMS-502Middle
+#fixed_coupling[prev]=1
 
 Constraint[Next][0]=LMS-502Rear
 Constraint[Next][1]=LMS-502MiddleComposite
 Constraint[Next][2]=LMS-502Middle
+#fixed_coupling[next]=1
 
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
@@ -212,10 +215,12 @@ comfort[3]=93
 Constraint[Prev][0]=LMS-502Front
 Constraint[Prev][1]=LMS-502MiddleComposite
 Constraint[Prev][2]=LMS-502Middle
+#fixed_coupling[prev]=1
 
 Constraint[Next][0]=LMS-502Rear
 Constraint[Next][1]=LMS-502MiddleComposite
 Constraint[Next][2]=LMS-502Middle
+#fixed_coupling[next]=1
 
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
@@ -299,6 +304,7 @@ comfort[3]=93
 Constraint[Prev][0]=LMS-502Middle
 Constraint[Prev][1]=LMS-502Front
 Constraint[Prev][2]=LMS-502MiddleComposite
+#fixed_coupling[prev]=1
 
 Constraint[Next][0]=LMS-502Front
 Constraint[Next][1]=none

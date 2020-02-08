@@ -50,6 +50,7 @@ can_lead_from_rear=0
 bidirectional=1
 increase_maintenance_after_years=45
 
+Constraint[Prev][0]=any
 Constraint[Next][0]=any
 
 liverytype[0]=LNWR-Early
@@ -215,6 +216,7 @@ can_lead_from_rear=0
 bidirectional=1
 increase_maintenance_after_years=45
 
+Constraint[Prev][0]=any
 Constraint[Next][0]=any
 
 liverytype[0]=LNWR-Early
@@ -378,6 +380,7 @@ can_lead_from_rear=0
 bidirectional=1
 increase_maintenance_after_years=45
 
+Constraint[Prev][0]=any
 Constraint[Next][0]=any
 
 liverytype[0]=LNWR-Early

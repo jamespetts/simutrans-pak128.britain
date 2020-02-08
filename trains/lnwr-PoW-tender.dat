@@ -21,6 +21,7 @@ fixed_cost=0
 increase_maintenance_after_years=16
 years_before_maintenance_max_reached=22
 
+#fixed_coupling[prev]=1
 Constraint[Prev][0]=LNWR-PrinceOfWales
 Constraint[Prev][1]=LNWR-Precursor
 Constraint[Prev][2]=LNWR-George-V

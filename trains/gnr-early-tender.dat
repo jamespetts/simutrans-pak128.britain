@@ -21,7 +21,7 @@ cost=0
 runningcost=0
 fixed_cost=0
 
-
+#fixed_coupling[prev]=1
 Constraint[Prev][0]=gnr-sturrock-coupled
 Constraint[Prev][1]=gnr-hawthorn-single
 Constraint[Prev][2]=gnr-wilson-single

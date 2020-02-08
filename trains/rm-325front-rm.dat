@@ -24,7 +24,8 @@ sound=panos-g-class-465.wav
 min_loading_time=30
 max_loading_time=240
 
-
+bidirectional=1
+has_front_cab=1
 Constraint[Prev][0]=RM-325Rear(RM)
 Constraint[Prev][1]=none
 

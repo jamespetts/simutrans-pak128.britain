@@ -81,7 +81,7 @@ cost=0
 runningcost=0
 fixed_cost=0
 
-
+#fixed_coupling[prev]=1
 Constraint[Prev][0]=LNWR-Cauliflower
 Constraint[Prev][1]=LNWR-17in-coal-engine
 

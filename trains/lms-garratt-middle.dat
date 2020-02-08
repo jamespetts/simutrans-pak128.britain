@@ -25,6 +25,8 @@ fixed_cost=0
 increase_maintenance_after_years=14
 years_before_maintenance_max_reached=13
 
+bidirectional=1
+
 Constraint[Prev][0]=LMS-Garratt-Front
 Constraint[Next][0]=LMS-Garratt-Rear
 

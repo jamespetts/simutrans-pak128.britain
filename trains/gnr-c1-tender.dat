@@ -21,6 +21,7 @@ fixed_cost=0
 increase_maintenance_after_years=28
 years_before_maintenance_max_reached=25
 
+#fixed_coupling[prev]=1
 Constraint[Prev][0]=GNR-C1
 Constraint[Prev][1]=GNR-Klondyke
 Constraint[Prev][2]=GNR-C1-superheated

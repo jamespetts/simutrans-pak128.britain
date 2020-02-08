@@ -1,4 +1,4 @@
-#http://www.marcmodels.co.uk/Picture%20Gallery%20-%20Drawings.html
+# http://www.marcmodels.co.uk/Picture%20Gallery%20-%20Drawings.html
 
 obj=vehicle
 name=LNER-quad-art-a
@@ -6,7 +6,9 @@ speed=105
 copyright=Jeremy
 intro_year=1921
 intro_month=1
-retire_year=1928
+# No replacements available, so retire this later
+#retire_year=1928
+retire_year=1938
 retire_month=6
 waytype=track
 freight=Passagiere
@@ -14,13 +16,14 @@ payload[0]=0
 payload[1]=50
 payload[2]=0
 payload[3]=0
-overcrowded_capacity=15
+overcrowded_capacity=25
 length=7
+rolling_resistance=28
 
 comfort[0]=0
-comfort[1]=80
-comfort[2]=85
-comfort[3]=95
+comfort[1]=65
+comfort[2]=67
+comfort[3]=80
 
 #total weight is 87.976t (86T 12C). We guess 20t each for the smaller coaches and 24t for the larger ones.
 weight=20
@@ -29,13 +32,12 @@ cost=700000
 runningcost=0
 fixed_cost=15054
 
-
 can_lead_from_rear=0
 bidirectional=1
 catering_level=0
 
-min_loading_time=18
-max_loading_time=64
+min_loading_time=10
+max_loading_time=30
 
 Constraint[Next][0]=LNER-quad-art-b
 
@@ -78,7 +80,9 @@ speed=105
 copyright=Jeremy
 intro_year=1921
 intro_month=1
-retire_year=1928
+# No replacements available, so retire this later
+#retire_year=1928
+retire_year=1938
 retire_month=6
 waytype=track
 freight=Passagiere
@@ -86,13 +90,14 @@ payload[0]=0
 payload[1]=70
 payload[2]=0
 payload[3]=0
-overcrowded_capacity=21
+overcrowded_capacity=35
 length=7
+rolling_resistance=28
 
 comfort[0]=0
-comfort[1]=80
-comfort[2]=85
-comfort[3]=95
+comfort[1]=65
+comfort[2]=67
+comfort[3]=80
 
 weight=20
 axles=2
@@ -100,14 +105,12 @@ cost=700000
 runningcost=0
 fixed_cost=15054
 
-
 can_lead_from_rear=0
 bidirectional=1
 catering_level=0
 
-min_loading_time=18
-max_loading_time=64
-
+min_loading_time=10
+max_loading_time=30
 
 Constraint[Prev][0]=LNER-quad-art-a
 
@@ -152,7 +155,9 @@ speed=105
 copyright=Jeremy
 intro_year=1921
 intro_month=1
-retire_year=1928
+# No replacements available, so retire this later
+#retire_year=1928
+retire_year=1938
 retire_month=6
 waytype=track
 freight=Passagiere
@@ -160,13 +165,14 @@ payload[0]=0
 payload[1]=80
 payload[3]=0
 payload[2]=0
-overcrowded_capacity=24
+overcrowded_capacity=40
 length=8
+rolling_resistance=28
 
 comfort[0]=0
-comfort[1]=80
-comfort[2]=85
-comfort[3]=95
+comfort[1]=65
+comfort[2]=67
+comfort[3]=80
 
 weight=24
 axles=2
@@ -174,14 +180,12 @@ cost=700000
 runningcost=0
 fixed_cost=15054
 
-
 can_lead_from_rear=0
 bidirectional=1
 catering_level=0
 
-min_loading_time=18
-max_loading_time=64
-
+min_loading_time=10
+max_loading_time=30
 
 Constraint[Prev][0]=LNER-quad-art-b
 
@@ -226,7 +230,9 @@ speed=105
 copyright=Jeremy
 intro_year=1921
 intro_month=1
-retire_year=1928
+# No replacements available, so retire this later
+#retire_year=1928
+retire_year=1938
 retire_month=6
 waytype=track
 freight=Passagiere
@@ -234,13 +240,14 @@ payload[0]=0
 payload[1]=30
 payload[2]=0
 payload[3]=16
-overcrowded_capacity=9
+overcrowded_capacity=15
 length=8
+rolling_resistance=28
 
 comfort[0]=0
-comfort[1]=80
-comfort[2]=85
-comfort[3]=95
+comfort[1]=65
+comfort[2]=67
+comfort[3]=80
 
 weight=24
 axles=2
@@ -248,14 +255,12 @@ cost=700000
 runningcost=0
 fixed_cost=15054
 
-
 can_lead_from_rear=0
 bidirectional=1
 catering_level=0
 
-min_loading_time=18
-max_loading_time=64
-
+min_loading_time=10
+max_loading_time=30
 
 Constraint[Prev][0]=LNER-quad-art-b
 
@@ -300,7 +305,9 @@ speed=105
 copyright=Jeremy
 intro_year=1921
 intro_month=1
-retire_year=1928
+# No replacements available, so retire this later
+#retire_year=1928
+retire_year=1938
 retire_month=6
 waytype=track
 freight=Passagiere
@@ -308,13 +315,14 @@ payload[0]=0
 payload[1]=80
 payload[3]=0
 payload[2]=0
-overcrowded_capacity=24
+overcrowded_capacity=40
 length=8
+rolling_resistance=28
 
 comfort[0]=0
-comfort[1]=80
-comfort[2]=85
-comfort[3]=95
+comfort[1]=65
+comfort[2]=67
+comfort[3]=80
 
 weight=24
 axles=3
@@ -322,13 +330,12 @@ cost=700000
 runningcost=0
 fixed_cost=15054
 
-
 can_lead_from_rear=0
 bidirectional=1
 catering_level=0
 
-min_loading_time=18
-max_loading_time=64
+min_loading_time=10
+max_loading_time=30
 
 Constraint[Prev][0]=LNER-quad-art-c-third
 
@@ -371,7 +378,9 @@ speed=105
 copyright=Jeremy
 intro_year=1921
 intro_month=1
-retire_year=1928
+# No replacements available, so retire this later
+#retire_year=1928
+retire_year=1938
 retire_month=6
 waytype=track
 freight=Passagiere
@@ -379,13 +388,14 @@ payload[0]=0
 payload[1]=30
 payload[2]=0
 payload[3]=16
-overcrowded_capacity=9
+overcrowded_capacity=15
 length=8
+rolling_resistance=28
 
 comfort[0]=0
-comfort[1]=80
-comfort[2]=85
-comfort[3]=95
+comfort[1]=65
+comfort[2]=67
+comfort[3]=80
 
 weight=24
 axles=3
@@ -393,13 +403,12 @@ cost=700000
 runningcost=0
 fixed_cost=15054
 
-
 can_lead_from_rear=0
 bidirectional=1
 catering_level=0
 
-min_loading_time=18
-max_loading_time=64
+min_loading_time=10
+max_loading_time=30
 
 Constraint[Prev][0]=LNER-quad-art-c-com
 
@@ -442,7 +451,9 @@ speed=105
 copyright=Jeremy
 intro_year=1921
 intro_month=1
-retire_year=1928
+# No replacements available, so retire this later
+#retire_year=1928
+retire_year=1938
 retire_month=6
 waytype=track
 freight=Passagiere
@@ -450,13 +461,14 @@ payload[0]=0
 payload[1]=80
 payload[3]=0
 payload[2]=0
-overcrowded_capacity=24
+overcrowded_capacity=40
 length=8
+rolling_resistance=28
 
 comfort[0]=0
-comfort[1]=80
-comfort[2]=85
-comfort[3]=95
+comfort[1]=65
+comfort[2]=67
+comfort[3]=80
 
 #total weight is 87.976t (86T 12C). We guess 20t each for the smaller coaches and 24t for the larger ones.
 weight=24
@@ -465,13 +477,12 @@ cost=700000
 runningcost=0
 fixed_cost=15054
 
-
 can_lead_from_rear=0
 bidirectional=1
 catering_level=0
 
-min_loading_time=18
-max_loading_time=64
+min_loading_time=10
+max_loading_time=30
 
 Constraint[Next][0]=LNER-quad-art-f-third
 
@@ -514,7 +525,9 @@ speed=105
 copyright=Jeremy
 intro_year=1921
 intro_month=1
-retire_year=1928
+# No replacements available, so retire this later
+#retire_year=1928
+retire_year=1938
 retire_month=6
 waytype=track
 freight=Passagiere
@@ -522,13 +535,14 @@ payload[0]=0
 payload[1]=30
 payload[2]=0
 payload[3]=16
-overcrowded_capacity=9
+overcrowded_capacity=15
 length=8
+rolling_resistance=28
 
 comfort[0]=0
-comfort[1]=80
-comfort[2]=85
-comfort[3]=95
+comfort[1]=65
+comfort[2]=67
+comfort[3]=80
 
 weight=24
 axles=3
@@ -536,13 +550,12 @@ cost=700000
 runningcost=0
 fixed_cost=15054
 
-
 can_lead_from_rear=0
 bidirectional=1
 catering_level=0
 
-min_loading_time=18
-max_loading_time=64
+min_loading_time=10
+max_loading_time=30
 
 Constraint[Next][0]=LNER-quad-art-f-com
 
@@ -585,7 +598,9 @@ speed=105
 copyright=Jeremy
 intro_year=1921
 intro_month=1
-retire_year=1928
+# No replacements available, so retire this later
+#retire_year=1928
+retire_year=1938
 retire_month=6
 waytype=track
 freight=Passagiere
@@ -593,13 +608,14 @@ payload[0]=0
 payload[1]=80
 payload[3]=0
 payload[2]=0
-overcrowded_capacity=24
+overcrowded_capacity=40
 length=8
+rolling_resistance=28
 
 comfort[0]=0
-comfort[1]=80
-comfort[2]=85
-comfort[3]=95
+comfort[1]=65
+comfort[2]=67
+comfort[3]=80
 
 weight=24
 axles=2
@@ -607,14 +623,12 @@ cost=700000
 runningcost=0
 fixed_cost=15054
 
-
 can_lead_from_rear=0
 bidirectional=1
 catering_level=0
 
-min_loading_time=18
-max_loading_time=64
-
+min_loading_time=10
+max_loading_time=30
 
 Constraint[Prev][0]=LNER-quad-art-e-third
 
@@ -659,7 +673,9 @@ speed=105
 copyright=Jeremy
 intro_year=1921
 intro_month=1
-retire_year=1928
+# No replacements available, so retire this later
+#retire_year=1928
+retire_year=1938
 retire_month=6
 waytype=track
 freight=Passagiere
@@ -667,13 +683,14 @@ payload[0]=0
 payload[1]=30
 payload[2]=0
 payload[3]=16
-overcrowded_capacity=9
+overcrowded_capacity=15
 length=8
+rolling_resistance=28
 
 comfort[0]=0
-comfort[1]=80
-comfort[2]=85
-comfort[3]=95
+comfort[1]=65
+comfort[2]=67
+comfort[3]=80
 
 #total weight is 87.976t (86T 12C). We guess 20t each for the smaller coaches and 24t for the larger ones.
 weight=24
@@ -682,14 +699,12 @@ cost=700000
 runningcost=0
 fixed_cost=15054
 
-
 can_lead_from_rear=0
 bidirectional=1
 catering_level=0
 
-min_loading_time=18
-max_loading_time=64
-
+min_loading_time=10
+max_loading_time=30
 
 Constraint[Prev][0]=LNER-quad-art-e-com
 
@@ -734,7 +749,9 @@ speed=105
 copyright=Jeremy
 intro_year=1921
 intro_month=1
-retire_year=1928
+# No replacements available, so retire this later
+#retire_year=1928
+retire_year=1938
 retire_month=6
 waytype=track
 freight=Passagiere
@@ -742,13 +759,14 @@ payload[0]=0
 payload[1]=70
 payload[2]=0
 payload[3]=0
-overcrowded_capacity=21
+overcrowded_capacity=35
 length=7
+rolling_resistance=28
 
 comfort[0]=0
-comfort[1]=80
-comfort[2]=85
-comfort[3]=95
+comfort[1]=65
+comfort[2]=67
+comfort[3]=80
 
 weight=20
 axles=2
@@ -756,14 +774,12 @@ cost=700000
 runningcost=0
 fixed_cost=15054
 
-
 can_lead_from_rear=0
 bidirectional=1
 catering_level=0
 
 min_loading_time=18
 max_loading_time=64
-
 
 Constraint[Prev][0]=LNER-quad-art-f-third
 Constraint[Prev][1]=LNER-quad-art-f-com
@@ -809,7 +825,9 @@ speed=105
 copyright=Jeremy
 intro_year=1921
 intro_month=1
-retire_year=1928
+# No replacements available, so retire this later
+#retire_year=1928
+retire_year=1938
 retire_month=6
 waytype=track
 freight=Passagiere
@@ -817,13 +835,14 @@ payload[0]=0
 payload[1]=50
 payload[2]=0
 payload[3]=0
-overcrowded_capacity=15
+overcrowded_capacity=25
 length=7
+rolling_resistance=28
 
 comfort[0]=0
-comfort[1]=80
-comfort[2]=85
-comfort[3]=95
+comfort[1]=65
+comfort[2]=67
+comfort[3]=80
 
 weight=20
 axles=3
@@ -831,14 +850,12 @@ cost=700000
 runningcost=0
 fixed_cost=15054
 
-
 can_lead_from_rear=0
 bidirectional=1
 catering_level=0
 
-min_loading_time=18
-max_loading_time=64
-
+min_loading_time=10
+max_loading_time=30
 
 Constraint[Prev][0]=LNER-quad-art-g
 
