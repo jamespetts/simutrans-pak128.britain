@@ -10,13 +10,14 @@ retire_month=10
 waytype=tram_track
 freight=Passagiere
 payload=22
-length=4
+length=6
 overcrowded_capacity=51
 weight=15.5
 brake_force=20
 axles=4
 cost=0
 runningcost=0
+fixed_cost=0
 
 
 can_lead_from_rear=0

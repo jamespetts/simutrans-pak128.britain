@@ -21,7 +21,8 @@ is_tall=1
 weight=15.5
 axles=4
 cost=416000
-runningcost=65
+runningcost=30
+fixed_cost=6347
 sound=tom-tait-tram.wav
 
 can_lead_from_rear=1

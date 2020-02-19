@@ -5,7 +5,7 @@ type=depot
 waytype=air
 Dims=1,1,4
 noconstruction=1
-NoInfo=1
+#NoInfo=1
 level=6
 # Guessed values for employment.
 population_and_visitor_demand_capacity=24

@@ -18,7 +18,8 @@ length=8
 weight=19
 axles=4
 cost=333000
-runningcost=27
+runningcost=0
+fixed_cost=396
 
 comfort[0]=0
 comfort[1]=98
@@ -71,14 +72,14 @@ Constraint[Prev][18]=gnr-non-cor-lav-elliptical-brake-front
 Constraint[Prev][19]=gnr-non-cor-full-brake
 Constraint[Prev][20]=gnr-non-cor-mail
 
-EmptyImage[E]=./images/gnr-howlden-bogie-third.1.4
-EmptyImage[SE]=./images/gnr-howlden-bogie-third.1.5
-EmptyImage[S]=./images/gnr-howlden-bogie-third.1.6
-EmptyImage[SW]=./images/gnr-howlden-bogie-third.1.7
-EmptyImage[W]=./images/gnr-howlden-bogie-third.1.0
-EmptyImage[NW]=./images/gnr-howlden-bogie-third.1.1
-EmptyImage[N]=./images/gnr-howlden-bogie-third.1.2
-EmptyImage[NE]=./images/gnr-howlden-bogie-third.1.3
+EmptyImage[E]=./carriages/gnr-howlden-bogie-third.1.4
+EmptyImage[SE]=./carriages/gnr-howlden-bogie-third.1.5
+EmptyImage[S]=./carriages/gnr-howlden-bogie-third.1.6
+EmptyImage[SW]=./carriages/gnr-howlden-bogie-third.1.7
+EmptyImage[W]=./carriages/gnr-howlden-bogie-third.1.0
+EmptyImage[NW]=./carriages/gnr-howlden-bogie-third.1.1
+EmptyImage[N]=./carriages/gnr-howlden-bogie-third.1.2
+EmptyImage[NE]=./carriages/gnr-howlden-bogie-third.1.3
 
 ---
 
@@ -101,7 +102,8 @@ length=8
 weight=19
 axles=4
 cost=333000
-runningcost=27
+runningcost=0
+fixed_cost=5196
 
 comfort[0]=0
 comfort[1]=98
@@ -133,14 +135,14 @@ Constraint[Next][19]=gnr-non-cor-full-brake
 Constraint[Next][20]=gnr-non-cor-mail
 Constraint[Next][21]=none
 
-EmptyImage[E]=./images/gnr-howlden-bogie-third-brake-front.1.4
-EmptyImage[SE]=./images/gnr-howlden-bogie-third-brake-front.1.5
-EmptyImage[S]=./images/gnr-howlden-bogie-third-brake-front.1.6
-EmptyImage[SW]=./images/gnr-howlden-bogie-third-brake-front.1.7
-EmptyImage[W]=./images/gnr-howlden-bogie-third-brake-front.1.0
-EmptyImage[NW]=./images/gnr-howlden-bogie-third-brake-front.1.1
-EmptyImage[N]=./images/gnr-howlden-bogie-third-brake-front.1.2
-EmptyImage[NE]=./images/gnr-howlden-bogie-third-brake-front.1.3
+EmptyImage[E]=./carriages/gnr-howlden-bogie-third-brake-front.1.4
+EmptyImage[SE]=./carriages/gnr-howlden-bogie-third-brake-front.1.5
+EmptyImage[S]=./carriages/gnr-howlden-bogie-third-brake-front.1.6
+EmptyImage[SW]=./carriages/gnr-howlden-bogie-third-brake-front.1.7
+EmptyImage[W]=./carriages/gnr-howlden-bogie-third-brake-front.1.0
+EmptyImage[NW]=./carriages/gnr-howlden-bogie-third-brake-front.1.1
+EmptyImage[N]=./carriages/gnr-howlden-bogie-third-brake-front.1.2
+EmptyImage[NE]=./carriages/gnr-howlden-bogie-third-brake-front.1.3
 
 ---
 
@@ -163,7 +165,8 @@ length=8
 weight=19
 axles=4
 cost=333000
-runningcost=27
+runningcost=0
+fixed_cost=5196
 
 comfort[0]=0
 comfort[1]=98
@@ -194,14 +197,14 @@ Constraint[Prev][18]=gnr-non-cor-lav-elliptical-brake-front
 Constraint[Prev][19]=gnr-non-cor-full-brake
 Constraint[Prev][20]=gnr-non-cor-mail
 
-EmptyImage[E]=./images/gnr-howlden-bogie-third-brake-rear.1.4
-EmptyImage[SE]=./images/gnr-howlden-bogie-third-brake-rear.1.5
-EmptyImage[S]=./images/gnr-howlden-bogie-third-brake-rear.1.6
-EmptyImage[SW]=./images/gnr-howlden-bogie-third-brake-rear.1.7
-EmptyImage[W]=./images/gnr-howlden-bogie-third-brake-rear.1.0
-EmptyImage[NW]=./images/gnr-howlden-bogie-third-brake-rear.1.1
-EmptyImage[N]=./images/gnr-howlden-bogie-third-brake-rear.1.2
-EmptyImage[NE]=./images/gnr-howlden-bogie-third-brake-rear.1.3
+EmptyImage[E]=./carriages/gnr-howlden-bogie-third-brake-rear.1.4
+EmptyImage[SE]=./carriages/gnr-howlden-bogie-third-brake-rear.1.5
+EmptyImage[S]=./carriages/gnr-howlden-bogie-third-brake-rear.1.6
+EmptyImage[SW]=./carriages/gnr-howlden-bogie-third-brake-rear.1.7
+EmptyImage[W]=./carriages/gnr-howlden-bogie-third-brake-rear.1.0
+EmptyImage[NW]=./carriages/gnr-howlden-bogie-third-brake-rear.1.1
+EmptyImage[N]=./carriages/gnr-howlden-bogie-third-brake-rear.1.2
+EmptyImage[NE]=./carriages/gnr-howlden-bogie-third-brake-rear.1.3
 
 ---
 
@@ -224,10 +227,11 @@ length=8
 weight=19
 axles=4
 cost=320000
-runningcost=25
+runningcost=0
+fixed_cost=381
 
 comfort[0]=0
-comfort[1]=98
+comfort[1]=73
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=20
@@ -277,14 +281,14 @@ Constraint[Prev][18]=gnr-non-cor-lav-elliptical-brake-front
 Constraint[Prev][19]=gnr-non-cor-full-brake
 Constraint[Prev][20]=gnr-non-cor-mail
 
-EmptyImage[E]=./images/gnr-howlden-bogie-non-lav.1.4
-EmptyImage[SE]=./images/gnr-howlden-bogie-non-lav.1.5
-EmptyImage[S]=./images/gnr-howlden-bogie-non-lav.1.6
-EmptyImage[SW]=./images/gnr-howlden-bogie-non-lav.1.7
-EmptyImage[W]=./images/gnr-howlden-bogie-non-lav.1.0
-EmptyImage[NW]=./images/gnr-howlden-bogie-non-lav.1.1
-EmptyImage[N]=./images/gnr-howlden-bogie-non-lav.1.2
-EmptyImage[NE]=./images/gnr-howlden-bogie-non-lav.1.3
+EmptyImage[E]=./carriages/gnr-howlden-bogie-non-lav.1.4
+EmptyImage[SE]=./carriages/gnr-howlden-bogie-non-lav.1.5
+EmptyImage[S]=./carriages/gnr-howlden-bogie-non-lav.1.6
+EmptyImage[SW]=./carriages/gnr-howlden-bogie-non-lav.1.7
+EmptyImage[W]=./carriages/gnr-howlden-bogie-non-lav.1.0
+EmptyImage[NW]=./carriages/gnr-howlden-bogie-non-lav.1.1
+EmptyImage[N]=./carriages/gnr-howlden-bogie-non-lav.1.2
+EmptyImage[NE]=./carriages/gnr-howlden-bogie-non-lav.1.3
 
 ---
 
@@ -300,17 +304,18 @@ retire_month=4
 waytype=track
 freight=Passagiere
 payload[0]=0
-payload[1]=60
-overcrowded_capacity=30
+payload[1]=50
+overcrowded_capacity=25
 length=8
 
 weight=19
 axles=4
 cost=320000
-runningcost=25
+runningcost=0
+fixed_cost=5181
 
 comfort[0]=0
-comfort[1]=98
+comfort[1]=73
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=20
@@ -339,14 +344,14 @@ Constraint[Next][19]=gnr-non-cor-full-brake
 Constraint[Next][20]=gnr-non-cor-mail
 Constraint[Next][21]=none
 
-EmptyImage[E]=./images/gnr-howlden-bogie-non-lav-brake-front.1.4
-EmptyImage[SE]=./images/gnr-howlden-bogie-non-lav-brake-front.1.5
-EmptyImage[S]=./images/gnr-howlden-bogie-non-lav-brake-front.1.6
-EmptyImage[SW]=./images/gnr-howlden-bogie-non-lav-brake-front.1.7
-EmptyImage[W]=./images/gnr-howlden-bogie-non-lav-brake-front.1.0
-EmptyImage[NW]=./images/gnr-howlden-bogie-non-lav-brake-front.1.1
-EmptyImage[N]=./images/gnr-howlden-bogie-non-lav-brake-front.1.2
-EmptyImage[NE]=./images/gnr-howlden-bogie-non-lav-brake-front.1.3
+EmptyImage[E]=./carriages/gnr-howlden-bogie-non-lav-brake-front.1.4
+EmptyImage[SE]=./carriages/gnr-howlden-bogie-non-lav-brake-front.1.5
+EmptyImage[S]=./carriages/gnr-howlden-bogie-non-lav-brake-front.1.6
+EmptyImage[SW]=./carriages/gnr-howlden-bogie-non-lav-brake-front.1.7
+EmptyImage[W]=./carriages/gnr-howlden-bogie-non-lav-brake-front.1.0
+EmptyImage[NW]=./carriages/gnr-howlden-bogie-non-lav-brake-front.1.1
+EmptyImage[N]=./carriages/gnr-howlden-bogie-non-lav-brake-front.1.2
+EmptyImage[NE]=./carriages/gnr-howlden-bogie-non-lav-brake-front.1.3
 
 ---
 
@@ -362,17 +367,18 @@ retire_month=4
 waytype=track
 freight=Passagiere
 payload[0]=0
-payload[1]=60
-overcrowded_capacity=30
+payload[1]=50
+overcrowded_capacity=25
 length=8
 
 weight=19
 axles=4
 cost=320000
-runningcost=25
+runningcost=0
+fixed_cost=5181
 
 comfort[0]=0
-comfort[1]=98
+comfort[1]=73
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=20
@@ -400,14 +406,14 @@ Constraint[Prev][18]=gnr-non-cor-lav-elliptical-brake-front
 Constraint[Prev][19]=gnr-non-cor-full-brake
 Constraint[Prev][20]=gnr-non-cor-mail
 
-EmptyImage[E]=./images/gnr-howlden-bogie-non-lav-brake-rear.1.4
-EmptyImage[SE]=./images/gnr-howlden-bogie-non-lav-brake-rear.1.5
-EmptyImage[S]=./images/gnr-howlden-bogie-non-lav-brake-rear.1.6
-EmptyImage[SW]=./images/gnr-howlden-bogie-non-lav-brake-rear.1.7
-EmptyImage[W]=./images/gnr-howlden-bogie-non-lav-brake-rear.1.0
-EmptyImage[NW]=./images/gnr-howlden-bogie-non-lav-brake-rear.1.1
-EmptyImage[N]=./images/gnr-howlden-bogie-non-lav-brake-rear.1.2
-EmptyImage[NE]=./images/gnr-howlden-bogie-non-lav-brake-rear.1.3
+EmptyImage[E]=./carriages/gnr-howlden-bogie-non-lav-brake-rear.1.4
+EmptyImage[SE]=./carriages/gnr-howlden-bogie-non-lav-brake-rear.1.5
+EmptyImage[S]=./carriages/gnr-howlden-bogie-non-lav-brake-rear.1.6
+EmptyImage[SW]=./carriages/gnr-howlden-bogie-non-lav-brake-rear.1.7
+EmptyImage[W]=./carriages/gnr-howlden-bogie-non-lav-brake-rear.1.0
+EmptyImage[NW]=./carriages/gnr-howlden-bogie-non-lav-brake-rear.1.1
+EmptyImage[N]=./carriages/gnr-howlden-bogie-non-lav-brake-rear.1.2
+EmptyImage[NE]=./carriages/gnr-howlden-bogie-non-lav-brake-rear.1.3
 
 ---
 
@@ -428,18 +434,19 @@ length=8
 weight=18.5
 axles=4
 cost=320000
-runningcost=25
+runningcost=0
+fixed_cost=381
 
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=35
 max_loading_time=120
 
-EmptyImage[E]=./images/gnr-howlden-bogie-full-brake.1.4
-EmptyImage[SE]=./images/gnr-howlden-bogie-full-brake.1.5
-EmptyImage[S]=./images/gnr-howlden-bogie-full-brake.1.6
-EmptyImage[SW]=./images/gnr-howlden-bogie-full-brake.1.7
-EmptyImage[W]=./images/gnr-howlden-bogie-full-brake.1.0
-EmptyImage[NW]=./images/gnr-howlden-bogie-full-brake.1.1
-EmptyImage[N]=./images/gnr-howlden-bogie-full-brake.1.2
-EmptyImage[NE]=./images/gnr-howlden-bogie-full-brake.1.3
+EmptyImage[E]=./carriages/gnr-howlden-bogie-full-brake.1.4
+EmptyImage[SE]=./carriages/gnr-howlden-bogie-full-brake.1.5
+EmptyImage[S]=./carriages/gnr-howlden-bogie-full-brake.1.6
+EmptyImage[SW]=./carriages/gnr-howlden-bogie-full-brake.1.7
+EmptyImage[W]=./carriages/gnr-howlden-bogie-full-brake.1.0
+EmptyImage[NW]=./carriages/gnr-howlden-bogie-full-brake.1.1
+EmptyImage[N]=./carriages/gnr-howlden-bogie-full-brake.1.2
+EmptyImage[NE]=./carriages/gnr-howlden-bogie-full-brake.1.3

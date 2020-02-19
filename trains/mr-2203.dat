@@ -24,7 +24,8 @@ length=5
 weight=44
 axle_load=15
 cost=5215000
-runningcost=750
+runningcost=172
+fixed_cost=28346
 sound=lwalker-br-4mt-tank.wav
 increase_maintenance_after_years=40
 years_before_maintenance_max_reached=40
@@ -37,11 +38,11 @@ liverytype[0]=MR-Standard
 
 # At the Simutrans scale, visually indistinguishable from the 1738 class
 
-EmptyImage[E][0]=./images/mr-1738-class.1.4
-EmptyImage[SE][0]=./images/mr-1738-class.1.5
-EmptyImage[S][0]=./images/mr-1738-class.1.6
-EmptyImage[SW][0]=./images/mr-1738-class.1.7
-EmptyImage[W][0]=./images/mr-1738-class.1.0
-EmptyImage[NW][0]=./images/mr-1738-class.1.1
-EmptyImage[N][0]=./images/mr-1738-class.1.2
-EmptyImage[NE][0]=./images/mr-1738-class.1.3
+EmptyImage[E][0]=./locomotives/mr-1738-class_E.0.0
+EmptyImage[SE][0]=./locomotives/mr-1738-class_SE.0.0
+EmptyImage[S][0]=./locomotives/mr-1738-class_S.0.0
+EmptyImage[SW][0]=./locomotives/mr-1738-class_SW.0.0
+EmptyImage[W][0]=./locomotives/mr-1738-class_W.0.0
+EmptyImage[NW][0]=./locomotives/mr-1738-class_NW.0.0
+EmptyImage[N][0]=./locomotives/mr-1738-class_N.0.0
+EmptyImage[NE][0]=./locomotives/mr-1738-class_NE.0.0

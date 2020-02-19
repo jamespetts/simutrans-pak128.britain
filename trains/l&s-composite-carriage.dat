@@ -25,8 +25,8 @@ rolling_resistance=20
 weight=2.2
 axles=2
 cost=875000
-runningcost=9
-fixed_cost=365
+runningcost=0
+fixed_cost=1823
 
 comfort[0]=0
 comfort[1]=0
@@ -50,23 +50,23 @@ Constraint[Next][2]=l&s-composite-carriage
 Constraint[Next][3]=l&s-composite-carriage-brake-rear
 Constraint[Next][4]=l&s-open-carriage
 
-EmptyImage[E]=./images/l&s-composite-carriage_E.0.0
-EmptyImage[SE]=./images/l&s-composite-carriage_SE.0.0
-EmptyImage[S]=./images/l&s-composite-carriage_S.0.0
-EmptyImage[SW]=./images/l&s-composite-carriage_SW.0.0
-EmptyImage[W]=./images/l&s-composite-carriage_W.0.0
-EmptyImage[NW]=./images/l&s-composite-carriage_NW.0.0
-EmptyImage[N]=./images/l&s-composite-carriage_N.0.0
-EmptyImage[NE]=./images/l&s-composite-carriage_NE.0.0
+EmptyImage[E]=./carriages/l&s-composite-carriage_E.0.0
+EmptyImage[SE]=./carriages/l&s-composite-carriage_SE.0.0
+EmptyImage[S]=./carriages/l&s-composite-carriage_S.0.0
+EmptyImage[SW]=./carriages/l&s-composite-carriage_SW.0.0
+EmptyImage[W]=./carriages/l&s-composite-carriage_W.0.0
+EmptyImage[NW]=./carriages/l&s-composite-carriage_NW.0.0
+EmptyImage[N]=./carriages/l&s-composite-carriage_N.0.0
+EmptyImage[NE]=./carriages/l&s-composite-carriage_NE.0.0
 
-FreightImage[E]=./images/l&s-composite-carriage-loaded_E.0.0
-FreightImage[SE]=./images/l&s-composite-carriage-loaded_SE.0.0
-FreightImage[S]=./images/l&s-composite-carriage-loaded_S.0.0
-FreightImage[SW]=./images/l&s-composite-carriage-loaded_SW.0.0
-FreightImage[W]=./images/l&s-composite-carriage-loaded_W.0.0
-FreightImage[NW]=./images/l&s-composite-carriage-loaded_NW.0.0
-FreightImage[N]=./images/l&s-composite-carriage-loaded_N.0.0
-FreightImage[NE]=./images/l&s-composite-carriage-loaded_NE.0.0
+FreightImage[E]=./carriages/l&s-composite-carriage-loaded_E.0.0
+FreightImage[SE]=./carriages/l&s-composite-carriage-loaded_SE.0.0
+FreightImage[S]=./carriages/l&s-composite-carriage-loaded_S.0.0
+FreightImage[SW]=./carriages/l&s-composite-carriage-loaded_SW.0.0
+FreightImage[W]=./carriages/l&s-composite-carriage-loaded_W.0.0
+FreightImage[NW]=./carriages/l&s-composite-carriage-loaded_NW.0.0
+FreightImage[N]=./carriages/l&s-composite-carriage-loaded_N.0.0
+FreightImage[NE]=./carriages/l&s-composite-carriage-loaded_NE.0.0
 
 ---
 
@@ -93,8 +93,8 @@ rolling_resistance=20
 weight=2.2
 axles=2
 cost=110000
-runningcost=9
-fixed_cost=4846
+runningcost=0
+fixed_cost=4892
 
 comfort[0]=0
 comfort[1]=0
@@ -113,23 +113,23 @@ Constraint[Next][3]=l&s-composite-carriage-brake-rear
 Constraint[Next][4]=l&s-open-carriage
 Constraint[Next][5]=none
 
-EmptyImage[E]=./images/l&s-composite-carriage_E.0.0
-EmptyImage[SE]=./images/l&s-composite-carriage_SE.0.0
-EmptyImage[S]=./images/l&s-composite-carriage_S.0.0
-EmptyImage[SW]=./images/l&s-composite-carriage_SW.0.0
-EmptyImage[W]=./images/l&s-composite-carriage_W.0.0
-EmptyImage[NW]=./images/l&s-composite-carriage_NW.0.0
-EmptyImage[N]=./images/l&s-composite-carriage_N.0.0
-EmptyImage[NE]=./images/l&s-composite-carriage_NE.0.0
+EmptyImage[E]=./carriages/l&s-composite-carriage_E.0.0
+EmptyImage[SE]=./carriages/l&s-composite-carriage_SE.0.0
+EmptyImage[S]=./carriages/l&s-composite-carriage_S.0.0
+EmptyImage[SW]=./carriages/l&s-composite-carriage_SW.0.0
+EmptyImage[W]=./carriages/l&s-composite-carriage_W.0.0
+EmptyImage[NW]=./carriages/l&s-composite-carriage_NW.0.0
+EmptyImage[N]=./carriages/l&s-composite-carriage_N.0.0
+EmptyImage[NE]=./carriages/l&s-composite-carriage_NE.0.0
 
-FreightImage[E]=./images/l&s-composite-carriage-loaded_E.0.0
-FreightImage[SE]=./images/l&s-composite-carriage-loaded_SE.0.0
-FreightImage[S]=./images/l&s-composite-carriage-loaded_S.0.0
-FreightImage[SW]=./images/l&s-composite-carriage-loaded_SW.0.0
-FreightImage[W]=./images/l&s-composite-carriage-loaded_W.0.0
-FreightImage[NW]=./images/l&s-composite-carriage-loaded_NW.0.0
-FreightImage[N]=./images/l&s-composite-carriage-loaded_N.0.0
-FreightImage[NE]=./images/l&s-composite-carriage-loaded_NE.0.0
+FreightImage[E]=./carriages/l&s-composite-carriage-loaded_E.0.0
+FreightImage[SE]=./carriages/l&s-composite-carriage-loaded_SE.0.0
+FreightImage[S]=./carriages/l&s-composite-carriage-loaded_S.0.0
+FreightImage[SW]=./carriages/l&s-composite-carriage-loaded_SW.0.0
+FreightImage[W]=./carriages/l&s-composite-carriage-loaded_W.0.0
+FreightImage[NW]=./carriages/l&s-composite-carriage-loaded_NW.0.0
+FreightImage[N]=./carriages/l&s-composite-carriage-loaded_N.0.0
+FreightImage[NE]=./carriages/l&s-composite-carriage-loaded_NE.0.0
 
 ---
 
@@ -156,8 +156,8 @@ rolling_resistance=20
 weight=2.2
 axles=2
 cost=110000
-runningcost=9
-fixed_cost=4846
+runningcost=0
+fixed_cost=4892
 
 comfort[0]=0
 comfort[1]=0
@@ -175,20 +175,20 @@ Constraint[Prev][2]=l&s-composite-carriage
 Constraint[Prev][3]=l&s-composite-carriage-brake-front
 Constraint[Prev][4]=l&s-open-carriage
 
-EmptyImage[E]=./images/l&s-composite-carriage_E.0.0
-EmptyImage[SE]=./images/l&s-composite-carriage_SE.0.0
-EmptyImage[S]=./images/l&s-composite-carriage_S.0.0
-EmptyImage[SW]=./images/l&s-composite-carriage_SW.0.0
-EmptyImage[W]=./images/l&s-composite-carriage_W.0.0
-EmptyImage[NW]=./images/l&s-composite-carriage_NW.0.0
-EmptyImage[N]=./images/l&s-composite-carriage_N.0.0
-EmptyImage[NE]=./images/l&s-composite-carriage_NE.0.0
+EmptyImage[E]=./carriages/l&s-composite-carriage_E.0.0
+EmptyImage[SE]=./carriages/l&s-composite-carriage_SE.0.0
+EmptyImage[S]=./carriages/l&s-composite-carriage_S.0.0
+EmptyImage[SW]=./carriages/l&s-composite-carriage_SW.0.0
+EmptyImage[W]=./carriages/l&s-composite-carriage_W.0.0
+EmptyImage[NW]=./carriages/l&s-composite-carriage_NW.0.0
+EmptyImage[N]=./carriages/l&s-composite-carriage_N.0.0
+EmptyImage[NE]=./carriages/l&s-composite-carriage_NE.0.0
 
-FreightImage[E]=./images/l&s-composite-carriage-loaded_E.0.0
-FreightImage[SE]=./images/l&s-composite-carriage-loaded_SE.0.0
-FreightImage[S]=./images/l&s-composite-carriage-loaded_S.0.0
-FreightImage[SW]=./images/l&s-composite-carriage-loaded_SW.0.0
-FreightImage[W]=./images/l&s-composite-carriage-loaded_W.0.0
-FreightImage[NW]=./images/l&s-composite-carriage-loaded_NW.0.0
-FreightImage[N]=./images/l&s-composite-carriage-loaded_N.0.0
-FreightImage[NE]=./images/l&s-composite-carriage-loaded_NE.0.0
+FreightImage[E]=./carriages/l&s-composite-carriage-loaded_E.0.0
+FreightImage[SE]=./carriages/l&s-composite-carriage-loaded_SE.0.0
+FreightImage[S]=./carriages/l&s-composite-carriage-loaded_S.0.0
+FreightImage[SW]=./carriages/l&s-composite-carriage-loaded_SW.0.0
+FreightImage[W]=./carriages/l&s-composite-carriage-loaded_W.0.0
+FreightImage[NW]=./carriages/l&s-composite-carriage-loaded_NW.0.0
+FreightImage[N]=./carriages/l&s-composite-carriage-loaded_N.0.0
+FreightImage[NE]=./carriages/l&s-composite-carriage-loaded_NE.0.0

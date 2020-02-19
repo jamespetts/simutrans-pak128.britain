@@ -20,7 +20,8 @@ rolling_resistance=13
 weight=45
 axles=4
 cost=1057500
-runningcost=126
+runningcost=150
+fixed_cost=6881
 
 min_loading_time=17
 max_loading_time=55
@@ -36,14 +37,14 @@ Constraint[Prev][1]=none
 
 Constraint[Next][0]=BR-380(centre1)
 
-EmptyImage[E]=./images/br-380-front.1.4
-EmptyImage[SE]=./images/br-380-front.1.5
-EmptyImage[S]=./images/br-380-front.1.6
-EmptyImage[SW]=./images/br-380-front.1.7
-EmptyImage[W]=./images/br-380-front.1.0
-EmptyImage[NW]=./images/br-380-front.1.1
-EmptyImage[N]=./images/br-380-front.1.2
-EmptyImage[NE]=./images/br-380-front.1.3
+EmptyImage[E]=./railcars/br-380-front.1.4
+EmptyImage[SE]=./railcars/br-380-front.1.5
+EmptyImage[S]=./railcars/br-380-front.1.6
+EmptyImage[SW]=./railcars/br-380-front.1.7
+EmptyImage[W]=./railcars/br-380-front.1.0
+EmptyImage[NW]=./railcars/br-380-front.1.1
+EmptyImage[N]=./railcars/br-380-front.1.2
+EmptyImage[NE]=./railcars/br-380-front.1.3
 
 ---
 
@@ -68,7 +69,8 @@ rolling_resistance=13
 weight=40
 axles=4
 cost=1899100
-runningcost=43
+runningcost=0
+fixed_cost=3956
 
 min_loading_time=17
 max_loading_time=55
@@ -84,14 +86,14 @@ Constraint[Prev][0]=BR-380(front)
 Constraint[Next][0]=BR-380(centre2)
 Constraint[Next][1]=BR-380(rear)
 
-EmptyImage[E]=./images/br-380-panto.1.4
-EmptyImage[SE]=./images/br-380-panto.1.5
-EmptyImage[S]=./images/br-380-panto.1.6
-EmptyImage[SW]=./images/br-380-panto.1.7
-EmptyImage[W]=./images/br-380-panto.1.0
-EmptyImage[NW]=./images/br-380-panto.1.1
-EmptyImage[N]=./images/br-380-panto.1.2
-EmptyImage[NE]=./images/br-380-panto.1.3
+EmptyImage[E]=./railcars/br-380-panto.1.4
+EmptyImage[SE]=./railcars/br-380-panto.1.5
+EmptyImage[S]=./railcars/br-380-panto.1.6
+EmptyImage[SW]=./railcars/br-380-panto.1.7
+EmptyImage[W]=./railcars/br-380-panto.1.0
+EmptyImage[NW]=./railcars/br-380-panto.1.1
+EmptyImage[N]=./railcars/br-380-panto.1.2
+EmptyImage[NE]=./railcars/br-380-panto.1.3
 
 ---
 
@@ -116,7 +118,8 @@ rolling_resistance=13
 weight=40
 axles=4
 cost=1899100
-runningcost=43
+runningcost=0
+fixed_cost=3956
 
 min_loading_time=17
 max_loading_time=55
@@ -131,14 +134,14 @@ Constraint[Prev][0]=BR-380(centre1)
 
 Constraint[Next][0]=BR-380(rear)
 
-EmptyImage[E]=./images/br-380-middle.1.4
-EmptyImage[SE]=./images/br-380-middle.1.5
-EmptyImage[S]=./images/br-380-middle.1.6
-EmptyImage[SW]=./images/br-380-middle.1.7
-EmptyImage[W]=./images/br-380-middle.1.0
-EmptyImage[NW]=./images/br-380-middle.1.1
-EmptyImage[N]=./images/br-380-middle.1.2
-EmptyImage[NE]=./images/br-380-middle.1.3
+EmptyImage[E]=./railcars/br-380-middle.1.4
+EmptyImage[SE]=./railcars/br-380-middle.1.5
+EmptyImage[S]=./railcars/br-380-middle.1.6
+EmptyImage[SW]=./railcars/br-380-middle.1.7
+EmptyImage[W]=./railcars/br-380-middle.1.0
+EmptyImage[NW]=./railcars/br-380-middle.1.1
+EmptyImage[N]=./railcars/br-380-middle.1.2
+EmptyImage[NE]=./railcars/br-380-middle.1.3
 
 ---
 
@@ -164,7 +167,8 @@ rolling_resistance=13
 weight=45
 axles=4
 cost=1057500
-runningcost=126
+runningcost=150
+fixed_cost=6881
 
 min_loading_time=17
 max_loading_time=55
@@ -181,11 +185,11 @@ Constraint[Prev][1]=BR-380(centre1)
 Constraint[Next][0]=BR-380(front)
 Constraint[Next][1]=none
 
-EmptyImage[E]=./images/br-380-rear.1.4
-EmptyImage[SE]=./images/br-380-rear.1.5
-EmptyImage[S]=./images/br-380-rear.1.6
-EmptyImage[SW]=./images/br-380-rear.1.7
-EmptyImage[W]=./images/br-380-rear.1.0
-EmptyImage[NW]=./images/br-380-rear.1.1
-EmptyImage[N]=./images/br-380-rear.1.2
-EmptyImage[NE]=./images/br-380-rear.1.3
+EmptyImage[E]=./railcars/br-380-rear.1.4
+EmptyImage[SE]=./railcars/br-380-rear.1.5
+EmptyImage[S]=./railcars/br-380-rear.1.6
+EmptyImage[SW]=./railcars/br-380-rear.1.7
+EmptyImage[W]=./railcars/br-380-rear.1.0
+EmptyImage[NW]=./railcars/br-380-rear.1.1
+EmptyImage[N]=./railcars/br-380-rear.1.2
+EmptyImage[NE]=./railcars/br-380-rear.1.3

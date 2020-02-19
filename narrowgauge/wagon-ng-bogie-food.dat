@@ -9,27 +9,29 @@ retire_month=3
 waytype=narrowgauge_track
 freight=meat
 payload=8
-length=5
+length=4
 rolling_resistance=17
 
 weight=3
 axle_load=3
 way_wear_factor=12150
 cost=66500
-runningcost=2
+runningcost=0
+fixed_cost=28
 
 bidirectional=1
 
 min_loading_time=200
 max_loading_time=600
 
+Constraint[Prev][0]=any
 Constraint[Next][0]=any
 
-EmptyImage[E]=./images/ng-van-bogie-food.1.4,-10,-5
-EmptyImage[SE]=./images/ng-van-bogie-food.1.5,0,-5
-EmptyImage[S]=./images/ng-van-bogie-food.1.6,10,-5
-EmptyImage[SW]=./images/ng-van-bogie-food.1.7,10,0
-EmptyImage[W]=./images/ng-van-bogie-food.1.0,10,5
-EmptyImage[NW]=./images/ng-van-bogie-food.1.1,0,5
-EmptyImage[N]=./images/ng-van-bogie-food.1.2,-10,5
-EmptyImage[NE]=./images/ng-van-bogie-food.1.3,-10,0
+EmptyImage[E]=./images/ng-van-bogie-food_E.0.0
+EmptyImage[SE]=./images/ng-van-bogie-food_SE.0.0
+EmptyImage[S]=./images/ng-van-bogie-food_S.0.0
+EmptyImage[SW]=./images/ng-van-bogie-food_SW.0.0
+EmptyImage[W]=./images/ng-van-bogie-food_W.0.0
+EmptyImage[NW]=./images/ng-van-bogie-food_NW.0.0
+EmptyImage[N]=./images/ng-van-bogie-food_N.0.0
+EmptyImage[NE]=./images/ng-van-bogie-food_NE.0.0

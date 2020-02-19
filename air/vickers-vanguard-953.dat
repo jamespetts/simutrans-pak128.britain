@@ -16,7 +16,8 @@ weight=56
 cost=11500000
 upgrade_price=600000
 # 710 gal/hour
-runningcost=2400
+runningcost=47
+fixed_cost=17986
 intro_year=1969
 intro_month=1
 retire_year=1979
@@ -67,7 +68,8 @@ weight=56
 cost=11500000
 upgrade_price=600000
 # 710 gal/hour
-runningcost=2400
+runningcost=47
+fixed_cost=17986
 intro_year=1969
 intro_month=1
 retire_year=1979

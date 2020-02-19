@@ -22,7 +22,8 @@ length=6
 weight=9
 axles=2
 cost=7250000
-runningcost=135
+runningcost=35
+fixed_cost=13552
 sound=leyland-atlantean-an68-ff3170.wav
 
 comfort=43
@@ -89,7 +90,8 @@ length=6
 
 weight=9
 cost=7715000
-runningcost=137
+runningcost=35
+fixed_cost=14036
 sound=leyland-atlantean-an68-ff3170.wav
 
 comfort=43

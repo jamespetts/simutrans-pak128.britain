@@ -18,18 +18,19 @@ weight=1
 axles=2
 cost=0
 runningcost=0
+fixed_cost=0
 
 increase_maintenance_after_years=42
 
 Constraint[Prev][0]=PuffingBilly
 
-EmptyImage[E]=./images/sdr-locomotion-tender_E.0.0
-EmptyImage[SE]=./images/sdr-locomotion-tender_SE.0.0
-EmptyImage[S]=./images/sdr-locomotion-tender_S.0.0
-EmptyImage[SW]=./images/sdr-locomotion-tender_SW.0.0
-EmptyImage[W]=./images/sdr-locomotion-tender_W.0.0
-EmptyImage[NW]=./images/sdr-locomotion-tender_NW.0.0
-EmptyImage[N]=./images/sdr-locomotion-tender_N.0.0
-EmptyImage[NE]=./images/sdr-locomotion-tender_NE.0.0
+EmptyImage[E]=./locomotives/sdr-locomotion-tender_E.0.0
+EmptyImage[SE]=./locomotives/sdr-locomotion-tender_SE.0.0
+EmptyImage[S]=./locomotives/sdr-locomotion-tender_S.0.0
+EmptyImage[SW]=./locomotives/sdr-locomotion-tender_SW.0.0
+EmptyImage[W]=./locomotives/sdr-locomotion-tender_W.0.0
+EmptyImage[NW]=./locomotives/sdr-locomotion-tender_NW.0.0
+EmptyImage[N]=./locomotives/sdr-locomotion-tender_N.0.0
+EmptyImage[NE]=./locomotives/sdr-locomotion-tender_NE.0.0
 
 

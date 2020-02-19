@@ -29,8 +29,8 @@ weight=18.3
 # Ibid
 axle_load=9
 cost=14427000
-runningcost=186
-fixed_cost=38011
+runningcost=152
+fixed_cost=44038
 sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=LNWR-Bloomer-Tender
@@ -38,20 +38,20 @@ Constraint[Next][0]=LNWR-Bloomer-Tender
 liverytype[0]=LNWR-Early
 liverytype[1]=LNWR-Black
 
-EmptyImage[E][0]=./images/lnwr-crewe-type_E.0.0
-EmptyImage[SE][0]=./images/lnwr-crewe-type_SE.0.0
-EmptyImage[S][0]=./images/lnwr-crewe-type_S.0.0
-EmptyImage[SW][0]=./images/lnwr-crewe-type_SW.0.0
-EmptyImage[W][0]=./images/lnwr-crewe-type_W.0.0
-EmptyImage[NW][0]=./images/lnwr-crewe-type_NW.0.0
-EmptyImage[N][0]=./images/lnwr-crewe-type_N.0.0
-EmptyImage[NE][0]=./images/lnwr-crewe-type_NE.0.0
+EmptyImage[E][0]=./locomotives/lnwr-crewe-type_E.0.0
+EmptyImage[SE][0]=./locomotives/lnwr-crewe-type_SE.0.0
+EmptyImage[S][0]=./locomotives/lnwr-crewe-type_S.0.0
+EmptyImage[SW][0]=./locomotives/lnwr-crewe-type_SW.0.0
+EmptyImage[W][0]=./locomotives/lnwr-crewe-type_W.0.0
+EmptyImage[NW][0]=./locomotives/lnwr-crewe-type_NW.0.0
+EmptyImage[N][0]=./locomotives/lnwr-crewe-type_N.0.0
+EmptyImage[NE][0]=./locomotives/lnwr-crewe-type_NE.0.0
 
-EmptyImage[E][1]=./images/lnwr-crewe-type-black_E.0.0
-EmptyImage[SE][1]=./images/lnwr-crewe-type-black_SE.0.0
-EmptyImage[S][1]=./images/lnwr-crewe-type-black_S.0.0
-EmptyImage[SW][1]=./images/lnwr-crewe-type-black_SW.0.0
-EmptyImage[W][1]=./images/lnwr-crewe-type-black_W.0.0
-EmptyImage[NW][1]=./images/lnwr-crewe-type-black_NW.0.0
-EmptyImage[N][1]=./images/lnwr-crewe-type-black_N.0.0
-EmptyImage[NE][1]=./images/lnwr-crewe-type-black_NE.0.0
+EmptyImage[E][1]=./locomotives/lnwr-crewe-type-black_E.0.0
+EmptyImage[SE][1]=./locomotives/lnwr-crewe-type-black_SE.0.0
+EmptyImage[S][1]=./locomotives/lnwr-crewe-type-black_S.0.0
+EmptyImage[SW][1]=./locomotives/lnwr-crewe-type-black_SW.0.0
+EmptyImage[W][1]=./locomotives/lnwr-crewe-type-black_W.0.0
+EmptyImage[NW][1]=./locomotives/lnwr-crewe-type-black_NW.0.0
+EmptyImage[N][1]=./locomotives/lnwr-crewe-type-black_N.0.0
+EmptyImage[NE][1]=./locomotives/lnwr-crewe-type-black_NE.0.0

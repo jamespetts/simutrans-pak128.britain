@@ -3,7 +3,8 @@ Name=etrms-centre-small
 Type=signalbox
 copyright=JamesPetts
 Level=1
-intro_year=2010
+# https://en.wikipedia.org/wiki/European_Train_Control_System#Switzerland
+intro_year=2006
 intro_month=2
 
 allow_underground=0

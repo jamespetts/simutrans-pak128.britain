@@ -8,7 +8,8 @@ payload=30
 weight=10
 length=8
 cost=20000
-runningcost=2
+runningcost=0
+fixed_cost=14
 intro_year=1761
 intro_month=1
 retire_year=1850
@@ -45,7 +46,6 @@ Constraint[Prev][17]=SteamNarrowboatPiece
 Constraint[Prev][18]=SteamNarrowboatCool
 Constraint[Prev][19]=SteamNarrowboatOil
 Constraint[Prev][20]=SteamNarrowboatLivestock
-Constraint[Prev][21]=none
 
 Constraint[Next][0]=none
 
@@ -176,7 +176,8 @@ payload=30
 weight=10
 length=8
 cost=20000
-runningcost=2
+runningcost=0
+fixed_cost=14
 intro_year=1761
 intro_month=1
 retire_year=1850
@@ -213,7 +214,6 @@ Constraint[Prev][17]=SteamNarrowboatPiece
 Constraint[Prev][18]=SteamNarrowboatCool
 Constraint[Prev][19]=SteamNarrowboatOil
 Constraint[Prev][20]=SteamNarrowboatLivestock
-Constraint[Prev][21]=none
 
 Constraint[Next][0]=none
 
@@ -306,7 +306,8 @@ payload=30
 weight=10
 length=8
 cost=20000
-runningcost=2
+runningcost=0
+fixed_cost=14
 intro_year=1761
 intro_month=1
 retire_year=1850
@@ -343,7 +344,6 @@ Constraint[Prev][17]=SteamNarrowboatPiece
 Constraint[Prev][18]=SteamNarrowboatCool
 Constraint[Prev][19]=SteamNarrowboatOil
 Constraint[Prev][20]=SteamNarrowboatLivestock
-Constraint[Prev][21]=none
 
 Constraint[Next][0]=none
 
@@ -379,7 +379,8 @@ payload=30
 weight=10
 length=8
 cost=20000
-runningcost=2
+runningcost=0
+fixed_cost=14
 intro_year=1761
 intro_month=1
 retire_year=1850
@@ -416,7 +417,6 @@ Constraint[Prev][17]=SteamNarrowboatPiece
 Constraint[Prev][18]=SteamNarrowboatCool
 Constraint[Prev][19]=SteamNarrowboatOil
 Constraint[Prev][20]=SteamNarrowboatLivestock
-Constraint[Prev][21]=none
 
 Constraint[Next][0]=none
 
@@ -453,7 +453,8 @@ payload=30
 weight=10
 length=8
 cost=20000
-runningcost=2
+runningcost=0
+fixed_cost=14
 intro_year=1761
 intro_month=1
 retire_year=1850
@@ -490,7 +491,6 @@ Constraint[Prev][17]=SteamNarrowboatPiece
 Constraint[Prev][18]=SteamNarrowboatCool
 Constraint[Prev][19]=SteamNarrowboatOil
 Constraint[Prev][20]=SteamNarrowboatLivestock
-Constraint[Prev][21]=none
 
 Constraint[Next][0]=none
 
@@ -526,7 +526,8 @@ payload=30
 weight=10
 length=8
 cost=20000
-runningcost=2
+runningcost=0
+fixed_cost=14
 intro_year=1761
 intro_month=1
 retire_year=1850
@@ -563,7 +564,6 @@ Constraint[Prev][17]=SteamNarrowboatPiece
 Constraint[Prev][18]=SteamNarrowboatCool
 Constraint[Prev][19]=SteamNarrowboatOil
 Constraint[Prev][20]=SteamNarrowboatLivestock
-Constraint[Prev][21]=none
 
 Constraint[Next][0]=none
 
@@ -587,5 +587,3 @@ EmptyImage[W][1]=./images/unpowered-narrowboat-wooden-hull-covered-bw.1.0
 EmptyImage[NW][1]=./images/unpowered-narrowboat-wooden-hull-covered-bw.1.1
 EmptyImage[N][1]=./images/unpowered-narrowboat-wooden-hull-covered-bw.1.2
 EmptyImage[NE][1]=./images/unpowered-narrowboat-wooden-hull-covered-bw.1.3
-
----

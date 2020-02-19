@@ -1,0 +1,86 @@
+# https://en.wikipedia.org/wiki/GWR_5400_Class
+obj=vehicle
+name=gwr-5400
+engine_type=steam
+smoke=Steam
+speed=96
+# Extrapolated
+power=220
+# https://en.wikipedia.org/wiki/GWR_5400_Class
+tractive_effort=66
+copyright=Kieron/JamesPetts
+intro_year=1930
+intro_month=1
+retire_year=1945
+retire_month=3
+waytype=track
+freight=None
+payload=0
+length=5
+
+# https://en.wikipedia.org/wiki/GWR_5400_Class
+weight=47.3
+axles=3
+cost=275000
+runningcost=135
+fixed_cost=20000
+sound=konakaboom-gwr-pannier.wav
+
+can_lead_from_rear=0
+bidirectional=1
+
+# NOTE: This shares a .blend file with the 6400 class.
+# The only difference is wheel size, so the different
+# wheels are on different layers.
+
+liverytype[0]=GWR-standard-green
+liverytype[1]=GWR-shirtbutton
+liverytype[2]=GWR-hawksworth
+liverytype[3]=WW2-austerity
+liverytype[4]=BR-Early
+
+EmptyImage[E][0]=./locomotives/gwr-5400_E.0.0
+EmptyImage[SE][0]=./locomotives/gwr-5400_SE.0.0
+EmptyImage[S][0]=./locomotives/gwr-5400_S.0.0
+EmptyImage[SW][0]=./locomotives/gwr-5400_SW.0.0
+EmptyImage[W][0]=./locomotives/gwr-5400_W.0.0
+EmptyImage[NW][0]=./locomotives/gwr-5400_NW.0.0
+EmptyImage[N][0]=./locomotives/gwr-5400_N.0.0
+EmptyImage[NE][0]=./locomotives/gwr-5400_NE.0.0
+
+EmptyImage[E][1]=./locomotives/gwr-5400-shirtbutton_E.0.0
+EmptyImage[SE][1]=./locomotives/gwr-5400-shirtbutton_SE.0.0
+EmptyImage[S][1]=./locomotives/gwr-5400-shirtbutton_S.0.0
+EmptyImage[SW][1]=./locomotives/gwr-5400-shirtbutton_SW.0.0
+EmptyImage[W][1]=./locomotives/gwr-5400-shirtbutton_W.0.0
+EmptyImage[NW][1]=./locomotives/gwr-5400-shirtbutton_NW.0.0
+EmptyImage[N][1]=./locomotives/gwr-5400-shirtbutton_N.0.0
+EmptyImage[NE][1]=./locomotives/gwr-5400-shirtbutton_NE.0.0
+
+EmptyImage[E][2]=./locomotives/gwr-5400-hawksworth_E.0.0
+EmptyImage[SE][2]=./locomotives/gwr-5400-hawksworth_SE.0.0
+EmptyImage[S][2]=./locomotives/gwr-5400-hawksworth_S.0.0
+EmptyImage[SW][2]=./locomotives/gwr-5400-hawksworth_SW.0.0
+EmptyImage[W][2]=./locomotives/gwr-5400-hawksworth_W.0.0
+EmptyImage[NW][2]=./locomotives/gwr-5400-hawksworth_NW.0.0
+EmptyImage[N][2]=./locomotives/gwr-5400-hawksworth_N.0.0
+EmptyImage[NE][2]=./locomotives/gwr-5400-hawksworth_NE.0.0
+
+EmptyImage[E][3]=./locomotives/gwr-5400-ww2-austerity_E.0.0
+EmptyImage[SE][3]=./locomotives/gwr-5400-ww2-austerity_SE.0.0
+EmptyImage[S][3]=./locomotives/gwr-5400-ww2-austerity_S.0.0
+EmptyImage[SW][3]=./locomotives/gwr-5400-ww2-austerity_SW.0.0
+EmptyImage[W][3]=./locomotives/gwr-5400-ww2-austerity_W.0.0
+EmptyImage[NW][3]=./locomotives/gwr-5400-ww2-austerity_NW.0.0
+EmptyImage[N][3]=./locomotives/gwr-5400-ww2-austerity_N.0.0
+EmptyImage[NE][3]=./locomotives/gwr-5400-ww2-austerity_NE.0.0
+
+EmptyImage[E][4]=./locomotives/gwr-5400-br_E.0.0
+EmptyImage[SE][4]=./locomotives/gwr-5400-br_SE.0.0
+EmptyImage[S][4]=./locomotives/gwr-5400-br_S.0.0
+EmptyImage[SW][4]=./locomotives/gwr-5400-br_SW.0.0
+EmptyImage[W][4]=./locomotives/gwr-5400-br_W.0.0
+EmptyImage[NW][4]=./locomotives/gwr-5400-br_NW.0.0
+EmptyImage[N][4]=./locomotives/gwr-5400-br_N.0.0
+EmptyImage[NE][4]=./locomotives/gwr-5400-br_NE.0.0
+

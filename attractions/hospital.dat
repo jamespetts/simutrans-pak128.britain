@@ -2,24 +2,29 @@ Obj=building
 Name=ModernHospital
 Type=cur
 needs_ground=1
-population_and_visitor_demand_capacity=7
+# Estimate 500 beds; outpatients 3 * inpatients, inpatients stay for 7 days.
+# Thus, (500 / 7) + (500 * 3) = 71 + 1500
+# yields 1571/day, / 16 hours * 6.4 hours = 628
+# Divide by 2 for meters/tile adjustment
+population_and_visitor_demand_capacity=314
 employment_capacity=38
-mail_demand=6
-class_proportion[0]=20
-class_proportion[1]=20
-class_proportion[2]=20
-class_proportion[3]=20
-class_proportion[4]=20
+mail_demand=18
+class_proportion[0]=25
+class_proportion[1]=21
+class_proportion[2]=19
+class_proportion[3]=18
+class_proportion[4]=17
 class_proportion_jobs[0]=10
 class_proportion_jobs[1]=40
 class_proportion_jobs[2]=20
-class_proportion_jobs[3]=25
-class_proportion_jobs[4]=5
+class_proportion_jobs[3]=20
+class_proportion_jobs[4]=10
 intro_year=1954
 intro_month=2
-retire_year=1989
-retire_month=11
-# Need newer hospital to replace this
+#retire_year=1989
+#retire_month=11
+# Need a newer hospital to replace this,
+# and an older hospital to preceed it.
 chance=20
 dims=4,3,4
 Build_Time=2000

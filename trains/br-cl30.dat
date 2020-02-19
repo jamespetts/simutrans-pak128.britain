@@ -18,7 +18,8 @@ length=10
 weight=107
 axles=6
 cost=8870000
-runningcost=462
+runningcost=932
+fixed_cost=19240
 
 # The original engines suffered early failure: see
 # http://www.therailwaycentre.com/Pages%20Loco/Recognition%20loco/Illus_30_31A.html
@@ -40,12 +41,12 @@ Constraint[Prev][3]=BR-Class29
 Constraint[Prev][4]=BR-Class30
 Constraint[Prev][5]=none
 
-EmptyImage[E]=./images/br-cl30-g.0
-EmptyImage[SE]=./images/br-cl30-g.1
-EmptyImage[S]=./images/br-cl30-g.2
-EmptyImage[SW]=./images/br-cl30-g.3
-EmptyImage[W]=./images/br-cl30-g.4
-EmptyImage[NW]=./images/br-cl30-g.5
-EmptyImage[N]=./images/br-cl30-g.6
-EmptyImage[NE]=./images/br-cl30-g.7
+EmptyImage[E]=./locomotives/br-cl30-g_E.0.0
+EmptyImage[SE]=./locomotives/br-cl30-g_SE.0.0
+EmptyImage[S]=./locomotives/br-cl30-g_S.0.0
+EmptyImage[SW]=./locomotives/br-cl30-g_SW.0.0
+EmptyImage[W]=./locomotives/br-cl30-g_W.0.0
+EmptyImage[NW]=./locomotives/br-cl30-g_NW.0.0
+EmptyImage[N]=./locomotives/br-cl30-g_N.0.0
+EmptyImage[NE]=./locomotives/br-cl30-g_NE.0.0
 

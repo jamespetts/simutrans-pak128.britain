@@ -1,4 +1,4 @@
-# See http://gerald-massey.org.uk/Railway/images/Operational/Carriage3.png
+# See http://gerald-massey.org.uk/Railway/carriages/Operational/Carriage3.png
 # Little other information is available about these, but assume that they 
 # are early third class open wagons from a time when second class was becoming
 # routinely enclosed and third class passengers first started to be conveyed.
@@ -26,8 +26,8 @@ rolling_resistance=19
 weight=1.9
 axles=2
 cost=60000
-runningcost=5
-fixed_cost=25
+runningcost=0
+fixed_cost=125
 
 comfort[0]=0
 comfort[1]=16
@@ -37,6 +37,7 @@ max_loading_time=47
 can_lead_from_rear=0
 bidirectional=1
 
+Constraint[Prev][0]=any
 Constraint[Next][0]=any
 
 # TODO: Add liveries 
@@ -47,20 +48,20 @@ liverytype[0]=LMR-Standard
 #liverytype[3]=GNR-early
 #liverytype[4]=LSWR-early
 
-EmptyImage[E][0]=./images/4wheel-open-third_E.0.0
-EmptyImage[SE][0]=./images/4wheel-open-third_SE.0.0
-EmptyImage[S][0]=./images/4wheel-open-third_S.0.0
-EmptyImage[SW][0]=./images/4wheel-open-third_SW.0.0
-EmptyImage[W][0]=./images/4wheel-open-third_W.0.0
-EmptyImage[NW][0]=./images/4wheel-open-third_NW.0.0
-EmptyImage[N][0]=./images/4wheel-open-third_N.0.0
-EmptyImage[NE][0]=./images/4wheel-open-third_NE.0.0
+EmptyImage[E][0]=./carriages/4wheel-open-third_E.0.0
+EmptyImage[SE][0]=./carriages/4wheel-open-third_SE.0.0
+EmptyImage[S][0]=./carriages/4wheel-open-third_S.0.0
+EmptyImage[SW][0]=./carriages/4wheel-open-third_SW.0.0
+EmptyImage[W][0]=./carriages/4wheel-open-third_W.0.0
+EmptyImage[NW][0]=./carriages/4wheel-open-third_NW.0.0
+EmptyImage[N][0]=./carriages/4wheel-open-third_N.0.0
+EmptyImage[NE][0]=./carriages/4wheel-open-third_NE.0.0
 
-FreightImage[E][0]=./images/4wheel-open-third-loaded_E.0.0
-FreightImage[SE][0]=./images/4wheel-open-third-loaded_SE.0.0
-FreightImage[S][0]=./images/4wheel-open-third-loaded_S.0.0
-FreightImage[SW][0]=./images/4wheel-open-third-loaded_SW.0.0
-FreightImage[W][0]=./images/4wheel-open-third-loaded_W.0.0
-FreightImage[NW][0]=./images/4wheel-open-third-loaded_NW.0.0
-FreightImage[N][0]=./images/4wheel-open-third-loaded_N.0.0
-FreightImage[NE][0]=./images/4wheel-open-third-loaded_NE.0.0
+FreightImage[E][0]=./carriages/4wheel-open-third-loaded_E.0.0
+FreightImage[SE][0]=./carriages/4wheel-open-third-loaded_SE.0.0
+FreightImage[S][0]=./carriages/4wheel-open-third-loaded_S.0.0
+FreightImage[SW][0]=./carriages/4wheel-open-third-loaded_SW.0.0
+FreightImage[W][0]=./carriages/4wheel-open-third-loaded_W.0.0
+FreightImage[NW][0]=./carriages/4wheel-open-third-loaded_NW.0.0
+FreightImage[N][0]=./carriages/4wheel-open-third-loaded_N.0.0
+FreightImage[NE][0]=./carriages/4wheel-open-third-loaded_NE.0.0

@@ -1,0 +1,73 @@
+# https://en.wikipedia.org/wiki/Daniel_Gooch_standard_gauge_locomotives#%22Sharps%22_or_157_Class
+# See also Ahrons p. 145
+obj=vehicle
+name=gwr-sharp
+engine_type=steam
+smoke=Steam
+speed=115
+# Extrapolated
+power=171
+# Calculated from data at Ahrons p. 145 with a loss factor of 0.75
+tractive_effort=32
+copyright=James/JamesPetts
+intro_year=1862
+intro_month=3
+retire_year=1866
+retire_month=11
+waytype=track
+freight=None
+payload=0
+length=4
+brake_force=0
+
+# See Ahrons p. 145 - 20 tons 16cwt
+weight=21.1
+# See Ahrons p. 145
+axle_load=13
+cost=17200000
+runningcost=210
+fixed_cost=38500
+sound=nick-parry-gwr-city-class.wav
+
+Constraint[Next][0]=gwr-armstrong-tender
+
+liverytype[0]=GWR-early
+liverytype[1]=GWR-dark-green
+liverytype[2]=GWR-standard-green
+
+# The same .blend files are used as for the 69 class, 
+# the only difference being the dome, which is on layer
+# 5 and can be deactivated when producing the 69 class.
+#
+# No images were available of this locomotive, so it was
+# assumed to be the same as the 69 class (with which it
+# is described as being very similar) save for a dome.
+
+EmptyImage[E][0]=./locomotives/gwr-sharp-early_E.0.0
+EmptyImage[SE][0]=./locomotives/gwr-sharp-early_SE.0.0
+EmptyImage[S][0]=./locomotives/gwr-sharp-early_S.0.0
+EmptyImage[SW][0]=./locomotives/gwr-sharp-early_SW.0.0
+EmptyImage[W][0]=./locomotives/gwr-sharp-early_W.0.0
+EmptyImage[NW][0]=./locomotives/gwr-sharp-early_NW.0.0
+EmptyImage[N][0]=./locomotives/gwr-sharp-early_N.0.0
+EmptyImage[NE][0]=./locomotives/gwr-sharp-early_NE.0.0
+
+EmptyImage[E][1]=./locomotives/gwr-sharp-dark-green_E.0.0
+EmptyImage[SE][1]=./locomotives/gwr-sharp-dark-green_SE.0.0
+EmptyImage[S][1]=./locomotives/gwr-sharp-dark-green_S.0.0
+EmptyImage[SW][1]=./locomotives/gwr-sharp-dark-green_SW.0.0
+EmptyImage[W][1]=./locomotives/gwr-sharp-dark-green_W.0.0
+EmptyImage[NW][1]=./locomotives/gwr-sharp-dark-green_NW.0.0
+EmptyImage[N][1]=./locomotives/gwr-sharp-dark-green_N.0.0
+EmptyImage[NE][1]=./locomotives/gwr-sharp-dark-green_NE.0.0
+
+EmptyImage[E][2]=./locomotives/gwr-sharp_E.0.0
+EmptyImage[SE][2]=./locomotives/gwr-sharp_SE.0.0
+EmptyImage[S][2]=./locomotives/gwr-sharp_S.0.0
+EmptyImage[SW][2]=./locomotives/gwr-sharp_SW.0.0
+EmptyImage[W][2]=./locomotives/gwr-sharp_W.0.0
+EmptyImage[NW][2]=./locomotives/gwr-sharp_NW.0.0
+EmptyImage[N][2]=./locomotives/gwr-sharp_N.0.0
+EmptyImage[NE][2]=./locomotives/gwr-sharp_NE.0.0
+
+

@@ -22,7 +22,8 @@ length=5
 weight=13.0
 axles=2
 cost=4300000
-runningcost=86
+runningcost=21
+fixed_cost=10240
 sound=the-bloke33-dennis-dart-modern.wav
 
 comfort=43

@@ -5,7 +5,7 @@ engine_type=steam
 smoke=Steam
 speed=130
 # Extrapolated
-power=175
+power=170
 tractive_effort=39
 copyright=Kieron/JamesPetts
 intro_year=1868
@@ -24,8 +24,8 @@ rolling_resistance=21
 weight=34
 axle_load=15
 cost=19125375
-runningcost=390
-fixed_cost=47969
+runningcost=212
+fixed_cost=39938
 sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=gnr-sturrock-tender
@@ -33,21 +33,21 @@ Constraint[Next][0]=gnr-sturrock-tender
 liverytype[0]=GNR-early
 liverytype[1]=GNR-Standard
 
-EmptyImage[E][0]=./images/gnr-stirling-7ft-single-dark.1.4
-EmptyImage[SE][0]=./images/gnr-stirling-7ft-single-dark.1.5
-EmptyImage[S][0]=./images/gnr-stirling-7ft-single-dark.1.6
-EmptyImage[SW][0]=./images/gnr-stirling-7ft-single-dark.1.7
-EmptyImage[W][0]=./images/gnr-stirling-7ft-single-dark.1.0
-EmptyImage[NW][0]=./images/gnr-stirling-7ft-single-dark.1.1
-EmptyImage[N][0]=./images/gnr-stirling-7ft-single-dark.1.2
-EmptyImage[NE][0]=./images/gnr-stirling-7ft-single-dark.1.3
+EmptyImage[E][0]=./locomotives/gnr-stirling-7ft-single-dark_E.0.0
+EmptyImage[SE][0]=./locomotives/gnr-stirling-7ft-single-dark_SE.0.0
+EmptyImage[S][0]=./locomotives/gnr-stirling-7ft-single-dark_S.0.0
+EmptyImage[SW][0]=./locomotives/gnr-stirling-7ft-single-dark_SW.0.0
+EmptyImage[W][0]=./locomotives/gnr-stirling-7ft-single-dark_W.0.0
+EmptyImage[NW][0]=./locomotives/gnr-stirling-7ft-single-dark_NW.0.0
+EmptyImage[N][0]=./locomotives/gnr-stirling-7ft-single-dark_N.0.0
+EmptyImage[NE][0]=./locomotives/gnr-stirling-7ft-single-dark_NE.0.0
 
-EmptyImage[E][1]=./images/gnr-stirling-7ft-single.1.4
-EmptyImage[SE][1]=./images/gnr-stirling-7ft-single.1.5
-EmptyImage[S][1]=./images/gnr-stirling-7ft-single.1.6
-EmptyImage[SW][1]=./images/gnr-stirling-7ft-single.1.7
-EmptyImage[W][1]=./images/gnr-stirling-7ft-single.1.0
-EmptyImage[NW][1]=./images/gnr-stirling-7ft-single.1.1
-EmptyImage[N][1]=./images/gnr-stirling-7ft-single.1.2
-EmptyImage[NE][1]=./images/gnr-stirling-7ft-single.1.3
+EmptyImage[E][1]=./locomotives/gnr-stirling-7ft-single_E.0.0
+EmptyImage[SE][1]=./locomotives/gnr-stirling-7ft-single_SE.0.0
+EmptyImage[S][1]=./locomotives/gnr-stirling-7ft-single_S.0.0
+EmptyImage[SW][1]=./locomotives/gnr-stirling-7ft-single_SW.0.0
+EmptyImage[W][1]=./locomotives/gnr-stirling-7ft-single_W.0.0
+EmptyImage[NW][1]=./locomotives/gnr-stirling-7ft-single_NW.0.0
+EmptyImage[N][1]=./locomotives/gnr-stirling-7ft-single_N.0.0
+EmptyImage[NE][1]=./locomotives/gnr-stirling-7ft-single_NE.0.0
 

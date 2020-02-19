@@ -26,20 +26,20 @@ axle_load=3
 cost=1420000
 # 50lb coke/mile:
 # https://www.libraryindex.com/encyclopedia/pages/cpxkvqow0x/railways-rails-tons-rail.html
-runningcost=12
-fixed_cost=1105
+runningcost=28
+fixed_cost=17972
 sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=stephenson-improved-tender
 
-EmptyImage[E]=./images/stephenson-improved_E.0.0
-EmptyImage[SE]=./images/stephenson-improved_SE.0.0
-EmptyImage[S]=./images/stephenson-improved_S.0.0
-EmptyImage[SW]=./images/stephenson-improved_SW.0.0
-EmptyImage[W]=./images/stephenson-improved_W.0.0
-EmptyImage[NW]=./images/stephenson-improved_NW.0.0
-EmptyImage[N]=./images/stephenson-improved_N.0.0
-EmptyImage[NE]=./images/stephenson-improved_NE.0.0
+EmptyImage[E]=./locomotives/stephenson-improved_E.0.0
+EmptyImage[SE]=./locomotives/stephenson-improved_SE.0.0
+EmptyImage[S]=./locomotives/stephenson-improved_S.0.0
+EmptyImage[SW]=./locomotives/stephenson-improved_SW.0.0
+EmptyImage[W]=./locomotives/stephenson-improved_W.0.0
+EmptyImage[NW]=./locomotives/stephenson-improved_NW.0.0
+EmptyImage[N]=./locomotives/stephenson-improved_N.0.0
+EmptyImage[NE]=./locomotives/stephenson-improved_NE.0.0
 
 ---
 
@@ -63,14 +63,15 @@ weight=1
 axles=2
 cost=0
 runningcost=0
+fixed_cost=0
 
 Constraint[Prev][0]=stephenson-improved
 
-EmptyImage[E]=./images/stephenson-dodd-patent-tender_E.0.0
-EmptyImage[SE]=./images/stephenson-dodd-patent-tender_SE.0.0
-EmptyImage[S]=./images/stephenson-dodd-patent-tender_S.0.0
-EmptyImage[SW]=./images/stephenson-dodd-patent-tender_SW.0.0
-EmptyImage[W]=./images/stephenson-dodd-patent-tender_W.0.0
-EmptyImage[NW]=./images/stephenson-dodd-patent-tender_NW.0.0
-EmptyImage[N]=./images/stephenson-dodd-patent-tender_N.0.0
-EmptyImage[NE]=./images/stephenson-dodd-patent-tender_NE.0.0
+EmptyImage[E]=./locomotives/stephenson-dodd-patent-tender_E.0.0
+EmptyImage[SE]=./locomotives/stephenson-dodd-patent-tender_SE.0.0
+EmptyImage[S]=./locomotives/stephenson-dodd-patent-tender_S.0.0
+EmptyImage[SW]=./locomotives/stephenson-dodd-patent-tender_SW.0.0
+EmptyImage[W]=./locomotives/stephenson-dodd-patent-tender_W.0.0
+EmptyImage[NW]=./locomotives/stephenson-dodd-patent-tender_NW.0.0
+EmptyImage[N]=./locomotives/stephenson-dodd-patent-tender_N.0.0
+EmptyImage[NE]=./locomotives/stephenson-dodd-patent-tender_NE.0.0

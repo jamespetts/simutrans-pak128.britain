@@ -4,11 +4,12 @@ waytype=road
 cost=6500
 maintenance=250
 topspeed=35
-max_weight=3
+max_weight=6
 intro_year=1765
 intro_month=1
 retire_year=1948
 retire_month=12
+
 # Approx. 0.2msa
 wear_capacity=13160000
 
@@ -72,4 +73,3 @@ Diagonal[NE][1]=./images/cobbles-snow.3.6
 Diagonal[SE][1]=./images/cobbles-snow.0.6
 Diagonal[NW][1]=./images/cobbles-snow.1.6
 Diagonal[SW][1]=./images/cobbles-snow.2.6
---

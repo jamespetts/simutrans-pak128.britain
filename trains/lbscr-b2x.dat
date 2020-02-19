@@ -4,7 +4,7 @@ engine_type=steam
 smoke=Steam
 speed=132
 # Extrapolated
-power=243
+power=262
 # http://en.wikipedia.org/wiki/LB%26SCR_B2_class
 tractive_effort=67
 copyright=James/jamespetts
@@ -21,7 +21,8 @@ weight=43
 axle_load=15
 cost=5900000
 upgrade_price=2000000
-runningcost=1700
+runningcost=105
+fixed_cost=28917
 sound=lwalker-br-4mt-tank.wav
 available_only_as_upgrade=1
 
@@ -30,21 +31,21 @@ Constraint[Next][0]=LBSCR-B2-tender
 liverytype[0]=LBSCR-Marsh
 liverytype[1]=SR-Olive-Green
 
-EmptyImage[E][0]=./images/lbscr-b2x-umber.1.4
-EmptyImage[SE][0]=./images/lbscr-b2x-umber.1.5
-EmptyImage[S][0]=./images/lbscr-b2x-umber.1.6
-EmptyImage[SW][0]=./images/lbscr-b2x-umber.1.7
-EmptyImage[W][0]=./images/lbscr-b2x-umber.1.0
-EmptyImage[NW][0]=./images/lbscr-b2x-umber.1.1
-EmptyImage[N][0]=./images/lbscr-b2x-umber.1.2
-EmptyImage[NE][0]=./images/lbscr-b2x-umber.1.3
+EmptyImage[E][0]=./locomotives/lbscr-b2x-umber_E.0.0
+EmptyImage[SE][0]=./locomotives/lbscr-b2x-umber_SE.0.0
+EmptyImage[S][0]=./locomotives/lbscr-b2x-umber_S.0.0
+EmptyImage[SW][0]=./locomotives/lbscr-b2x-umber_SW.0.0
+EmptyImage[W][0]=./locomotives/lbscr-b2x-umber_W.0.0
+EmptyImage[NW][0]=./locomotives/lbscr-b2x-umber_NW.0.0
+EmptyImage[N][0]=./locomotives/lbscr-b2x-umber_N.0.0
+EmptyImage[NE][0]=./locomotives/lbscr-b2x-umber_NE.0.0
 
-EmptyImage[E][1]=./images/lbscr-b2x-olive.1.4
-EmptyImage[SE][1]=./images/lbscr-b2x-olive.1.5
-EmptyImage[S][1]=./images/lbscr-b2x-olive.1.6
-EmptyImage[SW][1]=./images/lbscr-b2x-olive.1.7
-EmptyImage[W][1]=./images/lbscr-b2x-olive.1.0
-EmptyImage[NW][1]=./images/lbscr-b2x-olive.1.1
-EmptyImage[N][1]=./images/lbscr-b2x-olive.1.2
-EmptyImage[NE][1]=./images/lbscr-b2x-olive.1.3
+EmptyImage[E][1]=./locomotives/lbscr-b2x-olive_E.0.0
+EmptyImage[SE][1]=./locomotives/lbscr-b2x-olive_SE.0.0
+EmptyImage[S][1]=./locomotives/lbscr-b2x-olive_S.0.0
+EmptyImage[SW][1]=./locomotives/lbscr-b2x-olive_SW.0.0
+EmptyImage[W][1]=./locomotives/lbscr-b2x-olive_W.0.0
+EmptyImage[NW][1]=./locomotives/lbscr-b2x-olive_NW.0.0
+EmptyImage[N][1]=./locomotives/lbscr-b2x-olive_N.0.0
+EmptyImage[NE][1]=./locomotives/lbscr-b2x-olive_NE.0.0
 

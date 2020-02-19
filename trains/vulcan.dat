@@ -25,17 +25,17 @@ rolling_resistance=19
 weight=17.2
 axle_load=6
 cost=6790000
-runningcost=16
-fixed_cost=1400
+runningcost=122
+fixed_cost=25431
 sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=LMR-Planet-Tender
 
-EmptyImage[E]=./images/vulcan_E.0.0
-EmptyImage[SE]=./images/vulcan_SE.0.0
-EmptyImage[S]=./images/vulcan_S.0.0
-EmptyImage[SW]=./images/vulcan_SW.0.0
-EmptyImage[W]=./images/vulcan_W.0.0
-EmptyImage[NW]=./images/vulcan_NW.0.0
-EmptyImage[N]=./images/vulcan_N.0.0
-EmptyImage[NE]=./images/vulcan_NE.0.0
+EmptyImage[E]=./locomotives/vulcan_E.0.0
+EmptyImage[SE]=./locomotives/vulcan_SE.0.0
+EmptyImage[S]=./locomotives/vulcan_S.0.0
+EmptyImage[SW]=./locomotives/vulcan_SW.0.0
+EmptyImage[W]=./locomotives/vulcan_W.0.0
+EmptyImage[NW]=./locomotives/vulcan_NW.0.0
+EmptyImage[N]=./locomotives/vulcan_N.0.0
+EmptyImage[NE]=./locomotives/vulcan_NE.0.0

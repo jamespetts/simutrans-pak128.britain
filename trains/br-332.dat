@@ -24,7 +24,8 @@ rolling_resistance=13
 weight=50
 axles=4
 cost=1057500
-runningcost=126
+runningcost=70
+fixed_cost=6881
 
 min_loading_time=22
 max_loading_time=65
@@ -43,14 +44,14 @@ Constraint[Prev][2]=none
 
 Constraint[Next][0]=BR-332(centre2)
 
-EmptyImage[E]=./images/br-332-front-hex.1.4
-EmptyImage[SE]=./images/br-332-front-hex.1.5
-EmptyImage[S]=./images/br-332-front-hex.1.6
-EmptyImage[SW]=./images/br-332-front-hex.1.7
-EmptyImage[W]=./images/br-332-front-hex.1.0
-EmptyImage[NW]=./images/br-332-front-hex.1.1
-EmptyImage[N]=./images/br-332-front-hex.1.2
-EmptyImage[NE]=./images/br-332-front-hex.1.3
+EmptyImage[E]=./railcars/br-332-front-hex.1.4
+EmptyImage[SE]=./railcars/br-332-front-hex.1.5
+EmptyImage[S]=./railcars/br-332-front-hex.1.6
+EmptyImage[SW]=./railcars/br-332-front-hex.1.7
+EmptyImage[W]=./railcars/br-332-front-hex.1.0
+EmptyImage[NW]=./railcars/br-332-front-hex.1.1
+EmptyImage[N]=./railcars/br-332-front-hex.1.2
+EmptyImage[NE]=./railcars/br-332-front-hex.1.3
 
 ---
 
@@ -79,7 +80,8 @@ rolling_resistance=13
 weight=46
 axles=4
 cost=1899100
-runningcost=43
+runningcost=0
+fixed_cost=3956
 
 min_loading_time=22
 max_loading_time=65
@@ -98,14 +100,14 @@ Constraint[Prev][1]=BR-332(centre1)
 Constraint[Next][0]=BR-332(centre1)
 Constraint[Next][1]=BR-332(rear)
 
-EmptyImage[E]=./images/br-332-middle-hex.1.4
-EmptyImage[SE]=./images/br-332-middle-hex.1.5
-EmptyImage[S]=./images/br-332-middle-hex.1.6
-EmptyImage[SW]=./images/br-332-middle-hex.1.7
-EmptyImage[W]=./images/br-332-middle-hex.1.0
-EmptyImage[NW]=./images/br-332-middle-hex.1.1
-EmptyImage[N]=./images/br-332-middle-hex.1.2
-EmptyImage[NE]=./images/br-332-middle-hex.1.3
+EmptyImage[E]=./railcars/br-332-middle-hex.1.4
+EmptyImage[SE]=./railcars/br-332-middle-hex.1.5
+EmptyImage[S]=./railcars/br-332-middle-hex.1.6
+EmptyImage[SW]=./railcars/br-332-middle-hex.1.7
+EmptyImage[W]=./railcars/br-332-middle-hex.1.0
+EmptyImage[NW]=./railcars/br-332-middle-hex.1.1
+EmptyImage[N]=./railcars/br-332-middle-hex.1.2
+EmptyImage[NE]=./railcars/br-332-middle-hex.1.3
 ---
 
 obj=vehicle
@@ -133,7 +135,8 @@ rolling_resistance=13
 weight=39
 axles=4
 cost=1899100
-runningcost=43
+runningcost=0
+fixed_cost=3956
 
 min_loading_time=22
 max_loading_time=65
@@ -151,14 +154,14 @@ Constraint[Prev][0]=BR-332(front)
 Constraint[Next][0]=BR-332(centre1)
 Constraint[Next][1]=BR-332(rear)
 
-EmptyImage[E]=./images/br-332-panto-hex.1.4
-EmptyImage[SE]=./images/br-332-panto-hex.1.5
-EmptyImage[S]=./images/br-332-panto-hex.1.6
-EmptyImage[SW]=./images/br-332-panto-hex.1.7
-EmptyImage[W]=./images/br-332-panto-hex.1.0
-EmptyImage[NW]=./images/br-332-panto-hex.1.1
-EmptyImage[N]=./images/br-332-panto-hex.1.2
-EmptyImage[NE]=./images/br-332-panto-hex.1.3
+EmptyImage[E]=./railcars/br-332-panto-hex.1.4
+EmptyImage[SE]=./railcars/br-332-panto-hex.1.5
+EmptyImage[S]=./railcars/br-332-panto-hex.1.6
+EmptyImage[SW]=./railcars/br-332-panto-hex.1.7
+EmptyImage[W]=./railcars/br-332-panto-hex.1.0
+EmptyImage[NW]=./railcars/br-332-panto-hex.1.1
+EmptyImage[N]=./railcars/br-332-panto-hex.1.2
+EmptyImage[NE]=./railcars/br-332-panto-hex.1.3
 
 ---
 
@@ -188,7 +191,8 @@ rolling_resistance=13
 weight=50
 axles=4
 cost=1057500
-runningcost=126
+runningcost=70
+fixed_cost=6881
 
 min_loading_time=22
 max_loading_time=65
@@ -208,11 +212,11 @@ Constraint[Next][0]=BR-332(front)
 Constraint[Next][1]=BR-333(front)
 Constraint[Next][2]=none
 
-EmptyImage[E]=./images/br-332-rear-hex.1.4
-EmptyImage[SE]=./images/br-332-rear-hex.1.5
-EmptyImage[S]=./images/br-332-rear-hex.1.6
-EmptyImage[SW]=./images/br-332-rear-hex.1.7
-EmptyImage[W]=./images/br-332-rear-hex.1.0
-EmptyImage[NW]=./images/br-332-rear-hex.1.1
-EmptyImage[N]=./images/br-332-rear-hex.1.2
-EmptyImage[NE]=./images/br-332-rear-hex.1.3
+EmptyImage[E]=./railcars/br-332-rear-hex.1.4
+EmptyImage[SE]=./railcars/br-332-rear-hex.1.5
+EmptyImage[S]=./railcars/br-332-rear-hex.1.6
+EmptyImage[SW]=./railcars/br-332-rear-hex.1.7
+EmptyImage[W]=./railcars/br-332-rear-hex.1.0
+EmptyImage[NW]=./railcars/br-332-rear-hex.1.1
+EmptyImage[N]=./railcars/br-332-rear-hex.1.2
+EmptyImage[NE]=./railcars/br-332-rear-hex.1.3

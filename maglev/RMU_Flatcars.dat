@@ -17,7 +17,8 @@ length=16
 weight=16
 axles=1
 cost=1800000
-runningcost=100
+runningcost=53
+fixed_cost=938
 
 
 can_lead_from_rear=0
@@ -79,7 +80,8 @@ length=16
 weight=16
 axles=1
 cost=1800000
-runningcost=100
+runningcost=53
+fixed_cost=938
 
 
 can_lead_from_rear=0

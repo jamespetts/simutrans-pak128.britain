@@ -17,8 +17,8 @@ length=2
 weight=1
 axle_load=0
 cost=52500
-runningcost=1
-fixed_cost=500
+runningcost=3
+fixed_cost=2909
 
 sound=arnaud-coutancier-canal-horses.wav
 

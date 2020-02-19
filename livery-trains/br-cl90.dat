@@ -16,7 +16,8 @@ length=11
 
 weight=85
 cost=6552000
-runningcost=2176
+runningcost=586
+fixed_cost=11460
 sound=-1
 
 EmptyImage[E]=./images/br-cl90-gner.0.0
@@ -46,7 +47,8 @@ length=11
 
 weight=85
 cost=6552000
-runningcost=2176
+runningcost=586
+fixed_cost=11460
 sound=-1
 
 EmptyImage[E]=./images/br-cl90-nx.0.0

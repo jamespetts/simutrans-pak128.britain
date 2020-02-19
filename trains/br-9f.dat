@@ -6,8 +6,8 @@ speed=110
 # See http://www.traintesting.com/bulletin_13.htm for information on power.
 # However, the figure suggests over 800kW, which would give >12% thermal
 # efficiency, which is not accurate, so extrapolated on the basis of 
-# 8% thermal efficiency instead.
-power=591
+# 7% thermal efficiency instead.
+power=601
 tractive_effort=176
 copyright=Kieron
 intro_year=1954
@@ -25,19 +25,20 @@ way_wear_factor=122188
 weight=85
 axle_load=16
 cost=7948000
-runningcost=1584
+runningcost=445
+fixed_cost=56558
 sound=konakaboom-black-five.wav
 increase_maintenance_after_years=4
 years_before_maintenance_max_reached=12
 
 Constraint[Next][0]=BR-9F-Tender
 
-EmptyImage[E]=./images/br-9f.0.0
-EmptyImage[SE]=./images/br-9f.0.1
-EmptyImage[S]=./images/br-9f.0.2
-EmptyImage[SW]=./images/br-9f.0.3
-EmptyImage[W]=./images/br-9f.0.4
-EmptyImage[NW]=./images/br-9f.0.5
-EmptyImage[N]=./images/br-9f.0.6
-EmptyImage[NE]=./images/br-9f.0.7
+EmptyImage[E]=./locomotives/br-9f_E.0.0
+EmptyImage[SE]=./locomotives/br-9f_SE.0.0
+EmptyImage[S]=./locomotives/br-9f_S.0.0
+EmptyImage[SW]=./locomotives/br-9f_SW.0.0
+EmptyImage[W]=./locomotives/br-9f_W.0.0
+EmptyImage[NW]=./locomotives/br-9f_NW.0.0
+EmptyImage[N]=./locomotives/br-9f_N.0.0
+EmptyImage[NE]=./locomotives/br-9f_NE.0.0
 

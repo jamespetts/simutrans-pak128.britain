@@ -1,0 +1,78 @@
+# https://en.wikipedia.org/wiki/GWR_481_Class
+obj=vehicle
+name=gwr-481
+engine_type=steam
+smoke=Steam
+speed=110
+# Extrapolated
+# Data not available, so guessed. Known to be smaller than the 717 class.
+power=176
+# Data not available, so guessed. Known to be smaller than the 717 class.
+tractive_effort=40
+copyright=James/JamesPetts
+# Actually introduced in 1869, but the earlier "Bicycle" class was built
+# in 1868, and this was only cosmetically different to this class. The 
+# "Bicycle" class is not represented owing to the lack of drawings or pictures.
+intro_year=1868
+intro_month=1
+retire_year=1875
+retire_month=5
+waytype=track
+freight=None
+payload=0
+length=4
+brake_force=0
+
+# Not given in sources
+# Guessed
+weight=37.9
+# Guessed
+axle_load=14
+cost=10727889
+runningcost=215
+fixed_cost=29950
+sound=nick-parry-gwr-city-class.wav
+
+Constraint[Next][0]=gwr-armstrong-tender
+
+liverytype[0]=GWR-early
+liverytype[1]=GWR-dark-green
+liverytype[2]=GWR-standard-green
+liverytype[3]=GWR-overall-brown
+
+EmptyImage[E][0]=./locomotives/gwr-481-early_E.0.0
+EmptyImage[SE][0]=./locomotives/gwr-481-early_SE.0.0
+EmptyImage[S][0]=./locomotives/gwr-481-early_S.0.0
+EmptyImage[SW][0]=./locomotives/gwr-481-early_SW.0.0
+EmptyImage[W][0]=./locomotives/gwr-481-early_W.0.0
+EmptyImage[NW][0]=./locomotives/gwr-481-early_NW.0.0
+EmptyImage[N][0]=./locomotives/gwr-481-early_N.0.0
+EmptyImage[NE][0]=./locomotives/gwr-481-early_NE.0.0
+
+EmptyImage[E][1]=./locomotives/gwr-481-dark-green_E.0.0
+EmptyImage[SE][1]=./locomotives/gwr-481-dark-green_SE.0.0
+EmptyImage[S][1]=./locomotives/gwr-481-dark-green_S.0.0
+EmptyImage[SW][1]=./locomotives/gwr-481-dark-green_SW.0.0
+EmptyImage[W][1]=./locomotives/gwr-481-dark-green_W.0.0
+EmptyImage[NW][1]=./locomotives/gwr-481-dark-green_NW.0.0
+EmptyImage[N][1]=./locomotives/gwr-481-dark-green_N.0.0
+EmptyImage[NE][1]=./locomotives/gwr-481-dark-green_NE.0.0
+
+EmptyImage[E][2]=./locomotives/gwr-481_E.0.0
+EmptyImage[SE][2]=./locomotives/gwr-481_SE.0.0
+EmptyImage[S][2]=./locomotives/gwr-481_S.0.0
+EmptyImage[SW][2]=./locomotives/gwr-481_SW.0.0
+EmptyImage[W][2]=./locomotives/gwr-481_W.0.0
+EmptyImage[NW][2]=./locomotives/gwr-481_NW.0.0
+EmptyImage[N][2]=./locomotives/gwr-481_N.0.0
+EmptyImage[NE][2]=./locomotives/gwr-481_NE.0.0
+
+EmptyImage[E][3]=./locomotives/gwr-481-churchward_E.0.0
+EmptyImage[SE][3]=./locomotives/gwr-481-churchward_SE.0.0
+EmptyImage[S][3]=./locomotives/gwr-481-churchward_S.0.0
+EmptyImage[SW][3]=./locomotives/gwr-481-churchward_SW.0.0
+EmptyImage[W][3]=./locomotives/gwr-481-churchward_W.0.0
+EmptyImage[NW][3]=./locomotives/gwr-481-churchward_NW.0.0
+EmptyImage[N][3]=./locomotives/gwr-481-churchward_N.0.0
+EmptyImage[NE][3]=./locomotives/gwr-481-churchward_NE.0.0
+

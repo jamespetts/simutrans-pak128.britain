@@ -21,7 +21,8 @@ rolling_resistance=13
 weight=73
 axles=4
 cost=7056000
-runningcost=398
+runningcost=579
+fixed_cost=14900
 sound=androo4519-class-33.wav
 increase_maintenance_after_years=11
 
@@ -37,21 +38,21 @@ Constraint[Prev][2]=none
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue
 
-EmptyImage[E][0]=./images/br-cl33-g.1.4
-EmptyImage[SE][0]=./images/br-cl33-g.1.5
-EmptyImage[S][0]=./images/br-cl33-g.1.6
-EmptyImage[SW][0]=./images/br-cl33-g.1.7
-EmptyImage[W][0]=./images/br-cl33-g.1.0
-EmptyImage[NW][0]=./images/br-cl33-g.1.1
-EmptyImage[N][0]=./images/br-cl33-g.1.2
-EmptyImage[NE][0]=./images/br-cl33-g.1.3
+EmptyImage[E][0]=./locomotives/br-cl33-g_E.0.0
+EmptyImage[SE][0]=./locomotives/br-cl33-g_SE.0.0
+EmptyImage[S][0]=./locomotives/br-cl33-g_S.0.0
+EmptyImage[SW][0]=./locomotives/br-cl33-g_SW.0.0
+EmptyImage[W][0]=./locomotives/br-cl33-g_W.0.0
+EmptyImage[NW][0]=./locomotives/br-cl33-g_NW.0.0
+EmptyImage[N][0]=./locomotives/br-cl33-g_N.0.0
+EmptyImage[NE][0]=./locomotives/br-cl33-g_NE.0.0
 
-EmptyImage[E][1]=./images/br-cl33-b.1.4
-EmptyImage[SE][1]=./images/br-cl33-b.1.5
-EmptyImage[S][1]=./images/br-cl33-b.1.6
-EmptyImage[SW][1]=./images/br-cl33-b.1.7
-EmptyImage[W][1]=./images/br-cl33-b.1.0
-EmptyImage[NW][1]=./images/br-cl33-b.1.1
-EmptyImage[N][1]=./images/br-cl33-b.1.2
-EmptyImage[NE][1]=./images/br-cl33-b.1.3
+EmptyImage[E][1]=./locomotives/br-cl33-b_E.0.0
+EmptyImage[SE][1]=./locomotives/br-cl33-b_SE.0.0
+EmptyImage[S][1]=./locomotives/br-cl33-b_S.0.0
+EmptyImage[SW][1]=./locomotives/br-cl33-b_SW.0.0
+EmptyImage[W][1]=./locomotives/br-cl33-b_W.0.0
+EmptyImage[NW][1]=./locomotives/br-cl33-b_NW.0.0
+EmptyImage[N][1]=./locomotives/br-cl33-b_N.0.0
+EmptyImage[NE][1]=./locomotives/br-cl33-b_NE.0.0
 

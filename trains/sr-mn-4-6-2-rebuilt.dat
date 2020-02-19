@@ -4,13 +4,13 @@ engine_type=steam
 smoke=Steam
 speed=160
 # (Was formerly calibrated as below)
-# 68mph (108.8km/h) up a 1/80 gradient: see http://www.traintesting.com/images/Mn%2035020%20results.jpg
+# 68mph (108.8km/h) up a 1/80 gradient: see http://www.traintesting.com/locomotives/Mn%2035020%20results.jpg
 # Load not given, but a picture appears to show approx. 9 carriages including dynomometer car:
-# http://www.traintesting.com/images/MN%2035020%20on%20road.jpg
+# http://www.traintesting.com/locomotives/MN%2035020%20on%20road.jpg
 # 395kW assuming on level; adjusted to +175kW for gradient
 #
 # Now extrapolated. Calibration from data as above produces a result inconsistently low compared to other locomotives.
-power=681
+power=690
 tractive_effort=149
 copyright=Kieron/JamesPetts
 intro_year=1956
@@ -28,7 +28,8 @@ axle_load=21
 way_wear_factor=136813
 cost=13522500
 upgrade_price=6900000
-runningcost=2178
+runningcost=514
+fixed_cost=68172
 sound=konakaboom-black-five.wav
 increase_maintenance_after_years=4
 years_before_maintenance_max_reached=10
@@ -37,12 +38,12 @@ available_only_as_upgrade=1
 
 Constraint[Next][0]=BR-7MT-Tender
 
-EmptyImage[E]=./images/sr-mn-4-6-2-rebuilt.0.0
-EmptyImage[SE]=./images/sr-mn-4-6-2-rebuilt.0.1
-EmptyImage[S]=./images/sr-mn-4-6-2-rebuilt.0.2
-EmptyImage[SW]=./images/sr-mn-4-6-2-rebuilt.0.3
-EmptyImage[W]=./images/sr-mn-4-6-2-rebuilt.0.4
-EmptyImage[NW]=./images/sr-mn-4-6-2-rebuilt.0.5
-EmptyImage[N]=./images/sr-mn-4-6-2-rebuilt.0.6
-EmptyImage[NE]=./images/sr-mn-4-6-2-rebuilt.0.7
+EmptyImage[E]=./locomotives/sr-mn-4-6-2-rebuilt_E.0.0
+EmptyImage[SE]=./locomotives/sr-mn-4-6-2-rebuilt_SE.0.0
+EmptyImage[S]=./locomotives/sr-mn-4-6-2-rebuilt_S.0.0
+EmptyImage[SW]=./locomotives/sr-mn-4-6-2-rebuilt_SW.0.0
+EmptyImage[W]=./locomotives/sr-mn-4-6-2-rebuilt_W.0.0
+EmptyImage[NW]=./locomotives/sr-mn-4-6-2-rebuilt_NW.0.0
+EmptyImage[N]=./locomotives/sr-mn-4-6-2-rebuilt_N.0.0
+EmptyImage[NE]=./locomotives/sr-mn-4-6-2-rebuilt_NE.0.0
 

@@ -28,20 +28,20 @@ way_wear_factor=15888
 weight=8.5
 axle_load=5
 cost=5000000
-runningcost=85
-fixed_cost=26083
+runningcost=87
+fixed_cost=22944
 sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=bury-bar-frame-tender
 
-EmptyImage[E]=./images/bury-bar-frame-passenger_E.0.0
-EmptyImage[SE]=./images/bury-bar-frame-passenger_SE.0.0
-EmptyImage[S]=./images/bury-bar-frame-passenger_S.0.0
-EmptyImage[SW]=./images/bury-bar-frame-passenger_SW.0.0
-EmptyImage[W]=./images/bury-bar-frame-passenger_W.0.0
-EmptyImage[NW]=./images/bury-bar-frame-passenger_NW.0.0
-EmptyImage[N]=./images/bury-bar-frame-passenger_N.0.0
-EmptyImage[NE]=./images/bury-bar-frame-passenger_NE.0.0
+EmptyImage[E]=./locomotives/bury-bar-frame-passenger_E.0.0
+EmptyImage[SE]=./locomotives/bury-bar-frame-passenger_SE.0.0
+EmptyImage[S]=./locomotives/bury-bar-frame-passenger_S.0.0
+EmptyImage[SW]=./locomotives/bury-bar-frame-passenger_SW.0.0
+EmptyImage[W]=./locomotives/bury-bar-frame-passenger_W.0.0
+EmptyImage[NW]=./locomotives/bury-bar-frame-passenger_NW.0.0
+EmptyImage[N]=./locomotives/bury-bar-frame-passenger_N.0.0
+EmptyImage[NE]=./locomotives/bury-bar-frame-passenger_NE.0.0
 
 ---
 
@@ -65,15 +65,17 @@ rolling_resistance=19
 weight=1
 cost=0
 runningcost=0
+fixed_cost=0
 
+#fixed_coupling[prev]=1
 Constraint[Prev][0]=bury-bar-frame-passenger
 Constraint[Prev][1]=bury-bar-frame-goods
 
-EmptyImage[E]=./images/bury-bar-frame-tender_E.0.0
-EmptyImage[SE]=./images/bury-bar-frame-tender_SE.0.0
-EmptyImage[S]=./images/bury-bar-frame-tender_S.0.0
-EmptyImage[SW]=./images/bury-bar-frame-tender_SW.0.0
-EmptyImage[W]=./images/bury-bar-frame-tender_W.0.0
-EmptyImage[NW]=./images/bury-bar-frame-tender_NW.0.0
-EmptyImage[N]=./images/bury-bar-frame-tender_N.0.0
-EmptyImage[NE]=./images/bury-bar-frame-tender_NE.0.0
+EmptyImage[E]=./locomotives/bury-bar-frame-tender_E.0.0
+EmptyImage[SE]=./locomotives/bury-bar-frame-tender_SE.0.0
+EmptyImage[S]=./locomotives/bury-bar-frame-tender_S.0.0
+EmptyImage[SW]=./locomotives/bury-bar-frame-tender_SW.0.0
+EmptyImage[W]=./locomotives/bury-bar-frame-tender_W.0.0
+EmptyImage[NW]=./locomotives/bury-bar-frame-tender_NW.0.0
+EmptyImage[N]=./locomotives/bury-bar-frame-tender_N.0.0
+EmptyImage[NE]=./locomotives/bury-bar-frame-tender_NE.0.0

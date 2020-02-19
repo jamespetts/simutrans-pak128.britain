@@ -14,35 +14,38 @@ waytype=track
 freight=Passagiere
 payload[0]=0
 payload[1]=50
+payload[2]=0
 overcrowded_capacity=25
-length=5
+length=4
 brake_force=0
 rolling_resistance=19
 
 weight=8
 axles=2
 cost=200000
-runningcost=20
-fixed_cost=83
+runningcost=0
+fixed_cost=238
 
 comfort[0]=0
 comfort[1]=38
+comfort[2]=42
 min_loading_time=17
 max_loading_time=47
 
 can_lead_from_rear=0
 bidirectional=1
 
+Constraint[Prev][0]=any
 Constraint[Next][0]=any
 
-EmptyImage[E]=./images/lbscr-4wheel-craven-third.1.4
-EmptyImage[SE]=./images/lbscr-4wheel-craven-third.1.5
-EmptyImage[S]=./images/lbscr-4wheel-craven-third.1.6
-EmptyImage[SW]=./images/lbscr-4wheel-craven-third.1.7
-EmptyImage[W]=./images/lbscr-4wheel-craven-third.1.0
-EmptyImage[NW]=./images/lbscr-4wheel-craven-third.1.1
-EmptyImage[N]=./images/lbscr-4wheel-craven-third.1.2
-EmptyImage[NE]=./images/lbscr-4wheel-craven-third.1.3
+EmptyImage[E]=./carriages/lbscr-4wheel-craven-third_E.0.0
+EmptyImage[SE]=./carriages/lbscr-4wheel-craven-third_SE.0.0
+EmptyImage[S]=./carriages/lbscr-4wheel-craven-third_S.0.0
+EmptyImage[SW]=./carriages/lbscr-4wheel-craven-third_SW.0.0
+EmptyImage[W]=./carriages/lbscr-4wheel-craven-third_W.0.0
+EmptyImage[NW]=./carriages/lbscr-4wheel-craven-third_NW.0.0
+EmptyImage[N]=./carriages/lbscr-4wheel-craven-third_N.0.0
+EmptyImage[NE]=./carriages/lbscr-4wheel-craven-third_NE.0.0
 
 ---
 
@@ -58,36 +61,39 @@ retire_month=4
 waytype=track
 freight=Passagiere
 payload[0]=0
-payload[1]=40
+payload[1]=0
+payload[2]=40
 overcrowded_capacity=20
-length=5
+length=4
 brake_force=0
 rolling_resistance=19
 
 weight=8
 axles=2
 cost=200000
-runningcost=20
-fixed_cost=83
+runningcost=0
+fixed_cost=238
 
 comfort[0]=0
-comfort[1]=42
+comfort[1]=38
+comfort[2]=42
 min_loading_time=17
 max_loading_time=47
 
 can_lead_from_rear=0
 bidirectional=1
 
+Constraint[Prev][0]=any
 Constraint[Next][0]=any
 
-EmptyImage[E]=./images/lbscr-4wheel-craven-second.1.4
-EmptyImage[SE]=./images/lbscr-4wheel-craven-second.1.5
-EmptyImage[S]=./images/lbscr-4wheel-craven-second.1.6
-EmptyImage[SW]=./images/lbscr-4wheel-craven-second.1.7
-EmptyImage[W]=./images/lbscr-4wheel-craven-second.1.0
-EmptyImage[NW]=./images/lbscr-4wheel-craven-second.1.1
-EmptyImage[N]=./images/lbscr-4wheel-craven-second.1.2
-EmptyImage[NE]=./images/lbscr-4wheel-craven-second.1.3
+EmptyImage[E]=./carriages/lbscr-4wheel-craven-second_E.0.0
+EmptyImage[SE]=./carriages/lbscr-4wheel-craven-second_SE.0.0
+EmptyImage[S]=./carriages/lbscr-4wheel-craven-second_S.0.0
+EmptyImage[SW]=./carriages/lbscr-4wheel-craven-second_SW.0.0
+EmptyImage[W]=./carriages/lbscr-4wheel-craven-second_W.0.0
+EmptyImage[NW]=./carriages/lbscr-4wheel-craven-second_NW.0.0
+EmptyImage[N]=./carriages/lbscr-4wheel-craven-second_N.0.0
+EmptyImage[NE]=./carriages/lbscr-4wheel-craven-second_NE.0.0
 
 ---
 
@@ -104,15 +110,15 @@ freight=Passagiere
 payload[0]=0
 payload[1]=30
 overcrowded_capacity=15
-length=5
+length=4
 brake_force=3
 rolling_resistance=19
 
 weight=8
 axles=2
 cost=200000
-runningcost=21
-fixed_cost=4883
+runningcost=0
+fixed_cost=5038
 
 comfort[0]=0
 comfort[1]=38
@@ -122,16 +128,17 @@ max_loading_time=47
 can_lead_from_rear=0
 bidirectional=1
 
+Constraint[Prev][0]=any
 Constraint[Next][0]=any
 
-EmptyImage[E]=./images/lbscr-4wheel-craven-brake-third-front.1.4
-EmptyImage[SE]=./images/lbscr-4wheel-craven-brake-third-front.1.5
-EmptyImage[S]=./images/lbscr-4wheel-craven-brake-third-front.1.6
-EmptyImage[SW]=./images/lbscr-4wheel-craven-brake-third-front.1.7
-EmptyImage[W]=./images/lbscr-4wheel-craven-brake-third-front.1.0
-EmptyImage[NW]=./images/lbscr-4wheel-craven-brake-third-front.1.1
-EmptyImage[N]=./images/lbscr-4wheel-craven-brake-third-front.1.2
-EmptyImage[NE]=./images/lbscr-4wheel-craven-brake-third-front.1.3
+EmptyImage[E]=./carriages/lbscr-4wheel-craven-brake-third-front_E.0.0
+EmptyImage[SE]=./carriages/lbscr-4wheel-craven-brake-third-front_SE.0.0
+EmptyImage[S]=./carriages/lbscr-4wheel-craven-brake-third-front_S.0.0
+EmptyImage[SW]=./carriages/lbscr-4wheel-craven-brake-third-front_SW.0.0
+EmptyImage[W]=./carriages/lbscr-4wheel-craven-brake-third-front_W.0.0
+EmptyImage[NW]=./carriages/lbscr-4wheel-craven-brake-third-front_NW.0.0
+EmptyImage[N]=./carriages/lbscr-4wheel-craven-brake-third-front_N.0.0
+EmptyImage[NE]=./carriages/lbscr-4wheel-craven-brake-third-front_NE.0.0
 
 ---
 
@@ -148,15 +155,15 @@ freight=Passagiere
 payload[0]=0
 payload[1]=30
 overcrowded_capacity=15
-length=5
+length=4
 brake_force=3
 rolling_resistance=19
 
 weight=8
 axles=2
 cost=200000
-runningcost=21
-fixed_cost=4883
+runningcost=0
+fixed_cost=5038
 
 comfort[0]=0
 comfort[1]=38
@@ -166,14 +173,14 @@ max_loading_time=47
 can_lead_from_rear=0
 bidirectional=1
 
-EmptyImage[E]=./images/lbscr-4wheel-craven-brake-third-rear.1.4
-EmptyImage[SE]=./images/lbscr-4wheel-craven-brake-third-rear.1.5
-EmptyImage[S]=./images/lbscr-4wheel-craven-brake-third-rear.1.6
-EmptyImage[SW]=./images/lbscr-4wheel-craven-brake-third-rear.1.7
-EmptyImage[W]=./images/lbscr-4wheel-craven-brake-third-rear.1.0
-EmptyImage[NW]=./images/lbscr-4wheel-craven-brake-third-rear.1.1
-EmptyImage[N]=./images/lbscr-4wheel-craven-brake-third-rear.1.2
-EmptyImage[NE]=./images/lbscr-4wheel-craven-brake-third-rear.1.3
+EmptyImage[E]=./carriages/lbscr-4wheel-craven-brake-third-rear_E.0.0
+EmptyImage[SE]=./carriages/lbscr-4wheel-craven-brake-third-rear_SE.0.0
+EmptyImage[S]=./carriages/lbscr-4wheel-craven-brake-third-rear_S.0.0
+EmptyImage[SW]=./carriages/lbscr-4wheel-craven-brake-third-rear_SW.0.0
+EmptyImage[W]=./carriages/lbscr-4wheel-craven-brake-third-rear_W.0.0
+EmptyImage[NW]=./carriages/lbscr-4wheel-craven-brake-third-rear_NW.0.0
+EmptyImage[N]=./carriages/lbscr-4wheel-craven-brake-third-rear_N.0.0
+EmptyImage[NE]=./carriages/lbscr-4wheel-craven-brake-third-rear_NE.0.0
 
 ---
 
@@ -195,8 +202,8 @@ rolling_resistance=19
 weight=8
 axles=2
 cost=154000
-runningcost=19
-fixed_cost=64
+runningcost=0
+fixed_cost=183
 
 min_loading_time=35
 max_loading_time=100
@@ -205,14 +212,14 @@ can_lead_from_rear=0
 bidirectional=1
 
 
-EmptyImage[E]=./images/lbscr-4wheel-craven-full-brake.1.4
-EmptyImage[SE]=./images/lbscr-4wheel-craven-full-brake.1.5
-EmptyImage[S]=./images/lbscr-4wheel-craven-full-brake.1.6
-EmptyImage[SW]=./images/lbscr-4wheel-craven-full-brake.1.7
-EmptyImage[W]=./images/lbscr-4wheel-craven-full-brake.1.0
-EmptyImage[NW]=./images/lbscr-4wheel-craven-full-brake.1.1
-EmptyImage[N]=./images/lbscr-4wheel-craven-full-brake.1.2
-EmptyImage[NE]=./images/lbscr-4wheel-craven-full-brake.1.3
+EmptyImage[E]=./carriages/lbscr-4wheel-craven-full-brake_E.0.0
+EmptyImage[SE]=./carriages/lbscr-4wheel-craven-full-brake_SE.0.0
+EmptyImage[S]=./carriages/lbscr-4wheel-craven-full-brake_S.0.0
+EmptyImage[SW]=./carriages/lbscr-4wheel-craven-full-brake_SW.0.0
+EmptyImage[W]=./carriages/lbscr-4wheel-craven-full-brake_W.0.0
+EmptyImage[NW]=./carriages/lbscr-4wheel-craven-full-brake_NW.0.0
+EmptyImage[N]=./carriages/lbscr-4wheel-craven-full-brake_N.0.0
+EmptyImage[NE]=./carriages/lbscr-4wheel-craven-full-brake_NE.0.0
 
 ---
 
@@ -227,14 +234,14 @@ retire_month=4
 waytype=track
 freight=Post
 payload=360
-length=4
+length=3
 brake_force=0
 rolling_resistance=19
 
 weight=8
 axles=2
 cost=154000
-runningcost=19
+runningcost=0
 fixed_cost=64
 
 min_loading_time=35
@@ -243,13 +250,14 @@ max_loading_time=120
 can_lead_from_rear=0
 bidirectional=1
 
+Constraint[Prev][0]=any
 Constraint[Next][0]=any
 
-EmptyImage[E]=./images/lbscr-4wheel-craven-mail.1.4
-EmptyImage[SE]=./images/lbscr-4wheel-craven-mail.1.5
-EmptyImage[S]=./images/lbscr-4wheel-craven-mail.1.6
-EmptyImage[SW]=./images/lbscr-4wheel-craven-mail.1.7
-EmptyImage[W]=./images/lbscr-4wheel-craven-mail.1.0
-EmptyImage[NW]=./images/lbscr-4wheel-craven-mail.1.1
-EmptyImage[N]=./images/lbscr-4wheel-craven-mail.1.2
-EmptyImage[NE]=./images/lbscr-4wheel-craven-mail.1.3
+EmptyImage[E]=./carriages/lbscr-4wheel-craven-mail_E.0.0
+EmptyImage[SE]=./carriages/lbscr-4wheel-craven-mail_SE.0.0
+EmptyImage[S]=./carriages/lbscr-4wheel-craven-mail_S.0.0
+EmptyImage[SW]=./carriages/lbscr-4wheel-craven-mail_SW.0.0
+EmptyImage[W]=./carriages/lbscr-4wheel-craven-mail_W.0.0
+EmptyImage[NW]=./carriages/lbscr-4wheel-craven-mail_NW.0.0
+EmptyImage[N]=./carriages/lbscr-4wheel-craven-mail_N.0.0
+EmptyImage[NE]=./carriages/lbscr-4wheel-craven-mail_NE.0.0

@@ -15,7 +15,8 @@ payload=50
 weight=12.1
 #length=8
 cost=30000000
-runningcost=3500
+runningcost=45
+fixed_cost=70833
 intro_year=1997
 intro_month=4
 # Single class

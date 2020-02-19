@@ -43,7 +43,9 @@ InputGood[0]=vegetables
 InputCapacity[0]=30 
 InputSupplier[0]=2
 InputFactor[0]=80
-InputGood[1]=Chemicals
+# Chemicals are not currently available before 1910;
+# but many pharmecutical products were made with coal tar.
+InputGood[1]=Kohle
 InputSupplier[1]=1
 InputCapacity[1]=50
 InputFactor[1]=20

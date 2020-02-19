@@ -18,21 +18,23 @@ rolling_resistance=19
 weight=5.5
 axle_load=5
 cost=100000
-runningcost=5
+runningcost=0
+fixed_cost=42
 
 min_loading_time=300
 max_loading_time=900
 bidirectional=1
 
+Constraint[Prev][0]=any
 Constraint[Next][0]=any
 
-EmptyImage[E]=./images/cool-d32_E.0.0
-EmptyImage[SE]=./images/cool-d32_SE.0.0
-EmptyImage[S]=./images/cool-d32_S.0.0
-EmptyImage[SW]=./images/cool-d32_SW.0.0
-EmptyImage[W]=./images/cool-d32_W.0.0
-EmptyImage[NW]=./images/cool-d32_NW.0.0
-EmptyImage[N]=./images/cool-d32_N.0.0
-EmptyImage[NE]=./images/cool-d32_NE.0.0
+EmptyImage[E]=./wagons/wagon-cool-d32_E.0.0
+EmptyImage[SE]=./wagons/wagon-cool-d32_SE.0.0
+EmptyImage[S]=./wagons/wagon-cool-d32_S.0.0
+EmptyImage[SW]=./wagons/wagon-cool-d32_SW.0.0
+EmptyImage[W]=./wagons/wagon-cool-d32_W.0.0
+EmptyImage[NW]=./wagons/wagon-cool-d32_NW.0.0
+EmptyImage[N]=./wagons/wagon-cool-d32_N.0.0
+EmptyImage[NE]=./wagons/wagon-cool-d32_NE.0.0
 
 

@@ -27,7 +27,8 @@ rolling_resistance=13
 weight=45
 axles=4
 cost=1057500
-runningcost=126
+runningcost=113
+fixed_cost=6881
 
 min_loading_time=17
 max_loading_time=60
@@ -48,23 +49,23 @@ Constraint[Next][0]=BR-458(centre1)
 liverytype[0]=SWT-standard
 liverytype[1]=SWT-modified
 
-EmptyImage[E][0]=./images/br-458-front-orig.1.4
-EmptyImage[SE][0]=./images/br-458-front-orig.1.5
-EmptyImage[S][0]=./images/br-458-front-orig.1.6
-EmptyImage[SW][0]=./images/br-458-front-orig.1.7
-EmptyImage[W][0]=./images/br-458-front-orig.1.0
-EmptyImage[NW][0]=./images/br-458-front-orig.1.1
-EmptyImage[N][0]=./images/br-458-front-orig.1.2
-EmptyImage[NE][0]=./images/br-458-front-orig.1.3
+EmptyImage[E][0]=./railcars/br-458-front-orig.1.4
+EmptyImage[SE][0]=./railcars/br-458-front-orig.1.5
+EmptyImage[S][0]=./railcars/br-458-front-orig.1.6
+EmptyImage[SW][0]=./railcars/br-458-front-orig.1.7
+EmptyImage[W][0]=./railcars/br-458-front-orig.1.0
+EmptyImage[NW][0]=./railcars/br-458-front-orig.1.1
+EmptyImage[N][0]=./railcars/br-458-front-orig.1.2
+EmptyImage[NE][0]=./railcars/br-458-front-orig.1.3
 
-EmptyImage[E][1]=./images/br-458-front-refurb.1.4
-EmptyImage[SE][1]=./images/br-458-front-refurb.1.5
-EmptyImage[S][1]=./images/br-458-front-refurb.1.6
-EmptyImage[SW][1]=./images/br-458-front-refurb.1.7
-EmptyImage[W][1]=./images/br-458-front-refurb.1.0
-EmptyImage[NW][1]=./images/br-458-front-refurb.1.1
-EmptyImage[N][1]=./images/br-458-front-refurb.1.2
-EmptyImage[NE][1]=./images/br-458-front-refurb.1.3
+EmptyImage[E][1]=./railcars/br-458-front-refurb.1.4
+EmptyImage[SE][1]=./railcars/br-458-front-refurb.1.5
+EmptyImage[S][1]=./railcars/br-458-front-refurb.1.6
+EmptyImage[SW][1]=./railcars/br-458-front-refurb.1.7
+EmptyImage[W][1]=./railcars/br-458-front-refurb.1.0
+EmptyImage[NW][1]=./railcars/br-458-front-refurb.1.1
+EmptyImage[N][1]=./railcars/br-458-front-refurb.1.2
+EmptyImage[NE][1]=./railcars/br-458-front-refurb.1.3
 
 ---
 
@@ -93,7 +94,8 @@ rolling_resistance=13
 weight=40
 axles=4
 cost=1899100
-runningcost=43
+runningcost=0
+fixed_cost=3956
 
 min_loading_time=17
 max_loading_time=60
@@ -117,23 +119,23 @@ Constraint[Next][2]=BR-458(rear)
 liverytype[0]=SWT-standard
 liverytype[1]=SWT-modified
 
-EmptyImage[E][0]=./images/br-458-middle-orig.1.4
-EmptyImage[SE][0]=./images/br-458-middle-orig.1.5
-EmptyImage[S][0]=./images/br-458-middle-orig.1.6
-EmptyImage[SW][0]=./images/br-458-middle-orig.1.7
-EmptyImage[W][0]=./images/br-458-middle-orig.1.0
-EmptyImage[NW][0]=./images/br-458-middle-orig.1.1
-EmptyImage[N][0]=./images/br-458-middle-orig.1.2
-EmptyImage[NE][0]=./images/br-458-middle-orig.1.3
+EmptyImage[E][0]=./railcars/br-458-middle-orig.1.4
+EmptyImage[SE][0]=./railcars/br-458-middle-orig.1.5
+EmptyImage[S][0]=./railcars/br-458-middle-orig.1.6
+EmptyImage[SW][0]=./railcars/br-458-middle-orig.1.7
+EmptyImage[W][0]=./railcars/br-458-middle-orig.1.0
+EmptyImage[NW][0]=./railcars/br-458-middle-orig.1.1
+EmptyImage[N][0]=./railcars/br-458-middle-orig.1.2
+EmptyImage[NE][0]=./railcars/br-458-middle-orig.1.3
 
-EmptyImage[E][1]=./images/br-458-middle-refurb.1.4
-EmptyImage[SE][1]=./images/br-458-middle-refurb.1.5
-EmptyImage[S][1]=./images/br-458-middle-refurb.1.6
-EmptyImage[SW][1]=./images/br-458-middle-refurb.1.7
-EmptyImage[W][1]=./images/br-458-middle-refurb.1.0
-EmptyImage[NW][1]=./images/br-458-middle-refurb.1.1
-EmptyImage[N][1]=./images/br-458-middle-refurb.1.2
-EmptyImage[NE][1]=./images/br-458-middle-refurb.1.3
+EmptyImage[E][1]=./railcars/br-458-middle-refurb.1.4
+EmptyImage[SE][1]=./railcars/br-458-middle-refurb.1.5
+EmptyImage[S][1]=./railcars/br-458-middle-refurb.1.6
+EmptyImage[SW][1]=./railcars/br-458-middle-refurb.1.7
+EmptyImage[W][1]=./railcars/br-458-middle-refurb.1.0
+EmptyImage[NW][1]=./railcars/br-458-middle-refurb.1.1
+EmptyImage[N][1]=./railcars/br-458-middle-refurb.1.2
+EmptyImage[NE][1]=./railcars/br-458-middle-refurb.1.3
 
 ---
 
@@ -163,7 +165,8 @@ rolling_resistance=13
 weight=40
 axles=4
 cost=1899100
-runningcost=43
+runningcost=113
+fixed_cost=1583
 
 min_loading_time=17
 max_loading_time=60
@@ -186,23 +189,23 @@ Constraint[Next][2]=BR-458(centre1)
 liverytype[0]=SWT-standard
 liverytype[1]=SWT-modified
 
-EmptyImage[E][0]=./images/br-458-middle-orig.1.4
-EmptyImage[SE][0]=./images/br-458-middle-orig.1.5
-EmptyImage[S][0]=./images/br-458-middle-orig.1.6
-EmptyImage[SW][0]=./images/br-458-middle-orig.1.7
-EmptyImage[W][0]=./images/br-458-middle-orig.1.0
-EmptyImage[NW][0]=./images/br-458-middle-orig.1.1
-EmptyImage[N][0]=./images/br-458-middle-orig.1.2
-EmptyImage[NE][0]=./images/br-458-middle-orig.1.3
+EmptyImage[E][0]=./railcars/br-458-middle-orig.1.4
+EmptyImage[SE][0]=./railcars/br-458-middle-orig.1.5
+EmptyImage[S][0]=./railcars/br-458-middle-orig.1.6
+EmptyImage[SW][0]=./railcars/br-458-middle-orig.1.7
+EmptyImage[W][0]=./railcars/br-458-middle-orig.1.0
+EmptyImage[NW][0]=./railcars/br-458-middle-orig.1.1
+EmptyImage[N][0]=./railcars/br-458-middle-orig.1.2
+EmptyImage[NE][0]=./railcars/br-458-middle-orig.1.3
 
-EmptyImage[E][1]=./images/br-458-middle-refurb.1.4
-EmptyImage[SE][1]=./images/br-458-middle-refurb.1.5
-EmptyImage[S][1]=./images/br-458-middle-refurb.1.6
-EmptyImage[SW][1]=./images/br-458-middle-refurb.1.7
-EmptyImage[W][1]=./images/br-458-middle-refurb.1.0
-EmptyImage[NW][1]=./images/br-458-middle-refurb.1.1
-EmptyImage[N][1]=./images/br-458-middle-refurb.1.2
-EmptyImage[NE][1]=./images/br-458-middle-refurb.1.3
+EmptyImage[E][1]=./railcars/br-458-middle-refurb.1.4
+EmptyImage[SE][1]=./railcars/br-458-middle-refurb.1.5
+EmptyImage[S][1]=./railcars/br-458-middle-refurb.1.6
+EmptyImage[SW][1]=./railcars/br-458-middle-refurb.1.7
+EmptyImage[W][1]=./railcars/br-458-middle-refurb.1.0
+EmptyImage[NW][1]=./railcars/br-458-middle-refurb.1.1
+EmptyImage[N][1]=./railcars/br-458-middle-refurb.1.2
+EmptyImage[NE][1]=./railcars/br-458-middle-refurb.1.3
 
 ---
 
@@ -232,7 +235,8 @@ rolling_resistance=13
 weight=45
 axles=4
 cost=1057500
-runningcost=126
+runningcost=113
+fixed_cost=6881
 
 min_loading_time=17
 max_loading_time=60
@@ -254,20 +258,20 @@ Constraint[Next][1]=none
 liverytype[0]=SWT-standard
 liverytype[1]=SWT-modified
 
-EmptyImage[E][0]=./images/br-458-rear-orig.1.4
-EmptyImage[SE][0]=./images/br-458-rear-orig.1.5
-EmptyImage[S][0]=./images/br-458-rear-orig.1.6
-EmptyImage[SW][0]=./images/br-458-rear-orig.1.7
-EmptyImage[W][0]=./images/br-458-rear-orig.1.0
-EmptyImage[NW][0]=./images/br-458-rear-orig.1.1
-EmptyImage[N][0]=./images/br-458-rear-orig.1.2
-EmptyImage[NE][0]=./images/br-458-rear-orig.1.3
+EmptyImage[E][0]=./railcars/br-458-rear-orig.1.4
+EmptyImage[SE][0]=./railcars/br-458-rear-orig.1.5
+EmptyImage[S][0]=./railcars/br-458-rear-orig.1.6
+EmptyImage[SW][0]=./railcars/br-458-rear-orig.1.7
+EmptyImage[W][0]=./railcars/br-458-rear-orig.1.0
+EmptyImage[NW][0]=./railcars/br-458-rear-orig.1.1
+EmptyImage[N][0]=./railcars/br-458-rear-orig.1.2
+EmptyImage[NE][0]=./railcars/br-458-rear-orig.1.3
 
-EmptyImage[E][1]=./images/br-458-rear-refurb.1.4
-EmptyImage[SE][1]=./images/br-458-rear-refurb.1.5
-EmptyImage[S][1]=./images/br-458-rear-refurb.1.6
-EmptyImage[SW][1]=./images/br-458-rear-refurb.1.7
-EmptyImage[W][1]=./images/br-458-rear-refurb.1.0
-EmptyImage[NW][1]=./images/br-458-rear-refurb.1.1
-EmptyImage[N][1]=./images/br-458-rear-refurb.1.2
-EmptyImage[NE][1]=./images/br-458-rear-refurb.1.3
+EmptyImage[E][1]=./railcars/br-458-rear-refurb.1.4
+EmptyImage[SE][1]=./railcars/br-458-rear-refurb.1.5
+EmptyImage[S][1]=./railcars/br-458-rear-refurb.1.6
+EmptyImage[SW][1]=./railcars/br-458-rear-refurb.1.7
+EmptyImage[W][1]=./railcars/br-458-rear-refurb.1.0
+EmptyImage[NW][1]=./railcars/br-458-rear-refurb.1.1
+EmptyImage[N][1]=./railcars/br-458-rear-refurb.1.2
+EmptyImage[NE][1]=./railcars/br-458-rear-refurb.1.3

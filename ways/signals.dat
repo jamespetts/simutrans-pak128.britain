@@ -164,7 +164,7 @@ max_speed=320
 has_selective_choose=0
 has_call_on=0
 max_distance_to_signalbox=0
-permissive=1
+permissive=0
 signal_groups=7
 allow_underground=2
 upgrade_group=0
@@ -239,7 +239,7 @@ permissive=0
 signal_groups=8
 allow_underground=2
 upgrade_group=0
-intro_year=2010
+intro_year=2006
 intro_month=2
 
 # DANGER
@@ -274,7 +274,7 @@ permissive=0
 signal_groups=8
 allow_underground=2
 upgrade_group=0
-intro_year=2010
+intro_year=2006
 intro_month=2
 
 # DANGER
@@ -661,7 +661,7 @@ obj=roadsign
 copyright=JamesPetts
 name=two-aspect-colour-light-square-stop
 waytype=track
-cost=1400
+cost=14000
 signal_upgrade_cost=7000
 maintenance=750
 aspects=2
@@ -679,7 +679,7 @@ intro_year=1959
 intro_month=9
 retire_year=2009
 retire_month=6
-
+ 
 # DANGER
 Image[0]=images/signal-2-aspect-square-danger.1.2,42,-2
 Image[1]=images/signal-2-aspect-square-danger.1.0,-37,12
@@ -4894,7 +4894,7 @@ upgrade_group=17
 end_of_choose=1
 max_speed=1000
 allow_underground=2
-intro_year=1840
+intro_year=1838
 intro_month=3
 retire_year=1959
 retire_month=9

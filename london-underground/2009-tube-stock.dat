@@ -20,7 +20,8 @@ rolling_resistance=13
 weight=27
 axles=4
 cost=1950000
-runningcost=80
+runningcost=75
+fixed_cost=7625
 sound=panos-g-2009-stock.wav
 
 can_lead_from_rear=1
@@ -70,7 +71,8 @@ rolling_resistance=13
 weight=27
 axles=4
 cost=1500000
-runningcost=80
+runningcost=75
+fixed_cost=7250
 
 can_lead_from_rear=0
 bidirectional=1
@@ -116,7 +118,8 @@ rolling_resistance=13
 weight=21
 axles=4
 cost=950000
-runningcost=40
+runningcost=0
+fixed_cost=1979
 
 can_lead_from_rear=0
 bidirectional=1
@@ -168,7 +171,8 @@ rolling_resistance=13
 weight=27
 axles=4
 cost=950000
-runningcost=40
+runningcost=75
+fixed_cost=792
 
 can_lead_from_rear=0
 bidirectional=1
@@ -218,7 +222,8 @@ rolling_resistance=13
 weight=27
 axles=4
 cost=1500000
-runningcost=80
+runningcost=75
+fixed_cost=7250
 
 can_lead_from_rear=0
 bidirectional=1
@@ -269,7 +274,8 @@ rolling_resistance=13
 weight=27
 axles=4
 cost=1950000
-runningcost=80
+runningcost=75
+fixed_cost=7625
 sound=panos-g-2009-stock.wav
 
 can_lead_from_rear=1

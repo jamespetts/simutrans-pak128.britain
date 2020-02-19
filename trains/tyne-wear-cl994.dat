@@ -17,7 +17,8 @@ overcrowded_capacity=116
 weight=19.5
 axles=4
 cost=587500
-runningcost=36
+runningcost=22
+fixed_cost=6490
 sound=zabuhailo-modern-tram.wav
 
 can_lead_from_rear=1
@@ -32,14 +33,14 @@ Constraint[Prev][0]=TyneWearMetroClass994Rear
 Constraint[Prev][1]=none
 Constraint[Next][0]=TyneWearMetroClass994Rear
 
-EmptyImage[E]=./images/tyne-wear-cl994-front.1.4
-EmptyImage[SE]=./images/tyne-wear-cl994-front.1.5
-EmptyImage[S]=./images/tyne-wear-cl994-front.1.6
-EmptyImage[SW]=./images/tyne-wear-cl994-front.1.7
-EmptyImage[W]=./images/tyne-wear-cl994-front.1.0
-EmptyImage[NW]=./images/tyne-wear-cl994-front.1.1
-EmptyImage[N]=./images/tyne-wear-cl994-front.1.2
-EmptyImage[NE]=./images/tyne-wear-cl994-front.1.3
+EmptyImage[E]=./railcars/tyne-wear-cl994-front.1.4
+EmptyImage[SE]=./railcars/tyne-wear-cl994-front.1.5
+EmptyImage[S]=./railcars/tyne-wear-cl994-front.1.6
+EmptyImage[SW]=./railcars/tyne-wear-cl994-front.1.7
+EmptyImage[W]=./railcars/tyne-wear-cl994-front.1.0
+EmptyImage[NW]=./railcars/tyne-wear-cl994-front.1.1
+EmptyImage[N]=./railcars/tyne-wear-cl994-front.1.2
+EmptyImage[NE]=./railcars/tyne-wear-cl994-front.1.3
 
 ---
 
@@ -62,7 +63,8 @@ overcrowded_capacity=116
 weight=19.5
 axles=4
 cost=0
-runningcost=0
+runningcost=22
+fixed_cost=6000
 sound=zabuhailo-modern-tram.wav
 
 can_lead_from_rear=1
@@ -77,11 +79,11 @@ Constraint[Prev][0]=TyneWearMetroClass994Front
 Constraint[Next][0]=TyneWearMetroClass994Front
 Constraint[Next][1]=none
 
-EmptyImage[E]=./images/tyne-wear-cl994-rear.1.4
-EmptyImage[SE]=./images/tyne-wear-cl994-rear.1.5
-EmptyImage[S]=./images/tyne-wear-cl994-rear.1.6
-EmptyImage[SW]=./images/tyne-wear-cl994-rear.1.7
-EmptyImage[W]=./images/tyne-wear-cl994-rear.1.0
-EmptyImage[NW]=./images/tyne-wear-cl994-rear.1.1
-EmptyImage[N]=./images/tyne-wear-cl994-rear.1.2
-EmptyImage[NE]=./images/tyne-wear-cl994-rear.1.3
+EmptyImage[E]=./railcars/tyne-wear-cl994-rear.1.4
+EmptyImage[SE]=./railcars/tyne-wear-cl994-rear.1.5
+EmptyImage[S]=./railcars/tyne-wear-cl994-rear.1.6
+EmptyImage[SW]=./railcars/tyne-wear-cl994-rear.1.7
+EmptyImage[W]=./railcars/tyne-wear-cl994-rear.1.0
+EmptyImage[NW]=./railcars/tyne-wear-cl994-rear.1.1
+EmptyImage[N]=./railcars/tyne-wear-cl994-rear.1.2
+EmptyImage[NE]=./railcars/tyne-wear-cl994-rear.1.3

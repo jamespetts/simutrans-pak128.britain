@@ -24,7 +24,8 @@ overcrowded_capacity=64
 weight=27
 axles=4
 cost=1050000
-runningcost=60
+runningcost=72
+fixed_cost=6875
 
 can_lead_from_rear=1
 bidirectional=0
@@ -70,7 +71,8 @@ overcrowded_capacity=96
 weight=17
 axles=4
 cost=650000
-runningcost=10
+runningcost=0
+fixed_cost=774
 
 can_lead_from_rear=0
 bidirectional=1
@@ -123,7 +125,8 @@ overcrowded_capacity=64
 weight=27
 axles=4
 cost=1050000
-runningcost=60
+runningcost=72
+fixed_cost=6875
 
 can_lead_from_rear=1
 bidirectional=0

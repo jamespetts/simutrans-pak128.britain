@@ -14,10 +14,11 @@ tractive_effort=9
 gear=50
 # Guessed as mid-point between ST and RT
 weight=6.8
-axle_load=5
+axles=2
 length=6
 cost=682000
-runningcost=180
+runningcost=34
+fixed_cost=8355
 intro_year=1932
 intro_month=12
 retire_year=1937

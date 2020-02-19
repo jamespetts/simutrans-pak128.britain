@@ -4,7 +4,7 @@ engine_type=steam
 smoke=Steam
 speed=75
 # Extrapolated
-power=233
+power=232
 # Tractive effort taken from:
 # http://en.wikipedia.org/wiki/LB%26SCR_C_class
 # See also Ahrons p. 203
@@ -28,8 +28,8 @@ bidirectional=0
 weight=39
 axles=3
 cost=7375000
-runningcost=359
-fixed_cost=27073
+runningcost=281
+fixed_cost=30146
 sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=LBSCR-C-tender
@@ -37,23 +37,23 @@ Constraint[Next][0]=LBSCR-C-tender
 liverytype[0]=LBSCR-Stroudley
 liverytype[1]=LBSCR-Marsh
 
-EmptyImage[E][0]=./images/lbscr-c-goods-green.1.4
-EmptyImage[SE][0]=./images/lbscr-c-goods-green.1.5
-EmptyImage[S][0]=./images/lbscr-c-goods-green.1.6
-EmptyImage[SW][0]=./images/lbscr-c-goods-green.1.7
-EmptyImage[W][0]=./images/lbscr-c-goods-green.1.0
-EmptyImage[NW][0]=./images/lbscr-c-goods-green.1.1
-EmptyImage[N][0]=./images/lbscr-c-goods-green.1.2
-EmptyImage[NE][0]=./images/lbscr-c-goods-green.1.3
+EmptyImage[E][0]=./locomotives/lbscr-c-goods-green_E.0.0
+EmptyImage[SE][0]=./locomotives/lbscr-c-goods-green_SE.0.0
+EmptyImage[S][0]=./locomotives/lbscr-c-goods-green_S.0.0
+EmptyImage[SW][0]=./locomotives/lbscr-c-goods-green_SW.0.0
+EmptyImage[W][0]=./locomotives/lbscr-c-goods-green_W.0.0
+EmptyImage[NW][0]=./locomotives/lbscr-c-goods-green_NW.0.0
+EmptyImage[N][0]=./locomotives/lbscr-c-goods-green_N.0.0
+EmptyImage[NE][0]=./locomotives/lbscr-c-goods-green_NE.0.0
 
-EmptyImage[E][1]=./images/lbscr-c-umber.1.4
-EmptyImage[SE][1]=./images/lbscr-c-umber.1.5
-EmptyImage[S][1]=./images/lbscr-c-umber.1.6
-EmptyImage[SW][1]=./images/lbscr-c-umber.1.7
-EmptyImage[W][1]=./images/lbscr-c-umber.1.0
-EmptyImage[NW][1]=./images/lbscr-c-umber.1.1
-EmptyImage[N][1]=./images/lbscr-c-umber.1.2
-EmptyImage[NE][1]=./images/lbscr-c-umber.1.3
+EmptyImage[E][1]=./locomotives/lbscr-c-umber_E.0.0
+EmptyImage[SE][1]=./locomotives/lbscr-c-umber_SE.0.0
+EmptyImage[S][1]=./locomotives/lbscr-c-umber_S.0.0
+EmptyImage[SW][1]=./locomotives/lbscr-c-umber_SW.0.0
+EmptyImage[W][1]=./locomotives/lbscr-c-umber_W.0.0
+EmptyImage[NW][1]=./locomotives/lbscr-c-umber_NW.0.0
+EmptyImage[N][1]=./locomotives/lbscr-c-umber_N.0.0
+EmptyImage[NE][1]=./locomotives/lbscr-c-umber_NE.0.0
 
 ---
 
@@ -64,8 +64,8 @@ speed=145
 copyright=Kieron/JamesPetts
 intro_year=1871
 intro_month=6
-retire_year=1876
-retire_month=11
+retire_year=1874
+retire_month=12
 waytype=track
 freight=None
 payload=0
@@ -75,6 +75,7 @@ weight=25
 axles=3
 cost=0
 runningcost=0
+fixed_cost=0
 
 
 can_lead_from_rear=0
@@ -85,20 +86,21 @@ Constraint[Prev][0]=LBSCR-C
 liverytype[0]=LBSCR-Stroudley
 liverytype[1]=LBSCR-Marsh
 
-EmptyImage[E][0]=./images/lbscr-c-tender-goods-green.1.4
-EmptyImage[SE][0]=./images/lbscr-c-tender-goods-green.1.5
-EmptyImage[S][0]=./images/lbscr-c-tender-goods-green.1.6
-EmptyImage[SW][0]=./images/lbscr-c-tender-goods-green.1.7
-EmptyImage[W][0]=./images/lbscr-c-tender-goods-green.1.0
-EmptyImage[NW][0]=./images/lbscr-c-tender-goods-green.1.1
-EmptyImage[N][0]=./images/lbscr-c-tender-goods-green.1.2
-EmptyImage[NE][0]=./images/lbscr-c-tender-goods-green.1.3
+EmptyImage[E][0]=./locomotives/lbscr-c-tender-goods-green_E.0.0
+EmptyImage[SE][0]=./locomotives/lbscr-c-tender-goods-green_SE.0.0
+EmptyImage[S][0]=./locomotives/lbscr-c-tender-goods-green_S.0.0
+EmptyImage[SW][0]=./locomotives/lbscr-c-tender-goods-green_SW.0.0
+EmptyImage[W][0]=./locomotives/lbscr-c-tender-goods-green_W.0.0
+EmptyImage[NW][0]=./locomotives/lbscr-c-tender-goods-green_NW.0.0
+EmptyImage[N][0]=./locomotives/lbscr-c-tender-goods-green_N.0.0
+EmptyImage[NE][0]=./locomotives/lbscr-c-tender-goods-green_NE.0.0
 
-EmptyImage[E][1]=./images/lbscr-c-tender-goods-black.1.4
-EmptyImage[SE][1]=./images/lbscr-c-tender-goods-black.1.5
-EmptyImage[S][1]=./images/lbscr-c-tender-goods-black.1.6
-EmptyImage[SW][1]=./images/lbscr-c-tender-goods-black.1.7
-EmptyImage[W][1]=./images/lbscr-c-tender-goods-black.1.0
-EmptyImage[NW][1]=./images/lbscr-c-tender-goods-black.1.1
-EmptyImage[N][1]=./images/lbscr-c-tender-goods-black.1.2
-EmptyImage[NE][1]=./images/lbscr-c-tender-goods-black.1.3
+EmptyImage[E][1]=./locomotives/lbscr-c-tender-goods-black_E.0.0
+EmptyImage[SE][1]=./locomotives/lbscr-c-tender-goods-black_SE.0.0
+EmptyImage[S][1]=./locomotives/lbscr-c-tender-goods-black_S.0.0
+EmptyImage[SW][1]=./locomotives/lbscr-c-tender-goods-black_SW.0.0
+EmptyImage[W][1]=./locomotives/lbscr-c-tender-goods-black_W.0.0
+EmptyImage[NW][1]=./locomotives/lbscr-c-tender-goods-black_NW.0.0
+EmptyImage[N][1]=./locomotives/lbscr-c-tender-goods-black_N.0.0
+EmptyImage[NE][1]=./locomotives/lbscr-c-tender-goods-black_NE.0.0
+

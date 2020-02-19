@@ -4,14 +4,15 @@ engine_type=steam
 smoke=Steam
 speed=130
 # Extrapolated
-power=325
+power=337
 # Calculated from figures at: http://www.smex.net.au/Reference/TractiveEffort02.php
 # Efficiency factor of 0.85 used, as this is a superheated locomotive music.
 tractive_effort=102
 copyright=James
 intro_year=1910
 intro_month=4
-retire_year=1916
+# Should be 1916, but are no replacements
+retire_year=1930
 retire_month=8
 waytype=track
 freight=None
@@ -19,10 +20,11 @@ payload=0
 length=7
 
 # http://www.lnwrs.org.uk/PassLocos/PassLoco.php?loco=15a
-weight=77
+weight=78.2
 axle_load=16
 cost=9800000
-runningcost=995
+runningcost=123
+fixed_cost=48167
 sound=lwalker-br-4mt-tank.wav
 increase_maintenance_after_years=20
 years_before_maintenance_max_reached=20
@@ -33,20 +35,21 @@ bidirectional=1
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard
 
-EmptyImage[E][0]=./images/lnwr-prince-of-wales-tank.1.4
-EmptyImage[SE][0]=./images/lnwr-prince-of-wales-tank.1.5
-EmptyImage[S][0]=./images/lnwr-prince-of-wales-tank.1.6
-EmptyImage[SW][0]=./images/lnwr-prince-of-wales-tank.1.7
-EmptyImage[W][0]=./images/lnwr-prince-of-wales-tank.1.0
-EmptyImage[NW][0]=./images/lnwr-prince-of-wales-tank.1.1
-EmptyImage[N][0]=./images/lnwr-prince-of-wales-tank.1.2
-EmptyImage[NE][0]=./images/lnwr-prince-of-wales-tank.1.3
+EmptyImage[E][0]=./locomotives/lnwr-prince-of-wales-tank_E.0.0
+EmptyImage[SE][0]=./locomotives/lnwr-prince-of-wales-tank_SE.0.0
+EmptyImage[S][0]=./locomotives/lnwr-prince-of-wales-tank_S.0.0
+EmptyImage[SW][0]=./locomotives/lnwr-prince-of-wales-tank_SW.0.0
+EmptyImage[W][0]=./locomotives/lnwr-prince-of-wales-tank_W.0.0
+EmptyImage[NW][0]=./locomotives/lnwr-prince-of-wales-tank_NW.0.0
+EmptyImage[N][0]=./locomotives/lnwr-prince-of-wales-tank_N.0.0
+EmptyImage[NE][0]=./locomotives/lnwr-prince-of-wales-tank_NE.0.0
 
-EmptyImage[E][1]=./images/lnwr-prince-of-wales-tank-lms.1.4
-EmptyImage[SE][1]=./images/lnwr-prince-of-wales-tank-lms.1.5
-EmptyImage[S][1]=./images/lnwr-prince-of-wales-tank-lms.1.6
-EmptyImage[SW][1]=./images/lnwr-prince-of-wales-tank-lms.1.7
-EmptyImage[W][1]=./images/lnwr-prince-of-wales-tank-lms.1.0
-EmptyImage[NW][1]=./images/lnwr-prince-of-wales-tank-lms.1.1
-EmptyImage[N][1]=./images/lnwr-prince-of-wales-tank-lms.1.2
-EmptyImage[NE][1]=./images/lnwr-prince-of-wales-tank-lms.1.3
+EmptyImage[E][1]=./locomotives/lnwr-prince-of-wales-tank-lms_E.0.0
+EmptyImage[SE][1]=./locomotives/lnwr-prince-of-wales-tank-lms_SE.0.0
+EmptyImage[S][1]=./locomotives/lnwr-prince-of-wales-tank-lms_S.0.0
+EmptyImage[SW][1]=./locomotives/lnwr-prince-of-wales-tank-lms_SW.0.0
+EmptyImage[W][1]=./locomotives/lnwr-prince-of-wales-tank-lms_W.0.0
+EmptyImage[NW][1]=./locomotives/lnwr-prince-of-wales-tank-lms_NW.0.0
+EmptyImage[N][1]=./locomotives/lnwr-prince-of-wales-tank-lms_N.0.0
+EmptyImage[NE][1]=./locomotives/lnwr-prince-of-wales-tank-lms_NE.0.0
+

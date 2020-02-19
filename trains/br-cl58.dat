@@ -20,7 +20,8 @@ rolling_resistance=13
 weight=130
 axles=6
 cost=7606000
-runningcost=2465
+runningcost=738
+fixed_cost=13961
 # Sound for this is very hard to find, so use a class 56 for now.
 sound=video47-class-56.wav
 increase_maintenance_after_years=12
@@ -33,12 +34,12 @@ Constraint[Prev][0]=BR-Class56
 Constraint[Prev][1]=BR-Class58
 Constraint[Prev][2]=none
 
-EmptyImage[E]=./images/br-cl58-g.0
-EmptyImage[SE]=./images/br-cl58-g.1
-EmptyImage[S]=./images/br-cl58-g.2
-EmptyImage[SW]=./images/br-cl58-g.3
-EmptyImage[W]=./images/br-cl58-g.4
-EmptyImage[NW]=./images/br-cl58-g.5
-EmptyImage[N]=./images/br-cl58-g.6
-EmptyImage[NE]=./images/br-cl58-g.7
+EmptyImage[E]=./locomotives/br-cl58-g_E.0.0
+EmptyImage[SE]=./locomotives/br-cl58-g_SE.0.0
+EmptyImage[S]=./locomotives/br-cl58-g_S.0.0
+EmptyImage[SW]=./locomotives/br-cl58-g_SW.0.0
+EmptyImage[W]=./locomotives/br-cl58-g_W.0.0
+EmptyImage[NW]=./locomotives/br-cl58-g_NW.0.0
+EmptyImage[N]=./locomotives/br-cl58-g_N.0.0
+EmptyImage[NE]=./locomotives/br-cl58-g_NE.0.0
 

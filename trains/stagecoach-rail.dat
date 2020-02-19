@@ -21,7 +21,8 @@ overcrowded_capacity=0
 axle_load=1
 length=3
 cost=101000
-runningcost=22
+runningcost=0
+fixed_cost=4842
 brake_force=1
 rolling_resistance=19
 
@@ -49,21 +50,21 @@ Constraint[Prev][5]=rail-horse-clydesdale-single
 
 Constraint[Next][0]=none
 
-EmptyImage[E]=./images/stagecoach-rail_E.0.0
-EmptyImage[SE]=./images/stagecoach-rail_SE.0.0
-EmptyImage[S]=./images/stagecoach-rail_S.0.0
-EmptyImage[SW]=./images/stagecoach-rail_SW.0.0
-EmptyImage[W]=./images/stagecoach-rail_W.0.0
-EmptyImage[NW]=./images/stagecoach-rail_NW.0.0
-EmptyImage[N]=./images/stagecoach-rail_N.0.0
-EmptyImage[NE]=./images/stagecoach-rail_NE.0.0
+EmptyImage[E]=./horses/stagecoach-rail_E.0.0
+EmptyImage[SE]=./horses/stagecoach-rail_SE.0.0
+EmptyImage[S]=./horses/stagecoach-rail_S.0.0
+EmptyImage[SW]=./horses/stagecoach-rail_SW.0.0
+EmptyImage[W]=./horses/stagecoach-rail_W.0.0
+EmptyImage[NW]=./horses/stagecoach-rail_NW.0.0
+EmptyImage[N]=./horses/stagecoach-rail_N.0.0
+EmptyImage[NE]=./horses/stagecoach-rail_NE.0.0
 
-FreightImage[E]=./images/stagecoach-rail-loaded_E.0.0
-FreightImage[SE]=./images/stagecoach-rail-loaded_SE.0.0
-FreightImage[S]=./images/stagecoach-rail-loaded_S.0.0
-FreightImage[SW]=./images/stagecoach-rail-loaded_SW.0.0
-FreightImage[W]=./images/stagecoach-rail-loaded_W.0.0
-FreightImage[NW]=./images/stagecoach-rail-loaded_NW.0.0
-FreightImage[N]=./images/stagecoach-rail-loaded_N.0.0
-FreightImage[NE]=./images/stagecoach-rail-loaded_NE.0.0
+FreightImage[E]=./horses/stagecoach-rail-loaded_E.0.0
+FreightImage[SE]=./horses/stagecoach-rail-loaded_SE.0.0
+FreightImage[S]=./horses/stagecoach-rail-loaded_S.0.0
+FreightImage[SW]=./horses/stagecoach-rail-loaded_SW.0.0
+FreightImage[W]=./horses/stagecoach-rail-loaded_W.0.0
+FreightImage[NW]=./horses/stagecoach-rail-loaded_NW.0.0
+FreightImage[N]=./horses/stagecoach-rail-loaded_N.0.0
+FreightImage[NE]=./horses/stagecoach-rail-loaded_NE.0.0
 

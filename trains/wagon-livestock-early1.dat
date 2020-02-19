@@ -20,7 +20,8 @@ weight=1
 axle_load=1
 way_wear_factor=1550
 cost=46000
-runningcost=1
+runningcost=0
+fixed_cost=19
 
 bidirectional=1
 
@@ -28,21 +29,21 @@ min_loading_time=300
 max_loading_time=900
 way_constraint_prohibitive[0]=0
 
-EmptyImage[E]=./images/wagon-livestock-early1_E.0.0
-EmptyImage[SE]=./images/wagon-livestock-early1_SE.0.0
-EmptyImage[S]=./images/wagon-livestock-early1_S.0.0
-EmptyImage[SW]=./images/wagon-livestock-early1_SW.0.0
-EmptyImage[W]=./images/wagon-livestock-early1_W.0.0
-EmptyImage[NW]=./images/wagon-livestock-early1_NW.0.0
-EmptyImage[N]=./images/wagon-livestock-early1_N.0.0
-EmptyImage[NE]=./images/wagon-livestock-early1_NE.0.0
+EmptyImage[E]=./wagons/wagon-livestock-early1_E.0.0
+EmptyImage[SE]=./wagons/wagon-livestock-early1_SE.0.0
+EmptyImage[S]=./wagons/wagon-livestock-early1_S.0.0
+EmptyImage[SW]=./wagons/wagon-livestock-early1_SW.0.0
+EmptyImage[W]=./wagons/wagon-livestock-early1_W.0.0
+EmptyImage[NW]=./wagons/wagon-livestock-early1_NW.0.0
+EmptyImage[N]=./wagons/wagon-livestock-early1_N.0.0
+EmptyImage[NE]=./wagons/wagon-livestock-early1_NE.0.0
 
-FreightImage[E]=./images/wagon-livestock-early1-loaded_E.0.0
-FreightImage[SE]=./images/wagon-livestock-early1-loaded_SE.0.0
-FreightImage[S]=./images/wagon-livestock-early1-loaded_S.0.0
-FreightImage[SW]=./images/wagon-livestock-early1-loaded_SW.0.0
-FreightImage[W]=./images/wagon-livestock-early1-loaded_W.0.0
-FreightImage[NW]=./images/wagon-livestock-early1-loaded_NW.0.0
-FreightImage[N]=./images/wagon-livestock-early1-loaded_N.0.0
-FreightImage[NE]=./images/wagon-livestock-early1-loaded_NE.0.0
+FreightImage[E]=./wagons/wagon-livestock-early1-loaded_E.0.0
+FreightImage[SE]=./wagons/wagon-livestock-early1-loaded_SE.0.0
+FreightImage[S]=./wagons/wagon-livestock-early1-loaded_S.0.0
+FreightImage[SW]=./wagons/wagon-livestock-early1-loaded_SW.0.0
+FreightImage[W]=./wagons/wagon-livestock-early1-loaded_W.0.0
+FreightImage[NW]=./wagons/wagon-livestock-early1-loaded_NW.0.0
+FreightImage[N]=./wagons/wagon-livestock-early1-loaded_N.0.0
+FreightImage[NE]=./wagons/wagon-livestock-early1-loaded_NE.0.0
 

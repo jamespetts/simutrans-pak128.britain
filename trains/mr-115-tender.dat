@@ -16,19 +16,21 @@ weight=34
 axles=3
 cost=0
 runningcost=0
+fixed_cost=0
 
 increase_maintenance_after_years=30
 years_before_maintenance_max_reached=20
 
+#fixed_coupling[prev]=1
 Constraint[Prev][0]=MR-Spinner
 Constraint[Prev][1]=MR-2601
 
-EmptyImage[E]=./images/mr-483-tender-red.1.4
-EmptyImage[SE]=./images/mr-483-tender-red.1.5
-EmptyImage[S]=./images/mr-483-tender-red.1.6
-EmptyImage[SW]=./images/mr-483-tender-red.1.7
-EmptyImage[W]=./images/mr-483-tender-red.1.0
-EmptyImage[NW]=./images/mr-483-tender-red.1.1
-EmptyImage[N]=./images/mr-483-tender-red.1.2
-EmptyImage[NE]=./images/mr-483-tender-red.1.3
+EmptyImage[E]=./locomotives/mr-483-tender-red_E.0.0
+EmptyImage[SE]=./locomotives/mr-483-tender-red_SE.0.0
+EmptyImage[S]=./locomotives/mr-483-tender-red_S.0.0
+EmptyImage[SW]=./locomotives/mr-483-tender-red_SW.0.0
+EmptyImage[W]=./locomotives/mr-483-tender-red_W.0.0
+EmptyImage[NW]=./locomotives/mr-483-tender-red_NW.0.0
+EmptyImage[N]=./locomotives/mr-483-tender-red_N.0.0
+EmptyImage[NE]=./locomotives/mr-483-tender-red_NE.0.0
 

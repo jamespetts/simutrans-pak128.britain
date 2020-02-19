@@ -1,6 +1,5 @@
 obj=vehicle
 name=Wagon2CarFlat
-
 speed=56
 copyright=James
 intro_year=1910
@@ -17,32 +16,32 @@ weight=7
 axle_load=5
 way_wear_factor=13250
 cost=140000
-runningcost=8
-
+runningcost=0
+fixed_cost=117
 
 bidirectional=10
 min_loading_time=240
 max_loading_time=480
 
+Constraint[Prev][0]=any
 Constraint[Next][0]=any
 
-EmptyImage[E]=./images/wagon-2-car-flat.0.0
-EmptyImage[SE]=./images/wagon-2-car-flat.0.1
-EmptyImage[S]=./images/wagon-2-car-flat.0.2
-EmptyImage[SW]=./images/wagon-2-car-flat.0.3
-EmptyImage[W]=./images/wagon-2-car-flat.0.4
-EmptyImage[NW]=./images/wagon-2-car-flat.0.5
-EmptyImage[N]=./images/wagon-2-car-flat.0.6
-EmptyImage[NE]=./images/wagon-2-car-flat.0.7
-
+EmptyImage[E]=./wagons/wagon-2-car-flat-empty_E.0.0
+EmptyImage[SE]=./wagons/wagon-2-car-flat-empty_SE.0.0
+EmptyImage[S]=./wagons/wagon-2-car-flat-empty_S.0.0
+EmptyImage[SW]=./wagons/wagon-2-car-flat-empty_SW.0.0
+EmptyImage[W]=./wagons/wagon-2-car-flat-empty_W.0.0
+EmptyImage[NW]=./wagons/wagon-2-car-flat-empty_NW.0.0
+EmptyImage[N]=./wagons/wagon-2-car-flat-empty_N.0.0
+EmptyImage[NE]=./wagons/wagon-2-car-flat-empty_NE.0.0
 
 freightimagetype[0]=Autos
-FreightImage[0][E]=./images/wagon-2-car-flat.1.0
-FreightImage[0][SE]=./images/wagon-2-car-flat.1.1
-FreightImage[0][S]=./images/wagon-2-car-flat.1.2
-FreightImage[0][SW]=./images/wagon-2-car-flat.1.3
-FreightImage[0][W]=./images/wagon-2-car-flat.1.4
-FreightImage[0][NW]=./images/wagon-2-car-flat.1.5
-FreightImage[0][N]=./images/wagon-2-car-flat.1.6
-FreightImage[0][NE]=./images/wagon-2-car-flat.1.7
+FreightImage[0][E]=./wagons/wagon-2-car-flat-loaded_E.0.0
+FreightImage[0][SE]=./wagons/wagon-2-car-flat-loaded_SE.0.0
+FreightImage[0][S]=./wagons/wagon-2-car-flat-loaded_S.0.0
+FreightImage[0][SW]=./wagons/wagon-2-car-flat-loaded_SW.0.0
+FreightImage[0][W]=./wagons/wagon-2-car-flat-loaded_W.0.0
+FreightImage[0][NW]=./wagons/wagon-2-car-flat-loaded_NW.0.0
+FreightImage[0][N]=./wagons/wagon-2-car-flat-loaded_N.0.0
+FreightImage[0][NE]=./wagons/wagon-2-car-flat-loaded_NE.0.0
 

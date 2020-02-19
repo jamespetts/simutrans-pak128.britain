@@ -19,16 +19,17 @@ weight=16
 axles=3
 cost=0
 runningcost=0
+fixed_cost=0
 
 
 Constraint[Prev][0]=SDR-1001
 
-EmptyImage[E]=./images/sdr-1001-tender.1.4
-EmptyImage[SE]=./images/sdr-1001-tender.1.5
-EmptyImage[S]=./images/sdr-1001-tender.1.6
-EmptyImage[SW]=./images/sdr-1001-tender.1.7
-EmptyImage[W]=./images/sdr-1001-tender.1.0
-EmptyImage[NW]=./images/sdr-1001-tender.1.1
-EmptyImage[N]=./images/sdr-1001-tender.1.2
-EmptyImage[NE]=./images/sdr-1001-tender.1.3
+EmptyImage[E]=./locomotives/sdr-1001-tender_E.0.0
+EmptyImage[SE]=./locomotives/sdr-1001-tender_SE.0.0
+EmptyImage[S]=./locomotives/sdr-1001-tender_S.0.0
+EmptyImage[SW]=./locomotives/sdr-1001-tender_SW.0.0
+EmptyImage[W]=./locomotives/sdr-1001-tender_W.0.0
+EmptyImage[NW]=./locomotives/sdr-1001-tender_NW.0.0
+EmptyImage[N]=./locomotives/sdr-1001-tender_N.0.0
+EmptyImage[NE]=./locomotives/sdr-1001-tender_NE.0.0
 

@@ -12,7 +12,8 @@ payload=30
 length=11
 weight=43
 cost=1030000
-runningcost=20
+runningcost=0
+fixed_cost=2146
 sound=-1
 
 EmptyImage[E]=./images/br-mk4-ec.2.0
@@ -40,7 +41,8 @@ length=12
 
 weight=40
 cost=592000
-runningcost=30
+runningcost=0
+fixed_cost=1233
 sound=-1
 
 Constraint[Next][0]=BR-Mk4-TSO(EastCoast)
@@ -74,7 +76,8 @@ length=12
 
 weight=40
 cost=592000
-runningcost=30
+runningcost=0
+fixed_cost=1233
 sound=-1
 
 Constraint[Next][0]=BR-Mk4-TSO(EastCoast)

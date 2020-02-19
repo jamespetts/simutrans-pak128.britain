@@ -32,17 +32,17 @@ weight=18.3
 # Guessed
 axle_load=8
 cost=12198750
-runningcost=166
-fixed_cost=29083
+runningcost=136
+fixed_cost=32943
 sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=LMR-Patentee-Tender
 
-EmptyImage[E]=./images/hawthorn-2-2-2_E.0.0
-EmptyImage[SE]=./images/hawthorn-2-2-2_SE.0.0
-EmptyImage[S]=./images/hawthorn-2-2-2_S.0.0
-EmptyImage[SW]=./images/hawthorn-2-2-2_SW.0.0
-EmptyImage[W]=./images/hawthorn-2-2-2_W.0.0
-EmptyImage[NW]=./images/hawthorn-2-2-2_NW.0.0
-EmptyImage[N]=./images/hawthorn-2-2-2_N.0.0
-EmptyImage[NE]=./images/hawthorn-2-2-2_NE.0.0
+EmptyImage[E]=./locomotives/hawthorn-2-2-2_E.0.0
+EmptyImage[SE]=./locomotives/hawthorn-2-2-2_SE.0.0
+EmptyImage[S]=./locomotives/hawthorn-2-2-2_S.0.0
+EmptyImage[SW]=./locomotives/hawthorn-2-2-2_SW.0.0
+EmptyImage[W]=./locomotives/hawthorn-2-2-2_W.0.0
+EmptyImage[NW]=./locomotives/hawthorn-2-2-2_NW.0.0
+EmptyImage[N]=./locomotives/hawthorn-2-2-2_N.0.0
+EmptyImage[NE]=./locomotives/hawthorn-2-2-2_NE.0.0

@@ -4,7 +4,7 @@ engine_type=steam
 smoke=Steam
 speed=148
 # Extrapolated
-power=402
+power=407
 tractive_effort=145
 copyright=James
 intro_year=1945
@@ -20,22 +20,44 @@ weight=78
 # http://en.wikipedia.org/wiki/GWR_1000_Class
 axle_load=20
 cost=9994500
-runningcost=1195
+runningcost=349
+fixed_cost=32329
 sound=keithpeter-gwr-hall.wav
 increase_maintenance_after_years=10
 years_before_maintenance_max_reached=10
 
 Constraint[Next][0]=GWR-Hawksworth-County-Tender
 
-EmptyImage[E]=./images/gwr-county.1.4
-EmptyImage[SE]=./images/gwr-county.1.5
-EmptyImage[S]=./images/gwr-county.1.6
-EmptyImage[SW]=./images/gwr-county.1.7
-EmptyImage[W]=./images/gwr-county.1.0
-EmptyImage[NW]=./images/gwr-county.1.1
-EmptyImage[N]=./images/gwr-county.1.2
-EmptyImage[NE]=./images/gwr-county.1.3
+liverytype[0]=GWR-hawksworth
+liverytype[1]=BR-Early
+liverytype[2]=BR-Revised
 
+EmptyImage[E][0]=./locomotives/gwr-county_E.0.0
+EmptyImage[SE][0]=./locomotives/gwr-county_SE.0.0
+EmptyImage[S][0]=./locomotives/gwr-county_S.0.0
+EmptyImage[SW][0]=./locomotives/gwr-county_SW.0.0
+EmptyImage[W][0]=./locomotives/gwr-county_W.0.0
+EmptyImage[NW][0]=./locomotives/gwr-county_NW.0.0
+EmptyImage[N][0]=./locomotives/gwr-county_N.0.0
+EmptyImage[NE][0]=./locomotives/gwr-county_NE.0.0
+
+EmptyImage[E][1]=./locomotives/gwr-county-br_E.0.0
+EmptyImage[SE][1]=./locomotives/gwr-county-br_SE.0.0
+EmptyImage[S][1]=./locomotives/gwr-county-br_S.0.0
+EmptyImage[SW][1]=./locomotives/gwr-county-br_SW.0.0
+EmptyImage[W][1]=./locomotives/gwr-county-br_W.0.0
+EmptyImage[NW][1]=./locomotives/gwr-county-br_NW.0.0
+EmptyImage[N][1]=./locomotives/gwr-county-br_N.0.0
+EmptyImage[NE][1]=./locomotives/gwr-county-br_NE.0.0
+
+EmptyImage[E][2]=./locomotives/gwr-county-br-revised_E.0.0
+EmptyImage[SE][2]=./locomotives/gwr-county-br-revised_SE.0.0
+EmptyImage[S][2]=./locomotives/gwr-county-br-revised_S.0.0
+EmptyImage[SW][2]=./locomotives/gwr-county-br-revised_SW.0.0
+EmptyImage[W][2]=./locomotives/gwr-county-br-revised_W.0.0
+EmptyImage[NW][2]=./locomotives/gwr-county-br-revised_NW.0.0
+EmptyImage[N][2]=./locomotives/gwr-county-br-revised_N.0.0
+EmptyImage[NE][2]=./locomotives/gwr-county-br-revised_NE.0.0
 
 ----
 
@@ -57,17 +79,41 @@ weight=49
 axles=3
 cost=0
 runningcost=0
+fixed_cost=0
 
 increase_maintenance_after_years=10
 years_before_maintenance_max_reached=10
 
+#fixed_coupling[prev]=1
 Constraint[Prev][0]=GWR-Hawksworth-County
 
-EmptyImage[E]=./images/gwr-hawksworth-tender.1.4
-EmptyImage[SE]=./images/gwr-hawksworth-tender.1.5
-EmptyImage[S]=./images/gwr-hawksworth-tender.1.6
-EmptyImage[SW]=./images/gwr-hawksworth-tender.1.7
-EmptyImage[W]=./images/gwr-hawksworth-tender.1.0
-EmptyImage[NW]=./images/gwr-hawksworth-tender.1.1
-EmptyImage[N]=./images/gwr-hawksworth-tender.1.2
-EmptyImage[NE]=./images/gwr-hawksworth-tender.1.3
+liverytype[0]=GWR-hawksworth
+liverytype[1]=BR-Early
+liverytype[2]=BR-Revised
+
+EmptyImage[E][0]=./locomotives/gwr-hawksworth-tender_E.0.0
+EmptyImage[SE][0]=./locomotives/gwr-hawksworth-tender_SE.0.0
+EmptyImage[S][0]=./locomotives/gwr-hawksworth-tender_S.0.0
+EmptyImage[SW][0]=./locomotives/gwr-hawksworth-tender_SW.0.0
+EmptyImage[W][0]=./locomotives/gwr-hawksworth-tender_W.0.0
+EmptyImage[NW][0]=./locomotives/gwr-hawksworth-tender_NW.0.0
+EmptyImage[N][0]=./locomotives/gwr-hawksworth-tender_N.0.0
+EmptyImage[NE][0]=./locomotives/gwr-hawksworth-tender_NE.0.0
+
+EmptyImage[E][1]=./locomotives/gwr-hawksworth-tender-br_E.0.0
+EmptyImage[SE][1]=./locomotives/gwr-hawksworth-tender-br_SE.0.0
+EmptyImage[S][1]=./locomotives/gwr-hawksworth-tender-br_S.0.0
+EmptyImage[SW][1]=./locomotives/gwr-hawksworth-tender-br_SW.0.0
+EmptyImage[W][1]=./locomotives/gwr-hawksworth-tender-br_W.0.0
+EmptyImage[NW][1]=./locomotives/gwr-hawksworth-tender-br_NW.0.0
+EmptyImage[N][1]=./locomotives/gwr-hawksworth-tender-br_N.0.0
+EmptyImage[NE][1]=./locomotives/gwr-hawksworth-tender-br_NE.0.0
+
+EmptyImage[E][2]=./locomotives/gwr-hawksworth-tender-br-revised_E.0.0
+EmptyImage[SE][2]=./locomotives/gwr-hawksworth-tender-br-revised_SE.0.0
+EmptyImage[S][2]=./locomotives/gwr-hawksworth-tender-br-revised_S.0.0
+EmptyImage[SW][2]=./locomotives/gwr-hawksworth-tender-br-revised_SW.0.0
+EmptyImage[W][2]=./locomotives/gwr-hawksworth-tender-br-revised_W.0.0
+EmptyImage[NW][2]=./locomotives/gwr-hawksworth-tender-br-revised_NW.0.0
+EmptyImage[N][2]=./locomotives/gwr-hawksworth-tender-br-revised_N.0.0
+EmptyImage[NE][2]=./locomotives/gwr-hawksworth-tender-br-revised_NE.0.0

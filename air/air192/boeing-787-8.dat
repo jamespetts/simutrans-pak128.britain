@@ -20,7 +20,8 @@ payload[4]=0
 weight=119.9
 #length=8
 cost=65000000
-runningcost=2200
+runningcost=362
+fixed_cost=95139
 intro_year=2011
 intro_month=10
 
@@ -71,7 +72,8 @@ payload[2]=32
 weight=119.9
 #length=8
 cost=65000000
-runningcost=2200
+runningcost=362
+fixed_cost=95139
 intro_year=2011
 intro_month=10
 

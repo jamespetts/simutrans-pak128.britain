@@ -21,7 +21,8 @@ length=10
 weight=55
 axles=4
 cost=13210000
-runningcost=114
+runningcost=333
+fixed_cost=17008
 sound=x24tohayes-epb.wav
 increase_maintenance_after_years=17
 
@@ -42,23 +43,23 @@ Constraint[Next][0]=L&YR-EMU-driving-trailer
 liverytype[0]=LYR-Black
 liverytype[1]=LMS-Standard
 
-EmptyImage[E][0]=./images/lyr-emu-driving-motor.1.4
-EmptyImage[SE][0]=./images/lyr-emu-driving-motor.1.5
-EmptyImage[S][0]=./images/lyr-emu-driving-motor.1.6
-EmptyImage[SW][0]=./images/lyr-emu-driving-motor.1.7
-EmptyImage[W][0]=./images/lyr-emu-driving-motor.1.0
-EmptyImage[NW][0]=./images/lyr-emu-driving-motor.1.1
-EmptyImage[N][0]=./images/lyr-emu-driving-motor.1.2
-EmptyImage[NE][0]=./images/lyr-emu-driving-motor.1.3
+EmptyImage[E][0]=./railcars/lyr-emu-driving-motor_E.0.0
+EmptyImage[SE][0]=./railcars/lyr-emu-driving-motor_SE.0.0
+EmptyImage[S][0]=./railcars/lyr-emu-driving-motor_S.0.0
+EmptyImage[SW][0]=./railcars/lyr-emu-driving-motor_SW.0.0
+EmptyImage[W][0]=./railcars/lyr-emu-driving-motor_W.0.0
+EmptyImage[NW][0]=./railcars/lyr-emu-driving-motor_NW.0.0
+EmptyImage[N][0]=./railcars/lyr-emu-driving-motor_N.0.0
+EmptyImage[NE][0]=./railcars/lyr-emu-driving-motor_NE.0.0
 
-EmptyImage[E][1]=./images/lyr-emu-driving-motor-lms.1.4
-EmptyImage[SE][1]=./images/lyr-emu-driving-motor-lms.1.5
-EmptyImage[S][1]=./images/lyr-emu-driving-motor-lms.1.6
-EmptyImage[SW][1]=./images/lyr-emu-driving-motor-lms.1.7
-EmptyImage[W][1]=./images/lyr-emu-driving-motor-lms.1.0
-EmptyImage[NW][1]=./images/lyr-emu-driving-motor-lms.1.1
-EmptyImage[N][1]=./images/lyr-emu-driving-motor-lms.1.2
-EmptyImage[NE][1]=./images/lyr-emu-driving-motor-lms.1.3
+EmptyImage[E][1]=./railcars/lyr-emu-driving-motor-lms_E.0.0
+EmptyImage[SE][1]=./railcars/lyr-emu-driving-motor-lms_SE.0.0
+EmptyImage[S][1]=./railcars/lyr-emu-driving-motor-lms_S.0.0
+EmptyImage[SW][1]=./railcars/lyr-emu-driving-motor-lms_SW.0.0
+EmptyImage[W][1]=./railcars/lyr-emu-driving-motor-lms_W.0.0
+EmptyImage[NW][1]=./railcars/lyr-emu-driving-motor-lms_NW.0.0
+EmptyImage[N][1]=./railcars/lyr-emu-driving-motor-lms_N.0.0
+EmptyImage[NE][1]=./railcars/lyr-emu-driving-motor-lms_NE.0.0
 
 ---
 
@@ -82,7 +83,8 @@ length=10
 weight=29
 axles=4
 cost=13210000
-runningcost=114
+runningcost=1
+fixed_cost=15726
 sound=x24tohayes-epb.wav
 increase_maintenance_after_years=17
 
@@ -103,20 +105,20 @@ Constraint[Next][1]=none
 liverytype[0]=LYR-Black
 liverytype[1]=LMS-Standard
 
-EmptyImage[E][0]=./images/lyr-emu-driving-trailer.1.4
-EmptyImage[SE][0]=./images/lyr-emu-driving-trailer.1.5
-EmptyImage[S][0]=./images/lyr-emu-driving-trailer.1.6
-EmptyImage[SW][0]=./images/lyr-emu-driving-trailer.1.7
-EmptyImage[W][0]=./images/lyr-emu-driving-trailer.1.0
-EmptyImage[NW][0]=./images/lyr-emu-driving-trailer.1.1
-EmptyImage[N][0]=./images/lyr-emu-driving-trailer.1.2
-EmptyImage[NE][0]=./images/lyr-emu-driving-trailer.1.3
+EmptyImage[E][0]=./railcars/lyr-emu-driving-trailer_E.0.0
+EmptyImage[SE][0]=./railcars/lyr-emu-driving-trailer_SE.0.0
+EmptyImage[S][0]=./railcars/lyr-emu-driving-trailer_S.0.0
+EmptyImage[SW][0]=./railcars/lyr-emu-driving-trailer_SW.0.0
+EmptyImage[W][0]=./railcars/lyr-emu-driving-trailer_W.0.0
+EmptyImage[NW][0]=./railcars/lyr-emu-driving-trailer_NW.0.0
+EmptyImage[N][0]=./railcars/lyr-emu-driving-trailer_N.0.0
+EmptyImage[NE][0]=./railcars/lyr-emu-driving-trailer_NE.0.0
 
-EmptyImage[E][1]=./images/lyr-emu-driving-trailer-lms.1.4
-EmptyImage[SE][1]=./images/lyr-emu-driving-trailer-lms.1.5
-EmptyImage[S][1]=./images/lyr-emu-driving-trailer-lms.1.6
-EmptyImage[SW][1]=./images/lyr-emu-driving-trailer-lms.1.7
-EmptyImage[W][1]=./images/lyr-emu-driving-trailer-lms.1.0
-EmptyImage[NW][1]=./images/lyr-emu-driving-trailer-lms.1.1
-EmptyImage[N][1]=./images/lyr-emu-driving-trailer-lms.1.2
-EmptyImage[NE][1]=./images/lyr-emu-driving-trailer-lms.1.3
+EmptyImage[E][1]=./railcars/lyr-emu-driving-trailer-lms_E.0.0
+EmptyImage[SE][1]=./railcars/lyr-emu-driving-trailer-lms_SE.0.0
+EmptyImage[S][1]=./railcars/lyr-emu-driving-trailer-lms_S.0.0
+EmptyImage[SW][1]=./railcars/lyr-emu-driving-trailer-lms_SW.0.0
+EmptyImage[W][1]=./railcars/lyr-emu-driving-trailer-lms_W.0.0
+EmptyImage[NW][1]=./railcars/lyr-emu-driving-trailer-lms_NW.0.0
+EmptyImage[N][1]=./railcars/lyr-emu-driving-trailer-lms_N.0.0
+EmptyImage[NE][1]=./railcars/lyr-emu-driving-trailer-lms_NE.0.0

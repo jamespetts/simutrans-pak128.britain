@@ -4,7 +4,7 @@ engine_type=steam
 smoke=Steam
 speed=96
 # Extrapolated
-power=327
+power=386
 tractive_effort=133
 copyright=Kieron
 intro_year=1942
@@ -19,19 +19,20 @@ length=6
 weight=57
 axles=3
 cost=4980000
-runningcost=462
+runningcost=250
+fixed_cost=28150
 sound=lwalker-br-4mt-tank.wav
 increase_maintenance_after_years=6
 years_before_maintenance_max_reached=10
 
 Constraint[Next][0]=SR-Q1-Tender
 
-EmptyImage[E]=./images/sr-q1.0.0
-EmptyImage[SE]=./images/sr-q1.0.1
-EmptyImage[S]=./images/sr-q1.0.2
-EmptyImage[SW]=./images/sr-q1.0.3
-EmptyImage[W]=./images/sr-q1.0.4
-EmptyImage[NW]=./images/sr-q1.0.5
-EmptyImage[N]=./images/sr-q1.0.6
-EmptyImage[NE]=./images/sr-q1.0.7
+EmptyImage[E]=./locomotives/sr-q1.0.0
+EmptyImage[SE]=./locomotives/sr-q1.0.1
+EmptyImage[S]=./locomotives/sr-q1.0.2
+EmptyImage[SW]=./locomotives/sr-q1.0.3
+EmptyImage[W]=./locomotives/sr-q1.0.4
+EmptyImage[NW]=./locomotives/sr-q1.0.5
+EmptyImage[N]=./locomotives/sr-q1.0.6
+EmptyImage[NE]=./locomotives/sr-q1.0.7
 

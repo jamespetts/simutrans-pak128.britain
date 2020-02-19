@@ -669,7 +669,7 @@
 %1$s Tulip Court %2$s
 %1$s Tulip Avenue %2$s
 %1$s Tulip Lane %2$s
-%1$s Kipper Street %2$s
+%1$s Kipper Lane %2$s
 %1$s Vestige Street %2$s
 %1$s Vestige Lane %2$s
 %1$s Puddle Street %2$s
@@ -1176,3 +1176,89 @@
 %1$s Snood Street %2$s
 %1$s Erlin Street %2$s
 %1$s Punnet Street %2$s
+%1$s Nosegay Lane %2$s
+%1$s Cucumber Street %2$s
+%1$s Fardle Street %2$s
+%1$s Exchange %2$s
+%1$s Gardens %2$s
+%1$s Copse %2$s
+%1$s Dumpling Lane %2$s
+%1$s Inkwell Lane %2$s
+%1$s Inkwell Yard %2$s
+%1$s Bean King Lane %2$s
+%1$s Bean Hill %2$s
+%1$s Bathtub Lane %2$s
+%1$s Merrybed Street %2$s
+%1$s Thule Street %2$s
+%1$s Old Kipper Street %2$s
+%1$s Featherstone Road %2$s
+%1$s Victory Lane %2$s
+%1$s Mallow Street %2$s
+%1$s Puddle Pond Lane %2$s
+%1$s Bull Street %2$s
+%1$s Penny Parade Street %2$s
+%1$s Howard Street %2$s
+%1$s Beaumont Street %2$s
+%1$s Brockman Street %2$s
+%1$s Slade Street %2$s
+%1$s Bickle Street %2$s
+%1$s Festive Square %2$s
+%1$s Snodgrass Lane %2$s
+%1$s Cowell Street %2$s
+%1$s Cowslip Park %2$s
+%1$s Pigswill Yard %2$s
+%1$s Elderberry Lane %2$s
+%1$s Dairy Yard %2$s
+%1$s Pit Street %2$s
+%1$s Blue Street %2$s
+%1$s Roberta Street %2$s
+%1$s Steeple Hill %2$s
+%1$s Coal Street %2$s
+%1$s Old Culvert Lane %2$s
+%1$s Weir Street %2$s
+%1$s Cuckoo Lane %2$s
+%1$s Teal Street %2$s
+%1$s Nettle Lane %2$s
+%1$s Nettle Street %2$s
+%1$s Cane Street %2$s
+%1$s Rectory Street %2$s
+%1$s Rectory Lane %2$s
+%1$s Milkwater Lane %2$s
+%1$s Clark Street %2$s
+%1$s Kale Street %2$s
+%1$s Gale Street %2$s
+%1$s Vicarage Road %2$s
+%1$s Queen's Bench Lane %2$s
+%1$s Buttercup Street %2$s
+%1$s Pennyweather Street %2$s
+%1$s Berner Street %2$s
+%1$s Plunkett Street %2$s
+%1$s Tribune Square %2$s
+%1$s Thornbury Lane %2$s
+%1$s Henrietta Street %2$s
+%1$s Normanton Lane %2$s
+%1$s Casper Square %2$s
+%1$s Dell Street %2$s
+%1$s Wendell Square %2$s
+%1$s Queeg Street %2$s
+%1$s Caramel Lane %2$s
+%1$s Soot Lane %2$s
+%1$s Norton Street %2$s
+%1$s Hook Lane %2$s
+%1$s Hudson Lane %2$s
+%1$s Hammond Lane %2$s
+%1$s Prosser Street %2$s
+%1$s Old Guildhall Lane %2$s
+%1$s Frampton Road %2$s
+%1$s Middenstead Lane %2$s
+%1$s Midden Street %2$s
+%1$s Dandelion Street %2$s
+%1$s Milk Ditch Street %2$s
+%1$s Pool Street %2$s
+%1$s Steven Street %2$s
+%1$s Fir Hill %2$s
+%1$s Hickory Lane %2$s
+%1$s Caroline Square %2$s
+%1$s Leslie Street %2$s
+%1$s Quince Tart Lane %2$s
+%1$s Queen Bess Lane %2$s

@@ -27,7 +27,8 @@ axles=2
 # "A lot" cheaper than the basic version:
 # http://web.archive.org/web/20160509175310/http://www.countrybus.org/National/SN.htm
 cost=5800000
-runningcost=117
+runningcost=55
+fixed_cost=12042
 sound=video47-leyland-national.wav
 
 # No pods
@@ -88,7 +89,8 @@ length=6
 
 weight=8.5
 cost=5950000
-runningcost=117
+runningcost=55
+fixed_cost=12198
 sound=video47-leyland-national.wav
 
 comfort=41

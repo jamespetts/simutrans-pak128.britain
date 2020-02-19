@@ -26,20 +26,20 @@ way_wear_factor=39633
 weight=19.1
 axles=3
 cost=3750000
-runningcost=68
-fixed_cost=25563
+runningcost=69
+fixed_cost=21208
 sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=sdr-mineral-engine-tender
 
-EmptyImage[E]=./images/sdr-mineral-engine_E.0.0
-EmptyImage[SE]=./images/sdr-mineral-engine_SE.0.0
-EmptyImage[S]=./images/sdr-mineral-engine_S.0.0
-EmptyImage[SW]=./images/sdr-mineral-engine_SW.0.0
-EmptyImage[W]=./images/sdr-mineral-engine_W.0.0
-EmptyImage[NW]=./images/sdr-mineral-engine_NW.0.0
-EmptyImage[N]=./images/sdr-mineral-engine_N.0.0
-EmptyImage[NE]=./images/sdr-mineral-engine_NE.0.0
+EmptyImage[E]=./locomotives/sdr-mineral-engine_E.0.0
+EmptyImage[SE]=./locomotives/sdr-mineral-engine_SE.0.0
+EmptyImage[S]=./locomotives/sdr-mineral-engine_S.0.0
+EmptyImage[SW]=./locomotives/sdr-mineral-engine_SW.0.0
+EmptyImage[W]=./locomotives/sdr-mineral-engine_W.0.0
+EmptyImage[NW]=./locomotives/sdr-mineral-engine_NW.0.0
+EmptyImage[N]=./locomotives/sdr-mineral-engine_N.0.0
+EmptyImage[NE]=./locomotives/sdr-mineral-engine_NE.0.0
 
 ---
 
@@ -62,15 +62,16 @@ rolling_resistance=19
 weight=1
 cost=0
 runningcost=0
+fixed_cost=0
 
 Constraint[Prev][0]=sdr-mineral-engine
 
-EmptyImage[E]=./images/sdr-derwent-tender_E.0.0
-EmptyImage[SE]=./images/sdr-derwent-tender_SE.0.0
-EmptyImage[S]=./images/sdr-derwent-tender_S.0.0
-EmptyImage[SW]=./images/sdr-derwent-tender_SW.0.0
-EmptyImage[W]=./images/sdr-derwent-tender_W.0.0
-EmptyImage[NW]=./images/sdr-derwent-tender_NW.0.0
-EmptyImage[N]=./images/sdr-derwent-tender_N.0.0
-EmptyImage[NE]=./images/sdr-derwent-tender_NE.0.0
+EmptyImage[E]=./locomotives/sdr-derwent-tender_E.0.0
+EmptyImage[SE]=./locomotives/sdr-derwent-tender_SE.0.0
+EmptyImage[S]=./locomotives/sdr-derwent-tender_S.0.0
+EmptyImage[SW]=./locomotives/sdr-derwent-tender_SW.0.0
+EmptyImage[W]=./locomotives/sdr-derwent-tender_W.0.0
+EmptyImage[NW]=./locomotives/sdr-derwent-tender_NW.0.0
+EmptyImage[N]=./locomotives/sdr-derwent-tender_N.0.0
+EmptyImage[NE]=./locomotives/sdr-derwent-tender_NE.0.0
 

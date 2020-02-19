@@ -21,7 +21,8 @@ length=5
 weight=14.4
 axles=2
 cost=5100000
-runningcost=115
+runningcost=34
+fixed_cost=10656
 sound=video47-dennis-enviro400.wav
 
 comfort=43

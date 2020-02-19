@@ -16,7 +16,8 @@ length=11
 
 weight=84
 cost=14800000
-runningcost=4620
+runningcost=471
+fixed_cost=18333
 sound=-1
 
 EmptyImage[E]=./images/br-cl91-nxec.0.0

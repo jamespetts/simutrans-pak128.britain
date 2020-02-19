@@ -1,0 +1,52 @@
+# https://en.wikipedia.org/wiki/GWR_1600_Class
+obj=vehicle
+name=gwr-1600
+engine_type=steam
+smoke=Steam
+speed=85
+# Extrapolated
+power=196
+# https://en.wikipedia.org/wiki/GWR_1600_Class
+tractive_effort=82
+copyright=Kieron/JamesPetts
+intro_year=1949
+intro_month=1
+retire_year=1955
+retire_month=7
+waytype=track
+freight=None
+payload=0
+length=5
+
+# https://en.wikipedia.org/wiki/GWR_1600_Class
+weight=42.3
+axles=3
+cost=255000
+runningcost=105
+fixed_cost=19000
+sound=konakaboom-gwr-pannier.wav
+
+can_lead_from_rear=0
+bidirectional=1
+
+liverytype[0]=GWR-hawksworth
+liverytype[1]=BR-Early
+
+EmptyImage[E][0]=./locomotives/gwr-6400_E.0.0
+EmptyImage[SE][0]=./locomotives/gwr-6400_SE.0.0
+EmptyImage[S][0]=./locomotives/gwr-6400_S.0.0
+EmptyImage[SW][0]=./locomotives/gwr-6400_SW.0.0
+EmptyImage[W][0]=./locomotives/gwr-6400_W.0.0
+EmptyImage[NW][0]=./locomotives/gwr-6400_NW.0.0
+EmptyImage[N][0]=./locomotives/gwr-6400_N.0.0
+EmptyImage[NE][0]=./locomotives/gwr-6400_NE.0.0
+
+EmptyImage[E][1]=./locomotives/gwr-6400-br_E.0.0
+EmptyImage[SE][1]=./locomotives/gwr-6400-br_SE.0.0
+EmptyImage[S][1]=./locomotives/gwr-6400-br_S.0.0
+EmptyImage[SW][1]=./locomotives/gwr-6400-br_SW.0.0
+EmptyImage[W][1]=./locomotives/gwr-6400-br_W.0.0
+EmptyImage[NW][1]=./locomotives/gwr-6400-br_NW.0.0
+EmptyImage[N][1]=./locomotives/gwr-6400-br_N.0.0
+EmptyImage[NE][1]=./locomotives/gwr-6400-br_NE.0.0
+

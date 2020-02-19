@@ -4,7 +4,7 @@ engine_type=steam
 smoke=Steam
 speed=90
 # Extrapolated
-power=213
+power=208
 # http://en.wikipedia.org/wiki/LMS_Fowler_Class_3F
 tractive_effort=93
 copyright=Kieron
@@ -24,7 +24,8 @@ weight=50.3
 axles=3
 cost=1584000
 upgrade_price=55000
-runningcost=198
+runningcost=122
+fixed_cost=25320
 sound=lwalker-br-4mt-tank.wav
 increase_maintenance_after_years=9
 years_before_maintenance_max_reached=12
@@ -36,23 +37,23 @@ upgrade[0]=LMS-3F-Jinty-Push-Pull
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
 
-EmptyImage[E][0]=./images/lms-3f.1.4
-EmptyImage[SE][0]=./images/lms-3f.1.5
-EmptyImage[S][0]=./images/lms-3f.1.6
-EmptyImage[SW][0]=./images/lms-3f.1.7
-EmptyImage[W][0]=./images/lms-3f.1.0
-EmptyImage[NW][0]=./images/lms-3f.1.1
-EmptyImage[N][0]=./images/lms-3f.1.2
-EmptyImage[NE][0]=./images/lms-3f.1.3
+EmptyImage[E][0]=./locomotives/lms-3f_E.0.0
+EmptyImage[SE][0]=./locomotives/lms-3f_SE.0.0
+EmptyImage[S][0]=./locomotives/lms-3f_S.0.0
+EmptyImage[SW][0]=./locomotives/lms-3f_SW.0.0
+EmptyImage[W][0]=./locomotives/lms-3f_W.0.0
+EmptyImage[NW][0]=./locomotives/lms-3f_NW.0.0
+EmptyImage[N][0]=./locomotives/lms-3f_N.0.0
+EmptyImage[NE][0]=./locomotives/lms-3f_NE.0.0
 
-EmptyImage[E][1]=./images/lms-3f-br.1.4
-EmptyImage[SE][1]=./images/lms-3f-br.1.5
-EmptyImage[S][1]=./images/lms-3f-br.1.6
-EmptyImage[SW][1]=./images/lms-3f-br.1.7
-EmptyImage[W][1]=./images/lms-3f-br.1.0
-EmptyImage[NW][1]=./images/lms-3f-br.1.1
-EmptyImage[N][1]=./images/lms-3f-br.1.2
-EmptyImage[NE][1]=./images/lms-3f-br.1.3
+EmptyImage[E][1]=./locomotives/lms-3f-br_E.0.0
+EmptyImage[SE][1]=./locomotives/lms-3f-br_SE.0.0
+EmptyImage[S][1]=./locomotives/lms-3f-br_S.0.0
+EmptyImage[SW][1]=./locomotives/lms-3f-br_SW.0.0
+EmptyImage[W][1]=./locomotives/lms-3f-br_W.0.0
+EmptyImage[NW][1]=./locomotives/lms-3f-br_NW.0.0
+EmptyImage[N][1]=./locomotives/lms-3f-br_N.0.0
+EmptyImage[NE][1]=./locomotives/lms-3f-br_NE.0.0
 
 ---
 
@@ -62,7 +63,7 @@ engine_type=steam
 smoke=Steam
 speed=90
 # Extrapolated
-power=120
+power=208
 # http://en.wikipedia.org/wiki/LMS_Fowler_Class_3F
 tractive_effort=93
 copyright=Kieron
@@ -82,7 +83,8 @@ weight=50.3
 axles=3
 cost=1584000
 upgrade_price=55000
-runningcost=199
+runningcost=69
+fixed_cost=25320
 
 increase_maintenance_after_years=9
 years_before_maintenance_max_reached=12
@@ -93,21 +95,20 @@ bidirectional=1
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
 
-EmptyImage[E][0]=./images/lms-3f.1.4
-EmptyImage[SE][0]=./images/lms-3f.1.5
-EmptyImage[S][0]=./images/lms-3f.1.6
-EmptyImage[SW][0]=./images/lms-3f.1.7
-EmptyImage[W][0]=./images/lms-3f.1.0
-EmptyImage[NW][0]=./images/lms-3f.1.1
-EmptyImage[N][0]=./images/lms-3f.1.2
-EmptyImage[NE][0]=./images/lms-3f.1.3
+EmptyImage[E][0]=./locomotives/lms-3f_E.0.0
+EmptyImage[SE][0]=./locomotives/lms-3f_SE.0.0
+EmptyImage[S][0]=./locomotives/lms-3f_S.0.0
+EmptyImage[SW][0]=./locomotives/lms-3f_SW.0.0
+EmptyImage[W][0]=./locomotives/lms-3f_W.0.0
+EmptyImage[NW][0]=./locomotives/lms-3f_NW.0.0
+EmptyImage[N][0]=./locomotives/lms-3f_N.0.0
+EmptyImage[NE][0]=./locomotives/lms-3f_NE.0.0
 
-EmptyImage[E][1]=./images/lms-3f-br.1.4
-EmptyImage[SE][1]=./images/lms-3f-br.1.5
-EmptyImage[S][1]=./images/lms-3f-br.1.6
-EmptyImage[SW][1]=./images/lms-3f-br.1.7
-EmptyImage[W][1]=./images/lms-3f-br.1.0
-EmptyImage[NW][1]=./images/lms-3f-br.1.1
-EmptyImage[N][1]=./images/lms-3f-br.1.2
-EmptyImage[NE][1]=./images/lms-3f-br.1.3
-
+EmptyImage[E][1]=./locomotives/lms-3f-br_E.0.0
+EmptyImage[SE][1]=./locomotives/lms-3f-br_SE.0.0
+EmptyImage[S][1]=./locomotives/lms-3f-br_S.0.0
+EmptyImage[SW][1]=./locomotives/lms-3f-br_SW.0.0
+EmptyImage[W][1]=./locomotives/lms-3f-br_W.0.0
+EmptyImage[NW][1]=./locomotives/lms-3f-br_NW.0.0
+EmptyImage[N][1]=./locomotives/lms-3f-br_N.0.0
+EmptyImage[NE][1]=./locomotives/lms-3f-br_NE.0.0

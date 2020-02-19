@@ -5,7 +5,7 @@ speed=48
 copyright=Kieron
 intro_year=1829
 intro_month=8
-retire_year=1840
+retire_year=1835
 retire_month=10
 waytype=track
 freight=None
@@ -18,17 +18,18 @@ rolling_resistance=19
 weight=3
 cost=0
 runningcost=0
+fixed_cost=0
 
 increase_maintenance_after_years=25
 
 Constraint[Prev][0]=LMR-Rocket
 
-EmptyImage[E]=./images/lmr-rocket-tender_E.0.0
-EmptyImage[SE]=./images/lmr-rocket-tender_SE.0.0
-EmptyImage[S]=./images/lmr-rocket-tender_S.0.0
-EmptyImage[SW]=./images/lmr-rocket-tender_SW.0.0
-EmptyImage[W]=./images/lmr-rocket-tender_W.0.0
-EmptyImage[NW]=./images/lmr-rocket-tender_NW.0.0
-EmptyImage[N]=./images/lmr-rocket-tender_N.0.0
-EmptyImage[NE]=./images/lmr-rocket-tender_NE.0.0
+EmptyImage[E]=./carriages/lmr-rocket-tender_E.0.0
+EmptyImage[SE]=./carriages/lmr-rocket-tender_SE.0.0
+EmptyImage[S]=./carriages/lmr-rocket-tender_S.0.0
+EmptyImage[SW]=./carriages/lmr-rocket-tender_SW.0.0
+EmptyImage[W]=./carriages/lmr-rocket-tender_W.0.0
+EmptyImage[NW]=./carriages/lmr-rocket-tender_NW.0.0
+EmptyImage[N]=./carriages/lmr-rocket-tender_N.0.0
+EmptyImage[NE]=./carriages/lmr-rocket-tender_NE.0.0
 

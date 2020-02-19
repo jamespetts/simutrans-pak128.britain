@@ -5,7 +5,11 @@ Build_Time=10000
 Chance=25
 intro_year=1910
 intro_month=9
-population_and_visitor_demand_capacity=7
+# Estimate capacity of 10,000
+# Dividing by 7 on the basis that only 1 day in 7 would the stadium be operating
+# yields 1428/day, / 16 hours * 6.4 hours = 571
+# Divide by 2 for meters/tile adjustment
+population_and_visitor_demand_capacity=285
 employment_capacity=38
 mail_demand=29
 class_proportion[0]=30

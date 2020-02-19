@@ -1,0 +1,13 @@
+Obj=symbol
+name=GoodsCategories
+copyright=Ranran
+# 0 is for special freight
+Image[0]=> goods-category.1.1
+Image[1]=> goods-category.0.1
+Image[2]=> goods-category.0.2
+Image[3]=> goods-category.0.3
+Image[4]=> goods-category.0.4
+Image[5]=> goods-category.0.5
+Image[6]=> goods-category.0.6
+Image[7]=> goods-category.0.7
+--------------------

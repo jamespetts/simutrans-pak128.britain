@@ -22,7 +22,8 @@ rolling_resistance=13
 weight=54
 axles=4
 cost=2785000
-runningcost=104
+runningcost=128
+fixed_cost=8321
 sound=treacher-rail-class-390.wav
 
 can_lead_from_rear=1
@@ -42,14 +43,14 @@ Constraint[Prev][0]=none
 
 Constraint[Next][0]=BR-390FrontCoach
 
-EmptyImage[E]=./images/br-390-virgin.0.0
-EmptyImage[SE]=./images/br-390-virgin.0.1
-EmptyImage[S]=./images/br-390-virgin.0.2
-EmptyImage[SW]=./images/br-390-virgin.0.3
-EmptyImage[W]=./images/br-390-virgin.0.4
-EmptyImage[NW]=./images/br-390-virgin.0.5
-EmptyImage[N]=./images/br-390-virgin.0.6
-EmptyImage[NE]=./images/br-390-virgin.0.7
+EmptyImage[E]=./railcars/br-390-virgin.0.0
+EmptyImage[SE]=./railcars/br-390-virgin.0.1
+EmptyImage[S]=./railcars/br-390-virgin.0.2
+EmptyImage[SW]=./railcars/br-390-virgin.0.3
+EmptyImage[W]=./railcars/br-390-virgin.0.4
+EmptyImage[NW]=./railcars/br-390-virgin.0.5
+EmptyImage[N]=./railcars/br-390-virgin.0.6
+EmptyImage[NE]=./railcars/br-390-virgin.0.7
 
 ---
 
@@ -76,7 +77,8 @@ brake_force=40
 weight=53
 axles=4
 cost=1200000
-runningcost=33
+runningcost=128
+fixed_cost=7000
 
 can_lead_from_rear=0
 bidirectional=1
@@ -94,14 +96,14 @@ Constraint[Prev][0]=BR-390FrontCab
 
 Constraint[Next][0]=BR-390FrontPantograph
 
-EmptyImage[E]=./images/br-390-virgin.1.0
-EmptyImage[SE]=./images/br-390-virgin.1.1
-EmptyImage[S]=./images/br-390-virgin.1.2
-EmptyImage[SW]=./images/br-390-virgin.1.3
-EmptyImage[W]=./images/br-390-virgin.1.4
-EmptyImage[NW]=./images/br-390-virgin.1.5
-EmptyImage[N]=./images/br-390-virgin.1.6
-EmptyImage[NE]=./images/br-390-virgin.1.7
+EmptyImage[E]=./railcars/br-390-virgin.1.0
+EmptyImage[SE]=./railcars/br-390-virgin.1.1
+EmptyImage[S]=./railcars/br-390-virgin.1.2
+EmptyImage[SW]=./railcars/br-390-virgin.1.3
+EmptyImage[W]=./railcars/br-390-virgin.1.4
+EmptyImage[NW]=./railcars/br-390-virgin.1.5
+EmptyImage[N]=./railcars/br-390-virgin.1.6
+EmptyImage[NE]=./railcars/br-390-virgin.1.7
 
 ---
 
@@ -127,7 +129,8 @@ rolling_resistance=13
 weight=51
 axles=4
 cost=2785000
-runningcost=1900
+runningcost=0
+fixed_cost=5802
 
 
 can_lead_from_rear=0
@@ -148,14 +151,14 @@ Constraint[Next][0]=BR-390PoweredCoach
 Constraint[Next][1]=BR-390RearCoach
 Constraint[Next][2]=BR-390PoweredCoachFirst
 
-EmptyImage[E]=./images/br-390-virgin.2.0
-EmptyImage[SE]=./images/br-390-virgin.2.1
-EmptyImage[S]=./images/br-390-virgin.2.2
-EmptyImage[SW]=./images/br-390-virgin.2.3
-EmptyImage[W]=./images/br-390-virgin.2.4
-EmptyImage[NW]=./images/br-390-virgin.2.5
-EmptyImage[N]=./images/br-390-virgin.2.6
-EmptyImage[NE]=./images/br-390-virgin.2.7
+EmptyImage[E]=./railcars/br-390-virgin.2.0
+EmptyImage[SE]=./railcars/br-390-virgin.2.1
+EmptyImage[S]=./railcars/br-390-virgin.2.2
+EmptyImage[SW]=./railcars/br-390-virgin.2.3
+EmptyImage[W]=./railcars/br-390-virgin.2.4
+EmptyImage[NW]=./railcars/br-390-virgin.2.5
+EmptyImage[N]=./railcars/br-390-virgin.2.6
+EmptyImage[NE]=./railcars/br-390-virgin.2.7
 
 ---
 
@@ -181,7 +184,8 @@ rolling_resistance=13
 weight=43
 axles=4
 cost=1200000
-runningcost=107
+runningcost=0
+fixed_cost=2500
 
 can_lead_from_rear=0
 bidirectional=1
@@ -205,14 +209,14 @@ Constraint[Next][1]=BR-390RearPantograph
 Constraint[Next][2]=BR-390PoweredCoach
 Constraint[Next][3]=BR-390PoweredCoachFirst
 
-EmptyImage[E]=./images/br-390-virgin.1.0
-EmptyImage[SE]=./images/br-390-virgin.1.1
-EmptyImage[S]=./images/br-390-virgin.1.2
-EmptyImage[SW]=./images/br-390-virgin.1.3
-EmptyImage[W]=./images/br-390-virgin.1.4
-EmptyImage[NW]=./images/br-390-virgin.1.5
-EmptyImage[N]=./images/br-390-virgin.1.6
-EmptyImage[NE]=./images/br-390-virgin.1.7
+EmptyImage[E]=./railcars/br-390-virgin.1.0
+EmptyImage[SE]=./railcars/br-390-virgin.1.1
+EmptyImage[S]=./railcars/br-390-virgin.1.2
+EmptyImage[SW]=./railcars/br-390-virgin.1.3
+EmptyImage[W]=./railcars/br-390-virgin.1.4
+EmptyImage[NW]=./railcars/br-390-virgin.1.5
+EmptyImage[N]=./railcars/br-390-virgin.1.6
+EmptyImage[NE]=./railcars/br-390-virgin.1.7
 
 ---
 
@@ -224,8 +228,8 @@ power=855
 gear=80
 tractive_effort=34
 copyright=Kieron
-intro_year=2001
-intro_month=1
+intro_year=2003
+intro_month=6
 waytype=track
 freight=Passagiere
 payload[0]=0
@@ -240,7 +244,8 @@ rolling_resistance=13
 weight=53
 axles=4
 cost=2785000
-runningcost=700
+runningcost=128
+fixed_cost=8321
 
 can_lead_from_rear=0
 bidirectional=1
@@ -264,14 +269,14 @@ Constraint[Next][1]=BR-390Coach
 Constraint[Next][2]=BR-390RearPantograph
 Constraint[Next][3]=BR-390PoweredCoachFirst
 
-EmptyImage[E]=./images/br-390-virgin.1.0
-EmptyImage[SE]=./images/br-390-virgin.1.1
-EmptyImage[S]=./images/br-390-virgin.1.2
-EmptyImage[SW]=./images/br-390-virgin.1.3
-EmptyImage[W]=./images/br-390-virgin.1.4
-EmptyImage[NW]=./images/br-390-virgin.1.5
-EmptyImage[N]=./images/br-390-virgin.1.6
-EmptyImage[NE]=./images/br-390-virgin.1.7
+EmptyImage[E]=./railcars/br-390-virgin.1.0
+EmptyImage[SE]=./railcars/br-390-virgin.1.1
+EmptyImage[S]=./railcars/br-390-virgin.1.2
+EmptyImage[SW]=./railcars/br-390-virgin.1.3
+EmptyImage[W]=./railcars/br-390-virgin.1.4
+EmptyImage[NW]=./railcars/br-390-virgin.1.5
+EmptyImage[N]=./railcars/br-390-virgin.1.6
+EmptyImage[NE]=./railcars/br-390-virgin.1.7
 
 ---
 
@@ -283,8 +288,8 @@ power=855
 gear=80
 tractive_effort=34
 copyright=Kieron
-intro_year=2001
-intro_month=1
+intro_year=2003
+intro_month=6
 waytype=track
 freight=Passagiere
 payload[0]=0
@@ -299,7 +304,8 @@ rolling_resistance=13
 weight=53
 axles=4
 cost=2785000
-runningcost=700
+runningcost=128
+fixed_cost=8321
 
 can_lead_from_rear=0
 bidirectional=1
@@ -323,14 +329,14 @@ Constraint[Next][1]=BR-390Coach
 Constraint[Next][2]=BR-390RearPantograph
 Constraint[Next][3]=BR-390PoweredCoachFirst
 
-EmptyImage[E]=./images/br-390-virgin.1.0
-EmptyImage[SE]=./images/br-390-virgin.1.1
-EmptyImage[S]=./images/br-390-virgin.1.2
-EmptyImage[SW]=./images/br-390-virgin.1.3
-EmptyImage[W]=./images/br-390-virgin.1.4
-EmptyImage[NW]=./images/br-390-virgin.1.5
-EmptyImage[N]=./images/br-390-virgin.1.6
-EmptyImage[NE]=./images/br-390-virgin.1.7
+EmptyImage[E]=./railcars/br-390-virgin.1.0
+EmptyImage[SE]=./railcars/br-390-virgin.1.1
+EmptyImage[S]=./railcars/br-390-virgin.1.2
+EmptyImage[SW]=./railcars/br-390-virgin.1.3
+EmptyImage[W]=./railcars/br-390-virgin.1.4
+EmptyImage[NW]=./railcars/br-390-virgin.1.5
+EmptyImage[N]=./railcars/br-390-virgin.1.6
+EmptyImage[NE]=./railcars/br-390-virgin.1.7
 
 ---
 
@@ -356,7 +362,8 @@ rolling_resistance=13
 weight=43
 axles=4
 cost=2785000
-runningcost=1200
+runningcost=0
+fixed_cost=5802
 
 can_lead_from_rear=0
 bidirectional=1
@@ -377,14 +384,14 @@ Constraint[Prev][2]=BR-390PoweredCoachFirst
 
 Constraint[Next][0]=BR-390RearCoach
 
-EmptyImage[E]=./images/br-390-virgin.3.0
-EmptyImage[SE]=./images/br-390-virgin.3.1
-EmptyImage[S]=./images/br-390-virgin.3.2
-EmptyImage[SW]=./images/br-390-virgin.3.3
-EmptyImage[W]=./images/br-390-virgin.3.4
-EmptyImage[NW]=./images/br-390-virgin.3.5
-EmptyImage[N]=./images/br-390-virgin.3.6
-EmptyImage[NE]=./images/br-390-virgin.3.7
+EmptyImage[E]=./railcars/br-390-virgin.3.0
+EmptyImage[SE]=./railcars/br-390-virgin.3.1
+EmptyImage[S]=./railcars/br-390-virgin.3.2
+EmptyImage[SW]=./railcars/br-390-virgin.3.3
+EmptyImage[W]=./railcars/br-390-virgin.3.4
+EmptyImage[NW]=./railcars/br-390-virgin.3.5
+EmptyImage[N]=./railcars/br-390-virgin.3.6
+EmptyImage[NE]=./railcars/br-390-virgin.3.7
 
 ---
 
@@ -412,7 +419,8 @@ rolling_resistance=13
 weight=53
 axles=4
 cost=1200000
-runningcost=33
+runningcost=128
+fixed_cost=7000
 
 can_lead_from_rear=0
 bidirectional=1
@@ -431,14 +439,14 @@ Constraint[Prev][1]=BR-390FrontPantograph
 
 Constraint[Next][0]=BR-390RearCab
 
-EmptyImage[E]=./images/br-390-virgin.1.0
-EmptyImage[SE]=./images/br-390-virgin.1.1
-EmptyImage[S]=./images/br-390-virgin.1.2
-EmptyImage[SW]=./images/br-390-virgin.1.3
-EmptyImage[W]=./images/br-390-virgin.1.4
-EmptyImage[NW]=./images/br-390-virgin.1.5
-EmptyImage[N]=./images/br-390-virgin.1.6
-EmptyImage[NE]=./images/br-390-virgin.1.7
+EmptyImage[E]=./railcars/br-390-virgin.1.0
+EmptyImage[SE]=./railcars/br-390-virgin.1.1
+EmptyImage[S]=./railcars/br-390-virgin.1.2
+EmptyImage[SW]=./railcars/br-390-virgin.1.3
+EmptyImage[W]=./railcars/br-390-virgin.1.4
+EmptyImage[NW]=./railcars/br-390-virgin.1.5
+EmptyImage[N]=./railcars/br-390-virgin.1.6
+EmptyImage[NE]=./railcars/br-390-virgin.1.7
 
 ---
 
@@ -466,7 +474,8 @@ rolling_resistance=13
 weight=53
 axles=4
 cost=2785000
-runningcost=104
+runningcost=128
+fixed_cost=8321
 sound=treacher-rail-class-390.wav
 
 can_lead_from_rear=1
@@ -486,11 +495,11 @@ Constraint[Prev][0]=BR-390RearCoach
 
 Constraint[Next][0]=none
 
-EmptyImage[E]=./images/br-390-virgin.4.0
-EmptyImage[SE]=./images/br-390-virgin.4.1
-EmptyImage[S]=./images/br-390-virgin.4.2
-EmptyImage[SW]=./images/br-390-virgin.4.3
-EmptyImage[W]=./images/br-390-virgin.4.4
-EmptyImage[NW]=./images/br-390-virgin.4.5
-EmptyImage[N]=./images/br-390-virgin.4.6
-EmptyImage[NE]=./images/br-390-virgin.4.7
+EmptyImage[E]=./railcars/br-390-virgin.4.0
+EmptyImage[SE]=./railcars/br-390-virgin.4.1
+EmptyImage[S]=./railcars/br-390-virgin.4.2
+EmptyImage[SW]=./railcars/br-390-virgin.4.3
+EmptyImage[W]=./railcars/br-390-virgin.4.4
+EmptyImage[NW]=./railcars/br-390-virgin.4.5
+EmptyImage[N]=./railcars/br-390-virgin.4.6
+EmptyImage[NE]=./railcars/br-390-virgin.4.7

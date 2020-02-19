@@ -20,7 +20,8 @@ length=5
 weight=6
 axles=2
 cost=180000
-runningcost=45
+runningcost=22
+fixed_cost=6150
 
 
 can_lead_from_rear=1

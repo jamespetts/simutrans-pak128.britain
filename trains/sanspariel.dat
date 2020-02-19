@@ -26,20 +26,20 @@ weight=4.8
 axle_load=2
 # Actual cost: £500 in 1829: see Ahrons p. 16
 cost=1022500
-runningcost=12
-fixed_cost=1075
+runningcost=64
+fixed_cost=17420
 sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=sanspariel-tender
 
-EmptyImage[E]=./images/sanspariel_E.0.0
-EmptyImage[SE]=./images/sanspariel_SE.0.0
-EmptyImage[S]=./images/sanspariel_S.0.0
-EmptyImage[SW]=./images/sanspariel_SW.0.0
-EmptyImage[W]=./images/sanspariel_W.0.0
-EmptyImage[NW]=./images/sanspariel_NW.0.0
-EmptyImage[N]=./images/sanspariel_N.0.0
-EmptyImage[NE]=./images/sanspariel_NE.0.0
+EmptyImage[E]=./locomotives/sanspariel_E.0.0
+EmptyImage[SE]=./locomotives/sanspariel_SE.0.0
+EmptyImage[S]=./locomotives/sanspariel_S.0.0
+EmptyImage[SW]=./locomotives/sanspariel_SW.0.0
+EmptyImage[W]=./locomotives/sanspariel_W.0.0
+EmptyImage[NW]=./locomotives/sanspariel_NW.0.0
+EmptyImage[N]=./locomotives/sanspariel_N.0.0
+EmptyImage[NE]=./locomotives/sanspariel_NE.0.0
 
 ---
 
@@ -62,14 +62,15 @@ rolling_resistance=19
 weight=1
 cost=0
 runningcost=0
+fixed_cost=0
 
 Constraint[Prev][0]=sanspariel
 
-EmptyImage[E]=./images/sdr-derwent-tender_E.0.0
-EmptyImage[SE]=./images/sdr-derwent-tender_SE.0.0
-EmptyImage[S]=./images/sdr-derwent-tender_S.0.0
-EmptyImage[SW]=./images/sdr-derwent-tender_SW.0.0
-EmptyImage[W]=./images/sdr-derwent-tender_W.0.0
-EmptyImage[NW]=./images/sdr-derwent-tender_NW.0.0
-EmptyImage[N]=./images/sdr-derwent-tender_N.0.0
-EmptyImage[NE]=./images/sdr-derwent-tender_NE.0.0
+EmptyImage[E]=./locomotives/sdr-derwent-tender_E.0.0
+EmptyImage[SE]=./locomotives/sdr-derwent-tender_SE.0.0
+EmptyImage[S]=./locomotives/sdr-derwent-tender_S.0.0
+EmptyImage[SW]=./locomotives/sdr-derwent-tender_SW.0.0
+EmptyImage[W]=./locomotives/sdr-derwent-tender_W.0.0
+EmptyImage[NW]=./locomotives/sdr-derwent-tender_NW.0.0
+EmptyImage[N]=./locomotives/sdr-derwent-tender_N.0.0
+EmptyImage[NE]=./locomotives/sdr-derwent-tender_NE.0.0

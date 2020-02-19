@@ -17,7 +17,8 @@ length=8
 
 weight=102
 cost=11088000
-runningcost=2508
+runningcost=1277
+fixed_cost=63100
 sound=-1
 
 Constraint[Next][0]=LNER-A4-Tender(Silver)
@@ -51,7 +52,8 @@ length=8
 
 weight=102
 cost=11088000
-runningcost=2508
+runningcost=1277
+fixed_cost=63100
 sound=-1
 
 Constraint[Next][0]=LNER-A4-Tender(Apple)
@@ -84,7 +86,8 @@ length=8
 
 weight=102
 cost=11088000
-runningcost=2508
+runningcost=1277
+fixed_cost=63100
 sound=-1
 
 Constraint[Next][0]=LNER-A4-Tender(Black)
@@ -117,7 +120,8 @@ length=8
 
 weight=102
 cost=11088000
-runningcost=2508
+runningcost=1277
+fixed_cost=63100
 sound=-1
 
 Constraint[Next][0]=LNER-A4-Tender(BRBlue)
@@ -150,7 +154,8 @@ length=8
 
 weight=102
 cost=11088000
-runningcost=2508
+runningcost=1277
+fixed_cost=63100
 sound=-1
 
 Constraint[Next][0]=LNER-A4-Tender(BRGreen)

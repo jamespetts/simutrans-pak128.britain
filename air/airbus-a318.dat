@@ -16,7 +16,8 @@ weight=48
 cost=30000000
 # Upgrade consists just of changing seats
 upgrade_price=5000
-runningcost=3500
+runningcost=90
+fixed_cost=70833
 intro_year=2003
 intro_month=7
 comfort[0]=0
@@ -66,7 +67,8 @@ weight=48
 cost=30000000
 # Upgrade consists just of changing seats
 upgrade_price=5000
-runningcost=3500
+runningcost=90
+fixed_cost=70833
 intro_year=2003
 intro_month=7
 comfort[0]=92

@@ -16,7 +16,8 @@ weight=56
 # Approx. £1m in 1960
 cost=12000000
 # 710 gal/hour
-runningcost=2500
+runningcost=50
+fixed_cost=58333
 intro_year=1960
 intro_month=12
 retire_year=1963
@@ -71,7 +72,8 @@ weight=56
 cost=12000000
 upgrade_price=50000
 # 710 gal/hour
-runningcost=2500
+runningcost=50
+fixed_cost=18333
 intro_year=1960
 intro_month=12
 retire_year=1963
@@ -124,7 +126,8 @@ weight=56
 cost=12000000
 upgrade_price=50000
 # 710 gal/hour
-runningcost=2500
+runningcost=50
+fixed_cost=18333
 intro_year=1960
 intro_month=12
 retire_year=1963

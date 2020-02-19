@@ -13,7 +13,8 @@ length=11
 
 weight=31
 cost=760000
-runningcost=38
+runningcost=0
+fixed_cost=905
 sound=-1
 
 Constraint[Next][0]=LNER-Gresley-Express-Coach(Maroon)
@@ -47,7 +48,8 @@ length=11
 
 weight=31
 cost=760000
-runningcost=38
+runningcost=0
+fixed_cost=18905
 sound=-1
 
 Constraint[Next][0]=LNER-Gresley-Express-Coach(Maroon)
@@ -82,7 +84,8 @@ length=11
 
 weight=31
 cost=742000
-runningcost=24
+runningcost=0
+fixed_cost=5683
 sound=-1
 
 EmptyImage[E]=./images/lner-gresley-express-coach-m.1.0
@@ -109,7 +112,8 @@ length=11
 
 weight=31
 cost=760000
-runningcost=38
+runningcost=0
+fixed_cost=317
 sound=-1
 
 Constraint[Next][0]=LNER-Gresley-Express-Coach(Maroon)
@@ -144,7 +148,8 @@ length=11
 
 weight=31
 cost=760000
-runningcost=38
+runningcost=0
+fixed_cost=24317
 sound=-1
 
 Constraint[Next][0]=LNER-Gresley-Express-Coach(Maroon)
@@ -178,7 +183,8 @@ length=11
 
 weight=31
 cost=742000
-runningcost=24
+runningcost=0
+fixed_cost=5109
 sound=-1
 
 EmptyImage[E]=./images/lner-gresley-express-coach-m.4.0

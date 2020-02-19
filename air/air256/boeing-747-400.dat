@@ -17,7 +17,8 @@ weight=263
 #length=8
 cost=120000000
 upgrade_price=5000
-runningcost=12000
+runningcost=743
+fixed_cost=153333
 intro_year=1989
 intro_month=2
 #official end of sales 03/2007, deliberately considering this model still being sold for a wide body available after 2007
@@ -74,7 +75,8 @@ weight=263
 #length=8
 cost=120000000
 upgrade_price=5000
-runningcost=12000
+runningcost=743
+fixed_cost=153333
 intro_year=1989
 intro_month=2
 #official end of sales 03/2007, deliberately considering this model still being sold for a wide body available after 2007

@@ -5,6 +5,7 @@ speed=7
 power=2
 tractive_effort=2
 freight=Kohle
+mixed_load_prohibition=1
 payload=1
 copyright=James
 intro_year=1750
@@ -18,7 +19,7 @@ weight=1
 axle_load=0
 cost=110000
 runningcost=5
-fixed_cost=1100
+fixed_cost=1729
 
 sound=arnaud-coutancier-canal-horses.wav
 
@@ -53,7 +54,7 @@ weight=1
 axle_load=0
 cost=110000
 runningcost=5
-fixed_cost=1100
+fixed_cost=1729
 
 sound=arnaud-coutancier-canal-horses.wav
 
@@ -87,7 +88,7 @@ weight=1
 axle_load=0
 cost=110000
 runningcost=5
-fixed_cost=1100
+fixed_cost=1729
 
 sound=arnaud-coutancier-canal-horses.wav
 
@@ -122,7 +123,7 @@ weight=1
 axle_load=0
 cost=110000
 runningcost=5
-fixed_cost=1100
+fixed_cost=1729
 
 sound=arnaud-coutancier-canal-horses.wav
 
@@ -157,7 +158,7 @@ weight=1
 axle_load=0
 cost=110000
 runningcost=5
-fixed_cost=1100
+fixed_cost=1729
 
 sound=arnaud-coutancier-canal-horses.wav
 

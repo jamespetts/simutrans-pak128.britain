@@ -21,7 +21,8 @@ brake_force=11
 weight=9
 axles=5
 cost=620000
-runningcost=34
+runningcost=32
+fixed_cost=6517
 sound=zabuhailo-modern-tram.wav
 
 can_lead_from_rear=1
@@ -63,7 +64,8 @@ brake_force=10
 weight=8
 axles=5
 cost=620000
-runningcost=34
+runningcost=0
+fixed_cost=1292
 
 
 can_lead_from_rear=0
@@ -105,7 +107,8 @@ brake_force=10
 weight=8
 axles=5
 cost=620000
-runningcost=34
+runningcost=0
+fixed_cost=1292
 
 
 can_lead_from_rear=0
@@ -150,7 +153,8 @@ weight=6
 brake_force=8
 axles=5
 cost=620000
-runningcost=34
+runningcost=32
+fixed_cost=517
 
 
 can_lead_from_rear=0
@@ -189,13 +193,14 @@ intro_month=4
 waytype=tram_track
 freight=Passagiere
 payload=10
-length=4
+length=1
 overcrowded_capacity=32
 weight=9
 brake_force=11
 axles=5
 cost=0
-runningcost=0
+runningcost=32
+fixed_cost=6000
 
 
 can_lead_from_rear=1

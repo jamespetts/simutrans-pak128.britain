@@ -19,7 +19,8 @@ length=14
 weight=22
 axles=1
 cost=24000000
-runningcost=650
+runningcost=170
+fixed_cost=18500
 
 can_lead_from_rear=1
 bidirectional=0
@@ -66,7 +67,8 @@ length=14
 weight=25
 axles=1
 cost=24000000
-runningcost=980
+runningcost=170
+fixed_cost=12500
 
 can_lead_from_rear=0
 bidirectional=1
@@ -114,7 +116,8 @@ length=14
 weight=28
 axles=1
 cost=26200000
-runningcost=675
+runningcost=170
+fixed_cost=31646
 
 can_lead_from_rear=0
 bidirectional=1
@@ -163,7 +166,8 @@ length=14
 weight=22
 axles=1
 cost=24000000
-runningcost=650
+runningcost=170
+fixed_cost=18500
 
 can_lead_from_rear=1
 bidirectional=0

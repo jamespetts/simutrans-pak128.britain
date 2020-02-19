@@ -22,7 +22,8 @@ rolling_resistance=13
 weight=49
 axles=4
 cost=1930000
-runningcost=171
+runningcost=60
+fixed_cost=7608
 sound=panos-g-class-375.wav
 
 min_loading_time=17
@@ -42,23 +43,23 @@ Constraint[Next][0]=BR-334Middle
 liverytype[0]=Strathclyde-carmine-cream
 liverytype[1]=Saltire
 
-EmptyImage[E][0]=./images/br-334-front-strathclyde.1.4
-EmptyImage[SE][0]=./images/br-334-front-strathclyde.1.5
-EmptyImage[S][0]=./images/br-334-front-strathclyde.1.6
-EmptyImage[SW][0]=./images/br-334-front-strathclyde.1.7
-EmptyImage[W][0]=./images/br-334-front-strathclyde.1.0
-EmptyImage[NW][0]=./images/br-334-front-strathclyde.1.1
-EmptyImage[N][0]=./images/br-334-front-strathclyde.1.2
-EmptyImage[NE][0]=./images/br-334-front-strathclyde.1.3
+EmptyImage[E][0]=./railcars/br-334-front-strathclyde.1.4
+EmptyImage[SE][0]=./railcars/br-334-front-strathclyde.1.5
+EmptyImage[S][0]=./railcars/br-334-front-strathclyde.1.6
+EmptyImage[SW][0]=./railcars/br-334-front-strathclyde.1.7
+EmptyImage[W][0]=./railcars/br-334-front-strathclyde.1.0
+EmptyImage[NW][0]=./railcars/br-334-front-strathclyde.1.1
+EmptyImage[N][0]=./railcars/br-334-front-strathclyde.1.2
+EmptyImage[NE][0]=./railcars/br-334-front-strathclyde.1.3
 
-EmptyImage[E][1]=./images/br-334-front-saltire.1.4
-EmptyImage[SE][1]=./images/br-334-front-saltire.1.5
-EmptyImage[S][1]=./images/br-334-front-saltire.1.6
-EmptyImage[SW][1]=./images/br-334-front-saltire.1.7
-EmptyImage[W][1]=./images/br-334-front-saltire.1.0
-EmptyImage[NW][1]=./images/br-334-front-saltire.1.1
-EmptyImage[N][1]=./images/br-334-front-saltire.1.2
-EmptyImage[NE][1]=./images/br-334-front-saltire.1.3
+EmptyImage[E][1]=./railcars/br-334-front-saltire.1.4
+EmptyImage[SE][1]=./railcars/br-334-front-saltire.1.5
+EmptyImage[S][1]=./railcars/br-334-front-saltire.1.6
+EmptyImage[SW][1]=./railcars/br-334-front-saltire.1.7
+EmptyImage[W][1]=./railcars/br-334-front-saltire.1.0
+EmptyImage[NW][1]=./railcars/br-334-front-saltire.1.1
+EmptyImage[N][1]=./railcars/br-334-front-saltire.1.2
+EmptyImage[NE][1]=./railcars/br-334-front-saltire.1.3
 
 ---
 
@@ -86,7 +87,8 @@ rolling_resistance=13
 weight=49
 axles=4
 cost=1930000
-runningcost=170
+runningcost=60
+fixed_cost=7608
 sound=panos-g-class-375.wav
 
 min_loading_time=17
@@ -106,23 +108,23 @@ Constraint[Next][1]=none
 liverytype[0]=Strathclyde-carmine-cream
 liverytype[1]=Saltire
 
-EmptyImage[E][0]=./images/br-334-rear-strathclyde.1.4
-EmptyImage[SE][0]=./images/br-334-rear-strathclyde.1.5
-EmptyImage[S][0]=./images/br-334-rear-strathclyde.1.6
-EmptyImage[SW][0]=./images/br-334-rear-strathclyde.1.7
-EmptyImage[W][0]=./images/br-334-rear-strathclyde.1.0
-EmptyImage[NW][0]=./images/br-334-rear-strathclyde.1.1
-EmptyImage[N][0]=./images/br-334-rear-strathclyde.1.2
-EmptyImage[NE][0]=./images/br-334-rear-strathclyde.1.3
+EmptyImage[E][0]=./railcars/br-334-rear-strathclyde.1.4
+EmptyImage[SE][0]=./railcars/br-334-rear-strathclyde.1.5
+EmptyImage[S][0]=./railcars/br-334-rear-strathclyde.1.6
+EmptyImage[SW][0]=./railcars/br-334-rear-strathclyde.1.7
+EmptyImage[W][0]=./railcars/br-334-rear-strathclyde.1.0
+EmptyImage[NW][0]=./railcars/br-334-rear-strathclyde.1.1
+EmptyImage[N][0]=./railcars/br-334-rear-strathclyde.1.2
+EmptyImage[NE][0]=./railcars/br-334-rear-strathclyde.1.3
 
-EmptyImage[E][1]=./images/br-334-rear-saltire.1.4
-EmptyImage[SE][1]=./images/br-334-rear-saltire.1.5
-EmptyImage[S][1]=./images/br-334-rear-saltire.1.6
-EmptyImage[SW][1]=./images/br-334-rear-saltire.1.7
-EmptyImage[W][1]=./images/br-334-rear-saltire.1.0
-EmptyImage[NW][1]=./images/br-334-rear-saltire.1.1
-EmptyImage[N][1]=./images/br-334-rear-saltire.1.2
-EmptyImage[NE][1]=./images/br-334-rear-saltire.1.3
+EmptyImage[E][1]=./railcars/br-334-rear-saltire.1.4
+EmptyImage[SE][1]=./railcars/br-334-rear-saltire.1.5
+EmptyImage[S][1]=./railcars/br-334-rear-saltire.1.6
+EmptyImage[SW][1]=./railcars/br-334-rear-saltire.1.7
+EmptyImage[W][1]=./railcars/br-334-rear-saltire.1.0
+EmptyImage[NW][1]=./railcars/br-334-rear-saltire.1.1
+EmptyImage[N][1]=./railcars/br-334-rear-saltire.1.2
+EmptyImage[NE][1]=./railcars/br-334-rear-saltire.1.3
 
 ---
 
@@ -150,7 +152,8 @@ rolling_resistance=13
 weight=46
 axles=4
 cost=1930000
-runningcost=170
+runningcost=60
+fixed_cost=1608
 
 min_loading_time=17
 max_loading_time=60
@@ -168,20 +171,20 @@ Constraint[Next][0]=BR-334Rear
 liverytype[0]=Strathclyde-carmine-cream
 liverytype[1]=Saltire
 
-EmptyImage[E][0]=./images/br-334-middle-strathclyde.1.4
-EmptyImage[SE][0]=./images/br-334-middle-strathclyde.1.5
-EmptyImage[S][0]=./images/br-334-middle-strathclyde.1.6
-EmptyImage[SW][0]=./images/br-334-middle-strathclyde.1.7
-EmptyImage[W][0]=./images/br-334-middle-strathclyde.1.0
-EmptyImage[NW][0]=./images/br-334-middle-strathclyde.1.1
-EmptyImage[N][0]=./images/br-334-middle-strathclyde.1.2
-EmptyImage[NE][0]=./images/br-334-middle-strathclyde.1.3
+EmptyImage[E][0]=./railcars/br-334-middle-strathclyde.1.4
+EmptyImage[SE][0]=./railcars/br-334-middle-strathclyde.1.5
+EmptyImage[S][0]=./railcars/br-334-middle-strathclyde.1.6
+EmptyImage[SW][0]=./railcars/br-334-middle-strathclyde.1.7
+EmptyImage[W][0]=./railcars/br-334-middle-strathclyde.1.0
+EmptyImage[NW][0]=./railcars/br-334-middle-strathclyde.1.1
+EmptyImage[N][0]=./railcars/br-334-middle-strathclyde.1.2
+EmptyImage[NE][0]=./railcars/br-334-middle-strathclyde.1.3
 
-EmptyImage[E][1]=./images/br-334-middle-saltire.1.4
-EmptyImage[SE][1]=./images/br-334-middle-saltire.1.5
-EmptyImage[S][1]=./images/br-334-middle-saltire.1.6
-EmptyImage[SW][1]=./images/br-334-middle-saltire.1.7
-EmptyImage[W][1]=./images/br-334-middle-saltire.1.0
-EmptyImage[NW][1]=./images/br-334-middle-saltire.1.1
-EmptyImage[N][1]=./images/br-334-middle-saltire.1.2
-EmptyImage[NE][1]=./images/br-334-middle-saltire.1.3
+EmptyImage[E][1]=./railcars/br-334-middle-saltire.1.4
+EmptyImage[SE][1]=./railcars/br-334-middle-saltire.1.5
+EmptyImage[S][1]=./railcars/br-334-middle-saltire.1.6
+EmptyImage[SW][1]=./railcars/br-334-middle-saltire.1.7
+EmptyImage[W][1]=./railcars/br-334-middle-saltire.1.0
+EmptyImage[NW][1]=./railcars/br-334-middle-saltire.1.1
+EmptyImage[N][1]=./railcars/br-334-middle-saltire.1.2
+EmptyImage[NE][1]=./railcars/br-334-middle-saltire.1.3

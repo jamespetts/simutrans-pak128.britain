@@ -26,19 +26,19 @@ way_wear_factor=21044
 weight=9.1
 axles=2
 cost=924000
-runningcost=15
-fixed_cost=1135
+runningcost=40
+fixed_cost=17283
 
 sound=lwalker-br-4mt-tank.wav
 increase_maintenance_after_years=42
 
 Constraint[Next][0]=PuffingBilly-Tender
 
-EmptyImage[E]=./images/puffing-billy_E.0.0
-EmptyImage[SE]=./images/puffing-billy_SE.0.0
-EmptyImage[S]=./images/puffing-billy_S.0.0
-EmptyImage[SW]=./images/puffing-billy_SW.0.0
-EmptyImage[W]=./images/puffing-billy_W.0.0
-EmptyImage[NW]=./images/puffing-billy_NW.0.0
-EmptyImage[N]=./images/puffing-billy_N.0.0
-EmptyImage[NE]=./images/puffing-billy_NE.0.0
+EmptyImage[E]=./locomotives/puffing-billy_E.0.0
+EmptyImage[SE]=./locomotives/puffing-billy_SE.0.0
+EmptyImage[S]=./locomotives/puffing-billy_S.0.0
+EmptyImage[SW]=./locomotives/puffing-billy_SW.0.0
+EmptyImage[W]=./locomotives/puffing-billy_W.0.0
+EmptyImage[NW]=./locomotives/puffing-billy_NW.0.0
+EmptyImage[N]=./locomotives/puffing-billy_N.0.0
+EmptyImage[NE]=./locomotives/puffing-billy_NE.0.0

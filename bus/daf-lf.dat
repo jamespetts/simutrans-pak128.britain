@@ -4,6 +4,7 @@ name=DAFLFBulk
 copyright=JamesHood
 waytype=road
 freight=Kohle
+mixed_load_prohibition=1
 payload=8
 engine_type=diesel
 smoke=Diesel-light
@@ -15,7 +16,8 @@ weight=7.5
 axle_load=8
 way_wear_factor=20000
 cost=100000
-runningcost=23
+runningcost=17
+fixed_cost=8052
 intro_year=2002
 intro_month=5
 
@@ -102,7 +104,8 @@ weight=7.5
 axle_load=8
 way_wear_factor=20000
 cost=100000
-runningcost=23
+runningcost=17
+fixed_cost=8052
 intro_year=2002
 intro_month=5
 
@@ -160,7 +163,8 @@ weight=7.5
 axle_load=8
 way_wear_factor=20000
 cost=100000
-runningcost=47
+runningcost=17
+fixed_cost=8052
 intro_year=2002
 intro_month=5
 
@@ -198,7 +202,8 @@ weight=7.5
 axle_load=8
 way_wear_factor=20000
 cost=100000
-runningcost=47
+runningcost=17
+fixed_cost=8052
 intro_year=2002
 intro_month=5
 
@@ -235,7 +240,8 @@ speed=100
 weight=7.5
 axles=2
 cost=100000
-runningcost=34
+runningcost=17
+fixed_cost=8052
 intro_year=2002
 intro_month=5
 
@@ -272,7 +278,8 @@ speed=100
 weight=7.5
 axles=2
 cost=100000
-runningcost=132
+runningcost=17
+fixed_cost=8052
 intro_year=2002
 intro_month=5
 

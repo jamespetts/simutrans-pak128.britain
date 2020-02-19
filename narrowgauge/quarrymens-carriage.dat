@@ -1,0 +1,180 @@
+# https://www.festipedia.org.uk/wiki/Quarrymen%27s_carriages
+# Open type
+obj=vehicle
+name=quarrymens-carriage-open
+speed=50
+copyright=jamespetts
+intro_year=1867
+intro_month=2
+retire_year=1873
+retire_month=12
+waytype=narrowgauge_track
+freight=Passagiere
+# 4 per side, two compartments
+# "Very low" as these are workmens' carriages
+payload[0]=16
+
+# People used to sit on the outside:
+# https://www.festipedia.org.uk/w/images/a/a5/Quarrymans1871.jpg
+overcrowded_capacity=4
+
+length=3
+rolling_resistance=20
+brake_force=0
+
+# Guessed
+weight=1.4
+axles=2
+cost=190000
+runningcost=0
+fixed_cost=250
+
+comfort[0]=11
+
+upgrade[0]=quarrymens-carriage-enclosed
+
+can_lead_from_rear=0
+bidirectional=1
+
+min_loading_time=12
+max_loading_time=50
+
+Constraint[Prev][0]=any
+Constraint[Next][0]=any
+
+EmptyImage[E]=./images/quarrymens-carriage-open-empty_E.0.0
+EmptyImage[SE]=./images/quarrymens-carriage-open-empty_SE.0.0
+EmptyImage[S]=./images/quarrymens-carriage-open-empty_S.0.0
+EmptyImage[SW]=./images/quarrymens-carriage-open-empty_SW.0.0
+EmptyImage[W]=./images/quarrymens-carriage-open-empty_W.0.0
+EmptyImage[NW]=./images/quarrymens-carriage-open-empty_NW.0.0
+EmptyImage[N]=./images/quarrymens-carriage-open-empty_N.0.0
+EmptyImage[NE]=./images/quarrymens-carriage-open-empty_NE.0.0
+
+FreightImage[E]=./images/quarrymens-carriage-open-loaded_E.0.0
+FreightImage[SE]=./images/quarrymens-carriage-open-loaded_SE.0.0
+FreightImage[S]=./images/quarrymens-carriage-open-loaded_S.0.0
+FreightImage[SW]=./images/quarrymens-carriage-open-loaded_SW.0.0
+FreightImage[W]=./images/quarrymens-carriage-open-loaded_W.0.0
+FreightImage[NW]=./images/quarrymens-carriage-open-loaded_NW.0.0
+FreightImage[N]=./images/quarrymens-carriage-open-loaded_N.0.0
+FreightImage[NE]=./images/quarrymens-carriage-open-loaded_NE.0.0
+
+----
+
+# https://www.festipedia.org.uk/wiki/Quarrymen%27s_carriages
+# Enclosed type
+# There is little practical difference between type 1b and 2a,
+# so these are not represented here.
+obj=vehicle
+name=quarrymens-carriage-enclosed
+speed=50
+copyright=jamespetts
+intro_year=1873
+intro_month=11
+retire_year=1885
+retire_month=9
+waytype=narrowgauge_track
+freight=Passagiere
+# 4 per side, two compartments
+# "Very low" as these are workmens' carriages
+payload[0]=16
+
+# No way of overcrowding these.
+overcrowded_capacity=0
+
+length=3
+rolling_resistance=20
+brake_force=0
+
+# Guessed
+weight=1.9
+axles=2
+cost=280000
+upgrade_price=62222
+runningcost=0
+fixed_cost=265
+
+comfort[0]=11
+
+upgrade[0]=quarrymens-carriage-enclosed
+
+can_lead_from_rear=0
+bidirectional=1
+
+min_loading_time=12
+max_loading_time=50
+
+Constraint[Prev][0]=any
+Constraint[Next][0]=any
+
+EmptyImage[E]=./images/quarrymens-carriage-enclosed-empty_E.0.0
+EmptyImage[SE]=./images/quarrymens-carriage-enclosed-empty_SE.0.0
+EmptyImage[S]=./images/quarrymens-carriage-enclosed-empty_S.0.0
+EmptyImage[SW]=./images/quarrymens-carriage-enclosed-empty_SW.0.0
+EmptyImage[W]=./images/quarrymens-carriage-enclosed-empty_W.0.0
+EmptyImage[NW]=./images/quarrymens-carriage-enclosed-empty_NW.0.0
+EmptyImage[N]=./images/quarrymens-carriage-enclosed-empty_N.0.0
+EmptyImage[NE]=./images/quarrymens-carriage-enclosed-empty_NE.0.0
+
+FreightImage[E]=./images/quarrymens-carriage-enclosed-loaded_E.0.0
+FreightImage[SE]=./images/quarrymens-carriage-enclosed-loaded_SE.0.0
+FreightImage[S]=./images/quarrymens-carriage-enclosed-loaded_S.0.0
+FreightImage[SW]=./images/quarrymens-carriage-enclosed-loaded_SW.0.0
+FreightImage[W]=./images/quarrymens-carriage-enclosed-loaded_W.0.0
+FreightImage[NW]=./images/quarrymens-carriage-enclosed-loaded_NW.0.0
+FreightImage[N]=./images/quarrymens-carriage-enclosed-loaded_N.0.0
+FreightImage[NE]=./images/quarrymens-carriage-enclosed-loaded_NE.0.0
+
+----
+
+# https://www.festipedia.org.uk/wiki/Quarrymen%27s_carriages
+# Glazed type "3"
+obj=vehicle
+name=quarrymens-carriage-glazed
+speed=50
+copyright=jamespetts
+intro_year=1885
+intro_month=8
+retire_year=1929
+retire_month=12
+waytype=narrowgauge_track
+freight=Passagiere
+# 4 per side, two compartments
+# "Very low" as these are workmens' carriages
+payload[0]=16
+
+# One person could sit on the vacuum cylinder
+overcrowded_capacity=1
+
+length=3
+rolling_resistance=18
+
+# Guessed
+weight=2.2
+axles=2
+cost=340000
+runningcost=0
+fixed_cost=265
+
+comfort[0]=29
+
+upgrade[0]=quarrymens-carriage-enclosed
+
+can_lead_from_rear=0
+bidirectional=1
+
+min_loading_time=12
+max_loading_time=50
+
+Constraint[Prev][0]=any
+Constraint[Next][0]=any
+
+EmptyImage[E]=./images/quarrymens-carriage-glazed_E.0.0
+EmptyImage[SE]=./images/quarrymens-carriage-glazed_SE.0.0
+EmptyImage[S]=./images/quarrymens-carriage-glazed_S.0.0
+EmptyImage[SW]=./images/quarrymens-carriage-glazed_SW.0.0
+EmptyImage[W]=./images/quarrymens-carriage-glazed_W.0.0
+EmptyImage[NW]=./images/quarrymens-carriage-glazed_NW.0.0
+EmptyImage[N]=./images/quarrymens-carriage-glazed_N.0.0
+EmptyImage[NE]=./images/quarrymens-carriage-glazed_NE.0.0

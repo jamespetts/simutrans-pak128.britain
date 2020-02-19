@@ -22,7 +22,8 @@ weight=84
 cost=18750000
 upgrade_price=5000
 # Turbojets are less fuel efficient than turbofans.
-runningcost=3850
+runningcost=346
+fixed_cost=63021
 intro_year=1958
 intro_month=10
 retire_year=1960
@@ -103,7 +104,8 @@ weight=84
 cost=18750000
 upgrade_price=5000
 # Turbojets are less fuel efficient than turbofans.
-runningcost=3850
+runningcost=346
+fixed_cost=63021
 intro_year=1958
 intro_month=10
 retire_year=1960

@@ -20,7 +20,8 @@ weight=47.6
 #length=8
 cost=56000000
 upgrade_price=5000
-runningcost=3950
+runningcost=164
+fixed_cost=88889
 intro_year=2017
 intro_month=5
 
@@ -69,7 +70,8 @@ weight=47.6
 #length=8
 cost=56000000
 upgrade_price=5000
-runningcost=3950
+runningcost=164
+fixed_cost=88889
 intro_year=2017
 intro_month=5
 

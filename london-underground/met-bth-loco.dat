@@ -20,7 +20,8 @@ length=5
 weight=47
 axles=4
 cost=897500
-runningcost=130
+runningcost=384
+fixed_cost=10935
 sound=lul-1938-stock-ff3170.wav
 
 bidirectional=1

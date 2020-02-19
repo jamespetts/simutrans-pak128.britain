@@ -5,7 +5,7 @@ type=depot
 waytype=track
 Dims=1,1,4
 noconstruction=1
-NoInfo=1
+#NoInfo=1
 level=8
 # Cannot find any employment data, so guessed values for employment.
 population_and_visitor_demand_capacity=8
@@ -49,7 +49,7 @@ type=depot
 waytype=track
 Dims=1,1,4
 noconstruction=1
-NoInfo=1
+#NoInfo=1
 level=4
 population_and_visitor_demand_capacity=8
 employment_capacity=25

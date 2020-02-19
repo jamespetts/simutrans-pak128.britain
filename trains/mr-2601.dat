@@ -21,18 +21,19 @@ weight=50
 # See http://orion.math.iastate.edu/jdhsmith/term/slgbmr.htm
 axle_load=19
 cost=5450500
-runningcost=866
+runningcost=133
+fixed_cost=44542
 sound=lwalker-br-4mt-tank.wav
 increase_maintenance_after_years=30
 years_before_maintenance_max_reached=20
 
 Constraint[Next][0]=MR-Spinner-Tender
 
-EmptyImage[E]=./images/mr-115-class.1.4
-EmptyImage[SE]=./images/mr-115-class.1.5
-EmptyImage[S]=./images/mr-115-class.1.6
-EmptyImage[SW]=./images/mr-115-class.1.7
-EmptyImage[W]=./images/mr-115-class.1.0
-EmptyImage[NW]=./images/mr-115-class.1.1
-EmptyImage[N]=./images/mr-115-class.1.2
-EmptyImage[NE]=./images/mr-115-class.1.3
+EmptyImage[E]=./locomotives/mr-115-class_E.0.0
+EmptyImage[SE]=./locomotives/mr-115-class_SE.0.0
+EmptyImage[S]=./locomotives/mr-115-class_S.0.0
+EmptyImage[SW]=./locomotives/mr-115-class_SW.0.0
+EmptyImage[W]=./locomotives/mr-115-class_W.0.0
+EmptyImage[NW]=./locomotives/mr-115-class_NW.0.0
+EmptyImage[N]=./locomotives/mr-115-class_N.0.0
+EmptyImage[NE]=./locomotives/mr-115-class_NE.0.0

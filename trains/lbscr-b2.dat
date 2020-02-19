@@ -4,7 +4,7 @@ engine_type=steam
 smoke=Steam
 speed=130
 # Extrapolated
-power=230
+power=241
 # http://en.wikipedia.org/wiki/LB%26SCR_B2_class
 tractive_effort=63
 copyright=James/jamespetts
@@ -20,7 +20,8 @@ length=5
 weight=43
 axle_load=15
 cost=5900000
-runningcost=900
+runningcost=154
+fixed_cost=28917
 sound=lwalker-br-4mt-tank.wav
 
 upgrade[0]=LBSCR-B2x
@@ -30,32 +31,32 @@ liverytype[0]=LBSCR-Stroudley
 liverytype[1]=LBSCR-Marsh
 liverytype[2]=SR-Olive-Green
 
-EmptyImage[E][0]=./images/lbscr-b2.1.4
-EmptyImage[SE][0]=./images/lbscr-b2.1.5
-EmptyImage[S][0]=./images/lbscr-b2.1.6
-EmptyImage[SW][0]=./images/lbscr-b2.1.7
-EmptyImage[W][0]=./images/lbscr-b2.1.0
-EmptyImage[NW][0]=./images/lbscr-b2.1.1
-EmptyImage[N][0]=./images/lbscr-b2.1.2
-EmptyImage[NE][0]=./images/lbscr-b2.1.3
+EmptyImage[E][0]=./locomotives/lbscr-b2_E.0.0
+EmptyImage[SE][0]=./locomotives/lbscr-b2_SE.0.0
+EmptyImage[S][0]=./locomotives/lbscr-b2_S.0.0
+EmptyImage[SW][0]=./locomotives/lbscr-b2_SW.0.0
+EmptyImage[W][0]=./locomotives/lbscr-b2_W.0.0
+EmptyImage[NW][0]=./locomotives/lbscr-b2_NW.0.0
+EmptyImage[N][0]=./locomotives/lbscr-b2_N.0.0
+EmptyImage[NE][0]=./locomotives/lbscr-b2_NE.0.0
 
-EmptyImage[E][1]=./images/lbscr-b2-umber.1.4
-EmptyImage[SE][1]=./images/lbscr-b2-umber.1.5
-EmptyImage[S][1]=./images/lbscr-b2-umber.1.6
-EmptyImage[SW][1]=./images/lbscr-b2-umber.1.7
-EmptyImage[W][1]=./images/lbscr-b2-umber.1.0
-EmptyImage[NW][1]=./images/lbscr-b2-umber.1.1
-EmptyImage[N][1]=./images/lbscr-b2-umber.1.2
-EmptyImage[NE][1]=./images/lbscr-b2-umber.1.3
+EmptyImage[E][1]=./locomotives/lbscr-b2-umber_E.0.0
+EmptyImage[SE][1]=./locomotives/lbscr-b2-umber_SE.0.0
+EmptyImage[S][1]=./locomotives/lbscr-b2-umber_S.0.0
+EmptyImage[SW][1]=./locomotives/lbscr-b2-umber_SW.0.0
+EmptyImage[W][1]=./locomotives/lbscr-b2-umber_W.0.0
+EmptyImage[NW][1]=./locomotives/lbscr-b2-umber_NW.0.0
+EmptyImage[N][1]=./locomotives/lbscr-b2-umber_N.0.0
+EmptyImage[NE][1]=./locomotives/lbscr-b2-umber_NE.0.0
 
-EmptyImage[E][2]=./images/lbscr-b2-olive.1.4
-EmptyImage[SE][2]=./images/lbscr-b2-olive.1.5
-EmptyImage[S][2]=./images/lbscr-b2-olive.1.6
-EmptyImage[SW][2]=./images/lbscr-b2-olive.1.7
-EmptyImage[W][2]=./images/lbscr-b2-olive.1.0
-EmptyImage[NW][2]=./images/lbscr-b2-olive.1.1
-EmptyImage[N][2]=./images/lbscr-b2-olive.1.2
-EmptyImage[NE][2]=./images/lbscr-b2-olive.1.3
+EmptyImage[E][2]=./locomotives/lbscr-b2-olive_E.0.0
+EmptyImage[SE][2]=./locomotives/lbscr-b2-olive_SE.0.0
+EmptyImage[S][2]=./locomotives/lbscr-b2-olive_S.0.0
+EmptyImage[SW][2]=./locomotives/lbscr-b2-olive_SW.0.0
+EmptyImage[W][2]=./locomotives/lbscr-b2-olive_W.0.0
+EmptyImage[NW][2]=./locomotives/lbscr-b2-olive_NW.0.0
+EmptyImage[N][2]=./locomotives/lbscr-b2-olive_N.0.0
+EmptyImage[NE][2]=./locomotives/lbscr-b2-olive_NE.0.0
 
 ---
 
@@ -77,8 +78,9 @@ weight=32
 axles=3
 cost=0
 runningcost=0
+fixed_cost=0
 
-
+#fixed_coupling[prev]=1
 Constraint[Prev][0]=LBSCR-B2
 Constraint[Prev][1]=LBSCR-B2x
 
@@ -86,29 +88,29 @@ liverytype[0]=LBSCR-Stroudley
 liverytype[1]=LBSCR-Marsh
 liverytype[2]=SR-Olive-Green
 
-EmptyImage[E][0]=./images/lbscr-billinton-tender.1.4
-EmptyImage[SE][0]=./images/lbscr-billinton-tender.1.5
-EmptyImage[S][0]=./images/lbscr-billinton-tender.1.6
-EmptyImage[SW][0]=./images/lbscr-billinton-tender.1.7
-EmptyImage[W][0]=./images/lbscr-billinton-tender.1.0
-EmptyImage[NW][0]=./images/lbscr-billinton-tender.1.1
-EmptyImage[N][0]=./images/lbscr-billinton-tender.1.2
-EmptyImage[NE][0]=./images/lbscr-billinton-tender.1.3
+EmptyImage[E][0]=./locomotives/lbscr-billinton-tender_E.0.0
+EmptyImage[SE][0]=./locomotives/lbscr-billinton-tender_SE.0.0
+EmptyImage[S][0]=./locomotives/lbscr-billinton-tender_S.0.0
+EmptyImage[SW][0]=./locomotives/lbscr-billinton-tender_SW.0.0
+EmptyImage[W][0]=./locomotives/lbscr-billinton-tender_W.0.0
+EmptyImage[NW][0]=./locomotives/lbscr-billinton-tender_NW.0.0
+EmptyImage[N][0]=./locomotives/lbscr-billinton-tender_N.0.0
+EmptyImage[NE][0]=./locomotives/lbscr-billinton-tender_NE.0.0
 
-EmptyImage[E][1]=./images/lbscr-billinton-tender-umber.1.4
-EmptyImage[SE][1]=./images/lbscr-billinton-tender-umber.1.5
-EmptyImage[S][1]=./images/lbscr-billinton-tender-umber.1.6
-EmptyImage[SW][1]=./images/lbscr-billinton-tender-umber.1.7
-EmptyImage[W][1]=./images/lbscr-billinton-tender-umber.1.0
-EmptyImage[NW][1]=./images/lbscr-billinton-tender-umber.1.1
-EmptyImage[N][1]=./images/lbscr-billinton-tender-umber.1.2
-EmptyImage[NE][1]=./images/lbscr-billinton-tender-umber.1.3
+EmptyImage[E][1]=./locomotives/lbscr-billinton-tender-umber_E.0.0
+EmptyImage[SE][1]=./locomotives/lbscr-billinton-tender-umber_SE.0.0
+EmptyImage[S][1]=./locomotives/lbscr-billinton-tender-umber_S.0.0
+EmptyImage[SW][1]=./locomotives/lbscr-billinton-tender-umber_SW.0.0
+EmptyImage[W][1]=./locomotives/lbscr-billinton-tender-umber_W.0.0
+EmptyImage[NW][1]=./locomotives/lbscr-billinton-tender-umber_NW.0.0
+EmptyImage[N][1]=./locomotives/lbscr-billinton-tender-umber_N.0.0
+EmptyImage[NE][1]=./locomotives/lbscr-billinton-tender-umber_NE.0.0
 
-EmptyImage[E][2]=./images/lbscr-billinton-tender-olive.1.4
-EmptyImage[SE][2]=./images/lbscr-billinton-tender-olive.1.5
-EmptyImage[S][2]=./images/lbscr-billinton-tender-olive.1.6
-EmptyImage[SW][2]=./images/lbscr-billinton-tender-olive.1.7
-EmptyImage[W][2]=./images/lbscr-billinton-tender-olive.1.0
-EmptyImage[NW][2]=./images/lbscr-billinton-tender-olive.1.1
-EmptyImage[N][2]=./images/lbscr-billinton-tender-olive.1.2
-EmptyImage[NE][2]=./images/lbscr-billinton-tender-olive.1.3
+EmptyImage[E][2]=./locomotives/lbscr-billinton-tender-olive_E.0.0
+EmptyImage[SE][2]=./locomotives/lbscr-billinton-tender-olive_SE.0.0
+EmptyImage[S][2]=./locomotives/lbscr-billinton-tender-olive_S.0.0
+EmptyImage[SW][2]=./locomotives/lbscr-billinton-tender-olive_SW.0.0
+EmptyImage[W][2]=./locomotives/lbscr-billinton-tender-olive_W.0.0
+EmptyImage[NW][2]=./locomotives/lbscr-billinton-tender-olive_NW.0.0
+EmptyImage[N][2]=./locomotives/lbscr-billinton-tender-olive_N.0.0
+EmptyImage[NE][2]=./locomotives/lbscr-billinton-tender-olive_NE.0.0

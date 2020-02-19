@@ -22,7 +22,8 @@ weight=136.9
 #length=8
 # US$306m (2015 - Wikipedia)
 cost=70100000
-runningcost=2420
+runningcost=414
+fixed_cost=118681
 # This is a first flight date: the real introduction date is currently in the future
 # (as of June 2017), so should be added when known.
 intro_year=2017

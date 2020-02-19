@@ -1,0 +1,76 @@
+# https://en.wikipedia.org/wiki/GWR_3232_Class
+# http://www.brassmasters.co.uk/images/GWR%20Finney/3245%20front%207mm.jpg
+# http://www.gwr.org.uk/galperkins1.html
+obj=vehicle
+name=gwr-3232
+engine_type=steam
+smoke=Steam
+speed=138
+# Extrapolated
+power=228
+# Calculated from data given in https://en.wikipedia.org/wiki/GWR_3232_Class
+# with a loss factor of 0.8. Boiler pressure not given, so assumed 180psi.
+tractive_effort=54
+copyright=James/JamesPetts
+intro_year=1892
+intro_month=4
+# Only built until 1893, but no obvious replacements.
+retire_year=1899
+retire_month=5
+waytype=track
+freight=None
+payload=0
+length=4
+
+# Not given in sources
+# Guessed
+weight=41.8
+# Guessed
+axle_load=15
+cost=10032561
+runningcost=148
+fixed_cost=35271
+sound=nick-parry-gwr-city-class.wav
+
+Constraint[Next][0]=GWR-dean-tender
+
+liverytype[0]=GWR-standard-green
+liverytype[1]=GWR-overall-brown
+liverytype[2]=WW1-Austerity
+liverytype[3]=GWR-chocolate-cream-lined
+
+EmptyImage[E][0]=./locomotives/gwr-3232_E.0.0
+EmptyImage[SE][0]=./locomotives/gwr-3232_SE.0.0
+EmptyImage[S][0]=./locomotives/gwr-3232_S.0.0
+EmptyImage[SW][0]=./locomotives/gwr-3232_SW.0.0
+EmptyImage[W][0]=./locomotives/gwr-3232_W.0.0
+EmptyImage[NW][0]=./locomotives/gwr-3232_NW.0.0
+EmptyImage[N][0]=./locomotives/gwr-3232_N.0.0
+EmptyImage[NE][0]=./locomotives/gwr-3232_NE.0.0
+
+EmptyImage[E][1]=./locomotives/gwr-3232-churchward_E.0.0
+EmptyImage[SE][1]=./locomotives/gwr-3232-churchward_SE.0.0
+EmptyImage[S][1]=./locomotives/gwr-3232-churchward_S.0.0
+EmptyImage[SW][1]=./locomotives/gwr-3232-churchward_SW.0.0
+EmptyImage[W][1]=./locomotives/gwr-3232-churchward_W.0.0
+EmptyImage[NW][1]=./locomotives/gwr-3232-churchward_NW.0.0
+EmptyImage[N][1]=./locomotives/gwr-3232-churchward_N.0.0
+EmptyImage[NE][1]=./locomotives/gwr-3232-churchward_NE.0.0
+
+EmptyImage[E][2]=./locomotives/gwr-3232-ww1-austerity_E.0.0
+EmptyImage[SE][2]=./locomotives/gwr-3232-ww1-austerity_SE.0.0
+EmptyImage[S][2]=./locomotives/gwr-3232-ww1-austerity_S.0.0
+EmptyImage[SW][2]=./locomotives/gwr-3232-ww1-austerity_SW.0.0
+EmptyImage[W][2]=./locomotives/gwr-3232-ww1-austerity_W.0.0
+EmptyImage[NW][2]=./locomotives/gwr-3232-ww1-austerity_NW.0.0
+EmptyImage[N][2]=./locomotives/gwr-3232-ww1-austerity_N.0.0
+EmptyImage[NE][2]=./locomotives/gwr-3232-ww1-austerity_NE.0.0
+
+EmptyImage[E][3]=./locomotives/gwr-3232-collett_E.0.0
+EmptyImage[SE][3]=./locomotives/gwr-3232-collett_SE.0.0
+EmptyImage[S][3]=./locomotives/gwr-3232-collett_S.0.0
+EmptyImage[SW][3]=./locomotives/gwr-3232-collett_SW.0.0
+EmptyImage[W][3]=./locomotives/gwr-3232-collett_W.0.0
+EmptyImage[NW][3]=./locomotives/gwr-3232-collett_NW.0.0
+EmptyImage[N][3]=./locomotives/gwr-3232-collett_N.0.0
+EmptyImage[NE][3]=./locomotives/gwr-3232-collett_NE.0.0

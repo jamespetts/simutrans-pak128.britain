@@ -24,8 +24,8 @@ rolling_resistance=19
 weight=8.2
 axles=2
 cost=187000
-runningcost=15
-fixed_cost=78
+runningcost=0
+fixed_cost=156
 
 comfort[0]=0
 comfort[1]=37
@@ -35,18 +35,19 @@ max_loading_time=47
 can_lead_from_rear=0
 bidirectional=1
 
+Constraint[Prev][0]=any
 Constraint[Next][0]=any
 
 liverytype[0]=LBSCR-Early
 
-EmptyImage[E][0]=./images/lbscr-4wheel-20ft-third_E.0.0
-EmptyImage[SE][0]=./images/lbscr-4wheel-20ft-third_SE.0.0
-EmptyImage[S][0]=./images/lbscr-4wheel-20ft-third_S.0.0
-EmptyImage[SW][0]=./images/lbscr-4wheel-20ft-third_SW.0.0
-EmptyImage[W][0]=./images/lbscr-4wheel-20ft-third_W.0.0
-EmptyImage[NW][0]=./images/lbscr-4wheel-20ft-third_NW.0.0
-EmptyImage[N][0]=./images/lbscr-4wheel-20ft-third_N.0.0
-EmptyImage[NE][0]=./images/lbscr-4wheel-20ft-third_NE.0.0
+EmptyImage[E][0]=./carriages/lbscr-4wheel-20ft-third_E.0.0
+EmptyImage[SE][0]=./carriages/lbscr-4wheel-20ft-third_SE.0.0
+EmptyImage[S][0]=./carriages/lbscr-4wheel-20ft-third_S.0.0
+EmptyImage[SW][0]=./carriages/lbscr-4wheel-20ft-third_SW.0.0
+EmptyImage[W][0]=./carriages/lbscr-4wheel-20ft-third_W.0.0
+EmptyImage[NW][0]=./carriages/lbscr-4wheel-20ft-third_NW.0.0
+EmptyImage[N][0]=./carriages/lbscr-4wheel-20ft-third_N.0.0
+EmptyImage[NE][0]=./carriages/lbscr-4wheel-20ft-third_NE.0.0
 
 ---
 
@@ -72,8 +73,8 @@ rolling_resistance=19
 weight=8.3
 axles=2
 cost=191000
-runningcost=15
-fixed_cost=80
+runningcost=0
+fixed_cost=159
 
 comfort[0]=0
 comfort[1]=37
@@ -85,18 +86,19 @@ max_loading_time=47
 can_lead_from_rear=0
 bidirectional=1
 
+Constraint[Prev][0]=any
 Constraint[Next][0]=any
 
 liverytype[0]=LBSCR-Early
 
-EmptyImage[E][0]=./images/lbscr-4wheel-20ft-first_E.0.0
-EmptyImage[SE][0]=./images/lbscr-4wheel-20ft-first_SE.0.0
-EmptyImage[S][0]=./images/lbscr-4wheel-20ft-first_S.0.0
-EmptyImage[SW][0]=./images/lbscr-4wheel-20ft-first_SW.0.0
-EmptyImage[W][0]=./images/lbscr-4wheel-20ft-first_W.0.0
-EmptyImage[NW][0]=./images/lbscr-4wheel-20ft-first_NW.0.0
-EmptyImage[N][0]=./images/lbscr-4wheel-20ft-first_N.0.0
-EmptyImage[NE][0]=./images/lbscr-4wheel-20ft-first_NE.0.0
+EmptyImage[E][0]=./carriages/lbscr-4wheel-20ft-first_E.0.0
+EmptyImage[SE][0]=./carriages/lbscr-4wheel-20ft-first_SE.0.0
+EmptyImage[S][0]=./carriages/lbscr-4wheel-20ft-first_S.0.0
+EmptyImage[SW][0]=./carriages/lbscr-4wheel-20ft-first_SW.0.0
+EmptyImage[W][0]=./carriages/lbscr-4wheel-20ft-first_W.0.0
+EmptyImage[NW][0]=./carriages/lbscr-4wheel-20ft-first_NW.0.0
+EmptyImage[N][0]=./carriages/lbscr-4wheel-20ft-first_N.0.0
+EmptyImage[NE][0]=./carriages/lbscr-4wheel-20ft-first_NE.0.0
 
 ---
 
@@ -122,8 +124,8 @@ rolling_resistance=19
 weight=8.3
 axles=2
 cost=189500
-runningcost=15
-fixed_cost=79
+runningcost=0
+fixed_cost=158
 
 comfort[0]=0
 comfort[1]=37
@@ -135,18 +137,19 @@ max_loading_time=47
 can_lead_from_rear=0
 bidirectional=1
 
+Constraint[Prev][0]=any
 Constraint[Next][0]=any
 
 liverytype[0]=LBSCR-Early
 
-EmptyImage[E][0]=./images/lbscr-4wheel-20ft-first_E.0.0
-EmptyImage[SE][0]=./images/lbscr-4wheel-20ft-first_SE.0.0
-EmptyImage[S][0]=./images/lbscr-4wheel-20ft-first_S.0.0
-EmptyImage[SW][0]=./images/lbscr-4wheel-20ft-first_SW.0.0
-EmptyImage[W][0]=./images/lbscr-4wheel-20ft-first_W.0.0
-EmptyImage[NW][0]=./images/lbscr-4wheel-20ft-first_NW.0.0
-EmptyImage[N][0]=./images/lbscr-4wheel-20ft-first_N.0.0
-EmptyImage[NE][0]=./images/lbscr-4wheel-20ft-first_NE.0.0
+EmptyImage[E][0]=./carriages/lbscr-4wheel-20ft-first_E.0.0
+EmptyImage[SE][0]=./carriages/lbscr-4wheel-20ft-first_SE.0.0
+EmptyImage[S][0]=./carriages/lbscr-4wheel-20ft-first_S.0.0
+EmptyImage[SW][0]=./carriages/lbscr-4wheel-20ft-first_SW.0.0
+EmptyImage[W][0]=./carriages/lbscr-4wheel-20ft-first_W.0.0
+EmptyImage[NW][0]=./carriages/lbscr-4wheel-20ft-first_NW.0.0
+EmptyImage[N][0]=./carriages/lbscr-4wheel-20ft-first_N.0.0
+EmptyImage[NE][0]=./carriages/lbscr-4wheel-20ft-first_NE.0.0
 
 ---
 
@@ -172,8 +175,8 @@ rolling_resistance=19
 weight=8.3
 axles=2
 cost=180000
-runningcost=15
-fixed_cost=75
+runningcost=0
+fixed_cost=150
 
 comfort[0]=0
 comfort[1]=37
@@ -185,18 +188,19 @@ max_loading_time=47
 can_lead_from_rear=0
 bidirectional=1
 
+Constraint[Prev][0]=any
 Constraint[Next][0]=any
 
 liverytype[0]=LBSCR-Early
 
-EmptyImage[E][0]=./images/lbscr-4wheel-20ft-first_E.0.0
-EmptyImage[SE][0]=./images/lbscr-4wheel-20ft-first_SE.0.0
-EmptyImage[S][0]=./images/lbscr-4wheel-20ft-first_S.0.0
-EmptyImage[SW][0]=./images/lbscr-4wheel-20ft-first_SW.0.0
-EmptyImage[W][0]=./images/lbscr-4wheel-20ft-first_W.0.0
-EmptyImage[NW][0]=./images/lbscr-4wheel-20ft-first_NW.0.0
-EmptyImage[N][0]=./images/lbscr-4wheel-20ft-first_N.0.0
-EmptyImage[NE][0]=./images/lbscr-4wheel-20ft-first_NE.0.0
+EmptyImage[E][0]=./carriages/lbscr-4wheel-20ft-first_E.0.0
+EmptyImage[SE][0]=./carriages/lbscr-4wheel-20ft-first_SE.0.0
+EmptyImage[S][0]=./carriages/lbscr-4wheel-20ft-first_S.0.0
+EmptyImage[SW][0]=./carriages/lbscr-4wheel-20ft-first_SW.0.0
+EmptyImage[W][0]=./carriages/lbscr-4wheel-20ft-first_W.0.0
+EmptyImage[NW][0]=./carriages/lbscr-4wheel-20ft-first_NW.0.0
+EmptyImage[N][0]=./carriages/lbscr-4wheel-20ft-first_N.0.0
+EmptyImage[NE][0]=./carriages/lbscr-4wheel-20ft-first_NE.0.0
 
 ---
 
@@ -223,8 +227,8 @@ rolling_resistance=19
 weight=8.2
 axles=2
 cost=192000
-runningcost=16
-fixed_cost=4880
+runningcost=0
+fixed_cost=4960
 
 comfort[0]=0
 comfort[1]=37
@@ -236,18 +240,19 @@ max_loading_time=47
 can_lead_from_rear=0
 bidirectional=1
 
+Constraint[Prev][0]=any
 Constraint[Next][0]=any
 
 liverytype[0]=LBSCR-Early
 
-EmptyImage[E][0]=./images/lbscr-4wheel-20ft-brake-composite-front_E.0.0
-EmptyImage[SE][0]=./images/lbscr-4wheel-20ft-brake-composite-front_SE.0.0
-EmptyImage[S][0]=./images/lbscr-4wheel-20ft-brake-composite-front_S.0.0
-EmptyImage[SW][0]=./images/lbscr-4wheel-20ft-brake-composite-front_SW.0.0
-EmptyImage[W][0]=./images/lbscr-4wheel-20ft-brake-composite-front_W.0.0
-EmptyImage[NW][0]=./images/lbscr-4wheel-20ft-brake-composite-front_NW.0.0
-EmptyImage[N][0]=./images/lbscr-4wheel-20ft-brake-composite-front_N.0.0
-EmptyImage[NE][0]=./images/lbscr-4wheel-20ft-brake-composite-front_NE.0.0
+EmptyImage[E][0]=./carriages/lbscr-4wheel-20ft-brake-composite-front_E.0.0
+EmptyImage[SE][0]=./carriages/lbscr-4wheel-20ft-brake-composite-front_SE.0.0
+EmptyImage[S][0]=./carriages/lbscr-4wheel-20ft-brake-composite-front_S.0.0
+EmptyImage[SW][0]=./carriages/lbscr-4wheel-20ft-brake-composite-front_SW.0.0
+EmptyImage[W][0]=./carriages/lbscr-4wheel-20ft-brake-composite-front_W.0.0
+EmptyImage[NW][0]=./carriages/lbscr-4wheel-20ft-brake-composite-front_NW.0.0
+EmptyImage[N][0]=./carriages/lbscr-4wheel-20ft-brake-composite-front_N.0.0
+EmptyImage[NE][0]=./carriages/lbscr-4wheel-20ft-brake-composite-front_NE.0.0
 
 ---
 
@@ -273,8 +278,8 @@ rolling_resistance=19
 weight=8.2
 axles=2
 cost=187000
-runningcost=16
-fixed_cost=4878
+runningcost=0
+fixed_cost=4956
 
 comfort[0]=0
 comfort[1]=37
@@ -288,14 +293,14 @@ bidirectional=1
 
 liverytype[0]=LBSCR-Early
 
-EmptyImage[E][0]=./images/lbscr-4wheel-20ft-brake-composite-rear_E.0.0
-EmptyImage[SE][0]=./images/lbscr-4wheel-20ft-brake-composite-rear_SE.0.0
-EmptyImage[S][0]=./images/lbscr-4wheel-20ft-brake-composite-rear_S.0.0
-EmptyImage[SW][0]=./images/lbscr-4wheel-20ft-brake-composite-rear_SW.0.0
-EmptyImage[W][0]=./images/lbscr-4wheel-20ft-brake-composite-rear_W.0.0
-EmptyImage[NW][0]=./images/lbscr-4wheel-20ft-brake-composite-rear_NW.0.0
-EmptyImage[N][0]=./images/lbscr-4wheel-20ft-brake-composite-rear_N.0.0
-EmptyImage[NE][0]=./images/lbscr-4wheel-20ft-brake-composite-rear_NE.0.0
+EmptyImage[E][0]=./carriages/lbscr-4wheel-20ft-brake-composite-rear_E.0.0
+EmptyImage[SE][0]=./carriages/lbscr-4wheel-20ft-brake-composite-rear_SE.0.0
+EmptyImage[S][0]=./carriages/lbscr-4wheel-20ft-brake-composite-rear_S.0.0
+EmptyImage[SW][0]=./carriages/lbscr-4wheel-20ft-brake-composite-rear_SW.0.0
+EmptyImage[W][0]=./carriages/lbscr-4wheel-20ft-brake-composite-rear_W.0.0
+EmptyImage[NW][0]=./carriages/lbscr-4wheel-20ft-brake-composite-rear_NW.0.0
+EmptyImage[N][0]=./carriages/lbscr-4wheel-20ft-brake-composite-rear_N.0.0
+EmptyImage[NE][0]=./carriages/lbscr-4wheel-20ft-brake-composite-rear_NE.0.0
 
 ---
 
@@ -319,8 +324,8 @@ rolling_resistance=19
 weight=8.2
 axles=2
 cost=187000
-runningcost=16
-fixed_cost=78
+runningcost=0
+fixed_cost=4956
 
 comfort[0]=0
 comfort[1]=37
@@ -332,14 +337,14 @@ bidirectional=1
 
 liverytype[0]=LBSCR-Early
 
-EmptyImage[E][0]=./images/lbscr-4wheel-20ft-brake-third_E.0.0
-EmptyImage[SE][0]=./images/lbscr-4wheel-20ft-brake-third_SE.0.0
-EmptyImage[S][0]=./images/lbscr-4wheel-20ft-brake-third_S.0.0
-EmptyImage[SW][0]=./images/lbscr-4wheel-20ft-brake-third_SW.0.0
-EmptyImage[W][0]=./images/lbscr-4wheel-20ft-brake-third_W.0.0
-EmptyImage[NW][0]=./images/lbscr-4wheel-20ft-brake-third_NW.0.0
-EmptyImage[N][0]=./images/lbscr-4wheel-20ft-brake-third_N.0.0
-EmptyImage[NE][0]=./images/lbscr-4wheel-20ft-brake-third_NE.0.0
+EmptyImage[E][0]=./carriages/lbscr-4wheel-20ft-brake-third_E.0.0
+EmptyImage[SE][0]=./carriages/lbscr-4wheel-20ft-brake-third_SE.0.0
+EmptyImage[S][0]=./carriages/lbscr-4wheel-20ft-brake-third_S.0.0
+EmptyImage[SW][0]=./carriages/lbscr-4wheel-20ft-brake-third_SW.0.0
+EmptyImage[W][0]=./carriages/lbscr-4wheel-20ft-brake-third_W.0.0
+EmptyImage[NW][0]=./carriages/lbscr-4wheel-20ft-brake-third_NW.0.0
+EmptyImage[N][0]=./carriages/lbscr-4wheel-20ft-brake-third_N.0.0
+EmptyImage[NE][0]=./carriages/lbscr-4wheel-20ft-brake-third_NE.0.0
 
 ---
 
@@ -361,8 +366,8 @@ rolling_resistance=19
 weight=8.0
 axles=2
 cost=144000
-runningcost=12
-fixed_cost=60
+runningcost=0
+fixed_cost=120
 
 min_loading_time=35
 max_loading_time=100
@@ -372,14 +377,14 @@ bidirectional=1
 
 liverytype[0]=LBSCR-Early
 
-EmptyImage[E][0]=./images/lbscr-4wheel-20ft-full-brake_E.0.0
-EmptyImage[SE][0]=./images/lbscr-4wheel-20ft-full-brake_SE.0.0
-EmptyImage[S][0]=./images/lbscr-4wheel-20ft-full-brake_S.0.0
-EmptyImage[SW][0]=./images/lbscr-4wheel-20ft-full-brake_SW.0.0
-EmptyImage[W][0]=./images/lbscr-4wheel-20ft-full-brake_W.0.0
-EmptyImage[NW][0]=./images/lbscr-4wheel-20ft-full-brake_NW.0.0
-EmptyImage[N][0]=./images/lbscr-4wheel-20ft-full-brake_N.0.0
-EmptyImage[NE][0]=./images/lbscr-4wheel-20ft-full-brake_NE.0.0
+EmptyImage[E][0]=./carriages/lbscr-4wheel-20ft-full-brake_E.0.0
+EmptyImage[SE][0]=./carriages/lbscr-4wheel-20ft-full-brake_SE.0.0
+EmptyImage[S][0]=./carriages/lbscr-4wheel-20ft-full-brake_S.0.0
+EmptyImage[SW][0]=./carriages/lbscr-4wheel-20ft-full-brake_SW.0.0
+EmptyImage[W][0]=./carriages/lbscr-4wheel-20ft-full-brake_W.0.0
+EmptyImage[NW][0]=./carriages/lbscr-4wheel-20ft-full-brake_NW.0.0
+EmptyImage[N][0]=./carriages/lbscr-4wheel-20ft-full-brake_N.0.0
+EmptyImage[NE][0]=./carriages/lbscr-4wheel-20ft-full-brake_NE.0.0
 
 ---
 
@@ -401,7 +406,7 @@ rolling_resistance=19
 weight=8.0
 axles=2
 cost=144000
-runningcost=12
+runningcost=0
 fixed_cost=60
 
 min_loading_time=35
@@ -410,15 +415,16 @@ max_loading_time=120
 can_lead_from_rear=0
 bidirectional=1
 
+Constraint[Prev][0]=any
 Constraint[Next][0]=any
 
 liverytype[0]=LBSCR-Early
 
-EmptyImage[E][0]=./images/lbscr-4wheel-20ft-mail_E.0.0
-EmptyImage[SE][0]=./images/lbscr-4wheel-20ft-mail_SE.0.0
-EmptyImage[S][0]=./images/lbscr-4wheel-20ft-mail_S.0.0
-EmptyImage[SW][0]=./images/lbscr-4wheel-20ft-mail_SW.0.0
-EmptyImage[W][0]=./images/lbscr-4wheel-20ft-mail_W.0.0
-EmptyImage[NW][0]=./images/lbscr-4wheel-20ft-mail_NW.0.0
-EmptyImage[N][0]=./images/lbscr-4wheel-20ft-mail_N.0.0
-EmptyImage[NE][0]=./images/lbscr-4wheel-20ft-mail_NE.0.0
+EmptyImage[E][0]=./carriages/lbscr-4wheel-20ft-mail_E.0.0
+EmptyImage[SE][0]=./carriages/lbscr-4wheel-20ft-mail_SE.0.0
+EmptyImage[S][0]=./carriages/lbscr-4wheel-20ft-mail_S.0.0
+EmptyImage[SW][0]=./carriages/lbscr-4wheel-20ft-mail_SW.0.0
+EmptyImage[W][0]=./carriages/lbscr-4wheel-20ft-mail_W.0.0
+EmptyImage[NW][0]=./carriages/lbscr-4wheel-20ft-mail_NW.0.0
+EmptyImage[N][0]=./carriages/lbscr-4wheel-20ft-mail_N.0.0
+EmptyImage[NE][0]=./carriages/lbscr-4wheel-20ft-mail_NE.0.0

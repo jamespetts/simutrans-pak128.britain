@@ -23,7 +23,8 @@ overcrowded_capacity=117
 weight=32.1
 axles=4
 cost=7000000
-runningcost=112
+runningcost=51
+fixed_cost=11833
 sound=video47-a-stock.wav
 
 can_lead_from_rear=1
@@ -81,7 +82,8 @@ overcrowded_capacity=125
 weight=21.8
 axles=4
 cost=1400000
-runningcost=33
+runningcost=0
+fixed_cost=1667
 
 
 bidirectional=0
@@ -139,7 +141,8 @@ overcrowded_capacity=125
 weight=21.8
 axles=4
 cost=1400000
-runningcost=33
+runningcost=0
+fixed_cost=1667
 
 bidirectional=0
 way_constraint_permissive[3]=3
@@ -198,7 +201,8 @@ overcrowded_capacity=117
 weight=32.1
 axles=4
 cost=7000000
-runningcost=112
+runningcost=51
+fixed_cost=11833
 sound=video47-a-stock.wav
 
 can_lead_from_rear=1

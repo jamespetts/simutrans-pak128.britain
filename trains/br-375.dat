@@ -24,7 +24,8 @@ rolling_resistance=13
 weight=46
 axles=4
 cost=1512000
-runningcost=132
+runningcost=75
+fixed_cost=7260
 sound=panos-g-class-375.wav
 
 min_loading_time=17
@@ -48,23 +49,23 @@ Constraint[Next][0]=BR-375Middle
 liverytype[0]=South-Eastern-Trains
 liverytype[1]=southeastern
 
-EmptyImage[E][0]=./images/br-375-front-se.1.4
-EmptyImage[SE][0]=./images/br-375-front-se.1.5
-EmptyImage[S][0]=./images/br-375-front-se.1.6
-EmptyImage[SW][0]=./images/br-375-front-se.1.7
-EmptyImage[W][0]=./images/br-375-front-se.1.0
-EmptyImage[NW][0]=./images/br-375-front-se.1.1
-EmptyImage[N][0]=./images/br-375-front-se.1.2
-EmptyImage[NE][0]=./images/br-375-front-se.1.3
+EmptyImage[E][0]=./railcars/br-375-front-se.1.4
+EmptyImage[SE][0]=./railcars/br-375-front-se.1.5
+EmptyImage[S][0]=./railcars/br-375-front-se.1.6
+EmptyImage[SW][0]=./railcars/br-375-front-se.1.7
+EmptyImage[W][0]=./railcars/br-375-front-se.1.0
+EmptyImage[NW][0]=./railcars/br-375-front-se.1.1
+EmptyImage[N][0]=./railcars/br-375-front-se.1.2
+EmptyImage[NE][0]=./railcars/br-375-front-se.1.3
 
-EmptyImage[E][1]=./images/br-375-front-se2.1.4
-EmptyImage[SE][1]=./images/br-375-front-se2.1.5
-EmptyImage[S][1]=./images/br-375-front-se2.1.6
-EmptyImage[SW][1]=./images/br-375-front-se2.1.7
-EmptyImage[W][1]=./images/br-375-front-se2.1.0
-EmptyImage[NW][1]=./images/br-375-front-se2.1.1
-EmptyImage[N][1]=./images/br-375-front-se2.1.2
-EmptyImage[NE][1]=./images/br-375-front-se2.1.3
+EmptyImage[E][1]=./railcars/br-375-front-se2.1.4
+EmptyImage[SE][1]=./railcars/br-375-front-se2.1.5
+EmptyImage[S][1]=./railcars/br-375-front-se2.1.6
+EmptyImage[SW][1]=./railcars/br-375-front-se2.1.7
+EmptyImage[W][1]=./railcars/br-375-front-se2.1.0
+EmptyImage[NW][1]=./railcars/br-375-front-se2.1.1
+EmptyImage[N][1]=./railcars/br-375-front-se2.1.2
+EmptyImage[NE][1]=./railcars/br-375-front-se2.1.3
 
 ---
 # Not actually a pantograph vehicle on the non-dual voltage trains
@@ -93,7 +94,8 @@ rolling_resistance=13
 weight=40
 axles=4
 cost=1512000
-runningcost=132
+runningcost=0
+fixed_cost=3150
 
 min_loading_time=17
 max_loading_time=60
@@ -115,23 +117,23 @@ Constraint[Next][0]=BR-375Rear
 liverytype[0]=South-Eastern-Trains
 liverytype[1]=southeastern
 
-EmptyImage[E][0]=./images/br-375-middle-se.1.4
-EmptyImage[SE][0]=./images/br-375-middle-se.1.5
-EmptyImage[S][0]=./images/br-375-middle-se.1.6
-EmptyImage[SW][0]=./images/br-375-middle-se.1.7
-EmptyImage[W][0]=./images/br-375-middle-se.1.0
-EmptyImage[NW][0]=./images/br-375-middle-se.1.1
-EmptyImage[N][0]=./images/br-375-middle-se.1.2
-EmptyImage[NE][0]=./images/br-375-middle-se.1.3
+EmptyImage[E][0]=./railcars/br-375-middle-se.1.4
+EmptyImage[SE][0]=./railcars/br-375-middle-se.1.5
+EmptyImage[S][0]=./railcars/br-375-middle-se.1.6
+EmptyImage[SW][0]=./railcars/br-375-middle-se.1.7
+EmptyImage[W][0]=./railcars/br-375-middle-se.1.0
+EmptyImage[NW][0]=./railcars/br-375-middle-se.1.1
+EmptyImage[N][0]=./railcars/br-375-middle-se.1.2
+EmptyImage[NE][0]=./railcars/br-375-middle-se.1.3
 
-EmptyImage[E][1]=./images/br-375-middle-se2.1.4
-EmptyImage[SE][1]=./images/br-375-middle-se2.1.5
-EmptyImage[S][1]=./images/br-375-middle-se2.1.6
-EmptyImage[SW][1]=./images/br-375-middle-se2.1.7
-EmptyImage[W][1]=./images/br-375-middle-se2.1.0
-EmptyImage[NW][1]=./images/br-375-middle-se2.1.1
-EmptyImage[N][1]=./images/br-375-middle-se2.1.2
-EmptyImage[NE][1]=./images/br-375-middle-se2.1.3
+EmptyImage[E][1]=./railcars/br-375-middle-se2.1.4
+EmptyImage[SE][1]=./railcars/br-375-middle-se2.1.5
+EmptyImage[S][1]=./railcars/br-375-middle-se2.1.6
+EmptyImage[SW][1]=./railcars/br-375-middle-se2.1.7
+EmptyImage[W][1]=./railcars/br-375-middle-se2.1.0
+EmptyImage[NW][1]=./railcars/br-375-middle-se2.1.1
+EmptyImage[N][1]=./railcars/br-375-middle-se2.1.2
+EmptyImage[NE][1]=./railcars/br-375-middle-se2.1.3
 
 ---
 
@@ -160,7 +162,8 @@ brake_force=30
 
 weight=40
 cost=1512000
-runningcost=132
+runningcost=75
+fixed_cost=1260
 
 min_loading_time=17
 max_loading_time=60
@@ -182,23 +185,23 @@ Constraint[Next][1]=BR-375Panto
 liverytype[0]=South-Eastern-Trains
 liverytype[1]=southeastern
 
-EmptyImage[E][0]=./images/br-375-middle-se.1.4
-EmptyImage[SE][0]=./images/br-375-middle-se.1.5
-EmptyImage[S][0]=./images/br-375-middle-se.1.6
-EmptyImage[SW][0]=./images/br-375-middle-se.1.7
-EmptyImage[W][0]=./images/br-375-middle-se.1.0
-EmptyImage[NW][0]=./images/br-375-middle-se.1.1
-EmptyImage[N][0]=./images/br-375-middle-se.1.2
-EmptyImage[NE][0]=./images/br-375-middle-se.1.3
+EmptyImage[E][0]=./railcars/br-375-middle-se.1.4
+EmptyImage[SE][0]=./railcars/br-375-middle-se.1.5
+EmptyImage[S][0]=./railcars/br-375-middle-se.1.6
+EmptyImage[SW][0]=./railcars/br-375-middle-se.1.7
+EmptyImage[W][0]=./railcars/br-375-middle-se.1.0
+EmptyImage[NW][0]=./railcars/br-375-middle-se.1.1
+EmptyImage[N][0]=./railcars/br-375-middle-se.1.2
+EmptyImage[NE][0]=./railcars/br-375-middle-se.1.3
 
-EmptyImage[E][1]=./images/br-375-middle-se2.1.4
-EmptyImage[SE][1]=./images/br-375-middle-se2.1.5
-EmptyImage[S][1]=./images/br-375-middle-se2.1.6
-EmptyImage[SW][1]=./images/br-375-middle-se2.1.7
-EmptyImage[W][1]=./images/br-375-middle-se2.1.0
-EmptyImage[NW][1]=./images/br-375-middle-se2.1.1
-EmptyImage[N][1]=./images/br-375-middle-se2.1.2
-EmptyImage[NE][1]=./images/br-375-middle-se2.1.3
+EmptyImage[E][1]=./railcars/br-375-middle-se2.1.4
+EmptyImage[SE][1]=./railcars/br-375-middle-se2.1.5
+EmptyImage[S][1]=./railcars/br-375-middle-se2.1.6
+EmptyImage[SW][1]=./railcars/br-375-middle-se2.1.7
+EmptyImage[W][1]=./railcars/br-375-middle-se2.1.0
+EmptyImage[NW][1]=./railcars/br-375-middle-se2.1.1
+EmptyImage[N][1]=./railcars/br-375-middle-se2.1.2
+EmptyImage[NE][1]=./railcars/br-375-middle-se2.1.3
 
 ---
 
@@ -228,7 +231,8 @@ rolling_resistance=13
 weight=46
 axles=4
 cost=1008000
-runningcost=132
+runningcost=75
+fixed_cost=6840
 sound=panos-g-class-375.wav
 
 min_loading_time=17
@@ -253,20 +257,20 @@ Constraint[Next][2]=none
 liverytype[0]=South-Eastern-Trains
 liverytype[1]=southeastern
 
-EmptyImage[E][0]=./images/br-375-rear-se.1.4
-EmptyImage[SE][0]=./images/br-375-rear-se.1.5
-EmptyImage[S][0]=./images/br-375-rear-se.1.6
-EmptyImage[SW][0]=./images/br-375-rear-se.1.7
-EmptyImage[W][0]=./images/br-375-rear-se.1.0
-EmptyImage[NW][0]=./images/br-375-rear-se.1.1
-EmptyImage[N][0]=./images/br-375-rear-se.1.2
-EmptyImage[NE][0]=./images/br-375-rear-se.1.3
+EmptyImage[E][0]=./railcars/br-375-rear-se.1.4
+EmptyImage[SE][0]=./railcars/br-375-rear-se.1.5
+EmptyImage[S][0]=./railcars/br-375-rear-se.1.6
+EmptyImage[SW][0]=./railcars/br-375-rear-se.1.7
+EmptyImage[W][0]=./railcars/br-375-rear-se.1.0
+EmptyImage[NW][0]=./railcars/br-375-rear-se.1.1
+EmptyImage[N][0]=./railcars/br-375-rear-se.1.2
+EmptyImage[NE][0]=./railcars/br-375-rear-se.1.3
 
-EmptyImage[E][1]=./images/br-375-rear-se2.1.4
-EmptyImage[SE][1]=./images/br-375-rear-se2.1.5
-EmptyImage[S][1]=./images/br-375-rear-se2.1.6
-EmptyImage[SW][1]=./images/br-375-rear-se2.1.7
-EmptyImage[W][1]=./images/br-375-rear-se2.1.0
-EmptyImage[NW][1]=./images/br-375-rear-se2.1.1
-EmptyImage[N][1]=./images/br-375-rear-se2.1.2
-EmptyImage[NE][1]=./images/br-375-rear-se2.1.3
+EmptyImage[E][1]=./railcars/br-375-rear-se2.1.4
+EmptyImage[SE][1]=./railcars/br-375-rear-se2.1.5
+EmptyImage[S][1]=./railcars/br-375-rear-se2.1.6
+EmptyImage[SW][1]=./railcars/br-375-rear-se2.1.7
+EmptyImage[W][1]=./railcars/br-375-rear-se2.1.0
+EmptyImage[NW][1]=./railcars/br-375-rear-se2.1.1
+EmptyImage[N][1]=./railcars/br-375-rear-se2.1.2
+EmptyImage[NE][1]=./railcars/br-375-rear-se2.1.3

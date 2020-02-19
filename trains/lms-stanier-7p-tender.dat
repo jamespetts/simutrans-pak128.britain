@@ -18,19 +18,32 @@ weight=56
 axles=3
 cost=0
 runningcost=0
+fixed_cost=0
 
 increase_maintenance_after_years=6
 years_before_maintenance_max_reached=10
 
+#fixed_coupling[prev]=1
 Constraint[Prev][0]=LMS-Stanier-7P
 Constraint[Prev][1]=LMS-Stanier-7P-non-streamlined
 
-EmptyImage[E]=./images/lms-stanier-7p.1.0
-EmptyImage[SE]=./images/lms-stanier-7p.1.1
-EmptyImage[S]=./images/lms-stanier-7p.1.2
-EmptyImage[SW]=./images/lms-stanier-7p.1.3
-EmptyImage[W]=./images/lms-stanier-7p.1.4
-EmptyImage[NW]=./images/lms-stanier-7p.1.5
-EmptyImage[N]=./images/lms-stanier-7p.1.6
-EmptyImage[NE]=./images/lms-stanier-7p.1.7
+liverytype[0]=LMS-Standard
+liverytype[1]=LMS-Blue
 
+EmptyImage[E][0]=./locomotives/lms-stanier-7p-tender_E.0.0
+EmptyImage[SE][0]=./locomotives/lms-stanier-7p-tender_SE.0.0
+EmptyImage[S][0]=./locomotives/lms-stanier-7p-tender_S.0.0
+EmptyImage[SW][0]=./locomotives/lms-stanier-7p-tender_SW.0.0
+EmptyImage[W][0]=./locomotives/lms-stanier-7p-tender_W.0.0
+EmptyImage[NW][0]=./locomotives/lms-stanier-7p-tender_NW.0.0
+EmptyImage[N][0]=./locomotives/lms-stanier-7p-tender_N.0.0
+EmptyImage[NE][0]=./locomotives/lms-stanier-7p-tender_NE.0.0
+
+EmptyImage[E][1]=./locomotives/lms-stanier-7p-tender-blue_E.0.0
+EmptyImage[SE][1]=./locomotives/lms-stanier-7p-tender-blue_SE.0.0
+EmptyImage[S][1]=./locomotives/lms-stanier-7p-tender-blue_S.0.0
+EmptyImage[SW][1]=./locomotives/lms-stanier-7p-tender-blue_SW.0.0
+EmptyImage[W][1]=./locomotives/lms-stanier-7p-tender-blue_W.0.0
+EmptyImage[NW][1]=./locomotives/lms-stanier-7p-tender-blue_NW.0.0
+EmptyImage[N][1]=./locomotives/lms-stanier-7p-tender-blue_N.0.0
+EmptyImage[NE][1]=./locomotives/lms-stanier-7p-tender-blue_NE.0.0

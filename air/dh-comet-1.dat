@@ -25,7 +25,8 @@ weight=30
 cost=10000000
 # 7,500lb/hour/engine
 # http://www.oocities.org/capecanaveral/lab/8803/fcomette.htm
-runningcost=3100
+runningcost=127
+fixed_cost=56944
 intro_year=1952
 intro_month=5
 retire_year=1958

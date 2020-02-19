@@ -17,20 +17,22 @@ weight=1
 axle_load=1
 way_wear_factor=4400
 cost=38000
-runningcost=1
+runningcost=0
+fixed_cost=16
 
 bidirectional=1
 
 min_loading_time=200
 max_loading_time=600
 
+Constraint[Prev][0]=any
 Constraint[Next][0]=any
 
-EmptyImage[E]=./images/ng-box.1.4,-10,-5
-EmptyImage[SE]=./images/ng-box.1.5,0,-5
-EmptyImage[S]=./images/ng-box.1.6,10,-5
-EmptyImage[SW]=./images/ng-box.1.7,10,0
-EmptyImage[W]=./images/ng-box.1.0,10,5
-EmptyImage[NW]=./images/ng-box.1.1,0,5
-EmptyImage[N]=./images/ng-box.1.2,-10,5
-EmptyImage[NE]=./images/ng-box.1.3,-10,0
+EmptyImage[E]=./images/ng-box_E.0.0
+EmptyImage[SE]=./images/ng-box_SE.0.0
+EmptyImage[S]=./images/ng-box_S.0.0
+EmptyImage[SW]=./images/ng-box_SW.0.0
+EmptyImage[W]=./images/ng-box_W.0.0
+EmptyImage[NW]=./images/ng-box_NW.0.0
+EmptyImage[N]=./images/ng-box_N.0.0
+EmptyImage[NE]=./images/ng-box_NE.0.0

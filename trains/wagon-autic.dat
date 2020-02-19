@@ -15,7 +15,8 @@ weight=13
 axle_load=6
 way_wear_factor=29750
 cost=569000
-runningcost=11
+runningcost=0
+fixed_cost=237
 
 
 can_lead_from_rear=0
@@ -27,23 +28,23 @@ max_loading_time=600
 
 Constraint[Next][0]=Autic-4_Car_Transporter(Rear)
 
-EmptyImage[E]=./images/wagon-autic.0.0
-EmptyImage[SE]=./images/wagon-autic.0.1
-EmptyImage[S]=./images/wagon-autic.0.2
-EmptyImage[SW]=./images/wagon-autic.0.3
-EmptyImage[W]=./images/wagon-autic.0.4
-EmptyImage[NW]=./images/wagon-autic.0.5
-EmptyImage[N]=./images/wagon-autic.0.6
-EmptyImage[NE]=./images/wagon-autic.0.7
+EmptyImage[E]=./wagons/wagon-autic-front-empty_E.0.0
+EmptyImage[SE]=./wagons/wagon-autic-front-empty_SE.0.0
+EmptyImage[S]=./wagons/wagon-autic-front-empty_S.0.0
+EmptyImage[SW]=./wagons/wagon-autic-front-empty_SW.0.0
+EmptyImage[W]=./wagons/wagon-autic-front-empty_W.0.0
+EmptyImage[NW]=./wagons/wagon-autic-front-empty_NW.0.0
+EmptyImage[N]=./wagons/wagon-autic-front-empty_N.0.0
+EmptyImage[NE]=./wagons/wagon-autic-front-empty_NE.0.0
 
-FreightImage[E]=./images/wagon-autic.1.0
-FreightImage[SE]=./images/wagon-autic.1.1
-FreightImage[S]=./images/wagon-autic.1.2
-FreightImage[SW]=./images/wagon-autic.1.3
-FreightImage[W]=./images/wagon-autic.1.4
-FreightImage[NW]=./images/wagon-autic.1.5
-FreightImage[N]=./images/wagon-autic.1.6
-FreightImage[NE]=./images/wagon-autic.1.7
+FreightImage[E]=./wagons/wagon-autic-front_E.0.0
+FreightImage[SE]=./wagons/wagon-autic-front_SE.0.0
+FreightImage[S]=./wagons/wagon-autic-front_S.0.0
+FreightImage[SW]=./wagons/wagon-autic-front_SW.0.0
+FreightImage[W]=./wagons/wagon-autic-front_W.0.0
+FreightImage[NW]=./wagons/wagon-autic-front_NW.0.0
+FreightImage[N]=./wagons/wagon-autic-front_N.0.0
+FreightImage[NE]=./wagons/wagon-autic-front_NE.0.0
 ----
 obj=vehicle
 name=Autic-4_Car_Transporter(Rear)
@@ -62,7 +63,8 @@ weight=13
 axle_load=6
 way_wear_factor=29750
 cost=569000
-runningcost=11
+runningcost=0
+fixed_cost=237
 
 
 can_lead_from_rear=0
@@ -73,20 +75,20 @@ max_loading_time=600
 
 Constraint[Prev][0]=Autic-4_Car_Transporter(Front)
 
-EmptyImage[E]=./images/wagon-autic.0.4
-EmptyImage[SE]=./images/wagon-autic.0.5
-EmptyImage[S]=./images/wagon-autic.0.6
-EmptyImage[SW]=./images/wagon-autic.0.7
-EmptyImage[W]=./images/wagon-autic.0.0
-EmptyImage[NW]=./images/wagon-autic.0.1
-EmptyImage[N]=./images/wagon-autic.0.2
-EmptyImage[NE]=./images/wagon-autic.0.3
+EmptyImage[E]=./wagons/wagon-autic-rear-empty_E.0.0
+EmptyImage[SE]=./wagons/wagon-autic-rear-empty_SE.0.0
+EmptyImage[S]=./wagons/wagon-autic-rear-empty_S.0.0
+EmptyImage[SW]=./wagons/wagon-autic-rear-empty_SW.0.0
+EmptyImage[W]=./wagons/wagon-autic-rear-empty_W.0.0
+EmptyImage[NW]=./wagons/wagon-autic-rear-empty_NW.0.0
+EmptyImage[N]=./wagons/wagon-autic-rear-empty_N.0.0
+EmptyImage[NE]=./wagons/wagon-autic-rear-empty_NE.0.0
 
-FreightImage[E]=./images/wagon-autic.2.0
-FreightImage[SE]=./images/wagon-autic.2.1
-FreightImage[S]=./images/wagon-autic.2.2
-FreightImage[SW]=./images/wagon-autic.2.3
-FreightImage[W]=./images/wagon-autic.2.4
-FreightImage[NW]=./images/wagon-autic.2.5
-FreightImage[N]=./images/wagon-autic.2.6
-FreightImage[NE]=./images/wagon-autic.2.7
+FreightImage[E]=./wagons/wagon-autic-rear_E.0.0
+FreightImage[SE]=./wagons/wagon-autic-rear_SE.0.0
+FreightImage[S]=./wagons/wagon-autic-rear_S.0.0
+FreightImage[SW]=./wagons/wagon-autic-rear_SW.0.0
+FreightImage[W]=./wagons/wagon-autic-rear_W.0.0
+FreightImage[NW]=./wagons/wagon-autic-rear_NW.0.0
+FreightImage[N]=./wagons/wagon-autic-rear_N.0.0
+FreightImage[NE]=./wagons/wagon-autic-rear_NE.0.0

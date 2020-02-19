@@ -16,7 +16,8 @@ weight=12
 #length=8
 cost=9200000
 upgrade_price=5000
-runningcost=1950
+runningcost=9
+fixed_cost=56389
 intro_year=1967
 intro_month=11
 # Was 1986, but left a gap before the ATR-42 was introduced.
@@ -69,7 +70,8 @@ weight=12
 #length=8
 cost=9200000
 upgrade_price=5000
-runningcost=1950
+runningcost=9
+fixed_cost=56389
 intro_year=1967
 intro_month=11
 # Was 1986, but left a gap before the ATR-42 was introduced.

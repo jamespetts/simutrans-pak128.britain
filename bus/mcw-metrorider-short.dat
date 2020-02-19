@@ -28,7 +28,8 @@ sound=video47-optare-tempo.wav
 weight=5.1
 axles=2
 cost=2750000
-runningcost=117
+runningcost=26
+fixed_cost=9432
 
 comfort=35
 # Single entrance pay driver (with narrow doorway): 4.4 seconds per passenger

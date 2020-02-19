@@ -25,7 +25,8 @@ length=11
 weight=42
 axles=4
 cost=1471000
-runningcost=107
+runningcost=172
+fixed_cost=11022
 sound=video47-class-121.wav
 
 can_lead_from_rear=1
@@ -51,28 +52,29 @@ Constraint[Next][1]=none
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue
 
-EmptyImage[E][0]=./images/br-123-dmbs-g.1.4
-EmptyImage[SE][0]=./images/br-123-dmbs-g.1.5
-EmptyImage[S][0]=./images/br-123-dmbs-g.1.6
-EmptyImage[SW][0]=./images/br-123-dmbs-g.1.7
-EmptyImage[W][0]=./images/br-123-dmbs-g.1.0
-EmptyImage[NW][0]=./images/br-123-dmbs-g.1.1
-EmptyImage[N][0]=./images/br-123-dmbs-g.1.2
-EmptyImage[NE][0]=./images/br-123-dmbs-g.1.3
+EmptyImage[E][0]=./railcars/br-123-dmbs-g_E.0.0
+EmptyImage[SE][0]=./railcars/br-123-dmbs-g_SE.0.0
+EmptyImage[S][0]=./railcars/br-123-dmbs-g_S.0.0
+EmptyImage[SW][0]=./railcars/br-123-dmbs-g_SW.0.0
+EmptyImage[W][0]=./railcars/br-123-dmbs-g_W.0.0
+EmptyImage[NW][0]=./railcars/br-123-dmbs-g_NW.0.0
+EmptyImage[N][0]=./railcars/br-123-dmbs-g_N.0.0
+EmptyImage[NE][0]=./railcars/br-123-dmbs-g_NE.0.0
 
-EmptyImage[E][1]=./images/br-123-dmbs-bg.1.4
-EmptyImage[SE][1]=./images/br-123-dmbs-bg.1.5
-EmptyImage[S][1]=./images/br-123-dmbs-bg.1.6
-EmptyImage[SW][1]=./images/br-123-dmbs-bg.1.7
-EmptyImage[W][1]=./images/br-123-dmbs-bg.1.0
-EmptyImage[NW][1]=./images/br-123-dmbs-bg.1.1
-EmptyImage[N][1]=./images/br-123-dmbs-bg.1.2
-EmptyImage[NE][1]=./images/br-123-dmbs-bg.1.3
+EmptyImage[E][1]=./railcars/br-123-dmbs-bg_E.0.0
+EmptyImage[SE][1]=./railcars/br-123-dmbs-bg_SE.0.0
+EmptyImage[S][1]=./railcars/br-123-dmbs-bg_S.0.0
+EmptyImage[SW][1]=./railcars/br-123-dmbs-bg_SW.0.0
+EmptyImage[W][1]=./railcars/br-123-dmbs-bg_W.0.0
+EmptyImage[NW][1]=./railcars/br-123-dmbs-bg_NW.0.0
+EmptyImage[N][1]=./railcars/br-123-dmbs-bg_N.0.0
+EmptyImage[NE][1]=./railcars/br-123-dmbs-bg_NE.0.0
 
 ----
 
 obj=vehicle
 name=BR-123-TCK
+engine_type=diesel
 speed=112
 power=0
 tractive_effort=0
@@ -94,7 +96,8 @@ length=11
 weight=37
 axles=4
 cost=602100
-runningcost=34
+runningcost=0
+fixed_cost=717
 
 can_lead_from_rear=0
 bidirectional=1
@@ -116,28 +119,29 @@ Constraint[Next][1]=BR-123-TBS
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue
 
-EmptyImage[E][0]=./images/br-mk1-g.1.4
-EmptyImage[SE][0]=./images/br-mk1-g.1.5
-EmptyImage[S][0]=./images/br-mk1-g.1.6
-EmptyImage[SW][0]=./images/br-mk1-g.1.7
-EmptyImage[W][0]=./images/br-mk1-g.1.0
-EmptyImage[NW][0]=./images/br-mk1-g.1.1
-EmptyImage[N][0]=./images/br-mk1-g.1.2
-EmptyImage[NE][0]=./images/br-mk1-g.1.3
+EmptyImage[E][0]=./carriages/br-mk1-g_E.0.0
+EmptyImage[SE][0]=./carriages/br-mk1-g_SE.0.0
+EmptyImage[S][0]=./carriages/br-mk1-g_S.0.0
+EmptyImage[SW][0]=./carriages/br-mk1-g_SW.0.0
+EmptyImage[W][0]=./carriages/br-mk1-g_W.0.0
+EmptyImage[NW][0]=./carriages/br-mk1-g_NW.0.0
+EmptyImage[N][0]=./carriages/br-mk1-g_N.0.0
+EmptyImage[NE][0]=./carriages/br-mk1-g_NE.0.0
 
-EmptyImage[E][1]=./images/br-mk1-sk-bg.1.4
-EmptyImage[SE][1]=./images/br-mk1-sk-bg.1.5
-EmptyImage[S][1]=./images/br-mk1-sk-bg.1.6
-EmptyImage[SW][1]=./images/br-mk1-sk-bg.1.7
-EmptyImage[W][1]=./images/br-mk1-sk-bg.1.0
-EmptyImage[NW][1]=./images/br-mk1-sk-bg.1.1
-EmptyImage[N][1]=./images/br-mk1-sk-bg.1.2
-EmptyImage[NE][1]=./images/br-mk1-sk-bg.1.3
+EmptyImage[E][1]=./carriages/br-mk1-sk-bg_E.0.0
+EmptyImage[SE][1]=./carriages/br-mk1-sk-bg_SE.0.0
+EmptyImage[S][1]=./carriages/br-mk1-sk-bg_S.0.0
+EmptyImage[SW][1]=./carriages/br-mk1-sk-bg_SW.0.0
+EmptyImage[W][1]=./carriages/br-mk1-sk-bg_W.0.0
+EmptyImage[NW][1]=./carriages/br-mk1-sk-bg_NW.0.0
+EmptyImage[N][1]=./carriages/br-mk1-sk-bg_N.0.0
+EmptyImage[NE][1]=./carriages/br-mk1-sk-bg_NE.0.0
 
 ----
 
 obj=vehicle
 name=BR-123-TS
+engine_type=diesel
 speed=112
 power=0
 tractive_effort=0
@@ -159,7 +163,8 @@ length=11
 weight=33
 axles=4
 cost=602100
-runningcost=34
+runningcost=0
+fixed_cost=717
 
 
 can_lead_from_rear=0
@@ -181,27 +186,28 @@ Constraint[Next][0]=BR-123-DMBS
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue
 
-EmptyImage[E][0]=./images/br-mk1-g.1.4
-EmptyImage[SE][0]=./images/br-mk1-g.1.5
-EmptyImage[S][0]=./images/br-mk1-g.1.6
-EmptyImage[SW][0]=./images/br-mk1-g.1.7
-EmptyImage[W][0]=./images/br-mk1-g.1.0
-EmptyImage[NW][0]=./images/br-mk1-g.1.1
-EmptyImage[N][0]=./images/br-mk1-g.1.2
-EmptyImage[NE][0]=./images/br-mk1-g.1.3
+EmptyImage[E][0]=./carriages/br-mk1-g_E.0.0
+EmptyImage[SE][0]=./carriages/br-mk1-g_SE.0.0
+EmptyImage[S][0]=./carriages/br-mk1-g_S.0.0
+EmptyImage[SW][0]=./carriages/br-mk1-g_SW.0.0
+EmptyImage[W][0]=./carriages/br-mk1-g_W.0.0
+EmptyImage[NW][0]=./carriages/br-mk1-g_NW.0.0
+EmptyImage[N][0]=./carriages/br-mk1-g_N.0.0
+EmptyImage[NE][0]=./carriages/br-mk1-g_NE.0.0
 
-EmptyImage[E][1]=./images/br-mk1-sk-bg.1.4
-EmptyImage[SE][1]=./images/br-mk1-sk-bg.1.5
-EmptyImage[S][1]=./images/br-mk1-sk-bg.1.6
-EmptyImage[SW][1]=./images/br-mk1-sk-bg.1.7
-EmptyImage[W][1]=./images/br-mk1-sk-bg.1.0
-EmptyImage[NW][1]=./images/br-mk1-sk-bg.1.1
-EmptyImage[N][1]=./images/br-mk1-sk-bg.1.2
-EmptyImage[NE][1]=./images/br-mk1-sk-bg.1.3
+EmptyImage[E][1]=./carriages/br-mk1-sk-bg_E.0.0
+EmptyImage[SE][1]=./carriages/br-mk1-sk-bg_SE.0.0
+EmptyImage[S][1]=./carriages/br-mk1-sk-bg_S.0.0
+EmptyImage[SW][1]=./carriages/br-mk1-sk-bg_SW.0.0
+EmptyImage[W][1]=./carriages/br-mk1-sk-bg_W.0.0
+EmptyImage[NW][1]=./carriages/br-mk1-sk-bg_NW.0.0
+EmptyImage[N][1]=./carriages/br-mk1-sk-bg_N.0.0
+EmptyImage[NE][1]=./carriages/br-mk1-sk-bg_NE.0.0
 ----
 # TSRB
 obj=vehicle
 name=BR-123-TBS
+engine_type=diesel
 speed=112
 power=0
 tractive_effort=0
@@ -223,7 +229,8 @@ length=11
 weight=34
 axles=4
 cost=758000
-runningcost=39
+runningcost=0
+fixed_cost=902
 
 
 can_lead_from_rear=0
@@ -246,23 +253,23 @@ Constraint[Next][0]=BR-123-DMBS
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue
 
-EmptyImage[E][0]=./images/br-mk1-rmb-g.1.4
-EmptyImage[SE][0]=./images/br-mk1-rmb-g.1.5
-EmptyImage[S][0]=./images/br-mk1-rmb-g.1.6
-EmptyImage[SW][0]=./images/br-mk1-rmb-g.1.7
-EmptyImage[W][0]=./images/br-mk1-rmb-g.1.0
-EmptyImage[NW][0]=./images/br-mk1-rmb-g.1.1
-EmptyImage[N][0]=./images/br-mk1-rmb-g.1.2
-EmptyImage[NE][0]=./images/br-mk1-rmb-g.1.3
+EmptyImage[E][0]=./carriages/br-mk1-rmb-g_E.0.0
+EmptyImage[SE][0]=./carriages/br-mk1-rmb-g_SE.0.0
+EmptyImage[S][0]=./carriages/br-mk1-rmb-g_S.0.0
+EmptyImage[SW][0]=./carriages/br-mk1-rmb-g_SW.0.0
+EmptyImage[W][0]=./carriages/br-mk1-rmb-g_W.0.0
+EmptyImage[NW][0]=./carriages/br-mk1-rmb-g_NW.0.0
+EmptyImage[N][0]=./carriages/br-mk1-rmb-g_N.0.0
+EmptyImage[NE][0]=./carriages/br-mk1-rmb-g_NE.0.0
 
-EmptyImage[E][1]=./images/br-mk1-rmb-bg.1.4
-EmptyImage[SE][1]=./images/br-mk1-rmb-bg.1.5
-EmptyImage[S][1]=./images/br-mk1-rmb-bg.1.6
-EmptyImage[SW][1]=./images/br-mk1-rmb-bg.1.7
-EmptyImage[W][1]=./images/br-mk1-rmb-bg.1.0
-EmptyImage[NW][1]=./images/br-mk1-rmb-bg.1.1
-EmptyImage[N][1]=./images/br-mk1-rmb-bg.1.2
-EmptyImage[NE][1]=./images/br-mk1-rmb-bg.1.3
+EmptyImage[E][1]=./carriages/br-mk1-rmb-bg_E.0.0
+EmptyImage[SE][1]=./carriages/br-mk1-rmb-bg_SE.0.0
+EmptyImage[S][1]=./carriages/br-mk1-rmb-bg_S.0.0
+EmptyImage[SW][1]=./carriages/br-mk1-rmb-bg_SW.0.0
+EmptyImage[W][1]=./carriages/br-mk1-rmb-bg_W.0.0
+EmptyImage[NW][1]=./carriages/br-mk1-rmb-bg_NW.0.0
+EmptyImage[N][1]=./carriages/br-mk1-rmb-bg_N.0.0
+EmptyImage[NE][1]=./carriages/br-mk1-rmb-bg_NE.0.0
 
 ----
 
@@ -292,7 +299,8 @@ length=11
 weight=42
 axles=4
 cost=1471000
-runningcost=107
+runningcost=172
+fixed_cost=11022
 sound=video47-class-121.wav
 
 can_lead_from_rear=1
@@ -315,20 +323,20 @@ Constraint[Next][0]=BR-123-TCK
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue
 
-EmptyImage[E][0]=./images/br-123-dms-g.1.4
-EmptyImage[SE][0]=./images/br-123-dms-g.1.5
-EmptyImage[S][0]=./images/br-123-dms-g.1.6
-EmptyImage[SW][0]=./images/br-123-dms-g.1.7
-EmptyImage[W][0]=./images/br-123-dms-g.1.0
-EmptyImage[NW][0]=./images/br-123-dms-g.1.1
-EmptyImage[N][0]=./images/br-123-dms-g.1.2
-EmptyImage[NE][0]=./images/br-123-dms-g.1.3
+EmptyImage[E][0]=./railcars/br-123-dms-g_E.0.0
+EmptyImage[SE][0]=./railcars/br-123-dms-g_SE.0.0
+EmptyImage[S][0]=./railcars/br-123-dms-g_S.0.0
+EmptyImage[SW][0]=./railcars/br-123-dms-g_SW.0.0
+EmptyImage[W][0]=./railcars/br-123-dms-g_W.0.0
+EmptyImage[NW][0]=./railcars/br-123-dms-g_NW.0.0
+EmptyImage[N][0]=./railcars/br-123-dms-g_N.0.0
+EmptyImage[NE][0]=./railcars/br-123-dms-g_NE.0.0
 
-EmptyImage[E][1]=./images/br-123-dms-bg.1.4
-EmptyImage[SE][1]=./images/br-123-dms-bg.1.5
-EmptyImage[S][1]=./images/br-123-dms-bg.1.6
-EmptyImage[SW][1]=./images/br-123-dms-bg.1.7
-EmptyImage[W][1]=./images/br-123-dms-bg.1.0
-EmptyImage[NW][1]=./images/br-123-dms-bg.1.1
-EmptyImage[N][1]=./images/br-123-dms-bg.1.2
-EmptyImage[NE][1]=./images/br-123-dms-bg.1.3
+EmptyImage[E][1]=./railcars/br-123-dms-bg_E.0.0
+EmptyImage[SE][1]=./railcars/br-123-dms-bg_SE.0.0
+EmptyImage[S][1]=./railcars/br-123-dms-bg_S.0.0
+EmptyImage[SW][1]=./railcars/br-123-dms-bg_SW.0.0
+EmptyImage[W][1]=./railcars/br-123-dms-bg_W.0.0
+EmptyImage[NW][1]=./railcars/br-123-dms-bg_NW.0.0
+EmptyImage[N][1]=./railcars/br-123-dms-bg_N.0.0
+EmptyImage[NE][1]=./railcars/br-123-dms-bg_NE.0.0

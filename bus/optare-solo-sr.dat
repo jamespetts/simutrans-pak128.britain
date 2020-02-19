@@ -20,7 +20,8 @@ sound=the-bloke33-dennis-dart-modern.wav
 weight=7.5
 axles=2
 cost=4250000
-runningcost=71
+runningcost=22
+fixed_cost=10214
 
 comfort=39
 # Single entrance pay driver (low floor): 3.8 seconds per passenger

@@ -17,7 +17,8 @@ is_tall=1
 weight=4.5
 axles=4
 cost=410000
-runningcost=19
+runningcost=0
+fixed_cost=6488
 
 years_before_maintenance_max_reached=60
 

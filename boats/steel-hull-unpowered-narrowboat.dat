@@ -7,8 +7,9 @@ freight=Kohle
 payload=30
 weight=10
 length=8
-cost=20000
-runningcost=2
+cost=200000
+runningcost=0
+fixed_cost=83
 intro_year=1920
 intro_month=1
 #retire_year=1850
@@ -45,7 +46,6 @@ Constraint[Prev][17]=SteamNarrowboatPiece
 Constraint[Prev][18]=SteamNarrowboatCool
 Constraint[Prev][19]=SteamNarrowboatOil
 Constraint[Prev][20]=SteamNarrowboatLivestock
-Constraint[Prev][21]=none
 
 Constraint[Next][0]=none
 
@@ -175,8 +175,9 @@ freight=Bretter
 payload=30
 weight=10
 length=8
-cost=20000
-runningcost=2
+cost=200000
+runningcost=0
+fixed_cost=83
 intro_year=1920
 intro_month=1
 #retire_year=1850
@@ -213,7 +214,6 @@ Constraint[Prev][17]=SteamNarrowboatPiece
 Constraint[Prev][18]=SteamNarrowboatCool
 Constraint[Prev][19]=SteamNarrowboatOil
 Constraint[Prev][20]=SteamNarrowboatLivestock
-Constraint[Prev][21]=none
 
 Constraint[Next][0]=none
 
@@ -305,8 +305,9 @@ freight=vegetables
 payload=30
 weight=10
 length=8
-cost=20000
-runningcost=2
+cost=200000
+runningcost=0
+fixed_cost=83
 intro_year=1920
 intro_month=1
 #retire_year=1850
@@ -343,7 +344,6 @@ Constraint[Prev][17]=SteamNarrowboatPiece
 Constraint[Prev][18]=SteamNarrowboatCool
 Constraint[Prev][19]=SteamNarrowboatOil
 Constraint[Prev][20]=SteamNarrowboatLivestock
-Constraint[Prev][21]=none
 
 Constraint[Next][0]=none
 
@@ -378,8 +378,9 @@ freight=fish
 payload=30
 weight=10
 length=8
-cost=20000
-runningcost=2
+cost=200000
+runningcost=0
+fixed_cost=83
 intro_year=1920
 intro_month=1
 #retire_year=1850
@@ -416,7 +417,6 @@ Constraint[Prev][17]=SteamNarrowboatPiece
 Constraint[Prev][18]=SteamNarrowboatCool
 Constraint[Prev][19]=SteamNarrowboatOil
 Constraint[Prev][20]=SteamNarrowboatLivestock
-Constraint[Prev][21]=none
 
 Constraint[Next][0]=none
 
@@ -451,8 +451,9 @@ freight=Oel
 payload=30
 weight=10
 length=8
-cost=20000
-runningcost=2
+cost=200000
+runningcost=0
+fixed_cost=83
 intro_year=1920
 intro_month=1
 #retire_year=1850
@@ -489,7 +490,6 @@ Constraint[Prev][17]=SteamNarrowboatPiece
 Constraint[Prev][18]=SteamNarrowboatCool
 Constraint[Prev][19]=SteamNarrowboatOil
 Constraint[Prev][20]=SteamNarrowboatLivestock
-Constraint[Prev][21]=none
 
 Constraint[Next][0]=none
 
@@ -523,8 +523,9 @@ freight=livestock
 payload=30
 weight=10
 length=8
-cost=20000
-runningcost=2
+cost=200000
+runningcost=0
+fixed_cost=83
 intro_year=1920
 intro_month=1
 #retire_year=1850
@@ -561,7 +562,6 @@ Constraint[Prev][17]=SteamNarrowboatPiece
 Constraint[Prev][18]=SteamNarrowboatCool
 Constraint[Prev][19]=SteamNarrowboatOil
 Constraint[Prev][20]=SteamNarrowboatLivestock
-Constraint[Prev][21]=none
 
 Constraint[Next][0]=none
 

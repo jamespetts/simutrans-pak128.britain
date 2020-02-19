@@ -16,8 +16,8 @@ length=8
 
 weight=10
 cost=480000
-runningcost=143
-fixed_cost=8200
+runningcost=107
+fixed_cost=16200
 
 
 way_constraint_permissive[4]=4  # Waterway

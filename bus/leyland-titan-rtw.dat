@@ -15,7 +15,8 @@ gear=50
 weight=7.7
 length=6
 cost=1014000
-runningcost=191
+runningcost=88
+fixed_cost=8528
 intro_year=1949
 intro_month=5
 retire_year=1961
@@ -25,7 +26,7 @@ sound=leyland-titan-pd2-ff3170.wav
 
 comfort=43
 # Rear platform with conductor (8ft wide): 1.8 seconds per passenger
-min_loading_time=5
+min_loading_time=3
 max_loading_time=100
 
 Constraint[Prev][0]=none

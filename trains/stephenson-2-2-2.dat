@@ -32,17 +32,17 @@ weight=12.5
 # http://www.steamlocomotive.com/locobase.php?country=Great_Britain&wheel=2-2-2&railroad=lm
 axle_load=5
 cost=7400500
-runningcost=91
-fixed_cost=27084
+runningcost=102
+fixed_cost=26278
 sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=LMR-Patentee-Tender
 
-EmptyImage[E]=./images/stephenson-2-2-2_E.0.0
-EmptyImage[SE]=./images/stephenson-2-2-2_SE.0.0
-EmptyImage[S]=./images/stephenson-2-2-2_S.0.0
-EmptyImage[SW]=./images/stephenson-2-2-2_SW.0.0
-EmptyImage[W]=./images/stephenson-2-2-2_W.0.0
-EmptyImage[NW]=./images/stephenson-2-2-2_NW.0.0
-EmptyImage[N]=./images/stephenson-2-2-2_N.0.0
-EmptyImage[NE]=./images/stephenson-2-2-2_NE.0.0
+EmptyImage[E]=./locomotives/stephenson-2-2-2_E.0.0
+EmptyImage[SE]=./locomotives/stephenson-2-2-2_SE.0.0
+EmptyImage[S]=./locomotives/stephenson-2-2-2_S.0.0
+EmptyImage[SW]=./locomotives/stephenson-2-2-2_SW.0.0
+EmptyImage[W]=./locomotives/stephenson-2-2-2_W.0.0
+EmptyImage[NW]=./locomotives/stephenson-2-2-2_NW.0.0
+EmptyImage[N]=./locomotives/stephenson-2-2-2_N.0.0
+EmptyImage[NE]=./locomotives/stephenson-2-2-2_NE.0.0

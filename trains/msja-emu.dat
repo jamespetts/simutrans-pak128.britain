@@ -22,7 +22,8 @@ length=10
 weight=30.9
 axles=4
 cost=1663000
-runningcost=118
+runningcost=0
+fixed_cost=1980
 sound=x24tohayes-epb.wav
 increase_maintenance_after_years=12
 
@@ -47,32 +48,32 @@ liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
 liverytype[2]=BR-Blue
 
-EmptyImage[E][0]=./images/msj&a-emu-driving-motor.1.4
-EmptyImage[SE][0]=./images/msj&a-emu-driving-motor.1.5
-EmptyImage[S][0]=./images/msj&a-emu-driving-motor.1.6
-EmptyImage[SW][0]=./images/msj&a-emu-driving-motor.1.7
-EmptyImage[W][0]=./images/msj&a-emu-driving-motor.1.0
-EmptyImage[NW][0]=./images/msj&a-emu-driving-motor.1.1
-EmptyImage[N][0]=./images/msj&a-emu-driving-motor.1.2
-EmptyImage[NE][0]=./images/msj&a-emu-driving-motor.1.3
+EmptyImage[E][0]=./railcars/msj&a-emu-driving-motor_E.0.0
+EmptyImage[SE][0]=./railcars/msj&a-emu-driving-motor_SE.0.0
+EmptyImage[S][0]=./railcars/msj&a-emu-driving-motor_S.0.0
+EmptyImage[SW][0]=./railcars/msj&a-emu-driving-motor_SW.0.0
+EmptyImage[W][0]=./railcars/msj&a-emu-driving-motor_W.0.0
+EmptyImage[NW][0]=./railcars/msj&a-emu-driving-motor_NW.0.0
+EmptyImage[N][0]=./railcars/msj&a-emu-driving-motor_N.0.0
+EmptyImage[NE][0]=./railcars/msj&a-emu-driving-motor_NE.0.0
 
-EmptyImage[E][1]=./images/msj&a-emu-driving-motor-br.1.4
-EmptyImage[SE][1]=./images/msj&a-emu-driving-motor-br.1.5
-EmptyImage[S][1]=./images/msj&a-emu-driving-motor-br.1.6
-EmptyImage[SW][1]=./images/msj&a-emu-driving-motor-br.1.7
-EmptyImage[W][1]=./images/msj&a-emu-driving-motor-br.1.0
-EmptyImage[NW][1]=./images/msj&a-emu-driving-motor-br.1.1
-EmptyImage[N][1]=./images/msj&a-emu-driving-motor-br.1.2
-EmptyImage[NE][1]=./images/msj&a-emu-driving-motor-br.1.3
+EmptyImage[E][1]=./railcars/msj&a-emu-driving-motor-br_E.0.0
+EmptyImage[SE][1]=./railcars/msj&a-emu-driving-motor-br_SE.0.0
+EmptyImage[S][1]=./railcars/msj&a-emu-driving-motor-br_S.0.0
+EmptyImage[SW][1]=./railcars/msj&a-emu-driving-motor-br_SW.0.0
+EmptyImage[W][1]=./railcars/msj&a-emu-driving-motor-br_W.0.0
+EmptyImage[NW][1]=./railcars/msj&a-emu-driving-motor-br_NW.0.0
+EmptyImage[N][1]=./railcars/msj&a-emu-driving-motor-br_N.0.0
+EmptyImage[NE][1]=./railcars/msj&a-emu-driving-motor-br_NE.0.0
 
-EmptyImage[E][2]=./images/msj&a-emu-driving-motor-br-blue.1.4
-EmptyImage[SE][2]=./images/msj&a-emu-driving-motor-br-blue.1.5
-EmptyImage[S][2]=./images/msj&a-emu-driving-motor-br-blue.1.6
-EmptyImage[SW][2]=./images/msj&a-emu-driving-motor-br-blue.1.7
-EmptyImage[W][2]=./images/msj&a-emu-driving-motor-br-blue.1.0
-EmptyImage[NW][2]=./images/msj&a-emu-driving-motor-br-blue.1.1
-EmptyImage[N][2]=./images/msj&a-emu-driving-motor-br-blue.1.2
-EmptyImage[NE][2]=./images/msj&a-emu-driving-motor-br-blue.1.3
+EmptyImage[E][2]=./railcars/msj&a-emu-driving-motor-br-blue_E.0.0
+EmptyImage[SE][2]=./railcars/msj&a-emu-driving-motor-br-blue_SE.0.0
+EmptyImage[S][2]=./railcars/msj&a-emu-driving-motor-br-blue_S.0.0
+EmptyImage[SW][2]=./railcars/msj&a-emu-driving-motor-br-blue_SW.0.0
+EmptyImage[W][2]=./railcars/msj&a-emu-driving-motor-br-blue_W.0.0
+EmptyImage[NW][2]=./railcars/msj&a-emu-driving-motor-br-blue_NW.0.0
+EmptyImage[N][2]=./railcars/msj&a-emu-driving-motor-br-blue_N.0.0
+EmptyImage[NE][2]=./railcars/msj&a-emu-driving-motor-br-blue_NE.0.0
 
 ----
 
@@ -98,7 +99,8 @@ length=10
 weight=30.9
 axles=4
 cost=1663000
-runningcost=118
+runningcost=0
+fixed_cost=1980
 
 increase_maintenance_after_years=12
 
@@ -117,37 +119,36 @@ Constraint[Prev][0]=MSJ&A-EMU-driving-trailer
 
 Constraint[Next][0]=MSJ&A-EMU-driving-motor
 
-
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
 liverytype[2]=BR-Blue
 
-EmptyImage[E][0]=./images/msj&a-emu-centre-trailer.1.4
-EmptyImage[SE][0]=./images/msj&a-emu-centre-trailer.1.5
-EmptyImage[S][0]=./images/msj&a-emu-centre-trailer.1.6
-EmptyImage[SW][0]=./images/msj&a-emu-centre-trailer.1.7
-EmptyImage[W][0]=./images/msj&a-emu-centre-trailer.1.0
-EmptyImage[NW][0]=./images/msj&a-emu-centre-trailer.1.1
-EmptyImage[N][0]=./images/msj&a-emu-centre-trailer.1.2
-EmptyImage[NE][0]=./images/msj&a-emu-centre-trailer.1.3
+EmptyImage[E][0]=./railcars/msj&a-emu-centre-trailer_E.0.0
+EmptyImage[SE][0]=./railcars/msj&a-emu-centre-trailer_SE.0.0
+EmptyImage[S][0]=./railcars/msj&a-emu-centre-trailer_S.0.0
+EmptyImage[SW][0]=./railcars/msj&a-emu-centre-trailer_SW.0.0
+EmptyImage[W][0]=./railcars/msj&a-emu-centre-trailer_W.0.0
+EmptyImage[NW][0]=./railcars/msj&a-emu-centre-trailer_NW.0.0
+EmptyImage[N][0]=./railcars/msj&a-emu-centre-trailer_N.0.0
+EmptyImage[NE][0]=./railcars/msj&a-emu-centre-trailer_NE.0.0
 
-EmptyImage[E][1]=./images/msj&a-emu-centre-trailer-br.1.4
-EmptyImage[SE][1]=./images/msj&a-emu-centre-trailer-br.1.5
-EmptyImage[S][1]=./images/msj&a-emu-centre-trailer-br.1.6
-EmptyImage[SW][1]=./images/msj&a-emu-centre-trailer-br.1.7
-EmptyImage[W][1]=./images/msj&a-emu-centre-trailer-br.1.0
-EmptyImage[NW][1]=./images/msj&a-emu-centre-trailer-br.1.1
-EmptyImage[N][1]=./images/msj&a-emu-centre-trailer-br.1.2
-EmptyImage[NE][1]=./images/msj&a-emu-centre-trailer-br.1.3
+EmptyImage[E][1]=./railcars/msj&a-emu-centre-trailer-br_E.0.0
+EmptyImage[SE][1]=./railcars/msj&a-emu-centre-trailer-br_SE.0.0
+EmptyImage[S][1]=./railcars/msj&a-emu-centre-trailer-br_S.0.0
+EmptyImage[SW][1]=./railcars/msj&a-emu-centre-trailer-br_SW.0.0
+EmptyImage[W][1]=./railcars/msj&a-emu-centre-trailer-br_W.0.0
+EmptyImage[NW][1]=./railcars/msj&a-emu-centre-trailer-br_NW.0.0
+EmptyImage[N][1]=./railcars/msj&a-emu-centre-trailer-br_N.0.0
+EmptyImage[NE][1]=./railcars/msj&a-emu-centre-trailer-br_NE.0.0
 
-EmptyImage[E][2]=./images/msj&a-emu-centre-trailer-br-blue.1.4
-EmptyImage[SE][2]=./images/msj&a-emu-centre-trailer-br-blue.1.5
-EmptyImage[S][2]=./images/msj&a-emu-centre-trailer-br-blue.1.6
-EmptyImage[SW][2]=./images/msj&a-emu-centre-trailer-br-blue.1.7
-EmptyImage[W][2]=./images/msj&a-emu-centre-trailer-br-blue.1.0
-EmptyImage[NW][2]=./images/msj&a-emu-centre-trailer-br-blue.1.1
-EmptyImage[N][2]=./images/msj&a-emu-centre-trailer-br-blue.1.2
-EmptyImage[NE][2]=./images/msj&a-emu-centre-trailer-br-blue.1.3
+EmptyImage[E][2]=./railcars/msj&a-emu-centre-trailer-br-blue_E.0.0
+EmptyImage[SE][2]=./railcars/msj&a-emu-centre-trailer-br-blue_SE.0.0
+EmptyImage[S][2]=./railcars/msj&a-emu-centre-trailer-br-blue_S.0.0
+EmptyImage[SW][2]=./railcars/msj&a-emu-centre-trailer-br-blue_SW.0.0
+EmptyImage[W][2]=./railcars/msj&a-emu-centre-trailer-br-blue_W.0.0
+EmptyImage[NW][2]=./railcars/msj&a-emu-centre-trailer-br-blue_NW.0.0
+EmptyImage[N][2]=./railcars/msj&a-emu-centre-trailer-br-blue_N.0.0
+EmptyImage[NE][2]=./railcars/msj&a-emu-centre-trailer-br-blue_NE.0.0
 
 ----
 
@@ -175,7 +176,8 @@ length=10
 weight=57.9
 axles=4
 cost=1663000
-runningcost=118
+runningcost=391
+fixed_cost=7386
 sound=x24tohayes-epb.wav
 increase_maintenance_after_years=12
 
@@ -199,29 +201,29 @@ liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
 liverytype[2]=BR-Blue
 
-EmptyImage[E][0]=./images/msj&a-emu-driving-trailer.1.4
-EmptyImage[SE][0]=./images/msj&a-emu-driving-trailer.1.5
-EmptyImage[S][0]=./images/msj&a-emu-driving-trailer.1.6
-EmptyImage[SW][0]=./images/msj&a-emu-driving-trailer.1.7
-EmptyImage[W][0]=./images/msj&a-emu-driving-trailer.1.0
-EmptyImage[NW][0]=./images/msj&a-emu-driving-trailer.1.1
-EmptyImage[N][0]=./images/msj&a-emu-driving-trailer.1.2
-EmptyImage[NE][0]=./images/msj&a-emu-driving-trailer.1.3
+EmptyImage[E][0]=./railcars/msj&a-emu-driving-trailer_E.0.0
+EmptyImage[SE][0]=./railcars/msj&a-emu-driving-trailer_SE.0.0
+EmptyImage[S][0]=./railcars/msj&a-emu-driving-trailer_S.0.0
+EmptyImage[SW][0]=./railcars/msj&a-emu-driving-trailer_SW.0.0
+EmptyImage[W][0]=./railcars/msj&a-emu-driving-trailer_W.0.0
+EmptyImage[NW][0]=./railcars/msj&a-emu-driving-trailer_NW.0.0
+EmptyImage[N][0]=./railcars/msj&a-emu-driving-trailer_N.0.0
+EmptyImage[NE][0]=./railcars/msj&a-emu-driving-trailer_NE.0.0
 
-EmptyImage[E][1]=./images/msj&a-emu-driving-trailer-br.1.4
-EmptyImage[SE][1]=./images/msj&a-emu-driving-trailer-br.1.5
-EmptyImage[S][1]=./images/msj&a-emu-driving-trailer-br.1.6
-EmptyImage[SW][1]=./images/msj&a-emu-driving-trailer-br.1.7
-EmptyImage[W][1]=./images/msj&a-emu-driving-trailer-br.1.0
-EmptyImage[NW][1]=./images/msj&a-emu-driving-trailer-br.1.1
-EmptyImage[N][1]=./images/msj&a-emu-driving-trailer-br.1.2
-EmptyImage[NE][1]=./images/msj&a-emu-driving-trailer-br.1.3
+EmptyImage[E][1]=./railcars/msj&a-emu-driving-trailer-br_E.0.0
+EmptyImage[SE][1]=./railcars/msj&a-emu-driving-trailer-br_SE.0.0
+EmptyImage[S][1]=./railcars/msj&a-emu-driving-trailer-br_S.0.0
+EmptyImage[SW][1]=./railcars/msj&a-emu-driving-trailer-br_SW.0.0
+EmptyImage[W][1]=./railcars/msj&a-emu-driving-trailer-br_W.0.0
+EmptyImage[NW][1]=./railcars/msj&a-emu-driving-trailer-br_NW.0.0
+EmptyImage[N][1]=./railcars/msj&a-emu-driving-trailer-br_N.0.0
+EmptyImage[NE][1]=./railcars/msj&a-emu-driving-trailer-br_NE.0.0
 
-EmptyImage[E][2]=./images/msj&a-emu-driving-trailer-br-blue.1.4
-EmptyImage[SE][2]=./images/msj&a-emu-driving-trailer-br-blue.1.5
-EmptyImage[S][2]=./images/msj&a-emu-driving-trailer-br-blue.1.6
-EmptyImage[SW][2]=./images/msj&a-emu-driving-trailer-br-blue.1.7
-EmptyImage[W][2]=./images/msj&a-emu-driving-trailer-br-blue.1.0
-EmptyImage[NW][2]=./images/msj&a-emu-driving-trailer-br-blue.1.1
-EmptyImage[N][2]=./images/msj&a-emu-driving-trailer-br-blue.1.2
-EmptyImage[NE][2]=./images/msj&a-emu-driving-trailer-br-blue.1.3
+EmptyImage[E][2]=./railcars/msj&a-emu-driving-trailer-br-blue_E.0.0
+EmptyImage[SE][2]=./railcars/msj&a-emu-driving-trailer-br-blue_SE.0.0
+EmptyImage[S][2]=./railcars/msj&a-emu-driving-trailer-br-blue_S.0.0
+EmptyImage[SW][2]=./railcars/msj&a-emu-driving-trailer-br-blue_SW.0.0
+EmptyImage[W][2]=./railcars/msj&a-emu-driving-trailer-br-blue_W.0.0
+EmptyImage[NW][2]=./railcars/msj&a-emu-driving-trailer-br-blue_NW.0.0
+EmptyImage[N][2]=./railcars/msj&a-emu-driving-trailer-br-blue_N.0.0
+EmptyImage[NE][2]=./railcars/msj&a-emu-driving-trailer-br-blue_NE.0.0

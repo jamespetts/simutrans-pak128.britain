@@ -4,7 +4,7 @@ engine_type=steam
 smoke=Steam
 speed=125
 # Extrapolated
-power=201
+power=206
 # Tractive calculated using data from
 # http://en.wikipedia.org/wiki/LB%26SCR_G_class
 tractive_effort=48
@@ -28,8 +28,8 @@ years_before_maintenance_max_reached=35
 weight=36.2
 axle_load=14
 cost=9975000
-runningcost=336
-fixed_cost=28156
+runningcost=242
+fixed_cost=32313
 sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=LBSCR-Belgravia-tender
@@ -37,20 +37,20 @@ Constraint[Next][0]=LBSCR-Belgravia-tender
 liverytype[0]=LBSCR-Stroudley
 liverytype[1]=LBSCR-Marsh
 
-EmptyImage[E][0]=./images/lbscr-g.1.4
-EmptyImage[SE][0]=./images/lbscr-g.1.5
-EmptyImage[S][0]=./images/lbscr-g.1.6
-EmptyImage[SW][0]=./images/lbscr-g.1.7
-EmptyImage[W][0]=./images/lbscr-g.1.0
-EmptyImage[NW][0]=./images/lbscr-g.1.1
-EmptyImage[N][0]=./images/lbscr-g.1.2
-EmptyImage[NE][0]=./images/lbscr-g.1.3
+EmptyImage[E][0]=./locomotives/lbscr-g-ochre_E.0.0
+EmptyImage[SE][0]=./locomotives/lbscr-g-ochre_SE.0.0
+EmptyImage[S][0]=./locomotives/lbscr-g-ochre_S.0.0
+EmptyImage[SW][0]=./locomotives/lbscr-g-ochre_SW.0.0
+EmptyImage[W][0]=./locomotives/lbscr-g-ochre_W.0.0
+EmptyImage[NW][0]=./locomotives/lbscr-g-ochre_NW.0.0
+EmptyImage[N][0]=./locomotives/lbscr-g-ochre_N.0.0
+EmptyImage[NE][0]=./locomotives/lbscr-g-ochre_NE.0.0
 
-EmptyImage[E][1]=./images/lbscr-g-umber.1.4
-EmptyImage[SE][1]=./images/lbscr-g-umber.1.5
-EmptyImage[S][1]=./images/lbscr-g-umber.1.6
-EmptyImage[SW][1]=./images/lbscr-g-umber.1.7
-EmptyImage[W][1]=./images/lbscr-g-umber.1.0
-EmptyImage[NW][1]=./images/lbscr-g-umber.1.1
-EmptyImage[N][1]=./images/lbscr-g-umber.1.2
-EmptyImage[NE][1]=./images/lbscr-g-umber.1.3
+EmptyImage[E][1]=./locomotives/lbscr-g-umber_E.0.0
+EmptyImage[SE][1]=./locomotives/lbscr-g-umber_SE.0.0
+EmptyImage[S][1]=./locomotives/lbscr-g-umber_S.0.0
+EmptyImage[SW][1]=./locomotives/lbscr-g-umber_SW.0.0
+EmptyImage[W][1]=./locomotives/lbscr-g-umber_W.0.0
+EmptyImage[NW][1]=./locomotives/lbscr-g-umber_NW.0.0
+EmptyImage[N][1]=./locomotives/lbscr-g-umber_N.0.0
+EmptyImage[NE][1]=./locomotives/lbscr-g-umber_NE.0.0

@@ -1,0 +1,81 @@
+# Saddle tank version
+# http://www.gwr.org.uk/nopanniers.html
+# https://en.wikipedia.org/wiki/GWR_1076_Class
+obj=vehicle
+name=gwr-buffalo
+engine_type=steam
+smoke=Steam
+speed=85
+# Extrapolated. Grate area not given in sources, so guessed.
+power=176
+# Calculated using data from: https://en.wikipedia.org/wiki/GWR_1076_Class
+# assuming boiler pressure of 140psi and loss factor of 0.77.
+tractive_effort=62
+copyright=Kieron/JamesPetts
+# There were a number of very similar classes only one of which was the "Buffalo", 
+# but these are all treated as one for simplicity. The actual "Buffalo" was not
+# introduced until later.
+intro_year=1870
+intro_month=10
+# In reality built only to 1881, but replacement not available until late 1882
+retire_year=1882
+retire_month=12
+waytype=track
+freight=None
+payload=0
+length=5
+
+upgrade[0]=gwr-buffalo-rebuilt
+
+# Guessed to be similar to the 5700 class
+weight=47.8
+axle_load=16
+cost=360000
+runningcost=160
+fixed_cost=24900
+sound=konakaboom-gwr-pannier.wav
+
+can_lead_from_rear=0
+bidirectional=1
+
+liverytype[0]=GWR-early
+liverytype[1]=GWR-dark-green
+liverytype[2]=GWR-standard-green
+liverytype[3]=GWR-overall-brown
+
+EmptyImage[E][0]=./locomotives/gwr-buffalo-early_E.0.0
+EmptyImage[SE][0]=./locomotives/gwr-buffalo-early_SE.0.0
+EmptyImage[S][0]=./locomotives/gwr-buffalo-early_S.0.0
+EmptyImage[SW][0]=./locomotives/gwr-buffalo-early_SW.0.0
+EmptyImage[W][0]=./locomotives/gwr-buffalo-early_W.0.0
+EmptyImage[NW][0]=./locomotives/gwr-buffalo-early_NW.0.0
+EmptyImage[N][0]=./locomotives/gwr-buffalo-early_N.0.0
+EmptyImage[NE][0]=./locomotives/gwr-buffalo-early_NE.0.0
+
+EmptyImage[E][1]=./locomotives/gwr-buffalo-dark-green_E.0.0
+EmptyImage[SE][1]=./locomotives/gwr-buffalo-dark-green_SE.0.0
+EmptyImage[S][1]=./locomotives/gwr-buffalo-dark-green_S.0.0
+EmptyImage[SW][1]=./locomotives/gwr-buffalo-dark-green_SW.0.0
+EmptyImage[W][1]=./locomotives/gwr-buffalo-dark-green_W.0.0
+EmptyImage[NW][1]=./locomotives/gwr-buffalo-dark-green_NW.0.0
+EmptyImage[N][1]=./locomotives/gwr-buffalo-dark-green_N.0.0
+EmptyImage[NE][1]=./locomotives/gwr-buffalo-dark-green_NE.0.0
+
+EmptyImage[E][2]=./locomotives/gwr-buffalo_E.0.0
+EmptyImage[SE][2]=./locomotives/gwr-buffalo_SE.0.0
+EmptyImage[S][2]=./locomotives/gwr-buffalo_S.0.0
+EmptyImage[SW][2]=./locomotives/gwr-buffalo_SW.0.0
+EmptyImage[W][2]=./locomotives/gwr-buffalo_W.0.0
+EmptyImage[NW][2]=./locomotives/gwr-buffalo_NW.0.0
+EmptyImage[N][2]=./locomotives/gwr-buffalo_N.0.0
+EmptyImage[NE][2]=./locomotives/gwr-buffalo_NE.0.0
+
+EmptyImage[E][3]=./locomotives/gwr-buffalo-churchward_E.0.0
+EmptyImage[SE][3]=./locomotives/gwr-buffalo-churchward_SE.0.0
+EmptyImage[S][3]=./locomotives/gwr-buffalo-churchward_S.0.0
+EmptyImage[SW][3]=./locomotives/gwr-buffalo-churchward_SW.0.0
+EmptyImage[W][3]=./locomotives/gwr-buffalo-churchward_W.0.0
+EmptyImage[NW][3]=./locomotives/gwr-buffalo-churchward_NW.0.0
+EmptyImage[N][3]=./locomotives/gwr-buffalo-churchward_N.0.0
+EmptyImage[NE][3]=./locomotives/gwr-buffalo-churchward_NE.0.0
+

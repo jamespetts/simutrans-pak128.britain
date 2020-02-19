@@ -17,7 +17,8 @@ axles=2
 length=7
 # Actual cost circa £100,000 (Trolleybus Database CD-ROM)
 cost=517000 
-runningcost=67
+runningcost=20
+fixed_cost=6539
 intro_year=1977
 intro_month=10
 retire_year=1996

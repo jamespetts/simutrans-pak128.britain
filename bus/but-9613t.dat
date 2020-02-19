@@ -14,7 +14,8 @@ gear=80
 weight=8.6
 axles=2
 cost=39000
-runningcost=86
+runningcost=19
+fixed_cost=12041
 intro_year=1957
 intro_month=11
 retire_year=1966
@@ -26,6 +27,9 @@ comfort=49
 # Rear platform with conductor (8ft wide): 1.8 seconds per passenger
 min_loading_time=3
 max_loading_time=127
+
+Constraint[Prev][0]=none
+Constraint[Next][0]=none
 
 liverytype[0]=Glasgow-Corporation-revised-1
 liverytype[1]=Glasgow-Corporation-revised-2

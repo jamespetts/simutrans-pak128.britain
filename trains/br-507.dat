@@ -20,7 +20,8 @@ length=11
 weight=36
 axles=4
 cost=1120000
-runningcost=54
+runningcost=49
+fixed_cost=6933
 sound=video47-class-508.wav
 
 can_lead_from_rear=1
@@ -40,23 +41,23 @@ Constraint[Next][0]=BR-507(centre1)
 liverytype[0]=BR-Blue
 liverytype[1]=NSE-Standard
 
-EmptyImage[E][0]=./images/br-313-a-bg.1.4
-EmptyImage[SE][0]=./images/br-313-a-bg.1.5
-EmptyImage[S][0]=./images/br-313-a-bg.1.6
-EmptyImage[SW][0]=./images/br-313-a-bg.1.7
-EmptyImage[W][0]=./images/br-313-a-bg.1.0
-EmptyImage[NW][0]=./images/br-313-a-bg.1.1
-EmptyImage[N][0]=./images/br-313-a-bg.1.2
-EmptyImage[NE][0]=./images/br-313-a-bg.1.3
+EmptyImage[E][0]=./railcars/br-313-a-bg_E.0.0
+EmptyImage[SE][0]=./railcars/br-313-a-bg_SE.0.0
+EmptyImage[S][0]=./railcars/br-313-a-bg_S.0.0
+EmptyImage[SW][0]=./railcars/br-313-a-bg_SW.0.0
+EmptyImage[W][0]=./railcars/br-313-a-bg_W.0.0
+EmptyImage[NW][0]=./railcars/br-313-a-bg_NW.0.0
+EmptyImage[N][0]=./railcars/br-313-a-bg_N.0.0
+EmptyImage[NE][0]=./railcars/br-313-a-bg_NE.0.0
 
-EmptyImage[E][1]=./images/br-313-a-nse.1.4
-EmptyImage[SE][1]=./images/br-313-a-nse.1.5
-EmptyImage[S][1]=./images/br-313-a-nse.1.6
-EmptyImage[SW][1]=./images/br-313-a-nse.1.7
-EmptyImage[W][1]=./images/br-313-a-nse.1.0
-EmptyImage[NW][1]=./images/br-313-a-nse.1.1
-EmptyImage[N][1]=./images/br-313-a-nse.1.2
-EmptyImage[NE][1]=./images/br-313-a-nse.1.3
+EmptyImage[E][1]=./railcars/br-313-a-nse_E.0.0
+EmptyImage[SE][1]=./railcars/br-313-a-nse_SE.0.0
+EmptyImage[S][1]=./railcars/br-313-a-nse_S.0.0
+EmptyImage[SW][1]=./railcars/br-313-a-nse_SW.0.0
+EmptyImage[W][1]=./railcars/br-313-a-nse_W.0.0
+EmptyImage[NW][1]=./railcars/br-313-a-nse_NW.0.0
+EmptyImage[N][1]=./railcars/br-313-a-nse_N.0.0
+EmptyImage[NE][1]=./railcars/br-313-a-nse_NE.0.0
 
 ---
 
@@ -81,7 +82,8 @@ length=11
 weight=27
 axles=4
 cost=1120000
-runningcost=54
+runningcost=0
+fixed_cost=1333
 
 can_lead_from_rear=0
 bidirectional=1
@@ -100,23 +102,23 @@ Constraint[Next][1]=BR-507(rear)
 liverytype[0]=BR-Blue
 liverytype[1]=NSE-Standard
 
-EmptyImage[E][0]=./images/br-507-trailer-bg.1.4
-EmptyImage[SE][0]=./images/br-507-trailer-bg.1.5
-EmptyImage[S][0]=./images/br-507-trailer-bg.1.6
-EmptyImage[SW][0]=./images/br-507-trailer-bg.1.7
-EmptyImage[W][0]=./images/br-507-trailer-bg.1.0
-EmptyImage[NW][0]=./images/br-507-trailer-bg.1.1
-EmptyImage[N][0]=./images/br-507-trailer-bg.1.2
-EmptyImage[NE][0]=./images/br-507-trailer-bg.1.3
+EmptyImage[E][0]=./railcars/br-507-trailer-bg_E.0.0
+EmptyImage[SE][0]=./railcars/br-507-trailer-bg_SE.0.0
+EmptyImage[S][0]=./railcars/br-507-trailer-bg_S.0.0
+EmptyImage[SW][0]=./railcars/br-507-trailer-bg_SW.0.0
+EmptyImage[W][0]=./railcars/br-507-trailer-bg_W.0.0
+EmptyImage[NW][0]=./railcars/br-507-trailer-bg_NW.0.0
+EmptyImage[N][0]=./railcars/br-507-trailer-bg_N.0.0
+EmptyImage[NE][0]=./railcars/br-507-trailer-bg_NE.0.0
 
-EmptyImage[E][1]=./images/br-507-trailer-nse.1.4
-EmptyImage[SE][1]=./images/br-507-trailer-nse.1.5
-EmptyImage[S][1]=./images/br-507-trailer-nse.1.6
-EmptyImage[SW][1]=./images/br-507-trailer-nse.1.7
-EmptyImage[W][1]=./images/br-507-trailer-nse.1.0
-EmptyImage[NW][1]=./images/br-507-trailer-nse.1.1
-EmptyImage[N][1]=./images/br-507-trailer-nse.1.2
-EmptyImage[NE][1]=./images/br-507-trailer-nse.1.3
+EmptyImage[E][1]=./railcars/br-507-trailer-nse_E.0.0
+EmptyImage[SE][1]=./railcars/br-507-trailer-nse_SE.0.0
+EmptyImage[S][1]=./railcars/br-507-trailer-nse_S.0.0
+EmptyImage[SW][1]=./railcars/br-507-trailer-nse_SW.0.0
+EmptyImage[W][1]=./railcars/br-507-trailer-nse_W.0.0
+EmptyImage[NW][1]=./railcars/br-507-trailer-nse_NW.0.0
+EmptyImage[N][1]=./railcars/br-507-trailer-nse_N.0.0
+EmptyImage[NE][1]=./railcars/br-507-trailer-nse_NE.0.0
 
 ---
 
@@ -141,7 +143,8 @@ length=11
 weight=27
 axles=4
 cost=1120000
-runningcost=54
+runningcost=0
+fixed_cost=1333
 
 can_lead_from_rear=0
 bidirectional=1
@@ -162,32 +165,33 @@ liverytype[0]=BR-Blue
 liverytype[1]=NSE-Standard
 liverytype[2]=SWT-orange-stripe
 
-EmptyImage[E][0]=./images/br-507-trailer-bg.1.4
-EmptyImage[SE][0]=./images/br-507-trailer-bg.1.5
-EmptyImage[S][0]=./images/br-507-trailer-bg.1.6
-EmptyImage[SW][0]=./images/br-507-trailer-bg.1.7
-EmptyImage[W][0]=./images/br-507-trailer-bg.1.0
-EmptyImage[NW][0]=./images/br-507-trailer-bg.1.1
-EmptyImage[N][0]=./images/br-507-trailer-bg.1.2
-EmptyImage[NE][0]=./images/br-507-trailer-bg.1.3
+#images from BR-313-b with layer 4 enabled
+EmptyImage[E][0]=./railcars/br-507-trailer-bg_E.0.0
+EmptyImage[SE][0]=./railcars/br-507-trailer-bg_SE.0.0
+EmptyImage[S][0]=./railcars/br-507-trailer-bg_S.0.0
+EmptyImage[SW][0]=./railcars/br-507-trailer-bg_SW.0.0
+EmptyImage[W][0]=./railcars/br-507-trailer-bg_W.0.0
+EmptyImage[NW][0]=./railcars/br-507-trailer-bg_NW.0.0
+EmptyImage[N][0]=./railcars/br-507-trailer-bg_N.0.0
+EmptyImage[NE][0]=./railcars/br-507-trailer-bg_NE.0.0
 
-EmptyImage[E][1]=./images/br-507-trailer-nse.1.4
-EmptyImage[SE][1]=./images/br-507-trailer-nse.1.5
-EmptyImage[S][1]=./images/br-507-trailer-nse.1.6
-EmptyImage[SW][1]=./images/br-507-trailer-nse.1.7
-EmptyImage[W][1]=./images/br-507-trailer-nse.1.0
-EmptyImage[NW][1]=./images/br-507-trailer-nse.1.1
-EmptyImage[N][1]=./images/br-507-trailer-nse.1.2
-EmptyImage[NE][1]=./images/br-507-trailer-nse.1.3
+EmptyImage[E][1]=./railcars/br-507-trailer-nse_E.0.0
+EmptyImage[SE][1]=./railcars/br-507-trailer-nse_SE.0.0
+EmptyImage[S][1]=./railcars/br-507-trailer-nse_S.0.0
+EmptyImage[SW][1]=./railcars/br-507-trailer-nse_SW.0.0
+EmptyImage[W][1]=./railcars/br-507-trailer-nse_W.0.0
+EmptyImage[NW][1]=./railcars/br-507-trailer-nse_NW.0.0
+EmptyImage[N][1]=./railcars/br-507-trailer-nse_N.0.0
+EmptyImage[NE][1]=./railcars/br-507-trailer-nse_NE.0.0
 
-EmptyImage[E][2]=./images/br-455-7-middle-swt_E.0.0
-EmptyImage[SE][2]=./images/br-455-7-middle-swt_SE.0.0
-EmptyImage[S][2]=./images/br-455-7-middle-swt_S.0.0
-EmptyImage[SW][2]=./images/br-455-7-middle-swt_SW.0.0
-EmptyImage[W][2]=./images/br-455-7-middle-swt_W.0.0
-EmptyImage[NW][2]=./images/br-455-7-middle-swt_NW.0.0
-EmptyImage[N][2]=./images/br-455-7-middle-swt_N.0.0
-EmptyImage[NE][2]=./images/br-455-7-middle-swt_NE.0.0
+EmptyImage[E][2]=./railcars/br-455-7-middle-swt_E.0.0
+EmptyImage[SE][2]=./railcars/br-455-7-middle-swt_SE.0.0
+EmptyImage[S][2]=./railcars/br-455-7-middle-swt_S.0.0
+EmptyImage[SW][2]=./railcars/br-455-7-middle-swt_SW.0.0
+EmptyImage[W][2]=./railcars/br-455-7-middle-swt_W.0.0
+EmptyImage[NW][2]=./railcars/br-455-7-middle-swt_NW.0.0
+EmptyImage[N][2]=./railcars/br-455-7-middle-swt_N.0.0
+EmptyImage[NE][2]=./railcars/br-455-7-middle-swt_NE.0.0
 
 ---
 
@@ -213,7 +217,8 @@ length=11
 weight=37
 axles=4
 cost=1120000
-runningcost=54
+runningcost=49
+fixed_cost=6933
 sound=video47-class-508.wav
 
 can_lead_from_rear=1
@@ -234,20 +239,20 @@ Constraint[Next][1]=none
 liverytype[0]=BR-Blue
 liverytype[1]=NSE-Standard
 
-EmptyImage[E][0]=./images/br-313-c-bg.1.4
-EmptyImage[SE][0]=./images/br-313-c-bg.1.5
-EmptyImage[S][0]=./images/br-313-c-bg.1.6
-EmptyImage[SW][0]=./images/br-313-c-bg.1.7
-EmptyImage[W][0]=./images/br-313-c-bg.1.0
-EmptyImage[NW][0]=./images/br-313-c-bg.1.1
-EmptyImage[N][0]=./images/br-313-c-bg.1.2
-EmptyImage[NE][0]=./images/br-313-c-bg.1.3
+EmptyImage[E][0]=./railcars/br-313-c-bg_E.0.0
+EmptyImage[SE][0]=./railcars/br-313-c-bg_SE.0.0
+EmptyImage[S][0]=./railcars/br-313-c-bg_S.0.0
+EmptyImage[SW][0]=./railcars/br-313-c-bg_SW.0.0
+EmptyImage[W][0]=./railcars/br-313-c-bg_W.0.0
+EmptyImage[NW][0]=./railcars/br-313-c-bg_NW.0.0
+EmptyImage[N][0]=./railcars/br-313-c-bg_N.0.0
+EmptyImage[NE][0]=./railcars/br-313-c-bg_NE.0.0
 
-EmptyImage[E][1]=./images/br-313-c-nse.1.4
-EmptyImage[SE][1]=./images/br-313-c-nse.1.5
-EmptyImage[S][1]=./images/br-313-c-nse.1.6
-EmptyImage[SW][1]=./images/br-313-c-nse.1.7
-EmptyImage[W][1]=./images/br-313-c-nse.1.0
-EmptyImage[NW][1]=./images/br-313-c-nse.1.1
-EmptyImage[N][1]=./images/br-313-c-nse.1.2
-EmptyImage[NE][1]=./images/br-313-c-nse.1.3
+EmptyImage[E][1]=./railcars/br-313-c-nse_E.0.0
+EmptyImage[SE][1]=./railcars/br-313-c-nse_SE.0.0
+EmptyImage[S][1]=./railcars/br-313-c-nse_S.0.0
+EmptyImage[SW][1]=./railcars/br-313-c-nse_SW.0.0
+EmptyImage[W][1]=./railcars/br-313-c-nse_W.0.0
+EmptyImage[NW][1]=./railcars/br-313-c-nse_NW.0.0
+EmptyImage[N][1]=./railcars/br-313-c-nse_N.0.0
+EmptyImage[NE][1]=./railcars/br-313-c-nse_NE.0.0

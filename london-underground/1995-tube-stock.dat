@@ -22,7 +22,8 @@ rolling_resistance=13
 weight=29
 axles=4
 cost=1500000
-runningcost=100
+runningcost=50
+fixed_cost=7250
 sound=multithunder227-1996-stock.wav
 
 can_lead_from_rear=1
@@ -73,7 +74,8 @@ brake_force=21
 weight=28
 axles=4
 cost=1000000
-runningcost=100
+runningcost=50
+fixed_cost=6833
 
 can_lead_from_rear=0
 bidirectional=1
@@ -121,7 +123,8 @@ rolling_resistance=13
 weight=21
 axles=4
 cost=800000
-runningcost=40
+runningcost=0
+fixed_cost=1667
 
 can_lead_from_rear=0
 bidirectional=1
@@ -172,7 +175,8 @@ rolling_resistance=13
 weight=21
 axles=4
 cost=800000
-runningcost=40
+runningcost=0
+fixed_cost=1667
 
 can_lead_from_rear=0
 bidirectional=1
@@ -224,7 +228,8 @@ rolling_resistance=13
 weight=28
 axles=4
 cost=1000000
-runningcost=100
+runningcost=50
+fixed_cost=6833
 
 
 can_lead_from_rear=0
@@ -278,7 +283,8 @@ rolling_resistance=13
 weight=29
 axles=4
 cost=1500000
-runningcost=100
+runningcost=50
+fixed_cost=7250
 sound=multithunder227-1996-stock.wav
 
 can_lead_from_rear=1

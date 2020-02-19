@@ -11,7 +11,8 @@ payload[1]=12
 weight=0.3
 length=6
 cost=10000
-runningcost=12
+runningcost=0
+fixed_cost=6007
 intro_year=1750
 intro_month=1
 # These still run:
@@ -65,7 +66,8 @@ payload=5
 weight=0.3
 length=6
 cost=10000
-runningcost=12
+runningcost=0
+fixed_cost=6007
 intro_year=1750
 intro_month=1
 # These still run:
@@ -117,7 +119,8 @@ payload=5
 weight=0.3
 length=6
 cost=10000
-runningcost=12
+runningcost=0
+fixed_cost=6007
 intro_year=1750
 intro_month=1
 # These still run:
@@ -169,7 +172,8 @@ payload=5
 weight=0.3
 length=6
 cost=10000
-runningcost=12
+runningcost=0
+fixed_cost=6007
 intro_year=1750
 intro_month=1
 # These still run:
@@ -221,7 +225,8 @@ payload=2
 weight=0.3
 length=6
 cost=10000
-runningcost=12
+runningcost=0
+fixed_cost=6007
 intro_year=1750
 intro_month=1
 # These still run:
@@ -273,7 +278,8 @@ payload=2
 weight=0.3
 length=6
 cost=10000
-runningcost=12
+runningcost=0
+fixed_cost=6007
 intro_year=1750
 intro_month=1
 # These still run:

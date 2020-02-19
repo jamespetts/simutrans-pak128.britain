@@ -1,5 +1,5 @@
 # See Jenkinson p. 254. 
-# This is the motor thir (dia. no. 5 on that page)
+# This is the motor third (dia. no. 5 on that page)
 obj=vehicle
 name=NER-Tyneside-unit(front)
 engine_type=electric
@@ -24,7 +24,8 @@ length=10
 weight=29.4
 axles=4
 cost=1461000
-runningcost=123
+runningcost=120
+fixed_cost=7218
 sound=x24tohayes-epb.wav
 increase_maintenance_after_years=30
 
@@ -46,14 +47,14 @@ Constraint[Prev][3]=none
 
 Constraint[Next][0]=NER-Tyneside-unit(trailer1)
 
-EmptyImage[E]=./images/ner-tyne-1904-frontmotor.1.4
-EmptyImage[SE]=./images/ner-tyne-1904-frontmotor.1.5
-EmptyImage[S]=./images/ner-tyne-1904-frontmotor.1.6
-EmptyImage[SW]=./images/ner-tyne-1904-frontmotor.1.7
-EmptyImage[W]=./images/ner-tyne-1904-frontmotor.1.0
-EmptyImage[NW]=./images/ner-tyne-1904-frontmotor.1.1
-EmptyImage[N]=./images/ner-tyne-1904-frontmotor.1.2
-EmptyImage[NE]=./images/ner-tyne-1904-frontmotor.1.3
+EmptyImage[E]=./railcars/ner-tyne-1904-frontmotor_E.0.0
+EmptyImage[SE]=./railcars/ner-tyne-1904-frontmotor_SE.0.0
+EmptyImage[S]=./railcars/ner-tyne-1904-frontmotor_S.0.0
+EmptyImage[SW]=./railcars/ner-tyne-1904-frontmotor_SW.0.0
+EmptyImage[W]=./railcars/ner-tyne-1904-frontmotor_W.0.0
+EmptyImage[NW]=./railcars/ner-tyne-1904-frontmotor_NW.0.0
+EmptyImage[N]=./railcars/ner-tyne-1904-frontmotor_N.0.0
+EmptyImage[NE]=./railcars/ner-tyne-1904-frontmotor_NE.0.0
 
 ---
 
@@ -79,7 +80,8 @@ length=10
 weight=23.4
 axles=4
 cost=1461000
-runningcost=123
+runningcost=0
+fixed_cost=1739
 sound=x24tohayes-epb.wav
 increase_maintenance_after_years=30
 
@@ -96,23 +98,20 @@ comfort[3]=75
 
 Constraint[Prev][0]=NER-Tyneside-unit(trailer1)
 Constraint[Prev][1]=NER-Tyneside-unit(trailer2)
-# The graphics do not permit for this, but there was no single ended driving trailer.
-# TODO: Modify these graphics to show this as double ended to allow this constraint
-# to be uncommented.
-#Constraint[Prev][2]=none
+Constraint[Prev][2]=none
 
 Constraint[Next][0]=NER-Tyneside-unit(front)
 Constraint[Next][1]=NER-Tyneside-mpv
 Constraint[Next][2]=none
 
-EmptyImage[E]=./images/ner-tyne-1904-driving-trailer.1.4
-EmptyImage[SE]=./images/ner-tyne-1904-driving-trailer.1.5
-EmptyImage[S]=./images/ner-tyne-1904-driving-trailer.1.6
-EmptyImage[SW]=./images/ner-tyne-1904-driving-trailer.1.7
-EmptyImage[W]=./images/ner-tyne-1904-driving-trailer.1.0
-EmptyImage[NW]=./images/ner-tyne-1904-driving-trailer.1.1
-EmptyImage[N]=./images/ner-tyne-1904-driving-trailer.1.2
-EmptyImage[NE]=./images/ner-tyne-1904-driving-trailer.1.3
+EmptyImage[E]=./railcars/ner-tyne-1904-driving-trailer_E.0.0
+EmptyImage[SE]=./railcars/ner-tyne-1904-driving-trailer_SE.0.0
+EmptyImage[S]=./railcars/ner-tyne-1904-driving-trailer_S.0.0
+EmptyImage[SW]=./railcars/ner-tyne-1904-driving-trailer_SW.0.0
+EmptyImage[W]=./railcars/ner-tyne-1904-driving-trailer_W.0.0
+EmptyImage[NW]=./railcars/ner-tyne-1904-driving-trailer_NW.0.0
+EmptyImage[N]=./railcars/ner-tyne-1904-driving-trailer_N.0.0
+EmptyImage[NE]=./railcars/ner-tyne-1904-driving-trailer_NE.0.0
 
 ---
 
@@ -138,7 +137,8 @@ length=10
 weight=21.5
 axles=4
 cost=716000
-runningcost=36
+runningcost=0
+fixed_cost=852
 
 increase_maintenance_after_years=30
 
@@ -160,14 +160,14 @@ Constraint[Next][3]=NER-Tyneside-mpv
 
 Constraint[Prev][0]=NER-Tyneside-unit(front)
 
-EmptyImage[E]=./images/ner-tyne-1904-trailer.1.4
-EmptyImage[SE]=./images/ner-tyne-1904-trailer.1.5
-EmptyImage[S]=./images/ner-tyne-1904-trailer.1.6
-EmptyImage[SW]=./images/ner-tyne-1904-trailer.1.7
-EmptyImage[W]=./images/ner-tyne-1904-trailer.1.0
-EmptyImage[NW]=./images/ner-tyne-1904-trailer.1.1
-EmptyImage[N]=./images/ner-tyne-1904-trailer.1.2
-EmptyImage[NE]=./images/ner-tyne-1904-trailer.1.3
+EmptyImage[E]=./railcars/ner-tyne-1904-trailer_E.0.0
+EmptyImage[SE]=./railcars/ner-tyne-1904-trailer_SE.0.0
+EmptyImage[S]=./railcars/ner-tyne-1904-trailer_S.0.0
+EmptyImage[SW]=./railcars/ner-tyne-1904-trailer_SW.0.0
+EmptyImage[W]=./railcars/ner-tyne-1904-trailer_W.0.0
+EmptyImage[NW]=./railcars/ner-tyne-1904-trailer_NW.0.0
+EmptyImage[N]=./railcars/ner-tyne-1904-trailer_N.0.0
+EmptyImage[NE]=./railcars/ner-tyne-1904-trailer_NE.0.0
 
 ---
 # (Dia. no. 8 on Jenkinson p. 255)
@@ -192,7 +192,8 @@ length=10
 weight=22
 axles=4
 cost=716000
-runningcost=36
+runningcost=0
+fixed_cost=852
 
 increase_maintenance_after_years=30
 
@@ -213,14 +214,14 @@ Constraint[Next][2]=NER-Tyneside-mpv
 
 Constraint[Prev][0]=NER-Tyneside-unit(trailer1)
 
-EmptyImage[E]=./images/ner-tyne-1904-trailer.1.4
-EmptyImage[SE]=./images/ner-tyne-1904-trailer.1.5
-EmptyImage[S]=./images/ner-tyne-1904-trailer.1.6
-EmptyImage[SW]=./images/ner-tyne-1904-trailer.1.7
-EmptyImage[W]=./images/ner-tyne-1904-trailer.1.0
-EmptyImage[NW]=./images/ner-tyne-1904-trailer.1.1
-EmptyImage[N]=./images/ner-tyne-1904-trailer.1.2
-EmptyImage[NE]=./images/ner-tyne-1904-trailer.1.3
+EmptyImage[E]=./railcars/ner-tyne-1904-trailer_E.0.0
+EmptyImage[SE]=./railcars/ner-tyne-1904-trailer_SE.0.0
+EmptyImage[S]=./railcars/ner-tyne-1904-trailer_S.0.0
+EmptyImage[SW]=./railcars/ner-tyne-1904-trailer_SW.0.0
+EmptyImage[W]=./railcars/ner-tyne-1904-trailer_W.0.0
+EmptyImage[NW]=./railcars/ner-tyne-1904-trailer_NW.0.0
+EmptyImage[N]=./railcars/ner-tyne-1904-trailer_N.0.0
+EmptyImage[NE]=./railcars/ner-tyne-1904-trailer_NE.0.0
 
 ---
 # (Dia. no. 6 on Jenkinson p. 254)
@@ -248,7 +249,8 @@ length=10
 weight=29.3
 axles=4
 cost=1461000
-runningcost=123
+runningcost=120
+fixed_cost=7218
 sound=x24tohayes-epb.wav
 increase_maintenance_after_years=30
 
@@ -270,14 +272,14 @@ Constraint[Next][0]=NER-Tyneside-unit(front)
 Constraint[Next][1]=NER-Tyneside-mpv
 Constraint[Next][2]=none
 
-EmptyImage[E]=./images/ner-tyne-1904-rearmotor.1.4
-EmptyImage[SE]=./images/ner-tyne-1904-rearmotor.1.5
-EmptyImage[S]=./images/ner-tyne-1904-rearmotor.1.6
-EmptyImage[SW]=./images/ner-tyne-1904-rearmotor.1.7
-EmptyImage[W]=./images/ner-tyne-1904-rearmotor.1.0
-EmptyImage[NW]=./images/ner-tyne-1904-rearmotor.1.1
-EmptyImage[N]=./images/ner-tyne-1904-rearmotor.1.2
-EmptyImage[NE]=./images/ner-tyne-1904-rearmotor.1.3
+EmptyImage[E]=./railcars/ner-tyne-1904-rearmotor_E.0.0
+EmptyImage[SE]=./railcars/ner-tyne-1904-rearmotor_SE.0.0
+EmptyImage[S]=./railcars/ner-tyne-1904-rearmotor_S.0.0
+EmptyImage[SW]=./railcars/ner-tyne-1904-rearmotor_SW.0.0
+EmptyImage[W]=./railcars/ner-tyne-1904-rearmotor_W.0.0
+EmptyImage[NW]=./railcars/ner-tyne-1904-rearmotor_NW.0.0
+EmptyImage[N]=./railcars/ner-tyne-1904-rearmotor_N.0.0
+EmptyImage[NE]=./railcars/ner-tyne-1904-rearmotor_NE.0.0
 
 ---
 # (Dia. no. 9 on Jenkinson p. 255)
@@ -301,7 +303,8 @@ length=10
 weight=35.0
 axles=4
 cost=716000
-runningcost=36
+runningcost=120
+fixed_cost=6597
 sound=x24tohayes-epb.wav
 increase_maintenance_after_years=30
 
@@ -323,11 +326,11 @@ Constraint[Prev][2]=NER-Tyneside-unit(driving trailer)
 Constraint[Prev][3]=NER-Tyneside-unit(rear motor)
 Constraint[Prev][4]=none
 
-EmptyImage[E]=./images/ner-tyne-1904-mpv_E.0.0
-EmptyImage[SE]=./images/ner-tyne-1904-mpv_SE.0.0
-EmptyImage[S]=./images/ner-tyne-1904-mpv_S.0.0
-EmptyImage[SW]=./images/ner-tyne-1904-mpv_SW.0.0
-EmptyImage[W]=./images/ner-tyne-1904-mpv_W.0.0
-EmptyImage[NW]=./images/ner-tyne-1904-mpv_NW.0.0
-EmptyImage[N]=./images/ner-tyne-1904-mpv_N.0.0
-EmptyImage[NE]=./images/ner-tyne-1904-mpv_NE.0.0
+EmptyImage[E]=./railcars/ner-tyne-1904-mpv_E.0.0
+EmptyImage[SE]=./railcars/ner-tyne-1904-mpv_SE.0.0
+EmptyImage[S]=./railcars/ner-tyne-1904-mpv_S.0.0
+EmptyImage[SW]=./railcars/ner-tyne-1904-mpv_SW.0.0
+EmptyImage[W]=./railcars/ner-tyne-1904-mpv_W.0.0
+EmptyImage[NW]=./railcars/ner-tyne-1904-mpv_NW.0.0
+EmptyImage[N]=./railcars/ner-tyne-1904-mpv_N.0.0
+EmptyImage[NE]=./railcars/ner-tyne-1904-mpv_NE.0.0

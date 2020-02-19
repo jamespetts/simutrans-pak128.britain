@@ -29,19 +29,19 @@ weight=10.5
 # http://www.steamlocomotive.com/locobase.php?country=Great_Britain&wheel=2-2-2&railroad=lm
 axle_load=4
 cost=7257600
-runningcost=14
-fixed_cost=1280
+runningcost=95
+fixed_cost=26080
 sound=lwalker-br-4mt-tank.wav
 years_before_maintenance_max_reached=70
 increase_maintenance_after_years=25
 
 Constraint[Next][0]=LMR-Patentee-Tender
 
-EmptyImage[E]=./images/lmr-patentee_E.0.0
-EmptyImage[SE]=./images/lmr-patentee_SE.0.0
-EmptyImage[S]=./images/lmr-patentee_S.0.0
-EmptyImage[SW]=./images/lmr-patentee_SW.0.0
-EmptyImage[W]=./images/lmr-patentee_W.0.0
-EmptyImage[NW]=./images/lmr-patentee_NW.0.0
-EmptyImage[N]=./images/lmr-patentee_N.0.0
-EmptyImage[NE]=./images/lmr-patentee_NE.0.0
+EmptyImage[E]=./carriages/lmr-patentee_E.0.0
+EmptyImage[SE]=./carriages/lmr-patentee_SE.0.0
+EmptyImage[S]=./carriages/lmr-patentee_S.0.0
+EmptyImage[SW]=./carriages/lmr-patentee_SW.0.0
+EmptyImage[W]=./carriages/lmr-patentee_W.0.0
+EmptyImage[NW]=./carriages/lmr-patentee_NW.0.0
+EmptyImage[N]=./carriages/lmr-patentee_N.0.0
+EmptyImage[NE]=./carriages/lmr-patentee_NE.0.0

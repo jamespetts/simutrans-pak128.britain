@@ -12,7 +12,8 @@ payload[1]=450
 weight=300
 length=12
 cost=125000000
-runningcost=780
+runningcost=46
+fixed_cost=252083
 intro_year=1990
 intro_month=4
 

@@ -25,7 +25,8 @@ payload[4]=28
 weight=38.0
 #length=8
 cost=14500000
-runningcost=3700
+runningcost=167
+fixed_cost=60069
 intro_year=1971
 intro_month=4
 # Guessed
@@ -114,7 +115,8 @@ payload[2]=180
 weight=38.0
 #length=8
 cost=14500000
-runningcost=3700
+runningcost=167
+fixed_cost=60069
 intro_year=1971
 intro_month=4
 # Guessed

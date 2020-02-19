@@ -13,7 +13,8 @@ payload[1]=250
 weight=100
 length=12
 cost=31150000
-runningcost=360
+runningcost=133
+fixed_cost=221632
 intro_year=1842
 intro_month=5
 retire_year=1875
@@ -50,5 +51,3 @@ FreightImage[0][W]=./images/wooden-paddle-river-steamer-loaded.1.0
 FreightImage[0][NW]=./images/wooden-paddle-river-steamer-loaded.1.1
 FreightImage[0][N]=./images/wooden-paddle-river-steamer-loaded.1.2
 FreightImage[0][NE]=./images/wooden-paddle-river-steamer-loaded.1.3
-
-----------

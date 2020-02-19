@@ -6,9 +6,10 @@ copyright=SketchVC10
 waytype=air
 engine_type=petrol
 speed=483
-power=10440
-tractive_effort=40
+power=9396
+tractive_effort=52
 freight=Passagiere
+# Payload: 22.5t
 # "Up to 100 passengers on main deck plus 14 in lower deck lounge; typical seating for 63 or 84 passengers"
 # (Wikipedia)
 payload[0]=0
@@ -16,11 +17,12 @@ payload[1]=0
 payload[2]=0
 payload[3]=0
 payload[4]=84
-weight=37.9
+weight=43.7
 #length=8
 # US$1,225,000 (1945) (according to Wikipedia)
 cost=14500000
-runningcost=2820
+runningcost=418
+fixed_cost=60069
 intro_year=1949
 intro_month=4
 # Guessed

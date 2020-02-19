@@ -16,7 +16,8 @@ waytype=track
 weight=20
 axles=4
 cost=650000
-runningcost=25
+runningcost=51
+fixed_cost=10677
 sound=lul-1938-stock-ff3170.wav
 
 can_lead_from_rear=0
@@ -59,7 +60,8 @@ overcrowded_capacity=35
 weight=12
 axles=4
 cost=350000
-runningcost=2
+runningcost=0
+fixed_cost=417
 
 can_lead_from_rear=0
 bidirectional=1

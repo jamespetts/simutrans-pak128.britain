@@ -13,7 +13,8 @@ payload=30
 weight=54
 length=10
 cost=17500000
-runningcost=8925
+runningcost=57
+fixed_cost=47292
 intro_year=2005
 intro_month=11
 
@@ -61,7 +62,8 @@ payload=30
 weight=54
 length=10
 cost=175000000
-runningcost=8925
+runningcost=60
+fixed_cost=112917
 intro_year=2005
 intro_month=11
 

@@ -20,7 +20,8 @@ weight=26.4
 #length=8
 # £570,000 (1954)
 cost=11500000
-runningcost=3000
+runningcost=388
+fixed_cost=57986
 intro_year=1953
 intro_month=11
 retire_year=1958
@@ -76,7 +77,8 @@ weight=26.4
 #length=8
 # £570,000 (1954)
 cost=11500000
-runningcost=3000
+runningcost=388
+fixed_cost=57986
 intro_year=1953
 intro_month=11
 retire_year=1958

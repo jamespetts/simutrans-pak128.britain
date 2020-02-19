@@ -4,7 +4,7 @@ engine_type=steam
 speed=82
 copyright=James
 intro_year=1858
-intro_month=8
+intro_month=9
 retire_year=1895
 retire_month=3
 waytype=track
@@ -19,8 +19,9 @@ weight=15
 axles=3
 cost=0
 runningcost=0
+fixed_cost=0
 
-
+#fixed_coupling[prev]=1
 Constraint[Prev][0]=LNWR-DXgoods
 Constraint[Prev][1]=LNWR-special-dx
 
@@ -28,30 +29,30 @@ liverytype[0]=LNWR-Early
 liverytype[1]=LNWR-Black
 liverytype[2]=LMS-Standard
 
-EmptyImage[E][0]=./images/lnwr-bloomer-tender-green_E.0.0
-EmptyImage[SE][0]=./images/lnwr-bloomer-tender-green_SE.0.0
-EmptyImage[S][0]=./images/lnwr-bloomer-tender-green_S.0.0
-EmptyImage[SW][0]=./images/lnwr-bloomer-tender-green_SW.0.0
-EmptyImage[W][0]=./images/lnwr-bloomer-tender-green_W.0.0
-EmptyImage[NW][0]=./images/lnwr-bloomer-tender-green_NW.0.0
-EmptyImage[N][0]=./images/lnwr-bloomer-tender-green_N.0.0
-EmptyImage[NE][0]=./images/lnwr-bloomer-tender-green_NE.0.0
+EmptyImage[E][0]=./locomotives/lnwr-bloomer-tender-green_E.0.0
+EmptyImage[SE][0]=./locomotives/lnwr-bloomer-tender-green_SE.0.0
+EmptyImage[S][0]=./locomotives/lnwr-bloomer-tender-green_S.0.0
+EmptyImage[SW][0]=./locomotives/lnwr-bloomer-tender-green_SW.0.0
+EmptyImage[W][0]=./locomotives/lnwr-bloomer-tender-green_W.0.0
+EmptyImage[NW][0]=./locomotives/lnwr-bloomer-tender-green_NW.0.0
+EmptyImage[N][0]=./locomotives/lnwr-bloomer-tender-green_N.0.0
+EmptyImage[NE][0]=./locomotives/lnwr-bloomer-tender-green_NE.0.0
 
-EmptyImage[E][1]=./images/lnwr-bloomer-tender-black_E.0.0
-EmptyImage[SE][1]=./images/lnwr-bloomer-tender-black_SE.0.0
-EmptyImage[S][1]=./images/lnwr-bloomer-tender-black_S.0.0
-EmptyImage[SW][1]=./images/lnwr-bloomer-tender-black_SW.0.0
-EmptyImage[W][1]=./images/lnwr-bloomer-tender-black_W.0.0
-EmptyImage[NW][1]=./images/lnwr-bloomer-tender-black_NW.0.0
-EmptyImage[N][1]=./images/lnwr-bloomer-tender-black_N.0.0
-EmptyImage[NE][1]=./images/lnwr-bloomer-tender-black_NE.0.0
+EmptyImage[E][1]=./locomotives/lnwr-bloomer-tender-black_E.0.0
+EmptyImage[SE][1]=./locomotives/lnwr-bloomer-tender-black_SE.0.0
+EmptyImage[S][1]=./locomotives/lnwr-bloomer-tender-black_S.0.0
+EmptyImage[SW][1]=./locomotives/lnwr-bloomer-tender-black_SW.0.0
+EmptyImage[W][1]=./locomotives/lnwr-bloomer-tender-black_W.0.0
+EmptyImage[NW][1]=./locomotives/lnwr-bloomer-tender-black_NW.0.0
+EmptyImage[N][1]=./locomotives/lnwr-bloomer-tender-black_N.0.0
+EmptyImage[NE][1]=./locomotives/lnwr-bloomer-tender-black_NE.0.0
 
-EmptyImage[E][2]=./images/lnwr-bloomer-tender-lms_E.0.0
-EmptyImage[SE][2]=./images/lnwr-bloomer-tender-lms_SE.0.0
-EmptyImage[S][2]=./images/lnwr-bloomer-tender-lms_S.0.0
-EmptyImage[SW][2]=./images/lnwr-bloomer-tender-lms_SW.0.0
-EmptyImage[W][2]=./images/lnwr-bloomer-tender-lms_W.0.0
-EmptyImage[NW][2]=./images/lnwr-bloomer-tender-lms_NW.0.0
-EmptyImage[N][2]=./images/lnwr-bloomer-tender-lms_N.0.0
-EmptyImage[NE][2]=./images/lnwr-bloomer-tender-lms_NE.0.0
+EmptyImage[E][2]=./locomotives/lnwr-bloomer-tender-lms_E.0.0
+EmptyImage[SE][2]=./locomotives/lnwr-bloomer-tender-lms_SE.0.0
+EmptyImage[S][2]=./locomotives/lnwr-bloomer-tender-lms_S.0.0
+EmptyImage[SW][2]=./locomotives/lnwr-bloomer-tender-lms_SW.0.0
+EmptyImage[W][2]=./locomotives/lnwr-bloomer-tender-lms_W.0.0
+EmptyImage[NW][2]=./locomotives/lnwr-bloomer-tender-lms_NW.0.0
+EmptyImage[N][2]=./locomotives/lnwr-bloomer-tender-lms_N.0.0
+EmptyImage[NE][2]=./locomotives/lnwr-bloomer-tender-lms_NE.0.0
 

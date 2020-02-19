@@ -21,7 +21,8 @@ weight=19
 axles=3
 length=6
 cost=7760000
-runningcost=210
+runningcost=51
+fixed_cost=12042
 intro_year=2005
 intro_month=9
 # Still in production to date

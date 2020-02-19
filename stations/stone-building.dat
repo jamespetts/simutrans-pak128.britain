@@ -7,7 +7,7 @@ enables_pax=1
 # must be 1*2
 # 1_1 is the land sqare
 Dims=1,1,4
-NoInfo=1
+#NoInfo=1
 Level=1
 # Passenger data guessed
 population_and_visitor_demand_capacity=4

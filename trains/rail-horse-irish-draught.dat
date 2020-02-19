@@ -20,19 +20,19 @@ weight=0.8
 axle_load=0
 cost=45000
 runningcost=3
-fixed_cost=813
+fixed_cost=1594
 sound=colin-taft-horse-tram.wav
 
 way_constraint_prohibitive[0]=0
 
-EmptyImage[E]=./images/horse-irish-draught-single_E.0.0
-EmptyImage[SE]=./images/horse-irish-draught-single_SE.0.0
-EmptyImage[S]=./images/horse-irish-draught-single_S.0.0
-EmptyImage[SW]=./images/horse-irish-draught-single_SW.0.0
-EmptyImage[W]=./images/horse-irish-draught-single_W.0.0
-EmptyImage[NW]=./images/horse-irish-draught-single_NW.0.0
-EmptyImage[N]=./images/horse-irish-draught-single_N.0.0
-EmptyImage[NE]=./images/horse-irish-draught-single_NE.0.0
+EmptyImage[E]=./horses/horse-irish-draught-single_E.0.0
+EmptyImage[SE]=./horses/horse-irish-draught-single_SE.0.0
+EmptyImage[S]=./horses/horse-irish-draught-single_S.0.0
+EmptyImage[SW]=./horses/horse-irish-draught-single_SW.0.0
+EmptyImage[W]=./horses/horse-irish-draught-single_W.0.0
+EmptyImage[NW]=./horses/horse-irish-draught-single_NW.0.0
+EmptyImage[N]=./horses/horse-irish-draught-single_N.0.0
+EmptyImage[NE]=./horses/horse-irish-draught-single_NE.0.0
 
 ---
 
@@ -57,19 +57,19 @@ weight=1.6
 axle_load=0
 cost=90000
 runningcost=5
-fixed_cost=1125
+fixed_cost=3188
 sound=colin-taft-horse-tram.wav
 
 way_constraint_prohibitive[0]=0
 
 Constraint[Prev][0]=none
 
-EmptyImage[E]=./images/horse-irish-draught-double_E.0.0
-EmptyImage[SE]=./images/horse-irish-draught-double_SE.0.0
-EmptyImage[S]=./images/horse-irish-draught-double_S.0.0
-EmptyImage[SW]=./images/horse-irish-draught-double_SW.0.0
-EmptyImage[W]=./images/horse-irish-draught-double_W.0.0
-EmptyImage[NW]=./images/horse-irish-draught-double_NW.0.0
-EmptyImage[N]=./images/horse-irish-draught-double_N.0.0
-EmptyImage[NE]=./images/horse-irish-draught-double_NE.0.0
+EmptyImage[E]=./horses/horse-irish-draught-double_E.0.0
+EmptyImage[SE]=./horses/horse-irish-draught-double_SE.0.0
+EmptyImage[S]=./horses/horse-irish-draught-double_S.0.0
+EmptyImage[SW]=./horses/horse-irish-draught-double_SW.0.0
+EmptyImage[W]=./horses/horse-irish-draught-double_W.0.0
+EmptyImage[NW]=./horses/horse-irish-draught-double_NW.0.0
+EmptyImage[N]=./horses/horse-irish-draught-double_N.0.0
+EmptyImage[NE]=./horses/horse-irish-draught-double_NE.0.0
 

@@ -15,6 +15,7 @@ length=4
 weight=64
 cost=0
 runningcost=0
+fixed_cost=0
 sound=-1
 
 Constraint[Prev][0]=LNER-A4(Silver)
@@ -46,6 +47,7 @@ length=4
 weight=64
 cost=0
 runningcost=0
+fixed_cost=0
 sound=-1
 
 Constraint[Prev][0]=LNER-A4(Apple)
@@ -76,6 +78,7 @@ length=4
 weight=64
 cost=0
 runningcost=0
+fixed_cost=0
 sound=-1
 
 Constraint[Prev][0]=LNER-A4(Black)
@@ -106,6 +109,7 @@ length=4
 weight=64
 cost=0
 runningcost=0
+fixed_cost=0
 sound=-1
 
 Constraint[Prev][0]=LNER-A4(BRBlue)
@@ -136,6 +140,7 @@ length=4
 weight=64
 cost=0
 runningcost=0
+fixed_cost=0
 sound=-1
 
 Constraint[Prev][0]=LNER-A4(BRGreen)

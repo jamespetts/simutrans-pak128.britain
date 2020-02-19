@@ -21,7 +21,8 @@ power=0
 weight=36
 axles=4
 cost=1575000
-runningcost=33
+runningcost=0
+fixed_cost=1875
 sound=x24tohayes-epb.wav
 increase_maintenance_after_years=23
 
@@ -52,32 +53,32 @@ liverytype[0]=BR-Blue
 liverytype[1]=BR-Large-Logo
 liverytype[2]=NSE-Standard
 
-EmptyImage[E][0]=./images/br-423-dtcl-front-b.1.4
-EmptyImage[SE][0]=./images/br-423-dtcl-front-b.1.5
-EmptyImage[S][0]=./images/br-423-dtcl-front-b.1.6
-EmptyImage[SW][0]=./images/br-423-dtcl-front-b.1.7
-EmptyImage[W][0]=./images/br-423-dtcl-front-b.1.0
-EmptyImage[NW][0]=./images/br-423-dtcl-front-b.1.1
-EmptyImage[N][0]=./images/br-423-dtcl-front-b.1.2
-EmptyImage[NE][0]=./images/br-423-dtcl-front-b.1.3
+EmptyImage[E][0]=./railcars/br-423-dtcl-front-b.1.4
+EmptyImage[SE][0]=./railcars/br-423-dtcl-front-b.1.5
+EmptyImage[S][0]=./railcars/br-423-dtcl-front-b.1.6
+EmptyImage[SW][0]=./railcars/br-423-dtcl-front-b.1.7
+EmptyImage[W][0]=./railcars/br-423-dtcl-front-b.1.0
+EmptyImage[NW][0]=./railcars/br-423-dtcl-front-b.1.1
+EmptyImage[N][0]=./railcars/br-423-dtcl-front-b.1.2
+EmptyImage[NE][0]=./railcars/br-423-dtcl-front-b.1.3
 
-EmptyImage[E][1]=./images/br-423-dtcl-front-bg.1.4
-EmptyImage[SE][1]=./images/br-423-dtcl-front-bg.1.5
-EmptyImage[S][1]=./images/br-423-dtcl-front-bg.1.6
-EmptyImage[SW][1]=./images/br-423-dtcl-front-bg.1.7
-EmptyImage[W][1]=./images/br-423-dtcl-front-bg.1.0
-EmptyImage[NW][1]=./images/br-423-dtcl-front-bg.1.1
-EmptyImage[N][1]=./images/br-423-dtcl-front-bg.1.2
-EmptyImage[NE][1]=./images/br-423-dtcl-front-bg.1.3
+EmptyImage[E][1]=./railcars/br-423-dtcl-front-bg.1.4
+EmptyImage[SE][1]=./railcars/br-423-dtcl-front-bg.1.5
+EmptyImage[S][1]=./railcars/br-423-dtcl-front-bg.1.6
+EmptyImage[SW][1]=./railcars/br-423-dtcl-front-bg.1.7
+EmptyImage[W][1]=./railcars/br-423-dtcl-front-bg.1.0
+EmptyImage[NW][1]=./railcars/br-423-dtcl-front-bg.1.1
+EmptyImage[N][1]=./railcars/br-423-dtcl-front-bg.1.2
+EmptyImage[NE][1]=./railcars/br-423-dtcl-front-bg.1.3
 
-EmptyImage[E][2]=./images/br-423-dtcl-front-nse.1.4
-EmptyImage[SE][2]=./images/br-423-dtcl-front-nse.1.5
-EmptyImage[S][2]=./images/br-423-dtcl-front-nse.1.6
-EmptyImage[SW][2]=./images/br-423-dtcl-front-nse.1.7
-EmptyImage[W][2]=./images/br-423-dtcl-front-nse.1.0
-EmptyImage[NW][2]=./images/br-423-dtcl-front-nse.1.1
-EmptyImage[N][2]=./images/br-423-dtcl-front-nse.1.2
-EmptyImage[NE][2]=./images/br-423-dtcl-front-nse.1.3
+EmptyImage[E][2]=./railcars/br-423-dtcl-front-nse.1.4
+EmptyImage[SE][2]=./railcars/br-423-dtcl-front-nse.1.5
+EmptyImage[S][2]=./railcars/br-423-dtcl-front-nse.1.6
+EmptyImage[SW][2]=./railcars/br-423-dtcl-front-nse.1.7
+EmptyImage[W][2]=./railcars/br-423-dtcl-front-nse.1.0
+EmptyImage[NW][2]=./railcars/br-423-dtcl-front-nse.1.1
+EmptyImage[N][2]=./railcars/br-423-dtcl-front-nse.1.2
+EmptyImage[NE][2]=./railcars/br-423-dtcl-front-nse.1.3
 
 -----
 
@@ -105,7 +106,8 @@ engine_type=electric
 weight=41
 axles=4
 cost=1575000
-runningcost=125
+runningcost=113
+fixed_cost=11094
 
 increase_maintenance_after_years=23
 
@@ -127,32 +129,32 @@ liverytype[0]=BR-Blue
 liverytype[1]=BR-Large-Logo
 liverytype[2]=NSE-Standard
 
-EmptyImage[E][0]=./images/br-423-mbso-b.1.4
-EmptyImage[SE][0]=./images/br-423-mbso-b.1.5
-EmptyImage[S][0]=./images/br-423-mbso-b.1.6
-EmptyImage[SW][0]=./images/br-423-mbso-b.1.7
-EmptyImage[W][0]=./images/br-423-mbso-b.1.0
-EmptyImage[NW][0]=./images/br-423-mbso-b.1.1
-EmptyImage[N][0]=./images/br-423-mbso-b.1.2
-EmptyImage[NE][0]=./images/br-423-mbso-b.1.3
+EmptyImage[E][0]=./railcars/br-423-mbso-b.1.4
+EmptyImage[SE][0]=./railcars/br-423-mbso-b.1.5
+EmptyImage[S][0]=./railcars/br-423-mbso-b.1.6
+EmptyImage[SW][0]=./railcars/br-423-mbso-b.1.7
+EmptyImage[W][0]=./railcars/br-423-mbso-b.1.0
+EmptyImage[NW][0]=./railcars/br-423-mbso-b.1.1
+EmptyImage[N][0]=./railcars/br-423-mbso-b.1.2
+EmptyImage[NE][0]=./railcars/br-423-mbso-b.1.3
 
-EmptyImage[E][1]=./images/br-423-mbso-bg.1.4
-EmptyImage[SE][1]=./images/br-423-mbso-bg.1.5
-EmptyImage[S][1]=./images/br-423-mbso-bg.1.6
-EmptyImage[SW][1]=./images/br-423-mbso-bg.1.7
-EmptyImage[W][1]=./images/br-423-mbso-bg.1.0
-EmptyImage[NW][1]=./images/br-423-mbso-bg.1.1
-EmptyImage[N][1]=./images/br-423-mbso-bg.1.2
-EmptyImage[NE][1]=./images/br-423-mbso-bg.1.3
+EmptyImage[E][1]=./railcars/br-423-mbso-bg.1.4
+EmptyImage[SE][1]=./railcars/br-423-mbso-bg.1.5
+EmptyImage[S][1]=./railcars/br-423-mbso-bg.1.6
+EmptyImage[SW][1]=./railcars/br-423-mbso-bg.1.7
+EmptyImage[W][1]=./railcars/br-423-mbso-bg.1.0
+EmptyImage[NW][1]=./railcars/br-423-mbso-bg.1.1
+EmptyImage[N][1]=./railcars/br-423-mbso-bg.1.2
+EmptyImage[NE][1]=./railcars/br-423-mbso-bg.1.3
 
-EmptyImage[E][2]=./images/br-423-mbso-nse.1.4
-EmptyImage[SE][2]=./images/br-423-mbso-nse.1.5
-EmptyImage[S][2]=./images/br-423-mbso-nse.1.6
-EmptyImage[SW][2]=./images/br-423-mbso-nse.1.7
-EmptyImage[W][2]=./images/br-423-mbso-nse.1.0
-EmptyImage[NW][2]=./images/br-423-mbso-nse.1.1
-EmptyImage[N][2]=./images/br-423-mbso-nse.1.2
-EmptyImage[NE][2]=./images/br-423-mbso-nse.1.3
+EmptyImage[E][2]=./railcars/br-423-mbso-nse.1.4
+EmptyImage[SE][2]=./railcars/br-423-mbso-nse.1.5
+EmptyImage[S][2]=./railcars/br-423-mbso-nse.1.6
+EmptyImage[SW][2]=./railcars/br-423-mbso-nse.1.7
+EmptyImage[W][2]=./railcars/br-423-mbso-nse.1.0
+EmptyImage[NW][2]=./railcars/br-423-mbso-nse.1.1
+EmptyImage[N][2]=./railcars/br-423-mbso-nse.1.2
+EmptyImage[NE][2]=./railcars/br-423-mbso-nse.1.3
 
 -----
 
@@ -177,7 +179,8 @@ length=11
 weight=34
 axles=4
 cost=1575000
-runningcost=28
+runningcost=0
+fixed_cost=1875
 
 increase_maintenance_after_years=23
 
@@ -199,32 +202,32 @@ liverytype[0]=BR-Blue
 liverytype[1]=BR-Large-Logo
 liverytype[2]=NSE-Standard
 
-EmptyImage[E][0]=./images/br-423-tso-b.1.4
-EmptyImage[SE][0]=./images/br-423-tso-b.1.5
-EmptyImage[S][0]=./images/br-423-tso-b.1.6
-EmptyImage[SW][0]=./images/br-423-tso-b.1.7
-EmptyImage[W][0]=./images/br-423-tso-b.1.0
-EmptyImage[NW][0]=./images/br-423-tso-b.1.1
-EmptyImage[N][0]=./images/br-423-tso-b.1.2
-EmptyImage[NE][0]=./images/br-423-tso-b.1.3
+EmptyImage[E][0]=./railcars/br-423-tso-b.1.4
+EmptyImage[SE][0]=./railcars/br-423-tso-b.1.5
+EmptyImage[S][0]=./railcars/br-423-tso-b.1.6
+EmptyImage[SW][0]=./railcars/br-423-tso-b.1.7
+EmptyImage[W][0]=./railcars/br-423-tso-b.1.0
+EmptyImage[NW][0]=./railcars/br-423-tso-b.1.1
+EmptyImage[N][0]=./railcars/br-423-tso-b.1.2
+EmptyImage[NE][0]=./railcars/br-423-tso-b.1.3
 
-EmptyImage[E][1]=./images/br-423-tso-bg.1.4
-EmptyImage[SE][1]=./images/br-423-tso-bg.1.5
-EmptyImage[S][1]=./images/br-423-tso-bg.1.6
-EmptyImage[SW][1]=./images/br-423-tso-bg.1.7
-EmptyImage[W][1]=./images/br-423-tso-bg.1.0
-EmptyImage[NW][1]=./images/br-423-tso-bg.1.1
-EmptyImage[N][1]=./images/br-423-tso-bg.1.2
-EmptyImage[NE][1]=./images/br-423-tso-bg.1.3
+EmptyImage[E][1]=./railcars/br-423-tso-bg.1.4
+EmptyImage[SE][1]=./railcars/br-423-tso-bg.1.5
+EmptyImage[S][1]=./railcars/br-423-tso-bg.1.6
+EmptyImage[SW][1]=./railcars/br-423-tso-bg.1.7
+EmptyImage[W][1]=./railcars/br-423-tso-bg.1.0
+EmptyImage[NW][1]=./railcars/br-423-tso-bg.1.1
+EmptyImage[N][1]=./railcars/br-423-tso-bg.1.2
+EmptyImage[NE][1]=./railcars/br-423-tso-bg.1.3
 
-EmptyImage[E][2]=./images/br-423-tso-nse.1.4
-EmptyImage[SE][2]=./images/br-423-tso-nse.1.5
-EmptyImage[S][2]=./images/br-423-tso-nse.1.6
-EmptyImage[SW][2]=./images/br-423-tso-nse.1.7
-EmptyImage[W][2]=./images/br-423-tso-nse.1.0
-EmptyImage[NW][2]=./images/br-423-tso-nse.1.1
-EmptyImage[N][2]=./images/br-423-tso-nse.1.2
-EmptyImage[NE][2]=./images/br-423-tso-nse.1.3
+EmptyImage[E][2]=./railcars/br-423-tso-nse.1.4
+EmptyImage[SE][2]=./railcars/br-423-tso-nse.1.5
+EmptyImage[S][2]=./railcars/br-423-tso-nse.1.6
+EmptyImage[SW][2]=./railcars/br-423-tso-nse.1.7
+EmptyImage[W][2]=./railcars/br-423-tso-nse.1.0
+EmptyImage[NW][2]=./railcars/br-423-tso-nse.1.1
+EmptyImage[N][2]=./railcars/br-423-tso-nse.1.2
+EmptyImage[NE][2]=./railcars/br-423-tso-nse.1.3
 
 -----
 
@@ -250,7 +253,8 @@ power=0
 weight=36
 axles=4
 cost=1575000
-runningcost=33
+runningcost=0
+fixed_cost=1875
 sound=x24tohayes-epb.wav
 increase_maintenance_after_years=23
 
@@ -280,29 +284,29 @@ liverytype[0]=BR-Blue
 liverytype[1]=BR-Large-Logo
 liverytype[2]=NSE-Standard
 
-EmptyImage[E][0]=./images/br-423-dtcl-rear-b.1.4
-EmptyImage[SE][0]=./images/br-423-dtcl-rear-b.1.5
-EmptyImage[S][0]=./images/br-423-dtcl-rear-b.1.6
-EmptyImage[SW][0]=./images/br-423-dtcl-rear-b.1.7
-EmptyImage[W][0]=./images/br-423-dtcl-rear-b.1.0
-EmptyImage[NW][0]=./images/br-423-dtcl-rear-b.1.1
-EmptyImage[N][0]=./images/br-423-dtcl-rear-b.1.2
-EmptyImage[NE][0]=./images/br-423-dtcl-rear-b.1.3
+EmptyImage[E][0]=./railcars/br-423-dtcl-rear-b.1.4
+EmptyImage[SE][0]=./railcars/br-423-dtcl-rear-b.1.5
+EmptyImage[S][0]=./railcars/br-423-dtcl-rear-b.1.6
+EmptyImage[SW][0]=./railcars/br-423-dtcl-rear-b.1.7
+EmptyImage[W][0]=./railcars/br-423-dtcl-rear-b.1.0
+EmptyImage[NW][0]=./railcars/br-423-dtcl-rear-b.1.1
+EmptyImage[N][0]=./railcars/br-423-dtcl-rear-b.1.2
+EmptyImage[NE][0]=./railcars/br-423-dtcl-rear-b.1.3
 
-EmptyImage[E][1]=./images/br-423-dtcl-rear-bg.1.4
-EmptyImage[SE][1]=./images/br-423-dtcl-rear-bg.1.5
-EmptyImage[S][1]=./images/br-423-dtcl-rear-bg.1.6
-EmptyImage[SW][1]=./images/br-423-dtcl-rear-bg.1.7
-EmptyImage[W][1]=./images/br-423-dtcl-rear-bg.1.0
-EmptyImage[NW][1]=./images/br-423-dtcl-rear-bg.1.1
-EmptyImage[N][1]=./images/br-423-dtcl-rear-bg.1.2
-EmptyImage[NE][1]=./images/br-423-dtcl-rear-bg.1.3
+EmptyImage[E][1]=./railcars/br-423-dtcl-rear-bg.1.4
+EmptyImage[SE][1]=./railcars/br-423-dtcl-rear-bg.1.5
+EmptyImage[S][1]=./railcars/br-423-dtcl-rear-bg.1.6
+EmptyImage[SW][1]=./railcars/br-423-dtcl-rear-bg.1.7
+EmptyImage[W][1]=./railcars/br-423-dtcl-rear-bg.1.0
+EmptyImage[NW][1]=./railcars/br-423-dtcl-rear-bg.1.1
+EmptyImage[N][1]=./railcars/br-423-dtcl-rear-bg.1.2
+EmptyImage[NE][1]=./railcars/br-423-dtcl-rear-bg.1.3
 
-EmptyImage[E][2]=./images/br-423-dtcl-rear-nse.1.4
-EmptyImage[SE][2]=./images/br-423-dtcl-rear-nse.1.5
-EmptyImage[S][2]=./images/br-423-dtcl-rear-nse.1.6
-EmptyImage[SW][2]=./images/br-423-dtcl-rear-nse.1.7
-EmptyImage[W][2]=./images/br-423-dtcl-rear-nse.1.0
-EmptyImage[NW][2]=./images/br-423-dtcl-rear-nse.1.1
-EmptyImage[N][2]=./images/br-423-dtcl-rear-nse.1.2
-EmptyImage[NE][2]=./images/br-423-dtcl-rear-nse.1.3
+EmptyImage[E][2]=./railcars/br-423-dtcl-rear-nse.1.4
+EmptyImage[SE][2]=./railcars/br-423-dtcl-rear-nse.1.5
+EmptyImage[S][2]=./railcars/br-423-dtcl-rear-nse.1.6
+EmptyImage[SW][2]=./railcars/br-423-dtcl-rear-nse.1.7
+EmptyImage[W][2]=./railcars/br-423-dtcl-rear-nse.1.0
+EmptyImage[NW][2]=./railcars/br-423-dtcl-rear-nse.1.1
+EmptyImage[N][2]=./railcars/br-423-dtcl-rear-nse.1.2
+EmptyImage[NE][2]=./railcars/br-423-dtcl-rear-nse.1.3

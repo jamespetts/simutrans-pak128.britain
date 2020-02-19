@@ -16,8 +16,8 @@ payload[4]=128
 weight=500
 length=12
 cost=34944000
-runningcost=117
-fixed_cost=254560
+runningcost=119
+fixed_cost=264267
 intro_year=1838
 intro_month=4
 retire_year=1856
@@ -78,4 +78,3 @@ EmptyImage[W]=-
 EmptyImage[NW]=-
 EmptyImage[N]=-
 EmptyImage[NE]=-
--------------

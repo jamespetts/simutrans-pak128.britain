@@ -56,6 +56,7 @@ probability_to_spawn=5
 production_per_field[0]=11
 max_fields=2
 min_fields=1
+start_fields=2
 has_snow[0]=1
 upgrade[0]=OilWell1925
 upgrade[1]=OilWell1955
@@ -130,6 +131,7 @@ probability_to_spawn=5
 production_per_field[0]=11
 max_fields=4
 min_fields=1
+start_fields=3
 has_snow[0]=1
 upgrade[0]=OilWell1955
 
@@ -184,6 +186,7 @@ probability_to_spawn=5
 production_per_field[0]=11
 max_fields=4
 min_fields=2
+start_fields=4
 has_snow[0]=1
 
 # Later oil is produced by the offshore oil rigs instead, in larger amounts.

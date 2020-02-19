@@ -9,7 +9,7 @@ type=extension
 enables_ware=1
 intro_year=1880
 Dims=1,1,2
-NoInfo=1
+#NoInfo=1
 Level=4
 # Passenger data guessed
 population_and_visitor_demand_capacity=2
@@ -43,7 +43,7 @@ type=extension
 enables_ware=1
 intro_year=1750
 Dims=1,1,4
-NoInfo=1
+#NoInfo=1
 Level=4
 # Passenger data guessed
 population_and_visitor_demand_capacity=2
@@ -81,7 +81,7 @@ type=extension
 enables_ware=1
 intro_year=1920
 Dims=1,1,4
-NoInfo=1
+#NoInfo=1
 Level=4
 # Passenger data guessed
 population_and_visitor_demand_capacity=2
@@ -121,7 +121,7 @@ enables_post=1
 intro_year=1750
 retire_year=1940
 Dims=1,1,2
-NoInfo=1
+#NoInfo=1
 Level=4
 # Passenger data guessed
 population_and_visitor_demand_capacity=2
@@ -156,7 +156,7 @@ enables_ware=1
 enables_post=1
 intro_year=1940
 Dims=1,1,2
-NoInfo=1
+#NoInfo=1
 Level=4
 # Passenger data guessed
 population_and_visitor_demand_capacity=2
@@ -190,7 +190,7 @@ type=extension
 enables_ware=1
 intro_year=1750
 Dims=1,1,1
-NoInfo=1
+#NoInfo=1
 Level=4
 # Passenger data guessed
 population_and_visitor_demand_capacity=2
@@ -221,7 +221,7 @@ Name=OldPostOffice
 type=extension
 enables_post=1
 Dims=1,1,4
-NoInfo=1
+#NoInfo=1
 Level=4
 # Passenger data guessed
 population_and_visitor_demand_capacity=2
@@ -261,7 +261,7 @@ Name=ModernPostOffice
 type=extension
 enables_post=1
 Dims=1,1,4
-NoInfo=1
+#NoInfo=1
 Level=4
 # Passenger data guessed
 population_and_visitor_demand_capacity=2

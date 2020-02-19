@@ -4,7 +4,7 @@ engine_type=steam
 smoke=Steam
 speed=127
 # Extrapolated
-power=203
+power=214
 # Tractive effort taken from:
 # http://en.wikipedia.org/wiki/LB%26SCR_Richmond_class
 tractive_effort=56
@@ -28,8 +28,8 @@ years_before_maintenance_max_reached=35
 weight=37.6
 axle_load=14
 cost=8700000
-runningcost=313
-fixed_cost=27625
+runningcost=204
+fixed_cost=31250
 sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=LBSCR-Belgravia-tender
@@ -37,20 +37,20 @@ Constraint[Next][0]=LBSCR-Belgravia-tender
 liverytype[0]=LBSCR-Stroudley
 liverytype[1]=LBSCR-Marsh
 
-EmptyImage[E][0]=./images/lbscr-richmond.1.4
-EmptyImage[SE][0]=./images/lbscr-richmond.1.5
-EmptyImage[S][0]=./images/lbscr-richmond.1.6
-EmptyImage[SW][0]=./images/lbscr-richmond.1.7
-EmptyImage[W][0]=./images/lbscr-richmond.1.0
-EmptyImage[NW][0]=./images/lbscr-richmond.1.1
-EmptyImage[N][0]=./images/lbscr-richmond.1.2
-EmptyImage[NE][0]=./images/lbscr-richmond.1.3
+EmptyImage[E][0]=./locomotives/lbscr-richmond_E.0.0
+EmptyImage[SE][0]=./locomotives/lbscr-richmond_SE.0.0
+EmptyImage[S][0]=./locomotives/lbscr-richmond_S.0.0
+EmptyImage[SW][0]=./locomotives/lbscr-richmond_SW.0.0
+EmptyImage[W][0]=./locomotives/lbscr-richmond_W.0.0
+EmptyImage[NW][0]=./locomotives/lbscr-richmond_NW.0.0
+EmptyImage[N][0]=./locomotives/lbscr-richmond_N.0.0
+EmptyImage[NE][0]=./locomotives/lbscr-richmond_NE.0.0
 
-EmptyImage[E][1]=./images/lbscr-richmond-umber.1.4
-EmptyImage[SE][1]=./images/lbscr-richmond-umber.1.5
-EmptyImage[S][1]=./images/lbscr-richmond-umber.1.6
-EmptyImage[SW][1]=./images/lbscr-richmond-umber.1.7
-EmptyImage[W][1]=./images/lbscr-richmond-umber.1.0
-EmptyImage[NW][1]=./images/lbscr-richmond-umber.1.1
-EmptyImage[N][1]=./images/lbscr-richmond-umber.1.2
-EmptyImage[NE][1]=./images/lbscr-richmond-umber.1.3
+EmptyImage[E][1]=./locomotives/lbscr-richmond-umber_E.0.0
+EmptyImage[SE][1]=./locomotives/lbscr-richmond-umber_SE.0.0
+EmptyImage[S][1]=./locomotives/lbscr-richmond-umber_S.0.0
+EmptyImage[SW][1]=./locomotives/lbscr-richmond-umber_SW.0.0
+EmptyImage[W][1]=./locomotives/lbscr-richmond-umber_W.0.0
+EmptyImage[NW][1]=./locomotives/lbscr-richmond-umber_NW.0.0
+EmptyImage[N][1]=./locomotives/lbscr-richmond-umber_N.0.0
+EmptyImage[NE][1]=./locomotives/lbscr-richmond-umber_NE.0.0

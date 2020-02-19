@@ -10,7 +10,7 @@ speed=160
 # which is equivalent to 1491Kw, compared to the 847kW suggested
 # by in-game tests. However, even this is out of line with other
 # locomotives, so extrapolated.
-power=601
+power=639
 tractive_effort=143
 copyright=Kieron
 intro_year=1951
@@ -27,19 +27,20 @@ weight=94
 # http://en.wikipedia.org/wiki/BR_Standard_Class_7
 axle_load=20
 cost=9849000
-runningcost=1732
+runningcost=516
+fixed_cost=48208
 sound=konakaboom-black-five.wav
 increase_maintenance_after_years=7
 years_before_maintenance_max_reached=13
 
 Constraint[Next][0]=BR-7MT-Tender
 
-EmptyImage[E]=./images/br-7mt.0.0
-EmptyImage[SE]=./images/br-7mt.0.1
-EmptyImage[S]=./images/br-7mt.0.2
-EmptyImage[SW]=./images/br-7mt.0.3
-EmptyImage[W]=./images/br-7mt.0.4
-EmptyImage[NW]=./images/br-7mt.0.5
-EmptyImage[N]=./images/br-7mt.0.6
-EmptyImage[NE]=./images/br-7mt.0.7
+EmptyImage[E]=./locomotives/br-7mt_E.0.0
+EmptyImage[SE]=./locomotives/br-7mt_SE.0.0
+EmptyImage[S]=./locomotives/br-7mt_S.0.0
+EmptyImage[SW]=./locomotives/br-7mt_SW.0.0
+EmptyImage[W]=./locomotives/br-7mt_W.0.0
+EmptyImage[NW]=./locomotives/br-7mt_NW.0.0
+EmptyImage[N]=./locomotives/br-7mt_N.0.0
+EmptyImage[NE]=./locomotives/br-7mt_NE.0.0
 

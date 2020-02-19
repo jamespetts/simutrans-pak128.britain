@@ -21,7 +21,8 @@ length=5
 weight=8
 axles=2
 cost=4500000
-runningcost=75
+runningcost=33
+fixed_cost=10344
 
 comfort=38
 # Single entrance pay driver (low floor): 3.8 seconds per passenger

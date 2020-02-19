@@ -4,7 +4,7 @@ engine_type=steam
 smoke=Steam
 speed=160
 # Extrapolated
-power=761
+power=777
 tractive_effort=180
 copyright=Kieron
 intro_year=1937
@@ -21,7 +21,8 @@ axle_load=22
 # Four cylinder
 way_wear_factor=144113
 cost=10458000
-runningcost=2343
+runningcost=436
+fixed_cost=48715
 sound=konakaboom-black-five.wav
 air_resistance=108
 increase_maintenance_after_years=14
@@ -31,14 +32,26 @@ upgrade[0]=LMS-Stanier-7P-non-streamlined
 
 Constraint[Next][0]=LMS-Stanier-7P-Tender
 
-EmptyImage[E]=./images/lms-stanier-7p.0.0
-EmptyImage[SE]=./images/lms-stanier-7p.0.1
-EmptyImage[S]=./images/lms-stanier-7p.0.2
-EmptyImage[SW]=./images/lms-stanier-7p.0.3
-EmptyImage[W]=./images/lms-stanier-7p.0.4
-EmptyImage[NW]=./images/lms-stanier-7p.0.5
-EmptyImage[N]=./images/lms-stanier-7p.0.6
-EmptyImage[NE]=./images/lms-stanier-7p.0.7
+liverytype[0]=LMS-Standard
+liverytype[1]=LMS-Blue
+
+EmptyImage[E][0]=./locomotives/lms-stanier-7p_E.0.0
+EmptyImage[SE][0]=./locomotives/lms-stanier-7p_SE.0.0
+EmptyImage[S][0]=./locomotives/lms-stanier-7p_S.0.0
+EmptyImage[SW][0]=./locomotives/lms-stanier-7p_SW.0.0
+EmptyImage[W][0]=./locomotives/lms-stanier-7p_W.0.0
+EmptyImage[NW][0]=./locomotives/lms-stanier-7p_NW.0.0
+EmptyImage[N][0]=./locomotives/lms-stanier-7p_N.0.0
+EmptyImage[NE][0]=./locomotives/lms-stanier-7p_NE.0.0
+
+EmptyImage[E][1]=./locomotives/lms-stanier-7p-blue_E.0.0
+EmptyImage[SE][1]=./locomotives/lms-stanier-7p-blue_SE.0.0
+EmptyImage[S][1]=./locomotives/lms-stanier-7p-blue_S.0.0
+EmptyImage[SW][1]=./locomotives/lms-stanier-7p-blue_SW.0.0
+EmptyImage[W][1]=./locomotives/lms-stanier-7p-blue_W.0.0
+EmptyImage[NW][1]=./locomotives/lms-stanier-7p-blue_NW.0.0
+EmptyImage[N][1]=./locomotives/lms-stanier-7p-blue_N.0.0
+EmptyImage[NE][1]=./locomotives/lms-stanier-7p-blue_NE.0.0
 
 ---
 
@@ -48,7 +61,7 @@ engine_type=steam
 smoke=Steam
 speed=160
 # Extrapolated
-power=803
+power=773
 tractive_effort=180
 copyright=Kieron
 intro_year=1946
@@ -66,7 +79,8 @@ axle_load=22
 way_wear_factor=140306
 cost=10020000
 upgrade_price=10000
-runningcost=2100
+runningcost=604
+fixed_cost=60875
 
 increase_maintenance_after_years=7
 years_before_maintenance_max_reached=10
@@ -78,29 +92,29 @@ liverytype[0]=LMS-Standard
 liverytype[1]=WW2-Austerity
 liverytype[2]=BR-Early
 
-EmptyImage[E][0]=./images/lms-princess-coronation-non-streamlined.1.4
-EmptyImage[SE][0]=./images/lms-princess-coronation-non-streamlined.1.5
-EmptyImage[S][0]=./images/lms-princess-coronation-non-streamlined.1.6
-EmptyImage[SW][0]=./images/lms-princess-coronation-non-streamlined.1.7
-EmptyImage[W][0]=./images/lms-princess-coronation-non-streamlined.1.0
-EmptyImage[NW][0]=./images/lms-princess-coronation-non-streamlined.1.1
-EmptyImage[N][0]=./images/lms-princess-coronation-non-streamlined.1.2
-EmptyImage[NE][0]=./images/lms-princess-coronation-non-streamlined.1.3
+EmptyImage[E][0]=./locomotives/lms-princess-coronation-non-streamlined_E.0.0
+EmptyImage[SE][0]=./locomotives/lms-princess-coronation-non-streamlined_SE.0.0
+EmptyImage[S][0]=./locomotives/lms-princess-coronation-non-streamlined_S.0.0
+EmptyImage[SW][0]=./locomotives/lms-princess-coronation-non-streamlined_SW.0.0
+EmptyImage[W][0]=./locomotives/lms-princess-coronation-non-streamlined_W.0.0
+EmptyImage[NW][0]=./locomotives/lms-princess-coronation-non-streamlined_NW.0.0
+EmptyImage[N][0]=./locomotives/lms-princess-coronation-non-streamlined_N.0.0
+EmptyImage[NE][0]=./locomotives/lms-princess-coronation-non-streamlined_NE.0.0
 
-EmptyImage[E][1]=./images/lms-princess-coronation-non-streamlined-wartime.1.4
-EmptyImage[SE][1]=./images/lms-princess-coronation-non-streamlined-wartime.1.5
-EmptyImage[S][1]=./images/lms-princess-coronation-non-streamlined-wartime.1.6
-EmptyImage[SW][1]=./images/lms-princess-coronation-non-streamlined-wartime.1.7
-EmptyImage[W][1]=./images/lms-princess-coronation-non-streamlined-wartime.1.0
-EmptyImage[NW][1]=./images/lms-princess-coronation-non-streamlined-wartime.1.1
-EmptyImage[N][1]=./images/lms-princess-coronation-non-streamlined-wartime.1.2
-EmptyImage[NE][1]=./images/lms-princess-coronation-non-streamlined-wartime.1.3
+EmptyImage[E][1]=./locomotives/lms-princess-coronation-non-streamlined-wartime_E.0.0
+EmptyImage[SE][1]=./locomotives/lms-princess-coronation-non-streamlined-wartime_SE.0.0
+EmptyImage[S][1]=./locomotives/lms-princess-coronation-non-streamlined-wartime_S.0.0
+EmptyImage[SW][1]=./locomotives/lms-princess-coronation-non-streamlined-wartime_SW.0.0
+EmptyImage[W][1]=./locomotives/lms-princess-coronation-non-streamlined-wartime_W.0.0
+EmptyImage[NW][1]=./locomotives/lms-princess-coronation-non-streamlined-wartime_NW.0.0
+EmptyImage[N][1]=./locomotives/lms-princess-coronation-non-streamlined-wartime_N.0.0
+EmptyImage[NE][1]=./locomotives/lms-princess-coronation-non-streamlined-wartime_NE.0.0
 
-EmptyImage[E][2]=./images/lms-princess-coronation-non-streamlined-br.1.4
-EmptyImage[SE][2]=./images/lms-princess-coronation-non-streamlined-br.1.5
-EmptyImage[S][2]=./images/lms-princess-coronation-non-streamlined-br.1.6
-EmptyImage[SW][2]=./images/lms-princess-coronation-non-streamlined-br.1.7
-EmptyImage[W][2]=./images/lms-princess-coronation-non-streamlined-br.1.0
-EmptyImage[NW][2]=./images/lms-princess-coronation-non-streamlined-br.1.1
-EmptyImage[N][2]=./images/lms-princess-coronation-non-streamlined-br.1.2
-EmptyImage[NE][2]=./images/lms-princess-coronation-non-streamlined-br.1.3
+EmptyImage[E][2]=./locomotives/lms-princess-coronation-non-streamlined-br_E.0.0
+EmptyImage[SE][2]=./locomotives/lms-princess-coronation-non-streamlined-br_SE.0.0
+EmptyImage[S][2]=./locomotives/lms-princess-coronation-non-streamlined-br_S.0.0
+EmptyImage[SW][2]=./locomotives/lms-princess-coronation-non-streamlined-br_SW.0.0
+EmptyImage[W][2]=./locomotives/lms-princess-coronation-non-streamlined-br_W.0.0
+EmptyImage[NW][2]=./locomotives/lms-princess-coronation-non-streamlined-br_NW.0.0
+EmptyImage[N][2]=./locomotives/lms-princess-coronation-non-streamlined-br_N.0.0
+EmptyImage[NE][2]=./locomotives/lms-princess-coronation-non-streamlined-br_NE.0.0

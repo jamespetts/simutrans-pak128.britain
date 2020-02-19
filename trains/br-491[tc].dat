@@ -21,7 +21,8 @@ weight=32.5
 axles=4
 cost=1240400
 upgrade_price=206733
-runningcost=30
+runningcost=0
+fixed_cost=1477
 sound=x24tohayes-epb.wav
 
 can_lead_from_rear=1
@@ -41,14 +42,14 @@ Constraint[Prev][3]=none
 
 Constraint[Next][0]=BR-491[TC]Brake
 
-EmptyImage[E]=./images/br-491-a-bg.1.4
-EmptyImage[SE]=./images/br-491-a-bg.1.5
-EmptyImage[S]=./images/br-491-a-bg.1.6
-EmptyImage[SW]=./images/br-491-a-bg.1.7
-EmptyImage[W]=./images/br-491-a-bg.1.0
-EmptyImage[NW]=./images/br-491-a-bg.1.1
-EmptyImage[N]=./images/br-491-a-bg.1.2
-EmptyImage[NE]=./images/br-491-a-bg.1.3
+EmptyImage[E]=./railcars/br-491-a-bg_E.0.0
+EmptyImage[SE]=./railcars/br-491-a-bg_SE.0.0
+EmptyImage[S]=./railcars/br-491-a-bg_S.0.0
+EmptyImage[SW]=./railcars/br-491-a-bg_SW.0.0
+EmptyImage[W]=./railcars/br-491-a-bg_W.0.0
+EmptyImage[NW]=./railcars/br-491-a-bg_NW.0.0
+EmptyImage[N]=./railcars/br-491-a-bg_N.0.0
+EmptyImage[NE]=./railcars/br-491-a-bg_NE.0.0
 
 ---
 
@@ -73,7 +74,8 @@ weight=33.6
 axles=4
 cost=1240400
 upgrade_price=206733
-runningcost=30
+runningcost=0
+fixed_cost=1477
 
 can_lead_from_rear=0
 bidirectional=1
@@ -90,14 +92,14 @@ Constraint[Prev][0]=BR-491[TC]Front
 Constraint[Next][0]=BR-491[TC]Middle
 Constraint[Next][1]=BR-491[TC]Buffet
 
-EmptyImage[E]=./images/br-421-mbso-bg.1.4
-EmptyImage[SE]=./images/br-421-mbso-bg.1.5
-EmptyImage[S]=./images/br-421-mbso-bg.1.6
-EmptyImage[SW]=./images/br-421-mbso-bg.1.7
-EmptyImage[W]=./images/br-421-mbso-bg.1.0
-EmptyImage[NW]=./images/br-421-mbso-bg.1.1
-EmptyImage[N]=./images/br-421-mbso-bg.1.2
-EmptyImage[NE]=./images/br-421-mbso-bg.1.3
+EmptyImage[E]=./railcars/br-421-mbso-bg_E.0.0
+EmptyImage[SE]=./railcars/br-421-mbso-bg_SE.0.0
+EmptyImage[S]=./railcars/br-421-mbso-bg_S.0.0
+EmptyImage[SW]=./railcars/br-421-mbso-bg_SW.0.0
+EmptyImage[W]=./railcars/br-421-mbso-bg_W.0.0
+EmptyImage[NW]=./railcars/br-421-mbso-bg_NW.0.0
+EmptyImage[N]=./railcars/br-421-mbso-bg_N.0.0
+EmptyImage[NE]=./railcars/br-421-mbso-bg_NE.0.0
 
 ---
 
@@ -122,7 +124,8 @@ weight=35.4
 axles=4
 cost=1772000
 upgrade_price=295333
-runningcost=30
+runningcost=0
+fixed_cost=2110
 
 can_lead_from_rear=0
 bidirectional=1
@@ -138,14 +141,14 @@ Constraint[Prev][0]=BR-491[TC]Brake
 
 Constraint[Next][0]=BR-491[TC]Rear
 
-EmptyImage[E]=./images/br-mk1-sk-bg.1.4
-EmptyImage[SE]=./images/br-mk1-sk-bg.1.5
-EmptyImage[S]=./images/br-mk1-sk-bg.1.6
-EmptyImage[SW]=./images/br-mk1-sk-bg.1.7
-EmptyImage[W]=./images/br-mk1-sk-bg.1.0
-EmptyImage[NW]=./images/br-mk1-sk-bg.1.1
-EmptyImage[N]=./images/br-mk1-sk-bg.1.2
-EmptyImage[NE]=./images/br-mk1-sk-bg.1.3
+EmptyImage[E]=./carriages/br-mk1-sk-bg_E.0.0
+EmptyImage[SE]=./carriages/br-mk1-sk-bg_SE.0.0
+EmptyImage[S]=./carriages/br-mk1-sk-bg_S.0.0
+EmptyImage[SW]=./carriages/br-mk1-sk-bg_SW.0.0
+EmptyImage[W]=./carriages/br-mk1-sk-bg_W.0.0
+EmptyImage[NW]=./carriages/br-mk1-sk-bg_NW.0.0
+EmptyImage[N]=./carriages/br-mk1-sk-bg_N.0.0
+EmptyImage[NE]=./carriages/br-mk1-sk-bg_NE.0.0
 
 ---
 
@@ -169,7 +172,8 @@ length=11
 weight=34.6
 cost=1795000
 upgrade_price=299167
-runningcost=68
+runningcost=0
+fixed_cost=20137
 
 
 can_lead_from_rear=0
@@ -187,14 +191,14 @@ Constraint[Prev][0]=BR-491[TC]Brake
 
 Constraint[Next][0]=BR-491[TC]Rear
 
-EmptyImage[E]=./images/br-mk1-rmb-bg.1.4
-EmptyImage[SE]=./images/br-mk1-rmb-bg.1.5
-EmptyImage[S]=./images/br-mk1-rmb-bg.1.6
-EmptyImage[SW]=./images/br-mk1-rmb-bg.1.7
-EmptyImage[W]=./images/br-mk1-rmb-bg.1.0
-EmptyImage[NW]=./images/br-mk1-rmb-bg.1.1
-EmptyImage[N]=./images/br-mk1-rmb-bg.1.2
-EmptyImage[NE]=./images/br-mk1-rmb-bg.1.3
+EmptyImage[E]=./carriages/br-mk1-rmb-bg_E.0.0
+EmptyImage[SE]=./carriages/br-mk1-rmb-bg_SE.0.0
+EmptyImage[S]=./carriages/br-mk1-rmb-bg_S.0.0
+EmptyImage[SW]=./carriages/br-mk1-rmb-bg_SW.0.0
+EmptyImage[W]=./carriages/br-mk1-rmb-bg_W.0.0
+EmptyImage[NW]=./carriages/br-mk1-rmb-bg_NW.0.0
+EmptyImage[N]=./carriages/br-mk1-rmb-bg_N.0.0
+EmptyImage[NE]=./carriages/br-mk1-rmb-bg_NE.0.0
 
 ---
 
@@ -219,7 +223,8 @@ weight=35.8
 axles=4
 cost=1240400
 upgrade_price=206733
-runningcost=30
+runningcost=0
+fixed_cost=1477
 sound=x24tohayes-epb.wav
 
 can_lead_from_rear=1
@@ -240,11 +245,11 @@ Constraint[Next][1]=BR-491[TC]Front
 Constraint[Next][2]=BR-Class33
 Constraint[Next][3]=none
 
-EmptyImage[E]=./images/br-491-b-bg.1.4
-EmptyImage[SE]=./images/br-491-b-bg.1.5
-EmptyImage[S]=./images/br-491-b-bg.1.6
-EmptyImage[SW]=./images/br-491-b-bg.1.7
-EmptyImage[W]=./images/br-491-b-bg.1.0
-EmptyImage[NW]=./images/br-491-b-bg.1.1
-EmptyImage[N]=./images/br-491-b-bg.1.2
-EmptyImage[NE]=./images/br-491-b-bg.1.3
+EmptyImage[E]=./railcars/br-491-b-bg_E.0.0
+EmptyImage[SE]=./railcars/br-491-b-bg_SE.0.0
+EmptyImage[S]=./railcars/br-491-b-bg_S.0.0
+EmptyImage[SW]=./railcars/br-491-b-bg_SW.0.0
+EmptyImage[W]=./railcars/br-491-b-bg_W.0.0
+EmptyImage[NW]=./railcars/br-491-b-bg_NW.0.0
+EmptyImage[N]=./railcars/br-491-b-bg_N.0.0
+EmptyImage[NE]=./railcars/br-491-b-bg_NE.0.0

@@ -24,20 +24,20 @@ way_wear_factor=15313
 weight=7.0
 axle_load=4
 cost=1000000
-runningcost=15
-fixed_cost=1105
+runningcost=80
+fixed_cost=17389
 sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=lancashire-witch-tender
 
-EmptyImage[E]=./images/lancashire-witch_E.0.0
-EmptyImage[SE]=./images/lancashire-witch_SE.0.0
-EmptyImage[S]=./images/lancashire-witch_S.0.0
-EmptyImage[SW]=./images/lancashire-witch_SW.0.0
-EmptyImage[W]=./images/lancashire-witch_W.0.0
-EmptyImage[NW]=./images/lancashire-witch_NW.0.0
-EmptyImage[N]=./images/lancashire-witch_N.0.0
-EmptyImage[NE]=./images/lancashire-witch_NE.0.0
+EmptyImage[E]=./locomotives/lancashire-witch_E.0.0
+EmptyImage[SE]=./locomotives/lancashire-witch_SE.0.0
+EmptyImage[S]=./locomotives/lancashire-witch_S.0.0
+EmptyImage[SW]=./locomotives/lancashire-witch_SW.0.0
+EmptyImage[W]=./locomotives/lancashire-witch_W.0.0
+EmptyImage[NW]=./locomotives/lancashire-witch_NW.0.0
+EmptyImage[N]=./locomotives/lancashire-witch_N.0.0
+EmptyImage[NE]=./locomotives/lancashire-witch_NE.0.0
 
 ---
 
@@ -61,14 +61,15 @@ weight=1
 axles=2
 cost=0
 runningcost=0
+fixed_cost=0
 
 Constraint[Prev][0]=lancashire-witch
 
-EmptyImage[E]=./images/lancashire-witch-tender_E.0.0
-EmptyImage[SE]=./images/lancashire-witch-tender_SE.0.0
-EmptyImage[S]=./images/lancashire-witch-tender_S.0.0
-EmptyImage[SW]=./images/lancashire-witch-tender_SW.0.0
-EmptyImage[W]=./images/lancashire-witch-tender_W.0.0
-EmptyImage[NW]=./images/lancashire-witch-tender_NW.0.0
-EmptyImage[N]=./images/lancashire-witch-tender_N.0.0
-EmptyImage[NE]=./images/lancashire-witch-tender_NE.0.0
+EmptyImage[E]=./locomotives/lancashire-witch-tender_E.0.0
+EmptyImage[SE]=./locomotives/lancashire-witch-tender_SE.0.0
+EmptyImage[S]=./locomotives/lancashire-witch-tender_S.0.0
+EmptyImage[SW]=./locomotives/lancashire-witch-tender_SW.0.0
+EmptyImage[W]=./locomotives/lancashire-witch-tender_W.0.0
+EmptyImage[NW]=./locomotives/lancashire-witch-tender_NW.0.0
+EmptyImage[N]=./locomotives/lancashire-witch-tender_N.0.0
+EmptyImage[NE]=./locomotives/lancashire-witch-tender_NE.0.0

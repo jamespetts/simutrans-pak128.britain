@@ -17,20 +17,21 @@ weight=12
 axle_load=12
 way_wear_factor=40200
 cost=600000
-runningcost=10
+runningcost=0
+fixed_cost=333
 
 
 bidirectional=1
 min_loading_time=300
 max_loading_time=900
 
-EmptyImage[E]=./images/wagon-piece-zsx.0.0
-EmptyImage[SE]=./images/wagon-piece-zsx.0.1
-EmptyImage[S]=./images/wagon-piece-zsx.0.2
-EmptyImage[SW]=./images/wagon-piece-zsx.0.3
-EmptyImage[W]=./images/wagon-piece-zsx.0.4
-EmptyImage[NW]=./images/wagon-piece-zsx.0.5
-EmptyImage[N]=./images/wagon-piece-zsx.0.6
-EmptyImage[NE]=./images/wagon-piece-zsx.0.7
+EmptyImage[E]=./wagons/wagon-piece-zsx_E.0.0
+EmptyImage[SE]=./wagons/wagon-piece-zsx_SE.0.0
+EmptyImage[S]=./wagons/wagon-piece-zsx_S.0.0
+EmptyImage[SW]=./wagons/wagon-piece-zsx_SW.0.0
+EmptyImage[W]=./wagons/wagon-piece-zsx_W.0.0
+EmptyImage[NW]=./wagons/wagon-piece-zsx_NW.0.0
+EmptyImage[N]=./wagons/wagon-piece-zsx_N.0.0
+EmptyImage[NE]=./wagons/wagon-piece-zsx_NE.0.0
 
 

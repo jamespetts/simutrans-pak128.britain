@@ -22,7 +22,8 @@ air_resistance=120
 weight=39
 axles=4
 cost=1008000
-runningcost=132
+runningcost=120
+fixed_cost=6840
 sound=panos-g-class-375.wav
 
 min_loading_time=15
@@ -39,14 +40,14 @@ Constraint[Prev][1]=none
 
 Constraint[Next][0]=BR-345Panto
 
-EmptyImage[E]=./images/br-345-front-crossrail.1.4
-EmptyImage[SE]=./images/br-345-front-crossrail.1.5
-EmptyImage[S]=./images/br-345-front-crossrail.1.6
-EmptyImage[SW]=./images/br-345-front-crossrail.1.7
-EmptyImage[W]=./images/br-345-front-crossrail.1.0
-EmptyImage[NW]=./images/br-345-front-crossrail.1.1
-EmptyImage[N]=./images/br-345-front-crossrail.1.2
-EmptyImage[NE]=./images/br-345-front-crossrail.1.3
+EmptyImage[E]=./railcars/br-345-front-crossrail.1.4
+EmptyImage[SE]=./railcars/br-345-front-crossrail.1.5
+EmptyImage[S]=./railcars/br-345-front-crossrail.1.6
+EmptyImage[SW]=./railcars/br-345-front-crossrail.1.7
+EmptyImage[W]=./railcars/br-345-front-crossrail.1.0
+EmptyImage[NW]=./railcars/br-345-front-crossrail.1.1
+EmptyImage[N]=./railcars/br-345-front-crossrail.1.2
+EmptyImage[NE]=./railcars/br-345-front-crossrail.1.3
 
 ---
 
@@ -73,7 +74,8 @@ air_resistance=120
 weight=39
 axles=4
 cost=1008000
-runningcost=132
+runningcost=50
+fixed_cost=6840
 sound=panos-g-class-375.wav
 
 min_loading_time=15
@@ -92,14 +94,14 @@ Constraint[Prev][2]=BR-345Panto
 Constraint[Next][0]=BR-345Front
 Constraint[Next][1]=none
 
-EmptyImage[E]=./images/br-345-rear-crossrail.1.4
-EmptyImage[SE]=./images/br-345-rear-crossrail.1.5
-EmptyImage[S]=./images/br-345-rear-crossrail.1.6
-EmptyImage[SW]=./images/br-345-rear-crossrail.1.7
-EmptyImage[W]=./images/br-345-rear-crossrail.1.0
-EmptyImage[NW]=./images/br-345-rear-crossrail.1.1
-EmptyImage[N]=./images/br-345-rear-crossrail.1.2
-EmptyImage[NE]=./images/br-345-rear-crossrail.1.3
+EmptyImage[E]=./railcars/br-345-rear-crossrail.1.4
+EmptyImage[SE]=./railcars/br-345-rear-crossrail.1.5
+EmptyImage[S]=./railcars/br-345-rear-crossrail.1.6
+EmptyImage[SW]=./railcars/br-345-rear-crossrail.1.7
+EmptyImage[W]=./railcars/br-345-rear-crossrail.1.0
+EmptyImage[NW]=./railcars/br-345-rear-crossrail.1.1
+EmptyImage[N]=./railcars/br-345-rear-crossrail.1.2
+EmptyImage[NE]=./railcars/br-345-rear-crossrail.1.3
 
 ---
 
@@ -125,7 +127,8 @@ rolling_resistance=13
 weight=39
 axles=4
 cost=1512000
-runningcost=132
+runningcost=100
+fixed_cost=1260
 
 min_loading_time=15
 max_loading_time=55
@@ -142,14 +145,14 @@ Constraint[Prev][1]=BR-345Middle
 Constraint[Next][0]=BR-345Rear
 Constraint[Next][1]=BR-345Middle
 
-EmptyImage[E]=./images/br-345-middle-crossrail.1.4
-EmptyImage[SE]=./images/br-345-middle-crossrail.1.5
-EmptyImage[S]=./images/br-345-middle-crossrail.1.6
-EmptyImage[SW]=./images/br-345-middle-crossrail.1.7
-EmptyImage[W]=./images/br-345-middle-crossrail.1.0
-EmptyImage[NW]=./images/br-345-middle-crossrail.1.1
-EmptyImage[N]=./images/br-345-middle-crossrail.1.2
-EmptyImage[NE]=./images/br-345-middle-crossrail.1.3
+EmptyImage[E]=./railcars/br-345-middle-crossrail.1.4
+EmptyImage[SE]=./railcars/br-345-middle-crossrail.1.5
+EmptyImage[S]=./railcars/br-345-middle-crossrail.1.6
+EmptyImage[SW]=./railcars/br-345-middle-crossrail.1.7
+EmptyImage[W]=./railcars/br-345-middle-crossrail.1.0
+EmptyImage[NW]=./railcars/br-345-middle-crossrail.1.1
+EmptyImage[N]=./railcars/br-345-middle-crossrail.1.2
+EmptyImage[NE]=./railcars/br-345-middle-crossrail.1.3
 
 ---
 
@@ -175,7 +178,8 @@ rolling_resistance=13
 weight=39
 axles=4
 cost=1512000
-runningcost=132
+runningcost=100
+fixed_cost=1260
 
 min_loading_time=15
 max_loading_time=55
@@ -191,11 +195,11 @@ Constraint[Prev][0]=BR-345Front
 Constraint[Next][0]=BR-345Rear
 Constraint[Next][1]=BR-345Middle
 
-EmptyImage[E]=./images/br-345-panto-crossrail.1.4
-EmptyImage[SE]=./images/br-345-panto-crossrail.1.5
-EmptyImage[S]=./images/br-345-panto-crossrail.1.6
-EmptyImage[SW]=./images/br-345-panto-crossrail.1.7
-EmptyImage[W]=./images/br-345-panto-crossrail.1.0
-EmptyImage[NW]=./images/br-345-panto-crossrail.1.1
-EmptyImage[N]=./images/br-345-panto-crossrail.1.2
-EmptyImage[NE]=./images/br-345-panto-crossrail.1.3
+EmptyImage[E]=./railcars/br-345-panto-crossrail.1.4
+EmptyImage[SE]=./railcars/br-345-panto-crossrail.1.5
+EmptyImage[S]=./railcars/br-345-panto-crossrail.1.6
+EmptyImage[SW]=./railcars/br-345-panto-crossrail.1.7
+EmptyImage[W]=./railcars/br-345-panto-crossrail.1.0
+EmptyImage[NW]=./railcars/br-345-panto-crossrail.1.1
+EmptyImage[N]=./railcars/br-345-panto-crossrail.1.2
+EmptyImage[NE]=./railcars/br-345-panto-crossrail.1.3

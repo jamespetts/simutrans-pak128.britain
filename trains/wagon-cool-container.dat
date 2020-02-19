@@ -15,27 +15,28 @@ weight=24
 axle_load=14
 way_wear_factor=62800
 cost=500000
-runningcost=20
+runningcost=0
+fixed_cost=278
 
 
 bidirectional=1
 min_loading_time=240
 max_loading_time=240
 
-EmptyImage[E]=./images/wagon-container.0.0
-EmptyImage[SE]=./images/wagon-container.0.1
-EmptyImage[S]=./images/wagon-container.0.2
-EmptyImage[SW]=./images/wagon-container.0.3
-EmptyImage[W]=./images/wagon-container.0.4
-EmptyImage[NW]=./images/wagon-container.0.5
-EmptyImage[N]=./images/wagon-container.0.6
-EmptyImage[NE]=./images/wagon-container.0.7
+EmptyImage[E]=./wagons/wagon-container.0.0
+EmptyImage[SE]=./wagons/wagon-container.0.1
+EmptyImage[S]=./wagons/wagon-container.0.2
+EmptyImage[SW]=./wagons/wagon-container.0.3
+EmptyImage[W]=./wagons/wagon-container.0.4
+EmptyImage[NW]=./wagons/wagon-container.0.5
+EmptyImage[N]=./wagons/wagon-container.0.6
+EmptyImage[NE]=./wagons/wagon-container.0.7
 
-FreightImage[E]=./images/wagon-container.2.0
-FreightImage[SE]=./images/wagon-container.2.1
-FreightImage[S]=./images/wagon-container.2.2
-FreightImage[SW]=./images/wagon-container.2.3
-FreightImage[W]=./images/wagon-container.2.4
-FreightImage[NW]=./images/wagon-container.2.5
-FreightImage[N]=./images/wagon-container.2.6
-FreightImage[NE]=./images/wagon-container.2.7
+FreightImage[E]=./wagons/wagon-container.2.0
+FreightImage[SE]=./wagons/wagon-container.2.1
+FreightImage[S]=./wagons/wagon-container.2.2
+FreightImage[SW]=./wagons/wagon-container.2.3
+FreightImage[W]=./wagons/wagon-container.2.4
+FreightImage[NW]=./wagons/wagon-container.2.5
+FreightImage[N]=./wagons/wagon-container.2.6
+FreightImage[NE]=./wagons/wagon-container.2.7

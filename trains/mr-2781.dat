@@ -24,7 +24,8 @@ weight=56
 axle_load=18
 cost=6841000
 # Noted for high coal consumption: http://chasewaterstuff.wordpress.com/tag/s-w-johnson/
-runningcost=1500
+runningcost=136
+fixed_cost=45701
 sound=lwalker-br-4mt-tank.wav
 increase_maintenance_after_years=16
 years_before_maintenance_max_reached=25
@@ -35,32 +36,32 @@ liverytype[0]=MR-Standard
 liverytype[1]=LMS-Standard
 liverytype[2]=BR-Early
 
-EmptyImage[E][0]=./images/mr-2781.1.4
-EmptyImage[SE][0]=./images/mr-2781.1.5
-EmptyImage[S][0]=./images/mr-2781.1.6
-EmptyImage[SW][0]=./images/mr-2781.1.7
-EmptyImage[W][0]=./images/mr-2781.1.0
-EmptyImage[NW][0]=./images/mr-2781.1.1
-EmptyImage[N][0]=./images/mr-2781.1.2
-EmptyImage[NE][0]=./images/mr-2781.1.3
+EmptyImage[E][0]=./locomotives/mr-2781_E.0.0
+EmptyImage[SE][0]=./locomotives/mr-2781_SE.0.0
+EmptyImage[S][0]=./locomotives/mr-2781_S.0.0
+EmptyImage[SW][0]=./locomotives/mr-2781_SW.0.0
+EmptyImage[W][0]=./locomotives/mr-2781_W.0.0
+EmptyImage[NW][0]=./locomotives/mr-2781_NW.0.0
+EmptyImage[N][0]=./locomotives/mr-2781_N.0.0
+EmptyImage[NE][0]=./locomotives/mr-2781_NE.0.0
 
-EmptyImage[E][1]=./images/mr-2781-lms.1.4
-EmptyImage[SE][1]=./images/mr-2781-lms.1.5
-EmptyImage[S][1]=./images/mr-2781-lms.1.6
-EmptyImage[SW][1]=./images/mr-2781-lms.1.7
-EmptyImage[W][1]=./images/mr-2781-lms.1.0
-EmptyImage[NW][1]=./images/mr-2781-lms.1.1
-EmptyImage[N][1]=./images/mr-2781-lms.1.2
-EmptyImage[NE][1]=./images/mr-2781-lms.1.3
+EmptyImage[E][1]=./locomotives/mr-2781-lms_E.0.0
+EmptyImage[SE][1]=./locomotives/mr-2781-lms_SE.0.0
+EmptyImage[S][1]=./locomotives/mr-2781-lms_S.0.0
+EmptyImage[SW][1]=./locomotives/mr-2781-lms_SW.0.0
+EmptyImage[W][1]=./locomotives/mr-2781-lms_W.0.0
+EmptyImage[NW][1]=./locomotives/mr-2781-lms_NW.0.0
+EmptyImage[N][1]=./locomotives/mr-2781-lms_N.0.0
+EmptyImage[NE][1]=./locomotives/mr-2781-lms_NE.0.0
 
-EmptyImage[E][2]=./images/mr-2781-br.1.0
-EmptyImage[SE][2]=./images/mr-2781-br.1.1
-EmptyImage[S][2]=./images/mr-2781-br.1.2
-EmptyImage[SW][2]=./images/mr-2781-br.1.3
-EmptyImage[W][2]=./images/mr-2781-br.1.4
-EmptyImage[NW][2]=./images/mr-2781-br.1.5
-EmptyImage[N][2]=./images/mr-2781-br.1.6
-EmptyImage[NE][2]=./images/mr-2781-br.1.7
+EmptyImage[E][2]=./locomotives/mr-2781-br_E.0.0
+EmptyImage[SE][2]=./locomotives/mr-2781-br_SE.0.0
+EmptyImage[S][2]=./locomotives/mr-2781-br_S.0.0
+EmptyImage[SW][2]=./locomotives/mr-2781-br_SW.0.0
+EmptyImage[W][2]=./locomotives/mr-2781-br_W.0.0
+EmptyImage[NW][2]=./locomotives/mr-2781-br_NW.0.0
+EmptyImage[N][2]=./locomotives/mr-2781-br_N.0.0
+EmptyImage[NE][2]=./locomotives/mr-2781-br_NE.0.0
 
 ---
 
@@ -81,15 +82,17 @@ length=4
 weight=37
 cost=0
 runningcost=0
+fixed_cost=0
 
 increase_maintenance_after_years=16
 
+#fixed_coupling[prev]=1
 Constraint[Prev][0]=MR-2781
 Constraint[Prev][1]=MR-1873
 Constraint[Prev][2]=MR-2736
 
 #  These apparently originally had bogie tenders
-# (see http://www.transportdiversions.com/images/books/TE2343S.jpg)
+# (see http://www.transportdiversions.com/locomotives/books/TE2343S.jpg)
 # but these seem to have been replaced with standard tenders soon:
 # chasewaterstuff.wordpress.com/tag/s-w-johnson/
 
@@ -97,29 +100,29 @@ liverytype[0]=MR-Standard
 liverytype[1]=LMS-Standard
 liverytype[2]=BR-Early
 
-EmptyImage[E][0]=./images/mr-1000-tender.1.4
-EmptyImage[SE][0]=./images/mr-1000-tender.1.5
-EmptyImage[S][0]=./images/mr-1000-tender.1.6
-EmptyImage[SW][0]=./images/mr-1000-tender.1.7
-EmptyImage[W][0]=./images/mr-1000-tender.1.0
-EmptyImage[NW][0]=./images/mr-1000-tender.1.1
-EmptyImage[N][0]=./images/mr-1000-tender.1.2
-EmptyImage[NE][0]=./images/mr-1000-tender.1.3
+EmptyImage[E][0]=./locomotives/mr-1000-tender_E.0.0
+EmptyImage[SE][0]=./locomotives/mr-1000-tender_SE.0.0
+EmptyImage[S][0]=./locomotives/mr-1000-tender_S.0.0
+EmptyImage[SW][0]=./locomotives/mr-1000-tender_SW.0.0
+EmptyImage[W][0]=./locomotives/mr-1000-tender_W.0.0
+EmptyImage[NW][0]=./locomotives/mr-1000-tender_NW.0.0
+EmptyImage[N][0]=./locomotives/mr-1000-tender_N.0.0
+EmptyImage[NE][0]=./locomotives/mr-1000-tender_NE.0.0
 
-EmptyImage[E][1]=./images/mr-1000-tender-lms.1.4
-EmptyImage[SE][1]=./images/mr-1000-tender-lms.1.5
-EmptyImage[S][1]=./images/mr-1000-tender-lms.1.6
-EmptyImage[SW][1]=./images/mr-1000-tender-lms.1.7
-EmptyImage[W][1]=./images/mr-1000-tender-lms.1.0
-EmptyImage[NW][1]=./images/mr-1000-tender-lms.1.1
-EmptyImage[N][1]=./images/mr-1000-tender-lms.1.2
-EmptyImage[NE][1]=./images/mr-1000-tender-lms.1.3
+EmptyImage[E][1]=./locomotives/mr-1000-tender-lms_E.0.0
+EmptyImage[SE][1]=./locomotives/mr-1000-tender-lms_SE.0.0
+EmptyImage[S][1]=./locomotives/mr-1000-tender-lms_S.0.0
+EmptyImage[SW][1]=./locomotives/mr-1000-tender-lms_SW.0.0
+EmptyImage[W][1]=./locomotives/mr-1000-tender-lms_W.0.0
+EmptyImage[NW][1]=./locomotives/mr-1000-tender-lms_NW.0.0
+EmptyImage[N][1]=./locomotives/mr-1000-tender-lms_N.0.0
+EmptyImage[NE][1]=./locomotives/mr-1000-tender-lms_NE.0.0
 
-EmptyImage[E][2]=./images/mr-1000-tender-br.1.4
-EmptyImage[SE][2]=./images/mr-1000-tender-br.1.5
-EmptyImage[S][2]=./images/mr-1000-tender-br.1.6
-EmptyImage[SW][2]=./images/mr-1000-tender-br.1.7
-EmptyImage[W][2]=./images/mr-1000-tender-br.1.0
-EmptyImage[NW][2]=./images/mr-1000-tender-br.1.1
-EmptyImage[N][2]=./images/mr-1000-tender-br.1.2
-EmptyImage[NE][2]=./images/mr-1000-tender-br.1.3
+EmptyImage[E][2]=./locomotives/mr-1000-tender-br_E.0.0
+EmptyImage[SE][2]=./locomotives/mr-1000-tender-br_SE.0.0
+EmptyImage[S][2]=./locomotives/mr-1000-tender-br_S.0.0
+EmptyImage[SW][2]=./locomotives/mr-1000-tender-br_SW.0.0
+EmptyImage[W][2]=./locomotives/mr-1000-tender-br_W.0.0
+EmptyImage[NW][2]=./locomotives/mr-1000-tender-br_NW.0.0
+EmptyImage[N][2]=./locomotives/mr-1000-tender-br_N.0.0
+EmptyImage[NE][2]=./locomotives/mr-1000-tender-br_NE.0.0

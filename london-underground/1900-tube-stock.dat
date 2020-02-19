@@ -21,7 +21,8 @@ weight=23
 axles=4
 cost=750000
 upgrade_price=250000
-runningcost=61
+runningcost=60
+fixed_cost=6625
 sound=lul-1938-stock-ff3170.wav
 
 can_lead_from_rear=1
@@ -68,7 +69,8 @@ overcrowded_capacity=120
 weight=15
 axles=4
 cost=250000
-runningcost=5
+runningcost=0
+fixed_cost=298
 
 
 can_lead_from_rear=0
@@ -127,7 +129,8 @@ weight=23
 axles=4
 cost=750000
 upgrade_price=250000
-runningcost=61
+runningcost=60
+fixed_cost=6625
 sound=lul-1938-stock-ff3170.wav
 
 can_lead_from_rear=1

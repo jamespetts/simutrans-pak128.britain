@@ -24,7 +24,8 @@ rolling_resistance=19
 weight=2.8
 axles=2
 cost=200000
-runningcost=17
+runningcost=0
+fixed_cost=167
 
 comfort[0]=0
 comfort[1]=0
@@ -42,11 +43,11 @@ Constraint[Next][0]=railway-mail-locker
 # TODO: Multiple liveries
 liverytype[0]=LMR-Standard
 
-EmptyImage[E][0]=./images/gjr-bed-carriage_E.0.0
-EmptyImage[SE][0]=./images/gjr-bed-carriage_SE.0.0
-EmptyImage[S][0]=./images/gjr-bed-carriage_S.0.0
-EmptyImage[SW][0]=./images/gjr-bed-carriage_SW.0.0
-EmptyImage[W][0]=./images/gjr-bed-carriage_W.0.0
-EmptyImage[NW][0]=./images/gjr-bed-carriage_NW.0.0
-EmptyImage[N][0]=./images/gjr-bed-carriage_N.0.0
-EmptyImage[NE][0]=./images/gjr-bed-carriage_NE.0.0
+EmptyImage[E][0]=./carriages/gjr-bed-carriage_E.0.0
+EmptyImage[SE][0]=./carriages/gjr-bed-carriage_SE.0.0
+EmptyImage[S][0]=./carriages/gjr-bed-carriage_S.0.0
+EmptyImage[SW][0]=./carriages/gjr-bed-carriage_SW.0.0
+EmptyImage[W][0]=./carriages/gjr-bed-carriage_W.0.0
+EmptyImage[NW][0]=./carriages/gjr-bed-carriage_NW.0.0
+EmptyImage[N][0]=./carriages/gjr-bed-carriage_N.0.0
+EmptyImage[NE][0]=./carriages/gjr-bed-carriage_NE.0.0

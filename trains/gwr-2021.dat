@@ -1,0 +1,67 @@
+# Saddle tank version
+# http://www.gwr.org.uk/nopanniers.html
+# https://en.wikipedia.org/wiki/GWR_2021_Class
+obj=vehicle
+name=gwr-2021
+engine_type=steam
+smoke=Steam
+speed=82
+power=197
+# Calculated using data from: https://en.wikipedia.org/wiki/GWR_2021_Class
+# assuming boiler pressure of 150psi and loss factor of 0.8.
+tractive_effort=72
+copyright=Kieron/JamesPetts
+intro_year=1897
+intro_month=6
+retire_year=1910
+retire_month=10
+waytype=track
+freight=None
+payload=0
+length=4
+
+upgrade[0]=gwr-2021-rebuilt
+
+# Assumed to be the same as the rebuilt version
+# https://en.wikipedia.org/wiki/GWR_2021_Class
+weight=41.3
+axle_load=14
+cost=262000
+runningcost=130
+fixed_cost=21300
+sound=konakaboom-gwr-pannier.wav
+
+can_lead_from_rear=0
+bidirectional=1
+
+liverytype[0]=GWR-standard-green
+liverytype[1]=GWR-overall-brown
+liverytype[2]=WW1-Austerity
+
+EmptyImage[E][0]=./locomotives/gwr-2021_E.0.0
+EmptyImage[SE][0]=./locomotives/gwr-2021_SE.0.0
+EmptyImage[S][0]=./locomotives/gwr-2021_S.0.0
+EmptyImage[SW][0]=./locomotives/gwr-2021_SW.0.0
+EmptyImage[W][0]=./locomotives/gwr-2021_W.0.0
+EmptyImage[NW][0]=./locomotives/gwr-2021_NW.0.0
+EmptyImage[N][0]=./locomotives/gwr-2021_N.0.0
+EmptyImage[NE][0]=./locomotives/gwr-2021_NE.0.0
+
+EmptyImage[E][1]=./locomotives/gwr-2021-churchward_E.0.0
+EmptyImage[SE][1]=./locomotives/gwr-2021-churchward_SE.0.0
+EmptyImage[S][1]=./locomotives/gwr-2021-churchward_S.0.0
+EmptyImage[SW][1]=./locomotives/gwr-2021-churchward_SW.0.0
+EmptyImage[W][1]=./locomotives/gwr-2021-churchward_W.0.0
+EmptyImage[NW][1]=./locomotives/gwr-2021-churchward_NW.0.0
+EmptyImage[N][1]=./locomotives/gwr-2021-churchward_N.0.0
+EmptyImage[NE][1]=./locomotives/gwr-2021-churchward_NE.0.0
+
+EmptyImage[E][2]=./locomotives/gwr-2021-ww1-austerity_E.0.0
+EmptyImage[SE][2]=./locomotives/gwr-2021-ww1-austerity_SE.0.0
+EmptyImage[S][2]=./locomotives/gwr-2021-ww1-austerity_S.0.0
+EmptyImage[SW][2]=./locomotives/gwr-2021-ww1-austerity_SW.0.0
+EmptyImage[W][2]=./locomotives/gwr-2021-ww1-austerity_W.0.0
+EmptyImage[NW][2]=./locomotives/gwr-2021-ww1-austerity_NW.0.0
+EmptyImage[N][2]=./locomotives/gwr-2021-ww1-austerity_N.0.0
+EmptyImage[NE][2]=./locomotives/gwr-2021-ww1-austerity_NE.0.0
+

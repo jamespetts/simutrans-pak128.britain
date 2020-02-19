@@ -12,7 +12,8 @@ payload[1]=260
 weight=150
 length=10
 cost=91000000
-runningcost=3500
+runningcost=47
+fixed_cost=237917
 intro_year=2009
 intro_month=9
 # Most modern catamaran so no retire year.

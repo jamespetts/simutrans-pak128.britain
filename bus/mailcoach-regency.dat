@@ -20,7 +20,8 @@ axle_load=1
 way_wear_factor=4
 length=3
 cost=101000
-runningcost=22
+runningcost=0
+fixed_cost=4842
 intro_year=1795
 intro_month=12
 # Ensure that this is available until the parcel coach comes around.

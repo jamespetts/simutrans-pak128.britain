@@ -25,8 +25,8 @@ rolling_resistance=20
 weight=2.5
 axles=2
 cost=100000
-runningcost=9
-fixed_cost=42
+runningcost=0
+fixed_cost=83
 
 comfort[0]=0
 comfort[1]=0
@@ -50,14 +50,14 @@ Constraint[Next][2]=l&s-composite-carriage
 Constraint[Next][3]=l&s-composite-carriage-brake-rear
 Constraint[Next][4]=l&s-open-carriage
 
-EmptyImage[E]=./images/l&s-enclosed-carriage_E.0.0
-EmptyImage[SE]=./images/l&s-enclosed-carriage_SE.0.0
-EmptyImage[S]=./images/l&s-enclosed-carriage_S.0.0
-EmptyImage[SW]=./images/l&s-enclosed-carriage_SW.0.0
-EmptyImage[W]=./images/l&s-enclosed-carriage_W.0.0
-EmptyImage[NW]=./images/l&s-enclosed-carriage_NW.0.0
-EmptyImage[N]=./images/l&s-enclosed-carriage_N.0.0
-EmptyImage[NE]=./images/l&s-enclosed-carriage_NE.0.0
+EmptyImage[E]=./carriages/l&s-enclosed-carriage_E.0.0
+EmptyImage[SE]=./carriages/l&s-enclosed-carriage_SE.0.0
+EmptyImage[S]=./carriages/l&s-enclosed-carriage_S.0.0
+EmptyImage[SW]=./carriages/l&s-enclosed-carriage_SW.0.0
+EmptyImage[W]=./carriages/l&s-enclosed-carriage_W.0.0
+EmptyImage[NW]=./carriages/l&s-enclosed-carriage_NW.0.0
+EmptyImage[N]=./carriages/l&s-enclosed-carriage_N.0.0
+EmptyImage[NE]=./carriages/l&s-enclosed-carriage_NE.0.0
 
 ---
 
@@ -84,8 +84,8 @@ rolling_resistance=20
 weight=2.5
 axles=2
 cost=110000
-runningcost=9
-fixed_cost=4846
+runningcost=0
+fixed_cost=4892
 
 comfort[0]=0
 comfort[1]=0
@@ -104,14 +104,14 @@ Constraint[Next][3]=l&s-composite-carriage-brake-rear
 Constraint[Next][4]=l&s-open-carriage
 Constraint[Next][5]=none
 
-EmptyImage[E]=./images/l&s-enclosed-carriage-brake-front_E.0.0
-EmptyImage[SE]=./images/l&s-enclosed-carriage-brake-front_SE.0.0
-EmptyImage[S]=./images/l&s-enclosed-carriage-brake-front_S.0.0
-EmptyImage[SW]=./images/l&s-enclosed-carriage-brake-front_SW.0.0
-EmptyImage[W]=./images/l&s-enclosed-carriage-brake-front_W.0.0
-EmptyImage[NW]=./images/l&s-enclosed-carriage-brake-front_NW.0.0
-EmptyImage[N]=./images/l&s-enclosed-carriage-brake-front_N.0.0
-EmptyImage[NE]=./images/l&s-enclosed-carriage-brake-front_NE.0.0
+EmptyImage[E]=./carriages/l&s-enclosed-carriage-brake-front_E.0.0
+EmptyImage[SE]=./carriages/l&s-enclosed-carriage-brake-front_SE.0.0
+EmptyImage[S]=./carriages/l&s-enclosed-carriage-brake-front_S.0.0
+EmptyImage[SW]=./carriages/l&s-enclosed-carriage-brake-front_SW.0.0
+EmptyImage[W]=./carriages/l&s-enclosed-carriage-brake-front_W.0.0
+EmptyImage[NW]=./carriages/l&s-enclosed-carriage-brake-front_NW.0.0
+EmptyImage[N]=./carriages/l&s-enclosed-carriage-brake-front_N.0.0
+EmptyImage[NE]=./carriages/l&s-enclosed-carriage-brake-front_NE.0.0
 
 ---
 
@@ -138,8 +138,8 @@ rolling_resistance=20
 weight=2.5
 axles=2
 cost=110000
-runningcost=9
-fixed_cost=4846
+runningcost=0
+fixed_cost=4892
 
 comfort[0]=0
 comfort[1]=0
@@ -157,12 +157,12 @@ Constraint[Prev][2]=l&s-composite-carriage
 Constraint[Prev][3]=l&s-composite-carriage-brake-front
 Constraint[Prev][4]=l&s-open-carriage
 
-EmptyImage[E]=./images/l&s-enclosed-carriage-brake-rear_E.0.0
-EmptyImage[SE]=./images/l&s-enclosed-carriage-brake-rear_SE.0.0
-EmptyImage[S]=./images/l&s-enclosed-carriage-brake-rear_S.0.0
-EmptyImage[SW]=./images/l&s-enclosed-carriage-brake-rear_SW.0.0
-EmptyImage[W]=./images/l&s-enclosed-carriage-brake-rear_W.0.0
-EmptyImage[NW]=./images/l&s-enclosed-carriage-brake-rear_NW.0.0
-EmptyImage[N]=./images/l&s-enclosed-carriage-brake-rear_N.0.0
-EmptyImage[NE]=./images/l&s-enclosed-carriage-brake-rear_NE.0.0
+EmptyImage[E]=./carriages/l&s-enclosed-carriage-brake-rear_E.0.0
+EmptyImage[SE]=./carriages/l&s-enclosed-carriage-brake-rear_SE.0.0
+EmptyImage[S]=./carriages/l&s-enclosed-carriage-brake-rear_S.0.0
+EmptyImage[SW]=./carriages/l&s-enclosed-carriage-brake-rear_SW.0.0
+EmptyImage[W]=./carriages/l&s-enclosed-carriage-brake-rear_W.0.0
+EmptyImage[NW]=./carriages/l&s-enclosed-carriage-brake-rear_NW.0.0
+EmptyImage[N]=./carriages/l&s-enclosed-carriage-brake-rear_N.0.0
+EmptyImage[NE]=./carriages/l&s-enclosed-carriage-brake-rear_NE.0.0
 

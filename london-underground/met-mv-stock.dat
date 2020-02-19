@@ -1,7 +1,6 @@
 # MV and MW stock was the original name for what became known as "T stock" in London Transport days.
 # http://en.wikipedia.org/wiki/London_Underground_T_Stock
 # http://en.wikipedia.org/wiki/Metropolitan_Railway_electric_multiple_units#W.2C_MV_.26_MW_stock
-# TODO: Find and add data on first class compartments in these.
 obj=vehicle
 name=met-mv-stock-front
 engine_type=electric
@@ -18,6 +17,8 @@ waytype=track
 freight=Passagiere
 payload[0]=0
 payload[1]=72
+payload[2]=0
+payload[3]=0
 overcrowded_capacity=36
 length=9
 
@@ -26,7 +27,8 @@ weight=50
 axles=4
 upgrade_price=4000000
 cost=4600000
-runningcost=156
+runningcost=165
+fixed_cost=9833
 sound=lul-1938-stock-ff3170.wav
 
 can_lead_from_rear=1
@@ -46,6 +48,8 @@ Constraint[Next][0]=met-mv-stock-centre
 Constraint[Next][1]=met-mv-stock-rear
 Constraint[Next][2]=Metropolitan-Motor-Third-Back
 Constraint[Next][3]=Metropolitan-Motor-Third-Middle
+Constraint[Next][4]=Metropolitan-Motor-First-Middle
+Constraint[Next][5]=met-mv-stock-centre-first
 
 liverytype[0]=Metropolitan-Red
 liverytype[1]=LT
@@ -85,6 +89,8 @@ waytype=track
 freight=Passagiere
 payload[0]=0
 payload[1]=108
+payload[2]=0
+payload[3]=0
 overcrowded_capacity=54
 length=9
 
@@ -92,7 +98,8 @@ weight=30.5
 axles=4
 upgrade_price=8000
 cost=875000
-runningcost=26
+runningcost=0
+fixed_cost=1042
 
 can_lead_from_rear=1
 bidirectional=0
@@ -100,18 +107,102 @@ way_constraint_permissive[3]=3
 
 min_loading_time=10
 max_loading_time=40
+
 comfort[0]=0
-comfort[1]=74
+comfort[1]=76
+comfort[2]=76
+comfort[3]=88
 
 Constraint[Prev][0]=met-mv-stock-front
 Constraint[Prev][1]=met-mv-stock-centre
 Constraint[Prev][2]=Metropolitan-Motor-Third-Middle
 Constraint[Prev][3]=Metropolitan-Motor-Third-Front
+Constraint[Prev][4]=Metropolitan-Motor-First-Middle
+Constraint[Prev][5]=met-mv-stock-centre-first
 
 Constraint[Next][0]=met-mv-stock-centre
 Constraint[Next][1]=met-mv-stock-rear
 Constraint[Next][2]=Metropolitan-Motor-Third-Middle
 Constraint[Next][3]=Metropolitan-Motor-Third-Back
+Constraint[Next][4]=Metropolitan-Motor-First-Middle
+Constraint[Next][5]=met-mv-stock-centre-first
+
+liverytype[0]=Metropolitan-Red
+liverytype[1]=LT
+
+
+EmptyImage[E][0]=./images/met-dreadnought-third.1.4
+EmptyImage[SE][0]=./images/met-dreadnought-third.1.5
+EmptyImage[S][0]=./images/met-dreadnought-third.1.6
+EmptyImage[SW][0]=./images/met-dreadnought-third.1.7
+EmptyImage[W][0]=./images/met-dreadnought-third.1.0
+EmptyImage[NW][0]=./images/met-dreadnought-third.1.1
+EmptyImage[N][0]=./images/met-dreadnought-third.1.2
+EmptyImage[NE][0]=./images/met-dreadnought-third.1.3
+
+EmptyImage[E][1]=./images/met-dreadnought-third-lt.1.4
+EmptyImage[SE][1]=./images/met-dreadnought-third-lt.1.5
+EmptyImage[S][1]=./images/met-dreadnought-third-lt.1.6
+EmptyImage[SW][1]=./images/met-dreadnought-third-lt.1.7
+EmptyImage[W][1]=./images/met-dreadnought-third-lt.1.0
+EmptyImage[NW][1]=./images/met-dreadnought-third-lt.1.1
+EmptyImage[N][1]=./images/met-dreadnought-third-lt.1.2
+EmptyImage[NE][1]=./images/met-dreadnought-third-lt.1.3
+
+---
+
+obj=vehicle
+name=met-mv-stock-centre-first
+engine_type=electric
+speed=65
+power=0
+tractive_effort=0
+copyright=jamespetts
+intro_year=1927
+intro_month=1
+retire_year=1931
+retire_month=10
+waytype=track
+freight=Passagiere
+payload[0]=0
+payload[1]=0
+payload[2]=0
+payload[3]=56
+overcrowded_capacity=0
+length=9
+
+weight=30.5
+axles=4
+upgrade_price=8000
+cost=883000
+runningcost=0
+fixed_cost=1042
+
+can_lead_from_rear=1
+bidirectional=0
+way_constraint_permissive[3]=3
+
+min_loading_time=10
+max_loading_time=40
+
+comfort[0]=0
+comfort[1]=76
+comfort[2]=76
+comfort[3]=88
+
+Constraint[Prev][0]=met-mv-stock-front
+Constraint[Prev][1]=met-mv-stock-centre
+Constraint[Prev][2]=Metropolitan-Motor-Third-Middle
+Constraint[Prev][3]=Metropolitan-Motor-Third-Front
+Constraint[Prev][4]=Metropolitan-Motor-First-Middle
+Constraint[Prev][5]=met-mv-stock-centre-first
+
+Constraint[Next][0]=met-mv-stock-centre
+Constraint[Next][1]=met-mv-stock-rear
+Constraint[Next][2]=Metropolitan-Motor-Third-Middle
+Constraint[Next][3]=Metropolitan-Motor-Third-Back
+Constraint[Next][4]=Metropolitan-Motor-First-Middle
+Constraint[Next][5]=met-mv-stock-centre-first
 
 liverytype[0]=Metropolitan-Red
 liverytype[1]=LT
@@ -153,6 +244,8 @@ waytype=track
 freight=Passagiere
 payload[0]=0
 payload[1]=72
+payload[2]=0
+payload[3]=0
 overcrowded_capacity=36
 length=9
 
@@ -161,7 +254,8 @@ weight=50
 axles=4
 upgrade_price=4000000
 cost=4600000
-runningcost=156
+runningcost=165
+fixed_cost=9833
 
 can_lead_from_rear=1
 bidirectional=0
@@ -169,13 +263,18 @@ way_constraint_permissive[3]=3
 
 min_loading_time=10
 max_loading_time=40
+
 comfort[0]=0
-comfort[1]=74
+comfort[1]=76
+comfort[2]=76
+comfort[3]=88
 
 Constraint[Prev][0]=met-mv-stock-front
 Constraint[Prev][1]=met-mv-stock-centre
 Constraint[Prev][2]=Metropolitan-Motor-Third-Middle
 Constraint[Prev][3]=Metropolitan-Motor-Third-Front
+Constraint[Prev][4]=Metropolitan-Motor-First-Middle
+Constraint[Prev][5]=met-mv-stock-centre-first
 
 Constraint[Next][0]=met-mv-stock-front
 Constraint[Next][1]=Metropolitan-Motor-Third-Front

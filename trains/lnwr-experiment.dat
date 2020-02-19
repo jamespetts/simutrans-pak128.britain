@@ -4,7 +4,7 @@ engine_type=steam
 smoke=Steam
 speed=143
 # Extrapolated
-power=338
+power=330
 # Tractive effort from Wikipedia: http://en.wikipedia.org/wiki/LNWR_Whale_Experiment_Class
 tractive_effort=83
 copyright=James
@@ -22,7 +22,8 @@ weight=66.8
 # Ahrons p. 334
 axle_load=18
 cost=99000000
-runningcost=1300
+runningcost=157
+fixed_cost=122500
 sound=lwalker-br-4mt-tank.wav
 
 liverytype[0]=LNWR-Black
@@ -30,20 +31,20 @@ liverytype[1]=LMS-Standard
 
 Constraint[Next][0]=LNWR-PrinceOfWales-Tender
 
-EmptyImage[E][0]=./images/lnwr-experiment.1.4
-EmptyImage[SE][0]=./images/lnwr-experiment.1.5
-EmptyImage[S][0]=./images/lnwr-experiment.1.6
-EmptyImage[SW][0]=./images/lnwr-experiment.1.7
-EmptyImage[W][0]=./images/lnwr-experiment.1.0
-EmptyImage[NW][0]=./images/lnwr-experiment.1.1
-EmptyImage[N][0]=./images/lnwr-experiment.1.2
-EmptyImage[NE][0]=./images/lnwr-experiment.1.3
+EmptyImage[E][0]=./locomotives/lnwr-experiment_E.0.0
+EmptyImage[SE][0]=./locomotives/lnwr-experiment_SE.0.0
+EmptyImage[S][0]=./locomotives/lnwr-experiment_S.0.0
+EmptyImage[SW][0]=./locomotives/lnwr-experiment_SW.0.0
+EmptyImage[W][0]=./locomotives/lnwr-experiment_W.0.0
+EmptyImage[NW][0]=./locomotives/lnwr-experiment_NW.0.0
+EmptyImage[N][0]=./locomotives/lnwr-experiment_N.0.0
+EmptyImage[NE][0]=./locomotives/lnwr-experiment_NE.0.0
 
-EmptyImage[E][1]=./images/lnwr-experiment-lms.1.4
-EmptyImage[SE][1]=./images/lnwr-experiment-lms.1.5
-EmptyImage[S][1]=./images/lnwr-experiment-lms.1.6
-EmptyImage[SW][1]=./images/lnwr-experiment-lms.1.7
-EmptyImage[W][1]=./images/lnwr-experiment-lms.1.0
-EmptyImage[NW][1]=./images/lnwr-experiment-lms.1.1
-EmptyImage[N][1]=./images/lnwr-experiment-lms.1.2
-EmptyImage[NE][1]=./images/lnwr-experiment-lms.1.3
+EmptyImage[E][1]=./locomotives/lnwr-experiment-lms_E.0.0
+EmptyImage[SE][1]=./locomotives/lnwr-experiment-lms_SE.0.0
+EmptyImage[S][1]=./locomotives/lnwr-experiment-lms_S.0.0
+EmptyImage[SW][1]=./locomotives/lnwr-experiment-lms_SW.0.0
+EmptyImage[W][1]=./locomotives/lnwr-experiment-lms_W.0.0
+EmptyImage[NW][1]=./locomotives/lnwr-experiment-lms_NW.0.0
+EmptyImage[N][1]=./locomotives/lnwr-experiment-lms_N.0.0
+EmptyImage[NE][1]=./locomotives/lnwr-experiment-lms_NE.0.0

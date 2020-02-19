@@ -21,7 +21,8 @@ length=11
 weight=47
 axles=4
 cost=1843000
-runningcost=58
+runningcost=148
+fixed_cost=11280
 sound=x24tohayes-epb.wav
 increase_maintenance_after_years=15
 
@@ -43,32 +44,32 @@ liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue
 liverytype[2]=BR-Large-Logo
 
-EmptyImage[E][0]=./images/br-501-front-g.1.4
-EmptyImage[SE][0]=./images/br-501-front-g.1.5
-EmptyImage[S][0]=./images/br-501-front-g.1.6
-EmptyImage[SW][0]=./images/br-501-front-g.1.7
-EmptyImage[W][0]=./images/br-501-front-g.1.0
-EmptyImage[NW][0]=./images/br-501-front-g.1.1
-EmptyImage[N][0]=./images/br-501-front-g.1.2
-EmptyImage[NE][0]=./images/br-501-front-g.1.3
+EmptyImage[E][0]=./railcars/br-501-front-g_E.0.0
+EmptyImage[SE][0]=./railcars/br-501-front-g_SE.0.0
+EmptyImage[S][0]=./railcars/br-501-front-g_S.0.0
+EmptyImage[SW][0]=./railcars/br-501-front-g_SW.0.0
+EmptyImage[W][0]=./railcars/br-501-front-g_W.0.0
+EmptyImage[NW][0]=./railcars/br-501-front-g_NW.0.0
+EmptyImage[N][0]=./railcars/br-501-front-g_N.0.0
+EmptyImage[NE][0]=./railcars/br-501-front-g_NE.0.0
 
-EmptyImage[E][1]=./images/br-501-front-b.1.4
-EmptyImage[SE][1]=./images/br-501-front-b.1.5
-EmptyImage[S][1]=./images/br-501-front-b.1.6
-EmptyImage[SW][1]=./images/br-501-front-b.1.7
-EmptyImage[W][1]=./images/br-501-front-b.1.0
-EmptyImage[NW][1]=./images/br-501-front-b.1.1
-EmptyImage[N][1]=./images/br-501-front-b.1.2
-EmptyImage[NE][1]=./images/br-501-front-b.1.3
+EmptyImage[E][1]=./railcars/br-501-front-b_E.0.0
+EmptyImage[SE][1]=./railcars/br-501-front-b_SE.0.0
+EmptyImage[S][1]=./railcars/br-501-front-b_S.0.0
+EmptyImage[SW][1]=./railcars/br-501-front-b_SW.0.0
+EmptyImage[W][1]=./railcars/br-501-front-b_W.0.0
+EmptyImage[NW][1]=./railcars/br-501-front-b_NW.0.0
+EmptyImage[N][1]=./railcars/br-501-front-b_N.0.0
+EmptyImage[NE][1]=./railcars/br-501-front-b_NE.0.0
 
-EmptyImage[E][2]=./images/br-501-front-bg.1.4
-EmptyImage[SE][2]=./images/br-501-front-bg.1.5
-EmptyImage[S][2]=./images/br-501-front-bg.1.6
-EmptyImage[SW][2]=./images/br-501-front-bg.1.7
-EmptyImage[W][2]=./images/br-501-front-bg.1.0
-EmptyImage[NW][2]=./images/br-501-front-bg.1.1
-EmptyImage[N][2]=./images/br-501-front-bg.1.2
-EmptyImage[NE][2]=./images/br-501-front-bg.1.3
+EmptyImage[E][2]=./railcars/br-501-front-bg_E.0.0
+EmptyImage[SE][2]=./railcars/br-501-front-bg_SE.0.0
+EmptyImage[S][2]=./railcars/br-501-front-bg_S.0.0
+EmptyImage[SW][2]=./railcars/br-501-front-bg_SW.0.0
+EmptyImage[W][2]=./railcars/br-501-front-bg_W.0.0
+EmptyImage[NW][2]=./railcars/br-501-front-bg_NW.0.0
+EmptyImage[N][2]=./railcars/br-501-front-bg_N.0.0
+EmptyImage[NE][2]=./railcars/br-501-front-bg_NE.0.0
 
 ----
 
@@ -92,7 +93,8 @@ length=11
 weight=29
 axles=4
 cost=1843000
-runningcost=58
+runningcost=0
+fixed_cost=2194
 
 increase_maintenance_after_years=15
 
@@ -113,32 +115,32 @@ liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue
 liverytype[2]=BR-Large-Logo
 
-EmptyImage[E][0]=./images/br-501-trailer-g.1.4
-EmptyImage[SE][0]=./images/br-501-trailer-g.1.5
-EmptyImage[S][0]=./images/br-501-trailer-g.1.6
-EmptyImage[SW][0]=./images/br-501-trailer-g.1.7
-EmptyImage[W][0]=./images/br-501-trailer-g.1.0
-EmptyImage[NW][0]=./images/br-501-trailer-g.1.1
-EmptyImage[N][0]=./images/br-501-trailer-g.1.2
-EmptyImage[NE][0]=./images/br-501-trailer-g.1.3
+EmptyImage[E][0]=./railcars/br-501-trailer-g_E.0.0
+EmptyImage[SE][0]=./railcars/br-501-trailer-g_SE.0.0
+EmptyImage[S][0]=./railcars/br-501-trailer-g_S.0.0
+EmptyImage[SW][0]=./railcars/br-501-trailer-g_SW.0.0
+EmptyImage[W][0]=./railcars/br-501-trailer-g_W.0.0
+EmptyImage[NW][0]=./railcars/br-501-trailer-g_NW.0.0
+EmptyImage[N][0]=./railcars/br-501-trailer-g_N.0.0
+EmptyImage[NE][0]=./railcars/br-501-trailer-g_NE.0.0
 
-EmptyImage[E][1]=./images/br-501-trailer-b.1.4
-EmptyImage[SE][1]=./images/br-501-trailer-b.1.5
-EmptyImage[S][1]=./images/br-501-trailer-b.1.6
-EmptyImage[SW][1]=./images/br-501-trailer-b.1.7
-EmptyImage[W][1]=./images/br-501-trailer-b.1.0
-EmptyImage[NW][1]=./images/br-501-trailer-b.1.1
-EmptyImage[N][1]=./images/br-501-trailer-b.1.2
-EmptyImage[NE][1]=./images/br-501-trailer-b.1.3
+EmptyImage[E][1]=./railcars/br-501-trailer-b_E.0.0
+EmptyImage[SE][1]=./railcars/br-501-trailer-b_SE.0.0
+EmptyImage[S][1]=./railcars/br-501-trailer-b_S.0.0
+EmptyImage[SW][1]=./railcars/br-501-trailer-b_SW.0.0
+EmptyImage[W][1]=./railcars/br-501-trailer-b_W.0.0
+EmptyImage[NW][1]=./railcars/br-501-trailer-b_NW.0.0
+EmptyImage[N][1]=./railcars/br-501-trailer-b_N.0.0
+EmptyImage[NE][1]=./railcars/br-501-trailer-b_NE.0.0
 
-EmptyImage[E][2]=./images/br-501-trailer-bg.1.4
-EmptyImage[SE][2]=./images/br-501-trailer-bg.1.5
-EmptyImage[S][2]=./images/br-501-trailer-bg.1.6
-EmptyImage[SW][2]=./images/br-501-trailer-bg.1.7
-EmptyImage[W][2]=./images/br-501-trailer-bg.1.0
-EmptyImage[NW][2]=./images/br-501-trailer-bg.1.1
-EmptyImage[N][2]=./images/br-501-trailer-bg.1.2
-EmptyImage[NE][2]=./images/br-501-trailer-bg.1.3
+EmptyImage[E][2]=./railcars/br-501-trailer-bg_E.0.0
+EmptyImage[SE][2]=./railcars/br-501-trailer-bg_SE.0.0
+EmptyImage[S][2]=./railcars/br-501-trailer-bg_S.0.0
+EmptyImage[SW][2]=./railcars/br-501-trailer-bg_SW.0.0
+EmptyImage[W][2]=./railcars/br-501-trailer-bg_W.0.0
+EmptyImage[NW][2]=./railcars/br-501-trailer-bg_NW.0.0
+EmptyImage[N][2]=./railcars/br-501-trailer-bg_N.0.0
+EmptyImage[NE][2]=./railcars/br-501-trailer-bg_NE.0.0
 
 ----
 
@@ -162,7 +164,8 @@ length=11
 weight=30
 axles=4
 cost=1843000
-runningcost=58
+runningcost=0
+fixed_cost=2194
 sound=x24tohayes-epb.wav
 increase_maintenance_after_years=15
 
@@ -184,29 +187,29 @@ liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue
 liverytype[2]=BR-Large-Logo
 
-EmptyImage[E][0]=./images/br-501-rear-g.1.4
-EmptyImage[SE][0]=./images/br-501-rear-g.1.5
-EmptyImage[S][0]=./images/br-501-rear-g.1.6
-EmptyImage[SW][0]=./images/br-501-rear-g.1.7
-EmptyImage[W][0]=./images/br-501-rear-g.1.0
-EmptyImage[NW][0]=./images/br-501-rear-g.1.1
-EmptyImage[N][0]=./images/br-501-rear-g.1.2
-EmptyImage[NE][0]=./images/br-501-rear-g.1.3
+EmptyImage[E][0]=./railcars/br-501-rear-g_E.0.0
+EmptyImage[SE][0]=./railcars/br-501-rear-g_SE.0.0
+EmptyImage[S][0]=./railcars/br-501-rear-g_S.0.0
+EmptyImage[SW][0]=./railcars/br-501-rear-g_SW.0.0
+EmptyImage[W][0]=./railcars/br-501-rear-g_W.0.0
+EmptyImage[NW][0]=./railcars/br-501-rear-g_NW.0.0
+EmptyImage[N][0]=./railcars/br-501-rear-g_N.0.0
+EmptyImage[NE][0]=./railcars/br-501-rear-g_NE.0.0
 
-EmptyImage[E][1]=./images/br-501-rear-b.1.4
-EmptyImage[SE][1]=./images/br-501-rear-b.1.5
-EmptyImage[S][1]=./images/br-501-rear-b.1.6
-EmptyImage[SW][1]=./images/br-501-rear-b.1.7
-EmptyImage[W][1]=./images/br-501-rear-b.1.0
-EmptyImage[NW][1]=./images/br-501-rear-b.1.1
-EmptyImage[N][1]=./images/br-501-rear-b.1.2
-EmptyImage[NE][1]=./images/br-501-rear-b.1.3
+EmptyImage[E][1]=./railcars/br-501-rear-b_E.0.0
+EmptyImage[SE][1]=./railcars/br-501-rear-b_SE.0.0
+EmptyImage[S][1]=./railcars/br-501-rear-b_S.0.0
+EmptyImage[SW][1]=./railcars/br-501-rear-b_SW.0.0
+EmptyImage[W][1]=./railcars/br-501-rear-b_W.0.0
+EmptyImage[NW][1]=./railcars/br-501-rear-b_NW.0.0
+EmptyImage[N][1]=./railcars/br-501-rear-b_N.0.0
+EmptyImage[NE][1]=./railcars/br-501-rear-b_NE.0.0
 
-EmptyImage[E][2]=./images/br-501-rear-bg.1.4
-EmptyImage[SE][2]=./images/br-501-rear-bg.1.5
-EmptyImage[S][2]=./images/br-501-rear-bg.1.6
-EmptyImage[SW][2]=./images/br-501-rear-bg.1.7
-EmptyImage[W][2]=./images/br-501-rear-bg.1.0
-EmptyImage[NW][2]=./images/br-501-rear-bg.1.1
-EmptyImage[N][2]=./images/br-501-rear-bg.1.2
-EmptyImage[NE][2]=./images/br-501-rear-bg.1.3
+EmptyImage[E][2]=./railcars/br-501-rear-bg_E.0.0
+EmptyImage[SE][2]=./railcars/br-501-rear-bg_SE.0.0
+EmptyImage[S][2]=./railcars/br-501-rear-bg_S.0.0
+EmptyImage[SW][2]=./railcars/br-501-rear-bg_SW.0.0
+EmptyImage[W][2]=./railcars/br-501-rear-bg_W.0.0
+EmptyImage[NW][2]=./railcars/br-501-rear-bg_NW.0.0
+EmptyImage[N][2]=./railcars/br-501-rear-bg_N.0.0
+EmptyImage[NE][2]=./railcars/br-501-rear-bg_NE.0.0

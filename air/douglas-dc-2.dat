@@ -16,7 +16,8 @@ payload[4]=14
 weight=7
 #length=8
 cost=2500000
-runningcost=700
+runningcost=47
+fixed_cost=51736
 intro_year=1934
 intro_month=5
 

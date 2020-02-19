@@ -18,7 +18,8 @@ length=6
 weight=33
 axles=4
 cost=884000
-runningcost=124
+runningcost=90
+fixed_cost=10921
 sound=lul-1938-stock-ff3170.wav
 
 can_lead_from_rear=0

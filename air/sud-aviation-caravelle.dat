@@ -23,7 +23,8 @@ weight=22.2
 cost=18500000
 upgrade_price=5000
 # 5,000 lb/hour at 400kt (741km/h)
-runningcost=2800
+runningcost=128
+fixed_cost=62847
 intro_year=1959
 intro_month=4
 retire_year=1968
@@ -79,7 +80,8 @@ weight=22.2
 cost=18500000
 upgrade_price=5000
 # 5,000 lb/hour at 400kt (741km/h)
-runningcost=2800
+runningcost=128
+fixed_cost=62847
 intro_year=1959
 intro_month=4
 retire_year=1968

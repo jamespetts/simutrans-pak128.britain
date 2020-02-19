@@ -61,6 +61,7 @@ probability_to_spawn=25
 production_per_field[0]=1
 max_fields=1036
 min_fields=195
+start_fields=365
 has_snow[0]=1
 spawn_weight[0]=100
 upgrade[0]=ArableFarm1840
@@ -132,6 +133,7 @@ probability_to_spawn=30
 production_per_field[0]=1
 max_fields=1942
 min_fields=365
+start_fields=389
 has_snow[0]=1
 upgrade[0]=ArableFarm1910
 upgrade[1]=ArableFarm1945
@@ -257,6 +259,7 @@ probability_to_spawn=30
 production_per_field[0]=1
 max_fields=2200
 min_fields=413
+start_fields=612
 has_snow[0]=1
 upgrade[0]=ArableFarm1975
 --------------------
@@ -317,6 +320,7 @@ probability_to_spawn=25
 production_per_field[0]=1
 max_fields=3262
 min_fields=612
+start_fields=1024
 has_snow[0]=1
 
 

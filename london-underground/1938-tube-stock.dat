@@ -20,7 +20,8 @@ overcrowded_capacity=138
 weight=26
 axles=4
 cost=1000000
-runningcost=60
+runningcost=88
+fixed_cost=6833
 sound=lul-1938-stock-ff3170.wav
 upgrade[0]=BR-Class483Front
 
@@ -71,7 +72,8 @@ overcrowded_capacity=130
 weight=25
 axles=4
 cost=800000
-runningcost=60
+runningcost=88
+fixed_cost=6667
 
 upgrade[0]=BR-Class483NDM
 
@@ -118,7 +120,8 @@ overcrowded_capacity=150
 
 weight=18
 cost=400000
-runningcost=20
+runningcost=0
+fixed_cost=476
 
 upgrade[0]=BR-Class483Trailer
 
@@ -168,7 +171,8 @@ overcrowded_capacity=138
 weight=26
 axles=4
 cost=1000000
-runningcost=60
+runningcost=88
+fixed_cost=6833
 sound=lul-1938-stock-ff3170.wav
 upgrade[0]=BR-Class483Rear
 

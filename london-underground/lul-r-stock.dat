@@ -23,7 +23,8 @@ overcrowded_capacity=92
 weight=35
 axles=4
 cost=1750000
-runningcost=120
+runningcost=44
+fixed_cost=7458
 sound=lul-1938-stock-ff3170.wav
 
 can_lead_from_rear=1
@@ -85,7 +86,8 @@ overcrowded_capacity=102
 weight=33
 axles=4
 cost=700000
-runningcost=35
+runningcost=44
+fixed_cost=583
 
 bidirectional=0
 way_constraint_permissive[3]=3
@@ -146,7 +148,8 @@ overcrowded_capacity=92
 weight=35
 axles=4
 cost=700000
-runningcost=35
+runningcost=44
+fixed_cost=6583
 sound=lul-1938-stock-ff3170.wav
 
 can_lead_from_rear=1

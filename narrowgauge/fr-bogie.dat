@@ -1,5 +1,5 @@
 # See: http://www.festipedia.org.uk/wiki/Carriage_15
-
+# These carriages were all tricomposites
 obj=vehicle
 name=FR-bogie-unfitted
 speed=60
@@ -11,18 +11,25 @@ retire_month=10
 waytype=narrowgauge_track
 freight=Passagiere
 payload[0]=0
-payload[1]=42
-length=6
+payload[1]=32
+payload[2]=16
+payload[3]=6
+length=5
 rolling_resistance=19
 brake_force=0
 
-weight=6
+# https://www.festipedia.org.uk/wiki/Carriage_16
+weight=6.1
 axles=4
 cost=520000
-runningcost=19
+runningcost=0
+fixed_cost=619
 
 comfort[0]=0
 comfort[1]=37
+comfort[2]=40
+comfort[3]=83
+
 upgrade[0]=FR-bogie-fitted
 
 can_lead_from_rear=0
@@ -31,7 +38,8 @@ bidirectional=1
 min_loading_time=17
 max_loading_time=47
 
-Constraint[next][0]=any
+Constraint[Prev][0]=any
+Constraint[Next][0]=any
 
 liverytype[0]=FR-Royal-Purple
 liverytype[1]=FR-Royal-Purple-Cream
@@ -40,59 +48,59 @@ liverytype[3]=FR-Green-Cream
 liverytype[4]=FR-Cherry-Red
 liverytype[5]=FR-Red-Cream
 
-EmptyImage[E][0]=./images/fr-bogie-royal-purple.1.0,-10,-5
-EmptyImage[SE][0]=./images/fr-bogie-royal-purple.1.1,0,-5
-EmptyImage[S][0]=./images/fr-bogie-royal-purple.1.2,10,-5
-EmptyImage[SW][0]=./images/fr-bogie-royal-purple.1.3,10,0
-EmptyImage[W][0]=./images/fr-bogie-royal-purple.1.4,10,5
-EmptyImage[NW][0]=./images/fr-bogie-royal-purple.1.5,0,5
-EmptyImage[N][0]=./images/fr-bogie-royal-purple.1.6,-10,5
-EmptyImage[NE][0]=./images/fr-bogie-royal-purple.1.7,-10,0
+EmptyImage[W][0]=./images/fr-bogie-royal-purple_E.0.0
+EmptyImage[NW][0]=./images/fr-bogie-royal-purple_SE.0.0
+EmptyImage[N][0]=./images/fr-bogie-royal-purple_S.0.0
+EmptyImage[NE][0]=./images/fr-bogie-royal-purple_SW.0.0
+EmptyImage[E][0]=./images/fr-bogie-royal-purple_W.0.0
+EmptyImage[SE][0]=./images/fr-bogie-royal-purple_NW.0.0
+EmptyImage[S][0]=./images/fr-bogie-royal-purple_N.0.0
+EmptyImage[SW][0]=./images/fr-bogie-royal-purple_NE.0.0
 
-EmptyImage[E][1]=./images/fr-bogie-royal-purple-cream.1.0,-10,-5
-EmptyImage[SE][1]=./images/fr-bogie-royal-purple-cream.1.1,0,-5
-EmptyImage[S][1]=./images/fr-bogie-royal-purple-cream.1.2,10,-5
-EmptyImage[SW][1]=./images/fr-bogie-royal-purple-cream.1.3,10,0
-EmptyImage[W][1]=./images/fr-bogie-royal-purple-cream.1.4,10,5
-EmptyImage[NW][1]=./images/fr-bogie-royal-purple-cream.1.5,0,5
-EmptyImage[N][1]=./images/fr-bogie-royal-purple-cream.1.6,-10,5
-EmptyImage[NE][1]=./images/fr-bogie-royal-purple-cream.1.7,-10,0
+EmptyImage[W][1]=./images/fr-bogie-royal-purple-cream_E.0.0
+EmptyImage[NW][1]=./images/fr-bogie-royal-purple-cream_SE.0.0
+EmptyImage[N][1]=./images/fr-bogie-royal-purple-cream_S.0.0
+EmptyImage[NE][1]=./images/fr-bogie-royal-purple-cream_SW.0.0
+EmptyImage[E][1]=./images/fr-bogie-royal-purple-cream_W.0.0
+EmptyImage[SE][1]=./images/fr-bogie-royal-purple-cream_NW.0.0
+EmptyImage[S][1]=./images/fr-bogie-royal-purple-cream_N.0.0
+EmptyImage[SW][1]=./images/fr-bogie-royal-purple-cream_NE.0.0
 
-EmptyImage[E][2]=./images/fr-bogie-col-stephens.1.0,-10,-5
-EmptyImage[SE][2]=./images/fr-bogie-col-stephens.1.1,0,-5
-EmptyImage[S][2]=./images/fr-bogie-col-stephens.1.2,10,-5
-EmptyImage[SW][2]=./images/fr-bogie-col-stephens.1.3,10,0
-EmptyImage[W][2]=./images/fr-bogie-col-stephens.1.4,10,5
-EmptyImage[NW][2]=./images/fr-bogie-col-stephens.1.5,0,5
-EmptyImage[N][2]=./images/fr-bogie-col-stephens.1.6,-10,5
-EmptyImage[NE][2]=./images/fr-bogie-col-stephens.1.7,-10,0
+EmptyImage[W][2]=./images/fr-bogie-col-stephens_E.0.0
+EmptyImage[NW][2]=./images/fr-bogie-col-stephens_SE.0.0
+EmptyImage[N][2]=./images/fr-bogie-col-stephens_S.0.0
+EmptyImage[NE][2]=./images/fr-bogie-col-stephens_SW.0.0
+EmptyImage[E][2]=./images/fr-bogie-col-stephens_W.0.0
+EmptyImage[SE][2]=./images/fr-bogie-col-stephens_NW.0.0
+EmptyImage[S][2]=./images/fr-bogie-col-stephens_N.0.0
+EmptyImage[SW][2]=./images/fr-bogie-col-stephens_NE.0.0
 
-EmptyImage[E][3]=./images/fr-bogie-green-cream.1.0,-10,-5
-EmptyImage[SE][3]=./images/fr-bogie-green-cream.1.1,0,-5
-EmptyImage[S][3]=./images/fr-bogie-green-cream.1.2,10,-5
-EmptyImage[SW][3]=./images/fr-bogie-green-cream.1.3,10,0
-EmptyImage[W][3]=./images/fr-bogie-green-cream.1.4,10,5
-EmptyImage[NW][3]=./images/fr-bogie-green-cream.1.5,0,5
-EmptyImage[N][3]=./images/fr-bogie-green-cream.1.6,-10,5
-EmptyImage[NE][3]=./images/fr-bogie-green-cream.1.7,-10,0
+EmptyImage[W][3]=./images/fr-bogie-green-cream_E.0.0
+EmptyImage[NW][3]=./images/fr-bogie-green-cream_SE.0.0
+EmptyImage[N][3]=./images/fr-bogie-green-cream_S.0.0
+EmptyImage[NE][3]=./images/fr-bogie-green-cream_SW.0.0
+EmptyImage[E][3]=./images/fr-bogie-green-cream_W.0.0
+EmptyImage[SE][3]=./images/fr-bogie-green-cream_NW.0.0
+EmptyImage[S][3]=./images/fr-bogie-green-cream_N.0.0
+EmptyImage[SW][3]=./images/fr-bogie-green-cream_NE.0.0
 
-EmptyImage[E][4]=./images/fr-bogie-cherry-red.1.0,-10,-5
-EmptyImage[SE][4]=./images/fr-bogie-cherry-red.1.1,0,-5
-EmptyImage[S][4]=./images/fr-bogie-cherry-red.1.2,10,-5
-EmptyImage[SW][4]=./images/fr-bogie-cherry-red.1.3,10,0
-EmptyImage[W][4]=./images/fr-bogie-cherry-red.1.4,10,5
-EmptyImage[NW][4]=./images/fr-bogie-cherry-red.1.5,0,5
-EmptyImage[N][4]=./images/fr-bogie-cherry-red.1.6,-10,5
-EmptyImage[NE][4]=./images/fr-bogie-cherry-red.1.7,-10,0
+EmptyImage[W][4]=./images/fr-bogie-cherry-red_E.0.0
+EmptyImage[NW][4]=./images/fr-bogie-cherry-red_SE.0.0
+EmptyImage[N][4]=./images/fr-bogie-cherry-red_S.0.0
+EmptyImage[NE][4]=./images/fr-bogie-cherry-red_SW.0.0
+EmptyImage[E][4]=./images/fr-bogie-cherry-red_W.0.0
+EmptyImage[SE][4]=./images/fr-bogie-cherry-red_NW.0.0
+EmptyImage[S][4]=./images/fr-bogie-cherry-red_N.0.0
+EmptyImage[SW][4]=./images/fr-bogie-cherry-red_NE.0.0
 
-EmptyImage[E][5]=./images/fr-bogie-red-cream.1.0,-10,-5
-EmptyImage[SE][5]=./images/fr-bogie-red-cream.1.1,0,-5
-EmptyImage[S][5]=./images/fr-bogie-red-cream.1.2,10,-5
-EmptyImage[SW][5]=./images/fr-bogie-red-cream.1.3,10,0
-EmptyImage[W][5]=./images/fr-bogie-red-cream.1.4,10,5
-EmptyImage[NW][5]=./images/fr-bogie-red-cream.1.5,0,5
-EmptyImage[N][5]=./images/fr-bogie-red-cream.1.6,-10,5
-EmptyImage[NE][5]=./images/fr-bogie-red-cream.1.7,-10,0
+EmptyImage[W][5]=./images/fr-bogie-red-cream_E.0.0
+EmptyImage[NW][5]=./images/fr-bogie-red-cream_SE.0.0
+EmptyImage[N][5]=./images/fr-bogie-red-cream_S.0.0
+EmptyImage[NE][5]=./images/fr-bogie-red-cream_SW.0.0
+EmptyImage[E][5]=./images/fr-bogie-red-cream_W.0.0
+EmptyImage[SE][5]=./images/fr-bogie-red-cream_NW.0.0
+EmptyImage[S][5]=./images/fr-bogie-red-cream_N.0.0
+EmptyImage[SW][5]=./images/fr-bogie-red-cream_NE.0.0
 
 ----
 
@@ -107,17 +115,23 @@ retire_month=6
 waytype=narrowgauge_track
 freight=Passagiere
 payload[0]=0
-payload[1]=42
-length=6
+payload[1]=32
+payload[2]=16
+payload[3]=6
+length=5
 rolling_resistance=19
 
-weight=6
+# https://www.festipedia.org.uk/wiki/Carriage_16
+weight=6.1
 cost=560000
 upgrade_price=26000
-runningcost=21
+runningcost=0
+fixed_cost=5033
 
 comfort[0]=0
 comfort[1]=37
+comfort[2]=40
+comfort[3]=83
 available_only_as_upgrade=0
 
 can_lead_from_rear=0
@@ -126,7 +140,8 @@ bidirectional=1
 min_loading_time=15
 max_loading_time=55
 
-Constraint[next][0]=any
+Constraint[Prev][0]=any
+Constraint[Next][0]=any
 
 liverytype[0]=FR-Royal-Purple
 liverytype[1]=FR-Royal-Purple-Cream
@@ -135,56 +150,56 @@ liverytype[3]=FR-Green-Cream
 liverytype[4]=FR-Cherry-Red
 liverytype[5]=FR-Red-Cream
 
-EmptyImage[E][0]=./images/fr-bogie-royal-purple.1.0,-10,-5
-EmptyImage[SE][0]=./images/fr-bogie-royal-purple.1.1,0,-5
-EmptyImage[S][0]=./images/fr-bogie-royal-purple.1.2,10,-5
-EmptyImage[SW][0]=./images/fr-bogie-royal-purple.1.3,10,0
-EmptyImage[W][0]=./images/fr-bogie-royal-purple.1.4,10,5
-EmptyImage[NW][0]=./images/fr-bogie-royal-purple.1.5,0,5
-EmptyImage[N][0]=./images/fr-bogie-royal-purple.1.6,-10,5
-EmptyImage[NE][0]=./images/fr-bogie-royal-purple.1.7,-10,0
+EmptyImage[W][0]=./images/fr-bogie-royal-purple_E.0.0
+EmptyImage[NW][0]=./images/fr-bogie-royal-purple_SE.0.0
+EmptyImage[N][0]=./images/fr-bogie-royal-purple_S.0.0
+EmptyImage[NE][0]=./images/fr-bogie-royal-purple_SW.0.0
+EmptyImage[E][0]=./images/fr-bogie-royal-purple_W.0.0
+EmptyImage[SE][0]=./images/fr-bogie-royal-purple_NW.0.0
+EmptyImage[S][0]=./images/fr-bogie-royal-purple_N.0.0
+EmptyImage[SW][0]=./images/fr-bogie-royal-purple_NE.0.0
 
-EmptyImage[E][1]=./images/fr-bogie-royal-purple-cream.1.0,-10,-5
-EmptyImage[SE][1]=./images/fr-bogie-royal-purple-cream.1.1,0,-5
-EmptyImage[S][1]=./images/fr-bogie-royal-purple-cream.1.2,10,-5
-EmptyImage[SW][1]=./images/fr-bogie-royal-purple-cream.1.3,10,0
-EmptyImage[W][1]=./images/fr-bogie-royal-purple-cream.1.4,10,5
-EmptyImage[NW][1]=./images/fr-bogie-royal-purple-cream.1.5,0,5
-EmptyImage[N][1]=./images/fr-bogie-royal-purple-cream.1.6,-10,5
-EmptyImage[NE][1]=./images/fr-bogie-royal-purple-cream.1.7,-10,0
+EmptyImage[W][1]=./images/fr-bogie-royal-purple-cream_E.0.0
+EmptyImage[NW][1]=./images/fr-bogie-royal-purple-cream_SE.0.0
+EmptyImage[N][1]=./images/fr-bogie-royal-purple-cream_S.0.0
+EmptyImage[NE][1]=./images/fr-bogie-royal-purple-cream_SW.0.0
+EmptyImage[E][1]=./images/fr-bogie-royal-purple-cream_W.0.0
+EmptyImage[SE][1]=./images/fr-bogie-royal-purple-cream_NW.0.0
+EmptyImage[S][1]=./images/fr-bogie-royal-purple-cream_N.0.0
+EmptyImage[SW][1]=./images/fr-bogie-royal-purple-cream_NE.0.0
 
-EmptyImage[E][2]=./images/fr-bogie-col-stephens.1.0,-10,-5
-EmptyImage[SE][2]=./images/fr-bogie-col-stephens.1.1,0,-5
-EmptyImage[S][2]=./images/fr-bogie-col-stephens.1.2,10,-5
-EmptyImage[SW][2]=./images/fr-bogie-col-stephens.1.3,10,0
-EmptyImage[W][2]=./images/fr-bogie-col-stephens.1.4,10,5
-EmptyImage[NW][2]=./images/fr-bogie-col-stephens.1.5,0,5
-EmptyImage[N][2]=./images/fr-bogie-col-stephens.1.6,-10,5
-EmptyImage[NE][2]=./images/fr-bogie-col-stephens.1.7,-10,0
+EmptyImage[W][2]=./images/fr-bogie-col-stephens_E.0.0
+EmptyImage[NW][2]=./images/fr-bogie-col-stephens_SE.0.0
+EmptyImage[N][2]=./images/fr-bogie-col-stephens_S.0.0
+EmptyImage[NE][2]=./images/fr-bogie-col-stephens_SW.0.0
+EmptyImage[E][2]=./images/fr-bogie-col-stephens_W.0.0
+EmptyImage[SE][2]=./images/fr-bogie-col-stephens_NW.0.0
+EmptyImage[S][2]=./images/fr-bogie-col-stephens_N.0.0
+EmptyImage[SW][2]=./images/fr-bogie-col-stephens_NE.0.0
 
-EmptyImage[E][3]=./images/fr-bogie-green-cream.1.0,-10,-5
-EmptyImage[SE][3]=./images/fr-bogie-green-cream.1.1,0,-5
-EmptyImage[S][3]=./images/fr-bogie-green-cream.1.2,10,-5
-EmptyImage[SW][3]=./images/fr-bogie-green-cream.1.3,10,0
-EmptyImage[W][3]=./images/fr-bogie-green-cream.1.4,10,5
-EmptyImage[NW][3]=./images/fr-bogie-green-cream.1.5,0,5
-EmptyImage[N][3]=./images/fr-bogie-green-cream.1.6,-10,5
-EmptyImage[NE][3]=./images/fr-bogie-green-cream.1.7,-10,0
+EmptyImage[W][3]=./images/fr-bogie-green-cream_E.0.0
+EmptyImage[NW][3]=./images/fr-bogie-green-cream_SE.0.0
+EmptyImage[N][3]=./images/fr-bogie-green-cream_S.0.0
+EmptyImage[NE][3]=./images/fr-bogie-green-cream_SW.0.0
+EmptyImage[E][3]=./images/fr-bogie-green-cream_W.0.0
+EmptyImage[SE][3]=./images/fr-bogie-green-cream_NW.0.0
+EmptyImage[S][3]=./images/fr-bogie-green-cream_N.0.0
+EmptyImage[SW][3]=./images/fr-bogie-green-cream_NE.0.0
 
-EmptyImage[E][4]=./images/fr-bogie-cherry-red.1.0,-10,-5
-EmptyImage[SE][4]=./images/fr-bogie-cherry-red.1.1,0,-5
-EmptyImage[S][4]=./images/fr-bogie-cherry-red.1.2,10,-5
-EmptyImage[SW][4]=./images/fr-bogie-cherry-red.1.3,10,0
-EmptyImage[W][4]=./images/fr-bogie-cherry-red.1.4,10,5
-EmptyImage[NW][4]=./images/fr-bogie-cherry-red.1.5,0,5
-EmptyImage[N][4]=./images/fr-bogie-cherry-red.1.6,-10,5
-EmptyImage[NE][4]=./images/fr-bogie-cherry-red.1.7,-10,0
+EmptyImage[W][4]=./images/fr-bogie-cherry-red_E.0.0
+EmptyImage[NW][4]=./images/fr-bogie-cherry-red_SE.0.0
+EmptyImage[N][4]=./images/fr-bogie-cherry-red_S.0.0
+EmptyImage[NE][4]=./images/fr-bogie-cherry-red_SW.0.0
+EmptyImage[E][4]=./images/fr-bogie-cherry-red_W.0.0
+EmptyImage[SE][4]=./images/fr-bogie-cherry-red_NW.0.0
+EmptyImage[S][4]=./images/fr-bogie-cherry-red_N.0.0
+EmptyImage[SW][4]=./images/fr-bogie-cherry-red_NE.0.0
 
-EmptyImage[E][5]=./images/fr-bogie-red-cream.1.0,-10,-5
-EmptyImage[SE][5]=./images/fr-bogie-red-cream.1.1,0,-5
-EmptyImage[S][5]=./images/fr-bogie-red-cream.1.2,10,-5
-EmptyImage[SW][5]=./images/fr-bogie-red-cream.1.3,10,0
-EmptyImage[W][5]=./images/fr-bogie-red-cream.1.4,10,5
-EmptyImage[NW][5]=./images/fr-bogie-red-cream.1.5,0,5
-EmptyImage[N][5]=./images/fr-bogie-red-cream.1.6,-10,5
-EmptyImage[NE][5]=./images/fr-bogie-red-cream.1.7,-10,0
+EmptyImage[W][5]=./images/fr-bogie-red-cream_E.0.0
+EmptyImage[NW][5]=./images/fr-bogie-red-cream_SE.0.0
+EmptyImage[N][5]=./images/fr-bogie-red-cream_S.0.0
+EmptyImage[NE][5]=./images/fr-bogie-red-cream_SW.0.0
+EmptyImage[E][5]=./images/fr-bogie-red-cream_W.0.0
+EmptyImage[SE][5]=./images/fr-bogie-red-cream_NW.0.0
+EmptyImage[S][5]=./images/fr-bogie-red-cream_N.0.0
+EmptyImage[SW][5]=./images/fr-bogie-red-cream_NE.0.0

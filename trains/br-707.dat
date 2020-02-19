@@ -21,7 +21,8 @@ rolling_resistance=13
 weight=36
 axles=4
 cost=1008000
-runningcost=132
+runningcost=170
+fixed_cost=6840
 sound=panos-g-class-375.wav
 
 min_loading_time=17
@@ -38,14 +39,14 @@ Constraint[Prev][1]=none
 
 Constraint[Next][0]=BR-707MiddleTrailer
 
-EmptyImage[E]=./images/br-707-front-swt.1.4
-EmptyImage[SE]=./images/br-707-front-swt.1.5
-EmptyImage[S]=./images/br-707-front-swt.1.6
-EmptyImage[SW]=./images/br-707-front-swt.1.7
-EmptyImage[W]=./images/br-707-front-swt.1.0
-EmptyImage[NW]=./images/br-707-front-swt.1.1
-EmptyImage[N]=./images/br-707-front-swt.1.2
-EmptyImage[NE]=./images/br-707-front-swt.1.3
+EmptyImage[E]=./railcars/br-707-front-swt.1.4
+EmptyImage[SE]=./railcars/br-707-front-swt.1.5
+EmptyImage[S]=./railcars/br-707-front-swt.1.6
+EmptyImage[SW]=./railcars/br-707-front-swt.1.7
+EmptyImage[W]=./railcars/br-707-front-swt.1.0
+EmptyImage[NW]=./railcars/br-707-front-swt.1.1
+EmptyImage[N]=./railcars/br-707-front-swt.1.2
+EmptyImage[NE]=./railcars/br-707-front-swt.1.3
 
 ---
 
@@ -71,7 +72,8 @@ rolling_resistance=13
 weight=36
 axles=4
 cost=1512000
-runningcost=132
+runningcost=170
+fixed_cost=1260
 
 min_loading_time=17
 max_loading_time=55
@@ -88,14 +90,14 @@ Constraint[Prev][1]=BR-707MiddlePower
 Constraint[Next][0]=BR-707MiddlePower
 Constraint[Next][1]=BR-707MiddleTrailer
 
-EmptyImage[E]=./images/br-707-middle-swt.1.4
-EmptyImage[SE]=./images/br-707-middle-swt.1.5
-EmptyImage[S]=./images/br-707-middle-swt.1.6
-EmptyImage[SW]=./images/br-707-middle-swt.1.7
-EmptyImage[W]=./images/br-707-middle-swt.1.0
-EmptyImage[NW]=./images/br-707-middle-swt.1.1
-EmptyImage[N]=./images/br-707-middle-swt.1.2
-EmptyImage[NE]=./images/br-707-middle-swt.1.3
+EmptyImage[E]=./railcars/br-707-middle-swt.1.4
+EmptyImage[SE]=./railcars/br-707-middle-swt.1.5
+EmptyImage[S]=./railcars/br-707-middle-swt.1.6
+EmptyImage[SW]=./railcars/br-707-middle-swt.1.7
+EmptyImage[W]=./railcars/br-707-middle-swt.1.0
+EmptyImage[NW]=./railcars/br-707-middle-swt.1.1
+EmptyImage[N]=./railcars/br-707-middle-swt.1.2
+EmptyImage[NE]=./railcars/br-707-middle-swt.1.3
 
 ---
 
@@ -118,7 +120,8 @@ rolling_resistance=13
 weight=30
 axles=4
 cost=1012000
-runningcost=80
+runningcost=0
+fixed_cost=2108
 
 min_loading_time=17
 max_loading_time=55
@@ -137,14 +140,14 @@ Constraint[Next][0]=BR-707MiddlePower
 Constraint[Next][1]=BR-707MiddleTrailer
 Constraint[Next][2]=BR-707Rear
 
-EmptyImage[E]=./images/br-707-middle-swt.1.4
-EmptyImage[SE]=./images/br-707-middle-swt.1.5
-EmptyImage[S]=./images/br-707-middle-swt.1.6
-EmptyImage[SW]=./images/br-707-middle-swt.1.7
-EmptyImage[W]=./images/br-707-middle-swt.1.0
-EmptyImage[NW]=./images/br-707-middle-swt.1.1
-EmptyImage[N]=./images/br-707-middle-swt.1.2
-EmptyImage[NE]=./images/br-707-middle-swt.1.3
+EmptyImage[E]=./railcars/br-707-middle-swt.1.4
+EmptyImage[SE]=./railcars/br-707-middle-swt.1.5
+EmptyImage[S]=./railcars/br-707-middle-swt.1.6
+EmptyImage[SW]=./railcars/br-707-middle-swt.1.7
+EmptyImage[W]=./railcars/br-707-middle-swt.1.0
+EmptyImage[NW]=./railcars/br-707-middle-swt.1.1
+EmptyImage[N]=./railcars/br-707-middle-swt.1.2
+EmptyImage[NE]=./railcars/br-707-middle-swt.1.3
 
 ---
 
@@ -170,7 +173,8 @@ rolling_resistance=13
 weight=36
 axles=4
 cost=1008000
-runningcost=132
+runningcost=170
+fixed_cost=6840
 sound=panos-g-class-375.wav
 
 min_loading_time=17
@@ -187,11 +191,11 @@ Constraint[Prev][0]=BR-707MiddleTrailer
 Constraint[Next][0]=BR-707Front
 Constraint[Next][1]=none
 
-EmptyImage[E]=./images/br-707-rear-swt.1.4
-EmptyImage[SE]=./images/br-707-rear-swt.1.5
-EmptyImage[S]=./images/br-707-rear-swt.1.6
-EmptyImage[SW]=./images/br-707-rear-swt.1.7
-EmptyImage[W]=./images/br-707-rear-swt.1.0
-EmptyImage[NW]=./images/br-707-rear-swt.1.1
-EmptyImage[N]=./images/br-707-rear-swt.1.2
-EmptyImage[NE]=./images/br-707-rear-swt.1.3
+EmptyImage[E]=./railcars/br-707-rear-swt.1.4
+EmptyImage[SE]=./railcars/br-707-rear-swt.1.5
+EmptyImage[S]=./railcars/br-707-rear-swt.1.6
+EmptyImage[SW]=./railcars/br-707-rear-swt.1.7
+EmptyImage[W]=./railcars/br-707-rear-swt.1.0
+EmptyImage[NW]=./railcars/br-707-rear-swt.1.1
+EmptyImage[N]=./railcars/br-707-rear-swt.1.2
+EmptyImage[NE]=./railcars/br-707-rear-swt.1.3

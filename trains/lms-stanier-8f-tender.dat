@@ -17,6 +17,7 @@ weight=53
 axles=3
 cost=0
 runningcost=0
+fixed_cost=0
 
 increase_maintenance_after_years=16
 years_before_maintenance_max_reached=9
@@ -26,21 +27,21 @@ Constraint[Prev][0]=LMS-Stanier-8F
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
 
-EmptyImage[E][0]=./images/lms-stanier-8f-tender.1.4
-EmptyImage[SE][0]=./images/lms-stanier-8f-tender.1.5
-EmptyImage[S][0]=./images/lms-stanier-8f-tender.1.6
-EmptyImage[SW][0]=./images/lms-stanier-8f-tender.1.7
-EmptyImage[W][0]=./images/lms-stanier-8f-tender.1.0
-EmptyImage[NW][0]=./images/lms-stanier-8f-tender.1.1
-EmptyImage[N][0]=./images/lms-stanier-8f-tender.1.2
-EmptyImage[NE][0]=./images/lms-stanier-8f-tender.1.3
+EmptyImage[E][0]=./locomotives/lms-stanier-8f-tender_E.0.0
+EmptyImage[SE][0]=./locomotives/lms-stanier-8f-tender_SE.0.0
+EmptyImage[S][0]=./locomotives/lms-stanier-8f-tender_S.0.0
+EmptyImage[SW][0]=./locomotives/lms-stanier-8f-tender_SW.0.0
+EmptyImage[W][0]=./locomotives/lms-stanier-8f-tender_W.0.0
+EmptyImage[NW][0]=./locomotives/lms-stanier-8f-tender_NW.0.0
+EmptyImage[N][0]=./locomotives/lms-stanier-8f-tender_N.0.0
+EmptyImage[NE][0]=./locomotives/lms-stanier-8f-tender_NE.0.0
 
-EmptyImage[E][1]=./images/lms-stanier-8f-tender-br.1.4
-EmptyImage[SE][1]=./images/lms-stanier-8f-tender-br.1.5
-EmptyImage[S][1]=./images/lms-stanier-8f-tender-br.1.6
-EmptyImage[SW][1]=./images/lms-stanier-8f-tender-br.1.7
-EmptyImage[W][1]=./images/lms-stanier-8f-tender-br.1.0
-EmptyImage[NW][1]=./images/lms-stanier-8f-tender-br.1.1
-EmptyImage[N][1]=./images/lms-stanier-8f-tender-br.1.2
-EmptyImage[NE][1]=./images/lms-stanier-8f-tender-br.1.3
+EmptyImage[E][1]=./locomotives/lms-stanier-8f-tender-br_E.0.0
+EmptyImage[SE][1]=./locomotives/lms-stanier-8f-tender-br_SE.0.0
+EmptyImage[S][1]=./locomotives/lms-stanier-8f-tender-br_S.0.0
+EmptyImage[SW][1]=./locomotives/lms-stanier-8f-tender-br_SW.0.0
+EmptyImage[W][1]=./locomotives/lms-stanier-8f-tender-br_W.0.0
+EmptyImage[NW][1]=./locomotives/lms-stanier-8f-tender-br_NW.0.0
+EmptyImage[N][1]=./locomotives/lms-stanier-8f-tender-br_N.0.0
+EmptyImage[NE][1]=./locomotives/lms-stanier-8f-tender-br_NE.0.0
 

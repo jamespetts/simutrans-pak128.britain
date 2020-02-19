@@ -25,20 +25,20 @@ rolling_resistance=20
 weight=10.0
 axles=3
 cost=6200000
-runningcost=11
-fixed_cost=1150
+runningcost=46
+fixed_cost=24611
 sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=royal-george-tender
 
-EmptyImage[E]=./images/royal-george_E.0.0
-EmptyImage[SE]=./images/royal-george_SE.0.0
-EmptyImage[S]=./images/royal-george_S.0.0
-EmptyImage[SW]=./images/royal-george_SW.0.0
-EmptyImage[W]=./images/royal-george_W.0.0
-EmptyImage[NW]=./images/royal-george_NW.0.0
-EmptyImage[N]=./images/royal-george_N.0.0
-EmptyImage[NE]=./images/royal-george_NE.0.0
+EmptyImage[E]=./locomotives/royal-george_E.0.0
+EmptyImage[SE]=./locomotives/royal-george_SE.0.0
+EmptyImage[S]=./locomotives/royal-george_S.0.0
+EmptyImage[SW]=./locomotives/royal-george_SW.0.0
+EmptyImage[W]=./locomotives/royal-george_W.0.0
+EmptyImage[NW]=./locomotives/royal-george_NW.0.0
+EmptyImage[N]=./locomotives/royal-george_N.0.0
+EmptyImage[NE]=./locomotives/royal-george_NE.0.0
 
 ---
 
@@ -61,14 +61,15 @@ rolling_resistance=19
 weight=1
 cost=0
 runningcost=0
+fixed_cost=0
 
 Constraint[Prev][0]=royal-george
 
-EmptyImage[E]=./images/sdr-derwent-tender_E.0.0
-EmptyImage[SE]=./images/sdr-derwent-tender_SE.0.0
-EmptyImage[S]=./images/sdr-derwent-tender_S.0.0
-EmptyImage[SW]=./images/sdr-derwent-tender_SW.0.0
-EmptyImage[W]=./images/sdr-derwent-tender_W.0.0
-EmptyImage[NW]=./images/sdr-derwent-tender_NW.0.0
-EmptyImage[N]=./images/sdr-derwent-tender_N.0.0
-EmptyImage[NE]=./images/sdr-derwent-tender_NE.0.0
+EmptyImage[E]=./locomotives/sdr-derwent-tender_E.0.0
+EmptyImage[SE]=./locomotives/sdr-derwent-tender_SE.0.0
+EmptyImage[S]=./locomotives/sdr-derwent-tender_S.0.0
+EmptyImage[SW]=./locomotives/sdr-derwent-tender_SW.0.0
+EmptyImage[W]=./locomotives/sdr-derwent-tender_W.0.0
+EmptyImage[NW]=./locomotives/sdr-derwent-tender_NW.0.0
+EmptyImage[N]=./locomotives/sdr-derwent-tender_N.0.0
+EmptyImage[NE]=./locomotives/sdr-derwent-tender_NE.0.0

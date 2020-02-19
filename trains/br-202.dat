@@ -23,7 +23,8 @@ length=11
 weight=55.9
 axles=4
 cost=3500000
-runningcost=72
+runningcost=371
+fixed_cost=9646
 sound=spompeytransportvideo-class-205.wav
 
 can_lead_from_rear=1
@@ -48,24 +49,23 @@ Constraint[Next][3]=BR-202-trailer-first
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue
 
-EmptyImage[E][0]=./images/br-202-front-g_E.0.0
-EmptyImage[SE][0]=./images/br-202-front-g_SE.0.0
-EmptyImage[S][0]=./images/br-202-front-g_S.0.0
-EmptyImage[SW][0]=./images/br-202-front-g_SW.0.0
-EmptyImage[W][0]=./images/br-202-front-g_W.0.0
-EmptyImage[NW][0]=./images/br-202-front-g_NW.0.0
-EmptyImage[N][0]=./images/br-202-front-g_N.0.0
-EmptyImage[NE][0]=./images/br-202-front-g_NE.0.0
+EmptyImage[E][0]=./railcars/br-202-front-g_E.0.0
+EmptyImage[SE][0]=./railcars/br-202-front-g_SE.0.0
+EmptyImage[S][0]=./railcars/br-202-front-g_S.0.0
+EmptyImage[SW][0]=./railcars/br-202-front-g_SW.0.0
+EmptyImage[W][0]=./railcars/br-202-front-g_W.0.0
+EmptyImage[NW][0]=./railcars/br-202-front-g_NW.0.0
+EmptyImage[N][0]=./railcars/br-202-front-g_N.0.0
+EmptyImage[NE][0]=./railcars/br-202-front-g_NE.0.0
 
-EmptyImage[E][1]=./images/br-202-front-bg_E.0.0
-EmptyImage[SE][1]=./images/br-202-front-bg_SE.0.0
-EmptyImage[S][1]=./images/br-202-front-bg_S.0.0
-EmptyImage[SW][1]=./images/br-202-front-bg_SW.0.0
-EmptyImage[W][1]=./images/br-202-front-bg_W.0.0
-EmptyImage[NW][1]=./images/br-202-front-bg_NW.0.0
-EmptyImage[N][1]=./images/br-202-front-bg_N.0.0
-EmptyImage[NE][1]=./images/br-202-front-bg_NE.0.0
-
+EmptyImage[E][1]=./railcars/br-202-front-bg_E.0.0
+EmptyImage[SE][1]=./railcars/br-202-front-bg_SE.0.0
+EmptyImage[S][1]=./railcars/br-202-front-bg_S.0.0
+EmptyImage[SW][1]=./railcars/br-202-front-bg_SW.0.0
+EmptyImage[W][1]=./railcars/br-202-front-bg_W.0.0
+EmptyImage[NW][1]=./railcars/br-202-front-bg_NW.0.0
+EmptyImage[N][1]=./railcars/br-202-front-bg_N.0.0
+EmptyImage[NE][1]=./railcars/br-202-front-bg_NE.0.0
 
 ----
 
@@ -92,7 +92,8 @@ length=11
 weight=55.9
 axles=4
 cost=3500000
-runningcost=72
+runningcost=371
+fixed_cost=9646
 sound=spompeytransportvideo-class-205.wav
 increase_maintenance_after_years=15
 
@@ -118,23 +119,23 @@ Constraint[Next][2]=none
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue
 
-EmptyImage[E][0]=./images/br-202-rear-g_E.0.0
-EmptyImage[SE][0]=./images/br-202-rear-g_SE.0.0
-EmptyImage[S][0]=./images/br-202-rear-g_S.0.0
-EmptyImage[SW][0]=./images/br-202-rear-g_SW.0.0
-EmptyImage[W][0]=./images/br-202-rear-g_W.0.0
-EmptyImage[NW][0]=./images/br-202-rear-g_NW.0.0
-EmptyImage[N][0]=./images/br-202-rear-g_N.0.0
-EmptyImage[NE][0]=./images/br-202-rear-g_NE.0.0
+EmptyImage[E][0]=./railcars/br-202-rear-g_E.0.0
+EmptyImage[SE][0]=./railcars/br-202-rear-g_SE.0.0
+EmptyImage[S][0]=./railcars/br-202-rear-g_S.0.0
+EmptyImage[SW][0]=./railcars/br-202-rear-g_SW.0.0
+EmptyImage[W][0]=./railcars/br-202-rear-g_W.0.0
+EmptyImage[NW][0]=./railcars/br-202-rear-g_NW.0.0
+EmptyImage[N][0]=./railcars/br-202-rear-g_N.0.0
+EmptyImage[NE][0]=./railcars/br-202-rear-g_NE.0.0
 
-EmptyImage[E][1]=./images/br-202-rear-bg_E.0.0
-EmptyImage[SE][1]=./images/br-202-rear-bg_SE.0.0
-EmptyImage[S][1]=./images/br-202-rear-bg_S.0.0
-EmptyImage[SW][1]=./images/br-202-rear-bg_SW.0.0
-EmptyImage[W][1]=./images/br-202-rear-bg_W.0.0
-EmptyImage[NW][1]=./images/br-202-rear-bg_NW.0.0
-EmptyImage[N][1]=./images/br-202-rear-bg_N.0.0
-EmptyImage[NE][1]=./images/br-202-rear-bg_NE.0.0
+EmptyImage[E][1]=./railcars/br-202-rear-bg_E.0.0
+EmptyImage[SE][1]=./railcars/br-202-rear-bg_SE.0.0
+EmptyImage[S][1]=./railcars/br-202-rear-bg_S.0.0
+EmptyImage[SW][1]=./railcars/br-202-rear-bg_SW.0.0
+EmptyImage[W][1]=./railcars/br-202-rear-bg_W.0.0
+EmptyImage[NW][1]=./railcars/br-202-rear-bg_NW.0.0
+EmptyImage[N][1]=./railcars/br-202-rear-bg_N.0.0
+EmptyImage[NE][1]=./railcars/br-202-rear-bg_NE.0.0
 
 ----
 
@@ -160,7 +161,8 @@ length=11
 weight=30
 axles=4
 cost=1300000
-runningcost=24
+runningcost=0
+fixed_cost=1548
 
 can_lead_from_rear=0
 bidirectional=1
@@ -185,23 +187,23 @@ Constraint[Next][3]=BR-202-trailer-first
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue
 
-EmptyImage[E][0]=./images/br-202-trailer-g_E.0.0
-EmptyImage[SE][0]=./images/br-202-trailer-g_SE.0.0
-EmptyImage[S][0]=./images/br-202-trailer-g_S.0.0
-EmptyImage[SW][0]=./images/br-202-trailer-g_SW.0.0
-EmptyImage[W][0]=./images/br-202-trailer-g_W.0.0
-EmptyImage[NW][0]=./images/br-202-trailer-g_NW.0.0
-EmptyImage[N][0]=./images/br-202-trailer-g_N.0.0
-EmptyImage[NE][0]=./images/br-202-trailer-g_NE.0.0
+EmptyImage[E][0]=./railcars/br-202-trailer-g_E.0.0
+EmptyImage[SE][0]=./railcars/br-202-trailer-g_SE.0.0
+EmptyImage[S][0]=./railcars/br-202-trailer-g_S.0.0
+EmptyImage[SW][0]=./railcars/br-202-trailer-g_SW.0.0
+EmptyImage[W][0]=./railcars/br-202-trailer-g_W.0.0
+EmptyImage[NW][0]=./railcars/br-202-trailer-g_NW.0.0
+EmptyImage[N][0]=./railcars/br-202-trailer-g_N.0.0
+EmptyImage[NE][0]=./railcars/br-202-trailer-g_NE.0.0
 
-EmptyImage[E][1]=./images/br-202-trailer-bg_E.0.0
-EmptyImage[SE][1]=./images/br-202-trailer-bg_SE.0.0
-EmptyImage[S][1]=./images/br-202-trailer-bg_S.0.0
-EmptyImage[SW][1]=./images/br-202-trailer-bg_SW.0.0
-EmptyImage[W][1]=./images/br-202-trailer-bg_W.0.0
-EmptyImage[NW][1]=./images/br-202-trailer-bg_NW.0.0
-EmptyImage[N][1]=./images/br-202-trailer-bg_N.0.0
-EmptyImage[NE][1]=./images/br-202-trailer-bg_NE.0.0
+EmptyImage[E][1]=./railcars/br-202-trailer-bg_E.0.0
+EmptyImage[SE][1]=./railcars/br-202-trailer-bg_SE.0.0
+EmptyImage[S][1]=./railcars/br-202-trailer-bg_S.0.0
+EmptyImage[SW][1]=./railcars/br-202-trailer-bg_SW.0.0
+EmptyImage[W][1]=./railcars/br-202-trailer-bg_W.0.0
+EmptyImage[NW][1]=./railcars/br-202-trailer-bg_NW.0.0
+EmptyImage[N][1]=./railcars/br-202-trailer-bg_N.0.0
+EmptyImage[NE][1]=./railcars/br-202-trailer-bg_NE.0.0
 
 ----
 
@@ -227,7 +229,8 @@ length=11
 weight=30
 axles=4
 cost=1300000
-runningcost=24
+runningcost=0
+fixed_cost=1548
 
 can_lead_from_rear=0
 bidirectional=1
@@ -252,23 +255,23 @@ Constraint[Next][3]=BR-202-trailer-first
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue
 
-EmptyImage[E][0]=./images/br-202-trailer-first-g_E.0.0
-EmptyImage[SE][0]=./images/br-202-trailer-first-g_SE.0.0
-EmptyImage[S][0]=./images/br-202-trailer-first-g_S.0.0
-EmptyImage[SW][0]=./images/br-202-trailer-first-g_SW.0.0
-EmptyImage[W][0]=./images/br-202-trailer-first-g_W.0.0
-EmptyImage[NW][0]=./images/br-202-trailer-first-g_NW.0.0
-EmptyImage[N][0]=./images/br-202-trailer-first-g_N.0.0
-EmptyImage[NE][0]=./images/br-202-trailer-first-g_NE.0.0
+EmptyImage[E][0]=./railcars/br-202-trailer-first-g_E.0.0
+EmptyImage[SE][0]=./railcars/br-202-trailer-first-g_SE.0.0
+EmptyImage[S][0]=./railcars/br-202-trailer-first-g_S.0.0
+EmptyImage[SW][0]=./railcars/br-202-trailer-first-g_SW.0.0
+EmptyImage[W][0]=./railcars/br-202-trailer-first-g_W.0.0
+EmptyImage[NW][0]=./railcars/br-202-trailer-first-g_NW.0.0
+EmptyImage[N][0]=./railcars/br-202-trailer-first-g_N.0.0
+EmptyImage[NE][0]=./railcars/br-202-trailer-first-g_NE.0.0
 
-EmptyImage[E][1]=./images/br-202-trailer-first-bg_E.0.0
-EmptyImage[SE][1]=./images/br-202-trailer-first-bg_SE.0.0
-EmptyImage[S][1]=./images/br-202-trailer-first-bg_S.0.0
-EmptyImage[SW][1]=./images/br-202-trailer-first-bg_SW.0.0
-EmptyImage[W][1]=./images/br-202-trailer-first-bg_W.0.0
-EmptyImage[NW][1]=./images/br-202-trailer-first-bg_NW.0.0
-EmptyImage[N][1]=./images/br-202-trailer-first-bg_N.0.0
-EmptyImage[NE][1]=./images/br-202-trailer-first-bg_NE.0.0
+EmptyImage[E][1]=./railcars/br-202-trailer-first-bg_E.0.0
+EmptyImage[SE][1]=./railcars/br-202-trailer-first-bg_SE.0.0
+EmptyImage[S][1]=./railcars/br-202-trailer-first-bg_S.0.0
+EmptyImage[SW][1]=./railcars/br-202-trailer-first-bg_SW.0.0
+EmptyImage[W][1]=./railcars/br-202-trailer-first-bg_W.0.0
+EmptyImage[NW][1]=./railcars/br-202-trailer-first-bg_NW.0.0
+EmptyImage[N][1]=./railcars/br-202-trailer-first-bg_N.0.0
+EmptyImage[NE][1]=./railcars/br-202-trailer-first-bg_NE.0.0
 
 ----
 
@@ -294,7 +297,8 @@ length=11
 weight=31
 axles=4
 cost=1300000
-runningcost=24
+runningcost=0
+fixed_cost=19548
 
 can_lead_from_rear=0
 bidirectional=1
@@ -318,20 +322,20 @@ Constraint[Next][2]=BR-202-trailer-first
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue
 
-EmptyImage[E][0]=./images/br-202-buffet-g_E.0.0
-EmptyImage[SE][0]=./images/br-202-buffet-g_SE.0.0
-EmptyImage[S][0]=./images/br-202-buffet-g_S.0.0
-EmptyImage[SW][0]=./images/br-202-buffet-g_SW.0.0
-EmptyImage[W][0]=./images/br-202-buffet-g_W.0.0
-EmptyImage[NW][0]=./images/br-202-buffet-g_NW.0.0
-EmptyImage[N][0]=./images/br-202-buffet-g_N.0.0
-EmptyImage[NE][0]=./images/br-202-buffet-g_NE.0.0
+EmptyImage[E][0]=./railcars/br-202-buffet-g_E.0.0
+EmptyImage[SE][0]=./railcars/br-202-buffet-g_SE.0.0
+EmptyImage[S][0]=./railcars/br-202-buffet-g_S.0.0
+EmptyImage[SW][0]=./railcars/br-202-buffet-g_SW.0.0
+EmptyImage[W][0]=./railcars/br-202-buffet-g_W.0.0
+EmptyImage[NW][0]=./railcars/br-202-buffet-g_NW.0.0
+EmptyImage[N][0]=./railcars/br-202-buffet-g_N.0.0
+EmptyImage[NE][0]=./railcars/br-202-buffet-g_NE.0.0
 
-EmptyImage[E][1]=./images/br-202-buffet-bg_E.0.0
-EmptyImage[SE][1]=./images/br-202-buffet-bg_SE.0.0
-EmptyImage[S][1]=./images/br-202-buffet-bg_S.0.0
-EmptyImage[SW][1]=./images/br-202-buffet-bg_SW.0.0
-EmptyImage[W][1]=./images/br-202-buffet-bg_W.0.0
-EmptyImage[NW][1]=./images/br-202-buffet-bg_NW.0.0
-EmptyImage[N][1]=./images/br-202-buffet-bg_N.0.0
-EmptyImage[NE][1]=./images/br-202-buffet-bg_NE.0.0
+EmptyImage[E][1]=./railcars/br-202-buffet-bg_E.0.0
+EmptyImage[SE][1]=./railcars/br-202-buffet-bg_SE.0.0
+EmptyImage[S][1]=./railcars/br-202-buffet-bg_S.0.0
+EmptyImage[SW][1]=./railcars/br-202-buffet-bg_SW.0.0
+EmptyImage[W][1]=./railcars/br-202-buffet-bg_W.0.0
+EmptyImage[NW][1]=./railcars/br-202-buffet-bg_NW.0.0
+EmptyImage[N][1]=./railcars/br-202-buffet-bg_N.0.0
+EmptyImage[NE][1]=./railcars/br-202-buffet-bg_NE.0.0

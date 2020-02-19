@@ -17,7 +17,8 @@ brake_force=23
 weight=30
 axles=4
 cost=1200000
-runningcost=181
+runningcost=0
+fixed_cost=2500
 
 
 min_loading_time=30
@@ -28,12 +29,12 @@ Constraint[Prev][0]=RM-325Power(RM)
 
 Constraint[Next][0]=RM-325Rear(RM)
 
-EmptyImage[E]=./images/rm-325-rm.1.0
-EmptyImage[SE]=./images/rm-325-rm.1.1
-EmptyImage[S]=./images/rm-325-rm.1.2
-EmptyImage[SW]=./images/rm-325-rm.1.3
-EmptyImage[W]=./images/rm-325-rm.1.4
-EmptyImage[NW]=./images/rm-325-rm.1.5
-EmptyImage[N]=./images/rm-325-rm.1.6
-EmptyImage[NE]=./images/rm-325-rm.1.7
+EmptyImage[E]=./railcars/rm-325-rm.1.0
+EmptyImage[SE]=./railcars/rm-325-rm.1.1
+EmptyImage[S]=./railcars/rm-325-rm.1.2
+EmptyImage[SW]=./railcars/rm-325-rm.1.3
+EmptyImage[W]=./railcars/rm-325-rm.1.4
+EmptyImage[NW]=./railcars/rm-325-rm.1.5
+EmptyImage[N]=./railcars/rm-325-rm.1.6
+EmptyImage[NE]=./railcars/rm-325-rm.1.7
 

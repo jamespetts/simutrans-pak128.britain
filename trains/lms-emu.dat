@@ -17,12 +17,13 @@ payload[1]=96
 payload[2]=0
 payload[3]=0
 overcrowded_capacity=48
-length=10
+length=9
 
 weight=30.4
 axles=4
 cost=1663000
-runningcost=45
+runningcost=0
+fixed_cost=1980
 sound=x24tohayes-epb.wav
 increase_maintenance_after_years=12
 
@@ -45,24 +46,23 @@ Constraint[Next][0]=LMS-EMU-centre-trailer
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
 
-EmptyImage[E][0]=./images/lms-emu-driving-trailer.1.4
-EmptyImage[SE][0]=./images/lms-emu-driving-trailer.1.5
-EmptyImage[S][0]=./images/lms-emu-driving-trailer.1.6
-EmptyImage[SW][0]=./images/lms-emu-driving-trailer.1.7
-EmptyImage[W][0]=./images/lms-emu-driving-trailer.1.0
-EmptyImage[NW][0]=./images/lms-emu-driving-trailer.1.1
-EmptyImage[N][0]=./images/lms-emu-driving-trailer.1.2
-EmptyImage[NE][0]=./images/lms-emu-driving-trailer.1.3
+EmptyImage[E][0]=./railcars/lms-emu-driving-trailer_E.0.0
+EmptyImage[SE][0]=./railcars/lms-emu-driving-trailer_SE.0.0
+EmptyImage[S][0]=./railcars/lms-emu-driving-trailer_S.0.0
+EmptyImage[SW][0]=./railcars/lms-emu-driving-trailer_SW.0.0
+EmptyImage[W][0]=./railcars/lms-emu-driving-trailer_W.0.0
+EmptyImage[NW][0]=./railcars/lms-emu-driving-trailer_NW.0.0
+EmptyImage[N][0]=./railcars/lms-emu-driving-trailer_N.0.0
+EmptyImage[NE][0]=./railcars/lms-emu-driving-trailer_NE.0.0
 
-EmptyImage[E][1]=./images/lms-emu-driving-trailer.1.4
-EmptyImage[SE][1]=./images/lms-emu-driving-trailer.1.5
-EmptyImage[S][1]=./images/lms-emu-driving-trailer.1.6
-EmptyImage[SW][1]=./images/lms-emu-driving-trailer.1.7
-EmptyImage[W][1]=./images/lms-emu-driving-trailer.1.0
-EmptyImage[NW][1]=./images/lms-emu-driving-trailer.1.1
-EmptyImage[N][1]=./images/lms-emu-driving-trailer.1.2
-EmptyImage[NE][1]=./images/lms-emu-driving-trailer.1.3
-
+EmptyImage[E][1]=./railcars/lms-emu-driving-trailer-br_E.0.0
+EmptyImage[SE][1]=./railcars/lms-emu-driving-trailer-br_SE.0.0
+EmptyImage[S][1]=./railcars/lms-emu-driving-trailer-br_S.0.0
+EmptyImage[SW][1]=./railcars/lms-emu-driving-trailer-br_SW.0.0
+EmptyImage[W][1]=./railcars/lms-emu-driving-trailer-br_W.0.0
+EmptyImage[NW][1]=./railcars/lms-emu-driving-trailer-br_NW.0.0
+EmptyImage[N][1]=./railcars/lms-emu-driving-trailer-br_N.0.0
+EmptyImage[NE][1]=./railcars/lms-emu-driving-trailer-br_NE.0.0
 
 ----
 
@@ -83,12 +83,13 @@ payload[1]=60
 payload[2]=0
 payload[3]=40
 overcrowded_capacity=30
-length=10
+length=9
 
 weight=28.4
 axles=4
 cost=1663000
-runningcost=49
+runningcost=0
+fixed_cost=1980
 
 increase_maintenance_after_years=12
 
@@ -110,23 +111,23 @@ Constraint[Next][0]=LMS-EMU-driving-motor
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
 
-EmptyImage[E][0]=./images/lms-emu-centre-trailer.1.4
-EmptyImage[SE][0]=./images/lms-emu-centre-trailer.1.5
-EmptyImage[S][0]=./images/lms-emu-centre-trailer.1.6
-EmptyImage[SW][0]=./images/lms-emu-centre-trailer.1.7
-EmptyImage[W][0]=./images/lms-emu-centre-trailer.1.0
-EmptyImage[NW][0]=./images/lms-emu-centre-trailer.1.1
-EmptyImage[N][0]=./images/lms-emu-centre-trailer.1.2
-EmptyImage[NE][0]=./images/lms-emu-centre-trailer.1.3
+EmptyImage[E][0]=./railcars/lms-emu-centre-trailer_E.0.0
+EmptyImage[SE][0]=./railcars/lms-emu-centre-trailer_SE.0.0
+EmptyImage[S][0]=./railcars/lms-emu-centre-trailer_S.0.0
+EmptyImage[SW][0]=./railcars/lms-emu-centre-trailer_SW.0.0
+EmptyImage[W][0]=./railcars/lms-emu-centre-trailer_W.0.0
+EmptyImage[NW][0]=./railcars/lms-emu-centre-trailer_NW.0.0
+EmptyImage[N][0]=./railcars/lms-emu-centre-trailer_N.0.0
+EmptyImage[NE][0]=./railcars/lms-emu-centre-trailer_NE.0.0
 
-EmptyImage[E][1]=./images/lms-emu-centre-trailer.1.4
-EmptyImage[SE][1]=./images/lms-emu-centre-trailer.1.5
-EmptyImage[S][1]=./images/lms-emu-centre-trailer.1.6
-EmptyImage[SW][1]=./images/lms-emu-centre-trailer.1.7
-EmptyImage[W][1]=./images/lms-emu-centre-trailer.1.0
-EmptyImage[NW][1]=./images/lms-emu-centre-trailer.1.1
-EmptyImage[N][1]=./images/lms-emu-centre-trailer.1.2
-EmptyImage[NE][1]=./images/lms-emu-centre-trailer.1.3
+EmptyImage[E][1]=./railcars/lms-emu-centre-trailer-br_E.0.0
+EmptyImage[SE][1]=./railcars/lms-emu-centre-trailer-br_SE.0.0
+EmptyImage[S][1]=./railcars/lms-emu-centre-trailer-br_S.0.0
+EmptyImage[SW][1]=./railcars/lms-emu-centre-trailer-br_SW.0.0
+EmptyImage[W][1]=./railcars/lms-emu-centre-trailer-br_W.0.0
+EmptyImage[NW][1]=./railcars/lms-emu-centre-trailer-br_NW.0.0
+EmptyImage[N][1]=./railcars/lms-emu-centre-trailer-br_N.0.0
+EmptyImage[NE][1]=./railcars/lms-emu-centre-trailer-br_NE.0.0
 
 ----
 
@@ -154,7 +155,8 @@ length=10
 weight=56.9
 axles=4
 cost=1663000
-runningcost=138
+runningcost=317
+fixed_cost=7386
 sound=x24tohayes-epb.wav
 increase_maintenance_after_years=12
 
@@ -177,20 +179,20 @@ Constraint[Next][1]=none
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
 
-EmptyImage[E][0]=./images/lms-emu-driving-motor.1.4
-EmptyImage[SE][0]=./images/lms-emu-driving-motor.1.5
-EmptyImage[S][0]=./images/lms-emu-driving-motor.1.6
-EmptyImage[SW][0]=./images/lms-emu-driving-motor.1.7
-EmptyImage[W][0]=./images/lms-emu-driving-motor.1.0
-EmptyImage[NW][0]=./images/lms-emu-driving-motor.1.1
-EmptyImage[N][0]=./images/lms-emu-driving-motor.1.2
-EmptyImage[NE][0]=./images/lms-emu-driving-motor.1.3
+EmptyImage[E][0]=./railcars/lms-emu-driving-motor_E.0.0
+EmptyImage[SE][0]=./railcars/lms-emu-driving-motor_SE.0.0
+EmptyImage[S][0]=./railcars/lms-emu-driving-motor_S.0.0
+EmptyImage[SW][0]=./railcars/lms-emu-driving-motor_SW.0.0
+EmptyImage[W][0]=./railcars/lms-emu-driving-motor_W.0.0
+EmptyImage[NW][0]=./railcars/lms-emu-driving-motor_NW.0.0
+EmptyImage[N][0]=./railcars/lms-emu-driving-motor_N.0.0
+EmptyImage[NE][0]=./railcars/lms-emu-driving-motor_NE.0.0
 
-EmptyImage[E][1]=./images/lms-emu-driving-motor.1.4
-EmptyImage[SE][1]=./images/lms-emu-driving-motor.1.5
-EmptyImage[S][1]=./images/lms-emu-driving-motor.1.6
-EmptyImage[SW][1]=./images/lms-emu-driving-motor.1.7
-EmptyImage[W][1]=./images/lms-emu-driving-motor.1.0
-EmptyImage[NW][1]=./images/lms-emu-driving-motor.1.1
-EmptyImage[N][1]=./images/lms-emu-driving-motor.1.2
-EmptyImage[NE][1]=./images/lms-emu-driving-motor.1.3
+EmptyImage[E][1]=./railcars/lms-emu-driving-motor-br_E.0.0
+EmptyImage[SE][1]=./railcars/lms-emu-driving-motor-br_SE.0.0
+EmptyImage[S][1]=./railcars/lms-emu-driving-motor-br_S.0.0
+EmptyImage[SW][1]=./railcars/lms-emu-driving-motor-br_SW.0.0
+EmptyImage[W][1]=./railcars/lms-emu-driving-motor-br_W.0.0
+EmptyImage[NW][1]=./railcars/lms-emu-driving-motor-br_NW.0.0
+EmptyImage[N][1]=./railcars/lms-emu-driving-motor-br_N.0.0
+EmptyImage[NE][1]=./railcars/lms-emu-driving-motor-br_NE.0.0

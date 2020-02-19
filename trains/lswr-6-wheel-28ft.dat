@@ -1,4 +1,5 @@
 # http://www.orion-models.co.uk/LSWR_C1.html
+# https://pregroupingrailwaysdotcom.files.wordpress.com/2018/06/lswr-coach-instructions.pdf
 obj=vehicle
 name=lswr-6-wheel-28ft-brake-front
 speed=150
@@ -10,7 +11,7 @@ retire_month=9
 waytype=track
 freight=Passagiere
 payload[0]=0
-payload[1]=0
+payload[1]=30
 overcrowded_capacity=15
 length=5
 
@@ -18,8 +19,8 @@ length=5
 weight=11.9
 axles=3
 cost=325000
-runningcost=25
-fixed_cost=4935
+runningcost=0
+fixed_cost=5187
 
 can_lead_from_rear=0
 bidirectional=1
@@ -65,18 +66,19 @@ Constraint[Next][33]=lswr-6-wheel-30ft-full-brake
 Constraint[Next][34]=lswr-6-wheel-30ft-fruit-brake
 Constraint[Next][35]=lswr-6-wheel-30ft-parcels-van
 Constraint[Next][36]=lswr-6-wheel-30ft-fruit-van
-Constraint[Next][37]=none
+Constraint[Next][37]=lswr-6-wheel-28ft-composite
+Constraint[Next][38]=none
 
 liverytype[0]=LSWR-pea-green
 
-EmptyImage[E][0]=./images/lswr-6-wheel-28ft-brake-front.1.4
-EmptyImage[SE][0]=./images/lswr-6-wheel-28ft-brake-front.1.5
-EmptyImage[S][0]=./images/lswr-6-wheel-28ft-brake-front.1.6
-EmptyImage[SW][0]=./images/lswr-6-wheel-28ft-brake-front.1.7
-EmptyImage[W][0]=./images/lswr-6-wheel-28ft-brake-front.1.0
-EmptyImage[NW][0]=./images/lswr-6-wheel-28ft-brake-front.1.1
-EmptyImage[N][0]=./images/lswr-6-wheel-28ft-brake-front.1.2
-EmptyImage[NE][0]=./images/lswr-6-wheel-28ft-brake-front.1.3
+EmptyImage[E][0]=./carriages/lswr-6-wheel-28ft-brake-front_E.0.0
+EmptyImage[SE][0]=./carriages/lswr-6-wheel-28ft-brake-front_SE.0.0
+EmptyImage[S][0]=./carriages/lswr-6-wheel-28ft-brake-front_S.0.0
+EmptyImage[SW][0]=./carriages/lswr-6-wheel-28ft-brake-front_SW.0.0
+EmptyImage[W][0]=./carriages/lswr-6-wheel-28ft-brake-front_W.0.0
+EmptyImage[NW][0]=./carriages/lswr-6-wheel-28ft-brake-front_NW.0.0
+EmptyImage[N][0]=./carriages/lswr-6-wheel-28ft-brake-front_N.0.0
+EmptyImage[NE][0]=./carriages/lswr-6-wheel-28ft-brake-front_NE.0.0
 
 ---
 
@@ -99,8 +101,8 @@ length=5
 weight=11.9
 axles=3
 cost=325000
-runningcost=25
-fixed_cost=4935
+runningcost=0
+fixed_cost=5187
 
 can_lead_from_rear=0
 bidirectional=1
@@ -146,20 +148,22 @@ Constraint[Prev][33]=lswr-6-wheel-30ft-full-brake
 Constraint[Prev][34]=lswr-6-wheel-30ft-fruit-brake
 Constraint[Prev][35]=lswr-6-wheel-30ft-parcels-van
 Constraint[Prev][36]=lswr-6-wheel-30ft-fruit-van
+Constraint[Prev][37]=lswr-6-wheel-28ft-composite
 
 liverytype[0]=LSWR-pea-green
 
-EmptyImage[E][0]=./images/lswr-6-wheel-28ft-brake-rear.1.4
-EmptyImage[SE][0]=./images/lswr-6-wheel-28ft-brake-rear.1.5
-EmptyImage[S][0]=./images/lswr-6-wheel-28ft-brake-rear.1.6
-EmptyImage[SW][0]=./images/lswr-6-wheel-28ft-brake-rear.1.7
-EmptyImage[W][0]=./images/lswr-6-wheel-28ft-brake-rear.1.0
-EmptyImage[NW][0]=./images/lswr-6-wheel-28ft-brake-rear.1.1
-EmptyImage[N][0]=./images/lswr-6-wheel-28ft-brake-rear.1.2
-EmptyImage[NE][0]=./images/lswr-6-wheel-28ft-brake-rear.1.3
+EmptyImage[E][0]=./carriages/lswr-6-wheel-28ft-brake-rear_E.0.0
+EmptyImage[SE][0]=./carriages/lswr-6-wheel-28ft-brake-rear_SE.0.0
+EmptyImage[S][0]=./carriages/lswr-6-wheel-28ft-brake-rear_S.0.0
+EmptyImage[SW][0]=./carriages/lswr-6-wheel-28ft-brake-rear_SW.0.0
+EmptyImage[W][0]=./carriages/lswr-6-wheel-28ft-brake-rear_W.0.0
+EmptyImage[NW][0]=./carriages/lswr-6-wheel-28ft-brake-rear_NW.0.0
+EmptyImage[N][0]=./carriages/lswr-6-wheel-28ft-brake-rear_N.0.0
+EmptyImage[NE][0]=./carriages/lswr-6-wheel-28ft-brake-rear_NE.0.0
 
 ---
-
+# Third
+# https://pregroupingrailwaysdotcom.files.wordpress.com/2018/06/lswr-coach-instructions.pdf
 obj=vehicle
 name=lswr-6-wheel-28ft
 speed=150
@@ -170,8 +174,6 @@ retire_year=1886
 retire_month=9
 waytype=track
 freight=Passagiere
-# The composite shown in the model depicted in the above link is a four compartment carriage;
-# this is what I assume that the thirds would have been.
 payload[0]=0
 payload[1]=50
 overcrowded_capacity=25
@@ -181,7 +183,8 @@ length=5
 weight=12.1
 axles=3
 cost=325000
-runningcost=25
+runningcost=0
+fixed_cost=387
 
 can_lead_from_rear=0
 bidirectional=1
@@ -227,6 +230,7 @@ Constraint[Next][33]=lswr-6-wheel-30ft-full-brake
 Constraint[Next][34]=lswr-6-wheel-30ft-fruit-brake
 Constraint[Next][35]=lswr-6-wheel-30ft-parcels-van
 Constraint[Next][36]=lswr-6-wheel-30ft-fruit-van
+Constraint[Next][37]=lswr-6-wheel-28ft-composite
 
 Constraint[Prev][0]=4-wheel-1870s-fitted
 Constraint[Prev][1]=4-wheel-1870s-brake-fitted
@@ -265,14 +269,140 @@ Constraint[Prev][33]=lswr-6-wheel-30ft-full-brake
 Constraint[Prev][34]=lswr-6-wheel-30ft-fruit-brake
 Constraint[Prev][35]=lswr-6-wheel-30ft-parcels-van
 Constraint[Prev][36]=lswr-6-wheel-30ft-fruit-van
+Constraint[Prev][37]=lswr-6-wheel-28ft-composite
 
 liverytype[0]=LSWR-pea-green
 
-EmptyImage[E][0]=./images/lswr-6-wheel-28ft.1.4
-EmptyImage[SE][0]=./images/lswr-6-wheel-28ft.1.5
-EmptyImage[S][0]=./images/lswr-6-wheel-28ft.1.6
-EmptyImage[SW][0]=./images/lswr-6-wheel-28ft.1.7
-EmptyImage[W][0]=./images/lswr-6-wheel-28ft.1.0
-EmptyImage[NW][0]=./images/lswr-6-wheel-28ft.1.1
-EmptyImage[N][0]=./images/lswr-6-wheel-28ft.1.2
-EmptyImage[NE][0]=./images/lswr-6-wheel-28ft.1.3
+EmptyImage[E][0]=./carriages/lswr-6-wheel-28ft-third_E.0.0
+EmptyImage[SE][0]=./carriages/lswr-6-wheel-28ft-third_SE.0.0
+EmptyImage[S][0]=./carriages/lswr-6-wheel-28ft-third_S.0.0
+EmptyImage[SW][0]=./carriages/lswr-6-wheel-28ft-third_SW.0.0
+EmptyImage[W][0]=./carriages/lswr-6-wheel-28ft-third_W.0.0
+EmptyImage[NW][0]=./carriages/lswr-6-wheel-28ft-third_NW.0.0
+EmptyImage[N][0]=./carriages/lswr-6-wheel-28ft-third_N.0.0
+EmptyImage[NE][0]=./carriages/lswr-6-wheel-28ft-third_NE.0.0
+
+---
+# First/second
+# https://pregroupingrailwaysdotcom.files.wordpress.com/2018/06/lswr-coach-instructions.pdf
+obj=vehicle
+name=lswr-6-wheel-28ft-composite
+speed=150
+copyright=JamesPetts
+intro_year=1878
+intro_month=5
+retire_year=1886
+retire_month=9
+waytype=track
+freight=Passagiere
+payload[0]=0
+payload[1]=0
+payload[2]=20
+payload[3]=16
+overcrowded_capacity=8
+length=5
+
+# Estimated
+weight=12.1
+axles=3
+cost=331000
+runningcost=0
+fixed_cost=387
+
+can_lead_from_rear=0
+bidirectional=1
+min_loading_time=17
+max_loading_time=47
+comfort[0]=0
+comfort[1]=69
+comfort[2]=73
+comfort[3]=83
+
+Constraint[Next][0]=4-wheel-1870s-fitted
+Constraint[Next][1]=4-wheel-1870s-brake-fitted
+Constraint[Next][2]=4-wheel-1870s-mail-fitted
+Constraint[Next][3]=4-wheel-1870s-tpo-fitted
+Constraint[Next][4]=4-wheel-sub-1870s-fitted
+Constraint[Next][5]=4-wheel-sub-1870s-brake-rear-fitted
+Constraint[Next][6]=4-wheel-1870s-fast-freight-fitted
+Constraint[Next][7]=4-wheel-1870s-milk-fitted
+Constraint[Next][8]=lswr-56ft-sub
+Constraint[Next][9]=lswr-56ft-sub-brake-rear
+Constraint[Next][10]=lswr-56ft-lav-brake-rear
+Constraint[Next][11]=lswr-56ft-lav
+Constraint[Next][12]=lswr-48ft-sub-brake-rear
+Constraint[Next][13]=lswr-48ft-sub
+Constraint[Next][14]=lswr-48ft-lav
+Constraint[Next][15]=lswr-48ft-arc-parcels-brake
+Constraint[Next][16]=lswr-48ft-arc-fruit-brake
+Constraint[Next][17]=lswr-44ft-full-brake
+Constraint[Next][18]=lswr-44ft-full-brake-elliptical
+Constraint[Next][19]=lswr-48ft-fruit-brake
+Constraint[Next][20]=lswr-48ft-parcels-brake
+Constraint[Next][21]=lswr-48ft-arc-sub-brake-rear
+Constraint[Next][22]=lswr-48ft-arc-sub
+Constraint[Next][23]=lswr-48ft-arc-lav-brake
+Constraint[Next][24]=lswr-48ft-arc-lav
+Constraint[Next][25]=lswr-30ft-full-brake-6-wheel-elliptical
+Constraint[Next][26]=lswr-30ft-fruit-brake-6-wheel-elliptical
+Constraint[Next][27]=lswr-6-wheel-28ft-brake-rear
+Constraint[Next][28]=lswr-6-wheel-28ft
+Constraint[Next][29]=lswr-6-wheel-30ft-lantern-roof-brake
+Constraint[Next][30]=lswr-6-wheel-30ft-brake-rear
+Constraint[Next][31]=lswr-6-wheel-30ft
+Constraint[Next][32]=lswr-6-wheel-30ft-lav
+Constraint[Next][33]=lswr-6-wheel-30ft-full-brake
+Constraint[Next][34]=lswr-6-wheel-30ft-fruit-brake
+Constraint[Next][35]=lswr-6-wheel-30ft-parcels-van
+Constraint[Next][36]=lswr-6-wheel-30ft-fruit-van
+Constraint[Next][37]=lswr-6-wheel-28ft-composite
+
+Constraint[Prev][0]=4-wheel-1870s-fitted
+Constraint[Prev][1]=4-wheel-1870s-brake-fitted
+Constraint[Prev][2]=4-wheel-1870s-mail-fitted
+Constraint[Prev][3]=4-wheel-1870s-tpo-fitted
+Constraint[Prev][4]=4-wheel-sub-1870s-fitted
+Constraint[Prev][5]=4-wheel-sub-1870s-brake-front-fitted
+Constraint[Prev][6]=4-wheel-1870s-fast-freight-fitted
+Constraint[Prev][7]=4-wheel-1870s-milk-fitted
+Constraint[Prev][8]=lswr-56ft-sub
+Constraint[Prev][9]=lswr-56ft-sub-brake-front
+Constraint[Prev][10]=lswr-56ft-lav-brake-front
+Constraint[Prev][11]=lswr-56ft-lav
+Constraint[Prev][12]=lswr-48ft-sub-brake-front
+Constraint[Prev][13]=lswr-48ft-sub
+Constraint[Prev][14]=lswr-48ft-lav
+Constraint[Prev][15]=lswr-48ft-arc-parcels-brake
+Constraint[Prev][16]=lswr-48ft-arc-fruit-brake
+Constraint[Prev][17]=lswr-44ft-full-brake
+Constraint[Prev][18]=lswr-44ft-full-brake-elliptical
+Constraint[Prev][19]=lswr-48ft-fruit-brake
+Constraint[Prev][20]=lswr-48ft-parcels-brake
+Constraint[Prev][21]=lswr-48ft-arc-sub-brake-front
+Constraint[Prev][22]=lswr-48ft-arc-sub
+Constraint[Prev][23]=lswr-48ft-arc-lav-brake
+Constraint[Prev][24]=lswr-48ft-arc-lav
+Constraint[Prev][25]=lswr-30ft-full-brake-6-wheel-elliptical
+Constraint[Prev][26]=lswr-30ft-fruit-brake-6-wheel-elliptical
+Constraint[Prev][27]=lswr-6-wheel-28ft-brake-front
+Constraint[Prev][28]=lswr-6-wheel-28ft
+Constraint[Prev][29]=lswr-6-wheel-30ft-lantern-roof-brake
+Constraint[Prev][30]=lswr-6-wheel-30ft-brake-front
+Constraint[Prev][31]=lswr-6-wheel-30ft
+Constraint[Prev][32]=lswr-6-wheel-30ft-lav
+Constraint[Prev][33]=lswr-6-wheel-30ft-full-brake
+Constraint[Prev][34]=lswr-6-wheel-30ft-fruit-brake
+Constraint[Prev][35]=lswr-6-wheel-30ft-parcels-van
+Constraint[Prev][36]=lswr-6-wheel-30ft-fruit-van
+Constraint[Prev][37]=lswr-6-wheel-28ft-composite
+
+liverytype[0]=LSWR-pea-green
+
+EmptyImage[E][0]=./carriages/lswr-6-wheel-28ft-composite_E.0.0
+EmptyImage[SE][0]=./carriages/lswr-6-wheel-28ft-composite_SE.0.0
+EmptyImage[S][0]=./carriages/lswr-6-wheel-28ft-composite_S.0.0
+EmptyImage[SW][0]=./carriages/lswr-6-wheel-28ft-composite_SW.0.0
+EmptyImage[W][0]=./carriages/lswr-6-wheel-28ft-composite_W.0.0
+EmptyImage[NW][0]=./carriages/lswr-6-wheel-28ft-composite_NW.0.0
+EmptyImage[N][0]=./carriages/lswr-6-wheel-28ft-composite_N.0.0
+EmptyImage[NE][0]=./carriages/lswr-6-wheel-28ft-composite_NE.0.0

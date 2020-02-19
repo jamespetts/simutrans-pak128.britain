@@ -20,19 +20,19 @@ weight=0.9
 axle_load=0
 cost=60000
 runningcost=3
-fixed_cost=838
+fixed_cost=1625
 sound=colin-taft-horse-tram.wav
 
 way_constraint_prohibitive[0]=0
 
-EmptyImage[E]=./images/horse-clydesdale-single_E.0.0
-EmptyImage[SE]=./images/horse-clydesdale-single_SE.0.0
-EmptyImage[S]=./images/horse-clydesdale-single_S.0.0
-EmptyImage[SW]=./images/horse-clydesdale-single_SW.0.0
-EmptyImage[W]=./images/horse-clydesdale-single_W.0.0
-EmptyImage[NW]=./images/horse-clydesdale-single_NW.0.0
-EmptyImage[N]=./images/horse-clydesdale-single_N.0.0
-EmptyImage[NE]=./images/horse-clydesdale-single_NE.0.0
+EmptyImage[E]=./horses/horse-clydesdale-single_E.0.0
+EmptyImage[SE]=./horses/horse-clydesdale-single_SE.0.0
+EmptyImage[S]=./horses/horse-clydesdale-single_S.0.0
+EmptyImage[SW]=./horses/horse-clydesdale-single_SW.0.0
+EmptyImage[W]=./horses/horse-clydesdale-single_W.0.0
+EmptyImage[NW]=./horses/horse-clydesdale-single_NW.0.0
+EmptyImage[N]=./horses/horse-clydesdale-single_N.0.0
+EmptyImage[NE]=./horses/horse-clydesdale-single_NE.0.0
 
 ---
 
@@ -57,19 +57,19 @@ weight=1.8
 axle_load=0
 cost=120000
 runningcost=5
-fixed_cost=1175
+fixed_cost=3250
 sound=colin-taft-horse-tram.wav
 
 way_constraint_prohibitive[0]=0
 
 Constraint[Prev][0]=none
 
-EmptyImage[E]=./images/horse-clydesdale-double_E.0.0
-EmptyImage[SE]=./images/horse-clydesdale-double_SE.0.0
-EmptyImage[S]=./images/horse-clydesdale-double_S.0.0
-EmptyImage[SW]=./images/horse-clydesdale-double_SW.0.0
-EmptyImage[W]=./images/horse-clydesdale-double_W.0.0
-EmptyImage[NW]=./images/horse-clydesdale-double_NW.0.0
-EmptyImage[N]=./images/horse-clydesdale-double_N.0.0
-EmptyImage[NE]=./images/horse-clydesdale-double_NE.0.0
+EmptyImage[E]=./horses/horse-clydesdale-double_E.0.0
+EmptyImage[SE]=./horses/horse-clydesdale-double_SE.0.0
+EmptyImage[S]=./horses/horse-clydesdale-double_S.0.0
+EmptyImage[SW]=./horses/horse-clydesdale-double_SW.0.0
+EmptyImage[W]=./horses/horse-clydesdale-double_W.0.0
+EmptyImage[NW]=./horses/horse-clydesdale-double_NW.0.0
+EmptyImage[N]=./horses/horse-clydesdale-double_N.0.0
+EmptyImage[NE]=./horses/horse-clydesdale-double_NE.0.0
 

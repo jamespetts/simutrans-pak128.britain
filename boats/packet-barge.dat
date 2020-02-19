@@ -10,7 +10,8 @@ payload[1]=60
 weight=10
 length=8
 cost=20000
-runningcost=2
+runningcost=0
+fixed_cost=4814
 intro_year=1802
 intro_month=1
 retire_year=1869
@@ -51,5 +52,3 @@ FreightImage[0][W]=./images/dumb-barge-wooden-passenger-packet-boat-loaded.1.0
 FreightImage[0][NW]=./images/dumb-barge-wooden-passenger-packet-boat-loaded.1.1
 FreightImage[0][N]=./images/dumb-barge-wooden-passenger-packet-boat-loaded.1.2
 FreightImage[0][NE]=./images/dumb-barge-wooden-passenger-packet-boat-loaded.1.3
-
----

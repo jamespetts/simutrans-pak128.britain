@@ -21,7 +21,8 @@ rolling_resistance=13
 weight=126
 axles=6
 cost=5280000
-runningcost=2970
+runningcost=716
+fixed_cost=12750
 sound=treacher-rail-class-66.wav
 
 can_lead_from_rear=0
@@ -34,12 +35,12 @@ Constraint[Prev][2]=BR-Class70
 Constraint[Prev][3]=none
 # Also class 59
 
-EmptyImage[E]=./images/br-cl66-ews.0
-EmptyImage[SE]=./images/br-cl66-ews.1
-EmptyImage[S]=./images/br-cl66-ews.2
-EmptyImage[SW]=./images/br-cl66-ews.3
-EmptyImage[W]=./images/br-cl66-ews.4
-EmptyImage[NW]=./images/br-cl66-ews.5
-EmptyImage[N]=./images/br-cl66-ews.6
-EmptyImage[NE]=./images/br-cl66-ews.7
+EmptyImage[E]=./locomotives/br-cl66-ews_E.0.0
+EmptyImage[SE]=./locomotives/br-cl66-ews_SE.0.0
+EmptyImage[S]=./locomotives/br-cl66-ews_S.0.0
+EmptyImage[SW]=./locomotives/br-cl66-ews_SW.0.0
+EmptyImage[W]=./locomotives/br-cl66-ews_W.0.0
+EmptyImage[NW]=./locomotives/br-cl66-ews_NW.0.0
+EmptyImage[N]=./locomotives/br-cl66-ews_N.0.0
+EmptyImage[NE]=./locomotives/br-cl66-ews_NE.0.0
 

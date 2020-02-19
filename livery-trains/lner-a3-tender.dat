@@ -15,6 +15,7 @@ length=4
 weight=57
 cost=0
 runningcost=0
+fixed_cost=0
 sound=-1
 
 Constraint[Prev][0]=LNER-A1(Black)
@@ -46,6 +47,7 @@ length=4
 weight=57
 cost=0
 runningcost=0
+fixed_cost=0
 sound=-1
 
 Constraint[Prev][0]=LNER-A1(BRBlue)
@@ -76,6 +78,7 @@ length=4
 weight=57
 cost=0
 runningcost=0
+fixed_cost=0
 sound=-1
 
 Constraint[Prev][0]=LNER-A1(BRGreen)

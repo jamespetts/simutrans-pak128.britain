@@ -20,7 +20,8 @@ rolling_resistance=13
 weight=86
 axles=4
 cost=9450000
-runningcost=439
+runningcost=941
+fixed_cost=14922
 sound=video47-class-92.wav
 
 can_lead_from_rear=0
@@ -30,11 +31,11 @@ way_constraint_permissive[2]=2
 # Unknown
 Constraint[Prev][0]=none
 
-EmptyImage[E]=./images/br-cl88-drs.1.4
-EmptyImage[SE]=./images/br-cl88-drs.1.5
-EmptyImage[S]=./images/br-cl88-drs.1.6
-EmptyImage[SW]=./images/br-cl88-drs.1.7
-EmptyImage[W]=./images/br-cl88-drs.1.0
-EmptyImage[NW]=./images/br-cl88-drs.1.1
-EmptyImage[N]=./images/br-cl88-drs.1.2
-EmptyImage[NE]=./images/br-cl88-drs.1.3
+EmptyImage[E]=./locomotives/br-cl88-drs.1.4
+EmptyImage[SE]=./locomotives/br-cl88-drs.1.5
+EmptyImage[S]=./locomotives/br-cl88-drs.1.6
+EmptyImage[SW]=./locomotives/br-cl88-drs.1.7
+EmptyImage[W]=./locomotives/br-cl88-drs.1.0
+EmptyImage[NW]=./locomotives/br-cl88-drs.1.1
+EmptyImage[N]=./locomotives/br-cl88-drs.1.2
+EmptyImage[NE]=./locomotives/br-cl88-drs.1.3

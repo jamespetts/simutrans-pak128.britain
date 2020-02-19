@@ -2,23 +2,23 @@ obj=vehicle
 name=FR-Barn-Mail
 speed=80
 copyright=James
-#Arbitrary...
+# Assumed: no data, as these are imagined carriages
 intro_year=1964
 intro_month=5
-# No new FR mail carriages...
+# No new FR mail carriages
 #retire_year=2009
 #retire_month=3
 waytype=narrowgauge_track
 freight=Post
 payload=200
-length=7
+length=6
 rolling_resistance=17
 
 weight=8
 axles=4
 cost=570000
-runningcost=25
-
+runningcost=0
+fixed_cost=238
 
 can_lead_from_rear=0
 bidirectional=1
@@ -26,37 +26,37 @@ bidirectional=1
 min_loading_time=30
 max_loading_time=150
 
-Constraint[next][0]=any
+Constraint[Prev][0]=any
+Constraint[Next][0]=any
 
 liverytype[0]=FR-Green-Cream
 liverytype[1]=FR-Cherry-Red
 liverytype[2]=FR-Red-Cream
 
-EmptyImage[E][0]=./images/fr-mail-green-cream.1.0,-10,-5
-EmptyImage[SE][0]=./images/fr-mail-green-cream.1.1,0,-5
-EmptyImage[S][0]=./images/fr-mail-green-cream.1.2,10,-5
-EmptyImage[SW][0]=./images/fr-mail-green-cream.1.3,10,0
-EmptyImage[W][0]=./images/fr-mail-green-cream.1.4,10,5
-EmptyImage[NW][0]=./images/fr-mail-green-cream.1.5,0,5
-EmptyImage[N][0]=./images/fr-mail-green-cream.1.6,-10,5
-EmptyImage[NE][0]=./images/fr-mail-green-cream.1.7,-10,0
+EmptyImage[W][0]=./images/fr-mail-green-cream_E.0.0
+EmptyImage[NW][0]=./images/fr-mail-green-cream_SE.0.0
+EmptyImage[N][0]=./images/fr-mail-green-cream_S.0.0
+EmptyImage[NE][0]=./images/fr-mail-green-cream_SW.0.0
+EmptyImage[E][0]=./images/fr-mail-green-cream_W.0.0
+EmptyImage[SE][0]=./images/fr-mail-green-cream_NW.0.0
+EmptyImage[S][0]=./images/fr-mail-green-cream_N.0.0
+EmptyImage[SW][0]=./images/fr-mail-green-cream_NE.0.0
 
-EmptyImage[E][1]=./images/fr-mail-cherry-red.1.0,-10,-5
-EmptyImage[SE][1]=./images/fr-mail-cherry-red.1.1,0,-5
-EmptyImage[S][1]=./images/fr-mail-cherry-red.1.2,10,-5
-EmptyImage[SW][1]=./images/fr-mail-cherry-red.1.3,10,0
-EmptyImage[W][1]=./images/fr-mail-cherry-red.1.4,10,5
-EmptyImage[NW][1]=./images/fr-mail-cherry-red.1.5,0,5
-EmptyImage[N][1]=./images/fr-mail-cherry-red.1.6,-10,5
-EmptyImage[NE][1]=./images/fr-mail-cherry-red.1.7,-10,0
+EmptyImage[W][1]=./images/fr-mail-cherry-red_E.0.0
+EmptyImage[NW][1]=./images/fr-mail-cherry-red_SE.0.0
+EmptyImage[N][1]=./images/fr-mail-cherry-red_S.0.0
+EmptyImage[NE][1]=./images/fr-mail-cherry-red_SW.0.0
+EmptyImage[E][1]=./images/fr-mail-cherry-red_W.0.0
+EmptyImage[SE][1]=./images/fr-mail-cherry-red_NW.0.0
+EmptyImage[S][1]=./images/fr-mail-cherry-red_N.0.0
+EmptyImage[SW][1]=./images/fr-mail-cherry-red_NE.0.0
 
-EmptyImage[E][2]=./images/fr-mail-red-cream.1.0,-10,-5
-EmptyImage[SE][2]=./images/fr-mail-red-cream.1.1,0,-5
-EmptyImage[S][2]=./images/fr-mail-red-cream.1.2,10,-5
-EmptyImage[SW][2]=./images/fr-mail-red-cream.1.3,10,0
-EmptyImage[W][2]=./images/fr-mail-red-cream.1.4,10,5
-EmptyImage[NW][2]=./images/fr-mail-red-cream.1.5,0,5
-EmptyImage[N][2]=./images/fr-mail-red-cream.1.6,-10,5
-EmptyImage[NE][2]=./images/fr-mail-red-cream.1.7,-10,0
-
+EmptyImage[W][2]=./images/fr-mail-red-cream_E.0.0
+EmptyImage[NW][2]=./images/fr-mail-red-cream_SE.0.0
+EmptyImage[N][2]=./images/fr-mail-red-cream_S.0.0
+EmptyImage[NE][2]=./images/fr-mail-red-cream_SW.0.0
+EmptyImage[E][2]=./images/fr-mail-red-cream_W.0.0
+EmptyImage[SE][2]=./images/fr-mail-red-cream_NW.0.0
+EmptyImage[S][2]=./images/fr-mail-red-cream_N.0.0
+EmptyImage[SW][2]=./images/fr-mail-red-cream_NE.0.0
 

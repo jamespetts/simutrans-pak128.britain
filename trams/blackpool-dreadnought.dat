@@ -19,7 +19,8 @@ length=4
 weight=11.7
 axles=4
 cost=325000
-runningcost=57
+runningcost=18
+fixed_cost=6271
 
 is_tall=1
 sound=tom-tait-tram.wav

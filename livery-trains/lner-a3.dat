@@ -17,7 +17,8 @@ length=8
 
 weight=92
 cost=11718000
-runningcost=2508
+runningcost=1002
+fixed_cost=64413
 sound=-1
 
 Constraint[Next][0]=LNER-A1-Tender(Black)
@@ -50,7 +51,8 @@ length=8
 
 weight=92
 cost=11718000
-runningcost=2508
+runningcost=1002
+fixed_cost=64413
 sound=-1
 
 Constraint[Next][0]=LNER-A1-Tender(BRBlue)
@@ -83,7 +85,8 @@ length=8
 
 weight=92
 cost=11718000
-runningcost=2508
+runningcost=1002
+fixed_cost=64413
 sound=-1
 
 Constraint[Next][0]=LNER-A1-Tender(BRGreen)

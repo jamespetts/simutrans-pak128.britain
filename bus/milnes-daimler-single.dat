@@ -17,7 +17,8 @@ axles=2
 way_wear_factor=5
 length=4
 cost=82500
-runningcost=110
+runningcost=25
+fixed_cost=8043
 intro_year=1904
 intro_month=12
 # Guessed retirement date

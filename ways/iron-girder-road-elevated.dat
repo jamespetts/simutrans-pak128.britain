@@ -2,10 +2,10 @@ Obj=way
 Name=IronGirderElevatedRoad
 waytype=road
 system_type=1
-cost=20000
+cost=200000
 # Tarmac road
 way_only_cost=40000
-maintenance=400
+maintenance=5400
 topspeed=64
 max_weight=23
 intro_year=1896

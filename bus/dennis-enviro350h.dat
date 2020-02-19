@@ -21,7 +21,8 @@ range=100
 weight=18
 axles=2
 cost=7700000
-runningcost=52
+runningcost=42
+fixed_cost=14021
 sound=video47-volvo-b5h.wav
 
 comfort=43
@@ -66,7 +67,8 @@ range=100
 weight=18
 axles=2
 cost=7780000
-runningcost=53
+runningcost=42
+fixed_cost=14104
 sound=video47-volvo-b5h.wav
 
 comfort=43

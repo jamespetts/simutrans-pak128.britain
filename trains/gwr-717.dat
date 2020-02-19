@@ -1,0 +1,84 @@
+# https://en.wikipedia.org/wiki/GWR_56_Class
+obj=vehicle
+name=gwr-717
+engine_type=steam
+smoke=Steam
+speed=112
+# Extrapolated.
+# Assumed to be identical to the 806 class except in wheel size.
+power=193
+# Calculated from data given at Ahrons p. 266 with a loss factor of 0.75
+tractive_effort=52
+copyright=James/JamesPetts
+intro_year=1871
+intro_month=4
+retire_year=1881
+retire_month=7
+waytype=track
+freight=None
+payload=0
+length=4
+brake_force=0
+
+# Not given in sources
+# Guessed
+weight=39.8
+# Guessed
+axle_load=15
+cost=9933229
+runningcost=255
+fixed_cost=32709
+sound=nick-parry-gwr-city-class.wav
+
+Constraint[Next][0]=gwr-armstrong-tender
+
+liverytype[0]=GWR-early
+liverytype[1]=GWR-dark-green
+liverytype[2]=GWR-standard-green
+liverytype[3]=GWR-overall-brown
+liverytype[4]=WW1-Austerity
+
+EmptyImage[E][0]=./locomotives/gwr-717-early_E.0.0
+EmptyImage[SE][0]=./locomotives/gwr-717-early_SE.0.0
+EmptyImage[S][0]=./locomotives/gwr-717-early_S.0.0
+EmptyImage[SW][0]=./locomotives/gwr-717-early_SW.0.0
+EmptyImage[W][0]=./locomotives/gwr-717-early_W.0.0
+EmptyImage[NW][0]=./locomotives/gwr-717-early_NW.0.0
+EmptyImage[N][0]=./locomotives/gwr-717-early_N.0.0
+EmptyImage[NE][0]=./locomotives/gwr-717-early_NE.0.0
+
+EmptyImage[E][1]=./locomotives/gwr-717-dark-green_E.0.0
+EmptyImage[SE][1]=./locomotives/gwr-717-dark-green_SE.0.0
+EmptyImage[S][1]=./locomotives/gwr-717-dark-green_S.0.0
+EmptyImage[SW][1]=./locomotives/gwr-717-dark-green_SW.0.0
+EmptyImage[W][1]=./locomotives/gwr-717-dark-green_W.0.0
+EmptyImage[NW][1]=./locomotives/gwr-717-dark-green_NW.0.0
+EmptyImage[N][1]=./locomotives/gwr-717-dark-green_N.0.0
+EmptyImage[NE][1]=./locomotives/gwr-717-dark-green_NE.0.0
+
+EmptyImage[E][2]=./locomotives/gwr-717_E.0.0
+EmptyImage[SE][2]=./locomotives/gwr-717_SE.0.0
+EmptyImage[S][2]=./locomotives/gwr-717_S.0.0
+EmptyImage[SW][2]=./locomotives/gwr-717_SW.0.0
+EmptyImage[W][2]=./locomotives/gwr-717_W.0.0
+EmptyImage[NW][2]=./locomotives/gwr-717_NW.0.0
+EmptyImage[N][2]=./locomotives/gwr-717_N.0.0
+EmptyImage[NE][2]=./locomotives/gwr-717_NE.0.0
+
+EmptyImage[E][3]=./locomotives/gwr-717-churchward_E.0.0
+EmptyImage[SE][3]=./locomotives/gwr-717-churchward_SE.0.0
+EmptyImage[S][3]=./locomotives/gwr-717-churchward_S.0.0
+EmptyImage[SW][3]=./locomotives/gwr-717-churchward_SW.0.0
+EmptyImage[W][3]=./locomotives/gwr-717-churchward_W.0.0
+EmptyImage[NW][3]=./locomotives/gwr-717-churchward_NW.0.0
+EmptyImage[N][3]=./locomotives/gwr-717-churchward_N.0.0
+EmptyImage[NE][3]=./locomotives/gwr-717-churchward_NE.0.0
+
+EmptyImage[E][4]=./locomotives/gwr-717-ww1-austerity_E.0.0
+EmptyImage[SE][4]=./locomotives/gwr-717-ww1-austerity_SE.0.0
+EmptyImage[S][4]=./locomotives/gwr-717-ww1-austerity_S.0.0
+EmptyImage[SW][4]=./locomotives/gwr-717-ww1-austerity_SW.0.0
+EmptyImage[W][4]=./locomotives/gwr-717-ww1-austerity_W.0.0
+EmptyImage[NW][4]=./locomotives/gwr-717-ww1-austerity_NW.0.0
+EmptyImage[N][4]=./locomotives/gwr-717-ww1-austerity_N.0.0
+EmptyImage[NE][4]=./locomotives/gwr-717-ww1-austerity_NE.0.0

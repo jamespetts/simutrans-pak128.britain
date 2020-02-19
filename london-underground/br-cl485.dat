@@ -20,7 +20,9 @@ overcrowded_capacity=72
 weight=27
 axles=4
 upgrade_price=115000
-runningcost=5
+runningcost=30
+fixed_cost=7042
+cost=1250000
 sound=lul-1938-stock-ff3170.wav
 
 available_only_as_upgrade=1
@@ -91,7 +93,9 @@ overcrowded_capacity=126
 weight=17
 axles=4
 upgrade_price=45000
-runningcost=3
+runningcost=0
+fixed_cost=893
+cost=750000
 
 available_only_as_upgrade=1
 
@@ -163,7 +167,9 @@ overcrowded_capacity=114
 weight=17
 axles=4
 upgrade_price=45000
-runningcost=3
+runningcost=0
+fixed_cost=893
+cost=750000
 
 available_only_as_upgrade=1
 
@@ -236,7 +242,9 @@ overcrowded_capacity=72
 weight=27
 axles=4
 upgrade_price=115000
-runningcost=5
+runningcost=30
+fixed_cost=7042
+cost=1250000
 sound=lul-1938-stock-ff3170.wav
 
 available_only_as_upgrade=1

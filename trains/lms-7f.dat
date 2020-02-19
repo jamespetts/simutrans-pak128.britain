@@ -4,7 +4,7 @@ engine_type=steam
 smoke=Steam
 speed=95
 # Extrapolated
-power=331
+power=372
 tractive_effort=132
 copyright=James
 intro_year=1929
@@ -19,7 +19,8 @@ length=6
 weight=62
 axles=4
 cost=4286000
-runningcost=751
+runningcost=201
+fixed_cost=27572
 sound=lwalker-br-4mt-tank.wav
 increase_maintenance_after_years=23
 years_before_maintenance_max_reached=12
@@ -29,23 +30,23 @@ Constraint[Next][0]=LMS-7F-Tender
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
 
-EmptyImage[E][0]=./images/lms-7f.1.4
-EmptyImage[SE][0]=./images/lms-7f.1.5
-EmptyImage[S][0]=./images/lms-7f.1.6
-EmptyImage[SW][0]=./images/lms-7f.1.7
-EmptyImage[W][0]=./images/lms-7f.1.0
-EmptyImage[NW][0]=./images/lms-7f.1.1
-EmptyImage[N][0]=./images/lms-7f.1.2
-EmptyImage[NE][0]=./images/lms-7f.1.3
+EmptyImage[E][0]=./locomotives/lms-7f_E.0.0
+EmptyImage[SE][0]=./locomotives/lms-7f_SE.0.0
+EmptyImage[S][0]=./locomotives/lms-7f_S.0.0
+EmptyImage[SW][0]=./locomotives/lms-7f_SW.0.0
+EmptyImage[W][0]=./locomotives/lms-7f_W.0.0
+EmptyImage[NW][0]=./locomotives/lms-7f_NW.0.0
+EmptyImage[N][0]=./locomotives/lms-7f_N.0.0
+EmptyImage[NE][0]=./locomotives/lms-7f_NE.0.0
 
-EmptyImage[E][1]=./images/lms-7f-br.1.4
-EmptyImage[SE][1]=./images/lms-7f-br.1.5
-EmptyImage[S][1]=./images/lms-7f-br.1.6
-EmptyImage[SW][1]=./images/lms-7f-br.1.7
-EmptyImage[W][1]=./images/lms-7f-br.1.0
-EmptyImage[NW][1]=./images/lms-7f-br.1.1
-EmptyImage[N][1]=./images/lms-7f-br.1.2
-EmptyImage[NE][1]=./images/lms-7f-br.1.3
+EmptyImage[E][1]=./locomotives/lms-7f-br_E.0.0
+EmptyImage[SE][1]=./locomotives/lms-7f-br_SE.0.0
+EmptyImage[S][1]=./locomotives/lms-7f-br_S.0.0
+EmptyImage[SW][1]=./locomotives/lms-7f-br_SW.0.0
+EmptyImage[W][1]=./locomotives/lms-7f-br_W.0.0
+EmptyImage[NW][1]=./locomotives/lms-7f-br_NW.0.0
+EmptyImage[N][1]=./locomotives/lms-7f-br_N.0.0
+EmptyImage[NE][1]=./locomotives/lms-7f-br_NE.0.0
 
 ----
 
@@ -66,6 +67,7 @@ length=4
 weight=42
 cost=0
 runningcost=0
+fixed_cost=0
 
 increase_maintenance_after_years=23
 years_before_maintenance_max_reached=12
@@ -75,23 +77,23 @@ Constraint[Prev][0]=LMS-7F
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
 
-EmptyImage[E][0]=./images/lms-4f-tender.1.4
-EmptyImage[SE][0]=./images/lms-4f-tender.1.5
-EmptyImage[S][0]=./images/lms-4f-tender.1.6
-EmptyImage[SW][0]=./images/lms-4f-tender.1.7
-EmptyImage[W][0]=./images/lms-4f-tender.1.0
-EmptyImage[NW][0]=./images/lms-4f-tender.1.1
-EmptyImage[N][0]=./images/lms-4f-tender.1.2
-EmptyImage[NE][0]=./images/lms-4f-tender.1.3
+EmptyImage[E][0]=./locomotives/lms-4f-tender_E.0.0
+EmptyImage[SE][0]=./locomotives/lms-4f-tender_SE.0.0
+EmptyImage[S][0]=./locomotives/lms-4f-tender_S.0.0
+EmptyImage[SW][0]=./locomotives/lms-4f-tender_SW.0.0
+EmptyImage[W][0]=./locomotives/lms-4f-tender_W.0.0
+EmptyImage[NW][0]=./locomotives/lms-4f-tender_NW.0.0
+EmptyImage[N][0]=./locomotives/lms-4f-tender_N.0.0
+EmptyImage[NE][0]=./locomotives/lms-4f-tender_NE.0.0
 
-EmptyImage[E][1]=./images/lms-4f-tender-br.1.4
-EmptyImage[SE][1]=./images/lms-4f-tender-br.1.5
-EmptyImage[S][1]=./images/lms-4f-tender-br.1.6
-EmptyImage[SW][1]=./images/lms-4f-tender-br.1.7
-EmptyImage[W][1]=./images/lms-4f-tender-br.1.0
-EmptyImage[NW][1]=./images/lms-4f-tender-br.1.1
-EmptyImage[N][1]=./images/lms-4f-tender-br.1.2
-EmptyImage[NE][1]=./images/lms-4f-tender-br.1.3
+EmptyImage[E][1]=./locomotives/lms-4f-tender-br_E.0.0
+EmptyImage[SE][1]=./locomotives/lms-4f-tender-br_SE.0.0
+EmptyImage[S][1]=./locomotives/lms-4f-tender-br_S.0.0
+EmptyImage[SW][1]=./locomotives/lms-4f-tender-br_SW.0.0
+EmptyImage[W][1]=./locomotives/lms-4f-tender-br_W.0.0
+EmptyImage[NW][1]=./locomotives/lms-4f-tender-br_NW.0.0
+EmptyImage[N][1]=./locomotives/lms-4f-tender-br_N.0.0
+EmptyImage[NE][1]=./locomotives/lms-4f-tender-br_NE.0.0
 
 
 

@@ -21,7 +21,8 @@ length=6
 
 weight=8.7
 cost=7505000
-runningcost=137
+runningcost=59
+fixed_cost=11909
 sound=leyland-atlantean-an68-ff3170.wav
 
 comfort=43

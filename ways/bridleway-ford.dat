@@ -1,0 +1,26 @@
+# Bridleway ford of non-navigable streams and brooks
+# Disabled for the present pending a better algorithm for this.
+# Also - road should be the servient waytype at slot 1, and water the dominant waytype at slot 0, although this will need adjustment of the graphics below.
+#Obj=crossing
+Name=BridlewayFord
+waytype[0]=road
+waytype[1]=water
+speed[0]=8
+speed[1]=3
+intro_year=1750
+intro_month=1
+
+openimage[ew][0]=images/bridleway-ford.0.0
+openimage[ns][0]=images/bridleway-ford.0.1
+
+closedimage[ew][0]=images/bridleway-ford.0.0
+closedimage[ns][0]=images/bridleway-ford.0.1
+
+openimage[ew][1]=images/bridleway-ford.1.0
+openimage[ns][1]=images/bridleway-ford.1.1
+
+closedimage[ew][1]=images/bridleway-ford.1.0
+closedimage[ns][1]=images/bridleway-ford.1.1
+
+--
+

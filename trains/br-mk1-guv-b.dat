@@ -14,7 +14,8 @@ length=10
 weight=30
 axles=4
 cost=581000
-runningcost=29
+runningcost=0
+fixed_cost=692
 
 
 min_loading_time=30
@@ -23,6 +24,7 @@ max_loading_time=300
 can_lead_from_rear=0
 bidirectional=1
 
+Constraint[Prev][0]=any
 Constraint[Next][0]=any
 
 liverytype[0]=BR-Revised
@@ -30,40 +32,40 @@ liverytype[1]=RM-Early
 liverytype[2]=RM-Revised
 liverytype[3]=RES
 
-EmptyImage[E][0]=./images/br-mk1-guv-m.1.4
-EmptyImage[SE][0]=./images/br-mk1-guv-m.1.5
-EmptyImage[S][0]=./images/br-mk1-guv-m.1.6
-EmptyImage[SW][0]=./images/br-mk1-guv-m.1.7
-EmptyImage[W][0]=./images/br-mk1-guv-m.1.0
-EmptyImage[NW][0]=./images/br-mk1-guv-m.1.1
-EmptyImage[N][0]=./images/br-mk1-guv-m.1.2
-EmptyImage[NE][0]=./images/br-mk1-guv-m.1.3
+EmptyImage[E][0]=./carriages/br-mk1-guv-m_E.0.0
+EmptyImage[SE][0]=./carriages/br-mk1-guv-m_SE.0.0
+EmptyImage[S][0]=./carriages/br-mk1-guv-m_S.0.0
+EmptyImage[SW][0]=./carriages/br-mk1-guv-m_SW.0.0
+EmptyImage[W][0]=./carriages/br-mk1-guv-m_W.0.0
+EmptyImage[NW][0]=./carriages/br-mk1-guv-m_NW.0.0
+EmptyImage[N][0]=./carriages/br-mk1-guv-m_N.0.0
+EmptyImage[NE][0]=./carriages/br-mk1-guv-m_NE.0.0
 
-EmptyImage[E][1]=./images/br-mk1-guv-b.1.4
-EmptyImage[SE][1]=./images/br-mk1-guv-b.1.5
-EmptyImage[S][1]=./images/br-mk1-guv-b.1.6
-EmptyImage[SW][1]=./images/br-mk1-guv-b.1.7
-EmptyImage[W][1]=./images/br-mk1-guv-b.1.0
-EmptyImage[NW][1]=./images/br-mk1-guv-b.1.1
-EmptyImage[N][1]=./images/br-mk1-guv-b.1.2
-EmptyImage[NE][1]=./images/br-mk1-guv-b.1.3
+EmptyImage[E][1]=./carriages/br-mk1-guv-b_E.0.0
+EmptyImage[SE][1]=./carriages/br-mk1-guv-b_SE.0.0
+EmptyImage[S][1]=./carriages/br-mk1-guv-b_S.0.0
+EmptyImage[SW][1]=./carriages/br-mk1-guv-b_SW.0.0
+EmptyImage[W][1]=./carriages/br-mk1-guv-b_W.0.0
+EmptyImage[NW][1]=./carriages/br-mk1-guv-b_NW.0.0
+EmptyImage[N][1]=./carriages/br-mk1-guv-b_N.0.0
+EmptyImage[NE][1]=./carriages/br-mk1-guv-b_NE.0.0
 
-EmptyImage[E][2]=./images/br-mk1-guv-rm.1.4
-EmptyImage[SE][2]=./images/br-mk1-guv-rm.1.5
-EmptyImage[S][2]=./images/br-mk1-guv-rm.1.6
-EmptyImage[SW][2]=./images/br-mk1-guv-rm.1.7
-EmptyImage[W][2]=./images/br-mk1-guv-rm.1.0
-EmptyImage[NW][2]=./images/br-mk1-guv-rm.1.1
-EmptyImage[N][2]=./images/br-mk1-guv-rm.1.2
-EmptyImage[NE][2]=./images/br-mk1-guv-rm.1.3
+EmptyImage[E][2]=./carriages/br-mk1-guv-rm_E.0.0
+EmptyImage[SE][2]=./carriages/br-mk1-guv-rm_SE.0.0
+EmptyImage[S][2]=./carriages/br-mk1-guv-rm_S.0.0
+EmptyImage[SW][2]=./carriages/br-mk1-guv-rm_SW.0.0
+EmptyImage[W][2]=./carriages/br-mk1-guv-rm_W.0.0
+EmptyImage[NW][2]=./carriages/br-mk1-guv-rm_NW.0.0
+EmptyImage[N][2]=./carriages/br-mk1-guv-rm_N.0.0
+EmptyImage[NE][2]=./carriages/br-mk1-guv-rm_NE.0.0
 
-EmptyImage[E][3]=./images/br-mk1-guv-res.1.4
-EmptyImage[SE][3]=./images/br-mk1-guv-res.1.5
-EmptyImage[S][3]=./images/br-mk1-guv-res.1.6
-EmptyImage[SW][3]=./images/br-mk1-guv-res.1.7
-EmptyImage[W][3]=./images/br-mk1-guv-res.1.0
-EmptyImage[NW][3]=./images/br-mk1-guv-res.1.1
-EmptyImage[N][3]=./images/br-mk1-guv-res.1.2
-EmptyImage[NE][3]=./images/br-mk1-guv-res.1.3
+EmptyImage[E][3]=./carriages/br-mk1-guv-res_E.0.0
+EmptyImage[SE][3]=./carriages/br-mk1-guv-res_SE.0.0
+EmptyImage[S][3]=./carriages/br-mk1-guv-res_S.0.0
+EmptyImage[SW][3]=./carriages/br-mk1-guv-res_SW.0.0
+EmptyImage[W][3]=./carriages/br-mk1-guv-res_W.0.0
+EmptyImage[NW][3]=./carriages/br-mk1-guv-res_NW.0.0
+EmptyImage[N][3]=./carriages/br-mk1-guv-res_N.0.0
+EmptyImage[NE][3]=./carriages/br-mk1-guv-res_NE.0.0
 
 

@@ -22,7 +22,8 @@ is_tall=1
 weight=16.5
 axles=4
 cost=420000
-runningcost=60
+runningcost=38
+fixed_cost=6350
 sound=tom-tait-tram.wav
 
 upgrade[0]=lcc-e3-class

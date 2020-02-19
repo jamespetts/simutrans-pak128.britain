@@ -22,8 +22,8 @@ rolling_resistance=19
 weight=2.1
 axles=2
 cost=136000
-runningcost=8
-fixed_cost=57
+runningcost=0
+fixed_cost=283
 
 comfort[0]=0
 comfort[1]=0
@@ -34,6 +34,7 @@ max_loading_time=47
 can_lead_from_rear=0
 bidirectional=1
 
+Constraint[Prev][0]=any
 Constraint[Next][0]=any
 
 # TODO: Add liveries
@@ -44,14 +45,14 @@ liverytype[0]=LMR-Standard
 #liverytype[3]=GNR-early
 #liverytype[4]=LSWR-early
 
-EmptyImage[E][0]=./images/lbr-4wheel-open-second_E.0.0
-EmptyImage[SE][0]=./images/lbr-4wheel-open-second_SE.0.0
-EmptyImage[S][0]=./images/lbr-4wheel-open-second_S.0.0
-EmptyImage[SW][0]=./images/lbr-4wheel-open-second_SW.0.0
-EmptyImage[W][0]=./images/lbr-4wheel-open-second_W.0.0
-EmptyImage[NW][0]=./images/lbr-4wheel-open-second_NW.0.0
-EmptyImage[N][0]=./images/lbr-4wheel-open-second_N.0.0
-EmptyImage[NE][0]=./images/lbr-4wheel-open-second_NE.0.0
+EmptyImage[E][0]=./carriages/lbr-4wheel-open-second_E.0.0
+EmptyImage[SE][0]=./carriages/lbr-4wheel-open-second_SE.0.0
+EmptyImage[S][0]=./carriages/lbr-4wheel-open-second_S.0.0
+EmptyImage[SW][0]=./carriages/lbr-4wheel-open-second_SW.0.0
+EmptyImage[W][0]=./carriages/lbr-4wheel-open-second_W.0.0
+EmptyImage[NW][0]=./carriages/lbr-4wheel-open-second_NW.0.0
+EmptyImage[N][0]=./carriages/lbr-4wheel-open-second_N.0.0
+EmptyImage[NE][0]=./carriages/lbr-4wheel-open-second_NE.0.0
 
 ---
 
@@ -77,8 +78,8 @@ rolling_resistance=19
 weight=2.1
 axles=2
 cost=137000
-runningcost=8
-fixed_cost=4857
+runningcost=0
+fixed_cost=5085
 
 comfort[0]=0
 comfort[1]=0
@@ -97,11 +98,11 @@ liverytype[0]=LMR-Standard
 #liverytype[3]=GNR-early
 #liverytype[4]=LSWR-early
 
-EmptyImage[E][0]=./images/lbr-4wheel-open-second_E.0.0
-EmptyImage[SE][0]=./images/lbr-4wheel-open-second_SE.0.0
-EmptyImage[S][0]=./images/lbr-4wheel-open-second_S.0.0
-EmptyImage[SW][0]=./images/lbr-4wheel-open-second_SW.0.0
-EmptyImage[W][0]=./images/lbr-4wheel-open-second_W.0.0
-EmptyImage[NW][0]=./images/lbr-4wheel-open-second_NW.0.0
-EmptyImage[N][0]=./images/lbr-4wheel-open-second_N.0.0
-EmptyImage[NE][0]=./images/lbr-4wheel-open-second_NE.0.0
+EmptyImage[E][0]=./carriages/lbr-4wheel-open-second_E.0.0
+EmptyImage[SE][0]=./carriages/lbr-4wheel-open-second_SE.0.0
+EmptyImage[S][0]=./carriages/lbr-4wheel-open-second_S.0.0
+EmptyImage[SW][0]=./carriages/lbr-4wheel-open-second_SW.0.0
+EmptyImage[W][0]=./carriages/lbr-4wheel-open-second_W.0.0
+EmptyImage[NW][0]=./carriages/lbr-4wheel-open-second_NW.0.0
+EmptyImage[N][0]=./carriages/lbr-4wheel-open-second_N.0.0
+EmptyImage[NE][0]=./carriages/lbr-4wheel-open-second_NE.0.0

@@ -16,7 +16,8 @@ payload[1]=19
 weight=4.4
 #length=8
 cost=3200000
-runningcost=630
+runningcost=7
+fixed_cost=52222
 # http://www.maverickairlines.com/maverick-beechcraft1900-airplane.aspx
 intro_year=1984
 intro_month=2
@@ -65,7 +66,8 @@ payload[1]=2800
 weight=4.9
 #length=8
 cost=3200000
-runningcost=630
+runningcost=7
+fixed_cost=12222
 # http://www.maverickairlines.com/maverick-beechcraft1900-airplane.aspx
 intro_year=1984
 intro_month=2

@@ -30,18 +30,18 @@ way_wear_factor=45629
 weight=22
 axles=3
 cost=5280000
-runningcost=156
-fixed_cost=34200
+runningcost=126
+fixed_cost=31333
 sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=SDR-Derwent-Tender
 
-EmptyImage[E]=./images/sdr-derwent_E.0.0
-EmptyImage[SE]=./images/sdr-derwent_SE.0.0
-EmptyImage[S]=./images/sdr-derwent_S.0.0
-EmptyImage[SW]=./images/sdr-derwent_SW.0.0
-EmptyImage[W]=./images/sdr-derwent_W.0.0
-EmptyImage[NW]=./images/sdr-derwent_NW.0.0
-EmptyImage[N]=./images/sdr-derwent_N.0.0
-EmptyImage[NE]=./images/sdr-derwent_NE.0.0
+EmptyImage[E]=./locomotives/sdr-derwent_E.0.0
+EmptyImage[SE]=./locomotives/sdr-derwent_SE.0.0
+EmptyImage[S]=./locomotives/sdr-derwent_S.0.0
+EmptyImage[SW]=./locomotives/sdr-derwent_SW.0.0
+EmptyImage[W]=./locomotives/sdr-derwent_W.0.0
+EmptyImage[NW]=./locomotives/sdr-derwent_NW.0.0
+EmptyImage[N]=./locomotives/sdr-derwent_N.0.0
+EmptyImage[NE]=./locomotives/sdr-derwent_NE.0.0
 

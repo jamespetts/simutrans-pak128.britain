@@ -19,7 +19,8 @@ weight=33.0
 #length=8
 # £800,000 in 1956; £930,000 in 1958
 cost=15000000
-runningcost=3000
+runningcost=406
+fixed_cost=60417
 intro_year=1956
 intro_month=4
 retire_year=1958
@@ -75,7 +76,8 @@ weight=33.0
 #length=8
 # £800,000 in 1956; £930,000 in 1958
 cost=15000000
-runningcost=3000
+runningcost=406
+fixed_cost=60417
 intro_year=1956
 intro_month=4
 retire_year=1958

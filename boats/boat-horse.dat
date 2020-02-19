@@ -15,7 +15,7 @@ length=8
 weight=0.7
 cost=50000
 runningcost=3
-fixed_cost=813
+fixed_cost=6104
 
 sound=arnaud-coutancier-canal-horses.wav
 
@@ -47,31 +47,28 @@ Constraint[Next][16]=SteelHullUnpoweredNarrowboatBulk
 Constraint[Next][17]=SteelHullUnpoweredNarrowboatLong
 Constraint[Next][18]=SteelHullUnpoweredNarrowboatPiece
 Constraint[Next][19]=SteelHullUnpoweredNarrowboatCool
-Constraint[Next][20]=SteelHullUnpoweredNarrowboatMail
+Constraint[Next][20]=MarketBarge
 Constraint[Next][21]=SteelHullUnpoweredNarrowboatLivestock
 Constraint[Next][22]=SteelHullUnpoweredNarrowboatOil
 Constraint[Next][23]=CompositeHullUnpoweredNarrowboatBulk
 Constraint[Next][24]=CompositeHullUnpoweredNarrowboatLong
 Constraint[Next][25]=CompositeHullUnpoweredNarrowboatPiece
 Constraint[Next][26]=CompositeHullUnpoweredNarrowboatCool
-Constraint[Next][27]=CompositeHullUnpoweredNarrowboatMail
+Constraint[Next][27]=PacketBarge
 Constraint[Next][28]=CompositeHullUnpoweredNarrowboatLivestock
 Constraint[Next][29]=CompositeHullUnpoweredNarrowboatOil
 Constraint[Next][30]=WoodenHullUnpoweredNarrowboatBulk
 Constraint[Next][31]=WoodenHullUnpoweredNarrowboatLong
 Constraint[Next][32]=WoodenHullUnpoweredNarrowboatPiece
 Constraint[Next][33]=WoodenHullUnpoweredNarrowboatCool
-Constraint[Next][34]=WoodenHullUnpoweredNarrowboatMail
+Constraint[Next][34]=MarketNarrowboat
 Constraint[Next][35]=WoodenHullUnpoweredNarrowboatLivestock
 Constraint[Next][36]=WoodenHullUnpoweredNarrowboatOil
 Constraint[Next][37]=TubBoatBulk
 Constraint[Next][38]=TubBoatLong
 Constraint[Next][39]=TubBoatPiece
 Constraint[Next][40]=TubBoatCool
-Constraint[Next][41]=MarketBarge
-Constraint[Next][42]=MarketNarrowboat
-Constraint[Next][43]=PacketBarge
-Constraint[Next][44]=none
+Constraint[Next][41]=none
 
 EmptyImage[E]=./images/boat-horse-single.0.0
 EmptyImage[SE]=./images/boat-horse-single.0.1
@@ -98,8 +95,8 @@ length=8
 
 weight=1.4
 cost=100000
-runningcost=6
-fixed_cost=1250
+runningcost=12
+fixed_cost=3208
 
 sound=arnaud-coutancier-canal-horses.wav
 range=24
@@ -127,5 +124,3 @@ EmptyImage[W]=./images/boat-horse-double.0.4
 EmptyImage[NW]=./images/boat-horse-double.0.5
 EmptyImage[N]=./images/boat-horse-double.0.6
 EmptyImage[NE]=./images/boat-horse-double.0.7
----------------------------------
-

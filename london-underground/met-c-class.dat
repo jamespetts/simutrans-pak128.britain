@@ -24,7 +24,8 @@ way_wear_factor=50400
 weight=49.4
 axle_load=16
 cost=8950000
-runningcost=867
+runningcost=145
+fixed_cost=31458
 sound=lwalker-br-4mt-tank.wav
 
 bidirectional=1
@@ -32,12 +33,12 @@ bidirectional=1
 # This only seems to have had the one livery in Metropolitan days (unconfirmed).
 # However, it was nearly identical to the SECR Q class: consider adding that.
 
-EmptyImage[E]=./images/met-c-class.1.4
-EmptyImage[SE]=./images/met-c-class.1.5
-EmptyImage[S]=./images/met-c-class.1.6
-EmptyImage[SW]=./images/met-c-class.1.7
-EmptyImage[W]=./images/met-c-class.1.0
-EmptyImage[NW]=./images/met-c-class.1.1
-EmptyImage[N]=./images/met-c-class.1.2
-EmptyImage[NE]=./images/met-c-class.1.3
+EmptyImage[E]=./images/met-c-class_E.0.0
+EmptyImage[SE]=./images/met-c-class_SE.0.0
+EmptyImage[S]=./images/met-c-class_S.0.0
+EmptyImage[SW]=./images/met-c-class_SW.0.0
+EmptyImage[W]=./images/met-c-class_W.0.0
+EmptyImage[NW]=./images/met-c-class_NW.0.0
+EmptyImage[N]=./images/met-c-class_N.0.0
+EmptyImage[NE]=./images/met-c-class_NE.0.0
 

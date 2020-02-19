@@ -10,7 +10,7 @@ retire_month=8
 waytype=track
 freight=livestock
 payload=16
-length=5
+length=3
 brake_force=0
 rolling_resistance=17
 
@@ -19,23 +19,23 @@ weight=8
 axle_load=5
 way_wear_factor=12400
 cost=150000
-runningcost=6
-
-
+runningcost=0
+fixed_cost=63
 
 min_loading_time=300
 max_loading_time=900
 bidirectional=1
 
+Constraint[Prev][0]=any
 Constraint[Next][0]=any
 
-EmptyImage[E]=./images/wagon-livestock-16t.0.0
-EmptyImage[SE]=./images/wagon-livestock-16t.0.1
-EmptyImage[S]=./images/wagon-livestock-16t.0.2
-EmptyImage[SW]=./images/wagon-livestock-16t.0.3
-EmptyImage[W]=./images/wagon-livestock-16t.0.4
-EmptyImage[NW]=./images/wagon-livestock-16t.0.5
-EmptyImage[N]=./images/wagon-livestock-16t.0.6
-EmptyImage[NE]=./images/wagon-livestock-16t.0.7
+EmptyImage[E]=./wagons/wagon-livestock-16t_E.0.0
+EmptyImage[SE]=./wagons/wagon-livestock-16t_SE.0.0
+EmptyImage[S]=./wagons/wagon-livestock-16t_S.0.0
+EmptyImage[SW]=./wagons/wagon-livestock-16t_SW.0.0
+EmptyImage[W]=./wagons/wagon-livestock-16t_W.0.0
+EmptyImage[NW]=./wagons/wagon-livestock-16t_NW.0.0
+EmptyImage[N]=./wagons/wagon-livestock-16t_N.0.0
+EmptyImage[NE]=./wagons/wagon-livestock-16t_NE.0.0
 
 

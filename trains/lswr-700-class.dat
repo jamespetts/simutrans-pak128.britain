@@ -19,8 +19,9 @@ length=5
 weight=43.4
 axles=3
 cost=4650000
-runningcost=913
-
+runningcost=169
+fixed_cost=27875
+sound=lwalker-br-4mt-tank.wav
 
 can_lead_from_rear=0
 bidirectional=0
@@ -31,32 +32,32 @@ liverytype[0]=LSWR-royal-green
 liverytype[1]=SR-Olive-Green
 liverytype[2]=BR-Early
 
-EmptyImage[E][0]=./images/lswr-700-class-holly-green.1.4
-EmptyImage[SE][0]=./images/lswr-700-class-holly-green.1.5
-EmptyImage[S][0]=./images/lswr-700-class-holly-green.1.6
-EmptyImage[SW][0]=./images/lswr-700-class-holly-green.1.7
-EmptyImage[W][0]=./images/lswr-700-class-holly-green.1.0
-EmptyImage[NW][0]=./images/lswr-700-class-holly-green.1.1
-EmptyImage[N][0]=./images/lswr-700-class-holly-green.1.2
-EmptyImage[NE][0]=./images/lswr-700-class-holly-green.1.3
+EmptyImage[E][0]=./locomotives/lswr-700-class-holly-green_E.0.0
+EmptyImage[SE][0]=./locomotives/lswr-700-class-holly-green_SE.0.0
+EmptyImage[S][0]=./locomotives/lswr-700-class-holly-green_S.0.0
+EmptyImage[SW][0]=./locomotives/lswr-700-class-holly-green_SW.0.0
+EmptyImage[W][0]=./locomotives/lswr-700-class-holly-green_W.0.0
+EmptyImage[NW][0]=./locomotives/lswr-700-class-holly-green_NW.0.0
+EmptyImage[N][0]=./locomotives/lswr-700-class-holly-green_N.0.0
+EmptyImage[NE][0]=./locomotives/lswr-700-class-holly-green_NE.0.0
 
-EmptyImage[E][1]=./images/lswr-700-class-sr-black.1.4
-EmptyImage[SE][1]=./images/lswr-700-class-sr-black.1.5
-EmptyImage[S][1]=./images/lswr-700-class-sr-black.1.6
-EmptyImage[SW][1]=./images/lswr-700-class-sr-black.1.7
-EmptyImage[W][1]=./images/lswr-700-class-sr-black.1.0
-EmptyImage[NW][1]=./images/lswr-700-class-sr-black.1.1
-EmptyImage[N][1]=./images/lswr-700-class-sr-black.1.2
-EmptyImage[NE][1]=./images/lswr-700-class-sr-black.1.3
+EmptyImage[E][1]=./locomotives/lswr-700-class-sr-black_E.0.0
+EmptyImage[SE][1]=./locomotives/lswr-700-class-sr-black_SE.0.0
+EmptyImage[S][1]=./locomotives/lswr-700-class-sr-black_S.0.0
+EmptyImage[SW][1]=./locomotives/lswr-700-class-sr-black_SW.0.0
+EmptyImage[W][1]=./locomotives/lswr-700-class-sr-black_W.0.0
+EmptyImage[NW][1]=./locomotives/lswr-700-class-sr-black_NW.0.0
+EmptyImage[N][1]=./locomotives/lswr-700-class-sr-black_N.0.0
+EmptyImage[NE][1]=./locomotives/lswr-700-class-sr-black_NE.0.0
 
-EmptyImage[E][2]=./images/lswr-700-class-br.1.4
-EmptyImage[SE][2]=./images/lswr-700-class-br.1.5
-EmptyImage[S][2]=./images/lswr-700-class-br.1.6
-EmptyImage[SW][2]=./images/lswr-700-class-br.1.7
-EmptyImage[W][2]=./images/lswr-700-class-br.1.0
-EmptyImage[NW][2]=./images/lswr-700-class-br.1.1
-EmptyImage[N][2]=./images/lswr-700-class-br.1.2
-EmptyImage[NE][2]=./images/lswr-700-class-br.1.3
+EmptyImage[E][2]=./locomotives/lswr-700-class-br_E.0.0
+EmptyImage[SE][2]=./locomotives/lswr-700-class-br_SE.0.0
+EmptyImage[S][2]=./locomotives/lswr-700-class-br_S.0.0
+EmptyImage[SW][2]=./locomotives/lswr-700-class-br_SW.0.0
+EmptyImage[W][2]=./locomotives/lswr-700-class-br_W.0.0
+EmptyImage[NW][2]=./locomotives/lswr-700-class-br_NW.0.0
+EmptyImage[N][2]=./locomotives/lswr-700-class-br_N.0.0
+EmptyImage[NE][2]=./locomotives/lswr-700-class-br_NE.0.0
 
 ---
 
@@ -79,8 +80,10 @@ weight=33
 axles=3
 cost=0
 runningcost=0
+fixed_cost=0
 
 
+#fixed_coupling[prev]=1
 Constraint[Prev][0]=LSWR-700-class
 Constraint[Prev][1]=LSWR-700-class-superheated
 
@@ -88,29 +91,30 @@ liverytype[0]=LSWR-royal-green
 liverytype[1]=SR-Olive-Green
 liverytype[2]=BR-Early
 
-EmptyImage[E][0]=./images/lswr-6-wheel-tender-holly-green.1.4
-EmptyImage[SE][0]=./images/lswr-6-wheel-tender-holly-green.1.5
-EmptyImage[S][0]=./images/lswr-6-wheel-tender-holly-green.1.6
-EmptyImage[SW][0]=./images/lswr-6-wheel-tender-holly-green.1.7
-EmptyImage[W][0]=./images/lswr-6-wheel-tender-holly-green.1.0
-EmptyImage[NW][0]=./images/lswr-6-wheel-tender-holly-green.1.1
-EmptyImage[N][0]=./images/lswr-6-wheel-tender-holly-green.1.2
-EmptyImage[NE][0]=./images/lswr-6-wheel-tender-holly-green.1.3
 
-EmptyImage[E][1]=./images/lswr-6-wheel-tender-sr-black.1.4
-EmptyImage[SE][1]=./images/lswr-6-wheel-tender-sr-black.1.5
-EmptyImage[S][1]=./images/lswr-6-wheel-tender-sr-black.1.6
-EmptyImage[SW][1]=./images/lswr-6-wheel-tender-sr-black.1.7
-EmptyImage[W][1]=./images/lswr-6-wheel-tender-sr-black.1.0
-EmptyImage[NW][1]=./images/lswr-6-wheel-tender-sr-black.1.1
-EmptyImage[N][1]=./images/lswr-6-wheel-tender-sr-black.1.2
-EmptyImage[NE][1]=./images/lswr-6-wheel-tender-sr-black.1.3
+EmptyImage[E][0]=./locomotives/lswr-6-wheel-tender-holly-green.1.4
+EmptyImage[SE][0]=./locomotives/lswr-6-wheel-tender-holly-green.1.5
+EmptyImage[S][0]=./locomotives/lswr-6-wheel-tender-holly-green.1.6
+EmptyImage[SW][0]=./locomotives/lswr-6-wheel-tender-holly-green.1.7
+EmptyImage[W][0]=./locomotives/lswr-6-wheel-tender-holly-green.1.0
+EmptyImage[NW][0]=./locomotives/lswr-6-wheel-tender-holly-green.1.1
+EmptyImage[N][0]=./locomotives/lswr-6-wheel-tender-holly-green.1.2
+EmptyImage[NE][0]=./locomotives/lswr-6-wheel-tender-holly-green.1.3
 
-EmptyImage[E][2]=./images/lswr-6-wheel-tender-br-unlined.1.4
-EmptyImage[SE][2]=./images/lswr-6-wheel-tender-br-unlined.1.5
-EmptyImage[S][2]=./images/lswr-6-wheel-tender-br-unlined.1.6
-EmptyImage[SW][2]=./images/lswr-6-wheel-tender-br-unlined.1.7
-EmptyImage[W][2]=./images/lswr-6-wheel-tender-br-unlined.1.0
-EmptyImage[NW][2]=./images/lswr-6-wheel-tender-br-unlined.1.1
-EmptyImage[N][2]=./images/lswr-6-wheel-tender-br-unlined.1.2
-EmptyImage[NE][2]=./images/lswr-6-wheel-tender-br-unlined.1.3
+EmptyImage[E][1]=./locomotives/lswr-6-wheel-tender-sr-black.1.4
+EmptyImage[SE][1]=./locomotives/lswr-6-wheel-tender-sr-black.1.5
+EmptyImage[S][1]=./locomotives/lswr-6-wheel-tender-sr-black.1.6
+EmptyImage[SW][1]=./locomotives/lswr-6-wheel-tender-sr-black.1.7
+EmptyImage[W][1]=./locomotives/lswr-6-wheel-tender-sr-black.1.0
+EmptyImage[NW][1]=./locomotives/lswr-6-wheel-tender-sr-black.1.1
+EmptyImage[N][1]=./locomotives/lswr-6-wheel-tender-sr-black.1.2
+EmptyImage[NE][1]=./locomotives/lswr-6-wheel-tender-sr-black.1.3
+
+EmptyImage[E][2]=./locomotives/lswr-6-wheel-tender-br-unlined.1.4
+EmptyImage[SE][2]=./locomotives/lswr-6-wheel-tender-br-unlined.1.5
+EmptyImage[S][2]=./locomotives/lswr-6-wheel-tender-br-unlined.1.6
+EmptyImage[SW][2]=./locomotives/lswr-6-wheel-tender-br-unlined.1.7
+EmptyImage[W][2]=./locomotives/lswr-6-wheel-tender-br-unlined.1.0
+EmptyImage[NW][2]=./locomotives/lswr-6-wheel-tender-br-unlined.1.1
+EmptyImage[N][2]=./locomotives/lswr-6-wheel-tender-br-unlined.1.2
+EmptyImage[NE][2]=./locomotives/lswr-6-wheel-tender-br-unlined.1.3

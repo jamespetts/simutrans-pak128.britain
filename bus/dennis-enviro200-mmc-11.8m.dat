@@ -19,7 +19,8 @@ length=7
 weight=14.4
 axles=2
 cost=5150000
-runningcost=92
+runningcost=58
+fixed_cost=11365
 sound=the-bloke33-dennis-dart-modern.wav
 
 comfort=45
@@ -66,7 +67,8 @@ length=7
 weight=14.4
 axles=2
 cost=5550000
-runningcost=93
+runningcost=58
+fixed_cost=11781
 sound=the-bloke33-dennis-dart-modern.wav
 
 comfort=45

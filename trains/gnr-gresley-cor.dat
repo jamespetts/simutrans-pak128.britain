@@ -17,7 +17,8 @@ length=10
 weight=33
 axles=4
 cost=740000
-runningcost=33
+runningcost=0
+fixed_cost=881
 
 can_lead_from_rear=0
 bidirectional=1
@@ -78,32 +79,32 @@ liverytype[0]=GNR-Standard
 liverytype[1]=LNER-Standard
 liverytype[2]=BR-Early
 
-EmptyImage[E][0]=./images/gnr-gresley-cor.1.4
-EmptyImage[SE][0]=./images/gnr-gresley-cor.1.5
-EmptyImage[S][0]=./images/gnr-gresley-cor.1.6
-EmptyImage[SW][0]=./images/gnr-gresley-cor.1.7
-EmptyImage[W][0]=./images/gnr-gresley-cor.1.0
-EmptyImage[NW][0]=./images/gnr-gresley-cor.1.1
-EmptyImage[N][0]=./images/gnr-gresley-cor.1.2
-EmptyImage[NE][0]=./images/gnr-gresley-cor.1.3
+EmptyImage[E][0]=./carriages/gnr-gresley-cor.1.4
+EmptyImage[SE][0]=./carriages/gnr-gresley-cor.1.5
+EmptyImage[S][0]=./carriages/gnr-gresley-cor.1.6
+EmptyImage[SW][0]=./carriages/gnr-gresley-cor.1.7
+EmptyImage[W][0]=./carriages/gnr-gresley-cor.1.0
+EmptyImage[NW][0]=./carriages/gnr-gresley-cor.1.1
+EmptyImage[N][0]=./carriages/gnr-gresley-cor.1.2
+EmptyImage[NE][0]=./carriages/gnr-gresley-cor.1.3
 
-EmptyImage[E][1]=./images/gnr-gresley-cor.1.4
-EmptyImage[SE][1]=./images/gnr-gresley-cor.1.5
-EmptyImage[S][1]=./images/gnr-gresley-cor.1.6
-EmptyImage[SW][1]=./images/gnr-gresley-cor.1.7
-EmptyImage[W][1]=./images/gnr-gresley-cor.1.0
-EmptyImage[NW][1]=./images/gnr-gresley-cor.1.1
-EmptyImage[N][1]=./images/gnr-gresley-cor.1.2
-EmptyImage[NE][1]=./images/gnr-gresley-cor.1.3
+EmptyImage[E][1]=./carriages/gnr-gresley-cor.1.4
+EmptyImage[SE][1]=./carriages/gnr-gresley-cor.1.5
+EmptyImage[S][1]=./carriages/gnr-gresley-cor.1.6
+EmptyImage[SW][1]=./carriages/gnr-gresley-cor.1.7
+EmptyImage[W][1]=./carriages/gnr-gresley-cor.1.0
+EmptyImage[NW][1]=./carriages/gnr-gresley-cor.1.1
+EmptyImage[N][1]=./carriages/gnr-gresley-cor.1.2
+EmptyImage[NE][1]=./carriages/gnr-gresley-cor.1.3
 
-EmptyImage[E][2]=./images/gnr-gresley-cor-cc.1.4
-EmptyImage[SE][2]=./images/gnr-gresley-cor-cc.1.5
-EmptyImage[S][2]=./images/gnr-gresley-cor-cc.1.6
-EmptyImage[SW][2]=./images/gnr-gresley-cor-cc.1.7
-EmptyImage[W][2]=./images/gnr-gresley-cor-cc.1.0
-EmptyImage[NW][2]=./images/gnr-gresley-cor-cc.1.1
-EmptyImage[N][2]=./images/gnr-gresley-cor-cc.1.2
-EmptyImage[NE][2]=./images/gnr-gresley-cor-cc.1.3
+EmptyImage[E][2]=./carriages/gnr-gresley-cor-cc.1.4
+EmptyImage[SE][2]=./carriages/gnr-gresley-cor-cc.1.5
+EmptyImage[S][2]=./carriages/gnr-gresley-cor-cc.1.6
+EmptyImage[SW][2]=./carriages/gnr-gresley-cor-cc.1.7
+EmptyImage[W][2]=./carriages/gnr-gresley-cor-cc.1.0
+EmptyImage[NW][2]=./carriages/gnr-gresley-cor-cc.1.1
+EmptyImage[N][2]=./carriages/gnr-gresley-cor-cc.1.2
+EmptyImage[NE][2]=./carriages/gnr-gresley-cor-cc.1.3
 
 ---
 
@@ -126,7 +127,8 @@ length=10
 weight=32.7
 axles=4
 cost=735000
-runningcost=33
+runningcost=0
+fixed_cost=5675
 
 can_lead_from_rear=0
 bidirectional=1
@@ -163,32 +165,32 @@ liverytype[0]=GNR-Standard
 liverytype[1]=LNER-Standard
 liverytype[2]=BR-Early
 
-EmptyImage[E][0]=./images/gnr-gresley-cor-brake-front.1.4
-EmptyImage[SE][0]=./images/gnr-gresley-cor-brake-front.1.5
-EmptyImage[S][0]=./images/gnr-gresley-cor-brake-front.1.6
-EmptyImage[SW][0]=./images/gnr-gresley-cor-brake-front.1.7
-EmptyImage[W][0]=./images/gnr-gresley-cor-brake-front.1.0
-EmptyImage[NW][0]=./images/gnr-gresley-cor-brake-front.1.1
-EmptyImage[N][0]=./images/gnr-gresley-cor-brake-front.1.2
-EmptyImage[NE][0]=./images/gnr-gresley-cor-brake-front.1.3
+EmptyImage[E][0]=./carriages/gnr-gresley-cor-brake-front.1.4
+EmptyImage[SE][0]=./carriages/gnr-gresley-cor-brake-front.1.5
+EmptyImage[S][0]=./carriages/gnr-gresley-cor-brake-front.1.6
+EmptyImage[SW][0]=./carriages/gnr-gresley-cor-brake-front.1.7
+EmptyImage[W][0]=./carriages/gnr-gresley-cor-brake-front.1.0
+EmptyImage[NW][0]=./carriages/gnr-gresley-cor-brake-front.1.1
+EmptyImage[N][0]=./carriages/gnr-gresley-cor-brake-front.1.2
+EmptyImage[NE][0]=./carriages/gnr-gresley-cor-brake-front.1.3
 
-EmptyImage[E][1]=./images/gnr-gresley-cor-brake-front.1.4
-EmptyImage[SE][1]=./images/gnr-gresley-cor-brake-front.1.5
-EmptyImage[S][1]=./images/gnr-gresley-cor-brake-front.1.6
-EmptyImage[SW][1]=./images/gnr-gresley-cor-brake-front.1.7
-EmptyImage[W][1]=./images/gnr-gresley-cor-brake-front.1.0
-EmptyImage[NW][1]=./images/gnr-gresley-cor-brake-front.1.1
-EmptyImage[N][1]=./images/gnr-gresley-cor-brake-front.1.2
-EmptyImage[NE][1]=./images/gnr-gresley-cor-brake-front.1.3
+EmptyImage[E][1]=./carriages/gnr-gresley-cor-brake-front.1.4
+EmptyImage[SE][1]=./carriages/gnr-gresley-cor-brake-front.1.5
+EmptyImage[S][1]=./carriages/gnr-gresley-cor-brake-front.1.6
+EmptyImage[SW][1]=./carriages/gnr-gresley-cor-brake-front.1.7
+EmptyImage[W][1]=./carriages/gnr-gresley-cor-brake-front.1.0
+EmptyImage[NW][1]=./carriages/gnr-gresley-cor-brake-front.1.1
+EmptyImage[N][1]=./carriages/gnr-gresley-cor-brake-front.1.2
+EmptyImage[NE][1]=./carriages/gnr-gresley-cor-brake-front.1.3
 
-EmptyImage[E][2]=./images/gnr-gresley-cor-brake-front-cc.1.4
-EmptyImage[SE][2]=./images/gnr-gresley-cor-brake-front-cc.1.5
-EmptyImage[S][2]=./images/gnr-gresley-cor-brake-front-cc.1.6
-EmptyImage[SW][2]=./images/gnr-gresley-cor-brake-front-cc.1.7
-EmptyImage[W][2]=./images/gnr-gresley-cor-brake-front-cc.1.0
-EmptyImage[NW][2]=./images/gnr-gresley-cor-brake-front-cc.1.1
-EmptyImage[N][2]=./images/gnr-gresley-cor-brake-front-cc.1.2
-EmptyImage[NE][2]=./images/gnr-gresley-cor-brake-front-cc.1.3
+EmptyImage[E][2]=./carriages/gnr-gresley-cor-brake-front-cc.1.4
+EmptyImage[SE][2]=./carriages/gnr-gresley-cor-brake-front-cc.1.5
+EmptyImage[S][2]=./carriages/gnr-gresley-cor-brake-front-cc.1.6
+EmptyImage[SW][2]=./carriages/gnr-gresley-cor-brake-front-cc.1.7
+EmptyImage[W][2]=./carriages/gnr-gresley-cor-brake-front-cc.1.0
+EmptyImage[NW][2]=./carriages/gnr-gresley-cor-brake-front-cc.1.1
+EmptyImage[N][2]=./carriages/gnr-gresley-cor-brake-front-cc.1.2
+EmptyImage[NE][2]=./carriages/gnr-gresley-cor-brake-front-cc.1.3
 
 ---
 
@@ -211,7 +213,8 @@ length=10
 weight=32.7
 axles=4
 cost=735000
-runningcost=33
+runningcost=0
+fixed_cost=5675
 
 
 can_lead_from_rear=0
@@ -249,32 +252,32 @@ liverytype[0]=GNR-Standard
 liverytype[1]=LNER-Standard
 liverytype[2]=BR-Early
 
-EmptyImage[E][0]=./images/gnr-gresley-cor-brake-rear.1.4
-EmptyImage[SE][0]=./images/gnr-gresley-cor-brake-rear.1.5
-EmptyImage[S][0]=./images/gnr-gresley-cor-brake-rear.1.6
-EmptyImage[SW][0]=./images/gnr-gresley-cor-brake-rear.1.7
-EmptyImage[W][0]=./images/gnr-gresley-cor-brake-rear.1.0
-EmptyImage[NW][0]=./images/gnr-gresley-cor-brake-rear.1.1
-EmptyImage[N][0]=./images/gnr-gresley-cor-brake-rear.1.2
-EmptyImage[NE][0]=./images/gnr-gresley-cor-brake-rear.1.3
+EmptyImage[E][0]=./carriages/gnr-gresley-cor-brake-rear.1.4
+EmptyImage[SE][0]=./carriages/gnr-gresley-cor-brake-rear.1.5
+EmptyImage[S][0]=./carriages/gnr-gresley-cor-brake-rear.1.6
+EmptyImage[SW][0]=./carriages/gnr-gresley-cor-brake-rear.1.7
+EmptyImage[W][0]=./carriages/gnr-gresley-cor-brake-rear.1.0
+EmptyImage[NW][0]=./carriages/gnr-gresley-cor-brake-rear.1.1
+EmptyImage[N][0]=./carriages/gnr-gresley-cor-brake-rear.1.2
+EmptyImage[NE][0]=./carriages/gnr-gresley-cor-brake-rear.1.3
 
-EmptyImage[E][1]=./images/gnr-gresley-cor-brake-rear.1.4
-EmptyImage[SE][1]=./images/gnr-gresley-cor-brake-rear.1.5
-EmptyImage[S][1]=./images/gnr-gresley-cor-brake-rear.1.6
-EmptyImage[SW][1]=./images/gnr-gresley-cor-brake-rear.1.7
-EmptyImage[W][1]=./images/gnr-gresley-cor-brake-rear.1.0
-EmptyImage[NW][1]=./images/gnr-gresley-cor-brake-rear.1.1
-EmptyImage[N][1]=./images/gnr-gresley-cor-brake-rear.1.2
-EmptyImage[NE][1]=./images/gnr-gresley-cor-brake-rear.1.3
+EmptyImage[E][1]=./carriages/gnr-gresley-cor-brake-rear.1.4
+EmptyImage[SE][1]=./carriages/gnr-gresley-cor-brake-rear.1.5
+EmptyImage[S][1]=./carriages/gnr-gresley-cor-brake-rear.1.6
+EmptyImage[SW][1]=./carriages/gnr-gresley-cor-brake-rear.1.7
+EmptyImage[W][1]=./carriages/gnr-gresley-cor-brake-rear.1.0
+EmptyImage[NW][1]=./carriages/gnr-gresley-cor-brake-rear.1.1
+EmptyImage[N][1]=./carriages/gnr-gresley-cor-brake-rear.1.2
+EmptyImage[NE][1]=./carriages/gnr-gresley-cor-brake-rear.1.3
 
-EmptyImage[E][2]=./images/gnr-gresley-cor-brake-rear-cc.1.4
-EmptyImage[SE][2]=./images/gnr-gresley-cor-brake-rear-cc.1.5
-EmptyImage[S][2]=./images/gnr-gresley-cor-brake-rear-cc.1.6
-EmptyImage[SW][2]=./images/gnr-gresley-cor-brake-rear-cc.1.7
-EmptyImage[W][2]=./images/gnr-gresley-cor-brake-rear-cc.1.0
-EmptyImage[NW][2]=./images/gnr-gresley-cor-brake-rear-cc.1.1
-EmptyImage[N][2]=./images/gnr-gresley-cor-brake-rear-cc.1.2
-EmptyImage[NE][2]=./images/gnr-gresley-cor-brake-rear-cc.1.3
+EmptyImage[E][2]=./carriages/gnr-gresley-cor-brake-rear-cc.1.4
+EmptyImage[SE][2]=./carriages/gnr-gresley-cor-brake-rear-cc.1.5
+EmptyImage[S][2]=./carriages/gnr-gresley-cor-brake-rear-cc.1.6
+EmptyImage[SW][2]=./carriages/gnr-gresley-cor-brake-rear-cc.1.7
+EmptyImage[W][2]=./carriages/gnr-gresley-cor-brake-rear-cc.1.0
+EmptyImage[NW][2]=./carriages/gnr-gresley-cor-brake-rear-cc.1.1
+EmptyImage[N][2]=./carriages/gnr-gresley-cor-brake-rear-cc.1.2
+EmptyImage[NE][2]=./carriages/gnr-gresley-cor-brake-rear-cc.1.3
 
 ---
 
@@ -298,7 +301,8 @@ rolling_resistance=17
 weight=36
 axles=4
 cost=825000
-runningcost=75
+runningcost=0
+fixed_cost=18982
 
 can_lead_from_rear=0
 bidirectional=1
@@ -360,32 +364,32 @@ liverytype[0]=GNR-Standard
 liverytype[1]=LNER-Standard
 liverytype[2]=BR-Early
 
-EmptyImage[E][0]=./images/gnr-gresley-cor-dining.1.4
-EmptyImage[SE][0]=./images/gnr-gresley-cor-dining.1.5
-EmptyImage[S][0]=./images/gnr-gresley-cor-dining.1.6
-EmptyImage[SW][0]=./images/gnr-gresley-cor-dining.1.7
-EmptyImage[W][0]=./images/gnr-gresley-cor-dining.1.0
-EmptyImage[NW][0]=./images/gnr-gresley-cor-dining.1.1
-EmptyImage[N][0]=./images/gnr-gresley-cor-dining.1.2
-EmptyImage[NE][0]=./images/gnr-gresley-cor-dining.1.3
+EmptyImage[E][0]=./carriages/gnr-gresley-cor-dining.1.4
+EmptyImage[SE][0]=./carriages/gnr-gresley-cor-dining.1.5
+EmptyImage[S][0]=./carriages/gnr-gresley-cor-dining.1.6
+EmptyImage[SW][0]=./carriages/gnr-gresley-cor-dining.1.7
+EmptyImage[W][0]=./carriages/gnr-gresley-cor-dining.1.0
+EmptyImage[NW][0]=./carriages/gnr-gresley-cor-dining.1.1
+EmptyImage[N][0]=./carriages/gnr-gresley-cor-dining.1.2
+EmptyImage[NE][0]=./carriages/gnr-gresley-cor-dining.1.3
 
-EmptyImage[E][1]=./images/gnr-gresley-cor-dining.1.4
-EmptyImage[SE][1]=./images/gnr-gresley-cor-dining.1.5
-EmptyImage[S][1]=./images/gnr-gresley-cor-dining.1.6
-EmptyImage[SW][1]=./images/gnr-gresley-cor-dining.1.7
-EmptyImage[W][1]=./images/gnr-gresley-cor-dining.1.0
-EmptyImage[NW][1]=./images/gnr-gresley-cor-dining.1.1
-EmptyImage[N][1]=./images/gnr-gresley-cor-dining.1.2
-EmptyImage[NE][1]=./images/gnr-gresley-cor-dining.1.3
+EmptyImage[E][1]=./carriages/gnr-gresley-cor-dining.1.4
+EmptyImage[SE][1]=./carriages/gnr-gresley-cor-dining.1.5
+EmptyImage[S][1]=./carriages/gnr-gresley-cor-dining.1.6
+EmptyImage[SW][1]=./carriages/gnr-gresley-cor-dining.1.7
+EmptyImage[W][1]=./carriages/gnr-gresley-cor-dining.1.0
+EmptyImage[NW][1]=./carriages/gnr-gresley-cor-dining.1.1
+EmptyImage[N][1]=./carriages/gnr-gresley-cor-dining.1.2
+EmptyImage[NE][1]=./carriages/gnr-gresley-cor-dining.1.3
 
-EmptyImage[E][2]=./images/gnr-gresley-cor-dining-cc.1.4
-EmptyImage[SE][2]=./images/gnr-gresley-cor-dining-cc.1.5
-EmptyImage[S][2]=./images/gnr-gresley-cor-dining-cc.1.6
-EmptyImage[SW][2]=./images/gnr-gresley-cor-dining-cc.1.7
-EmptyImage[W][2]=./images/gnr-gresley-cor-dining-cc.1.0
-EmptyImage[NW][2]=./images/gnr-gresley-cor-dining-cc.1.1
-EmptyImage[N][2]=./images/gnr-gresley-cor-dining-cc.1.2
-EmptyImage[NE][2]=./images/gnr-gresley-cor-dining-cc.1.3
+EmptyImage[E][2]=./carriages/gnr-gresley-cor-dining-cc.1.4
+EmptyImage[SE][2]=./carriages/gnr-gresley-cor-dining-cc.1.5
+EmptyImage[S][2]=./carriages/gnr-gresley-cor-dining-cc.1.6
+EmptyImage[SW][2]=./carriages/gnr-gresley-cor-dining-cc.1.7
+EmptyImage[W][2]=./carriages/gnr-gresley-cor-dining-cc.1.0
+EmptyImage[NW][2]=./carriages/gnr-gresley-cor-dining-cc.1.1
+EmptyImage[N][2]=./carriages/gnr-gresley-cor-dining-cc.1.2
+EmptyImage[NE][2]=./carriages/gnr-gresley-cor-dining-cc.1.3
 
 ---
 
@@ -406,7 +410,8 @@ length=10
 weight=32
 axles=4
 cost=730000
-runningcost=33
+runningcost=0
+fixed_cost=5669
 
 can_lead_from_rear=0
 bidirectional=1
@@ -417,32 +422,32 @@ liverytype[0]=GNR-Standard
 liverytype[1]=LNER-Standard
 liverytype[2]=BR-Early
 
-EmptyImage[E][0]=./images/gnr-gresley-cor-parcels-brake.1.4
-EmptyImage[SE][0]=./images/gnr-gresley-cor-parcels-brake.1.5
-EmptyImage[S][0]=./images/gnr-gresley-cor-parcels-brake.1.6
-EmptyImage[SW][0]=./images/gnr-gresley-cor-parcels-brake.1.7
-EmptyImage[W][0]=./images/gnr-gresley-cor-parcels-brake.1.0
-EmptyImage[NW][0]=./images/gnr-gresley-cor-parcels-brake.1.1
-EmptyImage[N][0]=./images/gnr-gresley-cor-parcels-brake.1.2
-EmptyImage[NE][0]=./images/gnr-gresley-cor-parcels-brake.1.3
+EmptyImage[E][0]=./carriages/gnr-gresley-cor-parcels-brake.1.4
+EmptyImage[SE][0]=./carriages/gnr-gresley-cor-parcels-brake.1.5
+EmptyImage[S][0]=./carriages/gnr-gresley-cor-parcels-brake.1.6
+EmptyImage[SW][0]=./carriages/gnr-gresley-cor-parcels-brake.1.7
+EmptyImage[W][0]=./carriages/gnr-gresley-cor-parcels-brake.1.0
+EmptyImage[NW][0]=./carriages/gnr-gresley-cor-parcels-brake.1.1
+EmptyImage[N][0]=./carriages/gnr-gresley-cor-parcels-brake.1.2
+EmptyImage[NE][0]=./carriages/gnr-gresley-cor-parcels-brake.1.3
 
-EmptyImage[E][1]=./images/gnr-gresley-cor-parcels-brake.1.4
-EmptyImage[SE][1]=./images/gnr-gresley-cor-parcels-brake.1.5
-EmptyImage[S][1]=./images/gnr-gresley-cor-parcels-brake.1.6
-EmptyImage[SW][1]=./images/gnr-gresley-cor-parcels-brake.1.7
-EmptyImage[W][1]=./images/gnr-gresley-cor-parcels-brake.1.0
-EmptyImage[NW][1]=./images/gnr-gresley-cor-parcels-brake.1.1
-EmptyImage[N][1]=./images/gnr-gresley-cor-parcels-brake.1.2
-EmptyImage[NE][1]=./images/gnr-gresley-cor-parcels-brake.1.3
+EmptyImage[E][1]=./carriages/gnr-gresley-cor-parcels-brake.1.4
+EmptyImage[SE][1]=./carriages/gnr-gresley-cor-parcels-brake.1.5
+EmptyImage[S][1]=./carriages/gnr-gresley-cor-parcels-brake.1.6
+EmptyImage[SW][1]=./carriages/gnr-gresley-cor-parcels-brake.1.7
+EmptyImage[W][1]=./carriages/gnr-gresley-cor-parcels-brake.1.0
+EmptyImage[NW][1]=./carriages/gnr-gresley-cor-parcels-brake.1.1
+EmptyImage[N][1]=./carriages/gnr-gresley-cor-parcels-brake.1.2
+EmptyImage[NE][1]=./carriages/gnr-gresley-cor-parcels-brake.1.3
 
-EmptyImage[E][2]=./images/gnr-gresley-cor-parcels-brake-cc.1.4
-EmptyImage[SE][2]=./images/gnr-gresley-cor-parcels-brake-cc.1.5
-EmptyImage[S][2]=./images/gnr-gresley-cor-parcels-brake-cc.1.6
-EmptyImage[SW][2]=./images/gnr-gresley-cor-parcels-brake-cc.1.7
-EmptyImage[W][2]=./images/gnr-gresley-cor-parcels-brake-cc.1.0
-EmptyImage[NW][2]=./images/gnr-gresley-cor-parcels-brake-cc.1.1
-EmptyImage[N][2]=./images/gnr-gresley-cor-parcels-brake-cc.1.2
-EmptyImage[NE][2]=./images/gnr-gresley-cor-parcels-brake-cc.1.3
+EmptyImage[E][2]=./carriages/gnr-gresley-cor-parcels-brake-cc.1.4
+EmptyImage[SE][2]=./carriages/gnr-gresley-cor-parcels-brake-cc.1.5
+EmptyImage[S][2]=./carriages/gnr-gresley-cor-parcels-brake-cc.1.6
+EmptyImage[SW][2]=./carriages/gnr-gresley-cor-parcels-brake-cc.1.7
+EmptyImage[W][2]=./carriages/gnr-gresley-cor-parcels-brake-cc.1.0
+EmptyImage[NW][2]=./carriages/gnr-gresley-cor-parcels-brake-cc.1.1
+EmptyImage[N][2]=./carriages/gnr-gresley-cor-parcels-brake-cc.1.2
+EmptyImage[NE][2]=./carriages/gnr-gresley-cor-parcels-brake-cc.1.3
 
 ---
 
@@ -463,7 +468,8 @@ length=10
 weight=32
 axles=4
 cost=730000
-runningcost=33
+runningcost=0
+fixed_cost=304
 
 can_lead_from_rear=0
 bidirectional=1
@@ -522,32 +528,32 @@ liverytype[0]=GNR-Standard
 liverytype[1]=LNER-Standard
 liverytype[2]=BR-Early
 
-EmptyImage[E][0]=./images/gnr-gresley-cor-mail.1.4
-EmptyImage[SE][0]=./images/gnr-gresley-cor-mail.1.5
-EmptyImage[S][0]=./images/gnr-gresley-cor-mail.1.6
-EmptyImage[SW][0]=./images/gnr-gresley-cor-mail.1.7
-EmptyImage[W][0]=./images/gnr-gresley-cor-mail.1.0
-EmptyImage[NW][0]=./images/gnr-gresley-cor-mail.1.1
-EmptyImage[N][0]=./images/gnr-gresley-cor-mail.1.2
-EmptyImage[NE][0]=./images/gnr-gresley-cor-mail.1.3
+EmptyImage[E][0]=./carriages/gnr-gresley-cor-mail.1.4
+EmptyImage[SE][0]=./carriages/gnr-gresley-cor-mail.1.5
+EmptyImage[S][0]=./carriages/gnr-gresley-cor-mail.1.6
+EmptyImage[SW][0]=./carriages/gnr-gresley-cor-mail.1.7
+EmptyImage[W][0]=./carriages/gnr-gresley-cor-mail.1.0
+EmptyImage[NW][0]=./carriages/gnr-gresley-cor-mail.1.1
+EmptyImage[N][0]=./carriages/gnr-gresley-cor-mail.1.2
+EmptyImage[NE][0]=./carriages/gnr-gresley-cor-mail.1.3
 
-EmptyImage[E][1]=./images/gnr-gresley-cor-mail.1.4
-EmptyImage[SE][1]=./images/gnr-gresley-cor-mail.1.5
-EmptyImage[S][1]=./images/gnr-gresley-cor-mail.1.6
-EmptyImage[SW][1]=./images/gnr-gresley-cor-mail.1.7
-EmptyImage[W][1]=./images/gnr-gresley-cor-mail.1.0
-EmptyImage[NW][1]=./images/gnr-gresley-cor-mail.1.1
-EmptyImage[N][1]=./images/gnr-gresley-cor-mail.1.2
-EmptyImage[NE][1]=./images/gnr-gresley-cor-mail.1.3
+EmptyImage[E][1]=./carriages/gnr-gresley-cor-mail.1.4
+EmptyImage[SE][1]=./carriages/gnr-gresley-cor-mail.1.5
+EmptyImage[S][1]=./carriages/gnr-gresley-cor-mail.1.6
+EmptyImage[SW][1]=./carriages/gnr-gresley-cor-mail.1.7
+EmptyImage[W][1]=./carriages/gnr-gresley-cor-mail.1.0
+EmptyImage[NW][1]=./carriages/gnr-gresley-cor-mail.1.1
+EmptyImage[N][1]=./carriages/gnr-gresley-cor-mail.1.2
+EmptyImage[NE][1]=./carriages/gnr-gresley-cor-mail.1.3
 
-EmptyImage[E][2]=./images/gnr-gresley-cor-mail-cc.1.4
-EmptyImage[SE][2]=./images/gnr-gresley-cor-mail-cc.1.5
-EmptyImage[S][2]=./images/gnr-gresley-cor-mail-cc.1.6
-EmptyImage[SW][2]=./images/gnr-gresley-cor-mail-cc.1.7
-EmptyImage[W][2]=./images/gnr-gresley-cor-mail-cc.1.0
-EmptyImage[NW][2]=./images/gnr-gresley-cor-mail-cc.1.1
-EmptyImage[N][2]=./images/gnr-gresley-cor-mail-cc.1.2
-EmptyImage[NE][2]=./images/gnr-gresley-cor-mail-cc.1.3
+EmptyImage[E][2]=./carriages/gnr-gresley-cor-mail-cc.1.4
+EmptyImage[SE][2]=./carriages/gnr-gresley-cor-mail-cc.1.5
+EmptyImage[S][2]=./carriages/gnr-gresley-cor-mail-cc.1.6
+EmptyImage[SW][2]=./carriages/gnr-gresley-cor-mail-cc.1.7
+EmptyImage[W][2]=./carriages/gnr-gresley-cor-mail-cc.1.0
+EmptyImage[NW][2]=./carriages/gnr-gresley-cor-mail-cc.1.1
+EmptyImage[N][2]=./carriages/gnr-gresley-cor-mail-cc.1.2
+EmptyImage[NE][2]=./carriages/gnr-gresley-cor-mail-cc.1.3
 
 ---
 
@@ -568,7 +574,8 @@ length=10
 weight=32
 axles=4
 cost=730000
-runningcost=68
+runningcost=0
+fixed_cost=24304
 
 can_lead_from_rear=0
 bidirectional=1
@@ -628,29 +635,29 @@ liverytype[0]=GNR-Standard
 liverytype[1]=LNER-Standard
 liverytype[2]=BR-Early
 
-EmptyImage[E][0]=./images/gnr-gresley-cor-tpo.1.4
-EmptyImage[SE][0]=./images/gnr-gresley-cor-tpo.1.5
-EmptyImage[S][0]=./images/gnr-gresley-cor-tpo.1.6
-EmptyImage[SW][0]=./images/gnr-gresley-cor-tpo.1.7
-EmptyImage[W][0]=./images/gnr-gresley-cor-tpo.1.0
-EmptyImage[NW][0]=./images/gnr-gresley-cor-tpo.1.1
-EmptyImage[N][0]=./images/gnr-gresley-cor-tpo.1.2
-EmptyImage[NE][0]=./images/gnr-gresley-cor-tpo.1.3
+EmptyImage[E][0]=./carriages/gnr-gresley-cor-tpo.1.4
+EmptyImage[SE][0]=./carriages/gnr-gresley-cor-tpo.1.5
+EmptyImage[S][0]=./carriages/gnr-gresley-cor-tpo.1.6
+EmptyImage[SW][0]=./carriages/gnr-gresley-cor-tpo.1.7
+EmptyImage[W][0]=./carriages/gnr-gresley-cor-tpo.1.0
+EmptyImage[NW][0]=./carriages/gnr-gresley-cor-tpo.1.1
+EmptyImage[N][0]=./carriages/gnr-gresley-cor-tpo.1.2
+EmptyImage[NE][0]=./carriages/gnr-gresley-cor-tpo.1.3
 
-EmptyImage[E][1]=./images/gnr-gresley-cor-tpo.1.4
-EmptyImage[SE][1]=./images/gnr-gresley-cor-tpo.1.5
-EmptyImage[S][1]=./images/gnr-gresley-cor-tpo.1.6
-EmptyImage[SW][1]=./images/gnr-gresley-cor-tpo.1.7
-EmptyImage[W][1]=./images/gnr-gresley-cor-tpo.1.0
-EmptyImage[NW][1]=./images/gnr-gresley-cor-tpo.1.1
-EmptyImage[N][1]=./images/gnr-gresley-cor-tpo.1.2
-EmptyImage[NE][1]=./images/gnr-gresley-cor-tpo.1.3
+EmptyImage[E][1]=./carriages/gnr-gresley-cor-tpo.1.4
+EmptyImage[SE][1]=./carriages/gnr-gresley-cor-tpo.1.5
+EmptyImage[S][1]=./carriages/gnr-gresley-cor-tpo.1.6
+EmptyImage[SW][1]=./carriages/gnr-gresley-cor-tpo.1.7
+EmptyImage[W][1]=./carriages/gnr-gresley-cor-tpo.1.0
+EmptyImage[NW][1]=./carriages/gnr-gresley-cor-tpo.1.1
+EmptyImage[N][1]=./carriages/gnr-gresley-cor-tpo.1.2
+EmptyImage[NE][1]=./carriages/gnr-gresley-cor-tpo.1.3
 
-EmptyImage[E][2]=./images/gnr-gresley-cor-tpo-cc.1.4
-EmptyImage[SE][2]=./images/gnr-gresley-cor-tpo-cc.1.5
-EmptyImage[S][2]=./images/gnr-gresley-cor-tpo-cc.1.6
-EmptyImage[SW][2]=./images/gnr-gresley-cor-tpo-cc.1.7
-EmptyImage[W][2]=./images/gnr-gresley-cor-tpo-cc.1.0
-EmptyImage[NW][2]=./images/gnr-gresley-cor-tpo-cc.1.1
-EmptyImage[N][2]=./images/gnr-gresley-cor-tpo-cc.1.2
-EmptyImage[NE][2]=./images/gnr-gresley-cor-tpo-cc.1.3
+EmptyImage[E][2]=./carriages/gnr-gresley-cor-tpo-cc.1.4
+EmptyImage[SE][2]=./carriages/gnr-gresley-cor-tpo-cc.1.5
+EmptyImage[S][2]=./carriages/gnr-gresley-cor-tpo-cc.1.6
+EmptyImage[SW][2]=./carriages/gnr-gresley-cor-tpo-cc.1.7
+EmptyImage[W][2]=./carriages/gnr-gresley-cor-tpo-cc.1.0
+EmptyImage[NW][2]=./carriages/gnr-gresley-cor-tpo-cc.1.1
+EmptyImage[N][2]=./carriages/gnr-gresley-cor-tpo-cc.1.2
+EmptyImage[NE][2]=./carriages/gnr-gresley-cor-tpo-cc.1.3

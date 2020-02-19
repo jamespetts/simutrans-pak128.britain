@@ -3,8 +3,8 @@ name=LNWR-precursor-webb
 engine_type=steam
 smoke=Steam
 speed=112
-# Extrapolated.
-power=204
+# Extrapolated
+power=180
 tractive_effort=53
 copyright=James/JamesPetts
 intro_year=1874
@@ -20,18 +20,18 @@ brake_force=0
 weight=33
 axle_load=12
 cost=9021000
-runningcost=315
-fixed_cost=27759
+runningcost=246
+fixed_cost=31518
 sound=lwalker-br-4mt-tank.wav
 upgrade[0]=LNWR-Jumbo
 
 Constraint[Next][0]=LNWR-Precedent-Tender
 
-EmptyImage[E]=./images/lnwr-precursor-webb.1.4
-EmptyImage[SE]=./images/lnwr-precursor-webb.1.5
-EmptyImage[S]=./images/lnwr-precursor-webb.1.6
-EmptyImage[SW]=./images/lnwr-precursor-webb.1.7
-EmptyImage[W]=./images/lnwr-precursor-webb.1.0
-EmptyImage[NW]=./images/lnwr-precursor-webb.1.1
-EmptyImage[N]=./images/lnwr-precursor-webb.1.2
-EmptyImage[NE]=./images/lnwr-precursor-webb.1.3
+EmptyImage[E]=./locomotives/lnwr-precursor-webb_E.0.0
+EmptyImage[SE]=./locomotives/lnwr-precursor-webb_SE.0.0
+EmptyImage[S]=./locomotives/lnwr-precursor-webb_S.0.0
+EmptyImage[SW]=./locomotives/lnwr-precursor-webb_SW.0.0
+EmptyImage[W]=./locomotives/lnwr-precursor-webb_W.0.0
+EmptyImage[NW]=./locomotives/lnwr-precursor-webb_NW.0.0
+EmptyImage[N]=./locomotives/lnwr-precursor-webb_N.0.0
+EmptyImage[NE]=./locomotives/lnwr-precursor-webb_NE.0.0

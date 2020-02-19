@@ -20,7 +20,7 @@ weight=0.8
 axle_load=0
 cost=45000
 runningcost=3
-fixed_cost=813
+fixed_cost=94
 
 sound=ylearkisto-horse.wav
 
@@ -57,7 +57,7 @@ weight=1.6
 axle_load=0
 cost=90000
 runningcost=5
-fixed_cost=1125
+fixed_cost=188
 
 sound=ylearkisto-horse.wav
 

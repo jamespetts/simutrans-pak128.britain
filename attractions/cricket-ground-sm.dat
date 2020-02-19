@@ -5,7 +5,11 @@ Build_Time=1500
 intro_year=1835
 intro_month=4
 Chance=30
-population_and_visitor_demand_capacity=400
+# Estimate capacity of 5,000
+# Dividing by 7 on the basis that only 1 day in 7 would the stadium be operating
+# yields 714/day, / 16 hours * 6.4 hours = 285
+# Divide by 2 for meters/tile adjustment
+population_and_visitor_demand_capacity=142
 employment_capacity=12
 mail_demand=5
 class_proportion[0]=0

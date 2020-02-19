@@ -17,7 +17,8 @@ length=10
 weight=32
 axles=4
 cost=579000
-runningcost=29
+runningcost=0
+fixed_cost=689
 
 can_lead_from_rear=0
 bidirectional=1
@@ -84,23 +85,23 @@ Constraint[Next][25]=secr-utility-van
 liverytype[0]=SR-Malachite-Green
 liverytype[1]=BR-Early
 
-EmptyImage[E][0]=./images/sr-bulleid-cor-all-doors.1.4
-EmptyImage[SE][0]=./images/sr-bulleid-cor-all-doors.1.5
-EmptyImage[S][0]=./images/sr-bulleid-cor-all-doors.1.6
-EmptyImage[SW][0]=./images/sr-bulleid-cor-all-doors.1.7
-EmptyImage[W][0]=./images/sr-bulleid-cor-all-doors.1.0
-EmptyImage[NW][0]=./images/sr-bulleid-cor-all-doors.1.1
-EmptyImage[N][0]=./images/sr-bulleid-cor-all-doors.1.2
-EmptyImage[NE][0]=./images/sr-bulleid-cor-all-doors.1.3
+EmptyImage[E][0]=./carriages/sr-bulleid-cor-all-doors.1.4
+EmptyImage[SE][0]=./carriages/sr-bulleid-cor-all-doors.1.5
+EmptyImage[S][0]=./carriages/sr-bulleid-cor-all-doors.1.6
+EmptyImage[SW][0]=./carriages/sr-bulleid-cor-all-doors.1.7
+EmptyImage[W][0]=./carriages/sr-bulleid-cor-all-doors.1.0
+EmptyImage[NW][0]=./carriages/sr-bulleid-cor-all-doors.1.1
+EmptyImage[N][0]=./carriages/sr-bulleid-cor-all-doors.1.2
+EmptyImage[NE][0]=./carriages/sr-bulleid-cor-all-doors.1.3
 
-EmptyImage[E][1]=./images/sr-bulleid-cor-all-doors-br.1.4
-EmptyImage[SE][1]=./images/sr-bulleid-cor-all-doors-br.1.5
-EmptyImage[S][1]=./images/sr-bulleid-cor-all-doors-br.1.6
-EmptyImage[SW][1]=./images/sr-bulleid-cor-all-doors-br.1.7
-EmptyImage[W][1]=./images/sr-bulleid-cor-all-doors-br.1.0
-EmptyImage[NW][1]=./images/sr-bulleid-cor-all-doors-br.1.1
-EmptyImage[N][1]=./images/sr-bulleid-cor-all-doors-br.1.2
-EmptyImage[NE][1]=./images/sr-bulleid-cor-all-doors-br.1.3
+EmptyImage[E][1]=./carriages/sr-bulleid-cor-all-doors-br.1.4
+EmptyImage[SE][1]=./carriages/sr-bulleid-cor-all-doors-br.1.5
+EmptyImage[S][1]=./carriages/sr-bulleid-cor-all-doors-br.1.6
+EmptyImage[SW][1]=./carriages/sr-bulleid-cor-all-doors-br.1.7
+EmptyImage[W][1]=./carriages/sr-bulleid-cor-all-doors-br.1.0
+EmptyImage[NW][1]=./carriages/sr-bulleid-cor-all-doors-br.1.1
+EmptyImage[N][1]=./carriages/sr-bulleid-cor-all-doors-br.1.2
+EmptyImage[NE][1]=./carriages/sr-bulleid-cor-all-doors-br.1.3
 
 ----
 
@@ -122,7 +123,8 @@ length=10
 weight=32
 axles=4
 cost=579000
-runningcost=29
+runningcost=0
+fixed_cost=5489
 
 can_lead_from_rear=0
 bidirectional=1
@@ -163,23 +165,23 @@ Constraint[Next][26]=none
 liverytype[0]=SR-Malachite-Green
 liverytype[1]=BR-Early
 
-EmptyImage[E][0]=./images/sr-bulleid-cor-all-doors-brake-front.1.4
-EmptyImage[SE][0]=./images/sr-bulleid-cor-all-doors-brake-front.1.5
-EmptyImage[S][0]=./images/sr-bulleid-cor-all-doors-brake-front.1.6
-EmptyImage[SW][0]=./images/sr-bulleid-cor-all-doors-brake-front.1.7
-EmptyImage[W][0]=./images/sr-bulleid-cor-all-doors-brake-front.1.0
-EmptyImage[NW][0]=./images/sr-bulleid-cor-all-doors-brake-front.1.1
-EmptyImage[N][0]=./images/sr-bulleid-cor-all-doors-brake-front.1.2
-EmptyImage[NE][0]=./images/sr-bulleid-cor-all-doors-brake-front.1.3
+EmptyImage[E][0]=./carriages/sr-bulleid-cor-all-doors-brake-front.1.4
+EmptyImage[SE][0]=./carriages/sr-bulleid-cor-all-doors-brake-front.1.5
+EmptyImage[S][0]=./carriages/sr-bulleid-cor-all-doors-brake-front.1.6
+EmptyImage[SW][0]=./carriages/sr-bulleid-cor-all-doors-brake-front.1.7
+EmptyImage[W][0]=./carriages/sr-bulleid-cor-all-doors-brake-front.1.0
+EmptyImage[NW][0]=./carriages/sr-bulleid-cor-all-doors-brake-front.1.1
+EmptyImage[N][0]=./carriages/sr-bulleid-cor-all-doors-brake-front.1.2
+EmptyImage[NE][0]=./carriages/sr-bulleid-cor-all-doors-brake-front.1.3
 
-EmptyImage[E][1]=./images/sr-bulleid-cor-all-doors-brake-front-br.1.4
-EmptyImage[SE][1]=./images/sr-bulleid-cor-all-doors-brake-front-br.1.5
-EmptyImage[S][1]=./images/sr-bulleid-cor-all-doors-brake-front-br.1.6
-EmptyImage[SW][1]=./images/sr-bulleid-cor-all-doors-brake-front-br.1.7
-EmptyImage[W][1]=./images/sr-bulleid-cor-all-doors-brake-front-br.1.0
-EmptyImage[NW][1]=./images/sr-bulleid-cor-all-doors-brake-front-br.1.1
-EmptyImage[N][1]=./images/sr-bulleid-cor-all-doors-brake-front-br.1.2
-EmptyImage[NE][1]=./images/sr-bulleid-cor-all-doors-brake-front-br.1.3
+EmptyImage[E][1]=./carriages/sr-bulleid-cor-all-doors-brake-front-br.1.4
+EmptyImage[SE][1]=./carriages/sr-bulleid-cor-all-doors-brake-front-br.1.5
+EmptyImage[S][1]=./carriages/sr-bulleid-cor-all-doors-brake-front-br.1.6
+EmptyImage[SW][1]=./carriages/sr-bulleid-cor-all-doors-brake-front-br.1.7
+EmptyImage[W][1]=./carriages/sr-bulleid-cor-all-doors-brake-front-br.1.0
+EmptyImage[NW][1]=./carriages/sr-bulleid-cor-all-doors-brake-front-br.1.1
+EmptyImage[N][1]=./carriages/sr-bulleid-cor-all-doors-brake-front-br.1.2
+EmptyImage[NE][1]=./carriages/sr-bulleid-cor-all-doors-brake-front-br.1.3
 
 ----
 
@@ -201,7 +203,8 @@ length=10
 weight=32
 axles=4
 cost=579000
-runningcost=29
+runningcost=0
+fixed_cost=5489
 
 can_lead_from_rear=0
 bidirectional=1
@@ -241,23 +244,23 @@ Constraint[Prev][25]=secr-utility-van
 liverytype[0]=SR-Malachite-Green
 liverytype[1]=BR-Early
 
-EmptyImage[E][0]=./images/sr-bulleid-cor-all-doors-brake-rear.1.4
-EmptyImage[SE][0]=./images/sr-bulleid-cor-all-doors-brake-rear.1.5
-EmptyImage[S][0]=./images/sr-bulleid-cor-all-doors-brake-rear.1.6
-EmptyImage[SW][0]=./images/sr-bulleid-cor-all-doors-brake-rear.1.7
-EmptyImage[W][0]=./images/sr-bulleid-cor-all-doors-brake-rear.1.0
-EmptyImage[NW][0]=./images/sr-bulleid-cor-all-doors-brake-rear.1.1
-EmptyImage[N][0]=./images/sr-bulleid-cor-all-doors-brake-rear.1.2
-EmptyImage[NE][0]=./images/sr-bulleid-cor-all-doors-brake-rear.1.3
+EmptyImage[E][0]=./carriages/sr-bulleid-cor-all-doors-brake-rear.1.4
+EmptyImage[SE][0]=./carriages/sr-bulleid-cor-all-doors-brake-rear.1.5
+EmptyImage[S][0]=./carriages/sr-bulleid-cor-all-doors-brake-rear.1.6
+EmptyImage[SW][0]=./carriages/sr-bulleid-cor-all-doors-brake-rear.1.7
+EmptyImage[W][0]=./carriages/sr-bulleid-cor-all-doors-brake-rear.1.0
+EmptyImage[NW][0]=./carriages/sr-bulleid-cor-all-doors-brake-rear.1.1
+EmptyImage[N][0]=./carriages/sr-bulleid-cor-all-doors-brake-rear.1.2
+EmptyImage[NE][0]=./carriages/sr-bulleid-cor-all-doors-brake-rear.1.3
 
-EmptyImage[E][1]=./images/sr-bulleid-cor-all-doors-brake-rear-br.1.4
-EmptyImage[SE][1]=./images/sr-bulleid-cor-all-doors-brake-rear-br.1.5
-EmptyImage[S][1]=./images/sr-bulleid-cor-all-doors-brake-rear-br.1.6
-EmptyImage[SW][1]=./images/sr-bulleid-cor-all-doors-brake-rear-br.1.7
-EmptyImage[W][1]=./images/sr-bulleid-cor-all-doors-brake-rear-br.1.0
-EmptyImage[NW][1]=./images/sr-bulleid-cor-all-doors-brake-rear-br.1.1
-EmptyImage[N][1]=./images/sr-bulleid-cor-all-doors-brake-rear-br.1.2
-EmptyImage[NE][1]=./images/sr-bulleid-cor-all-doors-brake-rear-br.1.3
+EmptyImage[E][1]=./carriages/sr-bulleid-cor-all-doors-brake-rear-br.1.4
+EmptyImage[SE][1]=./carriages/sr-bulleid-cor-all-doors-brake-rear-br.1.5
+EmptyImage[S][1]=./carriages/sr-bulleid-cor-all-doors-brake-rear-br.1.6
+EmptyImage[SW][1]=./carriages/sr-bulleid-cor-all-doors-brake-rear-br.1.7
+EmptyImage[W][1]=./carriages/sr-bulleid-cor-all-doors-brake-rear-br.1.0
+EmptyImage[NW][1]=./carriages/sr-bulleid-cor-all-doors-brake-rear-br.1.1
+EmptyImage[N][1]=./carriages/sr-bulleid-cor-all-doors-brake-rear-br.1.2
+EmptyImage[NE][1]=./carriages/sr-bulleid-cor-all-doors-brake-rear-br.1.3
 
 ----
 
@@ -280,7 +283,8 @@ length=11
 weight=32
 axles=4
 cost=579000
-runningcost=29
+runningcost=0
+fixed_cost=689
 
 can_lead_from_rear=0
 bidirectional=1
@@ -347,23 +351,23 @@ Constraint[Next][25]=secr-utility-van
 liverytype[0]=SR-Malachite-Green
 liverytype[1]=BR-Early
 
-EmptyImage[E][0]=./images/sr-bulleid-cor.1.4
-EmptyImage[SE][0]=./images/sr-bulleid-cor.1.5
-EmptyImage[S][0]=./images/sr-bulleid-cor.1.6
-EmptyImage[SW][0]=./images/sr-bulleid-cor.1.7
-EmptyImage[W][0]=./images/sr-bulleid-cor.1.0
-EmptyImage[NW][0]=./images/sr-bulleid-cor.1.1
-EmptyImage[N][0]=./images/sr-bulleid-cor.1.2
-EmptyImage[NE][0]=./images/sr-bulleid-cor.1.3
+EmptyImage[E][0]=./carriages/sr-bulleid-cor.1.4
+EmptyImage[SE][0]=./carriages/sr-bulleid-cor.1.5
+EmptyImage[S][0]=./carriages/sr-bulleid-cor.1.6
+EmptyImage[SW][0]=./carriages/sr-bulleid-cor.1.7
+EmptyImage[W][0]=./carriages/sr-bulleid-cor.1.0
+EmptyImage[NW][0]=./carriages/sr-bulleid-cor.1.1
+EmptyImage[N][0]=./carriages/sr-bulleid-cor.1.2
+EmptyImage[NE][0]=./carriages/sr-bulleid-cor.1.3
 
-EmptyImage[E][1]=./images/sr-bulleid-cor-br.1.4
-EmptyImage[SE][1]=./images/sr-bulleid-cor-br.1.5
-EmptyImage[S][1]=./images/sr-bulleid-cor-br.1.6
-EmptyImage[SW][1]=./images/sr-bulleid-cor-br.1.7
-EmptyImage[W][1]=./images/sr-bulleid-cor-br.1.0
-EmptyImage[NW][1]=./images/sr-bulleid-cor-br.1.1
-EmptyImage[N][1]=./images/sr-bulleid-cor-br.1.2
-EmptyImage[NE][1]=./images/sr-bulleid-cor-br.1.3
+EmptyImage[E][1]=./carriages/sr-bulleid-cor-br.1.4
+EmptyImage[SE][1]=./carriages/sr-bulleid-cor-br.1.5
+EmptyImage[S][1]=./carriages/sr-bulleid-cor-br.1.6
+EmptyImage[SW][1]=./carriages/sr-bulleid-cor-br.1.7
+EmptyImage[W][1]=./carriages/sr-bulleid-cor-br.1.0
+EmptyImage[NW][1]=./carriages/sr-bulleid-cor-br.1.1
+EmptyImage[N][1]=./carriages/sr-bulleid-cor-br.1.2
+EmptyImage[NE][1]=./carriages/sr-bulleid-cor-br.1.3
 
 ----
 
@@ -385,7 +389,8 @@ length=11
 weight=32
 axles=4
 cost=570000
-runningcost=29
+runningcost=0
+fixed_cost=6679
 
 can_lead_from_rear=0
 bidirectional=1
@@ -453,23 +458,23 @@ liverytype[0]=SR-Malachite-Green
 liverytype[1]=BR-Early
 
 # Externally indistinguishable from the corridor carriages
-EmptyImage[E][0]=./images/sr-bulleid-cor.1.4
-EmptyImage[SE][0]=./images/sr-bulleid-cor.1.5
-EmptyImage[S][0]=./images/sr-bulleid-cor.1.6
-EmptyImage[SW][0]=./images/sr-bulleid-cor.1.7
-EmptyImage[W][0]=./images/sr-bulleid-cor.1.0
-EmptyImage[NW][0]=./images/sr-bulleid-cor.1.1
-EmptyImage[N][0]=./images/sr-bulleid-cor.1.2
-EmptyImage[NE][0]=./images/sr-bulleid-cor.1.3
+EmptyImage[E][0]=./carriages/sr-bulleid-cor.1.4
+EmptyImage[SE][0]=./carriages/sr-bulleid-cor.1.5
+EmptyImage[S][0]=./carriages/sr-bulleid-cor.1.6
+EmptyImage[SW][0]=./carriages/sr-bulleid-cor.1.7
+EmptyImage[W][0]=./carriages/sr-bulleid-cor.1.0
+EmptyImage[NW][0]=./carriages/sr-bulleid-cor.1.1
+EmptyImage[N][0]=./carriages/sr-bulleid-cor.1.2
+EmptyImage[NE][0]=./carriages/sr-bulleid-cor.1.3
 
-EmptyImage[E][1]=./images/sr-bulleid-cor-br.1.4
-EmptyImage[SE][1]=./images/sr-bulleid-cor-br.1.5
-EmptyImage[S][1]=./images/sr-bulleid-cor-br.1.6
-EmptyImage[SW][1]=./images/sr-bulleid-cor-br.1.7
-EmptyImage[W][1]=./images/sr-bulleid-cor-br.1.0
-EmptyImage[NW][1]=./images/sr-bulleid-cor-br.1.1
-EmptyImage[N][1]=./images/sr-bulleid-cor-br.1.2
-EmptyImage[NE][1]=./images/sr-bulleid-cor-br.1.3
+EmptyImage[E][1]=./carriages/sr-bulleid-cor-br.1.4
+EmptyImage[SE][1]=./carriages/sr-bulleid-cor-br.1.5
+EmptyImage[S][1]=./carriages/sr-bulleid-cor-br.1.6
+EmptyImage[SW][1]=./carriages/sr-bulleid-cor-br.1.7
+EmptyImage[W][1]=./carriages/sr-bulleid-cor-br.1.0
+EmptyImage[NW][1]=./carriages/sr-bulleid-cor-br.1.1
+EmptyImage[N][1]=./carriages/sr-bulleid-cor-br.1.2
+EmptyImage[NE][1]=./carriages/sr-bulleid-cor-br.1.3
 
 ----
 
@@ -491,7 +496,8 @@ length=11
 weight=32
 axles=4
 cost=677000
-runningcost=40
+runningcost=0
+fixed_cost=18806
 
 can_lead_from_rear=0
 bidirectional=1
@@ -559,23 +565,23 @@ Constraint[Next][25]=secr-utility-van
 liverytype[0]=SR-Malachite-Green
 liverytype[1]=BR-Early
 
-EmptyImage[E][0]=./images/sr-bulleid-restaurant-car.1.4
-EmptyImage[SE][0]=./images/sr-bulleid-restaurant-car.1.5
-EmptyImage[S][0]=./images/sr-bulleid-restaurant-car.1.6
-EmptyImage[SW][0]=./images/sr-bulleid-restaurant-car.1.7
-EmptyImage[W][0]=./images/sr-bulleid-restaurant-car.1.0
-EmptyImage[NW][0]=./images/sr-bulleid-restaurant-car.1.1
-EmptyImage[N][0]=./images/sr-bulleid-restaurant-car.1.2
-EmptyImage[NE][0]=./images/sr-bulleid-restaurant-car.1.3
+EmptyImage[E][0]=./carriages/sr-bulleid-restaurant-car.1.4
+EmptyImage[SE][0]=./carriages/sr-bulleid-restaurant-car.1.5
+EmptyImage[S][0]=./carriages/sr-bulleid-restaurant-car.1.6
+EmptyImage[SW][0]=./carriages/sr-bulleid-restaurant-car.1.7
+EmptyImage[W][0]=./carriages/sr-bulleid-restaurant-car.1.0
+EmptyImage[NW][0]=./carriages/sr-bulleid-restaurant-car.1.1
+EmptyImage[N][0]=./carriages/sr-bulleid-restaurant-car.1.2
+EmptyImage[NE][0]=./carriages/sr-bulleid-restaurant-car.1.3
 
-EmptyImage[E][1]=./images/sr-bulleid-restaurant-car-br.1.4
-EmptyImage[SE][1]=./images/sr-bulleid-restaurant-car-br.1.5
-EmptyImage[S][1]=./images/sr-bulleid-restaurant-car-br.1.6
-EmptyImage[SW][1]=./images/sr-bulleid-restaurant-car-br.1.7
-EmptyImage[W][1]=./images/sr-bulleid-restaurant-car-br.1.0
-EmptyImage[NW][1]=./images/sr-bulleid-restaurant-car-br.1.1
-EmptyImage[N][1]=./images/sr-bulleid-restaurant-car-br.1.2
-EmptyImage[NE][1]=./images/sr-bulleid-restaurant-car-br.1.3
+EmptyImage[E][1]=./carriages/sr-bulleid-restaurant-car-br.1.4
+EmptyImage[SE][1]=./carriages/sr-bulleid-restaurant-car-br.1.5
+EmptyImage[S][1]=./carriages/sr-bulleid-restaurant-car-br.1.6
+EmptyImage[SW][1]=./carriages/sr-bulleid-restaurant-car-br.1.7
+EmptyImage[W][1]=./carriages/sr-bulleid-restaurant-car-br.1.0
+EmptyImage[NW][1]=./carriages/sr-bulleid-restaurant-car-br.1.1
+EmptyImage[N][1]=./carriages/sr-bulleid-restaurant-car-br.1.2
+EmptyImage[NE][1]=./carriages/sr-bulleid-restaurant-car-br.1.3
 
 ----
 
@@ -598,7 +604,8 @@ length=11
 weight=32
 axles=4
 cost=655000
-runningcost=34
+runningcost=0
+fixed_cost=18780
 
 can_lead_from_rear=0
 bidirectional=1
@@ -666,23 +673,23 @@ Constraint[Next][25]=secr-utility-van
 liverytype[0]=SR-Malachite-Green
 liverytype[1]=BR-Early
 
-EmptyImage[E][0]=./images/sr-bulleid-buffet.1.4
-EmptyImage[SE][0]=./images/sr-bulleid-buffet.1.5
-EmptyImage[S][0]=./images/sr-bulleid-buffet.1.6
-EmptyImage[SW][0]=./images/sr-bulleid-buffet.1.7
-EmptyImage[W][0]=./images/sr-bulleid-buffet.1.0
-EmptyImage[NW][0]=./images/sr-bulleid-buffet.1.1
-EmptyImage[N][0]=./images/sr-bulleid-buffet.1.2
-EmptyImage[NE][0]=./images/sr-bulleid-buffet.1.3
+EmptyImage[E][0]=./carriages/sr-bulleid-buffet.1.4
+EmptyImage[SE][0]=./carriages/sr-bulleid-buffet.1.5
+EmptyImage[S][0]=./carriages/sr-bulleid-buffet.1.6
+EmptyImage[SW][0]=./carriages/sr-bulleid-buffet.1.7
+EmptyImage[W][0]=./carriages/sr-bulleid-buffet.1.0
+EmptyImage[NW][0]=./carriages/sr-bulleid-buffet.1.1
+EmptyImage[N][0]=./carriages/sr-bulleid-buffet.1.2
+EmptyImage[NE][0]=./carriages/sr-bulleid-buffet.1.3
 
-EmptyImage[E][1]=./images/sr-bulleid-buffet-br.1.4
-EmptyImage[SE][1]=./images/sr-bulleid-buffet-br.1.5
-EmptyImage[S][1]=./images/sr-bulleid-buffet-br.1.6
-EmptyImage[SW][1]=./images/sr-bulleid-buffet-br.1.7
-EmptyImage[W][1]=./images/sr-bulleid-buffet-br.1.0
-EmptyImage[NW][1]=./images/sr-bulleid-buffet-br.1.1
-EmptyImage[N][1]=./images/sr-bulleid-buffet-br.1.2
-EmptyImage[NE][1]=./images/sr-bulleid-buffet-br.1.3
+EmptyImage[E][1]=./carriages/sr-bulleid-buffet-br.1.4
+EmptyImage[SE][1]=./carriages/sr-bulleid-buffet-br.1.5
+EmptyImage[S][1]=./carriages/sr-bulleid-buffet-br.1.6
+EmptyImage[SW][1]=./carriages/sr-bulleid-buffet-br.1.7
+EmptyImage[W][1]=./carriages/sr-bulleid-buffet-br.1.0
+EmptyImage[NW][1]=./carriages/sr-bulleid-buffet-br.1.1
+EmptyImage[N][1]=./carriages/sr-bulleid-buffet-br.1.2
+EmptyImage[NE][1]=./carriages/sr-bulleid-buffet-br.1.3
 
 ----
 
@@ -704,7 +711,8 @@ length=11
 weight=32
 axles=4
 cost=434000
-runningcost=22
+runningcost=0
+fixed_cost=5317
 
 can_lead_from_rear=0
 bidirectional=1
@@ -744,23 +752,23 @@ Constraint[Prev][25]=secr-utility-van
 liverytype[0]=SR-Malachite-Green
 liverytype[1]=BR-Early
 
-EmptyImage[E][0]=./images/sr-bulleid-cor-brake-rear.1.4
-EmptyImage[SE][0]=./images/sr-bulleid-cor-brake-rear.1.5
-EmptyImage[S][0]=./images/sr-bulleid-cor-brake-rear.1.6
-EmptyImage[SW][0]=./images/sr-bulleid-cor-brake-rear.1.7
-EmptyImage[W][0]=./images/sr-bulleid-cor-brake-rear.1.0
-EmptyImage[NW][0]=./images/sr-bulleid-cor-brake-rear.1.1
-EmptyImage[N][0]=./images/sr-bulleid-cor-brake-rear.1.2
-EmptyImage[NE][0]=./images/sr-bulleid-cor-brake-rear.1.3
+EmptyImage[E][0]=./carriages/sr-bulleid-cor-brake-rear.1.4
+EmptyImage[SE][0]=./carriages/sr-bulleid-cor-brake-rear.1.5
+EmptyImage[S][0]=./carriages/sr-bulleid-cor-brake-rear.1.6
+EmptyImage[SW][0]=./carriages/sr-bulleid-cor-brake-rear.1.7
+EmptyImage[W][0]=./carriages/sr-bulleid-cor-brake-rear.1.0
+EmptyImage[NW][0]=./carriages/sr-bulleid-cor-brake-rear.1.1
+EmptyImage[N][0]=./carriages/sr-bulleid-cor-brake-rear.1.2
+EmptyImage[NE][0]=./carriages/sr-bulleid-cor-brake-rear.1.3
 
-EmptyImage[E][1]=./images/sr-bulleid-cor-brake-rear-br.1.4
-EmptyImage[SE][1]=./images/sr-bulleid-cor-brake-rear-br.1.5
-EmptyImage[S][1]=./images/sr-bulleid-cor-brake-rear-br.1.6
-EmptyImage[SW][1]=./images/sr-bulleid-cor-brake-rear-br.1.7
-EmptyImage[W][1]=./images/sr-bulleid-cor-brake-rear-br.1.0
-EmptyImage[NW][1]=./images/sr-bulleid-cor-brake-rear-br.1.1
-EmptyImage[N][1]=./images/sr-bulleid-cor-brake-rear-br.1.2
-EmptyImage[NE][1]=./images/sr-bulleid-cor-brake-rear-br.1.3
+EmptyImage[E][1]=./carriages/sr-bulleid-cor-brake-rear-br.1.4
+EmptyImage[SE][1]=./carriages/sr-bulleid-cor-brake-rear-br.1.5
+EmptyImage[S][1]=./carriages/sr-bulleid-cor-brake-rear-br.1.6
+EmptyImage[SW][1]=./carriages/sr-bulleid-cor-brake-rear-br.1.7
+EmptyImage[W][1]=./carriages/sr-bulleid-cor-brake-rear-br.1.0
+EmptyImage[NW][1]=./carriages/sr-bulleid-cor-brake-rear-br.1.1
+EmptyImage[N][1]=./carriages/sr-bulleid-cor-brake-rear-br.1.2
+EmptyImage[NE][1]=./carriages/sr-bulleid-cor-brake-rear-br.1.3
 
 ----
 
@@ -782,7 +790,8 @@ length=11
 weight=32
 axles=4
 cost=434000
-runningcost=22
+runningcost=0
+fixed_cost=5317
 
 can_lead_from_rear=0
 bidirectional=1
@@ -823,20 +832,20 @@ Constraint[Next][26]=none
 liverytype[0]=SR-Malachite-Green
 liverytype[1]=BR-Early
 
-EmptyImage[E][0]=./images/sr-bulleid-cor-brake-front.1.4
-EmptyImage[SE][0]=./images/sr-bulleid-cor-brake-front.1.5
-EmptyImage[S][0]=./images/sr-bulleid-cor-brake-front.1.6
-EmptyImage[SW][0]=./images/sr-bulleid-cor-brake-front.1.7
-EmptyImage[W][0]=./images/sr-bulleid-cor-brake-front.1.0
-EmptyImage[NW][0]=./images/sr-bulleid-cor-brake-front.1.1
-EmptyImage[N][0]=./images/sr-bulleid-cor-brake-front.1.2
-EmptyImage[NE][0]=./images/sr-bulleid-cor-brake-front.1.3
+EmptyImage[E][0]=./carriages/sr-bulleid-cor-brake-front.1.4
+EmptyImage[SE][0]=./carriages/sr-bulleid-cor-brake-front.1.5
+EmptyImage[S][0]=./carriages/sr-bulleid-cor-brake-front.1.6
+EmptyImage[SW][0]=./carriages/sr-bulleid-cor-brake-front.1.7
+EmptyImage[W][0]=./carriages/sr-bulleid-cor-brake-front.1.0
+EmptyImage[NW][0]=./carriages/sr-bulleid-cor-brake-front.1.1
+EmptyImage[N][0]=./carriages/sr-bulleid-cor-brake-front.1.2
+EmptyImage[NE][0]=./carriages/sr-bulleid-cor-brake-front.1.3
 
-EmptyImage[E][1]=./images/sr-bulleid-cor-brake-front-br.1.4
-EmptyImage[SE][1]=./images/sr-bulleid-cor-brake-front-br.1.5
-EmptyImage[S][1]=./images/sr-bulleid-cor-brake-front-br.1.6
-EmptyImage[SW][1]=./images/sr-bulleid-cor-brake-front-br.1.7
-EmptyImage[W][1]=./images/sr-bulleid-cor-brake-front-br.1.0
-EmptyImage[NW][1]=./images/sr-bulleid-cor-brake-front-br.1.1
-EmptyImage[N][1]=./images/sr-bulleid-cor-brake-front-br.1.2
-EmptyImage[NE][1]=./images/sr-bulleid-cor-brake-front-br.1.3
+EmptyImage[E][1]=./carriages/sr-bulleid-cor-brake-front-br.1.4
+EmptyImage[SE][1]=./carriages/sr-bulleid-cor-brake-front-br.1.5
+EmptyImage[S][1]=./carriages/sr-bulleid-cor-brake-front-br.1.6
+EmptyImage[SW][1]=./carriages/sr-bulleid-cor-brake-front-br.1.7
+EmptyImage[W][1]=./carriages/sr-bulleid-cor-brake-front-br.1.0
+EmptyImage[NW][1]=./carriages/sr-bulleid-cor-brake-front-br.1.1
+EmptyImage[N][1]=./carriages/sr-bulleid-cor-brake-front-br.1.2
+EmptyImage[NE][1]=./carriages/sr-bulleid-cor-brake-front-br.1.3

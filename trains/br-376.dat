@@ -22,7 +22,8 @@ rolling_resistance=13
 weight=46
 axles=4
 cost=1814400
-runningcost=25
+runningcost=90
+fixed_cost=7512
 sound=panos-g-class-375.wav
 
 min_loading_time=13
@@ -42,23 +43,23 @@ Constraint[Next][0]=BR-376Middle
 liverytype[0]=South-Eastern-Trains
 liverytype[1]=southeastern
 
-EmptyImage[E][0]=./images/br-376-front-se.1.4
-EmptyImage[SE][0]=./images/br-376-front-se.1.5
-EmptyImage[S][0]=./images/br-376-front-se.1.6
-EmptyImage[SW][0]=./images/br-376-front-se.1.7
-EmptyImage[W][0]=./images/br-376-front-se.1.0
-EmptyImage[NW][0]=./images/br-376-front-se.1.1
-EmptyImage[N][0]=./images/br-376-front-se.1.2
-EmptyImage[NE][0]=./images/br-376-front-se.1.3
+EmptyImage[E][0]=./railcars/br-376-front-se.1.4
+EmptyImage[SE][0]=./railcars/br-376-front-se.1.5
+EmptyImage[S][0]=./railcars/br-376-front-se.1.6
+EmptyImage[SW][0]=./railcars/br-376-front-se.1.7
+EmptyImage[W][0]=./railcars/br-376-front-se.1.0
+EmptyImage[NW][0]=./railcars/br-376-front-se.1.1
+EmptyImage[N][0]=./railcars/br-376-front-se.1.2
+EmptyImage[NE][0]=./railcars/br-376-front-se.1.3
 
-EmptyImage[E][1]=./images/br-376-front-se2.1.4
-EmptyImage[SE][1]=./images/br-376-front-se2.1.5
-EmptyImage[S][1]=./images/br-376-front-se2.1.6
-EmptyImage[SW][1]=./images/br-376-front-se2.1.7
-EmptyImage[W][1]=./images/br-376-front-se2.1.0
-EmptyImage[NW][1]=./images/br-376-front-se2.1.1
-EmptyImage[N][1]=./images/br-376-front-se2.1.2
-EmptyImage[NE][1]=./images/br-376-front-se2.1.3
+EmptyImage[E][1]=./railcars/br-376-front-se2.1.4
+EmptyImage[SE][1]=./railcars/br-376-front-se2.1.5
+EmptyImage[S][1]=./railcars/br-376-front-se2.1.6
+EmptyImage[SW][1]=./railcars/br-376-front-se2.1.7
+EmptyImage[W][1]=./railcars/br-376-front-se2.1.0
+EmptyImage[NW][1]=./railcars/br-376-front-se2.1.1
+EmptyImage[N][1]=./railcars/br-376-front-se2.1.2
+EmptyImage[NE][1]=./railcars/br-376-front-se2.1.3
 
 ---
 
@@ -86,7 +87,8 @@ rolling_resistance=13
 weight=46
 axles=4
 cost=1814400
-runningcost=24
+runningcost=90
+fixed_cost=7512
 sound=panos-g-class-375.wav
 
 min_loading_time=13
@@ -108,23 +110,23 @@ Constraint[Next][1]=none
 liverytype[0]=South-Eastern-Trains
 liverytype[1]=southeastern
 
-EmptyImage[E][0]=./images/br-376-rear-se.1.4
-EmptyImage[SE][0]=./images/br-376-rear-se.1.5
-EmptyImage[S][0]=./images/br-376-rear-se.1.6
-EmptyImage[SW][0]=./images/br-376-rear-se.1.7
-EmptyImage[W][0]=./images/br-376-rear-se.1.0
-EmptyImage[NW][0]=./images/br-376-rear-se.1.1
-EmptyImage[N][0]=./images/br-376-rear-se.1.2
-EmptyImage[NE][0]=./images/br-376-rear-se.1.3
+EmptyImage[E][0]=./railcars/br-376-rear-se.1.4
+EmptyImage[SE][0]=./railcars/br-376-rear-se.1.5
+EmptyImage[S][0]=./railcars/br-376-rear-se.1.6
+EmptyImage[SW][0]=./railcars/br-376-rear-se.1.7
+EmptyImage[W][0]=./railcars/br-376-rear-se.1.0
+EmptyImage[NW][0]=./railcars/br-376-rear-se.1.1
+EmptyImage[N][0]=./railcars/br-376-rear-se.1.2
+EmptyImage[NE][0]=./railcars/br-376-rear-se.1.3
 
-EmptyImage[E][1]=./images/br-376-rear-se2.1.4
-EmptyImage[SE][1]=./images/br-376-rear-se2.1.5
-EmptyImage[S][1]=./images/br-376-rear-se2.1.6
-EmptyImage[SW][1]=./images/br-376-rear-se2.1.7
-EmptyImage[W][1]=./images/br-376-rear-se2.1.0
-EmptyImage[NW][1]=./images/br-376-rear-se2.1.1
-EmptyImage[N][1]=./images/br-376-rear-se2.1.2
-EmptyImage[NE][1]=./images/br-376-rear-se2.1.3
+EmptyImage[E][1]=./railcars/br-376-rear-se2.1.4
+EmptyImage[SE][1]=./railcars/br-376-rear-se2.1.5
+EmptyImage[S][1]=./railcars/br-376-rear-se2.1.6
+EmptyImage[SW][1]=./railcars/br-376-rear-se2.1.7
+EmptyImage[W][1]=./railcars/br-376-rear-se2.1.0
+EmptyImage[NW][1]=./railcars/br-376-rear-se2.1.1
+EmptyImage[N][1]=./railcars/br-376-rear-se2.1.2
+EmptyImage[NE][1]=./railcars/br-376-rear-se2.1.3
 
 ---
 
@@ -150,7 +152,8 @@ rolling_resistance=13
 weight=40
 axles=4
 cost=2721000
-runningcost=25
+runningcost=0
+fixed_cost=5669
 
 min_loading_time=13
 max_loading_time=50
@@ -171,23 +174,23 @@ Constraint[Next][2]=BR-376MiddlePower
 liverytype[0]=South-Eastern-Trains
 liverytype[1]=southeastern
 
-EmptyImage[E][0]=./images/br-376-middle-se.1.4
-EmptyImage[SE][0]=./images/br-376-middle-se.1.5
-EmptyImage[S][0]=./images/br-376-middle-se.1.6
-EmptyImage[SW][0]=./images/br-376-middle-se.1.7
-EmptyImage[W][0]=./images/br-376-middle-se.1.0
-EmptyImage[NW][0]=./images/br-376-middle-se.1.1
-EmptyImage[N][0]=./images/br-376-middle-se.1.2
-EmptyImage[NE][0]=./images/br-376-middle-se.1.3
+EmptyImage[E][0]=./railcars/br-376-middle-se.1.4
+EmptyImage[SE][0]=./railcars/br-376-middle-se.1.5
+EmptyImage[S][0]=./railcars/br-376-middle-se.1.6
+EmptyImage[SW][0]=./railcars/br-376-middle-se.1.7
+EmptyImage[W][0]=./railcars/br-376-middle-se.1.0
+EmptyImage[NW][0]=./railcars/br-376-middle-se.1.1
+EmptyImage[N][0]=./railcars/br-376-middle-se.1.2
+EmptyImage[NE][0]=./railcars/br-376-middle-se.1.3
 
-EmptyImage[E][1]=./images/br-376-middle-se2.1.4
-EmptyImage[SE][1]=./images/br-376-middle-se2.1.5
-EmptyImage[S][1]=./images/br-376-middle-se2.1.6
-EmptyImage[SW][1]=./images/br-376-middle-se2.1.7
-EmptyImage[W][1]=./images/br-376-middle-se2.1.0
-EmptyImage[NW][1]=./images/br-376-middle-se2.1.1
-EmptyImage[N][1]=./images/br-376-middle-se2.1.2
-EmptyImage[NE][1]=./images/br-376-middle-se2.1.3
+EmptyImage[E][1]=./railcars/br-376-middle-se2.1.4
+EmptyImage[SE][1]=./railcars/br-376-middle-se2.1.5
+EmptyImage[S][1]=./railcars/br-376-middle-se2.1.6
+EmptyImage[SW][1]=./railcars/br-376-middle-se2.1.7
+EmptyImage[W][1]=./railcars/br-376-middle-se2.1.0
+EmptyImage[NW][1]=./railcars/br-376-middle-se2.1.1
+EmptyImage[N][1]=./railcars/br-376-middle-se2.1.2
+EmptyImage[NE][1]=./railcars/br-376-middle-se2.1.3
 
 --
 
@@ -215,7 +218,8 @@ rolling_resistance=13
 weight=40
 axles=4
 cost=2721000
-runningcost=25
+runningcost=90
+fixed_cost=2268
 
 min_loading_time=13
 max_loading_time=50
@@ -237,20 +241,20 @@ Constraint[Next][2]=BR-376MiddlePower
 liverytype[0]=South-Eastern-Trains
 liverytype[1]=southeastern
 
-EmptyImage[E][0]=./images/br-376-middle-se.1.4
-EmptyImage[SE][0]=./images/br-376-middle-se.1.5
-EmptyImage[S][0]=./images/br-376-middle-se.1.6
-EmptyImage[SW][0]=./images/br-376-middle-se.1.7
-EmptyImage[W][0]=./images/br-376-middle-se.1.0
-EmptyImage[NW][0]=./images/br-376-middle-se.1.1
-EmptyImage[N][0]=./images/br-376-middle-se.1.2
-EmptyImage[NE][0]=./images/br-376-middle-se.1.3
+EmptyImage[E][0]=./railcars/br-376-middle-se.1.4
+EmptyImage[SE][0]=./railcars/br-376-middle-se.1.5
+EmptyImage[S][0]=./railcars/br-376-middle-se.1.6
+EmptyImage[SW][0]=./railcars/br-376-middle-se.1.7
+EmptyImage[W][0]=./railcars/br-376-middle-se.1.0
+EmptyImage[NW][0]=./railcars/br-376-middle-se.1.1
+EmptyImage[N][0]=./railcars/br-376-middle-se.1.2
+EmptyImage[NE][0]=./railcars/br-376-middle-se.1.3
 
-EmptyImage[E][1]=./images/br-376-middle-se2.1.4
-EmptyImage[SE][1]=./images/br-376-middle-se2.1.5
-EmptyImage[S][1]=./images/br-376-middle-se2.1.6
-EmptyImage[SW][1]=./images/br-376-middle-se2.1.7
-EmptyImage[W][1]=./images/br-376-middle-se2.1.0
-EmptyImage[NW][1]=./images/br-376-middle-se2.1.1
-EmptyImage[N][1]=./images/br-376-middle-se2.1.2
-EmptyImage[NE][1]=./images/br-376-middle-se2.1.3
+EmptyImage[E][1]=./railcars/br-376-middle-se2.1.4
+EmptyImage[SE][1]=./railcars/br-376-middle-se2.1.5
+EmptyImage[S][1]=./railcars/br-376-middle-se2.1.6
+EmptyImage[SW][1]=./railcars/br-376-middle-se2.1.7
+EmptyImage[W][1]=./railcars/br-376-middle-se2.1.0
+EmptyImage[NW][1]=./railcars/br-376-middle-se2.1.1
+EmptyImage[N][1]=./railcars/br-376-middle-se2.1.2
+EmptyImage[NE][1]=./railcars/br-376-middle-se2.1.3

@@ -13,7 +13,8 @@ length=10
 weight=14
 axles=1
 cost=12000000
-runningcost=420
+runningcost=33
+fixed_cost=6250
 
 
 can_lead_from_rear=1
@@ -48,7 +49,8 @@ length=10
 weight=14
 axles=1
 cost=12000000
-runningcost=420
+runningcost=33
+fixed_cost=6250
 
 
 can_lead_from_rear=1

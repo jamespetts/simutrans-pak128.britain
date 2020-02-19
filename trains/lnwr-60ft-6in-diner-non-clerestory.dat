@@ -1,4 +1,4 @@
-# D35.
+# D35
 # See Jenkinson (LNWR) p. 60
 
 obj=vehicle
@@ -12,7 +12,9 @@ retire_month=1
 waytype=track
 freight=Passagiere
 payload[0]=0
-payload[1]=33
+payload[1]=0
+payload[2]=0
+payload[3]=33
 length=11
 rolling_resistance=17
 
@@ -20,10 +22,13 @@ rolling_resistance=17
 weight=43
 axles=6
 cost=880000
-runningcost=47
+runningcost=0
+fixed_cost=1048
 
 comfort[0]=0
-comfort[1]=142
+comfort[1]=131
+comfort[2]=135
+comfort[3]=143
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=25
@@ -63,6 +68,19 @@ Constraint[Next][29]=LMS-TPO
 Constraint[Next][30]=LMS-cor
 Constraint[Next][31]=LMS-cor-brake-rear
 Constraint[Next][32]=LMS-buffet
+Constraint[Next][33]=LNWR-42ft-cor-first
+Constraint[Next][34]=LNWR-42ft-cor-composite
+Constraint[Next][35]=LNWR-42ft-cor-brake-composite-rear
+Constraint[Next][36]=LNWR-50ft-cor-first
+Constraint[Next][37]=LNWR-57ft-cor-composite
+Constraint[Next][38]=LNWR-57ft-cor-first
+Constraint[Next][39]=LMS-period1-cor-open-first
+Constraint[Next][40]=LMS-period1-cor-first
+Constraint[Next][41]=LMS-period1-cor-composite
+Constraint[Next][42]=LMS-open-first
+Constraint[Next][43]=LMS-open-composite
+Constraint[Next][44]=LMS-cor-first
+Constraint[Next][45]=LMS-cor-composite
 
 Constraint[Prev][0]=LNWR-45ft-cor-full-brake
 Constraint[Prev][1]=LNWR-42ft-cor
@@ -97,34 +115,47 @@ Constraint[Prev][29]=LMS-TPO
 Constraint[Prev][30]=LMS-cor
 Constraint[Prev][31]=LMS-cor-brake-front
 Constraint[Prev][32]=LMS-buffet
+Constraint[Prev][33]=LNWR-42ft-cor-first
+Constraint[Prev][34]=LNWR-42ft-cor-composite
+Constraint[Prev][35]=LNWR-42ft-cor-brake-composite-front
+Constraint[Prev][36]=LNWR-50ft-cor-first
+Constraint[Prev][37]=LNWR-57ft-cor-composite
+Constraint[Prev][38]=LNWR-57ft-cor-first
+Constraint[Prev][39]=LMS-period1-cor-open-first
+Constraint[Prev][40]=LMS-period1-cor-first
+Constraint[Prev][41]=LMS-period1-cor-composite
+Constraint[Prev][42]=LMS-open-first
+Constraint[Prev][43]=LMS-open-composite
+Constraint[Prev][44]=LMS-cor-first
+Constraint[Prev][45]=LMS-cor-composite
 
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard
 liverytype[2]=BR-Early
 
-EmptyImage[E][0]=./images/lnwr-60ft-6in-diner-non-clerestory.1.4
-EmptyImage[SE][0]=./images/lnwr-60ft-6in-diner-non-clerestory.1.5
-EmptyImage[S][0]=./images/lnwr-60ft-6in-diner-non-clerestory.1.6
-EmptyImage[SW][0]=./images/lnwr-60ft-6in-diner-non-clerestory.1.7
-EmptyImage[W][0]=./images/lnwr-60ft-6in-diner-non-clerestory.1.0
-EmptyImage[NW][0]=./images/lnwr-60ft-6in-diner-non-clerestory.1.1
-EmptyImage[N][0]=./images/lnwr-60ft-6in-diner-non-clerestory.1.2
-EmptyImage[NE][0]=./images/lnwr-60ft-6in-diner-non-clerestory.1.3
+EmptyImage[E][0]=./carriages/lnwr-60ft-6in-diner-non-clerestory_E.0.0
+EmptyImage[SE][0]=./carriages/lnwr-60ft-6in-diner-non-clerestory_SE.0.0
+EmptyImage[S][0]=./carriages/lnwr-60ft-6in-diner-non-clerestory_S.0.0
+EmptyImage[SW][0]=./carriages/lnwr-60ft-6in-diner-non-clerestory_SW.0.0
+EmptyImage[W][0]=./carriages/lnwr-60ft-6in-diner-non-clerestory_W.0.0
+EmptyImage[NW][0]=./carriages/lnwr-60ft-6in-diner-non-clerestory_NW.0.0
+EmptyImage[N][0]=./carriages/lnwr-60ft-6in-diner-non-clerestory_N.0.0
+EmptyImage[NE][0]=./carriages/lnwr-60ft-6in-diner-non-clerestory_NE.0.0
 
-EmptyImage[E][1]=./images/lnwr-60ft-6in-diner-non-clerestory-lms.1.4
-EmptyImage[SE][1]=./images/lnwr-60ft-6in-diner-non-clerestory-lms.1.5
-EmptyImage[S][1]=./images/lnwr-60ft-6in-diner-non-clerestory-lms.1.6
-EmptyImage[SW][1]=./images/lnwr-60ft-6in-diner-non-clerestory-lms.1.7
-EmptyImage[W][1]=./images/lnwr-60ft-6in-diner-non-clerestory-lms.1.0
-EmptyImage[NW][1]=./images/lnwr-60ft-6in-diner-non-clerestory-lms.1.1
-EmptyImage[N][1]=./images/lnwr-60ft-6in-diner-non-clerestory-lms.1.2
-EmptyImage[NE][1]=./images/lnwr-60ft-6in-diner-non-clerestory-lms.1.3
+EmptyImage[E][1]=./carriages/lnwr-60ft-6in-diner-non-clerestory-lms_E.0.0
+EmptyImage[SE][1]=./carriages/lnwr-60ft-6in-diner-non-clerestory-lms_SE.0.0
+EmptyImage[S][1]=./carriages/lnwr-60ft-6in-diner-non-clerestory-lms_S.0.0
+EmptyImage[SW][1]=./carriages/lnwr-60ft-6in-diner-non-clerestory-lms_SW.0.0
+EmptyImage[W][1]=./carriages/lnwr-60ft-6in-diner-non-clerestory-lms_W.0.0
+EmptyImage[NW][1]=./carriages/lnwr-60ft-6in-diner-non-clerestory-lms_NW.0.0
+EmptyImage[N][1]=./carriages/lnwr-60ft-6in-diner-non-clerestory-lms_N.0.0
+EmptyImage[NE][1]=./carriages/lnwr-60ft-6in-diner-non-clerestory-lms_NE.0.0
 
-EmptyImage[E][2]=./images/lnwr-60ft-6in-diner-non-clerestory-br.1.4
-EmptyImage[SE][2]=./images/lnwr-60ft-6in-diner-non-clerestory-br.1.5
-EmptyImage[S][2]=./images/lnwr-60ft-6in-diner-non-clerestory-br.1.6
-EmptyImage[SW][2]=./images/lnwr-60ft-6in-diner-non-clerestory-br.1.7
-EmptyImage[W][2]=./images/lnwr-60ft-6in-diner-non-clerestory-br.1.0
-EmptyImage[NW][2]=./images/lnwr-60ft-6in-diner-non-clerestory-br.1.1
-EmptyImage[N][2]=./images/lnwr-60ft-6in-diner-non-clerestory-br.1.2
-EmptyImage[NE][2]=./images/lnwr-60ft-6in-diner-non-clerestory-br.1.3
+EmptyImage[E][2]=./carriages/lnwr-60ft-6in-diner-non-clerestory-br_E.0.0
+EmptyImage[SE][2]=./carriages/lnwr-60ft-6in-diner-non-clerestory-br_SE.0.0
+EmptyImage[S][2]=./carriages/lnwr-60ft-6in-diner-non-clerestory-br_S.0.0
+EmptyImage[SW][2]=./carriages/lnwr-60ft-6in-diner-non-clerestory-br_SW.0.0
+EmptyImage[W][2]=./carriages/lnwr-60ft-6in-diner-non-clerestory-br_W.0.0
+EmptyImage[NW][2]=./carriages/lnwr-60ft-6in-diner-non-clerestory-br_NW.0.0
+EmptyImage[N][2]=./carriages/lnwr-60ft-6in-diner-non-clerestory-br_N.0.0
+EmptyImage[NE][2]=./carriages/lnwr-60ft-6in-diner-non-clerestory-br_NE.0.0

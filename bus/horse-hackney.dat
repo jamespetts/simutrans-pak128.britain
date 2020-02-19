@@ -20,7 +20,7 @@ weight=0.4
 axle_load=0
 cost=60000
 runningcost=3
-fixed_cost=850
+fixed_cost=125
 
 sound=ylearkisto-horse.wav
 # Is this lower correct? The article suggests that these horses were "prized for their ground-covering ability", and could trot at 20mph and 50 miles in a day -
@@ -62,7 +62,7 @@ weight=0.8
 axle_load=0
 cost=120000
 runningcost=5
-fixed_cost=1200
+fixed_cost=250
 
 sound=ylearkisto-horses.wav
 range=20

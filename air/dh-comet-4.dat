@@ -26,7 +26,8 @@ cost=14000000
 upgrade_price=5000
 # 5,450lb/h per engine: 
 # http://www.oocities.org/capecanaveral/lab/8803/fcomette.htm
-runningcost=3000
+runningcost=226
+fixed_cost=59722
 intro_year=1958
 intro_month=9
 retire_year=1963
@@ -101,7 +102,8 @@ cost=14000000
 upgrade_price=5000
 # 5,450lb/h per engine: 
 # http://www.oocities.org/capecanaveral/lab/8803/fcomette.htm
-runningcost=3000
+runningcost=226
+fixed_cost=59722
 intro_year=1958
 intro_month=9
 retire_year=1963

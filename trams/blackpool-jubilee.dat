@@ -19,7 +19,8 @@ weight=18
 axles=4
 cost=656000
 upgrade_price=15000
-runningcost=50
+runningcost=8
+fixed_cost=6547
 sound=tom-tait-tram.wav
 is_tall=1
 

@@ -4,7 +4,8 @@ engine_type=electric
 speed=70
 gear=80
 # http://www.britishtramsonline.co.uk/blackpoolfleet.doc
-power=50
+# 57 electric horse power is 42.5KW, unlike the source states.
+power=85
 tractive_effort=36
 copyright=James
 intro_year=1958
@@ -23,7 +24,8 @@ weight=13
 axles=4
 cost=352000
 upgrade_price=12500
-runningcost=60
+runningcost=10
+fixed_cost=6293
 sound=tom-tait-tram.wav
 
 can_lead_from_rear=1

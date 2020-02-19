@@ -1,16 +1,21 @@
+# These are based on the LNWR D88 introduced in 1908:
+# http://www.lnwrs.org.uk/Wagons/vans/Diag088.php
+# However, functionally similar vans to diagram 87
+# were introduced in 1903, and it does not make sense
+# to represent both: http://www.lnwrs.org.uk/Wagons/vans/Diag087.php
+
 obj=vehicle
 name=PieceD88
-#?
 speed=56
 copyright=James
-intro_year=1908
-intro_month=2
+intro_year=1903
+intro_month=6
 retire_year=1931
 retire_month=6
 waytype=track
 freight=Bucher
 payload=12
-length=4
+length=3
 brake_force=0
 rolling_resistance=18
 
@@ -19,22 +24,23 @@ weight=7
 axle_load=7
 way_wear_factor=21350
 cost=120000
-runningcost=6
-
+runningcost=0
+fixed_cost=50
 
 min_loading_time=300
 max_loading_time=900
 bidirectional=1
 
+Constraint[Prev][0]=any
 Constraint[Next][0]=any
 
-EmptyImage[E]=./images/wagon-piece-d88.0.0
-EmptyImage[SE]=./images/wagon-piece-d88.0.1
-EmptyImage[S]=./images/wagon-piece-d88.0.2
-EmptyImage[SW]=./images/wagon-piece-d88.0.3
-EmptyImage[W]=./images/wagon-piece-d88.0.4
-EmptyImage[NW]=./images/wagon-piece-d88.0.5
-EmptyImage[N]=./images/wagon-piece-d88.0.6
-EmptyImage[NE]=./images/wagon-piece-d88.0.7
+EmptyImage[E]=./wagons/wagon-piece-d88_E.0.0
+EmptyImage[SE]=./wagons/wagon-piece-d88_SE.0.0
+EmptyImage[S]=./wagons/wagon-piece-d88_S.0.0
+EmptyImage[SW]=./wagons/wagon-piece-d88_SW.0.0
+EmptyImage[W]=./wagons/wagon-piece-d88_W.0.0
+EmptyImage[NW]=./wagons/wagon-piece-d88_NW.0.0
+EmptyImage[N]=./wagons/wagon-piece-d88_N.0.0
+EmptyImage[NE]=./wagons/wagon-piece-d88_NE.0.0
 
 

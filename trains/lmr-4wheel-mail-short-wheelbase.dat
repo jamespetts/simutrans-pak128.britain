@@ -25,7 +25,7 @@ rolling_resistance=20
 weight=2.7
 axles=2
 cost=144000
-runningcost=10
+runningcost=0
 fixed_cost=60
 
 comfort[0]=0
@@ -51,14 +51,14 @@ liverytype[0]=LMR-Standard
 #liverytype[3]=GNR-early
 #liverytype[4]=LSWR-early
 
-EmptyImage[E][0]=./images/4wheel-mail-short-wheelbase_E.0.0
-EmptyImage[SE][0]=./images/4wheel-mail-short-wheelbase_SE.0.0
-EmptyImage[S][0]=./images/4wheel-mail-short-wheelbase_S.0.0
-EmptyImage[SW][0]=./images/4wheel-mail-short-wheelbase_SW.0.0
-EmptyImage[W][0]=./images/4wheel-mail-short-wheelbase_W.0.0
-EmptyImage[NW][0]=./images/4wheel-mail-short-wheelbase_NW.0.0
-EmptyImage[N][0]=./images/4wheel-mail-short-wheelbase_N.0.0
-EmptyImage[NE][0]=./images/4wheel-mail-short-wheelbase_NE.0.0
+EmptyImage[E][0]=./carriages/4wheel-mail-short-wheelbase_E.0.0
+EmptyImage[SE][0]=./carriages/4wheel-mail-short-wheelbase_SE.0.0
+EmptyImage[S][0]=./carriages/4wheel-mail-short-wheelbase_S.0.0
+EmptyImage[SW][0]=./carriages/4wheel-mail-short-wheelbase_SW.0.0
+EmptyImage[W][0]=./carriages/4wheel-mail-short-wheelbase_W.0.0
+EmptyImage[NW][0]=./carriages/4wheel-mail-short-wheelbase_NW.0.0
+EmptyImage[N][0]=./carriages/4wheel-mail-short-wheelbase_N.0.0
+EmptyImage[NE][0]=./carriages/4wheel-mail-short-wheelbase_NE.0.0
 
 
 ----
@@ -86,7 +86,7 @@ rolling_resistance=20
 weight=2.7
 axles=2
 cost=150000
-runningcost=10
+runningcost=0
 fixed_cost=4863
 
 min_loading_time=35
@@ -110,14 +110,14 @@ liverytype[0]=LMR-Standard
 #liverytype[3]=GNR-early
 #liverytype[4]=LSWR-early
 
-EmptyImage[E][0]=./images/4wheel-mail-short-wheelbase-brake-front_E.0.0
-EmptyImage[SE][0]=./images/4wheel-mail-short-wheelbase-brake-front_SE.0.0
-EmptyImage[S][0]=./images/4wheel-mail-short-wheelbase-brake-front_S.0.0
-EmptyImage[SW][0]=./images/4wheel-mail-short-wheelbase-brake-front_SW.0.0
-EmptyImage[W][0]=./images/4wheel-mail-short-wheelbase-brake-front_W.0.0
-EmptyImage[NW][0]=./images/4wheel-mail-short-wheelbase-brake-front_NW.0.0
-EmptyImage[N][0]=./images/4wheel-mail-short-wheelbase-brake-front_N.0.0
-EmptyImage[NE][0]=./images/4wheel-mail-short-wheelbase-brake-front_NE.0.0
+EmptyImage[E][0]=./carriages/4wheel-mail-short-wheelbase-brake-front_E.0.0
+EmptyImage[SE][0]=./carriages/4wheel-mail-short-wheelbase-brake-front_SE.0.0
+EmptyImage[S][0]=./carriages/4wheel-mail-short-wheelbase-brake-front_S.0.0
+EmptyImage[SW][0]=./carriages/4wheel-mail-short-wheelbase-brake-front_SW.0.0
+EmptyImage[W][0]=./carriages/4wheel-mail-short-wheelbase-brake-front_W.0.0
+EmptyImage[NW][0]=./carriages/4wheel-mail-short-wheelbase-brake-front_NW.0.0
+EmptyImage[N][0]=./carriages/4wheel-mail-short-wheelbase-brake-front_N.0.0
+EmptyImage[NE][0]=./carriages/4wheel-mail-short-wheelbase-brake-front_NE.0.0
 
 ----
 
@@ -144,7 +144,7 @@ rolling_resistance=20
 weight=2.7
 axles=2
 cost=150000
-runningcost=10
+runningcost=0
 fixed_cost=4863
 
 comfort[0]=0
@@ -169,12 +169,12 @@ liverytype[0]=LMR-Standard
 #liverytype[3]=GNR-early
 #liverytype[4]=LSWR-early
 
-EmptyImage[E][0]=./images/4wheel-mail-short-wheelbase-brake-rear_E.0.0
-EmptyImage[SE][0]=./images/4wheel-mail-short-wheelbase-brake-rear_SE.0.0
-EmptyImage[S][0]=./images/4wheel-mail-short-wheelbase-brake-rear_S.0.0
-EmptyImage[SW][0]=./images/4wheel-mail-short-wheelbase-brake-rear_SW.0.0
-EmptyImage[W][0]=./images/4wheel-mail-short-wheelbase-brake-rear_W.0.0
-EmptyImage[NW][0]=./images/4wheel-mail-short-wheelbase-brake-rear_NW.0.0
-EmptyImage[N][0]=./images/4wheel-mail-short-wheelbase-brake-rear_N.0.0
-EmptyImage[NE][0]=./images/4wheel-mail-short-wheelbase-brake-rear_NE.0.0
+EmptyImage[E][0]=./carriages/4wheel-mail-short-wheelbase-brake-rear_E.0.0
+EmptyImage[SE][0]=./carriages/4wheel-mail-short-wheelbase-brake-rear_SE.0.0
+EmptyImage[S][0]=./carriages/4wheel-mail-short-wheelbase-brake-rear_S.0.0
+EmptyImage[SW][0]=./carriages/4wheel-mail-short-wheelbase-brake-rear_SW.0.0
+EmptyImage[W][0]=./carriages/4wheel-mail-short-wheelbase-brake-rear_W.0.0
+EmptyImage[NW][0]=./carriages/4wheel-mail-short-wheelbase-brake-rear_NW.0.0
+EmptyImage[N][0]=./carriages/4wheel-mail-short-wheelbase-brake-rear_N.0.0
+EmptyImage[NE][0]=./carriages/4wheel-mail-short-wheelbase-brake-rear_NE.0.0
 

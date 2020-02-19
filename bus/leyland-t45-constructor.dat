@@ -13,8 +13,10 @@ axle_load=12
 way_wear_factor=202500
 length=5
 cost=125000
-runningcost=50
+runningcost=87
+fixed_cost=8065
 freight=Kohle
+mixed_load_prohibition=1
 payload=30
 
 Constraint[Prev][0]=none
@@ -101,7 +103,8 @@ axle_load=12
 way_wear_factor=202500
 length=5
 cost=125000
-runningcost=50
+runningcost=87
+fixed_cost=8065
 freight=Bretter
 payload=30
 
@@ -161,8 +164,10 @@ axle_load=12
 way_wear_factor=202500
 length=5
 cost=125000
-runningcost=50
+runningcost=87
+fixed_cost=8065
 freight=Oel
+mixed_load_prohibition=1
 payload=32
 
 Constraint[Prev][0]=none

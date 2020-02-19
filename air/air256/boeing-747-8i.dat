@@ -21,7 +21,8 @@ weight=220.1
 #length=8
 cost=150000000
 upgrade_price=5000
-runningcost=11000
+runningcost=747
+fixed_cost=174167
 intro_year=2012
 intro_month=5
 

@@ -20,7 +20,8 @@ weight=18.2
 brake_force=23
 axles=3
 cost=587500
-runningcost=36
+runningcost=24
+fixed_cost=6490
 sound=zabuhailo-modern-tram.wav
 
 can_lead_from_rear=1
@@ -82,14 +83,15 @@ intro_month=3
 waytype=tram_track
 freight=Passagiere
 payload=35
-length=9
+length=7
 # http://en.wikipedia.org/wiki/CR4000
 overcrowded_capacity=69
 weight=18.2
 brake_force=23
 axles=3
 cost=0
-runningcost=0
+runningcost=24
+fixed_cost=6000
 
 
 can_lead_from_rear=1

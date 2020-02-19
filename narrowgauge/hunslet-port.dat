@@ -1,0 +1,43 @@
+# https://www.quarryhunslet.mste.co.uk/public/Gwynedd.php
+# https://www.quarryhunslet.mste.co.uk/public/Lillian.php
+# https://en.wikipedia.org/wiki/Penrhyn_Port_Class
+obj=vehicle
+name=hunslet-port
+engine_type=steam
+smoke=Steam
+speed=35
+# Extrapolated
+power=14
+# Calculated 
+tractive_effort=10
+copyright=James/jamespetts
+intro_year=1883
+intro_month=1
+retire_year=1892
+retire_month=10
+waytype=narrowgauge_track
+freight=None
+payload=0
+length=3
+rolling_resistance=20
+
+# http://orion.math.iastate.edu/jdhsmith/term/slgbpqr.htm
+weight=8
+axles=2
+cost=1604510
+runningcost=12
+fixed_cost=17292
+sound=laurie-barclay-0-4-0.wav
+
+can_lead_from_rear=0
+bidirectional=1
+
+EmptyImage[W]=./images/hunslet-port_E.0.0
+EmptyImage[NW]=./images/hunslet-port_SE.0.0
+EmptyImage[N]=./images/hunslet-port_S.0.0
+EmptyImage[NE]=./images/hunslet-port_SW.0.0
+EmptyImage[E]=./images/hunslet-port_W.0.0
+EmptyImage[SE]=./images/hunslet-port_NW.0.0
+EmptyImage[S]=./images/hunslet-port_N.0.0
+EmptyImage[SW]=./images/hunslet-port_NE.0.0
+

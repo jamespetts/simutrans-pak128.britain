@@ -21,7 +21,8 @@ rolling_resistance=13
 weight=28
 axles=4
 cost=1550000
-runningcost=190
+runningcost=35
+fixed_cost=7292
 sound=lul-1938-stock-ff3170.wav
 
 can_lead_from_rear=1
@@ -72,7 +73,8 @@ rolling_resistance=13
 weight=27
 axles=4
 cost=1550000
-runningcost=190
+runningcost=35
+fixed_cost=7292
 
 can_lead_from_rear=0
 bidirectional=1
@@ -119,7 +121,8 @@ rolling_resistance=13
 weight=18
 axles=4
 cost=700000
-runningcost=45
+runningcost=0
+fixed_cost=1458
 
 
 can_lead_from_rear=0
@@ -169,7 +172,8 @@ rolling_resistance=13
 weight=18
 axles=4
 cost=700000
-runningcost=45
+runningcost=0
+fixed_cost=1458
 
 
 can_lead_from_rear=0
@@ -221,7 +225,8 @@ rolling_resistance=13
 weight=27
 axles=4
 cost=1550000
-runningcost=190
+runningcost=35
+fixed_cost=7292
 
 
 can_lead_from_rear=0
@@ -274,7 +279,8 @@ rolling_resistance=13
 weight=28
 axles=4
 cost=1550000
-runningcost=190
+runningcost=35
+fixed_cost=7292
 sound=lul-1938-stock-ff3170.wav
 
 can_lead_from_rear=1

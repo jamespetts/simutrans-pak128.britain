@@ -13,7 +13,8 @@ payload[1]=49360
 weight=247
 #length=8
 cost=100000000
-runningcost=10000
+runningcost=743
+fixed_cost=89444
 intro_year=1991
 intro_month=11
 
@@ -54,7 +55,8 @@ payload=850
 weight=247
 #length=8
 cost=100000000
-runningcost=10000
+runningcost=743
+fixed_cost=89444
 intro_year=1991
 intro_month=11
 
@@ -95,7 +97,8 @@ payload=850
 weight=247
 #length=8
 cost=100000000
-runningcost=10000
+runningcost=743
+fixed_cost=89444
 intro_year=1991
 intro_month=11
 

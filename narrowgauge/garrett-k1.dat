@@ -6,7 +6,7 @@ engine_type=steam
 smoke=Steam
 speed=60
 # Extrapolated
-power=112
+power=113
 # http://en.wikipedia.org/wiki/TGR_K_class
 tractive_effort=72
 copyright=James/jamespetts
@@ -18,26 +18,30 @@ retire_month=5
 waytype=narrowgauge_track
 freight=None
 payload=0
-length=2
+length=0
 rolling_resistance=19
 
 # http://en.wikipedia.org/wiki/TGR_K_class
-weight=34
+weight=34.0
 axles=4
 cost=6700000
-runningcost=190
+runningcost=76
+fixed_cost=21583
 sound=the-mart-ban-ngg16.wav
 
+bidirectional=1
+
+has_front_cab=1
 Constraint[Next][0]=Garrett-K1-middle
 
-EmptyImage[E]=./images/garrett-k1-front.1.0,-10,-5
-EmptyImage[SE]=./images/garrett-k1-front.1.1,0,-5
-EmptyImage[S]=./images/garrett-k1-front.1.2,10,-5
-EmptyImage[SW]=./images/garrett-k1-front.1.3,10,0
-EmptyImage[W]=./images/garrett-k1-front.1.4,10,5
-EmptyImage[NW]=./images/garrett-k1-front.1.5,0,5
-EmptyImage[N]=./images/garrett-k1-front.1.6,-10,5
-EmptyImage[NE]=./images/garrett-k1-front.1.7,-10,0
+EmptyImage[W]=./images/garrett-k1-front_E.0.0
+EmptyImage[NW]=./images/garrett-k1-front_SE.0.0
+EmptyImage[N]=./images/garrett-k1-front_S.0.0
+EmptyImage[NE]=./images/garrett-k1-front_SW.0.0
+EmptyImage[E]=./images/garrett-k1-front_W.0.0
+EmptyImage[SE]=./images/garrett-k1-front_NW.0.0
+EmptyImage[S]=./images/garrett-k1-front_N.0.0
+EmptyImage[SW]=./images/garrett-k1-front_NE.0.0
 
 ----
 
@@ -57,7 +61,7 @@ retire_month=5
 waytype=narrowgauge_track
 freight=None
 payload=0
-length=4
+length=0
 rolling_resistance=19
 
 # Must be zero, as total weight is 34t on two bogies. Should be shown in front vehicle.
@@ -65,18 +69,19 @@ weight=0
 cost=0
 runningcost=0
 
+bidirectional=1
 
 Constraint[Prev][0]=Garrett-K1-front
 Constraint[Next][0]=Garrett-K1-rear
 
-EmptyImage[E]=./images/garrett-k1-middle.1.0,-10,-5
-EmptyImage[SE]=./images/garrett-k1-middle.1.1,0,-5
-EmptyImage[S]=./images/garrett-k1-middle.1.2,10,-5
-EmptyImage[SW]=./images/garrett-k1-middle.1.3,10,0
-EmptyImage[W]=./images/garrett-k1-middle.1.4,10,5
-EmptyImage[NW]=./images/garrett-k1-middle.1.5,0,5
-EmptyImage[N]=./images/garrett-k1-middle.1.6,-10,5
-EmptyImage[NE]=./images/garrett-k1-middle.1.7,-10,0
+EmptyImage[W]=./images/garrett-k1-middle_E.0.0
+EmptyImage[NW]=./images/garrett-k1-middle_SE.0.0
+EmptyImage[N]=./images/garrett-k1-middle_S.0.0
+EmptyImage[NE]=./images/garrett-k1-middle_SW.0.0
+EmptyImage[E]=./images/garrett-k1-middle_W.0.0
+EmptyImage[SE]=./images/garrett-k1-middle_NW.0.0
+EmptyImage[S]=./images/garrett-k1-middle_N.0.0
+EmptyImage[SW]=./images/garrett-k1-middle_NE.0.0
 
 ----
 
@@ -96,7 +101,7 @@ retire_month=5
 waytype=narrowgauge_track
 freight=None
 payload=0
-length=3
+length=6
 rolling_resistance=19
 
 # Must be zero, as total weight is 34t on two bogies. Should be shown in front vehicle.
@@ -105,13 +110,17 @@ cost=0
 runningcost=0
 sound=the-mart-ban-ngg16.wav
 
-Constraint[Prev][0]=Garrett-K1-middle
+bidirectional=1
 
-EmptyImage[E]=./images/garrett-k1-rear.1.0,-10,-5
-EmptyImage[SE]=./images/garrett-k1-rear.1.1,0,-5
-EmptyImage[S]=./images/garrett-k1-rear.1.2,10,-5
-EmptyImage[SW]=./images/garrett-k1-rear.1.3,10,0
-EmptyImage[W]=./images/garrett-k1-rear.1.4,10,5
-EmptyImage[NW]=./images/garrett-k1-rear.1.5,0,5
-EmptyImage[N]=./images/garrett-k1-rear.1.6,-10,5
-EmptyImage[NE]=./images/garrett-k1-rear.1.7,-10,0
+Constraint[Prev][0]=Garrett-K1-middle
+has_rear_cab=1
+
+EmptyImage[W]=./images/garrett-k1-rear_E.0.0
+EmptyImage[NW]=./images/garrett-k1-rear_SE.0.0
+EmptyImage[N]=./images/garrett-k1-rear_S.0.0
+EmptyImage[NE]=./images/garrett-k1-rear_SW.0.0
+EmptyImage[E]=./images/garrett-k1-rear_W.0.0
+EmptyImage[SE]=./images/garrett-k1-rear_NW.0.0
+EmptyImage[S]=./images/garrett-k1-rear_N.0.0
+EmptyImage[SW]=./images/garrett-k1-rear_NE.0.0
+

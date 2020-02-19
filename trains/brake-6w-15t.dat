@@ -1,0 +1,34 @@
+# Based on the Highland Railway "type B" brake van:
+# see Tatlow pp. 179-180
+obj=vehicle
+name=brake-6w-15t
+speed=80
+copyright=James
+intro_year=1883
+intro_month=5
+retire_year=1915
+retire_month=7
+freight=Bucher
+payload=0
+waytype=track
+brake_force=5
+rolling_resistance=20
+
+length=5
+
+weight=15.0
+axles=3
+cost=150000
+runningcost=0
+fixed_cost=4850
+
+bidirectional=1
+
+EmptyImage[E]=./wagons/brake-6w-15t_E.0.0
+EmptyImage[SE]=./wagons/brake-6w-15t_SE.0.0
+EmptyImage[S]=./wagons/brake-6w-15t_S.0.0
+EmptyImage[SW]=./wagons/brake-6w-15t_SW.0.0
+EmptyImage[W]=./wagons/brake-6w-15t_W.0.0
+EmptyImage[NW]=./wagons/brake-6w-15t_NW.0.0
+EmptyImage[N]=./wagons/brake-6w-15t_N.0.0
+EmptyImage[NE]=./wagons/brake-6w-15t_NE.0.0

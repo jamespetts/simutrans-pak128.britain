@@ -1,3 +1,4 @@
+# http://www.lnwrs.org.uk/Wagons/brakes/Diag018.php
 obj=vehicle
 name=BrakeD93
 #?
@@ -15,21 +16,20 @@ rolling_resistance=19
 
 length=4
 
-#?
-weight=20
-cost=0
+weight=20.0
+cost=140000
 runningcost=0
-
+fixed_cost=4850
 
 bidirectional=1
 
-EmptyImage[E]=./images/wagon-brake-d93.0.0
-EmptyImage[SE]=./images/wagon-brake-d93.0.1
-EmptyImage[S]=./images/wagon-brake-d93.0.2
-EmptyImage[SW]=./images/wagon-brake-d93.0.3
-EmptyImage[W]=./images/wagon-brake-d93.0.4
-EmptyImage[NW]=./images/wagon-brake-d93.0.5
-EmptyImage[N]=./images/wagon-brake-d93.0.6
-EmptyImage[NE]=./images/wagon-brake-d93.0.7
+EmptyImage[E]=./wagons/brake-d93_E.0.0
+EmptyImage[SE]=./wagons/brake-d93_SE.0.0
+EmptyImage[S]=./wagons/brake-d93_S.0.0
+EmptyImage[SW]=./wagons/brake-d93_SW.0.0
+EmptyImage[W]=./wagons/brake-d93_W.0.0
+EmptyImage[NW]=./wagons/brake-d93_NW.0.0
+EmptyImage[N]=./wagons/brake-d93_N.0.0
+EmptyImage[NE]=./wagons/brake-d93_NE.0.0
 
 

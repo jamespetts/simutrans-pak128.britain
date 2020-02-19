@@ -22,18 +22,19 @@ weight=50.3
 axle_load=20
 cost=13560000
 upgrade_price=2750000
-runningcost=1782
+runningcost=109
+fixed_cost=35300
 sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=GNR-Stirling8Foot-Tender
 
-EmptyImage[E]=./images/gnr-g3.1.4
-EmptyImage[SE]=./images/gnr-g3.1.5
-EmptyImage[S]=./images/gnr-g3.1.6
-EmptyImage[SW]=./images/gnr-g3.1.7
-EmptyImage[W]=./images/gnr-g3.1.0
-EmptyImage[NW]=./images/gnr-g3.1.1
-EmptyImage[N]=./images/gnr-g3.1.2
-EmptyImage[NE]=./images/gnr-g3.1.3
+EmptyImage[E]=./locomotives/gnr-g3_E.0.0
+EmptyImage[SE]=./locomotives/gnr-g3_SE.0.0
+EmptyImage[S]=./locomotives/gnr-g3_S.0.0
+EmptyImage[SW]=./locomotives/gnr-g3_SW.0.0
+EmptyImage[W]=./locomotives/gnr-g3_W.0.0
+EmptyImage[NW]=./locomotives/gnr-g3_NW.0.0
+EmptyImage[N]=./locomotives/gnr-g3_N.0.0
+EmptyImage[NE]=./locomotives/gnr-g3_NE.0.0
 
 

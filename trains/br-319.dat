@@ -22,7 +22,8 @@ rolling_resistance=13
 weight=30
 axles=4
 cost=2400000
-runningcost=50
+runningcost=0
+fixed_cost=5000
 sound=video47-class-319.wav
 
 can_lead_from_rear=1
@@ -42,14 +43,14 @@ Constraint[Next][0]=BR-319Pantograph
 
 liverytype[0]=NSE-Standard
 
-EmptyImage[E][0]=./images/br-319-dtso-front-nse_E.0.0
-EmptyImage[SE][0]=./images/br-319-dtso-front-nse_SE.0.0
-EmptyImage[S][0]=./images/br-319-dtso-front-nse_S.0.0
-EmptyImage[SW][0]=./images/br-319-dtso-front-nse_SW.0.0
-EmptyImage[W][0]=./images/br-319-dtso-front-nse_W.0.0
-EmptyImage[NW][0]=./images/br-319-dtso-front-nse_NW.0.0
-EmptyImage[N][0]=./images/br-319-dtso-front-nse_N.0.0
-EmptyImage[NE][0]=./images/br-319-dtso-front-nse_NE.0.0
+EmptyImage[E][0]=./railcars/br-319-dtso-front-nse_E.0.0
+EmptyImage[SE][0]=./railcars/br-319-dtso-front-nse_SE.0.0
+EmptyImage[S][0]=./railcars/br-319-dtso-front-nse_S.0.0
+EmptyImage[SW][0]=./railcars/br-319-dtso-front-nse_SW.0.0
+EmptyImage[W][0]=./railcars/br-319-dtso-front-nse_W.0.0
+EmptyImage[NW][0]=./railcars/br-319-dtso-front-nse_NW.0.0
+EmptyImage[N][0]=./railcars/br-319-dtso-front-nse_N.0.0
+EmptyImage[NE][0]=./railcars/br-319-dtso-front-nse_NE.0.0
 
 ---
 
@@ -77,7 +78,8 @@ rolling_resistance=13
 weight=30
 axles=4
 cost=2400000
-runningcost=50
+runningcost=0
+fixed_cost=5000
 sound=video47-class-319.wav
 
 can_lead_from_rear=1
@@ -97,14 +99,14 @@ Constraint[Next][0]=BR-319Pantograph
 
 liverytype[0]=NSE-Standard
 
-EmptyImage[E][0]=./images/br-319-dtco-front-nse_E.0.0
-EmptyImage[SE][0]=./images/br-319-dtco-front-nse_SE.0.0
-EmptyImage[S][0]=./images/br-319-dtco-front-nse_S.0.0
-EmptyImage[SW][0]=./images/br-319-dtco-front-nse_SW.0.0
-EmptyImage[W][0]=./images/br-319-dtco-front-nse_W.0.0
-EmptyImage[NW][0]=./images/br-319-dtco-front-nse_NW.0.0
-EmptyImage[N][0]=./images/br-319-dtco-front-nse_N.0.0
-EmptyImage[NE][0]=./images/br-319-dtco-front-nse_NE.0.0
+EmptyImage[E][0]=./railcars/br-319-dtco-front-nse_E.0.0
+EmptyImage[SE][0]=./railcars/br-319-dtco-front-nse_SE.0.0
+EmptyImage[S][0]=./railcars/br-319-dtco-front-nse_S.0.0
+EmptyImage[SW][0]=./railcars/br-319-dtco-front-nse_SW.0.0
+EmptyImage[W][0]=./railcars/br-319-dtco-front-nse_W.0.0
+EmptyImage[NW][0]=./railcars/br-319-dtco-front-nse_NW.0.0
+EmptyImage[N][0]=./railcars/br-319-dtco-front-nse_N.0.0
+EmptyImage[NE][0]=./railcars/br-319-dtco-front-nse_NE.0.0
 
 ---
 
@@ -132,7 +134,8 @@ rolling_resistance=13
 weight=30
 axles=4
 cost=2400000
-runningcost=231
+runningcost=0
+fixed_cost=5000
 
 can_lead_from_rear=0
 bidirectional=1
@@ -151,14 +154,14 @@ Constraint[Next][0]=BR-319Engine
 
 liverytype[0]=NSE-Standard
 
-EmptyImage[E][0]=./images/br-319-mso-nse_E.0.0
-EmptyImage[SE][0]=./images/br-319-mso-nse_SE.0.0
-EmptyImage[S][0]=./images/br-319-mso-nse_S.0.0
-EmptyImage[SW][0]=./images/br-319-mso-nse_SW.0.0
-EmptyImage[W][0]=./images/br-319-mso-nse_W.0.0
-EmptyImage[NW][0]=./images/br-319-mso-nse_NW.0.0
-EmptyImage[N][0]=./images/br-319-mso-nse_N.0.0
-EmptyImage[NE][0]=./images/br-319-mso-nse_NE.0.0
+EmptyImage[E][0]=./railcars/br-319-mso-nse_E.0.0
+EmptyImage[SE][0]=./railcars/br-319-mso-nse_SE.0.0
+EmptyImage[S][0]=./railcars/br-319-mso-nse_S.0.0
+EmptyImage[SW][0]=./railcars/br-319-mso-nse_SW.0.0
+EmptyImage[W][0]=./railcars/br-319-mso-nse_W.0.0
+EmptyImage[NW][0]=./railcars/br-319-mso-nse_NW.0.0
+EmptyImage[N][0]=./railcars/br-319-mso-nse_N.0.0
+EmptyImage[NE][0]=./railcars/br-319-mso-nse_NE.0.0
 
 ---
 
@@ -188,7 +191,8 @@ rolling_resistance=13
 weight=51
 axles=4
 cost=2500000
-runningcost=30
+runningcost=99
+fixed_cost=11302
 
 can_lead_from_rear=0
 bidirectional=1
@@ -206,14 +210,14 @@ Constraint[Next][0]=BR-319Rear
 
 liverytype[0]=NSE-Standard
 
-EmptyImage[E][0]=./images/br-319-tsol-nse_E.0.0
-EmptyImage[SE][0]=./images/br-319-tsol-nse_SE.0.0
-EmptyImage[S][0]=./images/br-319-tsol-nse_S.0.0
-EmptyImage[SW][0]=./images/br-319-tsol-nse_SW.0.0
-EmptyImage[W][0]=./images/br-319-tsol-nse_W.0.0
-EmptyImage[NW][0]=./images/br-319-tsol-nse_NW.0.0
-EmptyImage[N][0]=./images/br-319-tsol-nse_N.0.0
-EmptyImage[NE][0]=./images/br-319-tsol-nse_NE.0.0
+EmptyImage[E][0]=./railcars/br-319-tsol-nse_E.0.0
+EmptyImage[SE][0]=./railcars/br-319-tsol-nse_SE.0.0
+EmptyImage[S][0]=./railcars/br-319-tsol-nse_S.0.0
+EmptyImage[SW][0]=./railcars/br-319-tsol-nse_SW.0.0
+EmptyImage[W][0]=./railcars/br-319-tsol-nse_W.0.0
+EmptyImage[NW][0]=./railcars/br-319-tsol-nse_NW.0.0
+EmptyImage[N][0]=./railcars/br-319-tsol-nse_N.0.0
+EmptyImage[NE][0]=./railcars/br-319-tsol-nse_NE.0.0
 
 ---
 
@@ -241,7 +245,8 @@ rolling_resistance=13
 weight=30
 axles=4
 cost=2400000
-runningcost=50
+runningcost=0
+fixed_cost=5000
 sound=video47-class-319.wav
 
 can_lead_from_rear=1
@@ -262,11 +267,11 @@ Constraint[Next][2]=none
 
 liverytype[0]=NSE-Standard
 
-EmptyImage[E][0]=./images/br-319-dtso-rear-nse_E.0.0
-EmptyImage[SE][0]=./images/br-319-dtso-rear-nse_SE.0.0
-EmptyImage[S][0]=./images/br-319-dtso-rear-nse_S.0.0
-EmptyImage[SW][0]=./images/br-319-dtso-rear-nse_SW.0.0
-EmptyImage[W][0]=./images/br-319-dtso-rear-nse_W.0.0
-EmptyImage[NW][0]=./images/br-319-dtso-rear-nse_NW.0.0
-EmptyImage[N][0]=./images/br-319-dtso-rear-nse_N.0.0
-EmptyImage[NE][0]=./images/br-319-dtso-rear-nse_NE.0.0
+EmptyImage[E][0]=./railcars/br-319-dtso-rear-nse_E.0.0
+EmptyImage[SE][0]=./railcars/br-319-dtso-rear-nse_SE.0.0
+EmptyImage[S][0]=./railcars/br-319-dtso-rear-nse_S.0.0
+EmptyImage[SW][0]=./railcars/br-319-dtso-rear-nse_SW.0.0
+EmptyImage[W][0]=./railcars/br-319-dtso-rear-nse_W.0.0
+EmptyImage[NW][0]=./railcars/br-319-dtso-rear-nse_NW.0.0
+EmptyImage[N][0]=./railcars/br-319-dtso-rear-nse_N.0.0
+EmptyImage[NE][0]=./railcars/br-319-dtso-rear-nse_NE.0.0

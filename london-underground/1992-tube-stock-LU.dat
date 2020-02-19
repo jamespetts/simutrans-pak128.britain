@@ -22,7 +22,8 @@ rolling_resistance=13
 weight=23
 axles=4
 cost=1450000
-runningcost=65
+runningcost=28
+fixed_cost=7208
 sound=adam_n-1992-stock.wav
 
 can_lead_from_rear=1
@@ -86,7 +87,8 @@ rolling_resistance=13
 weight=21
 axles=4
 cost=950000
-runningcost=65
+runningcost=28
+fixed_cost=792
 
 
 can_lead_from_rear=0
@@ -150,7 +152,8 @@ rolling_resistance=13
 weight=21
 axles=4
 cost=950000
-runningcost=65
+runningcost=28
+fixed_cost=792
 
 
 can_lead_from_rear=0
@@ -215,7 +218,8 @@ rolling_resistance=13
 weight=15
 axles=4
 cost=1450000
-runningcost=65
+runningcost=28
+fixed_cost=7208
 sound=adam_n-1992-stock.wav
 
 can_lead_from_rear=1

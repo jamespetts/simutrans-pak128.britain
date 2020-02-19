@@ -22,7 +22,8 @@ length=6
 weight=9
 axles=2
 cost=7200000
-runningcost=135
+runningcost=64
+fixed_cost=11750
 sound=video47-leyland-national.wav
 
 # Query: did these really have air conditioning, or was the pod just for heating?
@@ -91,7 +92,8 @@ length=6
 
 weight=9
 cost=7415000
-runningcost=137
+runningcost=65
+fixed_cost=13724
 sound=video47-leyland-national.wav
 
 comfort=43

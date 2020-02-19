@@ -20,8 +20,8 @@ rolling_resistance=19
 weight=1.9
 axles=2
 cost=58000
-runningcost=5
-fixed_cost=24
+runningcost=0
+fixed_cost=48
 
 comfort[0]=10
 min_loading_time=17
@@ -30,6 +30,7 @@ max_loading_time=60
 can_lead_from_rear=0
 bidirectional=1
 
+Constraint[Prev][0]=any
 Constraint[Next][0]=any
 
 # TODO: Add liveries 
@@ -40,23 +41,23 @@ liverytype[0]=LMR-Standard
 #liverytype[3]=GNR-early
 #liverytype[4]=LSWR-early
 
-EmptyImage[E][0]=./images/4wheel-stanhope_E.0.0
-EmptyImage[SE][0]=./images/4wheel-stanhope_SE.0.0
-EmptyImage[S][0]=./images/4wheel-stanhope_S.0.0
-EmptyImage[SW][0]=./images/4wheel-stanhope_SW.0.0
-EmptyImage[W][0]=./images/4wheel-stanhope_W.0.0
-EmptyImage[NW][0]=./images/4wheel-stanhope_NW.0.0
-EmptyImage[N][0]=./images/4wheel-stanhope_N.0.0
-EmptyImage[NE][0]=./images/4wheel-stanhope_NE.0.0
+EmptyImage[E][0]=./carriages/4wheel-stanhope_E.0.0
+EmptyImage[SE][0]=./carriages/4wheel-stanhope_SE.0.0
+EmptyImage[S][0]=./carriages/4wheel-stanhope_S.0.0
+EmptyImage[SW][0]=./carriages/4wheel-stanhope_SW.0.0
+EmptyImage[W][0]=./carriages/4wheel-stanhope_W.0.0
+EmptyImage[NW][0]=./carriages/4wheel-stanhope_NW.0.0
+EmptyImage[N][0]=./carriages/4wheel-stanhope_N.0.0
+EmptyImage[NE][0]=./carriages/4wheel-stanhope_NE.0.0
 
-FreightImage[E][0]=./images/4wheel-stanhope-loaded_E.0.0
-FreightImage[SE][0]=./images/4wheel-stanhope-loaded_SE.0.0
-FreightImage[S][0]=./images/4wheel-stanhope-loaded_S.0.0
-FreightImage[SW][0]=./images/4wheel-stanhope-loaded_SW.0.0
-FreightImage[W][0]=./images/4wheel-stanhope-loaded_W.0.0
-FreightImage[NW][0]=./images/4wheel-stanhope-loaded_NW.0.0
-FreightImage[N][0]=./images/4wheel-stanhope-loaded_N.0.0
-FreightImage[NE][0]=./images/4wheel-stanhope-loaded_NE.0.0
+FreightImage[E][0]=./carriages/4wheel-stanhope-loaded_E.0.0
+FreightImage[SE][0]=./carriages/4wheel-stanhope-loaded_SE.0.0
+FreightImage[S][0]=./carriages/4wheel-stanhope-loaded_S.0.0
+FreightImage[SW][0]=./carriages/4wheel-stanhope-loaded_SW.0.0
+FreightImage[W][0]=./carriages/4wheel-stanhope-loaded_W.0.0
+FreightImage[NW][0]=./carriages/4wheel-stanhope-loaded_NW.0.0
+FreightImage[N][0]=./carriages/4wheel-stanhope-loaded_N.0.0
+FreightImage[NE][0]=./carriages/4wheel-stanhope-loaded_NE.0.0
 
 ---
 
@@ -80,8 +81,8 @@ rolling_resistance=19
 weight=1.9
 axles=2
 cost=58000
-runningcost=7
-fixed_cost=4824
+runningcost=0
+fixed_cost=4848
 
 comfort[0]=10
 min_loading_time=17
@@ -98,20 +99,20 @@ liverytype[0]=LMR-Standard
 #liverytype[3]=GNR-early
 #liverytype[4]=LSWR-early
 
-EmptyImage[E][0]=./images/4wheel-stanhope-brake_E.0.0
-EmptyImage[SE][0]=./images/4wheel-stanhope-brake_SE.0.0
-EmptyImage[S][0]=./images/4wheel-stanhope-brake_S.0.0
-EmptyImage[SW][0]=./images/4wheel-stanhope-brake_SW.0.0
-EmptyImage[W][0]=./images/4wheel-stanhope-brake_W.0.0
-EmptyImage[NW][0]=./images/4wheel-stanhope-brake_NW.0.0
-EmptyImage[N][0]=./images/4wheel-stanhope-brake_N.0.0
-EmptyImage[NE][0]=./images/4wheel-stanhope-brake_NE.0.0
+EmptyImage[E][0]=./carriages/4wheel-stanhope-brake_E.0.0
+EmptyImage[SE][0]=./carriages/4wheel-stanhope-brake_SE.0.0
+EmptyImage[S][0]=./carriages/4wheel-stanhope-brake_S.0.0
+EmptyImage[SW][0]=./carriages/4wheel-stanhope-brake_SW.0.0
+EmptyImage[W][0]=./carriages/4wheel-stanhope-brake_W.0.0
+EmptyImage[NW][0]=./carriages/4wheel-stanhope-brake_NW.0.0
+EmptyImage[N][0]=./carriages/4wheel-stanhope-brake_N.0.0
+EmptyImage[NE][0]=./carriages/4wheel-stanhope-brake_NE.0.0
 
-FreightImage[E][0]=./images/4wheel-stanhope-brake-loaded_E.0.0
-FreightImage[SE][0]=./images/4wheel-stanhope-brake-loaded_SE.0.0
-FreightImage[S][0]=./images/4wheel-stanhope-brake-loaded_S.0.0
-FreightImage[SW][0]=./images/4wheel-stanhope-brake-loaded_SW.0.0
-FreightImage[W][0]=./images/4wheel-stanhope-brake-loaded_W.0.0
-FreightImage[NW][0]=./images/4wheel-stanhope-brake-loaded_NW.0.0
-FreightImage[N][0]=./images/4wheel-stanhope-brake-loaded_N.0.0
-FreightImage[NE][0]=./images/4wheel-stanhope-brake-loaded_NE.0.0
+FreightImage[E][0]=./carriages/4wheel-stanhope-brake-loaded_E.0.0
+FreightImage[SE][0]=./carriages/4wheel-stanhope-brake-loaded_SE.0.0
+FreightImage[S][0]=./carriages/4wheel-stanhope-brake-loaded_S.0.0
+FreightImage[SW][0]=./carriages/4wheel-stanhope-brake-loaded_SW.0.0
+FreightImage[W][0]=./carriages/4wheel-stanhope-brake-loaded_W.0.0
+FreightImage[NW][0]=./carriages/4wheel-stanhope-brake-loaded_NW.0.0
+FreightImage[N][0]=./carriages/4wheel-stanhope-brake-loaded_N.0.0
+FreightImage[NE][0]=./carriages/4wheel-stanhope-brake-loaded_NE.0.0

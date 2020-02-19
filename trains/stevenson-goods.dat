@@ -25,17 +25,17 @@ way_wear_factor=27365
 weight=14.2
 axle_load=5
 cost=4220000
-runningcost=11
-fixed_cost=1320
+runningcost=89
+fixed_cost=21861
 sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=LMR-Planet-Tender
 
-EmptyImage[E]=./images/stevenson-goods_E.0.0
-EmptyImage[SE]=./images/stevenson-goods_SE.0.0
-EmptyImage[S]=./images/stevenson-goods_S.0.0
-EmptyImage[SW]=./images/stevenson-goods_SW.0.0
-EmptyImage[W]=./images/stevenson-goods_W.0.0
-EmptyImage[NW]=./images/stevenson-goods_NW.0.0
-EmptyImage[N]=./images/stevenson-goods_N.0.0
-EmptyImage[NE]=./images/stevenson-goods_NE.0.0
+EmptyImage[E]=./locomotives/stevenson-goods_E.0.0
+EmptyImage[SE]=./locomotives/stevenson-goods_SE.0.0
+EmptyImage[S]=./locomotives/stevenson-goods_S.0.0
+EmptyImage[SW]=./locomotives/stevenson-goods_SW.0.0
+EmptyImage[W]=./locomotives/stevenson-goods_W.0.0
+EmptyImage[NW]=./locomotives/stevenson-goods_NW.0.0
+EmptyImage[N]=./locomotives/stevenson-goods_N.0.0
+EmptyImage[NE]=./locomotives/stevenson-goods_NE.0.0

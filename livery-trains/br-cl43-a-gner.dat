@@ -17,7 +17,8 @@ length=10
 
 weight=70
 cost=9331000
-runningcost=2508
+runningcost=1006
+fixed_cost=12480
 sound=-1
 
 Constraint[Prev][0]=none
@@ -54,7 +55,8 @@ length=10
 
 weight=70
 cost=9331000
-runningcost=2508
+runningcost=1006
+fixed_cost=12480
 sound=-1
 
 Constraint[Prev][0]=BR-Mk3-TO(GNER)

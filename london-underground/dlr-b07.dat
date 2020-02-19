@@ -19,7 +19,8 @@ overcrowded_capacity=122
 weight=15
 axles=4
 cost=650000
-runningcost=37
+runningcost=23
+fixed_cost=6542
 sound=video47-dlr.wav
 
 can_lead_from_rear=1
@@ -67,7 +68,8 @@ overcrowded_capacity=122
 weight=15
 axles=4
 cost=650000
-runningcost=37
+runningcost=23
+fixed_cost=6542
 sound=video47-dlr.wav
 
 can_lead_from_rear=1

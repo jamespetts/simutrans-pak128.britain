@@ -1,0 +1,87 @@
+# https://en.wikipedia.org/wiki/GWR_Queen_Class
+# See also Ahrons p. 186
+obj=vehicle
+name=gwr-queen-rebuilt
+engine_type=steam
+smoke=Steam
+speed=135
+# Extrapolated
+power=238
+# Calculated from data given at Ahrons p. 186 with a loss factor of 0.76
+tractive_effort=45
+copyright=James/JamesPetts
+# See Ahrons p. 187
+intro_year=1884
+intro_month=10
+# Only rebuilt until 1887, but allow players to do this for longer
+retire_year=1895
+retire_month=11
+waytype=track
+freight=None
+payload=0
+length=4
+brake_force=19
+available_only_as_upgrade=1
+
+# Ahrons p. 186: 34 tons 12cwt
+weight=35.1
+# Ahrons p. 186: 14.5 tons
+axle_load=15
+cost=19150560
+upgrade_price=3830112
+runningcost=252
+fixed_cost=39200
+sound=nick-parry-gwr-city-class.wav
+
+Constraint[Next][0]=gwr-armstrong-tender
+
+liverytype[0]=GWR-early
+liverytype[1]=GWR-dark-green
+liverytype[2]=GWR-standard-green
+liverytype[3]=GWR-overall-brown
+liverytype[4]=WW1-Austerity
+
+EmptyImage[E][0]=./locomotives/gwr-queen-rebuilt-early_E.0.0
+EmptyImage[SE][0]=./locomotives/gwr-queen-rebuilt-early_SE.0.0
+EmptyImage[S][0]=./locomotives/gwr-queen-rebuilt-early_S.0.0
+EmptyImage[SW][0]=./locomotives/gwr-queen-rebuilt-early_SW.0.0
+EmptyImage[W][0]=./locomotives/gwr-queen-rebuilt-early_W.0.0
+EmptyImage[NW][0]=./locomotives/gwr-queen-rebuilt-early_NW.0.0
+EmptyImage[N][0]=./locomotives/gwr-queen-rebuilt-early_N.0.0
+EmptyImage[NE][0]=./locomotives/gwr-queen-rebuilt-early_NE.0.0
+
+EmptyImage[E][1]=./locomotives/gwr-queen-rebuilt-dark-green_E.0.0
+EmptyImage[SE][1]=./locomotives/gwr-queen-rebuilt-dark-green_SE.0.0
+EmptyImage[S][1]=./locomotives/gwr-queen-rebuilt-dark-green_S.0.0
+EmptyImage[SW][1]=./locomotives/gwr-queen-rebuilt-dark-green_SW.0.0
+EmptyImage[W][1]=./locomotives/gwr-queen-rebuilt-dark-green_W.0.0
+EmptyImage[NW][1]=./locomotives/gwr-queen-rebuilt-dark-green_NW.0.0
+EmptyImage[N][1]=./locomotives/gwr-queen-rebuilt-dark-green_N.0.0
+EmptyImage[NE][1]=./locomotives/gwr-queen-rebuilt-dark-green_NE.0.0
+
+EmptyImage[E][2]=./locomotives/gwr-queen-rebuilt_E.0.0
+EmptyImage[SE][2]=./locomotives/gwr-queen-rebuilt_SE.0.0
+EmptyImage[S][2]=./locomotives/gwr-queen-rebuilt_S.0.0
+EmptyImage[SW][2]=./locomotives/gwr-queen-rebuilt_SW.0.0
+EmptyImage[W][2]=./locomotives/gwr-queen-rebuilt_W.0.0
+EmptyImage[NW][2]=./locomotives/gwr-queen-rebuilt_NW.0.0
+EmptyImage[N][2]=./locomotives/gwr-queen-rebuilt_N.0.0
+EmptyImage[NE][2]=./locomotives/gwr-queen-rebuilt_NE.0.0
+
+EmptyImage[E][3]=./locomotives/gwr-queen-rebuilt-churchward_E.0.0
+EmptyImage[SE][3]=./locomotives/gwr-queen-rebuilt-churchward_SE.0.0
+EmptyImage[S][3]=./locomotives/gwr-queen-rebuilt-churchward_S.0.0
+EmptyImage[SW][3]=./locomotives/gwr-queen-rebuilt-churchward_SW.0.0
+EmptyImage[W][3]=./locomotives/gwr-queen-rebuilt-churchward_W.0.0
+EmptyImage[NW][3]=./locomotives/gwr-queen-rebuilt-churchward_NW.0.0
+EmptyImage[N][3]=./locomotives/gwr-queen-rebuilt-churchward_N.0.0
+EmptyImage[NE][3]=./locomotives/gwr-queen-rebuilt-churchward_NE.0.0
+
+EmptyImage[E][4]=./locomotives/gwr-queen-rebuilt-ww1-austerity_E.0.0
+EmptyImage[SE][4]=./locomotives/gwr-queen-rebuilt-ww1-austerity_SE.0.0
+EmptyImage[S][4]=./locomotives/gwr-queen-rebuilt-ww1-austerity_S.0.0
+EmptyImage[SW][4]=./locomotives/gwr-queen-rebuilt-ww1-austerity_SW.0.0
+EmptyImage[W][4]=./locomotives/gwr-queen-rebuilt-ww1-austerity_W.0.0
+EmptyImage[NW][4]=./locomotives/gwr-queen-rebuilt-ww1-austerity_NW.0.0
+EmptyImage[N][4]=./locomotives/gwr-queen-rebuilt-ww1-austerity_N.0.0
+EmptyImage[NE][4]=./locomotives/gwr-queen-rebuilt-ww1-austerity_NE.0.0

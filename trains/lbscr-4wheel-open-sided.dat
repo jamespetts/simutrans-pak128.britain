@@ -21,8 +21,8 @@ weight=3
 axles=2
 cost=90000
 upgrade_price=15000
-runningcost=7
-fixed_cost=38
+runningcost=0
+fixed_cost=188
 
 comfort[0]=0
 comfort[1]=25
@@ -35,16 +35,17 @@ bidirectional=1
 upgrade[0]=LBSCR-4wheel-parliamentary-third
 upgrade[1]=milk-van
 
+Constraint[Prev][0]=any
 Constraint[Next][0]=any
 
-EmptyImage[E]=./images/lbscr-4wheel-open-sided_E.0.0
-EmptyImage[SE]=./images/lbscr-4wheel-open-sided_SE.0.0
-EmptyImage[S]=./images/lbscr-4wheel-open-sided_S.0.0
-EmptyImage[SW]=./images/lbscr-4wheel-open-sided_SW.0.0
-EmptyImage[W]=./images/lbscr-4wheel-open-sided_W.0.0
-EmptyImage[NW]=./images/lbscr-4wheel-open-sided_NW.0.0
-EmptyImage[N]=./images/lbscr-4wheel-open-sided_N.0.0
-EmptyImage[NE]=./images/lbscr-4wheel-open-sided_NE.0.0
+EmptyImage[E]=./carriages/lbscr-4wheel-open-sided_E.0.0
+EmptyImage[SE]=./carriages/lbscr-4wheel-open-sided_SE.0.0
+EmptyImage[S]=./carriages/lbscr-4wheel-open-sided_S.0.0
+EmptyImage[SW]=./carriages/lbscr-4wheel-open-sided_SW.0.0
+EmptyImage[W]=./carriages/lbscr-4wheel-open-sided_W.0.0
+EmptyImage[NW]=./carriages/lbscr-4wheel-open-sided_NW.0.0
+EmptyImage[N]=./carriages/lbscr-4wheel-open-sided_N.0.0
+EmptyImage[NE]=./carriages/lbscr-4wheel-open-sided_NE.0.0
 
 ---
 
@@ -69,8 +70,8 @@ weight=3
 axles=2
 cost=90000
 upgrade_price=15000
-runningcost=7
-fixed_cost=4838
+runningcost=0
+fixed_cost=4988
 
 comfort[0]=0
 comfort[1]=25
@@ -83,11 +84,11 @@ bidirectional=1
 upgrade[0]=LBSCR-4wheel-parliamentary-third-brake
 upgrade[1]=milk-van
 
-EmptyImage[E]=./images/lbscr-4wheel-open-sided_E.0.0
-EmptyImage[SE]=./images/lbscr-4wheel-open-sided_SE.0.0
-EmptyImage[S]=./images/lbscr-4wheel-open-sided_S.0.0
-EmptyImage[SW]=./images/lbscr-4wheel-open-sided_SW.0.0
-EmptyImage[W]=./images/lbscr-4wheel-open-sided_W.0.0
-EmptyImage[NW]=./images/lbscr-4wheel-open-sided_NW.0.0
-EmptyImage[N]=./images/lbscr-4wheel-open-sided_N.0.0
-EmptyImage[NE]=./images/lbscr-4wheel-open-sided_NE.0.0
+EmptyImage[E]=./carriages/lbscr-4wheel-open-sided_E.0.0
+EmptyImage[SE]=./carriages/lbscr-4wheel-open-sided_SE.0.0
+EmptyImage[S]=./carriages/lbscr-4wheel-open-sided_S.0.0
+EmptyImage[SW]=./carriages/lbscr-4wheel-open-sided_SW.0.0
+EmptyImage[W]=./carriages/lbscr-4wheel-open-sided_W.0.0
+EmptyImage[NW]=./carriages/lbscr-4wheel-open-sided_NW.0.0
+EmptyImage[N]=./carriages/lbscr-4wheel-open-sided_N.0.0
+EmptyImage[NE]=./carriages/lbscr-4wheel-open-sided_NE.0.0

@@ -12,7 +12,8 @@ payload=65
 weight=15
 length=8
 cost=265000
-runningcost=14
+runningcost=10
+fixed_cost=16110
 intro_year=1949
 intro_month=3
 
@@ -26,14 +27,14 @@ way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Prev][0]=none
+
 Constraint[Next][0]=SteelHullDumbBargeBulk
 Constraint[Next][1]=SteelHullDumbBargeLong
 Constraint[Next][2]=SteelHullDumbBargePiece
 Constraint[Next][3]=SteelHullDumbBargeCool
-Constraint[Next][4]=SteelHullDumbBargeMail
+Constraint[Next][4]=SteelHullDumbBargeOil
 Constraint[Next][5]=SteelHullDumbBargeLivestock
-Constraint[Next][6]=SteelHullDumbBargeOil
-Constraint[Next][7]=none
+Constraint[Next][6]=none
 
 EmptyImage[E]=./images/diesel-light-barge-bw.1.4
 EmptyImage[SE]=./images/diesel-light-barge-bw.1.5
@@ -109,7 +110,8 @@ payload=65
 weight=15
 length=8
 cost=265000
-runningcost=14
+runningcost=10
+fixed_cost=16110
 intro_year=1949
 intro_month=3
 
@@ -123,14 +125,15 @@ way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Prev][0]=none
+
 Constraint[Next][0]=SteelHullDumbBargeBulk
 Constraint[Next][1]=SteelHullDumbBargeLong
 Constraint[Next][2]=SteelHullDumbBargePiece
 Constraint[Next][3]=SteelHullDumbBargeCool
-Constraint[Next][4]=SteelHullDumbBargeMail
+Constraint[Next][4]=SteelHullDumbBargeOil
 Constraint[Next][5]=SteelHullDumbBargeLivestock
-Constraint[Next][6]=SteelHullDumbBargeOil
-Constraint[Next][7]=none
+Constraint[Next][6]=none
+
 
 EmptyImage[E]=./images/diesel-light-barge-bw.1.4
 EmptyImage[SE]=./images/diesel-light-barge-bw.1.5
@@ -176,7 +179,8 @@ payload=65
 weight=15
 length=8
 cost=265000
-runningcost=14
+runningcost=10
+fixed_cost=16110
 intro_year=1949
 intro_month=3
 
@@ -190,14 +194,15 @@ way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Prev][0]=none
+
 Constraint[Next][0]=SteelHullDumbBargeBulk
 Constraint[Next][1]=SteelHullDumbBargeLong
 Constraint[Next][2]=SteelHullDumbBargePiece
 Constraint[Next][3]=SteelHullDumbBargeCool
-Constraint[Next][4]=SteelHullDumbBargeMail
+Constraint[Next][4]=SteelHullDumbBargeOil
 Constraint[Next][5]=SteelHullDumbBargeLivestock
-Constraint[Next][6]=SteelHullDumbBargeOil
-Constraint[Next][7]=none
+Constraint[Next][6]=none
+
 
 EmptyImage[E]=./images/diesel-light-barge-bw.1.4
 EmptyImage[SE]=./images/diesel-light-barge-bw.1.5
@@ -232,7 +237,8 @@ payload=65
 weight=15
 length=8
 cost=265000
-runningcost=14
+runningcost=10
+fixed_cost=16110
 intro_year=1949
 intro_month=3
 
@@ -246,14 +252,14 @@ way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Prev][0]=none
+
 Constraint[Next][0]=SteelHullDumbBargeBulk
 Constraint[Next][1]=SteelHullDumbBargeLong
 Constraint[Next][2]=SteelHullDumbBargePiece
 Constraint[Next][3]=SteelHullDumbBargeCool
-Constraint[Next][4]=SteelHullDumbBargeMail
+Constraint[Next][4]=SteelHullDumbBargeOil
 Constraint[Next][5]=SteelHullDumbBargeLivestock
-Constraint[Next][6]=SteelHullDumbBargeOil
-Constraint[Next][7]=none
+Constraint[Next][6]=none
 
 
 EmptyImage[E]=./images/diesel-light-barge-bw.1.4
@@ -289,7 +295,8 @@ payload=65
 weight=15
 length=8
 cost=265000
-runningcost=14
+runningcost=4
+fixed_cost=16110
 intro_year=1949
 intro_month=3
 
@@ -303,15 +310,14 @@ way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Prev][0]=none
+
 Constraint[Next][0]=SteelHullDumbBargeBulk
 Constraint[Next][1]=SteelHullDumbBargeLong
 Constraint[Next][2]=SteelHullDumbBargePiece
 Constraint[Next][3]=SteelHullDumbBargeCool
-Constraint[Next][4]=SteelHullDumbBargeMail
+Constraint[Next][4]=SteelHullDumbBargeOil
 Constraint[Next][5]=SteelHullDumbBargeLivestock
-Constraint[Next][6]=SteelHullDumbBargeOil
-Constraint[Next][7]=none
-
+Constraint[Next][6]=none
 
 EmptyImage[E]=./images/diesel-light-barge-bw.1.4
 EmptyImage[SE]=./images/diesel-light-barge-bw.1.5
@@ -346,7 +352,8 @@ payload=65
 weight=15
 length=8
 cost=265000
-runningcost=14
+runningcost=10
+fixed_cost=16110
 intro_year=1949
 intro_month=3
 
@@ -360,15 +367,14 @@ way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Prev][0]=none
+
 Constraint[Next][0]=SteelHullDumbBargeBulk
 Constraint[Next][1]=SteelHullDumbBargeLong
 Constraint[Next][2]=SteelHullDumbBargePiece
 Constraint[Next][3]=SteelHullDumbBargeCool
-Constraint[Next][4]=SteelHullDumbBargeMail
+Constraint[Next][4]=SteelHullDumbBargeOil
 Constraint[Next][5]=SteelHullDumbBargeLivestock
-Constraint[Next][6]=SteelHullDumbBargeOil
-Constraint[Next][7]=none
-
+Constraint[Next][6]=none
 
 EmptyImage[E]=./images/diesel-light-barge-bw.1.4
 EmptyImage[SE]=./images/diesel-light-barge-bw.1.5
@@ -389,5 +395,3 @@ FreightImage[0][W]=./images/diesel-light-barge-bw-light-cover.1.0
 FreightImage[0][NW]=./images/diesel-light-barge-bw-light-cover.1.1
 FreightImage[0][N]=./images/diesel-light-barge-bw-light-cover.1.2
 FreightImage[0][NE]=./images/diesel-light-barge-bw-light-cover.1.3
-
----

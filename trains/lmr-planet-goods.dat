@@ -24,19 +24,19 @@ way_wear_factor=20958
 # Weight given by Ahrons, p. 20
 weight=10.1
 cost=4752000
-runningcost=7
-fixed_cost=1150
+runningcost=35
+fixed_cost=22600
 sound=lwalker-br-4mt-tank.wav
 years_before_maintenance_max_reached=70
 increase_maintenance_after_years=25
 
 Constraint[Next][0]=LMR-Planet-Tender
 
-EmptyImage[E]=./images/lmr-planet-goods_E.0.0
-EmptyImage[SE]=./images/lmr-planet-goods_SE.0.0
-EmptyImage[S]=./images/lmr-planet-goods_S.0.0
-EmptyImage[SW]=./images/lmr-planet-goods_SW.0.0
-EmptyImage[W]=./images/lmr-planet-goods_W.0.0
-EmptyImage[NW]=./images/lmr-planet-goods_NW.0.0
-EmptyImage[N]=./images/lmr-planet-goods_N.0.0
-EmptyImage[NE]=./images/lmr-planet-goods_NE.0.0
+EmptyImage[E]=./carriages/lmr-planet-goods_E.0.0
+EmptyImage[SE]=./carriages/lmr-planet-goods_SE.0.0
+EmptyImage[S]=./carriages/lmr-planet-goods_S.0.0
+EmptyImage[SW]=./carriages/lmr-planet-goods_SW.0.0
+EmptyImage[W]=./carriages/lmr-planet-goods_W.0.0
+EmptyImage[NW]=./carriages/lmr-planet-goods_NW.0.0
+EmptyImage[N]=./carriages/lmr-planet-goods_N.0.0
+EmptyImage[NE]=./carriages/lmr-planet-goods_NE.0.0

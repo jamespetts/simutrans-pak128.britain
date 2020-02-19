@@ -20,7 +20,8 @@ length=10
 weight=29.4
 axles=4
 cost=442000
-runningcost=28
+runningcost=0
+fixed_cost=526
 
 can_lead_from_rear=0
 bidirectional=1
@@ -61,29 +62,29 @@ liverytype[2]=BR-Blue
 # to match graphics produced with the old workflow.
 # The .blend files, however, only have the originally 
 # sized models. The increase in size was 1.05 on all axes.
-EmptyImage[E][0]=./images/br-mk1-sub-cl-cc_E.0
-EmptyImage[SE][0]=./images/br-mk1-sub-cl-cc_SE.0
-EmptyImage[S][0]=./images/br-mk1-sub-cl-cc_S.0
-EmptyImage[SW][0]=./images/br-mk1-sub-cl-cc_SW.0
-EmptyImage[W][0]=./images/br-mk1-sub-cl-cc_W.0
-EmptyImage[NW][0]=./images/br-mk1-sub-cl-cc_NW.0
-EmptyImage[N][0]=./images/br-mk1-sub-cl-cc_N.0
-EmptyImage[NE][0]=./images/br-mk1-sub-cl-cc_NE.0
+EmptyImage[E][0]=./carriages/br-mk1-sub-cl-cc_E.0
+EmptyImage[SE][0]=./carriages/br-mk1-sub-cl-cc_SE.0
+EmptyImage[S][0]=./carriages/br-mk1-sub-cl-cc_S.0
+EmptyImage[SW][0]=./carriages/br-mk1-sub-cl-cc_SW.0
+EmptyImage[W][0]=./carriages/br-mk1-sub-cl-cc_W.0
+EmptyImage[NW][0]=./carriages/br-mk1-sub-cl-cc_NW.0
+EmptyImage[N][0]=./carriages/br-mk1-sub-cl-cc_N.0
+EmptyImage[NE][0]=./carriages/br-mk1-sub-cl-cc_NE.0
 
-EmptyImage[E][1]=./images/br-mk1-sub-cl-m_E.0
-EmptyImage[SE][1]=./images/br-mk1-sub-cl-m_SE.0
-EmptyImage[S][1]=./images/br-mk1-sub-cl-m_S.0
-EmptyImage[SW][1]=./images/br-mk1-sub-cl-m_SW.0
-EmptyImage[W][1]=./images/br-mk1-sub-cl-m_W.0
-EmptyImage[NW][1]=./images/br-mk1-sub-cl-m_NW.0
-EmptyImage[N][1]=./images/br-mk1-sub-cl-m_N.0
-EmptyImage[NE][1]=./images/br-mk1-sub-cl-m_NE.0
+EmptyImage[E][1]=./carriages/br-mk1-sub-cl-m_E.0
+EmptyImage[SE][1]=./carriages/br-mk1-sub-cl-m_SE.0
+EmptyImage[S][1]=./carriages/br-mk1-sub-cl-m_S.0
+EmptyImage[SW][1]=./carriages/br-mk1-sub-cl-m_SW.0
+EmptyImage[W][1]=./carriages/br-mk1-sub-cl-m_W.0
+EmptyImage[NW][1]=./carriages/br-mk1-sub-cl-m_NW.0
+EmptyImage[N][1]=./carriages/br-mk1-sub-cl-m_N.0
+EmptyImage[NE][1]=./carriages/br-mk1-sub-cl-m_NE.0
 
-EmptyImage[E][2]=./images/br-mk1-sub-cl-b_E.0
-EmptyImage[SE][2]=./images/br-mk1-sub-cl-b_SE.0
-EmptyImage[S][2]=./images/br-mk1-sub-cl-b_S.0
-EmptyImage[SW][2]=./images/br-mk1-sub-cl-b_SW.0
-EmptyImage[W][2]=./images/br-mk1-sub-cl-b_W.0
-EmptyImage[NW][2]=./images/br-mk1-sub-cl-b_NW.0
-EmptyImage[N][2]=./images/br-mk1-sub-cl-b_N.0
-EmptyImage[NE][2]=./images/br-mk1-sub-cl-b_NE.0
+EmptyImage[E][2]=./carriages/br-mk1-sub-cl-b_E.0
+EmptyImage[SE][2]=./carriages/br-mk1-sub-cl-b_SE.0
+EmptyImage[S][2]=./carriages/br-mk1-sub-cl-b_S.0
+EmptyImage[SW][2]=./carriages/br-mk1-sub-cl-b_SW.0
+EmptyImage[W][2]=./carriages/br-mk1-sub-cl-b_W.0
+EmptyImage[NW][2]=./carriages/br-mk1-sub-cl-b_NW.0
+EmptyImage[N][2]=./carriages/br-mk1-sub-cl-b_N.0
+EmptyImage[NE][2]=./carriages/br-mk1-sub-cl-b_NE.0

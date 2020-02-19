@@ -10,27 +10,27 @@ retire_month=4
 waytype=track
 freight=meat
 payload=18
-length=6
+length=5
 
 weight=12
 axle_load=7
 way_wear_factor=24225
 cost=365000
-runningcost=9
-
-
+runningcost=0
+fixed_cost=152
 
 min_loading_time=300
 max_loading_time=900
 bidirectional=1
 
+Constraint[Prev][0]=any
 Constraint[Next][0]=any
 
-EmptyImage[E]=./images/fast-wagons-early.1.0
-EmptyImage[SE]=./images/fast-wagons-early.1.1
-EmptyImage[S]=./images/fast-wagons-early.1.2
-EmptyImage[SW]=./images/fast-wagons-early.1.3
-EmptyImage[W]=./images/fast-wagons-early.1.4
-EmptyImage[NW]=./images/fast-wagons-early.1.5
-EmptyImage[N]=./images/fast-wagons-early.1.6
-EmptyImage[NE]=./images/fast-wagons-early.1.7
+EmptyImage[E]=./wagons/wagon-cool-fast_E.0.0
+EmptyImage[SE]=./wagons/wagon-cool-fast_SE.0.0
+EmptyImage[S]=./wagons/wagon-cool-fast_S.0.0
+EmptyImage[SW]=./wagons/wagon-cool-fast_SW.0.0
+EmptyImage[W]=./wagons/wagon-cool-fast_W.0.0
+EmptyImage[NW]=./wagons/wagon-cool-fast_NW.0.0
+EmptyImage[N]=./wagons/wagon-cool-fast_N.0.0
+EmptyImage[NE]=./wagons/wagon-cool-fast_NE.0.0

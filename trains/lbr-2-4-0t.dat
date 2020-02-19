@@ -26,8 +26,8 @@ way_wear_factor=33775
 weight=17
 axle_load=7
 cost=7620000
-runningcost=91
-fixed_cost=27175
+runningcost=82
+fixed_cost=26583
 sound=lwalker-br-4mt-tank.wav
 
 # Rough range based on 2 hours between coal/water stops. Someone with good steam knowledge should make a better value.
@@ -39,21 +39,21 @@ bidirectional=1
 liverytype[0]=LBSCR-Early
 liverytype[1]=LBSCR-Craven
 
-EmptyImage[E][0]=./images/lbscr-2-4-0t-early.1.4
-EmptyImage[SE][0]=./images/lbscr-2-4-0t-early.1.5
-EmptyImage[S][0]=./images/lbscr-2-4-0t-early.1.6
-EmptyImage[SW][0]=./images/lbscr-2-4-0t-early.1.7
-EmptyImage[W][0]=./images/lbscr-2-4-0t-early.1.0
-EmptyImage[NW][0]=./images/lbscr-2-4-0t-early.1.1
-EmptyImage[N][0]=./images/lbscr-2-4-0t-early.1.2
-EmptyImage[NE][0]=./images/lbscr-2-4-0t-early.1.3
+EmptyImage[E][0]=./locomotives/lbscr-2-4-0t-early_E.0.0
+EmptyImage[SE][0]=./locomotives/lbscr-2-4-0t-early_SE.0.0
+EmptyImage[S][0]=./locomotives/lbscr-2-4-0t-early_S.0.0
+EmptyImage[SW][0]=./locomotives/lbscr-2-4-0t-early_SW.0.0
+EmptyImage[W][0]=./locomotives/lbscr-2-4-0t-early_W.0.0
+EmptyImage[NW][0]=./locomotives/lbscr-2-4-0t-early_NW.0.0
+EmptyImage[N][0]=./locomotives/lbscr-2-4-0t-early_N.0.0
+EmptyImage[NE][0]=./locomotives/lbscr-2-4-0t-early_NE.0.0
 
-EmptyImage[E][1]=./images/lbscr-2-4-0t-craven.1.4
-EmptyImage[SE][1]=./images/lbscr-2-4-0t-craven.1.5
-EmptyImage[S][1]=./images/lbscr-2-4-0t-craven.1.6
-EmptyImage[SW][1]=./images/lbscr-2-4-0t-craven.1.7
-EmptyImage[W][1]=./images/lbscr-2-4-0t-craven.1.0
-EmptyImage[NW][1]=./images/lbscr-2-4-0t-craven.1.1
-EmptyImage[N][1]=./images/lbscr-2-4-0t-craven.1.2
-EmptyImage[NE][1]=./images/lbscr-2-4-0t-craven.1.3
+EmptyImage[E][1]=./locomotives/lbscr-2-4-0t-craven_E.0.0
+EmptyImage[SE][1]=./locomotives/lbscr-2-4-0t-craven_SE.0.0
+EmptyImage[S][1]=./locomotives/lbscr-2-4-0t-craven_S.0.0
+EmptyImage[SW][1]=./locomotives/lbscr-2-4-0t-craven_SW.0.0
+EmptyImage[W][1]=./locomotives/lbscr-2-4-0t-craven_W.0.0
+EmptyImage[NW][1]=./locomotives/lbscr-2-4-0t-craven_NW.0.0
+EmptyImage[N][1]=./locomotives/lbscr-2-4-0t-craven_N.0.0
+EmptyImage[NE][1]=./locomotives/lbscr-2-4-0t-craven_NE.0.0
 

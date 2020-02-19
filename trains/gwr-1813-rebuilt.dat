@@ -1,0 +1,120 @@
+# Pannier tank version
+# http://www.gwr.org.uk/nopanniers.html
+# https://en.wikipedia.org/wiki/GWR_1813_Class
+obj=vehicle
+name=gwr-1813-rebuilt
+engine_type=steam
+smoke=Steam
+speed=87
+# Extrapolated
+power=206
+# Calculated using data from: https://en.wikipedia.org/wiki/GWR_1813_Class
+# assuming boiler pressure of 175psi and loss factor of 0.8.
+tractive_effort=82
+copyright=Kieron/JamesPetts
+intro_year=1903
+intro_month=4
+# Allow building until the 5700 is introduced
+retire_year=1930
+retire_month=3
+waytype=track
+freight=None
+payload=0
+length=5
+# Not available only as upgrade as players may wish
+# to build this sort of locomotive anew before the
+# 5700 is introduced.
+
+# Guessed to be similar to the 5700 class
+weight=48.1
+axle_load=17
+cost=2212000
+upgrade_price=491556
+runningcost=133
+fixed_cost=25800
+sound=konakaboom-gwr-pannier.wav
+
+can_lead_from_rear=0
+bidirectional=1
+
+liverytype[0]=GWR-standard-green
+liverytype[1]=GWR-overall-brown
+liverytype[2]=WW1-Austerity
+liverytype[3]=GWR-chocolate-cream-lined
+liverytype[4]=GWR-shirtbutton
+liverytype[5]=GWR-hawksworth
+liverytype[6]=WW2-Austerity
+liverytype[7]=BR-Early
+
+EmptyImage[E][0]=./locomotives/gwr-1813-rebuilt_E.0.0
+EmptyImage[SE][0]=./locomotives/gwr-1813-rebuilt_SE.0.0
+EmptyImage[S][0]=./locomotives/gwr-1813-rebuilt_S.0.0
+EmptyImage[SW][0]=./locomotives/gwr-1813-rebuilt_SW.0.0
+EmptyImage[W][0]=./locomotives/gwr-1813-rebuilt_W.0.0
+EmptyImage[NW][0]=./locomotives/gwr-1813-rebuilt_NW.0.0
+EmptyImage[N][0]=./locomotives/gwr-1813-rebuilt_N.0.0
+EmptyImage[NE][0]=./locomotives/gwr-1813-rebuilt_NE.0.0
+
+EmptyImage[E][1]=./locomotives/gwr-1813-rebuilt-churchward_E.0.0
+EmptyImage[SE][1]=./locomotives/gwr-1813-rebuilt-churchward_SE.0.0
+EmptyImage[S][1]=./locomotives/gwr-1813-rebuilt-churchward_S.0.0
+EmptyImage[SW][1]=./locomotives/gwr-1813-rebuilt-churchward_SW.0.0
+EmptyImage[W][1]=./locomotives/gwr-1813-rebuilt-churchward_W.0.0
+EmptyImage[NW][1]=./locomotives/gwr-1813-rebuilt-churchward_NW.0.0
+EmptyImage[N][1]=./locomotives/gwr-1813-rebuilt-churchward_N.0.0
+EmptyImage[NE][1]=./locomotives/gwr-1813-rebuilt-churchward_NE.0.0
+
+EmptyImage[E][2]=./locomotives/gwr-1813-rebuilt-ww1-austerity_E.0.0
+EmptyImage[SE][2]=./locomotives/gwr-1813-rebuilt-ww1-austerity_SE.0.0
+EmptyImage[S][2]=./locomotives/gwr-1813-rebuilt-ww1-austerity_S.0.0
+EmptyImage[SW][2]=./locomotives/gwr-1813-rebuilt-ww1-austerity_SW.0.0
+EmptyImage[W][2]=./locomotives/gwr-1813-rebuilt-ww1-austerity_W.0.0
+EmptyImage[NW][2]=./locomotives/gwr-1813-rebuilt-ww1-austerity_NW.0.0
+EmptyImage[N][2]=./locomotives/gwr-1813-rebuilt-ww1-austerity_N.0.0
+EmptyImage[NE][2]=./locomotives/gwr-1813-rebuilt-ww1-austerity_NE.0.0
+
+EmptyImage[E][3]=./locomotives/gwr-1813-rebuilt-collett_E.0.0
+EmptyImage[SE][3]=./locomotives/gwr-1813-rebuilt-collett_SE.0.0
+EmptyImage[S][3]=./locomotives/gwr-1813-rebuilt-collett_S.0.0
+EmptyImage[SW][3]=./locomotives/gwr-1813-rebuilt-collett_SW.0.0
+EmptyImage[W][3]=./locomotives/gwr-1813-rebuilt-collett_W.0.0
+EmptyImage[NW][3]=./locomotives/gwr-1813-rebuilt-collett_NW.0.0
+EmptyImage[N][3]=./locomotives/gwr-1813-rebuilt-collett_N.0.0
+EmptyImage[NE][3]=./locomotives/gwr-1813-rebuilt-collett_NE.0.0
+
+EmptyImage[E][4]=./locomotives/gwr-1813-rebuilt-shirtbutton_E.0.0
+EmptyImage[SE][4]=./locomotives/gwr-1813-rebuilt-shirtbutton_SE.0.0
+EmptyImage[S][4]=./locomotives/gwr-1813-rebuilt-shirtbutton_S.0.0
+EmptyImage[SW][4]=./locomotives/gwr-1813-rebuilt-shirtbutton_SW.0.0
+EmptyImage[W][4]=./locomotives/gwr-1813-rebuilt-shirtbutton_W.0.0
+EmptyImage[NW][4]=./locomotives/gwr-1813-rebuilt-shirtbutton_NW.0.0
+EmptyImage[N][4]=./locomotives/gwr-1813-rebuilt-shirtbutton_N.0.0
+EmptyImage[NE][4]=./locomotives/gwr-1813-rebuilt-shirtbutton_NE.0.0
+
+EmptyImage[E][5]=./locomotives/gwr-1813-rebuilt-hawksworth_E.0.0
+EmptyImage[SE][5]=./locomotives/gwr-1813-rebuilt-hawksworth_SE.0.0
+EmptyImage[S][5]=./locomotives/gwr-1813-rebuilt-hawksworth_S.0.0
+EmptyImage[SW][5]=./locomotives/gwr-1813-rebuilt-hawksworth_SW.0.0
+EmptyImage[W][5]=./locomotives/gwr-1813-rebuilt-hawksworth_W.0.0
+EmptyImage[NW][5]=./locomotives/gwr-1813-rebuilt-hawksworth_NW.0.0
+EmptyImage[N][5]=./locomotives/gwr-1813-rebuilt-hawksworth_N.0.0
+EmptyImage[NE][5]=./locomotives/gwr-1813-rebuilt-hawksworth_NE.0.0
+
+EmptyImage[E][6]=./locomotives/gwr-1813-rebuilt-ww2-austerity_E.0.0
+EmptyImage[SE][6]=./locomotives/gwr-1813-rebuilt-ww2-austerity_SE.0.0
+EmptyImage[S][6]=./locomotives/gwr-1813-rebuilt-ww2-austerity_S.0.0
+EmptyImage[SW][6]=./locomotives/gwr-1813-rebuilt-ww2-austerity_SW.0.0
+EmptyImage[W][6]=./locomotives/gwr-1813-rebuilt-ww2-austerity_W.0.0
+EmptyImage[NW][6]=./locomotives/gwr-1813-rebuilt-ww2-austerity_NW.0.0
+EmptyImage[N][6]=./locomotives/gwr-1813-rebuilt-ww2-austerity_N.0.0
+EmptyImage[NE][6]=./locomotives/gwr-1813-rebuilt-ww2-austerity_NE.0.0
+
+EmptyImage[E][7]=./locomotives/gwr-1813-rebuilt-br_E.0.0
+EmptyImage[SE][7]=./locomotives/gwr-1813-rebuilt-br_SE.0.0
+EmptyImage[S][7]=./locomotives/gwr-1813-rebuilt-br_S.0.0
+EmptyImage[SW][7]=./locomotives/gwr-1813-rebuilt-br_SW.0.0
+EmptyImage[W][7]=./locomotives/gwr-1813-rebuilt-br_W.0.0
+EmptyImage[NW][7]=./locomotives/gwr-1813-rebuilt-br_NW.0.0
+EmptyImage[N][7]=./locomotives/gwr-1813-rebuilt-br_N.0.0
+EmptyImage[NE][7]=./locomotives/gwr-1813-rebuilt-br_NE.0.0
+

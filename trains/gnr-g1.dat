@@ -20,7 +20,8 @@ weight=40
 # Ahrons p. 186
 axle_load=15
 cost=13150000
-runningcost=1756
+runningcost=141
+fixed_cost=34958
 sound=lwalker-br-4mt-tank.wav
 
 upgrade[0]=gnr-g2
@@ -28,13 +29,13 @@ upgrade[1]=gnr-g3
 
 Constraint[Next][0]=GNR-Stirling8Foot-Tender
 
-EmptyImage[E]=./images/gnr-stirling-single-g1.1.4
-EmptyImage[SE]=./images/gnr-stirling-single-g1.1.5
-EmptyImage[S]=./images/gnr-stirling-single-g1.1.6
-EmptyImage[SW]=./images/gnr-stirling-single-g1.1.7
-EmptyImage[W]=./images/gnr-stirling-single-g1.1.0
-EmptyImage[NW]=./images/gnr-stirling-single-g1.1.1
-EmptyImage[N]=./images/gnr-stirling-single-g1.1.2
-EmptyImage[NE]=./images/gnr-stirling-single-g1.1.3
+EmptyImage[E]=./locomotives/gnr-stirling-single-g1_E.0.0
+EmptyImage[SE]=./locomotives/gnr-stirling-single-g1_SE.0.0
+EmptyImage[S]=./locomotives/gnr-stirling-single-g1_S.0.0
+EmptyImage[SW]=./locomotives/gnr-stirling-single-g1_SW.0.0
+EmptyImage[W]=./locomotives/gnr-stirling-single-g1_W.0.0
+EmptyImage[NW]=./locomotives/gnr-stirling-single-g1_NW.0.0
+EmptyImage[N]=./locomotives/gnr-stirling-single-g1_N.0.0
+EmptyImage[NE]=./locomotives/gnr-stirling-single-g1_NE.0.0
 
 

@@ -24,7 +24,8 @@ way_wear_factor=88625
 weight=63
 axle_load=17
 cost=7800000
-runningcost=813
+runningcost=226
+fixed_cost=46500
 sound=lwalker-br-4mt-tank.wav
 increase_maintenance_after_years=24
 years_before_maintenance_max_reached=17
@@ -34,23 +35,24 @@ Constraint[Next][0]=LMS-4P-Tender
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
 
-EmptyImage[E][0]=./images/mr-1000-lms.1.4
-EmptyImage[SE][0]=./images/mr-1000-lms.1.5
-EmptyImage[S][0]=./images/mr-1000-lms.1.6
-EmptyImage[SW][0]=./images/mr-1000-lms.1.7
-EmptyImage[W][0]=./images/mr-1000-lms.1.0
-EmptyImage[NW][0]=./images/mr-1000-lms.1.1
-EmptyImage[N][0]=./images/mr-1000-lms.1.2
-EmptyImage[NE][0]=./images/mr-1000-lms.1.3
+# TODO: Produce specific graphics for this with correct diameter wheels
+EmptyImage[E][0]=./locomotives/mr-1000-lms_E.0.0
+EmptyImage[SE][0]=./locomotives/mr-1000-lms_SE.0.0
+EmptyImage[S][0]=./locomotives/mr-1000-lms_S.0.0
+EmptyImage[SW][0]=./locomotives/mr-1000-lms_SW.0.0
+EmptyImage[W][0]=./locomotives/mr-1000-lms_W.0.0
+EmptyImage[NW][0]=./locomotives/mr-1000-lms_NW.0.0
+EmptyImage[N][0]=./locomotives/mr-1000-lms_N.0.0
+EmptyImage[NE][0]=./locomotives/mr-1000-lms_NE.0.0
 
-EmptyImage[E][1]=./images/mr-1000-br.1.4
-EmptyImage[SE][1]=./images/mr-1000-br.1.5
-EmptyImage[S][1]=./images/mr-1000-br.1.6
-EmptyImage[SW][1]=./images/mr-1000-br.1.7
-EmptyImage[W][1]=./images/mr-1000-br.1.0
-EmptyImage[NW][1]=./images/mr-1000-br.1.1
-EmptyImage[N][1]=./images/mr-1000-br.1.2
-EmptyImage[NE][1]=./images/mr-1000-br.1.3
+EmptyImage[E][1]=./locomotives/mr-1000-br_E.0.0
+EmptyImage[SE][1]=./locomotives/mr-1000-br_SE.0.0
+EmptyImage[S][1]=./locomotives/mr-1000-br_S.0.0
+EmptyImage[SW][1]=./locomotives/mr-1000-br_SW.0.0
+EmptyImage[W][1]=./locomotives/mr-1000-br_W.0.0
+EmptyImage[NW][1]=./locomotives/mr-1000-br_NW.0.0
+EmptyImage[N][1]=./locomotives/mr-1000-br_N.0.0
+EmptyImage[NE][1]=./locomotives/mr-1000-br_NE.0.0
 
 ---
 
@@ -72,6 +74,7 @@ weight=37
 axles=3
 cost=0
 runningcost=0
+fixed_cost=0
 
 increase_maintenance_after_years=23
 
@@ -80,20 +83,20 @@ Constraint[Prev][0]=LMS-4P
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
 
-EmptyImage[E][0]=./images/mr-1000-tender-lms.1.4
-EmptyImage[SE][0]=./images/mr-1000-tender-lms.1.5
-EmptyImage[S][0]=./images/mr-1000-tender-lms.1.6
-EmptyImage[SW][0]=./images/mr-1000-tender-lms.1.7
-EmptyImage[W][0]=./images/mr-1000-tender-lms.1.0
-EmptyImage[NW][0]=./images/mr-1000-tender-lms.1.1
-EmptyImage[N][0]=./images/mr-1000-tender-lms.1.2
-EmptyImage[NE][0]=./images/mr-1000-tender-lms.1.3
+EmptyImage[E][0]=./locomotives/mr-1000-tender-lms_E.0.0
+EmptyImage[SE][0]=./locomotives/mr-1000-tender-lms_SE.0.0
+EmptyImage[S][0]=./locomotives/mr-1000-tender-lms_S.0.0
+EmptyImage[SW][0]=./locomotives/mr-1000-tender-lms_SW.0.0
+EmptyImage[W][0]=./locomotives/mr-1000-tender-lms_W.0.0
+EmptyImage[NW][0]=./locomotives/mr-1000-tender-lms_NW.0.0
+EmptyImage[N][0]=./locomotives/mr-1000-tender-lms_N.0.0
+EmptyImage[NE][0]=./locomotives/mr-1000-tender-lms_NE.0.0
 
-EmptyImage[E][1]=./images/mr-1000-tender-br.1.4
-EmptyImage[SE][1]=./images/mr-1000-tender-br.1.5
-EmptyImage[S][1]=./images/mr-1000-tender-br.1.6
-EmptyImage[SW][1]=./images/mr-1000-tender-br.1.7
-EmptyImage[W][1]=./images/mr-1000-tender-br.1.0
-EmptyImage[NW][1]=./images/mr-1000-tender-br.1.1
-EmptyImage[N][1]=./images/mr-1000-tender-br.1.2
-EmptyImage[NE][1]=./images/mr-1000-tender-br.1.3
+EmptyImage[E][1]=./locomotives/mr-1000-tender-br_E.0.0
+EmptyImage[SE][1]=./locomotives/mr-1000-tender-br_SE.0.0
+EmptyImage[S][1]=./locomotives/mr-1000-tender-br_S.0.0
+EmptyImage[SW][1]=./locomotives/mr-1000-tender-br_SW.0.0
+EmptyImage[W][1]=./locomotives/mr-1000-tender-br_W.0.0
+EmptyImage[NW][1]=./locomotives/mr-1000-tender-br_NW.0.0
+EmptyImage[N][1]=./locomotives/mr-1000-tender-br_N.0.0
+EmptyImage[NE][1]=./locomotives/mr-1000-tender-br_NE.0.0

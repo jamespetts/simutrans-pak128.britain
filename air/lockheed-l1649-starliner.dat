@@ -20,7 +20,8 @@ weight=45.6
 # US$3m (Wikipedia)
 cost=15500000
 upgrade_price=5000
-runningcost=3100
+runningcost=406
+fixed_cost=60764
 intro_year=1957
 intro_month=6
 # The actual retirement is 1958, but the production run would then be too short.
@@ -80,7 +81,8 @@ weight=45.6
 # US$3m (Wikipedia)
 cost=15500000
 upgrade_price=5000
-runningcost=3100
+runningcost=406
+fixed_cost=60764
 intro_year=1957
 intro_month=6
 # The actual retirement is 1958, but the production run would then be too short.

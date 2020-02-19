@@ -26,7 +26,8 @@ length=6
 weight=8.5
 axles=2
 cost=7250000
-runningcost=135
+runningcost=64
+fixed_cost=11776
 sound=video47-leyland-national.wav
 
 # Coach seats

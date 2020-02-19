@@ -4,7 +4,7 @@ engine_type=steam
 smoke=Steam
 speed=150
 # Extrapolated
-power=375
+power=419
 # Tractive effort from Wikipedia: http://en.wikipedia.org/wiki/LNWR_Prince_of_Wales_Class
 tractive_effort=97
 copyright=James
@@ -22,7 +22,8 @@ weight=67.6
 # Ahrons p. 334
 axle_load=18
 cost=10000000
-runningcost=1000
+runningcost=162
+fixed_cost=48333
 sound=lwalker-br-4mt-tank.wav
 increase_maintenance_after_years=16
 years_before_maintenance_max_reached=22
@@ -32,20 +33,20 @@ liverytype[1]=LMS-Standard
 
 Constraint[Next][0]=LNWR-PrinceOfWales-Tender
 
-EmptyImage[E][0]=./images/lnwr-prince-of-wales.1.4
-EmptyImage[SE][0]=./images/lnwr-prince-of-wales.1.5
-EmptyImage[S][0]=./images/lnwr-prince-of-wales.1.6
-EmptyImage[SW][0]=./images/lnwr-prince-of-wales.1.7
-EmptyImage[W][0]=./images/lnwr-prince-of-wales.1.0
-EmptyImage[NW][0]=./images/lnwr-prince-of-wales.1.1
-EmptyImage[N][0]=./images/lnwr-prince-of-wales.1.2
-EmptyImage[NE][0]=./images/lnwr-prince-of-wales.1.3
+EmptyImage[E][0]=./locomotives/lnwr-prince-of-wales_E.0.0
+EmptyImage[SE][0]=./locomotives/lnwr-prince-of-wales_SE.0.0
+EmptyImage[S][0]=./locomotives/lnwr-prince-of-wales_S.0.0
+EmptyImage[SW][0]=./locomotives/lnwr-prince-of-wales_SW.0.0
+EmptyImage[W][0]=./locomotives/lnwr-prince-of-wales_W.0.0
+EmptyImage[NW][0]=./locomotives/lnwr-prince-of-wales_NW.0.0
+EmptyImage[N][0]=./locomotives/lnwr-prince-of-wales_N.0.0
+EmptyImage[NE][0]=./locomotives/lnwr-prince-of-wales_NE.0.0
 
-EmptyImage[E][1]=./images/lnwr-prince-of-wales-lms.1.4
-EmptyImage[SE][1]=./images/lnwr-prince-of-wales-lms.1.5
-EmptyImage[S][1]=./images/lnwr-prince-of-wales-lms.1.6
-EmptyImage[SW][1]=./images/lnwr-prince-of-wales-lms.1.7
-EmptyImage[W][1]=./images/lnwr-prince-of-wales-lms.1.0
-EmptyImage[NW][1]=./images/lnwr-prince-of-wales-lms.1.1
-EmptyImage[N][1]=./images/lnwr-prince-of-wales-lms.1.2
-EmptyImage[NE][1]=./images/lnwr-prince-of-wales-lms.1.3
+EmptyImage[E][1]=./locomotives/lnwr-prince-of-wales-lms_E.0.0
+EmptyImage[SE][1]=./locomotives/lnwr-prince-of-wales-lms_SE.0.0
+EmptyImage[S][1]=./locomotives/lnwr-prince-of-wales-lms_S.0.0
+EmptyImage[SW][1]=./locomotives/lnwr-prince-of-wales-lms_SW.0.0
+EmptyImage[W][1]=./locomotives/lnwr-prince-of-wales-lms_W.0.0
+EmptyImage[NW][1]=./locomotives/lnwr-prince-of-wales-lms_NW.0.0
+EmptyImage[N][1]=./locomotives/lnwr-prince-of-wales-lms_N.0.0
+EmptyImage[NE][1]=./locomotives/lnwr-prince-of-wales-lms_NE.0.0

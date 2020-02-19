@@ -8,6 +8,7 @@ retire_year=1980
 retire_month=9
 waytype=track
 freight=Oel
+mixed_load_prohibition=1
 payload=34
 length=5
 
@@ -15,7 +16,8 @@ weight=13
 axle_load=21
 way_wear_factor=52500
 cost=200000
-runningcost=5
+runningcost=0
+fixed_cost=167
 
 
 can_lead_from_rear=0
@@ -24,12 +26,12 @@ bidirectional=1
 min_loading_time=480
 max_loading_time=600
 
-EmptyImage[E]=./images/wagon-tta.0.0
-EmptyImage[SE]=./images/wagon-tta.0.1
-EmptyImage[S]=./images/wagon-tta.0.2
-EmptyImage[SW]=./images/wagon-tta.0.3
-EmptyImage[W]=./images/wagon-tta.0.4
-EmptyImage[NW]=./images/wagon-tta.0.5
-EmptyImage[N]=./images/wagon-tta.0.6
-EmptyImage[NE]=./images/wagon-tta.0.7
+EmptyImage[E]=./wagons/wagon-tta_E.0.0
+EmptyImage[SE]=./wagons/wagon-tta_SE.0.0
+EmptyImage[S]=./wagons/wagon-tta_S.0.0
+EmptyImage[SW]=./wagons/wagon-tta_SW.0.0
+EmptyImage[W]=./wagons/wagon-tta_W.0.0
+EmptyImage[NW]=./wagons/wagon-tta_NW.0.0
+EmptyImage[N]=./wagons/wagon-tta_N.0.0
+EmptyImage[NE]=./wagons/wagon-tta_NE.0.0
 

@@ -26,7 +26,8 @@ sound=swearingkevo-bristol-l6b.wav
 weight=4.1
 axles=2
 cost=300000
-runningcost=120
+runningcost=48
+fixed_cost=8156
 
 comfort=37
 # Single door pay driver: 4.0 seconds per passenger

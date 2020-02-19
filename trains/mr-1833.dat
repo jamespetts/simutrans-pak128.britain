@@ -6,7 +6,7 @@ engine_type=steam
 smoke=Steam
 speed=95
 # Extrapolated
-power=209
+power=200
 # Calculated from data on Ahrons p. 201. 
 # Loss factor set at 0.8
 tractive_effort=53
@@ -23,8 +23,8 @@ length=5
 weight=44
 axle_load=15
 cost=5796000
-runningcost=299
-fixed_cost=26415
+runningcost=210
+fixed_cost=28830
 sound=lwalker-br-4mt-tank.wav
 years_before_maintenance_max_reached=25
 
@@ -34,20 +34,20 @@ bidirectional=1
 liverytype[0]=MR-Early
 liverytype[1]=MR-Standard
 
-EmptyImage[E][0]=./images/mr-1833-green.1.4
-EmptyImage[SE][0]=./images/mr-1833-green.1.5
-EmptyImage[S][0]=./images/mr-1833-green.1.6
-EmptyImage[SW][0]=./images/mr-1833-green.1.7
-EmptyImage[W][0]=./images/mr-1833-green.1.0
-EmptyImage[NW][0]=./images/mr-1833-green.1.1
-EmptyImage[N][0]=./images/mr-1833-green.1.2
-EmptyImage[NE][0]=./images/mr-1833-green.1.3
+EmptyImage[E][0]=./locomotives/mr-1833-green_E.0.0
+EmptyImage[SE][0]=./locomotives/mr-1833-green_SE.0.0
+EmptyImage[S][0]=./locomotives/mr-1833-green_S.0.0
+EmptyImage[SW][0]=./locomotives/mr-1833-green_SW.0.0
+EmptyImage[W][0]=./locomotives/mr-1833-green_W.0.0
+EmptyImage[NW][0]=./locomotives/mr-1833-green_NW.0.0
+EmptyImage[N][0]=./locomotives/mr-1833-green_N.0.0
+EmptyImage[NE][0]=./locomotives/mr-1833-green_NE.0.0
 
-EmptyImage[E][1]=./images/mr-1833.1.4
-EmptyImage[SE][1]=./images/mr-1833.1.5
-EmptyImage[S][1]=./images/mr-1833.1.6
-EmptyImage[SW][1]=./images/mr-1833.1.7
-EmptyImage[W][1]=./images/mr-1833.1.0
-EmptyImage[NW][1]=./images/mr-1833.1.1
-EmptyImage[N][1]=./images/mr-1833.1.2
-EmptyImage[NE][1]=./images/mr-1833.1.3
+EmptyImage[E][1]=./locomotives/mr-1833_E.0.0
+EmptyImage[SE][1]=./locomotives/mr-1833_SE.0.0
+EmptyImage[S][1]=./locomotives/mr-1833_S.0.0
+EmptyImage[SW][1]=./locomotives/mr-1833_SW.0.0
+EmptyImage[W][1]=./locomotives/mr-1833_W.0.0
+EmptyImage[NW][1]=./locomotives/mr-1833_NW.0.0
+EmptyImage[N][1]=./locomotives/mr-1833_N.0.0
+EmptyImage[NE][1]=./locomotives/mr-1833_NE.0.0

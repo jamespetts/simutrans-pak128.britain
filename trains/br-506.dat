@@ -21,7 +21,8 @@ length=10
 weight=51
 axles=4
 cost=1843000
-runningcost=158
+runningcost=111
+fixed_cost=11280
 sound=x24tohayes-epb.wav
 increase_maintenance_after_years=15
 
@@ -43,32 +44,32 @@ liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue
 liverytype[2]=BR-Large-Logo
 
-EmptyImage[E][0]=./images/br-506-driving-motor.1.4
-EmptyImage[SE][0]=./images/br-506-driving-motor.1.5
-EmptyImage[S][0]=./images/br-506-driving-motor.1.6
-EmptyImage[SW][0]=./images/br-506-driving-motor.1.7
-EmptyImage[W][0]=./images/br-506-driving-motor.1.0
-EmptyImage[NW][0]=./images/br-506-driving-motor.1.1
-EmptyImage[N][0]=./images/br-506-driving-motor.1.2
-EmptyImage[NE][0]=./images/br-506-driving-motor.1.3
+EmptyImage[E][0]=./railcars/br-506-driving-motor_E.0.0
+EmptyImage[SE][0]=./railcars/br-506-driving-motor_SE.0.0
+EmptyImage[S][0]=./railcars/br-506-driving-motor_S.0.0
+EmptyImage[SW][0]=./railcars/br-506-driving-motor_SW.0.0
+EmptyImage[W][0]=./railcars/br-506-driving-motor_W.0.0
+EmptyImage[NW][0]=./railcars/br-506-driving-motor_NW.0.0
+EmptyImage[N][0]=./railcars/br-506-driving-motor_N.0.0
+EmptyImage[NE][0]=./railcars/br-506-driving-motor_NE.0.0
 
-EmptyImage[E][1]=./images/br-506-driving-motor-blue.1.4
-EmptyImage[SE][1]=./images/br-506-driving-motor-blue.1.5
-EmptyImage[S][1]=./images/br-506-driving-motor-blue.1.6
-EmptyImage[SW][1]=./images/br-506-driving-motor-blue.1.7
-EmptyImage[W][1]=./images/br-506-driving-motor-blue.1.0
-EmptyImage[NW][1]=./images/br-506-driving-motor-blue.1.1
-EmptyImage[N][1]=./images/br-506-driving-motor-blue.1.2
-EmptyImage[NE][1]=./images/br-506-driving-motor-blue.1.3
+EmptyImage[E][1]=./railcars/br-506-driving-motor-blue_E.0.0
+EmptyImage[SE][1]=./railcars/br-506-driving-motor-blue_SE.0.0
+EmptyImage[S][1]=./railcars/br-506-driving-motor-blue_S.0.0
+EmptyImage[SW][1]=./railcars/br-506-driving-motor-blue_SW.0.0
+EmptyImage[W][1]=./railcars/br-506-driving-motor-blue_W.0.0
+EmptyImage[NW][1]=./railcars/br-506-driving-motor-blue_NW.0.0
+EmptyImage[N][1]=./railcars/br-506-driving-motor-blue_N.0.0
+EmptyImage[NE][1]=./railcars/br-506-driving-motor-blue_NE.0.0
 
-EmptyImage[E][2]=./images/br-506-driving-motor-blue-grey.1.4
-EmptyImage[SE][2]=./images/br-506-driving-motor-blue-grey.1.5
-EmptyImage[S][2]=./images/br-506-driving-motor-blue-grey.1.6
-EmptyImage[SW][2]=./images/br-506-driving-motor-blue-grey.1.7
-EmptyImage[W][2]=./images/br-506-driving-motor-blue-grey.1.0
-EmptyImage[NW][2]=./images/br-506-driving-motor-blue-grey.1.1
-EmptyImage[N][2]=./images/br-506-driving-motor-blue-grey.1.2
-EmptyImage[NE][2]=./images/br-506-driving-motor-blue-grey.1.3
+EmptyImage[E][2]=./railcars/br-506-driving-motor-blue-grey_E.0.0
+EmptyImage[SE][2]=./railcars/br-506-driving-motor-blue-grey_SE.0.0
+EmptyImage[S][2]=./railcars/br-506-driving-motor-blue-grey_S.0.0
+EmptyImage[SW][2]=./railcars/br-506-driving-motor-blue-grey_SW.0.0
+EmptyImage[W][2]=./railcars/br-506-driving-motor-blue-grey_W.0.0
+EmptyImage[NW][2]=./railcars/br-506-driving-motor-blue-grey_NW.0.0
+EmptyImage[N][2]=./railcars/br-506-driving-motor-blue-grey_N.0.0
+EmptyImage[NE][2]=./railcars/br-506-driving-motor-blue-grey_NE.0.0
 
 ----
 
@@ -92,7 +93,8 @@ length=10
 weight=26
 axles=4
 cost=1843000
-runningcost=158
+runningcost=0
+fixed_cost=2194
 
 increase_maintenance_after_years=15
 
@@ -113,32 +115,32 @@ liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue
 liverytype[2]=BR-Large-Logo
 
-EmptyImage[E][0]=./images/br-506-centre-trailer.1.4
-EmptyImage[SE][0]=./images/br-506-centre-trailer.1.5
-EmptyImage[S][0]=./images/br-506-centre-trailer.1.6
-EmptyImage[SW][0]=./images/br-506-centre-trailer.1.7
-EmptyImage[W][0]=./images/br-506-centre-trailer.1.0
-EmptyImage[NW][0]=./images/br-506-centre-trailer.1.1
-EmptyImage[N][0]=./images/br-506-centre-trailer.1.2
-EmptyImage[NE][0]=./images/br-506-centre-trailer.1.3
+EmptyImage[E][0]=./railcars/br-506-centre-trailer_E.0.0
+EmptyImage[SE][0]=./railcars/br-506-centre-trailer_SE.0.0
+EmptyImage[S][0]=./railcars/br-506-centre-trailer_S.0.0
+EmptyImage[SW][0]=./railcars/br-506-centre-trailer_SW.0.0
+EmptyImage[W][0]=./railcars/br-506-centre-trailer_W.0.0
+EmptyImage[NW][0]=./railcars/br-506-centre-trailer_NW.0.0
+EmptyImage[N][0]=./railcars/br-506-centre-trailer_N.0.0
+EmptyImage[NE][0]=./railcars/br-506-centre-trailer_NE.0.0
 
-EmptyImage[E][1]=./images/br-506-centre-trailer-blue.1.4
-EmptyImage[SE][1]=./images/br-506-centre-trailer-blue.1.5
-EmptyImage[S][1]=./images/br-506-centre-trailer-blue.1.6
-EmptyImage[SW][1]=./images/br-506-centre-trailer-blue.1.7
-EmptyImage[W][1]=./images/br-506-centre-trailer-blue.1.0
-EmptyImage[NW][1]=./images/br-506-centre-trailer-blue.1.1
-EmptyImage[N][1]=./images/br-506-centre-trailer-blue.1.2
-EmptyImage[NE][1]=./images/br-506-centre-trailer-blue.1.3
+EmptyImage[E][1]=./railcars/br-506-centre-trailer-blue_E.0.0
+EmptyImage[SE][1]=./railcars/br-506-centre-trailer-blue_SE.0.0
+EmptyImage[S][1]=./railcars/br-506-centre-trailer-blue_S.0.0
+EmptyImage[SW][1]=./railcars/br-506-centre-trailer-blue_SW.0.0
+EmptyImage[W][1]=./railcars/br-506-centre-trailer-blue_W.0.0
+EmptyImage[NW][1]=./railcars/br-506-centre-trailer-blue_NW.0.0
+EmptyImage[N][1]=./railcars/br-506-centre-trailer-blue_N.0.0
+EmptyImage[NE][1]=./railcars/br-506-centre-trailer-blue_NE.0.0
 
-EmptyImage[E][2]=./images/br-506-centre-trailer-blue-grey.1.4
-EmptyImage[SE][2]=./images/br-506-centre-trailer-blue-grey.1.5
-EmptyImage[S][2]=./images/br-506-centre-trailer-blue-grey.1.6
-EmptyImage[SW][2]=./images/br-506-centre-trailer-blue-grey.1.7
-EmptyImage[W][2]=./images/br-506-centre-trailer-blue-grey.1.0
-EmptyImage[NW][2]=./images/br-506-centre-trailer-blue-grey.1.1
-EmptyImage[N][2]=./images/br-506-centre-trailer-blue-grey.1.2
-EmptyImage[NE][2]=./images/br-506-centre-trailer-blue-grey.1.3
+EmptyImage[E][2]=./railcars/br-506-centre-trailer-blue-grey_E.0.0
+EmptyImage[SE][2]=./railcars/br-506-centre-trailer-blue-grey_SE.0.0
+EmptyImage[S][2]=./railcars/br-506-centre-trailer-blue-grey_S.0.0
+EmptyImage[SW][2]=./railcars/br-506-centre-trailer-blue-grey_SW.0.0
+EmptyImage[W][2]=./railcars/br-506-centre-trailer-blue-grey_W.0.0
+EmptyImage[NW][2]=./railcars/br-506-centre-trailer-blue-grey_NW.0.0
+EmptyImage[N][2]=./railcars/br-506-centre-trailer-blue-grey_N.0.0
+EmptyImage[NE][2]=./railcars/br-506-centre-trailer-blue-grey_NE.0.0
 
 ----
 
@@ -162,7 +164,8 @@ length=10
 weight=28
 axles=4
 cost=1843000
-runningcost=158
+runningcost=0
+fixed_cost=2194
 sound=x24tohayes-epb.wav
 increase_maintenance_after_years=15
 
@@ -184,29 +187,29 @@ liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue
 liverytype[2]=BR-Large-Logo
 
-EmptyImage[E][0]=./images/br-506-driving-trailer.1.4
-EmptyImage[SE][0]=./images/br-506-driving-trailer.1.5
-EmptyImage[S][0]=./images/br-506-driving-trailer.1.6
-EmptyImage[SW][0]=./images/br-506-driving-trailer.1.7
-EmptyImage[W][0]=./images/br-506-driving-trailer.1.0
-EmptyImage[NW][0]=./images/br-506-driving-trailer.1.1
-EmptyImage[N][0]=./images/br-506-driving-trailer.1.2
-EmptyImage[NE][0]=./images/br-506-driving-trailer.1.3
+EmptyImage[E][0]=./railcars/br-506-driving-trailer_E.0.0
+EmptyImage[SE][0]=./railcars/br-506-driving-trailer_SE.0.0
+EmptyImage[S][0]=./railcars/br-506-driving-trailer_S.0.0
+EmptyImage[SW][0]=./railcars/br-506-driving-trailer_SW.0.0
+EmptyImage[W][0]=./railcars/br-506-driving-trailer_W.0.0
+EmptyImage[NW][0]=./railcars/br-506-driving-trailer_NW.0.0
+EmptyImage[N][0]=./railcars/br-506-driving-trailer_N.0.0
+EmptyImage[NE][0]=./railcars/br-506-driving-trailer_NE.0.0
 
-EmptyImage[E][1]=./images/br-506-driving-trailer-blue.1.4
-EmptyImage[SE][1]=./images/br-506-driving-trailer-blue.1.5
-EmptyImage[S][1]=./images/br-506-driving-trailer-blue.1.6
-EmptyImage[SW][1]=./images/br-506-driving-trailer-blue.1.7
-EmptyImage[W][1]=./images/br-506-driving-trailer-blue.1.0
-EmptyImage[NW][1]=./images/br-506-driving-trailer-blue.1.1
-EmptyImage[N][1]=./images/br-506-driving-trailer-blue.1.2
-EmptyImage[NE][1]=./images/br-506-driving-trailer-blue.1.3
+EmptyImage[E][1]=./railcars/br-506-driving-trailer-blue_E.0.0
+EmptyImage[SE][1]=./railcars/br-506-driving-trailer-blue_SE.0.0
+EmptyImage[S][1]=./railcars/br-506-driving-trailer-blue_S.0.0
+EmptyImage[SW][1]=./railcars/br-506-driving-trailer-blue_SW.0.0
+EmptyImage[W][1]=./railcars/br-506-driving-trailer-blue_W.0.0
+EmptyImage[NW][1]=./railcars/br-506-driving-trailer-blue_NW.0.0
+EmptyImage[N][1]=./railcars/br-506-driving-trailer-blue_N.0.0
+EmptyImage[NE][1]=./railcars/br-506-driving-trailer-blue_NE.0.0
 
-EmptyImage[E][2]=./images/br-506-driving-trailer-blue-grey.1.4
-EmptyImage[SE][2]=./images/br-506-driving-trailer-blue-grey.1.5
-EmptyImage[S][2]=./images/br-506-driving-trailer-blue-grey.1.6
-EmptyImage[SW][2]=./images/br-506-driving-trailer-blue-grey.1.7
-EmptyImage[W][2]=./images/br-506-driving-trailer-blue-grey.1.0
-EmptyImage[NW][2]=./images/br-506-driving-trailer-blue-grey.1.1
-EmptyImage[N][2]=./images/br-506-driving-trailer-blue-grey.1.2
-EmptyImage[NE][2]=./images/br-506-driving-trailer-blue-grey.1.3
+EmptyImage[E][2]=./railcars/br-506-driving-trailer-blue-grey_E.0.0
+EmptyImage[SE][2]=./railcars/br-506-driving-trailer-blue-grey_SE.0.0
+EmptyImage[S][2]=./railcars/br-506-driving-trailer-blue-grey_S.0.0
+EmptyImage[SW][2]=./railcars/br-506-driving-trailer-blue-grey_SW.0.0
+EmptyImage[W][2]=./railcars/br-506-driving-trailer-blue-grey_W.0.0
+EmptyImage[NW][2]=./railcars/br-506-driving-trailer-blue-grey_NW.0.0
+EmptyImage[N][2]=./railcars/br-506-driving-trailer-blue-grey_N.0.0
+EmptyImage[NE][2]=./railcars/br-506-driving-trailer-blue-grey_NE.0.0

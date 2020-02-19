@@ -19,7 +19,8 @@ length=8
 weight=70
 axles=4
 cost=3935000
-runningcost=634
+runningcost=618
+fixed_cost=14099
 
 increase_maintenance_after_years=15
 rolling_resistance=13
@@ -32,11 +33,11 @@ Constraint[Prev][0]=none
 
 liverytype[0]=BR-Early
 
-EmptyImage[E][0]=./images/lms-10800.1.4
-EmptyImage[SE][0]=./images/lms-10800.1.5
-EmptyImage[S][0]=./images/lms-10800.1.6
-EmptyImage[SW][0]=./images/lms-10800.1.7
-EmptyImage[W][0]=./images/lms-10800.1.0
-EmptyImage[NW][0]=./images/lms-10800.1.1
-EmptyImage[N][0]=./images/lms-10800.1.2
-EmptyImage[NE][0]=./images/lms-10800.1.3
+EmptyImage[E][0]=./locomotives/lms-10800.1.4
+EmptyImage[SE][0]=./locomotives/lms-10800.1.5
+EmptyImage[S][0]=./locomotives/lms-10800.1.6
+EmptyImage[SW][0]=./locomotives/lms-10800.1.7
+EmptyImage[W][0]=./locomotives/lms-10800.1.0
+EmptyImage[NW][0]=./locomotives/lms-10800.1.1
+EmptyImage[N][0]=./locomotives/lms-10800.1.2
+EmptyImage[NE][0]=./locomotives/lms-10800.1.3

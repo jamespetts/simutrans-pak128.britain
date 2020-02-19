@@ -16,7 +16,8 @@ weight=5
 axles=2
 length=5
 cost=550000
-runningcost=150
+runningcost=19
+fixed_cost=8286
 intro_year=2001
 intro_month=3
 # Do not retire this until replacements are available.

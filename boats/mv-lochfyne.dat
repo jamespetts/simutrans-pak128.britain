@@ -17,7 +17,8 @@ length=12
 cost=85000000
 # Running cost £3-10-0  per day, half that of steam ships of the era:
 # http://www.flickr.com/photos/scottishmaritimemuseum/4834160312/in/faves-24718842@N04/
-runningcost=450
+runningcost=162
+fixed_cost=235417
 intro_year=1931
 intro_month=3
 retire_year=1950

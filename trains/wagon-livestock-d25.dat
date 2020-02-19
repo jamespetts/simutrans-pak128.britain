@@ -1,6 +1,9 @@
+# http://www.lnwrs.org.uk/Wagons/cattle/Diag025.php
+# Strictly, these were prize cattle vans; it is hard
+# to find information about late 19th century general
+# cattle vans.
 obj=vehicle
 name=LivestockD25
-#?
 speed=56
 copyright=James
 intro_year=1899
@@ -10,32 +13,36 @@ retire_month=2
 waytype=track
 freight=livestock
 payload=12
-length=4
+length=3
 brake_force=0
 rolling_resistance=19
 
-#?
-weight=7
+# Estimated
+weight=7.5
 axle_load=4
 way_wear_factor=10550
 cost=120000
-runningcost=6
-
-
+runningcost=0
+fixed_cost=50
 
 min_loading_time=300
 max_loading_time=900
 bidirectional=1
 
+Constraint[Prev][0]=any
 Constraint[Next][0]=any
 
-EmptyImage[E]=./images/wagon-livestock-d25.0.0
-EmptyImage[SE]=./images/wagon-livestock-d25.0.1
-EmptyImage[S]=./images/wagon-livestock-d25.0.2
-EmptyImage[SW]=./images/wagon-livestock-d25.0.3
-EmptyImage[W]=./images/wagon-livestock-d25.0.4
-EmptyImage[NW]=./images/wagon-livestock-d25.0.5
-EmptyImage[N]=./images/wagon-livestock-d25.0.6
-EmptyImage[NE]=./images/wagon-livestock-d25.0.7
+# D25 and 10t deliberately swapped due to
+# relative sizes (proper measurements are
+# hard to obtain)
+EmptyImage[E]=./wagons/wagon-livestock-10t_E.0.0
+EmptyImage[SE]=./wagons/wagon-livestock-10t_SE.0.0
+EmptyImage[S]=./wagons/wagon-livestock-10t_S.0.0
+EmptyImage[SW]=./wagons/wagon-livestock-10t_SW.0.0
+EmptyImage[W]=./wagons/wagon-livestock-10t_W.0.0
+EmptyImage[NW]=./wagons/wagon-livestock-10t_NW.0.0
+EmptyImage[N]=./wagons/wagon-livestock-10t_N.0.0
+EmptyImage[NE]=./wagons/wagon-livestock-10t_NE.0.0
+
 
 

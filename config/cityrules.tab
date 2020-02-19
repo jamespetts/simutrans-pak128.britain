@@ -13,23 +13,55 @@
 # update: 08-Mar-08
 # update: 10-Oct-08 by Fabio Gonella <fabio@gonella.eu>
 # Adapted April 2010 by James E. Petts for Pak128.Britain-Ex
+# Modified December 2018 by James E. Petts to improve balance with the new passenger generation system
+# Modified December 2019 by Casteroid and James E. Petts to take account of Casteroid's modified town growth system
 
 # how far cities should be minimum apart (default 16)
 # 80 tiles = 10km at 125m/tile
 minimum_city_distance = 80
 
-# at which number of inhabitants we need a new market?
-industry_increase_every = 7500
-
 # chance for renovation versus new building (bigger number => less sprawling)
 # Note: the rougher the desired landscape, the lower that this number should be.
 #
 # With low minimum_building_density, must raise renovation_percentage to avoid sprawl
-renovation_percentage = 33
+renovation_percentage = 20
 
-# cities will not grow further along existing roads, if the buildings density is lower (in percent)
+# Static renovation stats
+renovations_count = 10
+renovations_try = 25
+renovation_range = 10
+
+# Renovation count proportional setting type...
+renovation_influence_type = 2
+# If the above is set to 1 these static values are used
+renovation_count_village = 5
+renovation_count_city = 10
+renovation_count_capital = 15
+# If it's set to 2 these proportional values are used
+renovation_count_increase_every = 3333
+renovation_count_maximum = 25
+
+# Renovation range proportional setting type...
+proportional_renovation_radius = 1
+# If the above value is set to one these proportional percentage values are used otherwise renovation_range is used
+# Set them all to the same value (for example 50 which would always use 50% of the city size) for a simple proportional renovation range for all cities
+renovation_range_proportions_village = 70
+renovation_range_proportions_city = 50
+renovation_range_proportions_capital = 33
+# Additional proportional values used for each building type...
+proportional_renovation_range_type = 1
+# If the above value is 1 then previous range values are multiplied by these percentage values
+renovation_range_proportions_res = 160
+renovation_range_proportions_com = 100
+renovation_range_proportions_ind = 200
+# If the below value is 1 buildings further from the city centre are less likely to be renovated
+# though if it is 0 a building at the maximum allowable distance from the centre would be equally
+# likely to be renovated as one adjacent to the city centre
+renovation_distance_chance = 1
+
+# cities will not grow further along existing roads if the buildings density is lower (in percent)
 # It's surprisingly easy to get stuck at 21 with "poorly located" cities full of geographical obstacles
-minimum_building_density = 20
+minimum_building_density = 15
 
 # When a city tries to extend a road along a bridge, it will only succeed this percent of the time
 # (encouraging development in the other directions first)
@@ -39,23 +71,24 @@ bridge_success_percentage = 35
 # relative affinities for certain building types which can lead to clustering of certain building types
 #
 
+# Note that the below scores are stored as signed 16 bit integers.
 # avoid building next to industry
-res_start_score = 0
+res_start_score = 1250
 res_near_ind = -8
 res_near_com = 0
-res_near_res = 8
+res_near_res = 25
 
 # everywhere is good, next to com best
-com_start_score = -10
+com_start_score = -125
 com_near_ind = 1
-com_near_com = 8
-com_near_res = 1
+com_near_com = 6
+com_near_res = 0
 
 # next to res means expensive filters and no truck after 10 pm => avoid this ...
-ind_start_score = 0
+ind_start_score = -95
 ind_near_ind = 8
 ind_near_com = 0
-ind_near_res = -8
+ind_near_res = -12
 
 
 #
@@ -543,3 +576,4 @@ road_38 = ....... ....... ....h.. ..hnsss sssnh.. ..h.... .......
 road_38_chance = -6
 
 ### End of file
+

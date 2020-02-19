@@ -5,7 +5,7 @@ smoke=Steam
 # This is an actual recorded top speed: see https://en.wikipedia.org/wiki/SR_V_Schools_class
 speed=153
 # Extrapolated
-power=403
+power=525
 tractive_effort=112
 copyright=James
 intro_year=1930
@@ -24,7 +24,8 @@ weight=68
 # http://en.wikipedia.org/wiki/SR_V_Schools_class
 axle_load=21
 cost=8064000
-runningcost=1625
+runningcost=231
+fixed_cost=30720
 sound=konakaboom-black-five.wav
 increase_maintenance_after_years=18
 years_before_maintenance_max_reached=11
@@ -36,40 +37,40 @@ liverytype[1]=SR-Malachite-Green
 liverytype[2]=WW2-Austerity
 liverytype[3]=BR-Early
 
-EmptyImage[E][0]=./images/sr-schools-olive.1.4
-EmptyImage[SE][0]=./images/sr-schools-olive.1.5
-EmptyImage[S][0]=./images/sr-schools-olive.1.6
-EmptyImage[SW][0]=./images/sr-schools-olive.1.7
-EmptyImage[W][0]=./images/sr-schools-olive.1.0
-EmptyImage[NW][0]=./images/sr-schools-olive.1.1
-EmptyImage[N][0]=./images/sr-schools-olive.1.2
-EmptyImage[NE][0]=./images/sr-schools-olive.1.3
+EmptyImage[E][0]=./locomotives/sr-schools-olive_E.0.0
+EmptyImage[SE][0]=./locomotives/sr-schools-olive_SE.0.0
+EmptyImage[S][0]=./locomotives/sr-schools-olive_S.0.0
+EmptyImage[SW][0]=./locomotives/sr-schools-olive_SW.0.0
+EmptyImage[W][0]=./locomotives/sr-schools-olive_W.0.0
+EmptyImage[NW][0]=./locomotives/sr-schools-olive_NW.0.0
+EmptyImage[N][0]=./locomotives/sr-schools-olive_N.0.0
+EmptyImage[NE][0]=./locomotives/sr-schools-olive_NE.0.0
 
-EmptyImage[E][1]=./images/sr-schools-malachite.1.4
-EmptyImage[SE][1]=./images/sr-schools-malachite.1.5
-EmptyImage[S][1]=./images/sr-schools-malachite.1.6
-EmptyImage[SW][1]=./images/sr-schools-malachite.1.7
-EmptyImage[W][1]=./images/sr-schools-malachite.1.0
-EmptyImage[NW][1]=./images/sr-schools-malachite.1.1
-EmptyImage[N][1]=./images/sr-schools-malachite.1.2
-EmptyImage[NE][1]=./images/sr-schools-malachite.1.3
+EmptyImage[E][1]=./locomotives/sr-schools-malachite_E.0.0
+EmptyImage[SE][1]=./locomotives/sr-schools-malachite_SE.0.0
+EmptyImage[S][1]=./locomotives/sr-schools-malachite_S.0.0
+EmptyImage[SW][1]=./locomotives/sr-schools-malachite_SW.0.0
+EmptyImage[W][1]=./locomotives/sr-schools-malachite_W.0.0
+EmptyImage[NW][1]=./locomotives/sr-schools-malachite_NW.0.0
+EmptyImage[N][1]=./locomotives/sr-schools-malachite_N.0.0
+EmptyImage[NE][1]=./locomotives/sr-schools-malachite_NE.0.0
 
-EmptyImage[E][2]=./images/sr-schools-austerity.1.4
-EmptyImage[SE][2]=./images/sr-schools-austerity.1.5
-EmptyImage[S][2]=./images/sr-schools-austerity.1.6
-EmptyImage[SW][2]=./images/sr-schools-austerity.1.7
-EmptyImage[W][2]=./images/sr-schools-austerity.1.0
-EmptyImage[NW][2]=./images/sr-schools-austerity.1.1
-EmptyImage[N][2]=./images/sr-schools-austerity.1.2
-EmptyImage[NE][2]=./images/sr-schools-austerity.1.3
+EmptyImage[E][2]=./locomotives/sr-schools-austerity_E.0.0
+EmptyImage[SE][2]=./locomotives/sr-schools-austerity_SE.0.0
+EmptyImage[S][2]=./locomotives/sr-schools-austerity_S.0.0
+EmptyImage[SW][2]=./locomotives/sr-schools-austerity_SW.0.0
+EmptyImage[W][2]=./locomotives/sr-schools-austerity_W.0.0
+EmptyImage[NW][2]=./locomotives/sr-schools-austerity_NW.0.0
+EmptyImage[N][2]=./locomotives/sr-schools-austerity_N.0.0
+EmptyImage[NE][2]=./locomotives/sr-schools-austerity_NE.0.0
 
-EmptyImage[E][3]=./images/sr-schools-br.1.4
-EmptyImage[SE][3]=./images/sr-schools-br.1.5
-EmptyImage[S][3]=./images/sr-schools-br.1.6
-EmptyImage[SW][3]=./images/sr-schools-br.1.7
-EmptyImage[W][3]=./images/sr-schools-br.1.0
-EmptyImage[NW][3]=./images/sr-schools-br.1.1
-EmptyImage[N][3]=./images/sr-schools-br.1.2
-EmptyImage[NE][3]=./images/sr-schools-br.1.3
+EmptyImage[E][3]=./locomotives/sr-schools-br_E.0.0
+EmptyImage[SE][3]=./locomotives/sr-schools-br_SE.0.0
+EmptyImage[S][3]=./locomotives/sr-schools-br_S.0.0
+EmptyImage[SW][3]=./locomotives/sr-schools-br_SW.0.0
+EmptyImage[W][3]=./locomotives/sr-schools-br_W.0.0
+EmptyImage[NW][3]=./locomotives/sr-schools-br_NW.0.0
+EmptyImage[N][3]=./locomotives/sr-schools-br_N.0.0
+EmptyImage[NE][3]=./locomotives/sr-schools-br_NE.0.0
 
 

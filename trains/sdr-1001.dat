@@ -26,18 +26,18 @@ weight=32
 axles=3
 cost=7096320
 # These were economical to run: see above website.
-runningcost=172
-fixed_cost=34957
+runningcost=138
+fixed_cost=29914
 sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=SDR-1001-Tender
 
-EmptyImage[E]=./images/sdr-1001.1.4
-EmptyImage[SE]=./images/sdr-1001.1.5
-EmptyImage[S]=./images/sdr-1001.1.6
-EmptyImage[SW]=./images/sdr-1001.1.7
-EmptyImage[W]=./images/sdr-1001.1.0
-EmptyImage[NW]=./images/sdr-1001.1.1
-EmptyImage[N]=./images/sdr-1001.1.2
-EmptyImage[NE]=./images/sdr-1001.1.3
+EmptyImage[E]=./locomotives/sdr-1001_E.0.0
+EmptyImage[SE]=./locomotives/sdr-1001_SE.0.0
+EmptyImage[S]=./locomotives/sdr-1001_S.0.0
+EmptyImage[SW]=./locomotives/sdr-1001_SW.0.0
+EmptyImage[W]=./locomotives/sdr-1001_W.0.0
+EmptyImage[NW]=./locomotives/sdr-1001_NW.0.0
+EmptyImage[N]=./locomotives/sdr-1001_N.0.0
+EmptyImage[NE]=./locomotives/sdr-1001_NE.0.0
 

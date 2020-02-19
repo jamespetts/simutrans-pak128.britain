@@ -6,7 +6,7 @@ speed=152
 # Extrapolated. However see: http://www.steamindex.com/locotype/lnwr3.htm#claughton
 # That suggests that the drawbar horsepower of these locomotives was closer to 920,
 # equivalent to 686kW.
-power=440
+power=441
 # Tractive effort from Wikipedia: http://en.wikipedia.org/wiki/LNWR_Claughton_Class
 tractive_effort=120
 copyright=James/jamespetts
@@ -26,7 +26,8 @@ axle_load=20
 # Four cylinder
 way_wear_factor=103688
 cost=13200000
-runningcost=1625
+runningcost=190
+fixed_cost=51000
 sound=konakaboom-black-five.wav
 increase_maintenance_after_years=15
 years_before_maintenance_max_reached=21
@@ -36,23 +37,23 @@ liverytype[1]=LMS-Standard
 
 Constraint[Next][0]=LNWR-Claughton-tender
 
-EmptyImage[E][0]=./images/lnwr-claughton.1.4
-EmptyImage[SE][0]=./images/lnwr-claughton.1.5
-EmptyImage[S][0]=./images/lnwr-claughton.1.6
-EmptyImage[SW][0]=./images/lnwr-claughton.1.7
-EmptyImage[W][0]=./images/lnwr-claughton.1.0
-EmptyImage[NW][0]=./images/lnwr-claughton.1.1
-EmptyImage[N][0]=./images/lnwr-claughton.1.2
-EmptyImage[NE][0]=./images/lnwr-claughton.1.3
+EmptyImage[E][0]=./locomotives/lnwr-claughton_E.0.0
+EmptyImage[SE][0]=./locomotives/lnwr-claughton_SE.0.0
+EmptyImage[S][0]=./locomotives/lnwr-claughton_S.0.0
+EmptyImage[SW][0]=./locomotives/lnwr-claughton_SW.0.0
+EmptyImage[W][0]=./locomotives/lnwr-claughton_W.0.0
+EmptyImage[NW][0]=./locomotives/lnwr-claughton_NW.0.0
+EmptyImage[N][0]=./locomotives/lnwr-claughton_N.0.0
+EmptyImage[NE][0]=./locomotives/lnwr-claughton_NE.0.0
 
-EmptyImage[E][1]=./images/lnwr-claughton-lms.1.4
-EmptyImage[SE][1]=./images/lnwr-claughton-lms.1.5
-EmptyImage[S][1]=./images/lnwr-claughton-lms.1.6
-EmptyImage[SW][1]=./images/lnwr-claughton-lms.1.7
-EmptyImage[W][1]=./images/lnwr-claughton-lms.1.0
-EmptyImage[NW][1]=./images/lnwr-claughton-lms.1.1
-EmptyImage[N][1]=./images/lnwr-claughton-lms.1.2
-EmptyImage[NE][1]=./images/lnwr-claughton-lms.1.3
+EmptyImage[E][1]=./locomotives/lnwr-claughton-lms_E.0.0
+EmptyImage[SE][1]=./locomotives/lnwr-claughton-lms_SE.0.0
+EmptyImage[S][1]=./locomotives/lnwr-claughton-lms_S.0.0
+EmptyImage[SW][1]=./locomotives/lnwr-claughton-lms_SW.0.0
+EmptyImage[W][1]=./locomotives/lnwr-claughton-lms_W.0.0
+EmptyImage[NW][1]=./locomotives/lnwr-claughton-lms_NW.0.0
+EmptyImage[N][1]=./locomotives/lnwr-claughton-lms_N.0.0
+EmptyImage[NE][1]=./locomotives/lnwr-claughton-lms_NE.0.0
 
 ---
 
@@ -73,6 +74,7 @@ length=4
 weight=40
 cost=0
 runningcost=0
+fixed_cost=0
 
 increase_maintenance_after_years=15
 years_before_maintenance_max_reached=21
@@ -82,21 +84,21 @@ Constraint[Prev][0]=LNWR-Claughton
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard
 
-EmptyImage[E][0]=./images/lnwr-prince-of-wales-tender.1.4
-EmptyImage[SE][0]=./images/lnwr-prince-of-wales-tender.1.5
-EmptyImage[S][0]=./images/lnwr-prince-of-wales-tender.1.6
-EmptyImage[SW][0]=./images/lnwr-prince-of-wales-tender.1.7
-EmptyImage[W][0]=./images/lnwr-prince-of-wales-tender.1.0
-EmptyImage[NW][0]=./images/lnwr-prince-of-wales-tender.1.1
-EmptyImage[N][0]=./images/lnwr-prince-of-wales-tender.1.2
-EmptyImage[NE][0]=./images/lnwr-prince-of-wales-tender.1.3
+EmptyImage[E][0]=./locomotives/lnwr-prince-of-wales-tender_E.0.0
+EmptyImage[SE][0]=./locomotives/lnwr-prince-of-wales-tender_SE.0.0
+EmptyImage[S][0]=./locomotives/lnwr-prince-of-wales-tender_S.0.0
+EmptyImage[SW][0]=./locomotives/lnwr-prince-of-wales-tender_SW.0.0
+EmptyImage[W][0]=./locomotives/lnwr-prince-of-wales-tender_W.0.0
+EmptyImage[NW][0]=./locomotives/lnwr-prince-of-wales-tender_NW.0.0
+EmptyImage[N][0]=./locomotives/lnwr-prince-of-wales-tender_N.0.0
+EmptyImage[NE][0]=./locomotives/lnwr-prince-of-wales-tender_NE.0.0
 
-EmptyImage[E][1]=./images/lnwr-prince-of-wales-tender-lms-red.1.4
-EmptyImage[SE][1]=./images/lnwr-prince-of-wales-tender-lms-red.1.5
-EmptyImage[S][1]=./images/lnwr-prince-of-wales-tender-lms-red.1.6
-EmptyImage[SW][1]=./images/lnwr-prince-of-wales-tender-lms-red.1.7
-EmptyImage[W][1]=./images/lnwr-prince-of-wales-tender-lms-red.1.0
-EmptyImage[NW][1]=./images/lnwr-prince-of-wales-tender-lms-red.1.1
-EmptyImage[N][1]=./images/lnwr-prince-of-wales-tender-lms-red.1.2
-EmptyImage[NE][1]=./images/lnwr-prince-of-wales-tender-lms-red.1.3
+EmptyImage[E][1]=./locomotives/lnwr-prince-of-wales-tender-lms-red_E.0.0
+EmptyImage[SE][1]=./locomotives/lnwr-prince-of-wales-tender-lms-red_SE.0.0
+EmptyImage[S][1]=./locomotives/lnwr-prince-of-wales-tender-lms-red_S.0.0
+EmptyImage[SW][1]=./locomotives/lnwr-prince-of-wales-tender-lms-red_SW.0.0
+EmptyImage[W][1]=./locomotives/lnwr-prince-of-wales-tender-lms-red_W.0.0
+EmptyImage[NW][1]=./locomotives/lnwr-prince-of-wales-tender-lms-red_NW.0.0
+EmptyImage[N][1]=./locomotives/lnwr-prince-of-wales-tender-lms-red_N.0.0
+EmptyImage[NE][1]=./locomotives/lnwr-prince-of-wales-tender-lms-red_NE.0.0
 

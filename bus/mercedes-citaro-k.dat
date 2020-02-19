@@ -18,7 +18,8 @@ weight=10
 axles=2
 length=6
 cost=4850000
-runningcost=139
+runningcost=42
+fixed_cost=10526
 # Guessed
 intro_year=2005
 intro_month=6

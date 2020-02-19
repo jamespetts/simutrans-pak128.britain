@@ -1,0 +1,24 @@
+Obj=symbol
+name=PassengersEvaluation
+copyright=Ranran
+Image[0]=> evaluation-icons.0.0
+Image[1]=> evaluation-icons.0.1
+Image[2]=> evaluation-icons.0.2
+Image[3]=> evaluation-icons.0.3
+Image[4]=> evaluation-icons.0.4
+--------------------
+Obj=symbol
+name=MailEvaluation
+copyright=Ranran
+Image[0]=> evaluation-icons.1.0
+Image[1]=> evaluation-icons.1.2
+--------------------
+Obj=symbol
+name=Alerts
+copyright=Ranran
+Image[0]=> evaluation-icons.2.0
+Image[1]=> evaluation-icons.2.1
+Image[2]=> evaluation-icons.2.2
+Image[3]=> evaluation-icons.2.3
+Image[4]=> evaluation-icons.2.4
+--------------------

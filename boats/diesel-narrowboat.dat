@@ -12,7 +12,8 @@ payload=25
 weight=10
 length=8
 cost=250000
-runningcost=14
+runningcost=6
+fixed_cost=16174
 intro_year=1920
 intro_month=1
 
@@ -27,28 +28,26 @@ way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Prev][0]=none
+
 Constraint[Next][0]=SteelHullUnpoweredNarrowboatBulk
 Constraint[Next][1]=SteelHullUnpoweredNarrowboatLong
 Constraint[Next][2]=SteelHullUnpoweredNarrowboatPiece
 Constraint[Next][3]=SteelHullUnpoweredNarrowboatCool
-Constraint[Next][4]=SteelHullUnpoweredNarrowboatMail
+Constraint[Next][4]=WoodenHullUnpoweredNarrowboatLivestock
 Constraint[Next][5]=SteelHullUnpoweredNarrowboatLivestock
 Constraint[Next][6]=SteelHullUnpoweredNarrowboatOil
 Constraint[Next][7]=CompositeHullUnpoweredNarrowboatBulk
 Constraint[Next][8]=CompositeHullUnpoweredNarrowboatLong
 Constraint[Next][9]=CompositeHullUnpoweredNarrowboatPiece
 Constraint[Next][10]=CompositeHullUnpoweredNarrowboatCool
-Constraint[Next][11]=CompositeHullUnpoweredNarrowboatMail
+Constraint[Next][11]=WoodenHullUnpoweredNarrowboatOil
 Constraint[Next][12]=CompositeHullUnpoweredNarrowboatLivestock
 Constraint[Next][13]=CompositeHullUnpoweredNarrowboatOil
 Constraint[Next][14]=WoodenHullUnpoweredNarrowboatBulk
 Constraint[Next][15]=WoodenHullUnpoweredNarrowboatLong
 Constraint[Next][16]=WoodenHullUnpoweredNarrowboatPiece
 Constraint[Next][17]=WoodenHullUnpoweredNarrowboatCool
-Constraint[Next][18]=WoodenHullUnpoweredNarrowboatMail
-Constraint[Next][19]=WoodenHullUnpoweredNarrowboatLivestock
-Constraint[Next][20]=WoodenHullUnpoweredNarrowboatOil
-Constraint[Next][21]=none
+Constraint[Next][18]=none
 
 liverytype[0]=Private
 liverytype[1]=BW-Standard
@@ -181,7 +180,8 @@ payload=25
 weight=10
 length=8
 cost=250000
-runningcost=14
+runningcost=6
+fixed_cost=16174
 intro_year=1920
 intro_month=1
 
@@ -196,28 +196,26 @@ way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Prev][0]=none
+
 Constraint[Next][0]=SteelHullUnpoweredNarrowboatBulk
 Constraint[Next][1]=SteelHullUnpoweredNarrowboatLong
 Constraint[Next][2]=SteelHullUnpoweredNarrowboatPiece
 Constraint[Next][3]=SteelHullUnpoweredNarrowboatCool
-Constraint[Next][4]=SteelHullUnpoweredNarrowboatMail
+Constraint[Next][4]=WoodenHullUnpoweredNarrowboatLivestock
 Constraint[Next][5]=SteelHullUnpoweredNarrowboatLivestock
 Constraint[Next][6]=SteelHullUnpoweredNarrowboatOil
 Constraint[Next][7]=CompositeHullUnpoweredNarrowboatBulk
 Constraint[Next][8]=CompositeHullUnpoweredNarrowboatLong
 Constraint[Next][9]=CompositeHullUnpoweredNarrowboatPiece
 Constraint[Next][10]=CompositeHullUnpoweredNarrowboatCool
-Constraint[Next][11]=CompositeHullUnpoweredNarrowboatMail
+Constraint[Next][11]=WoodenHullUnpoweredNarrowboatOil
 Constraint[Next][12]=CompositeHullUnpoweredNarrowboatLivestock
 Constraint[Next][13]=CompositeHullUnpoweredNarrowboatOil
 Constraint[Next][14]=WoodenHullUnpoweredNarrowboatBulk
 Constraint[Next][15]=WoodenHullUnpoweredNarrowboatLong
 Constraint[Next][16]=WoodenHullUnpoweredNarrowboatPiece
 Constraint[Next][17]=WoodenHullUnpoweredNarrowboatCool
-Constraint[Next][18]=WoodenHullUnpoweredNarrowboatMail
-Constraint[Next][19]=WoodenHullUnpoweredNarrowboatLivestock
-Constraint[Next][20]=WoodenHullUnpoweredNarrowboatOil
-Constraint[Next][21]=none
+Constraint[Next][18]=none
 
 liverytype[0]=Private
 liverytype[1]=BW-Standard
@@ -312,7 +310,8 @@ payload=25
 weight=10
 length=8
 cost=250000
-runningcost=14
+runningcost=6
+fixed_cost=16174
 intro_year=1920
 intro_month=1
 
@@ -327,28 +326,26 @@ way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Prev][0]=none
+
 Constraint[Next][0]=SteelHullUnpoweredNarrowboatBulk
 Constraint[Next][1]=SteelHullUnpoweredNarrowboatLong
 Constraint[Next][2]=SteelHullUnpoweredNarrowboatPiece
 Constraint[Next][3]=SteelHullUnpoweredNarrowboatCool
-Constraint[Next][4]=SteelHullUnpoweredNarrowboatMail
+Constraint[Next][4]=WoodenHullUnpoweredNarrowboatLivestock
 Constraint[Next][5]=SteelHullUnpoweredNarrowboatLivestock
 Constraint[Next][6]=SteelHullUnpoweredNarrowboatOil
 Constraint[Next][7]=CompositeHullUnpoweredNarrowboatBulk
 Constraint[Next][8]=CompositeHullUnpoweredNarrowboatLong
 Constraint[Next][9]=CompositeHullUnpoweredNarrowboatPiece
 Constraint[Next][10]=CompositeHullUnpoweredNarrowboatCool
-Constraint[Next][11]=CompositeHullUnpoweredNarrowboatMail
+Constraint[Next][11]=WoodenHullUnpoweredNarrowboatOil
 Constraint[Next][12]=CompositeHullUnpoweredNarrowboatLivestock
 Constraint[Next][13]=CompositeHullUnpoweredNarrowboatOil
 Constraint[Next][14]=WoodenHullUnpoweredNarrowboatBulk
 Constraint[Next][15]=WoodenHullUnpoweredNarrowboatLong
 Constraint[Next][16]=WoodenHullUnpoweredNarrowboatPiece
 Constraint[Next][17]=WoodenHullUnpoweredNarrowboatCool
-Constraint[Next][18]=WoodenHullUnpoweredNarrowboatMail
-Constraint[Next][19]=WoodenHullUnpoweredNarrowboatLivestock
-Constraint[Next][20]=WoodenHullUnpoweredNarrowboatOil
-Constraint[Next][21]=none
+Constraint[Next][18]=none
 
 liverytype[0]=Private
 liverytype[1]=BW-Standard
@@ -386,7 +383,8 @@ payload=25
 weight=10
 length=8
 cost=250000
-runningcost=14
+runningcost=6
+fixed_cost=16174
 intro_year=1920
 intro_month=1
 
@@ -401,28 +399,26 @@ way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Prev][0]=none
+
 Constraint[Next][0]=SteelHullUnpoweredNarrowboatBulk
 Constraint[Next][1]=SteelHullUnpoweredNarrowboatLong
 Constraint[Next][2]=SteelHullUnpoweredNarrowboatPiece
 Constraint[Next][3]=SteelHullUnpoweredNarrowboatCool
-Constraint[Next][4]=SteelHullUnpoweredNarrowboatMail
+Constraint[Next][4]=WoodenHullUnpoweredNarrowboatLivestock
 Constraint[Next][5]=SteelHullUnpoweredNarrowboatLivestock
 Constraint[Next][6]=SteelHullUnpoweredNarrowboatOil
 Constraint[Next][7]=CompositeHullUnpoweredNarrowboatBulk
 Constraint[Next][8]=CompositeHullUnpoweredNarrowboatLong
 Constraint[Next][9]=CompositeHullUnpoweredNarrowboatPiece
 Constraint[Next][10]=CompositeHullUnpoweredNarrowboatCool
-Constraint[Next][11]=CompositeHullUnpoweredNarrowboatMail
+Constraint[Next][11]=WoodenHullUnpoweredNarrowboatOil
 Constraint[Next][12]=CompositeHullUnpoweredNarrowboatLivestock
 Constraint[Next][13]=CompositeHullUnpoweredNarrowboatOil
 Constraint[Next][14]=WoodenHullUnpoweredNarrowboatBulk
 Constraint[Next][15]=WoodenHullUnpoweredNarrowboatLong
 Constraint[Next][16]=WoodenHullUnpoweredNarrowboatPiece
 Constraint[Next][17]=WoodenHullUnpoweredNarrowboatCool
-Constraint[Next][18]=WoodenHullUnpoweredNarrowboatMail
-Constraint[Next][19]=WoodenHullUnpoweredNarrowboatLivestock
-Constraint[Next][20]=WoodenHullUnpoweredNarrowboatOil
-Constraint[Next][21]=none
+Constraint[Next][18]=none
 
 liverytype[0]=Private
 liverytype[1]=BW-Standard
@@ -460,7 +456,8 @@ payload=25
 weight=10
 length=8
 cost=250000
-runningcost=14
+runningcost=3
+fixed_cost=16104
 intro_year=1920
 intro_month=1
 
@@ -475,28 +472,26 @@ way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Prev][0]=none
+
 Constraint[Next][0]=SteelHullUnpoweredNarrowboatBulk
 Constraint[Next][1]=SteelHullUnpoweredNarrowboatLong
 Constraint[Next][2]=SteelHullUnpoweredNarrowboatPiece
 Constraint[Next][3]=SteelHullUnpoweredNarrowboatCool
-Constraint[Next][4]=SteelHullUnpoweredNarrowboatMail
+Constraint[Next][4]=WoodenHullUnpoweredNarrowboatLivestock
 Constraint[Next][5]=SteelHullUnpoweredNarrowboatLivestock
 Constraint[Next][6]=SteelHullUnpoweredNarrowboatOil
 Constraint[Next][7]=CompositeHullUnpoweredNarrowboatBulk
 Constraint[Next][8]=CompositeHullUnpoweredNarrowboatLong
 Constraint[Next][9]=CompositeHullUnpoweredNarrowboatPiece
 Constraint[Next][10]=CompositeHullUnpoweredNarrowboatCool
-Constraint[Next][11]=CompositeHullUnpoweredNarrowboatMail
+Constraint[Next][11]=WoodenHullUnpoweredNarrowboatOil
 Constraint[Next][12]=CompositeHullUnpoweredNarrowboatLivestock
 Constraint[Next][13]=CompositeHullUnpoweredNarrowboatOil
 Constraint[Next][14]=WoodenHullUnpoweredNarrowboatBulk
 Constraint[Next][15]=WoodenHullUnpoweredNarrowboatLong
 Constraint[Next][16]=WoodenHullUnpoweredNarrowboatPiece
 Constraint[Next][17]=WoodenHullUnpoweredNarrowboatCool
-Constraint[Next][18]=WoodenHullUnpoweredNarrowboatMail
-Constraint[Next][19]=WoodenHullUnpoweredNarrowboatLivestock
-Constraint[Next][20]=WoodenHullUnpoweredNarrowboatOil
-Constraint[Next][21]=none
+Constraint[Next][18]=none
 
 liverytype[0]=Private
 liverytype[1]=BW-Standard
@@ -534,7 +529,8 @@ payload=25
 weight=10
 length=8
 cost=250000
-runningcost=14
+runningcost=6
+fixed_cost=16174
 intro_year=1920
 intro_month=1
 
@@ -549,28 +545,26 @@ way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Prev][0]=none
+
 Constraint[Next][0]=SteelHullUnpoweredNarrowboatBulk
 Constraint[Next][1]=SteelHullUnpoweredNarrowboatLong
 Constraint[Next][2]=SteelHullUnpoweredNarrowboatPiece
 Constraint[Next][3]=SteelHullUnpoweredNarrowboatCool
-Constraint[Next][4]=SteelHullUnpoweredNarrowboatMail
+Constraint[Next][4]=WoodenHullUnpoweredNarrowboatLivestock
 Constraint[Next][5]=SteelHullUnpoweredNarrowboatLivestock
 Constraint[Next][6]=SteelHullUnpoweredNarrowboatOil
 Constraint[Next][7]=CompositeHullUnpoweredNarrowboatBulk
 Constraint[Next][8]=CompositeHullUnpoweredNarrowboatLong
 Constraint[Next][9]=CompositeHullUnpoweredNarrowboatPiece
 Constraint[Next][10]=CompositeHullUnpoweredNarrowboatCool
-Constraint[Next][11]=CompositeHullUnpoweredNarrowboatMail
+Constraint[Next][11]=WoodenHullUnpoweredNarrowboatOil
 Constraint[Next][12]=CompositeHullUnpoweredNarrowboatLivestock
 Constraint[Next][13]=CompositeHullUnpoweredNarrowboatOil
 Constraint[Next][14]=WoodenHullUnpoweredNarrowboatBulk
 Constraint[Next][15]=WoodenHullUnpoweredNarrowboatLong
 Constraint[Next][16]=WoodenHullUnpoweredNarrowboatPiece
 Constraint[Next][17]=WoodenHullUnpoweredNarrowboatCool
-Constraint[Next][18]=WoodenHullUnpoweredNarrowboatMail
-Constraint[Next][19]=WoodenHullUnpoweredNarrowboatLivestock
-Constraint[Next][20]=WoodenHullUnpoweredNarrowboatOil
-Constraint[Next][21]=none
+Constraint[Next][18]=none
 
 liverytype[0]=Private
 liverytype[1]=BW-Standard
@@ -592,5 +586,3 @@ EmptyImage[W][1]=./images/diesel-narrowboat-covered-bw.1.0
 EmptyImage[NW][1]=./images/diesel-narrowboat-covered-bw.1.1
 EmptyImage[N][1]=./images/diesel-narrowboat-covered-bw.1.2
 EmptyImage[NE][1]=./images/diesel-narrowboat-covered-bw.1.3
-
----

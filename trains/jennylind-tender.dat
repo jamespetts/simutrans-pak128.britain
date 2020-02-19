@@ -18,29 +18,30 @@ weight=15
 axles=3
 cost=0
 runningcost=0
+fixed_cost=0
 
-
+#fixed_coupling[prev]=1
 Constraint[Prev][0]=JennyLind
 Constraint[Prev][1]=lbscr-gray-single
 
 liverytype[0]=LBSCR-Early
 liverytype[1]=LBSCR-Craven
 
-EmptyImage[E][0]=./images/lbscr-jenny-lind-tender-early.1.4
-EmptyImage[SE][0]=./images/lbscr-jenny-lind-tender-early.1.5
-EmptyImage[S][0]=./images/lbscr-jenny-lind-tender-early.1.6
-EmptyImage[SW][0]=./images/lbscr-jenny-lind-tender-early.1.7
-EmptyImage[W][0]=./images/lbscr-jenny-lind-tender-early.1.0
-EmptyImage[NW][0]=./images/lbscr-jenny-lind-tender-early.1.1
-EmptyImage[N][0]=./images/lbscr-jenny-lind-tender-early.1.2
-EmptyImage[NE][0]=./images/lbscr-jenny-lind-tender-early.1.3
+EmptyImage[E][0]=./locomotives/lbscr-jenny-lind-tender-early_E.0.0
+EmptyImage[SE][0]=./locomotives/lbscr-jenny-lind-tender-early_SE.0.0
+EmptyImage[S][0]=./locomotives/lbscr-jenny-lind-tender-early_S.0.0
+EmptyImage[SW][0]=./locomotives/lbscr-jenny-lind-tender-early_SW.0.0
+EmptyImage[W][0]=./locomotives/lbscr-jenny-lind-tender-early_W.0.0
+EmptyImage[NW][0]=./locomotives/lbscr-jenny-lind-tender-early_NW.0.0
+EmptyImage[N][0]=./locomotives/lbscr-jenny-lind-tender-early_N.0.0
+EmptyImage[NE][0]=./locomotives/lbscr-jenny-lind-tender-early_NE.0.0
 
-EmptyImage[E][1]=./images/lbscr-jenny-lind-tender-craven.1.4
-EmptyImage[SE][1]=./images/lbscr-jenny-lind-tender-craven.1.5
-EmptyImage[S][1]=./images/lbscr-jenny-lind-tender-craven.1.6
-EmptyImage[SW][1]=./images/lbscr-jenny-lind-tender-craven.1.7
-EmptyImage[W][1]=./images/lbscr-jenny-lind-tender-craven.1.0
-EmptyImage[NW][1]=./images/lbscr-jenny-lind-tender-craven.1.1
-EmptyImage[N][1]=./images/lbscr-jenny-lind-tender-craven.1.2
-EmptyImage[NE][1]=./images/lbscr-jenny-lind-tender-craven.1.3
+EmptyImage[E][1]=./locomotives/lbscr-jenny-lind-tender-craven_E.0.0
+EmptyImage[SE][1]=./locomotives/lbscr-jenny-lind-tender-craven_SE.0.0
+EmptyImage[S][1]=./locomotives/lbscr-jenny-lind-tender-craven_S.0.0
+EmptyImage[SW][1]=./locomotives/lbscr-jenny-lind-tender-craven_SW.0.0
+EmptyImage[W][1]=./locomotives/lbscr-jenny-lind-tender-craven_W.0.0
+EmptyImage[NW][1]=./locomotives/lbscr-jenny-lind-tender-craven_NW.0.0
+EmptyImage[N][1]=./locomotives/lbscr-jenny-lind-tender-craven_N.0.0
+EmptyImage[NE][1]=./locomotives/lbscr-jenny-lind-tender-craven_NE.0.0
 

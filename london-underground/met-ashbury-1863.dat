@@ -19,8 +19,8 @@ brake_force=0
 weight=17.5
 axles=4
 cost=320000
-runningcost=26
-fixed_cost=133
+runningcost=0
+fixed_cost=381
 
 can_lead_from_rear=0
 bidirectional=1
@@ -34,18 +34,22 @@ comfort[2]=44
 comfort[3]=64
 
 Constraint[Next][0]=met-ashbury-1863-third-unfitted
-Constraint[Next][1]=met-ashbury-1863-composite-unfitted
-Constraint[Next][2]=met-ashbury-1863-first-unfitted
-Constraint[Next][3]=met-ashbury-1863-brake-rear-unfitted
-Constraint[Next][4]=district-4-wheel-third-unfitted
-Constraint[Next][5]=district-4-wheel-brake-rear-unfitted
+Constraint[Next][1]=met-ashbury-1863-brake-rear-unfitted
+Constraint[Next][2]=district-4-wheel-third-unfitted
+Constraint[Next][3]=district-4-wheel-brake-rear-unfitted
+Constraint[Next][4]=district-4-wheel-second-unfitted
+Constraint[Next][5]=district-4-wheel-first-unfitted
+Constraint[Next][6]=met-ashbury-1863-composite-unfitted
+Constraint[Next][7]=met-ashbury-1863-first-unfitted
 
 Constraint[Prev][0]=met-ashbury-1863-third-unfitted
-Constraint[Prev][1]=met-ashbury-1863-composite-unfitted
-Constraint[Prev][2]=met-ashbury-1863-first-unfitted
-Constraint[Prev][3]=met-ashbury-1863-brake-front-unfitted
-Constraint[Prev][4]=district-4-wheel-third-unfitted
-Constraint[Prev][5]=district-4-wheel-brake-front-unfitted
+Constraint[Prev][1]=met-ashbury-1863-brake-front-unfitted
+Constraint[Prev][2]=district-4-wheel-third-unfitted
+Constraint[Prev][3]=district-4-wheel-brake-front-unfitted
+Constraint[Prev][4]=district-4-wheel-second-unfitted
+Constraint[Prev][5]=district-4-wheel-first-unfitted
+Constraint[Prev][6]=met-ashbury-1863-composite-unfitted
+Constraint[Prev][7]=met-ashbury-1863-first-unfitted
 
 liverytype[0]=Metropolitan-Green
 liverytype[1]=LT
@@ -91,8 +95,8 @@ brake_force=0
 weight=17.5
 axles=4
 cost=325000
-runningcost=26
-fixed_cost=135
+runningcost=0
+fixed_cost=387
 
 can_lead_from_rear=0
 bidirectional=1
@@ -106,18 +110,22 @@ comfort[2]=44
 comfort[3]=64
 
 Constraint[Next][0]=met-ashbury-1863-third-unfitted
-Constraint[Next][1]=met-ashbury-1863-composite-unfitted
-Constraint[Next][2]=met-ashbury-1863-first-unfitted
-Constraint[Next][3]=met-ashbury-1863-brake-rear-unfitted
-Constraint[Next][4]=district-4-wheel-third-unfitted
-Constraint[Next][5]=district-4-wheel-brake-rear-unfitted
+Constraint[Next][1]=met-ashbury-1863-brake-rear-unfitted
+Constraint[Next][2]=district-4-wheel-third-unfitted
+Constraint[Next][3]=district-4-wheel-brake-rear-unfitted
+Constraint[Next][4]=district-4-wheel-second-unfitted
+Constraint[Next][5]=district-4-wheel-first-unfitted
+Constraint[Next][6]=met-ashbury-1863-composite-unfitted
+Constraint[Next][7]=met-ashbury-1863-first-unfitted
 
 Constraint[Prev][0]=met-ashbury-1863-third-unfitted
-Constraint[Prev][1]=met-ashbury-1863-composite-unfitted
-Constraint[Prev][2]=met-ashbury-1863-first-unfitted
-Constraint[Prev][3]=met-ashbury-1863-brake-front-unfitted
-Constraint[Prev][4]=district-4-wheel-third-unfitted
-Constraint[Prev][5]=district-4-wheel-brake-front-unfitted
+Constraint[Prev][1]=met-ashbury-1863-brake-front-unfitted
+Constraint[Prev][2]=district-4-wheel-third-unfitted
+Constraint[Prev][3]=district-4-wheel-brake-front-unfitted
+Constraint[Prev][4]=district-4-wheel-second-unfitted
+Constraint[Prev][5]=district-4-wheel-first-unfitted
+Constraint[Prev][6]=met-ashbury-1863-composite-unfitted
+Constraint[Prev][7]=met-ashbury-1863-first-unfitted
 
 liverytype[0]=Metropolitan-Green
 liverytype[1]=LT
@@ -163,8 +171,8 @@ brake_force=0
 weight=17.5
 axles=4
 cost=330000
-runningcost=26
-fixed_cost=138
+runningcost=0
+fixed_cost=393
 
 can_lead_from_rear=0
 bidirectional=1
@@ -178,18 +186,22 @@ comfort[2]=44
 comfort[3]=64
 
 Constraint[Next][0]=met-ashbury-1863-third-unfitted
-Constraint[Next][1]=met-ashbury-1863-composite-unfitted
-Constraint[Next][2]=met-ashbury-1863-first-unfitted
-Constraint[Next][3]=met-ashbury-1863-brake-rear-unfitted
-Constraint[Next][4]=district-4-wheel-third-unfitted
-Constraint[Next][5]=district-4-wheel-brake-rear-unfitted
+Constraint[Next][1]=met-ashbury-1863-brake-rear-unfitted
+Constraint[Next][2]=district-4-wheel-third-unfitted
+Constraint[Next][3]=district-4-wheel-brake-rear-unfitted
+Constraint[Next][4]=district-4-wheel-second-unfitted
+Constraint[Next][5]=district-4-wheel-first-unfitted
+Constraint[Next][6]=met-ashbury-1863-composite-unfitted
+Constraint[Next][7]=met-ashbury-1863-first-unfitted
 
 Constraint[Prev][0]=met-ashbury-1863-third-unfitted
-Constraint[Prev][1]=met-ashbury-1863-composite-unfitted
-Constraint[Prev][2]=met-ashbury-1863-first-unfitted
-Constraint[Prev][3]=met-ashbury-1863-brake-front-unfitted
-Constraint[Prev][4]=district-4-wheel-third-unfitted
-Constraint[Prev][5]=district-4-wheel-brake-front-unfitted
+Constraint[Prev][1]=met-ashbury-1863-brake-front-unfitted
+Constraint[Prev][2]=district-4-wheel-third-unfitted
+Constraint[Prev][3]=district-4-wheel-brake-front-unfitted
+Constraint[Prev][4]=district-4-wheel-second-unfitted
+Constraint[Prev][5]=district-4-wheel-first-unfitted
+Constraint[Prev][6]=met-ashbury-1863-composite-unfitted
+Constraint[Prev][7]=met-ashbury-1863-first-unfitted
 
 liverytype[0]=Metropolitan-Green
 liverytype[1]=LT
@@ -211,7 +223,6 @@ EmptyImage[W][1]=./images/met-ashbury-1863-first-lt_W.0.0
 EmptyImage[NW][1]=./images/met-ashbury-1863-first-lt_NW.0.0
 EmptyImage[N][1]=./images/met-ashbury-1863-first-lt_N.0.0
 EmptyImage[NE][1]=./images/met-ashbury-1863-first-lt_NE.0.0
-
 
 ----
 
@@ -236,8 +247,8 @@ brake_force=7
 weight=17.5
 axles=4
 cost=310000
-runningcost=26
-fixed_cost=4929
+runningcost=0
+fixed_cost=5169
 
 can_lead_from_rear=0
 bidirectional=1
@@ -251,12 +262,14 @@ comfort[2]=44
 comfort[3]=64
 
 Constraint[Next][0]=met-ashbury-1863-third-unfitted
-Constraint[Next][1]=met-ashbury-1863-composite-unfitted
-Constraint[Next][2]=met-ashbury-1863-first-unfitted
-Constraint[Next][3]=met-ashbury-1863-brake-rear-unfitted
-Constraint[Next][4]=district-4-wheel-third-unfitted
-Constraint[Next][5]=district-4-wheel-brake-rear-unfitted
-Constraint[Next][6]=none
+Constraint[Next][1]=met-ashbury-1863-brake-rear-unfitted
+Constraint[Next][2]=district-4-wheel-third-unfitted
+Constraint[Next][3]=district-4-wheel-brake-rear-unfitted
+Constraint[Next][4]=district-4-wheel-second-unfitted
+Constraint[Next][5]=district-4-wheel-first-unfitted
+Constraint[Next][6]=met-ashbury-1863-composite-unfitted
+Constraint[Next][7]=met-ashbury-1863-first-unfitted
+Constraint[Next][8]=none
 
 liverytype[0]=Metropolitan-Green
 liverytype[1]=LT
@@ -302,8 +315,8 @@ brake_force=7
 weight=17.5
 axles=4
 cost=310000
-runningcost=26
-fixed_cost=4929
+runningcost=0
+fixed_cost=5169
 
 can_lead_from_rear=0
 bidirectional=1
@@ -317,19 +330,23 @@ comfort[2]=44
 comfort[3]=64
 
 Constraint[Next][0]=met-ashbury-1863-third-unfitted
-Constraint[Next][1]=met-ashbury-1863-composite-unfitted
-Constraint[Next][2]=met-ashbury-1863-first-unfitted
-Constraint[Next][3]=met-ashbury-1863-brake-rear-unfitted
-Constraint[Next][4]=district-4-wheel-third-unfitted
-Constraint[Next][5]=district-4-wheel-brake-rear-unfitted
-Constraint[Next][6]=none
+Constraint[Next][1]=met-ashbury-1863-brake-rear-unfitted
+Constraint[Next][2]=district-4-wheel-third-unfitted
+Constraint[Next][3]=district-4-wheel-brake-rear-unfitted
+Constraint[Next][4]=district-4-wheel-second-unfitted
+Constraint[Next][5]=district-4-wheel-first-unfitted
+Constraint[Next][6]=met-ashbury-1863-composite-unfitted
+Constraint[Next][7]=met-ashbury-1863-first-unfitted
+Constraint[Next][8]=none
 
 Constraint[Prev][0]=met-ashbury-1863-third-unfitted
-Constraint[Prev][1]=met-ashbury-1863-composite-unfitted
-Constraint[Prev][2]=met-ashbury-1863-first-unfitted
-Constraint[Prev][3]=met-ashbury-1863-brake-front-unfitted
-Constraint[Prev][4]=district-4-wheel-third-unfitted
-Constraint[Prev][5]=district-4-wheel-brake-front-unfitted
+Constraint[Prev][1]=met-ashbury-1863-brake-front-unfitted
+Constraint[Prev][2]=district-4-wheel-third-unfitted
+Constraint[Prev][3]=district-4-wheel-brake-front-unfitted
+Constraint[Prev][4]=district-4-wheel-second-unfitted
+Constraint[Prev][5]=district-4-wheel-first-unfitted
+Constraint[Prev][6]=met-ashbury-1863-composite-unfitted
+Constraint[Prev][7]=met-ashbury-1863-first-unfitted
 
 liverytype[0]=Metropolitan-Green
 liverytype[1]=LT
@@ -353,7 +370,7 @@ EmptyImage[N][1]=./images/met-ashbury-1863-brake-third-lt-rear_N.0.0
 EmptyImage[NE][1]=./images/met-ashbury-1863-brake-third-lt-rear_NE.0.0
 
 ---
-
+### Fitted hereafter ###
 obj=vehicle
 name=met-ashbury-1863-third-fitted
 speed=130
@@ -375,7 +392,8 @@ weight=17.5
 axles=4
 cost=340000
 upgrade_price=65000
-runningcost=26
+runningcost=0
+fixed_cost=405
 
 can_lead_from_rear=0
 bidirectional=1
@@ -399,6 +417,13 @@ Constraint[Next][8]=met-dreadnought-third
 Constraint[Next][9]=met-dreadnought-brake-rear
 Constraint[Next][10]=district-4-wheel-third-fitted
 Constraint[Next][11]=district-4-wheel-brake-rear-fitted
+Constraint[Next][12]=district-4-wheel-second-fitted
+Constraint[Next][13]=district-4-wheel-first-fitted
+Constraint[Next][14]=met-jubilee-second
+Constraint[Next][15]=met-jubilee-first
+Constraint[Next][16]=met-bogie-second
+Constraint[Next][17]=met-bogie-first
+Constraint[Next][18]=met-dreadnought-first
 
 Constraint[Prev][0]=met-jubilee-third
 Constraint[Prev][1]=met-jubilee-brake-front
@@ -412,6 +437,13 @@ Constraint[Prev][8]=met-dreadnought-third
 Constraint[Prev][9]=met-dreadnought-brake-front
 Constraint[Prev][10]=district-4-wheel-third-fitted
 Constraint[Prev][11]=district-4-wheel-brake-front-fitted
+Constraint[Prev][12]=district-4-wheel-second-fitted
+Constraint[Prev][13]=district-4-wheel-first-fitted
+Constraint[Prev][14]=met-jubilee-second
+Constraint[Prev][15]=met-jubilee-first
+Constraint[Prev][16]=met-bogie-second
+Constraint[Prev][17]=met-bogie-first
+Constraint[Prev][18]=met-dreadnought-first
 
 liverytype[0]=Metropolitan-Green
 liverytype[1]=LT
@@ -457,7 +489,8 @@ weight=17.5
 axles=4
 cost=345000
 upgrade_price=65000
-runningcost=26
+runningcost=0
+fixed_cost=411
 
 can_lead_from_rear=0
 bidirectional=1
@@ -481,6 +514,13 @@ Constraint[Next][8]=met-dreadnought-third
 Constraint[Next][9]=met-dreadnought-brake-rear
 Constraint[Next][10]=district-4-wheel-third-fitted
 Constraint[Next][11]=district-4-wheel-brake-rear-fitted
+Constraint[Next][12]=district-4-wheel-second-fitted
+Constraint[Next][13]=district-4-wheel-first-fitted
+Constraint[Next][14]=met-jubilee-second
+Constraint[Next][15]=met-jubilee-first
+Constraint[Next][16]=met-bogie-second
+Constraint[Next][17]=met-bogie-first
+Constraint[Next][18]=met-dreadnought-first
 
 Constraint[Prev][0]=met-jubilee-third
 Constraint[Prev][1]=met-jubilee-brake-front
@@ -494,6 +534,13 @@ Constraint[Prev][8]=met-dreadnought-third
 Constraint[Prev][9]=met-dreadnought-brake-front
 Constraint[Prev][10]=district-4-wheel-third-fitted
 Constraint[Prev][11]=district-4-wheel-brake-front-fitted
+Constraint[Prev][12]=district-4-wheel-second-fitted
+Constraint[Prev][13]=district-4-wheel-first-fitted
+Constraint[Prev][14]=met-jubilee-second
+Constraint[Prev][15]=met-jubilee-first
+Constraint[Prev][16]=met-bogie-second
+Constraint[Prev][17]=met-bogie-first
+Constraint[Prev][18]=met-dreadnought-first
 
 liverytype[0]=Metropolitan-Green
 liverytype[1]=LT
@@ -539,7 +586,8 @@ weight=17.5
 axles=4
 cost=370000
 upgrade_price=65000
-runningcost=26
+runningcost=0
+fixed_cost=440
 
 can_lead_from_rear=0
 bidirectional=1
@@ -563,6 +611,13 @@ Constraint[Next][8]=met-dreadnought-third
 Constraint[Next][9]=met-dreadnought-brake-rear
 Constraint[Next][10]=district-4-wheel-third-fitted
 Constraint[Next][11]=district-4-wheel-brake-rear-fitted
+Constraint[Next][12]=district-4-wheel-second-fitted
+Constraint[Next][13]=district-4-wheel-first-fitted
+Constraint[Next][14]=met-jubilee-second
+Constraint[Next][15]=met-jubilee-first
+Constraint[Next][16]=met-bogie-second
+Constraint[Next][17]=met-bogie-first
+Constraint[Next][18]=met-dreadnought-first
 
 Constraint[Prev][0]=met-jubilee-third
 Constraint[Prev][1]=met-jubilee-brake-front
@@ -576,6 +631,13 @@ Constraint[Prev][8]=met-dreadnought-third
 Constraint[Prev][9]=met-dreadnought-brake-front
 Constraint[Prev][10]=district-4-wheel-third-fitted
 Constraint[Prev][11]=district-4-wheel-brake-front-fitted
+Constraint[Prev][12]=district-4-wheel-second-fitted
+Constraint[Prev][13]=district-4-wheel-first-fitted
+Constraint[Prev][14]=met-jubilee-second
+Constraint[Prev][15]=met-jubilee-first
+Constraint[Prev][16]=met-bogie-second
+Constraint[Prev][17]=met-bogie-first
+Constraint[Prev][18]=met-dreadnought-first
 
 liverytype[0]=Metropolitan-Green
 liverytype[1]=LT
@@ -621,8 +683,8 @@ weight=16.5
 axles=4
 cost=330000
 upgrade_price=65000
-runningcost=26
-fixed_cost=4938
+runningcost=0
+fixed_cost=5193
 
 can_lead_from_rear=0
 bidirectional=1
@@ -646,7 +708,14 @@ Constraint[Next][8]=met-dreadnought-third
 Constraint[Next][9]=met-dreadnought-brake-rear
 Constraint[Next][10]=district-4-wheel-third-fitted
 Constraint[Next][11]=district-4-wheel-brake-rear-fitted
-Constraint[Next][12]=none
+Constraint[Next][12]=district-4-wheel-second-fitted
+Constraint[Next][13]=district-4-wheel-first-fitted
+Constraint[Next][14]=met-jubilee-second
+Constraint[Next][15]=met-jubilee-first
+Constraint[Next][16]=met-bogie-second
+Constraint[Next][17]=met-bogie-first
+Constraint[Next][18]=met-dreadnought-first
+Constraint[Next][19]=none
 
 liverytype[0]=Metropolitan-Green
 liverytype[1]=LT
@@ -692,8 +761,8 @@ weight=16.5
 axles=4
 cost=330000
 upgrade_price=65000
-runningcost=26
-fixed_cost=4938
+runningcost=0
+fixed_cost=5193
 
 can_lead_from_rear=0
 bidirectional=1
@@ -717,7 +786,14 @@ Constraint[Next][8]=met-dreadnought-third
 Constraint[Next][9]=met-dreadnought-brake-rear
 Constraint[Next][10]=district-4-wheel-third-fitted
 Constraint[Next][11]=district-4-wheel-brake-rear-fitted
-Constraint[Next][12]=none
+Constraint[Next][12]=district-4-wheel-second-fitted
+Constraint[Next][13]=district-4-wheel-first-fitted
+Constraint[Next][14]=met-jubilee-second
+Constraint[Next][15]=met-jubilee-first
+Constraint[Next][16]=met-bogie-second
+Constraint[Next][17]=met-bogie-first
+Constraint[Next][18]=met-dreadnought-first
+Constraint[Next][19]=none
 
 Constraint[Prev][0]=met-jubilee-third
 Constraint[Prev][1]=met-jubilee-brake-front
@@ -731,6 +807,13 @@ Constraint[Prev][8]=met-dreadnought-third
 Constraint[Prev][9]=met-dreadnought-brake-front
 Constraint[Prev][10]=district-4-wheel-third-fitted
 Constraint[Prev][11]=district-4-wheel-brake-front-fitted
+Constraint[Prev][12]=district-4-wheel-second-fitted
+Constraint[Prev][13]=district-4-wheel-first-fitted
+Constraint[Prev][14]=met-jubilee-second
+Constraint[Prev][15]=met-jubilee-first
+Constraint[Prev][16]=met-bogie-second
+Constraint[Prev][17]=met-bogie-first
+Constraint[Prev][18]=met-dreadnought-first
 
 liverytype[0]=Metropolitan-Green
 liverytype[1]=LT

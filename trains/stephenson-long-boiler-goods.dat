@@ -28,31 +28,31 @@ sound=lwalker-br-4mt-tank.wav
 weight=21.5
 axle_load=8
 cost=14800000
-runningcost=141
-fixed_cost=38167
+runningcost=117
+fixed_cost=44556
 Constraint[Next][0]=stephenson-long-boiler-goods-tender
 
 # TODO: Other liveries.
 liverytype[0]=MR-Early
 liverytype[1]=MR-Standard
 
-EmptyImage[E][0]=./images/stephenson-long-boiler-goods-mr-green_E.0.0
-EmptyImage[SE][0]=./images/stephenson-long-boiler-goods-mr-green_SE.0.0
-EmptyImage[S][0]=./images/stephenson-long-boiler-goods-mr-green_S.0.0
-EmptyImage[SW][0]=./images/stephenson-long-boiler-goods-mr-green_SW.0.0
-EmptyImage[W][0]=./images/stephenson-long-boiler-goods-mr-green_W.0.0
-EmptyImage[NW][0]=./images/stephenson-long-boiler-goods-mr-green_NW.0.0
-EmptyImage[N][0]=./images/stephenson-long-boiler-goods-mr-green_N.0.0
-EmptyImage[NE][0]=./images/stephenson-long-boiler-goods-mr-green_NE.0.0
+EmptyImage[E][0]=./locomotives/stephenson-long-boiler-goods-mr-green_E.0.0
+EmptyImage[SE][0]=./locomotives/stephenson-long-boiler-goods-mr-green_SE.0.0
+EmptyImage[S][0]=./locomotives/stephenson-long-boiler-goods-mr-green_S.0.0
+EmptyImage[SW][0]=./locomotives/stephenson-long-boiler-goods-mr-green_SW.0.0
+EmptyImage[W][0]=./locomotives/stephenson-long-boiler-goods-mr-green_W.0.0
+EmptyImage[NW][0]=./locomotives/stephenson-long-boiler-goods-mr-green_NW.0.0
+EmptyImage[N][0]=./locomotives/stephenson-long-boiler-goods-mr-green_N.0.0
+EmptyImage[NE][0]=./locomotives/stephenson-long-boiler-goods-mr-green_NE.0.0
 
-EmptyImage[E][1]=./images/stephenson-long-boiler-goods-mr_E.0.0
-EmptyImage[SE][1]=./images/stephenson-long-boiler-goods-mr_SE.0.0
-EmptyImage[S][1]=./images/stephenson-long-boiler-goods-mr_S.0.0
-EmptyImage[SW][1]=./images/stephenson-long-boiler-goods-mr_SW.0.0
-EmptyImage[W][1]=./images/stephenson-long-boiler-goods-mr_W.0.0
-EmptyImage[NW][1]=./images/stephenson-long-boiler-goods-mr_NW.0.0
-EmptyImage[N][1]=./images/stephenson-long-boiler-goods-mr_N.0.0
-EmptyImage[NE][1]=./images/stephenson-long-boiler-goods-mr_NE.0.0
+EmptyImage[E][1]=./locomotives/stephenson-long-boiler-goods-mr_E.0.0
+EmptyImage[SE][1]=./locomotives/stephenson-long-boiler-goods-mr_SE.0.0
+EmptyImage[S][1]=./locomotives/stephenson-long-boiler-goods-mr_S.0.0
+EmptyImage[SW][1]=./locomotives/stephenson-long-boiler-goods-mr_SW.0.0
+EmptyImage[W][1]=./locomotives/stephenson-long-boiler-goods-mr_W.0.0
+EmptyImage[NW][1]=./locomotives/stephenson-long-boiler-goods-mr_NW.0.0
+EmptyImage[N][1]=./locomotives/stephenson-long-boiler-goods-mr_N.0.0
+EmptyImage[NE][1]=./locomotives/stephenson-long-boiler-goods-mr_NE.0.0
 
 ---
 
@@ -62,7 +62,7 @@ engine_type=steam
 speed=56
 copyright=James/jamespetts
 intro_year=1843
-intro_month=8
+intro_month=5
 # Larger versions of these engines were built into the 1860s
 # (according to Ahrons)
 retire_year=1855
@@ -77,26 +77,27 @@ brake_force=3
 weight=14
 cost=0
 runningcost=0
+fixed_cost=0
 
 Constraint[Prev][0]=stephenson-long-boiler-goods
 
 liverytype[0]=MR-Early
 liverytype[1]=MR-Standard
 
-EmptyImage[E][0]=./images/mr-133-tender-green_E.0.0
-EmptyImage[SE][0]=./images/mr-133-tender-green_SE.0.0
-EmptyImage[S][0]=./images/mr-133-tender-green_S.0.0
-EmptyImage[SW][0]=./images/mr-133-tender-green_SW.0.0
-EmptyImage[W][0]=./images/mr-133-tender-green_W.0.0
-EmptyImage[NW][0]=./images/mr-133-tender-green_NW.0.0
-EmptyImage[N][0]=./images/mr-133-tender-green_N.0.0
-EmptyImage[NE][0]=./images/mr-133-tender-green_NE.0.0
+EmptyImage[E][0]=./locomotives/mr-133-tender-green_E.0.0
+EmptyImage[SE][0]=./locomotives/mr-133-tender-green_SE.0.0
+EmptyImage[S][0]=./locomotives/mr-133-tender-green_S.0.0
+EmptyImage[SW][0]=./locomotives/mr-133-tender-green_SW.0.0
+EmptyImage[W][0]=./locomotives/mr-133-tender-green_W.0.0
+EmptyImage[NW][0]=./locomotives/mr-133-tender-green_NW.0.0
+EmptyImage[N][0]=./locomotives/mr-133-tender-green_N.0.0
+EmptyImage[NE][0]=./locomotives/mr-133-tender-green_NE.0.0
 
-EmptyImage[E][1]=./images/mr-133-tender_E.0.0
-EmptyImage[SE][1]=./images/mr-133-tender_SE.0.0
-EmptyImage[S][1]=./images/mr-133-tender_S.0.0
-EmptyImage[SW][1]=./images/mr-133-tender_SW.0.0
-EmptyImage[W][1]=./images/mr-133-tender_W.0.0
-EmptyImage[NW][1]=./images/mr-133-tender_NW.0.0
-EmptyImage[N][1]=./images/mr-133-tender_N.0.0
-EmptyImage[NE][1]=./images/mr-133-tender_NE.0.0
+EmptyImage[E][1]=./locomotives/mr-133-tender_E.0.0
+EmptyImage[SE][1]=./locomotives/mr-133-tender_SE.0.0
+EmptyImage[S][1]=./locomotives/mr-133-tender_S.0.0
+EmptyImage[SW][1]=./locomotives/mr-133-tender_SW.0.0
+EmptyImage[W][1]=./locomotives/mr-133-tender_W.0.0
+EmptyImage[NW][1]=./locomotives/mr-133-tender_NW.0.0
+EmptyImage[N][1]=./locomotives/mr-133-tender_N.0.0
+EmptyImage[NE][1]=./locomotives/mr-133-tender_NE.0.0

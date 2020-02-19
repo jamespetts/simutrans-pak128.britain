@@ -13,7 +13,8 @@ length=10
 
 weight=31
 cost=530000
-runningcost=27
+runningcost=0
+fixed_cost=5431
 sound=-1
 
 Constraint[Prev][0]=LNER-A4-Tender(BRBlue)
@@ -44,7 +45,8 @@ length=10
 
 weight=31
 cost=530000
-runningcost=47
+runningcost=0
+fixed_cost=5431
 sound=-1
 
 Constraint[Prev][0]=LNER-Coronation-Brake-Third-Twin(front)(cc)
@@ -77,7 +79,8 @@ length=10
 
 weight=31
 cost=530000
-runningcost=27
+runningcost=0
+fixed_cost=5431
 sound=-1
 
 Constraint[Prev][0]=LNER-A4-Tender(BRBlue)
@@ -108,7 +111,8 @@ length=10
 
 weight=31
 cost=530000
-runningcost=47
+runningcost=0
+fixed_cost=5431
 sound=-1
 
 Constraint[Prev][0]=LNER-Coronation-Brake-Third-Triple(front)(cc)
@@ -139,7 +143,8 @@ length=10
 
 weight=31
 cost=530000
-runningcost=47
+runningcost=0
+fixed_cost=5431
 sound=-1
 
 Constraint[Prev][0]=LNER-Coronation-Brake-Third-Triple(middle)(cc)
@@ -172,7 +177,8 @@ length=10
 
 weight=31
 cost=53000
-runningcost=47
+runningcost=0
+fixed_cost=4863
 sound=-1
 
 Constraint[Prev][0]=LNER-Coronation-Brake-Third-Twin(rear)(cc)
@@ -205,7 +211,8 @@ length=10
 
 weight=31
 cost=530000
-runningcost=34
+runningcost=0
+fixed_cost=5431
 sound=-1
 
 Constraint[Prev][0]=LNER-Coronation-RearBrake-Third-Twin(front)(cc)
@@ -237,7 +244,8 @@ length=9
 
 weight=31
 cost=530000
-runningcost=20
+runningcost=0
+fixed_cost=631
 sound=-1
 
 Constraint[Prev][0]=LNER-Coronation-RearBrake-Third-Twin(rear)(cc)
@@ -268,7 +276,8 @@ length=9
 
 weight=31
 cost=530000
-runningcost=45
+runningcost=0
+fixed_cost=18631
 sound=-1
 
 Constraint[Prev][0]=LNER-Coronation-Brake-Third-Twin(rear)(cc)
@@ -300,7 +309,8 @@ length=7
 
 weight=31
 cost=530000
-runningcost=15
+runningcost=0
+fixed_cost=18631
 sound=-1
 
 Constraint[Prev][0]=LNER-Coronation-Restaurant-Triple(front)(cc)
@@ -331,7 +341,8 @@ length=9
 
 weight=31
 cost=530000
-runningcost=25
+runningcost=0
+fixed_cost=18631
 sound=-1
 
 Constraint[Prev][0]=LNER-Coronation-Restaurant-Triple(middle)(cc)

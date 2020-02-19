@@ -23,8 +23,8 @@ rolling_resistance=19
 weight=5.5
 axles=3
 cost=160000
-runningcost=9
-fixed_cost=67
+runningcost=0
+fixed_cost=133
 
 comfort[0]=0
 comfort[1]=26
@@ -34,17 +34,18 @@ max_loading_time=60
 can_lead_from_rear=0
 bidirectional=1
 
+Constraint[Prev][0]=any
 Constraint[Next][0]=any
 
 # TODO: Multiple liveries
 liverytype[0]=MR-Early
 
-EmptyImage[E][0]=./images/6wheel-parliamentary_E.0.0
-EmptyImage[SE][0]=./images/6wheel-parliamentary_SE.0.0
-EmptyImage[S][0]=./images/6wheel-parliamentary_S.0.0
-EmptyImage[SW][0]=./images/6wheel-parliamentary_SW.0.0
-EmptyImage[W][0]=./images/6wheel-parliamentary_W.0.0
-EmptyImage[NW][0]=./images/6wheel-parliamentary_NW.0.0
-EmptyImage[N][0]=./images/6wheel-parliamentary_N.0.0
-EmptyImage[NE][0]=./images/6wheel-parliamentary_NE.0.0
+EmptyImage[E][0]=./carriages/6wheel-parliamentary_E.0.0
+EmptyImage[SE][0]=./carriages/6wheel-parliamentary_SE.0.0
+EmptyImage[S][0]=./carriages/6wheel-parliamentary_S.0.0
+EmptyImage[SW][0]=./carriages/6wheel-parliamentary_SW.0.0
+EmptyImage[W][0]=./carriages/6wheel-parliamentary_W.0.0
+EmptyImage[NW][0]=./carriages/6wheel-parliamentary_NW.0.0
+EmptyImage[N][0]=./carriages/6wheel-parliamentary_N.0.0
+EmptyImage[NE][0]=./carriages/6wheel-parliamentary_NE.0.0
 

@@ -3,7 +3,7 @@ name=LMS-Garratt-Front
 engine_type=steam
 speed=80
 # Extrapolated
-power=609
+power=617
 # http://en.wikipedia.org/wiki/LMS_Garratt
 tractive_effort=203
 copyright=James
@@ -21,19 +21,23 @@ axle_load=19
 way_wear_factor=118125
 cost=12672000
 # These were "heavy on coal and maintenance": http://en.wikipedia.org/wiki/LMS_Garratt
-runningcost=1188
+runningcost=351
+fixed_cost=66400
 sound=konakaboom-black-five.wav
 increase_maintenance_after_years=14
 years_before_maintenance_max_reached=13
 
+bidirectional=1
+
+has_front_cab=1
 Constraint[Next][0]=LMS-Garratt-Middle
 
-EmptyImage[E]=./images/lms-garratt.0.0
-EmptyImage[SE]=./images/lms-garratt.0.1
-EmptyImage[S]=./images/lms-garratt.0.2
-EmptyImage[SW]=./images/lms-garratt.0.3
-EmptyImage[W]=./images/lms-garratt.0.4
-EmptyImage[NW]=./images/lms-garratt.0.5
-EmptyImage[N]=./images/lms-garratt.0.6
-EmptyImage[NE]=./images/lms-garratt.0.7
+EmptyImage[E]=./locomotives/lms-garratt.0.0
+EmptyImage[SE]=./locomotives/lms-garratt.0.1
+EmptyImage[S]=./locomotives/lms-garratt.0.2
+EmptyImage[SW]=./locomotives/lms-garratt.0.3
+EmptyImage[W]=./locomotives/lms-garratt.0.4
+EmptyImage[NW]=./locomotives/lms-garratt.0.5
+EmptyImage[N]=./locomotives/lms-garratt.0.6
+EmptyImage[NE]=./locomotives/lms-garratt.0.7
 

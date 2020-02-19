@@ -16,11 +16,13 @@ axles=2
 way_wear_factor=175
 length=4
 cost=90000
-runningcost=69
+runningcost=22
+fixed_cost=8047
 intro_year=1919
 intro_month=8
 retire_year=1923
 retire_month=2
+is_tall=1
 sound=graham-french-leyland-n-type.wav
 
 comfort=22

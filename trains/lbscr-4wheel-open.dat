@@ -29,8 +29,8 @@ rolling_resistance=19
 weight=2
 axles=2
 cost=70000
-runningcost=7
-fixed_cost=29
+runningcost=0
+fixed_cost=146
 
 comfort[0]=20
 min_loading_time=17
@@ -43,25 +43,26 @@ upgrade[0]=LBSCR-4wheel-open-sided
 upgrade[1]=LBSCR-4wheel-parliamentary-third
 upgrade[2]=milk-van
 
+Constraint[Prev][0]=any
 Constraint[Next][0]=any
 
-EmptyImage[E]=./images/lbscr-4wheel-open_E.0.0
-EmptyImage[SE]=./images/lbscr-4wheel-open_SE.0.0
-EmptyImage[S]=./images/lbscr-4wheel-open_S.0.0
-EmptyImage[SW]=./images/lbscr-4wheel-open_SW.0.0
-EmptyImage[W]=./images/lbscr-4wheel-open_W.0.0
-EmptyImage[NW]=./images/lbscr-4wheel-open_NW.0.0
-EmptyImage[N]=./images/lbscr-4wheel-open_N.0.0
-EmptyImage[NE]=./images/lbscr-4wheel-open_NE.0.0
+EmptyImage[E]=./carriages/lbscr-4wheel-open_E.0.0
+EmptyImage[SE]=./carriages/lbscr-4wheel-open_SE.0.0
+EmptyImage[S]=./carriages/lbscr-4wheel-open_S.0.0
+EmptyImage[SW]=./carriages/lbscr-4wheel-open_SW.0.0
+EmptyImage[W]=./carriages/lbscr-4wheel-open_W.0.0
+EmptyImage[NW]=./carriages/lbscr-4wheel-open_NW.0.0
+EmptyImage[N]=./carriages/lbscr-4wheel-open_N.0.0
+EmptyImage[NE]=./carriages/lbscr-4wheel-open_NE.0.0
 
-FreightImage[E]=./images/lbscr-4wheel-open-loaded_E.0.0
-FreightImage[SE]=./images/lbscr-4wheel-open-loaded_SE.0.0
-FreightImage[S]=./images/lbscr-4wheel-open-loaded_S.0.0
-FreightImage[SW]=./images/lbscr-4wheel-open-loaded_SW.0.0
-FreightImage[W]=./images/lbscr-4wheel-open-loaded_W.0.0
-FreightImage[NW]=./images/lbscr-4wheel-open-loaded_NW.0.0
-FreightImage[N]=./images/lbscr-4wheel-open-loaded_N.0.0
-FreightImage[NE]=./images/lbscr-4wheel-open-loaded_NE.0.0
+FreightImage[E]=./carriages/lbscr-4wheel-open-loaded_E.0.0
+FreightImage[SE]=./carriages/lbscr-4wheel-open-loaded_SE.0.0
+FreightImage[S]=./carriages/lbscr-4wheel-open-loaded_S.0.0
+FreightImage[SW]=./carriages/lbscr-4wheel-open-loaded_SW.0.0
+FreightImage[W]=./carriages/lbscr-4wheel-open-loaded_W.0.0
+FreightImage[NW]=./carriages/lbscr-4wheel-open-loaded_NW.0.0
+FreightImage[N]=./carriages/lbscr-4wheel-open-loaded_N.0.0
+FreightImage[NE]=./carriages/lbscr-4wheel-open-loaded_NE.0.0
 
 ---
 
@@ -84,8 +85,8 @@ rolling_resistance=19
 weight=2
 axles=2
 cost=73000
-runningcost=9
-fixed_cost=4830
+runningcost=0
+fixed_cost=4952
 
 comfort[0]=20
 min_loading_time=17
@@ -98,21 +99,21 @@ upgrade[0]=LBSCR-4wheel-open-sided-brake
 upgrade[1]=LBSCR-4wheel-parliamentary-third-brake
 upgrade[2]=milk-van
 
-EmptyImage[E]=./images/lbscr-4wheel-open-brake-rear_E.0.0
-EmptyImage[SE]=./images/lbscr-4wheel-open-brake-rear_SE.0.0
-EmptyImage[S]=./images/lbscr-4wheel-open-brake-rear_S.0.0
-EmptyImage[SW]=./images/lbscr-4wheel-open-brake-rear_SW.0.0
-EmptyImage[W]=./images/lbscr-4wheel-open-brake-rear_W.0.0
-EmptyImage[NW]=./images/lbscr-4wheel-open-brake-rear_NW.0.0
-EmptyImage[N]=./images/lbscr-4wheel-open-brake-rear_N.0.0
-EmptyImage[NE]=./images/lbscr-4wheel-open-brake-rear_NE.0.0
+EmptyImage[E]=./carriages/lbscr-4wheel-open-brake-rear_E.0.0
+EmptyImage[SE]=./carriages/lbscr-4wheel-open-brake-rear_SE.0.0
+EmptyImage[S]=./carriages/lbscr-4wheel-open-brake-rear_S.0.0
+EmptyImage[SW]=./carriages/lbscr-4wheel-open-brake-rear_SW.0.0
+EmptyImage[W]=./carriages/lbscr-4wheel-open-brake-rear_W.0.0
+EmptyImage[NW]=./carriages/lbscr-4wheel-open-brake-rear_NW.0.0
+EmptyImage[N]=./carriages/lbscr-4wheel-open-brake-rear_N.0.0
+EmptyImage[NE]=./carriages/lbscr-4wheel-open-brake-rear_NE.0.0
 
-FreightImage[E]=./images/lbscr-4wheel-open-brake-rear-loaded_E.0.0
-FreightImage[SE]=./images/lbscr-4wheel-open-brake-rear-loaded_SE.0.0
-FreightImage[S]=./images/lbscr-4wheel-open-brake-rear-loaded_S.0.0
-FreightImage[SW]=./images/lbscr-4wheel-open-brake-rear-loaded_SW.0.0
-FreightImage[W]=./images/lbscr-4wheel-open-brake-rear-loaded_W.0.0
-FreightImage[NW]=./images/lbscr-4wheel-open-brake-rear-loaded_NW.0.0
-FreightImage[N]=./images/lbscr-4wheel-open-brake-rear-loaded_N.0.0
-FreightImage[NE]=./images/lbscr-4wheel-open-brake-rear-loaded_NE.0.0
+FreightImage[E]=./carriages/lbscr-4wheel-open-brake-rear-loaded_E.0.0
+FreightImage[SE]=./carriages/lbscr-4wheel-open-brake-rear-loaded_SE.0.0
+FreightImage[S]=./carriages/lbscr-4wheel-open-brake-rear-loaded_S.0.0
+FreightImage[SW]=./carriages/lbscr-4wheel-open-brake-rear-loaded_SW.0.0
+FreightImage[W]=./carriages/lbscr-4wheel-open-brake-rear-loaded_W.0.0
+FreightImage[NW]=./carriages/lbscr-4wheel-open-brake-rear-loaded_NW.0.0
+FreightImage[N]=./carriages/lbscr-4wheel-open-brake-rear-loaded_N.0.0
+FreightImage[NE]=./carriages/lbscr-4wheel-open-brake-rear-loaded_NE.0.0
 

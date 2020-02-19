@@ -3,7 +3,11 @@ Name=Small_Football_Ground
 Type=cur
 Build_Time=3000
 Chance=60
-population_and_visitor_demand_capacity=550
+# Estimate capacity of 2,500
+# Dividing by 7 on the basis that only 1 day in 7 would the stadium be operating
+# yields 357/day, / 16 hours * 6.4 hours = 143
+# Divide by 2 for meters/tile adjustment
+population_and_visitor_demand_capacity=71
 employment_capacity=16
 mail_demand=5
 class_proportion[0]=30

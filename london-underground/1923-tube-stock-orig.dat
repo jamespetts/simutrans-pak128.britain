@@ -19,7 +19,8 @@ overcrowded_capacity=72
 weight=29
 axles=4
 cost=1150000
-runningcost=5
+runningcost=80
+fixed_cost=6958
 sound=lul-1938-stock-ff3170.wav
 upgrade[0]=BR-Class485Front
 
@@ -78,7 +79,8 @@ overcrowded_capacity=126
 weight=19
 axles=4
 cost=450000
-runningcost=20
+runningcost=0
+fixed_cost=536
 
 upgrade[0]=BR-Class485Middle1
 
@@ -138,7 +140,8 @@ overcrowded_capacity=114
 weight=17
 axles=4
 cost=450000
-runningcost=20
+runningcost=0
+fixed_cost=536
 
 upgrade[0]=BR-Class485Middle2
 
@@ -201,7 +204,8 @@ overcrowded_capacity=72
 weight=29
 axles=4
 cost=1050000
-runningcost=80
+runningcost=60
+fixed_cost=6875
 sound=lul-1938-stock-ff3170.wav
 upgrade[0]=BR-Class485Rear
 

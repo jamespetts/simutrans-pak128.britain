@@ -18,7 +18,8 @@ weight=14
 axle_load=12
 length=6
 cost=7850000
-runningcost=187
+runningcost=52
+fixed_cost=12089
 intro_year=2003
 intro_month=3
 # TODO: Use a more authentic sound for this type.
@@ -91,6 +92,7 @@ axle_load=12
 length=4
 cost=0
 runningcost=0
+fixed_cost=0
 intro_year=2003
 intro_month=3
 

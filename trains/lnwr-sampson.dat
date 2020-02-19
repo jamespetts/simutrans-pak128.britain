@@ -25,8 +25,8 @@ rolling_resistance=19
 weight=28
 axle_load=12
 cost=17600000
-runningcost=318
-fixed_cost=47333
+runningcost=211
+fixed_cost=38667
 sound=lwalker-br-4mt-tank.wav
 upgrade[0]=LNWR-Waterloo
 
@@ -35,23 +35,23 @@ Constraint[Next][0]=LNWR-Sampson-Tender
 liverytype[0]=LNWR-Early
 liverytype[1]=LNWR-Black
 
-EmptyImage[E][0]=./images/lnwr-sampson-green.1.4
-EmptyImage[SE][0]=./images/lnwr-sampson-green.1.5
-EmptyImage[S][0]=./images/lnwr-sampson-green.1.6
-EmptyImage[SW][0]=./images/lnwr-sampson-green.1.7
-EmptyImage[W][0]=./images/lnwr-sampson-green.1.0
-EmptyImage[NW][0]=./images/lnwr-sampson-green.1.1
-EmptyImage[N][0]=./images/lnwr-sampson-green.1.2
-EmptyImage[NE][0]=./images/lnwr-sampson-green.1.3
+EmptyImage[E][0]=./locomotives/lnwr-sampson-green_E.0.0
+EmptyImage[SE][0]=./locomotives/lnwr-sampson-green_SE.0.0
+EmptyImage[S][0]=./locomotives/lnwr-sampson-green_S.0.0
+EmptyImage[SW][0]=./locomotives/lnwr-sampson-green_SW.0.0
+EmptyImage[W][0]=./locomotives/lnwr-sampson-green_W.0.0
+EmptyImage[NW][0]=./locomotives/lnwr-sampson-green_NW.0.0
+EmptyImage[N][0]=./locomotives/lnwr-sampson-green_N.0.0
+EmptyImage[NE][0]=./locomotives/lnwr-sampson-green_NE.0.0
 
-EmptyImage[E][1]=./images/lnwr-sampson.1.4
-EmptyImage[SE][1]=./images/lnwr-sampson.1.5
-EmptyImage[S][1]=./images/lnwr-sampson.1.6
-EmptyImage[SW][1]=./images/lnwr-sampson.1.7
-EmptyImage[W][1]=./images/lnwr-sampson.1.0
-EmptyImage[NW][1]=./images/lnwr-sampson.1.1
-EmptyImage[N][1]=./images/lnwr-sampson.1.2
-EmptyImage[NE][1]=./images/lnwr-sampson.1.3
+EmptyImage[E][1]=./locomotives/lnwr-sampson_E.0.0
+EmptyImage[SE][1]=./locomotives/lnwr-sampson_SE.0.0
+EmptyImage[S][1]=./locomotives/lnwr-sampson_S.0.0
+EmptyImage[SW][1]=./locomotives/lnwr-sampson_SW.0.0
+EmptyImage[W][1]=./locomotives/lnwr-sampson_W.0.0
+EmptyImage[NW][1]=./locomotives/lnwr-sampson_NW.0.0
+EmptyImage[N][1]=./locomotives/lnwr-sampson_N.0.0
+EmptyImage[NE][1]=./locomotives/lnwr-sampson_NE.0.0
 
 ---
 
@@ -74,6 +74,7 @@ rolling_resistance=19
 weight=23
 cost=0
 runningcost=0
+fixed_cost=0
 
 
 upgrade[0]=LNWR-Waterloo-Tender
@@ -83,20 +84,20 @@ Constraint[Prev][0]=LNWR-Sampson
 liverytype[0]=LNWR-Early
 liverytype[1]=LNWR-Black
 
-EmptyImage[E][0]=./images/lnwr-newton-tender-green.1.4
-EmptyImage[SE][0]=./images/lnwr-newton-tender-green.1.5
-EmptyImage[S][0]=./images/lnwr-newton-tender-green.1.6
-EmptyImage[SW][0]=./images/lnwr-newton-tender-green.1.7
-EmptyImage[W][0]=./images/lnwr-newton-tender-green.1.0
-EmptyImage[NW][0]=./images/lnwr-newton-tender-green.1.1
-EmptyImage[N][0]=./images/lnwr-newton-tender-green.1.2
-EmptyImage[NE][0]=./images/lnwr-newton-tender-green.1.3
+EmptyImage[E][0]=./locomotives/lnwr-sampson-tender-green_E.0.0
+EmptyImage[SE][0]=./locomotives/lnwr-sampson-tender-green_SE.0.0
+EmptyImage[S][0]=./locomotives/lnwr-sampson-tender-green_S.0.0
+EmptyImage[SW][0]=./locomotives/lnwr-sampson-tender-green_SW.0.0
+EmptyImage[W][0]=./locomotives/lnwr-sampson-tender-green_W.0.0
+EmptyImage[NW][0]=./locomotives/lnwr-sampson-tender-green_NW.0.0
+EmptyImage[N][0]=./locomotives/lnwr-sampson-tender-green_N.0.0
+EmptyImage[NE][0]=./locomotives/lnwr-sampson-tender-green_NE.0.0
 
-EmptyImage[E][1]=./images/lnwr-express-tender.1.4
-EmptyImage[SE][1]=./images/lnwr-express-tender.1.5
-EmptyImage[S][1]=./images/lnwr-express-tender.1.6
-EmptyImage[SW][1]=./images/lnwr-express-tender.1.7
-EmptyImage[W][1]=./images/lnwr-express-tender.1.0
-EmptyImage[NW][1]=./images/lnwr-express-tender.1.1
-EmptyImage[N][1]=./images/lnwr-express-tender.1.2
-EmptyImage[NE][1]=./images/lnwr-express-tender.1.3
+EmptyImage[E][1]=./locomotives/lnwr-sampson-tender_E.0.0
+EmptyImage[SE][1]=./locomotives/lnwr-sampson-tender_SE.0.0
+EmptyImage[S][1]=./locomotives/lnwr-sampson-tender_S.0.0
+EmptyImage[SW][1]=./locomotives/lnwr-sampson-tender_SW.0.0
+EmptyImage[W][1]=./locomotives/lnwr-sampson-tender_W.0.0
+EmptyImage[NW][1]=./locomotives/lnwr-sampson-tender_NW.0.0
+EmptyImage[N][1]=./locomotives/lnwr-sampson-tender_N.0.0
+EmptyImage[NE][1]=./locomotives/lnwr-sampson-tender_NE.0.0

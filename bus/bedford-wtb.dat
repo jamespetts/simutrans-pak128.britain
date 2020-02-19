@@ -21,7 +21,8 @@ length=5
 # These cost up to £785 (£290 chassis only)
 # https://books.google.co.uk/books?id=-H5rDQAAQBAJ&pg=PT85&lpg=PT85&dq=bedford+wtb+length&source=bl&ots=qMsrfMx2WV&sig=ttLKb3h4F1A1VZc0B7AX2VsZeAM&hl=en&sa=X&ved=0ahUKEwisr6SskJfYAhWEa1AKHc8nBxkQ6AEIUzAG#v=onepage&q&f=false
 cost=620000
-runningcost=99
+runningcost=48
+fixed_cost=8323
 intro_year=1935
 intro_month=3
 retire_year=1939

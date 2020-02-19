@@ -20,11 +20,13 @@ weight=7
 axles=3
 length=6
 cost=232000
-runningcost=89
+runningcost=32
+fixed_cost=12242
 intro_year=1935
 intro_month=5
 retire_year=1948
 retire_month=6
+is_tall=1
 
 comfort=46
 # Rear platform with conductor 2.0 seconds per passenger

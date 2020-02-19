@@ -19,7 +19,8 @@ weight=36.1
 #length=8
 cost=12500000
 upgrade_price=5000
-runningcost=3000
+runningcost=388
+fixed_cost=58681
 # Guessed: November 1951 is correct for the L-1049 original
 intro_year=1952
 intro_month=9
@@ -78,7 +79,8 @@ weight=36.1
 #length=8
 cost=12500000
 upgrade_price=5000
-runningcost=3000
+runningcost=388
+fixed_cost=58681
 # Guessed: November 1951 is correct for the L-1049 original
 intro_year=1952
 intro_month=9

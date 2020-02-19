@@ -18,11 +18,13 @@ gear=80
 weight=9.6
 axles=3
 cost=42000
-runningcost=96
+runningcost=18
+fixed_cost=12044
 intro_year=1948
 intro_month=1
 retire_year=1966
 retire_month=1
+is_tall=1
 sound=androo4519-btu9613t.wav
 
 # "The Rolls-Royce of trolleybuses"
@@ -30,6 +32,9 @@ comfort=51
 # Rear platform with conductor: 2.0 seconds per passenger
 min_loading_time=3
 max_loading_time=140
+
+Constraint[Prev][0]=none
+Constraint[Next][0]=none
 
 liverytype[0]=LT
 liverytype[1]=Glasgow-Corporation-standard

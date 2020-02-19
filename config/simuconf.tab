@@ -27,6 +27,12 @@ tile_height = 8
 
 height_conversion_factor = 2
 
+# If the below setting is enabled (i.e. = 1), addons in the ~/addons folder
+# (inside the pakset folder) will be available. 
+#
+# NOTE: Using addons may make it not possible to join an online multiplayer game.
+with_private_paks = 0
+
 # In beginner mode, all good revenuses are multiplied by a factor (default 1500=1.5)
 beginner_price_factor = 1500
 
@@ -65,26 +71,38 @@ station_coverage_factories = 3
 # The rate at which towns grow depends on their size. There are three different size categories:
 # "Villages", "Cities" and "Capitals". The following settings define the thresholds (in numbers 
 # of population) above which towns become "Cities" and "Capitals". Anything smaller than 
-# city_threshold_size is a "Village".
+# city_threshold_size is a "Village". These settings are overriden if any value in 
+# city_threshold_percentage or capital_threshold_percentage be set. 
 
 city_threshold_size = 2500
 capital_threshold_size = 25000
 
+# These values determine which rates of town growth apply depending, not on the absolute size
+# of the city, but rather its size relative to other cities in the game. If capital_threshold_percentage
+# is 5, for example, any city in the top 5% of cities by population count will be a capital. 
+# These settings override the absolute values in city_threshold_size and capital_threshold_size
+# unless their values are 0, which is the default. It is recommended to use these rather than absolute
+# values, especially in longer games, where all towns may grow to the size of "capitals" eventually.
+
+city_threshold_percentage = 20
+capital_threshold_percentage = 2
+
 # These values are used in the city generation algorithm to determine the maximum size of cities.
 # max_city_size is the maximum size, in citizens, of any city at the point of generation.
 # max_small_city_size is the size, in citizens, of any city other than a "big city" at the point of generation. 
+#
 # TIP: Set a lower number for these values the earlier that the game is started.
 
-max_city_size = 16000
+max_city_size = 20000
 max_small_city_size = 3000
 
 # These values represent the rate at which towns grow. The raw growth number is *divided*
 # by the growth factors; ergo, the lower the number, the higher the growth. Longer games
 # should have less growth, whereas shorter games do better with more growth.
 
-growthfactor_villages = 768
+growthfactor_villages = 832
 growthfactor_cities = 480
-growthfactor_capitals = 240
+growthfactor_capitals = 120
 
 # Enable this to use the old algorithm for city growth from Standard.
 # NOTE: The renovation_percentage in cityrules.tab should be increased if this be done.
@@ -168,8 +186,8 @@ min_alternative_destinations_per_job_millionths = 2500
 # between the minimum and maximum amount using a normal distribution, meaning that the numbers
 # are more likely to be in the middle of the range than at either end.
 
-min_visiting_tolerance = 8
-range_visiting_tolerance = 5400
+min_visiting_tolerance = 12
+range_visiting_tolerance = 10000
 min_commuting_tolerance = 30
 range_commuting_tolerance = 180
 
@@ -331,7 +349,7 @@ tpo_revenue=300
 # passengers will travel in a higher class of accommodation if the journey time is more 
 # than one fifth of the maximum comfortable journey time of the lower class of accommodation.
 
-max_comfort_preference_percentage = 500
+max_comfort_preference_percentage = 650
 
 # These settings relate to private car use. See /config/privatecar.tab for
 # the configuration of private car ownership for different years.
@@ -390,8 +408,7 @@ seperate_halt_capacities = 1
 
 # This setting determines the extent to which cities should be built far away from
 # other cities when the map is first generated. The higher the number, the further
-# away from each other that the cities are built. This is introduced in Simutrans-Extended
-# 9.0. It replaces Simutrans-Standard's setting of "minimum_city_distance".
+# away from each other that the cities are built.
 
 city_isolation_factor = 48
 
@@ -472,7 +489,7 @@ toll_revenue_percentage = 33
 # a trip by aircraft charged to a player landing at another player's
 # airport.
 #
-# seaport_toll_revenue_percentage is the precentage of the revenue
+# seaport_toll_revenue_percentage is the percentage of the revenue
 # of a trip by sea charged to a player docking at another player's
 # sea port.
 
@@ -491,7 +508,7 @@ toll_free_public_roads = 1
 # that the player who owns the road will receive for each km traversed by a
 # private car on that road.
 
-private_car_toll_per_km = 1
+private_car_toll_per_km = 15
 
 # If this is set to 1, any road built in a town will be adopted
 # by that town (set to unowned), meaning that the building player
@@ -558,6 +575,12 @@ standard_axle_load = 8
 
 citycar_way_wear_factor = 2
 
+# If this setting should be enabled, it will be possible to see
+# information about what will happen to certain vehicle types in 
+# the future, specifically, when they will stop being produced and
+# whether they will have any upgrades.
+show_future_vehicle_information = 0
+
 ################################## Industry settings #################################
 
 # allow all possible supplier to connect to your factories?
@@ -569,8 +592,15 @@ crossconnect_factories = 0
 # (100% will give nearly the same results as crossconnect_factories=1)
 crossconnect_factories_percentage = 15
 
-# with this switch on (default), overcrowded factories will not recieve goods any more
-just_in_time = 1
+# At what multiple of a town's population that a new consumer industry is built in that town
+industry_increase_every = 2000
+
+# This setting determines the behaviour of industry demand.
+# At 0, industries will always demand goods until their internal storage is full, no matter how many goods are already in transit.
+# At 1, industries will demand enough goods to fill their internal storage initially, then will demand only enough goods to keep up with the demand of their consumers.
+# At 2, industries will demand only enough goods to keep up with the demand of their consumers without trying to fill their internal storage first, but will not demand so many goods that their internal storage is likely to overflow.
+# At 3, industries behave as in 2, save that the internal storage of consumer industries is ignored.
+just_in_time = 2
 
 # True if substations ("transformers") are allowed to be built underground (default)
 allow_underground_transformers = 1
@@ -609,7 +639,7 @@ factory_arrival_periods = 4
 factory_enforce_demand = 1
 
 # How much amount in transport is sent before further distribution stops
-# This is only enabled when "just_in_time" is enabled
+# This is only enabled when "just_in_time" is enabled (i.e, set to a value > 0)
 # The limit is given in percent of factory storage (0=off)
 # 
 # This number is scaled to the ratio
@@ -633,6 +663,18 @@ maximum_intransit_percentage = 110
 
 minimum_staffing_percentage_consumer_industry = 66
 minimum_staffing_percentage_full_production_producer_industry = 80
+
+# This setting will connect every industry and attraction not in a town by road to the nearest town 
+# that it can reach whenever an industry or country attraction is built. The number specifies how far down
+# the rank order of nearest towns that the industry/attraction will try to connect to if it cannot
+# connect to the nearest town.
+# 
+# 0 = disabled
+# 1 = try to connect to the nearest town
+# 2 = try to connect to the nearest town, and, if unsuccessful, try to connect to the second nearest town
+# 3 = ...first, second, then third nearest town
+# ...etc.
+auto_connect_industries_and_attractions_by_road = 4
 
 ################################## Finance settings #################################
 
@@ -686,14 +728,14 @@ cost_multiply_headquarter=10000
 # than build new ones. This cost is added to the base cost of the ways
 # specified in the .dat files.
 
-forge_cost_road = 10000
-forge_cost_track = 20000
-forge_cost_water = 40000
-forge_cost_monorail = 20000
-forge_cost_maglev = 30000
-forge_cost_tram = 5000
-forge_cost_narrowgauge = 10000
-forge_cost_air = 25000
+forge_cost_road = 7500
+forge_cost_track = 15000
+forge_cost_water = 25000
+forge_cost_monorail = 15000
+forge_cost_maglev = 20000
+forge_cost_tram = 4000
+forge_cost_narrowgauge = 8000
+forge_cost_air = 22500
 
 # The parallel ways forge cost percentage is the percentage of the
 # forge cost that is charged when building one way of each type
@@ -821,27 +863,27 @@ signals_on_left = 1
 
 # City roads timeline. Format examples: 
 # city_road[0]=name,1900,1920
-# city_road[1]=name2,1921,1950
+# city_road[1]=name2,1920,1950
 
 city_road[0]=dirt_road,1700,1780
-city_road[1]=cobblestone_road,1781,1910
-city_road[2]=tarmac_city_road,1911,1932
+city_road[1]=cobblestone_road,1780,1910
+city_road[2]=tarmac_city_road,1910,1933
 city_road[3]=city_road,1933,1996
 city_road[4]=city_road-sma,1997,2200
 
 # Intercity roads timeline. Format examples: 
 # intercity_road[0]=name,1900,1920
-# intercity_road[1]=name2,1921,1950
+# intercity_road[1]=name2,1920,1950
 
-intercity_road[0]=bridleway,1700,1784
-intercity_road[1]=dirt_road,1785,1824
+intercity_road[0]=bridleway,1700,1785
+intercity_road[1]=dirt_road,1785,1825
 intercity_road[2]=macadam_road,1825,1902
-intercity_road[3]=tarmac_road,1903,1925
-intercity_road[4]=tarmac_city_road,1926,1932
+intercity_road[3]=tarmac_road,1902,1925
+intercity_road[4]=tarmac_city_road,1925,1933
 intercity_road[5]=hr-asphalt-road-light,1933,1938
-intercity_road[6]=hr-asphalt-road-medium,1939,1996
+intercity_road[6]=hr-asphalt-road-medium,1938,1996
 intercity_road[7]=sma-road-medium,1997,2300
-
+ 
 # Max. length of intitial intercity road connections
 # If you want to speed up map creation, lower this value
 # If you want more initial intercity roads, raise this value
@@ -864,6 +906,29 @@ max_diversion_tiles = 18
 # 48 km/h = 30mph
 
 town_road_speed_limit = 48
+
+# How many private car routes to process in a step.
+# With a higher number, routing data in game will be updated
+# more frequently. With a lower number, responsiveness will
+# be improved. Turn this down if there are frequent moments
+# of unresponsiveness.
+# 
+# Default: 8
+# Setting to 0 means that all routes will be processed in
+# a step regardless of number.
+
+max_routes_to_process_in_a_step = 8
+
+# If the following setting is set to 1, private cars will assume
+# that they can reach anywhere on the map irrespective of the actual
+# road network. Private cars will not follow routes, but will drive
+# around semi-randomly at all times.
+#
+# Enabling this might improve performance on slow systems.
+# 
+# Default: 0
+
+assume_everywhere_connected_by_road = 0
 
 ################################ Vehicle settings ##############################
 
@@ -966,6 +1031,9 @@ enforce_weight_limits=3
 # retirement date. The default, allow_buying_obsolete_vehicles=1, allows players
 # to buy old vehicles by clicking a "Show obsolete" button in the depot / replacer
 # window. This button is not shown if this is set to 0.
+#
+# If this is set to 2, players can buy vehicles after their retirement date, but
+# not after they have become obsolete. 
 
 allow_buying_obsolete_vehicles=0
 
@@ -1118,7 +1186,10 @@ no_tree_climates = 130
 no_trees = 0
 
 # if set, no lakes will be created at all
-no_lakes = 0
+# Note that lakes do not work well with rivers at present:
+# rivers terminate in lakes no matter how large the river
+# nor how small the lake, and there are no outlets to the sea.
+no_lakes = 1
 
 ################################### Network settings ##############################
 
@@ -1945,7 +2016,7 @@ intro_month[60][1] = 4
 # https://en.wikipedia.org/wiki/GM_Buses
 livery[60][2] = GM-buses
 intro_year[60][2] = 1986
-intro_month[60][2] =104
+intro_month[60][2] =10
 # This is a railway livery (class 323)
 livery[60][3] = GMPTE-black-red
 intro_year[60][3] = 1991
@@ -2333,24 +2404,30 @@ intro_month[91][0] = 3
 livery[91][1] = GWR-two-tone
 intro_year[91][1] = 1864
 intro_month[91][1] = 5
-livery[91][2] = GWR-overall-brown
-intro_year[91][2] = 1908
-intro_month[91][2] = 3
-livery[91][3] = GWR-lake
-intro_year[91][3] = 1912
-intro_month[91][3] = 10
-livery[91][3] = GWR-chocolate-cream-lined
-intro_year[91][3] = 1922
-intro_month[91][3] = 1
-livery[91][4] = GWR-chocolate-cream-plain
-intro_year[91][4] = 1927
-intro_month[91][4] = 4
-livery[91][5] = GWR-shirtbutton
-intro_year[91][5] = 1934
-intro_month[91][5] = 8
-livery[91][6] = GWR-hawksworth
-intro_year[91][6] = 1942
-intro_month[91][6] = 2
+livery[91][2] = GWR-dark-green
+intro_year[91][2] = 1875
+intro_month[91][2] = 6
+livery[91][3] = GWR-standard-green
+intro_year[91][3] = 1881
+intro_month[91][3] = 4
+livery[91][4] = GWR-overall-brown
+intro_year[91][4] = 1908
+intro_month[91][4] = 3
+livery[91][5] = GWR-lake
+intro_year[91][5] = 1912
+intro_month[91][5] = 10
+livery[91][6] = GWR-chocolate-cream-lined
+intro_year[91][6] = 1922
+intro_month[91][6] = 1
+livery[91][7] = GWR-chocolate-cream-plain
+intro_year[91][7] = 1927
+intro_month[91][7] = 4
+livery[91][8] = GWR-shirtbutton
+intro_year[91][8] = 1934
+intro_month[91][8] = 8
+livery[91][9] = GWR-hawksworth
+intro_year[91][9] = 1942
+intro_month[91][9] = 2
 
 # http://www.bartonhistory.co.uk/bartons-railway/the-birmingham-and-derby-junction-railway/
 # Very limited information on this livery, especially for locomotives.
@@ -2484,4 +2561,42 @@ livery[98][6] = HR-late
 intro_year[98][6] = 1902
 intro_month[98][6] = 2
 
+livery_scheme[99] = LMS-Coronation-Scot
+retire_year[99] = 1939
+retire_month[99] = 9
+livery[99][0] = LMS-Blue
+intro_year[99][0] = 1937
+intro_month[99][0] = 6
 
+# See "Britain's Railway Liveries"
+# Note 1: During the "Ivory-Umber" phase, Metropolitan and SE&CR carriages were painted lake
+# Note 2: During the second world war, Pullman carriages were painted all over umber
+# Note 3: For BR blue coloured Pullman cars (e.g. the Blue Pullmans and the mk. 1 Pullmans),
+# use the BR livery scheme.
+# by Earnest F. Carter p. 281
+livery_scheme[100] = Pullman
+retire_year[100] = 2500
+retire_month[100] = 12
+livery[100][0] = Pullman-Mahogany
+intro_year[100][0] = 1874
+intro_month[100][0] = 1
+livery[100][1] = Pullman-Bronze-Green
+intro_year[100][1] = 1890
+intro_month[100][1] = 6
+livery[100][2] = Pullman-Ivory-Umber
+intro_year[100][2] = 1906
+intro_month[100][2] = 4
+livery[100][3] = Pullman-Cream-Umber
+intro_year[100][3] = 1929
+intro_month[100][3] = 7
+
+# Lynton & Barnstaple
+# See Carter p. 235 (albeit there is not much information)
+# Locomotives are described as "dark emerald green" with orange lining
+# See also: http://www.009.cd2.com/lynton_and_barnstaple_modelling/liveries.htm
+livery_scheme[101] = L&BR
+retire_year[101] = 1923
+retire_month[101] = 1
+livery[100][0] = L&BR-Standard
+intro_year[101][0] = 1898
+intro_month[101][0] = 5

@@ -5,7 +5,7 @@ type=depot
 waytype=water
 Dims=1,1,4
 noconstruction=1
-NoInfo=1
+#NoInfo=1
 level=1
 # Guessed values for employment.
 population_and_visitor_demand_capacity=18
@@ -50,7 +50,7 @@ type=depot
 waytype=water
 Dims=1,1,4
 noconstruction=1
-NoInfo=1
+#NoInfo=1
 level=2
 # Guessed values for employment.
 population_and_visitor_demand_capacity=30

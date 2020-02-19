@@ -24,17 +24,17 @@ way_wear_factor=31988
 weight=16.5
 axle_load=6
 cost=4640000
-runningcost=11
-fixed_cost=1320
+runningcost=101
+fixed_cost=22444
 sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=LMR-Planet-Tender
 
-EmptyImage[E]=./images/lmr-lion_E.0.0
-EmptyImage[SE]=./images/lmr-lion_SE.0.0
-EmptyImage[S]=./images/lmr-lion_S.0.0
-EmptyImage[SW]=./images/lmr-lion_SW.0.0
-EmptyImage[W]=./images/lmr-lion_W.0.0
-EmptyImage[NW]=./images/lmr-lion_NW.0.0
-EmptyImage[N]=./images/lmr-lion_N.0.0
-EmptyImage[NE]=./images/lmr-lion_NE.0.0
+EmptyImage[E]=./carriages/lmr-lion_E.0.0
+EmptyImage[SE]=./carriages/lmr-lion_SE.0.0
+EmptyImage[S]=./carriages/lmr-lion_S.0.0
+EmptyImage[SW]=./carriages/lmr-lion_SW.0.0
+EmptyImage[W]=./carriages/lmr-lion_W.0.0
+EmptyImage[NW]=./carriages/lmr-lion_NW.0.0
+EmptyImage[N]=./carriages/lmr-lion_N.0.0
+EmptyImage[NE]=./carriages/lmr-lion_NE.0.0

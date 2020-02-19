@@ -6,7 +6,7 @@ topspeed=100
 cost=220000
 # Wrought iron light
 way_only_cost=46500
-maintenance=1200
+maintenance=5600
 max_weight=300
 intro_year=1860
 intro_month=1

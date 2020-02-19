@@ -15,7 +15,8 @@ payload[4]=100
 weight=127
 #length=8
 cost=120000000
-runningcost=10000
+runningcost=603
+fixed_cost=233333
 intro_year=1973
 intro_month=12
 # Delivery dates extended from actual dates to allow later purchases.

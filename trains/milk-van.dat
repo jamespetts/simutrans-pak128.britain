@@ -29,15 +29,16 @@ min_loading_time=300
 max_loading_time=900
 bidirectional=1
 
+Constraint[Prev][0]=any
 Constraint[Next][0]=any
 
-EmptyImage[E]=./images/milk-van-ex-parliamentary.1.4
-EmptyImage[SE]=./images/milk-van-ex-parliamentary.1.5
-EmptyImage[S]=./images/milk-van-ex-parliamentary.1.6
-EmptyImage[SW]=./images/milk-van-ex-parliamentary.1.7
-EmptyImage[W]=./images/milk-van-ex-parliamentary.1.0
-EmptyImage[NW]=./images/milk-van-ex-parliamentary.1.1
-EmptyImage[N]=./images/milk-van-ex-parliamentary.1.2
-EmptyImage[NE]=./images/milk-van-ex-parliamentary.1.3
+EmptyImage[E]=./wagons/milk-van-ex-parliamentary.1.4
+EmptyImage[SE]=./wagons/milk-van-ex-parliamentary.1.5
+EmptyImage[S]=./wagons/milk-van-ex-parliamentary.1.6
+EmptyImage[SW]=./wagons/milk-van-ex-parliamentary.1.7
+EmptyImage[W]=./wagons/milk-van-ex-parliamentary.1.0
+EmptyImage[NW]=./wagons/milk-van-ex-parliamentary.1.1
+EmptyImage[N]=./wagons/milk-van-ex-parliamentary.1.2
+EmptyImage[NE]=./wagons/milk-van-ex-parliamentary.1.3
 
 

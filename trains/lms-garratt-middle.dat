@@ -20,19 +20,22 @@ axle_load=0
 way_wear_factor=0
 cost=0
 runningcost=0
+fixed_cost=0
 
 increase_maintenance_after_years=14
 years_before_maintenance_max_reached=13
 
+bidirectional=1
+
 Constraint[Prev][0]=LMS-Garratt-Front
 Constraint[Next][0]=LMS-Garratt-Rear
 
-EmptyImage[E]=./images/lms-garratt.1.0
-EmptyImage[SE]=./images/lms-garratt.1.1
-EmptyImage[S]=./images/lms-garratt.1.2
-EmptyImage[SW]=./images/lms-garratt.1.3
-EmptyImage[W]=./images/lms-garratt.1.4
-EmptyImage[NW]=./images/lms-garratt.1.5
-EmptyImage[N]=./images/lms-garratt.1.6
-EmptyImage[NE]=./images/lms-garratt.1.7
+EmptyImage[E]=./locomotives/lms-garratt.1.0
+EmptyImage[SE]=./locomotives/lms-garratt.1.1
+EmptyImage[S]=./locomotives/lms-garratt.1.2
+EmptyImage[SW]=./locomotives/lms-garratt.1.3
+EmptyImage[W]=./locomotives/lms-garratt.1.4
+EmptyImage[NW]=./locomotives/lms-garratt.1.5
+EmptyImage[N]=./locomotives/lms-garratt.1.6
+EmptyImage[NE]=./locomotives/lms-garratt.1.7
 

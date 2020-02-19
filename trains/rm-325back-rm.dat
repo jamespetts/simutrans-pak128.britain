@@ -17,7 +17,8 @@ brake_force=21
 weight=29
 axles=4
 cost=1200000
-runningcost=181
+runningcost=0
+fixed_cost=2500
 sound=panos-g-class-465.wav
 
 can_lead_from_rear=1
@@ -31,13 +32,14 @@ Constraint[Prev][0]=RM-325Middle(RM)
 
 Constraint[Next][0]=RM-325Front(RM)
 Constraint[Next][1]=none
+has_rear_cab=1
 
-EmptyImage[E]=./images/rm-325-rm.3.0
-EmptyImage[SE]=./images/rm-325-rm.3.1
-EmptyImage[S]=./images/rm-325-rm.3.2
-EmptyImage[SW]=./images/rm-325-rm.3.3
-EmptyImage[W]=./images/rm-325-rm.3.4
-EmptyImage[NW]=./images/rm-325-rm.3.5
-EmptyImage[N]=./images/rm-325-rm.3.6
-EmptyImage[NE]=./images/rm-325-rm.3.7
+EmptyImage[E]=./railcars/rm-325-rm.3.0
+EmptyImage[SE]=./railcars/rm-325-rm.3.1
+EmptyImage[S]=./railcars/rm-325-rm.3.2
+EmptyImage[SW]=./railcars/rm-325-rm.3.3
+EmptyImage[W]=./railcars/rm-325-rm.3.4
+EmptyImage[NW]=./railcars/rm-325-rm.3.5
+EmptyImage[N]=./railcars/rm-325-rm.3.6
+EmptyImage[NE]=./railcars/rm-325-rm.3.7
 

@@ -27,8 +27,8 @@ weight=19.8
 # http://www.steamlocomotive.com/locobase.php?country=Great_Britain&wheel=2-4-0&railroad=lnw
 axle_load=9
 cost=14778000
-runningcost=190
-fixed_cost=38158
+runningcost=156
+fixed_cost=44525
 sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=LNWR-Bloomer-Tender
@@ -36,20 +36,20 @@ Constraint[Next][0]=LNWR-Bloomer-Tender
 liverytype[0]=LNWR-Early
 liverytype[1]=LNWR-Black
 
-EmptyImage[E][0]=./images/lnwr-crewe-type-goods_E.0.0
-EmptyImage[SE][0]=./images/lnwr-crewe-type-goods_SE.0.0
-EmptyImage[S][0]=./images/lnwr-crewe-type-goods_S.0.0
-EmptyImage[SW][0]=./images/lnwr-crewe-type-goods_SW.0.0
-EmptyImage[W][0]=./images/lnwr-crewe-type-goods_W.0.0
-EmptyImage[NW][0]=./images/lnwr-crewe-type-goods_NW.0.0
-EmptyImage[N][0]=./images/lnwr-crewe-type-goods_N.0.0
-EmptyImage[NE][0]=./images/lnwr-crewe-type-goods_NE.0.0
+EmptyImage[E][0]=./locomotives/lnwr-crewe-type-goods_E.0.0
+EmptyImage[SE][0]=./locomotives/lnwr-crewe-type-goods_SE.0.0
+EmptyImage[S][0]=./locomotives/lnwr-crewe-type-goods_S.0.0
+EmptyImage[SW][0]=./locomotives/lnwr-crewe-type-goods_SW.0.0
+EmptyImage[W][0]=./locomotives/lnwr-crewe-type-goods_W.0.0
+EmptyImage[NW][0]=./locomotives/lnwr-crewe-type-goods_NW.0.0
+EmptyImage[N][0]=./locomotives/lnwr-crewe-type-goods_N.0.0
+EmptyImage[NE][0]=./locomotives/lnwr-crewe-type-goods_NE.0.0
 
-EmptyImage[E][1]=./images/lnwr-crewe-type-goods-black_E.0.0
-EmptyImage[SE][1]=./images/lnwr-crewe-type-goods-black_SE.0.0
-EmptyImage[S][1]=./images/lnwr-crewe-type-goods-black_S.0.0
-EmptyImage[SW][1]=./images/lnwr-crewe-type-goods-black_SW.0.0
-EmptyImage[W][1]=./images/lnwr-crewe-type-goods-black_W.0.0
-EmptyImage[NW][1]=./images/lnwr-crewe-type-goods-black_NW.0.0
-EmptyImage[N][1]=./images/lnwr-crewe-type-goods-black_N.0.0
-EmptyImage[NE][1]=./images/lnwr-crewe-type-goods-black_NE.0.0
+EmptyImage[E][1]=./locomotives/lnwr-crewe-type-goods-black_E.0.0
+EmptyImage[SE][1]=./locomotives/lnwr-crewe-type-goods-black_SE.0.0
+EmptyImage[S][1]=./locomotives/lnwr-crewe-type-goods-black_S.0.0
+EmptyImage[SW][1]=./locomotives/lnwr-crewe-type-goods-black_SW.0.0
+EmptyImage[W][1]=./locomotives/lnwr-crewe-type-goods-black_W.0.0
+EmptyImage[NW][1]=./locomotives/lnwr-crewe-type-goods-black_NW.0.0
+EmptyImage[N][1]=./locomotives/lnwr-crewe-type-goods-black_N.0.0
+EmptyImage[NE][1]=./locomotives/lnwr-crewe-type-goods-black_NE.0.0

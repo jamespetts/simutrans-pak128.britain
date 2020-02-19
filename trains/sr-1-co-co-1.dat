@@ -19,7 +19,8 @@ length=9
 weight=135
 axles=8
 cost=11500000
-runningcost=2235
+runningcost=1303
+fixed_cost=21979
 sound=x24tohayes-epb.wav
 increase_maintenance_after_years=17
 
@@ -33,21 +34,21 @@ Constraint[Prev][1]=none
 liverytype[0]=BR-Early
 liverytype[1]=BR-Revised
 
-EmptyImage[E][0]=./images/sr-1-co-co-1.1.4
-EmptyImage[SE][0]=./images/sr-1-co-co-1.1.5
-EmptyImage[S][0]=./images/sr-1-co-co-1.1.6
-EmptyImage[SW][0]=./images/sr-1-co-co-1.1.7
-EmptyImage[W][0]=./images/sr-1-co-co-1.1.0
-EmptyImage[NW][0]=./images/sr-1-co-co-1.1.1
-EmptyImage[N][0]=./images/sr-1-co-co-1.1.2
-EmptyImage[NE][0]=./images/sr-1-co-co-1.1.3
+EmptyImage[E][0]=./locomotives/sr-1-co-co-1_E.0.0
+EmptyImage[SE][0]=./locomotives/sr-1-co-co-1_SE.0.0
+EmptyImage[S][0]=./locomotives/sr-1-co-co-1_S.0.0
+EmptyImage[SW][0]=./locomotives/sr-1-co-co-1_SW.0.0
+EmptyImage[W][0]=./locomotives/sr-1-co-co-1_W.0.0
+EmptyImage[NW][0]=./locomotives/sr-1-co-co-1_NW.0.0
+EmptyImage[N][0]=./locomotives/sr-1-co-co-1_N.0.0
+EmptyImage[NE][0]=./locomotives/sr-1-co-co-1_NE.0.0
 
-EmptyImage[E][1]=./images/sr-1-co-co-1-g.1.4
-EmptyImage[SE][1]=./images/sr-1-co-co-1-g.1.5
-EmptyImage[S][1]=./images/sr-1-co-co-1-g.1.6
-EmptyImage[SW][1]=./images/sr-1-co-co-1-g.1.7
-EmptyImage[W][1]=./images/sr-1-co-co-1-g.1.0
-EmptyImage[NW][1]=./images/sr-1-co-co-1-g.1.1
-EmptyImage[N][1]=./images/sr-1-co-co-1-g.1.2
-EmptyImage[NE][1]=./images/sr-1-co-co-1-g.1.3
+EmptyImage[E][1]=./locomotives/sr-1-co-co-1-g_E.0.0
+EmptyImage[SE][1]=./locomotives/sr-1-co-co-1-g_SE.0.0
+EmptyImage[S][1]=./locomotives/sr-1-co-co-1-g_S.0.0
+EmptyImage[SW][1]=./locomotives/sr-1-co-co-1-g_SW.0.0
+EmptyImage[W][1]=./locomotives/sr-1-co-co-1-g_W.0.0
+EmptyImage[NW][1]=./locomotives/sr-1-co-co-1-g_NW.0.0
+EmptyImage[N][1]=./locomotives/sr-1-co-co-1-g_N.0.0
+EmptyImage[NE][1]=./locomotives/sr-1-co-co-1-g_NE.0.0
 

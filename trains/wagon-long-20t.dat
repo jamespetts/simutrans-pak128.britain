@@ -10,7 +10,7 @@ retire_month=6
 waytype=track
 freight=Bretter
 payload=20
-length=6
+length=5
 brake_force=0
 rolling_resistance=17
 
@@ -19,41 +19,41 @@ weight=12
 axle_load=16
 way_wear_factor=40000
 cost=240000
-runningcost=10
-
+runningcost=0
+fixed_cost=200
 
 bidirectional=1
 min_loading_time=360
 max_loading_time=975
 
+Constraint[Prev][0]=any
 Constraint[Next][0]=any
 
-EmptyImage[E]=./images/wagon-long-20t.0.0
-EmptyImage[SE]=./images/wagon-long-20t.0.1
-EmptyImage[S]=./images/wagon-long-20t.0.2
-EmptyImage[SW]=./images/wagon-long-20t.0.3
-EmptyImage[W]=./images/wagon-long-20t.0.4
-EmptyImage[NW]=./images/wagon-long-20t.0.5
-EmptyImage[N]=./images/wagon-long-20t.0.6
-EmptyImage[NE]=./images/wagon-long-20t.0.7
+EmptyImage[E]=./wagons/wagon-long-20t-empty_E.0.0
+EmptyImage[SE]=./wagons/wagon-long-20t-empty_SE.0.0
+EmptyImage[S]=./wagons/wagon-long-20t-empty_S.0.0
+EmptyImage[SW]=./wagons/wagon-long-20t-empty_SW.0.0
+EmptyImage[W]=./wagons/wagon-long-20t-empty_W.0.0
+EmptyImage[NW]=./wagons/wagon-long-20t-empty_NW.0.0
+EmptyImage[N]=./wagons/wagon-long-20t-empty_N.0.0
+EmptyImage[NE]=./wagons/wagon-long-20t-empty_NE.0.0
 
 freightimagetype[1]=Stahl
-FreightImage[1][E]=./images/wagon-long-20t.2.0
-FreightImage[1][SE]=./images/wagon-long-20t.2.1
-FreightImage[1][S]=./images/wagon-long-20t.2.2
-FreightImage[1][SW]=./images/wagon-long-20t.2.3
-FreightImage[1][W]=./images/wagon-long-20t.2.4
-FreightImage[1][NW]=./images/wagon-long-20t.2.5
-FreightImage[1][N]=./images/wagon-long-20t.2.6
-FreightImage[1][NE]=./images/wagon-long-20t.2.7
+FreightImage[1][E]=./wagons/wagon-long-20t-steel_E.0.0
+FreightImage[1][SE]=./wagons/wagon-long-20t-steel_SE.0.0
+FreightImage[1][S]=./wagons/wagon-long-20t-steel_S.0.0
+FreightImage[1][SW]=./wagons/wagon-long-20t-steel_SW.0.0
+FreightImage[1][W]=./wagons/wagon-long-20t-steel_W.0.0
+FreightImage[1][NW]=./wagons/wagon-long-20t-steel_NW.0.0
+FreightImage[1][N]=./wagons/wagon-long-20t-steel_N.0.0
+FreightImage[1][NE]=./wagons/wagon-long-20t-steel_NE.0.0
 
 freightimagetype[0]=Bretter
-FreightImage[0][E]=./images/wagon-long-20t.1.0
-FreightImage[0][SE]=./images/wagon-long-20t.1.1
-FreightImage[0][S]=./images/wagon-long-20t.1.2
-FreightImage[0][SW]=./images/wagon-long-20t.1.3
-FreightImage[0][W]=./images/wagon-long-20t.1.4
-FreightImage[0][NW]=./images/wagon-long-20t.1.5
-FreightImage[0][N]=./images/wagon-long-20t.1.6
-FreightImage[0][NE]=./images/wagon-long-20t.1.7
-
+FreightImage[0][E]=./wagons/wagon-long-20t-wood_E.0.0
+FreightImage[0][SE]=./wagons/wagon-long-20t-wood_SE.0.0
+FreightImage[0][S]=./wagons/wagon-long-20t-wood_S.0.0
+FreightImage[0][SW]=./wagons/wagon-long-20t-wood_SW.0.0
+FreightImage[0][W]=./wagons/wagon-long-20t-wood_W.0.0
+FreightImage[0][NW]=./wagons/wagon-long-20t-wood_NW.0.0
+FreightImage[0][N]=./wagons/wagon-long-20t-wood_N.0.0
+FreightImage[0][NE]=./wagons/wagon-long-20t-wood_NE.0.0

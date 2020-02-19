@@ -1,0 +1,64 @@
+# https://en.wikipedia.org/wiki/Daniel_Gooch_standard_gauge_locomotives#%22England%22_or_%22Chancellor%22_Class
+# Very little data, so much guessed. Assumed to be 6'6 four coupled versions of the Sharp class
+obj=vehicle
+name=gwr-chancellor
+engine_type=steam
+smoke=Steam
+speed=110
+# Extrapolated
+power=171
+# Calculated from data at Ahrons p. 145 with a loss factor of 0.75
+tractive_effort=35
+copyright=James/JamesPetts
+intro_year=1862
+intro_month=2
+retire_year=1867
+retire_month=2
+waytype=track
+freight=None
+payload=0
+length=4
+brake_force=0
+
+# Guessed
+weight=21.1
+axle_load=12
+cost=17200000
+runningcost=210
+fixed_cost=38500
+sound=nick-parry-gwr-city-class.wav
+
+Constraint[Next][0]=gwr-armstrong-tender
+
+liverytype[0]=GWR-early
+liverytype[1]=GWR-dark-green
+liverytype[2]=GWR-standard-green
+
+EmptyImage[E][0]=./locomotives/gwr-chancellor-early_E.0.0
+EmptyImage[SE][0]=./locomotives/gwr-chancellor-early_SE.0.0
+EmptyImage[S][0]=./locomotives/gwr-chancellor-early_S.0.0
+EmptyImage[SW][0]=./locomotives/gwr-chancellor-early_SW.0.0
+EmptyImage[W][0]=./locomotives/gwr-chancellor-early_W.0.0
+EmptyImage[NW][0]=./locomotives/gwr-chancellor-early_NW.0.0
+EmptyImage[N][0]=./locomotives/gwr-chancellor-early_N.0.0
+EmptyImage[NE][0]=./locomotives/gwr-chancellor-early_NE.0.0
+
+EmptyImage[E][1]=./locomotives/gwr-chancellor-dark-green_E.0.0
+EmptyImage[SE][1]=./locomotives/gwr-chancellor-dark-green_SE.0.0
+EmptyImage[S][1]=./locomotives/gwr-chancellor-dark-green_S.0.0
+EmptyImage[SW][1]=./locomotives/gwr-chancellor-dark-green_SW.0.0
+EmptyImage[W][1]=./locomotives/gwr-chancellor-dark-green_W.0.0
+EmptyImage[NW][1]=./locomotives/gwr-chancellor-dark-green_NW.0.0
+EmptyImage[N][1]=./locomotives/gwr-chancellor-dark-green_N.0.0
+EmptyImage[NE][1]=./locomotives/gwr-chancellor-dark-green_NE.0.0
+
+EmptyImage[E][2]=./locomotives/gwr-chancellor_E.0.0
+EmptyImage[SE][2]=./locomotives/gwr-chancellor_SE.0.0
+EmptyImage[S][2]=./locomotives/gwr-chancellor_S.0.0
+EmptyImage[SW][2]=./locomotives/gwr-chancellor_SW.0.0
+EmptyImage[W][2]=./locomotives/gwr-chancellor_W.0.0
+EmptyImage[NW][2]=./locomotives/gwr-chancellor_NW.0.0
+EmptyImage[N][2]=./locomotives/gwr-chancellor_N.0.0
+EmptyImage[NE][2]=./locomotives/gwr-chancellor_NE.0.0
+
+

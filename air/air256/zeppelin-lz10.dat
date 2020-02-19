@@ -25,7 +25,8 @@ weight=5
 # For landing pads
 axle_load=1
 cost=15000000
-runningcost=800
+runningcost=24
+fixed_cost=60417
 intro_year=1911
 intro_month=7
 retire_year=1928

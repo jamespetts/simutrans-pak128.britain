@@ -1,5 +1,5 @@
 # See http://www.festipedia.org.uk/wiki/Carriage_2040
-
+# Third class: the firsts are accommodated in the Pullmans
 obj=vehicle
 name=FR-Superbarn
 speed=80
@@ -10,17 +10,22 @@ waytype=narrowgauge_track
 freight=Passagiere
 payload[0]=0
 payload[1]=36
-length=8
+payload[2]=0
+payload[3]=0
+length=6
 rolling_resistance=17
 
 weight=10
 axles=4
 cost=745000
-runningcost=25
+runningcost=0
+fixed_cost=1552
 
 # http://www.flickr.com/photos/14730981@N08/8007231863/in/photostream/
 comfort[0]=0
 comfort[1]=67
+comfort[2]=67
+comfort[3]=155
 
 can_lead_from_rear=0
 bidirectional=1
@@ -28,13 +33,14 @@ bidirectional=1
 min_loading_time=20
 max_loading_time=60
 
-Constraint[next][0]=any
+Constraint[Prev][0]=any
+Constraint[Next][0]=any
 
-EmptyImage[E]=./images/fr-superbarn-red-cream.1.0,-10,-5
-EmptyImage[SE]=./images/fr-superbarn-red-cream.1.1,0,-5
-EmptyImage[S]=./images/fr-superbarn-red-cream.1.2,10,-5
-EmptyImage[SW]=./images/fr-superbarn-red-cream.1.3,10,0
-EmptyImage[W]=./images/fr-superbarn-red-cream.1.4,10,5
-EmptyImage[NW]=./images/fr-superbarn-red-cream.1.5,0,5
-EmptyImage[N]=./images/fr-superbarn-red-cream.1.6,-10,5
-EmptyImage[NE]=./images/fr-superbarn-red-cream.1.7,-10,0
+EmptyImage[W]=./images/fr-superbarn-red-cream_E.0.0
+EmptyImage[NW]=./images/fr-superbarn-red-cream_SE.0.0
+EmptyImage[N]=./images/fr-superbarn-red-cream_S.0.0
+EmptyImage[NE]=./images/fr-superbarn-red-cream_SW.0.0
+EmptyImage[E]=./images/fr-superbarn-red-cream_W.0.0
+EmptyImage[SE]=./images/fr-superbarn-red-cream_NW.0.0
+EmptyImage[S]=./images/fr-superbarn-red-cream_N.0.0
+EmptyImage[SW]=./images/fr-superbarn-red-cream_NE.0.0

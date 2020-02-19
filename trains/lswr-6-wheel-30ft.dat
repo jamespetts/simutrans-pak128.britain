@@ -17,7 +17,8 @@ length=5
 weight=13.0
 axles=3
 cost=331850
-runningcost=25
+runningcost=0
+fixed_cost=5195
 
 can_lead_from_rear=0
 bidirectional=1
@@ -63,38 +64,39 @@ Constraint[Next][33]=lswr-6-wheel-30ft-full-brake
 Constraint[Next][34]=lswr-6-wheel-30ft-fruit-brake
 Constraint[Next][35]=lswr-6-wheel-30ft-parcels-van
 Constraint[Next][36]=lswr-6-wheel-30ft-fruit-van
-Constraint[Next][37]=none
+Constraint[Next][37]=lswr-6-wheel-28ft-composite
+Constraint[Next][38]=none
 
 liverytype[0]=LSWR-pea-green
 liverytype[1]=LSWR-sage
 liverytype[2]=SR-Olive-Green
 
-EmptyImage[E][0]=./images/lswr-6-wheel-30ft-brake-front.1.4
-EmptyImage[SE][0]=./images/lswr-6-wheel-30ft-brake-front.1.5
-EmptyImage[S][0]=./images/lswr-6-wheel-30ft-brake-front.1.6
-EmptyImage[SW][0]=./images/lswr-6-wheel-30ft-brake-front.1.7
-EmptyImage[W][0]=./images/lswr-6-wheel-30ft-brake-front.1.0
-EmptyImage[NW][0]=./images/lswr-6-wheel-30ft-brake-front.1.1
-EmptyImage[N][0]=./images/lswr-6-wheel-30ft-brake-front.1.2
-EmptyImage[NE][0]=./images/lswr-6-wheel-30ft-brake-front.1.3
+EmptyImage[E][0]=./carriages/lswr-6-wheel-30ft-brake-front.1.4
+EmptyImage[SE][0]=./carriages/lswr-6-wheel-30ft-brake-front.1.5
+EmptyImage[S][0]=./carriages/lswr-6-wheel-30ft-brake-front.1.6
+EmptyImage[SW][0]=./carriages/lswr-6-wheel-30ft-brake-front.1.7
+EmptyImage[W][0]=./carriages/lswr-6-wheel-30ft-brake-front.1.0
+EmptyImage[NW][0]=./carriages/lswr-6-wheel-30ft-brake-front.1.1
+EmptyImage[N][0]=./carriages/lswr-6-wheel-30ft-brake-front.1.2
+EmptyImage[NE][0]=./carriages/lswr-6-wheel-30ft-brake-front.1.3
 
-EmptyImage[E][1]=./images/lswr-6-wheel-30ft-brake-front-sage.1.4
-EmptyImage[SE][1]=./images/lswr-6-wheel-30ft-brake-front-sage.1.5
-EmptyImage[S][1]=./images/lswr-6-wheel-30ft-brake-front-sage.1.6
-EmptyImage[SW][1]=./images/lswr-6-wheel-30ft-brake-front-sage.1.7
-EmptyImage[W][1]=./images/lswr-6-wheel-30ft-brake-front-sage.1.0
-EmptyImage[NW][1]=./images/lswr-6-wheel-30ft-brake-front-sage.1.1
-EmptyImage[N][1]=./images/lswr-6-wheel-30ft-brake-front-sage.1.2
-EmptyImage[NE][1]=./images/lswr-6-wheel-30ft-brake-front-sage.1.3
+EmptyImage[E][1]=./carriages/lswr-6-wheel-30ft-brake-front-sage.1.4
+EmptyImage[SE][1]=./carriages/lswr-6-wheel-30ft-brake-front-sage.1.5
+EmptyImage[S][1]=./carriages/lswr-6-wheel-30ft-brake-front-sage.1.6
+EmptyImage[SW][1]=./carriages/lswr-6-wheel-30ft-brake-front-sage.1.7
+EmptyImage[W][1]=./carriages/lswr-6-wheel-30ft-brake-front-sage.1.0
+EmptyImage[NW][1]=./carriages/lswr-6-wheel-30ft-brake-front-sage.1.1
+EmptyImage[N][1]=./carriages/lswr-6-wheel-30ft-brake-front-sage.1.2
+EmptyImage[NE][1]=./carriages/lswr-6-wheel-30ft-brake-front-sage.1.3
 
-EmptyImage[E][2]=./images/lswr-6-wheel-30ft-brake-front-olive.1.4
-EmptyImage[SE][2]=./images/lswr-6-wheel-30ft-brake-front-olive.1.5
-EmptyImage[S][2]=./images/lswr-6-wheel-30ft-brake-front-olive.1.6
-EmptyImage[SW][2]=./images/lswr-6-wheel-30ft-brake-front-olive.1.7
-EmptyImage[W][2]=./images/lswr-6-wheel-30ft-brake-front-olive.1.0
-EmptyImage[NW][2]=./images/lswr-6-wheel-30ft-brake-front-olive.1.1
-EmptyImage[N][2]=./images/lswr-6-wheel-30ft-brake-front-olive.1.2
-EmptyImage[NE][2]=./images/lswr-6-wheel-30ft-brake-front-olive.1.3
+EmptyImage[E][2]=./carriages/lswr-6-wheel-30ft-brake-front-olive.1.4
+EmptyImage[SE][2]=./carriages/lswr-6-wheel-30ft-brake-front-olive.1.5
+EmptyImage[S][2]=./carriages/lswr-6-wheel-30ft-brake-front-olive.1.6
+EmptyImage[SW][2]=./carriages/lswr-6-wheel-30ft-brake-front-olive.1.7
+EmptyImage[W][2]=./carriages/lswr-6-wheel-30ft-brake-front-olive.1.0
+EmptyImage[NW][2]=./carriages/lswr-6-wheel-30ft-brake-front-olive.1.1
+EmptyImage[N][2]=./carriages/lswr-6-wheel-30ft-brake-front-olive.1.2
+EmptyImage[NE][2]=./carriages/lswr-6-wheel-30ft-brake-front-olive.1.3
 
 ---
 
@@ -117,7 +119,8 @@ length=5
 weight=13.0
 axles=3
 cost=331850
-runningcost=25
+runningcost=0
+fixed_cost=5195
 
 can_lead_from_rear=0
 bidirectional=1
@@ -163,37 +166,38 @@ Constraint[Prev][33]=lswr-6-wheel-30ft-full-brake
 Constraint[Prev][34]=lswr-6-wheel-30ft-fruit-brake
 Constraint[Prev][35]=lswr-6-wheel-30ft-parcels-van
 Constraint[Prev][36]=lswr-6-wheel-30ft-fruit-van
+Constraint[Prev][37]=lswr-6-wheel-28ft-composite
 
 liverytype[0]=LSWR-pea-green
 liverytype[1]=LSWR-sage
 liverytype[2]=SR-Olive-Green
 
-EmptyImage[E][0]=./images/lswr-6-wheel-30ft-brake-rear.1.4
-EmptyImage[SE][0]=./images/lswr-6-wheel-30ft-brake-rear.1.5
-EmptyImage[S][0]=./images/lswr-6-wheel-30ft-brake-rear.1.6
-EmptyImage[SW][0]=./images/lswr-6-wheel-30ft-brake-rear.1.7
-EmptyImage[W][0]=./images/lswr-6-wheel-30ft-brake-rear.1.0
-EmptyImage[NW][0]=./images/lswr-6-wheel-30ft-brake-rear.1.1
-EmptyImage[N][0]=./images/lswr-6-wheel-30ft-brake-rear.1.2
-EmptyImage[NE][0]=./images/lswr-6-wheel-30ft-brake-rear.1.3
+EmptyImage[E][0]=./carriages/lswr-6-wheel-30ft-brake-rear.1.4
+EmptyImage[SE][0]=./carriages/lswr-6-wheel-30ft-brake-rear.1.5
+EmptyImage[S][0]=./carriages/lswr-6-wheel-30ft-brake-rear.1.6
+EmptyImage[SW][0]=./carriages/lswr-6-wheel-30ft-brake-rear.1.7
+EmptyImage[W][0]=./carriages/lswr-6-wheel-30ft-brake-rear.1.0
+EmptyImage[NW][0]=./carriages/lswr-6-wheel-30ft-brake-rear.1.1
+EmptyImage[N][0]=./carriages/lswr-6-wheel-30ft-brake-rear.1.2
+EmptyImage[NE][0]=./carriages/lswr-6-wheel-30ft-brake-rear.1.3
 
-EmptyImage[E][1]=./images/lswr-6-wheel-30ft-brake-rear-sage.1.4
-EmptyImage[SE][1]=./images/lswr-6-wheel-30ft-brake-rear-sage.1.5
-EmptyImage[S][1]=./images/lswr-6-wheel-30ft-brake-rear-sage.1.6
-EmptyImage[SW][1]=./images/lswr-6-wheel-30ft-brake-rear-sage.1.7
-EmptyImage[W][1]=./images/lswr-6-wheel-30ft-brake-rear-sage.1.0
-EmptyImage[NW][1]=./images/lswr-6-wheel-30ft-brake-rear-sage.1.1
-EmptyImage[N][1]=./images/lswr-6-wheel-30ft-brake-rear-sage.1.2
-EmptyImage[NE][1]=./images/lswr-6-wheel-30ft-brake-rear-sage.1.3
+EmptyImage[E][1]=./carriages/lswr-6-wheel-30ft-brake-rear-sage.1.4
+EmptyImage[SE][1]=./carriages/lswr-6-wheel-30ft-brake-rear-sage.1.5
+EmptyImage[S][1]=./carriages/lswr-6-wheel-30ft-brake-rear-sage.1.6
+EmptyImage[SW][1]=./carriages/lswr-6-wheel-30ft-brake-rear-sage.1.7
+EmptyImage[W][1]=./carriages/lswr-6-wheel-30ft-brake-rear-sage.1.0
+EmptyImage[NW][1]=./carriages/lswr-6-wheel-30ft-brake-rear-sage.1.1
+EmptyImage[N][1]=./carriages/lswr-6-wheel-30ft-brake-rear-sage.1.2
+EmptyImage[NE][1]=./carriages/lswr-6-wheel-30ft-brake-rear-sage.1.3
 
-EmptyImage[E][2]=./images/lswr-6-wheel-30ft-brake-rear-olive.1.4
-EmptyImage[SE][2]=./images/lswr-6-wheel-30ft-brake-rear-olive.1.5
-EmptyImage[S][2]=./images/lswr-6-wheel-30ft-brake-rear-olive.1.6
-EmptyImage[SW][2]=./images/lswr-6-wheel-30ft-brake-rear-olive.1.7
-EmptyImage[W][2]=./images/lswr-6-wheel-30ft-brake-rear-olive.1.0
-EmptyImage[NW][2]=./images/lswr-6-wheel-30ft-brake-rear-olive.1.1
-EmptyImage[N][2]=./images/lswr-6-wheel-30ft-brake-rear-olive.1.2
-EmptyImage[NE][2]=./images/lswr-6-wheel-30ft-brake-rear-olive.1.3
+EmptyImage[E][2]=./carriages/lswr-6-wheel-30ft-brake-rear-olive.1.4
+EmptyImage[SE][2]=./carriages/lswr-6-wheel-30ft-brake-rear-olive.1.5
+EmptyImage[S][2]=./carriages/lswr-6-wheel-30ft-brake-rear-olive.1.6
+EmptyImage[SW][2]=./carriages/lswr-6-wheel-30ft-brake-rear-olive.1.7
+EmptyImage[W][2]=./carriages/lswr-6-wheel-30ft-brake-rear-olive.1.0
+EmptyImage[NW][2]=./carriages/lswr-6-wheel-30ft-brake-rear-olive.1.1
+EmptyImage[N][2]=./carriages/lswr-6-wheel-30ft-brake-rear-olive.1.2
+EmptyImage[NE][2]=./carriages/lswr-6-wheel-30ft-brake-rear-olive.1.3
 
 ---
 
@@ -216,7 +220,8 @@ length=5
 weight=13.0
 axles=3
 cost=331850
-runningcost=25
+runningcost=0
+fixed_cost=395
 
 can_lead_from_rear=0
 bidirectional=1
@@ -262,6 +267,7 @@ Constraint[Next][33]=lswr-6-wheel-30ft-full-brake
 Constraint[Next][34]=lswr-6-wheel-30ft-fruit-brake
 Constraint[Next][35]=lswr-6-wheel-30ft-parcels-van
 Constraint[Next][36]=lswr-6-wheel-30ft-fruit-van
+Constraint[Next][37]=lswr-6-wheel-28ft-composite
 
 Constraint[Prev][0]=4-wheel-1870s-fitted
 Constraint[Prev][1]=4-wheel-1870s-brake-fitted
@@ -300,37 +306,38 @@ Constraint[Prev][33]=lswr-6-wheel-30ft-full-brake
 Constraint[Prev][34]=lswr-6-wheel-30ft-fruit-brake
 Constraint[Prev][35]=lswr-6-wheel-30ft-parcels-van
 Constraint[Prev][36]=lswr-6-wheel-30ft-fruit-van
+Constraint[Prev][37]=lswr-6-wheel-28ft-composite
 
 liverytype[0]=LSWR-pea-green
 liverytype[1]=LSWR-sage
 liverytype[2]=SR-Olive-Green
 
-EmptyImage[E][0]=./images/lswr-6-wheel-30ft.1.4
-EmptyImage[SE][0]=./images/lswr-6-wheel-30ft.1.5
-EmptyImage[S][0]=./images/lswr-6-wheel-30ft.1.6
-EmptyImage[SW][0]=./images/lswr-6-wheel-30ft.1.7
-EmptyImage[W][0]=./images/lswr-6-wheel-30ft.1.0
-EmptyImage[NW][0]=./images/lswr-6-wheel-30ft.1.1
-EmptyImage[N][0]=./images/lswr-6-wheel-30ft.1.2
-EmptyImage[NE][0]=./images/lswr-6-wheel-30ft.1.3
+EmptyImage[E][0]=./carriages/lswr-6-wheel-30ft.1.4
+EmptyImage[SE][0]=./carriages/lswr-6-wheel-30ft.1.5
+EmptyImage[S][0]=./carriages/lswr-6-wheel-30ft.1.6
+EmptyImage[SW][0]=./carriages/lswr-6-wheel-30ft.1.7
+EmptyImage[W][0]=./carriages/lswr-6-wheel-30ft.1.0
+EmptyImage[NW][0]=./carriages/lswr-6-wheel-30ft.1.1
+EmptyImage[N][0]=./carriages/lswr-6-wheel-30ft.1.2
+EmptyImage[NE][0]=./carriages/lswr-6-wheel-30ft.1.3
 
-EmptyImage[E][1]=./images/lswr-6-wheel-30ft-sage.1.4
-EmptyImage[SE][1]=./images/lswr-6-wheel-30ft-sage.1.5
-EmptyImage[S][1]=./images/lswr-6-wheel-30ft-sage.1.6
-EmptyImage[SW][1]=./images/lswr-6-wheel-30ft-sage.1.7
-EmptyImage[W][1]=./images/lswr-6-wheel-30ft-sage.1.0
-EmptyImage[NW][1]=./images/lswr-6-wheel-30ft-sage.1.1
-EmptyImage[N][1]=./images/lswr-6-wheel-30ft-sage.1.2
-EmptyImage[NE][1]=./images/lswr-6-wheel-30ft-sage.1.3
+EmptyImage[E][1]=./carriages/lswr-6-wheel-30ft-sage.1.4
+EmptyImage[SE][1]=./carriages/lswr-6-wheel-30ft-sage.1.5
+EmptyImage[S][1]=./carriages/lswr-6-wheel-30ft-sage.1.6
+EmptyImage[SW][1]=./carriages/lswr-6-wheel-30ft-sage.1.7
+EmptyImage[W][1]=./carriages/lswr-6-wheel-30ft-sage.1.0
+EmptyImage[NW][1]=./carriages/lswr-6-wheel-30ft-sage.1.1
+EmptyImage[N][1]=./carriages/lswr-6-wheel-30ft-sage.1.2
+EmptyImage[NE][1]=./carriages/lswr-6-wheel-30ft-sage.1.3
 
-EmptyImage[E][2]=./images/lswr-6-wheel-30ft-olive.1.4
-EmptyImage[SE][2]=./images/lswr-6-wheel-30ft-olive.1.5
-EmptyImage[S][2]=./images/lswr-6-wheel-30ft-olive.1.6
-EmptyImage[SW][2]=./images/lswr-6-wheel-30ft-olive.1.7
-EmptyImage[W][2]=./images/lswr-6-wheel-30ft-olive.1.0
-EmptyImage[NW][2]=./images/lswr-6-wheel-30ft-olive.1.1
-EmptyImage[N][2]=./images/lswr-6-wheel-30ft-olive.1.2
-EmptyImage[NE][2]=./images/lswr-6-wheel-30ft-olive.1.3
+EmptyImage[E][2]=./carriages/lswr-6-wheel-30ft-olive.1.4
+EmptyImage[SE][2]=./carriages/lswr-6-wheel-30ft-olive.1.5
+EmptyImage[S][2]=./carriages/lswr-6-wheel-30ft-olive.1.6
+EmptyImage[SW][2]=./carriages/lswr-6-wheel-30ft-olive.1.7
+EmptyImage[W][2]=./carriages/lswr-6-wheel-30ft-olive.1.0
+EmptyImage[NW][2]=./carriages/lswr-6-wheel-30ft-olive.1.1
+EmptyImage[N][2]=./carriages/lswr-6-wheel-30ft-olive.1.2
+EmptyImage[NE][2]=./carriages/lswr-6-wheel-30ft-olive.1.3
 
 ---
 
@@ -354,7 +361,8 @@ length=5
 weight=13.0
 axles=3
 cost=333000
-runningcost=26
+runningcost=0
+fixed_cost=396
 
 can_lead_from_rear=0
 bidirectional=1
@@ -400,6 +408,7 @@ Constraint[Next][33]=lswr-6-wheel-30ft-full-brake
 Constraint[Next][34]=lswr-6-wheel-30ft-fruit-brake
 Constraint[Next][35]=lswr-6-wheel-30ft-parcels-van
 Constraint[Next][36]=lswr-6-wheel-30ft-fruit-van
+Constraint[Next][37]=lswr-6-wheel-28ft-composite
 
 Constraint[Prev][0]=4-wheel-1870s-fitted
 Constraint[Prev][1]=4-wheel-1870s-brake-fitted
@@ -438,37 +447,38 @@ Constraint[Prev][33]=lswr-6-wheel-30ft-full-brake
 Constraint[Prev][34]=lswr-6-wheel-30ft-fruit-brake
 Constraint[Prev][35]=lswr-6-wheel-30ft-parcels-van
 Constraint[Prev][36]=lswr-6-wheel-30ft-fruit-van
+Constraint[Prev][37]=lswr-6-wheel-28ft-composite
 
 liverytype[0]=LSWR-pea-green
 liverytype[1]=LSWR-sage
 liverytype[2]=SR-Olive-Green
 
-EmptyImage[E][0]=./images/lswr-6-wheel-30ft-lav.1.4
-EmptyImage[SE][0]=./images/lswr-6-wheel-30ft-lav.1.5
-EmptyImage[S][0]=./images/lswr-6-wheel-30ft-lav.1.6
-EmptyImage[SW][0]=./images/lswr-6-wheel-30ft-lav.1.7
-EmptyImage[W][0]=./images/lswr-6-wheel-30ft-lav.1.0
-EmptyImage[NW][0]=./images/lswr-6-wheel-30ft-lav.1.1
-EmptyImage[N][0]=./images/lswr-6-wheel-30ft-lav.1.2
-EmptyImage[NE][0]=./images/lswr-6-wheel-30ft-lav.1.3
+EmptyImage[E][0]=./carriages/lswr-6-wheel-30ft-lav.1.4
+EmptyImage[SE][0]=./carriages/lswr-6-wheel-30ft-lav.1.5
+EmptyImage[S][0]=./carriages/lswr-6-wheel-30ft-lav.1.6
+EmptyImage[SW][0]=./carriages/lswr-6-wheel-30ft-lav.1.7
+EmptyImage[W][0]=./carriages/lswr-6-wheel-30ft-lav.1.0
+EmptyImage[NW][0]=./carriages/lswr-6-wheel-30ft-lav.1.1
+EmptyImage[N][0]=./carriages/lswr-6-wheel-30ft-lav.1.2
+EmptyImage[NE][0]=./carriages/lswr-6-wheel-30ft-lav.1.3
 
-EmptyImage[E][1]=./images/lswr-6-wheel-30ft-lav-sage.1.4
-EmptyImage[SE][1]=./images/lswr-6-wheel-30ft-lav-sage.1.5
-EmptyImage[S][1]=./images/lswr-6-wheel-30ft-lav-sage.1.6
-EmptyImage[SW][1]=./images/lswr-6-wheel-30ft-lav-sage.1.7
-EmptyImage[W][1]=./images/lswr-6-wheel-30ft-lav-sage.1.0
-EmptyImage[NW][1]=./images/lswr-6-wheel-30ft-lav-sage.1.1
-EmptyImage[N][1]=./images/lswr-6-wheel-30ft-lav-sage.1.2
-EmptyImage[NE][1]=./images/lswr-6-wheel-30ft-lav-sage.1.3
+EmptyImage[E][1]=./carriages/lswr-6-wheel-30ft-lav-sage.1.4
+EmptyImage[SE][1]=./carriages/lswr-6-wheel-30ft-lav-sage.1.5
+EmptyImage[S][1]=./carriages/lswr-6-wheel-30ft-lav-sage.1.6
+EmptyImage[SW][1]=./carriages/lswr-6-wheel-30ft-lav-sage.1.7
+EmptyImage[W][1]=./carriages/lswr-6-wheel-30ft-lav-sage.1.0
+EmptyImage[NW][1]=./carriages/lswr-6-wheel-30ft-lav-sage.1.1
+EmptyImage[N][1]=./carriages/lswr-6-wheel-30ft-lav-sage.1.2
+EmptyImage[NE][1]=./carriages/lswr-6-wheel-30ft-lav-sage.1.3
 
-EmptyImage[E][2]=./images/lswr-6-wheel-30ft-lav-olive.1.4
-EmptyImage[SE][2]=./images/lswr-6-wheel-30ft-lav-olive.1.5
-EmptyImage[S][2]=./images/lswr-6-wheel-30ft-lav-olive.1.6
-EmptyImage[SW][2]=./images/lswr-6-wheel-30ft-lav-olive.1.7
-EmptyImage[W][2]=./images/lswr-6-wheel-30ft-lav-olive.1.0
-EmptyImage[NW][2]=./images/lswr-6-wheel-30ft-lav-olive.1.1
-EmptyImage[N][2]=./images/lswr-6-wheel-30ft-lav-olive.1.2
-EmptyImage[NE][2]=./images/lswr-6-wheel-30ft-lav-olive.1.3
+EmptyImage[E][2]=./carriages/lswr-6-wheel-30ft-lav-olive.1.4
+EmptyImage[SE][2]=./carriages/lswr-6-wheel-30ft-lav-olive.1.5
+EmptyImage[S][2]=./carriages/lswr-6-wheel-30ft-lav-olive.1.6
+EmptyImage[SW][2]=./carriages/lswr-6-wheel-30ft-lav-olive.1.7
+EmptyImage[W][2]=./carriages/lswr-6-wheel-30ft-lav-olive.1.0
+EmptyImage[NW][2]=./carriages/lswr-6-wheel-30ft-lav-olive.1.1
+EmptyImage[N][2]=./carriages/lswr-6-wheel-30ft-lav-olive.1.2
+EmptyImage[NE][2]=./carriages/lswr-6-wheel-30ft-lav-olive.1.3
 
 ---
 
@@ -489,7 +499,8 @@ length=5
 weight=12.9
 axles=3
 cost=331850
-runningcost=25
+runningcost=0
+fixed_cost=395
 
 can_lead_from_rear=0
 bidirectional=1
@@ -500,32 +511,32 @@ liverytype[0]=LSWR-pea-green
 liverytype[1]=LSWR-sage
 liverytype[2]=SR-Olive-Green
 
-EmptyImage[E][0]=./images/lswr-6-wheel-30ft-full-brake.1.4
-EmptyImage[SE][0]=./images/lswr-6-wheel-30ft-full-brake.1.5
-EmptyImage[S][0]=./images/lswr-6-wheel-30ft-full-brake.1.6
-EmptyImage[SW][0]=./images/lswr-6-wheel-30ft-full-brake.1.7
-EmptyImage[W][0]=./images/lswr-6-wheel-30ft-full-brake.1.0
-EmptyImage[NW][0]=./images/lswr-6-wheel-30ft-full-brake.1.1
-EmptyImage[N][0]=./images/lswr-6-wheel-30ft-full-brake.1.2
-EmptyImage[NE][0]=./images/lswr-6-wheel-30ft-full-brake.1.3
+EmptyImage[E][0]=./carriages/lswr-6-wheel-30ft-full-brake.1.4
+EmptyImage[SE][0]=./carriages/lswr-6-wheel-30ft-full-brake.1.5
+EmptyImage[S][0]=./carriages/lswr-6-wheel-30ft-full-brake.1.6
+EmptyImage[SW][0]=./carriages/lswr-6-wheel-30ft-full-brake.1.7
+EmptyImage[W][0]=./carriages/lswr-6-wheel-30ft-full-brake.1.0
+EmptyImage[NW][0]=./carriages/lswr-6-wheel-30ft-full-brake.1.1
+EmptyImage[N][0]=./carriages/lswr-6-wheel-30ft-full-brake.1.2
+EmptyImage[NE][0]=./carriages/lswr-6-wheel-30ft-full-brake.1.3
 
-EmptyImage[E][1]=./images/lswr-6-wheel-30ft-full-brake-sage.1.4
-EmptyImage[SE][1]=./images/lswr-6-wheel-30ft-full-brake-sage.1.5
-EmptyImage[S][1]=./images/lswr-6-wheel-30ft-full-brake-sage.1.6
-EmptyImage[SW][1]=./images/lswr-6-wheel-30ft-full-brake-sage.1.7
-EmptyImage[W][1]=./images/lswr-6-wheel-30ft-full-brake-sage.1.0
-EmptyImage[NW][1]=./images/lswr-6-wheel-30ft-full-brake-sage.1.1
-EmptyImage[N][1]=./images/lswr-6-wheel-30ft-full-brake-sage.1.2
-EmptyImage[NE][1]=./images/lswr-6-wheel-30ft-full-brake-sage.1.3
+EmptyImage[E][1]=./carriages/lswr-6-wheel-30ft-full-brake-sage.1.4
+EmptyImage[SE][1]=./carriages/lswr-6-wheel-30ft-full-brake-sage.1.5
+EmptyImage[S][1]=./carriages/lswr-6-wheel-30ft-full-brake-sage.1.6
+EmptyImage[SW][1]=./carriages/lswr-6-wheel-30ft-full-brake-sage.1.7
+EmptyImage[W][1]=./carriages/lswr-6-wheel-30ft-full-brake-sage.1.0
+EmptyImage[NW][1]=./carriages/lswr-6-wheel-30ft-full-brake-sage.1.1
+EmptyImage[N][1]=./carriages/lswr-6-wheel-30ft-full-brake-sage.1.2
+EmptyImage[NE][1]=./carriages/lswr-6-wheel-30ft-full-brake-sage.1.3
 
-EmptyImage[E][2]=./images/lswr-6-wheel-30ft-full-brake-olive.1.4
-EmptyImage[SE][2]=./images/lswr-6-wheel-30ft-full-brake-olive.1.5
-EmptyImage[S][2]=./images/lswr-6-wheel-30ft-full-brake-olive.1.6
-EmptyImage[SW][2]=./images/lswr-6-wheel-30ft-full-brake-olive.1.7
-EmptyImage[W][2]=./images/lswr-6-wheel-30ft-full-brake-olive.1.0
-EmptyImage[NW][2]=./images/lswr-6-wheel-30ft-full-brake-olive.1.1
-EmptyImage[N][2]=./images/lswr-6-wheel-30ft-full-brake-olive.1.2
-EmptyImage[NE][2]=./images/lswr-6-wheel-30ft-full-brake-olive.1.3
+EmptyImage[E][2]=./carriages/lswr-6-wheel-30ft-full-brake-olive.1.4
+EmptyImage[SE][2]=./carriages/lswr-6-wheel-30ft-full-brake-olive.1.5
+EmptyImage[S][2]=./carriages/lswr-6-wheel-30ft-full-brake-olive.1.6
+EmptyImage[SW][2]=./carriages/lswr-6-wheel-30ft-full-brake-olive.1.7
+EmptyImage[W][2]=./carriages/lswr-6-wheel-30ft-full-brake-olive.1.0
+EmptyImage[NW][2]=./carriages/lswr-6-wheel-30ft-full-brake-olive.1.1
+EmptyImage[N][2]=./carriages/lswr-6-wheel-30ft-full-brake-olive.1.2
+EmptyImage[NE][2]=./carriages/lswr-6-wheel-30ft-full-brake-olive.1.3
 
 ---
 
@@ -546,7 +557,8 @@ length=5
 weight=12.9
 axles=3
 cost=331850
-runningcost=25
+runningcost=0
+fixed_cost=138
 
 can_lead_from_rear=0
 bidirectional=1
@@ -557,32 +569,32 @@ liverytype[0]=LSWR-pea-green
 liverytype[1]=LSWR-sage
 liverytype[2]=SR-Olive-Green
 
-EmptyImage[E][0]=./images/lswr-6-wheel-30ft-fruit-brake.1.4
-EmptyImage[SE][0]=./images/lswr-6-wheel-30ft-fruit-brake.1.5
-EmptyImage[S][0]=./images/lswr-6-wheel-30ft-fruit-brake.1.6
-EmptyImage[SW][0]=./images/lswr-6-wheel-30ft-fruit-brake.1.7
-EmptyImage[W][0]=./images/lswr-6-wheel-30ft-fruit-brake.1.0
-EmptyImage[NW][0]=./images/lswr-6-wheel-30ft-fruit-brake.1.1
-EmptyImage[N][0]=./images/lswr-6-wheel-30ft-fruit-brake.1.2
-EmptyImage[NE][0]=./images/lswr-6-wheel-30ft-fruit-brake.1.3
+EmptyImage[E][0]=./carriages/lswr-6-wheel-30ft-fruit-brake.1.4
+EmptyImage[SE][0]=./carriages/lswr-6-wheel-30ft-fruit-brake.1.5
+EmptyImage[S][0]=./carriages/lswr-6-wheel-30ft-fruit-brake.1.6
+EmptyImage[SW][0]=./carriages/lswr-6-wheel-30ft-fruit-brake.1.7
+EmptyImage[W][0]=./carriages/lswr-6-wheel-30ft-fruit-brake.1.0
+EmptyImage[NW][0]=./carriages/lswr-6-wheel-30ft-fruit-brake.1.1
+EmptyImage[N][0]=./carriages/lswr-6-wheel-30ft-fruit-brake.1.2
+EmptyImage[NE][0]=./carriages/lswr-6-wheel-30ft-fruit-brake.1.3
 
-EmptyImage[E][1]=./images/lswr-6-wheel-30ft-fruit-brake-sage.1.4
-EmptyImage[SE][1]=./images/lswr-6-wheel-30ft-fruit-brake-sage.1.5
-EmptyImage[S][1]=./images/lswr-6-wheel-30ft-fruit-brake-sage.1.6
-EmptyImage[SW][1]=./images/lswr-6-wheel-30ft-fruit-brake-sage.1.7
-EmptyImage[W][1]=./images/lswr-6-wheel-30ft-fruit-brake-sage.1.0
-EmptyImage[NW][1]=./images/lswr-6-wheel-30ft-fruit-brake-sage.1.1
-EmptyImage[N][1]=./images/lswr-6-wheel-30ft-fruit-brake-sage.1.2
-EmptyImage[NE][1]=./images/lswr-6-wheel-30ft-fruit-brake-sage.1.3
+EmptyImage[E][1]=./carriages/lswr-6-wheel-30ft-fruit-brake-sage.1.4
+EmptyImage[SE][1]=./carriages/lswr-6-wheel-30ft-fruit-brake-sage.1.5
+EmptyImage[S][1]=./carriages/lswr-6-wheel-30ft-fruit-brake-sage.1.6
+EmptyImage[SW][1]=./carriages/lswr-6-wheel-30ft-fruit-brake-sage.1.7
+EmptyImage[W][1]=./carriages/lswr-6-wheel-30ft-fruit-brake-sage.1.0
+EmptyImage[NW][1]=./carriages/lswr-6-wheel-30ft-fruit-brake-sage.1.1
+EmptyImage[N][1]=./carriages/lswr-6-wheel-30ft-fruit-brake-sage.1.2
+EmptyImage[NE][1]=./carriages/lswr-6-wheel-30ft-fruit-brake-sage.1.3
 
-EmptyImage[E][2]=./images/lswr-6-wheel-30ft-fruit-brake-olive.1.4
-EmptyImage[SE][2]=./images/lswr-6-wheel-30ft-fruit-brake-olive.1.5
-EmptyImage[S][2]=./images/lswr-6-wheel-30ft-fruit-brake-olive.1.6
-EmptyImage[SW][2]=./images/lswr-6-wheel-30ft-fruit-brake-olive.1.7
-EmptyImage[W][2]=./images/lswr-6-wheel-30ft-fruit-brake-olive.1.0
-EmptyImage[NW][2]=./images/lswr-6-wheel-30ft-fruit-brake-olive.1.1
-EmptyImage[N][2]=./images/lswr-6-wheel-30ft-fruit-brake-olive.1.2
-EmptyImage[NE][2]=./images/lswr-6-wheel-30ft-fruit-brake-olive.1.3
+EmptyImage[E][2]=./carriages/lswr-6-wheel-30ft-fruit-brake-olive.1.4
+EmptyImage[SE][2]=./carriages/lswr-6-wheel-30ft-fruit-brake-olive.1.5
+EmptyImage[S][2]=./carriages/lswr-6-wheel-30ft-fruit-brake-olive.1.6
+EmptyImage[SW][2]=./carriages/lswr-6-wheel-30ft-fruit-brake-olive.1.7
+EmptyImage[W][2]=./carriages/lswr-6-wheel-30ft-fruit-brake-olive.1.0
+EmptyImage[NW][2]=./carriages/lswr-6-wheel-30ft-fruit-brake-olive.1.1
+EmptyImage[N][2]=./carriages/lswr-6-wheel-30ft-fruit-brake-olive.1.2
+EmptyImage[NE][2]=./carriages/lswr-6-wheel-30ft-fruit-brake-olive.1.3
 
 ---
 
@@ -603,7 +615,8 @@ length=5
 weight=12.9
 axles=3
 cost=331850
-runningcost=25
+runningcost=0
+fixed_cost=138
 
 can_lead_from_rear=0
 bidirectional=1
@@ -647,6 +660,7 @@ Constraint[Next][33]=lswr-6-wheel-30ft-full-brake
 Constraint[Next][34]=lswr-6-wheel-30ft-fruit-brake
 Constraint[Next][35]=lswr-6-wheel-30ft-parcels-van
 Constraint[Next][36]=lswr-6-wheel-30ft-fruit-van
+Constraint[Next][37]=lswr-6-wheel-28ft-composite
 
 Constraint[Prev][0]=4-wheel-1870s-fitted
 Constraint[Prev][1]=4-wheel-1870s-brake-fitted
@@ -685,37 +699,38 @@ Constraint[Prev][33]=lswr-6-wheel-30ft-full-brake
 Constraint[Prev][34]=lswr-6-wheel-30ft-fruit-brake
 Constraint[Prev][35]=lswr-6-wheel-30ft-parcels-van
 Constraint[Prev][36]=lswr-6-wheel-30ft-fruit-van
+Constraint[Prev][37]=lswr-6-wheel-28ft-composite
 
 liverytype[0]=LSWR-pea-green
 liverytype[1]=LSWR-sage
 liverytype[2]=SR-Olive-Green
 
-EmptyImage[E][0]=./images/lswr-6-wheel-30ft-parcels-van.1.4
-EmptyImage[SE][0]=./images/lswr-6-wheel-30ft-parcels-van.1.5
-EmptyImage[S][0]=./images/lswr-6-wheel-30ft-parcels-van.1.6
-EmptyImage[SW][0]=./images/lswr-6-wheel-30ft-parcels-van.1.7
-EmptyImage[W][0]=./images/lswr-6-wheel-30ft-parcels-van.1.0
-EmptyImage[NW][0]=./images/lswr-6-wheel-30ft-parcels-van.1.1
-EmptyImage[N][0]=./images/lswr-6-wheel-30ft-parcels-van.1.2
-EmptyImage[NE][0]=./images/lswr-6-wheel-30ft-parcels-van.1.3
+EmptyImage[E][0]=./carriages/lswr-6-wheel-30ft-parcels-van.1.4
+EmptyImage[SE][0]=./carriages/lswr-6-wheel-30ft-parcels-van.1.5
+EmptyImage[S][0]=./carriages/lswr-6-wheel-30ft-parcels-van.1.6
+EmptyImage[SW][0]=./carriages/lswr-6-wheel-30ft-parcels-van.1.7
+EmptyImage[W][0]=./carriages/lswr-6-wheel-30ft-parcels-van.1.0
+EmptyImage[NW][0]=./carriages/lswr-6-wheel-30ft-parcels-van.1.1
+EmptyImage[N][0]=./carriages/lswr-6-wheel-30ft-parcels-van.1.2
+EmptyImage[NE][0]=./carriages/lswr-6-wheel-30ft-parcels-van.1.3
 
-EmptyImage[E][1]=./images/lswr-6-wheel-30ft-parcels-van-sage.1.4
-EmptyImage[SE][1]=./images/lswr-6-wheel-30ft-parcels-van-sage.1.5
-EmptyImage[S][1]=./images/lswr-6-wheel-30ft-parcels-van-sage.1.6
-EmptyImage[SW][1]=./images/lswr-6-wheel-30ft-parcels-van-sage.1.7
-EmptyImage[W][1]=./images/lswr-6-wheel-30ft-parcels-van-sage.1.0
-EmptyImage[NW][1]=./images/lswr-6-wheel-30ft-parcels-van-sage.1.1
-EmptyImage[N][1]=./images/lswr-6-wheel-30ft-parcels-van-sage.1.2
-EmptyImage[NE][1]=./images/lswr-6-wheel-30ft-parcels-van-sage.1.3
+EmptyImage[E][1]=./carriages/lswr-6-wheel-30ft-parcels-van-sage.1.4
+EmptyImage[SE][1]=./carriages/lswr-6-wheel-30ft-parcels-van-sage.1.5
+EmptyImage[S][1]=./carriages/lswr-6-wheel-30ft-parcels-van-sage.1.6
+EmptyImage[SW][1]=./carriages/lswr-6-wheel-30ft-parcels-van-sage.1.7
+EmptyImage[W][1]=./carriages/lswr-6-wheel-30ft-parcels-van-sage.1.0
+EmptyImage[NW][1]=./carriages/lswr-6-wheel-30ft-parcels-van-sage.1.1
+EmptyImage[N][1]=./carriages/lswr-6-wheel-30ft-parcels-van-sage.1.2
+EmptyImage[NE][1]=./carriages/lswr-6-wheel-30ft-parcels-van-sage.1.3
 
-EmptyImage[E][2]=./images/lswr-6-wheel-30ft-parcels-van-olive.1.4
-EmptyImage[SE][2]=./images/lswr-6-wheel-30ft-parcels-van-olive.1.5
-EmptyImage[S][2]=./images/lswr-6-wheel-30ft-parcels-van-olive.1.6
-EmptyImage[SW][2]=./images/lswr-6-wheel-30ft-parcels-van-olive.1.7
-EmptyImage[W][2]=./images/lswr-6-wheel-30ft-parcels-van-olive.1.0
-EmptyImage[NW][2]=./images/lswr-6-wheel-30ft-parcels-van-olive.1.1
-EmptyImage[N][2]=./images/lswr-6-wheel-30ft-parcels-van-olive.1.2
-EmptyImage[NE][2]=./images/lswr-6-wheel-30ft-parcels-van-olive.1.3
+EmptyImage[E][2]=./carriages/lswr-6-wheel-30ft-parcels-van-olive.1.4
+EmptyImage[SE][2]=./carriages/lswr-6-wheel-30ft-parcels-van-olive.1.5
+EmptyImage[S][2]=./carriages/lswr-6-wheel-30ft-parcels-van-olive.1.6
+EmptyImage[SW][2]=./carriages/lswr-6-wheel-30ft-parcels-van-olive.1.7
+EmptyImage[W][2]=./carriages/lswr-6-wheel-30ft-parcels-van-olive.1.0
+EmptyImage[NW][2]=./carriages/lswr-6-wheel-30ft-parcels-van-olive.1.1
+EmptyImage[N][2]=./carriages/lswr-6-wheel-30ft-parcels-van-olive.1.2
+EmptyImage[NE][2]=./carriages/lswr-6-wheel-30ft-parcels-van-olive.1.3
 
 ---
 
@@ -736,7 +751,8 @@ length=5
 weight=12.9
 axles=3
 cost=331850
-runningcost=25
+runningcost=0
+fixed_cost=138
 
 can_lead_from_rear=0
 bidirectional=1
@@ -780,6 +796,7 @@ Constraint[Next][33]=lswr-6-wheel-30ft-full-brake
 Constraint[Next][34]=lswr-6-wheel-30ft-fruit-brake
 Constraint[Next][35]=lswr-6-wheel-30ft-parcels-van
 Constraint[Next][36]=lswr-6-wheel-30ft-fruit-van
+Constraint[Next][37]=lswr-6-wheel-28ft-composite
 
 Constraint[Prev][0]=4-wheel-1870s-fitted
 Constraint[Prev][1]=4-wheel-1870s-brake-fitted
@@ -818,34 +835,35 @@ Constraint[Prev][33]=lswr-6-wheel-30ft-full-brake
 Constraint[Prev][34]=lswr-6-wheel-30ft-fruit-brake
 Constraint[Prev][35]=lswr-6-wheel-30ft-parcels-van
 Constraint[Prev][36]=lswr-6-wheel-30ft-fruit-van
+Constraint[Prev][37]=lswr-6-wheel-28ft-composite
 
 liverytype[0]=LSWR-pea-green
 liverytype[1]=LSWR-sage
 liverytype[2]=SR-Olive-Green
 
-EmptyImage[E][0]=./images/lswr-6-wheel-30ft-fruit-van.1.4
-EmptyImage[SE][0]=./images/lswr-6-wheel-30ft-fruit-van.1.5
-EmptyImage[S][0]=./images/lswr-6-wheel-30ft-fruit-van.1.6
-EmptyImage[SW][0]=./images/lswr-6-wheel-30ft-fruit-van.1.7
-EmptyImage[W][0]=./images/lswr-6-wheel-30ft-fruit-van.1.0
-EmptyImage[NW][0]=./images/lswr-6-wheel-30ft-fruit-van.1.1
-EmptyImage[N][0]=./images/lswr-6-wheel-30ft-fruit-van.1.2
-EmptyImage[NE][0]=./images/lswr-6-wheel-30ft-fruit-van.1.3
+EmptyImage[E][0]=./carriages/lswr-6-wheel-30ft-fruit-van.1.4
+EmptyImage[SE][0]=./carriages/lswr-6-wheel-30ft-fruit-van.1.5
+EmptyImage[S][0]=./carriages/lswr-6-wheel-30ft-fruit-van.1.6
+EmptyImage[SW][0]=./carriages/lswr-6-wheel-30ft-fruit-van.1.7
+EmptyImage[W][0]=./carriages/lswr-6-wheel-30ft-fruit-van.1.0
+EmptyImage[NW][0]=./carriages/lswr-6-wheel-30ft-fruit-van.1.1
+EmptyImage[N][0]=./carriages/lswr-6-wheel-30ft-fruit-van.1.2
+EmptyImage[NE][0]=./carriages/lswr-6-wheel-30ft-fruit-van.1.3
 
-EmptyImage[E][1]=./images/lswr-6-wheel-30ft-fruit-van-sage.1.4
-EmptyImage[SE][1]=./images/lswr-6-wheel-30ft-fruit-van-sage.1.5
-EmptyImage[S][1]=./images/lswr-6-wheel-30ft-fruit-van-sage.1.6
-EmptyImage[SW][1]=./images/lswr-6-wheel-30ft-fruit-van-sage.1.7
-EmptyImage[W][1]=./images/lswr-6-wheel-30ft-fruit-van-sage.1.0
-EmptyImage[NW][1]=./images/lswr-6-wheel-30ft-fruit-van-sage.1.1
-EmptyImage[N][1]=./images/lswr-6-wheel-30ft-fruit-van-sage.1.2
-EmptyImage[NE][1]=./images/lswr-6-wheel-30ft-fruit-van-sage.1.3
+EmptyImage[E][1]=./carriages/lswr-6-wheel-30ft-fruit-van-sage.1.4
+EmptyImage[SE][1]=./carriages/lswr-6-wheel-30ft-fruit-van-sage.1.5
+EmptyImage[S][1]=./carriages/lswr-6-wheel-30ft-fruit-van-sage.1.6
+EmptyImage[SW][1]=./carriages/lswr-6-wheel-30ft-fruit-van-sage.1.7
+EmptyImage[W][1]=./carriages/lswr-6-wheel-30ft-fruit-van-sage.1.0
+EmptyImage[NW][1]=./carriages/lswr-6-wheel-30ft-fruit-van-sage.1.1
+EmptyImage[N][1]=./carriages/lswr-6-wheel-30ft-fruit-van-sage.1.2
+EmptyImage[NE][1]=./carriages/lswr-6-wheel-30ft-fruit-van-sage.1.3
 
-EmptyImage[E][2]=./images/lswr-6-wheel-30ft-fruit-van-olive.1.4
-EmptyImage[SE][2]=./images/lswr-6-wheel-30ft-fruit-van-olive.1.5
-EmptyImage[S][2]=./images/lswr-6-wheel-30ft-fruit-van-olive.1.6
-EmptyImage[SW][2]=./images/lswr-6-wheel-30ft-fruit-van-olive.1.7
-EmptyImage[W][2]=./images/lswr-6-wheel-30ft-fruit-van-olive.1.0
-EmptyImage[NW][2]=./images/lswr-6-wheel-30ft-fruit-van-olive.1.1
-EmptyImage[N][2]=./images/lswr-6-wheel-30ft-fruit-van-olive.1.2
-EmptyImage[NE][2]=./images/lswr-6-wheel-30ft-fruit-van-olive.1.3
+EmptyImage[E][2]=./carriages/lswr-6-wheel-30ft-fruit-van-olive.1.4
+EmptyImage[SE][2]=./carriages/lswr-6-wheel-30ft-fruit-van-olive.1.5
+EmptyImage[S][2]=./carriages/lswr-6-wheel-30ft-fruit-van-olive.1.6
+EmptyImage[SW][2]=./carriages/lswr-6-wheel-30ft-fruit-van-olive.1.7
+EmptyImage[W][2]=./carriages/lswr-6-wheel-30ft-fruit-van-olive.1.0
+EmptyImage[NW][2]=./carriages/lswr-6-wheel-30ft-fruit-van-olive.1.1
+EmptyImage[N][2]=./carriages/lswr-6-wheel-30ft-fruit-van-olive.1.2
+EmptyImage[NE][2]=./carriages/lswr-6-wheel-30ft-fruit-van-olive.1.3

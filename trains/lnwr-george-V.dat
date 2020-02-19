@@ -6,7 +6,7 @@ speed=147
 # Extrapolated, although see here: http://lnwrgeorgevtrust.org.uk/Trust_03.html
 # This suggests that a George V was measured with a drawbar horsepower of 950hp,
 # which equates to 708kW. 
-power=323
+power=324
 # Tractive effort from Wikipedia: http://en.wikipedia.org/wiki/LNWR_George_the_Fifth_Class
 tractive_effort=92
 copyright=James/jamespetts
@@ -24,7 +24,8 @@ weight=61
 # Ahrons p. 334
 axle_load=19
 cost=10200000
-runningcost=942
+runningcost=140
+fixed_cost=48500
 sound=lwalker-br-4mt-tank.wav
 increase_maintenance_after_years=28
 years_before_maintenance_max_reached=18
@@ -34,20 +35,20 @@ liverytype[1]=LMS-Standard
 
 Constraint[Next][0]=LNWR-PrinceOfWales-Tender
 
-EmptyImage[E][0]=./images/lnwr-george-V.1.4
-EmptyImage[SE][0]=./images/lnwr-george-V.1.5
-EmptyImage[S][0]=./images/lnwr-george-V.1.6
-EmptyImage[SW][0]=./images/lnwr-george-V.1.7
-EmptyImage[W][0]=./images/lnwr-george-V.1.0
-EmptyImage[NW][0]=./images/lnwr-george-V.1.1
-EmptyImage[N][0]=./images/lnwr-george-V.1.2
-EmptyImage[NE][0]=./images/lnwr-george-V.1.3
+EmptyImage[E][0]=./locomotives/lnwr-george-V_E.0.0
+EmptyImage[SE][0]=./locomotives/lnwr-george-V_SE.0.0
+EmptyImage[S][0]=./locomotives/lnwr-george-V_S.0.0
+EmptyImage[SW][0]=./locomotives/lnwr-george-V_SW.0.0
+EmptyImage[W][0]=./locomotives/lnwr-george-V_W.0.0
+EmptyImage[NW][0]=./locomotives/lnwr-george-V_NW.0.0
+EmptyImage[N][0]=./locomotives/lnwr-george-V_N.0.0
+EmptyImage[NE][0]=./locomotives/lnwr-george-V_NE.0.0
 
-EmptyImage[E][1]=./images/lnwr-george-V-lms.1.4
-EmptyImage[SE][1]=./images/lnwr-george-V-lms.1.5
-EmptyImage[S][1]=./images/lnwr-george-V-lms.1.6
-EmptyImage[SW][1]=./images/lnwr-george-V-lms.1.7
-EmptyImage[W][1]=./images/lnwr-george-V-lms.1.0
-EmptyImage[NW][1]=./images/lnwr-george-V-lms.1.1
-EmptyImage[N][1]=./images/lnwr-george-V-lms.1.2
-EmptyImage[NE][1]=./images/lnwr-george-V-lms.1.3
+EmptyImage[E][1]=./locomotives/lnwr-george-V-lms_E.0.0
+EmptyImage[SE][1]=./locomotives/lnwr-george-V-lms_SE.0.0
+EmptyImage[S][1]=./locomotives/lnwr-george-V-lms_S.0.0
+EmptyImage[SW][1]=./locomotives/lnwr-george-V-lms_SW.0.0
+EmptyImage[W][1]=./locomotives/lnwr-george-V-lms_W.0.0
+EmptyImage[NW][1]=./locomotives/lnwr-george-V-lms_NW.0.0
+EmptyImage[N][1]=./locomotives/lnwr-george-V-lms_N.0.0
+EmptyImage[NE][1]=./locomotives/lnwr-george-V-lms_NE.0.0

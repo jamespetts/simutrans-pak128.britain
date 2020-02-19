@@ -18,7 +18,8 @@ length=10
 weight=25
 axles=4
 cost=660000
-runningcost=32
+runningcost=0
+fixed_cost=786
 
 can_lead_from_rear=0
 bidirectional=1
@@ -42,12 +43,12 @@ Constraint[Prev][3]=Teak-Clerestory-TPO
 Constraint[Prev][4]=Teak-Clerestory-Dining
 Constraint[Prev][5]=Teak-Clerestory-Parcel-Brake
 
-EmptyImage[E]=./images/teak-clerestory.0.0
-EmptyImage[SE]=./images/teak-clerestory.0.1
-EmptyImage[S]=./images/teak-clerestory.0.2
-EmptyImage[SW]=./images/teak-clerestory.0.3
-EmptyImage[W]=./images/teak-clerestory.0.4
-EmptyImage[NW]=./images/teak-clerestory.0.5
-EmptyImage[N]=./images/teak-clerestory.0.6
-EmptyImage[NE]=./images/teak-clerestory.0.7
+EmptyImage[E]=./carriages/teak-clerestory.0.0
+EmptyImage[SE]=./carriages/teak-clerestory.0.1
+EmptyImage[S]=./carriages/teak-clerestory.0.2
+EmptyImage[SW]=./carriages/teak-clerestory.0.3
+EmptyImage[W]=./carriages/teak-clerestory.0.4
+EmptyImage[NW]=./carriages/teak-clerestory.0.5
+EmptyImage[N]=./carriages/teak-clerestory.0.6
+EmptyImage[NE]=./carriages/teak-clerestory.0.7
 

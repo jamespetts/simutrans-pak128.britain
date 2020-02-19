@@ -22,7 +22,8 @@ rolling_resistance=13
 weight=29
 axles=4
 cost=1975000
-runningcost=120
+runningcost=0
+fixed_cost=4115
 sound=video47-class-508.wav
 
 can_lead_from_rear=1
@@ -44,23 +45,23 @@ Constraint[Next][0]=BR-317-Trailer
 liverytype[0]=BR-Blue
 liverytype[1]=NSE-Standard
 
-EmptyImage[E][0]=./images/br-317-driving-trailer-front-bg.1.4
-EmptyImage[SE][0]=./images/br-317-driving-trailer-front-bg.1.5
-EmptyImage[S][0]=./images/br-317-driving-trailer-front-bg.1.6
-EmptyImage[SW][0]=./images/br-317-driving-trailer-front-bg.1.7
-EmptyImage[W][0]=./images/br-317-driving-trailer-front-bg.1.0
-EmptyImage[NW][0]=./images/br-317-driving-trailer-front-bg.1.1
-EmptyImage[N][0]=./images/br-317-driving-trailer-front-bg.1.2
-EmptyImage[NE][0]=./images/br-317-driving-trailer-front-bg.1.3
+EmptyImage[E][0]=./railcars/br-317-driving-trailer-front-bg.1.4
+EmptyImage[SE][0]=./railcars/br-317-driving-trailer-front-bg.1.5
+EmptyImage[S][0]=./railcars/br-317-driving-trailer-front-bg.1.6
+EmptyImage[SW][0]=./railcars/br-317-driving-trailer-front-bg.1.7
+EmptyImage[W][0]=./railcars/br-317-driving-trailer-front-bg.1.0
+EmptyImage[NW][0]=./railcars/br-317-driving-trailer-front-bg.1.1
+EmptyImage[N][0]=./railcars/br-317-driving-trailer-front-bg.1.2
+EmptyImage[NE][0]=./railcars/br-317-driving-trailer-front-bg.1.3
 
-EmptyImage[E][1]=./images/br-455-driving-trailer-front-nse.1.4
-EmptyImage[SE][1]=./images/br-455-driving-trailer-front-nse.1.5
-EmptyImage[S][1]=./images/br-455-driving-trailer-front-nse.1.6
-EmptyImage[SW][1]=./images/br-455-driving-trailer-front-nse.1.7
-EmptyImage[W][1]=./images/br-455-driving-trailer-front-nse.1.0
-EmptyImage[NW][1]=./images/br-455-driving-trailer-front-nse.1.1
-EmptyImage[N][1]=./images/br-455-driving-trailer-front-nse.1.2
-EmptyImage[NE][1]=./images/br-455-driving-trailer-front-nse.1.3
+EmptyImage[E][1]=./railcars/br-455-driving-trailer-front-nse.1.4
+EmptyImage[SE][1]=./railcars/br-455-driving-trailer-front-nse.1.5
+EmptyImage[S][1]=./railcars/br-455-driving-trailer-front-nse.1.6
+EmptyImage[SW][1]=./railcars/br-455-driving-trailer-front-nse.1.7
+EmptyImage[W][1]=./railcars/br-455-driving-trailer-front-nse.1.0
+EmptyImage[NW][1]=./railcars/br-455-driving-trailer-front-nse.1.1
+EmptyImage[N][1]=./railcars/br-455-driving-trailer-front-nse.1.2
+EmptyImage[NE][1]=./railcars/br-455-driving-trailer-front-nse.1.3
 
 ---
 
@@ -89,7 +90,8 @@ rolling_resistance=13
 weight=50
 axles=4
 cost=1975000
-runningcost=120
+runningcost=77
+fixed_cost=11029
 
 can_lead_from_rear=1
 bidirectional=0
@@ -109,23 +111,23 @@ Constraint[Prev][0]=BR-317-Trailer
 liverytype[0]=BR-Blue
 liverytype[1]=NSE-Standard
 
-EmptyImage[E][0]=./images/br-317-motor-bg.1.4
-EmptyImage[SE][0]=./images/br-317-motor-bg.1.5
-EmptyImage[S][0]=./images/br-317-motor-bg.1.6
-EmptyImage[SW][0]=./images/br-317-motor-bg.1.7
-EmptyImage[W][0]=./images/br-317-motor-bg.1.0
-EmptyImage[NW][0]=./images/br-317-motor-bg.1.1
-EmptyImage[N][0]=./images/br-317-motor-bg.1.2
-EmptyImage[NE][0]=./images/br-317-motor-bg.1.3
+EmptyImage[E][0]=./railcars/br-317-motor-bg.1.4
+EmptyImage[SE][0]=./railcars/br-317-motor-bg.1.5
+EmptyImage[S][0]=./railcars/br-317-motor-bg.1.6
+EmptyImage[SW][0]=./railcars/br-317-motor-bg.1.7
+EmptyImage[W][0]=./railcars/br-317-motor-bg.1.0
+EmptyImage[NW][0]=./railcars/br-317-motor-bg.1.1
+EmptyImage[N][0]=./railcars/br-317-motor-bg.1.2
+EmptyImage[NE][0]=./railcars/br-317-motor-bg.1.3
 
-EmptyImage[E][1]=./images/br-317-motor-nse.1.4
-EmptyImage[SE][1]=./images/br-317-motor-nse.1.5
-EmptyImage[S][1]=./images/br-317-motor-nse.1.6
-EmptyImage[SW][1]=./images/br-317-motor-nse.1.7
-EmptyImage[W][1]=./images/br-317-motor-nse.1.0
-EmptyImage[NW][1]=./images/br-317-motor-nse.1.1
-EmptyImage[N][1]=./images/br-317-motor-nse.1.2
-EmptyImage[NE][1]=./images/br-317-motor-nse.1.3
+EmptyImage[E][1]=./railcars/br-317-motor-nse.1.4
+EmptyImage[SE][1]=./railcars/br-317-motor-nse.1.5
+EmptyImage[S][1]=./railcars/br-317-motor-nse.1.6
+EmptyImage[SW][1]=./railcars/br-317-motor-nse.1.7
+EmptyImage[W][1]=./railcars/br-317-motor-nse.1.0
+EmptyImage[NW][1]=./railcars/br-317-motor-nse.1.1
+EmptyImage[N][1]=./railcars/br-317-motor-nse.1.2
+EmptyImage[NE][1]=./railcars/br-317-motor-nse.1.3
 
 ---
 
@@ -153,7 +155,8 @@ rolling_resistance=13
 weight=29
 axles=4
 cost=1975000
-runningcost=120
+runningcost=0
+fixed_cost=4115
 
 can_lead_from_rear=1
 bidirectional=0
@@ -176,23 +179,23 @@ liverytype[1]=NSE-Standard
 # The 210 and 317 trailers are identical in appearance.
 # The original 317 graphics (kept in reserve) do not 
 # feature the yellow first class stripe.
-EmptyImage[E][0]=./images/br-210-trailer-composite-bg_E.0.0
-EmptyImage[SE][0]=./images/br-210-trailer-composite-bg_SE.0.0
-EmptyImage[S][0]=./images/br-210-trailer-composite-bg_S.0.0
-EmptyImage[SW][0]=./images/br-210-trailer-composite-bg_SW.0.0
-EmptyImage[W][0]=./images/br-210-trailer-composite-bg_W.0.0
-EmptyImage[NW][0]=./images/br-210-trailer-composite-bg_NW.0.0
-EmptyImage[N][0]=./images/br-210-trailer-composite-bg_N.0.0
-EmptyImage[NE][0]=./images/br-210-trailer-composite-bg_NE.0.0
+EmptyImage[E][0]=./railcars/br-210-trailer-composite-bg_E.0.0
+EmptyImage[SE][0]=./railcars/br-210-trailer-composite-bg_SE.0.0
+EmptyImage[S][0]=./railcars/br-210-trailer-composite-bg_S.0.0
+EmptyImage[SW][0]=./railcars/br-210-trailer-composite-bg_SW.0.0
+EmptyImage[W][0]=./railcars/br-210-trailer-composite-bg_W.0.0
+EmptyImage[NW][0]=./railcars/br-210-trailer-composite-bg_NW.0.0
+EmptyImage[N][0]=./railcars/br-210-trailer-composite-bg_N.0.0
+EmptyImage[NE][0]=./railcars/br-210-trailer-composite-bg_NE.0.0
 
-EmptyImage[E][1]=./images/br-210-trailer-composite-nse_E.0.0
-EmptyImage[SE][1]=./images/br-210-trailer-composite-nse_SE.0.0
-EmptyImage[S][1]=./images/br-210-trailer-composite-nse_S.0.0
-EmptyImage[SW][1]=./images/br-210-trailer-composite-nse_SW.0.0
-EmptyImage[W][1]=./images/br-210-trailer-composite-nse_W.0.0
-EmptyImage[NW][1]=./images/br-210-trailer-composite-nse_NW.0.0
-EmptyImage[N][1]=./images/br-210-trailer-composite-nse_N.0.0
-EmptyImage[NE][1]=./images/br-210-trailer-composite-nse_NE.0.0
+EmptyImage[E][1]=./railcars/br-210-trailer-composite-nse_E.0.0
+EmptyImage[SE][1]=./railcars/br-210-trailer-composite-nse_SE.0.0
+EmptyImage[S][1]=./railcars/br-210-trailer-composite-nse_S.0.0
+EmptyImage[SW][1]=./railcars/br-210-trailer-composite-nse_SW.0.0
+EmptyImage[W][1]=./railcars/br-210-trailer-composite-nse_W.0.0
+EmptyImage[NW][1]=./railcars/br-210-trailer-composite-nse_NW.0.0
+EmptyImage[N][1]=./railcars/br-210-trailer-composite-nse_N.0.0
+EmptyImage[NE][1]=./railcars/br-210-trailer-composite-nse_NE.0.0
 
 ---
 
@@ -220,7 +223,8 @@ rolling_resistance=13
 weight=29
 axles=4
 cost=1975000
-runningcost=120
+runningcost=0
+fixed_cost=4115
 sound=video47-class-508.wav
 
 can_lead_from_rear=1
@@ -242,20 +246,20 @@ Constraint[Prev][0]=BR-317-Motor
 liverytype[0]=BR-Blue
 liverytype[1]=NSE-Standard
 
-EmptyImage[E][0]=./images/br-317-driving-trailer-rear-bg.1.4
-EmptyImage[SE][0]=./images/br-317-driving-trailer-rear-bg.1.5
-EmptyImage[S][0]=./images/br-317-driving-trailer-rear-bg.1.6
-EmptyImage[SW][0]=./images/br-317-driving-trailer-rear-bg.1.7
-EmptyImage[W][0]=./images/br-317-driving-trailer-rear-bg.1.0
-EmptyImage[NW][0]=./images/br-317-driving-trailer-rear-bg.1.1
-EmptyImage[N][0]=./images/br-317-driving-trailer-rear-bg.1.2
-EmptyImage[NE][0]=./images/br-317-driving-trailer-rear-bg.1.3
+EmptyImage[E][0]=./railcars/br-317-driving-trailer-rear-bg.1.4
+EmptyImage[SE][0]=./railcars/br-317-driving-trailer-rear-bg.1.5
+EmptyImage[S][0]=./railcars/br-317-driving-trailer-rear-bg.1.6
+EmptyImage[SW][0]=./railcars/br-317-driving-trailer-rear-bg.1.7
+EmptyImage[W][0]=./railcars/br-317-driving-trailer-rear-bg.1.0
+EmptyImage[NW][0]=./railcars/br-317-driving-trailer-rear-bg.1.1
+EmptyImage[N][0]=./railcars/br-317-driving-trailer-rear-bg.1.2
+EmptyImage[NE][0]=./railcars/br-317-driving-trailer-rear-bg.1.3
 
-EmptyImage[E][1]=./images/br-455-driving-trailer-rear-nse.1.4
-EmptyImage[SE][1]=./images/br-455-driving-trailer-rear-nse.1.5
-EmptyImage[S][1]=./images/br-455-driving-trailer-rear-nse.1.6
-EmptyImage[SW][1]=./images/br-455-driving-trailer-rear-nse.1.7
-EmptyImage[W][1]=./images/br-455-driving-trailer-rear-nse.1.0
-EmptyImage[NW][1]=./images/br-455-driving-trailer-rear-nse.1.1
-EmptyImage[N][1]=./images/br-455-driving-trailer-rear-nse.1.2
-EmptyImage[NE][1]=./images/br-455-driving-trailer-rear-nse.1.3
+EmptyImage[E][1]=./railcars/br-455-driving-trailer-rear-nse.1.4
+EmptyImage[SE][1]=./railcars/br-455-driving-trailer-rear-nse.1.5
+EmptyImage[S][1]=./railcars/br-455-driving-trailer-rear-nse.1.6
+EmptyImage[SW][1]=./railcars/br-455-driving-trailer-rear-nse.1.7
+EmptyImage[W][1]=./railcars/br-455-driving-trailer-rear-nse.1.0
+EmptyImage[NW][1]=./railcars/br-455-driving-trailer-rear-nse.1.1
+EmptyImage[N][1]=./railcars/br-455-driving-trailer-rear-nse.1.2
+EmptyImage[NE][1]=./railcars/br-455-driving-trailer-rear-nse.1.3

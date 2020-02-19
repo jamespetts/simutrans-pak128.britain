@@ -5,7 +5,7 @@ engine_type=steam
 smoke=Steam
 speed=40
 # Extrapolated from estimated values
-power=12
+power=30
 tractive_effort=9
 copyright=Kieron/JamesPetts
 intro_year=1831
@@ -22,21 +22,21 @@ rolling_resistance=20
 # Given in "The Evolution of the Steam Locomotive", p. 54
 weight=11.9
 axles=3
-cost=6500000
-runningcost=8
-fixed_cost=1180
+cost=3900000
+runningcost=36
+fixed_cost=21417
 sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=wilberforce-tender
 
-EmptyImage[E]=./images/wilberforce_E.0.0
-EmptyImage[SE]=./images/wilberforce_SE.0.0
-EmptyImage[S]=./images/wilberforce_S.0.0
-EmptyImage[SW]=./images/wilberforce_SW.0.0
-EmptyImage[W]=./images/wilberforce_W.0.0
-EmptyImage[NW]=./images/wilberforce_NW.0.0
-EmptyImage[N]=./images/wilberforce_N.0.0
-EmptyImage[NE]=./images/wilberforce_NE.0.0
+EmptyImage[E]=./locomotives/wilberforce_E.0.0
+EmptyImage[SE]=./locomotives/wilberforce_SE.0.0
+EmptyImage[S]=./locomotives/wilberforce_S.0.0
+EmptyImage[SW]=./locomotives/wilberforce_SW.0.0
+EmptyImage[W]=./locomotives/wilberforce_W.0.0
+EmptyImage[NW]=./locomotives/wilberforce_NW.0.0
+EmptyImage[N]=./locomotives/wilberforce_N.0.0
+EmptyImage[NE]=./locomotives/wilberforce_NE.0.0
 
 ---
 
@@ -59,14 +59,15 @@ rolling_resistance=19
 weight=1
 cost=0
 runningcost=0
+fixed_cost=0
 
 Constraint[Prev][0]=wilberforce
 
-EmptyImage[E]=./images/sdr-derwent-tender_E.0.0
-EmptyImage[SE]=./images/sdr-derwent-tender_SE.0.0
-EmptyImage[S]=./images/sdr-derwent-tender_S.0.0
-EmptyImage[SW]=./images/sdr-derwent-tender_SW.0.0
-EmptyImage[W]=./images/sdr-derwent-tender_W.0.0
-EmptyImage[NW]=./images/sdr-derwent-tender_NW.0.0
-EmptyImage[N]=./images/sdr-derwent-tender_N.0.0
-EmptyImage[NE]=./images/sdr-derwent-tender_NE.0.0
+EmptyImage[E]=./locomotives/sdr-derwent-tender_E.0.0
+EmptyImage[SE]=./locomotives/sdr-derwent-tender_SE.0.0
+EmptyImage[S]=./locomotives/sdr-derwent-tender_S.0.0
+EmptyImage[SW]=./locomotives/sdr-derwent-tender_SW.0.0
+EmptyImage[W]=./locomotives/sdr-derwent-tender_W.0.0
+EmptyImage[NW]=./locomotives/sdr-derwent-tender_NW.0.0
+EmptyImage[N]=./locomotives/sdr-derwent-tender_N.0.0
+EmptyImage[NE]=./locomotives/sdr-derwent-tender_NE.0.0

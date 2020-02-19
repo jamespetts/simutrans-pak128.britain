@@ -4,7 +4,7 @@ engine_type=steam
 smoke=Steam
 speed=155
 # Extrapolated
-power=538
+power=548
 tractive_effort=123
 copyright=Kieron/JamesPetts
 # http://www.semgonline.com/steam/blp_dat.html
@@ -26,7 +26,8 @@ way_wear_factor=127325
 # Each rebuild was estimated to cost approx. £5,428 in 1954
 cost=9992500
 upgrade_price=6450000
-runningcost=1765
+runningcost=406
+fixed_cost=60818
 
 increase_maintenance_after_years=3
 years_before_maintenance_max_reached=10
@@ -35,12 +36,12 @@ available_only_as_upgrade=1
 
 Constraint[Next][0]=BR-7MT-Tender
 
-EmptyImage[E]=./images/sr-wc-4-6-2-rebuilt.0.0
-EmptyImage[SE]=./images/sr-wc-4-6-2-rebuilt.0.1
-EmptyImage[S]=./images/sr-wc-4-6-2-rebuilt.0.2
-EmptyImage[SW]=./images/sr-wc-4-6-2-rebuilt.0.3
-EmptyImage[W]=./images/sr-wc-4-6-2-rebuilt.0.4
-EmptyImage[NW]=./images/sr-wc-4-6-2-rebuilt.0.5
-EmptyImage[N]=./images/sr-wc-4-6-2-rebuilt.0.6
-EmptyImage[NE]=./images/sr-wc-4-6-2-rebuilt.0.7
+EmptyImage[E]=./locomotives/sr-wc-4-6-2-rebuilt_E.0.0
+EmptyImage[SE]=./locomotives/sr-wc-4-6-2-rebuilt_SE.0.0
+EmptyImage[S]=./locomotives/sr-wc-4-6-2-rebuilt_S.0.0
+EmptyImage[SW]=./locomotives/sr-wc-4-6-2-rebuilt_SW.0.0
+EmptyImage[W]=./locomotives/sr-wc-4-6-2-rebuilt_W.0.0
+EmptyImage[NW]=./locomotives/sr-wc-4-6-2-rebuilt_NW.0.0
+EmptyImage[N]=./locomotives/sr-wc-4-6-2-rebuilt_N.0.0
+EmptyImage[NE]=./locomotives/sr-wc-4-6-2-rebuilt_NE.0.0
 

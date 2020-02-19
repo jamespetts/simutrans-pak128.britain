@@ -13,7 +13,8 @@ payload[0]=0
 payload[1]=5250
 weight=12
 cost=8000000
-runningcost=1500
+runningcost=10
+fixed_cost=15556
 intro_year=1958
 intro_month=11
 # Was 1986, but left a gap before the ATR-42 was introduced.

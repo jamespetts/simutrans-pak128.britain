@@ -1,0 +1,40 @@
+obj=vehicle
+name=livestock-10t
+speed=56
+copyright=James
+intro_year=1885
+intro_month=3
+retire_year=1903
+retire_month=7
+waytype=track
+freight=livestock
+payload=10
+length=3
+brake_force=0
+rolling_resistance=19
+
+# Estimated
+weight=7.1
+axle_load=8
+cost=110000
+runningcost=0
+fixed_cost=44
+
+min_loading_time=300
+max_loading_time=900
+bidirectional=1
+
+Constraint[Prev][0]=any
+Constraint[Next][0]=any
+
+# D25 and 10t deliberately swapped due to
+# relative sizes (proper measurements are
+# hard to obtain)
+EmptyImage[E]=./wagons/wagon-livestock-d25_E.0.0
+EmptyImage[SE]=./wagons/wagon-livestock-d25_SE.0.0
+EmptyImage[S]=./wagons/wagon-livestock-d25_S.0.0
+EmptyImage[SW]=./wagons/wagon-livestock-d25_SW.0.0
+EmptyImage[W]=./wagons/wagon-livestock-d25_W.0.0
+EmptyImage[NW]=./wagons/wagon-livestock-d25_NW.0.0
+EmptyImage[N]=./wagons/wagon-livestock-d25_N.0.0
+EmptyImage[NE]=./wagons/wagon-livestock-d25_NE.0.0

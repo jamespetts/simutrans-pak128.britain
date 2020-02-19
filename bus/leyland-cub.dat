@@ -27,7 +27,8 @@ max_loading_time=80
 weight=4
 axles=2
 cost=220000
-runningcost=100
+runningcost=30
+fixed_cost=8115
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=none

@@ -22,7 +22,8 @@ weight=60.5
 # Ahrons p. 328
 axle_load=20
 cost=7600000
-runningcost=810
+runningcost=151
+fixed_cost=46333
 sound=lwalker-br-4mt-tank.wav
 
 upgrade[0]=MR-1000-superheated
@@ -33,20 +34,20 @@ Constraint[Next][0]=MR-1000-Tender
 liverytype[0]=MR-Standard
 liverytype[1]=LMS-Standard
 
-EmptyImage[E][0]=./images/mr-2631-red.1.4
-EmptyImage[SE][0]=./images/mr-2631-red.1.5
-EmptyImage[S][0]=./images/mr-2631-red.1.6
-EmptyImage[SW][0]=./images/mr-2631-red.1.7
-EmptyImage[W][0]=./images/mr-2631-red.1.0
-EmptyImage[NW][0]=./images/mr-2631-red.1.1
-EmptyImage[N][0]=./images/mr-2631-red.1.2
-EmptyImage[NE][0]=./images/mr-2631-red.1.3
+EmptyImage[E][0]=./locomotives/mr-2631-red_E.0.0
+EmptyImage[SE][0]=./locomotives/mr-2631-red_SE.0.0
+EmptyImage[S][0]=./locomotives/mr-2631-red_S.0.0
+EmptyImage[SW][0]=./locomotives/mr-2631-red_SW.0.0
+EmptyImage[W][0]=./locomotives/mr-2631-red_W.0.0
+EmptyImage[NW][0]=./locomotives/mr-2631-red_NW.0.0
+EmptyImage[N][0]=./locomotives/mr-2631-red_N.0.0
+EmptyImage[NE][0]=./locomotives/mr-2631-red_NE.0.0
 
-EmptyImage[E][1]=./images/mr-2631-lms.1.4
-EmptyImage[SE][1]=./images/mr-2631-lms.1.5
-EmptyImage[S][1]=./images/mr-2631-lms.1.6
-EmptyImage[SW][1]=./images/mr-2631-lms.1.7
-EmptyImage[W][1]=./images/mr-2631-lms.1.0
-EmptyImage[NW][1]=./images/mr-2631-lms.1.1
-EmptyImage[N][1]=./images/mr-2631-lms.1.2
-EmptyImage[NE][1]=./images/mr-2631-lms.1.3
+EmptyImage[E][1]=./locomotives/mr-2631-lms_E.0.0
+EmptyImage[SE][1]=./locomotives/mr-2631-lms_SE.0.0
+EmptyImage[S][1]=./locomotives/mr-2631-lms_S.0.0
+EmptyImage[SW][1]=./locomotives/mr-2631-lms_SW.0.0
+EmptyImage[W][1]=./locomotives/mr-2631-lms_W.0.0
+EmptyImage[NW][1]=./locomotives/mr-2631-lms_NW.0.0
+EmptyImage[N][1]=./locomotives/mr-2631-lms_N.0.0
+EmptyImage[NE][1]=./locomotives/mr-2631-lms_NE.0.0

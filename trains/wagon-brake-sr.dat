@@ -1,8 +1,10 @@
+# TODO: This may be set up as the bogie brake van,
+# but the graphics are for the rigid version. 
+# Consider adding a bogie version, too.
 obj=vehicle
 name=BrakeSR
-#?
 speed=100
-copyright=James
+copyright=James/JamesPetts
 intro_year=1923
 intro_month=10
 retire_year=1950
@@ -10,16 +12,15 @@ retire_month=12
 waytype=track
 freight=Post
 payload=50
-length=4
+length=3
 brake_force=8
 rolling_resistance=19
 
 #?
 weight=25
-cost=3700
-runningcost=17
-
-
+cost=200000
+runningcost=0
+fixed_cost=4802
 
 min_loading_time=15
 max_loading_time=30
@@ -27,13 +28,13 @@ max_loading_time=30
 can_lead_from_rear=0
 bidirectional=1
 
-EmptyImage[E]=./images/wagon-brake-sr.0.0
-EmptyImage[SE]=./images/wagon-brake-sr.0.1
-EmptyImage[S]=./images/wagon-brake-sr.0.2
-EmptyImage[SW]=./images/wagon-brake-sr.0.3
-EmptyImage[W]=./images/wagon-brake-sr.0.4
-EmptyImage[NW]=./images/wagon-brake-sr.0.5
-EmptyImage[N]=./images/wagon-brake-sr.0.6
-EmptyImage[NE]=./images/wagon-brake-sr.0.7
+EmptyImage[E]=./wagons/brake-sr_E.0.0
+EmptyImage[SE]=./wagons/brake-sr_SE.0.0
+EmptyImage[S]=./wagons/brake-sr_S.0.0
+EmptyImage[SW]=./wagons/brake-sr_SW.0.0
+EmptyImage[W]=./wagons/brake-sr_W.0.0
+EmptyImage[NW]=./wagons/brake-sr_NW.0.0
+EmptyImage[N]=./wagons/brake-sr_N.0.0
+EmptyImage[NE]=./wagons/brake-sr_NE.0.0
 
 

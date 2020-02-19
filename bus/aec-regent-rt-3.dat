@@ -18,7 +18,8 @@ gear=50
 weight=7.6
 length=6
 cost=1042000
-runningcost=190
+runningcost=89
+fixed_cost=8543
 intro_year=1947
 intro_month=4
 retire_year=1956
@@ -29,7 +30,7 @@ sound=aec-regent-3-ff3170.wav
 comfort=42
 # Rear platform with conductor: 2.0 seconds per passenger
 min_loading_time=3
-max_loading_time=98
+max_loading_time=112
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=none

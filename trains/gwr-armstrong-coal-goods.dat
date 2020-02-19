@@ -1,0 +1,100 @@
+# https://en.wikipedia.org/wiki/GWR_927_Class
+obj=vehicle
+name=gwr-armstrong-coal-goods
+engine_type=steam
+smoke=Steam
+speed=75
+# Extrapolated. Assumed to be identical to the Standard Goods except in wheel diameter
+power=192
+# Calculated from data at https://en.wikipedia.org/wiki/GWR_927_Class
+# assuming a boiler pressure of 140psi (not given) and a loss factor of 0.8
+tractive_effort=65
+copyright=James/JamesPetts
+intro_year=1866
+intro_month=12
+# No replacements until the Dean Goods
+retire_year=1883
+retire_month=7
+waytype=track
+freight=None
+payload=0
+length=4
+brake_force=0
+
+# Guessed
+weight=30.2
+# Guessed
+axle_load=11
+cost=14001450
+runningcost=211
+fixed_cost=28050
+sound=nick-parry-gwr-city-class.wav
+
+Constraint[Next][0]=gwr-armstrong-tender
+
+liverytype[0]=GWR-early
+liverytype[1]=GWR-dark-green
+liverytype[2]=GWR-standard-green
+liverytype[3]=GWR-overall-brown
+liverytype[4]=WW1-Austerity
+liverytype[5]=GWR-chocolate-cream-lined
+
+# The Coal Goods and Standard Goods share a .blend file. Wheels
+# for the Standard Goods are in layer 4 and for the Coal Goods in
+# layer 5. The locomotives are otherwise assumed to be identical.
+
+EmptyImage[E][0]=./locomotives/gwr-armstrong-coal-goods-early_E.0.0
+EmptyImage[SE][0]=./locomotives/gwr-armstrong-coal-goods-early_SE.0.0
+EmptyImage[S][0]=./locomotives/gwr-armstrong-coal-goods-early_S.0.0
+EmptyImage[SW][0]=./locomotives/gwr-armstrong-coal-goods-early_SW.0.0
+EmptyImage[W][0]=./locomotives/gwr-armstrong-coal-goods-early_W.0.0
+EmptyImage[NW][0]=./locomotives/gwr-armstrong-coal-goods-early_NW.0.0
+EmptyImage[N][0]=./locomotives/gwr-armstrong-coal-goods-early_N.0.0
+EmptyImage[NE][0]=./locomotives/gwr-armstrong-coal-goods-early_NE.0.0
+
+EmptyImage[E][1]=./locomotives/gwr-armstrong-coal-goods-dark-green_E.0.0
+EmptyImage[SE][1]=./locomotives/gwr-armstrong-coal-goods-dark-green_SE.0.0
+EmptyImage[S][1]=./locomotives/gwr-armstrong-coal-goods-dark-green_S.0.0
+EmptyImage[SW][1]=./locomotives/gwr-armstrong-coal-goods-dark-green_SW.0.0
+EmptyImage[W][1]=./locomotives/gwr-armstrong-coal-goods-dark-green_W.0.0
+EmptyImage[NW][1]=./locomotives/gwr-armstrong-coal-goods-dark-green_NW.0.0
+EmptyImage[N][1]=./locomotives/gwr-armstrong-coal-goods-dark-green_N.0.0
+EmptyImage[NE][1]=./locomotives/gwr-armstrong-coal-goods-dark-green_NE.0.0
+
+EmptyImage[E][2]=./locomotives/gwr-armstrong-coal-goods_E.0.0
+EmptyImage[SE][2]=./locomotives/gwr-armstrong-coal-goods_SE.0.0
+EmptyImage[S][2]=./locomotives/gwr-armstrong-coal-goods_S.0.0
+EmptyImage[SW][2]=./locomotives/gwr-armstrong-coal-goods_SW.0.0
+EmptyImage[W][2]=./locomotives/gwr-armstrong-coal-goods_W.0.0
+EmptyImage[NW][2]=./locomotives/gwr-armstrong-coal-goods_NW.0.0
+EmptyImage[N][2]=./locomotives/gwr-armstrong-coal-goods_N.0.0
+EmptyImage[NE][2]=./locomotives/gwr-armstrong-coal-goods_NE.0.0
+
+EmptyImage[E][3]=./locomotives/gwr-armstrong-coal-goods-churchward_E.0.0
+EmptyImage[SE][3]=./locomotives/gwr-armstrong-coal-goods-churchward_SE.0.0
+EmptyImage[S][3]=./locomotives/gwr-armstrong-coal-goods-churchward_S.0.0
+EmptyImage[SW][3]=./locomotives/gwr-armstrong-coal-goods-churchward_SW.0.0
+EmptyImage[W][3]=./locomotives/gwr-armstrong-coal-goods-churchward_W.0.0
+EmptyImage[NW][3]=./locomotives/gwr-armstrong-coal-goods-churchward_NW.0.0
+EmptyImage[N][3]=./locomotives/gwr-armstrong-coal-goods-churchward_N.0.0
+EmptyImage[NE][3]=./locomotives/gwr-armstrong-coal-goods-churchward_NE.0.0
+
+EmptyImage[E][4]=./locomotives/gwr-armstrong-coal-goods-ww1-austerity_E.0.0
+EmptyImage[SE][4]=./locomotives/gwr-armstrong-coal-goods-ww1-austerity_SE.0.0
+EmptyImage[S][4]=./locomotives/gwr-armstrong-coal-goods-ww1-austerity_S.0.0
+EmptyImage[SW][4]=./locomotives/gwr-armstrong-coal-goods-ww1-austerity_SW.0.0
+EmptyImage[W][4]=./locomotives/gwr-armstrong-coal-goods-ww1-austerity_W.0.0
+EmptyImage[NW][4]=./locomotives/gwr-armstrong-coal-goods-ww1-austerity_NW.0.0
+EmptyImage[N][4]=./locomotives/gwr-armstrong-coal-goods-ww1-austerity_N.0.0
+EmptyImage[NE][4]=./locomotives/gwr-armstrong-coal-goods-ww1-austerity_NE.0.0
+
+EmptyImage[E][5]=./locomotives/gwr-armstrong-coal-goods-collett_E.0.0
+EmptyImage[SE][5]=./locomotives/gwr-armstrong-coal-goods-collett_SE.0.0
+EmptyImage[S][5]=./locomotives/gwr-armstrong-coal-goods-collett_S.0.0
+EmptyImage[SW][5]=./locomotives/gwr-armstrong-coal-goods-collett_SW.0.0
+EmptyImage[W][5]=./locomotives/gwr-armstrong-coal-goods-collett_W.0.0
+EmptyImage[NW][5]=./locomotives/gwr-armstrong-coal-goods-collett_NW.0.0
+EmptyImage[N][5]=./locomotives/gwr-armstrong-coal-goods-collett_N.0.0
+EmptyImage[NE][5]=./locomotives/gwr-armstrong-coal-goods-collett_NE.0.0
+
+

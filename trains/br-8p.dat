@@ -22,19 +22,20 @@ axle_load=22
 # Three cylinders
 way_wear_factor=141488
 cost=10450000
-runningcost=2295
+runningcost=525
+fixed_cost=61771
 sound=konakaboom-black-five.wav
 increase_maintenance_after_years=5
 years_before_maintenance_max_reached=12
 
 Constraint[Next][0]=BR-7MT-Tender
 
-EmptyImage[E]=./images/br-8p.0.0
-EmptyImage[SE]=./images/br-8p.0.1
-EmptyImage[S]=./images/br-8p.0.2
-EmptyImage[SW]=./images/br-8p.0.3
-EmptyImage[W]=./images/br-8p.0.4
-EmptyImage[NW]=./images/br-8p.0.5
-EmptyImage[N]=./images/br-8p.0.6
-EmptyImage[NE]=./images/br-8p.0.7
+EmptyImage[E]=./locomotives/br-8p_E.0.0
+EmptyImage[SE]=./locomotives/br-8p_SE.0.0
+EmptyImage[S]=./locomotives/br-8p_S.0.0
+EmptyImage[SW]=./locomotives/br-8p_SW.0.0
+EmptyImage[W]=./locomotives/br-8p_W.0.0
+EmptyImage[NW]=./locomotives/br-8p_NW.0.0
+EmptyImage[N]=./locomotives/br-8p_N.0.0
+EmptyImage[NE]=./locomotives/br-8p_NE.0.0
 

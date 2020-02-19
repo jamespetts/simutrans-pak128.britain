@@ -13,7 +13,8 @@ length=13
 
 weight=34
 cost=590000
-runningcost=30
+runningcost=0
+fixed_cost=1229
 sound=-1
 
 Constraint[Next][0]=BR-Mk3-TO(GrandCentralOriginal)
@@ -48,7 +49,8 @@ length=13
 
 weight=34
 cost=590000
-runningcost=30
+runningcost=0
+fixed_cost=1229
 sound=-1
 
 

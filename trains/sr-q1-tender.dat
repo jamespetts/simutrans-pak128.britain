@@ -16,18 +16,19 @@ weight=32
 axles=3
 cost=0
 runningcost=0
+fixed_cost=0
 
 increase_maintenance_after_years=6
 years_before_maintenance_max_reached=10
 
 Constraint[Prev][0]=SR-Q1
 
-EmptyImage[E]=./images/sr-q1.1.0
-EmptyImage[SE]=./images/sr-q1.1.1
-EmptyImage[S]=./images/sr-q1.1.2
-EmptyImage[SW]=./images/sr-q1.1.3
-EmptyImage[W]=./images/sr-q1.1.4
-EmptyImage[NW]=./images/sr-q1.1.5
-EmptyImage[N]=./images/sr-q1.1.6
-EmptyImage[NE]=./images/sr-q1.1.7
+EmptyImage[E]=./locomotives/sr-q1.1.0
+EmptyImage[SE]=./locomotives/sr-q1.1.1
+EmptyImage[S]=./locomotives/sr-q1.1.2
+EmptyImage[SW]=./locomotives/sr-q1.1.3
+EmptyImage[W]=./locomotives/sr-q1.1.4
+EmptyImage[NW]=./locomotives/sr-q1.1.5
+EmptyImage[N]=./locomotives/sr-q1.1.6
+EmptyImage[NE]=./locomotives/sr-q1.1.7
 

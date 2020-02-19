@@ -20,7 +20,8 @@ payload=0
 weight=62.4
 axles=4
 cost=8928000
-runningcost=1188
+runningcost=357
+fixed_cost=13440
 sound=lul-1938-stock-ff3170.wav
 
 bidirectional=1

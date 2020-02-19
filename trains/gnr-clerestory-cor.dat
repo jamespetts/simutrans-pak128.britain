@@ -19,7 +19,8 @@ rolling_resistance=17
 weight=32.5
 axles=6
 cost=800000
-runningcost=38
+runningcost=0
+fixed_cost=952
 
 can_lead_from_rear=0
 bidirectional=1
@@ -77,14 +78,14 @@ Constraint[Prev][20]=gnr-gresley-cor-parcels-brake
 Constraint[Prev][21]=gnr-gresley-cor-mail
 Constraint[Prev][22]=gnr-gresley-cor-tpo
 
-EmptyImage[E]=./images/gnr-clerestory-cor-63ft-5.1.4
-EmptyImage[SE]=./images/gnr-clerestory-cor-63ft-5.1.5
-EmptyImage[S]=./images/gnr-clerestory-cor-63ft-5.1.6
-EmptyImage[SW]=./images/gnr-clerestory-cor-63ft-5.1.7
-EmptyImage[W]=./images/gnr-clerestory-cor-63ft-5.1.0
-EmptyImage[NW]=./images/gnr-clerestory-cor-63ft-5.1.1
-EmptyImage[N]=./images/gnr-clerestory-cor-63ft-5.1.2
-EmptyImage[NE]=./images/gnr-clerestory-cor-63ft-5.1.3
+EmptyImage[E]=./carriages/gnr-clerestory-cor-63ft-5.1.4
+EmptyImage[SE]=./carriages/gnr-clerestory-cor-63ft-5.1.5
+EmptyImage[S]=./carriages/gnr-clerestory-cor-63ft-5.1.6
+EmptyImage[SW]=./carriages/gnr-clerestory-cor-63ft-5.1.7
+EmptyImage[W]=./carriages/gnr-clerestory-cor-63ft-5.1.0
+EmptyImage[NW]=./carriages/gnr-clerestory-cor-63ft-5.1.1
+EmptyImage[N]=./carriages/gnr-clerestory-cor-63ft-5.1.2
+EmptyImage[NE]=./carriages/gnr-clerestory-cor-63ft-5.1.3
 
 ---
 
@@ -109,7 +110,8 @@ rolling_resistance=17
 weight=32.5
 axles=6
 cost=800000
-runningcost=38
+runningcost=0
+fixed_cost=5752
 
 can_lead_from_rear=0
 bidirectional=1
@@ -117,7 +119,7 @@ min_loading_time=20
 max_loading_time=50
 
 comfort[0]=0
-comfort[1]==132
+comfort[1]=132
 
 Constraint[Next][0]=LNER-Gresley-Express-Coach
 Constraint[Next][1]=LNER-Gresley-Express-Brake-rear
@@ -144,14 +146,14 @@ Constraint[Next][21]=gnr-gresley-cor-mail
 Constraint[Next][22]=gnr-gresley-cor-tpo
 Constraint[Next][23]=none
 
-EmptyImage[E]=./images/gnr-clerestory-cor-brake-front-63ft-5.1.4
-EmptyImage[SE]=./images/gnr-clerestory-cor-brake-front-63ft-5.1.5
-EmptyImage[S]=./images/gnr-clerestory-cor-brake-front-63ft-5.1.6
-EmptyImage[SW]=./images/gnr-clerestory-cor-brake-front-63ft-5.1.7
-EmptyImage[W]=./images/gnr-clerestory-cor-brake-front-63ft-5.1.0
-EmptyImage[NW]=./images/gnr-clerestory-cor-brake-front-63ft-5.1.1
-EmptyImage[N]=./images/gnr-clerestory-cor-brake-front-63ft-5.1.2
-EmptyImage[NE]=./images/gnr-clerestory-cor-brake-front-63ft-5.1.3
+EmptyImage[E]=./carriages/gnr-clerestory-cor-brake-front-63ft-5.1.4
+EmptyImage[SE]=./carriages/gnr-clerestory-cor-brake-front-63ft-5.1.5
+EmptyImage[S]=./carriages/gnr-clerestory-cor-brake-front-63ft-5.1.6
+EmptyImage[SW]=./carriages/gnr-clerestory-cor-brake-front-63ft-5.1.7
+EmptyImage[W]=./carriages/gnr-clerestory-cor-brake-front-63ft-5.1.0
+EmptyImage[NW]=./carriages/gnr-clerestory-cor-brake-front-63ft-5.1.1
+EmptyImage[N]=./carriages/gnr-clerestory-cor-brake-front-63ft-5.1.2
+EmptyImage[NE]=./carriages/gnr-clerestory-cor-brake-front-63ft-5.1.3
 
 ---
 
@@ -176,12 +178,14 @@ rolling_resistance=17
 weight=32.5
 axles=6
 cost=800000
-runningcost=38
+runningcost=0
+fixed_cost=5752
 
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=20
 max_loading_time=50
+
 comfort[0]=0
 comfort[1]=132
 
@@ -209,14 +213,14 @@ Constraint[Prev][20]=gnr-gresley-cor-parcels-brake
 Constraint[Prev][21]=gnr-gresley-cor-mail
 Constraint[Prev][22]=gnr-gresley-cor-tpo
 
-EmptyImage[E]=./images/gnr-clerestory-cor-brake-rear-63ft-5.1.4
-EmptyImage[SE]=./images/gnr-clerestory-cor-brake-rear-63ft-5.1.5
-EmptyImage[S]=./images/gnr-clerestory-cor-brake-rear-63ft-5.1.6
-EmptyImage[SW]=./images/gnr-clerestory-cor-brake-rear-63ft-5.1.7
-EmptyImage[W]=./images/gnr-clerestory-cor-brake-rear-63ft-5.1.0
-EmptyImage[NW]=./images/gnr-clerestory-cor-brake-rear-63ft-5.1.1
-EmptyImage[N]=./images/gnr-clerestory-cor-brake-rear-63ft-5.1.2
-EmptyImage[NE]=./images/gnr-clerestory-cor-brake-rear-63ft-5.1.3
+EmptyImage[E]=./carriages/gnr-clerestory-cor-brake-rear-63ft-5.1.4
+EmptyImage[SE]=./carriages/gnr-clerestory-cor-brake-rear-63ft-5.1.5
+EmptyImage[S]=./carriages/gnr-clerestory-cor-brake-rear-63ft-5.1.6
+EmptyImage[SW]=./carriages/gnr-clerestory-cor-brake-rear-63ft-5.1.7
+EmptyImage[W]=./carriages/gnr-clerestory-cor-brake-rear-63ft-5.1.0
+EmptyImage[NW]=./carriages/gnr-clerestory-cor-brake-rear-63ft-5.1.1
+EmptyImage[N]=./carriages/gnr-clerestory-cor-brake-rear-63ft-5.1.2
+EmptyImage[NE]=./carriages/gnr-clerestory-cor-brake-rear-63ft-5.1.3
 
 ---
 
@@ -241,7 +245,8 @@ rolling_resistance=17
 weight=33
 axles=6
 cost=950000
-runningcost=44
+runningcost=0
+fixed_cost=19131
 
 can_lead_from_rear=0
 bidirectional=1
@@ -300,14 +305,14 @@ Constraint[Prev][20]=gnr-gresley-cor-parcels-brake
 Constraint[Prev][21]=gnr-gresley-cor-mail
 Constraint[Prev][22]=gnr-gresley-cor-tpo
 
-EmptyImage[E]=./images/gnr-clerestory-dining-car.1.4
-EmptyImage[SE]=./images/gnr-clerestory-dining-car.1.5
-EmptyImage[S]=./images/gnr-clerestory-dining-car.1.6
-EmptyImage[SW]=./images/gnr-clerestory-dining-car.1.7
-EmptyImage[W]=./images/gnr-clerestory-dining-car.1.0
-EmptyImage[NW]=./images/gnr-clerestory-dining-car.1.1
-EmptyImage[N]=./images/gnr-clerestory-dining-car.1.2
-EmptyImage[NE]=./images/gnr-clerestory-dining-car.1.3
+EmptyImage[E]=./carriages/gnr-clerestory-dining-car.1.4
+EmptyImage[SE]=./carriages/gnr-clerestory-dining-car.1.5
+EmptyImage[S]=./carriages/gnr-clerestory-dining-car.1.6
+EmptyImage[SW]=./carriages/gnr-clerestory-dining-car.1.7
+EmptyImage[W]=./carriages/gnr-clerestory-dining-car.1.0
+EmptyImage[NW]=./carriages/gnr-clerestory-dining-car.1.1
+EmptyImage[N]=./carriages/gnr-clerestory-dining-car.1.2
+EmptyImage[NE]=./carriages/gnr-clerestory-dining-car.1.3
 
 ---
 
@@ -331,7 +336,8 @@ length=9
 weight=25
 axles=4
 cost=740000
-runningcost=37
+runningcost=0
+fixed_cost=881
 
 can_lead_from_rear=0
 bidirectional=1
@@ -389,14 +395,14 @@ Constraint[Prev][20]=gnr-gresley-cor-parcels-brake
 Constraint[Prev][21]=gnr-gresley-cor-mail
 Constraint[Prev][22]=gnr-gresley-cor-tpo
 
-EmptyImage[E]=./images/gnr-clerestory-cor-53ft-6.1.4
-EmptyImage[SE]=./images/gnr-clerestory-cor-53ft-6.1.5
-EmptyImage[S]=./images/gnr-clerestory-cor-53ft-6.1.6
-EmptyImage[SW]=./images/gnr-clerestory-cor-53ft-6.1.7
-EmptyImage[W]=./images/gnr-clerestory-cor-53ft-6.1.0
-EmptyImage[NW]=./images/gnr-clerestory-cor-53ft-6.1.1
-EmptyImage[N]=./images/gnr-clerestory-cor-53ft-6.1.2
-EmptyImage[NE]=./images/gnr-clerestory-cor-53ft-6.1.3
+EmptyImage[E]=./carriages/gnr-clerestory-cor-53ft-6.1.4
+EmptyImage[SE]=./carriages/gnr-clerestory-cor-53ft-6.1.5
+EmptyImage[S]=./carriages/gnr-clerestory-cor-53ft-6.1.6
+EmptyImage[SW]=./carriages/gnr-clerestory-cor-53ft-6.1.7
+EmptyImage[W]=./carriages/gnr-clerestory-cor-53ft-6.1.0
+EmptyImage[NW]=./carriages/gnr-clerestory-cor-53ft-6.1.1
+EmptyImage[N]=./carriages/gnr-clerestory-cor-53ft-6.1.2
+EmptyImage[NE]=./carriages/gnr-clerestory-cor-53ft-6.1.3
 
 ---
 
@@ -420,7 +426,8 @@ length=9
 weight=25
 axles=4
 cost=740000
-runningcost=37
+runningcost=0
+fixed_cost=5681
 
 can_lead_from_rear=0
 bidirectional=1
@@ -456,14 +463,14 @@ Constraint[Next][22]=gnr-gresley-cor-tpo
 Constraint[Next][23]=none
 
 
-EmptyImage[E]=./images/gnr-clerestory-cor-brake-front-53ft-6.1.4
-EmptyImage[SE]=./images/gnr-clerestory-cor-brake-front-53ft-6.1.5
-EmptyImage[S]=./images/gnr-clerestory-cor-brake-front-53ft-6.1.6
-EmptyImage[SW]=./images/gnr-clerestory-cor-brake-front-53ft-6.1.7
-EmptyImage[W]=./images/gnr-clerestory-cor-brake-front-53ft-6.1.0
-EmptyImage[NW]=./images/gnr-clerestory-cor-brake-front-53ft-6.1.1
-EmptyImage[N]=./images/gnr-clerestory-cor-brake-front-53ft-6.1.2
-EmptyImage[NE]=./images/gnr-clerestory-cor-brake-front-53ft-6.1.3
+EmptyImage[E]=./carriages/gnr-clerestory-cor-brake-front-53ft-6.1.4
+EmptyImage[SE]=./carriages/gnr-clerestory-cor-brake-front-53ft-6.1.5
+EmptyImage[S]=./carriages/gnr-clerestory-cor-brake-front-53ft-6.1.6
+EmptyImage[SW]=./carriages/gnr-clerestory-cor-brake-front-53ft-6.1.7
+EmptyImage[W]=./carriages/gnr-clerestory-cor-brake-front-53ft-6.1.0
+EmptyImage[NW]=./carriages/gnr-clerestory-cor-brake-front-53ft-6.1.1
+EmptyImage[N]=./carriages/gnr-clerestory-cor-brake-front-53ft-6.1.2
+EmptyImage[NE]=./carriages/gnr-clerestory-cor-brake-front-53ft-6.1.3
 
 ---
 
@@ -487,7 +494,8 @@ length=9
 weight=25
 axles=4
 cost=740000
-runningcost=37
+runningcost=0
+fixed_cost=5681
 
 can_lead_from_rear=0
 bidirectional=1
@@ -522,14 +530,14 @@ Constraint[Prev][21]=gnr-gresley-cor-mail
 Constraint[Prev][22]=gnr-gresley-cor-tpo
 
 
-EmptyImage[E]=./images/gnr-clerestory-cor-brake-rear-53ft-6.1.4
-EmptyImage[SE]=./images/gnr-clerestory-cor-brake-rear-53ft-6.1.5
-EmptyImage[S]=./images/gnr-clerestory-cor-brake-rear-53ft-6.1.6
-EmptyImage[SW]=./images/gnr-clerestory-cor-brake-rear-53ft-6.1.7
-EmptyImage[W]=./images/gnr-clerestory-cor-brake-rear-53ft-6.1.0
-EmptyImage[NW]=./images/gnr-clerestory-cor-brake-rear-53ft-6.1.1
-EmptyImage[N]=./images/gnr-clerestory-cor-brake-rear-53ft-6.1.2
-EmptyImage[NE]=./images/gnr-clerestory-cor-brake-rear-53ft-6.1.3
+EmptyImage[E]=./carriages/gnr-clerestory-cor-brake-rear-53ft-6.1.4
+EmptyImage[SE]=./carriages/gnr-clerestory-cor-brake-rear-53ft-6.1.5
+EmptyImage[S]=./carriages/gnr-clerestory-cor-brake-rear-53ft-6.1.6
+EmptyImage[SW]=./carriages/gnr-clerestory-cor-brake-rear-53ft-6.1.7
+EmptyImage[W]=./carriages/gnr-clerestory-cor-brake-rear-53ft-6.1.0
+EmptyImage[NW]=./carriages/gnr-clerestory-cor-brake-rear-53ft-6.1.1
+EmptyImage[N]=./carriages/gnr-clerestory-cor-brake-rear-53ft-6.1.2
+EmptyImage[NE]=./carriages/gnr-clerestory-cor-brake-rear-53ft-6.1.3
 
 ---
 
@@ -551,21 +559,22 @@ length=8
 weight=23.5
 axles=4
 cost=700000
-runningcost=37
+runningcost=0
+fixed_cost=5633
 
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=25
 max_loading_time=180
 
-EmptyImage[E]=./images/gnr-clerestory-cor-full-brake-45ft.1.4
-EmptyImage[SE]=./images/gnr-clerestory-cor-full-brake-45ft.1.5
-EmptyImage[S]=./images/gnr-clerestory-cor-full-brake-45ft.1.6
-EmptyImage[SW]=./images/gnr-clerestory-cor-full-brake-45ft.1.7
-EmptyImage[W]=./images/gnr-clerestory-cor-full-brake-45ft.1.0
-EmptyImage[NW]=./images/gnr-clerestory-cor-full-brake-45ft.1.1
-EmptyImage[N]=./images/gnr-clerestory-cor-full-brake-45ft.1.2
-EmptyImage[NE]=./images/gnr-clerestory-cor-full-brake-45ft.1.3
+EmptyImage[E]=./carriages/gnr-clerestory-cor-full-brake-45ft.1.4
+EmptyImage[SE]=./carriages/gnr-clerestory-cor-full-brake-45ft.1.5
+EmptyImage[S]=./carriages/gnr-clerestory-cor-full-brake-45ft.1.6
+EmptyImage[SW]=./carriages/gnr-clerestory-cor-full-brake-45ft.1.7
+EmptyImage[W]=./carriages/gnr-clerestory-cor-full-brake-45ft.1.0
+EmptyImage[NW]=./carriages/gnr-clerestory-cor-full-brake-45ft.1.1
+EmptyImage[N]=./carriages/gnr-clerestory-cor-full-brake-45ft.1.2
+EmptyImage[NE]=./carriages/gnr-clerestory-cor-full-brake-45ft.1.3
 
 ---
 
@@ -587,7 +596,8 @@ length=8
 weight=23.5
 axles=4
 cost=700000
-runningcost=36
+runningcost=0
+fixed_cost=292
 
 can_lead_from_rear=0
 bidirectional=1
@@ -642,14 +652,14 @@ Constraint[Prev][20]=gnr-gresley-cor-parcels-brake
 Constraint[Prev][21]=gnr-gresley-cor-mail
 Constraint[Prev][22]=gnr-gresley-cor-tpo
 
-EmptyImage[E]=./images/gnr-clerestory-cor-mail-45ft.1.4
-EmptyImage[SE]=./images/gnr-clerestory-cor-mail-45ft.1.5
-EmptyImage[S]=./images/gnr-clerestory-cor-mail-45ft.1.6
-EmptyImage[SW]=./images/gnr-clerestory-cor-mail-45ft.1.7
-EmptyImage[W]=./images/gnr-clerestory-cor-mail-45ft.1.0
-EmptyImage[NW]=./images/gnr-clerestory-cor-mail-45ft.1.1
-EmptyImage[N]=./images/gnr-clerestory-cor-mail-45ft.1.2
-EmptyImage[NE]=./images/gnr-clerestory-cor-mail-45ft.1.3
+EmptyImage[E]=./carriages/gnr-clerestory-cor-mail-45ft.1.4
+EmptyImage[SE]=./carriages/gnr-clerestory-cor-mail-45ft.1.5
+EmptyImage[S]=./carriages/gnr-clerestory-cor-mail-45ft.1.6
+EmptyImage[SW]=./carriages/gnr-clerestory-cor-mail-45ft.1.7
+EmptyImage[W]=./carriages/gnr-clerestory-cor-mail-45ft.1.0
+EmptyImage[NW]=./carriages/gnr-clerestory-cor-mail-45ft.1.1
+EmptyImage[N]=./carriages/gnr-clerestory-cor-mail-45ft.1.2
+EmptyImage[NE]=./carriages/gnr-clerestory-cor-mail-45ft.1.3
 
 ---
 
@@ -671,7 +681,8 @@ length=8
 weight=23.5
 axles=4
 cost=770000
-runningcost=38
+runningcost=0
+fixed_cost=24321
 
 can_lead_from_rear=0
 bidirectional=1
@@ -727,11 +738,11 @@ Constraint[Prev][20]=gnr-gresley-cor-parcels-brake
 Constraint[Prev][21]=gnr-gresley-cor-mail
 Constraint[Prev][22]=gnr-gresley-cor-tpo
 
-EmptyImage[E]=./images/gnr-clerestory-cor-tpo-45ft.1.4
-EmptyImage[SE]=./images/gnr-clerestory-cor-tpo-45ft.1.5
-EmptyImage[S]=./images/gnr-clerestory-cor-tpo-45ft.1.6
-EmptyImage[SW]=./images/gnr-clerestory-cor-tpo-45ft.1.7
-EmptyImage[W]=./images/gnr-clerestory-cor-tpo-45ft.1.0
-EmptyImage[NW]=./images/gnr-clerestory-cor-tpo-45ft.1.1
-EmptyImage[N]=./images/gnr-clerestory-cor-tpo-45ft.1.2
-EmptyImage[NE]=./images/gnr-clerestory-cor-tpo-45ft.1.3
+EmptyImage[E]=./carriages/gnr-clerestory-cor-tpo-45ft.1.4
+EmptyImage[SE]=./carriages/gnr-clerestory-cor-tpo-45ft.1.5
+EmptyImage[S]=./carriages/gnr-clerestory-cor-tpo-45ft.1.6
+EmptyImage[SW]=./carriages/gnr-clerestory-cor-tpo-45ft.1.7
+EmptyImage[W]=./carriages/gnr-clerestory-cor-tpo-45ft.1.0
+EmptyImage[NW]=./carriages/gnr-clerestory-cor-tpo-45ft.1.1
+EmptyImage[N]=./carriages/gnr-clerestory-cor-tpo-45ft.1.2
+EmptyImage[NE]=./carriages/gnr-clerestory-cor-tpo-45ft.1.3

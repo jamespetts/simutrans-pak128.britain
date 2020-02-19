@@ -5,7 +5,7 @@
 
 #der Ort wo sich makeobj befindet absolut
 #Absolute filepath to where makeobj is located
-!makeobj=C:\Users\James\Documents\Development\Simutrans\simutrans-extended-sources\simutrans\makeobj-extended.exe
+!makeobj=C:\Users\James E. Petts\Documents\Development\Simutrans\simutrans-extended-sources\simutrans\makeobj-extended.exe
 
 #der Ort wo die Dateien hinkopiert werden sollen absolut MIT / am Ende
 #You need to specify the location of the folder you want to build the pak in here

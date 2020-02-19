@@ -17,7 +17,8 @@ gear=80
 weight=8.6
 axles=2
 cost=36000
-runningcost=85
+runningcost=18
+fixed_cost=12038
 intro_year=1952
 intro_month=10
 retire_year=1966
@@ -29,6 +30,9 @@ comfort=48
 min_loading_time=3
 max_loading_time=111
 sound=androo4519-btu9613t.wav
+
+Constraint[Prev][0]=none
+Constraint[Next][0]=none
 
 liverytype[0]=Glasgow-Corporation-revised-1
 liverytype[1]=Glasgow-Corporation-revised-2

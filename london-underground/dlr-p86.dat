@@ -16,10 +16,11 @@ payload[0]=0
 payload[1]=42
 overcrowded_capacity=105
 
-weight=18
+weight=19.5
 axles=4
 cost=525000
-runningcost=56
+runningcost=13
+fixed_cost=6438
 sound=video47-dlr.wav
 
 can_lead_from_rear=1
@@ -30,7 +31,8 @@ max_loading_time=40
 comfort[0]=0
 comfort[1]=54
 
-Constraint[Prev][0]=none
+Constraint[Prev][0]=DLR-P86Rear
+Constraint[Prev][1]=none
 
 Constraint[Next][0]=DLR-P86Rear
 
@@ -63,10 +65,11 @@ payload[0]=0
 payload[1]=42
 overcrowded_capacity=105
 
-weight=18
+weight=19.5
 axles=4
 cost=525000
-runningcost=56
+runningcost=13
+fixed_cost=6438
 sound=video47-dlr.wav
 
 can_lead_from_rear=1
@@ -79,7 +82,8 @@ comfort[1]=54
 
 Constraint[Prev][0]=DLR-P86Front
 
-Constraint[Next][0]=none
+Constraint[Next][0]=DLR-P86Front
+Constraint[Next][1]=none
 
 EmptyImage[E]=./images/dlr-p86.1.0
 EmptyImage[SE]=./images/dlr-p86.1.1
@@ -89,4 +93,3 @@ EmptyImage[W]=./images/dlr-p86.1.4
 EmptyImage[NW]=./images/dlr-p86.1.5
 EmptyImage[N]=./images/dlr-p86.1.6
 EmptyImage[NE]=./images/dlr-p86.1.7
-

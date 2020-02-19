@@ -18,19 +18,19 @@ length=3
 # Guessed
 weight=6
 cost=110000
-runningcost=20
-fixed_cost=4846
+runningcost=0
+fixed_cost=4892
 
 bidirectional=1
 
-EmptyImage[E]=./images/brake-6t_E.0.0
-EmptyImage[SE]=./images/brake-6t_SE.0.0
-EmptyImage[S]=./images/brake-6t_S.0.0
-EmptyImage[SW]=./images/brake-6t_SW.0.0
-EmptyImage[W]=./images/brake-6t_W.0.0
-EmptyImage[NW]=./images/brake-6t_NW.0.0
-EmptyImage[N]=./images/brake-6t_N.0.0
-EmptyImage[NE]=./images/brake-6t_NE.0.0
+EmptyImage[E]=./wagons/brake-6t_E.0.0
+EmptyImage[SE]=./wagons/brake-6t_SE.0.0
+EmptyImage[S]=./wagons/brake-6t_S.0.0
+EmptyImage[SW]=./wagons/brake-6t_SW.0.0
+EmptyImage[W]=./wagons/brake-6t_W.0.0
+EmptyImage[NW]=./wagons/brake-6t_NW.0.0
+EmptyImage[N]=./wagons/brake-6t_N.0.0
+EmptyImage[NE]=./wagons/brake-6t_NE.0.0
 
 
 

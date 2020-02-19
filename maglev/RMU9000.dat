@@ -13,7 +13,8 @@ length=8
 weight=15
 axles=1
 cost=30000000
-runningcost=80
+runningcost=53
+fixed_cost=25625
 
 
 can_lead_from_rear=0

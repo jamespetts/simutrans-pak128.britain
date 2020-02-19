@@ -19,7 +19,7 @@ retire_month=12
 waytype=narrowgauge_track
 freight=None
 payload=0
-length=4
+length=3
 rolling_resistance=20
 
 # http://www.festipedia.org.uk/wiki/Princess
@@ -32,8 +32,8 @@ rolling_resistance=20
 weight=6.6
 axle_load=3
 cost=1726769
-runningcost=35
-fixed_cost=16719
+runningcost=11
+fixed_cost=17439
 sound=the-mart-ban-wllr-tank.wav
 
 can_lead_from_rear=0
@@ -46,42 +46,41 @@ liverytype[1]=FR-Royal-Purple-Cream
 liverytype[2]=FR-Col-Stephens
 liverytype[3]=FR-Cherry-Red
 
-EmptyImage[E][0]=./images/george-england-maroon.1.0,-10,-5
-EmptyImage[SE][0]=./images/george-england-maroon.1.1,0,-5
-EmptyImage[S][0]=./images/george-england-maroon.1.2,10,-5
-EmptyImage[SW][0]=./images/george-england-maroon.1.3,10,0
-EmptyImage[W][0]=./images/george-england-maroon.1.4,10,5
-EmptyImage[NW][0]=./images/george-england-maroon.1.5,0,5
-EmptyImage[N][0]=./images/george-england-maroon.1.6,-10,5
-EmptyImage[NE][0]=./images/george-england-maroon.1.7,-10,0
+EmptyImage[W][0]=./images/george-england-maroon_E.0.0
+EmptyImage[NW][0]=./images/george-england-maroon_SE.0.0
+EmptyImage[N][0]=./images/george-england-maroon_S.0.0
+EmptyImage[NE][0]=./images/george-england-maroon_SW.0.0
+EmptyImage[E][0]=./images/george-england-maroon_W.0.0
+EmptyImage[SE][0]=./images/george-england-maroon_NW.0.0
+EmptyImage[S][0]=./images/george-england-maroon_N.0.0
+EmptyImage[SW][0]=./images/george-england-maroon_NE.0.0
 
-EmptyImage[E][1]=./images/george-england-scarlet.1.0,-10,-5
-EmptyImage[SE][1]=./images/george-england-scarlet.1.1,0,-5
-EmptyImage[S][1]=./images/george-england-scarlet.1.2,10,-5
-EmptyImage[SW][1]=./images/george-england-scarlet.1.3,10,0
-EmptyImage[W][1]=./images/george-england-scarlet.1.4,10,5
-EmptyImage[NW][1]=./images/george-england-scarlet.1.5,0,5
-EmptyImage[N][1]=./images/george-england-scarlet.1.6,-10,5
-EmptyImage[NE][1]=./images/george-england-scarlet.1.7,-10,0
+EmptyImage[W][1]=./images/george-england-scarlet_E.0.0
+EmptyImage[NW][1]=./images/george-england-scarlet_SE.0.0
+EmptyImage[N][1]=./images/george-england-scarlet_S.0.0
+EmptyImage[NE][1]=./images/george-england-scarlet_SW.0.0
+EmptyImage[E][1]=./images/george-england-scarlet_W.0.0
+EmptyImage[SE][1]=./images/george-england-scarlet_NW.0.0
+EmptyImage[S][1]=./images/george-england-scarlet_N.0.0
+EmptyImage[SW][1]=./images/george-england-scarlet_NE.0.0
 
-EmptyImage[E][2]=./images/george-england-green.1.0,-10,-5
-EmptyImage[SE][2]=./images/george-england-green.1.1,0,-5
-EmptyImage[S][2]=./images/george-england-green.1.2,10,-5
-EmptyImage[SW][2]=./images/george-england-green.1.3,10,0
-EmptyImage[W][2]=./images/george-england-green.1.4,10,5
-EmptyImage[NW][2]=./images/george-england-green.1.5,0,5
-EmptyImage[N][2]=./images/george-england-green.1.6,-10,5
-EmptyImage[NE][2]=./images/george-england-green.1.7,-10,0
+EmptyImage[W][2]=./images/george-england-green_E.0.0
+EmptyImage[NW][2]=./images/george-england-green_SE.0.0
+EmptyImage[N][2]=./images/george-england-green_S.0.0
+EmptyImage[NE][2]=./images/george-england-green_SW.0.0
+EmptyImage[E][2]=./images/george-england-green_W.0.0
+EmptyImage[SE][2]=./images/george-england-green_NW.0.0
+EmptyImage[S][2]=./images/george-england-green_N.0.0
+EmptyImage[SW][2]=./images/george-england-green_NE.0.0
 
-EmptyImage[E][3]=./images/george-england-scarlet.1.0,-10,-5
-EmptyImage[SE][3]=./images/george-england-scarlet.1.1,0,-5
-EmptyImage[S][3]=./images/george-england-scarlet.1.2,10,-5
-EmptyImage[SW][3]=./images/george-england-scarlet.1.3,10,0
-EmptyImage[W][3]=./images/george-england-scarlet.1.4,10,5
-EmptyImage[NW][3]=./images/george-england-scarlet.1.5,0,5
-EmptyImage[N][3]=./images/george-england-scarlet.1.6,-10,5
-EmptyImage[NE][3]=./images/george-england-scarlet.1.7,-10,0
-
+EmptyImage[W][3]=./images/george-england-scarlet_E.0.0
+EmptyImage[NW][3]=./images/george-england-scarlet_SE.0.0
+EmptyImage[N][3]=./images/george-england-scarlet_S.0.0
+EmptyImage[NE][3]=./images/george-england-scarlet_SW.0.0
+EmptyImage[E][3]=./images/george-england-scarlet_W.0.0
+EmptyImage[SE][3]=./images/george-england-scarlet_NW.0.0
+EmptyImage[S][3]=./images/george-england-scarlet_N.0.0
+EmptyImage[SW][3]=./images/george-england-scarlet_NE.0.0
 ---
 
 obj=vehicle
@@ -107,7 +106,6 @@ axles=2
 cost=0
 runningcost=0
 
-
 can_lead_from_rear=0
 bidirectional=0
 
@@ -118,38 +116,38 @@ liverytype[1]=FR-Royal-Purple-Cream
 liverytype[2]=FR-Col-Stephens
 liverytype[3]=FR-Cherry-Red
 
-EmptyImage[E][0]=./images/george-england-tender-maroon.1.0,-10,-5
-EmptyImage[SE][0]=./images/george-england-tender-maroon.1.1,0,-5
-EmptyImage[S][0]=./images/george-england-tender-maroon.1.2,10,-5
-EmptyImage[SW][0]=./images/george-england-tender-maroon.1.3,10,0
-EmptyImage[W][0]=./images/george-england-tender-maroon.1.4,10,5
-EmptyImage[NW][0]=./images/george-england-tender-maroon.1.5,0,5
-EmptyImage[N][0]=./images/george-england-tender-maroon.1.6,-10,5
-EmptyImage[NE][0]=./images/george-england-tender-maroon.1.7,-10,0
+EmptyImage[W][0]=./images/george-england-tender-maroon_E.0.0
+EmptyImage[NW][0]=./images/george-england-tender-maroon_SE.0.0
+EmptyImage[N][0]=./images/george-england-tender-maroon_S.0.0
+EmptyImage[NE][0]=./images/george-england-tender-maroon_SW.0.0
+EmptyImage[E][0]=./images/george-england-tender-maroon_W.0.0
+EmptyImage[SE][0]=./images/george-england-tender-maroon_NW.0.0
+EmptyImage[S][0]=./images/george-england-tender-maroon_N.0.0
+EmptyImage[SW][0]=./images/george-england-tender-maroon_NE.0.0
 
-EmptyImage[E][1]=./images/george-england-tender-scarlet.1.0,-10,-5
-EmptyImage[SE][1]=./images/george-england-tender-scarlet.1.1,0,-5
-EmptyImage[S][1]=./images/george-england-tender-scarlet.1.2,10,-5
-EmptyImage[SW][1]=./images/george-england-tender-scarlet.1.3,10,0
-EmptyImage[W][1]=./images/george-england-tender-scarlet.1.4,10,5
-EmptyImage[NW][1]=./images/george-england-tender-scarlet.1.5,0,5
-EmptyImage[N][1]=./images/george-england-tender-scarlet.1.6,-10,5
-EmptyImage[NE][1]=./images/george-england-tender-scarlet.1.7,-10,0
+EmptyImage[W][1]=./images/george-england-tender-scarlet_E.0.0
+EmptyImage[NW][1]=./images/george-england-tender-scarlet_SE.0.0
+EmptyImage[N][1]=./images/george-england-tender-scarlet_S.0.0
+EmptyImage[NE][1]=./images/george-england-tender-scarlet_SW.0.0
+EmptyImage[E][1]=./images/george-england-tender-scarlet_W.0.0
+EmptyImage[SE][1]=./images/george-england-tender-scarlet_NW.0.0
+EmptyImage[S][1]=./images/george-england-tender-scarlet_N.0.0
+EmptyImage[SW][1]=./images/george-england-tender-scarlet_NE.0.0
 
-EmptyImage[E][2]=./images/george-england-tender-green.1.0,-10,-5
-EmptyImage[SE][2]=./images/george-england-tender-green.1.1,0,-5
-EmptyImage[S][2]=./images/george-england-tender-green.1.2,10,-5
-EmptyImage[SW][2]=./images/george-england-tender-green.1.3,10,0
-EmptyImage[W][2]=./images/george-england-tender-green.1.4,10,5
-EmptyImage[NW][2]=./images/george-england-tender-green.1.5,0,5
-EmptyImage[N][2]=./images/george-england-tender-green.1.6,-10,5
-EmptyImage[NE][2]=./images/george-england-tender-green.1.7,-10,0
+EmptyImage[W][2]=./images/george-england-tender-green_E.0.0
+EmptyImage[NW][2]=./images/george-england-tender-green_SE.0.0
+EmptyImage[N][2]=./images/george-england-tender-green_S.0.0
+EmptyImage[NE][2]=./images/george-england-tender-green_SW.0.0
+EmptyImage[E][2]=./images/george-england-tender-green_W.0.0
+EmptyImage[SE][2]=./images/george-england-tender-green_NW.0.0
+EmptyImage[S][2]=./images/george-england-tender-green_N.0.0
+EmptyImage[SW][2]=./images/george-england-tender-green_NE.0.0
 
-EmptyImage[E][3]=./images/george-england-tender-scarlet.1.0,-10,-5
-EmptyImage[SE][3]=./images/george-england-tender-scarlet.1.1,0,-5
-EmptyImage[S][3]=./images/george-england-tender-scarlet.1.2,10,-5
-EmptyImage[SW][3]=./images/george-england-tender-scarlet.1.3,10,0
-EmptyImage[W][3]=./images/george-england-tender-scarlet.1.4,10,5
-EmptyImage[NW][3]=./images/george-england-tender-scarlet.1.5,0,5
-EmptyImage[N][3]=./images/george-england-tender-scarlet.1.6,-10,5
-EmptyImage[NE][3]=./images/george-england-tender-scarlet.1.7,-10,0
+EmptyImage[W][3]=./images/george-england-tender-scarlet_E.0.0
+EmptyImage[NW][3]=./images/george-england-tender-scarlet_SE.0.0
+EmptyImage[N][3]=./images/george-england-tender-scarlet_S.0.0
+EmptyImage[NE][3]=./images/george-england-tender-scarlet_SW.0.0
+EmptyImage[E][3]=./images/george-england-tender-scarlet_W.0.0
+EmptyImage[SE][3]=./images/george-england-tender-scarlet_NW.0.0
+EmptyImage[S][3]=./images/george-england-tender-scarlet_N.0.0
+EmptyImage[SW][3]=./images/george-england-tender-scarlet_NE.0.0

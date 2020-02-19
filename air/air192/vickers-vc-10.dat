@@ -22,7 +22,8 @@ weight=123.2
 #length=8
 cost=25000000
 upgrade_price=5000
-runningcost=3900
+runningcost=407
+fixed_cost=67361
 intro_year=1964
 intro_month=4
 # Were only produced until 1970, but allow people to buy these later.
@@ -90,7 +91,8 @@ weight=123.2
 #length=8
 cost=25000000
 upgrade_price=5000
-runningcost=3900
+runningcost=407
+fixed_cost=67361
 intro_year=1964
 intro_month=4
 # Were only produced until 1970, but allow people to buy these later.

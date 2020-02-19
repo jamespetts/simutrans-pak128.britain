@@ -16,23 +16,25 @@ intro_month=5
 waytype=narrowgauge_track
 freight=None
 payload=0
-length=4
+length=3
 rolling_resistance=18
 
 # No information - guessed
 weight=23
 cost=11421850
-runningcost=74
+runningcost=57
+fixed_cost=15949
 sound=video47-ng-diesel.wav
 
 can_lead_from_rear=0
 bidirectional=1
 
-EmptyImage[E]=./images/baguely-drewery-0-6-0.1.0,-10,-5
-EmptyImage[SE]=./images/baguely-drewery-0-6-0.1.1,0,-5
-EmptyImage[S]=./images/baguely-drewery-0-6-0.1.2,10,-5
-EmptyImage[SW]=./images/baguely-drewery-0-6-0.1.3,10,0
-EmptyImage[W]=./images/baguely-drewery-0-6-0.1.4,10,5
-EmptyImage[NW]=./images/baguely-drewery-0-6-0.1.5,0,5
-EmptyImage[N]=./images/baguely-drewery-0-6-0.1.6,-10,5
-EmptyImage[NE]=./images/baguely-drewery-0-6-0.1.7,-10,0
+EmptyImage[W]=./images/baguely-drewery-0-6-0_E.0.0
+EmptyImage[NW]=./images/baguely-drewery-0-6-0_SE.0.0
+EmptyImage[N]=./images/baguely-drewery-0-6-0_S.0.0
+EmptyImage[NE]=./images/baguely-drewery-0-6-0_SW.0.0
+EmptyImage[E]=./images/baguely-drewery-0-6-0_W.0.0
+EmptyImage[SE]=./images/baguely-drewery-0-6-0_NW.0.0
+EmptyImage[S]=./images/baguely-drewery-0-6-0_N.0.0
+EmptyImage[SW]=./images/baguely-drewery-0-6-0_NE.0.0
+

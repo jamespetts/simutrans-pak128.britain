@@ -19,7 +19,8 @@ overcrowded_capacity=10
 weight=12
 axles=4
 cost=560000
-runningcost=138
+runningcost=10
+fixed_cost=6467
 sound=tom-tait-tram.wav
 
 can_lead_from_rear=1

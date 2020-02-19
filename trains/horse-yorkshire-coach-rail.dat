@@ -21,17 +21,17 @@ weight=1.4
 axle_load=0
 cost=250000
 runningcost=3
-fixed_cost=638
+fixed_cost=2021
 
 sound=ylearkisto-horses.wav
 range=38
 
-EmptyImage[E]=./images/horse-yorkshire-coach-single-rail_E.0.0
-EmptyImage[SE]=./images/horse-yorkshire-coach-single-rail_SE.0.0
-EmptyImage[S]=./images/horse-yorkshire-coach-single-rail_S.0.0
-EmptyImage[SW]=./images/horse-yorkshire-coach-single-rail_SW.0.0
-EmptyImage[W]=./images/horse-yorkshire-coach-single-rail_W.0.0
-EmptyImage[NW]=./images/horse-yorkshire-coach-single-rail_NW.0.0
-EmptyImage[N]=./images/horse-yorkshire-coach-single-rail_N.0.0
-EmptyImage[NE]=./images/horse-yorkshire-coach-single-rail_NE.0.0
+EmptyImage[E]=./horses/horse-yorkshire-coach-single-rail_E.0.0
+EmptyImage[SE]=./horses/horse-yorkshire-coach-single-rail_SE.0.0
+EmptyImage[S]=./horses/horse-yorkshire-coach-single-rail_S.0.0
+EmptyImage[SW]=./horses/horse-yorkshire-coach-single-rail_SW.0.0
+EmptyImage[W]=./horses/horse-yorkshire-coach-single-rail_W.0.0
+EmptyImage[NW]=./horses/horse-yorkshire-coach-single-rail_NW.0.0
+EmptyImage[N]=./horses/horse-yorkshire-coach-single-rail_N.0.0
+EmptyImage[NE]=./horses/horse-yorkshire-coach-single-rail_NE.0.0
 

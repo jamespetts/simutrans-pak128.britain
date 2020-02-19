@@ -1,3 +1,5 @@
+# http://www.gwr.org.uk/nobrakes.html
+# Scaled as a 18ft 4 wheeled brake van
 obj=vehicle
 name=BrakeGWR
 #?
@@ -12,24 +14,21 @@ payload=0
 waytype=track
 brake_force=7
 rolling_resistance=19
-
-length=4
+length=3
 
 #?
 weight=20
-cost=0
+cost=180000
 runningcost=0
-
+fixed_cost=4850
 
 bidirectional=1
 
-EmptyImage[E]=./images/wagon-brake-gwr.0.0
-EmptyImage[SE]=./images/wagon-brake-gwr.0.1
-EmptyImage[S]=./images/wagon-brake-gwr.0.2
-EmptyImage[SW]=./images/wagon-brake-gwr.0.3
-EmptyImage[W]=./images/wagon-brake-gwr.0.4
-EmptyImage[NW]=./images/wagon-brake-gwr.0.5
-EmptyImage[N]=./images/wagon-brake-gwr.0.6
-EmptyImage[NE]=./images/wagon-brake-gwr.0.7
-
-
+EmptyImage[E]=./wagons/brake-gwr_E.0.0
+EmptyImage[SE]=./wagons/brake-gwr_SE.0.0
+EmptyImage[S]=./wagons/brake-gwr_S.0.0
+EmptyImage[SW]=./wagons/brake-gwr_SW.0.0
+EmptyImage[W]=./wagons/brake-gwr_W.0.0
+EmptyImage[NW]=./wagons/brake-gwr_NW.0.0
+EmptyImage[N]=./wagons/brake-gwr_N.0.0
+EmptyImage[NE]=./wagons/brake-gwr_NE.0.0

@@ -32,31 +32,31 @@ axle_load=10
 cost=19540000
 # These were, according to Ahrons, very fuel inefficient,
 # as they had no brick arch, so much heat energy was wasted.
-runningcost=352
-fixed_cost=36142
+runningcost=226
+fixed_cost=40283
 
 Constraint[Next][0]=MR-130-tender
 
 liverytype[0]=MR-Early
 liverytype[1]=MR-Standard
 
-EmptyImage[E][0]=./images/mr-130-green_E.0.0
-EmptyImage[SE][0]=./images/mr-130-green_SE.0.0
-EmptyImage[S][0]=./images/mr-130-green_S.0.0
-EmptyImage[SW][0]=./images/mr-130-green_SW.0.0
-EmptyImage[W][0]=./images/mr-130-green_W.0.0
-EmptyImage[NW][0]=./images/mr-130-green_NW.0.0
-EmptyImage[N][0]=./images/mr-130-green_N.0.0
-EmptyImage[NE][0]=./images/mr-130-green_NE.0.0
+EmptyImage[E][0]=./locomotives/mr-130-green_E.0.0
+EmptyImage[SE][0]=./locomotives/mr-130-green_SE.0.0
+EmptyImage[S][0]=./locomotives/mr-130-green_S.0.0
+EmptyImage[SW][0]=./locomotives/mr-130-green_SW.0.0
+EmptyImage[W][0]=./locomotives/mr-130-green_W.0.0
+EmptyImage[NW][0]=./locomotives/mr-130-green_NW.0.0
+EmptyImage[N][0]=./locomotives/mr-130-green_N.0.0
+EmptyImage[NE][0]=./locomotives/mr-130-green_NE.0.0
 
-EmptyImage[E][1]=./images/mr-130_E.0.0
-EmptyImage[SE][1]=./images/mr-130_SE.0.0
-EmptyImage[S][1]=./images/mr-130_S.0.0
-EmptyImage[SW][1]=./images/mr-130_SW.0.0
-EmptyImage[W][1]=./images/mr-130_W.0.0
-EmptyImage[NW][1]=./images/mr-130_NW.0.0
-EmptyImage[N][1]=./images/mr-130_N.0.0
-EmptyImage[NE][1]=./images/mr-130_NE.0.0
+EmptyImage[E][1]=./locomotives/mr-130_E.0.0
+EmptyImage[SE][1]=./locomotives/mr-130_SE.0.0
+EmptyImage[S][1]=./locomotives/mr-130_S.0.0
+EmptyImage[SW][1]=./locomotives/mr-130_SW.0.0
+EmptyImage[W][1]=./locomotives/mr-130_W.0.0
+EmptyImage[NW][1]=./locomotives/mr-130_NW.0.0
+EmptyImage[N][1]=./locomotives/mr-130_N.0.0
+EmptyImage[NE][1]=./locomotives/mr-130_NE.0.0
 
 ---
 
@@ -79,6 +79,7 @@ brake_force=3
 weight=14
 cost=0
 runningcost=0
+fixed_cost=0
 
 
 Constraint[Prev][0]=MR-130
@@ -86,20 +87,20 @@ Constraint[Prev][0]=MR-130
 liverytype[0]=MR-Early
 liverytype[1]=MR-Standard
 
-EmptyImage[E][0]=./images/mr-133-tender-green_E.0.0
-EmptyImage[SE][0]=./images/mr-133-tender-green_SE.0.0
-EmptyImage[S][0]=./images/mr-133-tender-green_S.0.0
-EmptyImage[SW][0]=./images/mr-133-tender-green_SW.0.0
-EmptyImage[W][0]=./images/mr-133-tender-green_W.0.0
-EmptyImage[NW][0]=./images/mr-133-tender-green_NW.0.0
-EmptyImage[N][0]=./images/mr-133-tender-green_N.0.0
-EmptyImage[NE][0]=./images/mr-133-tender-green_NE.0.0
+EmptyImage[E][0]=./locomotives/mr-133-tender-green_E.0.0
+EmptyImage[SE][0]=./locomotives/mr-133-tender-green_SE.0.0
+EmptyImage[S][0]=./locomotives/mr-133-tender-green_S.0.0
+EmptyImage[SW][0]=./locomotives/mr-133-tender-green_SW.0.0
+EmptyImage[W][0]=./locomotives/mr-133-tender-green_W.0.0
+EmptyImage[NW][0]=./locomotives/mr-133-tender-green_NW.0.0
+EmptyImage[N][0]=./locomotives/mr-133-tender-green_N.0.0
+EmptyImage[NE][0]=./locomotives/mr-133-tender-green_NE.0.0
 
-EmptyImage[E][1]=./images/mr-133-tender_E.0.0
-EmptyImage[SE][1]=./images/mr-133-tender_SE.0.0
-EmptyImage[S][1]=./images/mr-133-tender_S.0.0
-EmptyImage[SW][1]=./images/mr-133-tender_SW.0.0
-EmptyImage[W][1]=./images/mr-133-tender_W.0.0
-EmptyImage[NW][1]=./images/mr-133-tender_NW.0.0
-EmptyImage[N][1]=./images/mr-133-tender_N.0.0
-EmptyImage[NE][1]=./images/mr-133-tender_NE.0.0
+EmptyImage[E][1]=./locomotives/mr-133-tender_E.0.0
+EmptyImage[SE][1]=./locomotives/mr-133-tender_SE.0.0
+EmptyImage[S][1]=./locomotives/mr-133-tender_S.0.0
+EmptyImage[SW][1]=./locomotives/mr-133-tender_SW.0.0
+EmptyImage[W][1]=./locomotives/mr-133-tender_W.0.0
+EmptyImage[NW][1]=./locomotives/mr-133-tender_NW.0.0
+EmptyImage[N][1]=./locomotives/mr-133-tender_N.0.0
+EmptyImage[NE][1]=./locomotives/mr-133-tender_NE.0.0

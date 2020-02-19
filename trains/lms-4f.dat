@@ -4,7 +4,7 @@ engine_type=steam
 smoke=Steam
 speed=95
 # Extrapolated
-power=290
+power=307
 # http://en.wikipedia.org/wiki/Midland_Railway_3835_Class
 tractive_effort=109
 copyright=James
@@ -20,7 +20,8 @@ length=6
 weight=50
 axles=3
 cost=3696000
-runningcost=462
+runningcost=125
+fixed_cost=27080
 sound=lwalker-br-4mt-tank.wav
 increase_maintenance_after_years=17
 years_before_maintenance_max_reached=14
@@ -31,30 +32,31 @@ liverytype[0]=MR-Standard
 liverytype[1]=LMS-Standard
 liverytype[2]=BR-Early
 
-EmptyImage[E][0]=./images/mr-3538.1.4
-EmptyImage[SE][0]=./images/mr-3538.1.5
-EmptyImage[S][0]=./images/mr-3538.1.6
-EmptyImage[SW][0]=./images/mr-3538.1.7
-EmptyImage[W][0]=./images/mr-3538.1.0
-EmptyImage[NW][0]=./images/mr-3538.1.1
-EmptyImage[N][0]=./images/mr-3538.1.2
-EmptyImage[NE][0]=./images/mr-3538.1.3
 
-EmptyImage[E][1]=./images/lms-4f.1.4
-EmptyImage[SE][1]=./images/lms-4f.1.5
-EmptyImage[S][1]=./images/lms-4f.1.6
-EmptyImage[SW][1]=./images/lms-4f.1.7
-EmptyImage[W][1]=./images/lms-4f.1.0
-EmptyImage[NW][1]=./images/lms-4f.1.1
-EmptyImage[N][1]=./images/lms-4f.1.2
-EmptyImage[NE][1]=./images/lms-4f.1.3
+EmptyImage[E][0]=./locomotives/mr-3538.1.4
+EmptyImage[SE][0]=./locomotives/mr-3538.1.5
+EmptyImage[S][0]=./locomotives/mr-3538.1.6
+EmptyImage[SW][0]=./locomotives/mr-3538.1.7
+EmptyImage[W][0]=./locomotives/mr-3538.1.0
+EmptyImage[NW][0]=./locomotives/mr-3538.1.1
+EmptyImage[N][0]=./locomotives/mr-3538.1.2
+EmptyImage[NE][0]=./locomotives/mr-3538.1.3
 
-EmptyImage[E][2]=./images/lms-4f-br.1.4
-EmptyImage[SE][2]=./images/lms-4f-br.1.5
-EmptyImage[S][2]=./images/lms-4f-br.1.6
-EmptyImage[SW][2]=./images/lms-4f-br.1.7
-EmptyImage[W][2]=./images/lms-4f-br.1.0
-EmptyImage[NW][2]=./images/lms-4f-br.1.1
-EmptyImage[N][2]=./images/lms-4f-br.1.2
-EmptyImage[NE][2]=./images/lms-4f-br.1.3
+EmptyImage[E][1]=./locomotives/lms-4f_E.0.0
+EmptyImage[SE][1]=./locomotives/lms-4f_SE.0.0
+EmptyImage[S][1]=./locomotives/lms-4f_S.0.0
+EmptyImage[SW][1]=./locomotives/lms-4f_SW.0.0
+EmptyImage[W][1]=./locomotives/lms-4f_W.0.0
+EmptyImage[NW][1]=./locomotives/lms-4f_NW.0.0
+EmptyImage[N][1]=./locomotives/lms-4f_N.0.0
+EmptyImage[NE][1]=./locomotives/lms-4f_NE.0.0
+
+EmptyImage[E][2]=./locomotives/lms-4f-br_E.0.0
+EmptyImage[SE][2]=./locomotives/lms-4f-br_SE.0.0
+EmptyImage[S][2]=./locomotives/lms-4f-br_S.0.0
+EmptyImage[SW][2]=./locomotives/lms-4f-br_SW.0.0
+EmptyImage[W][2]=./locomotives/lms-4f-br_W.0.0
+EmptyImage[NW][2]=./locomotives/lms-4f-br_NW.0.0
+EmptyImage[N][2]=./locomotives/lms-4f-br_N.0.0
+EmptyImage[NE][2]=./locomotives/lms-4f-br_NE.0.0
 

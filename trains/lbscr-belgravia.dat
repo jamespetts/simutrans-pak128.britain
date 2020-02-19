@@ -4,7 +4,7 @@ engine_type=steam
 smoke=Steam
 speed=127
 # Extrapolated
-power=217
+power=236
 # Tractive calculated using data from
 # http://en.wikipedia.org/wiki/LB%26SCR_Belgravia_class
 tractive_effort=44
@@ -25,34 +25,33 @@ years_before_maintenance_max_reached=35
 
 # See Ahrons p. 191
 weight=41.9
-axle_load=8
+axle_load=15
 cost=12375000
-runningcost=335
-fixed_cost=29156
-
+runningcost=267
+fixed_cost=34313
 
 Constraint[Next][0]=LBSCR-Belgravia-tender
 
 liverytype[0]=LBSCR-Stroudley
 liverytype[1]=LBSCR-Marsh
 
-EmptyImage[E][0]=./images/lbscr-belgravia.1.4
-EmptyImage[SE][0]=./images/lbscr-belgravia.1.5
-EmptyImage[S][0]=./images/lbscr-belgravia.1.6
-EmptyImage[SW][0]=./images/lbscr-belgravia.1.7
-EmptyImage[W][0]=./images/lbscr-belgravia.1.0
-EmptyImage[NW][0]=./images/lbscr-belgravia.1.1
-EmptyImage[N][0]=./images/lbscr-belgravia.1.2
-EmptyImage[NE][0]=./images/lbscr-belgravia.1.3
+EmptyImage[E][0]=./locomotives/lbscr-belgravia_E.0.0
+EmptyImage[SE][0]=./locomotives/lbscr-belgravia_SE.0.0
+EmptyImage[S][0]=./locomotives/lbscr-belgravia_S.0.0
+EmptyImage[SW][0]=./locomotives/lbscr-belgravia_SW.0.0
+EmptyImage[W][0]=./locomotives/lbscr-belgravia_W.0.0
+EmptyImage[NW][0]=./locomotives/lbscr-belgravia_NW.0.0
+EmptyImage[N][0]=./locomotives/lbscr-belgravia_N.0.0
+EmptyImage[NE][0]=./locomotives/lbscr-belgravia_NE.0.0
 
-EmptyImage[E][1]=./images/lbscr-belgravia-umber.1.4
-EmptyImage[SE][1]=./images/lbscr-belgravia-umber.1.5
-EmptyImage[S][1]=./images/lbscr-belgravia-umber.1.6
-EmptyImage[SW][1]=./images/lbscr-belgravia-umber.1.7
-EmptyImage[W][1]=./images/lbscr-belgravia-umber.1.0
-EmptyImage[NW][1]=./images/lbscr-belgravia-umber.1.1
-EmptyImage[N][1]=./images/lbscr-belgravia-umber.1.2
-EmptyImage[NE][1]=./images/lbscr-belgravia-umber.1.3
+EmptyImage[E][1]=./locomotives/lbscr-belgravia-umber_E.0.0
+EmptyImage[SE][1]=./locomotives/lbscr-belgravia-umber_SE.0.0
+EmptyImage[S][1]=./locomotives/lbscr-belgravia-umber_S.0.0
+EmptyImage[SW][1]=./locomotives/lbscr-belgravia-umber_SW.0.0
+EmptyImage[W][1]=./locomotives/lbscr-belgravia-umber_W.0.0
+EmptyImage[NW][1]=./locomotives/lbscr-belgravia-umber_NW.0.0
+EmptyImage[N][1]=./locomotives/lbscr-belgravia-umber_N.0.0
+EmptyImage[NE][1]=./locomotives/lbscr-belgravia-umber_NE.0.0
 
 ---
 
@@ -74,11 +73,13 @@ weight=25
 axles=3
 cost=0
 runningcost=0
+fixed_cost=0
 
 
 can_lead_from_rear=0
 bidirectional=0
 
+#fixed_coupling[prev]=1
 Constraint[Prev][0]=LBSCR-Belgravia
 Constraint[Prev][1]=LBSCR-G
 Constraint[Prev][2]=LBSCR-Richmond
@@ -87,20 +88,20 @@ Constraint[Prev][3]=LBSCR-D2
 liverytype[0]=LBSCR-Stroudley
 liverytype[1]=LBSCR-Marsh
 
-EmptyImage[E][0]=./images/lbscr-c-tender.1.4
-EmptyImage[SE][0]=./images/lbscr-c-tender.1.5
-EmptyImage[S][0]=./images/lbscr-c-tender.1.6
-EmptyImage[SW][0]=./images/lbscr-c-tender.1.7
-EmptyImage[W][0]=./images/lbscr-c-tender.1.0
-EmptyImage[NW][0]=./images/lbscr-c-tender.1.1
-EmptyImage[N][0]=./images/lbscr-c-tender.1.2
-EmptyImage[NE][0]=./images/lbscr-c-tender.1.3
+EmptyImage[E][0]=./locomotives/lbscr-belgravia-tender_E.0.0
+EmptyImage[SE][0]=./locomotives/lbscr-belgravia-tender_SE.0.0
+EmptyImage[S][0]=./locomotives/lbscr-belgravia-tender_S.0.0
+EmptyImage[SW][0]=./locomotives/lbscr-belgravia-tender_SW.0.0
+EmptyImage[W][0]=./locomotives/lbscr-belgravia-tender_W.0.0
+EmptyImage[NW][0]=./locomotives/lbscr-belgravia-tender_NW.0.0
+EmptyImage[N][0]=./locomotives/lbscr-belgravia-tender_N.0.0
+EmptyImage[NE][0]=./locomotives/lbscr-belgravia-tender_NE.0.0
 
-EmptyImage[E][1]=./images/lbscr-c-tender-umber.1.4
-EmptyImage[SE][1]=./images/lbscr-c-tender-umber.1.5
-EmptyImage[S][1]=./images/lbscr-c-tender-umber.1.6
-EmptyImage[SW][1]=./images/lbscr-c-tender-umber.1.7
-EmptyImage[W][1]=./images/lbscr-c-tender-umber.1.0
-EmptyImage[NW][1]=./images/lbscr-c-tender-umber.1.1
-EmptyImage[N][1]=./images/lbscr-c-tender-umber.1.2
-EmptyImage[NE][1]=./images/lbscr-c-tender-umber.1.3
+EmptyImage[E][1]=./locomotives/lbscr-belgravia-tender-umber_E.0.0
+EmptyImage[SE][1]=./locomotives/lbscr-belgravia-tender-umber_SE.0.0
+EmptyImage[S][1]=./locomotives/lbscr-belgravia-tender-umber_S.0.0
+EmptyImage[SW][1]=./locomotives/lbscr-belgravia-tender-umber_SW.0.0
+EmptyImage[W][1]=./locomotives/lbscr-belgravia-tender-umber_W.0.0
+EmptyImage[NW][1]=./locomotives/lbscr-belgravia-tender-umber_NW.0.0
+EmptyImage[N][1]=./locomotives/lbscr-belgravia-tender-umber_N.0.0
+EmptyImage[NE][1]=./locomotives/lbscr-belgravia-tender-umber_NE.0.0

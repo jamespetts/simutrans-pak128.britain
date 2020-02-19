@@ -4,7 +4,7 @@ engine_type=steam
 smoke=Steam
 speed=140
 # Extrapolated
-power=298
+power=228
 # http://en.wikipedia.org/wiki/LMS_Class_2P_4-4-0
 tractive_effort=79
 copyright=James
@@ -20,7 +20,8 @@ length=5
 weight=55
 axle_load=16
 cost=7025000
-runningcost=800
+runningcost=171
+fixed_cost=29854
 sound=lwalker-br-4mt-tank.wav
 increase_maintenance_after_years=23
 years_before_maintenance_max_reached=18
@@ -30,23 +31,23 @@ Constraint[Next][0]=LMS-2P-Tender
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
 
-EmptyImage[E][0]=./images/mr-483-lms.1.4
-EmptyImage[SE][0]=./images/mr-483-lms.1.5
-EmptyImage[S][0]=./images/mr-483-lms.1.6
-EmptyImage[SW][0]=./images/mr-483-lms.1.7
-EmptyImage[W][0]=./images/mr-483-lms.1.0
-EmptyImage[NW][0]=./images/mr-483-lms.1.1
-EmptyImage[N][0]=./images/mr-483-lms.1.2
-EmptyImage[NE][0]=./images/mr-483-lms.1.3
+EmptyImage[E][0]=./locomotives/mr-483-lms_E.0.0
+EmptyImage[SE][0]=./locomotives/mr-483-lms_SE.0.0
+EmptyImage[S][0]=./locomotives/mr-483-lms_S.0.0
+EmptyImage[SW][0]=./locomotives/mr-483-lms_SW.0.0
+EmptyImage[W][0]=./locomotives/mr-483-lms_W.0.0
+EmptyImage[NW][0]=./locomotives/mr-483-lms_NW.0.0
+EmptyImage[N][0]=./locomotives/mr-483-lms_N.0.0
+EmptyImage[NE][0]=./locomotives/mr-483-lms_NE.0.0
 
-EmptyImage[E][1]=./images/mr-483-br.1.0
-EmptyImage[SE][1]=./images/mr-483-br.1.1
-EmptyImage[S][1]=./images/mr-483-br.1.2
-EmptyImage[SW][1]=./images/mr-483-br.1.3
-EmptyImage[W][1]=./images/mr-483-br.1.4
-EmptyImage[NW][1]=./images/mr-483-br.1.5
-EmptyImage[N][1]=./images/mr-483-br.1.6
-EmptyImage[NE][1]=./images/mr-483-br.1.7
+EmptyImage[E][1]=./locomotives/mr-483-br_E.0.0
+EmptyImage[SE][1]=./locomotives/mr-483-br_SE.0.0
+EmptyImage[S][1]=./locomotives/mr-483-br_S.0.0
+EmptyImage[SW][1]=./locomotives/mr-483-br_SW.0.0
+EmptyImage[W][1]=./locomotives/mr-483-br_W.0.0
+EmptyImage[NW][1]=./locomotives/mr-483-br_NW.0.0
+EmptyImage[N][1]=./locomotives/mr-483-br_N.0.0
+EmptyImage[NE][1]=./locomotives/mr-483-br_NE.0.0
 
 ---
 
@@ -68,6 +69,7 @@ weight=43
 axles=3
 cost=0
 runningcost=0
+fixed_cost=0
 
 increase_maintenance_after_years=23
 
@@ -76,20 +78,20 @@ Constraint[Prev][0]=LMS-2P
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
 
-EmptyImage[E][0]=./images/mr-1000-tender-lms-black.1.4
-EmptyImage[SE][0]=./images/mr-1000-tender-lms-black.1.5
-EmptyImage[S][0]=./images/mr-1000-tender-lms-black.1.6
-EmptyImage[SW][0]=./images/mr-1000-tender-lms-black.1.7
-EmptyImage[W][0]=./images/mr-1000-tender-lms-black.1.0
-EmptyImage[NW][0]=./images/mr-1000-tender-lms-black.1.1
-EmptyImage[N][0]=./images/mr-1000-tender-lms-black.1.2
-EmptyImage[NE][0]=./images/mr-1000-tender-lms-black.1.3
+EmptyImage[E][0]=./locomotives/mr-1000-tender-lms-black_E.0.0
+EmptyImage[SE][0]=./locomotives/mr-1000-tender-lms-black_SE.0.0
+EmptyImage[S][0]=./locomotives/mr-1000-tender-lms-black_S.0.0
+EmptyImage[SW][0]=./locomotives/mr-1000-tender-lms-black_SW.0.0
+EmptyImage[W][0]=./locomotives/mr-1000-tender-lms-black_W.0.0
+EmptyImage[NW][0]=./locomotives/mr-1000-tender-lms-black_NW.0.0
+EmptyImage[N][0]=./locomotives/mr-1000-tender-lms-black_N.0.0
+EmptyImage[NE][0]=./locomotives/mr-1000-tender-lms-black_NE.0.0
 
-EmptyImage[E][1]=./images/mr-1000-tender-br-unlined.1.4
-EmptyImage[SE][1]=./images/mr-1000-tender-br-unlined.1.5
-EmptyImage[S][1]=./images/mr-1000-tender-br-unlined.1.6
-EmptyImage[SW][1]=./images/mr-1000-tender-br-unlined.1.7
-EmptyImage[W][1]=./images/mr-1000-tender-br-unlined.1.0
-EmptyImage[NW][1]=./images/mr-1000-tender-br-unlined.1.1
-EmptyImage[N][1]=./images/mr-1000-tender-br-unlined.1.2
-EmptyImage[NE][1]=./images/mr-1000-tender-br-unlined.1.3
+EmptyImage[E][1]=./locomotives/mr-1000-tender-br-unlined_E.0.0
+EmptyImage[SE][1]=./locomotives/mr-1000-tender-br-unlined_SE.0.0
+EmptyImage[S][1]=./locomotives/mr-1000-tender-br-unlined_S.0.0
+EmptyImage[SW][1]=./locomotives/mr-1000-tender-br-unlined_SW.0.0
+EmptyImage[W][1]=./locomotives/mr-1000-tender-br-unlined_W.0.0
+EmptyImage[NW][1]=./locomotives/mr-1000-tender-br-unlined_NW.0.0
+EmptyImage[N][1]=./locomotives/mr-1000-tender-br-unlined_N.0.0
+EmptyImage[NE][1]=./locomotives/mr-1000-tender-br-unlined_NE.0.0

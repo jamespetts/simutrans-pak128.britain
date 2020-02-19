@@ -18,7 +18,8 @@ length=2
 weight=4.0
 axles=2
 cost=178000
-runningcost=82
+runningcost=2
+fixed_cost=16148
 sound=laurie-barclay-0-4-0.wav
 
 can_lead_from_rear=0

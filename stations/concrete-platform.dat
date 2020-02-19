@@ -12,7 +12,7 @@ intro_month=12
 # must be 1*2
 # 1_1 is the land sqare
 Dims=1,1,16
-NoInfo=1
+#NoInfo=1
 Level=1
 allow_underground=0
 
@@ -75,7 +75,7 @@ intro_month=12
 # must be 1*2
 # 1_1 is the land sqare
 Dims=1,1,16
-NoInfo=1
+#NoInfo=1
 Level=2
 allow_underground=0
 
@@ -138,7 +138,7 @@ intro_month=12
 # must be 1*2
 # 1_1 is the land sqare
 Dims=1,1,16
-NoInfo=1
+#NoInfo=1
 Level=4
 allow_underground=0
 

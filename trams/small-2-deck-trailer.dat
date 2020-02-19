@@ -17,7 +17,8 @@ length=4
 weight=1.9
 axles=2
 cost=175000
-runningcost=8
+runningcost=0
+fixed_cost=6208
 
 is_tall=1
 

@@ -1,5 +1,6 @@
 obj=vehicle
 name=Sheffield-Supertram(Rear)
+engine_type=electric
 speed=80
 gear=80
 # http://en.wikipedia.org/wiki/Siemens-Duewag_Supertram
@@ -13,14 +14,14 @@ retire_month=10
 waytype=tram_track
 freight=Passagiere
 payload=32
-length=6
+length=5
 overcrowded_capacity=52
 weight=15.5
 brake_force=20
 axles=4
 cost=0
-runningcost=0
-
+runningcost=55
+fixed_cost=6000
 
 can_lead_from_rear=1
 bidirectional=0
@@ -40,4 +41,3 @@ EmptyImage[W]=./images/sheffield-supertram-rear.1.0
 EmptyImage[NW]=./images/sheffield-supertram-rear.1.1
 EmptyImage[N]=./images/sheffield-supertram-rear.1.2
 EmptyImage[NE]=./images/sheffield-supertram-rear.1.3
-

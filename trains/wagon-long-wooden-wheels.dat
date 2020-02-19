@@ -22,7 +22,8 @@ axle_load=1
 # Much lower than iron wheeled wagons as wooden wheels are soft
 way_wear_factor=1250
 cost=30000
-runningcost=1
+runningcost=0
+fixed_cost=4813
 
 bidirectional=1
 
@@ -30,42 +31,42 @@ min_loading_time=300
 max_loading_time=900
 way_constraint_prohibitive[0]=0
 
-EmptyImage[E]=./images/wagon-early1-general-wood-wheels-empty_E.0.0
-EmptyImage[SE]=./images/wagon-early1-general-wood-wheels-empty_SE.0.0
-EmptyImage[S]=./images/wagon-early1-general-wood-wheels-empty_S.0.0
-EmptyImage[SW]=./images/wagon-early1-general-wood-wheels-empty_SW.0.0
-EmptyImage[W]=./images/wagon-early1-general-wood-wheels-empty_W.0.0
-EmptyImage[NW]=./images/wagon-early1-general-wood-wheels-empty_NW.0.0
-EmptyImage[N]=./images/wagon-early1-general-wood-wheels-empty_N.0.0
-EmptyImage[NE]=./images/wagon-early1-general-wood-wheels-empty_NE.0.0
+EmptyImage[E]=./wagons/wagon-early1-general-wood-wheels-empty_E.0.0
+EmptyImage[SE]=./wagons/wagon-early1-general-wood-wheels-empty_SE.0.0
+EmptyImage[S]=./wagons/wagon-early1-general-wood-wheels-empty_S.0.0
+EmptyImage[SW]=./wagons/wagon-early1-general-wood-wheels-empty_SW.0.0
+EmptyImage[W]=./wagons/wagon-early1-general-wood-wheels-empty_W.0.0
+EmptyImage[NW]=./wagons/wagon-early1-general-wood-wheels-empty_NW.0.0
+EmptyImage[N]=./wagons/wagon-early1-general-wood-wheels-empty_N.0.0
+EmptyImage[NE]=./wagons/wagon-early1-general-wood-wheels-empty_NE.0.0
 
 freightimagetype[2]=WroughtIron
-FreightImage[2][E]=./images/wagon-early1-general-wood-wheels-iron_E.0.0
-FreightImage[2][SE]=./images/wagon-early1-general-wood-wheels-iron_SE.0.0
-FreightImage[2][S]=./images/wagon-early1-general-wood-wheels-iron_S.0.0
-FreightImage[2][SW]=./images/wagon-early1-general-wood-wheels-iron_SW.0.0
-FreightImage[2][W]=./images/wagon-early1-general-wood-wheels-iron_W.0.0
-FreightImage[2][NW]=./images/wagon-early1-general-wood-wheels-iron_NW.0.0
-FreightImage[2][N]=./images/wagon-early1-general-wood-wheels-iron_N.0.0
-FreightImage[2][NE]=./images/wagon-early1-general-wood-wheels-iron_NE.0.0
+FreightImage[2][E]=./wagons/wagon-early1-general-wood-wheels-iron_E.0.0
+FreightImage[2][SE]=./wagons/wagon-early1-general-wood-wheels-iron_SE.0.0
+FreightImage[2][S]=./wagons/wagon-early1-general-wood-wheels-iron_S.0.0
+FreightImage[2][SW]=./wagons/wagon-early1-general-wood-wheels-iron_SW.0.0
+FreightImage[2][W]=./wagons/wagon-early1-general-wood-wheels-iron_W.0.0
+FreightImage[2][NW]=./wagons/wagon-early1-general-wood-wheels-iron_NW.0.0
+FreightImage[2][N]=./wagons/wagon-early1-general-wood-wheels-iron_N.0.0
+FreightImage[2][NE]=./wagons/wagon-early1-general-wood-wheels-iron_NE.0.0
 
 freightimagetype[1]=Stahl
-FreightImage[1][E]=./images/wagon-early1-general-wood-wheels-steel_E.0.0
-FreightImage[1][SE]=./images/wagon-early1-general-wood-wheels-steel_SE.0.0
-FreightImage[1][S]=./images/wagon-early1-general-wood-wheels-steel_S.0.0
-FreightImage[1][SW]=./images/wagon-early1-general-wood-wheels-steel_SW.0.0
-FreightImage[1][W]=./images/wagon-early1-general-wood-wheels-steel_W.0.0
-FreightImage[1][NW]=./images/wagon-early1-general-wood-wheels-steel_NW.0.0
-FreightImage[1][N]=./images/wagon-early1-general-wood-wheels-steel_N.0.0
-FreightImage[1][NE]=./images/wagon-early1-general-wood-wheels-steel_NE.0.0
+FreightImage[1][E]=./wagons/wagon-early1-general-wood-wheels-steel_E.0.0
+FreightImage[1][SE]=./wagons/wagon-early1-general-wood-wheels-steel_SE.0.0
+FreightImage[1][S]=./wagons/wagon-early1-general-wood-wheels-steel_S.0.0
+FreightImage[1][SW]=./wagons/wagon-early1-general-wood-wheels-steel_SW.0.0
+FreightImage[1][W]=./wagons/wagon-early1-general-wood-wheels-steel_W.0.0
+FreightImage[1][NW]=./wagons/wagon-early1-general-wood-wheels-steel_NW.0.0
+FreightImage[1][N]=./wagons/wagon-early1-general-wood-wheels-steel_N.0.0
+FreightImage[1][NE]=./wagons/wagon-early1-general-wood-wheels-steel_NE.0.0
 
 freightimagetype[0]=Bretter
-FreightImage[0][E]=./images/wagon-early1-general-wood-wheels-wood_E.0.0
-FreightImage[0][SE]=./images/wagon-early1-general-wood-wheels-wood_SE.0.0
-FreightImage[0][S]=./images/wagon-early1-general-wood-wheels-wood_S.0.0
-FreightImage[0][SW]=./images/wagon-early1-general-wood-wheels-wood_SW.0.0
-FreightImage[0][W]=./images/wagon-early1-general-wood-wheels-wood_W.0.0
-FreightImage[0][NW]=./images/wagon-early1-general-wood-wheels-wood_NW.0.0
-FreightImage[0][N]=./images/wagon-early1-general-wood-wheels-wood_N.0.0
-FreightImage[0][NE]=./images/wagon-early1-general-wood-wheels-wood_NE.0.0
+FreightImage[0][E]=./wagons/wagon-early1-general-wood-wheels-wood_E.0.0
+FreightImage[0][SE]=./wagons/wagon-early1-general-wood-wheels-wood_SE.0.0
+FreightImage[0][S]=./wagons/wagon-early1-general-wood-wheels-wood_S.0.0
+FreightImage[0][SW]=./wagons/wagon-early1-general-wood-wheels-wood_SW.0.0
+FreightImage[0][W]=./wagons/wagon-early1-general-wood-wheels-wood_W.0.0
+FreightImage[0][NW]=./wagons/wagon-early1-general-wood-wheels-wood_NW.0.0
+FreightImage[0][N]=./wagons/wagon-early1-general-wood-wheels-wood_N.0.0
+FreightImage[0][NE]=./wagons/wagon-early1-general-wood-wheels-wood_NE.0.0
 

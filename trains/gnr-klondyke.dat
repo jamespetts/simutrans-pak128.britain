@@ -26,7 +26,8 @@ cost=7344700
 # Should be somewhat uneconomic, as cylinders were too small for the boiler
 # and locomotives had to be worked hard to get required performance: see
 # above link
-runningcost=1162
+runningcost=210
+fixed_cost=46121
 sound=lwalker-br-4mt-tank.wav
 increase_maintenance_after_years=28
 years_before_maintenance_max_reached=25
@@ -36,21 +37,21 @@ Constraint[Next][0]=GNR-C1-Tender
 liverytype[0]=GNR-Standard
 liverytype[1]=LNER-Standard
 
-EmptyImage[E][0]=./images/gnr-klondyke.1.4
-EmptyImage[SE][0]=./images/gnr-klondyke.1.5
-EmptyImage[S][0]=./images/gnr-klondyke.1.6
-EmptyImage[SW][0]=./images/gnr-klondyke.1.7
-EmptyImage[W][0]=./images/gnr-klondyke.1.0
-EmptyImage[NW][0]=./images/gnr-klondyke.1.1
-EmptyImage[N][0]=./images/gnr-klondyke.1.2
-EmptyImage[NE][0]=./images/gnr-klondyke.1.3
+EmptyImage[E][0]=./locomotives/gnr-klondyke_E.0.0
+EmptyImage[SE][0]=./locomotives/gnr-klondyke_SE.0.0
+EmptyImage[S][0]=./locomotives/gnr-klondyke_S.0.0
+EmptyImage[SW][0]=./locomotives/gnr-klondyke_SW.0.0
+EmptyImage[W][0]=./locomotives/gnr-klondyke_W.0.0
+EmptyImage[NW][0]=./locomotives/gnr-klondyke_NW.0.0
+EmptyImage[N][0]=./locomotives/gnr-klondyke_N.0.0
+EmptyImage[NE][0]=./locomotives/gnr-klondyke_NE.0.0
 
-EmptyImage[E][1]=./images/gnr-klondyke-lner.1.4
-EmptyImage[SE][1]=./images/gnr-klondyke-lner.1.5
-EmptyImage[S][1]=./images/gnr-klondyke-lner.1.6
-EmptyImage[SW][1]=./images/gnr-klondyke-lner.1.7
-EmptyImage[W][1]=./images/gnr-klondyke-lner.1.0
-EmptyImage[NW][1]=./images/gnr-klondyke-lner.1.1
-EmptyImage[N][1]=./images/gnr-klondyke-lner.1.2
-EmptyImage[NE][1]=./images/gnr-klondyke-lner.1.3
+EmptyImage[E][1]=./locomotives/gnr-klondyke-lner_E.0.0
+EmptyImage[SE][1]=./locomotives/gnr-klondyke-lner_SE.0.0
+EmptyImage[S][1]=./locomotives/gnr-klondyke-lner_S.0.0
+EmptyImage[SW][1]=./locomotives/gnr-klondyke-lner_SW.0.0
+EmptyImage[W][1]=./locomotives/gnr-klondyke-lner_W.0.0
+EmptyImage[NW][1]=./locomotives/gnr-klondyke-lner_NW.0.0
+EmptyImage[N][1]=./locomotives/gnr-klondyke-lner_N.0.0
+EmptyImage[NE][1]=./locomotives/gnr-klondyke-lner_NE.0.0
 

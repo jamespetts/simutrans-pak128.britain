@@ -26,7 +26,8 @@ air_resistance=108
 weight=52
 axles=4
 cost=2705000
-runningcost=428
+runningcost=112
+fixed_cost=7409
 sound=video47-class-175.wav
 
 can_lead_from_rear=1
@@ -47,14 +48,14 @@ Constraint[Next][1]=BR-180Middle
 Constraint[Next][2]=BR-180Middle-Buffet
 Constraint[Next][3]=BR-180Middle-first
 
-EmptyImage[E]=./images/br-180-fgw.0.0
-EmptyImage[SE]=./images/br-180-fgw.0.1
-EmptyImage[S]=./images/br-180-fgw.0.2
-EmptyImage[SW]=./images/br-180-fgw.0.3
-EmptyImage[W]=./images/br-180-fgw.0.4
-EmptyImage[NW]=./images/br-180-fgw.0.5
-EmptyImage[N]=./images/br-180-fgw.0.6
-EmptyImage[NE]=./images/br-180-fgw.0.7
+EmptyImage[E]=./railcars/br-180-fgw.0.0
+EmptyImage[SE]=./railcars/br-180-fgw.0.1
+EmptyImage[S]=./railcars/br-180-fgw.0.2
+EmptyImage[SW]=./railcars/br-180-fgw.0.3
+EmptyImage[W]=./railcars/br-180-fgw.0.4
+EmptyImage[NW]=./railcars/br-180-fgw.0.5
+EmptyImage[N]=./railcars/br-180-fgw.0.6
+EmptyImage[NE]=./railcars/br-180-fgw.0.7
 
 --
 
@@ -85,7 +86,8 @@ rolling_resistance=13
 weight=50
 axles=4
 cost=2705000
-runningcost=428
+runningcost=112
+fixed_cost=1409
 
 can_lead_from_rear=0
 bidirectional=1
@@ -109,14 +111,14 @@ Constraint[Next][1]=BR-180Middle
 Constraint[Next][2]=BR-180Middle-Buffet
 Constraint[Next][3]=BR-180Middle-first
 
-EmptyImage[E]=./images/br-180-fgw.1.0
-EmptyImage[SE]=./images/br-180-fgw.1.1
-EmptyImage[S]=./images/br-180-fgw.1.2
-EmptyImage[SW]=./images/br-180-fgw.1.3
-EmptyImage[W]=./images/br-180-fgw.1.4
-EmptyImage[NW]=./images/br-180-fgw.1.5
-EmptyImage[N]=./images/br-180-fgw.1.6
-EmptyImage[NE]=./images/br-180-fgw.1.7
+EmptyImage[E]=./railcars/br-180-fgw.1.0
+EmptyImage[SE]=./railcars/br-180-fgw.1.1
+EmptyImage[S]=./railcars/br-180-fgw.1.2
+EmptyImage[SW]=./railcars/br-180-fgw.1.3
+EmptyImage[W]=./railcars/br-180-fgw.1.4
+EmptyImage[NW]=./railcars/br-180-fgw.1.5
+EmptyImage[N]=./railcars/br-180-fgw.1.6
+EmptyImage[NE]=./railcars/br-180-fgw.1.7
 
 --
 
@@ -147,7 +149,8 @@ rolling_resistance=13
 weight=50
 axles=4
 cost=2705000
-runningcost=428
+runningcost=112
+fixed_cost=1409
 
 can_lead_from_rear=0
 bidirectional=1
@@ -171,14 +174,14 @@ Constraint[Next][1]=BR-180Middle
 Constraint[Next][2]=BR-180Middle-Buffet
 Constraint[Next][3]=BR-180Middle-first
 
-EmptyImage[E]=./images/br-180-fgw.1.0
-EmptyImage[SE]=./images/br-180-fgw.1.1
-EmptyImage[S]=./images/br-180-fgw.1.2
-EmptyImage[SW]=./images/br-180-fgw.1.3
-EmptyImage[W]=./images/br-180-fgw.1.4
-EmptyImage[NW]=./images/br-180-fgw.1.5
-EmptyImage[N]=./images/br-180-fgw.1.6
-EmptyImage[NE]=./images/br-180-fgw.1.7
+EmptyImage[E]=./railcars/br-180-fgw.1.0
+EmptyImage[SE]=./railcars/br-180-fgw.1.1
+EmptyImage[S]=./railcars/br-180-fgw.1.2
+EmptyImage[SW]=./railcars/br-180-fgw.1.3
+EmptyImage[W]=./railcars/br-180-fgw.1.4
+EmptyImage[NW]=./railcars/br-180-fgw.1.5
+EmptyImage[N]=./railcars/br-180-fgw.1.6
+EmptyImage[NE]=./railcars/br-180-fgw.1.7
 
 ----
 
@@ -207,7 +210,8 @@ length=13
 weight=50
 axles=4
 cost=2957000
-runningcost=458
+runningcost=112
+fixed_cost=19540
 
 can_lead_from_rear=0
 bidirectional=1
@@ -228,14 +232,14 @@ Constraint[Next][0]=BR-180Rear
 Constraint[Next][1]=BR-180Middle
 Constraint[Next][2]=BR-180Middle-first
 
-EmptyImage[E]=./images/br-180-fgw.1.0
-EmptyImage[SE]=./images/br-180-fgw.1.1
-EmptyImage[S]=./images/br-180-fgw.1.2
-EmptyImage[SW]=./images/br-180-fgw.1.3
-EmptyImage[W]=./images/br-180-fgw.1.4
-EmptyImage[NW]=./images/br-180-fgw.1.5
-EmptyImage[N]=./images/br-180-fgw.1.6
-EmptyImage[NE]=./images/br-180-fgw.1.7
+EmptyImage[E]=./railcars/br-180-fgw.1.0
+EmptyImage[SE]=./railcars/br-180-fgw.1.1
+EmptyImage[S]=./railcars/br-180-fgw.1.2
+EmptyImage[SW]=./railcars/br-180-fgw.1.3
+EmptyImage[W]=./railcars/br-180-fgw.1.4
+EmptyImage[NW]=./railcars/br-180-fgw.1.5
+EmptyImage[N]=./railcars/br-180-fgw.1.6
+EmptyImage[NE]=./railcars/br-180-fgw.1.7
 
 ---
 
@@ -266,7 +270,8 @@ rolling_resistance=13
 weight=51
 axles=4
 cost=2705000
-runningcost=428
+runningcost=112
+fixed_cost=7409
 sound=video47-class-175.wav
 
 can_lead_from_rear=1
@@ -288,12 +293,12 @@ Constraint[Prev][3]=BR-180Middle-first
 Constraint[Next][0]=BR-180Front
 Constraint[Next][1]=none
 
-EmptyImage[E]=./images/br-180-fgw.2.0
-EmptyImage[SE]=./images/br-180-fgw.2.1
-EmptyImage[S]=./images/br-180-fgw.2.2
-EmptyImage[SW]=./images/br-180-fgw.2.3
-EmptyImage[W]=./images/br-180-fgw.2.4
-EmptyImage[NW]=./images/br-180-fgw.2.5
-EmptyImage[N]=./images/br-180-fgw.2.6
-EmptyImage[NE]=./images/br-180-fgw.2.7
+EmptyImage[E]=./railcars/br-180-fgw.2.0
+EmptyImage[SE]=./railcars/br-180-fgw.2.1
+EmptyImage[S]=./railcars/br-180-fgw.2.2
+EmptyImage[SW]=./railcars/br-180-fgw.2.3
+EmptyImage[W]=./railcars/br-180-fgw.2.4
+EmptyImage[NW]=./railcars/br-180-fgw.2.5
+EmptyImage[N]=./railcars/br-180-fgw.2.6
+EmptyImage[NE]=./railcars/br-180-fgw.2.7
 

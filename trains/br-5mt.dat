@@ -6,7 +6,7 @@ speed=135
 # See http://www.traintesting.com/bulletin_6.htm for information on power.
 # Sadly, the data sheet is missing, but the summary suggests 1,000Hp, or approx.
 # So, extrapolated.
-power=413
+power=421
 tractive_effort=116
 copyright=Kieron/JamesPetts
 intro_year=1951
@@ -22,18 +22,19 @@ rolling_resistance=13
 weight=77
 axle_load=20
 cost=5210000
-runningcost=1045
+runningcost=355
+fixed_cost=28342
 sound=konakaboom-black-five.wav
 increase_maintenance_after_years=4
 years_before_maintenance_max_reached=13
 
 Constraint[Next][0]=BR-4MT-Tender
 
-EmptyImage[E]=./images/br-standard-5mt.0.0
-EmptyImage[SE]=./images/br-standard-5mt.0.1
-EmptyImage[S]=./images/br-standard-5mt.0.2
-EmptyImage[SW]=./images/br-standard-5mt.0.3
-EmptyImage[W]=./images/br-standard-5mt.0.4
-EmptyImage[NW]=./images/br-standard-5mt.0.5
-EmptyImage[N]=./images/br-standard-5mt.0.6
-EmptyImage[NE]=./images/br-standard-5mt.0.7
+EmptyImage[E]=./locomotives/br-standard-5mt_E.0.0
+EmptyImage[SE]=./locomotives/br-standard-5mt_SE.0.0
+EmptyImage[S]=./locomotives/br-standard-5mt_S.0.0
+EmptyImage[SW]=./locomotives/br-standard-5mt_SW.0.0
+EmptyImage[W]=./locomotives/br-standard-5mt_W.0.0
+EmptyImage[NW]=./locomotives/br-standard-5mt_NW.0.0
+EmptyImage[N]=./locomotives/br-standard-5mt_N.0.0
+EmptyImage[NE]=./locomotives/br-standard-5mt_NE.0.0
