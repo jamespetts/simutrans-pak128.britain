@@ -255,6 +255,7 @@ smoke=Industry_Smoke
 smoketile=0,0
 smokeoffset=20,3
 smokeheight=76
+smokelife=9000
 InputGood[0]=wool
 InputCapacity[0]=432 
 InputFactor[0]=100  

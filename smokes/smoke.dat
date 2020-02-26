@@ -41,6 +41,10 @@ Image[0]=vapour-1.0
 Image[1]=vapour-2.0
 Image[2]=vapour-2.0
 Image[3]=vapour-2.0
+Image[4]=vapour-2.0
+Image[5]=vapour-2.0
+Image[6]=vapour-2.0
+Image[7]=vapour-2.0
 --------------------
 Obj=smoke
 Name=Industry_Fire
@@ -48,6 +52,10 @@ Image[0]=flare-1.0
 Image[1]=flare-2.0
 Image[2]=flare-1.0
 Image[3]=flare-2.0
+Image[4]=flare-1.0
+Image[5]=flare-2.0
+Image[6]=flare-1.0
+Image[7]=flare-2.0
 --------------------
 # This is a very old example taken from Pak64: see
 # http://simutrans-germany.com/wiki/wiki/en_SmokeDef
