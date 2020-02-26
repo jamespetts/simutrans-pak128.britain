@@ -36,7 +36,6 @@ smoke=Industry_Smoke
 smoketile=1,2
 smokeoffset=-4,-2
 smokeheight=128
-smokespeed=1
 smokelife=7000
 dims=4,3,4
 
@@ -266,7 +265,6 @@ smoke=Industry_Smoke
 smoketile=1,2
 smokeoffset=-4,-2
 smokeheight=128
-smokespeed=1
 smokelife=7000
 dims=4,3,4
 
