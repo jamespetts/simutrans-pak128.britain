@@ -33,7 +33,7 @@ comfort[1]=89
 upgrade[0]=LSWR-EMU(centre)
 upgrade[1]=LSWR-EMU(rear)
 upgrade[2]=LSWR-EMU(front)
-upgrade[3]=SR-3SUB(rear)
+upgrade[3]=SR-3SUB(front)
 upgrade[4]=SR-3SUB(rear)
 upgrade[5]=SR-3SUB(centre)
 
@@ -162,7 +162,7 @@ comfort[1]=89
 upgrade[0]=LSWR-EMU(centre)
 upgrade[1]=LSWR-EMU(rear)
 upgrade[2]=LSWR-EMU(front)
-upgrade[3]=SR-3SUB(rear)
+upgrade[3]=SR-3SUB(front)
 upgrade[4]=SR-3SUB(rear)
 upgrade[5]=SR-3SUB(centre)
 
@@ -290,7 +290,7 @@ comfort[1]=89
 upgrade[0]=LSWR-EMU(centre)
 upgrade[1]=LSWR-EMU(rear)
 upgrade[2]=LSWR-EMU(front)
-upgrade[3]=SR-3SUB(rear)
+upgrade[3]=SR-3SUB(front)
 upgrade[4]=SR-3SUB(rear)
 upgrade[5]=SR-3SUB(centre)
 
