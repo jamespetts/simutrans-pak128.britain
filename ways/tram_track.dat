@@ -254,7 +254,8 @@ Name=TramTrackHeavy
 waytype=tram_track
 cost=48750
 maintenance=600
-topspeed=20
+# Weymouth Harmour Tramway required railway workers (mostly men) to walk in front of the train. Comfortable walking speed for men in their 40s is 1.46m/s.
+topspeed=5
 max_weight=18
 intro_year=1892
 intro_month=4
