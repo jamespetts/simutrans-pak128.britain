@@ -3,7 +3,8 @@ Name=IND_A_1830_00_10
 copyright=Archon
 type=IND
 chance=40
-Level=10
+level=11
+# Recalibrated from 10
 # Tileworks
 population_and_visitor_demand_capacity=2
 employment_capacity=86
@@ -37,7 +38,8 @@ Name=IND_A_1835_01_20
 copyright=Archon
 type=ind
 chance=45
-Level=20
+level=14
+# Recalibrated from 20
 # Warehouse (large)
 population_and_visitor_demand_capacity=6
 employment_capacity=112

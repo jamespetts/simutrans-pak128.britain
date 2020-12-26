@@ -3,7 +3,8 @@ Name=IND_JH_1860_00_10
 copyright=James
 type=ind
 chance=200
-Level=5
+level=1
+# Recalibrated from 5
 # Gasometer
 population_and_visitor_demand_capacity=0
 employment_capacity=3

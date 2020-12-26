@@ -3,7 +3,8 @@ Name=RES_KG_1600_00_01
 copyright=Kieron
 type=res
 chance=50
-Level=1
+level=6
+# Recalibrated from 1
 # Artisan's cottage, perhaps: large, double-fronted
 # Estimate population of 12 per house (including servants) x 5 (low density, large gardens)
 # yields 75, / 16 hours * 6.4 hours = 30

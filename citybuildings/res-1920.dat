@@ -3,7 +3,7 @@ Name=RES_KG_1920_00_02
 copyright=Kieron
 type=res
 chance=65
-Level=2
+level=2
 # Detached house with sizeable garden
 population_and_visitor_demand_capacity=11
 mail_demand=4

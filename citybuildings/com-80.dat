@@ -3,7 +3,8 @@ Name=COM_KG_1980_00_16
 copyright=Kieron
 type=com
 chance=50
-Level=16
+level=19
+# Recalibrated from 16
 # Shops and offices
 population_and_visitor_demand_capacity=90
 employment_capacity=66
@@ -41,7 +42,8 @@ intro_year=1980
 intro_month=5
 noinfo=0
 noconstruction=0
-level=18
+level=11
+# Recalibrated from 18
 # Three storey office block
 population_and_visitor_demand_capacity=7
 employment_capacity=58

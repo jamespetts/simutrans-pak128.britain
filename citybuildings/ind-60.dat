@@ -3,7 +3,8 @@ Name=IND_JH_1960_00_02
 copyright=James
 type=ind
 chance=30
-Level=2
+level=4
+# Recalibrated from 2
 population_and_visitor_demand_capacity=3
 employment_capacity=25
 mail_demand=3

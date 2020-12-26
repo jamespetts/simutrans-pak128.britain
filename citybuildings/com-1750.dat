@@ -4,7 +4,8 @@ Name=COM_A_1750_00_10
 copyright=Archon
 type=com
 chance=100
-Level=10
+level=18
+# Recalibrated from 10
 # Larger beer house that brews its own beer on the premises.
 # Estimate 250 customers/day, x 4 (to take account of the relative size)
 # yields 1000/day, / 16 hours * 6.4 hours = 400
@@ -44,7 +45,8 @@ Name=COM_A_1750_01_08
 copyright=Archon
 type=COM
 chance=50
-Level=8
+level=9
+# Recalibrated from 8
 # Slightly larger slightly speciality shop, e.g. tailor, chandler, chemist, etc.
 # Estimate 25 customers/day, x 11 (to take account of the relative size)
 # yields 275/day, / 16 hours * 6.4 hours = 110
@@ -93,7 +95,8 @@ Name=COM_A_1750_02_08
 copyright=Archon
 type=COM
 chance=50
-Level=8
+level=9
+# Recalibrated from 8
 # Slightly larger slightly speciality shop, e.g. tailor, chandler, chemist, etc.
 # Estimate 25 customers/day, x 11 (to take account of the relative size)
 # yields 275/day, / 16 hours * 6.4 hours = 110
@@ -143,7 +146,8 @@ Name=COM_A_1750_03_07
 copyright=Archon
 type=com
 chance=100
-Level=7
+level=11
+# Recalibrated from 7
 # Inn that brews its own beer on the premises.
 # Estimate 150 customers/day, x 4 (to take account of the relative size)
 # yields 600/day, / 16 hours * 6.4 hours = 240
@@ -182,7 +186,7 @@ Name=COM_A_1750_04_06
 copyright=Archon
 type=com
 chance=100
-Level=6
+level=6
 # Small slightly speciality shop, e.g. tailor, chandler, chemist, etc.
 # Estimate 12 customers/day, x 11 (to take account of the relative size)
 # yields 132/day, / 16 hours * 6.4 hours = 52.8

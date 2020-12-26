@@ -4,7 +4,8 @@ copyright=Archon
 type=res
 chance=25
 population_and_visitor_demand_capacity=26
-Level=4
+level=5
+# Recalibrated from 4
 # Large townhouse for wealthy individuals
 class_proportion[0]=0
 class_proportion[1]=35

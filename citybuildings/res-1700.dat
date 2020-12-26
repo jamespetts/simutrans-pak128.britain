@@ -3,7 +3,8 @@ Name=RES_KG_1700_00_02
 copyright=Kieron
 type=res
 chance=90
-Level=2
+level=4
+# Recalibrated from 2
 # Semi-detached mid-sized cottages, apparently artezanal
 # Estimate population of 7 per house (including servants) x 8 (lower density)
 # yields 56, / 16 hours * 6.4 hours = 22.4
@@ -34,7 +35,8 @@ Name=RES_KG_1700_01_04
 copyright=Kieron
 type=res
 chance=70
-Level=4
+level=6
+# Recalibrated from 4
 # Semi-detached mid-sized cottages, apparently artezanal
 # Estimate population of 8 per house (including servants) x 12 (higher density)
 # yields 96, / 16 hours * 6.4 hours = 38.4

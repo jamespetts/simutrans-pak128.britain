@@ -3,7 +3,8 @@ Name=RES_KG_1990_00_02
 copyright=Kieron
 type=res
 chance=88
-Level=2
+level=4
+# Recalibrated from 2
 # Detached houses
 population_and_visitor_demand_capacity=17
 mail_demand=2
@@ -32,7 +33,8 @@ Name=RES_KG_1990_01_02
 copyright=Kieron
 type=res
 chance=99
-Level=2
+level=4
+# Recalibrated from 2
 # Detached houses
 population_and_visitor_demand_capacity=17
 mail_demand=2
@@ -61,7 +63,7 @@ Name=RES_KG_1990_02_03
 copyright=Kieron
 type=res
 chance=95
-Level=3
+level=3
 # Semi-detached houses
 population_and_visitor_demand_capacity=12
 mail_demand=3

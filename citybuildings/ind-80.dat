@@ -3,7 +3,8 @@ Name=IND_JH_1980_00_03
 copyright=James
 type=ind
 chance=50
-Level=3
+level=6
+# Recalibrated from 3
 population_and_visitor_demand_capacity=4
 employment_capacity=35
 mail_demand=5
@@ -39,7 +40,8 @@ Name=IND_WL_1980_00_04
 copyright=WLindley
 type=ind
 chance=50
-Level=4
+level=1
+# Recalibrated from 4
 population_and_visitor_demand_capacity=8
 employment_capacity=1
 mail_demand=0

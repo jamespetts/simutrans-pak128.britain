@@ -4,7 +4,8 @@ Name=COM_JEP_1920_00_16
 copyright=jamespetts
 type=com
 chance=10
-Level=32
+level=68
+# Recalibrated from 32
 # Shell Mex
 population_and_visitor_demand_capacity=64
 employment_capacity=360
@@ -44,7 +45,8 @@ Name=COM_A_office13_18
 copyright=Archon
 type=COM
 chance=50
-Level=28
+level=42
+# Recalibrated from 28
 # Tall offices
 population_and_visitor_demand_capacity=52
 employment_capacity=215

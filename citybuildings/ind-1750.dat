@@ -3,7 +3,8 @@ Name=IND_JH_1750_00_07
 copyright=James
 type=ind
 chance=25
-Level=7
+level=4
+# Recalibrated from 7
 # Small warehouse
 population_and_visitor_demand_capacity=1
 # Imagine * 16 for density. 4 warehousemen per warehouse = 64
@@ -40,7 +41,8 @@ Name=IND_JH_1750_01_08
 copyright=James&WLindley
 type=ind
 chance=25
-Level=8
+level=6
+# Recalibrated from 8
 # Slightly larger warehouse
 population_and_visitor_demand_capacity=1
 # Imagine * 16 for density. 6 warehousemen per warehouse = 96
@@ -77,7 +79,8 @@ Name=IND_JH_1750_02_06
 copyright=James&WLindley
 type=ind
 chance=25
-Level=6
+level=3
+# Recalibrated from 6
 # Very small warehouse
 population_and_visitor_demand_capacity=1
 # Imagine * 16 for density. 3 warehousemen per warehouse = 48
@@ -113,7 +116,8 @@ Name=IND_JH_1750_03_04
 copyright=James&WLindley
 type=ind
 chance=25
-Level=4
+level=3
+# Recalibrated from 4
 # Very small warehouse
 population_and_visitor_demand_capacity=1
 # Imagine * 12 for density. 3 warehousemen per warehouse = 36
@@ -165,7 +169,8 @@ class_proportion_jobs[1]=50
 class_proportion_jobs[2]=15
 class_proportion_jobs[3]=0
 class_proportion_jobs[4]=0
-Level=10
+level=9
+# Recalibrated from 10
 intro_year=1750
 retire_year=1938
 needs_ground=0
@@ -201,7 +206,8 @@ class_proportion_jobs[1]=50
 class_proportion_jobs[2]=15
 class_proportion_jobs[3]=0
 class_proportion_jobs[4]=0
-Level=2
+level=4
+# Recalibrated from 2
 intro_year=1750
 retire_year=1900
 needs_ground=1
@@ -237,7 +243,8 @@ class_proportion_jobs[1]=50
 class_proportion_jobs[2]=15
 class_proportion_jobs[3]=0
 class_proportion_jobs[4]=0
-Level=2
+level=4
+# Recalibrated from 2
 intro_year=1750
 retire_year=1900
 needs_ground=1
@@ -257,7 +264,7 @@ Name=IND_JH_1750_06_01
 copyright=James
 type=ind
 chance=10
-Level=1
+level=1
 regions=1,2,3,4,5
 # Pasture
 population_and_visitor_demand_capacity=0
@@ -302,7 +309,7 @@ class_proportion_jobs[1]=0
 class_proportion_jobs[2]=0
 class_proportion_jobs[3]=0
 class_proportion_jobs[4]=0
-Level=1
+level=1
 intro_year=1750
 retire_year=1930
 needs_ground=1
@@ -338,7 +345,8 @@ class_proportion_jobs[1]=50
 class_proportion_jobs[2]=15
 class_proportion_jobs[3]=0
 class_proportion_jobs[4]=0
-Level=3
+level=4
+# Recalibrated from 3
 intro_year=1750
 retire_year=1900
 needs_ground=1

@@ -4,7 +4,8 @@ copyright=Kieron
 type=res
 chance=60
 population_and_visitor_demand_capacity=18
-Level=4
+level=3
+# Recalibrated from 4
 # Semi-detached cottages
 class_proportion[0]=10
 class_proportion[1]=65
@@ -33,7 +34,8 @@ copyright=Kieron
 type=res
 chance=100
 population_and_visitor_demand_capacity=56
-Level=6
+level=7
+# Recalibrated from 6
 # Terraces
 class_proportion[0]=50
 class_proportion[1]=50
@@ -62,7 +64,8 @@ copyright=Archon
 type=RES
 chance=50
 population_and_visitor_demand_capacity=135
-Level=15
+level=18
+# Recalibrated from 15
 # Slightly better quality tenaments
 class_proportion[0]=30
 class_proportion[1]=60
@@ -102,7 +105,8 @@ copyright=Archon
 type=RES
 chance=50
 population_and_visitor_demand_capacity=135
-Level=15
+level=18
+# Recalibrated from 15
 # Slightly better quality tenaments
 class_proportion[0]=30
 class_proportion[1]=60

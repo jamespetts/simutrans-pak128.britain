@@ -3,7 +3,8 @@ Name=IND_JH_1850_00_07
 copyright=James&WLindley
 type=ind
 chance=200
-Level=7
+level=8
+# Recalibrated from 7
 # Warehouse
 population_and_visitor_demand_capacity=3
 employment_capacity=64
@@ -45,7 +46,8 @@ Name=IND_JH_1850_01_15
 copyright=James&WLindley
 type=ind
 chance=200
-Level=15
+level=11
+# Recalibrated from 15
 # Warehouse
 population_and_visitor_demand_capacity=4
 employment_capacity=90
@@ -79,7 +81,8 @@ Name=IND_JH_1850_02_20
 copyright=James&WLindley
 type=ind
 chance=200
-Level=21
+level=16
+# Recalibrated from 21
 # Warehouse
 population_and_visitor_demand_capacity=7
 employment_capacity=130
@@ -113,7 +116,8 @@ Name=IND_A_1850_00_20
 copyright=Archon
 type=IND
 chance=100
-Level=20
+level=14
+# Recalibrated from 20
 # Warehouse
 population_and_visitor_demand_capacity=5
 employment_capacity=115
@@ -148,7 +152,8 @@ Name=IND_JH_1850_03_08
 copyright=James
 type=ind
 chance=80
-Level=8
+level=14
+# Recalibrated from 8
 # Timber yard
 population_and_visitor_demand_capacity=5
 employment_capacity=115
@@ -182,7 +187,8 @@ Name=IND_JH_1850_04_06
 copyright=James
 type=ind
 chance=33
-Level=6
+level=2
+# Recalibrated from 6
 # Pumping station
 population_and_visitor_demand_capacity=2
 employment_capacity=10

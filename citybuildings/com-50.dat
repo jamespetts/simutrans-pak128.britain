@@ -4,7 +4,8 @@ Name=COM_A_1950_00_10
 copyright=Archon
 type=com
 chance=40
-Level=10
+level=14
+# Recalibrated from 10
 # Four storey office block
 population_and_visitor_demand_capacity=10
 employment_capacity=75
@@ -39,7 +40,8 @@ Name=COM_A_1950_00_18
 copyright=Archon
 type=com
 chance=70
-Level=18
+level=24
+# Recalibrated from 18
 # Seven storey office block
 population_and_visitor_demand_capacity=18
 employment_capacity=131
@@ -83,7 +85,8 @@ Name=COM_A_1950_01_18
 copyright=Archon
 type=com
 chance=85
-Level=18
+level=24
+# Recalibrated from 18
 # Seven storey office block
 population_and_visitor_demand_capacity=18
 employment_capacity=131
@@ -127,7 +130,8 @@ Name=COM_A_1950_01_24
 copyright=Archon
 type=com
 chance=85
-Level=24
+level=34
+# Recalibrated from 24
 # Ten storey office block
 population_and_visitor_demand_capacity=25
 employment_capacity=187

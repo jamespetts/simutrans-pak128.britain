@@ -2,7 +2,8 @@ obj=building
 name=COM_SAR_1880_00_24
 copyright=Sarlock
 type=com
-level=24
+level=39
+# Recalibrated from 24
 # Offices with shops underneath
 population_and_visitor_demand_capacity=260
 employment_capacity=100

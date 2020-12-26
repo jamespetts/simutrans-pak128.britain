@@ -3,7 +3,8 @@ Name=RES_KG_1910_00_04
 copyright=Kieron
 type=res
 chance=80
-Level=4
+level=3
+# Recalibrated from 4
 # Semi-detached houses (two storey)
 population_and_visitor_demand_capacity=18
 mail_demand=6
@@ -33,7 +34,8 @@ Name=RES_KG_1910_01_06
 copyright=Kieron
 type=res
 chance=85
-Level=6
+level=5
+# Recalibrated from 6
 # Semi-detached townhouses (three storey)
 population_and_visitor_demand_capacity=25
 mail_demand=9

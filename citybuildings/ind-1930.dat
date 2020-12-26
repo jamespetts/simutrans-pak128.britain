@@ -3,7 +3,8 @@ Name=IND_JH_1930_00_05
 copyright=James
 type=ind
 chance=100
-Level=5
+level=6
+# Recalibrated from 5
 # Warehouse
 population_and_visitor_demand_capacity=7
 employment_capacity=38
@@ -34,7 +35,8 @@ Name=IND_JH_1930_01_04
 copyright=James
 type=ind
 chance=25
-Level=4
+level=5
+# Recalibrated from 4
 # Warehouse
 population_and_visitor_demand_capacity=4
 employment_capacity=30

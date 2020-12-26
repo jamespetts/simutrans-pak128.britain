@@ -3,7 +3,8 @@ Name=COM_KG_1880_00_10
 copyright=Kieron
 type=com
 chance=20
-Level=10
+level=13
+# Recalibrated from 10
 # Three storey terraced shops
 population_and_visitor_demand_capacity=95
 employment_capacity=26
@@ -45,7 +46,8 @@ Name=COM_KG_1880_01_08
 copyright=Kieron
 type=com
 chance=20
-Level=8
+level=13
+# Recalibrated from 8
 # Three storey terraced shops
 population_and_visitor_demand_capacity=95
 employment_capacity=26
@@ -89,7 +91,8 @@ Name=COM_KG_1880_02_06
 copyright=Kieron
 type=com
 chance=20
-Level=6
+level=10
+# Recalibrated from 6
 # Two storey terraced shops
 population_and_visitor_demand_capacity=75
 employment_capacity=15
@@ -126,7 +129,8 @@ Name=COM_A_1880_00_10
 copyright=Archon
 type=COM
 chance=18
-Level=10
+level=32
+# Recalibrated from 10
 # Offices with shops underneath
 population_and_visitor_demand_capacity=210
 employment_capacity=80

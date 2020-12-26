@@ -5,7 +5,8 @@ Name=RES_JH_1800_00_06A
 copyright=James
 type=res
 chance=33
-Level=2
+level=5
+# Recalibrated from 2
 intro_year=1800
 retire_year=1850
 # Tall terraced townhouse over 3 storeys. 
@@ -37,7 +38,8 @@ Name=RES_JH_1800_00_06B
 copyright=James
 type=res
 chance=33
-Level=2
+level=5
+# Recalibrated from 2
 # Tall terraced townhouse over 3 storeys. 
 # Upper middle classes with servants.
 # Estimate population of 9 per house (including servants) x 14 (higher density layout)

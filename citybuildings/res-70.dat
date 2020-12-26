@@ -3,7 +3,7 @@ Name=RES_JH_1970_00_02
 copyright=James
 type=res
 chance=50
-Level=2
+level=2
 # Semi-detached houses
 population_and_visitor_demand_capacity=9
 mail_demand=2
@@ -32,7 +32,7 @@ Name=RES_JH_1970_01_02
 copyright=James
 type=res
 chance=50
-Level=2
+level=2
 # Semi-detached houses
 population_and_visitor_demand_capacity=9
 mail_demand=2
@@ -61,7 +61,7 @@ Name=RES_JH_1970_02_02
 copyright=James
 type=res
 chance=50
-Level=2
+level=2
 # Semi-detached houses
 population_and_visitor_demand_capacity=10
 mail_demand=2
@@ -90,7 +90,8 @@ Name=RES_JH_1970_03_04
 copyright=James
 type=res
 chance=15
-Level=4
+level=2
+# Recalibrated from 4
 # Semi-detached houses
 population_and_visitor_demand_capacity=11
 mail_demand=3
@@ -119,7 +120,8 @@ Name=RES_DB_1970_00_04A
 copyright=James
 type=res
 chance=50
-Level=12
+level=5
+# Recalibrated from 12
 # Low-rise flats
 population_and_visitor_demand_capacity=32
 mail_demand=6
@@ -148,7 +150,8 @@ Name=RES_DB_1970_00_04B
 copyright=deadlyboring
 type=res
 chance=50
-Level=12
+level=5
+# Recalibrated from 12
 # Low-rise flats
 population_and_visitor_demand_capacity=32
 mail_demand=6

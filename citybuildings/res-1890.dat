@@ -4,7 +4,8 @@ copyright=Kieron
 type=res
 chance=45
 population_and_visitor_demand_capacity=18
-Level=2
+level=3
+# Recalibrated from 2
 # Low density townhouses
 class_proportion[0]=0
 class_proportion[1]=40
@@ -31,7 +32,7 @@ copyright=Kieron
 type=res
 chance=65
 population_and_visitor_demand_capacity=26
-Level=5
+level=5
 # Semi-detached houses
 class_proportion[0]=5
 class_proportion[1]=20
@@ -59,7 +60,7 @@ copyright=Archon
 type=res
 chance=100
 population_and_visitor_demand_capacity=26
-Level=4
+level=4
 # Terraces
 class_proportion[0]=40
 class_proportion[1]=50
@@ -87,7 +88,7 @@ copyright=James
 type=res
 chance=20
 population_and_visitor_demand_capacity=28
-Level=5
+level=5
 # Semi-detached townhouses (some servants)
 class_proportion[0]=0
 class_proportion[1]=30
@@ -114,7 +115,7 @@ copyright=James
 type=res
 chance=20
 population_and_visitor_demand_capacity=28
-Level=5
+level=5
 # Semi-detached townhouses (some servants)
 class_proportion[0]=0
 class_proportion[1]=30
@@ -147,7 +148,7 @@ class_proportion[1]=15
 class_proportion[2]=10
 class_proportion[3]=70
 class_proportion[4]=5
-Level=2
+level=2
 intro_year=1890
 retire_year=1930
 needs_ground=1
@@ -174,7 +175,8 @@ class_proportion[1]=20
 class_proportion[2]=5
 class_proportion[3]=75
 class_proportion[4]=0
-Level=3
+level=2
+# Recalibrated from 3
 intro_year=1890
 retire_year=1930
 needs_ground=1
@@ -201,7 +203,8 @@ class_proportion[1]=20
 class_proportion[2]=5
 class_proportion[3]=75
 class_proportion[4]=0
-Level=3
+level=2
+# Recalibrated from 3
 intro_year=1890
 retire_year=1930
 needs_ground=1

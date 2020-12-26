@@ -3,7 +3,8 @@ Name=COM_KG_1870_00_06
 copyright=Kieron
 type=com
 chance=50
-Level=6
+level=11
+# Recalibrated from 6
 # Public house
 population_and_visitor_demand_capacity=96
 employment_capacity=17
@@ -38,7 +39,8 @@ Name=COM_JH_1870_00_10
 copyright=James&WLindley
 type=com
 chance=20
-Level=10
+level=15
+# Recalibrated from 10
 # Offices
 population_and_visitor_demand_capacity=25
 employment_capacity=75
@@ -95,7 +97,8 @@ class_proportion_jobs[1]=15
 class_proportion_jobs[2]=75
 class_proportion_jobs[3]=5
 class_proportion_jobs[4]=0
-Level=12
+level=15
+# Recalibrated from 12
 intro_year=1870
 retire_year=1940
 needs_ground=1
@@ -116,7 +119,8 @@ Name=COM_JH_1870_00_18
 copyright=James&WLindley
 type=com
 chance=20
-Level=18
+level=23
+# Recalibrated from 18
 # Offices
 population_and_visitor_demand_capacity=36
 employment_capacity=120
@@ -151,7 +155,8 @@ Name=COM_JH_1870_01_20
 copyright=James&WLindley
 type=com
 chance=20
-Level=20
+level=32
+# Recalibrated from 20
 # Offices
 population_and_visitor_demand_capacity=42
 employment_capacity=165
@@ -186,7 +191,8 @@ Name=COM_JH_1870_02_22
 copyright=James&WLindley
 type=com
 chance=20
-Level=22
+level=35
+# Recalibrated from 22
 # Offices
 population_and_visitor_demand_capacity=48
 employment_capacity=180
@@ -247,7 +253,8 @@ Name=COM_JH_1870_03_25
 copyright=James&WLindley
 type=com
 chance=20
-Level=25
+level=48
+# Recalibrated from 25
 # Offices
 population_and_visitor_demand_capacity=56
 employment_capacity=250

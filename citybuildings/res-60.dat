@@ -3,7 +3,8 @@ Name=RES_KG_1960_00_16
 copyright=Kieron
 type=res
 chance=50
-Level=16
+level=9
+# Recalibrated from 16
 # Block of flats (5 storeys)
 population_and_visitor_demand_capacity=67
 mail_demand=20
@@ -33,7 +34,8 @@ class_proportion[1]=65
 class_proportion[2]=23
 class_proportion[3]=2
 class_proportion[4]=0
-Level=4
+level=3
+# Recalibrated from 4
 intro_year=1960
 retire_year=1980
 needs_ground=1
@@ -52,7 +54,8 @@ chance=45
 #Level=8
 # These were originally encoded as level 8, but these are just a 
 # colour varient of RES_KG_1960_01_04
-Level=4
+level=3
+# Recalibrated from 4
 # Semi-detached council houses
 population_and_visitor_demand_capacity=15
 mail_demand=5
@@ -77,7 +80,8 @@ Name=RES_KG_1960_03_12
 copyright=Kieron
 type=res
 chance=40
-Level=12
+level=3
+# Recalibrated from 12
 # Modern terraced houses
 population_and_visitor_demand_capacity=15
 mail_demand=9
@@ -106,7 +110,8 @@ Name=RES_KG_1960_04_03
 copyright=Kieron
 type=res
 chance=80
-Level=3
+level=2
+# Recalibrated from 3
 # Semi-detached council houses
 population_and_visitor_demand_capacity=8
 mail_demand=2

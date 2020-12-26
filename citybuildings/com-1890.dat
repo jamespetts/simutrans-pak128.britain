@@ -3,7 +3,8 @@ Name=COM_A_1890_00_14
 copyright=Archon
 type=COM
 chance=100
-Level=14
+level=17
+# Recalibrated from 14
 population_and_visitor_demand_capacity=18
 employment_capacity=92
 mail_demand=18
@@ -62,7 +63,8 @@ Name=COM_A_1890_01_14
 copyright=Archon
 type=COM
 chance=100
-Level=14
+level=17
+# Recalibrated from 14
 population_and_visitor_demand_capacity=20
 employment_capacity=94
 mail_demand=19
@@ -90,7 +92,8 @@ Name=COM_A_1890_02_14
 copyright=Archon
 type=COM
 chance=100
-Level=14
+level=16
+# Recalibrated from 14
 population_and_visitor_demand_capacity=10
 employment_capacity=88
 mail_demand=15
@@ -124,7 +127,8 @@ Name=COM_A_1890_03_18
 copyright=Archon
 type=COM
 chance=100
-Level=18
+level=25
+# Recalibrated from 18
 population_and_visitor_demand_capacity=38
 employment_capacity=125
 mail_demand=28

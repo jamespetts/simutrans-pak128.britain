@@ -3,7 +3,8 @@ Name=COM_JH_1930_00_06A
 copyright=James
 type=com
 chance=75
-Level=6
+level=9
+# Recalibrated from 6
 # Terraced shops
 population_and_visitor_demand_capacity=75
 employment_capacity=15
@@ -38,7 +39,8 @@ Name=COM_JH_1930_00_06B
 copyright=James
 type=com
 chance=75
-Level=6
+level=9
+# Recalibrated from 6
 # Terraced shops
 population_and_visitor_demand_capacity=75
 employment_capacity=15
@@ -73,7 +75,8 @@ Name=COM_JH_1930_01_08A
 copyright=James
 type=com
 chance=75
-Level=8
+level=12
+# Recalibrated from 8
 # Terraced shops
 population_and_visitor_demand_capacity=95
 employment_capacity=26
@@ -108,7 +111,8 @@ Name=COM_JH_1930_00_08B
 copyright=James
 type=com
 chance=75
-Level=8
+level=12
+# Recalibrated from 8
 # Terraced shops
 population_and_visitor_demand_capacity=95
 employment_capacity=26
@@ -143,7 +147,8 @@ Name=COM_JH_1930_01_12A
 copyright=James
 type=COM
 chance=80
-Level=12
+level=15
+# Recalibrated from 12
 # Offices
 population_and_visitor_demand_capacity=12
 employment_capacity=84
@@ -186,7 +191,8 @@ Name=COM_JH_1930_01_12B
 copyright=James
 type=COM
 chance=80
-Level=12
+level=15
+# Recalibrated from 12
 # Offices
 population_and_visitor_demand_capacity=12
 employment_capacity=84
@@ -229,7 +235,8 @@ Name=COM_JH_1930_02_10
 copyright=James
 type=com
 chance=100
-Level=10
+level=14
+# Recalibrated from 10
 # Offices
 population_and_visitor_demand_capacity=10
 employment_capacity=77

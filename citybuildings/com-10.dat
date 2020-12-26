@@ -3,7 +3,8 @@ Name=COM_KG_1910_00_10
 copyright=Kieron
 type=com
 chance=25
-Level=10
+level=16
+# Recalibrated from 10
 # Medium sized offices
 population_and_visitor_demand_capacity=15
 employment_capacity=88

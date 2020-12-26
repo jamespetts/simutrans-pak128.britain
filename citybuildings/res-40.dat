@@ -3,7 +3,8 @@ Name=RES_JH_1945_00_01A
 copyright=James
 type=res
 chance=100
-Level=1
+level=2
+# Recalibrated from 1
 # Prefabricated houses
 population_and_visitor_demand_capacity=10
 mail_demand=1
@@ -32,7 +33,8 @@ Name=RES_JH_1945_00_01B
 copyright=James
 type=res
 chance=100
-Level=1
+level=2
+# Recalibrated from 1
 # Prefabricated houses
 population_and_visitor_demand_capacity=10
 mail_demand=1

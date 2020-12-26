@@ -4,7 +4,8 @@ copyright=Kieron
 type=res
 chance=70
 population_and_visitor_demand_capacity=38
-Level=6
+level=7
+# Recalibrated from 6
 # Middling semi-detached houses
 class_proportion[0]=0
 class_proportion[1]=20
@@ -31,7 +32,7 @@ copyright=Archon
 type=RES
 chance=80
 population_and_visitor_demand_capacity=100
-Level=12
+level=12
 # Squalid tenaments
 class_proportion[0]=60
 class_proportion[1]=40
@@ -59,7 +60,8 @@ copyright=Archon
 type=RES
 chance=95
 population_and_visitor_demand_capacity=100
-Level=15
+level=12
+# Recalibrated from 15
 # Large squalid tenaments
 class_proportion[0]=55
 class_proportion[1]=45
@@ -110,7 +112,8 @@ copyright=James
 type=res
 chance=100
 population_and_visitor_demand_capacity=100
-Level=6
+level=11
+# Recalibrated from 6
 # Lower class terraces
 class_proportion[0]=75
 class_proportion[1]=25
@@ -138,7 +141,8 @@ copyright=James
 type=res
 chance=100
 population_and_visitor_demand_capacity=100
-Level=6
+level=11
+# Recalibrated from 6
 # Lower class terraces
 class_proportion[0]=75
 class_proportion[1]=25

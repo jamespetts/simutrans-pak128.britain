@@ -3,7 +3,8 @@ Name=COM_KG_1960_00_08
 copyright=Kieron
 type=com
 chance=75
-Level=8
+level=16
+# Recalibrated from 8
 # Four storey office block
 population_and_visitor_demand_capacity=8
 employment_capacity=92
@@ -38,7 +39,8 @@ Name=COM_A_1960_02_18
 copyright=Archon
 type=com
 chance=100
-Level=18
+level=24
+# Recalibrated from 18
 # Six storey office block
 population_and_visitor_demand_capacity=16
 employment_capacity=128
@@ -82,7 +84,8 @@ Name=COM_A_1960_02_24
 copyright=Archon
 type=com
 chance=100
-Level=24
+level=26
+# Recalibrated from 24
 # Six storey office block
 population_and_visitor_demand_capacity=20
 employment_capacity=140

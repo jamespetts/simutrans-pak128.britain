@@ -5,7 +5,8 @@ Name=IND_WL_1950_00_04
 copyright=WLindley
 type=ind
 chance=8
-Level=4
+level=1
+# Recalibrated from 4
 # Car park
 population_and_visitor_demand_capacity=6
 employment_capacity=1
@@ -39,7 +40,8 @@ Name=IND_A_1950_00_10
 copyright=Archon
 type=IND
 chance=45
-Level=10
+level=8
+# Recalibrated from 10
 # Warehouse
 population_and_visitor_demand_capacity=4
 employment_capacity=60
@@ -75,7 +77,8 @@ Name=IND_A_1950_02_10
 copyright=Archon
 type=IND
 chance=40
-Level=10
+level=8
+# Recalibrated from 10
 # Warehouse
 population_and_visitor_demand_capacity=4
 employment_capacity=60
@@ -111,7 +114,7 @@ Name=IND_A_1950_03_10
 copyright=Archon
 type=IND
 chance=44
-Level=10
+level=10
 # Light industrial unit
 population_and_visitor_demand_capacity=5
 employment_capacity=65

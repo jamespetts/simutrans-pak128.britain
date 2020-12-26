@@ -3,7 +3,8 @@ Name=COM_A_1850_00_10
 copyright=Archon
 type=com
 chance=65
-Level=6
+level=9
+# Recalibrated from 6
 # Swan Inn
 population_and_visitor_demand_capacity=85
 employment_capacity=15

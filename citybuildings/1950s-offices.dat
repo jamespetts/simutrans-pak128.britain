@@ -4,7 +4,8 @@ Name=IND_WL_1950_01_10
 copyright=Kieron & WLindley
 type=com
 chance=50
-Level=10
+level=11
+# Recalibrated from 10
 population_and_visitor_demand_capacity=70
 employment_capacity=31
 mail_demand=9
@@ -33,7 +34,8 @@ Name=IND_WL_1950_02_15
 copyright=Kieron & WLindley
 type=com
 chance=50
-Level=15
+level=17
+# Recalibrated from 15
 population_and_visitor_demand_capacity=75
 employment_capacity=64
 mail_demand=16
@@ -62,7 +64,8 @@ Name=IND_WL_1950_03_20
 copyright=Kieron & WLindley
 type=com
 chance=50
-level=15
+level=17
+# Recalibrated from 15
 # Was 20, but this makes no sense, as the level of the previous unit is 15 and this is
 # identical save for the colours.
 #Level=20
