@@ -15,7 +15,7 @@ intro_month=4
 retire_year=1883
 retire_month=11
 
-length=1
+length=0
 min_loading_time=60
 max_loading_time=240
 
