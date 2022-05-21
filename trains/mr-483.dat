@@ -20,6 +20,7 @@ intro_month=2
 # Later than actual end date to interlock with LMS 2P class.
 retire_year=1928
 retire_month=1
+is_tall=0
 waytype=track
 freight=None
 payload=0
@@ -79,6 +80,7 @@ intro_year=1890
 intro_month=04
 retire_year=1928
 retire_month=1
+is_tall=0
 waytype=track
 freight=None
 payload=0

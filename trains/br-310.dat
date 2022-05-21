@@ -10,6 +10,7 @@ intro_month=11
 # Only produced until 1967, but need to await introduction of the Class 312
 retire_year=1976
 retire_month=10
+is_tall=0
 waytype=track
 freight=Passagiere
 payload[0]=0
@@ -106,6 +107,7 @@ intro_month=11
 # Only produced until 1967, but need to await introduction of the Class 312
 retire_year=1976
 retire_month=10
+is_tall=0
 waytype=track
 freight=Passagiere
 payload[0]=0
@@ -192,6 +194,7 @@ intro_month=11
 # Only produced until 1967, but need to await introduction of the Class 312
 retire_year=1976
 retire_month=10
+is_tall=0
 waytype=track
 freight=Passagiere
 payload[0]=0
@@ -278,6 +281,7 @@ intro_month=11
 # Only produced until 1967, but need to await introduction of the Class 312
 retire_year=1976
 retire_month=10
+is_tall=0
 waytype=track
 freight=Passagiere
 payload[0]=0

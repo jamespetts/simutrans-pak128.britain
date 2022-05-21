@@ -11,6 +11,7 @@ intro_month=3
 # TODO: Add Thompson carriages from the 1940s onwards.
 retire_year=1951
 retire_month=2
+is_tall=0
 waytype=track
 freight=Passagiere
 payload[0]=0

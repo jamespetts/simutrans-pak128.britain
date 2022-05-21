@@ -12,6 +12,7 @@ intro_month=12
 # This may not be correct
 retire_year=1897
 retire_month=2
+is_tall=0
 waytype=track
 freight=None
 payload=0

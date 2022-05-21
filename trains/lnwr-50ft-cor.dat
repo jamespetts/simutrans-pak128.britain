@@ -10,6 +10,7 @@ intro_month=10
 # Ought to be 1903, but cove roof stock (1903 - 1907: see Jenkinson (LNWR) p. 76) omitted for expediency.
 retire_year=1907
 retire_month=4
+is_tall=0
 waytype=track
 freight=Passagiere
 payload[0]=0
@@ -160,6 +161,7 @@ intro_month=10
 # Ought to be 1903, but cove roof stock (1903 - 1907: see Jenkinson (LNWR) p. 76) omitted for expediency.
 retire_year=1907
 retire_month=4
+is_tall=0
 waytype=track
 freight=Passagiere
 payload[0]=0
@@ -313,6 +315,7 @@ intro_year=1897
 intro_month=10
 retire_year=1907
 retire_month=4
+is_tall=0
 waytype=track
 freight=Passagiere
 payload[0]=0

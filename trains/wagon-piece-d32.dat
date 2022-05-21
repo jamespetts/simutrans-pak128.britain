@@ -7,6 +7,7 @@ intro_year=1855
 intro_month=6
 retire_year=1908
 retire_month=12
+is_tall=0
 waytype=track
 freight=Bucher
 payload=8

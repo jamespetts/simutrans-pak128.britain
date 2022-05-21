@@ -17,6 +17,7 @@ intro_month=4
 # Only built until 1893, but no obvious replacements.
 retire_year=1899
 retire_month=5
+is_tall=0
 waytype=track
 freight=None
 payload=0

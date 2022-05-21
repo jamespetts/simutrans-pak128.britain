@@ -7,6 +7,7 @@ intro_year=1937
 intro_month=7
 retire_year=1971
 retire_month=6
+is_tall=0
 waytype=track
 freight=Bretter
 payload=20

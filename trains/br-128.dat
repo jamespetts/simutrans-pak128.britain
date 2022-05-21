@@ -12,6 +12,7 @@ intro_month=7
 retire_year=1980
 retire_month=10
 # This is very late: but there are no replacements available.
+is_tall=0
 waytype=track
 freight=Post
 payload=480

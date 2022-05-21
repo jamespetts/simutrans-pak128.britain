@@ -15,6 +15,7 @@ intro_month=1
 # There were many, very similar, classes of locomotives
 retire_year=1885
 retire_month=12
+is_tall=0
 waytype=track
 freight=None
 payload=0

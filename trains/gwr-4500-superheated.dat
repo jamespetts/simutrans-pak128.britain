@@ -16,6 +16,7 @@ intro_month=7
 # Should be 1924, but are no replacements until the 4575 class of 1927
 retire_year=1927
 retire_month=9
+is_tall=0
 waytype=track
 freight=None
 payload=0

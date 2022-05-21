@@ -12,6 +12,7 @@ intro_year=1940
 intro_month=6
 retire_year=1951
 retire_month=12
+is_tall=0
 waytype=track
 freight=Passagiere
 # Difficult to find definitive information, but these appear to have been one class only.

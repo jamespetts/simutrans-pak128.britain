@@ -9,6 +9,7 @@ intro_year=1923
 intro_month=10
 retire_year=1950
 retire_month=12
+is_tall=0
 waytype=track
 freight=Post
 payload=50

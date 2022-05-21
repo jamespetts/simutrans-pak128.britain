@@ -9,6 +9,7 @@ intro_month=7
 # The mk. 1 pullmans replace these
 retire_year=1951
 retire_month=12
+is_tall=0
 waytype=track
 freight=Passagiere
 payload[0]=0
@@ -159,6 +160,7 @@ intro_month=7
 # The mk. 1 pullmans replace these
 retire_year=1951
 retire_month=12
+is_tall=0
 waytype=track
 freight=Passagiere
 payload[0]=0

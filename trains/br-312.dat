@@ -10,6 +10,7 @@ intro_month=10
 # Only produced until 1978, but need to await introduction of the Class 317
 retire_year=1981
 retire_month=4
+is_tall=0
 waytype=track
 freight=Passagiere
 payload[0]=0
@@ -96,6 +97,7 @@ intro_month=10
 # Only produced until 1978, but need to await introduction of the Class 317
 retire_year=1981
 retire_month=4
+is_tall=0
 waytype=track
 freight=Passagiere
 payload[0]=0
@@ -173,6 +175,7 @@ intro_month=10
 # Only produced until 1978, but need to await introduction of the Class 317
 retire_year=1981
 retire_month=4
+is_tall=0
 waytype=track
 freight=Passagiere
 payload[0]=0
@@ -248,6 +251,7 @@ intro_month=10
 # Only produced until 1978, but need to await introduction of the Class 317
 retire_year=1981
 retire_month=4
+is_tall=0
 waytype=track
 freight=Passagiere
 payload[0]=0

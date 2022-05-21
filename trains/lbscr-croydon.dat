@@ -15,6 +15,7 @@ intro_month=11
 # In reality, December 1854, but too short a run.
 retire_year=1856
 retire_month=10
+is_tall=0
 waytype=track
 freight=None
 payload=0

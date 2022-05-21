@@ -6,6 +6,7 @@ intro_year=1964
 intro_month=11
 retire_year=1975
 retire_month=1
+is_tall=0
 waytype=track
 freight=Passagiere
 payload[0]=0

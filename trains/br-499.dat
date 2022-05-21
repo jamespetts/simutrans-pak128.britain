@@ -11,6 +11,7 @@ intro_year=1968
 intro_month=7
 retire_year=1975
 retire_month=12
+is_tall=0
 waytype=track
 freight=Post
 payload=600

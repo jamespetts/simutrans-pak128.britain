@@ -13,6 +13,7 @@ intro_year=1902
 intro_month=2
 retire_year=1948
 retire_month=5
+is_tall=0
 waytype=track
 freight=Bretter
 payload=12

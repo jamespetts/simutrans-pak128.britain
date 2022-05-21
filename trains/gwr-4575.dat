@@ -15,6 +15,7 @@ intro_month=3
 # Should be 1929, but there are no replacements
 retire_year=1950
 retire_month=2
+is_tall=0
 waytype=track
 freight=None
 payload=0

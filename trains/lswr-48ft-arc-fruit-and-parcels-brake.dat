@@ -7,6 +7,7 @@ intro_year=1889
 intro_month=6
 retire_year=1899
 retire_month=10
+is_tall=0
 waytype=track
 freight=fruit
 # According to a "Model Railway Cosntructor" article (year/month unknown,
@@ -81,6 +82,7 @@ intro_year=1889
 intro_month=6
 retire_year=1899
 retire_month=10
+is_tall=0
 waytype=track
 freight=Post
 payload=300

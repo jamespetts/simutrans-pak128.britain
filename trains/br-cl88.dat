@@ -10,6 +10,7 @@ gear=80
 copyright=James
 intro_year=2014
 intro_month=2
+is_tall=0
 waytype=track
 freight=None
 payload=0

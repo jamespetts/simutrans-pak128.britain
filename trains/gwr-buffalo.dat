@@ -20,6 +20,7 @@ intro_month=10
 # In reality built only to 1881, but replacement not available until late 1882
 retire_year=1882
 retire_month=12
+is_tall=0
 waytype=track
 freight=None
 payload=0

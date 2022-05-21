@@ -13,6 +13,7 @@ intro_month=8
 # In reality, only rebuilt until 1924, but this is too short a window here.
 retire_year=1930
 retire_month=1
+is_tall=0
 waytype=track
 freight=None
 payload=0

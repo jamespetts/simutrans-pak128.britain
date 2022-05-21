@@ -7,6 +7,7 @@ intro_year=1950
 intro_month=3
 retire_year=1954
 retire_month=10
+is_tall=0
 waytype=track
 freight=Passagiere
 # Guessed
@@ -69,6 +70,7 @@ intro_year=1950
 intro_month=3
 retire_year=1954
 retire_month=10
+is_tall=0
 waytype=track
 freight=Passagiere
 # Guessed

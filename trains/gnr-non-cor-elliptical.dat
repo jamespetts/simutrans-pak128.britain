@@ -8,6 +8,7 @@ intro_month=4
 # There will need in due course to be LNER versions of these.
 retire_year=1927
 retire_month=12
+is_tall=0
 waytype=track
 freight=Passagiere
 payload[0]=0
@@ -93,6 +94,7 @@ intro_month=4
 # There will need in due course to be LNER versions of these.
 retire_year=1927
 retire_month=12
+is_tall=0
 waytype=track
 freight=Passagiere
 payload[0]=0
@@ -157,6 +159,7 @@ intro_month=4
 # There will need in due course to be LNER versions of these.
 retire_year=1927
 retire_month=12
+is_tall=0
 waytype=track
 freight=Passagiere
 payload[0]=0
@@ -200,6 +203,7 @@ intro_month=4
 # There will need in due course to be LNER versions of these.
 retire_year=1927
 retire_month=12
+is_tall=0
 waytype=track
 freight=Post
 payload=330
@@ -237,6 +241,7 @@ intro_month=4
 # There will need in due course to be LNER versions of these.
 retire_year=1927
 retire_month=12
+is_tall=0
 waytype=track
 freight=Post
 payload=550

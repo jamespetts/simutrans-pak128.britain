@@ -6,6 +6,7 @@ intro_year=1829
 intro_month=8
 retire_year=1834
 retire_month=7
+is_tall=0
 waytype=track
 freight=Passagiere
 # These were originally second class coaches:

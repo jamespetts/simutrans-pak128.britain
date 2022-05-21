@@ -10,6 +10,7 @@ intro_year=1837
 intro_month=7
 retire_year=1845
 retire_month=4
+is_tall=0
 waytype=track
 freight=Passagiere
 # The payload of the (unillustrated) Birmingham

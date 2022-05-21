@@ -15,6 +15,7 @@ intro_month=7
 # No replacements until the 1400 class
 retire_year=1930
 retire_month=10
+is_tall=0
 waytype=track
 freight=None
 payload=0
@@ -115,6 +116,7 @@ intro_year=1905
 intro_month=2
 retire_year=1930
 retire_month=10
+is_tall=0
 waytype=track
 freight=None
 payload=0

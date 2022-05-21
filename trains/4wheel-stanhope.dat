@@ -8,6 +8,7 @@ intro_year=1836
 intro_month=2
 retire_year=1847
 retire_month=8
+is_tall=0
 waytype=track
 freight=Passagiere
 # Guessed
@@ -69,6 +70,7 @@ intro_year=1836
 intro_month=2
 retire_year=1847
 retire_month=8
+is_tall=0
 waytype=track
 freight=Passagiere
 # Guessed

@@ -7,6 +7,7 @@ intro_year=1855
 intro_month=3
 retire_year=1903
 retire_month=4
+is_tall=0
 waytype=track
 freight=meat
 payload=8

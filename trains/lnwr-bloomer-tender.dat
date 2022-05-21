@@ -7,6 +7,7 @@ intro_year=1844
 intro_month=12
 retire_year=1866
 retire_month=10
+is_tall=0
 waytype=track
 freight=None
 payload=0

@@ -17,6 +17,7 @@ intro_month=6
 # Only built until 1882 (Wikipedia) or 1886 (Ahrons), but no replacements until 1889
 retire_year=1890
 retire_month=2
+is_tall=0
 waytype=track
 freight=None
 payload=0

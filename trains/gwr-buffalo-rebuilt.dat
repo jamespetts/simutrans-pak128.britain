@@ -16,6 +16,7 @@ intro_year=1911
 intro_month=10
 retire_year=1929
 retire_month=9
+is_tall=0
 waytype=track
 freight=None
 payload=0

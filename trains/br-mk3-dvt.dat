@@ -7,6 +7,7 @@ intro_month=2
 # Was November 1989, but players might want to build these later to work with existing carriages
 retire_year=1995
 retire_month=4
+is_tall=0
 waytype=track
 freight=Post
 payload=300

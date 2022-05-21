@@ -12,6 +12,7 @@ intro_year=1750
 intro_month=1
 retire_year=1918
 retire_month=3
+is_tall=0
 waytype=track
 length=2
 brake_force=1

@@ -13,6 +13,7 @@ intro_month=11
 # In reality, only built to 1911, but are no successors.
 retire_year=1919
 retire_month=7
+is_tall=0
 waytype=track
 freight=None
 payload=0

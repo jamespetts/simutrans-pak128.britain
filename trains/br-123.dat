@@ -13,6 +13,7 @@ intro_month=5
 retire_year=1977
 retire_month=8
 # This is very late: but there are no replacements available.
+is_tall=0
 waytype=track
 freight=Passagiere
 payload[0]=0
@@ -84,6 +85,7 @@ intro_month=5
 retire_year=1977
 retire_month=8
 # This is very late: but there are no replacements available.
+is_tall=0
 waytype=track
 freight=Passagiere
 payload[0]=0
@@ -151,6 +153,7 @@ intro_month=5
 retire_year=1977
 retire_month=8
 # This is very late: but there are no replacements available.
+is_tall=0
 waytype=track
 freight=Passagiere
 payload[0]=0
@@ -217,6 +220,7 @@ intro_month=5
 retire_year=1977
 retire_month=8
 # This is very late: but there are no replacements available.
+is_tall=0
 waytype=track
 freight=Passagiere
 payload[0]=0
@@ -287,6 +291,7 @@ intro_month=5
 retire_year=1977
 retire_month=8
 # This is very late: but there are no replacements available.
+is_tall=0
 waytype=track
 freight=Passagiere
 payload[0]=0

@@ -14,6 +14,7 @@ intro_month=7
 # there are no real replacements.
 retire_year=1944
 retire_month=1
+is_tall=0
 waytype=track
 freight=None
 payload=0

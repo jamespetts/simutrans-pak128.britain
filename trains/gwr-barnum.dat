@@ -14,6 +14,7 @@ intro_month=10
 # Guessed
 retire_year=1898
 retire_month=7
+is_tall=0
 waytype=track
 freight=None
 payload=0

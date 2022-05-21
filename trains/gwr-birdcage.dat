@@ -15,6 +15,7 @@ intro_month=2
 # Only built until 1903, but this is a very short window.
 retire_year=1909
 retire_month=9
+is_tall=0
 waytype=track
 freight=None
 payload=0

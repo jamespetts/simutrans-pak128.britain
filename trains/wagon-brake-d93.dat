@@ -10,6 +10,7 @@ retire_year=1926
 retire_month=8
 freight=Bucher
 payload=0
+is_tall=0
 waytype=track
 brake_force=7
 rolling_resistance=19

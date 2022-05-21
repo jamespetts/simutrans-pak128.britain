@@ -7,6 +7,7 @@ intro_year=1970
 intro_month=2
 #retire_year=2015
 #retire_month=7
+is_tall=0
 waytype=track
 freight=Oel
 mixed_load_prohibition=1
