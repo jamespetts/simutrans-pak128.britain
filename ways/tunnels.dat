@@ -351,7 +351,7 @@ way_constraint_prohibitive[2]=2
 depth_limit=4
 depth_cost=250000
 sub_way_cost=15000
-sub_building_cost=50000
+subbuilding_cost=50000
 subwaterline_cost=1000
 half_height=1
 
@@ -481,7 +481,7 @@ way_constraint_prohibitive[2]=2
 depth_limit=3
 depth_cost=250000
 sub_way_cost=15000
-sub_building_cost=100000
+subbuilding_cost=100000
 subwaterline_cost=3000
 half_height=1
 
