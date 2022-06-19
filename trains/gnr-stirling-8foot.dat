@@ -33,6 +33,29 @@ sound=lwalker-br-4mt-tank.wav
 increase_maintenance_after_years=27
 years_before_maintenance_max_reached=31
 
+override_way_speed=0
+multiple_working_type=0
+self_contained_catering=1
+calibration_speed=75
+cut_off_speed=40
+fuel_per_km=7650 # Grammes of coal per km at calibration speed
+
+driver[0]=1
+staff[0]=1
+
+initial_overhaul_cost=3571200
+max_overhaul_cost=18000000
+overhauls_before_max_cost=9
+max_distance_between_overhauls=7968 # 166km/month * 60% availability * 4 years
+max_takeoffs=0
+availability_decay_start_km=5000
+starting_availability=65
+minimum_availability=40
+replenishment_seconds=600 # 10 minutes for coaling
+max_running_cost=500
+auto_upgrade_index=255
+maintenance_interval_km=0 # Use default yearly interval
+
 upgrade[0]=gnr-g2
 upgrade[1]=gnr-g3
 
@@ -46,5 +69,3 @@ EmptyImage[W]=./locomotives/gnr-stirling-single_W.0.0
 EmptyImage[NW]=./locomotives/gnr-stirling-single_NW.0.0
 EmptyImage[N]=./locomotives/gnr-stirling-single_N.0.0
 EmptyImage[NE]=./locomotives/gnr-stirling-single_NE.0.0
-
-
