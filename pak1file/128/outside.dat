@@ -3,5 +3,5 @@ Name=Outside
 # hangtyp * animation
 #water outside
 # This sets the pakset version.
-copyright=Pak128.Britain-Ex-0.9.4
+copyright=Pak128.Britain-Ex-1.0.0
 Image[0][0]=images/ls-water-outside-128.0.0

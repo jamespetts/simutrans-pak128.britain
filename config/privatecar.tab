@@ -5,8 +5,7 @@
 # See also http://www.racfoundation.org/assets/rac_foundation/content/downloadables/low_income_motoring-bayliss-280909.pdf
 # This website has good modern data, but only two data points: https://www.ucl.ac.uk/transport-institute/pdfs/transport-poverty
 #
-# Figures before 1951 and after 2012 are educated guesses. Data are for the UK:
-# other countries might vary.
+# Figures before 1951 and after 2012 are educated guesses. Data are for the UK: other countries might vary.
 #
 # This is indexed by passenger class (as of July 2017). 0 is the lowest and 4 the highest. Much of the quintile data are extrapolated as accurate data are hard to find,
 # especially for the higher income qunitiles. Note that the classes are not intended to represent actual income qunitiles, especially the highest classes.

@@ -843,6 +843,10 @@ cst_make_public_months = 60
 # The figure is a percentage of the default revenue. Default: 100.
 power_revenue_factor_percentage = 100
 
+# Allows fuel units to be set in, for example, grammes whilst fuel costs are calibrated for, for example, tonnes.
+# Preserves accuracy without requiring very high absolute figures (only rounds down at the end of each trip).
+fuel_unit_cost_divider = 1000
+
 
 ################################### Time settings ################################
 
@@ -1141,6 +1145,21 @@ max_speed_drive_by_sight_tram_kmh = 50
 # so set this as a minimum to allow for this. 
 #
 assumed_curve_radius_45_degrees = 750
+
+# These settings govern the frequency with which vehicles that do not have a distance based
+# maintenance interval set in their individual .dat files must return to the depot for maintenance.
+# After maintenance_interval_months, the vehicle will return to the depot on its next scheduled
+# depot visit. After extended_maintenance_interval_months, the vehicle will return to the depot
+# after its next stop irrespective of its schedule.
+maintenance_interval_months = 12
+extended_maintenance_interval_months = 18
+
+# This determines whether vehicles need to visit depots periodically.
+# If enabled (1), the vehicles do not need to visit depots periodically.
+# This is enabled by default when loading older saved games in which
+# periodic depot vists were neither necessary nor possible, irrespective
+# of the setting here. This applies only to new games.
+simplified_maintenance = 0
 
 ############################### Display settings ###############################
 

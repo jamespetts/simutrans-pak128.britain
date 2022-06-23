@@ -1,0 +1,18 @@
+# Fuel costs over time
+# Per unit as defined below. One for each traction type.
+
+# Guessed figures for testing for the time being.
+
+fuel[diesel]=1750,10,1850,20,1900,50,1930,70,1950,100,1975,200,2000,350
+
+fuel[steam]=1750,10,1850,20,1900,50,1930,70,1950,100,1975,200,2000,350
+
+fuel[bio]=1750,0,2050,0
+
+fuel[sail]=1750,0,2050,0
+
+fuel[fuel cell]=1750,10,1850,20,1900,50,1930,70,1950,100,1975,200,2000,350
+
+fuel[hydrogene]=1750,10,1850,20,1900,50,1930,70,1950,100,1975,200,2000,350
+
+fuel[turbine]=1750,10,1850,20,1900,50,1930,70,1950,100,1975,200,2000,350

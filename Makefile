@@ -3,7 +3,7 @@
 # to get fresh and ready to deploy .tbz2 and .zip archives
 #
 # Change THIS to change the version string encoded in the pak file
-# VERSION_STRING = "pak128.Britain-Ex-0.9.4"
+# VERSION_STRING = "pak128.Britain-Ex-1.0.0"
 #
 #
 #

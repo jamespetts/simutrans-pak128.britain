@@ -75,6 +75,7 @@ class_proportion_jobs[2]=17
 class_proportion_jobs[3]=3
 class_proportion_jobs[4]=0
 traction_type[0]=steam
+max_vehicles_under_maintenance=5
 intro_year=1813
 intro_month=10
 retire_year=1968
