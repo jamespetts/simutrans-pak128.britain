@@ -120,7 +120,9 @@ obj=vehicle
 name=BR-321(pantograph)
 engine_type=electric
 speed=160
-power=0
+power=1072
+tractive_effort=97
+gear=80
 copyright=Kieron
 intro_year=1988
 intro_month=1
@@ -137,7 +139,7 @@ length=11
 brake_force=21
 rolling_resistance=13
 
-weight=29.2
+weight=51.6
 axles=4
 cost=1921000
 runningcost=0
@@ -157,7 +159,7 @@ comfort[3]=145
 Constraint[Prev][0]=BR-321(front)
 Constraint[Prev][1]=BR-321(front-composite)
 
-Constraint[Next][0]=BR-321(motor)
+Constraint[Next][0]=BR-321(trailer)
 
 liverytype[0]=NSE-Standard
 
@@ -174,12 +176,10 @@ EmptyImage[NE][0]=./railcars/br-319-mso-nse_NE.0.0
 ---
 
 obj=vehicle
-name=BR-321(motor)
+name=BR-321(trailer)
 engine_type=electric
 speed=160
-power=1072
-tractive_effort=97
-gear=80
+power=0
 copyright=Kieron
 intro_year=1988
 intro_month=1
@@ -196,7 +196,7 @@ length=11
 brake_force=38
 rolling_resistance=13
 
-weight=51.6
+weight=29.2
 axles=4
 cost=2021000
 runningcost=107
@@ -269,7 +269,7 @@ comfort[1]=84
 comfort[2]=0
 comfort[3]=145
 
-Constraint[Prev][0]=BR-321(motor)
+Constraint[Prev][0]=BR-321(trailer)
 
 Constraint[Next][0]=BR-321(front)
 Constraint[Next][1]=BR-321(front-composite)

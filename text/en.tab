@@ -3966,6 +3966,8 @@ BR-375Front
 BR Class 375 "Electrostar" EMU
 BR-375Middle
 BR Class 375 "Electrostar" EMU (centre motor)
+BR-375Middle2
+BR Class 375 "Electrostar" EMU (centre motor)
 BR-375Panto
 BR Class 375 "Electrostar" EMU (centre trailer)
 BR-375Rear
@@ -3973,12 +3975,12 @@ BR Class 375 "Electrostar" EMU (rear)
 BR-375-6Front
 BR Class 375/6 "Electrostar" EMU
 BR-375-6Middle
-BR Class 375/6 "Electrostar" EMU (pantograph trailer)
-BR-375-6Panto
 BR Class 375/6 "Electrostar" EMU (centre motor)
+BR-375-6Panto
+BR Class 375/6 "Electrostar" EMU (pantograph trailer)
 BR-375-6Rear
 BR Class 375/6 "Electrostar" EMU (rear)
-377-7Middle2
+BR-377-7Middle2
 BR Class 377/7 "Electrostar" EMU (centre trailer)
 BR-376Front
 BR Class 376 "Electrostar" EMU
@@ -4460,8 +4462,8 @@ BR-321(front-composite)
 BR Class 321 EMU (composite driving trailer)
 BR-321(pantograph)
 BR Class 321 EMU (pantograph)
-BR-321(motor)
-BR Class 321 EMU (motor)
+BR-321(trailer)
+BR Class 321 EMU (trailer)
 BR-321(rear)
 BR Class 321 EMU (rear)
 br-156-front
@@ -6806,6 +6808,12 @@ BR-Class485Middle2
 BR Class 485 EMU (trailer)
 BR-Class485Rear
 BR Class 485 EMU (rear DM)
+BR-320(front)
+BR Class 320 EMU
+BR-320(pantograph)
+BR Class 320 EMU (power)
+BR-320(rear)
+BR Class 320 EMU (rear)
 1903TubeStockFront
 CLR 1903 Tube Stock
 1900TubeStockTrailer

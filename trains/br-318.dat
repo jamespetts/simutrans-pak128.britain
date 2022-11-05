@@ -43,7 +43,8 @@ comfort[3]=148
 
 Constraint[Prev][0]=BR-318-Driving-Rear
 Constraint[Prev][1]=BR-317-Driving-Rear
-Constraint[Prev][2]=none
+Constraint[Prev][2]=BR-320(rear)
+Constraint[Prev][3]=none
 
 Constraint[Next][0]=BR-318-Motor
 
@@ -198,7 +199,8 @@ comfort[3]=148
 
 Constraint[Next][0]=BR-318-Driving-Front
 Constraint[Next][1]=BR-317-Driving-Front
-Constraint[Next][2]=none
+Constraint[Next][2]=BR-320(front)
+Constraint[Next][3]=none
 
 Constraint[Prev][0]=BR-318-Motor
 

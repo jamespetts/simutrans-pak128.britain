@@ -1258,6 +1258,8 @@ RM-325Middle(RM)
 BR-325Middle
 RM-325Rear(RM)
 BR-325Rear
+BR-321(motor)
+BR-321(trailer)
 #
 ############# Variant names for electrification in old Experimental ##############
 DCRailCatenaryCombined

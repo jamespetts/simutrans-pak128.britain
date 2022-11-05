@@ -51,9 +51,9 @@ renovation_range_proportions_capital = 33
 # Additional proportional values used for each building type...
 proportional_renovation_range_type = 1
 # If the above value is 1 then previous range values are multiplied by these percentage values
-renovation_range_proportions_res = 160
-renovation_range_proportions_com = 100
-renovation_range_proportions_ind = 200
+renovation_range_res = 160
+renovation_range_com = 100
+renovation_range_ind = 200
 # If the below value is 1 buildings further from the city centre are less likely to be renovated
 # though if it is 0 a building at the maximum allowable distance from the centre would be equally
 # likely to be renovated as one adjacent to the city centre
