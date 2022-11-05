@@ -815,14 +815,15 @@ parallel_ways_forge_cost_percentage_tram = 85
 parallel_ways_forge_cost_percentage_narrowgauge = 35
 parallel_ways_forge_cost_percentage_air = 85
 
-# Insolvency and debt settings
+# This gives the number of percentage points above the base rate at which players are charged interest on overdrafts.
+# Default: 2%
+# The base rate is set in prices.tab.
+overdraft_percent_above_base_rate = 3
+
+# Insolvency settings
 #
 # These settings allow what happens when the player runs out of money and goes
 # into the red to be customised. 
-#
-# "interest_rate_percent" is the annual interest rate (charged monthly) on all
-# overdraft debt (i.e., on all negative account balances). It can be between 0
-# and 255. 
 # 
 # "allow_bankruptcy" determines whether, when the player is deemed to have been
 # insolvent for more than a certain period, the player should be declared
@@ -837,7 +838,6 @@ parallel_ways_forge_cost_percentage_air = 85
 # To revert to the behaviour of Simutrans standard, set interest_rate_percent to
 # 0, set allow_bankruptsy to 1, and set allow_purchases_when_insolvent to 1.
 
-interest_rate_percent = 10
 allow_bankruptcy = 1
 allow_purchases_when_insolvent = 0	
 
