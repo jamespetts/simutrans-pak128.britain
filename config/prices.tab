@@ -20,7 +20,7 @@ general=1750,56,1751,54,1752,57,1753,56,1754,58,1755,54,1756,57,1758,69,1759,63,
 #country land=1750,100,2022,100
 
 # These are different: these are tax and interest rates over time.
-# Before 1965, companies paid income tax: https://en.wikipedia.org/wiki/History_of_taxation_in_the_United_Kingdom. Income tax rate data from 1918-1970 is hard to find.
+# Before 1965, companies paid income tax: https://en.wikipedia.org/wiki/History_of_taxation_in_the_United_Kingdom. Income tax rate data from 1918-1970 are hard to find.
 corporation tax=1750,1,1797,1,1798,10,1801,10,1803,5,1804,5,1805,10,1815,10,1816,1,1841,1,1842,3,1914,3,1915,18,1916,25,1918,30,1971,40,1973,52,1982,52,1983,50,1984,45,1985,40,1986,35,1989,35,1990,34,1991,33,1996,33,1997,31,1998,31,1999,30,2007,30,2008,28,2010,28,2011,26,2012,24,2013,23,2014,21,2015,20,2016,20,2017,19,2022,19,2023,25
 # https://thebla.co.uk/uk-interest-rate-history-base-rate-graph/
 # This graph is noisy and difficult to read in detail.
