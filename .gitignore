@@ -21,3 +21,5 @@ makeobj-extended
 *.pak
 *.exe
 makeobj-extended*
+*db-wal
+*db-shm
