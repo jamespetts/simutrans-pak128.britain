@@ -9,6 +9,7 @@ retire_year=2003
 retire_month=6
 #retire_year=1975
 #retire_month=3
+is_tall=0
 waytype=track
 freight=Post
 payload=500

@@ -17,6 +17,7 @@ retire_year=1954
 retire_month=9
 #retire_year=1950
 #retire_month=8
+is_tall=0
 waytype=track
 freight=None
 payload=0

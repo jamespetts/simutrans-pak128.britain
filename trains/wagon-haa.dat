@@ -6,6 +6,7 @@ intro_year=1965
 intro_month=3
 retire_year=2005
 retire_month=5
+is_tall=0
 waytype=track
 freight=Kohle
 mixed_load_prohibition=1

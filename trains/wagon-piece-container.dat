@@ -5,6 +5,7 @@ speed=140
 copyright=James
 intro_year=1978
 intro_month=8
+is_tall=0
 waytype=track
 freight=Bucher
 payload=64

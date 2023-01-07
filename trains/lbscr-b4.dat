@@ -13,6 +13,7 @@ intro_month=12
 # Actually built only until June 1902, but the successor (H1) is not introduced until 1905
 retire_year=1905
 retire_month=11
+is_tall=0
 waytype=track
 freight=None
 payload=0
@@ -100,6 +101,7 @@ intro_month=12
 # Actually built only until June 1902, but the successor (H1) is not introduced until 1905
 retire_year=1905
 retire_month=11
+is_tall=0
 waytype=track
 freight=None
 payload=0

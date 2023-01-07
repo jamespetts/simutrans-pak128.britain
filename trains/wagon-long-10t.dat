@@ -8,6 +8,7 @@ intro_year=1883
 intro_month=5
 retire_year=1923
 retire_month=9
+is_tall=0
 waytype=track
 freight=Bretter
 payload=10

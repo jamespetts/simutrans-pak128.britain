@@ -12,6 +12,7 @@ intro_month=3
 retire_year=1987
 retire_month=9
 # Late because no replacements
+is_tall=0
 waytype=track
 freight=Post
 payload=150
@@ -189,6 +190,7 @@ intro_month=3
 retire_year=1987
 retire_month=9
 # Late because no replacements
+is_tall=0
 waytype=track
 freight=Post
 payload=150

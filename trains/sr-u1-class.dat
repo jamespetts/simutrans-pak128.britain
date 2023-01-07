@@ -12,6 +12,7 @@ intro_month=3
 # Should be 1931, but there are no replacements.
 retire_year=1940
 retire_month=9
+is_tall=0
 waytype=track
 freight=None
 payload=0
@@ -84,6 +85,7 @@ intro_month=3
 # Should be 1931, but there are no replacements.
 retire_year=1940
 retire_month=9
+is_tall=0
 waytype=track
 freight=None
 payload=0

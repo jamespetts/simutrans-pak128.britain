@@ -14,6 +14,7 @@ intro_month=2
 # Actual retire year 1866, but advanced as no other contemporary singles.
 retire_year=1869
 retire_month=3
+is_tall=0
 waytype=track
 freight=None
 payload=0

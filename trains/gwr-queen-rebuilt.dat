@@ -16,6 +16,7 @@ intro_month=10
 # Only rebuilt until 1887, but allow players to do this for longer
 retire_year=1895
 retire_month=11
+is_tall=0
 waytype=track
 freight=None
 payload=0

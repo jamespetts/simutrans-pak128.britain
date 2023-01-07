@@ -10,6 +10,7 @@ intro_month=6
 # Make this earlier when adding "porthole" stock.
 retire_year=1951
 retire_month=2
+is_tall=0
 waytype=track
 freight=Passagiere
 # Three per side in the thirds. Long distance stock.
@@ -208,6 +209,7 @@ intro_month=6
 # Make this earlier when adding "porthole" stock.
 retire_year=1951
 retire_month=2
+is_tall=0
 waytype=track
 freight=Passagiere
 # Two per side in the firsts, three per side in the thirds. Long distance stock.
@@ -406,6 +408,7 @@ intro_month=6
 # Make this earlier when adding "porthole" stock.
 retire_year=1951
 retire_month=2
+is_tall=0
 waytype=track
 freight=Passagiere
 # Two per side in the firsts. Long distance stock.
@@ -605,6 +608,7 @@ intro_month=6
 # Make this earlier when adding "porthole" stock.
 retire_year=1951
 retire_month=2
+is_tall=0
 waytype=track
 freight=Passagiere
 # Three per side in the thirds. Long distance stock.
@@ -740,6 +744,7 @@ intro_month=6
 # Make this earlier when adding "porthole" stock.
 retire_year=1951
 retire_month=2
+is_tall=0
 waytype=track
 freight=Passagiere
 # Three per side in the thirds. Long distance stock.
@@ -875,6 +880,7 @@ intro_month=6
 # Make this earlier when adding "porthole" stock.
 retire_year=1951
 retire_month=2
+is_tall=0
 waytype=track
 freight=Passagiere
 # 2 + 2 seating
@@ -1073,6 +1079,7 @@ intro_month=6
 # Make this earlier when adding "porthole" stock.
 retire_year=1951
 retire_month=2
+is_tall=0
 waytype=track
 freight=Passagiere
 # 2 + 2 seating in the thirds, 1 + 2 in the firsts
@@ -1271,6 +1278,7 @@ intro_month=6
 # Make this earlier when adding "porthole" stock.
 retire_year=1951
 retire_month=2
+is_tall=0
 waytype=track
 freight=Passagiere
 # 2 + 2 seating in the thirds, 1 + 2 in the firsts
@@ -1470,6 +1478,7 @@ intro_month=6
 # Make this earlier when adding "porthole" stock.
 retire_year=1951
 retire_month=2
+is_tall=0
 waytype=track
 freight=Passagiere
 # 2 + 2 seating
@@ -1604,6 +1613,7 @@ intro_month=6
 # Make this earlier when adding "porthole" stock.
 retire_year=1951
 retire_month=2
+is_tall=0
 waytype=track
 freight=Passagiere
 # 2 + 2 seating
@@ -1738,6 +1748,7 @@ intro_month=6
 # Make this earlier when adding "porthole" stock.
 retire_year=1951
 retire_month=2
+is_tall=0
 waytype=track
 freight=Passagiere
 payload[0]=0
@@ -1937,6 +1948,7 @@ intro_month=6
 # Make this earlier when adding "porthole" stock.
 retire_year=1951
 retire_month=2
+is_tall=0
 waytype=track
 freight=Passagiere
 payload[0]=0
@@ -2136,6 +2148,7 @@ intro_month=6
 # Make this earlier when adding "porthole" stock.
 retire_year=1951
 retire_month=2
+is_tall=0
 waytype=track
 freight=Post
 payload=400
@@ -2194,6 +2207,7 @@ intro_month=6
 # Make this earlier when adding "porthole" stock.
 retire_year=1951
 retire_month=2
+is_tall=0
 waytype=track
 freight=Post
 payload=530
@@ -2382,6 +2396,7 @@ intro_month=6
 # Make this earlier when adding "porthole" stock.
 retire_year=1959
 retire_month=2
+is_tall=0
 waytype=track
 freight=Post
 payload=300

@@ -9,6 +9,7 @@ intro_year=1826
 intro_month=3
 retire_year=1850
 retire_month=1
+is_tall=0
 waytype=track
 freight=Passagiere
 # Outside

@@ -13,6 +13,7 @@ intro_month=12
 # Should be 1906, but no obvious replacements until the H2
 retire_year=1911
 retire_month=6
+is_tall=0
 waytype=track
 freight=None
 payload=0
@@ -91,6 +92,7 @@ intro_month=12
 # Should be 1906, but no obvious replacements.
 retire_year=1916
 retire_month=10
+is_tall=0
 waytype=track
 freight=None
 payload=0

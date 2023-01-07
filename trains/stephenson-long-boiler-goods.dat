@@ -15,6 +15,7 @@ intro_month=5
 # (according to Ahrons)
 retire_year=1855
 retire_month=7
+is_tall=0
 waytype=track
 freight=None
 payload=0
@@ -67,6 +68,7 @@ intro_month=5
 # (according to Ahrons)
 retire_year=1855
 retire_month=7
+is_tall=0
 waytype=track
 freight=None
 payload=0

@@ -11,6 +11,7 @@ intro_month=8
 # replacements not available until 1913/1916
 retire_year=1917
 retire_month=3
+is_tall=0
 waytype=track
 freight=Passagiere
 payload[0]=0
@@ -144,6 +145,7 @@ intro_month=8
 # replacements not available until 1913/1916
 retire_year=1917
 retire_month=3
+is_tall=0
 waytype=track
 freight=Passagiere
 payload[0]=0
@@ -277,6 +279,7 @@ intro_month=8
 #  replacements not available until 1913/1916
 retire_year=1917
 retire_month=3
+is_tall=0
 waytype=track
 freight=Passagiere
 payload[0]=0
@@ -474,6 +477,7 @@ intro_month=8
 # however, second class abolished on the LNWR in 1912.
 retire_year=1912
 retire_month=4
+is_tall=0
 waytype=track
 freight=Passagiere
 payload[0]=0
@@ -670,6 +674,7 @@ intro_month=8
 # replacements not available until 1913/1916
 retire_year=1917
 retire_month=3
+is_tall=0
 waytype=track
 freight=Passagiere
 payload[0]=0
