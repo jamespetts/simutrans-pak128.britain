@@ -5,8 +5,9 @@ copyright=JamesPetts
 Level=1
 intro_year=1984
 intro_month=10
-retire_year=2010
-retire_month=9
+# Retirement date removed due to RETB NG
+#retire_year=2010
+#retire_month=9
 
 allow_underground=0
 maintenance=4500

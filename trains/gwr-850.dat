@@ -26,7 +26,7 @@ upgrade[0]=gwr-850-rebuilt
 # Data not available, so guessed
 weight=38.7
 axle_load=13
-cost=250000
+cost=2500000
 runningcost=122
 fixed_cost=20300
 sound=konakaboom-gwr-pannier.wav

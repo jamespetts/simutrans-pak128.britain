@@ -1,3 +1,5 @@
+# NOTE: There are THREE trams in this .dat file.
+#
 # http://www.semple.biz/glasgow/tram%20rolling%20stock.shtml
 # We represent 3 of the Glasgow standard tram's 4 (or possibly 5) 
 # phases of development: phase 1 (open top); phase 3 (closed top,
@@ -109,6 +111,7 @@ freight=Passagiere
 payload=62
 overcrowded_capacity=6
 length=5
+is_tall=1
 
 # Weight likewise guessed
 weight=12.7
@@ -173,6 +176,7 @@ freight=Passagiere
 payload=62
 overcrowded_capacity=6
 length=5
+is_tall=1
 
 # Weight likewise guessed
 weight=12.8
@@ -181,7 +185,6 @@ cost=382000
 upgrade_price=95500
 runningcost=36
 fixed_cost=6318
-
 
 can_lead_from_rear=1
 bidirectional=1

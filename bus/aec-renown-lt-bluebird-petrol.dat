@@ -1,0 +1,60 @@
+# http://web.archive.org/web/20210411011756/http://www.countrybus.org/LT/LT.html
+# The early versions of these had petrol engines, upgraded to diesel from 1934 onwards.
+obj=vehicle
+name=aec-renown-lt-bluebird-petrol
+copyright=JamesPetts&JamesHood
+waytype=road
+engine_type=petrol
+freight=Passagiere
+payload=60
+overcrowded_capacity=5
+speed=50
+# Assuming to be the same as the AEC STL, into which these engines were fitted later in life.
+power=62
+tractive_effort=7
+gear=50
+# Guessed
+weight=7.7
+axles=3
+length=6
+cost=702000
+runningcost=73
+fixed_cost=8978
+intro_year=1932
+intro_month=3
+retire_year=1935
+retire_month=1
+is_tall=1
+sound=gareth-bull-leyland-titan-td1.wav
+upgrade[0]=aec-renown-lt-bluebird
+
+comfort=42
+# Rear platform with conductor: 2.0 seconds per passenger
+min_loading_time=3
+max_loading_time=120
+
+Constraint[Prev][0]=none
+Constraint[Next][0]=none
+
+liverytype[0]=General
+liverytype[1]=LT
+
+EmptyImage[E][0]=./images/aec-renown-lt-bluebird-general_E.0.0,-33,14
+EmptyImage[SE][0]=./images/aec-renown-lt-bluebird-general_SE.0.0,-13,0
+EmptyImage[S][0]=./images/aec-renown-lt-bluebird-general_S.0.0,4,0
+EmptyImage[SW][0]=./images/aec-renown-lt-bluebird-general_SW.0.0,-8,10
+EmptyImage[W][0]=./images/aec-renown-lt-bluebird-general_W.0.0,4,5
+EmptyImage[NW][0]=./images/aec-renown-lt-bluebird-general_NW.0.0,12,10
+EmptyImage[N][0]=./images/aec-renown-lt-bluebird-general_N.0.0,0,33
+EmptyImage[NE][0]=./images/aec-renown-lt-bluebird-general_NE.0.0,0,24
+
+EmptyImage[E][1]=./images/aec-renown-lt-bluebird-red-white_E.0.0,-33,14
+EmptyImage[SE][1]=./images/aec-renown-lt-bluebird-red-white_SE.0.0,-13,0
+EmptyImage[S][1]=./images/aec-renown-lt-bluebird-red-white_S.0.0,4,0
+EmptyImage[SW][1]=./images/aec-renown-lt-bluebird-red-white_SW.0.0,-8,10
+EmptyImage[W][1]=./images/aec-renown-lt-bluebird-red-white_W.0.0,4,5
+EmptyImage[NW][1]=./images/aec-renown-lt-bluebird-red-white_NW.0.0,12,10
+EmptyImage[N][1]=./images/aec-renown-lt-bluebird-red-white_N.0.0,0,33
+EmptyImage[NE][1]=./images/aec-renown-lt-bluebird-red-white_NE.0.0,0,24
+
+

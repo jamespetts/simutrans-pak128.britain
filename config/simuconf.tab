@@ -2294,7 +2294,7 @@ intro_year[71][1] = 1923
 intro_month[71][1] = 6
 
 livery_scheme[72] = Tilling
-retire_year[72] = 1969
+retire_year[72] = 1933
 retire_month[72] = 1
 livery[72][0] = Tilling-early
 intro_year[72][0] = 1897
@@ -2880,4 +2880,17 @@ retire_month[112] = 11
 livery[112][0] = Hoverlloyd-Standard
 intro_year[112][0] = 1966
 intro_month[112][0] = 4
+
+livery_scheme[113] = Teesside
+# End date guessed
+retire_year[113] = 1986
+retire_month[113] = 9
+livery[113][0] = Teesside-standard
+intro_year[113][0] = 1916
+intro_month[113][0] = 2
+livery[113][1] = Teesside-municipal-transport
+# Livery adopted in 1967: https://en.wikipedia.org/wiki/County_Borough_of_Teesside#Teesside_Municipal_Transport
+intro_year[113][1] = 1967
+intro_month[113][1] = 4
+
 

@@ -1,0 +1,54 @@
+# https://en.wikipedia.org/wiki/Caetano_Levante
+# https://en.wikipedia.org/wiki/Volvo_B9R
+# http://www.busandcoachprofessional.com/news/articles/archive/national-express-goes-for-15m-coaches/
+# http://www.busandcoach.com/news/articles/archive/national-express-unveils-new-levante/
+# Now referred to in the translation texts as the Volvo B9R following the convention of naming all
+# road vehicles with separate chassis and bodies after the chassis rather than the body.
+obj=vehicle
+name=caetano-levante-2-axle
+copyright=Matthew&JamesPetts
+waytype=road
+engine_type=diesel
+# Modern coaches are low emission, I imagine
+#smoke=Diesel-light
+freight=Passagiere
+# Guesssed
+payload=50
+speed=96
+# https://en.wikipedia.org/wiki/Volvo_B9R
+power=283
+tractive_effort=28
+gear=50
+# Guessed
+weight=16.3
+axles=2
+length=6
+cost=7300000
+runningcost=48
+fixed_cost=10055
+# Guessed
+intro_year=2005
+intro_month=8
+# Still in production to date
+sound=clarkster92-caetano-levante.wav
+
+comfort=96
+catering_level=1
+# Coach: 7.5 seconds per passenger
+min_loading_time=30
+max_loading_time=375
+
+Constraint[Prev][0]=none
+Constraint[Next][0]=none
+
+liverytype[0]=NE-Grey-Stripes
+
+EmptyImage[E][0]=./images/catano-levante--2-axle-national-express_E.0.0,-33,14
+EmptyImage[SE][0]=./images/catano-levante--2-axle-national-express_SE.0.0,-13,0
+EmptyImage[S][0]=./images/catano-levante--2-axle-national-express_S.0.0,0,0
+EmptyImage[SW][0]=./images/catano-levante--2-axle-national-express_SW.0.0,-8,10
+EmptyImage[W][0]=./images/catano-levante--2-axle-national-express_W.0.0,4,5
+EmptyImage[NW][0]=./images/catano-levante--2-axle-national-express_NW.0.0,12,10
+EmptyImage[N][0]=./images/catano-levante--2-axle-national-express_N.0.0,0,33
+EmptyImage[NE][0]=./images/catano-levante--2-axle-national-express_NE.0.0,0,24
+

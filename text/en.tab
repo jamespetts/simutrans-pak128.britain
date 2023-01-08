@@ -2452,6 +2452,8 @@ speed-signal-choose
 Five aspect searchlight choose signal
 retb-board
 Radio Electronic Token Block stop board
+retb-ng-board
+Radio Electronic Token Block (NG) stop board
 tvm-stop-board
 TVM section board (cab signalling)
 tvm-shunt-entry-marker
@@ -2525,9 +2527,9 @@ Norway spruce
 #____________________________________river______________________________________
 #____________________________________river______________________________________
 River0
-Brook (Not Navigable)
+Brook (Not navigable)
 River0a
-Stream (Not Navigable)
+Stream (Not navigable)
 River1
 Upstream small river (Navigable)
 River1a
@@ -7634,10 +7636,14 @@ Volvo B10M (coach)
 volvo-b12m-coach
 Volvo B12M (coach)
 caetano-levante-3-axle
-Caetano Levante (3 axle)
+Volvo B12B (coach)
+caetano-levante-2-axle
+Volvo B9R (coach)
 AECRegentST
 AEC Regent (ST)
 aec-renown-lt-bluebird
+AEC Renown LT ("Bluebird")
+aec-renown-lt-bluebird-petrol
 AEC Renown LT ("Bluebird")
 aec-renown-lt-scooter
 AEC Renown LTL ("Scooter")
@@ -7665,10 +7671,30 @@ aec-rmc
 AEC Routemaster (coach)
 RoutemasterLongCoach
 AEC Routemaster (long coach)
+guy-30cwt-minibus
+Guy 30cwt minibus
+guy-ond
+Guy OND
+guy-bb
+Guy BB (coach)
+guy-fbb
+Guy FBB
+guy-fc
+Guy FC
+guy-fcx
+Guy FCX
+guy-arab-1933
+Guy Arab FD
 GuyArab
-Guy Arab Mk. I
+Guy Arab
 guy-arab-mk2
 Guy Arab Mk. II
+guy-arab-3
+Guy Arab Mk. III
+guy-arab-4
+Guy Arab Mk. IV
+guy-arab-5
+Guy Arab Mk. V
 AECSwift
 AEC Swift
 MercedesCitaroG(Front)
@@ -7687,6 +7713,10 @@ RoutemasterLong
 AEC Routemaster (long)
 DennisDominator
 Dennis Dominator
+volvo-alisa-1-door
+Volvo Alisa B55 (1 entrance)
+volvo-alisa-2-door
+Volvo Alisa B55 (2 entrances)
 VolvoCitybus
 Volvo Citybus (2 entrances)
 VolvoCitybus-1-door
@@ -7743,22 +7773,136 @@ pack-horse-long
 Pack horses (long goods)
 pack-horse-liquid
 Pack horses (bulk liquids)
+### Trolleybuses ###
+bradford-brown-trolleybus
+Bradford-Brown
+cedes-trolley-double
+Cedes/Dodson
+straker-squire-trolleybus
+Straker-Squire A-type
+straker-squire-trolleybus-pneumatic
+Straker-Squire A-type (pneumatic tyres)
+straker-squire-a-type-double
+Straker-Squire A type (double deck)
+straker-ll
+Straker LL
+ret-hurst-nelson
+RET/Hurst Nelson
+ret-f12
+RET F12
+ret-b10
+RET B10
+ret-lf30
+RET LF30
+guy-btx-60
+Guy BTX-60
+guy-btx-40
+Guy BTX-37
+guy-btx-66
+Guy BTX-66
+guy-bt32
+Guy BT-32
+guy-bt32-2
+Guy BT-32/II
+guy-btx-39
+Guy BTX-39
+guy-bt-48
+Guy BT-48
+guy-bt-56
+Guy BT-56
+guy-btx-68
+Guy BTX-68
+guy-btx-68-2
+Guy BTX-68/II
+karrier-e6
+Karrier E6
+karrier-e6-2
+Karrier E6/II
+karrier-e6-3
+Karrier E6/III
+karrier-e6a
+Karrier E6A
+karrier-e4-single
+Karrier E4S
+karrier-e4
+Karrier E4
+karrier-e4-2
+Karrier E4/II
+karrier-w4
+Karrier W4
+karrier-w4s
+Karrier W4S
+karrier-w4-r
+Karrier W4/R
+karrier-w4s-r
+Karrier W4S/R
+aec-661t
+AEC 661T
+aec-661t-2
+AEC 661T/II
+aec-662t
+AEC 662T
 A1Diddler
-AEC 663T/A1 "Diddler"
+AEC 663T "Diddler"
+aec-664t
+AEC 664T
+aec-605
+AEC 605T
+aec-602
+AEC 602T
+aec-602-pneumatic
+AEC 602T (pneumatic tyres)
+aec-603
+AEC 603T
+aec-607
+AEC 607T
+aec-607-pneumatic
+AEC 607T (pneumatic tyres)
+ee-a-type
+English Electric A-Type
+ee-e11
+English Electric E11/80
+ee-e11-100
+English Electric E11/100
+leyland-tbd1
+Leyland TBD1
+leyland-tb2
+Leyland TB2
+leyland-tb3
+Leyland TB3
+leyland-tb4
+Leyland TB4
+leyland-ttbd1
+Leyland TTBD1
+leyland-ttb2
+Leyland TTB2
+leyland-ttb3
+Leyland TTB3
 LeylandK2
-Leyland K2
-MCWQ1
-MCW Q1
+Leyland TTB4
+sunbeam-f4
+Sunbeam F4
+sunbeam-f4s
+Sunbeam F4S
 sunbeam-f4a
 Sunbeam F4A
+sunbeam-s7
+Sunbeam S7
 but-9613t
 BUT 9613T
+MCWQ1
+BUT 9641T
 but-retb1
-BUT RETB1
+BUT RETB1/2
+but-retb1-1
+BUT RETB1/1
+but-9611t
+BUT 9611T
 RoutemasterTrolleybus
-Routemaster (trolleybus)
+AEC Routemaster (trolleybus)
 DennisDominatorTrolley
 Dennis Dominator Electroline
+####
 CartBulk
 Cart (bulk goods)
 CartLong

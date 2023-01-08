@@ -1,0 +1,79 @@
+# AEC nomenclature in this era is inconsistent and confusing. This trolleybus
+# is listed in the British Trolleybuses CD-ROM database as a 607, but it is noted
+# that it was also named a 603 or 605. The 607 name was also used for a double decker
+# type, and the 605 for a shorter vehicle designed for pay as you enter driver only
+# operation. Thus, the 603 name is used here even though most 603 trolleybuses from
+# AEC were actually export chassis of shorter length.
+obj=vehicle
+name=aec-603
+copyright=JamesPetts
+waytype=road
+engine_type=electric
+freight=Passagiere
+payload=37
+overcrowded_capacity=2
+speed=45
+power=37
+tractive_effort=9
+gear=80
+# Guessed
+weight=5.9
+axles=2
+cost=92750
+runningcost=15
+fixed_cost=4175
+intro_year=1926
+intro_month=5
+retire_year=1932
+retire_month=7
+is_tall=0
+sound=androo4519-btu9613t.wav
+
+comfort=39
+# Single door with conductor: 2.5 seconds per passenger
+min_loading_time=5
+max_loading_time=95
+
+Constraint[Prev][0]=none
+Constraint[Next][0]=none
+
+liverytype[0]=Bradford-standard
+liverytype[1]=Teesside-standard
+liverytype[2]=LUT-vermillion
+liverytype[3]=LT
+
+EmptyImage[E][0]=./images/aec-603-bradford_E.0.0,-33,14
+EmptyImage[SE][0]=./images/aec-603-bradford_SE.0.0,-13,0
+EmptyImage[S][0]=./images/aec-603-bradford_S.0.0,0,0
+EmptyImage[SW][0]=./images/aec-603-bradford_SW.0.0,-8,10
+EmptyImage[W][0]=./images/aec-603-bradford_W.0.0,4,5
+EmptyImage[NW][0]=./images/aec-603-bradford_NW.0.0,12,10
+EmptyImage[N][0]=./images/aec-603-bradford_N.0.0,0,33
+EmptyImage[NE][0]=./images/aec-603-bradford_NE.0.0,0,24
+
+EmptyImage[E][1]=./images/aec-603-teesside_E.0.0,-33,14
+EmptyImage[SE][1]=./images/aec-603-teesside_SE.0.0,-13,0
+EmptyImage[S][1]=./images/aec-603-teesside_S.0.0,0,0
+EmptyImage[SW][1]=./images/aec-603-teesside_SW.0.0,-8,10
+EmptyImage[W][1]=./images/aec-603-teesside_W.0.0,4,5
+EmptyImage[NW][1]=./images/aec-603-teesside_NW.0.0,12,10
+EmptyImage[N][1]=./images/aec-603-teesside_N.0.0,0,33
+EmptyImage[NE][1]=./images/aec-603-teesside_NE.0.0,0,24
+
+EmptyImage[E][2]=./images/aec-603-lut_E.0.0,-33,14
+EmptyImage[SE][2]=./images/aec-603-lut_SE.0.0,-13,0
+EmptyImage[S][2]=./images/aec-603-lut_S.0.0,0,0
+EmptyImage[SW][2]=./images/aec-603-lut_SW.0.0,-8,10
+EmptyImage[W][2]=./images/aec-603-lut_W.0.0,4,5
+EmptyImage[NW][2]=./images/aec-603-lut_NW.0.0,12,10
+EmptyImage[N][2]=./images/aec-603-lut_N.0.0,0,33
+EmptyImage[NE][2]=./images/aec-603-lut_NE.0.0,0,24
+
+EmptyImage[E][3]=./images/aec-603-lt_E.0.0,-33,14
+EmptyImage[SE][3]=./images/aec-603-lt_SE.0.0,-13,0
+EmptyImage[S][3]=./images/aec-603-lt_S.0.0,0,0
+EmptyImage[SW][3]=./images/aec-603-lt_SW.0.0,-8,10
+EmptyImage[W][3]=./images/aec-603-lt_W.0.0,4,5
+EmptyImage[NW][3]=./images/aec-603-lt_NW.0.0,12,10
+EmptyImage[N][3]=./images/aec-603-lt_N.0.0,0,33
+EmptyImage[NE][3]=./images/aec-603-lt_NE.0.0,0,24

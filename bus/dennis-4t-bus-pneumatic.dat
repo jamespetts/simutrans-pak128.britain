@@ -12,7 +12,7 @@ freight=Passagiere
 # http://webcache.googleusercontent.com/search?q=cache:bpEGWwueDI4J:www.countrybus.org/Dennis/D4t.html+&cd=1&hl=en&ct=clnk&gl=uk
 payload=48
 overcrowded_capacity=3
-speed=32
+speed=45
 # http://www.old-bus-photos.co.uk/?tag=dennis-4-ton : 40-50hp
 power=34
 tractive_effort=6

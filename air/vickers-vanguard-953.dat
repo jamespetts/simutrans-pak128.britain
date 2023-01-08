@@ -4,7 +4,8 @@ name=vickers-vanguard-953
 copyright=Emmanuel Baranger
 waytype=air
 engine_type=turbine
-speed=644
+# https://www.baesystems.com/en/heritage/vickers-vanguard
+speed=663
 power=16540
 tractive_effort=32
 #gear=1
@@ -20,10 +21,11 @@ cost=11500000
 upgrade_price=600000
 # 710 gal/hour
 runningcost=47
+# 3 crew, 2 stewards: https://www.baesystems.com/en/heritage/vickers-vanguard
 fixed_cost=17986
-intro_year=1969
-intro_month=1
-retire_year=1979
+intro_year=1962
+intro_month=3
+retire_year=1969
 retire_month=12
 
 comfort[0]=0
@@ -68,22 +70,24 @@ name=vickers-vanguard-953-piece
 copyright=Emmanuel Baranger
 waytype=air
 engine_type=turbine
-speed=644
+speed=663
 power=16540
 tractive_effort=32
 #gear=1
 freight=Bucher
-# 32 tonnes * 810kg
-payload=40
-weight=56
+# 19.05 tonnes at 810kg
+payload=24
+# Guessed as being lower than the weight of an empty passenger aircraft
+weight=55
 #length=8
 cost=11500000
 upgrade_price=600000
 # 710 gal/hour
 runningcost=47
 fixed_cost=17986
-intro_year=1969
-intro_month=1
+intro_year=1962
+intro_month=3
+# Should be earlier, but allow upgrades
 retire_year=1979
 retire_month=12
 
@@ -122,22 +126,24 @@ name=vickers-vanguard-953-cool
 copyright=Emmanuel Baranger
 waytype=air
 engine_type=turbine
-speed=644
+speed=663
 power=16540
 tractive_effort=32
 #gear=1
 freight=fish
-# 32 tonnes * 410kg
-payload=78
-weight=56
+# 19.05 tonnes at 410kg
+payload=46
+# Guessed as being lower than the weight of an empty passenger aircraft
+weight=55
 #length=8
 cost=11500000
 upgrade_price=600000
 # 710 gal/hour
 runningcost=47
 fixed_cost=17986
-intro_year=1969
-intro_month=1
+intro_year=1962
+intro_month=3
+# Should be earlier, but allow upgrades
 retire_year=1979
 retire_month=12
 

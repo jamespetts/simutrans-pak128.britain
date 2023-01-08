@@ -21,7 +21,7 @@ length=5
 # https://en.wikipedia.org/wiki/GWR_6400_Class
 weight=46.3
 axles=3
-cost=275000
+cost=2750000
 runningcost=135
 fixed_cost=20000
 sound=konakaboom-gwr-pannier.wav

@@ -4,7 +4,7 @@
 # intended to simulate the cost of putting the river 
 # into a culvert.
 #
-# Stream (unnavigable)
+# Brook (unnavigable)
 # Iteration 1
 Obj=way
 Name=River0
@@ -140,7 +140,7 @@ copyright=James
 cost=1500000
 maintenance=0
 topspeed=9
-topspeed_gradient_1=0
+topspeed_gradient_1=0	
 topspeed_gradient_2=0
 max_weight=80
 max_vehicles_on_tile=1

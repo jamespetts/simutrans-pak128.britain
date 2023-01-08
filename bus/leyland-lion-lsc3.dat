@@ -7,7 +7,7 @@ engine_type=petrol
 freight=Passagiere
 payload=35
 overcrowded_capacity=2
-speed=32
+speed=40
 # 5.1l 4 cylinder engine
 # 40hp: https://petergould.co.uk/manufacturers/chassis/leyland1/
 # This is 30kw. However, this is probably an RAC rating. This

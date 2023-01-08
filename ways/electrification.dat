@@ -4,10 +4,8 @@ copyright=James/Timothy Baldock/JamesPetts
 cost=90000
 maintenance=800
 topspeed=90
-# TODO: Change this when earlier types of trolleybus become 
-# available circa 1909
-intro_year=1931
-intro_month=5
+intro_year=1911
+intro_month=6
 waytype=road
 own_waytype=electrified_track
 cursor=street-electrification.1.10

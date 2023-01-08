@@ -1,12 +1,15 @@
 # https://www.flightglobal.com/FlightPDFArchive/1959/1959%20-%203114.PDF
 # The above is a dead link and not on web.archive.org as of January 2021.
+# 
+# https://www.baesystems.com/en/heritage/vickers-vanguard
+# https://en.wikipedia.org/wiki/Vickers_Vanguard
 # This should be a Vanguard 951, not 952.
 obj=vehicle
 name=vickers-vanguard-952
 copyright=Emmanuel Baranger
 waytype=air
 engine_type=turbine
-speed=644
+speed=663
 power=16540
 tractive_effort=32
 #gear=1
@@ -20,9 +23,10 @@ payload[4]=18
 weight=56
 #length=8
 # Approx. £1m in 1960
-cost=12000000
+cost=10500000
 # 710 gal/hour
 runningcost=47
+# 3 crew, 2 stewards: https://www.baesystems.com/en/heritage/vickers-vanguard
 fixed_cost=58333
 intro_year=1960
 intro_month=12
@@ -41,8 +45,6 @@ max_loading_time=2750
 catering_level=3
 upgrade[0]=vickers-vanguard-952-piece
 upgrade[1]=vickers-vanguard-952-cool
-upgrade[2]=vickers-vanguard-953-piece
-upgrade[3]=vickers-vanguard-953-cool
 
 # @ ISA (sea level, 0Centigrades), Runway Dry
 #minimum_runway_length=2286
@@ -68,35 +70,38 @@ EmptyImage[NE]=./images/vickers-vanguard-952-bea_NE.0.0
 
 ---
 # This should be a Vanguard 951, not 952.
+# In reality, there were no 951 freighters,
+# but players may want this option.
 obj=vehicle
 name=vickers-vanguard-952-piece
 copyright=Emmanuel Baranger
 waytype=air
 engine_type=turbine
-speed=644
+speed=663
 power=16540
 tractive_effort=32
 #gear=1
 freight=Bucher
-# 19.05 tonnes at 810kg
-payload=24
-weight=56
+# These were not converted to cargo, so capacity guessed
+# as being lower than that of the 953C: assume 14t
+payload=17
+# Guessed as being lower than the weight of an empty passenger aircraft
+weight=55
 #length=8
-cost=12000000
+cost=10000000
 upgrade_price=50000
 # 710 gal/hour
 runningcost=47
 fixed_cost=18333
 intro_year=1960
 intro_month=12
-retire_year=1963
+# Should be 1963, but allow upgrades
+retire_year=1969
 retire_month=9
 
-comfort=126
 min_loading_time=2800
 max_loading_time=2800
 
-catering_level=3
 upgrade[0]=vickers-vanguard-952-piece
 upgrade[1]=vickers-vanguard-952-cool
 
@@ -129,30 +134,31 @@ name=vickers-vanguard-952-cool
 copyright=Emmanuel Baranger
 waytype=air
 engine_type=turbine
-speed=644
+speed=663
 power=16540
 tractive_effort=32
 #gear=1
 freight=fish
-# 19.05 tonnes at 410kg
-payload=46
-weight=56
+# These were not converted to cargo, so capacity guessed
+# as being lower than that of the 953C: assume 14t
+payload=34
+# Guessed as being lower than the weight of an empty passenger aircraft
+weight=55
 #length=8
-cost=12000000
+cost=10000000
 upgrade_price=50000
 # 710 gal/hour
 runningcost=47
 fixed_cost=18333
 intro_year=1960
 intro_month=12
-retire_year=1963
+# Should be 1963, but allow upgrades
+retire_year=1969
 retire_month=9
 
-comfort=126
 min_loading_time=2800
 max_loading_time=2800
 
-catering_level=3
 upgrade[0]=vickers-vanguard-952-piece
 upgrade[1]=vickers-vanguard-952-cool
 

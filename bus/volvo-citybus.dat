@@ -19,9 +19,10 @@ length=6
 cost=3875000
 runningcost=60
 fixed_cost=10018
-intro_year=1987
-intro_month=11
-retire_year=2000
+# https://en.wikipedia.org/wiki/Volvo_B10M#B10MD
+intro_year=1982
+intro_month=3
+retire_year=2003
 retire_month=5
 is_tall=1
 
@@ -85,9 +86,9 @@ length=6
 cost=3800000
 runningcost=60
 fixed_cost=9958
-intro_year=1987
-intro_month=11
-retire_year=2000
+intro_year=1982
+intro_month=3
+retire_year=2003
 retire_month=5
 is_tall=1
 

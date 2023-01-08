@@ -1,4 +1,5 @@
-# MCW Q1 Trolleybus
+# This was originally recorded as an MCW Q1, based on the London Transport
+# class, but is more properly undertood as a BUT9641T.
 # See p. 47 of "Glasgow Trolleybuses" by Brian T. Deans
 # 8ft wide
 obj=vehicle
@@ -9,15 +10,15 @@ engine_type=electric
 freight=Passagiere
 payload=70
 overcrowded_capacity=7
-speed=50
+speed=55
 # Trolleybuses generally had only 1 motor:
 # http://www.ltmcollection.org/museum/object/link.html?_IXMAXHITS_=1&IXinv=1981/528&IXexpand=designservice	
 power=89
 tractive_effort=65
 gear=80
-weight=9.6
+weight=10.1
 axles=3
-cost=42000
+cost=420000
 runningcost=18
 fixed_cost=12044
 intro_year=1948
@@ -42,6 +43,10 @@ liverytype[2]=Glasgow-Corporation-revised-1
 liverytype[3]=Glasgow-Corporation-revised-2
 liverytype[4]=Birmingham-Corporation
 liverytype[5]=Bradford-standard
+liverytype[6]=Teesside-standard
+liverytype[7]=Teesside-municipal-transport
+liverytype[8]=WYPTE-Green-Cream
+liverytype[9]=WMPTE-Blue-cream
 
 EmptyImage[E][0]=./images/mcw-q1-lt_E.0.0,-33,14
 EmptyImage[SE][0]=./images/mcw-q1-lt_SE.0.0,-13,0
@@ -96,3 +101,39 @@ EmptyImage[W][5]=./images/mcw-q1-bradford_W.0.0,4,5
 EmptyImage[NW][5]=./images/mcw-q1-bradford_NW.0.0,12,10
 EmptyImage[N][5]=./images/mcw-q1-bradford_N.0.0,0,33
 EmptyImage[NE][5]=./images/mcw-q1-bradford_NE.0.0,0,24
+
+EmptyImage[E][6]=./images/mcw-q1-teesside_E.0.0,-33,14
+EmptyImage[SE][6]=./images/mcw-q1-teesside_SE.0.0,-13,0
+EmptyImage[S][6]=./images/mcw-q1-teesside_S.0.0,0,0
+EmptyImage[SW][6]=./images/mcw-q1-teesside_SW.0.0,-8,10
+EmptyImage[W][6]=./images/mcw-q1-teesside_W.0.0,4,5
+EmptyImage[NW][6]=./images/mcw-q1-teesside_NW.0.0,12,10
+EmptyImage[N][6]=./images/mcw-q1-teesside_N.0.0,0,33
+EmptyImage[NE][6]=./images/mcw-q1-teesside_NE.0.0,0,24
+
+EmptyImage[E][7]=./images/mcw-q1-teesside-municipal_E.0.0,-33,14
+EmptyImage[SE][7]=./images/mcw-q1-teesside-municipal_SE.0.0,-13,0
+EmptyImage[S][7]=./images/mcw-q1-teesside-municipal_S.0.0,0,0
+EmptyImage[SW][7]=./images/mcw-q1-teesside-municipal_SW.0.0,-8,10
+EmptyImage[W][7]=./images/mcw-q1-teesside-municipal_W.0.0,4,5
+EmptyImage[NW][7]=./images/mcw-q1-teesside-municipal_NW.0.0,12,10
+EmptyImage[N][7]=./images/mcw-q1-teesside-municipal_N.0.0,0,33
+EmptyImage[NE][7]=./images/mcw-q1-teesside-municipal_NE.0.0,0,24
+
+EmptyImage[E][8]=./images/mcw-q1-wypte_E.0.0,-33,14
+EmptyImage[SE][8]=./images/mcw-q1-wypte_SE.0.0,-13,0
+EmptyImage[S][8]=./images/mcw-q1-wypte_S.0.0,0,0
+EmptyImage[SW][8]=./images/mcw-q1-wypte_SW.0.0,-8,10
+EmptyImage[W][8]=./images/mcw-q1-wypte_W.0.0,4,5
+EmptyImage[NW][8]=./images/mcw-q1-wypte_NW.0.0,12,10
+EmptyImage[N][8]=./images/mcw-q1-wypte_N.0.0,0,33
+EmptyImage[NE][8]=./images/mcw-q1-wypte_NE.0.0,0,24
+
+EmptyImage[E][9]=./images/mcw-q1-wmpte_E.0.0,-33,14
+EmptyImage[SE][9]=./images/mcw-q1-wmpte_SE.0.0,-13,0
+EmptyImage[S][9]=./images/mcw-q1-wmpte_S.0.0,0,0
+EmptyImage[SW][9]=./images/mcw-q1-wmpte_SW.0.0,-8,10
+EmptyImage[W][9]=./images/mcw-q1-wmpte_W.0.0,4,5
+EmptyImage[NW][9]=./images/mcw-q1-wmpte_NW.0.0,12,10
+EmptyImage[N][9]=./images/mcw-q1-wmpte_N.0.0,0,33
+EmptyImage[NE][9]=./images/mcw-q1-wmpte_NE.0.0,0,24

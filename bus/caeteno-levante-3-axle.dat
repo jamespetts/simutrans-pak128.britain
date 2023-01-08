@@ -1,7 +1,8 @@
 # https://en.wikipedia.org/wiki/Caetano_Levante
 # http://www.busandcoachprofessional.com/news/articles/archive/national-express-goes-for-15m-coaches/
 # http://www.busandcoach.com/news/articles/archive/national-express-unveils-new-levante/
-# TODO: Add four axle version
+# Now referred to in the translation texts as the Volvo B12B following the convention of naming all
+# road vehicles with separate chassis and bodies after the chassis rather than the body.
 obj=vehicle
 name=caetano-levante-3-axle
 copyright=Matthew

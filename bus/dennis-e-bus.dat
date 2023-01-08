@@ -9,7 +9,7 @@ freight=Passagiere
 # See Baldwin p. 32
 payload=35
 overcrowded_capacity=3
-speed=32
+speed=42
 # 70hp - Baldwin p. 31
 power=52
 tractive_effort=7

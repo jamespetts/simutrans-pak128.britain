@@ -10,7 +10,7 @@ freight=Passagiere
 # Guessed
 payload=29
 overcrowded_capacity=3
-speed=32
+speed=45
 # Guessed to be the same as the double deck 4t bus - but uncertain
 power=34
 tractive_effort=6
