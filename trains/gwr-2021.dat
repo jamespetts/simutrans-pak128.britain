@@ -26,7 +26,7 @@ upgrade[0]=gwr-2021-rebuilt
 # https://en.wikipedia.org/wiki/GWR_2021_Class
 weight=41.3
 axle_load=14
-cost=262000
+cost=2620000
 runningcost=130
 fixed_cost=21300
 sound=konakaboom-gwr-pannier.wav

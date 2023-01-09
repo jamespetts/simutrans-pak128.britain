@@ -1229,21 +1229,21 @@ cursor_overlay_color = 158
 # All
 waytype_color[0] = #aaaaaa
 # road
-waytype_color[1] = #b551d6
+waytype_color[1] = #cf2b2b
 # rail
-waytype_color[2] = #ffa22a
+waytype_color[2] = #5eb140
 # ship
-waytype_color[3] = #0079ff
+waytype_color[3] = #6588c4
 # monorail
-waytype_color[5] = #b52021
+waytype_color[5] = #aaaaaa
 # maglev
-waytype_color[6] = #ff61bd
+waytype_color[6] = #eae692
 # tram
-waytype_color[7] = #6bd310
+waytype_color[7] = #d8961a
 # narrowgauge
-waytype_color[8] = #b58200
+waytype_color[8] = #a878a4
 # air
-waytype_color[9] = #31cbff
+waytype_color[9] = #91cbd0
 
 # The below settings give an offset in pixels per direction for each vehicle 
 # when it is in a reversed state. This allows paksets whose vehicle alignments are
