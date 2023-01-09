@@ -1008,6 +1008,11 @@ max_route_tiles_to_process_in_a_step = 1024
 
 assume_everywhere_connected_by_road = 0
 
+# After how many months a citycar will disappear
+# (by default: normally, this will be determined by the calculated journey time)
+# One day at current settings: 260s
+citycar_life = 1375
+
 ################################ Vehicle settings ##############################
 
 # These settings determine how vehicles take corners, for each individual type of way.  They
@@ -1215,14 +1220,30 @@ numbered_stations = 0
 #   8 = box left of name in yellow outline
 show_names = 7
 
-# After how many months a citycar breaks (and will be forever gone) ...
-# one day at current settings: 260s
-citycar_life = 1375
-
 # Colour of the cursor shading.
 # Pak128 default = 155 (orange)
 # Pak128.Britain default = 158 (yellow)
 cursor_overlay_color = 158
+
+# Waytype colour codes. Note the US spelling of "color".
+# All
+waytype_color[0] = #aaaaaa
+# road
+waytype_color[1] = #b551d6
+# rail
+waytype_color[2] = #ffa22a
+# ship
+waytype_color[3] = #0079ff
+# monorail
+waytype_color[5] = #b52021
+# maglev
+waytype_color[6] = #ff61bd
+# tram
+waytype_color[7] = #6bd310
+# narrowgauge
+waytype_color[8] = #b58200
+# air
+waytype_color[9] = #31cbff
 
 # The below settings give an offset in pixels per direction for each vehicle 
 # when it is in a reversed state. This allows paksets whose vehicle alignments are
