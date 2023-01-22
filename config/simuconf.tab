@@ -1171,10 +1171,17 @@ extended_maintenance_interval_months = 18
 
 # This determines whether vehicles need to visit depots periodically.
 # If enabled (1), the vehicles do not need to visit depots periodically.
+# 
 # This is enabled by default when loading older saved games in which
 # periodic depot vists were neither necessary nor possible, irrespective
 # of the setting here. This applies only to new games.
+#
+# Default: 0 (except for loading games saved in versions older than 15)
 simplified_maintenance = 0
+
+# The number of seconds (in game time) that is the minimum amount of time that a consist
+# can be in the layover state.
+min_layover_overhead_seconds = 120
 
 ############################### Display settings ###############################
 
