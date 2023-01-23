@@ -28,6 +28,9 @@ class_proportion_jobs[2]=55
 class_proportion_jobs[3]=5
 class_proportion_jobs[4]=0
 
+layover_enable=1
+replenish_enable=0
+
 maintenance=18500
 cost=2700000
 capacity=92
@@ -74,6 +77,9 @@ class_proportion_jobs[2]=55
 class_proportion_jobs[3]=5
 class_proportion_jobs[4]=0
 
+layover_enable=1
+replenish_enable=0
+
 maintenance=21800
 cost=3162500
 capacity=115
@@ -113,6 +119,9 @@ class_proportion_jobs[1]=35
 class_proportion_jobs[2]=55
 class_proportion_jobs[3]=5
 class_proportion_jobs[4]=0
+
+layover_enable=1
+replenish_enable=0
 
 maintenance=9250
 cost=1350000
@@ -159,6 +168,9 @@ class_proportion_jobs[1]=35
 class_proportion_jobs[2]=55
 class_proportion_jobs[3]=5
 class_proportion_jobs[4]=0
+
+layover_enable=1
+replenish_enable=0
 
 maintenance=10900
 cost=1581250

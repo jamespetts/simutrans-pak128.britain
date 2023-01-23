@@ -30,6 +30,9 @@ class_proportion_jobs[2]=28
 class_proportion_jobs[3]=2
 class_proportion_jobs[4]=0
 
+layover_enable=1
+replenish_enable=1
+
 BackImage[0][0][0][0][0][0]=harbour-goods-old.1.1
 BackImage[1][0][0][0][0][0]=harbour-goods-old.2.1
 BackImage[2][0][0][0][0][0]=harbour-goods-old.1.2
@@ -92,6 +95,9 @@ class_proportion_jobs[1]=45
 class_proportion_jobs[2]=45
 class_proportion_jobs[3]=5
 class_proportion_jobs[4]=0
+
+layover_enable=1
+replenish_enable=1
 
 BackImage[0][0][0][0][0][0]=harbour-goods-modern.1.1
 BackImage[1][0][0][0][0][0]=harbour-goods-modern.2.1
@@ -160,6 +166,9 @@ retire_month=2
 maintenance=15000
 cost=1275000
 capacity=85
+
+layover_enable=1
+replenish_enable=1
 
 BackImage[0][0][0][0][0][0]=harbour-passenger.1.1
 BackImage[1][0][0][0][0][0]=harbour-passenger.2.1
@@ -230,6 +239,9 @@ maintenance=15300
 cost=1567500
 capacity=95
 
+layover_enable=1
+replenish_enable=1
+
 BackImage[0][0][0][0][0][0]=harbour-passenger-deco.1.1
 BackImage[1][0][0][0][0][0]=harbour-passenger-deco.2.1
 BackImage[2][0][0][0][0][0]=harbour-passenger-deco.1.2
@@ -299,6 +311,9 @@ maintenance=16350
 cost=2371875
 capacity=115
 
+layover_enable=1
+replenish_enable=1
+
 BackImage[0][0][0][0][0][0]=harbour-passenger-1950s.1.1
 BackImage[1][0][0][0][0][0]=harbour-passenger-1950s.2.1
 BackImage[2][0][0][0][0][0]=harbour-passenger-1950s.1.2
@@ -366,6 +381,9 @@ intro_month=1
 maintenance=24840
 cost=2052000
 capacity=135
+
+layover_enable=1
+replenish_enable=1
 
 BackImage[0][0][0][0][0][0]=harbour-passenger-modern.1.1
 BackImage[1][0][0][0][0][0]=harbour-passenger-modern.2.1

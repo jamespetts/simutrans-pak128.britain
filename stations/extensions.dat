@@ -244,6 +244,9 @@ maintenance=10000
 cost=850000
 capacity=850
 
+layover_enable=1
+replenish_enable=0
+
 BackImage[0][0][0][0][0][0]=post-office-old.0.2
 BackImage[1][0][0][0][0][0]=post-office-old.0.1
 BackImage[2][0][0][0][0][0]=post-office-old.0.0
@@ -282,6 +285,9 @@ intro_year=1960
 maintenance=95000
 cost=1000000
 capacity=950
+
+layover_enable=1
+replenish_enable=0
 
 BackImage[0][0][0][0][0][0]=post-office-modern.0.2
 BackImage[1][0][0][0][0][0]=post-office-modern.0.1

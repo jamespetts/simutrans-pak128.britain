@@ -32,6 +32,9 @@ maintenance=10000
 cost=850000
 capacity=85
 
+layover_enable=1
+replenish_enable=0
+
 BackImage[0][0][0][0][0][0]=stone-building.0.0
 BackImage[1][0][0][0][0][0]=stone-building.1.0
 BackImage[2][0][0][0][0][0]=stone-building.0.1

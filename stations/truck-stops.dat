@@ -24,6 +24,9 @@ station_capacity=20
 station_price=25000
 station_maintenance=1125
 
+layover_enable=1
+replenish_enable=1
+
 BackImage[0][0][0][0][0][0]=truck-stop-s-1750.2.0
 FrontImage[0][0][0][0][0][0]=truck-stop-s-1750.1.0
 BackImage[3][0][0][0][0][0]=truck-stop-s-1750.2.1
@@ -67,6 +70,9 @@ retire_month=8
 station_capacity=40
 station_price=50000
 station_maintenance=2250
+
+layover_enable=1
+replenish_enable=1
 
 BackImage[0][0][0][0][0][0]=truck-stop-m-1750.2.0
 FrontImage[0][0][0][0][0][0]=truck-stop-m-1750.1.0
@@ -112,6 +118,9 @@ station_capacity=20
 station_price=25000
 station_maintenance=1125
 
+layover_enable=1
+replenish_enable=1
+
 BackImage[0][0][0][0][0][0]=truck-stop-s-1844.2.0
 FrontImage[0][0][0][0][0][0]=truck-stop-s-1844.1.0
 BackImage[3][0][0][0][0][0]=truck-stop-s-1844.2.1
@@ -155,6 +164,9 @@ retire_month=3
 station_capacity=40
 station_price=50000
 station_maintenance=2250
+
+layover_enable=1
+replenish_enable=1
 
 BackImage[0][0][0][0][0][0]=truck-stop-m-1844.2.0
 FrontImage[0][0][0][0][0][0]=truck-stop-m-1844.1.0
@@ -200,6 +212,9 @@ station_capacity=60
 station_price=75000
 station_maintenance=3375
 
+layover_enable=1
+replenish_enable=1
+
 BackImage[0][0][0][0][0][0]=truck-stop-l-1844.2.0
 FrontImage[0][0][0][0][0][0]=truck-stop-l-1844.1.0
 BackImage[3][0][0][0][0][0]=truck-stop-l-1844.2.1
@@ -243,6 +258,9 @@ retire_month=7
 station_capacity=30
 station_price=37500
 station_maintenance=1688
+
+layover_enable=1
+replenish_enable=1
 
 BackImage[0][0][0][0][0][0]=truck-stop-s-1920.2.0
 FrontImage[0][0][0][0][0][0]=truck-stop-s-1920.1.0
@@ -288,6 +306,9 @@ station_capacity=60
 station_price=75000
 station_maintenance=3375
 
+layover_enable=1
+replenish_enable=1
+
 BackImage[0][0][0][0][0][0]=truck-stop-m-1920.2.0
 FrontImage[0][0][0][0][0][0]=truck-stop-m-1920.1.0
 BackImage[3][0][0][0][0][0]=truck-stop-m-1920.2.1
@@ -331,6 +352,9 @@ retire_month=1
 station_capacity=90
 station_price=112500
 station_maintenance=5062
+
+layover_enable=1
+replenish_enable=1
 
 BackImage[0][0][0][0][0][0]=truck-stop-l-1920.2.0
 FrontImage[0][0][0][0][0][0]=truck-stop-l-1920.1.0
@@ -376,6 +400,9 @@ station_capacity=75
 station_price=93750
 station_maintenance=4220
 
+layover_enable=1
+replenish_enable=1
+
 BackImage[0][0][0][0][0][0]=truck-stop-s-1969.0.0
 FrontImage[0][0][0][0][0][0]=truck-stop-s-1969.1.0
 BackImage[3][0][0][0][0][0]=truck-stop-s-1969.0.1
@@ -419,6 +446,9 @@ retire_month=7
 station_capacity=120
 station_price=150000
 station_maintenance=6750
+
+layover_enable=1
+replenish_enable=1
 
 BackImage[0][0][0][0][0][0]=truck-stop-m-1969.2.0
 FrontImage[0][0][0][0][0][0]=truck-stop-m-1969.1.0
@@ -464,6 +494,9 @@ intro_month=7
 station_capacity=180
 station_price=225000
 station_maintenance=10125
+
+layover_enable=1
+replenish_enable=1
 
 BackImage[0][0][0][0][0][0]=truck-stop-l-1969.2.0
 FrontImage[0][0][0][0][0][0]=truck-stop-l-1969.1.0

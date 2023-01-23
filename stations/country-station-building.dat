@@ -31,6 +31,9 @@ maintenance=11800
 cost=800000
 capacity=75
 
+layover_enable=1
+replenish_enable=0
+
 BackImage[0][0][0][0][0][0]=country-station-building.0.2
 BackImage[1][0][0][0][0][0]=country-station-building.0.1
 BackImage[2][0][0][0][0][0]=country-station-building.0.0

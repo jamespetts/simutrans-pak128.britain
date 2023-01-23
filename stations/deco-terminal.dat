@@ -32,6 +32,9 @@ maintenance=20400
 cost=2090000
 capacity=95
 
+layover_enable=1
+replenish_enable=0
+
 BackImage[0][0][0][0][0][0]=deco-station-entrance.0.2
 BackImage[1][0][0][0][0][0]=deco-station-entrance.0.1
 BackImage[2][0][0][0][0][0]=deco-station-entrance.0.0
@@ -83,6 +86,9 @@ maintenance=45000
 cost=4500000
 capacity=95
 
+layover_enable=1
+replenish_enable=0
+
 BackImage[0][0][0][0][0][0]=deco-airport-tower.0.2
 BackImage[1][0][0][0][0][0]=deco-airport-tower.0.1
 BackImage[2][0][0][0][0][0]=deco-airport-tower.0.0
@@ -128,6 +134,9 @@ class_proportion_jobs[4]=0
 maintenance=10200
 cost=1045000
 capacity=95
+
+layover_enable=1
+replenish_enable=0
 
 BackImage[0][0][0][0][0][0]=deco-station-entrance.0.2
 BackImage[1][0][0][0][0][0]=deco-station-entrance.0.1
