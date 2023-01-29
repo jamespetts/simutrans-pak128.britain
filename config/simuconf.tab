@@ -1084,6 +1084,9 @@ unit_reverse_time_seconds=60
 hauled_reverse_time_seconds=120
 turntable_reverse_time_seconds=360
 
+# The length of time in seconds that it takes a consist to be shunted into a new consist
+shunting_time_seconds = 120
+
 # This setting allows the power of all vehicles to be adjusted at once. It is a
 # percentage figure. Thus, if, for example, a vehicle has a power rating of 1,200kw
 # and the global_power_factor_percent is set to 200, it will behave in game as if
