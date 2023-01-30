@@ -1108,7 +1108,7 @@ global_force_factor_percent=100
 # 0: weight limits are ignored entirely. 
 # 1: then vehicles can travel over roads, rails, tunnels and bridges for which they are too heavy, but only at greatly reduced speed. 
 # 2: Vehicles cannot travel over ways for which they are overweight at all. 
-# 3: Vehciles cannot travel over ways for which they are more than 10% overweight at all, and will travel on ways for which they are up to 10% overweight at a greatly reduced speed.
+# 3: Vehicles cannot travel over ways for which they are more than 10% overweight at all, and will travel on ways for which they are up to 10% overweight at a greatly reduced speed.
 #
 # To revert to the behaviour of Simutrans-Standard, set enforce_weight_limits=0
 
