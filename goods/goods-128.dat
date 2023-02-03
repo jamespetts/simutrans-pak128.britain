@@ -77,40 +77,40 @@
 #	III			3.10d				2.65d				2.00d				1.80d
 #	IV			3.60d				3.15d				2.50d				2.20d
 #	V			4.30d				3.70d				3.25d				2.50d
-#
-# Note that, for the time being, the original values are retained for backwards compatibility and reference. They are 
-# over-written by the current system.
+
 
 ### FIXED GOODS COLORS ###
-# BLACK - DARK GRAY
-# 208:coal, 218:crude oil, 9:steel 10:canned food
-# LIGHT GRAY - WHITE
-# 12:stone=bulk(gray) 14:cement=bulk(light gray) 213:hardware 223:newspaper(LightSteelBlue?) 15:paer=piece goods 215:milk=food(white)
+# Black/dark grey
+# 208: coal, 218: crude oil, 9: steel 10: canned food
+#
+# White/light grey
+# 12: stone=bulk (grey) 14: cement=bulk (light grey) 213: hardware 223: newspaper (Light Steel Blue ) 15: paper=piece goods 215: milk=food (white)
 #
 # Yellow
 # 28:beer(dark gold) 29:grain(gold) 31:mail 175:flour(light cream)
 #
 # Brown
-# 68:woodchip, 93:clay 94:planks
-# 115:livestock 152:furniture
+# 68: woodchip, 93: clay 94: planks
+# 115: livestock 152: furniture
+#
 # Dark Brown
-# 90:wroughtiron(dark brown) 130:Iron ore(dark reddish brown
+# 90: wrought iron (dark brown) 130: iron ore (dark reddish brown)
 #
 # Orange
-# 159:cider 71:gasoline
+# 159: cider 71: gasoline
 #
 # Red
-# 38:brick(orange red)
-# 131:cars 133:fruit 135:meat
-# 79:passengers(pink)
+# 38: brick (orange red)
+# 131: cars 133:fruit 135: meat
+# 79: passengers (pink)
 #
 # Blue
-# 149:FreshFish(marine blue) 23:Fish
-# 18:Textiles(jeans blue) 101:fueloil
-# 5:plastic(light steel blue) 7:china(powder blue)
+# 149: FreshFish (marine blue) 23: Fish
+# 18: Textiles (jeans blue) 101: fuel oil
+# 5: plastic (light steel blue) 7: china (powder blue)
 #
 # Green
-# 136:Vegetable 53:Pharmaceuticals(Turquoise)
+# 136: Vegetable 53: Pharmaceuticals (turquoise)
 
 
 ### UNIQUE GOODS TYPES ###
@@ -123,11 +123,8 @@ metric=
 catg=0
 number_of_classes=5
 #
-#value=42
-value=50
-#
 value[0]=55
-to_distance[0]=16
+to_distance[0]=8
 value[1]=50
 to_distance[1]=500
 value[2]=45
@@ -155,9 +152,6 @@ metric=bundles
 catg=0
 number_of_classes=2
 #
-#value=48
-value=57
-#
 value[0]=7
 to_distance[0]=16
 value[1]=6
@@ -182,9 +176,6 @@ name=livestock
 mapcolor=115
 metric=head
 catg=0
-#
-#value=35
-value=56
 #
 value[0]=67
 to_distance[0]=16
@@ -211,9 +202,6 @@ mapcolor=131
 metric=cars
 catg=0
 #
-#value=225
-value=284
-#
 value[0]=324
 to_distance[0]=32
 value[1]=284
@@ -232,8 +220,6 @@ name=FreshFish
 mapcolor=149
 metric=paletten
 catg=0
-#
-value=133
 #
 value[0]=110
 to_distance[0]=32
@@ -255,9 +241,6 @@ mapcolor=208
 metric=tonnen
 catg=2
 #
-#value=35
-value=45
-#
 value[0]=58
 to_distance[0]=32
 value[1]=45
@@ -277,9 +260,6 @@ name=Eisenerz
 mapcolor=130
 metric=tonnen
 catg=2
-#
-#value=35
-value=45
 #
 value[0]=58
 to_distance[0]=32
@@ -301,9 +281,6 @@ mapcolor=68
 metric=tonnen
 catg=2
 #
-#value=35
-value=53
-#
 value[0]=70
 to_distance[0]=32
 value[1]=53
@@ -323,9 +300,6 @@ name=Stone
 mapcolor=12
 metric=tonnen
 catg=2
-#
-#value=35
-value=53
 #
 value[0]=70
 to_distance[0]=32
@@ -347,9 +321,6 @@ mapcolor=93
 metric=tonnen
 catg=2
 #
-#value=35
-value=53
-#
 value[0]=70
 to_distance[0]=32
 value[1]=53
@@ -370,9 +341,6 @@ mapcolor=14
 metric=tonnen
 catg=2
 #
-#value=35
-value=75
-#
 value[0]=90
 to_distance[0]=32
 value[1]=75
@@ -390,9 +358,6 @@ name=grain
 mapcolor=29
 metric=tonnen
 catg=2
-#
-#value=35
-value=75
 #
 value[0]=90
 to_distance[0]=32
@@ -414,9 +379,6 @@ name=Bucher
 metric=paletten
 catg=1
 #
-#value=51
-value=133
-#
 value[0]=155
 to_distance[0]=32
 value[1]=133
@@ -435,9 +397,6 @@ name=fruit
 mapcolor=133
 metric=paletten
 catg=1
-#
-#value=51
-value=68
 #
 value[0]=80
 to_distance[0]=32
@@ -458,9 +417,6 @@ mapcolor=136
 metric=paletten
 catg=1
 #
-#value=51
-value=65
-#
 value[0]=77
 to_distance[0]=32
 value[1]=65
@@ -479,9 +435,6 @@ name=newspaper
 mapcolor=223
 metric=paletten
 catg=1
-#
-#value=51
-value=105
 #
 value[0]=122
 to_distance[0]=32
@@ -503,9 +456,6 @@ mapcolor=213
 metric=paletten
 catg=1
 #
-#value=35
-value=69
-#
 value[0]=83
 to_distance[0]=32
 value[1]=69
@@ -524,9 +474,6 @@ name=Moebel
 mapcolor=152
 metric=paletten
 catg=1
-#
-#value=50
-value=53
 #
 value[0]=62
 to_distance[0]=32
@@ -547,9 +494,6 @@ mapcolor=18
 metric=paletten
 catg=1
 #
-#value=35
-value=57
-#
 value[0]=67
 to_distance[0]=32
 value[1]=57
@@ -568,9 +512,6 @@ name=flour
 mapcolor=175
 metric=paletten
 catg=1
-#
-#value=35
-value=63
 #
 value[0]=76
 to_distance[0]=32
@@ -591,9 +532,6 @@ mapcolor=28
 metric=barrels
 catg=1
 #
-#value=35
-value=74
-#
 value[0]=88
 to_distance[0]=32
 value[1]=74
@@ -612,9 +550,6 @@ name=cider
 mapcolor=159
 metric=barrels
 catg=1
-#
-#value=35
-value=73
 #
 value[0]=86
 to_distance[0]=32
@@ -635,9 +570,6 @@ mapcolor=53
 metric=paletten
 catg=1
 #
-#value=35
-value=91
-#
 value[0]=104
 to_distance[0]=32
 value[1]=91
@@ -656,9 +588,6 @@ name=Plastik
 mapcolor=5
 metric=paletten
 catg=1
-#
-#value=35
-value=38
 #
 value[0]=45
 to_distance[0]=32
@@ -679,9 +608,6 @@ mapcolor=15
 metric=paletten
 catg=1
 #
-#value=35
-value=74
-#
 value[0]=88
 to_distance[0]=32
 value[1]=74
@@ -699,9 +625,6 @@ obj=good
 name=wool
 metric=sack
 catg=1
-#
-#value=35
-value=29
 #
 value[0]=34
 to_distance[0]=32
@@ -722,9 +645,6 @@ mapcolor=7
 metric=paletten
 catg=1
 #
-#value=35
-value=52
-#
 value[0]=60
 to_distance[0]=32
 value[1]=52
@@ -744,9 +664,6 @@ mapcolor=38
 metric=paletten
 catg=1
 #
-#value=35
-value=43
-#
 value[0]=57
 to_distance[0]=32
 value[1]=43
@@ -765,9 +682,6 @@ name=canned_food
 mapcolor=10
 metric=paletten
 catg=1
-#
-#value=35
-value=129
 #
 value[0]=148
 to_distance[0]=32
@@ -789,9 +703,6 @@ mapcolor=9
 metric=tonnen
 catg=6
 #
-#value=35
-value=75
-#
 value[0]=90
 to_distance[0]=32
 value[1]=75
@@ -810,8 +721,6 @@ name=WroughtIron
 mapcolor=90
 metric=tonnen
 catg=6
-#
-value=53
 #
 value[0]=70
 to_distance[0]=32
@@ -833,9 +742,6 @@ mapcolor=94
 metric=tonnen
 catg=6
 #
-#value=35
-value=93
-#
 value[0]=110
 to_distance[0]=32
 value[1]=93
@@ -855,9 +761,6 @@ name=Oel
 mapcolor=218
 metric=kilolitres
 catg=3
-#
-#value=35
-value=83
 #
 value[0]=99
 to_distance[0]=32
@@ -879,9 +782,6 @@ mapcolor=71
 metric=kilolitres
 catg=3
 #
-#value=35
-value=70
-#
 value[0]=83
 to_distance[0]=32
 value[1]=70
@@ -902,9 +802,6 @@ mapcolor=101
 metric=kilolitres
 catg=3
 #
-#value=35
-value=93
-#
 value[0]=110
 to_distance[0]=32
 value[1]=93
@@ -922,9 +819,6 @@ obj=good
 name=Chemicals
 metric=kilolitres
 catg=3
-#
-#value=35
-value=66
 #
 value[0]=77
 to_distance[0]=32
@@ -946,9 +840,6 @@ mapcolor=135
 metric=paletten
 catg=4
 #
-#value=69
-value=47
-#
 value[0]=54
 to_distance[0]=32
 value[1]=47
@@ -967,9 +858,6 @@ name=fish
 mapcolor=23
 metric=paletten
 catg=4
-#
-#value=69
-value=48
 #
 value[0]=45
 to_distance[0]=32
@@ -994,9 +882,6 @@ name=milk
 mapcolor=215
 metric=churns (x5)
 catg=4
-#
-#value=69
-value=32
 #
 value[0]=51
 to_distance[0]=32
