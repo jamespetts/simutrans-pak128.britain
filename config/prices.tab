@@ -14,7 +14,7 @@ general=1750,56,1751,54,1752,57,1753,56,1754,58,1755,54,1756,57,1758,69,1759,63,
 # Passengers are complex, as much of the fare fluctuation can be accounted for by classes. Thus, assume that the basic fare structure remained the same until the First World War.
 # Nominal third class fares had increased to 1 1/2d/mile in 1923 - see Ackworth (2nd. ed.) p. 207: https://archive.org/details/elementsofrailwa0000acwo/page/206/mode/2up?view=theater
 # https://www.railwaymuseum.org.uk/sites/default/files/2018-03/resource-pack-fares.pdf
-# Note that these are rail fares which were somewhat suppressed in the 1950s compared to 'bus fares. Consider whether it might be better to use 'bus data.
+# Note that these are rail fares which were somewhat suppressed in the 1950s compared to 'bus fares. Consider whether it might be better to use 'bus data, especially for the mid-20th century.
 # https://www.huffingtonpost.co.uk/entry/train-and-bus-fares-have-skyrocketed-in-last-four-decades-figures-show_uk_5a85691de4b0ab6daf46260f
 # Post 1987 figures are based on the rail fare transport component of RPI figures.
 passenger fare=1750,100,1914,100,1921,150,1937,150,1938,157,1945,158,1953,175,1959,175,1960,200,1961,250,1962,300,1964,300,1965,325,1967,325,1970,330,1971,330,1972,341,1973,351,1974,407,1975,615,1976,684,1977,780,1987,1291,1988,2452,1989,2675,1990,2910,1991,3213,1992,3448,1993,3689,1994,3853,1995,4024,1996,4175,1997,4273,1998,4448,1999,4610,2000,4690,2001,4870,2002,4981,2003,5066,2004,5259,2005,5471,2006,5690,2007,5982,2008,6242,2009,6574,2010,7101,2011,7607,2012,7971,2013,8306,2014,8584,2015,8765,2016,8787,2017,9033,2018,9340,2019,9629,2020,9899,2021,10275,2022,10665,2023,11294,2050,12936
