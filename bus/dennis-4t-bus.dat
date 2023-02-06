@@ -18,8 +18,8 @@ speed=20
 power=34
 tractive_effort=6
 gear=50
-# Guessed
-weight=5.3
+# https://www.flickr.com/photos/14730981@N08/33764671432/in/photostream/
+weight=4.3
 axles=2
 way_wear_factor=2900
 length=5
