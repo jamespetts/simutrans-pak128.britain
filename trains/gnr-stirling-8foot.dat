@@ -40,7 +40,7 @@ multiple_working_type=0
 self_contained_catering=1
 calibration_speed=75
 cut_off_speed=40
-fuel_per_km=8 # Kg of coal per km at calibration speed
+fuel_per_km=7650 # Grammes of coal per km at calibration speed
 
 driver[0]=1
 staff[0]=1
