@@ -3,16 +3,24 @@
 
 # Guessed figures for testing for the time being.
 
+# Interim guessed figures
 fuel[diesel]=1750,10,1850,20,1900,50,1930,70,1950,100,1975,200,2000,350
 
 fuel[steam]=1750,10,1850,20,1900,50,1930,70,1950,100,1975,200,2000,350
 
+# Horses have no specific fuel cost, per se - fodder cost should be part of fixed maintenance. 
 fuel[bio]=1750,0,2050,0
 
 fuel[sail]=1750,0,2050,0
 
+# Interim guessed figures
+fuel[electric]=1750,10,1850,20,1900,50,1930,70,1950,100,1975,200,2000,350
+
+# Interim guessed figures
 fuel[fuel cell]=1750,10,1850,20,1900,50,1930,70,1950,100,1975,200,2000,350
 
+# Interim guessed figures
 fuel[hydrogene]=1750,10,1850,20,1900,50,1930,70,1950,100,1975,200,2000,350
 
+# Interim guessed figures
 fuel[turbine]=1750,10,1850,20,1900,50,1930,70,1950,100,1975,200,2000,350
