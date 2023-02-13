@@ -2,10 +2,12 @@
 # Per month salary for each enumerated type
 # Note that these apply to drivers as well as other types of staff.
 
-# Guessed figures for testing for the time being.
-
-# Type 0 (testing only)
+# Train/engine driver
+# These are very rough figures for the present.
+# TODO: Get more accurate figures.
 staff[0]=1750,10,1850,20,1900,50,1930,70,1950,100,1975,200,2000,350
 
-# Type 1 (testing only)
+# Fireman
+# These are very rough figures for the present.
+# TODO: Get more accurate figures
 staff[1]=1750,5,1850,10,1900,25,1930,35,1950,75,1975,150,2000,250

@@ -28,25 +28,28 @@ brake_force=0
 weight=40
 # Ahrons p. 186
 axle_load=15
-cost=19641600
-runningcost=246
-fixed_cost=40368
+# £2,033 in April 1870
+cost=3984320
+# Estimated at 1d/mile for repairs
+runningcost=50
+# 1/10th of the running cost, * 166km * 4
+fixed_cost=3320
 sound=lwalker-br-4mt-tank.wav
 increase_maintenance_after_years=27
 years_before_maintenance_max_reached=31
 
 override_way_speed=0
 multiple_working_type=0
-self_contained_catering=1
+self_contained_catering=0
 calibration_speed=75
 cut_off_speed=40
-fuel_per_km=7650 # Grammes of coal per km at calibration speed
+fuel_per_km=7650 # Grammes of coal per km at calibration speed at full power
 
 driver[0]=1
-staff[0]=1
+staff[1]=1
 
-initial_overhaul_cost=3571200
-max_overhaul_cost=18000000
+initial_overhaul_cost=996080
+max_overhaul_cost=747060
 overhauls_before_max_cost=9
 max_distance_between_overhauls=7968 # 166km/month * 60% availability * 4 years
 max_takeoffs=0
@@ -55,7 +58,7 @@ availability_decay_start_km=5000
 starting_availability=65
 minimum_availability=40
 replenishment_seconds=600 # 10 minutes for coaling
-max_running_cost=500
+max_running_cost=110
 auto_upgrade_index=255
 maintenance_interval_km=0 # Use default yearly interval
 overhaul_month_tenths=22
