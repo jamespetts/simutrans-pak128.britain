@@ -15,9 +15,9 @@ staff[1]=1750,5,1850,10,1900,25,1930,35,1950,75,1975,150,2000,250
 # Guards
 # These are very rough figures for the present.
 # TODO: Get more accurate figures
-staff[3]=1750,5,1850,10,1900,25,1930,35,1950,75,1975,150,2000,250
+staff[2]=1750,5,1850,10,1900,25,1930,35,1950,75,1975,150,2000,250
 
 # Carriage attendants (buffet, TPO, etc.)
 # These are very rough figures for the present.
 # TODO: Get more accurate figures
-staff[4]=1750,5,1850,10,1900,25,1930,35,1950,75,1975,150,2000,250
+staff[3]=1750,5,1850,10,1900,25,1930,35,1950,75,1975,150,2000,250

@@ -965,7 +965,7 @@ calibration_speed=75
 cut_off_speed=40
 fuel_per_km=0
 
-staff[4]=3
+staff[3]=3
 
 initial_overhaul_cost=163750
 max_overhaul_cost=573125
