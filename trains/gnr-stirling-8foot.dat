@@ -30,10 +30,11 @@ weight=40
 axle_load=15
 # £2,033 in April 1870
 cost=3984320
-# Estimated at 1d/mile for repairs
-runningcost=50
+# Estimated at 1d/mile for repairs,
+# minus the fixed cost (so, 90%)
+runningcost=72
 # 1/10th of the running cost, * 166km * 4
-fixed_cost=3320
+fixed_cost=5312
 sound=lwalker-br-4mt-tank.wav
 increase_maintenance_after_years=27
 years_before_maintenance_max_reached=31

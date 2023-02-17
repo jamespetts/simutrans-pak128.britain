@@ -36,9 +36,34 @@ rolling_resistance=18
 
 weight=9
 axles=2
-cost=330000
-runningcost=0
-fixed_cost=393
+cost=478412
+runningcost=20
+fixed_cost=1400
+
+override_way_speed=0
+multiple_working_type=0
+self_contained_catering=0
+calibration_speed=75
+cut_off_speed=40
+fuel_per_km=0
+
+driver[0]=0
+staff[0]=0
+
+initial_overhaul_cost=119603
+max_overhaul_cost=418610
+overhauls_before_max_cost=9
+max_distance_between_overhauls=9000 # Guessed
+max_takeoffs=0
+availability_decay_start_takeoffs=0
+availability_decay_start_km=7000
+starting_availability=95
+minimum_availability=70
+replenishment_seconds=0
+max_running_cost=110
+auto_upgrade_index=255
+maintenance_interval_km=0 # Use default yearly interval
+overhaul_month_tenths=22
 
 upgrade[0]=4-wheel-1870s-fitted
 
@@ -200,9 +225,34 @@ rolling_resistance=18
 
 weight=9
 axles=2
-cost=300000
-runningcost=0
-fixed_cost=357
+cost=413817
+runningcost=18
+fixed_cost=1328
+
+override_way_speed=0
+multiple_working_type=0
+self_contained_catering=0
+calibration_speed=75
+cut_off_speed=40
+fuel_per_km=0
+
+driver[0]=0
+staff[0]=0
+
+initial_overhaul_cost=103454
+max_overhaul_cost=362090
+overhauls_before_max_cost=9
+max_distance_between_overhauls=9000 # Guessed
+max_takeoffs=0
+availability_decay_start_takeoffs=0
+availability_decay_start_km=7000
+starting_availability=95
+minimum_availability=70
+replenishment_seconds=0
+max_running_cost=110
+auto_upgrade_index=255
+maintenance_interval_km=0 # Use default yearly interval
+overhaul_month_tenths=22
 
 upgrade[0]=4-wheel-1870s-luggage-third-fitted
 
@@ -364,9 +414,34 @@ rolling_resistance=18
 
 weight=8.3
 axles=2
-cost=260000
-runningcost=0
-fixed_cost=310
+cost=478412
+runningcost=18
+fixed_cost=1328
+
+override_way_speed=0
+multiple_working_type=0
+self_contained_catering=0
+calibration_speed=75
+cut_off_speed=40
+fuel_per_km=0
+
+driver[0]=0
+staff[0]=0
+
+initial_overhaul_cost=119603
+max_overhaul_cost=418611
+overhauls_before_max_cost=9
+max_distance_between_overhauls=9000 # Guessed
+max_takeoffs=0
+availability_decay_start_takeoffs=0
+availability_decay_start_km=7000
+starting_availability=95
+minimum_availability=70
+replenishment_seconds=0
+max_running_cost=110
+auto_upgrade_index=255
+maintenance_interval_km=0 # Use default yearly interval
+overhaul_month_tenths=22
 
 upgrade[0]=4-wheel-1870s-tricomposite-fitted
 
@@ -523,9 +598,33 @@ brake_force=4
 rolling_resistance=18
 
 weight=7.8
-cost=300000
-runningcost=0
-fixed_cost=5157
+cost=209694
+runningcost=18
+fixed_cost=1328
+
+override_way_speed=0
+multiple_working_type=0
+self_contained_catering=0
+calibration_speed=75
+cut_off_speed=40
+fuel_per_km=0
+
+staff[2]=1
+
+initial_overhaul_cost=52424
+max_overhaul_cost=183482
+overhauls_before_max_cost=9
+max_distance_between_overhauls=9000 # Guessed
+max_takeoffs=0
+availability_decay_start_takeoffs=0
+availability_decay_start_km=7000
+starting_availability=95
+minimum_availability=70
+replenishment_seconds=0
+max_running_cost=110
+auto_upgrade_index=255
+maintenance_interval_km=0 # Use default yearly interval
+overhaul_month_tenths=22
 
 upgrade[0]=4-wheel-1870s-brake-fitted
 
@@ -675,9 +774,34 @@ brake_force=0
 rolling_resistance=18
 
 weight=9
-cost=300000
-runningcost=0
-fixed_cost=125
+cost=185000
+runningcost=18
+fixed_cost=1328
+
+override_way_speed=0
+multiple_working_type=0
+self_contained_catering=0
+calibration_speed=75
+cut_off_speed=40
+fuel_per_km=0
+
+driver[0]=0
+staff[0]=0
+
+initial_overhaul_cost=46250
+max_overhaul_cost=161875
+overhauls_before_max_cost=9
+max_distance_between_overhauls=9000 # Guessed
+max_takeoffs=0
+availability_decay_start_takeoffs=0
+availability_decay_start_km=7000
+starting_availability=95
+minimum_availability=70
+replenishment_seconds=0
+max_running_cost=110
+auto_upgrade_index=255
+maintenance_interval_km=0 # Use default yearly interval
+overhaul_month_tenths=22
 
 upgrade[0]=4-wheel-1870s-mail-fitted
 
@@ -830,9 +954,33 @@ brake_force=0
 rolling_resistance=18
 
 weight=9
-cost=300000
-runningcost=0
-fixed_cost=24125
+cost=655000
+runningcost=18
+fixed_cost=1328
+
+override_way_speed=0
+multiple_working_type=0
+self_contained_catering=0
+calibration_speed=75
+cut_off_speed=40
+fuel_per_km=0
+
+staff[4]=3
+
+initial_overhaul_cost=163750
+max_overhaul_cost=573125
+overhauls_before_max_cost=9
+max_distance_between_overhauls=9000 # Guessed
+max_takeoffs=0
+availability_decay_start_takeoffs=0
+availability_decay_start_km=7000
+starting_availability=95
+minimum_availability=70
+replenishment_seconds=0
+max_running_cost=110
+auto_upgrade_index=255
+maintenance_interval_km=0 # Use default yearly interval
+overhaul_month_tenths=22
 
 upgrade[0]=4-wheel-1870s-tpo-fitted
 
@@ -986,9 +1134,34 @@ brake_force=0
 rolling_resistance=18
 
 weight=8
-cost=270000
-runningcost=0
-fixed_cost=321
+cost=185000
+runningcost=18
+fixed_cost=1328
+
+override_way_speed=0
+multiple_working_type=0
+self_contained_catering=0
+calibration_speed=75
+cut_off_speed=40
+fuel_per_km=0
+
+driver[0]=0
+staff[0]=0
+
+initial_overhaul_cost=46250
+max_overhaul_cost=161875
+overhauls_before_max_cost=9
+max_distance_between_overhauls=9000 # Guessed
+max_takeoffs=0
+availability_decay_start_takeoffs=0
+availability_decay_start_km=7000
+starting_availability=95
+minimum_availability=70
+replenishment_seconds=0
+max_running_cost=110
+auto_upgrade_index=255
+maintenance_interval_km=0 # Use default yearly interval
+overhaul_month_tenths=22
 
 upgrade[0]=4-wheel-1870s-fast-freight-fitted
 
@@ -1140,9 +1313,34 @@ brake_force=0
 rolling_resistance=18
 
 weight=8
-cost=270000
-runningcost=0
-fixed_cost=321
+cost=185000
+runningcost=18
+fixed_cost=1328
+
+override_way_speed=0
+multiple_working_type=0
+self_contained_catering=0
+calibration_speed=75
+cut_off_speed=40
+fuel_per_km=0
+
+driver[0]=0
+staff[0]=0
+
+initial_overhaul_cost=46250
+max_overhaul_cost=161875
+overhauls_before_max_cost=9
+max_distance_between_overhauls=9000 # Guessed
+max_takeoffs=0
+availability_decay_start_takeoffs=0
+availability_decay_start_km=7000
+starting_availability=95
+minimum_availability=70
+replenishment_seconds=0
+max_running_cost=110
+auto_upgrade_index=255
+maintenance_interval_km=0 # Use default yearly interval
+overhaul_month_tenths=22
 
 upgrade[0]=4-wheel-1870s-milk-fitted
 
