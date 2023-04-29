@@ -9,7 +9,13 @@ copyright=jamespetts
 # Divide by 2 for meters/tile adjustment
 # x4 to compensate for the size
 population_and_visitor_demand_capacity=400
-employment_capacity=120
+# Too many market jobs (such as 120) crushes the 1750 game.
+# With only 20% of trips being job trips, it's impossible
+# to generate enough jobs in small villages to fill the market with workers locally.
+# (it eats the entire population of a 1000-person town).
+# Cut in quarter.  I've been to actual farmer's markets; this is more realistic anyway.
+# employment_capacity=120
+employment_capacity=30
 mail_demand=0
 class_proportion[0]=35
 class_proportion[1]=55
@@ -79,7 +85,8 @@ retire_year=1910
 retire_month=12
 copyright=jamespetts
 population_and_visitor_demand_capacity=800
-employment_capacity=240
+#employment_capacity=240
+employment_capacity=60
 mail_demand=0
 class_proportion[0]=35
 class_proportion[1]=55
@@ -146,7 +153,8 @@ retire_year=1945
 retire_month=3
 copyright=jamespetts
 population_and_visitor_demand_capacity=1200
-employment_capacity=250
+#employment_capacity=250
+employment_capacity=63
 mail_demand=0
 class_proportion[0]=25
 class_proportion[1]=45
@@ -212,7 +220,8 @@ retire_year=1974
 retire_month=2
 copyright=jamespetts
 population_and_visitor_demand_capacity=1600
-employment_capacity=240
+#employment_capacity=240
+employment_capacity=60
 mail_demand=0
 class_proportion[0]=20
 class_proportion[1]=40
