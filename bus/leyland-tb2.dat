@@ -105,3 +105,4 @@ EmptyImage[W][6]=./images/leyland-tb2-lut_W.0.0,4,5
 EmptyImage[NW][6]=./images/leyland-tb2-lut_NW.0.0,12,10
 EmptyImage[N][6]=./images/leyland-tb2-lut_N.0.0,0,33
 EmptyImage[NE][6]=./images/leyland-tb2-lut_NE.0.0,0,24
+--
