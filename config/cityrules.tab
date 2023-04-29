@@ -20,6 +20,10 @@
 # 80 tiles = 10km at 125m/tile
 minimum_city_distance = 80
 
+# buffer zone on map border where cities should not be built, in tiles
+# a convenience for players to avoid ugly crowding on the map edge
+edge_avoidance = 16
+
 # chance for renovation versus new building (bigger number => less sprawling)
 # Note: the rougher the desired landscape, the lower that this number should be.
 #
