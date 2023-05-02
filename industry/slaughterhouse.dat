@@ -108,8 +108,8 @@ smoketile=0,0
 smokeoffset=-5,6
 smokeheight=64
 InputGood[0]=livestock
-# 35 livestock drover capacity x 4 for size
-InputCapacity[0]=140
+# 35 livestock drover capacity x 4 for size x 2 for unknown reasons
+InputCapacity[0]=280
 #InputSupplier[0]=1  
 OutputGood[0]=meat
 OutputCapacity[0]=21 
@@ -219,7 +219,8 @@ smoketile=0,0
 smokeoffset=-5,6
 smokeheight=64
 InputGood[0]=livestock
-InputCapacity[0]=168 
+# 35 livestock drover capacity x 4 for size x 2 for unknown reasons
+InputCapacity[0]=280
 #InputSupplier[0]=1  
 OutputGood[0]=meat
 OutputCapacity[0]=42 
