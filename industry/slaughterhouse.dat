@@ -36,8 +36,8 @@ electricity_amount=0
 electricity_boost=0
 MapColor=35 
 InputGood[0]=livestock
-# 35 livestock drover capacity x 4 for size
-InputCapacity[0]=140
+# 35 livestock drover capacity x 4 for size x2 for unknown reasons
+InputCapacity[0]=280
 #InputSupplier[0]=1  
 OutputGood[0]=meat
 OutputCapacity[0]=10 
