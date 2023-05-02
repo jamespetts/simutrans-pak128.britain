@@ -36,7 +36,8 @@ electricity_amount=0
 electricity_boost=0
 MapColor=35 
 InputGood[0]=livestock
-InputCapacity[0]=28 
+# 35 livestock drover capacity x 4 for size
+InputCapacity[0]=140
 #InputSupplier[0]=1  
 OutputGood[0]=meat
 OutputCapacity[0]=10 
@@ -107,7 +108,8 @@ smoketile=0,0
 smokeoffset=-5,6
 smokeheight=64
 InputGood[0]=livestock
-InputCapacity[0]=84 
+# 35 livestock drover capacity x 4 for size
+InputCapacity[0]=140
 #InputSupplier[0]=1  
 OutputGood[0]=meat
 OutputCapacity[0]=21 
