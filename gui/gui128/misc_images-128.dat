@@ -6,9 +6,9 @@ Name=Construction
 copyright=James
 #0 .. city building
 Image[0]=construction-site.0.0
-#1 tourirst attraction (city)
+#1 tourist attraction (city)
 Image[1]=construction-site.0.0
-#2 tourirst attraction (country side)
+#2 tourist attraction (countryside)
 Image[2]=construction-site.0.0
 #3 monument
 Image[3]=construction-site.0.0
@@ -18,8 +18,9 @@ Image[4]=construction-site.0.0
 Image[5]=construction-site.0.0
 #6 other
 Image[6]=construction-site.0.0
-
+--
 
 #===============================================================================
 # EOF
 #===============================================================================
+--

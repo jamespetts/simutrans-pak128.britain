@@ -25,3 +25,4 @@ pier_sub_1_mask=0x15
 pier_sub_2_mask=0x1F
 BackImage[0][0][0][0][0][0]=images/mon/fountain.0.0
 BackImage[0][0][0][0][0][1]=images/mon/fountain.1.0
+--

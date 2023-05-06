@@ -696,8 +696,17 @@ max_years_obsolete = 32
 # value can range from 1 to 16, inclusive; 1 means no averaging; default is 4
 factory_arrival_periods = 4
 
-# whether factory's passenger and mail demands are enforced or not; the default is on (1).
+# If this is disabled, all industries will continue to operate fully despite having no staff.
+# If this is enabled, industries will cease to operate if they are short of staff (subject to
+# the setting in rural_industries_no_staff_shortage).
+# Default: 1 (enabled)
 factory_enforce_demand = 1
+
+# If the below setting is enabled, industries situated outside a town will continue
+# to function as normal even if they are short of staff. It is recommended to enable
+# this, as there is currently no way of ensuring that towns are built close enough
+# to industries in the early years to allow those rural industries to produce.
+rural_industries_no_staff_shortage = 1
 
 # How much amount in transport is sent before further distribution stops
 # This is only enabled when "just_in_time" is enabled (i.e, set to a value > 0)

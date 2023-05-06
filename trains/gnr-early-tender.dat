@@ -1,7 +1,7 @@
 obj=vehicle
 name=gnr-early-tender
 engine_type=steam
-speed=100
+speed=110
 copyright=James/jamespetts
 intro_year=1847
 intro_month=8
@@ -46,3 +46,4 @@ EmptyImage[W][1]=./locomotives/gnr-early-tender_W.0.0
 EmptyImage[NW][1]=./locomotives/gnr-early-tender_NW.0.0
 EmptyImage[N][1]=./locomotives/gnr-early-tender_N.0.0
 EmptyImage[NE][1]=./locomotives/gnr-early-tender_NE.0.0
+--

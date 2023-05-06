@@ -88,3 +88,4 @@ FreightImage[N]=../images/holds.1.1,56,48
 FreightImage[NE]=../images/holds.1.1,64,48
 runningcost=0
 fixed_cost=0
+--
