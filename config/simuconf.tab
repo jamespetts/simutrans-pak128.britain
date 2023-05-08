@@ -162,10 +162,10 @@ commuting_trip_chance_percent = 20
 #min_alternative_destinations_visiting = 1
 
 max_alternative_destinations_per_visitor_demand_millionths = 2750
-max_alternative_destinations_per_job_millionths = 5000
+max_alternative_destinations_per_job_millionths = 12000
 
 min_alternative_destinations_per_visitor_demand_millionths = 750
-min_alternative_destinations_per_job_millionths = 2500
+min_alternative_destinations_per_job_millionths = 6000
 
 # Passengers have a maximum tolerance level for how long that they will spend travelling. 
 # Passengers are generated in two groups: commuting and visiting passengers. Commuting 

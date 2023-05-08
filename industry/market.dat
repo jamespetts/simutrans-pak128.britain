@@ -9,7 +9,8 @@ copyright=jamespetts
 # Divide by 2 for meters/tile adjustment
 # x4 to compensate for the size
 population_and_visitor_demand_capacity=400
-employment_capacity=120
+# Take into account that a market only normally runs a few days a week.
+employment_capacity=35
 mail_demand=0
 class_proportion[0]=35
 class_proportion[1]=55
@@ -79,7 +80,7 @@ retire_year=1910
 retire_month=12
 copyright=jamespetts
 population_and_visitor_demand_capacity=800
-employment_capacity=240
+employment_capacity=60
 mail_demand=0
 class_proportion[0]=35
 class_proportion[1]=55
@@ -146,7 +147,7 @@ retire_year=1945
 retire_month=3
 copyright=jamespetts
 population_and_visitor_demand_capacity=1200
-employment_capacity=250
+employment_capacity=75
 mail_demand=0
 class_proportion[0]=25
 class_proportion[1]=45
@@ -212,7 +213,7 @@ retire_year=1974
 retire_month=2
 copyright=jamespetts
 population_and_visitor_demand_capacity=1600
-employment_capacity=240
+employment_capacity=60
 mail_demand=0
 class_proportion[0]=20
 class_proportion[1]=40

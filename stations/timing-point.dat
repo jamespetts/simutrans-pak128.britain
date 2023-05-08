@@ -1,0 +1,28 @@
+Obj=building
+Name=TimingPoint
+# must be 1*1
+type=stop
+waytype=track
+noconstruction=1
+#NoInfo=1
+Dims=1,1,2
+enables_ware=0
+population_and_visitor_demand_capacity=0
+employment_capacity=0
+mail_demand=0
+intro_year=1750
+level=1
+allow_underground=0
+intro_month=1
+maintenance=0
+cost=0
+capacity=0
+pier_sub_1_mask=0x1F
+pier_sub_2_mask=0xFFFFFFFF
+BackImage[0][0][0][0][0][0]=timing-point.0.0
+BackImage[1][0][0][0][0][0]=timing-point.0.1
+BackImage[0][0][0][0][0][1]=timing-point.0.4
+BackImage[1][0][0][0][0][1]=timing-point.0.5
+icon=> timing-point.0.3
+cursor=timing-point.0.2
+
