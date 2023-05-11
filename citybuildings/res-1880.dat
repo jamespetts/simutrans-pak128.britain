@@ -63,7 +63,7 @@ type=RES
 chance=50
 population_and_visitor_demand_capacity=135
 Level=15
-# Slightly better quality tenaments
+# Slightly better quality tenements
 class_proportion[0]=30
 class_proportion[1]=60
 class_proportion[2]=10
@@ -103,7 +103,7 @@ type=RES
 chance=50
 population_and_visitor_demand_capacity=135
 Level=15
-# Slightly better quality tenaments
+# Slightly better quality tenements
 class_proportion[0]=30
 class_proportion[1]=60
 class_proportion[2]=10

@@ -32,7 +32,7 @@ type=RES
 chance=80
 population_and_visitor_demand_capacity=100
 Level=12
-# Squalid tenaments
+# Squalid tenements
 class_proportion[0]=60
 class_proportion[1]=40
 class_proportion[2]=0
@@ -60,7 +60,7 @@ type=RES
 chance=95
 population_and_visitor_demand_capacity=100
 Level=15
-# Large squalid tenaments
+# Large squalid tenements
 class_proportion[0]=55
 class_proportion[1]=45
 class_proportion[2]=0
