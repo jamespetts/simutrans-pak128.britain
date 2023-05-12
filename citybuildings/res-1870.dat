@@ -26,7 +26,7 @@ BackImage[0][0][0][0][0][1]=images/res/1870-townhouse-3f.1.2
 BackImage[3][0][0][0][0][1]=images/res/1870-townhouse-3f.1.3
 --
 Obj=building
-Name=RES_A_1870_00_12
+Name=RES_A_1870_00_12_CAL
 copyright=Archon
 type=RES
 chance=320
@@ -56,7 +56,7 @@ BackImage[2][0][0][0][0][1]=images/res/1870-tenement-3f.1.2
 BackImage[3][0][0][0][0][1]=images/res/1870-tenement-3f.1.3
 --
 Obj=building
-Name=RES_A_1870_00_12
+Name=RES_A_1870_00_12_ERIN
 copyright=Archon
 type=RES
 chance=80
@@ -115,7 +115,7 @@ BackImage[2][0][0][0][0][1]=images/res/1870-tenement-3f.1.2
 BackImage[3][0][0][0][0][1]=images/res/1870-tenement-3f.1.3
 --
 Obj=building
-Name=RES_A_1870_01_15
+Name=RES_A_1870_01_15_CAL
 copyright=Archon
 type=RES
 chance=380
@@ -168,7 +168,7 @@ BackImage[7][0][0][0][0][1]=images/res/1875-tenement-4f.7.3
 BackImage[7][0][0][1][0][1]=images/res/1875-tenement-4f.6.3
 --
 Obj=building
-Name=RES_A_1870_01_15
+Name=RES_A_1870_01_15_ERIN
 copyright=Archon
 type=RES
 chance=95

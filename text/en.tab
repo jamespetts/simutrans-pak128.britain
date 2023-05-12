@@ -1025,6 +1025,10 @@ RES_A_1750_01_08
 Terraced houses
 RES_A_1880_00_15
 Tenements
+RES_A_1880_01_15_CAL
+Tenements (Caledonia)
+RES_A_1880_01_15_ERIN
+Tenements (Erin)
 RES_A_1880_01_15
 Tenements
 RES_A_1750_01_08
@@ -1035,8 +1039,16 @@ COM_A_1750_03_07
 Coaching inn
 RES_A_1900_00_08
 Terraced town houses
+RES_A_1870_00_12_CAL
+Tenements (Caledonia)
+RES_A_1870_00_12_ERIN
+Tenements (Erin)
 RES_A_1870_00_12
 Tenements
+RES_A_1870_01_15_CAL
+Tenements (Caledonia)
+RES_A_1870_01_15_ERIN
+Tenements (Erin)
 RES_A_1870_01_15
 Tenements
 IND_A_1950_00_10
