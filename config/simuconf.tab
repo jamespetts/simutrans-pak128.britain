@@ -717,6 +717,20 @@ rural_industries_no_staff_shortage = 1
 # lead time for new deliveries. Values of slightly over 100% are recommended.
 maximum_intransit_percentage = 110
 
+# The maximum_intransit_percentage will catastrophically break freight if the industry
+# capacities are too low.  While this should be fixed in the .dat files, this is difficult
+# due to all the scaling factors.  These act as a "sanity check" backstop.  They should be
+# set to at least the size of a single truckload for a truck which is expected to be economically viable
+# for all goods.  This makes it possible to:
+# (a) set the truck to wait for full at the origin (minimum_factory_output_storage_raw)
+# (b) deliver a full truckload to the destination (minimum_factory_input_storage_raw)
+#
+# For pak128.britain, the 1750 slow horse-drawn wagon has a capacity of 7 perishable goods, 6 everything else.
+# This should be economically usable, so this is the minimum set.  Late game trucks still have similar capacities
+# around 5 to 7 so this shuld still be effective.
+minimum_factory_output_storage_raw = 7
+minimum_factory_input_storage_raw = 7
+
 # The following settings determine the thresholds for deciding whether an industry is short
 # of staff. 
 # 
