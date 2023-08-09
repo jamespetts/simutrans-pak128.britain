@@ -144,6 +144,8 @@ intro_year=1950
 menupos=-10
 cursor=way-power_lines-128.0.1
 icon=> way-power_lines-128.0.5
+allow_subsea=1
+
 
 # Portal images
 FrontImage[N]=way-power_lines-128.6.4
