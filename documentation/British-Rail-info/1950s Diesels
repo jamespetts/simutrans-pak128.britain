@@ -7,16 +7,17 @@ LOCOS
 21	18t	£12k	£ 8/km	£50pcm	120kph	 820kW	58.6	60.11	ac 4.9	2.6km	ER London commuter, SR mixed traffic, rebuilt as Class 29
 24	18t	£11k	£ 9/km	£48pcm	121kph	 865kW	58.1	61.11	ac 4.5	2.5km	LM London-NWEng-Condor-Wales, ER EAnglia-NEEng, ScR Highlands
 26	19t	£12k	£ 9/km	£50pcm	130kph	 865kW	58.6	61.8	ac 4.4	3.3km	ER Commuter, ScR all
-28 BoCo 20t	£ 6k	£ 9/km	£37pcm	120kph	 895kW	58.8	61.2	ac 4.0	3.2km	
-!28/2		£ 6k	£ 6/km		120kph	1230kW	68.4	75.7
-30	17t	£11k	£ 9/km	£48pcm	130kph	 930kW	57.9	63.11	ac 1.9	4.5km
+28 BoCo 20t	£ 6k	£ 9/km	£37pcm	120kph	 895kW	58.8	61.2	ac 4.0	3.2km	LM Condor-sleeper → LM NWEng (Carlisle/Barrow-based) F
+!28/2§		£ 6k	£ 6/km		120kph	1230kW	68.4	75.7			CIÉ all services → CIÉ Rosslare-heavy F-sugar beet-Tara mine
+30	17t	£11k	£ 9/km	£48pcm	130kph	 930kW	57.9	63.11	ac 1.9	4.5km	ER
 31 #30	6??	??	??	??	145kph	1097kW	64.3	75.9	?	?	UPGRADE FROM 30 ONLY
-40	17t	£13k	£15/km	£53pcm	145kph	1490kW	58.7	62.2	ac 3.0	4.8km
+40	17t	£13k	£15/km	£53pcm	145kph	1490kW	58.7	62.2	ac 3.0	4.8km	ER LMR NER ScR
 41 War	19t	£ 2k	£15/km	£29pcm	145kph	1492kW	58.1	59.12	ac 3.3	3.1km	WR
 42 War	19t	£ 2k	£17/km	£29pcm	145kph	1692kW	58.4	62.11	ac 4.8	2.3km	WR
 
 !Upgrade only
 * Passengers in summer only
+§ According to br-cl28.dat, this class represents the result of Class 28 receiving the same engine upgrade as their sisters in the CIÉ 001 class, making these the only Irish locomotives in the pakset.
 # Upgrade from specified class only
 
 DMUs
