@@ -1,0 +1,20 @@
+LOCOS
+Class 60	21t	£10k	£7/km	£36pcm	 97kph	2300kW	89.7	98.9	?	?	F all esp. aggregates → EWS ~
+Class 66	21t	£7k	£7/km	£32pcm	120kph	1492kW	98.9	14.8	ac 5.8	1.4km	F
+
+DMUs
+142/1 Pacer	MM	£3K	£1/km	£34pcm	120kph	344kW	90.2	91.3	ac 2.5	5.2km	106@64	-	-	GMPTE +RR West 'Skippers' +MR → FNW  +NS/ATN +Valley → FGW +NR urban +TfW
+144/1 Pacer	MM	£3K	£1/km	£34pcm	120kph	344kW	90.2	91.3	ac 2.5	5.2km	122@55	-	-	} WYPTE rural-suburban → NS WYPTE → ATN WYPTE → NR WYPTE
+144/1 Pacer	MMM	£5K	£1/km	£50pcm	120kph	516kW	90.2	91.3	ac 2.5	4.7km	106@55	-	-	/
+153 SSprinter	M	£2k	£1/km	£17pcm	120kph	212kW	91.3	99.2	ac 2.0	11 km	72@92	-	-	\  155s → RR CEng-EAng-NEng-Wales → Ang EAng stops +CT WM commuter +FNW stoppers
+153 SSprinter	M	£2k	£1/km	£47pcm	120kph	212kW	91.3	99.2	ac 2.0	1 km	72@92+5		C1	 } +NS/ATN WRiding-Lincs +W&W → ATW NWal +EMT rural-interurban +FGW stoppers +LM
+															/  +ONE/GA +NR → EMR+ NR +ScR WHighland +TfW rural-Bay shuttle
+158 XSprinter	MM	£5k	£2/km	£35pcm	145kph	520kW	90.4	98.1	ac 2.3	11 km	138@118	-	-	\  ScR Central Belt-mainlines +RR TP-Alphaline +IC NWEng-Sc → ScR all +W&W Alpha
+158 XSprinter	MMM	£8k	£2/km	£38pcm	145kph	780kW	90.4	98.1	ac 2.3	9.5km	210@118+5-	C1	 } +CT rural +NS/ATN TP-WYPTE +VXC rural +FGW rural → W&B/ATW Cambrian +NR  																	/  +EMT/EMR rural +FGW rural → NR Yorks +SWR SWML +TfW Cambrian
+165 NetwkrTurbo	MM	£4k	£2/km	£35pcm	120kph	520kW	91.8		ac 2.5	4.9km	154@84	24@110	-	 } NSE Chiltern-Thames → CR +TT → CR commuter +FGWL Thames-SWEng interurban-
+165 NetwkrTurbo	MMM	£7k	£2/km	£37pcm	120kph	780kW	91.8		ac 2.5	4.6km	260@84	24@110	-	/ SWEng rural-SWal interurban → GWR
+166 NetwkXpress	MM	£5k	£2/km	£35pcm	145kph	520kW	92.11	20.11	ac 2.2	11km	147@88	32@116	-	\
+166 NetwkXpress	MMM	£7k	£2/km	£37pcm	145kph	780kW	92.11	20.11	ac 2.2	9.5km	249@88	32@116	-	 } NSE Thames-NDown → TT → FGWL → FGW Thames-Bristol commuter
+166 NetwkXpress	MBM	£7k	£2/km	£82pcm	145kph	780kW	92.11	20.11	ac 2.2	9.5km	243@88+532@116+5C1	/
+170 Turbostar	MM	£5k	£2/km	£35pcm	160kph	630kW	98.1	10.10	ac 2.1	16 km	197@122 9@135	-	 } Scottish IC; Northern; EMR; XC; TfW; TPE; HT
+170 Turbostar	MMM	£7k	£3/km	£38pcm	160kph	945kW	98.1	10.10	ac 2.2	13 km	183@122 9@135	-	/

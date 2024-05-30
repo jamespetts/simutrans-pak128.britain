@@ -1,4 +1,6 @@
 # See Ahrons p. 169
+# https://www.gnrsociety.com/locomotive-class/280-series/
+# These were later classified as E3
 obj=vehicle
 name=gnr-h-class
 engine_type=steam
@@ -9,7 +11,7 @@ power=170
 tractive_effort=48
 copyright=James/jamespetts
 intro_year=1867
-intro_month=5
+intro_month=10
 retire_year=1885
 retire_month=5
 waytype=track
@@ -19,8 +21,9 @@ length=4
 brake_force=0
 rolling_resistance=19
 
-# http://orion.math.iastate.edu/jdhsmith/term/slgbgnr.htm
-weight=37
+# https://www.gnrsociety.com/locomotive-class/280-series/
+weight=35.0
+# https://www.gnrsociety.com/locomotive-class/280-series/
 axle_load=13
 cost=17184000
 runningcost=206

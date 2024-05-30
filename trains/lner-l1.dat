@@ -1,0 +1,54 @@
+# https://www.lner.info/locos/L/l1thompson.php
+obj=vehicle
+name=lner-l1
+engine_type=steam
+smoke=Steam
+speed=105
+# Extrapolated
+power=359
+# https://www.lner.info/locos/L/l1thompson.php
+tractive_effort=142
+copyright=Kieron/JamesPetts
+intro_year=1945
+intro_month=5
+retire_year=1952
+retire_month=7
+waytype=track
+freight=None
+payload=0
+length=7
+
+# https://www.lner.info/locos/L/l1thompson.php
+weight=90.8
+# https://www.lner.info/locos/L/l1thompson.php
+axle_load=20
+cost=9534525
+runningcost=113
+fixed_cost=49752
+sound=lwalker-br-4mt-tank.wav
+
+can_lead_from_rear=0
+bidirectional=1
+
+liverytype[0]=LNER-Standard
+liverytype[1]=BR-Early
+
+EmptyImage[E][0]=./locomotives/lner-l1_E.0.0
+EmptyImage[SE][0]=./locomotives/lner-l1_SE.0.0
+EmptyImage[S][0]=./locomotives/lner-l1_S.0.0
+EmptyImage[SW][0]=./locomotives/lner-l1_SW.0.0
+EmptyImage[W][0]=./locomotives/lner-l1_W.0.0
+EmptyImage[NW][0]=./locomotives/lner-l1_NW.0.0
+EmptyImage[N][0]=./locomotives/lner-l1_N.0.0
+EmptyImage[NE][0]=./locomotives/lner-l1_NE.0.0
+
+EmptyImage[E][1]=./locomotives/lner-l1-br_E.0.0
+EmptyImage[SE][1]=./locomotives/lner-l1-br_SE.0.0
+EmptyImage[S][1]=./locomotives/lner-l1-br_S.0.0
+EmptyImage[SW][1]=./locomotives/lner-l1-br_SW.0.0
+EmptyImage[W][1]=./locomotives/lner-l1-br_W.0.0
+EmptyImage[NW][1]=./locomotives/lner-l1-br_NW.0.0
+EmptyImage[N][1]=./locomotives/lner-l1-br_N.0.0
+EmptyImage[NE][1]=./locomotives/lner-l1-br_NE.0.0
+
+--

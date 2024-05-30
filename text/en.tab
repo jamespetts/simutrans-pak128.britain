@@ -1025,6 +1025,10 @@ RES_A_1750_01_08
 Terraced houses
 RES_A_1880_00_15
 Tenements
+RES_A_1880_01_15_CAL
+Tenements
+RES_A_1880_01_15_ERIN
+Tenements
 RES_A_1880_01_15
 Tenements
 RES_A_1750_01_08
@@ -1035,7 +1039,15 @@ COM_A_1750_03_07
 Coaching inn
 RES_A_1900_00_08
 Terraced town houses
+RES_A_1870_00_12_CAL
+Tenements
+RES_A_1870_00_12_ERIN
+Tenements
 RES_A_1870_00_12
+Tenements
+RES_A_1870_01_15_CAL
+Tenements
+RES_A_1870_01_15_ERIN
 Tenements
 RES_A_1870_01_15
 Tenements
@@ -2720,6 +2732,8 @@ Metropolitan-g-class
 Metropolitan G Class 0-6-4T
 Metropolitan-h-class
 Metropolitan H Class 4-4-4T
+Metropolitan-k-class
+Metropolitan K Class 2-6-4T
 Metropolitan-Vickers
 Metropolitan Vickers
 MetCamelbackLoco
@@ -2818,6 +2832,20 @@ GNR-Stirling8Foot-Tender
 GNR Stirling tender
 gnr-sturrock-tender
 GNR Sturrock tender
+gnr-766-class
+GNR 766 Class 0-4-4T
+gnr-658-class
+GNR 658 Class 0-4-4T
+gnr-120-class
+GNR 120 Class 0-4-4T
+gnr-241-class
+GNR 241 Class 0-4-2T
+gnr-c12-class
+GNR C12 Class 4-4-2T
+gnr-n1
+GNR N1 Class 0-6-2T
+gnr-n2
+GNR N2 Class 0-6-2T
 BR-4MT-Tank
 BR Standard Class 4MT 2-6-4T
 BR-9F
@@ -2825,9 +2853,15 @@ BR Standard Class 9F 2-10-0
 BR-9F-Tender
 BR Standard Class 9F (tender)
 LNER-V2
-LNER Class V2 2-6-2
+LNER V2 Class 2-6-2
 LNER-V2-Tender
 LNER Class V2 (tender)
+lner-v1
+LNER V1 Class 2-6-2T
+lner-v3
+LNER V3 Class 2-6-2T
+lner-l1
+LNER L1 Class 2-6-4T
 SR-Bulleid-Leader
 SR Leader Class 0-6-6-0T
 SR-MerchantNavy_4-6-2
@@ -2944,6 +2978,10 @@ BR-Class73
 BR Class 73
 BR-Class81
 BR Class 81
+BR-Class83
+BR Class 83
+BR-Class85
+BR Class 85
 BR-Class86
 BR Class 86
 BR-Class87
@@ -2961,15 +2999,25 @@ BR Class 373 "Eurostar"
 BR-373RearCab
 BR Class 373 "Eurostar" (rear)
 BR-373Coach
-BR Class 373 "Eurostar" (carriage, standard class)
+BR Class 373 "Eurostar" (front carriage, standard class)
 BR-373CoachFirstClass
-BR Class 373 "Eurostar" (carriage, first class)
+BR Class 373 "Eurostar" (front carriage, first class)
 BR-373FrontPower
 BR Class 373 "Eurostar" (front power)
 BR-373RearPower
 BR Class 373 "Eurostar" (rear power)
 BR-373Catering
-BR Class 373 "Eurostar" (buffet)
+BR Class 373 "Eurostar" (front buffet)
+BR-373MiddleFront
+BR Class 373 "Eurostar" (front uncoupling)
+BR-373MiddleRear
+BR Class 373 "Eurostar" (rear uncoupling)
+BR-373CoachFirstClassRear
+BR Class 373 "Eurostar" (rear carriage, first class)
+BR-373CateringRear
+BR Class 373 "Eurostar" (rear buffet)
+BR-373CoachRear
+BR Class 373 "Eurostar" (rear carriage, standard class)
 BR-442-Front
 BR Class 442 "Wessex Electric" (driving trailer - front)
 BR-442-Middle1
@@ -3294,44 +3342,76 @@ BR-370RestaurantRear
 BR Class 370 APT (rear restaurant car)
 BR-370RestaurantFront
 BR Class 370 APT (front restaurant car)
+GNR-6Wheel-Mail
+GNR six wheel mail carriage
+GNR-6Wheel-tpo
+GNR six wheel TPO
 GNR-6Wheel-First
-GNR six wheel five compartment carriage
+GNR six wheel four compartment carriage (first class)
+GNR-6Wheel-Second
+GNR six wheel five compartment carriage (second class)
+GNR-6Wheel-Third
+GNR six wheel five compartment carriage (third class)
 GNR-6Wheel-cor-lav
-GNR six wheel five compartment lavatory corridor (non-gangwayed)
+GNR six wheel four compartment lavatory corridor (non-gangwayed) (first class) 
+GNR-6Wheel-cor-lav-second
+GNR six wheel five compartment lavatory corridor (non-gangwayed) (second class)
+GNR-6Wheel-cor-lav-third
+GNR six wheel five compartment lavatory corridor (non-gangwayed) (third class)
 GNR-6Wheel-Guard
 GNR six wheel brake/mail carriage
 GNR-6Wheel-brake-third-front
-GNR six wheel four compartment brake carriage
+GNR six wheel four compartment brake carriage (third class)
 GNR-6Wheel-brake-third-rear
-GNR six wheel four compartment brake carriage
+GNR six wheel four compartment brake carriage (third class) (rear)
+gnr-suburban-4wheel-third
+GNR 4 wheel six compartment suburban carriage (third class)
+gnr-suburban-4wheel-second
+GNR 4 wheel six compartment suburban carriage (second class)
+gnr-suburban-4wheel-first
+GNR 4 wheel five compartment suburban carriage (first class)
+gnr-suburban-4wheel-brake-third-front
+GNR 4 wheel five compartment suburban brake carriage (third class)
+gnr-suburban-4wheel-brake-third-rear
+GNR 4 wheel five compartment suburban brake carriage (third class) (rear)
 gnr-howlden-bogie-third
-GNR five compartment bogie lavatory carriage
+GNR five compartment bogie lavatory carriage (third class)
 gnr-howlden-bogie-third-brake-front
-GNR four compartment bogie lavatory brake carriage
+GNR four compartment bogie lavatory brake composite carriage (first/second class)
 gnr-howlden-bogie-third-brake-rear
-GNR four compartment bogie lavatory brake carriage (rear)
+GNR four compartment bogie lavatory brake composite carriage (first/second class) (rear)
 gnr-howlden-bogie-non-lav
-GNR six compartment bogie carriage
+GNR six compartment bogie carriage (third class)
+gnr-howlden-bogie-non-lav-second
+GNR six compartment bogie carriage (second class)
+gnr-howlden-bogie-non-lav-first
+GNR six compartment bogie carriage (first class)
 gnr-howlden-bogie-non-lav-brake-front
-GNR five compartment bogie brake carriage
+GNR five compartment bogie brake carriage (third class)
 gnr-howlden-bogie-non-lav-brake-rear
-GNR five compartment bogie brake carriage (rear)
+GNR five compartment bogie brake carriage (third class) (rear)
 gnr-howlden-full-brake
 GNR bogie full brake carriage
 gnr-clerestory-cor-63ft-5
-GNR nine compartment 12 wheel clerestory corridor carriage
+GNR nine compartment 12 wheel clerestory corridor carriage (third class)
+gnr-clerestory-cor-63ft-5-composite
+GNR eight compartment 12 wheel clerestory corridor composite carriage (first/second class)
+gnr-clerestory-cor-63ft-5-first
+GNR seven compartment 12 wheel clerestory corridor carriage (first class)
 gnr-clerestory-cor-brake-front-63ft-5
-GNR five compartment 12 wheel clerestory corridor brake carriage
+GNR five compartment 12 wheel clerestory corridor brake carriage (third class)
 gnr-clerestory-cor-brake-rear-63ft-5
-GNR five compartment 12 wheel clerestory corridor brake carriage (rear)
+GNR five compartment 12 wheel clerestory corridor brake carriage (third class) (rear)
 gnr-clerestory-dining-car
 GNR 12 wheel clerestory dining car
 gnr-clerestory-cor-53ft-6
-GNR seven compartment clerestory corridor carriage
+GNR seven compartment clerestory corridor carriage (third class)
+gnr-clerestory-cor-composite-53ft-6
+GNR six compartment clerestory corridor composite carriage (first/second class)
 gnr-clerestory-cor-brake-front-53ft-6
-GNR four compartment clerestory corridor brake carriage
+GNR four compartment clerestory corridor brake carriage (third class)
 gnr-clerestory-cor-brake-rear-53ft-6
-GNR four compartment clerestory corridor brake carriage (rear)
+GNR four compartment clerestory corridor brake carriage (third class) (rear)
 gnr-clerestory-cor-full-brake-45ft
 GNR clerestory corridor brake carriage
 gnr-clerestory-cor-mail-45ft
@@ -3339,13 +3419,15 @@ GNR clerestory corridor mail carriage
 gnr-clerestory-cor-tpo-45ft
 GNR clerestory corridor travelling post office
 gnr-gresley-cor
-GNR eight compartment corridor carriage
+GNR eight compartment corridor carriage (third class)
+gnr-gresley-cor-first
+GNR seven compartment corridor carriage (first class)
 gnr-gresley-cor-brake-front
-GNR five compartment corridor brake carriage
+GNR five compartment corridor brake carriage (third class)
 gnr-gresley-cor-brake-rear
-GNR five compartment corridor brake carriage (rear)
+GNR five compartment corridor brake carriage (third class) (rear)
 gnr-gresley-cor-dining
-GNR corridor dining carriage
+GNR corridor dining carriage (first/third class)
 gnr-gresley-cor-parcels-brake
 GNR corridor parcels brake carriage
 gnr-gresley-cor-mail
@@ -3353,11 +3435,13 @@ GNR corridor mail carriage
 gnr-gresley-cor-tpo
 GNR corridor travelling post office
 gnr-non-cor-lav-elliptical
-GNR seven compartment lavatory carriage
+GNR seven compartment lavatory carriage (third class)
 gnr-non-cor-lav-elliptical-brake-front
-GNR six compartment lavatory brake carriage
+GNR six compartment lavatory brake carriage (third class)
 gnr-non-cor-lav-elliptical-brake-rear
-GNR six compartment lavatory brake carriage (rear)
+GNR six compartment lavatory brake carriage (third class) (rear)
+gnr-non-cor-lav-elliptical-composite
+GNR six compartment lavatory composite carriage (first/second class)
 gnr-non-cor-full-brake
 GNR non-corridor full brake carriage
 gnr-non-cor-mail
@@ -4382,6 +4466,12 @@ br-158-centre
 BR Class 158 "Express Sprinter" DMU (centre)
 br-158-rear
 BR Class 158 "Express Sprinter" DMU (rear)
+br-159-front
+BR Class 159 "South Western Turbo" DMU 
+br-159-centre
+BR Class 159 "South Western Turbo" DMU (centre)
+br-159-rear
+BR Class 159 "South Western Turbo" DMU (rear)
 BR-303Front
 BR Class 303 EMU
 BR-303Pantograph
@@ -5019,9 +5109,9 @@ SR Q1 Class 0-6-0
 SR-Q1-Tender
 SR Q1 Class (tender)
 LMS-4F
-Midland 3835 Class / LMS Class 4F 0-6-0
+Midland 3835 (4F) Class 0-6-0
 LMS-4F-Tender
-LMS Class 4F (tender)
+Midland 3835 (4F) Class (tender)
 LMS-Ivatt-4F
 LMS Class 4F (Ivatt design) 2-6-0
 LMS-Ivatt-4F-Tender
@@ -5532,6 +5622,8 @@ gwr-armstrong-tender
 GWR 1,800 gallon tender
 GWR-City
 GWR 3700 "City" Class 4-4-0
+gwr-city-superheated
+GWR 3700 "City" Class 4-4-0 (superheated)
 gwr-duke
 GWR 3252 "Duke" Class 4-4-0
 gwr-duke-superheated
@@ -6098,10 +6190,6 @@ MR-6Wheel-Mail
 Midland six wheel mail carriage
 LNWR-6Wheel-tpo
 LNWR six wheel TPO
-GNR-6Wheel-Mail
-GNR six wheel mail carriage
-GNR-6Wheel-tpo
-GNR six wheel TPO
 MR-6Wheel-tpo
 Midland six wheel TPO
 GWR-Express-Parcel-Brake
@@ -6109,21 +6197,25 @@ GWR Express parcel brake coach [DEPRECATED]
 GWR-Express-TPO
 GWR Travelling Post Office [DEPRECATED]
 LNER-Gresley-Express-Dining
-LNER dining car
+LNER dining car (first class)
 LNER-Gresley-Express-Brake-front
-LNER vestibule corridor brake carriage
+LNER vestibule corridor brake carriage (third class)
 LNER-Gresley-Express-Brake-rear
-LNER vestibule corridor brake carriage (rear)
+LNER vestibule corridor brake carriage (rear) (third class)
 LNER-Gresley-Express-Buffet
-LNER buffet car
+LNER buffet car (third class)
 LNER-Gresley-Express-Brake-all-doors-front
-LNER corridor brake carriage
+LNER corridor brake carriage (third class)
 LNER-Gresley-Express-Brake-all-doors-rear
-LNER corridor brake carriage (rear)
+LNER corridor brake carriage (third class) (rear)
 LNER-Gresley-Express-Coach-All-Doors
-LNER corridor carriage
+LNER corridor carriage (third class)
+LNER-Gresley-Express-Coach-All-Doors-first
+LNER corridor carriage (first class)
 LNER-Gresley-Express-Coach
-LNER vestibule corridor carriage
+LNER vestibule corridor carriage (third class)
+LNER-Gresley-Express-first
+LNER vestibule corridor carriage (first class)
 LNER-Gresley-Express-Mail
 LNER mail carriage
 LNER-Gresley-Express-Parcel-Brake
@@ -6157,7 +6249,7 @@ LNER quad articulated seven compartment composite carriage (first/third class)
 LNER-quad-art-e-com-second
 LNER quad articulated seven compartment composite carriage (first/second class)
 LNER-quad-art-f-third
-LNER quad articulated eight compartment carriage carriage (third class)
+LNER quad articulated eight compartment carriage (third class)
 LNER-quad-art-f-com
 LNER quad articulated seven compartment composite carriage (first/third class)
 LNER-quad-art-f-com-second
@@ -6195,9 +6287,9 @@ LNER 51ft eight compartment carriage (third class)
 LNER-standard-51ft-s
 LNER 51ft eight compartment carriage (second class)
 LNER-standard-51ft-bt4-for
-LNER 51ft four compartment brake carriage (third class) (rear)
-LNER-standard-51ft-bt4-rev
 LNER 51ft four compartment brake carriage (third class)
+LNER-standard-51ft-bt4-rev
+LNER 51ft four compartment brake carriage (third class) (rear)
 LNER-standard-51ft-cl
 LNER 51ft seven compartment composite lavatory carriage (first/third class)
 LNER-standard-51ft-f
@@ -6767,15 +6859,35 @@ LNWR six compartment brake carriage (third class) (rear)
 LNWR-57ft-non-cor
 LNWR nine compartment carriage (third class)
 BR-Derby-Lightweight-DTCL
-BR Derby Lightweight DMU (rear)
+BR Derby Lightweight DMU (driving trailer - rear)
+BR-Derby-Lightweight-DMCL
+BR Derby Lightweight DMU (driving motor - rear)
 BR-Derby-Lightweight-DMBS
-BR Derby Lightweight DMU
+BR Derby Lightweight DMU (2 car)
+BR-Derby-Lightweight-DMBS-single
+BR Derby Lightweight DMU (1 car)
+BR-Derby-Lightweight-DMS
+BR Derby Lightweight DMU (3/4 car)
+BR-Derby-Lightweight-TBSL
+BR Derby Lightweight DMU (centre trailer - brake)
+BR-Derby-Lightweight-TSL
+BR Derby Lightweight DMU (centre trailer)
 BR-117-DMS
 BR Class 117 DMU (rear)
 BR-117-TCL
 BR Class 117 DMU (centre trailer)
 BR-117-DMBS
 BR Class 117 DMU
+BR-114-DMBS
+BR Class 114 DMU
+BR-114-DTCL
+BR Class 114 DMU (driving trailer - rear)
+BR-110-DMBC
+BR Class 110 DMU
+BR-110-TSL
+BR Class 110 DMU (centre trailer)
+BR-110-DMCL
+BR Class 110 DMU (driving motor - rear)
 BR-101-DMBS
 BR Class 101 DMU
 BR-101-TSL
@@ -6800,6 +6912,14 @@ BR-123-TBS
 BR Class 123 inter-city DMU (buffet)
 BR-123-DMS
 BR Class 123 inter-city DMU
+BR-127-DMBS-front
+BR Class 127 DMU
+BR-127-TSL
+BR Class 127 DMU (centre trailer with lavatory)
+BR-127-TS
+BR Class 127 DMU (centre trailer without lavatory)
+BR-127-DMBS-rear
+BR Class 127 DMU (rear)
 BR-128
 BR Class 128 DMU
 BR-Class485Front
@@ -10544,6 +10664,8 @@ TSGN
 Thameslink GN
 ECTFirst
 East Coast Trains
+Eurostar
+Eurostar
 #______________________________________Classes______________________________________
 #______________________________________Classes______________________________________
 p_class[0]
@@ -10862,3 +10984,4 @@ TTEuropeanFreightAddLivestock
 TT European Class freight ferry livestock hold
 TTEuropeanFreightAddCar
 TT European Class freight ferry car hold
+

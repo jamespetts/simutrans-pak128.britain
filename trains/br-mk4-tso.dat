@@ -1,7 +1,7 @@
 obj=vehicle
 name=BR-Mk4-TSO
 speed=225
-copyright=Kieron
+copyright=Kieron/Rollmaterial
 intro_year=1989
 intro_month=11
 retire_year=2003
@@ -43,6 +43,7 @@ liverytype[1]=GNER
 liverytype[2]=National-Express
 liverytype[3]=East-Coast
 liverytype[4]=VTEC
+liverytype[5]=LNER-225
 
 EmptyImage[E][0]=./carriages/br-mk4-to-ic_E.0.0
 EmptyImage[SE][0]=./carriages/br-mk4-to-ic_SE.0.0
@@ -88,4 +89,13 @@ EmptyImage[W][4]=./carriages/br-mk4-to-vtec_W.0
 EmptyImage[NW][4]=./carriages/br-mk4-to-vtec_NW.0
 EmptyImage[N][4]=./carriages/br-mk4-to-vtec_N.0
 EmptyImage[NE][4]=./carriages/br-mk4-to-vtec_NE.0
+
+EmptyImage[E][5]=./carriages/br-mk4-to-lner_E.0.0
+EmptyImage[SE][5]=./carriages/br-mk4-to-lner_SE.0.0
+EmptyImage[S][5]=./carriages/br-mk4-to-lner_S.0.0
+EmptyImage[SW][5]=./carriages/br-mk4-to-lner_SW.0.0
+EmptyImage[W][5]=./carriages/br-mk4-to-lner_W.0.0
+EmptyImage[NW][5]=./carriages/br-mk4-to-lner_NW.0.0
+EmptyImage[N][5]=./carriages/br-mk4-to-lner_N.0.0
+EmptyImage[NE][5]=./carriages/br-mk4-to-lner_NE.0.0
 --

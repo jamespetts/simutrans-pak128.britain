@@ -38,13 +38,17 @@ comfort[1]=82
 comfort[2]=0
 comfort[3]=0
 
+# Blue suquare
 Constraint[Prev][0]=BR-121
 Constraint[Prev][1]=BR-117-DMS
 Constraint[Prev][2]=BR-104Rear
 Constraint[Prev][3]=BR-128
 Constraint[Prev][4]=BR-101-DMCL
 Constraint[Prev][5]=BR-101-DTCL
-Constraint[Prev][6]=none
+Constraint[Prev][6]=BR-114-DTCL
+Constraint[Prev][7]=BR-120-DMSL
+Constraint[Prev][8]=BR-110-DMCL
+Constraint[Prev][9]=none
 
 Constraint[Next][0]=BR-101-TSL
 Constraint[Next][1]=BR-101-DMCL
@@ -56,6 +60,7 @@ liverytype[2]=BR-Large-Logo
 liverytype[3]=NSE-Standard
 liverytype[4]=NSE-Revised
 liverytype[5]=Regional-Railways-Standard
+liverytype[6]=Strathclyde-orange-black
 
 EmptyImage[E][0]=./railcars/br-101-dmbs-g_E.0.0
 EmptyImage[SE][0]=./railcars/br-101-dmbs-g_SE.0.0
@@ -111,6 +116,15 @@ EmptyImage[NW][5]=./railcars/br-101-dmbs-rr_NW.0.0
 EmptyImage[N][5]=./railcars/br-101-dmbs-rr_N.0.0
 EmptyImage[NE][5]=./railcars/br-101-dmbs-rr_NE.0.0
 
+EmptyImage[E][6]=./railcars/br-101-dmbs-spt_E.0.0
+EmptyImage[SE][6]=./railcars/br-101-dmbs-spt_SE.0.0
+EmptyImage[S][6]=./railcars/br-101-dmbs-spt_S.0.0
+EmptyImage[SW][6]=./railcars/br-101-dmbs-spt_SW.0.0
+EmptyImage[W][6]=./railcars/br-101-dmbs-spt_W.0.0
+EmptyImage[NW][6]=./railcars/br-101-dmbs-spt_NW.0.0
+EmptyImage[N][6]=./railcars/br-101-dmbs-spt_N.0.0
+EmptyImage[NE][6]=./railcars/br-101-dmbs-spt_NE.0.0
+
 ----
 # http://www.railcar.co.uk/print/diagrams/623.jpg
 obj=vehicle
@@ -159,6 +173,7 @@ liverytype[1]=BR-Blue
 liverytype[2]=BR-Large-Logo
 liverytype[3]=NSE-Standard
 liverytype[4]=Regional-Railways-Standard
+liverytype[5]=Strathclyde-orange-black
 
 EmptyImage[E][0]=./railcars/br-101-tsl-g_E.0.0
 EmptyImage[SE][0]=./railcars/br-101-tsl-g_SE.0.0
@@ -204,6 +219,16 @@ EmptyImage[W][4]=./railcars/br-101-tsl-rr_W.0.0
 EmptyImage[NW][4]=./railcars/br-101-tsl-rr_NW.0.0
 EmptyImage[N][4]=./railcars/br-101-tsl-rr_N.0.0
 EmptyImage[NE][4]=./railcars/br-101-tsl-rr_NE.0.0
+
+EmptyImage[E][5]=./railcars/br-101-tsl-spt_E.0.0
+EmptyImage[SE][5]=./railcars/br-101-tsl-spt_SE.0.0
+EmptyImage[S][5]=./railcars/br-101-tsl-spt_S.0.0
+EmptyImage[SW][5]=./railcars/br-101-tsl-spt_SW.0.0
+EmptyImage[W][5]=./railcars/br-101-tsl-spt_W.0.0
+EmptyImage[NW][5]=./railcars/br-101-tsl-spt_NW.0.0
+EmptyImage[N][5]=./railcars/br-101-tsl-spt_N.0.0
+EmptyImage[NE][5]=./railcars/br-101-tsl-spt_NE.0.0
+
 ----
 # http://www.railcar.co.uk/print/diagrams/621.jpg
 obj=vehicle
@@ -248,12 +273,16 @@ comfort[3]=110
 Constraint[Prev][0]=BR-101-TSL
 Constraint[Prev][1]=BR-101-DMBS
 
+# Blue square 
 Constraint[Next][0]=BR-121
 Constraint[Next][1]=BR-117-DMBS
 Constraint[Next][2]=BR-104Front
 Constraint[Next][3]=BR-128
 Constraint[Next][4]=BR-101-DMBS
-Constraint[Next][5]=none
+Constraint[Next][5]=BR-120-DMBC
+Constraint[Next][6]=BR-114-DMBS
+Constraint[Next][7]=BR-110-DMBC
+Constraint[Next][8]=none
 
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue
@@ -261,6 +290,7 @@ liverytype[2]=BR-Large-Logo
 liverytype[3]=NSE-Standard
 liverytype[4]=NSE-Revised
 liverytype[5]=Regional-Railways-Standard
+liverytype[6]=Strathclyde-orange-black
 
 EmptyImage[E][0]=./railcars/br-101-dtcl-g_E.0.0
 EmptyImage[SE][0]=./railcars/br-101-dtcl-g_SE.0.0
@@ -315,6 +345,15 @@ EmptyImage[W][5]=./railcars/br-101-dtcl-rr_W.0.0
 EmptyImage[NW][5]=./railcars/br-101-dtcl-rr_NW.0.0
 EmptyImage[N][5]=./railcars/br-101-dtcl-rr_N.0.0
 EmptyImage[NE][5]=./railcars/br-101-dtcl-rr_NE.0.0
+
+EmptyImage[E][6]=./railcars/br-101-dtcl-spt_E.0.0
+EmptyImage[SE][6]=./railcars/br-101-dtcl-spt_SE.0.0
+EmptyImage[S][6]=./railcars/br-101-dtcl-spt_S.0.0
+EmptyImage[SW][6]=./railcars/br-101-dtcl-spt_SW.0.0
+EmptyImage[W][6]=./railcars/br-101-dtcl-spt_W.0.0
+EmptyImage[NW][6]=./railcars/br-101-dtcl-spt_NW.0.0
+EmptyImage[N][6]=./railcars/br-101-dtcl-spt_N.0.0
+EmptyImage[NE][6]=./railcars/br-101-dtcl-spt_NE.0.0
 
 ----
 # http://www.railcar.co.uk/print/diagrams/630.jpg
@@ -359,12 +398,16 @@ comfort[3]=110
 Constraint[Prev][0]=BR-101-TSL
 Constraint[Prev][1]=BR-101-DMBS
 
+# Blue square 
 Constraint[Next][0]=BR-121
 Constraint[Next][1]=BR-117-DMBS
 Constraint[Next][2]=BR-104Front
 Constraint[Next][3]=BR-128
 Constraint[Next][4]=BR-101-DMBS
-Constraint[Next][5]=none
+Constraint[Next][5]=BR-120-DMBC
+Constraint[Next][6]=BR-114-DMBS
+Constraint[Next][7]=BR-110-DMBC
+Constraint[Next][8]=none
 
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue
@@ -372,6 +415,7 @@ liverytype[2]=BR-Large-Logo
 liverytype[3]=NSE-Standard
 liverytype[4]=NSE-Revised
 liverytype[5]=Regional-Railways-Standard
+liverytype[6]=Strathclyde-orange-black
 
 EmptyImage[E][0]=./railcars/br-101-dtcl-g_E.0.0
 EmptyImage[SE][0]=./railcars/br-101-dtcl-g_SE.0.0
@@ -426,4 +470,13 @@ EmptyImage[W][5]=./railcars/br-101-dtcl-rr_W.0.0
 EmptyImage[NW][5]=./railcars/br-101-dtcl-rr_NW.0.0
 EmptyImage[N][5]=./railcars/br-101-dtcl-rr_N.0.0
 EmptyImage[NE][5]=./railcars/br-101-dtcl-rr_NE.0.0
+
+EmptyImage[E][6]=./railcars/br-101-dtcl-spt_E.0.0
+EmptyImage[SE][6]=./railcars/br-101-dtcl-spt_SE.0.0
+EmptyImage[S][6]=./railcars/br-101-dtcl-spt_S.0.0
+EmptyImage[SW][6]=./railcars/br-101-dtcl-spt_SW.0.0
+EmptyImage[W][6]=./railcars/br-101-dtcl-spt_W.0.0
+EmptyImage[NW][6]=./railcars/br-101-dtcl-spt_NW.0.0
+EmptyImage[N][6]=./railcars/br-101-dtcl-spt_N.0.0
+EmptyImage[NE][6]=./railcars/br-101-dtcl-spt_NE.0.0
 --

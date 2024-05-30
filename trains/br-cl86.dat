@@ -5,7 +5,7 @@ speed=160
 gear=80
 power=3010
 tractive_effort=267
-copyright=Kieron
+copyright=Kieron/Rollmaterial
 intro_year=1965
 intro_month=6
 retire_year=1973
@@ -42,6 +42,7 @@ liverytype[2]=IC-Executive
 liverytype[3]=IC-Swallow
 liverytype[4]=Virgin-original
 liverytype[5]=Anglia-original
+liverytype[6]=RfD-Two-tone-grey
 
 EmptyImage[E][0]=./locomotives/br-cl86-b_E.0
 EmptyImage[SE][0]=./locomotives/br-cl86-b_SE.0
@@ -96,4 +97,13 @@ EmptyImage[W][5]=./locomotives/br-cl86-anglia_W.0
 EmptyImage[NW][5]=./locomotives/br-cl86-anglia_NW.0
 EmptyImage[N][5]=./locomotives/br-cl86-anglia_N.0
 EmptyImage[NE][5]=./locomotives/br-cl86-anglia_NE.0
+
+EmptyImage[E][6]=./locomotives/br-cl86-rf_E.0
+EmptyImage[SE][6]=./locomotives/br-cl86-rf_SE.0
+EmptyImage[S][6]=./locomotives/br-cl86-rf_S.0
+EmptyImage[SW][6]=./locomotives/br-cl86-rf_SW.0
+EmptyImage[W][6]=./locomotives/br-cl86-rf_W.0
+EmptyImage[NW][6]=./locomotives/br-cl86-rf_NW.0
+EmptyImage[N][6]=./locomotives/br-cl86-rf_N.0
+EmptyImage[NE][6]=./locomotives/br-cl86-rf_NE.0
 --

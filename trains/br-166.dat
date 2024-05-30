@@ -49,14 +49,16 @@ Constraint[Next][0]=BR-166Rear
 Constraint[Next][1]=BR-166Middle
 Constraint[Next][2]=BR-166Middle-Trolley
 
-EmptyImage[E]=./railcars/br-165-nse.0.0
-EmptyImage[SE]=./railcars/br-165-nse.0.1
-EmptyImage[S]=./railcars/br-165-nse.0.2
-EmptyImage[SW]=./railcars/br-165-nse.0.3
-EmptyImage[W]=./railcars/br-165-nse.0.4
-EmptyImage[NW]=./railcars/br-165-nse.0.5
-EmptyImage[N]=./railcars/br-165-nse.0.6
-EmptyImage[NE]=./railcars/br-165-nse.0.7
+liverytype[0]=NSE-Revised
+
+EmptyImage[E][0]=./railcars/br-165-front-nse_E.0.0
+EmptyImage[SE][0]=./railcars/br-165-front-nse_SE.0.0
+EmptyImage[S][0]=./railcars/br-165-front-nse_S.0.0
+EmptyImage[SW][0]=./railcars/br-165-front-nse_SW.0.0
+EmptyImage[W][0]=./railcars/br-165-front-nse_W.0.0
+EmptyImage[NW][0]=./railcars/br-165-front-nse_NW.0.0
+EmptyImage[N][0]=./railcars/br-165-front-nse_N.0.0
+EmptyImage[NE][0]=./railcars/br-165-front-nse_NE.0.0
 
 ---
 
@@ -110,14 +112,16 @@ Constraint[Prev][2]=BR-166Middle-Trolley
 
 Constraint[Next][0]=BR-166Rear
 
-EmptyImage[E]=./railcars/br-165-nse.1.0
-EmptyImage[SE]=./railcars/br-165-nse.1.1
-EmptyImage[S]=./railcars/br-165-nse.1.2
-EmptyImage[SW]=./railcars/br-165-nse.1.3
-EmptyImage[W]=./railcars/br-165-nse.1.4
-EmptyImage[NW]=./railcars/br-165-nse.1.5
-EmptyImage[N]=./railcars/br-165-nse.1.6
-EmptyImage[NE]=./railcars/br-165-nse.1.7
+liverytype[0]=NSE-Revised
+
+EmptyImage[E][0]=./railcars/br-165-centre-nse_E.0.0
+EmptyImage[SE][0]=./railcars/br-165-centre-nse_SE.0.0
+EmptyImage[S][0]=./railcars/br-165-centre-nse_S.0.0
+EmptyImage[SW][0]=./railcars/br-165-centre-nse_SW.0.0
+EmptyImage[W][0]=./railcars/br-165-centre-nse_W.0.0
+EmptyImage[NW][0]=./railcars/br-165-centre-nse_NW.0.0
+EmptyImage[N][0]=./railcars/br-165-centre-nse_N.0.0
+EmptyImage[NE][0]=./railcars/br-165-centre-nse_NE.0.0
 
 ----
 
@@ -167,14 +171,16 @@ Constraint[Prev][2]=BR-166Middle-Trolley
 
 Constraint[Next][0]=BR-166Rear
 
-EmptyImage[E]=./railcars/br-165-nse.1.0
-EmptyImage[SE]=./railcars/br-165-nse.1.1
-EmptyImage[S]=./railcars/br-165-nse.1.2
-EmptyImage[SW]=./railcars/br-165-nse.1.3
-EmptyImage[W]=./railcars/br-165-nse.1.4
-EmptyImage[NW]=./railcars/br-165-nse.1.5
-EmptyImage[N]=./railcars/br-165-nse.1.6
-EmptyImage[NE]=./railcars/br-165-nse.1.7
+liverytype[0]=NSE-Revised
+
+EmptyImage[E][0]=./railcars/br-165-centre-nse_E.0.0
+EmptyImage[SE][0]=./railcars/br-165-centre-nse_SE.0.0
+EmptyImage[S][0]=./railcars/br-165-centre-nse_S.0.0
+EmptyImage[SW][0]=./railcars/br-165-centre-nse_SW.0.0
+EmptyImage[W][0]=./railcars/br-165-centre-nse_W.0.0
+EmptyImage[NW][0]=./railcars/br-165-centre-nse_NW.0.0
+EmptyImage[N][0]=./railcars/br-165-centre-nse_N.0.0
+EmptyImage[NE][0]=./railcars/br-165-centre-nse_NE.0.0
 
 ---
 
@@ -230,12 +236,14 @@ Constraint[Next][0]=BR-166Front
 Constraint[Next][1]=BR-165Front
 Constraint[Next][2]=none
 
-EmptyImage[E]=./railcars/br-165-nse.2.0
-EmptyImage[SE]=./railcars/br-165-nse.2.1
-EmptyImage[S]=./railcars/br-165-nse.2.2
-EmptyImage[SW]=./railcars/br-165-nse.2.3
-EmptyImage[W]=./railcars/br-165-nse.2.4
-EmptyImage[NW]=./railcars/br-165-nse.2.5
-EmptyImage[N]=./railcars/br-165-nse.2.6
-EmptyImage[NE]=./railcars/br-165-nse.2.7
+liverytype[0]=NSE-Revised
+
+EmptyImage[E][0]=./railcars/br-165-rear-nse_E.0.0
+EmptyImage[SE][0]=./railcars/br-165-rear-nse_SE.0.0
+EmptyImage[S][0]=./railcars/br-165-rear-nse_S.0.0
+EmptyImage[SW][0]=./railcars/br-165-rear-nse_SW.0.0
+EmptyImage[W][0]=./railcars/br-165-rear-nse_W.0.0
+EmptyImage[NW][0]=./railcars/br-165-rear-nse_NW.0.0
+EmptyImage[N][0]=./railcars/br-165-rear-nse_N.0.0
+EmptyImage[NE][0]=./railcars/br-165-rear-nse_NE.0.0
 --

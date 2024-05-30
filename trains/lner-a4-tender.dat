@@ -66,21 +66,21 @@ EmptyImage[NW][3]=./locomotives/lner-a4-tender-black_NW.0.0
 EmptyImage[N][3]=./locomotives/lner-a4-tender-black_N.0.0
 EmptyImage[NE][3]=./locomotives/lner-a4-tender-black_NE.0.0
 
-EmptyImage[E][4]=./locomotives/lner-a4-tender-brblue_E.0.0
-EmptyImage[SE][4]=./locomotives/lner-a4-tender-brblue_SE.0.0
-EmptyImage[S][4]=./locomotives/lner-a4-tender-brblue_S.0.0
-EmptyImage[SW][4]=./locomotives/lner-a4-tender-brblue_SW.0.0
-EmptyImage[W][4]=./locomotives/lner-a4-tender-brblue_W.0.0
-EmptyImage[NW][4]=./locomotives/lner-a4-tender-brblue_NW.0.0
-EmptyImage[N][4]=./locomotives/lner-a4-tender-brblue_N.0.0
-EmptyImage[NE][4]=./locomotives/lner-a4-tender-brblue_NE.0.0
+EmptyImage[E][4]=./locomotives/lner-a4-tender-br-blue_E.0.0
+EmptyImage[SE][4]=./locomotives/lner-a4-tender-br-blue_SE.0.0
+EmptyImage[S][4]=./locomotives/lner-a4-tender-br-blue_S.0.0
+EmptyImage[SW][4]=./locomotives/lner-a4-tender-br-blue_SW.0.0
+EmptyImage[W][4]=./locomotives/lner-a4-tender-br-blue_W.0.0
+EmptyImage[NW][4]=./locomotives/lner-a4-tender-br-blue_NW.0.0
+EmptyImage[N][4]=./locomotives/lner-a4-tender-br-blue_N.0.0
+EmptyImage[NE][4]=./locomotives/lner-a4-tender-br-blue_NE.0.0
 
-EmptyImage[E][5]=./locomotives/lner-a4-tender-brgreen_E.0.0
-EmptyImage[SE][5]=./locomotives/lner-a4-tender-brgreen_SE.0.0
-EmptyImage[S][5]=./locomotives/lner-a4-tender-brgreen_S.0.0
-EmptyImage[SW][5]=./locomotives/lner-a4-tender-brgreen_SW.0.0
-EmptyImage[W][5]=./locomotives/lner-a4-tender-brgreen_W.0.0
-EmptyImage[NW][5]=./locomotives/lner-a4-tender-brgreen_NW.0.0
-EmptyImage[N][5]=./locomotives/lner-a4-tender-brgreen_N.0.0
-EmptyImage[NE][5]=./locomotives/lner-a4-tender-brgreen_NE.0.0
+EmptyImage[E][5]=./locomotives/lner-a4-tender-br-green_E.0.0
+EmptyImage[SE][5]=./locomotives/lner-a4-tender-br-green_SE.0.0
+EmptyImage[S][5]=./locomotives/lner-a4-tender-br-green_S.0.0
+EmptyImage[SW][5]=./locomotives/lner-a4-tender-br-green_SW.0.0
+EmptyImage[W][5]=./locomotives/lner-a4-tender-br-green_W.0.0
+EmptyImage[NW][5]=./locomotives/lner-a4-tender-br-green_NW.0.0
+EmptyImage[N][5]=./locomotives/lner-a4-tender-br-green_N.0.0
+EmptyImage[NE][5]=./locomotives/lner-a4-tender-br-green_NE.0.0
 --

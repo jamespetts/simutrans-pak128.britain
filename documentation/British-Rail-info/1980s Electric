@@ -1,0 +1,19 @@
+AC LOCOS
+Class 90		21t	£ 8k	£4/km	£29pcm	177kph	3730kW	87.2	98.10	ac 8.6	1.2km	?
+Class 91 Electra	21t	£19k	£5/km	£46pcm	225kph	4700kW	88.1	03.6	ac 16	1.9km	?
+
+AC EMUs
+Class 315 MTM 		£ 4k	£1/km	£40pcm	120kph	 656kW	80.5	92.7	ac 2.5	2.8km	232@56			 } ER→FGE/WAGN→ONE→NXEA→GA→ Elizabeth all 'Shenfield Metro', WAML, Lea Valley
+Class 315 MTTM 		£ 6k	£1/km	£46pcm	120kph	 656kW	80.5	92.7	ac 1.9	3.6km	318@56			/
+Class 317 TFMT		£10k	£1/km	£58pcm	160kph	 990kW	81.1	87.12	ac 1.9	6.4km	270@89	22@148	-	?LMR MML commuter → NSE Thameslink → NSE WCML commuter → NSE GN/WAML commuter
+															& outer suburban → WAGN ~ + LTS → FCC/ONE→NXEA ~-Stansted + TL GN → GTR GN + Overground LL + GA WAML
+Class 318 TMT		£ 7k	£1/km	£48pcm	145kph	1072kW	86.9	90.11	ac 2.8	3.1km	213@89	-	-	SPT Ayrshire → Argyle-Cathcart Circle-Inverclyde
+Class 319 TTMT		£12k	£1/km	£66pcm	160kph	 990kW	87.7	94.2*	ac 1.8	6.6km	310@84	-	-	 } NSE Thameslink, ConnexSC outer-suburban/interurban → FCC, Southern →
+Class 319 FTMT		£12k	£1/km	£66pcm	160kph	 990kW	87.7	94.2*	ac 1.8	6.6km	287@84	16@145	-	/  NR NWEng interurban, WMT St Albans-WCML → Classes 768/769/799
+Class 321 TTMT		£10k	£1/km	£58pcm	160kph	1072kW	88.1	94.2	ac 1.9	6.0km	309@84	-	-	?
+Class 321 FTMT		£10k	£1/km	£58pcm	160kph	1072kW	88.1	94.2	ac 1.9	6.0km	287@84	16@145	-	?
+Class 370 APT MRFPFRM 	£32k	£3/km	£114pcm	250kph	2983kW	80.3	94.11	ac 1.2	15 km	160@132	50@155	C4	Test trains on WCML
+Class 370 APT MRFPPFRM  £46k    £6/km   £152pcm 250kph  5966kW  80.3    94.11	ac 1.9  8.5km   160@132 50@155  C4      Test trains on WCML
+Class 370 MRFPPFRTTFFM  £59k    £6/km   £204pcm 250kph  5966kW  80.3    94.11	ac 1.5  11 km   3040@132144@155	C4      Test trains on WCML (NB 9 tiles)
+
+*Class 319s can be upgraded to Class 769s, available from 2020.11.

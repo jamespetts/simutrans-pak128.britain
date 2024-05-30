@@ -14,8 +14,10 @@ waytype=track
 freight=Passagiere
 payload[0]=0
 payload[1]=24
+payload[2]=0
+payload[3]=0
 overcrowded_capacity=10
-length=11
+length=10
 
 weight=32
 axles=4
@@ -27,8 +29,11 @@ can_lead_from_rear=0
 bidirectional=1
 min_loading_time=25
 max_loading_time=180
+
 comfort[0]=0
 comfort[1]=144
+comfort[2]=144
+comfort[3]=155
 
 liverytype[0]=LNER-Standard
 liverytype[1]=BR-Early
@@ -59,7 +64,13 @@ Constraint[Next][21]=gnr-gresley-cor-mail
 Constraint[Next][22]=gnr-gresley-cor-tpo
 Constraint[Next][23]=pullman-1928-kitchen-first
 Constraint[Next][24]=pullman-1951-kitchen-first
-Constraint[Next][25]=none
+Constraint[Next][25]=LNER-Gresley-Express-first
+Constraint[Next][26]=LNER-Gresley-Express-Coach-All-Doors-first
+Constraint[Next][27]=gnr-gresley-cor-first
+Constraint[Next][28]=gnr-clerestory-cor-63ft-5-composite
+Constraint[Next][29]=gnr-clerestory-cor-63ft-5-first
+Constraint[Next][30]=gnr-clerestory-cor-composite-53ft-6
+Constraint[Next][31]=none
 
 EmptyImage[E][0]=./carriages/lner-gresley-express-brake-front_E.0.0
 EmptyImage[SE][0]=./carriages/lner-gresley-express-brake-front_SE.0.0
@@ -102,8 +113,10 @@ waytype=track
 freight=Passagiere
 payload[0]=0
 payload[1]=24
+payload[2]=0
+payload[3]=0
 overcrowded_capacity=10
-length=11
+length=10
 
 weight=32
 axles=4
@@ -115,8 +128,11 @@ can_lead_from_rear=0
 bidirectional=1
 min_loading_time=25
 max_loading_time=180
+
 comfort[0]=0
 comfort[1]=144
+comfort[2]=144
+comfort[3]=155
 
 Constraint[Prev][0]=LNER-Gresley-Express-Coach
 Constraint[Prev][1]=LNER-Gresley-Express-Brake-front
@@ -143,6 +159,12 @@ Constraint[Prev][21]=gnr-gresley-cor-mail
 Constraint[Prev][22]=gnr-gresley-cor-tpo
 Constraint[Prev][23]=pullman-1928-kitchen-first
 Constraint[Prev][24]=pullman-1951-kitchen-first
+Constraint[Prev][25]=LNER-Gresley-Express-first
+Constraint[Prev][26]=LNER-Gresley-Express-Coach-All-Doors-first
+Constraint[Prev][27]=gnr-gresley-cor-first
+Constraint[Prev][28]=gnr-clerestory-cor-63ft-5-composite
+Constraint[Prev][29]=gnr-clerestory-cor-63ft-5-first
+Constraint[Prev][30]=gnr-clerestory-cor-composite-53ft-6
 
 liverytype[0]=LNER-Standard
 liverytype[1]=BR-Early

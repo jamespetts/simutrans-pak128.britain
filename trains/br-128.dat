@@ -31,17 +31,28 @@ increase_maintenance_after_years=10
 min_loading_time=25
 max_loading_time=200
 
+# Blue suquare
 Constraint[Prev][0]=BR-121
-Constraint[Prev][1]=BR-128
+Constraint[Prev][1]=BR-117-DMS
 Constraint[Prev][2]=BR-104Rear
-Constraint[Prev][3]=BR-117-DMS
-Constraint[Prev][4]=none
+Constraint[Prev][3]=BR-128
+Constraint[Prev][4]=BR-101-DMCL
+Constraint[Prev][5]=BR-101-DTCL
+Constraint[Prev][6]=BR-114-DTCL
+Constraint[Prev][7]=BR-120-DMSL
+Constraint[Prev][8]=BR-110-DMCL
+Constraint[Prev][9]=none
 
+# Blue square 
 Constraint[Next][0]=BR-121
-Constraint[Next][1]=BR-104Front
-Constraint[Next][2]=BR-128
-Constraint[Next][3]=BR-117-DMBS
-Constraint[Next][4]=none
+Constraint[Next][1]=BR-117-DMBS
+Constraint[Next][2]=BR-104Front
+Constraint[Next][3]=BR-128
+Constraint[Next][4]=BR-101-DMBS
+Constraint[Next][5]=BR-120-DMBC
+Constraint[Next][6]=BR-114-DMBS
+Constraint[Next][7]=BR-110-DMBC
+Constraint[Next][8]=none
 
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue

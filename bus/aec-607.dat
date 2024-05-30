@@ -22,7 +22,7 @@ intro_month=2
 retire_year=1927
 retire_month=9
 is_tall=1
-sound=androo4519-btu9613t.wav2
+sound=androo4519-btu9613t.wav
 upgrade[0]=aec-607-pneumatic
 
 comfort=34

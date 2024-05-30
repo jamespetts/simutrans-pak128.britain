@@ -1,0 +1,42 @@
+LOCOS
+10800	17t	£ 5k	£ 6/km	£35pcm	110kph	 617kW	50.2	57.11	ac 3.9	2.6km
+09	16t	£ ½k	£ 3/km	£26pcm	44kph	 298kW	59.9	62.10	ac 4.0	0.2km
+15	17t	£ 6k	£ 6/km	£37pcm	97kph	 597kW	57.5	61.8	ac 4.2	1.7km	ER East London/East Anglia
+16	18t	£ 6k	£ 6/km	£37pcm	120kph	 746kW	57.9	62.6	ac 4.5	2.9km	ER East London
+20	18t	£ 5k	£ 7/km	£37pcm	120kph	 746kW	57.9	68.10	ac 4.5	2.9km	London, ScR All F-Highland*, ER Yorks*, Nationwide MGR 
+21	18t	£12k	£ 8/km	£50pcm	120kph	 820kW	58.6	60.11	ac 4.9	2.6km	ER London commuter, SR mixed traffic, rebuilt as Class 29
+24	18t	£11k	£ 9/km	£48pcm	121kph	 865kW	58.1	61.11	ac 4.5	2.5km	LM London-NWEng-Condor-Wales, ER EAnglia-NEEng, ScR Highlands
+26	19t	£12k	£ 9/km	£50pcm	130kph	 865kW	58.6	61.8	ac 4.4	3.3km	ER Commuter, ScR all
+28 BoCo 20t	£ 6k	£ 9/km	£37pcm	120kph	 895kW	58.8	61.2	ac 4.0	3.2km	LM Condor-sleeper → LM NWEng (Carlisle/Barrow-based) F
+!28/2§		£ 6k	£ 6/km		120kph	1230kW	68.4	75.7			CIÉ all services → CIÉ Rosslare-heavy F-sugar beet-Tara mine
+30	17t	£11k	£ 9/km	£48pcm	130kph	 930kW	57.9	63.11	ac 1.9	4.5km	ER
+31 #30	6??	??	??	??	145kph	1097kW	64.3	75.9	?	?	UPGRADE FROM 30 ONLY
+40	17t	£13k	£15/km	£53pcm	145kph	1490kW	58.7	62.2	ac 3.0	4.8km	ER LMR NER ScR
+41 War	19t	£ 2k	£15/km	£29pcm	145kph	1492kW	58.1	59.12	ac 3.3	3.1km	WR
+42 War	19t	£ 2k	£17/km	£29pcm	145kph	1692kW	58.4	62.11	ac 4.8	2.3km	WR
+
+!Upgrade only
+* Passengers in summer only
+§ According to br-cl28.dat, this class represents the result of Class 28 receiving the same engine upgrade as their sisters in the CIÉ 001 class, making these the only Irish locomotives in the pakset.
+# Upgrade from specified class only
+
+DMUs
+Swindon railcar£3k	£2/km	£21pcm	112kph	154kW	40.6	51.12	ac 1.4	8.6km	62@115
+Swindon twinset£5k	£3/km	£41pcm	112kph	308kW	41.11	51.12	ac 1.3	8.0km	104@115
+Derby L'weight	£2k	£2/km	£30pcm	100kph	224kW	54.3	56.8	ac 1.9	5.0km	100@84	12@111		West Riding, West Mids, East London, all ex-LMS/LNER rural
+Class 101 MT 	£2k	£2/km	£30pcm	113kph	224kW	56.3	59.12	ac 0.9	13 km	105@82	12@110		 } ER EAnglia-Fens, NER Tyne-Tees-WRiding, ScR Central Belt, LMR Wales-WM
+Class 101 MTM	£4k	£4/km	£58pcm	113kph	448kW	56.3	59.12	ac 1.1	6.2km	176@82	12@110		/  -> TWPTE, WR Avon-Thames -> RR GM -> 1NW
+Class 104 MM	£3k	£4/km	£36pcm	113kph	448kW	57.11	85.4	ac 1.7	4.0km	106@80	12@107		 } LM -> Tyne, ScR, GOBLIN
+Class 104 MTM	£4k	£4/km	£38pcm	113kph	448kW	57.11	85.4	ac 1.2	6.0km	175@80	12@107		/
+Class 117	£2k	£2/km	£28pcm	113kph	224kW	59.9	80.11			65@75	-		WR -> LM, ScR -> NSE, RR
+Class 120 MBM	£4k	£2/km	£32pcm	109kph	448kW	58.3	63.7	ac 1.8	6.6km	144@109 18@130	C2	WR Southwest, LM Midlands, ScR
+Class 128 P	£2k	£3/km	£28pcm	112kph	343kW	59.7	80.10	ac 1.4	3.0km	480 mail + Class 104	WR -> LM, ER
+Class 202 MM	£9k	£7/km	£48pcm	120kph	740kW	57.4	63.9	ac 1.3	3.0km	64@129			 } SR LXC-Hastings 
+Class 202 MBFM	£12k	£7/km	£101pcm 120kph	740kW	57.4	63.9	ac 0.8	5.0km	99@129	48@146	C3	/
+Class 205 MM	£9k	£8/km	£35pcm	120kph	750kW	57.3	62.11	ac 1.1	3.7km	133@77	13@129		 } SR Hampshire regional
+Class 205 MTTM	£12k	£8/km	£42pcm	120kph	750kW	57.3	62.11	ac 0.6	7.4km	341@77	13@129		/
+	
+
+
+
+

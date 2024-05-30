@@ -9,7 +9,7 @@ retire_month=2
 waytype=track
 freight=Post
 payload=400
-length=11
+length=10
 
 weight=31
 axles=4

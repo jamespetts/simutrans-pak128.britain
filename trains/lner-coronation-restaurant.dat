@@ -1,3 +1,8 @@
+# This set appears to be a curious hybrid of the Coronation and Silver Jubilee sets.
+# Unfortunately, it is difficult to rework these as the .blend files are lost.
+# See Jenkinson p. 484 for the Silver Jubilee and pp. 488-489 for the Coronation sets.
+# This particular set seems to be based more closely on the Silver Jubilee triple,
+# so payload data are taken from that.
 obj=vehicle
 name=LNER-Coronation-Restaurant-Triple(front)
 speed=175
@@ -9,7 +14,9 @@ retire_month=2
 waytype=track
 freight=Passagiere
 payload[0]=0
-payload[1]=56
+payload[1]=48
+payload[2]=0
+payload[3]=0
 length=9
 
 weight=31
@@ -28,6 +35,8 @@ max_loading_time=180
 
 comfort[0]=0
 comfort[1]=150
+comfort[2]=150
+comfort[3]=171
 
 Constraint[Prev][0]=LNER-Coronation-Brake-Third-Twin(rear)
 Constraint[Prev][1]=LNER-Coronation-Brake-Third-Triple(rear)
@@ -161,7 +170,9 @@ retire_month=2
 waytype=track
 freight=Passagiere
 payload[0]=0
-payload[1]=36
+payload[1]=0
+payload[2]=0
+payload[3]=28
 length=9
 
 weight=31
@@ -179,6 +190,8 @@ max_loading_time=180
 
 comfort[0]=0
 comfort[1]=150
+comfort[2]=150
+comfort[3]=171
 
 Constraint[Prev][0]=LNER-Coronation-Restaurant-Triple(middle)
 

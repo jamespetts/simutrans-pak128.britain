@@ -251,6 +251,7 @@ simple_tool[133]=,I
 # DIALOG_LIST_DEPOT=32
 # DIALOG_LIST_VEHICLE=33
 # DIALOG_LIST_SIGNALBOX=128
+# DIALOG_PLAYER_RANKING=129
 #
 dialog_tool[0]=0
 dialog_tool[1]=1,Q
@@ -284,6 +285,7 @@ dialog_tool[28]=26,n
 dialog_tool[32]=27,^D
 dialog_tool[33]=29,^V
 dialog_tool[128]=28,^S
+dialog_tool[129]=30,^r
 
 # FINAL SECTION: compose all tool bars
 # now the defintion of all tool bars
@@ -359,33 +361,34 @@ toolbar[0][17]=toolbar[12],24,,EDITTOOLS,edittools.txt
 toolbar[0][18]=toolbar[13],8,,LISTTOOLS,list.txt
 toolbar[0][19]=dialog_tool[4]
 toolbar[0][20]=dialog_tool[5]
-toolbar[0][21]=-
+toolbar[0][21]=dialog_tool[129]
+toolbar[0][22]=-
 # sliced underground
-toolbar[0][22]=simple_tool[15],9,^U,K
-toolbar[0][23]=simple_tool[15],,{,I
-toolbar[0][24]=simple_tool[15],,},D
+toolbar[0][23]=simple_tool[15],9,^U,K
+toolbar[0][24]=simple_tool[15],,{,I
+toolbar[0][25]=simple_tool[15],,},D
 #
-toolbar[0][25]=simple_tool[2]
-toolbar[0][26]=simple_tool[0]
-toolbar[0][27]=simple_tool[1]
-toolbar[0][28]=dialog_tool[0]
+toolbar[0][26]=simple_tool[2]
+toolbar[0][27]=simple_tool[0]
+toolbar[0][28]=simple_tool[1]
+toolbar[0][29]=dialog_tool[0]
 # invisible tools (here because they need a parameter or are added twice)
-toolbar[0][29]=-
-toolbar[0][30]=simple_tool[16]
-toolbar[0][31]=simple_tool[7],,.,+1
-toolbar[0][32]=simple_tool[7],,#44,-1
+toolbar[0][30]=-
+toolbar[0][31]=simple_tool[16]
+toolbar[0][32]=simple_tool[7],,.,+1
+toolbar[0][33]=simple_tool[7],,#44,-1
 # since ST r2031: allow manual change of daylight
-toolbar[0][33]=simple_tool[19],,*,4
-toolbar[0][34]=simple_tool[12]
-toolbar[0][35]=simple_tool[8]
-toolbar[0][36]=simple_tool[9]
+toolbar[0][34]=simple_tool[19],,*,4
+toolbar[0][35]=simple_tool[12]
+toolbar[0][36]=simple_tool[8]
+toolbar[0][37]=simple_tool[9]
 # network mode button
-toolbar[0][37]=-
-toolbar[0][38]=dialog_tool[28]
+toolbar[0][38]=-
+toolbar[0][39]=dialog_tool[28]
 
 # Deprecated: day/night cycle not used in this pakset.
-#toolbar[0][39]=simple_tool[19],,+,+
-#toolbar[0][40]=simple_tool[19],,-,-
+#toolbar[0][40]=simple_tool[19],,+,+
+#toolbar[0][41]=simple_tool[19],,-,-
 
 # slope tools
 toolbar[1][0]=general_tool[2]
@@ -588,5 +591,3 @@ toolbar[13][6]=dialog_tool[25]
 toolbar[13][7]=dialog_tool[32]
 toolbar[13][8]=dialog_tool[33]
 toolbar[13][9]=dialog_tool[128]
-
-

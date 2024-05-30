@@ -2,7 +2,7 @@ obj=vehicle
 name=LSWR-T14
 engine_type=steam
 smoke=Steam
-speed=143
+speed=95
 # Extrapolated
 power=363
 tractive_effort=112

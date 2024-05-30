@@ -1,0 +1,67 @@
+# https://www.lner.info/locos/V/v1v3.php
+# https://en.wikipedia.org/wiki/LNER_Class_V1/V3
+obj=vehicle
+name=lner-v1
+engine_type=steam
+smoke=Steam
+speed=108
+# Extrapolated
+power=313
+# https://www.lner.info/locos/V/v1v3.php
+tractive_effort=100
+copyright=Kieron/JamesPetts
+intro_year=1930
+intro_month=4
+# Displaced by V3s
+retire_year=1939
+retire_month=5
+waytype=track
+freight=None
+payload=0
+length=7
+
+# https://www.lner.info/locos/V/v1v3.php
+weight=57.9
+# https://www.lner.info/locos/V/v1v3.php
+axle_load=19
+cost=8527525
+runningcost=95
+fixed_cost=42005
+sound=lwalker-br-4mt-tank.wav
+
+can_lead_from_rear=0
+bidirectional=1
+
+upgrade[0]=lner-v3
+
+liverytype[0]=LNER-Standard
+liverytype[1]=WW2-Austerity
+liverytype[2]=BR-Early
+
+EmptyImage[E][0]=./locomotives/lner-v1_E.0.0
+EmptyImage[SE][0]=./locomotives/lner-v1_SE.0.0
+EmptyImage[S][0]=./locomotives/lner-v1_S.0.0
+EmptyImage[SW][0]=./locomotives/lner-v1_SW.0.0
+EmptyImage[W][0]=./locomotives/lner-v1_W.0.0
+EmptyImage[NW][0]=./locomotives/lner-v1_NW.0.0
+EmptyImage[N][0]=./locomotives/lner-v1_N.0.0
+EmptyImage[NE][0]=./locomotives/lner-v1_NE.0.0
+
+EmptyImage[E][1]=./locomotives/lner-v1-austerity_E.0.0
+EmptyImage[SE][1]=./locomotives/lner-v1-austerity_SE.0.0
+EmptyImage[S][1]=./locomotives/lner-v1-austerity_S.0.0
+EmptyImage[SW][1]=./locomotives/lner-v1-austerity_SW.0.0
+EmptyImage[W][1]=./locomotives/lner-v1-austerity_W.0.0
+EmptyImage[NW][1]=./locomotives/lner-v1-austerity_NW.0.0
+EmptyImage[N][1]=./locomotives/lner-v1-austerity_N.0.0
+EmptyImage[NE][1]=./locomotives/lner-v1-austerity_NE.0.0
+
+EmptyImage[E][2]=./locomotives/lner-v1-br_E.0.0
+EmptyImage[SE][2]=./locomotives/lner-v1-br_SE.0.0
+EmptyImage[S][2]=./locomotives/lner-v1-br_S.0.0
+EmptyImage[SW][2]=./locomotives/lner-v1-br_SW.0.0
+EmptyImage[W][2]=./locomotives/lner-v1-br_W.0.0
+EmptyImage[NW][2]=./locomotives/lner-v1-br_NW.0.0
+EmptyImage[N][2]=./locomotives/lner-v1-br_N.0.0
+EmptyImage[NE][2]=./locomotives/lner-v1-br_NE.0.0
+--

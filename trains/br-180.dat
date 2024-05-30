@@ -48,15 +48,16 @@ Constraint[Next][1]=BR-180Middle
 Constraint[Next][2]=BR-180Middle-Buffet
 Constraint[Next][3]=BR-180Middle-first
 
-EmptyImage[E]=./railcars/br-180-fgw.0.0
-EmptyImage[SE]=./railcars/br-180-fgw.0.1
-EmptyImage[S]=./railcars/br-180-fgw.0.2
-EmptyImage[SW]=./railcars/br-180-fgw.0.3
-EmptyImage[W]=./railcars/br-180-fgw.0.4
-EmptyImage[NW]=./railcars/br-180-fgw.0.5
-EmptyImage[N]=./railcars/br-180-fgw.0.6
-EmptyImage[NE]=./railcars/br-180-fgw.0.7
+liverytype[0]=Firstgroup-Mauve
 
+EmptyImage[E][0]=./railcars/br-180-front-fgw_E.0.0
+EmptyImage[SE][0]=./railcars/br-180-front-fgw_SE.0.0
+EmptyImage[S][0]=./railcars/br-180-front-fgw_S.0.0
+EmptyImage[SW][0]=./railcars/br-180-front-fgw_SW.0.0
+EmptyImage[W][0]=./railcars/br-180-front-fgw_W.0.0
+EmptyImage[NW][0]=./railcars/br-180-front-fgw_NW.0.0
+EmptyImage[N][0]=./railcars/br-180-front-fgw_N.0.0
+EmptyImage[NE][0]=./railcars/br-180-front-fgw_NE.0.0
 --
 
 obj=vehicle
@@ -111,14 +112,16 @@ Constraint[Next][1]=BR-180Middle
 Constraint[Next][2]=BR-180Middle-Buffet
 Constraint[Next][3]=BR-180Middle-first
 
-EmptyImage[E]=./railcars/br-180-fgw.1.0
-EmptyImage[SE]=./railcars/br-180-fgw.1.1
-EmptyImage[S]=./railcars/br-180-fgw.1.2
-EmptyImage[SW]=./railcars/br-180-fgw.1.3
-EmptyImage[W]=./railcars/br-180-fgw.1.4
-EmptyImage[NW]=./railcars/br-180-fgw.1.5
-EmptyImage[N]=./railcars/br-180-fgw.1.6
-EmptyImage[NE]=./railcars/br-180-fgw.1.7
+liverytype[0]=Firstgroup-Mauve
+
+EmptyImage[E][0]=./railcars/br-180-middle-fgw_E.0.0
+EmptyImage[SE][0]=./railcars/br-180-middle-fgw_SE.0.0
+EmptyImage[S][0]=./railcars/br-180-middle-fgw_S.0.0
+EmptyImage[SW][0]=./railcars/br-180-middle-fgw_SW.0.0
+EmptyImage[W][0]=./railcars/br-180-middle-fgw_W.0.0
+EmptyImage[NW][0]=./railcars/br-180-middle-fgw_NW.0.0
+EmptyImage[N][0]=./railcars/br-180-middle-fgw_N.0.0
+EmptyImage[NE][0]=./railcars/br-180-middle-fgw_NE.0.0
 
 --
 
@@ -174,15 +177,16 @@ Constraint[Next][1]=BR-180Middle
 Constraint[Next][2]=BR-180Middle-Buffet
 Constraint[Next][3]=BR-180Middle-first
 
-EmptyImage[E]=./railcars/br-180-fgw.1.0
-EmptyImage[SE]=./railcars/br-180-fgw.1.1
-EmptyImage[S]=./railcars/br-180-fgw.1.2
-EmptyImage[SW]=./railcars/br-180-fgw.1.3
-EmptyImage[W]=./railcars/br-180-fgw.1.4
-EmptyImage[NW]=./railcars/br-180-fgw.1.5
-EmptyImage[N]=./railcars/br-180-fgw.1.6
-EmptyImage[NE]=./railcars/br-180-fgw.1.7
+liverytype[0]=Firstgroup-Mauve
 
+EmptyImage[E][0]=./railcars/br-180-middle-fgw_E.0.0
+EmptyImage[SE][0]=./railcars/br-180-middle-fgw_SE.0.0
+EmptyImage[S][0]=./railcars/br-180-middle-fgw_S.0.0
+EmptyImage[SW][0]=./railcars/br-180-middle-fgw_SW.0.0
+EmptyImage[W][0]=./railcars/br-180-middle-fgw_W.0.0
+EmptyImage[NW][0]=./railcars/br-180-middle-fgw_NW.0.0
+EmptyImage[N][0]=./railcars/br-180-middle-fgw_N.0.0
+EmptyImage[NE][0]=./railcars/br-180-middle-fgw_NE.0.0
 ----
 
 obj=vehicle
@@ -232,14 +236,16 @@ Constraint[Next][0]=BR-180Rear
 Constraint[Next][1]=BR-180Middle
 Constraint[Next][2]=BR-180Middle-first
 
-EmptyImage[E]=./railcars/br-180-fgw.1.0
-EmptyImage[SE]=./railcars/br-180-fgw.1.1
-EmptyImage[S]=./railcars/br-180-fgw.1.2
-EmptyImage[SW]=./railcars/br-180-fgw.1.3
-EmptyImage[W]=./railcars/br-180-fgw.1.4
-EmptyImage[NW]=./railcars/br-180-fgw.1.5
-EmptyImage[N]=./railcars/br-180-fgw.1.6
-EmptyImage[NE]=./railcars/br-180-fgw.1.7
+liverytype[0]=Firstgroup-Mauve
+
+EmptyImage[E][0]=./railcars/br-180-middle-fgw_E.0.0
+EmptyImage[SE][0]=./railcars/br-180-middle-fgw_SE.0.0
+EmptyImage[S][0]=./railcars/br-180-middle-fgw_S.0.0
+EmptyImage[SW][0]=./railcars/br-180-middle-fgw_SW.0.0
+EmptyImage[W][0]=./railcars/br-180-middle-fgw_W.0.0
+EmptyImage[NW][0]=./railcars/br-180-middle-fgw_NW.0.0
+EmptyImage[N][0]=./railcars/br-180-middle-fgw_N.0.0
+EmptyImage[NE][0]=./railcars/br-180-middle-fgw_NE.0.0
 
 ---
 
@@ -293,12 +299,14 @@ Constraint[Prev][3]=BR-180Middle-first
 Constraint[Next][0]=BR-180Front
 Constraint[Next][1]=none
 
-EmptyImage[E]=./railcars/br-180-fgw.2.0
-EmptyImage[SE]=./railcars/br-180-fgw.2.1
-EmptyImage[S]=./railcars/br-180-fgw.2.2
-EmptyImage[SW]=./railcars/br-180-fgw.2.3
-EmptyImage[W]=./railcars/br-180-fgw.2.4
-EmptyImage[NW]=./railcars/br-180-fgw.2.5
-EmptyImage[N]=./railcars/br-180-fgw.2.6
-EmptyImage[NE]=./railcars/br-180-fgw.2.7
+liverytype[0]=Firstgroup-Mauve
+
+EmptyImage[E][0]=./railcars/br-180-rear-fgw_E.0.0
+EmptyImage[SE][0]=./railcars/br-180-rear-fgw_SE.0.0
+EmptyImage[S][0]=./railcars/br-180-rear-fgw_S.0.0
+EmptyImage[SW][0]=./railcars/br-180-rear-fgw_SW.0.0
+EmptyImage[W][0]=./railcars/br-180-rear-fgw_W.0.0
+EmptyImage[NW][0]=./railcars/br-180-rear-fgw_NW.0.0
+EmptyImage[N][0]=./railcars/br-180-rear-fgw_N.0.0
+EmptyImage[NE][0]=./railcars/br-180-rear-fgw_NE.0.0
 --

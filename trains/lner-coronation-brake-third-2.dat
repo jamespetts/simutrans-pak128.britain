@@ -1,3 +1,8 @@
+# This set appears to be a curious hybrid of the Coronation and Silver Jubilee sets.
+# Unfortunately, it is difficult to rework these as the .blend files are lost.
+# See Jenkinson p. 484 for the Silver Jubilee and pp. 488-489 for the Coronation sets.
+#
+# The capacities of these are based on the Silver Jubliee sets.
 obj=vehicle
 name=LNER-Coronation-RearBrake-Third-Twin(front)
 speed=175
@@ -9,7 +14,9 @@ retire_month=2
 waytype=track
 freight=Passagiere
 payload[0]=0
-payload[1]=56
+payload[1]=42
+payload[2]=0
+payload[3]=0
 length=10
 
 weight=31
@@ -86,7 +93,9 @@ retire_month=2
 waytype=track
 freight=Passagiere
 payload[0]=0
-payload[1]=40
+payload[1]=30
+payload[2]=0
+payload[3]=0
 length=10
 
 weight=31

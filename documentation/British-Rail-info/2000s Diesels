@@ -1,0 +1,27 @@
+LOCOS
+Class 67	22t	£ 7k	£4/km	£32pcm	200kph	2200kW	00.2		ac 2.8	5.8km	Mail, sleeper, expresses
+70 Powerhaul	21t	£12k	£6/km	£37pcm	120kph	2750kW	09.11		ac 7.4	1.2km
+
+DMUs
+139 ParryPeopleMover M	£ 2k	£0/km	£ 27pcm	 65kph	  64kW	09.6		ac 3.4	0.9km	 25@45	-	-
+175 Coradia	MM	£ 5k	£1/km	£ 35pcm	160kph	 680kW	00.6	07.10	ac 1.7	15 km	117@132	-	-	North Wales; Welsh Marches
+175 Coradia	MMM	£ 7k	£2/km	£ 38pcm	160kph	1020kW	00.6	07.10	ac 1.7	13 km	193@132	-	-	North Wales; Welsh Marches
+175 Coradia	MBM	£ 7k	£2/km	£ 83pcm	160kph	1020kW	00.6	07.10	ac 1.7	13 km	193@132+5 -	C1	North Wales; Welsh Marches
+175 Coradia	MBMMMMM	£17k	£5/km	£138pcm	160kph	2380kW	00.6	07.10	ac 1.8	11 km	497@132+5 -	-	North Wales; Welsh Marches
+180 Adelante	MM	£ 7k	£2/km	£ 37pcm	200kph	1120kW	00.7	17.9	ac 1.9	16 km	106@134 -	-	\
+180 Adelante	MMM	£10k	£3/km	£ 40pcm	200kph	1680kW	00.7	17.9	ac 1.9	14 km	178@134+5 -	C1	 \
+180 Adelante	MRM	£10k	£3/km	£ 86pcm	200kph	1680kW	00.7	17.9	ac 1.9	15 km	162@134+10 -	C2	  } GWML → NR NWEng interurban → ECML → Hull Trains → GCentral ECML
+180 Adelante	MFMBFMM	£24k	£8/km	£100pcm	200kph	3920kW	00.7	17.9	ac 1.9	13 km	306@134+ 80@153+C2	/
+185 Desiro¹	MM	£ 5k	£2/km	£ 35pcm	160kph	1120kW	06.3		ac 2.3	8.0km	 90@120	15@135	-	\
+185 Desiro¹	MMM	£ 7k	£3/km	£ 38pcm	160kph	1680kW	06.3		ac 2.3	7.5km	154@120	15@135	-	 } TPE
+185 Desiro¹	MMMMMMMM£19k	£9/km	£ 50pcm	160kph	4480kW	06.3		ac 2.3	7.0km	474@120	15@135	-	/
+220 Voyager	MM	£ 6k	£2/km	£ 36pcm	200kph	1120kW	01.2	04.6	ac 1.7	15 km	 42@ 97	26@130	-	 } WCML
+220 Voyager	MMBMMMM	£21k	£8/km	£ 52pcm	200kph	3920kW	01.2	04.6	ac 1.8	12 km	356@ 97+26@130+	C2	/
+221 SuperVoyagerMM	£7k	£2/km	£ 37pcm	200kph	1120kW	02.4		ac 1.4T	23 km	 42@ 97	26@130	-	 } WCML
+221 SuperVoyagerMMBMMMM	£23k	£8/km	£129pcm	200kph	3920kW	02.4		ac 1.4T	15 km	356@ 97+26@130+	C2	/
+222 Meridian²	MMR	£ 9k	£4/km	£ 44pcm	200kph	1680kW	04.6		sc 1.7	13 km	108@120 22@140+	C3	\
+222 Meridian²	MMMR	£12k	£4/km	£ 47pcm	200kph	2240kW	04.6		ac 1.7	12 km	176@120 22@140+	C3	 } MML
+222 Meridian²	MMMBCFR	£22k	£8/km	£ 56pcm	200kph	3920kW	04.6		ac 1.8	12 km	284@120+75@140+	C4	 /
+
+¹ 18t axle load
+² Or "Pioneer"

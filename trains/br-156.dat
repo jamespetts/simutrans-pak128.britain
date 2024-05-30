@@ -6,7 +6,7 @@ smoke=Diesel-light
 speed=120
 power=212
 tractive_effort=47
-copyright=Kieron
+copyright=Kieron/Rollmaterial/jamespetts
 intro_year=1987
 intro_month=7
 retire_year=1998
@@ -50,12 +50,16 @@ Constraint[Prev][7]=br-142-1-rear
 Constraint[Prev][8]=br-144-0-rear
 Constraint[Prev][9]=br-144-1-rear
 Constraint[Prev][10]=BR-170Rear
-Constraint[Prev][11]=none
+Constraint[Prev][11]=br-159-rear
+Constraint[Prev][12]=none
 
 Constraint[Next][0]=br-156-rear
 
 liverytype[0]=Regional-Railways-Standard
 liverytype[1]=One
+liverytype[2]=Provincial
+liverytype[3]=Strathclyde-orange-black
+liverytype[4]=Strathclyde-carmine-cream
 
 EmptyImage[E][0]=./railcars/br-156-a-rr_E.0.0
 EmptyImage[SE][0]=./railcars/br-156-a-rr_SE.0.0
@@ -75,6 +79,33 @@ EmptyImage[NW][1]=./railcars/br-156-a-one_NW.0.0
 EmptyImage[N][1]=./railcars/br-156-a-one_N.0.0
 EmptyImage[NE][1]=./railcars/br-156-a-one_NE.0.0
 
+EmptyImage[E][2]=./railcars/br-156-a-sprinter_E.0.0
+EmptyImage[SE][2]=./railcars/br-156-a-sprinter_SE.0.0
+EmptyImage[S][2]=./railcars/br-156-a-sprinter_S.0.0
+EmptyImage[SW][2]=./railcars/br-156-a-sprinter_SW.0.0
+EmptyImage[W][2]=./railcars/br-156-a-sprinter_W.0.0
+EmptyImage[NW][2]=./railcars/br-156-a-sprinter_NW.0.0
+EmptyImage[N][2]=./railcars/br-156-a-sprinter_N.0.0
+EmptyImage[NE][2]=./railcars/br-156-a-sprinter_NE.0.0
+
+EmptyImage[E][3]=./railcars/br-156-a-spt_E.0.0
+EmptyImage[SE][3]=./railcars/br-156-a-spt_SE.0.0
+EmptyImage[S][3]=./railcars/br-156-a-spt_S.0.0
+EmptyImage[SW][3]=./railcars/br-156-a-spt_SW.0.0
+EmptyImage[W][3]=./railcars/br-156-a-spt_W.0.0
+EmptyImage[NW][3]=./railcars/br-156-a-spt_NW.0.0
+EmptyImage[N][3]=./railcars/br-156-a-spt_N.0.0
+EmptyImage[NE][3]=./railcars/br-156-a-spt_NE.0.0
+
+EmptyImage[E][4]=./railcars/br-156-a-spt-cc_E.0.0
+EmptyImage[SE][4]=./railcars/br-156-a-spt-cc_SE.0.0
+EmptyImage[S][4]=./railcars/br-156-a-spt-cc_S.0.0
+EmptyImage[SW][4]=./railcars/br-156-a-spt-cc_SW.0.0
+EmptyImage[W][4]=./railcars/br-156-a-spt-cc_W.0.0
+EmptyImage[NW][4]=./railcars/br-156-a-spt-cc_NW.0.0
+EmptyImage[N][4]=./railcars/br-156-a-spt-cc_N.0.0
+EmptyImage[NE][4]=./railcars/br-156-a-spt-cc_NE.0.0
+
 -----
 
 obj=vehicle
@@ -85,7 +116,7 @@ speed=120
 gear=50
 power=212
 tractive_effort=47
-copyright=Kieron
+copyright=Kieron/Rollmaterial/jamespetts
 intro_year=1987
 intro_month=7
 retire_year=1998
@@ -129,12 +160,16 @@ Constraint[Prev][7]=br-142-1-rear
 Constraint[Prev][8]=br-144-0-rear
 Constraint[Prev][9]=br-144-1-rear
 Constraint[Prev][10]=BR-170Rear
-Constraint[Prev][11]=none
+Constraint[Prev][11]=br-159-rear
+Constraint[Prev][12]=none
 
 Constraint[Next][0]=br-156-rear
 
 liverytype[0]=Regional-Railways-Standard
 liverytype[1]=One
+liverytype[2]=Provincial
+liverytype[3]=Strathclyde-orange-black
+liverytype[4]=Strathclyde-carmine-cream
 
 EmptyImage[E][0]=./railcars/br-156-a-rr_E.0.0
 EmptyImage[SE][0]=./railcars/br-156-a-rr_SE.0.0
@@ -154,6 +189,33 @@ EmptyImage[NW][1]=./railcars/br-156-a-one_NW.0.0
 EmptyImage[N][1]=./railcars/br-156-a-one_N.0.0
 EmptyImage[NE][1]=./railcars/br-156-a-one_NE.0.0
 
+EmptyImage[E][2]=./railcars/br-156-a-sprinter_E.0.0
+EmptyImage[SE][2]=./railcars/br-156-a-sprinter_SE.0.0
+EmptyImage[S][2]=./railcars/br-156-a-sprinter_S.0.0
+EmptyImage[SW][2]=./railcars/br-156-a-sprinter_SW.0.0
+EmptyImage[W][2]=./railcars/br-156-a-sprinter_W.0.0
+EmptyImage[NW][2]=./railcars/br-156-a-sprinter_NW.0.0
+EmptyImage[N][2]=./railcars/br-156-a-sprinter_N.0.0
+EmptyImage[NE][2]=./railcars/br-156-a-sprinter_NE.0.0
+
+EmptyImage[E][3]=./railcars/br-156-a-spt_E.0.0
+EmptyImage[SE][3]=./railcars/br-156-a-spt_SE.0.0
+EmptyImage[S][3]=./railcars/br-156-a-spt_S.0.0
+EmptyImage[SW][3]=./railcars/br-156-a-spt_SW.0.0
+EmptyImage[W][3]=./railcars/br-156-a-spt_W.0.0
+EmptyImage[NW][3]=./railcars/br-156-a-spt_NW.0.0
+EmptyImage[N][3]=./railcars/br-156-a-spt_N.0.0
+EmptyImage[NE][3]=./railcars/br-156-a-spt_NE.0.0
+
+EmptyImage[E][4]=./railcars/br-156-a-spt-cc_E.0.0
+EmptyImage[SE][4]=./railcars/br-156-a-spt-cc_SE.0.0
+EmptyImage[S][4]=./railcars/br-156-a-spt-cc_S.0.0
+EmptyImage[SW][4]=./railcars/br-156-a-spt-cc_SW.0.0
+EmptyImage[W][4]=./railcars/br-156-a-spt-cc_W.0.0
+EmptyImage[NW][4]=./railcars/br-156-a-spt-cc_NW.0.0
+EmptyImage[N][4]=./railcars/br-156-a-spt-cc_N.0.0
+EmptyImage[NE][4]=./railcars/br-156-a-spt-cc_NE.0.0
+
 ---
 
 obj=vehicle
@@ -164,7 +226,7 @@ speed=120
 gear=50
 power=212
 tractive_effort=47
-copyright=Kieron
+copyright=Kieron/Rollmaterial/jamespetts
 intro_year=1987
 intro_month=7
 retire_year=1998
@@ -209,10 +271,14 @@ Constraint[Next][8]=br-142-1-front
 Constraint[Next][9]=br-144-0-front
 Constraint[Next][10]=br-144-1-front
 Constraint[Next][11]=BR-170Front
-Constraint[Next][12]=none
+Constraint[Next][12]=br-159-front
+Constraint[Next][13]=none
 
 liverytype[0]=Regional-Railways-Standard
 liverytype[1]=One
+liverytype[2]=Provincial
+liverytype[3]=Strathclyde-orange-black
+liverytype[4]=Strathclyde-carmine-cream
 
 EmptyImage[E][0]=./railcars/br-156-b-rr_E.0.0
 EmptyImage[SE][0]=./railcars/br-156-b-rr_SE.0.0
@@ -231,4 +297,31 @@ EmptyImage[W][1]=./railcars/br-156-b-one_W.0.0
 EmptyImage[NW][1]=./railcars/br-156-b-one_NW.0.0
 EmptyImage[N][1]=./railcars/br-156-b-one_N.0.0
 EmptyImage[NE][1]=./railcars/br-156-b-one_NE.0.0
+
+EmptyImage[E][2]=./railcars/br-156-b-sprinter_E.0.0
+EmptyImage[SE][2]=./railcars/br-156-b-sprinter_SE.0.0
+EmptyImage[S][2]=./railcars/br-156-b-sprinter_S.0.0
+EmptyImage[SW][2]=./railcars/br-156-b-sprinter_SW.0.0
+EmptyImage[W][2]=./railcars/br-156-b-sprinter_W.0.0
+EmptyImage[NW][2]=./railcars/br-156-b-sprinter_NW.0.0
+EmptyImage[N][2]=./railcars/br-156-b-sprinter_N.0.0
+EmptyImage[NE][2]=./railcars/br-156-b-sprinter_NE.0.0
+
+EmptyImage[E][3]=./railcars/br-156-b-spt_E.0.0
+EmptyImage[SE][3]=./railcars/br-156-b-spt_SE.0.0
+EmptyImage[S][3]=./railcars/br-156-b-spt_S.0.0
+EmptyImage[SW][3]=./railcars/br-156-b-spt_SW.0.0
+EmptyImage[W][3]=./railcars/br-156-b-spt_W.0.0
+EmptyImage[NW][3]=./railcars/br-156-b-spt_NW.0.0
+EmptyImage[N][3]=./railcars/br-156-b-spt_N.0.0
+EmptyImage[NE][3]=./railcars/br-156-b-spt_NE.0.0
+
+EmptyImage[E][4]=./railcars/br-156-b-spt-cc_E.0.0
+EmptyImage[SE][4]=./railcars/br-156-b-spt-cc_SE.0.0
+EmptyImage[S][4]=./railcars/br-156-b-spt-cc_S.0.0
+EmptyImage[SW][4]=./railcars/br-156-b-spt-cc_SW.0.0
+EmptyImage[W][4]=./railcars/br-156-b-spt-cc_W.0.0
+EmptyImage[NW][4]=./railcars/br-156-b-spt-cc_NW.0.0
+EmptyImage[N][4]=./railcars/br-156-b-spt-cc_N.0.0
+EmptyImage[NE][4]=./railcars/br-156-b-spt-cc_NE.0.0
 --

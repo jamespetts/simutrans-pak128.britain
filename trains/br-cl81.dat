@@ -1,3 +1,4 @@
+# https://en.wikipedia.org/wiki/British_Rail_Class_81
 obj=vehicle
 name=BR-Class81
 engine_type=electric
@@ -5,18 +6,18 @@ speed=160
 gear=80
 power=2390
 tractive_effort=222
-copyright=Kieron/JamesPetts
+copyright=Kieron/JamesPetts/Rollmaterial
 intro_year=1959
 intro_month=11
-retire_year=1965
-retire_month=6
+retire_year=1963
+retire_month=1
 waytype=track
 freight=None
 payload=0
 length=10
 rolling_resistance=13
 
-weight=81
+weight=80.9
 axles=4
 cost=8785000
 runningcost=479
@@ -34,6 +35,7 @@ Constraint[Prev][0]=none
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue
 liverytype[2]=IC-Executive
+liverytype[3]=RfD-Two-tone-grey
 
 EmptyImage[E][0]=./locomotives/br-cl81-b_E.0.0
 EmptyImage[SE][0]=./locomotives/br-cl81-b_SE.0.0
@@ -53,12 +55,21 @@ EmptyImage[NW][1]=./locomotives/br-cl81-br-blue_NW.0.0
 EmptyImage[N][1]=./locomotives/br-cl81-br-blue_N.0.0
 EmptyImage[NE][1]=./locomotives/br-cl81-br-blue_NE.0.0
 
-EmptyImage[E][2]=./locomotives/br-cl83-ic_E.0.0
-EmptyImage[SE][2]=./locomotives/br-cl83-ic_SE.0.0
-EmptyImage[S][2]=./locomotives/br-cl83-ic_S.0.0
-EmptyImage[SW][2]=./locomotives/br-cl83-ic_SW.0.0
-EmptyImage[W][2]=./locomotives/br-cl83-ic_W.0.0
-EmptyImage[NW][2]=./locomotives/br-cl83-ic_NW.0.0
-EmptyImage[N][2]=./locomotives/br-cl83-ic_N.0.0
-EmptyImage[NE][2]=./locomotives/br-cl83-ic_NE.0.0
+EmptyImage[E][2]=./locomotives/br-cl81-ic_E.0.0
+EmptyImage[SE][2]=./locomotives/br-cl81-ic_SE.0.0
+EmptyImage[S][2]=./locomotives/br-cl81-ic_S.0.0
+EmptyImage[SW][2]=./locomotives/br-cl81-ic_SW.0.0
+EmptyImage[W][2]=./locomotives/br-cl81-ic_W.0.0
+EmptyImage[NW][2]=./locomotives/br-cl81-ic_NW.0.0
+EmptyImage[N][2]=./locomotives/br-cl81-ic_N.0.0
+EmptyImage[NE][2]=./locomotives/br-cl81-ic_NE.0.0
+
+EmptyImage[E][3]=./locomotives/br-cl81-rf_E.0.0
+EmptyImage[SE][3]=./locomotives/br-cl81-rf_SE.0.0
+EmptyImage[S][3]=./locomotives/br-cl81-rf_S.0.0
+EmptyImage[SW][3]=./locomotives/br-cl81-rf_SW.0.0
+EmptyImage[W][3]=./locomotives/br-cl81-rf_W.0.0
+EmptyImage[NW][3]=./locomotives/br-cl81-rf_NW.0.0
+EmptyImage[N][3]=./locomotives/br-cl81-rf_N.0.0
+EmptyImage[NE][3]=./locomotives/br-cl81-rf_NE.0.0
 --

@@ -9,7 +9,9 @@ retire_month=2
 waytype=track
 freight=Passagiere
 payload[0]=0
-payload[1]=24
+payload[1]=0
+payload[2]=0
+payload[3]=24
 length=9
 
 weight=31
@@ -25,6 +27,8 @@ max_loading_time=180
 
 comfort[0]=0
 comfort[1]=150
+comfort[2]=150
+comfort[3]=171
 
 Constraint[Prev][0]=LNER-Coronation-RearBrake-Third-Twin(rear)
 

@@ -1,0 +1,18 @@
+AC EMUs
+
+334 Juniper	MMM		£ 7k	£ 2/km	£ 42pcm	145kph	1200kW	01.12	?	ac 4.4	3.8km	183@ 96	-	-	SPT Ayrshire/Inverclyde
+350/1 Desiro	MFTM 		£ 9k	£ 2/km	£ 58pcm	177kph	1500kW	05.6		ac 3.3	6.9km	201@ 96	 12@134	-	CT/Silverlink WCML interurban → LM → LNWR
+350/2 Desiro	MFTM		£ 7k	£ 2/km	£ 54pcm	160kph	1500kW	08.12		ac 3.3	4.9km	246@ 85	 24@102	-	LM WCML commuter → LNWR
+360 Desiro	MTM		£ 5k	£ 2/km	£ 44pcm	160kph	1550kW	03.8	17.6	ac 3.2	3.5km	170@ 89	 32@102	-	 } FGE GEML + BAA HC → ONE/NXEA GEML + BAA HC → EMR MML + TfL HC
+360 Desiro	MTTM		£ 7k	£ 2/km	£ 54pcm	160kph	1550kW	03.8	17.6	ac 2.5	4.7km	240@ 89	 32@102	-	/ EMR MML + ROG freight
+375/6 Electrostar MT+M		£ 6k	£ 2/km	£ 29pcm	160pkh	1000kW	01.4	17.11	ac 1.8	6.1km	152@ 96	 24@ 98	-	\
+375/6 Electrostar MMT+M		£ 8k	£ 2/km	£ 37pcm	160pkh	1500kW	01.4	17.11	ac 2.1	5.0km	218@ 96	 24@ 98	-	 } Southeastern CML-SEML-Hastings-Medway Valley express & outer
+375/6 Electrostar MMT+MM	£11k	£ 3/km	£ 45pcm	160pkh	2000kW	01.4	17.11	ac 2.3	4.5km	284@ 96	 24@ 98	-	/ suburban
+378		MTM		£ 7k	£ 2/km	£ 39pcm	120kph	1200kW	09.7	17.11	ac 2.3	1.7km	112@ 59	-	-	\
+378		MTMM		£ 9k	£ 3/km	£ 53pcm	120kph	1800kW	09.7	17.11	ac 2.6	1.5km	152@ 59	-	-	 } London Overground
+378		MMTMM		£12k	£ 4/km	£ 67pcm	120kph	2400kW	09.7	17.11	ac 2.8	1.4km	192@ 59	-	-	/
+390 Pendolino	M1M1FMM		£13k	£ 5/km	£ 91pcm	225kph	3420kW	03.6		ac 1.4T	9.4km	108@117	 99@135	-	\
+390 Pendolino	M1M1FMMBMM	£24k	£ 8/km	£147pcm	225kph	5130kW	03.6		ac 1.3T	9.7km	308@117	 99@135	2	 } VT WCML express
+390 Pendolino	M1M1FMTM1BMM	£25k	£ 8/km	£153pcm	225kph	5130kW	03.6		ac 1.2T	11 km	306@117	145@135	2	/
+395 Javelin	TMMT		£10k	£ 3/km	£ 30pcm	225kph	1680kW	09.6		ac 1.2	14 km	216@120	-	-	} Southeastern High Speed 1
+395 Javelin	TMMMMMMT	£21k	£ 8/km	£ 47pcm	225kph	5040kW	09.6		ac 1.7	8.4km	488@120	-	-	/

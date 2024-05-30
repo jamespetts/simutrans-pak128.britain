@@ -48,7 +48,8 @@ Constraint[Prev][7]=br-142-1-rear
 Constraint[Prev][8]=br-144-0-rear
 Constraint[Prev][9]=br-144-1-rear
 Constraint[Prev][10]=BR-170Rear
-Constraint[Prev][11]=none
+Constraint[Prev][11]=br-159-rear
+Constraint[Prev][12]=none
 
 Constraint[Next][0]=br-142-rear
 
@@ -147,7 +148,8 @@ Constraint[Next][8]=br-142-1-front
 Constraint[Next][9]=br-144-0-front
 Constraint[Next][10]=br-144-1-front
 Constraint[Next][11]=BR-170Front
-Constraint[Next][12]=none
+Constraint[Next][12]=br-159-front
+Constraint[Next][13]=none
 
 liverytype[0]=GMPTE-orange-brown
 liverytype[1]=Provincial
@@ -241,7 +243,8 @@ Constraint[Prev][7]=br-142-1-rear
 Constraint[Prev][8]=br-144-0-rear
 Constraint[Prev][9]=br-144-1-rear
 Constraint[Prev][10]=BR-170Rear
-Constraint[Prev][11]=none
+Constraint[Prev][11]=br-159-rear
+Constraint[Prev][12]=none
 
 Constraint[Next][0]=br-142-1-rear
 
@@ -379,7 +382,8 @@ Constraint[Next][8]=br-142-1-front
 Constraint[Next][9]=br-144-0-front
 Constraint[Next][10]=br-144-1-front
 Constraint[Next][11]=BR-170Front
-Constraint[Next][12]=none
+Constraint[Next][12]=br-159-front
+Constraint[Next][13]=none
 
 liverytype[0]=Regional-Railways-Standard
 liverytype[1]=GMPTE-orange-brown

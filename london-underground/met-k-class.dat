@@ -1,0 +1,64 @@
+# https://www.lner.info/locos/L/l2.php
+obj=vehicle
+name=Metropolitan-k-class
+engine_type=steam
+smoke=Steam
+speed=100
+# Extrapolated
+power=371
+# Same as the SECR N class
+tractive_effort=116
+copyright=James/jamespetts
+intro_year=1925
+intro_month=5
+# Actually only built in 1925, but this is very short.
+retire_year=1933
+retire_month=1
+waytype=track
+freight=None
+payload=0
+length=7
+
+# https://www.lner.info/locos/L/l2.php
+weight=88.8
+# https://www.lner.info/locos/L/l2.php
+axle_load=19
+cost=14300000
+runningcost=242
+fixed_cost=40744
+sound=lwalker-br-4mt-tank.wav
+
+bidirectional=1
+is_tall=0
+
+liverytype[0]=Metropolitan-Red
+liverytype[1]=LNER-Standard
+liverytype[2]=BR-Early
+
+EmptyImage[E][0]=./images/met-k-class_E.0.0
+EmptyImage[SE][0]=./images/met-k-class_SE.0.0
+EmptyImage[S][0]=./images/met-k-class_S.0.0
+EmptyImage[SW][0]=./images/met-k-class_SW.0.0
+EmptyImage[W][0]=./images/met-k-class_W.0.0
+EmptyImage[NW][0]=./images/met-k-class_NW.0.0
+EmptyImage[N][0]=./images/met-k-class_N.0.0
+EmptyImage[NE][0]=./images/met-k-class_NE.0.0
+
+EmptyImage[E][1]=./images/met-k-class-lner_E.0.0
+EmptyImage[SE][1]=./images/met-k-class-lner_SE.0.0
+EmptyImage[S][1]=./images/met-k-class-lner_S.0.0
+EmptyImage[SW][1]=./images/met-k-class-lner_SW.0.0
+EmptyImage[W][1]=./images/met-k-class-lner_W.0.0
+EmptyImage[NW][1]=./images/met-k-class-lner_NW.0.0
+EmptyImage[N][1]=./images/met-k-class-lner_N.0.0
+EmptyImage[NE][1]=./images/met-k-class-lner_NE.0.0
+
+EmptyImage[E][2]=./images/met-k-class-br_E.0.0
+EmptyImage[SE][2]=./images/met-k-class-br_SE.0.0
+EmptyImage[S][2]=./images/met-k-class-br_S.0.0
+EmptyImage[SW][2]=./images/met-k-class-br_SW.0.0
+EmptyImage[W][2]=./images/met-k-class-br_W.0.0
+EmptyImage[NW][2]=./images/met-k-class-br_NW.0.0
+EmptyImage[N][2]=./images/met-k-class-br_N.0.0
+EmptyImage[NE][2]=./images/met-k-class-br_NE.0.0
+--

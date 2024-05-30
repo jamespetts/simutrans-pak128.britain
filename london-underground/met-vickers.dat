@@ -16,6 +16,7 @@ retire_month=9
 waytype=track
 freight=None
 payload=0
+length=7
 
 weight=62.4
 axles=4
@@ -28,15 +29,47 @@ bidirectional=1
 way_constraint_permissive[3]=3
 is_tall=0
 
+# Multiple working within type only
 Constraint[Prev][0]=Metropolitan-Vickers
 Constraint[Prev][1]=none
 
-EmptyImage[E]=./images/met-vickers.0.0
-EmptyImage[SE]=./images/met-vickers.0.1
-EmptyImage[S]=./images/met-vickers.0.2
-EmptyImage[SW]=./images/met-vickers.0.3
-EmptyImage[W]=./images/met-vickers.0.4
-EmptyImage[NW]=./images/met-vickers.0.5
-EmptyImage[N]=./images/met-vickers.0.6
-EmptyImage[NE]=./images/met-vickers.0.7
---
+liverytype[0]=Metropolitan-Red
+liverytype[1]=LT
+liverytype[2]=LT-revised
+liverytype[3]=WW2-Austerity
+
+EmptyImage[E][0]=./images/met-vickers_E.0.0
+EmptyImage[SE][0]=./images/met-vickers_SE.0.0
+EmptyImage[S][0]=./images/met-vickers_S.0.0
+EmptyImage[SW][0]=./images/met-vickers_SW.0.0
+EmptyImage[W][0]=./images/met-vickers_W.0.0
+EmptyImage[NW][0]=./images/met-vickers_NW.0.0
+EmptyImage[N][0]=./images/met-vickers_N.0.0
+EmptyImage[NE][0]=./images/met-vickers_NE.0.0
+
+EmptyImage[E][1]=./images/met-vickers-lt_E.0.0
+EmptyImage[SE][1]=./images/met-vickers-lt_SE.0.0
+EmptyImage[S][1]=./images/met-vickers-lt_S.0.0
+EmptyImage[SW][1]=./images/met-vickers-lt_SW.0.0
+EmptyImage[W][1]=./images/met-vickers-lt_W.0.0
+EmptyImage[NW][1]=./images/met-vickers-lt_NW.0.0
+EmptyImage[N][1]=./images/met-vickers-lt_N.0.0
+EmptyImage[NE][1]=./images/met-vickers-lt_NE.0.0
+
+EmptyImage[E][2]=./images/met-vickers-lt-revised_E.0.0
+EmptyImage[SE][2]=./images/met-vickers-lt-revised_SE.0.0
+EmptyImage[S][2]=./images/met-vickers-lt-revised_S.0.0
+EmptyImage[SW][2]=./images/met-vickers-lt-revised_SW.0.0
+EmptyImage[W][2]=./images/met-vickers-lt-revised_W.0.0
+EmptyImage[NW][2]=./images/met-vickers-lt-revised_NW.0.0
+EmptyImage[N][2]=./images/met-vickers-lt-revised_N.0.0
+EmptyImage[NE][2]=./images/met-vickers-lt-revised_NE.0.0
+
+EmptyImage[E][3]=./images/met-vickers-austerity_E.0.0
+EmptyImage[SE][3]=./images/met-vickers-austerity_SE.0.0
+EmptyImage[S][3]=./images/met-vickers-austerity_S.0.0
+EmptyImage[SW][3]=./images/met-vickers-austerity_SW.0.0
+EmptyImage[W][3]=./images/met-vickers-austerity_W.0.0
+EmptyImage[NW][3]=./images/met-vickers-austerity_NW.0.0
+EmptyImage[N][3]=./images/met-vickers-austerity_N.0.0
+EmptyImage[NE][3]=./images/met-vickers-austerity_NE.0.0

@@ -1,6 +1,6 @@
 obj=vehicle
 name=GNR-Stirling8Foot-Tender
-speed=140
+speed=150
 power=0
 copyright=Kieron
 intro_year=1870
@@ -28,6 +28,7 @@ Constraint[Prev][2]=gnr-g2
 Constraint[Prev][3]=gnr-g3
 Constraint[Prev][4]=gnr-q
 Constraint[Prev][5]=gnr-h2-class
+Constraint[Prev][6]=gnr-h2-class
 
 liverytype[0]=GNR-Standard
 liverytype[1]=LNER-Standard

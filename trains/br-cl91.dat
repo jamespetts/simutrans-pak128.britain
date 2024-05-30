@@ -4,7 +4,7 @@ engine_type=electric
 speed=225
 gear=80
 power=4700
-copyright=Kieron
+copyright=Kieron/Rollmaterial
 intro_year=1988
 intro_month=1
 retire_year=2003
@@ -41,6 +41,7 @@ liverytype[1]=GNER
 liverytype[2]=National-Express
 liverytype[3]=East-Coast
 liverytype[4]=VTEC
+liverytype[5]=LNER-225
 
 EmptyImage[E][0]=./locomotives/br-cl91-ic_E.0.0
 EmptyImage[SE][0]=./locomotives/br-cl91-ic_SE.0.0
@@ -86,4 +87,13 @@ EmptyImage[W][4]=./locomotives/br-cl91-vtec_W.0.0
 EmptyImage[NW][4]=./locomotives/br-cl91-vtec_NW.0.0
 EmptyImage[N][4]=./locomotives/br-cl91-vtec_N.0.0
 EmptyImage[NE][4]=./locomotives/br-cl91-vtec_NE.0.0
+
+EmptyImage[E][5]=./locomotives/br-cl91-lner_E.0.0
+EmptyImage[SE][5]=./locomotives/br-cl91-lner_SE.0.0
+EmptyImage[S][5]=./locomotives/br-cl91-lner_S.0.0
+EmptyImage[SW][5]=./locomotives/br-cl91-lner_SW.0.0
+EmptyImage[W][5]=./locomotives/br-cl91-lner_W.0.0
+EmptyImage[NW][5]=./locomotives/br-cl91-lner_NW.0.0
+EmptyImage[N][5]=./locomotives/br-cl91-lner_N.0.0
+EmptyImage[NE][5]=./locomotives/br-cl91-lner_NE.0.0
 --

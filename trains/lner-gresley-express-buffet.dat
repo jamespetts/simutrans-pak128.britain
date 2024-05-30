@@ -10,8 +10,10 @@ waytype=track
 freight=Passagiere
 payload[0]=0
 payload[1]=24
+payload[2]=0
+payload[3]=0
 overcrowded_capacity=9
-length=11
+length=10
 
 weight=43
 axles=4
@@ -23,8 +25,12 @@ can_lead_from_rear=0
 bidirectional=1
 min_loading_time=25
 max_loading_time=180
+
 comfort[0]=0
 comfort[1]=133
+comfort[2]=133
+comfort[3]=133
+
 catering_level=3
 increase_maintenance_after_years=15
 years_before_maintenance_max_reached=30
@@ -67,6 +73,8 @@ Constraint[Next][33]=BR-Mk2a-TSO
 Constraint[Next][34]=pullman-1928-kitchen-first
 Constraint[Next][35]=pullman-1951-kitchen-first
 Constraint[Next][36]=pullman-k-type-kitchen-first
+Constraint[Next][37]=LNER-Gresley-Express-first
+Constraint[Next][38]=LNER-Gresley-Express-Coach-All-Doors-first
 
 Constraint[Prev][0]=LNER-Gresley-Express-Coach
 Constraint[Prev][1]=LNER-Gresley-Express-Brake-front
@@ -105,6 +113,8 @@ Constraint[Prev][33]=BR-Mk2a-TSO
 Constraint[Prev][34]=pullman-1928-kitchen-first
 Constraint[Prev][35]=pullman-1951-kitchen-first
 Constraint[Prev][36]=pullman-k-type-kitchen-first
+Constraint[Prev][37]=LNER-Gresley-Express-first
+Constraint[Prev][38]=LNER-Gresley-Express-Coach-All-Doors-first
 
 liverytype[0]=LNER-Standard
 liverytype[1]=BR-Early

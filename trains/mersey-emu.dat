@@ -55,23 +55,23 @@ Constraint[Next][5]=Mersey-EMU(rear)
 liverytype[0]=Mersey-Railway-Standard
 liverytype[1]=BR-Early
 
-EmptyImage[E][0]=./railcars/mersey-emu-front.1.4
-EmptyImage[SE][0]=./railcars/mersey-emu-front.1.5
-EmptyImage[S][0]=./railcars/mersey-emu-front.1.6
-EmptyImage[SW][0]=./railcars/mersey-emu-front.1.7
-EmptyImage[W][0]=./railcars/mersey-emu-front.1.0
-EmptyImage[NW][0]=./railcars/mersey-emu-front.1.1
-EmptyImage[N][0]=./railcars/mersey-emu-front.1.2
-EmptyImage[NE][0]=./railcars/mersey-emu-front.1.3
+EmptyImage[E][0]=./railcars/mersey-emu-front_E.0.0
+EmptyImage[SE][0]=./railcars/mersey-emu-front_SE.0.0
+EmptyImage[S][0]=./railcars/mersey-emu-front_S.0.0
+EmptyImage[SW][0]=./railcars/mersey-emu-front_SW.0.0
+EmptyImage[W][0]=./railcars/mersey-emu-front_W.0.0
+EmptyImage[NW][0]=./railcars/mersey-emu-front_NW.0.0
+EmptyImage[N][0]=./railcars/mersey-emu-front_N.0.0
+EmptyImage[NE][0]=./railcars/mersey-emu-front_NE.0.0
 
-EmptyImage[E][1]=./railcars/mersey-emu-front-br.1.4
-EmptyImage[SE][1]=./railcars/mersey-emu-front-br.1.5
-EmptyImage[S][1]=./railcars/mersey-emu-front-br.1.6
-EmptyImage[SW][1]=./railcars/mersey-emu-front-br.1.7
-EmptyImage[W][1]=./railcars/mersey-emu-front-br.1.0
-EmptyImage[NW][1]=./railcars/mersey-emu-front-br.1.1
-EmptyImage[N][1]=./railcars/mersey-emu-front-br.1.2
-EmptyImage[NE][1]=./railcars/mersey-emu-front-br.1.3
+EmptyImage[E][1]=./railcars/mersey-emu-front-br_E.0.0
+EmptyImage[SE][1]=./railcars/mersey-emu-front-br_SE.0.0
+EmptyImage[S][1]=./railcars/mersey-emu-front-br_S.0.0
+EmptyImage[SW][1]=./railcars/mersey-emu-front-br_SW.0.0
+EmptyImage[W][1]=./railcars/mersey-emu-front-br_W.0.0
+EmptyImage[NW][1]=./railcars/mersey-emu-front-br_NW.0.0
+EmptyImage[N][1]=./railcars/mersey-emu-front-br_N.0.0
+EmptyImage[NE][1]=./railcars/mersey-emu-front-br_NE.0.0
 
 ---
 
@@ -129,23 +129,23 @@ Constraint[Next][5]=Mersey-EMU(rear)
 liverytype[0]=Mersey-Railway-Standard
 liverytype[1]=BR-Early
 
-EmptyImage[E][0]=./railcars/mersey-emu-trailer.1.4
-EmptyImage[SE][0]=./railcars/mersey-emu-trailer.1.5
-EmptyImage[S][0]=./railcars/mersey-emu-trailer.1.6
-EmptyImage[SW][0]=./railcars/mersey-emu-trailer.1.7
-EmptyImage[W][0]=./railcars/mersey-emu-trailer.1.0
-EmptyImage[NW][0]=./railcars/mersey-emu-trailer.1.1
-EmptyImage[N][0]=./railcars/mersey-emu-trailer.1.2
-EmptyImage[NE][0]=./railcars/mersey-emu-trailer.1.3
+EmptyImage[E][0]=./railcars/mersey-emu-trailer_E.0.0
+EmptyImage[SE][0]=./railcars/mersey-emu-trailer_SE.0.0
+EmptyImage[S][0]=./railcars/mersey-emu-trailer_S.0.0
+EmptyImage[SW][0]=./railcars/mersey-emu-trailer_SW.0.0
+EmptyImage[W][0]=./railcars/mersey-emu-trailer_W.0.0
+EmptyImage[NW][0]=./railcars/mersey-emu-trailer_NW.0.0
+EmptyImage[N][0]=./railcars/mersey-emu-trailer_N.0.0
+EmptyImage[NE][0]=./railcars/mersey-emu-trailer_NE.0.0
 
-EmptyImage[E][1]=./railcars/mersey-emu-trailer-br.1.4
-EmptyImage[SE][1]=./railcars/mersey-emu-trailer-br.1.5
-EmptyImage[S][1]=./railcars/mersey-emu-trailer-br.1.6
-EmptyImage[SW][1]=./railcars/mersey-emu-trailer-br.1.7
-EmptyImage[W][1]=./railcars/mersey-emu-trailer-br.1.0
-EmptyImage[NW][1]=./railcars/mersey-emu-trailer-br.1.1
-EmptyImage[N][1]=./railcars/mersey-emu-trailer-br.1.2
-EmptyImage[NE][1]=./railcars/mersey-emu-trailer-br.1.3
+EmptyImage[E][1]=./railcars/mersey-emu-trailer-br_E.0.0
+EmptyImage[SE][1]=./railcars/mersey-emu-trailer-br_SE.0.0
+EmptyImage[S][1]=./railcars/mersey-emu-trailer-br_S.0.0
+EmptyImage[SW][1]=./railcars/mersey-emu-trailer-br_SW.0.0
+EmptyImage[W][1]=./railcars/mersey-emu-trailer-br_W.0.0
+EmptyImage[NW][1]=./railcars/mersey-emu-trailer-br_NW.0.0
+EmptyImage[N][1]=./railcars/mersey-emu-trailer-br_N.0.0
+EmptyImage[NE][1]=./railcars/mersey-emu-trailer-br_NE.0.0
 
 ---
 
@@ -204,23 +204,23 @@ Constraint[Next][5]=Mersey-EMU(rear)
 liverytype[0]=Mersey-Railway-Standard
 liverytype[1]=BR-Early
 
-EmptyImage[E][0]=./railcars/mersey-emu-trailer.1.4
-EmptyImage[SE][0]=./railcars/mersey-emu-trailer.1.5
-EmptyImage[S][0]=./railcars/mersey-emu-trailer.1.6
-EmptyImage[SW][0]=./railcars/mersey-emu-trailer.1.7
-EmptyImage[W][0]=./railcars/mersey-emu-trailer.1.0
-EmptyImage[NW][0]=./railcars/mersey-emu-trailer.1.1
-EmptyImage[N][0]=./railcars/mersey-emu-trailer.1.2
-EmptyImage[NE][0]=./railcars/mersey-emu-trailer.1.3
+EmptyImage[E][0]=./railcars/mersey-emu-trailer_E.0.0
+EmptyImage[SE][0]=./railcars/mersey-emu-trailer_SE.0.0
+EmptyImage[S][0]=./railcars/mersey-emu-trailer_S.0.0
+EmptyImage[SW][0]=./railcars/mersey-emu-trailer_SW.0.0
+EmptyImage[W][0]=./railcars/mersey-emu-trailer_W.0.0
+EmptyImage[NW][0]=./railcars/mersey-emu-trailer_NW.0.0
+EmptyImage[N][0]=./railcars/mersey-emu-trailer_N.0.0
+EmptyImage[NE][0]=./railcars/mersey-emu-trailer_NE.0.0
 
-EmptyImage[E][1]=./railcars/mersey-emu-trailer-br.1.4
-EmptyImage[SE][1]=./railcars/mersey-emu-trailer-br.1.5
-EmptyImage[S][1]=./railcars/mersey-emu-trailer-br.1.6
-EmptyImage[SW][1]=./railcars/mersey-emu-trailer-br.1.7
-EmptyImage[W][1]=./railcars/mersey-emu-trailer-br.1.0
-EmptyImage[NW][1]=./railcars/mersey-emu-trailer-br.1.1
-EmptyImage[N][1]=./railcars/mersey-emu-trailer-br.1.2
-EmptyImage[NE][1]=./railcars/mersey-emu-trailer-br.1.3
+EmptyImage[E][1]=./railcars/mersey-emu-trailer-br_E.0.0
+EmptyImage[SE][1]=./railcars/mersey-emu-trailer-br_SE.0.0
+EmptyImage[S][1]=./railcars/mersey-emu-trailer-br_S.0.0
+EmptyImage[SW][1]=./railcars/mersey-emu-trailer-br_SW.0.0
+EmptyImage[W][1]=./railcars/mersey-emu-trailer-br_W.0.0
+EmptyImage[NW][1]=./railcars/mersey-emu-trailer-br_NW.0.0
+EmptyImage[N][1]=./railcars/mersey-emu-trailer-br_N.0.0
+EmptyImage[NE][1]=./railcars/mersey-emu-trailer-br_NE.0.0
 
 ---
 
@@ -278,21 +278,21 @@ Constraint[Next][2]=none
 liverytype[0]=Mersey-Railway-Standard
 liverytype[1]=BR-Early
 
-EmptyImage[E][0]=./railcars/mersey-emu-rear.1.4
-EmptyImage[SE][0]=./railcars/mersey-emu-rear.1.5
-EmptyImage[S][0]=./railcars/mersey-emu-rear.1.6
-EmptyImage[SW][0]=./railcars/mersey-emu-rear.1.7
-EmptyImage[W][0]=./railcars/mersey-emu-rear.1.0
-EmptyImage[NW][0]=./railcars/mersey-emu-rear.1.1
-EmptyImage[N][0]=./railcars/mersey-emu-rear.1.2
-EmptyImage[NE][0]=./railcars/mersey-emu-rear.1.3
+EmptyImage[E][0]=./railcars/mersey-emu-rear_E.0.0
+EmptyImage[SE][0]=./railcars/mersey-emu-rear_SE.0.0
+EmptyImage[S][0]=./railcars/mersey-emu-rear_S.0.0
+EmptyImage[SW][0]=./railcars/mersey-emu-rear_SW.0.0
+EmptyImage[W][0]=./railcars/mersey-emu-rear_W.0.0
+EmptyImage[NW][0]=./railcars/mersey-emu-rear_NW.0.0
+EmptyImage[N][0]=./railcars/mersey-emu-rear_N.0.0
+EmptyImage[NE][0]=./railcars/mersey-emu-rear_NE.0.0
 
-EmptyImage[E][1]=./railcars/mersey-emu-rear-br.1.4
-EmptyImage[SE][1]=./railcars/mersey-emu-rear-br.1.5
-EmptyImage[S][1]=./railcars/mersey-emu-rear-br.1.6
-EmptyImage[SW][1]=./railcars/mersey-emu-rear-br.1.7
-EmptyImage[W][1]=./railcars/mersey-emu-rear-br.1.0
-EmptyImage[NW][1]=./railcars/mersey-emu-rear-br.1.1
-EmptyImage[N][1]=./railcars/mersey-emu-rear-br.1.2
-EmptyImage[NE][1]=./railcars/mersey-emu-rear-br.1.3
+EmptyImage[E][1]=./railcars/mersey-emu-rear-br_E.0.0
+EmptyImage[SE][1]=./railcars/mersey-emu-rear-br_SE.0.0
+EmptyImage[S][1]=./railcars/mersey-emu-rear-br_S.0.0
+EmptyImage[SW][1]=./railcars/mersey-emu-rear-br_SW.0.0
+EmptyImage[W][1]=./railcars/mersey-emu-rear-br_W.0.0
+EmptyImage[NW][1]=./railcars/mersey-emu-rear-br_NW.0.0
+EmptyImage[N][1]=./railcars/mersey-emu-rear-br_N.0.0
+EmptyImage[NE][1]=./railcars/mersey-emu-rear-br_NE.0.0
 --

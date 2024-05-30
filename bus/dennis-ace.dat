@@ -18,7 +18,7 @@ waytype=road
 freight=Passagiere
 payload=20
 length=4
-sound=gareth-bull-leyland-titan-td1.wav
+sound=richard-walker-dennis-e.wav
 
 comfort=38
 # One door pay driver: 4.0 seconds per passenger

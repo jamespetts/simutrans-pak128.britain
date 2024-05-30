@@ -1,0 +1,53 @@
+# https://www.gnrsociety.com/locomotive-class/120-class/
+obj=vehicle
+name=gnr-120-class
+engine_type=steam
+smoke=Steam
+speed=96
+# Extrapolated
+power=153
+tractive_effort=51
+copyright=JamesPetts
+intro_year=1872
+intro_month=10
+retire_year=1882
+retire_month=1
+waytype=track
+freight=None
+payload=0
+length=5
+way_wear_factor=65812
+
+# https://www.gnrsociety.com/locomotive-class/120-class/
+weight=41.4
+# https://www.gnrsociety.com/locomotive-class/120-class/
+axle_load=15
+cost=7456200
+runningcost=126
+fixed_cost=25000
+sound=lwalker-br-4mt-tank.wav
+
+can_lead_from_rear=0
+bidirectional=1
+
+liverytype[0]=GNR-early
+liverytype[1]=GNR-Standard
+
+EmptyImage[E][0]=./locomotives/gnr-120-class-dark_E.0.0
+EmptyImage[SE][0]=./locomotives/gnr-120-class-dark_SE.0.0
+EmptyImage[S][0]=./locomotives/gnr-120-class-dark_S.0.0
+EmptyImage[SW][0]=./locomotives/gnr-120-class-dark_SW.0.0
+EmptyImage[W][0]=./locomotives/gnr-120-class-dark_W.0.0
+EmptyImage[NW][0]=./locomotives/gnr-120-class-dark_NW.0.0
+EmptyImage[N][0]=./locomotives/gnr-120-class-dark_N.0.0
+EmptyImage[NE][0]=./locomotives/gnr-120-class-dark_NE.0.0
+
+EmptyImage[E][1]=./locomotives/gnr-120-class_E.0.0
+EmptyImage[SE][1]=./locomotives/gnr-120-class_SE.0.0
+EmptyImage[S][1]=./locomotives/gnr-120-class_S.0.0
+EmptyImage[SW][1]=./locomotives/gnr-120-class_SW.0.0
+EmptyImage[W][1]=./locomotives/gnr-120-class_W.0.0
+EmptyImage[NW][1]=./locomotives/gnr-120-class_NW.0.0
+EmptyImage[N][1]=./locomotives/gnr-120-class_N.0.0
+EmptyImage[NE][1]=./locomotives/gnr-120-class_NE.0.0
+

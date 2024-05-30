@@ -1,0 +1,20 @@
+AC LOCOS
+Class 92	21t		£11k	£5/km	£36pcm	140kph	5040kW	94.6		ac 8.1	0.6km	Eurotunnel Freight → HS1 Freight → Caledonian Sleeper
+
+AC EMUs
+Class 323 	MMM		£ 7k	£ 1/km	£ 42pcm	145kph	1170kW	92.3	01.12	ac 2.6	3.9km	284@85	-	-	LM WMids commuter-interurban
+Class 325	TMTT (mail)	£ 6k	£ 1/km	£ 45pcm	160kph	 990kW	96.6		ac 1.8	6.6km	Normal 2000		Royal Mail contracts ECML-WCML
+Class 332	MTM		£ 5k	£ 1/km	£ 44pcm	160kph	1400kW	98.1	03.8	ac 3.3	4.2km	111@105	26@154	-	\
+Class 332	MTTM		£ 7k	£ 1/km	£ 54pcm	160kph	1400kW	98.1	03.8	ac 2.5	5.8km	175@105	26@154	-	 } Heathrow Express
+Class 332	MTTTTTTM	£17k	£ 1/km	£ 97pcm	160kph	1400kW	98.1	03.8	ac 1.2	14 km	431@105 26@154	-	/
+Class 333	MTM		£ 5k	£ 1/km	£ 44pcm	160kph	1400kW	98.1	03.8	ac 3.3	4.2km	265@87	-	-	\
+Class 333	MTTM		£ 7k	£ 1/km	£ 54pcm	160kph	1400kW	98.1	03.8	ac 2.5	5.8km	360@87	-	-	 } NS → ARN → NR for WYPTE
+357 Electrostar	MT+M		£ 5k	£ 2/km	£29pcm	160kph	1000kW	99.8	17.11	ac 2.0	5.4km	204@87	-	-	 \
+357 Electrostar	MT+MM		£ 7k	£ 2/km	£37pcm	160kph	1500kW	99.8	17.11	ac 2.3	4.5km	275@87	-	-	  } c2c LTS
+357 Electrostar	MMT+M		£ 7k	£ 2/km	£37pcm	160kph	1500kW	99.8	17.11	17.11ac 2.3	4.5km	282@87	-	-	 /
+357 Electrostar	MMT+MM		£ 9k	£ 3/km	£45pcm	160kph	2000kW	99.8	17.11	ac 2.17.115	4.1km	353@87	-	-	/
+365 NetwkXpress	McTTMc		£ 8k	£ 1/km	£ 53pcm	160kph	1256kW	94.2	99.10	ac 3.2	5.7km	218@100	24@116	-	NSE SEEng → CSE
+373 Eurostar	MT+TT+M		£34K?	£12/km	£105pcm	300kph	12.2MW	94.11	15.12	ac 4.6	5.3km	152@153	-	-	\
+373 Eurostar	MT+TBFTT+M	£33K	£12/km	£149pcm	300kph	12.2MW	94.11	15.12	ac 3.4	7.3km	208@153	39@165	C4	 } Eurostar
+
+

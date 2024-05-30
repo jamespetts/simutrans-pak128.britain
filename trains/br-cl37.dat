@@ -6,7 +6,7 @@ speed=145
 gear=50
 power=1304
 tractive_effort=247
-copyright=Kieron
+copyright=Kieron/Rollmaterial
 intro_year=1960
 intro_month=6
 retire_year=1968
@@ -17,7 +17,8 @@ payload=0
 length=11
 rolling_resistance=13
 
-weight=105
+# https://en.wikipedia.org/wiki/British_Rail_Class_37
+weight=107.0
 axles=6
 cost=6048000
 runningcost=653

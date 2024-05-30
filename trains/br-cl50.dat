@@ -6,7 +6,7 @@ speed=160
 gear=50
 power=2010
 tractive_effort=216
-copyright=Kieron/JamesPetts
+copyright=Kieron/JamesPetts/Rollmaterial
 intro_year=1967
 intro_month=10
 retire_year=1973
@@ -17,7 +17,8 @@ payload=0
 length=12
 rolling_resistance=13
 
-weight=117
+# https://en.wikipedia.org/wiki/British_Rail_Class_50
+weight=117.0
 axles=6
 cost=7221000
 runningcost=1006

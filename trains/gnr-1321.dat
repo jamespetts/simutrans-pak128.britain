@@ -23,7 +23,6 @@ cost=9300000
 runningcost=156
 fixed_cost=31750
 
-
 Constraint[Next][0]=GNR-C1-Tender
 
 liverytype[0]=GNR-Standard

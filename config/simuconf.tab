@@ -717,6 +717,20 @@ rural_industries_no_staff_shortage = 1
 # lead time for new deliveries. Values of slightly over 100% are recommended.
 maximum_intransit_percentage = 110
 
+# The maximum_intransit_percentage will catastrophically break freight if the industry
+# capacities are too low.  While this should be fixed in the .dat files, this is difficult
+# due to all the scaling factors.  These act as a "sanity check" backstop.  They should be
+# set to at least the size of a single truckload for a truck which is expected to be economically viable
+# for all goods.  This makes it possible to:
+# (a) set the truck to wait for full at the origin (minimum_industry_output_storage_raw)
+# (b) deliver a full truckload to the destination (minimum_industry_input_storage_raw)
+#
+# For pak128.britain, the 1750 slow horse-drawn wagon has a capacity of 7 perishable goods, 6 everything else.
+# This should be economically usable, so this is the minimum set.  Late game trucks still have similar capacities
+# around 5 to 7 so this shuld still be effective.
+minimum_industry_output_storage_raw = 7
+minimum_industry_input_storage_raw = 7
+
 # The following settings determine the thresholds for deciding whether an industry is short
 # of staff. 
 # 
@@ -865,6 +879,13 @@ power_revenue_factor_percentage = 100
 # Allows fuel units to be set in, for example, grammes whilst fuel costs are calibrated for, for example, tonnes.
 # Preserves accuracy without requiring very high absolute figures (only rounds down at the end of each trip).
 fuel_unit_cost_divider = 1000
+
+# Sanity check: overrides to deal with problem settings in individual factory buildings in paks which round down too low.
+# Minimum storage size for industries should be set at the size of a small vehicle which is expected to
+# be usable economically during the game.  This is always at least 1, but usually more like 5 or 7.
+minimum_industry_input_storage_raw = 1
+minimum_industry_output_storage_raw = 1
+
 
 
 ################################### Time settings ################################
@@ -1543,6 +1564,9 @@ intro_month[11][3] = 3
 livery[11][4] = LNER
 intro_year[11][4] = 2018
 intro_month[11][4] = 6
+livery[11][5] = LNER-225
+intro_year[11][5] = 2022
+intro_month[11][5] = 7
 
 livery_scheme[12] = Grand-Central
 retire_year[12] = 2500
@@ -2933,4 +2957,12 @@ livery[113][1] = Teesside-municipal-transport
 intro_year[113][1] = 1967
 intro_month[113][1] = 4
 
-
+livery_scheme[114] = Eurostar
+retire_year[114] = 2500
+retire_month[114] = 1
+livery[114][0] = Eurostar-original
+intro_year[114][0] = 1994
+intro_month[114][0] = 11
+livery[114][1] = Eurostar-e3xx
+intro_year[114][1] = 2015
+intro_month[114][1] = 7

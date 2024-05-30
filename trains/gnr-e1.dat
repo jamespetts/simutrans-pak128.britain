@@ -1,3 +1,4 @@
+# https://www.lner.info/locos/E/e1.php
 obj=vehicle
 name=gnr-e1
 engine_type=steam
@@ -16,8 +17,9 @@ freight=None
 payload=0
 length=5
 
-# http://www.lner.info/locos/D/d3d4.php
+# https://www.lner.info/locos/E/e1.php
 weight=42.1
+# https://www.lner.info/locos/E/e1.php
 axle_load=15
 cost=9000000
 runningcost=133

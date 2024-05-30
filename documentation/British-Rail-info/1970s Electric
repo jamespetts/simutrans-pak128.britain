@@ -1,0 +1,22 @@
+AC LOCOS
+81		20t	£11k	£5/km	£40pcm	160kph	2390kW	59.11		ac 7.8	1.3km	WCML
+86 Zebedee	20t	£11k	£5/km	£40pcm	160kph	3010kW	65.6	73.6	ac 9.4	1.0km	WCML & GEML MT -> Anglia GEML, CalS, EWS ECML Mail, VT XC-WCML, Freightliner WCML north
+87		20t	£10k	£6/km	£39pcm	177kph	3730kW	73.6	87.2	ac 8.8	1.2km	WCML -> VTWC -> EWS, GBRf -> Bulgaria
+
+AC EMUs
+Class 312 TMTF  £ 6k	£1/km	£39pcm	145kph	 806kW	76.10	81.4	ac 1.3	7  km	297@83	25@130		GN outer, GE Essex, WM local -> NSE LTS, WMPTE local -> CT WCML, GE Essex -> LTS
+Class 313 MTM	£ 5k	£1/km	£39pcm	120kph	 656kW	75.12		ac 2.4	2.9km	231@56	-		GN inner  -> WAGN GN inner, Silverlink -> GN inner, LO north -> SN Coastway
+Class 314 MTM   £ 4k    £1/km   £38pcm  120kph   656kW  79.11   86.9	ac 2.5  2.8km   212@56  -               SPT Glasgow suburban -> SR
+
+(Revised above this line)
+Class 304 TMT	£ 7k	£1/km	£15pcm	120kph	 618kW	60.4		ac 1.6	3.7km	258@78			 } WCML north interurban, ER commuter-GEML
+Class 304 TFMT	£ 9k	£1/km	£20pcm	120kph	 618kW	60.4		ac 1.3	5.0km	317@78	29@129		/
+309/1 MF	£ 3k	£1/km	£21pcm	160kph	 846kW	62.10		ac 2.4	4.4km	88@137	18@154		\
+309/2 MMTF	£ 6k	£1/km	£29pcm	160kph	 846kW	62.10		ac 1.1	10 km	176@137 36@154		 } ECML aborted -> GEML -> RR Northwest -> 1NW
+309/2 MMGF	£ 6k	£1/km	£29pcm	160kph	 846kW	62.10		ac 1.1	11 km	146@13	36@154	C3	/
+Class 310 TMM1	£ 5k	£1/km	£35pcm	120kph	 806kW	65.11		ac 1.6	2.9km	193@83	26@130		\		
+Class 310 TMTM1 £ 5k	£1/km	£39pcm	120kph	 806kW	65.11		ac 1.3	3.7km	293@83	26@130		 } WCML south commuter -> LTS / WM commuter
+For unpowered Class 491 multiple units, see 1960s Diesels.
+
+DC LOCOS
+73

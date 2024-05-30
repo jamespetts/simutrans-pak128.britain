@@ -351,8 +351,8 @@ waytype[1]=track
 waytype[0]=road
 speed[1]=10
 speed[0]=14
-intro_year=1767
-intro_month=4
+intro_year=1700
+intro_month=1
 retire_year=1847
 retire_month=9
 

@@ -1,0 +1,27 @@
+LOCOS
+Class 66			£ 7k	£7/km	£32pcm	120kph	1492kW	98.9	21t	?
+Class 67			£ 7k	£4/km	£32pcm	200kph	2200kW	00.2	22t	Mail, sleeper, expresses
+68 "Vossloh UKLight"		£12k	£8/km	£37pcm	160kph	2800kW	14.9	21t	?
+Class 70 "Powerhaul"		£11k	£6/km	£37pcm	120kph	2750kW	09.11	21t	Heavy freight
+
+DMUs
+172/0 Turbostar	MM		£ 5k	£2/km	£ 35pcm	160kph	 720kW	10.7 	19.7	ac 2.5	3.6km	117@ 76	-	-	\
+172/0 Turbostar	MMM		£ 7k	£3/km	£ 38pcm	160kph	1080kW	10.7 	19.7	ac 2.6	3.3km	193@ 76	-	-	 }
+172/0 Turbostar	MMMMMM		£17k	£8/km	£ 48pcm	160kph	2520kW	10.7 	19.7	ac 2.6	8.1km	497@ 76	-	-	/
+172/2 Turbostar	MM		£ 5k	£2/km	£ 35pcm	160kph	 720kW	10.10	19.7	ac 2.5	11 km	117@ 81	-	-	\
+172/2 Turbostar	MMM		£ 7k	£3/km	£ 38pcm	160kph	1080kW	10.10	19.7	ac 2.6	9.5km	174@ 81	-	-	 } GOBLIN; LM/WMT; Chiltern
+172/2 Turbostar	MMMMMMM		£17k	£8/km	£ 48pcm	160kph	2520kW	10.10	19.7	ac 2.6	8.1km	497@ 81	-	-	/
+195 Civity	MM		£ 6k	£2/km	£ 36pcm	160kph	 780kW	19.7		ac 2.9	10 km	124@ 72	-	-	\
+195 Civity	MMM		£ 9k	£4/km	£ 39pcm	160kph	1170kW	19.7		ac 2.9	 9 km	204@ 72	-	-	 } Northern all diesel routes
+195 Civity	MMMMMMM		£18k	£8/km	£ 49pcm	160kph	2730kW	19.7		ac 3.0	7.8km	524@ 72	-	-	/
+800/802 AT300	TMMK1		£11k	£4/km	£ 76pcm	200kph	1400kW	17.10		ac 2.1	27 km	288@129	 -	C1	 \
+800/802 AT300	TMFK3		£11k	£4/km	£108pcm	200kph	1400kW	17.10		ac 2.1	27 km	144@129	 73@142	C3	  }
+800/802 AT300	TMMFK2		£17k	£8/km	£116pcm	200kph	2800kW	17.10		ac 2.8	17 km	290@129	101@142	C2	 /
+800/802 AT300	TMMTCFK1	£18k	£8/km	£106pcm	200kph	2800kW	17.10		ac 2.5	20 km	434@129	 76@142	C1	/
+
+DMUs revised above this line---------------------------------------------------
+Class 800/802 "AT300"@	£11k	£4/km	£77pcm	200kph	1400kW	2017.10 200@129+5 58@142+5 ECML, GWML, Hull, TPE
+
+* Data for largest possible complete set
+# Data for minimum possible complete set
+@ Shortest length, but class composition highly variable

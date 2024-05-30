@@ -1,0 +1,36 @@
+AC LOCOs
+88 Vossloh Euro Dual	21t	£12k	£9/km	£37pcm	160kph	4700kW	14.2		ac10.5	0.7km	?
+
+AC EMUs
+331 Civity	MT+M		£ 7k	£ 4/km	£ 42pcm	160kph	1760kW	19.7		ac 4.6	2.8km	204@ 75	-	-	\
+331 Civity	MT+TM		£ 7k	£ 4/km	£ 45pcm	160kph	1760kW	19.7		ac 3.6	3.6km	284@ 75	-	-	 } Northern interurban
+331 Civity	MT+TTMTT+M	£14k	£ 4/km	£ 54pcm	160kph	2640kW	19.7		ac 3.2	4.1km	524@ 75	-	-	/
+345 Aventera	MMM		£ 4k	£ 3/km	£ 37pcm	145kph	 1350kW	17.5		ac 4.8	2.6km	114@ 75	 -	-	\
+345 Aventera	MMMM		£ 6k	£ 4/km	£ 40pcm	145kph	 1850kW	17.5		ac 5.1	2.5km	170@ 75	 -	-	 } Crossrail=Elizabeth Line
+345 Aventera	MMMM		£12k	£ 7/km	£ 50pcm	145kph	 3350kW	17.5		ac 5.4	2.4km	338@ 75	 -	-	/
+374 e320	MT+M		£ 5k	£ 8/km	£ 44pcm	320kph	 4000kW	15.12		ac 2.5	15 km	 76@144	 72@155	-	\
+374 e320	MT+MBMT+T+M	£17k	£20/km	£151pcm	320kph	10000kW	15.12		ac 2.3	14 km	412@144	 72@155	C4	 } Eurostar
+374 e320	MT+MBMMT+M	£17k	£24/km	£160pcm	320kph	12000kW	15.12		ac 2.7	12 km	412@144	 72@155	C4	/
+379 Electrostar MTM		£ 7k	£ 2/km	£ 39pcm	160pkh	 1200kW	10.10		ac 1.9	4.6km	127@ 96	 20@137	-	\
+379 Electrostar MMTM/MTMM	£ 9k	£ 3/km	£ 53pcm	160pkh	 1800kW	10.10		ac 2.3	3.8km	189@ 96	 20@137	-	 } NXEA Stansted/WAML → GA
+379 Electrostar MMTMM		£12k	£ 4/km	£ 67pcm	160pkh	 2400kW	10.10		ac 2.5	3.4km	251@ 96	 20@137	-	/
+380 Desiro	MTM		£ 5k	£ 3/km	£ 44pcm	160kph	 1500kW	10.12		ac 4.3	3.6km	191@ 93	 -	-	 } ScR Ayrshire/Central Belt/ECML/Inverclyde
+380 Desiro	MTTM		£ 7k	£ 3/km	£ 54pcm	160kph	 1500kW	10.12		ac 3.3	4.9km	264@ 93	 -	-	/
+385 AT200	MTM		£ 5k	£ 3/km	£ 44pcm	160kph	 1500kW 17.5		ac 4.3	3.6km	117@ 86	 20@106	-	 } ScR Central Belt interurban & suburban
+385 AT200	MTTM		£ 7k	£ 3/km	£ 54pcm	160kph	 1500kW 17.5		ac 3.3	4.9km	260@ 86	 20@106	-	/
+387 Electrostar	MTM		£ 9k	£ 2/km	£ 39pcm	177kph	 1200kW	14.12		ac 1.9	6.7km	151@ 96	 10@ 98	-	\ Thameslink, Southern, GWR GWML commuter-Oxford suburban, c2c limited
+387 Electrostar	MMTM/MTMM	£12k	£ 3/km	£ 53pcm	177kph	 1800kW	14.12		ac 2.2	5.5km	213@ 96	 10@ 98	-	 } stop, Gatwick → GN Cambridge line, GWR Oxford suburban-Heathrow
+387 Electrostar	MMTMM		£16k	£ 4/km	£ 67pcm	177kph	 2400kW	14.12		ac 2.4	4.9km	275@ 96	 10@ 98	-	/ Express-Cardiff
+397 Civity	MT+M		£ 8k	£ 4/km	£ 78pcm	200kph	1760kW	19.12		ac 3.5	6.0km	120@120	 24@140	C2	\
+397 Civity	MT+TM		£10k	£ 4/km	£ 86pcm	200kph	1760kW	19.12		ac 2.8	7.6km	196@120	 24@140	C2	 } TPE WCML
+397 Civity	MT+TMT+M	£14k	£ 7/km	£103pcm	2000kph	2640kW	19.12		ac 2.8	7.3km	340@120	 24@140	C2	/
+700 Desiro City	MT+M		£ 4k	£ 3/km	£ 39pcm	160kph	 1700kW	16.6		ac 4.7	2.4km	106@ 77	 48@ 94	-	\
+700 Desiro City MT+MMT+M	£ 9k	£ 7/km	£ 51pcm	160kph	 3400kW	16.6		ac 4.7	2.3km	268@ 77	 48@ 94	-	 } Thameslink
+700 Desiro City	MT+MTTMT+M	£11k	£ 7/km	£ 62pcm	160kph	 3400kW	16.6		ac 3.6	3.1km	378@ 77	 48@ 94	-	/
+710 Aventra	MMM		£ 4k	£ 3/km	£ 37pcm	120kph	 1350kW	18.5		ac 4.9	1.4km	 98@ 59	 -	-	\
+710 Aventra	MMMM		£ 6k	£ 4/km	£ 40pcm	120kph	 1850kW	18.5		ac 5.1	1.4km	132@ 59	 -	-	 }
+710 Aventra	MMMMMMMM	£14k	£ 8/km	£ 53pcm	120kph	 3850kW	18.5		ac 5.4	1.3km	268@ 59	 -	-	/
+801 Azuma	TMMK1		£10k	£ 5/km	£ 73pcm	225kph	 1808kW	18.2		ac 2.4	13 km	288@129	 -	C1	 \
+801 Azuma	TMFK3		£11k	£ 5/km	£105pcm	225kph	 1808kW	18.2		ac 2.4	13 km	144@129	 73@142	C3	  }
+801 Azuma	TMMFK2		£13k	£ 7/km	£ 99pcm	225kph	 2712kW	18.2		ac 2.8	10 km	232@129	 83@142	C2	 /
+801 Azuma	TMMTCFK1	£17k	£ 7/km	£ 99pcm	225kph	 3616kW	18.2		ac 2.8	10 km	434@129	 76@142	C1	/

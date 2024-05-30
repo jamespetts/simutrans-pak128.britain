@@ -1,0 +1,44 @@
+LOCOS
+17 Clayton	17t	£ 9k	£ 4/km	£37pcm	 97kph	 671kW	62.2	65.10	ac 4.5	1.5km	F: ScR, LMR Cumbria, ER Northeast
+25		18t	£11k	£ 5/km	£40pcm	145kph	 932kW	61.11	74.6	ac 4.2	4.2km	F+	LM, SC, WR esp WSF
+27		18t	£12k	£ 5/km	£41pcm	145kph	 932kW	61.4	69.1	ac 4.5	4.2km	MT	ScR esp Highlands, LMR -> ScR push-pull
+!28/2	See 1950s Diesels
+!29			£ 0k!	£ 5/km		130kph	1010kW	63.1	67.9
+!31			£12k	£ 6/km		145kph	1097kW	64.3	75.9
+33		18t	£ 9k	£ 6/km	£37pcm	140kph	1156kW	60.2	75.10	ac 4.9	2.9km	SR		
+35 Hymek	18t	£ 9k	£ 7/km	£37pcm	145kph	1305kW	61.2	65.10	ac 5.0	2.9km	WR all
+37 Tractors	17t	£ 8k	£ 7/km	£36pcm	145kph	1304kW	60.6	68.3	ac 4.1	4.2km	All esp. Highlands, Wales & Channel Tunnel
+45 Peaks	17t	£15k	£ 9/km	£46pcm	145kph	1864kW	60.3	63.1	ac 3.2	3.7km	MidlandML -> TransPennine
+47		20t	£ 9k	£10/km	£37pcm	153kph	1922kW	62.11	72.1	ac 3.6	3.9km	All	LM, ER, ScR
+50		19t	£ 9k	£10/km	£38pcm	160kph	2010kW	67.10	73.5	ac 3.2	4.0km	WCML -> GWML -> SWML, WR
+52 Western	18t	£15k	£10/km	£46pcm	140kph	2025kW	61.9	64.1	ac 4.0	2.9km	WR
+55 Deltic	16t	£17k	£12/km	£48pcm	160kph	2460kW	61.9	67.12	ac 3.9	2.7km	ECML
+
+! Upgrade only
+* Passengers in summer; freight in winter
+
+DMUs
+Class 104 	MM	£3k	£4/km	£36pcm	113kph	448kW	57.11	85.4	ac 1.7	4.0km	106@80	12@107	- 	} LM -> Tyne, ScR, GOBLIN
+Class 104 	MTM	£4k	£4/km	£38pcm	113kph	448kW	57.11	85.4	ac 1.2	5.9km	175@80	12@107	-	/
+Class 117 	MM	£3k	£4/km	£57pcm	113kph	448kW	59.9	80.11	ac 1.5	4.7km	154@75	-	-	 } WR -> LM, ScR -> NSE, RR
+Class 117 	MTM	£4k	£4/km	£59pcm	113kph	448kW	59.9	80.11	ac 1.0	7.8km	202@75	22@88	-	/
+Class 121	M	£2k	£1/km	£27pcm	112kph	224kW	60.4	80.11	ac 1.4	6.0km	65@75	-	-	WR -> Silverlink
+Class 123 I/C 	MFTM	£5k	£3/km	£58pcm	112kph	686kW	63.5	77.8	ac 1.2	6.5km	176@125 24@145	-	\
+Class 123 I/C 	MFBM	£2k	£3/km	£59pcm	112kph	686kW	63.5	77.8	ac 1.2	6.6km	144@125 24@145	C3+16	 }WR -> Hull??
+Class 123 I/C 	MFTM	£2k	£2/km	£28pcm	112kph	343kW	63.5	77.8	ac 1.2	6.5km	176@125 24@145	-	/
+Class 128		£2k	£3/km	£28pcm	112kph	343kW	59.7	80.10				480 RM	-	WR -> LM, ER
+Class 251 Blue	M3P3M3	£6k	£8/km	£10pcm	145kph	1500kW	60.7	65.5	ac 1.2	6.8km	M 78@156	-	   \	
+Class 251 " M1KP1M1	£9k	£8/km	£90pcm	145kph	1500kW	60.7	65.5	ac 1.0	8.4km	VH 78@164 C5+25 -	    }MML?
+251 Blue M1P1KP3P3P3M3	£13k	£8/km	£85pcm	145kph	1500kW	60.7	65.5	ac 0.6	17 km	M 144@156 VH 66@164 C5+25  /
+
+TRAILER CONTROL MULTIPLE UNIT*
+Class 491 4-TC	TTFT	£7k	-	£16pcm	145kph	0   kW	66.11	80.2	-	-	168@136 42@154	-	 } SR Waterloo-Weymouth
+Class 491 4-TC	TTBT	£7k	-	£61pcm	145kph	0   kW	66.11	80.2	-	-	189@136 -	-	/
+
+* These are unpowered units that can only be used with a Class 33 locomotive (or a class 430 4REP third-rail DC railcar) before or after them.
+
+DMU Formation Codes: 
+B Buffet car or similar (usually 3rd/standard class)
+F First class trailer
+M Motor
+T Trailer (3rd/standard class)

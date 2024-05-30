@@ -6,7 +6,7 @@ speed=120
 gear=50
 power=212
 tractive_effort=48
-copyright=Kieron
+copyright=Kieron/Rollmaterial
 intro_year=1991
 intro_month=3
 retire_year=1999
@@ -40,7 +40,7 @@ comfort[1]=92
 
 upgrade[0]=br-153-trolley
 
-#BSI multiple working
+# BSI multiple working
 Constraint[Prev][0]=br-150-rear
 Constraint[Prev][1]=br-153
 Constraint[Prev][2]=br-153-trolley
@@ -52,7 +52,8 @@ Constraint[Prev][7]=br-142-1-rear
 Constraint[Prev][8]=br-144-0-rear
 Constraint[Prev][9]=br-144-1-rear
 Constraint[Prev][10]=BR-170Rear
-Constraint[Prev][11]=none
+Constraint[Prev][11]=br-159-rear
+Constraint[Prev][12]=none
 
 Constraint[Next][0]=br-150-front
 Constraint[Next][1]=br-153
@@ -66,7 +67,8 @@ Constraint[Next][8]=br-142-1-front
 Constraint[Next][9]=br-144-0-front
 Constraint[Next][10]=br-144-1-front
 Constraint[Next][11]=BR-170Front
-Constraint[Next][12]=none
+Constraint[Next][12]=br-159-front
+Constraint[Next][13]=none
 
 liverytype[0]=Regional-Railways-Standard
 liverytype[1]=One
@@ -99,7 +101,7 @@ speed=120
 gear=50
 power=212
 tractive_effort=48
-copyright=Kieron
+copyright=Kieron/Rollmaterial
 intro_year=1991
 intro_month=3
 retire_year=1999
@@ -133,6 +135,7 @@ catering_level=1
 
 upgrade[0]=br-153
 
+# BSI multiple working
 Constraint[Prev][0]=br-150-rear
 Constraint[Prev][1]=br-153
 Constraint[Prev][2]=br-153-trolley
@@ -144,7 +147,8 @@ Constraint[Prev][7]=br-142-1-rear
 Constraint[Prev][8]=br-144-0-rear
 Constraint[Prev][9]=br-144-1-rear
 Constraint[Prev][10]=BR-170Rear
-Constraint[Prev][11]=none
+Constraint[Prev][11]=br-159-rear
+Constraint[Prev][12]=none
 
 Constraint[Next][0]=br-150-front
 Constraint[Next][1]=br-153
@@ -158,7 +162,8 @@ Constraint[Next][8]=br-142-1-front
 Constraint[Next][9]=br-144-0-front
 Constraint[Next][10]=br-144-1-front
 Constraint[Next][11]=BR-170Front
-Constraint[Next][12]=none
+Constraint[Next][12]=br-159-front
+Constraint[Next][13]=none
 
 liverytype[0]=Regional-Railways-Standard
 liverytype[1]=One

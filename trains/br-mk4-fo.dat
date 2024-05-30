@@ -43,6 +43,7 @@ liverytype[1]=GNER
 liverytype[2]=National-Express
 liverytype[3]=East-Coast
 liverytype[4]=VTEC
+liverytype[5]=LNER-225
 
 EmptyImage[E][0]=./carriages/br-mk4-fo-ic_E.0.0
 EmptyImage[SE][0]=./carriages/br-mk4-fo-ic_SE.0.0
@@ -88,4 +89,13 @@ EmptyImage[W][4]=./carriages/br-mk4-fo-vtec_W.0
 EmptyImage[NW][4]=./carriages/br-mk4-fo-vtec_NW.0
 EmptyImage[N][4]=./carriages/br-mk4-fo-vtec_N.0
 EmptyImage[NE][4]=./carriages/br-mk4-fo-vtec_NE.0
+
+EmptyImage[E][5]=./carriages/br-mk4-fo-lner_E.0.0
+EmptyImage[SE][5]=./carriages/br-mk4-fo-lner_SE.0.0
+EmptyImage[S][5]=./carriages/br-mk4-fo-lner_S.0.0
+EmptyImage[SW][5]=./carriages/br-mk4-fo-lner_SW.0.0
+EmptyImage[W][5]=./carriages/br-mk4-fo-lner_W.0.0
+EmptyImage[NW][5]=./carriages/br-mk4-fo-lner_NW.0.0
+EmptyImage[N][5]=./carriages/br-mk4-fo-lner_N.0.0
+EmptyImage[NE][5]=./carriages/br-mk4-fo-lner_NE.0.0
 --

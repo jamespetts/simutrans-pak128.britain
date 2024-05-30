@@ -1,0 +1,12 @@
+AC LOCO
+81	20t	£11k	£5/km	£40pcm	160kph	2390kW	59.11	65.6	ac 7.8	1.3km	-	-	WCML
+
+AC EMUs
+Class 302 TMFT	£6k	£1/km	£13pcm	120kph	 565kW	58.10	60.9	ac 1.2	5.4km	343@78	20@129	ER LTS, GE Commuter -> NSE
+Class 303 TMT	£7k	£1/km	£15pcm	120kph	 618kW	59.2	68.9	ac 1.5	3.9km	236@82		ScR Clydeside commuter -> Strathclyde PTE, PR NW England
+
+DC EMUs
+Class 506	£7k	£1/km	£39pcm	120kph	552kW	50.12	65.12	ac 1.7	3.7km	174@78	-	Woodhead
+Class 307	£6k	£1/km	£13pcm	120kph	545kW	56.2	60.9	ac 1.2	5.6km	343@77	20@130	GEML, LTS -> W.Yorks
+
+
