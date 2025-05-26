@@ -27,6 +27,7 @@ fixed_cost=19240
 # first introduced.
 increase_maintenance_after_years=6
 rolling_resistance=13
+# It is likely to be difficult to find an authentic sound for this, so use the Class 31 sound instead.
 sound=laurie-class-31.wav
 
 can_lead_from_rear=0

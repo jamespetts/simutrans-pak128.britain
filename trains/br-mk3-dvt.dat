@@ -48,6 +48,7 @@ liverytype[3]=Virgin-original
 liverytype[4]=One
 liverytype[5]=National-Express
 liverytype[6]=NXEA
+liverytype[7]=Abellio-Greater-Anglia
 
 # These never wore BR blue livery. The original .blends
 # for the hypothetical BR blue livery are now lost.
@@ -114,4 +115,13 @@ EmptyImage[W][6]=./carriages/br-mk3-dvt-nx_W.0.0
 EmptyImage[NW][6]=./carriages/br-mk3-dvt-nx_NW.0.0
 EmptyImage[N][6]=./carriages/br-mk3-dvt-nx_N.0.0
 EmptyImage[NE][6]=./carriages/br-mk3-dvt-nx_NE.0.0
+
+EmptyImage[E][7]=./carriages/br-mk3-dvt-abellio_E.0.0
+EmptyImage[SE][7]=./carriages/br-mk3-dvt-abellio_SE.0.0
+EmptyImage[S][7]=./carriages/br-mk3-dvt-abellio_S.0.0
+EmptyImage[SW][7]=./carriages/br-mk3-dvt-abellio_SW.0.0
+EmptyImage[W][7]=./carriages/br-mk3-dvt-abellio_W.0.0
+EmptyImage[NW][7]=./carriages/br-mk3-dvt-abellio_NW.0.0
+EmptyImage[N][7]=./carriages/br-mk3-dvt-abellio_N.0.0
+EmptyImage[NE][7]=./carriages/br-mk3-dvt-abellio_NE.0.0
 --

@@ -1,0 +1,71 @@
+# https://www.lner.info/locos/IC/ner_petrolelectric.php
+# https://en.wikipedia.org/wiki/1903_Petrol_Electric_Autocar
+# https://electricautocar.co.uk/
+obj=vehicle
+name=ner-tyne-petrol-electric-railcar
+engine_type=petrol
+# Guessed
+speed=70
+power=63
+gear=50
+tractive_effort=18
+copyright=Junna/Cake/JamesPetts
+intro_year=1903
+intro_month=5
+retire_year=1933
+retire_month=12
+waytype=track
+freight=Passagiere
+payload[0]=0
+payload[1]=52
+overcrowded_capacity=40
+length=10
+
+# https://www.lner.info/locos/IC/ner_petrolelectric.php
+weight=36.3
+# Note: 70 gallon tanks (relevant for range)
+axles=4
+cost=471000
+runningcost=65
+fixed_cost=7200
+# TODO: Find a suitable sound for this
+#sound=
+
+can_lead_from_rear=1
+bidirectional=0
+
+# A single door each side
+min_loading_time=15
+max_loading_time=80
+
+comfort[0]=0
+comfort[1]=69
+
+Constraint[Prev][0]=none
+
+# Can haul a load
+#Constraint[Next][0]=none
+
+liverytype[0]=NER-standard
+liverytype[1]=LNER-Standard
+
+EmptyImage[E][0]=./railcars/ner-tyne-petrol-electric-railcar-ner_E.0.0
+EmptyImage[SE][0]=./railcars/ner-tyne-petrol-electric-railcar-ner_SE.0.0
+EmptyImage[S][0]=./railcars/ner-tyne-petrol-electric-railcar-ner_S.0.0
+EmptyImage[SW][0]=./railcars/ner-tyne-petrol-electric-railcar-ner_SW.0.0
+EmptyImage[W][0]=./railcars/ner-tyne-petrol-electric-railcar-ner_W.0.0
+EmptyImage[NW][0]=./railcars/ner-tyne-petrol-electric-railcar-ner_NW.0.0
+EmptyImage[N][0]=./railcars/ner-tyne-petrol-electric-railcar-ner_N.0.0
+EmptyImage[NE][0]=./railcars/ner-tyne-petrol-electric-railcar-ner_NE.0.0
+
+EmptyImage[E][1]=./railcars/ner-tyne-petrol-electric-railcar-lner_E.0.0
+EmptyImage[SE][1]=./railcars/ner-tyne-petrol-electric-railcar-lner_SE.0.0
+EmptyImage[S][1]=./railcars/ner-tyne-petrol-electric-railcar-lner_S.0.0
+EmptyImage[SW][1]=./railcars/ner-tyne-petrol-electric-railcar-lner_SW.0.0
+EmptyImage[W][1]=./railcars/ner-tyne-petrol-electric-railcar-lner_W.0.0
+EmptyImage[NW][1]=./railcars/ner-tyne-petrol-electric-railcar-lner_NW.0.0
+EmptyImage[N][1]=./railcars/ner-tyne-petrol-electric-railcar-lner_N.0.0
+EmptyImage[NE][1]=./railcars/ner-tyne-petrol-electric-railcar-lner_NE.0.0
+
+
+

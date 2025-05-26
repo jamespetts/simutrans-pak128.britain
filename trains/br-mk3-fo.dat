@@ -236,6 +236,7 @@ liverytype[11]=Scotrail-original
 liverytype[12]=Virgin-original
 liverytype[13]=One
 liverytype[14]=NXEA
+liverytype[15]=Abellio-Greater-Anglia
 
 EmptyImage[E][0]=./carriages/br-mk3-fo-bg_E.0
 EmptyImage[SE][0]=./carriages/br-mk3-fo-bg_SE.0
@@ -372,4 +373,13 @@ EmptyImage[W][14]=./carriages/br-mk3-to-nx_W.0
 EmptyImage[NW][14]=./carriages/br-mk3-to-nx_NW.0
 EmptyImage[N][14]=./carriages/br-mk3-to-nx_N.0
 EmptyImage[NE][14]=./carriages/br-mk3-to-nx_NE.0
+
+EmptyImage[E][15]=./carriages/br-mk3-fo-abellio_E.0
+EmptyImage[SE][15]=./carriages/br-mk3-fo-abellio_SE.0
+EmptyImage[S][15]=./carriages/br-mk3-fo-abellio_S.0
+EmptyImage[SW][15]=./carriages/br-mk3-fo-abellio_SW.0
+EmptyImage[W][15]=./carriages/br-mk3-fo-abellio_W.0
+EmptyImage[NW][15]=./carriages/br-mk3-fo-abellio_NW.0
+EmptyImage[N][15]=./carriages/br-mk3-fo-abellio_N.0
+EmptyImage[NE][15]=./carriages/br-mk3-fo-abellio_NE.0
 --

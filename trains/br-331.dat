@@ -1,9 +1,8 @@
-
 obj=vehicle
 name=BR-331Front
 engine_type=electric
 speed=160
-#https://tsa.at/references/caf_civity_uk_for_various_operators_in_the_united_kingdom
+# https://tsa.at/references/caf_civity_uk_for_various_operators_in_the_united_kingdom
 power=880
 tractive_effort=102
 gear=80
@@ -33,8 +32,9 @@ sound=panos-g-class-395.wav
 min_loading_time=12
 max_loading_time=50
 comfort[0]=0
-comfort[1]=75
-catering_level=2
+comfort[1]=81
+# These units do not have buffets. Catering level 1 = trolley service, but it is unclear that these had such a service.
+#catering_level=2
 
 can_lead_from_rear=1
 bidirectional=0
@@ -85,7 +85,7 @@ fixed_cost=1389
 min_loading_time=12
 max_loading_time=50
 comfort[0]=0
-comfort[1]=75
+comfort[1]=81
 comfort[2]=0
 comfort[3]=0
 
@@ -136,7 +136,7 @@ fixed_cost=1111
 min_loading_time=12
 max_loading_time=50
 comfort[0]=0
-comfort[1]=75
+comfort[1]=81
 can_lead_from_rear=0
 bidirectional=1
 way_constraint_permissive[2]=2
@@ -189,7 +189,7 @@ fixed_cost=1111
 min_loading_time=12
 max_loading_time=50
 comfort[0]=0
-comfort[1]=75
+comfort[1]=81
 can_lead_from_rear=0
 bidirectional=1
 way_constraint_permissive[2]=2
@@ -239,7 +239,7 @@ fixed_cost=1389
 min_loading_time=12
 max_loading_time=50
 comfort[0]=0
-comfort[1]=75
+comfort[1]=81
 comfort[2]=0
 comfort[3]=0
 
@@ -297,7 +297,7 @@ sound=panos-g-class-395.wav
 min_loading_time=12
 max_loading_time=50
 comfort[0]=0
-comfort[1]=75
+comfort[1]=81
 comfort[2]=0
 comfort[3]=0
 

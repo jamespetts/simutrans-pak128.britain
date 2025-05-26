@@ -850,7 +850,7 @@ Railway depot (steam)
 OldTrainDepotElectric
 Railway depot (electric)
 OldTrainDepotDiesel
-Railway depot (diesel)
+Railway depot (internal combustion)
 ModernTrainDepot
 Railway depot (modern traction)
 ModernTrainDepotElectric
@@ -2787,13 +2787,21 @@ LMS Class 8F (tender)
 GNR-C1
 GNR Class C1 4-4-2
 GNR-C1-Tender
-GNR Express tender
+GNR express tender
+gnr-k1-tender
+GNR freight tender
+gnr-k3-tender
+GNR mixed traffic tender
 gnr-early-tender
 GNR tender
 GNR-C1-superheated
-GNR C1 Class  4-4-2 (superheated)
+GNR C1 Class 4-4-2 (superheated)
 GNR-Klondyke
 GNR C2 Class "Klondyke" 4-4-2
+gnr-k1
+GNR K1 Class 2-6-0
+gnr-k3
+GNR K3 Class 2-6-0
 gnr-d1
 GNR D1 Class 4-4-0
 gnr-d2
@@ -2988,6 +2996,8 @@ BR-Class87
 BR Class 87
 BR-Class88
 BR Class 88 "Vossloh Euro Dual"
+BR-Class89
+BR Class 89
 BR-Class90
 BR Class 90
 BR-Class91
@@ -4296,6 +4306,14 @@ BR-700MiddlePower
 BR Class 700 "Desiro City" EMU (centre motor)
 BR-700MiddleTrailer
 BR Class 700 "Desiro City" EMU (centre trailer)
+BR-700Panto
+BR Class 700 "Desiro City" EMU (front pantograph)
+BR-700PantoRear
+BR Class 700 "Desiro City" EMU (rear pantograph)
+BR-700TSOW
+BR Class 700 "Desiro City" EMU (wheelchair accommodation)
+BR-700TSOLW
+BR Class 700 "Desiro City" EMU (lavatory, wheelchair accommodation)
 BR-707Front
 BR Class 707 "Desiro City" EMU
 BR-707Rear
@@ -4304,14 +4322,52 @@ BR-707MiddlePower
 BR Class 707 "Desiro City" EMU (centre motor)
 BR-707MiddleTrailer
 BR Class 707 "Desiro City" EMU (centre trailer)
+BR-707TSOW
+BR Class 707 "Desiro City" EMU (wheelchair accommodation)
+BR-707Panto
+BR Class 707 "Desiro City" EMU (pantograph recess)
+BR-717Front
+BR Class 717 "Desiro City" EMU
+BR-717MiddleTrailer
+BR Class 717 "Desiro City" EMU (centre trailer)
+BR-717TSOW
+BR Class 717 "Desiro City" EMU (wheelchair accommodation)
+BR-717MiddlePower
+BR Class 717 "Desiro City" EMU (centre motor)
+BR-717Panto
+BR Class 717 "Desiro City" EMU (pantograph)
+BR-717Rear
+BR Class 717 "Desiro City" EMU (rear)
 BR-345Front
-BR Class 345 "Aventera" EMU
-BR-345Rear
-BR Class 345 "Aventera" EMU (rear)
-BR-345Middle
-BR Class 345 "Aventera" EMU (centre motor)
+BR Class 345 "Aventra" EMU
 BR-345Panto
-BR Class 345 "Aventera" EMU (pantograph car)
+BR Class 345 "Aventra" EMU (pantograph)
+BR-345Middle
+BR Class 345 "Aventra" EMU (centre motor 1)
+BR-345MS3Front
+BR Class 345 "Aventra" EMU (centre motor 3)
+BR-345TSW
+BR Class 345 "Aventra" EMU (wheelchair accommodation)
+BR-345MS3Rear
+BR Class 345 "Aventra" EMU (centre motor 3, rear)
+BR-345MiddleRear
+BR Class 345 "Aventra" EMU (centre motor 2)
+BR-345PantoRear
+BR Class 345 "Aventra" EMU (pantograph, rear)
+BR-345Rear
+BR Class 345 "Aventra" EMU (rear)
+BR-701Front
+BR Class 701 "Arterio" EMU
+BR-701Panto
+BR Class 701 "Arterio" EMU (pantograph recess)
+BR-701TLW
+BR Class 701 "Arterio" EMU (wheelchair accommodation)
+BR-701Middle
+BR Class 701 "Arterio" EMU (centre motor)
+BR-701PantoRear
+BR Class 701 "Arterio" EMU (pantograph recess, rear)
+BR-701Rear
+BR Class 701 "Arterio" EMU (rear)
 BR-710Front
 BR Class 710 "Aventra" EMU
 BR-710Rear
@@ -4320,6 +4376,30 @@ BR-710Middle
 BR Class 710 "Aventra" EMU (centre motor)
 BR-710Panto
 BR Class 710 "Aventra" EMU (pantograph car)
+BR-720Front
+BR Class 720 "Aventra" EMU
+BR-720Middle
+BR Class 720 "Aventra" EMU (centre motor)
+BR-720Panto
+BR Class 720 "Aventra" EMU (pantograph)
+BR-720Rear
+BR Class 720 "Aventra" EMU (rear)
+BR-730-0Front
+BR Class 730/0 "Aventra" EMU
+BR-730-0Panto
+BR Class 730/0 "Aventra" EMU (pantograph)
+BR-730-0Rear
+BR Class 730/0 "Aventra" EMU (rear)
+BR-730-2Front
+BR Class 730/2 "Aventra" EMU
+BR-730-2MiddleFront
+BR Class 730/2 "Aventra" EMU (centre motor, front)
+BR-730-2Panto
+BR Class 730/2 "Aventra" EMU (pantograph)
+BR-730-2MiddleRear
+BR Class 730/2 "Aventra" EMU (centre motor, rear)
+BR-730-2Rear
+BR Class 730/2 "Aventra" EMU (rear)
 BR-769Front
 BR Class 769 DEMU (standard class driving trailer)
 BR-769FrontComposite
@@ -4570,6 +4650,8 @@ br-150-centre
 BR Class 150 "Sprinter" DMU (centre)
 br-150-rear
 BR Class 150 "Sprinter" DMU (rear)
+ner-tyne-petrol-electric-railcar
+NER petrol-electric railcar
 NER-Tyneside-unit(front)
 NER Tyneside EMU
 NER-Tyneside-unit(rear motor)
@@ -4590,6 +4672,10 @@ LNER-1937-Tyneside-EMU-rear-composite
 LNER Tyneside EMU (rear, composite)
 LNER-1937-Tyneside-EMU-MPV
 LNER Tyneside EMU (motor parcels van)
+lner-steam-railmotor-1924
+LNER Sentinel-Cammell steam railmotor (articulated)
+lner-steam-railmotor-1928
+LNER Sentinel-Cammell steam railmotor (rigid)
 LMS-EMU-driving-trailer
 LMS suburban EMU
 LMS-EMU-centre-trailer
@@ -4605,11 +4691,13 @@ LMS Class 502 EMU (centre trailer, third class)
 LMS-502MiddleComposite
 LMS Class 502 EMU (centre trailer, composite)
 Metropolitan-Motor-Third-Front
-Metropolitan four compartment EMU driving carriage
+Metropolitan four compartment EMU driving carriage (third class)
 Metropolitan-Motor-Third-Middle
-Metropolitan seven compartment EMU centre carriage
+Metropolitan seven compartment EMU centre carriage (first class)
+Metropolitan-Motor-Third-Middle
+Metropolitan seven compartment EMU centre carriage (third class)
 Metropolitan-Motor-Third-Back
-Metropolitan four compartment EMU driving carriage (rear)
+Metropolitan four compartment EMU driving carriage (rear) (third class)
 met-mv-stock-front
 Metropolitan MV stock EMU driving motor (third class)
 met-mv-stock-centre
@@ -4815,7 +4903,7 @@ BR Class 166 "Network Express" DMU
 BR-166Middle
 BR Class 166 "Network Express" DMU (centre)
 BR-166Middle-Trolley
-BR Class 166 "Network Express" DMU (middle, with trolley service)
+BR Class 166 "Network Express" DMU (centre, with trolley service)
 BR-166Rear
 BR Class 166 "Network Express" DMU (rear)
 BR-Mk3-DVT
@@ -6858,6 +6946,10 @@ LNWR-57ft-non-cor-brake-rear
 LNWR six compartment brake carriage (third class) (rear)
 LNWR-57ft-non-cor
 LNWR nine compartment carriage (third class)
+ac-railbus
+AC Railbus
+leyland-railbus
+Leyland Railbus
 BR-Derby-Lightweight-DTCL
 BR Derby Lightweight DMU (driving trailer - rear)
 BR-Derby-Lightweight-DMCL
@@ -10666,6 +10758,8 @@ ECTFirst
 East Coast Trains
 Eurostar
 Eurostar
+Crossrail
+Crossrail
 #______________________________________Classes______________________________________
 #______________________________________Classes______________________________________
 p_class[0]

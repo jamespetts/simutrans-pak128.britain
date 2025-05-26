@@ -26,7 +26,7 @@ axles=4
 cost=7000000
 runningcost=53
 fixed_cost=11833
-sound=lul-1938-stock-ff3170.wav
+sound=the_bloke33-1972-stock.wav
 
 can_lead_from_rear=1
 way_constraint_permissive[3]=3
@@ -213,7 +213,6 @@ axles=4
 cost=7000000
 runningcost=53
 fixed_cost=11833
-sound=lul-1938-stock-ff3170.wav
 
 can_lead_from_rear=1
 way_constraint_permissive[3]=3

@@ -1636,13 +1636,10 @@ intro_month[16][4] = 5
 livery[16][5] = LOROL
 intro_year[16][5] = 2007
 intro_month[16][5] = 1
-livery[16][6] = TfL-Rail
-intro_year[16][6] = 2015
-intro_month[16][6] = 5
-livery[16][7] = LO-revised
-intro_year[16][7] = 2018
+livery[16][6] = LO-revised
+intro_year[16][6] = 2018
 #month estimated
-intro_month[16][7] = 5
+intro_month[16][6] = 5
 
 livery_scheme[17] = Island-Line
 retire_year[17] = 2500
@@ -2966,3 +2963,13 @@ intro_month[114][0] = 11
 livery[114][1] = Eurostar-e3xx
 intro_year[114][1] = 2015
 intro_month[114][1] = 7
+
+livery_scheme[115] = Crossrail
+retire_year[115] = 2500
+retire_month[115] = 1
+livery[115][0] = TfL-Rail
+intro_year[115][0] = 2015
+intro_month[115][0] = 5
+livery[115][1] = Elizabeth-line
+intro_year[115][1] = 2017
+intro_month[115][1] = 5

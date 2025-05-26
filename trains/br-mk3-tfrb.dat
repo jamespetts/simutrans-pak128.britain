@@ -237,6 +237,7 @@ liverytype[9]=GC-Daylight
 liverytype[10]=Chiltern-Mainline
 liverytype[11]=Virgin-original
 liverytype[12]=NXEA
+liverytype[13]=Abellio-Greater-Anglia
 
 EmptyImage[E][0]=./carriages/br-mk3-trfb-bg_E.0
 EmptyImage[SE][0]=./carriages/br-mk3-trfb-bg_SE.0
@@ -356,4 +357,13 @@ EmptyImage[W][12]=./carriages/br-mk3-trfb-nx_W.0
 EmptyImage[NW][12]=./carriages/br-mk3-trfb-nx_NW.0
 EmptyImage[N][12]=./carriages/br-mk3-trfb-nx_N.0
 EmptyImage[NE][12]=./carriages/br-mk3-trfb-nx_NE.0
+
+EmptyImage[E][13]=./carriages/br-mk3-rfm-abellio_E.0
+EmptyImage[SE][13]=./carriages/br-mk3-rfm-abellio_SE.0
+EmptyImage[S][13]=./carriages/br-mk3-rfm-abellio_S.0
+EmptyImage[SW][13]=./carriages/br-mk3-rfm-abellio_SW.0
+EmptyImage[W][13]=./carriages/br-mk3-rfm-abellio_W.0
+EmptyImage[NW][13]=./carriages/br-mk3-rfm-abellio_NW.0
+EmptyImage[N][13]=./carriages/br-mk3-rfm-abellio_N.0
+EmptyImage[NE][13]=./carriages/br-mk3-rfm-abellio_NE.0
 --

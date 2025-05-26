@@ -27,7 +27,7 @@ axle_load=16
 cost=7948000
 runningcost=445
 fixed_cost=56558
-sound=konakaboom-black-five.wav
+sound=the-mart-ban-br-9f.wav
 increase_maintenance_after_years=4
 years_before_maintenance_max_reached=12
 

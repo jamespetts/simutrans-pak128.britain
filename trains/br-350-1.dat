@@ -9,6 +9,9 @@ gear=80
 copyright=Kieron/jamespetts/James
 intro_year=2005
 intro_month=6
+retire_year=2025
+retire_month=12
+# Wait for the introduction of Class 730/2
 waytype=track
 freight=Passagiere
 payload[0]=0
@@ -84,6 +87,9 @@ tractive_effort=0
 copyright=Kieron/jamespetts/James
 intro_year=2005
 intro_month=6
+retire_year=2025
+retire_month=12
+# Wait for the introduction of Class 730/2
 waytype=track
 freight=Passagiere
 payload[0]=0
@@ -157,6 +163,9 @@ tractive_effort=0
 copyright=Kieron/jamespetts/James
 intro_year=2005
 intro_month=6
+retire_year=2025
+retire_month=12
+# Wait for the introduction of Class 730/2
 waytype=track
 freight=Passagiere
 payload[0]=0
@@ -231,6 +240,9 @@ gear=80
 copyright=Kieron/jamespetts/James
 intro_year=2005
 intro_month=6
+retire_year=2025
+retire_month=12
+# Wait for the introduction of Class 730/2
 waytype=track
 freight=Passagiere
 payload[0]=0

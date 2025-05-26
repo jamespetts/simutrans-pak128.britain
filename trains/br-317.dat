@@ -46,6 +46,11 @@ Constraint[Next][0]=BR-317-Trailer
 liverytype[0]=BR-Blue
 liverytype[1]=NSE-Standard
 liverytype[2]=One
+liverytype[3]=wagn-purple
+# For contemporary First Great Eastern
+liverytype[4]=Anglia-original
+liverytype[5]=NXEA
+liverytype[6]=Abellio-Greater-Anglia
 
 EmptyImage[E][0]=./railcars/br-317-driving-trailer-front-bg_E.0.0
 EmptyImage[SE][0]=./railcars/br-317-driving-trailer-front-bg_SE.0.0
@@ -74,6 +79,41 @@ EmptyImage[NW][2]=./railcars/br-317-driving-trailer-front-one_NW.0.0
 EmptyImage[N][2]=./railcars/br-317-driving-trailer-front-one_N.0.0
 EmptyImage[NE][2]=./railcars/br-317-driving-trailer-front-one_NE.0.0
 
+EmptyImage[E][3]=./railcars/br-317-driving-trailer-front-wagn-purple_E.0.0
+EmptyImage[SE][3]=./railcars/br-317-driving-trailer-front-wagn-purple_SE.0.0
+EmptyImage[S][3]=./railcars/br-317-driving-trailer-front-wagn-purple_S.0.0
+EmptyImage[SW][3]=./railcars/br-317-driving-trailer-front-wagn-purple_SW.0.0
+EmptyImage[W][3]=./railcars/br-317-driving-trailer-front-wagn-purple_W.0.0
+EmptyImage[NW][3]=./railcars/br-317-driving-trailer-front-wagn-purple_NW.0.0
+EmptyImage[N][3]=./railcars/br-317-driving-trailer-front-wagn-purple_N.0.0
+EmptyImage[NE][3]=./railcars/br-317-driving-trailer-front-wagn-purple_NE.0.0
+
+EmptyImage[E][4]=./railcars/br-317-driving-trailer-front-fge_E.0.0
+EmptyImage[SE][4]=./railcars/br-317-driving-trailer-front-fge_SE.0.0
+EmptyImage[S][4]=./railcars/br-317-driving-trailer-front-fge_S.0.0
+EmptyImage[SW][4]=./railcars/br-317-driving-trailer-front-fge_SW.0.0
+EmptyImage[W][4]=./railcars/br-317-driving-trailer-front-fge_W.0.0
+EmptyImage[NW][4]=./railcars/br-317-driving-trailer-front-fge_NW.0.0
+EmptyImage[N][4]=./railcars/br-317-driving-trailer-front-fge_N.0.0
+EmptyImage[NE][4]=./railcars/br-317-driving-trailer-front-fge_NE.0.0
+
+EmptyImage[E][5]=./railcars/br-317-driving-trailer-front-nx_E.0.0
+EmptyImage[SE][5]=./railcars/br-317-driving-trailer-front-nx_SE.0.0
+EmptyImage[S][5]=./railcars/br-317-driving-trailer-front-nx_S.0.0
+EmptyImage[SW][5]=./railcars/br-317-driving-trailer-front-nx_SW.0.0
+EmptyImage[W][5]=./railcars/br-317-driving-trailer-front-nx_W.0.0
+EmptyImage[NW][5]=./railcars/br-317-driving-trailer-front-nx_NW.0.0
+EmptyImage[N][5]=./railcars/br-317-driving-trailer-front-nx_N.0.0
+EmptyImage[NE][5]=./railcars/br-317-driving-trailer-front-nx_NE.0.0
+
+EmptyImage[E][6]=./railcars/br-317-driving-trailer-front-abellio_E.0.0
+EmptyImage[SE][6]=./railcars/br-317-driving-trailer-front-abellio_SE.0.0
+EmptyImage[S][6]=./railcars/br-317-driving-trailer-front-abellio_S.0.0
+EmptyImage[SW][6]=./railcars/br-317-driving-trailer-front-abellio_SW.0.0
+EmptyImage[W][6]=./railcars/br-317-driving-trailer-front-abellio_W.0.0
+EmptyImage[NW][6]=./railcars/br-317-driving-trailer-front-abellio_NW.0.0
+EmptyImage[N][6]=./railcars/br-317-driving-trailer-front-abellio_N.0.0
+EmptyImage[NE][6]=./railcars/br-317-driving-trailer-front-abellio_NE.0.0
 ---
 
 obj=vehicle
@@ -123,6 +163,11 @@ Constraint[Prev][0]=BR-317-Trailer
 liverytype[0]=BR-Blue
 liverytype[1]=NSE-Standard
 liverytype[2]=One
+liverytype[3]=wagn-purple
+# For contemporary First Great Eastern
+liverytype[4]=Anglia-original
+liverytype[5]=NXEA
+liverytype[6]=Abellio-Greater-Anglia
 
 EmptyImage[E][0]=./railcars/br-317-motor-bg_E.0.0
 EmptyImage[SE][0]=./railcars/br-317-motor-bg_SE.0.0
@@ -150,6 +195,42 @@ EmptyImage[W][2]=./railcars/br-317-motor-one_W.0.0
 EmptyImage[NW][2]=./railcars/br-317-motor-one_NW.0.0
 EmptyImage[N][2]=./railcars/br-317-motor-one_N.0.0
 EmptyImage[NE][2]=./railcars/br-317-motor-one_NE.0.0
+
+EmptyImage[E][3]=./railcars/br-317-motor-wagn-purple_E.0.0
+EmptyImage[SE][3]=./railcars/br-317-motor-wagn-purple_SE.0.0
+EmptyImage[S][3]=./railcars/br-317-motor-wagn-purple_S.0.0
+EmptyImage[SW][3]=./railcars/br-317-motor-wagn-purple_SW.0.0
+EmptyImage[W][3]=./railcars/br-317-motor-wagn-purple_W.0.0
+EmptyImage[NW][3]=./railcars/br-317-motor-wagn-purple_NW.0.0
+EmptyImage[N][3]=./railcars/br-317-motor-wagn-purple_N.0.0
+EmptyImage[NE][3]=./railcars/br-317-motor-wagn-purple_NE.0.0
+
+EmptyImage[E][4]=./railcars/br-317-motor-fge_E.0.0
+EmptyImage[SE][4]=./railcars/br-317-motor-fge_SE.0.0
+EmptyImage[S][4]=./railcars/br-317-motor-fge_S.0.0
+EmptyImage[SW][4]=./railcars/br-317-motor-fge_SW.0.0
+EmptyImage[W][4]=./railcars/br-317-motor-fge_W.0.0
+EmptyImage[NW][4]=./railcars/br-317-motor-fge_NW.0.0
+EmptyImage[N][4]=./railcars/br-317-motor-fge_N.0.0
+EmptyImage[NE][4]=./railcars/br-317-motor-fge_NE.0.0
+
+EmptyImage[E][5]=./railcars/br-317-motor-nx_E.0.0
+EmptyImage[SE][5]=./railcars/br-317-motor-nx_SE.0.0
+EmptyImage[S][5]=./railcars/br-317-motor-nx_S.0.0
+EmptyImage[SW][5]=./railcars/br-317-motor-nx_SW.0.0
+EmptyImage[W][5]=./railcars/br-317-motor-nx_W.0.0
+EmptyImage[NW][5]=./railcars/br-317-motor-nx_NW.0.0
+EmptyImage[N][5]=./railcars/br-317-motor-nx_N.0.0
+EmptyImage[NE][5]=./railcars/br-317-motor-nx_NE.0.0
+
+EmptyImage[E][6]=./railcars/br-317-motor-abellio_E.0.0
+EmptyImage[SE][6]=./railcars/br-317-motor-abellio_SE.0.0
+EmptyImage[S][6]=./railcars/br-317-motor-abellio_S.0.0
+EmptyImage[SW][6]=./railcars/br-317-motor-abellio_SW.0.0
+EmptyImage[W][6]=./railcars/br-317-motor-abellio_W.0.0
+EmptyImage[NW][6]=./railcars/br-317-motor-abellio_NW.0.0
+EmptyImage[N][6]=./railcars/br-317-motor-abellio_N.0.0
+EmptyImage[NE][6]=./railcars/br-317-motor-abellio_NE.0.0
 
 ---
 
@@ -198,6 +279,11 @@ Constraint[Next][0]=BR-317-Motor
 liverytype[0]=BR-Blue
 liverytype[1]=NSE-Standard
 liverytype[2]=One
+liverytype[3]=wagn-purple
+# For contemporary First Great Eastern
+liverytype[4]=Anglia-original
+liverytype[5]=NXEA
+liverytype[6]=Abellio-Greater-Anglia
 
 # The 210 and 317 trailers are identical in appearance.
 # The original 317 graphics (kept in reserve) do not 
@@ -228,6 +314,43 @@ EmptyImage[W][2]=./railcars/br-317-trailer-one_W.0.0
 EmptyImage[NW][2]=./railcars/br-317-trailer-one_NW.0.0
 EmptyImage[N][2]=./railcars/br-317-trailer-one_N.0.0
 EmptyImage[NE][2]=./railcars/br-317-trailer-one_NE.0.0
+
+# TODO: determine light purple door framings
+EmptyImage[E][3]=./railcars/br-317-trailer-wagn-purple_E.0.0
+EmptyImage[SE][3]=./railcars/br-317-trailer-wagn-purple_SE.0.0
+EmptyImage[S][3]=./railcars/br-317-trailer-wagn-purple_S.0.0
+EmptyImage[SW][3]=./railcars/br-317-trailer-wagn-purple_SW.0.0
+EmptyImage[W][3]=./railcars/br-317-trailer-wagn-purple_W.0.0
+EmptyImage[NW][3]=./railcars/br-317-trailer-wagn-purple_NW.0.0
+EmptyImage[N][3]=./railcars/br-317-trailer-wagn-purple_N.0.0
+EmptyImage[NE][3]=./railcars/br-317-trailer-wagn-purple_NE.0.0
+
+EmptyImage[E][4]=./railcars/br-317-trailer-fge_E.0.0
+EmptyImage[SE][4]=./railcars/br-317-trailer-fge_SE.0.0
+EmptyImage[S][4]=./railcars/br-317-trailer-fge_S.0.0
+EmptyImage[SW][4]=./railcars/br-317-trailer-fge_SW.0.0
+EmptyImage[W][4]=./railcars/br-317-trailer-fge_W.0.0
+EmptyImage[NW][4]=./railcars/br-317-trailer-fge_NW.0.0
+EmptyImage[N][4]=./railcars/br-317-trailer-fge_N.0.0
+EmptyImage[NE][4]=./railcars/br-317-trailer-fge_NE.0.0
+
+EmptyImage[E][5]=./railcars/br-317-trailer-nx_E.0.0
+EmptyImage[SE][5]=./railcars/br-317-trailer-nx_SE.0.0
+EmptyImage[S][5]=./railcars/br-317-trailer-nx_S.0.0
+EmptyImage[SW][5]=./railcars/br-317-trailer-nx_SW.0.0
+EmptyImage[W][5]=./railcars/br-317-trailer-nx_W.0.0
+EmptyImage[NW][5]=./railcars/br-317-trailer-nx_NW.0.0
+EmptyImage[N][5]=./railcars/br-317-trailer-nx_N.0.0
+EmptyImage[NE][5]=./railcars/br-317-trailer-nx_NE.0.0
+
+EmptyImage[E][6]=./railcars/br-317-trailer-abellio_E.0.0
+EmptyImage[SE][6]=./railcars/br-317-trailer-abellio_SE.0.0
+EmptyImage[S][6]=./railcars/br-317-trailer-abellio_S.0.0
+EmptyImage[SW][6]=./railcars/br-317-trailer-abellio_SW.0.0
+EmptyImage[W][6]=./railcars/br-317-trailer-abellio_W.0.0
+EmptyImage[NW][6]=./railcars/br-317-trailer-abellio_NW.0.0
+EmptyImage[N][6]=./railcars/br-317-trailer-abellio_N.0.0
+EmptyImage[NE][6]=./railcars/br-317-trailer-abellio_NE.0.0
 
 ---
 
@@ -278,6 +401,11 @@ Constraint[Prev][0]=BR-317-Motor
 liverytype[0]=BR-Blue
 liverytype[1]=NSE-Standard
 liverytype[2]=One
+liverytype[3]=wagn-purple
+# For contemporary First Great Eastern
+liverytype[4]=Anglia-original
+liverytype[5]=NXEA
+liverytype[6]=Abellio-Greater-Anglia
 
 EmptyImage[E][0]=./railcars/br-317-driving-trailer-rear-bg_E.0.0
 EmptyImage[SE][0]=./railcars/br-317-driving-trailer-rear-bg_SE.0.0
@@ -305,4 +433,40 @@ EmptyImage[W][2]=./railcars/br-317-driving-trailer-rear-one_W.0.0
 EmptyImage[NW][2]=./railcars/br-317-driving-trailer-rear-one_NW.0.0
 EmptyImage[N][2]=./railcars/br-317-driving-trailer-rear-one_N.0.0
 EmptyImage[NE][2]=./railcars/br-317-driving-trailer-rear-one_NE.0.0
+
+EmptyImage[E][3]=./railcars/br-317-driving-trailer-rear-wagn-purple_E.0.0
+EmptyImage[SE][3]=./railcars/br-317-driving-trailer-rear-wagn-purple_SE.0.0
+EmptyImage[S][3]=./railcars/br-317-driving-trailer-rear-wagn-purple_S.0.0
+EmptyImage[SW][3]=./railcars/br-317-driving-trailer-rear-wagn-purple_SW.0.0
+EmptyImage[W][3]=./railcars/br-317-driving-trailer-rear-wagn-purple_W.0.0
+EmptyImage[NW][3]=./railcars/br-317-driving-trailer-rear-wagn-purple_NW.0.0
+EmptyImage[N][3]=./railcars/br-317-driving-trailer-rear-wagn-purple_N.0.0
+EmptyImage[NE][3]=./railcars/br-317-driving-trailer-rear-wagn-purple_NE.0.0
+
+EmptyImage[E][4]=./railcars/br-317-driving-trailer-rear-fge_E.0.0
+EmptyImage[SE][4]=./railcars/br-317-driving-trailer-rear-fge_SE.0.0
+EmptyImage[S][4]=./railcars/br-317-driving-trailer-rear-fge_S.0.0
+EmptyImage[SW][4]=./railcars/br-317-driving-trailer-rear-fge_SW.0.0
+EmptyImage[W][4]=./railcars/br-317-driving-trailer-rear-fge_W.0.0
+EmptyImage[NW][4]=./railcars/br-317-driving-trailer-rear-fge_NW.0.0
+EmptyImage[N][4]=./railcars/br-317-driving-trailer-rear-fge_N.0.0
+EmptyImage[NE][4]=./railcars/br-317-driving-trailer-rear-fge_NE.0.0
+
+EmptyImage[E][5]=./railcars/br-317-driving-trailer-rear-nx_E.0.0
+EmptyImage[SE][5]=./railcars/br-317-driving-trailer-rear-nx_SE.0.0
+EmptyImage[S][5]=./railcars/br-317-driving-trailer-rear-nx_S.0.0
+EmptyImage[SW][5]=./railcars/br-317-driving-trailer-rear-nx_SW.0.0
+EmptyImage[W][5]=./railcars/br-317-driving-trailer-rear-nx_W.0.0
+EmptyImage[NW][5]=./railcars/br-317-driving-trailer-rear-nx_NW.0.0
+EmptyImage[N][5]=./railcars/br-317-driving-trailer-rear-nx_N.0.0
+EmptyImage[NE][5]=./railcars/br-317-driving-trailer-rear-nx_NE.0.0
+
+EmptyImage[E][6]=./railcars/br-317-driving-trailer-rear-abellio_E.0.0
+EmptyImage[SE][6]=./railcars/br-317-driving-trailer-rear-abellio_SE.0.0
+EmptyImage[S][6]=./railcars/br-317-driving-trailer-rear-abellio_S.0.0
+EmptyImage[SW][6]=./railcars/br-317-driving-trailer-rear-abellio_SW.0.0
+EmptyImage[W][6]=./railcars/br-317-driving-trailer-rear-abellio_W.0.0
+EmptyImage[NW][6]=./railcars/br-317-driving-trailer-rear-abellio_NW.0.0
+EmptyImage[N][6]=./railcars/br-317-driving-trailer-rear-abellio_N.0.0
+EmptyImage[NE][6]=./railcars/br-317-driving-trailer-rear-abellio_NE.0.0
 --

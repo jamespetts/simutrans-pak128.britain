@@ -6,7 +6,7 @@ speed=120
 power=328
 tractive_effort=45
 gear=80
-copyright=Kieron
+copyright=Kieron/Rollmaterial
 intro_year=1975
 intro_month=12
 retire_year=1991
@@ -42,6 +42,7 @@ Constraint[Next][0]=BR-313Pantograph
 
 liverytype[0]=BR-Blue
 liverytype[1]=NSE-Standard
+liverytype[2]=wagn-purple
 
 EmptyImage[E][0]=./railcars/br-313-a-bg_E.0.0
 EmptyImage[SE][0]=./railcars/br-313-a-bg_SE.0.0
@@ -61,6 +62,14 @@ EmptyImage[NW][1]=./railcars/br-313-a-nse_NW.0.0
 EmptyImage[N][1]=./railcars/br-313-a-nse_N.0.0
 EmptyImage[NE][1]=./railcars/br-313-a-nse_NE.0.0
 
+EmptyImage[E][2]=./railcars/br-315-front-wagn_E.0.0
+EmptyImage[SE][2]=./railcars/br-315-front-wagn_SE.0.0
+EmptyImage[S][2]=./railcars/br-315-front-wagn_S.0.0
+EmptyImage[SW][2]=./railcars/br-315-front-wagn_SW.0.0
+EmptyImage[W][2]=./railcars/br-315-front-wagn_W.0.0
+EmptyImage[NW][2]=./railcars/br-315-front-wagn_NW.0.0
+EmptyImage[N][2]=./railcars/br-315-front-wagn_N.0.0
+EmptyImage[NE][2]=./railcars/br-315-front-wagn_NE.0.0
 ----
 
 obj=vehicle
@@ -70,7 +79,7 @@ speed=120
 power=0
 tractive_effort=0
 gear=80
-copyright=Kieron
+copyright=Kieron/Rollmaterial
 intro_year=1975
 intro_month=12
 retire_year=1991
@@ -103,6 +112,7 @@ Constraint[Next][0]=BR-313Rear
 
 liverytype[0]=BR-Blue
 liverytype[1]=NSE-Standard
+liverytype[2]=wagn-purple
 
 EmptyImage[E][0]=./railcars/br-313-b-bg_E.0.0
 EmptyImage[SE][0]=./railcars/br-313-b-bg_SE.0.0
@@ -122,6 +132,14 @@ EmptyImage[NW][1]=./railcars/br-313-b-nse_NW.0.0
 EmptyImage[N][1]=./railcars/br-313-b-nse_N.0.0
 EmptyImage[NE][1]=./railcars/br-313-b-nse_NE.0.0
 
+EmptyImage[E][2]=./railcars/br-315-panto-wagn_E.0.0
+EmptyImage[SE][2]=./railcars/br-315-panto-wagn_SE.0.0
+EmptyImage[S][2]=./railcars/br-315-panto-wagn_S.0.0
+EmptyImage[SW][2]=./railcars/br-315-panto-wagn_SW.0.0
+EmptyImage[W][2]=./railcars/br-315-panto-wagn_W.0.0
+EmptyImage[NW][2]=./railcars/br-315-panto-wagn_NW.0.0
+EmptyImage[N][2]=./railcars/br-315-panto-wagn_N.0.0
+EmptyImage[NE][2]=./railcars/br-315-panto-wagn_NE.0.0
 ----
 
 obj=vehicle
@@ -131,7 +149,7 @@ speed=120
 power=328
 gear=80
 tractive_effort=45
-copyright=Kieron
+copyright=Kieron/Rollmaterial
 intro_year=1975
 intro_month=12
 retire_year=1991
@@ -166,6 +184,7 @@ Constraint[Next][1]=none
 
 liverytype[0]=BR-Blue
 liverytype[1]=NSE-Standard
+liverytype[2]=wagn-purple
 
 EmptyImage[E][0]=./railcars/br-313-c-bg_E.0.0
 EmptyImage[SE][0]=./railcars/br-313-c-bg_SE.0.0
@@ -184,4 +203,13 @@ EmptyImage[W][1]=./railcars/br-313-c-nse_W.0.0
 EmptyImage[NW][1]=./railcars/br-313-c-nse_NW.0.0
 EmptyImage[N][1]=./railcars/br-313-c-nse_N.0.0
 EmptyImage[NE][1]=./railcars/br-313-c-nse_NE.0.0
+
+EmptyImage[E][2]=./railcars/br-315-rear-wagn_E.0.0
+EmptyImage[SE][2]=./railcars/br-315-rear-wagn_SE.0.0
+EmptyImage[S][2]=./railcars/br-315-rear-wagn_S.0.0
+EmptyImage[SW][2]=./railcars/br-315-rear-wagn_SW.0.0
+EmptyImage[W][2]=./railcars/br-315-rear-wagn_W.0.0
+EmptyImage[NW][2]=./railcars/br-315-rear-wagn_NW.0.0
+EmptyImage[N][2]=./railcars/br-315-rear-wagn_N.0.0
+EmptyImage[NE][2]=./railcars/br-315-rear-wagn_NE.0.0
 --

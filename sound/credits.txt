@@ -133,7 +133,7 @@ ylearkisto-horses.wav
 ylearkisto-horse.wav
 ylearkisto-dc-3.wav
 (Recorded in 1978!)
-(CC ATtribution)
+(CC Attribution)
 
 Arnaud Coutancier
 http://freesound.org/people/arnaud%20coutancier/
@@ -148,6 +148,7 @@ sandeepkurissery-flock-of-sheep.wav
 The Bloke 33
 http://freesound.org/people/the_bloke33/
 the-bloke33-dennis-dart-modern.wav
+the_bloke33-1972-stock.wav
 (CC Attribution)
 
 Multithunder 227
@@ -240,6 +241,10 @@ spompeytransportvideo-class-52.wav
 spompeytransportvideo-class-205.wav
 spompeytransportvideo-class-08.wav
 spompeytransportvideo-class-42.wav
+spompeytransportvideo-class-85.wav
+spompeytransportvideo-class-150.wav
+spompeytransportvideo-class-117.wav
+spompeytransportvideo-tyne-wear-metro.wav
 (Artistic Licence 1.0)
 
 androo4519
@@ -300,6 +305,10 @@ the-mart-ban-class-25.wav
 the-mart-ban-double-fairlie.wav
 the-mart-ban-ngg16.wav
 the-mart-ban-wllr-tank.wav
+the-mart-ban-furness-20.wav
+the-mart-ban-br-9f.wav
+the-mart-ban-lner-a4.wav
+the-mart-ban-rebuilt-wc.wav
 (Artistic Licence 1.0)
 
 Swearingkevo
@@ -522,6 +531,12 @@ betteraircraftfabric-dc4.wav
 
 Bus&TrainChaser93
 https://www.youtube.com/watch?v=u0iKkj7C08o&lc=Ugy8jUureFPYZBgg4TN4AaABAg.9WaS9YUf--h9WaVKvBHn--
+Bus&TrainChaser93-leyland-titan-td5.wav
+(Artistic Licence 1.0)
+
+James E. Petts
+jep-microswitch.wav
+(CC Attribution share-alike)
 (Artistic Licence 1.0)
 
 ** Links to licence terms and other notes **

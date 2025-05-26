@@ -25,7 +25,7 @@ cost=1960000
 upgrade_price=0
 runningcost=64
 fixed_cost=7021
-sound=konakaboom-class-159.wav
+sound=spompeytransportvideo-class-150.wav
 
 can_lead_from_rear=1
 bidirectional=0
@@ -60,6 +60,8 @@ liverytype[1]=One
 liverytype[2]=Provincial
 liverytype[3]=Strathclyde-orange-black
 liverytype[4]=Strathclyde-carmine-cream
+liverytype[5]=NXEA
+liverytype[6]=Abellio-Greater-Anglia
 
 EmptyImage[E][0]=./railcars/br-156-a-rr_E.0.0
 EmptyImage[SE][0]=./railcars/br-156-a-rr_SE.0.0
@@ -105,6 +107,24 @@ EmptyImage[W][4]=./railcars/br-156-a-spt-cc_W.0.0
 EmptyImage[NW][4]=./railcars/br-156-a-spt-cc_NW.0.0
 EmptyImage[N][4]=./railcars/br-156-a-spt-cc_N.0.0
 EmptyImage[NE][4]=./railcars/br-156-a-spt-cc_NE.0.0
+
+EmptyImage[E][5]=./railcars/br-156-a-nx_E.0.0
+EmptyImage[SE][5]=./railcars/br-156-a-nx_SE.0.0
+EmptyImage[S][5]=./railcars/br-156-a-nx_S.0.0
+EmptyImage[SW][5]=./railcars/br-156-a-nx_SW.0.0
+EmptyImage[W][5]=./railcars/br-156-a-nx_W.0.0
+EmptyImage[NW][5]=./railcars/br-156-a-nx_NW.0.0
+EmptyImage[N][5]=./railcars/br-156-a-nx_N.0.0
+EmptyImage[NE][5]=./railcars/br-156-a-nx_NE.0.0
+
+EmptyImage[E][6]=./railcars/br-156-a-abellio_E.0.0
+EmptyImage[SE][6]=./railcars/br-156-a-abellio_SE.0.0
+EmptyImage[S][6]=./railcars/br-156-a-abellio_S.0.0
+EmptyImage[SW][6]=./railcars/br-156-a-abellio_SW.0.0
+EmptyImage[W][6]=./railcars/br-156-a-abellio_W.0.0
+EmptyImage[NW][6]=./railcars/br-156-a-abellio_NW.0.0
+EmptyImage[N][6]=./railcars/br-156-a-abellio_N.0.0
+EmptyImage[NE][6]=./railcars/br-156-a-abellio_NE.0.0
 
 -----
 
@@ -170,6 +190,8 @@ liverytype[1]=One
 liverytype[2]=Provincial
 liverytype[3]=Strathclyde-orange-black
 liverytype[4]=Strathclyde-carmine-cream
+liverytype[5]=NXEA
+liverytype[6]=Abellio-Greater-Anglia
 
 EmptyImage[E][0]=./railcars/br-156-a-rr_E.0.0
 EmptyImage[SE][0]=./railcars/br-156-a-rr_SE.0.0
@@ -215,6 +237,24 @@ EmptyImage[W][4]=./railcars/br-156-a-spt-cc_W.0.0
 EmptyImage[NW][4]=./railcars/br-156-a-spt-cc_NW.0.0
 EmptyImage[N][4]=./railcars/br-156-a-spt-cc_N.0.0
 EmptyImage[NE][4]=./railcars/br-156-a-spt-cc_NE.0.0
+
+EmptyImage[E][5]=./railcars/br-156-a-nx_E.0.0
+EmptyImage[SE][5]=./railcars/br-156-a-nx_SE.0.0
+EmptyImage[S][5]=./railcars/br-156-a-nx_S.0.0
+EmptyImage[SW][5]=./railcars/br-156-a-nx_SW.0.0
+EmptyImage[W][5]=./railcars/br-156-a-nx_W.0.0
+EmptyImage[NW][5]=./railcars/br-156-a-nx_NW.0.0
+EmptyImage[N][5]=./railcars/br-156-a-nx_N.0.0
+EmptyImage[NE][5]=./railcars/br-156-a-nx_NE.0.0
+
+EmptyImage[E][6]=./railcars/br-156-a-abellio_E.0.0
+EmptyImage[SE][6]=./railcars/br-156-a-abellio_SE.0.0
+EmptyImage[S][6]=./railcars/br-156-a-abellio_S.0.0
+EmptyImage[SW][6]=./railcars/br-156-a-abellio_SW.0.0
+EmptyImage[W][6]=./railcars/br-156-a-abellio_W.0.0
+EmptyImage[NW][6]=./railcars/br-156-a-abellio_NW.0.0
+EmptyImage[N][6]=./railcars/br-156-a-abellio_N.0.0
+EmptyImage[NE][6]=./railcars/br-156-a-abellio_NE.0.0
 
 ---
 
@@ -279,6 +319,8 @@ liverytype[1]=One
 liverytype[2]=Provincial
 liverytype[3]=Strathclyde-orange-black
 liverytype[4]=Strathclyde-carmine-cream
+liverytype[5]=NXEA
+liverytype[6]=Abellio-Greater-Anglia
 
 EmptyImage[E][0]=./railcars/br-156-b-rr_E.0.0
 EmptyImage[SE][0]=./railcars/br-156-b-rr_SE.0.0
@@ -324,4 +366,22 @@ EmptyImage[W][4]=./railcars/br-156-b-spt-cc_W.0.0
 EmptyImage[NW][4]=./railcars/br-156-b-spt-cc_NW.0.0
 EmptyImage[N][4]=./railcars/br-156-b-spt-cc_N.0.0
 EmptyImage[NE][4]=./railcars/br-156-b-spt-cc_NE.0.0
+
+EmptyImage[E][5]=./railcars/br-156-b-nx_E.0.0
+EmptyImage[SE][5]=./railcars/br-156-b-nx_SE.0.0
+EmptyImage[S][5]=./railcars/br-156-b-nx_S.0.0
+EmptyImage[SW][5]=./railcars/br-156-b-nx_SW.0.0
+EmptyImage[W][5]=./railcars/br-156-b-nx_W.0.0
+EmptyImage[NW][5]=./railcars/br-156-b-nx_NW.0.0
+EmptyImage[N][5]=./railcars/br-156-b-nx_N.0.0
+EmptyImage[NE][5]=./railcars/br-156-b-nx_NE.0.0
+
+EmptyImage[E][6]=./railcars/br-156-b-abellio_E.0.0
+EmptyImage[SE][6]=./railcars/br-156-b-abellio_SE.0.0
+EmptyImage[S][6]=./railcars/br-156-b-abellio_S.0.0
+EmptyImage[SW][6]=./railcars/br-156-b-abellio_SW.0.0
+EmptyImage[W][6]=./railcars/br-156-b-abellio_W.0.0
+EmptyImage[NW][6]=./railcars/br-156-b-abellio_NW.0.0
+EmptyImage[N][6]=./railcars/br-156-b-abellio_N.0.0
+EmptyImage[NE][6]=./railcars/br-156-b-abellio_NE.0.0
 --

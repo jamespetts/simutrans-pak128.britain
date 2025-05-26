@@ -1,9 +1,9 @@
-
+# https://en.wikipedia.org/wiki/British_Rail_Class_397
 obj=vehicle
 name=BR-397Front
 engine_type=electric
 speed=200
-#power an estimate based on Class 331
+# Power an estimate based on Class 331
 power=880
 tractive_effort=78
 gear=80
@@ -21,7 +21,7 @@ length=13
 rolling_resistance=13
 brake_force=41
 air_resistance=105
-#weight an estimate based on Class 331
+# Weight an estimate based on Class 331
 weight=45.5
 axles=4
 cost=2590130

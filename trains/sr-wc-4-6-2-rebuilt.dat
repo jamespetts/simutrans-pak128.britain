@@ -28,6 +28,7 @@ cost=9992500
 upgrade_price=6450000
 runningcost=406
 fixed_cost=60818
+sound=the-mart-ban-rebuilt-wc.wav
 
 increase_maintenance_after_years=3
 years_before_maintenance_max_reached=10

@@ -14,7 +14,7 @@ retire_month=2
 waytype=track
 freight=None
 payload=0
-length=10
+length=9
 rolling_resistance=13
 
 weight=77.6

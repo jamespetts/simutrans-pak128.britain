@@ -26,7 +26,7 @@ cost=11818000
 upgrade_price=2929500
 runningcost=393
 fixed_cost=64621
-sound=konakaboom-black-five.wav
+sound=the-mart-ban-lner-a4.wav
 increase_maintenance_after_years=23
 years_before_maintenance_max_reached=11
 

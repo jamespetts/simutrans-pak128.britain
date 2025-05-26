@@ -33,10 +33,10 @@ way_constraint_permissive[2]=2
 # TDM
 Constraint[Prev][0]=BR-Class86
 Constraint[Prev][1]=BR-Class87
-Constraint[Prev][2]=BR-Class90
-Constraint[Prev][3]=BR-Class91
-Constraint[Prev][4]=none
-# Also class 89
+Constraint[Prev][2]=BR-Class89
+Constraint[Prev][3]=BR-Class90
+Constraint[Prev][4]=BR-Class91
+Constraint[Prev][5]=none
 
 liverytype[0]=IC-Swallow
 liverytype[1]=GNER
@@ -44,6 +44,7 @@ liverytype[2]=National-Express
 liverytype[3]=Virgin-original
 liverytype[4]=NXEA
 liverytype[5]=One
+liverytype[6]=Abellio-Greater-Anglia
 
 EmptyImage[E][0]=./locomotives/br-cl90-ic_E.0.0
 EmptyImage[SE][0]=./locomotives/br-cl90-ic_SE.0.0
@@ -98,4 +99,13 @@ EmptyImage[W][5]=./locomotives/br-cl90-one_W.0.0
 EmptyImage[NW][5]=./locomotives/br-cl90-one_NW.0.0
 EmptyImage[N][5]=./locomotives/br-cl90-one_N.0.0
 EmptyImage[NE][5]=./locomotives/br-cl90-one_NE.0.0
+
+EmptyImage[E][6]=./locomotives/br-cl90-abellio_E.0.0
+EmptyImage[SE][6]=./locomotives/br-cl90-abellio_SE.0.0
+EmptyImage[S][6]=./locomotives/br-cl90-abellio_S.0.0
+EmptyImage[SW][6]=./locomotives/br-cl90-abellio_SW.0.0
+EmptyImage[W][6]=./locomotives/br-cl90-abellio_W.0.0
+EmptyImage[NW][6]=./locomotives/br-cl90-abellio_NW.0.0
+EmptyImage[N][6]=./locomotives/br-cl90-abellio_N.0.0
+EmptyImage[NE][6]=./locomotives/br-cl90-abellio_NE.0.0
 --

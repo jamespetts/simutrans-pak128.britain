@@ -50,6 +50,11 @@ Constraint[Next][0]=BR-315Pantograph
 liverytype[0]=BR-Blue
 liverytype[1]=NSE-Standard
 liverytype[2]=One
+liverytype[3]=wagn-purple
+# For contemporary First Great Eastern
+liverytype[4]=Anglia-original
+liverytype[5]=NXEA
+liverytype[6]=Abellio-Greater-Anglia
 
 EmptyImage[E][0]=./railcars/br-313-a-bg_E.0.0
 EmptyImage[SE][0]=./railcars/br-313-a-bg_SE.0.0
@@ -78,6 +83,41 @@ EmptyImage[NW][2]=./railcars/br-315-front-one_NW.0.0
 EmptyImage[N][2]=./railcars/br-315-front-one_N.0.0
 EmptyImage[NE][2]=./railcars/br-315-front-one_NE.0.0
 
+EmptyImage[E][3]=./railcars/br-315-front-wagn_E.0.0
+EmptyImage[SE][3]=./railcars/br-315-front-wagn_SE.0.0
+EmptyImage[S][3]=./railcars/br-315-front-wagn_S.0.0
+EmptyImage[SW][3]=./railcars/br-315-front-wagn_SW.0.0
+EmptyImage[W][3]=./railcars/br-315-front-wagn_W.0.0
+EmptyImage[NW][3]=./railcars/br-315-front-wagn_NW.0.0
+EmptyImage[N][3]=./railcars/br-315-front-wagn_N.0.0
+EmptyImage[NE][3]=./railcars/br-315-front-wagn_NE.0.0
+
+EmptyImage[E][4]=./railcars/br-315-front-fge_E.0.0
+EmptyImage[SE][4]=./railcars/br-315-front-fge_SE.0.0
+EmptyImage[S][4]=./railcars/br-315-front-fge_S.0.0
+EmptyImage[SW][4]=./railcars/br-315-front-fge_SW.0.0
+EmptyImage[W][4]=./railcars/br-315-front-fge_W.0.0
+EmptyImage[NW][4]=./railcars/br-315-front-fge_NW.0.0
+EmptyImage[N][4]=./railcars/br-315-front-fge_N.0.0
+EmptyImage[NE][4]=./railcars/br-315-front-fge_NE.0.0
+
+EmptyImage[E][5]=./railcars/br-315-front-nxea_E.0.0
+EmptyImage[SE][5]=./railcars/br-315-front-nxea_SE.0.0
+EmptyImage[S][5]=./railcars/br-315-front-nxea_S.0.0
+EmptyImage[SW][5]=./railcars/br-315-front-nxea_SW.0.0
+EmptyImage[W][5]=./railcars/br-315-front-nxea_W.0.0
+EmptyImage[NW][5]=./railcars/br-315-front-nxea_NW.0.0
+EmptyImage[N][5]=./railcars/br-315-front-nxea_N.0.0
+EmptyImage[NE][5]=./railcars/br-315-front-nxea_NE.0.0
+
+EmptyImage[E][6]=./railcars/br-315-front-abellio_E.0.0
+EmptyImage[SE][6]=./railcars/br-315-front-abellio_SE.0.0
+EmptyImage[S][6]=./railcars/br-315-front-abellio_S.0.0
+EmptyImage[SW][6]=./railcars/br-315-front-abellio_SW.0.0
+EmptyImage[W][6]=./railcars/br-315-front-abellio_W.0.0
+EmptyImage[NW][6]=./railcars/br-315-front-abellio_NW.0.0
+EmptyImage[N][6]=./railcars/br-315-front-abellio_N.0.0
+EmptyImage[NE][6]=./railcars/br-315-front-abellio_NE.0.0
 ---
 
 obj=vehicle
@@ -124,6 +164,11 @@ Constraint[Next][1]=BR-315Trailer
 liverytype[0]=BR-Blue
 liverytype[1]=NSE-Standard
 liverytype[2]=One
+liverytype[3]=wagn-purple
+# For contemporary First Great Eastern
+liverytype[4]=Anglia-original
+liverytype[5]=NXEA
+liverytype[6]=Abellio-Greater-Anglia
 
 EmptyImage[E][0]=./railcars/br-313-b-bg_E.0.0
 EmptyImage[SE][0]=./railcars/br-313-b-bg_SE.0.0
@@ -152,6 +197,41 @@ EmptyImage[NW][2]=./railcars/br-315-panto-one_NW.0.0
 EmptyImage[N][2]=./railcars/br-315-panto-one_N.0.0
 EmptyImage[NE][2]=./railcars/br-315-panto-one_NE.0.0
 
+EmptyImage[E][3]=./railcars/br-315-panto-wagn_E.0.0
+EmptyImage[SE][3]=./railcars/br-315-panto-wagn_SE.0.0
+EmptyImage[S][3]=./railcars/br-315-panto-wagn_S.0.0
+EmptyImage[SW][3]=./railcars/br-315-panto-wagn_SW.0.0
+EmptyImage[W][3]=./railcars/br-315-panto-wagn_W.0.0
+EmptyImage[NW][3]=./railcars/br-315-panto-wagn_NW.0.0
+EmptyImage[N][3]=./railcars/br-315-panto-wagn_N.0.0
+EmptyImage[NE][3]=./railcars/br-315-panto-wagn_NE.0.0
+
+EmptyImage[E][4]=./railcars/br-315-panto-fge_E.0.0
+EmptyImage[SE][4]=./railcars/br-315-panto-fge_SE.0.0
+EmptyImage[S][4]=./railcars/br-315-panto-fge_S.0.0
+EmptyImage[SW][4]=./railcars/br-315-panto-fge_SW.0.0
+EmptyImage[W][4]=./railcars/br-315-panto-fge_W.0.0
+EmptyImage[NW][4]=./railcars/br-315-panto-fge_NW.0.0
+EmptyImage[N][4]=./railcars/br-315-panto-fge_N.0.0
+EmptyImage[NE][4]=./railcars/br-315-panto-fge_NE.0.0
+
+EmptyImage[E][5]=./railcars/br-315-panto-nxea_E.0.0
+EmptyImage[SE][5]=./railcars/br-315-panto-nxea_SE.0.0
+EmptyImage[S][5]=./railcars/br-315-panto-nxea_S.0.0
+EmptyImage[SW][5]=./railcars/br-315-panto-nxea_SW.0.0
+EmptyImage[W][5]=./railcars/br-315-panto-nxea_W.0.0
+EmptyImage[NW][5]=./railcars/br-315-panto-nxea_NW.0.0
+EmptyImage[N][5]=./railcars/br-315-panto-nxea_N.0.0
+EmptyImage[NE][5]=./railcars/br-315-panto-nxea_NE.0.0
+
+EmptyImage[E][6]=./railcars/br-315-panto-abellio_E.0.0
+EmptyImage[SE][6]=./railcars/br-315-panto-abellio_SE.0.0
+EmptyImage[S][6]=./railcars/br-315-panto-abellio_S.0.0
+EmptyImage[SW][6]=./railcars/br-315-panto-abellio_SW.0.0
+EmptyImage[W][6]=./railcars/br-315-panto-abellio_W.0.0
+EmptyImage[NW][6]=./railcars/br-315-panto-abellio_NW.0.0
+EmptyImage[N][6]=./railcars/br-315-panto-abellio_N.0.0
+EmptyImage[NE][6]=./railcars/br-315-panto-abellio_NE.0.0
 ---
 
 obj=vehicle
@@ -196,6 +276,11 @@ Constraint[Next][0]=BR-315Rear
 liverytype[0]=BR-Blue
 liverytype[1]=NSE-Standard
 liverytype[2]=One
+liverytype[3]=wagn-purple
+# For contemporary First Great Eastern
+liverytype[4]=Anglia-original
+liverytype[5]=NXEA
+liverytype[6]=Abellio-Greater-Anglia
 
 EmptyImage[E][0]=./railcars/br-507-trailer-bg_E.0.0
 EmptyImage[SE][0]=./railcars/br-507-trailer-bg_SE.0.0
@@ -224,6 +309,41 @@ EmptyImage[NW][2]=./railcars/br-315-trailer-one_NW.0.0
 EmptyImage[N][2]=./railcars/br-315-trailer-one_N.0.0
 EmptyImage[NE][2]=./railcars/br-315-trailer-one_NE.0.0
 
+EmptyImage[E][3]=./railcars/br-315-trailer-wagn_E.0.0
+EmptyImage[SE][3]=./railcars/br-315-trailer-wagn_SE.0.0
+EmptyImage[S][3]=./railcars/br-315-trailer-wagn_S.0.0
+EmptyImage[SW][3]=./railcars/br-315-trailer-wagn_SW.0.0
+EmptyImage[W][3]=./railcars/br-315-trailer-wagn_W.0.0
+EmptyImage[NW][3]=./railcars/br-315-trailer-wagn_NW.0.0
+EmptyImage[N][3]=./railcars/br-315-trailer-wagn_N.0.0
+EmptyImage[NE][3]=./railcars/br-315-trailer-wagn_NE.0.0
+
+EmptyImage[E][4]=./railcars/br-315-trailer-fge_E.0.0
+EmptyImage[SE][4]=./railcars/br-315-trailer-fge_SE.0.0
+EmptyImage[S][4]=./railcars/br-315-trailer-fge_S.0.0
+EmptyImage[SW][4]=./railcars/br-315-trailer-fge_SW.0.0
+EmptyImage[W][4]=./railcars/br-315-trailer-fge_W.0.0
+EmptyImage[NW][4]=./railcars/br-315-trailer-fge_NW.0.0
+EmptyImage[N][4]=./railcars/br-315-trailer-fge_N.0.0
+EmptyImage[NE][4]=./railcars/br-315-trailer-fge_NE.0.0
+
+EmptyImage[E][5]=./railcars/br-315-trailer-nxea_E.0.0
+EmptyImage[SE][5]=./railcars/br-315-trailer-nxea_SE.0.0
+EmptyImage[S][5]=./railcars/br-315-trailer-nxea_S.0.0
+EmptyImage[SW][5]=./railcars/br-315-trailer-nxea_SW.0.0
+EmptyImage[W][5]=./railcars/br-315-trailer-nxea_W.0.0
+EmptyImage[NW][5]=./railcars/br-315-trailer-nxea_NW.0.0
+EmptyImage[N][5]=./railcars/br-315-trailer-nxea_N.0.0
+EmptyImage[NE][5]=./railcars/br-315-trailer-nxea_NE.0.0
+
+EmptyImage[E][6]=./railcars/br-315-trailer-abellio_E.0.0
+EmptyImage[SE][6]=./railcars/br-315-trailer-abellio_SE.0.0
+EmptyImage[S][6]=./railcars/br-315-trailer-abellio_S.0.0
+EmptyImage[SW][6]=./railcars/br-315-trailer-abellio_SW.0.0
+EmptyImage[W][6]=./railcars/br-315-trailer-abellio_W.0.0
+EmptyImage[NW][6]=./railcars/br-315-trailer-abellio_NW.0.0
+EmptyImage[N][6]=./railcars/br-315-trailer-abellio_N.0.0
+EmptyImage[NE][6]=./railcars/br-315-trailer-abellio_NE.0.0
 ---
 
 obj=vehicle
@@ -272,6 +392,11 @@ Constraint[Next][2]=none
 liverytype[0]=BR-Blue
 liverytype[1]=NSE-Standard
 liverytype[2]=One
+liverytype[3]=wagn-purple
+# For contemporary First Great Eastern
+liverytype[4]=Anglia-original
+liverytype[5]=NXEA
+liverytype[6]=Abellio-Greater-Anglia
 
 EmptyImage[E][0]=./railcars/br-313-c-bg_E.0.0
 EmptyImage[SE][0]=./railcars/br-313-c-bg_SE.0.0
@@ -299,4 +424,40 @@ EmptyImage[W][2]=./railcars/br-315-rear-one_W.0.0
 EmptyImage[NW][2]=./railcars/br-315-rear-one_NW.0.0
 EmptyImage[N][2]=./railcars/br-315-rear-one_N.0.0
 EmptyImage[NE][2]=./railcars/br-315-rear-one_NE.0.0
+
+EmptyImage[E][3]=./railcars/br-315-rear-wagn_E.0.0
+EmptyImage[SE][3]=./railcars/br-315-rear-wagn_SE.0.0
+EmptyImage[S][3]=./railcars/br-315-rear-wagn_S.0.0
+EmptyImage[SW][3]=./railcars/br-315-rear-wagn_SW.0.0
+EmptyImage[W][3]=./railcars/br-315-rear-wagn_W.0.0
+EmptyImage[NW][3]=./railcars/br-315-rear-wagn_NW.0.0
+EmptyImage[N][3]=./railcars/br-315-rear-wagn_N.0.0
+EmptyImage[NE][3]=./railcars/br-315-rear-wagn_NE.0.0
+
+EmptyImage[E][4]=./railcars/br-315-rear-fge_E.0.0
+EmptyImage[SE][4]=./railcars/br-315-rear-fge_SE.0.0
+EmptyImage[S][4]=./railcars/br-315-rear-fge_S.0.0
+EmptyImage[SW][4]=./railcars/br-315-rear-fge_SW.0.0
+EmptyImage[W][4]=./railcars/br-315-rear-fge_W.0.0
+EmptyImage[NW][4]=./railcars/br-315-rear-fge_NW.0.0
+EmptyImage[N][4]=./railcars/br-315-rear-fge_N.0.0
+EmptyImage[NE][4]=./railcars/br-315-rear-fge_NE.0.0
+
+EmptyImage[E][5]=./railcars/br-315-rear-nxea_E.0.0
+EmptyImage[SE][5]=./railcars/br-315-rear-nxea_SE.0.0
+EmptyImage[S][5]=./railcars/br-315-rear-nxea_S.0.0
+EmptyImage[SW][5]=./railcars/br-315-rear-nxea_SW.0.0
+EmptyImage[W][5]=./railcars/br-315-rear-nxea_W.0.0
+EmptyImage[NW][5]=./railcars/br-315-rear-nxea_NW.0.0
+EmptyImage[N][5]=./railcars/br-315-rear-nxea_N.0.0
+EmptyImage[NE][5]=./railcars/br-315-rear-nxea_NE.0.0
+
+EmptyImage[E][6]=./railcars/br-315-rear-abellio_E.0.0
+EmptyImage[SE][6]=./railcars/br-315-rear-abellio_SE.0.0
+EmptyImage[S][6]=./railcars/br-315-rear-abellio_S.0.0
+EmptyImage[SW][6]=./railcars/br-315-rear-abellio_SW.0.0
+EmptyImage[W][6]=./railcars/br-315-rear-abellio_W.0.0
+EmptyImage[NW][6]=./railcars/br-315-rear-abellio_NW.0.0
+EmptyImage[N][6]=./railcars/br-315-rear-abellio_N.0.0
+EmptyImage[NE][6]=./railcars/br-315-rear-abellio_NE.0.0
 --

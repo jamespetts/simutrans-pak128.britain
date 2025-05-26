@@ -31,10 +31,10 @@ way_constraint_permissive[2]=2
 # TDM
 Constraint[Prev][0]=BR-Class86
 Constraint[Prev][1]=BR-Class87
-Constraint[Prev][2]=BR-Class90
-Constraint[Prev][3]=BR-Class91
-Constraint[Prev][4]=none
-# Also class 89
+Constraint[Prev][2]=BR-Class89
+Constraint[Prev][3]=BR-Class90
+Constraint[Prev][4]=BR-Class91
+Constraint[Prev][5]=none
 
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue

@@ -1,0 +1,63 @@
+# https://www.lner.info/locos/Railcar/sentinel.php
+# See also Jenkinson pp. 442-3
+obj=vehicle
+name=lner-steam-railmotor-1924
+engine_type=steam
+smoke=Steam
+# 275hp: https://www.lner.info/locos/Railcar/sentinel.php
+power=202
+# Guessed
+tractive_effort=70
+# Guessed
+speed=90
+copyright=JamesPetts
+intro_year=1924
+intro_month=4
+retire_year=1930
+retire_month=1
+waytype=track
+freight=Passagiere
+payload[0]=0
+payload[1]=52
+overcrowded_capacity=30
+length=10
+
+# 17T: https://www.lner.info/locos/Railcar/sentinel.php
+weight=17.3
+# Guessed - but the weight would not sit evenly on all axles (which would give 9.85t). 
+axle_load=11
+cost=1715000
+runningcost=62
+fixed_cost=18500
+sound=laurie-gwr-railmotor.wav
+
+can_lead_from_rear=1
+bidirectional=1
+
+min_loading_time=20
+max_loading_time=105
+
+comfort[0]=0
+comfort[1]=70
+
+liverytype[0]=LNER-Standard
+liverytype[1]=BR-Early
+
+EmptyImage[E][0]=./railcars/lner-steam-railmotor-1924-lner_E.0.0
+EmptyImage[SE][0]=./railcars/lner-steam-railmotor-1924-lner_SE.0.0
+EmptyImage[S][0]=./railcars/lner-steam-railmotor-1924-lner_S.0.0
+EmptyImage[SW][0]=./railcars/lner-steam-railmotor-1924-lner_SW.0.0
+EmptyImage[W][0]=./railcars/lner-steam-railmotor-1924-lner_W.0.0
+EmptyImage[NW][0]=./railcars/lner-steam-railmotor-1924-lner_NW.0.0
+EmptyImage[N][0]=./railcars/lner-steam-railmotor-1924-lner_N.0.0
+EmptyImage[NE][0]=./railcars/lner-steam-railmotor-1924-lner_NE.0.0
+
+EmptyImage[E][1]=./railcars/lner-steam-railmotor-1924-br_E.0.0
+EmptyImage[SE][1]=./railcars/lner-steam-railmotor-1924-br_SE.0.0
+EmptyImage[S][1]=./railcars/lner-steam-railmotor-1924-br_S.0.0
+EmptyImage[SW][1]=./railcars/lner-steam-railmotor-1924-br_SW.0.0
+EmptyImage[W][1]=./railcars/lner-steam-railmotor-1924-br_W.0.0
+EmptyImage[NW][1]=./railcars/lner-steam-railmotor-1924-br_NW.0.0
+EmptyImage[N][1]=./railcars/lner-steam-railmotor-1924-br_N.0.0
+EmptyImage[NE][1]=./railcars/lner-steam-railmotor-1924-br_NE.0.0
+--

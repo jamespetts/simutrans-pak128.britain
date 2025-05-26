@@ -28,7 +28,7 @@ cost=1367500
 runningcost=268
 fixed_cost=8459
 # TODO: Attempt to find a suitable sound for this unit.
-sound=video47-class-121.wav
+sound=spompeytransportvideo-class-117.wav
 increase_maintenance_after_years=4
 
 can_lead_from_rear=1

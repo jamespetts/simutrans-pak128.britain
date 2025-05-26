@@ -33,7 +33,7 @@ cost=1380000
 runningcost=355
 fixed_cost=13046
 # TODO: Get a better sound for this. There is a preserved example, so recordings should be available.
-sound=video47-class-121.wav
+sound=spompeytransportvideo-class-117.wav
 
 can_lead_from_rear=1
 bidirectional=0

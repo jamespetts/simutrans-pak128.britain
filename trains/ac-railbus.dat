@@ -1,0 +1,67 @@
+# https://railcar.co.uk/type/ac-cars-railbus/summary
+obj=vehicle
+name=ac-railbus
+engine_type=diesel
+smoke=Diesel
+# See the driving instructions here - max. 57.55mph
+# https://railcar.co.uk/type/ac-cars-railbus/numbering
+speed=92
+power=110
+gear=50
+tractive_effort=21
+copyright=JamesPetts
+intro_year=1958
+intro_month=5
+retire_year=1966
+retire_month=7
+waytype=track
+freight=Passagiere
+payload[0]=0
+payload[1]=46
+overcrowded_capacity=40
+length=6
+
+# https://railcar.co.uk/data/diagrams/614.jpg
+weight=11.2
+axles=2
+cost=348000
+runningcost=110
+fixed_cost=5400
+# TODO: Find a suitable sound for this
+#sound=
+
+can_lead_from_rear=1
+bidirectional=0
+
+# A single door each side
+min_loading_time=15
+max_loading_time=75
+
+comfort[0]=0
+comfort[1]=49
+
+Constraint[Prev][0]=none
+
+Constraint[Next][0]=none
+
+liverytype[0]=BR-Revised
+liverytype[1]=BR-Blue
+
+EmptyImage[E][0]=./railcars/ac-railbus-g_E.0.0
+EmptyImage[SE][0]=./railcars/ac-railbus-g_SE.0.0
+EmptyImage[S][0]=./railcars/ac-railbus-g_S.0.0
+EmptyImage[SW][0]=./railcars/ac-railbus-g_SW.0.0
+EmptyImage[W][0]=./railcars/ac-railbus-g_W.0.0
+EmptyImage[NW][0]=./railcars/ac-railbus-g_NW.0.0
+EmptyImage[N][0]=./railcars/ac-railbus-g_N.0.0
+EmptyImage[NE][0]=./railcars/ac-railbus-g_NE.0.0
+
+EmptyImage[E][1]=./railcars/ac-railbus-b_E.0.0
+EmptyImage[SE][1]=./railcars/ac-railbus-b_SE.0.0
+EmptyImage[S][1]=./railcars/ac-railbus-b_S.0.0
+EmptyImage[SW][1]=./railcars/ac-railbus-b_SW.0.0
+EmptyImage[W][1]=./railcars/ac-railbus-b_W.0.0
+EmptyImage[NW][1]=./railcars/ac-railbus-b_NW.0.0
+EmptyImage[N][1]=./railcars/ac-railbus-b_N.0.0
+EmptyImage[NE][1]=./railcars/ac-railbus-b_NE.0.0
+

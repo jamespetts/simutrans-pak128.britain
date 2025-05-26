@@ -59,7 +59,8 @@ liverytype[6]=GNER
 liverytype[7]=National-Express
 liverytype[8]=GC-Original
 liverytype[9]=GC-Daylight
-liverytype[10]=Virgin-original
+liverytype[10]=VTEC
+liverytype[11]=Virgin-original
 
 EmptyImage[E][0]=./carriages/br-mk3-trb-bg_E.0
 EmptyImage[SE][0]=./carriages/br-mk3-trb-bg_SE.0
@@ -151,14 +152,23 @@ EmptyImage[NW][9]=./carriages/br-mk3-trb-gc2_NW.0
 EmptyImage[N][9]=./carriages/br-mk3-trb-gc2_N.0
 EmptyImage[NE][9]=./carriages/br-mk3-trb-gc2_NE.0
 
-EmptyImage[E][10]=./carriages/br-mk3-trb-vt_E.0.0
-EmptyImage[SE][10]=./carriages/br-mk3-trb-vt_SE.0.0
-EmptyImage[S][10]=./carriages/br-mk3-trb-vt_S.0.0
-EmptyImage[SW][10]=./carriages/br-mk3-trb-vt_SW.0.0
-EmptyImage[W][10]=./carriages/br-mk3-trb-vt_W.0.0
-EmptyImage[NW][10]=./carriages/br-mk3-trb-vt_NW.0.0
-EmptyImage[N][10]=./carriages/br-mk3-trb-vt_N.0.0
-EmptyImage[NE][10]=./carriages/br-mk3-trb-vt_NE.0.0
+EmptyImage[E][10]=./carriages/br-mk3-trfb-vtec_E.0.0
+EmptyImage[SE][10]=./carriages/br-mk3-trfb-vtec_SE.0.0
+EmptyImage[S][10]=./carriages/br-mk3-trfb-vtec_S.0.0
+EmptyImage[SW][10]=./carriages/br-mk3-trfb-vtec_SW.0.0
+EmptyImage[W][10]=./carriages/br-mk3-trfb-vtec_W.0.0
+EmptyImage[NW][10]=./carriages/br-mk3-trfb-vtec_NW.0.0
+EmptyImage[N][10]=./carriages/br-mk3-trfb-vtec_N.0.0
+EmptyImage[NE][10]=./carriages/br-mk3-trfb-vtec_NE.0.0
+
+EmptyImage[E][11]=./carriages/br-mk3-trb-vt_E.0.0
+EmptyImage[SE][11]=./carriages/br-mk3-trb-vt_SE.0.0
+EmptyImage[S][11]=./carriages/br-mk3-trb-vt_S.0.0
+EmptyImage[SW][11]=./carriages/br-mk3-trb-vt_SW.0.0
+EmptyImage[W][11]=./carriages/br-mk3-trb-vt_W.0.0
+EmptyImage[NW][11]=./carriages/br-mk3-trb-vt_NW.0.0
+EmptyImage[N][11]=./carriages/br-mk3-trb-vt_N.0.0
+EmptyImage[NE][11]=./carriages/br-mk3-trb-vt_NE.0.0
 
 ---
 
@@ -231,6 +241,7 @@ liverytype[11]=Virgin-original
 liverytype[12]=Anglia-original
 liverytype[13]=One
 liverytype[14]=NXEA
+liverytype[15]=Abellio-Greater-Anglia
 
 EmptyImage[E][0]=./carriages/br-mk3-trb-bg_E.0
 EmptyImage[SE][0]=./carriages/br-mk3-trb-bg_SE.0
@@ -366,4 +377,13 @@ EmptyImage[W][14]=./carriages/br-mk3-trb-nx_W.0
 EmptyImage[NW][14]=./carriages/br-mk3-trb-nx_NW.0
 EmptyImage[N][14]=./carriages/br-mk3-trb-nx_N.0
 EmptyImage[NE][14]=./carriages/br-mk3-trb-nx_NE.0
+
+EmptyImage[E][15]=./carriages/br-mk3-rfm-abellio_E.0
+EmptyImage[SE][15]=./carriages/br-mk3-rfm-abellio_SE.0
+EmptyImage[S][15]=./carriages/br-mk3-rfm-abellio_S.0
+EmptyImage[SW][15]=./carriages/br-mk3-rfm-abellio_SW.0
+EmptyImage[W][15]=./carriages/br-mk3-rfm-abellio_W.0
+EmptyImage[NW][15]=./carriages/br-mk3-rfm-abellio_NW.0
+EmptyImage[N][15]=./carriages/br-mk3-rfm-abellio_N.0
+EmptyImage[NE][15]=./carriages/br-mk3-rfm-abellio_NE.0
 --

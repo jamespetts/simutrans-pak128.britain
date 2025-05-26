@@ -52,7 +52,8 @@ Constraint[Next][0]=BR-312-MBSO
 liverytype[0]=BR-Blue
 liverytype[1]=BR-Large-Logo
 liverytype[2]=NSE-Standard
-
+# For contemporary First Great Eastern
+liverytype[3]=Anglia-original
 
 EmptyImage[E][0]=./railcars/br-312-driving-front_E.0.0
 EmptyImage[SE][0]=./railcars/br-312-driving-front_SE.0.0
@@ -81,6 +82,14 @@ EmptyImage[NW][2]=./railcars/br-312-driving-front-nse_NW.0.0
 EmptyImage[N][2]=./railcars/br-312-driving-front-nse_N.0.0
 EmptyImage[NE][2]=./railcars/br-312-driving-front-nse_NE.0.0
 
+EmptyImage[E][3]=./railcars/br-312-driving-front-fge_E.0.0
+EmptyImage[SE][3]=./railcars/br-312-driving-front-fge_SE.0.0
+EmptyImage[S][3]=./railcars/br-312-driving-front-fge_S.0.0
+EmptyImage[SW][3]=./railcars/br-312-driving-front-fge_SW.0.0
+EmptyImage[W][3]=./railcars/br-312-driving-front-fge_W.0.0
+EmptyImage[NW][3]=./railcars/br-312-driving-front-fge_NW.0.0
+EmptyImage[N][3]=./railcars/br-312-driving-front-fge_N.0.0
+EmptyImage[NE][3]=./railcars/br-312-driving-front-fge_NE.0.0
 ---
 
 obj=vehicle
@@ -131,6 +140,8 @@ Constraint[Next][1]=BR-312-DTCOL
 liverytype[0]=BR-Blue
 liverytype[1]=BR-Large-Logo
 liverytype[2]=NSE-Standard
+# For contemporary First Great Eastern
+liverytype[3]=Anglia-original
 
 EmptyImage[E][0]=./railcars/br-312-pantograph_E.0.0
 EmptyImage[SE][0]=./railcars/br-312-pantograph_SE.0.0
@@ -159,7 +170,14 @@ EmptyImage[NW][2]=./railcars/br-312-pantograph-nse_NW.0.0
 EmptyImage[N][2]=./railcars/br-312-pantograph-nse_N.0.0
 EmptyImage[NE][2]=./railcars/br-312-pantograph-nse_NE.0.0
 
-
+EmptyImage[E][3]=./railcars/br-312-pantograph-fge_E.0.0
+EmptyImage[SE][3]=./railcars/br-312-pantograph-fge_SE.0.0
+EmptyImage[S][3]=./railcars/br-312-pantograph-fge_S.0.0
+EmptyImage[SW][3]=./railcars/br-312-pantograph-fge_SW.0.0
+EmptyImage[W][3]=./railcars/br-312-pantograph-fge_W.0.0
+EmptyImage[NW][3]=./railcars/br-312-pantograph-fge_NW.0.0
+EmptyImage[N][3]=./railcars/br-312-pantograph-fge_N.0.0
+EmptyImage[NE][3]=./railcars/br-312-pantograph-fge_NE.0.0
 ---
 
 obj=vehicle
@@ -208,6 +226,8 @@ Constraint[Next][0]=BR-312-DTCOL
 liverytype[0]=BR-Blue
 liverytype[1]=BR-Large-Logo
 liverytype[2]=NSE-Standard
+# For contemporary First Great Eastern
+liverytype[3]=Anglia-original
 
 EmptyImage[E][0]=./railcars/br-312-trailer_E.0.0
 EmptyImage[SE][0]=./railcars/br-312-trailer_SE.0.0
@@ -235,6 +255,15 @@ EmptyImage[W][2]=./railcars/br-312-trailer-nse_W.0.0
 EmptyImage[NW][2]=./railcars/br-312-trailer-nse_NW.0.0
 EmptyImage[N][2]=./railcars/br-312-trailer-nse_N.0.0
 EmptyImage[NE][2]=./railcars/br-312-trailer-nse_NE.0.0
+
+EmptyImage[E][3]=./railcars/br-312-trailer-fge_E.0.0
+EmptyImage[SE][3]=./railcars/br-312-trailer-fge_SE.0.0
+EmptyImage[S][3]=./railcars/br-312-trailer-fge_S.0.0
+EmptyImage[SW][3]=./railcars/br-312-trailer-fge_SW.0.0
+EmptyImage[W][3]=./railcars/br-312-trailer-fge_W.0.0
+EmptyImage[NW][3]=./railcars/br-312-trailer-fge_NW.0.0
+EmptyImage[N][3]=./railcars/br-312-trailer-fge_N.0.0
+EmptyImage[NE][3]=./railcars/br-312-trailer-fge_NE.0.0
 --
 
 obj=vehicle
@@ -290,6 +319,8 @@ Constraint[Next][5]=none
 liverytype[0]=BR-Blue
 liverytype[1]=BR-Large-Logo
 liverytype[2]=NSE-Standard
+# For contemporary First Great Eastern
+liverytype[3]=Anglia-original
 
 EmptyImage[E][0]=./railcars/br-312-driving-rear_E.0.0
 EmptyImage[SE][0]=./railcars/br-312-driving-rear_SE.0.0
@@ -317,4 +348,13 @@ EmptyImage[W][2]=./railcars/br-312-driving-rear-nse_W.0.0
 EmptyImage[NW][2]=./railcars/br-312-driving-rear-nse_NW.0.0
 EmptyImage[N][2]=./railcars/br-312-driving-rear-nse_N.0.0
 EmptyImage[NE][2]=./railcars/br-312-driving-rear-nse_NE.0.0
+
+EmptyImage[E][3]=./railcars/br-312-driving-rear-fge_E.0.0
+EmptyImage[SE][3]=./railcars/br-312-driving-rear-fge_SE.0.0
+EmptyImage[S][3]=./railcars/br-312-driving-rear-fge_S.0.0
+EmptyImage[SW][3]=./railcars/br-312-driving-rear-fge_SW.0.0
+EmptyImage[W][3]=./railcars/br-312-driving-rear-fge_W.0.0
+EmptyImage[NW][3]=./railcars/br-312-driving-rear-fge_NW.0.0
+EmptyImage[N][3]=./railcars/br-312-driving-rear-fge_N.0.0
+EmptyImage[NE][3]=./railcars/br-312-driving-rear-fge_NE.0.0
 --

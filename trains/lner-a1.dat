@@ -25,7 +25,7 @@ cost=11276400
 # information on coal consumption
 runningcost=335
 fixed_cost=63493
-sound=konakaboom-black-five.wav
+sound=the-mart-ban-lner-a4.wav
 increase_maintenance_after_years=25
 years_before_maintenance_max_reached=15
 

@@ -21,7 +21,7 @@ sound[11]=vickyleao1-digging.wav
 # - tool failed
 sound[10]=decembered-brakes.wav
 # - tool selection
-sound[9]=jessepash-switch.wav
+sound[9]=jep-microswitch.wav
 
 
 #other used sounds do not need to be here
