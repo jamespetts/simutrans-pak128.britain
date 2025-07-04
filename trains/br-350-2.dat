@@ -17,7 +17,7 @@ payload[1]=71
 payload[2]=0
 payload[3]=0
 overcrowded_capacity=40
-length=11
+length=12
 brake_force=34
 rolling_resistance=13
 
@@ -47,6 +47,7 @@ Constraint[Next][0]=BR-350-2(centre1)
 liverytype[0]=LM-Standard
 liverytype[1]=Firstgroup-Neon
 liverytype[2]=Private
+liverytype[3]=LNwR
 
 EmptyImage[E][0]=./railcars/br-350-front-lm.1.4
 EmptyImage[SE][0]=./railcars/br-350-front-lm.1.5
@@ -75,6 +76,15 @@ EmptyImage[NW][2]=./railcars/br-350-front.1.1
 EmptyImage[N][2]=./railcars/br-350-front.1.2
 EmptyImage[NE][2]=./railcars/br-350-front.1.3
 
+EmptyImage[E][3]=./railcars/br-350-front-lnr_E.0
+EmptyImage[SE][3]=./railcars/br-350-front-lnr_SE.0
+EmptyImage[S][3]=./railcars/br-350-front-lnr_S.0
+EmptyImage[SW][3]=./railcars/br-350-front-lnr_SW.0
+EmptyImage[W][3]=./railcars/br-350-front-lnr_W.0
+EmptyImage[NW][3]=./railcars/br-350-front-lnr_NW.0
+EmptyImage[N][3]=./railcars/br-350-front-lnr_N.0
+EmptyImage[NE][3]=./railcars/br-350-front-lnr_NE.0
+
 ---
 
 obj=vehicle
@@ -95,7 +105,7 @@ payload[1]=36
 payload[2]=0
 payload[3]=24
 overcrowded_capacity=21
-length=11
+length=12
 brake_force=30
 rolling_resistance=13
 
@@ -123,6 +133,7 @@ Constraint[Next][0]=BR-350-2(centre2)
 liverytype[0]=LM-Standard
 liverytype[1]=Firstgroup-Neon
 liverytype[2]=Private
+liverytype[3]=LNwR
 
 EmptyImage[E][0]=./railcars/br-350-middle-lm.1.4
 EmptyImage[SE][0]=./railcars/br-350-middle-lm.1.5
@@ -151,6 +162,15 @@ EmptyImage[NW][2]=./railcars/br-350-middle.1.1
 EmptyImage[N][2]=./railcars/br-350-middle.1.2
 EmptyImage[NE][2]=./railcars/br-350-middle.1.3
 
+EmptyImage[E][3]=./railcars/br-350-middle-lnr_E.0
+EmptyImage[SE][3]=./railcars/br-350-middle-lnr_SE.0
+EmptyImage[S][3]=./railcars/br-350-middle-lnr_S.0
+EmptyImage[SW][3]=./railcars/br-350-middle-lnr_SW.0
+EmptyImage[W][3]=./railcars/br-350-middle-lnr_W.0
+EmptyImage[NW][3]=./railcars/br-350-middle-lnr_NW.0
+EmptyImage[N][3]=./railcars/br-350-middle-lnr_N.0
+EmptyImage[NE][3]=./railcars/br-350-middle-lnr_NE.0
+
 ---
 
 obj=vehicle
@@ -171,7 +191,7 @@ payload[1]=68
 payload[2]=0
 payload[3]=0
 overcrowded_capacity=48
-length=11
+length=12
 brake_force=30
 rolling_resistance=13
 
@@ -199,6 +219,7 @@ Constraint[Next][0]=BR-350-2(rear)
 liverytype[0]=LM-Standard
 liverytype[1]=Firstgroup-Neon
 liverytype[2]=Private
+liverytype[3]=LNwR
 
 EmptyImage[E][0]=./railcars/br-350-panto-lm.1.4
 EmptyImage[SE][0]=./railcars/br-350-panto-lm.1.5
@@ -227,6 +248,15 @@ EmptyImage[NW][2]=./railcars/br-350-panto.1.1
 EmptyImage[N][2]=./railcars/br-350-panto.1.2
 EmptyImage[NE][2]=./railcars/br-350-panto.1.3
 
+EmptyImage[E][3]=./railcars/br-350-panto-lnr_E.0
+EmptyImage[SE][3]=./railcars/br-350-panto-lnr_SE.0
+EmptyImage[S][3]=./railcars/br-350-panto-lnr_S.0
+EmptyImage[SW][3]=./railcars/br-350-panto-lnr_SW.0
+EmptyImage[W][3]=./railcars/br-350-panto-lnr_W.0
+EmptyImage[NW][3]=./railcars/br-350-panto-lnr_NW.0
+EmptyImage[N][3]=./railcars/br-350-panto-lnr_N.0
+EmptyImage[NE][3]=./railcars/br-350-panto-lnr_NE.0
+
 ---
 
 obj=vehicle
@@ -248,7 +278,7 @@ payload[1]=71
 payload[2]=0
 payload[3]=0
 overcrowded_capacity=40
-length=11
+length=12
 brake_force=34
 rolling_resistance=13
 
@@ -278,6 +308,7 @@ Constraint[Next][1]=none
 liverytype[0]=LM-Standard
 liverytype[1]=Firstgroup-Neon
 liverytype[2]=Private
+liverytype[3]=LNwR
 
 EmptyImage[E][0]=./railcars/br-350-rear-lm.1.4
 EmptyImage[SE][0]=./railcars/br-350-rear-lm.1.5
@@ -305,4 +336,13 @@ EmptyImage[W][2]=./railcars/br-350-rear.1.0
 EmptyImage[NW][2]=./railcars/br-350-rear.1.1
 EmptyImage[N][2]=./railcars/br-350-rear.1.2
 EmptyImage[NE][2]=./railcars/br-350-rear.1.3
+
+EmptyImage[E][3]=./railcars/br-350-rear-lnr_E.0
+EmptyImage[SE][3]=./railcars/br-350-rear-lnr_SE.0
+EmptyImage[S][3]=./railcars/br-350-rear-lnr_S.0
+EmptyImage[SW][3]=./railcars/br-350-rear-lnr_SW.0
+EmptyImage[W][3]=./railcars/br-350-rear-lnr_W.0
+EmptyImage[NW][3]=./railcars/br-350-rear-lnr_NW.0
+EmptyImage[N][3]=./railcars/br-350-rear-lnr_N.0
+EmptyImage[NE][3]=./railcars/br-350-rear-lnr_NE.0
 --
