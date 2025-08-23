@@ -209,6 +209,7 @@ smoke=Industry_Smoke
 smoketile=0,0
 smokeoffset=0,16
 smokeheight=80
+smokelife=12000
 InputGood[0]=Papier
 InputCapacity[0]=144 
 InputFactor[0]=81  
