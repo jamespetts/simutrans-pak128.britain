@@ -58,6 +58,7 @@ liverytype[0]=Provincial
 liverytype[1]=Sprinter
 liverytype[2]=Regional-Railways-Standard
 liverytype[3]=Anglia-original
+liverytype[4]=LNwR
 
 EmptyImage[E][0]=./railcars/br-150-front-provincial_E.0.0
 EmptyImage[SE][0]=./railcars/br-150-front-provincial_SE.0.0
@@ -94,6 +95,15 @@ EmptyImage[W][3]=./railcars/br-150-front-anglia_W.0.0
 EmptyImage[NW][3]=./railcars/br-150-front-anglia_NW.0.0
 EmptyImage[N][3]=./railcars/br-150-front-anglia_N.0.0
 EmptyImage[NE][3]=./railcars/br-150-front-anglia_NE.0.0
+
+EmptyImage[E][4]=./railcars/br-150-front-lnr_E.0.0
+EmptyImage[SE][4]=./railcars/br-150-front-lnr_SE.0.0
+EmptyImage[S][4]=./railcars/br-150-front-lnr_S.0.0
+EmptyImage[SW][4]=./railcars/br-150-front-lnr_SW.0.0
+EmptyImage[W][4]=./railcars/br-150-front-lnr_W.0.0
+EmptyImage[NW][4]=./railcars/br-150-front-lnr_NW.0.0
+EmptyImage[N][4]=./railcars/br-150-front-lnr_N.0.0
+EmptyImage[NE][4]=./railcars/br-150-front-lnr_NE.0.0
 ---
 
 obj=vehicle
@@ -142,6 +152,7 @@ liverytype[0]=Provincial
 liverytype[1]=Sprinter
 liverytype[2]=Regional-Railways-Standard
 liverytype[3]=Anglia-original
+liverytype[4]=LNwR
 
 EmptyImage[E][0]=./railcars/br-150-centre-provincial_E.0.0
 EmptyImage[SE][0]=./railcars/br-150-centre-provincial_SE.0.0
@@ -179,6 +190,15 @@ EmptyImage[W][3]=./railcars/br-150-centre-anglia_W.0.0
 EmptyImage[NW][3]=./railcars/br-150-centre-anglia_NW.0.0
 EmptyImage[N][3]=./railcars/br-150-centre-anglia_N.0.0
 EmptyImage[NE][3]=./railcars/br-150-centre-anglia_NE.0.0
+
+EmptyImage[E][4]=./railcars/br-150-centre-lnr_E.0.0
+EmptyImage[SE][4]=./railcars/br-150-centre-lnr_SE.0.0
+EmptyImage[S][4]=./railcars/br-150-centre-lnr_S.0.0
+EmptyImage[SW][4]=./railcars/br-150-centre-lnr_SW.0.0
+EmptyImage[W][4]=./railcars/br-150-centre-lnr_W.0.0
+EmptyImage[NW][4]=./railcars/br-150-centre-lnr_NW.0.0
+EmptyImage[N][4]=./railcars/br-150-centre-lnr_N.0.0
+EmptyImage[NE][4]=./railcars/br-150-centre-lnr_NE.0.0
 ---
 
 obj=vehicle
@@ -241,6 +261,7 @@ liverytype[0]=Provincial
 liverytype[1]=Sprinter
 liverytype[2]=Regional-Railways-Standard
 liverytype[3]=Anglia-original
+liverytype[4]=LNwR
 
 EmptyImage[E][0]=./railcars/br-150-rear-provincial_E.0.0
 EmptyImage[SE][0]=./railcars/br-150-rear-provincial_SE.0.0
@@ -277,4 +298,13 @@ EmptyImage[W][3]=./railcars/br-150-rear-anglia_W.0.0
 EmptyImage[NW][3]=./railcars/br-150-rear-anglia_NW.0.0
 EmptyImage[N][3]=./railcars/br-150-rear-anglia_N.0.0
 EmptyImage[NE][3]=./railcars/br-150-rear-anglia_NE.0.0
+
+EmptyImage[E][4]=./railcars/br-150-rear-lnr_E.0.0
+EmptyImage[SE][4]=./railcars/br-150-rear-lnr_SE.0.0
+EmptyImage[S][4]=./railcars/br-150-rear-lnr_S.0.0
+EmptyImage[SW][4]=./railcars/br-150-rear-lnr_SW.0.0
+EmptyImage[W][4]=./railcars/br-150-rear-lnr_W.0.0
+EmptyImage[NW][4]=./railcars/br-150-rear-lnr_NW.0.0
+EmptyImage[N][4]=./railcars/br-150-rear-lnr_N.0.0
+EmptyImage[NE][4]=./railcars/br-150-rear-lnr_NE.0.0
 --
