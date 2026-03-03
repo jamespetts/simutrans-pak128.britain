@@ -79,6 +79,7 @@ liverytype[15]=HullTrains
 liverytype[16]=Chiltern-Standard
 liverytype[17]=Chiltern-Mainline
 liverytype[18]=Firstgroup-Mauve
+liverytype[19]=west-midlands-network
 
 EmptyImage[E][0]=./railcars/br-170-Scotrail.0.0
 EmptyImage[SE][0]=./railcars/br-170-Scotrail.0.1
@@ -251,6 +252,15 @@ EmptyImage[NW][18]=./railcars/br-170-front-first1.1.1
 EmptyImage[N][18]=./railcars/br-170-front-first1.1.2
 EmptyImage[NE][18]=./railcars/br-170-front-first1.1.3
 
+EmptyImage[E][19]=./railcars/br-170-front-wmr_E.0
+EmptyImage[SE][19]=./railcars/br-170-front-wmr_SE.0
+EmptyImage[S][19]=./railcars/br-170-front-wmr_S.0
+EmptyImage[SW][19]=./railcars/br-170-front-wmr_SW.0
+EmptyImage[W][19]=./railcars/br-170-front-wmr_W.0
+EmptyImage[NW][19]=./railcars/br-170-front-wmr_NW.0
+EmptyImage[N][19]=./railcars/br-170-front-wmr_N.0
+EmptyImage[NE][19]=./railcars/br-170-front-wmr_NE.0
+
 ---
 
 obj=vehicle
@@ -317,6 +327,7 @@ liverytype[15]=HullTrains
 liverytype[16]=Chiltern-Standard
 liverytype[17]=Chiltern-Mainline
 liverytype[18]=Firstgroup-Mauve
+liverytype[19]=west-midlands-network
 
 EmptyImage[E][0]=./railcars/br-170-Scotrail.1.0
 EmptyImage[SE][0]=./railcars/br-170-Scotrail.1.1
@@ -489,6 +500,15 @@ EmptyImage[NW][18]=./railcars/br-170-middle-first1.1.1
 EmptyImage[N][18]=./railcars/br-170-middle-first1.1.2
 EmptyImage[NE][18]=./railcars/br-170-middle-first1.1.3
 
+EmptyImage[E][19]=./railcars/br-170-centre-wmr_E.0
+EmptyImage[SE][19]=./railcars/br-170-centre-wmr_SE.0
+EmptyImage[S][19]=./railcars/br-170-centre-wmr_S.0
+EmptyImage[SW][19]=./railcars/br-170-centre-wmr_SW.0
+EmptyImage[W][19]=./railcars/br-170-centre-wmr_W.0
+EmptyImage[NW][19]=./railcars/br-170-centre-wmr_NW.0
+EmptyImage[N][19]=./railcars/br-170-centre-wmr_N.0
+EmptyImage[NE][19]=./railcars/br-170-centre-wmr_NE.0
+
 ---
 
 obj=vehicle
@@ -572,6 +592,7 @@ liverytype[15]=HullTrains
 liverytype[16]=Chiltern-Standard
 liverytype[17]=Chiltern-Mainline
 liverytype[18]=Firstgroup-Mauve
+liverytype[19]=west-midlands-network
 
 EmptyImage[E][0]=./railcars/br-170-Scotrail.2.0
 EmptyImage[SE][0]=./railcars/br-170-Scotrail.2.1
@@ -743,4 +764,13 @@ EmptyImage[W][18]=./railcars/br-170-rear-first1.1.0
 EmptyImage[NW][18]=./railcars/br-170-rear-first1.1.1
 EmptyImage[N][18]=./railcars/br-170-rear-first1.1.2
 EmptyImage[NE][18]=./railcars/br-170-rear-first1.1.3
+
+EmptyImage[E][19]=./railcars/br-170-rear-wmr_E.0
+EmptyImage[SE][19]=./railcars/br-170-rear-wmr_SE.0
+EmptyImage[S][19]=./railcars/br-170-rear-wmr_S.0
+EmptyImage[SW][19]=./railcars/br-170-rear-wmr_SW.0
+EmptyImage[W][19]=./railcars/br-170-rear-wmr_W.0
+EmptyImage[NW][19]=./railcars/br-170-rear-wmr_NW.0
+EmptyImage[N][19]=./railcars/br-170-rear-wmr_N.0
+EmptyImage[NE][19]=./railcars/br-170-rear-wmr_NE.0
 --
