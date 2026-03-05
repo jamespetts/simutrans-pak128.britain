@@ -61,6 +61,7 @@ liverytype[1]=Sprinter
 liverytype[2]=Regional-Railways-Standard
 liverytype[3]=Anglia-original
 liverytype[4]=LNwR
+liverytype[5]=LM-Standard
 
 EmptyImage[E][0]=./railcars/br-150-front-provincial_E.0.0
 EmptyImage[SE][0]=./railcars/br-150-front-provincial_SE.0.0
@@ -106,6 +107,15 @@ EmptyImage[W][4]=./railcars/br-150-front-lnr_W.0.0
 EmptyImage[NW][4]=./railcars/br-150-front-lnr_NW.0.0
 EmptyImage[N][4]=./railcars/br-150-front-lnr_N.0.0
 EmptyImage[NE][4]=./railcars/br-150-front-lnr_NE.0.0
+
+EmptyImage[E][5]=./railcars/br-150-front-lm_E.0.0
+EmptyImage[SE][5]=./railcars/br-150-front-lm_SE.0.0
+EmptyImage[S][5]=./railcars/br-150-front-lm_S.0.0
+EmptyImage[SW][5]=./railcars/br-150-front-lm_SW.0.0
+EmptyImage[W][5]=./railcars/br-150-front-lm_W.0.0
+EmptyImage[NW][5]=./railcars/br-150-front-lm_NW.0.0
+EmptyImage[N][5]=./railcars/br-150-front-lm_N.0.0
+EmptyImage[NE][5]=./railcars/br-150-front-lm_NE.0.0
 ---
 
 obj=vehicle
@@ -155,6 +165,7 @@ liverytype[1]=Sprinter
 liverytype[2]=Regional-Railways-Standard
 liverytype[3]=Anglia-original
 liverytype[4]=LNwR
+liverytype[5]=LM-Standard
 
 EmptyImage[E][0]=./railcars/br-150-centre-provincial_E.0.0
 EmptyImage[SE][0]=./railcars/br-150-centre-provincial_SE.0.0
@@ -201,6 +212,15 @@ EmptyImage[W][4]=./railcars/br-150-centre-lnr_W.0.0
 EmptyImage[NW][4]=./railcars/br-150-centre-lnr_NW.0.0
 EmptyImage[N][4]=./railcars/br-150-centre-lnr_N.0.0
 EmptyImage[NE][4]=./railcars/br-150-centre-lnr_NE.0.0
+
+EmptyImage[E][5]=./railcars/br-150-centre-lm_E.0.0
+EmptyImage[SE][5]=./railcars/br-150-centre-lm_SE.0.0
+EmptyImage[S][5]=./railcars/br-150-centre-lm_S.0.0
+EmptyImage[SW][5]=./railcars/br-150-centre-lm_SW.0.0
+EmptyImage[W][5]=./railcars/br-150-centre-lm_W.0.0
+EmptyImage[NW][5]=./railcars/br-150-centre-lm_NW.0.0
+EmptyImage[N][5]=./railcars/br-150-centre-lm_N.0.0
+EmptyImage[NE][5]=./railcars/br-150-centre-lm_NE.0.0
 ---
 
 obj=vehicle
@@ -264,6 +284,7 @@ liverytype[1]=Sprinter
 liverytype[2]=Regional-Railways-Standard
 liverytype[3]=Anglia-original
 liverytype[4]=LNwR
+liverytype[5]=LM-Standard
 
 EmptyImage[E][0]=./railcars/br-150-rear-provincial_E.0.0
 EmptyImage[SE][0]=./railcars/br-150-rear-provincial_SE.0.0
@@ -309,4 +330,13 @@ EmptyImage[W][4]=./railcars/br-150-rear-lnr_W.0.0
 EmptyImage[NW][4]=./railcars/br-150-rear-lnr_NW.0.0
 EmptyImage[N][4]=./railcars/br-150-rear-lnr_N.0.0
 EmptyImage[NE][4]=./railcars/br-150-rear-lnr_NE.0.0
+
+EmptyImage[E][5]=./railcars/br-150-rear-lm_E.0.0
+EmptyImage[SE][5]=./railcars/br-150-rear-lm_SE.0.0
+EmptyImage[S][5]=./railcars/br-150-rear-lm_S.0.0
+EmptyImage[SW][5]=./railcars/br-150-rear-lm_SW.0.0
+EmptyImage[W][5]=./railcars/br-150-rear-lm_W.0.0
+EmptyImage[NW][5]=./railcars/br-150-rear-lm_NW.0.0
+EmptyImage[N][5]=./railcars/br-150-rear-lm_N.0.0
+EmptyImage[NE][5]=./railcars/br-150-rear-lm_NE.0.0
 --
