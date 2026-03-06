@@ -264,20 +264,22 @@ Constraint[Prev][0]=br-150-front
 Constraint[Prev][1]=br-150-centre
 
 # BSI multiple working.
-Constraint[Next][0]=br-150-front
-Constraint[Next][1]=br-153
-Constraint[Next][2]=br-158-front
-Constraint[Next][3]=br-156-front
-Constraint[Next][4]=br-153-trolley
-Constraint[Next][5]=br-156-front-trolley
-Constraint[Next][6]=br-142-front
-Constraint[Next][7]=br-141-1-front
-Constraint[Next][8]=br-142-1-front
-Constraint[Next][9]=br-144-0-front
-Constraint[Next][10]=br-144-1-front
-Constraint[Next][11]=BR-170Front
-Constraint[Next][12]=br-159-front
-Constraint[Next][13]=none
+Constraint[Next][0]=BR-172-0Front
+Constraint[Next][1]=BR-172-2Front
+Constraint[Next][2]=br-150-front
+Constraint[Next][3]=br-153
+Constraint[Next][4]=br-158-front
+Constraint[Next][5]=br-156-front
+Constraint[Next][6]=br-153-trolley
+Constraint[Next][7]=br-156-front-trolley
+Constraint[Next][8]=br-142-front
+Constraint[Next][9]=br-141-1-front
+Constraint[Next][10]=br-142-1-front
+Constraint[Next][11]=br-144-0-front
+Constraint[Next][12]=br-144-1-front
+Constraint[Next][13]=BR-170Front
+Constraint[Next][14]=br-159-front
+Constraint[Next][15]=none
 
 liverytype[0]=Provincial
 liverytype[1]=Sprinter
