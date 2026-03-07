@@ -5,7 +5,7 @@ speed=145
 gear=80
 power=390
 tractive_effort=45
-copyright=Kieron/James
+copyright=Kieron/James/Rollmaterial
 intro_year=1992
 intro_month=3
 retire_year=2001
@@ -45,6 +45,7 @@ liverytype[1]=Centro
 liverytype[2]=Northern-Spirit
 liverytype[3]=Firstgroup-Mauve
 liverytype[4]=LM-Standard
+liverytype[5]=west-midlands-network
 
 EmptyImage[E][0]=./railcars/br-323-front-gmpte.1.4
 EmptyImage[SE][0]=./railcars/br-323-front-gmpte.1.5
@@ -91,6 +92,15 @@ EmptyImage[NW][4]=./railcars/br-323-front-lm.1.1
 EmptyImage[N][4]=./railcars/br-323-front-lm.1.2
 EmptyImage[NE][4]=./railcars/br-323-front-lm.1.3
 
+EmptyImage[E][5]=./railcars/br-323-front-wmr_E.0
+EmptyImage[SE][5]=./railcars/br-323-front-wmr_SE.0
+EmptyImage[S][5]=./railcars/br-323-front-wmr_S.0
+EmptyImage[SW][5]=./railcars/br-323-front-wmr_SW.0
+EmptyImage[W][5]=./railcars/br-323-front-wmr_W.0
+EmptyImage[NW][5]=./railcars/br-323-front-wmr_NW.0
+EmptyImage[N][5]=./railcars/br-323-front-wmr_N.0
+EmptyImage[NE][5]=./railcars/br-323-front-wmr_NE.0
+
 ---
 
 obj=vehicle
@@ -100,7 +110,7 @@ speed=145
 gear=80
 power=390
 tractive_effort=45
-copyright=Kieron/James
+copyright=Kieron/James/Rollmaterial
 intro_year=1992
 intro_month=3
 retire_year=2001
@@ -140,6 +150,7 @@ liverytype[1]=Centro
 liverytype[2]=Northern-Spirit
 liverytype[3]=Firstgroup-Mauve
 liverytype[4]=LM-Standard
+liverytype[5]=west-midlands-network
 
 EmptyImage[E][0]=./railcars/br-323-rear-gmpte.1.4
 EmptyImage[SE][0]=./railcars/br-323-rear-gmpte.1.5
@@ -186,6 +197,15 @@ EmptyImage[NW][4]=./railcars/br-323-rear-lm.1.1
 EmptyImage[N][4]=./railcars/br-323-rear-lm.1.2
 EmptyImage[NE][4]=./railcars/br-323-rear-lm.1.3
 
+EmptyImage[E][5]=./railcars/br-323-rear-wmr_E.0
+EmptyImage[SE][5]=./railcars/br-323-rear-wmr_SE.0
+EmptyImage[S][5]=./railcars/br-323-rear-wmr_S.0
+EmptyImage[SW][5]=./railcars/br-323-rear-wmr_SW.0
+EmptyImage[W][5]=./railcars/br-323-rear-wmr_W.0
+EmptyImage[NW][5]=./railcars/br-323-rear-wmr_NW.0
+EmptyImage[N][5]=./railcars/br-323-rear-wmr_N.0
+EmptyImage[NE][5]=./railcars/br-323-rear-wmr_NE.0
+
 ---
 
 obj=vehicle
@@ -195,7 +215,7 @@ speed=145
 gear=80
 power=390
 tractive_effort=45
-copyright=Kieron/James
+copyright=Kieron/James/Rollmaterial
 intro_year=1992
 intro_month=3
 retire_year=2001
@@ -233,6 +253,7 @@ liverytype[1]=Centro
 liverytype[2]=Northern-Spirit
 liverytype[3]=Firstgroup-Mauve
 liverytype[4]=LM-Standard
+liverytype[5]=west-midlands-network
 
 EmptyImage[E][0]=./railcars/br-323-middle-gmpte.1.4
 EmptyImage[SE][0]=./railcars/br-323-middle-gmpte.1.5
@@ -278,4 +299,13 @@ EmptyImage[W][4]=./railcars/br-323-middle-lm.1.0
 EmptyImage[NW][4]=./railcars/br-323-middle-lm.1.1
 EmptyImage[N][4]=./railcars/br-323-middle-lm.1.2
 EmptyImage[NE][4]=./railcars/br-323-middle-lm.1.3
+
+EmptyImage[E][5]=./railcars/br-323-centre-wmr_E.0
+EmptyImage[SE][5]=./railcars/br-323-centre-wmr_SE.0
+EmptyImage[S][5]=./railcars/br-323-centre-wmr_S.0
+EmptyImage[SW][5]=./railcars/br-323-centre-wmr_SW.0
+EmptyImage[W][5]=./railcars/br-323-centre-wmr_W.0
+EmptyImage[NW][5]=./railcars/br-323-centre-wmr_NW.0
+EmptyImage[N][5]=./railcars/br-323-centre-wmr_N.0
+EmptyImage[NE][5]=./railcars/br-323-centre-wmr_NE.0
 --
