@@ -1,7 +1,19 @@
 name: Deploy nightly builds
 on:
-  # Simutrans-extended nightly deployment will call this as part of the full package deployment
+  # Simutrans-extended nightly deployment will call this as part of the full package deployment,
+  # passing the exact simutrans-extended commit whose makeobj must be used for this build.
   workflow_dispatch:
+    inputs:
+      simutrans_repository:
+        description: 'The owner/name of the simutrans-extended repository to take makeobj from.'
+        type: string
+        default: 'jamespetts/simutrans-extended'
+        required: false
+      simutrans_sha:
+        description: 'Commit of the simutrans-extended repository whose CI makeobj artifact to use. Empty: resolve the latest successful ci.yml run on master.'
+        type: string
+        default: ''
+        required: false
 
   #Deploy nightly at 2am UTC. Currently the action is started externally from simutrans-extended full packagedeployment.
   #schedule:
@@ -12,71 +24,100 @@ jobs:
     runs-on: ubuntu-latest
     #continue-on-error: true
     steps:
-      - name: checkout
-        uses: actions/checkout@v2
+      # Resolve the exact simutrans-extended commit to build against.
+      # The caller (simutrans-extended nightly workflow) passes the commit whose CI it just
+      # verified; for manual dispatches without input, the latest successful ci.yml run is used.
+      - name: Resolve the simutrans-extended commit
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          INPUT_REPOSITORY: ${{ inputs.simutrans_repository }}
+          INPUT_SHA: ${{ inputs.simutrans_sha }}
+        run: |
+          sim_repo="${INPUT_REPOSITORY:-jamespetts/simutrans-extended}"
+          sim_sha="$INPUT_SHA"
+          if [[ -z "$sim_sha" ]]; then
+            sim_sha=$(curl -sf -H "Authorization: Bearer $GH_TOKEN" \
+              "https://api.github.com/repos/$sim_repo/actions/workflows/ci.yml/runs?branch=master&status=success&per_page=1" \
+              | jq -r '.workflow_runs[0].head_sha // empty')
+            if [[ -z "$sim_sha" ]]; then
+              echo "::error::No successful ci.yml run found on master of $sim_repo"
+              exit 1
+            fi
+          fi
+          echo "simutrans_repository=$sim_repo" >> "$GITHUB_ENV"
+          echo "simutrans_sha=$sim_sha" >> "$GITHUB_ENV"
 
-      # At first, check if the pakset differs
+      # At first, check if the pakset or makeobj differs from the last deployed nightly
       - name: Get latest nightly build metadata
         id: get-nightly-metadata
-        uses: Legion2/download-release-action@v2.1.0
         continue-on-error: true #Will fail if there is no release at all. This is not an error. It simply indicates the need to rebuild.
-        with:
-          repository: simutrans/simutrans-pak128.britain-ex
-          tag: Nightly
-          file: build-metadata.json
-      - run: |
-          outdated=$(
-            (
-              [[ ${{ steps.get-nightly-metadata.outcome }} == failure ]] ||\
-              [[ $(jq -r '.pakset_version' ./build-metadata.json) != $(git rev-parse ${{ github.ref }}) ]]
-            ) && echo true || echo false
-          )
-          echo "outdated=$outdated" >> $GITHUB_ENV
-        shell: bash
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          asset_url=$(curl -sf -H "Authorization: Bearer $GH_TOKEN" \
+            "https://api.github.com/repos/${{ github.repository }}/releases/tags/Nightly" \
+            | jq -r '.assets[] | select(.name == "build-metadata.json") | .url')
+          curl -sfL -H "Authorization: Bearer $GH_TOKEN" -H "Accept: application/octet-stream" \
+            -o ./build-metadata.json "$asset_url"
 
-      # If pakset is up to date, check if makeobj has changed in the meantime
-      - run: |
-          last_makeobj_sha=$(jq -r '.makeobj_version' ./build-metadata.json)
-          git clone --branch Nightly --depth 1 --no-checkout https://github.com/simutrans/simutrans-extended.git simutrans-extended
-          cd simutrans-extended
-
-          outdated=$([[ $last_makeobj_sha != $(git rev-parse Nightly) ]] && echo true || echo false)
-          echo "outdated=$outdated" >> $GITHUB_ENV
-        shell: bash
-        if: env.outdated == 'false'
+      - name: Determine whether a rebuild is needed
+        env:
+          METADATA_OUTCOME: ${{ steps.get-nightly-metadata.outcome }}
+        run: |
+          if [[ "$METADATA_OUTCOME" == "failure" ]]; then
+            outdated=true
+          else
+            outdated=$(
+              (
+                [[ $(jq -r '.pakset_version' ./build-metadata.json) != ${{ github.sha }} ]] ||\
+                [[ $(jq -r '.makeobj_version' ./build-metadata.json) != ${{ env.simutrans_sha }} ]]
+              ) && echo true || echo false
+            )
+          fi
+          echo "outdated=$outdated" >> "$GITHUB_ENV"
+          echo "pakset=${{ github.sha }} makeobj=${{ env.simutrans_sha }} outdated=$outdated"
     outputs:
-      outdated: ${{ env.outdated}}
+      outdated: ${{ env.outdated }}
+      simutrans_repository: ${{ env.simutrans_repository }}
+      simutrans_sha: ${{ env.simutrans_sha }}
 
   build:
     needs: check_updates
     if: needs.check_updates.outputs.outdated == 'true'
-    uses: simutrans/simutrans-pak128.britain-ex/.github/workflows/build.yml@master
+    uses: jamespetts/simutrans-pak128.britain/.github/workflows/build.yml@master
     with:
-      pakset_ref: ${{ github.ref }}
+      pakset_ref: ${{ github.sha }}
+      simutrans_repository: ${{ needs.check_updates.outputs.simutrans_repository }}
+      simutrans_ref: ${{ needs.check_updates.outputs.simutrans_sha }}
 
   deploy:
-    needs: build
+    needs: [check_updates, build]
+    if: needs.check_updates.outputs.outdated == 'true'
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
-      # Workarround: retrieve the cache key of the build.
-      - name: checkout
-        uses: actions/checkout@v2
       - name: Download build metadata
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4
         with:
           name: build-metadata
-      - run: |
-          pakset_sha=$(jq -r '.pakset_version' ./build-metadata.json)
-          echo "pakset_sha=$pakset_sha" >> $GITHUB_ENV
-          echo "pakset_short_sha=$(git rev-parse --short $pakset_sha)" >> $GITHUB_ENV
-          echo "simutrans_sha=$(jq -r '.makeobj_version' ./build-metadata.json)" >> $GITHUB_ENV
-      # End of workarround
 
       - name: Load Build results from cache
-        uses: actions/cache@v2
+        id: pakcache
+        uses: actions/cache@v4
         with:
           path: ./pak128.Britain-Ex
-          key: nightly-${{ env.pakset_sha }}@${{ env.simutrans_sha }}
+          key: nightly-${{ github.sha }}@${{ needs.check_updates.outputs.simutrans_sha }}
+
+      - name: Verify the build cache was restored
+        run: |
+          if [[ "${{ steps.pakcache.outputs.cache-hit }}" != "true" ]]; then
+            echo "::error::Build cache nightly-${{ github.sha }}@${{ needs.check_updates.outputs.simutrans_sha }} was not restored; cannot deploy"
+            exit 1
+          fi
+
+      - name: Compute short sha
+        run: echo "short_sha=${GITHUB_SHA::7}" >> "$GITHUB_ENV"
 
       - run: zip -r ./pak128.britain-ex-nightly.zip ./pak128.Britain-Ex/
 
@@ -86,19 +127,22 @@ jobs:
           allowUpdates: true
           artifactErrorsFailBuild: true
           artifacts: "./pak128.britain-ex-nightly.zip, ./build-metadata.json"
-          commit: "${{ env.pakset_sha }}"
-          name: "Nightly #${{ env.pakset_short_sha }}"
+          commit: "${{ github.sha }}"
+          name: "Nightly #${{ env.short_sha }}"
           removeArtifacts: true
           tag: "Nightly"
           token: ${{ secrets.GITHUB_TOKEN }}
       - name: Move the Nightly tag
-        uses: actions/github-script@v3
+        uses: actions/github-script@v7
+        env:
+          PAKSET_SHA: ${{ github.sha }}
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
-            await github.git.updateRef({
-              ...context.repo,
+            await github.rest.git.updateRef({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
               ref: "tags/Nightly",
-              sha: "${{ env.pakset_sha }}",
+              sha: process.env.PAKSET_SHA,
               force: true
             })

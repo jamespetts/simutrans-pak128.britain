@@ -9,14 +9,19 @@ on:
         required: false
 
       simutrans_repository:
-        description: 'The owner of the simutrans-extended repository'
+        description: 'The owner/name of the simutrans-extended repository whose CI makeobj artifact to use.'
         type: string
-        default: simutrans/simutrans-extended
+        default: jamespetts/simutrans-extended
         required: false
       simutrans_ref:
         description: 'The commit hash, branch or tag name of the simutrans-extended build to use.'
         type: string
         default: Nightly
+        required: false
+      makeobj_artifact_name:
+        description: 'Name of the makeobj CI artifact in the simutrans-extended repository.'
+        type: string
+        default: makeobj-linux
         required: false
 
 jobs:
@@ -24,13 +29,13 @@ jobs:
     name: Build the pakset
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
         with:
           ref: ${{ inputs.pakset_ref }}
       - name: Set env.pakset_hash
-        run: echo "pakset_hash=$(git rev-parse ${{ inputs.pakset_ref }})" >> $GITHUB_ENV
+        run: echo "pakset_hash=$(git rev-parse HEAD)" >> "$GITHUB_ENV"
 
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
         with:
           repository: ${{ inputs.simutrans_repository }}
           ref: ${{ inputs.simutrans_ref }}
@@ -38,12 +43,12 @@ jobs:
       - name: Set env.simutrans_hash
         run: |
           cd ./simutrans-extended
-          echo "simutrans_hash=$(git rev-parse ${{ inputs.simutrans_ref }})" >> $GITHUB_ENV
+          echo "simutrans_hash=$(git rev-parse HEAD)" >> "$GITHUB_ENV"
           cd ..
           rm -rf ./simutrans-extended
 
       - name: Load Build Cache
-        uses: actions/cache@v2
+        uses: actions/cache@v4
         id: cache
         with:
           path: ./pak128.Britain-Ex
@@ -51,19 +56,32 @@ jobs:
 
       - name: Get makeobj
         if: steps.cache.outputs.cache-hit != 'true'
-        uses: dawidd6/action-download-artifact@v2
-        with:
-          repo: simutrans/simutrans-extended
-          workflow: ci.yml
-          commit: ${{ env.simutrans_hash }}
-          workflow_conclusion: success
-          path: .
-          name: makeobj-linux-nightly
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          sim_repo="${{ inputs.simutrans_repository }}"
+          run_json=$(curl -sf -H "Authorization: Bearer $GH_TOKEN" \
+            "https://api.github.com/repos/$sim_repo/actions/workflows/ci.yml/runs?head_sha=${{ env.simutrans_hash }}&status=success&per_page=1")
+          run_id=$(echo "$run_json" | jq -r '.workflow_runs[0].id // empty')
+          if [[ -z "$run_id" ]]; then
+            echo "::error::No successful ci.yml run for commit ${{ env.simutrans_hash }} in $sim_repo"
+            exit 1
+          fi
+          artifact_id=$(curl -sf -H "Authorization: Bearer $GH_TOKEN" \
+            "https://api.github.com/repos/$sim_repo/actions/runs/$run_id/artifacts?per_page=100" \
+            | jq -r --arg name "${{ inputs.makeobj_artifact_name }}" '.artifacts[] | select(.name == $name) | .id')
+          if [[ -z "$artifact_id" || "$artifact_id" == "null" ]]; then
+            echo "::error::Artifact ${{ inputs.makeobj_artifact_name }} not found in CI run $run_id of $sim_repo"
+            exit 1
+          fi
+          curl -sfL -H "Authorization: Bearer $GH_TOKEN" -o /tmp/makeobj.zip \
+            "https://api.github.com/repos/$sim_repo/actions/artifacts/$artifact_id/zip"
+          unzip -o /tmp/makeobj.zip -d .
+          chmod +x ./makeobj-extended
 
       - name: Build the pak
         if: steps.cache.outputs.cache-hit != 'true'
         run: |
-          chmod +x ./makeobj-extended
           make
           echo "{
             \"timestamp\" : \"$(date)\",
@@ -74,7 +92,7 @@ jobs:
 
       #Workarround to bypass the restriction of workflow run output variables (currently not supported, but will be in a later release according to the github roadmap)
       - name: upload build metadata
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: build-metadata
           path: ./pak128.Britain-Ex/build-metadata.json
