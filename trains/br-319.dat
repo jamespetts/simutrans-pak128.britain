@@ -50,6 +50,7 @@ Constraint[Next][0]=BR-319Pantograph
 
 liverytype[0]=NSE-Standard
 liverytype[1]=Northern
+liverytype[2]=LM-Standard
 
 EmptyImage[E][0]=./railcars/br-319-dtso-front-nse_E.0.0
 EmptyImage[SE][0]=./railcars/br-319-dtso-front-nse_SE.0.0
@@ -68,6 +69,16 @@ EmptyImage[W][1]=./railcars/br-319-front-northern2016_W.png
 EmptyImage[NW][1]=./railcars/br-319-front-northern2016_NW.png
 EmptyImage[N][1]=./railcars/br-319-front-northern2016_N.png
 EmptyImage[NE][1]=./railcars/br-319-front-northern2016_NE.png
+
+EmptyImage[E][2]=./railcars/br-319-dtso-lm_E.png
+EmptyImage[SE][2]=./railcars/br-319-dtso-lm_SE.png
+EmptyImage[S][2]=./railcars/br-319-dtso-lm_S.png
+EmptyImage[SW][2]=./railcars/br-319-dtso-lm_SW.png
+EmptyImage[W][2]=./railcars/br-319-dtso-lm_W.png
+EmptyImage[NW][2]=./railcars/br-319-dtso-lm_NW.png
+EmptyImage[N][2]=./railcars/br-319-dtso-lm_N.png
+EmptyImage[NE][2]=./railcars/br-319-dtso-lm_NE.png
+
 ---
 
 obj=vehicle
@@ -118,6 +129,7 @@ Constraint[Next][0]=BR-319Pantograph
 
 liverytype[0]=NSE-Standard
 liverytype[1]=Northern
+liverytype[2]=LM-Standard
 
 EmptyImage[E][0]=./railcars/br-319-dtco-front-nse_E.0.0
 EmptyImage[SE][0]=./railcars/br-319-dtco-front-nse_SE.0.0
@@ -136,6 +148,15 @@ EmptyImage[W][1]=./railcars/br-319-front-northern2016_W.png
 EmptyImage[NW][1]=./railcars/br-319-front-northern2016_NW.png
 EmptyImage[N][1]=./railcars/br-319-front-northern2016_N.png
 EmptyImage[NE][1]=./railcars/br-319-front-northern2016_NE.png
+
+EmptyImage[E][2]=./railcars/br-319-dtco-lm_E.png
+EmptyImage[SE][2]=./railcars/br-319-dtco-lm_SE.png
+EmptyImage[S][2]=./railcars/br-319-dtco-lm_S.png
+EmptyImage[SW][2]=./railcars/br-319-dtco-lm_SW.png
+EmptyImage[W][2]=./railcars/br-319-dtco-lm_W.png
+EmptyImage[NW][2]=./railcars/br-319-dtco-lm_NW.png
+EmptyImage[N][2]=./railcars/br-319-dtco-lm_N.png
+EmptyImage[NE][2]=./railcars/br-319-dtco-lm_NE.png
 
 ---
 
@@ -185,6 +206,7 @@ Constraint[Next][0]=BR-319Engine
 
 liverytype[0]=NSE-Standard
 liverytype[1]=Northern
+liverytype[2]=LM-Standard
 
 EmptyImage[E][0]=./railcars/br-319-mso-nse_E.0.0
 EmptyImage[SE][0]=./railcars/br-319-mso-nse_SE.0.0
@@ -203,6 +225,16 @@ EmptyImage[W][1]=./railcars/br-319-mso-northern2016_W.png
 EmptyImage[NW][1]=./railcars/br-319-mso-northern2016_NW.png
 EmptyImage[N][1]=./railcars/br-319-mso-northern2016_N.png
 EmptyImage[NE][1]=./railcars/br-319-mso-northern2016_NE.png
+
+EmptyImage[E][2]=./railcars/br-319-mso-lm_E.png
+EmptyImage[SE][2]=./railcars/br-319-mso-lm_SE.png
+EmptyImage[S][2]=./railcars/br-319-mso-lm_S.png
+EmptyImage[SW][2]=./railcars/br-319-mso-lm_SW.png
+EmptyImage[W][2]=./railcars/br-319-mso-lm_W.png
+EmptyImage[NW][2]=./railcars/br-319-mso-lm_NW.png
+EmptyImage[N][2]=./railcars/br-319-mso-lm_N.png
+EmptyImage[NE][2]=./railcars/br-319-mso-lm_NE.png
+
 ---
 
 obj=vehicle
@@ -252,6 +284,7 @@ Constraint[Next][0]=BR-319Rear
 
 liverytype[0]=NSE-Standard
 liverytype[1]=Northern
+liverytype[2]=LM-Standard
 
 EmptyImage[E][0]=./railcars/br-319-tsol-nse_E.0.0
 EmptyImage[SE][0]=./railcars/br-319-tsol-nse_SE.0.0
@@ -270,6 +303,16 @@ EmptyImage[W][1]=./railcars/br-319-tsol-northern2016_W.png
 EmptyImage[NW][1]=./railcars/br-319-tsol-northern2016_NW.png
 EmptyImage[N][1]=./railcars/br-319-tsol-northern2016_N.png
 EmptyImage[NE][1]=./railcars/br-319-tsol-northern2016_NE.png
+
+EmptyImage[E][2]=./railcars/br-319-tsol-lm_E.png
+EmptyImage[SE][2]=./railcars/br-319-tsol-lm_SE.png
+EmptyImage[S][2]=./railcars/br-319-tsol-lm_S.png
+EmptyImage[SW][2]=./railcars/br-319-tsol-lm_SW.png
+EmptyImage[W][2]=./railcars/br-319-tsol-lm_W.png
+EmptyImage[NW][2]=./railcars/br-319-tsol-lm_NW.png
+EmptyImage[N][2]=./railcars/br-319-tsol-lm_N.png
+EmptyImage[NE][2]=./railcars/br-319-tsol-lm_NE.png
+
 ---
 
 obj=vehicle
@@ -322,6 +365,7 @@ Constraint[Next][2]=none
 
 liverytype[0]=NSE-Standard
 liverytype[1]=Northern
+liverytype[2]=LM-Standard
 
 EmptyImage[E][0]=./railcars/br-319-dtso-rear-nse_E.0.0
 EmptyImage[SE][0]=./railcars/br-319-dtso-rear-nse_SE.0.0
@@ -340,4 +384,14 @@ EmptyImage[W][1]=./railcars/br-319-rear-northern2016_W.png
 EmptyImage[NW][1]=./railcars/br-319-rear-northern2016_NW.png
 EmptyImage[N][1]=./railcars/br-319-rear-northern2016_N.png
 EmptyImage[NE][1]=./railcars/br-319-rear-northern2016_NE.png
+
+EmptyImage[E][2]=./railcars/br-319-dtso-rear-lm_E.png
+EmptyImage[SE][2]=./railcars/br-319-dtso-rear-lm_SE.png
+EmptyImage[S][2]=./railcars/br-319-dtso-rear-lm_S.png
+EmptyImage[SW][2]=./railcars/br-319-dtso-rear-lm_SW.png
+EmptyImage[W][2]=./railcars/br-319-dtso-rear-lm_W.png
+EmptyImage[NW][2]=./railcars/br-319-dtso-rear-lm_NW.png
+EmptyImage[N][2]=./railcars/br-319-dtso-rear-lm_N.png
+EmptyImage[NE][2]=./railcars/br-319-dtso-rear-lm_NE.png
+
 ---

@@ -36,8 +36,22 @@ comfort[1]=50
 
 increase_maintenance_after_years=26
 
-Constraint[Prev][0]=br-141-0-rear
-Constraint[Prev][1]=none
+# BSI multiple working
+Constraint[Prev][0]=BR-172-0Rear
+Constraint[Prev][1]=BR-172-2Rear
+Constraint[Prev][2]=br-150-rear
+Constraint[Prev][3]=br-153
+Constraint[Prev][4]=br-153-trolley
+Constraint[Prev][5]=br-158-rear
+Constraint[Prev][6]=br-156-rear
+Constraint[Prev][7]=br-142-rear
+Constraint[Prev][8]=br-141-1-rear
+Constraint[Prev][9]=br-142-1-rear
+Constraint[Prev][10]=br-144-0-rear
+Constraint[Prev][11]=br-144-1-rear
+Constraint[Prev][12]=BR-170Rear
+Constraint[Prev][13]=br-159-rear
+Constraint[Prev][14]=none
 
 Constraint[Next][0]=br-141-0-rear
 
@@ -93,8 +107,23 @@ upgrade[0]=br-141-1-rear
 
 Constraint[Prev][0]=br-141-0-front
 
-Constraint[Next][0]=br-141-0-front
-Constraint[Next][1]=none
+# BSI multiple working.
+Constraint[Next][0]=BR-172-0Front
+Constraint[Next][1]=BR-172-2Front
+Constraint[Next][2]=br-150-front
+Constraint[Next][3]=br-153
+Constraint[Next][4]=br-158-front
+Constraint[Next][5]=br-156-front
+Constraint[Next][6]=br-153-trolley
+Constraint[Next][7]=br-156-front-trolley
+Constraint[Next][8]=br-142-front
+Constraint[Next][9]=br-141-1-front
+Constraint[Next][10]=br-142-1-front
+Constraint[Next][11]=br-144-0-front
+Constraint[Next][12]=br-144-1-front
+Constraint[Next][13]=BR-170Front
+Constraint[Next][14]=br-159-front
+Constraint[Next][15]=none
 
 liverytype[0]=wypte-Green-Cream
 
@@ -147,20 +176,22 @@ comfort[1]=52
 
 increase_maintenance_after_years=26
 
-# BSI multiple working; Class 141 modified in 1988/89
-Constraint[Prev][0]=br-150-rear
-Constraint[Prev][1]=br-153
-Constraint[Prev][2]=br-153-trolley
-Constraint[Prev][3]=br-158-rear
-Constraint[Prev][4]=br-156-rear
-Constraint[Prev][5]=br-142-rear
-Constraint[Prev][6]=br-141-1-rear
-Constraint[Prev][7]=br-142-1-rear
-Constraint[Prev][8]=br-144-0-rear
-Constraint[Prev][9]=br-144-1-rear
-Constraint[Prev][10]=BR-170Rear
-Constraint[Prev][11]=br-159-rear
-Constraint[Prev][12]=none
+# BSI multiple working
+Constraint[Prev][0]=BR-172-0Rear
+Constraint[Prev][1]=BR-172-2Rear
+Constraint[Prev][2]=br-150-rear
+Constraint[Prev][3]=br-153
+Constraint[Prev][4]=br-153-trolley
+Constraint[Prev][5]=br-158-rear
+Constraint[Prev][6]=br-156-rear
+Constraint[Prev][7]=br-142-rear
+Constraint[Prev][8]=br-141-1-rear
+Constraint[Prev][9]=br-142-1-rear
+Constraint[Prev][10]=br-144-0-rear
+Constraint[Prev][11]=br-144-1-rear
+Constraint[Prev][12]=BR-170Rear
+Constraint[Prev][13]=br-159-rear
+Constraint[Prev][14]=none
 
 Constraint[Next][0]=br-141-1-rear
 
@@ -217,21 +248,23 @@ available_only_as_upgrade=1
 
 Constraint[Prev][0]=br-141-1-front
 
-# BSI multiple working; Class 141 modified in 1988/89
-Constraint[Next][0]=br-150-front
-Constraint[Next][1]=br-153
-Constraint[Next][2]=br-158-front
-Constraint[Next][3]=br-156-front
-Constraint[Next][4]=br-153-trolley
-Constraint[Next][5]=br-156-front-trolley
-Constraint[Next][6]=br-142-front
-Constraint[Next][7]=br-141-1-front
-Constraint[Next][8]=br-142-1-front
-Constraint[Next][9]=br-144-0-front
-Constraint[Next][10]=br-144-1-front
-Constraint[Next][11]=BR-170Front
-Constraint[Next][12]=br-159-front
-Constraint[Next][13]=none
+# BSI multiple working.
+Constraint[Next][0]=BR-172-0Front
+Constraint[Next][1]=BR-172-2Front
+Constraint[Next][2]=br-150-front
+Constraint[Next][3]=br-153
+Constraint[Next][4]=br-158-front
+Constraint[Next][5]=br-156-front
+Constraint[Next][6]=br-153-trolley
+Constraint[Next][7]=br-156-front-trolley
+Constraint[Next][8]=br-142-front
+Constraint[Next][9]=br-141-1-front
+Constraint[Next][10]=br-142-1-front
+Constraint[Next][11]=br-144-0-front
+Constraint[Next][12]=br-144-1-front
+Constraint[Next][13]=BR-170Front
+Constraint[Next][14]=br-159-front
+Constraint[Next][15]=none
 
 liverytype[0]=wypte-Red-Cream
 
