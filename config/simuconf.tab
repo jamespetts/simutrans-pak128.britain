@@ -236,6 +236,12 @@ tolerance_modifier_percentage = 66
 
 meters_per_tile = 125
 
+# The maximum number of dividing/joining movements that the path explorer
+# may compose into one through journey. A journey beyond the limit is
+# recorded up to the limit and continues as an ordinary transfer.
+# Default: 64
+max_through_coupling_depth = 64
+
 # Comfort influenced routing.
 # Old saves start with comfort_routing off; the advanced settings dialogue can
 # turn it on. New games start with it on. Turning it on runs the normal full
