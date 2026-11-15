@@ -13,6 +13,26 @@ These are working notes from an in-progress build, not a reviewed standard. Each
 the symptom, the mechanism, and the numeric fix that removed it in the Corsa F.
 `[EXECUTION-VERIFIED:2026-11-15]`
 
+## Missing brand-defining silhouette (Ford Anglia rear, rejected 2026-11-15)
+
+**Symptom**: the Anglia 100E/105E renders read as generic modern cars from behind — the user
+rejected them: "They were famous for their rear shape, but these renders look like modern
+hatchbacks. These need re-doing." `[USER-DIRECTION:2026-11-15]`
+
+**Mechanism**: `car_builder.py`'s cabin expresses only a rearward-slanting backlight, so the
+run's spec recorded the 105E's reverse-rake rear window (the glass leans forward over the
+boot) and the 100E's raised spare-wheel boot lid as omitted, judging that they "do not read
+at pak scale". A brand-defining silhouette DOES read at pak scale: it is what makes the blob
+identifiable even when surface details do not.
+
+**Rule**: if a feature defines the model's recognisable silhouette (reverse-rake window,
+spare-wheel hump, fins, sloping or upright tail), it must be modelled even when the builder
+cannot express it, using a post-build geometry edit in the 4.5 session (the BMC1100 chrome
+bumper is the precedent). Any "does not read at pak scale" judgement about a silhouette
+feature must be referred to the user at the spec stage, not decided in the build. Numeric
+checks (cluster count, pixel size, colour) cannot detect this class of error: all of them
+passed on the rejected renders. `[EXECUTION-VERIFIED:2026-11-15]` `[USER-DIRECTION:2026-11-15]`
+
 ## Coplanar detail faces (z-fighting)
 
 **Symptom**: jagged black/red patches on the nose or tail, in the 4.5 viewport and in the

@@ -81,7 +81,11 @@ analysis).
   parametric pipeline; the user accepted its renders on 2026-11-15. The fourth (2026-11-15)
   was the single-model BMC1100 (ADO16, 5 colourways), also subagent-executed, including a
   post-build chrome-bumper edit in the 4.5 session without changing the builder code; the
-  user accepted its renders on 2026-11-15.
+  user accepted its renders on 2026-11-15. The fifth (2026-11-15) was the Ford Anglia 100E
+  and 105E (10 colourways), subagent-executed; its renders were REJECTED by the user the
+  same day — the brand-defining rear shapes (105E reverse-rake window, 100E spare-wheel boot
+  hump) had been omitted as "not readable at pak scale" ([geometry-pitfalls](geometry-pitfalls.md))
+  — and a geometry rework is queued. Every numeric check had passed on the rejected renders.
   `[EXECUTION-VERIFIED:2026-11-15]` `[USER-DIRECTION:2026-11-15]`
 - **What remains untested**: citycar spawning and image alignment in a running game
   session. `-generate_map` proves the pakset loads and the world initialises; it does not
