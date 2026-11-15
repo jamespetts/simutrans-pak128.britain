@@ -17,8 +17,8 @@ for new engine features.
 
 ## Planned work
 
-- Complete the five price types that still fall back to `general` in `config/prices.tab`:
-  `goods rate`, `vehicle purchase`, `vehicle maintenance`, `buildings` and `infrastructure`.
+- Complete the four price types that still fall back to `general` in `config/prices.tab`:
+  `goods rate`, `vehicle purchase`, `vehicle maintenance` and `infrastructure`.
   Research sources, method and order: [prices-config](prices-config.md); source-recording
   rule: [calibration-sources](calibration-sources.md). `[USER-DIRECTION:2026-11-15]`
 - Add the missing citycar assets listed in
@@ -71,6 +71,12 @@ for new engine features.
   dwellings series 1995-2025 chained to the JST UK house price index for 1900-1995. Method,
   sources and first-pass limitations: [prices-config](prices-config.md) and
   [calibration-sources](calibration-sources.md). `[EXECUTION-VERIFIED:2026-11-15]`
+- `buildings` price series added to `config/prices.tab`, 1900 = 100, 1750-2050. A four-block
+  chain: Mitchell's building cost index 1845-1938, Holmans's construction cost index 1939-1954,
+  the BIS output price index for all new construction 1955-2013, and the ONS construction output
+  price index for all new work 2014-2026. Sources, link periods and limitations:
+  [prices-config](prices-config.md), [calibration-sources](calibration-sources.md).
+  `[CODE New ex-15, working tree 2026-11-15]`
 - Ford Anglia 100E/105E photographic geometry rework: the user accepted the replacement
   models and colour renders, including the corrected 100E boot. The replacement sprites
   are installed in the source tree and compiled into the local citycars pak. Accepted

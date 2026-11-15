@@ -6,8 +6,8 @@
 # All calibrated to 1900 as 100%
 # Last updated: 2026-11-15 (general to 2026 actuals with 2027-2050 projected;
 # passenger fare rebased to the ONS series and extended to 2050; corporation
-# tax and base rate brought up to date and held forward; city land and country
-# land series added).
+# tax and base rate brought up to date and held forward; city land, country
+# land and buildings series added).
 # 2021 and 2022 corrected on that date: the old 2022 entry (13096) predated the
 # 9.1% CPI outturn for that year. 2021-2025 are from the source above; 2026 is
 # provisional, from the ONS CPI quarterly rates (3.0% annual average), because the
@@ -57,7 +57,33 @@ mail rate=1750,400,1784,500,1797,700,1805,800,1812,900,1840,100,1918,150,1920,20
 #goods rate=1750,100,2022,100
 #vehicle purchase=1750,100,2022,100
 #vehicle maintenance=1750,100,2022,100
-#buildings=1750,100,2022,100
+# Buildings. 1900 = 100. Nominal price of building work, chained from four sources, each
+# linked on an overlap year:
+#   1845-1938  Mitchell, British Historical Statistics (1988), Ch VII Table 8, "index of
+#              building costs, 1930 = 100", reproduced in the Bank of England "A millennium
+#              of macroeconomic data" sheet A32 column S.
+#   1939-1954  Holmans, Historical Statistics of Housing in Britain, Table M.10, "index of
+#              construction costs, 1958-60 = 100" (same sheet, column T). 1940-1947 are
+#              absent from that sheet and come from Mitchell and Deane, Abstract of British
+#              Historical Statistics (1962), Ch IX Table 4.
+#   1955-2013  BIS Output Price Index, All New Construction, 2005 = 100 (BIS quarterly price
+#              and cost indices, 2014 Q1 edition, Table 1, column 15); 2013 is the mean of
+#              the four published quarters.
+#   2014-2026  ONS Construction Output Price Index, all new work, 2015 = 100, annual means
+#              of the monthly series (ONS dataset "Construction output price indices",
+#              release of 2026-11-12). 2026 is the mean of January to September.
+# Links: 1938-39 by continuity, following the join made in the Bank of England sheet; 1955
+# on the overlap of the Holmans and BIS series; 2014 Q1 on the overlap of the BIS and ONS
+# series. Before 1845 the 1845 real level is held and tracks general: a wage-based backcast
+# fits the 1845-1914 Mitchell index worse (see prices-config.md). After 2026 the 2026 real
+# level is held and tracks general to 2050.
+# The engine applies this key to building purchase cost and building maintenance, and to
+# the station, depot, roadstop, air terminal, post office, headquarters, land alteration,
+# tree removal, building removal and transformer multipliers. New-build output prices are
+# used throughout; repair and maintenance prices are not spliced in, so the series is a
+# compromise for maintenance, which is more labour-intensive.
+# Last updated: 2026-11-15.
+buildings=1750,50,1751,49,1752,51,1753,50,1754,52,1755,49,1756,51,1758,62,1759,57,1760,55,1762,54,1763,56,1764,61,1765,62,1766,64,1767,67,1768,66,1769,61,1770,61,1771,66,1772,73,1773,73,1774,74,1775,68,1777,68,1778,69,1779,64,1780,62,1781,65,1782,66,1783,74,1784,75,1785,70,1787,70,1788,74,1789,73,1790,74,1791,74,1792,75,1793,77,1794,84,1795,92,1796,98,1797,88,1798,86,1799,97,1800,132,1801,148,1802,114,1803,108,1804,111,1805,129,1806,123,1807,121,1808,125,1809,138,1810,141,1811,138,1812,156,1813,160,1814,139,1815,124,1816,114,1817,130,1818,130,1819,127,1820,114,1821,101,1822,87,1823,93,1824,101,1825,119,1826,112,1827,105,1828,102,1829,101,1830,97,1831,107,1832,99,1833,93,1834,86,1835,87,1836,97,1837,99,1838,100,1839,107,1840,109,1841,107,1842,98,1843,87,1844,87,1845,91,1846,95,1847,92,1848,88,1849,85,1850,83,1851,82,1852,83,1853,93,1854,96,1855,95,1856,89,1857,91,1858,89,1859,88,1860,88,1861,86,1862,86,1863,88,1864,89,1865,88,1866,91,1867,89,1868,88,1869,89,1870,91,1871,92,1872,101,1873,111,1874,107,1875,101,1876,98,1877,96,1878,92,1879,89,1880,95,1881,92,1882,93,1883,90,1884,87,1885,86,1886,85,1887,83,1888,83,1889,86,1890,89,1891,87,1892,86,1893,85,1894,84,1895,83,1896,84,1897,86,1898,90,1899,95,1900,100,1901,98,1902,93,1903,90,1904,88,1905,88,1906,90,1907,93,1908,90,1909,89,1910,92,1911,95,1912,99,1913,102,1914,103,1915,124,1916,145,1917,167,1918,207,1919,257,1920,302,1921,247,1922,200,1923,188,1924,195,1925,196,1926,190,1927,186,1928,179,1929,180,1930,176,1931,169,1932,162,1933,158,1934,159,1935,162,1936,168,1937,177,1938,180,1939,180,1940,205,1941,236,1942,255,1943,261,1944,273,1945,311,1946,348,1947,379,1948,404,1949,416,1950,429,1951,497,1952,547,1953,534,1954,547,1955,571,1956,608,1957,620,1958,596,1960,596,1961,620,1962,644,1963,656,1964,669,1965,681,1966,717,1967,717,1968,754,1969,790,1970,863,1971,936,1972,1045,1973,1337,1974,1775,1975,2115,1976,2285,1977,2529,1978,2784,1979,3416,1980,4462,1981,4729,1982,4620,1983,4583,1984,4802,1985,5142,1986,5313,1987,5556,1988,6176,1989,7160,1990,7598,1991,7282,1992,6711,1993,6480,1994,7124,1995,7574,1996,7647,1997,7914,1998,8315,1999,8765,2000,9239,2001,9859,2002,10576,2003,11038,2004,11354,2005,12157,2006,12801,2007,13360,2008,13834,2009,13591,2010,13069,2011,13251,2012,13701,2013,14202,2014,14573,2015,14694,2016,15084,2017,15504,2018,16030,2019,16585,2020,16709,2021,17425,2022,19235,2023,20472,2024,20989,2025,21585,2026,22040,2027,23032,2028,23723,2029,24316,2030,24802,2035,27383,2040,30231,2045,33380,2050,36854
 #infrastructure=1750,100,2022,100
 # Land. 1900 = 100. Country land is England; city land is the United Kingdom.
 # No United States or other-country data is used.

@@ -36,6 +36,7 @@ do not use line-number references to files that change. Never edit a document's 
 - [balancing](balancing.md) — read when tuning prices, costs, capacities, speeds, or intro/retire dates, or when judging economic and historical realism.
 - [calibration-sources](calibration-sources.md) — read before entering any historically derived value in a config file or `.dat`: the source-recording rule and the dataset registry.
 - [prices-config](prices-config.md) — read when editing or extending `config/prices.tab`: the price types, the index method, the unit conversion and the outstanding series.
+- [prices-forum-fragments](prices-forum-fragments.md) — read when a single building or structure price is needed for an era, or before setting the station, depot and platform multipliers: what the forum pricing thread supplies and what it does not.
 - [class](class.md) — read when touching passenger or mail classes, accommodation, comfort, catering, or fare-dependent revenue; keyed from [balancing](balancing.md).
 
 ## Build, data & infrastructure

@@ -21,17 +21,16 @@ conversion, and the research required for each type that has no series of its ow
 
 ## Types and state
 
-Seven types have a series of their own: `general`, `passenger fare`, `mail rate`,
-`corporation tax`, `base rate`, `city land` and `country land`. The remaining five are
-present only as commented-out placeholders and therefore use `general`:
+Eight types have a series of their own: `general`, `passenger fare`, `mail rate`,
+`corporation tax`, `base rate`, `city land`, `country land` and `buildings`. The remaining
+four are present only as commented-out placeholders and therefore use `general`:
 
 - `goods rate`
 - `vehicle purchase`
 - `vehicle maintenance`
-- `buildings`
 - `infrastructure`
 
-`[CODE New ex-15 @ 8d0603d81]`
+`[CODE New ex-15 @ 8d0603d81]`; `buildings` added 2026-11-15.
 
 The placeholders are flat at index 100. Do not uncomment one without a real series: that would
 remove inflation from the category entirely, which is a larger error than inheriting `general`.
@@ -99,7 +98,6 @@ rate and the real price for a year, should reproduce the entered value.
 |---|---|---|---|
 | `vehicle purchase` | Vehicle purchase and upgrade costs | Price index of transport equipment | ONS CPI D7CO and CPIH L544 for 1988-2026; a transport equipment deflator or historical price lists before 1988 |
 | `vehicle maintenance` | Vehicle running and fixed costs | Repair and servicing price index | ONS RPI DOCT and CPI repair components for 1987-2026; wage and parts indices before 1987 |
-| `buildings` | Building costs and maintenance, and (to confirm) the station, depot and removal multipliers | Building construction cost index | Spon's historical indices 1845-1955; ONS/BIS CPCI 1955-2014; ONS output price indices 2014-2026 |
 | `infrastructure` | Way, bridge, tunnel, signal, roadsign and way-object construction and maintenance | Civil engineering construction cost index | BCIS civil engineering index; ONS output price indices, infrastructure, from 1980; Department of the Environment road tender indices from 1970 |
 | `goods rate` | Goods revenue | Rail freight revenue per ton-mile | Railway Returns 1848-1962; British Rail and GBR statistics 1948-1994; ORR statistics 1994-2026 |
 
@@ -110,6 +108,13 @@ rate and the real price for a year, should reproduce the entered value.
   Railway Returns.
 - Paywalled or print: Spon's handbook, the BCIS index series, and Feinstein's national accounts
   tables. These need a library or a subscription; record the edition and table used.
+- The Bank of England workbook "A millennium of macroeconomic data for the UK" carries long
+  annual series that would otherwise need print sources, including the Mitchell building-cost
+  index 1845-1938 and Holmans's construction-cost index from 1939 (sheet A32).
+  `[LITERATURE:https://www.bankofengland.co.uk/statistics/research-datasets]`
+- For era-relative prices, which a year index cannot supply, start from the forum thread
+  "A snippet of relative pricing information" ([research-and-forum](research-and-forum.md));
+  what it holds for buildings: [prices-forum-fragments](prices-forum-fragments.md).
 
 ## Type notes
 
@@ -151,23 +156,47 @@ rate and the real price for a year, should reproduce the entered value.
 
 ### `buildings`
 
-- Covers new building construction, building maintenance, and the station, depot, air
-  terminal, post office, headquarters and building-removal multipliers. Confirm the exact
-  multiplier mapping against the engine before relying on it.
-- Spon's *Construction Cost and Price Indices Handbook* lists the historical indices that
-  cover the nineteenth and early twentieth centuries: Jones (1845-1922), Saville (1923-1939),
-  Redern (1839/1850-1953), CSO CCA (1888-1956), Board of Inland Revenue (1896-1956),
-  Venning Hope (1914-1975), BRS measured work (1939-1969) and DOE cost of new construction
-  (1949-1980). `[LITERATURE:https://doi.org/10.4324/9780203473283]`
-- ONS/BIS Construction Price and Cost Indices run from 1955; the ONS Construction Output Price
-  Indices run from 2014. The ONS methodology gives a linking method on an overlapping period.
-  `[LITERATURE:https://assets.publishing.service.gov.uk/media/5a7954be40f0b63d72fc4ddf/output-price-indices-methodology-and-revision-policy.pdf]`
-- Before 1845, use building craftsmen's wage and materials price series, or hold the real level
-  constant.
-- Traps: tender prices are not input costs; specifications and quality change; tax treatment
-  changed with VAT from 1973; new-build indices are not repair and maintenance indices. The
-  engine applies one key to both construction and maintenance, and maintenance is more
-  labour-intensive, so the series is a compromise.
+- Implemented in `prices.tab`. Covers new building construction, building maintenance, and the
+  station, depot, air terminal, post office, headquarters and building-removal multipliers. The
+  engine mapping is the coverage recorded in
+  [balancing](balancing.md#inflation-recording-ex-15); it was not re-checked against the engine
+  source when the series was built.
+- The series is a four-block chain, each block linked on an overlap period and the whole rebased
+  to 1900 = 100:
+  - **1845-1938**: Mitchell, *British Historical Statistics* (1988) ch VII table 8, building
+    costs, 1930 = 100, in sheet A32 column S of the Bank of England "A millennium of
+    macroeconomic data" workbook.
+  - **1939-1954**: Holmans, *Historical Statistics of Housing in Britain* table M.10,
+    construction costs, 1958-60 = 100, in the same sheet, column T; 1940-1947, which that sheet
+    omits, from Mitchell and Deane, *Abstract of British Historical Statistics* (1962) ch IX
+    table 4.
+  - **1955-2013**: BIS output price index, all new construction, 2005 = 100, BIS quarterly price
+    and cost indices 2014 Q1, table 1; 2013 is the mean of the four published quarters.
+  - **2014-2026**: ONS construction output price index, all new work, 2015 = 100, annual means of
+    the monthly series; 2026 is the mean of January to September.
+- Link periods: 1938/1939 by continuity, following the join the Bank of England sheet makes (the
+  implied 1938 value in the Holmans base is 29.0 against a published 1939 value of 29, so the
+  join adds no step); 1955 on the Holmans-BIS overlap; 2014 Q1 on the BIS-ONS overlap.
+- Before 1845 the block is a backcast that holds the 1845 real level and tracks `general`. That
+  is a tested choice, not a default. The obvious alternative is a wage series: the same workbook
+  carries Clark's building craftsmen's money wage for England (sheet A47), overlapping the
+  Mitchell index 1845-1914. Fitting a blend of w times the wage ratio and (1 - w) times the
+  price ratio to the Mitchell index gives a best fit at w = 0.02 (log RMSE 0.052); w = 0.5 gives
+  0.231 and w = 1 gives 0.407. Money wages rose 82% between 1845 and 1900 while the index rose
+  10% with prices flat, so a wage-based backcast contradicts the best-documented period and
+  ignores the fall in unit labour input. No free pre-1845 building cost series was found; the
+  remaining candidates are print or paywalled: Chalklin's building-cost appendix, the London
+  *Builder's Price Books* of 1776-1796, and Spon's.
+  `[LITERATURE:https://www.bankofengland.co.uk/statistics/research-datasets]`
+  `[USER-DIRECTION:2026-11-15]`
+- Results: 1845 = 91, 1900 = 100, 1920 = 302, 1955 = 571, 1980 = 4,462, 2026 = 22,040 and
+  2050 = 36,854. The 2026 level is 1.35 times `general`; the ratio ranges from about 0.8 (1847)
+  to about 1.6 (1980). `[CODE New 2026-11-15]`
+- Traps: the blocks measure slightly different things — the Mitchell and Holmans indices are cost
+  indices, the BIS and ONS series are output prices paid by clients. Tender prices are not input
+  costs; specifications and quality change; VAT replaced purchase tax in 1973. Repair and
+  maintenance prices are not spliced in, although the engine applies the same key to
+  maintenance, which is more labour-intensive. `[LITERATURE:https://doi.org/10.4324/9780203473283]`
 
 ### `infrastructure`
 
@@ -244,16 +273,18 @@ rate and the real price for a year, should reproduce the entered value.
 
 ## Order of work
 
-1. `buildings`, then `infrastructure`. Both need the same construction family; do them
-   together so that the link years agree.
+1. `infrastructure`. It draws on the same construction family as `buildings`, so reuse the
+   link periods already chosen for it (1938/39, 1955, 2014 Q1) and rebase to 1900 the same way.
+   The ONS output price index for infrastructure starts only in 1980, so 1845-1980 needs either
+   a civil engineering series or the `buildings` index as a documented stand-in.
 2. `vehicle purchase`. The CPI tail is ready; the early part needs a transport equipment
    deflator.
 3. `vehicle maintenance`. The CPI and RPI tails are ready; the early part can be proxied from
    wages and parts.
 4. `goods rate`. The longest splice and the weakest source continuity; do it last.
 
-The land pair (`city land`, `country land`) is implemented. It will be revisited when the
-engine models land value per tile.
+`buildings` and the land pair (`city land`, `country land`) are implemented. The land pair will
+be revisited when the engine models land value per tile.
 
 ## Open questions
 
@@ -264,6 +295,8 @@ engine models land value per tile.
   the per-tile land model replaces the index. The base split carries the 1900 urban/farmland
   ratio; the absolute land levels still depend on that scaling.
 - Do `cost_multiply_station`, `cost_multiply_dock` and the depot costs follow `buildings` or
-  `infrastructure`?
+  `infrastructure`? The coverage recorded in [balancing](balancing.md#inflation-recording-ex-15)
+  says all the `cst_*` multipliers, including these, follow `buildings`; that has not been
+  re-checked against the engine source.
 - Does `forge_cost_*` follow `infrastructure`? The setting is a way construction cost, but it
   is configured separately from the `.dat` way cost.

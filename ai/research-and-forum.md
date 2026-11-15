@@ -13,6 +13,14 @@ and research material.
   https://forum.simutrans.com/index.php/board,75.0.html . It is the main community reference for
   the pakset. Cite forum-derived facts with `[FORUM:<url>]` and the post date where possible
   ([claim-tags](claim-tags.md)).
+- For era-relative pricing — the price of one object against another in the same year, which the
+  year-indexed files do not supply — start with the forum thread "A snippet of relative pricing
+  information", begun by jamespetts on 2010-12-29 in the Pak128.Britain-Ex board and still
+  active. It collects contemporaneous prices with their sources: railway carriages and
+  locomotives (Jenkinson), ships' construction cost per ton, stage coaches, tram depots and
+  track, bridges and viaducts, and fare tables. What it supplies for buildings and structures,
+  and what it does not, is tabulated in [prices-forum-fragments](prices-forum-fragments.md).
+  `[FORUM:https://forum.simutrans.com/index.php?topic=6521.0]`
 - Period manufacturer sales brochures on archive.org are a primary source for UK paint names
   and trim ranges (found via archive.org advancedsearch and the item `_djvu.txt` OCR text;
   used for the Ford Anglia and BMC 1100 colours on 2026-11-15). When web search is

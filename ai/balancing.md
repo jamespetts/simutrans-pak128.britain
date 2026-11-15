@@ -84,9 +84,10 @@ be economically and historically realistic.
   `[FORUM:https://forum.simutrans.com/index.php/topic,22054.msg202141.html]`
 - Pakset status: `New/config/` contains `prices.tab`, `fuel.tab` and `staff.tab`, with series
   running to 2026 and projections to 2050. `general`, `passenger fare`, `mail rate`,
-  `corporation tax`, `base rate`, `city land` and `country land` have their own series; five
-  types still fall back to `general`. [prices-config](prices-config.md) records the method and
-  the research outstanding for those five. `[CODE New ex-15 @ 8d0603d81]`
+  `corporation tax`, `base rate`, `city land`, `country land` and `buildings` have their own
+  series; four types still fall back to `general`. [prices-config](prices-config.md) records the
+  method and the research outstanding for those four. `[CODE New ex-15 @ 8d0603d81]`;
+  `buildings` added 2026-11-15.
 
 ## Time system and the two timescales
 

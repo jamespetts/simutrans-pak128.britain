@@ -54,7 +54,7 @@ from observed values.
 | Wages | Average and occupational earnings | ONS AWE series a3wx; measuringworth | 1750-2026 | `staff[*]` |
 | Corporation tax | UK main rate | GOV.UK rates and allowances | 1798-2023 | `corporation tax` |
 | Bank Rate | Bank of England policy rate | Bank of England Bank Rate history | 1750-2025 | `base rate` |
-| Building construction | Building cost and tender prices | Spon's historical indices; ONS/BIS CPCI; ONS output price indices | 1845-2026 | `buildings` (planned) |
+| Building construction | Nominal price of building work | Mitchell, *British Historical Statistics* (1988) Ch VII Table 8, building costs (1930=100), 1845-1938; Holmans, *Historical Statistics of Housing in Britain*, Table M.10, construction costs (1958-60=100), 1939-1970, with 1940-1947 from Mitchell and Deane, *Abstract of British Historical Statistics* (1962) Ch IX Table 4; BIS output price index, all new construction, 1955-2013; ONS construction output price index, all new work, 2014-2026. The first two are taken from the Bank of England "A millennium of macroeconomic data" workbook, sheet A32, columns S and T. Before 1845 the 1845 real level is held and tracks the general index (backcast tested against a wage-based alternative; see [prices-config](prices-config.md)) | 1845-2026, backcast to 1750 | `buildings` |
 | Civil engineering | Infrastructure construction prices | BCIS civil engineering index; ONS output price indices, infrastructure; Department of the Environment road tender indices | 1980-2026 for the infrastructure OPI; earlier under research | `infrastructure` (planned) |
 | Farmland | England agricultural land price | Savills long-run England farmland series, all land types (real, rebased to 2023) | 1900-2024 | `country land` |
 | Urban land | UK residential land price | JST Macrohistory Database UK nominal house price index (1900-1995 proxy); ONS land underlying dwellings, AN.21111 (1995-2025) | 1899-2025 | `city land` |
@@ -79,6 +79,11 @@ the general index by default.
 - The land series are first-pass: `country land` is an England series and `city land` uses a
   house price proxy before 1995 and a total land value, not a value per dwelling, after it.
   They will be revisited when the engine models land value per tile.
+- `buildings` is a four-block chain: Mitchell's building cost index (1845-1938), Holmans's
+  construction cost index (1939-1954), the BIS output price index for all new construction
+  (1955-2013) and the ONS construction output price index for all new work (2014-2026). The
+  links are 1938/39 by continuity, 1955 on the overlap year of the Holmans and BIS series, and
+  2014 Q1 on the only quarter published by both the BIS and ONS series.
 
 ## Open questions
 
