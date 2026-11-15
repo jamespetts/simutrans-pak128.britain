@@ -1,0 +1,194 @@
+# https://en.wikipedia.org/wiki/Ford_Escort_(Europe)
+# Ford Escort Mk2: the squared-off Escort of December 1974 - August 1980,
+# launched in the UK in January 1975 (Wikipedia, "Ford Escort (Europe)",
+# second-generation section: the first production cars left the line on
+# 2 December 1974, the range was announced in January 1975, and the Mark I
+# overlapped in production until March 1975). The Mk2 used the Mk I's floorpan,
+# running gear and core structure under a new, much squarer body developed
+# jointly by Ford of Britain and Ford of Germany (development code "Brenda").
+#
+# The Escort was the UK's second best-selling car in every year of the Mk2's
+# life, behind the Ford Cortina. UK registrations (SMMT data via AROnline,
+# "Britain's best-selling cars 1965-1999"):
+#   1975 Escort 103,817 (Cortina 106,787)     1978 Escort 114,415 (Cortina 139,204)
+#   1976 Escort 124,166 (Cortina 126,238)     1979 Escort 131,667 (Cortina 192,184)
+#   1977 Escort 103,389 (Cortina 120,601)     1980 Escort 122,357 (Cortina 190,281)
+# Total Escort registrations over 1975-80 were 699,811 against the Cortina's
+# 875,295, a ratio of 0.80. The Mk2 is the volume saloon; the Sport, Mexico,
+# RS1800 and RS2000 rally variants are not modelled.
+#
+# Dimensions: Wikipedia/Autocar 1975 second-generation figures: wheelbase 94.5 in
+# (2,400 mm); overall length 156.5 in (3,975 mm) saloon (estate 163 in,
+# 4,140 mm); width 61.8 in (1,570 mm); height 55.65 in (1,414 mm); kerb weight
+# 1,940 lb (880 kg).
+#
+# Colours: Diamond White, Venetian Red, Bermuda Blue, Signal Yellow and Roman
+# Bronze are real Ford of Britain paint names for the Escort Mk2, taken from the
+# period Ford colour cards of May 1976, January 1978 and July 1979 (reproduced at
+# rsmk2.com, "RS2000 Colours"), cross-checked against the Ford Escort Mk2 colour
+# list at classiccarhub.co.uk (Ford classic paint colour codes: Diamond White B
+# 1975-80, Venetian Red 1975-78, Bermuda Blue 1977, Signal Yellow 1975-80, Roman
+# Bronze S/F6 1975-78 metallic) and against the Ford paint codes published by
+# Zero Paints for the Mk2 Escort (Signal Yellow 9/KL, Venetian Red R/JM, Diamond
+# White B/3/FB, Roman Bronze S/F6). Availability used for the intro staggering:
+# Diamond White 1973-1980 (a Ford standard colour from 1973), Venetian Red
+# 1975/76-1980 (the 1975-76 launch red was Carnival Red, superseded by Venetian
+# Red; one red is modelled across the run), Bermuda Blue 1976-1979, Signal Yellow
+# 1976-1980, Roman Bronze 1976-1978 (metallic). Carnival Red, Signal Orange,
+# Signal Green, Peppermint Green, Calypso Green, Daytona Yellow, Java Green,
+# Terracotta, Midnight Blue, Nordic Blue, Riviera Blue, Cordoba Beige, Tuscan
+# Beige and the rest of the catalogue are omitted as the less common of the range.
+#
+# Colour shares: the DVSA first-registration colour table starts with 1994
+# registrations, so its measured base for cars first registered in 1994-96 (blue
+# 23-25%, red 19-23%, white 7-10%, black 8-10%, grey 4-5%, silver 9-11%, other
+# 20-26%) is the starting point, adjusted for mid-to-late-1970s registrations:
+# the measured blue:red ratio (about 1.2:1) is kept; white is raised from the
+# measured 7-10% to about 19% of the modelled set (white was far commoner on
+# 1970s registrations than among 1990s survivors); yellow and bronze/brown are
+# drawn from the measured "other" group, which was at its largest in the 1970s
+# (the decade of Signal Yellow and Roman Bronze); silver, black and grey, all
+# minor on 1970s registrations and much larger by 1994, are not modelled.
+# Shares used: blue 31%, red 26%, white 19%, yellow 12%, bronze 12%.
+#
+# DistributionWeight totals 440 across the five colourways, provisionally. The
+# 1975/1980 parc anchor is the Ford Cortina (500 on the 2026-11-15 rebase); the
+# Escort Mk2 is a strong non-anchor set just below the anchor, at 88% of it:
+# over 1975-80 the Escort's UK registrations were 80% of the Cortina's and the
+# Escort was second in the best-seller table in all six years, within 3-20% of
+# the Cortina in each; on the parc measure the gap closes late in the period,
+# because the anchor object stands for the whole Cortina range whereas the
+# Escort is split into generations, and the Mk2 alone carried the youngest and
+# largest Escort cohorts by 1979-80. Provisional pending the central rebase.
+# The Mk1 (in tree, ford-escort-mk1.dat), the Mk2 and the Mk3 overlap in road
+# presence - the Mk2 overlaps both - so the family's combined weight exceeds the
+# anchor's 500 in those windows; that is a property of the per-generation
+# convention and is for the central rebase to normalise.
+#
+# Speed 123 km/h: a game-balance figure, not the model's top speed. It sits one
+# step above the Mk1 (120) and below the Mk3 (127) in the tree. Comfort 60/270 is
+# one modest step above the Mk1's 55/265: the Mk2 is the same platform with a new
+# body, better noise suppression and upgraded trim, but no new suspension design;
+# it is well below the Cortina's 80/300 and above the Fiesta Mk1's 50/255.
+# Tolerable = 180 + 1.5 x comfortable, rounded to 5.
+#
+# Dates describe when each colour is seen regularly on UK roads, not production
+# dates. Production ended in Britain in August 1980, although Mk1-based cars
+# continued in some overseas markets; road presence tails to about 1986-90,
+# staggered by colour by observed road presence - white and blue longest as the
+# fleet and volume solids, then red, then the period brights (yellow) and the
+# metallic (bronze) shortest. Future retire dates are estimates.
+#
+# Rendered with the parametric car_builder.py in the blends repository. The Mk2
+# has a slim chromed bumper, applied as a post-build material and Z-scale edit in
+# the Blender 4.5 session (the bmc1100 and Anglia procedure).
+
+obj=citycar
+name=FordEscort-mk2(Blue)
+copyright=JamesPetts
+
+DistributionWeight=136
+intro_year=1976
+intro_month=1
+retire_year=1989
+retire_month=6
+speed=123
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=270
+
+Image[E]=./images/ford-escort-mk2-blue_E.0.0,-33,14
+Image[SE]=./images/ford-escort-mk2-blue_SE.0.0,-13,0
+Image[S]=./images/ford-escort-mk2-blue_S.0.0,0,0
+Image[SW]=./images/ford-escort-mk2-blue_SW.0.0,-8,10
+Image[W]=./images/ford-escort-mk2-blue_W.0.0,4,5
+Image[NW]=./images/ford-escort-mk2-blue_NW.0.0,12,10
+Image[N]=./images/ford-escort-mk2-blue_N.0.0,0,33
+Image[NE]=./images/ford-escort-mk2-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FordEscort-mk2(Red)
+copyright=JamesPetts
+
+DistributionWeight=114
+intro_year=1975
+intro_month=1
+retire_year=1988
+retire_month=6
+speed=123
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=270
+
+Image[E]=./images/ford-escort-mk2-red_E.0.0,-33,14
+Image[SE]=./images/ford-escort-mk2-red_SE.0.0,-13,0
+Image[S]=./images/ford-escort-mk2-red_S.0.0,0,0
+Image[SW]=./images/ford-escort-mk2-red_SW.0.0,-8,10
+Image[W]=./images/ford-escort-mk2-red_W.0.0,4,5
+Image[NW]=./images/ford-escort-mk2-red_NW.0.0,12,10
+Image[N]=./images/ford-escort-mk2-red_N.0.0,0,33
+Image[NE]=./images/ford-escort-mk2-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FordEscort-mk2(White)
+copyright=JamesPetts
+
+DistributionWeight=84
+intro_year=1975
+intro_month=1
+retire_year=1990
+retire_month=6
+speed=123
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=270
+
+Image[E]=./images/ford-escort-mk2-white_E.0.0,-33,14
+Image[SE]=./images/ford-escort-mk2-white_SE.0.0,-13,0
+Image[S]=./images/ford-escort-mk2-white_S.0.0,0,0
+Image[SW]=./images/ford-escort-mk2-white_SW.0.0,-8,10
+Image[W]=./images/ford-escort-mk2-white_W.0.0,4,5
+Image[NW]=./images/ford-escort-mk2-white_NW.0.0,12,10
+Image[N]=./images/ford-escort-mk2-white_N.0.0,0,33
+Image[NE]=./images/ford-escort-mk2-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FordEscort-mk2(Yellow)
+copyright=JamesPetts
+
+DistributionWeight=53
+intro_year=1976
+intro_month=1
+retire_year=1987
+retire_month=6
+speed=123
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=270
+
+Image[E]=./images/ford-escort-mk2-yellow_E.0.0,-33,14
+Image[SE]=./images/ford-escort-mk2-yellow_SE.0.0,-13,0
+Image[S]=./images/ford-escort-mk2-yellow_S.0.0,0,0
+Image[SW]=./images/ford-escort-mk2-yellow_SW.0.0,-8,10
+Image[W]=./images/ford-escort-mk2-yellow_W.0.0,4,5
+Image[NW]=./images/ford-escort-mk2-yellow_NW.0.0,12,10
+Image[N]=./images/ford-escort-mk2-yellow_N.0.0,0,33
+Image[NE]=./images/ford-escort-mk2-yellow_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FordEscort-mk2(Bronze)
+copyright=JamesPetts
+
+DistributionWeight=53
+intro_year=1976
+intro_month=1
+retire_year=1986
+retire_month=6
+speed=123
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=270
+
+Image[E]=./images/ford-escort-mk2-bronze_E.0.0,-33,14
+Image[SE]=./images/ford-escort-mk2-bronze_SE.0.0,-13,0
+Image[S]=./images/ford-escort-mk2-bronze_S.0.0,0,0
+Image[SW]=./images/ford-escort-mk2-bronze_SW.0.0,-8,10
+Image[W]=./images/ford-escort-mk2-bronze_W.0.0,4,5
+Image[NW]=./images/ford-escort-mk2-bronze_NW.0.0,12,10
+Image[N]=./images/ford-escort-mk2-bronze_N.0.0,0,33
+Image[NE]=./images/ford-escort-mk2-bronze_NE.0.0,0,24
