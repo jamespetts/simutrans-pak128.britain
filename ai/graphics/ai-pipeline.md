@@ -67,7 +67,7 @@ analysis).
 
 - **MCP has been shown to be the only process that works to any extent.**
   `[USER-DIRECTION:2026-11-15]`
-- **Three end-to-end runs now exist.** The first (2026-11-14/15) was an Audi A4 B6 saloon
+- **Four end-to-end runs now exist.** The first (2026-11-14/15) was an Audi A4 B6 saloon
   taken through geometry, six colour variants, render and makeobj compile into a private
   car ([photo-to-pak-pipeline](photo-to-pak-pipeline.md)). The second (2026-11-15) was a
   six-generation Vauxhall Corsa family (Nova/Corsa A to Corsa F, 24 citycar objects),
@@ -78,7 +78,9 @@ analysis).
   geometry faults, now recorded with fixes in [geometry-pitfalls](geometry-pitfalls.md).
   The third (2026-11-15) was the Ford Fiesta family (Mk1–Mk7, 28 citycar objects), the
   first run executed by delegated subagents (model DeepSeek V4.1 Flash) on the same
-  parametric pipeline; the user accepted its renders on 2026-11-15.
+  parametric pipeline; the user accepted its renders on 2026-11-15. The fourth (2026-11-15)
+  was the single-model BMC1100 (ADO16, 5 colourways), also subagent-executed, including a
+  post-build chrome-bumper edit in the 4.5 session without changing the builder code.
   `[EXECUTION-VERIFIED:2026-11-15]` `[USER-DIRECTION:2026-11-15]`
 - **What remains untested**: citycar spawning and image alignment in a running game
   session. `-generate_map` proves the pakset loads and the world initialises; it does not
@@ -105,7 +107,8 @@ analysis).
 - `Git Blends/Pak128.Britain-blends/stageB_car_prepare.py` and `stageB_car_render.py` —
   the 2.79 half of the car pipeline: import/place/attachment-check/save, then render the
   eight views for each paint colour from a JSON colour list. Translate-only; never scale
-  in 2.79.
+  in 2.79. The render step has been observed to exit 1 part-way after producing some views
+  with no traceback; re-running it for the remaining colours completes the set (2026-11-15).
 - `execute_blender_code` runs in a context that loses its window after
   `save_as_mainfile`. Build and save in one call, then call `export_pak_dae()` in a fresh
   call; a save followed by `collada_export` in the same call fails with

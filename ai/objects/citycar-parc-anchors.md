@@ -53,8 +53,8 @@ the Evidence column and listed with full references at the end.
 | 1950 | Unresolved: no model-level evidence exists | (c) only a 1949 make-level roadside count (Austin 21%, Morris 16%) [S7] | — | Candidates all present (`MorrisEight`, `AustinTen`/`AustinTen1937`, `MorrisMinor`) |
 | 1955 | Morris Minor | (c)+(b) narrative + ~393k built by end-1955 [S8] | Low-medium | Yes — `MorrisMinor` |
 | 1960 | Morris Minor | (b) ~885k cumulative; 1,000,000th Dec 1960 [S8] | Low | Yes — `MorrisMinor` |
-| 1965 | Morris Minor (stock inference) vs BMC 1100 (sales proxy) — conflicting measures | (b) 1100 was best-seller 1965 (157,679) [S9]; Minor led on accumulated stock [S8] | Low | `MorrisMinor` yes; **BMC 1100 no** |
-| 1970 | BMC 1100/1300 (ADO16) | (b) best-seller 1968–71; 2.15m built [S9][S10] | Low-medium | **No** |
+| 1965 | Morris Minor (stock inference) vs BMC 1100 (sales proxy) — conflicting measures | (b) 1100 was best-seller 1965 (157,679) [S9]; Minor led on accumulated stock [S8] | Low | Yes — `MorrisMinor` and `BMC1100` (added 2026-11-15) |
+| 1970 | BMC 1100/1300 (ADO16) | (b) best-seller 1968–71; 2.15m built [S9][S10] | Low-medium | Yes — `BMC1100` (added 2026-11-15) |
 | 1975 | Ford Cortina | (b) #1 new-car seller 1972–75; ~2.8m UK sales [S9][S10] | Medium | Yes — `FordCortina` |
 | 1980 | Ford Cortina | (b) best-seller 1980 (190,281); 1.41m registered in the 1970s [S11] | Low | Yes — `FordCortina` |
 | 1985 | Ford Escort (Mk3) | (b) best-seller 1982–85; Cortina alternative unexcluded [S9] | Low | Yes — `FordEscort-mk3` |
@@ -72,11 +72,13 @@ the Evidence column and listed with full references at the end.
 1. **Ford Fiesta** — CLOSED 2026-11-15: `FordFiestaMk1`–`Mk7` added (`ford-fiesta-mk1.dat`
    to `ford-fiesta-mk7.dat`, 28 colourway objects, 7 generations spanning 1977–2023 road
    presence). It was the parc leader at five sample points (2000, 2005, 2015, 2020, 2025).
-2. **BMC/Morris 1100/1300 (ADO16)** — dominant UK car 1963–71; without it, the 1965 and 1970
-   rows have no true anchor.
-3. **Morris Cowley** (1926–1935) — only its twin models are present. The
-   `MorrisOxfordFlatnose` .dat already declares it "intended to represent also the very similar
-   Morris Oxford Six"; whether it should also stand for the Cowley is open.
+2. **BMC/Morris 1100/1300 (ADO16)** — CLOSED 2026-11-15: `BMC1100` added (`bmc1100.dat`,
+   5 colourways). One model only: the ADO16 shell did not change across Mk I–III and the
+   grille revisions do not read at pak scale.
+3. **Morris Cowley** (1926–1935) — addressed 2026-11-15 by declaring the twin models to
+   represent it: the Cowley shared the Oxford bodies and the differences do not read at pak
+   scale. Representation comments added to `morris-oxford-bullnose.dat` and
+   `morris-oxford-flatnose.dat`. User ratification outstanding (open question below).
 4. **1950 is unresolvable** from published sources; its likely candidates are all present, so
    the anchor for that era has to be fixed by mutual scaling instead.
 5. Absent but relevant to surrounding traffic density (never an anchor row): Ford Anglia, Ford
@@ -135,10 +137,10 @@ the Evidence column and listed with full references at the end.
 
 ## Open questions
 
-- Should the missing anchor models (Ford Fiesta, BMC 1100/1300) be built as new citycars? If
-  not, the affected eras must be anchored by the next-most-popular model present.
 - Should `MorrisOxfordFlatnose` stand for the Morris Cowley as well (as it already does for the
-  Morris Oxford Six), or should a separate Cowley object be added?
+  Morris Oxford Six), or should a separate Cowley object be added? Interim decision 2026-11-15:
+  yes, both Oxford models stand for the Cowley (representation comments added to the `.dat`
+  files); user ratification outstanding.
 - 1935: Cowley vs Austin Seven cannot be resolved from the sources found. A period census or
   registration record could settle it; none was found.
 - 2000: the ranking flips if car-derived vans are counted with the model (Escort first) instead

@@ -39,6 +39,9 @@ verified: New master @ 92c7b701c
   under PowerShell invoke `Makeobj-Extended-ex-15.exe` explicitly; under Git Bash the
   extension-less name runs correctly (as the canonical build does). `mkpak.sh` keeps all
   three names refreshed from the engine build so every resolution lands on the latest.
+  Run the extension-less binary from Git Bash (`bash -c 'cd <source-folder> &&
+  ../../New/makeobj-extended pak128 <out.pak> *.dat'`); PowerShell quoting of a Git Bash
+  invocation proved unreliable (2026-11-15).
   `[CODE New ex-15 @ 0ba8d7fc6]` `[USER-DIRECTION:2026-11-15]`
 - Several makeobj builds are present in `New/` (for example `Makeobj-Extended.exe`,
   `Makeobj-Extended-ex-15.exe`, `makeobj-extended`). makeobj binaries are ignored by

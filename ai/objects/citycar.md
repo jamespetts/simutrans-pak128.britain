@@ -85,7 +85,7 @@ Method:
 | `DistributionWeight` | Spawn frequency relative to other citycars | **unverified; do not omit** |
 | `intro_year` / `intro_month` | Year/month the colour is first seen on roads | — |
 | `retire_year` / `retire_month` | Year/month it is last seen regularly (early retires mean rare sights from that date) | — |
-| `speed` | Top speed in mph (existing values 110–149) | — |
+| `speed` | Top speed in **km/h** (the engine reads it with `kmh_to_speed`; the tree's values are a game-balance figure, not always the model's real top speed) | — |
 | `maximum_comfortable_journey_minutes` | Maximum comfortable journey time for private-car travel, in whole minutes (the `_tenths` form gives tenths of a minute) | omitted/0 → engine default 180 minutes |
 | `maximum_tolerable_journey_minutes` | Maximum tolerable journey time, same units (`_tenths` form available) | omitted/0 → three times the comfortable time |
 
@@ -199,6 +199,17 @@ Images follow the same `<slug>-<colour>_<VIEW>.png` convention under
 `car_builder.py` in the blends repository (see [ai-pipeline](../graphics/ai-pipeline.md))
 and compiled with `Makeobj-Extended-ex-15.exe`; the debug engine loaded the resulting
 `citycars.pak` and reported `MAP-GEN: PASS` on 2026-11-15. `[EXECUTION-VERIFIED:2026-11-15]`
+
+## The BMC1100 example (in tree)
+
+`New/citycars/bmc1100.dat` (5 colourways, 2026-11-15): one model for the ADO16 (the car sold
+as the Austin and Morris 1100/1300), whose shell did not change enough across Mk I–III to
+read at pak scale. Period BMC paint names and codes from the 1966 and 1970 Austin-Morris
+colour charts; the pre-1994 colour shares are era-adjusted from the 1994–96 measured base,
+with the adjustment stated in the `.dat` header (the same method as the VauxhallNova's
+1980s adjustment). Comfort 70/285 reflects the Hydrolastic suspension. The slim chrome
+bumper was applied as a post-build edit in the 4.5 session (bumper bars scaled down and the
+material set to chrome) without changing `car_builder.py`'s builder code.
 
 ## Comfort calibration
 
