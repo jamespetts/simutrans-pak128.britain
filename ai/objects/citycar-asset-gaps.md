@@ -48,11 +48,39 @@ research (DfT VEH0120 via ukmotoring.co.uk; SMMT via AROnline; marque production
 | --- | --- | --- |
 | 1920s–30s | Ford Model Y / Popular (£100 car, 157,668 UK, 1932–37 — the 1930s counterpart to the Model T) | production |
 | 1950s | **Ford Popular 103E** (>150,000 sold 1953–59; the cheapest new car at £390 — biggest single entry gap); **Austin A30/A35** (222,823 + 353,849 built) | SMMT-era figures; production |
-| c. 1925–1965 | **Motorcycle and sidecar** — the characteristic Very-low motorised transport of the mid-20th century; fills band 0 where old bangers are thin `[USER-DIRECTION:2026-11-15]` | user direction |
+| c.1920–1965 | **Motorcycle and sidecar outfits** (era-specific, below) — the characteristic Very-low motorised transport of the mid-20th century `[USER-DIRECTION:2026-11-15]` | see the outfit table below |
 | 1960s–70s | Hillman Imp (42,663 in 1965); Vauxhall Viva HA/HB/HC (76,838 in 1970); Vauxhall Chevette (46,059 in 1980) | SMMT |
 | 1980s price floor | Fiat 126 (£899, 1974); Citroën 2CV; Lada Riva; Yugo 45; Škoda Estelle (£2,547, 1985) — what the poorest car-owners actually bought | price-floor series |
 | 1980s–2000s | VW Polo (664,223 licensed 2025); Peugeot 205 (50,205 in 1990); Renault Clio (52,576 in 1995); Nissan Micra (566,382 licensed 2000) | SMMT; VEH0120 |
 | 2010s–20s | Dacia Sandero (the price floor 2013–25); Kia Picanto / Hyundai i10 / Toyota Aygo X (P5) | price-floor series |
+
+## C1. Motorcycle-and-sidecar outfits, era by era (P2; research 2026-11-15)
+
+No published model-level outfit counts exist before 1994; each row is the best-supported
+candidate (catalogue combinations, production figures, fleet use). Parc statistics are
+measured: motorcycles 278,600 (1920, outnumbering cars), 491,438 (1925), 690,672 (1928),
+505,779 of which **125,499 = 24.8% outfits (1936, peak share)**, 443,651 (1938), 634,536
+(1949); outfits **~130,000–150,000 by 1952 (peak count, ≈1 in 7 of the motorcycle parc)**;
+motorcycles 1,475,101 (1958). Outfits were ~1 in 10 of new registrations in 1932 (4,876 of
+50,072) and 1 in 20 in 1946. Collapse: Watsonian chair output 3,461 (1962) → 637 (1967);
+BSA M21 production ended 1963 ("could no longer compete with the Leyland Mini"); Road
+Traffic Act 1960 barred learners from machines over 250 cc from 1 Jul 1961.
+
+| Era | Asset to build (recommended) | Support |
+| --- | --- | --- |
+| 1920s | **BSA 4¼ hp 557 cc side-valve single + BSA No. 3 sidecar** | factory catalogue combination, £95 in 1922 (vs £75 solo); BSA the volume leader |
+| 1930s | **BSA 557 cc Sloper + Watsonian Monarch open tourer** | Sloper silhouette; Watsonian the volume chair maker; alt: Norton Big Four 633 + Watsonian Oxford |
+| 1940–45 | **Norton Big Four 633 cc WD combination** (driven sidecar wheel) | 4,779 combinations built 1938–41 — the only counted outfit of the period |
+| 1946–59 | **BSA M21 600 cc sv + Watsonian Maxstoke (adult + child)** — if only ONE outfit is ever built, this is it (1950–1963) | purpose-built sidecar machine (lugs, low gearing, heavy flywheels, large rear tyre); AA fleet use; production 1937–63; Maxstoke = the literal family configuration |
+| 1960–65 | BSA M21 + Watsonian Monaco (or Triumph 6T 650 + Monaco) | documented 1958–59 body range; late lower silhouette |
+
+Rendering/behaviour notes: sidecar on the **nearside (left)**; a typical outfit is a 500–650 cc
+low-revving side-valve single (or 650 twin late) with a stiff lugged frame, girder/telescopic
+fork, and a bulbous-nosed chair with small screen and nearside door. Provisional game values:
+capacity 2 adults + 1 child; ~45–50 mph with the chair; comfort below the BMC Mini's 40/240
+(far below — open chair, exposed rider); classes `0,1`. Folklore to avoid when modelling: the
+M20 was NOT the sidecar machine (it was built mostly without sidecar lugs — the M21 was);
+"one in four BSAs" is a 1920s advertising slogan, not a measured share.
 
 ## D. Mainstream density (P3) — the remaining "absent but relevant" set
 
