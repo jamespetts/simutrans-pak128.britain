@@ -58,10 +58,17 @@ cannot pass a gate stops; it does not proceed on judgement.
    drawings) exist, covering every shape-defining view, stored with the run's working
    files. Photo-derived proportion measurements (calibrated against known overall
    dimensions) are recorded per feature, naming the photograph. The specification lists
-   the photographs and the measurements. **If photographs cannot be found after honest
-   effort, stop and prompt the user to supply them.** Delegated runs pass this gate in
-   two phases: the spec phase returns to the orchestrator for the gate check; only then is
-   the build phase authorised. `[USER-DIRECTION:2026-11-15]`
+   the photographs and the measurements. **Evidence burden is tiered by graphic size**
+   `[USER-DIRECTION:2026-11-15]`: private cars and other tiny sprites need **defining
+   views only** — the side profile plus the views showing the model's defining features
+   (the Anglia 105E needs its rear three-quarter; a finned car needs its rear; a
+   distinctive nose its front) — because at pak scale only the silhouette reads; large
+   vehicles (trains, aircraft, ships, large road vehicles) need **thorough multi-view
+   coverage** (every elevation and quarter), because more of their form survives at
+   scale. **If photographs cannot be found after honest effort, stop and prompt the user
+   to supply them.** Delegated runs pass this gate in two phases: the spec phase returns
+   to the orchestrator for the gate check; only then is the build phase authorised.
+   `[USER-DIRECTION:2026-11-15]`
 2. **Gate B — shape-match gate (before rendering).** The model is captured at a
    photograph's angle and placed beside the photograph; the silhouette is iterated until
    it matches the photograph. Comparisons are model-vs-photograph only; model-vs-render or
