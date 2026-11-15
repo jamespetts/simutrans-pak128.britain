@@ -135,6 +135,29 @@ timber, brick, stone, iron or concrete. It is larger than the inter-decade price
 would have to be measured, so these prices cannot be chained into an index. They are useful for
 relative costs within an era and for checking a base price, not for the year index.
 
+### Acworth's capital figures
+
+Acworth, *The Elements of Railway Economics* (Oxford, 1905), gives the stock of railway capital
+rather than a series, but it supplies levels that the forum's individual projects do not:
+
+- The railway proper, meaning road and buildings but not rolling stock, cost about
+  £800,000,000 for about 22,000 miles of line, which is £36,364 a mile on average. The whole
+  capital was £1,200,000,000, of which £1,000,000,000 had actually been spent.
+  `[LITERATURE:https://archive.org/details/cu31924070676402]`
+- His illustrative figures for a mile of line are £40,000 for a great English main line,
+  £10,000 for an American line and £4,000 for a light railway. He also records the West
+  Highland Railway as costing about £13,000 a mile and the Great Central's London extension as
+  ten to twelve times that, and estimates preliminary and parliamentary expenses at about
+  £4,000 a mile.
+- Maintenance of way and works is £500 a mile of open line across the United Kingdom, ranging
+  from £145 for the Midland Great Western of Ireland to £930 for the Lancashire and Yorkshire.
+
+The average capital figure and the maintenance figure are levels at about 1900, on the 1900
+basis the `.dat` prices use. They are useful for checking way and structure base prices. They do
+not give the movement of prices over time, so they do not help with the pre-1980 path, and the
+illustrative £40,000 and £10,000 figures are round numbers offered as comparisons rather than
+measured costs.
+
 The test therefore leaves the position below unchanged. It does, however, mean that the
 pre-1980 path is supported by the absence of any alternative rather than by positive evidence
 that infrastructure prices moved with building prices.
