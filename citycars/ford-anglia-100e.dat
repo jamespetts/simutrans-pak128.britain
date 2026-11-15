@@ -60,8 +60,10 @@
 # are staggered on observed road presence (estimates). Production ended in
 # October 1959 but the 100E body ran as the Popular 100E to 1962, hence the road
 # tails to 1964-67. The modelled front end is the 1957-59 mesh-grille form with
-# chrome bumpers, applied as a post-build edit in the 4.5 session; the 1953-57
-# three-bar grille and painted bumpers do not read at pak scale.
+# chrome bumpers. The photo-referenced body has a separate sloping rear window
+# and a rounded boot with a shallow crown, rather than a hatchback rear.
+# Metres master: citycars/4.5/ford-anglia-100e-photo.blend in the blends repository.
+# Geometry and final colour renders approved on 2026-11-15.
 
 obj=citycar
 name=FordAnglia100E(Black)

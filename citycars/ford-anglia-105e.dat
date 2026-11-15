@@ -63,9 +63,10 @@
 # Savoy Black, Ambassador Blue and Imperial Maroon enter with the September 1959
 # launch; Ermine White follows the documented September 1960 start of that
 # colour, Spruce Green the May 1963 start. The modelled front end is the Deluxe
-# form with the full-width slanted grille; the reverse-rake rear window is not
-# reproducible with the builder's cabin and reads as a normal backlight at pak
-# scale. Chrome bumpers were applied as a post-build edit in the 4.5 session.
+# form with chrome bumpers and grille. The photo-referenced body includes the
+# reverse-rake rear window, separate boot deck, raised rear wings and tall lamps.
+# Metres master: citycars/4.5/ford-anglia-105e-photo.blend in the blends repository.
+# Geometry and final colour renders approved on 2026-11-15.
 
 obj=citycar
 name=FordAnglia105E(AmbassadorBlue)
