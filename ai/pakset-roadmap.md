@@ -1,6 +1,6 @@
 ---
 status: draft
-verified: New ex-15 @ a121495ca (working tree)
+verified: New ex-15 @ 0a4be8077 (working tree)
 ---
 # Pakset roadmap
 

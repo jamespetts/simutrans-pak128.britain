@@ -1,6 +1,6 @@
 ---
 status: draft
-verified: New ex-15 @ a121495ca (working tree)
+verified: New ex-15 @ 0a4be8077 (working tree)
 ---
 # Pakset compatibility
 
@@ -39,7 +39,7 @@ compatibility, and the restrictions on changing them.
   mirrors it into the city cost. `[CODE simutrans-extended ex-15 @ 0d41455e]`
 - The pakset sets `cost_buy_land=1500` and `cost_buy_city_land=2625` in `simuconf.tab`; the
   city value is the base before the engine's ×3/×4/×6 city-size multiplier.
-  `[CODE New ex-15 @ a121495ca]`
+  `[CODE New ex-15 @ 0a4be8077]`
 
 ## Planned sections
 
