@@ -35,7 +35,10 @@ vehicles, in its liveries. Everything else is subordinate to that.
    the images in its context; never hand the build to a fresh session.
 4. **Iterate against the images.** Before rendering, compare the model at the images'
    angles to the images (Gate B) and fix the silhouette until it matches. Numeric checks
-   are gross-error detectors only.
+   are gross-error detectors only. **A model's own visual acceptance is not reliable**
+   `[USER-DIRECTION:2026-11-15]`: delegated runs have accepted plainly wrong shapes after
+   looking at them (the Anglia hatchback). The orchestrator must view the run's
+   side-by-side evidence itself before acceptance.
 5. **The user judges appearance** (Gate C). Report the images used and the side-by-side
    evidence; anything the tooling genuinely cannot express is a question for the user,
    never a silent omission.
