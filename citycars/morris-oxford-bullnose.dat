@@ -1,4 +1,5 @@
 # https://en.wikipedia.org/wiki/Morris_Oxford_bullnose
+# This is intended to represent also the very similar Morris Cowley (bullnose).
 obj=citycar
 name=MorrisOxfordBullnose(Blue)
 copyright=JamesPetts

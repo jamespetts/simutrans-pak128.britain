@@ -1,5 +1,6 @@
 # https://en.wikipedia.org/wiki/Morris_Oxford_flatnose
 # This is intended to represent also the very similar Morris Oxford Six.
+# and the Morris Cowley (flatnose), which shared this body.
 obj=citycar
 name=MorrisOxfordFlatnose(Blue)
 copyright=JamesPetts
