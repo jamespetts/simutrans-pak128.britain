@@ -80,7 +80,8 @@ analysis).
   first run executed by delegated subagents (model DeepSeek V4.1 Flash) on the same
   parametric pipeline; the user accepted its renders on 2026-11-15. The fourth (2026-11-15)
   was the single-model BMC1100 (ADO16, 5 colourways), also subagent-executed, including a
-  post-build chrome-bumper edit in the 4.5 session without changing the builder code.
+  post-build chrome-bumper edit in the 4.5 session without changing the builder code; the
+  user accepted its renders on 2026-11-15.
   `[EXECUTION-VERIFIED:2026-11-15]` `[USER-DIRECTION:2026-11-15]`
 - **What remains untested**: citycar spawning and image alignment in a running game
   session. `-generate_map` proves the pakset loads and the world initialises; it does not
