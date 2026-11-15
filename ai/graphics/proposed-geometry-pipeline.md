@@ -52,13 +52,21 @@ where tagged.
   (10 distinct materials; re-import materialises 11 through importer duplication); the `.blend`
   hash is unchanged across runs; relative output paths and unknown flags fail with exit code 1.
   `[EXECUTION-VERIFIED:2026-09-25]`
-- Stage B (Blender 2.79, headless): imports the interchange file into a working copy, deletes
-  imported cameras and lamps, reassigns exact livery materials from the standard HSV table, scales
-  via the ruler factor, positions via the fixed algorithm (X center 0; body front excluding
-  `BUFFER_*` at Y −4.0; lowest point at Z 0), clears all animation data (stale actions override
-  script positioning), enables scene layer 3, and renders with the `...-65.py` view positions.
-  Stage B works on a copy and never saves the `.blend` after the render steps: the script leaves
-  the lighting sphere displaced, which is hard to recover. `[UNVERIFIED]`
+- Stage B (Blender 2.79, headless): imports the interchange **at pak scale** — the `.dae` is
+  exported pre-scaled from the 4.5 session (object locations and mesh vertices scaled by
+  (0.70942, 0.56754, 0.70942), then reload of the metres master from disk); 2.79 does NOT
+  scale. Placement only: X centre 0; body front excluding `BUFFER_*` at Y −4.0; lowest point
+  at Z 0. Per-object attachment check vs the hull bounding box; clear all animation data
+  (stale actions override script positioning); enable layers 1, 2 (camera) and 3 (rig
+  sphere); renders with the `...-65.py` view positions. Stage B works on a copy, never saves
+  the `.blend` after rendering, and never scales. Scaling belongs to 4.5 because it can be
+  seen and verified there; scaling in 2.79 leaves cuboid locations in metres while mesh
+  vertices scale (floating parts), and the failure is invisible to a global bounding box
+  check. If 2.79 scaling is ever unavoidable, all meshes must be joined into one object
+  first so scale is atomic. Stage B works on a fresh copy of `base.blend`, and never saves
+  the `.blend` after the render steps: the render script displaces the lighting-sphere
+  handle, which is hard to recover. `[EXECUTION-VERIFIED:2026-11-15]` See
+  [photo-to-pak-pipeline](photo-to-pak-pipeline.md) for the full run record and rules.
 - Lighting workflow (human procedure, verified by reproduction 2026-09-23): design on layer 1
   (layers 4 and above hold measurement aids, temporary objects, and variants such as different
   goods loads); enable layer 3 only just before rendering; save the `.blend` before running the

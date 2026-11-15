@@ -13,7 +13,13 @@ separate; see [scaling-conventions](scaling-conventions.md).
 ## Child docs
 
 - [blender-rendering](graphics/blender-rendering.md) — read when working from `.blend` sources: headless Blender, render scripts, direction views, and alignment.
+- [ai-pipeline](graphics/ai-pipeline.md) — read before any AI-authored geometry task: pipeline stages and generalized error categories.
+- [blender-mcp](graphics/blender-mcp.md) — read before any geometry work that drives a live Blender session, and before relying on the MCP route: installed environment, permitted writes, and untested status.
+- [model-selection](graphics/model-selection.md) — read before choosing a model for an asset task, or before claiming a model change will fix a recorded failure: published per-model measurements and where models fail.
+- [blend-creation](graphics/blend-creation.md) — read before creating or reshaping `.blend` geometry, or before using AI reading of renders/screenshots for any verification: current status, failure record, and verification doctrine.
+- [aircraft-notes](graphics/aircraft-notes.md) — read when working on aircraft: scale, render conversion, mirrors, TexFace liveries, and exposure rules.
 - [image-layout](graphics/image-layout.md) — read when producing or editing `.png` image sheets and their layout in `.dat` files.
+- [photo-to-pak-pipeline](graphics/photo-to-pak-pipeline.md) — read when building a pakset vehicle image from a photograph and a description: the experimental end-to-end run, file-placement rules (4.5 sources under `<folder>/4.5/`, 2.79 working copies elsewhere), and what remains manual.
 - [liveries-and-special-colours](graphics/liveries-and-special-colours.md) — read when adding liveries or using special colours, snow images, or night images.
 
 ## Open questions
