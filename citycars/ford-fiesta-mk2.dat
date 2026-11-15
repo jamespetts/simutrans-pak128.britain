@@ -1,0 +1,105 @@
+# https://en.wikipedia.org/wiki/Ford_Fiesta
+# Ford Fiesta Mk2: a facelift of the Mk1 with a revised front end, on sale from
+# late August 1983; production to February 1989. Britain's best-selling
+# supermini of its era, with over 150,000 UK sales in its best year, 1987,
+# beaten in the sales charts only by the Escort.
+#
+# Colours: Rosso Red, Ocean Blue, Diamond White, Black. The paint names are the
+# actual Mk2 Ford offerings recorded from the Ford Cars brochures (Rosso Red
+# 1984-89, Ocean Blue 1983-86, Diamond White 1983-89, Black 1983-89). The DVSA
+# colour table starts at 1994 registrations, so its 1994-96 survivor shares
+# (blue 23-25%, red 19-23%, white 7-10%, black 8-10%) are the measured base,
+# adjusted for 1980s registrations, where red and white were stronger: red
+# raised to 25%, white to 12%, blue to 24%, black 9%.
+#
+# Dates describe when that colour would be seen regularly on UK roads, not the
+# production dates. Weights total 500, the 2026-11-15 anchor convention for the
+# Fiesta (provisional; a central rebase follows), split 25:24:12:9.
+
+obj=citycar
+name=FordFiestaMk2(Red)
+copyright=JamesPetts
+
+DistributionWeight=179
+intro_year=1983
+intro_month=8
+retire_year=1997
+retire_month=6
+speed=115
+maximum_comfortable_journey_minutes=55
+maximum_tolerable_journey_minutes=265
+
+Image[E]=./images/ford-fiesta-mk2-red_E.0.0,-33,14
+Image[SE]=./images/ford-fiesta-mk2-red_SE.0.0,-13,0
+Image[S]=./images/ford-fiesta-mk2-red_S.0.0,0,0
+Image[SW]=./images/ford-fiesta-mk2-red_SW.0.0,-8,10
+Image[W]=./images/ford-fiesta-mk2-red_W.0.0,4,5
+Image[NW]=./images/ford-fiesta-mk2-red_NW.0.0,12,10
+Image[N]=./images/ford-fiesta-mk2-red_N.0.0,0,33
+Image[NE]=./images/ford-fiesta-mk2-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FordFiestaMk2(Blue)
+copyright=JamesPetts
+
+DistributionWeight=171
+intro_year=1983
+intro_month=8
+retire_year=1998
+retire_month=12
+speed=115
+maximum_comfortable_journey_minutes=55
+maximum_tolerable_journey_minutes=265
+
+Image[E]=./images/ford-fiesta-mk2-blue_E.0.0,-33,14
+Image[SE]=./images/ford-fiesta-mk2-blue_SE.0.0,-13,0
+Image[S]=./images/ford-fiesta-mk2-blue_S.0.0,0,0
+Image[SW]=./images/ford-fiesta-mk2-blue_SW.0.0,-8,10
+Image[W]=./images/ford-fiesta-mk2-blue_W.0.0,4,5
+Image[NW]=./images/ford-fiesta-mk2-blue_NW.0.0,12,10
+Image[N]=./images/ford-fiesta-mk2-blue_N.0.0,0,33
+Image[NE]=./images/ford-fiesta-mk2-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FordFiestaMk2(White)
+copyright=JamesPetts
+
+DistributionWeight=86
+intro_year=1983
+intro_month=8
+retire_year=1999
+retire_month=12
+speed=115
+maximum_comfortable_journey_minutes=55
+maximum_tolerable_journey_minutes=265
+
+Image[E]=./images/ford-fiesta-mk2-white_E.0.0,-33,14
+Image[SE]=./images/ford-fiesta-mk2-white_SE.0.0,-13,0
+Image[S]=./images/ford-fiesta-mk2-white_S.0.0,0,0
+Image[SW]=./images/ford-fiesta-mk2-white_SW.0.0,-8,10
+Image[W]=./images/ford-fiesta-mk2-white_W.0.0,4,5
+Image[NW]=./images/ford-fiesta-mk2-white_NW.0.0,12,10
+Image[N]=./images/ford-fiesta-mk2-white_N.0.0,0,33
+Image[NE]=./images/ford-fiesta-mk2-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FordFiestaMk2(Black)
+copyright=JamesPetts
+
+DistributionWeight=64
+intro_year=1983
+intro_month=10
+retire_year=1997
+retire_month=12
+speed=115
+maximum_comfortable_journey_minutes=55
+maximum_tolerable_journey_minutes=265
+
+Image[E]=./images/ford-fiesta-mk2-black_E.0.0,-33,14
+Image[SE]=./images/ford-fiesta-mk2-black_SE.0.0,-13,0
+Image[S]=./images/ford-fiesta-mk2-black_S.0.0,0,0
+Image[SW]=./images/ford-fiesta-mk2-black_SW.0.0,-8,10
+Image[W]=./images/ford-fiesta-mk2-black_W.0.0,4,5
+Image[NW]=./images/ford-fiesta-mk2-black_NW.0.0,12,10
+Image[N]=./images/ford-fiesta-mk2-black_N.0.0,0,33
+Image[NE]=./images/ford-fiesta-mk2-black_NE.0.0,0,24

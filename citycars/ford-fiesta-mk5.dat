@@ -1,0 +1,104 @@
+# https://en.wikipedia.org/wiki/Ford_Fiesta
+# Ford Fiesta Mk5 (BE256): unveiled 1 April 2002, production from 29 April
+# 2002 to 2008. The best-selling Fiesta generation to date; the Fiesta was the
+# most numerous car on GB roads by 2005 (1.26m licensed, DfT VEH0120).
+#
+# Colours: Moondust Silver, Tonic Blue, Panther Black, Magnum Grey. The paint
+# names are the actual Ford offerings with their availability years (Moondust
+# Silver 1991-2026, Tonic Blue 2004-08, Panther Black mica 1997-2019, Magnum
+# Grey 2002-16). These are the four largest measured DVSA first-registration
+# shares over the model's road years 2002-2008: silver 31.0%, blue 22.9%, black
+# 17.7%, grey 11.4%. Red was the next measured colour at 7.5% and is not
+# modelled.
+#
+# Dates are staggered per colour by observed road presence. Weights total 500,
+# the 2026-11-15 anchor convention for the Fiesta (provisional; a central
+# rebase follows), split 31.0:22.9:17.7:11.4.
+
+obj=citycar
+name=FordFiestaMk5(Silver)
+copyright=JamesPetts
+
+DistributionWeight=187
+intro_year=2002
+intro_month=4
+retire_year=2017
+retire_month=6
+speed=130
+maximum_comfortable_journey_minutes=85
+maximum_tolerable_journey_minutes=310
+
+Image[E]=./images/ford-fiesta-mk5-silver_E.0.0,-33,14
+Image[SE]=./images/ford-fiesta-mk5-silver_SE.0.0,-13,0
+Image[S]=./images/ford-fiesta-mk5-silver_S.0.0,0,0
+Image[SW]=./images/ford-fiesta-mk5-silver_SW.0.0,-8,10
+Image[W]=./images/ford-fiesta-mk5-silver_W.0.0,4,5
+Image[NW]=./images/ford-fiesta-mk5-silver_NW.0.0,12,10
+Image[N]=./images/ford-fiesta-mk5-silver_N.0.0,0,33
+Image[NE]=./images/ford-fiesta-mk5-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FordFiestaMk5(Blue)
+copyright=JamesPetts
+
+DistributionWeight=138
+intro_year=2004
+intro_month=9
+retire_year=2018
+retire_month=12
+speed=130
+maximum_comfortable_journey_minutes=85
+maximum_tolerable_journey_minutes=310
+
+Image[E]=./images/ford-fiesta-mk5-blue_E.0.0,-33,14
+Image[SE]=./images/ford-fiesta-mk5-blue_SE.0.0,-13,0
+Image[S]=./images/ford-fiesta-mk5-blue_S.0.0,0,0
+Image[SW]=./images/ford-fiesta-mk5-blue_SW.0.0,-8,10
+Image[W]=./images/ford-fiesta-mk5-blue_W.0.0,4,5
+Image[NW]=./images/ford-fiesta-mk5-blue_NW.0.0,12,10
+Image[N]=./images/ford-fiesta-mk5-blue_N.0.0,0,33
+Image[NE]=./images/ford-fiesta-mk5-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FordFiestaMk5(Black)
+copyright=JamesPetts
+
+DistributionWeight=107
+intro_year=2002
+intro_month=4
+retire_year=2017
+retire_month=12
+speed=130
+maximum_comfortable_journey_minutes=85
+maximum_tolerable_journey_minutes=310
+
+Image[E]=./images/ford-fiesta-mk5-black_E.0.0,-33,14
+Image[SE]=./images/ford-fiesta-mk5-black_SE.0.0,-13,0
+Image[S]=./images/ford-fiesta-mk5-black_S.0.0,0,0
+Image[SW]=./images/ford-fiesta-mk5-black_SW.0.0,-8,10
+Image[W]=./images/ford-fiesta-mk5-black_W.0.0,4,5
+Image[NW]=./images/ford-fiesta-mk5-black_NW.0.0,12,10
+Image[N]=./images/ford-fiesta-mk5-black_N.0.0,0,33
+Image[NE]=./images/ford-fiesta-mk5-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FordFiestaMk5(Grey)
+copyright=JamesPetts
+
+DistributionWeight=68
+intro_year=2003
+intro_month=9
+retire_year=2019
+retire_month=12
+speed=130
+maximum_comfortable_journey_minutes=85
+maximum_tolerable_journey_minutes=310
+
+Image[E]=./images/ford-fiesta-mk5-grey_E.0.0,-33,14
+Image[SE]=./images/ford-fiesta-mk5-grey_SE.0.0,-13,0
+Image[S]=./images/ford-fiesta-mk5-grey_S.0.0,0,0
+Image[SW]=./images/ford-fiesta-mk5-grey_SW.0.0,-8,10
+Image[W]=./images/ford-fiesta-mk5-grey_W.0.0,4,5
+Image[NW]=./images/ford-fiesta-mk5-grey_NW.0.0,12,10
+Image[N]=./images/ford-fiesta-mk5-grey_N.0.0,0,33
+Image[NE]=./images/ford-fiesta-mk5-grey_NE.0.0,0,24

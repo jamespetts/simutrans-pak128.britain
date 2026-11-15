@@ -1,0 +1,105 @@
+# https://en.wikipedia.org/wiki/Ford_Fiesta
+# Ford Fiesta Mk3 (BE-13): on sale from February 1989, UK sales from April
+# 1989; production to February 1997, the last 18 months as the "Fiesta
+# Classic". UK registrations peaked at 151,475 (1990) and were still 119,471 in
+# 1997, a UK top-ten car throughout.
+#
+# Colours: Imperial Blue, Radiant Red, Moondust Silver, Ebony. The paint names
+# are the actual Ford offerings with their availability years (Imperial Blue
+# mica 1993-2005, Radiant Red 1988-2006, Moondust Silver 1991-2026, Ebony
+# 1995-2005). These are the four largest measured DVSA first-registration
+# shares over the model's road years 1994-1997: blue 24.2%, red 19.9%, silver
+# 11.3%, black 8.8%. Green sat in the 20-25% "other" group and was the next
+# candidate; it is not modelled.
+#
+# Dates are staggered per colour by observed road presence. Weights total 500,
+# the 2026-11-15 anchor convention for the Fiesta (provisional; a central
+# rebase follows), split 24.2:19.9:11.3:8.8.
+
+obj=citycar
+name=FordFiestaMk3(Blue)
+copyright=JamesPetts
+
+DistributionWeight=188
+intro_year=1989
+intro_month=4
+retire_year=2003
+retire_month=6
+speed=120
+maximum_comfortable_journey_minutes=65
+maximum_tolerable_journey_minutes=280
+
+Image[E]=./images/ford-fiesta-mk3-blue_E.0.0,-33,14
+Image[SE]=./images/ford-fiesta-mk3-blue_SE.0.0,-13,0
+Image[S]=./images/ford-fiesta-mk3-blue_S.0.0,0,0
+Image[SW]=./images/ford-fiesta-mk3-blue_SW.0.0,-8,10
+Image[W]=./images/ford-fiesta-mk3-blue_W.0.0,4,5
+Image[NW]=./images/ford-fiesta-mk3-blue_NW.0.0,12,10
+Image[N]=./images/ford-fiesta-mk3-blue_N.0.0,0,33
+Image[NE]=./images/ford-fiesta-mk3-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FordFiestaMk3(Red)
+copyright=JamesPetts
+
+DistributionWeight=155
+intro_year=1989
+intro_month=4
+retire_year=2002
+retire_month=12
+speed=120
+maximum_comfortable_journey_minutes=65
+maximum_tolerable_journey_minutes=280
+
+Image[E]=./images/ford-fiesta-mk3-red_E.0.0,-33,14
+Image[SE]=./images/ford-fiesta-mk3-red_SE.0.0,-13,0
+Image[S]=./images/ford-fiesta-mk3-red_S.0.0,0,0
+Image[SW]=./images/ford-fiesta-mk3-red_SW.0.0,-8,10
+Image[W]=./images/ford-fiesta-mk3-red_W.0.0,4,5
+Image[NW]=./images/ford-fiesta-mk3-red_NW.0.0,12,10
+Image[N]=./images/ford-fiesta-mk3-red_N.0.0,0,33
+Image[NE]=./images/ford-fiesta-mk3-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FordFiestaMk3(Silver)
+copyright=JamesPetts
+
+DistributionWeight=88
+intro_year=1991
+intro_month=10
+retire_year=2004
+retire_month=12
+speed=120
+maximum_comfortable_journey_minutes=65
+maximum_tolerable_journey_minutes=280
+
+Image[E]=./images/ford-fiesta-mk3-silver_E.0.0,-33,14
+Image[SE]=./images/ford-fiesta-mk3-silver_SE.0.0,-13,0
+Image[S]=./images/ford-fiesta-mk3-silver_S.0.0,0,0
+Image[SW]=./images/ford-fiesta-mk3-silver_SW.0.0,-8,10
+Image[W]=./images/ford-fiesta-mk3-silver_W.0.0,4,5
+Image[NW]=./images/ford-fiesta-mk3-silver_NW.0.0,12,10
+Image[N]=./images/ford-fiesta-mk3-silver_N.0.0,0,33
+Image[NE]=./images/ford-fiesta-mk3-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FordFiestaMk3(Black)
+copyright=JamesPetts
+
+DistributionWeight=69
+intro_year=1989
+intro_month=4
+retire_year=2003
+retire_month=12
+speed=120
+maximum_comfortable_journey_minutes=65
+maximum_tolerable_journey_minutes=280
+
+Image[E]=./images/ford-fiesta-mk3-black_E.0.0,-33,14
+Image[SE]=./images/ford-fiesta-mk3-black_SE.0.0,-13,0
+Image[S]=./images/ford-fiesta-mk3-black_S.0.0,0,0
+Image[SW]=./images/ford-fiesta-mk3-black_SW.0.0,-8,10
+Image[W]=./images/ford-fiesta-mk3-black_W.0.0,4,5
+Image[NW]=./images/ford-fiesta-mk3-black_NW.0.0,12,10
+Image[N]=./images/ford-fiesta-mk3-black_N.0.0,0,33
+Image[NE]=./images/ford-fiesta-mk3-black_NE.0.0,0,24
