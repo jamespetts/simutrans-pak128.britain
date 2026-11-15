@@ -6,6 +6,7 @@ DistributionWeight=4
 intro_year=1970
 intro_month=11
 speed=120
+class=2,3,4
 maximum_comfortable_journey_minutes=85
 maximum_tolerable_journey_minutes=310
 
@@ -26,6 +27,7 @@ DistributionWeight=4
 intro_year=1975
 intro_month=8
 speed=120
+class=2,3,4
 maximum_comfortable_journey_minutes=85
 maximum_tolerable_journey_minutes=310
 
@@ -46,6 +48,7 @@ DistributionWeight=4
 intro_year=1990
 intro_month=12
 speed=120
+class=2,3,4
 maximum_comfortable_journey_minutes=85
 maximum_tolerable_journey_minutes=310
 
@@ -66,6 +69,7 @@ DistributionWeight=4
 intro_year=1988
 intro_month=8
 speed=120
+class=2,3,4
 maximum_comfortable_journey_minutes=85
 maximum_tolerable_journey_minutes=310
 
@@ -89,6 +93,7 @@ intro_month=11
 retire_year=1988
 retire_month=9
 speed=120
+class=2,3,4
 maximum_comfortable_journey_minutes=85
 maximum_tolerable_journey_minutes=310
 

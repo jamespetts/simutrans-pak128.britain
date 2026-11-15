@@ -8,6 +8,7 @@ intro_month=10
 retire_year=1935
 retire_month=11
 speed=50
+class=0,1,2,3
 maximum_comfortable_journey_minutes=20
 maximum_tolerable_journey_minutes=210
 

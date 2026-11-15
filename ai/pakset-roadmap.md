@@ -17,6 +17,13 @@ for new engine features.
 
 ## Planned work
 
+- Add the missing citycar assets listed in
+  [objects/citycar-asset-gaps](objects/citycar-asset-gaps.md) — the comprehensive gap
+  register (P1: Very-high luxury cars for 1922–1947 and 1989–2025; P2: entry cars including
+  the motorcycle and sidecar; P3: Cavalier/Astra/Golf/Beetle; P4–P5: luxury richness and
+  texture). Work it photograph-first per
+  [graphics/visual-asset-controls](graphics/visual-asset-controls.md).
+  `[USER-DIRECTION:2026-11-15]`
 - Re-do citycar geometry that was built from text descriptions (dimension tables) using
   direct photographic reference, per the hard rule and
   [graphics/visual-asset-controls](graphics/visual-asset-controls.md): Ford Fiesta Mk1–Mk7,

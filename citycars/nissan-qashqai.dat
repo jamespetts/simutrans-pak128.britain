@@ -7,6 +7,7 @@ DistributionWeight=6
 intro_year=2006
 intro_month=8
 speed=135
+class=2
 maximum_comfortable_journey_minutes=125
 maximum_tolerable_journey_minutes=370
 
@@ -27,6 +28,7 @@ DistributionWeight=6
 intro_year=2013
 intro_month=8
 speed=135
+class=2
 maximum_comfortable_journey_minutes=125
 maximum_tolerable_journey_minutes=370
 
@@ -48,6 +50,7 @@ DistributionWeight=7
 intro_year=2008
 intro_month=9
 speed=135
+class=2
 maximum_comfortable_journey_minutes=125
 maximum_tolerable_journey_minutes=370
 
@@ -70,6 +73,7 @@ DistributionWeight=8
 intro_year=2013
 intro_month=8
 speed=135
+class=2
 maximum_comfortable_journey_minutes=125
 maximum_tolerable_journey_minutes=370
 
@@ -93,6 +97,7 @@ DistributionWeight=8
 intro_year=2007
 intro_month=5
 speed=135
+class=2
 maximum_comfortable_journey_minutes=125
 maximum_tolerable_journey_minutes=370
 

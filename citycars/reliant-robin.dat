@@ -6,6 +6,7 @@ DistributionWeight=5
 intro_year=1973
 retire_year=1998
 speed=80
+class=0,1
 maximum_comfortable_journey_minutes=28
 maximum_tolerable_journey_minutes=220
 
@@ -26,6 +27,7 @@ DistributionWeight=5
 intro_year=1973
 retire_year=1998
 speed=80
+class=0,1
 maximum_comfortable_journey_minutes=28
 maximum_tolerable_journey_minutes=220
 
@@ -46,6 +48,7 @@ DistributionWeight=5
 intro_year=1990
 retire_year=1998
 speed=80
+class=0,1
 maximum_comfortable_journey_minutes=28
 maximum_tolerable_journey_minutes=220
 
@@ -66,6 +69,7 @@ DistributionWeight=5
 intro_year=1973
 retire_year=1998
 speed=80
+class=0,1
 maximum_comfortable_journey_minutes=28
 maximum_tolerable_journey_minutes=220
 

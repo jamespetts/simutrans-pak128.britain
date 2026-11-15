@@ -7,6 +7,7 @@ DistributionWeight=5
 intro_year=2015
 intro_month=8
 speed=135
+class=2,3
 maximum_comfortable_journey_minutes=135
 maximum_tolerable_journey_minutes=385
 
@@ -28,6 +29,7 @@ DistributionWeight=4
 intro_year=2017
 intro_month=9
 speed=135
+class=2,3
 maximum_comfortable_journey_minutes=135
 maximum_tolerable_journey_minutes=385
 
@@ -50,6 +52,7 @@ DistributionWeight=6
 intro_year=2016
 intro_month=4
 speed=135
+class=2,3
 maximum_comfortable_journey_minutes=135
 maximum_tolerable_journey_minutes=385
 

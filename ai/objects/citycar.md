@@ -6,7 +6,10 @@ verified: none
 
 **Covers**: `Obj=citycar` objects in `New/citycars/` — the private cars that appear on
 Simutrans-Extended city roads. Parent: [object-types](../object-types.md). Pipeline:
-[photo-to-pak-pipeline](../graphics/photo-to-pak-pipeline.md).
+[photo-to-pak-pipeline](../graphics/photo-to-pak-pipeline.md). Child docs: the wealth-class
+calibration ([citycar-wealth-classes](citycar-wealth-classes.md)), the missing-asset work
+register ([citycar-asset-gaps](citycar-asset-gaps.md)), and the parc-anchor research
+([citycar-parc-anchors](citycar-parc-anchors.md)).
 
 Status: draft, created 2026-11-15 to record the conventions for private citycars, which
 differ fundamentally from player vehicles.
@@ -88,10 +91,13 @@ Method:
 | `speed` | Top speed in **km/h** (the engine reads it with `kmh_to_speed`; the tree's values are a game-balance figure, not always the model's real top speed) | — |
 | `maximum_comfortable_journey_minutes` | Maximum comfortable journey time for private-car travel, in whole minutes (the `_tenths` form gives tenths of a minute) | omitted/0 → engine default 180 minutes |
 | `maximum_tolerable_journey_minutes` | Maximum tolerable journey time, same units (`_tenths` form available) | omitted/0 → three times the comfortable time |
+| `class` | Comma-separated passenger wealth class indices the car is available to (0 = Very low … 4 = Very high in this pakset), e.g. `class=1,2` | omitted → available to **all** classes; an empty `class=` is a fatal makeobj error |
 
 Comfort fields are time-based (ex-15; the old 0–255 comfort rating is deprecated): specifying
 both the `_minutes` and `_tenths` form of one quantity is a fatal makeobj error. Values are
-stored in tenths of minutes. `[CODE simutrans-extended ex-15 @ 8517e6c9f]`
+stored in tenths of minutes. `class` indices must exist in the pakset (five passenger wealth
+classes); the engine keeps per-class car pools and validates indices at load.
+`[CODE simutrans-extended ex-15 @ 8517e6c9f]`
 
 Other conventions shared by all `citycar` objects:
 
