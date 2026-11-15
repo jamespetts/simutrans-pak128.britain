@@ -49,6 +49,18 @@ downstream checks were relative (render vs render) instead of absolute (model vs
 photograph); and the pre-build human gates were not carried into the delegated process.
 `[USER-DIRECTION:2026-11-15]` `[CODE New ex-15 @ 67d641657]`
 
+## Session continuity (hard rule)
+
+**Research and build happen in ONE session.** The agent that gathers and measures the
+reference photographs MUST be the same agent that builds the geometry, in the same
+session, so the images remain in its context while it works. Never split "research
+session" from "build session", and never hand a spec to a fresh agent to build: a fresh
+context cannot see the photographs and repeats the shape-from-text failure. Gate
+compliance is reported in the run's final report; the orchestrator reviews it and the
+renders, and Gate B matching happens inside the same session. If a user checkpoint is
+wanted mid-run, the run pauses and RESUMES IN THE SAME SESSION — never by delegation.
+`[USER-DIRECTION:2026-11-15]`
+
 ## Control system
 
 Every visual asset run, human- or subagent-driven, passes these gates in order. A run that
