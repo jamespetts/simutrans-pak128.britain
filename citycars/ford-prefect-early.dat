@@ -1,4 +1,8 @@
 #https://en.wikipedia.org/wiki/Morris_Eight
+# Representation note (2026-11-15): this model also stands for the contemporaneous
+# E04A/E494A Anglia (1939-1953), the 2-door of the same body family, which is
+# therefore not modelled separately; see the header of ford-anglia-100e.dat.
+# Precedent: the Morris Cowley is represented by the two Morris Oxford models.
 obj=citycar
 name=FordPrefectEarly(Blue)
 copyright=James
