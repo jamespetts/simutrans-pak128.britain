@@ -1,6 +1,6 @@
 ---
 status: draft
-verified: none
+verified: New ex-15 @ 937d464a9; GitBlends master @ 8d4bf9e0 (Anglia-related working-tree checks, 2026-11-15)
 ---
 # AI asset authoring pipeline (MCP)
 
@@ -48,14 +48,17 @@ the user to supply them. Full rule: [project-notes](../project-notes.md).**
 4. **Stage A export — scale here, never in 2.79.** Object locations and mesh vertices are
    multiplied by the axis factors (X and Z 0.70942, Y 0.56754 —
    [scaling-conventions](../scaling-conventions.md)), the scale is applied, the `.dae` is
-   exported at pak scale, and the metres master is reloaded from disk so the 4.5 file stays
-   in metres. Rationale: scaling in 2.79 cannot be seen or checked there, and a
+    exported at pak scale, and the original metres state is restored. Either reload the
+    saved master or export temporary scaled mesh copies and restore their original mesh
+    pointers and transforms in `finally`, as `anglia_mesh.py::export_pak()` does.
+    Never save the metres master with pak-scale geometry.
+    `[EXECUTION-VERIFIED:2026-11-15]` Rationale: scaling in 2.79 cannot be seen or checked there, and a
    mesh-only scale leaves position-carrying parts behind (recorded failure,
    [photo-to-pak-pipeline](photo-to-pak-pipeline.md)).
 5. **Stage B — placement and rendering in headless Blender 2.79.** Import the pak-scale
    `.dae` (no scaling anywhere in this stage), clear animation data, set RGBA output and
    OSA 11, flat-shade, translate only (X centred; body front at Y −4.0; lowest point Z 0),
-   run a per-object attachment check against the hull, save the working copy before
+    run a per-object attachment check against the complete body shell, save the working copy before
    rendering, then render the class's view set with
    `render_SimutransRender_pak128Britain-65.py`.
 6. **Pak integration** — rendered views into the source folder's `images/` directory; the
@@ -75,31 +78,26 @@ analysis).
 
 - **MCP has been shown to be the only process that works to any extent.**
   `[USER-DIRECTION:2026-11-15]`
-- **Four end-to-end runs now exist.** The first (2026-11-14/15) was an Audi A4 B6 saloon
-  taken through geometry, six colour variants, render and makeobj compile into a private
-  car ([photo-to-pak-pipeline](photo-to-pak-pipeline.md)). The second (2026-11-15) was a
-  six-generation Vauxhall Corsa family (Nova/Corsa A to Corsa F, 24 citycar objects),
-  built from a parametric dimension table (`car_builder.py`), rendered at eight views per
-  colour, compiled into `citycars.pak`, and loaded by the debug engine in a
-  `-generate_map` run that printed `MAP-GEN: PASS`. This was the first multi-model run
-  without the user participating in the geometry loop. It also exposed three recurring
-  geometry faults, now recorded with fixes in [geometry-pitfalls](geometry-pitfalls.md).
-  The third (2026-11-15) was the Ford Fiesta family (Mk1–Mk7, 28 citycar objects), the
-  first run executed by delegated subagents (model DeepSeek V4.1 Flash) on the same
-  parametric pipeline; the user accepted its renders on 2026-11-15. The fourth (2026-11-15)
-  was the single-model BMC1100 (ADO16, 5 colourways), also subagent-executed, including a
-  post-build chrome-bumper edit in the 4.5 session without changing the builder code; the
-  user accepted its renders on 2026-11-15. The fifth (2026-11-15) was the Ford Anglia 100E
-  and 105E (10 colourways), subagent-executed; its renders were REJECTED by the user the
-  same day — the brand-defining rear shapes (105E reverse-rake window, 100E spare-wheel boot
-  hump) had been omitted as "not readable at pak scale" ([geometry-pitfalls](geometry-pitfalls.md))
-  — and a geometry rework is queued. Every numeric check had passed on the rejected renders.
-  The sixth (2026-11-15) was the Ford Escort Mk2 (5 colourways), subagent-executed.
+- **The Anglia photographic rework reached user acceptance and pak integration.** The
+  rejected text-derived 100E/105E models were replaced by photograph-referenced geometry
+  built in the live MCP session. The user reviewed the photograph comparisons and sprite
+  renders, requested a flatter 100E boot, then approved installation. The source sprites
+  and Blender render files were replaced and citycars compiled without warnings or ignored
+  fields. Accepted masters and reproduction details: [anglia-sources](anglia-sources.md).
+  The original rejection remains evidence that numeric checks alone cannot establish shape
+  correctness ([geometry-pitfalls](geometry-pitfalls.md)).
   `[EXECUTION-VERIFIED:2026-11-15]` `[USER-DIRECTION:2026-11-15]`
+- **Prior acceptance does not establish photographic-reference compliance.** Other car
+  families made with dimension-table builds were deferred by the user as acceptable at low
+  resolution, not accepted as satisfying the later photograph-based controls. Their
+  outstanding reworks are maintained in the [roadmap](../pakset-roadmap.md).
+  `[USER-DIRECTION:2026-11-15]`
 - **What remains untested**: citycar spawning and image alignment in a running game
   session. `-generate_map` proves the pakset loads and the world initialises; it does not
   advance time far enough for private cars to appear. The image offset table and the
-  in-game look of the Corsa and A4 images are still unverified.
+  in-game look remain separate checks from compilation and sprite approval. The Anglia
+  rework did not include an in-game traffic test, full-pakset rebuild or engine-runtime
+  installation. `[EXECUTION-VERIFIED:2026-11-15]`
 - The pre-MCP procedure is superseded: its failures survived every check it had, because it
   could not see the model it was building. Its error categories remain a useful checklist of
   geometry mistakes ([error-categories-pre-mcp](error-categories-pre-mcp.md)).
@@ -118,11 +116,26 @@ analysis).
   the `.dae`, and reloads the metres master. The geometry rules it encodes (non-coplanar
   appliqués, local taper for lamps, wheel/arch clearances) are in
   [geometry-pitfalls](geometry-pitfalls.md).
+- `Git Blends/Pak128.Britain-blends/anglia_mesh.py` — photograph-referenced Anglia shell
+  builders and non-destructive pak-scale exporter. Build only in a new scene; do not
+  overwrite hand-edited masters by rebuilding. Its exporter selects only the active scene's
+  matching car meshes. Source identities and colour lists:
+  [anglia-sources](anglia-sources.md). `[EXECUTION-VERIFIED:2026-11-15]`
 - `Git Blends/Pak128.Britain-blends/stageB_car_prepare.py` and `stageB_car_render.py` —
   the 2.79 half of the car pipeline: import/place/attachment-check/save, then render the
-  eight views for each paint colour from a JSON colour list. Translate-only; never scale
-  in 2.79. The render step has been observed to exit 1 part-way after producing some views
-  with no traceback; re-running it for the remaining colours completes the set (2026-11-15).
+  road views for each paint colour from a JSON colour list. Translate-only; never scale
+  in 2.79. The render driver requires a material named exactly `<ObjectPrefix>Paint`;
+  a Blender-added `.001` suffix prevents that lookup. The preparation driver's
+  `<ObjectPrefix>_Hull` attachment reference must include the upper body where roof parts
+  attach; see [geometry-pitfalls](geometry-pitfalls.md#attachment-checks-need-the-actual-support-surface).
+  `[EXECUTION-VERIFIED:2026-11-15]`
+- **Check render output as well as process status.** Blender 2.79 has exited 1 both during
+  incomplete rendering and during teardown after writing a complete result. Inspect the
+  traceback and completion marker, then verify every expected view, image format and
+  non-empty alpha content. Independently verify saved sources after a preparation run.
+  Do not assume either that exit 1 proves no output was written or that a partial set is
+  complete; rerun missing outputs only after establishing what actually finished.
+  `[EXECUTION-VERIFIED:2026-11-15]`
 - `execute_blender_code` runs in a context that loses its window after
   `save_as_mainfile`. Build and save in one call, then call `export_pak_dae()` in a fresh
   call; a save followed by `collada_export` in the same call fails with

@@ -1,6 +1,6 @@
 ---
 status: draft
-verified: New master @ 30444805f
+verified: New ex-15 @ 937d464a9 (working tree; Anglia status and reference doctrine, 2026-11-15)
 ---
 # AI .blend creation: status and failure record
 
@@ -25,11 +25,13 @@ Per user direction, 2026-09-27 `[RECOLLECTION:2026-09-27]`:
 - **The pipeline from `.blend` to `.pak` is workable**: rendering, offsets, `.dat` writing,
   makeobj, and the map-generation smoke test.
 
-**MCP is the working route** (user direction, 2026-11-15): the MCP-driven live Blender 4.5
-procedure ([ai-pipeline](ai-pipeline.md)) has been shown to be the only process that works
-to any extent, and as of 2026-11-15 the extent to which it works is somewhat uncertain; one
-end-to-end run exists ([photo-to-pak-pipeline](photo-to-pak-pipeline.md)). Environment and
-session findings: [blender-mcp](blender-mcp.md). `[USER-DIRECTION:2026-11-15]`
+**MCP is the working procedure** (user direction, 2026-11-15). The photograph-based Anglia
+replacements reached user acceptance and pak compilation through the live Blender 4.5
+procedure ([ai-pipeline](ai-pipeline.md)). The 100E required a user correction to its boot
+shape before approval. This demonstrates user-reviewed construction, not reliable
+unattended work. Sources: [anglia-sources](anglia-sources.md); local model experience:
+[model-selection](model-selection.md#local-blender-mcp-model-experience).
+`[USER-DIRECTION:2026-11-15]` `[EXECUTION-VERIFIED:2026-11-15]`
 
 ## What is demonstrated to work
 
@@ -133,17 +135,19 @@ From the 2026-09-26/27 sessions (S69 first attempt; B12/3 rebuild attempt)
 - **Colour is never taken from a reference image**; in-pakset tables only (see
   [liveries-and-special-colours](liveries-and-special-colours.md)). A reference may inform
   which part is which, never what colour it is. `[RECOLLECTION:2026-09-27]`
-- A reference image's residual roles are **qualitative character** (what dimensions do not
-  state) and **cross-validating the data channel**. Scale comes from the data channel plus
-  class constants (gauge, buffer height, wheel diameters), never from measuring an image.
-  `[RECOLLECTION:2026-09-27]`
+- Photographs determine shape and relative proportions; published dimensions and class
+  constants calibrate scale. Check perspective before interpreting image measurements.
+  The current [reference controls](visual-asset-controls.md) supersede the earlier
+  restriction of photographs to qualitative character alone.
+  `[USER-DIRECTION:2026-11-15]`
 - Low render resolution **forgives donor type-substitution** (a 707 and a DC-8-10 differ by a
   few pixels at 128 px = 46 m) but **does not forgive placement errors**: silhouette and
   relative part placement are what survive at sprite scale.
   `[EXECUTION-VERIFIED:2026-09-24]` (donor half); the placement half is inference from the
   failure record. `[UNVERIFIED]`
-- References are mixed media (B&W photo, colour photo, line drawing, vector drawing, text);
-  class constants are permitted as scale anchors. `[RECOLLECTION:2026-09-27]`
+- Permitted shape references are photographs, or drawings where photographs are unavailable;
+  text supplies numeric and historical facts, not shape. Follow
+  [visual-asset-controls](visual-asset-controls.md). `[USER-DIRECTION:2026-11-15]`
 
 ## Verification tooling environment
 
@@ -164,8 +168,7 @@ Measured 2026-09-27 on the maintainer's machine `[EXECUTION-VERIFIED:2026-09-27]
 
 ## Open questions
 
-- Reference images are not documented as an input category anywhere in this knowledge base.
-  What form should that record take (per-asset source lists, allowed uses, disallowed uses)?
+- How should reference-image identity and camera pose be recorded consistently across assets?
 - Would a blind, unprimed, multi-view protocol change the measured AI recognition failure
   rate? Current evidence gives no reason to expect so, but it has not been measured cleanly.
 - What concrete form should the predicate battery take (per-class invariant tables, or a

@@ -1,6 +1,6 @@
 ---
 status: draft
-verified: none
+verified: New ex-15 @ 937d464a9 (working tree; Anglia completion checked 2026-11-15)
 ---
 # Pakset roadmap
 
@@ -29,7 +29,7 @@ for new engine features.
   [graphics/visual-asset-controls](graphics/visual-asset-controls.md): Ford Fiesta Mk1–Mk7,
   `BMC1100`, Ford Escort Mk2, and the Vauxhall Corsa family (`VauxhallNova`–`VauxhallCorsaF`).
   Deferred 2026-11-15 by the user as acceptable at low resolution for now — flagged to be
-  redone later. The Ford Anglia 100E/105E rework is the active item.
+  redone later. The Anglia rework is complete; see the completed-work entry below.
   `[USER-DIRECTION:2026-11-15]`
 - Rebase all private-car `DistributionWeight` values to the anchor principle (most popular car
   on the road at a given time = 100, assuming 5 colourways; inverse scaling for fewer
@@ -55,6 +55,15 @@ for new engine features.
   `trains/Locomotives/GER-S69/`. B12/3: the three blends carry the known-wrong v1 front board;
   rebuild the board to the v2 profile (top 0.95 falling to 0.87, meeting the band's dipped tip
   at 0.915) and re-import. `[RECOLLECTION:2026-09-27]`
+
+## Completed work
+
+- Ford Anglia 100E/105E photographic geometry rework: the user accepted the replacement
+  models and colour renders, including the corrected 100E boot. The replacement sprites
+  are installed in the source tree and compiled into the local citycars pak. Accepted
+  source files and maintenance procedure:
+  [graphics/anglia-sources](graphics/anglia-sources.md).
+  `[USER-DIRECTION:2026-11-15]` `[EXECUTION-VERIFIED:2026-11-15]`
 
 ## Open questions
 

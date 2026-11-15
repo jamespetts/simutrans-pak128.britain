@@ -1,6 +1,6 @@
 ---
 status: draft
-verified: New master @ 30444805f
+verified: New ex-15 @ 937d464a9 (working tree; local MCP experience updated 2026-11-15)
 ---
 # Model selection for 3D and Blender work
 
@@ -9,10 +9,28 @@ published measured evidence behind that choice. Read before choosing a model for
 and before claiming that a model change will or will not fix a recorded failure. Parent:
 [graphics-pipelines](../graphics-pipelines.md).
 
-Nothing here was measured on this machine. All figures are external benchmark results, tagged
-`[LITERATURE:<url>]`, and none is evidence about this pakset. The pakset's own evidence is the
+The local experience below is distinct from the external benchmark figures, which are tagged
+`[LITERATURE:<url>]` and are not evidence about this pakset. The pakset's own evidence includes the
 failure record in [blend-creation](blend-creation.md); the environment is
 [blender-mcp](blender-mcp.md).
+
+## Local Blender MCP model experience
+
+The user's assessment of the models tried for this project's Blender MCP work is:
+
+- **GPT 6.1 Sol is the only model successfully used so far.** The accepted Anglia rework
+  used Sol with direct photograph comparisons, user corrections and final approval.
+- **GPT 6.1 Terra is worth trying.** This is a suggested candidate, not a demonstrated
+  success or a recorded test result.
+- **DeepSeek 4.1 Flash, Inkling 2 Small and MiMo 2.6 Pro failed.**
+
+`[USER-DIRECTION:2026-11-15]` `[RECOLLECTION:2026-11-15]`
+The Sol Anglia result was also observed in this session.
+`[EXECUTION-VERIFIED:2026-11-15]`
+
+Use this local experience when selecting a model for pakset geometry. It does not establish
+a general ranking across other tasks or remove the photographic-reference and human-review
+requirements. Accepted source files: [anglia-sources](anglia-sources.md).
 
 ## The benchmarks worth citing
 
@@ -109,6 +127,9 @@ dominates per-asset cost. `[LITERATURE:https://arxiv.org/abs/2609.06535]`
 
 ## Working position
 
+For this project's Blender MCP work, use the local experience above; Terra remains a
+candidate to evaluate. The following conclusions concern the external benchmarks only.
+
 - Cheapest credible configuration: a mid-tier editor with a separate reviewer that describes
   render differences against a checklist. The reviewer is the component worth paying for.
 - Open weights: Kimi K3 is the only open-weight model within reach of the frontier on this task;
@@ -123,7 +144,8 @@ here, and the pakset's own failure record remains the primary evidence for the p
 
 - Is a local measurement worth running at all, given the recorded failure modes are already
   documented and the external benchmarks reproduce them independently?
-- Which reviewer model, if any, is trusted enough for the human gate? The pakset doctrine
-  currently forbids AI description of images outright ([blend-creation](blend-creation.md)).
+- Under what conditions, if any, can Terra repeat the accepted photograph-based MCP work?
+- Which reviewer model, if any, can usefully assist the human reviewer? AI image readings may
+  inform iteration but do not replace human acceptance ([blend-creation](blend-creation.md)).
 - Does the 2.79 render step change any of the above? The benchmarks use Blender 5.x and no
   software-renderer constraint.

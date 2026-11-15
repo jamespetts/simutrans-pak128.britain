@@ -42,6 +42,11 @@ them. No geometry is built without photographic (or drawing) reference in hand.*
   [graphics/blend-creation](graphics/blend-creation.md); procedure:
   [graphics/ai-pipeline](graphics/ai-pipeline.md).
   `[RECOLLECTION:2026-09-27]` `[USER-DIRECTION:2026-11-15]`
+- Before selecting a model for Blender MCP, read the
+  [local model experience](graphics/model-selection.md#local-blender-mcp-model-experience):
+  the user identifies GPT 6.1 Sol as the only successful model so far and GPT 6.1 Terra
+  as worth trying; the unsuccessful models are recorded there.
+  `[USER-DIRECTION:2026-11-15]` `[RECOLLECTION:2026-11-15]`
 
 ## Planned sections
 

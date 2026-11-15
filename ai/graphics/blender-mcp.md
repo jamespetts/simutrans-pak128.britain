@@ -1,6 +1,6 @@
 ---
 status: draft
-verified: New ex-15 @ 66e9c2dfd
+verified: New ex-15 @ 937d464a9 (working tree; Anglia status and connection findings, 2026-11-15)
 ---
 # Blender MCP
 
@@ -8,10 +8,15 @@ verified: New ex-15 @ 66e9c2dfd
 the installed environment, what it may and may not write, and its status. Parent:
 [graphics-pipelines](../graphics-pipelines.md).
 
-**Status: tested end to end once, on one experimental asset** (Audi A4 B6, 2026-11-14/15),
-not yet a pakset object; user hand-edits the scene in parallel; AI reading of renders is
-displaced for iteration but not for verification. No pakset object has been produced through
-it. Current status of AI-authored geometry and the failure record that motivates this route:
+**Status: used for accepted Anglia geometry through pak compilation.** The user reviewed
+photograph comparisons and final sprites, including a correction to the 100E boot.
+Sources: [anglia-sources](anglia-sources.md). This does not establish unattended reliability
+or in-game appearance. `[EXECUTION-VERIFIED:2026-11-15]`
+`[USER-DIRECTION:2026-11-15]`
+
+Local model results and the recommendation to try GPT 6.1 Terra are maintained in
+[model-selection](model-selection.md#local-blender-mcp-model-experience).
+Current status of AI-authored geometry and the failure record:
 [blend-creation](blend-creation.md). Pipeline lessons and file-placement rules recorded in
 [photo-to-pak-pipeline](photo-to-pak-pipeline.md).
 
@@ -57,6 +62,16 @@ it. Current status of AI-authored geometry and the failure record that motivates
   `Not connected to Blender`. Relaunch 4.5 (with the master file) and wait for port 9876
   to listen again; the MCP server reconnects without restarting OpenCode.
   `[EXECUTION-VERIFIED:2026-11-15]`
+
+## Connection verification
+
+An earlier successful response does not establish that Blender is still running or that
+its window is visible. When connection state is disputed, obtain a fresh MCP response
+reporting the Blender process ID and background flag, and compare it with the local
+process and window state. If no process is running and MCP reports disconnected, reopen
+the saved master in Blender 4.5 and verify the new connection. Do not diagnose a crash
+without evidence of its cause. This check was needed during the Anglia work.
+`[EXECUTION-VERIFIED:2026-11-15]`
 
 ## Why this route is favoured
 
@@ -130,8 +145,8 @@ against this pipeline. Treat that as an open question, not a plan.
 
 - The published benchmarks behind the favouring of this route evaluate editing of single
   procedural objects. They do not test multi-part vehicle assemblies on layered scenes, nor a
-  2.79 render step ([model-selection](model-selection.md)). Transfer is expected, not
-  demonstrated.
+  2.79 render step ([model-selection](model-selection.md)). Those benchmark scores do not
+  validate a pakset run; use direct project results and user review.
 - An MCP session drives one live Blender instance. It is not a headless batch build, so it does
   not replace the makeobj and render stages.
 - AI reading of rendered images can be wrong even with the MCP supplying them: on

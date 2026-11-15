@@ -1,16 +1,16 @@
 ---
 status: draft
-verified: none
+verified: New ex-15 @ 937d464a9; GitBlends master @ 8d4bf9e0 (Anglia-related working-tree checks, 2026-11-15)
 ---
 # Low-poly vehicle geometry pitfalls
 
-**Covers**: recurring geometry faults found while building the Vauxhall Corsa family in
-Blender 4.5 through MCP (2026-11-15), and the construction rules that prevent them. Applies
+**Covers**: recurring geometry faults found while building the Corsa and Anglia models in
+Blender 4.5 through MCP, and the construction checks that detect or prevent them. Applies
 to Stage A vehicle builds generally. Parent: [graphics-pipelines](../graphics-pipelines.md);
 procedure: [ai-pipeline](ai-pipeline.md).
 
-These are working notes from an in-progress build, not a reviewed standard. Each entry gives
-the symptom, the mechanism, and the numeric fix that removed it in the Corsa F.
+These are working notes, not a reviewed standard. Numeric construction checks supplement
+photograph comparisons and user acceptance; they do not replace them.
 `[EXECUTION-VERIFIED:2026-11-15]`
 
 ## Missing brand-defining silhouette (Ford Anglia rear, rejected 2026-11-15)
@@ -19,19 +19,64 @@ the symptom, the mechanism, and the numeric fix that removed it in the Corsa F.
 rejected them: "They were famous for their rear shape, but these renders look like modern
 hatchbacks. These need re-doing." `[USER-DIRECTION:2026-11-15]`
 
-**Mechanism**: `car_builder.py`'s cabin expresses only a rearward-slanting backlight, so the
-run's spec recorded the 105E's reverse-rake rear window (the glass leans forward over the
-boot) and the 100E's raised spare-wheel boot lid as omitted, judging that they "do not read
-at pak scale". A brand-defining silhouette DOES read at pak scale: it is what makes the blob
-identifiable even when surface details do not.
+**Mechanism**: the rejected build treated the rear shapes as omissions permitted by the
+builder, rather than matching photographs. The 105E's reverse rake means that the window
+**top is rearward of its base**, not forward of it. The 100E is a different generation,
+with conventional sloping rear glass and a separate rounded boot; describing that boot as
+an external spare-wheel hump was incorrect. Its accepted replacement has a shallow crown,
+reduced after the user found the first rework too bulbous.
+`[EXECUTION-VERIFIED:2026-11-15]` `[USER-DIRECTION:2026-11-15]`
 
 **Rule**: if a feature defines the model's recognisable silhouette (reverse-rake window,
-spare-wheel hump, fins, sloping or upright tail), it must be modelled even when the builder
+separate boot, fins, sloping or upright tail), it must be modelled even when the builder
 cannot express it, using a post-build geometry edit in the 4.5 session (the BMC1100 chrome
 bumper is the precedent). Any "does not read at pak scale" judgement about a silhouette
 feature must be referred to the user at the spec stage, not decided in the build. Numeric
 checks (cluster count, pixel size, colour) cannot detect this class of error: all of them
 passed on the rejected renders. `[EXECUTION-VERIFIED:2026-11-15]` `[USER-DIRECTION:2026-11-15]`
+
+The Anglia rework is accepted and installed; its maintained source files are identified in
+[anglia-sources](anglia-sources.md). The failed build remains a reason to retain the
+reference and human-review controls, not an outstanding Anglia rework.
+`[USER-DIRECTION:2026-11-15]` `[EXECUTION-VERIFIED:2026-11-15]`
+
+## Photograph identity and camera angle
+
+Inspect the actual image before assigning its use. A front three-quarter Anglia photograph
+had been labelled a side profile in the rejected spec. Published overall dimensions do
+not turn oblique image coordinates into orthographic lengthwise positions. Establish the
+basic dimensions, compare the model at the photograph's angle, and refine the geometry
+visually; do not treat approximate positions inferred from perspective as precise
+measurements. Follow the [reference controls](visual-asset-controls.md).
+`[EXECUTION-VERIFIED:2026-11-15]`
+
+## Attachment checks need the actual support surface
+
+- `stageB_car_prepare.py` compares every part's bounding box with
+  `<ObjectPrefix>_Hull`. A lower-body-only hull can falsely reject trim attached to the
+  cabin roof. The Anglia builder's `finish_shell()` includes cabin and glazing in that
+  reference shell. Check the intended supporting mesh rather than moving correct roof
+  trim downwards to satisfy an incomplete bounding box.
+- Bounding-box overlap is a gross-error check, not proof of surface contact. On a curved
+  rear wing, a flat lamp panel can be exposed above the body or buried inside it while its
+  overall box overlaps the hull. The 100E builder's `fit_rear_lamps()` projects the lamp
+  geometry onto the actual rear surface and closes its back inside the body.
+- Fit boot seams and handles to the revised body surface after changing its curvature;
+  retaining their earlier coordinates can leave detached details.
+
+`[EXECUTION-VERIFIED:2026-11-15]`
+
+## Closed tyres and matching panel boundaries
+
+- A tread band and hubcap do not close the tyre's sidewalls. Build a closed wheel profile
+  and check for non-manifold edges again after Collada import. The Anglia wheels were
+  checked in both Blender stages.
+- A curved windscreen or rear window must share the complete sampled boundary of its
+  supporting roof. A four-corner boundary below a crowned roof leaves a visible opening.
+  Include the roof's cross-section breaks and remove any painted support faces that would
+  obscure the glazing. See `anglia_mesh.py::screen()`.
+
+`[EXECUTION-VERIFIED:2026-11-15]`
 
 ## Coplanar detail faces (z-fighting)
 
@@ -111,14 +156,14 @@ Re-analysing the same accepted `ai/temp/audi-a4-b6-views/*.png` files on 2026-11
 | A4 clusters | 1 | 1 | 1 | 3 | 1 | 2 | 1 | 1 |
 | Corsa F clusters | 1 | 1 | 2 | 3 | 1 | 3 | 3 | 1 |
 
-The Corsa F render therefore matches the accepted A4's pattern almost exactly. At 128 px a
-car is 15–30 px across; in the straight rear/front views (NW and SE in this render rig) the
+The Corsa F render therefore matches the accepted A4's pattern almost exactly. At pak scale,
+in the straight rear/front views (NW and SE in this render rig) the
 lower body, bumper and wheel silhouettes separate by one anti-aliased row. That is a
 sampling artefact, not detached geometry. `[EXECUTION-VERIFIED:2026-11-15]`
 
 Use the cluster count as a **diagnostic against a known-good baseline**, never as a pass/fail
 gate of "1 cluster per view". The reliable structural checks remain the per-object world
-bbox overlap against the hull, and visual inspection of the render. A genuine detached part
+  bbox overlap against the complete shell, local surface checks and visual inspection of the render. A genuine detached part
 shows as a whole object missing from the body silhouette (for example a lamp floating ahead
 of the nose), which the bbox check also catches. `[EXECUTION-VERIFIED:2026-11-15]`
 
@@ -131,12 +176,14 @@ corrected in that doc: its NW and SE views were not single clusters.
 2. Compute lamp size and position from the local taper, not from overall W.
 3. Hull lower half-width 0.97 × max; widest point low; arch rise 0.10 m.
 4. Wheel outer face at W/2 − 0.045.
-5. Check every part's world bbox against the hull bbox.
-6. Render and compare cluster counts against the A4/Corsa baseline, not against 1.
+5. Check every part against its supporting surface; use the complete-shell bounding box
+   only as a gross-error check. Verify closed wheels and matching glazing boundaries.
+6. Capture the reference angles and additional views, then obtain user acceptance at
+   sprite scale. Cluster counts are diagnostic, not an acceptance condition.
 
 ## Open questions
 
-- Should the render camera elevation be lowered from 60° so body sides occupy more pixels?
+- Should the render camera elevation be lowered so body sides occupy more pixels?
   That is a pakset-wide change and needs its own review.
 - Is an object-index render pass a better automated check than alpha-cluster counting?
 - Do the same rules hold for vans, lorries and buses, whose wheel/body relationships differ?

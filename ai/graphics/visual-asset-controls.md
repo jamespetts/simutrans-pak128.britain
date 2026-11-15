@@ -1,6 +1,6 @@
 ---
 status: draft
-verified: New ex-15 @ 67d641657
+verified: New ex-15 @ 937d464a9 (working tree; Anglia completion update, 2026-11-15)
 ---
 # Visual asset process controls
 
@@ -79,6 +79,12 @@ Root cause: the source of shape moved from photographs to text at the builder/br
 downstream checks were relative (render vs render) instead of absolute (model vs
 photograph); and the pre-build human gates were not carried into the delegated process.
 `[USER-DIRECTION:2026-11-15]` `[CODE New ex-15 @ 67d641657]`
+
+The rejected Anglia outputs have been replaced by photograph-referenced models accepted
+by the user and compiled into the local citycars pak. The failure analysis above remains
+the reason for retaining these controls. Accepted sources:
+[anglia-sources](anglia-sources.md).
+`[USER-DIRECTION:2026-11-15]` `[EXECUTION-VERIFIED:2026-11-15]`
 
 ## Session continuity (hard rule)
 
