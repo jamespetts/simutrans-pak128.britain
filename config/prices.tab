@@ -35,7 +35,24 @@ general=1750,56,1751,54,1752,57,1753,56,1754,58,1755,54,1756,57,1758,69,1759,63,
 # the 1988-2023 real-terms rise is not extrapolated.
 passenger fare=1750,100,1914,100,1921,150,1937,150,1938,157,1945,158,1953,175,1959,175,1960,200,1961,250,1962,300,1964,300,1965,325,1967,325,1970,330,1971,330,1972,341,1973,351,1974,407,1975,615,1976,684,1977,780,1987,1291,1988,1381,1989,1507,1990,1639,1991,1809,1992,1942,1993,2078,1994,2170,1995,2266,1996,2351,1997,2406,1998,2505,1999,2596,2000,2641,2001,2742,2002,2805,2003,2853,2004,2962,2005,3081,2006,3204,2007,3369,2008,3515,2009,3702,2010,3999,2011,4284,2012,4489,2013,4678,2014,4834,2015,4936,2016,4948,2017,5087,2018,5244,2019,5455,2020,5577,2021,5729,2022,6044,2023,6340,2024,6581,2025,6952,2026,7073,2027,7391,2028,7613,2029,7803,2030,7959,2035,8788,2040,9702,2045,10712,2050,11827
 
-#mail rate=1750,100,2022,100
+# Basic inland letter rate, end-year, in old pence. 1900 = 100 by construction.
+# Before 1840 the rate varied with distance and the number of sheets; the series
+# uses the single-letter rate for 100 miles, which is close to the measured 1837
+# average of 9.5d per letter: 4d from 1711, 5d from 1784, 7d from 1797, 8d from
+# 1805, 9d from 1812. The Uniform Fourpenny Post of Dec 1839 lasted five weeks and
+# is not given a year of its own; the penny rate applies from 1840.
+# After 1840: 1d to 1915, 1.5d from 1918, 2d in 1920, back to 1.5d in 1922,
+# 2.5d from 1940, 3d from 1957, 4d from 1965; from 1968 the ordinary service is
+# the 2nd class rate. 2050 holds real postage level, rising with the general index.
+# Priority pays 250% of this rate (class_revenue_percent[1] in goods-128.dat).
+# The premium it represents has been: the old distance tariff against the penny
+# post, 1840-1914 (about 9.5x); Empire air mail at the ordinary rate, 1915-38;
+# the wartime air surcharge (6x); post-war air mail (about 2x); and first against
+# second class (1.2-2.0x) since 1968. The multiplier is fixed, so 250% is the
+# equal-weight geometric mean of those premiums (2.49), deliberately rich for the
+# modern era. Normal is the class that is excluded by price, so the player decides
+# when to open the cheap service.
+mail rate=1750,400,1784,500,1797,700,1805,800,1812,900,1840,100,1918,150,1920,200,1922,150,1940,250,1957,300,1965,400,1971,600,1973,720,1974,840,1975,1560,1977,1680,1979,1920,1980,2400,1981,2760,1982,3000,1984,3120,1985,2880,1986,3120,1988,3360,1989,3600,1990,4080,1991,4320,1993,4560,1996,4800,1999,4560,2003,4800,2004,5040,2006,5520,2007,5760,2008,6480,2009,7200,2010,7680,2011,8640,2012,12000,2014,12720,2015,12960,2016,13200,2017,13440,2018,13920,2019,14640,2020,15600,2021,15840,2022,16320,2023,18000,2024,20400,2025,20880,2026,21840,2050,36519
 #goods rate=1750,100,2022,100
 #vehicle purchase=1750,100,2022,100
 #vehicle maintenance=1750,100,2022,100
