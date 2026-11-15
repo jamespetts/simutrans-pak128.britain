@@ -44,3 +44,5 @@ compatibility, and the restrictions on changing them.
   to them?
 - What is the safe procedure for changing an object's capacity or constraints without breaking
   existing games?
+- What is the exact list of save/load-relevant `.dat` fields (as opposed to display-only
+  fields)? Unresearched; do not assume.

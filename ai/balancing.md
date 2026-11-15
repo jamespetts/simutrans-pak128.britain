@@ -191,6 +191,15 @@ be economically and historically realistic.
 - The relationship between these working papers and the engine's economic simulation is not
   yet documented; see the open questions below.
 
+## Editing `.ods` working papers programmatically
+
+- The calibration `.ods` files must only ever be edited by byte-splicing `content.xml`, never
+  by XML round-tripping; get the procedure right from the maintenance guide:
+  [ods-editing](ods-editing.md). It covers the non-negotiable rules, the rescue path
+  (`git -C New restore <file>`), inspection, sorted-position insertion, reference
+  renumbering, re-zipping, and verification, with the working helper code.
+  `[EXECUTION-VERIFIED:2026-09-23]`
+
 ## Planned sections
 
 - The calibration method: what data sources are used and how values are derived.

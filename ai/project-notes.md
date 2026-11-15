@@ -20,10 +20,14 @@ start of most tasks.
 - The pakset has two halves kept in two repositories: the compiled sources in `New/` and the
   Blender meta-sources in `Git Blends/Pak128.Britain-blends/`. A graphics change normally starts
   in the latter and ends as `.png` files in the former.
-- Novel `.blend` creation by AI is currently unstable; minor `.blend` edits and the
-  `.blend`→`.pak` pipeline are workable; never verify anything by AI description of a render
-  or screenshot. Status and failure record: [graphics/blend-creation](graphics/blend-creation.md).
-  `[RECOLLECTION:2026-09-27]`
+- AI `.blend` work now runs in a live Blender 4.5 session through MCP; that is the only
+  process shown to work to any extent, and the extent is still being established (2026-11-15).
+  Under the superseded pre-MCP script pipeline, novel `.blend` creation was unstable while
+  minor edits and the `.blend`→`.pak` pipeline were workable. AI readings of renders inform
+  iteration but are not verification. Status and failure record:
+  [graphics/blend-creation](graphics/blend-creation.md); procedure:
+  [graphics/ai-pipeline](graphics/ai-pipeline.md).
+  `[RECOLLECTION:2026-09-27]` `[USER-DIRECTION:2026-11-15]`
 
 ## Planned sections
 

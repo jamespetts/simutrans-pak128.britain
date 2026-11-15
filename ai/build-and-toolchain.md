@@ -54,6 +54,33 @@ verified: New master @ 92c7b701c
 - `New/.gitignore` excludes `makeobj-extended*`, `*.exe`, `*.pak`, and `*.sve`. The makeobj
   binaries present in `New/` are therefore untracked. `[CODE New master @ 92c7b701c]`
 
+## Testing the compiled pakset
+
+- The ex-15 engine executable is `Simutrans-Extended-debug-optimised.exe` in the engine
+  runtime dir (`../../simutrans-extended-sources/simutrans/` relative to `New/`); it reports
+  "Simutrans 123.2 Extended Nightly development build 15.0" and supports `-generate_map`.
+  `simutrans-extended.exe` in the same dir is build 14.23 (stale — not ex-15). Only a build
+  15.0 exe that supports `-generate_map` is correct for this test.
+  `[EXECUTION-VERIFIED:2026-09-24]`
+- `New/test-pakset.ps1` (PowerShell) does the automated smoke test: it mirrors
+  `New/pak128.Britain-Ex/` over the engine runtime's `pak128.Britain-Ex/` (an out-of-workspace
+  write), then runs the ex-15 exe with
+  `-objects pak128.Britain-Ex -generate_map -map_size 64,64 -log -nomidi -nosound` and reports
+  PASS only on `MAP-GEN: PASS` plus exit code 0. `-generate_map` loads the whole pakset,
+  initializes a blank world from the default settings, prints `MAP-GEN: PASS`, and quits
+  without entering the game loop; it does NOT save a map or instantiate a specific vehicle.
+  `[EXECUTION-VERIFIED:2026-09-24]`
+- To confirm a specific new object actually compiled, use
+  `./Makeobj-Extended-ex-15.exe LIST pak128.Britain-Ex/<name>.pak` and check the object line
+  (e.g. `vehicle douglas-dc-8-10`, `vehicle ger-s69`).
+  `[EXECUTION-VERIFIED:2026-09-24]`
+- In-game behaviour testing is manual for now: Squirrel (scenario scripting, the usual
+  automation path) has been broken and is in the process of being re-integrated. Until it is
+  working, the `-generate_map` path neither applies `-startyear` nor
+  saves. This needs a blank map at the vehicle's intro year and a person to buy/run it;
+  `demo.sve` is 1943 and unsuitable for a 1911 or 1959 introduction.
+  `[EXECUTION-VERIFIED:2026-09-24]`
+
 ## Planned sections
 
 - Which makeobj build is correct for which engine branch/version, and how that is determined.
