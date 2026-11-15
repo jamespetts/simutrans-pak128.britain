@@ -1,6 +1,6 @@
 ---
 status: draft
-verified: New ex-15 @ 0a4be8077 (working tree)
+verified: New ex-15 @ b39ac938d (working tree); simutrans-extended ex-15 @ 22cc3af
 ---
 # Prices config
 
@@ -34,6 +34,8 @@ four are present only as commented-out placeholders and therefore use `general`:
 
 The placeholders are flat at index 100. Do not uncomment one without a real series: that would
 remove inflation from the category entirely, which is a larger error than inheriting `general`.
+The `infrastructure` series has been researched and is ready to insert; it is not in the file
+yet.
 
 `corporation tax` and `base rate` are rates, not index numbers. Their entries are percentages
 used as rates rather than as multipliers on a base price; confirm this against the engine.
@@ -98,7 +100,7 @@ rate and the real price for a year, should reproduce the entered value.
 |---|---|---|---|
 | `vehicle purchase` | Vehicle purchase and upgrade costs | Price index of transport equipment | ONS CPI D7CO and CPIH L544 for 1988-2026; a transport equipment deflator or historical price lists before 1988 |
 | `vehicle maintenance` | Vehicle running and fixed costs | Repair and servicing price index | ONS RPI DOCT and CPI repair components for 1987-2026; wage and parts indices before 1987 |
-| `infrastructure` | Way, bridge, tunnel, signal, roadsign and way-object construction and maintenance | Civil engineering construction cost index | BCIS civil engineering index; ONS output price indices, infrastructure, from 1980; Department of the Environment road tender indices from 1970 |
+| `infrastructure` | Ways, bridges, tunnels, piers, way objects, signals, roadsigns, their maintenance, the forge costs and the halt multipliers | Civil engineering construction cost index | ONS output price index for infrastructure from 1980, chained through three vintages; `buildings` before 1980 (see [prices-infrastructure](prices-infrastructure.md)) |
 | `goods rate` | Goods revenue | Rail freight revenue per ton-mile | Railway Returns 1848-1962; British Rail and GBR statistics 1948-1994; ORR statistics 1994-2026 |
 
 ## Access
@@ -156,11 +158,16 @@ rate and the real price for a year, should reproduce the entered value.
 
 ### `buildings`
 
-- Implemented in `prices.tab`. Covers new building construction, building maintenance, and the
-  station, depot, air terminal, post office, headquarters and building-removal multipliers. The
-  engine mapping is the coverage recorded in
-  [balancing](balancing.md#inflation-recording-ex-15); it was not re-checked against the engine
-  source when the series was built.
+- Implemented in `prices.tab`. The engine applies this key to building purchase and maintenance
+  cost, and to the depot, headquarters, found city, found industry, building removal, field
+  removal and transformer costs and the transformer maintenance. A halt building with an
+  explicit `cost=` or `station_price=` is also priced through this key.
+  `[CODE simutrans-extended ex-15 @ 22cc3af]`
+- The station, dock, roadstop, air terminal and post office multipliers do **not** follow this
+  key; they follow `infrastructure`. The engine mapping recorded here before the series was
+  built said that every `cst_*` multiplier follows `buildings`, and that was wrong: the mapping
+  is the same at `d4893f3` and at `22cc3af`, so it was misread rather than changed.
+  `[CODE simutrans-extended ex-15 @ 22cc3af]`
 - The series is a four-block chain, each block linked on an overlap period and the whole rebased
   to 1900 = 100:
   - **1845-1938**: Mitchell, *British Historical Statistics* (1988) ch VII table 8, building
@@ -200,22 +207,20 @@ rate and the real price for a year, should reproduce the entered value.
 
 ### `infrastructure`
 
-- Covers ways, bridges, tunnels, signals, roadsigns and way objects, including their
-  maintenance, and the forge-cost settings. Confirm the forge-cost mapping against the engine.
-- The closest official series is the ONS output price index for new construction:
-  infrastructure, which starts only in the first quarter of 1980.
-  `[LITERATURE:https://assets.publishing.service.gov.uk/media/5a7954be40f0b63d72fc4ddf/output-price-indices-methodology-and-revision-policy.pdf]`
-- BCIS publishes a General Civil Engineering Cost Index, and the Department of the Environment
-  road construction tender price indices run from 1970. For 1900-1970 the building construction
-  index is the fallback unless a civil engineering series can be spliced in.
+- Researched and ready to implement; not yet in `prices.tab`, so the type still uses `general`.
+  Read [prices-infrastructure](prices-infrastructure.md) when building, reviewing or inserting
+  this series: the engine coverage verified against the source, the three published vintages,
+  the link factors and the treatment of the period before 1980.
+- The key covers ways, bridges, tunnels, piers, way objects, signals and roadsigns, their
+  maintenance, the `forge_cost_*` settings, and the station, dock, roadstop, air terminal and
+  post office multipliers. `[CODE simutrans-extended ex-15 @ 22cc3af]`
+- The official series is the ONS output price index for new work: infrastructure, which measures
+  roads and bridges and starts in 1980. No free civil engineering series reaches back further;
+  the forum's individual structure prices were tested as a substitute and cannot carry an index.
 - The `Infrastructure capital costs (historical)` sheet of
   `New/Infrastructure balancing calibration-2.ods` holds project costs at specific dates
   (ship canal 1724 to motorway 2011) normalised to 1900. It is a calibration workbook, not a
   price index, and must not be used as one.
-- Do `buildings` and `infrastructure` together so that the two indices agree at their link
-  years. Bridges and tunnels are more materials-intensive than buildings; earthworks are more
-  plant-intensive. As with `buildings`, the single key covers both construction and
-  maintenance.
 
 ### `city land`
 
@@ -273,10 +278,9 @@ rate and the real price for a year, should reproduce the entered value.
 
 ## Order of work
 
-1. `infrastructure`. It draws on the same construction family as `buildings`, so reuse the
-   link periods already chosen for it (1938/39, 1955, 2014 Q1) and rebase to 1900 the same way.
-   The ONS output price index for infrastructure starts only in 1980, so 1845-1980 needs either
-   a civil engineering series or the `buildings` index as a documented stand-in.
+1. `infrastructure`. Researched; the series and its method are set out in
+   [prices-infrastructure](prices-infrastructure.md) and only the insertion into `prices.tab`
+   remains.
 2. `vehicle purchase`. The CPI tail is ready; the early part needs a transport equipment
    deflator.
 3. `vehicle maintenance`. The CPI and RPI tails are ready; the early part can be proxied from
@@ -294,9 +298,3 @@ be revisited when the engine models land value per tile.
 - Confirm the `meters_per_tile` scaling of `cost_buy_land` and `cost_buy_city_land` before
   the per-tile land model replaces the index. The base split carries the 1900 urban/farmland
   ratio; the absolute land levels still depend on that scaling.
-- Do `cost_multiply_station`, `cost_multiply_dock` and the depot costs follow `buildings` or
-  `infrastructure`? The coverage recorded in [balancing](balancing.md#inflation-recording-ex-15)
-  says all the `cst_*` multipliers, including these, follow `buildings`; that has not been
-  re-checked against the engine source.
-- Does `forge_cost_*` follow `infrastructure`? The setting is a way construction cost, but it
-  is configured separately from the `.dat` way cost.

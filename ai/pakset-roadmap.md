@@ -17,10 +17,11 @@ for new engine features.
 
 ## Planned work
 
-- Complete the four price types that still fall back to `general` in `config/prices.tab`:
-  `goods rate`, `vehicle purchase`, `vehicle maintenance` and `infrastructure`.
-  Research sources, method and order: [prices-config](prices-config.md); source-recording
-  rule: [calibration-sources](calibration-sources.md). `[USER-DIRECTION:2026-11-15]`
+- Complete the three price types that still fall back to `general` in `config/prices.tab`:
+  `goods rate`, `vehicle purchase` and `vehicle maintenance`, and insert the researched
+  `infrastructure` series. Research sources and method: [prices-config](prices-config.md),
+  [prices-infrastructure](prices-infrastructure.md); source-recording rule:
+  [calibration-sources](calibration-sources.md). `[USER-DIRECTION:2026-11-15]`
 - Add the missing citycar assets listed in
   [objects/citycar-asset-gaps](objects/citycar-asset-gaps.md) — the comprehensive gap
   register (P1: Very-high luxury cars for 1922–1947 and 1989–2025; P2: entry cars including

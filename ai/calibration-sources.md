@@ -1,6 +1,6 @@
 ---
 status: draft
-verified: New ex-15 @ 0a4be8077 (working tree)
+verified: New ex-15 @ b39ac938d (working tree)
 ---
 # Calibration sources
 
@@ -55,7 +55,7 @@ from observed values.
 | Corporation tax | UK main rate | GOV.UK rates and allowances | 1798-2023 | `corporation tax` |
 | Bank Rate | Bank of England policy rate | Bank of England Bank Rate history | 1750-2025 | `base rate` |
 | Building construction | Nominal price of building work | Mitchell, *British Historical Statistics* (1988) Ch VII Table 8, building costs (1930=100), 1845-1938; Holmans, *Historical Statistics of Housing in Britain*, Table M.10, construction costs (1958-60=100), 1939-1970, with 1940-1947 from Mitchell and Deane, *Abstract of British Historical Statistics* (1962) Ch IX Table 4; BIS output price index, all new construction, 1955-2013; ONS construction output price index, all new work, 2014-2026. The first two are taken from the Bank of England "A millennium of macroeconomic data" workbook, sheet A32, columns S and T. Before 1845 the 1845 real level is held and tracks the general index (backcast tested against a wage-based alternative; see [prices-config](prices-config.md)) | 1845-2026, backcast to 1750 | `buildings` |
-| Civil engineering | Infrastructure construction prices | BCIS civil engineering index; ONS output price indices, infrastructure; Department of the Environment road tender indices | 1980-2026 for the infrastructure OPI; earlier under research | `infrastructure` (planned) |
+| Civil engineering | Infrastructure construction prices | ONS output price index for new work: infrastructure, 1980-2026, chained from BIS Construction Price and Cost Indices Table 1 column 13 (1980-2011), the ONS interim construction output price indices back history (1996-2015) and the current ONS construction output price indices (2014 onward). Before 1980 the `buildings` index is held as a stand-in; the forum's individual canal, aqueduct, viaduct and tunnel prices were tested as a substitute and rejected | 1980-2026 from the ONS series, 1750-1980 from `buildings` | `infrastructure` (researched, not yet inserted) |
 | Farmland | England agricultural land price | Savills long-run England farmland series, all land types (real, rebased to 2023) | 1900-2024 | `country land` |
 | Urban land | UK residential land price | JST Macrohistory Database UK nominal house price index (1900-1995 proxy); ONS land underlying dwellings, AN.21111 (1995-2025) | 1899-2025 | `city land` |
 | Vehicles | Purchase prices of transport equipment | ONS CPI D7CO; CPIH L544; national accounts transport equipment deflator; historical price data | 1988-2026 from CPI; earlier under research | `vehicle purchase` (planned) |
@@ -84,6 +84,11 @@ the general index by default.
   (1955-2013) and the ONS construction output price index for all new work (2014-2026). The
   links are 1938/39 by continuity, 1955 on the overlap year of the Holmans and BIS series, and
   2014 Q1 on the only quarter published by both the BIS and ONS series.
+- `infrastructure` chains three ONS and BIS vintages of one measure, each link measured on an
+  overlap year, and holds the `buildings` path before 1980 because no civil engineering series
+  reaches back that far. The consequence is that the pre-1980 range of that index carries
+  building prices. The method, the link factors and the test that rejected the forum structure
+  prices as a substitute are in [prices-infrastructure](prices-infrastructure.md).
 
 ## Open questions
 
