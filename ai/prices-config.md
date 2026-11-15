@@ -1,6 +1,6 @@
 ---
 status: draft
-verified: New ex-15 @ 8d0603d81 (working tree)
+verified: New ex-15 @ a121495ca (working tree)
 ---
 # Prices config
 
@@ -41,21 +41,21 @@ used as rates rather than as multipliers on a base price; confirm this against t
 
 ## Engine change: land base split
 
-- The engine reads `cost_buy_land` for country land and `cost_buy_land_city` for land inside
-  towns. Inside a town it multiplies the city base by 3 (town), 4 (city) or 6 (capital)
-  before applying the `city land` index; outside a town it applies the `country land` index
-  with no multiplier. `[USER-DIRECTION:2026-11-15]`
-- The earlier code (ex-15 @ 6bda048) used one base for both types, tested
-  `get_city_threshold_size()` before `get_capital_threshold_size()` so the ×6 capital branch
-  was unreachable, and used the country base for city wayleaves. The other agent has fixed
-  both defects; the multipliers remain. `[CODE simutrans-extended ex-15 @ 6bda048]`
+- The engine reads `cost_buy_land` for country land and `cost_buy_city_land` for land inside
+  towns; the C++ fields are `cst_buy_land` and `cst_buy_city_land`. Inside a town the city
+  base is multiplied by 6 (capital), 4 (city) or 3 (town) before applying the `city land`
+  index; outside a town the `country land` index applies with no multiplier. The same
+  multiplied city base feeds the wayleave deduction on elevated or underground ways.
+  `[CODE simutrans-extended ex-15 @ 0d41455e]`
+- The city land cost is stored in saves from Extended 15.15. Older saves load with the city
+  cost equal to the country cost, and a pakset that sets only `cost_buy_land` mirrors it into
+  the city cost. `[CODE simutrans-extended ex-15 @ 0d41455e]`
+- `simuconf.tab` carries `cost_buy_land=1500` and `cost_buy_city_land=2625`. The city base is
+  set for a reference multiplier of 4: 1500 × 7 ÷ 4 = 2625. With the capital/city/town
+  multipliers of 6/4/3, the 1900 urban/farmland ratio is about 10.5:1 for a capital, 7:1 for
+  a city and 5.25:1 for a town. Both price types stay at the 1900=100 convention.
   `[USER-DIRECTION:2026-11-15]`
-- `simuconf.tab` carries `cost_buy_land=1500` and `cost_buy_land_city=2625`. The city base is
-  set for a reference multiplier of 4: 1500 × 7 ÷ 4 = 2625. With the town/city/capital
-  multipliers of 3/4/6, the 1900 urban/farmland ratio is about 7:1 for a city, 5.25:1 for a
-  town and 10.5:1 for a capital. Both price types stay at the 1900=100 convention.
-  `[USER-DIRECTION:2026-11-15]`
-- The value 2625 assumes the multipliers remain and are applied to `cost_buy_land_city`. If
+- The value 2625 assumes the multipliers remain and are applied to `cost_buy_city_land`. If
   they are removed, the city base must be 10500 instead. Both values are provisional against
   the `meters_per_tile` scaling and the per-tile land model. Do not change either 1900 anchor
   while the per-tile land model is outstanding. `[USER-DIRECTION:2026-11-15]`
@@ -198,7 +198,7 @@ rate and the real price for a year, should reproduce the entered value.
 - 1995-2025 uses the ONS series "Land underlying dwellings" (AN.21111, current prices).
   `[LITERATURE:https://www.ons.gov.uk/economy/nationalaccounts/uksectoraccounts/adhocs/3709-landunderlyingcultivationbuildingsandstructuresestimatesfrom1995to2025]`
 - The series is an average urban land price. The engine applies its own ×3 (town), ×4 (city)
-  and ×6 (capital) multipliers to the base, so `cost_buy_land_city` is set for the ×4 city
+  and ×6 (capital) multipliers to the base, so `cost_buy_city_land` is set for the ×4 city
   reference; see the engine change section.
 - Before 1900 the 1900 real level is held. After 2025 the 2025 real level is held and grown
   with `general` to 2050.
@@ -260,7 +260,7 @@ engine models land value per tile.
 - Confirm from the engine source which `.dat` fields each price type scales, especially the
   split between vehicle purchase and vehicle maintenance.
 - Confirm that `city land` applies inside town boundaries and `country land` outside.
-- Confirm the `meters_per_tile` scaling of `cost_buy_land` and `cost_buy_land_city` before
+- Confirm the `meters_per_tile` scaling of `cost_buy_land` and `cost_buy_city_land` before
   the per-tile land model replaces the index. The base split carries the 1900 urban/farmland
   ratio; the absolute land levels still depend on that scaling.
 - Do `cost_multiply_station`, `cost_multiply_dock` and the depot costs follow `buildings` or

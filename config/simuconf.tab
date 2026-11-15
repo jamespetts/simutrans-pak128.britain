@@ -853,13 +853,15 @@ cost_alter_land=8000
 cost_reclaim_land=100000
 cost_set_slope=25000
 cost_remove_tree=50
-# Land purchase. cost_buy_land is the country/default value; cost_buy_land_city
-# is the town value. Both land series in prices.tab are based at 1900 = 100.
-# The engine applies a city-size multiplier after the city base (x3 town,
-# x4 city, x6 capital), so the city base is set for a reference multiplier of 4:
+# Land purchase. cost_buy_land is the country/default value; cost_buy_city_land
+# is the town value. If cost_buy_city_land is omitted, the engine uses
+# cost_buy_land for city land. The city cost is stored in saves from Extended
+# 15.15. Both land series in prices.tab are based at 1900 = 100. The engine
+# applies a city-size multiplier after the city base (x3 town, x4 city,
+# x6 capital), so the city base is set for a reference multiplier of 4:
 # 1500 * 7 / 4 = 2625. This gives a 1900 urban/farmland ratio of about 7:1.
 cost_buy_land=1500
-cost_buy_land_city=2625
+cost_buy_city_land=2625
 cost_multiply_remove_haus=500
 cost_multiply_remove_field=40000
 

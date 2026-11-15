@@ -1,6 +1,6 @@
 ---
 status: draft
-verified: New master @ 4fffcc19e
+verified: New ex-15 @ a121495ca (working tree)
 ---
 # Pakset compatibility
 
@@ -31,6 +31,15 @@ compatibility, and the restrictions on changing them.
 - Scope limit: `compat.tab` contains name pairs only. It contains no capacity, constraint, price,
   or intro/retire date logic; value changes are outside its scope.
   `[CODE New master @ 4fffcc19e]`
+
+## Land purchase cost split (Extended 15.15)
+
+- `settings_t::cst_buy_city_land` is stored in saves from Extended 15.15. Older saves load
+  with the city cost equal to the country cost. A pakset that sets only `cost_buy_land`
+  mirrors it into the city cost. `[CODE simutrans-extended ex-15 @ 0d41455e]`
+- The pakset sets `cost_buy_land=1500` and `cost_buy_city_land=2625` in `simuconf.tab`; the
+  city value is the base before the engine's ×3/×4/×6 city-size multiplier.
+  `[CODE New ex-15 @ a121495ca]`
 
 ## Planned sections
 

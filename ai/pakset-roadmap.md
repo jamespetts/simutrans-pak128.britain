@@ -1,6 +1,6 @@
 ---
 status: draft
-verified: New ex-15 @ 937d464a9 (working tree; Anglia completion checked 2026-11-15)
+verified: New ex-15 @ a121495ca (working tree)
 ---
 # Pakset roadmap
 
@@ -62,10 +62,10 @@ for new engine features.
 
 ## Completed work
 
-- Engine land base split: `cost_buy_land_city` added for city land, the ×6 capital branch
+- Engine land base split: `cost_buy_city_land` added for city land, the ×6 capital branch
   corrected and city wayleaves moved to the city base by the other agent. The pakset carries
-  `cost_buy_land=1500` and `cost_buy_land_city=2625`; see [prices-config](prices-config.md).
-  `[USER-DIRECTION:2026-11-15]`
+  `cost_buy_land=1500` and `cost_buy_city_land=2625`; see [prices-config](prices-config.md).
+  `[CODE simutrans-extended ex-15 @ 0d41455e]` `[USER-DIRECTION:2026-11-15]`
 - `city land` and `country land` price series added to `config/prices.tab`. Country land uses
   the Savills England farmland series 1900-2024; city land uses the ONS UK land under
   dwellings series 1995-2025 chained to the JST UK house price index for 1900-1995. Method,
