@@ -17,6 +17,13 @@ for new engine features.
 
 ## Planned work
 
+- Re-do citycar geometry that was built from text descriptions (dimension tables) using
+  direct photographic reference, per the hard rule and
+  [graphics/visual-asset-controls](graphics/visual-asset-controls.md): Ford Fiesta Mk1–Mk7,
+  `BMC1100`, Ford Escort Mk2, and the Vauxhall Corsa family (`VauxhallNova`–`VauxhallCorsaF`).
+  Deferred 2026-11-15 by the user as acceptable at low resolution for now — flagged to be
+  redone later. The Ford Anglia 100E/105E rework is the active item.
+  `[USER-DIRECTION:2026-11-15]`
 - Rebase all private-car `DistributionWeight` values to the anchor principle (most popular car
   on the road at a given time = 100, assuming 5 colourways; inverse scaling for fewer
   colourways), using the parc research in
