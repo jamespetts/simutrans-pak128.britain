@@ -1,6 +1,6 @@
 ---
 status: draft
-verified: New master @ 30444805f
+verified: New ex-15 @ 66e9c2dfd
 ---
 # Blender MCP
 
@@ -39,8 +39,24 @@ it. Current status of AI-authored geometry and the failure record that motivates
 - **Never trust a global bbox as proof of model correctness.** Cuboid-positioned parts
   survived a mesh-only scale (floating ~3.5 m ahead of the car) while the global bbox
   passed. The reusable gates are: per-object attachment check vs the hull bbox, and
-  post-render connected-cluster analysis of all non-transparent pixels (8/8 must be one
-  cluster).
+  post-render connected-cluster analysis of all non-transparent pixels. The "8/8 must be
+  one cluster" form of the latter is not reliable at pak scale: the accepted A4 renders
+  themselves split into 2–3 clusters in NW/SE. Use cluster counts as a diagnostic against
+  a known-good baseline, not as a pass/fail gate ([geometry-pitfalls](geometry-pitfalls.md)).
+- **`save_as_mainfile` destroys the window context for the rest of the call.**
+  `bpy.ops.wm.collada_export` then fails with `poll() failed, context is incorrect`, and
+  `bpy.context.window` can be `None`. Build and save in one `execute_blender_code` call,
+  then export in a fresh call. Multi-model loops that save and export in the same call fail
+  on the first export. `[EXECUTION-VERIFIED:2026-11-15]`
+- **`look` needs `mode: "angles"` to choose a view.** With `mode: "viewport"` the `view`
+  and `distance` parameters are ignored and every call returns the same user viewport.
+  `mode: "angles"` with `views: ["front","right","three_quarter","top"]` and a `distance`
+  gives a labelled multi-view tile. `[EXECUTION-VERIFIED:2026-11-15]`
+- **The connection drops when Blender 4.5 exits**, whether closed by the user or crashed.
+  The addon reports `Connection to Blender lost` and every later call returns
+  `Not connected to Blender`. Relaunch 4.5 (with the master file) and wait for port 9876
+  to listen again; the MCP server reconnects without restarting OpenCode.
+  `[EXECUTION-VERIFIED:2026-11-15]`
 
 ## Why this route is favoured
 

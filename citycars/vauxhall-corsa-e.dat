@@ -1,0 +1,92 @@
+# https://en.wikipedia.org/wiki/Opel_Corsa
+# Vauxhall Corsa E: orders opened October 2014, first UK deliveries January
+# 2015; production 2014-2019. UK registrations 94,211 (2015), 79,955 (2016).
+#
+# Colours: Summit White, Mineral Black, Asteroid Grey, Darkmoon Blue. These are
+# the four largest DVSA shares for 2015-2019 registrations: white 18-22%, black
+# 19-20%, grey 16-23%, blue 15-17%. Red (10-13%) is the next colour and is not
+# modelled. Paint names are Vauxhall marketing names for the approximate shades;
+# the render values are approximations, not paint codes.
+#
+# Dates are staggered per colour. Weights total 48 against the Focus's 99.
+
+obj=citycar
+name=VauxhallCorsaE(White)
+copyright=JamesPetts
+
+DistributionWeight=13
+intro_year=2015
+intro_month=1
+retire_year=2029
+retire_month=12
+speed=140
+
+Image[E]=./images/vauxhall-corsa-e-white_E.0.0,-33,14
+Image[SE]=./images/vauxhall-corsa-e-white_SE.0.0,-13,0
+Image[S]=./images/vauxhall-corsa-e-white_S.0.0,0,0
+Image[SW]=./images/vauxhall-corsa-e-white_SW.0.0,-8,10
+Image[W]=./images/vauxhall-corsa-e-white_W.0.0,4,5
+Image[NW]=./images/vauxhall-corsa-e-white_NW.0.0,12,10
+Image[N]=./images/vauxhall-corsa-e-white_N.0.0,0,33
+Image[NE]=./images/vauxhall-corsa-e-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallCorsaE(Black)
+copyright=JamesPetts
+
+DistributionWeight=13
+intro_year=2015
+intro_month=1
+retire_year=2029
+retire_month=12
+speed=140
+
+Image[E]=./images/vauxhall-corsa-e-black_E.0.0,-33,14
+Image[SE]=./images/vauxhall-corsa-e-black_SE.0.0,-13,0
+Image[S]=./images/vauxhall-corsa-e-black_S.0.0,0,0
+Image[SW]=./images/vauxhall-corsa-e-black_SW.0.0,-8,10
+Image[W]=./images/vauxhall-corsa-e-black_W.0.0,4,5
+Image[NW]=./images/vauxhall-corsa-e-black_NW.0.0,12,10
+Image[N]=./images/vauxhall-corsa-e-black_N.0.0,0,33
+Image[NE]=./images/vauxhall-corsa-e-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallCorsaE(Grey)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=2015
+intro_month=1
+retire_year=2032
+retire_month=12
+speed=140
+
+Image[E]=./images/vauxhall-corsa-e-grey_E.0.0,-33,14
+Image[SE]=./images/vauxhall-corsa-e-grey_SE.0.0,-13,0
+Image[S]=./images/vauxhall-corsa-e-grey_S.0.0,0,0
+Image[SW]=./images/vauxhall-corsa-e-grey_SW.0.0,-8,10
+Image[W]=./images/vauxhall-corsa-e-grey_W.0.0,4,5
+Image[NW]=./images/vauxhall-corsa-e-grey_NW.0.0,12,10
+Image[N]=./images/vauxhall-corsa-e-grey_N.0.0,0,33
+Image[NE]=./images/vauxhall-corsa-e-grey_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallCorsaE(Blue)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=2015
+intro_month=1
+retire_year=2031
+retire_month=6
+speed=140
+
+Image[E]=./images/vauxhall-corsa-e-blue_E.0.0,-33,14
+Image[SE]=./images/vauxhall-corsa-e-blue_SE.0.0,-13,0
+Image[S]=./images/vauxhall-corsa-e-blue_S.0.0,0,0
+Image[SW]=./images/vauxhall-corsa-e-blue_SW.0.0,-8,10
+Image[W]=./images/vauxhall-corsa-e-blue_W.0.0,4,5
+Image[NW]=./images/vauxhall-corsa-e-blue_NW.0.0,12,10
+Image[N]=./images/vauxhall-corsa-e-blue_N.0.0,0,33
+Image[NE]=./images/vauxhall-corsa-e-blue_NE.0.0,0,24
+

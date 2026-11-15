@@ -66,13 +66,20 @@ analysis).
 
 - **MCP has been shown to be the only process that works to any extent.**
   `[USER-DIRECTION:2026-11-15]`
-- **As of 2026-11-15 the extent to which it works is somewhat uncertain.** One end-to-end
-  run exists (an Audi A4 B6 saloon taken through geometry, six colour variants, render and
-  makeobj compile into a private car; [photo-to-pak-pipeline](photo-to-pak-pipeline.md)).
-  Whether the procedure holds on other classes, on modify-existing geometry, and at
-  unattended quality without the user's active participation is untested. This section is
-  to be reviewed and updated by the AI when the effectiveness is more clearly established.
-  `[USER-DIRECTION:2026-11-15]`
+- **Two end-to-end runs now exist.** The first (2026-11-14/15) was an Audi A4 B6 saloon
+  taken through geometry, six colour variants, render and makeobj compile into a private
+  car ([photo-to-pak-pipeline](photo-to-pak-pipeline.md)). The second (2026-11-15) was a
+  six-generation Vauxhall Corsa family (Nova/Corsa A to Corsa F, 24 citycar objects),
+  built from a parametric dimension table (`car_builder.py`), rendered at eight views per
+  colour, compiled into `citycars.pak`, and loaded by the debug engine in a
+  `-generate_map` run that printed `MAP-GEN: PASS`. This was the first multi-model run
+  without the user participating in the geometry loop. It also exposed three recurring
+  geometry faults, now recorded with fixes in [geometry-pitfalls](geometry-pitfalls.md).
+  `[EXECUTION-VERIFIED:2026-11-15]`
+- **What remains untested**: citycar spawning and image alignment in a running game
+  session. `-generate_map` proves the pakset loads and the world initialises; it does not
+  advance time far enough for private cars to appear. The image offset table and the
+  in-game look of the Corsa and A4 images are still unverified.
 - The pre-MCP procedure is superseded: its failures survived every check it had, because it
   could not see the model it was building. Its error categories remain a useful checklist of
   geometry mistakes ([error-categories-pre-mcp](error-categories-pre-mcp.md)).
@@ -82,10 +89,29 @@ analysis).
   ([citycar](../objects/citycar.md)). Ships still need per-task treatment. Aircraft values
   do not transfer to ground classes.
 
+## Tooling
+
+- `Git Blends/Pak128.Britain-blends/car_builder.py` — parametric low-poly car builder.
+  `SPECS` holds one dict per generation (length, width, height, wheelbase, belt/bonnet/roof
+  heights, screen stations, wheel size, bumper material, lamp sizes). `build(name)` creates
+  the 15-object assembly in metres; `export_pak_dae()` applies the pak axis factors, writes
+  the `.dae`, and reloads the metres master. The geometry rules it encodes (non-coplanar
+  appliqués, local taper for lamps, wheel/arch clearances) are in
+  [geometry-pitfalls](geometry-pitfalls.md).
+- `Git Blends/Pak128.Britain-blends/stageB_car_prepare.py` and `stageB_car_render.py` —
+  the 2.79 half of the car pipeline: import/place/attachment-check/save, then render the
+  eight views for each paint colour from a JSON colour list. Translate-only; never scale
+  in 2.79.
+- `execute_blender_code` runs in a context that loses its window after
+  `save_as_mainfile`. Build and save in one call, then call `export_pak_dae()` in a fresh
+  call; a save followed by `collada_export` in the same call fails with
+  `poll() failed, context is incorrect` ([blender-mcp](blender-mcp.md)).
+
 ## Related docs
 
 - [photo-to-pak-pipeline](photo-to-pak-pipeline.md) — the recorded MCP run, rules, and lessons.
 - [blender-mcp](blender-mcp.md) — the MCP environment, dispatch workaround, session findings.
+- [geometry-pitfalls](geometry-pitfalls.md) — z-fighting, lamp placement and wheel/arch faults found in the first Corsa build, with fixes.
 - [error-categories-pre-mcp](error-categories-pre-mcp.md) — historical error checklist.
 - [blend-creation](blend-creation.md) — status and failure record entries still relevant.
 - [blender-rendering](blender-rendering.md) — 2.79 render workflow and placement records.

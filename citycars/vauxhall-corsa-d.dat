@@ -1,0 +1,92 @@
+# https://en.wikipedia.org/wiki/Opel_Corsa
+# Vauxhall Corsa D: launched in the UK in October 2006; production to 2014.
+# UK registrations 72,584 (2006) to 101,828 (2008), consistently a UK top-three
+# seller and the country's best-selling supermini for much of the run.
+#
+# Colours: Black Sapphire, Star Silver, Metro Blue, Technical Grey. These are
+# the four largest DVSA shares for 2006-2014 registrations: black 20-23%,
+# silver 21-30%, blue 17-23%, grey 13-15%. Paint names are Vauxhall marketing
+# names for the approximate shades; the render values are approximations.
+#
+# Dates are staggered per colour. Weights total 55 against the Focus's 99.
+
+obj=citycar
+name=VauxhallCorsaD(Black)
+copyright=JamesPetts
+
+DistributionWeight=15
+intro_year=2006
+intro_month=10
+retire_year=2022
+retire_month=12
+speed=135
+
+Image[E]=./images/vauxhall-corsa-d-black_E.0.0,-33,14
+Image[SE]=./images/vauxhall-corsa-d-black_SE.0.0,-13,0
+Image[S]=./images/vauxhall-corsa-d-black_S.0.0,0,0
+Image[SW]=./images/vauxhall-corsa-d-black_SW.0.0,-8,10
+Image[W]=./images/vauxhall-corsa-d-black_W.0.0,4,5
+Image[NW]=./images/vauxhall-corsa-d-black_NW.0.0,12,10
+Image[N]=./images/vauxhall-corsa-d-black_N.0.0,0,33
+Image[NE]=./images/vauxhall-corsa-d-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallCorsaD(Silver)
+copyright=JamesPetts
+
+DistributionWeight=17
+intro_year=2006
+intro_month=10
+retire_year=2020
+retire_month=6
+speed=135
+
+Image[E]=./images/vauxhall-corsa-d-silver_E.0.0,-33,14
+Image[SE]=./images/vauxhall-corsa-d-silver_SE.0.0,-13,0
+Image[S]=./images/vauxhall-corsa-d-silver_S.0.0,0,0
+Image[SW]=./images/vauxhall-corsa-d-silver_SW.0.0,-8,10
+Image[W]=./images/vauxhall-corsa-d-silver_W.0.0,4,5
+Image[NW]=./images/vauxhall-corsa-d-silver_NW.0.0,12,10
+Image[N]=./images/vauxhall-corsa-d-silver_N.0.0,0,33
+Image[NE]=./images/vauxhall-corsa-d-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallCorsaD(Blue)
+copyright=JamesPetts
+
+DistributionWeight=14
+intro_year=2006
+intro_month=10
+retire_year=2024
+retire_month=12
+speed=135
+
+Image[E]=./images/vauxhall-corsa-d-blue_E.0.0,-33,14
+Image[SE]=./images/vauxhall-corsa-d-blue_SE.0.0,-13,0
+Image[S]=./images/vauxhall-corsa-d-blue_S.0.0,0,0
+Image[SW]=./images/vauxhall-corsa-d-blue_SW.0.0,-8,10
+Image[W]=./images/vauxhall-corsa-d-blue_W.0.0,4,5
+Image[NW]=./images/vauxhall-corsa-d-blue_NW.0.0,12,10
+Image[N]=./images/vauxhall-corsa-d-blue_N.0.0,0,33
+Image[NE]=./images/vauxhall-corsa-d-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallCorsaD(Grey)
+copyright=JamesPetts
+
+DistributionWeight=9
+intro_year=2008
+intro_month=4
+retire_year=2026
+retire_month=12
+speed=135
+
+Image[E]=./images/vauxhall-corsa-d-grey_E.0.0,-33,14
+Image[SE]=./images/vauxhall-corsa-d-grey_SE.0.0,-13,0
+Image[S]=./images/vauxhall-corsa-d-grey_S.0.0,0,0
+Image[SW]=./images/vauxhall-corsa-d-grey_SW.0.0,-8,10
+Image[W]=./images/vauxhall-corsa-d-grey_W.0.0,4,5
+Image[NW]=./images/vauxhall-corsa-d-grey_NW.0.0,12,10
+Image[N]=./images/vauxhall-corsa-d-grey_N.0.0,0,33
+Image[NE]=./images/vauxhall-corsa-d-grey_NE.0.0,0,24
+

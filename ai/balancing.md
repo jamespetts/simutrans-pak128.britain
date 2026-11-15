@@ -13,6 +13,7 @@ be economically and historically realistic.
   to work ([../../AGENTS.md](../../AGENTS.md)). Read this doc before tuning any value, and read
   [high-level-design-goals](high-level-design-goals.md) first.
 - Passenger, mail and accommodation classes: [class](class.md).
+- Private-car colours and their relative `DistributionWeight` split: [objects/citycar](objects/citycar.md#colour-rule).
 - The main source of pricing information is the forum thread "A snippet of relative pricing
   information": https://forum.simutrans.com/index.php/topic,6521.0.html
    `[FORUM:https://forum.simutrans.com/index.php/topic,6521.0.html]`. It collects historical British

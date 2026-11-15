@@ -17,6 +17,12 @@ for new engine features.
 
 ## Planned work
 
+- Rebase all private-car `DistributionWeight` values to the anchor principle (most popular car
+  on the road at a given time = 100, assuming 5 colourways; inverse scaling for fewer
+  colourways), using the parc research in
+  [objects/citycar-parc-anchors](objects/citycar-parc-anchors.md), and decide whether to add
+  the missing anchor models the research identified (Ford Fiesta, BMC 1100/1300, possibly a
+  Morris Cowley). `[USER-DIRECTION:2026-11-15]`
 - Convert all remaining graphics from the old special-colour background to anti-aliased alpha
   transparency. Many graphics still use the old system, and the aim is to convert all of them. See
   [image-layout](graphics/image-layout.md) and [blender-rendering](graphics/blender-rendering.md).

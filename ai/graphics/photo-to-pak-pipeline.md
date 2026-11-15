@@ -41,9 +41,12 @@ out of Blender). AI reading of renders is displaced for *iteration* by user dire
   cannot separate parts.
 - Render: 8 road views via `render_SimutransRender_pak128Britain-65.py` with `op_list="1"`,
   `image_name="audi-a4-b6"`; outputs moved to `ai/temp/audi-a4-b6-views/`.
-- Numeric checks: 8/8 views are a **single connected non-transparent pixel cluster**
-  (75–105 px per view; front-on and rear-on ≈ 99/102 px; end views ≈ 75–78 px);
-  transparent background everywhere. Small sizes expected at pak scale.
+- Numeric checks: the original run recorded 8/8 views as a single connected non-transparent
+  pixel cluster (75–105 px per view; front-on and rear-on ≈ 99/102 px; end views ≈ 75–78 px);
+  transparent background everywhere. **Correction (2026-11-15):** re-analysis of the same
+  images gives NW = 3 clusters and SE = 2, with the other six views single; the "8/8" claim is
+  not reproducible and the gate is unreliable at this scale
+  ([geometry-pitfalls](geometry-pitfalls.md)). Small sizes expected at pak scale.
   `[EXECUTION-VERIFIED:2026-11-15]`
 - Earlier failure worth remembering: an attempt to scale inside 2.79 baked scale into
   meshes but left cuboid LOCATIONS in metres (lamps floated ~3.5 m ahead of the car) while

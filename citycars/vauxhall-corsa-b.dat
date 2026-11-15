@@ -1,0 +1,95 @@
+# https://en.wikipedia.org/wiki/Opel_Corsa
+# Vauxhall Corsa B: the first UK Corsa after the Nova name was dropped.
+# UK launch 14 April 1993; production 1993-2000. UK registrations rose from
+# 51,608 (1993) to 86,779 (1999), consistently in the UK top ten.
+#
+# Colours: Estate Blue, Star Silver, Flame Red, Green. DVSA 1993-2000 shares:
+# blue 23-25%, silver 9-25% rising, red 15-23%; green sits in the 20-25%
+# "other" group and is retained as the signature 1990s colour. These four are
+# the era-adjusted top set; black was the next measured colour at 8-9%.
+# Paint names are Vauxhall marketing names for the approximate shades; the
+# render values are approximations, not paint codes.
+#
+# Dates are staggered per colour by observed road presence. Weights total 50,
+# about half the Escort Mk4's 100, matching the sales ratio.
+
+obj=citycar
+name=VauxhallCorsaB(Blue)
+copyright=JamesPetts
+
+DistributionWeight=16
+intro_year=1993
+intro_month=4
+retire_year=2008
+retire_month=12
+speed=120
+
+Image[E]=./images/vauxhall-corsa-b-blue_E.0.0,-33,14
+Image[SE]=./images/vauxhall-corsa-b-blue_SE.0.0,-13,0
+Image[S]=./images/vauxhall-corsa-b-blue_S.0.0,0,0
+Image[SW]=./images/vauxhall-corsa-b-blue_SW.0.0,-8,10
+Image[W]=./images/vauxhall-corsa-b-blue_W.0.0,4,5
+Image[NW]=./images/vauxhall-corsa-b-blue_NW.0.0,12,10
+Image[N]=./images/vauxhall-corsa-b-blue_N.0.0,0,33
+Image[NE]=./images/vauxhall-corsa-b-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallCorsaB(Silver)
+copyright=JamesPetts
+
+DistributionWeight=13
+intro_year=1996
+intro_month=9
+retire_year=2011
+retire_month=12
+speed=120
+
+Image[E]=./images/vauxhall-corsa-b-silver_E.0.0,-33,14
+Image[SE]=./images/vauxhall-corsa-b-silver_SE.0.0,-13,0
+Image[S]=./images/vauxhall-corsa-b-silver_S.0.0,0,0
+Image[SW]=./images/vauxhall-corsa-b-silver_SW.0.0,-8,10
+Image[W]=./images/vauxhall-corsa-b-silver_W.0.0,4,5
+Image[NW]=./images/vauxhall-corsa-b-silver_NW.0.0,12,10
+Image[N]=./images/vauxhall-corsa-b-silver_N.0.0,0,33
+Image[NE]=./images/vauxhall-corsa-b-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallCorsaB(Red)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=1993
+intro_month=4
+retire_year=2010
+retire_month=6
+speed=120
+
+Image[E]=./images/vauxhall-corsa-b-red_E.0.0,-33,14
+Image[SE]=./images/vauxhall-corsa-b-red_SE.0.0,-13,0
+Image[S]=./images/vauxhall-corsa-b-red_S.0.0,0,0
+Image[SW]=./images/vauxhall-corsa-b-red_SW.0.0,-8,10
+Image[W]=./images/vauxhall-corsa-b-red_W.0.0,4,5
+Image[NW]=./images/vauxhall-corsa-b-red_NW.0.0,12,10
+Image[N]=./images/vauxhall-corsa-b-red_N.0.0,0,33
+Image[NE]=./images/vauxhall-corsa-b-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallCorsaB(Green)
+copyright=JamesPetts
+
+DistributionWeight=9
+intro_year=1993
+intro_month=4
+retire_year=2006
+retire_month=12
+speed=120
+
+Image[E]=./images/vauxhall-corsa-b-green_E.0.0,-33,14
+Image[SE]=./images/vauxhall-corsa-b-green_SE.0.0,-13,0
+Image[S]=./images/vauxhall-corsa-b-green_S.0.0,0,0
+Image[SW]=./images/vauxhall-corsa-b-green_SW.0.0,-8,10
+Image[W]=./images/vauxhall-corsa-b-green_W.0.0,4,5
+Image[NW]=./images/vauxhall-corsa-b-green_NW.0.0,12,10
+Image[N]=./images/vauxhall-corsa-b-green_N.0.0,0,33
+Image[NE]=./images/vauxhall-corsa-b-green_NE.0.0,0,24
+
