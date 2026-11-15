@@ -81,8 +81,11 @@ the Evidence column and listed with full references at the end.
    `morris-oxford-flatnose.dat`. User ratification outstanding (open question below).
 4. **1950 is unresolvable** from published sources; its likely candidates are all present, so
    the anchor for that era has to be fixed by mutual scaling instead.
-5. Absent but relevant to surrounding traffic density (never an anchor row): Ford Anglia, Ford
-   Escort Mk2, Vauxhall Cavalier/Astra/Corsa, VW Beetle/Golf.
+5. Absent but relevant to surrounding traffic density (never an anchor row): done — Vauxhall
+   Corsa family (2026-11-15, `VauxhallNova`/`VauxhallCorsaB`–`F`) and Ford Anglia (2026-11-15,
+   `FordAnglia100E`/`FordAnglia105E`; the earlier E04A/E494A Anglias are represented by
+   `FordPrefectEarly`, same body family). Remaining: Ford Escort Mk2, Vauxhall Cavalier,
+   Vauxhall Astra, VW Beetle, VW Golf.
 
 ## Sources
 
@@ -141,6 +144,10 @@ the Evidence column and listed with full references at the end.
   Morris Oxford Six), or should a separate Cowley object be added? Interim decision 2026-11-15:
   yes, both Oxford models stand for the Cowley (representation comments added to the `.dat`
   files); user ratification outstanding.
+- Should `FordPrefectEarly` stand for the E04A/E494A Ford Anglia as well (same body family;
+  only door count differs, which the pak-scale model does not express)? Interim decision
+  2026-11-15: yes (representation comment added to `ford-prefect-early.dat`); user
+  ratification outstanding.
 - 1935: Cowley vs Austin Seven cannot be resolved from the sources found. A period census or
   registration record could settle it; none was found.
 - 2000: the ranking flips if car-derived vans are counted with the model (Escort first) instead
