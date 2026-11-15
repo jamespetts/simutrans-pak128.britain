@@ -1,0 +1,65 @@
+# Douglas DC-8-10 in Douglas demonstrator livery (N8008D)
+# https://en.wikipedia.org/wiki/Douglas_DC-8
+obj=vehicle
+name=douglas-dc-8-10
+copyright=James
+waytype=air
+engine_type=turbine
+# Mach 0.82 cruise
+# https://en.wikipedia.org/wiki/Douglas_DC-8
+speed=895
+# Thrust-ratio from the 707-420 precedent (closest kin); see open questions.
+power=43724
+# 4x 13,500 lbf JT3C-6
+tractive_effort=240
+freight=Passagiere
+payload[0]=0
+payload[1]=0
+payload[2]=120
+payload[3]=0
+payload[4]=24
+# OEW 119,797 lb
+# https://en.wikipedia.org/wiki/Douglas_DC-8
+weight=54.3
+#length=8
+# Per-seat scaled from 1958-59 Comet/Caravelle precedents; see open questions.
+cost=36000000
+runningcost=350
+# Top of precedent band for size; see open questions.
+fixed_cost=62000
+intro_year=1959
+intro_month=9
+retire_year=1965
+retire_month=6
+
+comfort[0]=0
+comfort[1]=0
+comfort[2]=140
+comfort[3]=0
+comfort[4]=175
+min_loading_time=2400
+max_loading_time=2400
+
+catering_level=4
+
+# https://mail.1000aircraftphotos.com/Contributions/VossJohn/10112.htm
+minimum_runway_length=2990
+
+sound=robin-pinnock-bac-1-11.wav
+# 3,760 nmi
+# https://en.wikipedia.org/wiki/Douglas_DC-8
+range=6960
+
+Constraint[Next][0]=none
+Constraint[Prev][0]=none
+
+liverytype[0]=Private-operator
+
+EmptyImage[E][0]=../images/dc-8-10_E.0.0,-20,-44
+EmptyImage[SE][0]=../images/dc-8-10_SE.0.0,-31,-41
+EmptyImage[S][0]=../images/dc-8-10_S.0.0,-46,-47
+EmptyImage[SW][0]=../images/dc-8-10_SW.0.0,-22,-47
+EmptyImage[W][0]=../images/dc-8-10_W.0.0,-14,-44
+EmptyImage[NW][0]=../images/dc-8-10_NW.0.0,-31,-16
+EmptyImage[N][0]=../images/dc-8-10_N.0.0,-48,-41
+EmptyImage[NE][0]=../images/dc-8-10_NE.0.0,-19,-46
