@@ -79,6 +79,7 @@
     <None Include="air\air192\boeing-787-10.dat" />
     <None Include="air\air192\boeing-787-8.dat" />
     <None Include="air\air192\boeing-787-9.dat" />
+    <None Include="air\air192\douglas-dc-8-10.dat" />
     <None Include="air\air192\lockheed-tristar-1.dat" />
     <None Include="air\air192\lockheed-tristar-200.dat" />
     <None Include="air\air192\lockheed-tristar-500.dat" />
@@ -1207,6 +1208,7 @@
     <None Include="trains\bury-bar-frame-goods.dat" />
     <None Include="trains\bury-bar-frame-passenger.dat" />
     <None Include="trains\ger-belpaire-claud.dat" />
+    <None Include="trains\ger-s69.dat" />
     <None Include="trains\ger-super-claud.dat" />
     <None Include="trains\gjr-4wheel-tpo.dat" />
     <None Include="trains\gjr-bed-carriage.dat" />
