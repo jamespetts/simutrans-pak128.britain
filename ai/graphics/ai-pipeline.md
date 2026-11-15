@@ -86,6 +86,7 @@ analysis).
   same day — the brand-defining rear shapes (105E reverse-rake window, 100E spare-wheel boot
   hump) had been omitted as "not readable at pak scale" ([geometry-pitfalls](geometry-pitfalls.md))
   — and a geometry rework is queued. Every numeric check had passed on the rejected renders.
+  The sixth (2026-11-15) was the Ford Escort Mk2 (5 colourways), subagent-executed.
   `[EXECUTION-VERIFIED:2026-11-15]` `[USER-DIRECTION:2026-11-15]`
 - **What remains untested**: citycar spawning and image alignment in a running game
   session. `-generate_map` proves the pakset loads and the world initialises; it does not

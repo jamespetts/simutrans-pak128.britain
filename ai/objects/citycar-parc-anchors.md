@@ -82,10 +82,10 @@ the Evidence column and listed with full references at the end.
 4. **1950 is unresolvable** from published sources; its likely candidates are all present, so
    the anchor for that era has to be fixed by mutual scaling instead.
 5. Absent but relevant to surrounding traffic density (never an anchor row): done — Vauxhall
-   Corsa family (2026-11-15, `VauxhallNova`/`VauxhallCorsaB`–`F`) and Ford Anglia (2026-11-15,
+   Corsa family (2026-11-15, `VauxhallNova`/`VauxhallCorsaB`–`F`), Ford Anglia (2026-11-15,
    `FordAnglia100E`/`FordAnglia105E`; the earlier E04A/E494A Anglias are represented by
-   `FordPrefectEarly`, same body family). Remaining: Ford Escort Mk2, Vauxhall Cavalier,
-   Vauxhall Astra, VW Beetle, VW Golf.
+   `FordPrefectEarly`, same body family), and Ford Escort Mk2 (2026-11-15, `FordEscort-mk2`).
+   Remaining: Vauxhall Cavalier, Vauxhall Astra, VW Beetle, VW Golf.
 
 ## Sources
 
