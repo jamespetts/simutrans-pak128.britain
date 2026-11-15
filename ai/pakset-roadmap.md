@@ -17,6 +17,10 @@ for new engine features.
 
 ## Planned work
 
+- Complete the five price types that still fall back to `general` in `config/prices.tab`:
+  `goods rate`, `vehicle purchase`, `vehicle maintenance`, `buildings` and `infrastructure`.
+  Research sources, method and order: [prices-config](prices-config.md); source-recording
+  rule: [calibration-sources](calibration-sources.md). `[USER-DIRECTION:2026-11-15]`
 - Add the missing citycar assets listed in
   [objects/citycar-asset-gaps](objects/citycar-asset-gaps.md) — the comprehensive gap
   register (P1: Very-high luxury cars for 1922–1947 and 1989–2025; P2: entry cars including
@@ -58,6 +62,15 @@ for new engine features.
 
 ## Completed work
 
+- Engine land base split: `cost_buy_land_city` added for city land, the ×6 capital branch
+  corrected and city wayleaves moved to the city base by the other agent. The pakset carries
+  `cost_buy_land=1500` and `cost_buy_land_city=2625`; see [prices-config](prices-config.md).
+  `[USER-DIRECTION:2026-11-15]`
+- `city land` and `country land` price series added to `config/prices.tab`. Country land uses
+  the Savills England farmland series 1900-2024; city land uses the ONS UK land under
+  dwellings series 1995-2025 chained to the JST UK house price index for 1900-1995. Method,
+  sources and first-pass limitations: [prices-config](prices-config.md) and
+  [calibration-sources](calibration-sources.md). `[EXECUTION-VERIFIED:2026-11-15]`
 - Ford Anglia 100E/105E photographic geometry rework: the user accepted the replacement
   models and colour renders, including the corrected 100E boot. The replacement sprites
   are installed in the source tree and compiled into the local citycars pak. Accepted

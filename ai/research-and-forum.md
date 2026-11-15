@@ -23,6 +23,9 @@ and research material.
   similar) and historical folders. Some of it is useful for balancing research but none of it is
   authoritative; verify against the checked-out data before relying on it. Read it only during a
   documentation or balancing run, or when docs or prompts say so ([repo-map](repo-map.md)).
+- Every historically derived value must record its source. The rule, the required detail per
+  record, and the registry of datasets already in use are in
+  [calibration-sources](calibration-sources.md).
 
 ## Web search tooling and provider pricing (2026-11-15)
 
@@ -56,7 +59,6 @@ is needed. `[USER-DIRECTION:2026-11-15]`
 ## Planned sections
 
 - The kinds of historical data needed for balancing and where to find them.
-- How to record research sources and their reliability.
 - Which loose research files are worth indexing.
 
 ## Open questions
