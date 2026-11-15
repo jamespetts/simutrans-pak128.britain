@@ -67,7 +67,7 @@ analysis).
 
 - **MCP has been shown to be the only process that works to any extent.**
   `[USER-DIRECTION:2026-11-15]`
-- **Two end-to-end runs now exist.** The first (2026-11-14/15) was an Audi A4 B6 saloon
+- **Three end-to-end runs now exist.** The first (2026-11-14/15) was an Audi A4 B6 saloon
   taken through geometry, six colour variants, render and makeobj compile into a private
   car ([photo-to-pak-pipeline](photo-to-pak-pipeline.md)). The second (2026-11-15) was a
   six-generation Vauxhall Corsa family (Nova/Corsa A to Corsa F, 24 citycar objects),
@@ -76,7 +76,10 @@ analysis).
   `-generate_map` run that printed `MAP-GEN: PASS`. This was the first multi-model run
   without the user participating in the geometry loop. It also exposed three recurring
   geometry faults, now recorded with fixes in [geometry-pitfalls](geometry-pitfalls.md).
-  `[EXECUTION-VERIFIED:2026-11-15]`
+  The third (2026-11-15) was the Ford Fiesta family (Mk1–Mk7, 28 citycar objects), the
+  first run executed by delegated subagents (model DeepSeek V4.1 Flash) on the same
+  parametric pipeline; the user accepted its renders on 2026-11-15.
+  `[EXECUTION-VERIFIED:2026-11-15]` `[USER-DIRECTION:2026-11-15]`
 - **What remains untested**: citycar spawning and image alignment in a running game
   session. `-generate_map` proves the pakset loads and the world initialises; it does not
   advance time far enough for private cars to appear. The image offset table and the
