@@ -8,6 +8,8 @@ intro_month=8
 retire_year=1980
 retire_month=7
 speed=125
+maximum_comfortable_journey_minutes=55
+maximum_tolerable_journey_minutes=265
 
 Image[E]=./images/morris-marina-blue_E.0.0,-33,14
 Image[SE]=./images/morris-marina-blue_SE.0.0,-13,0
@@ -28,6 +30,8 @@ intro_month=8
 retire_year=1985
 retire_month=7
 speed=125
+maximum_comfortable_journey_minutes=55
+maximum_tolerable_journey_minutes=265
 
 Image[E]=./images/morris-marina-brown_E.0.0,-33,14
 Image[SE]=./images/morris-marina-brown_SE.0.0,-13,0
@@ -48,6 +52,8 @@ intro_month=3
 retire_year=1988
 retire_month=11
 speed=125
+maximum_comfortable_journey_minutes=55
+maximum_tolerable_journey_minutes=265
 
 Image[E]=./images/morris-marina-orange_E.0.0,-33,14
 Image[SE]=./images/morris-marina-orange_SE.0.0,-13,0
@@ -69,6 +75,8 @@ intro_month=8
 retire_year=1984
 retire_month=5
 speed=125
+maximum_comfortable_journey_minutes=55
+maximum_tolerable_journey_minutes=265
 
 Image[E]=./images/morris-marina-red_E.0.0,-33,14
 Image[SE]=./images/morris-marina-red_SE.0.0,-13,0
@@ -91,6 +99,8 @@ intro_month=8
 retire_year=1987
 retire_month=10
 speed=125
+maximum_comfortable_journey_minutes=55
+maximum_tolerable_journey_minutes=265
 
 Image[E]=./images/morris-marina-white_E.0.0,-33,14
 Image[SE]=./images/morris-marina-white_SE.0.0,-13,0

@@ -11,6 +11,8 @@ intro_month=8
 retire_year=2015
 retire_month=7
 speed=130
+maximum_comfortable_journey_minutes=115
+maximum_tolerable_journey_minutes=355
 
 Image[E]=./images/ford-galaxy-mk1-blue_E.0.0,-33,14
 Image[SE]=./images/ford-galaxy-mk1-blue_SE.0.0,-13,0
@@ -31,6 +33,8 @@ intro_month=4
 retire_year=2017
 retire_month=9
 speed=130
+maximum_comfortable_journey_minutes=115
+maximum_tolerable_journey_minutes=355
 
 Image[E]=./images/ford-galaxy-mk1-green_E.0.0,-33,14
 Image[SE]=./images/ford-galaxy-mk1-green_SE.0.0,-13,0
@@ -52,6 +56,8 @@ intro_month=2
 retire_year=2018
 retire_month=11
 speed=130
+maximum_comfortable_journey_minutes=115
+maximum_tolerable_journey_minutes=355
 
 Image[E]=./images/ford-galaxy-mk1-black_E.0.0,-33,14
 Image[SE]=./images/ford-galaxy-mk1-black_SE.0.0,-13,0
@@ -73,6 +79,8 @@ intro_month=12
 retire_year=2020
 retire_month=3
 speed=130
+maximum_comfortable_journey_minutes=115
+maximum_tolerable_journey_minutes=355
 
 Image[E]=./images/ford-galaxy-mk1-white_E.0.0,-33,14
 Image[SE]=./images/ford-galaxy-mk1-white_SE.0.0,-13,0
@@ -95,6 +103,8 @@ intro_month=9
 retire_year=2019
 retire_month=4
 speed=130
+maximum_comfortable_journey_minutes=115
+maximum_tolerable_journey_minutes=355
 
 Image[E]=./images/ford-galaxy-mk1-red_E.0.0,-33,14
 Image[SE]=./images/ford-galaxy-mk1-red_SE.0.0,-13,0
@@ -117,6 +127,8 @@ intro_month=8
 retire_year=2022
 retire_month=2
 speed=130
+maximum_comfortable_journey_minutes=115
+maximum_tolerable_journey_minutes=355
 
 Image[E]=./images/ford-galaxy-mk1-silver_E.0.0,-33,14
 Image[SE]=./images/ford-galaxy-mk1-silver_SE.0.0,-13,0

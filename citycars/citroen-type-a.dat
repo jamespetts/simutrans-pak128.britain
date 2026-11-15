@@ -9,6 +9,8 @@ intro_month=2
 retire_year=1921
 retire_month=12
 speed=65
+maximum_comfortable_journey_minutes=25
+maximum_tolerable_journey_minutes=220
 
 Image[E]=./images/citroen-type-a-blue_E.0.0,-33,14
 Image[SE]=./images/citroen-type-a-blue_SE.0.0,-13,0
@@ -30,6 +32,8 @@ intro_month=10
 retire_year=1923
 retire_month=8
 speed=65
+maximum_comfortable_journey_minutes=25
+maximum_tolerable_journey_minutes=220
 
 Image[E]=./images/citroen-type-a-red_E.0.0,-33,14
 Image[SE]=./images/citroen-type-a-red_SE.0.0,-13,0
@@ -51,6 +55,8 @@ intro_month=4
 retire_year=1925
 retire_month=5
 speed=65
+maximum_comfortable_journey_minutes=25
+maximum_tolerable_journey_minutes=220
 
 Image[E]=./images/citroen-type-a-white_E.0.0,-33,14
 Image[SE]=./images/citroen-type-a-white_SE.0.0,-13,0

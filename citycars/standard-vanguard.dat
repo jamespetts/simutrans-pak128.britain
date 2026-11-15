@@ -10,6 +10,8 @@ intro_month=3
 retire_year=1956
 retire_month=7
 speed=125
+maximum_comfortable_journey_minutes=65
+maximum_tolerable_journey_minutes=280
 
 Image[E]=./images/standard-vanguard-blue_E.0.0,-33,14
 Image[SE]=./images/standard-vanguard-blue_SE.0.0,-13,0
@@ -30,6 +32,8 @@ intro_month=4
 retire_year=1959
 retire_month=1
 speed=125
+maximum_comfortable_journey_minutes=65
+maximum_tolerable_journey_minutes=280
 
 Image[E]=./images/standard-vanguard-green_E.0.0,-33,14
 Image[SE]=./images/standard-vanguard-green_SE.0.0,-13,0
@@ -51,6 +55,8 @@ intro_month=8
 retire_year=1963
 retire_month=7
 speed=125
+maximum_comfortable_journey_minutes=65
+maximum_tolerable_journey_minutes=280
 
 Image[E]=./images/standard-vanguard-black_E.0.0,-33,14
 Image[SE]=./images/standard-vanguard-black_SE.0.0,-13,0
@@ -72,6 +78,8 @@ intro_month=3
 retire_year=1960
 retire_month=11
 speed=125
+maximum_comfortable_journey_minutes=65
+maximum_tolerable_journey_minutes=280
 
 Image[E]=./images/standard-vanguard-grey_E.0.0,-33,14
 Image[SE]=./images/standard-vanguard-grey_SE.0.0,-13,0
@@ -94,6 +102,8 @@ intro_month=11
 retire_year=1964
 retire_month=10
 speed=125
+maximum_comfortable_journey_minutes=65
+maximum_tolerable_journey_minutes=280
 
 Image[E]=./images/standard-vanguard-red_E.0.0,-33,14
 Image[SE]=./images/standard-vanguard-red_SE.0.0,-13,0

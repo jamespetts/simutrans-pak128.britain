@@ -11,6 +11,8 @@ intro_month=8
 retire_year=1971
 retire_month=7
 speed=126
+maximum_comfortable_journey_minutes=70
+maximum_tolerable_journey_minutes=285
 
 Image[E]=./images/morris-oxford-4-blue_E.0.0,-33,14
 Image[SE]=./images/morris-oxford-4-blue_SE.0.0,-13,0
@@ -31,6 +33,8 @@ intro_month=8
 retire_year=1973
 retire_month=7
 speed=126
+maximum_comfortable_journey_minutes=70
+maximum_tolerable_journey_minutes=285
 
 Image[E]=./images/morris-oxford-4-green_E.0.0,-33,14
 Image[SE]=./images/morris-oxford-4-green_SE.0.0,-13,0
@@ -52,6 +56,8 @@ intro_month=8
 retire_year=1977
 retire_month=7
 speed=126
+maximum_comfortable_journey_minutes=70
+maximum_tolerable_journey_minutes=285
 
 Image[E]=./images/morris-oxford-4-red_E.0.0,-33,14
 Image[SE]=./images/morris-oxford-4-red_SE.0.0,-13,0
@@ -73,6 +79,8 @@ intro_month=11
 retire_year=1972
 retire_month=8
 speed=126
+maximum_comfortable_journey_minutes=70
+maximum_tolerable_journey_minutes=285
 
 Image[E]=./images/morris-oxford-4-black_E.0.0,-33,14
 Image[SE]=./images/morris-oxford-4-black_SE.0.0,-13,0

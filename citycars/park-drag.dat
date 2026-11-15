@@ -8,6 +8,8 @@ intro_month=4
 retire_year=1900
 retire_month=6
 speed=18
+maximum_comfortable_journey_minutes=35
+maximum_tolerable_journey_minutes=235
 
 Image[E]=./images/park-drag-yellow_E.0.0,-33,14
 Image[SE]=./images/park-drag-yellow_SE.0.0,-13,0
@@ -30,6 +32,8 @@ intro_month=9
 retire_year=1905
 retire_month=12
 speed=18
+maximum_comfortable_journey_minutes=35
+maximum_tolerable_journey_minutes=235
 
 Image[E]=./images/park-drag-blue_E.0.0,-33,14
 Image[SE]=./images/park-drag-blue_SE.0.0,-13,0
@@ -52,6 +56,8 @@ intro_month=11
 retire_year=1914
 retire_month=9
 speed=18
+maximum_comfortable_journey_minutes=35
+maximum_tolerable_journey_minutes=235
 
 Image[E]=./images/park-drag-green_E.0.0,-33,14
 Image[SE]=./images/park-drag-green_SE.0.0,-13,0

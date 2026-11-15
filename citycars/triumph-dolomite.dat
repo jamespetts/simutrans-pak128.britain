@@ -9,6 +9,8 @@ intro_month=8
 retire_year=1980
 retire_month=7
 speed=160
+maximum_comfortable_journey_minutes=70
+maximum_tolerable_journey_minutes=285
 
 Image[E]=./images/triumph-dolomite-blue_E.0.0,-33,14
 Image[SE]=./images/triumph-dolomite-blue_SE.0.0,-13,0
@@ -29,6 +31,8 @@ intro_month=8
 retire_year=1982
 retire_month=8
 speed=160
+maximum_comfortable_journey_minutes=70
+maximum_tolerable_journey_minutes=285
 
 Image[E]=./images/triumph-dolomite-green_E.0.0,-33,14
 Image[SE]=./images/triumph-dolomite-green_SE.0.0,-13,0
@@ -50,6 +54,8 @@ intro_month=2
 retire_year=1983
 retire_month=1
 speed=160
+maximum_comfortable_journey_minutes=70
+maximum_tolerable_journey_minutes=285
 
 Image[E]=./images/triumph-dolomite-black_E.0.0,-33,14
 Image[SE]=./images/triumph-dolomite-black_SE.0.0,-13,0
@@ -71,6 +77,8 @@ intro_month=12
 retire_year=1989
 retire_month=9
 speed=160
+maximum_comfortable_journey_minutes=70
+maximum_tolerable_journey_minutes=285
 
 Image[E]=./images/triumph-dolomite-white_E.0.0,-33,14
 Image[SE]=./images/triumph-dolomite-white_SE.0.0,-13,0
@@ -93,6 +101,8 @@ intro_month=6
 retire_year=1988
 retire_month=7
 speed=160
+maximum_comfortable_journey_minutes=70
+maximum_tolerable_journey_minutes=285
 
 Image[E]=./images/triumph-dolomite-red_E.0.0,-33,14
 Image[SE]=./images/triumph-dolomite-red_SE.0.0,-13,0
@@ -115,6 +125,8 @@ intro_month=11
 retire_year=1980
 retire_month=12
 speed=160
+maximum_comfortable_journey_minutes=70
+maximum_tolerable_journey_minutes=285
 
 Image[E]=./images/triumph-dolomite-yellow_E.0.0,-33,14
 Image[SE]=./images/triumph-dolomite-yellow_SE.0.0,-13,0
@@ -137,6 +149,8 @@ intro_month=1
 retire_year=1984
 retire_month=10
 speed=160
+maximum_comfortable_journey_minutes=70
+maximum_tolerable_journey_minutes=285
 
 Image[E]=./images/triumph-dolomite-brown_E.0.0,-33,14
 Image[SE]=./images/triumph-dolomite-brown_SE.0.0,-13,0

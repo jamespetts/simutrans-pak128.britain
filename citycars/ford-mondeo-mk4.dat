@@ -8,6 +8,8 @@ DistributionWeight=8
 intro_year=2007
 intro_month=4
 speed=155
+maximum_comfortable_journey_minutes=135
+maximum_tolerable_journey_minutes=385
 
 Image[E]=./images/ford-mondeo-mk4-blue_E.0.0,-33,14
 Image[SE]=./images/ford-mondeo-mk4-blue_SE.0.0,-13,0
@@ -26,6 +28,8 @@ DistributionWeight=8
 intro_year=2014
 intro_month=5
 speed=155
+maximum_comfortable_journey_minutes=135
+maximum_tolerable_journey_minutes=385
 
 Image[E]=./images/ford-mondeo-mk4-green_E.0.0,-33,14
 Image[SE]=./images/ford-mondeo-mk4-green_SE.0.0,-13,0
@@ -45,6 +49,8 @@ DistributionWeight=8
 intro_year=2014
 intro_month=12
 speed=155
+maximum_comfortable_journey_minutes=135
+maximum_tolerable_journey_minutes=385
 
 Image[E]=./images/ford-mondeo-mk4-grey_E.0.0,-33,14
 Image[SE]=./images/ford-mondeo-mk4-grey_SE.0.0,-13,0
@@ -64,6 +70,8 @@ DistributionWeight=8
 intro_year=2015
 intro_month=1
 speed=155
+maximum_comfortable_journey_minutes=135
+maximum_tolerable_journey_minutes=385
 
 Image[E]=./images/ford-mondeo-mk4-black_E.0.0,-33,14
 Image[SE]=./images/ford-mondeo-mk4-black_SE.0.0,-13,0
@@ -83,6 +91,8 @@ DistributionWeight=8
 intro_year=2007
 intro_month=8
 speed=155
+maximum_comfortable_journey_minutes=135
+maximum_tolerable_journey_minutes=385
 
 Image[E]=./images/ford-mondeo-mk4-white_E.0.0,-33,14
 Image[SE]=./images/ford-mondeo-mk4-white_SE.0.0,-13,0
@@ -103,6 +113,8 @@ DistributionWeight=8
 intro_year=2009
 intro_month=6
 speed=155
+maximum_comfortable_journey_minutes=135
+maximum_tolerable_journey_minutes=385
 
 Image[E]=./images/ford-mondeo-mk4-red_E.0.0,-33,14
 Image[SE]=./images/ford-mondeo-mk4-red_SE.0.0,-13,0

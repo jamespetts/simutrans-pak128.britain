@@ -9,6 +9,8 @@ intro_month=4
 retire_year=1926
 retire_month=11
 speed=60
+maximum_comfortable_journey_minutes=18
+maximum_tolerable_journey_minutes=205
 
 Image[E]=./images/citroen-type-c-blue_E.0.0,-33,14
 Image[SE]=./images/citroen-type-c-blue_SE.0.0,-13,0
@@ -29,6 +31,8 @@ intro_month=8
 retire_year=1932
 retire_month=10
 speed=60
+maximum_comfortable_journey_minutes=18
+maximum_tolerable_journey_minutes=205
 
 Image[E]=./images/citroen-type-c-yellow_E.0.0,-33,14
 Image[SE]=./images/citroen-type-c-yellow_SE.0.0,-13,0
@@ -49,6 +53,8 @@ intro_month=1
 retire_year=1929
 retire_month=7
 speed=60
+maximum_comfortable_journey_minutes=18
+maximum_tolerable_journey_minutes=205
 
 Image[E]=./images/citroen-type-c-red_E.0.0,-33,14
 Image[SE]=./images/citroen-type-c-red_SE.0.0,-13,0
@@ -70,6 +76,8 @@ intro_month=9
 retire_year=1933
 retire_month=5
 speed=60
+maximum_comfortable_journey_minutes=18
+maximum_tolerable_journey_minutes=205
 
 Image[E]=./images/citroen-type-c-white_E.0.0,-33,14
 Image[SE]=./images/citroen-type-c-white_SE.0.0,-13,0

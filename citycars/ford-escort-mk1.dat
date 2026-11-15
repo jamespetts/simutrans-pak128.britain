@@ -10,6 +10,8 @@ intro_month=8
 retire_year=1981
 retire_month=5
 speed=120
+maximum_comfortable_journey_minutes=55
+maximum_tolerable_journey_minutes=265
 
 Image[E]=./images/ford-escort-mk1-blue_E.0.0,-33,14
 Image[SE]=./images/ford-escort-mk1-blue_SE.0.0,-13,0
@@ -30,6 +32,8 @@ intro_month=8
 retire_year=1989
 retire_month=7
 speed=120
+maximum_comfortable_journey_minutes=55
+maximum_tolerable_journey_minutes=265
 
 Image[E]=./images/ford-escort-mk1-red_E.0.0,-33,14
 Image[SE]=./images/ford-escort-mk1-red_SE.0.0,-13,0
@@ -50,6 +54,8 @@ intro_month=8
 retire_year=1984
 retire_month=5
 speed=120
+maximum_comfortable_journey_minutes=55
+maximum_tolerable_journey_minutes=265
 
 Image[E]=./images/ford-escort-mk1-brown_E.0.0,-33,14
 Image[SE]=./images/ford-escort-mk1-brown_SE.0.0,-13,0
@@ -70,6 +76,8 @@ intro_month=4
 retire_year=1981
 retire_month=5
 speed=120
+maximum_comfortable_journey_minutes=55
+maximum_tolerable_journey_minutes=265
 
 Image[E]=./images/ford-escort-mk1-black_E.0.0,-33,14
 Image[SE]=./images/ford-escort-mk1-black_SE.0.0,-13,0
@@ -90,6 +98,8 @@ intro_month=8
 retire_year=1988
 retire_month=5
 speed=120
+maximum_comfortable_journey_minutes=55
+maximum_tolerable_journey_minutes=265
 
 Image[E]=./images/ford-escort-mk1-white_E.0.0,-33,14
 Image[SE]=./images/ford-escort-mk1-white_SE.0.0,-13,0

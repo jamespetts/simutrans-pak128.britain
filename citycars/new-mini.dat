@@ -7,6 +7,8 @@ DistributionWeight=4
 intro_year=2000
 intro_month=10
 speed=140
+maximum_comfortable_journey_minutes=100
+maximum_tolerable_journey_minutes=330
 
 Image[E]=./images/new-mini-blue_E.0.0,-33,14
 Image[SE]=./images/new-mini-blue_SE.0.0,-13,0
@@ -25,6 +27,8 @@ DistributionWeight=6
 intro_year=2001
 intro_month=12
 speed=140
+maximum_comfortable_journey_minutes=100
+maximum_tolerable_journey_minutes=330
 
 Image[E]=./images/new-mini-green_E.0.0,-33,14
 Image[SE]=./images/new-mini-green_SE.0.0,-13,0
@@ -44,6 +48,8 @@ DistributionWeight=5
 intro_year=2003
 intro_month=4
 speed=140
+maximum_comfortable_journey_minutes=100
+maximum_tolerable_journey_minutes=330
 
 Image[E]=./images/new-mini-red_E.0.0,-33,14
 Image[SE]=./images/new-mini-red_SE.0.0,-13,0
@@ -63,6 +69,8 @@ DistributionWeight=4
 intro_year=2005
 intro_month=8
 speed=140
+maximum_comfortable_journey_minutes=100
+maximum_tolerable_journey_minutes=330
 
 Image[E]=./images/new-mini-black_E.0.0,-33,14
 Image[SE]=./images/new-mini-black_SE.0.0,-13,0
@@ -82,6 +90,8 @@ DistributionWeight=3
 intro_year=2002
 intro_month=9
 speed=140
+maximum_comfortable_journey_minutes=100
+maximum_tolerable_journey_minutes=330
 
 Image[E]=./images/new-mini-white_E.0.0,-33,14
 Image[SE]=./images/new-mini-white_SE.0.0,-13,0

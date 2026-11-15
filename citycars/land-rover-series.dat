@@ -9,6 +9,8 @@ intro_month=6
 retire_year=1983
 retire_month=8
 speed=100
+maximum_comfortable_journey_minutes=20
+maximum_tolerable_journey_minutes=210
 
 Image[E]=./images/land-rover-defender-green_E.0.0,-33,14
 Image[SE]=./images/land-rover-defender-green_SE.0.0,-13,0
@@ -29,6 +31,8 @@ intro_month=2
 retire_year=1990
 retire_month=4
 speed=100
+maximum_comfortable_journey_minutes=20
+maximum_tolerable_journey_minutes=210
 
 Image[E]=./images/land-rover-defender-white_E.0.0,-33,14
 Image[SE]=./images/land-rover-defender-white_SE.0.0,-13,0
@@ -49,6 +53,8 @@ intro_month=1
 retire_year=1989
 retire_month=7
 speed=100
+maximum_comfortable_journey_minutes=20
+maximum_tolerable_journey_minutes=210
 
 Image[E]=./images/land-rover-defender-blue_E.0.0,-33,14
 Image[SE]=./images/land-rover-defender-blue_SE.0.0,-13,0
@@ -69,6 +75,8 @@ intro_month=2
 retire_year=1985
 retire_month=9
 speed=100
+maximum_comfortable_journey_minutes=20
+maximum_tolerable_journey_minutes=210
 
 Image[E]=./images/land-rover-defender-desert_E.0.0,-33,14
 Image[SE]=./images/land-rover-defender-desert_SE.0.0,-13,0

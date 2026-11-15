@@ -10,6 +10,8 @@ intro_month=8
 retire_year=1935
 retire_month=7
 speed=70
+maximum_comfortable_journey_minutes=40
+maximum_tolerable_journey_minutes=240
 
 Image[E]=./images/morris-oxford-flatnose-blue_E.0.0,-33,14
 Image[SE]=./images/morris-oxford-flatnose-blue_SE.0.0,-13,0
@@ -30,6 +32,8 @@ intro_month=9
 retire_year=1939
 retire_month=2
 speed=70
+maximum_comfortable_journey_minutes=40
+maximum_tolerable_journey_minutes=240
 
 Image[E]=./images/morris-oxford-flatnose-green_E.0.0,-33,14
 Image[SE]=./images/morris-oxford-flatnose-green_SE.0.0,-13,0
@@ -51,6 +55,8 @@ intro_month=4
 retire_year=1948
 retire_month=6
 speed=70
+maximum_comfortable_journey_minutes=40
+maximum_tolerable_journey_minutes=240
 
 Image[E]=./images/morris-oxford-flatnose-red_E.0.0,-33,14
 Image[SE]=./images/morris-oxford-flatnose-red_SE.0.0,-13,0

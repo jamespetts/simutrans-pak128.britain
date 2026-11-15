@@ -6,6 +6,8 @@ DistributionWeight=8
 intro_year=1965
 retire_year=2000
 speed=105
+maximum_comfortable_journey_minutes=40
+maximum_tolerable_journey_minutes=240
 
 Image[E]=./images/bmc-mini-blue_E.0.0,-33,14
 Image[SE]=./images/bmc-mini-blue_SE.0.0,-13,0
@@ -24,6 +26,8 @@ DistributionWeight=6
 intro_year=1968
 retire_year=2000
 speed=105
+maximum_comfortable_journey_minutes=40
+maximum_tolerable_journey_minutes=240
 
 Image[E]=./images/bmc-mini-navy_E.0.0,-33,14
 Image[SE]=./images/bmc-mini-navy_SE.0.0,-13,0
@@ -42,6 +46,8 @@ DistributionWeight=4
 intro_year=1990
 retire_year=2000
 speed=105
+maximum_comfortable_journey_minutes=40
+maximum_tolerable_journey_minutes=240
 
 Image[E]=./images/bmc-mini-orange_E.0.0,-33,14
 Image[SE]=./images/bmc-mini-orange_SE.0.0,-13,0
@@ -60,6 +66,8 @@ DistributionWeight=10
 intro_year=1967
 retire_year=2000
 speed=105
+maximum_comfortable_journey_minutes=40
+maximum_tolerable_journey_minutes=240
 
 Image[E]=./images/bmc-mini-racing-green_E.0.0,-33,14
 Image[SE]=./images/bmc-mini-racing-green_SE.0.0,-13,0
@@ -78,6 +86,8 @@ DistributionWeight=10
 intro_year=1965
 retire_year=2000
 speed=105
+maximum_comfortable_journey_minutes=40
+maximum_tolerable_journey_minutes=240
 
 Image[E]=./images/bmc-mini-red_E.0.0,-33,14
 Image[SE]=./images/bmc-mini-red_SE.0.0,-13,0
@@ -96,6 +106,8 @@ DistributionWeight=8
 intro_year=1972
 retire_year=2000
 speed=105
+maximum_comfortable_journey_minutes=40
+maximum_tolerable_journey_minutes=240
 
 Image[E]=./images/bmc-mini-white_E.0.0,-33,14
 Image[SE]=./images/bmc-mini-white_SE.0.0,-13,0

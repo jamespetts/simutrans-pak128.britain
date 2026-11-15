@@ -20,6 +20,8 @@ intro_month=1
 retire_year=2029
 retire_month=12
 speed=140
+maximum_comfortable_journey_minutes=105
+maximum_tolerable_journey_minutes=340
 
 Image[E]=./images/vauxhall-corsa-e-white_E.0.0,-33,14
 Image[SE]=./images/vauxhall-corsa-e-white_SE.0.0,-13,0
@@ -40,6 +42,8 @@ intro_month=1
 retire_year=2029
 retire_month=12
 speed=140
+maximum_comfortable_journey_minutes=105
+maximum_tolerable_journey_minutes=340
 
 Image[E]=./images/vauxhall-corsa-e-black_E.0.0,-33,14
 Image[SE]=./images/vauxhall-corsa-e-black_SE.0.0,-13,0
@@ -60,6 +64,8 @@ intro_month=1
 retire_year=2032
 retire_month=12
 speed=140
+maximum_comfortable_journey_minutes=105
+maximum_tolerable_journey_minutes=340
 
 Image[E]=./images/vauxhall-corsa-e-grey_E.0.0,-33,14
 Image[SE]=./images/vauxhall-corsa-e-grey_SE.0.0,-13,0
@@ -80,6 +86,8 @@ intro_month=1
 retire_year=2031
 retire_month=6
 speed=140
+maximum_comfortable_journey_minutes=105
+maximum_tolerable_journey_minutes=340
 
 Image[E]=./images/vauxhall-corsa-e-blue_E.0.0,-33,14
 Image[SE]=./images/vauxhall-corsa-e-blue_SE.0.0,-13,0

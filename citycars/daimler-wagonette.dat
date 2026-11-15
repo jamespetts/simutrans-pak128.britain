@@ -9,6 +9,8 @@ intro_month=5
 retire_year=1910
 retire_month=9
 speed=35
+maximum_comfortable_journey_minutes=15
+maximum_tolerable_journey_minutes=205
 
 Image[E]=./images/daimler-wagonette-yellow_E.0.0,-33,14
 Image[SE]=./images/daimler-wagonette-yellow_SE.0.0,-13,0
@@ -29,6 +31,8 @@ intro_month=5
 retire_year=1914
 retire_month=9
 speed=35
+maximum_comfortable_journey_minutes=15
+maximum_tolerable_journey_minutes=205
 
 Image[E]=./images/daimler-wagonette-red_E.0.0,-33,14
 Image[SE]=./images/daimler-wagonette-red_SE.0.0,-13,0
@@ -49,6 +53,8 @@ intro_month=5
 retire_year=1918
 retire_month=11
 speed=35
+maximum_comfortable_journey_minutes=15
+maximum_tolerable_journey_minutes=205
 
 Image[E]=./images/daimler-wagonette-blue_E.0.0,-33,14
 Image[SE]=./images/daimler-wagonette-blue_SE.0.0,-13,0

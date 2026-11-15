@@ -7,6 +7,8 @@ DistributionWeight=6
 intro_year=2006
 intro_month=8
 speed=135
+maximum_comfortable_journey_minutes=125
+maximum_tolerable_journey_minutes=370
 
 Image[E]=./images/nissan-quashquai-blue_E.0.0,-33,14
 Image[SE]=./images/nissan-quashquai-blue_SE.0.0,-13,0
@@ -25,6 +27,8 @@ DistributionWeight=6
 intro_year=2013
 intro_month=8
 speed=135
+maximum_comfortable_journey_minutes=125
+maximum_tolerable_journey_minutes=370
 
 Image[E]=./images/nissan-quashquai-black_E.0.0,-33,14
 Image[SE]=./images/nissan-quashquai-black_SE.0.0,-13,0
@@ -44,6 +48,8 @@ DistributionWeight=7
 intro_year=2008
 intro_month=9
 speed=135
+maximum_comfortable_journey_minutes=125
+maximum_tolerable_journey_minutes=370
 
 Image[E]=./images/nissan-quashquai-red_E.0.0,-33,14
 Image[SE]=./images/nissan-quashquai-red_SE.0.0,-13,0
@@ -64,6 +70,8 @@ DistributionWeight=8
 intro_year=2013
 intro_month=8
 speed=135
+maximum_comfortable_journey_minutes=125
+maximum_tolerable_journey_minutes=370
 
 Image[E]=./images/nissan-quashquai-white_E.0.0,-33,14
 Image[SE]=./images/nissan-quashquai-white_SE.0.0,-13,0
@@ -85,6 +93,8 @@ DistributionWeight=8
 intro_year=2007
 intro_month=5
 speed=135
+maximum_comfortable_journey_minutes=125
+maximum_tolerable_journey_minutes=370
 
 Image[E]=./images/nissan-quashquai-silver_E.0.0,-33,14
 Image[SE]=./images/nissan-quashquai-silver_SE.0.0,-13,0

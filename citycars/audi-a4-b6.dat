@@ -15,6 +15,8 @@ intro_month=11
 retire_year=2027
 retire_month=12
 speed=135
+maximum_comfortable_journey_minutes=150
+maximum_tolerable_journey_minutes=405
 
 Image[E]=./images/audi-a4-b6-silver_E.0.0,-33,14
 Image[SE]=./images/audi-a4-b6-silver_SE.0.0,-13,0
@@ -36,6 +38,8 @@ intro_month=4
 retire_year=2024
 retire_month=12
 speed=135
+maximum_comfortable_journey_minutes=150
+maximum_tolerable_journey_minutes=405
 
 Image[E]=./images/audi-a4-b6-blue_E.0.0,-33,14
 Image[SE]=./images/audi-a4-b6-blue_SE.0.0,-13,0
@@ -57,6 +61,8 @@ intro_month=2
 retire_year=2026
 retire_month=12
 speed=135
+maximum_comfortable_journey_minutes=150
+maximum_tolerable_journey_minutes=405
 
 Image[E]=./images/audi-a4-b6-black_E.0.0,-33,14
 Image[SE]=./images/audi-a4-b6-black_SE.0.0,-13,0
@@ -78,6 +84,8 @@ intro_month=11
 retire_year=2022
 retire_month=6
 speed=135
+maximum_comfortable_journey_minutes=150
+maximum_tolerable_journey_minutes=405
 
 Image[E]=./images/audi-a4-b6-red_E.0.0,-33,14
 Image[SE]=./images/audi-a4-b6-red_SE.0.0,-13,0
@@ -99,6 +107,8 @@ intro_month=4
 retire_year=2029
 retire_month=12
 speed=135
+maximum_comfortable_journey_minutes=150
+maximum_tolerable_journey_minutes=405
 
 Image[E]=./images/audi-a4-b6-grey_E.0.0,-33,14
 Image[SE]=./images/audi-a4-b6-grey_SE.0.0,-13,0
@@ -120,6 +130,8 @@ intro_month=7
 retire_year=2020
 retire_month=12
 speed=135
+maximum_comfortable_journey_minutes=150
+maximum_tolerable_journey_minutes=405
 
 Image[E]=./images/audi-a4-b6-white_E.0.0,-33,14
 Image[SE]=./images/audi-a4-b6-white_SE.0.0,-13,0

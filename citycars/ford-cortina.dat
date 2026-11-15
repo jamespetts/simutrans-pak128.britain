@@ -9,6 +9,8 @@ intro_month=8
 retire_year=1988
 retire_month=5
 speed=127
+maximum_comfortable_journey_minutes=80
+maximum_tolerable_journey_minutes=300
 
 Image[E]=./images/ford-cortina-mk1-blue_E.0.0,-33,14
 Image[SE]=./images/ford-cortina-mk1-blue_SE.0.0,-13,0
@@ -28,6 +30,8 @@ intro_year=1963
 retire_year=1989
 retire_month=2
 speed=127
+maximum_comfortable_journey_minutes=80
+maximum_tolerable_journey_minutes=300
 
 Image[E]=./images/ford-cortina-mk1-red_E.0.0,-33,14
 Image[SE]=./images/ford-cortina-mk1-red_SE.0.0,-13,0
@@ -48,6 +52,8 @@ intro_month=2
 retire_year=1989
 retire_month=5
 speed=127
+maximum_comfortable_journey_minutes=80
+maximum_tolerable_journey_minutes=300
 
 Image[E]=./images/ford-cortina-mk1-brown_E.0.0,-33,14
 Image[SE]=./images/ford-cortina-mk1-brown_SE.0.0,-13,0
@@ -68,6 +74,8 @@ intro_month=8
 retire_year=1986
 retire_month=2
 speed=127
+maximum_comfortable_journey_minutes=80
+maximum_tolerable_journey_minutes=300
 
 Image[E]=./images/ford-cortina-mk1-black_E.0.0,-33,14
 Image[SE]=./images/ford-cortina-mk1-black_SE.0.0,-13,0
@@ -88,6 +96,8 @@ intro_month=8
 retire_year=1987
 retire_month=1
 speed=127
+maximum_comfortable_journey_minutes=80
+maximum_tolerable_journey_minutes=300
 
 Image[E]=./images/ford-cortina-mk1-white_E.0.0,-33,14
 Image[SE]=./images/ford-cortina-mk1-white_SE.0.0,-13,0
@@ -108,6 +118,8 @@ intro_month=8
 retire_year=1984
 retire_month=4
 speed=127
+maximum_comfortable_journey_minutes=80
+maximum_tolerable_journey_minutes=300
 
 Image[E]=./images/ford-cortina-mk1-olive_E.0.0,-33,14
 Image[SE]=./images/ford-cortina-mk1-olive_SE.0.0,-13,0

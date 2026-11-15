@@ -7,6 +7,8 @@ intro_year=1996
 intro_month=9
 #retire_year=2030
 speed=125
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=270
 
 Image[E]=./images/ford-ka-blue_E.0.0,-33,14
 Image[SE]=./images/ford-ka-blue_SE.0.0,-13,0
@@ -26,6 +28,8 @@ intro_year=1996
 intro_month=9
 #retire_year=2030
 speed=125
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=270
 
 Image[E]=./images/ford-ka-silver_E.0.0,-33,14
 Image[SE]=./images/ford-ka-silver_SE.0.0,-13,0
@@ -45,6 +49,8 @@ intro_year=1996
 intro_month=9
 #retire_year=2030
 speed=125
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=270
 
 Image[E]=./images/ford-ka-red_E.0.0,-33,14
 Image[SE]=./images/ford-ka-red_SE.0.0,-13,0
@@ -63,6 +69,8 @@ DistributionWeight=10
 intro_year=1996
 #retire_year=2030
 speed=125
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=270
 
 Image[E]=./images/ford-ka-turquoise_E.0.0,-33,14
 Image[SE]=./images/ford-ka-turquoise_SE.0.0,-13,0
@@ -82,6 +90,8 @@ intro_year=1996
 intro_month=9
 #retire_year=2030
 speed=125
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=270
 
 Image[E]=./images/ford-ka-green_E.0.0,-33,14
 Image[SE]=./images/ford-ka-green_SE.0.0,-13,0
@@ -101,6 +111,8 @@ intro_year=1996
 intro_month=9
 #retire_year=2030
 speed=125
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=270
 
 Image[E]=./images/ford-ka-purple_E.0.0,-33,14
 Image[SE]=./images/ford-ka-purple_SE.0.0,-13,0

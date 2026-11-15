@@ -9,6 +9,8 @@ intro_month=8
 retire_year=1971
 retire_month=7
 speed=120
+maximum_comfortable_journey_minutes=35
+maximum_tolerable_journey_minutes=235
 
 Image[E]=./images/triumph-herald-blue_E.0.0,-33,14
 Image[SE]=./images/triumph-herald-blue_SE.0.0,-13,0
@@ -29,6 +31,8 @@ intro_month=3
 retire_year=1974
 retire_month=1
 speed=120
+maximum_comfortable_journey_minutes=35
+maximum_tolerable_journey_minutes=235
 
 Image[E]=./images/triumph-herald-green_E.0.0,-33,14
 Image[SE]=./images/triumph-herald-green_SE.0.0,-13,0
@@ -50,6 +54,8 @@ intro_month=8
 retire_year=1977
 retire_month=9
 speed=120
+maximum_comfortable_journey_minutes=35
+maximum_tolerable_journey_minutes=235
 
 Image[E]=./images/triumph-herald-black_E.0.0,-33,14
 Image[SE]=./images/triumph-herald-black_SE.0.0,-13,0
@@ -71,6 +77,8 @@ intro_month=1
 retire_year=1973
 retire_month=12
 speed=120
+maximum_comfortable_journey_minutes=35
+maximum_tolerable_journey_minutes=235
 Image[E]=./images/triumph-herald-white_E.0.0,-33,14
 Image[SE]=./images/triumph-herald-white_SE.0.0,-13,0
 Image[S]=./images/triumph-herald-white_S.0.0,0,0
@@ -92,6 +100,8 @@ intro_month=12
 retire_year=1975
 retire_month=4
 speed=120
+maximum_comfortable_journey_minutes=35
+maximum_tolerable_journey_minutes=235
 
 Image[E]=./images/triumph-herald-red_E.0.0,-33,14
 Image[SE]=./images/triumph-herald-red_SE.0.0,-13,0
