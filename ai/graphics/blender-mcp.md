@@ -89,7 +89,7 @@ route, and its position against the version split in AGENTS.md hard rule 5 is:
   renderer.
 - Geometry produced in 4.5 reaches the render pipeline only as `.dae`, and must be re-verified
   after import into 2.79. Interchange is lossy: triangulation, dropped modifiers, lost face
-  images, renamed duplicates ([ai-pipeline](ai-pipeline.md), error categories).
+  images, renamed duplicates ([error-categories-pre-mcp](error-categories-pre-mcp.md)).
 
 ## Interchange constraint
 
@@ -115,9 +115,10 @@ against this pipeline. Treat that as an open question, not a plan.
   demonstrated.
 - An MCP session drives one live Blender instance. It is not a headless batch build, so it does
   not replace the makeobj and render stages.
-- AI reading of rendered images remains unreliable for open-ended defect description
-  ([blend-creation](blend-creation.md), verification doctrine). MCP supplying renders does not
-  change that on its own.
+- AI reading of rendered images can be wrong even with the MCP supplying them: on
+  2026-11-15 the agent explained detached parts as anti-aliasing while the actual cause was a
+  mesh-only scale in 2.79. Render readings inform iteration; they are not verification
+  ([blend-creation](blend-creation.md), verification doctrine).
 
 ## Open questions
 

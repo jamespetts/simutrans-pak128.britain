@@ -11,8 +11,9 @@ made while developing it. Moved here from [blender-rendering](blender-rendering.
 
 **Relationship to other docs**: current status of AI `.blend` work (what is workable and what
 is not), the failure record, and the verification doctrine live in
-[blend-creation](blend-creation.md); the stage model and generalized error categories live in
-[ai-pipeline](ai-pipeline.md). This doc holds only the proposed process and its
+[blend-creation](blend-creation.md); the MCP procedure stages live in
+[ai-pipeline](ai-pipeline.md) and the historical error categories in
+[error-categories-pre-mcp](error-categories-pre-mcp.md). This doc holds only the proposed process and its
 Blender-level mechanics; it does not restate status or doctrine.
 
 ## The proposed process
@@ -28,17 +29,14 @@ where tagged.
   interchange (`.dae`) in scratch space. Every asset inherits its lighting and camera rig from a
   donor blend; geometry may be modified or built fresh, but the rig is always inherited and never
   built from nothing. `[RECOLLECTION:2026-09-25]` `[UNVERIFIED]`
-- The Stage A vision-feedback loop is real and working, established earlier in this same
-  session by a vision-capable model that has since been swapped out (the model change, not a
-  new session). It is underdocumented: the screenshot harness, viewport-view procedure,
-  see-act tooling, and worked examples were never written down — they lived only in that
-  earlier model's context. The later model (which authored the S69/DC-8 work and this note)
-  has no image input and cannot see that earlier model's working detail, so the loop's
-  specification must be recovered and recorded here. Do NOT treat the loop as non-existent.
-  `[RECOLLECTION:2026-09-25]` The loop's mechanism exists, but AI image-reading is not a
-  verification capability: live tests on 2026-09-27 found fabricated observations under
-  priming (see [blend-creation](blend-creation.md)); treat the loop's see-act output as
-  unverified. `[EXECUTION-VERIFIED:2026-09-27]`
+- The Stage A vision-feedback loop that was referenced here as underdocumented is now
+  achieved by the MCP route: the agent pulls renders from the live 4.5 session into the
+  conversation, reads them, and acts on them within the same turn (§
+  [blender-mcp](blender-mcp.md), session findings). What the loop produces informs iteration;
+  it is not verification (AI image reading is fallible — see
+  [blend-creation](blend-creation.md), verification doctrine). Earlier pre-MCP attempts at
+  this loop were recorded only in a previous model's context and were never specified; that
+  specification is superseded by the MCP tooling. `[USER-DIRECTION:2026-11-15]`
 - Stage A export script (prototype `ai/temp/stageA_export.py`, verified 2026-09-23): Blender 2.79
   headless, `blender.exe --background --python stageA_export.py -- <blend> <out.dae>
   [--layers 1,6] [--no-fonts] [--keep-meta] [--apply-mirrors]`. Opens the blend read-only and never saves.
@@ -98,7 +96,8 @@ where tagged.
 ## Related docs
 
 - [blender-rendering](blender-rendering.md) — render workflow, placement, test records.
-- [ai-pipeline](ai-pipeline.md) — stage model and generalized error categories.
+- [ai-pipeline](ai-pipeline.md) — MCP procedure stages and current status.
+- [error-categories-pre-mcp](error-categories-pre-mcp.md) — historical error checklist.
 - [blend-creation](blend-creation.md) — current status, failure record, verification doctrine.
 - [aircraft-notes](aircraft-notes.md) — aircraft scale, rig, and livery procedure.
 
