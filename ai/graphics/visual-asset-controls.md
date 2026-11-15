@@ -10,12 +10,37 @@ including delegated subagents. Parent: [graphics-pipelines](../graphics-pipeline
 Procedure: [photo-to-pak-pipeline](photo-to-pak-pipeline.md) (canonical procedure record).
 Hard rule: [project-notes](../project-notes.md).
 
-## Hard rule (summary)
+## What a run actually needs
 
-**All shape comes from direct reference photographs of the real subject (or scale drawings
-if photographs cannot be found), used and measured by the agent driving Blender. Text
-sources supply numbers only. If photographs cannot be found, stop and ask the user to
-supply them.** Full text: [project-notes](../project-notes.md). `[USER-DIRECTION:2026-11-15]`
+**Find sufficient reference images from the angles needed, then build the low-poly model
+from them.** For cars that means the finished object in its colourways; for player
+vehicles, in its liveries. Everything else is subordinate to that.
+`[USER-DIRECTION:2026-11-15]`
+
+1. **Images first.** Typically **1–3 reference images per vehicle** are sufficient (the
+   user's manual practice). Real photographs preferred; **drawings are an acceptable source
+   where photographs are not available**. Gather the angles needed to build the model: for
+   tiny sprites (private cars) the defining views suffice (side profile plus the views
+   showing the model's defining features — the Anglia 105E's rear, a finned car's tail);
+   large vehicles (trains, aircraft, ships) take more angles because more of their form
+   survives at scale. If suitable images cannot be found after honest effort, stop and ask
+   the user for them.
+2. **Basic measurements, then build.** Always establish the basic measurements — **length,
+   width, height, wheelbase** — from the images (published overall dimensions may
+   calibrate scale). Secondary measurements (width, height) can often be inferred rather
+   than precisely measured, especially for private cars where detail is less critical at
+   pak scale. Shape comes from the images, never from text (descriptions, dimension
+   boxes, memory).
+3. **Same session throughout.** The agent that gathers the images builds the model, with
+   the images in its context; never hand the build to a fresh session.
+4. **Iterate against the images.** Before rendering, compare the model at the images'
+   angles to the images (Gate B) and fix the silhouette until it matches. Numeric checks
+   are gross-error detectors only.
+5. **The user judges appearance** (Gate C). Report the images used and the side-by-side
+   evidence; anything the tooling genuinely cannot express is a question for the user,
+   never a silent omission.
+
+## Control system
 
 ## Failure analysis: shape from text (2026-11-15)
 
@@ -66,21 +91,12 @@ wanted mid-run, the run pauses and RESUMES IN THE SAME SESSION — never by dele
 Every visual asset run, human- or subagent-driven, passes these gates in order. A run that
 cannot pass a gate stops; it does not proceed on judgement.
 
-1. **Gate A — reference gate (before any geometry).** Reference photographs (or scale
-   drawings) exist, covering every shape-defining view, stored with the run's working
-   files. Photo-derived proportion measurements (calibrated against known overall
-   dimensions) are recorded per feature, naming the photograph. The specification lists
-   the photographs and the measurements. **Evidence burden is tiered by graphic size**
-   `[USER-DIRECTION:2026-11-15]`: private cars and other tiny sprites need **defining
-   views only** — the side profile plus the views showing the model's defining features
-   (the Anglia 105E needs its rear three-quarter; a finned car needs its rear; a
-   distinctive nose its front) — because at pak scale only the silhouette reads; large
-   vehicles (trains, aircraft, ships, large road vehicles) need **thorough multi-view
-   coverage** (every elevation and quarter), because more of their form survives at
-   scale. **If photographs cannot be found after honest effort, stop and prompt the user
-   to supply them.** Delegated runs pass this gate in two phases: the spec phase returns
-   to the orchestrator for the gate check; only then is the build phase authorised.
-   `[USER-DIRECTION:2026-11-15]`
+1. **Gate A — reference gate (before any geometry).** Reference images in hand:
+   typically **1–3 per vehicle** (photographs preferred, drawings where photographs are
+   not available), covering the angles needed — defining views for tiny sprites, fuller
+   coverage for large vehicles. Basic measurements (length, width, height, wheelbase)
+   established from the images. If suitable images cannot be found after honest effort,
+   stop and prompt the user to supply them. `[USER-DIRECTION:2026-11-15]`
 2. **Gate B — shape-match gate (before rendering).** The model is captured at a
    photograph's angle and placed beside the photograph; the silhouette is iterated until
    it matches the photograph. Comparisons are model-vs-photograph only; model-vs-render or
