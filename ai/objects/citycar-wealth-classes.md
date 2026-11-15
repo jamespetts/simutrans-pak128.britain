@@ -44,8 +44,10 @@ lists. `[USER-DIRECTION:2026-11-15]`
 2. Genuine cross-class cars list widely (the BMC Mini: 0–3; the Range Rover: 2–4).
 3. The cheapest aged models carry band 0 in earlier eras (Model T, Austin Seven, Morris
    Eight, Ford Prefect Early stand in for old bangers); the characteristic Very-low vehicle
-   of c. 1925–1960 is the **motorcycle and sidecar**, not yet modelled
-   `[USER-DIRECTION:2026-11-15]` (see [citycar-asset-gaps](citycar-asset-gaps.md)).
+   of c. 1920–1965 is the **motorcycle and sidecar** — era-specific outfits (BSA 557
+   combinations, Norton Big Four, BSA M21 + Watsonian) are listed in
+   [citycar-asset-gaps](citycar-asset-gaps.md) section C1 with provisional values (classes
+   `0,1`; comfort below the BMC Mini). `[USER-DIRECTION:2026-11-15]`
 4. Horse-drawn: private carriages and the park drag are 3–4; the working cart is 0–1.
 
 ## Assignments (by class list)
