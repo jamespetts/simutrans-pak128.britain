@@ -33,9 +33,12 @@ vehicles, in its liveries. Everything else is subordinate to that.
    boxes, memory).
 3. **Same session throughout.** The agent that gathers the images builds the model, with
    the images in its context; never hand the build to a fresh session.
-4. **Iterate against the images.** Before rendering, compare the model at the images'
-   angles to the images (Gate B) and fix the silhouette until it matches. Numeric checks
-   are gross-error detectors only. **A model's own visual acceptance is not reliable**
+4. **Work visually — the MCP session exists for this.** The working loop is: change
+   geometry → capture the model → compare against the reference → correct. Never
+   accumulate a run of edits without looking; a checked step every one or two edits is
+   the normal rhythm. Before rendering, the model must already stand beside the
+   reference at the same angle (Gate B) with a matching silhouette. Numeric checks are
+   gross-error detectors only. **A model's own visual acceptance is not reliable**
    `[USER-DIRECTION:2026-11-15]`: delegated runs have accepted plainly wrong shapes after
    looking at them (the Anglia hatchback). The orchestrator must view the run's
    side-by-side evidence itself before acceptance.
