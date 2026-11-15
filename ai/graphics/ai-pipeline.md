@@ -58,7 +58,8 @@ superseded and is not used for new work. `[USER-DIRECTION:2026-11-15]`
    tools, never acceptance evidence.
 
 Tooling: the MCP server ([blender-mcp](blender-mcp.md)); the render script and rig in
-`Git Blends/Pak128.Britain-blends/`; makeobj (`Makeobj-Extended-ex-15.exe` for ex-15); small
+`Git Blends/Pak128.Britain-blends/`; makeobj (`New/makeobj-extended` — invocation pitfall
+and freshness rule: [build-and-toolchain](../build-and-toolchain.md)); small
 checker scripts in `ai/temp/` per session (per-object attachment check, PNG cluster
 analysis).
 

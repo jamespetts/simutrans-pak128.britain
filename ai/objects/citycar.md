@@ -212,6 +212,14 @@ justifies a deviation. Every colourway of a model shares the model's values. The
 values are in the `New/citycars/*.dat` files; the method, not the per-model numbers, is
 recorded here.
 
+## The Fiesta family example (in tree)
+
+A second family run (2026-11-15): `FordFiestaMk1`–`Mk7` in `New/citycars/ford-fiesta-mk{1..7}.dat`,
+7 generations, 4 colours each, 28 objects. Same method as the Corsa family; per-generation
+dimensions, paint names, share years and sources are recorded in the `.dat` header comments.
+Colourway weights total 500 per generation (the anchor convention), provisional pending the
+central rebase. Built with `car_builder.py` and the Stage B car scripts.
+
 ## Open questions
 
 - Whether the same staggered-colour rule applies to player-help vehicle fleets.

@@ -34,7 +34,12 @@ verified: New master @ 92c7b701c
   fail on unknown keys: it ignores them with an `Entry ... ignored (check spelling)` warning,
   silently dropping new fields (this happened with the citycar comfort fields on 2026-11-15,
   when `Makeobj-Extended-ex-15.exe` proved to be a 2023 build). Always check the compile log
-  for `ignored` warnings. `[CODE New ex-15 @ 0ba8d7fc6]` `[USER-DIRECTION:2026-11-15]`
+  for `ignored` warnings. **Invocation pitfall:** `makeobj-extended` has no file extension, so
+  PowerShell/CreateProcess appends `.exe` and silently runs `Makeobj-Extended.exe` instead —
+  under PowerShell invoke `Makeobj-Extended-ex-15.exe` explicitly; under Git Bash the
+  extension-less name runs correctly (as the canonical build does). `mkpak.sh` keeps all
+  three names refreshed from the engine build so every resolution lands on the latest.
+  `[CODE New ex-15 @ 0ba8d7fc6]` `[USER-DIRECTION:2026-11-15]`
 - Several makeobj builds are present in `New/` (for example `Makeobj-Extended.exe`,
   `Makeobj-Extended-ex-15.exe`, `makeobj-extended`). makeobj binaries are ignored by
   `New/.gitignore`. `[CODE New master @ e36ec2321]`

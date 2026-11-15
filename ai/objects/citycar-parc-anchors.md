@@ -60,17 +60,18 @@ the Evidence column and listed with full references at the end.
 | 1985 | Ford Escort (Mk3) | (b) best-seller 1982–85; Cortina alternative unexcluded [S9] | Low | Yes — `FordEscort-mk3` |
 | 1990 | Ford Escort | (a) DVLA extract Dec 1989: Escort Mk3 alone >1.5m, 50%+ ahead of #2 [S12] | Medium-high | Yes — `FordEscort-mk3` / `FordEscort-mk4` |
 | 1995 | Ford Escort | (a) VEH0120 1995 Q4: 1.67m licensed [S13] | High | Yes — `FordEscort-mk4` |
-| 2000 | Ford Fiesta (cars-only measure; Escort leads if car-derived vans are counted with the model) | (a) VEH0120 2000 Q4: Fiesta 1.52m vs Escort 1.40m [S13] | Medium | Fiesta **no**; Escort yes |
-| 2005 | Ford Fiesta | (a) VEH0120 2005 Q4: 1.26m licensed [S13] | High | **No** |
+| 2000 | Ford Fiesta (cars-only measure; Escort leads if car-derived vans are counted with the model) | (a) VEH0120 2000 Q4: Fiesta 1.52m vs Escort 1.40m [S13] | Medium | Yes — `FordFiestaMk4`/`FordFiestaMk5` (added 2026-11-15) |
+| 2005 | Ford Fiesta | (a) VEH0120 2005 Q4: 1.26m licensed [S13] | High | Yes — `FordFiestaMk5`/`FordFiestaMk6` (added 2026-11-15) |
 | 2010 | Ford Focus | (a) DfT: most common model "unchanged since 2008"; #1 at end-2011 (1.4m) [S14] | Medium | Yes — `FordFocus` |
-| 2015 | Ford Fiesta (took the lead during Q4 2015; Focus led earlier in the year) | (a) VEH0120: Fiesta 1,427,082 at end-2015 [S15] | High | **No** |
-| 2020 | Ford Fiesta | (a) DfT VEH0128: 1.5m vs Focus 1.2m; SMMT Motorparc agrees [S16] | High | **No** |
-| 2025 | Ford Fiesta | (a) SMMT Motorparc 2025: 1,368,335, only model above 1m [S17] | High | **No** |
+| 2015 | Ford Fiesta (took the lead during Q4 2015; Focus led earlier in the year) | (a) VEH0120: Fiesta 1,427,082 at end-2015 [S15] | High | Yes — `FordFiestaMk6`/`FordFiestaMk7` (added 2026-11-15) |
+| 2020 | Ford Fiesta | (a) DfT VEH0128: 1.5m vs Focus 1.2m; SMMT Motorparc agrees [S16] | High | Yes — `FordFiestaMk7` (added 2026-11-15) |
+| 2025 | Ford Fiesta | (a) SMMT Motorparc 2025: 1,368,335, only model above 1m [S17] | High | Yes — `FordFiestaMk7` (added 2026-11-15) |
 
 ## Coverage gaps found by this research
 
-1. **Ford Fiesta** — the parc leader at five sample points (2000, 2005, 2015, 2020, 2025) and
-   the most significant gap. No Fiesta object exists in `New/citycars/`.
+1. **Ford Fiesta** — CLOSED 2026-11-15: `FordFiestaMk1`–`Mk7` added (`ford-fiesta-mk1.dat`
+   to `ford-fiesta-mk7.dat`, 28 colourway objects, 7 generations spanning 1977–2023 road
+   presence). It was the parc leader at five sample points (2000, 2005, 2015, 2020, 2025).
 2. **BMC/Morris 1100/1300 (ADO16)** — dominant UK car 1963–71; without it, the 1965 and 1970
    rows have no true anchor.
 3. **Morris Cowley** (1926–1935) — only its twin models are present. The
