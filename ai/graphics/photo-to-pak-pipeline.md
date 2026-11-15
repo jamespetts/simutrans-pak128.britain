@@ -62,9 +62,8 @@ out of Blender). AI reading of renders is displaced for *iteration* by user dire
   render displaces the rig handle).
 - Never let the two versions write one file; 2.79 scripts depend on its software renderer.
 
-Note: AGENTS.md hard rule 5 currently forbids 4.5 from saving a `.blend` at all; the
-2026-11-15 direction narrows this to the `4.5/` rule above. AGENTS.md itself may need an
-ON amendment for the split to be enforceable — see Open questions.
+Note: AGENTS.md hard rule 5 was amended on 2026-11-15 to permit 4.5 to save `.blend` files
+under this `4.5/` rule; it previously forbade 4.5 from saving a `.blend` at all.
 
 ## Lessons that make the next run faster
 
@@ -118,4 +117,3 @@ ON amendment for the split to be enforceable — see Open questions.
 - Is a parametric dimension-table build practical across this pakset's vehicle families?
 - Should the 2.79 working copy be auto-stamped with a session id to defeat stale-copy
   masquerade?
-- Should AGENTS.md hard rule 5 be amended to encode the `4.5/` separation rule?

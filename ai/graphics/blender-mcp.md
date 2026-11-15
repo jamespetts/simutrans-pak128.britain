@@ -79,17 +79,20 @@ work. `[EXECUTION-VERIFIED:2026-11-14]`
 
 ## Role in the pipeline
 
-Blender 4.5 is **not** a pipeline Blender. It is an experimentation environment for the MCP
-route, and its position against the version split in AGENTS.md hard rule 5 is:
+Blender 4.5 is the **Stage A editor**, driven through the MCP server; the version split in
+AGENTS.md hard rule 5 (amended 2026-11-15) is:
 
-- It may read a `.blend` and write `.dae` to scratch space (`ai/temp/`), in the same way 2.81
-  does at Stage A.
-- It must not write, save, or render a `.blend`. Blender 2.79 remains the only version that
-  writes, imports, and renders `.blend`, because the render scripts depend on its software
-  renderer.
-- Geometry produced in 4.5 reaches the render pipeline only as `.dae`, and must be re-verified
-  after import into 2.79. Interchange is lossy: triangulation, dropped modifiers, lost face
-  images, renamed duplicates ([error-categories-pre-mcp](error-categories-pre-mcp.md)).
+- It may read, modify, and save `.blend` files. Any `.blend` it saves must live in a `4.5/`
+  subdirectory of the relevant blends folder (for example
+  `citycars/4.5/audi-a4-b6.blend`), kept separate from the 2.79-era `.blend` files. The 4.5
+  file is the master source for the asset; the `.dae` is derived from it.
+- It does not render the pakset views: rendering remains in Blender 2.79, whose software
+  renderer the render scripts depend on. 4.5 viewport renders (the `look` tool) are used for
+  iteration, not for pak output.
+- Geometry produced in 4.5 reaches the render pipeline only as `.dae` (already at pak scale,
+  see [ai-pipeline](ai-pipeline.md)), and must be re-verified after import into 2.79.
+  Interchange is lossy: triangulation, dropped modifiers, lost face images, renamed
+  duplicates ([error-categories-pre-mcp](error-categories-pre-mcp.md)).
 
 ## Interchange constraint
 
@@ -128,6 +131,5 @@ against this pipeline. Treat that as an open question, not a plan.
 - Does `BLENDER_MCP_SAFE_MODE=1`, which checks generated code before execution, block operations
   the pakset needs? It is unset in the current configuration.
 - Should the MCP route run against 2.81 instead of 4.5? 4.5 was chosen for addon compatibility
-  and current API documentation coverage, not because the pipeline requires it.
-- Is a second Blender version in the version split worth the ambiguity it creates in AGENTS.md
-  hard rule 5, or should 4.5 replace 2.81 as the Stage A environment once tested?
+  and current API documentation coverage, not because the pipeline requires it. The
+  2026-11-15 rule makes 4.5 the Stage A editor; 2.81 remains legacy.
