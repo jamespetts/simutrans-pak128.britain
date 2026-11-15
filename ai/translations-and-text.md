@@ -1,6 +1,6 @@
 ---
 status: stub
-verified: none
+verified: New ex-15 @ 0ba8d7fc6
 ---
 # Translations and text
 
@@ -17,6 +17,10 @@ names.
 
 ## Object name entries in `en.tab` (required for every new object)
 
+- **Translation texts are a required part of every new asset.** Any new object with a
+  user-visible name is not complete until its `New/text/en.tab` entry exists; do not commit a
+  new asset without it. The English text is required at creation; other languages follow
+  through the translation workflow (see planned sections). `[USER-DIRECTION:2026-11-15]`
 - Every new object needs an entry in `New/text/en.tab`. The file is plain ASCII text composed of
   two-line pairs: the object's internal `name=` value (from its `.dat`) on one line, then the
   English display name on the next. The display name is what the player sees; the key is the
@@ -33,8 +37,10 @@ names.
   displays an unlisted livery name is unverified (raw key fallback presumed).
   `[CODE New ex-15 @ 8b04b2114]`
 - Forgetting the `en.tab` entry leaves the raw machine name (e.g. `ger-s69`,
-  `douglas-dc-8-10`) shown in game. Checking this is part of every asset-adding task.
-  `[EXECUTION-VERIFIED:2026-09-23]`
+  `douglas-dc-8-10`) shown in game. Checking this is a mandatory final step of every
+  asset-adding task: search `en.tab` for each new object's `name=` value. The Audi A4 B6 and
+  the Vauxhall Nova/Corsa family shipped without entries and were fixed on 2026-11-15.
+  `[EXECUTION-VERIFIED:2026-09-23]` `[USER-DIRECTION:2026-11-15]`
 - Editing `New/text/en.tab` (or `config/`, `sound/`) does NOT reach the game by itself: the
   build's `copy` target (`New/Makefile`, `cp -p text/*.* $(PAKDIR)/text`) copies these into
   the pakset directory only when `make` runs. After editing any `text/`, `config/`, or

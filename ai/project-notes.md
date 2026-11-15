@@ -17,6 +17,9 @@ start of most tasks.
 - Pakset `.dat` values are consumed by Simutrans-Extended. Changing capacities, constraints,
   prices or other save-relevant fields can affect existing savegames and network games; see
   [pakset-compatibility](pakset-compatibility.md) before doing so.
+- Translation texts are a required part of every new asset: each new object needs its
+  `New/text/en.tab` entry as part of creation, not as a later follow-up
+  ([translations-and-text](translations-and-text.md)). `[USER-DIRECTION:2026-11-15]`
 - The pakset has two halves kept in two repositories: the compiled sources in `New/` and the
   Blender meta-sources in `Git Blends/Pak128.Britain-blends/`. A graphics change normally starts
   in the latter and ends as `.png` files in the former.

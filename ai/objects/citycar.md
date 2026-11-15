@@ -86,6 +86,12 @@ Method:
 | `intro_year` / `intro_month` | Year/month the colour is first seen on roads | — |
 | `retire_year` / `retire_month` | Year/month it is last seen regularly (early retires mean rare sights from that date) | — |
 | `speed` | Top speed in mph (existing values 110–149) | — |
+| `maximum_comfortable_journey_minutes` | Maximum comfortable journey time for private-car travel, in whole minutes (the `_tenths` form gives tenths of a minute) | omitted/0 → engine default 180 minutes |
+| `maximum_tolerable_journey_minutes` | Maximum tolerable journey time, same units (`_tenths` form available) | omitted/0 → three times the comfortable time |
+
+Comfort fields are time-based (ex-15; the old 0–255 comfort rating is deprecated): specifying
+both the `_minutes` and `_tenths` form of one quantity is a fatal makeobj error. Values are
+stored in tenths of minutes. `[CODE simutrans-extended ex-15 @ 8517e6c9f]`
 
 Other conventions shared by all `citycar` objects:
 
@@ -193,6 +199,18 @@ Images follow the same `<slug>-<colour>_<VIEW>.png` convention under
 `car_builder.py` in the blends repository (see [ai-pipeline](../graphics/ai-pipeline.md))
 and compiled with `Makeobj-Extended-ex-15.exe`; the debug engine loaded the resulting
 `citycars.pak` and reported `MAP-GEN: PASS` on 2026-11-15. `[EXECUTION-VERIFIED:2026-11-15]`
+
+## Comfort calibration
+
+`[USER-DIRECTION:2026-11-15]` Two anchors define the scale: the original BMC Mini has 40
+minutes maximum comfortable / 240 maximum tolerable journey time; the original Ford Sierra
+(a middle-of-the-road comfortable car) has 120 / 360. Per-model comfortable times are
+researched ride-comfort estimates interpolated between these anchors (era, class, suspension,
+refinement). Tolerable times default to the line through both anchors,
+`tolerable ≈ 180 + 1.5 × comfortable` minutes (rounded to 5), unless a model's endurance
+justifies a deviation. Every colourway of a model shares the model's values. The calibrated
+values are in the `New/citycars/*.dat` files; the method, not the per-model numbers, is
+recorded here.
 
 ## Open questions
 

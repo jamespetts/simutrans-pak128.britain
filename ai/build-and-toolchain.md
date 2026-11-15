@@ -8,7 +8,8 @@ verified: New master @ 92c7b701c
 
 ## Initial facts
 
-- Canonical build: run GNU make from inside `New/` via Git Bash / MSYS2. `New/mkpak.sh` runs
+- Canonical build: run GNU make from inside `New/` via Git Bash / MSYS2. `New/mkpak.sh` first
+  refreshes the makeobj binaries from the engine workspace (see below), then runs
   `make clean DESTDIR=../../simutrans-extended-sources/simutrans; make DESTDIR=... -j12`.
   `[CODE New master @ e36ec2321]`
 - `New/Makefile` uses `MAKEOBJ ?= ./makeobj-extended` and `DESTDIR ?= .`; the pakset is written
@@ -25,6 +26,15 @@ verified: New master @ 92c7b701c
   defines the absolute makeobj path (`!makeobj`) and output directory (`!OUTPUT`).
   `New/pak128Britain.bat` is a further Windows alternative taking destination and source
   arguments. `[CODE New master @ e36ec2321]`
+- **The makeobj used must always be the latest build from the engine workspace.** The
+  authoritative binary is `simutrans-extended-sources/simutrans/Makeobj-Extended.exe` (built
+  there from the engine source). `New/mkpak.sh` copies it over `New/makeobj-extended` and
+  `New/Makeobj-Extended-ex-15.exe` whenever it is newer, before building; when invoking
+  makeobj directly (for example `LIST`), use `New/makeobj-extended`. A stale makeobj does not
+  fail on unknown keys: it ignores them with an `Entry ... ignored (check spelling)` warning,
+  silently dropping new fields (this happened with the citycar comfort fields on 2026-11-15,
+  when `Makeobj-Extended-ex-15.exe` proved to be a 2023 build). Always check the compile log
+  for `ignored` warnings. `[CODE New ex-15 @ 0ba8d7fc6]` `[USER-DIRECTION:2026-11-15]`
 - Several makeobj builds are present in `New/` (for example `Makeobj-Extended.exe`,
   `Makeobj-Extended-ex-15.exe`, `makeobj-extended`). makeobj binaries are ignored by
   `New/.gitignore`. `[CODE New master @ e36ec2321]`
@@ -83,11 +93,8 @@ verified: New master @ 92c7b701c
 
 ## Planned sections
 
-- Which makeobj build is correct for which engine branch/version, and how that is determined.
 - Known build pitfalls.
 
 ## Open questions
 
-- Which makeobj executable is authoritative for current engine work, and how should its version
-  be matched to the engine?
 - Is the canonical build the `make` path, or should it be documented differently for releases?
