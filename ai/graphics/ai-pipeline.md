@@ -24,9 +24,17 @@ superseded and is not used for new work. `[USER-DIRECTION:2026-11-15]`
 
 ## Stages (MCP procedure)
 
-1. **Research** — published dimensions, model-year data, market and popularity statistics,
-   and livery/colour sources. Record every value with its source; training-data priors are
-   search hints only.
+**Hard rule before any stage: all geometry is built from direct reference photographs of the
+real subject (or scale drawings if photographs cannot be found), used and measured by the
+agent driving Blender — never from text descriptions. If no photographs can be found, ask
+the user to supply them. Full rule: [project-notes](../project-notes.md).**
+`[USER-DIRECTION:2026-11-15]`
+
+1. **Research** — gather reference photographs of the real subject first (multiple angles,
+   including every shape-defining view). Photographs are the authority on shape and
+   proportions; measure the subject from them. Text sources supply only numeric dimensions,
+   model-year data, market and popularity statistics, and livery/colour sources. Record
+   every value with its source; training-data priors are search hints only.
 2. **Specification** — a numeric plan (parts, sizes, positions, colours, dates, weights)
    agreed with the user before Blender work starts.
 3. **Stage A — geometry in live Blender 4.5 through MCP.** The agent builds or edits
@@ -122,6 +130,8 @@ analysis).
 
 ## Related docs
 
+- [visual-asset-controls](visual-asset-controls.md) — the hard rule's control gates and the
+  shape-from-text failure analysis. READ BEFORE ANY GEOMETRY WORK.
 - [photo-to-pak-pipeline](photo-to-pak-pipeline.md) — the recorded MCP run, rules, and lessons.
 - [blender-mcp](blender-mcp.md) — the MCP environment, dispatch workaround, session findings.
 - [geometry-pitfalls](geometry-pitfalls.md) — z-fighting, lamp placement and wheel/arch faults found in the first Corsa build, with fixes.

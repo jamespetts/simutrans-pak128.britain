@@ -12,6 +12,7 @@ separate; see [scaling-conventions](scaling-conventions.md).
 
 ## Child docs
 
+- [visual-asset-controls](graphics/visual-asset-controls.md) — READ BEFORE ANY GEOMETRY WORK: the photographic-reference hard rule's control gates (reference gate, shape-match gate, escalation rule) and the shape-from-text failure analysis.
 - [blender-rendering](graphics/blender-rendering.md) — read when working from `.blend` sources: headless Blender, render scripts, direction views, and alignment.
 - [ai-pipeline](graphics/ai-pipeline.md) — read before any AI-authored geometry task: the MCP procedure stages, what the pre-MCP pipeline was, and current procedure status.
 - [error-categories-pre-mcp](graphics/error-categories-pre-mcp.md) — read when checking AI geometry work for known failure modes: the historical error checklist of the superseded pre-MCP pipeline.

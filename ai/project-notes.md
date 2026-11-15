@@ -7,6 +7,17 @@ verified: New master @ 4fffcc19e
 **Covers**: short cross-cutting notes that are easy to miss and apply to many tasks. Read at the
 start of most tasks.
 
+## Hard rule: photographic reference (2026-11-15)
+
+**ALL visual asset creation MUST use direct reference photographs of the real subject (or
+scale drawings if photographs cannot be found). This binds the agent actually driving the
+Blender MCP session: that agent must work from the photographs itself — look at them,
+measure the subject's proportions from them, and iterate the geometry against them. NEVER
+build shape from text descriptions, dimension tables or memory: text cannot convey shape.
+If reference photographs (or drawings) cannot be found, STOP and prompt the user to supply
+them. No geometry is built without photographic (or drawing) reference in hand.**
+`[USER-DIRECTION:2026-11-15]`
+
 ## Notes
 
 - The base workspace root is not a git repository. Only `New/` and
