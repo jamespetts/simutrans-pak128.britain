@@ -9,6 +9,9 @@ intro_month=8
 retire_year=1938
 retire_month=7
 speed=110
+class=0,1,2
+maximum_comfortable_journey_minutes=40
+maximum_tolerable_journey_minutes=240
 
 Image[E]=./images/ford-model-c-blue_E.0.0,-33,14
 Image[SE]=./images/ford-model-c-blue_SE.0.0,-13,0
@@ -29,6 +32,9 @@ intro_month=8
 retire_year=1956
 retire_month=2
 speed=110
+class=0,1,2
+maximum_comfortable_journey_minutes=40
+maximum_tolerable_journey_minutes=240
 
 Image[E]=./images/ford-model-c-green_E.0.0,-33,14
 Image[SE]=./images/ford-model-c-green_SE.0.0,-13,0
@@ -49,6 +55,9 @@ intro_month=8
 retire_year=1947
 retire_month=7
 speed=110
+class=0,1,2
+maximum_comfortable_journey_minutes=40
+maximum_tolerable_journey_minutes=240
 
 Image[E]=./images/ford-model-c-black_E.0.0,-33,14
 Image[SE]=./images/ford-model-c-black_SE.0.0,-13,0
@@ -70,6 +79,9 @@ intro_month=8
 retire_year=1939
 retire_month=9
 speed=110
+class=0,1,2
+maximum_comfortable_journey_minutes=40
+maximum_tolerable_journey_minutes=240
 
 Image[E]=./images/ford-model-c-cream_E.0.0,-33,14
 Image[SE]=./images/ford-model-c-cream_SE.0.0,-13,0

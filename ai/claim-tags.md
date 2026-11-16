@@ -1,6 +1,6 @@
 ---
 status: draft
-verified: none
+verified: New master @ 30444805f
 ---
 # Claim tags (inline)
 
@@ -12,6 +12,10 @@ verified: none
   a dated observation, not a universal constant.
 - `[FORUM:<url>]` — from a Simutrans forum thread; cite the thread and, where possible, the post
   date. The pak128.Britain board is https://forum.simutrans.com/index.php/board,75.0.html .
+- `[LITERATURE:<url>]` — from published external work (paper, benchmark, standard, vendor
+  documentation). Evidence about the world outside this repository, never about pakset data or
+  files; cite the specific source, and record the version or date where the result is likely to
+  age.
 - `[RECOLLECTION:<date>]` — user statement from memory. An indication, not a verified fact:
   verify against the data before relying on it.
 - `[UNVERIFIED]` — agent inference, not yet confirmed. Must be verified or removed at review.

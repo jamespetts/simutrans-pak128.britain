@@ -12,6 +12,9 @@ retire_month=3
 # stagecoach traffic until an improved overtaking mechanism
 # can be developed.
 speed=12
+class=0,1
+maximum_comfortable_journey_minutes=10
+maximum_tolerable_journey_minutes=195
 
 Image[E]=./images/horse-cart-piece-citycar-brown_E.0.0,-33,14
 Image[SE]=./images/horse-cart-piece-citycar-brown_SE.0.0,-13,0
@@ -37,6 +40,9 @@ retire_month=12
 # stagecoach traffic until an improved overtaking mechanism
 # can be developed.
 speed=12
+class=0,1
+maximum_comfortable_journey_minutes=10
+maximum_tolerable_journey_minutes=195
 
 Image[E]=./images/horse-cart-piece-citycar-grey_E.0.0,-33,14
 Image[SE]=./images/horse-cart-piece-citycar-grey_SE.0.0,-13,0
@@ -62,6 +68,9 @@ retire_month=5
 # stagecoach traffic until an improved overtaking mechanism
 # can be developed.
 speed=12
+class=0,1
+maximum_comfortable_journey_minutes=10
+maximum_tolerable_journey_minutes=195
 
 Image[E]=./images/horse-cart-piece-citycar-turquoise_E.0.0,-33,14
 Image[SE]=./images/horse-cart-piece-citycar-turquoise_SE.0.0,-13,0

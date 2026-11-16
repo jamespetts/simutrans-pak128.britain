@@ -6,10 +6,17 @@ copyright=Kieron/JamesPetts
 DistributionWeight=20
 intro_year=1968
 intro_month=8
-# This is assumed to be the mk. 1 and mk. 2 as they are insufficiently different to warrant separate graphics
+# This was assumed to be the mk. 1 and mk. 2 as they were insufficiently different
+# to warrant separate graphics. That assumption was superseded on 2026-11-15: the
+# Ford Escort Mk2 is now modelled as its own object (ford-escort-mk2.dat). This
+# object therefore represents the Mk1 only. The weight and the dates above are
+# unchanged and remain pre-rebase values.
 retire_year=1981
 retire_month=5
 speed=120
+class=1,2
+maximum_comfortable_journey_minutes=55
+maximum_tolerable_journey_minutes=265
 
 Image[E]=./images/ford-escort-mk1-blue_E.0.0,-33,14
 Image[SE]=./images/ford-escort-mk1-blue_SE.0.0,-13,0
@@ -30,6 +37,9 @@ intro_month=8
 retire_year=1989
 retire_month=7
 speed=120
+class=1,2
+maximum_comfortable_journey_minutes=55
+maximum_tolerable_journey_minutes=265
 
 Image[E]=./images/ford-escort-mk1-red_E.0.0,-33,14
 Image[SE]=./images/ford-escort-mk1-red_SE.0.0,-13,0
@@ -50,6 +60,9 @@ intro_month=8
 retire_year=1984
 retire_month=5
 speed=120
+class=1,2
+maximum_comfortable_journey_minutes=55
+maximum_tolerable_journey_minutes=265
 
 Image[E]=./images/ford-escort-mk1-brown_E.0.0,-33,14
 Image[SE]=./images/ford-escort-mk1-brown_SE.0.0,-13,0
@@ -70,6 +83,9 @@ intro_month=4
 retire_year=1981
 retire_month=5
 speed=120
+class=1,2
+maximum_comfortable_journey_minutes=55
+maximum_tolerable_journey_minutes=265
 
 Image[E]=./images/ford-escort-mk1-black_E.0.0,-33,14
 Image[SE]=./images/ford-escort-mk1-black_SE.0.0,-13,0
@@ -90,6 +106,9 @@ intro_month=8
 retire_year=1988
 retire_month=5
 speed=120
+class=1,2
+maximum_comfortable_journey_minutes=55
+maximum_tolerable_journey_minutes=265
 
 Image[E]=./images/ford-escort-mk1-white_E.0.0,-33,14
 Image[SE]=./images/ford-escort-mk1-white_SE.0.0,-13,0

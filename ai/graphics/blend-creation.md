@@ -1,6 +1,6 @@
 ---
 status: draft
-verified: none
+verified: New ex-15 @ 937d464a9 (working tree; Anglia status and reference doctrine, 2026-11-15)
 ---
 # AI .blend creation: status and failure record
 
@@ -10,17 +10,28 @@ that creates or reshapes `.blend` geometry, and before relying on any AI reading
 or screenshot. Parent: [graphics-pipelines](../graphics-pipelines.md); pipeline procedure:
 [ai-pipeline](ai-pipeline.md).
 
+**Assets named in this record**: S69 and Claud are GER steam locomotive classes, B12/3 an
+LNER 4-6-0, and DC-8-10 and 707 airliners in this pakset; "Belpaire" is a firebox type.
+
 ## Current status
 
 Per user direction, 2026-09-27 `[RECOLLECTION:2026-09-27]`:
 
-- **Novel `.blend` creation is unstable.** From-scratch geometry, and freeform reshaping of
-  existing geometry, are not currently workable unattended.
+- **Novel `.blend` creation is unstable under the pre-MCP pipeline.** From-scratch geometry,
+  and freeform reshaping of existing geometry, were not workable unattended by script-driven
+  headless editing (the procedure defined in [ai-pipeline](ai-pipeline.md)).
 - **Minor `.blend` changes are workable**: simple livery or texture substitutions,
   re-rendering, and bounded numeric edits to existing models.
 - **The pipeline from `.blend` to `.pak` is workable**: rendering, offsets, `.dat` writing,
-  makeobj, and the map-generation smoke test are demonstrated end to end on two assets (the
-  S69 and the DC-8-10).
+  makeobj, and the map-generation smoke test.
+
+**MCP is the working procedure** (user direction, 2026-11-15). The photograph-based Anglia
+replacements reached user acceptance and pak compilation through the live Blender 4.5
+procedure ([ai-pipeline](ai-pipeline.md)). The 100E required a user correction to its boot
+shape before approval. This demonstrates user-reviewed construction, not reliable
+unattended work. Sources: [anglia-sources](anglia-sources.md); local model experience:
+[model-selection](model-selection.md#local-blender-mcp-model-experience).
+`[USER-DIRECTION:2026-11-15]` `[EXECUTION-VERIFIED:2026-11-15]`
 
 ## What is demonstrated to work
 
@@ -81,12 +92,13 @@ From the 2026-09-26/27 sessions (S69 first attempt; B12/3 rebuild attempt)
   supplies the spec. More angles resolved the ambiguities for the human observer; there is no
   instance of an additional view improving the AI's reading.
 
-### External corroboration (retrieved 2026-09-27)
+### External corroboration
 
-- BlenderGym (CVPR 2025, arxiv.org/abs/2504.01786): a code-based Blender editing benchmark
-  with rendered feedback and verifier loops; from the abstract, "even the state-of-the-art
-  VLM system struggles with tasks relatively easy for human Blender users." The failure
-  replicates under controlled, well-tooled conditions and is not specific to this workspace.
+- 3DCodeEdit (Oct 2026) scores 17 current models from renders against human-reviewed
+  checklists, and its failure analysis puts the dominant mechanism for capable models at
+  unforeseen interaction between parts — the same shape as failure modes 1 and 2 above.
+  Figures, per-model results and sources: [model-selection](model-selection.md).
+  `[LITERATURE:https://arxiv.org/abs/2610.38231]`
 - Successful LLM+3D systems route around fabrication: SceneCraft (ICLR 2024,
   arxiv.org/abs/2403.01248) does scene assembly via planning and asset retrieval; LL3M
   (arxiv.org/abs/2508.08228) writes Blender Python with a multi-agent team plus refinement;
@@ -95,18 +107,20 @@ From the 2026-09-26/27 sessions (S69 first attempt; B12/3 rebuild attempt)
 
 ## Verification doctrine
 
-- **Query, don't view.** Facts about a `.blend` are fully determined in the file; rendering
-  them into an image manufactures ambiguity. Query the scene graph for facts.
-- **Never verify by AI description of an image**, at any granularity. Prose description of
-  images is unreliable (three recorded instances plus the 2026-09-27 tests); pixel arithmetic
-  between registered images is deterministic and is not what failed.
-- **Prefer dependency assertions** ("did everything downstream of this change move?") over
-  state assertions ("does it match these numbers?"): state assertions cannot see
-  wrong-but-coherent models, and golden values rot when read off the model being checked.
-- **Where a human-corrected golden exists, diff against the golden** (object lists, bounding
-  boxes, materials) instead of describing renders.
-- When rendering for comparison, include a ground reference in frame: floating parts are
-  undetectable without one (a camera-placement problem, not a limit of renders).
+- **Query the scene.** Facts about a `.blend` are determined in the file: object lists,
+  world bounding boxes, material values, parentage, layers. Read them; do not infer them from
+  an image.
+- **Use deterministic image arithmetic where two images must be compared.** Counting
+  non-transparent pixels, bounding boxes, connected clusters and channel means between
+  registered renders is exact and is what the MCP-era checks rely on
+  ([photo-to-pak-pipeline](photo-to-pak-pipeline.md)).
+- **The agent may look at renders for iteration, and its readings are not verification.**
+  Under MCP the agent states what it sees in a render and uses that to propose changes (user
+  direction, 2026-11-14). Recorded MCP-era evidence that these readings can be wrong: the
+  floating-lamp diagnosis of 2026-11-15, where the agent explained detached parts as
+  anti-aliasing while the actual cause was a mesh-only scale in 2.79. Acceptance is the
+  human's judgement of the final renders, and anything the agent reports about appearance
+  must be checked against the scene or by the user.
 - **The human gate**: one approval per asset, judged on final renders at sprite scale.
   Correctness is required at final rendered scale, with sub-threshold detail ignored; colour
   and pattern must be correct at render scale and liveries must match the in-pakset tables.
@@ -121,17 +135,19 @@ From the 2026-09-26/27 sessions (S69 first attempt; B12/3 rebuild attempt)
 - **Colour is never taken from a reference image**; in-pakset tables only (see
   [liveries-and-special-colours](liveries-and-special-colours.md)). A reference may inform
   which part is which, never what colour it is. `[RECOLLECTION:2026-09-27]`
-- A reference image's residual roles are **qualitative character** (what dimensions do not
-  state) and **cross-validating the data channel**. Scale comes from the data channel plus
-  class constants (gauge, buffer height, wheel diameters), never from measuring an image.
-  `[RECOLLECTION:2026-09-27]`
+- Photographs determine shape and relative proportions; published dimensions and class
+  constants calibrate scale. Check perspective before interpreting image measurements.
+  The current [reference controls](visual-asset-controls.md) supersede the earlier
+  restriction of photographs to qualitative character alone.
+  `[USER-DIRECTION:2026-11-15]`
 - Low render resolution **forgives donor type-substitution** (a 707 and a DC-8-10 differ by a
   few pixels at 128 px = 46 m) but **does not forgive placement errors**: silhouette and
   relative part placement are what survive at sprite scale.
   `[EXECUTION-VERIFIED:2026-09-24]` (donor half); the placement half is inference from the
   failure record. `[UNVERIFIED]`
-- References are mixed media (B&W photo, colour photo, line drawing, vector drawing, text);
-  class constants are permitted as scale anchors. `[RECOLLECTION:2026-09-27]`
+- Permitted shape references are photographs, or drawings where photographs are unavailable;
+  text supplies numeric and historical facts, not shape. Follow
+  [visual-asset-controls](visual-asset-controls.md). `[USER-DIRECTION:2026-11-15]`
 
 ## Verification tooling environment
 
@@ -152,8 +168,7 @@ Measured 2026-09-27 on the maintainer's machine `[EXECUTION-VERIFIED:2026-09-27]
 
 ## Open questions
 
-- Reference images are not documented as an input category anywhere in this knowledge base.
-  What form should that record take (per-asset source lists, allowed uses, disallowed uses)?
+- How should reference-image identity and camera pose be recorded consistently across assets?
 - Would a blind, unprimed, multi-view protocol change the measured AI recognition failure
   rate? Current evidence gives no reason to expect so, but it has not been measured cleanly.
 - What concrete form should the predicate battery take (per-class invariant tables, or a

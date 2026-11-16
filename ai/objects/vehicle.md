@@ -1,6 +1,6 @@
 ---
 status: draft
-verified: New master @ f8859c42d
+verified: New ex-15 @ 8b04b2114
 ---
 # Vehicle objects
 
@@ -87,7 +87,9 @@ verified: New master @ f8859c42d
   [vehicle-fields](vehicle-fields.md). `[CODE New master @ f8859c42d]`
 - Trams (`New/trams/`) use bidirectional running, rear-lead cabs, and way constraints; see
   [vehicle-fields](vehicle-fields.md) and [way-constraints](way-constraints.md).
-  `[CODE New master @ f8859c42d]`
+  Their graphics process is the rail one; see
+  [blender-rendering](../graphics/blender-rendering.md). `[CODE New master @ f8859c42d]`
+  `[RECOLLECTION:2026-09-25]`
 - Ships separate hulls from holds: a hull such as `BrigHull` carries no payload while hold
   vehicles such as `BrigAddPax` declare `Constraint[Prev]` on the hull and hold the
   `payload`, `comfort` and `catering_level` (see
@@ -95,10 +97,31 @@ verified: New master @ f8859c42d
   `freightimagetype[i]`, for example cement, coal and iron ore on `New/boats/box-boat.dat`.
   Ships use prohibitive way constraints for ship sizes and `override_way_speed`; see
   [vehicle-fields](vehicle-fields.md) and [way-constraints](way-constraints.md).
-  `[CODE New master @ f8859c42d]`
+  Ship image offsets follow no single standard table: holds and the oversized
+  (`boats192`/`boats224`) classes carry per-size offsets, while small base hulls generally
+  carry none. `[CODE New master @ f8859c42d]` `[CODE New ex-15 @ 8b04b2114]`
 - Aircraft (`New/air/`) add air resistance, operating range and minimum runway length, and
   omit rail-only running gear fields; see [vehicle-fields](vehicle-fields.md).
   `[CODE New master @ f8859c42d]`
+
+## Road vehicle image offsets
+
+- Rail vehicles carry no per-image offsets: no `.dat` in `New/trains/`,
+  `New/london-underground/` or `New/livery-trains/` uses the `,x,y` modifier.
+  `[CODE New ex-15 @ 8b04b2114]`
+- Road vehicles (`New/bus/`) use one standard per-direction offset table on every image
+  reference (sheets are 128x128 RGBA): E `,-33,14`; SE `,-13,0`; S `,0,0`; SW `,-8,10`;
+  W `,4,5`; NW `,12,10`; N `,0,33`; NE `,0,24`.
+  `[CODE New ex-15 @ 8b04b2114]`
+- S is canonically `,0,0` for new work. `[RECOLLECTION:2026-09-25]` A minority of files
+  carry `,4,0` in S instead; measured content framing is identical between the two batches,
+  so the variant places the S sprite about 3 px differently rather than compensating a
+  framing difference — treat it as superseded, not as an alternative standard.
+  `[CODE New ex-15 @ 8b04b2114]` `[RECOLLECTION:2026-09-25]`
+- Two tiny sidewalk vehicles carry bespoke offsets (`post-boy`, `man_on_bicycle`).
+  `[CODE New ex-15 @ 8b04b2114]`
+- Other classes: narrow-gauge vehicles carry no offsets (like rail); maglev vehicles carry
+  bespoke per-vehicle offsets. `[CODE New ex-15 @ 8b04b2114]`
 
 ## Naming, dates and era coverage
 
@@ -116,3 +139,5 @@ verified: New master @ f8859c42d
 - Which engine fields govern vehicle behaviour in Simutrans-Extended (physics, wear, comfort),
   and where are they documented?
 - Should this doc eventually be split into one doc per `waytype`?
+- Ships and maglev carry per-size or per-vehicle offsets: is there a governing rule for
+  either, or is each asset bespoke?

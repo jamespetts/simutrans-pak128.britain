@@ -9,6 +9,9 @@ intro_month=8
 retire_year=1939
 retire_month=7
 speed=85
+class=2,3
+maximum_comfortable_journey_minutes=45
+maximum_tolerable_journey_minutes=250
 
 Image[E]=./images/austin-light-twelve-blue_E.0.0,-33,14
 Image[SE]=./images/austin-light-twelve-blue_SE.0.0,-13,0
@@ -29,6 +32,9 @@ intro_month=8
 retire_year=1944
 retire_month=1
 speed=85
+class=2,3
+maximum_comfortable_journey_minutes=45
+maximum_tolerable_journey_minutes=250
 
 Image[E]=./images/austin-light-twelve-green_E.0.0,-33,14
 Image[SE]=./images/austin-light-twelve-green_SE.0.0,-13,0
@@ -50,6 +56,9 @@ intro_month=8
 retire_year=1950
 retire_month=6
 speed=85
+class=2,3
+maximum_comfortable_journey_minutes=45
+maximum_tolerable_journey_minutes=250
 
 Image[E]=./images/austin-light-twelve-grey_E.0.0,-33,14
 Image[SE]=./images/austin-light-twelve-grey_SE.0.0,-13,0
@@ -72,6 +81,9 @@ intro_month=8
 retire_year=1943
 retire_month=2
 speed=85
+class=2,3
+maximum_comfortable_journey_minutes=45
+maximum_tolerable_journey_minutes=250
 
 Image[E]=./images/austin-light-twelve-black_E.0.0,-33,14
 Image[SE]=./images/austin-light-twelve-black_SE.0.0,-13,0

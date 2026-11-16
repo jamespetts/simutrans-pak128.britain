@@ -11,8 +11,9 @@ made while developing it. Moved here from [blender-rendering](blender-rendering.
 
 **Relationship to other docs**: current status of AI `.blend` work (what is workable and what
 is not), the failure record, and the verification doctrine live in
-[blend-creation](blend-creation.md); the stage model and generalized error categories live in
-[ai-pipeline](ai-pipeline.md). This doc holds only the proposed process and its
+[blend-creation](blend-creation.md); the MCP procedure stages live in
+[ai-pipeline](ai-pipeline.md) and the historical error categories in
+[error-categories-pre-mcp](error-categories-pre-mcp.md). This doc holds only the proposed process and its
 Blender-level mechanics; it does not restate status or doctrine.
 
 ## The proposed process
@@ -28,17 +29,14 @@ where tagged.
   interchange (`.dae`) in scratch space. Every asset inherits its lighting and camera rig from a
   donor blend; geometry may be modified or built fresh, but the rig is always inherited and never
   built from nothing. `[RECOLLECTION:2026-09-25]` `[UNVERIFIED]`
-- The Stage A vision-feedback loop is real and working, established earlier in this same
-  session by a vision-capable model that has since been swapped out (the model change, not a
-  new session). It is underdocumented: the screenshot harness, viewport-view procedure,
-  see-act tooling, and worked examples were never written down — they lived only in that
-  earlier model's context. The later model (which authored the S69/DC-8 work and this note)
-  has no image input and cannot see that earlier model's working detail, so the loop's
-  specification must be recovered and recorded here. Do NOT treat the loop as non-existent.
-  `[RECOLLECTION:2026-09-25]` The loop's mechanism exists, but AI image-reading is not a
-  verification capability: live tests on 2026-09-27 found fabricated observations under
-  priming (see [blend-creation](blend-creation.md)); treat the loop's see-act output as
-  unverified. `[EXECUTION-VERIFIED:2026-09-27]`
+- The Stage A vision-feedback loop that was referenced here as underdocumented is now
+  achieved by the MCP route: the agent pulls renders from the live 4.5 session into the
+  conversation, reads them, and acts on them within the same turn (§
+  [blender-mcp](blender-mcp.md), session findings). What the loop produces informs iteration;
+  it is not verification (AI image reading is fallible — see
+  [blend-creation](blend-creation.md), verification doctrine). Earlier pre-MCP attempts at
+  this loop were recorded only in a previous model's context and were never specified; that
+  specification is superseded by the MCP tooling. `[USER-DIRECTION:2026-11-15]`
 - Stage A export script (prototype `ai/temp/stageA_export.py`, verified 2026-09-23): Blender 2.79
   headless, `blender.exe --background --python stageA_export.py -- <blend> <out.dae>
   [--layers 1,6] [--no-fonts] [--keep-meta] [--apply-mirrors]`. Opens the blend read-only and never saves.
@@ -52,13 +50,21 @@ where tagged.
   (10 distinct materials; re-import materialises 11 through importer duplication); the `.blend`
   hash is unchanged across runs; relative output paths and unknown flags fail with exit code 1.
   `[EXECUTION-VERIFIED:2026-09-25]`
-- Stage B (Blender 2.79, headless): imports the interchange file into a working copy, deletes
-  imported cameras and lamps, reassigns exact livery materials from the standard HSV table, scales
-  via the ruler factor, positions via the fixed algorithm (X center 0; body front excluding
-  `BUFFER_*` at Y −4.0; lowest point at Z 0), clears all animation data (stale actions override
-  script positioning), enables scene layer 3, and renders with the `...-65.py` view positions.
-  Stage B works on a copy and never saves the `.blend` after the render steps: the script leaves
-  the lighting sphere displaced, which is hard to recover. `[UNVERIFIED]`
+- Stage B (Blender 2.79, headless): imports the interchange **at pak scale** — the `.dae` is
+  exported pre-scaled from the 4.5 session (object locations and mesh vertices scaled by
+  (0.70942, 0.56754, 0.70942), then reload of the metres master from disk); 2.79 does NOT
+  scale. Placement only: X centre 0; body front excluding `BUFFER_*` at Y −4.0; lowest point
+  at Z 0. Per-object attachment check vs the hull bounding box; clear all animation data
+  (stale actions override script positioning); enable layers 1, 2 (camera) and 3 (rig
+  sphere); renders with the `...-65.py` view positions. Stage B works on a copy, never saves
+  the `.blend` after rendering, and never scales. Scaling belongs to 4.5 because it can be
+  seen and verified there; scaling in 2.79 leaves cuboid locations in metres while mesh
+  vertices scale (floating parts), and the failure is invisible to a global bounding box
+  check. If 2.79 scaling is ever unavoidable, all meshes must be joined into one object
+  first so scale is atomic. Stage B works on a fresh copy of `base.blend`, and never saves
+  the `.blend` after the render steps: the render script displaces the lighting-sphere
+  handle, which is hard to recover. `[EXECUTION-VERIFIED:2026-11-15]` See
+  [photo-to-pak-pipeline](photo-to-pak-pipeline.md) for the full run record and rules.
 - Lighting workflow (human procedure, verified by reproduction 2026-09-23): design on layer 1
   (layers 4 and above hold measurement aids, temporary objects, and variants such as different
   goods loads); enable layer 3 only just before rendering; save the `.blend` before running the
@@ -90,7 +96,8 @@ where tagged.
 ## Related docs
 
 - [blender-rendering](blender-rendering.md) — render workflow, placement, test records.
-- [ai-pipeline](ai-pipeline.md) — stage model and generalized error categories.
+- [ai-pipeline](ai-pipeline.md) — MCP procedure stages and current status.
+- [error-categories-pre-mcp](error-categories-pre-mcp.md) — historical error checklist.
 - [blend-creation](blend-creation.md) — current status, failure record, verification doctrine.
 - [aircraft-notes](aircraft-notes.md) — aircraft scale, rig, and livery procedure.
 

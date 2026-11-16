@@ -1,6 +1,6 @@
 ---
 status: draft
-verified: New master @ c842afdbd
+verified: New ex-15 @ 0a4be8077 (working tree)
 ---
 # Balancing
 
@@ -13,6 +13,12 @@ be economically and historically realistic.
   to work ([../../AGENTS.md](../../AGENTS.md)). Read this doc before tuning any value, and read
   [high-level-design-goals](high-level-design-goals.md) first.
 - Passenger, mail and accommodation classes: [class](class.md).
+- Year-indexed prices: `config/prices.tab`, its price types and the research still outstanding
+  for them: [prices-config](prices-config.md).
+- Way and structure base costs, the scaling that turns a `.dat` price into real money, and the
+  capital-to-maintenance ratios those imply: [infrastructure-base-costs](infrastructure-base-costs.md).
+- Source-recording rule for every historically derived value: [calibration-sources](calibration-sources.md).
+- Private-car colours and their relative `DistributionWeight` split: [objects/citycar](objects/citycar.md#colour-rule).
 - The main source of pricing information is the forum thread "A snippet of relative pricing
   information": https://forum.simutrans.com/index.php/topic,6521.0.html
    `[FORUM:https://forum.simutrans.com/index.php/topic,6521.0.html]`. It collects historical British
@@ -71,11 +77,19 @@ be economically and historically realistic.
 - Fuel and staff sit outside this file: absolute yearly prices per fuel and engine type live in
   `fuel.tab`, and yearly wages per staff type in `staff.tab`.
   `[CODE simutrans-extended ex-15 @ d4893f3]`
+- Units: 1 SimuCent = £0.005208 in 1900 on the revenue timescale, and £0.396 in 1900 on the
+  capital timescale; 192 revenue units = 1 new penny. The index is unitless, so the same
+  percentage applies to both. Method and conversions: [prices-config](prices-config.md).
+  `[CODE New ex-15 @ 8d0603d81]`
 - No in-game display currently reads these tables; the planned display of price factors over
   time is outstanding.
   `[FORUM:https://forum.simutrans.com/index.php/topic,22054.msg202141.html]`
-- Pakset status: `New/config/` contains no `prices.tab`, `fuel.tab`, or `staff.tab`; authoring
-  them is outstanding pakset work for ex-15. `[CODE New master @ c842afdbd]`
+- Pakset status: `New/config/` contains `prices.tab`, `fuel.tab` and `staff.tab`, with series
+  running to 2026 and projections to 2050. `general`, `passenger fare`, `mail rate`,
+  `corporation tax`, `base rate`, `city land`, `country land` and `buildings` have their own
+  series; four types still fall back to `general`. [prices-config](prices-config.md) records the
+  method and the research outstanding for those four. `[CODE New ex-15 @ 8d0603d81]`;
+  `buildings` added 2026-11-15.
 
 ## Time system and the two timescales
 
@@ -191,6 +205,15 @@ be economically and historically realistic.
 - The relationship between these working papers and the engine's economic simulation is not
   yet documented; see the open questions below.
 
+## Editing `.ods` working papers programmatically
+
+- The calibration `.ods` files must only ever be edited by byte-splicing `content.xml`, never
+  by XML round-tripping; get the procedure right from the maintenance guide:
+  [ods-editing](ods-editing.md). It covers the non-negotiable rules, the rescue path
+  (`git -C New restore <file>`), inspection, sorted-position insertion, reference
+  renumbering, re-zipping, and verification, with the working helper code.
+  `[EXECUTION-VERIFIED:2026-09-23]`
+
 ## Planned sections
 
 - The calibration method: what data sources are used and how values are derived.
@@ -206,6 +229,8 @@ be economically and historically realistic.
 - Who authored `Pak128 Britain - mod.xlsx` and which vehicle classes does its interim balance
   cover?
 - What yearly factors should `New/config/prices.tab` record per price type, and from which
-  historical sources?
+  historical sources? The method and sources are recorded in [prices-config](prices-config.md)
+  and [calibration-sources](calibration-sources.md); the remaining open points are the engine
+  field mapping and the five unfinished series.
 - Locate the board-75 thread "Recalibrating industry consumption and production" and integrate
   its conclusions on industry rates.

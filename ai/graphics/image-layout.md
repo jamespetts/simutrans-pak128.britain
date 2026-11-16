@@ -1,6 +1,6 @@
 ---
 status: draft
-verified: none
+verified: New ex-15 @ 8b04b2114
 ---
 # Image layout and format
 
@@ -20,9 +20,13 @@ layout, and special colours. The engine and makeobj are the authority.
 - There is no required palette. Any 24-bit RGB is accepted. Opaque colours are quantised to
   RGB555; colours with transparency are quantised to RGB343 with 31 alpha levels.
   `[CODE simutrans-extended master @ f378cf551]`
-- Alpha follows normal PNG semantics: alpha 0 is transparent and alpha 255 is opaque. The engine
-  inverts the channel internally. Pixels with alpha at or above 248 are treated as fully
-  transparent. `[CODE simutrans-extended master @ f378cf551]`
+- Alpha in the file follows normal PNG semantics: alpha 0 is transparent and alpha 255 is
+  opaque. On load the engine moves alpha first and inverts it (`utils/dr_rdpng.cc`:
+  `png_set_swap_alpha`, `png_set_invert_alpha`), so internally alpha 0 is opaque and alpha
+  255 is transparent. The "at or above 248" threshold applies to that internal inverted
+  channel: file pixels with alpha at or below 7 are treated as fully transparent
+  (`descriptor/writer/image_writer.cc`: `ALPHA_THRESHOLD`, `is_transparent`).
+  `[CODE simutrans-extended master @ f378cf551]`
 - Each cell is trimmed to the bounding box of its non-transparent pixels. The stored image
   offsets and dimensions are therefore the trimmed box, not the whole cell; the engine places it
   using those offsets. `[CODE simutrans-extended master @ f378cf551]`
@@ -50,6 +54,15 @@ Documented in the engine's image writer:
 - Property names are case-insensitive, and spaces inside `[]` are stripped.
 
 `[CODE simutrans-extended master @ f378cf551]`
+
+Placement semantics: the compiled image stores `image.x = xoffset + first_opaque_x` and
+`image.y = yoffset + first_opaque_y`, with width and height the trimmed content box; the
+engine draws it at `anchor + image.x/y`, where the anchor for a vehicle is the tile screen
+position plus the vehicle's screen offset. A `.dat` entry with no modifier therefore draws
+the content at its raw position inside the render cell, which is the usual cause of a vehicle
+sprite sitting off its way; see the aircraft offset table in
+[aircraft-notes](aircraft-notes.md).
+`[CODE simutrans-extended ex-15-industry-growth-test @ 1226bbe48]`
 
 ## Sheet layout
 

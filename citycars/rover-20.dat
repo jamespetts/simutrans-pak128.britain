@@ -9,6 +9,9 @@ intro_month=8
 retire_year=1910
 retire_month=11
 speed=67
+class=3
+maximum_comfortable_journey_minutes=22
+maximum_tolerable_journey_minutes=215
 
 Image[E]=./images/rover-20-blue_E.0.0,-33,14
 Image[SE]=./images/rover-20-blue_SE.0.0,-13,0
@@ -29,6 +32,9 @@ intro_month=2
 retire_year=1915
 retire_month=12
 speed=67
+class=3
+maximum_comfortable_journey_minutes=22
+maximum_tolerable_journey_minutes=215
 
 Image[E]=./images/rover-20-green_E.0.0,-33,14
 Image[SE]=./images/rover-20-green_SE.0.0,-13,0
@@ -49,6 +55,9 @@ intro_month=11
 retire_year=1919
 retire_month=10
 speed=67
+class=3
+maximum_comfortable_journey_minutes=22
+maximum_tolerable_journey_minutes=215
 
 Image[E]=./images/rover-20-red_E.0.0,-33,14
 Image[SE]=./images/rover-20-red_SE.0.0,-13,0

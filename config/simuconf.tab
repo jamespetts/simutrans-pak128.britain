@@ -236,6 +236,70 @@ tolerance_modifier_percentage = 66
 
 meters_per_tile = 125
 
+# The maximum number of dividing/joining movements that the path explorer
+# may compose into one through journey. A journey beyond the limit is
+# recorded up to the limit and continues as an ordinary transfer.
+# Default: 64
+max_through_coupling_depth = 64
+
+# Comfort influenced routing.
+# Old saves start with comfort_routing off; the advanced settings dialogue can
+# turn it on. New games start with it on. Turning it on runs the normal full
+# route refresh.
+comfort_routing = 1
+
+# Vehicle ride comfort, waiting comfort and walking comfort can be weighted
+# independently. Set any of these to 0 to leave that component out of route
+# costs.
+vehicle_comfort_weighting = 1
+waiting_comfort_weighting = 1
+walking_comfort_weighting = 1
+
+# Extra perceived time at 25%, 50%, 75% and 100% of the range from the
+# maximum comfortable time to the maximum tolerable time, as a percentage of
+# the leg's actual time.
+comfort_penalty_at_25_percent = 15
+comfort_penalty_at_50_percent = 50
+comfort_penalty_at_75_percent = 85
+comfort_penalty_at_100_percent = 100
+
+# Comfortable journey time assigned to a standing passenger, in minutes. When
+# a vehicle or class carries more passengers than its seated capacity, its
+# comfortable time becomes the capacity-weighted mean of the seated passengers'
+# normal comfortable time and this value. Only the comfortable time is lowered;
+# the tolerable journey time is unchanged.
+max_comfortable_journey_overcrowded = 5
+
+# Comfortable waiting time when the comfortable facility capacity is full, in
+# minutes. Overcrowding never changes the maximum tolerable waiting time.
+max_comfortable_wait_overcrowded = 15
+
+# Walking comfort uses the same penalty curve as vehicle and waiting comfort.
+# A walk of up to the maximum comfortable walking time counts as its actual
+# time. Between the comfortable and the tolerable time, the curve adds extra
+# perceived time. Above the maximum tolerable walking time, passengers will
+# not walk: a walking link between stops whose walk exceeds it is not
+# available, and passengers will not choose a whole journey on foot longer
+# than it. Passengers also have a laziness threshold drawn at random between
+# the maximum comfortable walking time and the shorter of the maximum
+# tolerable walking time and the passenger's journey time tolerance: below the
+# threshold, a passenger walks whenever walking is the quickest way to the
+# destination; above it, the passenger prefers public transport or their
+# private car even when walking would be quicker, unless that alternative is
+# outside their journey time tolerance.
+#
+# Maximum comfortable walking time in minutes. The default of 10 is how long
+# people readily walk: surveys find that most will walk 5-10 minutes to a stop
+# and few will walk more than 15-20 minutes when another means of travel is
+# available. It is also the lower end of the laziness threshold range.
+max_comfortable_walk_minutes = 10
+
+# Maximum tolerable walking time in minutes. This is the hard limit described
+# above. The default of 210 (3.5 hours) allows the long journeys on foot that
+# were common before public transport, such as walking several miles to market
+# and back in a day. It also caps the laziness threshold range.
+max_tolerable_walk_minutes = 210
+
 # These next settings affect the interaction between comfort and revenue. Comfort only
 # affects passenger traffic. Passengers have a certain level of comfort that
 # they will tolerate for certain distances. All comfort ratings are in the range of between 0 and
@@ -424,13 +488,6 @@ city_isolation_factor = 128
 # Minimum distance of a city attraction to other special buildings
 special_building_distance = 2
 
-# Passengers will walk to their destination if it is close enough, rather than use
-# players' transport or private cars. This parameter defines how close that close
-# enough is. It is expressed in hundreds of meters (or tenths of kilometres), so
-# the default setting of 15 means that passnegers will walk to their destination if
-# it is within 1.5km of their origin.
-
-max_walking_distance_km_tenth = 15
 
 # This is the speed in km/h at which passengers will walk. The average walking speed
 # is 5km/h, and this is the default. However, there is much to be said for a lower
@@ -796,7 +853,15 @@ cost_alter_land=8000
 cost_reclaim_land=100000
 cost_set_slope=25000
 cost_remove_tree=50
+# Land purchase. cost_buy_land is the country/default value; cost_buy_city_land
+# is the town value. If cost_buy_city_land is omitted, the engine uses
+# cost_buy_land for city land. The city cost is stored in saves from Extended
+# 15.15. Both land series in prices.tab are based at 1900 = 100. The engine
+# applies a city-size multiplier after the city base (x3 town, x4 city,
+# x6 capital), so the city base is set for a reference multiplier of 4:
+# 1500 * 7 / 4 = 2625. This gives a 1900 urban/farmland ratio of about 7:1.
 cost_buy_land=1500
+cost_buy_city_land=2625
 cost_multiply_remove_haus=500
 cost_multiply_remove_field=40000
 

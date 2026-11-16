@@ -9,6 +9,9 @@ intro_month=8
 retire_year=1971
 retire_month=7
 speed=115
+class=1,2
+maximum_comfortable_journey_minutes=45
+maximum_tolerable_journey_minutes=250
 
 Image[E]=./images/morris-minor-blue_E.0.0,-33,14
 Image[SE]=./images/morris-minor-blue_SE.0.0,-13,0
@@ -29,6 +32,9 @@ intro_month=8
 retire_year=1977
 retire_month=9
 speed=115
+class=1,2
+maximum_comfortable_journey_minutes=45
+maximum_tolerable_journey_minutes=250
 
 Image[E]=./images/morris-minor-green_E.0.0,-33,14
 Image[SE]=./images/morris-minor-green_SE.0.0,-13,0
@@ -49,6 +55,9 @@ intro_month=8
 retire_year=1971
 retire_month=7
 speed=115
+class=1,2
+maximum_comfortable_journey_minutes=45
+maximum_tolerable_journey_minutes=250
 
 Image[E]=./images/morris-minor-black_E.0.0,-33,14
 Image[SE]=./images/morris-minor-black_SE.0.0,-13,0
@@ -70,6 +79,9 @@ intro_month=2
 retire_year=1981
 retire_month=1
 speed=115
+class=1,2
+maximum_comfortable_journey_minutes=45
+maximum_tolerable_journey_minutes=250
 
 Image[E]=./images/morris-minor-red_E.0.0,-33,14
 Image[SE]=./images/morris-minor-red_SE.0.0,-13,0
@@ -92,6 +104,9 @@ intro_month=2
 retire_year=1979
 retire_month=12
 speed=115
+class=1,2
+maximum_comfortable_journey_minutes=45
+maximum_tolerable_journey_minutes=250
 
 Image[E]=./images/morris-minor-white_E.0.0,-33,14
 Image[SE]=./images/morris-minor-white_SE.0.0,-13,0

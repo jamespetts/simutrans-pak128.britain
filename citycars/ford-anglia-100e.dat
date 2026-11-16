@@ -1,0 +1,181 @@
+# https://en.wikipedia.org/wiki/Ford_Anglia
+# Ford Anglia 100E: the 2-door volume Anglia of 1953-1959. Launched in October
+# 1953 as Ford of Britain's three-box replacement for the upright E494A Anglia;
+# 345,841 built to October 1959, when the 105E replaced it and the 100E body
+# continued as the Popular 100E to 1962. The 4-door twin of the same body (Ford
+# Prefect 100E, 100,554 built to 1959) is in the tree as FordPrefectLate; this is
+# the cheaper 2-door Anglia.
+#
+# The E494A Anglia (1949-53) is not modelled separately: it shares its body
+# family and front-end styling with the E93A/E493A Prefect already modelled as
+# FordPrefectEarly (1938-1953), the only material difference is the number of
+# doors, which the pak-scale model does not show, and no source reached gives
+# Ford of Britain paint names for 1948-53. Precedent: the Morris Cowley is
+# represented by the two Morris Oxford models.
+#
+# Dimensions (the sources disagree by more than the model can show at pak
+# scale): Anglia 100E 3,854 x 1,537 x 1,454 mm, wheelbase 2,210 mm (Wikipedia
+# "Ford Anglia", 100E infobox; width and height from The Motor, 1954); Prefect
+# 100E 3,861 x 1,448 x 1,486 mm (The Motor, 1957); Popular 100E 3,804 x 1,543 x
+# 1,492 mm (The Motor, 1960).
+#
+# Colours: Black, Corfe Grey, Sarum Blue, Wells Fawn and Hereford Green are real
+# Ford of Britain paint names, taken from the 100E Anglia de Luxe colour list in
+# the April 1957 UK brochure (Ford publication C5543/457, scan on archive.org):
+# "Anglia de Luxe colours available - Ivory, Sarum Blue, Hereford Green, Corfe
+# Grey, Warwick Green, Wells Fawn, Carlile Blue, Black", with the standard 100E
+# listed in Wells Fawn, Corfe Grey and Black only. The 1953-56 launch-range paint
+# names were not found in any source reached, so the evidenced April 1957 range
+# is used across the model; the earlier palette may have differed in name. Ivory,
+# Warwick Green and Carlile Blue are omitted as the less common of the eight.
+#
+# Colour shares: the DVSA first-registration table starts with 1994
+# registrations, so its measured base for cars first registered in 1994-96 (blue
+# 23-25%, red 19-23%, white 7-10%, black 8-10%, grey 4-5%, silver 9-11%, other
+# 20-25%) is the starting point, adjusted for mid-1950s registrations: silver
+# (9-11% measured) was not a mass-market colour before the 1970s metallics and is
+# omitted; black and grey are weighted up (both were near their post-war peak in
+# the 1950s and both were standard 100E colours); green and fawn/beige come out
+# of the measured "other" group, which was far larger before the 1970s; cream/
+# ivory (7-10% measured) is the next colour and is omitted. Shares used: blue
+# 24%, black 23%, grey 19%, fawn 17%, green 15%.
+#
+# DistributionWeight totals 320 across the five colourways, provisionally: the
+# model is a strong non-anchor tiered below the 1955/1960 anchor (Morris Minor,
+# 500 on the 2026-11-15 rebase) at roughly two-thirds of it, from the production
+# ratio (345,841 100E Anglias against about 885,000 Minors built by end-1960),
+# adjusted for the Minor's larger export share and longer accumulation of stock.
+# Provisional pending the central rebase. The 100E and 105E overlap briefly in
+# road presence (1959-64), so their combined weight exceeds the anchor's 500 in
+# that window; this is a property of the per-generation convention and is for the
+# central rebase to resolve.
+#
+# Speed 115 km/h: a game-balance figure, not the model's top speed. The Motor
+# recorded 70.2 mph (113 km/h) for a 100E saloon in 1954. Comfort 45/250 sits at
+# the contemporary small-car tier (Morris Minor 45/250, FordPrefectLate 45/250).
+#
+# Dates describe when each colour would be seen regularly on UK roads, not
+# production dates. Black, Corfe Grey and Wells Fawn enter at the October 1953
+# launch as the three documented standard-car colours; the Deluxe-only colours
+# are staggered on observed road presence (estimates). Production ended in
+# October 1959 but the 100E body ran as the Popular 100E to 1962, hence the road
+# tails to 1964-67. The modelled front end is the 1957-59 mesh-grille form with
+# chrome bumpers. The photo-referenced body has a separate sloping rear window
+# and a rounded boot with a shallow crown, rather than a hatchback rear.
+# Metres master: citycars/4.5/ford-anglia-100e-photo.blend in the blends repository.
+# Geometry and final colour renders approved on 2026-11-15.
+
+obj=citycar
+name=FordAnglia100E(Black)
+copyright=JamesPetts
+
+DistributionWeight=75
+intro_year=1953
+intro_month=10
+retire_year=1966
+retire_month=6
+speed=115
+class=1,2
+maximum_comfortable_journey_minutes=45
+maximum_tolerable_journey_minutes=250
+
+Image[E]=./images/ford-anglia-100e-black_E.0.0,-33,14
+Image[SE]=./images/ford-anglia-100e-black_SE.0.0,-13,0
+Image[S]=./images/ford-anglia-100e-black_S.0.0,0,0
+Image[SW]=./images/ford-anglia-100e-black_SW.0.0,-8,10
+Image[W]=./images/ford-anglia-100e-black_W.0.0,4,5
+Image[NW]=./images/ford-anglia-100e-black_NW.0.0,12,10
+Image[N]=./images/ford-anglia-100e-black_N.0.0,0,33
+Image[NE]=./images/ford-anglia-100e-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FordAnglia100E(CorfeGrey)
+copyright=JamesPetts
+
+DistributionWeight=62
+intro_year=1953
+intro_month=10
+retire_year=1965
+retire_month=6
+speed=115
+class=1,2
+maximum_comfortable_journey_minutes=45
+maximum_tolerable_journey_minutes=250
+
+Image[E]=./images/ford-anglia-100e-grey_E.0.0,-33,14
+Image[SE]=./images/ford-anglia-100e-grey_SE.0.0,-13,0
+Image[S]=./images/ford-anglia-100e-grey_S.0.0,0,0
+Image[SW]=./images/ford-anglia-100e-grey_SW.0.0,-8,10
+Image[W]=./images/ford-anglia-100e-grey_W.0.0,4,5
+Image[NW]=./images/ford-anglia-100e-grey_NW.0.0,12,10
+Image[N]=./images/ford-anglia-100e-grey_N.0.0,0,33
+Image[NE]=./images/ford-anglia-100e-grey_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FordAnglia100E(WellsFawn)
+copyright=JamesPetts
+
+DistributionWeight=56
+intro_year=1953
+intro_month=10
+retire_year=1967
+retire_month=6
+speed=115
+class=1,2
+maximum_comfortable_journey_minutes=45
+maximum_tolerable_journey_minutes=250
+
+Image[E]=./images/ford-anglia-100e-fawn_E.0.0,-33,14
+Image[SE]=./images/ford-anglia-100e-fawn_SE.0.0,-13,0
+Image[S]=./images/ford-anglia-100e-fawn_S.0.0,0,0
+Image[SW]=./images/ford-anglia-100e-fawn_SW.0.0,-8,10
+Image[W]=./images/ford-anglia-100e-fawn_W.0.0,4,5
+Image[NW]=./images/ford-anglia-100e-fawn_NW.0.0,12,10
+Image[N]=./images/ford-anglia-100e-fawn_N.0.0,0,33
+Image[NE]=./images/ford-anglia-100e-fawn_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FordAnglia100E(SarumBlue)
+copyright=JamesPetts
+
+DistributionWeight=78
+intro_year=1955
+intro_month=3
+retire_year=1965
+retire_month=12
+speed=115
+class=1,2
+maximum_comfortable_journey_minutes=45
+maximum_tolerable_journey_minutes=250
+
+Image[E]=./images/ford-anglia-100e-blue_E.0.0,-33,14
+Image[SE]=./images/ford-anglia-100e-blue_SE.0.0,-13,0
+Image[S]=./images/ford-anglia-100e-blue_S.0.0,0,0
+Image[SW]=./images/ford-anglia-100e-blue_SW.0.0,-8,10
+Image[W]=./images/ford-anglia-100e-blue_W.0.0,4,5
+Image[NW]=./images/ford-anglia-100e-blue_NW.0.0,12,10
+Image[N]=./images/ford-anglia-100e-blue_N.0.0,0,33
+Image[NE]=./images/ford-anglia-100e-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FordAnglia100E(HerefordGreen)
+copyright=JamesPetts
+
+DistributionWeight=49
+intro_year=1956
+intro_month=9
+retire_year=1964
+retire_month=6
+speed=115
+class=1,2
+maximum_comfortable_journey_minutes=45
+maximum_tolerable_journey_minutes=250
+
+Image[E]=./images/ford-anglia-100e-green_E.0.0,-33,14
+Image[SE]=./images/ford-anglia-100e-green_SE.0.0,-13,0
+Image[S]=./images/ford-anglia-100e-green_S.0.0,0,0
+Image[SW]=./images/ford-anglia-100e-green_SW.0.0,-8,10
+Image[W]=./images/ford-anglia-100e-green_W.0.0,4,5
+Image[NW]=./images/ford-anglia-100e-green_NW.0.0,12,10
+Image[N]=./images/ford-anglia-100e-green_N.0.0,0,33
+Image[NE]=./images/ford-anglia-100e-green_NE.0.0,0,24

@@ -10,6 +10,9 @@ intro_month=8
 retire_year=1925
 retire_month=7
 speed=64
+class=2,3
+maximum_comfortable_journey_minutes=30
+maximum_tolerable_journey_minutes=225
 
 Image[E]=./images/rover-8-1919-blue_E.0.0,-33,14
 Image[SE]=./images/rover-8-1919-blue_SE.0.0,-13,0
@@ -30,6 +33,9 @@ intro_month=1
 retire_year=1928
 retire_month=8
 speed=64
+class=2,3
+maximum_comfortable_journey_minutes=30
+maximum_tolerable_journey_minutes=225
 
 Image[E]=./images/rover-8-1919-green_E.0.0,-33,14
 Image[SE]=./images/rover-8-1919-green_SE.0.0,-13,0
@@ -50,6 +56,9 @@ intro_month=7
 retire_year=1929
 retire_month=5
 speed=64
+class=2,3
+maximum_comfortable_journey_minutes=30
+maximum_tolerable_journey_minutes=225
 
 Image[E]=./images/rover-8-1919-red_E.0.0,-33,14
 Image[SE]=./images/rover-8-1919-red_SE.0.0,-13,0
@@ -71,6 +80,9 @@ intro_month=8
 retire_year=1932
 retire_month=4
 speed=64
+class=2,3
+maximum_comfortable_journey_minutes=30
+maximum_tolerable_journey_minutes=225
 
 Image[E]=./images/rover-8-1919-black_E.0.0,-33,14
 Image[SE]=./images/rover-8-1919-black_SE.0.0,-13,0
@@ -92,6 +104,9 @@ intro_month=3
 retire_year=1933
 retire_month=3
 speed=64
+class=2,3
+maximum_comfortable_journey_minutes=30
+maximum_tolerable_journey_minutes=225
 
 Image[E]=./images/rover-8-1919-brown_E.0.0,-33,14
 Image[SE]=./images/rover-8-1919-brown_SE.0.0,-13,0

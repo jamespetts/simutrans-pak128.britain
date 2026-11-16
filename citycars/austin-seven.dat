@@ -9,6 +9,9 @@ intro_month=1
 retire_year=1945
 retire_month=8
 speed=80
+class=0,1,2
+maximum_comfortable_journey_minutes=25
+maximum_tolerable_journey_minutes=220
 
 Image[E]=./images/austin-seven-blue_E.0.0,-33,14
 Image[SE]=./images/austin-seven-blue_SE.0.0,-13,0
@@ -29,6 +32,9 @@ intro_month=6
 retire_year=1948
 retire_month=7
 speed=80
+class=0,1,2
+maximum_comfortable_journey_minutes=25
+maximum_tolerable_journey_minutes=220
 
 Image[E]=./images/austin-seven-red_E.0.0,-33,14
 Image[SE]=./images/austin-seven-red_SE.0.0,-13,0
@@ -49,6 +55,9 @@ intro_month=4
 retire_year=1950
 retire_month=1
 speed=80
+class=0,1,2
+maximum_comfortable_journey_minutes=25
+maximum_tolerable_journey_minutes=220
 
 Image[E]=./images/austin-seven-cream_E.0.0,-33,14
 Image[SE]=./images/austin-seven-cream_SE.0.0,-13,0
@@ -69,6 +78,9 @@ intro_month=1
 retire_year=1949
 retire_month=5
 speed=80
+class=0,1,2
+maximum_comfortable_journey_minutes=25
+maximum_tolerable_journey_minutes=220
 
 Image[E]=./images/austin-seven-black_E.0.0,-33,14
 Image[SE]=./images/austin-seven-black_SE.0.0,-13,0
@@ -89,6 +101,9 @@ intro_month=1
 retire_year=1945
 retire_month=8
 speed=80
+class=0,1,2
+maximum_comfortable_journey_minutes=25
+maximum_tolerable_journey_minutes=220
 
 Image[E]=./images/austin-seven-green_E.0.0,-33,14
 Image[SE]=./images/austin-seven-green_SE.0.0,-13,0

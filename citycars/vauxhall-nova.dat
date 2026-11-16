@@ -1,0 +1,108 @@
+# https://en.wikipedia.org/wiki/Opel_Corsa
+# Vauxhall Nova: the UK-market Corsa A, a 3/5-door supermini hatchback.
+# UK launch April 1983; production ended March 1993. Nearly 500,000 were sold
+# in Britain, with a best year of over 70,000 (7th best-selling car, 1989).
+#
+# Colours: Flame Red, Estate Blue, Polar White, Black. The DVSA colour table
+# starts at 1994 registrations; its 1994-96 survivor shares (blue 23-25%,
+# red 19-23%, white 7-10%, black 8-10%) are used as the measured base, with
+# white and red weighted up because they were stronger on 1980s registrations.
+# Paint names are Vauxhall marketing names for the approximate shades; the
+# render values are approximations, not paint codes.
+#
+# Intro/retire dates describe when that colour would be seen regularly on UK
+# roads, not the production dates. Weights total 46 against the Escort Mk3's
+# 100, matching the Nova's roughly half-Escort UK volume.
+
+obj=citycar
+name=VauxhallNova(Blue)
+copyright=JamesPetts
+
+DistributionWeight=15
+intro_year=1983
+intro_month=4
+retire_year=2002
+retire_month=6
+speed=110
+class=0,1,2
+maximum_comfortable_journey_minutes=55
+maximum_tolerable_journey_minutes=265
+
+Image[E]=./images/vauxhall-nova-blue_E.0.0,-33,14
+Image[SE]=./images/vauxhall-nova-blue_SE.0.0,-13,0
+Image[S]=./images/vauxhall-nova-blue_S.0.0,0,0
+Image[SW]=./images/vauxhall-nova-blue_SW.0.0,-8,10
+Image[W]=./images/vauxhall-nova-blue_W.0.0,4,5
+Image[NW]=./images/vauxhall-nova-blue_NW.0.0,12,10
+Image[N]=./images/vauxhall-nova-blue_N.0.0,0,33
+Image[NE]=./images/vauxhall-nova-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallNova(Red)
+copyright=JamesPetts
+
+DistributionWeight=14
+intro_year=1983
+intro_month=4
+retire_year=2000
+retire_month=12
+speed=110
+class=0,1,2
+maximum_comfortable_journey_minutes=55
+maximum_tolerable_journey_minutes=265
+
+Image[E]=./images/vauxhall-nova-red_E.0.0,-33,14
+Image[SE]=./images/vauxhall-nova-red_SE.0.0,-13,0
+Image[S]=./images/vauxhall-nova-red_S.0.0,0,0
+Image[SW]=./images/vauxhall-nova-red_SW.0.0,-8,10
+Image[W]=./images/vauxhall-nova-red_W.0.0,4,5
+Image[NW]=./images/vauxhall-nova-red_NW.0.0,12,10
+Image[N]=./images/vauxhall-nova-red_N.0.0,0,33
+Image[NE]=./images/vauxhall-nova-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallNova(White)
+copyright=JamesPetts
+
+DistributionWeight=9
+intro_year=1983
+intro_month=4
+retire_year=1999
+retire_month=12
+speed=110
+class=0,1,2
+maximum_comfortable_journey_minutes=55
+maximum_tolerable_journey_minutes=265
+
+Image[E]=./images/vauxhall-nova-white_E.0.0,-33,14
+Image[SE]=./images/vauxhall-nova-white_SE.0.0,-13,0
+Image[S]=./images/vauxhall-nova-white_S.0.0,0,0
+Image[SW]=./images/vauxhall-nova-white_SW.0.0,-8,10
+Image[W]=./images/vauxhall-nova-white_W.0.0,4,5
+Image[NW]=./images/vauxhall-nova-white_NW.0.0,12,10
+Image[N]=./images/vauxhall-nova-white_N.0.0,0,33
+Image[NE]=./images/vauxhall-nova-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallNova(Black)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=1984
+intro_month=8
+retire_year=2001
+retire_month=12
+speed=110
+class=0,1,2
+maximum_comfortable_journey_minutes=55
+maximum_tolerable_journey_minutes=265
+
+Image[E]=./images/vauxhall-nova-black_E.0.0,-33,14
+Image[SE]=./images/vauxhall-nova-black_SE.0.0,-13,0
+Image[S]=./images/vauxhall-nova-black_S.0.0,0,0
+Image[SW]=./images/vauxhall-nova-black_SW.0.0,-8,10
+Image[W]=./images/vauxhall-nova-black_W.0.0,4,5
+Image[NW]=./images/vauxhall-nova-black_NW.0.0,12,10
+Image[N]=./images/vauxhall-nova-black_N.0.0,0,33
+Image[NE]=./images/vauxhall-nova-black_NE.0.0,0,24
+

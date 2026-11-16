@@ -6,6 +6,9 @@ DistributionWeight=5
 intro_year=1973
 retire_year=1998
 speed=80
+class=0,1
+maximum_comfortable_journey_minutes=28
+maximum_tolerable_journey_minutes=220
 
 Image[E]=./images/reliant-robin-blue_E.0.0,-33,14
 Image[SE]=./images/reliant-robin-blue_SE.0.0,-13,0
@@ -24,6 +27,9 @@ DistributionWeight=5
 intro_year=1973
 retire_year=1998
 speed=80
+class=0,1
+maximum_comfortable_journey_minutes=28
+maximum_tolerable_journey_minutes=220
 
 Image[E]=./images/reliant-robin-maroon_E.0.0,-33,14
 Image[SE]=./images/reliant-robin-maroon_SE.0.0,-13,0
@@ -42,6 +48,9 @@ DistributionWeight=5
 intro_year=1990
 retire_year=1998
 speed=80
+class=0,1
+maximum_comfortable_journey_minutes=28
+maximum_tolerable_journey_minutes=220
 
 Image[E]=./images/reliant-robin-silver_E.0.0,-33,14
 Image[SE]=./images/reliant-robin-silver_SE.0.0,-13,0
@@ -60,6 +69,9 @@ DistributionWeight=5
 intro_year=1973
 retire_year=1998
 speed=80
+class=0,1
+maximum_comfortable_journey_minutes=28
+maximum_tolerable_journey_minutes=220
 
 Image[E]=./images/reliant-robin-yellow_E.0.0,-33,14
 Image[SE]=./images/reliant-robin-yellow_SE.0.0,-13,0

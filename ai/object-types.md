@@ -12,6 +12,9 @@ and therefore the types the pakset can use, each have a child doc here. Some typ
 currently present in the pakset; they are recorded so that the type's scope and intent are not
 lost. Read the child doc for the type a task touches.
 
+Every new asset also requires translation texts (`New/text/en.tab` entries) as part of its
+creation: [translations-and-text](translations-and-text.md). `[USER-DIRECTION:2026-11-15]`
+
 ## Type docs
 
 - [vehicle](objects/vehicle.md) — read when touching trains, buses, trams, boats, aircraft, or any `Obj=vehicle`. Keys the [field reference](objects/vehicle-fields.md), [coupling constraints](objects/coupling-constraints.md), and [way constraints](objects/way-constraints.md) child docs.

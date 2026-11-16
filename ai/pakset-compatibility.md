@@ -1,6 +1,6 @@
 ---
 status: draft
-verified: New master @ 4fffcc19e
+verified: New ex-15 @ 0a4be8077 (working tree)
 ---
 # Pakset compatibility
 
@@ -32,6 +32,15 @@ compatibility, and the restrictions on changing them.
   or intro/retire date logic; value changes are outside its scope.
   `[CODE New master @ 4fffcc19e]`
 
+## Land purchase cost split (Extended 15.15)
+
+- `settings_t::cst_buy_city_land` is stored in saves from Extended 15.15. Older saves load
+  with the city cost equal to the country cost. A pakset that sets only `cost_buy_land`
+  mirrors it into the city cost. `[CODE simutrans-extended ex-15 @ 0d41455e]`
+- The pakset sets `cost_buy_land=1500` and `cost_buy_city_land=2625` in `simuconf.tab`; the
+  city value is the base before the engine's ×3/×4/×6 city-size multiplier.
+  `[CODE New ex-15 @ 0a4be8077]`
+
 ## Planned sections
 
 - Which `.dat` fields and value changes are save/load-relevant and which are not.
@@ -44,3 +53,5 @@ compatibility, and the restrictions on changing them.
   to them?
 - What is the safe procedure for changing an object's capacity or constraints without breaking
   existing games?
+- What is the exact list of save/load-relevant `.dat` fields (as opposed to display-only
+  fields)? Unresearched; do not assume.

@@ -7,6 +7,9 @@ DistributionWeight=5
 intro_year=2015
 intro_month=8
 speed=135
+class=2,3
+maximum_comfortable_journey_minutes=135
+maximum_tolerable_journey_minutes=385
 
 Image[E]=./images/ford-galaxy-mk3-blue_E.0.0,-33,14
 Image[SE]=./images/ford-galaxy-mk3-blue_SE.0.0,-13,0
@@ -26,6 +29,9 @@ DistributionWeight=4
 intro_year=2017
 intro_month=9
 speed=135
+class=2,3
+maximum_comfortable_journey_minutes=135
+maximum_tolerable_journey_minutes=385
 
 Image[E]=./images/ford-galaxy-mk3-red_E.0.0,-33,14
 Image[SE]=./images/ford-galaxy-mk3-red_SE.0.0,-13,0
@@ -46,6 +52,9 @@ DistributionWeight=6
 intro_year=2016
 intro_month=4
 speed=135
+class=2,3
+maximum_comfortable_journey_minutes=135
+maximum_tolerable_journey_minutes=385
 
 Image[E]=./images/ford-galaxy-mk3-grey_E.0.0,-33,14
 Image[SE]=./images/ford-galaxy-mk3-grey_SE.0.0,-13,0

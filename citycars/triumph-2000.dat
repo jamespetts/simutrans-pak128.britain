@@ -9,6 +9,9 @@ intro_month=8
 retire_year=1977
 retire_month=7
 speed=142
+class=2,3
+maximum_comfortable_journey_minutes=85
+maximum_tolerable_journey_minutes=310
 
 Image[E]=./images/triumph-2000-blue_E.0.0,-33,14
 Image[SE]=./images/triumph-2000-blue_SE.0.0,-13,0
@@ -29,6 +32,9 @@ intro_month=8
 retire_year=1979
 retire_month=4
 speed=142
+class=2,3
+maximum_comfortable_journey_minutes=85
+maximum_tolerable_journey_minutes=310
 
 Image[E]=./images/triumph-2000-green_E.0.0,-33,14
 Image[SE]=./images/triumph-2000-green_SE.0.0,-13,0
@@ -50,6 +56,9 @@ intro_month=2
 retire_year=1987
 retire_month=5
 speed=142
+class=2,3
+maximum_comfortable_journey_minutes=85
+maximum_tolerable_journey_minutes=310
 
 Image[E]=./images/triumph-2000-gold_E.0.0,-33,14
 Image[SE]=./images/triumph-2000-gold_SE.0.0,-13,0
@@ -71,6 +80,9 @@ intro_month=3
 retire_year=1981
 retire_month=9
 speed=142
+class=2,3
+maximum_comfortable_journey_minutes=85
+maximum_tolerable_journey_minutes=310
 
 Image[E]=./images/triumph-2000-black_E.0.0,-33,14
 Image[SE]=./images/triumph-2000-black_SE.0.0,-13,0
@@ -92,6 +104,9 @@ intro_month=12
 retire_year=1980
 retire_month=4
 speed=142
+class=2,3
+maximum_comfortable_journey_minutes=85
+maximum_tolerable_journey_minutes=310
 
 Image[E]=./images/triumph-2000-white_E.0.0,-33,14
 Image[SE]=./images/triumph-2000-white_SE.0.0,-13,0

@@ -6,6 +6,9 @@ DistributionWeight=10
 intro_year=1980
 retire_year=1998
 speed=125
+class=0,1,2
+maximum_comfortable_journey_minutes=38
+maximum_tolerable_journey_minutes=235
 
 Image[E]=./images/austin-metro-blue_E.0.0,-33,14
 Image[SE]=./images/austin-metro-blue_SE.0.0,-13,0
@@ -24,6 +27,9 @@ DistributionWeight=10
 intro_year=1980
 retire_year=1999
 speed=125
+class=0,1,2
+maximum_comfortable_journey_minutes=38
+maximum_tolerable_journey_minutes=235
 
 Image[E]=./images/austin-metro-red_E.0.0,-33,14
 Image[SE]=./images/austin-metro-red_SE.0.0,-13,0
@@ -42,6 +48,9 @@ DistributionWeight=8
 intro_year=1990
 retire_year=2009
 speed=125
+class=0,1,2
+maximum_comfortable_journey_minutes=38
+maximum_tolerable_journey_minutes=235
 
 Image[E]=./images/austin-metro-yellow_E.0.0,-33,14
 Image[SE]=./images/austin-metro-yellow_SE.0.0,-13,0
@@ -60,6 +69,9 @@ DistributionWeight=10
 intro_year=1982
 retire_year=2000
 speed=125
+class=0,1,2
+maximum_comfortable_journey_minutes=38
+maximum_tolerable_journey_minutes=235
 
 Image[E]=./images/austin-metro-yellow_E.0.0,-33,14
 Image[SE]=./images/austin-metro-yellow_SE.0.0,-13,0
@@ -78,6 +90,9 @@ DistributionWeight=7
 intro_year=1983
 retire_year=2001
 speed=125
+class=0,1,2
+maximum_comfortable_journey_minutes=38
+maximum_tolerable_journey_minutes=235
 
 Image[E]=./images/austin-metro-green_E.0.0,-33,14
 Image[SE]=./images/austin-metro-green_SE.0.0,-13,0
@@ -96,6 +111,9 @@ DistributionWeight=2
 intro_year=1986
 retire_year=2007
 speed=125
+class=0,1,2
+maximum_comfortable_journey_minutes=38
+maximum_tolerable_journey_minutes=235
 
 Image[E]=./images/austin-metro-purple_E.0.0,-33,14
 Image[SE]=./images/austin-metro-purple_SE.0.0,-13,0
@@ -115,6 +133,9 @@ DistributionWeight=4
 intro_year=1980
 retire_year=1994
 speed=125
+class=0,1,2
+maximum_comfortable_journey_minutes=38
+maximum_tolerable_journey_minutes=235
 
 Image[E]=./images/austin-metro-brown_E.0.0,-33,14
 Image[SE]=./images/austin-metro-brown_SE.0.0,-13,0

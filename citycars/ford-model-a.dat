@@ -9,6 +9,9 @@ intro_month=3
 retire_year=1931
 retire_month=7
 speed=105
+class=2,3
+maximum_comfortable_journey_minutes=35
+maximum_tolerable_journey_minutes=235
 
 Image[E]=./images/ford-model-a-blue_E.0.0,-33,14
 Image[SE]=./images/ford-model-a-blue_SE.0.0,-13,0
@@ -29,6 +32,9 @@ intro_month=4
 retire_year=1935
 retire_month=6
 speed=105
+class=2,3
+maximum_comfortable_journey_minutes=35
+maximum_tolerable_journey_minutes=235
 
 Image[E]=./images/ford-model-a-green_E.0.0,-33,14
 Image[SE]=./images/ford-model-a-green_SE.0.0,-13,0
@@ -49,6 +55,9 @@ intro_month=3
 retire_year=1937
 retire_month=9
 speed=105
+class=2,3
+maximum_comfortable_journey_minutes=35
+maximum_tolerable_journey_minutes=235
 
 Image[E]=./images/ford-model-a-black_E.0.0,-33,14
 Image[SE]=./images/ford-model-a-black_SE.0.0,-13,0
@@ -70,6 +79,9 @@ intro_month=7
 retire_year=1939
 retire_month=1
 speed=105
+class=2,3
+maximum_comfortable_journey_minutes=35
+maximum_tolerable_journey_minutes=235
 
 Image[E]=./images/ford-model-a-red_E.0.0,-33,14
 Image[SE]=./images/ford-model-a-red_SE.0.0,-13,0

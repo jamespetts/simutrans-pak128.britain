@@ -1,0 +1,108 @@
+# https://en.wikipedia.org/wiki/Ford_Fiesta
+# Ford Fiesta Mk4 (BE91): launched October 1995, production to December 2002.
+# Britain's best-selling car 1996-1998, when the Focus overtook it. UK
+# registrations 129,574 (1995), 139,552 (1996) and 116,110 (1998).
+#
+# Colours: State Blue, Moondust Silver, Radiant Red, Panther Black. The paint
+# names are the actual Ford offerings with their availability years (State/
+# Lugano Blue mica 1995-2026, Moondust Silver 1991-2026, Radiant Red 1988-2006,
+# Panther Black mica 1997-2019). These are the four largest measured DVSA
+# first-registration shares over the model's road years 1995-2002: blue 24.5%,
+# silver 21.8%, red 15.1%, black 9.3%. Silver rose from 9.0% (1995) to 32.6%
+# (2002) across those years.
+#
+# Dates are staggered per colour by observed road presence. Weights total 500,
+# the 2026-11-15 anchor convention for the Fiesta (provisional; a central
+# rebase follows), split 24.5:21.8:15.1:9.3.
+
+obj=citycar
+name=FordFiestaMk4(Blue)
+copyright=JamesPetts
+
+DistributionWeight=173
+intro_year=1995
+intro_month=10
+retire_year=2010
+retire_month=6
+speed=125
+class=0,1,2
+maximum_comfortable_journey_minutes=75
+maximum_tolerable_journey_minutes=295
+
+Image[E]=./images/ford-fiesta-mk4-blue_E.0.0,-33,14
+Image[SE]=./images/ford-fiesta-mk4-blue_SE.0.0,-13,0
+Image[S]=./images/ford-fiesta-mk4-blue_S.0.0,0,0
+Image[SW]=./images/ford-fiesta-mk4-blue_SW.0.0,-8,10
+Image[W]=./images/ford-fiesta-mk4-blue_W.0.0,4,5
+Image[NW]=./images/ford-fiesta-mk4-blue_NW.0.0,12,10
+Image[N]=./images/ford-fiesta-mk4-blue_N.0.0,0,33
+Image[NE]=./images/ford-fiesta-mk4-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FordFiestaMk4(Silver)
+copyright=JamesPetts
+
+DistributionWeight=154
+intro_year=1995
+intro_month=10
+retire_year=2011
+retire_month=12
+speed=125
+class=0,1,2
+maximum_comfortable_journey_minutes=75
+maximum_tolerable_journey_minutes=295
+
+Image[E]=./images/ford-fiesta-mk4-silver_E.0.0,-33,14
+Image[SE]=./images/ford-fiesta-mk4-silver_SE.0.0,-13,0
+Image[S]=./images/ford-fiesta-mk4-silver_S.0.0,0,0
+Image[SW]=./images/ford-fiesta-mk4-silver_SW.0.0,-8,10
+Image[W]=./images/ford-fiesta-mk4-silver_W.0.0,4,5
+Image[NW]=./images/ford-fiesta-mk4-silver_NW.0.0,12,10
+Image[N]=./images/ford-fiesta-mk4-silver_N.0.0,0,33
+Image[NE]=./images/ford-fiesta-mk4-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FordFiestaMk4(Red)
+copyright=JamesPetts
+
+DistributionWeight=107
+intro_year=1995
+intro_month=10
+retire_year=2009
+retire_month=12
+speed=125
+class=0,1,2
+maximum_comfortable_journey_minutes=75
+maximum_tolerable_journey_minutes=295
+
+Image[E]=./images/ford-fiesta-mk4-red_E.0.0,-33,14
+Image[SE]=./images/ford-fiesta-mk4-red_SE.0.0,-13,0
+Image[S]=./images/ford-fiesta-mk4-red_S.0.0,0,0
+Image[SW]=./images/ford-fiesta-mk4-red_SW.0.0,-8,10
+Image[W]=./images/ford-fiesta-mk4-red_W.0.0,4,5
+Image[NW]=./images/ford-fiesta-mk4-red_NW.0.0,12,10
+Image[N]=./images/ford-fiesta-mk4-red_N.0.0,0,33
+Image[NE]=./images/ford-fiesta-mk4-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FordFiestaMk4(Black)
+copyright=JamesPetts
+
+DistributionWeight=66
+intro_year=1998
+intro_month=4
+retire_year=2010
+retire_month=12
+speed=125
+class=0,1,2
+maximum_comfortable_journey_minutes=75
+maximum_tolerable_journey_minutes=295
+
+Image[E]=./images/ford-fiesta-mk4-black_E.0.0,-33,14
+Image[SE]=./images/ford-fiesta-mk4-black_SE.0.0,-13,0
+Image[S]=./images/ford-fiesta-mk4-black_S.0.0,0,0
+Image[SW]=./images/ford-fiesta-mk4-black_SW.0.0,-8,10
+Image[W]=./images/ford-fiesta-mk4-black_W.0.0,4,5
+Image[NW]=./images/ford-fiesta-mk4-black_NW.0.0,12,10
+Image[N]=./images/ford-fiesta-mk4-black_N.0.0,0,33
+Image[NE]=./images/ford-fiesta-mk4-black_NE.0.0,0,24

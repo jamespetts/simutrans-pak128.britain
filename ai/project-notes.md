@@ -7,6 +7,17 @@ verified: New master @ 4fffcc19e
 **Covers**: short cross-cutting notes that are easy to miss and apply to many tasks. Read at the
 start of most tasks.
 
+## Hard rule: photographic reference (2026-11-15)
+
+**ALL visual asset creation MUST use direct reference photographs of the real subject (or
+scale drawings if photographs cannot be found). This binds the agent actually driving the
+Blender MCP session: that agent must work from the photographs itself — look at them,
+measure the subject's proportions from them, and iterate the geometry against them. NEVER
+build shape from text descriptions, dimension tables or memory: text cannot convey shape.
+If reference photographs (or drawings) cannot be found, STOP and prompt the user to supply
+them. No geometry is built without photographic (or drawing) reference in hand.**
+`[USER-DIRECTION:2026-11-15]`
+
 ## Notes
 
 - The base workspace root is not a git repository. Only `New/` and
@@ -17,13 +28,29 @@ start of most tasks.
 - Pakset `.dat` values are consumed by Simutrans-Extended. Changing capacities, constraints,
   prices or other save-relevant fields can affect existing savegames and network games; see
   [pakset-compatibility](pakset-compatibility.md) before doing so.
+- Every number derived from historical data must name its source, in the header of the file
+  that holds it and in the dataset registry. A number with no recorded source counts as an
+  estimate and must be labelled as one. Rule and registry:
+  [calibration-sources](calibration-sources.md). `[USER-DIRECTION:2026-11-15]`
+- Translation texts are a required part of every new asset: each new object needs its
+  `New/text/en.tab` entry as part of creation, not as a later follow-up
+  ([translations-and-text](translations-and-text.md)). `[USER-DIRECTION:2026-11-15]`
 - The pakset has two halves kept in two repositories: the compiled sources in `New/` and the
   Blender meta-sources in `Git Blends/Pak128.Britain-blends/`. A graphics change normally starts
   in the latter and ends as `.png` files in the former.
-- Novel `.blend` creation by AI is currently unstable; minor `.blend` edits and the
-  `.blend`→`.pak` pipeline are workable; never verify anything by AI description of a render
-  or screenshot. Status and failure record: [graphics/blend-creation](graphics/blend-creation.md).
-  `[RECOLLECTION:2026-09-27]`
+- AI `.blend` work now runs in a live Blender 4.5 session through MCP; that is the only
+  process shown to work to any extent, and the extent is still being established (2026-11-15).
+  Under the superseded pre-MCP script pipeline, novel `.blend` creation was unstable while
+  minor edits and the `.blend`→`.pak` pipeline were workable. AI readings of renders inform
+  iteration but are not verification. Status and failure record:
+  [graphics/blend-creation](graphics/blend-creation.md); procedure:
+  [graphics/ai-pipeline](graphics/ai-pipeline.md).
+  `[RECOLLECTION:2026-09-27]` `[USER-DIRECTION:2026-11-15]`
+- Before selecting a model for Blender MCP, read the
+  [local model experience](graphics/model-selection.md#local-blender-mcp-model-experience):
+  the user identifies GPT 6.1 Sol as the only successful model so far and GPT 6.1 Terra
+  as worth trying; the unsuccessful models are recorded there.
+  `[USER-DIRECTION:2026-11-15]` `[RECOLLECTION:2026-11-15]`
 
 ## Planned sections
 

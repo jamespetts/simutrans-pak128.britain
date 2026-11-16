@@ -1,0 +1,184 @@
+# https://en.wikipedia.org/wiki/Ford_Anglia
+# Ford Anglia 105E: the iconic "reverse-rake rear window" Anglia, launched in
+# September 1959 and built to November 1967. 1,004,737 saloons and 205,001 vans
+# were built; 191,752 came out of Dagenham in 1960 alone, then a production
+# record for Ford of Britain. In 1965 it was the fourth best-selling car in
+# Britain with 84,589 registrations (7.7% of a 1,098,887 market), behind the BMC
+# 1100 157,679, the Cortina 116,985 and the Mini 104,477; 1966: 68,209 (fourth);
+# 1967: 55,735 (fifth) (SMMT tables, AROnline and Auto Express). The 4-door twin
+# by body (Ford Prefect 107E, 1959-61) is in the tree as FordPrefectLate.
+#
+# Dimensions: the Ford Anglia 105E Saloon Instruction Book general specification
+# gives wheelbase 7 ft 6 1/2 in (2,299 mm), overall length 12 ft 9 1/2 in
+# (3,900 mm), overall width 4 ft 9 1/8 in (1,451 mm) and overall height unladen
+# 4 ft 8 5/8 in (1,436 mm); kerb weight 741 kg (997 cc). The Motor's 1959 road
+# test gives 154 x 56 x 56 in (3,912 x 1,422 x 1,422 mm), which is what the
+# Wikipedia infobox carries; the maker's figures are used here.
+#
+# Colours: Ambassador Blue, Savoy Black, Imperial Maroon, Ermine White and
+# Spruce Green are real Ford of Britain paint names with their chassis-plate
+# paint codes, taken from the Ford Anglia 105E paint-code list for 1959-1967
+# (anglia-models.co.uk, "Paint Codes"): Savoy Black (A) 1959-Nov 1967, standard
+# and deluxe; Ambassador Blue (M) 1959-1966, all models; Imperial Maroon (AZ)
+# 1959-1966, deluxe/super/estate; Ermine White (BA) September 1960-November
+# 1967, all models; Spruce Green (BZ) May 1963-November 1967, all models.
+# Glacier Blue, Monaco Red, Goodwood Green, Lagoon Blue, Purbeck Grey and the
+# other fifteen catalogue colours are omitted as the less common of the range.
+#
+# Colour shares: the DVSA first-registration table starts with 1994
+# registrations, so its measured base for cars first registered in 1994-96 (blue
+# 23-25%, red 19-23%, white 7-10%, black 8-10%, grey 4-5%, silver 9-11%, other
+# 20-25%) is the starting point, adjusted for 1960s registrations: silver
+# (9-11% measured) is reduced to the negligible pre-metallic share and omitted;
+# black is raised (16%) because black was a mainstream 1960s colour and became a
+# minority shade by the 1990s, from which the measured base is drawn; grey is not
+# modelled although the 105E range had four greys; green (11%) is taken out of
+# the measured "other" group; white is raised slightly to 13% (cream/white was
+# commoner on 1960s registrations than on 1990s survivors); maroon is modelled
+# at 15% in place of the measured red 19-23%, as Imperial Maroon is a darker
+# shade than the measured red group. Shares used: blue 25%, black 16%, maroon
+# 15%, white 13%, green 11%.
+#
+# DistributionWeight totals 370 across the five colourways, provisionally: the
+# model is a strong non-anchor tiered below the 1955/1960 anchor (Morris Minor,
+# 500 on the 2026-11-15 rebase) at roughly three-quarters of it. The 105E's parc
+# at its mid-life was larger than the 100E's and about 70-75% of the Minor's
+# (1,004,737 saloons built 1959-67 against about 885,000 Minors by end-1960,
+# both with substantial export shares; the 1965 registration standing above
+# confirms it as the era's leading small Ford). Provisional pending the central
+# rebase. The 105E and 100E overlap briefly in road presence to the mid-1960s,
+# so their combined weight exceeds the anchor's 500 in that window; this is a
+# property of the per-generation convention and is for the central rebase.
+#
+# Speed 120 km/h: a game-balance figure, not the model's top speed. The Motor
+# recorded 73.8 mph (119 km/h) for a 105E saloon in 1959. Comfort 50/255 is one
+# step above the 100E's 45/250: the 105E is a newer body (1959) on the same
+# MacPherson-strut front suspension, with better seating and a four-speed
+# gearbox, which is a modest improvement on its era peers (FordPrefectLate
+# 45/250, Morris Minor 45/250).
+#
+# Dates describe when each colour would be seen regularly on UK roads, not
+# production dates. Production ended in November 1967; the cars rusted severely
+# but a large parc lasted into the early 1970s, so retire dates run to 1973-76.
+# Savoy Black, Ambassador Blue and Imperial Maroon enter with the September 1959
+# launch; Ermine White follows the documented September 1960 start of that
+# colour, Spruce Green the May 1963 start. The modelled front end is the Deluxe
+# form with chrome bumpers and grille. The photo-referenced body includes the
+# reverse-rake rear window, separate boot deck, raised rear wings and tall lamps.
+# Metres master: citycars/4.5/ford-anglia-105e-photo.blend in the blends repository.
+# Geometry and final colour renders approved on 2026-11-15.
+
+obj=citycar
+name=FordAnglia105E(AmbassadorBlue)
+copyright=JamesPetts
+
+DistributionWeight=116
+intro_year=1959
+intro_month=9
+retire_year=1976
+retire_month=12
+speed=120
+class=1,2
+maximum_comfortable_journey_minutes=50
+maximum_tolerable_journey_minutes=255
+
+Image[E]=./images/ford-anglia-105e-blue_E.0.0,-33,14
+Image[SE]=./images/ford-anglia-105e-blue_SE.0.0,-13,0
+Image[S]=./images/ford-anglia-105e-blue_S.0.0,0,0
+Image[SW]=./images/ford-anglia-105e-blue_SW.0.0,-8,10
+Image[W]=./images/ford-anglia-105e-blue_W.0.0,4,5
+Image[NW]=./images/ford-anglia-105e-blue_NW.0.0,12,10
+Image[N]=./images/ford-anglia-105e-blue_N.0.0,0,33
+Image[NE]=./images/ford-anglia-105e-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FordAnglia105E(SavoyBlack)
+copyright=JamesPetts
+
+DistributionWeight=74
+intro_year=1959
+intro_month=9
+retire_year=1975
+retire_month=6
+speed=120
+class=1,2
+maximum_comfortable_journey_minutes=50
+maximum_tolerable_journey_minutes=255
+
+Image[E]=./images/ford-anglia-105e-black_E.0.0,-33,14
+Image[SE]=./images/ford-anglia-105e-black_SE.0.0,-13,0
+Image[S]=./images/ford-anglia-105e-black_S.0.0,0,0
+Image[SW]=./images/ford-anglia-105e-black_SW.0.0,-8,10
+Image[W]=./images/ford-anglia-105e-black_W.0.0,4,5
+Image[NW]=./images/ford-anglia-105e-black_NW.0.0,12,10
+Image[N]=./images/ford-anglia-105e-black_N.0.0,0,33
+Image[NE]=./images/ford-anglia-105e-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FordAnglia105E(ImperialMaroon)
+copyright=JamesPetts
+
+DistributionWeight=69
+intro_year=1959
+intro_month=9
+retire_year=1973
+retire_month=12
+speed=120
+class=1,2
+maximum_comfortable_journey_minutes=50
+maximum_tolerable_journey_minutes=255
+
+Image[E]=./images/ford-anglia-105e-maroon_E.0.0,-33,14
+Image[SE]=./images/ford-anglia-105e-maroon_SE.0.0,-13,0
+Image[S]=./images/ford-anglia-105e-maroon_S.0.0,0,0
+Image[SW]=./images/ford-anglia-105e-maroon_SW.0.0,-8,10
+Image[W]=./images/ford-anglia-105e-maroon_W.0.0,4,5
+Image[NW]=./images/ford-anglia-105e-maroon_NW.0.0,12,10
+Image[N]=./images/ford-anglia-105e-maroon_N.0.0,0,33
+Image[NE]=./images/ford-anglia-105e-maroon_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FordAnglia105E(ErmineWhite)
+copyright=JamesPetts
+
+DistributionWeight=60
+intro_year=1960
+intro_month=9
+retire_year=1976
+retire_month=6
+speed=120
+class=1,2
+maximum_comfortable_journey_minutes=50
+maximum_tolerable_journey_minutes=255
+
+Image[E]=./images/ford-anglia-105e-white_E.0.0,-33,14
+Image[SE]=./images/ford-anglia-105e-white_SE.0.0,-13,0
+Image[S]=./images/ford-anglia-105e-white_S.0.0,0,0
+Image[SW]=./images/ford-anglia-105e-white_SW.0.0,-8,10
+Image[W]=./images/ford-anglia-105e-white_W.0.0,4,5
+Image[NW]=./images/ford-anglia-105e-white_NW.0.0,12,10
+Image[N]=./images/ford-anglia-105e-white_N.0.0,0,33
+Image[NE]=./images/ford-anglia-105e-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FordAnglia105E(SpruceGreen)
+copyright=JamesPetts
+
+DistributionWeight=51
+intro_year=1963
+intro_month=5
+retire_year=1974
+retire_month=6
+speed=120
+class=1,2
+maximum_comfortable_journey_minutes=50
+maximum_tolerable_journey_minutes=255
+
+Image[E]=./images/ford-anglia-105e-green_E.0.0,-33,14
+Image[SE]=./images/ford-anglia-105e-green_SE.0.0,-13,0
+Image[S]=./images/ford-anglia-105e-green_S.0.0,0,0
+Image[SW]=./images/ford-anglia-105e-green_SW.0.0,-8,10
+Image[W]=./images/ford-anglia-105e-green_W.0.0,4,5
+Image[NW]=./images/ford-anglia-105e-green_NW.0.0,12,10
+Image[N]=./images/ford-anglia-105e-green_N.0.0,0,33
+Image[NE]=./images/ford-anglia-105e-green_NE.0.0,0,24

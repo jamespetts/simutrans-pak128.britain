@@ -1,0 +1,154 @@
+# https://en.wikipedia.org/wiki/BMC_ADO16
+# BMC 1100/1300 (ADO16): the Austin and Morris 1100/1300 volume cars, the
+# best-selling car in Britain 1963-1966 and 1968-1971, with 14.3% of the UK
+# market at its 1965 peak. Launched as the Morris 1100 on 15 August 1962 (the
+# Austin 1100 followed in September 1963); production ended in June 1974.
+# 2.3 million were built, over half sold at home. One model with four colours
+# covers the whole family: the 1100 (to 1967), the 1300 (from October 1967) and
+# the 1971 Mk III were the same body shell and differ only in grille, wheel and
+# trim detail, which is below the resolution of a pak-scale private car. The
+# front end modelled is the Mk I form (round headlamps, narrow central grille,
+# chrome bumpers) that covered most of the 1963-1971 anchor period.
+#
+# Colours: Trafalgar Blue, Tartan Red, Snowberry White, Connaught Green, El Paso
+# Beige. These are real BMC paint names with their BMC/BL codes, taken from
+# period Austin-Morris colour charts: the Austin 1100 saloon and Countryman
+# "colours and trim" folder, publication 2189F (1966), and the British Leyland
+# Austin-Morris/MG/Wolseley/Princess "paint and trim colours" chart, publication
+# 2760 (1970). Charts: archived scans at ado16.info. Codes: BU.37, RD.9, WT.4,
+# GN.18, BG.17. The 1962-67 BMC off-white was Old English White (WT.3);
+# Snowberry White (WT.4) is the name of the later 1960s/1970 white and is used
+# here for the cream colourway across the model's life.
+#
+# Colour shares: the DVSA first-registration table starts with 1994
+# registrations, so its measured base for cars first registered in 1994-96
+# (blue 23-25%, red 19-23%, white 7-10%, black 8-10%, grey 4-5%, silver 9-11%,
+# other 20-25%) is the starting point, adjusted for 1960s registrations where
+# the palette was wider: blue 28% (leading colour; the period charts offered
+# the widest choice of blues), red 24%, white 16%, green 16% and beige/brown
+# 16% (green and beige/brown sit inside the measured "other" group, which was
+# far larger before the 1970s; both charts list them). Black (8-10% measured)
+# is the next colour and is omitted.
+#
+# DistributionWeight totals 500 across the five colourways, the 2026-11-15
+# anchor convention for a model that was the most popular car on the road at
+# its time (provisional; a central rebase follows).
+#
+# Dates describe when each colour would be seen regularly on UK roads, not
+# production dates. Retire dates are estimates from the mid-1980s rust-out of a
+# 1960s car with a very large parc; they are not measured.
+
+obj=citycar
+name=BMC1100(TrafalgarBlue)
+copyright=JamesPetts
+
+DistributionWeight=140
+intro_year=1963
+intro_month=9
+retire_year=1985
+retire_month=6
+speed=115
+class=1,2
+maximum_comfortable_journey_minutes=70
+maximum_tolerable_journey_minutes=285
+
+Image[E]=./images/bmc1100-trafalgar-blue_E.0.0,-33,14
+Image[SE]=./images/bmc1100-trafalgar-blue_SE.0.0,-13,0
+Image[S]=./images/bmc1100-trafalgar-blue_S.0.0,0,0
+Image[SW]=./images/bmc1100-trafalgar-blue_SW.0.0,-8,10
+Image[W]=./images/bmc1100-trafalgar-blue_W.0.0,4,5
+Image[NW]=./images/bmc1100-trafalgar-blue_NW.0.0,12,10
+Image[N]=./images/bmc1100-trafalgar-blue_N.0.0,0,33
+Image[NE]=./images/bmc1100-trafalgar-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMC1100(TartanRed)
+copyright=JamesPetts
+
+DistributionWeight=120
+intro_year=1962
+intro_month=8
+retire_year=1982
+retire_month=6
+speed=115
+class=1,2
+maximum_comfortable_journey_minutes=70
+maximum_tolerable_journey_minutes=285
+
+Image[E]=./images/bmc1100-tartan-red_E.0.0,-33,14
+Image[SE]=./images/bmc1100-tartan-red_SE.0.0,-13,0
+Image[S]=./images/bmc1100-tartan-red_S.0.0,0,0
+Image[SW]=./images/bmc1100-tartan-red_SW.0.0,-8,10
+Image[W]=./images/bmc1100-tartan-red_W.0.0,4,5
+Image[NW]=./images/bmc1100-tartan-red_NW.0.0,12,10
+Image[N]=./images/bmc1100-tartan-red_N.0.0,0,33
+Image[NE]=./images/bmc1100-tartan-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMC1100(SnowberryWhite)
+copyright=JamesPetts
+
+DistributionWeight=80
+intro_year=1962
+intro_month=8
+retire_year=1986
+retire_month=6
+speed=115
+class=1,2
+maximum_comfortable_journey_minutes=70
+maximum_tolerable_journey_minutes=285
+
+Image[E]=./images/bmc1100-snowberry-white_E.0.0,-33,14
+Image[SE]=./images/bmc1100-snowberry-white_SE.0.0,-13,0
+Image[S]=./images/bmc1100-snowberry-white_S.0.0,0,0
+Image[SW]=./images/bmc1100-snowberry-white_SW.0.0,-8,10
+Image[W]=./images/bmc1100-snowberry-white_W.0.0,4,5
+Image[NW]=./images/bmc1100-snowberry-white_NW.0.0,12,10
+Image[N]=./images/bmc1100-snowberry-white_N.0.0,0,33
+Image[NE]=./images/bmc1100-snowberry-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMC1100(ConnaughtGreen)
+copyright=JamesPetts
+
+DistributionWeight=80
+intro_year=1964
+intro_month=10
+retire_year=1981
+retire_month=12
+speed=115
+class=1,2
+maximum_comfortable_journey_minutes=70
+maximum_tolerable_journey_minutes=285
+
+Image[E]=./images/bmc1100-connaught-green_E.0.0,-33,14
+Image[SE]=./images/bmc1100-connaught-green_SE.0.0,-13,0
+Image[S]=./images/bmc1100-connaught-green_S.0.0,0,0
+Image[SW]=./images/bmc1100-connaught-green_SW.0.0,-8,10
+Image[W]=./images/bmc1100-connaught-green_W.0.0,4,5
+Image[NW]=./images/bmc1100-connaught-green_NW.0.0,12,10
+Image[N]=./images/bmc1100-connaught-green_N.0.0,0,33
+Image[NE]=./images/bmc1100-connaught-green_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMC1100(ElPasoBeige)
+copyright=JamesPetts
+
+DistributionWeight=80
+intro_year=1965
+intro_month=10
+retire_year=1983
+retire_month=6
+speed=115
+class=1,2
+maximum_comfortable_journey_minutes=70
+maximum_tolerable_journey_minutes=285
+
+Image[E]=./images/bmc1100-el-paso-beige_E.0.0,-33,14
+Image[SE]=./images/bmc1100-el-paso-beige_SE.0.0,-13,0
+Image[S]=./images/bmc1100-el-paso-beige_S.0.0,0,0
+Image[SW]=./images/bmc1100-el-paso-beige_SW.0.0,-8,10
+Image[W]=./images/bmc1100-el-paso-beige_W.0.0,4,5
+Image[NW]=./images/bmc1100-el-paso-beige_NW.0.0,12,10
+Image[N]=./images/bmc1100-el-paso-beige_N.0.0,0,33
+Image[NE]=./images/bmc1100-el-paso-beige_NE.0.0,0,24

@@ -1,0 +1,108 @@
+# https://en.wikipedia.org/wiki/Opel_Corsa
+# Vauxhall Corsa F: the PSA/Stellantis generation, five-door only, with the
+# Corsa-e. Customer deliveries from January 2020; still on sale in 2026.
+# UK registrations 46,572 (2020), 40,995 (2021), 35,976 (2025); the UK's
+# best-selling car in 2021 and best-selling small car in Q1 2026.
+#
+# Colours: Quartz Grey, Diamond Black, Arctic White, Voltaic Blue. These are
+# the four largest DVSA shares for 2020-2022 registrations: grey 25-26%, black
+# 19.6-20.1%, white 16.9-17.7%, blue 16.9-17.7%. Red (9%) is the next colour
+# and is not modelled. The 2023 facelift renamed the same shades Graphic Grey,
+# Carbon Black and Contour White. Paint names are Vauxhall marketing names for
+# the approximate shades; the render values are approximations.
+#
+# Dates are staggered per colour. Weights total 42 against the Focus's 99.
+# Retire dates after 2026 are estimates for a model still in production.
+
+obj=citycar
+name=VauxhallCorsaF(Grey)
+copyright=JamesPetts
+
+DistributionWeight=13
+intro_year=2020
+intro_month=1
+retire_year=2038
+retire_month=12
+speed=130
+class=0,1,2
+maximum_comfortable_journey_minutes=115
+maximum_tolerable_journey_minutes=355
+
+Image[E]=./images/vauxhall-corsa-f-grey_E.0.0,-33,14
+Image[SE]=./images/vauxhall-corsa-f-grey_SE.0.0,-13,0
+Image[S]=./images/vauxhall-corsa-f-grey_S.0.0,0,0
+Image[SW]=./images/vauxhall-corsa-f-grey_SW.0.0,-8,10
+Image[W]=./images/vauxhall-corsa-f-grey_W.0.0,4,5
+Image[NW]=./images/vauxhall-corsa-f-grey_NW.0.0,12,10
+Image[N]=./images/vauxhall-corsa-f-grey_N.0.0,0,33
+Image[NE]=./images/vauxhall-corsa-f-grey_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallCorsaF(Black)
+copyright=JamesPetts
+
+DistributionWeight=11
+intro_year=2020
+intro_month=1
+retire_year=2036
+retire_month=12
+speed=130
+class=0,1,2
+maximum_comfortable_journey_minutes=115
+maximum_tolerable_journey_minutes=355
+
+Image[E]=./images/vauxhall-corsa-f-black_E.0.0,-33,14
+Image[SE]=./images/vauxhall-corsa-f-black_SE.0.0,-13,0
+Image[S]=./images/vauxhall-corsa-f-black_S.0.0,0,0
+Image[SW]=./images/vauxhall-corsa-f-black_SW.0.0,-8,10
+Image[W]=./images/vauxhall-corsa-f-black_W.0.0,4,5
+Image[NW]=./images/vauxhall-corsa-f-black_NW.0.0,12,10
+Image[N]=./images/vauxhall-corsa-f-black_N.0.0,0,33
+Image[NE]=./images/vauxhall-corsa-f-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallCorsaF(White)
+copyright=JamesPetts
+
+DistributionWeight=9
+intro_year=2020
+intro_month=1
+retire_year=2036
+retire_month=12
+speed=130
+class=0,1,2
+maximum_comfortable_journey_minutes=115
+maximum_tolerable_journey_minutes=355
+
+Image[E]=./images/vauxhall-corsa-f-white_E.0.0,-33,14
+Image[SE]=./images/vauxhall-corsa-f-white_SE.0.0,-13,0
+Image[S]=./images/vauxhall-corsa-f-white_S.0.0,0,0
+Image[SW]=./images/vauxhall-corsa-f-white_SW.0.0,-8,10
+Image[W]=./images/vauxhall-corsa-f-white_W.0.0,4,5
+Image[NW]=./images/vauxhall-corsa-f-white_NW.0.0,12,10
+Image[N]=./images/vauxhall-corsa-f-white_N.0.0,0,33
+Image[NE]=./images/vauxhall-corsa-f-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallCorsaF(Blue)
+copyright=JamesPetts
+
+DistributionWeight=9
+intro_year=2020
+intro_month=6
+retire_year=2039
+retire_month=12
+speed=130
+class=0,1,2
+maximum_comfortable_journey_minutes=115
+maximum_tolerable_journey_minutes=355
+
+Image[E]=./images/vauxhall-corsa-f-blue_E.0.0,-33,14
+Image[SE]=./images/vauxhall-corsa-f-blue_SE.0.0,-13,0
+Image[S]=./images/vauxhall-corsa-f-blue_S.0.0,0,0
+Image[SW]=./images/vauxhall-corsa-f-blue_SW.0.0,-8,10
+Image[W]=./images/vauxhall-corsa-f-blue_W.0.0,4,5
+Image[NW]=./images/vauxhall-corsa-f-blue_NW.0.0,12,10
+Image[N]=./images/vauxhall-corsa-f-blue_N.0.0,0,33
+Image[NE]=./images/vauxhall-corsa-f-blue_NE.0.0,0,24
+
