@@ -104,25 +104,44 @@ current series is 100 by construction.
 No free civil engineering or road construction price series reaching back before 1980 was
 found. The candidates checked, and why each fails:
 
-- BIS tender price indices for all construction (ALLCON), public sector building (PUBSEC),
-  social housing (TPISH) and road construction (ROADCON) all begin in 1985.
+- **Department of the Environment road construction tender price indices, from 1970.** The
+  series exists and is the obvious continuation, but its values are tabulated only in Spon's
+  handbook and in *Housing and Construction Statistics*; no free tabulation was found in the
+  Construction Statistics Annual, Transport Statistics Great Britain, RDE0102, the National
+  Archives web archive or Parliament. It was superseded by ROADCON in 1985.
+  `[LITERATURE:https://www.routledge.com/Spons-Construction-Cost-and-Price-Indices-Handbook/Fleming-Tysoe/p/book/9780419153306]`
+- **Department of the Environment Cost of New Construction index, 1949 Q1 to 1980 Q1.** The
+  official predecessor of the output price indices, but again not freely tabulated in full; the
+  Construction Statistics Annual states only that the output price indices superseded it. Some
+  annual United Kingdom values for 1957-1970 are in Hansard.
+- **PAFI Civil Engineering, the 1970 Series, formerly the NEDO or Baxter indices.** Monthly from
+  1970 on a 1970 = 100 base, and still published, but it is an input cost index rather than a
+  price index, and the bulletin is not free; quarterly values are reproduced in Spon's Civil
+  Engineering and Highway Works Price Book.
+- **BCIS General Civil Engineering Cost Index.** First published in December 2008, so it is not
+  a long-run series and cannot reach back.
+- **BIS tender price indices for all construction (ALLCON), public sector building (PUBSEC),
+  social housing (TPISH) and road construction (ROADCON).** All begin in 1985. PUBSEC alone runs
+  from 1950 but is a building index, not a civil engineering one.
   `[LITERATURE:https://www.gov.uk/government/statistics/bis-prices-and-cost-indices]`
-- The Department for Transport road construction tender price index, table RDE0102, covers
-  2002-2017 only, and the table notes that the ONS has no plans to produce a replacement.
+- **The Department for Transport road construction tender price index, table RDE0102.** Covers
+  2002-2017 only; each Transport Statistics Great Britain edition carries a rolling ten-year
+  window, so no edition holds a long run.
   `[LITERATURE:https://www.gov.uk/government/statistical-data-sets/rde01-road-construction-and-taxation]`
-- Spon's *Construction Cost and Price Indices Handbook* lists the two genuine civil engineering
-  series that do reach back: the Department of the Environment road construction tender price
-  indices from 1970 and Spon's constructed civil engineering cost index from 1970. Both are print
-  or subscription, and neither reaches 1845.
-  `[LITERATURE:https://doi.org/10.4324/9780203473283]`
-- Mills, *Railway Construction* (Longmans; the 1910 fourth impression reprints the 1898 setting)
-  was checked in full. It has no cost per mile by class of line, no earthwork rates, no bridge or
-  viaduct rates, no station, land or parliamentary figures, and no price year. What it has is a
-  permanent-way materials schedule by rail weight, which is c.1898 and excludes labour, and a
-  paragraph of illustrative tunnel rates from £32 to £150 per lineal yard, which the author
-  declines to present as an average. It cannot support a construction price series, so that lead
-  is closed.
+- **Mills, *Railway Construction* (Longmans; the 1910 fourth impression reprints the 1898
+  setting).** Checked in full. It has no cost per mile by class of line, no earthwork rates, no
+  bridge or viaduct rates, no station, land or parliamentary figures, and no price year. What it
+  has is a permanent-way materials schedule by rail weight, which is c.1898 and excludes labour,
+  and a paragraph of illustrative tunnel rates from £32 to £150 per lineal yard, which the author
+  declines to present as an average. That lead is closed.
   `[LITERATURE:https://www.gutenberg.org/ebooks/50696]`
+
+The one free long-run construction series that does exist is the Bank of England workbook, sheet
+A32, continuous annual from 1845 to 2001, built from Mitchell's building costs to 1938 and
+Holmans's construction costs after that. It is a building and construction series, not a civil
+engineering one, and it is the source already used for `buildings`. No road, infrastructure or
+civil engineering price index appears anywhere in the workbook's 109 sheets.
+`[LITERATURE:https://www.bankofengland.co.uk/statistics/research-datasets]`
 
 ### Test of the forum's structure prices
 
@@ -215,6 +234,28 @@ prices stood about 48% above all-new-construction prices. Keeping that level wou
 step at 1980, because nothing in the pre-1980 data can support it. The consequence is that the
 whole pre-1980 range carries building prices rather than civil engineering prices.
 
+### Cross-check against tender prices
+
+There is a second, independent measure of the same thing: ROADCON, the tender price index for
+road construction, which is built from actual contract prices rather than from a cost model. It
+is free from 1985 to 2011 in the BIS tender price file, on a 1995 = 100 base, and it does not
+continue after 2012.
+
+Over the 27 common years the two correlate closely in logarithms, at 0.977, so they describe the
+same broad movement. They do not agree on magnitude. Rebased to 1995, ROADCON runs about 15%
+below the output price index in 1990-92 and about 20% above it by 2010-11, having risen 26% more
+across the period as a whole.
+
+That matters for the series because it means the choice of measure, not only the choice of
+deflator, moves the answer. The real fall of about 43% quoted below is what the output price
+index gives. The same calculation taken to the tender index would give a fall nearer 26%. Both
+are falls, but the size is uncertain by roughly fifteen percentage points over the period.
+`[LITERATURE:https://assets.publishing.service.gov.uk/media/5a798116ed915d07d35b60ad/12-p147c-tender-price-indices-2012Q3.xls]`
+
+The output price index is used as the series because it covers 1980 to 2026 continuously and
+because it is the measure that ONS publishes as the official one. The divergence is recorded
+rather than resolved.
+
 ## Candidate results
 
 Computed on 2026-11-15 from the three sources above, with the 1980 splice:
@@ -231,6 +272,10 @@ Over 1980-2026 the index rises 3.23 times, against 5.68 times for `general` and 
 `buildings`. The implied real fall in infrastructure prices is about 43%, which follows from
 the BIS series itself: infrastructure output prices rose 1.84 times between 1980 and 2005 while
 all-new-construction prices rose 2.72 times. `[CODE New ex-15, working tree 2026-11-15]`
+
+That 43% is the output price index answer. The cross-check above gives about 26% on the tender
+price index, so treat the size of the fall as uncertain by roughly fifteen percentage points
+over the period even after 1980.
 
 To insert it, the placeholder line `#infrastructure=1750,100,2022,100` is replaced by a real
 line running from 1750 to 2050 on the same basis as the other series: 1750-1980 is the
