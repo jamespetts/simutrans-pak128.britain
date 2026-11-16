@@ -355,6 +355,23 @@ The figure needed is general charges per route mile per year, by era, and the co
 headquarters buildings themselves, for which the existing depot and station figures give an order
 of magnitude but not a measured series.
 
+### Open question: property rates
+
+Railway companies paid rates on the assessed value of their land, buildings and works. This was a
+large item, quite separate from tax on profit, and its basis changed repeatedly between 1840 and
+1990 — the parochial assessment system, the 1844 and 1858 Acts, the Railway and Canal Traffic Act
+period, derating in 1929, and the move to a national formula after 1948.
+
+Modelling those changes is not practical, and a series of rates that ignored them would be worse
+than no series. The alternative is to fold a representative rates charge into the headquarters
+overhead, so that the player pays something for the burden without the game attempting to model
+its changing basis.
+
+That choice interacts with `corporation tax`, which is already a rate on profit: folding property
+rates into the overhead would charge a second, differently based tax on the same business, which
+is defensible historically but must be documented rather than accidental. Whether to do it, and if
+so which era's basis to use as the representative level, is left open.
+
 This belongs in the same body of work as the cost audit: it is a real cost that the game does not
 currently charge, and it may account for part of the balance gap in section 8.
 
