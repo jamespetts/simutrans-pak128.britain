@@ -135,9 +135,11 @@ single-track model.
 | 1953 | Woodhead 3 | two tracks | £4,300,000 | 4,888 m | 880 | 165 |
 | 1962 | Victoria line | two single-track tubes | £56,000,000 | 21,000 m | 2,667 | 414 |
 
-Mills, *Railway Construction* (1910), quoted in the thread, gives the contemporary range for
-double-line tunnels as £32 to £150 per lineal yard, with £50 to £60 typical and the range
-attributed to ground conditions and the cost of lining material.
+Mills, *Railway Construction*, quoted in the thread, gives the range for double-line tunnels as
+£32 to £150 per lineal yard, with £50 or £60 typical and the range attributed to ground conditions
+and the cost of lining material. Mills states no price year, and the 1910 impression reprints the
+1898 setting, so the range is of about 1898. He declines to give an average, calling it
+misleading, and offers no measured cost for any named tunnel: the figures are illustrative.
 
 ### Roads and other structures
 
@@ -153,6 +155,92 @@ attributed to ground conditions and the cost of lining material.
 The 2011 road figures and the 1938 maintenance comparison are the only figures in the thread
 that state a ratio between structure types directly.
 
+### Whole-line railway construction
+
+The Liverpool and Manchester Railway, built 1826-1830, 35 miles, cost £739,183. The thread
+quotes a component breakdown, which is the only item in the thread that apportions a whole
+railway between the parts the engine prices separately:
+
+| Component | Cost | Per mile |
+|---|---|---|
+| Land | 95,305 | 2,723 |
+| Cuttings and embankments | 199,763 | 5,708 |
+| Chat Moss crossing | 27,719 | 792 |
+| Formation of the road | 20,568 | 588 |
+| Fencing | 10,202 | 292 |
+| Tunnel | 47,788 | 1,365 |
+| Bridges | 99,065 | 2,830 |
+| Rails, at £12 10s a ton | 60,912 | 1,740 |
+| Blocks and sleepers | 20,520 | 586 |
+| Surveying, law and parliamentary | 157,341 | 4,495 |
+| **Total** | **739,183** | **21,119** |
+
+The per-mile column is this document's division of the posted totals. The posted components sum
+exactly to the posted total.
+
+Read as shares: earthworks including Chat Moss £227,482, or 31% of the total; bridges and tunnel
+£146,853, or 20%; land £95,305, or 13%; and preliminary and parliamentary expenses £157,341, or
+21%. The parliamentary element of £4,495 a mile is close to the £4,000 a mile that Acworth
+estimated for the country as a whole, which is an independent check on the figure.
+
+### Rails and permanent way
+
+Rails sold by weight, so the price per ton is a fixed specification and can be compared across
+dates:
+
+| Year | Rail | Price | Source |
+|---|---|---|---|
+| 1864 | Bessemer steel, 1,000 tons from John Brown and Company, Erie Railway | £25 a ton | `.114378` |
+| c.1892 | 86 lb/yard, mild steel | £4 10s a ton | `.114378` |
+| 1922 | 95 lb/yard, Great Central stores contract | £7 13s 6d a ton | `.114378` |
+
+The fall between 1864 and 1892 is the Bessemer process and the collapse of the steel price, not a
+general movement of prices, so the three points cannot be read as an index without a steel price
+series beside them.
+
+Permanent way laid, with the rail weight stated where the thread gives it:
+
+| Year | Location | Rail | Cost | Unit |
+|---|---|---|---|---|
+| 1877 | Leicester, single track, including labour | 47 lb/yard | £3,000 | a mile |
+| 1881 | Leeds, double track, materials only, no labour | 85 lb/yard | £2,348 8s | a mile |
+| 1881-82 | Dewsbury, Batley and Birstal, way only | 55 lb/yard | £2,370 14s | 1.13 miles |
+| c.1898 | Mills, materials only | 65-90 lb/yard | £1,140 to £1,590 | a mile |
+| 1911 | Tram track laid, excluding electrification | not stated | £600 | a mile |
+
+The Leeds and Dewsbury figures both carry a rail weight, which is what makes them comparable;
+the 1911 tram figure does not, and it is a tramway rather than a railway. The Mills prices are
+materials only, with no labour, laying, ballast or fencing, and the 1910 impression reprints the
+1898 setting, so they are prices of 1898 or earlier rather than of 1910.
+
+### Electrification
+
+| Year | Scheme | Cost | Unit |
+|---|---|---|---|
+| 1891 | Guernsey Tramway, about 3 miles | £3,850 | whole route |
+| 1925 | Southern Railway, third rail | £833,000 | 67 track miles |
+| 1928 | Southern Railway, short section | £51,700 | 6.2 route miles |
+| 1955 | British Railways, overhead AC | £40,000,000 | 390 route miles |
+| 1955 | British Railways, third rail DC | £25,000,000 | 250 route miles |
+| 1986 | Romford to Upminster, 25 kV, single track | £303,000 | branch |
+
+The two 1955 figures work out at about £102,000 and £100,000 a route mile respectively, which is
+the only clean pair in the table; the others are short or mixed schemes.
+
+### Docks, depots and signalling
+
+- Docks: the Tilbury works of 1881-1907 are itemised in the thread, from £1,245 for a water
+  tower house to £2,800,000 for the docks as a whole. They are separate works on one site, not
+  the same structure at several dates, so they give no series.
+- Depots and sheds: £790 for a carriage shed in 1851, £6,271 for an unspecified shed in 1861,
+  £20,000 for a shed to cover five hundred vehicles in 1868, £28,000 for the Cambrian depot at
+  Oswestry in 1865, £3,496 for a locomotive shed at Tilbury in 1905, £21,200 for Plaistow in
+  1910, £30,000 for an electric tram depot in 1906 and about £500,000 for the rail facilities of
+  the Tilbury container terminal in 1969. Each is a different building, so again no series.
+- Signalling: £300 for a small mechanical box with its signals and instruments in 1909, £100 an
+  arm for automatic signals in the same year, £61,970 for additional block signals on the
+  Tilbury line in 1929, and £2,000,000 for the Reading resignalling system in 1963.
+
 ## What it does not supply
 
 - **No pre-1845 building construction prices.** The earliest building or structure price in the
@@ -166,6 +254,9 @@ that state a ratio between structure types directly.
   show no drift within a fixed specification, but the uncertainty is wide enough that they
   cannot refine the path. The test and its intervals are in
   [prices-infrastructure](prices-infrastructure.md).
+- No earthwork cost per cubic yard anywhere in it, no wharf or quay cost per unit of berth, no
+  goods shed priced apart from a station building, and no road construction cost from before 1950
+  from a historical source. Those gaps have to be filled elsewhere or left.
 
 ## Use
 

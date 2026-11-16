@@ -110,11 +110,19 @@ found. The candidates checked, and why each fails:
 - The Department for Transport road construction tender price index, table RDE0102, covers
   2002-2017 only, and the table notes that the ONS has no plans to produce a replacement.
   `[LITERATURE:https://www.gov.uk/government/statistical-data-sets/rde01-road-construction-and-taxation]`
-- Spon's *Construction Cost and Price Indices Handbook* lists the two genuine civil
-  engineering series that do reach back: the Department of the Environment road construction
-  tender price indices from 1970 and Spon's constructed civil engineering cost index from 1970.
-  Both are print or subscription, and neither reaches 1845.
+- Spon's *Construction Cost and Price Indices Handbook* lists the two genuine civil engineering
+  series that do reach back: the Department of the Environment road construction tender price
+  indices from 1970 and Spon's constructed civil engineering cost index from 1970. Both are print
+  or subscription, and neither reaches 1845.
   `[LITERATURE:https://doi.org/10.4324/9780203473283]`
+- Mills, *Railway Construction* (Longmans; the 1910 fourth impression reprints the 1898 setting)
+  was checked in full. It has no cost per mile by class of line, no earthwork rates, no bridge or
+  viaduct rates, no station, land or parliamentary figures, and no price year. What it has is a
+  permanent-way materials schedule by rail weight, which is c.1898 and excludes labour, and a
+  paragraph of illustrative tunnel rates from £32 to £150 per lineal yard, which the author
+  declines to present as an average. It cannot support a construction price series, so that lead
+  is closed.
+  `[LITERATURE:https://www.gutenberg.org/ebooks/50696]`
 
 ### Test of the forum's structure prices
 
@@ -158,26 +166,39 @@ below use `buildings`; the alternative is recorded under open questions.
 
 ### Acworth's capital figures
 
-Acworth, *The Elements of Railway Economics* (Oxford, 1905), gives the stock of railway capital
-rather than a series, but it supplies levels that the forum's individual projects do not:
+Acworth, *The Elements of Railway Economics*, gives the stock of railway capital rather than a
+series, but it supplies levels that the forum's individual projects do not. There are three
+editions, and the 1911 is a reprint of the 1905 setting with identical text and pagination, so
+the two can be cited together; the 1924 edition is a revision with a different territorial base
+and must not be differenced against them. `[LITERATURE:https://archive.org/details/cu31924070676402]`
 
-- The railway proper, meaning road and buildings but not rolling stock, cost about
-  £800,000,000 for about 22,000 miles of line, which is £36,364 a mile on average. The whole
-  capital was £1,200,000,000, of which £1,000,000,000 had actually been spent.
-  `[LITERATURE:https://archive.org/details/cu31924070676402]`
-- His illustrative figures for a mile of line are £40,000 for a great English main line,
-  £10,000 for an American line and £4,000 for a light railway. He also records the West
-  Highland Railway as costing about £13,000 a mile and the Great Central's London extension as
-  ten to twelve times that, and estimates preliminary and parliamentary expenses at about
-  £4,000 a mile.
-- Maintenance of way and works is £500 a mile of open line across the United Kingdom, ranging
-  from £145 for the Midland Great Western of Ireland to £930 for the Lancashire and Yorkshire.
+| Edition | Year referred to | Total capital | Road and buildings | Route miles | Per mile |
+|---|---|---|---|---|---|
+| 1905, 1911 | c.1902, United Kingdom | £1,000,000,000 spent | £800,000,000 | 22,000 | £36,364 |
+| 1924 | c.1923, Great Britain | £1,180,000,000 spent | £878,000,000 | 20,300 | £43,251 |
 
-The average capital figure and the maintenance figure are levels at about 1900, on the 1900
-basis the `.dat` prices use. They are useful for checking way and structure base prices. They do
-not give the movement of prices over time, so they do not help with the pre-1980 path, and the
-illustrative £40,000 and £10,000 figures are round numbers offered as comparisons rather than
-measured costs.
+- Named lines: the West Highland, built in 1900, about £13,000 a mile; the Great Central's
+  London extension, opened in 1898, ten to twelve times that; the North London, £330,000 a mile;
+  the Waterford and Tramore, £10,000. The 1924 edition substitutes the Highland at £14,500 for
+  the Waterford and Tramore in the cheap-against-dear comparison.
+- Illustrative, not measured: £40,000 for a great English line, £10,000 for an American line and
+  £4,000 for a light railway in 1905, raised to £50,000 and £15,000 in 1924 with the light
+  railway unchanged. Preliminary and parliamentary expenses are a quoted estimate of about
+  £4,000 a mile in both editions, attributed to "a competent authority" and described by Acworth
+  as a figure nobody knows.
+- Maintenance of way and works: £500 a mile of open line in 1902, ranging from £85 for the
+  Waterford and Tramore and £145 for the Midland Great Western of Ireland up to about £3,000 for
+  the North London; £1,200 a route mile in 1923, ranging from £119 for the Weston, Clevedon and
+  Portishead to £5,400 for the Metropolitan. The two averages rest on different mileage bases and
+  Acworth never sets them side by side, so they are not a series.
+- The book has no component breakdown of construction, no cost per mile for any pre-1900 railway,
+  no station, land or permanent-way cost per mile, and no price year. Its maintenance tables for
+  the Midland (1903) and the LNER (1923) are the only component analyses, and they are running
+  costs rather than construction.
+
+The average capital figure and the maintenance figure are levels at about 1900, on the 1900 basis
+the `.dat` prices use, so they are useful for checking way and structure base prices. They do not
+give the movement of prices over time.
 
 The test therefore leaves the position below unchanged, but for a different reason than a
 straight rejection: the prices cannot distinguish `general` from `buildings`, and both are
@@ -243,10 +264,10 @@ real level and tracks `general`, as `buildings`, `city land` and `country land` 
   roads-and-bridges measure at all, or would a building index be closer to railway permanent
   way work? No source settles this; the road measure is used because it is construction work
   rather than building work.
-- Would a cost book that tabulates unit rates for a fixed specification, such as Mills's
-  *Railway Construction* (1910) or a Spon's volume, tighten the intervals in the test above
-  enough to distinguish `general` from `buildings`? The present intervals are wide because each
-  class has three to eight items.
+- Would a cost book that tabulates unit rates for a fixed specification tighten the intervals in
+  the test above enough to distinguish `general` from `buildings`? Mills was checked and has no
+  such rates; Spon's is the remaining candidate, and it is print or subscription. The present
+  intervals are wide because each class has three to eight items.
 - The relative costs of structure types that the forum data implies, such as a bridge at about
   ten times a plain way, belong to the `.dat` base prices rather than to the year index. Should
   they be applied to the way, bridge, tunnel and pier base costs, and if so under which doc?
