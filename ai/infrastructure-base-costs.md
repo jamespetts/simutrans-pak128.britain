@@ -31,6 +31,29 @@ The three combine, for a way, to a single convenient factor: real cost per kilom
 `.dat` cost multiplied by 0.396311, because `0.125 × 8 × 0.396311` is that number. Maintenance per
 kilometre per year is the `.dat` maintenance multiplied by 0.396311 and by 12.
 
+## What changing meters_per_tile would do
+
+The setting does not affect every object the same way, and the difference matters if it is ever
+changed.
+
+- **Length-based objects.** For ways, bridges, tunnels and way objects, the engine's `0.125` and
+  the eight tiles to the kilometre cancel, so the cost per kilometre is independent of
+  `meters_per_tile`. Changing the setting from 125 to another value leaves these prices unchanged.
+- **Per-object classes.** Station buildings, platforms, signalboxes and signals carry `set_scale`
+  but have no compensating tile count, so their price in game is proportional to
+  `meters_per_tile`. At 125 m a signal costs `.dat × 0.125`; at 250 m it would cost twice as much.
+  **Changing `meters_per_tile` therefore rescales every building, platform and signal price in
+  proportion, and leaves every per-kilometre price alone.** Any future change to the setting must
+  be accompanied by a rebalancing of the per-object family.
+- **Depots, headquarters and city buildings are not scaled at all.** They are absent from
+  `karte_t::set_scale` because they are not in `hausbauer_t::modifiable_station_buildings`, so
+  neither `meters_per_tile` nor any tile count affects them. `cost_depot_*` is unscaled by length
+  and receives only the inflation adjustment.
+
+The per-tile land model, which is outstanding, may force a change to `meters_per_tile`. If it
+does, the per-object family and the land values need rebalancing together; the length-based
+family does not.
+
 ## A trap in the calibration workbook
 
 `New/Infrastructure balancing calibration-2.ods` carries a sheet named "Capital to maintenance
