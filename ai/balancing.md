@@ -15,6 +15,8 @@ be economically and historically realistic.
 - Passenger, mail and accommodation classes: [class](class.md).
 - Year-indexed prices: `config/prices.tab`, its price types and the research still outstanding
   for them: [prices-config](prices-config.md).
+- Way and structure base costs, the scaling that turns a `.dat` price into real money, and the
+  capital-to-maintenance ratios those imply: [infrastructure-base-costs](infrastructure-base-costs.md).
 - Source-recording rule for every historically derived value: [calibration-sources](calibration-sources.md).
 - Private-car colours and their relative `DistributionWeight` split: [objects/citycar](objects/citycar.md#colour-rule).
 - The main source of pricing information is the forum thread "A snippet of relative pricing
