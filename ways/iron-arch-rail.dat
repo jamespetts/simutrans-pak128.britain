@@ -9,7 +9,7 @@ retire_month=1
 topspeed=125
 max_weight=520
 cost=4480000
-maintenance=15360
+maintenance=1280
 max_height=6
 
 has_own_way_graphics=0
