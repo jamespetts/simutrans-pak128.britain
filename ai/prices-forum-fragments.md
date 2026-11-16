@@ -162,13 +162,10 @@ that state a ratio between structure types directly.
 - No continuous series of any kind. Each item is a single project with its own scope, so the
   items cannot be chained into an index: the 1861 Low Street station at £630 and the 1891
   Westcliff station at £4,000-5,000 are not the same building written twice.
-- No infrastructure price index, for the same reason and more strongly. The viaducts built
-  between 1828 and 1859 have costs per kilometre, converted to 1900 prices, that range from
-  £73,000 to £337,000, a factor of 4.6 for items built within one generation. That spread comes
-  from the height, the span, the foundations and the material, and it is larger than any
-  movement in infrastructure prices that could be measured over the same period. The
-  infrastructure tables were tested as a price series and cannot support one; the test and its
-  result are recorded in [prices-infrastructure](prices-infrastructure.md).
+- No infrastructure price index, for a different reason: the points were tested as a series and
+  show no drift within a fixed specification, but the uncertainty is wide enough that they
+  cannot refine the path. The test and its intervals are in
+  [prices-infrastructure](prices-infrastructure.md).
 
 ## Use
 

@@ -120,20 +120,41 @@ found. The candidates checked, and why each fails:
 
 The forum thread holds individual canal, aqueduct, viaduct and tunnel prices from 1724 to 1978,
 tabulated in [prices-forum-fragments](prices-forum-fragments.md). They were tested as a possible
-pre-1980 series by dividing each price by the `buildings` index for its year, which asks whether
-the cost of a structure in 1900 prices stays the same across the period.
+pre-1980 series by deflating each price with the `general` index and asking whether the
+deflated cost per unit drifts against the year of building.
 
-It does not. The viaducts built between 1828 and 1859 come out between £73,000 and £337,000 per
-kilometre in 1900 prices, a factor of 4.6, with no trend against the date of building. The
-two-track tunnels built between 1838 and 1875 come out between £45 and £144 per metre, a factor
-of 3.2; Primrose Hill, built in 1837 and also two tracks, comes out at £12 per metre, which is
-further out still and makes the full range a factor of 12. The apparent fall between the 1840s
-and 1875 rests on a single 1875 tunnel.
+Taken as one pool, they do drift: about 1.2% a year for bridges, 1.9% for tunnels and 2.1% for
+canals, each significant. That drift is specification, not price. A 1978 concrete bridge is a
+larger structure per metre than an 1830 stone viaduct, and the mix of structure types changes
+with the date, so a pooled regression measures the change of mix.
 
-The spread comes from the specification: height, span, foundations, and whether the structure is
-timber, brick, stone, iron or concrete. It is larger than the inter-decade price movement that
-would have to be measured, so these prices cannot be chained into an index. They are useful for
-relative costs within an era and for checking a base price, not for the year index.
+Within a fixed specification the drift disappears:
+
+| Class | Years | n | Drift a year | 95% interval |
+|---|---|---|---|---|
+| Stone viaducts | 1828-1933 | 8 | -0.24% | -1.25 to +0.78 |
+| Brick viaducts | 1840-1897 | 6 | -1.69% | -6.21 to +3.04 |
+| Two-track tunnels | 1837-1875 | 6 | -0.53% | -6.21 to +5.49 |
+| Single-track tunnels | 1839-1926 | 3 | +0.75% | +0.62 to +0.87 |
+| Canals, narrowboat and barge | 1724-1777 | 4 | -1.65% | -3.83 to +0.57 |
+| Electrification, per kilometre | 1891-1986 | 4 | -0.87% | -2.72 to +1.02 |
+
+Every class except the three-point single-track tunnel group is consistent with no drift. That
+group's interval is implausibly narrow because its three points lie almost on a straight line,
+which is a property of three points rather than evidence. Repeating the test with `buildings`
+instead of `general` moves no interval by more than 0.15 percentage points a year, because the
+two indices are close over most of the period, so the data cannot separate them.
+
+The prices therefore do not replace the index, but they are not uninformative either: they
+exclude a drift larger than about 1% a year, which is a factor of 2.7 over a century, and they
+are silent below that. The pre-1980 path is consequently supported to within a factor of about
+three, and no better.
+
+That leaves a choice the data cannot settle: whether the pre-1980 path should be `general`,
+which is what the key already inherits, or `buildings`. Against `buildings` stands the
+construction family it belongs to; against `general` stands the fact that it adds no claim the
+key does not already make, so the series would change only after 1980. The candidate results
+below use `buildings`; the alternative is recorded under open questions.
 
 ### Acworth's capital figures
 
@@ -158,9 +179,10 @@ not give the movement of prices over time, so they do not help with the pre-1980
 illustrative £40,000 and £10,000 figures are round numbers offered as comparisons rather than
 measured costs.
 
-The test therefore leaves the position below unchanged. It does, however, mean that the
-pre-1980 path is supported by the absence of any alternative rather than by positive evidence
-that infrastructure prices moved with building prices.
+The test therefore leaves the position below unchanged, but for a different reason than a
+straight rejection: the prices cannot distinguish `general` from `buildings`, and both are
+consistent with the data within wide bounds. The pre-1980 path is supported to within a factor
+of about three rather than by positive measurement.
 
 The treatment recommended here is the one already used for other short series: hold the
 `buildings` path for 1750-1980 and splice the infrastructure index onto it at 1980. The
@@ -208,8 +230,12 @@ real level and tracks `general`, as `buildings`, `city land` and `country land` 
 
 ## Open questions
 
-- Should the 1980 relative level be kept, at the cost of a step at 1980, rather than discarded
-  by the splice? The current recommendation is to discard it.
+- Should the pre-1980 path be `general` rather than `buildings`? The test above cannot separate
+  them. `general` adds no claim the key does not already make, so the series would change only
+  after 1980; `buildings` keeps the infrastructure key in the same family as the construction
+  prices it belongs to.
+- Should the relative level the BIS series shows for 1980, about 48% above all-new-construction
+  prices, be kept at the cost of a step at 1980 rather than discarded by the splice?
 - Are the Department of the Environment road construction tender price indices obtainable in a
   library, so that 1970-1980 could be covered by civil engineering prices rather than building
   prices?
@@ -217,10 +243,10 @@ real level and tracks `general`, as `buildings`, `city land` and `country land` 
   roads-and-bridges measure at all, or would a building index be closer to railway permanent
   way work? No source settles this; the road measure is used because it is construction work
   rather than building work.
-- The forum structure prices were rejected as an index because the specification spread is too
-  large. Would a cost book that tabulates unit rates for a fixed specification, such as Mills's
-  *Railway Construction* (1910) or a Spon's volume, give a narrow enough spread to measure the
-  movement between two dates?
+- Would a cost book that tabulates unit rates for a fixed specification, such as Mills's
+  *Railway Construction* (1910) or a Spon's volume, tighten the intervals in the test above
+  enough to distinguish `general` from `buildings`? The present intervals are wide because each
+  class has three to eight items.
 - The relative costs of structure types that the forum data implies, such as a bridge at about
   ten times a plain way, belong to the `.dat` base prices rather than to the year index. Should
   they be applied to the way, bridge, tunnel and pier base costs, and if so under which doc?
