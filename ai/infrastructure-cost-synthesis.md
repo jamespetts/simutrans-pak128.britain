@@ -18,19 +18,19 @@ Companions: [infrastructure-base-costs](infrastructure-base-costs.md) (the conve
 Every `.dat` price is scaled before use, but **not every object class is scaled the same way**.
 Read from `simworld.cc` (`karte_t::set_scale`) and `obj/roadsign.cc` at `22cc3af`:
 
-| Class | Scaled by | `.dat` value for a real Â£X |
+| Class | Scaled by | `.dat` value for a real £X |
 |---|---|---|
-| Ways, tunnels, bridges, way objects (electrification) | `meters_per_tile/1000` = 0.125 | Â£ per km Ã— 2.523; Â£ per metre Ã— 2,523 |
-| Station buildings, platforms, signalboxes (all in `modifiable_station_buildings`) | 0.125 | Â£ per object **Ã— 20.19** |
-| Signals and roadsigns (`roadsign_t::set_scale`) | 0.125 | Â£ per object **Ã— 20.19** |
-| Industries | 0.125 | â€” |
-| Depots, headquarters, city buildings, attractions | **not scaled** | Â£ per object Ã— 2.523 |
+| Ways, tunnels, bridges, way objects (electrification) | `meters_per_tile/1000` = 0.125 | £ per km Ã— 2.523; £ per metre Ã— 2,523 |
+| Station buildings, platforms, signalboxes (all in `modifiable_station_buildings`) | 0.125 | £ per object **Ã— 20.19** |
+| Signals and roadsigns (`roadsign_t::set_scale`) | 0.125 | £ per object **Ã— 20.19** |
+| Industries | 0.125 | — |
+| Depots, headquarters, city buildings, attractions | **not scaled** | £ per object Ã— 2.523 |
 
 The distinction matters: three of the research returns used the per-kilometre formula for
 per-object classes. Their values for signals, station buildings and signalboxes are therefore
 **eight times too small**, and have been corrected in this document. Depots and headquarters are
 not scaled and take the smaller factor. Maintenance is scaled on the same pattern, then charged
-per month, so annual maintenance in Â£ = `.dat maintenance` Ã— 0.125 Ã— 0.396311 Ã— 12 for a scaled
+per month, so annual maintenance in £ = `.dat maintenance` Ã— 0.125 Ã— 0.396311 Ã— 12 for a scaled
 one-tile object, and `.dat maintenance` Ã— 0.396311 Ã— 12 for an unscaled one.
 
 ## 2. The cross-cutting finding: maintenance carries renewal
@@ -38,8 +38,8 @@ one-tile object, and `.dat maintenance` Ã— 0.396311 Ã— 12 for an unscaled 
 The maintenance column appears to have been built from historical accounts that combine routine
 maintenance with renewal. Acworth's "maintenance of way and works" and the Board of Trade heading
 that the 1938 figure uses both do exactly that, and the Victorian practice of lifting and packing
-by travelling relayers was booked to renewal. Simutrans renews separately â€” `weg_t::renew()`
-charges the full way cost again when wear capacity runs out â€” so any renewal element in
+by travelling relayers was booked to renewal. Simutrans renews separately — `weg_t::renew()`
+charges the full way cost again when wear capacity runs out — so any renewal element in
 maintenance is double counting.
 
 Every family the researchers examined shows the same shape: capital within a few times of
@@ -48,12 +48,12 @@ figures are:
 
 | Source, date | Figure, 1900 prices |
 |---|---|
-| BR 1966, track maintenance excluding renewal | Â£44/km/year |
-| ORR 2015-16, track maintenance excluding renewal | Â£334/km/year |
-| Cudworth 1886, brick viaduct upkeep | Â£0.05/m/year |
-| Cudworth 1886, iron viaduct upkeep | Â£0.23-0.25/m/year |
-| Plain line upkeep, various 1839-1902 | Â£0.05-0.31/m/year |
-| Canal routine upkeep, 1938 | Â£62/km/year |
+| BR 1966, track maintenance excluding renewal | £44/km/year |
+| ORR 2015-16, track maintenance excluding renewal | £334/km/year |
+| Cudworth 1886, brick viaduct upkeep | £0.05/m/year |
+| Cudworth 1886, iron viaduct upkeep | £0.23-0.25/m/year |
+| Plain line upkeep, various 1839-1902 | £0.05-0.31/m/year |
+| Canal routine upkeep, 1938 | £62/km/year |
 
 The recommendation is therefore a **single rule rather than object-by-object judgement**: strip
 the renewal element out of every maintenance value, and let the wear mechanic fund renewal.
@@ -88,8 +88,8 @@ current `.dat` value.
 | tgv | 250,000 â†’ **24,000** | 950 â†’ **35** |
 | cssri | 175,000 â†’ **8,500** | 630 â†’ **60** |
 
-`forge_cost_track`: **15,000 â†’ 800-1,000**. Measured formation costs are Â£110/km (1803),
-Â£253/km (1830, including fencing) and Â£250-400/km (1855-1900).
+`forge_cost_track`: **15,000 â†’ 800-1,000**. Measured formation costs are £110/km (1803),
+£253/km (1830, including fencing) and £250-400/km (1855-1900).
 
 ### 3.2 Roads
 
@@ -148,7 +148,7 @@ line upkeep, brick about half, iron about 1.2-1.5 times.
 | piers, timber / iron / brick-stone / concrete | â†’ **50,000 / 88,000 / 278,000 / 139,000** | â†’ **147 / 147 / 185 / 116** |
 
 `forge_cost_water`: **25,000 â†’ 1,000** (or 500 if `way + forge` must equal the anchor exactly).
-At 25,000 it charges Â£9,908/km, more than an entire narrow or barge canal.
+At 25,000 it charges £9,908/km, more than an entire narrow or barge canal.
 
 ### 3.5 Stations, platforms, shelters, depots
 
@@ -172,19 +172,19 @@ concrete below brick where it should be between, and concrete capital above bric
 be at or slightly below.
 
 Bus shelters, loading bays, bus terminals and every depot currently have **no cost or maintenance
-line at all** â€” they are free. `cost_depot_rail` = 2,000 implies Â£2,523 against a measured
-Â£3,973 for the Tilbury shed and Â£20,390 for Plaistow; suggested 10,000 for rail and 5,000 for road.
+line at all** — they are free. `cost_depot_rail` = 2,000 implies £2,523 against a measured
+£3,973 for the Tilbury shed and £20,390 for Plaistow; suggested 10,000 for rail and 5,000 for road.
 
 ### 3.6 Signals, signalboxes, electrification
 
 Signals and signalboxes are scaled per object. The research value per post is small: a semaphore
-post with one arm and its share of the wires is Â£15-18 (1912), a colour-light head Â£85-160, and
-the 1909 figure of Â£100 an arm for automatic signals stands. Because one `.dat` maintenance unit
-is Â£4.76 a year, **a semaphore post's annual upkeep cannot be expressed** â€” the field must be 0 or
+post with one arm and its share of the wires is £15-18 (1912), a colour-light head £85-160, and
+the 1909 figure of £100 an arm for automatic signals stands. Because one `.dat` maintenance unit
+is £4.76 a year, **a semaphore post's annual upkeep cannot be expressed** — the field must be 0 or
 1, and the true per-post upkeep belongs in the signalbox.
 
 Signalboxes carry the general signalling infrastructure. Measured all-in per signal controlled:
-about Â£75 in the mechanical era, Â£1,272 on the 1959-62 Kent Coast scheme, Â£2,250-3,434 today. The
+about £75 in the mechanical era, £1,272 on the 1959-62 Kent Coast scheme, £2,250-3,434 today. The
 box-to-posts ratio should be about 3:1 mechanical, 8-10:1 power and modern.
 
 Electrification recommendations are per km of track and need **no** scaling correction, because a
@@ -201,8 +201,8 @@ way object spans a 125 m tile:
 | third rail + DC catenary | 240,000 â†’ **14,000** | 900 â†’ **13** |
 | third rail + AC catenary | 188,000 â†’ **18,000** | 800 â†’ **15** |
 
-The inversion is fixed by these: historically, cost per track km *falls* from about Â£10,000 in
-1925 to Â£4,600 young OLE, whereas the pakset has late electrification comparatively cheap.
+The inversion is fixed by these: historically, cost per track km *falls* from about £10,000 in
+1925 to £4,600 young OLE, whereas the pakset has late electrification comparatively cheap.
 
 ### 3.7 Airports, power lines, elevated ways
 
@@ -212,8 +212,8 @@ The inversion is fixed by these: historically, cost per track km *falls* from ab
 | concrete runway | 392,500 â†’ keep (concrete premium) | 1,950 â†’ **~300** |
 | taxiway | 109,500 â†’ **67,000** | 638 â†’ **110** |
 | terminal | 2,500,000-2,700,000 â†’ **2,720,000** | ~9,000 â†’ **6,810** |
-| hangar | â€” â†’ **303,000** | â€” â†’ **757** |
-| control tower | â€” â†’ **707,000** | â€” â†’ **1,770** |
+| hangar | — â†’ **303,000** | — â†’ **757** |
+| control tower | — â†’ **707,000** | — â†’ **1,770** |
 | power line | 35,000 â†’ **68,000** | 25 â†’ **2** |
 | elevated way (concrete) | 1,456,000 â†’ **505,000** | 149 â†’ **420** |
 
@@ -258,15 +258,15 @@ course, and it affects every cost-to-revenue ratio used in earlier calibration w
 
 Section 4.1 establishes that each way type has its own forge cost, and `simuconf.tab` indeed
 carries a separate value for each of eight way types. **Only two have been researched**: track
-(recommended 800-1,000 against 15,000 now) and water (1,000 against 25,000). The remaining six â€”
-road, monorail, maglev, tram, narrow gauge and air â€” have never been independently estimated.
+(recommended 800-1,000 against 15,000 now) and water (1,000 against 25,000). The remaining six —
+road, monorail, maglev, tram, narrow gauge and air — have never been independently estimated.
 
 Because the forge is the difference between renewing on a prepared bed and forging virgin terrain,
 its value should scale with the difficulty and volume of earthworks for that mode, not with the
 mode's traffic or capacity. A tramway needs little more than the road it sits in; a narrow gauge
 line needs much what a standard line needs; a maglev guideway needs a formation comparable to a
-railway's. The present values encode guesses in that direction â€” tram 5,000 is the lowest, air and
-water the highest â€” but none is derived from a measured source.
+railway's. The present values encode guesses in that direction — tram 5,000 is the lowest, air and
+water the highest — but none is derived from a measured source.
 
 This must be researched before the forge values are changed, because changing the rail forge
 without the others would make rail cheap to forge in virgin terrain relative to every other mode
@@ -282,7 +282,7 @@ to avoid.
 - All brick viaducts share one cost regardless of height, span or pillar spacing; all masonry
   aqueducts share one cost across three widths.
 - The forum's Primrose Hill tunnel row gives 9,700 m for a tunnel of about 1,168 m, so its
-  Â£12/m figure is a length artefact; the Islington canal tunnel row conflicts with the London &
+  £12/m figure is a length artefact; the Islington canal tunnel row conflicts with the London &
   Birmingham evidence by a factor of about seventeen.
 - Bus shelters, loading bays, bus terminals and all depots have no cost or maintenance line.
 - Eight `.dat` files hold several `Obj=` blocks, so any audit keyed to one object per file reads
@@ -293,12 +293,12 @@ to avoid.
 | Gap | Suggested heuristic |
 |---|---|
 | Permanent-way cost 1900-1930 and after 1945 | Interpolate between the measured 1898, 1966 and 2000 anchors; treat the 1922 rail contract as a component check |
-| Earthworks per km for a stated cross-section | Use the measured 9d-1s 3d per cubic yard and a stated depth; the L&M's Â£3,284/km is the heavy-grading check |
-| Straight-sided retaining walls, modern | Use the Victorian Â£0.70-1.70/mÂ² of wall face and scale by wall height |
+| Earthworks per km for a stated cross-section | Use the measured 9d-1s 3d per cubic yard and a stated depth; the L&M's £3,284/km is the heavy-grading check |
+| Straight-sided retaining walls, modern | Use the Victorian £0.70-1.70/mÂ² of wall face and scale by wall height |
 | Structure maintenance by type where no account exists | Apply the measured relativities: brick 0.5Ã— plain line, iron 1.2-1.5Ã—, timber 7-8Ã—, tunnel 1.5-2.5Ã— |
 | Dock and pier maintenance | Use 2-4% a year for timber and 0.8-1% for masonry and concrete |
-| Hangars, terminals and towers before 1950 | Deflate modern Â£/mÂ² on the `buildings` index; there is no measured pre-war figure |
-| Total signalling cost per route km before 1909 | Use Rapier's 1874 model: 10 levers a mile, one box per 1.5 miles, 4.2 posts a km, about Â£315/route km |
+| Hangars, terminals and towers before 1950 | Deflate modern £/mÂ² on the `buildings` index; there is no measured pre-war figure |
+| Total signalling cost per route km before 1909 | Use Rapier's 1874 model: 10 levers a mile, one box per 1.5 miles, 4.2 posts a km, about £315/route km |
 | Contact-wire and conductor-rail renewal cost | Take 35-45% of new build for wire every 35-40 years, and 25-35% for conductor rail every 60-80 years |
 
 ## 8. The balance question
@@ -385,6 +385,6 @@ In order of value per change, and in order of confidence in the evidence:
    measurable.
 3. **The masonry and brick structures**, which are the largest capital errors and the ones with
    the firmest anchors.
-4. **The missing values** â€” shelters, depots and bus stops that are currently free.
+4. **The missing values** — shelters, depots and bus stops that are currently free.
 5. **Signals**, but only after deciding what a signal object represents and how to express
    sub-unit maintenance.
