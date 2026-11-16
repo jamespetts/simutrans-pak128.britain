@@ -37,7 +37,10 @@ do not use line-number references to files that change. Never edit a document's 
 - [calibration-sources](calibration-sources.md) — read before entering any historically derived value in a config file or `.dat`: the source-recording rule and the dataset registry.
 - [prices-config](prices-config.md) — read when editing or extending `config/prices.tab`: the price types, the index method, the unit conversion and the outstanding series.
 - [prices-forum-fragments](prices-forum-fragments.md) — read when a single building or structure price is needed for an era, or before setting the station, depot and platform multipliers: what the forum pricing thread supplies and what it does not.
+- [infrastructure-cost-evidence](infrastructure-cost-evidence.md) — read before rebalancing any infrastructure object, or when a measured historical cost is needed: the evidence behind the cost recommendations, by domain, with sources.
+- [infrastructure-cost-synthesis](infrastructure-cost-synthesis.md) — read when deciding what an infrastructure object should cost: the scaling map, the cross-cutting maintenance finding, current against recommended values, and the decisions taken or outstanding.
 - [class](class.md) — read when touching passenger or mail classes, accommodation, comfort, catering, or fare-dependent revenue; keyed from [balancing](balancing.md).
+- [comfort-calibration](comfort-calibration.md) — read before setting or changing any comfort value: what the number means, the anchors, the line, the per-type methods and the register of calibrated vehicles.
 
 ## Build, data & infrastructure
 

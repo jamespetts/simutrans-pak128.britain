@@ -11,7 +11,13 @@ changed** except the two bugs noted below.
 
 Companions: [infrastructure-base-costs](infrastructure-base-costs.md) (the conversion chain),
 [infrastructure-cost-findings](infrastructure-cost-findings.md) (the first-pass audit),
-[prices-infrastructure](prices-infrastructure.md) (the year index).
+[infrastructure-cost-evidence](infrastructure-cost-evidence.md) (the measured historical figures
+by domain), [prices-infrastructure](prices-infrastructure.md) (the year index).
+
+**This document is a record, not a decision.** The programme of work is to research each important
+domain to this depth first, and only then derive the balance implications from the whole body of
+research at once. The recommendations here are inputs to that later decision, and the figures may
+change as other domains — revenue, vehicles, staff, fuel — are examined with the same rigour.
 
 ## 1. The scaling map, verified from the engine
 
