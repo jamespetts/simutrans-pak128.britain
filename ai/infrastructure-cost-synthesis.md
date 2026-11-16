@@ -345,11 +345,15 @@ required before building more than one depot, and that successively larger headq
 progressively more depots.
 
 The historical basis exists and should be researched rather than invented. The Railway Returns
-carry a "general charges" heading — management, legal and audit, rates and taxes, and general
-office costs — separately from way and works, traffic and locomotive expenses. Acworth discusses
-the same division. The figure needed is general charges per route mile per year, by era, and the
-cost of the headquarters buildings themselves, for which the existing depot and station figures
-give an order of magnitude but not a measured series.
+carry a "general charges" heading — management, legal and audit, and general office costs —
+separately from way and works, traffic and locomotive expenses. Acworth discusses the same
+division. **Rates and taxes are excluded from this**, because the pakset already models taxation
+separately through `corporation tax` in `config/prices.tab`, and counting them here would charge
+the same thing twice.
+
+The figure needed is general charges per route mile per year, by era, and the cost of the
+headquarters buildings themselves, for which the existing depot and station figures give an order
+of magnitude but not a measured series.
 
 This belongs in the same body of work as the cost audit: it is a real cost that the game does not
 currently charge, and it may account for part of the balance gap in section 8.
