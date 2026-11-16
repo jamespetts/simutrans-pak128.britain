@@ -18,10 +18,18 @@ for new engine features.
 ## Planned work
 
 - Complete the three price types that still fall back to `general` in `config/prices.tab`:
-  `goods rate`, `vehicle purchase` and `vehicle maintenance`, and insert the researched
-  `infrastructure` series. Research sources and method: [prices-config](prices-config.md),
-  [prices-infrastructure](prices-infrastructure.md); source-recording rule:
-  [calibration-sources](calibration-sources.md). `[USER-DIRECTION:2026-11-15]`
+  `goods rate`, `vehicle purchase` and `vehicle maintenance`. Research sources and method:
+  [prices-config](prices-config.md), [prices-infrastructure](prices-infrastructure.md);
+  source-recording rule: [calibration-sources](calibration-sources.md).
+  `[USER-DIRECTION:2026-11-15]`
+- Research each cost domain to the depth of the infrastructure study before deriving balance
+  implications, and only then take the balancing decisions. Infrastructure is complete:
+  [infrastructure-cost-synthesis](infrastructure-cost-synthesis.md) holds the recommendations and
+  the decisions taken, [infrastructure-cost-evidence](infrastructure-cost-evidence.md) the
+  measured figures. The remaining domains are revenue and fares, vehicles, staff, fuel, and
+  corporate overheads. **Do not change `.dat` cost values until the whole body of research is
+  available**, because the balance implications have to be derived from all of it together.
+  `[USER-DIRECTION:2026-11-16]`
 - Add the missing citycar assets listed in
   [objects/citycar-asset-gaps](objects/citycar-asset-gaps.md) — the comprehensive gap
   register (P1: Very-high luxury cars for 1922–1947 and 1989–2025; P2: entry cars including
