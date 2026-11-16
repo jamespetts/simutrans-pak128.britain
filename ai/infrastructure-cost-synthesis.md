@@ -254,24 +254,42 @@ document was therefore the wrong question, and the way-only reading is correct.
 rather than capital, and the game books it as capital. This will need an engine change in due
 course, and it affects every cost-to-revenue ratio used in earlier calibration work.
 
-## 5. A gap this exposes: forge costs by way type
+## 5. Forge costs by way type
 
-Section 4.1 establishes that each way type has its own forge cost, and `simuconf.tab` indeed
-carries a separate value for each of eight way types. **Only two have been researched**: track
-(recommended 800-1,000 against 15,000 now) and water (1,000 against 25,000). The remaining six —
-road, monorail, maglev, tram, narrow gauge and air — have never been independently estimated.
+Section 4.1 establishes that each way type has its own forge cost, and `simuconf.tab` carries a
+separate value for each of eight. These have now been researched. Values are 1900 pounds per
+**route** kilometre; the setting is the pound figure multiplied by 2.523.
+
+| Way type | Setting now | Recommended setting | Basis, 1900 prices |
+|---|---|---|---|
+| track | 15,000 | **760-1,010** | £110/km flat (1803), £253/km with fencing (1830), £250-400/km typical (1855-1900), up to £4,600/km in heavy terrain |
+| narrow gauge | 10,000 | **760-1,140** | £250-450/km typical, £500-620/km for a Festiniog-type mountain line; terrain-dominated, not gauge-dominated |
+| road | 7,500 | **2,500-3,800** | turnpike and macadam formation £50-250/km, modern asphalt roadbed £2,000-8,000/km. One value cannot fit both eras; the recommendation favours the early road |
+| tram | 5,000 | **1,500-3,000** | £600-1,200/km, a street reservation sharing the road formation, so trench and concrete bed only |
+| water | 25,000 | **3,000-4,500**, or 1,250 | see the definitional note below |
+| air | 22,500 | **15,000-22,500** | £6,000-9,000/km formation, 30-40% of the pavement cost; the present value is already at the top of the range |
+| monorail | 20,000 | **900-1,250** if a ground formation | no British historical basis |
+| maglev | 20,000 | **900-1,250** if a ground formation | if these are elevated guideways the forge belongs with pier foundations instead |
+
+**The canal definitional flag.** For a canal the formation — the cut, drainage, fencing, land
+clearance — is large, at £1,200-2,200/km in 1900 prices, while the renewable element, re-puddling
+and relining, is small. Under the definition in section 4.1 the formation belongs in the forge and
+the way object should shrink to the renewal element. The present pakset has this reversed: the
+canal way object carries the whole channel and the forge only a token. Either the water forge rises
+to 3,000-4,500 and the canal way objects fall, or the way object keeps the whole channel and the
+forge stays near 1,250. The two cannot both be right, and the meaning of the canal way object has
+to be settled before either is changed.
+
+**The parallel-ways percentages were tested as well.** Track 35%, road 50%, water 75% and air 85%
+are all supported by the evidence on the marginal cost of a second parallel way. **Tram is not**:
+because a second tram track shares the street formation, the marginal cost is nearer 40% than the
+85% the pakset charges, so tramways are currently overcharged for doubling. Monorail and maglev
+have no historical basis and should keep railway-like values.
 
 Because the forge is the difference between renewing on a prepared bed and forging virgin terrain,
-its value should scale with the difficulty and volume of earthworks for that mode, not with the
-mode's traffic or capacity. A tramway needs little more than the road it sits in; a narrow gauge
-line needs much what a standard line needs; a maglev guideway needs a formation comparable to a
-railway's. The present values encode guesses in that direction — tram 5,000 is the lowest, air and
-water the highest — but none is derived from a measured source.
-
-This must be researched before the forge values are changed, because changing the rail forge
-without the others would make rail cheap to forge in virgin terrain relative to every other mode
-and distort route-building choices in exactly the way the parallel-ways discount was introduced
-to avoid.
+its value scales with the difficulty of the earthworks, not with the mode's traffic or capacity.
+That is why a tramway's forge is far below a railway's, and why airfields, which are essentially a
+levelling bill, are the highest of all.
 
 ## 6. Defects found in passing
 
@@ -352,8 +370,41 @@ separately through `corporation tax` in `config/prices.tab`, and counting them h
 the same thing twice.
 
 The figure needed is general charges per route mile per year, by era, and the cost of the
-headquarters buildings themselves, for which the existing depot and station figures give an order
-of magnitude but not a measured series.
+headquarters buildings themselves, which the existing depot and station figures bound but do not
+measure.
+
+### What the research found
+
+General charges, with rates and taxes excluded, are remarkably stable as a share of gross
+receipts across a century:
+
+| Source | Year | General charges as % of receipts |
+|---|---|---|
+| Great Western | 1838-40 | 5.84 |
+| Cheshire Lines Committee | 1874 | 4.47 |
+| Metropolitan | 1893-1900 | 3.6-4.2 |
+| London, Tilbury and Southend | 1896-1902 | 5.2 |
+| East London Railway Joint Committee | 1930-36 | 3.28 |
+| British Railways "General" | 1955 and 1958 | 3.2-4.1, upper bound |
+
+The company figures come from accounts that already carry rates and taxes under a separate
+heading, so they are clean for this purpose. The British Railways figures do not clearly separate
+the two and must be stripped before use.
+
+Applied to the receipts implied by Acworth's capital figure — capital about eight times gross
+receipts, so about £3,500 a route kilometre a year in 1900 prices — general charges come to
+**about £175 per route kilometre per year, range £140-210**. That is the figure the headquarters
+mechanism should stand as proxy for. It is stable enough that one value serves most of the
+timeline.
+
+**The headquarters building cost itself could not be established.** No free source gives a
+construction cost for a British railway head office, divisional office or district office. The
+nearest anchors are a combined offices-and-works figure of £62,000 at Derby in 1839, a training
+college at £50,000 in 1937, and a United States office block at about £72,000 in 1882. Since the
+overhead is an annual charge and the building is a capital one, the mechanism may not need a
+measured building price at all: a nominal building cost plus the £175 a kilometre a year standing
+charge would represent the overhead more honestly than a large building price pretending to be
+the whole of it.
 
 ### Open question: property rates
 
