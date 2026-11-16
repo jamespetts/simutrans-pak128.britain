@@ -21,16 +21,16 @@ conversion, and the research required for each type that has no series of its ow
 
 ## Types and state
 
-Eight types have a series of their own: `general`, `passenger fare`, `mail rate`,
-`corporation tax`, `base rate`, `city land`, `country land` and `buildings`. The remaining
-four are present only as commented-out placeholders and therefore use `general`:
+Nine types have a series of their own: `general`, `passenger fare`, `mail rate`,
+`corporation tax`, `base rate`, `city land`, `country land`, `buildings` and `infrastructure`.
+The remaining three are present only as commented-out placeholders and therefore use
+`general`:
 
 - `goods rate`
 - `vehicle purchase`
 - `vehicle maintenance`
-- `infrastructure`
 
-`[CODE New ex-15 @ 8d0603d81]`; `buildings` added 2026-11-15.
+`[CODE New ex-15 @ 8d0603d81]`; `buildings` added 2026-11-15, `infrastructure` added 2026-11-16.
 
 The placeholders are flat at index 100. Do not uncomment one without a real series: that would
 remove inflation from the category entirely, which is a larger error than inheriting `general`.

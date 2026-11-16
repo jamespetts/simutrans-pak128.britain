@@ -9,8 +9,8 @@ scales, the published index series that exist, how those series chain together, 
 about the period before 1980. General method, unit conversion and the other price types:
 [prices-config](prices-config.md).
 
-The series described here is **researched but not implemented**: `infrastructure` is still a
-commented-out placeholder and therefore still inherits `general`.
+The series is **implemented** in `prices.tab` as of 2026-11-16. Its lower end follows the
+`general` index and its 1980-2026 end follows the chained ONS series; the reasoning is below.
 
 ## Engine coverage
 
@@ -178,10 +178,11 @@ are silent below that. The pre-1980 path is consequently supported to within a f
 three, and no better.
 
 That leaves a choice the data cannot settle: whether the pre-1980 path should be `general`,
-which is what the key already inherits, or `buildings`. Against `buildings` stands the
-construction family it belongs to; against `general` stands the fact that it adds no claim the
-key does not already make, so the series would change only after 1980. The candidate results
-below use `buildings`; the alternative is recorded under open questions.
+which is what the key already inherits, or `buildings`. The series as implemented follows
+`general`, for two reasons: the test finds no movement within a fixed specification, which is
+exactly a flat real path, and the workbook that derived the base prices deflated its historical
+items with `general`, so the base prices are already on that basis. Against `buildings` stands
+only the construction family it belongs to.
 
 ### Acworth's capital figures
 
