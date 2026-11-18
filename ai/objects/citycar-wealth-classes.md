@@ -118,16 +118,17 @@ Two changes of method from the earlier object-count table:
 | 1965 | 6 [10] | 7 [16] | 9 [19] | 5 [12] | 5 [7] |
 | 1970 | 4 [8] | 9 [16] | 10 [20] | 5 [13] | 4 [9] |
 | 1975 | 5 [10] | 12 [21] | 16 [30] | 6 [20] | 5 [10] |
-| 1980 | 6 [14] | 15 [25] | 17 [34] | 7 [22] | 5 [11] |
-| 1985 | 6 [15] | 19 [31] | 19 [40] | 7 [22] | 5 [11] |
-| 1990 | 6 [13] | 17 [28] | 15 [33] | 4 [19] | 5 [9] |
-| 1995 | 6 [14] | 20 [31] | 14 [35] | 3 [17] | 5 [8] |
-| 2000 | 4 [12] | 21 [29] | 12 [35] | 4 [17] | 4 [7] |
-| 2005 | 4 [9] | 15 [21] | 10 [26] | 5 [18] | 6 [10] |
-| 2010 | 4 [8] | 13 [20] | 11 [25] | 5 [17] | 5 [9] |
-| 2015 | 4 [8] | 12 [19] | 10 [23] | 5 [16] | 3 [7] |
-| 2020 | 3 [6] | 8 [13] | 8 [16] | 3 [12] | 3 [6] |
-| 2025 | 1 [3] | 7 [9] | 5 [13] | 2 [7] | 1 [3] |
+| 1980 | 6 [14] | 15 [25] | 17 [34] | 6 [22] | 6 [11] |
+| 1985 | 6 [15] | 19 [31] | 19 [40] | 6 [22] | 6 [11] |
+| 1990 | 6 [13] | 17 [28] | 15 [33] | 3 [19] | 6 [9] |
+| 1995 | 6 [14] | 20 [31] | 14 [35] | 2 [17] | 6 [8] |
+| 2000 | 4 [12] | 21 [29] | 12 [35] | 3 [17] | 5 [7] |
+| 2005 | 4 [9] | 15 [21] | 10 [26] | 4 [18] | 7 [10] |
+| 2010 | 4 [8] | 13 [20] | 11 [25] | 4 [17] | 6 [9] |
+| 2015 | 4 [8] | 12 [19] | 10 [23] | 4 [16] | 4 [7] |
+| 2020 | 3 [6] | 8 [13] | 8 [16] | 2 [12] | 4 [6] |
+| 2025 | 1 [3] | 7 [9] | 5 [13] | 1 [7] | 2 [3] |
+
 
 ### With the planned queue added
 
@@ -148,16 +149,17 @@ Citroën DS and CX; an Aston Martin family; and the four pre-1920 light cars.
 | 1965 | 6 [10] | 7 [16] | 9 [19] | 6 [13] | 6 [9] |
 | 1970 | 4 [8] | 9 [16] | 10 [20] | 6 [14] | 5 [11] |
 | 1975 | 5 [10] | 13 [23] | 18 [33] | 7 [22] | 6 [12] |
-| 1980 | 6 [14] | 16 [27] | 19 [37] | 7 [23] | 6 [12] |
-| 1985 | 6 [15] | 20 [33] | 22 [44] | 7 [24] | 6 [12] |
-| 1990 | 6 [13] | 19 [30] | 17 [37] | 4 [21] | 6 [10] |
-| 1995 | 6 [14] | 23 [34] | 16 [40] | 3 [19] | 6 [9] |
-| 2000 | 4 [13] | 26 [34] | 14 [42] | 4 [19] | 5 [8] |
-| 2005 | 4 [10] | 19 [25] | 11 [31] | 5 [19] | 7 [11] |
-| 2010 | 4 [9] | 16 [23] | 12 [29] | 5 [18] | 6 [10] |
-| 2015 | 4 [9] | 15 [22] | 11 [27] | 5 [17] | 4 [8] |
-| 2020 | 3 [7] | 10 [15] | 9 [19] | 3 [13] | 4 [7] |
-| 2025 | 1 [4] | 9 [11] | 6 [16] | 2 [8] | 2 [4] |
+| 1980 | 6 [14] | 16 [27] | 19 [37] | 6 [23] | 7 [12] |
+| 1985 | 6 [15] | 20 [33] | 22 [44] | 6 [24] | 7 [12] |
+| 1990 | 6 [13] | 19 [30] | 17 [37] | 3 [21] | 7 [10] |
+| 1995 | 6 [14] | 23 [34] | 16 [40] | 2 [19] | 7 [9] |
+| 2000 | 4 [13] | 26 [34] | 14 [42] | 3 [19] | 6 [8] |
+| 2005 | 4 [10] | 19 [25] | 11 [31] | 4 [19] | 8 [11] |
+| 2010 | 4 [9] | 16 [23] | 12 [29] | 4 [18] | 7 [10] |
+| 2015 | 4 [9] | 15 [22] | 11 [27] | 4 [17] | 5 [8] |
+| 2020 | 3 [7] | 10 [15] | 9 [19] | 2 [13] | 5 [7] |
+| 2025 | 1 [4] | 9 [11] | 6 [16] | 1 [8] | 3 [4] |
+
 
 The table counts *available models*, not spawning. Whether a pool is actually used depends on
 `privatecar.tab`: with the pre-war assumption in place, classes 0 and 1 run at 1% from 1940 and 1925
@@ -165,25 +167,28 @@ respectively, so the 1920–35 Very-low and Low figures are models with no traff
 
 ### What the table shows
 
+- **The main figure uses a convention: each series is counted in the band that bought it new.** For
+  the luxury saloons that is Very high, so the 7-series, A8, LS400 and S-Class all sit in the fourth
+  column; the `.dat` files still give them `class=3,4`, because the used market and the company-car
+  channel put them in High hands later. The bracketed figure is the one to read when judging
+  coverage, because it has no such convention in it.
+- **High is the weakest band from 1990 onward.** With the top luxury saloons counted in Very high,
+  High falls to three series in 1990 and one by 2025 — the Range Rover. The cars that serve it in the
+  bracket are the `2,3` executive saloons (5-series, A4, C-Class, XF-class), which are counted in
+  Medium in the main figure.
 - **Before 1945 the outer bands rest on motorcycles and on very few cars.** Very low is two pre-war
   outfits in 1935 and never more than three series; Low is empty until the Ford Model Y and Model C
   give it two series in 1935. This is correct, not a modelling gap: `privatecar.tab` gives both
   classes zero ownership before 1945.
 - **But that same table means the pre-war outfits cannot spawn at all.** Their `.dat` files carry
-  `class=0,1`, yet both classes are at 0% until 1945, so the pool is empty and the BSA 557, BSA
-  Sloper and Norton Big Four never appear. Making them spawn needs the `privatecar.tab` values for
-  classes 0 and 1 to be non-zero before 1945, which is a balancing decision rather than a data one.
+  `class=0,1`, yet both classes were at 0% until 1945. That has now been changed to a labelled
+  gameplay assumption (below), so they spawn from 1925 in Low and 1940 in Very low.
 - **The whole 2015–2025 block is thin, in every band.** Once each series is counted once, the recent
   fleet is five to ten series per band, falling to one or two in the outer bands by 2025. The
   pakset's modern coverage rests on the 2005–2015 cohort, most of which is near or past its retire
   date.
-- **Very low in 2025 is one series** (the Dacia Sandero); **Very high in 2025 is one series** (the
-  S-Class), becoming two with the planned Aston. Both outer bands need modern cars far more than the
-  middle does.
 - **Medium is the consistently strongest band** once generations are collapsed: six to nineteen
   series in every year from 1920, and the largest column throughout the middle of the century.
-- The brackets run one to four times the main figure, which is the intended cross-class drift: a
-  1985 Medium car is available to three bands, not one.
 
 ## Provenance
 
