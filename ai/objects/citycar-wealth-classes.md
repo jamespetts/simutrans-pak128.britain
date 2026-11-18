@@ -83,51 +83,89 @@ The distribution after revision:
 
 ## Coverage, 1920–2025
 
-Models on the road at each five-year point, by class, counted from the `.dat` intro and retire dates
-(road presence, not production). The figure in brackets is the number the planned queue would add.
+Two changes of method from the earlier object-count table:
+
+1. **Generations of one series count once.** The 247 models collapse to **149 series** (Ford Fiesta
+   Mk1–Mk7 is one car, BMW 3-series E21–G20 is one car, Triumph 2000 Mk1/Mk2/2500 is one car). A
+   series is present in a year if any of its generations is on the road that year.
+2. **Each series is counted once in the main figure**, in its *primary band* — the band that bought
+   it new, e.g. Medium for a 3-series, Very high for an S-Class, Low for a Fiesta. The figure in
+   [square brackets] is what the column would read if every series were counted in every band it
+   belongs to. The gap between the two is the cross-class drift the class lists encode.
+
+### What we have
 
 | Year | 0 Very low | 1 Low | 2 Medium | 3 High | 4 Very high |
 | --- | --- | --- | --- | --- | --- |
-| 1920 | 2 (+2) | 5 (+4) | 7 (+2) | 12 | 10 |
-| 1925 | 5 (+2) | 8 (+4) | 11 (+2) | 12 | 8 (+4) |
-| 1930 | 7 | 8 | 11 | 13 | 10 (+4) |
-| 1935 | 8 | 9 | 13 | 15 | 11 (+4) |
-| 1940 | 8 | 10 | 13 | 11 | 9 (+4) |
-| 1945 | 7 | 8 | 11 | 10 | 8 (+4) |
-| 1950 | 9 | 11 | 15 | 12 | 8 (+4) |
-| 1955 | 9 | 12 | 16 | 13 (+4) | 10 (+2) |
-| 1960 | 7 | 12 | 18 | 15 (+4) | 10 (+2) |
-| 1965 | 11 | 18 | 21 | 12 (+2) | 8 (+3) |
-| 1970 | 8 | 16 | 22 | 15 (+2) | 10 (+3) |
-| 1975 | 10 | 22 (+2) | 33 (+3) | 22 (+2) | 11 (+2) |
-| 1980 | 15 | 27 (+2) | 39 (+3) | 26 (+4) | 13 (+4) |
-| 1985 | 18 | 41 (+2) | 55 (+5) | 28 (+3) | 12 (+4) |
-| 1990 | 17 | 44 (+3) | 51 (+6) | 23 (+3) | 11 (+4) |
-| 1995 | 20 | 48 (+5) | 58 (+8) | 27 (+3) | 13 (+4) |
-| 2000 | 15 (+4) | 43 (+8) | 56 (+10) | 29 (+2) | 12 (+4) |
-| 2005 | 12 (+4) | 33 (+7) | 47 (+8) | 33 (+4) | 16 (+4) |
-| 2010 | 12 (+2) | 29 (+7) | 43 (+9) | 30 (+2) | 14 (+4) |
-| 2015 | 10 (+2) | 26 (+5) | 38 (+7) | 27 (+2) | 12 (+4) |
-| 2020 | 9 (+3) | 21 (+5) | 31 (+7) | 21 (+2) | 9 (+4) |
-| 2025 | 6 (+2) | 16 (+4) | 25 (+6) | 15 (+2) | 6 (+4) |
+| 1920 | 1 [2] | 3 [5] | 3 [7] | 6 [12] | 5 [10] |
+| 1925 | 4 [5] | 3 [8] | 5 [11] | 5 [12] | 4 [8] |
+| 1930 | 6 [7] | 1 [8] | 4 [10] | 6 [12] | 6 [10] |
+| 1935 | 5 [8] | 2 [9] | 3 [12] | 10 [14] | 6 [11] |
+| 1940 | 5 [8] | 3 [9] | 4 [12] | 7 [11] | 5 [9] |
+| 1945 | 4 [7] | 3 [8] | 4 [11] | 6 [10] | 5 [8] |
+| 1950 | 5 [9] | 5 [11] | 6 [15] | 7 [12] | 4 [8] |
+| 1955 | 5 [9] | 5 [11] | 6 [14] | 7 [12] | 6 [10] |
+| 1960 | 5 [7] | 5 [10] | 6 [14] | 7 [13] | 5 [9] |
+| 1965 | 6 [11] | 7 [16] | 9 [19] | 5 [12] | 5 [7] |
+| 1970 | 4 [9] | 9 [16] | 10 [20] | 5 [13] | 4 [9] |
+| 1975 | 5 [10] | 12 [21] | 16 [30] | 6 [20] | 5 [10] |
+| 1980 | 6 [14] | 15 [25] | 17 [34] | 7 [22] | 5 [11] |
+| 1985 | 6 [15] | 19 [31] | 19 [40] | 7 [22] | 5 [11] |
+| 1990 | 6 [13] | 17 [28] | 15 [33] | 4 [19] | 5 [9] |
+| 1995 | 6 [14] | 20 [31] | 14 [35] | 3 [17] | 5 [8] |
+| 2000 | 4 [12] | 21 [29] | 12 [35] | 4 [17] | 4 [7] |
+| 2005 | 4 [9] | 15 [21] | 10 [26] | 5 [18] | 6 [10] |
+| 2010 | 4 [8] | 13 [20] | 11 [25] | 5 [17] | 5 [9] |
+| 2015 | 4 [8] | 12 [19] | 10 [23] | 5 [16] | 3 [7] |
+| 2020 | 3 [6] | 8 [13] | 8 [16] | 3 [12] | 3 [6] |
+| 2025 | 1 [3] | 7 [9] | 5 [13] | 2 [7] | 1 [3] |
+
+### With the planned queue added
+
+The queue adds sixteen series: Yaris, Prius and Corolla; Renault 15, 17, 19, 21, 25 and Megane;
+Citroën DS and CX; an Aston Martin family; and the four pre-1920 light cars.
+
+| Year | 0 Very low | 1 Low | 2 Medium | 3 High | 4 Very high |
+| --- | --- | --- | --- | --- | --- |
+| 1920 | 3 [4] | 5 [9] | 3 [9] | 6 [12] | 5 [10] |
+| 1925 | 6 [7] | 5 [12] | 5 [13] | 5 [12] | 5 [9] |
+| 1930 | 6 [7] | 1 [8] | 4 [10] | 6 [12] | 7 [11] |
+| 1935 | 5 [8] | 2 [9] | 3 [12] | 10 [14] | 7 [12] |
+| 1940 | 5 [8] | 3 [9] | 4 [12] | 7 [11] | 6 [10] |
+| 1945 | 4 [7] | 3 [8] | 4 [11] | 6 [10] | 6 [9] |
+| 1950 | 5 [9] | 5 [11] | 6 [15] | 7 [12] | 5 [9] |
+| 1955 | 5 [9] | 5 [11] | 6 [14] | 8 [13] | 7 [12] |
+| 1960 | 5 [7] | 5 [10] | 6 [14] | 8 [14] | 6 [11] |
+| 1965 | 6 [11] | 7 [16] | 9 [19] | 6 [13] | 6 [9] |
+| 1970 | 4 [9] | 9 [16] | 10 [20] | 6 [14] | 5 [11] |
+| 1975 | 5 [10] | 13 [23] | 18 [33] | 7 [22] | 6 [12] |
+| 1980 | 6 [14] | 16 [27] | 19 [37] | 7 [23] | 6 [12] |
+| 1985 | 6 [15] | 20 [33] | 22 [44] | 7 [24] | 6 [12] |
+| 1990 | 6 [13] | 19 [30] | 17 [37] | 4 [21] | 6 [10] |
+| 1995 | 6 [14] | 23 [34] | 16 [40] | 3 [19] | 6 [9] |
+| 2000 | 4 [13] | 26 [34] | 14 [42] | 4 [19] | 5 [8] |
+| 2005 | 4 [10] | 19 [25] | 11 [31] | 5 [19] | 7 [11] |
+| 2010 | 4 [9] | 16 [23] | 12 [29] | 5 [18] | 6 [10] |
+| 2015 | 4 [9] | 15 [22] | 11 [27] | 5 [17] | 4 [8] |
+| 2020 | 3 [7] | 10 [15] | 9 [19] | 3 [13] | 4 [7] |
+| 2025 | 1 [4] | 9 [11] | 6 [16] | 2 [8] | 2 [4] |
 
 ### What the table shows
 
-- **Very low before 1945 needs no attention.** `car_ownership[0]` is zero until 1945, so the thin
-  early figure is correct rather than a gap. The 1920 pool is the Ford T and the horse cart, and the
-  planned Humberette and GWK take it to four.
-- **The middle of the century is the thinnest band for class 0** — seven models in 1960, of which
-  three are motorcycle combinations. Ownership there is 2–7%, so this is marginal rather than a
-  failure, but it is the weakest stretch in the fleet.
-- **Class 1 and 2 fall away sharply after 2010**, because the models introduced around 2005 carry
-  retire dates in the 2020s. The planned Yaris, Corolla and Megane generations restore about ten
-  models in each band from 2000 onward.
-- **Class 4 is thin after 2015** — six models in 2025. The planned Aston Martin family adds one; a
-  second modern luxury saloon or SUV would be worth more.
-- **Class 0 after 2020** falls to six models, and the planned queue adds only one (the Yaris XP210).
-  This is the clearest forward gap: modern cheap cars are under-represented.
-- The very dense 1985–2005 columns for classes 1–3 reflect the completeness of the mainstream
-  ranges, not a surplus; those bands carry most of the parc.
+- **The whole 2015–2025 block is thin, in every band.** Once each series is counted once, the
+  recent fleet is five to ten cars per band, falling to one or two in the outer bands by 2025. This
+  is the clearest and most general gap: the pakset's modern coverage rests on the 2005–2015 cohort,
+  most of which is near, or past, its retire date.
+- **Very low in 2025 is one series** (the Dacia Sandero) — a single cheap car for the whole of the
+  bottom band. The queue does not fix this; the Yaris is its only Low-band addition there.
+- **Very high in 2025 is one series** (the S-Class). The planned Aston makes it two. Both outer
+  bands need modern cars far more than the middle does.
+- **The 1930–45 High band is the strongest stretch of the whole table** at six to ten series,
+  reflecting the number of 1930s middle-class saloons already modelled.
+- **Low is weakest in the 1930s** (one series in 1930), a consequence of the era's cheap cars being
+  classified Very low — the Austin Seven, Model Y and Morris Minor 1928 all sit in band 0.
+- The brackets are usually two to four times the main figure for the mainstream bands, which is the
+  intended cross-class drift: a 1985 Medium car is available to three bands, not one.
 
 ## Provenance
 
