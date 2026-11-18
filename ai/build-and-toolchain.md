@@ -43,6 +43,14 @@ verified: New master @ 92c7b701c
   ../../New/makeobj-extended pak128 <out.pak> *.dat'`); PowerShell quoting of a Git Bash
   invocation proved unreliable (2026-11-15).
   `[CODE New ex-15 @ 0ba8d7fc6]` `[USER-DIRECTION:2026-11-15]`
+- **Folder argument separator.** A whole folder can be compiled directly from PowerShell with
+  `.\makeobj-extended PAK128 pak128.Britain-Ex/citycars.pak citycars/` from `New/`. The source
+  folder must end in a **forward slash**. Two wrong forms both fail without a useful message: a
+  backslash path (`citycars\`) makes makeobj read the `.dat` files but fail to open
+  `./images/...`; a path with no trailing separator (`citycars`) writes an empty pak (a few
+  dozen bytes) and **exits 0**, so check the packed-object count or the file size, not just the
+  exit code. The `make` binary lives at `C:\msys64\usr\bin\make.exe` when it is not on `PATH`.
+  `[EXECUTION-VERIFIED:2026-11-15]`
 - Several makeobj builds are present in `New/` (for example `Makeobj-Extended.exe`,
   `Makeobj-Extended-ex-15.exe`, `makeobj-extended`). makeobj binaries are ignored by
   `New/.gitignore`. `[CODE New master @ e36ec2321]`

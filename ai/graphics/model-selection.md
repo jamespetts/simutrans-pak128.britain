@@ -1,6 +1,6 @@
 ---
 status: draft
-verified: New ex-15 @ 937d464a9 (working tree; local MCP experience updated 2026-11-15)
+verified: New ex-15 @ 937d464a9 (working tree; local MCP experience and model identifiers updated 2026-11-15)
 ---
 # Model selection for 3D and Blender work
 
@@ -21,8 +21,16 @@ The user's assessment of the models tried for this project's Blender MCP work is
 - **GPT 6.1 Sol is the only model successfully used so far.** The accepted Anglia rework
   used Sol with direct photograph comparisons, user corrections and final approval.
 - **GPT 6.1 Terra is worth trying.** This is a suggested candidate, not a demonstrated
-  success or a recorded test result.
+  success or a recorded test result. The configured provider offers no model of that name: the
+  available pair is `opencode/gpt-6.1-sol` and `opencode/gpt-5.6-terra` (GPT-5.6 Terra), with
+  per-million-token prices on 2026-11-15 of $2 input / $10 output for Sol and $2 / $12 for
+  Terra. Terra is therefore the older generation and is not cheaper on output; cost per
+  finished car depends on turns and tokens, not list price alone.
+  `[EXECUTION-VERIFIED:2026-11-15]` (provider model listing)
 - **DeepSeek 4.1 Flash, Inkling 2 Small and MiMo 2.6 Pro failed.**
+  DeepSeek 4.1 Flash is also the model used for this project's orchestration work — research,
+  `.dat` writing and compilation — which is text and arithmetic work rather than geometry
+  ([car-batch-production](car-batch-production.md)). `[USER-DIRECTION:2026-11-15]`
 
 `[USER-DIRECTION:2026-11-15]` `[RECOLLECTION:2026-11-15]`
 The Sol Anglia result was also observed in this session.
@@ -128,7 +136,8 @@ dominates per-asset cost. `[LITERATURE:https://arxiv.org/abs/2609.06535]`
 ## Working position
 
 For this project's Blender MCP work, use the local experience above; Terra remains a
-candidate to evaluate. The following conclusions concern the external benchmarks only.
+candidate to evaluate, as GPT-5.6 Terra. The following conclusions concern the external
+benchmarks only.
 
 - Cheapest credible configuration: a mid-tier editor with a separate reviewer that describes
   render differences against a checklist. The reviewer is the component worth paying for.

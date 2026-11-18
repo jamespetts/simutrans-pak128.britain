@@ -8,8 +8,9 @@ verified: none
 Simutrans-Extended city roads. Parent: [object-types](../object-types.md). Pipeline:
 [photo-to-pak-pipeline](../graphics/photo-to-pak-pipeline.md). Child docs: the wealth-class
 calibration ([citycar-wealth-classes](citycar-wealth-classes.md)), the missing-asset work
-register ([citycar-asset-gaps](citycar-asset-gaps.md)), and the parc-anchor research
-([citycar-parc-anchors](citycar-parc-anchors.md)).
+register and build order ([citycar-asset-gaps](citycar-asset-gaps.md)), the parc-anchor research
+([citycar-parc-anchors](citycar-parc-anchors.md)), and the batch production method for adding
+them ([car-batch-production](../graphics/car-batch-production.md)).
 
 Status: draft, created 2026-11-15 to record the conventions for private citycars, which
 differ fundamentally from player vehicles.
@@ -217,17 +218,43 @@ with the adjustment stated in the `.dat` header (the same method as the Vauxhall
 bumper was applied as a post-build edit in the 4.5 session (bumper bars scaled down and the
 material set to chrome) without changing `car_builder.py`'s builder code.
 
+## The BSA M21 outfit example (in tree)
+
+`New/citycars/bsa-m21-combo.dat` (2026-11-15): the first non-car citycar, a BSA M21 600 cc
+motorcycle with a Watsonian Maxstoke sidecar. Three colourways — Black 140, Maroon 60, BSA
+Light Green 40 — total 240 against the Morris Minor anchor's 500, classes 0–1, 72 km/h,
+comfort 25/190, road presence 1946–66 staggered by colour. Sources and reasoning are in the
+`.dat` header.
+
+Conventions it establishes:
+
+- **The motorcycle sits at the tile centre, not the bounding box.** An outfit is asymmetric:
+  the Stage B rig centres the combined bounding box, so a further +0.339 pak-unit lateral
+  shift is applied after preparation and before rendering. Without it the outfit rides about
+  3 px left of a car.
+- **Two-cluster vehicles** pass `-` as the hull argument to `stageB_car_prepare.py`, which
+  substitutes a connectivity check for the single-hull test
+  ([ai-pipeline](../graphics/ai-pipeline.md)).
+- **Render one colour per process** for a multi-object vehicle. A three-colour run stopped
+  after 20 of 24 images; single-colour runs completed and exited 0.
+- **The sidecar shape and the motorcycle shape can come from different references.** Here the
+  chair came from the Watsonian brochure and the bike from photographs of a real outfit whose
+  chair was a different model; the brief must say which reference governs which part.
+
+The 1923 BSA 557 outfit (`bsa-557-combo.dat`, Green and Black) followed on 2026-11-15 as a
+deliberately lean build: nine objects, medium model effort, one side comparison and a
+four-view check. It was accepted under the size-based leniency rule
+([visual-asset-controls](../graphics/visual-asset-controls.md#strictness-scales-with-the-objects-size)):
+at a 9 x 6 px sprite only the outline is judged.
+
 ## Comfort calibration
 
-`[USER-DIRECTION:2026-11-15]` Two anchors define the scale: the original BMC Mini has 40
-minutes maximum comfortable / 240 maximum tolerable journey time; the original Ford Sierra
-(a middle-of-the-road comfortable car) has 120 / 360. Per-model comfortable times are
-researched ride-comfort estimates interpolated between these anchors (era, class, suspension,
-refinement). Tolerable times default to the line through both anchors,
-`tolerable ≈ 180 + 1.5 × comfortable` minutes (rounded to 5), unless a model's endurance
-justifies a deviation. Every colourway of a model shares the model's values. The calibrated
-values are in the `New/citycars/*.dat` files; the method, not the per-model numbers, is
-recorded here.
+The method is canonical in [comfort-calibration](../comfort-calibration.md): the Mini (40/240)
+and Sierra (120/360) anchors, the line `tolerable ≈ 180 + 1.5 × comfortable`, and the rule that
+the Mini is a low-end anchor rather than a floor. The private-car method and the outfit penalty
+are in [private cars](../comfort/private-cars.md); the per-model values and their notes are in
+the [register](../comfort/comfort-table.md#private-cars). Every colourway of a model shares the
+model's values.
 
 ## The Fiesta family example (in tree)
 

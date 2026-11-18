@@ -1,6 +1,6 @@
 ---
 status: draft
-verified: New ex-15 @ 937d464a9; GitBlends master @ 8d4bf9e0 (Anglia-related working-tree checks, 2026-11-15)
+verified: New ex-15 @ 937d464a9; GitBlends master @ 8d4bf9e0 (Anglia-related working-tree checks and divided-workflow section, 2026-11-15)
 ---
 # AI asset authoring pipeline (MCP)
 
@@ -101,6 +101,19 @@ analysis).
 - The pre-MCP procedure is superseded: its failures survived every check it had, because it
   could not see the model it was building. Its error categories remain a useful checklist of
   geometry mistakes ([error-categories-pre-mcp](error-categories-pre-mcp.md)).
+- **Private-car batch production is divided between two agents.** The orchestrator researches
+  references, measurements, colours and dates, writes the `.dat` and the text entry, and runs
+  the compile; a delegated builder on GPT-6.1 Sol does Stage A geometry and Gate B comparisons in
+  the live MCP session from the image files supplied in its brief. The builder must view the
+  photographs itself. A badly wrong build is flagged to the user rather than corrected
+  automatically; the user authorises any second round. Roles, brief template and handover files:
+  [car-batch-production](car-batch-production.md). `[USER-DIRECTION:2026-11-15]`
+- **The first motorcycle-and-sidecar outfit reached acceptance.** The BSA M21 with Watsonian
+  Maxstoke sidecar was installed and compiled in three colourways on 2026-11-15. The build
+  exercised the two-cluster hull path in `stageB_car_prepare.py` and the one-colour-per-process
+  render rule. A correction round was spent before the user set the no-automatic-correction
+  rule; that rule now governs. Conventions: [citycar](../objects/citycar.md#the-bsa-m21-outfit-example-in-tree).
+  `[USER-DIRECTION:2026-11-15]` `[EXECUTION-VERIFIED:2026-11-15]`
 - Class-specific state: rail placement (front at Y −4.0) and rail/tram/narrow-gauge offsets
   (none); road offsets (standard table, S `,0,0`; see [vehicle](../objects/vehicle.md));
   aircraft procedure ([aircraft-notes](aircraft-notes.md)); private cars
@@ -128,6 +141,18 @@ analysis).
   a Blender-added `.001` suffix prevents that lookup. The preparation driver's
   `<ObjectPrefix>_Hull` attachment reference must include the upper body where roof parts
   attach; see [geometry-pitfalls](geometry-pitfalls.md#attachment-checks-need-the-actual-support-surface).
+  An optional fifth argument replaces the hull name; pass `-` for a vehicle with no single
+  hull (a motorcycle and sidecar outfit is two clusters joined by chassis tubes), and the
+  per-object hull test is replaced by a check that every object's bounding box overlaps at
+  least one other's. `[EXECUTION-VERIFIED:2026-11-15]`
+- **Render multi-object vehicles one colour per process.** A three-colour render of a
+  20-object outfit stopped after 20 of 24 images; rendering the remaining colour alone in a
+  fresh 2.79 process wrote all eight views and exited 0. Check the written count either way.
+  `[EXECUTION-VERIFIED:2026-11-15]`
+- `Git Blends/Pak128.Britain-blends/stageB_car_shift.py` — translate-only lateral shift of a
+  prepared vehicle before rendering, for asymmetric assets. Preparation centres the combined
+  bounding box; a motorcycle and sidecar outfit needs the motorcycle at the tile centre
+  instead (the BSA outfit uses +0.339 pak units). Record the value in the `.dat` header.
   `[EXECUTION-VERIFIED:2026-11-15]`
 - **Check render output as well as process status.** Blender 2.79 has exited 1 both during
   incomplete rendering and during teardown after writing a complete result. Inspect the

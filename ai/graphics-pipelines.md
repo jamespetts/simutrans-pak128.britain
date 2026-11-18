@@ -22,6 +22,7 @@ separate; see [scaling-conventions](scaling-conventions.md).
 - [blend-creation](graphics/blend-creation.md) — read before creating or reshaping `.blend` geometry: current status, failure record, and verification doctrine (AI readings of renders inform iteration but are never acceptance evidence).
 - [aircraft-notes](graphics/aircraft-notes.md) — read when working on aircraft: scale, render conversion, mirrors, TexFace liveries, and exposure rules.
 - [image-layout](graphics/image-layout.md) — read when producing or editing `.png` image sheets and their layout in `.dat` files.
+- [car-batch-production](graphics/car-batch-production.md) — read when producing private cars in quantity or delegating a build to a frontier-model subagent: the division of research, geometry and pak integration, the build brief, and the files handed back.
 - [photo-to-pak-pipeline](graphics/photo-to-pak-pipeline.md) — read when building a pakset vehicle image from photographs: reference/review controls, source-file separation, export/render procedure, and maintained asset examples.
 - [liveries-and-special-colours](graphics/liveries-and-special-colours.md) — read when adding liveries or using special colours, snow images, or night images.
 

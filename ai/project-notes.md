@@ -18,6 +18,13 @@ If reference photographs (or drawings) cannot be found, STOP and prompt the user
 them. No geometry is built without photographic (or drawing) reference in hand.**
 `[USER-DIRECTION:2026-11-15]`
 
+**Every 2D-image-to-.blend run also captures views of the model regularly during
+construction, each from the same angle as one of the reference images, and matches the
+model at those angles; views with no reference image are rendered too and must be coherent
+with the matched ones (no gaps, no floating parts).** Full rule:
+[graphics/visual-asset-controls](graphics/visual-asset-controls.md) (Gate B, same-angle
+capture rule). `[USER-DIRECTION:2026-11-15]`
+
 ## Notes
 
 - The base workspace root is not a git repository. Only `New/` and
@@ -46,10 +53,29 @@ them. No geometry is built without photographic (or drawing) reference in hand.*
   [graphics/blend-creation](graphics/blend-creation.md); procedure:
   [graphics/ai-pipeline](graphics/ai-pipeline.md).
   `[RECOLLECTION:2026-09-27]` `[USER-DIRECTION:2026-11-15]`
+- Private cars are now produced by a divided workflow: the orchestrating agent researches
+  identity, photographs, dimensions, colour range and dates, writes a build brief that carries
+  the image files, and does the `.dat`, text entry and compile; a delegated builder agent on
+  GPT-6.1 Sol builds the geometry in the live Blender MCP session. The builder must view the
+  photographs itself and measure shape from them — a brief that describes shape in words is
+  forbidden. A badly wrong build is reported to the user, not sent back for automatic
+  correction: correction rounds cost frontier tokens and are the user's decision. Roles, brief
+  template and handover files:
+  [graphics/car-batch-production](graphics/car-batch-production.md). `[USER-DIRECTION:2026-11-15]`
+- Acceptance strictness follows the asset's size on screen: motorcycle outfits and the smallest
+  cars are judged on their outline alone; cars get the outline plus defining features; trains,
+  ships and aircraft get progressively stricter treatment, though all remain low-poly. Full
+  scale: [graphics/visual-asset-controls](graphics/visual-asset-controls.md#strictness-scales-with-the-objects-size).
+  `[USER-DIRECTION:2026-11-15]`
+- Third-party research material — reference photographs, brochure scans, downloaded
+  documents — stays local and is never committed or pushed. Both blends repositories are
+  public; only material we hold rights to may be published. In the blends repository,
+  `citycars/references/` and `*/references/` are gitignored for this reason.
+  `[USER-DIRECTION:2026-11-15]`
 - Before selecting a model for Blender MCP, read the
   [local model experience](graphics/model-selection.md#local-blender-mcp-model-experience):
-  the user identifies GPT 6.1 Sol as the only successful model so far and GPT 6.1 Terra
-  as worth trying; the unsuccessful models are recorded there.
+  the user identifies GPT 6.1 Sol as the only successful model so far and a Terra model
+  (as offered, GPT-5.6 Terra) as worth trying; the unsuccessful models are recorded there.
   `[USER-DIRECTION:2026-11-15]` `[RECOLLECTION:2026-11-15]`
 
 ## Planned sections
