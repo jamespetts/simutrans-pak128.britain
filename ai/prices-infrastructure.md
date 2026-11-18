@@ -1,6 +1,6 @@
 ---
 status: draft
-verified: New ex-15 @ b39ac938d (working tree); simutrans-extended ex-15 @ 22cc3af
+verified: New ex-15 @ b8f011fcd; simutrans-extended ex-15 @ 22cc3af
 ---
 # Infrastructure price series
 
@@ -278,10 +278,10 @@ That 43% is the output price index answer. The cross-check above gives about 26%
 price index, so treat the size of the fall as uncertain by roughly fifteen percentage points
 over the period even after 1980.
 
-To insert it, the placeholder line `#infrastructure=1750,100,2022,100` is replaced by a real
-line running from 1750 to 2050 on the same basis as the other series: 1750-1980 is the
-`buildings` value for that year, 1980-2026 is the chained index, and 2027-2050 holds the 2026
-real level and tracks `general`, as `buildings`, `city land` and `country land` already do.
+The implemented line in `prices.tab` runs from 1750 to 2050 on the same basis as the other
+series: 1750-1980 is the `buildings` value for that year, 1980-2026 is the chained index, and
+2027-2050 holds the 2026 real level and tracks `general`, as `buildings`, `city land` and
+`country land` do.
 
 ## Traps
 

@@ -1,6 +1,6 @@
 ---
 status: draft
-verified: New ex-15 @ b39ac938d (working tree); simutrans-extended ex-15 @ 22cc3af
+verified: New ex-15 @ b8f011fcd (working tree); simutrans-extended ex-15 @ 22cc3af
 ---
 # Prices config
 
@@ -21,21 +21,18 @@ conversion, and the research required for each type that has no series of its ow
 
 ## Types and state
 
-Nine types have a series of their own: `general`, `passenger fare`, `mail rate`,
-`corporation tax`, `base rate`, `city land`, `country land`, `buildings` and `infrastructure`.
-The remaining three are present only as commented-out placeholders and therefore use
-`general`:
+Eleven types have a series of their own: `general`, `passenger fare`, `mail rate`,
+`corporation tax`, `base rate`, `city land`, `country land`, `buildings`, `infrastructure`,
+`goods rate` and `vehicle purchase`. The remaining type is present only as a commented-out
+placeholder and therefore uses `general`:
 
-- `goods rate`
-- `vehicle purchase`
 - `vehicle maintenance`
 
-`[CODE New ex-15 @ 8d0603d81]`; `buildings` added 2026-11-15, `infrastructure` added 2026-11-16.
+`[CODE New ex-15 @ 8d0603d81]`; `buildings` added 2026-11-15, `infrastructure` and
+`goods rate` added 2026-11-16, `vehicle purchase` added 2026-11-17.
 
-The placeholders are flat at index 100. Do not uncomment one without a real series: that would
+The placeholder is flat at index 100. Do not uncomment it without a real series: that would
 remove inflation from the category entirely, which is a larger error than inheriting `general`.
-The `infrastructure` series has been researched and is ready to insert; it is not in the file
-yet.
 
 `corporation tax` and `base rate` are rates, not index numbers. Their entries are percentages
 used as rates rather than as multipliers on a base price; confirm this against the engine.
@@ -65,11 +62,14 @@ used as rates rather than as multipliers on a base price; confirm this against t
 
 The pakset uses two conversion rates because the engine has two timescales.
 
-- Revenue (short timescale): 1 SimuCent = £0.005208 in 1900 = 1.25 old pence = 0.5208 new
-  pence. 80 units = 1d; 192 units = 1 new penny; £1 = 19,200 units.
+- Revenue (short timescale): 1 Simucredit = £0.005208 in 1900 = 1.25 old pence = 0.5208 new
+  pence. 80 Simucents = 1d; 192 Simucents = 1 new penny; £1 = 19,200 Simucents.
 - Capital and annualised costs (long timescale): the `Currency conversion` sheet of
-  `New/Infrastructure balancing calibration-2.ods` gives 1 SimuCent = £0.396 in 1900.
+  `New/Infrastructure balancing calibration-2.ods` gives 1 Simucredit = £0.396 in 1900.
   `[CODE New ex-15 @ 8d0603d81]`
+
+The engine stores money as a signed integer in **Simucents** (1/100 Simucredit); every display
+path divides by 100 to show **Simucredits**. Do not call the displayed unit a Simucent.
 
 The index itself is unitless, so the same percentage applies to both timescales. The
 conversion rates are for sanity checks: index divided by 100, multiplied by the relevant
@@ -98,10 +98,11 @@ rate and the real price for a year, should reproduce the entered value.
 
 | Type | What the engine scales | Series required | Main source route |
 |---|---|---|---|
-| `vehicle purchase` | Vehicle purchase and upgrade costs | Price index of transport equipment | ONS CPI D7CO and CPIH L544 for 1988-2026; a transport equipment deflator or historical price lists before 1988 |
-| `vehicle maintenance` | Vehicle running and fixed costs | Repair and servicing price index | ONS RPI DOCT and CPI repair components for 1987-2026; wage and parts indices before 1987 |
-| `infrastructure` | Ways, bridges, tunnels, piers, way objects, signals, roadsigns, their maintenance, the forge costs and the halt multipliers | Civil engineering construction cost index | ONS output price index for infrastructure from 1980, chained through three vintages; `buildings` before 1980 (see [prices-infrastructure](prices-infrastructure.md)) |
-| `goods rate` | Goods revenue | Rail freight revenue per ton-mile | Railway Returns 1848-1962; British Rail and GBR statistics 1948-1994; ORR statistics 1994-2026 |
+| `vehicle maintenance` | Vehicle running, fixed and upgrade costs | Repair and servicing price index | ONS RPI DOCT and CPI repair components for 1987-2026; wage and parts indices before 1987 |
+
+`vehicle purchase` covers `cost` alone. `runningcost`, `max_running_cost`, `fixed_cost` and
+`upgrade_price` all follow `vehicle maintenance`, so an upgrade and an overhaul move together;
+see [vehicle-cost-model](vehicle-cost-model.md) and [engine-bugs](engine-bugs.md).
 
 ## Access
 
@@ -122,22 +123,31 @@ rate and the real price for a year, should reproduce the entered value.
 
 ### `vehicle purchase`
 
-- The engine has one key for every vehicle type. The index is therefore a compromise between
-  cars, lorries, buses, locomotives, ships and aircraft, whose real prices moved differently.
-  A car-only series must not be applied without checking its effect on rail, sea and air
-  vehicles.
-- ONS CPI 07.1 Purchase of vehicles (series D7CO, 2015 = 100) is annual from 1988; CPIH 07.1.1A
-  New cars (series L544, 2015 = 100) is the narrower alternative.
-  `[LITERATURE:https://www.ons.gov.uk/economy/inflationandpriceindices/timeseries/d7co/mm23]`
-  `[LITERATURE:https://www.ons.gov.uk/economy/inflationandpriceindices/timeseries/l544/mm23]`
-- For 1900-1988, use the national accounts deflator for transport equipment, linked to
-  Feinstein's investment goods price index, and cross-check against the historical purchase
-  prices in `New/Vehicle cost table.ods` and the `Vehicles (historical)` sheet of
-  `New/Infrastructure balancing calibration-2.ods`.
-- This is the only series expected to fall in real terms over most of the period.
-- The `.dat` purchase costs are a constant multiple of the real 1900 SimuCent cost in the
-  vehicles the `Vehicles (historical)` sheet lists (the ratio there is about eight). The index
-  must preserve the relative change only; it must not be used to rescale the `.dat` level.
+- Implemented 2026-11-17 as a three-block chain plus a hold. Each block and its link:
+  - **1856-1938**: Feinstein, *National Income, Expenditure and Output of the United Kingdom
+    1855-1965* (1972), table 63 column 6, railway rolling stock, 1913 = 100. The 1856-1920 part
+    is an index of the cost of labour and materials, not of quoted prices, so it measures a
+    fixed specification rather than a changing machine.
+    `[LITERATURE:https://escoe-website.s3.amazonaws.com/wp-content/uploads/2018/10/02122909/TABLES-Feinstein-1972-National-Income-Expenditure-and-Output-of-the-United-Kingdom-1855-1965.xlsx]`
+  - **1938-1965**: Feinstein table 63 column 4, plant and machinery, 1913 = 100, linked at 1938
+    by a factor of 0.9432. This is a proxy, not a vehicle series. Feinstein's vehicle columns
+    are blank for 1939-1947, and plant and machinery is the only continuous published
+    engineering-capital index that spans the war.
+  - **1965-1997**: Blue Book 1997 tables 13.2 and 13.4, gross fixed capital formation, vehicles,
+    ships and aircraft, current prices divided by constant 1990 prices. The pair returns exactly
+    1.0000 in 1990, and over its 1987-1997 overlap it tracks `general` to within 0.3 per cent.
+    The deflator is scaled so that its 1965 value equals 526.6 on Feinstein's 1913 = 100 basis.
+  - **1998-2050**: the 1997 real level held, tracking `general`.
+- Two alternative tails were tested and rejected. The Blue Book 2026 pair DLWZ/DLWJ implies
+  that vehicle prices fell 4 per cent between 1990 and 1997 while `general` rose 25 per cent.
+  ONS CPI D7CO closes the series but covers consumer cars only: no railway rolling stock,
+  ships, aircraft or commercial goods vehicles. Neither can carry a single index applied to
+  every vehicle type, so the real level is held instead.
+- The engine applies one key to every vehicle, so the series is a compromise between cars,
+  lorries, buses, locomotives, ships and aircraft, whose real prices moved differently. The
+  compromise is stated here and in the file comment rather than hidden.
+- The `.dat` purchase costs are not evidence of the correct level and must not be adjusted to
+  the index ([vehicle-cost-evidence](vehicle-cost-evidence.md)).
 
 ### `vehicle maintenance`
 
@@ -207,10 +217,9 @@ rate and the real price for a year, should reproduce the entered value.
 
 ### `infrastructure`
 
-- Researched and ready to implement; not yet in `prices.tab`, so the type still uses `general`.
-  Read [prices-infrastructure](prices-infrastructure.md) when building, reviewing or inserting
-  this series: the engine coverage verified against the source, the three published vintages,
-  the link factors and the treatment of the period before 1980.
+- Implemented in `prices.tab`. Read [prices-infrastructure](prices-infrastructure.md) when
+  reviewing or amending this series: the engine coverage verified against the source, the three
+  published vintages, the link factors and the treatment of the period before 1980.
 - The key covers ways, bridges, tunnels, piers, way objects, signals and roadsigns, their
   maintenance, the `forge_cost_*` settings, and the station, dock, roadstop, air terminal and
   post office multipliers. `[CODE simutrans-extended ex-15 @ 22cc3af]`
@@ -259,36 +268,33 @@ rate and the real price for a year, should reproduce the entered value.
 
 ### `goods rate`
 
-- Covers goods revenue. The base rates in the `goods-128.dat` header come from Ackworth and
-  the Railway Clearing House for the 1840s to the 1890s; they are the early anchor, not a
-  continuous series.
-- Build average revenue per ton-mile from the Railway Returns (1848-1962), British Rail and
-  GBR annual statistics (1948-1994; the GERS handbook tabulates freight receipts and net
-  ton-miles) and ORR freight statistics (1994-2026).
-  `[LITERATURE:http://hdl.handle.net/2027/umn.31951p01072589t]`
-  `[LITERATURE:https://gersociety.org.uk/images/stories/emporium/RH102_contents.pdf]`
-- Convert miles to kilometres: one ton-mile equals 1.60934 tonne-kilometres. Record which
-  definition each source uses.
-- Traps: the average is affected by the mix of high-value and bulk goods and by average haul
-  length; rates were regulated before the 1950s and the basis changed at nationalisation
-  (1948) and privatisation (1994). A block that changes basis mid-series must be linked on an
-  overlap year.
-- Before 1848, use canal and turnpike rates if a series can be found; otherwise hold the real
-  level constant.
+- Covers goods revenue. Implemented in `prices.tab` on 2026-11-16; specified in
+  [prices-goods-rate](prices-goods-rate.md); the measured evidence and source records are in
+  [goods-rate-evidence](goods-rate-evidence.md).
+- The 1900 anchor has two parts: the game's base rates are the c. 1890s statutory maximum
+  schedule (the Ackworth p. 145 GER table converted in `goods-128.dat`), while the index
+  measures charged rates, with the pre-war charged average of 1.235d per ton-mile as 100.
+- The earlier plan to build the series from the Board of Trade *Railway Returns* is
+  superseded: those returns contain no ton-mile or per-ton-mile columns (official ton-mile
+  statistics begin 1919/1920), and the GERS handbook was identified as the *British Railways
+  Yearbook* series, from which the 1948–1977 measurements were taken.
+  `[LITERATURE:https://archive.org/details/railwayreturns00britgoog]`
+- Traps (scale percentages against measured blends, mix shift, basis steps, real against
+  nominal) are recorded in [prices-goods-rate](prices-goods-rate.md).
 
 ## Order of work
 
-1. `infrastructure`. Researched; the series and its method are set out in
-   [prices-infrastructure](prices-infrastructure.md) and only the insertion into `prices.tab`
-   remains.
-2. `vehicle purchase`. The CPI tail is ready; the early part needs a transport equipment
-   deflator.
-3. `vehicle maintenance`. The CPI and RPI tails are ready; the early part can be proxied from
-   wages and parts.
-4. `goods rate`. The longest splice and the weakest source continuity; do it last.
+1. `vehicle maintenance`. Remains on the fallback, and the evidence suggests it should stay
+   there. No UK maintenance or repair price index exists before January 1987, and the series
+   available from that date measure private motor cars. A series that is `general` for 237 years
+   and motor cars for 39 years is worse than the stated fallback. Revisit only if a rail or
+   engineering repair price series is found.
 
-`buildings` and the land pair (`city land`, `country land`) are implemented. The land pair will
-be revisited when the engine models land value per tile.
+`infrastructure`, `goods rate`, `buildings`, `vehicle purchase` and the land pair (`city land`,
+`country land`) are implemented; the `infrastructure` method is set out in
+[prices-infrastructure](prices-infrastructure.md), the `goods rate` one in
+[prices-goods-rate](prices-goods-rate.md), and the `vehicle purchase` one above. The land pair
+will be revisited when the engine models land value per tile.
 
 ## Open questions
 

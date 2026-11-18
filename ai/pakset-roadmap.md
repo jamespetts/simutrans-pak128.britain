@@ -17,26 +17,42 @@ for new engine features.
 
 ## Planned work
 
-- Complete the three price types that still fall back to `general` in `config/prices.tab`:
-  `goods rate`, `vehicle purchase` and `vehicle maintenance`. Research sources and method:
-  [prices-config](prices-config.md), [prices-infrastructure](prices-infrastructure.md);
-  source-recording rule: [calibration-sources](calibration-sources.md).
-  `[USER-DIRECTION:2026-11-15]`
+- Implement the cost of capital as planned in the engine's `ai/project-roadmap.md`: a player starts
+  with little or no money and borrows through dated instruments — bonds of one to ten years, or
+  instalment loans — issued against a credit rating, with interest and repayment shown in the
+  finance window. Today there is only a starting windfall and an untimed overdraft. The pakset must
+  supply the term structure and the historical railway borrowing yields. Specification, state of
+  play and acceptance tests: [cost-of-capital](cost-of-capital.md). Engine work, for the next
+  release. `[USER-DIRECTION:2026-11-17]`
+
+- `vehicle maintenance` in `config/prices.tab` is the only price type still falling back to
+  `general`, and the decision is to leave it there: no UK maintenance or repair price index
+  exists before January 1987, and the later series measure private motor cars. Revisit only if a
+  rail or engineering repair price series is found. Method and sources:
+  [prices-config](prices-config.md), [vehicle-cost-evidence](vehicle-cost-evidence.md).
+  `[USER-DIRECTION:2026-11-17]`
 - Research each cost domain to the depth of the infrastructure study before deriving balance
-  implications, and only then take the balancing decisions. Infrastructure is complete:
-  [infrastructure-cost-synthesis](infrastructure-cost-synthesis.md) holds the recommendations and
-  the decisions taken, [infrastructure-cost-evidence](infrastructure-cost-evidence.md) the
-  measured figures. The remaining domains are revenue and fares, vehicles, staff, fuel, and
-  corporate overheads. **Do not change `.dat` cost values until the whole body of research is
-  available**, because the balance implications have to be derived from all of it together.
-  `[USER-DIRECTION:2026-11-16]`
-- Add the missing citycar assets listed in
-  [objects/citycar-asset-gaps](objects/citycar-asset-gaps.md) — the comprehensive gap
-  register (P1: Very-high luxury cars for 1922–1947 and 1989–2025; P2: entry cars including
-  the motorcycle and sidecar; P3: Cavalier/Astra/Golf/Beetle; P4–P5: luxury richness and
-  texture). Work it photograph-first per
+  implications, and only then take the balancing decisions. Infrastructure and vehicles are
+  complete: [infrastructure-cost-synthesis](infrastructure-cost-synthesis.md) and
+  [vehicle-cost-evidence](vehicle-cost-evidence.md) hold the findings, and
+  [balance-synthesis](balance-synthesis.md) holds the cross-domain account against Acworth.
+  Fuel evidence is in [fuel-evidence](fuel-evidence.md) and staff wages in
+  [staff-wages](staff-wages.md); corporate overheads are recorded in the headquarters section of
+  the infrastructure synthesis. **Do not change `.dat` cost values until the conversion question
+  in [balance-synthesis](balance-synthesis.md) is settled**, because it scales every value in both
+  programmes by two orders of magnitude. `[USER-DIRECTION:2026-11-16]`
+- Add the missing citycar assets in the order set out in the Build order section of
+  [objects/citycar-asset-gaps](objects/citycar-asset-gaps.md#build-order) — the comprehensive
+  gap register and sequenced queue (P1: Very-high luxury cars for 1922–1947 and 1989–2025;
+  P2: entry cars including the motorcycle and sidecar; P3: Cavalier/Astra/Golf/Beetle; P4–P5:
+  luxury richness and texture). Produce them by the divided workflow in
+  [graphics/car-batch-production](graphics/car-batch-production.md): orchestrator research,
+  frontier-model geometry, orchestrator `.dat` and compile. Photograph-first per
   [graphics/visual-asset-controls](graphics/visual-asset-controls.md).
-  `[USER-DIRECTION:2026-11-15]`
+  `[USER-DIRECTION:2026-11-15]` A second tranche added 2026-11-16 covers the BMW, Datsun/Nissan,
+  Toyota, Renault, Citroën and Aston Martin generation families, the Metro/Rover/Jaguar British
+  block, and a pre-1920 audit; the generations are listed in section G of the same doc and the
+  sequence in the second tranche of its build order. `[USER-DIRECTION:2026-11-16]`
 - Re-do citycar geometry that was built from text descriptions (dimension tables) using
   direct photographic reference, per the hard rule and
   [graphics/visual-asset-controls](graphics/visual-asset-controls.md): Ford Fiesta Mk1–Mk7,
@@ -71,6 +87,13 @@ for new engine features.
 
 ## Completed work
 
+- `vehicle purchase` price series added to `config/prices.tab`, 1900 = 100, 1750-2050. A
+  three-block chain: Feinstein railway rolling stock 1856-1938, Feinstein plant and machinery
+  1938-1965 as a war-bridging proxy, and Blue Book 1997 vehicles, ships and aircraft 1965-1997;
+  the 1997 real level is held thereafter. The Blue Book 2026 pair and ONS CPI D7CO were tested
+  as tails and rejected. Method and caveats: [prices-config](prices-config.md).
+  `[EXECUTION-VERIFIED:2026-11-17]`
+
 - Engine land base split: `cost_buy_city_land` added for city land, the ×6 capital branch
   corrected and city wayleaves moved to the city base by the other agent. The pakset carries
   `cost_buy_land=1500` and `cost_buy_city_land=2625`; see [prices-config](prices-config.md).
@@ -86,6 +109,27 @@ for new engine features.
   price index for all new work 2014-2026. Sources, link periods and limitations:
   [prices-config](prices-config.md), [calibration-sources](calibration-sources.md).
   `[CODE New ex-15, working tree 2026-11-15]`
+- BSA M21 600 cc side-valve motorcycle with Watsonian Maxstoke sidecar: the first of the
+  motorcycle-and-sidecar series, accepted by the user and installed 2026-11-15. Three
+  colourways (Black, Maroon, BSA Light Green) in `New/citycars/bsa-m21-combo.dat`; the
+  citycars pak compiles with the outfit included. The `.dat` header carries the dimensions,
+  parc reasoning, colour sources and image credits; the reference images are in the blends
+  repository under `citycars/references/bsa-m21-watsonian/`. The build also produced the
+  divided-workflow rules now in [graphics/car-batch-production](graphics/car-batch-production.md),
+  including the no-automatic-correction-round rule.
+  `[USER-DIRECTION:2026-11-15]` `[EXECUTION-VERIFIED:2026-11-15]`
+- BSA 557 cc outfit (1923 Model H with Type 1 sidecar): the second of the motorcycle series,
+  built lean (nine objects, low effort, one comparison and a four-view check) and installed
+  2026-11-15 under the size-based leniency rule. Two colourways (Green, Black) in
+  `New/citycars/bsa-557-combo.dat`; references and sources in the `.dat` header.
+  `[USER-DIRECTION:2026-11-15]` `[EXECUTION-VERIFIED:2026-11-15]`
+- Vauxhall Cavalier family (Mk1, Mk2, Mk3): built as separate shells with four documented
+  factory colourways each and installed 2026-11-16. Mk1 180 total weight (Signal Yellow, Signal
+  Red, Polar White, Regatta Blue); Mk2 300 (Helios Blue, Carmine Red, Astro Silver, White Gold);
+  Mk3 320 (Star Silver, Satin Red, Diamond Black, Nautilus Blue). Comfort follows the register:
+  85/310, 100/330, 110/345.
+  `[USER-DIRECTION:2026-11-16]` `[EXECUTION-VERIFIED:2026-11-16]`
+
 - Ford Anglia 100E/105E photographic geometry rework: the user accepted the replacement
   models and colour renders, including the corrected 100E boot. The replacement sprites
   are installed in the source tree and compiled into the local citycars pak. Accepted

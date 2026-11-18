@@ -14,22 +14,46 @@ history rests on a small number of anchors.
 
 ## The conversion chain
 
-A `.dat` price is not a real price until three separate scalings are applied, and confusing any
+A `.dat` price is not a real price until four separate scalings are applied, and confusing any
 two of them changes the answer by an order of magnitude.
 
 1. **Engine scale.** `karte_t` calls `info->set_scale(get_settings().get_meters_per_tile())` on
    every way and structure descriptor. `set_scale_generic` in `simtypes.h` computes
    `value * scale_factor / 1000`, so with `meters_per_tile = 125` a `.dat` cost of 55,000 becomes
-   6,875 in game SimuCents per tile. `[CODE simutrans-extended ex-15 @ 22cc3af]`
+   6,875 in game Simucents per tile. `[CODE simutrans-extended ex-15 @ 22cc3af]`
 2. **Length.** `meters_per_tile = 125` in `config/simuconf.tab`, so a kilometre is eight tiles.
    `[CODE New ex-15 @ 6d8ebdbc5]`
-3. **Timescale.** 1 in-game SimuCent is £0.396311 in 1900 for a capital or annualised amount, and
-   £0.005208 for revenue. A way's cost and its maintenance are both capital-side amounts, so both
-   take the first rate. `[CODE New ex-15 @ 6d8ebdbc5]`
+3. **Display.** The interface divides engine money by 100 before printing it.
+   `tooltip_with_price_maintenance` in `simtool.cc` passes `price/-100.0` and
+   `... / 100.0`, and `tool_build_way_t::get_tooltip` is the way tool that uses it. **This step
+   was missing from the earlier version of this document, and its absence made every pound figure
+   in this document and in the synthesis 100 times too large.**
+   `[CODE simutrans-extended ex-15 @ bdfdc8311]`
+4. **Timescale.** 1 displayed Simucredit is £0.396311 in 1900 for a capital or annualised amount,
+   and £0.005208 for revenue. A way's cost and its maintenance are both capital-side amounts, so
+   both take the first rate. `[CODE New ex-15 @ 6d8ebdbc5]`
 
-The three combine, for a way, to a single convenient factor: real cost per kilometre equals the
-`.dat` cost multiplied by 0.396311, because `0.125 × 8 × 0.396311` is that number. Maintenance per
-kilometre per year is the `.dat` maintenance multiplied by 0.396311 and by 12.
+The four combine, for a way, to a single convenient factor:
+
+- real capital cost per kilometre = `.dat` cost × 0.125 × 8 ÷ 100 × 0.396311
+  = **`.dat` cost × 0.00396311**;
+- real maintenance per kilometre per month = `.dat` maintenance × 0.125 × 8 ÷ 100 × 0.396311
+  = **`.dat` maintenance × 0.00396311**, and per year that × 12.
+
+For per-object classes the same factor applies once the engine scale is used instead of the tile
+count: a scaled one-tile object is `.dat` × 0.125 ÷ 100 × 0.396311 = `.dat` × 0.00049539, and an
+unscaled object is `.dat` ÷ 100 × 0.396311 = `.dat` × 0.00396311.
+
+**Worked check.** `wssr` has `cost=55000`, so a kilometre costs 55,000 × 0.00396311 = **£218**.
+The measured permanent-way-only cost is £1,300-1,900 a kilometre, so the way capital in the
+present files is **three to nine times too low**, not a few times too high.
+
+An in-game tooltip read on 2026-11-17 confirms the mechanics: a 97.5 lb/yard steel track displays
+1,974.00 a kilometre, and the object is `wssri-intermediate` with `cost=90000` and
+`forge_cost_track=15000`. `(90,000 + 15,000) × 0.00396311` is £416 a kilometre, and the displayed
+figure is the same quantity divided by the year index in force at the time of the reading; the
+ratio between `.dat` and pounds does not depend on that index, because it cancels.
+`[CODE simutrans-extended ex-15 @ bdfdc8311]`
 
 ## What changing meters_per_tile would do
 

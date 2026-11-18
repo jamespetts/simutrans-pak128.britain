@@ -1,6 +1,6 @@
 ---
 status: draft
-verified: New ex-15 @ b39ac938d (working tree)
+verified: New ex-15 @ b8f011fcd (working tree)
 ---
 # Calibration sources
 
@@ -55,12 +55,12 @@ from observed values.
 | Corporation tax | UK main rate | GOV.UK rates and allowances | 1798-2023 | `corporation tax` |
 | Bank Rate | Bank of England policy rate | Bank of England Bank Rate history | 1750-2025 | `base rate` |
 | Building construction | Nominal price of building work | Mitchell, *British Historical Statistics* (1988) Ch VII Table 8, building costs (1930=100), 1845-1938; Holmans, *Historical Statistics of Housing in Britain*, Table M.10, construction costs (1958-60=100), 1939-1970, with 1940-1947 from Mitchell and Deane, *Abstract of British Historical Statistics* (1962) Ch IX Table 4; BIS output price index, all new construction, 1955-2013; ONS construction output price index, all new work, 2014-2026. The first two are taken from the Bank of England "A millennium of macroeconomic data" workbook, sheet A32, columns S and T. Before 1845 the 1845 real level is held and tracks the general index (backcast tested against a wage-based alternative; see [prices-config](prices-config.md)) | 1845-2026, backcast to 1750 | `buildings` |
-| Civil engineering | Infrastructure construction prices | ONS output price index for new work: infrastructure, 1980-2026, chained from BIS Construction Price and Cost Indices Table 1 column 13 (1980-2011), the ONS interim construction output price indices back history (1996-2015) and the current ONS construction output price indices (2014 onward). Before 1980 the `buildings` index is held as a stand-in; the forum's individual canal, aqueduct, viaduct and tunnel prices were tested as a substitute and rejected | 1980-2026 from the ONS series, 1750-1980 from `buildings` | `infrastructure` (researched, not yet inserted) |
+| Civil engineering | Infrastructure construction prices | ONS output price index for new work: infrastructure, 1980-2026, chained from BIS Construction Price and Cost Indices Table 1 column 13 (1980-2011), the ONS interim construction output price indices back history (1996-2015) and the current ONS construction output price indices (2014 onward). Before 1980 the `buildings` index is held as a stand-in; the forum's individual canal, aqueduct, viaduct and tunnel prices were tested as a substitute and rejected | 1980-2026 from the ONS series, 1750-1980 from `buildings` | `infrastructure` (implemented) |
 | Farmland | England agricultural land price | Savills long-run England farmland series, all land types (real, rebased to 2023) | 1900-2024 | `country land` |
 | Urban land | UK residential land price | JST Macrohistory Database UK nominal house price index (1900-1995 proxy); ONS land underlying dwellings, AN.21111 (1995-2025) | 1899-2025 | `city land` |
-| Vehicles | Purchase prices of transport equipment | ONS CPI D7CO; CPIH L544; national accounts transport equipment deflator; historical price data | 1988-2026 from CPI; earlier under research | `vehicle purchase` (planned) |
+| Vehicles | Purchase prices of transport equipment | Feinstein 1972 table 63 column 6 (railway rolling stock, 1856-1938) and column 4 (plant and machinery, 1938-1965); Blue Book 1997 tables 13.2 and 13.4 (vehicles, ships and aircraft, 1965-1997); the 1997 real level held thereafter | 1750-2050 | `vehicle purchase` (implemented) |
 | Vehicle maintenance | Repair and servicing prices | ONS RPI DOCT; CPI maintenance and repair components; wage and parts indices | 1987-2026; earlier under research | `vehicle maintenance` (planned) |
-| Freight | Rail freight revenue per ton-mile | Railway Returns 1848-1962; British Rail and GBR statistics; ORR freight statistics | 1848-2026 | `goods rate` (planned) |
+| Freight | Rail freight revenue per ton-mile | Canal Acts and Acworth 1905 (pre-1845); Cmd. 525 (1920) and HANSARD charge changes (1913-1923); Ministry of Transport monthly Railway Statistics via NBER (1920-1931); Annual Abstract of Statistics (1938-1951); BR Facts and Figures and GERS yearbooks RH087/RH062/RH071 (1948-1977); Serpell 1982 (real, cross-check); ORR Table 1310 and nominal freight income (1982-2026) | 1750-2050 | `goods rate` (implemented) |
 
 The general index measures consumer prices. Land, construction and vehicles are assets or
 investment goods whose real prices can diverge from consumer prices by a large factor. The

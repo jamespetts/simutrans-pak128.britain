@@ -32,8 +32,8 @@ be economically and historically realistic.
   method and the interim findings.
 - Calibration: all figures are normalised to the year 1900. General inflation uses the Bank of
   England inflation calculator; labour costs use measuringworth, which separates average
-  earnings. The SimuCent to GBP conversion comes from passenger revenue: the `.dat` figure of
-  0.50 cents per kilometre (second fare stage) represents 1d per mile, the third-class maximum
+  earnings. The Simucredit-to-GBP conversion comes from passenger revenue: the `.dat` figure of
+  50 Simucents (0.50 Simucredits) per kilometre (second fare stage) represents 1d per mile, the third-class maximum
   prescribed by the Regulation of the Railways Act 1844. Per-kilometre costs use the short
   timescale and capital or annual costs use the long timescale; the day counts as 16 active
   hours. `[FORUM:https://forum.simutrans.com/index.php/topic,21310.0.html]`
@@ -77,8 +77,8 @@ be economically and historically realistic.
 - Fuel and staff sit outside this file: absolute yearly prices per fuel and engine type live in
   `fuel.tab`, and yearly wages per staff type in `staff.tab`.
   `[CODE simutrans-extended ex-15 @ d4893f3]`
-- Units: 1 SimuCent = £0.005208 in 1900 on the revenue timescale, and £0.396 in 1900 on the
-  capital timescale; 192 revenue units = 1 new penny. The index is unitless, so the same
+- Units: 1 Simucredit = £0.005208 in 1900 on the revenue timescale, and £0.396 in 1900 on the
+  capital timescale; 192 Simucents = 1 new penny. The index is unitless, so the same
   percentage applies to both. Method and conversions: [prices-config](prices-config.md).
   `[CODE New ex-15 @ 8d0603d81]`
 - No in-game display currently reads these tables; the planned display of price factors over
