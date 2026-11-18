@@ -195,8 +195,49 @@ from the planned queue.
 Compiled with the ex-15 makeobj (`class` key, node version 0x8004)
 `[CODE simutrans-extended ex-15 @ 6bda048cf]`, 1,018 objects, zero ignored warnings.
 
+## Pre-war evidence for the two lowest classes
+
+Research commissioned 2026-11-18 into licensed vehicles and owners before 1945 established the
+following. `[LITERATURE:https://assets.publishing.service.gov.uk/media/5a7506feed915d502d6cce89/vehicles-tables-csv.zip]`
+
+| Year | Private cars, etc. | Motorcycles (tax class) | Sidecar outfits |
+| --- | --- | --- | --- |
+| 1920 | 187,000 | 228,000 (or 287,739; see note) | not established |
+| 1925 | 579,901 | 571,552 | not established |
+| 1930 | 1,056,000 | 712,000 | not established |
+| 1935 | 1,477,000 | 517,000 | **132,309** |
+| 1939 | 2,034,000 | 418,000 | not established |
+| 1945 | 1,487,000 | 309,000 | not established |
+
+The 1935 sidecar figure is a secondary transcription of Ministry of Transport data whose totals
+match the official return, split into 359,347 solo machines, 132,309 combinations and 24,911
+tricycles. The 1920 figure is disputed between series (228,000 in the DfT table, 287,739 in
+Koerner's transcription of Mitchell), and the 1930 references are a quarter apart, so neither
+should be treated as settled.
+
+**What this does not give.** No published source found maps ownership to a social class: not for
+motorcycles, not for outfits, not for cars. The strongest class evidence is a 1953 survey reported
+by Koerner, which found motorcycle owners "mainly in skilled manual labour occupations, with total
+incomes between £200 and £399" — a description of owners, not a rate. O'Connell's interwar work
+estimates about 20% of families had access to a car by the late 1930s, notes that only 25% of
+households fell inside the industry's potential market, and records that people earning under £250
+a year were thought unable to afford a car; his sample of 36 owners was 55% professional or
+commercial, 19% lower-middle and 17% working class. Those are proportions of a small sample, not
+ownership rates.
+
+**Consequence for the config.** The pre-war zeros are assumptions, not findings of no ownership.
+Since no rate is established, any non-zero value entered for classes 0 and 1 to let the outfits
+spawn is a **gameplay assumption** and must be labelled as one in `privatecar.tab`, not presented
+as historical calibration. The direction is supported — outfits were the cheaper alternative to a
+car, £77–88 new in 1925 against £141 for an Austin Seven, and working-class motoring existed by the
+late 1930s — but not the magnitude.
+
 ## Open questions
 
+- **Pre-war `car_ownership` for classes 0 and 1 is uncalibrated.** Research on 2026-11-18 found
+  licensed vehicle counts but no ownership rate by class, so the current 0% values are assumptions,
+  not evidence. Changing them to let the pre-war outfits spawn would be a gameplay assumption and
+  would have to be labelled as such in `privatecar.tab`. The user decides whether to make it.
 - Whether the RangeRover retire date (1988) is right: the classic remained common through
   the 1990s, and extending it would soften the 1989+ Very-high gap.
 - Whether old bangers deserve explicit models (an ageing cheap model kept alive for band 0)
