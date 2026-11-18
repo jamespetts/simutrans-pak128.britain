@@ -234,10 +234,12 @@ late 1930s — but not the magnitude.
 
 ## Open questions
 
-- **Pre-war `car_ownership` for classes 0 and 1 is uncalibrated.** Research on 2026-11-18 found
-  licensed vehicle counts but no ownership rate by class, so the current 0% values are assumptions,
-  not evidence. Changing them to let the pre-war outfits spawn would be a gameplay assumption and
-  would have to be labelled as such in `privatecar.tab`. The user decides whether to make it.
+- **Pre-war `car_ownership` for classes 0 and 1 is a labelled assumption.** Research on 2026-11-18
+  found licensed vehicle counts but no ownership rate by class. On the user's direction, class 1
+  runs at 1% from 1925 and 2% by 1945, and class 0 at 1% from 1940, so that the pre-war outfits can
+  spawn. `privatecar.tab` carries a comment stating that this is a gameplay assumption, not a
+  historical rate, and the direction of the evidence but not the magnitude supports it.
+  `[USER-DIRECTION:2026-11-18]`
 - Whether the RangeRover retire date (1988) is right: the classic remained common through
   the 1990s, and extending it would soften the 1989+ Very-high gap.
 - Whether old bangers deserve explicit models (an ageing cheap model kept alive for band 0)
