@@ -33,7 +33,7 @@ intro_month=5
 retire_year=1928
 retire_month=6
 speed=45
-class=1,2
+class=2
 maximum_comfortable_journey_minutes=25
 maximum_tolerable_journey_minutes=220
 
@@ -56,7 +56,7 @@ intro_month=5
 retire_year=1927
 retire_month=6
 speed=45
-class=1,2
+class=2
 maximum_comfortable_journey_minutes=25
 maximum_tolerable_journey_minutes=220
 
@@ -79,7 +79,7 @@ intro_month=3
 retire_year=1926
 retire_month=6
 speed=45
-class=1,2
+class=2
 maximum_comfortable_journey_minutes=25
 maximum_tolerable_journey_minutes=220
 
@@ -102,7 +102,7 @@ intro_month=3
 retire_year=1925
 retire_month=6
 speed=45
-class=1,2
+class=2
 maximum_comfortable_journey_minutes=25
 maximum_tolerable_journey_minutes=220
 

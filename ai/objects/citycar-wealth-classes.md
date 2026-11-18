@@ -42,13 +42,22 @@ lists. `[USER-DIRECTION:2026-11-15]`
    trim spread at purchase plus downward drift into cheaper hands as it ages (a Ford
    Cortina is Low and Medium for this reason).
 2. Genuine cross-class cars list widely (the BMC Mini: 0–3; the Range Rover: 2–4).
-3. The cheapest aged models carry band 0 in earlier eras (Model T, Austin Seven, Morris
-   Eight, Ford Prefect Early stand in for old bangers); the characteristic Very-low vehicle
-   of c. 1920–1965 is the **motorcycle and sidecar** — era-specific outfits (BSA 557
-   combinations, Norton Big Four, BSA M21 + Watsonian) are listed in
-   [citycar-asset-gaps](citycar-asset-gaps.md) section C1 with provisional values (classes
-   `0,1`; comfort below the BMC Mini). `[USER-DIRECTION:2026-11-15]`
+3. The cheapest aged models carry band 0 once the class has car access at all — in practice from
+   1945, when `privatecar.tab` first gives class 0 a non-zero share. **Before 1945 the Very-low and
+   Low classes had no car ownership whatsoever** (`car_ownership[0]` and `[1]` are both zero from
+   1750 to 1945, and even in 1935 only Medium at 3% and High at 33% had cars). Pre-war cars
+   therefore start at Medium, and the characteristic Very-low vehicle of c. 1920–1965 is the
+   **motorcycle and sidecar** — era-specific outfits (BSA 557 combinations, Norton Big Four, BSA M21
+   + Watsonian) are listed in [citycar-asset-gaps](citycar-asset-gaps.md) section C1 with classes
+   `0,1`. `[USER-DIRECTION:2026-11-15]` `[EXECUTION-VERIFIED:2026-11-18]`
 4. Horse-drawn: private carriages and the park drag are 3–4; the working cart is 0–1.
+
+**Correction, 2026-11-18.** The first calibration put the pre-war cheap cars — Ford T, Austin Seven,
+Morris Minor 1928, Ford Model C and Y, Citroën Type C, and the three Edwardian light cars — into
+class 0. That contradicted the ownership table, which gives class 0 no car access before 1945. They
+are now Medium (2), or Low-and-Medium (1,2) where their road life runs into the 1950s. The pre-war
+Very-low pool is the motorcycle outfits, and it is thin because only two pre-war outfits exist
+(BSA 557 from 1921 and BSA Sloper from 1930; the Norton Big Four runs 1940–48).
 
 ## Assignments (by class list)
 
@@ -97,17 +106,17 @@ Two changes of method from the earlier object-count table:
 
 | Year | 0 Very low | 1 Low | 2 Medium | 3 High | 4 Very high |
 | --- | --- | --- | --- | --- | --- |
-| 1920 | 1 [2] | 3 [5] | 3 [7] | 6 [12] | 5 [10] |
-| 1925 | 4 [5] | 3 [8] | 5 [11] | 5 [12] | 4 [8] |
-| 1930 | 6 [7] | 1 [8] | 4 [10] | 6 [12] | 6 [10] |
-| 1935 | 5 [8] | 2 [9] | 3 [12] | 10 [14] | 6 [11] |
-| 1940 | 5 [8] | 3 [9] | 4 [12] | 7 [11] | 5 [9] |
-| 1945 | 4 [7] | 3 [8] | 4 [11] | 6 [10] | 5 [8] |
-| 1950 | 5 [9] | 5 [11] | 6 [15] | 7 [12] | 4 [8] |
-| 1955 | 5 [9] | 5 [11] | 6 [14] | 7 [12] | 6 [10] |
-| 1960 | 5 [7] | 5 [10] | 6 [14] | 7 [13] | 5 [9] |
-| 1965 | 6 [11] | 7 [16] | 9 [19] | 5 [12] | 5 [7] |
-| 1970 | 4 [9] | 9 [16] | 10 [20] | 5 [13] | 4 [9] |
+| 1920 | 1 [1] | 0 [1] | 6 [7] | 6 [12] | 5 [10] |
+| 1925 | 2 [2] | 0 [2] | 10 [11] | 5 [12] | 4 [8] |
+| 1930 | 3 [3] | 0 [3] | 9 [10] | 5 [12] | 6 [10] |
+| 1935 | 2 [3] | 2 [6] | 7 [13] | 9 [14] | 6 [11] |
+| 1940 | 2 [3] | 3 [7] | 7 [13] | 7 [11] | 5 [9] |
+| 1945 | 2 [3] | 3 [7] | 6 [12] | 6 [10] | 5 [8] |
+| 1950 | 3 [5] | 5 [10] | 8 [16] | 7 [12] | 4 [8] |
+| 1955 | 4 [6] | 6 [11] | 6 [15] | 7 [12] | 6 [10] |
+| 1960 | 5 [6] | 5 [10] | 6 [14] | 7 [13] | 5 [9] |
+| 1965 | 6 [10] | 7 [16] | 9 [19] | 5 [12] | 5 [7] |
+| 1970 | 4 [8] | 9 [16] | 10 [20] | 5 [13] | 4 [9] |
 | 1975 | 5 [10] | 12 [21] | 16 [30] | 6 [20] | 5 [10] |
 | 1980 | 6 [14] | 15 [25] | 17 [34] | 7 [22] | 5 [11] |
 | 1985 | 6 [15] | 19 [31] | 19 [40] | 7 [22] | 5 [11] |
@@ -152,20 +161,25 @@ Citroën DS and CX; an Aston Martin family; and the four pre-1920 light cars.
 
 ### What the table shows
 
-- **The whole 2015–2025 block is thin, in every band.** Once each series is counted once, the
-  recent fleet is five to ten cars per band, falling to one or two in the outer bands by 2025. This
-  is the clearest and most general gap: the pakset's modern coverage rests on the 2005–2015 cohort,
-  most of which is near, or past, its retire date.
-- **Very low in 2025 is one series** (the Dacia Sandero) — a single cheap car for the whole of the
-  bottom band. The queue does not fix this; the Yaris is its only Low-band addition there.
-- **Very high in 2025 is one series** (the S-Class). The planned Aston makes it two. Both outer
-  bands need modern cars far more than the middle does.
-- **The 1930–45 High band is the strongest stretch of the whole table** at six to ten series,
-  reflecting the number of 1930s middle-class saloons already modelled.
-- **Low is weakest in the 1930s** (one series in 1930), a consequence of the era's cheap cars being
-  classified Very low — the Austin Seven, Model Y and Morris Minor 1928 all sit in band 0.
-- The brackets are usually two to four times the main figure for the mainstream bands, which is the
-  intended cross-class drift: a 1985 Medium car is available to three bands, not one.
+- **Before 1945 the outer bands rest on motorcycles and on very few cars.** Very low is two pre-war
+  outfits in 1935 and never more than three series; Low is empty until the Ford Model Y and Model C
+  give it two series in 1935. This is correct, not a modelling gap: `privatecar.tab` gives both
+  classes zero ownership before 1945.
+- **But that same table means the pre-war outfits cannot spawn at all.** Their `.dat` files carry
+  `class=0,1`, yet both classes are at 0% until 1945, so the pool is empty and the BSA 557, BSA
+  Sloper and Norton Big Four never appear. Making them spawn needs the `privatecar.tab` values for
+  classes 0 and 1 to be non-zero before 1945, which is a balancing decision rather than a data one.
+- **The whole 2015–2025 block is thin, in every band.** Once each series is counted once, the recent
+  fleet is five to ten series per band, falling to one or two in the outer bands by 2025. The
+  pakset's modern coverage rests on the 2005–2015 cohort, most of which is near or past its retire
+  date.
+- **Very low in 2025 is one series** (the Dacia Sandero); **Very high in 2025 is one series** (the
+  S-Class), becoming two with the planned Aston. Both outer bands need modern cars far more than the
+  middle does.
+- **Medium is the consistently strongest band** once generations are collapsed: six to nineteen
+  series in every year from 1920, and the largest column throughout the middle of the century.
+- The brackets run one to four times the main figure, which is the intended cross-class drift: a
+  1985 Medium car is available to three bands, not one.
 
 ## Provenance
 
