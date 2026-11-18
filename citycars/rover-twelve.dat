@@ -1,0 +1,123 @@
+# Rover Twelve (Clegg), 1912-1924.
+#
+# Owen Clegg's 2,297 cc side-valve four, 75 x 130 mm, 22-28 bhp, three-speed
+# gearbox. 4,140-4,267 mm long, 1,651 mm wide, 2,794-2,946 mm wheelbase,
+# 1,270 mm track, 711 kg chassis. About 5,000 were built before 1914 and about
+# 13,000 in total; the model was renamed Rover 14 for 1924.
+# https://en.wikipedia.org/wiki/Rover_12
+# https://collection.powerhouse.com.au/object/206829
+#
+# Colours: Black, Dark Green, Maroon and Grey, as specified for this model.
+#
+# Weight: 13 in total (black 5, green 4, maroon 2, grey 2). Class 3 and a
+# low-volume prestige car, so the total stays inside the 10-15 band.
+#
+# Speed 70 km/h (45 mph), the Powerhouse Museum figure for its 1912 tourer;
+# Rover itself claimed 75 km/h.
+# Comfort 60/270 (line). Class 3.
+# Dates: 1912-1924 with a road tail to about 1949.
+#
+# Metres master: citycars/4.5/rover-twelve.blend. References:
+# citycars/references/rover-twelve/ (gitignored). Images via Wikimedia Commons.
+#
+# Photographs: all four are open tourers.
+# rover12-a.jpg 1911 12 hp four-seater side view, public domain,
+# https://commons.wikimedia.org/wiki/File:1911_Rover_12hp_4-seater_torpedo.jpg
+# rover12-b.jpg 1912 tourer front three-quarter, CC BY 2.0, David Maciulaitis,
+# https://commons.wikimedia.org/wiki/File:1912_Rover_12_(15862397462).jpg
+# rover12-c.jpg 1914 tourer front three-quarter, CC BY-SA 2.0, Clive Barker,
+# https://commons.wikimedia.org/wiki/File:1914_Rover_12_tourer_(14952757061).jpg
+# rover12-d.jpg 1923 Clegg tourer front three-quarter, CC BY 2.0, Steve Glover,
+# https://commons.wikimedia.org/wiki/File:1923_Rover_12_Clegg.jpg
+
+obj=citycar
+name=RoverTwelve(Black)
+copyright=JamesPetts
+
+DistributionWeight=5
+intro_year=1912
+intro_month=1
+retire_year=1949
+retire_month=6
+speed=70
+class=3
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=270
+
+Image[E]=./images/rover-twelve-black_E.0.0,-33,14
+Image[SE]=./images/rover-twelve-black_SE.0.0,-13,0
+Image[S]=./images/rover-twelve-black_S.0.0,0,0
+Image[SW]=./images/rover-twelve-black_SW.0.0,-8,10
+Image[W]=./images/rover-twelve-black_W.0.0,4,5
+Image[NW]=./images/rover-twelve-black_NW.0.0,12,10
+Image[N]=./images/rover-twelve-black_N.0.0,0,33
+Image[NE]=./images/rover-twelve-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RoverTwelve(DarkGreen)
+copyright=JamesPetts
+
+DistributionWeight=4
+intro_year=1912
+intro_month=4
+retire_year=1948
+retire_month=6
+speed=70
+class=3
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=270
+
+Image[E]=./images/rover-twelve-green_E.0.0,-33,14
+Image[SE]=./images/rover-twelve-green_SE.0.0,-13,0
+Image[S]=./images/rover-twelve-green_S.0.0,0,0
+Image[SW]=./images/rover-twelve-green_SW.0.0,-8,10
+Image[W]=./images/rover-twelve-green_W.0.0,4,5
+Image[NW]=./images/rover-twelve-green_NW.0.0,12,10
+Image[N]=./images/rover-twelve-green_N.0.0,0,33
+Image[NE]=./images/rover-twelve-green_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RoverTwelve(Maroon)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1913
+intro_month=3
+retire_year=1947
+retire_month=6
+speed=70
+class=3
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=270
+
+Image[E]=./images/rover-twelve-maroon_E.0.0,-33,14
+Image[SE]=./images/rover-twelve-maroon_SE.0.0,-13,0
+Image[S]=./images/rover-twelve-maroon_S.0.0,0,0
+Image[SW]=./images/rover-twelve-maroon_SW.0.0,-8,10
+Image[W]=./images/rover-twelve-maroon_W.0.0,4,5
+Image[NW]=./images/rover-twelve-maroon_NW.0.0,12,10
+Image[N]=./images/rover-twelve-maroon_N.0.0,0,33
+Image[NE]=./images/rover-twelve-maroon_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RoverTwelve(Grey)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1914
+intro_month=6
+retire_year=1946
+retire_month=6
+speed=70
+class=3
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=270
+
+Image[E]=./images/rover-twelve-grey_E.0.0,-33,14
+Image[SE]=./images/rover-twelve-grey_SE.0.0,-13,0
+Image[S]=./images/rover-twelve-grey_S.0.0,0,0
+Image[SW]=./images/rover-twelve-grey_SW.0.0,-8,10
+Image[W]=./images/rover-twelve-grey_W.0.0,4,5
+Image[NW]=./images/rover-twelve-grey_NW.0.0,12,10
+Image[N]=./images/rover-twelve-grey_N.0.0,0,33
+Image[NE]=./images/rover-twelve-grey_NE.0.0,0,24

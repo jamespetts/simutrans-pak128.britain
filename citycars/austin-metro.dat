@@ -73,14 +73,14 @@ class=0,1,2
 maximum_comfortable_journey_minutes=38
 maximum_tolerable_journey_minutes=235
 
-Image[E]=./images/austin-metro-yellow_E.0.0,-33,14
-Image[SE]=./images/austin-metro-yellow_SE.0.0,-13,0
-Image[S]=./images/austin-metro-yellow_S.0.0,0,0
-Image[SW]=./images/austin-metro-yellow_SW.0.0,-8,10
-Image[W]=./images/austin-metro-yellow_W.0.0,4,5
-Image[NW]=./images/austin-metro-yellow_NW.0.0,12,10
-Image[N]=./images/austin-metro-yellow_N.0.0,0,33
-Image[NE]=./images/austin-metro-yellow_NE.0.0,0,24
+Image[E]=./images/austin-metro-white_E.0.0,-33,14
+Image[SE]=./images/austin-metro-white_SE.0.0,-13,0
+Image[S]=./images/austin-metro-white_S.0.0,0,0
+Image[SW]=./images/austin-metro-white_SW.0.0,-8,10
+Image[W]=./images/austin-metro-white_W.0.0,4,5
+Image[NW]=./images/austin-metro-white_NW.0.0,12,10
+Image[N]=./images/austin-metro-white_N.0.0,0,33
+Image[NE]=./images/austin-metro-white_NE.0.0,0,24
 ---------------------------------
 obj=citycar
 name=AustinMetro(Green)

@@ -1,0 +1,117 @@
+# Rolls-Royce Silver Ghost (40/50 h.p.), 1907-1925.
+#
+# The 40/50 h.p. "Silver Ghost": 7,036-7,428 cc sidevalve six, chassis wheelbase
+# 3,442 mm, overall dimensions body-dependent (about 4,800 x 1,700 x 1,800 mm as
+# a London-Edinburgh tourer). About 7,874 built, the class-4 benchmark of the
+# 1910s and the model that established Rolls-Royce's reputation.
+# https://en.wikipedia.org/wiki/Rolls-Royce_Silver_Ghost
+#
+# Colours: Black, Dark Green, Maroon and Grey are documented period finishes.
+#
+# Weight: 15 in total (black 6, green 4, maroon 3, grey 2). Section F of the gaps
+# doc: early prestige models are representative only.
+#
+# Speed 110 km/h; comfort 60/275 (line). Class 4.
+# Dates: 1907-1925 with a road tail to about 1938.
+#
+# Metres master: citycars/4.5/rolls-royce-silver-ghost.blend. References:
+# citycars/references/rolls-royce-silver-ghost/ (gitignored). Images via Wikimedia
+# Commons.
+#
+# Gate C, 2026-11-16: accepted as built. The pack photographs only the front from
+# four angles, so the rear and the exact side are estimated from the published
+# chassis dimensions: wheel diameter 0.940 m, track 1.440 m, plain open rear tub,
+# no unreferenced lamps or luggage. Body is the open tourer of the photographs, not
+# the closed limousine that appears in one image. No correction round.
+
+obj=citycar
+name=RollsRoyceSilverGhost(Black)
+copyright=JamesPetts
+
+DistributionWeight=6
+intro_year=1907
+intro_month=7
+retire_year=1938
+retire_month=6
+speed=110
+class=4
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=275
+
+Image[E]=./images/rolls-royce-silver-ghost-black_E.0.0,-33,14
+Image[SE]=./images/rolls-royce-silver-ghost-black_SE.0.0,-13,0
+Image[S]=./images/rolls-royce-silver-ghost-black_S.0.0,0,0
+Image[SW]=./images/rolls-royce-silver-ghost-black_SW.0.0,-8,12
+Image[W]=./images/rolls-royce-silver-ghost-black_W.0.0,4,5
+Image[NW]=./images/rolls-royce-silver-ghost-black_NW.0.0,12,10
+Image[N]=./images/rolls-royce-silver-ghost-black_N.0.0,0,33
+Image[NE]=./images/rolls-royce-silver-ghost-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RollsRoyceSilverGhost(DarkGreen)
+copyright=JamesPetts
+
+DistributionWeight=4
+intro_year=1907
+intro_month=7
+retire_year=1936
+retire_month=6
+speed=110
+class=4
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=275
+
+Image[E]=./images/rolls-royce-silver-ghost-green_E.0.0,-33,14
+Image[SE]=./images/rolls-royce-silver-ghost-green_SE.0.0,-13,0
+Image[S]=./images/rolls-royce-silver-ghost-green_S.0.0,0,0
+Image[SW]=./images/rolls-royce-silver-ghost-green_SW.0.0,-8,12
+Image[W]=./images/rolls-royce-silver-ghost-green_W.0.0,4,5
+Image[NW]=./images/rolls-royce-silver-ghost-green_NW.0.0,12,10
+Image[N]=./images/rolls-royce-silver-ghost-green_N.0.0,0,33
+Image[NE]=./images/rolls-royce-silver-ghost-green_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RollsRoyceSilverGhost(Maroon)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1910
+intro_month=3
+retire_year=1934
+retire_month=6
+speed=110
+class=4
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=275
+
+Image[E]=./images/rolls-royce-silver-ghost-maroon_E.0.0,-33,14
+Image[SE]=./images/rolls-royce-silver-ghost-maroon_SE.0.0,-13,0
+Image[S]=./images/rolls-royce-silver-ghost-maroon_S.0.0,0,0
+Image[SW]=./images/rolls-royce-silver-ghost-maroon_SW.0.0,-8,12
+Image[W]=./images/rolls-royce-silver-ghost-maroon_W.0.0,4,5
+Image[NW]=./images/rolls-royce-silver-ghost-maroon_NW.0.0,12,10
+Image[N]=./images/rolls-royce-silver-ghost-maroon_N.0.0,0,33
+Image[NE]=./images/rolls-royce-silver-ghost-maroon_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RollsRoyceSilverGhost(Grey)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1913
+intro_month=3
+retire_year=1932
+retire_month=6
+speed=110
+class=4
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=275
+
+Image[E]=./images/rolls-royce-silver-ghost-grey_E.0.0,-33,14
+Image[SE]=./images/rolls-royce-silver-ghost-grey_SE.0.0,-13,0
+Image[S]=./images/rolls-royce-silver-ghost-grey_S.0.0,0,0
+Image[SW]=./images/rolls-royce-silver-ghost-grey_SW.0.0,-8,12
+Image[W]=./images/rolls-royce-silver-ghost-grey_W.0.0,4,5
+Image[NW]=./images/rolls-royce-silver-ghost-grey_NW.0.0,12,10
+Image[N]=./images/rolls-royce-silver-ghost-grey_N.0.0,0,33
+Image[NE]=./images/rolls-royce-silver-ghost-grey_NE.0.0,0,24

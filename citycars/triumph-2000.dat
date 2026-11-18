@@ -1,3 +1,29 @@
+# Triumph 2000 Mk1 four-door saloon, 1963-1969.
+#
+# The Mario Michelotti saloon announced in October 1963, with the separate paired
+# round-headlamp surrounds, the low grille, the short flat rear deck and VERTICAL
+# rear lamp assemblies. The Mk2, a longer car with a full-width nose and
+# horizontal rear lamps, is a separate set of objects.
+# https://en.wikipedia.org/wiki/Triumph_2000
+# https://triumph2000register.co.uk/the-cars/technical-specifications/
+#
+# Dimensions 4.410 x 1.650 x 1.420 m, wheelbase 2.690 m, from the Triumph 2000
+# Register specifications. Handles take the modelled width to 1.676 m.
+#
+# The five object names and their dates are unchanged from the original objects
+# (rule 9, savegame validity): Blue, Green, Gold, Black and White, introduced
+# 1963-1966. The graphics were replaced on 2026-11-18 with a Mk1 model built from
+# photographs, so the shell now represents the Mk1 rather than a generic 2000.
+# Their introduces and retires are road presence, not production.
+#
+# Metres master: citycars/4.5/triumph-2000-mk1.blend. Interchange:
+# citycars/4.5/triumph-2000-mk1.dae (51 objects). References:
+# citycars/references/triumph-2000/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the roof corners and body shoulders are more angular than
+# the photographs. At 128 px the upright Michelotti cabin, the thin chrome strip
+# and the vertical rear lamps read as the Mk1.
+#
 # https://en.wikipedia.org/wiki/Mini_Hatch
 obj=citycar
 name=Triumph2000(Blue)

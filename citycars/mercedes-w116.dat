@@ -1,0 +1,114 @@
+# Mercedes-Benz S-Class W116 four-door saloon, 1972-1980.
+#
+# The first car to be sold as the S-Class: 4,960 mm long, 1,870 mm wide,
+# 1,430 mm high, 2,734 mm wheelbase (2,865 mm on the long-wheelbase SEL);
+# 2.8, 3.5, 4.5 and 6.9 litre engines, with the 450 SE the usual British import.
+# 473,035 built across the range. The class-4 benchmark of the 1970s beside the
+# Silver Shadow and the BMW 7 E23.
+# https://en.wikipedia.org/wiki/Mercedes-Benz_W116
+#
+# Colours: Black, Astral Silver, Midnight Blue and Grey were period Mercedes
+# finishes; the photographs show black, gold, red and white cars, which confirms
+# that strong colours were offered alongside the greys.
+#
+# Weight: 12 in total (black 5, silver 3, blue 2, grey 2). Section F: the
+# 1960s-70s class-4 row, per the register's note that the W116 was still to be
+# verified for the UK; it is included here at a modest weight.
+#
+# Speed 200 km/h (450 SE); comfort 95/320 (line). Class 4.
+# Dates: 1972-1980 with a road tail to about 2000.
+#
+# Metres master: citycars/4.5/mercedes-w116.blend. References:
+# citycars/references/mercedes-w116/ (gitignored). Images via Wikimedia Commons.
+
+obj=citycar
+name=MercedesW116(Black)
+copyright=JamesPetts
+
+DistributionWeight=5
+intro_year=1972
+intro_month=10
+retire_year=2000
+retire_month=6
+speed=200
+class=4
+maximum_comfortable_journey_minutes=95
+maximum_tolerable_journey_minutes=320
+
+Image[E]=./images/mercedes-w116-black_E.0.0,-33,14
+Image[SE]=./images/mercedes-w116-black_SE.0.0,-13,0
+Image[S]=./images/mercedes-w116-black_S.0.0,0,0
+Image[SW]=./images/mercedes-w116-black_SW.0.0,-8,10
+Image[W]=./images/mercedes-w116-black_W.0.0,4,5
+Image[NW]=./images/mercedes-w116-black_NW.0.0,12,10
+Image[N]=./images/mercedes-w116-black_N.0.0,0,33
+Image[NE]=./images/mercedes-w116-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=MercedesW116(Silver)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1972
+intro_month=10
+retire_year=1999
+retire_month=6
+speed=200
+class=4
+maximum_comfortable_journey_minutes=95
+maximum_tolerable_journey_minutes=320
+
+Image[E]=./images/mercedes-w116-silver_E.0.0,-33,14
+Image[SE]=./images/mercedes-w116-silver_SE.0.0,-13,0
+Image[S]=./images/mercedes-w116-silver_S.0.0,0,0
+Image[SW]=./images/mercedes-w116-silver_SW.0.0,-8,10
+Image[W]=./images/mercedes-w116-silver_W.0.0,4,5
+Image[NW]=./images/mercedes-w116-silver_NW.0.0,12,10
+Image[N]=./images/mercedes-w116-silver_N.0.0,0,33
+Image[NE]=./images/mercedes-w116-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=MercedesW116(MidnightBlue)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1973
+intro_month=3
+retire_year=1998
+retire_month=6
+speed=200
+class=4
+maximum_comfortable_journey_minutes=95
+maximum_tolerable_journey_minutes=320
+
+Image[E]=./images/mercedes-w116-blue_E.0.0,-33,14
+Image[SE]=./images/mercedes-w116-blue_SE.0.0,-13,0
+Image[S]=./images/mercedes-w116-blue_S.0.0,0,0
+Image[SW]=./images/mercedes-w116-blue_SW.0.0,-8,10
+Image[W]=./images/mercedes-w116-blue_W.0.0,4,5
+Image[NW]=./images/mercedes-w116-blue_NW.0.0,12,10
+Image[N]=./images/mercedes-w116-blue_N.0.0,0,33
+Image[NE]=./images/mercedes-w116-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=MercedesW116(Grey)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1974
+intro_month=3
+retire_year=1997
+retire_month=6
+speed=200
+class=4
+maximum_comfortable_journey_minutes=95
+maximum_tolerable_journey_minutes=320
+
+Image[E]=./images/mercedes-w116-grey_E.0.0,-33,14
+Image[SE]=./images/mercedes-w116-grey_SE.0.0,-13,0
+Image[S]=./images/mercedes-w116-grey_S.0.0,0,0
+Image[SW]=./images/mercedes-w116-grey_SW.0.0,-8,10
+Image[W]=./images/mercedes-w116-grey_W.0.0,4,5
+Image[NW]=./images/mercedes-w116-grey_NW.0.0,12,10
+Image[N]=./images/mercedes-w116-grey_N.0.0,0,33
+Image[NE]=./images/mercedes-w116-grey_NE.0.0,0,24

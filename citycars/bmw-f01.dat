@@ -1,0 +1,109 @@
+# BMW 7 Series F01/F02 four-door saloon, 2008-2015.
+#
+# The F01 7-series (F02 long wheelbase, the volume form in Britain): 5,072 mm
+# long, 1,902 mm wide, 1,479 mm high, 3,070 mm wheelbase (F02 3,215). 3.0-6.0
+# petrol and 3.0 diesel, the 730d the volume model. Facelift in 2012.
+# https://en.wikipedia.org/wiki/BMW_7_Series_(F01)
+#
+# Colours: Black Sapphire, Titanium Silver, Imperial Blue and Alpine White are
+# documented BMW finishes of the period.
+#
+# Weight: 20 in total (black 8, silver 6, blue 3, white 3).
+#
+# Speed 250 km/h; comfort 170/435 (line). Class 4.
+# Dates: 2008-2015 with a road tail to about 2028.
+#
+# Metres master: citycars/4.5/bmw-f01.blend. References:
+# citycars/references/bmw-f01/ (gitignored). Images via Wikimedia Commons.
+
+obj=citycar
+name=BMW7F01(BlackSapphire)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=2008
+intro_month=11
+retire_year=2028
+retire_month=6
+speed=250
+class=4
+maximum_comfortable_journey_minutes=170
+maximum_tolerable_journey_minutes=435
+
+Image[E]=./images/bmw-f01-black_E.0.0,-33,14
+Image[SE]=./images/bmw-f01-black_SE.0.0,-13,0
+Image[S]=./images/bmw-f01-black_S.0.0,0,0
+Image[SW]=./images/bmw-f01-black_SW.0.0,-8,10
+Image[W]=./images/bmw-f01-black_W.0.0,4,5
+Image[NW]=./images/bmw-f01-black_NW.0.0,12,10
+Image[N]=./images/bmw-f01-black_N.0.0,0,33
+Image[NE]=./images/bmw-f01-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMW7F01(TitaniumSilver)
+copyright=JamesPetts
+
+DistributionWeight=6
+intro_year=2008
+intro_month=11
+retire_year=2027
+retire_month=6
+speed=250
+class=4
+maximum_comfortable_journey_minutes=170
+maximum_tolerable_journey_minutes=435
+
+Image[E]=./images/bmw-f01-silver_E.0.0,-33,14
+Image[SE]=./images/bmw-f01-silver_SE.0.0,-13,0
+Image[S]=./images/bmw-f01-silver_S.0.0,0,0
+Image[SW]=./images/bmw-f01-silver_SW.0.0,-8,10
+Image[W]=./images/bmw-f01-silver_W.0.0,4,5
+Image[NW]=./images/bmw-f01-silver_NW.0.0,12,10
+Image[N]=./images/bmw-f01-silver_N.0.0,0,33
+Image[NE]=./images/bmw-f01-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMW7F01(ImperialBlue)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=2010
+intro_month=3
+retire_year=2026
+retire_month=6
+speed=250
+class=4
+maximum_comfortable_journey_minutes=170
+maximum_tolerable_journey_minutes=435
+
+Image[E]=./images/bmw-f01-blue_E.0.0,-33,14
+Image[SE]=./images/bmw-f01-blue_SE.0.0,-13,0
+Image[S]=./images/bmw-f01-blue_S.0.0,0,0
+Image[SW]=./images/bmw-f01-blue_SW.0.0,-8,10
+Image[W]=./images/bmw-f01-blue_W.0.0,4,5
+Image[NW]=./images/bmw-f01-blue_NW.0.0,12,10
+Image[N]=./images/bmw-f01-blue_N.0.0,0,33
+Image[NE]=./images/bmw-f01-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMW7F01(AlpineWhite)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=2011
+intro_month=3
+retire_year=2025
+retire_month=6
+speed=250
+class=4
+maximum_comfortable_journey_minutes=170
+maximum_tolerable_journey_minutes=435
+
+Image[E]=./images/bmw-f01-white_E.0.0,-33,14
+Image[SE]=./images/bmw-f01-white_SE.0.0,-13,0
+Image[S]=./images/bmw-f01-white_S.0.0,0,0
+Image[SW]=./images/bmw-f01-white_SW.0.0,-8,10
+Image[W]=./images/bmw-f01-white_W.0.0,4,5
+Image[NW]=./images/bmw-f01-white_NW.0.0,12,10
+Image[N]=./images/bmw-f01-white_N.0.0,0,33
+Image[NE]=./images/bmw-f01-white_NE.0.0,0,24

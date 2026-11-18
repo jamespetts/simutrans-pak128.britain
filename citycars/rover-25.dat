@@ -1,0 +1,108 @@
+# Rover 25 five-door hatchback, 1999-2005.
+#
+# The facelifted Rover 200: 3,995 mm long, 1,688 mm wide, 1,415 mm high,
+# 2,500 mm wheelbase; 1.4-1.8 petrol and 2.0 diesel. The volume Rover of the
+# MG Rover years. https://en.wikipedia.org/wiki/Rover_25
+#
+# Colours: Nightfire Red, Tahiti Blue, Zircon Silver and Arden Green are period
+# Rover finishes.
+#
+# Weight: 120 in total (red 40, blue 30, silver 28, green 22).
+#
+# Speed 190 km/h; comfort 100/330 (line). Classes 1,2.
+# Dates: 1999-2005 with a road tail to about 2015.
+#
+# Metres master: citycars/4.5/rover-25.blend. References:
+# citycars/references/rover-25/ (gitignored). Images via Wikimedia Commons.
+
+obj=citycar
+name=Rover25(NightfireRed)
+copyright=JamesPetts
+
+DistributionWeight=40
+intro_year=1999
+intro_month=10
+retire_year=2015
+retire_month=6
+speed=190
+class=1,2
+maximum_comfortable_journey_minutes=100
+maximum_tolerable_journey_minutes=330
+
+Image[E]=./images/rover-25-red_E.0.0,-33,14
+Image[SE]=./images/rover-25-red_SE.0.0,-13,0
+Image[S]=./images/rover-25-red_S.0.0,0,0
+Image[SW]=./images/rover-25-red_SW.0.0,-8,12
+Image[W]=./images/rover-25-red_W.0.0,4,5
+Image[NW]=./images/rover-25-red_NW.0.0,12,10
+Image[N]=./images/rover-25-red_N.0.0,0,33
+Image[NE]=./images/rover-25-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Rover25(TahitiBlue)
+copyright=JamesPetts
+
+DistributionWeight=30
+intro_year=1999
+intro_month=10
+retire_year=2014
+retire_month=6
+speed=190
+class=1,2
+maximum_comfortable_journey_minutes=100
+maximum_tolerable_journey_minutes=330
+
+Image[E]=./images/rover-25-blue_E.0.0,-33,14
+Image[SE]=./images/rover-25-blue_SE.0.0,-13,0
+Image[S]=./images/rover-25-blue_S.0.0,0,0
+Image[SW]=./images/rover-25-blue_SW.0.0,-8,12
+Image[W]=./images/rover-25-blue_W.0.0,4,5
+Image[NW]=./images/rover-25-blue_NW.0.0,12,10
+Image[N]=./images/rover-25-blue_N.0.0,0,33
+Image[NE]=./images/rover-25-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Rover25(ZirconSilver)
+copyright=JamesPetts
+
+DistributionWeight=28
+intro_year=2000
+intro_month=3
+retire_year=2013
+retire_month=6
+speed=190
+class=1,2
+maximum_comfortable_journey_minutes=100
+maximum_tolerable_journey_minutes=330
+
+Image[E]=./images/rover-25-silver_E.0.0,-33,14
+Image[SE]=./images/rover-25-silver_SE.0.0,-13,0
+Image[S]=./images/rover-25-silver_S.0.0,0,0
+Image[SW]=./images/rover-25-silver_SW.0.0,-8,12
+Image[W]=./images/rover-25-silver_W.0.0,4,5
+Image[NW]=./images/rover-25-silver_NW.0.0,12,10
+Image[N]=./images/rover-25-silver_N.0.0,0,33
+Image[NE]=./images/rover-25-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Rover25(ArdenGreen)
+copyright=JamesPetts
+
+DistributionWeight=22
+intro_year=2001
+intro_month=3
+retire_year=2012
+retire_month=6
+speed=190
+class=1,2
+maximum_comfortable_journey_minutes=100
+maximum_tolerable_journey_minutes=330
+
+Image[E]=./images/rover-25-green_E.0.0,-33,14
+Image[SE]=./images/rover-25-green_SE.0.0,-13,0
+Image[S]=./images/rover-25-green_S.0.0,0,0
+Image[SW]=./images/rover-25-green_SW.0.0,-8,12
+Image[W]=./images/rover-25-green_W.0.0,4,5
+Image[NW]=./images/rover-25-green_NW.0.0,12,10
+Image[N]=./images/rover-25-green_N.0.0,0,33
+Image[NE]=./images/rover-25-green_NE.0.0,0,24

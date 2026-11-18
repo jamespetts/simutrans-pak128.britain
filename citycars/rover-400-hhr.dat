@@ -1,0 +1,125 @@
+# Rover 400 HH-R (four-door saloon), 1995-1999.
+#
+# The HH-R was the 1995 restyle of the Rover 400, and the last development of the R8
+# platform: a rounded body with the Rover corporate grille of vertical chrome bars
+# and integrated elongated headlamps. It was sold as a four-door saloon and a
+# five-door hatchback; the saloon is modelled, as the reference photographs show.
+# https://en.wikipedia.org/wiki/Rover_400_/_45
+# https://rover200.org.uk/cars/hhr/hhr-history
+#
+# Dimensions 4.320 x 1.695 x 1.390 m, wheelbase 2.620 m; the published HH-R
+# dimension box, which gives both bodies. Mirrors take the modelled width to
+# 1.952 m.
+#
+# Colours: Nightfire Red, Silver Leaf metallic, White Gold and Tahiti Blue, Rover
+# UK offerings of 1995-99. DVSA first-registration shares are measured for these
+# years, so no era adjustment is needed: red 5, silver 4, white 3, blue 3.
+# Total 15. Provisional pending the central rebase.
+#
+# Speed 180 km/h, a step above the R8 400 for the later engine range. Comfort
+# 92/320, on the line 180 + 1.5 x 92, a fraction above the R8's 90/315 for the
+# revised trim and sound deadening. Classes 1,2.
+#
+# Dates are road presence, not production: June 1995 intro, retires staggered
+# 2007-2011 on a twelve- to sixteen-year tail.
+#
+# Metres master: citycars/4.5/rover-400-hhr.blend. Interchange:
+# citycars/4.5/rover-400-hhr.dae (69 objects). References:
+# citycars/references/rover-400-hhr/ (gitignored; Wikimedia Commons, CC BY 3.0).
+#
+# Accepted low-poly deviations, recorded rather than corrected: the surfaces are a
+# simplified, more angular interpretation of the photographed compound curves, and
+# the rear lamps are the taller, narrower units the comparison called for rather
+# than the first pass's shape.
+
+obj=citycar
+name=Rover400HHR(NightfireRed)
+copyright=JamesPetts
+
+DistributionWeight=5
+intro_year=1995
+intro_month=6
+retire_year=2009
+retire_month=6
+speed=180
+class=1,2
+maximum_comfortable_journey_minutes=92
+maximum_tolerable_journey_minutes=320
+
+Image[E]=./images/rover-400-hhr-red_E.0.0,-33,14
+Image[SE]=./images/rover-400-hhr-red_SE.0.0,-13,0
+Image[S]=./images/rover-400-hhr-red_S.0.0,0,0
+Image[SW]=./images/rover-400-hhr-red_SW.0.0,-8,10
+Image[W]=./images/rover-400-hhr-red_W.0.0,4,5
+Image[NW]=./images/rover-400-hhr-red_NW.0.0,12,10
+Image[N]=./images/rover-400-hhr-red_N.0.0,0,33
+Image[NE]=./images/rover-400-hhr-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Rover400HHR(SilverLeaf)
+copyright=JamesPetts
+
+DistributionWeight=4
+intro_year=1995
+intro_month=6
+retire_year=2011
+retire_month=6
+speed=180
+class=1,2
+maximum_comfortable_journey_minutes=92
+maximum_tolerable_journey_minutes=320
+
+Image[E]=./images/rover-400-hhr-silver_E.0.0,-33,14
+Image[SE]=./images/rover-400-hhr-silver_SE.0.0,-13,0
+Image[S]=./images/rover-400-hhr-silver_S.0.0,0,0
+Image[SW]=./images/rover-400-hhr-silver_SW.0.0,-8,10
+Image[W]=./images/rover-400-hhr-silver_W.0.0,4,5
+Image[NW]=./images/rover-400-hhr-silver_NW.0.0,12,10
+Image[N]=./images/rover-400-hhr-silver_N.0.0,0,33
+Image[NE]=./images/rover-400-hhr-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Rover400HHR(WhiteGold)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1995
+intro_month=6
+retire_year=2007
+retire_month=6
+speed=180
+class=1,2
+maximum_comfortable_journey_minutes=92
+maximum_tolerable_journey_minutes=320
+
+Image[E]=./images/rover-400-hhr-white_E.0.0,-33,14
+Image[SE]=./images/rover-400-hhr-white_SE.0.0,-13,0
+Image[S]=./images/rover-400-hhr-white_S.0.0,0,0
+Image[SW]=./images/rover-400-hhr-white_SW.0.0,-8,10
+Image[W]=./images/rover-400-hhr-white_W.0.0,4,5
+Image[NW]=./images/rover-400-hhr-white_NW.0.0,12,10
+Image[N]=./images/rover-400-hhr-white_N.0.0,0,33
+Image[NE]=./images/rover-400-hhr-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Rover400HHR(TahitiBlue)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1996
+intro_month=3
+retire_year=2010
+retire_month=6
+speed=180
+class=1,2
+maximum_comfortable_journey_minutes=92
+maximum_tolerable_journey_minutes=320
+
+Image[E]=./images/rover-400-hhr-blue_E.0.0,-33,14
+Image[SE]=./images/rover-400-hhr-blue_SE.0.0,-13,0
+Image[S]=./images/rover-400-hhr-blue_S.0.0,0,0
+Image[SW]=./images/rover-400-hhr-blue_SW.0.0,-8,10
+Image[W]=./images/rover-400-hhr-blue_W.0.0,4,5
+Image[NW]=./images/rover-400-hhr-blue_NW.0.0,12,10
+Image[N]=./images/rover-400-hhr-blue_N.0.0,0,33
+Image[NE]=./images/rover-400-hhr-blue_NE.0.0,0,24

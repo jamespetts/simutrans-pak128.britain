@@ -1,0 +1,108 @@
+# Dacia Sandero II five-door hatchback, 2013-2020.
+#
+# The budget Renault-based supermini sold in Britain from 2013: 4,091 mm long,
+# 1,733 mm wide, 1,523 mm high, 2,589 mm wheelbase; 0.9-1.6 petrol and 1.5
+# diesel. Britain's cheapest new car of the mid-2010s.
+# https://en.wikipedia.org/wiki/Dacia_Sandero
+#
+# Colours: White, Red, Blue and Grey are documented Dacia colours of the period.
+#
+# Weight: 40 in total (white 14, red 10, blue 9, grey 7).
+#
+# Speed 170 km/h; comfort 85/305 (line). Classes 0,1.
+# Dates: 2013-2020 with a road tail to about 2030.
+#
+# Metres master: citycars/4.5/dacia-sandero.blend. References:
+# citycars/references/dacia-sandero/ (gitignored). Images via Wikimedia Commons.
+
+obj=citycar
+name=DaciaSandero(White)
+copyright=JamesPetts
+
+DistributionWeight=14
+intro_year=2013
+intro_month=1
+retire_year=2030
+retire_month=6
+speed=170
+class=0,1
+maximum_comfortable_journey_minutes=85
+maximum_tolerable_journey_minutes=305
+
+Image[E]=./images/dacia-sandero-white_E.0.0,-33,14
+Image[SE]=./images/dacia-sandero-white_SE.0.0,-13,0
+Image[S]=./images/dacia-sandero-white_S.0.0,0,0
+Image[SW]=./images/dacia-sandero-white_SW.0.0,-8,12
+Image[W]=./images/dacia-sandero-white_W.0.0,4,5
+Image[NW]=./images/dacia-sandero-white_NW.0.0,12,10
+Image[N]=./images/dacia-sandero-white_N.0.0,0,33
+Image[NE]=./images/dacia-sandero-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=DaciaSandero(Red)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=2013
+intro_month=1
+retire_year=2029
+retire_month=6
+speed=170
+class=0,1
+maximum_comfortable_journey_minutes=85
+maximum_tolerable_journey_minutes=305
+
+Image[E]=./images/dacia-sandero-red_E.0.0,-33,14
+Image[SE]=./images/dacia-sandero-red_SE.0.0,-13,0
+Image[S]=./images/dacia-sandero-red_S.0.0,0,0
+Image[SW]=./images/dacia-sandero-red_SW.0.0,-8,12
+Image[W]=./images/dacia-sandero-red_W.0.0,4,5
+Image[NW]=./images/dacia-sandero-red_NW.0.0,12,10
+Image[N]=./images/dacia-sandero-red_N.0.0,0,33
+Image[NE]=./images/dacia-sandero-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=DaciaSandero(Blue)
+copyright=JamesPetts
+
+DistributionWeight=9
+intro_year=2014
+intro_month=3
+retire_year=2028
+retire_month=6
+speed=170
+class=0,1
+maximum_comfortable_journey_minutes=85
+maximum_tolerable_journey_minutes=305
+
+Image[E]=./images/dacia-sandero-blue_E.0.0,-33,14
+Image[SE]=./images/dacia-sandero-blue_SE.0.0,-13,0
+Image[S]=./images/dacia-sandero-blue_S.0.0,0,0
+Image[SW]=./images/dacia-sandero-blue_SW.0.0,-8,12
+Image[W]=./images/dacia-sandero-blue_W.0.0,4,5
+Image[NW]=./images/dacia-sandero-blue_NW.0.0,12,10
+Image[N]=./images/dacia-sandero-blue_N.0.0,0,33
+Image[NE]=./images/dacia-sandero-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=DaciaSandero(Grey)
+copyright=JamesPetts
+
+DistributionWeight=7
+intro_year=2015
+intro_month=3
+retire_year=2027
+retire_month=6
+speed=170
+class=0,1
+maximum_comfortable_journey_minutes=85
+maximum_tolerable_journey_minutes=305
+
+Image[E]=./images/dacia-sandero-grey_E.0.0,-33,14
+Image[SE]=./images/dacia-sandero-grey_SE.0.0,-13,0
+Image[S]=./images/dacia-sandero-grey_S.0.0,0,0
+Image[SW]=./images/dacia-sandero-grey_SW.0.0,-8,12
+Image[W]=./images/dacia-sandero-grey_W.0.0,4,5
+Image[NW]=./images/dacia-sandero-grey_NW.0.0,12,10
+Image[N]=./images/dacia-sandero-grey_N.0.0,0,33
+Image[NE]=./images/dacia-sandero-grey_NE.0.0,0,24

@@ -1,0 +1,130 @@
+# Triumph 2000 Mk2 four-door saloon, 1969-1977.
+#
+# The 1969 facelift of the 2000: longer at both ends, with a full-width nose and
+# grille, larger headlamps in a wider surround, a longer boot and HORIZONTAL rear
+# lamp clusters. The pre-facelift Mk2 (1969-1974) is modelled; the 1974 facelift's
+# revised grille and trim, and the 2000 TC, are not.
+# https://en.wikipedia.org/wiki/Triumph_2000
+# https://triumph2000register.co.uk/the-cars/technical-specifications/
+#
+# Dimensions 4.630 x 1.690 x 1.420 m, wheelbase 2.690 m, pre-facelift Mk2, from
+# the Triumph 2000 Register specifications, which give 4.66 x 1.71 x 1.44 m after
+# the 1974 facelift. Mirrors take the modelled width to 1.980 m.
+#
+# Colours are Triumph's own paint names, drawn from the Register's list of genuine
+# Triumph finishes: Saffron, Pimento, French Blue and Emerald, all of them offered
+# on the 2000/2500 in the Mk2 years. **The Register does not allocate each colour
+# to a mark and year**, so the individual intro and retire months here are the
+# road-presence dates of the objects, not evidence that the colour began on that
+# month. Weights saffron 3, emerald 3, pimento 2, frenchblue 2, total 10,
+# provisional pending the central rebase.
+#
+# Speed 160 km/h for the 2000 and 2000 TC. Comfort 85/310, on the line
+# 180 + 1.5 x 85, a step above the Mk1's 85-minute figure at the same value
+# because the Mk2 rides and insulates better. Classes 2,3.
+#
+# Dates are road presence: October 1969 intro, retires staggered 1986-1989 on a
+# twelve- to twenty-year tail.
+#
+# Metres master: citycars/4.5/triumph-2000-mk2.blend. Interchange:
+# citycars/4.5/triumph-2000-mk2.dae (58 objects). References:
+# citycars/references/triumph-2000-mk2/ (gitignored; Wikimedia Commons; image 1 is
+# an oblique view, so the flank is dimension-calibrated).
+#
+# This master is the basis of the 2500, which shares the shell.
+#
+# Accepted deviations: the model is more faceted than the photographs,
+# particularly the shoulders and roof corners. At 128 px the full-width nose, the
+# separate boot and the horizontal rear lamps read as the Mk2.
+
+obj=citycar
+name=Triumph2000Mk2(Saffron)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1969
+intro_month=10
+retire_year=1989
+retire_month=6
+speed=160
+class=2,3
+maximum_comfortable_journey_minutes=85
+maximum_tolerable_journey_minutes=310
+
+Image[E]=./images/triumph-2000-mk2-saffron_E.0.0,-33,14
+Image[SE]=./images/triumph-2000-mk2-saffron_SE.0.0,-13,0
+Image[S]=./images/triumph-2000-mk2-saffron_S.0.0,0,0
+Image[SW]=./images/triumph-2000-mk2-saffron_SW.0.0,-8,10
+Image[W]=./images/triumph-2000-mk2-saffron_W.0.0,4,5
+Image[NW]=./images/triumph-2000-mk2-saffron_NW.0.0,12,10
+Image[N]=./images/triumph-2000-mk2-saffron_N.0.0,0,33
+Image[NE]=./images/triumph-2000-mk2-saffron_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Triumph2000Mk2(Emerald)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1969
+intro_month=10
+retire_year=1988
+retire_month=6
+speed=160
+class=2,3
+maximum_comfortable_journey_minutes=85
+maximum_tolerable_journey_minutes=310
+
+Image[E]=./images/triumph-2000-mk2-emerald_E.0.0,-33,14
+Image[SE]=./images/triumph-2000-mk2-emerald_SE.0.0,-13,0
+Image[S]=./images/triumph-2000-mk2-emerald_S.0.0,0,0
+Image[SW]=./images/triumph-2000-mk2-emerald_SW.0.0,-8,10
+Image[W]=./images/triumph-2000-mk2-emerald_W.0.0,4,5
+Image[NW]=./images/triumph-2000-mk2-emerald_NW.0.0,12,10
+Image[N]=./images/triumph-2000-mk2-emerald_N.0.0,0,33
+Image[NE]=./images/triumph-2000-mk2-emerald_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Triumph2000Mk2(Pimento)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1969
+intro_month=10
+retire_year=1987
+retire_month=6
+speed=160
+class=2,3
+maximum_comfortable_journey_minutes=85
+maximum_tolerable_journey_minutes=310
+
+Image[E]=./images/triumph-2000-mk2-pimento_E.0.0,-33,14
+Image[SE]=./images/triumph-2000-mk2-pimento_SE.0.0,-13,0
+Image[S]=./images/triumph-2000-mk2-pimento_S.0.0,0,0
+Image[SW]=./images/triumph-2000-mk2-pimento_SW.0.0,-8,10
+Image[W]=./images/triumph-2000-mk2-pimento_W.0.0,4,5
+Image[NW]=./images/triumph-2000-mk2-pimento_NW.0.0,12,10
+Image[N]=./images/triumph-2000-mk2-pimento_N.0.0,0,33
+Image[NE]=./images/triumph-2000-mk2-pimento_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Triumph2000Mk2(FrenchBlue)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1969
+intro_month=10
+retire_year=1986
+retire_month=6
+speed=160
+class=2,3
+maximum_comfortable_journey_minutes=85
+maximum_tolerable_journey_minutes=310
+
+Image[E]=./images/triumph-2000-mk2-frenchblue_E.0.0,-33,14
+Image[SE]=./images/triumph-2000-mk2-frenchblue_SE.0.0,-13,0
+Image[S]=./images/triumph-2000-mk2-frenchblue_S.0.0,0,0
+Image[SW]=./images/triumph-2000-mk2-frenchblue_SW.0.0,-8,10
+Image[W]=./images/triumph-2000-mk2-frenchblue_W.0.0,4,5
+Image[NW]=./images/triumph-2000-mk2-frenchblue_NW.0.0,12,10
+Image[N]=./images/triumph-2000-mk2-frenchblue_N.0.0,0,33
+Image[NE]=./images/triumph-2000-mk2-frenchblue_NE.0.0,0,24

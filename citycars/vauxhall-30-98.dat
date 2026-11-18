@@ -1,0 +1,110 @@
+# Vauxhall 30-98, 1913-1927.
+#
+# Britain's first great sporting car: 4,318 mm long, 1,727 mm wide, 1,524 mm high,
+# 2,972 mm wheelbase; 4,224 cc four, overhead valves, capable of about 130 km/h.
+# About 600 built. Chosen as a photographed substitute for the unverifiable
+# "Daimler 38 hp" entry in the section F table.
+# https://en.wikipedia.org/wiki/Vauxhall_30-98
+#
+# Colours: Black, British Racing Green, Maroon and Grey are documented period
+# finishes.
+#
+# Weight: 12 in total (black 5, green 3, maroon 2, grey 2).
+#
+# Speed 130 km/h; comfort 65/280 (line). Class 4.
+# Dates: 1913-1927 with a road tail to about 1948.
+#
+# Metres master: citycars/4.5/vauxhall-30-98.blend. References:
+# citycars/references/vauxhall-30-98/ (gitignored). Images via Wikimedia Commons.
+
+obj=citycar
+name=Vauxhall3098(Black)
+copyright=JamesPetts
+
+DistributionWeight=5
+intro_year=1913
+intro_month=6
+retire_year=1948
+retire_month=6
+speed=130
+class=4
+maximum_comfortable_journey_minutes=65
+maximum_tolerable_journey_minutes=280
+
+Image[E]=./images/vauxhall-30-98-black_E.0.0,-33,14
+Image[SE]=./images/vauxhall-30-98-black_SE.0.0,-13,0
+Image[S]=./images/vauxhall-30-98-black_S.0.0,0,0
+Image[SW]=./images/vauxhall-30-98-black_SW.0.0,-8,10
+Image[W]=./images/vauxhall-30-98-black_W.0.0,4,5
+Image[NW]=./images/vauxhall-30-98-black_NW.0.0,12,10
+Image[N]=./images/vauxhall-30-98-black_N.0.0,0,33
+Image[NE]=./images/vauxhall-30-98-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Vauxhall3098(BritishRacingGreen)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1913
+intro_month=6
+retire_year=1947
+retire_month=6
+speed=130
+class=4
+maximum_comfortable_journey_minutes=65
+maximum_tolerable_journey_minutes=280
+
+Image[E]=./images/vauxhall-30-98-green_E.0.0,-33,14
+Image[SE]=./images/vauxhall-30-98-green_SE.0.0,-13,0
+Image[S]=./images/vauxhall-30-98-green_S.0.0,0,0
+Image[SW]=./images/vauxhall-30-98-green_SW.0.0,-8,10
+Image[W]=./images/vauxhall-30-98-green_W.0.0,4,5
+Image[NW]=./images/vauxhall-30-98-green_NW.0.0,12,10
+Image[N]=./images/vauxhall-30-98-green_N.0.0,0,33
+Image[NE]=./images/vauxhall-30-98-green_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Vauxhall3098(Maroon)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1914
+intro_month=3
+retire_year=1946
+retire_month=6
+speed=130
+class=4
+maximum_comfortable_journey_minutes=65
+maximum_tolerable_journey_minutes=280
+
+Image[E]=./images/vauxhall-30-98-maroon_E.0.0,-33,14
+Image[SE]=./images/vauxhall-30-98-maroon_SE.0.0,-13,0
+Image[S]=./images/vauxhall-30-98-maroon_S.0.0,0,0
+Image[SW]=./images/vauxhall-30-98-maroon_SW.0.0,-8,10
+Image[W]=./images/vauxhall-30-98-maroon_W.0.0,4,5
+Image[NW]=./images/vauxhall-30-98-maroon_NW.0.0,12,10
+Image[N]=./images/vauxhall-30-98-maroon_N.0.0,0,33
+Image[NE]=./images/vauxhall-30-98-maroon_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Vauxhall3098(Grey)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1916
+intro_month=3
+retire_year=1945
+retire_month=6
+speed=130
+class=4
+maximum_comfortable_journey_minutes=65
+maximum_tolerable_journey_minutes=280
+
+Image[E]=./images/vauxhall-30-98-grey_E.0.0,-33,14
+Image[SE]=./images/vauxhall-30-98-grey_SE.0.0,-13,0
+Image[S]=./images/vauxhall-30-98-grey_S.0.0,0,0
+Image[SW]=./images/vauxhall-30-98-grey_SW.0.0,-8,10
+Image[W]=./images/vauxhall-30-98-grey_W.0.0,4,5
+Image[NW]=./images/vauxhall-30-98-grey_NW.0.0,12,10
+Image[N]=./images/vauxhall-30-98-grey_N.0.0,0,33
+Image[NE]=./images/vauxhall-30-98-grey_NE.0.0,0,24

@@ -1,0 +1,108 @@
+# Fiat 126 two-door saloon, 1972-2000.
+#
+# The 126 replaced the 500: 3,129 mm long, 1,377 mm wide, 1,335 mm high,
+# 1,840 mm wheelbase; 594-652 cc air-cooled twin, rear-mounted. Built in Italy to
+# 1980 and in Poland as the 126p to 2000; a common cheap import in Britain.
+# https://en.wikipedia.org/wiki/Fiat_126
+#
+# Colours: White, Red, Blue and Green are documented Fiat colours of the period.
+#
+# Weight: 80 in total (white 25, red 25, blue 15, green 15).
+#
+# Speed 105 km/h; comfort 35/235 (line). Classes 0,1.
+# Dates: 1972-2000 with a road tail to about 2008.
+#
+# Metres master: citycars/4.5/fiat-126.blend. References:
+# citycars/references/fiat-126/ (gitignored). Images via Wikimedia Commons.
+
+obj=citycar
+name=Fiat126(White)
+copyright=JamesPetts
+
+DistributionWeight=25
+intro_year=1972
+intro_month=10
+retire_year=2008
+retire_month=6
+speed=105
+class=0,1
+maximum_comfortable_journey_minutes=35
+maximum_tolerable_journey_minutes=235
+
+Image[E]=./images/fiat-126-white_E.0.0,-33,14
+Image[SE]=./images/fiat-126-white_SE.0.0,-13,0
+Image[S]=./images/fiat-126-white_S.0.0,0,0
+Image[SW]=./images/fiat-126-white_SW.0.0,-8,10
+Image[W]=./images/fiat-126-white_W.0.0,4,5
+Image[NW]=./images/fiat-126-white_NW.0.0,12,10
+Image[N]=./images/fiat-126-white_N.0.0,0,33
+Image[NE]=./images/fiat-126-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Fiat126(Red)
+copyright=JamesPetts
+
+DistributionWeight=25
+intro_year=1972
+intro_month=10
+retire_year=2007
+retire_month=6
+speed=105
+class=0,1
+maximum_comfortable_journey_minutes=35
+maximum_tolerable_journey_minutes=235
+
+Image[E]=./images/fiat-126-red_E.0.0,-33,14
+Image[SE]=./images/fiat-126-red_SE.0.0,-13,0
+Image[S]=./images/fiat-126-red_S.0.0,0,0
+Image[SW]=./images/fiat-126-red_SW.0.0,-8,10
+Image[W]=./images/fiat-126-red_W.0.0,4,5
+Image[NW]=./images/fiat-126-red_NW.0.0,12,10
+Image[N]=./images/fiat-126-red_N.0.0,0,33
+Image[NE]=./images/fiat-126-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Fiat126(Blue)
+copyright=JamesPetts
+
+DistributionWeight=15
+intro_year=1974
+intro_month=3
+retire_year=2006
+retire_month=6
+speed=105
+class=0,1
+maximum_comfortable_journey_minutes=35
+maximum_tolerable_journey_minutes=235
+
+Image[E]=./images/fiat-126-blue_E.0.0,-33,14
+Image[SE]=./images/fiat-126-blue_SE.0.0,-13,0
+Image[S]=./images/fiat-126-blue_S.0.0,0,0
+Image[SW]=./images/fiat-126-blue_SW.0.0,-8,10
+Image[W]=./images/fiat-126-blue_W.0.0,4,5
+Image[NW]=./images/fiat-126-blue_NW.0.0,12,10
+Image[N]=./images/fiat-126-blue_N.0.0,0,33
+Image[NE]=./images/fiat-126-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Fiat126(Green)
+copyright=JamesPetts
+
+DistributionWeight=15
+intro_year=1976
+intro_month=3
+retire_year=2005
+retire_month=6
+speed=105
+class=0,1
+maximum_comfortable_journey_minutes=35
+maximum_tolerable_journey_minutes=235
+
+Image[E]=./images/fiat-126-green_E.0.0,-33,14
+Image[SE]=./images/fiat-126-green_SE.0.0,-13,0
+Image[S]=./images/fiat-126-green_S.0.0,0,0
+Image[SW]=./images/fiat-126-green_SW.0.0,-8,10
+Image[W]=./images/fiat-126-green_W.0.0,4,5
+Image[NW]=./images/fiat-126-green_NW.0.0,12,10
+Image[N]=./images/fiat-126-green_N.0.0,0,33
+Image[NE]=./images/fiat-126-green_NE.0.0,0,24

@@ -1,0 +1,124 @@
+# Rover 75 (saloon), 1999-2005.
+#
+# The Rover 75 was the last Rover designed before the BMW sale and the last car of
+# the Rover line: launched in 1999, it replaced the 800 and carried the marque until
+# MG Rover collapsed in 2005. It is the most rounded and most chrome-detailed of the
+# Rover family in the pakset.
+# https://en.wikipedia.org/wiki/Rover_75
+#
+# Dimensions 4.747 x 1.778 x 1.424 m, wheelbase 2.746 m; the published saloon
+# figures. The estate (4.791 m) and the limousine were not modelled.
+#
+# Colours: Copperleaf Red, Starlight Silver, White Gold and Wedgwood Blue, all Rover
+# UK offerings of the launch period. DVSA first-registration shares for 1999-2005
+# are measured, so no era adjustment is needed: red 4, silver 4, white 3, blue 3.
+# Total 14. Provisional pending the central rebase.
+#
+# Speed 190 km/h, at the Rover 25's tier: the 75's volume engines were the 1.8 and
+# 2.0 K-series and the 2.5 KV6, and the pakset figure is a game-balance value rather
+# than the model's maximum. Comfort 105/340, on the line 180 + 1.5 x 105, one step
+# below the Corsa E's 105/340 tier and at the top of the private-car comfort range
+# for its date. Classes 2,3: the 75 was a genuine executive car, not a repmobile.
+#
+# Dates are road presence: June 1999 intro, retires staggered 2010-2015 on an
+# eleven- to sixteen-year tail.
+#
+# Metres master: citycars/4.5/rover-75.blend. Interchange:
+# citycars/4.5/rover-75.dae (80 objects). References:
+# citycars/references/rover-75/ (gitignored; Wikimedia Commons, CC BY-SA 4.0).
+#
+# Accepted low-poly deviations, recorded rather than corrected: the model is more
+# angular than the photographed compound curves, and the Gate B camera angles are
+# approximate and orthographic rather than calibrated.
+
+obj=citycar
+name=Rover75(CopperleafRed)
+copyright=JamesPetts
+
+DistributionWeight=4
+intro_year=1999
+intro_month=6
+retire_year=2012
+retire_month=6
+speed=190
+class=2,3
+maximum_comfortable_journey_minutes=105
+maximum_tolerable_journey_minutes=340
+
+Image[E]=./images/rover-75-red_E.0.0,-33,14
+Image[SE]=./images/rover-75-red_SE.0.0,-13,0
+Image[S]=./images/rover-75-red_S.0.0,0,0
+Image[SW]=./images/rover-75-red_SW.0.0,-8,10
+Image[W]=./images/rover-75-red_W.0.0,4,5
+Image[NW]=./images/rover-75-red_NW.0.0,12,10
+Image[N]=./images/rover-75-red_N.0.0,0,33
+Image[NE]=./images/rover-75-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Rover75(StarlightSilver)
+copyright=JamesPetts
+
+DistributionWeight=4
+intro_year=1999
+intro_month=6
+retire_year=2015
+retire_month=6
+speed=190
+class=2,3
+maximum_comfortable_journey_minutes=105
+maximum_tolerable_journey_minutes=340
+
+Image[E]=./images/rover-75-silver_E.0.0,-33,14
+Image[SE]=./images/rover-75-silver_SE.0.0,-13,0
+Image[S]=./images/rover-75-silver_S.0.0,0,0
+Image[SW]=./images/rover-75-silver_SW.0.0,-8,10
+Image[W]=./images/rover-75-silver_W.0.0,4,5
+Image[NW]=./images/rover-75-silver_NW.0.0,12,10
+Image[N]=./images/rover-75-silver_N.0.0,0,33
+Image[NE]=./images/rover-75-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Rover75(WhiteGold)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1999
+intro_month=6
+retire_year=2010
+retire_month=6
+speed=190
+class=2,3
+maximum_comfortable_journey_minutes=105
+maximum_tolerable_journey_minutes=340
+
+Image[E]=./images/rover-75-white_E.0.0,-33,14
+Image[SE]=./images/rover-75-white_SE.0.0,-13,0
+Image[S]=./images/rover-75-white_S.0.0,0,0
+Image[SW]=./images/rover-75-white_SW.0.0,-8,10
+Image[W]=./images/rover-75-white_W.0.0,4,5
+Image[NW]=./images/rover-75-white_NW.0.0,12,10
+Image[N]=./images/rover-75-white_N.0.0,0,33
+Image[NE]=./images/rover-75-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Rover75(WedgwoodBlue)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1999
+intro_month=6
+retire_year=2013
+retire_month=6
+speed=190
+class=2,3
+maximum_comfortable_journey_minutes=105
+maximum_tolerable_journey_minutes=340
+
+Image[E]=./images/rover-75-blue_E.0.0,-33,14
+Image[SE]=./images/rover-75-blue_SE.0.0,-13,0
+Image[S]=./images/rover-75-blue_S.0.0,0,0
+Image[SW]=./images/rover-75-blue_SW.0.0,-8,10
+Image[W]=./images/rover-75-blue_W.0.0,4,5
+Image[NW]=./images/rover-75-blue_NW.0.0,12,10
+Image[N]=./images/rover-75-blue_N.0.0,0,33
+Image[NE]=./images/rover-75-blue_NE.0.0,0,24

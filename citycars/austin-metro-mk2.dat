@@ -1,0 +1,135 @@
+# Austin Metro Mk2 (LC8 facelift), 1984-1990.
+#
+# The October 1984 facelift gave the Metro a new front end, a wider track, revised
+# suspension, a new dashboard using Maestro and Montego switchgear, and — the
+# commercial point of the revision — a five-door body on the same wheelbase. The
+# Austin badge was dropped from the cars at the end of 1987, after which they were
+# sold simply as the Metro until the Rover Metro of 1990.
+# https://en.wikipedia.org/wiki/Austin_Metro
+# https://www.aronline.co.uk/cars/austin/metro/lc8-development-story/
+#
+# Dimensions 3.403 x 1.546 x 1.359 m, wheelbase 2.251 m. Source: Austin Rover
+# Nederland brochure EO 172 (1984), dimension table, which agrees with the
+# published 3.400 / 1.550 / 1.360 / 2.250 figures.
+#
+# The three-door body is modelled. The five-door was the facelift's selling point
+# but the extra door division does not read at 128 px, and the existing 1980
+# AustinMetro objects already cover the Mk1 shell; this model is the Mk2 only.
+#
+# Colours: Flame Red (BLVC 818), Zircon Blue metallic (471), Ermine White (243)
+# and Silver Leaf metallic (421), all factory Austin colours of the period.
+# DVSA first-registration shares begin at 1994, so the split is era-adjusted from
+# the 1994-96 measured base towards red and white, which were markedly stronger on
+# mid-1980s registrations, and away from silver, which was then rare: red 7,
+# white 5, blue 5, silver 3. Total 20. Provisional pending the central rebase.
+#
+# Speed 125 km/h, matching the existing Mk1 and the Fiesta Mk4's tier rather than
+# the model's ~155 km/h maximum. Comfort 50/255, on the line 180 + 1.5 x 50, a step
+# above the Mk1's 38/235 for the revised suspension and one step above the Mini.
+# Classes 0,1,2 as the entry-level supermini of its decade.
+#
+# Dates are road presence, not production: all four appear with the October 1984
+# facelift and retire staggered 1995-1998 on a ten- to fourteen-year tail.
+#
+# Metres master: citycars/4.5/austin-metro-mk2.blend. Interchange:
+# citycars/4.5/austin-metro-mk2.dae (32 objects). References:
+# citycars/references/austin-metro-mk2/ (gitignored; eight photographs from
+# Wikimedia Commons, CC BY 2.0 and CC BY-SA 4.0).
+#
+# Accepted low-poly deviations, recorded rather than corrected: the photographed
+# rounded corners are angular at this budget, and the nose carries the common
+# flush-lamp, shallow-grille arrangement rather than the Vanden Plas bright trim or
+# the City X's recessed lamp units. Stage B ran in connectivity mode because the
+# hatch glass sits on the cabin, above the hull's top face.
+
+obj=citycar
+name=AustinMetroMk2(FlameRed)
+copyright=JamesPetts
+
+DistributionWeight=7
+intro_year=1984
+intro_month=10
+retire_year=1996
+retire_month=6
+speed=125
+class=0,1,2
+maximum_comfortable_journey_minutes=50
+maximum_tolerable_journey_minutes=255
+
+Image[E]=./images/austin-metro-mk2-red_E.0.0,-33,14
+Image[SE]=./images/austin-metro-mk2-red_SE.0.0,-13,0
+Image[S]=./images/austin-metro-mk2-red_S.0.0,0,0
+Image[SW]=./images/austin-metro-mk2-red_SW.0.0,-8,10
+Image[W]=./images/austin-metro-mk2-red_W.0.0,4,5
+Image[NW]=./images/austin-metro-mk2-red_NW.0.0,12,10
+Image[N]=./images/austin-metro-mk2-red_N.0.0,0,33
+Image[NE]=./images/austin-metro-mk2-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=AustinMetroMk2(ZirconBlue)
+copyright=JamesPetts
+
+DistributionWeight=5
+intro_year=1984
+intro_month=10
+retire_year=1997
+retire_month=6
+speed=125
+class=0,1,2
+maximum_comfortable_journey_minutes=50
+maximum_tolerable_journey_minutes=255
+
+Image[E]=./images/austin-metro-mk2-blue_E.0.0,-33,14
+Image[SE]=./images/austin-metro-mk2-blue_SE.0.0,-13,0
+Image[S]=./images/austin-metro-mk2-blue_S.0.0,0,0
+Image[SW]=./images/austin-metro-mk2-blue_SW.0.0,-8,10
+Image[W]=./images/austin-metro-mk2-blue_W.0.0,4,5
+Image[NW]=./images/austin-metro-mk2-blue_NW.0.0,12,10
+Image[N]=./images/austin-metro-mk2-blue_N.0.0,0,33
+Image[NE]=./images/austin-metro-mk2-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=AustinMetroMk2(ErmineWhite)
+copyright=JamesPetts
+
+DistributionWeight=5
+intro_year=1984
+intro_month=10
+retire_year=1995
+retire_month=6
+speed=125
+class=0,1,2
+maximum_comfortable_journey_minutes=50
+maximum_tolerable_journey_minutes=255
+
+Image[E]=./images/austin-metro-mk2-white_E.0.0,-33,14
+Image[SE]=./images/austin-metro-mk2-white_SE.0.0,-13,0
+Image[S]=./images/austin-metro-mk2-white_S.0.0,0,0
+Image[SW]=./images/austin-metro-mk2-white_SW.0.0,-8,10
+Image[W]=./images/austin-metro-mk2-white_W.0.0,4,5
+Image[NW]=./images/austin-metro-mk2-white_NW.0.0,12,10
+Image[N]=./images/austin-metro-mk2-white_N.0.0,0,33
+Image[NE]=./images/austin-metro-mk2-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=AustinMetroMk2(SilverLeaf)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1985
+intro_month=4
+retire_year=1998
+retire_month=6
+speed=125
+class=0,1,2
+maximum_comfortable_journey_minutes=50
+maximum_tolerable_journey_minutes=255
+
+Image[E]=./images/austin-metro-mk2-silver_E.0.0,-33,14
+Image[SE]=./images/austin-metro-mk2-silver_SE.0.0,-13,0
+Image[S]=./images/austin-metro-mk2-silver_S.0.0,0,0
+Image[SW]=./images/austin-metro-mk2-silver_SW.0.0,-8,10
+Image[W]=./images/austin-metro-mk2-silver_W.0.0,4,5
+Image[NW]=./images/austin-metro-mk2-silver_NW.0.0,12,10
+Image[N]=./images/austin-metro-mk2-silver_N.0.0,0,33
+Image[NE]=./images/austin-metro-mk2-silver_NE.0.0,0,24

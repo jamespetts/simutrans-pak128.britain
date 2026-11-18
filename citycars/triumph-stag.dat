@@ -1,0 +1,130 @@
+# Triumph Stag two-door coupe, 1970-1977.
+#
+# The V8-engined Stag, with the permanent T-bar, the polished uprights and the
+# four-lamp grille. Modelled with the factory hardtop fitted, because that is the
+# closed body the pack's other cars are built as: the flank comes from a soft-top
+# photograph, and the hardtop roofline, C-pillar and rear panel from two hardtop
+# views. Federal side markers and bumper additions are not modelled.
+# https://en.wikipedia.org/wiki/Triumph_Stag
+#
+# Dimensions 4.394 x 1.613 x 1.257 m, wheelbase 2.540 m, from the English
+# Wikipedia Stag specifications. Handles take the modelled width to 1.641 m.
+#
+# Colours are Triumph's own, from the Stag specialist's annual colour tables, and
+# this is the best paint evidence of any Triumph model in the batch:
+#   Damson          1971 and 1972 model years
+#   Sapphire        1972 model year
+#   Saffron         1971 and 1972 model years
+#   White           1971 and 1972 model years
+# The tables are secondary originality research rather than a period chart
+# inspected here, and they disagree with themselves in places; only the years
+# above are used. Weights damson 3, white 3, saffron 2, sapphire 2, total 10,
+# provisional pending the central rebase.
+#
+# Speed 195 km/h for the 3.0 V8, a step below the car's quoted maximum because
+# the Stag's gearing and the period tyres did not encourage sustained running.
+# Comfort 100/330, on the line 180 + 1.5 x 100: a soft, well-trimmed GT, a step
+# above the Spitfire. Classes 3,4.
+#
+# Dates are road presence: June 1970 intro, retires staggered 1990-1993 on a
+# thirteen- to twenty-three-year tail.
+#
+# Metres master: citycars/4.5/triumph-stag.blend. Interchange:
+# citycars/4.5/triumph-stag.dae (53 objects). References:
+# citycars/references/triumph-stag/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the shoulders and the lower front and rear panels are more
+# angular than the photographs. At 128 px the low hardtop roofline, the two-door
+# cabin, the T-bar and the four-lamp nose read as the Stag.
+
+obj=citycar
+name=TriumphStag(Damson)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1970
+intro_month=6
+retire_year=1993
+retire_month=6
+speed=195
+class=3,4
+maximum_comfortable_journey_minutes=100
+maximum_tolerable_journey_minutes=330
+
+Image[E]=./images/triumph-stag-damson_E.0.0,-33,14
+Image[SE]=./images/triumph-stag-damson_SE.0.0,-13,0
+Image[S]=./images/triumph-stag-damson_S.0.0,0,0
+Image[SW]=./images/triumph-stag-damson_SW.0.0,-8,10
+Image[W]=./images/triumph-stag-damson_W.0.0,4,5
+Image[NW]=./images/triumph-stag-damson_NW.0.0,12,10
+Image[N]=./images/triumph-stag-damson_N.0.0,0,33
+Image[NE]=./images/triumph-stag-damson_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=TriumphStag(White)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1970
+intro_month=6
+retire_year=1992
+retire_month=6
+speed=195
+class=3,4
+maximum_comfortable_journey_minutes=100
+maximum_tolerable_journey_minutes=330
+
+Image[E]=./images/triumph-stag-white_E.0.0,-33,14
+Image[SE]=./images/triumph-stag-white_SE.0.0,-13,0
+Image[S]=./images/triumph-stag-white_S.0.0,0,0
+Image[SW]=./images/triumph-stag-white_SW.0.0,-8,10
+Image[W]=./images/triumph-stag-white_W.0.0,4,5
+Image[NW]=./images/triumph-stag-white_NW.0.0,12,10
+Image[N]=./images/triumph-stag-white_N.0.0,0,33
+Image[NE]=./images/triumph-stag-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=TriumphStag(Saffron)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1970
+intro_month=6
+retire_year=1991
+retire_month=6
+speed=195
+class=3,4
+maximum_comfortable_journey_minutes=100
+maximum_tolerable_journey_minutes=330
+
+Image[E]=./images/triumph-stag-saffron_E.0.0,-33,14
+Image[SE]=./images/triumph-stag-saffron_SE.0.0,-13,0
+Image[S]=./images/triumph-stag-saffron_S.0.0,0,0
+Image[SW]=./images/triumph-stag-saffron_SW.0.0,-8,10
+Image[W]=./images/triumph-stag-saffron_W.0.0,4,5
+Image[NW]=./images/triumph-stag-saffron_NW.0.0,12,10
+Image[N]=./images/triumph-stag-saffron_N.0.0,0,33
+Image[NE]=./images/triumph-stag-saffron_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=TriumphStag(Sapphire)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1972
+intro_month=9
+retire_year=1990
+retire_month=6
+speed=195
+class=3,4
+maximum_comfortable_journey_minutes=100
+maximum_tolerable_journey_minutes=330
+
+Image[E]=./images/triumph-stag-sapphire_E.0.0,-33,14
+Image[SE]=./images/triumph-stag-sapphire_SE.0.0,-13,0
+Image[S]=./images/triumph-stag-sapphire_S.0.0,0,0
+Image[SW]=./images/triumph-stag-sapphire_SW.0.0,-8,10
+Image[W]=./images/triumph-stag-sapphire_W.0.0,4,5
+Image[NW]=./images/triumph-stag-sapphire_NW.0.0,12,10
+Image[N]=./images/triumph-stag-sapphire_N.0.0,0,33
+Image[NE]=./images/triumph-stag-sapphire_NE.0.0,0,24

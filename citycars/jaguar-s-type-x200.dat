@@ -1,0 +1,126 @@
+# Jaguar S-Type X200, 1999-2008.
+#
+# The 1999 S-Type revived a 1960s nameplate on an all-new retro-styled saloon, the
+# first Jaguar of the Ford era, and shared nothing with the 1963 S-Type in this
+# pakset. It was launched in March 1999 and built to 2008, growing slightly in 2002
+# and again in 2006.
+# https://en.wikipedia.org/wiki/Jaguar_S-Type_(1999)
+#
+# Dimensions 4.808 x 1.819 x 1.415 m, wheelbase 2.908 m: the 2000-2001 launch
+# figures, converted from the published inches (189.3 x 71.6 x 55.7, wheelbase
+# 114.5). The later lengths, 4.854 m for 2002-05 and 4.913 m for 2006-07, are
+# recorded here but not modelled separately, since only the bumper and lamp
+# treatment changed.
+#
+# Colours: Ebony, Silver, Mistral Blue and British Racing Green, Jaguar UK
+# offerings of the launch period. The 1999-2005 shares are measured, so no era
+# adjustment is needed: black 3, silver 3, blue 2, green 2. Total 10. Provisional
+# pending the central rebase.
+#
+# Speed 210 km/h, at the Rover 800 R17's tier: the volume engines were the 3.0 V6
+# and the 4.0/4.2 V8. Comfort 110/345, on the line 180 + 1.5 x 110, equal to the
+# Rover 800 and a step below the Rover 75's 105/340 range in ride terms. Class 3.
+#
+# Dates are road presence: March 1999 intro, retires staggered 2018-2024 on a
+# nineteen- to twenty-five-year tail.
+#
+# Metres master: citycars/4.5/jaguar-s-type-x200.blend. Interchange:
+# citycars/4.5/jaguar-s-type-x200.dae (69 objects). References:
+# citycars/references/jaguar-s-type-x200/ (gitignored; Wikimedia Commons,
+# CC BY-SA 4.0: a true side elevation, front and rear of the same 2002 car).
+#
+# Accepted low-poly deviations, recorded rather than corrected: the geometry is a
+# simplified and more angular interpretation of the photographed compound curves,
+# and the 2004 facelift is a colour run on this master rather than a second shell.
+
+obj=citycar
+name=JaguarSTypeX200(Ebony)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1999
+intro_month=3
+retire_year=2020
+retire_month=6
+speed=210
+class=3
+maximum_comfortable_journey_minutes=110
+maximum_tolerable_journey_minutes=345
+
+Image[E]=./images/jaguar-s-type-x200-black_E.0.0,-33,14
+Image[SE]=./images/jaguar-s-type-x200-black_SE.0.0,-13,0
+Image[S]=./images/jaguar-s-type-x200-black_S.0.0,0,0
+Image[SW]=./images/jaguar-s-type-x200-black_SW.0.0,-8,10
+Image[W]=./images/jaguar-s-type-x200-black_W.0.0,4,5
+Image[NW]=./images/jaguar-s-type-x200-black_NW.0.0,12,10
+Image[N]=./images/jaguar-s-type-x200-black_N.0.0,0,33
+Image[NE]=./images/jaguar-s-type-x200-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=JaguarSTypeX200(Silver)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1999
+intro_month=3
+retire_year=2024
+retire_month=6
+speed=210
+class=3
+maximum_comfortable_journey_minutes=110
+maximum_tolerable_journey_minutes=345
+
+Image[E]=./images/jaguar-s-type-x200-silver_E.0.0,-33,14
+Image[SE]=./images/jaguar-s-type-x200-silver_SE.0.0,-13,0
+Image[S]=./images/jaguar-s-type-x200-silver_S.0.0,0,0
+Image[SW]=./images/jaguar-s-type-x200-silver_SW.0.0,-8,10
+Image[W]=./images/jaguar-s-type-x200-silver_W.0.0,4,5
+Image[NW]=./images/jaguar-s-type-x200-silver_NW.0.0,12,10
+Image[N]=./images/jaguar-s-type-x200-silver_N.0.0,0,33
+Image[NE]=./images/jaguar-s-type-x200-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=JaguarSTypeX200(MistralBlue)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1999
+intro_month=6
+retire_year=2019
+retire_month=6
+speed=210
+class=3
+maximum_comfortable_journey_minutes=110
+maximum_tolerable_journey_minutes=345
+
+Image[E]=./images/jaguar-s-type-x200-blue_E.0.0,-33,14
+Image[SE]=./images/jaguar-s-type-x200-blue_SE.0.0,-13,0
+Image[S]=./images/jaguar-s-type-x200-blue_S.0.0,0,0
+Image[SW]=./images/jaguar-s-type-x200-blue_SW.0.0,-8,10
+Image[W]=./images/jaguar-s-type-x200-blue_W.0.0,4,5
+Image[NW]=./images/jaguar-s-type-x200-blue_NW.0.0,12,10
+Image[N]=./images/jaguar-s-type-x200-blue_N.0.0,0,33
+Image[NE]=./images/jaguar-s-type-x200-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=JaguarSTypeX200(BritishRacingGreen)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1999
+intro_month=3
+retire_year=2018
+retire_month=6
+speed=210
+class=3
+maximum_comfortable_journey_minutes=110
+maximum_tolerable_journey_minutes=345
+
+Image[E]=./images/jaguar-s-type-x200-green_E.0.0,-33,14
+Image[SE]=./images/jaguar-s-type-x200-green_SE.0.0,-13,0
+Image[S]=./images/jaguar-s-type-x200-green_S.0.0,0,0
+Image[SW]=./images/jaguar-s-type-x200-green_SW.0.0,-8,10
+Image[W]=./images/jaguar-s-type-x200-green_W.0.0,4,5
+Image[NW]=./images/jaguar-s-type-x200-green_NW.0.0,12,10
+Image[N]=./images/jaguar-s-type-x200-green_N.0.0,0,33
+Image[NE]=./images/jaguar-s-type-x200-green_NE.0.0,0,24

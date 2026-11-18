@@ -1,0 +1,111 @@
+# Range Rover P38A, 1994-2001.
+#
+# The second-generation Range Rover: 4,714 mm long, 1,890 mm wide, 1,803 mm high,
+# 2,746 mm wheelbase; 4.0 and 4.6 V8 and a 2.5 diesel. Upright boxy estate with a
+# floating roof, horizontal shoulder line and split tailgate.
+# https://en.wikipedia.org/wiki/Range_Rover#Second_generation_(1994)
+#
+# Colours: Epsom Green, Java Black, Blenheim Silver and Oxford Blue are period
+# Range Rover finishes.
+#
+# Weight: 40 in total (green 14, black 10, silver 10, blue 6) — the Range Rover
+# family was the largest class-4 parc of the 1990s (about 60,000 licensed in
+# 1994, all generations), with the P38 a growing share.
+#
+# Speed 190 km/h; comfort 140/390 (line). Classes 2,3,4.
+# Dates: 1994-2001 with a road tail to about 2012.
+#
+# Metres master: citycars/4.5/range-rover-p38.blend. References:
+# citycars/references/range-rover-p38/ (gitignored). Images via Wikimedia Commons.
+
+obj=citycar
+name=RangeRoverP38(EpsomGreen)
+copyright=JamesPetts
+
+DistributionWeight=14
+intro_year=1994
+intro_month=9
+retire_year=2012
+retire_month=6
+speed=190
+class=2,3,4
+maximum_comfortable_journey_minutes=140
+maximum_tolerable_journey_minutes=390
+
+Image[E]=./images/range-rover-p38-green_E.0.0,-33,14
+Image[SE]=./images/range-rover-p38-green_SE.0.0,-13,0
+Image[S]=./images/range-rover-p38-green_S.0.0,0,0
+Image[SW]=./images/range-rover-p38-green_SW.0.0,-8,10
+Image[W]=./images/range-rover-p38-green_W.0.0,4,5
+Image[NW]=./images/range-rover-p38-green_NW.0.0,12,10
+Image[N]=./images/range-rover-p38-green_N.0.0,0,33
+Image[NE]=./images/range-rover-p38-green_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RangeRoverP38(JavaBlack)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=1994
+intro_month=9
+retire_year=2011
+retire_month=6
+speed=190
+class=2,3,4
+maximum_comfortable_journey_minutes=140
+maximum_tolerable_journey_minutes=390
+
+Image[E]=./images/range-rover-p38-black_E.0.0,-33,14
+Image[SE]=./images/range-rover-p38-black_SE.0.0,-13,0
+Image[S]=./images/range-rover-p38-black_S.0.0,0,0
+Image[SW]=./images/range-rover-p38-black_SW.0.0,-8,10
+Image[W]=./images/range-rover-p38-black_W.0.0,4,5
+Image[NW]=./images/range-rover-p38-black_NW.0.0,12,10
+Image[N]=./images/range-rover-p38-black_N.0.0,0,33
+Image[NE]=./images/range-rover-p38-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RangeRoverP38(BlenheimSilver)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=1995
+intro_month=3
+retire_year=2010
+retire_month=6
+speed=190
+class=2,3,4
+maximum_comfortable_journey_minutes=140
+maximum_tolerable_journey_minutes=390
+
+Image[E]=./images/range-rover-p38-silver_E.0.0,-33,14
+Image[SE]=./images/range-rover-p38-silver_SE.0.0,-13,0
+Image[S]=./images/range-rover-p38-silver_S.0.0,0,0
+Image[SW]=./images/range-rover-p38-silver_SW.0.0,-8,10
+Image[W]=./images/range-rover-p38-silver_W.0.0,4,5
+Image[NW]=./images/range-rover-p38-silver_NW.0.0,12,10
+Image[N]=./images/range-rover-p38-silver_N.0.0,0,33
+Image[NE]=./images/range-rover-p38-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RangeRoverP38(OxfordBlue)
+copyright=JamesPetts
+
+DistributionWeight=6
+intro_year=1996
+intro_month=3
+retire_year=2009
+retire_month=6
+speed=190
+class=2,3,4
+maximum_comfortable_journey_minutes=140
+maximum_tolerable_journey_minutes=390
+
+Image[E]=./images/range-rover-p38-blue_E.0.0,-33,14
+Image[SE]=./images/range-rover-p38-blue_SE.0.0,-13,0
+Image[S]=./images/range-rover-p38-blue_S.0.0,0,0
+Image[SW]=./images/range-rover-p38-blue_SW.0.0,-8,10
+Image[W]=./images/range-rover-p38-blue_W.0.0,4,5
+Image[NW]=./images/range-rover-p38-blue_NW.0.0,12,10
+Image[N]=./images/range-rover-p38-blue_N.0.0,0,33
+Image[NE]=./images/range-rover-p38-blue_NE.0.0,0,24

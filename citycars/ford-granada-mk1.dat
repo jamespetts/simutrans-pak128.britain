@@ -1,0 +1,109 @@
+# Ford Granada Mk1 four-door saloon, 1972-1977.
+#
+# Ford's European executive car of the 1970s: 4,572 mm long, 1,791 mm wide,
+# 1,364 mm high, 2,718 mm wheelbase; 2.0-3.0 V6 petrol and a 2.1 diesel. Car of
+# the Year 1973 in Britain and the mainstay of the executive and police market.
+# https://en.wikipedia.org/wiki/Ford_Granada_(Europe)
+#
+# Colours: White, Red, Blue and Green are documented Ford colours of the period.
+#
+# Weight: 160 in total (white 45, red 40, blue 40, green 35).
+#
+# Speed 180 km/h; comfort 105/340 (line). Classes 2,3.
+# Dates: 1972-1977 with a road tail to about 1989.
+#
+# Metres master: citycars/4.5/ford-granada-mk1.blend. References:
+# citycars/references/ford-granada-mk1/ (gitignored). Images via Wikimedia
+# Commons.
+
+obj=citycar
+name=FordGranadaMk1(White)
+copyright=JamesPetts
+
+DistributionWeight=45
+intro_year=1972
+intro_month=3
+retire_year=1989
+retire_month=6
+speed=180
+class=2,3
+maximum_comfortable_journey_minutes=105
+maximum_tolerable_journey_minutes=340
+
+Image[E]=./images/ford-granada-mk1-white_E.0.0,-33,14
+Image[SE]=./images/ford-granada-mk1-white_SE.0.0,-13,0
+Image[S]=./images/ford-granada-mk1-white_S.0.0,0,0
+Image[SW]=./images/ford-granada-mk1-white_SW.0.0,-8,12
+Image[W]=./images/ford-granada-mk1-white_W.0.0,4,5
+Image[NW]=./images/ford-granada-mk1-white_NW.0.0,12,10
+Image[N]=./images/ford-granada-mk1-white_N.0.0,0,33
+Image[NE]=./images/ford-granada-mk1-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FordGranadaMk1(Red)
+copyright=JamesPetts
+
+DistributionWeight=40
+intro_year=1972
+intro_month=3
+retire_year=1988
+retire_month=6
+speed=180
+class=2,3
+maximum_comfortable_journey_minutes=105
+maximum_tolerable_journey_minutes=340
+
+Image[E]=./images/ford-granada-mk1-red_E.0.0,-33,14
+Image[SE]=./images/ford-granada-mk1-red_SE.0.0,-13,0
+Image[S]=./images/ford-granada-mk1-red_S.0.0,0,0
+Image[SW]=./images/ford-granada-mk1-red_SW.0.0,-8,12
+Image[W]=./images/ford-granada-mk1-red_W.0.0,4,5
+Image[NW]=./images/ford-granada-mk1-red_NW.0.0,12,10
+Image[N]=./images/ford-granada-mk1-red_N.0.0,0,33
+Image[NE]=./images/ford-granada-mk1-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FordGranadaMk1(Blue)
+copyright=JamesPetts
+
+DistributionWeight=40
+intro_year=1973
+intro_month=3
+retire_year=1987
+retire_month=6
+speed=180
+class=2,3
+maximum_comfortable_journey_minutes=105
+maximum_tolerable_journey_minutes=340
+
+Image[E]=./images/ford-granada-mk1-blue_E.0.0,-33,14
+Image[SE]=./images/ford-granada-mk1-blue_SE.0.0,-13,0
+Image[S]=./images/ford-granada-mk1-blue_S.0.0,0,0
+Image[SW]=./images/ford-granada-mk1-blue_SW.0.0,-8,12
+Image[W]=./images/ford-granada-mk1-blue_W.0.0,4,5
+Image[NW]=./images/ford-granada-mk1-blue_NW.0.0,12,10
+Image[N]=./images/ford-granada-mk1-blue_N.0.0,0,33
+Image[NE]=./images/ford-granada-mk1-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FordGranadaMk1(Green)
+copyright=JamesPetts
+
+DistributionWeight=35
+intro_year=1974
+intro_month=3
+retire_year=1986
+retire_month=6
+speed=180
+class=2,3
+maximum_comfortable_journey_minutes=105
+maximum_tolerable_journey_minutes=340
+
+Image[E]=./images/ford-granada-mk1-green_E.0.0,-33,14
+Image[SE]=./images/ford-granada-mk1-green_SE.0.0,-13,0
+Image[S]=./images/ford-granada-mk1-green_S.0.0,0,0
+Image[SW]=./images/ford-granada-mk1-green_SW.0.0,-8,12
+Image[W]=./images/ford-granada-mk1-green_W.0.0,4,5
+Image[NW]=./images/ford-granada-mk1-green_NW.0.0,12,10
+Image[N]=./images/ford-granada-mk1-green_N.0.0,0,33
+Image[NE]=./images/ford-granada-mk1-green_NE.0.0,0,24

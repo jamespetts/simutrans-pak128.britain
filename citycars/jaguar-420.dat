@@ -1,0 +1,128 @@
+# Jaguar 420, 1966-1968.
+#
+# The 420 is the S-Type body with the Mk X's front end and the 4.2-litre engine,
+# built from 1966 to 1968 as the last of the compact Jaguar saloons. It is not a new
+# shell: the doors, cabin, roof and tail are the S-Type's, and only the front
+# differs, with four round headlamps in two pairs and the large chrome grille with
+# vertical bars and a central divider. The Daimler Sovereign of 1966-69 is the same
+# car with Daimler badging and is not modelled separately.
+# https://en.wikipedia.org/wiki/Jaguar_420
+#
+# Dimensions 4.762 x 1.702 x 1.429 m, wheelbase 2.727 m; the published 420
+# dimension box. Against the S-Type that is 12 mm longer, 19 mm wider, 13 mm taller
+# and 3 mm shorter in the wheelbase.
+#
+# Colours: British Racing Green, Carmen Red, Old English White and Opalescent
+# Silver Grey, the same Jaguar range as the S-Type. Weights follow the register's
+# treatment of low-volume prestige cars rather than a measured colour split: green
+# 2, red 1, white 1, silver 1. Total 5, below the S-Type's 8 because the 420 ran for
+# only two years. Provisional pending the central rebase.
+#
+# Speed 190 km/h, as the S-Type: the 4.2 had more torque but the same road-speed
+# ceiling in pakset terms. Comfort 90/315, on the line 180 + 1.5 x 90, inherited
+# from the shared body. Class 3.
+#
+# Dates are road presence, not production: August 1966 intro, retires staggered
+# 1980-1987 on a fourteen- to twenty-one-year tail.
+#
+# Metres master: citycars/4.5/jaguar-420.blend. Interchange:
+# citycars/4.5/jaguar-420.dae (297 objects, the count inflated by the wire wheels).
+# Variant of the Jaguar S-Type master; references:
+# citycars/references/jaguar-420/ (gitignored; Wikimedia Commons, CC BY-SA 4.0).
+#
+# Accepted low-poly deviations, recorded rather than corrected: the inherited cabin
+# and tail are substantially more angular than the photographed compound curves, as
+# on the S-Type, and the wire wheels are modelled rather than the disc-hubcap
+# alternative.
+
+obj=citycar
+name=Jaguar420(BritishRacingGreen)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1966
+intro_month=8
+retire_year=1984
+retire_month=6
+speed=190
+class=3
+maximum_comfortable_journey_minutes=90
+maximum_tolerable_journey_minutes=315
+
+Image[E]=./images/jaguar-420-green_E.0.0,-33,14
+Image[SE]=./images/jaguar-420-green_SE.0.0,-13,0
+Image[S]=./images/jaguar-420-green_S.0.0,0,0
+Image[SW]=./images/jaguar-420-green_SW.0.0,-8,10
+Image[W]=./images/jaguar-420-green_W.0.0,4,5
+Image[NW]=./images/jaguar-420-green_NW.0.0,12,10
+Image[N]=./images/jaguar-420-green_N.0.0,0,33
+Image[NE]=./images/jaguar-420-green_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Jaguar420(CarmenRed)
+copyright=JamesPetts
+
+DistributionWeight=1
+intro_year=1966
+intro_month=8
+retire_year=1980
+retire_month=6
+speed=190
+class=3
+maximum_comfortable_journey_minutes=90
+maximum_tolerable_journey_minutes=315
+
+Image[E]=./images/jaguar-420-red_E.0.0,-33,14
+Image[SE]=./images/jaguar-420-red_SE.0.0,-13,0
+Image[S]=./images/jaguar-420-red_S.0.0,0,0
+Image[SW]=./images/jaguar-420-red_SW.0.0,-8,10
+Image[W]=./images/jaguar-420-red_W.0.0,4,5
+Image[NW]=./images/jaguar-420-red_NW.0.0,12,10
+Image[N]=./images/jaguar-420-red_N.0.0,0,33
+Image[NE]=./images/jaguar-420-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Jaguar420(OldEnglishWhite)
+copyright=JamesPetts
+
+DistributionWeight=1
+intro_year=1966
+intro_month=8
+retire_year=1982
+retire_month=6
+speed=190
+class=3
+maximum_comfortable_journey_minutes=90
+maximum_tolerable_journey_minutes=315
+
+Image[E]=./images/jaguar-420-white_E.0.0,-33,14
+Image[SE]=./images/jaguar-420-white_SE.0.0,-13,0
+Image[S]=./images/jaguar-420-white_S.0.0,0,0
+Image[SW]=./images/jaguar-420-white_SW.0.0,-8,10
+Image[W]=./images/jaguar-420-white_W.0.0,4,5
+Image[NW]=./images/jaguar-420-white_NW.0.0,12,10
+Image[N]=./images/jaguar-420-white_N.0.0,0,33
+Image[NE]=./images/jaguar-420-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Jaguar420(OpalescentSilver)
+copyright=JamesPetts
+
+DistributionWeight=1
+intro_year=1967
+intro_month=3
+retire_year=1987
+retire_month=6
+speed=190
+class=3
+maximum_comfortable_journey_minutes=90
+maximum_tolerable_journey_minutes=315
+
+Image[E]=./images/jaguar-420-silver_E.0.0,-33,14
+Image[SE]=./images/jaguar-420-silver_SE.0.0,-13,0
+Image[S]=./images/jaguar-420-silver_S.0.0,0,0
+Image[SW]=./images/jaguar-420-silver_SW.0.0,-8,10
+Image[W]=./images/jaguar-420-silver_W.0.0,4,5
+Image[NW]=./images/jaguar-420-silver_NW.0.0,12,10
+Image[N]=./images/jaguar-420-silver_N.0.0,0,33
+Image[NE]=./images/jaguar-420-silver_NE.0.0,0,24

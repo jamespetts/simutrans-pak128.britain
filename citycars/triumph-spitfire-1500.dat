@@ -1,0 +1,131 @@
+# Triumph Spitfire 1500 two-door convertible, 1974-1980.
+#
+# The last and most numerous Spitfire, with the squared-off tail, the raised
+# bonnet bulge and the 1493 cc engine. Modelled with the hood raised, because the
+# pakset's car sprites read as closed vehicles: the hood-up roofline comes from a
+# Federal 1500 photograph, while the body, the squared tail and the chrome
+# bumpers come from a UK 1500 photograph. Federal rubber bumpers and side markers
+# are deliberately not modelled, nor is the accessory luggage rack.
+# https://en.wikipedia.org/wiki/Triumph_Spitfire
+#
+# Dimensions 3.785 x 1.488 x 1.162 m with the hood raised, wheelbase 2.110 m,
+# from the Spitfire specification reference.
+#
+# Only the late 1974-1980 UK 1500 is represented. **The Spitfire ran from 1962 and
+# the MkI to MkIV have different bonnets, tails and lamps**; they are not
+# modelled here.
+#
+# Colours are Triumph's own names for the 1500 years, from the supplier paint
+# chart: British Racing Green, Carmine, Tahiti and Inca. The chart gives
+# 1974-1977 for British Racing Green and 1977-1980 for Tahiti and Inca, with
+# Carmine running to 1980; those are aftermarket dates rather than a period
+# brochure, and the header records that grading. Weights brg 3, carmine 3,
+# tahiti 2, inca 2, total 10, provisional pending the central rebase.
+#
+# Speed 161 km/h, the published 100 mph figure for the 1500. Comfort 50/255, on
+# the line 180 + 1.5 x 50: a small, low, stiff two-seater, comfortable for a
+# short run and tiring on a long one. Classes 2,3.
+#
+# Dates are road presence: October 1974 intro, retires staggered 1995-1998 on a
+# fifteen- to twenty-four-year tail.
+#
+# Metres master: citycars/4.5/triumph-spitfire-1500.blend. Interchange:
+# citycars/4.5/triumph-spitfire-1500.dae (39 objects). References:
+# citycars/references/triumph-spitfire/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the bonnet, wing shoulders and tail are more angular than
+# the photographs, and the door mirrors and fuel cap are simplified. At 128 px
+# the low bonnet, the two-seat cabin, the squared tail and the colour read as the
+# Spitfire 1500.
+
+obj=citycar
+name=TriumphSpitfire1500(BritishRacingGreen)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1974
+intro_month=10
+retire_year=1998
+retire_month=6
+speed=161
+class=2,3
+maximum_comfortable_journey_minutes=50
+maximum_tolerable_journey_minutes=255
+
+Image[E]=./images/triumph-spitfire-1500-brg_E.0.0,-33,14
+Image[SE]=./images/triumph-spitfire-1500-brg_SE.0.0,-13,0
+Image[S]=./images/triumph-spitfire-1500-brg_S.0.0,0,0
+Image[SW]=./images/triumph-spitfire-1500-brg_SW.0.0,-8,10
+Image[W]=./images/triumph-spitfire-1500-brg_W.0.0,4,5
+Image[NW]=./images/triumph-spitfire-1500-brg_NW.0.0,12,10
+Image[N]=./images/triumph-spitfire-1500-brg_N.0.0,0,33
+Image[NE]=./images/triumph-spitfire-1500-brg_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=TriumphSpitfire1500(Carmine)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1974
+intro_month=10
+retire_year=1997
+retire_month=6
+speed=161
+class=2,3
+maximum_comfortable_journey_minutes=50
+maximum_tolerable_journey_minutes=255
+
+Image[E]=./images/triumph-spitfire-1500-carmine_E.0.0,-33,14
+Image[SE]=./images/triumph-spitfire-1500-carmine_SE.0.0,-13,0
+Image[S]=./images/triumph-spitfire-1500-carmine_S.0.0,0,0
+Image[SW]=./images/triumph-spitfire-1500-carmine_SW.0.0,-8,10
+Image[W]=./images/triumph-spitfire-1500-carmine_W.0.0,4,5
+Image[NW]=./images/triumph-spitfire-1500-carmine_NW.0.0,12,10
+Image[N]=./images/triumph-spitfire-1500-carmine_N.0.0,0,33
+Image[NE]=./images/triumph-spitfire-1500-carmine_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=TriumphSpitfire1500(TahitiBlue)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1977
+intro_month=3
+retire_year=1996
+retire_month=6
+speed=161
+class=2,3
+maximum_comfortable_journey_minutes=50
+maximum_tolerable_journey_minutes=255
+
+Image[E]=./images/triumph-spitfire-1500-tahiti_E.0.0,-33,14
+Image[SE]=./images/triumph-spitfire-1500-tahiti_SE.0.0,-13,0
+Image[S]=./images/triumph-spitfire-1500-tahiti_S.0.0,0,0
+Image[SW]=./images/triumph-spitfire-1500-tahiti_SW.0.0,-8,10
+Image[W]=./images/triumph-spitfire-1500-tahiti_W.0.0,4,5
+Image[NW]=./images/triumph-spitfire-1500-tahiti_NW.0.0,12,10
+Image[N]=./images/triumph-spitfire-1500-tahiti_N.0.0,0,33
+Image[NE]=./images/triumph-spitfire-1500-tahiti_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=TriumphSpitfire1500(Inca)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1977
+intro_month=3
+retire_year=1995
+retire_month=6
+speed=161
+class=2,3
+maximum_comfortable_journey_minutes=50
+maximum_tolerable_journey_minutes=255
+
+Image[E]=./images/triumph-spitfire-1500-inca_E.0.0,-33,14
+Image[SE]=./images/triumph-spitfire-1500-inca_SE.0.0,-13,0
+Image[S]=./images/triumph-spitfire-1500-inca_S.0.0,0,0
+Image[SW]=./images/triumph-spitfire-1500-inca_SW.0.0,-8,10
+Image[W]=./images/triumph-spitfire-1500-inca_W.0.0,4,5
+Image[NW]=./images/triumph-spitfire-1500-inca_NW.0.0,12,10
+Image[N]=./images/triumph-spitfire-1500-inca_N.0.0,0,33
+Image[NE]=./images/triumph-spitfire-1500-inca_NE.0.0,0,24

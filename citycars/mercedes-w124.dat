@@ -1,0 +1,109 @@
+# Mercedes-Benz 230E (W124) four-door saloon, 1985-1995.
+#
+# The W124 "mid-size Benz": 4,740 mm long, 1,740 mm wide, 1,428 mm high,
+# 2,800 mm wheelbase; 2.0-5.0 petrol and 2.5/3.0 diesel, the 230E the volume
+# model in Britain. Facelift in 1989 and 1993.
+# https://en.wikipedia.org/wiki/Mercedes-Benz_W124
+#
+# Colours: Black, Brilliant Silver, Nautical Blue and Smoke Silver are period
+# Mercedes-Benz finishes.
+#
+# Weight: 140 in total (black 45, silver 40, blue 30, grey 25).
+#
+# Speed 220 km/h; comfort 115/350 (line). Classes 2,3.
+# Dates: 1985-1995 with a road tail to about 2007.
+#
+# Metres master: citycars/4.5/mercedes-w124.blend. References:
+# citycars/references/mercedes-w124/ (gitignored). Images via Wikimedia Commons.
+
+obj=citycar
+name=Mercedes230E(Black)
+copyright=JamesPetts
+
+DistributionWeight=45
+intro_year=1985
+intro_month=1
+retire_year=2007
+retire_month=6
+speed=220
+class=2,3
+maximum_comfortable_journey_minutes=115
+maximum_tolerable_journey_minutes=350
+
+Image[E]=./images/mercedes-w124-black_E.0.0,-33,14
+Image[SE]=./images/mercedes-w124-black_SE.0.0,-13,0
+Image[S]=./images/mercedes-w124-black_S.0.0,0,0
+Image[SW]=./images/mercedes-w124-black_SW.0.0,-8,10
+Image[W]=./images/mercedes-w124-black_W.0.0,4,5
+Image[NW]=./images/mercedes-w124-black_NW.0.0,12,10
+Image[N]=./images/mercedes-w124-black_N.0.0,0,33
+Image[NE]=./images/mercedes-w124-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Mercedes230E(BrilliantSilver)
+copyright=JamesPetts
+
+DistributionWeight=40
+intro_year=1985
+intro_month=1
+retire_year=2006
+retire_month=6
+speed=220
+class=2,3
+maximum_comfortable_journey_minutes=115
+maximum_tolerable_journey_minutes=350
+
+Image[E]=./images/mercedes-w124-silver_E.0.0,-33,14
+Image[SE]=./images/mercedes-w124-silver_SE.0.0,-13,0
+Image[S]=./images/mercedes-w124-silver_S.0.0,0,0
+Image[SW]=./images/mercedes-w124-silver_SW.0.0,-8,10
+Image[W]=./images/mercedes-w124-silver_W.0.0,4,5
+Image[NW]=./images/mercedes-w124-silver_NW.0.0,12,10
+Image[N]=./images/mercedes-w124-silver_N.0.0,0,33
+Image[NE]=./images/mercedes-w124-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Mercedes230E(NauticalBlue)
+copyright=JamesPetts
+
+DistributionWeight=30
+intro_year=1986
+intro_month=3
+retire_year=2005
+retire_month=6
+speed=220
+class=2,3
+maximum_comfortable_journey_minutes=115
+maximum_tolerable_journey_minutes=350
+
+Image[E]=./images/mercedes-w124-blue_E.0.0,-33,14
+Image[SE]=./images/mercedes-w124-blue_SE.0.0,-13,0
+Image[S]=./images/mercedes-w124-blue_S.0.0,0,0
+Image[SW]=./images/mercedes-w124-blue_SW.0.0,-8,10
+Image[W]=./images/mercedes-w124-blue_W.0.0,4,5
+Image[NW]=./images/mercedes-w124-blue_NW.0.0,12,10
+Image[N]=./images/mercedes-w124-blue_N.0.0,0,33
+Image[NE]=./images/mercedes-w124-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Mercedes230E(SmokeSilver)
+copyright=JamesPetts
+
+DistributionWeight=25
+intro_year=1988
+intro_month=3
+retire_year=2004
+retire_month=6
+speed=220
+class=2,3
+maximum_comfortable_journey_minutes=115
+maximum_tolerable_journey_minutes=350
+
+Image[E]=./images/mercedes-w124-grey_E.0.0,-33,14
+Image[SE]=./images/mercedes-w124-grey_SE.0.0,-13,0
+Image[S]=./images/mercedes-w124-grey_S.0.0,0,0
+Image[SW]=./images/mercedes-w124-grey_SW.0.0,-8,10
+Image[W]=./images/mercedes-w124-grey_W.0.0,4,5
+Image[NW]=./images/mercedes-w124-grey_NW.0.0,12,10
+Image[N]=./images/mercedes-w124-grey_N.0.0,0,33
+Image[NE]=./images/mercedes-w124-grey_NE.0.0,0,24

@@ -1,0 +1,133 @@
+# BMW 3 Series E90 four-door saloon, 2005-2012.
+#
+# The fifth 3-series, the first with the flame-surfaced body and the "Bangle"
+# boot lid. The saloon is modelled; the E91 estate, E92 coupe and E93
+# convertible are different bodies.
+# https://en.wikipedia.org/wiki/BMW_3_Series_(E90)
+#
+# Dimensions 4.520 x 1.817 x 1.421 m, wheelbase 2.760 m, for the saloon, from
+# the English Wikipedia dimension box, which gives ranges across the four body
+# styles and puts the saloon at the lower end of each. Mirrors take the modelled
+# width to 2.025 m.
+#
+# Colours: from the BMW UK 3 Series Saloon price list, March 2009, printed
+# page 11, which is a primary UK source:
+#   Alpine White            300
+#   Jet Black               668
+#   Titansilber metallic    354
+#   Monacoblau metallic     A35
+# The price list establishes UK offering in March 2009, not the full
+# production-year range; introduction and withdrawal years for each colour are
+# not established. Melbourne Red and Estoril Blue were not confirmed as
+# ordinary UK saloon choices and are left out.
+# Weights silver 3, black 3, white 2, blue 2, total 10, provisional pending the
+# central rebase.
+#
+# Speed 225 km/h, around the 325i's 240 km/h and the 320i's 220 km/h; the 335i
+# and the M3 are not modelled. Comfort 125/370, on the line 180 + 1.5 x 125,
+# the same as the E39. Classes 2,3.
+#
+# Dates are road presence, not production: March 2005 intro, retires staggered
+# 2020-2023 on a fifteen- to eighteen-year tail.
+#
+# Metres master: citycars/4.5/bmw-e90.blend. Interchange:
+# citycars/4.5/bmw-e90.dae (63 objects). References:
+# citycars/references/bmw-e90/ (gitignored; Wikimedia Commons).
+#
+# Accepted low-poly deviations, recorded rather than corrected: the glasshouse
+# is more angular than the photographs and the boot and bumper surfaces are
+# flatter. The builder flagged these and did not certify Gate B. At 128 px the
+# car reads as an E90-shape saloon and the wheel arches sit tight to the tyres,
+# so no correction round was spent.
+
+obj=citycar
+name=BMW3E90(Titansilber)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=2005
+intro_month=3
+retire_year=2023
+retire_month=6
+speed=225
+class=2,3
+maximum_comfortable_journey_minutes=125
+maximum_tolerable_journey_minutes=370
+
+Image[E]=./images/bmw-e90-silver_E.0.0,-33,14
+Image[SE]=./images/bmw-e90-silver_SE.0.0,-13,0
+Image[S]=./images/bmw-e90-silver_S.0.0,0,0
+Image[SW]=./images/bmw-e90-silver_SW.0.0,-8,10
+Image[W]=./images/bmw-e90-silver_W.0.0,4,5
+Image[NW]=./images/bmw-e90-silver_NW.0.0,12,10
+Image[N]=./images/bmw-e90-silver_N.0.0,0,33
+Image[NE]=./images/bmw-e90-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMW3E90(JetBlack)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=2005
+intro_month=3
+retire_year=2022
+retire_month=6
+speed=225
+class=2,3
+maximum_comfortable_journey_minutes=125
+maximum_tolerable_journey_minutes=370
+
+Image[E]=./images/bmw-e90-black_E.0.0,-33,14
+Image[SE]=./images/bmw-e90-black_SE.0.0,-13,0
+Image[S]=./images/bmw-e90-black_S.0.0,0,0
+Image[SW]=./images/bmw-e90-black_SW.0.0,-8,10
+Image[W]=./images/bmw-e90-black_W.0.0,4,5
+Image[NW]=./images/bmw-e90-black_NW.0.0,12,10
+Image[N]=./images/bmw-e90-black_N.0.0,0,33
+Image[NE]=./images/bmw-e90-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMW3E90(Alpinweiss)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=2005
+intro_month=3
+retire_year=2021
+retire_month=6
+speed=225
+class=2,3
+maximum_comfortable_journey_minutes=125
+maximum_tolerable_journey_minutes=370
+
+Image[E]=./images/bmw-e90-white_E.0.0,-33,14
+Image[SE]=./images/bmw-e90-white_SE.0.0,-13,0
+Image[S]=./images/bmw-e90-white_S.0.0,0,0
+Image[SW]=./images/bmw-e90-white_SW.0.0,-8,10
+Image[W]=./images/bmw-e90-white_W.0.0,4,5
+Image[NW]=./images/bmw-e90-white_NW.0.0,12,10
+Image[N]=./images/bmw-e90-white_N.0.0,0,33
+Image[NE]=./images/bmw-e90-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMW3E90(Monacoblau)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=2005
+intro_month=3
+retire_year=2020
+retire_month=6
+speed=225
+class=2,3
+maximum_comfortable_journey_minutes=125
+maximum_tolerable_journey_minutes=370
+
+Image[E]=./images/bmw-e90-blue_E.0.0,-33,14
+Image[SE]=./images/bmw-e90-blue_SE.0.0,-13,0
+Image[S]=./images/bmw-e90-blue_S.0.0,0,0
+Image[SW]=./images/bmw-e90-blue_SW.0.0,-8,10
+Image[W]=./images/bmw-e90-blue_W.0.0,4,5
+Image[NW]=./images/bmw-e90-blue_NW.0.0,12,10
+Image[N]=./images/bmw-e90-blue_N.0.0,0,33
+Image[NE]=./images/bmw-e90-blue_NE.0.0,0,24

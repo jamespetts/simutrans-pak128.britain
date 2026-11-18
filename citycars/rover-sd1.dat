@@ -1,5 +1,11 @@
 # https://en.wikipedia.org/wiki/Rover_SD1
 # http://www.carfolio.com/specifications/models/car/?car=5060
+# Turmeric: the yellow offered from the June 1976 launch and dropped with the
+# Series 2 facelift of 1982. The weights in this 2017 file predate the 2026
+# colour-share method (New/ai/objects/citycar.md); Turmeric takes the lowest
+# weight in the file because yellow was the rarest of the modelled colours.
+# Source: Hagerty, "The Handbook of Sloane Ranger Cars: Rover SD1",
+# https://www.hagerty.co.uk/articles/the-handbook-of-sloane-ranger-cars-rover-sd1/
 obj=citycar
 name=RoverSD1(Blue)
 copyright=JamesPetts
@@ -165,4 +171,26 @@ Image[W]=./images/rover-sd1-red_W.0.0,4,5
 Image[NW]=./images/rover-sd1-red_NW.0.0,12,10
 Image[N]=./images/rover-sd1-red_N.0.0,0,33
 Image[NE]=./images/rover-sd1-red_NE.0.0,0,24
---
+---------------------------------
+obj=citycar
+name=RoverSD1(Turmeric)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1976
+intro_month=6
+retire_year=1982
+retire_month=7
+speed=149
+class=2,3
+maximum_comfortable_journey_minutes=95
+maximum_tolerable_journey_minutes=325
+
+Image[E]=./images/rover-sd1-yellow_E.0.0,-33,14
+Image[SE]=./images/rover-sd1-yellow_SE.0.0,-13,0
+Image[S]=./images/rover-sd1-yellow_S.0.0,0,0
+Image[SW]=./images/rover-sd1-yellow_SW.0.0,-8,10
+Image[W]=./images/rover-sd1-yellow_W.0.0,4,5
+Image[NW]=./images/rover-sd1-yellow_NW.0.0,12,10
+Image[N]=./images/rover-sd1-yellow_N.0.0,0,33
+Image[NE]=./images/rover-sd1-yellow_NE.0.0,0,24

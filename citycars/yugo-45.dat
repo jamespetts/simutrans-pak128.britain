@@ -1,0 +1,108 @@
+# Zastava Yugo 45 three-door hatchback, 1980-2008.
+#
+# The Yugoslav Fiat 127 derivative: 3,485 mm long, 1,540 mm wide, 1,390 mm high,
+# 2,150 mm wheelbase; 903-1,116 cc four, front-wheel drive. Sold in Britain from
+# 1983 as the cheapest new car on the market; later built as the Koral.
+# https://en.wikipedia.org/wiki/Zastava_Koral
+#
+# Colours: White, Red, Blue and Grey are documented Yugo colours of the period.
+#
+# Weight: 40 in total (white 14, red 10, blue 9, grey 7).
+#
+# Speed 140 km/h; comfort 45/250 (line). Classes 0,1.
+# Dates: 1980-2008 with a road tail to about 2014.
+#
+# Metres master: citycars/4.5/yugo-45.blend. References:
+# citycars/references/yugo-45/ (gitignored). Images via Wikimedia Commons.
+
+obj=citycar
+name=Yugo45(White)
+copyright=JamesPetts
+
+DistributionWeight=14
+intro_year=1980
+intro_month=10
+retire_year=2014
+retire_month=6
+speed=140
+class=0,1
+maximum_comfortable_journey_minutes=45
+maximum_tolerable_journey_minutes=250
+
+Image[E]=./images/yugo-45-white_E.0.0,-33,14
+Image[SE]=./images/yugo-45-white_SE.0.0,-13,0
+Image[S]=./images/yugo-45-white_S.0.0,0,0
+Image[SW]=./images/yugo-45-white_SW.0.0,-8,10
+Image[W]=./images/yugo-45-white_W.0.0,4,5
+Image[NW]=./images/yugo-45-white_NW.0.0,12,10
+Image[N]=./images/yugo-45-white_N.0.0,0,33
+Image[NE]=./images/yugo-45-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Yugo45(Red)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=1980
+intro_month=10
+retire_year=2013
+retire_month=6
+speed=140
+class=0,1
+maximum_comfortable_journey_minutes=45
+maximum_tolerable_journey_minutes=250
+
+Image[E]=./images/yugo-45-red_E.0.0,-33,14
+Image[SE]=./images/yugo-45-red_SE.0.0,-13,0
+Image[S]=./images/yugo-45-red_S.0.0,0,0
+Image[SW]=./images/yugo-45-red_SW.0.0,-8,10
+Image[W]=./images/yugo-45-red_W.0.0,4,5
+Image[NW]=./images/yugo-45-red_NW.0.0,12,10
+Image[N]=./images/yugo-45-red_N.0.0,0,33
+Image[NE]=./images/yugo-45-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Yugo45(Blue)
+copyright=JamesPetts
+
+DistributionWeight=9
+intro_year=1984
+intro_month=3
+retire_year=2012
+retire_month=6
+speed=140
+class=0,1
+maximum_comfortable_journey_minutes=45
+maximum_tolerable_journey_minutes=250
+
+Image[E]=./images/yugo-45-blue_E.0.0,-33,14
+Image[SE]=./images/yugo-45-blue_SE.0.0,-13,0
+Image[S]=./images/yugo-45-blue_S.0.0,0,0
+Image[SW]=./images/yugo-45-blue_SW.0.0,-8,10
+Image[W]=./images/yugo-45-blue_W.0.0,4,5
+Image[NW]=./images/yugo-45-blue_NW.0.0,12,10
+Image[N]=./images/yugo-45-blue_N.0.0,0,33
+Image[NE]=./images/yugo-45-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Yugo45(Grey)
+copyright=JamesPetts
+
+DistributionWeight=7
+intro_year=1986
+intro_month=3
+retire_year=2011
+retire_month=6
+speed=140
+class=0,1
+maximum_comfortable_journey_minutes=45
+maximum_tolerable_journey_minutes=250
+
+Image[E]=./images/yugo-45-grey_E.0.0,-33,14
+Image[SE]=./images/yugo-45-grey_SE.0.0,-13,0
+Image[S]=./images/yugo-45-grey_S.0.0,0,0
+Image[SW]=./images/yugo-45-grey_SW.0.0,-8,10
+Image[W]=./images/yugo-45-grey_W.0.0,4,5
+Image[NW]=./images/yugo-45-grey_NW.0.0,12,10
+Image[N]=./images/yugo-45-grey_N.0.0,0,33
+Image[NE]=./images/yugo-45-grey_NE.0.0,0,24

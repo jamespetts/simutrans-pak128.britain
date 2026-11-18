@@ -1,0 +1,109 @@
+# Rover P5B 3.5 Litre four-door saloon, 1967-1973.
+#
+# The P5 with the ex-Buick V8: 4,724 mm long, 1,778 mm wide, 1,460 mm high,
+# 2,794 mm wheelbase. The car of government ministers and police chief constables;
+# a four-door saloon with a cramped boot and a column change on early cars.
+# https://en.wikipedia.org/wiki/Rover_P5
+#
+# Colours: Arden Green, Sierra Beige, Mexico Brown and Black are documented Rover
+# finishes of the period.
+#
+# Weight: 100 in total (green 32, beige 26, brown 22, black 20).
+#
+# Speed 180 km/h; comfort 120/360 (line). Classes 2,3.
+# Dates: 1967-1973 with a road tail to about 1986.
+#
+# Metres master: citycars/4.5/rover-p5b.blend. References:
+# citycars/references/rover-p5b/ (gitignored). Images via Wikimedia Commons.
+
+obj=citycar
+name=RoverP5B(ArdenGreen)
+copyright=JamesPetts
+
+DistributionWeight=32
+intro_year=1967
+intro_month=9
+retire_year=1986
+retire_month=6
+speed=180
+class=2,3
+maximum_comfortable_journey_minutes=120
+maximum_tolerable_journey_minutes=360
+
+Image[E]=./images/rover-p5b-green_E.0.0,-33,14
+Image[SE]=./images/rover-p5b-green_SE.0.0,-13,0
+Image[S]=./images/rover-p5b-green_S.0.0,0,0
+Image[SW]=./images/rover-p5b-green_SW.0.0,-8,10
+Image[W]=./images/rover-p5b-green_W.0.0,4,5
+Image[NW]=./images/rover-p5b-green_NW.0.0,12,10
+Image[N]=./images/rover-p5b-green_N.0.0,0,33
+Image[NE]=./images/rover-p5b-green_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RoverP5B(SierraBeige)
+copyright=JamesPetts
+
+DistributionWeight=26
+intro_year=1967
+intro_month=9
+retire_year=1985
+retire_month=6
+speed=180
+class=2,3
+maximum_comfortable_journey_minutes=120
+maximum_tolerable_journey_minutes=360
+
+Image[E]=./images/rover-p5b-beige_E.0.0,-33,14
+Image[SE]=./images/rover-p5b-beige_SE.0.0,-13,0
+Image[S]=./images/rover-p5b-beige_S.0.0,0,0
+Image[SW]=./images/rover-p5b-beige_SW.0.0,-8,10
+Image[W]=./images/rover-p5b-beige_W.0.0,4,5
+Image[NW]=./images/rover-p5b-beige_NW.0.0,12,10
+Image[N]=./images/rover-p5b-beige_N.0.0,0,33
+Image[NE]=./images/rover-p5b-beige_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RoverP5B(MexicoBrown)
+copyright=JamesPetts
+
+DistributionWeight=22
+intro_year=1968
+intro_month=3
+retire_year=1984
+retire_month=6
+speed=180
+class=2,3
+maximum_comfortable_journey_minutes=120
+maximum_tolerable_journey_minutes=360
+
+Image[E]=./images/rover-p5b-brown_E.0.0,-33,14
+Image[SE]=./images/rover-p5b-brown_SE.0.0,-13,0
+Image[S]=./images/rover-p5b-brown_S.0.0,0,0
+Image[SW]=./images/rover-p5b-brown_SW.0.0,-8,10
+Image[W]=./images/rover-p5b-brown_W.0.0,4,5
+Image[NW]=./images/rover-p5b-brown_NW.0.0,12,10
+Image[N]=./images/rover-p5b-brown_N.0.0,0,33
+Image[NE]=./images/rover-p5b-brown_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RoverP5B(Black)
+copyright=JamesPetts
+
+DistributionWeight=20
+intro_year=1969
+intro_month=3
+retire_year=1983
+retire_month=6
+speed=180
+class=2,3
+maximum_comfortable_journey_minutes=120
+maximum_tolerable_journey_minutes=360
+
+Image[E]=./images/rover-p5b-black_E.0.0,-33,14
+Image[SE]=./images/rover-p5b-black_SE.0.0,-13,0
+Image[S]=./images/rover-p5b-black_S.0.0,0,0
+Image[SW]=./images/rover-p5b-black_SW.0.0,-8,10
+Image[W]=./images/rover-p5b-black_W.0.0,4,5
+Image[NW]=./images/rover-p5b-black_NW.0.0,12,10
+Image[N]=./images/rover-p5b-black_N.0.0,0,33
+Image[NE]=./images/rover-p5b-black_NE.0.0,0,24

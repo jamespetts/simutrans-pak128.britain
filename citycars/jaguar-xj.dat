@@ -1,0 +1,114 @@
+# Jaguar XJ (XJ40/X300/X308), 1986-2003.
+#
+# The XJ40 of October 1986, heavily revised as the X300 in 1994 and re-engined as
+# the X308 in 1997; one body family with four circular headlamps in pairs, a low
+# roofline and a sloping tail. 2.9-4.0 six, 6.0 V12, then 3.2/4.0 V8; 5,024 mm
+# long, 1,799 mm wide, 1,314 mm high, wheelbase 2,870 mm. The largest class-4
+# parc of the 1990s: 87,374 XJ40/X300/X308 licensed in 1995.
+# https://en.wikipedia.org/wiki/Jaguar_XJ_(XJ40)
+# https://en.wikipedia.org/wiki/Jaguar_XJ_(X300)
+# https://en.wikipedia.org/wiki/Jaguar_XJ_(X308)
+#
+# Colours: black, British Racing Green, sapphire blue and silver are period
+# Jaguar finishes. The modelled form follows the X300/X308.
+#
+# Weight: 60 in total (black 20, green 15, blue 15, silver 10) against the
+# 1989-2025 Very-high gap. Provisional pending the central rebase.
+#
+# Speed 180 km/h; comfort 150/405 (line).
+# Dates: 1986-2003, with a road tail to the mid-2010s.
+#
+# Metres master: citycars/4.5/jaguar-xj.blend. References:
+# citycars/references/jaguar-xj/ (gitignored). Images via Wikimedia Commons.
+
+obj=citycar
+name=JaguarXJ(Black)
+copyright=JamesPetts
+
+DistributionWeight=20
+intro_year=1986
+intro_month=10
+retire_year=2016
+retire_month=6
+speed=180
+class=4
+maximum_comfortable_journey_minutes=150
+maximum_tolerable_journey_minutes=405
+
+Image[E]=./images/jaguar-xj-black_E.0.0,-33,14
+Image[SE]=./images/jaguar-xj-black_SE.0.0,-13,0
+Image[S]=./images/jaguar-xj-black_S.0.0,0,0
+Image[SW]=./images/jaguar-xj-black_SW.0.0,-8,10
+Image[W]=./images/jaguar-xj-black_W.0.0,4,5
+Image[NW]=./images/jaguar-xj-black_NW.0.0,12,10
+Image[N]=./images/jaguar-xj-black_N.0.0,0,33
+Image[NE]=./images/jaguar-xj-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=JaguarXJ(BritishRacingGreen)
+copyright=JamesPetts
+
+DistributionWeight=15
+intro_year=1986
+intro_month=10
+retire_year=2014
+retire_month=12
+speed=180
+class=4
+maximum_comfortable_journey_minutes=150
+maximum_tolerable_journey_minutes=405
+
+Image[E]=./images/jaguar-xj-green_E.0.0,-33,14
+Image[SE]=./images/jaguar-xj-green_SE.0.0,-13,0
+Image[S]=./images/jaguar-xj-green_S.0.0,0,0
+Image[SW]=./images/jaguar-xj-green_SW.0.0,-8,10
+Image[W]=./images/jaguar-xj-green_W.0.0,4,5
+Image[NW]=./images/jaguar-xj-green_NW.0.0,12,10
+Image[N]=./images/jaguar-xj-green_N.0.0,0,33
+Image[NE]=./images/jaguar-xj-green_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=JaguarXJ(SapphireBlue)
+copyright=JamesPetts
+
+DistributionWeight=15
+intro_year=1988
+intro_month=3
+retire_year=2015
+retire_month=6
+speed=180
+class=4
+maximum_comfortable_journey_minutes=150
+maximum_tolerable_journey_minutes=405
+
+Image[E]=./images/jaguar-xj-blue_E.0.0,-33,14
+Image[SE]=./images/jaguar-xj-blue_SE.0.0,-13,0
+Image[S]=./images/jaguar-xj-blue_S.0.0,0,0
+Image[SW]=./images/jaguar-xj-blue_SW.0.0,-8,10
+Image[W]=./images/jaguar-xj-blue_W.0.0,4,5
+Image[NW]=./images/jaguar-xj-blue_NW.0.0,12,10
+Image[N]=./images/jaguar-xj-blue_N.0.0,0,33
+Image[NE]=./images/jaguar-xj-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=JaguarXJ(Silver)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=1990
+intro_month=3
+retire_year=2013
+retire_month=6
+speed=180
+class=4
+maximum_comfortable_journey_minutes=150
+maximum_tolerable_journey_minutes=405
+
+Image[E]=./images/jaguar-xj-silver_E.0.0,-33,14
+Image[SE]=./images/jaguar-xj-silver_SE.0.0,-13,0
+Image[S]=./images/jaguar-xj-silver_S.0.0,0,0
+Image[SW]=./images/jaguar-xj-silver_SW.0.0,-8,10
+Image[W]=./images/jaguar-xj-silver_W.0.0,4,5
+Image[NW]=./images/jaguar-xj-silver_NW.0.0,12,10
+Image[N]=./images/jaguar-xj-silver_N.0.0,0,33
+Image[NE]=./images/jaguar-xj-silver_NE.0.0,0,24

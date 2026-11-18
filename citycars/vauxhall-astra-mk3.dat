@@ -1,0 +1,109 @@
+# Vauxhall Astra Mk3 five-door hatchback, 1991-1998.
+#
+# The third Astra: 4,050 mm long, 1,696 mm wide, 1,410 mm high, 2,517 mm
+# wheelbase; 1.4-2.0 petrol and diesels. A top-three UK seller through the 1990s.
+# https://en.wikipedia.org/wiki/Opel_Astra#Astra_F_(1991%E2%80%931998)
+#
+# Colours: Rioja Red, Star Silver, Diamond Black and Breeze Blue are period
+# Vauxhall colours.
+#
+# Weight: 320 in total (blue 100, red 80, silver 80, black 60).
+#
+# Speed 170 km/h; comfort 105/340 (line). Classes 1,2.
+# Dates: 1991-1998 with a road tail to about 2006.
+#
+# Metres master: citycars/4.5/vauxhall-astra-mk3.blend. References:
+# citycars/references/vauxhall-astra-mk3/ (gitignored). Images via Wikimedia
+# Commons.
+
+obj=citycar
+name=VauxhallAstraMk3(BreezeBlue)
+copyright=JamesPetts
+
+DistributionWeight=100
+intro_year=1991
+intro_month=9
+retire_year=2006
+retire_month=6
+speed=170
+class=1,2
+maximum_comfortable_journey_minutes=105
+maximum_tolerable_journey_minutes=340
+
+Image[E]=./images/vauxhall-astra-mk3-blue_E.0.0,-33,14
+Image[SE]=./images/vauxhall-astra-mk3-blue_SE.0.0,-13,0
+Image[S]=./images/vauxhall-astra-mk3-blue_S.0.0,0,0
+Image[SW]=./images/vauxhall-astra-mk3-blue_SW.0.0,-8,10
+Image[W]=./images/vauxhall-astra-mk3-blue_W.0.0,4,5
+Image[NW]=./images/vauxhall-astra-mk3-blue_NW.0.0,12,10
+Image[N]=./images/vauxhall-astra-mk3-blue_N.0.0,0,33
+Image[NE]=./images/vauxhall-astra-mk3-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallAstraMk3(RiojaRed)
+copyright=JamesPetts
+
+DistributionWeight=80
+intro_year=1991
+intro_month=9
+retire_year=2004
+retire_month=12
+speed=170
+class=1,2
+maximum_comfortable_journey_minutes=105
+maximum_tolerable_journey_minutes=340
+
+Image[E]=./images/vauxhall-astra-mk3-red_E.0.0,-33,14
+Image[SE]=./images/vauxhall-astra-mk3-red_SE.0.0,-13,0
+Image[S]=./images/vauxhall-astra-mk3-red_S.0.0,0,0
+Image[SW]=./images/vauxhall-astra-mk3-red_SW.0.0,-8,10
+Image[W]=./images/vauxhall-astra-mk3-red_W.0.0,4,5
+Image[NW]=./images/vauxhall-astra-mk3-red_NW.0.0,12,10
+Image[N]=./images/vauxhall-astra-mk3-red_N.0.0,0,33
+Image[NE]=./images/vauxhall-astra-mk3-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallAstraMk3(StarSilver)
+copyright=JamesPetts
+
+DistributionWeight=80
+intro_year=1992
+intro_month=3
+retire_year=2005
+retire_month=6
+speed=170
+class=1,2
+maximum_comfortable_journey_minutes=105
+maximum_tolerable_journey_minutes=340
+
+Image[E]=./images/vauxhall-astra-mk3-silver_E.0.0,-33,14
+Image[SE]=./images/vauxhall-astra-mk3-silver_SE.0.0,-13,0
+Image[S]=./images/vauxhall-astra-mk3-silver_S.0.0,0,0
+Image[SW]=./images/vauxhall-astra-mk3-silver_SW.0.0,-8,10
+Image[W]=./images/vauxhall-astra-mk3-silver_W.0.0,4,5
+Image[NW]=./images/vauxhall-astra-mk3-silver_NW.0.0,12,10
+Image[N]=./images/vauxhall-astra-mk3-silver_N.0.0,0,33
+Image[NE]=./images/vauxhall-astra-mk3-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallAstraMk3(DiamondBlack)
+copyright=JamesPetts
+
+DistributionWeight=60
+intro_year=1993
+intro_month=3
+retire_year=2003
+retire_month=6
+speed=170
+class=1,2
+maximum_comfortable_journey_minutes=105
+maximum_tolerable_journey_minutes=340
+
+Image[E]=./images/vauxhall-astra-mk3-black_E.0.0,-33,14
+Image[SE]=./images/vauxhall-astra-mk3-black_SE.0.0,-13,0
+Image[S]=./images/vauxhall-astra-mk3-black_S.0.0,0,0
+Image[SW]=./images/vauxhall-astra-mk3-black_SW.0.0,-8,10
+Image[W]=./images/vauxhall-astra-mk3-black_W.0.0,4,5
+Image[NW]=./images/vauxhall-astra-mk3-black_NW.0.0,12,10
+Image[N]=./images/vauxhall-astra-mk3-black_N.0.0,0,33
+Image[NE]=./images/vauxhall-astra-mk3-black_NE.0.0,0,24

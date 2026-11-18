@@ -1,0 +1,108 @@
+# Kia Picanto five-door hatchback, 2004-2011.
+#
+# Kia's city car, launched in Britain in 2004: 3,495 mm long, 1,595 mm wide,
+# 1,480 mm high, 2,370 mm wheelbase; 1.0-1.1 petrol. A cheap, roomy town car and
+# one of the first Korean models to sell strongly on price in Britain.
+# https://en.wikipedia.org/wiki/Kia_Picanto
+#
+# Colours: White, Red, Blue and Silver are documented Kia colours of the period.
+#
+# Weight: 40 in total (white 14, red 10, blue 9, silver 7).
+#
+# Speed 150 km/h; comfort 75/295 (line). Classes 0,1.
+# Dates: 2004-2011 with a road tail to about 2020.
+#
+# Metres master: citycars/4.5/kia-picanto.blend. References:
+# citycars/references/kia-picanto/ (gitignored). Images via Wikimedia Commons.
+
+obj=citycar
+name=KiaPicanto(White)
+copyright=JamesPetts
+
+DistributionWeight=14
+intro_year=2004
+intro_month=6
+retire_year=2020
+retire_month=6
+speed=150
+class=0,1
+maximum_comfortable_journey_minutes=75
+maximum_tolerable_journey_minutes=295
+
+Image[E]=./images/kia-picanto-white_E.0.0,-33,14
+Image[SE]=./images/kia-picanto-white_SE.0.0,-13,0
+Image[S]=./images/kia-picanto-white_S.0.0,0,0
+Image[SW]=./images/kia-picanto-white_SW.0.0,-8,12
+Image[W]=./images/kia-picanto-white_W.0.0,4,5
+Image[NW]=./images/kia-picanto-white_NW.0.0,12,10
+Image[N]=./images/kia-picanto-white_N.0.0,0,33
+Image[NE]=./images/kia-picanto-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=KiaPicanto(Red)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=2004
+intro_month=6
+retire_year=2019
+retire_month=6
+speed=150
+class=0,1
+maximum_comfortable_journey_minutes=75
+maximum_tolerable_journey_minutes=295
+
+Image[E]=./images/kia-picanto-red_E.0.0,-33,14
+Image[SE]=./images/kia-picanto-red_SE.0.0,-13,0
+Image[S]=./images/kia-picanto-red_S.0.0,0,0
+Image[SW]=./images/kia-picanto-red_SW.0.0,-8,12
+Image[W]=./images/kia-picanto-red_W.0.0,4,5
+Image[NW]=./images/kia-picanto-red_NW.0.0,12,10
+Image[N]=./images/kia-picanto-red_N.0.0,0,33
+Image[NE]=./images/kia-picanto-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=KiaPicanto(Blue)
+copyright=JamesPetts
+
+DistributionWeight=9
+intro_year=2005
+intro_month=3
+retire_year=2018
+retire_month=6
+speed=150
+class=0,1
+maximum_comfortable_journey_minutes=75
+maximum_tolerable_journey_minutes=295
+
+Image[E]=./images/kia-picanto-blue_E.0.0,-33,14
+Image[SE]=./images/kia-picanto-blue_SE.0.0,-13,0
+Image[S]=./images/kia-picanto-blue_S.0.0,0,0
+Image[SW]=./images/kia-picanto-blue_SW.0.0,-8,12
+Image[W]=./images/kia-picanto-blue_W.0.0,4,5
+Image[NW]=./images/kia-picanto-blue_NW.0.0,12,10
+Image[N]=./images/kia-picanto-blue_N.0.0,0,33
+Image[NE]=./images/kia-picanto-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=KiaPicanto(Silver)
+copyright=JamesPetts
+
+DistributionWeight=7
+intro_year=2006
+intro_month=3
+retire_year=2017
+retire_month=6
+speed=150
+class=0,1
+maximum_comfortable_journey_minutes=75
+maximum_tolerable_journey_minutes=295
+
+Image[E]=./images/kia-picanto-silver_E.0.0,-33,14
+Image[SE]=./images/kia-picanto-silver_SE.0.0,-13,0
+Image[S]=./images/kia-picanto-silver_S.0.0,0,0
+Image[SW]=./images/kia-picanto-silver_SW.0.0,-8,12
+Image[W]=./images/kia-picanto-silver_W.0.0,4,5
+Image[NW]=./images/kia-picanto-silver_NW.0.0,12,10
+Image[N]=./images/kia-picanto-silver_N.0.0,0,33
+Image[NE]=./images/kia-picanto-silver_NE.0.0,0,24

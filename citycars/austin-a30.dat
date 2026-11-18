@@ -1,0 +1,110 @@
+# Austin A30/A35 two-door saloon, 1951-1962.
+#
+# The "New Austin Seven": 3,467 mm long, 1,422 mm wide, 1,505 mm high,
+# 2,032 mm wheelbase; 803 cc A-series four. The A35 of 1956 brought a larger rear
+# window and a painted grille. One shell covers both; the model represents the
+# A30 with the chrome grille.
+# https://en.wikipedia.org/wiki/Austin_A30
+#
+# Colours: Black, Grey, Blue and Green are documented Austin colours of the
+# period.
+#
+# Weight: 200 in total (black 70, grey 50, blue 45, green 35).
+#
+# Speed 100 km/h; comfort 40/240 (line). Classes 0,1.
+# Dates: 1951-1962 with a road tail to about 1978.
+#
+# Metres master: citycars/4.5/austin-a30.blend. References:
+# citycars/references/austin-a30/ (gitignored). Images via Wikimedia Commons.
+
+obj=citycar
+name=AustinA30(Black)
+copyright=JamesPetts
+
+DistributionWeight=70
+intro_year=1951
+intro_month=10
+retire_year=1978
+retire_month=6
+speed=100
+class=0,1
+maximum_comfortable_journey_minutes=40
+maximum_tolerable_journey_minutes=240
+
+Image[E]=./images/austin-a30-black_E.0.0,-33,14
+Image[SE]=./images/austin-a30-black_SE.0.0,-13,0
+Image[S]=./images/austin-a30-black_S.0.0,0,0
+Image[SW]=./images/austin-a30-black_SW.0.0,-8,10
+Image[W]=./images/austin-a30-black_W.0.0,4,5
+Image[NW]=./images/austin-a30-black_NW.0.0,12,10
+Image[N]=./images/austin-a30-black_N.0.0,0,33
+Image[NE]=./images/austin-a30-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=AustinA30(Grey)
+copyright=JamesPetts
+
+DistributionWeight=50
+intro_year=1951
+intro_month=10
+retire_year=1977
+retire_month=6
+speed=100
+class=0,1
+maximum_comfortable_journey_minutes=40
+maximum_tolerable_journey_minutes=240
+
+Image[E]=./images/austin-a30-grey_E.0.0,-33,14
+Image[SE]=./images/austin-a30-grey_SE.0.0,-13,0
+Image[S]=./images/austin-a30-grey_S.0.0,0,0
+Image[SW]=./images/austin-a30-grey_SW.0.0,-8,10
+Image[W]=./images/austin-a30-grey_W.0.0,4,5
+Image[NW]=./images/austin-a30-grey_NW.0.0,12,10
+Image[N]=./images/austin-a30-grey_N.0.0,0,33
+Image[NE]=./images/austin-a30-grey_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=AustinA30(Blue)
+copyright=JamesPetts
+
+DistributionWeight=45
+intro_year=1952
+intro_month=3
+retire_year=1976
+retire_month=6
+speed=100
+class=0,1
+maximum_comfortable_journey_minutes=40
+maximum_tolerable_journey_minutes=240
+
+Image[E]=./images/austin-a30-blue_E.0.0,-33,14
+Image[SE]=./images/austin-a30-blue_SE.0.0,-13,0
+Image[S]=./images/austin-a30-blue_S.0.0,0,0
+Image[SW]=./images/austin-a30-blue_SW.0.0,-8,10
+Image[W]=./images/austin-a30-blue_W.0.0,4,5
+Image[NW]=./images/austin-a30-blue_NW.0.0,12,10
+Image[N]=./images/austin-a30-blue_N.0.0,0,33
+Image[NE]=./images/austin-a30-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=AustinA30(Green)
+copyright=JamesPetts
+
+DistributionWeight=35
+intro_year=1953
+intro_month=3
+retire_year=1975
+retire_month=6
+speed=100
+class=0,1
+maximum_comfortable_journey_minutes=40
+maximum_tolerable_journey_minutes=240
+
+Image[E]=./images/austin-a30-green_E.0.0,-33,14
+Image[SE]=./images/austin-a30-green_SE.0.0,-13,0
+Image[S]=./images/austin-a30-green_S.0.0,0,0
+Image[SW]=./images/austin-a30-green_SW.0.0,-8,10
+Image[W]=./images/austin-a30-green_W.0.0,4,5
+Image[NW]=./images/austin-a30-green_NW.0.0,12,10
+Image[N]=./images/austin-a30-green_N.0.0,0,33
+Image[NE]=./images/austin-a30-green_NE.0.0,0,24

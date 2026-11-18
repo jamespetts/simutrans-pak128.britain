@@ -1,3 +1,19 @@
+# Nissan Qashqai, first generation (J10), 2006-2013.
+#
+# The five objects keep their original names and dates (rule 9, savegame
+# validity). The graphics were replaced on 2026-11-17 with a J10 model built
+# from photographs, so the shell now represents the first-generation car rather
+# than a generic crossover. The J11 and J12 are separate objects.
+#
+# Dimensions 4.315 x 1.780 x 1.605 m, wheelbase 2.630 m, from the English
+# Wikipedia J10 dimension box. Metres master: citycars/4.5/nissan-qashqai-j10.blend.
+# Interchange: citycars/4.5/nissan-qashqai-j10.dae (49 objects). References:
+# citycars/references/nissan-qashqai-j10/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the body and lamps remain visibly low-poly, and the
+# crossover's rising waist is simplified. At 128 px the tall body, the high
+# beltline and the hatch slope read correctly.
+#
 # https://en.wikipedia.org/wiki/Nissan_Qashqai
 obj=citycar
 name=NissanQashqai(Blue)
@@ -11,14 +27,14 @@ class=2
 maximum_comfortable_journey_minutes=125
 maximum_tolerable_journey_minutes=370
 
-Image[E]=./images/nissan-quashquai-blue_E.0.0,-33,14
-Image[SE]=./images/nissan-quashquai-blue_SE.0.0,-13,0
-Image[S]=./images/nissan-quashquai-blue_S.0.0,0,0
-Image[SW]=./images/nissan-quashquai-blue_SW.0.0,-8,10
-Image[W]=./images/nissan-quashquai-blue_W.0.0,4,5
-Image[NW]=./images/nissan-quashquai-blue_NW.0.0,12,10
-Image[N]=./images/nissan-quashquai-blue_N.0.0,0,33
-Image[NE]=./images/nissan-quashquai-blue_NE.0.0,0,24
+Image[E]=./images/nissan-qashqai-j10-blue_E.0.0,-33,14
+Image[SE]=./images/nissan-qashqai-j10-blue_SE.0.0,-13,0
+Image[S]=./images/nissan-qashqai-j10-blue_S.0.0,0,0
+Image[SW]=./images/nissan-qashqai-j10-blue_SW.0.0,-8,10
+Image[W]=./images/nissan-qashqai-j10-blue_W.0.0,4,5
+Image[NW]=./images/nissan-qashqai-j10-blue_NW.0.0,12,10
+Image[N]=./images/nissan-qashqai-j10-blue_N.0.0,0,33
+Image[NE]=./images/nissan-qashqai-j10-blue_NE.0.0,0,24
 ---------------------------------
 obj=citycar
 name=NissanQashqai(Black)
@@ -32,14 +48,14 @@ class=2
 maximum_comfortable_journey_minutes=125
 maximum_tolerable_journey_minutes=370
 
-Image[E]=./images/nissan-quashquai-black_E.0.0,-33,14
-Image[SE]=./images/nissan-quashquai-black_SE.0.0,-13,0
-Image[S]=./images/nissan-quashquai-black_S.0.0,0,0
-Image[SW]=./images/nissan-quashquai-black_SW.0.0,-8,10
-Image[W]=./images/nissan-quashquai-black_W.0.0,4,5
-Image[NW]=./images/nissan-quashquai-black_NW.0.0,12,10
-Image[N]=./images/nissan-quashquai-black_N.0.0,0,33
-Image[NE]=./images/nissan-quashquai-black_NE.0.0,0,24
+Image[E]=./images/nissan-qashqai-j10-black_E.0.0,-33,14
+Image[SE]=./images/nissan-qashqai-j10-black_SE.0.0,-13,0
+Image[S]=./images/nissan-qashqai-j10-black_S.0.0,0,0
+Image[SW]=./images/nissan-qashqai-j10-black_SW.0.0,-8,10
+Image[W]=./images/nissan-qashqai-j10-black_W.0.0,4,5
+Image[NW]=./images/nissan-qashqai-j10-black_NW.0.0,12,10
+Image[N]=./images/nissan-qashqai-j10-black_N.0.0,0,33
+Image[NE]=./images/nissan-qashqai-j10-black_NE.0.0,0,24
 
 ---------------------------------
 obj=citycar
@@ -54,14 +70,14 @@ class=2
 maximum_comfortable_journey_minutes=125
 maximum_tolerable_journey_minutes=370
 
-Image[E]=./images/nissan-quashquai-red_E.0.0,-33,14
-Image[SE]=./images/nissan-quashquai-red_SE.0.0,-13,0
-Image[S]=./images/nissan-quashquai-red_S.0.0,0,0
-Image[SW]=./images/nissan-quashquai-red_SW.0.0,-8,10
-Image[W]=./images/nissan-quashquai-red_W.0.0,4,5
-Image[NW]=./images/nissan-quashquai-red_NW.0.0,12,10
-Image[N]=./images/nissan-quashquai-red_N.0.0,0,33
-Image[NE]=./images/nissan-quashquai-red_NE.0.0,0,24
+Image[E]=./images/nissan-qashqai-j10-red_E.0.0,-33,14
+Image[SE]=./images/nissan-qashqai-j10-red_SE.0.0,-13,0
+Image[S]=./images/nissan-qashqai-j10-red_S.0.0,0,0
+Image[SW]=./images/nissan-qashqai-j10-red_SW.0.0,-8,10
+Image[W]=./images/nissan-qashqai-j10-red_W.0.0,4,5
+Image[NW]=./images/nissan-qashqai-j10-red_NW.0.0,12,10
+Image[N]=./images/nissan-qashqai-j10-red_N.0.0,0,33
+Image[NE]=./images/nissan-qashqai-j10-red_NE.0.0,0,24
 
 ---------------------------------
 
@@ -77,14 +93,14 @@ class=2
 maximum_comfortable_journey_minutes=125
 maximum_tolerable_journey_minutes=370
 
-Image[E]=./images/nissan-quashquai-white_E.0.0,-33,14
-Image[SE]=./images/nissan-quashquai-white_SE.0.0,-13,0
-Image[S]=./images/nissan-quashquai-white_S.0.0,0,0
-Image[SW]=./images/nissan-quashquai-white_SW.0.0,-8,10
-Image[W]=./images/nissan-quashquai-white_W.0.0,4,5
-Image[NW]=./images/nissan-quashquai-white_NW.0.0,12,10
-Image[N]=./images/nissan-quashquai-white_N.0.0,0,33
-Image[NE]=./images/nissan-quashquai-white_NE.0.0,0,24
+Image[E]=./images/nissan-qashqai-j10-white_E.0.0,-33,14
+Image[SE]=./images/nissan-qashqai-j10-white_SE.0.0,-13,0
+Image[S]=./images/nissan-qashqai-j10-white_S.0.0,0,0
+Image[SW]=./images/nissan-qashqai-j10-white_SW.0.0,-8,10
+Image[W]=./images/nissan-qashqai-j10-white_W.0.0,4,5
+Image[NW]=./images/nissan-qashqai-j10-white_NW.0.0,12,10
+Image[N]=./images/nissan-qashqai-j10-white_N.0.0,0,33
+Image[NE]=./images/nissan-qashqai-j10-white_NE.0.0,0,24
 
 
 ---------------------------------
@@ -101,12 +117,12 @@ class=2
 maximum_comfortable_journey_minutes=125
 maximum_tolerable_journey_minutes=370
 
-Image[E]=./images/nissan-quashquai-silver_E.0.0,-33,14
-Image[SE]=./images/nissan-quashquai-silver_SE.0.0,-13,0
-Image[S]=./images/nissan-quashquai-silver_S.0.0,0,0
-Image[SW]=./images/nissan-quashquai-silver_SW.0.0,-8,10
-Image[W]=./images/nissan-quashquai-silver_W.0.0,4,5
-Image[NW]=./images/nissan-quashquai-silver_NW.0.0,12,10
-Image[N]=./images/nissan-quashquai-silver_N.0.0,0,33
-Image[NE]=./images/nissan-quashquai-silver_NE.0.0,0,24
+Image[E]=./images/nissan-qashqai-j10-silver_E.0.0,-33,14
+Image[SE]=./images/nissan-qashqai-j10-silver_SE.0.0,-13,0
+Image[S]=./images/nissan-qashqai-j10-silver_S.0.0,0,0
+Image[SW]=./images/nissan-qashqai-j10-silver_SW.0.0,-8,10
+Image[W]=./images/nissan-qashqai-j10-silver_W.0.0,4,5
+Image[NW]=./images/nissan-qashqai-j10-silver_NW.0.0,12,10
+Image[N]=./images/nissan-qashqai-j10-silver_N.0.0,0,33
+Image[NE]=./images/nissan-qashqai-j10-silver_NE.0.0,0,24
 --

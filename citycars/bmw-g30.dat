@@ -1,0 +1,129 @@
+# BMW 5 Series G30 four-door saloon, 2017-2023.
+#
+# The seventh 5-series: the CLAR-platform car that replaced the F10, sold as
+# saloon and Touring, facelifted in 2020.
+# https://en.wikipedia.org/wiki/BMW_5_Series_(G30)
+#
+# Dimensions 4.936 x 1.868 x 1.466 m, wheelbase 2.975 m, G30 saloon, from the
+# English Wikipedia dimension box. Mirrors take the modelled width to 2.130 m.
+#
+# Colours: from the BMW UK 5 Series Saloon and Touring brochure, November 2020,
+# page 16 and the paintwork ordering table, a primary UK source:
+#   Alpine White            300
+#   Black Sapphire meta.    475
+#   Glacier Silver meta.    A83  (SE trim only in that brochure)
+#   Bluestone metallic      C2Y
+# The brochure establishes UK offering in November 2020, not the full 2017-2023
+# range; per-colour years are not established. Mediterranean Blue and Imperial
+# Blue are left out because their later UK availability was not established.
+# Weights black 3, blue 3, silver 2, white 2, total 10, provisional pending the
+# central rebase.
+#
+# Speed 250 km/h, the electronic limiter that applies across the range. Comfort
+# 140/390, on the line 180 + 1.5 x 140, the same as the E32 and a step above the
+# F10's 135/385. Classes 2,3.
+#
+# Dates are road presence: March 2017 intro, retires staggered 2032-2035 on a
+# fifteen- to eighteen-year tail.
+#
+# Metres master: citycars/4.5/bmw-g30.blend. Interchange:
+# citycars/4.5/bmw-g30.dae (64 objects). References:
+# citycars/references/bmw-g30/ (gitignored; Wikimedia Commons).
+#
+# Accepted low-poly deviations, recorded rather than corrected: the roof and
+# body contours are more angular than the photographs, the kidney outlines are
+# rectangular rather than rounded, and the nose curvature is simplified. The
+# builder flagged these and did not certify Gate B. At 128 px the stance, the
+# separate boot and the wraparound lamps read correctly.
+
+obj=citycar
+name=BMW5G30(BlackSapphire)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=2017
+intro_month=3
+retire_year=2035
+retire_month=6
+speed=250
+class=2,3
+maximum_comfortable_journey_minutes=140
+maximum_tolerable_journey_minutes=390
+
+Image[E]=./images/bmw-g30-black_E.0.0,-33,14
+Image[SE]=./images/bmw-g30-black_SE.0.0,-13,0
+Image[S]=./images/bmw-g30-black_S.0.0,0,0
+Image[SW]=./images/bmw-g30-black_SW.0.0,-8,10
+Image[W]=./images/bmw-g30-black_W.0.0,4,5
+Image[NW]=./images/bmw-g30-black_NW.0.0,12,10
+Image[N]=./images/bmw-g30-black_N.0.0,0,33
+Image[NE]=./images/bmw-g30-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMW5G30(Bluestone)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=2017
+intro_month=3
+retire_year=2034
+retire_month=6
+speed=250
+class=2,3
+maximum_comfortable_journey_minutes=140
+maximum_tolerable_journey_minutes=390
+
+Image[E]=./images/bmw-g30-blue_E.0.0,-33,14
+Image[SE]=./images/bmw-g30-blue_SE.0.0,-13,0
+Image[S]=./images/bmw-g30-blue_S.0.0,0,0
+Image[SW]=./images/bmw-g30-blue_SW.0.0,-8,10
+Image[W]=./images/bmw-g30-blue_W.0.0,4,5
+Image[NW]=./images/bmw-g30-blue_NW.0.0,12,10
+Image[N]=./images/bmw-g30-blue_N.0.0,0,33
+Image[NE]=./images/bmw-g30-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMW5G30(GlacierSilver)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=2017
+intro_month=3
+retire_year=2033
+retire_month=6
+speed=250
+class=2,3
+maximum_comfortable_journey_minutes=140
+maximum_tolerable_journey_minutes=390
+
+Image[E]=./images/bmw-g30-silver_E.0.0,-33,14
+Image[SE]=./images/bmw-g30-silver_SE.0.0,-13,0
+Image[S]=./images/bmw-g30-silver_S.0.0,0,0
+Image[SW]=./images/bmw-g30-silver_SW.0.0,-8,10
+Image[W]=./images/bmw-g30-silver_W.0.0,4,5
+Image[NW]=./images/bmw-g30-silver_NW.0.0,12,10
+Image[N]=./images/bmw-g30-silver_N.0.0,0,33
+Image[NE]=./images/bmw-g30-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMW5G30(Alpinweiss)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=2017
+intro_month=3
+retire_year=2032
+retire_month=6
+speed=250
+class=2,3
+maximum_comfortable_journey_minutes=140
+maximum_tolerable_journey_minutes=390
+
+Image[E]=./images/bmw-g30-white_E.0.0,-33,14
+Image[SE]=./images/bmw-g30-white_SE.0.0,-13,0
+Image[S]=./images/bmw-g30-white_S.0.0,0,0
+Image[SW]=./images/bmw-g30-white_SW.0.0,-8,10
+Image[W]=./images/bmw-g30-white_W.0.0,4,5
+Image[NW]=./images/bmw-g30-white_NW.0.0,12,10
+Image[N]=./images/bmw-g30-white_N.0.0,0,33
+Image[NE]=./images/bmw-g30-white_NE.0.0,0,24

@@ -1,0 +1,130 @@
+# BMW 5 Series E60 four-door saloon, 2003-2010.
+#
+# The fifth 5-series: the flame-surfaced car that replaced the E39, with the
+# high boot lid, the "eyebrow" headlamps and the iDrive centre console.
+# https://en.wikipedia.org/wiki/BMW_5_Series_(E60)
+#
+# Dimensions 4.843 x 1.850 x 1.470 m, wheelbase 2.890 m, from the English
+# Wikipedia dimension box. The Chinese long-wheelbase car (4.983 m, 3.030 m
+# wheelbase) is not modelled. Mirrors take the modelled width to 2.069 m.
+#
+# Colours: from the BMW UK 5 Series Saloon price list, March 2009, printed
+# page 11, a primary UK source:
+#   Alpine White            300
+#   Black Sapphire meta.    475
+#   Titansilber metallic    354
+#   Spacegrau metallic      A52
+# The price list establishes UK offering in March 2009, not the full
+# production range; per-colour introduction and withdrawal years are not
+# established. Silver Grey was not confirmed inside that list and is left out.
+# Weights silver 3, black 3, grey 2, white 2, total 10, provisional pending the
+# central rebase.
+#
+# Speed 240 km/h, around the 530i's limited 250 km/h and the 520i's 230 km/h;
+# the M5 is not modelled. Comfort 130/375, on the line 180 + 1.5 x 130, between
+# the E39's 125/370 and the F10's 135/385. Classes 2,3.
+#
+# Dates are road presence, not production: July 2003 intro, retires staggered
+# 2018-2021 on a fourteen- to seventeen-year tail.
+#
+# Metres master: citycars/4.5/bmw-e60.blend. Interchange:
+# citycars/4.5/bmw-e60.dae (55 objects). References:
+# citycars/references/bmw-e60/ (gitignored; Wikimedia Commons).
+#
+# Accepted low-poly deviations, recorded rather than corrected: the glasshouse
+# is more angular than the photographs, the rear lamps do not wrap round the
+# corners as they do on the car, and the kidney grille is slightly small. The
+# builder flagged these and did not certify Gate B. At 128 px the proportions
+# and the separate bonnet and boot read correctly.
+
+obj=citycar
+name=BMW5E60(Alpinweiss)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=2003
+intro_month=7
+retire_year=2019
+retire_month=6
+speed=240
+class=2,3
+maximum_comfortable_journey_minutes=130
+maximum_tolerable_journey_minutes=375
+
+Image[E]=./images/bmw-e60-white_E.0.0,-33,14
+Image[SE]=./images/bmw-e60-white_SE.0.0,-13,0
+Image[S]=./images/bmw-e60-white_S.0.0,0,0
+Image[SW]=./images/bmw-e60-white_SW.0.0,-8,10
+Image[W]=./images/bmw-e60-white_W.0.0,4,5
+Image[NW]=./images/bmw-e60-white_NW.0.0,12,10
+Image[N]=./images/bmw-e60-white_N.0.0,0,33
+Image[NE]=./images/bmw-e60-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMW5E60(BlackSapphire)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=2003
+intro_month=7
+retire_year=2021
+retire_month=6
+speed=240
+class=2,3
+maximum_comfortable_journey_minutes=130
+maximum_tolerable_journey_minutes=375
+
+Image[E]=./images/bmw-e60-black_E.0.0,-33,14
+Image[SE]=./images/bmw-e60-black_SE.0.0,-13,0
+Image[S]=./images/bmw-e60-black_S.0.0,0,0
+Image[SW]=./images/bmw-e60-black_SW.0.0,-8,10
+Image[W]=./images/bmw-e60-black_W.0.0,4,5
+Image[NW]=./images/bmw-e60-black_NW.0.0,12,10
+Image[N]=./images/bmw-e60-black_N.0.0,0,33
+Image[NE]=./images/bmw-e60-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMW5E60(Titansilber)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=2003
+intro_month=7
+retire_year=2020
+retire_month=6
+speed=240
+class=2,3
+maximum_comfortable_journey_minutes=130
+maximum_tolerable_journey_minutes=375
+
+Image[E]=./images/bmw-e60-silver_E.0.0,-33,14
+Image[SE]=./images/bmw-e60-silver_SE.0.0,-13,0
+Image[S]=./images/bmw-e60-silver_S.0.0,0,0
+Image[SW]=./images/bmw-e60-silver_SW.0.0,-8,10
+Image[W]=./images/bmw-e60-silver_W.0.0,4,5
+Image[NW]=./images/bmw-e60-silver_NW.0.0,12,10
+Image[N]=./images/bmw-e60-silver_N.0.0,0,33
+Image[NE]=./images/bmw-e60-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMW5E60(Spacegrau)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=2003
+intro_month=7
+retire_year=2018
+retire_month=6
+speed=240
+class=2,3
+maximum_comfortable_journey_minutes=130
+maximum_tolerable_journey_minutes=375
+
+Image[E]=./images/bmw-e60-grey_E.0.0,-33,14
+Image[SE]=./images/bmw-e60-grey_SE.0.0,-13,0
+Image[S]=./images/bmw-e60-grey_S.0.0,0,0
+Image[SW]=./images/bmw-e60-grey_SW.0.0,-8,10
+Image[W]=./images/bmw-e60-grey_W.0.0,4,5
+Image[NW]=./images/bmw-e60-grey_NW.0.0,12,10
+Image[N]=./images/bmw-e60-grey_N.0.0,0,33
+Image[NE]=./images/bmw-e60-grey_NE.0.0,0,24

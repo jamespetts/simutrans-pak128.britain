@@ -1,0 +1,123 @@
+# Datsun Sunny B310 four-door saloon, 1978-1982.
+#
+# The third-generation Sunny, the last rear-wheel-drive one, sold in Britain as
+# the Datsun Sunny 120Y and 140Y. The early round-headlamp car is modelled; the
+# later rectangular-lamp facelift is not.
+# https://en.wikipedia.org/wiki/Nissan_Sunny
+#
+# Dimensions 3.940 x 1.590 x 1.365 m, wheelbase 2.340 m, from the English
+# Wikipedia B310 dimension box. Production November 1977 to November 1981; UK
+# sales 1978-1982.
+#
+# Colours. No UK colour chart for the B310 was located, so the objects carry
+# plain colour names: white, red, blue and silver. Weights white 3, red 3, blue
+# 2, silver 2, total 10, provisional pending the central rebase.
+#
+# Speed 145 km/h for the 1.2, the volume model; the 1.4 was quicker. Comfort
+# 55/265, on the line 180 + 1.5 x 55. Classes 0,1,2.
+#
+# Dates are road presence: January 1978 intro, retires staggered 1994-1997 on a
+# sixteen- to nineteen-year tail.
+#
+# Metres master: citycars/4.5/nissan-sunny-b310.blend. Interchange:
+# citycars/4.5/nissan-sunny-b310.dae (55 objects). References:
+# citycars/references/nissan-sunny-b310/ (gitignored; Wikimedia Commons).
+#
+# Recorded limitation: the profile was calibrated from the published dimensions
+# rather than measured from a side photograph, because none exists of a B310
+# saloon on Commons. One supplied photograph was withdrawn at Gate A as a
+# Toyota of the Carina/Corolla family, not a Sunny. The axle offsets and the
+# intermediate body contours are therefore approximate. At 128 px the upright
+# three-box body, the round lamps and the horizontal tail lamps read correctly.
+
+obj=citycar
+name=DatsunSunnyB310(White)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1978
+intro_month=1
+retire_year=1997
+retire_month=6
+speed=145
+class=0,1,2
+maximum_comfortable_journey_minutes=55
+maximum_tolerable_journey_minutes=265
+
+Image[E]=./images/nissan-sunny-b310-white_E.0.0,-33,14
+Image[SE]=./images/nissan-sunny-b310-white_SE.0.0,-13,0
+Image[S]=./images/nissan-sunny-b310-white_S.0.0,0,0
+Image[SW]=./images/nissan-sunny-b310-white_SW.0.0,-8,10
+Image[W]=./images/nissan-sunny-b310-white_W.0.0,4,5
+Image[NW]=./images/nissan-sunny-b310-white_NW.0.0,12,10
+Image[N]=./images/nissan-sunny-b310-white_N.0.0,0,33
+Image[NE]=./images/nissan-sunny-b310-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=DatsunSunnyB310(Red)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1978
+intro_month=1
+retire_year=1996
+retire_month=6
+speed=145
+class=0,1,2
+maximum_comfortable_journey_minutes=55
+maximum_tolerable_journey_minutes=265
+
+Image[E]=./images/nissan-sunny-b310-red_E.0.0,-33,14
+Image[SE]=./images/nissan-sunny-b310-red_SE.0.0,-13,0
+Image[S]=./images/nissan-sunny-b310-red_S.0.0,0,0
+Image[SW]=./images/nissan-sunny-b310-red_SW.0.0,-8,10
+Image[W]=./images/nissan-sunny-b310-red_W.0.0,4,5
+Image[NW]=./images/nissan-sunny-b310-red_NW.0.0,12,10
+Image[N]=./images/nissan-sunny-b310-red_N.0.0,0,33
+Image[NE]=./images/nissan-sunny-b310-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=DatsunSunnyB310(Blue)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1978
+intro_month=1
+retire_year=1995
+retire_month=6
+speed=145
+class=0,1,2
+maximum_comfortable_journey_minutes=55
+maximum_tolerable_journey_minutes=265
+
+Image[E]=./images/nissan-sunny-b310-blue_E.0.0,-33,14
+Image[SE]=./images/nissan-sunny-b310-blue_SE.0.0,-13,0
+Image[S]=./images/nissan-sunny-b310-blue_S.0.0,0,0
+Image[SW]=./images/nissan-sunny-b310-blue_SW.0.0,-8,10
+Image[W]=./images/nissan-sunny-b310-blue_W.0.0,4,5
+Image[NW]=./images/nissan-sunny-b310-blue_NW.0.0,12,10
+Image[N]=./images/nissan-sunny-b310-blue_N.0.0,0,33
+Image[NE]=./images/nissan-sunny-b310-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=DatsunSunnyB310(Silver)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1978
+intro_month=1
+retire_year=1994
+retire_month=6
+speed=145
+class=0,1,2
+maximum_comfortable_journey_minutes=55
+maximum_tolerable_journey_minutes=265
+
+Image[E]=./images/nissan-sunny-b310-silver_E.0.0,-33,14
+Image[SE]=./images/nissan-sunny-b310-silver_SE.0.0,-13,0
+Image[S]=./images/nissan-sunny-b310-silver_S.0.0,0,0
+Image[SW]=./images/nissan-sunny-b310-silver_SW.0.0,-8,10
+Image[W]=./images/nissan-sunny-b310-silver_W.0.0,4,5
+Image[NW]=./images/nissan-sunny-b310-silver_NW.0.0,12,10
+Image[N]=./images/nissan-sunny-b310-silver_N.0.0,0,33
+Image[NE]=./images/nissan-sunny-b310-silver_NE.0.0,0,24

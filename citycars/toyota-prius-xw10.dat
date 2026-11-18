@@ -1,0 +1,129 @@
+# Toyota Prius XW10 four-door saloon, 2000-2003.
+#
+# The first mass-produced hybrid car, and a British-market model: launched at the
+# British International Motor Show on 17 October 2000 at £16,495, one grade
+# only, sold through about sixty Toyota Hybrid Technology Centres. Several
+# secondary sources wrongly state that it was not sold in Britain.
+# https://en.wikipedia.org/wiki/Toyota_Prius
+#
+# Dimensions 4.315 x 1.695 x 1.475 m, wheelbase 2.550 m, UK NHW11.
+# Source: Toyota GB second-generation Prius launch pack (2003), whose comparison
+# table gives the XW10 as 4,315 x 1,695 x 1,475 m on 2,550 mm. The 2000 UK launch
+# pack's 4,275 x 1,490 figures are the Japanese NHW10, a shorter, taller car with
+# grey bumpers; the export car is modelled. Mirrors take the modelled width to
+# 1.938 m.
+#
+# Colours. No UK colour list for the XW10 was located; Toyota GB's launch pack
+# carries none, and the only documented finishes are the silver and dark blue the
+# cars were photographed in. The objects therefore carry plain colour names
+# rather than invented marketing names: silver, blue, white and red. Weights
+# silver 3, blue 3, white 2, red 2, total 10, provisional pending the central
+# rebase.
+#
+# Speed 160 km/h, the car's quoted maximum (about 99 mph). Comfort 100/330, on
+# the line 180 + 1.5 x 100: a quiet, smooth saloon, but a small one with a
+# continuously variable transmission. Classes 2,3.
+#
+# Dates are road presence: October 2000 intro, retires staggered 2016-2019 on a
+# sixteen- to nineteen-year tail.
+#
+# Metres master: citycars/4.5/toyota-prius-xw10.blend. Interchange:
+# citycars/4.5/toyota-prius-xw10.dae (43 objects). References:
+# citycars/references/toyota-prius-xw10/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the body surfaces are angular rather than the smooth
+# compound curves of the real car, and the glazing is modelled as proud panels
+# rather than the flush surface. At 128 px the one-box body with its short,
+# steep nose and high tail reads as the first Prius.
+
+obj=citycar
+name=ToyotaPriusXW10(Silver)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=2000
+intro_month=10
+retire_year=2019
+retire_month=6
+speed=160
+class=2,3
+maximum_comfortable_journey_minutes=100
+maximum_tolerable_journey_minutes=330
+
+Image[E]=./images/toyota-prius-xw10-silver_E.0.0,-33,14
+Image[SE]=./images/toyota-prius-xw10-silver_SE.0.0,-13,0
+Image[S]=./images/toyota-prius-xw10-silver_S.0.0,0,0
+Image[SW]=./images/toyota-prius-xw10-silver_SW.0.0,-8,10
+Image[W]=./images/toyota-prius-xw10-silver_W.0.0,4,5
+Image[NW]=./images/toyota-prius-xw10-silver_NW.0.0,12,10
+Image[N]=./images/toyota-prius-xw10-silver_N.0.0,0,33
+Image[NE]=./images/toyota-prius-xw10-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=ToyotaPriusXW10(Blue)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=2000
+intro_month=10
+retire_year=2018
+retire_month=6
+speed=160
+class=2,3
+maximum_comfortable_journey_minutes=100
+maximum_tolerable_journey_minutes=330
+
+Image[E]=./images/toyota-prius-xw10-blue_E.0.0,-33,14
+Image[SE]=./images/toyota-prius-xw10-blue_SE.0.0,-13,0
+Image[S]=./images/toyota-prius-xw10-blue_S.0.0,0,0
+Image[SW]=./images/toyota-prius-xw10-blue_SW.0.0,-8,10
+Image[W]=./images/toyota-prius-xw10-blue_W.0.0,4,5
+Image[NW]=./images/toyota-prius-xw10-blue_NW.0.0,12,10
+Image[N]=./images/toyota-prius-xw10-blue_N.0.0,0,33
+Image[NE]=./images/toyota-prius-xw10-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=ToyotaPriusXW10(White)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=2000
+intro_month=10
+retire_year=2017
+retire_month=6
+speed=160
+class=2,3
+maximum_comfortable_journey_minutes=100
+maximum_tolerable_journey_minutes=330
+
+Image[E]=./images/toyota-prius-xw10-white_E.0.0,-33,14
+Image[SE]=./images/toyota-prius-xw10-white_SE.0.0,-13,0
+Image[S]=./images/toyota-prius-xw10-white_S.0.0,0,0
+Image[SW]=./images/toyota-prius-xw10-white_SW.0.0,-8,10
+Image[W]=./images/toyota-prius-xw10-white_W.0.0,4,5
+Image[NW]=./images/toyota-prius-xw10-white_NW.0.0,12,10
+Image[N]=./images/toyota-prius-xw10-white_N.0.0,0,33
+Image[NE]=./images/toyota-prius-xw10-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=ToyotaPriusXW10(Red)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=2000
+intro_month=10
+retire_year=2016
+retire_month=6
+speed=160
+class=2,3
+maximum_comfortable_journey_minutes=100
+maximum_tolerable_journey_minutes=330
+
+Image[E]=./images/toyota-prius-xw10-red_E.0.0,-33,14
+Image[SE]=./images/toyota-prius-xw10-red_SE.0.0,-13,0
+Image[S]=./images/toyota-prius-xw10-red_S.0.0,0,0
+Image[SW]=./images/toyota-prius-xw10-red_SW.0.0,-8,10
+Image[W]=./images/toyota-prius-xw10-red_W.0.0,4,5
+Image[NW]=./images/toyota-prius-xw10-red_NW.0.0,12,10
+Image[N]=./images/toyota-prius-xw10-red_N.0.0,0,33
+Image[NE]=./images/toyota-prius-xw10-red_NE.0.0,0,24

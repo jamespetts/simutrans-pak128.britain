@@ -1,0 +1,112 @@
+# Rover P4 75 four-door saloon, 1949-1959.
+#
+# The "Auntie" Rover: 4,496 mm long, 1,664 mm wide, 1,600 mm high, 2,819 mm
+# wheelbase; 2.1-litre six, three-speed gearbox with overdrive, independent front
+# suspension. The 75 was the volume P4 and a company director's car of the 1950s;
+# David Bache restyled the tail in 1955. The P4 range ran to 1964.
+# https://en.wikipedia.org/wiki/Rover_P4
+#
+# Colours: Black, Sage Green, Dove Grey and Maroon are documented Rover finishes
+# of the period.
+#
+# Weight: 60 in total (black 20, green 18, grey 12, maroon 10). Section F of the
+# gaps doc: early prestige models are representative rather than common, so weight
+# stays low.
+#
+# Speed 135 km/h; comfort 105/340 (line). Class 3.
+# Dates: 1949-1964, the tail covering later life on British roads.
+#
+# Metres master: citycars/4.5/rover-p4-75.blend. References:
+# citycars/references/rover-p4-75/ (gitignored). Images via Wikimedia Commons.
+
+obj=citycar
+name=RoverP475(Black)
+copyright=JamesPetts
+
+DistributionWeight=20
+intro_year=1949
+intro_month=9
+retire_year=1964
+retire_month=6
+speed=135
+class=3
+maximum_comfortable_journey_minutes=105
+maximum_tolerable_journey_minutes=340
+
+Image[E]=./images/rover-p4-75-black_E.0.0,-33,14
+Image[SE]=./images/rover-p4-75-black_SE.0.0,-13,0
+Image[S]=./images/rover-p4-75-black_S.0.0,0,0
+Image[SW]=./images/rover-p4-75-black_SW.0.0,-8,10
+Image[W]=./images/rover-p4-75-black_W.0.0,4,5
+Image[NW]=./images/rover-p4-75-black_NW.0.0,12,10
+Image[N]=./images/rover-p4-75-black_N.0.0,0,33
+Image[NE]=./images/rover-p4-75-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RoverP475(SageGreen)
+copyright=JamesPetts
+
+DistributionWeight=18
+intro_year=1949
+intro_month=9
+retire_year=1963
+retire_month=6
+speed=135
+class=3
+maximum_comfortable_journey_minutes=105
+maximum_tolerable_journey_minutes=340
+
+Image[E]=./images/rover-p4-75-green_E.0.0,-33,14
+Image[SE]=./images/rover-p4-75-green_SE.0.0,-13,0
+Image[S]=./images/rover-p4-75-green_S.0.0,0,0
+Image[SW]=./images/rover-p4-75-green_SW.0.0,-8,10
+Image[W]=./images/rover-p4-75-green_W.0.0,4,5
+Image[NW]=./images/rover-p4-75-green_NW.0.0,12,10
+Image[N]=./images/rover-p4-75-green_N.0.0,0,33
+Image[NE]=./images/rover-p4-75-green_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RoverP475(DoveGrey)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=1950
+intro_month=3
+retire_year=1962
+retire_month=6
+speed=135
+class=3
+maximum_comfortable_journey_minutes=105
+maximum_tolerable_journey_minutes=340
+
+Image[E]=./images/rover-p4-75-grey_E.0.0,-33,14
+Image[SE]=./images/rover-p4-75-grey_SE.0.0,-13,0
+Image[S]=./images/rover-p4-75-grey_S.0.0,0,0
+Image[SW]=./images/rover-p4-75-grey_SW.0.0,-8,10
+Image[W]=./images/rover-p4-75-grey_W.0.0,4,5
+Image[NW]=./images/rover-p4-75-grey_NW.0.0,12,10
+Image[N]=./images/rover-p4-75-grey_N.0.0,0,33
+Image[NE]=./images/rover-p4-75-grey_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RoverP475(Maroon)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=1951
+intro_month=3
+retire_year=1961
+retire_month=6
+speed=135
+class=3
+maximum_comfortable_journey_minutes=105
+maximum_tolerable_journey_minutes=340
+
+Image[E]=./images/rover-p4-75-maroon_E.0.0,-33,14
+Image[SE]=./images/rover-p4-75-maroon_SE.0.0,-13,0
+Image[S]=./images/rover-p4-75-maroon_S.0.0,0,0
+Image[SW]=./images/rover-p4-75-maroon_SW.0.0,-8,10
+Image[W]=./images/rover-p4-75-maroon_W.0.0,4,5
+Image[NW]=./images/rover-p4-75-maroon_NW.0.0,12,10
+Image[N]=./images/rover-p4-75-maroon_N.0.0,0,33
+Image[NE]=./images/rover-p4-75-maroon_NE.0.0,0,24

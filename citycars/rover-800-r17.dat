@@ -1,0 +1,127 @@
+# Rover 800 R17 (fastback), 1991-1999.
+#
+# The R17 was the November 1991 reskin of the Rover 800 XX: a new, more curvaceous
+# front with the traditional Rover grille of vertical chrome bars, a new rear, and
+# a longer, lower body on the unchanged structure, doors and wheelbase. It ran to
+# 1999 alongside the coupe.
+# https://en.wikipedia.org/wiki/Rover_800
+# https://rover800.org.uk/the-rover-800-series/
+#
+# Dimensions 4.882 x 1.730 x 1.363 m, wheelbase 2.760 m. The R17 is 188 mm longer
+# and 35 mm lower than the XX on the same wheelbase. The published English width of
+# 1,965 mm is mirror-inclusive; the German table's 1,730 mm is the body width and
+# matches the XX, so 1.730 m is used.
+#
+# Colours: Nightfire Red, Charcoal Grey, White Gold and Steel Blue, the same four as
+# the existing Rover800 objects, so that the two marks of the family sit together on
+# the road. Weights are on the same family total of 100 as those objects rather than
+# this tranche's provisional 12-22 scale: red 30, grey 26, white 24, blue 20. The
+# 1991-99 years have no measured colour split, so the split follows the XX's.
+#
+# Speed 210 km/h and comfort 110/345, both inherited from the existing Rover800
+# objects so that the family is consistent. Classes 2,3.
+#
+# Dates are road presence, not production: November 1991 intro, retires staggered
+# 2008-2012 on a seventeen- to twenty-one-year tail.
+#
+# Metres master: citycars/4.5/rover-800-r17.blend. Interchange:
+# citycars/4.5/rover-800-r17.dae (82 objects). Variant of the corrected Rover 800
+# XX master; references: citycars/references/rover-800-r17/ (gitignored; Wikimedia
+# Commons, CC BY 2.0 and CC BY-SA 2.0).
+#
+# Accepted low-poly deviations, recorded rather than corrected: the bumper curvature
+# is angular, some corner trim is occluded, and one of the three reference
+# photographs shows a saloon rather than a fastback and was used only for rear
+# detail.
+
+obj=citycar
+name=Rover800R17(NightfireRed)
+copyright=JamesPetts
+
+DistributionWeight=30
+intro_year=1991
+intro_month=11
+retire_year=2010
+retire_month=6
+speed=210
+class=2,3
+maximum_comfortable_journey_minutes=110
+maximum_tolerable_journey_minutes=345
+
+Image[E]=./images/rover-800-r17-red_E.0.0,-33,14
+Image[SE]=./images/rover-800-r17-red_SE.0.0,-13,0
+Image[S]=./images/rover-800-r17-red_S.0.0,0,0
+Image[SW]=./images/rover-800-r17-red_SW.0.0,-8,10
+Image[W]=./images/rover-800-r17-red_W.0.0,4,5
+Image[NW]=./images/rover-800-r17-red_NW.0.0,12,10
+Image[N]=./images/rover-800-r17-red_N.0.0,0,33
+Image[NE]=./images/rover-800-r17-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Rover800R17(CharcoalGrey)
+copyright=JamesPetts
+
+DistributionWeight=26
+intro_year=1991
+intro_month=11
+retire_year=2009
+retire_month=6
+speed=210
+class=2,3
+maximum_comfortable_journey_minutes=110
+maximum_tolerable_journey_minutes=345
+
+Image[E]=./images/rover-800-r17-grey_E.0.0,-33,14
+Image[SE]=./images/rover-800-r17-grey_SE.0.0,-13,0
+Image[S]=./images/rover-800-r17-grey_S.0.0,0,0
+Image[SW]=./images/rover-800-r17-grey_SW.0.0,-8,10
+Image[W]=./images/rover-800-r17-grey_W.0.0,4,5
+Image[NW]=./images/rover-800-r17-grey_NW.0.0,12,10
+Image[N]=./images/rover-800-r17-grey_N.0.0,0,33
+Image[NE]=./images/rover-800-r17-grey_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Rover800R17(WhiteGold)
+copyright=JamesPetts
+
+DistributionWeight=24
+intro_year=1991
+intro_month=11
+retire_year=2008
+retire_month=6
+speed=210
+class=2,3
+maximum_comfortable_journey_minutes=110
+maximum_tolerable_journey_minutes=345
+
+Image[E]=./images/rover-800-r17-white_E.0.0,-33,14
+Image[SE]=./images/rover-800-r17-white_SE.0.0,-13,0
+Image[S]=./images/rover-800-r17-white_S.0.0,0,0
+Image[SW]=./images/rover-800-r17-white_SW.0.0,-8,10
+Image[W]=./images/rover-800-r17-white_W.0.0,4,5
+Image[NW]=./images/rover-800-r17-white_NW.0.0,12,10
+Image[N]=./images/rover-800-r17-white_N.0.0,0,33
+Image[NE]=./images/rover-800-r17-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Rover800R17(SteelBlue)
+copyright=JamesPetts
+
+DistributionWeight=20
+intro_year=1991
+intro_month=11
+retire_year=2012
+retire_month=6
+speed=210
+class=2,3
+maximum_comfortable_journey_minutes=110
+maximum_tolerable_journey_minutes=345
+
+Image[E]=./images/rover-800-r17-blue_E.0.0,-33,14
+Image[SE]=./images/rover-800-r17-blue_SE.0.0,-13,0
+Image[S]=./images/rover-800-r17-blue_S.0.0,0,0
+Image[SW]=./images/rover-800-r17-blue_SW.0.0,-8,10
+Image[W]=./images/rover-800-r17-blue_W.0.0,4,5
+Image[NW]=./images/rover-800-r17-blue_NW.0.0,12,10
+Image[N]=./images/rover-800-r17-blue_N.0.0,0,33
+Image[NE]=./images/rover-800-r17-blue_NE.0.0,0,24

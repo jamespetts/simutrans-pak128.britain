@@ -1,0 +1,109 @@
+# Mercedes-Benz S-Class W222 (S350) four-door saloon, 2013-2020.
+#
+# The W222 S-Class: 5,116 mm long, 1,899 mm wide, 1,496 mm high, 3,035 mm
+# wheelbase (long 5,246/3,165); 3.0-6.0 petrol and 3.0 diesel, the S350d the
+# volume British model. Facelift in 2017.
+# https://en.wikipedia.org/wiki/Mercedes-Benz_S-Class_(W222)
+#
+# Colours: Obsidian Black, Iridium Silver, Selenite Grey and Diamond White are
+# period Mercedes-Benz finishes.
+#
+# Weight: 25 in total (black 10, silver 7, grey 5, white 3).
+#
+# Speed 250 km/h; comfort 175/440 (line). Class 4.
+# Dates: 2013-2020 with a road tail to about 2032.
+#
+# Metres master: citycars/4.5/mercedes-w222.blend. References:
+# citycars/references/mercedes-w222/ (gitignored). Images via Wikimedia Commons.
+
+obj=citycar
+name=MercedesSClassW222(ObsidianBlack)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=2013
+intro_month=9
+retire_year=2032
+retire_month=6
+speed=250
+class=4
+maximum_comfortable_journey_minutes=175
+maximum_tolerable_journey_minutes=440
+
+Image[E]=./images/mercedes-w222-black_E.0.0,-33,14
+Image[SE]=./images/mercedes-w222-black_SE.0.0,-13,0
+Image[S]=./images/mercedes-w222-black_S.0.0,0,0
+Image[SW]=./images/mercedes-w222-black_SW.0.0,-8,10
+Image[W]=./images/mercedes-w222-black_W.0.0,4,5
+Image[NW]=./images/mercedes-w222-black_NW.0.0,12,10
+Image[N]=./images/mercedes-w222-black_N.0.0,0,33
+Image[NE]=./images/mercedes-w222-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=MercedesSClassW222(IridiumSilver)
+copyright=JamesPetts
+
+DistributionWeight=7
+intro_year=2013
+intro_month=9
+retire_year=2031
+retire_month=6
+speed=250
+class=4
+maximum_comfortable_journey_minutes=175
+maximum_tolerable_journey_minutes=440
+
+Image[E]=./images/mercedes-w222-silver_E.0.0,-33,14
+Image[SE]=./images/mercedes-w222-silver_SE.0.0,-13,0
+Image[S]=./images/mercedes-w222-silver_S.0.0,0,0
+Image[SW]=./images/mercedes-w222-silver_SW.0.0,-8,10
+Image[W]=./images/mercedes-w222-silver_W.0.0,4,5
+Image[NW]=./images/mercedes-w222-silver_NW.0.0,12,10
+Image[N]=./images/mercedes-w222-silver_N.0.0,0,33
+Image[NE]=./images/mercedes-w222-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=MercedesSClassW222(SeleniteGrey)
+copyright=JamesPetts
+
+DistributionWeight=5
+intro_year=2014
+intro_month=3
+retire_year=2030
+retire_month=6
+speed=250
+class=4
+maximum_comfortable_journey_minutes=175
+maximum_tolerable_journey_minutes=440
+
+Image[E]=./images/mercedes-w222-grey_E.0.0,-33,14
+Image[SE]=./images/mercedes-w222-grey_SE.0.0,-13,0
+Image[S]=./images/mercedes-w222-grey_S.0.0,0,0
+Image[SW]=./images/mercedes-w222-grey_SW.0.0,-8,10
+Image[W]=./images/mercedes-w222-grey_W.0.0,4,5
+Image[NW]=./images/mercedes-w222-grey_NW.0.0,12,10
+Image[N]=./images/mercedes-w222-grey_N.0.0,0,33
+Image[NE]=./images/mercedes-w222-grey_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=MercedesSClassW222(DiamondWhite)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=2015
+intro_month=3
+retire_year=2029
+retire_month=6
+speed=250
+class=4
+maximum_comfortable_journey_minutes=175
+maximum_tolerable_journey_minutes=440
+
+Image[E]=./images/mercedes-w222-white_E.0.0,-33,14
+Image[SE]=./images/mercedes-w222-white_SE.0.0,-13,0
+Image[S]=./images/mercedes-w222-white_S.0.0,0,0
+Image[SW]=./images/mercedes-w222-white_SW.0.0,-8,10
+Image[W]=./images/mercedes-w222-white_W.0.0,4,5
+Image[NW]=./images/mercedes-w222-white_NW.0.0,12,10
+Image[N]=./images/mercedes-w222-white_N.0.0,0,33
+Image[NE]=./images/mercedes-w222-white_NE.0.0,0,24

@@ -1,0 +1,114 @@
+# Peugeot 206 five-door hatchback, 1998-2012.
+#
+# The car that put Peugeot back at the top of the European small-car market:
+# 3,838 mm long, 1,652 mm wide, 1,426 mm high, 2,442 mm wheelbase; 1.1 to 2.0
+# litre petrol and 1.4 to 2.0 diesel, with the GTi 180 at the top. Sold in
+# Britain from launch in 1998 and kept on as the 206 Plus after the 207 arrived,
+# so the model ran until 2012. About 8.4 million built worldwide, one of the
+# most numerous cars of its generation on British roads.
+# https://en.wikipedia.org/wiki/Peugeot_206
+#
+# Colours: Black, Silver, Blue and Red were the common UK finishes across the
+# run; the photographs show silver, which was the most common of all.
+#
+# Weight: 16 in total (black 5, silver 5, blue 3, red 3). The 206 volume in the
+# parc is well evidenced (about 567,000 licensed in 2005), so the total is high
+# for a four-colour model.
+#
+# Speed 170 km/h (1.6); comfort 105/340 (line). Class 2.
+# Dates: 1998-2012 with a short road tail to about 2028.
+#
+# Metres master: citycars/4.5/peugeot-206.blend. References:
+# citycars/references/peugeot-206/ (gitignored). Images via Wikimedia Commons.
+
+obj=citycar
+name=Peugeot206(Black)
+copyright=JamesPetts
+
+DistributionWeight=5
+intro_year=1998
+intro_month=9
+retire_year=2028
+retire_month=6
+speed=170
+class=2
+maximum_comfortable_journey_minutes=105
+maximum_tolerable_journey_minutes=340
+
+Image[E]=./images/peugeot-206-black_E.0.0,-33,14
+Image[SE]=./images/peugeot-206-black_SE.0.0,-13,0
+Image[S]=./images/peugeot-206-black_S.0.0,0,0
+Image[SW]=./images/peugeot-206-black_SW.0.0,-8,10
+Image[W]=./images/peugeot-206-black_W.0.0,4,5
+Image[NW]=./images/peugeot-206-black_NW.0.0,12,10
+Image[N]=./images/peugeot-206-black_N.0.0,0,33
+Image[NE]=./images/peugeot-206-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Peugeot206(Silver)
+copyright=JamesPetts
+
+DistributionWeight=5
+intro_year=1998
+intro_month=9
+retire_year=2027
+retire_month=6
+speed=170
+class=2
+maximum_comfortable_journey_minutes=105
+maximum_tolerable_journey_minutes=340
+
+Image[E]=./images/peugeot-206-silver_E.0.0,-33,14
+Image[SE]=./images/peugeot-206-silver_SE.0.0,-13,0
+Image[S]=./images/peugeot-206-silver_S.0.0,0,0
+Image[SW]=./images/peugeot-206-silver_SW.0.0,-8,10
+Image[W]=./images/peugeot-206-silver_W.0.0,4,5
+Image[NW]=./images/peugeot-206-silver_NW.0.0,12,10
+Image[N]=./images/peugeot-206-silver_N.0.0,0,33
+Image[NE]=./images/peugeot-206-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Peugeot206(Blue)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1999
+intro_month=3
+retire_year=2026
+retire_month=6
+speed=170
+class=2
+maximum_comfortable_journey_minutes=105
+maximum_tolerable_journey_minutes=340
+
+Image[E]=./images/peugeot-206-blue_E.0.0,-33,14
+Image[SE]=./images/peugeot-206-blue_SE.0.0,-13,0
+Image[S]=./images/peugeot-206-blue_S.0.0,0,0
+Image[SW]=./images/peugeot-206-blue_SW.0.0,-8,10
+Image[W]=./images/peugeot-206-blue_W.0.0,4,5
+Image[NW]=./images/peugeot-206-blue_NW.0.0,12,10
+Image[N]=./images/peugeot-206-blue_N.0.0,0,33
+Image[NE]=./images/peugeot-206-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Peugeot206(Red)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=2000
+intro_month=3
+retire_year=2025
+retire_month=6
+speed=170
+class=2
+maximum_comfortable_journey_minutes=105
+maximum_tolerable_journey_minutes=340
+
+Image[E]=./images/peugeot-206-red_E.0.0,-33,14
+Image[SE]=./images/peugeot-206-red_SE.0.0,-13,0
+Image[S]=./images/peugeot-206-red_S.0.0,0,0
+Image[SW]=./images/peugeot-206-red_SW.0.0,-8,10
+Image[W]=./images/peugeot-206-red_W.0.0,4,5
+Image[NW]=./images/peugeot-206-red_NW.0.0,12,10
+Image[N]=./images/peugeot-206-red_N.0.0,0,33
+Image[NE]=./images/peugeot-206-red_NE.0.0,0,24

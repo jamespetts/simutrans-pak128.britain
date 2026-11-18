@@ -1,0 +1,137 @@
+# BMW 3 Series E21 two-door saloon, 1975-1983.
+#
+# The first 3-series: a two-door saloon only, replacing the 02 range. Modelled
+# with the six-cylinder front, twin round headlamps each side of a paired kidney
+# grille, which the reference car at bmw-e21-4.jpg shows; the four-cylinder
+# cars of the same shell carried a single lamp each side.
+# https://en.wikipedia.org/wiki/BMW_3_Series_(E21)
+# https://www.bmwe21.net/?page_id=106
+#
+# Dimensions 4.355 x 1.610 x 1.380 m, wheelbase 2.563 m, from the English
+# Wikipedia dimension box, which repeats the BMW Group Archive figures and gives
+# the 4,355 mm length as the European one (the North American car is 4,508 mm on
+# its 5 mph bumpers). Body width is modelled at 1.571 m over the shell with the
+# bumpers carrying the full 4.355 m length; the difference is 39 mm, less than a
+# twentieth of a pixel at pak scale.
+#
+# Colours from the E21 paint register (BMWE21.net, "Paintwork & upholstery
+# colors", which reproduces the 1978/79 and 1980-on brochure pages):
+#   Polaris metallic  060, offered 1975-1984
+#   Fjord metallic    037, offered 1975-1979
+#   Schwarz           086, offered 1975-1982
+#   Hennarot          052, offered 1980-1984
+# Hennarot therefore starts in September 1980, with the model update, and the
+# other three at launch. Weights silver 3, blue 3, black 2, red 2, total 10:
+# no colour-split production statistics exist for the E21 (the register states
+# this explicitly), so the split follows the length of each colour's offer and
+# the general 1970s preference for silver and blue on imported executive cars.
+# Provisional pending the central rebase, as the recent tranche is.
+#
+# Speed 180 km/h: the 320i's published top speed, the volume six-cylinder UK
+# model; the 323i reached 190-200 km/h, and the four-cylinder cars 154-173 km/h.
+# Comfort 105/340, on the line 180 + 1.5 x 105. Classes 2,3, matching the E36.
+#
+# Dates are road presence, not production: June 1975 intro, retires staggered
+# 1994-1998 on an eighteen- to twenty-one-year tail.
+#
+# Metres master: citycars/4.5/bmw-e21.blend. Interchange:
+# citycars/4.5/bmw-e21.dae (53 objects). References:
+# citycars/references/bmw-e21/ (gitignored; Wikimedia Commons).
+#
+# Accepted low-poly deviations, recorded rather than corrected: the compound
+# curves of the bonnet and the shoulder are angular approximations, and the
+# wheel centres read slightly further apart than the reference photograph's
+# apparent wheelbase, which measures 0.63 of the length against the published
+# 0.589. The published dimensions were kept.
+
+obj=citycar
+name=BMW3E21(PolarisSilver)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1975
+intro_month=6
+retire_year=1995
+retire_month=6
+speed=180
+class=2,3
+maximum_comfortable_journey_minutes=105
+maximum_tolerable_journey_minutes=340
+
+Image[E]=./images/bmw-e21-silver_E.0.0,-33,14
+Image[SE]=./images/bmw-e21-silver_SE.0.0,-13,0
+Image[S]=./images/bmw-e21-silver_S.0.0,0,0
+Image[SW]=./images/bmw-e21-silver_SW.0.0,-8,10
+Image[W]=./images/bmw-e21-silver_W.0.0,4,5
+Image[NW]=./images/bmw-e21-silver_NW.0.0,12,10
+Image[N]=./images/bmw-e21-silver_N.0.0,0,33
+Image[NE]=./images/bmw-e21-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMW3E21(FjordBlue)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1975
+intro_month=6
+retire_year=1994
+retire_month=6
+speed=180
+class=2,3
+maximum_comfortable_journey_minutes=105
+maximum_tolerable_journey_minutes=340
+
+Image[E]=./images/bmw-e21-blue_E.0.0,-33,14
+Image[SE]=./images/bmw-e21-blue_SE.0.0,-13,0
+Image[S]=./images/bmw-e21-blue_S.0.0,0,0
+Image[SW]=./images/bmw-e21-blue_SW.0.0,-8,10
+Image[W]=./images/bmw-e21-blue_W.0.0,4,5
+Image[NW]=./images/bmw-e21-blue_NW.0.0,12,10
+Image[N]=./images/bmw-e21-blue_N.0.0,0,33
+Image[NE]=./images/bmw-e21-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMW3E21(Schwarz)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1975
+intro_month=6
+retire_year=1996
+retire_month=6
+speed=180
+class=2,3
+maximum_comfortable_journey_minutes=105
+maximum_tolerable_journey_minutes=340
+
+Image[E]=./images/bmw-e21-black_E.0.0,-33,14
+Image[SE]=./images/bmw-e21-black_SE.0.0,-13,0
+Image[S]=./images/bmw-e21-black_S.0.0,0,0
+Image[SW]=./images/bmw-e21-black_SW.0.0,-8,10
+Image[W]=./images/bmw-e21-black_W.0.0,4,5
+Image[NW]=./images/bmw-e21-black_NW.0.0,12,10
+Image[N]=./images/bmw-e21-black_N.0.0,0,33
+Image[NE]=./images/bmw-e21-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMW3E21(Hennarot)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1980
+intro_month=9
+retire_year=1998
+retire_month=6
+speed=180
+class=2,3
+maximum_comfortable_journey_minutes=105
+maximum_tolerable_journey_minutes=340
+
+Image[E]=./images/bmw-e21-red_E.0.0,-33,14
+Image[SE]=./images/bmw-e21-red_SE.0.0,-13,0
+Image[S]=./images/bmw-e21-red_S.0.0,0,0
+Image[SW]=./images/bmw-e21-red_SW.0.0,-8,10
+Image[W]=./images/bmw-e21-red_W.0.0,4,5
+Image[NW]=./images/bmw-e21-red_NW.0.0,12,10
+Image[N]=./images/bmw-e21-red_N.0.0,0,33
+Image[NE]=./images/bmw-e21-red_NE.0.0,0,24

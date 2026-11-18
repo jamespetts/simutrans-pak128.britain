@@ -1,0 +1,108 @@
+# BMW 5 Series F10 four-door saloon, 2010-2017.
+#
+# The F10 5-series: 4,899 mm long, 1,860 mm wide, 1,464 mm high, 2,968 mm
+# wheelbase; 2.0-4.4 petrol and 2.0/3.0 diesel, the 520d the volume fleet model.
+# Facelift (LCI) in 2013. https://en.wikipedia.org/wiki/BMW_5_Series_(F10)
+#
+# Colours: Black Sapphire, Glacier Silver, Imperial Blue and Alpine White are
+# documented BMW finishes of the period.
+#
+# Weight: 150 in total (black 55, silver 40, blue 30, white 25).
+#
+# Speed 250 km/h; comfort 135/385 (line). Classes 2,3.
+# Dates: 2010-2017 with a road tail to about 2028.
+#
+# Metres master: citycars/4.5/bmw-f10.blend. References:
+# citycars/references/bmw-f10/ (gitignored). Images via Wikimedia Commons.
+
+obj=citycar
+name=BMW5F10(BlackSapphire)
+copyright=JamesPetts
+
+DistributionWeight=55
+intro_year=2010
+intro_month=3
+retire_year=2028
+retire_month=6
+speed=250
+class=2,3
+maximum_comfortable_journey_minutes=135
+maximum_tolerable_journey_minutes=385
+
+Image[E]=./images/bmw-f10-black_E.0.0,-33,14
+Image[SE]=./images/bmw-f10-black_SE.0.0,-13,0
+Image[S]=./images/bmw-f10-black_S.0.0,0,0
+Image[SW]=./images/bmw-f10-black_SW.0.0,-8,10
+Image[W]=./images/bmw-f10-black_W.0.0,4,5
+Image[NW]=./images/bmw-f10-black_NW.0.0,12,10
+Image[N]=./images/bmw-f10-black_N.0.0,0,33
+Image[NE]=./images/bmw-f10-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMW5F10(GlacierSilver)
+copyright=JamesPetts
+
+DistributionWeight=40
+intro_year=2010
+intro_month=3
+retire_year=2027
+retire_month=6
+speed=250
+class=2,3
+maximum_comfortable_journey_minutes=135
+maximum_tolerable_journey_minutes=385
+
+Image[E]=./images/bmw-f10-silver_E.0.0,-33,14
+Image[SE]=./images/bmw-f10-silver_SE.0.0,-13,0
+Image[S]=./images/bmw-f10-silver_S.0.0,0,0
+Image[SW]=./images/bmw-f10-silver_SW.0.0,-8,10
+Image[W]=./images/bmw-f10-silver_W.0.0,4,5
+Image[NW]=./images/bmw-f10-silver_NW.0.0,12,10
+Image[N]=./images/bmw-f10-silver_N.0.0,0,33
+Image[NE]=./images/bmw-f10-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMW5F10(ImperialBlue)
+copyright=JamesPetts
+
+DistributionWeight=30
+intro_year=2011
+intro_month=3
+retire_year=2026
+retire_month=6
+speed=250
+class=2,3
+maximum_comfortable_journey_minutes=135
+maximum_tolerable_journey_minutes=385
+
+Image[E]=./images/bmw-f10-blue_E.0.0,-33,14
+Image[SE]=./images/bmw-f10-blue_SE.0.0,-13,0
+Image[S]=./images/bmw-f10-blue_S.0.0,0,0
+Image[SW]=./images/bmw-f10-blue_SW.0.0,-8,10
+Image[W]=./images/bmw-f10-blue_W.0.0,4,5
+Image[NW]=./images/bmw-f10-blue_NW.0.0,12,10
+Image[N]=./images/bmw-f10-blue_N.0.0,0,33
+Image[NE]=./images/bmw-f10-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMW5F10(AlpineWhite)
+copyright=JamesPetts
+
+DistributionWeight=25
+intro_year=2012
+intro_month=3
+retire_year=2025
+retire_month=6
+speed=250
+class=2,3
+maximum_comfortable_journey_minutes=135
+maximum_tolerable_journey_minutes=385
+
+Image[E]=./images/bmw-f10-white_E.0.0,-33,14
+Image[SE]=./images/bmw-f10-white_SE.0.0,-13,0
+Image[S]=./images/bmw-f10-white_S.0.0,0,0
+Image[SW]=./images/bmw-f10-white_SW.0.0,-8,10
+Image[W]=./images/bmw-f10-white_W.0.0,4,5
+Image[NW]=./images/bmw-f10-white_NW.0.0,12,10
+Image[N]=./images/bmw-f10-white_N.0.0,0,33
+Image[NE]=./images/bmw-f10-white_NE.0.0,0,24

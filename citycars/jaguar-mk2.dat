@@ -1,0 +1,109 @@
+# Jaguar Mk2 four-door saloon, 1959-1967.
+#
+# The Mk2: 4,590 mm long, 1,689 mm wide, 1,448 mm high, 2,731 mm wheelbase;
+# 2.4, 3.4 and 3.8 sixes, disc brakes all round, the 3.8 good for about 200 km/h.
+# The strongest-evidenced 1960s sporting saloon in the section F research.
+# https://en.wikipedia.org/wiki/Jaguar_Mark_2
+#
+# Colours: British Racing Green, Indigo Blue, Pearl Grey and Black are documented
+# Jaguar finishes of the period.
+#
+# Weight: 90 in total (green 30, blue 25, grey 20, black 15).
+#
+# Speed 200 km/h; comfort 115/350 (line). Classes 2,3.
+# Dates: 1959-1967 with a road tail to about 1980.
+#
+# Metres master: citycars/4.5/jaguar-mk2.blend. References:
+# citycars/references/jaguar-mk2/ (gitignored). Images via Wikimedia Commons.
+
+obj=citycar
+name=JaguarMk2(BritishRacingGreen)
+copyright=JamesPetts
+
+DistributionWeight=30
+intro_year=1959
+intro_month=10
+retire_year=1980
+retire_month=6
+speed=200
+class=2,3
+maximum_comfortable_journey_minutes=115
+maximum_tolerable_journey_minutes=350
+
+Image[E]=./images/jaguar-mk2-green_E.0.0,-33,14
+Image[SE]=./images/jaguar-mk2-green_SE.0.0,-13,0
+Image[S]=./images/jaguar-mk2-green_S.0.0,0,0
+Image[SW]=./images/jaguar-mk2-green_SW.0.0,-8,10
+Image[W]=./images/jaguar-mk2-green_W.0.0,4,5
+Image[NW]=./images/jaguar-mk2-green_NW.0.0,12,10
+Image[N]=./images/jaguar-mk2-green_N.0.0,0,33
+Image[NE]=./images/jaguar-mk2-green_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=JaguarMk2(IndigoBlue)
+copyright=JamesPetts
+
+DistributionWeight=25
+intro_year=1959
+intro_month=10
+retire_year=1979
+retire_month=6
+speed=200
+class=2,3
+maximum_comfortable_journey_minutes=115
+maximum_tolerable_journey_minutes=350
+
+Image[E]=./images/jaguar-mk2-blue_E.0.0,-33,14
+Image[SE]=./images/jaguar-mk2-blue_SE.0.0,-13,0
+Image[S]=./images/jaguar-mk2-blue_S.0.0,0,0
+Image[SW]=./images/jaguar-mk2-blue_SW.0.0,-8,10
+Image[W]=./images/jaguar-mk2-blue_W.0.0,4,5
+Image[NW]=./images/jaguar-mk2-blue_NW.0.0,12,10
+Image[N]=./images/jaguar-mk2-blue_N.0.0,0,33
+Image[NE]=./images/jaguar-mk2-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=JaguarMk2(PearlGrey)
+copyright=JamesPetts
+
+DistributionWeight=20
+intro_year=1960
+intro_month=3
+retire_year=1978
+retire_month=6
+speed=200
+class=2,3
+maximum_comfortable_journey_minutes=115
+maximum_tolerable_journey_minutes=350
+
+Image[E]=./images/jaguar-mk2-grey_E.0.0,-33,14
+Image[SE]=./images/jaguar-mk2-grey_SE.0.0,-13,0
+Image[S]=./images/jaguar-mk2-grey_S.0.0,0,0
+Image[SW]=./images/jaguar-mk2-grey_SW.0.0,-8,10
+Image[W]=./images/jaguar-mk2-grey_W.0.0,4,5
+Image[NW]=./images/jaguar-mk2-grey_NW.0.0,12,10
+Image[N]=./images/jaguar-mk2-grey_N.0.0,0,33
+Image[NE]=./images/jaguar-mk2-grey_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=JaguarMk2(Black)
+copyright=JamesPetts
+
+DistributionWeight=15
+intro_year=1961
+intro_month=3
+retire_year=1977
+retire_month=6
+speed=200
+class=2,3
+maximum_comfortable_journey_minutes=115
+maximum_tolerable_journey_minutes=350
+
+Image[E]=./images/jaguar-mk2-black_E.0.0,-33,14
+Image[SE]=./images/jaguar-mk2-black_SE.0.0,-13,0
+Image[S]=./images/jaguar-mk2-black_S.0.0,0,0
+Image[SW]=./images/jaguar-mk2-black_SW.0.0,-8,10
+Image[W]=./images/jaguar-mk2-black_W.0.0,4,5
+Image[NW]=./images/jaguar-mk2-black_NW.0.0,12,10
+Image[N]=./images/jaguar-mk2-black_N.0.0,0,33
+Image[NE]=./images/jaguar-mk2-black_NE.0.0,0,24

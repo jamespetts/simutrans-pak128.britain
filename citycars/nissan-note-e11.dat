@@ -1,0 +1,124 @@
+# Nissan Note E11 five-door hatchback, 2006-2012.
+#
+# The first Note: a tall mini-MPV hatchback with a high roofline and a short blunt
+# nose, sold in Britain from 2006. The European-market pre-facelift car is
+# modelled.
+# https://en.wikipedia.org/wiki/Nissan_Note
+#
+# Dimensions 4.080 x 1.690 x 1.550 m, wheelbase 2.600 m, from the English
+# Wikipedia E11 dimension box.
+#
+# Colours. No UK colour chart for the E11 was located, so the objects carry plain
+# colour names: white, silver, blue and red. Weights white 3, silver 3, blue 2,
+# red 2, total 10, provisional pending the central rebase.
+#
+# Speed 165 km/h for the 1.4, the volume UK engine. Comfort 85/310, on the line
+# 180 + 1.5 x 85, the same as the Juke F15: roomy for its size but short-legged.
+# Classes 1,2.
+#
+# Dates are road presence: May 2006 intro, retires staggered 2021-2024 on a
+# fifteen- to eighteen-year tail.
+#
+# Metres master: citycars/4.5/nissan-note-e11.blend. Interchange:
+# citycars/4.5/nissan-note-e11.dae (45 objects). References:
+# citycars/references/nissan-note-e11/ (gitignored; Wikimedia Commons; the pack
+# mixes Japanese and European cars, and the European pre-facelift nose is the one
+# modelled).
+#
+# Recorded limitation: no strict side profile exists, so the proportions are
+# dimension-calibrated and the contours taken from oblique photographs.
+# Accepted deviations: the body and rear corners are more angular than the
+# photographs. At 128 px the tall cabin, the upright hatch and the high corner
+# lamps read as the Note.
+
+obj=citycar
+name=NissanNoteE11(White)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=2006
+intro_month=5
+retire_year=2024
+retire_month=6
+speed=165
+class=1,2
+maximum_comfortable_journey_minutes=85
+maximum_tolerable_journey_minutes=310
+
+Image[E]=./images/nissan-note-e11-white_E.0.0,-33,14
+Image[SE]=./images/nissan-note-e11-white_SE.0.0,-13,0
+Image[S]=./images/nissan-note-e11-white_S.0.0,0,0
+Image[SW]=./images/nissan-note-e11-white_SW.0.0,-8,10
+Image[W]=./images/nissan-note-e11-white_W.0.0,4,5
+Image[NW]=./images/nissan-note-e11-white_NW.0.0,12,10
+Image[N]=./images/nissan-note-e11-white_N.0.0,0,33
+Image[NE]=./images/nissan-note-e11-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=NissanNoteE11(Silver)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=2006
+intro_month=5
+retire_year=2023
+retire_month=6
+speed=165
+class=1,2
+maximum_comfortable_journey_minutes=85
+maximum_tolerable_journey_minutes=310
+
+Image[E]=./images/nissan-note-e11-silver_E.0.0,-33,14
+Image[SE]=./images/nissan-note-e11-silver_SE.0.0,-13,0
+Image[S]=./images/nissan-note-e11-silver_S.0.0,0,0
+Image[SW]=./images/nissan-note-e11-silver_SW.0.0,-8,10
+Image[W]=./images/nissan-note-e11-silver_W.0.0,4,5
+Image[NW]=./images/nissan-note-e11-silver_NW.0.0,12,10
+Image[N]=./images/nissan-note-e11-silver_N.0.0,0,33
+Image[NE]=./images/nissan-note-e11-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=NissanNoteE11(Blue)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=2006
+intro_month=5
+retire_year=2022
+retire_month=6
+speed=165
+class=1,2
+maximum_comfortable_journey_minutes=85
+maximum_tolerable_journey_minutes=310
+
+Image[E]=./images/nissan-note-e11-blue_E.0.0,-33,14
+Image[SE]=./images/nissan-note-e11-blue_SE.0.0,-13,0
+Image[S]=./images/nissan-note-e11-blue_S.0.0,0,0
+Image[SW]=./images/nissan-note-e11-blue_SW.0.0,-8,10
+Image[W]=./images/nissan-note-e11-blue_W.0.0,4,5
+Image[NW]=./images/nissan-note-e11-blue_NW.0.0,12,10
+Image[N]=./images/nissan-note-e11-blue_N.0.0,0,33
+Image[NE]=./images/nissan-note-e11-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=NissanNoteE11(Red)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=2006
+intro_month=5
+retire_year=2021
+retire_month=6
+speed=165
+class=1,2
+maximum_comfortable_journey_minutes=85
+maximum_tolerable_journey_minutes=310
+
+Image[E]=./images/nissan-note-e11-red_E.0.0,-33,14
+Image[SE]=./images/nissan-note-e11-red_SE.0.0,-13,0
+Image[S]=./images/nissan-note-e11-red_S.0.0,0,0
+Image[SW]=./images/nissan-note-e11-red_SW.0.0,-8,10
+Image[W]=./images/nissan-note-e11-red_W.0.0,4,5
+Image[NW]=./images/nissan-note-e11-red_NW.0.0,12,10
+Image[N]=./images/nissan-note-e11-red_N.0.0,0,33
+Image[NE]=./images/nissan-note-e11-red_NE.0.0,0,24

@@ -1,0 +1,109 @@
+# Ford Sierra Mk2 five-door hatchback, 1987-1993.
+#
+# The 1987 facelift: smoother nose, body-colour grille surround, revised lamps and
+# a redesigned dashboard. 4,407 mm long, 1,694 mm wide, 1,407 mm high,
+# 2,603 mm wheelbase. 1.6-2.9 petrol and 1.8/2.3 diesel; XR4x4 and Sapphire.
+# https://en.wikipedia.org/wiki/Ford_Sierra
+#
+# Colours: Diamond White, Rosso Red, Strato Silver and Graphite Grey are documented
+# Ford colours of the period.
+#
+# Weight: 350 in total (white 100, red 100, silver 80, grey 70).
+#
+# Speed 195 km/h; comfort 125/370 (line). Classes 1,2.
+# Dates: 1987-1993 with a road tail to about 2001.
+#
+# Metres master: citycars/4.5/ford-sierra-mk2.blend. References:
+# citycars/references/ford-sierra-mk2/ (gitignored). Images via Wikimedia Commons.
+
+obj=citycar
+name=FordSierraMk2(DiamondWhite)
+copyright=JamesPetts
+
+DistributionWeight=100
+intro_year=1987
+intro_month=2
+retire_year=2001
+retire_month=6
+speed=195
+class=1,2
+maximum_comfortable_journey_minutes=125
+maximum_tolerable_journey_minutes=370
+
+Image[E]=./images/ford-sierra-mk2-white_E.0.0,-33,14
+Image[SE]=./images/ford-sierra-mk2-white_SE.0.0,-13,0
+Image[S]=./images/ford-sierra-mk2-white_S.0.0,0,0
+Image[SW]=./images/ford-sierra-mk2-white_SW.0.0,-8,10
+Image[W]=./images/ford-sierra-mk2-white_W.0.0,4,5
+Image[NW]=./images/ford-sierra-mk2-white_NW.0.0,12,10
+Image[N]=./images/ford-sierra-mk2-white_N.0.0,0,33
+Image[NE]=./images/ford-sierra-mk2-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FordSierraMk2(RossoRed)
+copyright=JamesPetts
+
+DistributionWeight=100
+intro_year=1987
+intro_month=2
+retire_year=2000
+retire_month=6
+speed=195
+class=1,2
+maximum_comfortable_journey_minutes=125
+maximum_tolerable_journey_minutes=370
+
+Image[E]=./images/ford-sierra-mk2-red_E.0.0,-33,14
+Image[SE]=./images/ford-sierra-mk2-red_SE.0.0,-13,0
+Image[S]=./images/ford-sierra-mk2-red_S.0.0,0,0
+Image[SW]=./images/ford-sierra-mk2-red_SW.0.0,-8,10
+Image[W]=./images/ford-sierra-mk2-red_W.0.0,4,5
+Image[NW]=./images/ford-sierra-mk2-red_NW.0.0,12,10
+Image[N]=./images/ford-sierra-mk2-red_N.0.0,0,33
+Image[NE]=./images/ford-sierra-mk2-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FordSierraMk2(StratoSilver)
+copyright=JamesPetts
+
+DistributionWeight=80
+intro_year=1988
+intro_month=3
+retire_year=1999
+retire_month=6
+speed=195
+class=1,2
+maximum_comfortable_journey_minutes=125
+maximum_tolerable_journey_minutes=370
+
+Image[E]=./images/ford-sierra-mk2-silver_E.0.0,-33,14
+Image[SE]=./images/ford-sierra-mk2-silver_SE.0.0,-13,0
+Image[S]=./images/ford-sierra-mk2-silver_S.0.0,0,0
+Image[SW]=./images/ford-sierra-mk2-silver_SW.0.0,-8,10
+Image[W]=./images/ford-sierra-mk2-silver_W.0.0,4,5
+Image[NW]=./images/ford-sierra-mk2-silver_NW.0.0,12,10
+Image[N]=./images/ford-sierra-mk2-silver_N.0.0,0,33
+Image[NE]=./images/ford-sierra-mk2-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FordSierraMk2(GraphiteGrey)
+copyright=JamesPetts
+
+DistributionWeight=70
+intro_year=1989
+intro_month=3
+retire_year=1998
+retire_month=6
+speed=195
+class=1,2
+maximum_comfortable_journey_minutes=125
+maximum_tolerable_journey_minutes=370
+
+Image[E]=./images/ford-sierra-mk2-grey_E.0.0,-33,14
+Image[SE]=./images/ford-sierra-mk2-grey_SE.0.0,-13,0
+Image[S]=./images/ford-sierra-mk2-grey_S.0.0,0,0
+Image[SW]=./images/ford-sierra-mk2-grey_SW.0.0,-8,10
+Image[W]=./images/ford-sierra-mk2-grey_W.0.0,4,5
+Image[NW]=./images/ford-sierra-mk2-grey_NW.0.0,12,10
+Image[N]=./images/ford-sierra-mk2-grey_N.0.0,0,33
+Image[NE]=./images/ford-sierra-mk2-grey_NE.0.0,0,24

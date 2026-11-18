@@ -1,0 +1,110 @@
+# Rover 12 P2 four-door saloon, 1934-1948.
+#
+# The Rover Twelve of the P2 generation: 4,115 mm long, 1,575 mm wide, 1,651 mm
+# high, 2,616 mm wheelbase; 1,496 cc four. The P2 range ran to 1948 and was the
+# mainstay of Rover's middle-class market before and after the war.
+# https://en.wikipedia.org/wiki/Rover_P2
+#
+# Colours: Black, Green, Maroon and Grey are documented Rover finishes of the
+# period.
+#
+# Weight: 30 in total (black 10, green 8, maroon 7, grey 5). Section F: early
+# class-3 models are representative, not common.
+#
+# Speed 110 km/h; comfort 60/270 (line). Class 3.
+# Dates: 1934-1948 with a road tail to about 1965.
+#
+# Metres master: citycars/4.5/rover-12-p2.blend. References:
+# citycars/references/rover-12-p2/ (gitignored). Images via Wikimedia Commons.
+
+obj=citycar
+name=Rover12P2(Black)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=1934
+intro_month=10
+retire_year=1965
+retire_month=6
+speed=110
+class=3
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=270
+
+Image[E]=./images/rover-12-p2-black_E.0.0,-33,14
+Image[SE]=./images/rover-12-p2-black_SE.0.0,-13,0
+Image[S]=./images/rover-12-p2-black_S.0.0,0,0
+Image[SW]=./images/rover-12-p2-black_SW.0.0,-8,10
+Image[W]=./images/rover-12-p2-black_W.0.0,4,5
+Image[NW]=./images/rover-12-p2-black_NW.0.0,12,10
+Image[N]=./images/rover-12-p2-black_N.0.0,0,33
+Image[NE]=./images/rover-12-p2-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Rover12P2(Green)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=1934
+intro_month=10
+retire_year=1964
+retire_month=6
+speed=110
+class=3
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=270
+
+Image[E]=./images/rover-12-p2-green_E.0.0,-33,14
+Image[SE]=./images/rover-12-p2-green_SE.0.0,-13,0
+Image[S]=./images/rover-12-p2-green_S.0.0,0,0
+Image[SW]=./images/rover-12-p2-green_SW.0.0,-8,10
+Image[W]=./images/rover-12-p2-green_W.0.0,4,5
+Image[NW]=./images/rover-12-p2-green_NW.0.0,12,10
+Image[N]=./images/rover-12-p2-green_N.0.0,0,33
+Image[NE]=./images/rover-12-p2-green_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Rover12P2(Maroon)
+copyright=JamesPetts
+
+DistributionWeight=7
+intro_year=1935
+intro_month=3
+retire_year=1963
+retire_month=6
+speed=110
+class=3
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=270
+
+Image[E]=./images/rover-12-p2-maroon_E.0.0,-33,14
+Image[SE]=./images/rover-12-p2-maroon_SE.0.0,-13,0
+Image[S]=./images/rover-12-p2-maroon_S.0.0,0,0
+Image[SW]=./images/rover-12-p2-maroon_SW.0.0,-8,10
+Image[W]=./images/rover-12-p2-maroon_W.0.0,4,5
+Image[NW]=./images/rover-12-p2-maroon_NW.0.0,12,10
+Image[N]=./images/rover-12-p2-maroon_N.0.0,0,33
+Image[NE]=./images/rover-12-p2-maroon_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Rover12P2(Grey)
+copyright=JamesPetts
+
+DistributionWeight=5
+intro_year=1936
+intro_month=3
+retire_year=1962
+retire_month=6
+speed=110
+class=3
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=270
+
+Image[E]=./images/rover-12-p2-grey_E.0.0,-33,14
+Image[SE]=./images/rover-12-p2-grey_SE.0.0,-13,0
+Image[S]=./images/rover-12-p2-grey_S.0.0,0,0
+Image[SW]=./images/rover-12-p2-grey_SW.0.0,-8,10
+Image[W]=./images/rover-12-p2-grey_W.0.0,4,5
+Image[NW]=./images/rover-12-p2-grey_NW.0.0,12,10
+Image[N]=./images/rover-12-p2-grey_N.0.0,0,33
+Image[NE]=./images/rover-12-p2-grey_NE.0.0,0,24

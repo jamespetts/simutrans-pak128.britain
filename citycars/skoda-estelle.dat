@@ -1,0 +1,109 @@
+# Škoda 120 Estelle four-door saloon, 1976-1990.
+#
+# The rear-engined Škoda 105/120, sold in Britain as the Estelle: 4,200 mm long,
+# 1,610 mm wide, 1,400 mm high, 2,465 mm wheelbase; 1,046-1,174 cc
+# overhead-valve four behind the rear axle. Cheap, roomy and much derided in the
+# 1980s, with a large British following on price.
+# https://en.wikipedia.org/wiki/%C5%A0koda_105/120
+#
+# Colours: White, Red, Blue and Green are documented Škoda colours of the period.
+#
+# Weight: 60 in total (white 20, red 16, blue 14, green 10).
+#
+# Speed 150 km/h; comfort 45/250 (line). Classes 0,1.
+# Dates: 1976-1990 with a road tail to about 1998.
+#
+# Metres master: citycars/4.5/skoda-estelle.blend. References:
+# citycars/references/skoda-estelle/ (gitignored). Images via Wikimedia Commons.
+
+obj=citycar
+name=SkodaEstelle(White)
+copyright=JamesPetts
+
+DistributionWeight=20
+intro_year=1976
+intro_month=10
+retire_year=1998
+retire_month=6
+speed=150
+class=0,1
+maximum_comfortable_journey_minutes=45
+maximum_tolerable_journey_minutes=250
+
+Image[E]=./images/skoda-estelle-white_E.0.0,-33,14
+Image[SE]=./images/skoda-estelle-white_SE.0.0,-13,0
+Image[S]=./images/skoda-estelle-white_S.0.0,0,0
+Image[SW]=./images/skoda-estelle-white_SW.0.0,-8,10
+Image[W]=./images/skoda-estelle-white_W.0.0,4,5
+Image[NW]=./images/skoda-estelle-white_NW.0.0,12,10
+Image[N]=./images/skoda-estelle-white_N.0.0,0,33
+Image[NE]=./images/skoda-estelle-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=SkodaEstelle(Red)
+copyright=JamesPetts
+
+DistributionWeight=16
+intro_year=1976
+intro_month=10
+retire_year=1997
+retire_month=6
+speed=150
+class=0,1
+maximum_comfortable_journey_minutes=45
+maximum_tolerable_journey_minutes=250
+
+Image[E]=./images/skoda-estelle-red_E.0.0,-33,14
+Image[SE]=./images/skoda-estelle-red_SE.0.0,-13,0
+Image[S]=./images/skoda-estelle-red_S.0.0,0,0
+Image[SW]=./images/skoda-estelle-red_SW.0.0,-8,10
+Image[W]=./images/skoda-estelle-red_W.0.0,4,5
+Image[NW]=./images/skoda-estelle-red_NW.0.0,12,10
+Image[N]=./images/skoda-estelle-red_N.0.0,0,33
+Image[NE]=./images/skoda-estelle-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=SkodaEstelle(Blue)
+copyright=JamesPetts
+
+DistributionWeight=14
+intro_year=1978
+intro_month=3
+retire_year=1996
+retire_month=6
+speed=150
+class=0,1
+maximum_comfortable_journey_minutes=45
+maximum_tolerable_journey_minutes=250
+
+Image[E]=./images/skoda-estelle-blue_E.0.0,-33,14
+Image[SE]=./images/skoda-estelle-blue_SE.0.0,-13,0
+Image[S]=./images/skoda-estelle-blue_S.0.0,0,0
+Image[SW]=./images/skoda-estelle-blue_SW.0.0,-8,10
+Image[W]=./images/skoda-estelle-blue_W.0.0,4,5
+Image[NW]=./images/skoda-estelle-blue_NW.0.0,12,10
+Image[N]=./images/skoda-estelle-blue_N.0.0,0,33
+Image[NE]=./images/skoda-estelle-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=SkodaEstelle(Green)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=1980
+intro_month=3
+retire_year=1995
+retire_month=6
+speed=150
+class=0,1
+maximum_comfortable_journey_minutes=45
+maximum_tolerable_journey_minutes=250
+
+Image[E]=./images/skoda-estelle-green_E.0.0,-33,14
+Image[SE]=./images/skoda-estelle-green_SE.0.0,-13,0
+Image[S]=./images/skoda-estelle-green_S.0.0,0,0
+Image[SW]=./images/skoda-estelle-green_SW.0.0,-8,10
+Image[W]=./images/skoda-estelle-green_W.0.0,4,5
+Image[NW]=./images/skoda-estelle-green_NW.0.0,12,10
+Image[N]=./images/skoda-estelle-green_N.0.0,0,33
+Image[NE]=./images/skoda-estelle-green_NE.0.0,0,24

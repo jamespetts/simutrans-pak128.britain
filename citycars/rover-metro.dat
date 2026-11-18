@@ -1,0 +1,132 @@
+# Rover Metro (R6), 1990-1994.
+#
+# The October 1990 Rover Metro was the Metro re-engineered around the K-series
+# engine and a Peugeot gearbox, with revised Hydragas suspension and a restyled
+# front and rear on the same body shell. It was sold as the Rover 100 outside
+# Britain; the 100 nameplate reached the home market only in 1994.
+# https://en.wikipedia.org/wiki/Austin_Metro
+#
+# Dimensions 3.406 x 1.565 x 1.359 m, wheelbase 2.250 m; the published Rover
+# Metro / 100 dimension box. The track is wider than the Mk2's and the length
+# 3 mm greater, so the hull and wheel positions are adjusted from the Mk2 master
+# but the shell and wheelbase are shared.
+#
+# The three-door body is modelled, as for the Mk2: extra door divisions do not
+# read at 128 px.
+#
+# Colours: Flame Red (BLVC 818), White Diamond (655), Silver Leaf metallic (421)
+# and Zircon Blue metallic (471), all Rover UK offerings of 1990-94. The split is
+# era-adjusted from the 1994-96 measured base towards red and white, which were
+# markedly stronger on early-1990s registrations, and away from silver: red 6,
+# white 4, silver 3, blue 3. Total 16. Provisional pending the central rebase.
+#
+# Speed 130 km/h, one step above the Mk2 for the K-series and five-speed gearbox.
+# Comfort 60/270, on the line 180 + 1.5 x 60, a step above the Mk2's 50/255 for the
+# revised Hydragas and the quieter K-series, and one step below the Corsa B's
+# 65/280. Classes 0,1,2.
+#
+# Dates are road presence, not production: May 1990 intro, retires staggered
+# 2001-2004 on an eleven- to fourteen-year tail.
+#
+# Metres master: citycars/4.5/rover-metro.blend. Interchange:
+# citycars/4.5/rover-metro.dae (33 objects). Variant of the Metro Mk2 shell;
+# references: citycars/references/rover-metro/ (gitignored; six photographs from
+# Wikimedia Commons, CC BY 2.0 and CC BY-SA 4.0).
+#
+# Accepted low-poly deviations, recorded rather than corrected: angular surfaces
+# stand in for the photographed rounded corners, and the tail lamp clusters are
+# the short units the photographs show, not the full-height units the brief
+# guessed at. Stage B ran in connectivity mode because the hatch glass sits on the
+# cabin, above the hull's top face.
+
+obj=citycar
+name=RoverMetro(FlameRed)
+copyright=JamesPetts
+
+DistributionWeight=6
+intro_year=1990
+intro_month=5
+retire_year=2001
+retire_month=6
+speed=130
+class=0,1,2
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=270
+
+Image[E]=./images/rover-metro-red_E.0.0,-33,14
+Image[SE]=./images/rover-metro-red_SE.0.0,-13,0
+Image[S]=./images/rover-metro-red_S.0.0,0,0
+Image[SW]=./images/rover-metro-red_SW.0.0,-8,10
+Image[W]=./images/rover-metro-red_W.0.0,4,5
+Image[NW]=./images/rover-metro-red_NW.0.0,12,10
+Image[N]=./images/rover-metro-red_N.0.0,0,33
+Image[NE]=./images/rover-metro-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RoverMetro(WhiteDiamond)
+copyright=JamesPetts
+
+DistributionWeight=4
+intro_year=1990
+intro_month=5
+retire_year=2002
+retire_month=6
+speed=130
+class=0,1,2
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=270
+
+Image[E]=./images/rover-metro-white_E.0.0,-33,14
+Image[SE]=./images/rover-metro-white_SE.0.0,-13,0
+Image[S]=./images/rover-metro-white_S.0.0,0,0
+Image[SW]=./images/rover-metro-white_SW.0.0,-8,10
+Image[W]=./images/rover-metro-white_W.0.0,4,5
+Image[NW]=./images/rover-metro-white_NW.0.0,12,10
+Image[N]=./images/rover-metro-white_N.0.0,0,33
+Image[NE]=./images/rover-metro-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RoverMetro(SilverLeaf)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1991
+intro_month=3
+retire_year=2004
+retire_month=6
+speed=130
+class=0,1,2
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=270
+
+Image[E]=./images/rover-metro-silver_E.0.0,-33,14
+Image[SE]=./images/rover-metro-silver_SE.0.0,-13,0
+Image[S]=./images/rover-metro-silver_S.0.0,0,0
+Image[SW]=./images/rover-metro-silver_SW.0.0,-8,10
+Image[W]=./images/rover-metro-silver_W.0.0,4,5
+Image[NW]=./images/rover-metro-silver_NW.0.0,12,10
+Image[N]=./images/rover-metro-silver_N.0.0,0,33
+Image[NE]=./images/rover-metro-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RoverMetro(ZirconBlue)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1990
+intro_month=5
+retire_year=2003
+retire_month=6
+speed=130
+class=0,1,2
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=270
+
+Image[E]=./images/rover-metro-blue_E.0.0,-33,14
+Image[SE]=./images/rover-metro-blue_SE.0.0,-13,0
+Image[S]=./images/rover-metro-blue_S.0.0,0,0
+Image[SW]=./images/rover-metro-blue_SW.0.0,-8,10
+Image[W]=./images/rover-metro-blue_W.0.0,4,5
+Image[NW]=./images/rover-metro-blue_NW.0.0,12,10
+Image[N]=./images/rover-metro-blue_N.0.0,0,33
+Image[NE]=./images/rover-metro-blue_NE.0.0,0,24

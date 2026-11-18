@@ -1,0 +1,111 @@
+# Wolseley 6/80 four-door saloon, 1948-1954.
+#
+# The six-cylinder Wolseley on the long Morris Six MS shell: 4,496 mm long,
+# 1,778 mm wide, 1,600 mm high, 2,794 mm wheelbase; 2,215 cc six. The standard
+# British police car of the early 1950s and a director's saloon, with the
+# illuminated Wolseley badge in the grille.
+# https://en.wikipedia.org/wiki/Wolseley_6/80
+#
+# Colours: Black, Maroon, Dove Grey and Sage Green are documented Wolseley
+# finishes of the period.
+#
+# Weight: 55 in total (black 20, maroon 12, grey 12, green 11), low per section F
+# of the gaps doc.
+#
+# Speed 130 km/h; comfort 100/330 (line). Class 3.
+# Dates: 1948-1962, the tail covering later life on British roads.
+#
+# Metres master: citycars/4.5/wolseley-6-80.blend. References:
+# citycars/references/wolseley-6-80/ (gitignored). Images via Wikimedia Commons.
+
+obj=citycar
+name=Wolseley680(Black)
+copyright=JamesPetts
+
+DistributionWeight=20
+intro_year=1948
+intro_month=10
+retire_year=1962
+retire_month=6
+speed=130
+class=3
+maximum_comfortable_journey_minutes=100
+maximum_tolerable_journey_minutes=330
+
+Image[E]=./images/wolseley-6-80-black_E.0.0,-33,14
+Image[SE]=./images/wolseley-6-80-black_SE.0.0,-13,0
+Image[S]=./images/wolseley-6-80-black_S.0.0,0,0
+Image[SW]=./images/wolseley-6-80-black_SW.0.0,-8,10
+Image[W]=./images/wolseley-6-80-black_W.0.0,4,5
+Image[NW]=./images/wolseley-6-80-black_NW.0.0,12,10
+Image[N]=./images/wolseley-6-80-black_N.0.0,0,33
+Image[NE]=./images/wolseley-6-80-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Wolseley680(Maroon)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=1948
+intro_month=10
+retire_year=1961
+retire_month=6
+speed=130
+class=3
+maximum_comfortable_journey_minutes=100
+maximum_tolerable_journey_minutes=330
+
+Image[E]=./images/wolseley-6-80-maroon_E.0.0,-33,14
+Image[SE]=./images/wolseley-6-80-maroon_SE.0.0,-13,0
+Image[S]=./images/wolseley-6-80-maroon_S.0.0,0,0
+Image[SW]=./images/wolseley-6-80-maroon_SW.0.0,-8,10
+Image[W]=./images/wolseley-6-80-maroon_W.0.0,4,5
+Image[NW]=./images/wolseley-6-80-maroon_NW.0.0,12,10
+Image[N]=./images/wolseley-6-80-maroon_N.0.0,0,33
+Image[NE]=./images/wolseley-6-80-maroon_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Wolseley680(DoveGrey)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=1949
+intro_month=3
+retire_year=1960
+retire_month=6
+speed=130
+class=3
+maximum_comfortable_journey_minutes=100
+maximum_tolerable_journey_minutes=330
+
+Image[E]=./images/wolseley-6-80-grey_E.0.0,-33,14
+Image[SE]=./images/wolseley-6-80-grey_SE.0.0,-13,0
+Image[S]=./images/wolseley-6-80-grey_S.0.0,0,0
+Image[SW]=./images/wolseley-6-80-grey_SW.0.0,-8,10
+Image[W]=./images/wolseley-6-80-grey_W.0.0,4,5
+Image[NW]=./images/wolseley-6-80-grey_NW.0.0,12,10
+Image[N]=./images/wolseley-6-80-grey_N.0.0,0,33
+Image[NE]=./images/wolseley-6-80-grey_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Wolseley680(SageGreen)
+copyright=JamesPetts
+
+DistributionWeight=11
+intro_year=1950
+intro_month=3
+retire_year=1959
+retire_month=6
+speed=130
+class=3
+maximum_comfortable_journey_minutes=100
+maximum_tolerable_journey_minutes=330
+
+Image[E]=./images/wolseley-6-80-green_E.0.0,-33,14
+Image[SE]=./images/wolseley-6-80-green_SE.0.0,-13,0
+Image[S]=./images/wolseley-6-80-green_S.0.0,0,0
+Image[SW]=./images/wolseley-6-80-green_SW.0.0,-8,10
+Image[W]=./images/wolseley-6-80-green_W.0.0,4,5
+Image[NW]=./images/wolseley-6-80-green_NW.0.0,12,10
+Image[N]=./images/wolseley-6-80-green_N.0.0,0,33
+Image[NE]=./images/wolseley-6-80-green_NE.0.0,0,24

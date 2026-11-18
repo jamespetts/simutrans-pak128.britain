@@ -1,0 +1,122 @@
+# Nissan Cherry N12 three-door hatchback, 1982-1986.
+#
+# The angular 1982-86 Cherry, a size larger than the N10 and the model that sat
+# alongside the new Micra in the Nissan range. Sold in Britain as the Datsun
+# Cherry and then the Nissan Cherry; in Japan and Australia it was the Pulsar,
+# and in Italy it was built as the Alfa Romeo Arna. The three-door hatchback is
+# modelled.
+# https://en.wikipedia.org/wiki/Nissan_Cherry
+#
+# Dimensions 3.960 x 1.620 x 1.390 m, wheelbase 2.415 m, from the English
+# Wikipedia Pulsar N12 dimension box. Mirrors take the modelled width to
+# 1.827 m; projecting front indicators take the length to 3.961 m.
+#
+# Colours. No UK colour chart for the N12 was located, so the objects carry plain
+# colour names: red, white, blue and silver. Weights red 3, white 3, blue 2,
+# silver 2, total 10, provisional pending the central rebase.
+#
+# Speed 155 km/h for the 1.3, the volume UK engine. Comfort 65/280, on the line
+# 180 + 1.5 x 65, a step above the N10's 55/265 because the N12 is a larger,
+# better-riding car. Classes 0,1,2.
+#
+# Dates are road presence: September 1982 intro, retires staggered 1997-2000 on a
+# fifteen- to eighteen-year tail.
+#
+# Metres master: citycars/4.5/nissan-cherry-n12.blend. Interchange:
+# citycars/4.5/nissan-cherry-n12.dae (53 objects). References:
+# citycars/references/nissan-cherry-n12/ (gitignored; Wikimedia Commons).
+#
+# At 128 px the angular N12 nose, the long single door with its triangular
+# quarter glass and the sloping hatch read correctly.
+
+obj=citycar
+name=NissanCherryN12(Red)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1982
+intro_month=9
+retire_year=2000
+retire_month=6
+speed=155
+class=0,1,2
+maximum_comfortable_journey_minutes=65
+maximum_tolerable_journey_minutes=280
+
+Image[E]=./images/nissan-cherry-n12-red_E.0.0,-33,14
+Image[SE]=./images/nissan-cherry-n12-red_SE.0.0,-13,0
+Image[S]=./images/nissan-cherry-n12-red_S.0.0,0,0
+Image[SW]=./images/nissan-cherry-n12-red_SW.0.0,-8,10
+Image[W]=./images/nissan-cherry-n12-red_W.0.0,4,5
+Image[NW]=./images/nissan-cherry-n12-red_NW.0.0,12,10
+Image[N]=./images/nissan-cherry-n12-red_N.0.0,0,33
+Image[NE]=./images/nissan-cherry-n12-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=NissanCherryN12(White)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1982
+intro_month=9
+retire_year=1999
+retire_month=6
+speed=155
+class=0,1,2
+maximum_comfortable_journey_minutes=65
+maximum_tolerable_journey_minutes=280
+
+Image[E]=./images/nissan-cherry-n12-white_E.0.0,-33,14
+Image[SE]=./images/nissan-cherry-n12-white_SE.0.0,-13,0
+Image[S]=./images/nissan-cherry-n12-white_S.0.0,0,0
+Image[SW]=./images/nissan-cherry-n12-white_SW.0.0,-8,10
+Image[W]=./images/nissan-cherry-n12-white_W.0.0,4,5
+Image[NW]=./images/nissan-cherry-n12-white_NW.0.0,12,10
+Image[N]=./images/nissan-cherry-n12-white_N.0.0,0,33
+Image[NE]=./images/nissan-cherry-n12-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=NissanCherryN12(Blue)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1982
+intro_month=9
+retire_year=1998
+retire_month=6
+speed=155
+class=0,1,2
+maximum_comfortable_journey_minutes=65
+maximum_tolerable_journey_minutes=280
+
+Image[E]=./images/nissan-cherry-n12-blue_E.0.0,-33,14
+Image[SE]=./images/nissan-cherry-n12-blue_SE.0.0,-13,0
+Image[S]=./images/nissan-cherry-n12-blue_S.0.0,0,0
+Image[SW]=./images/nissan-cherry-n12-blue_SW.0.0,-8,10
+Image[W]=./images/nissan-cherry-n12-blue_W.0.0,4,5
+Image[NW]=./images/nissan-cherry-n12-blue_NW.0.0,12,10
+Image[N]=./images/nissan-cherry-n12-blue_N.0.0,0,33
+Image[NE]=./images/nissan-cherry-n12-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=NissanCherryN12(Silver)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1982
+intro_month=9
+retire_year=1997
+retire_month=6
+speed=155
+class=0,1,2
+maximum_comfortable_journey_minutes=65
+maximum_tolerable_journey_minutes=280
+
+Image[E]=./images/nissan-cherry-n12-silver_E.0.0,-33,14
+Image[SE]=./images/nissan-cherry-n12-silver_SE.0.0,-13,0
+Image[S]=./images/nissan-cherry-n12-silver_S.0.0,0,0
+Image[SW]=./images/nissan-cherry-n12-silver_SW.0.0,-8,10
+Image[W]=./images/nissan-cherry-n12-silver_W.0.0,4,5
+Image[NW]=./images/nissan-cherry-n12-silver_NW.0.0,12,10
+Image[N]=./images/nissan-cherry-n12-silver_N.0.0,0,33
+Image[NE]=./images/nissan-cherry-n12-silver_NE.0.0,0,24

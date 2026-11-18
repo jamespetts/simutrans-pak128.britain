@@ -1,0 +1,108 @@
+# Volkswagen Golf Mk4 five-door hatchback, 1997-2003.
+#
+# 4,149 mm long, 1,735 mm wide, 1,441 mm high, 2,511 mm wheelbase; 1.4-3.2
+# petrol and 1.9 diesel.
+# https://en.wikipedia.org/wiki/Volkswagen_Golf_Mk4
+#
+# Colours: Tornado Red, Reflex Silver, Black and Candy White are period Golf
+# colours.
+#
+# Weight: 330 in total (red 95, silver 90, black 75, white 70).
+#
+# Speed 190 km/h; comfort 110/345 (line). Classes 1,2.
+# Dates: 1997-2003 with a road tail to about 2012.
+#
+# Metres master: citycars/4.5/vw-golf-mk4.blend. References:
+# citycars/references/vw-golf-mk4/ (gitignored). Images via Wikimedia Commons.
+
+obj=citycar
+name=VWGolfMk4(TornadoRed)
+copyright=JamesPetts
+
+DistributionWeight=95
+intro_year=1997
+intro_month=10
+retire_year=2012
+retire_month=6
+speed=190
+class=1,2
+maximum_comfortable_journey_minutes=110
+maximum_tolerable_journey_minutes=345
+
+Image[E]=./images/vw-golf-mk4-red_E.0.0,-33,14
+Image[SE]=./images/vw-golf-mk4-red_SE.0.0,-13,0
+Image[S]=./images/vw-golf-mk4-red_S.0.0,0,0
+Image[SW]=./images/vw-golf-mk4-red_SW.0.0,-8,10
+Image[W]=./images/vw-golf-mk4-red_W.0.0,4,5
+Image[NW]=./images/vw-golf-mk4-red_NW.0.0,12,10
+Image[N]=./images/vw-golf-mk4-red_N.0.0,0,33
+Image[NE]=./images/vw-golf-mk4-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VWGolfMk4(ReflexSilver)
+copyright=JamesPetts
+
+DistributionWeight=90
+intro_year=1997
+intro_month=10
+retire_year=2011
+retire_month=6
+speed=190
+class=1,2
+maximum_comfortable_journey_minutes=110
+maximum_tolerable_journey_minutes=345
+
+Image[E]=./images/vw-golf-mk4-silver_E.0.0,-33,14
+Image[SE]=./images/vw-golf-mk4-silver_SE.0.0,-13,0
+Image[S]=./images/vw-golf-mk4-silver_S.0.0,0,0
+Image[SW]=./images/vw-golf-mk4-silver_SW.0.0,-8,10
+Image[W]=./images/vw-golf-mk4-silver_W.0.0,4,5
+Image[NW]=./images/vw-golf-mk4-silver_NW.0.0,12,10
+Image[N]=./images/vw-golf-mk4-silver_N.0.0,0,33
+Image[NE]=./images/vw-golf-mk4-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VWGolfMk4(Black)
+copyright=JamesPetts
+
+DistributionWeight=75
+intro_year=1998
+intro_month=3
+retire_year=2010
+retire_month=6
+speed=190
+class=1,2
+maximum_comfortable_journey_minutes=110
+maximum_tolerable_journey_minutes=345
+
+Image[E]=./images/vw-golf-mk4-black_E.0.0,-33,14
+Image[SE]=./images/vw-golf-mk4-black_SE.0.0,-13,0
+Image[S]=./images/vw-golf-mk4-black_S.0.0,0,0
+Image[SW]=./images/vw-golf-mk4-black_SW.0.0,-8,10
+Image[W]=./images/vw-golf-mk4-black_W.0.0,4,5
+Image[NW]=./images/vw-golf-mk4-black_NW.0.0,12,10
+Image[N]=./images/vw-golf-mk4-black_N.0.0,0,33
+Image[NE]=./images/vw-golf-mk4-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VWGolfMk4(CandyWhite)
+copyright=JamesPetts
+
+DistributionWeight=70
+intro_year=1999
+intro_month=3
+retire_year=2009
+retire_month=6
+speed=190
+class=1,2
+maximum_comfortable_journey_minutes=110
+maximum_tolerable_journey_minutes=345
+
+Image[E]=./images/vw-golf-mk4-white_E.0.0,-33,14
+Image[SE]=./images/vw-golf-mk4-white_SE.0.0,-13,0
+Image[S]=./images/vw-golf-mk4-white_S.0.0,0,0
+Image[SW]=./images/vw-golf-mk4-white_SW.0.0,-8,10
+Image[W]=./images/vw-golf-mk4-white_W.0.0,4,5
+Image[NW]=./images/vw-golf-mk4-white_NW.0.0,12,10
+Image[N]=./images/vw-golf-mk4-white_N.0.0,0,33
+Image[NE]=./images/vw-golf-mk4-white_NE.0.0,0,24

@@ -1,0 +1,120 @@
+# Nissan Juke F15 five-door crossover, 2010-2019.
+#
+# The first Juke: the car that created the small crossover niche in Britain, with
+# the split-level lamp arrangement (round main lamps low in the bumper, slim
+# lamps along the bonnet edge) and the falling coupe roofline.
+# https://en.wikipedia.org/wiki/Nissan_Juke
+#
+# Dimensions 4.135 x 1.765 x 1.565 m, wheelbase 2.530 m, from the English
+# Wikipedia F15 dimension box. Mirrors take the modelled width to 2.008 m.
+#
+# Colours. No UK colour chart for the F15 was located, so the objects carry plain
+# colour names: white, red, black and silver. Weights red 3, white 3, black 2,
+# silver 2, total 10, provisional pending the central rebase.
+#
+# Speed 180 km/h for the 1.6, the volume model. Comfort 85/310, on the line
+# 180 + 1.5 x 85: a tall, short-wheelbase car, comfortable enough but not a
+# long-distance machine. Classes 1,2.
+#
+# Dates are road presence: September 2010 intro, retires staggered 2025-2028 on
+# a fifteen- to eighteen-year tail.
+#
+# Metres master: citycars/4.5/nissan-juke-f15.blend. Interchange:
+# citycars/4.5/nissan-juke-f15.dae (47 objects). References:
+# citycars/references/nissan-juke-f15/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the wing bulges are understated and the lower bumpers are
+# more angular than the photographs. At 128 px the split-level lamps, the falling
+# roofline and the concealed rear door handles read as the Juke.
+
+obj=citycar
+name=NissanJukeF15(White)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=2010
+intro_month=9
+retire_year=2028
+retire_month=6
+speed=180
+class=1,2
+maximum_comfortable_journey_minutes=85
+maximum_tolerable_journey_minutes=310
+
+Image[E]=./images/nissan-juke-f15-white_E.0.0,-33,14
+Image[SE]=./images/nissan-juke-f15-white_SE.0.0,-13,0
+Image[S]=./images/nissan-juke-f15-white_S.0.0,0,0
+Image[SW]=./images/nissan-juke-f15-white_SW.0.0,-8,10
+Image[W]=./images/nissan-juke-f15-white_W.0.0,4,5
+Image[NW]=./images/nissan-juke-f15-white_NW.0.0,12,10
+Image[N]=./images/nissan-juke-f15-white_N.0.0,0,33
+Image[NE]=./images/nissan-juke-f15-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=NissanJukeF15(Red)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=2010
+intro_month=9
+retire_year=2027
+retire_month=6
+speed=180
+class=1,2
+maximum_comfortable_journey_minutes=85
+maximum_tolerable_journey_minutes=310
+
+Image[E]=./images/nissan-juke-f15-red_E.0.0,-33,14
+Image[SE]=./images/nissan-juke-f15-red_SE.0.0,-13,0
+Image[S]=./images/nissan-juke-f15-red_S.0.0,0,0
+Image[SW]=./images/nissan-juke-f15-red_SW.0.0,-8,10
+Image[W]=./images/nissan-juke-f15-red_W.0.0,4,5
+Image[NW]=./images/nissan-juke-f15-red_NW.0.0,12,10
+Image[N]=./images/nissan-juke-f15-red_N.0.0,0,33
+Image[NE]=./images/nissan-juke-f15-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=NissanJukeF15(Black)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=2010
+intro_month=9
+retire_year=2026
+retire_month=6
+speed=180
+class=1,2
+maximum_comfortable_journey_minutes=85
+maximum_tolerable_journey_minutes=310
+
+Image[E]=./images/nissan-juke-f15-black_E.0.0,-33,14
+Image[SE]=./images/nissan-juke-f15-black_SE.0.0,-13,0
+Image[S]=./images/nissan-juke-f15-black_S.0.0,0,0
+Image[SW]=./images/nissan-juke-f15-black_SW.0.0,-8,10
+Image[W]=./images/nissan-juke-f15-black_W.0.0,4,5
+Image[NW]=./images/nissan-juke-f15-black_NW.0.0,12,10
+Image[N]=./images/nissan-juke-f15-black_N.0.0,0,33
+Image[NE]=./images/nissan-juke-f15-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=NissanJukeF15(Silver)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=2010
+intro_month=9
+retire_year=2025
+retire_month=6
+speed=180
+class=1,2
+maximum_comfortable_journey_minutes=85
+maximum_tolerable_journey_minutes=310
+
+Image[E]=./images/nissan-juke-f15-silver_E.0.0,-33,14
+Image[SE]=./images/nissan-juke-f15-silver_SE.0.0,-13,0
+Image[S]=./images/nissan-juke-f15-silver_S.0.0,0,0
+Image[SW]=./images/nissan-juke-f15-silver_SW.0.0,-8,10
+Image[W]=./images/nissan-juke-f15-silver_W.0.0,4,5
+Image[NW]=./images/nissan-juke-f15-silver_NW.0.0,12,10
+Image[N]=./images/nissan-juke-f15-silver_N.0.0,0,33
+Image[NE]=./images/nissan-juke-f15-silver_NE.0.0,0,24

@@ -1,0 +1,129 @@
+# Rolls-Royce 20/25 coachbuilt saloon, 1929-1936.
+#
+# Rolls-Royce's "small" car and the best-selling Rolls of the inter-war years:
+# 3,827 chassis built 1929-36, succeeding the 20 hp and replaced by the 25/30.
+# 3,669 cc overhead-valve six, four-speed manual, servo-assisted four-wheel
+# drum brakes, semi-elliptic springs. The body was coachbuilt to the owner's
+# order; the modelled form is the closed saloon used by Park Ward, Hooper and
+# Rippon, with an upright radiator, long bonnet, separate wings and running
+# boards.
+# https://en.wikipedia.org/wiki/Rolls-Royce_20/25
+# https://www.supercars.net/blog/1929%E2%86%921936-rolls-royce-2025/
+# https://www.christies.com/en/lot/lot-244308
+#
+# Dimensions: 4,570 mm long, 1,765 mm wide, about 1,800 mm high, wheelbase
+# 3,270 mm (3,350 mm from 1930).
+#
+# Colours: most 20/25 coachwork was black; dark maroon and dark blue were common
+# alternatives and cream or two-tone schemes were offered by the coachbuilders.
+# The four modelled colours are the period's usual choices, not a factory list
+# (there was no factory body colour list: the coachbuilder painted the body).
+#
+# Weight: 3,827 chassis over seven years make this the most numerous Rolls of the
+# era but a very rare car against the total parc; set at 6 in total (black 2,
+# maroon 2, blue 1, cream 1) so the Very-high class has a car without distorting
+# ordinary traffic. Provisional pending the central rebase.
+#
+# Speed 100 km/h: a game-balance figure; the period claim was about 76 mph.
+# Comfort 150/405: a long-wheelbase coachbuilt saloon with soft suspension and a
+# quiet six; the line gives 405.
+#
+# Dates describe road presence: 1929 to the late 1940s, when pre-war cars were
+# still in use.
+#
+# Metres master: citycars/4.5/rolls-royce-20-25.blend in the blends repository.
+# References: citycars/references/rolls-20-25/ (gitignored).
+# Image credits: 1932 Rippon saloon and 1933 saloon photographs via Wikimedia
+# Commons (see reference file names for the photographers and licences).
+
+obj=citycar
+name=RollsRoyce2025(Black)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1929
+intro_month=1
+retire_year=1948
+retire_month=6
+speed=100
+class=4
+maximum_comfortable_journey_minutes=150
+maximum_tolerable_journey_minutes=405
+
+Image[E]=./images/rolls-royce-20-25-black_E.0.0,-33,14
+Image[SE]=./images/rolls-royce-20-25-black_SE.0.0,-13,0
+Image[S]=./images/rolls-royce-20-25-black_S.0.0,0,0
+Image[SW]=./images/rolls-royce-20-25-black_SW.0.0,-8,10
+Image[W]=./images/rolls-royce-20-25-black_W.0.0,4,5
+Image[NW]=./images/rolls-royce-20-25-black_NW.0.0,12,10
+Image[N]=./images/rolls-royce-20-25-black_N.0.0,0,33
+Image[NE]=./images/rolls-royce-20-25-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RollsRoyce2025(Maroon)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1929
+intro_month=6
+retire_year=1946
+retire_month=12
+speed=100
+class=4
+maximum_comfortable_journey_minutes=150
+maximum_tolerable_journey_minutes=405
+
+Image[E]=./images/rolls-royce-20-25-maroon_E.0.0,-33,14
+Image[SE]=./images/rolls-royce-20-25-maroon_SE.0.0,-13,0
+Image[S]=./images/rolls-royce-20-25-maroon_S.0.0,0,0
+Image[SW]=./images/rolls-royce-20-25-maroon_SW.0.0,-8,10
+Image[W]=./images/rolls-royce-20-25-maroon_W.0.0,4,5
+Image[NW]=./images/rolls-royce-20-25-maroon_NW.0.0,12,10
+Image[N]=./images/rolls-royce-20-25-maroon_N.0.0,0,33
+Image[NE]=./images/rolls-royce-20-25-maroon_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RollsRoyce2025(Blue)
+copyright=JamesPetts
+
+DistributionWeight=1
+intro_year=1930
+intro_month=3
+retire_year=1947
+retire_month=6
+speed=100
+class=4
+maximum_comfortable_journey_minutes=150
+maximum_tolerable_journey_minutes=405
+
+Image[E]=./images/rolls-royce-20-25-blue_E.0.0,-33,14
+Image[SE]=./images/rolls-royce-20-25-blue_SE.0.0,-13,0
+Image[S]=./images/rolls-royce-20-25-blue_S.0.0,0,0
+Image[SW]=./images/rolls-royce-20-25-blue_SW.0.0,-8,10
+Image[W]=./images/rolls-royce-20-25-blue_W.0.0,4,5
+Image[NW]=./images/rolls-royce-20-25-blue_NW.0.0,12,10
+Image[N]=./images/rolls-royce-20-25-blue_N.0.0,0,33
+Image[NE]=./images/rolls-royce-20-25-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RollsRoyce2025(Cream)
+copyright=JamesPetts
+
+DistributionWeight=1
+intro_year=1931
+intro_month=3
+retire_year=1945
+retire_month=6
+speed=100
+class=4
+maximum_comfortable_journey_minutes=150
+maximum_tolerable_journey_minutes=405
+
+Image[E]=./images/rolls-royce-20-25-cream_E.0.0,-33,14
+Image[SE]=./images/rolls-royce-20-25-cream_SE.0.0,-13,0
+Image[S]=./images/rolls-royce-20-25-cream_S.0.0,0,0
+Image[SW]=./images/rolls-royce-20-25-cream_SW.0.0,-8,10
+Image[W]=./images/rolls-royce-20-25-cream_W.0.0,4,5
+Image[NW]=./images/rolls-royce-20-25-cream_NW.0.0,12,10
+Image[N]=./images/rolls-royce-20-25-cream_N.0.0,0,33
+Image[NE]=./images/rolls-royce-20-25-cream_NE.0.0,0,24

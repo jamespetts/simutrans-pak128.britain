@@ -1,0 +1,123 @@
+# Datsun Cherry N10 three-door hatchback, 1978-1982.
+#
+# The third-generation Cherry, the first with a hatchback body, sold in Britain
+# from 1978 as the Datsun Cherry. The three-door is modelled; the five-door has
+# a different rear side glass and tailgate and is not represented.
+# https://en.wikipedia.org/wiki/Nissan_Cherry
+#
+# Dimensions 3.820 x 1.580 x 1.370 m, wheelbase 2.395 m, from the English
+# Wikipedia third-generation (N10) dimension box. Handles take the modelled
+# width to 1.601 m.
+#
+# Colours. No UK colour chart for the N10 was located, so the objects carry plain
+# colour names: white, red, blue and silver. Weights white 3, red 3, blue 2,
+# silver 2, total 10, provisional pending the central rebase.
+#
+# Speed 140 km/h for the 1.2, the volume UK engine. Comfort 55/265, on the line
+# 180 + 1.5 x 55, a step above the E10's 50/255 because the hatchback is roomier
+# and rides better. Classes 0,1,2.
+#
+# Dates are road presence: September 1978 intro, retires staggered 1994-1997 on a
+# sixteen- to nineteen-year tail.
+#
+# Metres master: citycars/4.5/nissan-cherry-n10.blend. Interchange:
+# citycars/4.5/nissan-cherry-n10.dae (44 objects). References:
+# citycars/references/nissan-cherry-n10/ (gitignored; Wikimedia Commons).
+#
+# Recorded limitation: image 1, the profile, is a low front three-quarter rather
+# than a level side view, and no true profile of a three-door N10 exists on
+# Commons. The proportions were reconciled against the published dimensions
+# rather than measured off the photograph. At 128 px the round lamps, the
+# horizontal grille and the three-door hatch outline read correctly.
+
+obj=citycar
+name=DatsunCherryN10(White)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1978
+intro_month=9
+retire_year=1997
+retire_month=6
+speed=140
+class=0,1,2
+maximum_comfortable_journey_minutes=55
+maximum_tolerable_journey_minutes=265
+
+Image[E]=./images/nissan-cherry-n10-white_E.0.0,-33,14
+Image[SE]=./images/nissan-cherry-n10-white_SE.0.0,-13,0
+Image[S]=./images/nissan-cherry-n10-white_S.0.0,0,0
+Image[SW]=./images/nissan-cherry-n10-white_SW.0.0,-8,10
+Image[W]=./images/nissan-cherry-n10-white_W.0.0,4,5
+Image[NW]=./images/nissan-cherry-n10-white_NW.0.0,12,10
+Image[N]=./images/nissan-cherry-n10-white_N.0.0,0,33
+Image[NE]=./images/nissan-cherry-n10-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=DatsunCherryN10(Red)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1978
+intro_month=9
+retire_year=1996
+retire_month=6
+speed=140
+class=0,1,2
+maximum_comfortable_journey_minutes=55
+maximum_tolerable_journey_minutes=265
+
+Image[E]=./images/nissan-cherry-n10-red_E.0.0,-33,14
+Image[SE]=./images/nissan-cherry-n10-red_SE.0.0,-13,0
+Image[S]=./images/nissan-cherry-n10-red_S.0.0,0,0
+Image[SW]=./images/nissan-cherry-n10-red_SW.0.0,-8,10
+Image[W]=./images/nissan-cherry-n10-red_W.0.0,4,5
+Image[NW]=./images/nissan-cherry-n10-red_NW.0.0,12,10
+Image[N]=./images/nissan-cherry-n10-red_N.0.0,0,33
+Image[NE]=./images/nissan-cherry-n10-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=DatsunCherryN10(Blue)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1978
+intro_month=9
+retire_year=1995
+retire_month=6
+speed=140
+class=0,1,2
+maximum_comfortable_journey_minutes=55
+maximum_tolerable_journey_minutes=265
+
+Image[E]=./images/nissan-cherry-n10-blue_E.0.0,-33,14
+Image[SE]=./images/nissan-cherry-n10-blue_SE.0.0,-13,0
+Image[S]=./images/nissan-cherry-n10-blue_S.0.0,0,0
+Image[SW]=./images/nissan-cherry-n10-blue_SW.0.0,-8,10
+Image[W]=./images/nissan-cherry-n10-blue_W.0.0,4,5
+Image[NW]=./images/nissan-cherry-n10-blue_NW.0.0,12,10
+Image[N]=./images/nissan-cherry-n10-blue_N.0.0,0,33
+Image[NE]=./images/nissan-cherry-n10-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=DatsunCherryN10(Silver)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1978
+intro_month=9
+retire_year=1994
+retire_month=6
+speed=140
+class=0,1,2
+maximum_comfortable_journey_minutes=55
+maximum_tolerable_journey_minutes=265
+
+Image[E]=./images/nissan-cherry-n10-silver_E.0.0,-33,14
+Image[SE]=./images/nissan-cherry-n10-silver_SE.0.0,-13,0
+Image[S]=./images/nissan-cherry-n10-silver_S.0.0,0,0
+Image[SW]=./images/nissan-cherry-n10-silver_SW.0.0,-8,10
+Image[W]=./images/nissan-cherry-n10-silver_W.0.0,4,5
+Image[NW]=./images/nissan-cherry-n10-silver_NW.0.0,12,10
+Image[N]=./images/nissan-cherry-n10-silver_N.0.0,0,33
+Image[NE]=./images/nissan-cherry-n10-silver_NE.0.0,0,24

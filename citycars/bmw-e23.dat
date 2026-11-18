@@ -1,0 +1,138 @@
+# BMW 7 Series E23 four-door saloon, 1977-1986.
+#
+# The first 7-series: a long, low four-door with quad round headlamps, built to
+# replace the E3 "New Six" and sold in Britain from 1977 as the 728, 730 and
+# 733i, later the 728i, 732i and 735i.
+# https://en.wikipedia.org/wiki/BMW_7_Series_(E23)
+# https://www.motorsportmagazine.com/archive/article/september-1977/65/the-bmw-7-series/
+#
+# Dimensions 4.860 x 1.800 x 1.430 m, wheelbase 2.795 m, European
+# specification, from the English Wikipedia dimension box which cites Auto Motor
+# und Sport 11/1977. The North American car is 5,014 mm on its impact bumpers.
+# Mirrors take the modelled width to 1.919 m.
+#
+# The pre-facelift car is modelled, 1977-1982: narrow separate kidneys and the
+# earlier front. The September 1982 facelift widened the kidneys, added a front
+# air dam and changed the lamp clusters; that nose is not represented, and the
+# reference photographs of the facelift car were used only for rear lamp
+# placement and boot shape. The US-market side photograph's 5 mph bumpers and
+# side marker lights are deliberately not modelled: the UK car had slim
+# bumpers.
+#
+# Colours. No UK colour card for the E23 was located; these are BMW programme
+# colours of the period from an aftermarket paint-code reference, so the names
+# are established BMW finishes but UK availability is probable rather than
+# proven:
+#   Alpinweiss              146, c.1977-1986
+#   Schwarz                 086, 1977-1986
+#   Polaris metallic        060, 1977-1981 (New Polaris to 1986)
+#   Saphirblau metallic     149, 1980-1984
+# Saphirblau therefore starts in 1980. Weights silver 3, black 3, blue 2,
+# white 2, total 10, provisional pending the central rebase.
+#
+# Speed 212 km/h, the 735i's quoted maximum and the 733i's as well. Comfort
+# 130/375, on the line 180 + 1.5 x 130, a step below the E32's 140/390.
+# Class 4, the top wealth band, as the other 7-series cars are.
+#
+# Dates are road presence, not production: May 1977 intro, retires staggered
+# 1997-2000 on a fourteen- to seventeen-year tail.
+#
+# Metres master: citycars/4.5/bmw-e23.blend. Interchange:
+# citycars/4.5/bmw-e23.dae (75 objects). References:
+# citycars/references/bmw-e23/ (gitignored; Wikimedia Commons).
+#
+# Accepted low-poly deviations, recorded rather than corrected: the body
+# surfaces are flatter than the photographs and the lower corners are squared.
+# At 128 px the long bonnet, upright cabin and quad lamps read correctly.
+
+obj=citycar
+name=BMW7E23(PolarisSilver)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1977
+intro_month=5
+retire_year=2000
+retire_month=6
+speed=212
+class=4
+maximum_comfortable_journey_minutes=130
+maximum_tolerable_journey_minutes=375
+
+Image[E]=./images/bmw-e23-silver_E.0.0,-33,14
+Image[SE]=./images/bmw-e23-silver_SE.0.0,-13,0
+Image[S]=./images/bmw-e23-silver_S.0.0,0,0
+Image[SW]=./images/bmw-e23-silver_SW.0.0,-8,10
+Image[W]=./images/bmw-e23-silver_W.0.0,4,5
+Image[NW]=./images/bmw-e23-silver_NW.0.0,12,10
+Image[N]=./images/bmw-e23-silver_N.0.0,0,33
+Image[NE]=./images/bmw-e23-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMW7E23(Schwarz)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1977
+intro_month=5
+retire_year=1999
+retire_month=6
+speed=212
+class=4
+maximum_comfortable_journey_minutes=130
+maximum_tolerable_journey_minutes=375
+
+Image[E]=./images/bmw-e23-black_E.0.0,-33,14
+Image[SE]=./images/bmw-e23-black_SE.0.0,-13,0
+Image[S]=./images/bmw-e23-black_S.0.0,0,0
+Image[SW]=./images/bmw-e23-black_SW.0.0,-8,10
+Image[W]=./images/bmw-e23-black_W.0.0,4,5
+Image[NW]=./images/bmw-e23-black_NW.0.0,12,10
+Image[N]=./images/bmw-e23-black_N.0.0,0,33
+Image[NE]=./images/bmw-e23-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMW7E23(Alpinweiss)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1977
+intro_month=5
+retire_year=1998
+retire_month=6
+speed=212
+class=4
+maximum_comfortable_journey_minutes=130
+maximum_tolerable_journey_minutes=375
+
+Image[E]=./images/bmw-e23-white_E.0.0,-33,14
+Image[SE]=./images/bmw-e23-white_SE.0.0,-13,0
+Image[S]=./images/bmw-e23-white_S.0.0,0,0
+Image[SW]=./images/bmw-e23-white_SW.0.0,-8,10
+Image[W]=./images/bmw-e23-white_W.0.0,4,5
+Image[NW]=./images/bmw-e23-white_NW.0.0,12,10
+Image[N]=./images/bmw-e23-white_N.0.0,0,33
+Image[NE]=./images/bmw-e23-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMW7E23(Saphirblau)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1980
+intro_month=9
+retire_year=1997
+retire_month=6
+speed=212
+class=4
+maximum_comfortable_journey_minutes=130
+maximum_tolerable_journey_minutes=375
+
+Image[E]=./images/bmw-e23-blue_E.0.0,-33,14
+Image[SE]=./images/bmw-e23-blue_SE.0.0,-13,0
+Image[S]=./images/bmw-e23-blue_S.0.0,0,0
+Image[SW]=./images/bmw-e23-blue_SW.0.0,-8,10
+Image[W]=./images/bmw-e23-blue_W.0.0,4,5
+Image[NW]=./images/bmw-e23-blue_NW.0.0,12,10
+Image[N]=./images/bmw-e23-blue_N.0.0,0,33
+Image[NE]=./images/bmw-e23-blue_NE.0.0,0,24

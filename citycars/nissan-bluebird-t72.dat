@@ -1,0 +1,124 @@
+# Nissan Bluebird T72 four-door saloon, 1986-1990.
+#
+# The T72 is the same Auster-based shell as the T12, but built at Washington,
+# Tyne and Wear from July 1986 instead of imported from Japan. The facelifted
+# 1989-90 car is modelled, with the split grille; the early T72 nose and the
+# hatchback added in January 1987 are not.
+# https://en.wikipedia.org/wiki/Nissan_Violet
+#
+# Dimensions 4.400 x 1.690 x 1.395 m, wheelbase 2.550 m — identical to the T12
+# because it is the same body. The shell was inherited from the T12 master
+# rather than rebuilt. Side indicators take the modelled width to 1.702 m.
+#
+# Colours. No UK colour chart for the T72 was located, so the objects carry plain
+# colour names: silver, blue, red and white, the same four as the T12. Weights
+# silver 3, blue 3, red 2, white 2, total 10, provisional pending the central
+# rebase.
+#
+# Speed 175 km/h for the 1.8. Comfort 82/303, on the line 180 + 1.5 x 82, a
+# hair above the imported T12's 80/300 because the British-built car was better
+# trimmed. Classes 1,2.
+#
+# Dates are road presence: July 1986 intro, retires staggered 2002-2005 on a
+# fifteen- to nineteen-year tail.
+#
+# Metres master: citycars/4.5/nissan-bluebird-t72.blend. Interchange:
+# citycars/4.5/nissan-bluebird-t72.dae (52 objects). References:
+# citycars/references/nissan-bluebird-t72/ (gitignored; Wikimedia Commons).
+#
+# Recorded limitation: no rear photograph of a facelift T72 saloon was available
+# — the only rear view in the pack is of the hatchback, whose tail cannot verify
+# a saloon. The revised rear-lamp subdivision is therefore provisional. At 128 px
+# the notchback roofline and the split-grille nose read as the T72.
+
+obj=citycar
+name=NissanBluebirdT72(Silver)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1986
+intro_month=7
+retire_year=2005
+retire_month=6
+speed=175
+class=1,2
+maximum_comfortable_journey_minutes=82
+maximum_tolerable_journey_minutes=303
+
+Image[E]=./images/nissan-bluebird-t72-silver_E.0.0,-33,14
+Image[SE]=./images/nissan-bluebird-t72-silver_SE.0.0,-13,0
+Image[S]=./images/nissan-bluebird-t72-silver_S.0.0,0,0
+Image[SW]=./images/nissan-bluebird-t72-silver_SW.0.0,-8,10
+Image[W]=./images/nissan-bluebird-t72-silver_W.0.0,4,5
+Image[NW]=./images/nissan-bluebird-t72-silver_NW.0.0,12,10
+Image[N]=./images/nissan-bluebird-t72-silver_N.0.0,0,33
+Image[NE]=./images/nissan-bluebird-t72-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=NissanBluebirdT72(Blue)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1986
+intro_month=7
+retire_year=2004
+retire_month=6
+speed=175
+class=1,2
+maximum_comfortable_journey_minutes=82
+maximum_tolerable_journey_minutes=303
+
+Image[E]=./images/nissan-bluebird-t72-blue_E.0.0,-33,14
+Image[SE]=./images/nissan-bluebird-t72-blue_SE.0.0,-13,0
+Image[S]=./images/nissan-bluebird-t72-blue_S.0.0,0,0
+Image[SW]=./images/nissan-bluebird-t72-blue_SW.0.0,-8,10
+Image[W]=./images/nissan-bluebird-t72-blue_W.0.0,4,5
+Image[NW]=./images/nissan-bluebird-t72-blue_NW.0.0,12,10
+Image[N]=./images/nissan-bluebird-t72-blue_N.0.0,0,33
+Image[NE]=./images/nissan-bluebird-t72-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=NissanBluebirdT72(Red)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1986
+intro_month=7
+retire_year=2003
+retire_month=6
+speed=175
+class=1,2
+maximum_comfortable_journey_minutes=82
+maximum_tolerable_journey_minutes=303
+
+Image[E]=./images/nissan-bluebird-t72-red_E.0.0,-33,14
+Image[SE]=./images/nissan-bluebird-t72-red_SE.0.0,-13,0
+Image[S]=./images/nissan-bluebird-t72-red_S.0.0,0,0
+Image[SW]=./images/nissan-bluebird-t72-red_SW.0.0,-8,10
+Image[W]=./images/nissan-bluebird-t72-red_W.0.0,4,5
+Image[NW]=./images/nissan-bluebird-t72-red_NW.0.0,12,10
+Image[N]=./images/nissan-bluebird-t72-red_N.0.0,0,33
+Image[NE]=./images/nissan-bluebird-t72-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=NissanBluebirdT72(White)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1986
+intro_month=7
+retire_year=2002
+retire_month=6
+speed=175
+class=1,2
+maximum_comfortable_journey_minutes=82
+maximum_tolerable_journey_minutes=303
+
+Image[E]=./images/nissan-bluebird-t72-white_E.0.0,-33,14
+Image[SE]=./images/nissan-bluebird-t72-white_SE.0.0,-13,0
+Image[S]=./images/nissan-bluebird-t72-white_S.0.0,0,0
+Image[SW]=./images/nissan-bluebird-t72-white_SW.0.0,-8,10
+Image[W]=./images/nissan-bluebird-t72-white_W.0.0,4,5
+Image[NW]=./images/nissan-bluebird-t72-white_NW.0.0,12,10
+Image[N]=./images/nissan-bluebird-t72-white_N.0.0,0,33
+Image[NE]=./images/nissan-bluebird-t72-white_NE.0.0,0,24

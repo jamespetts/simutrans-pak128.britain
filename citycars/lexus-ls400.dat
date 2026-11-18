@@ -1,0 +1,112 @@
+# Lexus LS400 four-door saloon, 1990-1994.
+#
+# The car that launched Lexus: 5,000 mm long, 1,830 mm wide, 1,410 mm high,
+# 2,850 mm wheelbase; 4.0 V8, rear-wheel drive, air suspension optional. Built to
+# undercut the S-Class and 7-series and a small but significant British import.
+# https://en.wikipedia.org/wiki/Lexus_LS
+#
+# Colours: Black, Silver, Blue and Grey are documented Lexus colours of the period.
+#
+# Weight: 20 in total (black 7, silver 6, blue 4, grey 3).
+#
+# Speed 250 km/h; comfort 145/395 (line). Class 4.
+# Dates: 1990-1994 with a road tail to about 2006.
+#
+# Metres master: citycars/4.5/lexus-ls400.blend. References:
+# citycars/references/lexus-ls400/ (gitignored). Images via Wikimedia Commons.
+#
+# Gate C, 2026-11-16: accepted as built. Known deviation: angular low-poly body and
+# simple rectangular lamp units, as with the other order-23 cars; silhouette, glass
+# band (26-27% of height) and proportions match. No correction round.
+
+obj=citycar
+name=LexusLS400(Black)
+copyright=JamesPetts
+
+DistributionWeight=7
+intro_year=1990
+intro_month=6
+retire_year=2006
+retire_month=6
+speed=250
+class=4
+maximum_comfortable_journey_minutes=145
+maximum_tolerable_journey_minutes=395
+
+Image[E]=./images/lexus-ls400-black_E.0.0,-33,14
+Image[SE]=./images/lexus-ls400-black_SE.0.0,-13,0
+Image[S]=./images/lexus-ls400-black_S.0.0,0,0
+Image[SW]=./images/lexus-ls400-black_SW.0.0,-8,10
+Image[W]=./images/lexus-ls400-black_W.0.0,4,5
+Image[NW]=./images/lexus-ls400-black_NW.0.0,12,10
+Image[N]=./images/lexus-ls400-black_N.0.0,0,33
+Image[NE]=./images/lexus-ls400-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=LexusLS400(Silver)
+copyright=JamesPetts
+
+DistributionWeight=6
+intro_year=1990
+intro_month=6
+retire_year=2005
+retire_month=6
+speed=250
+class=4
+maximum_comfortable_journey_minutes=145
+maximum_tolerable_journey_minutes=395
+
+Image[E]=./images/lexus-ls400-silver_E.0.0,-33,14
+Image[SE]=./images/lexus-ls400-silver_SE.0.0,-13,0
+Image[S]=./images/lexus-ls400-silver_S.0.0,0,0
+Image[SW]=./images/lexus-ls400-silver_SW.0.0,-8,10
+Image[W]=./images/lexus-ls400-silver_W.0.0,4,5
+Image[NW]=./images/lexus-ls400-silver_NW.0.0,12,10
+Image[N]=./images/lexus-ls400-silver_N.0.0,0,33
+Image[NE]=./images/lexus-ls400-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=LexusLS400(Blue)
+copyright=JamesPetts
+
+DistributionWeight=4
+intro_year=1991
+intro_month=3
+retire_year=2004
+retire_month=6
+speed=250
+class=4
+maximum_comfortable_journey_minutes=145
+maximum_tolerable_journey_minutes=395
+
+Image[E]=./images/lexus-ls400-blue_E.0.0,-33,14
+Image[SE]=./images/lexus-ls400-blue_SE.0.0,-13,0
+Image[S]=./images/lexus-ls400-blue_S.0.0,0,0
+Image[SW]=./images/lexus-ls400-blue_SW.0.0,-8,10
+Image[W]=./images/lexus-ls400-blue_W.0.0,4,5
+Image[NW]=./images/lexus-ls400-blue_NW.0.0,12,10
+Image[N]=./images/lexus-ls400-blue_N.0.0,0,33
+Image[NE]=./images/lexus-ls400-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=LexusLS400(Grey)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1992
+intro_month=3
+retire_year=2003
+retire_month=6
+speed=250
+class=4
+maximum_comfortable_journey_minutes=145
+maximum_tolerable_journey_minutes=395
+
+Image[E]=./images/lexus-ls400-grey_E.0.0,-33,14
+Image[SE]=./images/lexus-ls400-grey_SE.0.0,-13,0
+Image[S]=./images/lexus-ls400-grey_S.0.0,0,0
+Image[SW]=./images/lexus-ls400-grey_SW.0.0,-8,10
+Image[W]=./images/lexus-ls400-grey_W.0.0,4,5
+Image[NW]=./images/lexus-ls400-grey_NW.0.0,12,10
+Image[N]=./images/lexus-ls400-grey_N.0.0,0,33
+Image[NE]=./images/lexus-ls400-grey_NE.0.0,0,24

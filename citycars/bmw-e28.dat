@@ -1,0 +1,133 @@
+# BMW 5 Series E28 four-door saloon, 1981-1987.
+#
+# The second 5-series: a squarer, larger development of the E12 on the same
+# three-box layout, with the low waistline and thin pillars of the early 1980s.
+# https://en.wikipedia.org/wiki/BMW_5_Series_(E28)
+#
+# Dimensions 4.620 x 1.700 x 1.415 m, wheelbase 2.625 m, from the English
+# Wikipedia dimension box. Mirrors and rubbing strips take the modelled width
+# past the body figure.
+#
+# Colours. A UK colour card for the E28 was not located; the research for this
+# model found only aftermarket paint-code lists, which do not establish UK
+# availability. The four names below are BMW programme colours of the period
+# from the E21 paint register (BMWE21.net), which reproduces the 1978/79 and
+# 1980-on brochure colour pages, and each is documented as offered inside the
+# E28's production years:
+#   Polaris metallic  060, offered 1975-1984
+#   Saphirblau meta.  149, offered 1980-1984
+#   Hennarot          052, offered 1980-1984
+#   Schwarz           086, offered 1975-1982
+# This is recorded as period BMW palette evidence, not as proof of UK
+# availability, which the research could not establish either way.
+# Weights silver 3, red 3, blue 2, black 2, total 10, provisional pending the
+# central rebase.
+#
+# Speed 205 km/h, below the 535i's 225 km/h and above the four-cylinder cars,
+# for the volume UK six-cylinder models. Comfort 115/350, on the line
+# 180 + 1.5 x 115, the same as the E36. Classes 2,3.
+#
+# Dates are road presence, not production: September 1981 intro, retires
+# staggered 1999-2002 on an eighteen- to twenty-one-year tail.
+#
+# Metres master: citycars/4.5/bmw-e28.blend. Interchange:
+# citycars/4.5/bmw-e28.dae (53 objects). References:
+# citycars/references/bmw-e28/ (gitignored; Wikimedia Commons).
+#
+# Accepted low-poly deviations, recorded rather than corrected: the corners are
+# simplified and the rubbing strips carry slightly proud of the body. The
+# profile photograph's apparent wheelbase/length ratio is 0.567 against the
+# published 0.571; perspective prevents treating that as a dimensional
+# contradiction, and the published dimensions were kept.
+
+obj=citycar
+name=BMW5E28(PolarisSilver)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1981
+intro_month=9
+retire_year=2002
+retire_month=6
+speed=205
+class=2,3
+maximum_comfortable_journey_minutes=115
+maximum_tolerable_journey_minutes=350
+
+Image[E]=./images/bmw-e28-silver_E.0.0,-33,14
+Image[SE]=./images/bmw-e28-silver_SE.0.0,-13,0
+Image[S]=./images/bmw-e28-silver_S.0.0,0,0
+Image[SW]=./images/bmw-e28-silver_SW.0.0,-8,10
+Image[W]=./images/bmw-e28-silver_W.0.0,4,5
+Image[NW]=./images/bmw-e28-silver_NW.0.0,12,10
+Image[N]=./images/bmw-e28-silver_N.0.0,0,33
+Image[NE]=./images/bmw-e28-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMW5E28(Hennarot)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1981
+intro_month=9
+retire_year=2001
+retire_month=6
+speed=205
+class=2,3
+maximum_comfortable_journey_minutes=115
+maximum_tolerable_journey_minutes=350
+
+Image[E]=./images/bmw-e28-red_E.0.0,-33,14
+Image[SE]=./images/bmw-e28-red_SE.0.0,-13,0
+Image[S]=./images/bmw-e28-red_S.0.0,0,0
+Image[SW]=./images/bmw-e28-red_SW.0.0,-8,10
+Image[W]=./images/bmw-e28-red_W.0.0,4,5
+Image[NW]=./images/bmw-e28-red_NW.0.0,12,10
+Image[N]=./images/bmw-e28-red_N.0.0,0,33
+Image[NE]=./images/bmw-e28-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMW5E28(Saphirblau)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1981
+intro_month=9
+retire_year=2000
+retire_month=6
+speed=205
+class=2,3
+maximum_comfortable_journey_minutes=115
+maximum_tolerable_journey_minutes=350
+
+Image[E]=./images/bmw-e28-blue_E.0.0,-33,14
+Image[SE]=./images/bmw-e28-blue_SE.0.0,-13,0
+Image[S]=./images/bmw-e28-blue_S.0.0,0,0
+Image[SW]=./images/bmw-e28-blue_SW.0.0,-8,10
+Image[W]=./images/bmw-e28-blue_W.0.0,4,5
+Image[NW]=./images/bmw-e28-blue_NW.0.0,12,10
+Image[N]=./images/bmw-e28-blue_N.0.0,0,33
+Image[NE]=./images/bmw-e28-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMW5E28(Schwarz)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1981
+intro_month=9
+retire_year=1999
+retire_month=6
+speed=205
+class=2,3
+maximum_comfortable_journey_minutes=115
+maximum_tolerable_journey_minutes=350
+
+Image[E]=./images/bmw-e28-black_E.0.0,-33,14
+Image[SE]=./images/bmw-e28-black_SE.0.0,-13,0
+Image[S]=./images/bmw-e28-black_S.0.0,0,0
+Image[SW]=./images/bmw-e28-black_SW.0.0,-8,10
+Image[W]=./images/bmw-e28-black_W.0.0,4,5
+Image[NW]=./images/bmw-e28-black_NW.0.0,12,10
+Image[N]=./images/bmw-e28-black_N.0.0,0,33
+Image[NE]=./images/bmw-e28-black_NE.0.0,0,24

@@ -1,0 +1,110 @@
+# Jaguar XJ6 Series 1-3 four-door saloon, 1968-1987.
+#
+# The XJ6: 4,826 mm long (Series 3 4,955 mm), 1,771 mm wide, 1,334 mm high
+# (Series 3 1,375 mm), 2,769 mm wheelbase; 2.8/3.4/4.2 sixes. Series 1 1968-73,
+# Series 2 1973-79, Series 3 1979-87. The class-3/4 executive Jaguar of the 1970s
+# and 1980s. https://en.wikipedia.org/wiki/Jaguar_XJ
+#
+# Colours: British Racing Green, Silver, Sapphire Blue and Black are documented
+# Jaguar finishes of the period.
+#
+# Weight: 70 in total (green 22, silver 18, blue 16, black 14).
+#
+# Speed 210 km/h; comfort 130/375 (line). Classes 3,4.
+# Dates: 1968-1987 with a road tail to about 1997.
+#
+# Metres master: citycars/4.5/jaguar-xj6-series1.blend. References:
+# citycars/references/jaguar-xj6-series1/ (gitignored). Images via Wikimedia
+# Commons.
+
+obj=citycar
+name=JaguarXJ6Series1(BritishRacingGreen)
+copyright=JamesPetts
+
+DistributionWeight=22
+intro_year=1968
+intro_month=9
+retire_year=1997
+retire_month=6
+speed=210
+class=3,4
+maximum_comfortable_journey_minutes=130
+maximum_tolerable_journey_minutes=375
+
+Image[E]=./images/jaguar-xj6-series1-green_E.0.0,-33,14
+Image[SE]=./images/jaguar-xj6-series1-green_SE.0.0,-13,0
+Image[S]=./images/jaguar-xj6-series1-green_S.0.0,0,0
+Image[SW]=./images/jaguar-xj6-series1-green_SW.0.0,-8,10
+Image[W]=./images/jaguar-xj6-series1-green_W.0.0,4,5
+Image[NW]=./images/jaguar-xj6-series1-green_NW.0.0,12,10
+Image[N]=./images/jaguar-xj6-series1-green_N.0.0,0,33
+Image[NE]=./images/jaguar-xj6-series1-green_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=JaguarXJ6Series1(Silver)
+copyright=JamesPetts
+
+DistributionWeight=18
+intro_year=1968
+intro_month=9
+retire_year=1996
+retire_month=6
+speed=210
+class=3,4
+maximum_comfortable_journey_minutes=130
+maximum_tolerable_journey_minutes=375
+
+Image[E]=./images/jaguar-xj6-series1-silver_E.0.0,-33,14
+Image[SE]=./images/jaguar-xj6-series1-silver_SE.0.0,-13,0
+Image[S]=./images/jaguar-xj6-series1-silver_S.0.0,0,0
+Image[SW]=./images/jaguar-xj6-series1-silver_SW.0.0,-8,10
+Image[W]=./images/jaguar-xj6-series1-silver_W.0.0,4,5
+Image[NW]=./images/jaguar-xj6-series1-silver_NW.0.0,12,10
+Image[N]=./images/jaguar-xj6-series1-silver_N.0.0,0,33
+Image[NE]=./images/jaguar-xj6-series1-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=JaguarXJ6Series1(SapphireBlue)
+copyright=JamesPetts
+
+DistributionWeight=16
+intro_year=1970
+intro_month=3
+retire_year=1995
+retire_month=6
+speed=210
+class=3,4
+maximum_comfortable_journey_minutes=130
+maximum_tolerable_journey_minutes=375
+
+Image[E]=./images/jaguar-xj6-series1-blue_E.0.0,-33,14
+Image[SE]=./images/jaguar-xj6-series1-blue_SE.0.0,-13,0
+Image[S]=./images/jaguar-xj6-series1-blue_S.0.0,0,0
+Image[SW]=./images/jaguar-xj6-series1-blue_SW.0.0,-8,10
+Image[W]=./images/jaguar-xj6-series1-blue_W.0.0,4,5
+Image[NW]=./images/jaguar-xj6-series1-blue_NW.0.0,12,10
+Image[N]=./images/jaguar-xj6-series1-blue_N.0.0,0,33
+Image[NE]=./images/jaguar-xj6-series1-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=JaguarXJ6Series1(Black)
+copyright=JamesPetts
+
+DistributionWeight=14
+intro_year=1972
+intro_month=3
+retire_year=1994
+retire_month=6
+speed=210
+class=3,4
+maximum_comfortable_journey_minutes=130
+maximum_tolerable_journey_minutes=375
+
+Image[E]=./images/jaguar-xj6-series1-black_E.0.0,-33,14
+Image[SE]=./images/jaguar-xj6-series1-black_SE.0.0,-13,0
+Image[S]=./images/jaguar-xj6-series1-black_S.0.0,0,0
+Image[SW]=./images/jaguar-xj6-series1-black_SW.0.0,-8,10
+Image[W]=./images/jaguar-xj6-series1-black_W.0.0,4,5
+Image[NW]=./images/jaguar-xj6-series1-black_NW.0.0,12,10
+Image[N]=./images/jaguar-xj6-series1-black_N.0.0,0,33
+Image[NE]=./images/jaguar-xj6-series1-black_NE.0.0,0,24

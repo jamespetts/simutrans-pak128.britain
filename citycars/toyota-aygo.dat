@@ -1,0 +1,108 @@
+# Toyota Aygo five-door hatchback, 2005-2014.
+#
+# The Toyota version of the Toyota/Peugeot/Citroën city-car trio, built in the
+# Czech Republic: 3,415 mm long, 1,615 mm wide, 1,465 mm high, 2,340 mm
+# wheelbase; 1.0 three-cylinder petrol. Facelift in 2009.
+# https://en.wikipedia.org/wiki/Toyota_Aygo
+#
+# Colours: White, Red, Blue and Grey are documented Toyota colours of the period.
+#
+# Weight: 40 in total (white 14, red 10, blue 9, grey 7).
+#
+# Speed 155 km/h; comfort 75/295 (line). Classes 0,1.
+# Dates: 2005-2014 with a road tail to about 2024.
+#
+# Metres master: citycars/4.5/toyota-aygo.blend. References:
+# citycars/references/toyota-aygo/ (gitignored). Images via Wikimedia Commons.
+
+obj=citycar
+name=ToyotaAygo(White)
+copyright=JamesPetts
+
+DistributionWeight=14
+intro_year=2005
+intro_month=7
+retire_year=2024
+retire_month=6
+speed=155
+class=0,1
+maximum_comfortable_journey_minutes=75
+maximum_tolerable_journey_minutes=295
+
+Image[E]=./images/toyota-aygo-white_E.0.0,-33,14
+Image[SE]=./images/toyota-aygo-white_SE.0.0,-13,0
+Image[S]=./images/toyota-aygo-white_S.0.0,0,0
+Image[SW]=./images/toyota-aygo-white_SW.0.0,-8,12
+Image[W]=./images/toyota-aygo-white_W.0.0,4,5
+Image[NW]=./images/toyota-aygo-white_NW.0.0,12,10
+Image[N]=./images/toyota-aygo-white_N.0.0,0,33
+Image[NE]=./images/toyota-aygo-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=ToyotaAygo(Red)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=2005
+intro_month=7
+retire_year=2023
+retire_month=6
+speed=155
+class=0,1
+maximum_comfortable_journey_minutes=75
+maximum_tolerable_journey_minutes=295
+
+Image[E]=./images/toyota-aygo-red_E.0.0,-33,14
+Image[SE]=./images/toyota-aygo-red_SE.0.0,-13,0
+Image[S]=./images/toyota-aygo-red_S.0.0,0,0
+Image[SW]=./images/toyota-aygo-red_SW.0.0,-8,12
+Image[W]=./images/toyota-aygo-red_W.0.0,4,5
+Image[NW]=./images/toyota-aygo-red_NW.0.0,12,10
+Image[N]=./images/toyota-aygo-red_N.0.0,0,33
+Image[NE]=./images/toyota-aygo-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=ToyotaAygo(Blue)
+copyright=JamesPetts
+
+DistributionWeight=9
+intro_year=2006
+intro_month=3
+retire_year=2022
+retire_month=6
+speed=155
+class=0,1
+maximum_comfortable_journey_minutes=75
+maximum_tolerable_journey_minutes=295
+
+Image[E]=./images/toyota-aygo-blue_E.0.0,-33,14
+Image[SE]=./images/toyota-aygo-blue_SE.0.0,-13,0
+Image[S]=./images/toyota-aygo-blue_S.0.0,0,0
+Image[SW]=./images/toyota-aygo-blue_SW.0.0,-8,12
+Image[W]=./images/toyota-aygo-blue_W.0.0,4,5
+Image[NW]=./images/toyota-aygo-blue_NW.0.0,12,10
+Image[N]=./images/toyota-aygo-blue_N.0.0,0,33
+Image[NE]=./images/toyota-aygo-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=ToyotaAygo(Grey)
+copyright=JamesPetts
+
+DistributionWeight=7
+intro_year=2007
+intro_month=3
+retire_year=2021
+retire_month=6
+speed=155
+class=0,1
+maximum_comfortable_journey_minutes=75
+maximum_tolerable_journey_minutes=295
+
+Image[E]=./images/toyota-aygo-grey_E.0.0,-33,14
+Image[SE]=./images/toyota-aygo-grey_SE.0.0,-13,0
+Image[S]=./images/toyota-aygo-grey_S.0.0,0,0
+Image[SW]=./images/toyota-aygo-grey_SW.0.0,-8,12
+Image[W]=./images/toyota-aygo-grey_W.0.0,4,5
+Image[NW]=./images/toyota-aygo-grey_NW.0.0,12,10
+Image[N]=./images/toyota-aygo-grey_N.0.0,0,33
+Image[NE]=./images/toyota-aygo-grey_NE.0.0,0,24

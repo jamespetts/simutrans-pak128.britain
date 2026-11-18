@@ -1,0 +1,110 @@
+# Rolls-Royce 25/30, 1936-1938.
+#
+# The 25/30 replaced the 20/25: 4,257 cc six, wheelbase 3,353 mm, overall
+# dimensions body-dependent (about 5,080 x 1,830 x 1,700 mm as a saloon). About
+# 1,201 chassis built before the Wraith succeeded it; the last of the small
+# pre-war Rolls-Royces and a class-4 model of the late 1930s.
+# https://en.wikipedia.org/wiki/Rolls-Royce_25/30
+#
+# Colours: Black, Dark Green, Maroon and Grey are documented period finishes.
+#
+# Weight: 10 in total (black 4, green 3, maroon 2, grey 1).
+#
+# Speed 130 km/h; comfort 80/300 (line). Class 4.
+# Dates: 1936-1938 with a road tail to about 1960.
+#
+# Metres master: citycars/4.5/rolls-royce-25-30.blend. References:
+# citycars/references/rolls-royce-25-30/ (gitignored). Images via Wikimedia
+# Commons.
+
+obj=citycar
+name=RollsRoyce2530(Black)
+copyright=JamesPetts
+
+DistributionWeight=4
+intro_year=1936
+intro_month=4
+retire_year=1960
+retire_month=6
+speed=130
+class=4
+maximum_comfortable_journey_minutes=80
+maximum_tolerable_journey_minutes=300
+
+Image[E]=./images/rolls-royce-25-30-black_E.0.0,-33,14
+Image[SE]=./images/rolls-royce-25-30-black_SE.0.0,-13,0
+Image[S]=./images/rolls-royce-25-30-black_S.0.0,0,0
+Image[SW]=./images/rolls-royce-25-30-black_SW.0.0,-8,10
+Image[W]=./images/rolls-royce-25-30-black_W.0.0,4,5
+Image[NW]=./images/rolls-royce-25-30-black_NW.0.0,12,10
+Image[N]=./images/rolls-royce-25-30-black_N.0.0,0,33
+Image[NE]=./images/rolls-royce-25-30-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RollsRoyce2530(DarkGreen)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1936
+intro_month=4
+retire_year=1959
+retire_month=6
+speed=130
+class=4
+maximum_comfortable_journey_minutes=80
+maximum_tolerable_journey_minutes=300
+
+Image[E]=./images/rolls-royce-25-30-green_E.0.0,-33,14
+Image[SE]=./images/rolls-royce-25-30-green_SE.0.0,-13,0
+Image[S]=./images/rolls-royce-25-30-green_S.0.0,0,0
+Image[SW]=./images/rolls-royce-25-30-green_SW.0.0,-8,10
+Image[W]=./images/rolls-royce-25-30-green_W.0.0,4,5
+Image[NW]=./images/rolls-royce-25-30-green_NW.0.0,12,10
+Image[N]=./images/rolls-royce-25-30-green_N.0.0,0,33
+Image[NE]=./images/rolls-royce-25-30-green_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RollsRoyce2530(Maroon)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1937
+intro_month=3
+retire_year=1958
+retire_month=6
+speed=130
+class=4
+maximum_comfortable_journey_minutes=80
+maximum_tolerable_journey_minutes=300
+
+Image[E]=./images/rolls-royce-25-30-maroon_E.0.0,-33,14
+Image[SE]=./images/rolls-royce-25-30-maroon_SE.0.0,-13,0
+Image[S]=./images/rolls-royce-25-30-maroon_S.0.0,0,0
+Image[SW]=./images/rolls-royce-25-30-maroon_SW.0.0,-8,10
+Image[W]=./images/rolls-royce-25-30-maroon_W.0.0,4,5
+Image[NW]=./images/rolls-royce-25-30-maroon_NW.0.0,12,10
+Image[N]=./images/rolls-royce-25-30-maroon_N.0.0,0,33
+Image[NE]=./images/rolls-royce-25-30-maroon_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RollsRoyce2530(Grey)
+copyright=JamesPetts
+
+DistributionWeight=1
+intro_year=1937
+intro_month=6
+retire_year=1957
+retire_month=6
+speed=130
+class=4
+maximum_comfortable_journey_minutes=80
+maximum_tolerable_journey_minutes=300
+
+Image[E]=./images/rolls-royce-25-30-grey_E.0.0,-33,14
+Image[SE]=./images/rolls-royce-25-30-grey_SE.0.0,-13,0
+Image[S]=./images/rolls-royce-25-30-grey_S.0.0,0,0
+Image[SW]=./images/rolls-royce-25-30-grey_SW.0.0,-8,10
+Image[W]=./images/rolls-royce-25-30-grey_W.0.0,4,5
+Image[NW]=./images/rolls-royce-25-30-grey_NW.0.0,12,10
+Image[N]=./images/rolls-royce-25-30-grey_N.0.0,0,33
+Image[NE]=./images/rolls-royce-25-30-grey_NE.0.0,0,24

@@ -1,0 +1,110 @@
+# Vauxhall Astra Mk2 five-door hatchback, 1984-1991.
+#
+# The second Astra: the Opel Kadett E twin, launched October 1984, Car of the Year
+# 1985; 4,003 mm long, 1,663 mm wide, 1,390 mm high, 2,520 mm wheelbase.
+# https://en.wikipedia.org/wiki/Opel_Kadett#Kadett_E_(1984%E2%80%931991)
+#
+# Colours: Carmine Red, Astro Silver, White Gold and Helios Blue are documented
+# Vauxhall colours of the period.
+#
+# Weight: 280 in total (blue 90, red 70, silver 65, white 55), the Astra becoming
+# a top-three UK seller in this generation.
+#
+# Speed 160 km/h; comfort 95/325 (line). Classes 1,2.
+# Dates: 1984-1991 with a road tail to about 1999.
+#
+# Metres master: citycars/4.5/vauxhall-astra-mk2.blend. References:
+# citycars/references/vauxhall-astra-mk2/ (gitignored). Images via Wikimedia
+# Commons.
+
+obj=citycar
+name=VauxhallAstraMk2(HeliosBlue)
+copyright=JamesPetts
+
+DistributionWeight=90
+intro_year=1984
+intro_month=10
+retire_year=1999
+retire_month=6
+speed=160
+class=1,2
+maximum_comfortable_journey_minutes=95
+maximum_tolerable_journey_minutes=325
+
+Image[E]=./images/vauxhall-astra-mk2-blue_E.0.0,-33,14
+Image[SE]=./images/vauxhall-astra-mk2-blue_SE.0.0,-13,0
+Image[S]=./images/vauxhall-astra-mk2-blue_S.0.0,0,0
+Image[SW]=./images/vauxhall-astra-mk2-blue_SW.0.0,-8,10
+Image[W]=./images/vauxhall-astra-mk2-blue_W.0.0,4,5
+Image[NW]=./images/vauxhall-astra-mk2-blue_NW.0.0,12,10
+Image[N]=./images/vauxhall-astra-mk2-blue_N.0.0,0,33
+Image[NE]=./images/vauxhall-astra-mk2-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallAstraMk2(CarmineRed)
+copyright=JamesPetts
+
+DistributionWeight=70
+intro_year=1984
+intro_month=10
+retire_year=1997
+retire_month=12
+speed=160
+class=1,2
+maximum_comfortable_journey_minutes=95
+maximum_tolerable_journey_minutes=325
+
+Image[E]=./images/vauxhall-astra-mk2-red_E.0.0,-33,14
+Image[SE]=./images/vauxhall-astra-mk2-red_SE.0.0,-13,0
+Image[S]=./images/vauxhall-astra-mk2-red_S.0.0,0,0
+Image[SW]=./images/vauxhall-astra-mk2-red_SW.0.0,-8,10
+Image[W]=./images/vauxhall-astra-mk2-red_W.0.0,4,5
+Image[NW]=./images/vauxhall-astra-mk2-red_NW.0.0,12,10
+Image[N]=./images/vauxhall-astra-mk2-red_N.0.0,0,33
+Image[NE]=./images/vauxhall-astra-mk2-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallAstraMk2(AstroSilver)
+copyright=JamesPetts
+
+DistributionWeight=65
+intro_year=1985
+intro_month=3
+retire_year=1998
+retire_month=6
+speed=160
+class=1,2
+maximum_comfortable_journey_minutes=95
+maximum_tolerable_journey_minutes=325
+
+Image[E]=./images/vauxhall-astra-mk2-silver_E.0.0,-33,14
+Image[SE]=./images/vauxhall-astra-mk2-silver_SE.0.0,-13,0
+Image[S]=./images/vauxhall-astra-mk2-silver_S.0.0,0,0
+Image[SW]=./images/vauxhall-astra-mk2-silver_SW.0.0,-8,10
+Image[W]=./images/vauxhall-astra-mk2-silver_W.0.0,4,5
+Image[NW]=./images/vauxhall-astra-mk2-silver_NW.0.0,12,10
+Image[N]=./images/vauxhall-astra-mk2-silver_N.0.0,0,33
+Image[NE]=./images/vauxhall-astra-mk2-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallAstraMk2(WhiteGold)
+copyright=JamesPetts
+
+DistributionWeight=55
+intro_year=1985
+intro_month=3
+retire_year=1996
+retire_month=6
+speed=160
+class=1,2
+maximum_comfortable_journey_minutes=95
+maximum_tolerable_journey_minutes=325
+
+Image[E]=./images/vauxhall-astra-mk2-white_E.0.0,-33,14
+Image[SE]=./images/vauxhall-astra-mk2-white_SE.0.0,-13,0
+Image[S]=./images/vauxhall-astra-mk2-white_S.0.0,0,0
+Image[SW]=./images/vauxhall-astra-mk2-white_SW.0.0,-8,10
+Image[W]=./images/vauxhall-astra-mk2-white_W.0.0,4,5
+Image[NW]=./images/vauxhall-astra-mk2-white_NW.0.0,12,10
+Image[N]=./images/vauxhall-astra-mk2-white_N.0.0,0,33
+Image[NE]=./images/vauxhall-astra-mk2-white_NE.0.0,0,24

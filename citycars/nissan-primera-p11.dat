@@ -1,0 +1,125 @@
+# Nissan Primera P11 four-door saloon, 1996-2002.
+#
+# The second Primera: a shorter-wheelbase, more rounded car than the P10, built
+# at Sunderland from the autumn of 1996. Pre-facelift car modelled; the
+# 1999-2002 P11-144's revised nose, lamps and tail are not represented.
+# https://en.wikipedia.org/wiki/Nissan_Primera
+#
+# Dimensions 4.430 x 1.715 x 1.400 m, wheelbase 2.600 m, from the English
+# Wikipedia P11 dimension box. The wheelbase is 104 mm shorter than the P10's,
+# which is why the two are separate shells. Mirrors take the modelled width to
+# 1.879 m.
+#
+# Colours. No UK colour chart for the P11 was located, so the objects carry
+# plain colour names: silver, red, white and blue. Weights silver 3, red 3,
+# white 2, blue 2, total 10, provisional pending the central rebase.
+#
+# Speed 178 km/h for the 1.6, the volume fleet model. Comfort 95/320, on the
+# line 180 + 1.5 x 95, a step above the P10's 90/315. Classes 1,2,3.
+#
+# Dates are road presence: October 1996 intro, retires staggered 2011-2014 on a
+# twelve- to fifteen-year tail.
+#
+# Metres master: citycars/4.5/nissan-primera-p11.blend. Interchange:
+# citycars/4.5/nissan-primera-p11.dae (53 objects). References:
+# citycars/references/nissan-primera-p11/ (gitignored; Wikimedia Commons).
+#
+# Repairs made before installation, recorded because they were completed as part
+# of the first pass rather than as a second round: the first export carried a
+# tall spoiler block with supports that the reference car does without, and its
+# tail lamps passed through the body corner. Both were rebuilt before Stage B.
+#
+# Accepted deviations: the cabin is more angular than the photographed body. At
+# 128 px the boot, the lamp bands and the wheelbase read correctly.
+
+obj=citycar
+name=NissanPrimeraP11(Silver)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1996
+intro_month=10
+retire_year=2014
+retire_month=6
+speed=178
+class=1,2,3
+maximum_comfortable_journey_minutes=95
+maximum_tolerable_journey_minutes=320
+
+Image[E]=./images/nissan-primera-p11-silver_E.0.0,-33,14
+Image[SE]=./images/nissan-primera-p11-silver_SE.0.0,-13,0
+Image[S]=./images/nissan-primera-p11-silver_S.0.0,0,0
+Image[SW]=./images/nissan-primera-p11-silver_SW.0.0,-8,10
+Image[W]=./images/nissan-primera-p11-silver_W.0.0,4,5
+Image[NW]=./images/nissan-primera-p11-silver_NW.0.0,12,10
+Image[N]=./images/nissan-primera-p11-silver_N.0.0,0,33
+Image[NE]=./images/nissan-primera-p11-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=NissanPrimeraP11(Red)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1996
+intro_month=10
+retire_year=2013
+retire_month=6
+speed=178
+class=1,2,3
+maximum_comfortable_journey_minutes=95
+maximum_tolerable_journey_minutes=320
+
+Image[E]=./images/nissan-primera-p11-red_E.0.0,-33,14
+Image[SE]=./images/nissan-primera-p11-red_SE.0.0,-13,0
+Image[S]=./images/nissan-primera-p11-red_S.0.0,0,0
+Image[SW]=./images/nissan-primera-p11-red_SW.0.0,-8,10
+Image[W]=./images/nissan-primera-p11-red_W.0.0,4,5
+Image[NW]=./images/nissan-primera-p11-red_NW.0.0,12,10
+Image[N]=./images/nissan-primera-p11-red_N.0.0,0,33
+Image[NE]=./images/nissan-primera-p11-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=NissanPrimeraP11(White)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1996
+intro_month=10
+retire_year=2012
+retire_month=6
+speed=178
+class=1,2,3
+maximum_comfortable_journey_minutes=95
+maximum_tolerable_journey_minutes=320
+
+Image[E]=./images/nissan-primera-p11-white_E.0.0,-33,14
+Image[SE]=./images/nissan-primera-p11-white_SE.0.0,-13,0
+Image[S]=./images/nissan-primera-p11-white_S.0.0,0,0
+Image[SW]=./images/nissan-primera-p11-white_SW.0.0,-8,10
+Image[W]=./images/nissan-primera-p11-white_W.0.0,4,5
+Image[NW]=./images/nissan-primera-p11-white_NW.0.0,12,10
+Image[N]=./images/nissan-primera-p11-white_N.0.0,0,33
+Image[NE]=./images/nissan-primera-p11-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=NissanPrimeraP11(Blue)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1996
+intro_month=10
+retire_year=2011
+retire_month=6
+speed=178
+class=1,2,3
+maximum_comfortable_journey_minutes=95
+maximum_tolerable_journey_minutes=320
+
+Image[E]=./images/nissan-primera-p11-blue_E.0.0,-33,14
+Image[SE]=./images/nissan-primera-p11-blue_SE.0.0,-13,0
+Image[S]=./images/nissan-primera-p11-blue_S.0.0,0,0
+Image[SW]=./images/nissan-primera-p11-blue_SW.0.0,-8,10
+Image[W]=./images/nissan-primera-p11-blue_W.0.0,4,5
+Image[NW]=./images/nissan-primera-p11-blue_NW.0.0,12,10
+Image[N]=./images/nissan-primera-p11-blue_N.0.0,0,33
+Image[NE]=./images/nissan-primera-p11-blue_NE.0.0,0,24

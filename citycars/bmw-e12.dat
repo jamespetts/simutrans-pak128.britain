@@ -1,0 +1,132 @@
+# BMW 5 Series E12 four-door saloon, 1972-1981.
+#
+# The first 5-series, and the car that set the BMW three-box pattern for the
+# next twenty years: long bonnet, upright four-door cabin, separate boot, twin
+# round headlamps each side of a paired kidney grille, chrome bumpers.
+# https://en.wikipedia.org/wiki/BMW_5_Series_(E12)
+#
+# Dimensions 4.620 x 1.690 x 1.425 m, wheelbase 2.636 m, from the English
+# Wikipedia dimension box. Mirrors and rubbing strips take the modelled width
+# past the body figure.
+#
+# Colours. A UK-market colour card for the E12 was not located, so the paint
+# names are BMW programme colours of the period, taken from the E21 paint
+# register (BMWE21.net, "Paintwork & upholstery colors", which reproduces the
+# 1975-79 and 1980-on brochure pages) and applied to the E12 on the evidence
+# that BMW used one programme across the range:
+#   Polaris metallic  060, offered 1975-1984
+#   Schwarz           086, offered 1975-1982
+#   Chamonix          085, offered 1975-1979
+#   Fjord metallic    037, offered 1975-1979
+# Chamonix and Fjord therefore start in June 1975 and retire early; Polaris and
+# Schwarz run from launch. This is weaker evidence than a UK colour card and is
+# recorded as such rather than presented as confirmed UK availability.
+# Weights silver 3, blue 3, black 2, white 2, total 10, provisional pending the
+# central rebase.
+#
+# Speed 185 km/h: between the 520's 160 km/h and the 528i's published 202 km/h,
+# the volume UK six-cylinder cars of the late 1970s. Comfort 110/345, on the
+# line 180 + 1.5 x 110. Classes 2,3.
+#
+# Dates are road presence, not production: July 1972 intro, retires staggered
+# 1993-1996 on a twenty-one- to twenty-four-year tail.
+#
+# Metres master: citycars/4.5/bmw-e12.blend. Interchange:
+# citycars/4.5/bmw-e12.dae (61 objects). References:
+# citycars/references/bmw-e12/ (gitignored; Wikimedia Commons).
+#
+# Accepted low-poly deviations, recorded rather than corrected: the lower
+# bodywork is more angular than the photographs and the bumper curvature is
+# simplified. Neither reads at 128 px.
+
+obj=citycar
+name=BMW5E12(PolarisSilver)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1972
+intro_month=7
+retire_year=1995
+retire_month=6
+speed=185
+class=2,3
+maximum_comfortable_journey_minutes=110
+maximum_tolerable_journey_minutes=345
+
+Image[E]=./images/bmw-e12-silver_E.0.0,-33,14
+Image[SE]=./images/bmw-e12-silver_SE.0.0,-13,0
+Image[S]=./images/bmw-e12-silver_S.0.0,0,0
+Image[SW]=./images/bmw-e12-silver_SW.0.0,-8,10
+Image[W]=./images/bmw-e12-silver_W.0.0,4,5
+Image[NW]=./images/bmw-e12-silver_NW.0.0,12,10
+Image[N]=./images/bmw-e12-silver_N.0.0,0,33
+Image[NE]=./images/bmw-e12-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMW5E12(FjordBlue)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1975
+intro_month=6
+retire_year=1994
+retire_month=6
+speed=185
+class=2,3
+maximum_comfortable_journey_minutes=110
+maximum_tolerable_journey_minutes=345
+
+Image[E]=./images/bmw-e12-blue_E.0.0,-33,14
+Image[SE]=./images/bmw-e12-blue_SE.0.0,-13,0
+Image[S]=./images/bmw-e12-blue_S.0.0,0,0
+Image[SW]=./images/bmw-e12-blue_SW.0.0,-8,10
+Image[W]=./images/bmw-e12-blue_W.0.0,4,5
+Image[NW]=./images/bmw-e12-blue_NW.0.0,12,10
+Image[N]=./images/bmw-e12-blue_N.0.0,0,33
+Image[NE]=./images/bmw-e12-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMW5E12(Schwarz)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1972
+intro_month=7
+retire_year=1996
+retire_month=6
+speed=185
+class=2,3
+maximum_comfortable_journey_minutes=110
+maximum_tolerable_journey_minutes=345
+
+Image[E]=./images/bmw-e12-black_E.0.0,-33,14
+Image[SE]=./images/bmw-e12-black_SE.0.0,-13,0
+Image[S]=./images/bmw-e12-black_S.0.0,0,0
+Image[SW]=./images/bmw-e12-black_SW.0.0,-8,10
+Image[W]=./images/bmw-e12-black_W.0.0,4,5
+Image[NW]=./images/bmw-e12-black_NW.0.0,12,10
+Image[N]=./images/bmw-e12-black_N.0.0,0,33
+Image[NE]=./images/bmw-e12-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMW5E12(Chamonix)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1975
+intro_month=6
+retire_year=1993
+retire_month=6
+speed=185
+class=2,3
+maximum_comfortable_journey_minutes=110
+maximum_tolerable_journey_minutes=345
+
+Image[E]=./images/bmw-e12-white_E.0.0,-33,14
+Image[SE]=./images/bmw-e12-white_SE.0.0,-13,0
+Image[S]=./images/bmw-e12-white_S.0.0,0,0
+Image[SW]=./images/bmw-e12-white_SW.0.0,-8,10
+Image[W]=./images/bmw-e12-white_W.0.0,4,5
+Image[NW]=./images/bmw-e12-white_NW.0.0,12,10
+Image[N]=./images/bmw-e12-white_N.0.0,0,33
+Image[NE]=./images/bmw-e12-white_NE.0.0,0,24

@@ -1,0 +1,95 @@
+# BSA 557 cc side-valve Sloper (H30-8 / H31-8) with a period open sidecar.
+#
+# The 1930s outfit: BSA's inclined-engine "Sloper" with an open tourer chair of
+# the Watsonian Monarch type. The 1930 catalogue lists 5.57 h.p. H30-8 as the
+# basic 557 cc side-valve Sloper: black frame, green petrol tank, 5 1/2 in front
+# brake, 19 x 300 tyres; H30-10 is the de Luxe version with 7 in brakes and
+# footboards. For 1931 the equivalent is H31-8. BSA offered eight sidecar models
+# in 1930 and four in 1931.
+# https://www.bsa1930s.nl/1930.htm
+# https://www.bsa1930s.nl/1931.htm
+#
+# The Sloper's defining shape is the forward-inclined side-valve engine in a
+# flat-to-saddle-tank frame, with a sprung saddle and a girder fork. The modelled
+# machine is the 1930/31 557 cc version in the catalogued green-tank finish.
+#
+# Sidecar: a period open tourer with a low rounded nose, open cockpit and folding
+# screen, as in the period photograph of a 1930 BSA combination (chair make not
+# identified). The Watsonian Monarch was the equivalent open tourer of the
+# period; the shape is taken from the photograph, not from a later brochure.
+#
+# Dimensions: overall about 2.05 m long x 1.40 m wide x 1.15 m high, measured
+# from the reference photographs; motorcycle wheelbase about 1.40 m; wheels
+# 19 in with 3.00 in section (about 0.72 m overall), per the 1930 catalogue.
+#
+# Colours: black frame with a green petrol tank is the catalogued 1930 finish for
+# the side-valve Slopers; the de Luxe and OHV models used chrome tanks with a
+# green top panel. Green and black are the two modelled colourways.
+#
+# Colour shares and weight: no model-level outfit counts exist for the 1930s.
+# Motorcycles remained numerous (690,672 in 1928) while the car parc passed
+# them during the decade; the outfit was the characteristic Very-low vehicle of
+# the period but was losing ground to cheap cars. Against the 1935 anchor (500)
+# the outfit is set at 120 in total: green 75, black 45. Provisional pending the
+# central rebase.
+#
+# Speed 68 km/h (42 mph): a game-balance figure for a 557 cc side-valve outfit.
+# Comfort 25/190: sprung saddle and girder fork, no rear suspension, open chair,
+# slightly better than the 1920s outfit on better roads.
+#
+# Dates describe when outfits were seen regularly on UK roads. The Sloper ran
+# from 1929 to 1932 in the catalogue; outfits remained in use through the 1930s.
+#
+# Metres master: citycars/4.5/bsa-sloper-combo.blend in the blends repository.
+# References: citycars/references/bsa-sloper-combo/ (gitignored research copies).
+# Image credits: 1930 Sloper side view, Yesterdays Antique Motorcycles, CC BY-SA
+# 4.0 via Wikimedia Commons; period outfit photograph, Old Classic Car archive
+# (R. Jones), research reference only.
+# Stage B note: +0.2781 pak units applied after preparation so the motorcycle,
+# not the combined bounding box, sits at the tile centre.
+
+obj=citycar
+name=BSASloperCombo(Green)
+copyright=JamesPetts
+
+DistributionWeight=75
+intro_year=1930
+intro_month=1
+retire_year=1939
+retire_month=6
+speed=68
+class=0,1
+maximum_comfortable_journey_minutes=25
+maximum_tolerable_journey_minutes=190
+
+Image[E]=./images/bsa-sloper-combo-green_E.0.0,-33,14
+Image[SE]=./images/bsa-sloper-combo-green_SE.0.0,-13,0
+Image[S]=./images/bsa-sloper-combo-green_S.0.0,0,0
+Image[SW]=./images/bsa-sloper-combo-green_SW.0.0,-8,10
+Image[W]=./images/bsa-sloper-combo-green_W.0.0,4,5
+Image[NW]=./images/bsa-sloper-combo-green_NW.0.0,12,10
+Image[N]=./images/bsa-sloper-combo-green_N.0.0,0,33
+Image[NE]=./images/bsa-sloper-combo-green_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BSASloperCombo(Black)
+copyright=JamesPetts
+
+DistributionWeight=45
+intro_year=1931
+intro_month=6
+retire_year=1938
+retire_month=6
+speed=68
+class=0,1
+maximum_comfortable_journey_minutes=25
+maximum_tolerable_journey_minutes=190
+
+Image[E]=./images/bsa-sloper-combo-black_E.0.0,-33,14
+Image[SE]=./images/bsa-sloper-combo-black_SE.0.0,-13,0
+Image[S]=./images/bsa-sloper-combo-black_S.0.0,0,0
+Image[SW]=./images/bsa-sloper-combo-black_SW.0.0,-8,10
+Image[W]=./images/bsa-sloper-combo-black_W.0.0,4,5
+Image[NW]=./images/bsa-sloper-combo-black_NW.0.0,12,10
+Image[N]=./images/bsa-sloper-combo-black_N.0.0,0,33
+Image[NE]=./images/bsa-sloper-combo-black_NE.0.0,0,24

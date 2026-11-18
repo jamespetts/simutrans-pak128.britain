@@ -1,0 +1,109 @@
+# Mercedes-Benz 230E (W123) four-door saloon, 1976-1986.
+#
+# The W123: 4,725 mm long, 1,786 mm wide, 1,430 mm high, 2,795 mm wheelbase;
+# 2.0-2.8 petrol and 2.0-3.0 diesel, the 230E the volume petrol model. The
+# definitive 1980s executive taxi and company car, about 2.4 million built.
+# https://en.wikipedia.org/wiki/Mercedes-Benz_W123
+#
+# Colours: Black, Brilliant Silver, Nautical Blue and Smoke Silver are period
+# Mercedes-Benz finishes.
+#
+# Weight: 150 in total (black 50, silver 40, blue 30, grey 30).
+#
+# Speed 190 km/h; comfort 110/345 (line). Classes 2,3.
+# Dates: 1976-1986 with a road tail to about 1998.
+#
+# Metres master: citycars/4.5/mercedes-w123.blend. References:
+# citycars/references/mercedes-w123/ (gitignored). Images via Wikimedia Commons.
+
+obj=citycar
+name=Mercedes230EW123(Black)
+copyright=JamesPetts
+
+DistributionWeight=50
+intro_year=1976
+intro_month=1
+retire_year=1998
+retire_month=6
+speed=190
+class=2,3
+maximum_comfortable_journey_minutes=110
+maximum_tolerable_journey_minutes=345
+
+Image[E]=./images/mercedes-w123-black_E.0.0,-33,14
+Image[SE]=./images/mercedes-w123-black_SE.0.0,-13,0
+Image[S]=./images/mercedes-w123-black_S.0.0,0,0
+Image[SW]=./images/mercedes-w123-black_SW.0.0,-8,12
+Image[W]=./images/mercedes-w123-black_W.0.0,4,5
+Image[NW]=./images/mercedes-w123-black_NW.0.0,12,10
+Image[N]=./images/mercedes-w123-black_N.0.0,0,33
+Image[NE]=./images/mercedes-w123-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Mercedes230EW123(BrilliantSilver)
+copyright=JamesPetts
+
+DistributionWeight=40
+intro_year=1976
+intro_month=1
+retire_year=1997
+retire_month=6
+speed=190
+class=2,3
+maximum_comfortable_journey_minutes=110
+maximum_tolerable_journey_minutes=345
+
+Image[E]=./images/mercedes-w123-silver_E.0.0,-33,14
+Image[SE]=./images/mercedes-w123-silver_SE.0.0,-13,0
+Image[S]=./images/mercedes-w123-silver_S.0.0,0,0
+Image[SW]=./images/mercedes-w123-silver_SW.0.0,-8,12
+Image[W]=./images/mercedes-w123-silver_W.0.0,4,5
+Image[NW]=./images/mercedes-w123-silver_NW.0.0,12,10
+Image[N]=./images/mercedes-w123-silver_N.0.0,0,33
+Image[NE]=./images/mercedes-w123-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Mercedes230EW123(NauticalBlue)
+copyright=JamesPetts
+
+DistributionWeight=30
+intro_year=1978
+intro_month=3
+retire_year=1996
+retire_month=6
+speed=190
+class=2,3
+maximum_comfortable_journey_minutes=110
+maximum_tolerable_journey_minutes=345
+
+Image[E]=./images/mercedes-w123-blue_E.0.0,-33,14
+Image[SE]=./images/mercedes-w123-blue_SE.0.0,-13,0
+Image[S]=./images/mercedes-w123-blue_S.0.0,0,0
+Image[SW]=./images/mercedes-w123-blue_SW.0.0,-8,12
+Image[W]=./images/mercedes-w123-blue_W.0.0,4,5
+Image[NW]=./images/mercedes-w123-blue_NW.0.0,12,10
+Image[N]=./images/mercedes-w123-blue_N.0.0,0,33
+Image[NE]=./images/mercedes-w123-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Mercedes230EW123(SmokeSilver)
+copyright=JamesPetts
+
+DistributionWeight=30
+intro_year=1980
+intro_month=3
+retire_year=1995
+retire_month=6
+speed=190
+class=2,3
+maximum_comfortable_journey_minutes=110
+maximum_tolerable_journey_minutes=345
+
+Image[E]=./images/mercedes-w123-grey_E.0.0,-33,14
+Image[SE]=./images/mercedes-w123-grey_SE.0.0,-13,0
+Image[S]=./images/mercedes-w123-grey_S.0.0,0,0
+Image[SW]=./images/mercedes-w123-grey_SW.0.0,-8,12
+Image[W]=./images/mercedes-w123-grey_W.0.0,4,5
+Image[NW]=./images/mercedes-w123-grey_NW.0.0,12,10
+Image[N]=./images/mercedes-w123-grey_N.0.0,0,33
+Image[NE]=./images/mercedes-w123-grey_NE.0.0,0,24

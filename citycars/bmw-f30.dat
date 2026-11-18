@@ -1,0 +1,109 @@
+# BMW 3 Series F30 four-door saloon, 2011-2019.
+#
+# The F30 3-series: 4,624 mm long, 1,811 mm wide, 1,429 mm high, 2,810 mm
+# wheelbase; 1.5-3.0 petrol and 2.0 diesel, the 320d the volume fleet model.
+# Facelift (LCI) in 2015. https://en.wikipedia.org/wiki/BMW_3_Series_(F30)
+#
+# Colours: Black Sapphire, Glacier Silver, Estoril Blue and Alpine White are
+# documented BMW finishes of the period.
+#
+# Weight: 200 in total (black 70, silver 55, blue 40, white 35), the 3-series the
+# strongest class-3 seller of the 2010s.
+#
+# Speed 240 km/h; comfort 135/385 (line). Classes 2,3.
+# Dates: 2011-2019 with a road tail to about 2030.
+#
+# Metres master: citycars/4.5/bmw-f30.blend. References:
+# citycars/references/bmw-f30/ (gitignored). Images via Wikimedia Commons.
+
+obj=citycar
+name=BMW3F30(BlackSapphire)
+copyright=JamesPetts
+
+DistributionWeight=70
+intro_year=2011
+intro_month=9
+retire_year=2030
+retire_month=6
+speed=240
+class=2,3
+maximum_comfortable_journey_minutes=135
+maximum_tolerable_journey_minutes=385
+
+Image[E]=./images/bmw-f30-black_E.0.0,-33,14
+Image[SE]=./images/bmw-f30-black_SE.0.0,-13,0
+Image[S]=./images/bmw-f30-black_S.0.0,0,0
+Image[SW]=./images/bmw-f30-black_SW.0.0,-8,10
+Image[W]=./images/bmw-f30-black_W.0.0,4,5
+Image[NW]=./images/bmw-f30-black_NW.0.0,12,10
+Image[N]=./images/bmw-f30-black_N.0.0,0,33
+Image[NE]=./images/bmw-f30-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMW3F30(GlacierSilver)
+copyright=JamesPetts
+
+DistributionWeight=55
+intro_year=2011
+intro_month=9
+retire_year=2029
+retire_month=6
+speed=240
+class=2,3
+maximum_comfortable_journey_minutes=135
+maximum_tolerable_journey_minutes=385
+
+Image[E]=./images/bmw-f30-silver_E.0.0,-33,14
+Image[SE]=./images/bmw-f30-silver_SE.0.0,-13,0
+Image[S]=./images/bmw-f30-silver_S.0.0,0,0
+Image[SW]=./images/bmw-f30-silver_SW.0.0,-8,10
+Image[W]=./images/bmw-f30-silver_W.0.0,4,5
+Image[NW]=./images/bmw-f30-silver_NW.0.0,12,10
+Image[N]=./images/bmw-f30-silver_N.0.0,0,33
+Image[NE]=./images/bmw-f30-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMW3F30(EstorilBlue)
+copyright=JamesPetts
+
+DistributionWeight=40
+intro_year=2012
+intro_month=3
+retire_year=2028
+retire_month=6
+speed=240
+class=2,3
+maximum_comfortable_journey_minutes=135
+maximum_tolerable_journey_minutes=385
+
+Image[E]=./images/bmw-f30-blue_E.0.0,-33,14
+Image[SE]=./images/bmw-f30-blue_SE.0.0,-13,0
+Image[S]=./images/bmw-f30-blue_S.0.0,0,0
+Image[SW]=./images/bmw-f30-blue_SW.0.0,-8,10
+Image[W]=./images/bmw-f30-blue_W.0.0,4,5
+Image[NW]=./images/bmw-f30-blue_NW.0.0,12,10
+Image[N]=./images/bmw-f30-blue_N.0.0,0,33
+Image[NE]=./images/bmw-f30-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMW3F30(AlpineWhite)
+copyright=JamesPetts
+
+DistributionWeight=35
+intro_year=2013
+intro_month=3
+retire_year=2027
+retire_month=6
+speed=240
+class=2,3
+maximum_comfortable_journey_minutes=135
+maximum_tolerable_journey_minutes=385
+
+Image[E]=./images/bmw-f30-white_E.0.0,-33,14
+Image[SE]=./images/bmw-f30-white_SE.0.0,-13,0
+Image[S]=./images/bmw-f30-white_S.0.0,0,0
+Image[SW]=./images/bmw-f30-white_SW.0.0,-8,10
+Image[W]=./images/bmw-f30-white_W.0.0,4,5
+Image[NW]=./images/bmw-f30-white_NW.0.0,12,10
+Image[N]=./images/bmw-f30-white_N.0.0,0,33
+Image[NE]=./images/bmw-f30-white_NE.0.0,0,24

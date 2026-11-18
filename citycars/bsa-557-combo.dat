@@ -1,0 +1,100 @@
+# BSA Model H, 557 cc side-valve single, with the BSA Type 1 sidecar.
+#
+# The 1920s outfit: BSA's own sidecar, sold with the 4¼ hp model from the 1921
+# season. The 1923 range lists the 4¼ hp as 85 x 97 mm (557 cc), single cylinder
+# four-stroke side-valve, drip-feed lubrication, BSA carburettor, chain-driven
+# magneto, three-speed gearbox with clutch and kick-starter, chain drive, and
+# 26 x 2½ in tyres; solo £75, with sidecar £95. Model H is the all-chain model,
+# Model K the chain-cum-belt version. The frame carries integral sidecar lugs.
+# https://www.cybermotorcycle.com/marques/bsa/bsa-1923-models.htm
+#
+# The 1921 season introduced the redesigned 4¼ hp engine, gearbox and clutch and
+# a new sidecar built for the machine: a triangulated chassis with a double
+# tubular axle, two side members converging forward, a single coil spring at the
+# front of the body and a single eleven-leaf cross spring at the rear. The body
+# has a deep back and cushions and a locker with a flat top for luggage.
+# The Motor Cycle, 25 November 1920, via
+# https://cybermotorcycle.com/marques/bsa/bsa-1921-models.htm
+# The photographed machine is a 1923 Model H with the BSA Type 1 sidecar.
+# https://www.gracesguide.co.uk/BSA:_Motorcycles
+#
+# Dimensions: overall 2.28 m long x 1.44 m wide x 1.15 m high including the
+# mudguards, measured from the reference photographs; motorcycle wheelbase about
+# 1.40 m, wheels 26 in with 2.5 in section. No published overall figure was found
+# for the outfit, so these are measurements, not maker's figures.
+#
+# Colours: BSA tanks were green in the flat-tank years; the 1926 season changed
+# the tank from green to black. The photographed 1923 outfit has a green tank
+# with gold lining, a black frame and guards, and a green sidecar body with a
+# gold coachline. Green and black are therefore the two modelled colourways.
+# https://bsaoc.org/swe/bsa_bladet/bladet20102.pdf
+# https://www.gracesguide.co.uk/BSA:_Motorcycles
+#
+# Colour shares and weight: no model-level outfit counts exist for the 1920s.
+# Motorcycles outnumbered cars for most of the decade (278,600 in 1920, 491,438
+# in 1925, 690,672 in 1928) and outfits were the characteristic Very-low
+# motorised vehicle; the 1936 measured peak share of the motorcycle parc was
+# 24.8%. Against the 1925 anchor (Ford Model T, 500 on the 2026-11-15 scale) the
+# outfit is set at 180 in total: green 110, black 70. Provisional pending the
+# central rebase.
+#
+# Speed 64 km/h (40 mph): a game-balance figure for a 557 cc side-valve outfit.
+# Comfort 20/180, below the post-war M21 outfit's 25/190: rigid frame, sprung
+# saddle only, and a sidecar on leaf springs.
+#
+# Dates describe when outfits were seen regularly on UK roads. The 4¼ hp with
+# the BSA sidecar ran from the 1921 season; flat-tank models were superseded in
+# the later 1920s and outfits faded through the early 1930s.
+#
+# Metres master: citycars/4.5/bsa-557-combo.blend in the blends repository.
+# References: citycars/references/bsa-557-combo/ (gitignored research copies).
+# Image credits: 1923 Model H with Type 1 sidecar, Grace's Guide contributor
+# photographs; 1921 4¼ hp side view, The Motor Cycle via Sheldon's EMU.
+# Stage B note: +0.2973 pak units applied after preparation so the motorcycle,
+# not the combined bounding box, sits at the tile centre.
+
+obj=citycar
+name=BSA557Combo(Green)
+copyright=JamesPetts
+
+DistributionWeight=110
+intro_year=1921
+intro_month=1
+retire_year=1932
+retire_month=6
+speed=64
+class=0,1
+maximum_comfortable_journey_minutes=20
+maximum_tolerable_journey_minutes=180
+
+Image[E]=./images/bsa-557-combo-green_E.0.0,-33,14
+Image[SE]=./images/bsa-557-combo-green_SE.0.0,-13,0
+Image[S]=./images/bsa-557-combo-green_S.0.0,0,0
+Image[SW]=./images/bsa-557-combo-green_SW.0.0,-8,10
+Image[W]=./images/bsa-557-combo-green_W.0.0,4,5
+Image[NW]=./images/bsa-557-combo-green_NW.0.0,12,10
+Image[N]=./images/bsa-557-combo-green_N.0.0,0,33
+Image[NE]=./images/bsa-557-combo-green_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BSA557Combo(Black)
+copyright=JamesPetts
+
+DistributionWeight=70
+intro_year=1923
+intro_month=4
+retire_year=1931
+retire_month=6
+speed=64
+class=0,1
+maximum_comfortable_journey_minutes=20
+maximum_tolerable_journey_minutes=180
+
+Image[E]=./images/bsa-557-combo-black_E.0.0,-33,14
+Image[SE]=./images/bsa-557-combo-black_SE.0.0,-13,0
+Image[S]=./images/bsa-557-combo-black_S.0.0,0,0
+Image[SW]=./images/bsa-557-combo-black_SW.0.0,-8,10
+Image[W]=./images/bsa-557-combo-black_W.0.0,4,5
+Image[NW]=./images/bsa-557-combo-black_NW.0.0,12,10
+Image[N]=./images/bsa-557-combo-black_N.0.0,0,33
+Image[NE]=./images/bsa-557-combo-black_NE.0.0,0,24

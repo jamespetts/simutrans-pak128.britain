@@ -1,0 +1,109 @@
+# BMW 7 Series E65, 2001-2008.
+#
+# The E65 7-series: 5,029 mm long, 1,902 mm wide, 1,491 mm high, 2,990 mm
+# wheelbase; 3.0 six, 4.4 V8 and 6.0 V12, long-wheelbase standard in the UK.
+# https://en.wikipedia.org/wiki/BMW_7_Series_(E65)
+#
+# Colours: Black Sapphire, Titanium Silver, Monaco Blue and Space Grey are period
+# BMW finishes.
+#
+# Weight: 15 in total (black 5, silver 5, blue 3, grey 2), a smaller parc than
+# the E38.
+#
+# Speed 220 km/h; comfort 170/435 (line).
+# Dates: 2001-2008 with a road tail to about 2018.
+#
+# Metres master: citycars/4.5/bmw-e65.blend. References:
+# citycars/references/bmw-e65/ (gitignored). Images via Wikimedia Commons.
+
+obj=citycar
+name=BMW7E65(BlackSapphire)
+copyright=JamesPetts
+
+DistributionWeight=5
+intro_year=2001
+intro_month=9
+retire_year=2018
+retire_month=6
+speed=220
+class=4
+maximum_comfortable_journey_minutes=170
+maximum_tolerable_journey_minutes=435
+
+Image[E]=./images/bmw-e65-black_E.0.0,-33,14
+Image[SE]=./images/bmw-e65-black_SE.0.0,-13,0
+Image[S]=./images/bmw-e65-black_S.0.0,0,0
+Image[SW]=./images/bmw-e65-black_SW.0.0,-8,10
+Image[W]=./images/bmw-e65-black_W.0.0,4,5
+Image[NW]=./images/bmw-e65-black_NW.0.0,12,10
+Image[N]=./images/bmw-e65-black_N.0.0,0,33
+Image[NE]=./images/bmw-e65-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMW7E65(TitaniumSilver)
+copyright=JamesPetts
+
+DistributionWeight=5
+intro_year=2001
+intro_month=9
+retire_year=2017
+retire_month=6
+speed=220
+class=4
+maximum_comfortable_journey_minutes=170
+maximum_tolerable_journey_minutes=435
+
+Image[E]=./images/bmw-e65-silver_E.0.0,-33,14
+Image[SE]=./images/bmw-e65-silver_SE.0.0,-13,0
+Image[S]=./images/bmw-e65-silver_S.0.0,0,0
+Image[SW]=./images/bmw-e65-silver_SW.0.0,-8,10
+Image[W]=./images/bmw-e65-silver_W.0.0,4,5
+Image[NW]=./images/bmw-e65-silver_NW.0.0,12,10
+Image[N]=./images/bmw-e65-silver_N.0.0,0,33
+Image[NE]=./images/bmw-e65-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMW7E65(MonacoBlue)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=2002
+intro_month=3
+retire_year=2016
+retire_month=6
+speed=220
+class=4
+maximum_comfortable_journey_minutes=170
+maximum_tolerable_journey_minutes=435
+
+Image[E]=./images/bmw-e65-blue_E.0.0,-33,14
+Image[SE]=./images/bmw-e65-blue_SE.0.0,-13,0
+Image[S]=./images/bmw-e65-blue_S.0.0,0,0
+Image[SW]=./images/bmw-e65-blue_SW.0.0,-8,10
+Image[W]=./images/bmw-e65-blue_W.0.0,4,5
+Image[NW]=./images/bmw-e65-blue_NW.0.0,12,10
+Image[N]=./images/bmw-e65-blue_N.0.0,0,33
+Image[NE]=./images/bmw-e65-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMW7E65(SpaceGrey)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=2004
+intro_month=3
+retire_year=2015
+retire_month=6
+speed=220
+class=4
+maximum_comfortable_journey_minutes=170
+maximum_tolerable_journey_minutes=435
+
+Image[E]=./images/bmw-e65-grey_E.0.0,-33,14
+Image[SE]=./images/bmw-e65-grey_SE.0.0,-13,0
+Image[S]=./images/bmw-e65-grey_S.0.0,0,0
+Image[SW]=./images/bmw-e65-grey_SW.0.0,-8,10
+Image[W]=./images/bmw-e65-grey_W.0.0,4,5
+Image[NW]=./images/bmw-e65-grey_NW.0.0,12,10
+Image[N]=./images/bmw-e65-grey_N.0.0,0,33
+Image[NE]=./images/bmw-e65-grey_NE.0.0,0,24

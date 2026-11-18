@@ -1,0 +1,122 @@
+# Nissan Primera P12 four-door saloon, 2002-2007.
+#
+# The third Primera: a taller, more rounded car with the high-mounted badge, the
+# narrow twin-blade grille and two swept-back lamp clusters that define its face.
+# The saloon is modelled; the five-door liftback has a different rear end and is
+# not.
+# https://en.wikipedia.org/wiki/Nissan_Primera
+#
+# Dimensions 4.565 x 1.760 x 1.480 m, wheelbase 2.704 m, from the English
+# Wikipedia P12 dimension box. Mirrors take the modelled width to 1.913 m.
+#
+# Colours. No UK colour chart for the P12 was located, so the objects carry
+# plain colour names: silver, blue, red and black. Weights silver 3, black 2,
+# blue 2, red 2, total 9, provisional pending the central rebase. The odd total
+# is deliberate: this is a low-volume, fleet-heavy car and the weight is set a
+# notch below its stablemates.
+#
+# Speed 190 km/h for the 1.6, the volume model. Comfort 100/330, on the line
+# 180 + 1.5 x 100, a step above the P11. Classes 1,2,3.
+#
+# Dates are road presence: March 2002 intro, retires staggered 2017-2020 on a
+# thirteen- to eighteen-year tail.
+#
+# Metres master: citycars/4.5/nissan-primera-p12.blend. Interchange:
+# citycars/4.5/nissan-primera-p12.dae (45 objects). References:
+# citycars/references/nissan-primera-p12/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the bonnet and shoulders are more angular than the
+# photographs and the rear lamp outlines are simplified. At 128 px the tall
+# body, the swept lamp clusters and the divided grille read as the P12.
+
+obj=citycar
+name=NissanPrimeraP12(Silver)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=2002
+intro_month=3
+retire_year=2020
+retire_month=6
+speed=190
+class=1,2,3
+maximum_comfortable_journey_minutes=100
+maximum_tolerable_journey_minutes=330
+
+Image[E]=./images/nissan-primera-p12-silver_E.0.0,-33,14
+Image[SE]=./images/nissan-primera-p12-silver_SE.0.0,-13,0
+Image[S]=./images/nissan-primera-p12-silver_S.0.0,0,0
+Image[SW]=./images/nissan-primera-p12-silver_SW.0.0,-8,10
+Image[W]=./images/nissan-primera-p12-silver_W.0.0,4,5
+Image[NW]=./images/nissan-primera-p12-silver_NW.0.0,12,10
+Image[N]=./images/nissan-primera-p12-silver_N.0.0,0,33
+Image[NE]=./images/nissan-primera-p12-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=NissanPrimeraP12(Blue)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=2002
+intro_month=3
+retire_year=2019
+retire_month=6
+speed=190
+class=1,2,3
+maximum_comfortable_journey_minutes=100
+maximum_tolerable_journey_minutes=330
+
+Image[E]=./images/nissan-primera-p12-blue_E.0.0,-33,14
+Image[SE]=./images/nissan-primera-p12-blue_SE.0.0,-13,0
+Image[S]=./images/nissan-primera-p12-blue_S.0.0,0,0
+Image[SW]=./images/nissan-primera-p12-blue_SW.0.0,-8,10
+Image[W]=./images/nissan-primera-p12-blue_W.0.0,4,5
+Image[NW]=./images/nissan-primera-p12-blue_NW.0.0,12,10
+Image[N]=./images/nissan-primera-p12-blue_N.0.0,0,33
+Image[NE]=./images/nissan-primera-p12-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=NissanPrimeraP12(Red)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=2002
+intro_month=3
+retire_year=2018
+retire_month=6
+speed=190
+class=1,2,3
+maximum_comfortable_journey_minutes=100
+maximum_tolerable_journey_minutes=330
+
+Image[E]=./images/nissan-primera-p12-red_E.0.0,-33,14
+Image[SE]=./images/nissan-primera-p12-red_SE.0.0,-13,0
+Image[S]=./images/nissan-primera-p12-red_S.0.0,0,0
+Image[SW]=./images/nissan-primera-p12-red_SW.0.0,-8,10
+Image[W]=./images/nissan-primera-p12-red_W.0.0,4,5
+Image[NW]=./images/nissan-primera-p12-red_NW.0.0,12,10
+Image[N]=./images/nissan-primera-p12-red_N.0.0,0,33
+Image[NE]=./images/nissan-primera-p12-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=NissanPrimeraP12(Black)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=2002
+intro_month=3
+retire_year=2017
+retire_month=6
+speed=190
+class=1,2,3
+maximum_comfortable_journey_minutes=100
+maximum_tolerable_journey_minutes=330
+
+Image[E]=./images/nissan-primera-p12-black_E.0.0,-33,14
+Image[SE]=./images/nissan-primera-p12-black_SE.0.0,-13,0
+Image[S]=./images/nissan-primera-p12-black_S.0.0,0,0
+Image[SW]=./images/nissan-primera-p12-black_SW.0.0,-8,10
+Image[W]=./images/nissan-primera-p12-black_W.0.0,4,5
+Image[NW]=./images/nissan-primera-p12-black_NW.0.0,12,10
+Image[N]=./images/nissan-primera-p12-black_N.0.0,0,33
+Image[NE]=./images/nissan-primera-p12-black_NE.0.0,0,24

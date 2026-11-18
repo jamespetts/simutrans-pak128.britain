@@ -1,0 +1,114 @@
+# Rolls-Royce Silver Cloud II four-door saloon, 1959-1962.
+#
+# The Silver Cloud II replaced the six with the 6,230 cc aluminium V8. The body
+# is unchanged from the Cloud I: same 5,384 mm length, 1,829 mm width, 1,600 mm
+# height and 3,124 mm wheelbase, same radiator, same wings, same glazing. At
+# sprite scale the two marks are indistinguishable, so this car is built from
+# the Cloud I master rather than modelled again, and carries the Cloud II dates
+# so that the 1959-1962 period is covered by a car of the right mark.
+# https://en.wikipedia.org/wiki/Rolls-Royce_Silver_Cloud
+#
+# Colours: Black, Silver, Maroon and Grey were period Rolls-Royce finishes.
+#
+# Weight: 10 in total (black 5, silver 2, maroon 2, grey 1). The Cloud II is
+# rarer than the Cloud I in the parc, so the total is lower.
+#
+# Speed 165 km/h; comfort 90/315 (line). Class 4.
+# Dates: 1959-1962 with a road tail to about 1985.
+#
+# Metres master: citycars/4.5/rolls-royce-silver-cloud-ii.blend, derived from
+# citycars/4.5/rolls-royce-silver-cloud-i.blend. References:
+# citycars/references/rolls-royce-silver-cloud-ii/ (gitignored). Images via
+# Wikimedia Commons.
+
+obj=citycar
+name=RollsRoyceSilverCloudII(Black)
+copyright=JamesPetts
+
+DistributionWeight=5
+intro_year=1959
+intro_month=9
+retire_year=1985
+retire_month=6
+speed=165
+class=4
+maximum_comfortable_journey_minutes=90
+maximum_tolerable_journey_minutes=315
+
+Image[E]=./images/rolls-royce-silver-cloud-ii-black_E.0.0,-33,14
+Image[SE]=./images/rolls-royce-silver-cloud-ii-black_SE.0.0,-13,0
+Image[S]=./images/rolls-royce-silver-cloud-ii-black_S.0.0,0,0
+Image[SW]=./images/rolls-royce-silver-cloud-ii-black_SW.0.0,-8,10
+Image[W]=./images/rolls-royce-silver-cloud-ii-black_W.0.0,4,5
+Image[NW]=./images/rolls-royce-silver-cloud-ii-black_NW.0.0,12,10
+Image[N]=./images/rolls-royce-silver-cloud-ii-black_N.0.0,0,33
+Image[NE]=./images/rolls-royce-silver-cloud-ii-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RollsRoyceSilverCloudII(Silver)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1959
+intro_month=9
+retire_year=1984
+retire_month=6
+speed=165
+class=4
+maximum_comfortable_journey_minutes=90
+maximum_tolerable_journey_minutes=315
+
+Image[E]=./images/rolls-royce-silver-cloud-ii-silver_E.0.0,-33,14
+Image[SE]=./images/rolls-royce-silver-cloud-ii-silver_SE.0.0,-13,0
+Image[S]=./images/rolls-royce-silver-cloud-ii-silver_S.0.0,0,0
+Image[SW]=./images/rolls-royce-silver-cloud-ii-silver_SW.0.0,-8,10
+Image[W]=./images/rolls-royce-silver-cloud-ii-silver_W.0.0,4,5
+Image[NW]=./images/rolls-royce-silver-cloud-ii-silver_NW.0.0,12,10
+Image[N]=./images/rolls-royce-silver-cloud-ii-silver_N.0.0,0,33
+Image[NE]=./images/rolls-royce-silver-cloud-ii-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RollsRoyceSilverCloudII(Maroon)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1960
+intro_month=3
+retire_year=1983
+retire_month=6
+speed=165
+class=4
+maximum_comfortable_journey_minutes=90
+maximum_tolerable_journey_minutes=315
+
+Image[E]=./images/rolls-royce-silver-cloud-ii-maroon_E.0.0,-33,14
+Image[SE]=./images/rolls-royce-silver-cloud-ii-maroon_SE.0.0,-13,0
+Image[S]=./images/rolls-royce-silver-cloud-ii-maroon_S.0.0,0,0
+Image[SW]=./images/rolls-royce-silver-cloud-ii-maroon_SW.0.0,-8,10
+Image[W]=./images/rolls-royce-silver-cloud-ii-maroon_W.0.0,4,5
+Image[NW]=./images/rolls-royce-silver-cloud-ii-maroon_NW.0.0,12,10
+Image[N]=./images/rolls-royce-silver-cloud-ii-maroon_N.0.0,0,33
+Image[NE]=./images/rolls-royce-silver-cloud-ii-maroon_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RollsRoyceSilverCloudII(Grey)
+copyright=JamesPetts
+
+DistributionWeight=1
+intro_year=1961
+intro_month=3
+retire_year=1982
+retire_month=6
+speed=165
+class=4
+maximum_comfortable_journey_minutes=90
+maximum_tolerable_journey_minutes=315
+
+Image[E]=./images/rolls-royce-silver-cloud-ii-grey_E.0.0,-33,14
+Image[SE]=./images/rolls-royce-silver-cloud-ii-grey_SE.0.0,-13,0
+Image[S]=./images/rolls-royce-silver-cloud-ii-grey_S.0.0,0,0
+Image[SW]=./images/rolls-royce-silver-cloud-ii-grey_SW.0.0,-8,10
+Image[W]=./images/rolls-royce-silver-cloud-ii-grey_W.0.0,4,5
+Image[NW]=./images/rolls-royce-silver-cloud-ii-grey_NW.0.0,12,10
+Image[N]=./images/rolls-royce-silver-cloud-ii-grey_N.0.0,0,33
+Image[NE]=./images/rolls-royce-silver-cloud-ii-grey_NE.0.0,0,24

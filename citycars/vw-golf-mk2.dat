@@ -1,0 +1,108 @@
+# Volkswagen Golf Mk2 five-door hatchback, 1983-1991.
+#
+# 3,985 mm long, 1,665 mm wide, 1,415 mm high, 2,470 mm wheelbase; 1.3-1.8
+# petrol and 1.6 diesel.
+# https://en.wikipedia.org/wiki/Volkswagen_Golf_Mk2
+#
+# Colours: Tornado Red, Alpine White, Diamond Silver and Black are period Golf
+# colours.
+#
+# Weight: 320 in total (red 90, white 85, silver 80, black 65).
+#
+# Speed 160 km/h; comfort 95/325 (line). Classes 1,2.
+# Dates: 1983-1991 with a road tail to about 2000.
+#
+# Metres master: citycars/4.5/vw-golf-mk2.blend. References:
+# citycars/references/vw-golf-mk2/ (gitignored). Images via Wikimedia Commons.
+
+obj=citycar
+name=VWGolfMk2(TornadoRed)
+copyright=JamesPetts
+
+DistributionWeight=90
+intro_year=1983
+intro_month=10
+retire_year=2000
+retire_month=6
+speed=160
+class=1,2
+maximum_comfortable_journey_minutes=95
+maximum_tolerable_journey_minutes=325
+
+Image[E]=./images/vw-golf-mk2-red_E.0.0,-33,14
+Image[SE]=./images/vw-golf-mk2-red_SE.0.0,-13,0
+Image[S]=./images/vw-golf-mk2-red_S.0.0,0,0
+Image[SW]=./images/vw-golf-mk2-red_SW.0.0,-8,10
+Image[W]=./images/vw-golf-mk2-red_W.0.0,4,5
+Image[NW]=./images/vw-golf-mk2-red_NW.0.0,12,10
+Image[N]=./images/vw-golf-mk2-red_N.0.0,0,33
+Image[NE]=./images/vw-golf-mk2-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VWGolfMk2(AlpineWhite)
+copyright=JamesPetts
+
+DistributionWeight=85
+intro_year=1983
+intro_month=10
+retire_year=1999
+retire_month=6
+speed=160
+class=1,2
+maximum_comfortable_journey_minutes=95
+maximum_tolerable_journey_minutes=325
+
+Image[E]=./images/vw-golf-mk2-white_E.0.0,-33,14
+Image[SE]=./images/vw-golf-mk2-white_SE.0.0,-13,0
+Image[S]=./images/vw-golf-mk2-white_S.0.0,0,0
+Image[SW]=./images/vw-golf-mk2-white_SW.0.0,-8,10
+Image[W]=./images/vw-golf-mk2-white_W.0.0,4,5
+Image[NW]=./images/vw-golf-mk2-white_NW.0.0,12,10
+Image[N]=./images/vw-golf-mk2-white_N.0.0,0,33
+Image[NE]=./images/vw-golf-mk2-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VWGolfMk2(DiamondSilver)
+copyright=JamesPetts
+
+DistributionWeight=80
+intro_year=1984
+intro_month=3
+retire_year=1998
+retire_month=6
+speed=160
+class=1,2
+maximum_comfortable_journey_minutes=95
+maximum_tolerable_journey_minutes=325
+
+Image[E]=./images/vw-golf-mk2-silver_E.0.0,-33,14
+Image[SE]=./images/vw-golf-mk2-silver_SE.0.0,-13,0
+Image[S]=./images/vw-golf-mk2-silver_S.0.0,0,0
+Image[SW]=./images/vw-golf-mk2-silver_SW.0.0,-8,10
+Image[W]=./images/vw-golf-mk2-silver_W.0.0,4,5
+Image[NW]=./images/vw-golf-mk2-silver_NW.0.0,12,10
+Image[N]=./images/vw-golf-mk2-silver_N.0.0,0,33
+Image[NE]=./images/vw-golf-mk2-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VWGolfMk2(Black)
+copyright=JamesPetts
+
+DistributionWeight=65
+intro_year=1985
+intro_month=3
+retire_year=1997
+retire_month=6
+speed=160
+class=1,2
+maximum_comfortable_journey_minutes=95
+maximum_tolerable_journey_minutes=325
+
+Image[E]=./images/vw-golf-mk2-black_E.0.0,-33,14
+Image[SE]=./images/vw-golf-mk2-black_SE.0.0,-13,0
+Image[S]=./images/vw-golf-mk2-black_S.0.0,0,0
+Image[SW]=./images/vw-golf-mk2-black_SW.0.0,-8,10
+Image[W]=./images/vw-golf-mk2-black_W.0.0,4,5
+Image[NW]=./images/vw-golf-mk2-black_NW.0.0,12,10
+Image[N]=./images/vw-golf-mk2-black_N.0.0,0,33
+Image[NE]=./images/vw-golf-mk2-black_NE.0.0,0,24

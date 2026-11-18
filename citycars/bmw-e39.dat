@@ -1,0 +1,109 @@
+# BMW 5 Series E39 four-door saloon, 1995-2004.
+#
+# The E39 5-series: 4,775 mm long, 1,800 mm wide, 1,435 mm high, 2,830 mm
+# wheelbase; 2.0-4.4 petrol and 2.0/3.0 diesel, the 528i the volume six.
+# Widely regarded as the high point of the executive BMW and a strong British
+# fleet seller. https://en.wikipedia.org/wiki/BMW_5_Series_(E39)
+#
+# Colours: Cosmos Black, Titanium Silver, Orient Blue and Oxford Green are
+# documented BMW finishes of the period.
+#
+# Weight: 130 in total (black 40, silver 35, blue 30, green 25).
+#
+# Speed 230 km/h; comfort 125/370 (line). Classes 2,3.
+# Dates: 1995-2004 with a road tail to about 2015.
+#
+# Metres master: citycars/4.5/bmw-e39.blend. References:
+# citycars/references/bmw-e39/ (gitignored). Images via Wikimedia Commons.
+
+obj=citycar
+name=BMW5E39(CosmosBlack)
+copyright=JamesPetts
+
+DistributionWeight=40
+intro_year=1995
+intro_month=9
+retire_year=2015
+retire_month=6
+speed=230
+class=2,3
+maximum_comfortable_journey_minutes=125
+maximum_tolerable_journey_minutes=370
+
+Image[E]=./images/bmw-e39-black_E.0.0,-33,14
+Image[SE]=./images/bmw-e39-black_SE.0.0,-13,0
+Image[S]=./images/bmw-e39-black_S.0.0,0,0
+Image[SW]=./images/bmw-e39-black_SW.0.0,-8,12
+Image[W]=./images/bmw-e39-black_W.0.0,4,5
+Image[NW]=./images/bmw-e39-black_NW.0.0,12,10
+Image[N]=./images/bmw-e39-black_N.0.0,0,33
+Image[NE]=./images/bmw-e39-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMW5E39(TitaniumSilver)
+copyright=JamesPetts
+
+DistributionWeight=35
+intro_year=1995
+intro_month=9
+retire_year=2014
+retire_month=6
+speed=230
+class=2,3
+maximum_comfortable_journey_minutes=125
+maximum_tolerable_journey_minutes=370
+
+Image[E]=./images/bmw-e39-silver_E.0.0,-33,14
+Image[SE]=./images/bmw-e39-silver_SE.0.0,-13,0
+Image[S]=./images/bmw-e39-silver_S.0.0,0,0
+Image[SW]=./images/bmw-e39-silver_SW.0.0,-8,12
+Image[W]=./images/bmw-e39-silver_W.0.0,4,5
+Image[NW]=./images/bmw-e39-silver_NW.0.0,12,10
+Image[N]=./images/bmw-e39-silver_N.0.0,0,33
+Image[NE]=./images/bmw-e39-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMW5E39(OrientBlue)
+copyright=JamesPetts
+
+DistributionWeight=30
+intro_year=1996
+intro_month=3
+retire_year=2013
+retire_month=6
+speed=230
+class=2,3
+maximum_comfortable_journey_minutes=125
+maximum_tolerable_journey_minutes=370
+
+Image[E]=./images/bmw-e39-blue_E.0.0,-33,14
+Image[SE]=./images/bmw-e39-blue_SE.0.0,-13,0
+Image[S]=./images/bmw-e39-blue_S.0.0,0,0
+Image[SW]=./images/bmw-e39-blue_SW.0.0,-8,12
+Image[W]=./images/bmw-e39-blue_W.0.0,4,5
+Image[NW]=./images/bmw-e39-blue_NW.0.0,12,10
+Image[N]=./images/bmw-e39-blue_N.0.0,0,33
+Image[NE]=./images/bmw-e39-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMW5E39(OxfordGreen)
+copyright=JamesPetts
+
+DistributionWeight=25
+intro_year=1997
+intro_month=3
+retire_year=2012
+retire_month=6
+speed=230
+class=2,3
+maximum_comfortable_journey_minutes=125
+maximum_tolerable_journey_minutes=370
+
+Image[E]=./images/bmw-e39-green_E.0.0,-33,14
+Image[SE]=./images/bmw-e39-green_SE.0.0,-13,0
+Image[S]=./images/bmw-e39-green_S.0.0,0,0
+Image[SW]=./images/bmw-e39-green_SW.0.0,-8,12
+Image[W]=./images/bmw-e39-green_W.0.0,4,5
+Image[NW]=./images/bmw-e39-green_NW.0.0,12,10
+Image[N]=./images/bmw-e39-green_N.0.0,0,33
+Image[NE]=./images/bmw-e39-green_NE.0.0,0,24

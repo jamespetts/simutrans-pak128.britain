@@ -1,0 +1,109 @@
+# Vauxhall Astra Mk4 five-door hatchback, 1998-2004.
+#
+# The fourth Astra: 4,110 mm long, 1,709 mm wide, 1,425 mm high, 2,606 mm
+# wheelbase; 1.4-2.0 petrol and diesels.
+# https://en.wikipedia.org/wiki/Opel_Astra#Astra_G_(1998%E2%80%932004)
+#
+# Colours: Star Silver, Black Sapphire, Rioja Red and Breeze Blue are period
+# Vauxhall colours.
+#
+# Weight: 300 in total (silver 95, black 75, red 65, blue 65).
+#
+# Speed 180 km/h; comfort 110/345 (line). Classes 1,2.
+# Dates: 1998-2004 with a road tail to about 2013.
+#
+# Metres master: citycars/4.5/vauxhall-astra-mk4.blend. References:
+# citycars/references/vauxhall-astra-mk4/ (gitignored). Images via Wikimedia
+# Commons.
+
+obj=citycar
+name=VauxhallAstraMk4(StarSilver)
+copyright=JamesPetts
+
+DistributionWeight=95
+intro_year=1998
+intro_month=1
+retire_year=2013
+retire_month=6
+speed=180
+class=1,2
+maximum_comfortable_journey_minutes=110
+maximum_tolerable_journey_minutes=345
+
+Image[E]=./images/vauxhall-astra-mk4-silver_E.0.0,-33,14
+Image[SE]=./images/vauxhall-astra-mk4-silver_SE.0.0,-13,0
+Image[S]=./images/vauxhall-astra-mk4-silver_S.0.0,0,0
+Image[SW]=./images/vauxhall-astra-mk4-silver_SW.0.0,-8,10
+Image[W]=./images/vauxhall-astra-mk4-silver_W.0.0,4,5
+Image[NW]=./images/vauxhall-astra-mk4-silver_NW.0.0,12,10
+Image[N]=./images/vauxhall-astra-mk4-silver_N.0.0,0,33
+Image[NE]=./images/vauxhall-astra-mk4-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallAstraMk4(BlackSapphire)
+copyright=JamesPetts
+
+DistributionWeight=75
+intro_year=1998
+intro_month=1
+retire_year=2012
+retire_month=6
+speed=180
+class=1,2
+maximum_comfortable_journey_minutes=110
+maximum_tolerable_journey_minutes=345
+
+Image[E]=./images/vauxhall-astra-mk4-black_E.0.0,-33,14
+Image[SE]=./images/vauxhall-astra-mk4-black_SE.0.0,-13,0
+Image[S]=./images/vauxhall-astra-mk4-black_S.0.0,0,0
+Image[SW]=./images/vauxhall-astra-mk4-black_SW.0.0,-8,10
+Image[W]=./images/vauxhall-astra-mk4-black_W.0.0,4,5
+Image[NW]=./images/vauxhall-astra-mk4-black_NW.0.0,12,10
+Image[N]=./images/vauxhall-astra-mk4-black_N.0.0,0,33
+Image[NE]=./images/vauxhall-astra-mk4-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallAstraMk4(RiojaRed)
+copyright=JamesPetts
+
+DistributionWeight=65
+intro_year=1998
+intro_month=1
+retire_year=2011
+retire_month=6
+speed=180
+class=1,2
+maximum_comfortable_journey_minutes=110
+maximum_tolerable_journey_minutes=345
+
+Image[E]=./images/vauxhall-astra-mk4-red_E.0.0,-33,14
+Image[SE]=./images/vauxhall-astra-mk4-red_SE.0.0,-13,0
+Image[S]=./images/vauxhall-astra-mk4-red_S.0.0,0,0
+Image[SW]=./images/vauxhall-astra-mk4-red_SW.0.0,-8,10
+Image[W]=./images/vauxhall-astra-mk4-red_W.0.0,4,5
+Image[NW]=./images/vauxhall-astra-mk4-red_NW.0.0,12,10
+Image[N]=./images/vauxhall-astra-mk4-red_N.0.0,0,33
+Image[NE]=./images/vauxhall-astra-mk4-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallAstraMk4(BreezeBlue)
+copyright=JamesPetts
+
+DistributionWeight=65
+intro_year=1999
+intro_month=3
+retire_year=2010
+retire_month=6
+speed=180
+class=1,2
+maximum_comfortable_journey_minutes=110
+maximum_tolerable_journey_minutes=345
+
+Image[E]=./images/vauxhall-astra-mk4-blue_E.0.0,-33,14
+Image[SE]=./images/vauxhall-astra-mk4-blue_SE.0.0,-13,0
+Image[S]=./images/vauxhall-astra-mk4-blue_S.0.0,0,0
+Image[SW]=./images/vauxhall-astra-mk4-blue_SW.0.0,-8,10
+Image[W]=./images/vauxhall-astra-mk4-blue_W.0.0,4,5
+Image[NW]=./images/vauxhall-astra-mk4-blue_NW.0.0,12,10
+Image[N]=./images/vauxhall-astra-mk4-blue_N.0.0,0,33
+Image[NE]=./images/vauxhall-astra-mk4-blue_NE.0.0,0,24

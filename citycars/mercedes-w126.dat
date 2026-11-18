@@ -1,0 +1,110 @@
+# Mercedes-Benz S-Class W126 (300SE) four-door saloon, 1979-1991.
+#
+# The W126 S-Class: 4,995 mm long, 1,820 mm wide, 1,437 mm high, 2,935 mm
+# wheelbase (SEL 5,160/3,075); 2.8-5.6 petrol and 3.0/3.5 diesel. The largest
+# class-4 saloon parc of the 1980s in Britain, facelifted in 1985.
+# https://en.wikipedia.org/wiki/Mercedes-Benz_W126
+#
+# Colours: Black, Astral Silver, Nautical Blue and Champagne are period
+# Mercedes-Benz finishes.
+#
+# Weight: 50 in total (black 18, silver 15, blue 10, champagne 7), between the
+# Jaguar XJ's 60 and the BMW 7 E32's 40.
+#
+# Speed 230 km/h; comfort 140/390 (line). Class 4.
+# Dates: 1979-1991 with a road tail to about 2005.
+#
+# Metres master: citycars/4.5/mercedes-w126.blend. References:
+# citycars/references/mercedes-w126/ (gitignored). Images via Wikimedia Commons.
+
+obj=citycar
+name=MercedesSClassW126(Black)
+copyright=JamesPetts
+
+DistributionWeight=18
+intro_year=1979
+intro_month=9
+retire_year=2005
+retire_month=6
+speed=230
+class=4
+maximum_comfortable_journey_minutes=140
+maximum_tolerable_journey_minutes=390
+
+Image[E]=./images/mercedes-w126-black_E.0.0,-33,14
+Image[SE]=./images/mercedes-w126-black_SE.0.0,-13,0
+Image[S]=./images/mercedes-w126-black_S.0.0,0,0
+Image[SW]=./images/mercedes-w126-black_SW.0.0,-8,10
+Image[W]=./images/mercedes-w126-black_W.0.0,4,5
+Image[NW]=./images/mercedes-w126-black_NW.0.0,12,10
+Image[N]=./images/mercedes-w126-black_N.0.0,0,33
+Image[NE]=./images/mercedes-w126-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=MercedesSClassW126(AstralSilver)
+copyright=JamesPetts
+
+DistributionWeight=15
+intro_year=1979
+intro_month=9
+retire_year=2004
+retire_month=6
+speed=230
+class=4
+maximum_comfortable_journey_minutes=140
+maximum_tolerable_journey_minutes=390
+
+Image[E]=./images/mercedes-w126-silver_E.0.0,-33,14
+Image[SE]=./images/mercedes-w126-silver_SE.0.0,-13,0
+Image[S]=./images/mercedes-w126-silver_S.0.0,0,0
+Image[SW]=./images/mercedes-w126-silver_SW.0.0,-8,10
+Image[W]=./images/mercedes-w126-silver_W.0.0,4,5
+Image[NW]=./images/mercedes-w126-silver_NW.0.0,12,10
+Image[N]=./images/mercedes-w126-silver_N.0.0,0,33
+Image[NE]=./images/mercedes-w126-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=MercedesSClassW126(NauticalBlue)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=1981
+intro_month=3
+retire_year=2003
+retire_month=6
+speed=230
+class=4
+maximum_comfortable_journey_minutes=140
+maximum_tolerable_journey_minutes=390
+
+Image[E]=./images/mercedes-w126-blue_E.0.0,-33,14
+Image[SE]=./images/mercedes-w126-blue_SE.0.0,-13,0
+Image[S]=./images/mercedes-w126-blue_S.0.0,0,0
+Image[SW]=./images/mercedes-w126-blue_SW.0.0,-8,10
+Image[W]=./images/mercedes-w126-blue_W.0.0,4,5
+Image[NW]=./images/mercedes-w126-blue_NW.0.0,12,10
+Image[N]=./images/mercedes-w126-blue_N.0.0,0,33
+Image[NE]=./images/mercedes-w126-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=MercedesSClassW126(Champagne)
+copyright=JamesPetts
+
+DistributionWeight=7
+intro_year=1985
+intro_month=9
+retire_year=2002
+retire_month=6
+speed=230
+class=4
+maximum_comfortable_journey_minutes=140
+maximum_tolerable_journey_minutes=390
+
+Image[E]=./images/mercedes-w126-champagne_E.0.0,-33,14
+Image[SE]=./images/mercedes-w126-champagne_SE.0.0,-13,0
+Image[S]=./images/mercedes-w126-champagne_S.0.0,0,0
+Image[SW]=./images/mercedes-w126-champagne_SW.0.0,-8,10
+Image[W]=./images/mercedes-w126-champagne_W.0.0,4,5
+Image[NW]=./images/mercedes-w126-champagne_NW.0.0,12,10
+Image[N]=./images/mercedes-w126-champagne_N.0.0,0,33
+Image[NE]=./images/mercedes-w126-champagne_NE.0.0,0,24

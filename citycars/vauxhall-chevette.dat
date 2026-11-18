@@ -1,0 +1,111 @@
+# Vauxhall Chevette four-door saloon, 1975-1984.
+#
+# Vauxhall's version of the Opel Kadett C "T-car", built at Luton and Ellesmere
+# Port: 3,954 mm long, 1,570 mm wide, 1,346 mm high, 2,395 mm wheelbase;
+# 1.2-2.3 petrol, the 1256 cc the volume model. Britain's best-selling supermini
+# of the late 1970s alongside the Ford Fiesta.
+# https://en.wikipedia.org/wiki/Vauxhall_Chevette
+#
+# Colours: White, Red, Blue and Green are documented Vauxhall colours of the
+# period.
+#
+# Weight: 140 in total (white 45, red 35, blue 35, green 25).
+#
+# Speed 145 km/h; comfort 65/280 (line). Classes 1,2.
+# Dates: 1975-1984 with a road tail to about 1995.
+#
+# Metres master: citycars/4.5/vauxhall-chevette.blend. References:
+# citycars/references/vauxhall-chevette/ (gitignored). Images via Wikimedia
+# Commons.
+
+obj=citycar
+name=VauxhallChevette(White)
+copyright=JamesPetts
+
+DistributionWeight=45
+intro_year=1975
+intro_month=9
+retire_year=1995
+retire_month=6
+speed=145
+class=1,2
+maximum_comfortable_journey_minutes=65
+maximum_tolerable_journey_minutes=280
+
+Image[E]=./images/vauxhall-chevette-white_E.0.0,-33,14
+Image[SE]=./images/vauxhall-chevette-white_SE.0.0,-13,0
+Image[S]=./images/vauxhall-chevette-white_S.0.0,0,0
+Image[SW]=./images/vauxhall-chevette-white_SW.0.0,-8,10
+Image[W]=./images/vauxhall-chevette-white_W.0.0,4,5
+Image[NW]=./images/vauxhall-chevette-white_NW.0.0,12,10
+Image[N]=./images/vauxhall-chevette-white_N.0.0,0,33
+Image[NE]=./images/vauxhall-chevette-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallChevette(Red)
+copyright=JamesPetts
+
+DistributionWeight=35
+intro_year=1975
+intro_month=9
+retire_year=1994
+retire_month=6
+speed=145
+class=1,2
+maximum_comfortable_journey_minutes=65
+maximum_tolerable_journey_minutes=280
+
+Image[E]=./images/vauxhall-chevette-red_E.0.0,-33,14
+Image[SE]=./images/vauxhall-chevette-red_SE.0.0,-13,0
+Image[S]=./images/vauxhall-chevette-red_S.0.0,0,0
+Image[SW]=./images/vauxhall-chevette-red_SW.0.0,-8,10
+Image[W]=./images/vauxhall-chevette-red_W.0.0,4,5
+Image[NW]=./images/vauxhall-chevette-red_NW.0.0,12,10
+Image[N]=./images/vauxhall-chevette-red_N.0.0,0,33
+Image[NE]=./images/vauxhall-chevette-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallChevette(Blue)
+copyright=JamesPetts
+
+DistributionWeight=35
+intro_year=1976
+intro_month=3
+retire_year=1993
+retire_month=6
+speed=145
+class=1,2
+maximum_comfortable_journey_minutes=65
+maximum_tolerable_journey_minutes=280
+
+Image[E]=./images/vauxhall-chevette-blue_E.0.0,-33,14
+Image[SE]=./images/vauxhall-chevette-blue_SE.0.0,-13,0
+Image[S]=./images/vauxhall-chevette-blue_S.0.0,0,0
+Image[SW]=./images/vauxhall-chevette-blue_SW.0.0,-8,10
+Image[W]=./images/vauxhall-chevette-blue_W.0.0,4,5
+Image[NW]=./images/vauxhall-chevette-blue_NW.0.0,12,10
+Image[N]=./images/vauxhall-chevette-blue_N.0.0,0,33
+Image[NE]=./images/vauxhall-chevette-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallChevette(Green)
+copyright=JamesPetts
+
+DistributionWeight=25
+intro_year=1977
+intro_month=3
+retire_year=1992
+retire_month=6
+speed=145
+class=1,2
+maximum_comfortable_journey_minutes=65
+maximum_tolerable_journey_minutes=280
+
+Image[E]=./images/vauxhall-chevette-green_E.0.0,-33,14
+Image[SE]=./images/vauxhall-chevette-green_SE.0.0,-13,0
+Image[S]=./images/vauxhall-chevette-green_S.0.0,0,0
+Image[SW]=./images/vauxhall-chevette-green_SW.0.0,-8,10
+Image[W]=./images/vauxhall-chevette-green_W.0.0,4,5
+Image[NW]=./images/vauxhall-chevette-green_NW.0.0,12,10
+Image[N]=./images/vauxhall-chevette-green_N.0.0,0,33
+Image[NE]=./images/vauxhall-chevette-green_NE.0.0,0,24

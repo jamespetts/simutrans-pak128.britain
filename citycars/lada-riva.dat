@@ -1,0 +1,109 @@
+# Lada Riva 2105/2107 four-door saloon, 1979-2012.
+#
+# The Riva, a re-engineered Fiat 124: 4,145 mm long, 1,620 mm wide, 1,446 mm
+# high, 2,424 mm wheelbase; 1.2-1.7 petrol, rear-wheel drive, live rear axle.
+# Britain's cheapest new car through the 1980s and a common 1980s-90s sight;
+# UK sales ended in 1997, Russian production in 2012.
+# https://en.wikipedia.org/wiki/Lada_Riva
+#
+# Colours: White, Red, Blue and Green are documented Lada colours of the period.
+#
+# Weight: 90 in total (white 30, red 25, blue 20, green 15).
+#
+# Speed 140 km/h; comfort 50/255 (line). Classes 0,1.
+# Dates: 1979-2012 with a road tail to about 2016.
+#
+# Metres master: citycars/4.5/lada-riva.blend. References:
+# citycars/references/lada-riva/ (gitignored). Images via Wikimedia Commons.
+
+obj=citycar
+name=LadaRiva(White)
+copyright=JamesPetts
+
+DistributionWeight=30
+intro_year=1979
+intro_month=9
+retire_year=2016
+retire_month=6
+speed=140
+class=0,1
+maximum_comfortable_journey_minutes=50
+maximum_tolerable_journey_minutes=255
+
+Image[E]=./images/lada-riva-white_E.0.0,-33,14
+Image[SE]=./images/lada-riva-white_SE.0.0,-13,0
+Image[S]=./images/lada-riva-white_S.0.0,0,0
+Image[SW]=./images/lada-riva-white_SW.0.0,-8,10
+Image[W]=./images/lada-riva-white_W.0.0,4,5
+Image[NW]=./images/lada-riva-white_NW.0.0,12,10
+Image[N]=./images/lada-riva-white_N.0.0,0,33
+Image[NE]=./images/lada-riva-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=LadaRiva(Red)
+copyright=JamesPetts
+
+DistributionWeight=25
+intro_year=1979
+intro_month=9
+retire_year=2015
+retire_month=6
+speed=140
+class=0,1
+maximum_comfortable_journey_minutes=50
+maximum_tolerable_journey_minutes=255
+
+Image[E]=./images/lada-riva-red_E.0.0,-33,14
+Image[SE]=./images/lada-riva-red_SE.0.0,-13,0
+Image[S]=./images/lada-riva-red_S.0.0,0,0
+Image[SW]=./images/lada-riva-red_SW.0.0,-8,10
+Image[W]=./images/lada-riva-red_W.0.0,4,5
+Image[NW]=./images/lada-riva-red_NW.0.0,12,10
+Image[N]=./images/lada-riva-red_N.0.0,0,33
+Image[NE]=./images/lada-riva-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=LadaRiva(Blue)
+copyright=JamesPetts
+
+DistributionWeight=20
+intro_year=1982
+intro_month=3
+retire_year=2014
+retire_month=6
+speed=140
+class=0,1
+maximum_comfortable_journey_minutes=50
+maximum_tolerable_journey_minutes=255
+
+Image[E]=./images/lada-riva-blue_E.0.0,-33,14
+Image[SE]=./images/lada-riva-blue_SE.0.0,-13,0
+Image[S]=./images/lada-riva-blue_S.0.0,0,0
+Image[SW]=./images/lada-riva-blue_SW.0.0,-8,10
+Image[W]=./images/lada-riva-blue_W.0.0,4,5
+Image[NW]=./images/lada-riva-blue_NW.0.0,12,10
+Image[N]=./images/lada-riva-blue_N.0.0,0,33
+Image[NE]=./images/lada-riva-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=LadaRiva(Green)
+copyright=JamesPetts
+
+DistributionWeight=15
+intro_year=1985
+intro_month=3
+retire_year=2013
+retire_month=6
+speed=140
+class=0,1
+maximum_comfortable_journey_minutes=50
+maximum_tolerable_journey_minutes=255
+
+Image[E]=./images/lada-riva-green_E.0.0,-33,14
+Image[SE]=./images/lada-riva-green_SE.0.0,-13,0
+Image[S]=./images/lada-riva-green_S.0.0,0,0
+Image[SW]=./images/lada-riva-green_SW.0.0,-8,10
+Image[W]=./images/lada-riva-green_W.0.0,4,5
+Image[NW]=./images/lada-riva-green_NW.0.0,12,10
+Image[N]=./images/lada-riva-green_N.0.0,0,33
+Image[NE]=./images/lada-riva-green_NE.0.0,0,24

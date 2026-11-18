@@ -1,0 +1,110 @@
+# Rover P6 four-door saloon, 1963-1977.
+#
+# The P6 "2000": 4,572 mm long, 1,683 mm wide, 1,397 mm high, 2,667 mm wheelbase;
+# 2.0 four then 3.5 V8 from 1968, four-cylinder cars with a de Dion rear end.
+# Car of the Year 1964, and the strongest-evidenced 1960s class-3 model in the
+# research return. https://en.wikipedia.org/wiki/Rover_P6
+#
+# Colours: Arden Green, Davos White, Squadron Blue and Mexico Brown are documented
+# Rover finishes of the period.
+#
+# Weight: 120 in total (green 35, white 35, blue 30, brown 20) — a volume executive
+# car of the late 1960s and 1970s, so above the 1950s prestige weights.
+#
+# Speed 180 km/h; comfort 110/345 (line). Classes 2,3.
+# Dates: 1963-1977 with a road tail to about 1988.
+#
+# Metres master: citycars/4.5/rover-p6.blend. References:
+# citycars/references/rover-p6/ (gitignored). Images via Wikimedia Commons.
+
+obj=citycar
+name=RoverP6(ArdenGreen)
+copyright=JamesPetts
+
+DistributionWeight=35
+intro_year=1963
+intro_month=10
+retire_year=1988
+retire_month=6
+speed=180
+class=2,3
+maximum_comfortable_journey_minutes=110
+maximum_tolerable_journey_minutes=345
+
+Image[E]=./images/rover-p6-green_E.0.0,-33,14
+Image[SE]=./images/rover-p6-green_SE.0.0,-13,0
+Image[S]=./images/rover-p6-green_S.0.0,0,0
+Image[SW]=./images/rover-p6-green_SW.0.0,-8,10
+Image[W]=./images/rover-p6-green_W.0.0,4,5
+Image[NW]=./images/rover-p6-green_NW.0.0,12,10
+Image[N]=./images/rover-p6-green_N.0.0,0,33
+Image[NE]=./images/rover-p6-green_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RoverP6(DavosWhite)
+copyright=JamesPetts
+
+DistributionWeight=35
+intro_year=1963
+intro_month=10
+retire_year=1987
+retire_month=6
+speed=180
+class=2,3
+maximum_comfortable_journey_minutes=110
+maximum_tolerable_journey_minutes=345
+
+Image[E]=./images/rover-p6-white_E.0.0,-33,14
+Image[SE]=./images/rover-p6-white_SE.0.0,-13,0
+Image[S]=./images/rover-p6-white_S.0.0,0,0
+Image[SW]=./images/rover-p6-white_SW.0.0,-8,10
+Image[W]=./images/rover-p6-white_W.0.0,4,5
+Image[NW]=./images/rover-p6-white_NW.0.0,12,10
+Image[N]=./images/rover-p6-white_N.0.0,0,33
+Image[NE]=./images/rover-p6-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RoverP6(SquadronBlue)
+copyright=JamesPetts
+
+DistributionWeight=30
+intro_year=1965
+intro_month=3
+retire_year=1986
+retire_month=6
+speed=180
+class=2,3
+maximum_comfortable_journey_minutes=110
+maximum_tolerable_journey_minutes=345
+
+Image[E]=./images/rover-p6-blue_E.0.0,-33,14
+Image[SE]=./images/rover-p6-blue_SE.0.0,-13,0
+Image[S]=./images/rover-p6-blue_S.0.0,0,0
+Image[SW]=./images/rover-p6-blue_SW.0.0,-8,10
+Image[W]=./images/rover-p6-blue_W.0.0,4,5
+Image[NW]=./images/rover-p6-blue_NW.0.0,12,10
+Image[N]=./images/rover-p6-blue_N.0.0,0,33
+Image[NE]=./images/rover-p6-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RoverP6(MexicoBrown)
+copyright=JamesPetts
+
+DistributionWeight=20
+intro_year=1968
+intro_month=3
+retire_year=1985
+retire_month=6
+speed=180
+class=2,3
+maximum_comfortable_journey_minutes=110
+maximum_tolerable_journey_minutes=345
+
+Image[E]=./images/rover-p6-brown_E.0.0,-33,14
+Image[SE]=./images/rover-p6-brown_SE.0.0,-13,0
+Image[S]=./images/rover-p6-brown_S.0.0,0,0
+Image[SW]=./images/rover-p6-brown_SW.0.0,-8,10
+Image[W]=./images/rover-p6-brown_W.0.0,4,5
+Image[NW]=./images/rover-p6-brown_NW.0.0,12,10
+Image[N]=./images/rover-p6-brown_N.0.0,0,33
+Image[NE]=./images/rover-p6-brown_NE.0.0,0,24

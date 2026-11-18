@@ -1,0 +1,123 @@
+# Nissan Qashqai J11 five-door crossover, 2014-2021.
+#
+# The second-generation Qashqai. The pre-facelift car (2014-2017) is modelled:
+# the facelift changed the bumpers, grille and lamps but not the shell, and the
+# only flank photograph available is of a facelift car.
+# https://en.wikipedia.org/wiki/Nissan_Qashqai
+#
+# Dimensions 4.380 x 1.800 x 1.590 m, wheelbase 2.646 m, from the English
+# Wikipedia J11 dimension box. Mirrors take the modelled width to 2.050 m.
+#
+# Colours. No UK colour chart for the J11 was located, so the objects carry plain
+# colour names: white, red, black and blue. Weights white 3, red 3, black 2,
+# blue 2, total 10, provisional pending the central rebase.
+#
+# Speed 185 km/h for the 1.2 DIG-T, the volume model. Comfort 95/320, on the line
+# 180 + 1.5 x 95, a step above the J10's 125-minute figure on the older scale
+# because the J11 rides better. Classes 1,2.
+#
+# Dates are road presence: January 2014 intro, retires staggered 2029-2032 on a
+# fifteen- to eighteen-year tail.
+#
+# Metres master: citycars/4.5/nissan-qashqai-j11.blend. Interchange:
+# citycars/4.5/nissan-qashqai-j11.dae (53 objects). References:
+# citycars/references/nissan-qashqai-j11/ (gitignored; Wikimedia Commons).
+#
+# Recorded limitations: the flank photograph (image 1) is a 2017 facelift car
+# used for the shell only, with the roof rack deliberately not modelled, and all
+# four photographs are three-quarter views rather than level profiles. The nose
+# is more angular than the car and the tail-lamp surfaces read slightly
+# discontinuously. At 128 px the tall crossover body, the shoulder line and the
+# V-grille read as the J11.
+
+obj=citycar
+name=NissanQashqaiJ11(White)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=2014
+intro_month=1
+retire_year=2032
+retire_month=6
+speed=185
+class=1,2
+maximum_comfortable_journey_minutes=95
+maximum_tolerable_journey_minutes=320
+
+Image[E]=./images/nissan-qashqai-j11-white_E.0.0,-33,14
+Image[SE]=./images/nissan-qashqai-j11-white_SE.0.0,-13,0
+Image[S]=./images/nissan-qashqai-j11-white_S.0.0,0,0
+Image[SW]=./images/nissan-qashqai-j11-white_SW.0.0,-8,10
+Image[W]=./images/nissan-qashqai-j11-white_W.0.0,4,5
+Image[NW]=./images/nissan-qashqai-j11-white_NW.0.0,12,10
+Image[N]=./images/nissan-qashqai-j11-white_N.0.0,0,33
+Image[NE]=./images/nissan-qashqai-j11-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=NissanQashqaiJ11(Red)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=2014
+intro_month=1
+retire_year=2031
+retire_month=6
+speed=185
+class=1,2
+maximum_comfortable_journey_minutes=95
+maximum_tolerable_journey_minutes=320
+
+Image[E]=./images/nissan-qashqai-j11-red_E.0.0,-33,14
+Image[SE]=./images/nissan-qashqai-j11-red_SE.0.0,-13,0
+Image[S]=./images/nissan-qashqai-j11-red_S.0.0,0,0
+Image[SW]=./images/nissan-qashqai-j11-red_SW.0.0,-8,10
+Image[W]=./images/nissan-qashqai-j11-red_W.0.0,4,5
+Image[NW]=./images/nissan-qashqai-j11-red_NW.0.0,12,10
+Image[N]=./images/nissan-qashqai-j11-red_N.0.0,0,33
+Image[NE]=./images/nissan-qashqai-j11-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=NissanQashqaiJ11(Black)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=2014
+intro_month=1
+retire_year=2030
+retire_month=6
+speed=185
+class=1,2
+maximum_comfortable_journey_minutes=95
+maximum_tolerable_journey_minutes=320
+
+Image[E]=./images/nissan-qashqai-j11-black_E.0.0,-33,14
+Image[SE]=./images/nissan-qashqai-j11-black_SE.0.0,-13,0
+Image[S]=./images/nissan-qashqai-j11-black_S.0.0,0,0
+Image[SW]=./images/nissan-qashqai-j11-black_SW.0.0,-8,10
+Image[W]=./images/nissan-qashqai-j11-black_W.0.0,4,5
+Image[NW]=./images/nissan-qashqai-j11-black_NW.0.0,12,10
+Image[N]=./images/nissan-qashqai-j11-black_N.0.0,0,33
+Image[NE]=./images/nissan-qashqai-j11-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=NissanQashqaiJ11(Blue)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=2014
+intro_month=1
+retire_year=2029
+retire_month=6
+speed=185
+class=1,2
+maximum_comfortable_journey_minutes=95
+maximum_tolerable_journey_minutes=320
+
+Image[E]=./images/nissan-qashqai-j11-blue_E.0.0,-33,14
+Image[SE]=./images/nissan-qashqai-j11-blue_SE.0.0,-13,0
+Image[S]=./images/nissan-qashqai-j11-blue_S.0.0,0,0
+Image[SW]=./images/nissan-qashqai-j11-blue_SW.0.0,-8,10
+Image[W]=./images/nissan-qashqai-j11-blue_W.0.0,4,5
+Image[NW]=./images/nissan-qashqai-j11-blue_NW.0.0,12,10
+Image[N]=./images/nissan-qashqai-j11-blue_N.0.0,0,33
+Image[NE]=./images/nissan-qashqai-j11-blue_NE.0.0,0,24

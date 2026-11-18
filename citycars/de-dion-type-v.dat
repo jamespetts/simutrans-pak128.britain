@@ -1,0 +1,116 @@
+# De Dion-Bouton Type V tonneau, 1902-1908.
+#
+# The archetypal early French light car, and the make that did most to put
+# motorists on the road in Britain before 1910: De Dion-Bouton sold through its
+# own British syndicate, and the marque appears throughout the British price
+# lists of the period. The Type V is a small single-cylinder tonneau with a
+# tiller, wooden artillery wheels and two rows of seats.
+# https://en.wikipedia.org/wiki/De_Dion-Bouton
+#
+# No works dimensions have been found for the tonneau body. The model was built
+# to these ESTIMATES: about 2.900 m long, 1.400 m wide, 1.750 m high with the
+# hood raised, 1.905 m wheelbase. Correct them if a source is found.
+#
+# Colours: Cream, Dark Green, Maroon and Black are documented period finishes;
+# the museum car in the references is cream with a maroon chassis.
+#
+# Weight: 6 in total (cream 2, green 2, maroon 1, black 1). The French light car
+# was numerous in Britain but the register treats imports as representative.
+#
+# Speed 45 km/h; comfort 25/220 (line). Class 2.
+# Dates: 1902-1908 with a road tail to about 1928.
+#
+# Metres master: citycars/4.5/de-dion-type-v.blend. References:
+# citycars/references/de-dion-type-v/ (gitignored). Images via Wikimedia Commons.
+
+obj=citycar
+name=DeDionTypeV(Cream)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1902
+intro_month=5
+retire_year=1928
+retire_month=6
+speed=45
+class=2
+maximum_comfortable_journey_minutes=25
+maximum_tolerable_journey_minutes=220
+
+Image[E]=./images/de-dion-type-v-cream_E.0.0,-33,14
+Image[SE]=./images/de-dion-type-v-cream_SE.0.0,-13,0
+Image[S]=./images/de-dion-type-v-cream_S.0.0,0,0
+Image[SW]=./images/de-dion-type-v-cream_SW.0.0,-8,10
+Image[W]=./images/de-dion-type-v-cream_W.0.0,4,5
+Image[NW]=./images/de-dion-type-v-cream_NW.0.0,12,10
+Image[N]=./images/de-dion-type-v-cream_N.0.0,0,33
+Image[NE]=./images/de-dion-type-v-cream_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=DeDionTypeV(DarkGreen)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1902
+intro_month=5
+retire_year=1927
+retire_month=6
+speed=45
+class=2
+maximum_comfortable_journey_minutes=25
+maximum_tolerable_journey_minutes=220
+
+Image[E]=./images/de-dion-type-v-green_E.0.0,-33,14
+Image[SE]=./images/de-dion-type-v-green_SE.0.0,-13,0
+Image[S]=./images/de-dion-type-v-green_S.0.0,0,0
+Image[SW]=./images/de-dion-type-v-green_SW.0.0,-8,10
+Image[W]=./images/de-dion-type-v-green_W.0.0,4,5
+Image[NW]=./images/de-dion-type-v-green_NW.0.0,12,10
+Image[N]=./images/de-dion-type-v-green_N.0.0,0,33
+Image[NE]=./images/de-dion-type-v-green_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=DeDionTypeV(Maroon)
+copyright=JamesPetts
+
+DistributionWeight=1
+intro_year=1903
+intro_month=3
+retire_year=1926
+retire_month=6
+speed=45
+class=2
+maximum_comfortable_journey_minutes=25
+maximum_tolerable_journey_minutes=220
+
+Image[E]=./images/de-dion-type-v-maroon_E.0.0,-33,14
+Image[SE]=./images/de-dion-type-v-maroon_SE.0.0,-13,0
+Image[S]=./images/de-dion-type-v-maroon_S.0.0,0,0
+Image[SW]=./images/de-dion-type-v-maroon_SW.0.0,-8,10
+Image[W]=./images/de-dion-type-v-maroon_W.0.0,4,5
+Image[NW]=./images/de-dion-type-v-maroon_NW.0.0,12,10
+Image[N]=./images/de-dion-type-v-maroon_N.0.0,0,33
+Image[NE]=./images/de-dion-type-v-maroon_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=DeDionTypeV(Black)
+copyright=JamesPetts
+
+DistributionWeight=1
+intro_year=1904
+intro_month=3
+retire_year=1925
+retire_month=6
+speed=45
+class=2
+maximum_comfortable_journey_minutes=25
+maximum_tolerable_journey_minutes=220
+
+Image[E]=./images/de-dion-type-v-black_E.0.0,-33,14
+Image[SE]=./images/de-dion-type-v-black_SE.0.0,-13,0
+Image[S]=./images/de-dion-type-v-black_S.0.0,0,0
+Image[SW]=./images/de-dion-type-v-black_SW.0.0,-8,10
+Image[W]=./images/de-dion-type-v-black_W.0.0,4,5
+Image[NW]=./images/de-dion-type-v-black_NW.0.0,12,10
+Image[N]=./images/de-dion-type-v-black_N.0.0,0,33
+Image[NE]=./images/de-dion-type-v-black_NE.0.0,0,24

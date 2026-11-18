@@ -1,0 +1,139 @@
+# BSA M21 600 cc side-valve motorcycle with Watsonian Maxstoke sidecar.
+#
+# The motorcycle-and-sidecar outfit was the characteristic Very-low motorised
+# vehicle of c.1920-1965. This object is the post-war family outfit: a
+# purpose-built sidecar machine with a two-seat chair. It is a citycar object,
+# so it carries no capacity field; the chair's two seats plus the pillion are
+# represented by the class and comfort values only.
+#
+# Motorcycle: BSA M21, 591 cc side-valve single, 15 bhp, introduced 1937,
+# production suspended 1940, resumed 1946, catalogued to 1958 and available to
+# special order until 1963. Telescopic forks from 1948, optional plunger rear
+# suspension from 1951, Amal Monobloc carburettor from 1955, 8 in front brake
+# from 1956. Sidecar gearing, heavier flywheels and a wider rear tyre were the
+# sidecar specification.
+# https://en.wikipedia.org/wiki/BSA_M21
+#
+# Sidecar: Watsonian Maxstoke two-seater saloon, adult in front and a child up
+# to 4 ft 6 in in the rear compartment, all-steel fixed head, full-length door,
+# 23 in body depth, 19.5 in front seat, 20 in rear seat, 16 in door (Watsonian
+# 1945 description); the 1959 brochure lists the Maxstoke as a two-seater saloon
+# on the VG chassis. Sidecar on the motorcycle's left, the British nearside.
+# https://www.cybermotorcycle.com/gallery/watsonian/Watsonian-1959-Brochure-p06.htm
+# https://www.cybermotorcycle.com/marques/watsonian/watsonian-1945.htm
+#
+# Dimensions: overall 2.06 m long x 1.50 m wide. Source: Science Museum Group
+# object 1968-611, a 1958 AA M21 outfit with box sidecar, overall
+# 1580 x 1500 x 2060 mm, 313 kg. The 1.58 m height belongs to that box body with
+# canopy; the Maxstoke fixed head is lower (about 1.13 m), measured from the
+# 1959 brochure. Motorcycle wheelbase about 1.35 m, measured from the side
+# profile; wheels 19 in (3.25 front, 3.50 rear, 2.25 sidecar).
+# https://collection.sciencemuseumgroup.org.uk/objects/co25295/m21-motorcycle-and-sidecar
+#
+# Colours: Black is the standard BSA finish (the photographed 1956 machine has a
+# black frame and cycle parts); the red/maroon tank is the finish of surviving
+# machines (1954 and 1956 examples); BSA Light Green is the Watsonian body
+# finish listed for BSA outfits in the 1945 Watsonian range, and the 1959
+# brochure lists duo-colour and single-colour schemes to the customer's choice.
+# The tank, sidecar body and fixed head carry the paint colour; frame, guards,
+# tyres and engine are black, and rims and exhaust are chrome.
+#
+# Colour shares and weight: no model-level outfit statistics exist. The outfit
+# parc reached about 130,000-150,000 by 1952, roughly one in seven of the
+# motorcycle parc (motorcycles 1,475,101 in 1958), against a Morris Minor parc
+# of roughly 300,000 UK cars in the mid-1950s. The anchor model (Morris Minor)
+# is 500 on the 2026-11-15 scale, so the outfit is set at about half the
+# anchor: 240 in total. Black dominates at 140, maroon 60, BSA Light Green 40.
+# Provisional pending the central rebase, as with all existing citycars.
+#
+# Speed 72 km/h (45 mph): a game-balance figure; a road test of an M21 outfit
+# reached about 40 mph. Comfort 25/190 sits well below the BMC Mini's 40/240
+# (open chair, exposed rider), with the tolerable time deliberately below the
+# 180 + 1.5 x comfortable line for the same reason.
+#
+# Dates describe when outfits were seen regularly on UK roads, not production
+# dates. The M21 resumed production in 1946; outfits were still common in the
+# late 1950s and faded through the early 1960s as cheap cars replaced them
+# (the Road Traffic Act 1960 barred learners from machines over 250 cc from
+# July 1961). Retire dates are staggered by colour.
+#
+# Metres master: citycars/4.5/bsa-m21-combo.blend in the blends repository.
+# References: citycars/references/bsa-m21-watsonian/.
+# - 1956 outfit, Lakeland Motor Museum: Thomas's Pics, CC BY 2.0, Wikimedia
+#   Commons "1956 BSA M21 and Watsonian Sidecar (14850596948).jpg".
+# - 1956 solo side profile: Yesterdays Antique Motorcycles, CC BY-SA 4.0,
+#   Wikimedia Commons "1956 BSA M21 600cc-side valve motorcycle.jpg".
+# - Watsonian 1959 brochure, Maxstoke page: scan from Sheldon's EMU
+#   (cybermotorcycle.com); Watsonian copyright, research reference only.
+# Stage B note: the 2.79 rig centres the combined bounding box; for this outfit a
+# further +0.339 pak-unit lateral shift was applied after preparation so that the
+# motorcycle, not the chair, sits at the tile centre. Re-render with that shift.
+
+obj=citycar
+name=BSAM21Combo(Black)
+copyright=JamesPetts
+
+DistributionWeight=140
+intro_year=1946
+intro_month=1
+retire_year=1966
+retire_month=6
+speed=72
+class=0,1
+maximum_comfortable_journey_minutes=25
+maximum_tolerable_journey_minutes=190
+
+Image[E]=./images/bsa-m21-combo-black_E.0.0,-33,14
+Image[SE]=./images/bsa-m21-combo-black_SE.0.0,-13,0
+Image[S]=./images/bsa-m21-combo-black_S.0.0,0,0
+Image[SW]=./images/bsa-m21-combo-black_SW.0.0,-8,10
+Image[W]=./images/bsa-m21-combo-black_W.0.0,4,5
+Image[NW]=./images/bsa-m21-combo-black_NW.0.0,12,10
+Image[N]=./images/bsa-m21-combo-black_N.0.0,0,33
+Image[NE]=./images/bsa-m21-combo-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BSAM21Combo(Maroon)
+copyright=JamesPetts
+
+DistributionWeight=60
+intro_year=1947
+intro_month=3
+retire_year=1964
+retire_month=12
+speed=72
+class=0,1
+maximum_comfortable_journey_minutes=25
+maximum_tolerable_journey_minutes=190
+
+Image[E]=./images/bsa-m21-combo-maroon_E.0.0,-33,14
+Image[SE]=./images/bsa-m21-combo-maroon_SE.0.0,-13,0
+Image[S]=./images/bsa-m21-combo-maroon_S.0.0,0,0
+Image[SW]=./images/bsa-m21-combo-maroon_SW.0.0,-8,10
+Image[W]=./images/bsa-m21-combo-maroon_W.0.0,4,5
+Image[NW]=./images/bsa-m21-combo-maroon_NW.0.0,12,10
+Image[N]=./images/bsa-m21-combo-maroon_N.0.0,0,33
+Image[NE]=./images/bsa-m21-combo-maroon_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BSAM21Combo(BSALightGreen)
+copyright=JamesPetts
+
+DistributionWeight=40
+intro_year=1949
+intro_month=6
+retire_year=1963
+retire_month=6
+speed=72
+class=0,1
+maximum_comfortable_journey_minutes=25
+maximum_tolerable_journey_minutes=190
+
+Image[E]=./images/bsa-m21-combo-green_E.0.0,-33,14
+Image[SE]=./images/bsa-m21-combo-green_SE.0.0,-13,0
+Image[S]=./images/bsa-m21-combo-green_S.0.0,0,0
+Image[SW]=./images/bsa-m21-combo-green_SW.0.0,-8,10
+Image[W]=./images/bsa-m21-combo-green_W.0.0,4,5
+Image[NW]=./images/bsa-m21-combo-green_NW.0.0,12,10
+Image[N]=./images/bsa-m21-combo-green_N.0.0,0,33
+Image[NE]=./images/bsa-m21-combo-green_NE.0.0,0,24

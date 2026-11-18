@@ -1,0 +1,124 @@
+# Vauxhall Cavalier Mk3 four-door saloon, 1988-1995.
+#
+# The last Cavalier: the Vectra A twin, launched to dealers from 24 August 1988
+# and to the public at the NEC on 14 October 1988. Saloon and hatchback; the
+# estate never materialised. Top of the UK large-family sector in 1990 ahead of
+# the Sierra, and Britain's second best-selling car in 1992; revised in 1992/93
+# (new grille, lamps and bumper mouldings). Replaced by the Vectra in late 1995.
+# http://cavalierandchevetteclub.com/cavalier%20mk3%20saloon%20and%20hatch.htm
+#
+# Dimensions: 4,432 x 1,706 x 1,400 mm, wheelbase 2,600 mm.
+# https://www.auto-data.net/en/vauxhall-cavalier-mk-iii-generation-1468
+#
+# Colours: Star Silver (1991-97), Satin Red (1991 on), Diamond Black (1990 on)
+# and Nautilus Blue Mica (1994 on) are documented Vauxhall colours of the Mk3's
+# years. https://www.vauxhallcavalier.com/forum/viewtopic.php?t=2192
+#
+# Colour shares and weight: the Mk3 was the sector leader in 1990 and second
+# best-seller overall in 1992, so it is set at 320 against the Escort's 500
+# anchor, split silver 105, red 85, black 75, blue 55. Provisional pending the
+# central rebase.
+#
+# Speed 170 km/h: a game-balance figure for the 1.4-2.5 range.
+# Comfort 110/345: a 1990s family saloon, between the Mk2 Cavalier's 100/330 and
+# the Sierra's 120/360; the line gives 345.
+#
+# Dates describe road presence: launch October 1988 with a 13-14 year tail,
+# staggered by colour.
+#
+# Metres master: citycars/4.5/vauxhall-cavalier-mk3.blend in the blends
+# repository. References: citycars/references/vauxhall-cavalier-mk3/ (gitignored).
+# Image credits: 1992 Cavalier 1.6 photographs, Wikimedia Commons (see reference
+# file names for the photographer and licence).
+
+obj=citycar
+name=VauxhallCavalierMk3(StarSilver)
+copyright=JamesPetts
+
+DistributionWeight=105
+intro_year=1988
+intro_month=10
+retire_year=2002
+retire_month=6
+speed=170
+class=1,2
+maximum_comfortable_journey_minutes=110
+maximum_tolerable_journey_minutes=345
+
+Image[E]=./images/vauxhall-cavalier-mk3-silver_E.0.0,-33,14
+Image[SE]=./images/vauxhall-cavalier-mk3-silver_SE.0.0,-13,0
+Image[S]=./images/vauxhall-cavalier-mk3-silver_S.0.0,0,0
+Image[SW]=./images/vauxhall-cavalier-mk3-silver_SW.0.0,-8,10
+Image[W]=./images/vauxhall-cavalier-mk3-silver_W.0.0,4,5
+Image[NW]=./images/vauxhall-cavalier-mk3-silver_NW.0.0,12,10
+Image[N]=./images/vauxhall-cavalier-mk3-silver_N.0.0,0,33
+Image[NE]=./images/vauxhall-cavalier-mk3-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallCavalierMk3(SatinRed)
+copyright=JamesPetts
+
+DistributionWeight=85
+intro_year=1988
+intro_month=10
+retire_year=2000
+retire_month=12
+speed=170
+class=1,2
+maximum_comfortable_journey_minutes=110
+maximum_tolerable_journey_minutes=345
+
+Image[E]=./images/vauxhall-cavalier-mk3-red_E.0.0,-33,14
+Image[SE]=./images/vauxhall-cavalier-mk3-red_SE.0.0,-13,0
+Image[S]=./images/vauxhall-cavalier-mk3-red_S.0.0,0,0
+Image[SW]=./images/vauxhall-cavalier-mk3-red_SW.0.0,-8,10
+Image[W]=./images/vauxhall-cavalier-mk3-red_W.0.0,4,5
+Image[NW]=./images/vauxhall-cavalier-mk3-red_NW.0.0,12,10
+Image[N]=./images/vauxhall-cavalier-mk3-red_N.0.0,0,33
+Image[NE]=./images/vauxhall-cavalier-mk3-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallCavalierMk3(DiamondBlack)
+copyright=JamesPetts
+
+DistributionWeight=75
+intro_year=1990
+intro_month=1
+retire_year=2001
+retire_month=6
+speed=170
+class=1,2
+maximum_comfortable_journey_minutes=110
+maximum_tolerable_journey_minutes=345
+
+Image[E]=./images/vauxhall-cavalier-mk3-black_E.0.0,-33,14
+Image[SE]=./images/vauxhall-cavalier-mk3-black_SE.0.0,-13,0
+Image[S]=./images/vauxhall-cavalier-mk3-black_S.0.0,0,0
+Image[SW]=./images/vauxhall-cavalier-mk3-black_SW.0.0,-8,10
+Image[W]=./images/vauxhall-cavalier-mk3-black_W.0.0,4,5
+Image[NW]=./images/vauxhall-cavalier-mk3-black_NW.0.0,12,10
+Image[N]=./images/vauxhall-cavalier-mk3-black_N.0.0,0,33
+Image[NE]=./images/vauxhall-cavalier-mk3-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallCavalierMk3(NautilusBlue)
+copyright=JamesPetts
+
+DistributionWeight=55
+intro_year=1994
+intro_month=1
+retire_year=2002
+retire_month=6
+speed=170
+class=1,2
+maximum_comfortable_journey_minutes=110
+maximum_tolerable_journey_minutes=345
+
+Image[E]=./images/vauxhall-cavalier-mk3-blue_E.0.0,-33,14
+Image[SE]=./images/vauxhall-cavalier-mk3-blue_SE.0.0,-13,0
+Image[S]=./images/vauxhall-cavalier-mk3-blue_S.0.0,0,0
+Image[SW]=./images/vauxhall-cavalier-mk3-blue_SW.0.0,-8,10
+Image[W]=./images/vauxhall-cavalier-mk3-blue_W.0.0,4,5
+Image[NW]=./images/vauxhall-cavalier-mk3-blue_NW.0.0,12,10
+Image[N]=./images/vauxhall-cavalier-mk3-blue_N.0.0,0,33
+Image[NE]=./images/vauxhall-cavalier-mk3-blue_NE.0.0,0,24

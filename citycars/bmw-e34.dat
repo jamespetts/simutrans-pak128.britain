@@ -1,0 +1,109 @@
+# BMW 5 Series E34 four-door saloon, 1988-1996.
+#
+# The E34 5-series: 4,720 mm long, 1,751 mm wide, 1,412 mm high, 2,761 mm
+# wheelbase; 1.8-4.0 sixes and V8s, the 525i the volume model. The class-3
+# executive saloon of the early 1990s in the section F research.
+# https://en.wikipedia.org/wiki/BMW_5_Series_(E34)
+#
+# Colours: Cosmos Black, Sterling Silver, Avus Blue and Oxford Green are
+# documented BMW finishes of the period.
+#
+# Weight: 150 in total (black 45, silver 40, blue 35, green 30).
+#
+# Speed 220 km/h; comfort 120/360 (line). Classes 2,3.
+# Dates: 1988-1996 with a road tail to about 2008.
+#
+# Metres master: citycars/4.5/bmw-e34.blend. References:
+# citycars/references/bmw-e34/ (gitignored). Images via Wikimedia Commons.
+
+obj=citycar
+name=BMW5E34(CosmosBlack)
+copyright=JamesPetts
+
+DistributionWeight=45
+intro_year=1988
+intro_month=10
+retire_year=2008
+retire_month=6
+speed=220
+class=2,3
+maximum_comfortable_journey_minutes=120
+maximum_tolerable_journey_minutes=360
+
+Image[E]=./images/bmw-e34-black_E.0.0,-33,14
+Image[SE]=./images/bmw-e34-black_SE.0.0,-13,0
+Image[S]=./images/bmw-e34-black_S.0.0,0,0
+Image[SW]=./images/bmw-e34-black_SW.0.0,-8,10
+Image[W]=./images/bmw-e34-black_W.0.0,4,5
+Image[NW]=./images/bmw-e34-black_NW.0.0,12,10
+Image[N]=./images/bmw-e34-black_N.0.0,0,33
+Image[NE]=./images/bmw-e34-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMW5E34(SterlingSilver)
+copyright=JamesPetts
+
+DistributionWeight=40
+intro_year=1988
+intro_month=10
+retire_year=2007
+retire_month=6
+speed=220
+class=2,3
+maximum_comfortable_journey_minutes=120
+maximum_tolerable_journey_minutes=360
+
+Image[E]=./images/bmw-e34-silver_E.0.0,-33,14
+Image[SE]=./images/bmw-e34-silver_SE.0.0,-13,0
+Image[S]=./images/bmw-e34-silver_S.0.0,0,0
+Image[SW]=./images/bmw-e34-silver_SW.0.0,-8,10
+Image[W]=./images/bmw-e34-silver_W.0.0,4,5
+Image[NW]=./images/bmw-e34-silver_NW.0.0,12,10
+Image[N]=./images/bmw-e34-silver_N.0.0,0,33
+Image[NE]=./images/bmw-e34-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMW5E34(AvusBlue)
+copyright=JamesPetts
+
+DistributionWeight=35
+intro_year=1989
+intro_month=3
+retire_year=2006
+retire_month=6
+speed=220
+class=2,3
+maximum_comfortable_journey_minutes=120
+maximum_tolerable_journey_minutes=360
+
+Image[E]=./images/bmw-e34-blue_E.0.0,-33,14
+Image[SE]=./images/bmw-e34-blue_SE.0.0,-13,0
+Image[S]=./images/bmw-e34-blue_S.0.0,0,0
+Image[SW]=./images/bmw-e34-blue_SW.0.0,-8,10
+Image[W]=./images/bmw-e34-blue_W.0.0,4,5
+Image[NW]=./images/bmw-e34-blue_NW.0.0,12,10
+Image[N]=./images/bmw-e34-blue_N.0.0,0,33
+Image[NE]=./images/bmw-e34-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMW5E34(OxfordGreen)
+copyright=JamesPetts
+
+DistributionWeight=30
+intro_year=1991
+intro_month=3
+retire_year=2005
+retire_month=6
+speed=220
+class=2,3
+maximum_comfortable_journey_minutes=120
+maximum_tolerable_journey_minutes=360
+
+Image[E]=./images/bmw-e34-green_E.0.0,-33,14
+Image[SE]=./images/bmw-e34-green_SE.0.0,-13,0
+Image[S]=./images/bmw-e34-green_S.0.0,0,0
+Image[SW]=./images/bmw-e34-green_SW.0.0,-8,10
+Image[W]=./images/bmw-e34-green_W.0.0,4,5
+Image[NW]=./images/bmw-e34-green_NW.0.0,12,10
+Image[N]=./images/bmw-e34-green_N.0.0,0,33
+Image[NE]=./images/bmw-e34-green_NE.0.0,0,24

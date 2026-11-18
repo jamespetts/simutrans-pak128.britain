@@ -1,4 +1,10 @@
 # https://en.wikipedia.org/wiki/Morris_Oxford_Series_III
+# Oxford Series III, October 1956 - July 1959. The weights in this 2017 file
+# predate the 2026 colour-share method (New/ai/objects/citycar.md).
+# Blue: Island Blue (BU-9), the documented Morris blue of 1958-66, so this
+# colourway enters in January 1958 rather than at the 1956 launch. A Series
+# III-specific colour list was not found; source: Morris colour list,
+# https://classiccarhub.co.uk/morris-classic-paint-colour-codes/
 obj=citycar
 name=MorrisOxford3(Grey)
 copyright=JamesPetts
@@ -68,4 +74,26 @@ Image[W]=./images/morris-oxford-3-red_W.0.0,4,5
 Image[NW]=./images/morris-oxford-3-red_NW.0.0,12,10
 Image[N]=./images/morris-oxford-3-red_N.0.0,0,33
 Image[NE]=./images/morris-oxford-3-red_NE.0.0,0,24
---
+---------------------------------
+obj=citycar
+name=MorrisOxford3(Blue)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=1958
+intro_month=1
+retire_year=1959
+retire_month=7
+speed=120
+class=2,3
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=270
+
+Image[E]=./images/morris-oxford-3-blue_E.0.0,-33,14
+Image[SE]=./images/morris-oxford-3-blue_SE.0.0,-13,0
+Image[S]=./images/morris-oxford-3-blue_S.0.0,0,0
+Image[SW]=./images/morris-oxford-3-blue_SW.0.0,-8,10
+Image[W]=./images/morris-oxford-3-blue_W.0.0,4,5
+Image[NW]=./images/morris-oxford-3-blue_NW.0.0,12,10
+Image[N]=./images/morris-oxford-3-blue_N.0.0,0,33
+Image[NE]=./images/morris-oxford-3-blue_NE.0.0,0,24

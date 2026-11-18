@@ -1,0 +1,125 @@
+# Derby Bentley 3½ / 4¼ litre closed saloon, 1933-1939.
+#
+# The "Silent Sports Car": Rolls-Royce's sporting Bentley, built at Derby from
+# September 1933 on a shortened 20/25 chassis. 3,669 cc pushrod six with twin
+# carburettors and a crossflow head, about 110-120 bhp; the 4,255 cc 4¼ litre
+# replaced it in 1936. 1,177 of the 3½ were built, and the 4¼ passed that total
+# by 1940. Coachbuilt saloons were supplied by Park Ward, Thrupp & Maberly,
+# Hooper and others; the modelled form is the closed saloon.
+# https://www.bentleymedia.com/en/heritage-collection/1934-3-and-a-half-litre-derby-axb3
+# https://www.bdcl.org/club/bentley-history/derby-history
+# http://www.simoncars.co.uk/bentley/derby35.html
+#
+# Dimensions: 4,419 mm long, about 1,680 mm wide, about 1,550 mm high, wheelbase
+# 3,200 mm (126 in), track 1,422 mm.
+#
+# Colours: black was the usual finish; dark maroon, dark blue and cream were
+# common coachbuilder choices. As with the Rolls-Royce 20/25 there was no factory
+# body colour list, because the coachbuilder painted the body.
+#
+# Weight: about 2,400 cars over seven years, rarer on the road than the 20/25 and
+# far rarer than any ordinary car; set at 4 in total, one per colour.
+# Provisional pending the central rebase.
+#
+# Speed 120 km/h: a game-balance figure; period claims were 94-97 mph.
+# Comfort 150/405: the same long-wheelbase, softly sprung coachbuilt standard as
+# the 20/25; the line gives 405.
+#
+# Dates describe road presence: 1933 to about 1950.
+#
+# Metres master: citycars/4.5/derby-bentley.blend in the blends repository.
+# References: citycars/references/derby-bentley/ (gitignored).
+# Image credits: 1937 4¼ saloon and 1934 3½ tourer photographs via Wikimedia
+# Commons (see reference file names for the photographers and licences).
+
+obj=citycar
+name=DerbyBentley(Black)
+copyright=JamesPetts
+
+DistributionWeight=1
+intro_year=1933
+intro_month=9
+retire_year=1950
+retire_month=6
+speed=120
+class=4
+maximum_comfortable_journey_minutes=150
+maximum_tolerable_journey_minutes=405
+
+Image[E]=./images/derby-bentley-black_E.0.0,-33,14
+Image[SE]=./images/derby-bentley-black_SE.0.0,-13,0
+Image[S]=./images/derby-bentley-black_S.0.0,0,0
+Image[SW]=./images/derby-bentley-black_SW.0.0,-8,10
+Image[W]=./images/derby-bentley-black_W.0.0,4,5
+Image[NW]=./images/derby-bentley-black_NW.0.0,12,10
+Image[N]=./images/derby-bentley-black_N.0.0,0,33
+Image[NE]=./images/derby-bentley-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=DerbyBentley(Maroon)
+copyright=JamesPetts
+
+DistributionWeight=1
+intro_year=1933
+intro_month=9
+retire_year=1948
+retire_month=12
+speed=120
+class=4
+maximum_comfortable_journey_minutes=150
+maximum_tolerable_journey_minutes=405
+
+Image[E]=./images/derby-bentley-maroon_E.0.0,-33,14
+Image[SE]=./images/derby-bentley-maroon_SE.0.0,-13,0
+Image[S]=./images/derby-bentley-maroon_S.0.0,0,0
+Image[SW]=./images/derby-bentley-maroon_SW.0.0,-8,10
+Image[W]=./images/derby-bentley-maroon_W.0.0,4,5
+Image[NW]=./images/derby-bentley-maroon_NW.0.0,12,10
+Image[N]=./images/derby-bentley-maroon_N.0.0,0,33
+Image[NE]=./images/derby-bentley-maroon_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=DerbyBentley(Blue)
+copyright=JamesPetts
+
+DistributionWeight=1
+intro_year=1934
+intro_month=3
+retire_year=1949
+retire_month=6
+speed=120
+class=4
+maximum_comfortable_journey_minutes=150
+maximum_tolerable_journey_minutes=405
+
+Image[E]=./images/derby-bentley-blue_E.0.0,-33,14
+Image[SE]=./images/derby-bentley-blue_SE.0.0,-13,0
+Image[S]=./images/derby-bentley-blue_S.0.0,0,0
+Image[SW]=./images/derby-bentley-blue_SW.0.0,-8,10
+Image[W]=./images/derby-bentley-blue_W.0.0,4,5
+Image[NW]=./images/derby-bentley-blue_NW.0.0,12,10
+Image[N]=./images/derby-bentley-blue_N.0.0,0,33
+Image[NE]=./images/derby-bentley-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=DerbyBentley(Cream)
+copyright=JamesPetts
+
+DistributionWeight=1
+intro_year=1935
+intro_month=3
+retire_year=1947
+retire_month=6
+speed=120
+class=4
+maximum_comfortable_journey_minutes=150
+maximum_tolerable_journey_minutes=405
+
+Image[E]=./images/derby-bentley-cream_E.0.0,-33,14
+Image[SE]=./images/derby-bentley-cream_SE.0.0,-13,0
+Image[S]=./images/derby-bentley-cream_S.0.0,0,0
+Image[SW]=./images/derby-bentley-cream_SW.0.0,-8,10
+Image[W]=./images/derby-bentley-cream_W.0.0,4,5
+Image[NW]=./images/derby-bentley-cream_NW.0.0,12,10
+Image[N]=./images/derby-bentley-cream_N.0.0,0,33
+Image[NE]=./images/derby-bentley-cream_NE.0.0,0,24

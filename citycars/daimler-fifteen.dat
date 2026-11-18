@@ -1,0 +1,127 @@
+# Daimler Fifteen, 1932-1937.
+#
+# The 2-litre Fifteen: 2,003 cc six, 63.5 x 105 mm, 45 bhp, fluid flywheel and
+# four-speed Wilson preselector, 2,780 mm wheelbase, 1,300 mm track, 25.25 cwt.
+# The Fifteen ran from 1932, took the 2-litre engine in August 1934, was
+# facelifted for 1936 and enlarged to 2.2 litres in August 1936; the New Fifteen
+# succeeded it in 1937. No model total has been found; the Daimler and
+# Lanchester Owners' Club calls it the best-selling Daimler of the 1930s.
+# https://en.wikipedia.org/wiki/Daimler_Fifteen
+# https://www.dloc.org.uk/models
+#
+# Colours: Black, Dark Green, Maroon and Grey, as specified for this model.
+#
+# Weight: 10 in total (black 4, green 3, maroon 2, grey 1). Class 3; the Fifteen
+# was the cheapest Daimler of its day, so it carries more weight than the
+# pre-1920 prestige cars.
+#
+# Speed 100 km/h: no published maximum speed has been found for the 2-litre
+# Fifteen. 100 km/h (62 mph) is an estimate from 45 bhp at 25.25 cwt and is
+# flagged for review. Comfort 75/295 (line). Class 3.
+# Dates: 1932-1937 with a road tail to about 1962. The model ran from 1932; the two-litre engine replaced the original only in August 1934, and the photographs show the later car.
+#
+# Metres master: citycars/4.5/daimler-fifteen.blend. References:
+# citycars/references/daimler-fifteen/ (gitignored). Images via Wikimedia
+# Commons.
+#
+# Photographs: all four are six-light saloon bodies.
+# daimler15-a.jpg 1934 saloon front three-quarter, CC BY 2.0, Sicnag,
+# https://commons.wikimedia.org/wiki/File:1934_Daimler_Fifteen_saloon_(40261155133).jpg
+# daimler15-b.jpg 1935 saloon front three-quarter, CC BY 2.0, Steve Glover,
+# https://commons.wikimedia.org/wiki/File:Daimler_15_(1935)_(15818775260).jpg
+# daimler15-c.jpg 1935 saloon rear three-quarter, CC BY 2.0, Steve Glover,
+# https://commons.wikimedia.org/wiki/File:Daimler_15_(1935)_(16005338012).jpg
+# daimler15-d.jpg 1934 saloon front three-quarter, CC BY 2.0, sykerabbit77,
+# https://commons.wikimedia.org/wiki/File:Daimler_15_HP_1934_4860323967.jpg
+
+obj=citycar
+name=DaimlerFifteen(Black)
+copyright=JamesPetts
+
+DistributionWeight=4
+intro_year=1932
+intro_month=8
+retire_year=1962
+retire_month=6
+speed=100
+class=3
+maximum_comfortable_journey_minutes=75
+maximum_tolerable_journey_minutes=295
+
+Image[E]=./images/daimler-fifteen-black_E.0.0,-33,14
+Image[SE]=./images/daimler-fifteen-black_SE.0.0,-13,0
+Image[S]=./images/daimler-fifteen-black_S.0.0,0,0
+Image[SW]=./images/daimler-fifteen-black_SW.0.0,-8,10
+Image[W]=./images/daimler-fifteen-black_W.0.0,4,5
+Image[NW]=./images/daimler-fifteen-black_NW.0.0,12,10
+Image[N]=./images/daimler-fifteen-black_N.0.0,0,33
+Image[NE]=./images/daimler-fifteen-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=DaimlerFifteen(DarkGreen)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1932
+intro_month=9
+retire_year=1961
+retire_month=6
+speed=100
+class=3
+maximum_comfortable_journey_minutes=75
+maximum_tolerable_journey_minutes=295
+
+Image[E]=./images/daimler-fifteen-green_E.0.0,-33,14
+Image[SE]=./images/daimler-fifteen-green_SE.0.0,-13,0
+Image[S]=./images/daimler-fifteen-green_S.0.0,0,0
+Image[SW]=./images/daimler-fifteen-green_SW.0.0,-8,10
+Image[W]=./images/daimler-fifteen-green_W.0.0,4,5
+Image[NW]=./images/daimler-fifteen-green_NW.0.0,12,10
+Image[N]=./images/daimler-fifteen-green_N.0.0,0,33
+Image[NE]=./images/daimler-fifteen-green_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=DaimlerFifteen(Maroon)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1935
+intro_month=3
+retire_year=1960
+retire_month=6
+speed=100
+class=3
+maximum_comfortable_journey_minutes=75
+maximum_tolerable_journey_minutes=295
+
+Image[E]=./images/daimler-fifteen-maroon_E.0.0,-33,14
+Image[SE]=./images/daimler-fifteen-maroon_SE.0.0,-13,0
+Image[S]=./images/daimler-fifteen-maroon_S.0.0,0,0
+Image[SW]=./images/daimler-fifteen-maroon_SW.0.0,-8,10
+Image[W]=./images/daimler-fifteen-maroon_W.0.0,4,5
+Image[NW]=./images/daimler-fifteen-maroon_NW.0.0,12,10
+Image[N]=./images/daimler-fifteen-maroon_N.0.0,0,33
+Image[NE]=./images/daimler-fifteen-maroon_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=DaimlerFifteen(Grey)
+copyright=JamesPetts
+
+DistributionWeight=1
+intro_year=1936
+intro_month=6
+retire_year=1959
+retire_month=6
+speed=100
+class=3
+maximum_comfortable_journey_minutes=75
+maximum_tolerable_journey_minutes=295
+
+Image[E]=./images/daimler-fifteen-grey_E.0.0,-33,14
+Image[SE]=./images/daimler-fifteen-grey_SE.0.0,-13,0
+Image[S]=./images/daimler-fifteen-grey_S.0.0,0,0
+Image[SW]=./images/daimler-fifteen-grey_SW.0.0,-8,10
+Image[W]=./images/daimler-fifteen-grey_W.0.0,4,5
+Image[NW]=./images/daimler-fifteen-grey_NW.0.0,12,10
+Image[N]=./images/daimler-fifteen-grey_N.0.0,0,33
+Image[NE]=./images/daimler-fifteen-grey_NE.0.0,0,24

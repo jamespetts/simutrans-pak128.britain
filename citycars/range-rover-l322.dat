@@ -1,0 +1,110 @@
+# Range Rover L322, 2002-2012.
+#
+# The third-generation Range Rover: 4,950 mm long, 1,957 mm wide, 1,902 mm high,
+# 2,880 mm wheelbase; BMW-derived 4.4 V8 then Jaguar 4.4/5.0, and diesels.
+# Facelift 2009. The largest class-4 non-saloon parc of the 2000s.
+# https://en.wikipedia.org/wiki/Range_Rover#Third_generation_(2002)
+#
+# Colours: Java Black, Buckingham Blue, Zermatt Silver and Tonga Green are period
+# Range Rover finishes.
+#
+# Weight: 45 in total (black 15, silver 12, blue 10, green 8), above the P38 as
+# the L322 parc grew through the 2000s.
+#
+# Speed 210 km/h; comfort 150/405 (line). Classes 2,3,4.
+# Dates: 2002-2012 with a road tail to about 2020.
+#
+# Metres master: citycars/4.5/range-rover-l322.blend. References:
+# citycars/references/range-rover-l322/ (gitignored). Images via Wikimedia Commons.
+
+obj=citycar
+name=RangeRoverL322(JavaBlack)
+copyright=JamesPetts
+
+DistributionWeight=15
+intro_year=2002
+intro_month=3
+retire_year=2020
+retire_month=6
+speed=210
+class=2,3,4
+maximum_comfortable_journey_minutes=150
+maximum_tolerable_journey_minutes=405
+
+Image[E]=./images/range-rover-l322-black_E.0.0,-33,14
+Image[SE]=./images/range-rover-l322-black_SE.0.0,-13,0
+Image[S]=./images/range-rover-l322-black_S.0.0,0,0
+Image[SW]=./images/range-rover-l322-black_SW.0.0,-8,10
+Image[W]=./images/range-rover-l322-black_W.0.0,4,5
+Image[NW]=./images/range-rover-l322-black_NW.0.0,12,10
+Image[N]=./images/range-rover-l322-black_N.0.0,0,33
+Image[NE]=./images/range-rover-l322-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RangeRoverL322(ZermattSilver)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=2002
+intro_month=3
+retire_year=2019
+retire_month=6
+speed=210
+class=2,3,4
+maximum_comfortable_journey_minutes=150
+maximum_tolerable_journey_minutes=405
+
+Image[E]=./images/range-rover-l322-silver_E.0.0,-33,14
+Image[SE]=./images/range-rover-l322-silver_SE.0.0,-13,0
+Image[S]=./images/range-rover-l322-silver_S.0.0,0,0
+Image[SW]=./images/range-rover-l322-silver_SW.0.0,-8,10
+Image[W]=./images/range-rover-l322-silver_W.0.0,4,5
+Image[NW]=./images/range-rover-l322-silver_NW.0.0,12,10
+Image[N]=./images/range-rover-l322-silver_N.0.0,0,33
+Image[NE]=./images/range-rover-l322-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RangeRoverL322(BuckinghamBlue)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=2003
+intro_month=3
+retire_year=2018
+retire_month=6
+speed=210
+class=2,3,4
+maximum_comfortable_journey_minutes=150
+maximum_tolerable_journey_minutes=405
+
+Image[E]=./images/range-rover-l322-blue_E.0.0,-33,14
+Image[SE]=./images/range-rover-l322-blue_SE.0.0,-13,0
+Image[S]=./images/range-rover-l322-blue_S.0.0,0,0
+Image[SW]=./images/range-rover-l322-blue_SW.0.0,-8,10
+Image[W]=./images/range-rover-l322-blue_W.0.0,4,5
+Image[NW]=./images/range-rover-l322-blue_NW.0.0,12,10
+Image[N]=./images/range-rover-l322-blue_N.0.0,0,33
+Image[NE]=./images/range-rover-l322-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RangeRoverL322(TongaGreen)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=2005
+intro_month=3
+retire_year=2017
+retire_month=6
+speed=210
+class=2,3,4
+maximum_comfortable_journey_minutes=150
+maximum_tolerable_journey_minutes=405
+
+Image[E]=./images/range-rover-l322-green_E.0.0,-33,14
+Image[SE]=./images/range-rover-l322-green_SE.0.0,-13,0
+Image[S]=./images/range-rover-l322-green_S.0.0,0,0
+Image[SW]=./images/range-rover-l322-green_SW.0.0,-8,10
+Image[W]=./images/range-rover-l322-green_W.0.0,4,5
+Image[NW]=./images/range-rover-l322-green_NW.0.0,12,10
+Image[N]=./images/range-rover-l322-green_N.0.0,0,33
+Image[NE]=./images/range-rover-l322-green_NE.0.0,0,24

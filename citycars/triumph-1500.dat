@@ -1,0 +1,126 @@
+# Triumph 1500 front-wheel-drive saloon, 1970-1973.
+#
+# The Michelotti-bodied 1500 with front-wheel drive, the car that sat below the
+# 2000 in the Triumph range. It is NOT a Dolomite (rear-wheel drive, later, with a
+# different nose and rear) and NOT a 1500 TC (the later rear-drive car).
+# https://en.wikipedia.org/wiki/Triumph_1500
+#
+# Dimensions 4.115 x 1.575 x 1.372 m, wheelbase 2.464 m, from the English
+# Wikipedia 1500 specifications. Trim takes the modelled width to 1.599 m, 24 mm
+# over the published body width, which does not read at pak scale.
+#
+# Colours are Triumph paint names of the period — Pimento, White, French Blue and
+# Emerald — but **no model-specific dated UK colour list for the 1500 FWD was
+# established**. They are period-correct Triumph finishes, not proven factory
+# offerings for this model, and the header says so. The intro and retire months
+# are road-presence dates. Weights pimento 3, white 3, frenchblue 2, emerald 2,
+# total 10, provisional pending the central rebase.
+#
+# Speed 140 km/h, the published figure for the 1500. Comfort 70/285, on the line
+# 180 + 1.5 x 70, the same as the BMC1100 and a step below the 2000 Mk1.
+# Classes 1,2.
+#
+# Dates are road presence: October 1970 intro, retires staggered 1985-1988 on a
+# fifteen- to eighteen-year tail.
+#
+# Metres master: citycars/4.5/triumph-1500.blend. Interchange:
+# citycars/4.5/triumph-1500.dae (68 objects). References:
+# citycars/references/triumph-1500/ (gitignored; Wikimedia Commons).
+#
+# Recorded limitation: the pack holds only three photographs and no side profile,
+# so the proportions are dimension-calibrated rather than measured from a
+# photograph. Accepted deviations: the nose corners and outer lamp surrounds are
+# simplified and the lower body is squarer than the car. At 128 px the Michelotti
+# cabin, the paired round lamps and the split grille read as the 1500.
+
+obj=citycar
+name=Triumph1500(Pimento)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1970
+intro_month=10
+retire_year=1988
+retire_month=6
+speed=140
+class=1,2
+maximum_comfortable_journey_minutes=70
+maximum_tolerable_journey_minutes=285
+
+Image[E]=./images/triumph-1500-pimento_E.0.0,-33,14
+Image[SE]=./images/triumph-1500-pimento_SE.0.0,-13,0
+Image[S]=./images/triumph-1500-pimento_S.0.0,0,0
+Image[SW]=./images/triumph-1500-pimento_SW.0.0,-8,10
+Image[W]=./images/triumph-1500-pimento_W.0.0,4,5
+Image[NW]=./images/triumph-1500-pimento_NW.0.0,12,10
+Image[N]=./images/triumph-1500-pimento_N.0.0,0,33
+Image[NE]=./images/triumph-1500-pimento_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Triumph1500(White)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1970
+intro_month=10
+retire_year=1987
+retire_month=6
+speed=140
+class=1,2
+maximum_comfortable_journey_minutes=70
+maximum_tolerable_journey_minutes=285
+
+Image[E]=./images/triumph-1500-white_E.0.0,-33,14
+Image[SE]=./images/triumph-1500-white_SE.0.0,-13,0
+Image[S]=./images/triumph-1500-white_S.0.0,0,0
+Image[SW]=./images/triumph-1500-white_SW.0.0,-8,10
+Image[W]=./images/triumph-1500-white_W.0.0,4,5
+Image[NW]=./images/triumph-1500-white_NW.0.0,12,10
+Image[N]=./images/triumph-1500-white_N.0.0,0,33
+Image[NE]=./images/triumph-1500-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Triumph1500(FrenchBlue)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1970
+intro_month=10
+retire_year=1986
+retire_month=6
+speed=140
+class=1,2
+maximum_comfortable_journey_minutes=70
+maximum_tolerable_journey_minutes=285
+
+Image[E]=./images/triumph-1500-frenchblue_E.0.0,-33,14
+Image[SE]=./images/triumph-1500-frenchblue_SE.0.0,-13,0
+Image[S]=./images/triumph-1500-frenchblue_S.0.0,0,0
+Image[SW]=./images/triumph-1500-frenchblue_SW.0.0,-8,10
+Image[W]=./images/triumph-1500-frenchblue_W.0.0,4,5
+Image[NW]=./images/triumph-1500-frenchblue_NW.0.0,12,10
+Image[N]=./images/triumph-1500-frenchblue_N.0.0,0,33
+Image[NE]=./images/triumph-1500-frenchblue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Triumph1500(Emerald)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1970
+intro_month=10
+retire_year=1985
+retire_month=6
+speed=140
+class=1,2
+maximum_comfortable_journey_minutes=70
+maximum_tolerable_journey_minutes=285
+
+Image[E]=./images/triumph-1500-emerald_E.0.0,-33,14
+Image[SE]=./images/triumph-1500-emerald_SE.0.0,-13,0
+Image[S]=./images/triumph-1500-emerald_S.0.0,0,0
+Image[SW]=./images/triumph-1500-emerald_SW.0.0,-8,10
+Image[W]=./images/triumph-1500-emerald_W.0.0,4,5
+Image[NW]=./images/triumph-1500-emerald_NW.0.0,12,10
+Image[N]=./images/triumph-1500-emerald_N.0.0,0,33
+Image[NE]=./images/triumph-1500-emerald_NE.0.0,0,24

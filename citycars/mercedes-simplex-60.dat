@@ -1,0 +1,112 @@
+# Mercedes Simplex 60 hp, 1903-1909.
+#
+# The great pre-1914 Mercedes: about 4,389 mm long, 1,700 mm wide, 2,300 mm high,
+# 2,950 mm wheelbase (body-dependent); 9,236 cc four, about 60 hp, chain drive,
+# good for roughly 110 km/h. A photographed substitute for the unverifiable
+# "Napier 60 hp" entry in the section F table. The height is the closed
+# Reiselimousine body as photographed, not the much lower open tourer; the earlier
+# 1,650 mm figure was an estimate for an open body and is wrong for this one.
+# https://en.wikipedia.org/wiki/Mercedes_Simplex
+#
+# Colours: White, Dark Green, Maroon and Black are documented period finishes.
+#
+# Weight: 10 in total (white 4, green 3, maroon 2, black 1).
+#
+# Speed 110 km/h; comfort 55/265 (line). Class 4.
+# Dates: 1903-1909 with a road tail to about 1932.
+#
+# Metres master: citycars/4.5/mercedes-simplex-60.blend. References:
+# citycars/references/mercedes-simplex-60/ (gitignored). Images via Wikimedia
+# Commons.
+
+obj=citycar
+name=MercedesSimplex60(White)
+copyright=JamesPetts
+
+DistributionWeight=4
+intro_year=1903
+intro_month=6
+retire_year=1932
+retire_month=6
+speed=110
+class=4
+maximum_comfortable_journey_minutes=55
+maximum_tolerable_journey_minutes=265
+
+Image[E]=./images/mercedes-simplex-60-white_E.0.0,-33,14
+Image[SE]=./images/mercedes-simplex-60-white_SE.0.0,-13,0
+Image[S]=./images/mercedes-simplex-60-white_S.0.0,0,0
+Image[SW]=./images/mercedes-simplex-60-white_SW.0.0,-8,10
+Image[W]=./images/mercedes-simplex-60-white_W.0.0,4,5
+Image[NW]=./images/mercedes-simplex-60-white_NW.0.0,12,10
+Image[N]=./images/mercedes-simplex-60-white_N.0.0,0,33
+Image[NE]=./images/mercedes-simplex-60-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=MercedesSimplex60(DarkGreen)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1903
+intro_month=6
+retire_year=1931
+retire_month=6
+speed=110
+class=4
+maximum_comfortable_journey_minutes=55
+maximum_tolerable_journey_minutes=265
+
+Image[E]=./images/mercedes-simplex-60-green_E.0.0,-33,14
+Image[SE]=./images/mercedes-simplex-60-green_SE.0.0,-13,0
+Image[S]=./images/mercedes-simplex-60-green_S.0.0,0,0
+Image[SW]=./images/mercedes-simplex-60-green_SW.0.0,-8,10
+Image[W]=./images/mercedes-simplex-60-green_W.0.0,4,5
+Image[NW]=./images/mercedes-simplex-60-green_NW.0.0,12,10
+Image[N]=./images/mercedes-simplex-60-green_N.0.0,0,33
+Image[NE]=./images/mercedes-simplex-60-green_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=MercedesSimplex60(Maroon)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1904
+intro_month=3
+retire_year=1930
+retire_month=6
+speed=110
+class=4
+maximum_comfortable_journey_minutes=55
+maximum_tolerable_journey_minutes=265
+
+Image[E]=./images/mercedes-simplex-60-maroon_E.0.0,-33,14
+Image[SE]=./images/mercedes-simplex-60-maroon_SE.0.0,-13,0
+Image[S]=./images/mercedes-simplex-60-maroon_S.0.0,0,0
+Image[SW]=./images/mercedes-simplex-60-maroon_SW.0.0,-8,10
+Image[W]=./images/mercedes-simplex-60-maroon_W.0.0,4,5
+Image[NW]=./images/mercedes-simplex-60-maroon_NW.0.0,12,10
+Image[N]=./images/mercedes-simplex-60-maroon_N.0.0,0,33
+Image[NE]=./images/mercedes-simplex-60-maroon_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=MercedesSimplex60(Black)
+copyright=JamesPetts
+
+DistributionWeight=1
+intro_year=1905
+intro_month=3
+retire_year=1929
+retire_month=6
+speed=110
+class=4
+maximum_comfortable_journey_minutes=55
+maximum_tolerable_journey_minutes=265
+
+Image[E]=./images/mercedes-simplex-60-black_E.0.0,-33,14
+Image[SE]=./images/mercedes-simplex-60-black_SE.0.0,-13,0
+Image[S]=./images/mercedes-simplex-60-black_S.0.0,0,0
+Image[SW]=./images/mercedes-simplex-60-black_SW.0.0,-8,10
+Image[W]=./images/mercedes-simplex-60-black_W.0.0,4,5
+Image[NW]=./images/mercedes-simplex-60-black_NW.0.0,12,10
+Image[N]=./images/mercedes-simplex-60-black_N.0.0,0,33
+Image[NE]=./images/mercedes-simplex-60-black_NE.0.0,0,24

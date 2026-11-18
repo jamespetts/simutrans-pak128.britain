@@ -1,0 +1,109 @@
+# Vauxhall Astra Mk6 (Astra J) five-door hatchback, 2009-2015.
+#
+# 4,419 mm long, 1,814 mm wide, 1,510 mm high, 2,685 mm wheelbase; 1.4-2.0
+# petrol and diesels. The Opel Astra J is the same car.
+# https://en.wikipedia.org/wiki/Opel_Astra#Astra_J_(2009%E2%80%932015)
+#
+# Colours: Black Sapphire, Star Silver, Flame Red and Metro Blue are period
+# Vauxhall colours.
+#
+# Weight: 260 in total (silver 85, black 70, red 55, blue 50).
+#
+# Speed 200 km/h; comfort 120/360 (line). Classes 1,2.
+# Dates: 2009-2015 with a road tail to about 2023.
+#
+# Metres master: citycars/4.5/vauxhall-astra-mk6.blend. References:
+# citycars/references/vauxhall-astra-mk6/ (gitignored). Images via Wikimedia
+# Commons.
+
+obj=citycar
+name=VauxhallAstraMk6(StarSilver)
+copyright=JamesPetts
+
+DistributionWeight=85
+intro_year=2009
+intro_month=9
+retire_year=2023
+retire_month=6
+speed=200
+class=1,2
+maximum_comfortable_journey_minutes=120
+maximum_tolerable_journey_minutes=360
+
+Image[E]=./images/vauxhall-astra-mk6-silver_E.0.0,-33,14
+Image[SE]=./images/vauxhall-astra-mk6-silver_SE.0.0,-13,0
+Image[S]=./images/vauxhall-astra-mk6-silver_S.0.0,0,0
+Image[SW]=./images/vauxhall-astra-mk6-silver_SW.0.0,-8,10
+Image[W]=./images/vauxhall-astra-mk6-silver_W.0.0,4,5
+Image[NW]=./images/vauxhall-astra-mk6-silver_NW.0.0,12,10
+Image[N]=./images/vauxhall-astra-mk6-silver_N.0.0,0,33
+Image[NE]=./images/vauxhall-astra-mk6-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallAstraMk6(BlackSapphire)
+copyright=JamesPetts
+
+DistributionWeight=70
+intro_year=2009
+intro_month=9
+retire_year=2022
+retire_month=6
+speed=200
+class=1,2
+maximum_comfortable_journey_minutes=120
+maximum_tolerable_journey_minutes=360
+
+Image[E]=./images/vauxhall-astra-mk6-black_E.0.0,-33,14
+Image[SE]=./images/vauxhall-astra-mk6-black_SE.0.0,-13,0
+Image[S]=./images/vauxhall-astra-mk6-black_S.0.0,0,0
+Image[SW]=./images/vauxhall-astra-mk6-black_SW.0.0,-8,10
+Image[W]=./images/vauxhall-astra-mk6-black_W.0.0,4,5
+Image[NW]=./images/vauxhall-astra-mk6-black_NW.0.0,12,10
+Image[N]=./images/vauxhall-astra-mk6-black_N.0.0,0,33
+Image[NE]=./images/vauxhall-astra-mk6-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallAstraMk6(FlameRed)
+copyright=JamesPetts
+
+DistributionWeight=55
+intro_year=2009
+intro_month=9
+retire_year=2021
+retire_month=6
+speed=200
+class=1,2
+maximum_comfortable_journey_minutes=120
+maximum_tolerable_journey_minutes=360
+
+Image[E]=./images/vauxhall-astra-mk6-red_E.0.0,-33,14
+Image[SE]=./images/vauxhall-astra-mk6-red_SE.0.0,-13,0
+Image[S]=./images/vauxhall-astra-mk6-red_S.0.0,0,0
+Image[SW]=./images/vauxhall-astra-mk6-red_SW.0.0,-8,10
+Image[W]=./images/vauxhall-astra-mk6-red_W.0.0,4,5
+Image[NW]=./images/vauxhall-astra-mk6-red_NW.0.0,12,10
+Image[N]=./images/vauxhall-astra-mk6-red_N.0.0,0,33
+Image[NE]=./images/vauxhall-astra-mk6-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallAstraMk6(MetroBlue)
+copyright=JamesPetts
+
+DistributionWeight=50
+intro_year=2010
+intro_month=3
+retire_year=2020
+retire_month=6
+speed=200
+class=1,2
+maximum_comfortable_journey_minutes=120
+maximum_tolerable_journey_minutes=360
+
+Image[E]=./images/vauxhall-astra-mk6-blue_E.0.0,-33,14
+Image[SE]=./images/vauxhall-astra-mk6-blue_SE.0.0,-13,0
+Image[S]=./images/vauxhall-astra-mk6-blue_S.0.0,0,0
+Image[SW]=./images/vauxhall-astra-mk6-blue_SW.0.0,-8,10
+Image[W]=./images/vauxhall-astra-mk6-blue_W.0.0,4,5
+Image[NW]=./images/vauxhall-astra-mk6-blue_NW.0.0,12,10
+Image[N]=./images/vauxhall-astra-mk6-blue_N.0.0,0,33
+Image[NE]=./images/vauxhall-astra-mk6-blue_NE.0.0,0,24

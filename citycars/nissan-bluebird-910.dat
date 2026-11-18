@@ -1,0 +1,124 @@
+# Datsun Bluebird 910 four-door saloon, 1980-1984.
+#
+# The last rear-wheel-drive Bluebird: simple, clean-cut squared-off lines and a
+# reputation for reliability, sold in Britain from 1980 as the Datsun Bluebird
+# 1.6 and 1.8.
+# https://en.wikipedia.org/wiki/Nissan_Bluebird_(910)
+#
+# Dimensions 4.350 x 1.650 x 1.400 m, wheelbase 2.525 m, four-door saloon (the
+# estate and coupe are 50 mm longer). Mirrors take the modelled width to
+# 1.807 m.
+#
+# Colours. No UK colour card for the 910 was located, so the objects carry plain
+# colour names rather than invented marketing names: white, silver, red and pale
+# blue, the finishes common on the car in British photographs of the period.
+# Weights silver 3, white 3, red 2, blue 2, total 10, provisional pending the
+# central rebate rebase.
+#
+# Speed 160 km/h for the 1.8, the volume UK model. Comfort 65/280, on the line
+# 180 + 1.5 x 65, between the Cortina-class cars and the Sierra. Classes 1,2.
+#
+# Dates are road presence: January 1980 intro, retires staggered 1996-1999 on a
+# sixteen- to nineteen-year tail.
+#
+# Metres master: citycars/4.5/nissan-bluebird-910.blend. Interchange:
+# citycars/4.5/nissan-bluebird-910.dae (58 objects). References:
+# citycars/references/nissan-bluebird-910/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the model's roof sits slightly taller than the profile
+# photograph suggests (0.322 of length against a photographic 0.308), and the
+# published 1.400 m height was kept. At 128 px the squared-off three-box
+# silhouette, the rectangular headlamps and the horizontal tail lamps read
+# correctly.
+
+obj=citycar
+name=DatsunBluebird910(Silver)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1980
+intro_month=1
+retire_year=1999
+retire_month=6
+speed=160
+class=1,2
+maximum_comfortable_journey_minutes=65
+maximum_tolerable_journey_minutes=280
+
+Image[E]=./images/nissan-bluebird-910-silver_E.0.0,-33,14
+Image[SE]=./images/nissan-bluebird-910-silver_SE.0.0,-13,0
+Image[S]=./images/nissan-bluebird-910-silver_S.0.0,0,0
+Image[SW]=./images/nissan-bluebird-910-silver_SW.0.0,-8,10
+Image[W]=./images/nissan-bluebird-910-silver_W.0.0,4,5
+Image[NW]=./images/nissan-bluebird-910-silver_NW.0.0,12,10
+Image[N]=./images/nissan-bluebird-910-silver_N.0.0,0,33
+Image[NE]=./images/nissan-bluebird-910-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=DatsunBluebird910(White)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1980
+intro_month=1
+retire_year=1998
+retire_month=6
+speed=160
+class=1,2
+maximum_comfortable_journey_minutes=65
+maximum_tolerable_journey_minutes=280
+
+Image[E]=./images/nissan-bluebird-910-white_E.0.0,-33,14
+Image[SE]=./images/nissan-bluebird-910-white_SE.0.0,-13,0
+Image[S]=./images/nissan-bluebird-910-white_S.0.0,0,0
+Image[SW]=./images/nissan-bluebird-910-white_SW.0.0,-8,10
+Image[W]=./images/nissan-bluebird-910-white_W.0.0,4,5
+Image[NW]=./images/nissan-bluebird-910-white_NW.0.0,12,10
+Image[N]=./images/nissan-bluebird-910-white_N.0.0,0,33
+Image[NE]=./images/nissan-bluebird-910-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=DatsunBluebird910(Red)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1980
+intro_month=1
+retire_year=1997
+retire_month=6
+speed=160
+class=1,2
+maximum_comfortable_journey_minutes=65
+maximum_tolerable_journey_minutes=280
+
+Image[E]=./images/nissan-bluebird-910-red_E.0.0,-33,14
+Image[SE]=./images/nissan-bluebird-910-red_SE.0.0,-13,0
+Image[S]=./images/nissan-bluebird-910-red_S.0.0,0,0
+Image[SW]=./images/nissan-bluebird-910-red_SW.0.0,-8,10
+Image[W]=./images/nissan-bluebird-910-red_W.0.0,4,5
+Image[NW]=./images/nissan-bluebird-910-red_NW.0.0,12,10
+Image[N]=./images/nissan-bluebird-910-red_N.0.0,0,33
+Image[NE]=./images/nissan-bluebird-910-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=DatsunBluebird910(Blue)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1980
+intro_month=1
+retire_year=1996
+retire_month=6
+speed=160
+class=1,2
+maximum_comfortable_journey_minutes=65
+maximum_tolerable_journey_minutes=280
+
+Image[E]=./images/nissan-bluebird-910-blue_E.0.0,-33,14
+Image[SE]=./images/nissan-bluebird-910-blue_SE.0.0,-13,0
+Image[S]=./images/nissan-bluebird-910-blue_S.0.0,0,0
+Image[SW]=./images/nissan-bluebird-910-blue_SW.0.0,-8,10
+Image[W]=./images/nissan-bluebird-910-blue_W.0.0,4,5
+Image[NW]=./images/nissan-bluebird-910-blue_NW.0.0,12,10
+Image[N]=./images/nissan-bluebird-910-blue_N.0.0,0,33
+Image[NE]=./images/nissan-bluebird-910-blue_NE.0.0,0,24

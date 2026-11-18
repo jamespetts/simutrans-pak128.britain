@@ -1,0 +1,134 @@
+# BMW 3 Series E46 four-door saloon, 1998-2005.
+#
+# The fourth 3-series: the rounded, wider body that replaced the E36, sold as
+# saloon, coupe, convertible, Touring and Compact. The four-door saloon is
+# modelled, the volume UK body.
+# https://en.wikipedia.org/wiki/BMW_3_Series_(E46)
+#
+# Dimensions 4.470 x 1.735 x 1.415 m, wheelbase 2.725 m, for the saloon, from
+# the English Wikipedia dimension box (wheelbase 2,725 mm; the box gives length,
+# width and height per body style). Mirrors and rubbing strips take the modelled
+# width past the body figure.
+#
+# Colours. No BMW UK colour card for the E46 was located; the four names come
+# from an aftermarket paint-code list of 2003 3-series colours, which establishes
+# the names as BMW finishes but not UK ordering:
+#   Alpinweiss III          300, listed for 2003
+#   Jet Black               668, listed for 2003
+#   Titansilber metallic    354, listed for 2003
+#   Orientblau metallic     317, listed for 2003
+# UK availability is not established and the header says so; the M3-only
+# colours (Laguna Seca Blue, Phoenix Yellow, Interlagos Blue) are deliberately
+# excluded from a four-door saloon palette.
+# Weights silver 3, black 3, white 2, blue 2, total 10, provisional pending the
+# central rebase.
+#
+# Speed 220 km/h for the volume 320i/325i; the 330i's 250 km/h limiter and the
+# M3 are not modelled. Comfort 120/360, on the line 180 + 1.5 x 120, between the
+# E36's 115/350 and the E90's 125/370. Classes 2,3.
+#
+# Dates are road presence, not production: March 1998 intro, retires staggered
+# 2014-2017 on a sixteen- to nineteen-year tail.
+#
+# Metres master: citycars/4.5/bmw-e46.blend. Interchange:
+# citycars/4.5/bmw-e46.dae (47 objects). References:
+# citycars/references/bmw-e46/ (gitignored; Wikimedia Commons).
+#
+# Accepted low-poly deviations, recorded rather than corrected: the roof and
+# rear quarter-glass outline are more angular than the photographs, the bumper
+# ends are squared rather than rounded, and the wheel arches cut higher into the
+# flank than the reference car, which makes the wheels read large at sprite
+# scale. The builder flagged these itself and did not certify Gate B. At 128 px
+# the car still reads as an E46-shape saloon, so no correction round was spent.
+
+obj=citycar
+name=BMW3E46(Titansilber)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1998
+intro_month=3
+retire_year=2017
+retire_month=6
+speed=220
+class=2,3
+maximum_comfortable_journey_minutes=120
+maximum_tolerable_journey_minutes=360
+
+Image[E]=./images/bmw-e46-silver_E.0.0,-33,14
+Image[SE]=./images/bmw-e46-silver_SE.0.0,-13,0
+Image[S]=./images/bmw-e46-silver_S.0.0,0,0
+Image[SW]=./images/bmw-e46-silver_SW.0.0,-8,10
+Image[W]=./images/bmw-e46-silver_W.0.0,4,5
+Image[NW]=./images/bmw-e46-silver_NW.0.0,12,10
+Image[N]=./images/bmw-e46-silver_N.0.0,0,33
+Image[NE]=./images/bmw-e46-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMW3E46(JetBlack)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1998
+intro_month=3
+retire_year=2016
+retire_month=6
+speed=220
+class=2,3
+maximum_comfortable_journey_minutes=120
+maximum_tolerable_journey_minutes=360
+
+Image[E]=./images/bmw-e46-black_E.0.0,-33,14
+Image[SE]=./images/bmw-e46-black_SE.0.0,-13,0
+Image[S]=./images/bmw-e46-black_S.0.0,0,0
+Image[SW]=./images/bmw-e46-black_SW.0.0,-8,10
+Image[W]=./images/bmw-e46-black_W.0.0,4,5
+Image[NW]=./images/bmw-e46-black_NW.0.0,12,10
+Image[N]=./images/bmw-e46-black_N.0.0,0,33
+Image[NE]=./images/bmw-e46-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMW3E46(AlpinweissIII)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1998
+intro_month=3
+retire_year=2015
+retire_month=6
+speed=220
+class=2,3
+maximum_comfortable_journey_minutes=120
+maximum_tolerable_journey_minutes=360
+
+Image[E]=./images/bmw-e46-white_E.0.0,-33,14
+Image[SE]=./images/bmw-e46-white_SE.0.0,-13,0
+Image[S]=./images/bmw-e46-white_S.0.0,0,0
+Image[SW]=./images/bmw-e46-white_SW.0.0,-8,10
+Image[W]=./images/bmw-e46-white_W.0.0,4,5
+Image[NW]=./images/bmw-e46-white_NW.0.0,12,10
+Image[N]=./images/bmw-e46-white_N.0.0,0,33
+Image[NE]=./images/bmw-e46-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMW3E46(Orientblau)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1998
+intro_month=3
+retire_year=2014
+retire_month=6
+speed=220
+class=2,3
+maximum_comfortable_journey_minutes=120
+maximum_tolerable_journey_minutes=360
+
+Image[E]=./images/bmw-e46-blue_E.0.0,-33,14
+Image[SE]=./images/bmw-e46-blue_SE.0.0,-13,0
+Image[S]=./images/bmw-e46-blue_S.0.0,0,0
+Image[SW]=./images/bmw-e46-blue_SW.0.0,-8,10
+Image[W]=./images/bmw-e46-blue_W.0.0,4,5
+Image[NW]=./images/bmw-e46-blue_NW.0.0,12,10
+Image[N]=./images/bmw-e46-blue_N.0.0,0,33
+Image[NE]=./images/bmw-e46-blue_NE.0.0,0,24

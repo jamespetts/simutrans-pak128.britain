@@ -1,0 +1,134 @@
+# BMW 5 Series G60 four-door saloon, 2023-.
+#
+# The eighth 5-series: the CLAR-platform car revealed in May 2023 and on sale in
+# Britain from October 2023, sharing its body with the i5.
+# https://en.wikipedia.org/wiki/BMW_5_Series_(G60)
+#
+# Dimensions 5.060 x 1.900 x 1.515 m, wheelbase 2.995 m, G60 saloon, from the
+# English Wikipedia dimension box. The Chinese long-wheelbase G68 is not
+# modelled.
+#
+# Colours: the UK colour listing checked in November 2026 (Carwow UK), with the
+# codes from a secondary paint-code guide, so the codes here are weaker evidence
+# than the availability:
+#   Alpine White            300
+#   Black Sapphire meta.    475
+#   Cape York Green meta.   C5Y
+#   Oxide Grey metallic     C4A
+# UK availability is established for these; introduction years and prevalence
+# are not, and the header says so. Isle of Man Green was not confirmed for the
+# ordinary UK G60 and is left out.
+# Weights black 3, grey 3, green 2, white 2, total 10, provisional pending the
+# central rebase.
+#
+# Speed 250 km/h, the limit that applies to the 750e-class powertrains; the
+# electric i5 is quoted at 240 km/h but the same body is modelled once. Comfort
+# 145/400, on the line 180 + 1.5 x 145, a step above the G30's 140/390.
+# Classes 2,3.
+#
+# Dates are road presence: October 2023 intro, retires staggered 2038-2041 on a
+# fifteen- to eighteen-year tail.
+#
+# Metres master: citycars/4.5/bmw-g60.blend. Interchange:
+# citycars/4.5/bmw-g60.dae (52 objects). References:
+# citycars/references/bmw-g60/ (gitignored; Wikimedia Commons; the flank
+# reference is an i5, which shares the body).
+#
+# Accepted low-poly deviations, recorded rather than corrected: the kidney grille
+# is angular, the headlamp and tail lamp treatments are simplified, and the
+# glazing sits as a thin band rather than the flush surface of the real car.
+# The first pass left three glazing panels standing proud of the roof line and a
+# detached door mirror; both were repaired before Stage B and the repaired
+# export re-verified, which is why this model has no unspent correction.
+
+obj=citycar
+name=BMW5G60(BlackSapphire)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=2023
+intro_month=10
+retire_year=2041
+retire_month=6
+speed=250
+class=2,3
+maximum_comfortable_journey_minutes=145
+maximum_tolerable_journey_minutes=400
+
+Image[E]=./images/bmw-g60-black_E.0.0,-33,14
+Image[SE]=./images/bmw-g60-black_SE.0.0,-13,0
+Image[S]=./images/bmw-g60-black_S.0.0,0,0
+Image[SW]=./images/bmw-g60-black_SW.0.0,-8,10
+Image[W]=./images/bmw-g60-black_W.0.0,4,5
+Image[NW]=./images/bmw-g60-black_NW.0.0,12,10
+Image[N]=./images/bmw-g60-black_N.0.0,0,33
+Image[NE]=./images/bmw-g60-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMW5G60(OxideGrey)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=2023
+intro_month=10
+retire_year=2040
+retire_month=6
+speed=250
+class=2,3
+maximum_comfortable_journey_minutes=145
+maximum_tolerable_journey_minutes=400
+
+Image[E]=./images/bmw-g60-grey_E.0.0,-33,14
+Image[SE]=./images/bmw-g60-grey_SE.0.0,-13,0
+Image[S]=./images/bmw-g60-grey_S.0.0,0,0
+Image[SW]=./images/bmw-g60-grey_SW.0.0,-8,10
+Image[W]=./images/bmw-g60-grey_W.0.0,4,5
+Image[NW]=./images/bmw-g60-grey_NW.0.0,12,10
+Image[N]=./images/bmw-g60-grey_N.0.0,0,33
+Image[NE]=./images/bmw-g60-grey_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMW5G60(CapeYorkGreen)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=2023
+intro_month=10
+retire_year=2039
+retire_month=6
+speed=250
+class=2,3
+maximum_comfortable_journey_minutes=145
+maximum_tolerable_journey_minutes=400
+
+Image[E]=./images/bmw-g60-green_E.0.0,-33,14
+Image[SE]=./images/bmw-g60-green_SE.0.0,-13,0
+Image[S]=./images/bmw-g60-green_S.0.0,0,0
+Image[SW]=./images/bmw-g60-green_SW.0.0,-8,10
+Image[W]=./images/bmw-g60-green_W.0.0,4,5
+Image[NW]=./images/bmw-g60-green_NW.0.0,12,10
+Image[N]=./images/bmw-g60-green_N.0.0,0,33
+Image[NE]=./images/bmw-g60-green_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMW5G60(Alpinweiss)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=2023
+intro_month=10
+retire_year=2038
+retire_month=6
+speed=250
+class=2,3
+maximum_comfortable_journey_minutes=145
+maximum_tolerable_journey_minutes=400
+
+Image[E]=./images/bmw-g60-white_E.0.0,-33,14
+Image[SE]=./images/bmw-g60-white_SE.0.0,-13,0
+Image[S]=./images/bmw-g60-white_S.0.0,0,0
+Image[SW]=./images/bmw-g60-white_SW.0.0,-8,10
+Image[W]=./images/bmw-g60-white_W.0.0,4,5
+Image[NW]=./images/bmw-g60-white_NW.0.0,12,10
+Image[N]=./images/bmw-g60-white_N.0.0,0,33
+Image[NE]=./images/bmw-g60-white_NE.0.0,0,24

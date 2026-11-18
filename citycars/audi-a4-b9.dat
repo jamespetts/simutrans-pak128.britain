@@ -1,0 +1,109 @@
+# Audi A4 B9 four-door saloon, 2016-2023.
+#
+# The B9: 4,726 mm long, 1,842 mm wide, 1,427 mm high, 2,820 mm wheelbase; up to
+# 120 kg lighter than the B8. 1.4-3.0 petrol and 2.0/3.0 TDI; facelift in 2019.
+# https://en.wikipedia.org/wiki/Audi_A4
+#
+# Colours: Mythos Black, Floret Silver, Navarra Blue and Manhattan Grey are period
+# Audi finishes.
+#
+# Weight: 260 in total (black 80, silver 80, blue 55, grey 45), the A4 remaining a
+# strong fleet and company-car seller.
+#
+# Speed 240 km/h; comfort 135/380 (line). Classes 2,3.
+# Dates: 2016-2023 with a road tail to about 2033.
+#
+# Metres master: citycars/4.5/audi-a4-b9.blend. References:
+# citycars/references/audi-a4-b9/ (gitignored). Images via Wikimedia Commons.
+
+obj=citycar
+name=AudiA4B9(MythosBlack)
+copyright=JamesPetts
+
+DistributionWeight=80
+intro_year=2016
+intro_month=1
+retire_year=2033
+retire_month=6
+speed=240
+class=2,3
+maximum_comfortable_journey_minutes=135
+maximum_tolerable_journey_minutes=385
+
+Image[E]=./images/audi-a4-b9-black_E.0.0,-33,14
+Image[SE]=./images/audi-a4-b9-black_SE.0.0,-13,0
+Image[S]=./images/audi-a4-b9-black_S.0.0,0,0
+Image[SW]=./images/audi-a4-b9-black_SW.0.0,-8,10
+Image[W]=./images/audi-a4-b9-black_W.0.0,4,5
+Image[NW]=./images/audi-a4-b9-black_NW.0.0,12,10
+Image[N]=./images/audi-a4-b9-black_N.0.0,0,33
+Image[NE]=./images/audi-a4-b9-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=AudiA4B9(FloretSilver)
+copyright=JamesPetts
+
+DistributionWeight=80
+intro_year=2016
+intro_month=1
+retire_year=2032
+retire_month=6
+speed=240
+class=2,3
+maximum_comfortable_journey_minutes=135
+maximum_tolerable_journey_minutes=385
+
+Image[E]=./images/audi-a4-b9-silver_E.0.0,-33,14
+Image[SE]=./images/audi-a4-b9-silver_SE.0.0,-13,0
+Image[S]=./images/audi-a4-b9-silver_S.0.0,0,0
+Image[SW]=./images/audi-a4-b9-silver_SW.0.0,-8,10
+Image[W]=./images/audi-a4-b9-silver_W.0.0,4,5
+Image[NW]=./images/audi-a4-b9-silver_NW.0.0,12,10
+Image[N]=./images/audi-a4-b9-silver_N.0.0,0,33
+Image[NE]=./images/audi-a4-b9-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=AudiA4B9(NavarraBlue)
+copyright=JamesPetts
+
+DistributionWeight=55
+intro_year=2016
+intro_month=1
+retire_year=2031
+retire_month=6
+speed=240
+class=2,3
+maximum_comfortable_journey_minutes=135
+maximum_tolerable_journey_minutes=385
+
+Image[E]=./images/audi-a4-b9-blue_E.0.0,-33,14
+Image[SE]=./images/audi-a4-b9-blue_SE.0.0,-13,0
+Image[S]=./images/audi-a4-b9-blue_S.0.0,0,0
+Image[SW]=./images/audi-a4-b9-blue_SW.0.0,-8,10
+Image[W]=./images/audi-a4-b9-blue_W.0.0,4,5
+Image[NW]=./images/audi-a4-b9-blue_NW.0.0,12,10
+Image[N]=./images/audi-a4-b9-blue_N.0.0,0,33
+Image[NE]=./images/audi-a4-b9-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=AudiA4B9(ManhattanGrey)
+copyright=JamesPetts
+
+DistributionWeight=45
+intro_year=2017
+intro_month=3
+retire_year=2030
+retire_month=6
+speed=240
+class=2,3
+maximum_comfortable_journey_minutes=135
+maximum_tolerable_journey_minutes=385
+
+Image[E]=./images/audi-a4-b9-grey_E.0.0,-33,14
+Image[SE]=./images/audi-a4-b9-grey_SE.0.0,-13,0
+Image[S]=./images/audi-a4-b9-grey_S.0.0,0,0
+Image[SW]=./images/audi-a4-b9-grey_SW.0.0,-8,10
+Image[W]=./images/audi-a4-b9-grey_W.0.0,4,5
+Image[NW]=./images/audi-a4-b9-grey_NW.0.0,12,10
+Image[N]=./images/audi-a4-b9-grey_N.0.0,0,33
+Image[NE]=./images/audi-a4-b9-grey_NE.0.0,0,24

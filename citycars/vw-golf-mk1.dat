@@ -1,0 +1,108 @@
+# Volkswagen Golf Mk1 three-door hatchback, 1974-1983.
+#
+# 3,705 mm long, 1,610 mm wide, 1,395 mm high, 2,400 mm wheelbase; 1.1-1.8
+# petrol and 1.5/1.6 diesel. Giugiaro's boxy hatch, the class benchmark.
+# https://en.wikipedia.org/wiki/Volkswagen_Golf_Mk1
+#
+# Colours: Mars Red, Alpine White, Diamond Silver and Black are period Golf
+# colours.
+#
+# Weight: 280 in total (red 80, white 75, silver 65, black 60).
+#
+# Speed 150 km/h; comfort 90/315 (line). Classes 1,2.
+# Dates: 1974-1983 with a road tail to about 1994.
+#
+# Metres master: citycars/4.5/vw-golf-mk1.blend. References:
+# citycars/references/vw-golf-mk1/ (gitignored). Images via Wikimedia Commons.
+
+obj=citycar
+name=VWGolfMk1(MarsRed)
+copyright=JamesPetts
+
+DistributionWeight=80
+intro_year=1974
+intro_month=5
+retire_year=1994
+retire_month=6
+speed=150
+class=1,2
+maximum_comfortable_journey_minutes=90
+maximum_tolerable_journey_minutes=315
+
+Image[E]=./images/vw-golf-mk1-red_E.0.0,-33,14
+Image[SE]=./images/vw-golf-mk1-red_SE.0.0,-13,0
+Image[S]=./images/vw-golf-mk1-red_S.0.0,0,0
+Image[SW]=./images/vw-golf-mk1-red_SW.0.0,-8,10
+Image[W]=./images/vw-golf-mk1-red_W.0.0,4,5
+Image[NW]=./images/vw-golf-mk1-red_NW.0.0,12,10
+Image[N]=./images/vw-golf-mk1-red_N.0.0,0,33
+Image[NE]=./images/vw-golf-mk1-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VWGolfMk1(AlpineWhite)
+copyright=JamesPetts
+
+DistributionWeight=75
+intro_year=1974
+intro_month=5
+retire_year=1993
+retire_month=6
+speed=150
+class=1,2
+maximum_comfortable_journey_minutes=90
+maximum_tolerable_journey_minutes=315
+
+Image[E]=./images/vw-golf-mk1-white_E.0.0,-33,14
+Image[SE]=./images/vw-golf-mk1-white_SE.0.0,-13,0
+Image[S]=./images/vw-golf-mk1-white_S.0.0,0,0
+Image[SW]=./images/vw-golf-mk1-white_SW.0.0,-8,10
+Image[W]=./images/vw-golf-mk1-white_W.0.0,4,5
+Image[NW]=./images/vw-golf-mk1-white_NW.0.0,12,10
+Image[N]=./images/vw-golf-mk1-white_N.0.0,0,33
+Image[NE]=./images/vw-golf-mk1-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VWGolfMk1(DiamondSilver)
+copyright=JamesPetts
+
+DistributionWeight=65
+intro_year=1975
+intro_month=3
+retire_year=1992
+retire_month=6
+speed=150
+class=1,2
+maximum_comfortable_journey_minutes=90
+maximum_tolerable_journey_minutes=315
+
+Image[E]=./images/vw-golf-mk1-silver_E.0.0,-33,14
+Image[SE]=./images/vw-golf-mk1-silver_SE.0.0,-13,0
+Image[S]=./images/vw-golf-mk1-silver_S.0.0,0,0
+Image[SW]=./images/vw-golf-mk1-silver_SW.0.0,-8,10
+Image[W]=./images/vw-golf-mk1-silver_W.0.0,4,5
+Image[NW]=./images/vw-golf-mk1-silver_NW.0.0,12,10
+Image[N]=./images/vw-golf-mk1-silver_N.0.0,0,33
+Image[NE]=./images/vw-golf-mk1-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VWGolfMk1(Black)
+copyright=JamesPetts
+
+DistributionWeight=60
+intro_year=1976
+intro_month=3
+retire_year=1991
+retire_month=6
+speed=150
+class=1,2
+maximum_comfortable_journey_minutes=90
+maximum_tolerable_journey_minutes=315
+
+Image[E]=./images/vw-golf-mk1-black_E.0.0,-33,14
+Image[SE]=./images/vw-golf-mk1-black_SE.0.0,-13,0
+Image[S]=./images/vw-golf-mk1-black_S.0.0,0,0
+Image[SW]=./images/vw-golf-mk1-black_SW.0.0,-8,10
+Image[W]=./images/vw-golf-mk1-black_W.0.0,4,5
+Image[NW]=./images/vw-golf-mk1-black_NW.0.0,12,10
+Image[N]=./images/vw-golf-mk1-black_N.0.0,0,33
+Image[NE]=./images/vw-golf-mk1-black_NE.0.0,0,24

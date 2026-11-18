@@ -1,0 +1,136 @@
+# BMW 7 Series G70 four-door saloon, 2022-.
+#
+# The seventh 7-series: the CLAR-platform car revealed in April 2022, sold in
+# Britain from December 2022 as the i7, with the 750e and M760e from spring
+# 2023. There is no short-wheelbase G70: every car is 5.391 m on a 3.215 m
+# wheelbase. The split headlamps and the tall kidney grille are the defining
+# features and both are modelled.
+# https://en.wikipedia.org/wiki/BMW_7_Series_(G70)
+#
+# Dimensions 5.391 x 1.950 x 1.544 m, wheelbase 3.215 m, from the BMW G70
+# technical data table (2022 price-list PDF) and the UK launch reports. Mirrors
+# take the modelled width to 2.220 m.
+#
+# Colours: the UK launch palette, BMW names:
+#   Alpine White (solid)    300
+#   Black Sapphire meta.    475
+#   Brooklyn Grey meta.     C4P
+#   Oxide Grey metallic     C4A
+# The UK brochure and the paint-code index support availability; the colours
+# are recorded as launch-palette offerings rather than as measured popularity,
+# which does not exist for a car this recent. Isle of Man Green and the
+# two-tone Individual finishes are left out.
+# Weights black 3, grey 3, silver 2, white 2, total 10, provisional pending the
+# central rebase.
+#
+# Speed 250 km/h, the limiter on the 750e and M760e; the i7 is quoted at
+# 240 km/h but the same body is modelled once. Comfort 180/450, on the line
+# 180 + 1.5 x 180, the highest private-car value in the pakset and a step above
+# the G11's 175/445. Class 4.
+#
+# Dates are road presence: December 2022 intro, retires staggered 2037-2040 on a
+# fifteen- to eighteen-year tail.
+#
+# Metres master: citycars/4.5/bmw-g70.blend. Interchange:
+# citycars/4.5/bmw-g70.dae (78 objects). References:
+# citycars/references/bmw-g70/ (gitignored; Wikimedia Commons; the cars
+# photographed are Korean-market Design Pure Excellence cars, and the UK-only
+# powertrain badging and charging flap are deliberately not modelled).
+#
+# Accepted low-poly deviations, recorded rather than corrected: the nose and
+# tail are more angular than the photographs, the front overhang reads slightly
+# long against the profile photograph, and the two-level headlamp treatment is
+# simplified. At 128 px the tall grille, the split lamps and the long
+# wheelbase read as the G70.
+
+obj=citycar
+name=BMW7G70(BlackSapphire)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=2022
+intro_month=12
+retire_year=2040
+retire_month=6
+speed=250
+class=4
+maximum_comfortable_journey_minutes=180
+maximum_tolerable_journey_minutes=450
+
+Image[E]=./images/bmw-g70-black_E.0.0,-33,14
+Image[SE]=./images/bmw-g70-black_SE.0.0,-13,0
+Image[S]=./images/bmw-g70-black_S.0.0,0,0
+Image[SW]=./images/bmw-g70-black_SW.0.0,-8,10
+Image[W]=./images/bmw-g70-black_W.0.0,4,5
+Image[NW]=./images/bmw-g70-black_NW.0.0,12,10
+Image[N]=./images/bmw-g70-black_N.0.0,0,33
+Image[NE]=./images/bmw-g70-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMW7G70(OxideGrey)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=2022
+intro_month=12
+retire_year=2039
+retire_month=6
+speed=250
+class=4
+maximum_comfortable_journey_minutes=180
+maximum_tolerable_journey_minutes=450
+
+Image[E]=./images/bmw-g70-grey_E.0.0,-33,14
+Image[SE]=./images/bmw-g70-grey_SE.0.0,-13,0
+Image[S]=./images/bmw-g70-grey_S.0.0,0,0
+Image[SW]=./images/bmw-g70-grey_SW.0.0,-8,10
+Image[W]=./images/bmw-g70-grey_W.0.0,4,5
+Image[NW]=./images/bmw-g70-grey_NW.0.0,12,10
+Image[N]=./images/bmw-g70-grey_N.0.0,0,33
+Image[NE]=./images/bmw-g70-grey_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMW7G70(BrooklynGrey)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=2022
+intro_month=12
+retire_year=2038
+retire_month=6
+speed=250
+class=4
+maximum_comfortable_journey_minutes=180
+maximum_tolerable_journey_minutes=450
+
+Image[E]=./images/bmw-g70-silver_E.0.0,-33,14
+Image[SE]=./images/bmw-g70-silver_SE.0.0,-13,0
+Image[S]=./images/bmw-g70-silver_S.0.0,0,0
+Image[SW]=./images/bmw-g70-silver_SW.0.0,-8,10
+Image[W]=./images/bmw-g70-silver_W.0.0,4,5
+Image[NW]=./images/bmw-g70-silver_NW.0.0,12,10
+Image[N]=./images/bmw-g70-silver_N.0.0,0,33
+Image[NE]=./images/bmw-g70-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMW7G70(Alpinweiss)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=2022
+intro_month=12
+retire_year=2037
+retire_month=6
+speed=250
+class=4
+maximum_comfortable_journey_minutes=180
+maximum_tolerable_journey_minutes=450
+
+Image[E]=./images/bmw-g70-white_E.0.0,-33,14
+Image[SE]=./images/bmw-g70-white_SE.0.0,-13,0
+Image[S]=./images/bmw-g70-white_S.0.0,0,0
+Image[SW]=./images/bmw-g70-white_SW.0.0,-8,10
+Image[W]=./images/bmw-g70-white_W.0.0,4,5
+Image[NW]=./images/bmw-g70-white_NW.0.0,12,10
+Image[N]=./images/bmw-g70-white_N.0.0,0,33
+Image[NE]=./images/bmw-g70-white_NE.0.0,0,24

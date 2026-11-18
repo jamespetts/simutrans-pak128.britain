@@ -1,0 +1,125 @@
+# Nissan Primera P10 four-door saloon, 1990-1996.
+#
+# The car that replaced the Bluebird, built at Sunderland from September 1990
+# and European Car of the Year for 1991. Its long wheelbase and short overhangs
+# are the defining proportions.
+# https://en.wikipedia.org/wiki/Nissan_Primera
+#
+# Dimensions 4.481 x 1.747 x 1.372 m, wheelbase 2.704 m, from the English
+# Wikipedia P10 dimension box. The wheelbase is nearly 180 mm longer than the
+# Bluebird 910's and is modelled as published. Mirrors take the modelled width
+# to 1.947 m.
+#
+# Colours. No UK colour chart for the P10 was located, so the objects carry
+# plain colour names rather than invented marketing names: silver, red, white
+# and blue. Weights silver 3, red 3, white 2, blue 2, total 10, provisional
+# pending the central rebase.
+#
+# Speed 180 km/h for the 1.6, the volume fleet model; the 2.0 was quicker and
+# the eGT quicker still, neither is modelled. Comfort 90/315, on the line
+# 180 + 1.5 x 90, the same as the Rover 200 R3 and a step above the Bluebird's
+# 65/280. Classes 1,2,3.
+#
+# Dates are road presence: September 1990 intro, retires staggered 2005-2008 on
+# a fifteen- to eighteen-year tail.
+#
+# Metres master: citycars/4.5/nissan-primera-p10.blend. Interchange:
+# citycars/4.5/nissan-primera-p10.dae (46 objects). References:
+# citycars/references/nissan-primera-p10/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations, recorded rather than corrected: the body is more angular
+# than the photographed car, and the glazing is proud panels rather than the
+# near-flush surface of the real car. At 128 px the long wheelbase, the low
+# roof and the broad rear lamps read correctly.
+
+obj=citycar
+name=NissanPrimeraP10(Silver)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1990
+intro_month=9
+retire_year=2008
+retire_month=6
+speed=180
+class=1,2,3
+maximum_comfortable_journey_minutes=90
+maximum_tolerable_journey_minutes=315
+
+Image[E]=./images/nissan-primera-p10-silver_E.0.0,-33,14
+Image[SE]=./images/nissan-primera-p10-silver_SE.0.0,-13,0
+Image[S]=./images/nissan-primera-p10-silver_S.0.0,0,0
+Image[SW]=./images/nissan-primera-p10-silver_SW.0.0,-8,10
+Image[W]=./images/nissan-primera-p10-silver_W.0.0,4,5
+Image[NW]=./images/nissan-primera-p10-silver_NW.0.0,12,10
+Image[N]=./images/nissan-primera-p10-silver_N.0.0,0,33
+Image[NE]=./images/nissan-primera-p10-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=NissanPrimeraP10(Red)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1990
+intro_month=9
+retire_year=2007
+retire_month=6
+speed=180
+class=1,2,3
+maximum_comfortable_journey_minutes=90
+maximum_tolerable_journey_minutes=315
+
+Image[E]=./images/nissan-primera-p10-red_E.0.0,-33,14
+Image[SE]=./images/nissan-primera-p10-red_SE.0.0,-13,0
+Image[S]=./images/nissan-primera-p10-red_S.0.0,0,0
+Image[SW]=./images/nissan-primera-p10-red_SW.0.0,-8,10
+Image[W]=./images/nissan-primera-p10-red_W.0.0,4,5
+Image[NW]=./images/nissan-primera-p10-red_NW.0.0,12,10
+Image[N]=./images/nissan-primera-p10-red_N.0.0,0,33
+Image[NE]=./images/nissan-primera-p10-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=NissanPrimeraP10(White)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1990
+intro_month=9
+retire_year=2006
+retire_month=6
+speed=180
+class=1,2,3
+maximum_comfortable_journey_minutes=90
+maximum_tolerable_journey_minutes=315
+
+Image[E]=./images/nissan-primera-p10-white_E.0.0,-33,14
+Image[SE]=./images/nissan-primera-p10-white_SE.0.0,-13,0
+Image[S]=./images/nissan-primera-p10-white_S.0.0,0,0
+Image[SW]=./images/nissan-primera-p10-white_SW.0.0,-8,10
+Image[W]=./images/nissan-primera-p10-white_W.0.0,4,5
+Image[NW]=./images/nissan-primera-p10-white_NW.0.0,12,10
+Image[N]=./images/nissan-primera-p10-white_N.0.0,0,33
+Image[NE]=./images/nissan-primera-p10-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=NissanPrimeraP10(Blue)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1990
+intro_month=9
+retire_year=2005
+retire_month=6
+speed=180
+class=1,2,3
+maximum_comfortable_journey_minutes=90
+maximum_tolerable_journey_minutes=315
+
+Image[E]=./images/nissan-primera-p10-blue_E.0.0,-33,14
+Image[SE]=./images/nissan-primera-p10-blue_SE.0.0,-13,0
+Image[S]=./images/nissan-primera-p10-blue_S.0.0,0,0
+Image[SW]=./images/nissan-primera-p10-blue_SW.0.0,-8,10
+Image[W]=./images/nissan-primera-p10-blue_W.0.0,4,5
+Image[NW]=./images/nissan-primera-p10-blue_NW.0.0,12,10
+Image[N]=./images/nissan-primera-p10-blue_N.0.0,0,33
+Image[NE]=./images/nissan-primera-p10-blue_NE.0.0,0,24

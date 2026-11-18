@@ -1,0 +1,107 @@
+# Volkswagen New Beetle, 1998-2011.
+#
+# The retro-styled New Beetle: 4,128 mm long, 1,724 mm wide, 1,498 mm high,
+# 2,515 mm wheelbase.
+# https://en.wikipedia.org/wiki/Volkswagen_Beetle#New_Beetle_(1997%E2%80%932010)
+#
+# Colours: black, blue, red and white are period New Beetle finishes.
+#
+# Weight: 150 in total (black 50, blue 40, red 35, white 25).
+#
+# Speed 180 km/h; comfort 100/330 (line). Classes 1,2.
+# Dates: 1998-2011 with a road tail to about 2015.
+#
+# Metres master: citycars/4.5/vw-new-beetle.blend. References:
+# citycars/references/vw-new-beetle/ (gitignored). Images via Wikimedia Commons.
+
+obj=citycar
+name=VWNewBeetle(Black)
+copyright=JamesPetts
+
+DistributionWeight=50
+intro_year=1998
+intro_month=6
+retire_year=2015
+retire_month=6
+speed=180
+class=1,2
+maximum_comfortable_journey_minutes=100
+maximum_tolerable_journey_minutes=330
+
+Image[E]=./images/vw-new-beetle-black_E.0.0,-33,14
+Image[SE]=./images/vw-new-beetle-black_SE.0.0,-13,0
+Image[S]=./images/vw-new-beetle-black_S.0.0,0,0
+Image[SW]=./images/vw-new-beetle-black_SW.0.0,-8,10
+Image[W]=./images/vw-new-beetle-black_W.0.0,4,5
+Image[NW]=./images/vw-new-beetle-black_NW.0.0,12,10
+Image[N]=./images/vw-new-beetle-black_N.0.0,0,33
+Image[NE]=./images/vw-new-beetle-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VWNewBeetle(Blue)
+copyright=JamesPetts
+
+DistributionWeight=40
+intro_year=1998
+intro_month=6
+retire_year=2014
+retire_month=6
+speed=180
+class=1,2
+maximum_comfortable_journey_minutes=100
+maximum_tolerable_journey_minutes=330
+
+Image[E]=./images/vw-new-beetle-blue_E.0.0,-33,14
+Image[SE]=./images/vw-new-beetle-blue_SE.0.0,-13,0
+Image[S]=./images/vw-new-beetle-blue_S.0.0,0,0
+Image[SW]=./images/vw-new-beetle-blue_SW.0.0,-8,10
+Image[W]=./images/vw-new-beetle-blue_W.0.0,4,5
+Image[NW]=./images/vw-new-beetle-blue_NW.0.0,12,10
+Image[N]=./images/vw-new-beetle-blue_N.0.0,0,33
+Image[NE]=./images/vw-new-beetle-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VWNewBeetle(Red)
+copyright=JamesPetts
+
+DistributionWeight=35
+intro_year=1998
+intro_month=6
+retire_year=2013
+retire_month=6
+speed=180
+class=1,2
+maximum_comfortable_journey_minutes=100
+maximum_tolerable_journey_minutes=330
+
+Image[E]=./images/vw-new-beetle-red_E.0.0,-33,14
+Image[SE]=./images/vw-new-beetle-red_SE.0.0,-13,0
+Image[S]=./images/vw-new-beetle-red_S.0.0,0,0
+Image[SW]=./images/vw-new-beetle-red_SW.0.0,-8,10
+Image[W]=./images/vw-new-beetle-red_W.0.0,4,5
+Image[NW]=./images/vw-new-beetle-red_NW.0.0,12,10
+Image[N]=./images/vw-new-beetle-red_N.0.0,0,33
+Image[NE]=./images/vw-new-beetle-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VWNewBeetle(White)
+copyright=JamesPetts
+
+DistributionWeight=25
+intro_year=1999
+intro_month=3
+retire_year=2012
+retire_month=6
+speed=180
+class=1,2
+maximum_comfortable_journey_minutes=100
+maximum_tolerable_journey_minutes=330
+
+Image[E]=./images/vw-new-beetle-white_E.0.0,-33,14
+Image[SE]=./images/vw-new-beetle-white_SE.0.0,-13,0
+Image[S]=./images/vw-new-beetle-white_S.0.0,0,0
+Image[SW]=./images/vw-new-beetle-white_SW.0.0,-8,10
+Image[W]=./images/vw-new-beetle-white_W.0.0,4,5
+Image[NW]=./images/vw-new-beetle-white_NW.0.0,12,10
+Image[N]=./images/vw-new-beetle-white_N.0.0,0,33
+Image[NE]=./images/vw-new-beetle-white_NE.0.0,0,24

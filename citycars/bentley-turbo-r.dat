@@ -1,0 +1,109 @@
+# Bentley Turbo R four-door saloon, 1985-1997.
+#
+# The Bentley that rebuilt the marque's sporting image: 5,278 mm long, 1,885 mm
+# wide, 1,488 mm high, 3,061 mm wheelbase; 6.75-litre turbocharged V8, uprated
+# suspension and fat tyres. About 4,000 built.
+# https://en.wikipedia.org/wiki/Bentley_Turbo_R
+#
+# Colours: Black, Silver, British Racing Green and Burgundy are documented Bentley
+# finishes of the period.
+#
+# Weight: 20 in total (black 7, silver 6, green 4, burgundy 3).
+#
+# Speed 240 km/h; comfort 150/405 (line). Class 4.
+# Dates: 1985-1997 with a road tail to about 2010.
+#
+# Metres master: citycars/4.5/bentley-turbo-r.blend. References:
+# citycars/references/bentley-turbo-r/ (gitignored). Images via Wikimedia Commons.
+
+obj=citycar
+name=BentleyTurboR(Black)
+copyright=JamesPetts
+
+DistributionWeight=7
+intro_year=1985
+intro_month=10
+retire_year=2010
+retire_month=6
+speed=240
+class=4
+maximum_comfortable_journey_minutes=150
+maximum_tolerable_journey_minutes=405
+
+Image[E]=./images/bentley-turbo-r-black_E.0.0,-33,14
+Image[SE]=./images/bentley-turbo-r-black_SE.0.0,-13,0
+Image[S]=./images/bentley-turbo-r-black_S.0.0,0,0
+Image[SW]=./images/bentley-turbo-r-black_SW.0.0,-8,10
+Image[W]=./images/bentley-turbo-r-black_W.0.0,4,5
+Image[NW]=./images/bentley-turbo-r-black_NW.0.0,12,10
+Image[N]=./images/bentley-turbo-r-black_N.0.0,0,33
+Image[NE]=./images/bentley-turbo-r-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BentleyTurboR(Silver)
+copyright=JamesPetts
+
+DistributionWeight=6
+intro_year=1985
+intro_month=10
+retire_year=2009
+retire_month=6
+speed=240
+class=4
+maximum_comfortable_journey_minutes=150
+maximum_tolerable_journey_minutes=405
+
+Image[E]=./images/bentley-turbo-r-silver_E.0.0,-33,14
+Image[SE]=./images/bentley-turbo-r-silver_SE.0.0,-13,0
+Image[S]=./images/bentley-turbo-r-silver_S.0.0,0,0
+Image[SW]=./images/bentley-turbo-r-silver_SW.0.0,-8,10
+Image[W]=./images/bentley-turbo-r-silver_W.0.0,4,5
+Image[NW]=./images/bentley-turbo-r-silver_NW.0.0,12,10
+Image[N]=./images/bentley-turbo-r-silver_N.0.0,0,33
+Image[NE]=./images/bentley-turbo-r-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BentleyTurboR(BritishRacingGreen)
+copyright=JamesPetts
+
+DistributionWeight=4
+intro_year=1987
+intro_month=3
+retire_year=2008
+retire_month=6
+speed=240
+class=4
+maximum_comfortable_journey_minutes=150
+maximum_tolerable_journey_minutes=405
+
+Image[E]=./images/bentley-turbo-r-green_E.0.0,-33,14
+Image[SE]=./images/bentley-turbo-r-green_SE.0.0,-13,0
+Image[S]=./images/bentley-turbo-r-green_S.0.0,0,0
+Image[SW]=./images/bentley-turbo-r-green_SW.0.0,-8,10
+Image[W]=./images/bentley-turbo-r-green_W.0.0,4,5
+Image[NW]=./images/bentley-turbo-r-green_NW.0.0,12,10
+Image[N]=./images/bentley-turbo-r-green_N.0.0,0,33
+Image[NE]=./images/bentley-turbo-r-green_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BentleyTurboR(Burgundy)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1989
+intro_month=3
+retire_year=2007
+retire_month=6
+speed=240
+class=4
+maximum_comfortable_journey_minutes=150
+maximum_tolerable_journey_minutes=405
+
+Image[E]=./images/bentley-turbo-r-burgundy_E.0.0,-33,14
+Image[SE]=./images/bentley-turbo-r-burgundy_SE.0.0,-13,0
+Image[S]=./images/bentley-turbo-r-burgundy_S.0.0,0,0
+Image[SW]=./images/bentley-turbo-r-burgundy_SW.0.0,-8,10
+Image[W]=./images/bentley-turbo-r-burgundy_W.0.0,4,5
+Image[NW]=./images/bentley-turbo-r-burgundy_NW.0.0,12,10
+Image[N]=./images/bentley-turbo-r-burgundy_N.0.0,0,33
+Image[NE]=./images/bentley-turbo-r-burgundy_NE.0.0,0,24

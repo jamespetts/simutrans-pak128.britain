@@ -1,0 +1,132 @@
+# Wolseley 16/20, 1910-1915.
+#
+# Wolseley's big four: 3,079 cc four, 90 x 121 mm, 20.1 RAC hp, four-speed
+# gearbox from 1911, final drive worm or bevel depending on the year. A 1913
+# contemporary account called it the most popular motor vehicle yet produced in
+# a British factory. Overall dimensions were body-dependent and no works figure
+# has been found; the catalogue records the chassis and engine, not the body.
+#
+# Contemporary estimates conflict: about 4,000 of the model were built in the
+# year to November 1913, while Wolseley as a whole was credited with 3,000 cars
+# in 1913, the largest British output. No total for the model has been found.
+# https://doi.org/10.1136/bmj.2.2759.1308
+# https://www.gracesguide.co.uk/1913_Automotive_Facts_and_Figures
+# https://en.wikipedia.org/wiki/List_of_Wolseley_automobiles
+#
+# Colours: Black, Dark Green, Maroon and Grey, as specified for this model.
+#
+# Weight: 13 in total (black 5, green 4, maroon 2, grey 2). Class 3 and a
+# low-volume prestige car, so the total stays inside the 10-15 band.
+#
+# Speed 80 km/h: no published 16/20 maximum speed has been found. 80 km/h
+# (50 mph) is the published maximum of the comparable 3,016 cc Sunbeam 12/16 at
+# the National Motor Museum, used here as the nearest published figure and
+# flagged for review. Comfort 60/270 (line). Class 3.
+# Dates: 1910-1915 with a road tail to about 1940. The register said 1911-1919;
+# the catalogues place the model in the range from 1910 to 1915, and the later
+# date is not supported by any source found.
+#
+# Metres master: citycars/4.5/wolseley-16-20.blend. References:
+# citycars/references/wolseley-16-20/ (gitignored). Images via Wikimedia
+# Commons.
+#
+# Photographs: wolseley1620-a.jpg period side view, public domain,
+# https://commons.wikimedia.org/wiki/File:Wolseley_16-20_open_touring_car.jpg
+# wolseley1620-b.jpg 1913 tourer front, CC BY 2.0, Andrew Bone,
+# https://commons.wikimedia.org/wiki/File:1913_Wolseley_16-20_tourer)_(34615480686).jpg
+# wolseley1620-c.jpg 1914 tourer front three-quarter, CC BY-SA 2.0, Clive Barker,
+# https://commons.wikimedia.org/wiki/File:1914_Wolseley_Tourer_(14771831790).jpg
+# wolseley1620-d.jpg 1911 tourer front three-quarter, CC BY 2.0, Sicnag,
+# https://commons.wikimedia.org/wiki/File:1911_Wolseley_16-20_tourer_(42354972432).jpg
+
+obj=citycar
+name=Wolseley1620(Black)
+copyright=JamesPetts
+
+DistributionWeight=5
+intro_year=1910
+intro_month=1
+retire_year=1940
+retire_month=6
+speed=80
+class=3
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=270
+
+Image[E]=./images/wolseley-16-20-black_E.0.0,-33,14
+Image[SE]=./images/wolseley-16-20-black_SE.0.0,-13,0
+Image[S]=./images/wolseley-16-20-black_S.0.0,0,0
+Image[SW]=./images/wolseley-16-20-black_SW.0.0,-8,10
+Image[W]=./images/wolseley-16-20-black_W.0.0,4,5
+Image[NW]=./images/wolseley-16-20-black_NW.0.0,12,10
+Image[N]=./images/wolseley-16-20-black_N.0.0,0,33
+Image[NE]=./images/wolseley-16-20-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Wolseley1620(DarkGreen)
+copyright=JamesPetts
+
+DistributionWeight=4
+intro_year=1910
+intro_month=4
+retire_year=1939
+retire_month=6
+speed=80
+class=3
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=270
+
+Image[E]=./images/wolseley-16-20-green_E.0.0,-33,14
+Image[SE]=./images/wolseley-16-20-green_SE.0.0,-13,0
+Image[S]=./images/wolseley-16-20-green_S.0.0,0,0
+Image[SW]=./images/wolseley-16-20-green_SW.0.0,-8,10
+Image[W]=./images/wolseley-16-20-green_W.0.0,4,5
+Image[NW]=./images/wolseley-16-20-green_NW.0.0,12,10
+Image[N]=./images/wolseley-16-20-green_N.0.0,0,33
+Image[NE]=./images/wolseley-16-20-green_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Wolseley1620(Maroon)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1911
+intro_month=3
+retire_year=1938
+retire_month=6
+speed=80
+class=3
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=270
+
+Image[E]=./images/wolseley-16-20-maroon_E.0.0,-33,14
+Image[SE]=./images/wolseley-16-20-maroon_SE.0.0,-13,0
+Image[S]=./images/wolseley-16-20-maroon_S.0.0,0,0
+Image[SW]=./images/wolseley-16-20-maroon_SW.0.0,-8,10
+Image[W]=./images/wolseley-16-20-maroon_W.0.0,4,5
+Image[NW]=./images/wolseley-16-20-maroon_NW.0.0,12,10
+Image[N]=./images/wolseley-16-20-maroon_N.0.0,0,33
+Image[NE]=./images/wolseley-16-20-maroon_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Wolseley1620(Grey)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1912
+intro_month=6
+retire_year=1937
+retire_month=6
+speed=80
+class=3
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=270
+
+Image[E]=./images/wolseley-16-20-grey_E.0.0,-33,14
+Image[SE]=./images/wolseley-16-20-grey_SE.0.0,-13,0
+Image[S]=./images/wolseley-16-20-grey_S.0.0,0,0
+Image[SW]=./images/wolseley-16-20-grey_SW.0.0,-8,10
+Image[W]=./images/wolseley-16-20-grey_W.0.0,4,5
+Image[NW]=./images/wolseley-16-20-grey_NW.0.0,12,10
+Image[N]=./images/wolseley-16-20-grey_N.0.0,0,33
+Image[NE]=./images/wolseley-16-20-grey_NE.0.0,0,24

@@ -1,0 +1,115 @@
+# Rover 800 four-door saloon, 1986-1999.
+#
+# GRAPHICS REPLACED 2026-11-17. These four objects keep their names, dates and
+# weights so that savegames stay valid, but their sprites now show the XX of
+# 1986-91 rather than a generic 1986-99 shell. The facelift R17 of 1991-99 is a
+# separate set of objects (Rover800R17), so the two marks appear side by side on
+# the road, as they did. The XX master is citycars/4.5/rover-800-xx.blend.
+#
+# The Rover 800, developed with Honda (the Legend twin): 4,690 mm long, 1,730 mm
+# wide, 1,400 mm high, 2,760 mm wheelbase; 2.0 fours, 2.7 Honda V6 then Rover's
+# own 2.5/2.7 KV6, 820 and Sterling trims. Facelift in 1991 and again in 1996.
+# https://en.wikipedia.org/wiki/Rover_800
+#
+# Colours: Nightfire Red, Charcoal Grey, White Gold and Steel Blue are documented
+# Rover finishes of the period.
+#
+# Weight: 100 in total (red 30, grey 26, white 24, blue 20).
+#
+# Speed 210 km/h; comfort 110/345 (line). Classes 2,3.
+# Dates: 1986-1999 with a road tail to about 2010.
+#
+# Metres master: citycars/4.5/rover-800.blend. References:
+# citycars/references/rover-800/ (gitignored). Images via Wikimedia Commons.
+
+obj=citycar
+name=Rover800(NightfireRed)
+copyright=JamesPetts
+
+DistributionWeight=30
+intro_year=1986
+intro_month=7
+retire_year=2010
+retire_month=6
+speed=210
+class=2,3
+maximum_comfortable_journey_minutes=110
+maximum_tolerable_journey_minutes=345
+
+Image[E]=./images/rover-800-red_E.0.0,-33,14
+Image[SE]=./images/rover-800-red_SE.0.0,-13,0
+Image[S]=./images/rover-800-red_S.0.0,0,0
+Image[SW]=./images/rover-800-red_SW.0.0,-8,10
+Image[W]=./images/rover-800-red_W.0.0,4,5
+Image[NW]=./images/rover-800-red_NW.0.0,12,10
+Image[N]=./images/rover-800-red_N.0.0,0,33
+Image[NE]=./images/rover-800-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Rover800(CharcoalGrey)
+copyright=JamesPetts
+
+DistributionWeight=26
+intro_year=1986
+intro_month=7
+retire_year=2009
+retire_month=6
+speed=210
+class=2,3
+maximum_comfortable_journey_minutes=110
+maximum_tolerable_journey_minutes=345
+
+Image[E]=./images/rover-800-grey_E.0.0,-33,14
+Image[SE]=./images/rover-800-grey_SE.0.0,-13,0
+Image[S]=./images/rover-800-grey_S.0.0,0,0
+Image[SW]=./images/rover-800-grey_SW.0.0,-8,10
+Image[W]=./images/rover-800-grey_W.0.0,4,5
+Image[NW]=./images/rover-800-grey_NW.0.0,12,10
+Image[N]=./images/rover-800-grey_N.0.0,0,33
+Image[NE]=./images/rover-800-grey_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Rover800(WhiteGold)
+copyright=JamesPetts
+
+DistributionWeight=24
+intro_year=1987
+intro_month=3
+retire_year=2008
+retire_month=6
+speed=210
+class=2,3
+maximum_comfortable_journey_minutes=110
+maximum_tolerable_journey_minutes=345
+
+Image[E]=./images/rover-800-white_E.0.0,-33,14
+Image[SE]=./images/rover-800-white_SE.0.0,-13,0
+Image[S]=./images/rover-800-white_S.0.0,0,0
+Image[SW]=./images/rover-800-white_SW.0.0,-8,10
+Image[W]=./images/rover-800-white_W.0.0,4,5
+Image[NW]=./images/rover-800-white_NW.0.0,12,10
+Image[N]=./images/rover-800-white_N.0.0,0,33
+Image[NE]=./images/rover-800-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Rover800(SteelBlue)
+copyright=JamesPetts
+
+DistributionWeight=20
+intro_year=1988
+intro_month=3
+retire_year=2007
+retire_month=6
+speed=210
+class=2,3
+maximum_comfortable_journey_minutes=110
+maximum_tolerable_journey_minutes=345
+
+Image[E]=./images/rover-800-blue_E.0.0,-33,14
+Image[SE]=./images/rover-800-blue_SE.0.0,-13,0
+Image[S]=./images/rover-800-blue_S.0.0,0,0
+Image[SW]=./images/rover-800-blue_SW.0.0,-8,10
+Image[W]=./images/rover-800-blue_W.0.0,4,5
+Image[NW]=./images/rover-800-blue_NW.0.0,12,10
+Image[N]=./images/rover-800-blue_N.0.0,0,33
+Image[NE]=./images/rover-800-blue_NE.0.0,0,24

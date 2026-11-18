@@ -1,0 +1,127 @@
+# Sunbeam 12/16, 1912-1921.
+#
+# Louis Coatalen's 3,016 cc L-head four, 80 x 150 mm, 15.9 RAC hp; the 1912
+# Coupe de l'Auto team finished first, second and third. About 4,950 were built
+# by Sunbeam, plus about 1,781 licence-built by Rover during the First World
+# War. No works overall dimensions have been found. The model was built to
+# these ESTIMATES: 4.000 m long, 1.650 m wide, wheelbase 2.896 m, with the
+# height taken from the body as photographed. The wheelbase is the figure to
+# trust; the rest should be corrected if a works figure is ever found.
+# https://www.sunbeam.org.au/?page_id=544
+# https://en.wikipedia.org/wiki/Sunbeam_Motor_Car_Company
+#
+# Colours: Black, Dark Green, Maroon and Grey, as specified for this model.
+#
+# Weight: 13 in total (black 5, green 4, maroon 2, grey 2). Class 3 and a
+# low-volume prestige car, so the total stays inside the 10-15 band.
+#
+# Speed 80 km/h (50 mph), the National Motor Museum figure for its 1914 12/16.
+# https://nationalmotormuseum.org.uk/collections/vehicles/sunbeam-1216hp/
+# Comfort 60/270 (line). Class 3.
+# Dates: 1912-1921 with a road tail to about 1946.
+#
+# Metres master: citycars/4.5/sunbeam-12-16.blend. References:
+# citycars/references/sunbeam-12-16/ (gitignored). Images via Wikimedia Commons.
+#
+# Photographs: all four are the National Motor Museum's 1914 12/16 tourer,
+# registration LM-7339.
+# sunbeam1216-a.jpg front, CC BY 2.0, sv1ambo,
+# https://commons.wikimedia.org/wiki/File:1914_Sunbeam_12-16hp_(5949733065).jpg
+# sunbeam1216-b.jpg front three-quarter left, CC BY 2.0, sv1ambo,
+# https://commons.wikimedia.org/wiki/File:1914_Sunbeam_12-16hp_(5950311940).jpg
+# sunbeam1216-c.jpg front three-quarter right, CC BY 2.0, Michael Gaylard,
+# https://commons.wikimedia.org/wiki/File:Sunbeam_12_16hp_(52713177574).jpg
+# sunbeam1216-d.jpg rear three-quarter, CC BY 2.0, sv1ambo,
+# https://commons.wikimedia.org/wiki/File:1914_Sunbeam_12-16hp_(5950297164).jpg
+
+obj=citycar
+name=Sunbeam1216(Black)
+copyright=JamesPetts
+
+DistributionWeight=5
+intro_year=1912
+intro_month=1
+retire_year=1946
+retire_month=6
+speed=80
+class=3
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=270
+
+Image[E]=./images/sunbeam-12-16-black_E.0.0,-33,14
+Image[SE]=./images/sunbeam-12-16-black_SE.0.0,-13,0
+Image[S]=./images/sunbeam-12-16-black_S.0.0,0,0
+Image[SW]=./images/sunbeam-12-16-black_SW.0.0,-8,10
+Image[W]=./images/sunbeam-12-16-black_W.0.0,4,5
+Image[NW]=./images/sunbeam-12-16-black_NW.0.0,12,10
+Image[N]=./images/sunbeam-12-16-black_N.0.0,0,33
+Image[NE]=./images/sunbeam-12-16-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Sunbeam1216(DarkGreen)
+copyright=JamesPetts
+
+DistributionWeight=4
+intro_year=1912
+intro_month=4
+retire_year=1945
+retire_month=6
+speed=80
+class=3
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=270
+
+Image[E]=./images/sunbeam-12-16-green_E.0.0,-33,14
+Image[SE]=./images/sunbeam-12-16-green_SE.0.0,-13,0
+Image[S]=./images/sunbeam-12-16-green_S.0.0,0,0
+Image[SW]=./images/sunbeam-12-16-green_SW.0.0,-8,10
+Image[W]=./images/sunbeam-12-16-green_W.0.0,4,5
+Image[NW]=./images/sunbeam-12-16-green_NW.0.0,12,10
+Image[N]=./images/sunbeam-12-16-green_N.0.0,0,33
+Image[NE]=./images/sunbeam-12-16-green_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Sunbeam1216(Maroon)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1913
+intro_month=3
+retire_year=1944
+retire_month=6
+speed=80
+class=3
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=270
+
+Image[E]=./images/sunbeam-12-16-maroon_E.0.0,-33,14
+Image[SE]=./images/sunbeam-12-16-maroon_SE.0.0,-13,0
+Image[S]=./images/sunbeam-12-16-maroon_S.0.0,0,0
+Image[SW]=./images/sunbeam-12-16-maroon_SW.0.0,-8,10
+Image[W]=./images/sunbeam-12-16-maroon_W.0.0,4,5
+Image[NW]=./images/sunbeam-12-16-maroon_NW.0.0,12,10
+Image[N]=./images/sunbeam-12-16-maroon_N.0.0,0,33
+Image[NE]=./images/sunbeam-12-16-maroon_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Sunbeam1216(Grey)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1914
+intro_month=6
+retire_year=1943
+retire_month=6
+speed=80
+class=3
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=270
+
+Image[E]=./images/sunbeam-12-16-grey_E.0.0,-33,14
+Image[SE]=./images/sunbeam-12-16-grey_SE.0.0,-13,0
+Image[S]=./images/sunbeam-12-16-grey_S.0.0,0,0
+Image[SW]=./images/sunbeam-12-16-grey_SW.0.0,-8,10
+Image[W]=./images/sunbeam-12-16-grey_W.0.0,4,5
+Image[NW]=./images/sunbeam-12-16-grey_NW.0.0,12,10
+Image[N]=./images/sunbeam-12-16-grey_N.0.0,0,33
+Image[NE]=./images/sunbeam-12-16-grey_NE.0.0,0,24

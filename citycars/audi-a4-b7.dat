@@ -1,0 +1,109 @@
+# Audi A4 B7 four-door saloon, 2005-2008.
+#
+# The B7 facelift of the B6 shell: 4,586 mm long, 1,772 mm wide, 1,427 mm high,
+# 2,648 mm wheelbase; the first A4 with the single-frame grille. 1.6-3.2 petrol
+# and 2.0/3.0 TDI, front-wheel drive or quattro.
+# https://en.wikipedia.org/wiki/Audi_A4
+#
+# Colours: Brilliant Black, Quartz Silver, Deep Sea Blue and Brilliant Red are
+# period Audi finishes.
+#
+# Weight: 220 in total (black 65, silver 65, blue 50, red 40).
+#
+# Speed 220 km/h; comfort 125/370 (line). Classes 2,3.
+# Dates: 2005-2008 with a road tail to about 2018.
+#
+# Metres master: citycars/4.5/audi-a4-b7.blend. References:
+# citycars/references/audi-a4-b7/ (gitignored). Images via Wikimedia Commons.
+
+obj=citycar
+name=AudiA4B7(BrilliantBlack)
+copyright=JamesPetts
+
+DistributionWeight=65
+intro_year=2005
+intro_month=1
+retire_year=2018
+retire_month=6
+speed=220
+class=2,3
+maximum_comfortable_journey_minutes=125
+maximum_tolerable_journey_minutes=370
+
+Image[E]=./images/audi-a4-b7-black_E.0.0,-33,14
+Image[SE]=./images/audi-a4-b7-black_SE.0.0,-13,0
+Image[S]=./images/audi-a4-b7-black_S.0.0,0,0
+Image[SW]=./images/audi-a4-b7-black_SW.0.0,-8,10
+Image[W]=./images/audi-a4-b7-black_W.0.0,4,5
+Image[NW]=./images/audi-a4-b7-black_NW.0.0,12,10
+Image[N]=./images/audi-a4-b7-black_N.0.0,0,33
+Image[NE]=./images/audi-a4-b7-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=AudiA4B7(QuartzSilver)
+copyright=JamesPetts
+
+DistributionWeight=65
+intro_year=2005
+intro_month=1
+retire_year=2017
+retire_month=6
+speed=220
+class=2,3
+maximum_comfortable_journey_minutes=125
+maximum_tolerable_journey_minutes=370
+
+Image[E]=./images/audi-a4-b7-silver_E.0.0,-33,14
+Image[SE]=./images/audi-a4-b7-silver_SE.0.0,-13,0
+Image[S]=./images/audi-a4-b7-silver_S.0.0,0,0
+Image[SW]=./images/audi-a4-b7-silver_SW.0.0,-8,10
+Image[W]=./images/audi-a4-b7-silver_W.0.0,4,5
+Image[NW]=./images/audi-a4-b7-silver_NW.0.0,12,10
+Image[N]=./images/audi-a4-b7-silver_N.0.0,0,33
+Image[NE]=./images/audi-a4-b7-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=AudiA4B7(DeepSeaBlue)
+copyright=JamesPetts
+
+DistributionWeight=50
+intro_year=2005
+intro_month=1
+retire_year=2016
+retire_month=6
+speed=220
+class=2,3
+maximum_comfortable_journey_minutes=125
+maximum_tolerable_journey_minutes=370
+
+Image[E]=./images/audi-a4-b7-blue_E.0.0,-33,14
+Image[SE]=./images/audi-a4-b7-blue_SE.0.0,-13,0
+Image[S]=./images/audi-a4-b7-blue_S.0.0,0,0
+Image[SW]=./images/audi-a4-b7-blue_SW.0.0,-8,10
+Image[W]=./images/audi-a4-b7-blue_W.0.0,4,5
+Image[NW]=./images/audi-a4-b7-blue_NW.0.0,12,10
+Image[N]=./images/audi-a4-b7-blue_N.0.0,0,33
+Image[NE]=./images/audi-a4-b7-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=AudiA4B7(BrilliantRed)
+copyright=JamesPetts
+
+DistributionWeight=40
+intro_year=2006
+intro_month=3
+retire_year=2015
+retire_month=6
+speed=220
+class=2,3
+maximum_comfortable_journey_minutes=125
+maximum_tolerable_journey_minutes=370
+
+Image[E]=./images/audi-a4-b7-red_E.0.0,-33,14
+Image[SE]=./images/audi-a4-b7-red_SE.0.0,-13,0
+Image[S]=./images/audi-a4-b7-red_S.0.0,0,0
+Image[SW]=./images/audi-a4-b7-red_SW.0.0,-8,10
+Image[W]=./images/audi-a4-b7-red_W.0.0,4,5
+Image[NW]=./images/audi-a4-b7-red_NW.0.0,12,10
+Image[N]=./images/audi-a4-b7-red_N.0.0,0,33
+Image[NE]=./images/audi-a4-b7-red_NE.0.0,0,24

@@ -1,0 +1,108 @@
+# Rover 45 four-door saloon, 1999-2005.
+#
+# The facelifted Rover 400: 4,366 mm long, 1,695 mm wide, 1,395 mm high,
+# 2,620 mm wheelbase; 1.4-2.0 petrol and 2.0 diesel, the 45 the upper-medium
+# Rover of the MG Rover years. https://en.wikipedia.org/wiki/Rover_45
+#
+# Colours: Tahiti Blue, Zircon Silver, Nightfire Red and Arden Green are period
+# Rover finishes.
+#
+# Weight: 100 in total (blue 30, silver 26, red 24, green 20).
+#
+# Speed 200 km/h; comfort 105/340 (line). Classes 2,3.
+# Dates: 1999-2005 with a road tail to about 2016.
+#
+# Metres master: citycars/4.5/rover-45.blend. References:
+# citycars/references/rover-45/ (gitignored). Images via Wikimedia Commons.
+
+obj=citycar
+name=Rover45(TahitiBlue)
+copyright=JamesPetts
+
+DistributionWeight=30
+intro_year=1999
+intro_month=10
+retire_year=2016
+retire_month=6
+speed=200
+class=2,3
+maximum_comfortable_journey_minutes=105
+maximum_tolerable_journey_minutes=340
+
+Image[E]=./images/rover-45-blue_E.0.0,-33,14
+Image[SE]=./images/rover-45-blue_SE.0.0,-13,0
+Image[S]=./images/rover-45-blue_S.0.0,0,0
+Image[SW]=./images/rover-45-blue_SW.0.0,-8,12
+Image[W]=./images/rover-45-blue_W.0.0,4,5
+Image[NW]=./images/rover-45-blue_NW.0.0,12,10
+Image[N]=./images/rover-45-blue_N.0.0,0,33
+Image[NE]=./images/rover-45-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Rover45(ZirconSilver)
+copyright=JamesPetts
+
+DistributionWeight=26
+intro_year=1999
+intro_month=10
+retire_year=2015
+retire_month=6
+speed=200
+class=2,3
+maximum_comfortable_journey_minutes=105
+maximum_tolerable_journey_minutes=340
+
+Image[E]=./images/rover-45-silver_E.0.0,-33,14
+Image[SE]=./images/rover-45-silver_SE.0.0,-13,0
+Image[S]=./images/rover-45-silver_S.0.0,0,0
+Image[SW]=./images/rover-45-silver_SW.0.0,-8,12
+Image[W]=./images/rover-45-silver_W.0.0,4,5
+Image[NW]=./images/rover-45-silver_NW.0.0,12,10
+Image[N]=./images/rover-45-silver_N.0.0,0,33
+Image[NE]=./images/rover-45-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Rover45(NightfireRed)
+copyright=JamesPetts
+
+DistributionWeight=24
+intro_year=2000
+intro_month=3
+retire_year=2014
+retire_month=6
+speed=200
+class=2,3
+maximum_comfortable_journey_minutes=105
+maximum_tolerable_journey_minutes=340
+
+Image[E]=./images/rover-45-red_E.0.0,-33,14
+Image[SE]=./images/rover-45-red_SE.0.0,-13,0
+Image[S]=./images/rover-45-red_S.0.0,0,0
+Image[SW]=./images/rover-45-red_SW.0.0,-8,12
+Image[W]=./images/rover-45-red_W.0.0,4,5
+Image[NW]=./images/rover-45-red_NW.0.0,12,10
+Image[N]=./images/rover-45-red_N.0.0,0,33
+Image[NE]=./images/rover-45-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Rover45(ArdenGreen)
+copyright=JamesPetts
+
+DistributionWeight=20
+intro_year=2001
+intro_month=3
+retire_year=2013
+retire_month=6
+speed=200
+class=2,3
+maximum_comfortable_journey_minutes=105
+maximum_tolerable_journey_minutes=340
+
+Image[E]=./images/rover-45-green_E.0.0,-33,14
+Image[SE]=./images/rover-45-green_SE.0.0,-13,0
+Image[S]=./images/rover-45-green_S.0.0,0,0
+Image[SW]=./images/rover-45-green_SW.0.0,-8,12
+Image[W]=./images/rover-45-green_W.0.0,4,5
+Image[NW]=./images/rover-45-green_NW.0.0,12,10
+Image[N]=./images/rover-45-green_N.0.0,0,33
+Image[NE]=./images/rover-45-green_NE.0.0,0,24

@@ -1,0 +1,85 @@
+# Late BSA M21 600 cc side-valve outfit with a Watsonian Monaco sports tourer.
+#
+# The last of the British sidecar outfits: the M21 remained available to special
+# order until 1963, and the Monaco was Watsonian's low sports-tourer chair of the
+# late 1950s, listed in the 1959 range as a monocoque "sports tourer" with a
+# 10 in quick-detachable brake-hub wheel, a low seating position, a wrap-around
+# Perspex screen and a rounded tail with the spare wheel.
+# https://www.cybermotorcycle.com/gallery/watsonian/Watsonian-1959-Brochure-p12.htm
+# https://en.wikipedia.org/wiki/BSA_M21
+#
+# Motorcycle: BSA M21 591 cc side-valve single, 15 bhp, telescopic forks,
+# plunger rear suspension, 8 in front brake from 1956.
+#
+# Dimensions: outfit about 2.10 m long x 1.50 m wide x 1.15 m high, measured
+# from the reference photographs; motorcycle wheelbase about 1.38 m; wheels
+# 19 in (3.25 front, 3.50 rear, 2.25 chair).
+#
+# Colours: the M21 was offered in the late 1950s and early 1960s in a small range
+# of solid finishes; maroon and black are the two modelled here, matching the
+# colours used on the earlier M21 object in this pakset.
+#
+# Weight: a late variant of the M21, set at 80 in total (maroon 45, black 35) so
+# that the M21's overall road presence is split between the two chair types
+# rather than doubled. Provisional pending the central rebase.
+#
+# Speed 80 km/h (50 mph): a game-balance figure for a late 600 cc outfit.
+# Comfort 35/200: the Monaco's sprung sidecar wheel and low body give a better
+# ride than the Maxstoke outfit's 25-50 range, but it remains an open outfit.
+#
+# Dates describe when these outfits were seen on British roads: the Monaco from
+# 1959-60, the M21 to 1963 and outfits into the later 1960s.
+#
+# Metres master: citycars/4.5/bsa-m21-monaco-combo.blend in the blends
+# repository. References: citycars/references/bsa-m21-monaco/ (gitignored).
+# Image credits: 1956 M21 outfit photograph, Thomas's Pics, CC BY 2.0 via
+# Wikimedia Commons; Watsonian 1959 brochure scan via Sheldon's EMU, research
+# reference only.
+# Stage B note: +0.3973 pak units applied after preparation so the motorcycle,
+# not the combined bounding box, sits at the tile centre.
+
+obj=citycar
+name=BSAM21MonacoCombo(Maroon)
+copyright=JamesPetts
+
+DistributionWeight=45
+intro_year=1960
+intro_month=1
+retire_year=1968
+retire_month=6
+speed=80
+class=0,1
+maximum_comfortable_journey_minutes=35
+maximum_tolerable_journey_minutes=200
+
+Image[E]=./images/bsa-m21-monaco-combo-maroon_E.0.0,-33,14
+Image[SE]=./images/bsa-m21-monaco-combo-maroon_SE.0.0,-13,0
+Image[S]=./images/bsa-m21-monaco-combo-maroon_S.0.0,0,0
+Image[SW]=./images/bsa-m21-monaco-combo-maroon_SW.0.0,-8,10
+Image[W]=./images/bsa-m21-monaco-combo-maroon_W.0.0,4,5
+Image[NW]=./images/bsa-m21-monaco-combo-maroon_NW.0.0,12,10
+Image[N]=./images/bsa-m21-monaco-combo-maroon_N.0.0,0,33
+Image[NE]=./images/bsa-m21-monaco-combo-maroon_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BSAM21MonacoCombo(Black)
+copyright=JamesPetts
+
+DistributionWeight=35
+intro_year=1961
+intro_month=6
+retire_year=1967
+retire_month=6
+speed=80
+class=0,1
+maximum_comfortable_journey_minutes=35
+maximum_tolerable_journey_minutes=200
+
+Image[E]=./images/bsa-m21-monaco-combo-black_E.0.0,-33,14
+Image[SE]=./images/bsa-m21-monaco-combo-black_SE.0.0,-13,0
+Image[S]=./images/bsa-m21-monaco-combo-black_S.0.0,0,0
+Image[SW]=./images/bsa-m21-monaco-combo-black_SW.0.0,-8,10
+Image[W]=./images/bsa-m21-monaco-combo-black_W.0.0,4,5
+Image[NW]=./images/bsa-m21-monaco-combo-black_NW.0.0,12,10
+Image[N]=./images/bsa-m21-monaco-combo-black_N.0.0,0,33
+Image[NE]=./images/bsa-m21-monaco-combo-black_NE.0.0,0,24

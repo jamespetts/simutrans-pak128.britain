@@ -1,0 +1,120 @@
+# Nissan Juke F16 five-door crossover, 2019-.
+#
+# The second-generation Juke: taller, roomier and more upright than the F15, with
+# larger squared lamp signature and a horizontal rear lamp cluster in place of
+# the F15's hooked units.
+# https://en.wikipedia.org/wiki/Nissan_Juke
+#
+# Dimensions 4.210 x 1.800 x 1.595 m, wheelbase 2.636 m, from the English
+# Wikipedia F16 dimension box. Mirrors take the modelled width to 2.020 m.
+#
+# Colours. No UK colour chart for the F16 was located, so the objects carry plain
+# colour names: white, red, black and grey. Weights white 3, red 3, black 2,
+# grey 2, total 10, provisional pending the central rebase.
+#
+# Speed 190 km/h for the 1.0 DIG-T, the volume model. Comfort 95/320, on the line
+# 180 + 1.5 x 95, two steps above the F15's 85/310 because the F16 is longer,
+# wider and much roomier inside. Classes 1,2.
+#
+# Dates are road presence: November 2019 intro, retires staggered 2034-2037 on a
+# fifteen- to eighteen-year tail.
+#
+# Metres master: citycars/4.5/nissan-juke-f16.blend. Interchange:
+# citycars/4.5/nissan-juke-f16.dae (46 objects). References:
+# citycars/references/nissan-juke-f16/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the rear lamps are smaller than the photographs and the
+# bumper is simplified. At 128 px the upright hatch, the V grille and the
+# horizontal rear lamps read as the F16.
+
+obj=citycar
+name=NissanJukeF16(White)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=2019
+intro_month=11
+retire_year=2037
+retire_month=6
+speed=190
+class=1,2
+maximum_comfortable_journey_minutes=95
+maximum_tolerable_journey_minutes=320
+
+Image[E]=./images/nissan-juke-f16-white_E.0.0,-33,14
+Image[SE]=./images/nissan-juke-f16-white_SE.0.0,-13,0
+Image[S]=./images/nissan-juke-f16-white_S.0.0,0,0
+Image[SW]=./images/nissan-juke-f16-white_SW.0.0,-8,10
+Image[W]=./images/nissan-juke-f16-white_W.0.0,4,5
+Image[NW]=./images/nissan-juke-f16-white_NW.0.0,12,10
+Image[N]=./images/nissan-juke-f16-white_N.0.0,0,33
+Image[NE]=./images/nissan-juke-f16-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=NissanJukeF16(Red)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=2019
+intro_month=11
+retire_year=2036
+retire_month=6
+speed=190
+class=1,2
+maximum_comfortable_journey_minutes=95
+maximum_tolerable_journey_minutes=320
+
+Image[E]=./images/nissan-juke-f16-red_E.0.0,-33,14
+Image[SE]=./images/nissan-juke-f16-red_SE.0.0,-13,0
+Image[S]=./images/nissan-juke-f16-red_S.0.0,0,0
+Image[SW]=./images/nissan-juke-f16-red_SW.0.0,-8,10
+Image[W]=./images/nissan-juke-f16-red_W.0.0,4,5
+Image[NW]=./images/nissan-juke-f16-red_NW.0.0,12,10
+Image[N]=./images/nissan-juke-f16-red_N.0.0,0,33
+Image[NE]=./images/nissan-juke-f16-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=NissanJukeF16(Black)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=2019
+intro_month=11
+retire_year=2035
+retire_month=6
+speed=190
+class=1,2
+maximum_comfortable_journey_minutes=95
+maximum_tolerable_journey_minutes=320
+
+Image[E]=./images/nissan-juke-f16-black_E.0.0,-33,14
+Image[SE]=./images/nissan-juke-f16-black_SE.0.0,-13,0
+Image[S]=./images/nissan-juke-f16-black_S.0.0,0,0
+Image[SW]=./images/nissan-juke-f16-black_SW.0.0,-8,10
+Image[W]=./images/nissan-juke-f16-black_W.0.0,4,5
+Image[NW]=./images/nissan-juke-f16-black_NW.0.0,12,10
+Image[N]=./images/nissan-juke-f16-black_N.0.0,0,33
+Image[NE]=./images/nissan-juke-f16-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=NissanJukeF16(Grey)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=2019
+intro_month=11
+retire_year=2034
+retire_month=6
+speed=190
+class=1,2
+maximum_comfortable_journey_minutes=95
+maximum_tolerable_journey_minutes=320
+
+Image[E]=./images/nissan-juke-f16-grey_E.0.0,-33,14
+Image[SE]=./images/nissan-juke-f16-grey_SE.0.0,-13,0
+Image[S]=./images/nissan-juke-f16-grey_S.0.0,0,0
+Image[SW]=./images/nissan-juke-f16-grey_SW.0.0,-8,10
+Image[W]=./images/nissan-juke-f16-grey_W.0.0,4,5
+Image[NW]=./images/nissan-juke-f16-grey_NW.0.0,12,10
+Image[N]=./images/nissan-juke-f16-grey_N.0.0,0,33
+Image[NE]=./images/nissan-juke-f16-grey_NE.0.0,0,24

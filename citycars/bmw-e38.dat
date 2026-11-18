@@ -1,0 +1,111 @@
+# BMW 7 Series E38, 1994-2001.
+#
+# The E38 7-series: 4,984 mm long, 1,862 mm wide, 1,435 mm high, 2,930 mm
+# wheelbase; 2.8-4.4 V8 and 5.4 V12. Long low saloon with the slim twin-kidney
+# grille and four separate headlamp units. The 7-series family had at least
+# 26,900 GB licensed at 1994 Q4 across E32/E38/newer.
+# https://en.wikipedia.org/wiki/BMW_7_Series_(E38)
+#
+# Colours: Cosmos Black, Aspen Silver, Biarritz Blue and Oxford Green are period
+# BMW finishes.
+#
+# Weight: 30 in total (black 10, silver 9, blue 6, green 5), between the Jaguar
+# XJ's 60 and the S-Class W140's 20.
+#
+# Speed 210 km/h; comfort 160/420 (line).
+# Dates: 1994-2001 with a road tail to about 2012.
+#
+# Metres master: citycars/4.5/bmw-e38.blend. References:
+# citycars/references/bmw-e38/ (gitignored). Images via Wikimedia Commons.
+
+obj=citycar
+name=BMW7E38(CosmosBlack)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=1994
+intro_month=10
+retire_year=2012
+retire_month=6
+speed=210
+class=4
+maximum_comfortable_journey_minutes=160
+maximum_tolerable_journey_minutes=420
+
+Image[E]=./images/bmw-e38-black_E.0.0,-33,14
+Image[SE]=./images/bmw-e38-black_SE.0.0,-13,0
+Image[S]=./images/bmw-e38-black_S.0.0,0,0
+Image[SW]=./images/bmw-e38-black_SW.0.0,-8,10
+Image[W]=./images/bmw-e38-black_W.0.0,4,5
+Image[NW]=./images/bmw-e38-black_NW.0.0,12,10
+Image[N]=./images/bmw-e38-black_N.0.0,0,33
+Image[NE]=./images/bmw-e38-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMW7E38(AspenSilver)
+copyright=JamesPetts
+
+DistributionWeight=9
+intro_year=1994
+intro_month=10
+retire_year=2011
+retire_month=6
+speed=210
+class=4
+maximum_comfortable_journey_minutes=160
+maximum_tolerable_journey_minutes=420
+
+Image[E]=./images/bmw-e38-silver_E.0.0,-33,14
+Image[SE]=./images/bmw-e38-silver_SE.0.0,-13,0
+Image[S]=./images/bmw-e38-silver_S.0.0,0,0
+Image[SW]=./images/bmw-e38-silver_SW.0.0,-8,10
+Image[W]=./images/bmw-e38-silver_W.0.0,4,5
+Image[NW]=./images/bmw-e38-silver_NW.0.0,12,10
+Image[N]=./images/bmw-e38-silver_N.0.0,0,33
+Image[NE]=./images/bmw-e38-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMW7E38(BiarritzBlue)
+copyright=JamesPetts
+
+DistributionWeight=6
+intro_year=1995
+intro_month=3
+retire_year=2010
+retire_month=6
+speed=210
+class=4
+maximum_comfortable_journey_minutes=160
+maximum_tolerable_journey_minutes=420
+
+Image[E]=./images/bmw-e38-blue_E.0.0,-33,14
+Image[SE]=./images/bmw-e38-blue_SE.0.0,-13,0
+Image[S]=./images/bmw-e38-blue_S.0.0,0,0
+Image[SW]=./images/bmw-e38-blue_SW.0.0,-8,10
+Image[W]=./images/bmw-e38-blue_W.0.0,4,5
+Image[NW]=./images/bmw-e38-blue_NW.0.0,12,10
+Image[N]=./images/bmw-e38-blue_N.0.0,0,33
+Image[NE]=./images/bmw-e38-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMW7E38(OxfordGreen)
+copyright=JamesPetts
+
+DistributionWeight=5
+intro_year=1996
+intro_month=3
+retire_year=2009
+retire_month=6
+speed=210
+class=4
+maximum_comfortable_journey_minutes=160
+maximum_tolerable_journey_minutes=420
+
+Image[E]=./images/bmw-e38-green_E.0.0,-33,14
+Image[SE]=./images/bmw-e38-green_SE.0.0,-13,0
+Image[S]=./images/bmw-e38-green_S.0.0,0,0
+Image[SW]=./images/bmw-e38-green_SW.0.0,-8,10
+Image[W]=./images/bmw-e38-green_W.0.0,4,5
+Image[NW]=./images/bmw-e38-green_NW.0.0,12,10
+Image[N]=./images/bmw-e38-green_N.0.0,0,33
+Image[NE]=./images/bmw-e38-green_NE.0.0,0,24

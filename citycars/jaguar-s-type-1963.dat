@@ -1,0 +1,127 @@
+# Jaguar S-Type 3.8, 1963-1968.
+#
+# The S-Type was the Mk 2 body with Jaguar's new independent rear suspension and a
+# restyled tail, sold alongside the Mk 2 from 1963 to 1968. It is the compact
+# luxury saloon of the mid-1960s: twin round headlamps with smaller inboard lamps,
+# a tall oval grille of vertical chrome bars, chrome bumpers with overriders and a
+# chrome waist strip.
+# https://en.wikipedia.org/wiki/Jaguar_S-Type_(1963)
+#
+# Dimensions 4.750 x 1.683 x 1.416 m, wheelbase 2.730 m; the published S-Type
+# dimension box.
+#
+# Colours: British Racing Green, Carmen Red, Old English White and Opalescent
+# Silver Grey, Jaguar offerings of the period. Pre-1994 registrations have no
+# measured colour split, so the weights follow the register's treatment of
+# low-volume prestige cars rather than a colour-share calculation: green 3, red 2,
+# white 2, silver 1. Total 8. Provisional pending the central rebase.
+#
+# Speed 190 km/h, near the 3.8's real maximum but held to the pakset's executive
+# tier. Comfort 90/315, on the line 180 + 1.5 x 90: a quiet, well-sprung saloon but
+# with the short-travel ride and wind noise of its decade. Class 3, the high wealth
+# band, as the Jaguar Mk 2 already in the tree.
+#
+# Dates are road presence, not production: October 1963 intro, retires staggered
+# 1978-1985 on a fifteen- to twenty-two-year tail.
+#
+# Metres master: citycars/4.5/jaguar-s-type-1963.blend. Interchange:
+# citycars/4.5/jaguar-s-type-1963.dae (280 objects, the count inflated by the wire
+# wheels). References: citycars/references/jaguar-s-type-1963/ (gitignored;
+# Wikimedia Commons, CC BY 2.0).
+#
+# Accepted low-poly deviations, recorded rather than corrected: the body and cabin
+# curvature is more angular than the photographed compound curves, and the wire
+# wheels are modelled although one reference photograph shows the disc-hubcap
+# alternative.
+
+obj=citycar
+name=JaguarSType(BritishRacingGreen)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1963
+intro_month=10
+retire_year=1982
+retire_month=6
+speed=190
+class=3
+maximum_comfortable_journey_minutes=90
+maximum_tolerable_journey_minutes=315
+
+Image[E]=./images/jaguar-s-type-1963-green_E.0.0,-33,14
+Image[SE]=./images/jaguar-s-type-1963-green_SE.0.0,-13,0
+Image[S]=./images/jaguar-s-type-1963-green_S.0.0,0,0
+Image[SW]=./images/jaguar-s-type-1963-green_SW.0.0,-8,10
+Image[W]=./images/jaguar-s-type-1963-green_W.0.0,4,5
+Image[NW]=./images/jaguar-s-type-1963-green_NW.0.0,12,10
+Image[N]=./images/jaguar-s-type-1963-green_N.0.0,0,33
+Image[NE]=./images/jaguar-s-type-1963-green_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=JaguarSType(CarmenRed)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1963
+intro_month=10
+retire_year=1978
+retire_month=6
+speed=190
+class=3
+maximum_comfortable_journey_minutes=90
+maximum_tolerable_journey_minutes=315
+
+Image[E]=./images/jaguar-s-type-1963-red_E.0.0,-33,14
+Image[SE]=./images/jaguar-s-type-1963-red_SE.0.0,-13,0
+Image[S]=./images/jaguar-s-type-1963-red_S.0.0,0,0
+Image[SW]=./images/jaguar-s-type-1963-red_SW.0.0,-8,10
+Image[W]=./images/jaguar-s-type-1963-red_W.0.0,4,5
+Image[NW]=./images/jaguar-s-type-1963-red_NW.0.0,12,10
+Image[N]=./images/jaguar-s-type-1963-red_N.0.0,0,33
+Image[NE]=./images/jaguar-s-type-1963-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=JaguarSType(OldEnglishWhite)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1963
+intro_month=10
+retire_year=1980
+retire_month=6
+speed=190
+class=3
+maximum_comfortable_journey_minutes=90
+maximum_tolerable_journey_minutes=315
+
+Image[E]=./images/jaguar-s-type-1963-white_E.0.0,-33,14
+Image[SE]=./images/jaguar-s-type-1963-white_SE.0.0,-13,0
+Image[S]=./images/jaguar-s-type-1963-white_S.0.0,0,0
+Image[SW]=./images/jaguar-s-type-1963-white_SW.0.0,-8,10
+Image[W]=./images/jaguar-s-type-1963-white_W.0.0,4,5
+Image[NW]=./images/jaguar-s-type-1963-white_NW.0.0,12,10
+Image[N]=./images/jaguar-s-type-1963-white_N.0.0,0,33
+Image[NE]=./images/jaguar-s-type-1963-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=JaguarSType(OpalescentSilver)
+copyright=JamesPetts
+
+DistributionWeight=1
+intro_year=1964
+intro_month=6
+retire_year=1985
+retire_month=6
+speed=190
+class=3
+maximum_comfortable_journey_minutes=90
+maximum_tolerable_journey_minutes=315
+
+Image[E]=./images/jaguar-s-type-1963-silver_E.0.0,-33,14
+Image[SE]=./images/jaguar-s-type-1963-silver_SE.0.0,-13,0
+Image[S]=./images/jaguar-s-type-1963-silver_S.0.0,0,0
+Image[SW]=./images/jaguar-s-type-1963-silver_SW.0.0,-8,10
+Image[W]=./images/jaguar-s-type-1963-silver_W.0.0,4,5
+Image[NW]=./images/jaguar-s-type-1963-silver_NW.0.0,12,10
+Image[N]=./images/jaguar-s-type-1963-silver_N.0.0,0,33
+Image[NE]=./images/jaguar-s-type-1963-silver_NE.0.0,0,24

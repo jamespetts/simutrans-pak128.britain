@@ -1,0 +1,128 @@
+# Datsun Stanza T11 five-door liftback, 1982-1986.
+#
+# The front-wheel-drive Stanza, which replaced the rear-wheel-drive Violet in
+# Britain in January 1982 and stayed until 1986, sold first as the Datsun Stanza
+# and later as the Nissan Stanza with 1.6 and 1.8 CA-series engines. British cars
+# were five-door liftbacks, which is the body modelled.
+# https://en.wikipedia.org/wiki/Nissan_Violet
+#
+# Dimensions 4.300 x 1.665 x 1.385 m, wheelbase 2.470 m, from the English
+# Wikipedia T11 infobox (the saloon is quoted at 4,300-4,405 mm; the liftback
+# shares the figures). Mirrors take the modelled width to 1.818 m.
+#
+# Colours. No UK colour chart for the T11 was located, so the objects carry plain
+# colour names: white, red, blue and silver. Weights white 3, red 3, blue 2,
+# silver 2, total 10, provisional pending the central rebase.
+#
+# Speed 160 km/h for the 1.6, the volume UK model. Comfort 70/285, on the line
+# 180 + 1.5 x 70, the BMC1100's value and a step above the rear-wheel-drive
+# Bluebird 910. Classes 1,2.
+#
+# Dates are road presence: January 1982 intro, retires staggered 1998-2001 on a
+# fifteen- to nineteen-year tail.
+#
+# Metres master: citycars/4.5/nissan-stanza-t11.blend. Interchange:
+# citycars/4.5/nissan-stanza-t11.dae (68 objects). References:
+# citycars/references/nissan-stanza-t11/ (gitignored; Wikimedia Commons; all
+# four photographs are UK-market cars with European lamps and slim bumpers).
+#
+# Recorded limitation: no level side profile of a European T11 exists on
+# Commons, so the flank and wheel positions were calibrated from the published
+# dimensions rather than measured from a photograph. The achieved length/height
+# ratio is 3.105, consistent with a liftback of this size.
+#
+# Accepted deviations: body and bumper corners are more angular than the
+# photographs. At 128 px the liftback tailgate slope, the segmented tail lamps
+# and the triangular quarter glass read correctly.
+
+obj=citycar
+name=DatsunStanzaT11(White)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1982
+intro_month=1
+retire_year=2001
+retire_month=6
+speed=160
+class=1,2
+maximum_comfortable_journey_minutes=70
+maximum_tolerable_journey_minutes=285
+
+Image[E]=./images/nissan-stanza-t11-white_E.0.0,-33,14
+Image[SE]=./images/nissan-stanza-t11-white_SE.0.0,-13,0
+Image[S]=./images/nissan-stanza-t11-white_S.0.0,0,0
+Image[SW]=./images/nissan-stanza-t11-white_SW.0.0,-8,10
+Image[W]=./images/nissan-stanza-t11-white_W.0.0,4,5
+Image[NW]=./images/nissan-stanza-t11-white_NW.0.0,12,10
+Image[N]=./images/nissan-stanza-t11-white_N.0.0,0,33
+Image[NE]=./images/nissan-stanza-t11-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=DatsunStanzaT11(Red)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1982
+intro_month=1
+retire_year=2000
+retire_month=6
+speed=160
+class=1,2
+maximum_comfortable_journey_minutes=70
+maximum_tolerable_journey_minutes=285
+
+Image[E]=./images/nissan-stanza-t11-red_E.0.0,-33,14
+Image[SE]=./images/nissan-stanza-t11-red_SE.0.0,-13,0
+Image[S]=./images/nissan-stanza-t11-red_S.0.0,0,0
+Image[SW]=./images/nissan-stanza-t11-red_SW.0.0,-8,10
+Image[W]=./images/nissan-stanza-t11-red_W.0.0,4,5
+Image[NW]=./images/nissan-stanza-t11-red_NW.0.0,12,10
+Image[N]=./images/nissan-stanza-t11-red_N.0.0,0,33
+Image[NE]=./images/nissan-stanza-t11-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=DatsunStanzaT11(Blue)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1982
+intro_month=1
+retire_year=1999
+retire_month=6
+speed=160
+class=1,2
+maximum_comfortable_journey_minutes=70
+maximum_tolerable_journey_minutes=285
+
+Image[E]=./images/nissan-stanza-t11-blue_E.0.0,-33,14
+Image[SE]=./images/nissan-stanza-t11-blue_SE.0.0,-13,0
+Image[S]=./images/nissan-stanza-t11-blue_S.0.0,0,0
+Image[SW]=./images/nissan-stanza-t11-blue_SW.0.0,-8,10
+Image[W]=./images/nissan-stanza-t11-blue_W.0.0,4,5
+Image[NW]=./images/nissan-stanza-t11-blue_NW.0.0,12,10
+Image[N]=./images/nissan-stanza-t11-blue_N.0.0,0,33
+Image[NE]=./images/nissan-stanza-t11-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=DatsunStanzaT11(Silver)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1982
+intro_month=1
+retire_year=1998
+retire_month=6
+speed=160
+class=1,2
+maximum_comfortable_journey_minutes=70
+maximum_tolerable_journey_minutes=285
+
+Image[E]=./images/nissan-stanza-t11-silver_E.0.0,-33,14
+Image[SE]=./images/nissan-stanza-t11-silver_SE.0.0,-13,0
+Image[S]=./images/nissan-stanza-t11-silver_S.0.0,0,0
+Image[SW]=./images/nissan-stanza-t11-silver_SW.0.0,-8,10
+Image[W]=./images/nissan-stanza-t11-silver_W.0.0,4,5
+Image[NW]=./images/nissan-stanza-t11-silver_NW.0.0,12,10
+Image[N]=./images/nissan-stanza-t11-silver_N.0.0,0,33
+Image[NE]=./images/nissan-stanza-t11-silver_NE.0.0,0,24

@@ -1,0 +1,108 @@
+# Audi A4 B8 four-door saloon, 2008-2015.
+#
+# The B8: 4,703 mm long, 1,826 mm wide, 1,427 mm high, 2,808 mm wheelbase; the
+# longest A4 yet, with the engines moved back for balance. 1.8-3.0 petrol and
+# 2.0/3.0 TDI; facelift in 2011. https://en.wikipedia.org/wiki/Audi_A4
+#
+# Colours: Brilliant Black, Ice Silver, Deep Sea Blue and Dakota Grey are period
+# Audi finishes.
+#
+# Weight: 250 in total (black 75, silver 75, blue 55, grey 45).
+#
+# Speed 230 km/h; comfort 130/375 (line). Classes 2,3.
+# Dates: 2008-2015 with a road tail to about 2025.
+#
+# Metres master: citycars/4.5/audi-a4-b8.blend. References:
+# citycars/references/audi-a4-b8/ (gitignored). Images via Wikimedia Commons.
+
+obj=citycar
+name=AudiA4B8(BrilliantBlack)
+copyright=JamesPetts
+
+DistributionWeight=75
+intro_year=2008
+intro_month=6
+retire_year=2025
+retire_month=6
+speed=230
+class=2,3
+maximum_comfortable_journey_minutes=130
+maximum_tolerable_journey_minutes=375
+
+Image[E]=./images/audi-a4-b8-black_E.0.0,-33,14
+Image[SE]=./images/audi-a4-b8-black_SE.0.0,-13,0
+Image[S]=./images/audi-a4-b8-black_S.0.0,0,0
+Image[SW]=./images/audi-a4-b8-black_SW.0.0,-8,10
+Image[W]=./images/audi-a4-b8-black_W.0.0,4,5
+Image[NW]=./images/audi-a4-b8-black_NW.0.0,12,10
+Image[N]=./images/audi-a4-b8-black_N.0.0,0,33
+Image[NE]=./images/audi-a4-b8-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=AudiA4B8(IceSilver)
+copyright=JamesPetts
+
+DistributionWeight=75
+intro_year=2008
+intro_month=6
+retire_year=2024
+retire_month=6
+speed=230
+class=2,3
+maximum_comfortable_journey_minutes=130
+maximum_tolerable_journey_minutes=375
+
+Image[E]=./images/audi-a4-b8-silver_E.0.0,-33,14
+Image[SE]=./images/audi-a4-b8-silver_SE.0.0,-13,0
+Image[S]=./images/audi-a4-b8-silver_S.0.0,0,0
+Image[SW]=./images/audi-a4-b8-silver_SW.0.0,-8,10
+Image[W]=./images/audi-a4-b8-silver_W.0.0,4,5
+Image[NW]=./images/audi-a4-b8-silver_NW.0.0,12,10
+Image[N]=./images/audi-a4-b8-silver_N.0.0,0,33
+Image[NE]=./images/audi-a4-b8-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=AudiA4B8(DeepSeaBlue)
+copyright=JamesPetts
+
+DistributionWeight=55
+intro_year=2009
+intro_month=3
+retire_year=2023
+retire_month=6
+speed=230
+class=2,3
+maximum_comfortable_journey_minutes=130
+maximum_tolerable_journey_minutes=375
+
+Image[E]=./images/audi-a4-b8-blue_E.0.0,-33,14
+Image[SE]=./images/audi-a4-b8-blue_SE.0.0,-13,0
+Image[S]=./images/audi-a4-b8-blue_S.0.0,0,0
+Image[SW]=./images/audi-a4-b8-blue_SW.0.0,-8,10
+Image[W]=./images/audi-a4-b8-blue_W.0.0,4,5
+Image[NW]=./images/audi-a4-b8-blue_NW.0.0,12,10
+Image[N]=./images/audi-a4-b8-blue_N.0.0,0,33
+Image[NE]=./images/audi-a4-b8-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=AudiA4B8(DakotaGrey)
+copyright=JamesPetts
+
+DistributionWeight=45
+intro_year=2010
+intro_month=3
+retire_year=2022
+retire_month=6
+speed=230
+class=2,3
+maximum_comfortable_journey_minutes=130
+maximum_tolerable_journey_minutes=375
+
+Image[E]=./images/audi-a4-b8-grey_E.0.0,-33,14
+Image[SE]=./images/audi-a4-b8-grey_SE.0.0,-13,0
+Image[S]=./images/audi-a4-b8-grey_S.0.0,0,0
+Image[SW]=./images/audi-a4-b8-grey_SW.0.0,-8,10
+Image[W]=./images/audi-a4-b8-grey_W.0.0,4,5
+Image[NW]=./images/audi-a4-b8-grey_NW.0.0,12,10
+Image[N]=./images/audi-a4-b8-grey_N.0.0,0,33
+Image[NE]=./images/audi-a4-b8-grey_NE.0.0,0,24

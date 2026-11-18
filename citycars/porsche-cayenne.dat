@@ -1,0 +1,117 @@
+# Porsche Cayenne 9PA four-door 4x4, 2003-2010.
+#
+# Porsche's first 4x4, developed with Volkswagen: 4,782 mm long, 1,928 mm wide,
+# 1,699 mm high, 2,855 mm wheelbase; 3.2 V6 and 4.5 V8, permanent four-wheel
+# drive. Facelift in 2007. A controversial but commercially successful luxury
+# 4x4 in Britain. https://en.wikipedia.org/wiki/Porsche_Cayenne
+#
+# Colours: Black, Silver, Grey and Dark Blue are documented Porsche colours of
+# the period.
+#
+# Weight: 30 in total (black 10, silver 8, grey 7, blue 5).
+#
+# Speed 220 km/h; comfort 125/370 (line). Classes 3,4.
+# Dates: 2003-2010 with a road tail to about 2022.
+#
+# Metres master: citycars/4.5/porsche-cayenne.blend. References:
+# citycars/references/porsche-cayenne/ (gitignored). Images via Wikimedia Commons.
+#
+# Gate C, 2026-11-16: accepted as built, no correction round authorised. Four
+# recorded deviations from the photographs: the glazing band is 0.49 m deep where
+# the reference car's is nearer 0.40 m, which lowers the beltline and gives an
+# estate-like side; the headlamps are angular wedges rather than teardrop ovals;
+# the front intake is a barred rectangular slab rather than a rounded opening; and
+# the rear is a flat slab with rectangular lamps rather than a rounded tailgate
+# with wrapping lamps.
+
+obj=citycar
+name=PorscheCayenne(Black)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=2003
+intro_month=6
+retire_year=2022
+retire_month=6
+speed=220
+class=3,4
+maximum_comfortable_journey_minutes=125
+maximum_tolerable_journey_minutes=370
+
+Image[E]=./images/porsche-cayenne-black_E.0.0,-33,14
+Image[SE]=./images/porsche-cayenne-black_SE.0.0,-13,0
+Image[S]=./images/porsche-cayenne-black_S.0.0,0,0
+Image[SW]=./images/porsche-cayenne-black_SW.0.0,-8,10
+Image[W]=./images/porsche-cayenne-black_W.0.0,4,5
+Image[NW]=./images/porsche-cayenne-black_NW.0.0,12,10
+Image[N]=./images/porsche-cayenne-black_N.0.0,0,33
+Image[NE]=./images/porsche-cayenne-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=PorscheCayenne(Silver)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=2003
+intro_month=6
+retire_year=2021
+retire_month=6
+speed=220
+class=3,4
+maximum_comfortable_journey_minutes=125
+maximum_tolerable_journey_minutes=370
+
+Image[E]=./images/porsche-cayenne-silver_E.0.0,-33,14
+Image[SE]=./images/porsche-cayenne-silver_SE.0.0,-13,0
+Image[S]=./images/porsche-cayenne-silver_S.0.0,0,0
+Image[SW]=./images/porsche-cayenne-silver_SW.0.0,-8,10
+Image[W]=./images/porsche-cayenne-silver_W.0.0,4,5
+Image[NW]=./images/porsche-cayenne-silver_NW.0.0,12,10
+Image[N]=./images/porsche-cayenne-silver_N.0.0,0,33
+Image[NE]=./images/porsche-cayenne-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=PorscheCayenne(Grey)
+copyright=JamesPetts
+
+DistributionWeight=7
+intro_year=2004
+intro_month=3
+retire_year=2020
+retire_month=6
+speed=220
+class=3,4
+maximum_comfortable_journey_minutes=125
+maximum_tolerable_journey_minutes=370
+
+Image[E]=./images/porsche-cayenne-grey_E.0.0,-33,14
+Image[SE]=./images/porsche-cayenne-grey_SE.0.0,-13,0
+Image[S]=./images/porsche-cayenne-grey_S.0.0,0,0
+Image[SW]=./images/porsche-cayenne-grey_SW.0.0,-8,10
+Image[W]=./images/porsche-cayenne-grey_W.0.0,4,5
+Image[NW]=./images/porsche-cayenne-grey_NW.0.0,12,10
+Image[N]=./images/porsche-cayenne-grey_N.0.0,0,33
+Image[NE]=./images/porsche-cayenne-grey_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=PorscheCayenne(DarkBlue)
+copyright=JamesPetts
+
+DistributionWeight=5
+intro_year=2005
+intro_month=3
+retire_year=2019
+retire_month=6
+speed=220
+class=3,4
+maximum_comfortable_journey_minutes=125
+maximum_tolerable_journey_minutes=370
+
+Image[E]=./images/porsche-cayenne-blue_E.0.0,-33,14
+Image[SE]=./images/porsche-cayenne-blue_SE.0.0,-13,0
+Image[S]=./images/porsche-cayenne-blue_S.0.0,0,0
+Image[SW]=./images/porsche-cayenne-blue_SW.0.0,-8,10
+Image[W]=./images/porsche-cayenne-blue_W.0.0,4,5
+Image[NW]=./images/porsche-cayenne-blue_NW.0.0,12,10
+Image[N]=./images/porsche-cayenne-blue_N.0.0,0,33
+Image[NE]=./images/porsche-cayenne-blue_NE.0.0,0,24

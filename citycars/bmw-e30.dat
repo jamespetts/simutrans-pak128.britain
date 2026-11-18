@@ -1,0 +1,135 @@
+# BMW 3 Series E30 two-door saloon, 1982-1994.
+#
+# The second 3-series: the first with the low waistline and slim pillars that
+# define the 1980s BMW look, and the first 3-series sold with four doors and an
+# estate. The two-door saloon is modelled, because that is the body in the
+# side-profile reference.
+# https://en.wikipedia.org/wiki/BMW_3_Series_(E30)
+#
+# Dimensions 4.325 x 1.645 x 1.380 m, wheelbase 2.570 m, for the two-door
+# saloon: the English Wikipedia dimension box cites the 1990 BMW facelift
+# brochure, which gives a 2,570 mm wheelbase, 1,645 mm width, 4,320-4,460 mm
+# length and 1,360-1,400 mm height across the body styles. Mirrors take the
+# modelled width to 1.770 m.
+#
+# Colours. No BMW UK colour card for the E30 was located. The four names are
+# the E30's own paint names from the E30 Zone paint-code register, an
+# enthusiast compilation of BMW colour codes, not a UK price list:
+#   Sterlingsilber metallic  244, listed 1987-1991
+#   Diamantschwarz metallic  181, listed 1985-1991
+#   Alpinweiss II            218, listed 1985-1991
+#   Brillantrot              308, listed 1988-1991
+# UK availability and exact years are therefore not established, and the
+# header says so rather than implying brochure evidence. All four start at the
+# 1985 model-year change, which is when the register first lists them.
+# Weights silver 3, black 3, white 2, red 2, total 10, provisional pending the
+# central rebase.
+#
+# Speed 200 km/h, between the 320i's 200 km/h and the 325i's 218 km/h; the M3's
+# 235 km/h is not modelled. Comfort 110/345, on the line 180 + 1.5 x 110, a step
+# below the E36's 115/350. Classes 2,3.
+#
+# Dates are road presence, not production: September 1982 intro, retires
+# staggered 1999-2002 on a seventeen- to twenty-year tail.
+#
+# Metres master: citycars/4.5/bmw-e30.blend. Interchange:
+# citycars/4.5/bmw-e30.dae (53 objects). References:
+# citycars/references/bmw-e30/ (gitignored; Wikimedia Commons).
+#
+# Accepted low-poly deviations, recorded rather than corrected: the model is
+# more angular than the photographs, and its cabin sits slightly further back
+# on the body than the reference profile, so the bonnet reads a little long and
+# the boot a little short. At 128 px it reads as an E30-shape saloon; the fault
+# was judged not bad enough to spend a correction round on.
+
+obj=citycar
+name=BMW3E30(Sterlingsilber)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1985
+intro_month=9
+retire_year=2002
+retire_month=6
+speed=200
+class=2,3
+maximum_comfortable_journey_minutes=110
+maximum_tolerable_journey_minutes=345
+
+Image[E]=./images/bmw-e30-silver_E.0.0,-33,14
+Image[SE]=./images/bmw-e30-silver_SE.0.0,-13,0
+Image[S]=./images/bmw-e30-silver_S.0.0,0,0
+Image[SW]=./images/bmw-e30-silver_SW.0.0,-8,10
+Image[W]=./images/bmw-e30-silver_W.0.0,4,5
+Image[NW]=./images/bmw-e30-silver_NW.0.0,12,10
+Image[N]=./images/bmw-e30-silver_N.0.0,0,33
+Image[NE]=./images/bmw-e30-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMW3E30(Diamantschwarz)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1985
+intro_month=9
+retire_year=2001
+retire_month=6
+speed=200
+class=2,3
+maximum_comfortable_journey_minutes=110
+maximum_tolerable_journey_minutes=345
+
+Image[E]=./images/bmw-e30-black_E.0.0,-33,14
+Image[SE]=./images/bmw-e30-black_SE.0.0,-13,0
+Image[S]=./images/bmw-e30-black_S.0.0,0,0
+Image[SW]=./images/bmw-e30-black_SW.0.0,-8,10
+Image[W]=./images/bmw-e30-black_W.0.0,4,5
+Image[NW]=./images/bmw-e30-black_NW.0.0,12,10
+Image[N]=./images/bmw-e30-black_N.0.0,0,33
+Image[NE]=./images/bmw-e30-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMW3E30(AlpinweissII)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1985
+intro_month=9
+retire_year=2000
+retire_month=6
+speed=200
+class=2,3
+maximum_comfortable_journey_minutes=110
+maximum_tolerable_journey_minutes=345
+
+Image[E]=./images/bmw-e30-white_E.0.0,-33,14
+Image[SE]=./images/bmw-e30-white_SE.0.0,-13,0
+Image[S]=./images/bmw-e30-white_S.0.0,0,0
+Image[SW]=./images/bmw-e30-white_SW.0.0,-8,10
+Image[W]=./images/bmw-e30-white_W.0.0,4,5
+Image[NW]=./images/bmw-e30-white_NW.0.0,12,10
+Image[N]=./images/bmw-e30-white_N.0.0,0,33
+Image[NE]=./images/bmw-e30-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMW3E30(Brillantrot)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1988
+intro_month=9
+retire_year=1999
+retire_month=6
+speed=200
+class=2,3
+maximum_comfortable_journey_minutes=110
+maximum_tolerable_journey_minutes=345
+
+Image[E]=./images/bmw-e30-red_E.0.0,-33,14
+Image[SE]=./images/bmw-e30-red_SE.0.0,-13,0
+Image[S]=./images/bmw-e30-red_S.0.0,0,0
+Image[SW]=./images/bmw-e30-red_SW.0.0,-8,10
+Image[W]=./images/bmw-e30-red_W.0.0,4,5
+Image[NW]=./images/bmw-e30-red_NW.0.0,12,10
+Image[N]=./images/bmw-e30-red_N.0.0,0,33
+Image[NE]=./images/bmw-e30-red_NE.0.0,0,24

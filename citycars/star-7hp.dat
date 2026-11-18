@@ -1,0 +1,115 @@
+# Star 7 hp two-seater, 1902-1905.
+#
+# Star of Wolverhampton was one of the largest British car makers of the early
+# 1900s, and the 7 hp "Little Star" was its volume model: a small single or twin
+# cylinder two-seater, cheap enough for the professional buyer, and among the
+# British light cars listed by The Autocar in 1904.
+# https://en.wikipedia.org/wiki/Star_Motor_Company
+#
+# No works dimensions have been found. The model was built to these ESTIMATES:
+# about 2.500 m long, 1.300 m wide, 1.700 m high, 1.700 m wheelbase. Correct
+# them if a source is found.
+#
+# Colours: Dark Green, Blue, Maroon and Black match the surviving cars; the
+# references show one in dark blue and one in green.
+#
+# Weight: 6 in total (green 2, blue 2, maroon 1, black 1). The 7 hp was a light
+# car of the era, and the register treats early light cars as representative.
+#
+# Speed 40 km/h; comfort 25/215 (line). Class 2.
+# Dates: 1902-1905 with a road tail to about 1925.
+#
+# Metres master: citycars/4.5/star-7hp.blend. References:
+# citycars/references/star-7hp/ (gitignored). Images via Wikimedia Commons.
+
+obj=citycar
+name=Star7hp(DarkGreen)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1902
+intro_month=5
+retire_year=1925
+retire_month=6
+speed=40
+class=2
+maximum_comfortable_journey_minutes=25
+maximum_tolerable_journey_minutes=215
+
+Image[E]=./images/star-7hp-green_E.0.0,-33,14
+Image[SE]=./images/star-7hp-green_SE.0.0,-13,0
+Image[S]=./images/star-7hp-green_S.0.0,0,0
+Image[SW]=./images/star-7hp-green_SW.0.0,-8,10
+Image[W]=./images/star-7hp-green_W.0.0,4,5
+Image[NW]=./images/star-7hp-green_NW.0.0,12,10
+Image[N]=./images/star-7hp-green_N.0.0,0,33
+Image[NE]=./images/star-7hp-green_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Star7hp(Blue)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1902
+intro_month=5
+retire_year=1924
+retire_month=6
+speed=40
+class=2
+maximum_comfortable_journey_minutes=25
+maximum_tolerable_journey_minutes=215
+
+Image[E]=./images/star-7hp-blue_E.0.0,-33,14
+Image[SE]=./images/star-7hp-blue_SE.0.0,-13,0
+Image[S]=./images/star-7hp-blue_S.0.0,0,0
+Image[SW]=./images/star-7hp-blue_SW.0.0,-8,10
+Image[W]=./images/star-7hp-blue_W.0.0,4,5
+Image[NW]=./images/star-7hp-blue_NW.0.0,12,10
+Image[N]=./images/star-7hp-blue_N.0.0,0,33
+Image[NE]=./images/star-7hp-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Star7hp(Maroon)
+copyright=JamesPetts
+
+DistributionWeight=1
+intro_year=1903
+intro_month=3
+retire_year=1923
+retire_month=6
+speed=40
+class=2
+maximum_comfortable_journey_minutes=25
+maximum_tolerable_journey_minutes=215
+
+Image[E]=./images/star-7hp-maroon_E.0.0,-33,14
+Image[SE]=./images/star-7hp-maroon_SE.0.0,-13,0
+Image[S]=./images/star-7hp-maroon_S.0.0,0,0
+Image[SW]=./images/star-7hp-maroon_SW.0.0,-8,10
+Image[W]=./images/star-7hp-maroon_W.0.0,4,5
+Image[NW]=./images/star-7hp-maroon_NW.0.0,12,10
+Image[N]=./images/star-7hp-maroon_N.0.0,0,33
+Image[NE]=./images/star-7hp-maroon_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Star7hp(Black)
+copyright=JamesPetts
+
+DistributionWeight=1
+intro_year=1904
+intro_month=3
+retire_year=1922
+retire_month=6
+speed=40
+class=2
+maximum_comfortable_journey_minutes=25
+maximum_tolerable_journey_minutes=215
+
+Image[E]=./images/star-7hp-black_E.0.0,-33,14
+Image[SE]=./images/star-7hp-black_SE.0.0,-13,0
+Image[S]=./images/star-7hp-black_S.0.0,0,0
+Image[SW]=./images/star-7hp-black_SW.0.0,-8,10
+Image[W]=./images/star-7hp-black_W.0.0,4,5
+Image[NW]=./images/star-7hp-black_NW.0.0,12,10
+Image[N]=./images/star-7hp-black_N.0.0,0,33
+Image[NE]=./images/star-7hp-black_NE.0.0,0,24

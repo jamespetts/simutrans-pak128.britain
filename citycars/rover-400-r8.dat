@@ -1,0 +1,128 @@
+# Rover 400 R8 (four-door saloon), 1990-1995.
+#
+# The Rover 400 R8 was the saloon version of the Rover 200 R8, launched in April
+# 1990 and positioned slightly upmarket of the hatchback, in the way the Ford Orion
+# stood above the Escort. It shared the front end, cabin and wheelbase with the 200
+# and replaced the SD3 as Rover's small saloon. Saloon production ended in 1995;
+# the Tourer estate continued to 1998.
+# https://en.wikipedia.org/wiki/Rover_400_/_45
+# https://rover200.org.uk/cars/r8/r8-history
+#
+# Dimensions 4.370 x 1.680 x 1.400 m, wheelbase 2.550 m. Only the length changes
+# from the 200 R8, by 150 mm behind the rear doors; the published R8 dimension box
+# gives both bodies.
+#
+# Colours: Flame Red (BLVC 818), Silver Leaf metallic (421), White Diamond (655)
+# and Moonraker Blue metallic (424). DVSA first-registration shares begin at 1994,
+# so the split is era-adjusted from the 1994-96 measured base: red 5, silver 5,
+# white 3, blue 3. Total 16. Provisional pending the central rebase.
+#
+# Speed 175 km/h, as the 200 R8: the saloon shared the engine range. Comfort
+# 90/315, on the line 180 + 1.5 x 90, and equal to the hatchback, which shared the
+# bodyshell and suspension. Classes 1,2.
+#
+# Dates are road presence, not production: April 1990 intro, retires staggered
+# 2002-2006 on a twelve- to sixteen-year tail.
+#
+# Metres master: citycars/4.5/rover-400-r8.blend. Interchange:
+# citycars/4.5/rover-400-r8.dae (59 objects). Variant of the Rover 200 R8 master.
+# References: citycars/references/rover-400-r8/ (gitignored; Wikimedia Commons,
+# CC BY-SA 4.0).
+#
+# Accepted low-poly deviations, recorded rather than corrected: the faceted
+# surfaces stand in for the photographed compound curves, and the pre-facelift
+# front is used for the whole run although the reference car is a 1993 facelifted
+# 414 Si. The 1992 facelift changed grille and lamp detail only, and the 200 R8
+# carries the same pre-facelift treatment, so the family stays consistent.
+
+obj=citycar
+name=Rover400R8(FlameRed)
+copyright=JamesPetts
+
+DistributionWeight=5
+intro_year=1990
+intro_month=4
+retire_year=2003
+retire_month=6
+speed=175
+class=1,2
+maximum_comfortable_journey_minutes=90
+maximum_tolerable_journey_minutes=315
+
+Image[E]=./images/rover-400-r8-red_E.0.0,-33,14
+Image[SE]=./images/rover-400-r8-red_SE.0.0,-13,0
+Image[S]=./images/rover-400-r8-red_S.0.0,0,0
+Image[SW]=./images/rover-400-r8-red_SW.0.0,-8,10
+Image[W]=./images/rover-400-r8-red_W.0.0,4,5
+Image[NW]=./images/rover-400-r8-red_NW.0.0,12,10
+Image[N]=./images/rover-400-r8-red_N.0.0,0,33
+Image[NE]=./images/rover-400-r8-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Rover400R8(SilverLeaf)
+copyright=JamesPetts
+
+DistributionWeight=5
+intro_year=1990
+intro_month=4
+retire_year=2005
+retire_month=6
+speed=175
+class=1,2
+maximum_comfortable_journey_minutes=90
+maximum_tolerable_journey_minutes=315
+
+Image[E]=./images/rover-400-r8-silver_E.0.0,-33,14
+Image[SE]=./images/rover-400-r8-silver_SE.0.0,-13,0
+Image[S]=./images/rover-400-r8-silver_S.0.0,0,0
+Image[SW]=./images/rover-400-r8-silver_SW.0.0,-8,10
+Image[W]=./images/rover-400-r8-silver_W.0.0,4,5
+Image[NW]=./images/rover-400-r8-silver_NW.0.0,12,10
+Image[N]=./images/rover-400-r8-silver_N.0.0,0,33
+Image[NE]=./images/rover-400-r8-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Rover400R8(WhiteDiamond)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1990
+intro_month=4
+retire_year=2002
+retire_month=6
+speed=175
+class=1,2
+maximum_comfortable_journey_minutes=90
+maximum_tolerable_journey_minutes=315
+
+Image[E]=./images/rover-400-r8-white_E.0.0,-33,14
+Image[SE]=./images/rover-400-r8-white_SE.0.0,-13,0
+Image[S]=./images/rover-400-r8-white_S.0.0,0,0
+Image[SW]=./images/rover-400-r8-white_SW.0.0,-8,10
+Image[W]=./images/rover-400-r8-white_W.0.0,4,5
+Image[NW]=./images/rover-400-r8-white_NW.0.0,12,10
+Image[N]=./images/rover-400-r8-white_N.0.0,0,33
+Image[NE]=./images/rover-400-r8-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Rover400R8(MoonrakerBlue)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1990
+intro_month=4
+retire_year=2006
+retire_month=6
+speed=175
+class=1,2
+maximum_comfortable_journey_minutes=90
+maximum_tolerable_journey_minutes=315
+
+Image[E]=./images/rover-400-r8-moonraker_E.0.0,-33,14
+Image[SE]=./images/rover-400-r8-moonraker_SE.0.0,-13,0
+Image[S]=./images/rover-400-r8-moonraker_S.0.0,0,0
+Image[SW]=./images/rover-400-r8-moonraker_SW.0.0,-8,10
+Image[W]=./images/rover-400-r8-moonraker_W.0.0,4,5
+Image[NW]=./images/rover-400-r8-moonraker_NW.0.0,12,10
+Image[N]=./images/rover-400-r8-moonraker_N.0.0,0,33
+Image[NE]=./images/rover-400-r8-moonraker_NE.0.0,0,24

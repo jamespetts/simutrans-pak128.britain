@@ -1,0 +1,109 @@
+# Ford Model Y two-door saloon, 1932-1937.
+#
+# The first British-designed Ford for the small-car market, made at Dagenham:
+# 3,556 mm long, 1,410 mm wide, 1,676 mm high, 2,286 mm wheelbase; 933 cc
+# sidevalve four. Sold as the Ford Eight; about 153,000 built.
+# https://en.wikipedia.org/wiki/Ford_Model_Y
+#
+# Colours: Black, Maroon, Blue and Green are documented Ford colours of the
+# period.
+#
+# Weight: 120 in total (black 50, maroon 30, blue 22, green 18).
+#
+# Speed 80 km/h; comfort 25/220 (line). Classes 0,1.
+# Dates: 1932-1937 with a road tail to about 1955.
+#
+# Metres master: citycars/4.5/ford-model-y.blend. References:
+# citycars/references/ford-model-y/ (gitignored). Images via Wikimedia Commons.
+
+obj=citycar
+name=FordModelY(Black)
+copyright=JamesPetts
+
+DistributionWeight=50
+intro_year=1932
+intro_month=4
+retire_year=1955
+retire_month=6
+speed=80
+class=0,1
+maximum_comfortable_journey_minutes=25
+maximum_tolerable_journey_minutes=220
+
+Image[E]=./images/ford-model-y-black_E.0.0,-33,14
+Image[SE]=./images/ford-model-y-black_SE.0.0,-13,0
+Image[S]=./images/ford-model-y-black_S.0.0,0,0
+Image[SW]=./images/ford-model-y-black_SW.0.0,-8,10
+Image[W]=./images/ford-model-y-black_W.0.0,4,5
+Image[NW]=./images/ford-model-y-black_NW.0.0,12,10
+Image[N]=./images/ford-model-y-black_N.0.0,0,33
+Image[NE]=./images/ford-model-y-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FordModelY(Maroon)
+copyright=JamesPetts
+
+DistributionWeight=30
+intro_year=1932
+intro_month=4
+retire_year=1954
+retire_month=6
+speed=80
+class=0,1
+maximum_comfortable_journey_minutes=25
+maximum_tolerable_journey_minutes=220
+
+Image[E]=./images/ford-model-y-maroon_E.0.0,-33,14
+Image[SE]=./images/ford-model-y-maroon_SE.0.0,-13,0
+Image[S]=./images/ford-model-y-maroon_S.0.0,0,0
+Image[SW]=./images/ford-model-y-maroon_SW.0.0,-8,10
+Image[W]=./images/ford-model-y-maroon_W.0.0,4,5
+Image[NW]=./images/ford-model-y-maroon_NW.0.0,12,10
+Image[N]=./images/ford-model-y-maroon_N.0.0,0,33
+Image[NE]=./images/ford-model-y-maroon_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FordModelY(Blue)
+copyright=JamesPetts
+
+DistributionWeight=22
+intro_year=1933
+intro_month=3
+retire_year=1953
+retire_month=6
+speed=80
+class=0,1
+maximum_comfortable_journey_minutes=25
+maximum_tolerable_journey_minutes=220
+
+Image[E]=./images/ford-model-y-blue_E.0.0,-33,14
+Image[SE]=./images/ford-model-y-blue_SE.0.0,-13,0
+Image[S]=./images/ford-model-y-blue_S.0.0,0,0
+Image[SW]=./images/ford-model-y-blue_SW.0.0,-8,10
+Image[W]=./images/ford-model-y-blue_W.0.0,4,5
+Image[NW]=./images/ford-model-y-blue_NW.0.0,12,10
+Image[N]=./images/ford-model-y-blue_N.0.0,0,33
+Image[NE]=./images/ford-model-y-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FordModelY(Green)
+copyright=JamesPetts
+
+DistributionWeight=18
+intro_year=1934
+intro_month=3
+retire_year=1952
+retire_month=6
+speed=80
+class=0,1
+maximum_comfortable_journey_minutes=25
+maximum_tolerable_journey_minutes=220
+
+Image[E]=./images/ford-model-y-green_E.0.0,-33,14
+Image[SE]=./images/ford-model-y-green_SE.0.0,-13,0
+Image[S]=./images/ford-model-y-green_S.0.0,0,0
+Image[SW]=./images/ford-model-y-green_SW.0.0,-8,10
+Image[W]=./images/ford-model-y-green_W.0.0,4,5
+Image[NW]=./images/ford-model-y-green_NW.0.0,12,10
+Image[N]=./images/ford-model-y-green_N.0.0,0,33
+Image[NE]=./images/ford-model-y-green_NE.0.0,0,24

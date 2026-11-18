@@ -1,0 +1,63 @@
+# Norton Big Four WD military combination, 633 cc side-valve single with a
+# driven sidecar wheel.
+#
+# The Big Four was Norton's sidecar machine: a rigid frame, girder fork, 633 cc
+# side-valve single of about 14 hp, wide-ratio trials gearbox and a live axle
+# driving the sidecar wheel through a dog clutch (the Baughan system, adopted by
+# the War Department in 1938). About 4,500 were built for the WD, from November
+# 1939 (S1000) to autumn 1941 (S5308). It carried three men: driver, pillion and
+# one in the chair, with kit.
+# https://www.nortonownersclub.org/history/1936-1945-wd
+# https://www.militarytrader.com/military-vehicles/a-look-at-the-british-norton-big-4
+#
+# Dimensions: overall just over 8 ft (about 2.44 m) long, wheelbase 4 ft 6.25 in
+# (1.38 m), 2 ft 6.5 in (0.78 m) over the handlebars; wheels 4.00 x 18 in. The
+# sidecar body is a rectangular military tub with a rounded lower nose, high
+# sides, an open top and a spare wheel on the rear. Unladen weight over 400 kg.
+# https://www.militarytrader.com/military-vehicles/a-look-at-the-british-norton-big-4
+#
+# Colour: khaki green No. 3 / WD green, the wartime finish. One colourway only
+# (a military vehicle), so the model is a single object.
+# https://www.awm.gov.au/collection/C968214
+#
+# Weight: about 4,500 built, almost all for the Army and Commonwealth forces, so
+# the outfit was a rare sight on civilian roads during 1940-45; ex-WD machines
+# were sold off after the war. Set at 40 on the 2026-11-15 scale against the
+# 1940s anchors. Provisional pending the central rebase.
+#
+# Speed 80 km/h (50 mph): a game-balance figure; the WD machine was geared low
+# for sidecar work. Comfort 25/190: rigid frame, girder fork, sprung saddle and
+# an open military tub.
+#
+# Dates describe when the outfit was seen on British roads: wartime service from
+# 1940, then ex-WD civilian use to the late 1940s.
+#
+# Metres master: citycars/4.5/norton-big-four-combo.blend in the blends
+# repository. References: citycars/references/norton-big-four/ (gitignored).
+# Image credits: Andy Tiernan Classics photographs via Sheldon's EMU, research
+# reference only.
+# Stage B note: +0.3955 pak units applied after preparation so the motorcycle,
+# not the combined bounding box, sits at the tile centre.
+
+obj=citycar
+name=NortonBigFourCombo(KhakiGreen)
+copyright=JamesPetts
+
+DistributionWeight=40
+intro_year=1940
+intro_month=1
+retire_year=1948
+retire_month=6
+speed=80
+class=0,1
+maximum_comfortable_journey_minutes=25
+maximum_tolerable_journey_minutes=190
+
+Image[E]=./images/norton-big-four-combo-khaki_E.0.0,-33,14
+Image[SE]=./images/norton-big-four-combo-khaki_SE.0.0,-13,0
+Image[S]=./images/norton-big-four-combo-khaki_S.0.0,0,0
+Image[SW]=./images/norton-big-four-combo-khaki_SW.0.0,-8,10
+Image[W]=./images/norton-big-four-combo-khaki_W.0.0,4,5
+Image[NW]=./images/norton-big-four-combo-khaki_NW.0.0,12,10
+Image[N]=./images/norton-big-four-combo-khaki_N.0.0,0,33
+Image[NE]=./images/norton-big-four-combo-khaki_NE.0.0,0,24

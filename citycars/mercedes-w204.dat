@@ -1,0 +1,109 @@
+# Mercedes-Benz C-Class W204 (C200) four-door saloon, 2007-2014.
+#
+# The W204 C-Class: 4,586 mm long, 1,770 mm wide, 1,447 mm high, 2,760 mm
+# wheelbase; 1.6-3.0 petrol and 2.0/3.0 diesel, the C200 Kompressor and C220 CDI
+# the volume models in Britain. Facelift in 2011.
+# https://en.wikipedia.org/wiki/Mercedes-Benz_C-Class_(W204)
+#
+# Colours: Obsidian Black, Iridium Silver, Tenorite Grey and Palladium Silver are
+# period Mercedes-Benz finishes.
+#
+# Weight: 180 in total (black 65, silver 55, grey 35, blue 25).
+#
+# Speed 240 km/h; comfort 130/375 (line). Classes 2,3.
+# Dates: 2007-2014 with a road tail to about 2026.
+#
+# Metres master: citycars/4.5/mercedes-w204.blend. References:
+# citycars/references/mercedes-w204/ (gitignored). Images via Wikimedia Commons.
+
+obj=citycar
+name=MercedesC200(ObsidianBlack)
+copyright=JamesPetts
+
+DistributionWeight=65
+intro_year=2007
+intro_month=3
+retire_year=2026
+retire_month=6
+speed=240
+class=2,3
+maximum_comfortable_journey_minutes=130
+maximum_tolerable_journey_minutes=375
+
+Image[E]=./images/mercedes-w204-black_E.0.0,-33,14
+Image[SE]=./images/mercedes-w204-black_SE.0.0,-13,0
+Image[S]=./images/mercedes-w204-black_S.0.0,0,0
+Image[SW]=./images/mercedes-w204-black_SW.0.0,-8,10
+Image[W]=./images/mercedes-w204-black_W.0.0,4,5
+Image[NW]=./images/mercedes-w204-black_NW.0.0,12,10
+Image[N]=./images/mercedes-w204-black_N.0.0,0,33
+Image[NE]=./images/mercedes-w204-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=MercedesC200(IridiumSilver)
+copyright=JamesPetts
+
+DistributionWeight=55
+intro_year=2007
+intro_month=3
+retire_year=2025
+retire_month=6
+speed=240
+class=2,3
+maximum_comfortable_journey_minutes=130
+maximum_tolerable_journey_minutes=375
+
+Image[E]=./images/mercedes-w204-silver_E.0.0,-33,14
+Image[SE]=./images/mercedes-w204-silver_SE.0.0,-13,0
+Image[S]=./images/mercedes-w204-silver_S.0.0,0,0
+Image[SW]=./images/mercedes-w204-silver_SW.0.0,-8,10
+Image[W]=./images/mercedes-w204-silver_W.0.0,4,5
+Image[NW]=./images/mercedes-w204-silver_NW.0.0,12,10
+Image[N]=./images/mercedes-w204-silver_N.0.0,0,33
+Image[NE]=./images/mercedes-w204-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=MercedesC200(TenoriteGrey)
+copyright=JamesPetts
+
+DistributionWeight=35
+intro_year=2008
+intro_month=3
+retire_year=2024
+retire_month=6
+speed=240
+class=2,3
+maximum_comfortable_journey_minutes=130
+maximum_tolerable_journey_minutes=375
+
+Image[E]=./images/mercedes-w204-grey_E.0.0,-33,14
+Image[SE]=./images/mercedes-w204-grey_SE.0.0,-13,0
+Image[S]=./images/mercedes-w204-grey_S.0.0,0,0
+Image[SW]=./images/mercedes-w204-grey_SW.0.0,-8,10
+Image[W]=./images/mercedes-w204-grey_W.0.0,4,5
+Image[NW]=./images/mercedes-w204-grey_NW.0.0,12,10
+Image[N]=./images/mercedes-w204-grey_N.0.0,0,33
+Image[NE]=./images/mercedes-w204-grey_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=MercedesC200(PalladiumSilver)
+copyright=JamesPetts
+
+DistributionWeight=25
+intro_year=2009
+intro_month=3
+retire_year=2023
+retire_month=6
+speed=240
+class=2,3
+maximum_comfortable_journey_minutes=130
+maximum_tolerable_journey_minutes=375
+
+Image[E]=./images/mercedes-w204-blue_E.0.0,-33,14
+Image[SE]=./images/mercedes-w204-blue_SE.0.0,-13,0
+Image[S]=./images/mercedes-w204-blue_S.0.0,0,0
+Image[SW]=./images/mercedes-w204-blue_SW.0.0,-8,10
+Image[W]=./images/mercedes-w204-blue_W.0.0,4,5
+Image[NW]=./images/mercedes-w204-blue_NW.0.0,12,10
+Image[N]=./images/mercedes-w204-blue_N.0.0,0,33
+Image[NE]=./images/mercedes-w204-blue_NE.0.0,0,24

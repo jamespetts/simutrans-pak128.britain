@@ -1,0 +1,109 @@
+# Mercedes-Benz S-Class W221 (S350) four-door saloon, 2005-2013.
+#
+# The W221 S-Class: 5,079 mm long, 1,871 mm wide, 1,473 mm high, 3,035 mm
+# wheelbase (long 5,159/3,165); 3.0-6.2 petrol and 3.0 diesel, the S350 the
+# volume British model. Facelift in 2009.
+# https://en.wikipedia.org/wiki/Mercedes-Benz_S-Class_(W221)
+#
+# Colours: Obsidian Black, Iridium Silver, Andesite Grey and Diamond White are
+# period Mercedes-Benz finishes.
+#
+# Weight: 30 in total (black 12, silver 9, grey 5, white 4).
+#
+# Speed 250 km/h; comfort 170/435 (line). Class 4.
+# Dates: 2005-2013 with a road tail to about 2026.
+#
+# Metres master: citycars/4.5/mercedes-w221.blend. References:
+# citycars/references/mercedes-w221/ (gitignored). Images via Wikimedia Commons.
+
+obj=citycar
+name=MercedesSClassW221(ObsidianBlack)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=2005
+intro_month=9
+retire_year=2026
+retire_month=6
+speed=250
+class=4
+maximum_comfortable_journey_minutes=170
+maximum_tolerable_journey_minutes=435
+
+Image[E]=./images/mercedes-w221-black_E.0.0,-33,14
+Image[SE]=./images/mercedes-w221-black_SE.0.0,-13,0
+Image[S]=./images/mercedes-w221-black_S.0.0,0,0
+Image[SW]=./images/mercedes-w221-black_SW.0.0,-8,10
+Image[W]=./images/mercedes-w221-black_W.0.0,4,5
+Image[NW]=./images/mercedes-w221-black_NW.0.0,12,10
+Image[N]=./images/mercedes-w221-black_N.0.0,0,33
+Image[NE]=./images/mercedes-w221-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=MercedesSClassW221(IridiumSilver)
+copyright=JamesPetts
+
+DistributionWeight=9
+intro_year=2005
+intro_month=9
+retire_year=2025
+retire_month=6
+speed=250
+class=4
+maximum_comfortable_journey_minutes=170
+maximum_tolerable_journey_minutes=435
+
+Image[E]=./images/mercedes-w221-silver_E.0.0,-33,14
+Image[SE]=./images/mercedes-w221-silver_SE.0.0,-13,0
+Image[S]=./images/mercedes-w221-silver_S.0.0,0,0
+Image[SW]=./images/mercedes-w221-silver_SW.0.0,-8,10
+Image[W]=./images/mercedes-w221-silver_W.0.0,4,5
+Image[NW]=./images/mercedes-w221-silver_NW.0.0,12,10
+Image[N]=./images/mercedes-w221-silver_N.0.0,0,33
+Image[NE]=./images/mercedes-w221-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=MercedesSClassW221(AndesiteGrey)
+copyright=JamesPetts
+
+DistributionWeight=5
+intro_year=2007
+intro_month=3
+retire_year=2024
+retire_month=6
+speed=250
+class=4
+maximum_comfortable_journey_minutes=170
+maximum_tolerable_journey_minutes=435
+
+Image[E]=./images/mercedes-w221-grey_E.0.0,-33,14
+Image[SE]=./images/mercedes-w221-grey_SE.0.0,-13,0
+Image[S]=./images/mercedes-w221-grey_S.0.0,0,0
+Image[SW]=./images/mercedes-w221-grey_SW.0.0,-8,10
+Image[W]=./images/mercedes-w221-grey_W.0.0,4,5
+Image[NW]=./images/mercedes-w221-grey_NW.0.0,12,10
+Image[N]=./images/mercedes-w221-grey_N.0.0,0,33
+Image[NE]=./images/mercedes-w221-grey_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=MercedesSClassW221(DiamondWhite)
+copyright=JamesPetts
+
+DistributionWeight=4
+intro_year=2009
+intro_month=3
+retire_year=2023
+retire_month=6
+speed=250
+class=4
+maximum_comfortable_journey_minutes=170
+maximum_tolerable_journey_minutes=435
+
+Image[E]=./images/mercedes-w221-white_E.0.0,-33,14
+Image[SE]=./images/mercedes-w221-white_SE.0.0,-13,0
+Image[S]=./images/mercedes-w221-white_S.0.0,0,0
+Image[SW]=./images/mercedes-w221-white_SW.0.0,-8,10
+Image[W]=./images/mercedes-w221-white_W.0.0,4,5
+Image[NW]=./images/mercedes-w221-white_NW.0.0,12,10
+Image[N]=./images/mercedes-w221-white_N.0.0,0,33
+Image[NE]=./images/mercedes-w221-white_NE.0.0,0,24

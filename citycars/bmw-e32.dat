@@ -1,0 +1,110 @@
+# BMW 7 Series E32 four-door saloon, 1987-1994.
+#
+# The first V8 and V12 7-series: 4,910 mm long, 1,845 mm wide, 1,411 mm high,
+# 2,833 mm wheelbase (long-wheelbase 7,500iL 4,970/2,947); 3.0-5.0 sixes and
+# V8/V12. The strongest-evidenced 1980s class-4 saloon in the section F research.
+# https://en.wikipedia.org/wiki/BMW_7_Series_(E32)
+#
+# Colours: Diamond Black, Sterling Silver, Royal Blue and Oxford Green are
+# documented BMW finishes of the period.
+#
+# Weight: 40 in total (black 15, silver 12, blue 8, green 5), below the Jaguar XJ's
+# 60 and above the Mercedes W140's 20 to match the measured parc ratios.
+#
+# Speed 230 km/h; comfort 140/390 (line). Class 4.
+# Dates: 1987-1994 with a road tail to about 2006.
+#
+# Metres master: citycars/4.5/bmw-e32.blend. References:
+# citycars/references/bmw-e32/ (gitignored). Images via Wikimedia Commons.
+
+obj=citycar
+name=BMW7E32(DiamondBlack)
+copyright=JamesPetts
+
+DistributionWeight=15
+intro_year=1987
+intro_month=6
+retire_year=2006
+retire_month=6
+speed=230
+class=4
+maximum_comfortable_journey_minutes=140
+maximum_tolerable_journey_minutes=390
+
+Image[E]=./images/bmw-e32-black_E.0.0,-33,14
+Image[SE]=./images/bmw-e32-black_SE.0.0,-13,0
+Image[S]=./images/bmw-e32-black_S.0.0,0,0
+Image[SW]=./images/bmw-e32-black_SW.0.0,-8,10
+Image[W]=./images/bmw-e32-black_W.0.0,4,5
+Image[NW]=./images/bmw-e32-black_NW.0.0,12,10
+Image[N]=./images/bmw-e32-black_N.0.0,0,33
+Image[NE]=./images/bmw-e32-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMW7E32(SterlingSilver)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=1987
+intro_month=6
+retire_year=2005
+retire_month=6
+speed=230
+class=4
+maximum_comfortable_journey_minutes=140
+maximum_tolerable_journey_minutes=390
+
+Image[E]=./images/bmw-e32-silver_E.0.0,-33,14
+Image[SE]=./images/bmw-e32-silver_SE.0.0,-13,0
+Image[S]=./images/bmw-e32-silver_S.0.0,0,0
+Image[SW]=./images/bmw-e32-silver_SW.0.0,-8,10
+Image[W]=./images/bmw-e32-silver_W.0.0,4,5
+Image[NW]=./images/bmw-e32-silver_NW.0.0,12,10
+Image[N]=./images/bmw-e32-silver_N.0.0,0,33
+Image[NE]=./images/bmw-e32-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMW7E32(RoyalBlue)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=1988
+intro_month=3
+retire_year=2004
+retire_month=6
+speed=230
+class=4
+maximum_comfortable_journey_minutes=140
+maximum_tolerable_journey_minutes=390
+
+Image[E]=./images/bmw-e32-blue_E.0.0,-33,14
+Image[SE]=./images/bmw-e32-blue_SE.0.0,-13,0
+Image[S]=./images/bmw-e32-blue_S.0.0,0,0
+Image[SW]=./images/bmw-e32-blue_SW.0.0,-8,10
+Image[W]=./images/bmw-e32-blue_W.0.0,4,5
+Image[NW]=./images/bmw-e32-blue_NW.0.0,12,10
+Image[N]=./images/bmw-e32-blue_N.0.0,0,33
+Image[NE]=./images/bmw-e32-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMW7E32(OxfordGreen)
+copyright=JamesPetts
+
+DistributionWeight=5
+intro_year=1990
+intro_month=3
+retire_year=2003
+retire_month=6
+speed=230
+class=4
+maximum_comfortable_journey_minutes=140
+maximum_tolerable_journey_minutes=390
+
+Image[E]=./images/bmw-e32-green_E.0.0,-33,14
+Image[SE]=./images/bmw-e32-green_SE.0.0,-13,0
+Image[S]=./images/bmw-e32-green_S.0.0,0,0
+Image[SW]=./images/bmw-e32-green_SW.0.0,-8,10
+Image[W]=./images/bmw-e32-green_W.0.0,4,5
+Image[NW]=./images/bmw-e32-green_NW.0.0,12,10
+Image[N]=./images/bmw-e32-green_N.0.0,0,33
+Image[NE]=./images/bmw-e32-green_NE.0.0,0,24

@@ -1,0 +1,131 @@
+# BMW 3 Series G20 four-door saloon, 2019-.
+#
+# The seventh 3-series, on the CLAR platform: the saloon that replaced the F30
+# in 2019 and was facelifted in July 2022.
+# https://en.wikipedia.org/wiki/BMW_3_Series_(G20)
+#
+# Dimensions 4.709 x 1.827 x 1.442 m, wheelbase 2.851 m, standard-wheelbase G20
+# saloon, from the English Wikipedia dimension box. The Chinese long-wheelbase
+# G28 is not modelled. Mirrors take the modelled width to 2.125 m.
+#
+# Colours: from the BMW UK 3 Series Saloon and Touring price list, July 2019,
+# printed pages 25-26, a primary UK source:
+#   Alpine White            300
+#   Black Sapphire meta.    475
+#   Mineralgrau metallic    A14
+#   Mediterranean Blue      C10
+# The price list establishes these as UK choices in July 2019, not across the
+# whole 2019- run; introduction and withdrawal years are not established.
+# Jet Black is also on that list but is restricted to SE and Sport trims, so it
+# is left out. Brooklyn Grey and the Individual colours need dated UK evidence
+# and are left out.
+# Weights black 3, grey 3, white 2, blue 2, total 10, provisional pending the
+# central rebase.
+#
+# Speed 250 km/h, the electronic limiter that applies to the whole range, the
+# same figure the F30 and F10 carry. Comfort 135/385, on the line
+# 180 + 1.5 x 135, equal to the F30. Classes 2,3.
+#
+# Dates are road presence: March 2019 intro, retires staggered 2034-2037 on a
+# fifteen- to eighteen-year tail, so every colourway is still current in 2026.
+#
+# Metres master: citycars/4.5/bmw-g20.blend. Interchange:
+# citycars/4.5/bmw-g20.dae (47 objects). References:
+# citycars/references/bmw-g20/ (gitignored; Wikimedia Commons).
+#
+# Accepted low-poly deviations, recorded rather than corrected: the bumper and
+# shoulder surfaces are more angular than the photographs and the glasshouse is
+# simplified. At 128 px the proportions, the L-shaped tail lamps and the boot
+# read correctly.
+
+obj=citycar
+name=BMW3G20(Alpinweiss)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=2019
+intro_month=3
+retire_year=2035
+retire_month=6
+speed=250
+class=2,3
+maximum_comfortable_journey_minutes=135
+maximum_tolerable_journey_minutes=385
+
+Image[E]=./images/bmw-g20-white_E.0.0,-33,14
+Image[SE]=./images/bmw-g20-white_SE.0.0,-13,0
+Image[S]=./images/bmw-g20-white_S.0.0,0,0
+Image[SW]=./images/bmw-g20-white_SW.0.0,-8,10
+Image[W]=./images/bmw-g20-white_W.0.0,4,5
+Image[NW]=./images/bmw-g20-white_NW.0.0,12,10
+Image[N]=./images/bmw-g20-white_N.0.0,0,33
+Image[NE]=./images/bmw-g20-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMW3G20(BlackSapphire)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=2019
+intro_month=3
+retire_year=2037
+retire_month=6
+speed=250
+class=2,3
+maximum_comfortable_journey_minutes=135
+maximum_tolerable_journey_minutes=385
+
+Image[E]=./images/bmw-g20-black_E.0.0,-33,14
+Image[SE]=./images/bmw-g20-black_SE.0.0,-13,0
+Image[S]=./images/bmw-g20-black_S.0.0,0,0
+Image[SW]=./images/bmw-g20-black_SW.0.0,-8,10
+Image[W]=./images/bmw-g20-black_W.0.0,4,5
+Image[NW]=./images/bmw-g20-black_NW.0.0,12,10
+Image[N]=./images/bmw-g20-black_N.0.0,0,33
+Image[NE]=./images/bmw-g20-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMW3G20(Mineralgrau)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=2019
+intro_month=3
+retire_year=2036
+retire_month=6
+speed=250
+class=2,3
+maximum_comfortable_journey_minutes=135
+maximum_tolerable_journey_minutes=385
+
+Image[E]=./images/bmw-g20-grey_E.0.0,-33,14
+Image[SE]=./images/bmw-g20-grey_SE.0.0,-13,0
+Image[S]=./images/bmw-g20-grey_S.0.0,0,0
+Image[SW]=./images/bmw-g20-grey_SW.0.0,-8,10
+Image[W]=./images/bmw-g20-grey_W.0.0,4,5
+Image[NW]=./images/bmw-g20-grey_NW.0.0,12,10
+Image[N]=./images/bmw-g20-grey_N.0.0,0,33
+Image[NE]=./images/bmw-g20-grey_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMW3G20(MediterraneanBlue)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=2019
+intro_month=3
+retire_year=2034
+retire_month=6
+speed=250
+class=2,3
+maximum_comfortable_journey_minutes=135
+maximum_tolerable_journey_minutes=385
+
+Image[E]=./images/bmw-g20-blue_E.0.0,-33,14
+Image[SE]=./images/bmw-g20-blue_SE.0.0,-13,0
+Image[S]=./images/bmw-g20-blue_S.0.0,0,0
+Image[SW]=./images/bmw-g20-blue_SW.0.0,-8,10
+Image[W]=./images/bmw-g20-blue_W.0.0,4,5
+Image[NW]=./images/bmw-g20-blue_NW.0.0,12,10
+Image[N]=./images/bmw-g20-blue_N.0.0,0,33
+Image[NE]=./images/bmw-g20-blue_NE.0.0,0,24

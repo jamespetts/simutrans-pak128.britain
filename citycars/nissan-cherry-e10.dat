@@ -1,0 +1,125 @@
+# Datsun Cherry E10 two-door saloon, 1971-1977 (sold in Britain as the Datsun 100A).
+#
+# The first front-wheel-drive Datsun and the car that established the marque in
+# Britain: launched in Japan in October 1970, on sale in Britain from 1971, and
+# the model whose owners gave Datsun the highest "would buy another" score in
+# Motor's February 1973 reader survey, ahead of the Volkswagen Beetle.
+# https://en.wikipedia.org/wiki/Nissan_Cherry
+#
+# Dimensions 3.660 x 1.490 x 1.380 m, wheelbase 2.335 m, from the English
+# Wikipedia first-generation (E10) dimension box.
+#
+# Colours. No UK colour card for the E10 was located, so the objects carry plain
+# colour names rather than invented marketing names: white, red, blue and
+# yellow, the four finishes common on 1970s Japanese imports and all four
+# visible in period British photographs of the car. Weights white 3, red 3,
+# blue 2, yellow 2, total 10, provisional pending the central rebase.
+#
+# Speed 130 km/h for the 1.0-litre 100A, the volume British model; the 1.2-litre
+# 120A was quicker but rare here. Comfort 50/255, on the line 180 + 1.5 x 50,
+# the same as the Fiesta Mk1 and Metro Mk2. Classes 0,1,2.
+#
+# Dates are road presence: January 1971 intro, retires staggered 1984-1987 on a
+# thirteen- to sixteen-year tail.
+#
+# Metres master: citycars/4.5/nissan-cherry-e10.blend. Interchange:
+# citycars/4.5/nissan-cherry-e10.dae (45 objects). References:
+# citycars/references/nissan-cherry-e10/ (gitignored; Wikimedia Commons).
+#
+# Recorded limitation: none of the four photographs is a true side profile. The
+# proportions were taken from oblique views and calibrated against the published
+# dimensions rather than measured off the pictures, so the roofline is a little
+# more curved than the car. At 128 px the round lamps in the black grille, the
+# chrome bumpers and the two-door outline read correctly.
+
+obj=citycar
+name=Datsun100A(White)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1971
+intro_month=1
+retire_year=1987
+retire_month=6
+speed=130
+class=0,1,2
+maximum_comfortable_journey_minutes=50
+maximum_tolerable_journey_minutes=255
+
+Image[E]=./images/nissan-cherry-e10-white_E.0.0,-33,14
+Image[SE]=./images/nissan-cherry-e10-white_SE.0.0,-13,0
+Image[S]=./images/nissan-cherry-e10-white_S.0.0,0,0
+Image[SW]=./images/nissan-cherry-e10-white_SW.0.0,-8,10
+Image[W]=./images/nissan-cherry-e10-white_W.0.0,4,5
+Image[NW]=./images/nissan-cherry-e10-white_NW.0.0,12,10
+Image[N]=./images/nissan-cherry-e10-white_N.0.0,0,33
+Image[NE]=./images/nissan-cherry-e10-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Datsun100A(Red)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1971
+intro_month=1
+retire_year=1986
+retire_month=6
+speed=130
+class=0,1,2
+maximum_comfortable_journey_minutes=50
+maximum_tolerable_journey_minutes=255
+
+Image[E]=./images/nissan-cherry-e10-red_E.0.0,-33,14
+Image[SE]=./images/nissan-cherry-e10-red_SE.0.0,-13,0
+Image[S]=./images/nissan-cherry-e10-red_S.0.0,0,0
+Image[SW]=./images/nissan-cherry-e10-red_SW.0.0,-8,10
+Image[W]=./images/nissan-cherry-e10-red_W.0.0,4,5
+Image[NW]=./images/nissan-cherry-e10-red_NW.0.0,12,10
+Image[N]=./images/nissan-cherry-e10-red_N.0.0,0,33
+Image[NE]=./images/nissan-cherry-e10-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Datsun100A(Blue)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1971
+intro_month=1
+retire_year=1985
+retire_month=6
+speed=130
+class=0,1,2
+maximum_comfortable_journey_minutes=50
+maximum_tolerable_journey_minutes=255
+
+Image[E]=./images/nissan-cherry-e10-blue_E.0.0,-33,14
+Image[SE]=./images/nissan-cherry-e10-blue_SE.0.0,-13,0
+Image[S]=./images/nissan-cherry-e10-blue_S.0.0,0,0
+Image[SW]=./images/nissan-cherry-e10-blue_SW.0.0,-8,10
+Image[W]=./images/nissan-cherry-e10-blue_W.0.0,4,5
+Image[NW]=./images/nissan-cherry-e10-blue_NW.0.0,12,10
+Image[N]=./images/nissan-cherry-e10-blue_N.0.0,0,33
+Image[NE]=./images/nissan-cherry-e10-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Datsun100A(Yellow)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1971
+intro_month=1
+retire_year=1984
+retire_month=6
+speed=130
+class=0,1,2
+maximum_comfortable_journey_minutes=50
+maximum_tolerable_journey_minutes=255
+
+Image[E]=./images/nissan-cherry-e10-yellow_E.0.0,-33,14
+Image[SE]=./images/nissan-cherry-e10-yellow_SE.0.0,-13,0
+Image[S]=./images/nissan-cherry-e10-yellow_S.0.0,0,0
+Image[SW]=./images/nissan-cherry-e10-yellow_SW.0.0,-8,10
+Image[W]=./images/nissan-cherry-e10-yellow_W.0.0,4,5
+Image[NW]=./images/nissan-cherry-e10-yellow_NW.0.0,12,10
+Image[N]=./images/nissan-cherry-e10-yellow_N.0.0,0,33
+Image[NE]=./images/nissan-cherry-e10-yellow_NE.0.0,0,24

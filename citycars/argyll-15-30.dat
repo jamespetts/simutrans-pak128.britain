@@ -1,0 +1,116 @@
+# Argyll 15/30 two-seater tourer, 1912.
+#
+# The Glasgow-built Argyll, from the Loch Long side: the 15/30 was Argyll's
+# medium car of the Edwardian years, a four-cylinder of about 3 litres. Identified
+# from the exhibit at the Riverside Museum, Glasgow, where the display card reads
+# "Argyll 15/30 Tourer, 1912, Glasgow".
+#
+# Dimensions are ESTIMATES taken from the museum car: about 4,100 mm long,
+# 1,650 mm wide, 1,750 mm high with the cape hood raised, 2,900 mm wheelbase.
+# They have NOT been checked against a published figure and must be corrected if
+# a source is found. [LITERATURE: Riverside Museum exhibit placard, Glasgow]
+#
+# Colours: Black, Dark Green, Maroon and Grey are documented period finishes.
+#
+# Weight: 8 in total (black 3, green 3, maroon 1, grey 1). Section F: early
+# prestige models are representative only, so the total stays low.
+#
+# Speed 80 km/h (estimate for a 15/30 tourer); comfort 60/270 (line). Class 3.
+# Dates: 1912-1915 with a road tail to about 1935.
+#
+# Metres master: citycars/4.5/argyll-15-30.blend. References:
+# citycars/references/argyll-15-30/ (gitignored). Reference photographs are the
+# maintainer's own, taken at the Riverside Museum in August 2026, and carry no
+# third-party licence obligation.
+
+obj=citycar
+name=Argyll1530(Black)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1912
+intro_month=4
+retire_year=1935
+retire_month=6
+speed=80
+class=3
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=270
+
+Image[E]=./images/argyll-15-30-black_E.0.0,-33,14
+Image[SE]=./images/argyll-15-30-black_SE.0.0,-13,0
+Image[S]=./images/argyll-15-30-black_S.0.0,0,0
+Image[SW]=./images/argyll-15-30-black_SW.0.0,-8,10
+Image[W]=./images/argyll-15-30-black_W.0.0,4,5
+Image[NW]=./images/argyll-15-30-black_NW.0.0,12,10
+Image[N]=./images/argyll-15-30-black_N.0.0,0,33
+Image[NE]=./images/argyll-15-30-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Argyll1530(DarkGreen)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1912
+intro_month=4
+retire_year=1934
+retire_month=6
+speed=80
+class=3
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=270
+
+Image[E]=./images/argyll-15-30-green_E.0.0,-33,14
+Image[SE]=./images/argyll-15-30-green_SE.0.0,-13,0
+Image[S]=./images/argyll-15-30-green_S.0.0,0,0
+Image[SW]=./images/argyll-15-30-green_SW.0.0,-8,10
+Image[W]=./images/argyll-15-30-green_W.0.0,4,5
+Image[NW]=./images/argyll-15-30-green_NW.0.0,12,10
+Image[N]=./images/argyll-15-30-green_N.0.0,0,33
+Image[NE]=./images/argyll-15-30-green_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Argyll1530(Maroon)
+copyright=JamesPetts
+
+DistributionWeight=1
+intro_year=1913
+intro_month=3
+retire_year=1933
+retire_month=6
+speed=80
+class=3
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=270
+
+Image[E]=./images/argyll-15-30-maroon_E.0.0,-33,14
+Image[SE]=./images/argyll-15-30-maroon_SE.0.0,-13,0
+Image[S]=./images/argyll-15-30-maroon_S.0.0,0,0
+Image[SW]=./images/argyll-15-30-maroon_SW.0.0,-8,10
+Image[W]=./images/argyll-15-30-maroon_W.0.0,4,5
+Image[NW]=./images/argyll-15-30-maroon_NW.0.0,12,10
+Image[N]=./images/argyll-15-30-maroon_N.0.0,0,33
+Image[NE]=./images/argyll-15-30-maroon_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Argyll1530(Grey)
+copyright=JamesPetts
+
+DistributionWeight=1
+intro_year=1914
+intro_month=3
+retire_year=1932
+retire_month=6
+speed=80
+class=3
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=270
+
+Image[E]=./images/argyll-15-30-grey_E.0.0,-33,14
+Image[SE]=./images/argyll-15-30-grey_SE.0.0,-13,0
+Image[S]=./images/argyll-15-30-grey_S.0.0,0,0
+Image[SW]=./images/argyll-15-30-grey_SW.0.0,-8,10
+Image[W]=./images/argyll-15-30-grey_W.0.0,4,5
+Image[NW]=./images/argyll-15-30-grey_NW.0.0,12,10
+Image[N]=./images/argyll-15-30-grey_N.0.0,0,33
+Image[NE]=./images/argyll-15-30-grey_NE.0.0,0,24

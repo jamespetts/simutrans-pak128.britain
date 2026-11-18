@@ -1,0 +1,110 @@
+# Ford Popular 103E two-door saloon, 1953-1959.
+#
+# The sidevalve Popular on the old E494A Anglia shell: 3,848 mm long, 1,435 mm
+# wide, 1,638 mm high, 2,286 mm wheelbase (The Motor road test, 1954); 1,172 cc
+# sidevalve four, three-speed gearbox, vacuum wiper.
+# Britain's cheapest new car of the mid-1950s and a huge 1950s-60s parc.
+# https://en.wikipedia.org/wiki/Ford_Popular
+#
+# Colours: Black, Grey, Blue and Green are documented Ford colours of the period.
+#
+# Weight: 220 in total (black 80, grey 55, blue 45, green 40), the entry-level car
+# of its decade.
+#
+# Speed 100 km/h; comfort 35/235 (line). Classes 0,1.
+# Dates: 1953-1959 with a road tail to about 1972.
+#
+# Metres master: citycars/4.5/ford-popular-103e.blend. References:
+# citycars/references/ford-popular-103e/ (gitignored). Images via Wikimedia Commons.
+
+obj=citycar
+name=FordPopular103E(Black)
+copyright=JamesPetts
+
+DistributionWeight=80
+intro_year=1953
+intro_month=3
+retire_year=1972
+retire_month=6
+speed=100
+class=0,1
+maximum_comfortable_journey_minutes=35
+maximum_tolerable_journey_minutes=235
+
+Image[E]=./images/ford-popular-103e-black_E.0.0,-33,14
+Image[SE]=./images/ford-popular-103e-black_SE.0.0,-13,0
+Image[S]=./images/ford-popular-103e-black_S.0.0,0,0
+Image[SW]=./images/ford-popular-103e-black_SW.0.0,-8,10
+Image[W]=./images/ford-popular-103e-black_W.0.0,4,5
+Image[NW]=./images/ford-popular-103e-black_NW.0.0,12,10
+Image[N]=./images/ford-popular-103e-black_N.0.0,0,33
+Image[NE]=./images/ford-popular-103e-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FordPopular103E(Grey)
+copyright=JamesPetts
+
+DistributionWeight=55
+intro_year=1953
+intro_month=3
+retire_year=1971
+retire_month=6
+speed=100
+class=0,1
+maximum_comfortable_journey_minutes=35
+maximum_tolerable_journey_minutes=235
+
+Image[E]=./images/ford-popular-103e-grey_E.0.0,-33,14
+Image[SE]=./images/ford-popular-103e-grey_SE.0.0,-13,0
+Image[S]=./images/ford-popular-103e-grey_S.0.0,0,0
+Image[SW]=./images/ford-popular-103e-grey_SW.0.0,-8,10
+Image[W]=./images/ford-popular-103e-grey_W.0.0,4,5
+Image[NW]=./images/ford-popular-103e-grey_NW.0.0,12,10
+Image[N]=./images/ford-popular-103e-grey_N.0.0,0,33
+Image[NE]=./images/ford-popular-103e-grey_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FordPopular103E(Blue)
+copyright=JamesPetts
+
+DistributionWeight=45
+intro_year=1954
+intro_month=3
+retire_year=1970
+retire_month=6
+speed=100
+class=0,1
+maximum_comfortable_journey_minutes=35
+maximum_tolerable_journey_minutes=235
+
+Image[E]=./images/ford-popular-103e-blue_E.0.0,-33,14
+Image[SE]=./images/ford-popular-103e-blue_SE.0.0,-13,0
+Image[S]=./images/ford-popular-103e-blue_S.0.0,0,0
+Image[SW]=./images/ford-popular-103e-blue_SW.0.0,-8,10
+Image[W]=./images/ford-popular-103e-blue_W.0.0,4,5
+Image[NW]=./images/ford-popular-103e-blue_NW.0.0,12,10
+Image[N]=./images/ford-popular-103e-blue_N.0.0,0,33
+Image[NE]=./images/ford-popular-103e-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FordPopular103E(Green)
+copyright=JamesPetts
+
+DistributionWeight=40
+intro_year=1955
+intro_month=3
+retire_year=1969
+retire_month=6
+speed=100
+class=0,1
+maximum_comfortable_journey_minutes=35
+maximum_tolerable_journey_minutes=235
+
+Image[E]=./images/ford-popular-103e-green_E.0.0,-33,14
+Image[SE]=./images/ford-popular-103e-green_SE.0.0,-13,0
+Image[S]=./images/ford-popular-103e-green_S.0.0,0,0
+Image[SW]=./images/ford-popular-103e-green_SW.0.0,-8,10
+Image[W]=./images/ford-popular-103e-green_W.0.0,4,5
+Image[NW]=./images/ford-popular-103e-green_NW.0.0,12,10
+Image[N]=./images/ford-popular-103e-green_N.0.0,0,33
+Image[NE]=./images/ford-popular-103e-green_NE.0.0,0,24

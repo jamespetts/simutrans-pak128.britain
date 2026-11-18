@@ -1,0 +1,111 @@
+# Humber Hawk Mk VI four-door saloon, 1954-1959.
+#
+# The big Humber of the mid-1950s: 4,648 mm long, 1,778 mm wide, 1,626 mm high,
+# 2,794 mm wheelbase; 2,267 cc four. The Mk VI introduced the enlarged boot and
+# wraparound rear window; the VIa followed in 1957. Rootes' upper-middle saloon,
+# used as a directors' car and by police forces.
+# https://en.wikipedia.org/wiki/Humber_Hawk
+#
+# Colours: Black, Sage Green, Dove Grey and Maroon are documented Humber finishes
+# of the period.
+#
+# Weight: 55 in total (black 20, grey 14, green 12, maroon 9), low per section F of
+# the gaps doc.
+#
+# Speed 135 km/h; comfort 100/330 (line). Class 3.
+# Dates: 1954-1967, the tail covering later life on British roads.
+#
+# Metres master: citycars/4.5/humber-hawk-vi.blend. References:
+# citycars/references/humber-hawk-vi/ (gitignored). Images via Wikimedia Commons.
+
+obj=citycar
+name=HumberHawkVI(Black)
+copyright=JamesPetts
+
+DistributionWeight=20
+intro_year=1954
+intro_month=7
+retire_year=1967
+retire_month=6
+speed=135
+class=3
+maximum_comfortable_journey_minutes=100
+maximum_tolerable_journey_minutes=330
+
+Image[E]=./images/humber-hawk-vi-black_E.0.0,-33,14
+Image[SE]=./images/humber-hawk-vi-black_SE.0.0,-13,0
+Image[S]=./images/humber-hawk-vi-black_S.0.0,0,0
+Image[SW]=./images/humber-hawk-vi-black_SW.0.0,-8,10
+Image[W]=./images/humber-hawk-vi-black_W.0.0,4,5
+Image[NW]=./images/humber-hawk-vi-black_NW.0.0,12,10
+Image[N]=./images/humber-hawk-vi-black_N.0.0,0,33
+Image[NE]=./images/humber-hawk-vi-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=HumberHawkVI(DoveGrey)
+copyright=JamesPetts
+
+DistributionWeight=14
+intro_year=1954
+intro_month=7
+retire_year=1966
+retire_month=6
+speed=135
+class=3
+maximum_comfortable_journey_minutes=100
+maximum_tolerable_journey_minutes=330
+
+Image[E]=./images/humber-hawk-vi-grey_E.0.0,-33,14
+Image[SE]=./images/humber-hawk-vi-grey_SE.0.0,-13,0
+Image[S]=./images/humber-hawk-vi-grey_S.0.0,0,0
+Image[SW]=./images/humber-hawk-vi-grey_SW.0.0,-8,10
+Image[W]=./images/humber-hawk-vi-grey_W.0.0,4,5
+Image[NW]=./images/humber-hawk-vi-grey_NW.0.0,12,10
+Image[N]=./images/humber-hawk-vi-grey_N.0.0,0,33
+Image[NE]=./images/humber-hawk-vi-grey_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=HumberHawkVI(SageGreen)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=1955
+intro_month=3
+retire_year=1965
+retire_month=6
+speed=135
+class=3
+maximum_comfortable_journey_minutes=100
+maximum_tolerable_journey_minutes=330
+
+Image[E]=./images/humber-hawk-vi-green_E.0.0,-33,14
+Image[SE]=./images/humber-hawk-vi-green_SE.0.0,-13,0
+Image[S]=./images/humber-hawk-vi-green_S.0.0,0,0
+Image[SW]=./images/humber-hawk-vi-green_SW.0.0,-8,10
+Image[W]=./images/humber-hawk-vi-green_W.0.0,4,5
+Image[NW]=./images/humber-hawk-vi-green_NW.0.0,12,10
+Image[N]=./images/humber-hawk-vi-green_N.0.0,0,33
+Image[NE]=./images/humber-hawk-vi-green_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=HumberHawkVI(Maroon)
+copyright=JamesPetts
+
+DistributionWeight=9
+intro_year=1956
+intro_month=3
+retire_year=1964
+retire_month=6
+speed=135
+class=3
+maximum_comfortable_journey_minutes=100
+maximum_tolerable_journey_minutes=330
+
+Image[E]=./images/humber-hawk-vi-maroon_E.0.0,-33,14
+Image[SE]=./images/humber-hawk-vi-maroon_SE.0.0,-13,0
+Image[S]=./images/humber-hawk-vi-maroon_S.0.0,0,0
+Image[SW]=./images/humber-hawk-vi-maroon_SW.0.0,-8,10
+Image[W]=./images/humber-hawk-vi-maroon_W.0.0,4,5
+Image[NW]=./images/humber-hawk-vi-maroon_NW.0.0,12,10
+Image[N]=./images/humber-hawk-vi-maroon_N.0.0,0,33
+Image[NE]=./images/humber-hawk-vi-maroon_NE.0.0,0,24

@@ -1,0 +1,111 @@
+# Range Rover L405, 2012-2021.
+#
+# The fourth-generation Range Rover: 4,999 mm long, 1,984 mm body width (2,073
+# with mirrors), 1,835 mm high, 2,922 mm wheelbase; all-aluminium body, 3.0 V6
+# and 4.4 V8, long-wheelbase option from 2014. The most numerous modern luxury
+# 4x4 in Britain: about 29,800 L405s licensed in 2019.
+# https://en.wikipedia.org/wiki/Range_Rover#Fourth_generation_(2012)
+#
+# Colours: Santorini Black, Loire Blue, Indus Silver and Corris Grey are period
+# Range Rover finishes.
+#
+# Weight: 55 in total (black 18, silver 15, blue 12, grey 10), the largest class-4
+# 4x4 parc of the 2010s.
+#
+# Speed 220 km/h; comfort 160/420 (line). Classes 2,3,4.
+# Dates: 2012-2021 with a road tail to about 2028.
+#
+# Metres master: citycars/4.5/range-rover-l405.blend. References:
+# citycars/references/range-rover-l405/ (gitignored). Images via Wikimedia Commons.
+
+obj=citycar
+name=RangeRoverL405(SantoriniBlack)
+copyright=JamesPetts
+
+DistributionWeight=18
+intro_year=2012
+intro_month=9
+retire_year=2028
+retire_month=6
+speed=220
+class=2,3,4
+maximum_comfortable_journey_minutes=160
+maximum_tolerable_journey_minutes=420
+
+Image[E]=./images/range-rover-l405-black_E.0.0,-33,14
+Image[SE]=./images/range-rover-l405-black_SE.0.0,-13,0
+Image[S]=./images/range-rover-l405-black_S.0.0,0,0
+Image[SW]=./images/range-rover-l405-black_SW.0.0,-8,10
+Image[W]=./images/range-rover-l405-black_W.0.0,4,5
+Image[NW]=./images/range-rover-l405-black_NW.0.0,12,10
+Image[N]=./images/range-rover-l405-black_N.0.0,0,33
+Image[NE]=./images/range-rover-l405-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RangeRoverL405(IndusSilver)
+copyright=JamesPetts
+
+DistributionWeight=15
+intro_year=2012
+intro_month=9
+retire_year=2027
+retire_month=6
+speed=220
+class=2,3,4
+maximum_comfortable_journey_minutes=160
+maximum_tolerable_journey_minutes=420
+
+Image[E]=./images/range-rover-l405-silver_E.0.0,-33,14
+Image[SE]=./images/range-rover-l405-silver_SE.0.0,-13,0
+Image[S]=./images/range-rover-l405-silver_S.0.0,0,0
+Image[SW]=./images/range-rover-l405-silver_SW.0.0,-8,10
+Image[W]=./images/range-rover-l405-silver_W.0.0,4,5
+Image[NW]=./images/range-rover-l405-silver_NW.0.0,12,10
+Image[N]=./images/range-rover-l405-silver_N.0.0,0,33
+Image[NE]=./images/range-rover-l405-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RangeRoverL405(LoireBlue)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=2013
+intro_month=3
+retire_year=2026
+retire_month=6
+speed=220
+class=2,3,4
+maximum_comfortable_journey_minutes=160
+maximum_tolerable_journey_minutes=420
+
+Image[E]=./images/range-rover-l405-blue_E.0.0,-33,14
+Image[SE]=./images/range-rover-l405-blue_SE.0.0,-13,0
+Image[S]=./images/range-rover-l405-blue_S.0.0,0,0
+Image[SW]=./images/range-rover-l405-blue_SW.0.0,-8,10
+Image[W]=./images/range-rover-l405-blue_W.0.0,4,5
+Image[NW]=./images/range-rover-l405-blue_NW.0.0,12,10
+Image[N]=./images/range-rover-l405-blue_N.0.0,0,33
+Image[NE]=./images/range-rover-l405-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RangeRoverL405(CorrisGrey)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=2014
+intro_month=3
+retire_year=2027
+retire_month=6
+speed=220
+class=2,3,4
+maximum_comfortable_journey_minutes=160
+maximum_tolerable_journey_minutes=420
+
+Image[E]=./images/range-rover-l405-grey_E.0.0,-33,14
+Image[SE]=./images/range-rover-l405-grey_SE.0.0,-13,0
+Image[S]=./images/range-rover-l405-grey_S.0.0,0,0
+Image[SW]=./images/range-rover-l405-grey_SW.0.0,-8,10
+Image[W]=./images/range-rover-l405-grey_W.0.0,4,5
+Image[NW]=./images/range-rover-l405-grey_NW.0.0,12,10
+Image[N]=./images/range-rover-l405-grey_N.0.0,0,33
+Image[NE]=./images/range-rover-l405-grey_NE.0.0,0,24

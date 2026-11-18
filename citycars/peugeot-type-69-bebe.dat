@@ -1,0 +1,118 @@
+# Peugeot Type 69 "Bébé", 1905-1912.
+#
+# The first mass-market small Peugeot, and one of the cars that established the
+# light car in Europe: a 652 cc single-cylinder two-seater on a short chassis,
+# sold as the "Baby Peugeot" in Britain at under GBP 200 in the 1906 price lists.
+# About 400 of the Type 69 were built, with the Type 69 Bébé and its successors
+# running to 1912.
+# https://en.wikipedia.org/wiki/Peugeot_Type_69
+#
+# No works dimensions have been found. The model was built to these ESTIMATES:
+# about 2.700 m long, 1.300 m wide, 1.500 m high, 1.750 m wheelbase. Correct them
+# if a source is found.
+#
+# Colours: Red, Dark Green, Cream and Black were period finishes; the museum car
+# in the references is red with yellow wheels.
+#
+# Weight: 8 in total (red 3, green 2, cream 2, black 1). The Bébé was the cheap
+# end of the Edwardian market, so its parc weight is well below the big cars of
+# the same years.
+#
+# Speed 40 km/h; comfort 25/215 (line). Class 1.
+# Dates: 1905-1912 with a road tail to about 1932.
+#
+# Metres master: citycars/4.5/peugeot-type-69-bebe.blend. References:
+# citycars/references/peugeot-type-69-bebe/ (gitignored). Images via Wikimedia
+# Commons.
+
+obj=citycar
+name=PeugeotType69Bebe(Red)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1905
+intro_month=6
+retire_year=1932
+retire_month=6
+speed=40
+class=1
+maximum_comfortable_journey_minutes=25
+maximum_tolerable_journey_minutes=215
+
+Image[E]=./images/peugeot-type-69-bebe-red_E.0.0,-33,14
+Image[SE]=./images/peugeot-type-69-bebe-red_SE.0.0,-13,0
+Image[S]=./images/peugeot-type-69-bebe-red_S.0.0,0,0
+Image[SW]=./images/peugeot-type-69-bebe-red_SW.0.0,-8,10
+Image[W]=./images/peugeot-type-69-bebe-red_W.0.0,4,5
+Image[NW]=./images/peugeot-type-69-bebe-red_NW.0.0,12,10
+Image[N]=./images/peugeot-type-69-bebe-red_N.0.0,0,33
+Image[NE]=./images/peugeot-type-69-bebe-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=PeugeotType69Bebe(DarkGreen)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1905
+intro_month=6
+retire_year=1931
+retire_month=6
+speed=40
+class=1
+maximum_comfortable_journey_minutes=25
+maximum_tolerable_journey_minutes=215
+
+Image[E]=./images/peugeot-type-69-bebe-green_E.0.0,-33,14
+Image[SE]=./images/peugeot-type-69-bebe-green_SE.0.0,-13,0
+Image[S]=./images/peugeot-type-69-bebe-green_S.0.0,0,0
+Image[SW]=./images/peugeot-type-69-bebe-green_SW.0.0,-8,10
+Image[W]=./images/peugeot-type-69-bebe-green_W.0.0,4,5
+Image[NW]=./images/peugeot-type-69-bebe-green_NW.0.0,12,10
+Image[N]=./images/peugeot-type-69-bebe-green_N.0.0,0,33
+Image[NE]=./images/peugeot-type-69-bebe-green_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=PeugeotType69Bebe(Cream)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1906
+intro_month=3
+retire_year=1930
+retire_month=6
+speed=40
+class=1
+maximum_comfortable_journey_minutes=25
+maximum_tolerable_journey_minutes=215
+
+Image[E]=./images/peugeot-type-69-bebe-cream_E.0.0,-33,14
+Image[SE]=./images/peugeot-type-69-bebe-cream_SE.0.0,-13,0
+Image[S]=./images/peugeot-type-69-bebe-cream_S.0.0,0,0
+Image[SW]=./images/peugeot-type-69-bebe-cream_SW.0.0,-8,10
+Image[W]=./images/peugeot-type-69-bebe-cream_W.0.0,4,5
+Image[NW]=./images/peugeot-type-69-bebe-cream_NW.0.0,12,10
+Image[N]=./images/peugeot-type-69-bebe-cream_N.0.0,0,33
+Image[NE]=./images/peugeot-type-69-bebe-cream_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=PeugeotType69Bebe(Black)
+copyright=JamesPetts
+
+DistributionWeight=1
+intro_year=1907
+intro_month=3
+retire_year=1929
+retire_month=6
+speed=40
+class=1
+maximum_comfortable_journey_minutes=25
+maximum_tolerable_journey_minutes=215
+
+Image[E]=./images/peugeot-type-69-bebe-black_E.0.0,-33,14
+Image[SE]=./images/peugeot-type-69-bebe-black_SE.0.0,-13,0
+Image[S]=./images/peugeot-type-69-bebe-black_S.0.0,0,0
+Image[SW]=./images/peugeot-type-69-bebe-black_SW.0.0,-8,10
+Image[W]=./images/peugeot-type-69-bebe-black_W.0.0,4,5
+Image[NW]=./images/peugeot-type-69-bebe-black_NW.0.0,12,10
+Image[N]=./images/peugeot-type-69-bebe-black_N.0.0,0,33
+Image[NE]=./images/peugeot-type-69-bebe-black_NE.0.0,0,24

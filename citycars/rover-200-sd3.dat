@@ -1,0 +1,134 @@
+# Rover 200 SD3 (213/216), 1984-1989.
+#
+# The first Rover 200 was the second product of the BL-Honda alliance and a
+# British-built Honda Ballade: a four-door notchback saloon, never a hatchback,
+# launched on 19 June 1984 and sold as the 213 (Honda 1342 cc) and, from 1985, the
+# 216 (BL S-series 1.6). It was pitched above the Maestro and Montego and became
+# the quality benchmark of the Austin Rover range; sales peaked in 1988-89.
+# https://en.wikipedia.org/wiki/Rover_200_/_25
+# https://rover200.org.uk/cars/sd3
+# https://www.aronline.co.uk/cars/rover/rover-213-216/unsung-heroes-rover-213216/
+#
+# Dimensions 4.156 x 1.623 x 1.378 m, wheelbase 2.450 m. Three independent sources
+# agree on all four figures (Rover 200 & 400 Owners Club, carspecsguru, and the
+# German Wikipedia dimension box).
+#
+# The 1987 update redesigned the rear lamp clusters and lowered the boot sill, and
+# revised the interior. At 128 px that is a colour-run difference, not a second
+# shell, so the pre-1987 rear is modelled for the whole run.
+#
+# Colours: Targa Red (BLVC 641), Silver Leaf metallic (421), Zircon Blue metallic
+# (471) and Arum White (449), from the 1985 Rover 213 colour and trim chart.
+# DVSA first-registration shares begin at 1994, so the split is era-adjusted from
+# the 1994-96 measured base: red 6, silver 5, blue 4, white 3. Total 18.
+# Provisional pending the central rebase.
+#
+# Speed 165 km/h, between the Maestro and the Rover 25's tier; the 216 EFi was the
+# quick version. Comfort 85/310, on the line 180 + 1.5 x 85, at the Triumph 2000
+# and Range Rover tier: the SD3 was bought for its refinement and the contemporary
+# road tests made that its selling point. Classes 1,2, since it was priced above
+# the mainstream.
+#
+# Dates are road presence, not production: June 1984 intro, retires staggered
+# 1997-2000 on a thirteen- to sixteen-year tail.
+#
+# Metres master: citycars/4.5/rover-200-sd3.blend. Interchange:
+# citycars/4.5/rover-200-sd3.dae (56 objects). References:
+# citycars/references/rover-200-sd3/ (gitignored; Wikimedia Commons, CC BY 2.0
+# and CC BY 3.0).
+#
+# Accepted low-poly deviations, recorded rather than corrected: angular surfaces
+# stand in for the photographed rounded corners, and the camera matching in the
+# Gate B comparisons is approximate rather than calibrated.
+
+obj=citycar
+name=Rover200SD3(TargaRed)
+copyright=JamesPetts
+
+DistributionWeight=6
+intro_year=1984
+intro_month=6
+retire_year=1998
+retire_month=6
+speed=165
+class=1,2
+maximum_comfortable_journey_minutes=85
+maximum_tolerable_journey_minutes=310
+
+Image[E]=./images/rover-200-sd3-red_E.0.0,-33,14
+Image[SE]=./images/rover-200-sd3-red_SE.0.0,-13,0
+Image[S]=./images/rover-200-sd3-red_S.0.0,0,0
+Image[SW]=./images/rover-200-sd3-red_SW.0.0,-8,10
+Image[W]=./images/rover-200-sd3-red_W.0.0,4,5
+Image[NW]=./images/rover-200-sd3-red_NW.0.0,12,10
+Image[N]=./images/rover-200-sd3-red_N.0.0,0,33
+Image[NE]=./images/rover-200-sd3-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Rover200SD3(SilverLeaf)
+copyright=JamesPetts
+
+DistributionWeight=5
+intro_year=1985
+intro_month=3
+retire_year=2000
+retire_month=6
+speed=165
+class=1,2
+maximum_comfortable_journey_minutes=85
+maximum_tolerable_journey_minutes=310
+
+Image[E]=./images/rover-200-sd3-silver_E.0.0,-33,14
+Image[SE]=./images/rover-200-sd3-silver_SE.0.0,-13,0
+Image[S]=./images/rover-200-sd3-silver_S.0.0,0,0
+Image[SW]=./images/rover-200-sd3-silver_SW.0.0,-8,10
+Image[W]=./images/rover-200-sd3-silver_W.0.0,4,5
+Image[NW]=./images/rover-200-sd3-silver_NW.0.0,12,10
+Image[N]=./images/rover-200-sd3-silver_N.0.0,0,33
+Image[NE]=./images/rover-200-sd3-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Rover200SD3(ZirconBlue)
+copyright=JamesPetts
+
+DistributionWeight=4
+intro_year=1984
+intro_month=6
+retire_year=1999
+retire_month=6
+speed=165
+class=1,2
+maximum_comfortable_journey_minutes=85
+maximum_tolerable_journey_minutes=310
+
+Image[E]=./images/rover-200-sd3-blue_E.0.0,-33,14
+Image[SE]=./images/rover-200-sd3-blue_SE.0.0,-13,0
+Image[S]=./images/rover-200-sd3-blue_S.0.0,0,0
+Image[SW]=./images/rover-200-sd3-blue_SW.0.0,-8,10
+Image[W]=./images/rover-200-sd3-blue_W.0.0,4,5
+Image[NW]=./images/rover-200-sd3-blue_NW.0.0,12,10
+Image[N]=./images/rover-200-sd3-blue_N.0.0,0,33
+Image[NE]=./images/rover-200-sd3-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Rover200SD3(ArumWhite)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1984
+intro_month=6
+retire_year=1997
+retire_month=6
+speed=165
+class=1,2
+maximum_comfortable_journey_minutes=85
+maximum_tolerable_journey_minutes=310
+
+Image[E]=./images/rover-200-sd3-white_E.0.0,-33,14
+Image[SE]=./images/rover-200-sd3-white_SE.0.0,-13,0
+Image[S]=./images/rover-200-sd3-white_S.0.0,0,0
+Image[SW]=./images/rover-200-sd3-white_SW.0.0,-8,10
+Image[W]=./images/rover-200-sd3-white_W.0.0,4,5
+Image[NW]=./images/rover-200-sd3-white_NW.0.0,12,10
+Image[N]=./images/rover-200-sd3-white_N.0.0,0,33
+Image[NE]=./images/rover-200-sd3-white_NE.0.0,0,24

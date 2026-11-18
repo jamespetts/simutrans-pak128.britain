@@ -1,0 +1,126 @@
+# Triumph 2500 four-door saloon, 1969-1977.
+#
+# The 2.5-litre six in the same Mk2 shell as the 2000: same body, same 2.690 m
+# wheelbase, same glazing. Sold in Britain as the 2.5 PI (1969-1975), the 2500 TC
+# (1974-1977) and the 2500 S (1975-1977). The body was inherited from the 2000
+# Mk2 master rather than rebuilt; the grille badge and trim distinguish it.
+# https://en.wikipedia.org/wiki/Triumph_2000
+# https://triumph2000register.co.uk/the-cars/technical-specifications/
+#
+# Dimensions 4.630 x 1.690 x 1.420 m, wheelbase 2.690 m, identical to the 2000
+# Mk2 because it is the same shell. Mirrors take the modelled width to 1.980 m.
+#
+# Colours are Triumph's own paint names from the Register's list of genuine
+# finishes: Damson, Saffron, French Blue and White. As with the 2000 Mk2, the
+# Register does not allocate each colour to a mark and year, so the individual
+# intro and retire months are road-presence dates rather than paint evidence.
+# Weights damson 3, white 3, saffron 2, frenchblue 2, total 10, provisional
+# pending the central rebase.
+#
+# Speed 166 km/h, the period Motor Sport figure for a 1974 UK 2500 TC manual.
+# Comfort 88/312, on the line 180 + 1.5 x 88: a little more comfortable than the
+# 2000 because of the smoother six. Classes 2,3.
+#
+# Dates are road presence: October 1969 intro, retires staggered 1986-1989.
+#
+# Metres master: citycars/4.5/triumph-2500.blend. Interchange:
+# citycars/4.5/triumph-2500.dae (60 objects). References:
+# citycars/references/triumph-2500/ (gitignored; Wikimedia Commons).
+#
+# Recorded limitations: the pack has no profile and no rear view — all four
+# photographs are front three-quarters — so the shell comes entirely from the Mk2
+# master and the photographs supply only the nose, badge and trim. Boot badge
+# placement is therefore unverified. At 128 px the 2500 is deliberately almost
+# indistinguishable from the 2000 Mk2, as the real cars were.
+
+obj=citycar
+name=Triumph2500(Damson)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1969
+intro_month=10
+retire_year=1989
+retire_month=6
+speed=166
+class=2,3
+maximum_comfortable_journey_minutes=88
+maximum_tolerable_journey_minutes=312
+
+Image[E]=./images/triumph-2500-damson_E.0.0,-33,14
+Image[SE]=./images/triumph-2500-damson_SE.0.0,-13,0
+Image[S]=./images/triumph-2500-damson_S.0.0,0,0
+Image[SW]=./images/triumph-2500-damson_SW.0.0,-8,10
+Image[W]=./images/triumph-2500-damson_W.0.0,4,5
+Image[NW]=./images/triumph-2500-damson_NW.0.0,12,10
+Image[N]=./images/triumph-2500-damson_N.0.0,0,33
+Image[NE]=./images/triumph-2500-damson_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Triumph2500(White)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1969
+intro_month=10
+retire_year=1988
+retire_month=6
+speed=166
+class=2,3
+maximum_comfortable_journey_minutes=88
+maximum_tolerable_journey_minutes=312
+
+Image[E]=./images/triumph-2500-white_E.0.0,-33,14
+Image[SE]=./images/triumph-2500-white_SE.0.0,-13,0
+Image[S]=./images/triumph-2500-white_S.0.0,0,0
+Image[SW]=./images/triumph-2500-white_SW.0.0,-8,10
+Image[W]=./images/triumph-2500-white_W.0.0,4,5
+Image[NW]=./images/triumph-2500-white_NW.0.0,12,10
+Image[N]=./images/triumph-2500-white_N.0.0,0,33
+Image[NE]=./images/triumph-2500-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Triumph2500(Saffron)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1969
+intro_month=10
+retire_year=1987
+retire_month=6
+speed=166
+class=2,3
+maximum_comfortable_journey_minutes=88
+maximum_tolerable_journey_minutes=312
+
+Image[E]=./images/triumph-2500-saffron_E.0.0,-33,14
+Image[SE]=./images/triumph-2500-saffron_SE.0.0,-13,0
+Image[S]=./images/triumph-2500-saffron_S.0.0,0,0
+Image[SW]=./images/triumph-2500-saffron_SW.0.0,-8,10
+Image[W]=./images/triumph-2500-saffron_W.0.0,4,5
+Image[NW]=./images/triumph-2500-saffron_NW.0.0,12,10
+Image[N]=./images/triumph-2500-saffron_N.0.0,0,33
+Image[NE]=./images/triumph-2500-saffron_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Triumph2500(FrenchBlue)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1969
+intro_month=10
+retire_year=1986
+retire_month=6
+speed=166
+class=2,3
+maximum_comfortable_journey_minutes=88
+maximum_tolerable_journey_minutes=312
+
+Image[E]=./images/triumph-2500-frenchblue_E.0.0,-33,14
+Image[SE]=./images/triumph-2500-frenchblue_SE.0.0,-13,0
+Image[S]=./images/triumph-2500-frenchblue_S.0.0,0,0
+Image[SW]=./images/triumph-2500-frenchblue_SW.0.0,-8,10
+Image[W]=./images/triumph-2500-frenchblue_W.0.0,4,5
+Image[NW]=./images/triumph-2500-frenchblue_NW.0.0,12,10
+Image[N]=./images/triumph-2500-frenchblue_N.0.0,0,33
+Image[NE]=./images/triumph-2500-frenchblue_NE.0.0,0,24

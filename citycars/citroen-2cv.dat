@@ -1,0 +1,108 @@
+# Citroën 2CV six-light saloon, 1948-1990.
+#
+# The "deux chevaux": 3,860 mm long, 1,480 mm wide, 1,600 mm high, 2,400 mm
+# wheelbase; 375-602 cc air-cooled flat twin, front-wheel drive, canvas roof and
+# removable seats. Built until 1990, the archetypal cheap car of the 1950s-80s.
+# https://en.wikipedia.org/wiki/Citro%C3%ABn_2CV
+#
+# Colours: Grey, Blue, Red and Green are documented 2CV colours of the period.
+#
+# Weight: 180 in total (grey 55, blue 50, red 40, green 35).
+#
+# Speed 100 km/h; comfort 45/250 (line). Classes 0,1.
+# Dates: 1948-1990 with a road tail to about 2000.
+#
+# Metres master: citycars/4.5/citroen-2cv.blend. References:
+# citycars/references/citroen-2cv/ (gitignored). Images via Wikimedia Commons.
+
+obj=citycar
+name=Citroen2CV(Grey)
+copyright=JamesPetts
+
+DistributionWeight=55
+intro_year=1948
+intro_month=10
+retire_year=2000
+retire_month=6
+speed=100
+class=0,1
+maximum_comfortable_journey_minutes=45
+maximum_tolerable_journey_minutes=250
+
+Image[E]=./images/citroen-2cv-grey_E.0.0,-33,14
+Image[SE]=./images/citroen-2cv-grey_SE.0.0,-13,0
+Image[S]=./images/citroen-2cv-grey_S.0.0,0,0
+Image[SW]=./images/citroen-2cv-grey_SW.0.0,-8,10
+Image[W]=./images/citroen-2cv-grey_W.0.0,4,5
+Image[NW]=./images/citroen-2cv-grey_NW.0.0,12,10
+Image[N]=./images/citroen-2cv-grey_N.0.0,0,33
+Image[NE]=./images/citroen-2cv-grey_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Citroen2CV(Blue)
+copyright=JamesPetts
+
+DistributionWeight=50
+intro_year=1948
+intro_month=10
+retire_year=1999
+retire_month=6
+speed=100
+class=0,1
+maximum_comfortable_journey_minutes=45
+maximum_tolerable_journey_minutes=250
+
+Image[E]=./images/citroen-2cv-blue_E.0.0,-33,14
+Image[SE]=./images/citroen-2cv-blue_SE.0.0,-13,0
+Image[S]=./images/citroen-2cv-blue_S.0.0,0,0
+Image[SW]=./images/citroen-2cv-blue_SW.0.0,-8,10
+Image[W]=./images/citroen-2cv-blue_W.0.0,4,5
+Image[NW]=./images/citroen-2cv-blue_NW.0.0,12,10
+Image[N]=./images/citroen-2cv-blue_N.0.0,0,33
+Image[NE]=./images/citroen-2cv-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Citroen2CV(Red)
+copyright=JamesPetts
+
+DistributionWeight=40
+intro_year=1955
+intro_month=3
+retire_year=1998
+retire_month=6
+speed=100
+class=0,1
+maximum_comfortable_journey_minutes=45
+maximum_tolerable_journey_minutes=250
+
+Image[E]=./images/citroen-2cv-red_E.0.0,-33,14
+Image[SE]=./images/citroen-2cv-red_SE.0.0,-13,0
+Image[S]=./images/citroen-2cv-red_S.0.0,0,0
+Image[SW]=./images/citroen-2cv-red_SW.0.0,-8,10
+Image[W]=./images/citroen-2cv-red_W.0.0,4,5
+Image[NW]=./images/citroen-2cv-red_NW.0.0,12,10
+Image[N]=./images/citroen-2cv-red_N.0.0,0,33
+Image[NE]=./images/citroen-2cv-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Citroen2CV(Green)
+copyright=JamesPetts
+
+DistributionWeight=35
+intro_year=1960
+intro_month=3
+retire_year=1997
+retire_month=6
+speed=100
+class=0,1
+maximum_comfortable_journey_minutes=45
+maximum_tolerable_journey_minutes=250
+
+Image[E]=./images/citroen-2cv-green_E.0.0,-33,14
+Image[SE]=./images/citroen-2cv-green_SE.0.0,-13,0
+Image[S]=./images/citroen-2cv-green_S.0.0,0,0
+Image[SW]=./images/citroen-2cv-green_SW.0.0,-8,10
+Image[W]=./images/citroen-2cv-green_W.0.0,4,5
+Image[NW]=./images/citroen-2cv-green_NW.0.0,12,10
+Image[N]=./images/citroen-2cv-green_N.0.0,0,33
+Image[NE]=./images/citroen-2cv-green_NE.0.0,0,24
