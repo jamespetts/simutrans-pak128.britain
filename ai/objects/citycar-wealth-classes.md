@@ -204,6 +204,37 @@ from the planned queue.
 Compiled with the ex-15 makeobj (`class` key, node version 0x8004)
 `[CODE simutrans-extended ex-15 @ 6bda048cf]`, 1,018 objects, zero ignored warnings.
 
+## How a class list is calibrated (decision 2026-11-18)
+
+`[USER-DIRECTION:2026-11-18]` A model is eligible for a band if a person in that band could
+plausibly afford the car **new, or as a second purchaser at about five years old**. In practice
+that bounds almost every list to the purchase band and the one below it, and it removes the deeper
+drift bands that some models carried (`0,1,2,3` on the Mini, `2,3,4` on the Range Rover).
+
+The mechanism is the **colourway ladder**: every colourway is a separate object with its own intro,
+retire and `class=`, so a colour introduced about five years after launch can carry the wider list
+while the launch colours carry the purchase band only. This works where such a colourway exists —
+**23 of 255 models have one introduced at least five years after the first** — and where none
+exists the wider list simply runs from launch. That is an accepted approximation, not a modelling
+error.
+
+**Rejected alternative: explicit second-hand objects.** Duplicating each model with a later intro
+and a lower class would be exact in timing and cheap in objects, since the sprites could be reused.
+It was rejected because a second-hand object is invisible: the sprite is identical, so a Medium
+passenger in a 5-series cannot be distinguished from a High one, and the pakset loses the visual
+signal that a distinct model is supposed to give. The player reads wealth from the *shape* on the
+road.
+
+**What carries the visual signal instead** is generation overlap. In 2005 the road holds E34s,
+E39s and E60s; the older silhouette is the cheaper journey, exactly as on a real street. The class
+lists therefore need to be right per generation, because the generation *is* the used-car cue.
+
+**The trade-off, plainly.** We chose legibility over precision. The cost is that a new car's lower
+band becomes available in game from launch rather than from its fifth year — at most a five-year
+error in when a Medium passenger starts using a High car. The benefit is that every car the player
+sees is a car whose wealth band they can read, with no invisible duplicates in the pool. This is a
+deliberate compromise, not an oversight.
+
 ## Pre-war evidence for the two lowest classes
 
 Research commissioned 2026-11-18 into licensed vehicles and owners before 1945 established the
