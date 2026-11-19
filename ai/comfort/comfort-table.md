@@ -22,6 +22,10 @@ still on the road in 2026 and its retire year is an estimate.
 
 | Model | Comfortable | Tolerable | Intro | Retire | Note |
 | --- | --- | --- | --- | --- | --- |
+| AstonDB2 | 55 | 265 | 1950 | 1966 | line |
+| AstonDB4 | 58 | 267 | 1958 | 1976 | line |
+| AstonDB5 | 60 | 270 | 1963 | 1981 | line |
+| AstonDB6 | 65 | 280 | 1965 | 1983 | line |
 | AudiA4B6 | 150 | 405 | 2000 | 2029 | line |
 | AustinLightTwelve | 45 | 250 | 1933 | 1950 | line |
 | AustinMaestro | 70 | 285 | 1983 | 2002 | line |
@@ -52,6 +56,10 @@ still on the road in 2026 and its retire year is an estimate.
 | BSAM21Combo | 25 | 190 | 1946 | 1966 | open outfit: line -30 |
 | BSAM21MonacoCombo | 35 | 200 | 1960 | 1968 | open outfit: line -30 |
 | BSASloperCombo | 25 | 190 | 1930 | 1939 | open outfit: line -30 |
+| CitroenCXSeries1 | 90 | 315 | 1975 | 1998 | line |
+| CitroenCXSeries2 | 90 | 315 | 1986 | 2003 | line |
+| CitroenDS1955 | 80 | 300 | 1955 | 1978 | line |
+| CitroenDS1962 | 85 | 310 | 1962 | 1983 | line |
 | CitroenLight15 | 65 | 280 | 1938 | 1962 | line |
 | CitroenTypeA | 25 | 220 | 1919 | 1925 | line |
 | CitroenTypeB2 | 30 | 225 | 1921 | 1934 | line |
@@ -82,9 +90,11 @@ still on the road in 2026 and its retire year is an estimate.
 | FordPrefectEarly | 40 | 240 | 1938 | 1966 | line |
 | FordPrefectLate | 45 | 250 | 1953 | 1972 | line |
 | FordT | 20 | 210 | 1908 | 1935 | line |
+| GWKCyclecar | 25 | 220 | 1911 | 1930 | line |
 | HorseCarriageClosed | 30 | 225 | 1750 | 1911 | line |
 | HorseCarriageOpen | 25 | 220 | 1750 | 1921 | line |
 | HorseCart | 10 | 195 | 1750 | 1954 | line |
+| Humberette | 30 | 225 | 1913 | 1933 | line |
 | Jaguar420 | 90 | 315 | 1966 | 1987 | line |
 | JaguarSType | 90 | 315 | 1963 | 1985 | line |
 | JaguarSTypeX200 | 110 | 345 | 1999 | 2024 | line |
@@ -124,8 +134,34 @@ still on the road in 2026 and its retire year is an estimate.
 | Rover8-1919 | 30 | 225 | 1919 | 1933 | line |
 | Rover9 | 32 | 230 | 1924 | 1939 | line |
 | RoverSD1 | 95 | 325 | 1976 | 1991 | line +5 |
+| SingerTen | 35 | 235 | 1912 | 1932 | line |
+| Standard95 | 35 | 235 | 1913 | 1932 | line |
 | StandardVanguard | 65 | 280 | 1947 | 1964 | line |
 | StandardVanguardVignale | 70 | 285 | 1956 | 1970 | line |
+| ToyotaCorollaE100 | 80 | 300 | 1992 | 2008 | line |
+| ToyotaCorollaE110 | 85 | 310 | 1997 | 2013 | line |
+| ToyotaCorollaE120 | 95 | 325 | 2002 | 2018 | line |
+| ToyotaPriusXW10 | 100 | 330 | 2000 | 2019 | line |
+| ToyotaPriusXW20 | 105 | 340 | 2004 | 2019 | line |
+| ToyotaPriusXW30 | 110 | 345 | 2009 | 2024 | line |
+| ToyotaPriusXW50 | 115 | 355 | 2016 | 2031 | line |
+| ToyotaPriusXW60 | 120 | 360 | 2024 | 2039 | line |
+| ToyotaYarisXP10 | 65 | 280 | 1999 | 2014 | line |
+| ToyotaYarisXP90 | 80 | 300 | 2006 | 2021 | line |
+| ToyotaYarisXP210 | 105 | 340 | 2020 | 2035 | line |
+| Renault15 | 50 | 255 | 1972 | 1991 | line |
+| Renault17 | 55 | 265 | 1972 | 1992 | line |
+| Renault19Phase1 | 70 | 285 | 1989 | 2004 | line |
+| Renault19Phase2 | 70 | 285 | 1992 | 2008 | line |
+| Renault21Phase1 | 75 | 295 | 1986 | 2003 | line |
+| Renault21Phase2 | 75 | 295 | 1989 | 2007 | line |
+| Renault25Phase1 | 90 | 315 | 1984 | 2001 | line |
+| Renault25Phase2 | 90 | 315 | 1988 | 2005 | line |
+| RenaultMeganeV | 115 | 355 | 2022 | 2039 | line |
+| RenaultMeganeIV | 110 | 345 | 2016 | 2033 | line |
+| RenaultMeganeIII | 100 | 330 | 2009 | 2027 | line |
+| RenaultMeganeII | 90 | 315 | 2002 | 2021 | line |
+| RenaultMeganeI | 80 | 300 | 1996 | 2015 | line |
 | Triumph2000 | 85 | 310 | 1963 | 1987 | line |
 | TriumphDolomite | 70 | 285 | 1972 | 1989 | line |
 | TriumphHerald | 35 | 235 | 1959 | 1977 | line +5 |

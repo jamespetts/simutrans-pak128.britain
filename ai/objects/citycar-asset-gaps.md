@@ -149,10 +149,10 @@ generations to build for each family are listed in section G; the sequence is he
 | 28 | Metro; Rover 200/400/800/75; Jaguar S-Type | The largest missing British mainstream block |
 | 29 | BMW 3, 5 and 7 — **closed 2026-11-17**: 3-series E21, E30, E46, E90, G20; 5-series E12, E28, E60, G30, G60; 7-series E23, G11, G70, around the existing E32, E34, E36, E38, E39, E65, F01, F10 and F30. 52 objects, pak 870 → 922 | The largest missing import family, with existing marks to extend |
 | 30 | Datsun/Nissan: Cherry, Stanza, Sunny, Bluebird, Primera, Qashqai, Juke, Note | Second largest missing import family |
-| 31 | Toyota Yaris, Prius, Corolla | Third |
-| 32 | Renault 15/17, 19, 21, 25, Megane | Fourth |
-| 33 | Citroën DS and CX | Smallest import block |
-| 34 | Aston Martin | Lowest volume and hardest shapes; taken last so it cannot displace coverage work |
+| 31 | Toyota — **closed 2026-11-18 except the Yaris XP130**: Prius XW20, XW30, XW50, XW60; Yaris XP10, XP90, XP210; Corolla E100, E110, E120. Ten models, 40 objects, pak 1,018 → 1,058. The XP130 is built and held for a user decision on its outline; the Corolla E140 is dropped because Toyota GB never sold it in Britain | Third |
+| 32 | Renault - **closed 2026-11-19**: 15, 17, 19 phases 1 and 2, 21 phases 1 and 2, 25 phases 1 and 2, Megane I-IV and the Megane E-Tech (the British Megane V). Thirteen models, 52 objects, pak 1,058 -> 1,114 | Fourth |
+| 33 | Citroen - **closed 2026-11-19**: DS 1955-62 (open lamps), DS 1962-75 (Series 3 canopy), CX Series 1, CX Series 2. Four models, 16 objects. The Series 2 DS nose of 1962-67 is not separately represented | Smallest import block |
+| 34 | Aston Martin - **in progress 2026-11-19**: DB2, DB5 and DB6 installed (12 objects, pak 1,146 -> 1,158). Nineteen packs ready and unbuilt: DB Mk III, DB4, DBS, V8 Vantage, Virage, DB7, Vanquish, DB9, Vantage 2005, DBS V12, Rapide, DB11, Vantage 2018, DBX, and the five pre-war cars | Lowest volume and hardest shapes; taken last so it cannot displace coverage work |
 
 
 Do not build a generation that is already represented by a declared stand-in without first
