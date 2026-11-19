@@ -1,0 +1,134 @@
+# Renault 25 phase 1 five-door hatchback, 1984-1988.
+#
+# The first-generation Renault 25, the firm's executive car, on sale in Britain
+# from the beginning of 1984 and facelifted in June 1988; production ended in
+# February 1992. The phase-1 car is the shape modelled.
+# https://en.wikipedia.org/wiki/Renault_25 (cited in the reference pack)
+#
+# Dimensions 4.713 x 1.806 x 1.410 m, wheelbase 2.718 m. Source: the reference
+# pack's notes, from the Renault 25 dimension box. The hull measures 4.713 m on
+# a 2.718 m wheelbase (57.7 per cent) and 1.806 m wide; mirrors take it to
+# 1.985 m.
+#
+# Shape reference: no true side elevation of a phase-1 car exists in the
+# Commons categories used. The flank was built from a front-left three-quarter
+# of a black car, a near-head-on front-right view of a blue car and a rear-left
+# view of the black car, with the wheel centres fixed by the published ratio.
+# The defining feature is the fastback hatch that slopes in one continuous line
+# from the roof to a high, short tail.
+#
+# After the first build the side glazing and the number plates were found to be
+# nearly flush with the body; a bounded fix moved the side panes 15 mm outward
+# and gave the plates a 7.5 mm stand-off. Both side window bands now show in the
+# true side elevation.
+#
+# Colours: no British-market colours were established, so the objects carry
+# plain names: silver, blue, grey and red. Weights silver 3, blue 3, grey 2,
+# red 2, total 10, provisional pending the central rebase.
+#
+# Speed 190 km/h, the 2.0-litre injection car's quoted maximum. Comfort
+# 90/315, on the line 180 + 1.5 x 90: a soft-riding executive hatchback, the
+# most comfortable Renault of its era. Classes 3,4.
+#
+# Dates are road presence: January 1984 intro, retires staggered 1998-2001 on a
+# fourteen- to seventeen-year tail.
+#
+# Metres master: citycars/4.5/renault-25-phase1.blend. Interchange:
+# citycars/4.5/renault-25-phase1.dae (91 objects). References:
+# citycars/references/renault-25-phase1/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the body is more angular than the photographs and the
+# glazing was re-seated after the first pass. At 128 px the long low nose, the
+# fastback hatch and the high short tail read as the Renault 25.
+
+obj=citycar
+name=Renault25Phase1(Silver)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1984
+intro_month=1
+retire_year=2001
+retire_month=6
+speed=190
+class=3,4
+maximum_comfortable_journey_minutes=90
+maximum_tolerable_journey_minutes=315
+
+Image[E]=./images/renault-25-phase1-silver_E.0.0,-33,14
+Image[SE]=./images/renault-25-phase1-silver_SE.0.0,-13,0
+Image[S]=./images/renault-25-phase1-silver_S.0.0,0,0
+Image[SW]=./images/renault-25-phase1-silver_SW.0.0,-8,10
+Image[W]=./images/renault-25-phase1-silver_W.0.0,4,5
+Image[NW]=./images/renault-25-phase1-silver_NW.0.0,12,10
+Image[N]=./images/renault-25-phase1-silver_N.0.0,0,33
+Image[NE]=./images/renault-25-phase1-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Renault25Phase1(Blue)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1984
+intro_month=1
+retire_year=2001
+retire_month=6
+speed=190
+class=3,4
+maximum_comfortable_journey_minutes=90
+maximum_tolerable_journey_minutes=315
+
+Image[E]=./images/renault-25-phase1-blue_E.0.0,-33,14
+Image[SE]=./images/renault-25-phase1-blue_SE.0.0,-13,0
+Image[S]=./images/renault-25-phase1-blue_S.0.0,0,0
+Image[SW]=./images/renault-25-phase1-blue_SW.0.0,-8,10
+Image[W]=./images/renault-25-phase1-blue_W.0.0,4,5
+Image[NW]=./images/renault-25-phase1-blue_NW.0.0,12,10
+Image[N]=./images/renault-25-phase1-blue_N.0.0,0,33
+Image[NE]=./images/renault-25-phase1-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Renault25Phase1(Grey)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1984
+intro_month=1
+retire_year=2000
+retire_month=6
+speed=190
+class=3,4
+maximum_comfortable_journey_minutes=90
+maximum_tolerable_journey_minutes=315
+
+Image[E]=./images/renault-25-phase1-grey_E.0.0,-33,14
+Image[SE]=./images/renault-25-phase1-grey_SE.0.0,-13,0
+Image[S]=./images/renault-25-phase1-grey_S.0.0,0,0
+Image[SW]=./images/renault-25-phase1-grey_SW.0.0,-8,10
+Image[W]=./images/renault-25-phase1-grey_W.0.0,4,5
+Image[NW]=./images/renault-25-phase1-grey_NW.0.0,12,10
+Image[N]=./images/renault-25-phase1-grey_N.0.0,0,33
+Image[NE]=./images/renault-25-phase1-grey_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Renault25Phase1(Red)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1984
+intro_month=1
+retire_year=1999
+retire_month=6
+speed=190
+class=3,4
+maximum_comfortable_journey_minutes=90
+maximum_tolerable_journey_minutes=315
+
+Image[E]=./images/renault-25-phase1-red_E.0.0,-33,14
+Image[SE]=./images/renault-25-phase1-red_SE.0.0,-13,0
+Image[S]=./images/renault-25-phase1-red_S.0.0,0,0
+Image[SW]=./images/renault-25-phase1-red_SW.0.0,-8,10
+Image[W]=./images/renault-25-phase1-red_W.0.0,4,5
+Image[NW]=./images/renault-25-phase1-red_NW.0.0,12,10
+Image[N]=./images/renault-25-phase1-red_N.0.0,0,33
+Image[NE]=./images/renault-25-phase1-red_NE.0.0,0,24

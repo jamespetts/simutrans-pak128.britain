@@ -1,0 +1,140 @@
+# Toyota Yaris XP130 five-door hatchback, 2011-2020.
+#
+# The third-generation Yaris. UK launch August 2011, first customer deliveries
+# September 2011, at £11,170 for the T2 three-door 1.0 VVT-i up to £15,385 for
+# the T Spirit five-door 1.33 with MultiDrive S, on the road. Replaced in 2020
+# by the XP210, which went on sale on 3 August 2020.
+# https://media.toyota.co.uk/wp-content/uploads/sites/5/pdf/Yaris-Gen3-Launch-Pack-2011.pdf
+# https://media.toyota.co.uk/vehicles/yaris-2011-2020/
+#
+# Dimensions 3.885 x 1.695 x 1.500 m, wheelbase 2.510 m. Source: English
+# Wikipedia, "Toyota Vitz", third-generation XP130 infobox: wheelbase
+# 2,510 mm, length 3,885-3,930 mm for 2010-2016, width 1,695 mm, height
+# 1,500 mm. The 3.885 m figure is the European pre-facelift car modelled. The
+# corrected hull measures 3.89175 m, 6.75 mm over, 1.695 m wide, with the wheel
+# centres 2.510 m apart (64.6 per cent of length). Mirrors extend to 1.824 m.
+#
+# Shape reference: image 1 is a near-level side elevation and was the primary
+# reference; image 2 the pre-facelift nose; image 3 the tail. Image 4 was
+# excluded because it is a later facelift car with a different grille and
+# bumper. The first pass failed the outline test — its roof curved down
+# continuously into the tail — and one authorised correction round raised the
+# roof line and made the hatch and tail panel more upright.
+#
+# Colours are Toyota GB names from the 2013 brochure, evidence grade (a):
+# Cirrus White, Sintra Blue, Tyrol Silver, Chilli Red, Eclipse Black, Tidal
+# Blue, Decuma Grey, Deep Aqua, Burning Red and Glacier Pearl. Four are
+# modelled: Tyrol Silver, Cirrus White, Eclipse Black and Burning Red. Weights
+# silver 3, white 3, red 2, black 2, total 10, provisional pending the central
+# rebase.
+#
+# Speed 175 km/h, the hybrid and 1.33-litre cars' quoted maximum. Comfort
+# 95/325, on the line 180 + 1.5 x 95. Classes 1,2.
+#
+# Dates are road presence: August 2011 intro, retires staggered 2023-2026 on a
+# twelve- to fifteen-year tail.
+#
+# Metres master: citycars/4.5/toyota-yaris-xp130.blend. Interchange:
+# citycars/4.5/toyota-yaris-xp130.dae (64 objects). References:
+# citycars/references/toyota-yaris-xp130/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: after the correction round the side silhouette is close
+# to the photograph but not identical — the rear glass is slightly less raked
+# than the real car and the break between bonnet and front bumper is less
+# distinct. The glazing lower edge is level, the flank crease understated and
+# the tail lamps do not wrap as far round the corners as the photographs. The
+# top view confirms a continuous painted roof. At 128 px the tall body, the
+# high roof line and the upright hatch read as the XP130 and distinguish it
+# from the rounder XP90.
+
+obj=citycar
+name=ToyotaYarisXP130(TyrolSilver)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=2011
+intro_month=8
+retire_year=2026
+retire_month=6
+speed=175
+class=1,2
+maximum_comfortable_journey_minutes=95
+maximum_tolerable_journey_minutes=325
+
+Image[E]=./images/toyota-yaris-xp130-tyrolsilver_E.0.0,-33,14
+Image[SE]=./images/toyota-yaris-xp130-tyrolsilver_SE.0.0,-13,0
+Image[S]=./images/toyota-yaris-xp130-tyrolsilver_S.0.0,0,0
+Image[SW]=./images/toyota-yaris-xp130-tyrolsilver_SW.0.0,-8,10
+Image[W]=./images/toyota-yaris-xp130-tyrolsilver_W.0.0,4,5
+Image[NW]=./images/toyota-yaris-xp130-tyrolsilver_NW.0.0,12,10
+Image[N]=./images/toyota-yaris-xp130-tyrolsilver_N.0.0,0,33
+Image[NE]=./images/toyota-yaris-xp130-tyrolsilver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=ToyotaYarisXP130(CirrusWhite)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=2011
+intro_month=8
+retire_year=2026
+retire_month=6
+speed=175
+class=1,2
+maximum_comfortable_journey_minutes=95
+maximum_tolerable_journey_minutes=325
+
+Image[E]=./images/toyota-yaris-xp130-cirruswhite_E.0.0,-33,14
+Image[SE]=./images/toyota-yaris-xp130-cirruswhite_SE.0.0,-13,0
+Image[S]=./images/toyota-yaris-xp130-cirruswhite_S.0.0,0,0
+Image[SW]=./images/toyota-yaris-xp130-cirruswhite_SW.0.0,-8,10
+Image[W]=./images/toyota-yaris-xp130-cirruswhite_W.0.0,4,5
+Image[NW]=./images/toyota-yaris-xp130-cirruswhite_NW.0.0,12,10
+Image[N]=./images/toyota-yaris-xp130-cirruswhite_N.0.0,0,33
+Image[NE]=./images/toyota-yaris-xp130-cirruswhite_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=ToyotaYarisXP130(EclipseBlack)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=2011
+intro_month=8
+retire_year=2025
+retire_month=6
+speed=175
+class=1,2
+maximum_comfortable_journey_minutes=95
+maximum_tolerable_journey_minutes=325
+
+Image[E]=./images/toyota-yaris-xp130-eclipseblack_E.0.0,-33,14
+Image[SE]=./images/toyota-yaris-xp130-eclipseblack_SE.0.0,-13,0
+Image[S]=./images/toyota-yaris-xp130-eclipseblack_S.0.0,0,0
+Image[SW]=./images/toyota-yaris-xp130-eclipseblack_SW.0.0,-8,10
+Image[W]=./images/toyota-yaris-xp130-eclipseblack_W.0.0,4,5
+Image[NW]=./images/toyota-yaris-xp130-eclipseblack_NW.0.0,12,10
+Image[N]=./images/toyota-yaris-xp130-eclipseblack_N.0.0,0,33
+Image[NE]=./images/toyota-yaris-xp130-eclipseblack_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=ToyotaYarisXP130(BurningRed)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=2011
+intro_month=8
+retire_year=2024
+retire_month=6
+speed=175
+class=1,2
+maximum_comfortable_journey_minutes=95
+maximum_tolerable_journey_minutes=325
+
+Image[E]=./images/toyota-yaris-xp130-burningred_E.0.0,-33,14
+Image[SE]=./images/toyota-yaris-xp130-burningred_SE.0.0,-13,0
+Image[S]=./images/toyota-yaris-xp130-burningred_S.0.0,0,0
+Image[SW]=./images/toyota-yaris-xp130-burningred_SW.0.0,-8,10
+Image[W]=./images/toyota-yaris-xp130-burningred_W.0.0,4,5
+Image[NW]=./images/toyota-yaris-xp130-burningred_NW.0.0,12,10
+Image[N]=./images/toyota-yaris-xp130-burningred_N.0.0,0,33
+Image[NE]=./images/toyota-yaris-xp130-burningred_NE.0.0,0,24

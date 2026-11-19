@@ -1,0 +1,124 @@
+# Renault 17 two-door coupe, 1972-1979.
+#
+# The Renault 17, the fastback coupe of the 15/17 pair, on sale from 1972 and
+# built until August 1979. UK sales ran through the same period.
+# https://en.wikipedia.org/wiki/Renault_17 (cited in the reference pack)
+#
+# Dimensions 4.255 x 1.640 x 1.310 m, wheelbase 2.440 m. Source: the reference
+# pack's notes, from the Renault 15/17 dimension box. The hull measures 4.255 m
+# on a 2.440 m wheelbase (57.3 per cent) and 1.640 m wide.
+#
+# Shape reference: image 1 is a true level side elevation of a yellow 1976 car,
+# used directly; image 2 supplied the twin round headlamps in their wide
+# recess, the slim centre grille and the bumper with overriders; image 3 the
+# fastback hatch, the louvred rear quarter window and the wide tail lamps.
+#
+# Colours: no British-market names were established, so the objects carry plain
+# names: red, blue, white and silver. Weights red 3, blue 3, white 2, silver 2,
+# total 10, provisional pending the central rebase.
+#
+# Speed 165 km/h, the 17 TS's quoted maximum. Comfort 55/265, on the line
+# 180 + 1.5 x 55: a low, firm-riding coupe of its era. Classes 2,3.
+#
+# Dates are road presence: 1972 intro, retires staggered 1989-1992 on a
+# seventeen- to twenty-year tail.
+#
+# Metres master: citycars/4.5/renault-17.blend. Interchange:
+# citycars/4.5/renault-17.dae (146 objects). References:
+# citycars/references/renault-17/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the cabin is slightly taller than the photograph and the
+# rubbing strip is interrupted in places. At 128 px the low fastback, the
+# louvred quarter window and the twin round lamps read as the Renault 17.
+
+obj=citycar
+name=Renault17(Red)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1972
+intro_month=1
+retire_year=1992
+retire_month=6
+speed=165
+class=2,3
+maximum_comfortable_journey_minutes=55
+maximum_tolerable_journey_minutes=265
+
+Image[E]=./images/renault-17-red_E.0.0,-33,14
+Image[SE]=./images/renault-17-red_SE.0.0,-13,0
+Image[S]=./images/renault-17-red_S.0.0,0,0
+Image[SW]=./images/renault-17-red_SW.0.0,-8,10
+Image[W]=./images/renault-17-red_W.0.0,4,5
+Image[NW]=./images/renault-17-red_NW.0.0,12,10
+Image[N]=./images/renault-17-red_N.0.0,0,33
+Image[NE]=./images/renault-17-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Renault17(Blue)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1972
+intro_month=1
+retire_year=1992
+retire_month=6
+speed=165
+class=2,3
+maximum_comfortable_journey_minutes=55
+maximum_tolerable_journey_minutes=265
+
+Image[E]=./images/renault-17-blue_E.0.0,-33,14
+Image[SE]=./images/renault-17-blue_SE.0.0,-13,0
+Image[S]=./images/renault-17-blue_S.0.0,0,0
+Image[SW]=./images/renault-17-blue_SW.0.0,-8,10
+Image[W]=./images/renault-17-blue_W.0.0,4,5
+Image[NW]=./images/renault-17-blue_NW.0.0,12,10
+Image[N]=./images/renault-17-blue_N.0.0,0,33
+Image[NE]=./images/renault-17-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Renault17(White)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1972
+intro_month=1
+retire_year=1991
+retire_month=6
+speed=165
+class=2,3
+maximum_comfortable_journey_minutes=55
+maximum_tolerable_journey_minutes=265
+
+Image[E]=./images/renault-17-white_E.0.0,-33,14
+Image[SE]=./images/renault-17-white_SE.0.0,-13,0
+Image[S]=./images/renault-17-white_S.0.0,0,0
+Image[SW]=./images/renault-17-white_SW.0.0,-8,10
+Image[W]=./images/renault-17-white_W.0.0,4,5
+Image[NW]=./images/renault-17-white_NW.0.0,12,10
+Image[N]=./images/renault-17-white_N.0.0,0,33
+Image[NE]=./images/renault-17-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Renault17(Silver)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1972
+intro_month=1
+retire_year=1990
+retire_month=6
+speed=165
+class=2,3
+maximum_comfortable_journey_minutes=55
+maximum_tolerable_journey_minutes=265
+
+Image[E]=./images/renault-17-silver_E.0.0,-33,14
+Image[SE]=./images/renault-17-silver_SE.0.0,-13,0
+Image[S]=./images/renault-17-silver_S.0.0,0,0
+Image[SW]=./images/renault-17-silver_SW.0.0,-8,10
+Image[W]=./images/renault-17-silver_W.0.0,4,5
+Image[NW]=./images/renault-17-silver_NW.0.0,12,10
+Image[N]=./images/renault-17-silver_N.0.0,0,33
+Image[NE]=./images/renault-17-silver_NE.0.0,0,24

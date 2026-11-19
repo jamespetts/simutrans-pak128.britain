@@ -1,0 +1,135 @@
+# Renault Megane III five-door hatchback, 2009-2016.
+#
+# The third-generation Megane in its pre-facelift form (2008-2012), on sale in
+# Britain from 2009 and replaced in the summer of 2016 by the Megane IV, whose
+# European production began that year.
+# https://www.renault.co.uk/ (Megane III model page, cited in the reference pack)
+#
+# Dimensions 4.295 x 1.808 x 1.471 m, wheelbase 2.641 m. Source: the reference
+# pack's notes. The hull measures 4.295 m on a 2.641 m wheelbase (61.5 per
+# cent) and 1.808 m wide; mirrors take it to 2.050 m.
+#
+# Shape reference: all three photographs are of the same silver five-door, and
+# image 1 is a true level side elevation, matched directly. The model's central
+# window pillar is more steeply raked than the photograph and the hatch
+# treatment is simplified, but the side window band, wheel positions and roof
+# line agree. All glazing panes stand 10-20 mm clear of the local body surface.
+#
+# Note from the research pack: British-market five-door hatches were built at
+# Bursa in Turkey, with roof weather strips covering the welds and a slightly
+# higher ride height than the Spanish-built cars; the model follows the
+# photographed car.
+#
+# Colours are from a Renault UK brochure of November 2011, evidence grade (a),
+# with the caveat that the list is printed for the Coupe edition and the hatch
+# used the same palette family: Glacier White, Pacific Blue, Capsicum Red,
+# Stone, Extreme Blue, Ruby Red, Oyster Grey, Chestnut Brown, Mercury, Eclipse,
+# Diamond Black, Cayenne and Malta Blue. Four are modelled: Glacier White,
+# Pacific Blue, Capsicum Red and Oyster Grey. Weights white 3, blue 3, red 2,
+# grey 2, total 10, provisional pending the central rebase.
+#
+# Speed 190 km/h, the 1.6-litre turbo's quoted maximum. Comfort 100/330, on the
+# line 180 + 1.5 x 100: a quiet, well-finished family hatchback. Classes 1,2.
+#
+# Dates are road presence: 2009 intro, retires staggered 2024-2027 on a
+# fifteen- to eighteen-year tail.
+#
+# Metres master: citycars/4.5/renault-megane-iii.blend. Interchange:
+# citycars/4.5/renault-megane-iii.dae (65 objects). References:
+# citycars/references/renault-megane-iii/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the central window pillar is too steeply raked and the
+# headlamp and rear hatch treatment simplified. At 128 px the rounded nose, the
+# rising waistline and the gently falling roof read as the Megane III.
+
+obj=citycar
+name=RenaultMeganeIII(GlacierWhite)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=2009
+intro_month=1
+retire_year=2027
+retire_month=6
+speed=190
+class=1,2
+maximum_comfortable_journey_minutes=100
+maximum_tolerable_journey_minutes=330
+
+Image[E]=./images/renault-megane-iii-glacierwhite_E.0.0,-33,14
+Image[SE]=./images/renault-megane-iii-glacierwhite_SE.0.0,-13,0
+Image[S]=./images/renault-megane-iii-glacierwhite_S.0.0,0,0
+Image[SW]=./images/renault-megane-iii-glacierwhite_SW.0.0,-8,10
+Image[W]=./images/renault-megane-iii-glacierwhite_W.0.0,4,5
+Image[NW]=./images/renault-megane-iii-glacierwhite_NW.0.0,12,10
+Image[N]=./images/renault-megane-iii-glacierwhite_N.0.0,0,33
+Image[NE]=./images/renault-megane-iii-glacierwhite_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RenaultMeganeIII(PacificBlue)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=2009
+intro_month=1
+retire_year=2027
+retire_month=6
+speed=190
+class=1,2
+maximum_comfortable_journey_minutes=100
+maximum_tolerable_journey_minutes=330
+
+Image[E]=./images/renault-megane-iii-pacificblue_E.0.0,-33,14
+Image[SE]=./images/renault-megane-iii-pacificblue_SE.0.0,-13,0
+Image[S]=./images/renault-megane-iii-pacificblue_S.0.0,0,0
+Image[SW]=./images/renault-megane-iii-pacificblue_SW.0.0,-8,10
+Image[W]=./images/renault-megane-iii-pacificblue_W.0.0,4,5
+Image[NW]=./images/renault-megane-iii-pacificblue_NW.0.0,12,10
+Image[N]=./images/renault-megane-iii-pacificblue_N.0.0,0,33
+Image[NE]=./images/renault-megane-iii-pacificblue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RenaultMeganeIII(CapsicumRed)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=2009
+intro_month=1
+retire_year=2026
+retire_month=6
+speed=190
+class=1,2
+maximum_comfortable_journey_minutes=100
+maximum_tolerable_journey_minutes=330
+
+Image[E]=./images/renault-megane-iii-capsicumred_E.0.0,-33,14
+Image[SE]=./images/renault-megane-iii-capsicumred_SE.0.0,-13,0
+Image[S]=./images/renault-megane-iii-capsicumred_S.0.0,0,0
+Image[SW]=./images/renault-megane-iii-capsicumred_SW.0.0,-8,10
+Image[W]=./images/renault-megane-iii-capsicumred_W.0.0,4,5
+Image[NW]=./images/renault-megane-iii-capsicumred_NW.0.0,12,10
+Image[N]=./images/renault-megane-iii-capsicumred_N.0.0,0,33
+Image[NE]=./images/renault-megane-iii-capsicumred_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RenaultMeganeIII(OysterGrey)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=2009
+intro_month=1
+retire_year=2025
+retire_month=6
+speed=190
+class=1,2
+maximum_comfortable_journey_minutes=100
+maximum_tolerable_journey_minutes=330
+
+Image[E]=./images/renault-megane-iii-oystergrey_E.0.0,-33,14
+Image[SE]=./images/renault-megane-iii-oystergrey_SE.0.0,-13,0
+Image[S]=./images/renault-megane-iii-oystergrey_S.0.0,0,0
+Image[SW]=./images/renault-megane-iii-oystergrey_SW.0.0,-8,10
+Image[W]=./images/renault-megane-iii-oystergrey_W.0.0,4,5
+Image[NW]=./images/renault-megane-iii-oystergrey_NW.0.0,12,10
+Image[N]=./images/renault-megane-iii-oystergrey_N.0.0,0,33
+Image[NE]=./images/renault-megane-iii-oystergrey_NE.0.0,0,24

@@ -1,0 +1,134 @@
+# Singer Ten light car, 1912-1924.
+#
+# The Singer Ten, launched at the Cycle and Motor Cycle Show in November 1912
+# and in production to 1924. The 1919 open two-seater on registration AN 4354
+# is the car modelled.
+#
+# Length 3.20 m, wheelbase 2.438 m (the post-1916 figure; it was 2.286 m at
+# launch). Source: Grant Ford's Singer 10 specification as recorded in the
+# reference pack. **Width 1.350 m and height 1.594 m are estimates from the
+# photographs**, not published figures: the width from the wing-to-wing span
+# relative to the body in the rear photograph and the height from the upright
+# screen relative to the wheel diameter and body. They are recorded as
+# estimates and must not be quoted as specifications.
+#
+# Shape reference: the 1919 car's front three-quarter and rear quarter. **The
+# pack's image 1 is a 1924 period side illustration of the coupe body**, a
+# different body from the open two-seater, and was used only for the wheelbase
+# and bonnet proportions; the body section is the photographed car's. The model
+# carries the right-hand-drive layout, the spare wheel on the right running
+# board, the rear auxiliary seat, flat wings and the tall narrow bonnet.
+#
+# Colours: these cars were finished to the buyer's order and no British colour
+# list exists. The objects carry plain period-appropriate names: green, black,
+# maroon and blue. Weights green 3, black 3, maroon 2, blue 2, total 10,
+# provisional pending the central rebase. Brass, nickel, tyres, seats and the
+# folded hood keep their own materials.
+#
+# Speed 80 km/h, an estimate for a 1919 10 hp light car; no published maximum
+# was found and the figure is recorded as an estimate. Comfort 35/235, on the
+# line 180 + 1.5 x 35: an open car with a folding screen. Classes 1,2.
+#
+# Dates are road presence: 1912 intro, retires staggered 1929-1932 on a
+# seventeen- to twenty-year tail.
+#
+# Metres master: citycars/4.5/singer-ten.blend. Interchange:
+# citycars/4.5/singer-ten.dae (146 objects). References:
+# citycars/references/singer-ten/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the bonnet and scuttle are more faceted than the
+# photographs, the front lamps are partly obscured in the front-quarter view,
+# and the windscreen is represented by its frame without a pane. At 128 px the
+# tall narrow bonnet, the open seats and the flat wings read as the Singer Ten.
+
+obj=citycar
+name=SingerTen(Green)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1912
+intro_month=11
+retire_year=1932
+retire_month=6
+speed=80
+class=1,2
+maximum_comfortable_journey_minutes=35
+maximum_tolerable_journey_minutes=235
+
+Image[E]=./images/singer-ten-green_E.0.0,-33,14
+Image[SE]=./images/singer-ten-green_SE.0.0,-13,0
+Image[S]=./images/singer-ten-green_S.0.0,0,0
+Image[SW]=./images/singer-ten-green_SW.0.0,-8,10
+Image[W]=./images/singer-ten-green_W.0.0,4,5
+Image[NW]=./images/singer-ten-green_NW.0.0,12,10
+Image[N]=./images/singer-ten-green_N.0.0,0,33
+Image[NE]=./images/singer-ten-green_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=SingerTen(Black)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1912
+intro_month=11
+retire_year=1932
+retire_month=6
+speed=80
+class=1,2
+maximum_comfortable_journey_minutes=35
+maximum_tolerable_journey_minutes=235
+
+Image[E]=./images/singer-ten-black_E.0.0,-33,14
+Image[SE]=./images/singer-ten-black_SE.0.0,-13,0
+Image[S]=./images/singer-ten-black_S.0.0,0,0
+Image[SW]=./images/singer-ten-black_SW.0.0,-8,10
+Image[W]=./images/singer-ten-black_W.0.0,4,5
+Image[NW]=./images/singer-ten-black_NW.0.0,12,10
+Image[N]=./images/singer-ten-black_N.0.0,0,33
+Image[NE]=./images/singer-ten-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=SingerTen(Maroon)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1912
+intro_month=11
+retire_year=1931
+retire_month=6
+speed=80
+class=1,2
+maximum_comfortable_journey_minutes=35
+maximum_tolerable_journey_minutes=235
+
+Image[E]=./images/singer-ten-maroon_E.0.0,-33,14
+Image[SE]=./images/singer-ten-maroon_SE.0.0,-13,0
+Image[S]=./images/singer-ten-maroon_S.0.0,0,0
+Image[SW]=./images/singer-ten-maroon_SW.0.0,-8,10
+Image[W]=./images/singer-ten-maroon_W.0.0,4,5
+Image[NW]=./images/singer-ten-maroon_NW.0.0,12,10
+Image[N]=./images/singer-ten-maroon_N.0.0,0,33
+Image[NE]=./images/singer-ten-maroon_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=SingerTen(Blue)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1912
+intro_month=11
+retire_year=1929
+retire_month=6
+speed=80
+class=1,2
+maximum_comfortable_journey_minutes=35
+maximum_tolerable_journey_minutes=235
+
+Image[E]=./images/singer-ten-blue_E.0.0,-33,14
+Image[SE]=./images/singer-ten-blue_SE.0.0,-13,0
+Image[S]=./images/singer-ten-blue_S.0.0,0,0
+Image[SW]=./images/singer-ten-blue_SW.0.0,-8,10
+Image[W]=./images/singer-ten-blue_W.0.0,4,5
+Image[NW]=./images/singer-ten-blue_NW.0.0,12,10
+Image[N]=./images/singer-ten-blue_N.0.0,0,33
+Image[NE]=./images/singer-ten-blue_NE.0.0,0,24

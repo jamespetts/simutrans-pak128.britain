@@ -1,0 +1,134 @@
+# Humberette 8 hp cyclecar, 1913-1915.
+#
+# The 1913 Humberette 8 hp cyclecar: a two-seat, air-cooled V-twin cyclecar of
+# 998 cc, sold at £115 or £125 and weighing about 7 cwt. It is not the 1903-05
+# Humberette voiturette; the audit's light car is this one. A water-cooled
+# version with a different radiator was added for 1914 and is not modelled.
+#
+# Wheelbase 2.210 m and track 1.067 m. Source: The Cyclecar Olympia
+# specification tables, November 1912, as recorded in the reference pack.
+# **Overall length 2.975 m and height 1.500 m are estimates from the
+# photographs**, not published figures: the length uses the known wheelbase plus
+# the wing overhangs and the height the wheel diameter and the
+# ground-to-windscreen-frame proportion. They are recorded as estimates here and
+# must not be quoted as specifications.
+#
+# Shape reference: the Louwman Museum car from the near side (about 15-20
+# degrees off perpendicular), registration AB 260 from the front quarter and
+# from the rear quarter. The model is the narrow, tall cyclecar with flat cycle
+# wings, a long narrow bonnet and the air-cooled radiator, an open two-seat body
+# with a rounded tail, and a steering wheel rather than a tiller.
+#
+# Colours: these cars were finished to the buyer's order and no British colour
+# list exists. The objects carry plain period-appropriate names: green, black,
+# maroon and blue. Weights green 3, black 3, maroon 2, blue 2, total 10,
+# provisional pending the central rebase. Brass, tyres, seats and the folded
+# hood keep their own materials and are not recoloured.
+#
+# Speed 75 km/h, an estimate for a 1913 8 hp cyclecar; no published maximum was
+# found and this is recorded as an estimate. Comfort 30/225, on the line
+# 180 + 1.5 x 30: an open cyclecar with no weather protection. Classes 0,1.
+#
+# Dates are road presence: 1913 intro, retires staggered 1930-1933 on a
+# seventeen- to twenty-year tail, which was a long life for a cyclecar.
+#
+# Metres master: citycars/4.5/humberette.blend. Interchange:
+# citycars/4.5/humberette.dae (149 objects). References:
+# citycars/references/humberette/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the body tub and seat backs are more angular than the
+# photographs and the steering wheel is modelled on the opposite side from
+# AB 260. At 128 px the narrow track, the tall narrow bonnet, the open seats and
+# the flat wings read as the Humberette cyclecar.
+
+obj=citycar
+name=Humberette(Green)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1913
+intro_month=1
+retire_year=1933
+retire_month=6
+speed=75
+class=0,1
+maximum_comfortable_journey_minutes=30
+maximum_tolerable_journey_minutes=225
+
+Image[E]=./images/humberette-green_E.0.0,-33,14
+Image[SE]=./images/humberette-green_SE.0.0,-13,0
+Image[S]=./images/humberette-green_S.0.0,0,0
+Image[SW]=./images/humberette-green_SW.0.0,-8,10
+Image[W]=./images/humberette-green_W.0.0,4,5
+Image[NW]=./images/humberette-green_NW.0.0,12,10
+Image[N]=./images/humberette-green_N.0.0,0,33
+Image[NE]=./images/humberette-green_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Humberette(Black)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1913
+intro_month=1
+retire_year=1933
+retire_month=6
+speed=75
+class=0,1
+maximum_comfortable_journey_minutes=30
+maximum_tolerable_journey_minutes=225
+
+Image[E]=./images/humberette-black_E.0.0,-33,14
+Image[SE]=./images/humberette-black_SE.0.0,-13,0
+Image[S]=./images/humberette-black_S.0.0,0,0
+Image[SW]=./images/humberette-black_SW.0.0,-8,10
+Image[W]=./images/humberette-black_W.0.0,4,5
+Image[NW]=./images/humberette-black_NW.0.0,12,10
+Image[N]=./images/humberette-black_N.0.0,0,33
+Image[NE]=./images/humberette-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Humberette(Maroon)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1913
+intro_month=1
+retire_year=1932
+retire_month=6
+speed=75
+class=0,1
+maximum_comfortable_journey_minutes=30
+maximum_tolerable_journey_minutes=225
+
+Image[E]=./images/humberette-maroon_E.0.0,-33,14
+Image[SE]=./images/humberette-maroon_SE.0.0,-13,0
+Image[S]=./images/humberette-maroon_S.0.0,0,0
+Image[SW]=./images/humberette-maroon_SW.0.0,-8,10
+Image[W]=./images/humberette-maroon_W.0.0,4,5
+Image[NW]=./images/humberette-maroon_NW.0.0,12,10
+Image[N]=./images/humberette-maroon_N.0.0,0,33
+Image[NE]=./images/humberette-maroon_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Humberette(Blue)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1913
+intro_month=1
+retire_year=1930
+retire_month=6
+speed=75
+class=0,1
+maximum_comfortable_journey_minutes=30
+maximum_tolerable_journey_minutes=225
+
+Image[E]=./images/humberette-blue_E.0.0,-33,14
+Image[SE]=./images/humberette-blue_SE.0.0,-13,0
+Image[S]=./images/humberette-blue_S.0.0,0,0
+Image[SW]=./images/humberette-blue_SW.0.0,-8,10
+Image[W]=./images/humberette-blue_W.0.0,4,5
+Image[NW]=./images/humberette-blue_NW.0.0,12,10
+Image[N]=./images/humberette-blue_N.0.0,0,33
+Image[NE]=./images/humberette-blue_NE.0.0,0,24

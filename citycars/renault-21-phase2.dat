@@ -1,0 +1,131 @@
+# Renault 21 phase 2 saloon, 1989-1994.
+#
+# The phase-2 facelift of the Renault 21, on sale from May 1989. The saloon
+# petrol range ended in early 1994, when the Laguna replaced it. It is the same
+# shell as the phase-1 car with a fuller nose, larger lamps, body-coloured
+# bumpers and wider tail lamps, and was built as a variant of the phase-1
+# master rather than as a new model.
+#
+# Dimensions 4.462 x 1.715 x 1.415 m, wheelbase 2.600 m, unchanged from phase 1.
+# Source: the reference pack's notes, from the Renault 21 dimension box.
+#
+# What differs from phase 1: a fuller, more rounded nose with a wide grille
+# carrying the diamond, larger wrap-around headlamps, a body-coloured bumper
+# with a dark insert and a bright strip, and at the rear wider tail lamps with
+# a dark centre panel between them. The cabin, doors, roof, wheels and the rest
+# of the flank are the phase-1 master's.
+#
+# Shape reference: a cream UK phase-2 saloon front-left, a maroon phase-2
+# saloon front-right and the cream car from the rear left. No true side
+# elevation exists, so the model was compared at each photograph's angle and a
+# true elevation was rendered for coherence.
+#
+# Colours: no British-market names were established, so the objects carry plain
+# names: silver, red, blue and white. Weights silver 3, red 3, blue 2, white 2,
+# total 10, provisional pending the central rebase.
+#
+# Speed 180 km/h and comfort 75/295, as the phase-1 car. Classes 2,3.
+#
+# Dates are road presence: May 1989 intro, retires staggered 2004-2007 on a
+# fifteen- to eighteen-year tail.
+#
+# Metres master: citycars/4.5/renault-21-phase2.blend. Interchange:
+# citycars/4.5/renault-21-phase2.dae (124 objects). References:
+# citycars/references/renault-21-phase2/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the carried-over body remains slab-sided and the lamp
+# and bumper transitions squarer than the photographs. At 128 px the fuller
+# nose and the dark centre panel between the tail lamps distinguish it from the
+# phase-1 car.
+
+obj=citycar
+name=Renault21Phase2(Silver)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1989
+intro_month=5
+retire_year=2007
+retire_month=6
+speed=180
+class=2,3
+maximum_comfortable_journey_minutes=75
+maximum_tolerable_journey_minutes=295
+
+Image[E]=./images/renault-21-phase2-silver_E.0.0,-33,14
+Image[SE]=./images/renault-21-phase2-silver_SE.0.0,-13,0
+Image[S]=./images/renault-21-phase2-silver_S.0.0,0,0
+Image[SW]=./images/renault-21-phase2-silver_SW.0.0,-8,10
+Image[W]=./images/renault-21-phase2-silver_W.0.0,4,5
+Image[NW]=./images/renault-21-phase2-silver_NW.0.0,12,10
+Image[N]=./images/renault-21-phase2-silver_N.0.0,0,33
+Image[NE]=./images/renault-21-phase2-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Renault21Phase2(Red)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1989
+intro_month=5
+retire_year=2007
+retire_month=6
+speed=180
+class=2,3
+maximum_comfortable_journey_minutes=75
+maximum_tolerable_journey_minutes=295
+
+Image[E]=./images/renault-21-phase2-red_E.0.0,-33,14
+Image[SE]=./images/renault-21-phase2-red_SE.0.0,-13,0
+Image[S]=./images/renault-21-phase2-red_S.0.0,0,0
+Image[SW]=./images/renault-21-phase2-red_SW.0.0,-8,10
+Image[W]=./images/renault-21-phase2-red_W.0.0,4,5
+Image[NW]=./images/renault-21-phase2-red_NW.0.0,12,10
+Image[N]=./images/renault-21-phase2-red_N.0.0,0,33
+Image[NE]=./images/renault-21-phase2-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Renault21Phase2(Blue)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1989
+intro_month=5
+retire_year=2006
+retire_month=6
+speed=180
+class=2,3
+maximum_comfortable_journey_minutes=75
+maximum_tolerable_journey_minutes=295
+
+Image[E]=./images/renault-21-phase2-blue_E.0.0,-33,14
+Image[SE]=./images/renault-21-phase2-blue_SE.0.0,-13,0
+Image[S]=./images/renault-21-phase2-blue_S.0.0,0,0
+Image[SW]=./images/renault-21-phase2-blue_SW.0.0,-8,10
+Image[W]=./images/renault-21-phase2-blue_W.0.0,4,5
+Image[NW]=./images/renault-21-phase2-blue_NW.0.0,12,10
+Image[N]=./images/renault-21-phase2-blue_N.0.0,0,33
+Image[NE]=./images/renault-21-phase2-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Renault21Phase2(White)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1989
+intro_month=5
+retire_year=2005
+retire_month=6
+speed=180
+class=2,3
+maximum_comfortable_journey_minutes=75
+maximum_tolerable_journey_minutes=295
+
+Image[E]=./images/renault-21-phase2-white_E.0.0,-33,14
+Image[SE]=./images/renault-21-phase2-white_SE.0.0,-13,0
+Image[S]=./images/renault-21-phase2-white_S.0.0,0,0
+Image[SW]=./images/renault-21-phase2-white_SW.0.0,-8,10
+Image[W]=./images/renault-21-phase2-white_W.0.0,4,5
+Image[NW]=./images/renault-21-phase2-white_NW.0.0,12,10
+Image[N]=./images/renault-21-phase2-white_N.0.0,0,33
+Image[NE]=./images/renault-21-phase2-white_NE.0.0,0,24

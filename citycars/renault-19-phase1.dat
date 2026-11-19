@@ -1,0 +1,139 @@
+# Renault 19 phase 1 five-door hatchback, 1989-1992.
+#
+# The first-generation Renault 19 in its phase-1 form. On sale in Britain from
+# 1989 (the model was launched in Europe in late 1988) and replaced by the phase
+# 2 facelift in late 1992; the range ran to 1996, when the Megane replaced it.
+# https://www.renault.co.uk/ (Renault 19 model page, cited in the reference pack)
+#
+# Dimensions 4.156 x 1.694 x 1.412 m, wheelbase 2.540 m. Source: the reference
+# pack's notes, from the Renault 19 dimension box. The hull measures 4.156 m
+# on a 2.540 m wheelbase (61.1 per cent) and 1.694 m wide; mirrors extend
+# beyond.
+#
+# Shape reference: the pack has no true side elevation. The flank was built
+# from a front-left three-quarter of a red car, a front-right three-quarter of
+# a grey 1989 GTS and a rear-left view of the red car, with the wheel centres
+# fixed by the published ratio; the model was compared at each photograph's
+# actual angle and a true elevation was rendered for coherence.
+#
+# The phase-1 front is the smooth body-coloured badge panel with the Renault
+# diamond, a separate narrow grille slot just above the bumper and the
+# horizontal slats in the lower bumper intake — not the phase-2 nose, which
+# merges the grille into the lamp line. The build brief originally described a
+# full-width slatted grille; the builder checked the photographs and was right,
+# and the photographed form is what is modelled.
+#
+# Colours: no British-market colour names were established for the 19. No
+# Renault UK brochure, price list or press release with a colour chart was
+# found, so the objects carry plain colour names rather than invented ones:
+# white, red, blue and grey. Weights white 3, red 3, blue 2, grey 2, total 10,
+# provisional pending the central rebase.
+#
+# Speed 175 km/h, the 1.4-litre car's quoted maximum. Comfort 70/285, on the
+# line 180 + 1.5 x 70: a roomy, quiet family hatchback for 1989. Classes 1,2.
+#
+# Dates are road presence: 1989 intro, retires staggered 2001-2004 on a twelve-
+# to fifteen-year tail.
+#
+# Metres master: citycars/4.5/renault-19-phase1.blend. Interchange:
+# citycars/4.5/renault-19-phase1.dae (91 objects). References:
+# citycars/references/renault-19-phase1/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the nose is flatter and more slab-like than the
+# photographs and the front corners and arches are faceted; the rear is squarer
+# than the real car's rounded hatch, and the painted centre panel between the
+# tail lamps is retained as photographed. The top view confirms a continuous
+# painted roof. At 128 px the flat bonnet, the separate grille slot and the
+# sloping hatch read as the phase-1 19.
+
+obj=citycar
+name=Renault19Phase1(White)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1989
+intro_month=1
+retire_year=2004
+retire_month=6
+speed=175
+class=1,2
+maximum_comfortable_journey_minutes=70
+maximum_tolerable_journey_minutes=285
+
+Image[E]=./images/renault-19-phase1-white_E.0.0,-33,14
+Image[SE]=./images/renault-19-phase1-white_SE.0.0,-13,0
+Image[S]=./images/renault-19-phase1-white_S.0.0,0,0
+Image[SW]=./images/renault-19-phase1-white_SW.0.0,-8,10
+Image[W]=./images/renault-19-phase1-white_W.0.0,4,5
+Image[NW]=./images/renault-19-phase1-white_NW.0.0,12,10
+Image[N]=./images/renault-19-phase1-white_N.0.0,0,33
+Image[NE]=./images/renault-19-phase1-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Renault19Phase1(Red)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1989
+intro_month=1
+retire_year=2004
+retire_month=6
+speed=175
+class=1,2
+maximum_comfortable_journey_minutes=70
+maximum_tolerable_journey_minutes=285
+
+Image[E]=./images/renault-19-phase1-red_E.0.0,-33,14
+Image[SE]=./images/renault-19-phase1-red_SE.0.0,-13,0
+Image[S]=./images/renault-19-phase1-red_S.0.0,0,0
+Image[SW]=./images/renault-19-phase1-red_SW.0.0,-8,10
+Image[W]=./images/renault-19-phase1-red_W.0.0,4,5
+Image[NW]=./images/renault-19-phase1-red_NW.0.0,12,10
+Image[N]=./images/renault-19-phase1-red_N.0.0,0,33
+Image[NE]=./images/renault-19-phase1-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Renault19Phase1(Blue)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1989
+intro_month=1
+retire_year=2003
+retire_month=6
+speed=175
+class=1,2
+maximum_comfortable_journey_minutes=70
+maximum_tolerable_journey_minutes=285
+
+Image[E]=./images/renault-19-phase1-blue_E.0.0,-33,14
+Image[SE]=./images/renault-19-phase1-blue_SE.0.0,-13,0
+Image[S]=./images/renault-19-phase1-blue_S.0.0,0,0
+Image[SW]=./images/renault-19-phase1-blue_SW.0.0,-8,10
+Image[W]=./images/renault-19-phase1-blue_W.0.0,4,5
+Image[NW]=./images/renault-19-phase1-blue_NW.0.0,12,10
+Image[N]=./images/renault-19-phase1-blue_N.0.0,0,33
+Image[NE]=./images/renault-19-phase1-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Renault19Phase1(Grey)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1989
+intro_month=1
+retire_year=2002
+retire_month=6
+speed=175
+class=1,2
+maximum_comfortable_journey_minutes=70
+maximum_tolerable_journey_minutes=285
+
+Image[E]=./images/renault-19-phase1-grey_E.0.0,-33,14
+Image[SE]=./images/renault-19-phase1-grey_SE.0.0,-13,0
+Image[S]=./images/renault-19-phase1-grey_S.0.0,0,0
+Image[SW]=./images/renault-19-phase1-grey_SW.0.0,-8,10
+Image[W]=./images/renault-19-phase1-grey_W.0.0,4,5
+Image[NW]=./images/renault-19-phase1-grey_NW.0.0,12,10
+Image[N]=./images/renault-19-phase1-grey_N.0.0,0,33
+Image[NE]=./images/renault-19-phase1-grey_NE.0.0,0,24

@@ -1,0 +1,134 @@
+# Standard 9.5 hp light car, 1913-1915.
+#
+# The Standard 9.5 hp, sold from 1913 to 1915 (with a few in 1918) at a launch
+# price of £185. The surviving 1913 Model S "Rhyl" two-seater, registration
+# BM 2877, is the car modelled, with its panelled radiator; the exposed radiator
+# came with the July 1914 change.
+#
+# Length 3.20 m, wheelbase 2.286 m, track 1.219 m, ground clearance 0.241 m.
+# Source: oldclassiccar, as recorded in the reference pack. **Width 1.405 m and
+# height 1.754 m are estimates from the photographs**: the width from the track
+# plus the wing overhangs in the front photograph, the height from the wheel
+# diameter and the upright screen's proportions. They are recorded as estimates
+# and must not be quoted as specifications.
+#
+# Shape reference: the surviving car's front-left and rear-left three-quarter
+# photographs. **No side view or side drawing exists on Commons**, so the flank
+# profile and the longitudinal proportions could not be checked against a
+# side reference; a true elevation was rendered for coherence only. The model
+# carries the panelled radiator, flat wings, open two seats and the folding
+# screen.
+#
+# Colours: these cars were finished to the buyer's order and no British colour
+# list exists. The objects carry plain period-appropriate names: green, black,
+# maroon and blue. Weights green 3, black 3, maroon 2, blue 2, total 10,
+# provisional pending the central rebase. Brass, tyres, seats and the screen
+# wood keep their own materials.
+#
+# Speed 80 km/h, an estimate for a 1913 9.5 hp light car; no published maximum
+# was found and the figure is recorded as an estimate. Comfort 35/235, on the
+# line 180 + 1.5 x 35. Classes 1,2.
+#
+# Dates are road presence: 1913 intro, retires staggered 1929-1932 on a
+# sixteen- to nineteen-year tail.
+#
+# Metres master: citycars/4.5/standard-9-5.blend. Interchange:
+# citycars/4.5/standard-9-5.dae (135 objects). References:
+# citycars/references/standard-9-5/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the flank profile could not be checked against any side
+# reference, and the camera angles of the two comparisons are estimated. At
+# 128 px the tall narrow bonnet, the panelled radiator, the open seats and the
+# flat wings read as a Standard light car of 1913.
+
+obj=citycar
+name=Standard95(Green)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1913
+intro_month=1
+retire_year=1932
+retire_month=6
+speed=80
+class=1,2
+maximum_comfortable_journey_minutes=35
+maximum_tolerable_journey_minutes=235
+
+Image[E]=./images/standard-9-5-green_E.0.0,-33,14
+Image[SE]=./images/standard-9-5-green_SE.0.0,-13,0
+Image[S]=./images/standard-9-5-green_S.0.0,0,0
+Image[SW]=./images/standard-9-5-green_SW.0.0,-8,10
+Image[W]=./images/standard-9-5-green_W.0.0,4,5
+Image[NW]=./images/standard-9-5-green_NW.0.0,12,10
+Image[N]=./images/standard-9-5-green_N.0.0,0,33
+Image[NE]=./images/standard-9-5-green_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Standard95(Black)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1913
+intro_month=1
+retire_year=1932
+retire_month=6
+speed=80
+class=1,2
+maximum_comfortable_journey_minutes=35
+maximum_tolerable_journey_minutes=235
+
+Image[E]=./images/standard-9-5-black_E.0.0,-33,14
+Image[SE]=./images/standard-9-5-black_SE.0.0,-13,0
+Image[S]=./images/standard-9-5-black_S.0.0,0,0
+Image[SW]=./images/standard-9-5-black_SW.0.0,-8,10
+Image[W]=./images/standard-9-5-black_W.0.0,4,5
+Image[NW]=./images/standard-9-5-black_NW.0.0,12,10
+Image[N]=./images/standard-9-5-black_N.0.0,0,33
+Image[NE]=./images/standard-9-5-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Standard95(Maroon)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1913
+intro_month=1
+retire_year=1931
+retire_month=6
+speed=80
+class=1,2
+maximum_comfortable_journey_minutes=35
+maximum_tolerable_journey_minutes=235
+
+Image[E]=./images/standard-9-5-maroon_E.0.0,-33,14
+Image[SE]=./images/standard-9-5-maroon_SE.0.0,-13,0
+Image[S]=./images/standard-9-5-maroon_S.0.0,0,0
+Image[SW]=./images/standard-9-5-maroon_SW.0.0,-8,10
+Image[W]=./images/standard-9-5-maroon_W.0.0,4,5
+Image[NW]=./images/standard-9-5-maroon_NW.0.0,12,10
+Image[N]=./images/standard-9-5-maroon_N.0.0,0,33
+Image[NE]=./images/standard-9-5-maroon_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Standard95(Blue)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1913
+intro_month=1
+retire_year=1929
+retire_month=6
+speed=80
+class=1,2
+maximum_comfortable_journey_minutes=35
+maximum_tolerable_journey_minutes=235
+
+Image[E]=./images/standard-9-5-blue_E.0.0,-33,14
+Image[SE]=./images/standard-9-5-blue_SE.0.0,-13,0
+Image[S]=./images/standard-9-5-blue_S.0.0,0,0
+Image[SW]=./images/standard-9-5-blue_SW.0.0,-8,10
+Image[W]=./images/standard-9-5-blue_W.0.0,4,5
+Image[NW]=./images/standard-9-5-blue_NW.0.0,12,10
+Image[N]=./images/standard-9-5-blue_N.0.0,0,33
+Image[NE]=./images/standard-9-5-blue_NE.0.0,0,24

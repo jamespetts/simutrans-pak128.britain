@@ -1,0 +1,133 @@
+# Renault Megane II five-door hatchback, 2002-2008.
+#
+# The second-generation Megane in its phase-1 form (2002-2006), on sale in
+# Britain from the end of 2002 and replaced in 2008 by the Megane III. The
+# five-door hatchback was the volume body; the three-door was marketed in
+# Britain as the "Sport Hatch".
+# https://www.renault.co.uk/ (Megane model page, cited in the reference pack)
+#
+# Dimensions 4.209 x 1.777 x 1.457 m, wheelbase 2.625 m. Source: the reference
+# pack's notes. The hull measures 4.209 m on a 2.625 m wheelbase (62.4 per
+# cent) and 1.777 m wide; mirrors take it to 1.927 m.
+#
+# Shape reference: no true side elevation exists. The model was built from a
+# beige five-door seen about 30-35 degrees forward of side-on, a grey-green
+# five-door from the front right and the same car from the rear left, with the
+# wheel centres fixed by the published ratio. The signature is the long almost
+# flat roof over a near-vertical tailgate.
+#
+# The first build sank all eight glazing panels inside the cabin and buried
+# parts of the lamps; a bounded fix moved each pane to a measured 14-16 mm
+# proud of the local body surface and re-seated the lamps, with no glazing
+# intersecting the hull or cabin.
+#
+# Colours: no British-market names were established for the Megane II (no UK
+# brochure was found), so the objects carry plain names: white, silver, black
+# and red. Weights white 3, silver 3, red 2, black 2, total 10, provisional
+# pending the central rebase.
+#
+# Speed 185 km/h, the 1.6-litre car's quoted maximum. Comfort 90/315, on the
+# line 180 + 1.5 x 90: roomy and quiet for its class. Classes 1,2.
+#
+# Dates are road presence: late 2002 intro, retires staggered 2018-2021 on a
+# sixteen- to nineteen-year tail.
+#
+# Metres master: citycars/4.5/renault-megane-ii.blend. Interchange:
+# citycars/4.5/renault-megane-ii.dae (81 objects). References:
+# citycars/references/renault-megane-ii/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the nose is faceted rather than the real car's rounded
+# "flame" form, and the body is more slab-sided than the photographs. At 128 px
+# the long flat roof and the near-vertical tailgate read as the Megane II.
+
+obj=citycar
+name=RenaultMeganeII(White)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=2002
+intro_month=12
+retire_year=2021
+retire_month=6
+speed=185
+class=1,2
+maximum_comfortable_journey_minutes=90
+maximum_tolerable_journey_minutes=315
+
+Image[E]=./images/renault-megane-ii-white_E.0.0,-33,14
+Image[SE]=./images/renault-megane-ii-white_SE.0.0,-13,0
+Image[S]=./images/renault-megane-ii-white_S.0.0,0,0
+Image[SW]=./images/renault-megane-ii-white_SW.0.0,-8,10
+Image[W]=./images/renault-megane-ii-white_W.0.0,4,5
+Image[NW]=./images/renault-megane-ii-white_NW.0.0,12,10
+Image[N]=./images/renault-megane-ii-white_N.0.0,0,33
+Image[NE]=./images/renault-megane-ii-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RenaultMeganeII(Silver)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=2002
+intro_month=12
+retire_year=2021
+retire_month=6
+speed=185
+class=1,2
+maximum_comfortable_journey_minutes=90
+maximum_tolerable_journey_minutes=315
+
+Image[E]=./images/renault-megane-ii-silver_E.0.0,-33,14
+Image[SE]=./images/renault-megane-ii-silver_SE.0.0,-13,0
+Image[S]=./images/renault-megane-ii-silver_S.0.0,0,0
+Image[SW]=./images/renault-megane-ii-silver_SW.0.0,-8,10
+Image[W]=./images/renault-megane-ii-silver_W.0.0,4,5
+Image[NW]=./images/renault-megane-ii-silver_NW.0.0,12,10
+Image[N]=./images/renault-megane-ii-silver_N.0.0,0,33
+Image[NE]=./images/renault-megane-ii-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RenaultMeganeII(Black)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=2002
+intro_month=12
+retire_year=2020
+retire_month=6
+speed=185
+class=1,2
+maximum_comfortable_journey_minutes=90
+maximum_tolerable_journey_minutes=315
+
+Image[E]=./images/renault-megane-ii-black_E.0.0,-33,14
+Image[SE]=./images/renault-megane-ii-black_SE.0.0,-13,0
+Image[S]=./images/renault-megane-ii-black_S.0.0,0,0
+Image[SW]=./images/renault-megane-ii-black_SW.0.0,-8,10
+Image[W]=./images/renault-megane-ii-black_W.0.0,4,5
+Image[NW]=./images/renault-megane-ii-black_NW.0.0,12,10
+Image[N]=./images/renault-megane-ii-black_N.0.0,0,33
+Image[NE]=./images/renault-megane-ii-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RenaultMeganeII(Red)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=2002
+intro_month=12
+retire_year=2019
+retire_month=6
+speed=185
+class=1,2
+maximum_comfortable_journey_minutes=90
+maximum_tolerable_journey_minutes=315
+
+Image[E]=./images/renault-megane-ii-red_E.0.0,-33,14
+Image[SE]=./images/renault-megane-ii-red_SE.0.0,-13,0
+Image[S]=./images/renault-megane-ii-red_S.0.0,0,0
+Image[SW]=./images/renault-megane-ii-red_SW.0.0,-8,10
+Image[W]=./images/renault-megane-ii-red_W.0.0,4,5
+Image[NW]=./images/renault-megane-ii-red_NW.0.0,12,10
+Image[N]=./images/renault-megane-ii-red_N.0.0,0,33
+Image[NE]=./images/renault-megane-ii-red_NE.0.0,0,24

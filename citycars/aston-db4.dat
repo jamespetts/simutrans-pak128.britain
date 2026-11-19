@@ -1,0 +1,129 @@
+# Aston Martin DB4 Series I fixed-head coupe, 1958-1963.
+#
+# The DB4, the Touring Superleggera-bodied GT that replaced the DB Mk III, on
+# sale from 1958 to 1963. The Series I fixed-head coupe is modelled.
+# https://en.wikipedia.org/wiki/Aston_Martin_DB4 (The Motor road test, 1960,
+# cited in the reference pack)
+#
+# Dimensions 4.4958 x 1.6764 x 1.3335 m, wheelbase 2.4892 m, converted from the
+# pack's 177 x 66 x 52.5 in and 98 in figures. The model is 4.4845 m long
+# (11.3 mm short of the published figure) on the 2.4892 m wheelbase (55.4 per
+# cent), 1.6764 m wide and 1.3335 m high.
+#
+# Shape reference: images 1 and 3 are the same red Series I car and image 2 is a
+# different 1959 Series I of the same body, as the pack states. The model has
+# the **exposed headlamps** of the DB4, not the DB5's fairings, the wide Aston
+# grille, the rounded fastback tail with the early small lamps, chrome wire
+# wheels and a small bumper at each end.
+#
+# Colours: no British-market colour list was found (grade d); cars of this era
+# were finished to order, so the objects carry plain names: British Racing
+# Green, silver, black and red. Weights green 3, silver 3, black 2, red 2,
+# total 10, provisional pending the central rebase.
+#
+# Speed 225 km/h, the car's quoted maximum. Comfort 58/267, on the line
+# 180 + 1.5 x 58: a light, low GT of 1958. Classes 3,4.
+#
+# Dates are road presence: 1958 intro, retires staggered 1973-1976 on a
+# fifteen- to eighteen-year tail.
+#
+# Metres master: citycars/4.5/aston-db4.blend. Interchange:
+# citycars/4.5/aston-db4.dae (251 objects). References:
+# citycars/references/aston-db4/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the comparisons use approximate camera angles and the
+# side elevation was rendered for coherence rather than matched to a true side
+# photograph. Glazing stands about 15 mm clear of its supporting surfaces. At
+# 128 px the rounded Touring body with its exposed headlamps reads as a DB4.
+
+obj=citycar
+name=AstonDB4(BritishRacingGreen)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1958
+intro_month=1
+retire_year=1976
+retire_month=6
+speed=225
+class=3,4
+maximum_comfortable_journey_minutes=58
+maximum_tolerable_journey_minutes=267
+
+Image[E]=./images/aston-db4-britishracinggreen_E.0.0,-33,14
+Image[SE]=./images/aston-db4-britishracinggreen_SE.0.0,-13,0
+Image[S]=./images/aston-db4-britishracinggreen_S.0.0,0,0
+Image[SW]=./images/aston-db4-britishracinggreen_SW.0.0,-8,10
+Image[W]=./images/aston-db4-britishracinggreen_W.0.0,4,5
+Image[NW]=./images/aston-db4-britishracinggreen_NW.0.0,12,10
+Image[N]=./images/aston-db4-britishracinggreen_N.0.0,0,33
+Image[NE]=./images/aston-db4-britishracinggreen_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=AstonDB4(Silver)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1958
+intro_month=1
+retire_year=1976
+retire_month=6
+speed=225
+class=3,4
+maximum_comfortable_journey_minutes=58
+maximum_tolerable_journey_minutes=267
+
+Image[E]=./images/aston-db4-silver_E.0.0,-33,14
+Image[SE]=./images/aston-db4-silver_SE.0.0,-13,0
+Image[S]=./images/aston-db4-silver_S.0.0,0,0
+Image[SW]=./images/aston-db4-silver_SW.0.0,-8,10
+Image[W]=./images/aston-db4-silver_W.0.0,4,5
+Image[NW]=./images/aston-db4-silver_NW.0.0,12,10
+Image[N]=./images/aston-db4-silver_N.0.0,0,33
+Image[NE]=./images/aston-db4-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=AstonDB4(Black)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1958
+intro_month=1
+retire_year=1975
+retire_month=6
+speed=225
+class=3,4
+maximum_comfortable_journey_minutes=58
+maximum_tolerable_journey_minutes=267
+
+Image[E]=./images/aston-db4-black_E.0.0,-33,14
+Image[SE]=./images/aston-db4-black_SE.0.0,-13,0
+Image[S]=./images/aston-db4-black_S.0.0,0,0
+Image[SW]=./images/aston-db4-black_SW.0.0,-8,10
+Image[W]=./images/aston-db4-black_W.0.0,4,5
+Image[NW]=./images/aston-db4-black_NW.0.0,12,10
+Image[N]=./images/aston-db4-black_N.0.0,0,33
+Image[NE]=./images/aston-db4-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=AstonDB4(Red)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1958
+intro_month=1
+retire_year=1973
+retire_month=6
+speed=225
+class=3,4
+maximum_comfortable_journey_minutes=58
+maximum_tolerable_journey_minutes=267
+
+Image[E]=./images/aston-db4-red_E.0.0,-33,14
+Image[SE]=./images/aston-db4-red_SE.0.0,-13,0
+Image[S]=./images/aston-db4-red_S.0.0,0,0
+Image[SW]=./images/aston-db4-red_SW.0.0,-8,10
+Image[W]=./images/aston-db4-red_W.0.0,4,5
+Image[NW]=./images/aston-db4-red_NW.0.0,12,10
+Image[N]=./images/aston-db4-red_N.0.0,0,33
+Image[NE]=./images/aston-db4-red_NE.0.0,0,24

@@ -1,0 +1,133 @@
+# Renault 19 phase 2 five-door hatchback, 1992-1996.
+#
+# The phase-2 facelift of the Renault 19, announced in 1992 and built to 1996,
+# when the Megane replaced the range. It is the same shell as the phase-1 car
+# with a new front and rear treatment, and was built as a variant of the phase-1
+# master rather than as a new model.
+#
+# Dimensions 4.156 x 1.694 x 1.412 m, wheelbase 2.540 m, unchanged from the
+# phase-1 car. Source: the reference pack's notes, from the Renault 19
+# dimension box.
+#
+# What differs from phase 1: a rounded front with larger headlamps, a wide
+# grille set between them carrying the diamond, a smoother bonnet leading edge,
+# a body-coloured bumper with a dark lower insert and round fog lamps, and at
+# the rear smoked hatch trim with inward-extending red lamp bands and the plate
+# moved to the bumper. The cabin, doors, roof, wheels and remaining flank are
+# the phase-1 master's.
+#
+# Shape reference: a green phase-2 five-door front-left, a blue UK phase-2
+# five-door front-right and the green car from the rear left. No true side
+# elevation exists, so the model was compared at each photograph's angle and a
+# true elevation was rendered for coherence.
+#
+# Colours: no British-market colour names were established, so the objects
+# carry plain names: white, red, blue and grey. Weights white 3, red 3, blue 2,
+# grey 2, total 10, provisional pending the central rebase.
+#
+# Speed 175 km/h and comfort 70/285, as the phase-1 car: the facelift changed
+# trim and lamps, not the running gear. Classes 1,2.
+#
+# Dates are road presence: late 1992 intro, retires staggered 2005-2008 on a
+# thirteen- to sixteen-year tail.
+#
+# Metres master: citycars/4.5/renault-19-phase2.blend. Interchange:
+# citycars/4.5/renault-19-phase2.dae (84 objects). References:
+# citycars/references/renault-19-phase2/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the carried-over shell remains more angular than the
+# photographs, the fog lamps and grille openings are simplified, and the
+# comparison angles are approximate. At 128 px the rounded phase-2 nose with
+# its grille between the lamps distinguishes it from the phase-1 car.
+
+obj=citycar
+name=Renault19Phase2(White)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1992
+intro_month=10
+retire_year=2008
+retire_month=6
+speed=175
+class=1,2
+maximum_comfortable_journey_minutes=70
+maximum_tolerable_journey_minutes=285
+
+Image[E]=./images/renault-19-phase2-white_E.0.0,-33,14
+Image[SE]=./images/renault-19-phase2-white_SE.0.0,-13,0
+Image[S]=./images/renault-19-phase2-white_S.0.0,0,0
+Image[SW]=./images/renault-19-phase2-white_SW.0.0,-8,10
+Image[W]=./images/renault-19-phase2-white_W.0.0,4,5
+Image[NW]=./images/renault-19-phase2-white_NW.0.0,12,10
+Image[N]=./images/renault-19-phase2-white_N.0.0,0,33
+Image[NE]=./images/renault-19-phase2-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Renault19Phase2(Red)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1992
+intro_month=10
+retire_year=2008
+retire_month=6
+speed=175
+class=1,2
+maximum_comfortable_journey_minutes=70
+maximum_tolerable_journey_minutes=285
+
+Image[E]=./images/renault-19-phase2-red_E.0.0,-33,14
+Image[SE]=./images/renault-19-phase2-red_SE.0.0,-13,0
+Image[S]=./images/renault-19-phase2-red_S.0.0,0,0
+Image[SW]=./images/renault-19-phase2-red_SW.0.0,-8,10
+Image[W]=./images/renault-19-phase2-red_W.0.0,4,5
+Image[NW]=./images/renault-19-phase2-red_NW.0.0,12,10
+Image[N]=./images/renault-19-phase2-red_N.0.0,0,33
+Image[NE]=./images/renault-19-phase2-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Renault19Phase2(Blue)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1992
+intro_month=10
+retire_year=2007
+retire_month=6
+speed=175
+class=1,2
+maximum_comfortable_journey_minutes=70
+maximum_tolerable_journey_minutes=285
+
+Image[E]=./images/renault-19-phase2-blue_E.0.0,-33,14
+Image[SE]=./images/renault-19-phase2-blue_SE.0.0,-13,0
+Image[S]=./images/renault-19-phase2-blue_S.0.0,0,0
+Image[SW]=./images/renault-19-phase2-blue_SW.0.0,-8,10
+Image[W]=./images/renault-19-phase2-blue_W.0.0,4,5
+Image[NW]=./images/renault-19-phase2-blue_NW.0.0,12,10
+Image[N]=./images/renault-19-phase2-blue_N.0.0,0,33
+Image[NE]=./images/renault-19-phase2-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Renault19Phase2(Grey)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1992
+intro_month=10
+retire_year=2006
+retire_month=6
+speed=175
+class=1,2
+maximum_comfortable_journey_minutes=70
+maximum_tolerable_journey_minutes=285
+
+Image[E]=./images/renault-19-phase2-grey_E.0.0,-33,14
+Image[SE]=./images/renault-19-phase2-grey_SE.0.0,-13,0
+Image[S]=./images/renault-19-phase2-grey_S.0.0,0,0
+Image[SW]=./images/renault-19-phase2-grey_SW.0.0,-8,10
+Image[W]=./images/renault-19-phase2-grey_W.0.0,4,5
+Image[NW]=./images/renault-19-phase2-grey_NW.0.0,12,10
+Image[N]=./images/renault-19-phase2-grey_N.0.0,0,33
+Image[NE]=./images/renault-19-phase2-grey_NE.0.0,0,24

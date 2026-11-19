@@ -1,0 +1,136 @@
+# Citroen DS, 1962-1975.
+#
+# The second DS object, covering the Series 2 restyle of September 1962 and the
+# Series 3 of late 1967 to the end of production in 1975. It is the same shell
+# as the 1955-62 Series 1 car with a revised nose and rear, and was built as a
+# variant of that master.
+#
+# Dimensions 4.826 x 1.791 x 1.464 m, wheelbase 3.124 m, as the Series 1 car.
+# Source: the reference pack's notes (Wikipedia infobox). The modelled hull is
+# 4.826 m long on the 3.124 m wheelbase and 1.788 m wide, about 3 mm narrower
+# than the published figure after the variant's trim changes.
+#
+# **Which nose is modelled.** The Series 2 of 1962-67 kept the exposed round
+# headlamps of the Series 1 car. The faired-in four-lamp glass canopy came with
+# the Series 3 restyle of late 1967 for the 1968 model year, and that is the
+# nose modelled here, because the reference pack's car is a 1973 DS 20. The
+# Series 2's 1962-67 nose is therefore **not separately represented**; the
+# object carries the 1962 intro date and the 1968 nose, the same convention used
+# for the Corolla E120 and the Megane I.
+#
+# Shape reference: a true square-on side elevation, a front three-quarter and a
+# rear three-quarter, all of the same UK 1973 DS 20. The teardrop body, roof,
+# covered rear wheels and glazing are the Series 1 master's; the nose, bumper,
+# lamps and rear details are changed to the photographs.
+#
+# Colours: no British-market colour list was found, so the objects carry plain
+# names: black, white, red and blue. Weights black 3, white 3, red 2, blue 2,
+# total 10, provisional pending the central rebase.
+#
+# Speed 165 km/h, the DS 21's quoted maximum. Comfort 85/310, on the line
+# 180 + 1.5 x 85: the hydropneumatic suspension and the later seats made it one
+# of the most comfortable cars of its generation. Classes 2,3.
+#
+# Dates are road presence: September 1962 intro, retires staggered 1980-1983 on
+# an eighteen- to twenty-one-year tail.
+#
+# Metres master: citycars/4.5/citroen-ds-1962.blend. Interchange:
+# citycars/4.5/citroen-ds-1962.dae (61 objects). References:
+# citycars/references/citroen-ds-1962/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the inherited rear roof and glazing profile is more
+# angular than the photograph, and the front canopy reads as separate lenses on
+# a dark panel rather than a continuous glass cover. At 128 px the teardrop
+# body, the covered rear wheels and the wide faired nose read as a later DS.
+
+obj=citycar
+name=CitroenDS1962(Black)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1962
+intro_month=9
+retire_year=1983
+retire_month=6
+speed=165
+class=2,3
+maximum_comfortable_journey_minutes=85
+maximum_tolerable_journey_minutes=310
+
+Image[E]=./images/citroen-ds-1962-black_E.0.0,-33,14
+Image[SE]=./images/citroen-ds-1962-black_SE.0.0,-13,0
+Image[S]=./images/citroen-ds-1962-black_S.0.0,0,0
+Image[SW]=./images/citroen-ds-1962-black_SW.0.0,-8,10
+Image[W]=./images/citroen-ds-1962-black_W.0.0,4,5
+Image[NW]=./images/citroen-ds-1962-black_NW.0.0,12,10
+Image[N]=./images/citroen-ds-1962-black_N.0.0,0,33
+Image[NE]=./images/citroen-ds-1962-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=CitroenDS1962(White)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1962
+intro_month=9
+retire_year=1983
+retire_month=6
+speed=165
+class=2,3
+maximum_comfortable_journey_minutes=85
+maximum_tolerable_journey_minutes=310
+
+Image[E]=./images/citroen-ds-1962-white_E.0.0,-33,14
+Image[SE]=./images/citroen-ds-1962-white_SE.0.0,-13,0
+Image[S]=./images/citroen-ds-1962-white_S.0.0,0,0
+Image[SW]=./images/citroen-ds-1962-white_SW.0.0,-8,10
+Image[W]=./images/citroen-ds-1962-white_W.0.0,4,5
+Image[NW]=./images/citroen-ds-1962-white_NW.0.0,12,10
+Image[N]=./images/citroen-ds-1962-white_N.0.0,0,33
+Image[NE]=./images/citroen-ds-1962-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=CitroenDS1962(Red)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1962
+intro_month=9
+retire_year=1982
+retire_month=6
+speed=165
+class=2,3
+maximum_comfortable_journey_minutes=85
+maximum_tolerable_journey_minutes=310
+
+Image[E]=./images/citroen-ds-1962-red_E.0.0,-33,14
+Image[SE]=./images/citroen-ds-1962-red_SE.0.0,-13,0
+Image[S]=./images/citroen-ds-1962-red_S.0.0,0,0
+Image[SW]=./images/citroen-ds-1962-red_SW.0.0,-8,10
+Image[W]=./images/citroen-ds-1962-red_W.0.0,4,5
+Image[NW]=./images/citroen-ds-1962-red_NW.0.0,12,10
+Image[N]=./images/citroen-ds-1962-red_N.0.0,0,33
+Image[NE]=./images/citroen-ds-1962-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=CitroenDS1962(Blue)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1962
+intro_month=9
+retire_year=1980
+retire_month=6
+speed=165
+class=2,3
+maximum_comfortable_journey_minutes=85
+maximum_tolerable_journey_minutes=310
+
+Image[E]=./images/citroen-ds-1962-blue_E.0.0,-33,14
+Image[SE]=./images/citroen-ds-1962-blue_SE.0.0,-13,0
+Image[S]=./images/citroen-ds-1962-blue_S.0.0,0,0
+Image[SW]=./images/citroen-ds-1962-blue_SW.0.0,-8,10
+Image[W]=./images/citroen-ds-1962-blue_W.0.0,4,5
+Image[NW]=./images/citroen-ds-1962-blue_NW.0.0,12,10
+Image[N]=./images/citroen-ds-1962-blue_N.0.0,0,33
+Image[NE]=./images/citroen-ds-1962-blue_NE.0.0,0,24

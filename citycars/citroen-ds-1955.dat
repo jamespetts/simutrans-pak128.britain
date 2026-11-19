@@ -1,0 +1,138 @@
+# Citroen DS 19, Series 1, 1955-1962.
+#
+# The original DS, presented on 6 October 1955 and on sale in Britain from
+# October 1955. The Series 1 ran to September 1962, when the range took the
+# Series 2 restyle.
+# https://en.wikipedia.org/wiki/Citro%C3%ABn_DS (Series 2 and Series 3 sections,
+# cited in the reference pack)
+#
+# Dimensions 4.826 x 1.791 x 1.464 m, wheelbase 3.124 m. Source: the reference
+# pack's notes. The Autocar of October 1955 gives 4.801 x 1.791 x 1.473 m on a
+# 3.124 m wheelbase; the 25 mm length difference is recorded in the pack, not
+# resolved. The modelled hull is 4.826 m long on the published 3.124 m
+# wheelbase, 1.791 m wide, 1.464 m high.
+#
+# Shape reference: a black car from the near side (about 8 degrees off a right
+# angle, slightly blurred), a green car's front three-quarter and a cream and
+# black car's rear. The defining features modelled are the teardrop body, the
+# covered rear wheels with the narrower rear track, the thin-pillared cathedral
+# roof with its wrap-around rear screen, and the smooth nose.
+#
+# **The Series 1 nose has open, exposed round headlamps in chrome bezels** with
+# a small auxiliary lamp below each; the faired-in four-lamp glass canopy is the
+# Series 3 restyle of late 1967, not 1962. The research pack established this on
+# dated cars and from the maker's history, and the model follows it.
+#
+# Colours: no British-market colour list was found, so the objects carry plain
+# names: black, white, red and blue. Weights black 3, white 3, red 2, blue 2,
+# total 10, provisional pending the central rebase. Chrome is a separate
+# material and is not affected by recolouring.
+#
+# Speed 140 km/h, the DS 19's quoted maximum, low for 1955 but matched to its
+# long-stroke engine. Comfort 80/300, on the line 180 + 1.5 x 80: the
+# hydropneumatic suspension and the seats made it one of the most comfortable
+# cars of its era. Classes 2,3.
+#
+# Dates are road presence: October 1955 intro, retires staggered 1975-1978 on a
+# nineteen- to twenty-two-year tail.
+#
+# Metres master: citycars/4.5/citroen-ds-1955.blend. Interchange:
+# citycars/4.5/citroen-ds-1955.dae (57 objects). References:
+# citycars/references/citroen-ds-1955/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the front bumper is slimmer and the rear-screen surround
+# simpler than the photographs. Every glazing pane stands 15 mm clear of the
+# local body surface. At 128 px the teardrop profile, the covered rear wheels
+# and the exposed round lamps read as a Series 1 DS.
+
+obj=citycar
+name=CitroenDS1955(Black)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1955
+intro_month=10
+retire_year=1978
+retire_month=6
+speed=140
+class=2,3
+maximum_comfortable_journey_minutes=80
+maximum_tolerable_journey_minutes=300
+
+Image[E]=./images/citroen-ds-1955-black_E.0.0,-33,14
+Image[SE]=./images/citroen-ds-1955-black_SE.0.0,-13,0
+Image[S]=./images/citroen-ds-1955-black_S.0.0,0,0
+Image[SW]=./images/citroen-ds-1955-black_SW.0.0,-8,10
+Image[W]=./images/citroen-ds-1955-black_W.0.0,4,5
+Image[NW]=./images/citroen-ds-1955-black_NW.0.0,12,10
+Image[N]=./images/citroen-ds-1955-black_N.0.0,0,33
+Image[NE]=./images/citroen-ds-1955-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=CitroenDS1955(White)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1955
+intro_month=10
+retire_year=1978
+retire_month=6
+speed=140
+class=2,3
+maximum_comfortable_journey_minutes=80
+maximum_tolerable_journey_minutes=300
+
+Image[E]=./images/citroen-ds-1955-white_E.0.0,-33,14
+Image[SE]=./images/citroen-ds-1955-white_SE.0.0,-13,0
+Image[S]=./images/citroen-ds-1955-white_S.0.0,0,0
+Image[SW]=./images/citroen-ds-1955-white_SW.0.0,-8,10
+Image[W]=./images/citroen-ds-1955-white_W.0.0,4,5
+Image[NW]=./images/citroen-ds-1955-white_NW.0.0,12,10
+Image[N]=./images/citroen-ds-1955-white_N.0.0,0,33
+Image[NE]=./images/citroen-ds-1955-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=CitroenDS1955(Red)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1955
+intro_month=10
+retire_year=1977
+retire_month=6
+speed=140
+class=2,3
+maximum_comfortable_journey_minutes=80
+maximum_tolerable_journey_minutes=300
+
+Image[E]=./images/citroen-ds-1955-red_E.0.0,-33,14
+Image[SE]=./images/citroen-ds-1955-red_SE.0.0,-13,0
+Image[S]=./images/citroen-ds-1955-red_S.0.0,0,0
+Image[SW]=./images/citroen-ds-1955-red_SW.0.0,-8,10
+Image[W]=./images/citroen-ds-1955-red_W.0.0,4,5
+Image[NW]=./images/citroen-ds-1955-red_NW.0.0,12,10
+Image[N]=./images/citroen-ds-1955-red_N.0.0,0,33
+Image[NE]=./images/citroen-ds-1955-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=CitroenDS1955(Blue)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1955
+intro_month=10
+retire_year=1975
+retire_month=6
+speed=140
+class=2,3
+maximum_comfortable_journey_minutes=80
+maximum_tolerable_journey_minutes=300
+
+Image[E]=./images/citroen-ds-1955-blue_E.0.0,-33,14
+Image[SE]=./images/citroen-ds-1955-blue_SE.0.0,-13,0
+Image[S]=./images/citroen-ds-1955-blue_S.0.0,0,0
+Image[SW]=./images/citroen-ds-1955-blue_SW.0.0,-8,10
+Image[W]=./images/citroen-ds-1955-blue_W.0.0,4,5
+Image[NW]=./images/citroen-ds-1955-blue_NW.0.0,12,10
+Image[N]=./images/citroen-ds-1955-blue_N.0.0,0,33
+Image[NE]=./images/citroen-ds-1955-blue_NE.0.0,0,24

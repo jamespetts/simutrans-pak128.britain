@@ -1,0 +1,136 @@
+# Aston Martin DB5 fixed-head coupe, 1963-1965.
+#
+# The DB5, the DB4's Touring Superleggera body with the 4-litre engine, on sale
+# from 1963 to 1965. The fixed-head coupe is modelled, not the convertible.
+# https://en.wikipedia.org/wiki/Aston_Martin_DB5 (cited in the reference pack)
+#
+# Dimensions 4.570 x 1.680 x 1.340 m, wheelbase 2.489 m. Length, width and
+# wheelbase are from the English Wikipedia DB5 article as recorded in the pack.
+# **The 1.340 m height is provisional and unverified**: the commonly quoted
+# figure appears in the pack but the Wikipedia infobox does not give it, so it
+# is recorded here as a modelling figure only. The hull measures 4.570 m on the
+# 2.489 m wheelbase (54.5 per cent) and 1.680 m wide.
+#
+# Shape reference: three photographs of the 1963 RM Sotheby's car. The side view
+# is about 20-25 degrees forward of perpendicular with a foreshortened nose, so
+# it was used qualitatively and the wheel centres fixed by the published
+# wheelbase; the front three-quarter gave the grille, the covered headlamps
+# under clear fairings and the bonnet scoop; the rear three-quarter gave the
+# recessed plate and the **three vertically stacked round lamps per corner**,
+# which are what the photograph shows and what is modelled (my brief's "wide,
+# shallow tail lamps" was wrong for this car).
+#
+# Colours: no British-market colour list was found (grade d); cars of this era
+# were finished to order, so the objects carry plain names: Silver Birch,
+# British Racing Green, black and red. Weights silver 3, green 3, black 2,
+# red 2, total 10, provisional pending the central rebase. Chrome and the wire
+# wheels keep their own materials.
+#
+# Speed 233 km/h, the car's quoted maximum and one of the highest of its day.
+# Comfort 60/270, on the line 180 + 1.5 x 60: a fast, low GT with a firm ride.
+# Classes 3,4.
+#
+# Dates are road presence: 1963 intro, retires staggered 1978-1981 on a
+# fifteen- to eighteen-year tail.
+#
+# Metres master: citycars/4.5/aston-db5.blend. Interchange:
+# citycars/4.5/aston-db5.dae (73 objects). References:
+# citycars/references/aston-db5/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the nose is squarer, the wheel openings more angular and
+# the rear window less rounded than the photographed car. The glazing stands
+# about 14.5-14.9 mm clear of its supporting surfaces. At 128 px the long
+# bonnet, the wide grille, the covered headlamps and the fastback tail read as
+# a DB5.
+
+obj=citycar
+name=AstonDB5(SilverBirch)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1963
+intro_month=1
+retire_year=1981
+retire_month=6
+speed=233
+class=3,4
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=270
+
+Image[E]=./images/aston-db5-silverbirch_E.0.0,-33,14
+Image[SE]=./images/aston-db5-silverbirch_SE.0.0,-13,0
+Image[S]=./images/aston-db5-silverbirch_S.0.0,0,0
+Image[SW]=./images/aston-db5-silverbirch_SW.0.0,-8,10
+Image[W]=./images/aston-db5-silverbirch_W.0.0,4,5
+Image[NW]=./images/aston-db5-silverbirch_NW.0.0,12,10
+Image[N]=./images/aston-db5-silverbirch_N.0.0,0,33
+Image[NE]=./images/aston-db5-silverbirch_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=AstonDB5(BritishRacingGreen)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1963
+intro_month=1
+retire_year=1981
+retire_month=6
+speed=233
+class=3,4
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=270
+
+Image[E]=./images/aston-db5-britishracinggreen_E.0.0,-33,14
+Image[SE]=./images/aston-db5-britishracinggreen_SE.0.0,-13,0
+Image[S]=./images/aston-db5-britishracinggreen_S.0.0,0,0
+Image[SW]=./images/aston-db5-britishracinggreen_SW.0.0,-8,10
+Image[W]=./images/aston-db5-britishracinggreen_W.0.0,4,5
+Image[NW]=./images/aston-db5-britishracinggreen_NW.0.0,12,10
+Image[N]=./images/aston-db5-britishracinggreen_N.0.0,0,33
+Image[NE]=./images/aston-db5-britishracinggreen_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=AstonDB5(Black)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1963
+intro_month=1
+retire_year=1980
+retire_month=6
+speed=233
+class=3,4
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=270
+
+Image[E]=./images/aston-db5-black_E.0.0,-33,14
+Image[SE]=./images/aston-db5-black_SE.0.0,-13,0
+Image[S]=./images/aston-db5-black_S.0.0,0,0
+Image[SW]=./images/aston-db5-black_SW.0.0,-8,10
+Image[W]=./images/aston-db5-black_W.0.0,4,5
+Image[NW]=./images/aston-db5-black_NW.0.0,12,10
+Image[N]=./images/aston-db5-black_N.0.0,0,33
+Image[NE]=./images/aston-db5-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=AstonDB5(Red)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1963
+intro_month=1
+retire_year=1978
+retire_month=6
+speed=233
+class=3,4
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=270
+
+Image[E]=./images/aston-db5-red_E.0.0,-33,14
+Image[SE]=./images/aston-db5-red_SE.0.0,-13,0
+Image[S]=./images/aston-db5-red_S.0.0,0,0
+Image[SW]=./images/aston-db5-red_SW.0.0,-8,10
+Image[W]=./images/aston-db5-red_W.0.0,4,5
+Image[NW]=./images/aston-db5-red_NW.0.0,12,10
+Image[N]=./images/aston-db5-red_N.0.0,0,33
+Image[NE]=./images/aston-db5-red_NE.0.0,0,24

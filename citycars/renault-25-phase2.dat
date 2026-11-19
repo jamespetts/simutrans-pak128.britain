@@ -1,0 +1,129 @@
+# Renault 25 phase 2 five-door hatchback, 1988-1992.
+#
+# The phase-2 facelift of the Renault 25, on sale from June 1988 and built to
+# February 1992. It is the same shell as the phase-1 car with a revised front
+# and rear treatment, and was built as a variant of the phase-1 master.
+#
+# Dimensions 4.713 x 1.806 x 1.410 m, wheelbase 2.718 m, unchanged from phase 1.
+# Source: the reference pack's notes, from the Renault 25 dimension box.
+#
+# What differs from phase 1: a wider and lower grille opening, reshaped
+# headlamps, a painted front bumper with a revised bright insert, and at the
+# rear a smoked lower lamp band, a dark bumper strip over a painted valance and
+# a dark plate surround. The fastback hatch, cabin, glazing, doors, roof and
+# wheels are the phase-1 master's.
+#
+# Shape reference: a true side elevation of a phase-2 car (only 888x479 and
+# slightly soft), a front three-quarter and a rear three-quarter. The side
+# elevation was used to check the master's proportions.
+#
+# Colours: no British-market colours were established, so the objects carry
+# plain names: silver, blue, grey and red. Weights silver 3, blue 3, grey 2,
+# red 2, total 10, provisional pending the central rebase.
+#
+# Speed 190 km/h and comfort 90/315, as the phase-1 car. Classes 3,4.
+#
+# Dates are road presence: June 1988 intro, retires staggered 2002-2005 on a
+# fourteen- to seventeen-year tail.
+#
+# Metres master: citycars/4.5/renault-25-phase2.blend. Interchange:
+# citycars/4.5/renault-25-phase2.dae (93 objects). References:
+# citycars/references/renault-25-phase2/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the inherited hatch slope is shallower than the
+# photograph, and there are small gaps around the inherited glazing; both are
+# carried over from the phase-1 master and left unchanged so the two cars share
+# one shell. At 128 px the wider grille and the revised bumper distinguish the
+# phase-2 car from the phase-1.
+
+obj=citycar
+name=Renault25Phase2(Silver)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1988
+intro_month=6
+retire_year=2005
+retire_month=6
+speed=190
+class=3,4
+maximum_comfortable_journey_minutes=90
+maximum_tolerable_journey_minutes=315
+
+Image[E]=./images/renault-25-phase2-silver_E.0.0,-33,14
+Image[SE]=./images/renault-25-phase2-silver_SE.0.0,-13,0
+Image[S]=./images/renault-25-phase2-silver_S.0.0,0,0
+Image[SW]=./images/renault-25-phase2-silver_SW.0.0,-8,10
+Image[W]=./images/renault-25-phase2-silver_W.0.0,4,5
+Image[NW]=./images/renault-25-phase2-silver_NW.0.0,12,10
+Image[N]=./images/renault-25-phase2-silver_N.0.0,0,33
+Image[NE]=./images/renault-25-phase2-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Renault25Phase2(Blue)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1988
+intro_month=6
+retire_year=2005
+retire_month=6
+speed=190
+class=3,4
+maximum_comfortable_journey_minutes=90
+maximum_tolerable_journey_minutes=315
+
+Image[E]=./images/renault-25-phase2-blue_E.0.0,-33,14
+Image[SE]=./images/renault-25-phase2-blue_SE.0.0,-13,0
+Image[S]=./images/renault-25-phase2-blue_S.0.0,0,0
+Image[SW]=./images/renault-25-phase2-blue_SW.0.0,-8,10
+Image[W]=./images/renault-25-phase2-blue_W.0.0,4,5
+Image[NW]=./images/renault-25-phase2-blue_NW.0.0,12,10
+Image[N]=./images/renault-25-phase2-blue_N.0.0,0,33
+Image[NE]=./images/renault-25-phase2-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Renault25Phase2(Grey)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1988
+intro_month=6
+retire_year=2004
+retire_month=6
+speed=190
+class=3,4
+maximum_comfortable_journey_minutes=90
+maximum_tolerable_journey_minutes=315
+
+Image[E]=./images/renault-25-phase2-grey_E.0.0,-33,14
+Image[SE]=./images/renault-25-phase2-grey_SE.0.0,-13,0
+Image[S]=./images/renault-25-phase2-grey_S.0.0,0,0
+Image[SW]=./images/renault-25-phase2-grey_SW.0.0,-8,10
+Image[W]=./images/renault-25-phase2-grey_W.0.0,4,5
+Image[NW]=./images/renault-25-phase2-grey_NW.0.0,12,10
+Image[N]=./images/renault-25-phase2-grey_N.0.0,0,33
+Image[NE]=./images/renault-25-phase2-grey_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Renault25Phase2(Red)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1988
+intro_month=6
+retire_year=2003
+retire_month=6
+speed=190
+class=3,4
+maximum_comfortable_journey_minutes=90
+maximum_tolerable_journey_minutes=315
+
+Image[E]=./images/renault-25-phase2-red_E.0.0,-33,14
+Image[SE]=./images/renault-25-phase2-red_SE.0.0,-13,0
+Image[S]=./images/renault-25-phase2-red_S.0.0,0,0
+Image[SW]=./images/renault-25-phase2-red_SW.0.0,-8,10
+Image[W]=./images/renault-25-phase2-red_W.0.0,4,5
+Image[NW]=./images/renault-25-phase2-red_NW.0.0,12,10
+Image[N]=./images/renault-25-phase2-red_N.0.0,0,33
+Image[NE]=./images/renault-25-phase2-red_NE.0.0,0,24

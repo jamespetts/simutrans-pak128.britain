@@ -1,0 +1,129 @@
+# Renault 15 two-door, 1972-1979.
+#
+# The Renault 15, the less sporting half of the 15/17 pair, on sale from 1972
+# and built until August 1979. It shared the Renault 17's shell, wheelbase and
+# door with a different front and rear, and was built as a variant of the 17
+# master.
+#
+# Dimensions 4.255 x 1.640 x 1.310 m, wheelbase 2.440 m, as the 17. Source: the
+# reference pack's notes, from the Renault 15/17 dimension box.
+#
+# What differs from the 17: a single wide rectangular grille with the badge and
+# rectangular headlamps instead of the 17's twin round lamps and slim grille; a
+# plain rear quarter instead of the louvred quarter; and the hatch with its
+# spoiler, the segmented tail lamps and the rear bumper of the blue reference
+# car. The roofline, door and wheels are the 17's.
+#
+# Shape reference: a brown 15 rear quarter, a blue 15 front three-quarter and
+# the blue car from the rear left. The true side elevation of the model was
+# rendered and checked for the side window band.
+#
+# Colours: no British-market names were established, so the objects carry plain
+# names: yellow, red, white and blue. Weights yellow 3, red 3, white 2, blue 2,
+# total 10, provisional pending the central rebase.
+#
+# Speed 155 km/h, the 1.3-litre car's quoted maximum. Comfort 50/255, on the
+# line 180 + 1.5 x 50: a small, softly sprung family coupé. Classes 1,2.
+#
+# Dates are road presence: 1972 intro, retires staggered 1988-1991 on a
+# sixteen- to nineteen-year tail.
+#
+# Metres master: citycars/4.5/renault-15.blend. Interchange:
+# citycars/4.5/renault-15.dae (122 objects). References:
+# citycars/references/renault-15/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the carried-over cabin is slightly taller than the
+# photographs and the comparison angles are approximate. At 128 px the single
+# rectangular grille and the plain quarter distinguish the 15 from the 17.
+
+obj=citycar
+name=Renault15(Yellow)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1972
+intro_month=1
+retire_year=1991
+retire_month=6
+speed=155
+class=1,2
+maximum_comfortable_journey_minutes=50
+maximum_tolerable_journey_minutes=255
+
+Image[E]=./images/renault-15-yellow_E.0.0,-33,14
+Image[SE]=./images/renault-15-yellow_SE.0.0,-13,0
+Image[S]=./images/renault-15-yellow_S.0.0,0,0
+Image[SW]=./images/renault-15-yellow_SW.0.0,-8,10
+Image[W]=./images/renault-15-yellow_W.0.0,4,5
+Image[NW]=./images/renault-15-yellow_NW.0.0,12,10
+Image[N]=./images/renault-15-yellow_N.0.0,0,33
+Image[NE]=./images/renault-15-yellow_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Renault15(Red)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1972
+intro_month=1
+retire_year=1991
+retire_month=6
+speed=155
+class=1,2
+maximum_comfortable_journey_minutes=50
+maximum_tolerable_journey_minutes=255
+
+Image[E]=./images/renault-15-red_E.0.0,-33,14
+Image[SE]=./images/renault-15-red_SE.0.0,-13,0
+Image[S]=./images/renault-15-red_S.0.0,0,0
+Image[SW]=./images/renault-15-red_SW.0.0,-8,10
+Image[W]=./images/renault-15-red_W.0.0,4,5
+Image[NW]=./images/renault-15-red_NW.0.0,12,10
+Image[N]=./images/renault-15-red_N.0.0,0,33
+Image[NE]=./images/renault-15-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Renault15(White)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1972
+intro_month=1
+retire_year=1990
+retire_month=6
+speed=155
+class=1,2
+maximum_comfortable_journey_minutes=50
+maximum_tolerable_journey_minutes=255
+
+Image[E]=./images/renault-15-white_E.0.0,-33,14
+Image[SE]=./images/renault-15-white_SE.0.0,-13,0
+Image[S]=./images/renault-15-white_S.0.0,0,0
+Image[SW]=./images/renault-15-white_SW.0.0,-8,10
+Image[W]=./images/renault-15-white_W.0.0,4,5
+Image[NW]=./images/renault-15-white_NW.0.0,12,10
+Image[N]=./images/renault-15-white_N.0.0,0,33
+Image[NE]=./images/renault-15-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Renault15(Blue)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1972
+intro_month=1
+retire_year=1988
+retire_month=6
+speed=155
+class=1,2
+maximum_comfortable_journey_minutes=50
+maximum_tolerable_journey_minutes=255
+
+Image[E]=./images/renault-15-blue_E.0.0,-33,14
+Image[SE]=./images/renault-15-blue_SE.0.0,-13,0
+Image[S]=./images/renault-15-blue_S.0.0,0,0
+Image[SW]=./images/renault-15-blue_SW.0.0,-8,10
+Image[W]=./images/renault-15-blue_W.0.0,4,5
+Image[NW]=./images/renault-15-blue_NW.0.0,12,10
+Image[N]=./images/renault-15-blue_N.0.0,0,33
+Image[NE]=./images/renault-15-blue_NE.0.0,0,24

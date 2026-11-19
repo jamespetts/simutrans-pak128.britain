@@ -1,0 +1,135 @@
+# GWK cyclecar, 1911-1920s.
+#
+# The GWK cyclecar, built by Grice, Wood and Keeler. The 1914 B Type at Goodwood
+# is the only car available as a reference and is what is modelled. Its
+# distinguishing feature is a rear-mounted transverse twin engine driving
+# through friction transmission, so the long low body has no ordinary bonnet
+# with a radiator grille: the nose carries a brass unit, modelled as the outline
+# the photograph shows, with no invented grille face.
+#
+# **All dimensions are estimates, not specifications.** No wheelbase, track,
+# length, width or height is published in any source consulted. The figures used
+# are 3.10 m long, 2.40 m wheelbase, 1.60 m high with the hood raised, 1.05 m
+# track (inferred) and 1.26 m across the wings; they come from scaling the
+# profile against an assumed 26-inch tyre outside diameter. They must not be
+# quoted as specifications.
+#
+# Shape reference: a single true side elevation of the Goodwood car, with the
+# fabric hood raised. The model therefore carries the hood raised as
+# photographed; a hood-down variant is not modelled. The front face, the rear
+# shape across the width, the track and the cockpit width have no reference and
+# were inferred.
+#
+# Colours: these cars were finished to the buyer's order and no British colour
+# list exists. The objects carry plain period-appropriate names: green, black,
+# maroon and blue. Weights green 3, black 3, maroon 2, blue 2, total 10,
+# provisional pending the central rebase. Brass, fabric, tyres and seats keep
+# their own materials.
+#
+# Speed 70 km/h, an estimate for a cyclecar of this period; no published figure
+# was found. Comfort 25/220, the floor of the comfort scale: an open cyclecar
+# with a fabric hood. Classes 0,1.
+#
+# Dates are road presence: 1911 intro, retires staggered 1927-1930 on a
+# sixteen- to nineteen-year tail.
+#
+# Metres master: citycars/4.5/gwk-cyclecar.blend. Interchange:
+# citycars/4.5/gwk-cyclecar.dae (135 objects). References:
+# citycars/references/gwk-cyclecar/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: only one side photograph exists, so the front face, the
+# rear shape and the track are inferred; the canopy's rear quarter and the wing
+# profiles are simplified. At 128 px the low body, the narrow track, the open
+# seats, the flat wings and the raised fabric hood read as a GWK cyclecar.
+
+obj=citycar
+name=GWKCyclecar(Green)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1911
+intro_month=1
+retire_year=1930
+retire_month=6
+speed=70
+class=0,1
+maximum_comfortable_journey_minutes=25
+maximum_tolerable_journey_minutes=220
+
+Image[E]=./images/gwk-cyclecar-green_E.0.0,-33,14
+Image[SE]=./images/gwk-cyclecar-green_SE.0.0,-13,0
+Image[S]=./images/gwk-cyclecar-green_S.0.0,0,0
+Image[SW]=./images/gwk-cyclecar-green_SW.0.0,-8,10
+Image[W]=./images/gwk-cyclecar-green_W.0.0,4,5
+Image[NW]=./images/gwk-cyclecar-green_NW.0.0,12,10
+Image[N]=./images/gwk-cyclecar-green_N.0.0,0,33
+Image[NE]=./images/gwk-cyclecar-green_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=GWKCyclecar(Black)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1911
+intro_month=1
+retire_year=1930
+retire_month=6
+speed=70
+class=0,1
+maximum_comfortable_journey_minutes=25
+maximum_tolerable_journey_minutes=220
+
+Image[E]=./images/gwk-cyclecar-black_E.0.0,-33,14
+Image[SE]=./images/gwk-cyclecar-black_SE.0.0,-13,0
+Image[S]=./images/gwk-cyclecar-black_S.0.0,0,0
+Image[SW]=./images/gwk-cyclecar-black_SW.0.0,-8,10
+Image[W]=./images/gwk-cyclecar-black_W.0.0,4,5
+Image[NW]=./images/gwk-cyclecar-black_NW.0.0,12,10
+Image[N]=./images/gwk-cyclecar-black_N.0.0,0,33
+Image[NE]=./images/gwk-cyclecar-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=GWKCyclecar(Maroon)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1911
+intro_month=1
+retire_year=1929
+retire_month=6
+speed=70
+class=0,1
+maximum_comfortable_journey_minutes=25
+maximum_tolerable_journey_minutes=220
+
+Image[E]=./images/gwk-cyclecar-maroon_E.0.0,-33,14
+Image[SE]=./images/gwk-cyclecar-maroon_SE.0.0,-13,0
+Image[S]=./images/gwk-cyclecar-maroon_S.0.0,0,0
+Image[SW]=./images/gwk-cyclecar-maroon_SW.0.0,-8,10
+Image[W]=./images/gwk-cyclecar-maroon_W.0.0,4,5
+Image[NW]=./images/gwk-cyclecar-maroon_NW.0.0,12,10
+Image[N]=./images/gwk-cyclecar-maroon_N.0.0,0,33
+Image[NE]=./images/gwk-cyclecar-maroon_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=GWKCyclecar(Blue)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1911
+intro_month=1
+retire_year=1927
+retire_month=6
+speed=70
+class=0,1
+maximum_comfortable_journey_minutes=25
+maximum_tolerable_journey_minutes=220
+
+Image[E]=./images/gwk-cyclecar-blue_E.0.0,-33,14
+Image[SE]=./images/gwk-cyclecar-blue_SE.0.0,-13,0
+Image[S]=./images/gwk-cyclecar-blue_S.0.0,0,0
+Image[SW]=./images/gwk-cyclecar-blue_SW.0.0,-8,10
+Image[W]=./images/gwk-cyclecar-blue_W.0.0,4,5
+Image[NW]=./images/gwk-cyclecar-blue_NW.0.0,12,10
+Image[N]=./images/gwk-cyclecar-blue_N.0.0,0,33
+Image[NE]=./images/gwk-cyclecar-blue_NE.0.0,0,24

@@ -1,0 +1,132 @@
+# Renault Megane IV five-door hatchback, 2016-2022.
+#
+# The fourth-generation Megane in its phase-1 form (2016-2020), on sale in
+# Britain from the summer of 2016 and withdrawn in July 2022, when Renault UK
+# replaced the combustion Megane with the electric Megane E-Tech. The British
+# range had the hatch and the Sport Tourer estate only; the saloon was never
+# sold here.
+# https://www.autocar.co.uk/ (18 July 2022, cited in the reference pack)
+#
+# Dimensions 4.359 x 1.814 x 1.445 m, wheelbase 2.669 m. Source: the reference
+# pack's notes. The hull measures 4.359 m on a 2.669 m wheelbase (61.2 per
+# cent) and 1.814 m wide; mirrors take it to 1.910 m.
+#
+# The car photographed is a **GT**, with its deeper front bumper and larger
+# alloys, and the GT is what is modelled. Shape reference: a near-side view
+# taken about 10-15 degrees aft of the side axis with the rear lamp edge and
+# tailgate lip visible, a front three-quarter and a rear three-quarter. A true
+# elevation was rendered for coherence. All glazing panes stand 10-18 mm clear
+# of the local body surface.
+#
+# Colours are from the Renault UK brochure of 1 October 2016, evidence grade
+# (a): Glacier White (solid); Arctic White, Mercury, Dune, Diamond Black,
+# Titanium Grey, Cosmos Blue and Steel Blue (metallic); Flame Red and Iron Blue
+# (Renault i.d. metallic). Four are modelled: Glacier White, Mercury, Diamond
+# Black and Flame Red. Weights white 3, grey 3, black 2, red 2, total 10,
+# provisional pending the central rebase.
+#
+# Speed 195 km/h, the GT's quoted maximum. Comfort 110/345, on the line
+# 180 + 1.5 x 110: a quiet, well-damped family hatchback. Classes 2,3.
+#
+# Dates are road presence: July 2016 intro, retires staggered 2030-2033 on a
+# fourteen- to seventeen-year tail.
+#
+# Metres master: citycars/4.5/renault-megane-iv.blend. Interchange:
+# citycars/4.5/renault-megane-iv.dae (113 objects). References:
+# citycars/references/renault-megane-iv/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the headlamp treatment is more angular than the
+# photographs and the rear bumper flatter. At 128 px the low wide body, the
+# swept lamps and the pronounced hatch spoiler read as the Megane IV.
+
+obj=citycar
+name=RenaultMeganeIV(GlacierWhite)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=2016
+intro_month=7
+retire_year=2033
+retire_month=6
+speed=195
+class=2,3
+maximum_comfortable_journey_minutes=110
+maximum_tolerable_journey_minutes=345
+
+Image[E]=./images/renault-megane-iv-glacierwhite_E.0.0,-33,14
+Image[SE]=./images/renault-megane-iv-glacierwhite_SE.0.0,-13,0
+Image[S]=./images/renault-megane-iv-glacierwhite_S.0.0,0,0
+Image[SW]=./images/renault-megane-iv-glacierwhite_SW.0.0,-8,10
+Image[W]=./images/renault-megane-iv-glacierwhite_W.0.0,4,5
+Image[NW]=./images/renault-megane-iv-glacierwhite_NW.0.0,12,10
+Image[N]=./images/renault-megane-iv-glacierwhite_N.0.0,0,33
+Image[NE]=./images/renault-megane-iv-glacierwhite_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RenaultMeganeIV(Mercury)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=2016
+intro_month=7
+retire_year=2033
+retire_month=6
+speed=195
+class=2,3
+maximum_comfortable_journey_minutes=110
+maximum_tolerable_journey_minutes=345
+
+Image[E]=./images/renault-megane-iv-mercury_E.0.0,-33,14
+Image[SE]=./images/renault-megane-iv-mercury_SE.0.0,-13,0
+Image[S]=./images/renault-megane-iv-mercury_S.0.0,0,0
+Image[SW]=./images/renault-megane-iv-mercury_SW.0.0,-8,10
+Image[W]=./images/renault-megane-iv-mercury_W.0.0,4,5
+Image[NW]=./images/renault-megane-iv-mercury_NW.0.0,12,10
+Image[N]=./images/renault-megane-iv-mercury_N.0.0,0,33
+Image[NE]=./images/renault-megane-iv-mercury_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RenaultMeganeIV(DiamondBlack)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=2016
+intro_month=7
+retire_year=2032
+retire_month=6
+speed=195
+class=2,3
+maximum_comfortable_journey_minutes=110
+maximum_tolerable_journey_minutes=345
+
+Image[E]=./images/renault-megane-iv-diamondblack_E.0.0,-33,14
+Image[SE]=./images/renault-megane-iv-diamondblack_SE.0.0,-13,0
+Image[S]=./images/renault-megane-iv-diamondblack_S.0.0,0,0
+Image[SW]=./images/renault-megane-iv-diamondblack_SW.0.0,-8,10
+Image[W]=./images/renault-megane-iv-diamondblack_W.0.0,4,5
+Image[NW]=./images/renault-megane-iv-diamondblack_NW.0.0,12,10
+Image[N]=./images/renault-megane-iv-diamondblack_N.0.0,0,33
+Image[NE]=./images/renault-megane-iv-diamondblack_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RenaultMeganeIV(FlameRed)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=2016
+intro_month=7
+retire_year=2031
+retire_month=6
+speed=195
+class=2,3
+maximum_comfortable_journey_minutes=110
+maximum_tolerable_journey_minutes=345
+
+Image[E]=./images/renault-megane-iv-flamered_E.0.0,-33,14
+Image[SE]=./images/renault-megane-iv-flamered_SE.0.0,-13,0
+Image[S]=./images/renault-megane-iv-flamered_S.0.0,0,0
+Image[SW]=./images/renault-megane-iv-flamered_SW.0.0,-8,10
+Image[W]=./images/renault-megane-iv-flamered_W.0.0,4,5
+Image[NW]=./images/renault-megane-iv-flamered_NW.0.0,12,10
+Image[N]=./images/renault-megane-iv-flamered_N.0.0,0,33
+Image[NE]=./images/renault-megane-iv-flamered_NE.0.0,0,24

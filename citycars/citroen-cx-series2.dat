@@ -1,0 +1,130 @@
+# Citroen CX Series 2 four-door saloon, 1986-1989.
+#
+# The Series 2 CX, announced in France in July 1985 and on sale in Britain from
+# 1986. The saloons were withdrawn in May 1989 and replaced by the XM; the
+# estate ran on to 1991. It is the same shell as the Series 1 car with a revised
+# front and rear, and was built as a variant of that master.
+#
+# Dimensions 4.666 x 1.730 x 1.360 m, wheelbase 2.845 m, as the Series 1 car.
+# Source: the reference pack's notes.
+#
+# What differs from Series 1: a wider, flatter nose with a wider grille, revised
+# wrap-around bumpers front and rear, four-section ribbed tail lamps, a rear
+# spoiler and a less deeply concave rear screen. The cabin, side glazing, low
+# wedge and covered rear wheels are the Series 1 master's.
+#
+# Shape reference: a 1989 CX 22 TRS on an F-registration, seen from near-side
+# (about 12 degrees behind the side axis, slightly high and soft), from the
+# front three-quarter and from the rear quarter. A true elevation was rendered
+# for coherence.
+#
+# Colours: no British-market colour list was found, so the objects carry plain
+# names: silver, blue, grey and red. Weights silver 3, blue 3, grey 2, red 2,
+# total 10, provisional pending the central rebase.
+#
+# Speed 190 km/h and comfort 90/315, as the Series 1 car. Classes 3,4.
+#
+# Dates are road presence: 1986 intro, retires staggered 2000-2003 on a
+# fourteen- to seventeen-year tail. Note that the saloon left the British range
+# in May 1989; the tail reflects cars remaining on the road.
+#
+# Metres master: citycars/4.5/citroen-cx-series2.blend. Interchange:
+# citycars/4.5/citroen-cx-series2.dae (141 objects). References:
+# citycars/references/citroen-cx-series2/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the front bumper is less distinct from the body than the
+# photograph and the rear spoiler is thicker from the side. At 128 px the low
+# wedge, the flatter nose, the ribbed tail lamps and the covered rear wheels
+# read as a Series 2 CX.
+
+obj=citycar
+name=CitroenCXSeries2(Silver)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1986
+intro_month=1
+retire_year=2003
+retire_month=6
+speed=190
+class=3,4
+maximum_comfortable_journey_minutes=90
+maximum_tolerable_journey_minutes=315
+
+Image[E]=./images/citroen-cx-series2-silver_E.0.0,-33,14
+Image[SE]=./images/citroen-cx-series2-silver_SE.0.0,-13,0
+Image[S]=./images/citroen-cx-series2-silver_S.0.0,0,0
+Image[SW]=./images/citroen-cx-series2-silver_SW.0.0,-8,10
+Image[W]=./images/citroen-cx-series2-silver_W.0.0,4,5
+Image[NW]=./images/citroen-cx-series2-silver_NW.0.0,12,10
+Image[N]=./images/citroen-cx-series2-silver_N.0.0,0,33
+Image[NE]=./images/citroen-cx-series2-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=CitroenCXSeries2(Blue)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1986
+intro_month=1
+retire_year=2003
+retire_month=6
+speed=190
+class=3,4
+maximum_comfortable_journey_minutes=90
+maximum_tolerable_journey_minutes=315
+
+Image[E]=./images/citroen-cx-series2-blue_E.0.0,-33,14
+Image[SE]=./images/citroen-cx-series2-blue_SE.0.0,-13,0
+Image[S]=./images/citroen-cx-series2-blue_S.0.0,0,0
+Image[SW]=./images/citroen-cx-series2-blue_SW.0.0,-8,10
+Image[W]=./images/citroen-cx-series2-blue_W.0.0,4,5
+Image[NW]=./images/citroen-cx-series2-blue_NW.0.0,12,10
+Image[N]=./images/citroen-cx-series2-blue_N.0.0,0,33
+Image[NE]=./images/citroen-cx-series2-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=CitroenCXSeries2(Grey)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1986
+intro_month=1
+retire_year=2002
+retire_month=6
+speed=190
+class=3,4
+maximum_comfortable_journey_minutes=90
+maximum_tolerable_journey_minutes=315
+
+Image[E]=./images/citroen-cx-series2-grey_E.0.0,-33,14
+Image[SE]=./images/citroen-cx-series2-grey_SE.0.0,-13,0
+Image[S]=./images/citroen-cx-series2-grey_S.0.0,0,0
+Image[SW]=./images/citroen-cx-series2-grey_SW.0.0,-8,10
+Image[W]=./images/citroen-cx-series2-grey_W.0.0,4,5
+Image[NW]=./images/citroen-cx-series2-grey_NW.0.0,12,10
+Image[N]=./images/citroen-cx-series2-grey_N.0.0,0,33
+Image[NE]=./images/citroen-cx-series2-grey_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=CitroenCXSeries2(Red)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1986
+intro_month=1
+retire_year=2000
+retire_month=6
+speed=190
+class=3,4
+maximum_comfortable_journey_minutes=90
+maximum_tolerable_journey_minutes=315
+
+Image[E]=./images/citroen-cx-series2-red_E.0.0,-33,14
+Image[SE]=./images/citroen-cx-series2-red_SE.0.0,-13,0
+Image[S]=./images/citroen-cx-series2-red_S.0.0,0,0
+Image[SW]=./images/citroen-cx-series2-red_SW.0.0,-8,10
+Image[W]=./images/citroen-cx-series2-red_W.0.0,4,5
+Image[NW]=./images/citroen-cx-series2-red_NW.0.0,12,10
+Image[N]=./images/citroen-cx-series2-red_N.0.0,0,33
+Image[NE]=./images/citroen-cx-series2-red_NE.0.0,0,24

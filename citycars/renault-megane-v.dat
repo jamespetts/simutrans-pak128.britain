@@ -1,0 +1,140 @@
+# Renault Megane E-Tech Electric five-door crossover, 2022 onwards.
+#
+# The "Megane V" as sold in Britain. From 2022 the only Megane on sale here was
+# the Megane E-Tech Electric: the combustion Megane IV was withdrawn in July
+# 2022 and the French-market petrol Megane V hatchback was never offered in
+# Britain. It is a crossover-styled car, 1.505 m tall against 1.447 m for the
+# Megane IV hatch and 160 mm shorter overall, and that British car is what is
+# modelled, not the French hatchback.
+# https://www.autocar.co.uk/ (18 July 2022, cited in the reference pack)
+#
+# Dimensions 4.199 x 1.768 x 1.505 m, wheelbase 2.685 m. Source: the reference
+# pack's notes. The hull measures 4.199 x 1.768 m on a 2.685 m wheelbase (63.9
+# per cent); mirrors take the width to 1.910 m.
+#
+# Shape reference: no true side elevation of this car exists on Commons. The
+# flank was built from the widest available view (about 35-40 degrees forward
+# of the side axis) plus front and rear three-quarters, with the wheel centres
+# fixed by the published ratio; a true elevation was rendered and has no
+# photograph to match. All glazing panes stand 10-18 mm clear of the local body
+# surface.
+#
+# Colours are from the Renault UK Megane E-Tech brochure of December 2022,
+# evidence grade (a): Glacier White (non-metallic); Diamond Black, Shadow Grey,
+# Ceramic Grey, Flame Red and Midnight Blue (metallic). Two-tone roofs in
+# Diamond Black or Shadow Grey were offered from Techno trim; the model keeps a
+# single body colour. Renault UK renamed the global press-kit colours (Rafale
+# Grey, Schist Grey) as Ceramic Grey and Shadow Grey for this market, and the
+# British names are the ones recorded. Four are modelled: Glacier White,
+# Diamond Black, Shadow Grey and Flame Red. Weights white 3, black 2, grey 3,
+# red 2, total 10, provisional pending the central rebase.
+#
+# The gold "F1 blade" in the front bumper carries its own material and is not
+# affected by the body recolouring.
+#
+# Speed 160 km/h, the car's governed maximum. Comfort 115/355, on the line
+# 180 + 1.5 x 115: quiet, smooth and roomy for its size. Classes 2,3.
+#
+# Dates are road presence: July 2022 intro, retires staggered 2036-2039 on a
+# fourteen- to seventeen-year tail.
+#
+# Metres master: citycars/4.5/renault-megane-v.blend. Interchange:
+# citycars/4.5/renault-megane-v.dae (105 objects). References:
+# citycars/references/renault-megane-v/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the nose is squarer and the lamp surrounds more angular
+# than the photographs, and the camera matches are approximate because no side
+# elevation exists. At 128 px the raised crossover stance, the full-width light
+# bars and the flush surfaces read as the Megane E-Tech.
+
+obj=citycar
+name=RenaultMeganeV(GlacierWhite)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=2022
+intro_month=7
+retire_year=2039
+retire_month=6
+speed=160
+class=2,3
+maximum_comfortable_journey_minutes=115
+maximum_tolerable_journey_minutes=355
+
+Image[E]=./images/renault-megane-v-glacierwhite_E.0.0,-33,14
+Image[SE]=./images/renault-megane-v-glacierwhite_SE.0.0,-13,0
+Image[S]=./images/renault-megane-v-glacierwhite_S.0.0,0,0
+Image[SW]=./images/renault-megane-v-glacierwhite_SW.0.0,-8,10
+Image[W]=./images/renault-megane-v-glacierwhite_W.0.0,4,5
+Image[NW]=./images/renault-megane-v-glacierwhite_NW.0.0,12,10
+Image[N]=./images/renault-megane-v-glacierwhite_N.0.0,0,33
+Image[NE]=./images/renault-megane-v-glacierwhite_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RenaultMeganeV(ShadowGrey)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=2022
+intro_month=7
+retire_year=2039
+retire_month=6
+speed=160
+class=2,3
+maximum_comfortable_journey_minutes=115
+maximum_tolerable_journey_minutes=355
+
+Image[E]=./images/renault-megane-v-shadowgrey_E.0.0,-33,14
+Image[SE]=./images/renault-megane-v-shadowgrey_SE.0.0,-13,0
+Image[S]=./images/renault-megane-v-shadowgrey_S.0.0,0,0
+Image[SW]=./images/renault-megane-v-shadowgrey_SW.0.0,-8,10
+Image[W]=./images/renault-megane-v-shadowgrey_W.0.0,4,5
+Image[NW]=./images/renault-megane-v-shadowgrey_NW.0.0,12,10
+Image[N]=./images/renault-megane-v-shadowgrey_N.0.0,0,33
+Image[NE]=./images/renault-megane-v-shadowgrey_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RenaultMeganeV(DiamondBlack)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=2022
+intro_month=7
+retire_year=2038
+retire_month=6
+speed=160
+class=2,3
+maximum_comfortable_journey_minutes=115
+maximum_tolerable_journey_minutes=355
+
+Image[E]=./images/renault-megane-v-diamondblack_E.0.0,-33,14
+Image[SE]=./images/renault-megane-v-diamondblack_SE.0.0,-13,0
+Image[S]=./images/renault-megane-v-diamondblack_S.0.0,0,0
+Image[SW]=./images/renault-megane-v-diamondblack_SW.0.0,-8,10
+Image[W]=./images/renault-megane-v-diamondblack_W.0.0,4,5
+Image[NW]=./images/renault-megane-v-diamondblack_NW.0.0,12,10
+Image[N]=./images/renault-megane-v-diamondblack_N.0.0,0,33
+Image[NE]=./images/renault-megane-v-diamondblack_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RenaultMeganeV(FlameRed)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=2022
+intro_month=7
+retire_year=2037
+retire_month=6
+speed=160
+class=2,3
+maximum_comfortable_journey_minutes=115
+maximum_tolerable_journey_minutes=355
+
+Image[E]=./images/renault-megane-v-flamered_E.0.0,-33,14
+Image[SE]=./images/renault-megane-v-flamered_SE.0.0,-13,0
+Image[S]=./images/renault-megane-v-flamered_S.0.0,0,0
+Image[SW]=./images/renault-megane-v-flamered_SW.0.0,-8,10
+Image[W]=./images/renault-megane-v-flamered_W.0.0,4,5
+Image[NW]=./images/renault-megane-v-flamered_NW.0.0,12,10
+Image[N]=./images/renault-megane-v-flamered_N.0.0,0,33
+Image[NE]=./images/renault-megane-v-flamered_NE.0.0,0,24
