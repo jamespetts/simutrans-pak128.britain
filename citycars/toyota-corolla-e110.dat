@@ -1,0 +1,142 @@
+# Toyota Corolla E110 five-door liftback, 1997-2002.
+#
+# The eighth-generation Corolla. UK launch 23 June 1997; a revised range
+# followed on 1 February 2000, which deleted the saloon because it took half a
+# per cent of British Corolla sales; replaced in January 2002 when the E120
+# went on sale on 2 January 2002.
+# https://mag.toyota.co.uk/toyota-corolla-generations-1997-2001/
+# https://media.toyota.co.uk/new-corolla-in-the-uk-market/
+#
+# Dimensions 4.270 x 1.690 x 1.380 m, wheelbase 2.465 m. Source: English
+# Wikipedia, "Toyota Corolla (E110)" infobox: wheelbase 2,465 mm (Randall 2006,
+# p. 247); liftback length 4,270 mm (hatchback 4,120 mm, sedan 4,315 mm); width
+# 1,690 mm; height 1,380 mm for hatchback, liftback and sedan. The fitted model
+# measures 4.2705 m, 5.5 mm over target, 1.690 m wide, with the wheel centres
+# 2.465 m apart (57.7 per cent of length). Mirrors extend beyond the hull.
+#
+# Shape reference: the pack's image 1 is a shallow front-left three-quarter,
+# not a level elevation (the larger near-side front wheel is perspective), so
+# the model was compared at that actual angle and a separate true elevation was
+# rendered for coherence. Image 1 supplied the five-door profile, glazing and
+# arches; image 2 the front lamps, grille and intakes; image 3 the liftback
+# hatch and tail; image 4 the far-side rear lamp cluster. No boot is modelled.
+# The British car was the five-door liftback, which Toyota expected to be the
+# largest-selling body.
+#
+# Colours are Toyota GB brochure names, evidence grade (a): the MY1999 brochure
+# (Edition Two, December 1998) lists Pure White, Cool Water, Solar Red, Steel
+# Blue, British Green, Lucerne Silver, Aubergine, Satin Black, Night Shadow and
+# Sunburst Red. Four common British finishes are modelled: Lucerne Silver, Pure
+# White, Satin Black and Solar Red. Weights silver 3, white 3, red 2, black 2,
+# total 10, provisional pending the central rebase.
+#
+# Speed 180 km/h, the 1.6-litre car's quoted maximum. Comfort 85/310, on the
+# line 180 + 1.5 x 85: a quiet, well-finished family hatchback, a step above
+# the E100. Classes 1,2.
+#
+# Dates are road presence: June 1997 intro, retires staggered 2010-2013 on a
+# thirteen- to sixteen-year tail.
+#
+# Metres master: citycars/4.5/toyota-corolla-e110.blend. Interchange:
+# citycars/4.5/toyota-corolla-e110.dae (65 objects). References:
+# citycars/references/toyota-corolla-e110/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the nose is more rounded and bulbous than the
+# photographs and the headlamp reflectors read as separate discs rather than
+# elements behind a common lens; the rear quarter glass is too pointed, the
+# hatch glass too rectangular and the rear lamp clusters too round; the wheel
+# arches show abrupt shading transitions. The top view and raised turn confirm
+# a continuous body-coloured roof. At 128 px the rounded liftback profile and
+# the steep hatch read as the eighth-generation Corolla.
+
+obj=citycar
+name=ToyotaCorollaE110(LucerneSilver)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1997
+intro_month=6
+retire_year=2013
+retire_month=6
+speed=180
+class=1,2
+maximum_comfortable_journey_minutes=85
+maximum_tolerable_journey_minutes=310
+
+Image[E]=./images/toyota-corolla-e110-lucernesilver_E.0.0,-33,14
+Image[SE]=./images/toyota-corolla-e110-lucernesilver_SE.0.0,-13,0
+Image[S]=./images/toyota-corolla-e110-lucernesilver_S.0.0,0,0
+Image[SW]=./images/toyota-corolla-e110-lucernesilver_SW.0.0,-8,10
+Image[W]=./images/toyota-corolla-e110-lucernesilver_W.0.0,4,5
+Image[NW]=./images/toyota-corolla-e110-lucernesilver_NW.0.0,12,10
+Image[N]=./images/toyota-corolla-e110-lucernesilver_N.0.0,0,33
+Image[NE]=./images/toyota-corolla-e110-lucernesilver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=ToyotaCorollaE110(PureWhite)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1997
+intro_month=6
+retire_year=2013
+retire_month=6
+speed=180
+class=1,2
+maximum_comfortable_journey_minutes=85
+maximum_tolerable_journey_minutes=310
+
+Image[E]=./images/toyota-corolla-e110-purewhite_E.0.0,-33,14
+Image[SE]=./images/toyota-corolla-e110-purewhite_SE.0.0,-13,0
+Image[S]=./images/toyota-corolla-e110-purewhite_S.0.0,0,0
+Image[SW]=./images/toyota-corolla-e110-purewhite_SW.0.0,-8,10
+Image[W]=./images/toyota-corolla-e110-purewhite_W.0.0,4,5
+Image[NW]=./images/toyota-corolla-e110-purewhite_NW.0.0,12,10
+Image[N]=./images/toyota-corolla-e110-purewhite_N.0.0,0,33
+Image[NE]=./images/toyota-corolla-e110-purewhite_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=ToyotaCorollaE110(SatinBlack)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1997
+intro_month=6
+retire_year=2012
+retire_month=6
+speed=180
+class=1,2
+maximum_comfortable_journey_minutes=85
+maximum_tolerable_journey_minutes=310
+
+Image[E]=./images/toyota-corolla-e110-satinblack_E.0.0,-33,14
+Image[SE]=./images/toyota-corolla-e110-satinblack_SE.0.0,-13,0
+Image[S]=./images/toyota-corolla-e110-satinblack_S.0.0,0,0
+Image[SW]=./images/toyota-corolla-e110-satinblack_SW.0.0,-8,10
+Image[W]=./images/toyota-corolla-e110-satinblack_W.0.0,4,5
+Image[NW]=./images/toyota-corolla-e110-satinblack_NW.0.0,12,10
+Image[N]=./images/toyota-corolla-e110-satinblack_N.0.0,0,33
+Image[NE]=./images/toyota-corolla-e110-satinblack_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=ToyotaCorollaE110(SolarRed)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1997
+intro_month=6
+retire_year=2011
+retire_month=6
+speed=180
+class=1,2
+maximum_comfortable_journey_minutes=85
+maximum_tolerable_journey_minutes=310
+
+Image[E]=./images/toyota-corolla-e110-solarred_E.0.0,-33,14
+Image[SE]=./images/toyota-corolla-e110-solarred_SE.0.0,-13,0
+Image[S]=./images/toyota-corolla-e110-solarred_S.0.0,0,0
+Image[SW]=./images/toyota-corolla-e110-solarred_SW.0.0,-8,10
+Image[W]=./images/toyota-corolla-e110-solarred_W.0.0,4,5
+Image[NW]=./images/toyota-corolla-e110-solarred_NW.0.0,12,10
+Image[N]=./images/toyota-corolla-e110-solarred_N.0.0,0,33
+Image[NE]=./images/toyota-corolla-e110-solarred_NE.0.0,0,24

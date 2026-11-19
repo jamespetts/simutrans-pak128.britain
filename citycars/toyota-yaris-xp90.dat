@@ -1,0 +1,141 @@
+# Toyota Yaris XP90 five-door hatchback, 2006-2011.
+#
+# The second-generation Yaris. Toyota GB put it on sale on 1 January 2006; the
+# Toyota GB timeline gives June 2006, and both dates are recorded because the
+# two Toyota GB sources conflict. Launched at £8,995 for the 1.0 VVT-i T2
+# three-door and £13,295 for the 1.4 D-4D T Spirit five-door with MultiMode,
+# on the road. Replaced in August 2011 by the XP130.
+# https://media.toyota.co.uk/wp-content/uploads/sites/5/pdf/Gen2-Yaris-archive-press-pack.pdf
+# https://media.toyota.co.uk/wp-content/uploads/sites/5/pdf/Yaris-archive-timeline.pdf
+#
+# Dimensions 3.750 x 1.695 x 1.520 m, wheelbase 2.460 m. Source: English
+# Wikipedia, "Toyota Vitz", second-generation XP90 infobox: wheelbase
+# 2,460 mm, length 3,750 mm for 2005-2008 and 3,785 mm for 2008-2010, width
+# 1,695 mm, height 1,520 mm for front-wheel drive. The pre-facelift car is
+# modelled. The hull measures 3.750 m on a 2.460 m wheelbase, 65.6 per cent;
+# the assembled model is 3.810 m long once the number plates are included, and
+# 1.936 m wide over the mirrors.
+#
+# Shape reference: the pack holds one rear-left three-quarter of a yellow
+# three-door and three views of black and white five-doors. The five-door is
+# the body modelled; the three-door image was used only for the roof line and
+# the tail, and its roof bars were not modelled. No true side elevation exists,
+# so the flank was built from the photographs with the wheel centres fixed by
+# the published ratio.
+#
+# Colours are Toyota GB brochure names, evidence grade (a): the 2009 brochure
+# lists Cirrus White, Crystal Silver, Venetian Silver, Alsace Granite, Eclipse
+# Black, Decuma Grey, Chilli Red, Carlo Blue and Vivid Blue; the 2010 brochure
+# repeats most of them. Four common British finishes are modelled: Crystal
+# Silver, Cirrus White, Eclipse Black and Chilli Red. Weights silver 3, white
+# 3, red 2, black 2, total 10, provisional pending the central rebase.
+#
+# Speed 170 km/h, the 1.3-litre car's quoted maximum. Comfort 80/300, on the
+# line 180 + 1.5 x 80: roomier and better insulated than the XP10. Classes
+# 1,2, the mainstream small hatchback bands of the 2000s.
+#
+# Dates are road presence: January 2006 intro, retires staggered 2018-2021 on a
+# twelve- to fifteen-year tail.
+#
+# Metres master: citycars/4.5/toyota-yaris-xp90.blend. Interchange:
+# citycars/4.5/toyota-yaris-xp90.dae (42 objects). References:
+# citycars/references/toyota-yaris-xp90/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the nose is flatter than the photographs and the
+# headlamps do not wrap round the front corners far enough; the wheel arch
+# transitions are abrupt, the door cuts incomplete and the shoulder crease weak;
+# the wheel covers are simplified. The top view confirms a continuous painted
+# roof and the windscreen is visible from the front. At 128 px the tall domed
+# body, the short overhangs and the vertical tail lamps read as the XP90.
+
+obj=citycar
+name=ToyotaYarisXP90(CrystalSilver)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=2006
+intro_month=1
+retire_year=2021
+retire_month=6
+speed=170
+class=1,2
+maximum_comfortable_journey_minutes=80
+maximum_tolerable_journey_minutes=300
+
+Image[E]=./images/toyota-yaris-xp90-crystalsilver_E.0.0,-33,14
+Image[SE]=./images/toyota-yaris-xp90-crystalsilver_SE.0.0,-13,0
+Image[S]=./images/toyota-yaris-xp90-crystalsilver_S.0.0,0,0
+Image[SW]=./images/toyota-yaris-xp90-crystalsilver_SW.0.0,-8,10
+Image[W]=./images/toyota-yaris-xp90-crystalsilver_W.0.0,4,5
+Image[NW]=./images/toyota-yaris-xp90-crystalsilver_NW.0.0,12,10
+Image[N]=./images/toyota-yaris-xp90-crystalsilver_N.0.0,0,33
+Image[NE]=./images/toyota-yaris-xp90-crystalsilver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=ToyotaYarisXP90(CirrusWhite)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=2006
+intro_month=1
+retire_year=2021
+retire_month=6
+speed=170
+class=1,2
+maximum_comfortable_journey_minutes=80
+maximum_tolerable_journey_minutes=300
+
+Image[E]=./images/toyota-yaris-xp90-cirruswhite_E.0.0,-33,14
+Image[SE]=./images/toyota-yaris-xp90-cirruswhite_SE.0.0,-13,0
+Image[S]=./images/toyota-yaris-xp90-cirruswhite_S.0.0,0,0
+Image[SW]=./images/toyota-yaris-xp90-cirruswhite_SW.0.0,-8,10
+Image[W]=./images/toyota-yaris-xp90-cirruswhite_W.0.0,4,5
+Image[NW]=./images/toyota-yaris-xp90-cirruswhite_NW.0.0,12,10
+Image[N]=./images/toyota-yaris-xp90-cirruswhite_N.0.0,0,33
+Image[NE]=./images/toyota-yaris-xp90-cirruswhite_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=ToyotaYarisXP90(EclipseBlack)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=2006
+intro_month=1
+retire_year=2020
+retire_month=6
+speed=170
+class=1,2
+maximum_comfortable_journey_minutes=80
+maximum_tolerable_journey_minutes=300
+
+Image[E]=./images/toyota-yaris-xp90-eclipseblack_E.0.0,-33,14
+Image[SE]=./images/toyota-yaris-xp90-eclipseblack_SE.0.0,-13,0
+Image[S]=./images/toyota-yaris-xp90-eclipseblack_S.0.0,0,0
+Image[SW]=./images/toyota-yaris-xp90-eclipseblack_SW.0.0,-8,10
+Image[W]=./images/toyota-yaris-xp90-eclipseblack_W.0.0,4,5
+Image[NW]=./images/toyota-yaris-xp90-eclipseblack_NW.0.0,12,10
+Image[N]=./images/toyota-yaris-xp90-eclipseblack_N.0.0,0,33
+Image[NE]=./images/toyota-yaris-xp90-eclipseblack_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=ToyotaYarisXP90(ChilliRed)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=2006
+intro_month=1
+retire_year=2019
+retire_month=6
+speed=170
+class=1,2
+maximum_comfortable_journey_minutes=80
+maximum_tolerable_journey_minutes=300
+
+Image[E]=./images/toyota-yaris-xp90-chillired_E.0.0,-33,14
+Image[SE]=./images/toyota-yaris-xp90-chillired_SE.0.0,-13,0
+Image[S]=./images/toyota-yaris-xp90-chillired_S.0.0,0,0
+Image[SW]=./images/toyota-yaris-xp90-chillired_SW.0.0,-8,10
+Image[W]=./images/toyota-yaris-xp90-chillired_W.0.0,4,5
+Image[NW]=./images/toyota-yaris-xp90-chillired_NW.0.0,12,10
+Image[N]=./images/toyota-yaris-xp90-chillired_N.0.0,0,33
+Image[NE]=./images/toyota-yaris-xp90-chillired_NE.0.0,0,24

@@ -1,0 +1,136 @@
+# Toyota Corolla E100 five-door liftback, 1992-1997.
+#
+# The seventh-generation Corolla. UK launch 7 August 1992; replaced when the
+# E110 went on sale on 23 June 1997. A 1.6 Executive Liftback cost £13,210 in
+# October 1992 according to a period road test, which is the only price found.
+# https://mag.toyota.co.uk/toyota-corolla-generations-1992-1997/
+# https://media.toyota.co.uk/wp-content/uploads/sites/5/pdf/Corolla-Timeline.pdf
+#
+# Dimensions 4.095 x 1.685 x 1.375 m, wheelbase 2.465 m. Source: English
+# Wikipedia, "Toyota Corolla (E100)" infobox: wheelbase 2,465 mm; hatchback
+# length 4,095 mm, sedan/coupe 4,275 mm and wagon/van 4,260 mm; width 1,685 mm;
+# height 1,375 mm for sedan and hatchback. The hatchback figures apply, and the
+# five-door liftback body is the one modelled. Body length 4.095 m before trim;
+# mirrors extend beyond.
+#
+# Shape reference: the pack mixes a silver three-door, a blue five-door liftback
+# and a further car. Image 1 supplied the roof line, arches and wheel positions
+# but its three-door door cuts were not copied; images 2 and 3 supplied the
+# front, the five-door divisions and the sloped hatch glass with its short
+# painted lip and near-vertical rear panel. No boot is modelled. No true side
+# elevation exists, so the wheel centres were fixed by the published 60.2 per
+# cent wheelbase-to-length ratio.
+#
+# Colours: no Toyota GB brochure or price list for the 1992-1997 Corolla was
+# found, and no British colour list exists in any other source consulted. The
+# objects therefore carry plain colour names rather than invented marketing
+# names: silver, white, black and red. Weights silver 3, white 3, red 2,
+# black 2, total 10, provisional pending the central rebase.
+#
+# Speed 175 km/h, between the 1.3-litre and 1.6-litre cars' quoted maxima.
+# Comfort 80/300, on the line 180 + 1.5 x 80: a quiet, well-finished small
+# family car for its year, a step above the superminis. Classes 1,2.
+#
+# Dates are road presence: August 1992 intro, retires staggered 2005-2008 on a
+# thirteen- to sixteen-year tail.
+#
+# Metres master: citycars/4.5/toyota-corolla-e100.blend. Interchange:
+# citycars/4.5/toyota-corolla-e100.dae (66 objects). References:
+# citycars/references/toyota-corolla-e100/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the nose and tail are boxier than the photographs and
+# the clear upper bands of the tail lamps are subdued. The top view and raised
+# turn confirm a continuous painted roof. At 128 px the rounded three-box
+# profile with its sloped hatch reads as the seventh-generation Corolla.
+
+obj=citycar
+name=ToyotaCorollaE100(Silver)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1992
+intro_month=8
+retire_year=2008
+retire_month=6
+speed=175
+class=1,2
+maximum_comfortable_journey_minutes=80
+maximum_tolerable_journey_minutes=300
+
+Image[E]=./images/toyota-corolla-e100-silver_E.0.0,-33,14
+Image[SE]=./images/toyota-corolla-e100-silver_SE.0.0,-13,0
+Image[S]=./images/toyota-corolla-e100-silver_S.0.0,0,0
+Image[SW]=./images/toyota-corolla-e100-silver_SW.0.0,-8,10
+Image[W]=./images/toyota-corolla-e100-silver_W.0.0,4,5
+Image[NW]=./images/toyota-corolla-e100-silver_NW.0.0,12,10
+Image[N]=./images/toyota-corolla-e100-silver_N.0.0,0,33
+Image[NE]=./images/toyota-corolla-e100-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=ToyotaCorollaE100(White)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1992
+intro_month=8
+retire_year=2008
+retire_month=6
+speed=175
+class=1,2
+maximum_comfortable_journey_minutes=80
+maximum_tolerable_journey_minutes=300
+
+Image[E]=./images/toyota-corolla-e100-white_E.0.0,-33,14
+Image[SE]=./images/toyota-corolla-e100-white_SE.0.0,-13,0
+Image[S]=./images/toyota-corolla-e100-white_S.0.0,0,0
+Image[SW]=./images/toyota-corolla-e100-white_SW.0.0,-8,10
+Image[W]=./images/toyota-corolla-e100-white_W.0.0,4,5
+Image[NW]=./images/toyota-corolla-e100-white_NW.0.0,12,10
+Image[N]=./images/toyota-corolla-e100-white_N.0.0,0,33
+Image[NE]=./images/toyota-corolla-e100-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=ToyotaCorollaE100(Black)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1992
+intro_month=8
+retire_year=2007
+retire_month=6
+speed=175
+class=1,2
+maximum_comfortable_journey_minutes=80
+maximum_tolerable_journey_minutes=300
+
+Image[E]=./images/toyota-corolla-e100-black_E.0.0,-33,14
+Image[SE]=./images/toyota-corolla-e100-black_SE.0.0,-13,0
+Image[S]=./images/toyota-corolla-e100-black_S.0.0,0,0
+Image[SW]=./images/toyota-corolla-e100-black_SW.0.0,-8,10
+Image[W]=./images/toyota-corolla-e100-black_W.0.0,4,5
+Image[NW]=./images/toyota-corolla-e100-black_NW.0.0,12,10
+Image[N]=./images/toyota-corolla-e100-black_N.0.0,0,33
+Image[NE]=./images/toyota-corolla-e100-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=ToyotaCorollaE100(Red)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1992
+intro_month=8
+retire_year=2006
+retire_month=6
+speed=175
+class=1,2
+maximum_comfortable_journey_minutes=80
+maximum_tolerable_journey_minutes=300
+
+Image[E]=./images/toyota-corolla-e100-red_E.0.0,-33,14
+Image[SE]=./images/toyota-corolla-e100-red_SE.0.0,-13,0
+Image[S]=./images/toyota-corolla-e100-red_S.0.0,0,0
+Image[SW]=./images/toyota-corolla-e100-red_SW.0.0,-8,10
+Image[W]=./images/toyota-corolla-e100-red_W.0.0,4,5
+Image[NW]=./images/toyota-corolla-e100-red_NW.0.0,12,10
+Image[N]=./images/toyota-corolla-e100-red_N.0.0,0,33
+Image[NE]=./images/toyota-corolla-e100-red_NE.0.0,0,24

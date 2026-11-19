@@ -1,0 +1,142 @@
+# Toyota Corolla E120 five-door hatchback, 2002-2007.
+#
+# The ninth-generation Corolla. UK launch 2 January 2002; the British hatchbacks
+# were built at Burnaston and took about 55 per cent of launch sales in
+# five-door form against 20 per cent for the three-door. The hatchbacks were
+# replaced by the Auris on 1 February 2007; the Corolla name left the British
+# range in 2008.
+# https://media.toyota.co.uk/teed-up-for-success-the-new-toyota-corolla/
+# https://media.toyota.co.uk/wp-content/uploads/sites/5/pdf/Corolla-gen9-UK-launch-pack-2002.pdf
+# https://media.toyota.co.uk/auris-the-new-toyota/
+#
+# Dimensions 4.180 x 1.705 x 1.470 m, wheelbase 2.600 m. Source: English
+# Wikipedia, "Toyota Corolla (E120)" infobox: wheelbase 2,600 mm; hatchback
+# length 4,180 mm; width 1,705 mm for 2004-07 cars; height 1,460-1,486 mm
+# across the US sedan trims, and 1.470 m is used, the European hatchback
+# figure. The fitted model is 4.181 m long, 1.705 m wide, 1.470 m high, with
+# the wheel centres 2.600 m apart (62.2 per cent of length). Mirrors take the
+# modelled width to 2.018 m.
+#
+# Shape reference: image 1 is a shallow front-left oblique rather than a level
+# elevation (the grille and plate are visible and the near front wheel is
+# larger), so the model was compared at that angle and a separate true
+# elevation was rendered for coherence. Image 1 supplied the long roof, the
+# waistline and the arches; image 2 the 2004-onward facelift nose; image 3 the
+# hatch and tall corner lamps, from the rear right; image 4 corroborated the
+# nose only. The five-door hatchback is the body modelled.
+#
+# Colours are Toyota GB names from the 2003 brochure, evidence grade (a):
+# Pure White, Sunburst Red, Lunar Shadow, Lucerne Silver, Igneous Grey (T Sport
+# only), Thunder Grey, Eclipse Black, Island Green, Carlo Blue and Neptune
+# Blue. Four common British finishes are modelled: Lucerne Silver, Pure White,
+# Eclipse Black and Sunburst Red. Weights silver 3, white 3, red 2, black 2,
+# total 10, provisional pending the central rebase.
+#
+# Speed 185 km/h, the 1.6-litre car's quoted maximum. Comfort 95/325, on the
+# line 180 + 1.5 x 95: a roomy, quiet family hatchback, the best of the three
+# Corolla generations built here. Classes 1,2.
+#
+# Dates are road presence: January 2002 intro, retires staggered 2015-2018 on a
+# thirteen- to sixteen-year tail.
+#
+# Metres master: citycars/4.5/toyota-corolla-e120.blend. Interchange:
+# citycars/4.5/toyota-corolla-e120.dae (55 objects). References:
+# citycars/references/toyota-corolla-e120/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the front bumper is squarer, the headlamps more faceted
+# and the door seams less distinct than the photographs. The top view confirms
+# a continuous painted roof and the windscreen is visible from the front. At
+# 128 px the tall body, the long roof and the steep hatch read as the
+# ninth-generation Corolla.
+
+obj=citycar
+name=ToyotaCorollaE120(LucerneSilver)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=2002
+intro_month=1
+retire_year=2018
+retire_month=6
+speed=185
+class=1,2
+maximum_comfortable_journey_minutes=95
+maximum_tolerable_journey_minutes=325
+
+Image[E]=./images/toyota-corolla-e120-lucernesilver_E.0.0,-33,14
+Image[SE]=./images/toyota-corolla-e120-lucernesilver_SE.0.0,-13,0
+Image[S]=./images/toyota-corolla-e120-lucernesilver_S.0.0,0,0
+Image[SW]=./images/toyota-corolla-e120-lucernesilver_SW.0.0,-8,10
+Image[W]=./images/toyota-corolla-e120-lucernesilver_W.0.0,4,5
+Image[NW]=./images/toyota-corolla-e120-lucernesilver_NW.0.0,12,10
+Image[N]=./images/toyota-corolla-e120-lucernesilver_N.0.0,0,33
+Image[NE]=./images/toyota-corolla-e120-lucernesilver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=ToyotaCorollaE120(PureWhite)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=2002
+intro_month=1
+retire_year=2018
+retire_month=6
+speed=185
+class=1,2
+maximum_comfortable_journey_minutes=95
+maximum_tolerable_journey_minutes=325
+
+Image[E]=./images/toyota-corolla-e120-purewhite_E.0.0,-33,14
+Image[SE]=./images/toyota-corolla-e120-purewhite_SE.0.0,-13,0
+Image[S]=./images/toyota-corolla-e120-purewhite_S.0.0,0,0
+Image[SW]=./images/toyota-corolla-e120-purewhite_SW.0.0,-8,10
+Image[W]=./images/toyota-corolla-e120-purewhite_W.0.0,4,5
+Image[NW]=./images/toyota-corolla-e120-purewhite_NW.0.0,12,10
+Image[N]=./images/toyota-corolla-e120-purewhite_N.0.0,0,33
+Image[NE]=./images/toyota-corolla-e120-purewhite_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=ToyotaCorollaE120(EclipseBlack)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=2002
+intro_month=1
+retire_year=2017
+retire_month=6
+speed=185
+class=1,2
+maximum_comfortable_journey_minutes=95
+maximum_tolerable_journey_minutes=325
+
+Image[E]=./images/toyota-corolla-e120-eclipseblack_E.0.0,-33,14
+Image[SE]=./images/toyota-corolla-e120-eclipseblack_SE.0.0,-13,0
+Image[S]=./images/toyota-corolla-e120-eclipseblack_S.0.0,0,0
+Image[SW]=./images/toyota-corolla-e120-eclipseblack_SW.0.0,-8,10
+Image[W]=./images/toyota-corolla-e120-eclipseblack_W.0.0,4,5
+Image[NW]=./images/toyota-corolla-e120-eclipseblack_NW.0.0,12,10
+Image[N]=./images/toyota-corolla-e120-eclipseblack_N.0.0,0,33
+Image[NE]=./images/toyota-corolla-e120-eclipseblack_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=ToyotaCorollaE120(SunburstRed)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=2002
+intro_month=1
+retire_year=2016
+retire_month=6
+speed=185
+class=1,2
+maximum_comfortable_journey_minutes=95
+maximum_tolerable_journey_minutes=325
+
+Image[E]=./images/toyota-corolla-e120-sunburstred_E.0.0,-33,14
+Image[SE]=./images/toyota-corolla-e120-sunburstred_SE.0.0,-13,0
+Image[S]=./images/toyota-corolla-e120-sunburstred_S.0.0,0,0
+Image[SW]=./images/toyota-corolla-e120-sunburstred_SW.0.0,-8,10
+Image[W]=./images/toyota-corolla-e120-sunburstred_W.0.0,4,5
+Image[NW]=./images/toyota-corolla-e120-sunburstred_NW.0.0,12,10
+Image[N]=./images/toyota-corolla-e120-sunburstred_N.0.0,0,33
+Image[NE]=./images/toyota-corolla-e120-sunburstred_NE.0.0,0,24

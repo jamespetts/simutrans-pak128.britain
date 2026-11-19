@@ -1,0 +1,140 @@
+# Toyota Yaris XP210 five-door hatchback, 2020 onwards.
+#
+# The fourth-generation Yaris, sold in Britain as a hybrid only. UK on sale
+# 3 August 2020, first customer deliveries September 2020, at £19,910 Icon,
+# £20,970 Design, £21,920 Dynamic, £22,220 Excel and £24,005 Launch Edition,
+# on the road. Replaced the XP130 after nine years.
+# https://media.toyota.co.uk/all-new-toyota-yaris-hybrid-launched-with-special-retail-offers/
+# https://xr793.com/wp-content/uploads/2022/12/2021-Toyota-Yaris-UK.pdf
+#
+# Dimensions 3.940 x 1.745 x 1.495 m, wheelbase 2.560 m, the European figures.
+# Source: English Wikipedia, "Toyota Yaris (XP210)" infobox: European wheelbase
+# 2,560 mm, length 3,940 mm, European width 1,745 mm, European height
+# 1,470-1,500 mm. The hull measures 1.745 m wide with the roof at 1.495 m and
+# the wheel centres 2.560 m apart; the assembly is 3.959 m long with the plates
+# and 1.940 m wide over the mirrors.
+#
+# Shape reference: image 1 is a near-side view from a motor show, not a strict
+# elevation, so the flank was built from it and from images 2 to 4 with the
+# wheel centres fixed by the published ratio. The blue car in image 4 carries a
+# contrasting black roof; the model does not, because the paint material covers
+# the roof and the two-tone option is a trim variant rather than a body shape.
+#
+# Colours are Toyota GB names from the 2021 brochure, evidence grade (a):
+# Pure White, Platinum White Pearl, Tyrol Silver, Decuma Grey, Eclipse Black,
+# Tokyo Red, Titan Bronze and Galactic Blue. Four are modelled: Tyrol Silver,
+# Pure White, Decuma Grey and Tokyo Red. Weights silver 3, white 3, grey 2,
+# red 2, total 10, provisional pending the central rebase.
+#
+# Speed 175 km/h, the hybrid's quoted maximum. Comfort 105/340, on the line
+# 180 + 1.5 x 105: a modern, quiet supermini, a step above the XP130. Classes
+# 0,1,2: it is the cheapest hybrid small car in the range and drifts down the
+# wealth bands as it ages, and the modern Very-low band needs a car that is not
+# a luxury model.
+#
+# Dates are road presence: August 2020 intro, retires staggered 2032-2035 on a
+# twelve- to fifteen-year tail.
+#
+# Metres master: citycars/4.5/toyota-yaris-xp210.blend. Interchange:
+# citycars/4.5/toyota-yaris-xp210.dae (54 objects). References:
+# citycars/references/toyota-yaris-xp210/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the rear side glass ends too sharply and the rear
+# quarter lacks the photograph's flare; the headlamp and bumper contours are
+# angular; the rear window is too small and too steeply raked; the bonnet
+# creases are shallow; the contrasting roof is deliberately not modelled. The
+# top view and the raised turn confirm a continuous body-coloured roof. At
+# 128 px the upright hatch, the squared-off tail and the large lower grille
+# read as the XP210.
+
+obj=citycar
+name=ToyotaYarisXP210(TyrolSilver)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=2020
+intro_month=8
+retire_year=2035
+retire_month=6
+speed=175
+class=0,1,2
+maximum_comfortable_journey_minutes=105
+maximum_tolerable_journey_minutes=340
+
+Image[E]=./images/toyota-yaris-xp210-tyrolsilver_E.0.0,-33,14
+Image[SE]=./images/toyota-yaris-xp210-tyrolsilver_SE.0.0,-13,0
+Image[S]=./images/toyota-yaris-xp210-tyrolsilver_S.0.0,0,0
+Image[SW]=./images/toyota-yaris-xp210-tyrolsilver_SW.0.0,-8,10
+Image[W]=./images/toyota-yaris-xp210-tyrolsilver_W.0.0,4,5
+Image[NW]=./images/toyota-yaris-xp210-tyrolsilver_NW.0.0,12,10
+Image[N]=./images/toyota-yaris-xp210-tyrolsilver_N.0.0,0,33
+Image[NE]=./images/toyota-yaris-xp210-tyrolsilver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=ToyotaYarisXP210(PureWhite)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=2020
+intro_month=8
+retire_year=2035
+retire_month=6
+speed=175
+class=0,1,2
+maximum_comfortable_journey_minutes=105
+maximum_tolerable_journey_minutes=340
+
+Image[E]=./images/toyota-yaris-xp210-purewhite_E.0.0,-33,14
+Image[SE]=./images/toyota-yaris-xp210-purewhite_SE.0.0,-13,0
+Image[S]=./images/toyota-yaris-xp210-purewhite_S.0.0,0,0
+Image[SW]=./images/toyota-yaris-xp210-purewhite_SW.0.0,-8,10
+Image[W]=./images/toyota-yaris-xp210-purewhite_W.0.0,4,5
+Image[NW]=./images/toyota-yaris-xp210-purewhite_NW.0.0,12,10
+Image[N]=./images/toyota-yaris-xp210-purewhite_N.0.0,0,33
+Image[NE]=./images/toyota-yaris-xp210-purewhite_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=ToyotaYarisXP210(DecumaGrey)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=2020
+intro_month=8
+retire_year=2034
+retire_month=6
+speed=175
+class=0,1,2
+maximum_comfortable_journey_minutes=105
+maximum_tolerable_journey_minutes=340
+
+Image[E]=./images/toyota-yaris-xp210-decumagrey_E.0.0,-33,14
+Image[SE]=./images/toyota-yaris-xp210-decumagrey_SE.0.0,-13,0
+Image[S]=./images/toyota-yaris-xp210-decumagrey_S.0.0,0,0
+Image[SW]=./images/toyota-yaris-xp210-decumagrey_SW.0.0,-8,10
+Image[W]=./images/toyota-yaris-xp210-decumagrey_W.0.0,4,5
+Image[NW]=./images/toyota-yaris-xp210-decumagrey_NW.0.0,12,10
+Image[N]=./images/toyota-yaris-xp210-decumagrey_N.0.0,0,33
+Image[NE]=./images/toyota-yaris-xp210-decumagrey_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=ToyotaYarisXP210(TokyoRed)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=2020
+intro_month=8
+retire_year=2033
+retire_month=6
+speed=175
+class=0,1,2
+maximum_comfortable_journey_minutes=105
+maximum_tolerable_journey_minutes=340
+
+Image[E]=./images/toyota-yaris-xp210-tokyored_E.0.0,-33,14
+Image[SE]=./images/toyota-yaris-xp210-tokyored_SE.0.0,-13,0
+Image[S]=./images/toyota-yaris-xp210-tokyored_S.0.0,0,0
+Image[SW]=./images/toyota-yaris-xp210-tokyored_SW.0.0,-8,10
+Image[W]=./images/toyota-yaris-xp210-tokyored_W.0.0,4,5
+Image[NW]=./images/toyota-yaris-xp210-tokyored_NW.0.0,12,10
+Image[N]=./images/toyota-yaris-xp210-tokyored_N.0.0,0,33
+Image[NE]=./images/toyota-yaris-xp210-tokyored_NE.0.0,0,24

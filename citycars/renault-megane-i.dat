@@ -1,0 +1,140 @@
+# Renault Megane I five-door hatchback, 1996-2002.
+#
+# The first-generation Megane. UK on sale in April 1996, roughly half a year
+# after France and hatchback-first; replaced in 2002 by the Megane II. The
+# Phase II facelift of 1999 is the shape modelled, because every usable
+# reference photograph is of a Phase II car; the object therefore carries the
+# generation's UK intro date with the later nose, as the Corolla E120 does.
+# https://www.renault.co.uk/ (Megane model page, cited in the reference pack)
+#
+# Dimensions 4.164 x 1.699 x 1.420 m, wheelbase 2.580 m. Source: the reference
+# pack's notes, which give a 4.129-4.164 m length range across Phase I and
+# Phase II hatchbacks; the Phase II figure is used. Wheelbase-to-length ratio
+# 62.0 per cent. Mirrors extend beyond the 1.699 m hull.
+#
+# Shape reference: image 1 is a near-side elevation but not a true one (its
+# apparent wheelbase ratio is 67.7 per cent, so the camera is slightly ahead of
+# the side axis); it was used qualitatively for the roof line, waistline, door
+# cuts and arches, and the model was compared at that angle. Image 2 supplied
+# the Phase II twin grille and swept lamps. Image 3 supplied the tail: a
+# distinctly sloped rear glass above a more upright tail panel, which the
+# builder correctly preferred to the brief's wording.
+#
+# Colours are the only British names evidenced: a period newspaper
+# (Clitheroe Advertiser & Times, 15 October 1998) lists used Meganes in Iceberg
+# Silver, Naples Red, Ascot Green, Goodwood Green, Adriatic Blue, Midnight
+# Blue, Capsicum Red, Monaco Blue and Sunflower Yellow, evidence grade (c). No
+# Renault UK brochure with a full colour chart was found, so the complete
+# palette is grade (d) and no French names have been substituted. Four are
+# modelled: Iceberg Silver, Naples Red, Monaco Blue and Ascot Green. Weights
+# silver 3, red 3, blue 2, green 2, total 10, provisional pending the central
+# rebase.
+#
+# Speed 180 km/h, the 1.6-litre car's quoted maximum. Comfort 80/300, on the
+# line 180 + 1.5 x 80: a comfortable, quiet family hatchback for its class.
+# Classes 1,2.
+#
+# Dates are road presence: April 1996 intro, retires staggered 2012-2015 on a
+# sixteen- to nineteen-year tail.
+#
+# Metres master: citycars/4.5/renault-megane-i.blend. Interchange:
+# citycars/4.5/renault-megane-i.dae (76 objects). References:
+# citycars/references/renault-megane-i/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the lower sill and arch transitions are more angular
+# than the photographs, the lamp lenses are shallow, the bumper corners square
+# and the tail lamps too short vertically. The top view and eight-view turn
+# confirm a continuous body-coloured roof. At 128 px the rounded nose, the tall
+# cabin and the sloped hatch glass read as the first Megane.
+
+obj=citycar
+name=RenaultMeganeI(IcebergSilver)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1996
+intro_month=4
+retire_year=2015
+retire_month=6
+speed=180
+class=1,2
+maximum_comfortable_journey_minutes=80
+maximum_tolerable_journey_minutes=300
+
+Image[E]=./images/renault-megane-i-icebergsilver_E.0.0,-33,14
+Image[SE]=./images/renault-megane-i-icebergsilver_SE.0.0,-13,0
+Image[S]=./images/renault-megane-i-icebergsilver_S.0.0,0,0
+Image[SW]=./images/renault-megane-i-icebergsilver_SW.0.0,-8,10
+Image[W]=./images/renault-megane-i-icebergsilver_W.0.0,4,5
+Image[NW]=./images/renault-megane-i-icebergsilver_NW.0.0,12,10
+Image[N]=./images/renault-megane-i-icebergsilver_N.0.0,0,33
+Image[NE]=./images/renault-megane-i-icebergsilver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RenaultMeganeI(NaplesRed)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1996
+intro_month=4
+retire_year=2015
+retire_month=6
+speed=180
+class=1,2
+maximum_comfortable_journey_minutes=80
+maximum_tolerable_journey_minutes=300
+
+Image[E]=./images/renault-megane-i-naplesred_E.0.0,-33,14
+Image[SE]=./images/renault-megane-i-naplesred_SE.0.0,-13,0
+Image[S]=./images/renault-megane-i-naplesred_S.0.0,0,0
+Image[SW]=./images/renault-megane-i-naplesred_SW.0.0,-8,10
+Image[W]=./images/renault-megane-i-naplesred_W.0.0,4,5
+Image[NW]=./images/renault-megane-i-naplesred_NW.0.0,12,10
+Image[N]=./images/renault-megane-i-naplesred_N.0.0,0,33
+Image[NE]=./images/renault-megane-i-naplesred_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RenaultMeganeI(MonacoBlue)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1996
+intro_month=4
+retire_year=2014
+retire_month=6
+speed=180
+class=1,2
+maximum_comfortable_journey_minutes=80
+maximum_tolerable_journey_minutes=300
+
+Image[E]=./images/renault-megane-i-monacoblue_E.0.0,-33,14
+Image[SE]=./images/renault-megane-i-monacoblue_SE.0.0,-13,0
+Image[S]=./images/renault-megane-i-monacoblue_S.0.0,0,0
+Image[SW]=./images/renault-megane-i-monacoblue_SW.0.0,-8,10
+Image[W]=./images/renault-megane-i-monacoblue_W.0.0,4,5
+Image[NW]=./images/renault-megane-i-monacoblue_NW.0.0,12,10
+Image[N]=./images/renault-megane-i-monacoblue_N.0.0,0,33
+Image[NE]=./images/renault-megane-i-monacoblue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RenaultMeganeI(AscotGreen)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1996
+intro_month=4
+retire_year=2013
+retire_month=6
+speed=180
+class=1,2
+maximum_comfortable_journey_minutes=80
+maximum_tolerable_journey_minutes=300
+
+Image[E]=./images/renault-megane-i-ascotgreen_E.0.0,-33,14
+Image[SE]=./images/renault-megane-i-ascotgreen_SE.0.0,-13,0
+Image[S]=./images/renault-megane-i-ascotgreen_S.0.0,0,0
+Image[SW]=./images/renault-megane-i-ascotgreen_SW.0.0,-8,10
+Image[W]=./images/renault-megane-i-ascotgreen_W.0.0,4,5
+Image[NW]=./images/renault-megane-i-ascotgreen_NW.0.0,12,10
+Image[N]=./images/renault-megane-i-ascotgreen_N.0.0,0,33
+Image[NE]=./images/renault-megane-i-ascotgreen_NE.0.0,0,24

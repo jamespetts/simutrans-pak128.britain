@@ -1,0 +1,139 @@
+# Toyota Yaris XP10 three-door hatchback, 1999-2005.
+#
+# The first-generation Yaris, the car that replaced the Starlet in Britain and
+# won European Car of the Year. UK on sale 8 April 1999 at £7,495 for the entry
+# car, up to £10,995 on the road, and replaced by the XP90 in January 2006.
+# https://media.toyota.co.uk/the-new-toyota-yaris-2/
+# https://media.toyota.co.uk/wp-content/uploads/sites/5/pdf/Gen1-Yaris-archive-press-pack.pdf
+#
+# Dimensions 3.615 x 1.660 x 1.500 m, wheelbase 2.370 m. Source: English
+# Wikipedia, "Toyota Vitz", first-generation XP10 infobox: wheelbase 2,370 mm,
+# length 3,615 mm for 1998-2001 and 3,640 mm for 2001-2005, width 1,660 mm,
+# height 1,500 mm for front-wheel drive. The 3.615 m figure is modelled because
+# the photographs are of the early shape. The hull measures 3.615 x 1.660 m on
+# a 2.370 m wheelbase, 65.6 per cent. Mirrors take the modelled width to 1.828 m.
+#
+# Shape reference: the pack holds a rear-left three-quarter of a red three-door,
+# a front-right three-quarter of a gold three-door and a rear view of the same
+# gold car, plus one interior photograph that carries no body information and
+# was excluded. No true side elevation exists, so the flank was built from the
+# photographs with the wheel centres fixed by the published ratio. Both cars
+# are the pre-facelift three-door, and that is what is modelled.
+#
+# Colours: no Toyota GB colour list for the 1999-2004 car was found. The names
+# used here are the Toyota GB brochure names for the 2005 model year, evidence
+# grade (a), applied to the earlier car as the nearest documented British
+# palette: Crystal Silver, Cirrus White, Eclipse Black, Chilli Red. Weights
+# silver 3, white 3, red 2, black 2, total 10, provisional pending the central
+# rebase.
+#
+# Speed 165 km/h, between the 1.0-litre car's 155 and the 1.3-litre car's
+# quoted maximum. Comfort 65/280, on the line 180 + 1.5 x 65: small and light,
+# but well built and quiet for its class. Classes 0,1,2, because it was cheap
+# enough to be the first car of a low-income household and drifted down the
+# bands as it aged.
+#
+# Dates are road presence: April 1999 intro, retires staggered 2011-2014 on a
+# twelve- to fifteen-year tail.
+#
+# Metres master: citycars/4.5/toyota-yaris-xp10.blend. Interchange:
+# citycars/4.5/toyota-yaris-xp10.dae (75 objects). References:
+# citycars/references/toyota-yaris-xp10/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the rear pillar is broader than the photographs, the
+# headlamp outlines are angular rather than rounded, and the hatch perimeter
+# and bumper contours are less defined. The top view and the eight-view turn
+# confirm a continuous body-coloured roof. At 128 px the tall body, the short
+# overhangs and the rounded nose read as the first Yaris.
+
+obj=citycar
+name=ToyotaYarisXP10(CrystalSilver)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1999
+intro_month=4
+retire_year=2014
+retire_month=6
+speed=165
+class=0,1,2
+maximum_comfortable_journey_minutes=65
+maximum_tolerable_journey_minutes=280
+
+Image[E]=./images/toyota-yaris-xp10-crystalsilver_E.0.0,-33,14
+Image[SE]=./images/toyota-yaris-xp10-crystalsilver_SE.0.0,-13,0
+Image[S]=./images/toyota-yaris-xp10-crystalsilver_S.0.0,0,0
+Image[SW]=./images/toyota-yaris-xp10-crystalsilver_SW.0.0,-8,10
+Image[W]=./images/toyota-yaris-xp10-crystalsilver_W.0.0,4,5
+Image[NW]=./images/toyota-yaris-xp10-crystalsilver_NW.0.0,12,10
+Image[N]=./images/toyota-yaris-xp10-crystalsilver_N.0.0,0,33
+Image[NE]=./images/toyota-yaris-xp10-crystalsilver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=ToyotaYarisXP10(CirrusWhite)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1999
+intro_month=4
+retire_year=2014
+retire_month=6
+speed=165
+class=0,1,2
+maximum_comfortable_journey_minutes=65
+maximum_tolerable_journey_minutes=280
+
+Image[E]=./images/toyota-yaris-xp10-cirruswhite_E.0.0,-33,14
+Image[SE]=./images/toyota-yaris-xp10-cirruswhite_SE.0.0,-13,0
+Image[S]=./images/toyota-yaris-xp10-cirruswhite_S.0.0,0,0
+Image[SW]=./images/toyota-yaris-xp10-cirruswhite_SW.0.0,-8,10
+Image[W]=./images/toyota-yaris-xp10-cirruswhite_W.0.0,4,5
+Image[NW]=./images/toyota-yaris-xp10-cirruswhite_NW.0.0,12,10
+Image[N]=./images/toyota-yaris-xp10-cirruswhite_N.0.0,0,33
+Image[NE]=./images/toyota-yaris-xp10-cirruswhite_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=ToyotaYarisXP10(EclipseBlack)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1999
+intro_month=4
+retire_year=2013
+retire_month=6
+speed=165
+class=0,1,2
+maximum_comfortable_journey_minutes=65
+maximum_tolerable_journey_minutes=280
+
+Image[E]=./images/toyota-yaris-xp10-eclipseblack_E.0.0,-33,14
+Image[SE]=./images/toyota-yaris-xp10-eclipseblack_SE.0.0,-13,0
+Image[S]=./images/toyota-yaris-xp10-eclipseblack_S.0.0,0,0
+Image[SW]=./images/toyota-yaris-xp10-eclipseblack_SW.0.0,-8,10
+Image[W]=./images/toyota-yaris-xp10-eclipseblack_W.0.0,4,5
+Image[NW]=./images/toyota-yaris-xp10-eclipseblack_NW.0.0,12,10
+Image[N]=./images/toyota-yaris-xp10-eclipseblack_N.0.0,0,33
+Image[NE]=./images/toyota-yaris-xp10-eclipseblack_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=ToyotaYarisXP10(ChilliRed)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1999
+intro_month=4
+retire_year=2012
+retire_month=6
+speed=165
+class=0,1,2
+maximum_comfortable_journey_minutes=65
+maximum_tolerable_journey_minutes=280
+
+Image[E]=./images/toyota-yaris-xp10-chillired_E.0.0,-33,14
+Image[SE]=./images/toyota-yaris-xp10-chillired_SE.0.0,-13,0
+Image[S]=./images/toyota-yaris-xp10-chillired_S.0.0,0,0
+Image[SW]=./images/toyota-yaris-xp10-chillired_SW.0.0,-8,10
+Image[W]=./images/toyota-yaris-xp10-chillired_W.0.0,4,5
+Image[NW]=./images/toyota-yaris-xp10-chillired_NW.0.0,12,10
+Image[N]=./images/toyota-yaris-xp10-chillired_N.0.0,0,33
+Image[NE]=./images/toyota-yaris-xp10-chillired_NE.0.0,0,24

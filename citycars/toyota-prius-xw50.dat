@@ -1,0 +1,137 @@
+# Toyota Prius XW50 five-door hatchback, 2016-2021.
+#
+# The fourth-generation Prius. UK order books opened 6 November 2015 and the
+# first customer cars were delivered on 1 March 2016; Toyota GB stopped taking
+# orders in January 2022. Launch prices £23,295 Active, £24,195 Business
+# Edition, £25,995 Business Edition Plus and £27,450 Excel, on the road.
+# https://media.toyota.co.uk/new-toyota-prius-uk-range-and-prices-announced/
+# https://media.toyota.co.uk/wp-content/uploads/sites/5/pdf/Prius-Gen4-launch-pack.pdf
+#
+# Dimensions 4.572 x 1.760 x 1.471 m, wheelbase 2.700 m. Source: English
+# Wikipedia, "Toyota Prius (XW50)" infobox (180.0 in x 69.3 in x 57.9 in on a
+# 106.3 in wheelbase). The hull measures 4.561 m long, 11 mm short of the
+# published figure, and 1.760 m wide, with the wheel centres 2.700 m apart
+# (59.1 per cent of length). Mirrors take the modelled width to 1.924 m.
+#
+# Shape reference: all four photographs are three-quarter views, so the flank
+# and the roof line were built from them with the wheel centres fixed by the
+# published ratio. The car is the pre-facelift 2016-2018 shape: headlamps that
+# sweep to a point over the wing and vertical triangular blades at the lower
+# bumper corners. The 2019 facelift is not represented.
+#
+# Colours are Toyota GB names, evidence grade (a) for the 2018 brochure and
+# (b) for the November 2015 launch pack: Galaxy Black, Pure White, Pearl White,
+# Hypersonic Red, Galactic Blue, Tyrol Silver and Decuma Grey. Four of them are
+# modelled: Tyrol Silver, Pure White, Galactic Blue and Hypersonic Red. Weights
+# silver 3, white 3, blue 2, red 2, total 10, provisional pending the central
+# rebase.
+#
+# Speed 180 km/h, the car's quoted maximum. Comfort 115/355, on the line
+# 180 + 1.5 x 115: the most refined Prius of the three on the road together
+# after 2016. Classes 2,3.
+#
+# Dates are road presence: March 2016 intro, retires staggered 2028-2031 on a
+# twelve- to fifteen-year tail.
+#
+# Metres master: citycars/4.5/toyota-prius-xw50.blend. Interchange:
+# citycars/4.5/toyota-prius-xw50.dae (93 objects). References:
+# citycars/references/toyota-prius-xw50/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the flank is flatter and the wheel arches less sculpted
+# than the photographs; the bonnet V and the bumper contours are shallow; the
+# rear bumper is less rounded and the spoiler less pronounced; the roof arc is
+# flatter than the real car's. The top view confirms a continuous painted roof
+# between the windscreen and the hatch glass. At 128 px the low pointed nose,
+# the rising belt line and the vertical tail lamps read as the XW50.
+
+obj=citycar
+name=ToyotaPriusXW50(TyrolSilver)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=2016
+intro_month=3
+retire_year=2031
+retire_month=6
+speed=180
+class=2,3
+maximum_comfortable_journey_minutes=115
+maximum_tolerable_journey_minutes=355
+
+Image[E]=./images/toyota-prius-xw50-tyrolsilver_E.0.0,-33,14
+Image[SE]=./images/toyota-prius-xw50-tyrolsilver_SE.0.0,-13,0
+Image[S]=./images/toyota-prius-xw50-tyrolsilver_S.0.0,0,0
+Image[SW]=./images/toyota-prius-xw50-tyrolsilver_SW.0.0,-8,10
+Image[W]=./images/toyota-prius-xw50-tyrolsilver_W.0.0,4,5
+Image[NW]=./images/toyota-prius-xw50-tyrolsilver_NW.0.0,12,10
+Image[N]=./images/toyota-prius-xw50-tyrolsilver_N.0.0,0,33
+Image[NE]=./images/toyota-prius-xw50-tyrolsilver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=ToyotaPriusXW50(PureWhite)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=2016
+intro_month=3
+retire_year=2031
+retire_month=6
+speed=180
+class=2,3
+maximum_comfortable_journey_minutes=115
+maximum_tolerable_journey_minutes=355
+
+Image[E]=./images/toyota-prius-xw50-purewhite_E.0.0,-33,14
+Image[SE]=./images/toyota-prius-xw50-purewhite_SE.0.0,-13,0
+Image[S]=./images/toyota-prius-xw50-purewhite_S.0.0,0,0
+Image[SW]=./images/toyota-prius-xw50-purewhite_SW.0.0,-8,10
+Image[W]=./images/toyota-prius-xw50-purewhite_W.0.0,4,5
+Image[NW]=./images/toyota-prius-xw50-purewhite_NW.0.0,12,10
+Image[N]=./images/toyota-prius-xw50-purewhite_N.0.0,0,33
+Image[NE]=./images/toyota-prius-xw50-purewhite_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=ToyotaPriusXW50(GalacticBlue)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=2016
+intro_month=3
+retire_year=2030
+retire_month=6
+speed=180
+class=2,3
+maximum_comfortable_journey_minutes=115
+maximum_tolerable_journey_minutes=355
+
+Image[E]=./images/toyota-prius-xw50-galacticblue_E.0.0,-33,14
+Image[SE]=./images/toyota-prius-xw50-galacticblue_SE.0.0,-13,0
+Image[S]=./images/toyota-prius-xw50-galacticblue_S.0.0,0,0
+Image[SW]=./images/toyota-prius-xw50-galacticblue_SW.0.0,-8,10
+Image[W]=./images/toyota-prius-xw50-galacticblue_W.0.0,4,5
+Image[NW]=./images/toyota-prius-xw50-galacticblue_NW.0.0,12,10
+Image[N]=./images/toyota-prius-xw50-galacticblue_N.0.0,0,33
+Image[NE]=./images/toyota-prius-xw50-galacticblue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=ToyotaPriusXW50(HypersonicRed)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=2016
+intro_month=3
+retire_year=2029
+retire_month=6
+speed=180
+class=2,3
+maximum_comfortable_journey_minutes=115
+maximum_tolerable_journey_minutes=355
+
+Image[E]=./images/toyota-prius-xw50-hypersonicred_E.0.0,-33,14
+Image[SE]=./images/toyota-prius-xw50-hypersonicred_SE.0.0,-13,0
+Image[S]=./images/toyota-prius-xw50-hypersonicred_S.0.0,0,0
+Image[SW]=./images/toyota-prius-xw50-hypersonicred_SW.0.0,-8,10
+Image[W]=./images/toyota-prius-xw50-hypersonicred_W.0.0,4,5
+Image[NW]=./images/toyota-prius-xw50-hypersonicred_NW.0.0,12,10
+Image[N]=./images/toyota-prius-xw50-hypersonicred_N.0.0,0,33
+Image[NE]=./images/toyota-prius-xw50-hypersonicred_NE.0.0,0,24

@@ -1,0 +1,134 @@
+# Toyota Prius XW20 five-door hatchback, 2004-2009.
+#
+# The second-generation Prius, the car that made the name a common sight in
+# Britain. UK on sale 2 January 2004 at £17,495 for the T3, £18,295 for the T4
+# and £19,995 for the T Spirit, on the road and excluding the £1,000 PowerShift
+# grant; sold until 2009, when the XW30 replaced it.
+# https://media.toyota.co.uk/wp-content/uploads/sites/5/pdf/Prius-gen2-UK-launch-pack-2003.pdf
+# https://mag.toyota.co.uk/history-toyota-prius/
+#
+# Dimensions 4.450 x 1.725 x 1.490 m, wheelbase 2.700 m. Source: English
+# Wikipedia, "Toyota Prius (XW20)" infobox (NHW20). Mirrors take the modelled
+# width to 1.961 m.
+#
+# Shape reference: no true side-elevation photograph of the XW20 was available
+# when the car was built. The pack's image 1 is a shallow front-left
+# three-quarter, and Wikimedia Commons was rate-limiting this machine on
+# 2026-11-18 when a profile was sought. The flank was therefore built from the
+# three-quarter photographs and the published dimensions, with the wheel
+# centres set at the published wheelbase-to-length ratio of 60.7 per cent.
+#
+# Colours are Toyota GB brochure names, evidence grade (a): the 2005 and 2007
+# UK brochures list Pure White, Decuma Grey, Vermillion Red, Verbier Green,
+# Tyrol Silver, Astral Black, Aztec Bronze and Glacier Blue. Four common
+# British finishes are modelled: Tyrol Silver, Pure White, Astral Black and
+# Glacier Blue. Weights silver 3, white 3, black 2, blue 2, total 10,
+# provisional pending the central rebase.
+#
+# Speed 180 km/h, the car's quoted maximum. Comfort 105/340, on the line
+# 180 + 1.5 x 105: quiet and smooth, a step above the Corolla E120 and below
+# the larger hybrid saloons. Classes 2,3.
+#
+# Dates are road presence: January 2004 intro, retires staggered 2016-2019 on a
+# twelve- to fifteen-year tail.
+#
+# Metres master: citycars/4.5/toyota-prius-xw20.blend. Interchange:
+# citycars/4.5/toyota-prius-xw20.dae (84 objects). References:
+# citycars/references/toyota-prius-xw20/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the nose and the rear bumper are squarer than the
+# photographs, and the headlamp units do not sweep as far down into the front
+# corners as the real car's. At 128 px the one-box arc, the high tail and the
+# split hatch glass read as the second-generation Prius.
+
+obj=citycar
+name=ToyotaPriusXW20(TyrolSilver)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=2004
+intro_month=1
+retire_year=2019
+retire_month=6
+speed=180
+class=2,3
+maximum_comfortable_journey_minutes=105
+maximum_tolerable_journey_minutes=340
+
+Image[E]=./images/toyota-prius-xw20-tyrolsilver_E.0.0,-33,14
+Image[SE]=./images/toyota-prius-xw20-tyrolsilver_SE.0.0,-13,0
+Image[S]=./images/toyota-prius-xw20-tyrolsilver_S.0.0,0,0
+Image[SW]=./images/toyota-prius-xw20-tyrolsilver_SW.0.0,-8,10
+Image[W]=./images/toyota-prius-xw20-tyrolsilver_W.0.0,4,5
+Image[NW]=./images/toyota-prius-xw20-tyrolsilver_NW.0.0,12,10
+Image[N]=./images/toyota-prius-xw20-tyrolsilver_N.0.0,0,33
+Image[NE]=./images/toyota-prius-xw20-tyrolsilver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=ToyotaPriusXW20(PureWhite)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=2004
+intro_month=1
+retire_year=2019
+retire_month=6
+speed=180
+class=2,3
+maximum_comfortable_journey_minutes=105
+maximum_tolerable_journey_minutes=340
+
+Image[E]=./images/toyota-prius-xw20-purewhite_E.0.0,-33,14
+Image[SE]=./images/toyota-prius-xw20-purewhite_SE.0.0,-13,0
+Image[S]=./images/toyota-prius-xw20-purewhite_S.0.0,0,0
+Image[SW]=./images/toyota-prius-xw20-purewhite_SW.0.0,-8,10
+Image[W]=./images/toyota-prius-xw20-purewhite_W.0.0,4,5
+Image[NW]=./images/toyota-prius-xw20-purewhite_NW.0.0,12,10
+Image[N]=./images/toyota-prius-xw20-purewhite_N.0.0,0,33
+Image[NE]=./images/toyota-prius-xw20-purewhite_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=ToyotaPriusXW20(AstralBlack)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=2004
+intro_month=1
+retire_year=2018
+retire_month=6
+speed=180
+class=2,3
+maximum_comfortable_journey_minutes=105
+maximum_tolerable_journey_minutes=340
+
+Image[E]=./images/toyota-prius-xw20-astralblack_E.0.0,-33,14
+Image[SE]=./images/toyota-prius-xw20-astralblack_SE.0.0,-13,0
+Image[S]=./images/toyota-prius-xw20-astralblack_S.0.0,0,0
+Image[SW]=./images/toyota-prius-xw20-astralblack_SW.0.0,-8,10
+Image[W]=./images/toyota-prius-xw20-astralblack_W.0.0,4,5
+Image[NW]=./images/toyota-prius-xw20-astralblack_NW.0.0,12,10
+Image[N]=./images/toyota-prius-xw20-astralblack_N.0.0,0,33
+Image[NE]=./images/toyota-prius-xw20-astralblack_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=ToyotaPriusXW20(GlacierBlue)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=2004
+intro_month=1
+retire_year=2017
+retire_month=6
+speed=180
+class=2,3
+maximum_comfortable_journey_minutes=105
+maximum_tolerable_journey_minutes=340
+
+Image[E]=./images/toyota-prius-xw20-glacierblue_E.0.0,-33,14
+Image[SE]=./images/toyota-prius-xw20-glacierblue_SE.0.0,-13,0
+Image[S]=./images/toyota-prius-xw20-glacierblue_S.0.0,0,0
+Image[SW]=./images/toyota-prius-xw20-glacierblue_SW.0.0,-8,10
+Image[W]=./images/toyota-prius-xw20-glacierblue_W.0.0,4,5
+Image[NW]=./images/toyota-prius-xw20-glacierblue_NW.0.0,12,10
+Image[N]=./images/toyota-prius-xw20-glacierblue_N.0.0,0,33
+Image[NE]=./images/toyota-prius-xw20-glacierblue_NE.0.0,0,24

@@ -26,7 +26,7 @@ intro_month=1
 retire_year=2018
 retire_month=6
 speed=220
-class=2,3
+class=1,2
 maximum_comfortable_journey_minutes=125
 maximum_tolerable_journey_minutes=370
 
@@ -49,7 +49,7 @@ intro_month=1
 retire_year=2017
 retire_month=6
 speed=220
-class=2,3
+class=1,2
 maximum_comfortable_journey_minutes=125
 maximum_tolerable_journey_minutes=370
 
@@ -72,7 +72,7 @@ intro_month=1
 retire_year=2016
 retire_month=6
 speed=220
-class=2,3
+class=1,2
 maximum_comfortable_journey_minutes=125
 maximum_tolerable_journey_minutes=370
 
@@ -95,7 +95,7 @@ intro_month=3
 retire_year=2015
 retire_month=6
 speed=220
-class=2,3
+class=1,2
 maximum_comfortable_journey_minutes=125
 maximum_tolerable_journey_minutes=370
 

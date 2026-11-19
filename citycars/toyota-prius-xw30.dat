@@ -1,0 +1,139 @@
+# Toyota Prius XW30 five-door hatchback, 2009-2016.
+#
+# The third-generation Prius. UK sales launch August 2009 at £18,370 for the T3,
+# on the road; sold through 2016, when the XW50 replaced it.
+# https://media.toyota.co.uk/wp-content/uploads/sites/5/pdf/Prius-gen3-UK-launch-pack-2009.pdf
+# https://media.toyota.co.uk/wp-content/uploads/sites/5/pdf/Prius-archive-timeline.pdf
+#
+# Dimensions 4.460 x 1.745 x 1.480 m, wheelbase 2.700 m. Source: English
+# Wikipedia, "Toyota Prius (XW30)" infobox, 2010-2011 figures; the late-2011
+# facelift grew the car by about 20 mm in length and 10 mm in height, and the
+# pre-facelift car is the one modelled. The hull measures 4.460 x 1.745 m with
+# the roof at 1.480 m and the wheel centres 2.700 m apart (60.5 per cent of
+# length). Mirrors and plates extend beyond the hull.
+#
+# Shape reference: the pack's image 1 is a shallow front-left three-quarter,
+# not a true elevation, so the flank was built from it and from images 2 to 4
+# with the wheel centres fixed by the published ratio. A true elevation was
+# rendered for the Gate B comparison.
+#
+# Colours are Toyota GB brochure names, evidence grade (a): the July 2009
+# brochure lists Pure White, Tyrol Silver, Astral Black, Novus Grey, Orion
+# Blue, White Pearl and Vermillion Red; the March 2012 brochure adds Cabernet
+# Red and Dark Blue. Four common British finishes are modelled: Tyrol Silver,
+# Pure White, Astral Black and Orion Blue. The 2009 launch pack calls the grey
+# "Abyss Grey"; the brochure's Novus Grey is the British name, and that
+# discrepancy is recorded here though the grey is not modelled. Weights silver
+# 3, white 3, black 2, blue 2, total 10, provisional pending the central
+# rebase.
+#
+# Speed 180 km/h, the car's quoted maximum. Comfort 110/345, on the line
+# 180 + 1.5 x 110: roomier and quieter than the XW20, a step below the XW50.
+# Classes 2,3.
+#
+# Dates are road presence: August 2009 intro, retires staggered 2021-2024 on a
+# twelve- to fifteen-year tail.
+#
+# Metres master: citycars/4.5/toyota-prius-xw30.blend. Interchange:
+# citycars/4.5/toyota-prius-xw30.dae (73 objects). References:
+# citycars/references/toyota-prius-xw30/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the front bumper corners are squarer than the
+# photographs and the headlamp faces read thin; the tail lamp clusters are
+# narrower and the rear bumper flatter than the real car's; the side-window
+# divisions are more angular. The top view confirms a continuous
+# body-coloured roof between the windscreen and the upper hatch glass. At
+# 128 px the wedge nose, the rising belt line and the split rear glazing read
+# as the third-generation Prius.
+
+obj=citycar
+name=ToyotaPriusXW30(TyrolSilver)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=2009
+intro_month=8
+retire_year=2024
+retire_month=6
+speed=180
+class=2,3
+maximum_comfortable_journey_minutes=110
+maximum_tolerable_journey_minutes=345
+
+Image[E]=./images/toyota-prius-xw30-tyrolsilver_E.0.0,-33,14
+Image[SE]=./images/toyota-prius-xw30-tyrolsilver_SE.0.0,-13,0
+Image[S]=./images/toyota-prius-xw30-tyrolsilver_S.0.0,0,0
+Image[SW]=./images/toyota-prius-xw30-tyrolsilver_SW.0.0,-8,10
+Image[W]=./images/toyota-prius-xw30-tyrolsilver_W.0.0,4,5
+Image[NW]=./images/toyota-prius-xw30-tyrolsilver_NW.0.0,12,10
+Image[N]=./images/toyota-prius-xw30-tyrolsilver_N.0.0,0,33
+Image[NE]=./images/toyota-prius-xw30-tyrolsilver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=ToyotaPriusXW30(PureWhite)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=2009
+intro_month=8
+retire_year=2024
+retire_month=6
+speed=180
+class=2,3
+maximum_comfortable_journey_minutes=110
+maximum_tolerable_journey_minutes=345
+
+Image[E]=./images/toyota-prius-xw30-purewhite_E.0.0,-33,14
+Image[SE]=./images/toyota-prius-xw30-purewhite_SE.0.0,-13,0
+Image[S]=./images/toyota-prius-xw30-purewhite_S.0.0,0,0
+Image[SW]=./images/toyota-prius-xw30-purewhite_SW.0.0,-8,10
+Image[W]=./images/toyota-prius-xw30-purewhite_W.0.0,4,5
+Image[NW]=./images/toyota-prius-xw30-purewhite_NW.0.0,12,10
+Image[N]=./images/toyota-prius-xw30-purewhite_N.0.0,0,33
+Image[NE]=./images/toyota-prius-xw30-purewhite_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=ToyotaPriusXW30(AstralBlack)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=2009
+intro_month=8
+retire_year=2023
+retire_month=6
+speed=180
+class=2,3
+maximum_comfortable_journey_minutes=110
+maximum_tolerable_journey_minutes=345
+
+Image[E]=./images/toyota-prius-xw30-astralblack_E.0.0,-33,14
+Image[SE]=./images/toyota-prius-xw30-astralblack_SE.0.0,-13,0
+Image[S]=./images/toyota-prius-xw30-astralblack_S.0.0,0,0
+Image[SW]=./images/toyota-prius-xw30-astralblack_SW.0.0,-8,10
+Image[W]=./images/toyota-prius-xw30-astralblack_W.0.0,4,5
+Image[NW]=./images/toyota-prius-xw30-astralblack_NW.0.0,12,10
+Image[N]=./images/toyota-prius-xw30-astralblack_N.0.0,0,33
+Image[NE]=./images/toyota-prius-xw30-astralblack_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=ToyotaPriusXW30(OrionBlue)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=2009
+intro_month=8
+retire_year=2022
+retire_month=6
+speed=180
+class=2,3
+maximum_comfortable_journey_minutes=110
+maximum_tolerable_journey_minutes=345
+
+Image[E]=./images/toyota-prius-xw30-orionblue_E.0.0,-33,14
+Image[SE]=./images/toyota-prius-xw30-orionblue_SE.0.0,-13,0
+Image[S]=./images/toyota-prius-xw30-orionblue_S.0.0,0,0
+Image[SW]=./images/toyota-prius-xw30-orionblue_SW.0.0,-8,10
+Image[W]=./images/toyota-prius-xw30-orionblue_W.0.0,4,5
+Image[NW]=./images/toyota-prius-xw30-orionblue_NW.0.0,12,10
+Image[N]=./images/toyota-prius-xw30-orionblue_N.0.0,0,33
+Image[NE]=./images/toyota-prius-xw30-orionblue_NE.0.0,0,24
