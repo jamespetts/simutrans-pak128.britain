@@ -1,0 +1,122 @@
+# Land Rover Discovery 5 five-door, 2017 onwards.
+#
+# The fifth Discovery: the aluminium monocoque, the smooth rounded body, the
+# clamshell bonnet and the offset rear plate. The five-door is modelled.
+# https://en.wikipedia.org/wiki/Land_Rover_Discovery
+#
+# Dimensions 4.956-4.970 x 2.000 m (body; 2.073 with mirrors folded) x
+# 1.888 m, wheelbase 2.923 m.
+#
+# Shape reference: image 1 is the side profile; the front and rear
+# three-quarters show the lamps, grille and tailgate. The notes record the
+# short-read nose caused by the camera angle.
+#
+# Colours: grade (a), the 2017 model year UK Discovery brochure: Fuji White,
+# Santorini Black, Indus Silver and Loire Blue. Weights 12, 10, 10, 8,
+# total 40, provisional.
+#
+# Speed 210 km/h. Comfort 95/322, on the line 180 + 1.5 x 95. Classes 3,4.
+# Dates are road presence: 2017 intro, retires staggered 2038-2041.
+#
+# Metres master: citycars/4.5/land-rover-discovery-5.blend. Interchange:
+# citycars/4.5/land-rover-discovery-5.dae. References:
+# citycars/references/land-rover-discovery-5/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: there is no true profile, so the flank is estimated. The
+# rear overhang and tail are squarer than the photograph's rounded tail, the
+# quarter glass is a rectangular panel and the arch cladding is a flat ribbon.
+# At 128 px the rising belt, floating roof and horizontal tail lamps read as a
+# Discovery 5, though the floating roof is weakly expressed at this size.
+
+
+obj=citycar
+name=LandRoverDiscovery5(FujiWhite)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=2017
+intro_month=4
+retire_year=2041
+retire_month=6
+speed=210
+class=3,4
+maximum_comfortable_journey_minutes=95
+maximum_tolerable_journey_minutes=322
+
+Image[E]=./images/land-rover-discovery-5-fujiwhite_E.0.0,-33,14
+Image[SE]=./images/land-rover-discovery-5-fujiwhite_SE.0.0,-13,0
+Image[S]=./images/land-rover-discovery-5-fujiwhite_S.0.0,0,0
+Image[SW]=./images/land-rover-discovery-5-fujiwhite_SW.0.0,-8,10
+Image[W]=./images/land-rover-discovery-5-fujiwhite_W.0.0,4,5
+Image[NW]=./images/land-rover-discovery-5-fujiwhite_NW.0.0,12,10
+Image[N]=./images/land-rover-discovery-5-fujiwhite_N.0.0,0,33
+Image[NE]=./images/land-rover-discovery-5-fujiwhite_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=LandRoverDiscovery5(SantoriniBlack)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=2017
+intro_month=4
+retire_year=2040
+retire_month=6
+speed=210
+class=3,4
+maximum_comfortable_journey_minutes=95
+maximum_tolerable_journey_minutes=322
+
+Image[E]=./images/land-rover-discovery-5-santoriniblack_E.0.0,-33,14
+Image[SE]=./images/land-rover-discovery-5-santoriniblack_SE.0.0,-13,0
+Image[S]=./images/land-rover-discovery-5-santoriniblack_S.0.0,0,0
+Image[SW]=./images/land-rover-discovery-5-santoriniblack_SW.0.0,-8,10
+Image[W]=./images/land-rover-discovery-5-santoriniblack_W.0.0,4,5
+Image[NW]=./images/land-rover-discovery-5-santoriniblack_NW.0.0,12,10
+Image[N]=./images/land-rover-discovery-5-santoriniblack_N.0.0,0,33
+Image[NE]=./images/land-rover-discovery-5-santoriniblack_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=LandRoverDiscovery5(IndusSilver)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=2017
+intro_month=4
+retire_year=2039
+retire_month=6
+speed=210
+class=3,4
+maximum_comfortable_journey_minutes=95
+maximum_tolerable_journey_minutes=322
+
+Image[E]=./images/land-rover-discovery-5-indussilver_E.0.0,-33,14
+Image[SE]=./images/land-rover-discovery-5-indussilver_SE.0.0,-13,0
+Image[S]=./images/land-rover-discovery-5-indussilver_S.0.0,0,0
+Image[SW]=./images/land-rover-discovery-5-indussilver_SW.0.0,-8,10
+Image[W]=./images/land-rover-discovery-5-indussilver_W.0.0,4,5
+Image[NW]=./images/land-rover-discovery-5-indussilver_NW.0.0,12,10
+Image[N]=./images/land-rover-discovery-5-indussilver_N.0.0,0,33
+Image[NE]=./images/land-rover-discovery-5-indussilver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=LandRoverDiscovery5(LoireBlue)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=2017
+intro_month=4
+retire_year=2038
+retire_month=6
+speed=210
+class=3,4
+maximum_comfortable_journey_minutes=95
+maximum_tolerable_journey_minutes=322
+
+Image[E]=./images/land-rover-discovery-5-loireblue_E.0.0,-33,14
+Image[SE]=./images/land-rover-discovery-5-loireblue_SE.0.0,-13,0
+Image[S]=./images/land-rover-discovery-5-loireblue_S.0.0,0,0
+Image[SW]=./images/land-rover-discovery-5-loireblue_SW.0.0,-8,10
+Image[W]=./images/land-rover-discovery-5-loireblue_W.0.0,4,5
+Image[NW]=./images/land-rover-discovery-5-loireblue_NW.0.0,12,10
+Image[N]=./images/land-rover-discovery-5-loireblue_N.0.0,0,33
+Image[NE]=./images/land-rover-discovery-5-loireblue_NE.0.0,0,24

@@ -1,0 +1,122 @@
+# Aston Martin DBX SUV, 2020 onwards.
+#
+# Aston's first SUV, built at St Athan, Wales: the tall five-door body with
+# the long bonnet, the DB grille, the pronounced rear haunches and the
+# full-width rear light bar. The DBX707 of 2022 is a power and trim variant
+# on the same shell and is not separately represented.
+# https://en.wikipedia.org/wiki/Aston_Martin_DBX
+#
+# Dimensions 5.039 x 1.998 x 1.680 m, wheelbase 3.060 m.
+#
+# Shape reference: a champagne-gold DBX on a Seoul street in true side
+# elevation, and a Midnight Blue US car in front and rear three-quarter.
+# The side view is one car; the three-quarters another of the same model.
+#
+# Colours: grade (c), documented period cars. Silver, black, blue and British
+# Racing Green are the plain names used. Weights 3, 3, 2, 2, total 10,
+# provisional.
+#
+# Speed 291 km/h. Comfort 92/318, on the line 180 + 1.5 x 92: the tallest
+# and most spacious Aston. Classes 3,4.
+# Dates are road presence: 2020 intro, retires staggered 2046-2049.
+#
+# Metres master: citycars/4.5/aston-dbx.blend. Interchange:
+# citycars/4.5/aston-dbx.dae. References:
+# citycars/references/aston-dbx/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the rear corners are too square and the tail-light
+# blade is uneven. At 128 px the tall SUV proportions, DB grille and roof
+# spoiler read as a DBX.
+
+
+obj=citycar
+name=AstonDBX(Silver)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=2020
+intro_month=7
+retire_year=2049
+retire_month=6
+speed=291
+class=3,4
+maximum_comfortable_journey_minutes=92
+maximum_tolerable_journey_minutes=318
+
+Image[E]=./images/aston-dbx-silver_E.0.0,-33,14
+Image[SE]=./images/aston-dbx-silver_SE.0.0,-13,0
+Image[S]=./images/aston-dbx-silver_S.0.0,0,0
+Image[SW]=./images/aston-dbx-silver_SW.0.0,-8,10
+Image[W]=./images/aston-dbx-silver_W.0.0,4,5
+Image[NW]=./images/aston-dbx-silver_NW.0.0,12,10
+Image[N]=./images/aston-dbx-silver_N.0.0,0,33
+Image[NE]=./images/aston-dbx-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=AstonDBX(Black)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=2020
+intro_month=7
+retire_year=2048
+retire_month=6
+speed=291
+class=3,4
+maximum_comfortable_journey_minutes=92
+maximum_tolerable_journey_minutes=318
+
+Image[E]=./images/aston-dbx-black_E.0.0,-33,14
+Image[SE]=./images/aston-dbx-black_SE.0.0,-13,0
+Image[S]=./images/aston-dbx-black_S.0.0,0,0
+Image[SW]=./images/aston-dbx-black_SW.0.0,-8,10
+Image[W]=./images/aston-dbx-black_W.0.0,4,5
+Image[NW]=./images/aston-dbx-black_NW.0.0,12,10
+Image[N]=./images/aston-dbx-black_N.0.0,0,33
+Image[NE]=./images/aston-dbx-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=AstonDBX(Blue)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=2020
+intro_month=7
+retire_year=2047
+retire_month=6
+speed=291
+class=3,4
+maximum_comfortable_journey_minutes=92
+maximum_tolerable_journey_minutes=318
+
+Image[E]=./images/aston-dbx-blue_E.0.0,-33,14
+Image[SE]=./images/aston-dbx-blue_SE.0.0,-13,0
+Image[S]=./images/aston-dbx-blue_S.0.0,0,0
+Image[SW]=./images/aston-dbx-blue_SW.0.0,-8,10
+Image[W]=./images/aston-dbx-blue_W.0.0,4,5
+Image[NW]=./images/aston-dbx-blue_NW.0.0,12,10
+Image[N]=./images/aston-dbx-blue_N.0.0,0,33
+Image[NE]=./images/aston-dbx-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=AstonDBX(BritishRacingGreen)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=2020
+intro_month=7
+retire_year=2046
+retire_month=6
+speed=291
+class=3,4
+maximum_comfortable_journey_minutes=92
+maximum_tolerable_journey_minutes=318
+
+Image[E]=./images/aston-dbx-britishracinggreen_E.0.0,-33,14
+Image[SE]=./images/aston-dbx-britishracinggreen_SE.0.0,-13,0
+Image[S]=./images/aston-dbx-britishracinggreen_S.0.0,0,0
+Image[SW]=./images/aston-dbx-britishracinggreen_SW.0.0,-8,10
+Image[W]=./images/aston-dbx-britishracinggreen_W.0.0,4,5
+Image[NW]=./images/aston-dbx-britishracinggreen_NW.0.0,12,10
+Image[N]=./images/aston-dbx-britishracinggreen_N.0.0,0,33
+Image[NE]=./images/aston-dbx-britishracinggreen_NE.0.0,0,24

@@ -1,0 +1,124 @@
+# Aston Martin 1.5-litre (Bamford & Martin) sports, 1922-1925.
+#
+# The first Bamford & Martin Aston Martin: the 1.5-litre side-valve four in a
+# short-wheelbase sporting chassis, with the boat-tail body and the spare
+# wheel recessed into the tail. The pack photographs the Standard Sports
+# body; other bodies were built to order.
+#
+# Dimensions: NO manufacturer figure was found. The model measures 3.68 x
+# 1.51 x 1.65 m (hood raised) on a 2.49 m wheelbase, ESTIMATED from the
+# photographs and assumed tyre outside diameters; these are not
+# specifications and must not be quoted as such.
+#
+# Shape reference: a cream and brown boat-tail car, plate PD 8111, in true
+# level side elevation, front three-quarter and rear three-quarter.
+#
+# Colours: grade (d). No British colour list exists; cars were finished to the
+# buyer's order, usually one colour with contrasting wings. The objects carry
+# plain names (green, black, red, silver); the photographed cream and brown
+# scheme is one customer's choice, not a catalogue colour.
+#
+# Speed 130 km/h, an estimate for the 1.5-litre sports. Comfort 25/218 on the
+# line 180 + 1.5 x 25: an open, short, hard-riding sports car. Classes 3,4.
+# Dates are road presence: 1922 intro, retires staggered 1940-1943.
+#
+# Metres master: citycars/4.5/aston-1half-litre.blend. Interchange:
+# citycars/4.5/aston-1half-litre.dae. References:
+# citycars/references/aston-1half-litre/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the hood sides are too closed and the front wing sweep
+# is understated. At 128 px the boat-tail, exposed spare wheel and raised hood
+# read as a 1920s Aston Martin.
+
+
+obj=citycar
+name=Aston1HalfLitre(Green)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1922
+intro_month=1
+retire_year=1943
+retire_month=6
+speed=130
+class=3,4
+maximum_comfortable_journey_minutes=25
+maximum_tolerable_journey_minutes=218
+
+Image[E]=./images/aston-1half-litre-green_E.0.0,-33,14
+Image[SE]=./images/aston-1half-litre-green_SE.0.0,-13,0
+Image[S]=./images/aston-1half-litre-green_S.0.0,0,0
+Image[SW]=./images/aston-1half-litre-green_SW.0.0,-8,10
+Image[W]=./images/aston-1half-litre-green_W.0.0,4,5
+Image[NW]=./images/aston-1half-litre-green_NW.0.0,12,10
+Image[N]=./images/aston-1half-litre-green_N.0.0,0,33
+Image[NE]=./images/aston-1half-litre-green_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Aston1HalfLitre(Black)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1922
+intro_month=1
+retire_year=1942
+retire_month=6
+speed=130
+class=3,4
+maximum_comfortable_journey_minutes=25
+maximum_tolerable_journey_minutes=218
+
+Image[E]=./images/aston-1half-litre-black_E.0.0,-33,14
+Image[SE]=./images/aston-1half-litre-black_SE.0.0,-13,0
+Image[S]=./images/aston-1half-litre-black_S.0.0,0,0
+Image[SW]=./images/aston-1half-litre-black_SW.0.0,-8,10
+Image[W]=./images/aston-1half-litre-black_W.0.0,4,5
+Image[NW]=./images/aston-1half-litre-black_NW.0.0,12,10
+Image[N]=./images/aston-1half-litre-black_N.0.0,0,33
+Image[NE]=./images/aston-1half-litre-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Aston1HalfLitre(Red)
+copyright=JamesPetts
+
+DistributionWeight=1
+intro_year=1922
+intro_month=1
+retire_year=1941
+retire_month=6
+speed=130
+class=3,4
+maximum_comfortable_journey_minutes=25
+maximum_tolerable_journey_minutes=218
+
+Image[E]=./images/aston-1half-litre-red_E.0.0,-33,14
+Image[SE]=./images/aston-1half-litre-red_SE.0.0,-13,0
+Image[S]=./images/aston-1half-litre-red_S.0.0,0,0
+Image[SW]=./images/aston-1half-litre-red_SW.0.0,-8,10
+Image[W]=./images/aston-1half-litre-red_W.0.0,4,5
+Image[NW]=./images/aston-1half-litre-red_NW.0.0,12,10
+Image[N]=./images/aston-1half-litre-red_N.0.0,0,33
+Image[NE]=./images/aston-1half-litre-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Aston1HalfLitre(Silver)
+copyright=JamesPetts
+
+DistributionWeight=1
+intro_year=1922
+intro_month=1
+retire_year=1940
+retire_month=6
+speed=130
+class=3,4
+maximum_comfortable_journey_minutes=25
+maximum_tolerable_journey_minutes=218
+
+Image[E]=./images/aston-1half-litre-silver_E.0.0,-33,14
+Image[SE]=./images/aston-1half-litre-silver_SE.0.0,-13,0
+Image[S]=./images/aston-1half-litre-silver_S.0.0,0,0
+Image[SW]=./images/aston-1half-litre-silver_SW.0.0,-8,10
+Image[W]=./images/aston-1half-litre-silver_W.0.0,4,5
+Image[NW]=./images/aston-1half-litre-silver_NW.0.0,12,10
+Image[N]=./images/aston-1half-litre-silver_N.0.0,0,33
+Image[NE]=./images/aston-1half-litre-silver_NE.0.0,0,24

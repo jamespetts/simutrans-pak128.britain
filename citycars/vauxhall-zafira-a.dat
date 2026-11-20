@@ -1,0 +1,123 @@
+# Vauxhall Zafira A seven-seat MPV, 1999-2005.
+#
+# The first Zafira: the compact seven-seater with the Flex7 seating that
+# folded the third row into the floor, and the tall van-like body. UK sales
+# from 28 May 1999.
+# https://en.wikipedia.org/wiki/Opel_Zafira
+#
+# Dimensions 4.317 x 1.742 x 1.684 m, wheelbase 2.694 m (Opel press release,
+# 26 June 2024, cross-checked against the Wikipedia infobox).
+#
+# Shape reference: image 1 is a true level side elevation; the flank is
+# traced from it.
+#
+# Colours: grade (a) for model year 2005, the Vauxhall Zafira 2005 Models
+# Edition 2 brochure: Glacier White, Royal Blue and Flame Red solid; Star
+# Silver, Silver Lightning and Moonland metallic; Ultra Blue, Digital Green
+# and Black Sapphire pearlescent. The four modelled are named on it. For
+# 1999-2004 no Vauxhall list was read. Weights 12, 10, 9, 8, total 39,
+# provisional.
+# Speed 195 km/h. Comfort 70/285, on the line 180 + 1.5 x 70. Classes 1,2.
+# Dates: intro May 1999; retires staggered 2009-2012 as a road tail.
+#
+# Metres master: citycars/4.5/vauxhall-zafira-a.blend. Interchange:
+# citycars/4.5/vauxhall-zafira-a.dae. References:
+# citycars/references/vauxhall-zafira-a/ (gitignored).
+#
+# Accepted deviations: the Holden-badged side reference is used for the shared
+# shell only, with UK facelift trim and the exposed rear door handles that the
+# UK photographs show. The Flex7 seating is not modelled behind the opaque
+# glazing, and the hubcap inserts are flat decorative faces.
+
+
+obj=citycar
+name=VauxhallZafiraA(GlacierWhite)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=1999
+intro_month=5
+retire_year=2012
+retire_month=6
+speed=195
+class=1,2
+maximum_comfortable_journey_minutes=70
+maximum_tolerable_journey_minutes=285
+
+Image[E]=./images/vauxhall-zafira-a-glacierwhite_E.0.0,-33,14
+Image[SE]=./images/vauxhall-zafira-a-glacierwhite_SE.0.0,-13,0
+Image[S]=./images/vauxhall-zafira-a-glacierwhite_S.0.0,0,0
+Image[SW]=./images/vauxhall-zafira-a-glacierwhite_SW.0.0,-8,10
+Image[W]=./images/vauxhall-zafira-a-glacierwhite_W.0.0,4,5
+Image[NW]=./images/vauxhall-zafira-a-glacierwhite_NW.0.0,12,10
+Image[N]=./images/vauxhall-zafira-a-glacierwhite_N.0.0,0,33
+Image[NE]=./images/vauxhall-zafira-a-glacierwhite_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallZafiraA(RoyalBlue)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=1999
+intro_month=5
+retire_year=2011
+retire_month=6
+speed=195
+class=1,2
+maximum_comfortable_journey_minutes=70
+maximum_tolerable_journey_minutes=285
+
+Image[E]=./images/vauxhall-zafira-a-royalblue_E.0.0,-33,14
+Image[SE]=./images/vauxhall-zafira-a-royalblue_SE.0.0,-13,0
+Image[S]=./images/vauxhall-zafira-a-royalblue_S.0.0,0,0
+Image[SW]=./images/vauxhall-zafira-a-royalblue_SW.0.0,-8,10
+Image[W]=./images/vauxhall-zafira-a-royalblue_W.0.0,4,5
+Image[NW]=./images/vauxhall-zafira-a-royalblue_NW.0.0,12,10
+Image[N]=./images/vauxhall-zafira-a-royalblue_N.0.0,0,33
+Image[NE]=./images/vauxhall-zafira-a-royalblue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallZafiraA(FlameRed)
+copyright=JamesPetts
+
+DistributionWeight=9
+intro_year=1999
+intro_month=5
+retire_year=2010
+retire_month=6
+speed=195
+class=1,2
+maximum_comfortable_journey_minutes=70
+maximum_tolerable_journey_minutes=285
+
+Image[E]=./images/vauxhall-zafira-a-flamered_E.0.0,-33,14
+Image[SE]=./images/vauxhall-zafira-a-flamered_SE.0.0,-13,0
+Image[S]=./images/vauxhall-zafira-a-flamered_S.0.0,0,0
+Image[SW]=./images/vauxhall-zafira-a-flamered_SW.0.0,-8,10
+Image[W]=./images/vauxhall-zafira-a-flamered_W.0.0,4,5
+Image[NW]=./images/vauxhall-zafira-a-flamered_NW.0.0,12,10
+Image[N]=./images/vauxhall-zafira-a-flamered_N.0.0,0,33
+Image[NE]=./images/vauxhall-zafira-a-flamered_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallZafiraA(StarSilver)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=1999
+intro_month=5
+retire_year=2009
+retire_month=6
+speed=195
+class=1,2
+maximum_comfortable_journey_minutes=70
+maximum_tolerable_journey_minutes=285
+
+Image[E]=./images/vauxhall-zafira-a-starsilver_E.0.0,-33,14
+Image[SE]=./images/vauxhall-zafira-a-starsilver_SE.0.0,-13,0
+Image[S]=./images/vauxhall-zafira-a-starsilver_S.0.0,0,0
+Image[SW]=./images/vauxhall-zafira-a-starsilver_SW.0.0,-8,10
+Image[W]=./images/vauxhall-zafira-a-starsilver_W.0.0,4,5
+Image[NW]=./images/vauxhall-zafira-a-starsilver_NW.0.0,12,10
+Image[N]=./images/vauxhall-zafira-a-starsilver_N.0.0,0,33
+Image[NE]=./images/vauxhall-zafira-a-starsilver_NE.0.0,0,24

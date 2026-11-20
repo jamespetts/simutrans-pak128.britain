@@ -1,0 +1,118 @@
+# Rover P4 110 four-door saloon, 1962-1964.
+#
+# The last and most powerful P4, with the 2.6-litre six in high tune and the
+# 1962 grille. It closed the P4 range in 1964.
+# https://en.wikipedia.org/wiki/Rover_P4
+#
+# Dimensions: variant-specific overall figures were not established; the
+# family wheelbase is 2.819 m.
+#
+# Shape reference: a true level profile, identified by the wing script and the
+# Commons title, with front and rear three-quarters.
+#
+# Colours: grade (b), the P4 Drivers Guild's year-based compilation. Black,
+# Sage Green, Dove Grey and Maroon. Weights 6, 5, 5, 4, total 20, provisional.
+#
+# Speed 160 km/h. Comfort 68/282, on the line 180 + 1.5 x 68. Classes 3,4.
+# Dates are road presence: 1962 intro, retires staggered 1980-1983.
+#
+# Metres master: citycars/4.5/rover-p4-110.blend. Interchange:
+# citycars/4.5/rover-p4-110.dae. References:
+# citycars/references/rover-p4-110/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the grille does not reproduce the distinct divided
+# appearance of the late nose, and the rear glass and wing shoulders are too
+# flat. At 128 px the 1962 grille, lamps and P4 body read as a P4 110.
+
+
+obj=citycar
+name=RoverP4110(Black)
+copyright=JamesPetts
+
+DistributionWeight=6
+intro_year=1962
+intro_month=9
+retire_year=1983
+retire_month=6
+speed=160
+class=3,4
+maximum_comfortable_journey_minutes=68
+maximum_tolerable_journey_minutes=282
+
+Image[E]=./images/rover-p4-110-black_E.0.0,-33,14
+Image[SE]=./images/rover-p4-110-black_SE.0.0,-13,0
+Image[S]=./images/rover-p4-110-black_S.0.0,0,0
+Image[SW]=./images/rover-p4-110-black_SW.0.0,-8,10
+Image[W]=./images/rover-p4-110-black_W.0.0,4,5
+Image[NW]=./images/rover-p4-110-black_NW.0.0,12,10
+Image[N]=./images/rover-p4-110-black_N.0.0,0,33
+Image[NE]=./images/rover-p4-110-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RoverP4110(SageGreen)
+copyright=JamesPetts
+
+DistributionWeight=5
+intro_year=1962
+intro_month=9
+retire_year=1982
+retire_month=6
+speed=160
+class=3,4
+maximum_comfortable_journey_minutes=68
+maximum_tolerable_journey_minutes=282
+
+Image[E]=./images/rover-p4-110-sagegreen_E.0.0,-33,14
+Image[SE]=./images/rover-p4-110-sagegreen_SE.0.0,-13,0
+Image[S]=./images/rover-p4-110-sagegreen_S.0.0,0,0
+Image[SW]=./images/rover-p4-110-sagegreen_SW.0.0,-8,10
+Image[W]=./images/rover-p4-110-sagegreen_W.0.0,4,5
+Image[NW]=./images/rover-p4-110-sagegreen_NW.0.0,12,10
+Image[N]=./images/rover-p4-110-sagegreen_N.0.0,0,33
+Image[NE]=./images/rover-p4-110-sagegreen_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RoverP4110(DoveGrey)
+copyright=JamesPetts
+
+DistributionWeight=5
+intro_year=1962
+intro_month=9
+retire_year=1981
+retire_month=6
+speed=160
+class=3,4
+maximum_comfortable_journey_minutes=68
+maximum_tolerable_journey_minutes=282
+
+Image[E]=./images/rover-p4-110-dovegrey_E.0.0,-33,14
+Image[SE]=./images/rover-p4-110-dovegrey_SE.0.0,-13,0
+Image[S]=./images/rover-p4-110-dovegrey_S.0.0,0,0
+Image[SW]=./images/rover-p4-110-dovegrey_SW.0.0,-8,10
+Image[W]=./images/rover-p4-110-dovegrey_W.0.0,4,5
+Image[NW]=./images/rover-p4-110-dovegrey_NW.0.0,12,10
+Image[N]=./images/rover-p4-110-dovegrey_N.0.0,0,33
+Image[NE]=./images/rover-p4-110-dovegrey_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RoverP4110(Maroon)
+copyright=JamesPetts
+
+DistributionWeight=4
+intro_year=1962
+intro_month=9
+retire_year=1980
+retire_month=6
+speed=160
+class=3,4
+maximum_comfortable_journey_minutes=68
+maximum_tolerable_journey_minutes=282
+
+Image[E]=./images/rover-p4-110-maroon_E.0.0,-33,14
+Image[SE]=./images/rover-p4-110-maroon_SE.0.0,-13,0
+Image[S]=./images/rover-p4-110-maroon_S.0.0,0,0
+Image[SW]=./images/rover-p4-110-maroon_SW.0.0,-8,10
+Image[W]=./images/rover-p4-110-maroon_W.0.0,4,5
+Image[NW]=./images/rover-p4-110-maroon_NW.0.0,12,10
+Image[N]=./images/rover-p4-110-maroon_N.0.0,0,33
+Image[NE]=./images/rover-p4-110-maroon_NE.0.0,0,24

@@ -1,0 +1,122 @@
+# BMW X5 G05 five-door SUV, 2018 onwards.
+#
+# The fourth X5: the larger connected kidney grille, the pre-facelift lamps,
+# the more upright tail and the xDrive range. UK deliveries from December
+# 2018. The China-only G18 long-wheelbase is not represented.
+# https://en.wikipedia.org/wiki/BMW_X5_(G05)
+#
+# Dimensions 4.935 x 2.004 x 1.765 m, wheelbase 2.975 m.
+#
+# Shape reference: NO true level side profile exists. Image 1 is the most
+# side-on view; the quarter views show an xDrive30d. The flank is estimated
+# from the mixed-trim views and the published dimensions.
+#
+# Colours: grade (c), provisional. Black, silver, white and blue are plain
+# names. Weights 18, 16, 14, 12, total 60, provisional.
+#
+# Speed 230 km/h. Comfort 100/330, on the line 180 + 1.5 x 100. Classes 3,4.
+# Dates are road presence: 2018 intro, retires staggered 2038-2041.
+#
+# Metres master: citycars/4.5/bmw-x5-g05.blend. Interchange:
+# citycars/4.5/bmw-x5-g05.dae. References:
+# citycars/references/bmw-x5-g05/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the rear window is smaller relative to the tailgate than
+# the photographs show, the flank has one simplified crease and no wheel-arch
+# flares, the arch cladding is a flat ribbon, the grille slats are separate boxes
+# and the bonnet's two creases are not modelled. Mirrors project beyond the
+# published width so that they read. At 128 px the large joined kidney grille,
+# tall body and wrapping tail lamps read as a G05 X5.
+
+
+obj=citycar
+name=BMWX5G05(Black)
+copyright=JamesPetts
+
+DistributionWeight=18
+intro_year=2018
+intro_month=12
+retire_year=2041
+retire_month=6
+speed=230
+class=3,4
+maximum_comfortable_journey_minutes=100
+maximum_tolerable_journey_minutes=330
+
+Image[E]=./images/bmw-x5-g05-black_E.0.0,-33,14
+Image[SE]=./images/bmw-x5-g05-black_SE.0.0,-13,0
+Image[S]=./images/bmw-x5-g05-black_S.0.0,0,0
+Image[SW]=./images/bmw-x5-g05-black_SW.0.0,-8,10
+Image[W]=./images/bmw-x5-g05-black_W.0.0,4,5
+Image[NW]=./images/bmw-x5-g05-black_NW.0.0,12,10
+Image[N]=./images/bmw-x5-g05-black_N.0.0,0,33
+Image[NE]=./images/bmw-x5-g05-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMWX5G05(Silver)
+copyright=JamesPetts
+
+DistributionWeight=16
+intro_year=2018
+intro_month=12
+retire_year=2040
+retire_month=6
+speed=230
+class=3,4
+maximum_comfortable_journey_minutes=100
+maximum_tolerable_journey_minutes=330
+
+Image[E]=./images/bmw-x5-g05-silver_E.0.0,-33,14
+Image[SE]=./images/bmw-x5-g05-silver_SE.0.0,-13,0
+Image[S]=./images/bmw-x5-g05-silver_S.0.0,0,0
+Image[SW]=./images/bmw-x5-g05-silver_SW.0.0,-8,10
+Image[W]=./images/bmw-x5-g05-silver_W.0.0,4,5
+Image[NW]=./images/bmw-x5-g05-silver_NW.0.0,12,10
+Image[N]=./images/bmw-x5-g05-silver_N.0.0,0,33
+Image[NE]=./images/bmw-x5-g05-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMWX5G05(White)
+copyright=JamesPetts
+
+DistributionWeight=14
+intro_year=2018
+intro_month=12
+retire_year=2039
+retire_month=6
+speed=230
+class=3,4
+maximum_comfortable_journey_minutes=100
+maximum_tolerable_journey_minutes=330
+
+Image[E]=./images/bmw-x5-g05-white_E.0.0,-33,14
+Image[SE]=./images/bmw-x5-g05-white_SE.0.0,-13,0
+Image[S]=./images/bmw-x5-g05-white_S.0.0,0,0
+Image[SW]=./images/bmw-x5-g05-white_SW.0.0,-8,10
+Image[W]=./images/bmw-x5-g05-white_W.0.0,4,5
+Image[NW]=./images/bmw-x5-g05-white_NW.0.0,12,10
+Image[N]=./images/bmw-x5-g05-white_N.0.0,0,33
+Image[NE]=./images/bmw-x5-g05-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMWX5G05(Blue)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=2018
+intro_month=12
+retire_year=2038
+retire_month=6
+speed=230
+class=3,4
+maximum_comfortable_journey_minutes=100
+maximum_tolerable_journey_minutes=330
+
+Image[E]=./images/bmw-x5-g05-blue_E.0.0,-33,14
+Image[SE]=./images/bmw-x5-g05-blue_SE.0.0,-13,0
+Image[S]=./images/bmw-x5-g05-blue_S.0.0,0,0
+Image[SW]=./images/bmw-x5-g05-blue_SW.0.0,-8,10
+Image[W]=./images/bmw-x5-g05-blue_W.0.0,4,5
+Image[NW]=./images/bmw-x5-g05-blue_NW.0.0,12,10
+Image[N]=./images/bmw-x5-g05-blue_N.0.0,0,33
+Image[NE]=./images/bmw-x5-g05-blue_NE.0.0,0,24

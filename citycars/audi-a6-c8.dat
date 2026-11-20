@@ -1,0 +1,120 @@
+# Audi A6 C8 four-door saloon, 2018 onwards.
+#
+# The fifth A6: the C8 body with the wider, lower single-frame grille, the
+# sharp OLED-style lamps and the mild-hybrid range. Audi UK announced it in
+# summer 2018. The Avant and allroad are different bodies.
+# https://en.wikipedia.org/wiki/Audi_A6
+#
+# Dimensions 4.939 x 1.886 x 1.457 m, wheelbase 2.924 m.
+#
+# Shape reference: image 1 is a near-level broadside of a C8 S line; the
+# front and rear three-quarters show the lamps and tail.
+#
+# Colours: grade (d); no UK chart was established. Black, silver, grey and
+# blue are plain names. Weights 15, 13, 12, 10, total 50, provisional.
+#
+# Speed 240 km/h. Comfort 98/327, on the line 180 + 1.5 x 98. Classes 3,4.
+# Dates are road presence: 2018 intro, retires staggered 2042-2045.
+#
+# Metres master: citycars/4.5/audi-a6-c8.blend. Interchange:
+# citycars/4.5/audi-a6-c8.dae. References:
+# citycars/references/audi-a6-c8/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the wheel design and the S line bumper's corner blades
+# are simplified, and the full-width tail bar is a flat red band without the
+# inner lens graphics or corner wrap. The family shape is simplified and the
+# rear window more upright than the photograph's. At 128 px the wide flat grille,
+# slim lamps and full-width tail bar read as a C8 A6.
+
+
+obj=citycar
+name=AudiA6C8(Black)
+copyright=JamesPetts
+
+DistributionWeight=15
+intro_year=2018
+intro_month=6
+retire_year=2045
+retire_month=6
+speed=240
+class=3,4
+maximum_comfortable_journey_minutes=98
+maximum_tolerable_journey_minutes=327
+
+Image[E]=./images/audi-a6-c8-black_E.0.0,-33,14
+Image[SE]=./images/audi-a6-c8-black_SE.0.0,-13,0
+Image[S]=./images/audi-a6-c8-black_S.0.0,0,0
+Image[SW]=./images/audi-a6-c8-black_SW.0.0,-8,10
+Image[W]=./images/audi-a6-c8-black_W.0.0,4,5
+Image[NW]=./images/audi-a6-c8-black_NW.0.0,12,10
+Image[N]=./images/audi-a6-c8-black_N.0.0,0,33
+Image[NE]=./images/audi-a6-c8-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=AudiA6C8(Silver)
+copyright=JamesPetts
+
+DistributionWeight=13
+intro_year=2018
+intro_month=6
+retire_year=2044
+retire_month=6
+speed=240
+class=3,4
+maximum_comfortable_journey_minutes=98
+maximum_tolerable_journey_minutes=327
+
+Image[E]=./images/audi-a6-c8-silver_E.0.0,-33,14
+Image[SE]=./images/audi-a6-c8-silver_SE.0.0,-13,0
+Image[S]=./images/audi-a6-c8-silver_S.0.0,0,0
+Image[SW]=./images/audi-a6-c8-silver_SW.0.0,-8,10
+Image[W]=./images/audi-a6-c8-silver_W.0.0,4,5
+Image[NW]=./images/audi-a6-c8-silver_NW.0.0,12,10
+Image[N]=./images/audi-a6-c8-silver_N.0.0,0,33
+Image[NE]=./images/audi-a6-c8-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=AudiA6C8(Grey)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=2018
+intro_month=6
+retire_year=2043
+retire_month=6
+speed=240
+class=3,4
+maximum_comfortable_journey_minutes=98
+maximum_tolerable_journey_minutes=327
+
+Image[E]=./images/audi-a6-c8-grey_E.0.0,-33,14
+Image[SE]=./images/audi-a6-c8-grey_SE.0.0,-13,0
+Image[S]=./images/audi-a6-c8-grey_S.0.0,0,0
+Image[SW]=./images/audi-a6-c8-grey_SW.0.0,-8,10
+Image[W]=./images/audi-a6-c8-grey_W.0.0,4,5
+Image[NW]=./images/audi-a6-c8-grey_NW.0.0,12,10
+Image[N]=./images/audi-a6-c8-grey_N.0.0,0,33
+Image[NE]=./images/audi-a6-c8-grey_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=AudiA6C8(Blue)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=2018
+intro_month=6
+retire_year=2042
+retire_month=6
+speed=240
+class=3,4
+maximum_comfortable_journey_minutes=98
+maximum_tolerable_journey_minutes=327
+
+Image[E]=./images/audi-a6-c8-blue_E.0.0,-33,14
+Image[SE]=./images/audi-a6-c8-blue_SE.0.0,-13,0
+Image[S]=./images/audi-a6-c8-blue_S.0.0,0,0
+Image[SW]=./images/audi-a6-c8-blue_SW.0.0,-8,10
+Image[W]=./images/audi-a6-c8-blue_W.0.0,4,5
+Image[NW]=./images/audi-a6-c8-blue_NW.0.0,12,10
+Image[N]=./images/audi-a6-c8-blue_N.0.0,0,33
+Image[NE]=./images/audi-a6-c8-blue_NE.0.0,0,24

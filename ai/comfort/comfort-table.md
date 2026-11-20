@@ -23,10 +23,36 @@ still on the road in 2026 and its retire year is an estimate.
 | Model | Comfortable | Tolerable | Intro | Retire | Note |
 | --- | --- | --- | --- | --- | --- |
 | AstonDB2 | 55 | 265 | 1950 | 1966 | line |
+| AstonDBMkIII | 60 | 270 | 1957 | 1978 | line |
 | AstonDB4 | 58 | 267 | 1958 | 1976 | line |
+| AstonDBS | 65 | 280 | 1967 | 1986 | line |
 | AstonDB5 | 60 | 270 | 1963 | 1981 | line |
 | AstonDB6 | 65 | 280 | 1965 | 1983 | line |
+| AstonV8Vantage | 68 | 282 | 1977 | 2002 | line |
+| AstonVirage | 70 | 285 | 1989 | 2010 | line |
+| AstonDB7 | 72 | 288 | 1994 | 2016 | line |
+| AstonVanquish | 78 | 297 | 2001 | 2025 | line |
+| AstonDB9 | 80 | 300 | 2004 | 2036 | line |
+| AstonVantage2005 | 78 | 297 | 2005 | 2035 | line |
+| AstonDBSV12 | 82 | 303 | 2007 | 2038 | line |
+| AstonRapide | 88 | 312 | 2010 | 2039 | line |
+| AstonDB11 | 90 | 315 | 2016 | 2045 | line |
+| AstonVantage2018 | 88 | 312 | 2018 | 2046 | line |
+| AstonDBX | 92 | 318 | 2020 | 2049 | line |
+| Aston1HalfLitre | 25 | 218 | 1922 | 1943 | line |
+| AstonInternational | 28 | 222 | 1929 | 1951 | line |
+| AstonUlster | 30 | 225 | 1934 | 1955 | line |
+| Aston2Litre | 32 | 228 | 1936 | 1958 | line |
+| Aston15_98 | 35 | 232 | 1937 | 1959 | line |
 | AudiA4B6 | 150 | 405 | 2000 | 2029 | line |
+| AudiA6C4 | 85 | 307 | 1994 | 2020 | line |
+| AudiA6C5 | 90 | 315 | 1997 | 2025 | line |
+| AudiA6C6 | 92 | 318 | 2004 | 2031 | line |
+| AudiA6C7 | 95 | 322 | 2011 | 2038 | line |
+| AudiA6C8 | 98 | 327 | 2018 | 2045 | line |
+| AudiA8D2 | 100 | 330 | 1994 | 2025 | line |
+| AudiA8D4 | 105 | 337 | 2010 | 2037 | line |
+| AudiA8D5 | 108 | 342 | 2017 | 2044 | line |
 | AustinLightTwelve | 45 | 250 | 1933 | 1950 | line |
 | AustinMaestro | 70 | 285 | 1983 | 2002 | line |
 | AustinMetro | 38 | 235 | 1980 | 2009 | line |
@@ -52,6 +78,16 @@ still on the road in 2026 and its retire year is an estimate.
 | BMW7E23 | 130 | 375 | 1977 | 2000 | line |
 | BMW7G11 | 175 | 445 | 2015 | 2033 | line |
 | BMW7G70 | 180 | 450 | 2022 | 2040 | line; highest in the register, present |
+| BMWi3 | 75 | 292 | 2013 | 2041 | line |
+| BMW1SeriesE87 | 75 | 292 | 2004 | 2029 | line |
+| BMW1SeriesF20 | 80 | 300 | 2011 | 2037 | line |
+| BMW1SeriesF40 | 85 | 307 | 2019 | 2045 | line |
+| BMW1SeriesF70 | 88 | 312 | 2024 | 2049 | line |
+| BMWX5E53 | 90 | 315 | 2000 | 2023 | line |
+| BMWX5E70 | 95 | 322 | 2007 | 2030 | line |
+| BMWX5F15 | 98 | 327 | 2013 | 2035 | line |
+| BMWX5G05 | 100 | 330 | 2018 | 2041 | line |
+| BMWiX3 | 100 | 330 | 2021 | 2044 | line |
 | BSA557Combo | 20 | 180 | 1921 | 1932 | open outfit: line -30 |
 | BSAM21Combo | 25 | 190 | 1946 | 1966 | open outfit: line -30 |
 | BSAM21MonacoCombo | 35 | 200 | 1960 | 1968 | open outfit: line -30 |
@@ -90,15 +126,46 @@ still on the road in 2026 and its retire year is an estimate.
 | FordPrefectEarly | 40 | 240 | 1938 | 1966 | line |
 | FordPrefectLate | 45 | 250 | 1953 | 1972 | line |
 | FordT | 20 | 210 | 1908 | 1935 | line |
+| FordPilot | 45 | 250 | 1947 | 1968 | line |
+| FordConsulMk1 | 50 | 255 | 1951 | 1973 | line |
+| FordConsulMk2 | 55 | 265 | 1956 | 1981 | line |
+| FordConsulClassic | 55 | 265 | 1961 | 1981 | line |
+| FordConsulCapri | 55 | 265 | 1962 | 1982 | line |
+| FordZephyrMk1 | 55 | 265 | 1950 | 1973 | line |
+| FordZodiacMk1 | 58 | 267 | 1953 | 1974 | line |
+| FordZephyrMk2 | 58 | 267 | 1956 | 1981 | line |
+| FordZodiacMk2 | 60 | 270 | 1956 | 1981 | line |
+| FordZephyrMk3 | 62 | 273 | 1962 | 1985 | line |
+| FordZodiacMk3 | 65 | 280 | 1962 | 1985 | line |
+| FordZephyrMk4 | 65 | 280 | 1966 | 1991 | line |
+| FordZodiacMk4 | 68 | 282 | 1966 | 1991 | line |
+| FordGranadaMk3 | 90 | 315 | 1985 | 2013 | line |
 | GWKCyclecar | 25 | 220 | 1911 | 1930 | line |
 | HorseCarriageClosed | 30 | 225 | 1750 | 1911 | line |
 | HorseCarriageOpen | 25 | 220 | 1750 | 1921 | line |
 | HorseCart | 10 | 195 | 1750 | 1954 | line |
 | Humberette | 30 | 225 | 1913 | 1933 | line |
+| HillmanMinxPreWar | 45 | 250 | 1931 | 1956 | line |
+| HillmanMinxMk1_8 | 50 | 255 | 1945 | 1973 | line |
+| HillmanMinxSeries | 55 | 265 | 1956 | 1985 | line |
+| HillmanMinxArrow | 60 | 270 | 1967 | 1988 | line |
 | Jaguar420 | 90 | 315 | 1966 | 1987 | line |
+| LandRoverDiscovery1 | 70 | 285 | 1989 | 2017 | line |
+| LandRoverDiscovery2 | 75 | 292 | 1998 | 2023 | line |
+| LandRoverDiscovery3 | 85 | 307 | 2004 | 2028 | line |
+| LandRoverDiscovery4 | 90 | 315 | 2009 | 2034 | line |
+| LandRoverDiscovery5 | 95 | 322 | 2017 | 2041 | line |
+| JaguarXFX250 | 95 | 322 | 2008 | 2032 | line |
+| JaguarXFX260 | 100 | 330 | 2015 | 2039 | line |
+| LexusESXZ10 | 100 | 330 | 2019 | 2041 | line |
 | JaguarSType | 90 | 315 | 1963 | 1985 | line |
 | JaguarSTypeX200 | 110 | 345 | 1999 | 2024 | line |
 | LandRoverSeries | 20 | 210 | 1948 | 1990 | line |
+| KiaSportage1 | 70 | 285 | 1995 | 2017 | line |
+| KiaSportage2 | 80 | 300 | 2005 | 2025 | line |
+| KiaSportage3 | 85 | 307 | 2010 | 2031 | line |
+| KiaSportage4 | 90 | 315 | 2016 | 2037 | line |
+| KiaSportage5 | 95 | 322 | 2022 | 2045 | line |
 | LeylandPrincess | 85 | 310 | 1975 | 1989 | line |
 | MorrisEight | 35 | 235 | 1935 | 1957 | line +5 |
 | MorrisMarina | 55 | 265 | 1971 | 1988 | line +5 |
@@ -134,6 +201,18 @@ still on the road in 2026 and its retire year is an estimate.
 | Rover8-1919 | 30 | 225 | 1919 | 1933 | line |
 | Rover9 | 32 | 230 | 1924 | 1939 | line |
 | RoverSD1 | 95 | 325 | 1976 | 1991 | line +5 |
+| RoverP3 | 55 | 265 | 1948 | 1968 | line |
+| RoverP460 | 60 | 270 | 1953 | 1978 | line |
+| RoverP490 | 62 | 273 | 1953 | 1978 | line |
+| RoverP495 | 65 | 280 | 1962 | 1983 | line |
+| RoverP4100 | 65 | 280 | 1960 | 1981 | line |
+| RoverP4105R | 65 | 280 | 1956 | 1977 | line |
+| RoverP4110 | 68 | 282 | 1962 | 1983 | line |
+| RoverP53Litre | 80 | 300 | 1958 | 1985 | line |
+| RoverP5Coupe | 80 | 300 | 1962 | 1985 | line |
+| RoverP5BCoupe | 120 | 360 | 1967 | 1989 | line |
+| RoverP62200 | 110 | 345 | 1973 | 1993 | line |
+| RoverP63500 | 115 | 352 | 1968 | 1991 | line |
 | SingerTen | 35 | 235 | 1912 | 1932 | line |
 | Standard95 | 35 | 235 | 1913 | 1932 | line |
 | StandardVanguard | 65 | 280 | 1947 | 1964 | line |
@@ -172,6 +251,80 @@ still on the road in 2026 and its retire year is an estimate.
 | VauxhallCorsaF | 115 | 355 | 2020 | 2039 | line +5 |
 | VauxhallNova | 55 | 265 | 1983 | 2002 | line +5 |
 | Volvo-240-Estate | 75 | 295 | 1974 | 1993 | line +5 |
+| FiatPanda1 | 55 | 265 | 1981 | 2013 | line |
+| FiatPanda2 | 60 | 270 | 2004 | 2023 | line |
+| FiatPanda3 | 65 | 280 | 2012 | 2035 | line |
+| VWUp | 65 | 280 | 2011 | 2037 | line |
+| Wolseley8HPTonneau | 20 | 210 | 1902 | 1923 | line |
+| WolseleyTen | 45 | 250 | 1939 | 1961 | line |
+| Wolseley1460 | 55 | 265 | 1938 | 1961 | line |
+| Wolseley1885 | 60 | 270 | 1938 | 1961 | line |
+| Wolseley2160 | 55 | 265 | 1929 | 1953 | line |
+| WolseleyHornet1930 | 45 | 250 | 1930 | 1953 | line |
+| WolseleyHornetMini | 60 | 270 | 1961 | 1986 | line |
+| WolseleyWasp | 45 | 250 | 1935 | 1956 | line |
+| ToyotaAygoX | 65 | 280 | 2022 | 2045 | line |
+| HyundaiI10Mk2 | 65 | 280 | 2014 | 2036 | line |
+| HyundaiI10Mk3 | 70 | 285 | 2020 | 2043 | line |
+| PorscheMacanElectric | 95 | 322 | 2024 | 2051 | line |
+| TeslaModel3 | 90 | 315 | 2019 | 2045 | line |
+| TeslaModelY | 95 | 322 | 2021 | 2047 | line |
+| Jaecoo5 | 85 | 307 | 2025 | 2048 | line |
+| Jaecoo7 | 90 | 315 | 2025 | 2048 | line |
+| Jaecoo8 | 95 | 322 | 2026 | 2049 | line |
+| Norton16HCombo | 25 | 190 | 1937 | 1958 | open outfit: line -30 |
+| BSAM20Combo | 25 | 190 | 1939 | 1958 | open outfit: line -30 |
+| TeslaModelS | 105 | 340 | 2016 | 2036 | line |
+| NissanMicraK10 | 50 | 255 | 1983 | 2003 | line |
+| NissanMicraK12 | 60 | 270 | 2003 | 2023 | line |
+| NissanMicraK13 | 65 | 280 | 2010 | 2033 | line |
+| DatsunCherryF10 | 40 | 240 | 1977 | 1994 | line |
+| Datsun1200 | 40 | 240 | 1971 | 1990 | line |
+| Datsun120Y | 40 | 240 | 1973 | 1992 | line |
+| NissanSunnyN14 | 70 | 285 | 1991 | 2013 | line |
+| NissanMicraK14 | 70 | 285 | 2017 | 2042 | line |
+| NissanMicraK15 | 80 | 300 | 2025 | 2048 | line |
+| FiatGrandePandaElectric | 75 | 292 | 2026 | 2049 | line |
+| NissanSunnyB11 | 45 | 248 | 1982 | 1999 | line |
+| FordGalaxyMk2 | 80 | 300 | 2006 | 2032 | line |
+| BYDDolphin | 70 | 285 | 2023 | 2048 | line |
+| BYDAtto3 | 80 | 300 | 2023 | 2049 | line |
+| BYDSeal | 90 | 315 | 2023 | 2049 | line |
+| BYDSealion7 | 95 | 322 | 2025 | 2051 | line |
+| VauxhallLightSix | 30 | 225 | 1933 | 1956 | line |
+| Vauxhall146 | 30 | 225 | 1939 | 1960 | line |
+| VauxhallBigSix | 40 | 240 | 1934 | 1955 | line |
+| VauxhallCadet | 25 | 218 | 1930 | 1950 | line |
+| VauxhallAType | 20 | 210 | 1908 | 1932 | line |
+| VauxhallBType | 22 | 213 | 1910 | 1932 | line |
+| VauxhallCType | 25 | 218 | 1910 | 1932 | line |
+| Vauxhall1440 | 30 | 225 | 1922 | 1942 | line |
+| VauxhallTen | 25 | 218 | 1937 | 1958 | line |
+| Vauxhall2060 | 30 | 225 | 1927 | 1950 | line |
+| VauxhallWyvernVeloxL | 35 | 232 | 1948 | 1966 | line |
+| VauxhallWyvernVeloxCrestaE | 40 | 240 | 1951 | 1970 | line |
+| VauxhallVeloxCrestaPA | 50 | 255 | 1958 | 1976 | line |
+| VauxhallVeloxCrestaPB | 55 | 262 | 1962 | 1979 | line |
+| VauxhallCrestaPC | 65 | 280 | 1965 | 1982 | line |
+| VauxhallZafiraA | 70 | 285 | 1999 | 2012 | line |
+| VauxhallZafiraB | 75 | 292 | 2005 | 2017 | line |
+| VauxhallZafiraC | 80 | 300 | 2012 | 2021 | line |
+| VauxhallMokkaA | 70 | 285 | 2012 | 2019 | line |
+| VauxhallMokkaX | 72 | 288 | 2016 | 2021 | line |
+| VauxhallMokkaB | 80 | 300 | 2021 | 2043 | line |
+| BentleyContinentalGT2 | 155 | 412 | 2011 | 2029 | line |
+| BentleyContinentalGT3 | 160 | 420 | 2018 | 2035 | line |
+| BentleyContinentalGT4 | 165 | 428 | 2024 | 2046 | line |
+| VauxhallCarltonMk1 | 65 | 280 | 1978 | 1997 | line |
+| VauxhallCarltonMk2 | 75 | 292 | 1986 | 2003 | line |
+| VauxhallVectraB | 75 | 292 | 1995 | 2011 | line |
+| VauxhallVectraC | 80 | 300 | 2002 | 2017 | line |
+| VauxhallVivaHB | 50 | 255 | 1966 | 1982 | line |
+| VauxhallVivaHC | 50 | 255 | 1970 | 1989 | line |
+| VauxhallViva2015 | 60 | 270 | 2015 | 2030 | line |
+| FordPuma1997 | 65 | 280 | 1997 | 2016 | line |
+| FordPuma2019 | 75 | 292 | 2019 | 2043 | line |
+| AustinAllegro | 50 | 255 | 1973 | 1995 | line |
 
 ## Player vehicles
 

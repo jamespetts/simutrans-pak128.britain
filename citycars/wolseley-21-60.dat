@@ -1,0 +1,122 @@
+# Wolseley 21/60 six-light saloon, 1929-1935.
+#
+# The 2,677 cc six of 1929-35. The research corrected the order's date: the
+# 21/60 is NOT a 1938-48 car. From 1936 the large six was the '21' (2,916
+# cc), and the 1938-48 large Wolseley was the 25 hp.
+# https://en.wikipedia.org/wiki/Wolseley_21/60
+#
+# Dimensions: not established. The model measures 4.44 x 1.68 x 1.79 m on a
+# 2.85 m wheelbase, ESTIMATED from the photographs and an assumed 0.74 m tyre
+# diameter; these are not specifications and must not be quoted as such.
+#
+# Shape reference: image 1 is a front three-quarter of a 1934 21/60 County
+# six-light saloon; there is no true side profile. The flank is estimated
+# from the two images and the published proportions. The limitation is
+# recorded.
+#
+# Colours: grade (d); no period chart was found. Black, grey, green and
+# maroon are plain names. Weights 9, 8, 7, 6, total 30, provisional.
+#
+# Speed 120 km/h. Comfort 55/265, on the line 180 + 1.5 x 55. Classes 3,4.
+# Dates are road presence: 1929 intro, retires staggered 1950-1953.
+#
+# Metres master: citycars/4.5/wolseley-21-60.blend. Interchange:
+# citycars/4.5/wolseley-21-60.dae. References:
+# citycars/references/wolseley-21-60/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: neither photograph is side-on, so the flank is estimated.
+# The running boards, bustle and rear window are simplified. At 128 px the tall
+# six-light cabin, upright grille and side spare read as a 21/60 County.
+
+
+obj=citycar
+name=Wolseley2160(Black)
+copyright=JamesPetts
+
+DistributionWeight=9
+intro_year=1929
+intro_month=1
+retire_year=1953
+retire_month=6
+speed=120
+class=3,4
+maximum_comfortable_journey_minutes=55
+maximum_tolerable_journey_minutes=265
+
+Image[E]=./images/wolseley-21-60-black_E.0.0,-33,14
+Image[SE]=./images/wolseley-21-60-black_SE.0.0,-13,0
+Image[S]=./images/wolseley-21-60-black_S.0.0,0,0
+Image[SW]=./images/wolseley-21-60-black_SW.0.0,-8,10
+Image[W]=./images/wolseley-21-60-black_W.0.0,4,5
+Image[NW]=./images/wolseley-21-60-black_NW.0.0,12,10
+Image[N]=./images/wolseley-21-60-black_N.0.0,0,33
+Image[NE]=./images/wolseley-21-60-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Wolseley2160(Grey)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=1929
+intro_month=1
+retire_year=1952
+retire_month=6
+speed=120
+class=3,4
+maximum_comfortable_journey_minutes=55
+maximum_tolerable_journey_minutes=265
+
+Image[E]=./images/wolseley-21-60-grey_E.0.0,-33,14
+Image[SE]=./images/wolseley-21-60-grey_SE.0.0,-13,0
+Image[S]=./images/wolseley-21-60-grey_S.0.0,0,0
+Image[SW]=./images/wolseley-21-60-grey_SW.0.0,-8,10
+Image[W]=./images/wolseley-21-60-grey_W.0.0,4,5
+Image[NW]=./images/wolseley-21-60-grey_NW.0.0,12,10
+Image[N]=./images/wolseley-21-60-grey_N.0.0,0,33
+Image[NE]=./images/wolseley-21-60-grey_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Wolseley2160(Green)
+copyright=JamesPetts
+
+DistributionWeight=7
+intro_year=1929
+intro_month=1
+retire_year=1951
+retire_month=6
+speed=120
+class=3,4
+maximum_comfortable_journey_minutes=55
+maximum_tolerable_journey_minutes=265
+
+Image[E]=./images/wolseley-21-60-green_E.0.0,-33,14
+Image[SE]=./images/wolseley-21-60-green_SE.0.0,-13,0
+Image[S]=./images/wolseley-21-60-green_S.0.0,0,0
+Image[SW]=./images/wolseley-21-60-green_SW.0.0,-8,10
+Image[W]=./images/wolseley-21-60-green_W.0.0,4,5
+Image[NW]=./images/wolseley-21-60-green_NW.0.0,12,10
+Image[N]=./images/wolseley-21-60-green_N.0.0,0,33
+Image[NE]=./images/wolseley-21-60-green_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Wolseley2160(Maroon)
+copyright=JamesPetts
+
+DistributionWeight=6
+intro_year=1929
+intro_month=1
+retire_year=1950
+retire_month=6
+speed=120
+class=3,4
+maximum_comfortable_journey_minutes=55
+maximum_tolerable_journey_minutes=265
+
+Image[E]=./images/wolseley-21-60-maroon_E.0.0,-33,14
+Image[SE]=./images/wolseley-21-60-maroon_SE.0.0,-13,0
+Image[S]=./images/wolseley-21-60-maroon_S.0.0,0,0
+Image[SW]=./images/wolseley-21-60-maroon_SW.0.0,-8,10
+Image[W]=./images/wolseley-21-60-maroon_W.0.0,4,5
+Image[NW]=./images/wolseley-21-60-maroon_NW.0.0,12,10
+Image[N]=./images/wolseley-21-60-maroon_N.0.0,0,33
+Image[NE]=./images/wolseley-21-60-maroon_NE.0.0,0,24

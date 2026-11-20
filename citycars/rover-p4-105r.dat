@@ -1,0 +1,122 @@
+# Rover P4 105R four-door saloon, 1956-1958.
+#
+# The high-performance P4 with the 2.6-litre six and the Rover automatic
+# transmission (the 105S is the same shell with a manual gearbox). The
+# 105R and 105S share the body; only the transmission differs.
+# https://en.wikipedia.org/wiki/Rover_P4
+#
+# Dimensions: variant-specific overall figures were not established; the
+# family wheelbase is 2.819 m.
+#
+# Shape reference: the pack has a true level profile of a 105S, identified by
+# the wing script and the companion photographs. No verified 105R profile was
+# found, so the S profile is used for the shared shell; the limitation is
+# recorded.
+#
+# Colours: grade (b), the P4 Drivers Guild's year-based compilation. Black,
+# Sage Green, Dove Grey and Maroon. Weights 6, 5, 5, 4, total 20, provisional.
+#
+# Speed 160 km/h. Comfort 65/280, on the line 180 + 1.5 x 65. Classes 3,4.
+# Dates are road presence: 1956 intro, retires staggered 1974-1977.
+#
+# Metres master: citycars/4.5/rover-p4-105r.blend. Interchange:
+# citycars/4.5/rover-p4-105r.dae. References:
+# citycars/references/rover-p4-105r/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: image 1 is the level 105S profile, used for the shared
+# shell; image 2 does not establish R or S. The rear glass is too flat, the rear
+# bumper wrap is understated, and the crest and mascot are simplified. At 128 px
+# the 105 grille badge and P4 body read as a P4 105R.
+
+
+obj=citycar
+name=RoverP4105R(Black)
+copyright=JamesPetts
+
+DistributionWeight=6
+intro_year=1956
+intro_month=10
+retire_year=1977
+retire_month=6
+speed=160
+class=3,4
+maximum_comfortable_journey_minutes=65
+maximum_tolerable_journey_minutes=280
+
+Image[E]=./images/rover-p4-105r-black_E.0.0,-33,14
+Image[SE]=./images/rover-p4-105r-black_SE.0.0,-13,0
+Image[S]=./images/rover-p4-105r-black_S.0.0,0,0
+Image[SW]=./images/rover-p4-105r-black_SW.0.0,-8,10
+Image[W]=./images/rover-p4-105r-black_W.0.0,4,5
+Image[NW]=./images/rover-p4-105r-black_NW.0.0,12,10
+Image[N]=./images/rover-p4-105r-black_N.0.0,0,33
+Image[NE]=./images/rover-p4-105r-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RoverP4105R(SageGreen)
+copyright=JamesPetts
+
+DistributionWeight=5
+intro_year=1956
+intro_month=10
+retire_year=1976
+retire_month=6
+speed=160
+class=3,4
+maximum_comfortable_journey_minutes=65
+maximum_tolerable_journey_minutes=280
+
+Image[E]=./images/rover-p4-105r-sagegreen_E.0.0,-33,14
+Image[SE]=./images/rover-p4-105r-sagegreen_SE.0.0,-13,0
+Image[S]=./images/rover-p4-105r-sagegreen_S.0.0,0,0
+Image[SW]=./images/rover-p4-105r-sagegreen_SW.0.0,-8,10
+Image[W]=./images/rover-p4-105r-sagegreen_W.0.0,4,5
+Image[NW]=./images/rover-p4-105r-sagegreen_NW.0.0,12,10
+Image[N]=./images/rover-p4-105r-sagegreen_N.0.0,0,33
+Image[NE]=./images/rover-p4-105r-sagegreen_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RoverP4105R(DoveGrey)
+copyright=JamesPetts
+
+DistributionWeight=5
+intro_year=1956
+intro_month=10
+retire_year=1975
+retire_month=6
+speed=160
+class=3,4
+maximum_comfortable_journey_minutes=65
+maximum_tolerable_journey_minutes=280
+
+Image[E]=./images/rover-p4-105r-dovegrey_E.0.0,-33,14
+Image[SE]=./images/rover-p4-105r-dovegrey_SE.0.0,-13,0
+Image[S]=./images/rover-p4-105r-dovegrey_S.0.0,0,0
+Image[SW]=./images/rover-p4-105r-dovegrey_SW.0.0,-8,10
+Image[W]=./images/rover-p4-105r-dovegrey_W.0.0,4,5
+Image[NW]=./images/rover-p4-105r-dovegrey_NW.0.0,12,10
+Image[N]=./images/rover-p4-105r-dovegrey_N.0.0,0,33
+Image[NE]=./images/rover-p4-105r-dovegrey_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RoverP4105R(Maroon)
+copyright=JamesPetts
+
+DistributionWeight=4
+intro_year=1956
+intro_month=10
+retire_year=1974
+retire_month=6
+speed=160
+class=3,4
+maximum_comfortable_journey_minutes=65
+maximum_tolerable_journey_minutes=280
+
+Image[E]=./images/rover-p4-105r-maroon_E.0.0,-33,14
+Image[SE]=./images/rover-p4-105r-maroon_SE.0.0,-13,0
+Image[S]=./images/rover-p4-105r-maroon_S.0.0,0,0
+Image[SW]=./images/rover-p4-105r-maroon_SW.0.0,-8,10
+Image[W]=./images/rover-p4-105r-maroon_W.0.0,4,5
+Image[NW]=./images/rover-p4-105r-maroon_NW.0.0,12,10
+Image[N]=./images/rover-p4-105r-maroon_N.0.0,0,33
+Image[NE]=./images/rover-p4-105r-maroon_NE.0.0,0,24

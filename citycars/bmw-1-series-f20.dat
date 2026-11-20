@@ -1,0 +1,119 @@
+# BMW 1-series F20 five-door hatchback, 2011-2019.
+#
+# The second 1-series: the longer, wider rear-drive five-door with the
+# reshaped nose and the more upright cabin. The three-door F21 is a different
+# body and is not separately represented.
+# https://en.wikipedia.org/wiki/BMW_1_Series_(F20)
+#
+# Dimensions 4.324 x 1.765 x 1.421 m, wheelbase 2.690 m.
+#
+# Shape reference: the pack's images show the five-door in side, front and
+# rear views; the side view governs.
+#
+# Colours: grade (c), BMW GB colours used on the F20 in its launch years:
+# Alpine White, Jet Black, Glacier Silver and Deep Sea Blue. Weights 20, 18,
+# 17, 15, total 70, provisional.
+#
+# Speed 220 km/h. Comfort 80/300, on the line 180 + 1.5 x 80. Classes 2,3.
+# Dates are road presence: 2011 intro, retires staggered 2034-2037.
+#
+# Metres master: citycars/4.5/bmw-1-series-f20.blend. Interchange:
+# citycars/4.5/bmw-1-series-f20.dae. References:
+# citycars/references/bmw-1-series-f20/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the headlamp contours are too angular, and the side
+# crease and Urban Line bumper inserts are understated. At 128 px the longer,
+# wider five-door body and reshaped nose read as an F20 1-series.
+
+
+obj=citycar
+name=BMW1SeriesF20(AlpineWhite)
+copyright=JamesPetts
+
+DistributionWeight=20
+intro_year=2011
+intro_month=9
+retire_year=2037
+retire_month=6
+speed=220
+class=2,3
+maximum_comfortable_journey_minutes=80
+maximum_tolerable_journey_minutes=300
+
+Image[E]=./images/bmw-1-series-f20-alpinewhite_E.0.0,-33,14
+Image[SE]=./images/bmw-1-series-f20-alpinewhite_SE.0.0,-13,0
+Image[S]=./images/bmw-1-series-f20-alpinewhite_S.0.0,0,0
+Image[SW]=./images/bmw-1-series-f20-alpinewhite_SW.0.0,-8,10
+Image[W]=./images/bmw-1-series-f20-alpinewhite_W.0.0,4,5
+Image[NW]=./images/bmw-1-series-f20-alpinewhite_NW.0.0,12,10
+Image[N]=./images/bmw-1-series-f20-alpinewhite_N.0.0,0,33
+Image[NE]=./images/bmw-1-series-f20-alpinewhite_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMW1SeriesF20(JetBlack)
+copyright=JamesPetts
+
+DistributionWeight=18
+intro_year=2011
+intro_month=9
+retire_year=2036
+retire_month=6
+speed=220
+class=2,3
+maximum_comfortable_journey_minutes=80
+maximum_tolerable_journey_minutes=300
+
+Image[E]=./images/bmw-1-series-f20-jetblack_E.0.0,-33,14
+Image[SE]=./images/bmw-1-series-f20-jetblack_SE.0.0,-13,0
+Image[S]=./images/bmw-1-series-f20-jetblack_S.0.0,0,0
+Image[SW]=./images/bmw-1-series-f20-jetblack_SW.0.0,-8,10
+Image[W]=./images/bmw-1-series-f20-jetblack_W.0.0,4,5
+Image[NW]=./images/bmw-1-series-f20-jetblack_NW.0.0,12,10
+Image[N]=./images/bmw-1-series-f20-jetblack_N.0.0,0,33
+Image[NE]=./images/bmw-1-series-f20-jetblack_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMW1SeriesF20(GlacierSilver)
+copyright=JamesPetts
+
+DistributionWeight=17
+intro_year=2011
+intro_month=9
+retire_year=2035
+retire_month=6
+speed=220
+class=2,3
+maximum_comfortable_journey_minutes=80
+maximum_tolerable_journey_minutes=300
+
+Image[E]=./images/bmw-1-series-f20-glaciersilver_E.0.0,-33,14
+Image[SE]=./images/bmw-1-series-f20-glaciersilver_SE.0.0,-13,0
+Image[S]=./images/bmw-1-series-f20-glaciersilver_S.0.0,0,0
+Image[SW]=./images/bmw-1-series-f20-glaciersilver_SW.0.0,-8,10
+Image[W]=./images/bmw-1-series-f20-glaciersilver_W.0.0,4,5
+Image[NW]=./images/bmw-1-series-f20-glaciersilver_NW.0.0,12,10
+Image[N]=./images/bmw-1-series-f20-glaciersilver_N.0.0,0,33
+Image[NE]=./images/bmw-1-series-f20-glaciersilver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMW1SeriesF20(DeepSeaBlue)
+copyright=JamesPetts
+
+DistributionWeight=15
+intro_year=2011
+intro_month=9
+retire_year=2034
+retire_month=6
+speed=220
+class=2,3
+maximum_comfortable_journey_minutes=80
+maximum_tolerable_journey_minutes=300
+
+Image[E]=./images/bmw-1-series-f20-deepseablue_E.0.0,-33,14
+Image[SE]=./images/bmw-1-series-f20-deepseablue_SE.0.0,-13,0
+Image[S]=./images/bmw-1-series-f20-deepseablue_S.0.0,0,0
+Image[SW]=./images/bmw-1-series-f20-deepseablue_SW.0.0,-8,10
+Image[W]=./images/bmw-1-series-f20-deepseablue_W.0.0,4,5
+Image[NW]=./images/bmw-1-series-f20-deepseablue_NW.0.0,12,10
+Image[N]=./images/bmw-1-series-f20-deepseablue_N.0.0,0,33
+Image[NE]=./images/bmw-1-series-f20-deepseablue_NE.0.0,0,24

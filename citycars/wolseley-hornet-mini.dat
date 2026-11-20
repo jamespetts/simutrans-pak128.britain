@@ -1,0 +1,120 @@
+# Wolseley Hornet (Mini-based) two-door saloon, 1961-1969.
+#
+# The Mini-based Hornet: the long-wheelbase Mini shell with the Wolseley
+# grille, the illuminated badge and the boot. The Mk II and Mk III noses are
+# within the pack; the model represents the range.
+# https://en.wikipedia.org/wiki/Wolseley_Hornet_(1961)
+#
+# Dimensions 3.310 x 1.397 x 1.346 m, wheelbase 2.036 m.
+#
+# Shape reference: NO true side profile exists. Image 1 is a front
+# three-quarter; the proportional Mini shell and the Wolseley grille and
+# badge govern. The limitation is recorded.
+#
+# Colours: grade (c); the notes record the period palette. Black, white, red
+# and blue are used. Weights 9, 8, 7, 6, total 30, provisional.
+#
+# Speed 130 km/h. Comfort 60/270, on the line 180 + 1.5 x 60: the Mini
+# cabin with a little more rear room. Classes 1,2.
+# Dates are road presence: 1961 intro, retires staggered 1983-1986.
+#
+# Metres master: citycars/4.5/wolseley-hornet-mini.blend. Interchange:
+# citycars/4.5/wolseley-hornet-mini.dae. References:
+# citycars/references/wolseley-hornet-mini/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: there is no true side or rear view, so the profile and
+# extended boot are inferred. The front corners and grille are too angular. At
+# 128 px the Mini shell with the Wolseley grille and badge reads as a Hornet.
+
+
+obj=citycar
+name=WolseleyHornetMini(Black)
+copyright=JamesPetts
+
+DistributionWeight=9
+intro_year=1961
+intro_month=10
+retire_year=1986
+retire_month=6
+speed=130
+class=1,2
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=270
+
+Image[E]=./images/wolseley-hornet-mini-black_E.0.0,-33,14
+Image[SE]=./images/wolseley-hornet-mini-black_SE.0.0,-13,0
+Image[S]=./images/wolseley-hornet-mini-black_S.0.0,0,0
+Image[SW]=./images/wolseley-hornet-mini-black_SW.0.0,-8,10
+Image[W]=./images/wolseley-hornet-mini-black_W.0.0,4,5
+Image[NW]=./images/wolseley-hornet-mini-black_NW.0.0,12,10
+Image[N]=./images/wolseley-hornet-mini-black_N.0.0,0,33
+Image[NE]=./images/wolseley-hornet-mini-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=WolseleyHornetMini(White)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=1961
+intro_month=10
+retire_year=1985
+retire_month=6
+speed=130
+class=1,2
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=270
+
+Image[E]=./images/wolseley-hornet-mini-white_E.0.0,-33,14
+Image[SE]=./images/wolseley-hornet-mini-white_SE.0.0,-13,0
+Image[S]=./images/wolseley-hornet-mini-white_S.0.0,0,0
+Image[SW]=./images/wolseley-hornet-mini-white_SW.0.0,-8,10
+Image[W]=./images/wolseley-hornet-mini-white_W.0.0,4,5
+Image[NW]=./images/wolseley-hornet-mini-white_NW.0.0,12,10
+Image[N]=./images/wolseley-hornet-mini-white_N.0.0,0,33
+Image[NE]=./images/wolseley-hornet-mini-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=WolseleyHornetMini(Red)
+copyright=JamesPetts
+
+DistributionWeight=7
+intro_year=1961
+intro_month=10
+retire_year=1984
+retire_month=6
+speed=130
+class=1,2
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=270
+
+Image[E]=./images/wolseley-hornet-mini-red_E.0.0,-33,14
+Image[SE]=./images/wolseley-hornet-mini-red_SE.0.0,-13,0
+Image[S]=./images/wolseley-hornet-mini-red_S.0.0,0,0
+Image[SW]=./images/wolseley-hornet-mini-red_SW.0.0,-8,10
+Image[W]=./images/wolseley-hornet-mini-red_W.0.0,4,5
+Image[NW]=./images/wolseley-hornet-mini-red_NW.0.0,12,10
+Image[N]=./images/wolseley-hornet-mini-red_N.0.0,0,33
+Image[NE]=./images/wolseley-hornet-mini-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=WolseleyHornetMini(Blue)
+copyright=JamesPetts
+
+DistributionWeight=6
+intro_year=1961
+intro_month=10
+retire_year=1983
+retire_month=6
+speed=130
+class=1,2
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=270
+
+Image[E]=./images/wolseley-hornet-mini-blue_E.0.0,-33,14
+Image[SE]=./images/wolseley-hornet-mini-blue_SE.0.0,-13,0
+Image[S]=./images/wolseley-hornet-mini-blue_S.0.0,0,0
+Image[SW]=./images/wolseley-hornet-mini-blue_SW.0.0,-8,10
+Image[W]=./images/wolseley-hornet-mini-blue_W.0.0,4,5
+Image[NW]=./images/wolseley-hornet-mini-blue_NW.0.0,12,10
+Image[N]=./images/wolseley-hornet-mini-blue_N.0.0,0,33
+Image[NE]=./images/wolseley-hornet-mini-blue_NE.0.0,0,24

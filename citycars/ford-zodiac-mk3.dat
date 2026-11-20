@@ -1,0 +1,120 @@
+# Ford Zodiac Mk III four-door saloon, 1962-1966.
+#
+# The Mk III Zodiac: the Zephyr shell with four headlamps in a horizontal-bar
+# grille, the Zodiac script and the higher trim. The front photograph in the
+# pack is a different, blue car; the side and rear govern.
+# https://en.wikipedia.org/wiki/Ford_Zodiac
+#
+# Dimensions 4.642 x 1.753 x 1.441 m, wheelbase 2.718 m.
+#
+# Shape reference: image 1 is a true level side elevation; the front and rear
+# three-quarters show the four-lamp grille and the tail.
+#
+# Colours: grade (d) for a full list, grade (c) for Ambassador Blue. The
+# range otherwise used the Ford corporate palette; Ambassador Blue, Ermine
+# White, Monaco Red and Lombard Grey are used. Weights 9, 8, 7, 6, total 30,
+# provisional.
+#
+# Speed 155 km/h. Comfort 65/280, on the line 180 + 1.5 x 65. Classes 2,3.
+# Dates are road presence: 1962 intro, retires staggered 1982-1985.
+#
+# Metres master: citycars/4.5/ford-zodiac-mk3.blend. Interchange:
+# citycars/4.5/ford-zodiac-mk3.dae. References:
+# citycars/references/ford-zodiac-mk3/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the rear door and C-pillar changes are understated, and
+# the rear finisher is too flat. At 128 px the four-lamp horizontal-bar grille,
+# Zodiac script and finned tail read as a Zodiac Mk III.
+
+
+obj=citycar
+name=FordZodiacMk3(AmbassadorBlue)
+copyright=JamesPetts
+
+DistributionWeight=9
+intro_year=1962
+intro_month=4
+retire_year=1985
+retire_month=6
+speed=155
+class=2,3
+maximum_comfortable_journey_minutes=65
+maximum_tolerable_journey_minutes=280
+
+Image[E]=./images/ford-zodiac-mk3-ambassadorblue_E.0.0,-33,14
+Image[SE]=./images/ford-zodiac-mk3-ambassadorblue_SE.0.0,-13,0
+Image[S]=./images/ford-zodiac-mk3-ambassadorblue_S.0.0,0,0
+Image[SW]=./images/ford-zodiac-mk3-ambassadorblue_SW.0.0,-8,10
+Image[W]=./images/ford-zodiac-mk3-ambassadorblue_W.0.0,4,5
+Image[NW]=./images/ford-zodiac-mk3-ambassadorblue_NW.0.0,12,10
+Image[N]=./images/ford-zodiac-mk3-ambassadorblue_N.0.0,0,33
+Image[NE]=./images/ford-zodiac-mk3-ambassadorblue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FordZodiacMk3(ErmineWhite)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=1962
+intro_month=4
+retire_year=1984
+retire_month=6
+speed=155
+class=2,3
+maximum_comfortable_journey_minutes=65
+maximum_tolerable_journey_minutes=280
+
+Image[E]=./images/ford-zodiac-mk3-erminewhite_E.0.0,-33,14
+Image[SE]=./images/ford-zodiac-mk3-erminewhite_SE.0.0,-13,0
+Image[S]=./images/ford-zodiac-mk3-erminewhite_S.0.0,0,0
+Image[SW]=./images/ford-zodiac-mk3-erminewhite_SW.0.0,-8,10
+Image[W]=./images/ford-zodiac-mk3-erminewhite_W.0.0,4,5
+Image[NW]=./images/ford-zodiac-mk3-erminewhite_NW.0.0,12,10
+Image[N]=./images/ford-zodiac-mk3-erminewhite_N.0.0,0,33
+Image[NE]=./images/ford-zodiac-mk3-erminewhite_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FordZodiacMk3(MonacoRed)
+copyright=JamesPetts
+
+DistributionWeight=7
+intro_year=1962
+intro_month=4
+retire_year=1983
+retire_month=6
+speed=155
+class=2,3
+maximum_comfortable_journey_minutes=65
+maximum_tolerable_journey_minutes=280
+
+Image[E]=./images/ford-zodiac-mk3-monacored_E.0.0,-33,14
+Image[SE]=./images/ford-zodiac-mk3-monacored_SE.0.0,-13,0
+Image[S]=./images/ford-zodiac-mk3-monacored_S.0.0,0,0
+Image[SW]=./images/ford-zodiac-mk3-monacored_SW.0.0,-8,10
+Image[W]=./images/ford-zodiac-mk3-monacored_W.0.0,4,5
+Image[NW]=./images/ford-zodiac-mk3-monacored_NW.0.0,12,10
+Image[N]=./images/ford-zodiac-mk3-monacored_N.0.0,0,33
+Image[NE]=./images/ford-zodiac-mk3-monacored_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FordZodiacMk3(LombardGrey)
+copyright=JamesPetts
+
+DistributionWeight=6
+intro_year=1962
+intro_month=4
+retire_year=1982
+retire_month=6
+speed=155
+class=2,3
+maximum_comfortable_journey_minutes=65
+maximum_tolerable_journey_minutes=280
+
+Image[E]=./images/ford-zodiac-mk3-lombardgrey_E.0.0,-33,14
+Image[SE]=./images/ford-zodiac-mk3-lombardgrey_SE.0.0,-13,0
+Image[S]=./images/ford-zodiac-mk3-lombardgrey_S.0.0,0,0
+Image[SW]=./images/ford-zodiac-mk3-lombardgrey_SW.0.0,-8,10
+Image[W]=./images/ford-zodiac-mk3-lombardgrey_W.0.0,4,5
+Image[NW]=./images/ford-zodiac-mk3-lombardgrey_NW.0.0,12,10
+Image[N]=./images/ford-zodiac-mk3-lombardgrey_N.0.0,0,33
+Image[NE]=./images/ford-zodiac-mk3-lombardgrey_NE.0.0,0,24

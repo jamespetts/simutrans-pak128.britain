@@ -1,0 +1,122 @@
+# BMW i3 five-door electric hatchback, 2013-2022.
+#
+# The first purpose-built BMW electric car: the carbon-fibre passenger cell,
+# the aluminium chassis, the tall narrow body, the full-glass tailgate and
+# the blue highlight trim. The Range Extender is the same body and is not
+# separately represented.
+# https://en.wikipedia.org/wiki/BMW_i3_(hatchback)
+#
+# Dimensions 3.999 x 1.775 x 1.578 m, wheelbase 2.570 m.
+#
+# Shape reference: the pack's images show a UK car in side, front and rear
+# views; the side view governs the tall body and the flat tail.
+#
+# Colours: grade (a), the BMW (UK) i3 price list valid from January 2014:
+# Capparis White, Arravani Grey, Andesit Silver and Laurus Grey, all with the
+# BMW i Blue highlight. Weights 12, 10, 10, 8, total 40, provisional.
+#
+# Speed 150 km/h (electronically limited). Comfort 75/292, on the line
+# 180 + 1.5 x 75: a quiet, upright electric cabin. Classes 2,3.
+# Dates are road presence: 2013 intro, retires staggered 2038-2041.
+#
+# Metres master: citycars/4.5/bmw-i3.blend. Interchange:
+# citycars/4.5/bmw-i3.dae. References:
+# citycars/references/bmw-i3/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the rear side-glass drop is too subtle, and the hatch
+# graphic and rear lamps are simplified. The rear-hinged coach doors are shown
+# closed. At 128 px the tall body, flat tail, i Blue highlights and black roof
+# read as an i3.
+
+
+obj=citycar
+name=BMWi3(CapparisWhite)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=2013
+intro_month=11
+retire_year=2041
+retire_month=6
+speed=150
+class=2,3
+maximum_comfortable_journey_minutes=75
+maximum_tolerable_journey_minutes=292
+
+Image[E]=./images/bmw-i3-cappariswhite_E.0.0,-33,14
+Image[SE]=./images/bmw-i3-cappariswhite_SE.0.0,-13,0
+Image[S]=./images/bmw-i3-cappariswhite_S.0.0,0,0
+Image[SW]=./images/bmw-i3-cappariswhite_SW.0.0,-8,10
+Image[W]=./images/bmw-i3-cappariswhite_W.0.0,4,5
+Image[NW]=./images/bmw-i3-cappariswhite_NW.0.0,12,10
+Image[N]=./images/bmw-i3-cappariswhite_N.0.0,0,33
+Image[NE]=./images/bmw-i3-cappariswhite_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMWi3(ArravaniGrey)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=2013
+intro_month=11
+retire_year=2040
+retire_month=6
+speed=150
+class=2,3
+maximum_comfortable_journey_minutes=75
+maximum_tolerable_journey_minutes=292
+
+Image[E]=./images/bmw-i3-arravanigrey_E.0.0,-33,14
+Image[SE]=./images/bmw-i3-arravanigrey_SE.0.0,-13,0
+Image[S]=./images/bmw-i3-arravanigrey_S.0.0,0,0
+Image[SW]=./images/bmw-i3-arravanigrey_SW.0.0,-8,10
+Image[W]=./images/bmw-i3-arravanigrey_W.0.0,4,5
+Image[NW]=./images/bmw-i3-arravanigrey_NW.0.0,12,10
+Image[N]=./images/bmw-i3-arravanigrey_N.0.0,0,33
+Image[NE]=./images/bmw-i3-arravanigrey_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMWi3(AndesitSilver)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=2013
+intro_month=11
+retire_year=2039
+retire_month=6
+speed=150
+class=2,3
+maximum_comfortable_journey_minutes=75
+maximum_tolerable_journey_minutes=292
+
+Image[E]=./images/bmw-i3-andesitsilver_E.0.0,-33,14
+Image[SE]=./images/bmw-i3-andesitsilver_SE.0.0,-13,0
+Image[S]=./images/bmw-i3-andesitsilver_S.0.0,0,0
+Image[SW]=./images/bmw-i3-andesitsilver_SW.0.0,-8,10
+Image[W]=./images/bmw-i3-andesitsilver_W.0.0,4,5
+Image[NW]=./images/bmw-i3-andesitsilver_NW.0.0,12,10
+Image[N]=./images/bmw-i3-andesitsilver_N.0.0,0,33
+Image[NE]=./images/bmw-i3-andesitsilver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMWi3(LaurusGrey)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=2013
+intro_month=11
+retire_year=2038
+retire_month=6
+speed=150
+class=2,3
+maximum_comfortable_journey_minutes=75
+maximum_tolerable_journey_minutes=292
+
+Image[E]=./images/bmw-i3-laurusgrey_E.0.0,-33,14
+Image[SE]=./images/bmw-i3-laurusgrey_SE.0.0,-13,0
+Image[S]=./images/bmw-i3-laurusgrey_S.0.0,0,0
+Image[SW]=./images/bmw-i3-laurusgrey_SW.0.0,-8,10
+Image[W]=./images/bmw-i3-laurusgrey_W.0.0,4,5
+Image[NW]=./images/bmw-i3-laurusgrey_NW.0.0,12,10
+Image[N]=./images/bmw-i3-laurusgrey_N.0.0,0,33
+Image[NE]=./images/bmw-i3-laurusgrey_NE.0.0,0,24

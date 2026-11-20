@@ -1,0 +1,120 @@
+# Rover P3 six-light saloon, 1948-1949.
+#
+# The P3 that preceded the P4: the six-light saloon with the separate
+# flowing wings, the upright grille and the sloping tail. The 75's 2.1-litre
+# six is the version photographed and modelled; the 60's 1.6-litre six is not
+# separately represented because no 60 was photographed for the pack.
+# https://en.wikipedia.org/wiki/Rover_P3
+#
+# Dimensions 4.369 x 1.651 x 1.600 m, wheelbase 2.794 m.
+#
+# Shape reference: a six-light 75 in true level side elevation, with front
+# and rear three-quarters and a detail view. The side view governs the wings,
+# roofline and tail.
+#
+# Colours: no model-specific UK chart was established. Black, grey, green and
+# maroon are plain names, not claimed as factory names. Weights 10, 8, 6, 6,
+# total 30, provisional.
+#
+# Speed 130 km/h. Comfort 55/265, on the line 180 + 1.5 x 55: an upright
+# 1940s saloon with independent front suspension. Classes 3,4.
+# Dates are road presence: 1948 intro, retires staggered 1965-1968.
+#
+# Metres master: citycars/4.5/rover-p3.blend. Interchange:
+# citycars/4.5/rover-p3.dae. References:
+# citycars/references/rover-p3/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: PLACEHOLDER.
+
+
+obj=citycar
+name=RoverP3(Black)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=1948
+intro_month=2
+retire_year=1968
+retire_month=6
+speed=130
+class=3,4
+maximum_comfortable_journey_minutes=55
+maximum_tolerable_journey_minutes=265
+
+Image[E]=./images/rover-p3-black_E.0.0,-33,14
+Image[SE]=./images/rover-p3-black_SE.0.0,-13,0
+Image[S]=./images/rover-p3-black_S.0.0,0,0
+Image[SW]=./images/rover-p3-black_SW.0.0,-8,10
+Image[W]=./images/rover-p3-black_W.0.0,4,5
+Image[NW]=./images/rover-p3-black_NW.0.0,12,10
+Image[N]=./images/rover-p3-black_N.0.0,0,33
+Image[NE]=./images/rover-p3-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RoverP3(SageGreen)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=1948
+intro_month=2
+retire_year=1967
+retire_month=6
+speed=130
+class=3,4
+maximum_comfortable_journey_minutes=55
+maximum_tolerable_journey_minutes=265
+
+Image[E]=./images/rover-p3-sagegreen_E.0.0,-33,14
+Image[SE]=./images/rover-p3-sagegreen_SE.0.0,-13,0
+Image[S]=./images/rover-p3-sagegreen_S.0.0,0,0
+Image[SW]=./images/rover-p3-sagegreen_SW.0.0,-8,10
+Image[W]=./images/rover-p3-sagegreen_W.0.0,4,5
+Image[NW]=./images/rover-p3-sagegreen_NW.0.0,12,10
+Image[N]=./images/rover-p3-sagegreen_N.0.0,0,33
+Image[NE]=./images/rover-p3-sagegreen_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RoverP3(DoveGrey)
+copyright=JamesPetts
+
+DistributionWeight=6
+intro_year=1948
+intro_month=2
+retire_year=1966
+retire_month=6
+speed=130
+class=3,4
+maximum_comfortable_journey_minutes=55
+maximum_tolerable_journey_minutes=265
+
+Image[E]=./images/rover-p3-dovegrey_E.0.0,-33,14
+Image[SE]=./images/rover-p3-dovegrey_SE.0.0,-13,0
+Image[S]=./images/rover-p3-dovegrey_S.0.0,0,0
+Image[SW]=./images/rover-p3-dovegrey_SW.0.0,-8,10
+Image[W]=./images/rover-p3-dovegrey_W.0.0,4,5
+Image[NW]=./images/rover-p3-dovegrey_NW.0.0,12,10
+Image[N]=./images/rover-p3-dovegrey_N.0.0,0,33
+Image[NE]=./images/rover-p3-dovegrey_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RoverP3(Maroon)
+copyright=JamesPetts
+
+DistributionWeight=6
+intro_year=1948
+intro_month=2
+retire_year=1965
+retire_month=6
+speed=130
+class=3,4
+maximum_comfortable_journey_minutes=55
+maximum_tolerable_journey_minutes=265
+
+Image[E]=./images/rover-p3-maroon_E.0.0,-33,14
+Image[SE]=./images/rover-p3-maroon_SE.0.0,-13,0
+Image[S]=./images/rover-p3-maroon_S.0.0,0,0
+Image[SW]=./images/rover-p3-maroon_SW.0.0,-8,10
+Image[W]=./images/rover-p3-maroon_W.0.0,4,5
+Image[NW]=./images/rover-p3-maroon_NW.0.0,12,10
+Image[N]=./images/rover-p3-maroon_N.0.0,0,33
+Image[NE]=./images/rover-p3-maroon_NE.0.0,0,24

@@ -1,0 +1,123 @@
+# Land Rover Discovery 3 five-door, 2004-2009.
+#
+# The third Discovery (LR3): the all-new integrated body-frame shell, the
+# smooth rounded flanks, the stepped roofline and the horizontal tail lamps.
+# The five-door is modelled.
+# https://en.wikipedia.org/wiki/Land_Rover_Discovery
+#
+# Dimensions 4.849 x 1.915 x 1.882 m (2005-06) or 1.892 m (2007-09),
+# wheelbase 2.885 m.
+#
+# Shape reference: image 1 is the side profile; the front and rear
+# three-quarters show the lamps, grille and tailgate.
+#
+# Colours: grade (b), factory-derived names from a Land Rover parts
+# catalogue, but the page is plainly incomplete (five names only). Java
+# Black, Zermatt Silver, Chawton White and Bonatti Grey are used; Zermatt
+# Silver rests on grade (d) evidence. Weights 12, 10, 10, 8, total 40,
+# provisional.
+#
+# Speed 190 km/h. Comfort 85/307, on the line 180 + 1.5 x 85. Classes 3,4.
+# Dates are road presence: 2004 intro, retires staggered 2025-2028.
+#
+# Metres master: citycars/4.5/land-rover-discovery-3.blend. Interchange:
+# citycars/4.5/land-rover-discovery-3.dae. References:
+# citycars/references/land-rover-discovery-3/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the rear quarter glass is a rectangular panel rather than
+# the shaped window, and the arch cladding is a flat ribbon. Badges and tailgate
+# lettering are below pak resolution and omitted. At 128 px the forward-leaning
+# C-pillar, roof step and asymmetric tailgate read as a Discovery 3.
+
+
+obj=citycar
+name=LandRoverDiscovery3(JavaBlack)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=2004
+intro_month=6
+retire_year=2028
+retire_month=6
+speed=190
+class=3,4
+maximum_comfortable_journey_minutes=85
+maximum_tolerable_journey_minutes=307
+
+Image[E]=./images/land-rover-discovery-3-javablack_E.0.0,-33,14
+Image[SE]=./images/land-rover-discovery-3-javablack_SE.0.0,-13,0
+Image[S]=./images/land-rover-discovery-3-javablack_S.0.0,0,0
+Image[SW]=./images/land-rover-discovery-3-javablack_SW.0.0,-8,10
+Image[W]=./images/land-rover-discovery-3-javablack_W.0.0,4,5
+Image[NW]=./images/land-rover-discovery-3-javablack_NW.0.0,12,10
+Image[N]=./images/land-rover-discovery-3-javablack_N.0.0,0,33
+Image[NE]=./images/land-rover-discovery-3-javablack_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=LandRoverDiscovery3(ZermattSilver)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=2004
+intro_month=6
+retire_year=2027
+retire_month=6
+speed=190
+class=3,4
+maximum_comfortable_journey_minutes=85
+maximum_tolerable_journey_minutes=307
+
+Image[E]=./images/land-rover-discovery-3-zermattsilver_E.0.0,-33,14
+Image[SE]=./images/land-rover-discovery-3-zermattsilver_SE.0.0,-13,0
+Image[S]=./images/land-rover-discovery-3-zermattsilver_S.0.0,0,0
+Image[SW]=./images/land-rover-discovery-3-zermattsilver_SW.0.0,-8,10
+Image[W]=./images/land-rover-discovery-3-zermattsilver_W.0.0,4,5
+Image[NW]=./images/land-rover-discovery-3-zermattsilver_NW.0.0,12,10
+Image[N]=./images/land-rover-discovery-3-zermattsilver_N.0.0,0,33
+Image[NE]=./images/land-rover-discovery-3-zermattsilver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=LandRoverDiscovery3(ChawtonWhite)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=2004
+intro_month=6
+retire_year=2026
+retire_month=6
+speed=190
+class=3,4
+maximum_comfortable_journey_minutes=85
+maximum_tolerable_journey_minutes=307
+
+Image[E]=./images/land-rover-discovery-3-chawtonwhite_E.0.0,-33,14
+Image[SE]=./images/land-rover-discovery-3-chawtonwhite_SE.0.0,-13,0
+Image[S]=./images/land-rover-discovery-3-chawtonwhite_S.0.0,0,0
+Image[SW]=./images/land-rover-discovery-3-chawtonwhite_SW.0.0,-8,10
+Image[W]=./images/land-rover-discovery-3-chawtonwhite_W.0.0,4,5
+Image[NW]=./images/land-rover-discovery-3-chawtonwhite_NW.0.0,12,10
+Image[N]=./images/land-rover-discovery-3-chawtonwhite_N.0.0,0,33
+Image[NE]=./images/land-rover-discovery-3-chawtonwhite_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=LandRoverDiscovery3(BonattiGrey)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=2004
+intro_month=6
+retire_year=2025
+retire_month=6
+speed=190
+class=3,4
+maximum_comfortable_journey_minutes=85
+maximum_tolerable_journey_minutes=307
+
+Image[E]=./images/land-rover-discovery-3-bonattigrey_E.0.0,-33,14
+Image[SE]=./images/land-rover-discovery-3-bonattigrey_SE.0.0,-13,0
+Image[S]=./images/land-rover-discovery-3-bonattigrey_S.0.0,0,0
+Image[SW]=./images/land-rover-discovery-3-bonattigrey_SW.0.0,-8,10
+Image[W]=./images/land-rover-discovery-3-bonattigrey_W.0.0,4,5
+Image[NW]=./images/land-rover-discovery-3-bonattigrey_NW.0.0,12,10
+Image[N]=./images/land-rover-discovery-3-bonattigrey_N.0.0,0,33
+Image[NE]=./images/land-rover-discovery-3-bonattigrey_NE.0.0,0,24

@@ -1,0 +1,124 @@
+# Datsun 1200 four-door saloon (B110), 1971-1973.
+#
+# Sold in Britain as the Datsun 1200, not as the Sunny; Datsun UK's own 1973
+# colour chart heads the range "Sunny 1200 Range". It was the first Japanese
+# car to sell in large numbers here. The two-door saloon was also a UK
+# catalogue body but is not represented, nor are the coupe and the estate.
+# https://en.wikipedia.org/wiki/Nissan_Sunny
+#
+# Dimensions 3.830 x 1.495 x 1.390 m, wheelbase 2.300 m (Wikipedia infobox;
+# the 2,340 mm figure in the same box is the PB110 coupe).
+#
+# Shape reference: image 1 is a near-side view about 10 degrees off the side
+# axis, not a true level profile, so the flank is estimated within the
+# published dimensions and the limitation is recorded.
+#
+# Colours: grade (a) for the codes and (d) for the names. Datsun UK's 1973
+# chart lists codes 003, 006, 567, 645, 821, 931 and 932 for the two- and
+# four-door saloons, but prints no names. White, Red, Blue and Green are plain
+# names. Weights 12, 10, 9, 8, total 39, provisional.
+#
+# Speed 140 km/h. Comfort 40/240, on the line 180 + 1.5 x 40. Classes 0,1.
+# Dates: intro 1971, the month unconfirmed and set to January; retire staggered
+# 1986-1990 as a road tail.
+#
+# Metres master: citycars/4.5/nissan-sunny-b110.blend. Interchange:
+# citycars/4.5/nissan-sunny-b110.dae. References:
+# citycars/references/nissan-sunny-b110/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the flank is estimated within the published dimensions
+# and wheelbase because image 1 is oblique. The chrome window surrounds, the
+# hubcap detail and the badge lettering are simplified.
+
+
+obj=citycar
+name=Datsun1200(White)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=1971
+intro_month=1
+retire_year=1990
+retire_month=6
+speed=140
+class=0,1
+maximum_comfortable_journey_minutes=40
+maximum_tolerable_journey_minutes=240
+
+Image[E]=./images/nissan-sunny-b110-white_E.0.0,-33,14
+Image[SE]=./images/nissan-sunny-b110-white_SE.0.0,-13,0
+Image[S]=./images/nissan-sunny-b110-white_S.0.0,0,0
+Image[SW]=./images/nissan-sunny-b110-white_SW.0.0,-8,10
+Image[W]=./images/nissan-sunny-b110-white_W.0.0,4,5
+Image[NW]=./images/nissan-sunny-b110-white_NW.0.0,12,10
+Image[N]=./images/nissan-sunny-b110-white_N.0.0,0,33
+Image[NE]=./images/nissan-sunny-b110-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Datsun1200(Red)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=1971
+intro_month=1
+retire_year=1989
+retire_month=6
+speed=140
+class=0,1
+maximum_comfortable_journey_minutes=40
+maximum_tolerable_journey_minutes=240
+
+Image[E]=./images/nissan-sunny-b110-red_E.0.0,-33,14
+Image[SE]=./images/nissan-sunny-b110-red_SE.0.0,-13,0
+Image[S]=./images/nissan-sunny-b110-red_S.0.0,0,0
+Image[SW]=./images/nissan-sunny-b110-red_SW.0.0,-8,10
+Image[W]=./images/nissan-sunny-b110-red_W.0.0,4,5
+Image[NW]=./images/nissan-sunny-b110-red_NW.0.0,12,10
+Image[N]=./images/nissan-sunny-b110-red_N.0.0,0,33
+Image[NE]=./images/nissan-sunny-b110-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Datsun1200(Blue)
+copyright=JamesPetts
+
+DistributionWeight=9
+intro_year=1971
+intro_month=1
+retire_year=1988
+retire_month=6
+speed=140
+class=0,1
+maximum_comfortable_journey_minutes=40
+maximum_tolerable_journey_minutes=240
+
+Image[E]=./images/nissan-sunny-b110-blue_E.0.0,-33,14
+Image[SE]=./images/nissan-sunny-b110-blue_SE.0.0,-13,0
+Image[S]=./images/nissan-sunny-b110-blue_S.0.0,0,0
+Image[SW]=./images/nissan-sunny-b110-blue_SW.0.0,-8,10
+Image[W]=./images/nissan-sunny-b110-blue_W.0.0,4,5
+Image[NW]=./images/nissan-sunny-b110-blue_NW.0.0,12,10
+Image[N]=./images/nissan-sunny-b110-blue_N.0.0,0,33
+Image[NE]=./images/nissan-sunny-b110-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Datsun1200(Green)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=1971
+intro_month=1
+retire_year=1986
+retire_month=6
+speed=140
+class=0,1
+maximum_comfortable_journey_minutes=40
+maximum_tolerable_journey_minutes=240
+
+Image[E]=./images/nissan-sunny-b110-green_E.0.0,-33,14
+Image[SE]=./images/nissan-sunny-b110-green_SE.0.0,-13,0
+Image[S]=./images/nissan-sunny-b110-green_S.0.0,0,0
+Image[SW]=./images/nissan-sunny-b110-green_SW.0.0,-8,10
+Image[W]=./images/nissan-sunny-b110-green_W.0.0,4,5
+Image[NW]=./images/nissan-sunny-b110-green_NW.0.0,12,10
+Image[N]=./images/nissan-sunny-b110-green_N.0.0,0,33
+Image[NE]=./images/nissan-sunny-b110-green_NE.0.0,0,24

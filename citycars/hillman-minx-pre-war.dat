@@ -1,0 +1,121 @@
+# Hillman Minx four-door saloon, 1931-1935.
+#
+# The pre-war Minx: the 1,185 cc side-valve four in the six-light saloon
+# body, with the upright grille and separate wings. The pack photographs a
+# December 1932 car, registration JJ 1813.
+# https://en.wikipedia.org/wiki/Hillman_Minx
+#
+# Dimensions 3.404 x 1.473 x 1.753 m, wheelbase 2.337 m.
+#
+# Shape reference: image 1 is about 20 degrees off side, not a true level
+# profile; the flank is estimated from it and the other views. The
+# limitation is recorded.
+#
+# Colours: grade (d); no period chart was found. Black, green, blue and
+# maroon are plain names. Weights 8, 7, 5, 5, total 25, provisional.
+#
+# Speed 105 km/h. Comfort 45/250, on the line 180 + 1.5 x 45: a tall,
+# upright 1930s saloon. Classes 2,3.
+# Dates are road presence: 1931 intro, retires staggered 1953-1956.
+#
+# Metres master: citycars/4.5/hillman-minx-pre-war.blend. Interchange:
+# citycars/4.5/hillman-minx-pre-war.dae. References:
+# citycars/references/hillman-minx-pre-war/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: image 1 is a shallow front angle, not a true side, and
+# the rear is inferred. The running-board transitions and rear spare mounting are
+# simplified; the 1934 car's later trim was not copied. At 128 px the six-light
+# cabin, upright grille and separate wings read as a pre-war Minx.
+
+
+obj=citycar
+name=HillmanMinxPreWar(Black)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=1931
+intro_month=1
+retire_year=1956
+retire_month=6
+speed=105
+class=2,3
+maximum_comfortable_journey_minutes=45
+maximum_tolerable_journey_minutes=250
+
+Image[E]=./images/hillman-minx-pre-war-black_E.0.0,-33,14
+Image[SE]=./images/hillman-minx-pre-war-black_SE.0.0,-13,0
+Image[S]=./images/hillman-minx-pre-war-black_S.0.0,0,0
+Image[SW]=./images/hillman-minx-pre-war-black_SW.0.0,-8,10
+Image[W]=./images/hillman-minx-pre-war-black_W.0.0,4,5
+Image[NW]=./images/hillman-minx-pre-war-black_NW.0.0,12,10
+Image[N]=./images/hillman-minx-pre-war-black_N.0.0,0,33
+Image[NE]=./images/hillman-minx-pre-war-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=HillmanMinxPreWar(Green)
+copyright=JamesPetts
+
+DistributionWeight=7
+intro_year=1931
+intro_month=1
+retire_year=1955
+retire_month=6
+speed=105
+class=2,3
+maximum_comfortable_journey_minutes=45
+maximum_tolerable_journey_minutes=250
+
+Image[E]=./images/hillman-minx-pre-war-green_E.0.0,-33,14
+Image[SE]=./images/hillman-minx-pre-war-green_SE.0.0,-13,0
+Image[S]=./images/hillman-minx-pre-war-green_S.0.0,0,0
+Image[SW]=./images/hillman-minx-pre-war-green_SW.0.0,-8,10
+Image[W]=./images/hillman-minx-pre-war-green_W.0.0,4,5
+Image[NW]=./images/hillman-minx-pre-war-green_NW.0.0,12,10
+Image[N]=./images/hillman-minx-pre-war-green_N.0.0,0,33
+Image[NE]=./images/hillman-minx-pre-war-green_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=HillmanMinxPreWar(Blue)
+copyright=JamesPetts
+
+DistributionWeight=5
+intro_year=1931
+intro_month=1
+retire_year=1954
+retire_month=6
+speed=105
+class=2,3
+maximum_comfortable_journey_minutes=45
+maximum_tolerable_journey_minutes=250
+
+Image[E]=./images/hillman-minx-pre-war-blue_E.0.0,-33,14
+Image[SE]=./images/hillman-minx-pre-war-blue_SE.0.0,-13,0
+Image[S]=./images/hillman-minx-pre-war-blue_S.0.0,0,0
+Image[SW]=./images/hillman-minx-pre-war-blue_SW.0.0,-8,10
+Image[W]=./images/hillman-minx-pre-war-blue_W.0.0,4,5
+Image[NW]=./images/hillman-minx-pre-war-blue_NW.0.0,12,10
+Image[N]=./images/hillman-minx-pre-war-blue_N.0.0,0,33
+Image[NE]=./images/hillman-minx-pre-war-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=HillmanMinxPreWar(Maroon)
+copyright=JamesPetts
+
+DistributionWeight=5
+intro_year=1931
+intro_month=1
+retire_year=1953
+retire_month=6
+speed=105
+class=2,3
+maximum_comfortable_journey_minutes=45
+maximum_tolerable_journey_minutes=250
+
+Image[E]=./images/hillman-minx-pre-war-maroon_E.0.0,-33,14
+Image[SE]=./images/hillman-minx-pre-war-maroon_SE.0.0,-13,0
+Image[S]=./images/hillman-minx-pre-war-maroon_S.0.0,0,0
+Image[SW]=./images/hillman-minx-pre-war-maroon_SW.0.0,-8,10
+Image[W]=./images/hillman-minx-pre-war-maroon_W.0.0,4,5
+Image[NW]=./images/hillman-minx-pre-war-maroon_NW.0.0,12,10
+Image[N]=./images/hillman-minx-pre-war-maroon_N.0.0,0,33
+Image[NE]=./images/hillman-minx-pre-war-maroon_NE.0.0,0,24

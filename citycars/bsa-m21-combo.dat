@@ -68,6 +68,13 @@
 # Stage B note: the 2.79 rig centres the combined bounding box; for this outfit a
 # further +0.339 pak-unit lateral shift was applied after preparation so that the
 # motorcycle, not the chair, sits at the tile centre. Re-render with that shift.
+#
+# Rider and passengers added 2026-11-20 in Blender 4.5. One seated rider, an adult
+# in the front Maxstoke compartment and a child in the rear compartment, all in
+# period clothing and black helmets. The closed chair's opaque glazing conceals the
+# passengers in most views, as it would on the real vehicle. The figures are a
+# stylised low-poly reconstruction fitted to the master; no photograph of occupants
+# in this exact chair exists in the pack. Object names, dates and colours unchanged.
 
 obj=citycar
 name=BSAM21Combo(Black)

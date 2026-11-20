@@ -1,0 +1,119 @@
+# Aston Martin Vantage V8 coupe, 2018-2024.
+#
+# The 2018 Vantage: the wide low grille, the pronounced front splitter, the
+# deep side scallop and the full-width rear light bar. The coupe is modelled;
+# the Roadster is a different body.
+# https://en.wikipedia.org/wiki/Aston_Martin_Vantage_(2018)
+#
+# Dimensions 4.465 x 1.943 x 1.272 m, wheelbase 2.705 m.
+#
+# Shape reference: a blue Korean-market Vantage in true side elevation, and a
+# light blue UK car, plate KY19 KKN, in front and rear three-quarter. The
+# side view is one car; the three-quarters another of the same model.
+#
+# Colours: grade (c), documented period cars. Blue, silver, black and red are
+# the plain names used. Weights 3, 3, 2, 2, total 10, provisional.
+#
+# Speed 315 km/h. Comfort 88/312, on the line 180 + 1.5 x 88. Classes 3,4.
+# Dates are road presence: 2018 intro, retires staggered 2043-2046.
+#
+# Metres master: citycars/4.5/aston-vantage-2018.blend. Interchange:
+# citycars/4.5/aston-vantage-2018.dae. References:
+# citycars/references/aston-vantage-2018/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the grille opening is too angular, the outer ends of
+# the rear light bar look broken, and the diffuser is too shallow. At 128 px
+# the low roof, short deck and ducktail read as a 2018 Vantage.
+
+
+obj=citycar
+name=AstonVantage2018(Blue)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=2018
+intro_month=6
+retire_year=2046
+retire_month=6
+speed=315
+class=3,4
+maximum_comfortable_journey_minutes=88
+maximum_tolerable_journey_minutes=312
+
+Image[E]=./images/aston-vantage-2018-blue_E.0.0,-33,14
+Image[SE]=./images/aston-vantage-2018-blue_SE.0.0,-13,0
+Image[S]=./images/aston-vantage-2018-blue_S.0.0,0,0
+Image[SW]=./images/aston-vantage-2018-blue_SW.0.0,-8,10
+Image[W]=./images/aston-vantage-2018-blue_W.0.0,4,5
+Image[NW]=./images/aston-vantage-2018-blue_NW.0.0,12,10
+Image[N]=./images/aston-vantage-2018-blue_N.0.0,0,33
+Image[NE]=./images/aston-vantage-2018-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=AstonVantage2018(Silver)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=2018
+intro_month=6
+retire_year=2045
+retire_month=6
+speed=315
+class=3,4
+maximum_comfortable_journey_minutes=88
+maximum_tolerable_journey_minutes=312
+
+Image[E]=./images/aston-vantage-2018-silver_E.0.0,-33,14
+Image[SE]=./images/aston-vantage-2018-silver_SE.0.0,-13,0
+Image[S]=./images/aston-vantage-2018-silver_S.0.0,0,0
+Image[SW]=./images/aston-vantage-2018-silver_SW.0.0,-8,10
+Image[W]=./images/aston-vantage-2018-silver_W.0.0,4,5
+Image[NW]=./images/aston-vantage-2018-silver_NW.0.0,12,10
+Image[N]=./images/aston-vantage-2018-silver_N.0.0,0,33
+Image[NE]=./images/aston-vantage-2018-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=AstonVantage2018(Black)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=2018
+intro_month=6
+retire_year=2044
+retire_month=6
+speed=315
+class=3,4
+maximum_comfortable_journey_minutes=88
+maximum_tolerable_journey_minutes=312
+
+Image[E]=./images/aston-vantage-2018-black_E.0.0,-33,14
+Image[SE]=./images/aston-vantage-2018-black_SE.0.0,-13,0
+Image[S]=./images/aston-vantage-2018-black_S.0.0,0,0
+Image[SW]=./images/aston-vantage-2018-black_SW.0.0,-8,10
+Image[W]=./images/aston-vantage-2018-black_W.0.0,4,5
+Image[NW]=./images/aston-vantage-2018-black_NW.0.0,12,10
+Image[N]=./images/aston-vantage-2018-black_N.0.0,0,33
+Image[NE]=./images/aston-vantage-2018-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=AstonVantage2018(Red)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=2018
+intro_month=6
+retire_year=2043
+retire_month=6
+speed=315
+class=3,4
+maximum_comfortable_journey_minutes=88
+maximum_tolerable_journey_minutes=312
+
+Image[E]=./images/aston-vantage-2018-red_E.0.0,-33,14
+Image[SE]=./images/aston-vantage-2018-red_SE.0.0,-13,0
+Image[S]=./images/aston-vantage-2018-red_S.0.0,0,0
+Image[SW]=./images/aston-vantage-2018-red_SW.0.0,-8,10
+Image[W]=./images/aston-vantage-2018-red_W.0.0,4,5
+Image[NW]=./images/aston-vantage-2018-red_NW.0.0,12,10
+Image[N]=./images/aston-vantage-2018-red_N.0.0,0,33
+Image[NE]=./images/aston-vantage-2018-red_NE.0.0,0,24

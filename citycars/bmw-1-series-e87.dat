@@ -1,0 +1,122 @@
+# BMW 1-series E87 five-door hatchback, 2004-2011.
+#
+# The first 1-series: the rear-wheel-drive five-door hatch on the E90
+# platform, with the long bonnet, the short front overhang and the
+# characteristic roofline. The three-door E81, coupe E82 and convertible E88
+# are different bodies and are not separately represented.
+# https://en.wikipedia.org/wiki/BMW_1_Series_(E87)
+#
+# Dimensions 4.227 x 1.748 x 1.420 m, wheelbase 2.660 m.
+#
+# Shape reference: the pack's images show the five-door in side, front and
+# rear views; the side view governs.
+#
+# Colours: grade (c), BMW GB colours current across the E87 years: Alpine
+# White, Jet Black, Titanium Silver and Monaco Blue. Weights 20, 18, 17, 15,
+# total 70, provisional.
+#
+# Speed 210 km/h. Comfort 75/292, on the line 180 + 1.5 x 75: a compact but
+# rear-drive cabin. Classes 2,3.
+# Dates are road presence: 2004 intro, retires staggered 2026-2029.
+#
+# Metres master: citycars/4.5/bmw-1-series-e87.blend. Interchange:
+# citycars/4.5/bmw-1-series-e87.dae. References:
+# citycars/references/bmw-1-series-e87/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the rear quarter glass and bumper corners are too
+# angular, and the 130i's M Sport diffuser and twin outlets are not reproduced.
+# At 128 px the long bonnet, short front overhang and rear-drive five-door
+# proportions read as an E87 1-series.
+
+
+obj=citycar
+name=BMW1SeriesE87(AlpineWhite)
+copyright=JamesPetts
+
+DistributionWeight=20
+intro_year=2004
+intro_month=9
+retire_year=2029
+retire_month=6
+speed=210
+class=2,3
+maximum_comfortable_journey_minutes=75
+maximum_tolerable_journey_minutes=292
+
+Image[E]=./images/bmw-1-series-e87-alpinewhite_E.0.0,-33,14
+Image[SE]=./images/bmw-1-series-e87-alpinewhite_SE.0.0,-13,0
+Image[S]=./images/bmw-1-series-e87-alpinewhite_S.0.0,0,0
+Image[SW]=./images/bmw-1-series-e87-alpinewhite_SW.0.0,-8,10
+Image[W]=./images/bmw-1-series-e87-alpinewhite_W.0.0,4,5
+Image[NW]=./images/bmw-1-series-e87-alpinewhite_NW.0.0,12,10
+Image[N]=./images/bmw-1-series-e87-alpinewhite_N.0.0,0,33
+Image[NE]=./images/bmw-1-series-e87-alpinewhite_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMW1SeriesE87(JetBlack)
+copyright=JamesPetts
+
+DistributionWeight=18
+intro_year=2004
+intro_month=9
+retire_year=2028
+retire_month=6
+speed=210
+class=2,3
+maximum_comfortable_journey_minutes=75
+maximum_tolerable_journey_minutes=292
+
+Image[E]=./images/bmw-1-series-e87-jetblack_E.0.0,-33,14
+Image[SE]=./images/bmw-1-series-e87-jetblack_SE.0.0,-13,0
+Image[S]=./images/bmw-1-series-e87-jetblack_S.0.0,0,0
+Image[SW]=./images/bmw-1-series-e87-jetblack_SW.0.0,-8,10
+Image[W]=./images/bmw-1-series-e87-jetblack_W.0.0,4,5
+Image[NW]=./images/bmw-1-series-e87-jetblack_NW.0.0,12,10
+Image[N]=./images/bmw-1-series-e87-jetblack_N.0.0,0,33
+Image[NE]=./images/bmw-1-series-e87-jetblack_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMW1SeriesE87(TitaniumSilver)
+copyright=JamesPetts
+
+DistributionWeight=17
+intro_year=2004
+intro_month=9
+retire_year=2027
+retire_month=6
+speed=210
+class=2,3
+maximum_comfortable_journey_minutes=75
+maximum_tolerable_journey_minutes=292
+
+Image[E]=./images/bmw-1-series-e87-titaniumsilver_E.0.0,-33,14
+Image[SE]=./images/bmw-1-series-e87-titaniumsilver_SE.0.0,-13,0
+Image[S]=./images/bmw-1-series-e87-titaniumsilver_S.0.0,0,0
+Image[SW]=./images/bmw-1-series-e87-titaniumsilver_SW.0.0,-8,10
+Image[W]=./images/bmw-1-series-e87-titaniumsilver_W.0.0,4,5
+Image[NW]=./images/bmw-1-series-e87-titaniumsilver_NW.0.0,12,10
+Image[N]=./images/bmw-1-series-e87-titaniumsilver_N.0.0,0,33
+Image[NE]=./images/bmw-1-series-e87-titaniumsilver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMW1SeriesE87(MonacoBlue)
+copyright=JamesPetts
+
+DistributionWeight=15
+intro_year=2004
+intro_month=9
+retire_year=2026
+retire_month=6
+speed=210
+class=2,3
+maximum_comfortable_journey_minutes=75
+maximum_tolerable_journey_minutes=292
+
+Image[E]=./images/bmw-1-series-e87-monacoblue_E.0.0,-33,14
+Image[SE]=./images/bmw-1-series-e87-monacoblue_SE.0.0,-13,0
+Image[S]=./images/bmw-1-series-e87-monacoblue_S.0.0,0,0
+Image[SW]=./images/bmw-1-series-e87-monacoblue_SW.0.0,-8,10
+Image[W]=./images/bmw-1-series-e87-monacoblue_W.0.0,4,5
+Image[NW]=./images/bmw-1-series-e87-monacoblue_NW.0.0,12,10
+Image[N]=./images/bmw-1-series-e87-monacoblue_N.0.0,0,33
+Image[NE]=./images/bmw-1-series-e87-monacoblue_NE.0.0,0,24

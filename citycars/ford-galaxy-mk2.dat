@@ -1,0 +1,124 @@
+# Ford Galaxy Mk2 seven-seat MPV, 2006-2015.
+#
+# The second-generation Galaxy, no longer a joint venture with Volkswagen:
+# the large trapezoid lower grille, the higher shoulder and the seven-seat
+# cabin with the third row folding into the floor. UK sales from 3 June 2006;
+# facelifted in 2010 and replaced in the spring of 2015.
+# https://en.wikipedia.org/wiki/Ford_Galaxy
+#
+# Dimensions 4.820 x 1.885 x 1.725 m, wheelbase 2.850 m (Wikipedia infobox;
+# width is probably over the body, since no mirror width is given, and the
+# height varies with roof rails and wheel size).
+#
+# Shape reference: image 1 is a near-level side elevation from the right-hand
+# side, about 5-8 degrees toward the front and a soft 3-megapixel phone frame;
+# it is a liveried taxi, so the decals cross the doors. Images 2-4 are UK cars.
+#
+# Colours: grade (a), the Ford Motor Company UK Customer Ordering Guide of
+# 1 September 2014: Blazer Blue, Frozen White, Panther Black and Moondust
+# Silver. Weights 14, 12, 10, 9, total 45, provisional.
+#
+# Speed 195 km/h. Comfort 80/300, on the line 180 + 1.5 x 80. Classes 1,2.
+# Dates: intro June 2006, the UK launch date, to 2015 when the Mk3 replaced it.
+#
+# Metres master: citycars/4.5/ford-galaxy-mk2.blend. Interchange:
+# citycars/4.5/ford-galaxy-mk2.dae. References:
+# citycars/references/ford-galaxy-mk2/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the pre-facelift exterior represents the full
+# generation. The lamp internals, wheel spokes, bumper contours and door seams
+# are simplified; registration characters, badge lettering and the seat
+# interior are omitted. The mirror span is estimated at 2.180 m.
+
+
+obj=citycar
+name=FordGalaxyMk2(BlazerBlue)
+copyright=JamesPetts
+
+DistributionWeight=14
+intro_year=2006
+intro_month=6
+retire_year=2032
+retire_month=6
+speed=195
+class=1,2
+maximum_comfortable_journey_minutes=80
+maximum_tolerable_journey_minutes=300
+
+Image[E]=./images/ford-galaxy-mk2-blazerblue_E.0.0,-33,14
+Image[SE]=./images/ford-galaxy-mk2-blazerblue_SE.0.0,-13,0
+Image[S]=./images/ford-galaxy-mk2-blazerblue_S.0.0,0,0
+Image[SW]=./images/ford-galaxy-mk2-blazerblue_SW.0.0,-8,10
+Image[W]=./images/ford-galaxy-mk2-blazerblue_W.0.0,4,5
+Image[NW]=./images/ford-galaxy-mk2-blazerblue_NW.0.0,12,10
+Image[N]=./images/ford-galaxy-mk2-blazerblue_N.0.0,0,33
+Image[NE]=./images/ford-galaxy-mk2-blazerblue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FordGalaxyMk2(FrozenWhite)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=2006
+intro_month=6
+retire_year=2031
+retire_month=6
+speed=195
+class=1,2
+maximum_comfortable_journey_minutes=80
+maximum_tolerable_journey_minutes=300
+
+Image[E]=./images/ford-galaxy-mk2-frozenwhite_E.0.0,-33,14
+Image[SE]=./images/ford-galaxy-mk2-frozenwhite_SE.0.0,-13,0
+Image[S]=./images/ford-galaxy-mk2-frozenwhite_S.0.0,0,0
+Image[SW]=./images/ford-galaxy-mk2-frozenwhite_SW.0.0,-8,10
+Image[W]=./images/ford-galaxy-mk2-frozenwhite_W.0.0,4,5
+Image[NW]=./images/ford-galaxy-mk2-frozenwhite_NW.0.0,12,10
+Image[N]=./images/ford-galaxy-mk2-frozenwhite_N.0.0,0,33
+Image[NE]=./images/ford-galaxy-mk2-frozenwhite_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FordGalaxyMk2(PantherBlack)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=2006
+intro_month=6
+retire_year=2030
+retire_month=6
+speed=195
+class=1,2
+maximum_comfortable_journey_minutes=80
+maximum_tolerable_journey_minutes=300
+
+Image[E]=./images/ford-galaxy-mk2-pantherblack_E.0.0,-33,14
+Image[SE]=./images/ford-galaxy-mk2-pantherblack_SE.0.0,-13,0
+Image[S]=./images/ford-galaxy-mk2-pantherblack_S.0.0,0,0
+Image[SW]=./images/ford-galaxy-mk2-pantherblack_SW.0.0,-8,10
+Image[W]=./images/ford-galaxy-mk2-pantherblack_W.0.0,4,5
+Image[NW]=./images/ford-galaxy-mk2-pantherblack_NW.0.0,12,10
+Image[N]=./images/ford-galaxy-mk2-pantherblack_N.0.0,0,33
+Image[NE]=./images/ford-galaxy-mk2-pantherblack_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FordGalaxyMk2(MoondustSilver)
+copyright=JamesPetts
+
+DistributionWeight=9
+intro_year=2006
+intro_month=6
+retire_year=2029
+retire_month=6
+speed=195
+class=1,2
+maximum_comfortable_journey_minutes=80
+maximum_tolerable_journey_minutes=300
+
+Image[E]=./images/ford-galaxy-mk2-moondustsilver_E.0.0,-33,14
+Image[SE]=./images/ford-galaxy-mk2-moondustsilver_SE.0.0,-13,0
+Image[S]=./images/ford-galaxy-mk2-moondustsilver_S.0.0,0,0
+Image[SW]=./images/ford-galaxy-mk2-moondustsilver_SW.0.0,-8,10
+Image[W]=./images/ford-galaxy-mk2-moondustsilver_W.0.0,4,5
+Image[NW]=./images/ford-galaxy-mk2-moondustsilver_NW.0.0,12,10
+Image[N]=./images/ford-galaxy-mk2-moondustsilver_N.0.0,0,33
+Image[NE]=./images/ford-galaxy-mk2-moondustsilver_NE.0.0,0,24

@@ -1,0 +1,122 @@
+# Jaecoo 8 five-door large SUV, 2026 onwards.
+#
+# The Jaecoo 8: the largest of the three, with the tall vertical-slat grille,
+# the slim lamps and the full-width tail bar. It was announced on 11 March
+# 2026 and went on sale in May 2026. The 'Jaecoo 9' name used in some markets
+# is recorded as an ambiguity.
+# https://en.wikipedia.org/wiki/Jaecoo_8
+#
+# Dimensions 4.820 x 1.930 x 1.699 m, wheelbase 2.820 m.
+#
+# Shape reference: image 1 is a manufacturer studio side view, perpendicular
+# and level; the front and rear views are UK-registered press cars. All four
+# are manufacturer press images; no independent UK photograph exists yet.
+#
+# Colours: grade (a), the JAECOO UK palette: Granite White, Basalt Black,
+# Iced Slate Grey and Anthracite Silver. Weights 12, 10, 10, 8, total 40,
+# provisional.
+#
+# Speed 200 km/h. Comfort 95/322, on the line 180 + 1.5 x 95. Classes 3,4.
+# Dates are road presence: 2026 intro, retires staggered 2046-2049.
+#
+# Metres master: citycars/4.5/jaecoo-8.blend. Interchange:
+# citycars/4.5/jaecoo-8.dae. References:
+# citycars/references/jaecoo-8/ (gitignored; manufacturer press images held
+# as internal reference only).
+#
+# Accepted deviations: the wheel spokes, lamp internals, badges and door
+# surfacing are simplified. The published 2.820 m wheelbase takes precedence
+# over the wheelbase-to-length ratio measured in the side image.
+
+
+obj=citycar
+name=Jaecoo8(GraniteWhite)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=2026
+intro_month=5
+retire_year=2049
+retire_month=6
+speed=200
+class=3,4
+maximum_comfortable_journey_minutes=95
+maximum_tolerable_journey_minutes=322
+
+Image[E]=./images/jaecoo-8-granitewhite_E.0.0,-33,14
+Image[SE]=./images/jaecoo-8-granitewhite_SE.0.0,-13,0
+Image[S]=./images/jaecoo-8-granitewhite_S.0.0,0,0
+Image[SW]=./images/jaecoo-8-granitewhite_SW.0.0,-8,10
+Image[W]=./images/jaecoo-8-granitewhite_W.0.0,4,5
+Image[NW]=./images/jaecoo-8-granitewhite_NW.0.0,12,10
+Image[N]=./images/jaecoo-8-granitewhite_N.0.0,0,33
+Image[NE]=./images/jaecoo-8-granitewhite_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Jaecoo8(BasaltBlack)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=2026
+intro_month=5
+retire_year=2048
+retire_month=6
+speed=200
+class=3,4
+maximum_comfortable_journey_minutes=95
+maximum_tolerable_journey_minutes=322
+
+Image[E]=./images/jaecoo-8-basaltblack_E.0.0,-33,14
+Image[SE]=./images/jaecoo-8-basaltblack_SE.0.0,-13,0
+Image[S]=./images/jaecoo-8-basaltblack_S.0.0,0,0
+Image[SW]=./images/jaecoo-8-basaltblack_SW.0.0,-8,10
+Image[W]=./images/jaecoo-8-basaltblack_W.0.0,4,5
+Image[NW]=./images/jaecoo-8-basaltblack_NW.0.0,12,10
+Image[N]=./images/jaecoo-8-basaltblack_N.0.0,0,33
+Image[NE]=./images/jaecoo-8-basaltblack_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Jaecoo8(IcedSlateGrey)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=2026
+intro_month=5
+retire_year=2047
+retire_month=6
+speed=200
+class=3,4
+maximum_comfortable_journey_minutes=95
+maximum_tolerable_journey_minutes=322
+
+Image[E]=./images/jaecoo-8-icedslategrey_E.0.0,-33,14
+Image[SE]=./images/jaecoo-8-icedslategrey_SE.0.0,-13,0
+Image[S]=./images/jaecoo-8-icedslategrey_S.0.0,0,0
+Image[SW]=./images/jaecoo-8-icedslategrey_SW.0.0,-8,10
+Image[W]=./images/jaecoo-8-icedslategrey_W.0.0,4,5
+Image[NW]=./images/jaecoo-8-icedslategrey_NW.0.0,12,10
+Image[N]=./images/jaecoo-8-icedslategrey_N.0.0,0,33
+Image[NE]=./images/jaecoo-8-icedslategrey_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Jaecoo8(AnthraciteSilver)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=2026
+intro_month=5
+retire_year=2046
+retire_month=6
+speed=200
+class=3,4
+maximum_comfortable_journey_minutes=95
+maximum_tolerable_journey_minutes=322
+
+Image[E]=./images/jaecoo-8-anthracitesilver_E.0.0,-33,14
+Image[SE]=./images/jaecoo-8-anthracitesilver_SE.0.0,-13,0
+Image[S]=./images/jaecoo-8-anthracitesilver_S.0.0,0,0
+Image[SW]=./images/jaecoo-8-anthracitesilver_SW.0.0,-8,10
+Image[W]=./images/jaecoo-8-anthracitesilver_W.0.0,4,5
+Image[NW]=./images/jaecoo-8-anthracitesilver_NW.0.0,12,10
+Image[N]=./images/jaecoo-8-anthracitesilver_N.0.0,0,33
+Image[NE]=./images/jaecoo-8-anthracitesilver_NE.0.0,0,24

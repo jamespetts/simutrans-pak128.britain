@@ -1,0 +1,126 @@
+# Ford Pilot V8 four-door saloon, 1947-1951.
+#
+# The first large post-war British Ford, on the pre-war 22 hp Model 62
+# chassis with the 3,622 cc side-valve V8: separate flowing wings, exposed
+# running boards, an upright flat windscreen with quarter lights and a short
+# boot. 22,155 built. The estate, pick-up, panel van and Australian utility
+# are different bodies and are not modelled.
+# https://en.wikipedia.org/wiki/Ford_Pilot
+#
+# Dimensions 4.445 x 1.765 m, wheelbase 2.750 m. Height was not established
+# from a published source; the model's height comes from the photographs.
+#
+# Shape reference: a green Pilot in true level side elevation (800 px only),
+# a 1949 car in front three-quarter, and a rear three-quarter. Image 1
+# governs the wings, running boards and roofline; the resolution limits fine
+# detail, not the proportions.
+#
+# Colours: grade (d). No Pilot colour chart was found. The photographs show
+# green, black-over-grey and black cars; plain names are used, not invented
+# period names. Weights 3, 2, 2, 1, total 8, provisional.
+#
+# Speed 130 km/h. Comfort 45/250, on the line 180 + 1.5 x 45: a roomy but
+# upright and hard-riding 1940s saloon. Classes 2,3.
+# Dates are road presence: 1947 intro, retires staggered 1965-1968.
+#
+# Metres master: citycars/4.5/ford-pilot.blend. Interchange:
+# citycars/4.5/ford-pilot.dae. References:
+# citycars/references/ford-pilot/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the wing-to-running-board transitions are too abrupt and
+# the spare-wheel cover projects too far. The model height of 1.67 m is an
+# estimate, the published height not having been established. At 128 px the
+# separate wings, upright grille and short boot read as a Pilot.
+
+
+obj=citycar
+name=FordPilot(Green)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1947
+intro_month=8
+retire_year=1968
+retire_month=6
+speed=130
+class=2,3
+maximum_comfortable_journey_minutes=45
+maximum_tolerable_journey_minutes=250
+
+Image[E]=./images/ford-pilot-green_E.0.0,-33,14
+Image[SE]=./images/ford-pilot-green_SE.0.0,-13,0
+Image[S]=./images/ford-pilot-green_S.0.0,0,0
+Image[SW]=./images/ford-pilot-green_SW.0.0,-8,10
+Image[W]=./images/ford-pilot-green_W.0.0,4,5
+Image[NW]=./images/ford-pilot-green_NW.0.0,12,10
+Image[N]=./images/ford-pilot-green_N.0.0,0,33
+Image[NE]=./images/ford-pilot-green_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FordPilot(Black)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1947
+intro_month=8
+retire_year=1967
+retire_month=6
+speed=130
+class=2,3
+maximum_comfortable_journey_minutes=45
+maximum_tolerable_journey_minutes=250
+
+Image[E]=./images/ford-pilot-black_E.0.0,-33,14
+Image[SE]=./images/ford-pilot-black_SE.0.0,-13,0
+Image[S]=./images/ford-pilot-black_S.0.0,0,0
+Image[SW]=./images/ford-pilot-black_SW.0.0,-8,10
+Image[W]=./images/ford-pilot-black_W.0.0,4,5
+Image[NW]=./images/ford-pilot-black_NW.0.0,12,10
+Image[N]=./images/ford-pilot-black_N.0.0,0,33
+Image[NE]=./images/ford-pilot-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FordPilot(Grey)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1947
+intro_month=8
+retire_year=1966
+retire_month=6
+speed=130
+class=2,3
+maximum_comfortable_journey_minutes=45
+maximum_tolerable_journey_minutes=250
+
+Image[E]=./images/ford-pilot-grey_E.0.0,-33,14
+Image[SE]=./images/ford-pilot-grey_SE.0.0,-13,0
+Image[S]=./images/ford-pilot-grey_S.0.0,0,0
+Image[SW]=./images/ford-pilot-grey_SW.0.0,-8,10
+Image[W]=./images/ford-pilot-grey_W.0.0,4,5
+Image[NW]=./images/ford-pilot-grey_NW.0.0,12,10
+Image[N]=./images/ford-pilot-grey_N.0.0,0,33
+Image[NE]=./images/ford-pilot-grey_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FordPilot(Maroon)
+copyright=JamesPetts
+
+DistributionWeight=1
+intro_year=1947
+intro_month=8
+retire_year=1965
+retire_month=6
+speed=130
+class=2,3
+maximum_comfortable_journey_minutes=45
+maximum_tolerable_journey_minutes=250
+
+Image[E]=./images/ford-pilot-maroon_E.0.0,-33,14
+Image[SE]=./images/ford-pilot-maroon_SE.0.0,-13,0
+Image[S]=./images/ford-pilot-maroon_S.0.0,0,0
+Image[SW]=./images/ford-pilot-maroon_SW.0.0,-8,10
+Image[W]=./images/ford-pilot-maroon_W.0.0,4,5
+Image[NW]=./images/ford-pilot-maroon_NW.0.0,12,10
+Image[N]=./images/ford-pilot-maroon_N.0.0,0,33
+Image[NE]=./images/ford-pilot-maroon_NE.0.0,0,24

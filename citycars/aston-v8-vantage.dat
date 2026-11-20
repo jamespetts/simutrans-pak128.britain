@@ -1,0 +1,130 @@
+# Aston Martin V8 Vantage coupe, 1977-1989.
+#
+# The Vantage version of the AM V8: deep front air dam, blanked grille with two
+# Cibie driving lamps, sealed bonnet bulge, flared wheel arches and a boot
+# spoiler. 534 built, 342 saloons and 192 Volantes; the coupe is modelled.
+# https://en.wikipedia.org/wiki/Aston_Martin_V8_Vantage_(1977)
+#
+# Dimensions 4.667 m (4.700 with bumper overriders) x 1.829 m x 1.327 m,
+# wheelbase 2.610 m. From 1983 the BBS wheels and wider arches raise the width to
+# 1.892 m; the early car's 1.829 m is modelled.
+#
+# Shape reference: a US-market 1979 car in side elevation and a 1978 "fliptail"
+# car, chassis V8/1 1889/RCAV, in front and rear three-quarter. The US car has a
+# flat bonnet without the European Vantage's sealed bulge, so the bulge and the
+# grille lamps are taken from the front three-quarter of the 1978 car. The side
+# view governs the air dam, arches and roofline; the rear the integral fliptail
+# spoiler and twin exhausts.
+#
+# Colours: grade (c). Orchard Green (ICI 9010) is the photographed 1978 car's
+# factory colour; Suffolk Red and Kent Green are named by astonmartins.com on
+# period Vantages; black is a documented Aston finish. Weights 3, 3, 2, 2,
+# total 10, provisional.
+#
+# Speed 270 km/h. Comfort 68/282, on the line 180 + 1.5 x 68: a wide 2+2 with
+# more shoulder room than the DBS. Classes 3,4.
+#
+# Dates are road presence: 1977 intro, retires staggered 1999-2002 on a
+# twenty-two to twenty-five-year tail.
+#
+# Metres master: citycars/4.5/aston-v8-vantage.blend. Interchange:
+# citycars/4.5/aston-v8-vantage.dae. References:
+# citycars/references/aston-v8-vantage/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the air dam reads as a separate block, the outer headlamp
+# bezels project slightly, and the quarter window is more angular than the car's.
+# The US side photograph's flat bonnet was not copied; the European sealed bulge
+# comes from the front three-quarter. At 128 px the long bonnet, blanked grille,
+# flared arches and fliptail spoiler read as a V8 Vantage.
+
+obj=citycar
+name=AstonV8Vantage(OrchardGreen)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1977
+intro_month=2
+retire_year=2002
+retire_month=6
+speed=270
+class=3,4
+maximum_comfortable_journey_minutes=68
+maximum_tolerable_journey_minutes=282
+
+Image[E]=./images/aston-v8-vantage-orchardgreen_E.0.0,-33,14
+Image[SE]=./images/aston-v8-vantage-orchardgreen_SE.0.0,-13,0
+Image[S]=./images/aston-v8-vantage-orchardgreen_S.0.0,0,0
+Image[SW]=./images/aston-v8-vantage-orchardgreen_SW.0.0,-8,10
+Image[W]=./images/aston-v8-vantage-orchardgreen_W.0.0,4,5
+Image[NW]=./images/aston-v8-vantage-orchardgreen_NW.0.0,12,10
+Image[N]=./images/aston-v8-vantage-orchardgreen_N.0.0,0,33
+Image[NE]=./images/aston-v8-vantage-orchardgreen_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=AstonV8Vantage(SuffolkRed)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1977
+intro_month=2
+retire_year=2001
+retire_month=6
+speed=270
+class=3,4
+maximum_comfortable_journey_minutes=68
+maximum_tolerable_journey_minutes=282
+
+Image[E]=./images/aston-v8-vantage-suffolkred_E.0.0,-33,14
+Image[SE]=./images/aston-v8-vantage-suffolkred_SE.0.0,-13,0
+Image[S]=./images/aston-v8-vantage-suffolkred_S.0.0,0,0
+Image[SW]=./images/aston-v8-vantage-suffolkred_SW.0.0,-8,10
+Image[W]=./images/aston-v8-vantage-suffolkred_W.0.0,4,5
+Image[NW]=./images/aston-v8-vantage-suffolkred_NW.0.0,12,10
+Image[N]=./images/aston-v8-vantage-suffolkred_N.0.0,0,33
+Image[NE]=./images/aston-v8-vantage-suffolkred_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=AstonV8Vantage(KentGreen)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1977
+intro_month=2
+retire_year=2001
+retire_month=6
+speed=270
+class=3,4
+maximum_comfortable_journey_minutes=68
+maximum_tolerable_journey_minutes=282
+
+Image[E]=./images/aston-v8-vantage-kentgreen_E.0.0,-33,14
+Image[SE]=./images/aston-v8-vantage-kentgreen_SE.0.0,-13,0
+Image[S]=./images/aston-v8-vantage-kentgreen_S.0.0,0,0
+Image[SW]=./images/aston-v8-vantage-kentgreen_SW.0.0,-8,10
+Image[W]=./images/aston-v8-vantage-kentgreen_W.0.0,4,5
+Image[NW]=./images/aston-v8-vantage-kentgreen_NW.0.0,12,10
+Image[N]=./images/aston-v8-vantage-kentgreen_N.0.0,0,33
+Image[NE]=./images/aston-v8-vantage-kentgreen_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=AstonV8Vantage(Black)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1977
+intro_month=2
+retire_year=1999
+retire_month=6
+speed=270
+class=3,4
+maximum_comfortable_journey_minutes=68
+maximum_tolerable_journey_minutes=282
+
+Image[E]=./images/aston-v8-vantage-black_E.0.0,-33,14
+Image[SE]=./images/aston-v8-vantage-black_SE.0.0,-13,0
+Image[S]=./images/aston-v8-vantage-black_S.0.0,0,0
+Image[SW]=./images/aston-v8-vantage-black_SW.0.0,-8,10
+Image[W]=./images/aston-v8-vantage-black_W.0.0,4,5
+Image[NW]=./images/aston-v8-vantage-black_NW.0.0,12,10
+Image[N]=./images/aston-v8-vantage-black_N.0.0,0,33
+Image[NE]=./images/aston-v8-vantage-black_NE.0.0,0,24

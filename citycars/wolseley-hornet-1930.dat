@@ -1,0 +1,122 @@
+# Wolseley Hornet six-cylinder two-seater, 1930-1936.
+#
+# The 1,271 cc six-cylinder Hornet: the narrow grille, cycle wings and long
+# bonnet. The pack's only true side view is an open two-seater, not the
+# saloon, so the two-seater is modelled and the saloon is not represented.
+# https://en.wikipedia.org/wiki/Wolseley_Hornet
+#
+# Dimensions 3.581 x 1.397 x 1.600 m, wheelbase 2.413 m (saloon set).
+#
+# Shape reference: image 1 is a level side view of a 1932 six-cylinder car
+# with a two-seater body; the other images show the front and detail. The
+# notes record that the Commons title wrongly says 'Saloon'.
+#
+# Colours: grade (d); no period chart was found. Black, green, red and
+# silver are plain names. Weights 5, 4, 3, 3, total 15, provisional.
+#
+# Speed 120 km/h. Comfort 45/250, on the line 180 + 1.5 x 45: an open
+# two-seater. Classes 3,4.
+# Dates are road presence: 1930 intro, retires staggered 1950-1953.
+#
+# Metres master: citycars/4.5/wolseley-hornet-1930.blend. Interchange:
+# citycars/4.5/wolseley-hornet-1930.dae. References:
+# citycars/references/wolseley-hornet-1930/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the model lacks the photographed wire spokes, and the
+# cockpit cut-down and rear deck need closer shaping. The open two-seater is the
+# body the side photograph shows; the saloon, Special and coupe are not
+# represented. At 128 px the long bonnet, cycle wings and open cockpit read as a
+# 1930s Hornet.
+
+
+obj=citycar
+name=WolseleyHornet1930(Black)
+copyright=JamesPetts
+
+DistributionWeight=5
+intro_year=1930
+intro_month=1
+retire_year=1953
+retire_month=6
+speed=120
+class=3,4
+maximum_comfortable_journey_minutes=45
+maximum_tolerable_journey_minutes=250
+
+Image[E]=./images/wolseley-hornet-1930-black_E.0.0,-33,14
+Image[SE]=./images/wolseley-hornet-1930-black_SE.0.0,-13,0
+Image[S]=./images/wolseley-hornet-1930-black_S.0.0,0,0
+Image[SW]=./images/wolseley-hornet-1930-black_SW.0.0,-8,10
+Image[W]=./images/wolseley-hornet-1930-black_W.0.0,4,5
+Image[NW]=./images/wolseley-hornet-1930-black_NW.0.0,12,10
+Image[N]=./images/wolseley-hornet-1930-black_N.0.0,0,33
+Image[NE]=./images/wolseley-hornet-1930-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=WolseleyHornet1930(Green)
+copyright=JamesPetts
+
+DistributionWeight=4
+intro_year=1930
+intro_month=1
+retire_year=1952
+retire_month=6
+speed=120
+class=3,4
+maximum_comfortable_journey_minutes=45
+maximum_tolerable_journey_minutes=250
+
+Image[E]=./images/wolseley-hornet-1930-green_E.0.0,-33,14
+Image[SE]=./images/wolseley-hornet-1930-green_SE.0.0,-13,0
+Image[S]=./images/wolseley-hornet-1930-green_S.0.0,0,0
+Image[SW]=./images/wolseley-hornet-1930-green_SW.0.0,-8,10
+Image[W]=./images/wolseley-hornet-1930-green_W.0.0,4,5
+Image[NW]=./images/wolseley-hornet-1930-green_NW.0.0,12,10
+Image[N]=./images/wolseley-hornet-1930-green_N.0.0,0,33
+Image[NE]=./images/wolseley-hornet-1930-green_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=WolseleyHornet1930(Red)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1930
+intro_month=1
+retire_year=1951
+retire_month=6
+speed=120
+class=3,4
+maximum_comfortable_journey_minutes=45
+maximum_tolerable_journey_minutes=250
+
+Image[E]=./images/wolseley-hornet-1930-red_E.0.0,-33,14
+Image[SE]=./images/wolseley-hornet-1930-red_SE.0.0,-13,0
+Image[S]=./images/wolseley-hornet-1930-red_S.0.0,0,0
+Image[SW]=./images/wolseley-hornet-1930-red_SW.0.0,-8,10
+Image[W]=./images/wolseley-hornet-1930-red_W.0.0,4,5
+Image[NW]=./images/wolseley-hornet-1930-red_NW.0.0,12,10
+Image[N]=./images/wolseley-hornet-1930-red_N.0.0,0,33
+Image[NE]=./images/wolseley-hornet-1930-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=WolseleyHornet1930(Silver)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1930
+intro_month=1
+retire_year=1950
+retire_month=6
+speed=120
+class=3,4
+maximum_comfortable_journey_minutes=45
+maximum_tolerable_journey_minutes=250
+
+Image[E]=./images/wolseley-hornet-1930-silver_E.0.0,-33,14
+Image[SE]=./images/wolseley-hornet-1930-silver_SE.0.0,-13,0
+Image[S]=./images/wolseley-hornet-1930-silver_S.0.0,0,0
+Image[SW]=./images/wolseley-hornet-1930-silver_SW.0.0,-8,10
+Image[W]=./images/wolseley-hornet-1930-silver_W.0.0,4,5
+Image[NW]=./images/wolseley-hornet-1930-silver_NW.0.0,12,10
+Image[N]=./images/wolseley-hornet-1930-silver_N.0.0,0,33
+Image[NE]=./images/wolseley-hornet-1930-silver_NE.0.0,0,24

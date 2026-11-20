@@ -1,0 +1,120 @@
+# Kia Sportage fourth generation five-door, 2016-2022.
+#
+# The QL Sportage: the sharper, more sculpted body with the larger tiger-
+# nose grille, the painted A-pillar and the conventional door handles. UK
+# sales from February 2016; the 2018 facelift is a colour-run change.
+# https://en.wikipedia.org/wiki/Kia_Sportage
+#
+# Dimensions 4.480 x 1.855 x 1.635-1.645 m, wheelbase 2.670 m.
+#
+# Shape reference: image 1 is a true side elevation of a red five-door; the
+# other images show a UK First Edition car in front and rear views.
+#
+# Colours: grade (d); no UK chart was found. Black, silver, white and red
+# are plain names. Weights 18, 16, 14, 12, total 60, provisional.
+#
+# Speed 200 km/h. Comfort 90/315, on the line 180 + 1.5 x 90. Classes 3,4.
+# Dates are road presence: 2016 intro, retires staggered 2034-2037.
+#
+# Metres master: citycars/4.5/kia-sportage-4.blend. Interchange:
+# citycars/4.5/kia-sportage-4.dae. References:
+# citycars/references/kia-sportage-4/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: a thin bumper-corner tab is present but does not read at
+# 128 px; the arch cladding is a heavy ring. The black roof is not modelled and
+# the greenhouse is shallower than the photograph's. At 128 px the straight
+# shoulder crease, wide tiger-nose and joined tail lamps read as a fourth-
+# generation Sportage.
+
+
+obj=citycar
+name=KiaSportage4(Black)
+copyright=JamesPetts
+
+DistributionWeight=18
+intro_year=2016
+intro_month=2
+retire_year=2037
+retire_month=6
+speed=200
+class=3,4
+maximum_comfortable_journey_minutes=90
+maximum_tolerable_journey_minutes=315
+
+Image[E]=./images/kia-sportage-4-black_E.0.0,-33,14
+Image[SE]=./images/kia-sportage-4-black_SE.0.0,-13,0
+Image[S]=./images/kia-sportage-4-black_S.0.0,0,0
+Image[SW]=./images/kia-sportage-4-black_SW.0.0,-8,10
+Image[W]=./images/kia-sportage-4-black_W.0.0,4,5
+Image[NW]=./images/kia-sportage-4-black_NW.0.0,12,10
+Image[N]=./images/kia-sportage-4-black_N.0.0,0,33
+Image[NE]=./images/kia-sportage-4-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=KiaSportage4(Silver)
+copyright=JamesPetts
+
+DistributionWeight=16
+intro_year=2016
+intro_month=2
+retire_year=2036
+retire_month=6
+speed=200
+class=3,4
+maximum_comfortable_journey_minutes=90
+maximum_tolerable_journey_minutes=315
+
+Image[E]=./images/kia-sportage-4-silver_E.0.0,-33,14
+Image[SE]=./images/kia-sportage-4-silver_SE.0.0,-13,0
+Image[S]=./images/kia-sportage-4-silver_S.0.0,0,0
+Image[SW]=./images/kia-sportage-4-silver_SW.0.0,-8,10
+Image[W]=./images/kia-sportage-4-silver_W.0.0,4,5
+Image[NW]=./images/kia-sportage-4-silver_NW.0.0,12,10
+Image[N]=./images/kia-sportage-4-silver_N.0.0,0,33
+Image[NE]=./images/kia-sportage-4-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=KiaSportage4(White)
+copyright=JamesPetts
+
+DistributionWeight=14
+intro_year=2016
+intro_month=2
+retire_year=2035
+retire_month=6
+speed=200
+class=3,4
+maximum_comfortable_journey_minutes=90
+maximum_tolerable_journey_minutes=315
+
+Image[E]=./images/kia-sportage-4-white_E.0.0,-33,14
+Image[SE]=./images/kia-sportage-4-white_SE.0.0,-13,0
+Image[S]=./images/kia-sportage-4-white_S.0.0,0,0
+Image[SW]=./images/kia-sportage-4-white_SW.0.0,-8,10
+Image[W]=./images/kia-sportage-4-white_W.0.0,4,5
+Image[NW]=./images/kia-sportage-4-white_NW.0.0,12,10
+Image[N]=./images/kia-sportage-4-white_N.0.0,0,33
+Image[NE]=./images/kia-sportage-4-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=KiaSportage4(Red)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=2016
+intro_month=2
+retire_year=2034
+retire_month=6
+speed=200
+class=3,4
+maximum_comfortable_journey_minutes=90
+maximum_tolerable_journey_minutes=315
+
+Image[E]=./images/kia-sportage-4-red_E.0.0,-33,14
+Image[SE]=./images/kia-sportage-4-red_SE.0.0,-13,0
+Image[S]=./images/kia-sportage-4-red_S.0.0,0,0
+Image[SW]=./images/kia-sportage-4-red_SW.0.0,-8,10
+Image[W]=./images/kia-sportage-4-red_W.0.0,4,5
+Image[NW]=./images/kia-sportage-4-red_NW.0.0,12,10
+Image[N]=./images/kia-sportage-4-red_N.0.0,0,33
+Image[NE]=./images/kia-sportage-4-red_NE.0.0,0,24

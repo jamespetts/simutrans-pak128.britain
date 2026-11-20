@@ -1,0 +1,125 @@
+# BMW X5 F15 five-door SUV, 2013-2018.
+#
+# The third X5: the more sculpted body, the connected kidney grille, the
+# aerodynamic details and the xDrive four-wheel drive. UK sales from
+# 16 November 2013.
+# https://en.wikipedia.org/wiki/BMW_X5_(F15)
+#
+# Dimensions 4.886 x 1.938 x 1.762 m, wheelbase 2.933 m.
+#
+# Shape reference: NO true level side profile exists. Image 1 is the most
+# side-on view (an sDrive25d); the quarter views show an xDrive40d M Sport
+# of the same generation. The flank is estimated; the trim mismatch is
+# recorded.
+#
+# Colours: grade (c), provisional. Black, silver, white and grey are plain
+# names. Weights 18, 16, 14, 12, total 60, provisional.
+#
+# Speed 220 km/h. Comfort 98/327, on the line 180 + 1.5 x 98. Classes 3,4.
+# Dates are road presence: 2013 intro, retires staggered 2032-2035.
+#
+# Metres master: citycars/4.5/bmw-x5-f15.blend. Interchange:
+# citycars/4.5/bmw-x5-f15.dae. References:
+# citycars/references/bmw-x5-f15/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: this is a simplified low-poly interpretation. The flank
+# is flat, the shoulder crease and wheel-arch flares are not modelled, and the
+# headlamps and grille merge into one dark band in straight-on views. The roof
+# runs about 0.1 m further back than the photographs suggest, the rear window is
+# short and the painted band above the tail lamps is thick. Mirrors project 4 cm
+# per side beyond the published width so that they read. No true side profile
+# exists in the pack. At 128 px the tall five-door SUV proportions, joined kidney
+# grille and L-shaped tail lamps read as an F15 X5.
+
+
+obj=citycar
+name=BMWX5F15(Black)
+copyright=JamesPetts
+
+DistributionWeight=18
+intro_year=2013
+intro_month=11
+retire_year=2035
+retire_month=6
+speed=220
+class=3,4
+maximum_comfortable_journey_minutes=98
+maximum_tolerable_journey_minutes=327
+
+Image[E]=./images/bmw-x5-f15-black_E.0.0,-33,14
+Image[SE]=./images/bmw-x5-f15-black_SE.0.0,-13,0
+Image[S]=./images/bmw-x5-f15-black_S.0.0,0,0
+Image[SW]=./images/bmw-x5-f15-black_SW.0.0,-8,10
+Image[W]=./images/bmw-x5-f15-black_W.0.0,4,5
+Image[NW]=./images/bmw-x5-f15-black_NW.0.0,12,10
+Image[N]=./images/bmw-x5-f15-black_N.0.0,0,33
+Image[NE]=./images/bmw-x5-f15-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMWX5F15(Silver)
+copyright=JamesPetts
+
+DistributionWeight=16
+intro_year=2013
+intro_month=11
+retire_year=2034
+retire_month=6
+speed=220
+class=3,4
+maximum_comfortable_journey_minutes=98
+maximum_tolerable_journey_minutes=327
+
+Image[E]=./images/bmw-x5-f15-silver_E.0.0,-33,14
+Image[SE]=./images/bmw-x5-f15-silver_SE.0.0,-13,0
+Image[S]=./images/bmw-x5-f15-silver_S.0.0,0,0
+Image[SW]=./images/bmw-x5-f15-silver_SW.0.0,-8,10
+Image[W]=./images/bmw-x5-f15-silver_W.0.0,4,5
+Image[NW]=./images/bmw-x5-f15-silver_NW.0.0,12,10
+Image[N]=./images/bmw-x5-f15-silver_N.0.0,0,33
+Image[NE]=./images/bmw-x5-f15-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMWX5F15(White)
+copyright=JamesPetts
+
+DistributionWeight=14
+intro_year=2013
+intro_month=11
+retire_year=2033
+retire_month=6
+speed=220
+class=3,4
+maximum_comfortable_journey_minutes=98
+maximum_tolerable_journey_minutes=327
+
+Image[E]=./images/bmw-x5-f15-white_E.0.0,-33,14
+Image[SE]=./images/bmw-x5-f15-white_SE.0.0,-13,0
+Image[S]=./images/bmw-x5-f15-white_S.0.0,0,0
+Image[SW]=./images/bmw-x5-f15-white_SW.0.0,-8,10
+Image[W]=./images/bmw-x5-f15-white_W.0.0,4,5
+Image[NW]=./images/bmw-x5-f15-white_NW.0.0,12,10
+Image[N]=./images/bmw-x5-f15-white_N.0.0,0,33
+Image[NE]=./images/bmw-x5-f15-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMWX5F15(Grey)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=2013
+intro_month=11
+retire_year=2032
+retire_month=6
+speed=220
+class=3,4
+maximum_comfortable_journey_minutes=98
+maximum_tolerable_journey_minutes=327
+
+Image[E]=./images/bmw-x5-f15-grey_E.0.0,-33,14
+Image[SE]=./images/bmw-x5-f15-grey_SE.0.0,-13,0
+Image[S]=./images/bmw-x5-f15-grey_S.0.0,0,0
+Image[SW]=./images/bmw-x5-f15-grey_SW.0.0,-8,10
+Image[W]=./images/bmw-x5-f15-grey_W.0.0,4,5
+Image[NW]=./images/bmw-x5-f15-grey_NW.0.0,12,10
+Image[N]=./images/bmw-x5-f15-grey_N.0.0,0,33
+Image[NE]=./images/bmw-x5-f15-grey_NE.0.0,0,24

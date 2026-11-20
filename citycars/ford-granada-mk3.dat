@@ -1,0 +1,125 @@
+# Ford Granada Mk III five-door hatchback, 1985-1994.
+#
+# The last Granada: the aerodynamic five-door hatchback (the saloon and
+# estate are 4.744 m), with the low grille and body-coloured bumpers. Renamed
+# Scorpio in 1994. The hatchback the pack photographs is modelled.
+# https://en.wikipedia.org/wiki/Ford_Granada_(Europe)
+#
+# Dimensions 4.673 x 1.760 x 1.440 m, wheelbase 2.761 m.
+#
+# Shape reference: NO true level side elevation exists. Image 1 is a rear
+# three-quarter about 30 degrees off square; the flank is estimated from it
+# and the other views within the published dimensions. The limitation is
+# recorded.
+#
+# Colours: grade (d); no 1985-94 chart was obtained. The 1981 Ford colour and
+# trim guide is a lead for the outgoing Mk II, not evidence for the Mk III.
+# Diamond White, Midnight Blue, Venetian Red and Strato Silver are plain
+# names used with that caveat. Weights 30, 30, 25, 25, total 110,
+# provisional.
+#
+# Speed 190 km/h. Comfort 90/315, on the line 180 + 1.5 x 90: the largest
+# executive Ford of its day. Classes 2,3.
+# Dates are road presence: 1985 intro, retires staggered 2010-2013.
+#
+# Metres master: citycars/4.5/ford-granada-mk3.blend. Interchange:
+# citycars/4.5/ford-granada-mk3.dae. References:
+# citycars/references/ford-granada-mk3/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: image 1 is front-oblique, not rear-oblique as labelled,
+# and there is no true side elevation. The hatch glass and lamp corners are too
+# angular, and the bumper rubbing strip is simplified. At 128 px the sloping
+# five-door hatch, low grille and wraparound lamps read as a Granada Mk III.
+
+
+obj=citycar
+name=FordGranadaMk3(DiamondWhite)
+copyright=JamesPetts
+
+DistributionWeight=30
+intro_year=1985
+intro_month=4
+retire_year=2013
+retire_month=6
+speed=190
+class=2,3
+maximum_comfortable_journey_minutes=90
+maximum_tolerable_journey_minutes=315
+
+Image[E]=./images/ford-granada-mk3-diamondwhite_E.0.0,-33,14
+Image[SE]=./images/ford-granada-mk3-diamondwhite_SE.0.0,-13,0
+Image[S]=./images/ford-granada-mk3-diamondwhite_S.0.0,0,0
+Image[SW]=./images/ford-granada-mk3-diamondwhite_SW.0.0,-8,10
+Image[W]=./images/ford-granada-mk3-diamondwhite_W.0.0,4,5
+Image[NW]=./images/ford-granada-mk3-diamondwhite_NW.0.0,12,10
+Image[N]=./images/ford-granada-mk3-diamondwhite_N.0.0,0,33
+Image[NE]=./images/ford-granada-mk3-diamondwhite_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FordGranadaMk3(MidnightBlue)
+copyright=JamesPetts
+
+DistributionWeight=30
+intro_year=1985
+intro_month=4
+retire_year=2012
+retire_month=6
+speed=190
+class=2,3
+maximum_comfortable_journey_minutes=90
+maximum_tolerable_journey_minutes=315
+
+Image[E]=./images/ford-granada-mk3-midnightblue_E.0.0,-33,14
+Image[SE]=./images/ford-granada-mk3-midnightblue_SE.0.0,-13,0
+Image[S]=./images/ford-granada-mk3-midnightblue_S.0.0,0,0
+Image[SW]=./images/ford-granada-mk3-midnightblue_SW.0.0,-8,10
+Image[W]=./images/ford-granada-mk3-midnightblue_W.0.0,4,5
+Image[NW]=./images/ford-granada-mk3-midnightblue_NW.0.0,12,10
+Image[N]=./images/ford-granada-mk3-midnightblue_N.0.0,0,33
+Image[NE]=./images/ford-granada-mk3-midnightblue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FordGranadaMk3(VenetianRed)
+copyright=JamesPetts
+
+DistributionWeight=25
+intro_year=1985
+intro_month=4
+retire_year=2011
+retire_month=6
+speed=190
+class=2,3
+maximum_comfortable_journey_minutes=90
+maximum_tolerable_journey_minutes=315
+
+Image[E]=./images/ford-granada-mk3-venetianred_E.0.0,-33,14
+Image[SE]=./images/ford-granada-mk3-venetianred_SE.0.0,-13,0
+Image[S]=./images/ford-granada-mk3-venetianred_S.0.0,0,0
+Image[SW]=./images/ford-granada-mk3-venetianred_SW.0.0,-8,10
+Image[W]=./images/ford-granada-mk3-venetianred_W.0.0,4,5
+Image[NW]=./images/ford-granada-mk3-venetianred_NW.0.0,12,10
+Image[N]=./images/ford-granada-mk3-venetianred_N.0.0,0,33
+Image[NE]=./images/ford-granada-mk3-venetianred_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FordGranadaMk3(StratoSilver)
+copyright=JamesPetts
+
+DistributionWeight=25
+intro_year=1985
+intro_month=4
+retire_year=2010
+retire_month=6
+speed=190
+class=2,3
+maximum_comfortable_journey_minutes=90
+maximum_tolerable_journey_minutes=315
+
+Image[E]=./images/ford-granada-mk3-stratosilver_E.0.0,-33,14
+Image[SE]=./images/ford-granada-mk3-stratosilver_SE.0.0,-13,0
+Image[S]=./images/ford-granada-mk3-stratosilver_S.0.0,0,0
+Image[SW]=./images/ford-granada-mk3-stratosilver_SW.0.0,-8,10
+Image[W]=./images/ford-granada-mk3-stratosilver_W.0.0,4,5
+Image[NW]=./images/ford-granada-mk3-stratosilver_NW.0.0,12,10
+Image[N]=./images/ford-granada-mk3-stratosilver_N.0.0,0,33
+Image[NE]=./images/ford-granada-mk3-stratosilver_NE.0.0,0,24

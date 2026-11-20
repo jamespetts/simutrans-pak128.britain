@@ -1,0 +1,124 @@
+# Ford Consul Mk I four-door saloon, 1951-1956.
+#
+# The four-cylinder member of the 1951 Consul / Zephyr Six range, with unitary
+# construction and MacPherson-strut front suspension, both new to a British
+# Ford. 227,732 built. The Carbodies convertible and Abbott estate are
+# different bodies and are not modelled.
+# https://en.wikipedia.org/wiki/Ford_Consul
+#
+# Dimensions 4.166 x 1.626 m, wheelbase 2.540 m. Saloon height was not
+# established; the 61 in figure belongs to the convertible.
+#
+# Shape reference: a black 1954 Consul in true level side elevation, front
+# three-quarter and rear three-quarter, all one car. The waist-level chrome
+# strip, round lamps, horizontal grille and rounded boot govern.
+#
+# Colours: grade (a), the period Ford dealer leaflet 'Ford Sets The Fashion'
+# (1953-54 season), which names the Consul saloon colours: Edinburgh Green,
+# Bristol Fawn, Dorchester Grey, Winchester Blue, Canterbury Green and Black.
+# Four are used. Weights 12, 10, 10, 8, total 40, provisional.
+#
+# Speed 130 km/h. Comfort 50/255, on the line 180 + 1.5 x 50. Classes 1,2.
+# Dates are road presence: 1951 intro, retires staggered 1970-1973.
+#
+# Metres master: citycars/4.5/ford-consul-mk1.blend. Interchange:
+# citycars/4.5/ford-consul-mk1.dae. References:
+# citycars/references/ford-consul-mk1/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: neither front photograph verifies the tail, so it is
+# simplified; the bumper wrap and the waist-level chrome strip are not fully
+# reproduced. The model height of 1.55 m is an estimate. At 128 px the rounded
+# three-box body, vertical-bar grille and round lamps read as a Consul Mk I.
+
+
+obj=citycar
+name=FordConsulMk1(EdinburghGreen)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=1951
+intro_month=1
+retire_year=1973
+retire_month=6
+speed=130
+class=1,2
+maximum_comfortable_journey_minutes=50
+maximum_tolerable_journey_minutes=255
+
+Image[E]=./images/ford-consul-mk1-edinburghgreen_E.0.0,-33,14
+Image[SE]=./images/ford-consul-mk1-edinburghgreen_SE.0.0,-13,0
+Image[S]=./images/ford-consul-mk1-edinburghgreen_S.0.0,0,0
+Image[SW]=./images/ford-consul-mk1-edinburghgreen_SW.0.0,-8,10
+Image[W]=./images/ford-consul-mk1-edinburghgreen_W.0.0,4,5
+Image[NW]=./images/ford-consul-mk1-edinburghgreen_NW.0.0,12,10
+Image[N]=./images/ford-consul-mk1-edinburghgreen_N.0.0,0,33
+Image[NE]=./images/ford-consul-mk1-edinburghgreen_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FordConsulMk1(BristolFawn)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=1951
+intro_month=1
+retire_year=1972
+retire_month=6
+speed=130
+class=1,2
+maximum_comfortable_journey_minutes=50
+maximum_tolerable_journey_minutes=255
+
+Image[E]=./images/ford-consul-mk1-bristolfawn_E.0.0,-33,14
+Image[SE]=./images/ford-consul-mk1-bristolfawn_SE.0.0,-13,0
+Image[S]=./images/ford-consul-mk1-bristolfawn_S.0.0,0,0
+Image[SW]=./images/ford-consul-mk1-bristolfawn_SW.0.0,-8,10
+Image[W]=./images/ford-consul-mk1-bristolfawn_W.0.0,4,5
+Image[NW]=./images/ford-consul-mk1-bristolfawn_NW.0.0,12,10
+Image[N]=./images/ford-consul-mk1-bristolfawn_N.0.0,0,33
+Image[NE]=./images/ford-consul-mk1-bristolfawn_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FordConsulMk1(DorchesterGrey)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=1951
+intro_month=1
+retire_year=1971
+retire_month=6
+speed=130
+class=1,2
+maximum_comfortable_journey_minutes=50
+maximum_tolerable_journey_minutes=255
+
+Image[E]=./images/ford-consul-mk1-dorchestergrey_E.0.0,-33,14
+Image[SE]=./images/ford-consul-mk1-dorchestergrey_SE.0.0,-13,0
+Image[S]=./images/ford-consul-mk1-dorchestergrey_S.0.0,0,0
+Image[SW]=./images/ford-consul-mk1-dorchestergrey_SW.0.0,-8,10
+Image[W]=./images/ford-consul-mk1-dorchestergrey_W.0.0,4,5
+Image[NW]=./images/ford-consul-mk1-dorchestergrey_NW.0.0,12,10
+Image[N]=./images/ford-consul-mk1-dorchestergrey_N.0.0,0,33
+Image[NE]=./images/ford-consul-mk1-dorchestergrey_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FordConsulMk1(WinchesterBlue)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=1951
+intro_month=1
+retire_year=1970
+retire_month=6
+speed=130
+class=1,2
+maximum_comfortable_journey_minutes=50
+maximum_tolerable_journey_minutes=255
+
+Image[E]=./images/ford-consul-mk1-winchesterblue_E.0.0,-33,14
+Image[SE]=./images/ford-consul-mk1-winchesterblue_SE.0.0,-13,0
+Image[S]=./images/ford-consul-mk1-winchesterblue_S.0.0,0,0
+Image[SW]=./images/ford-consul-mk1-winchesterblue_SW.0.0,-8,10
+Image[W]=./images/ford-consul-mk1-winchesterblue_W.0.0,4,5
+Image[NW]=./images/ford-consul-mk1-winchesterblue_NW.0.0,12,10
+Image[N]=./images/ford-consul-mk1-winchesterblue_N.0.0,0,33
+Image[NE]=./images/ford-consul-mk1-winchesterblue_NE.0.0,0,24

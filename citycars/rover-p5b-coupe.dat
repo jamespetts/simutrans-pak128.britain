@@ -1,0 +1,127 @@
+# Rover P5B 3.5 Litre four-door coupe, 1967-1973.
+#
+# The V8 P5 coupe: the ex-Buick 3.5-litre engine in the four-door coupe body,
+# with the lowered roofline, thinner B-pillars, V8 grille and badges. 9,099
+# coupes were built. The fastest and most sought-after P5.
+# https://en.wikipedia.org/wiki/Rover_P5
+#
+# Dimensions 4.724 x 1.778 x 1.397 m, wheelbase 2.794 m (coupe roof height).
+#
+# Shape reference: the coupe uses the P5 three-quarter photographs and the
+# P5B saloon's front and rear detail; there is no dedicated coupe side
+# elevation in the pack. The flank and the lower roofline are estimated from
+# the coupe photographs and the published dimensions; the limitation is
+# recorded.
+#
+# Colours: documented Rover finishes of the period: Arden Green, Sierra
+# Beige, Mexico Brown, Black. Weights 9, 8, 7, 6, total 30, provisional.
+#
+# Speed 180 km/h. Comfort 120/360, on the line 180 + 1.5 x 120, the same
+# spacious cabin as the P5B saloon. Classes 2,3.
+# Dates are road presence: 1967 intro, retires staggered 1986-1989.
+#
+# The four-door coupe's roof is lower than the saloon's: 1.397 m is the
+# model's height. 9,099 P5B coupes were built.
+#
+# Metres master: citycars/4.5/rover-p5b-coupe.blend. Interchange:
+# citycars/4.5/rover-p5b-coupe.dae. References:
+# citycars/references/rover-p5b-coupe/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the body and lowered roof come from the P5 coupe master
+# and the V8 grille, badges and rear trim from the P5B saloon photographs; there
+# is no dedicated P5B coupe side elevation. The grille treatment is simplified
+# and the rear V8 trim is not photograph-verified. At 128 px the lowered roof,
+# V8 grille and badges read as a P5B coupe.
+
+
+obj=citycar
+name=RoverP5BCoupe(ArdenGreen)
+copyright=JamesPetts
+
+DistributionWeight=9
+intro_year=1967
+intro_month=9
+retire_year=1989
+retire_month=6
+speed=180
+class=2,3
+maximum_comfortable_journey_minutes=120
+maximum_tolerable_journey_minutes=360
+
+Image[E]=./images/rover-p5b-coupe-ardengreen_E.0.0,-33,14
+Image[SE]=./images/rover-p5b-coupe-ardengreen_SE.0.0,-13,0
+Image[S]=./images/rover-p5b-coupe-ardengreen_S.0.0,0,0
+Image[SW]=./images/rover-p5b-coupe-ardengreen_SW.0.0,-8,10
+Image[W]=./images/rover-p5b-coupe-ardengreen_W.0.0,4,5
+Image[NW]=./images/rover-p5b-coupe-ardengreen_NW.0.0,12,10
+Image[N]=./images/rover-p5b-coupe-ardengreen_N.0.0,0,33
+Image[NE]=./images/rover-p5b-coupe-ardengreen_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RoverP5BCoupe(SierraBeige)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=1967
+intro_month=9
+retire_year=1988
+retire_month=6
+speed=180
+class=2,3
+maximum_comfortable_journey_minutes=120
+maximum_tolerable_journey_minutes=360
+
+Image[E]=./images/rover-p5b-coupe-sierrabeige_E.0.0,-33,14
+Image[SE]=./images/rover-p5b-coupe-sierrabeige_SE.0.0,-13,0
+Image[S]=./images/rover-p5b-coupe-sierrabeige_S.0.0,0,0
+Image[SW]=./images/rover-p5b-coupe-sierrabeige_SW.0.0,-8,10
+Image[W]=./images/rover-p5b-coupe-sierrabeige_W.0.0,4,5
+Image[NW]=./images/rover-p5b-coupe-sierrabeige_NW.0.0,12,10
+Image[N]=./images/rover-p5b-coupe-sierrabeige_N.0.0,0,33
+Image[NE]=./images/rover-p5b-coupe-sierrabeige_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RoverP5BCoupe(MexicoBrown)
+copyright=JamesPetts
+
+DistributionWeight=7
+intro_year=1967
+intro_month=9
+retire_year=1987
+retire_month=6
+speed=180
+class=2,3
+maximum_comfortable_journey_minutes=120
+maximum_tolerable_journey_minutes=360
+
+Image[E]=./images/rover-p5b-coupe-mexicobrown_E.0.0,-33,14
+Image[SE]=./images/rover-p5b-coupe-mexicobrown_SE.0.0,-13,0
+Image[S]=./images/rover-p5b-coupe-mexicobrown_S.0.0,0,0
+Image[SW]=./images/rover-p5b-coupe-mexicobrown_SW.0.0,-8,10
+Image[W]=./images/rover-p5b-coupe-mexicobrown_W.0.0,4,5
+Image[NW]=./images/rover-p5b-coupe-mexicobrown_NW.0.0,12,10
+Image[N]=./images/rover-p5b-coupe-mexicobrown_N.0.0,0,33
+Image[NE]=./images/rover-p5b-coupe-mexicobrown_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RoverP5BCoupe(Black)
+copyright=JamesPetts
+
+DistributionWeight=6
+intro_year=1967
+intro_month=9
+retire_year=1986
+retire_month=6
+speed=180
+class=2,3
+maximum_comfortable_journey_minutes=120
+maximum_tolerable_journey_minutes=360
+
+Image[E]=./images/rover-p5b-coupe-black_E.0.0,-33,14
+Image[SE]=./images/rover-p5b-coupe-black_SE.0.0,-13,0
+Image[S]=./images/rover-p5b-coupe-black_S.0.0,0,0
+Image[SW]=./images/rover-p5b-coupe-black_SW.0.0,-8,10
+Image[W]=./images/rover-p5b-coupe-black_W.0.0,4,5
+Image[NW]=./images/rover-p5b-coupe-black_NW.0.0,12,10
+Image[N]=./images/rover-p5b-coupe-black_N.0.0,0,33
+Image[NE]=./images/rover-p5b-coupe-black_NE.0.0,0,24

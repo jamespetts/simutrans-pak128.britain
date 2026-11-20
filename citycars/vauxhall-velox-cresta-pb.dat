@@ -1,0 +1,119 @@
+# Vauxhall Velox and Cresta PB saloon, 1962-1965.
+#
+# The PB: the squarer, longer body that replaced the finned PA, with the
+# flat rear deck and the wider track. The Velox and Cresta shared the shell;
+# one object represents it.
+# https://en.wikipedia.org/wiki/Vauxhall_Cresta
+#
+# Dimensions: 4,616 x 1,784 x 1,440 mm, wheelbase 2,730 mm (Cresta figures;
+# the Velox height was not stated and the Cresta is complete).
+#
+# Shape reference: image 1 is a true level side profile; the flank is traced
+# from it.
+#
+# Colours: grade (d); no period Vauxhall colour list was found. Black, Grey,
+# Blue and Green are plain period names. Weights 12, 10, 9, 8, total 39,
+# provisional.
+#
+# Speed 145 km/h. Comfort 55/262, on the line 180 + 1.5 x 55. Classes 2,3.
+# Dates: intro October 1962; retires staggered 1976-1979 as a road tail.
+#
+# Metres master: citycars/4.5/vauxhall-velox-cresta-pb.blend. Interchange:
+# citycars/4.5/vauxhall-velox-cresta-pb.dae. References:
+# citycars/references/vauxhall-velox-cresta-pb/ (gitignored).
+#
+# Accepted deviations: one shared saloon with the pre-October 1964 front. The
+# later full-width grille is not represented.
+
+
+obj=citycar
+name=VauxhallVeloxCrestaPB(Black)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=1962
+intro_month=10
+retire_year=1979
+retire_month=6
+speed=145
+class=2,3
+maximum_comfortable_journey_minutes=55
+maximum_tolerable_journey_minutes=262
+
+Image[E]=./images/vauxhall-velox-cresta-pb-black_E.0.0,-33,14
+Image[SE]=./images/vauxhall-velox-cresta-pb-black_SE.0.0,-13,0
+Image[S]=./images/vauxhall-velox-cresta-pb-black_S.0.0,0,0
+Image[SW]=./images/vauxhall-velox-cresta-pb-black_SW.0.0,-8,10
+Image[W]=./images/vauxhall-velox-cresta-pb-black_W.0.0,4,5
+Image[NW]=./images/vauxhall-velox-cresta-pb-black_NW.0.0,12,10
+Image[N]=./images/vauxhall-velox-cresta-pb-black_N.0.0,0,33
+Image[NE]=./images/vauxhall-velox-cresta-pb-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallVeloxCrestaPB(Grey)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=1962
+intro_month=10
+retire_year=1978
+retire_month=6
+speed=145
+class=2,3
+maximum_comfortable_journey_minutes=55
+maximum_tolerable_journey_minutes=262
+
+Image[E]=./images/vauxhall-velox-cresta-pb-grey_E.0.0,-33,14
+Image[SE]=./images/vauxhall-velox-cresta-pb-grey_SE.0.0,-13,0
+Image[S]=./images/vauxhall-velox-cresta-pb-grey_S.0.0,0,0
+Image[SW]=./images/vauxhall-velox-cresta-pb-grey_SW.0.0,-8,10
+Image[W]=./images/vauxhall-velox-cresta-pb-grey_W.0.0,4,5
+Image[NW]=./images/vauxhall-velox-cresta-pb-grey_NW.0.0,12,10
+Image[N]=./images/vauxhall-velox-cresta-pb-grey_N.0.0,0,33
+Image[NE]=./images/vauxhall-velox-cresta-pb-grey_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallVeloxCrestaPB(Blue)
+copyright=JamesPetts
+
+DistributionWeight=9
+intro_year=1962
+intro_month=10
+retire_year=1977
+retire_month=6
+speed=145
+class=2,3
+maximum_comfortable_journey_minutes=55
+maximum_tolerable_journey_minutes=262
+
+Image[E]=./images/vauxhall-velox-cresta-pb-blue_E.0.0,-33,14
+Image[SE]=./images/vauxhall-velox-cresta-pb-blue_SE.0.0,-13,0
+Image[S]=./images/vauxhall-velox-cresta-pb-blue_S.0.0,0,0
+Image[SW]=./images/vauxhall-velox-cresta-pb-blue_SW.0.0,-8,10
+Image[W]=./images/vauxhall-velox-cresta-pb-blue_W.0.0,4,5
+Image[NW]=./images/vauxhall-velox-cresta-pb-blue_NW.0.0,12,10
+Image[N]=./images/vauxhall-velox-cresta-pb-blue_N.0.0,0,33
+Image[NE]=./images/vauxhall-velox-cresta-pb-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallVeloxCrestaPB(Green)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=1962
+intro_month=10
+retire_year=1976
+retire_month=6
+speed=145
+class=2,3
+maximum_comfortable_journey_minutes=55
+maximum_tolerable_journey_minutes=262
+
+Image[E]=./images/vauxhall-velox-cresta-pb-green_E.0.0,-33,14
+Image[SE]=./images/vauxhall-velox-cresta-pb-green_SE.0.0,-13,0
+Image[S]=./images/vauxhall-velox-cresta-pb-green_S.0.0,0,0
+Image[SW]=./images/vauxhall-velox-cresta-pb-green_SW.0.0,-8,10
+Image[W]=./images/vauxhall-velox-cresta-pb-green_W.0.0,4,5
+Image[NW]=./images/vauxhall-velox-cresta-pb-green_NW.0.0,12,10
+Image[N]=./images/vauxhall-velox-cresta-pb-green_N.0.0,0,33
+Image[NE]=./images/vauxhall-velox-cresta-pb-green_NE.0.0,0,24

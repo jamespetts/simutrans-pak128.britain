@@ -1,0 +1,125 @@
+# Vauxhall Cadet saloon, 1930-1933.
+#
+# The Cadet: a 2,048 cc six announced on 6 October 1930, and the first
+# British car with a synchromesh gearbox, fitted to all Cadets from late
+# 1931. The saloon is modelled; the two-seater, the sports and four-light
+# coupes, the Grosvenor, Tickford and Romney bodies and the panel van are not
+# represented. The saloon body is SIX-light, with three windows per side,
+# as images 1 and 2 both show; the four-light reference in the brief was
+# wrong.
+# https://en.wikipedia.org/wiki/Vauxhall_Cadet
+#
+# Dimensions: wheelbase 107 in (2.718 m), track 56 in. Length and height were
+# not established from a source and are estimated from the photograph; the
+# estimate is recorded.
+#
+# Shape reference: image 1 is a true level profile within about 2 degrees,
+# with the wheel centres and the running board horizontal.
+#
+# Colours: grade (d); no Vauxhall colour list was found. Black, Maroon, Cream
+# and Dark Blue are observed colours. Weights 12, 10, 9, 8, total 39,
+# provisional.
+#
+# Speed 100 km/h. Comfort 25/218, on the line 180 + 1.5 x 25. Classes 0,1.
+# Dates: intro October 1930; retires staggered 1947-1950 as a road tail.
+#
+# Metres master: citycars/4.5/vauxhall-cadet.blend. Interchange:
+# citycars/4.5/vauxhall-cadet.dae. References:
+# citycars/references/vauxhall-cadet/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the six-light VY saloon is modelled. The VX side spare,
+# the luggage and the taller radiator are not copied. The estimated length
+# includes the empty luggage rack; the rear bumper ends at 4.04 m.
+
+
+obj=citycar
+name=VauxhallCadet(Black)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=1930
+intro_month=10
+retire_year=1950
+retire_month=6
+speed=100
+class=0,1
+maximum_comfortable_journey_minutes=25
+maximum_tolerable_journey_minutes=218
+
+Image[E]=./images/vauxhall-cadet-black_E.0.0,-33,14
+Image[SE]=./images/vauxhall-cadet-black_SE.0.0,-13,0
+Image[S]=./images/vauxhall-cadet-black_S.0.0,0,0
+Image[SW]=./images/vauxhall-cadet-black_SW.0.0,-8,10
+Image[W]=./images/vauxhall-cadet-black_W.0.0,4,5
+Image[NW]=./images/vauxhall-cadet-black_NW.0.0,12,10
+Image[N]=./images/vauxhall-cadet-black_N.0.0,0,33
+Image[NE]=./images/vauxhall-cadet-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallCadet(Maroon)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=1930
+intro_month=10
+retire_year=1949
+retire_month=6
+speed=100
+class=0,1
+maximum_comfortable_journey_minutes=25
+maximum_tolerable_journey_minutes=218
+
+Image[E]=./images/vauxhall-cadet-maroon_E.0.0,-33,14
+Image[SE]=./images/vauxhall-cadet-maroon_SE.0.0,-13,0
+Image[S]=./images/vauxhall-cadet-maroon_S.0.0,0,0
+Image[SW]=./images/vauxhall-cadet-maroon_SW.0.0,-8,10
+Image[W]=./images/vauxhall-cadet-maroon_W.0.0,4,5
+Image[NW]=./images/vauxhall-cadet-maroon_NW.0.0,12,10
+Image[N]=./images/vauxhall-cadet-maroon_N.0.0,0,33
+Image[NE]=./images/vauxhall-cadet-maroon_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallCadet(Cream)
+copyright=JamesPetts
+
+DistributionWeight=9
+intro_year=1930
+intro_month=10
+retire_year=1948
+retire_month=6
+speed=100
+class=0,1
+maximum_comfortable_journey_minutes=25
+maximum_tolerable_journey_minutes=218
+
+Image[E]=./images/vauxhall-cadet-cream_E.0.0,-33,14
+Image[SE]=./images/vauxhall-cadet-cream_SE.0.0,-13,0
+Image[S]=./images/vauxhall-cadet-cream_S.0.0,0,0
+Image[SW]=./images/vauxhall-cadet-cream_SW.0.0,-8,10
+Image[W]=./images/vauxhall-cadet-cream_W.0.0,4,5
+Image[NW]=./images/vauxhall-cadet-cream_NW.0.0,12,10
+Image[N]=./images/vauxhall-cadet-cream_N.0.0,0,33
+Image[NE]=./images/vauxhall-cadet-cream_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallCadet(DarkBlue)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=1930
+intro_month=10
+retire_year=1947
+retire_month=6
+speed=100
+class=0,1
+maximum_comfortable_journey_minutes=25
+maximum_tolerable_journey_minutes=218
+
+Image[E]=./images/vauxhall-cadet-darkblue_E.0.0,-33,14
+Image[SE]=./images/vauxhall-cadet-darkblue_SE.0.0,-13,0
+Image[S]=./images/vauxhall-cadet-darkblue_S.0.0,0,0
+Image[SW]=./images/vauxhall-cadet-darkblue_SW.0.0,-8,10
+Image[W]=./images/vauxhall-cadet-darkblue_W.0.0,4,5
+Image[NW]=./images/vauxhall-cadet-darkblue_NW.0.0,12,10
+Image[N]=./images/vauxhall-cadet-darkblue_N.0.0,0,33
+Image[NE]=./images/vauxhall-cadet-darkblue_NE.0.0,0,24

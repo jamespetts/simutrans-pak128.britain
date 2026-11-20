@@ -1,0 +1,125 @@
+# Aston Martin V12 Vanquish coupe, 2001-2007.
+#
+# The Ian Callum Newport Pagnell flagship: the 6.0-litre V12, the long low
+# carbon-fibre body, the pronounced front splitter and the quad exhausts.
+# 1,503 standard cars built before the Vanquish S of 2004; the S is a trim
+# and power variant and is not separately represented.
+# https://en.wikipedia.org/wiki/Aston_Martin_Vanquish
+#
+# Dimensions 4.665 x 1.923 x 1.318 m, wheelbase 2.690 m.
+#
+# Shape reference: a silver 2004 car in a 30-35 degree front three-quarter
+# (there is NO true side elevation in the pack), a silver 2001 car at Gaydon
+# in front three-quarter, and the same car in rear three-quarter. The flank is
+# estimated from the three views and the published dimensions; the limitation
+# is recorded.
+#
+# Colours: grade (c). Stronsay Silver, Derwent Green, Mendip Blue and Chiltern
+# Green are documented in a commercial Aston Martin paint-code compilation for
+# 2001-03; it is not a brochure and the full range is grade (d). Weights 3, 3,
+# 2, 2, total 10, provisional.
+#
+# Speed 305 km/h. Comfort 78/297, on the line 180 + 1.5 x 78. Classes 3,4.
+# Dates are road presence: 2001 intro, retires staggered 2022-2025.
+#
+# Metres master: citycars/4.5/aston-vanquish.blend. Interchange:
+# citycars/4.5/aston-vanquish.dae. References:
+# citycars/references/aston-vanquish/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the rear lamp shapes break at the corners and the
+# plate recess is too rounded. There is no true side reference, so the flank
+# is estimated. At 128 px the long low body, splitter, quad exhausts and V12
+# proportions read as a Vanquish.
+
+
+obj=citycar
+name=AstonVanquish(StronsaySilver)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=2001
+intro_month=9
+retire_year=2025
+retire_month=6
+speed=305
+class=3,4
+maximum_comfortable_journey_minutes=78
+maximum_tolerable_journey_minutes=297
+
+Image[E]=./images/aston-vanquish-stronsaysilver_E.0.0,-33,14
+Image[SE]=./images/aston-vanquish-stronsaysilver_SE.0.0,-13,0
+Image[S]=./images/aston-vanquish-stronsaysilver_S.0.0,0,0
+Image[SW]=./images/aston-vanquish-stronsaysilver_SW.0.0,-8,10
+Image[W]=./images/aston-vanquish-stronsaysilver_W.0.0,4,5
+Image[NW]=./images/aston-vanquish-stronsaysilver_NW.0.0,12,10
+Image[N]=./images/aston-vanquish-stronsaysilver_N.0.0,0,33
+Image[NE]=./images/aston-vanquish-stronsaysilver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=AstonVanquish(DerwentGreen)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=2001
+intro_month=9
+retire_year=2024
+retire_month=6
+speed=305
+class=3,4
+maximum_comfortable_journey_minutes=78
+maximum_tolerable_journey_minutes=297
+
+Image[E]=./images/aston-vanquish-derwentgreen_E.0.0,-33,14
+Image[SE]=./images/aston-vanquish-derwentgreen_SE.0.0,-13,0
+Image[S]=./images/aston-vanquish-derwentgreen_S.0.0,0,0
+Image[SW]=./images/aston-vanquish-derwentgreen_SW.0.0,-8,10
+Image[W]=./images/aston-vanquish-derwentgreen_W.0.0,4,5
+Image[NW]=./images/aston-vanquish-derwentgreen_NW.0.0,12,10
+Image[N]=./images/aston-vanquish-derwentgreen_N.0.0,0,33
+Image[NE]=./images/aston-vanquish-derwentgreen_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=AstonVanquish(MendipBlue)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=2001
+intro_month=9
+retire_year=2023
+retire_month=6
+speed=305
+class=3,4
+maximum_comfortable_journey_minutes=78
+maximum_tolerable_journey_minutes=297
+
+Image[E]=./images/aston-vanquish-mendipblue_E.0.0,-33,14
+Image[SE]=./images/aston-vanquish-mendipblue_SE.0.0,-13,0
+Image[S]=./images/aston-vanquish-mendipblue_S.0.0,0,0
+Image[SW]=./images/aston-vanquish-mendipblue_SW.0.0,-8,10
+Image[W]=./images/aston-vanquish-mendipblue_W.0.0,4,5
+Image[NW]=./images/aston-vanquish-mendipblue_NW.0.0,12,10
+Image[N]=./images/aston-vanquish-mendipblue_N.0.0,0,33
+Image[NE]=./images/aston-vanquish-mendipblue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=AstonVanquish(ChilternGreen)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=2001
+intro_month=9
+retire_year=2022
+retire_month=6
+speed=305
+class=3,4
+maximum_comfortable_journey_minutes=78
+maximum_tolerable_journey_minutes=297
+
+Image[E]=./images/aston-vanquish-chilterngreen_E.0.0,-33,14
+Image[SE]=./images/aston-vanquish-chilterngreen_SE.0.0,-13,0
+Image[S]=./images/aston-vanquish-chilterngreen_S.0.0,0,0
+Image[SW]=./images/aston-vanquish-chilterngreen_SW.0.0,-8,10
+Image[W]=./images/aston-vanquish-chilterngreen_W.0.0,4,5
+Image[NW]=./images/aston-vanquish-chilterngreen_NW.0.0,12,10
+Image[N]=./images/aston-vanquish-chilterngreen_N.0.0,0,33
+Image[NE]=./images/aston-vanquish-chilterngreen_NE.0.0,0,24

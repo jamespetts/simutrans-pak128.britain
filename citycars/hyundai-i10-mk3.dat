@@ -1,0 +1,121 @@
+# Hyundai i10 third generation five-door, 2020-2026.
+#
+# The AC3 i10: the wider, lower city car with the very wide trapezoid
+# grille, the sharp lamps and the blacked-out A-pillar. UK sales from
+# 18 January 2020.
+# https://en.wikipedia.org/wiki/Hyundai_i10
+#
+# Dimensions 3.675 x 1.680 x 1.483 m, wheelbase 2.425 m (AC3; the Indian AI3
+# is a different, longer car and is not represented).
+#
+# Shape reference: image 1 is a true side elevation of a red car; the front
+# and rear three-quarters show the grille, lamps and tail.
+#
+# Colours: grade (a), the Hyundai Motor UK launch release of 18 December 2019:
+# Polar White, Tomato Red, Phantom Black and Sleek Silver. Weights 12, 10, 10,
+# 8, total 40, provisional.
+#
+# Speed 165 km/h. Comfort 70/285, on the line 180 + 1.5 x 70. Classes 0,1.
+# Dates are road presence: 2020 intro, retires staggered 2040-2043.
+#
+# Metres master: citycars/4.5/hyundai-i10-mk3.blend. Interchange:
+# citycars/4.5/hyundai-i10-mk3.dae. References:
+# citycars/references/hyundai-i10-mk3/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: an independent AC3 hull, not a variant of the Mk2.
+# Pre-facelift fascia. The overhang split is reconciled to the published
+# dimensions. The rear-quarter trim, rear lamp wraps and grille internals are
+# simplified.
+
+
+obj=citycar
+name=HyundaiI10Mk3(PolarWhite)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=2020
+intro_month=1
+retire_year=2043
+retire_month=6
+speed=165
+class=0,1
+maximum_comfortable_journey_minutes=70
+maximum_tolerable_journey_minutes=285
+
+Image[E]=./images/hyundai-i10-mk3-polarwhite_E.0.0,-33,14
+Image[SE]=./images/hyundai-i10-mk3-polarwhite_SE.0.0,-13,0
+Image[S]=./images/hyundai-i10-mk3-polarwhite_S.0.0,0,0
+Image[SW]=./images/hyundai-i10-mk3-polarwhite_SW.0.0,-8,10
+Image[W]=./images/hyundai-i10-mk3-polarwhite_W.0.0,4,5
+Image[NW]=./images/hyundai-i10-mk3-polarwhite_NW.0.0,12,10
+Image[N]=./images/hyundai-i10-mk3-polarwhite_N.0.0,0,33
+Image[NE]=./images/hyundai-i10-mk3-polarwhite_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=HyundaiI10Mk3(TomatoRed)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=2020
+intro_month=1
+retire_year=2042
+retire_month=6
+speed=165
+class=0,1
+maximum_comfortable_journey_minutes=70
+maximum_tolerable_journey_minutes=285
+
+Image[E]=./images/hyundai-i10-mk3-tomatored_E.0.0,-33,14
+Image[SE]=./images/hyundai-i10-mk3-tomatored_SE.0.0,-13,0
+Image[S]=./images/hyundai-i10-mk3-tomatored_S.0.0,0,0
+Image[SW]=./images/hyundai-i10-mk3-tomatored_SW.0.0,-8,10
+Image[W]=./images/hyundai-i10-mk3-tomatored_W.0.0,4,5
+Image[NW]=./images/hyundai-i10-mk3-tomatored_NW.0.0,12,10
+Image[N]=./images/hyundai-i10-mk3-tomatored_N.0.0,0,33
+Image[NE]=./images/hyundai-i10-mk3-tomatored_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=HyundaiI10Mk3(PhantomBlack)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=2020
+intro_month=1
+retire_year=2041
+retire_month=6
+speed=165
+class=0,1
+maximum_comfortable_journey_minutes=70
+maximum_tolerable_journey_minutes=285
+
+Image[E]=./images/hyundai-i10-mk3-phantomblack_E.0.0,-33,14
+Image[SE]=./images/hyundai-i10-mk3-phantomblack_SE.0.0,-13,0
+Image[S]=./images/hyundai-i10-mk3-phantomblack_S.0.0,0,0
+Image[SW]=./images/hyundai-i10-mk3-phantomblack_SW.0.0,-8,10
+Image[W]=./images/hyundai-i10-mk3-phantomblack_W.0.0,4,5
+Image[NW]=./images/hyundai-i10-mk3-phantomblack_NW.0.0,12,10
+Image[N]=./images/hyundai-i10-mk3-phantomblack_N.0.0,0,33
+Image[NE]=./images/hyundai-i10-mk3-phantomblack_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=HyundaiI10Mk3(SleekSilver)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=2020
+intro_month=1
+retire_year=2040
+retire_month=6
+speed=165
+class=0,1
+maximum_comfortable_journey_minutes=70
+maximum_tolerable_journey_minutes=285
+
+Image[E]=./images/hyundai-i10-mk3-sleeksilver_E.0.0,-33,14
+Image[SE]=./images/hyundai-i10-mk3-sleeksilver_SE.0.0,-13,0
+Image[S]=./images/hyundai-i10-mk3-sleeksilver_S.0.0,0,0
+Image[SW]=./images/hyundai-i10-mk3-sleeksilver_SW.0.0,-8,10
+Image[W]=./images/hyundai-i10-mk3-sleeksilver_W.0.0,4,5
+Image[NW]=./images/hyundai-i10-mk3-sleeksilver_NW.0.0,12,10
+Image[N]=./images/hyundai-i10-mk3-sleeksilver_N.0.0,0,33
+Image[NE]=./images/hyundai-i10-mk3-sleeksilver_NE.0.0,0,24

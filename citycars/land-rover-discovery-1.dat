@@ -1,0 +1,123 @@
+# Land Rover Discovery 1 five-door, 1989-1998.
+#
+# The first Discovery: the three-box five-door on the Range Rover Classic
+# floorpan, with the stepped rear side glass, the external spare and the
+# utilitarian interior. The five-door is the volume body; the three-door is
+# not separately represented.
+# https://en.wikipedia.org/wiki/Land_Rover_Discovery
+#
+# Dimensions 4.539 x 1.793 x 1.966 m, wheelbase 2.540 m.
+#
+# Shape reference: image 1 is the side profile from the pack; the front and
+# rear three-quarters show the lamps and tailgate. The notes state the angle.
+#
+# Colours: grade (b), factory-derived names from a Land Rover parts
+# catalogue, with no built shares. Coniston Green, Beluga Black, Chawton
+# White and Altai Silver are common on British roads. Weights 12, 10, 10, 8,
+# total 40, provisional.
+#
+# Speed 160 km/h. Comfort 70/285, on the line 180 + 1.5 x 70: a tall,
+# upright, utilitarian cabin. Classes 2,3.
+# Dates are road presence: 1989 intro, retires staggered 2014-2017.
+#
+# Metres master: citycars/4.5/land-rover-discovery-1.blend. Interchange:
+# citycars/4.5/land-rover-discovery-1.dae. References:
+# citycars/references/land-rover-discovery-1/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the arch cladding is a flat ribbon rather than a moulded
+# lip, the alpine roof windows are flat panels without surrounds, the roof bars
+# are not modelled and the wheels are plain discs. At 128 px the tall boxy body,
+# stepped roof and tailgate-mounted spare read as a Discovery 1.
+
+
+obj=citycar
+name=LandRoverDiscovery1(ConistonGreen)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=1989
+intro_month=10
+retire_year=2017
+retire_month=6
+speed=160
+class=2,3
+maximum_comfortable_journey_minutes=70
+maximum_tolerable_journey_minutes=285
+
+Image[E]=./images/land-rover-discovery-1-conistongreen_E.0.0,-33,14
+Image[SE]=./images/land-rover-discovery-1-conistongreen_SE.0.0,-13,0
+Image[S]=./images/land-rover-discovery-1-conistongreen_S.0.0,0,0
+Image[SW]=./images/land-rover-discovery-1-conistongreen_SW.0.0,-8,10
+Image[W]=./images/land-rover-discovery-1-conistongreen_W.0.0,4,5
+Image[NW]=./images/land-rover-discovery-1-conistongreen_NW.0.0,12,10
+Image[N]=./images/land-rover-discovery-1-conistongreen_N.0.0,0,33
+Image[NE]=./images/land-rover-discovery-1-conistongreen_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=LandRoverDiscovery1(BelugaBlack)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=1989
+intro_month=10
+retire_year=2016
+retire_month=6
+speed=160
+class=2,3
+maximum_comfortable_journey_minutes=70
+maximum_tolerable_journey_minutes=285
+
+Image[E]=./images/land-rover-discovery-1-belugablack_E.0.0,-33,14
+Image[SE]=./images/land-rover-discovery-1-belugablack_SE.0.0,-13,0
+Image[S]=./images/land-rover-discovery-1-belugablack_S.0.0,0,0
+Image[SW]=./images/land-rover-discovery-1-belugablack_SW.0.0,-8,10
+Image[W]=./images/land-rover-discovery-1-belugablack_W.0.0,4,5
+Image[NW]=./images/land-rover-discovery-1-belugablack_NW.0.0,12,10
+Image[N]=./images/land-rover-discovery-1-belugablack_N.0.0,0,33
+Image[NE]=./images/land-rover-discovery-1-belugablack_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=LandRoverDiscovery1(ChawtonWhite)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=1989
+intro_month=10
+retire_year=2015
+retire_month=6
+speed=160
+class=2,3
+maximum_comfortable_journey_minutes=70
+maximum_tolerable_journey_minutes=285
+
+Image[E]=./images/land-rover-discovery-1-chawtonwhite_E.0.0,-33,14
+Image[SE]=./images/land-rover-discovery-1-chawtonwhite_SE.0.0,-13,0
+Image[S]=./images/land-rover-discovery-1-chawtonwhite_S.0.0,0,0
+Image[SW]=./images/land-rover-discovery-1-chawtonwhite_SW.0.0,-8,10
+Image[W]=./images/land-rover-discovery-1-chawtonwhite_W.0.0,4,5
+Image[NW]=./images/land-rover-discovery-1-chawtonwhite_NW.0.0,12,10
+Image[N]=./images/land-rover-discovery-1-chawtonwhite_N.0.0,0,33
+Image[NE]=./images/land-rover-discovery-1-chawtonwhite_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=LandRoverDiscovery1(AltaiSilver)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=1989
+intro_month=10
+retire_year=2014
+retire_month=6
+speed=160
+class=2,3
+maximum_comfortable_journey_minutes=70
+maximum_tolerable_journey_minutes=285
+
+Image[E]=./images/land-rover-discovery-1-altaisilver_E.0.0,-33,14
+Image[SE]=./images/land-rover-discovery-1-altaisilver_SE.0.0,-13,0
+Image[S]=./images/land-rover-discovery-1-altaisilver_S.0.0,0,0
+Image[SW]=./images/land-rover-discovery-1-altaisilver_SW.0.0,-8,10
+Image[W]=./images/land-rover-discovery-1-altaisilver_W.0.0,4,5
+Image[NW]=./images/land-rover-discovery-1-altaisilver_NW.0.0,12,10
+Image[N]=./images/land-rover-discovery-1-altaisilver_N.0.0,0,33
+Image[NE]=./images/land-rover-discovery-1-altaisilver_NE.0.0,0,24

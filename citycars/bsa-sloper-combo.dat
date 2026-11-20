@@ -47,6 +47,11 @@
 # (R. Jones), research reference only.
 # Stage B note: +0.2781 pak units applied after preparation so the motorcycle,
 # not the combined bounding box, sits at the tile centre.
+#
+# Rider and sidecar passenger added 2026-11-20 in Blender 4.5. One seated rider and
+# one adult in the open Monarch chair, in period clothing and a black helmet. The
+# passenger's cap is level with the chair's screen top. Stylised low-poly
+# reconstruction fitted to the master. Object names, dates and colours unchanged.
 
 obj=citycar
 name=BSASloperCombo(Green)

@@ -1,0 +1,121 @@
+# Tesla Model Y five-door SUV, 2020 onwards.
+#
+# The Model 3-based electric SUV: the taller body, the large glass roof, the
+# closed nose and the full-width tail. UK orders from 15 October 2021. The
+# 2025 Juniper facelift changed the front and rear light bars and is a
+# colour-run change on the same shell; the pre-Juniper car is modelled.
+# https://en.wikipedia.org/wiki/Tesla_Model_Y
+#
+# Dimensions 4.751 x 1.920 x 1.624 m, wheelbase 2.890 m (2020-25 car).
+#
+# Shape reference: the pack's images show the pre-Juniper car in side, front
+# and rear views; the side view governs.
+#
+# Colours: grade (d); no Tesla UK document was read. Pearl White, Solid
+# Black, Midnight Silver and Deep Blue are the names in use on UK cars.
+# Weights 18, 16, 14, 12, total 60, provisional.
+#
+# Speed 217 km/h. Comfort 95/322, on the line 180 + 1.5 x 95: a tall, quiet
+# electric SUV. Classes 3,4.
+# Dates are road presence: 2021 intro, retires staggered 2044-2047.
+#
+# Metres master: citycars/4.5/tesla-model-y.blend. Interchange:
+# citycars/4.5/tesla-model-y.dae. References:
+# citycars/references/tesla-model-y/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the flank is estimated from the oblique 2019 display-car
+# image. Black production-style trim is modelled instead of the display car's
+# chrome. The lamp internals and the hatch creases are simplified.
+
+
+obj=citycar
+name=TeslaModelY(PearlWhite)
+copyright=JamesPetts
+
+DistributionWeight=18
+intro_year=2021
+intro_month=10
+retire_year=2047
+retire_month=6
+speed=217
+class=3,4
+maximum_comfortable_journey_minutes=95
+maximum_tolerable_journey_minutes=322
+
+Image[E]=./images/tesla-model-y-pearlwhite_E.0.0,-33,14
+Image[SE]=./images/tesla-model-y-pearlwhite_SE.0.0,-13,0
+Image[S]=./images/tesla-model-y-pearlwhite_S.0.0,0,0
+Image[SW]=./images/tesla-model-y-pearlwhite_SW.0.0,-8,10
+Image[W]=./images/tesla-model-y-pearlwhite_W.0.0,4,5
+Image[NW]=./images/tesla-model-y-pearlwhite_NW.0.0,12,10
+Image[N]=./images/tesla-model-y-pearlwhite_N.0.0,0,33
+Image[NE]=./images/tesla-model-y-pearlwhite_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=TeslaModelY(SolidBlack)
+copyright=JamesPetts
+
+DistributionWeight=16
+intro_year=2021
+intro_month=10
+retire_year=2046
+retire_month=6
+speed=217
+class=3,4
+maximum_comfortable_journey_minutes=95
+maximum_tolerable_journey_minutes=322
+
+Image[E]=./images/tesla-model-y-solidblack_E.0.0,-33,14
+Image[SE]=./images/tesla-model-y-solidblack_SE.0.0,-13,0
+Image[S]=./images/tesla-model-y-solidblack_S.0.0,0,0
+Image[SW]=./images/tesla-model-y-solidblack_SW.0.0,-8,10
+Image[W]=./images/tesla-model-y-solidblack_W.0.0,4,5
+Image[NW]=./images/tesla-model-y-solidblack_NW.0.0,12,10
+Image[N]=./images/tesla-model-y-solidblack_N.0.0,0,33
+Image[NE]=./images/tesla-model-y-solidblack_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=TeslaModelY(MidnightSilver)
+copyright=JamesPetts
+
+DistributionWeight=14
+intro_year=2021
+intro_month=10
+retire_year=2045
+retire_month=6
+speed=217
+class=3,4
+maximum_comfortable_journey_minutes=95
+maximum_tolerable_journey_minutes=322
+
+Image[E]=./images/tesla-model-y-midnightsilver_E.0.0,-33,14
+Image[SE]=./images/tesla-model-y-midnightsilver_SE.0.0,-13,0
+Image[S]=./images/tesla-model-y-midnightsilver_S.0.0,0,0
+Image[SW]=./images/tesla-model-y-midnightsilver_SW.0.0,-8,10
+Image[W]=./images/tesla-model-y-midnightsilver_W.0.0,4,5
+Image[NW]=./images/tesla-model-y-midnightsilver_NW.0.0,12,10
+Image[N]=./images/tesla-model-y-midnightsilver_N.0.0,0,33
+Image[NE]=./images/tesla-model-y-midnightsilver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=TeslaModelY(DeepBlue)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=2021
+intro_month=10
+retire_year=2044
+retire_month=6
+speed=217
+class=3,4
+maximum_comfortable_journey_minutes=95
+maximum_tolerable_journey_minutes=322
+
+Image[E]=./images/tesla-model-y-deepblue_E.0.0,-33,14
+Image[SE]=./images/tesla-model-y-deepblue_SE.0.0,-13,0
+Image[S]=./images/tesla-model-y-deepblue_S.0.0,0,0
+Image[SW]=./images/tesla-model-y-deepblue_SW.0.0,-8,10
+Image[W]=./images/tesla-model-y-deepblue_W.0.0,4,5
+Image[NW]=./images/tesla-model-y-deepblue_NW.0.0,12,10
+Image[N]=./images/tesla-model-y-deepblue_N.0.0,0,33
+Image[NE]=./images/tesla-model-y-deepblue_NE.0.0,0,24

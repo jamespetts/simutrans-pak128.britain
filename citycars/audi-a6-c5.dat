@@ -1,0 +1,120 @@
+# Audi A6 C5 four-door saloon, 1997-2004.
+#
+# The second A6: the rounded, more aerodynamic C5 body with the curved
+# roofline, the four-ring grille and the quattro option. The Avant and
+# allroad are different bodies and are not represented.
+# https://en.wikipedia.org/wiki/Audi_A6
+#
+# Dimensions 4.796 x 1.810 x 1.453 m, wheelbase 2.760 m.
+#
+# Shape reference: image 1 is a side-on driving view, not a true level
+# profile; the front and rear three-quarters show the lamps and tail. The
+# flank is estimated; the limitation is recorded.
+#
+# Colours: grade (d); no UK chart was established. Black, silver, grey and
+# blue are plain names. Weights 20, 18, 17, 15, total 70, provisional.
+#
+# Speed 225 km/h. Comfort 90/315, on the line 180 + 1.5 x 90. Classes 3,4.
+# Dates are road presence: 1997 intro, retires staggered 2022-2025.
+#
+# Metres master: citycars/4.5/audi-a6-c5.blend. Interchange:
+# citycars/4.5/audi-a6-c5.dae. References:
+# citycars/references/audi-a6-c5/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: image 1 is a motion-blurred driving shot, not a profile;
+# the flank is estimated. The roof curve is too flat and the boot slightly long,
+# and the headlamps read weakly against a pale body. At 128 px the rounded nose,
+# small ringed grille and soft shoulder read as a C5 A6.
+
+
+obj=citycar
+name=AudiA6C5(Black)
+copyright=JamesPetts
+
+DistributionWeight=20
+intro_year=1997
+intro_month=1
+retire_year=2025
+retire_month=6
+speed=225
+class=3,4
+maximum_comfortable_journey_minutes=90
+maximum_tolerable_journey_minutes=315
+
+Image[E]=./images/audi-a6-c5-black_E.0.0,-33,14
+Image[SE]=./images/audi-a6-c5-black_SE.0.0,-13,0
+Image[S]=./images/audi-a6-c5-black_S.0.0,0,0
+Image[SW]=./images/audi-a6-c5-black_SW.0.0,-8,10
+Image[W]=./images/audi-a6-c5-black_W.0.0,4,5
+Image[NW]=./images/audi-a6-c5-black_NW.0.0,12,10
+Image[N]=./images/audi-a6-c5-black_N.0.0,0,33
+Image[NE]=./images/audi-a6-c5-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=AudiA6C5(Silver)
+copyright=JamesPetts
+
+DistributionWeight=18
+intro_year=1997
+intro_month=1
+retire_year=2024
+retire_month=6
+speed=225
+class=3,4
+maximum_comfortable_journey_minutes=90
+maximum_tolerable_journey_minutes=315
+
+Image[E]=./images/audi-a6-c5-silver_E.0.0,-33,14
+Image[SE]=./images/audi-a6-c5-silver_SE.0.0,-13,0
+Image[S]=./images/audi-a6-c5-silver_S.0.0,0,0
+Image[SW]=./images/audi-a6-c5-silver_SW.0.0,-8,10
+Image[W]=./images/audi-a6-c5-silver_W.0.0,4,5
+Image[NW]=./images/audi-a6-c5-silver_NW.0.0,12,10
+Image[N]=./images/audi-a6-c5-silver_N.0.0,0,33
+Image[NE]=./images/audi-a6-c5-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=AudiA6C5(Grey)
+copyright=JamesPetts
+
+DistributionWeight=17
+intro_year=1997
+intro_month=1
+retire_year=2023
+retire_month=6
+speed=225
+class=3,4
+maximum_comfortable_journey_minutes=90
+maximum_tolerable_journey_minutes=315
+
+Image[E]=./images/audi-a6-c5-grey_E.0.0,-33,14
+Image[SE]=./images/audi-a6-c5-grey_SE.0.0,-13,0
+Image[S]=./images/audi-a6-c5-grey_S.0.0,0,0
+Image[SW]=./images/audi-a6-c5-grey_SW.0.0,-8,10
+Image[W]=./images/audi-a6-c5-grey_W.0.0,4,5
+Image[NW]=./images/audi-a6-c5-grey_NW.0.0,12,10
+Image[N]=./images/audi-a6-c5-grey_N.0.0,0,33
+Image[NE]=./images/audi-a6-c5-grey_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=AudiA6C5(Blue)
+copyright=JamesPetts
+
+DistributionWeight=15
+intro_year=1997
+intro_month=1
+retire_year=2022
+retire_month=6
+speed=225
+class=3,4
+maximum_comfortable_journey_minutes=90
+maximum_tolerable_journey_minutes=315
+
+Image[E]=./images/audi-a6-c5-blue_E.0.0,-33,14
+Image[SE]=./images/audi-a6-c5-blue_SE.0.0,-13,0
+Image[S]=./images/audi-a6-c5-blue_S.0.0,0,0
+Image[SW]=./images/audi-a6-c5-blue_SW.0.0,-8,10
+Image[W]=./images/audi-a6-c5-blue_W.0.0,4,5
+Image[NW]=./images/audi-a6-c5-blue_NW.0.0,12,10
+Image[N]=./images/audi-a6-c5-blue_N.0.0,0,33
+Image[NE]=./images/audi-a6-c5-blue_NE.0.0,0,24

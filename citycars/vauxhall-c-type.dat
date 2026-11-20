@@ -1,0 +1,126 @@
+# Vauxhall C-type Prince Henry two-seater, 1910-1915.
+#
+# The C-type and the Prince Henry are ONE car: C10 is the works chassis and
+# engine code and Prince Henry is the model name. Announced on 23 April 1910
+# and catalogued from the end of 1911, it began as a 3-litre and became the
+# 4-litre in late 1912. The open two-seater is modelled.
+# https://en.wikipedia.org/wiki/Vauxhall_C-type
+#
+# Dimensions: wheelbase 2.972 m (117 in) for 1911 and 3.048 m (120 in) for
+# 1913; length 4.039 m (159 in) or 4.115 m (162 in), depending on body.
+# Width and height were not published, being body-dependent, and are
+# estimated from the photograph.
+#
+# Shape reference: the side image is NOT a true level profile: it is about
+# 15-20 degrees off the side axis and the museum label partly covers the front
+# wheel. The flank is estimated within the published dimensions and the
+# limitation is recorded.
+#
+# Colours: grade (d); no Vauxhall colour list was found. Black, British
+# Racing Green, Maroon and Grey are period finishes. Weights 10, 9, 8, 7,
+# total 34, provisional.
+#
+# Speed 120 km/h. Comfort 25/218, on the line 180 + 1.5 x 25. Classes 3,4.
+# Dates: intro April 1910; retires staggered 1928-1932 as a road tail.
+#
+# Metres master: citycars/4.5/vauxhall-c-type.blend. Interchange:
+# citycars/4.5/vauxhall-c-type.dae. References:
+# citycars/references/vauxhall-c-type/ (gitignored).
+#
+# Accepted deviations: the width, the height, the flank behind the museum label
+# and the rear treatment are estimated. The bonnet flutes and the folded hood
+# are simplified. The bonnet is painted rather than the polished finish of
+# the surviving museum car.
+
+
+obj=citycar
+name=VauxhallCType(Black)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=1910
+intro_month=4
+retire_year=1932
+retire_month=6
+speed=120
+class=3,4
+maximum_comfortable_journey_minutes=25
+maximum_tolerable_journey_minutes=218
+
+Image[E]=./images/vauxhall-c-type-black_E.0.0,-33,14
+Image[SE]=./images/vauxhall-c-type-black_SE.0.0,-13,0
+Image[S]=./images/vauxhall-c-type-black_S.0.0,0,0
+Image[SW]=./images/vauxhall-c-type-black_SW.0.0,-8,10
+Image[W]=./images/vauxhall-c-type-black_W.0.0,4,5
+Image[NW]=./images/vauxhall-c-type-black_NW.0.0,12,10
+Image[N]=./images/vauxhall-c-type-black_N.0.0,0,33
+Image[NE]=./images/vauxhall-c-type-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallCType(BritishRacingGreen)
+copyright=JamesPetts
+
+DistributionWeight=9
+intro_year=1910
+intro_month=4
+retire_year=1931
+retire_month=6
+speed=120
+class=3,4
+maximum_comfortable_journey_minutes=25
+maximum_tolerable_journey_minutes=218
+
+Image[E]=./images/vauxhall-c-type-britishracinggreen_E.0.0,-33,14
+Image[SE]=./images/vauxhall-c-type-britishracinggreen_SE.0.0,-13,0
+Image[S]=./images/vauxhall-c-type-britishracinggreen_S.0.0,0,0
+Image[SW]=./images/vauxhall-c-type-britishracinggreen_SW.0.0,-8,10
+Image[W]=./images/vauxhall-c-type-britishracinggreen_W.0.0,4,5
+Image[NW]=./images/vauxhall-c-type-britishracinggreen_NW.0.0,12,10
+Image[N]=./images/vauxhall-c-type-britishracinggreen_N.0.0,0,33
+Image[NE]=./images/vauxhall-c-type-britishracinggreen_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallCType(Maroon)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=1910
+intro_month=4
+retire_year=1930
+retire_month=6
+speed=120
+class=3,4
+maximum_comfortable_journey_minutes=25
+maximum_tolerable_journey_minutes=218
+
+Image[E]=./images/vauxhall-c-type-maroon_E.0.0,-33,14
+Image[SE]=./images/vauxhall-c-type-maroon_SE.0.0,-13,0
+Image[S]=./images/vauxhall-c-type-maroon_S.0.0,0,0
+Image[SW]=./images/vauxhall-c-type-maroon_SW.0.0,-8,10
+Image[W]=./images/vauxhall-c-type-maroon_W.0.0,4,5
+Image[NW]=./images/vauxhall-c-type-maroon_NW.0.0,12,10
+Image[N]=./images/vauxhall-c-type-maroon_N.0.0,0,33
+Image[NE]=./images/vauxhall-c-type-maroon_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallCType(Grey)
+copyright=JamesPetts
+
+DistributionWeight=7
+intro_year=1910
+intro_month=4
+retire_year=1928
+retire_month=6
+speed=120
+class=3,4
+maximum_comfortable_journey_minutes=25
+maximum_tolerable_journey_minutes=218
+
+Image[E]=./images/vauxhall-c-type-grey_E.0.0,-33,14
+Image[SE]=./images/vauxhall-c-type-grey_SE.0.0,-13,0
+Image[S]=./images/vauxhall-c-type-grey_S.0.0,0,0
+Image[SW]=./images/vauxhall-c-type-grey_SW.0.0,-8,10
+Image[W]=./images/vauxhall-c-type-grey_W.0.0,4,5
+Image[NW]=./images/vauxhall-c-type-grey_NW.0.0,12,10
+Image[N]=./images/vauxhall-c-type-grey_N.0.0,0,33
+Image[NE]=./images/vauxhall-c-type-grey_NE.0.0,0,24

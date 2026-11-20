@@ -1,0 +1,121 @@
+# Aston Martin DB11 V8 coupe, 2016-2023.
+#
+# The DB11: the first car of the second-century Aston range, with the long
+# clamshell bonnet, the wide grille, the floating roof and the pronounced
+# rear haunches. The V8 coupe the pack photographs is modelled; the V12 and
+# the Volante are different variants or bodies.
+# https://en.wikipedia.org/wiki/Aston_Martin_DB11
+#
+# Dimensions 4.750 x 1.948 x 1.290 m, wheelbase 2.804 m.
+#
+# Shape reference: a silver DB11 V8 coupe with a black roof panel in true
+# side elevation, front three-quarter and rear three-quarter, all one car.
+#
+# Colours: grade (c), documented period cars. Silver, black, blue and British
+# Racing Green are the plain names used. Weights 3, 3, 2, 2, total 10,
+# provisional.
+#
+# Speed 301 km/h. Comfort 90/315, on the line 180 + 1.5 x 90. Classes 3,4.
+# Dates are road presence: 2016 intro, retires staggered 2042-2045.
+#
+# Metres master: citycars/4.5/aston-db11.blend. Interchange:
+# citycars/4.5/aston-db11.dae. References:
+# citycars/references/aston-db11/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the dark pillar area reads too broad, the wing vent is
+# too small, and the two thin rear lamp blades and the diffuser are
+# simplified. At 128 px the long bonnet, slatted grille and floating roof
+# read as a DB11.
+
+
+obj=citycar
+name=AstonDB11(Silver)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=2016
+intro_month=3
+retire_year=2045
+retire_month=6
+speed=301
+class=3,4
+maximum_comfortable_journey_minutes=90
+maximum_tolerable_journey_minutes=315
+
+Image[E]=./images/aston-db11-silver_E.0.0,-33,14
+Image[SE]=./images/aston-db11-silver_SE.0.0,-13,0
+Image[S]=./images/aston-db11-silver_S.0.0,0,0
+Image[SW]=./images/aston-db11-silver_SW.0.0,-8,10
+Image[W]=./images/aston-db11-silver_W.0.0,4,5
+Image[NW]=./images/aston-db11-silver_NW.0.0,12,10
+Image[N]=./images/aston-db11-silver_N.0.0,0,33
+Image[NE]=./images/aston-db11-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=AstonDB11(Black)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=2016
+intro_month=3
+retire_year=2044
+retire_month=6
+speed=301
+class=3,4
+maximum_comfortable_journey_minutes=90
+maximum_tolerable_journey_minutes=315
+
+Image[E]=./images/aston-db11-black_E.0.0,-33,14
+Image[SE]=./images/aston-db11-black_SE.0.0,-13,0
+Image[S]=./images/aston-db11-black_S.0.0,0,0
+Image[SW]=./images/aston-db11-black_SW.0.0,-8,10
+Image[W]=./images/aston-db11-black_W.0.0,4,5
+Image[NW]=./images/aston-db11-black_NW.0.0,12,10
+Image[N]=./images/aston-db11-black_N.0.0,0,33
+Image[NE]=./images/aston-db11-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=AstonDB11(Blue)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=2016
+intro_month=3
+retire_year=2043
+retire_month=6
+speed=301
+class=3,4
+maximum_comfortable_journey_minutes=90
+maximum_tolerable_journey_minutes=315
+
+Image[E]=./images/aston-db11-blue_E.0.0,-33,14
+Image[SE]=./images/aston-db11-blue_SE.0.0,-13,0
+Image[S]=./images/aston-db11-blue_S.0.0,0,0
+Image[SW]=./images/aston-db11-blue_SW.0.0,-8,10
+Image[W]=./images/aston-db11-blue_W.0.0,4,5
+Image[NW]=./images/aston-db11-blue_NW.0.0,12,10
+Image[N]=./images/aston-db11-blue_N.0.0,0,33
+Image[NE]=./images/aston-db11-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=AstonDB11(BritishRacingGreen)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=2016
+intro_month=3
+retire_year=2042
+retire_month=6
+speed=301
+class=3,4
+maximum_comfortable_journey_minutes=90
+maximum_tolerable_journey_minutes=315
+
+Image[E]=./images/aston-db11-britishracinggreen_E.0.0,-33,14
+Image[SE]=./images/aston-db11-britishracinggreen_SE.0.0,-13,0
+Image[S]=./images/aston-db11-britishracinggreen_S.0.0,0,0
+Image[SW]=./images/aston-db11-britishracinggreen_SW.0.0,-8,10
+Image[W]=./images/aston-db11-britishracinggreen_W.0.0,4,5
+Image[NW]=./images/aston-db11-britishracinggreen_NW.0.0,12,10
+Image[N]=./images/aston-db11-britishracinggreen_N.0.0,0,33
+Image[NE]=./images/aston-db11-britishracinggreen_NE.0.0,0,24

@@ -1,0 +1,131 @@
+# Nissan Sunny B11 four-door saloon, 1982-1986.
+#
+# The B11 Sunny, the generation launched in Britain in 1982 and the one in
+# which the Datsun name gave way to Nissan: the 1982 launch cars were badged
+# Datsun, Nissan marks appeared alongside them during 1983, and Datsun UK
+# became Nissan UK in February 1984. The four-door saloon is modelled; the
+# two-door saloon, the three-door coupe and the estate are not represented.
+# https://en.wikipedia.org/wiki/Nissan_Sunny
+#
+# There was no five-door hatchback B11: that role was filled by the N12
+# Cherry, which the pakset already has as nissan-cherry-n12. The N13 of 1986
+# replaced both the B11 saloon and the N12 Cherry.
+#
+# Dimensions 4.050 x 1.620 x 1.360 m, wheelbase 2.400 m (dimension drawings
+# on the specification page of the October 1983 UK brochure, which give 755 mm
+# front and 895 mm rear overhang for the two- and four-door saloons; the
+# height uses the low end of the published range because the brochure figure
+# is not legible in the scan).
+#
+# Shape reference: image 1 is a level side elevation within about 10 degrees
+# of perpendicular, on a continental-European car, so the front bumper corner
+# and part of the near headlamp face show; the flank is traced from it.
+#
+# Colours: grade (d); no UK colour page was obtained. White, Red, Blue and
+# Silver are plain names. Weights 12, 10, 9, 8, total 39, provisional.
+#
+# Speed 155 km/h. Comfort 45/248, on the line 180 + 1.5 x 45. Classes 0,1.
+# Dates: intro May 1982, European sales beginning that month; retire staggered
+# 1995-1999 as a road tail.
+#
+# Metres master: citycars/4.5/nissan-sunny-b11.blend. Interchange:
+# citycars/4.5/nissan-sunny-b11.dae. References:
+# citycars/references/nissan-sunny-b11/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the slightly oblique continental side photograph is
+# reconciled to the UK brochure dimensions. Later Nissan, Spirit and Maxima
+# badges are deliberately omitted in favour of the Datsun launch badging.
+# Window brightwork, hubcaps and lens detail are simplified.
+
+
+obj=citycar
+name=NissanSunnyB11(White)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=1982
+intro_month=5
+retire_year=1999
+retire_month=6
+speed=155
+class=0,1
+maximum_comfortable_journey_minutes=45
+maximum_tolerable_journey_minutes=248
+
+Image[E]=./images/nissan-sunny-b11-white_E.0.0,-33,14
+Image[SE]=./images/nissan-sunny-b11-white_SE.0.0,-13,0
+Image[S]=./images/nissan-sunny-b11-white_S.0.0,0,0
+Image[SW]=./images/nissan-sunny-b11-white_SW.0.0,-8,10
+Image[W]=./images/nissan-sunny-b11-white_W.0.0,4,5
+Image[NW]=./images/nissan-sunny-b11-white_NW.0.0,12,10
+Image[N]=./images/nissan-sunny-b11-white_N.0.0,0,33
+Image[NE]=./images/nissan-sunny-b11-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=NissanSunnyB11(Red)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=1982
+intro_month=5
+retire_year=1998
+retire_month=6
+speed=155
+class=0,1
+maximum_comfortable_journey_minutes=45
+maximum_tolerable_journey_minutes=248
+
+Image[E]=./images/nissan-sunny-b11-red_E.0.0,-33,14
+Image[SE]=./images/nissan-sunny-b11-red_SE.0.0,-13,0
+Image[S]=./images/nissan-sunny-b11-red_S.0.0,0,0
+Image[SW]=./images/nissan-sunny-b11-red_SW.0.0,-8,10
+Image[W]=./images/nissan-sunny-b11-red_W.0.0,4,5
+Image[NW]=./images/nissan-sunny-b11-red_NW.0.0,12,10
+Image[N]=./images/nissan-sunny-b11-red_N.0.0,0,33
+Image[NE]=./images/nissan-sunny-b11-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=NissanSunnyB11(Blue)
+copyright=JamesPetts
+
+DistributionWeight=9
+intro_year=1982
+intro_month=5
+retire_year=1997
+retire_month=6
+speed=155
+class=0,1
+maximum_comfortable_journey_minutes=45
+maximum_tolerable_journey_minutes=248
+
+Image[E]=./images/nissan-sunny-b11-blue_E.0.0,-33,14
+Image[SE]=./images/nissan-sunny-b11-blue_SE.0.0,-13,0
+Image[S]=./images/nissan-sunny-b11-blue_S.0.0,0,0
+Image[SW]=./images/nissan-sunny-b11-blue_SW.0.0,-8,10
+Image[W]=./images/nissan-sunny-b11-blue_W.0.0,4,5
+Image[NW]=./images/nissan-sunny-b11-blue_NW.0.0,12,10
+Image[N]=./images/nissan-sunny-b11-blue_N.0.0,0,33
+Image[NE]=./images/nissan-sunny-b11-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=NissanSunnyB11(Silver)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=1982
+intro_month=5
+retire_year=1995
+retire_month=6
+speed=155
+class=0,1
+maximum_comfortable_journey_minutes=45
+maximum_tolerable_journey_minutes=248
+
+Image[E]=./images/nissan-sunny-b11-silver_E.0.0,-33,14
+Image[SE]=./images/nissan-sunny-b11-silver_SE.0.0,-13,0
+Image[S]=./images/nissan-sunny-b11-silver_S.0.0,0,0
+Image[SW]=./images/nissan-sunny-b11-silver_SW.0.0,-8,10
+Image[W]=./images/nissan-sunny-b11-silver_W.0.0,4,5
+Image[NW]=./images/nissan-sunny-b11-silver_NW.0.0,12,10
+Image[N]=./images/nissan-sunny-b11-silver_N.0.0,0,33
+Image[NE]=./images/nissan-sunny-b11-silver_NE.0.0,0,24

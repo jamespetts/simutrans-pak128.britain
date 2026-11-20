@@ -1,0 +1,129 @@
+# Aston Martin DB7 V12 Vantage coupe, 1999-2003 (DB7 range 1994-2004).
+#
+# The Ian Callum DB7 coupe, built at Bloxham on a steel monocoque. This object
+# models the V12 Vantage the reference pack photographs: the 5.9-litre V12 with
+# the larger grille, the louvred bonnet and the V12 Vantage wheels. The
+# six-cylinder DB7 of 1994-99 has a different grille and bonnet and is not
+# separately represented; the DB7 Volante is a different body.
+# https://en.wikipedia.org/wiki/Aston_Martin_DB7
+#
+# Dimensions 4.646 m (4.692 for the Vantage) x 1.830 m x 1.268 m, wheelbase
+# 2.591 m.
+#
+# Shape reference: a silver V12 Vantage coupe, UK registration, in true side
+# elevation, front three-quarter and rear three-quarter. The pack is one car
+# throughout, so the three views agree.
+#
+# Colours: grade (c), from the Aston Martin Heritage Trust's factory paint
+# sample book. The 1994 launch palette was Chiltern Green, Mendip Blue,
+# Quantock Blue, Cheviot Red, Malvern Silver, Cotswold Gold, Pennine Grey and
+# Brecon Black; the four used here are Chiltern Green, Mendip Blue, Cheviot Red
+# and Malvern Silver. Weights 3, 3, 2, 2, total 10, provisional.
+#
+# Speed 265 km/h. Comfort 72/288, on the line 180 + 1.5 x 72: a 2+2 with a
+# longer cabin and a more upright screen than the Virage. Classes 3,4.
+#
+# Dates are road presence: 1994 intro (the range), retires staggered 2012-2016
+# on an eighteen- to twenty-two-year tail.
+#
+# Metres master: citycars/4.5/aston-db7.blend. Interchange:
+# citycars/4.5/aston-db7.dae. References:
+# citycars/references/aston-db7/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the side glazing is more angular than the car's, and the
+# rear lenses read as separate pieces rather than a continuous wraparound
+# cluster. The 4.692 m Vantage length is used; the six-cylinder DB7's grille and
+# bonnet are not represented. At 128 px the long bonnet, oval lamps, curved
+# roofline and wraparound tail read as a DB7.
+
+obj=citycar
+name=AstonDB7(ChilternGreen)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1994
+intro_month=9
+retire_year=2016
+retire_month=6
+speed=265
+class=3,4
+maximum_comfortable_journey_minutes=72
+maximum_tolerable_journey_minutes=288
+
+Image[E]=./images/aston-db7-chilterngreen_E.0.0,-33,14
+Image[SE]=./images/aston-db7-chilterngreen_SE.0.0,-13,0
+Image[S]=./images/aston-db7-chilterngreen_S.0.0,0,0
+Image[SW]=./images/aston-db7-chilterngreen_SW.0.0,-8,10
+Image[W]=./images/aston-db7-chilterngreen_W.0.0,4,5
+Image[NW]=./images/aston-db7-chilterngreen_NW.0.0,12,10
+Image[N]=./images/aston-db7-chilterngreen_N.0.0,0,33
+Image[NE]=./images/aston-db7-chilterngreen_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=AstonDB7(MendipBlue)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1994
+intro_month=9
+retire_year=2015
+retire_month=6
+speed=265
+class=3,4
+maximum_comfortable_journey_minutes=72
+maximum_tolerable_journey_minutes=288
+
+Image[E]=./images/aston-db7-mendipblue_E.0.0,-33,14
+Image[SE]=./images/aston-db7-mendipblue_SE.0.0,-13,0
+Image[S]=./images/aston-db7-mendipblue_S.0.0,0,0
+Image[SW]=./images/aston-db7-mendipblue_SW.0.0,-8,10
+Image[W]=./images/aston-db7-mendipblue_W.0.0,4,5
+Image[NW]=./images/aston-db7-mendipblue_NW.0.0,12,10
+Image[N]=./images/aston-db7-mendipblue_N.0.0,0,33
+Image[NE]=./images/aston-db7-mendipblue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=AstonDB7(CheviotRed)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1994
+intro_month=9
+retire_year=2014
+retire_month=6
+speed=265
+class=3,4
+maximum_comfortable_journey_minutes=72
+maximum_tolerable_journey_minutes=288
+
+Image[E]=./images/aston-db7-cheviotred_E.0.0,-33,14
+Image[SE]=./images/aston-db7-cheviotred_SE.0.0,-13,0
+Image[S]=./images/aston-db7-cheviotred_S.0.0,0,0
+Image[SW]=./images/aston-db7-cheviotred_SW.0.0,-8,10
+Image[W]=./images/aston-db7-cheviotred_W.0.0,4,5
+Image[NW]=./images/aston-db7-cheviotred_NW.0.0,12,10
+Image[N]=./images/aston-db7-cheviotred_N.0.0,0,33
+Image[NE]=./images/aston-db7-cheviotred_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=AstonDB7(MalvernSilver)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1994
+intro_month=9
+retire_year=2012
+retire_month=6
+speed=265
+class=3,4
+maximum_comfortable_journey_minutes=72
+maximum_tolerable_journey_minutes=288
+
+Image[E]=./images/aston-db7-malvernsilver_E.0.0,-33,14
+Image[SE]=./images/aston-db7-malvernsilver_SE.0.0,-13,0
+Image[S]=./images/aston-db7-malvernsilver_S.0.0,0,0
+Image[SW]=./images/aston-db7-malvernsilver_SW.0.0,-8,10
+Image[W]=./images/aston-db7-malvernsilver_W.0.0,4,5
+Image[NW]=./images/aston-db7-malvernsilver_NW.0.0,12,10
+Image[N]=./images/aston-db7-malvernsilver_N.0.0,0,33
+Image[NE]=./images/aston-db7-malvernsilver_NE.0.0,0,24

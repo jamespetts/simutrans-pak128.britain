@@ -1,0 +1,121 @@
+# Wolseley 18/85 four-door saloon, 1938-1948.
+#
+# The 2,321 cc six of the 1938 Wolseley range, on the same 2.654 m wheelbase
+# as the 14/60 and 16/65 but with the wider body. Production stopped for the
+# war and resumed in 1945.
+# https://en.wikipedia.org/wiki/Wolseley_18/85
+#
+# Dimensions 4.369 x 1.702 x 1.676 m, wheelbase 2.654 m.
+#
+# Shape reference: NO true level side profile exists. Image 1 is a front
+# three-quarter about 30 degrees off square; the flank is estimated from it
+# and the other views within the published dimensions. The limitation is
+# recorded.
+#
+# Colours: grade (d); no period chart was found. Black, grey, green and
+# maroon are plain names. Weights 15, 13, 12, 10, total 50, provisional.
+#
+# Speed 130 km/h. Comfort 60/270, on the line 180 + 1.5 x 60. Classes 3,4.
+# Dates are road presence: 1938 intro, retires staggered 1958-1961.
+#
+# Metres master: citycars/4.5/wolseley-18-85.blend. Interchange:
+# citycars/4.5/wolseley-18-85.dae. References:
+# citycars/references/wolseley-18-85/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: there is no true side or rear view, so the flank and tail
+# are estimated. The police roof sign was omitted, and the wing-to-running-board
+# transitions and rear fittings are simplified. At 128 px the wide six-light body
+# and Wolseley grille read as an 18/85.
+
+
+obj=citycar
+name=Wolseley1885(Black)
+copyright=JamesPetts
+
+DistributionWeight=15
+intro_year=1938
+intro_month=9
+retire_year=1961
+retire_month=6
+speed=130
+class=3,4
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=270
+
+Image[E]=./images/wolseley-18-85-black_E.0.0,-33,14
+Image[SE]=./images/wolseley-18-85-black_SE.0.0,-13,0
+Image[S]=./images/wolseley-18-85-black_S.0.0,0,0
+Image[SW]=./images/wolseley-18-85-black_SW.0.0,-8,10
+Image[W]=./images/wolseley-18-85-black_W.0.0,4,5
+Image[NW]=./images/wolseley-18-85-black_NW.0.0,12,10
+Image[N]=./images/wolseley-18-85-black_N.0.0,0,33
+Image[NE]=./images/wolseley-18-85-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Wolseley1885(Grey)
+copyright=JamesPetts
+
+DistributionWeight=13
+intro_year=1938
+intro_month=9
+retire_year=1960
+retire_month=6
+speed=130
+class=3,4
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=270
+
+Image[E]=./images/wolseley-18-85-grey_E.0.0,-33,14
+Image[SE]=./images/wolseley-18-85-grey_SE.0.0,-13,0
+Image[S]=./images/wolseley-18-85-grey_S.0.0,0,0
+Image[SW]=./images/wolseley-18-85-grey_SW.0.0,-8,10
+Image[W]=./images/wolseley-18-85-grey_W.0.0,4,5
+Image[NW]=./images/wolseley-18-85-grey_NW.0.0,12,10
+Image[N]=./images/wolseley-18-85-grey_N.0.0,0,33
+Image[NE]=./images/wolseley-18-85-grey_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Wolseley1885(Green)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=1938
+intro_month=9
+retire_year=1959
+retire_month=6
+speed=130
+class=3,4
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=270
+
+Image[E]=./images/wolseley-18-85-green_E.0.0,-33,14
+Image[SE]=./images/wolseley-18-85-green_SE.0.0,-13,0
+Image[S]=./images/wolseley-18-85-green_S.0.0,0,0
+Image[SW]=./images/wolseley-18-85-green_SW.0.0,-8,10
+Image[W]=./images/wolseley-18-85-green_W.0.0,4,5
+Image[NW]=./images/wolseley-18-85-green_NW.0.0,12,10
+Image[N]=./images/wolseley-18-85-green_N.0.0,0,33
+Image[NE]=./images/wolseley-18-85-green_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Wolseley1885(Maroon)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=1938
+intro_month=9
+retire_year=1958
+retire_month=6
+speed=130
+class=3,4
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=270
+
+Image[E]=./images/wolseley-18-85-maroon_E.0.0,-33,14
+Image[SE]=./images/wolseley-18-85-maroon_SE.0.0,-13,0
+Image[S]=./images/wolseley-18-85-maroon_S.0.0,0,0
+Image[SW]=./images/wolseley-18-85-maroon_SW.0.0,-8,10
+Image[W]=./images/wolseley-18-85-maroon_W.0.0,4,5
+Image[NW]=./images/wolseley-18-85-maroon_NW.0.0,12,10
+Image[N]=./images/wolseley-18-85-maroon_N.0.0,0,33
+Image[NE]=./images/wolseley-18-85-maroon_NE.0.0,0,24

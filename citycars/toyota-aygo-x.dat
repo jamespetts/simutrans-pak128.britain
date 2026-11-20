@@ -1,0 +1,123 @@
+# Toyota Aygo X five-door crossover, 2022 onwards.
+#
+# The Aygo X: the raised city-car crossover with the narrow upper grille,
+# the large lower intake, the black wheel-arch cladding and the high tail.
+# It replaced the Aygo hatch in 2022.
+# https://en.wikipedia.org/wiki/Toyota_Aygo_X
+#
+# Dimensions 3.700 x 1.740 x 1.525 m, wheelbase 2.430 m (published Aygo X
+# figures; the reference pack itself does not print a dimension table).
+#
+# Shape reference: NO level side profile exists. Image 1 is an elevated rear
+# oblique and the most side-on view found; the flank is estimated and the
+# limitation is recorded.
+#
+# Colours: grade (a), the Toyota UK Aygo X brochure of May 2022 (GBNGV-AYGOX):
+# Pure White, Silver Metallic, Eclipse Black and Juniper Blue. Weights 9, 8,
+# 7, 6, total 30, provisional.
+#
+# Speed 170 km/h. Comfort 65/280, on the line 180 + 1.5 x 65. Classes 0,1.
+# Dates are road presence: 2022 intro, retires staggered 2042-2045.
+#
+# Metres master: citycars/4.5/toyota-aygo-x.blend. Interchange:
+# citycars/4.5/toyota-aygo-x.dae. References:
+# citycars/references/toyota-aygo-x/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the flank is estimated from the oblique image, because no
+# level side elevation exists. Pre-facelift petrol body. The black roof and
+# hatch treatment are fixed, not the grade-specific two-tone layouts. Lamp
+# wraps and cladding contours are simplified, and the front lamp edges are
+# more angular than the photographs.
+
+
+obj=citycar
+name=ToyotaAygoX(PureWhite)
+copyright=JamesPetts
+
+DistributionWeight=9
+intro_year=2022
+intro_month=3
+retire_year=2045
+retire_month=6
+speed=170
+class=0,1
+maximum_comfortable_journey_minutes=65
+maximum_tolerable_journey_minutes=280
+
+Image[E]=./images/toyota-aygo-x-purewhite_E.0.0,-33,14
+Image[SE]=./images/toyota-aygo-x-purewhite_SE.0.0,-13,0
+Image[S]=./images/toyota-aygo-x-purewhite_S.0.0,0,0
+Image[SW]=./images/toyota-aygo-x-purewhite_SW.0.0,-8,10
+Image[W]=./images/toyota-aygo-x-purewhite_W.0.0,4,5
+Image[NW]=./images/toyota-aygo-x-purewhite_NW.0.0,12,10
+Image[N]=./images/toyota-aygo-x-purewhite_N.0.0,0,33
+Image[NE]=./images/toyota-aygo-x-purewhite_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=ToyotaAygoX(SilverMetallic)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=2022
+intro_month=3
+retire_year=2044
+retire_month=6
+speed=170
+class=0,1
+maximum_comfortable_journey_minutes=65
+maximum_tolerable_journey_minutes=280
+
+Image[E]=./images/toyota-aygo-x-silvermetallic_E.0.0,-33,14
+Image[SE]=./images/toyota-aygo-x-silvermetallic_SE.0.0,-13,0
+Image[S]=./images/toyota-aygo-x-silvermetallic_S.0.0,0,0
+Image[SW]=./images/toyota-aygo-x-silvermetallic_SW.0.0,-8,10
+Image[W]=./images/toyota-aygo-x-silvermetallic_W.0.0,4,5
+Image[NW]=./images/toyota-aygo-x-silvermetallic_NW.0.0,12,10
+Image[N]=./images/toyota-aygo-x-silvermetallic_N.0.0,0,33
+Image[NE]=./images/toyota-aygo-x-silvermetallic_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=ToyotaAygoX(EclipseBlack)
+copyright=JamesPetts
+
+DistributionWeight=7
+intro_year=2022
+intro_month=3
+retire_year=2043
+retire_month=6
+speed=170
+class=0,1
+maximum_comfortable_journey_minutes=65
+maximum_tolerable_journey_minutes=280
+
+Image[E]=./images/toyota-aygo-x-eclipseblack_E.0.0,-33,14
+Image[SE]=./images/toyota-aygo-x-eclipseblack_SE.0.0,-13,0
+Image[S]=./images/toyota-aygo-x-eclipseblack_S.0.0,0,0
+Image[SW]=./images/toyota-aygo-x-eclipseblack_SW.0.0,-8,10
+Image[W]=./images/toyota-aygo-x-eclipseblack_W.0.0,4,5
+Image[NW]=./images/toyota-aygo-x-eclipseblack_NW.0.0,12,10
+Image[N]=./images/toyota-aygo-x-eclipseblack_N.0.0,0,33
+Image[NE]=./images/toyota-aygo-x-eclipseblack_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=ToyotaAygoX(JuniperBlue)
+copyright=JamesPetts
+
+DistributionWeight=6
+intro_year=2022
+intro_month=3
+retire_year=2042
+retire_month=6
+speed=170
+class=0,1
+maximum_comfortable_journey_minutes=65
+maximum_tolerable_journey_minutes=280
+
+Image[E]=./images/toyota-aygo-x-juniperblue_E.0.0,-33,14
+Image[SE]=./images/toyota-aygo-x-juniperblue_SE.0.0,-13,0
+Image[S]=./images/toyota-aygo-x-juniperblue_S.0.0,0,0
+Image[SW]=./images/toyota-aygo-x-juniperblue_SW.0.0,-8,10
+Image[W]=./images/toyota-aygo-x-juniperblue_W.0.0,4,5
+Image[NW]=./images/toyota-aygo-x-juniperblue_NW.0.0,12,10
+Image[N]=./images/toyota-aygo-x-juniperblue_N.0.0,0,33
+Image[NE]=./images/toyota-aygo-x-juniperblue_NE.0.0,0,24

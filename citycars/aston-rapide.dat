@@ -1,0 +1,124 @@
+# Aston Martin Rapide four-door saloon, 2010-2020.
+#
+# The four-door Rapide: the long low fastback saloon on the VH platform,
+# built at Magna Steyr from 2010 and at Gaydon from 2012. The Rapide S of
+# 2013 is a power and trim variant on the same shell and is not separately
+# represented.
+# https://en.wikipedia.org/wiki/Aston_Martin_Rapide
+#
+# Dimensions 5.019 x 1.928 x 1.359 m, wheelbase 2.990 m.
+#
+# Shape reference: a blue Rapide on the Galpin stand in true side elevation,
+# and a black French car in front and rear three-quarter. The side view is
+# one car; the three-quarters another of the same model. The side capture is
+# tightly framed and the front wheel is partly obscured.
+#
+# Colours: grade (a) for the January 2013 Rapide S brochure, which names
+# Volcano Red, Morning Frost White and Amethyst Red; Silver Blonde is the
+# 2010 launch colour (grade c). No complete UK palette was found. Weights 3,
+# 3, 2, 2, total 10, provisional.
+#
+# Speed 296 km/h. Comfort 88/312, on the line 180 + 1.5 x 88: the only
+# four-door Aston, with a longer cabin and rear seats. Classes 3,4.
+# Dates are road presence: 2010 intro, retires staggered 2036-2039.
+#
+# Metres master: citycars/4.5/aston-rapide.blend. Interchange:
+# citycars/4.5/aston-rapide.dae. References:
+# citycars/references/aston-rapide/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the side capture is tightly framed and the rear lamp
+# outlines distort at the corners. At 128 px the long four-door fastback, low
+# roof and haunches read as a Rapide.
+
+
+obj=citycar
+name=AstonRapide(SilverBlonde)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=2010
+intro_month=5
+retire_year=2039
+retire_month=6
+speed=296
+class=3,4
+maximum_comfortable_journey_minutes=88
+maximum_tolerable_journey_minutes=312
+
+Image[E]=./images/aston-rapide-silverblonde_E.0.0,-33,14
+Image[SE]=./images/aston-rapide-silverblonde_SE.0.0,-13,0
+Image[S]=./images/aston-rapide-silverblonde_S.0.0,0,0
+Image[SW]=./images/aston-rapide-silverblonde_SW.0.0,-8,10
+Image[W]=./images/aston-rapide-silverblonde_W.0.0,4,5
+Image[NW]=./images/aston-rapide-silverblonde_NW.0.0,12,10
+Image[N]=./images/aston-rapide-silverblonde_N.0.0,0,33
+Image[NE]=./images/aston-rapide-silverblonde_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=AstonRapide(VolcanoRed)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=2010
+intro_month=5
+retire_year=2038
+retire_month=6
+speed=296
+class=3,4
+maximum_comfortable_journey_minutes=88
+maximum_tolerable_journey_minutes=312
+
+Image[E]=./images/aston-rapide-volcanored_E.0.0,-33,14
+Image[SE]=./images/aston-rapide-volcanored_SE.0.0,-13,0
+Image[S]=./images/aston-rapide-volcanored_S.0.0,0,0
+Image[SW]=./images/aston-rapide-volcanored_SW.0.0,-8,10
+Image[W]=./images/aston-rapide-volcanored_W.0.0,4,5
+Image[NW]=./images/aston-rapide-volcanored_NW.0.0,12,10
+Image[N]=./images/aston-rapide-volcanored_N.0.0,0,33
+Image[NE]=./images/aston-rapide-volcanored_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=AstonRapide(MorningFrostWhite)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=2010
+intro_month=5
+retire_year=2037
+retire_month=6
+speed=296
+class=3,4
+maximum_comfortable_journey_minutes=88
+maximum_tolerable_journey_minutes=312
+
+Image[E]=./images/aston-rapide-morningfrostwhite_E.0.0,-33,14
+Image[SE]=./images/aston-rapide-morningfrostwhite_SE.0.0,-13,0
+Image[S]=./images/aston-rapide-morningfrostwhite_S.0.0,0,0
+Image[SW]=./images/aston-rapide-morningfrostwhite_SW.0.0,-8,10
+Image[W]=./images/aston-rapide-morningfrostwhite_W.0.0,4,5
+Image[NW]=./images/aston-rapide-morningfrostwhite_NW.0.0,12,10
+Image[N]=./images/aston-rapide-morningfrostwhite_N.0.0,0,33
+Image[NE]=./images/aston-rapide-morningfrostwhite_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=AstonRapide(AmethystRed)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=2010
+intro_month=5
+retire_year=2036
+retire_month=6
+speed=296
+class=3,4
+maximum_comfortable_journey_minutes=88
+maximum_tolerable_journey_minutes=312
+
+Image[E]=./images/aston-rapide-amethystred_E.0.0,-33,14
+Image[SE]=./images/aston-rapide-amethystred_SE.0.0,-13,0
+Image[S]=./images/aston-rapide-amethystred_S.0.0,0,0
+Image[SW]=./images/aston-rapide-amethystred_SW.0.0,-8,10
+Image[W]=./images/aston-rapide-amethystred_W.0.0,4,5
+Image[NW]=./images/aston-rapide-amethystred_NW.0.0,12,10
+Image[N]=./images/aston-rapide-amethystred_N.0.0,0,33
+Image[NE]=./images/aston-rapide-amethystred_NE.0.0,0,24

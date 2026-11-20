@@ -1,0 +1,120 @@
+# Fiat Panda second generation five-door, 2003-2012 (UK 2004-2012).
+#
+# The type 169 Panda: the taller, rounder city car with the high seating
+# position, the five-door body and the simple oval grille. UK sales from
+# January 2004. The 4x4 and 100HP are variants on the same shell and are not
+# separately represented.
+# https://en.wikipedia.org/wiki/Fiat_Panda
+#
+# Dimensions 3.538 x 1.578 x 1.578 m, wheelbase 2.299 m (front-drive car).
+#
+# Shape reference: image 1 is a true side elevation; images 2-3 are a UK
+# launch-year Panda Active in front and rear three-quarter views.
+#
+# Colours: grade (d); no UK chart was found. White, blue, red and grey are
+# plain names. Weights 12, 10, 10, 8, total 40, provisional.
+#
+# Speed 150 km/h. Comfort 60/270, on the line 180 + 1.5 x 60: a tall, roomy
+# city cabin. Classes 0,1.
+# Dates are road presence: 2004 intro, retires staggered 2020-2023.
+#
+# Metres master: citycars/4.5/fiat-panda-2.blend. Interchange:
+# citycars/4.5/fiat-panda-2.dae. References:
+# citycars/references/fiat-panda-2/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the bumper and hatch corners are more angular than the
+# photographs. At 128 px the tall rounded body, high roof and near-vertical
+# hatch read as a type 169 Panda.
+
+
+obj=citycar
+name=FiatPanda2(White)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=2004
+intro_month=1
+retire_year=2023
+retire_month=6
+speed=150
+class=0,1
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=270
+
+Image[E]=./images/fiat-panda-2-white_E.0.0,-33,14
+Image[SE]=./images/fiat-panda-2-white_SE.0.0,-13,0
+Image[S]=./images/fiat-panda-2-white_S.0.0,0,0
+Image[SW]=./images/fiat-panda-2-white_SW.0.0,-8,10
+Image[W]=./images/fiat-panda-2-white_W.0.0,4,5
+Image[NW]=./images/fiat-panda-2-white_NW.0.0,12,10
+Image[N]=./images/fiat-panda-2-white_N.0.0,0,33
+Image[NE]=./images/fiat-panda-2-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FiatPanda2(Blue)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=2004
+intro_month=1
+retire_year=2022
+retire_month=6
+speed=150
+class=0,1
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=270
+
+Image[E]=./images/fiat-panda-2-blue_E.0.0,-33,14
+Image[SE]=./images/fiat-panda-2-blue_SE.0.0,-13,0
+Image[S]=./images/fiat-panda-2-blue_S.0.0,0,0
+Image[SW]=./images/fiat-panda-2-blue_SW.0.0,-8,10
+Image[W]=./images/fiat-panda-2-blue_W.0.0,4,5
+Image[NW]=./images/fiat-panda-2-blue_NW.0.0,12,10
+Image[N]=./images/fiat-panda-2-blue_N.0.0,0,33
+Image[NE]=./images/fiat-panda-2-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FiatPanda2(Red)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=2004
+intro_month=1
+retire_year=2021
+retire_month=6
+speed=150
+class=0,1
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=270
+
+Image[E]=./images/fiat-panda-2-red_E.0.0,-33,14
+Image[SE]=./images/fiat-panda-2-red_SE.0.0,-13,0
+Image[S]=./images/fiat-panda-2-red_S.0.0,0,0
+Image[SW]=./images/fiat-panda-2-red_SW.0.0,-8,10
+Image[W]=./images/fiat-panda-2-red_W.0.0,4,5
+Image[NW]=./images/fiat-panda-2-red_NW.0.0,12,10
+Image[N]=./images/fiat-panda-2-red_N.0.0,0,33
+Image[NE]=./images/fiat-panda-2-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FiatPanda2(Grey)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=2004
+intro_month=1
+retire_year=2020
+retire_month=6
+speed=150
+class=0,1
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=270
+
+Image[E]=./images/fiat-panda-2-grey_E.0.0,-33,14
+Image[SE]=./images/fiat-panda-2-grey_SE.0.0,-13,0
+Image[S]=./images/fiat-panda-2-grey_S.0.0,0,0
+Image[SW]=./images/fiat-panda-2-grey_SW.0.0,-8,10
+Image[W]=./images/fiat-panda-2-grey_W.0.0,4,5
+Image[NW]=./images/fiat-panda-2-grey_NW.0.0,12,10
+Image[N]=./images/fiat-panda-2-grey_N.0.0,0,33
+Image[NE]=./images/fiat-panda-2-grey_NE.0.0,0,24

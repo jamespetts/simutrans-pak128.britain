@@ -1,0 +1,125 @@
+# Aston Martin DBS V12 coupe, 2007-2012.
+#
+# The DBS V12: the DB9-based carbon-fibre-bodied flagship with the deeper
+# front splitter, the twin vented bonnet, the flared arches, the deeper sills
+# and the pronounced rear diffuser. The coupe is modelled; the Volante is a
+# different body.
+# https://en.wikipedia.org/wiki/Aston_Martin_DBS_V12
+#
+# Dimensions 4.721 x 1.905 m excluding mirrors (2.060 including) x 1.280 m,
+# wheelbase 2.740 m. 1.905 m is used, the mirror width excluded.
+#
+# Shape reference: a DBS V12 coupe in true side elevation, front three-quarter
+# and rear three-quarter. The plate 0008 DBS is legible in the front and rear
+# views, so the pack is one car. The photographs are monochrome and establish
+# shape only, not paint.
+#
+# Colours: grade (c). Lightning Silver is the 2007 launch colour; Azurite
+# Black (2010 UB-2010), Flame Orange and Ceramic Grey (2011-12 Carbon
+# Edition) are named special editions. No full UK chart was found. Weights 3,
+# 3, 2, 2, total 10, provisional.
+#
+# Speed 307 km/h. Comfort 82/303, on the line 180 + 1.5 x 82. Classes 3,4.
+# Dates are road presence: 2007 intro, retires staggered 2035-2038.
+#
+# Metres master: citycars/4.5/aston-dbs-v12.blend. Interchange:
+# citycars/4.5/aston-dbs-v12.dae. References:
+# citycars/references/aston-dbs-v12/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the rear lens outlines and diffuser shape need
+# refinement, and the monochrome photographs do not establish paint. At
+# 128 px the low stance, deep sills, vented bonnet and splitter read as a
+# DBS V12.
+
+
+obj=citycar
+name=AstonDBSV12(LightningSilver)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=2007
+intro_month=8
+retire_year=2038
+retire_month=6
+speed=307
+class=3,4
+maximum_comfortable_journey_minutes=82
+maximum_tolerable_journey_minutes=303
+
+Image[E]=./images/aston-dbs-v12-lightningsilver_E.0.0,-33,14
+Image[SE]=./images/aston-dbs-v12-lightningsilver_SE.0.0,-13,0
+Image[S]=./images/aston-dbs-v12-lightningsilver_S.0.0,0,0
+Image[SW]=./images/aston-dbs-v12-lightningsilver_SW.0.0,-8,10
+Image[W]=./images/aston-dbs-v12-lightningsilver_W.0.0,4,5
+Image[NW]=./images/aston-dbs-v12-lightningsilver_NW.0.0,12,10
+Image[N]=./images/aston-dbs-v12-lightningsilver_N.0.0,0,33
+Image[NE]=./images/aston-dbs-v12-lightningsilver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=AstonDBSV12(AzuriteBlack)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=2007
+intro_month=8
+retire_year=2037
+retire_month=6
+speed=307
+class=3,4
+maximum_comfortable_journey_minutes=82
+maximum_tolerable_journey_minutes=303
+
+Image[E]=./images/aston-dbs-v12-azuriteblack_E.0.0,-33,14
+Image[SE]=./images/aston-dbs-v12-azuriteblack_SE.0.0,-13,0
+Image[S]=./images/aston-dbs-v12-azuriteblack_S.0.0,0,0
+Image[SW]=./images/aston-dbs-v12-azuriteblack_SW.0.0,-8,10
+Image[W]=./images/aston-dbs-v12-azuriteblack_W.0.0,4,5
+Image[NW]=./images/aston-dbs-v12-azuriteblack_NW.0.0,12,10
+Image[N]=./images/aston-dbs-v12-azuriteblack_N.0.0,0,33
+Image[NE]=./images/aston-dbs-v12-azuriteblack_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=AstonDBSV12(FlameOrange)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=2007
+intro_month=8
+retire_year=2036
+retire_month=6
+speed=307
+class=3,4
+maximum_comfortable_journey_minutes=82
+maximum_tolerable_journey_minutes=303
+
+Image[E]=./images/aston-dbs-v12-flameorange_E.0.0,-33,14
+Image[SE]=./images/aston-dbs-v12-flameorange_SE.0.0,-13,0
+Image[S]=./images/aston-dbs-v12-flameorange_S.0.0,0,0
+Image[SW]=./images/aston-dbs-v12-flameorange_SW.0.0,-8,10
+Image[W]=./images/aston-dbs-v12-flameorange_W.0.0,4,5
+Image[NW]=./images/aston-dbs-v12-flameorange_NW.0.0,12,10
+Image[N]=./images/aston-dbs-v12-flameorange_N.0.0,0,33
+Image[NE]=./images/aston-dbs-v12-flameorange_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=AstonDBSV12(CeramicGrey)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=2007
+intro_month=8
+retire_year=2035
+retire_month=6
+speed=307
+class=3,4
+maximum_comfortable_journey_minutes=82
+maximum_tolerable_journey_minutes=303
+
+Image[E]=./images/aston-dbs-v12-ceramicgrey_E.0.0,-33,14
+Image[SE]=./images/aston-dbs-v12-ceramicgrey_SE.0.0,-13,0
+Image[S]=./images/aston-dbs-v12-ceramicgrey_S.0.0,0,0
+Image[SW]=./images/aston-dbs-v12-ceramicgrey_SW.0.0,-8,10
+Image[W]=./images/aston-dbs-v12-ceramicgrey_W.0.0,4,5
+Image[NW]=./images/aston-dbs-v12-ceramicgrey_NW.0.0,12,10
+Image[N]=./images/aston-dbs-v12-ceramicgrey_N.0.0,0,33
+Image[NE]=./images/aston-dbs-v12-ceramicgrey_NE.0.0,0,24

@@ -1,0 +1,125 @@
+# Ford Consul Mk II four-door saloon, 1956-1962.
+#
+# The four-cylinder member of the 1956 'Three Graces' range, shorter in the
+# bonnet than the Zephyr and Zodiac on the same 104 in wheelbase. 371,585
+# fixed-roof cars and 9,398 convertibles built; renamed Consul 375 in 1961.
+# https://en.wikipedia.org/wiki/Ford_Consul
+#
+# Dimensions 4.369 x 1.753 x 1.524 m, wheelbase 2.642 m.
+#
+# Shape reference: no true level side elevation exists on Commons. Image 1 is
+# a high rear three-quarter of a 1956 Highline car, about 25-30 degrees of
+# square, and is NOT used as an elevation. The flank comes from that view and
+# the front three-quarter, within the published dimensions; the limitation is
+# recorded.
+#
+# Colours: grade (d) for a model-specific list. Grade (c) only for the later
+# 1959-62 corporate palette. Savoy Black, Ermine White, Ambassador Blue and
+# Goodwood Green are used, with the inference recorded. Weights 18, 16, 14,
+# 12, total 60, provisional.
+#
+# Speed 135 km/h. Comfort 55/265, on the line 180 + 1.5 x 55: more room than
+# the Mk I and a higher roofline. Classes 1,2.
+# Dates are road presence: 1956 intro, retires staggered 1978-1981.
+#
+# Metres master: citycars/4.5/ford-consul-mk2.blend. Interchange:
+# citycars/4.5/ford-consul-mk2.dae. References:
+# citycars/references/ford-consul-mk2/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: there is no true side elevation, so the flank is
+# estimated from the high rear quarter. The rear window wrap and the lamp
+# housings are simplified. At 128 px the high-roofed three-box body, broad grille
+# and round lamps read as a Consul Mk II.
+
+
+obj=citycar
+name=FordConsulMk2(SavoyBlack)
+copyright=JamesPetts
+
+DistributionWeight=18
+intro_year=1956
+intro_month=4
+retire_year=1981
+retire_month=6
+speed=135
+class=1,2
+maximum_comfortable_journey_minutes=55
+maximum_tolerable_journey_minutes=265
+
+Image[E]=./images/ford-consul-mk2-savoyblack_E.0.0,-33,14
+Image[SE]=./images/ford-consul-mk2-savoyblack_SE.0.0,-13,0
+Image[S]=./images/ford-consul-mk2-savoyblack_S.0.0,0,0
+Image[SW]=./images/ford-consul-mk2-savoyblack_SW.0.0,-8,10
+Image[W]=./images/ford-consul-mk2-savoyblack_W.0.0,4,5
+Image[NW]=./images/ford-consul-mk2-savoyblack_NW.0.0,12,10
+Image[N]=./images/ford-consul-mk2-savoyblack_N.0.0,0,33
+Image[NE]=./images/ford-consul-mk2-savoyblack_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FordConsulMk2(ErmineWhite)
+copyright=JamesPetts
+
+DistributionWeight=16
+intro_year=1956
+intro_month=4
+retire_year=1980
+retire_month=6
+speed=135
+class=1,2
+maximum_comfortable_journey_minutes=55
+maximum_tolerable_journey_minutes=265
+
+Image[E]=./images/ford-consul-mk2-erminewhite_E.0.0,-33,14
+Image[SE]=./images/ford-consul-mk2-erminewhite_SE.0.0,-13,0
+Image[S]=./images/ford-consul-mk2-erminewhite_S.0.0,0,0
+Image[SW]=./images/ford-consul-mk2-erminewhite_SW.0.0,-8,10
+Image[W]=./images/ford-consul-mk2-erminewhite_W.0.0,4,5
+Image[NW]=./images/ford-consul-mk2-erminewhite_NW.0.0,12,10
+Image[N]=./images/ford-consul-mk2-erminewhite_N.0.0,0,33
+Image[NE]=./images/ford-consul-mk2-erminewhite_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FordConsulMk2(AmbassadorBlue)
+copyright=JamesPetts
+
+DistributionWeight=14
+intro_year=1956
+intro_month=4
+retire_year=1979
+retire_month=6
+speed=135
+class=1,2
+maximum_comfortable_journey_minutes=55
+maximum_tolerable_journey_minutes=265
+
+Image[E]=./images/ford-consul-mk2-ambassadorblue_E.0.0,-33,14
+Image[SE]=./images/ford-consul-mk2-ambassadorblue_SE.0.0,-13,0
+Image[S]=./images/ford-consul-mk2-ambassadorblue_S.0.0,0,0
+Image[SW]=./images/ford-consul-mk2-ambassadorblue_SW.0.0,-8,10
+Image[W]=./images/ford-consul-mk2-ambassadorblue_W.0.0,4,5
+Image[NW]=./images/ford-consul-mk2-ambassadorblue_NW.0.0,12,10
+Image[N]=./images/ford-consul-mk2-ambassadorblue_N.0.0,0,33
+Image[NE]=./images/ford-consul-mk2-ambassadorblue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FordConsulMk2(GoodwoodGreen)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=1956
+intro_month=4
+retire_year=1978
+retire_month=6
+speed=135
+class=1,2
+maximum_comfortable_journey_minutes=55
+maximum_tolerable_journey_minutes=265
+
+Image[E]=./images/ford-consul-mk2-goodwoodgreen_E.0.0,-33,14
+Image[SE]=./images/ford-consul-mk2-goodwoodgreen_SE.0.0,-13,0
+Image[S]=./images/ford-consul-mk2-goodwoodgreen_S.0.0,0,0
+Image[SW]=./images/ford-consul-mk2-goodwoodgreen_SW.0.0,-8,10
+Image[W]=./images/ford-consul-mk2-goodwoodgreen_W.0.0,4,5
+Image[NW]=./images/ford-consul-mk2-goodwoodgreen_NW.0.0,12,10
+Image[N]=./images/ford-consul-mk2-goodwoodgreen_N.0.0,0,33
+Image[NE]=./images/ford-consul-mk2-goodwoodgreen_NE.0.0,0,24

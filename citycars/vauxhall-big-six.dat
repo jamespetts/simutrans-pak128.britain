@@ -1,0 +1,125 @@
+# Vauxhall Big Six saloon, 1934-1940.
+#
+# The Big Six: the BX 2,393 cc and BY 3,180 cc sixes, with the BXL long
+# wheelbase, and the GY/GL "Twenty Five" of 3,215 cc from 1937. The standard
+# saloon on the 111 in chassis is modelled; the long-wheelbase BXL, the
+# Hurlingham and Rye coupes, the Newmarket seven-seater and the Grosvenor
+# limousine are not represented.
+# https://en.wikipedia.org/wiki/Vauxhall_Big_Six
+#
+# Dimensions: wheelbase 111 in (2.819 m) or 130 in (3.302 m) for the BXL;
+# length 170 in (4.318 m) or 184 in (4.674 m). The short chassis is modelled.
+# Width and height were not established from a source.
+#
+# Shape reference: NO true level profile exists. Image 1 is about 30 degrees
+# off the side and is the long-wheelbase BXL limousine, not the standard
+# saloon, so the flank is estimated and the body mismatch is recorded.
+#
+# Colours: grade (d); no Vauxhall colour list was found. Black, Maroon, Cream
+# and Dark Blue are observed colours. Weights 14, 10, 8, 8, total 40,
+# provisional.
+#
+# Speed 120 km/h. Comfort 40/240, on the line 180 + 1.5 x 40. Classes 2,3.
+# Dates: intro January 1934; retires staggered 1952-1955 as a road tail.
+#
+# Metres master: citycars/4.5/vauxhall-big-six.blend. Interchange:
+# citycars/4.5/vauxhall-big-six.dae. References:
+# citycars/references/vauxhall-big-six/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the short-chassis BX/BY five-seat saloon is modelled,
+# not the BXL limousine, the Holden sedan or the later GY/GL. The rear glazing
+# and fittings are approximate because no direct standard-saloon rear
+# photograph exists.
+
+
+obj=citycar
+name=VauxhallBigSix(Black)
+copyright=JamesPetts
+
+DistributionWeight=14
+intro_year=1934
+intro_month=1
+retire_year=1955
+retire_month=6
+speed=120
+class=2,3
+maximum_comfortable_journey_minutes=40
+maximum_tolerable_journey_minutes=240
+
+Image[E]=./images/vauxhall-big-six-black_E.0.0,-33,14
+Image[SE]=./images/vauxhall-big-six-black_SE.0.0,-13,0
+Image[S]=./images/vauxhall-big-six-black_S.0.0,0,0
+Image[SW]=./images/vauxhall-big-six-black_SW.0.0,-8,10
+Image[W]=./images/vauxhall-big-six-black_W.0.0,4,5
+Image[NW]=./images/vauxhall-big-six-black_NW.0.0,12,10
+Image[N]=./images/vauxhall-big-six-black_N.0.0,0,33
+Image[NE]=./images/vauxhall-big-six-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallBigSix(Maroon)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=1934
+intro_month=1
+retire_year=1954
+retire_month=6
+speed=120
+class=2,3
+maximum_comfortable_journey_minutes=40
+maximum_tolerable_journey_minutes=240
+
+Image[E]=./images/vauxhall-big-six-maroon_E.0.0,-33,14
+Image[SE]=./images/vauxhall-big-six-maroon_SE.0.0,-13,0
+Image[S]=./images/vauxhall-big-six-maroon_S.0.0,0,0
+Image[SW]=./images/vauxhall-big-six-maroon_SW.0.0,-8,10
+Image[W]=./images/vauxhall-big-six-maroon_W.0.0,4,5
+Image[NW]=./images/vauxhall-big-six-maroon_NW.0.0,12,10
+Image[N]=./images/vauxhall-big-six-maroon_N.0.0,0,33
+Image[NE]=./images/vauxhall-big-six-maroon_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallBigSix(Cream)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=1934
+intro_month=1
+retire_year=1953
+retire_month=6
+speed=120
+class=2,3
+maximum_comfortable_journey_minutes=40
+maximum_tolerable_journey_minutes=240
+
+Image[E]=./images/vauxhall-big-six-cream_E.0.0,-33,14
+Image[SE]=./images/vauxhall-big-six-cream_SE.0.0,-13,0
+Image[S]=./images/vauxhall-big-six-cream_S.0.0,0,0
+Image[SW]=./images/vauxhall-big-six-cream_SW.0.0,-8,10
+Image[W]=./images/vauxhall-big-six-cream_W.0.0,4,5
+Image[NW]=./images/vauxhall-big-six-cream_NW.0.0,12,10
+Image[N]=./images/vauxhall-big-six-cream_N.0.0,0,33
+Image[NE]=./images/vauxhall-big-six-cream_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallBigSix(DarkBlue)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=1934
+intro_month=1
+retire_year=1952
+retire_month=6
+speed=120
+class=2,3
+maximum_comfortable_journey_minutes=40
+maximum_tolerable_journey_minutes=240
+
+Image[E]=./images/vauxhall-big-six-darkblue_E.0.0,-33,14
+Image[SE]=./images/vauxhall-big-six-darkblue_SE.0.0,-13,0
+Image[S]=./images/vauxhall-big-six-darkblue_S.0.0,0,0
+Image[SW]=./images/vauxhall-big-six-darkblue_SW.0.0,-8,10
+Image[W]=./images/vauxhall-big-six-darkblue_W.0.0,4,5
+Image[NW]=./images/vauxhall-big-six-darkblue_NW.0.0,12,10
+Image[N]=./images/vauxhall-big-six-darkblue_N.0.0,0,33
+Image[NE]=./images/vauxhall-big-six-darkblue_NE.0.0,0,24

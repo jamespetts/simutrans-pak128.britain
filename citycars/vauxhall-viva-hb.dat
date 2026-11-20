@@ -1,0 +1,120 @@
+# Vauxhall Viva HB two-door saloon, 1966-1970.
+#
+# The HB Viva: the longer, wider replacement for the HA, with the 1,159 cc
+# and 1,975 cc engines and the coke-bottle styling, sold from September 1966.
+# The two-door saloon is modelled; the four-door, the estate and the GT are
+# not separately represented.
+# https://en.wikipedia.org/wiki/Vauxhall_Viva
+#
+# Dimensions 4.105 x 1.600 x 1.354 m, wheelbase 2.432 m.
+#
+# Shape reference: image 1 is near-level, about 8-10 degrees forward, so the
+# flank is a close estimate and the limitation is recorded.
+#
+# Colours: grade (d); no Vauxhall colour list was read. White, Red, Blue and
+# Green are plain names. Weights 12, 10, 9, 8, total 39, provisional.
+#
+# Speed 145 km/h. Comfort 50/255, on the line 180 + 1.5 x 50. Classes 0,1.
+# Dates: intro September 1966; retires staggered 1979-1982 as a road tail.
+#
+# Metres master: citycars/4.5/vauxhall-viva-hb.blend. Interchange:
+# citycars/4.5/vauxhall-viva-hb.dae. References:
+# citycars/references/vauxhall-viva-hb/ (gitignored).
+#
+# Accepted deviations: the two-door saloon is modelled with the rectangular
+# headlamps of the front reference; the four-door body photographed there is
+# not copied, only its nose. The near-side trace is perspective-corrected
+# approximately.
+
+
+obj=citycar
+name=VauxhallVivaHB(White)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=1966
+intro_month=9
+retire_year=1982
+retire_month=6
+speed=145
+class=0,1
+maximum_comfortable_journey_minutes=50
+maximum_tolerable_journey_minutes=255
+
+Image[E]=./images/vauxhall-viva-hb-white_E.0.0,-33,14
+Image[SE]=./images/vauxhall-viva-hb-white_SE.0.0,-13,0
+Image[S]=./images/vauxhall-viva-hb-white_S.0.0,0,0
+Image[SW]=./images/vauxhall-viva-hb-white_SW.0.0,-8,10
+Image[W]=./images/vauxhall-viva-hb-white_W.0.0,4,5
+Image[NW]=./images/vauxhall-viva-hb-white_NW.0.0,12,10
+Image[N]=./images/vauxhall-viva-hb-white_N.0.0,0,33
+Image[NE]=./images/vauxhall-viva-hb-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallVivaHB(Red)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=1966
+intro_month=9
+retire_year=1981
+retire_month=6
+speed=145
+class=0,1
+maximum_comfortable_journey_minutes=50
+maximum_tolerable_journey_minutes=255
+
+Image[E]=./images/vauxhall-viva-hb-red_E.0.0,-33,14
+Image[SE]=./images/vauxhall-viva-hb-red_SE.0.0,-13,0
+Image[S]=./images/vauxhall-viva-hb-red_S.0.0,0,0
+Image[SW]=./images/vauxhall-viva-hb-red_SW.0.0,-8,10
+Image[W]=./images/vauxhall-viva-hb-red_W.0.0,4,5
+Image[NW]=./images/vauxhall-viva-hb-red_NW.0.0,12,10
+Image[N]=./images/vauxhall-viva-hb-red_N.0.0,0,33
+Image[NE]=./images/vauxhall-viva-hb-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallVivaHB(Blue)
+copyright=JamesPetts
+
+DistributionWeight=9
+intro_year=1966
+intro_month=9
+retire_year=1980
+retire_month=6
+speed=145
+class=0,1
+maximum_comfortable_journey_minutes=50
+maximum_tolerable_journey_minutes=255
+
+Image[E]=./images/vauxhall-viva-hb-blue_E.0.0,-33,14
+Image[SE]=./images/vauxhall-viva-hb-blue_SE.0.0,-13,0
+Image[S]=./images/vauxhall-viva-hb-blue_S.0.0,0,0
+Image[SW]=./images/vauxhall-viva-hb-blue_SW.0.0,-8,10
+Image[W]=./images/vauxhall-viva-hb-blue_W.0.0,4,5
+Image[NW]=./images/vauxhall-viva-hb-blue_NW.0.0,12,10
+Image[N]=./images/vauxhall-viva-hb-blue_N.0.0,0,33
+Image[NE]=./images/vauxhall-viva-hb-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallVivaHB(Green)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=1966
+intro_month=9
+retire_year=1979
+retire_month=6
+speed=145
+class=0,1
+maximum_comfortable_journey_minutes=50
+maximum_tolerable_journey_minutes=255
+
+Image[E]=./images/vauxhall-viva-hb-green_E.0.0,-33,14
+Image[SE]=./images/vauxhall-viva-hb-green_SE.0.0,-13,0
+Image[S]=./images/vauxhall-viva-hb-green_S.0.0,0,0
+Image[SW]=./images/vauxhall-viva-hb-green_SW.0.0,-8,10
+Image[W]=./images/vauxhall-viva-hb-green_W.0.0,4,5
+Image[NW]=./images/vauxhall-viva-hb-green_NW.0.0,12,10
+Image[N]=./images/vauxhall-viva-hb-green_N.0.0,0,33
+Image[NE]=./images/vauxhall-viva-hb-green_NE.0.0,0,24

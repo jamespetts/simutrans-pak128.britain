@@ -1,0 +1,122 @@
+# Vauxhall Zafira B seven-seat MPV, 2005-2014.
+#
+# The second Zafira: the larger, more rounded body with the same Flex7
+# seating, sold from 23 July 2005. It was not withdrawn in 2011 but stayed on
+# sale alongside the Zafira Tourer until 2014.
+# https://en.wikipedia.org/wiki/Opel_Zafira
+#
+# Dimensions 4.467 x 1.781 x 1.635 m, wheelbase 2.703 m (Vauxhall Zafira
+# brochure, December 2007, 2008 Models Edition 2, dimension drawing).
+#
+# Shape reference: image 1 is a true level side elevation; the flank is
+# traced from it.
+#
+# Colours: grade (a), the Vauxhall Zafira October 2007 brochure for model
+# year 2008: Royal Blue and Flame Red solid; Star Silver, Silver Lightning,
+# Moonland and Metro Blue metallic; Peacock, Panacotta, Ultra Blue, Black
+# Sapphire and Steel Blue pearlescent. Weights 12, 10, 9, 8, total 39,
+# provisional.
+# Speed 200 km/h. Comfort 75/292, on the line 180 + 1.5 x 75. Classes 1,2.
+# Dates: intro July 2005; retires staggered 2014-2017 as a road tail.
+#
+# Metres master: citycars/4.5/vauxhall-zafira-b.blend. Interchange:
+# citycars/4.5/vauxhall-zafira-b.dae. References:
+# citycars/references/vauxhall-zafira-b/ (gitignored).
+#
+# Accepted deviations: the pre-facelift exterior represents the range. The
+# Flex7 seating is not modelled behind the opaque glazing; the mirror
+# projection, lamp internals and hatch recess are simplified, and the rear
+# glass has a more angular lower edge than the photographs.
+
+
+obj=citycar
+name=VauxhallZafiraB(RoyalBlue)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=2005
+intro_month=7
+retire_year=2017
+retire_month=6
+speed=200
+class=1,2
+maximum_comfortable_journey_minutes=75
+maximum_tolerable_journey_minutes=292
+
+Image[E]=./images/vauxhall-zafira-b-royalblue_E.0.0,-33,14
+Image[SE]=./images/vauxhall-zafira-b-royalblue_SE.0.0,-13,0
+Image[S]=./images/vauxhall-zafira-b-royalblue_S.0.0,0,0
+Image[SW]=./images/vauxhall-zafira-b-royalblue_SW.0.0,-8,10
+Image[W]=./images/vauxhall-zafira-b-royalblue_W.0.0,4,5
+Image[NW]=./images/vauxhall-zafira-b-royalblue_NW.0.0,12,10
+Image[N]=./images/vauxhall-zafira-b-royalblue_N.0.0,0,33
+Image[NE]=./images/vauxhall-zafira-b-royalblue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallZafiraB(FlameRed)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=2005
+intro_month=7
+retire_year=2016
+retire_month=6
+speed=200
+class=1,2
+maximum_comfortable_journey_minutes=75
+maximum_tolerable_journey_minutes=292
+
+Image[E]=./images/vauxhall-zafira-b-flamered_E.0.0,-33,14
+Image[SE]=./images/vauxhall-zafira-b-flamered_SE.0.0,-13,0
+Image[S]=./images/vauxhall-zafira-b-flamered_S.0.0,0,0
+Image[SW]=./images/vauxhall-zafira-b-flamered_SW.0.0,-8,10
+Image[W]=./images/vauxhall-zafira-b-flamered_W.0.0,4,5
+Image[NW]=./images/vauxhall-zafira-b-flamered_NW.0.0,12,10
+Image[N]=./images/vauxhall-zafira-b-flamered_N.0.0,0,33
+Image[NE]=./images/vauxhall-zafira-b-flamered_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallZafiraB(StarSilver)
+copyright=JamesPetts
+
+DistributionWeight=9
+intro_year=2005
+intro_month=7
+retire_year=2015
+retire_month=6
+speed=200
+class=1,2
+maximum_comfortable_journey_minutes=75
+maximum_tolerable_journey_minutes=292
+
+Image[E]=./images/vauxhall-zafira-b-starsilver_E.0.0,-33,14
+Image[SE]=./images/vauxhall-zafira-b-starsilver_SE.0.0,-13,0
+Image[S]=./images/vauxhall-zafira-b-starsilver_S.0.0,0,0
+Image[SW]=./images/vauxhall-zafira-b-starsilver_SW.0.0,-8,10
+Image[W]=./images/vauxhall-zafira-b-starsilver_W.0.0,4,5
+Image[NW]=./images/vauxhall-zafira-b-starsilver_NW.0.0,12,10
+Image[N]=./images/vauxhall-zafira-b-starsilver_N.0.0,0,33
+Image[NE]=./images/vauxhall-zafira-b-starsilver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallZafiraB(BlackSapphire)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=2005
+intro_month=7
+retire_year=2014
+retire_month=6
+speed=200
+class=1,2
+maximum_comfortable_journey_minutes=75
+maximum_tolerable_journey_minutes=292
+
+Image[E]=./images/vauxhall-zafira-b-blacksapphire_E.0.0,-33,14
+Image[SE]=./images/vauxhall-zafira-b-blacksapphire_SE.0.0,-13,0
+Image[S]=./images/vauxhall-zafira-b-blacksapphire_S.0.0,0,0
+Image[SW]=./images/vauxhall-zafira-b-blacksapphire_SW.0.0,-8,10
+Image[W]=./images/vauxhall-zafira-b-blacksapphire_W.0.0,4,5
+Image[NW]=./images/vauxhall-zafira-b-blacksapphire_NW.0.0,12,10
+Image[N]=./images/vauxhall-zafira-b-blacksapphire_N.0.0,0,33
+Image[NE]=./images/vauxhall-zafira-b-blacksapphire_NE.0.0,0,24

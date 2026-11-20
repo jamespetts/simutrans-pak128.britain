@@ -1,0 +1,122 @@
+# Vauxhall Carlton Mk2 saloon, 1986-1994.
+#
+# The second Carlton: the front-wheel-drive car on the Omega platform
+# shared with Opel, sold from November 1986 and the basis of the Lotus
+# Carlton. The name was dropped early in 1994 and the car became the Omega,
+# so there is no Carlton Mk3. The saloon is modelled; the estate is not
+# separately represented.
+# https://en.wikipedia.org/wiki/Vauxhall_Carlton
+#
+# Dimensions 4.687 x 1.772 x 1.445 m, wheelbase 2.730 m.
+#
+# Shape reference: image 1 is a TRUE level side elevation, but of an ESTATE,
+# with the front bumper clipped at the frame edge; the saloon rear is taken
+# from the other views and the body difference is recorded.
+#
+# Colours: grade (d); no Vauxhall colour list was read. White, Red, Blue and
+# Silver are plain names. Weights 12, 10, 9, 8, total 39, provisional.
+#
+# Speed 190 km/h. Comfort 75/292, on the line 180 + 1.5 x 75. Classes 2,3.
+# Dates: intro November 1986; retires staggered 2000-2003 as a road tail.
+#
+# Metres master: citycars/4.5/vauxhall-carlton-mk2.blend. Interchange:
+# citycars/4.5/vauxhall-carlton-mk2.dae. References:
+# citycars/references/vauxhall-carlton-mk2/ (gitignored).
+#
+# Accepted deviations: the wheelbase and forward flank are derived from a level
+# side photograph of an ESTATE with the front bumper clipped, so the saloon
+# roof and rear are taken from the oblique saloon photographs. Trim, lens
+# internals and plates are simplified.
+
+
+obj=citycar
+name=VauxhallCarltonMk2(White)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=1986
+intro_month=11
+retire_year=2003
+retire_month=6
+speed=190
+class=2,3
+maximum_comfortable_journey_minutes=75
+maximum_tolerable_journey_minutes=292
+
+Image[E]=./images/vauxhall-carlton-mk2-white_E.0.0,-33,14
+Image[SE]=./images/vauxhall-carlton-mk2-white_SE.0.0,-13,0
+Image[S]=./images/vauxhall-carlton-mk2-white_S.0.0,0,0
+Image[SW]=./images/vauxhall-carlton-mk2-white_SW.0.0,-8,10
+Image[W]=./images/vauxhall-carlton-mk2-white_W.0.0,4,5
+Image[NW]=./images/vauxhall-carlton-mk2-white_NW.0.0,12,10
+Image[N]=./images/vauxhall-carlton-mk2-white_N.0.0,0,33
+Image[NE]=./images/vauxhall-carlton-mk2-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallCarltonMk2(Red)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=1986
+intro_month=11
+retire_year=2002
+retire_month=6
+speed=190
+class=2,3
+maximum_comfortable_journey_minutes=75
+maximum_tolerable_journey_minutes=292
+
+Image[E]=./images/vauxhall-carlton-mk2-red_E.0.0,-33,14
+Image[SE]=./images/vauxhall-carlton-mk2-red_SE.0.0,-13,0
+Image[S]=./images/vauxhall-carlton-mk2-red_S.0.0,0,0
+Image[SW]=./images/vauxhall-carlton-mk2-red_SW.0.0,-8,10
+Image[W]=./images/vauxhall-carlton-mk2-red_W.0.0,4,5
+Image[NW]=./images/vauxhall-carlton-mk2-red_NW.0.0,12,10
+Image[N]=./images/vauxhall-carlton-mk2-red_N.0.0,0,33
+Image[NE]=./images/vauxhall-carlton-mk2-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallCarltonMk2(Blue)
+copyright=JamesPetts
+
+DistributionWeight=9
+intro_year=1986
+intro_month=11
+retire_year=2001
+retire_month=6
+speed=190
+class=2,3
+maximum_comfortable_journey_minutes=75
+maximum_tolerable_journey_minutes=292
+
+Image[E]=./images/vauxhall-carlton-mk2-blue_E.0.0,-33,14
+Image[SE]=./images/vauxhall-carlton-mk2-blue_SE.0.0,-13,0
+Image[S]=./images/vauxhall-carlton-mk2-blue_S.0.0,0,0
+Image[SW]=./images/vauxhall-carlton-mk2-blue_SW.0.0,-8,10
+Image[W]=./images/vauxhall-carlton-mk2-blue_W.0.0,4,5
+Image[NW]=./images/vauxhall-carlton-mk2-blue_NW.0.0,12,10
+Image[N]=./images/vauxhall-carlton-mk2-blue_N.0.0,0,33
+Image[NE]=./images/vauxhall-carlton-mk2-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallCarltonMk2(Silver)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=1986
+intro_month=11
+retire_year=2000
+retire_month=6
+speed=190
+class=2,3
+maximum_comfortable_journey_minutes=75
+maximum_tolerable_journey_minutes=292
+
+Image[E]=./images/vauxhall-carlton-mk2-silver_E.0.0,-33,14
+Image[SE]=./images/vauxhall-carlton-mk2-silver_SE.0.0,-13,0
+Image[S]=./images/vauxhall-carlton-mk2-silver_S.0.0,0,0
+Image[SW]=./images/vauxhall-carlton-mk2-silver_SW.0.0,-8,10
+Image[W]=./images/vauxhall-carlton-mk2-silver_W.0.0,4,5
+Image[NW]=./images/vauxhall-carlton-mk2-silver_NW.0.0,12,10
+Image[N]=./images/vauxhall-carlton-mk2-silver_N.0.0,0,33
+Image[NE]=./images/vauxhall-carlton-mk2-silver_NE.0.0,0,24

@@ -1,0 +1,122 @@
+# Aston Martin V8 Vantage coupe, 2005-2017.
+#
+# The compact VH-platform Vantage: the wide low body, the long bonnet, the
+# mesh grille, the pronounced rear diffuser and the twin exhausts. The coupe
+# is modelled; the Roadster is a different body. The car photographed is the
+# pre-facelift 4.3-litre car.
+# https://en.wikipedia.org/wiki/Aston_Martin_Vantage_(2005)
+#
+# Dimensions 4.382 x 1.867 x 1.255 m, wheelbase 2.601 m.
+#
+# Shape reference: a dark blue UK V8 Vantage coupe in true side elevation and
+# front three-quarter, and a black London car in rear three-quarter. The side
+# and front are the same car; the rear is a different car of the same model.
+#
+# Colours: grade (c) for the N400 limited edition of 2007 (Lightning Silver
+# and Karussell Orange); dark blue and black are the two photographed cars and
+# are plain names. Grade (d) for the standard range, for which no UK colour
+# chart was found. Weights 3, 3, 2, 2, total 10, provisional.
+#
+# Speed 280 km/h. Comfort 78/297, on the line 180 + 1.5 x 78. Classes 3,4.
+# Dates are road presence: 2005 intro, retires staggered 2032-2035.
+#
+# Metres master: citycars/4.5/aston-vantage-2005.blend. Interchange:
+# citycars/4.5/aston-vantage-2005.dae. References:
+# citycars/references/aston-vantage-2005/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the hatch lip is understated and the rear lamp and
+# diffuser shapes need refinement. At 128 px the short overhangs, wide grille
+# and glass hatch read as a V8 Vantage.
+
+
+obj=citycar
+name=AstonVantage2005(DarkBlue)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=2005
+intro_month=3
+retire_year=2035
+retire_month=6
+speed=280
+class=3,4
+maximum_comfortable_journey_minutes=78
+maximum_tolerable_journey_minutes=297
+
+Image[E]=./images/aston-vantage-2005-darkblue_E.0.0,-33,14
+Image[SE]=./images/aston-vantage-2005-darkblue_SE.0.0,-13,0
+Image[S]=./images/aston-vantage-2005-darkblue_S.0.0,0,0
+Image[SW]=./images/aston-vantage-2005-darkblue_SW.0.0,-8,10
+Image[W]=./images/aston-vantage-2005-darkblue_W.0.0,4,5
+Image[NW]=./images/aston-vantage-2005-darkblue_NW.0.0,12,10
+Image[N]=./images/aston-vantage-2005-darkblue_N.0.0,0,33
+Image[NE]=./images/aston-vantage-2005-darkblue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=AstonVantage2005(Black)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=2005
+intro_month=3
+retire_year=2034
+retire_month=6
+speed=280
+class=3,4
+maximum_comfortable_journey_minutes=78
+maximum_tolerable_journey_minutes=297
+
+Image[E]=./images/aston-vantage-2005-black_E.0.0,-33,14
+Image[SE]=./images/aston-vantage-2005-black_SE.0.0,-13,0
+Image[S]=./images/aston-vantage-2005-black_S.0.0,0,0
+Image[SW]=./images/aston-vantage-2005-black_SW.0.0,-8,10
+Image[W]=./images/aston-vantage-2005-black_W.0.0,4,5
+Image[NW]=./images/aston-vantage-2005-black_NW.0.0,12,10
+Image[N]=./images/aston-vantage-2005-black_N.0.0,0,33
+Image[NE]=./images/aston-vantage-2005-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=AstonVantage2005(LightningSilver)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=2005
+intro_month=3
+retire_year=2033
+retire_month=6
+speed=280
+class=3,4
+maximum_comfortable_journey_minutes=78
+maximum_tolerable_journey_minutes=297
+
+Image[E]=./images/aston-vantage-2005-lightningsilver_E.0.0,-33,14
+Image[SE]=./images/aston-vantage-2005-lightningsilver_SE.0.0,-13,0
+Image[S]=./images/aston-vantage-2005-lightningsilver_S.0.0,0,0
+Image[SW]=./images/aston-vantage-2005-lightningsilver_SW.0.0,-8,10
+Image[W]=./images/aston-vantage-2005-lightningsilver_W.0.0,4,5
+Image[NW]=./images/aston-vantage-2005-lightningsilver_NW.0.0,12,10
+Image[N]=./images/aston-vantage-2005-lightningsilver_N.0.0,0,33
+Image[NE]=./images/aston-vantage-2005-lightningsilver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=AstonVantage2005(KarussellOrange)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=2005
+intro_month=3
+retire_year=2032
+retire_month=6
+speed=280
+class=3,4
+maximum_comfortable_journey_minutes=78
+maximum_tolerable_journey_minutes=297
+
+Image[E]=./images/aston-vantage-2005-karussellorange_E.0.0,-33,14
+Image[SE]=./images/aston-vantage-2005-karussellorange_SE.0.0,-13,0
+Image[S]=./images/aston-vantage-2005-karussellorange_S.0.0,0,0
+Image[SW]=./images/aston-vantage-2005-karussellorange_SW.0.0,-8,10
+Image[W]=./images/aston-vantage-2005-karussellorange_W.0.0,4,5
+Image[NW]=./images/aston-vantage-2005-karussellorange_NW.0.0,12,10
+Image[N]=./images/aston-vantage-2005-karussellorange_N.0.0,0,33
+Image[NE]=./images/aston-vantage-2005-karussellorange_NE.0.0,0,24

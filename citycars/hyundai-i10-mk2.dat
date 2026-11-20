@@ -1,0 +1,120 @@
+# Hyundai i10 second generation five-door, 2014-2020.
+#
+# The IA i10: the European-built city car with the tall body, the hexagonal
+# grille and the rising beltline. UK sales from 30 January 2014.
+# https://en.wikipedia.org/wiki/Hyundai_i10
+#
+# Dimensions 3.645 x 1.660 x 1.500 m, wheelbase 2.385 m. The Autocar launch
+# story gives 3,665 mm length; 3.645 is used and the discrepancy is recorded.
+#
+# Shape reference: image 1 is side-on but elevated, not a true level profile;
+# the front and rear three-quarters show the lamps and tail. The flank is
+# estimated; the limitation is recorded.
+#
+# Colours: grade (d); no Hyundai UK chart was found. White, grey, blue and red
+# are plain names. Weights 12, 10, 10, 8, total 40, provisional.
+#
+# Speed 160 km/h. Comfort 65/280, on the line 180 + 1.5 x 65. Classes 0,1.
+# Dates are road presence: 2014 intro, retires staggered 2033-2036.
+#
+# Metres master: citycars/4.5/hyundai-i10-mk2.blend. Interchange:
+# citycars/4.5/hyundai-i10-mk2.dae. References:
+# citycars/references/hyundai-i10-mk2/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the flank is estimated, image 1 being side-on but
+# elevated rather than a level profile. Length 3.645 m is used, not Autocar's
+# 3.665 m. Pre-facelift fascia; the headlamp and rear-lamp curvature and the
+# door surfacing are simplified.
+
+
+obj=citycar
+name=HyundaiI10Mk2(White)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=2014
+intro_month=1
+retire_year=2036
+retire_month=6
+speed=160
+class=0,1
+maximum_comfortable_journey_minutes=65
+maximum_tolerable_journey_minutes=280
+
+Image[E]=./images/hyundai-i10-mk2-white_E.0.0,-33,14
+Image[SE]=./images/hyundai-i10-mk2-white_SE.0.0,-13,0
+Image[S]=./images/hyundai-i10-mk2-white_S.0.0,0,0
+Image[SW]=./images/hyundai-i10-mk2-white_SW.0.0,-8,10
+Image[W]=./images/hyundai-i10-mk2-white_W.0.0,4,5
+Image[NW]=./images/hyundai-i10-mk2-white_NW.0.0,12,10
+Image[N]=./images/hyundai-i10-mk2-white_N.0.0,0,33
+Image[NE]=./images/hyundai-i10-mk2-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=HyundaiI10Mk2(Grey)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=2014
+intro_month=1
+retire_year=2035
+retire_month=6
+speed=160
+class=0,1
+maximum_comfortable_journey_minutes=65
+maximum_tolerable_journey_minutes=280
+
+Image[E]=./images/hyundai-i10-mk2-grey_E.0.0,-33,14
+Image[SE]=./images/hyundai-i10-mk2-grey_SE.0.0,-13,0
+Image[S]=./images/hyundai-i10-mk2-grey_S.0.0,0,0
+Image[SW]=./images/hyundai-i10-mk2-grey_SW.0.0,-8,10
+Image[W]=./images/hyundai-i10-mk2-grey_W.0.0,4,5
+Image[NW]=./images/hyundai-i10-mk2-grey_NW.0.0,12,10
+Image[N]=./images/hyundai-i10-mk2-grey_N.0.0,0,33
+Image[NE]=./images/hyundai-i10-mk2-grey_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=HyundaiI10Mk2(Blue)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=2014
+intro_month=1
+retire_year=2034
+retire_month=6
+speed=160
+class=0,1
+maximum_comfortable_journey_minutes=65
+maximum_tolerable_journey_minutes=280
+
+Image[E]=./images/hyundai-i10-mk2-blue_E.0.0,-33,14
+Image[SE]=./images/hyundai-i10-mk2-blue_SE.0.0,-13,0
+Image[S]=./images/hyundai-i10-mk2-blue_S.0.0,0,0
+Image[SW]=./images/hyundai-i10-mk2-blue_SW.0.0,-8,10
+Image[W]=./images/hyundai-i10-mk2-blue_W.0.0,4,5
+Image[NW]=./images/hyundai-i10-mk2-blue_NW.0.0,12,10
+Image[N]=./images/hyundai-i10-mk2-blue_N.0.0,0,33
+Image[NE]=./images/hyundai-i10-mk2-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=HyundaiI10Mk2(Red)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=2014
+intro_month=1
+retire_year=2033
+retire_month=6
+speed=160
+class=0,1
+maximum_comfortable_journey_minutes=65
+maximum_tolerable_journey_minutes=280
+
+Image[E]=./images/hyundai-i10-mk2-red_E.0.0,-33,14
+Image[SE]=./images/hyundai-i10-mk2-red_SE.0.0,-13,0
+Image[S]=./images/hyundai-i10-mk2-red_S.0.0,0,0
+Image[SW]=./images/hyundai-i10-mk2-red_SW.0.0,-8,10
+Image[W]=./images/hyundai-i10-mk2-red_W.0.0,4,5
+Image[NW]=./images/hyundai-i10-mk2-red_NW.0.0,12,10
+Image[N]=./images/hyundai-i10-mk2-red_N.0.0,0,33
+Image[NE]=./images/hyundai-i10-mk2-red_NE.0.0,0,24

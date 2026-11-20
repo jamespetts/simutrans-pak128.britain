@@ -1,0 +1,124 @@
+# Rover P4 60 four-door saloon, 1953-1959.
+#
+# The 2.0-litre six member of the P4 range: the 'Auntie' Rover body with the
+# upright grille, the separate wing line and the sloping tail. The 60 was the
+# cheaper P4 below the 75 and 90.
+# https://en.wikipedia.org/wiki/Rover_P4
+#
+# Dimensions 4.528 x 1.666 x 1.607 m, wheelbase 2.819 m.
+#
+# Shape reference: no true level side elevation exists in the pack. Image 1
+# is a TAS 393 car identified as a 60, taken from a shallow angle; the flank
+# is estimated from that view and the front and rear three-quarters within
+# the published dimensions. The limitation is recorded.
+#
+# Colours: grade (b), the UK P4 Drivers Guild's year-based compilation, not a
+# variant-specific factory chart. Black, Sage Green, Dove Grey and Maroon are
+# documented Rover finishes of the period. Weights 18, 16, 14, 12, total 60,
+# provisional.
+#
+# Speed 135 km/h. Comfort 60/270, on the line 180 + 1.5 x 60. Classes 3,4.
+# Dates are road presence: 1953 intro, retires staggered 1975-1978.
+#
+# Metres master: citycars/4.5/rover-p4-60.blend. Interchange:
+# citycars/4.5/rover-p4-60.dae. References:
+# citycars/references/rover-p4-60/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: there is no true side elevation; image 1 is shallow
+# front-oblique and the flank is estimated from it and the other views. The roof
+# corners are too angular, the lamps project too far, and the grille crest is
+# simplified. At 128 px the upright P4 cabin, wing line and sloping tail read as
+# a P4 60.
+
+
+obj=citycar
+name=RoverP460(Black)
+copyright=JamesPetts
+
+DistributionWeight=18
+intro_year=1953
+intro_month=9
+retire_year=1978
+retire_month=6
+speed=135
+class=3,4
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=270
+
+Image[E]=./images/rover-p4-60-black_E.0.0,-33,14
+Image[SE]=./images/rover-p4-60-black_SE.0.0,-13,0
+Image[S]=./images/rover-p4-60-black_S.0.0,0,0
+Image[SW]=./images/rover-p4-60-black_SW.0.0,-8,10
+Image[W]=./images/rover-p4-60-black_W.0.0,4,5
+Image[NW]=./images/rover-p4-60-black_NW.0.0,12,10
+Image[N]=./images/rover-p4-60-black_N.0.0,0,33
+Image[NE]=./images/rover-p4-60-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RoverP460(SageGreen)
+copyright=JamesPetts
+
+DistributionWeight=16
+intro_year=1953
+intro_month=9
+retire_year=1977
+retire_month=6
+speed=135
+class=3,4
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=270
+
+Image[E]=./images/rover-p4-60-sagegreen_E.0.0,-33,14
+Image[SE]=./images/rover-p4-60-sagegreen_SE.0.0,-13,0
+Image[S]=./images/rover-p4-60-sagegreen_S.0.0,0,0
+Image[SW]=./images/rover-p4-60-sagegreen_SW.0.0,-8,10
+Image[W]=./images/rover-p4-60-sagegreen_W.0.0,4,5
+Image[NW]=./images/rover-p4-60-sagegreen_NW.0.0,12,10
+Image[N]=./images/rover-p4-60-sagegreen_N.0.0,0,33
+Image[NE]=./images/rover-p4-60-sagegreen_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RoverP460(DoveGrey)
+copyright=JamesPetts
+
+DistributionWeight=14
+intro_year=1953
+intro_month=9
+retire_year=1976
+retire_month=6
+speed=135
+class=3,4
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=270
+
+Image[E]=./images/rover-p4-60-dovegrey_E.0.0,-33,14
+Image[SE]=./images/rover-p4-60-dovegrey_SE.0.0,-13,0
+Image[S]=./images/rover-p4-60-dovegrey_S.0.0,0,0
+Image[SW]=./images/rover-p4-60-dovegrey_SW.0.0,-8,10
+Image[W]=./images/rover-p4-60-dovegrey_W.0.0,4,5
+Image[NW]=./images/rover-p4-60-dovegrey_NW.0.0,12,10
+Image[N]=./images/rover-p4-60-dovegrey_N.0.0,0,33
+Image[NE]=./images/rover-p4-60-dovegrey_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RoverP460(Maroon)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=1953
+intro_month=9
+retire_year=1975
+retire_month=6
+speed=135
+class=3,4
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=270
+
+Image[E]=./images/rover-p4-60-maroon_E.0.0,-33,14
+Image[SE]=./images/rover-p4-60-maroon_SE.0.0,-13,0
+Image[S]=./images/rover-p4-60-maroon_S.0.0,0,0
+Image[SW]=./images/rover-p4-60-maroon_SW.0.0,-8,10
+Image[W]=./images/rover-p4-60-maroon_W.0.0,4,5
+Image[NW]=./images/rover-p4-60-maroon_NW.0.0,12,10
+Image[N]=./images/rover-p4-60-maroon_N.0.0,0,33
+Image[NE]=./images/rover-p4-60-maroon_NE.0.0,0,24

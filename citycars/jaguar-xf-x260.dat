@@ -1,0 +1,120 @@
+# Jaguar XF X260 four-door saloon, 2015-2024.
+#
+# The second XF: the aluminium-intensive body, the straighter shoulder
+# crease, the flush door handles and the revised lamps. It went on sale in
+# 2015 and ran to 2024.
+# https://en.wikipedia.org/wiki/Jaguar_XF_(X260)
+#
+# Dimensions 4.969 x 1.880 x 1.457 m, wheelbase 2.960 m.
+#
+# Shape reference: image 1 is a true level side elevation; the front and
+# rear three-quarters show the lamps and tail.
+#
+# Colours: grade (a), the 2018 model year Jaguar XF UK brochure: Fuji White,
+# Narvik Black, Indus Silver and Loire Blue. Weights 18, 16, 14, 12, total
+# 60, provisional.
+#
+# Speed 250 km/h. Comfort 100/330, on the line 180 + 1.5 x 100. Classes 3,4.
+# Dates are road presence: 2015 intro, retires staggered 2036-2039.
+#
+# Metres master: citycars/4.5/jaguar-xf-x260.blend. Interchange:
+# citycars/4.5/jaguar-xf-x260.dae. References:
+# citycars/references/jaguar-xf-x260/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the J-blade daytime light is not modelled, the grille is
+# a flat panel, the twin exhausts are small chrome boxes and the wheels are plain
+# discs. The rear window and boot are slightly longer than the photographs. At
+# 128 px the longer cabin, swept lamps and large mesh grille read as an X260 XF.
+
+
+obj=citycar
+name=JaguarXFX260(FujiWhite)
+copyright=JamesPetts
+
+DistributionWeight=18
+intro_year=2015
+intro_month=1
+retire_year=2039
+retire_month=6
+speed=250
+class=3,4
+maximum_comfortable_journey_minutes=100
+maximum_tolerable_journey_minutes=330
+
+Image[E]=./images/jaguar-xf-x260-fujiwhite_E.0.0,-33,14
+Image[SE]=./images/jaguar-xf-x260-fujiwhite_SE.0.0,-13,0
+Image[S]=./images/jaguar-xf-x260-fujiwhite_S.0.0,0,0
+Image[SW]=./images/jaguar-xf-x260-fujiwhite_SW.0.0,-8,10
+Image[W]=./images/jaguar-xf-x260-fujiwhite_W.0.0,4,5
+Image[NW]=./images/jaguar-xf-x260-fujiwhite_NW.0.0,12,10
+Image[N]=./images/jaguar-xf-x260-fujiwhite_N.0.0,0,33
+Image[NE]=./images/jaguar-xf-x260-fujiwhite_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=JaguarXFX260(NarvikBlack)
+copyright=JamesPetts
+
+DistributionWeight=16
+intro_year=2015
+intro_month=1
+retire_year=2038
+retire_month=6
+speed=250
+class=3,4
+maximum_comfortable_journey_minutes=100
+maximum_tolerable_journey_minutes=330
+
+Image[E]=./images/jaguar-xf-x260-narvikblack_E.0.0,-33,14
+Image[SE]=./images/jaguar-xf-x260-narvikblack_SE.0.0,-13,0
+Image[S]=./images/jaguar-xf-x260-narvikblack_S.0.0,0,0
+Image[SW]=./images/jaguar-xf-x260-narvikblack_SW.0.0,-8,10
+Image[W]=./images/jaguar-xf-x260-narvikblack_W.0.0,4,5
+Image[NW]=./images/jaguar-xf-x260-narvikblack_NW.0.0,12,10
+Image[N]=./images/jaguar-xf-x260-narvikblack_N.0.0,0,33
+Image[NE]=./images/jaguar-xf-x260-narvikblack_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=JaguarXFX260(IndusSilver)
+copyright=JamesPetts
+
+DistributionWeight=14
+intro_year=2015
+intro_month=1
+retire_year=2037
+retire_month=6
+speed=250
+class=3,4
+maximum_comfortable_journey_minutes=100
+maximum_tolerable_journey_minutes=330
+
+Image[E]=./images/jaguar-xf-x260-indussilver_E.0.0,-33,14
+Image[SE]=./images/jaguar-xf-x260-indussilver_SE.0.0,-13,0
+Image[S]=./images/jaguar-xf-x260-indussilver_S.0.0,0,0
+Image[SW]=./images/jaguar-xf-x260-indussilver_SW.0.0,-8,10
+Image[W]=./images/jaguar-xf-x260-indussilver_W.0.0,4,5
+Image[NW]=./images/jaguar-xf-x260-indussilver_NW.0.0,12,10
+Image[N]=./images/jaguar-xf-x260-indussilver_N.0.0,0,33
+Image[NE]=./images/jaguar-xf-x260-indussilver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=JaguarXFX260(LoireBlue)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=2015
+intro_month=1
+retire_year=2036
+retire_month=6
+speed=250
+class=3,4
+maximum_comfortable_journey_minutes=100
+maximum_tolerable_journey_minutes=330
+
+Image[E]=./images/jaguar-xf-x260-loireblue_E.0.0,-33,14
+Image[SE]=./images/jaguar-xf-x260-loireblue_SE.0.0,-13,0
+Image[S]=./images/jaguar-xf-x260-loireblue_S.0.0,0,0
+Image[SW]=./images/jaguar-xf-x260-loireblue_SW.0.0,-8,10
+Image[W]=./images/jaguar-xf-x260-loireblue_W.0.0,4,5
+Image[NW]=./images/jaguar-xf-x260-loireblue_NW.0.0,12,10
+Image[N]=./images/jaguar-xf-x260-loireblue_N.0.0,0,33
+Image[NE]=./images/jaguar-xf-x260-loireblue_NE.0.0,0,24

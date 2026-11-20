@@ -1,0 +1,125 @@
+# Vauxhall 14-6 four-door saloon, 1939-1948.
+#
+# The 14-6: announced in October 1938 and built from 1939, with a unitary
+# hull rather than the Light Six separate chassis, a 1,781 cc six and a
+# three-speed all-synchromesh gearbox. The four-door six-light saloon is
+# modelled; the Australian separate-chassis bodies are not represented.
+# https://en.wikipedia.org/wiki/Vauxhall_14-6
+#
+# Dimensions: wheelbase 105 in (2.667 m), length 168 in (4.267 m), width
+# 63.5 in (1.613 m). Height was not established from a source and is
+# estimated from the photograph.
+#
+# Shape reference: NO true level profile exists. Image 1 is about 20 degrees
+# behind the side plane, camera slightly above waist height, so the flank is
+# estimated within the published dimensions. No rear three-quarter of a UK
+# 14-6 was found, so image 3 is a 1947 front quarter in its place.
+#
+# Colours: grade (d); no Vauxhall colour list was found. Black, Maroon, Cream
+# and Dark Blue are colours observed on surviving cars. Weights 12, 10, 9, 8,
+# total 39, provisional.
+#
+# Speed 110 km/h. Comfort 30/225, on the line 180 + 1.5 x 30. Classes 0,1.
+# Dates: intro January 1939; retires staggered 1957-1960 as a road tail.
+#
+# Metres master: citycars/4.5/vauxhall-14-6.blend. Interchange:
+# citycars/4.5/vauxhall-14-6.dae. References:
+# citycars/references/vauxhall-14-6/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the post-war UK grille and bonnet trim represent the
+# range, not the 1939 trim. The tail, the boot contour and the split rear
+# glazing are inferred from an oblique side view, there being no dedicated rear
+# reference; auxiliary lamps and overriders are omitted.
+
+
+obj=citycar
+name=Vauxhall146(Black)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=1939
+intro_month=1
+retire_year=1960
+retire_month=6
+speed=110
+class=0,1
+maximum_comfortable_journey_minutes=30
+maximum_tolerable_journey_minutes=225
+
+Image[E]=./images/vauxhall-14-6-black_E.0.0,-33,14
+Image[SE]=./images/vauxhall-14-6-black_SE.0.0,-13,0
+Image[S]=./images/vauxhall-14-6-black_S.0.0,0,0
+Image[SW]=./images/vauxhall-14-6-black_SW.0.0,-8,10
+Image[W]=./images/vauxhall-14-6-black_W.0.0,4,5
+Image[NW]=./images/vauxhall-14-6-black_NW.0.0,12,10
+Image[N]=./images/vauxhall-14-6-black_N.0.0,0,33
+Image[NE]=./images/vauxhall-14-6-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Vauxhall146(Maroon)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=1939
+intro_month=1
+retire_year=1959
+retire_month=6
+speed=110
+class=0,1
+maximum_comfortable_journey_minutes=30
+maximum_tolerable_journey_minutes=225
+
+Image[E]=./images/vauxhall-14-6-maroon_E.0.0,-33,14
+Image[SE]=./images/vauxhall-14-6-maroon_SE.0.0,-13,0
+Image[S]=./images/vauxhall-14-6-maroon_S.0.0,0,0
+Image[SW]=./images/vauxhall-14-6-maroon_SW.0.0,-8,10
+Image[W]=./images/vauxhall-14-6-maroon_W.0.0,4,5
+Image[NW]=./images/vauxhall-14-6-maroon_NW.0.0,12,10
+Image[N]=./images/vauxhall-14-6-maroon_N.0.0,0,33
+Image[NE]=./images/vauxhall-14-6-maroon_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Vauxhall146(Cream)
+copyright=JamesPetts
+
+DistributionWeight=9
+intro_year=1939
+intro_month=1
+retire_year=1958
+retire_month=6
+speed=110
+class=0,1
+maximum_comfortable_journey_minutes=30
+maximum_tolerable_journey_minutes=225
+
+Image[E]=./images/vauxhall-14-6-cream_E.0.0,-33,14
+Image[SE]=./images/vauxhall-14-6-cream_SE.0.0,-13,0
+Image[S]=./images/vauxhall-14-6-cream_S.0.0,0,0
+Image[SW]=./images/vauxhall-14-6-cream_SW.0.0,-8,10
+Image[W]=./images/vauxhall-14-6-cream_W.0.0,4,5
+Image[NW]=./images/vauxhall-14-6-cream_NW.0.0,12,10
+Image[N]=./images/vauxhall-14-6-cream_N.0.0,0,33
+Image[NE]=./images/vauxhall-14-6-cream_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Vauxhall146(DarkBlue)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=1939
+intro_month=1
+retire_year=1957
+retire_month=6
+speed=110
+class=0,1
+maximum_comfortable_journey_minutes=30
+maximum_tolerable_journey_minutes=225
+
+Image[E]=./images/vauxhall-14-6-darkblue_E.0.0,-33,14
+Image[SE]=./images/vauxhall-14-6-darkblue_SE.0.0,-13,0
+Image[S]=./images/vauxhall-14-6-darkblue_S.0.0,0,0
+Image[SW]=./images/vauxhall-14-6-darkblue_SW.0.0,-8,10
+Image[W]=./images/vauxhall-14-6-darkblue_W.0.0,4,5
+Image[NW]=./images/vauxhall-14-6-darkblue_NW.0.0,12,10
+Image[N]=./images/vauxhall-14-6-darkblue_N.0.0,0,33
+Image[NE]=./images/vauxhall-14-6-darkblue_NE.0.0,0,24

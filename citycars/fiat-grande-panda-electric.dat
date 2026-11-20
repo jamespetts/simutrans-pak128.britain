@@ -1,0 +1,129 @@
+# Fiat Grande Panda Electric five-door, 2026 onwards.
+#
+# The electric Grande Panda only; the 1.2 hybrid of the same body is not
+# represented. The car is the boxy Stellantis supermini with the squared-off
+# wheel arches, the vertical lamp graphics, FIAT pressed into the tailgate and
+# PANDA on the black strip below it. UK order books opened on 1 September
+# 2025 for both
+# powertrains and the cars reached UK dealerships on 27 February 2026.
+# https://en.wikipedia.org/wiki/Fiat_Grande_Panda
+#
+# Dimensions 3.999 x 1.760 x 1.570 m, wheelbase 2.540 m (Wikipedia infobox).
+#
+# Shape reference: NO true level side elevation exists. Image 1 is a front
+# three-quarter about 30-35 degrees off perpendicular, so the flank is
+# estimated within the published dimensions and the limitation is recorded.
+# Images 2 and 4 are one car; image 3 is a second electric car, identified by
+# the pixel E badge on its tailgate.
+#
+# Colours: grade (d); no UK colour list was obtainable. White, Red, Blue and
+# Grey are plain names. Weights 12, 10, 9, 8, total 39, provisional.
+#
+# Speed 132 km/h, the car's governed top speed. Comfort 75/292, on the line
+# 180 + 1.5 x 75: a quiet electric city car with a high seating position.
+# Classes 0,1.
+# Dates: intro February 2026, the UK delivery date; retires staggered
+# 2046-2049.
+#
+# Metres master: citycars/4.5/fiat-grande-panda-electric.blend. Interchange:
+# citycars/4.5/fiat-grande-panda-electric.dae. References:
+# citycars/references/fiat-grande-panda-electric/ (gitignored; Wikimedia
+# Commons).
+#
+# Accepted deviations: no orthographic flank reference exists, so the side
+# stations and the overhang split are estimates. FIAT is pressed into the
+# tailgate and PANDA is on the black strip below it, as the photograph shows.
+# Door embossing and trim-specific wheels are omitted. The electric car only.
+
+
+obj=citycar
+name=FiatGrandePandaElectric(White)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=2026
+intro_month=2
+retire_year=2049
+retire_month=6
+speed=132
+class=0,1
+maximum_comfortable_journey_minutes=75
+maximum_tolerable_journey_minutes=292
+
+Image[E]=./images/fiat-grande-panda-electric-white_E.0.0,-33,14
+Image[SE]=./images/fiat-grande-panda-electric-white_SE.0.0,-13,0
+Image[S]=./images/fiat-grande-panda-electric-white_S.0.0,0,0
+Image[SW]=./images/fiat-grande-panda-electric-white_SW.0.0,-8,10
+Image[W]=./images/fiat-grande-panda-electric-white_W.0.0,4,5
+Image[NW]=./images/fiat-grande-panda-electric-white_NW.0.0,12,10
+Image[N]=./images/fiat-grande-panda-electric-white_N.0.0,0,33
+Image[NE]=./images/fiat-grande-panda-electric-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FiatGrandePandaElectric(Red)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=2026
+intro_month=2
+retire_year=2048
+retire_month=6
+speed=132
+class=0,1
+maximum_comfortable_journey_minutes=75
+maximum_tolerable_journey_minutes=292
+
+Image[E]=./images/fiat-grande-panda-electric-red_E.0.0,-33,14
+Image[SE]=./images/fiat-grande-panda-electric-red_SE.0.0,-13,0
+Image[S]=./images/fiat-grande-panda-electric-red_S.0.0,0,0
+Image[SW]=./images/fiat-grande-panda-electric-red_SW.0.0,-8,10
+Image[W]=./images/fiat-grande-panda-electric-red_W.0.0,4,5
+Image[NW]=./images/fiat-grande-panda-electric-red_NW.0.0,12,10
+Image[N]=./images/fiat-grande-panda-electric-red_N.0.0,0,33
+Image[NE]=./images/fiat-grande-panda-electric-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FiatGrandePandaElectric(Blue)
+copyright=JamesPetts
+
+DistributionWeight=9
+intro_year=2026
+intro_month=2
+retire_year=2047
+retire_month=6
+speed=132
+class=0,1
+maximum_comfortable_journey_minutes=75
+maximum_tolerable_journey_minutes=292
+
+Image[E]=./images/fiat-grande-panda-electric-blue_E.0.0,-33,14
+Image[SE]=./images/fiat-grande-panda-electric-blue_SE.0.0,-13,0
+Image[S]=./images/fiat-grande-panda-electric-blue_S.0.0,0,0
+Image[SW]=./images/fiat-grande-panda-electric-blue_SW.0.0,-8,10
+Image[W]=./images/fiat-grande-panda-electric-blue_W.0.0,4,5
+Image[NW]=./images/fiat-grande-panda-electric-blue_NW.0.0,12,10
+Image[N]=./images/fiat-grande-panda-electric-blue_N.0.0,0,33
+Image[NE]=./images/fiat-grande-panda-electric-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FiatGrandePandaElectric(Grey)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=2026
+intro_month=2
+retire_year=2046
+retire_month=6
+speed=132
+class=0,1
+maximum_comfortable_journey_minutes=75
+maximum_tolerable_journey_minutes=292
+
+Image[E]=./images/fiat-grande-panda-electric-grey_E.0.0,-33,14
+Image[SE]=./images/fiat-grande-panda-electric-grey_SE.0.0,-13,0
+Image[S]=./images/fiat-grande-panda-electric-grey_S.0.0,0,0
+Image[SW]=./images/fiat-grande-panda-electric-grey_SW.0.0,-8,10
+Image[W]=./images/fiat-grande-panda-electric-grey_W.0.0,4,5
+Image[NW]=./images/fiat-grande-panda-electric-grey_NW.0.0,12,10
+Image[N]=./images/fiat-grande-panda-electric-grey_N.0.0,0,33
+Image[NE]=./images/fiat-grande-panda-electric-grey_NE.0.0,0,24

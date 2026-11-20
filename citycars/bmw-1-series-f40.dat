@@ -1,0 +1,119 @@
+# BMW 1-series F40 five-door hatchback, 2019-2024.
+#
+# The third 1-series: the front-wheel-drive UKL2 car, five-door only, with
+# the short bonnet, the large kidney grille and the transverse engine. UK
+# ordering opened 28 May 2019, first deliveries September 2019.
+# https://en.wikipedia.org/wiki/BMW_1_Series_(F40)
+#
+# Dimensions 4.319 x 1.799 x 1.434 m, wheelbase 2.670 m.
+#
+# Shape reference: the pack's images show the five-door in side, front and
+# rear views; the side view governs.
+#
+# Colours: grade (c), names evidenced for the F40: Alpine White, Jet Black,
+# Misano Blue and Melbourne Red. Weights 18, 16, 14, 12, total 60,
+# provisional.
+#
+# Speed 225 km/h. Comfort 85/307, on the line 180 + 1.5 x 85. Classes 2,3.
+# Dates are road presence: 2019 intro, retires staggered 2042-2045.
+#
+# Metres master: citycars/4.5/bmw-1-series-f40.blend. Interchange:
+# citycars/4.5/bmw-1-series-f40.dae. References:
+# citycars/references/bmw-1-series-f40/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the Sport bumper openings and rear lamp contours are
+# simplified, and the M135i show car's M trim was not copied. At 128 px the
+# short-bonnet front-drive five-door shell and large grille read as an F40.
+
+
+obj=citycar
+name=BMW1SeriesF40(AlpineWhite)
+copyright=JamesPetts
+
+DistributionWeight=18
+intro_year=2019
+intro_month=9
+retire_year=2045
+retire_month=6
+speed=225
+class=2,3
+maximum_comfortable_journey_minutes=85
+maximum_tolerable_journey_minutes=307
+
+Image[E]=./images/bmw-1-series-f40-alpinewhite_E.0.0,-33,14
+Image[SE]=./images/bmw-1-series-f40-alpinewhite_SE.0.0,-13,0
+Image[S]=./images/bmw-1-series-f40-alpinewhite_S.0.0,0,0
+Image[SW]=./images/bmw-1-series-f40-alpinewhite_SW.0.0,-8,10
+Image[W]=./images/bmw-1-series-f40-alpinewhite_W.0.0,4,5
+Image[NW]=./images/bmw-1-series-f40-alpinewhite_NW.0.0,12,10
+Image[N]=./images/bmw-1-series-f40-alpinewhite_N.0.0,0,33
+Image[NE]=./images/bmw-1-series-f40-alpinewhite_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMW1SeriesF40(JetBlack)
+copyright=JamesPetts
+
+DistributionWeight=16
+intro_year=2019
+intro_month=9
+retire_year=2044
+retire_month=6
+speed=225
+class=2,3
+maximum_comfortable_journey_minutes=85
+maximum_tolerable_journey_minutes=307
+
+Image[E]=./images/bmw-1-series-f40-jetblack_E.0.0,-33,14
+Image[SE]=./images/bmw-1-series-f40-jetblack_SE.0.0,-13,0
+Image[S]=./images/bmw-1-series-f40-jetblack_S.0.0,0,0
+Image[SW]=./images/bmw-1-series-f40-jetblack_SW.0.0,-8,10
+Image[W]=./images/bmw-1-series-f40-jetblack_W.0.0,4,5
+Image[NW]=./images/bmw-1-series-f40-jetblack_NW.0.0,12,10
+Image[N]=./images/bmw-1-series-f40-jetblack_N.0.0,0,33
+Image[NE]=./images/bmw-1-series-f40-jetblack_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMW1SeriesF40(MisanoBlue)
+copyright=JamesPetts
+
+DistributionWeight=14
+intro_year=2019
+intro_month=9
+retire_year=2043
+retire_month=6
+speed=225
+class=2,3
+maximum_comfortable_journey_minutes=85
+maximum_tolerable_journey_minutes=307
+
+Image[E]=./images/bmw-1-series-f40-misanoblue_E.0.0,-33,14
+Image[SE]=./images/bmw-1-series-f40-misanoblue_SE.0.0,-13,0
+Image[S]=./images/bmw-1-series-f40-misanoblue_S.0.0,0,0
+Image[SW]=./images/bmw-1-series-f40-misanoblue_SW.0.0,-8,10
+Image[W]=./images/bmw-1-series-f40-misanoblue_W.0.0,4,5
+Image[NW]=./images/bmw-1-series-f40-misanoblue_NW.0.0,12,10
+Image[N]=./images/bmw-1-series-f40-misanoblue_N.0.0,0,33
+Image[NE]=./images/bmw-1-series-f40-misanoblue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMW1SeriesF40(MelbourneRed)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=2019
+intro_month=9
+retire_year=2042
+retire_month=6
+speed=225
+class=2,3
+maximum_comfortable_journey_minutes=85
+maximum_tolerable_journey_minutes=307
+
+Image[E]=./images/bmw-1-series-f40-melbournered_E.0.0,-33,14
+Image[SE]=./images/bmw-1-series-f40-melbournered_SE.0.0,-13,0
+Image[S]=./images/bmw-1-series-f40-melbournered_S.0.0,0,0
+Image[SW]=./images/bmw-1-series-f40-melbournered_SW.0.0,-8,10
+Image[W]=./images/bmw-1-series-f40-melbournered_W.0.0,4,5
+Image[NW]=./images/bmw-1-series-f40-melbournered_NW.0.0,12,10
+Image[N]=./images/bmw-1-series-f40-melbournered_N.0.0,0,33
+Image[NE]=./images/bmw-1-series-f40-melbournered_NE.0.0,0,24

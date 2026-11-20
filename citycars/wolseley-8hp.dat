@@ -1,0 +1,122 @@
+# Wolseley 8 hp two-cylinder tonneau, c.1902-1906.
+#
+# The early Wolseley twin: the 8 hp two-cylinder engine in a light chassis
+# with a tonneau body, the bee-hive radiator and the exposed running gear.
+# The pack photographs chassis 930, registration BF 6247, a known car.
+#
+# Dimensions: not established. The model measures 2.91 x 1.53 x 1.65 m on a
+# 2.02 m wheelbase, ESTIMATED from the photographs and an assumed 0.78 m tyre
+# diameter; these are not specifications and must not be quoted as such.
+#
+# Shape reference: image 1 is a left-side view with the front cropped and
+# motion blur; it is NOT a true level profile. The other images supply the
+# front and the detail. The limitation is recorded.
+#
+# Colours: grade (d). No period colour list exists; the objects carry plain
+# names (green, black, red, maroon). Weights 1 each, total 4, provisional.
+#
+# Speed 60 km/h, an estimate. Comfort 20/210, on the line 180 + 1.5 x 20:
+# an open, exposed veteran. Class 4.
+# Dates are road presence: 1902 intro, retires staggered 1920-1923.
+#
+# Metres master: citycars/4.5/wolseley-8hp-tonneau.blend. Interchange:
+# citycars/4.5/wolseley-8hp-tonneau.dae. References:
+# citycars/references/wolseley-8hp-tonneau/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the radiator and tonneau upholstery are simplified, no
+# rear reference verifies the entrance door, and the model is taller than the
+# 1.65 m estimate at the top of the steering wheel. At 128 px the open tonneau,
+# beehive radiator and yellow-spoked wheels read as a veteran Wolseley.
+
+
+obj=citycar
+name=Wolseley8HPTonneau(Green)
+copyright=JamesPetts
+
+DistributionWeight=1
+intro_year=1902
+intro_month=1
+retire_year=1923
+retire_month=6
+speed=60
+class=4
+maximum_comfortable_journey_minutes=20
+maximum_tolerable_journey_minutes=210
+
+Image[E]=./images/wolseley-8hp-tonneau-green_E.0.0,-33,14
+Image[SE]=./images/wolseley-8hp-tonneau-green_SE.0.0,-13,0
+Image[S]=./images/wolseley-8hp-tonneau-green_S.0.0,0,0
+Image[SW]=./images/wolseley-8hp-tonneau-green_SW.0.0,-8,10
+Image[W]=./images/wolseley-8hp-tonneau-green_W.0.0,4,5
+Image[NW]=./images/wolseley-8hp-tonneau-green_NW.0.0,12,10
+Image[N]=./images/wolseley-8hp-tonneau-green_N.0.0,0,33
+Image[NE]=./images/wolseley-8hp-tonneau-green_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Wolseley8HPTonneau(Black)
+copyright=JamesPetts
+
+DistributionWeight=1
+intro_year=1902
+intro_month=1
+retire_year=1922
+retire_month=6
+speed=60
+class=4
+maximum_comfortable_journey_minutes=20
+maximum_tolerable_journey_minutes=210
+
+Image[E]=./images/wolseley-8hp-tonneau-black_E.0.0,-33,14
+Image[SE]=./images/wolseley-8hp-tonneau-black_SE.0.0,-13,0
+Image[S]=./images/wolseley-8hp-tonneau-black_S.0.0,0,0
+Image[SW]=./images/wolseley-8hp-tonneau-black_SW.0.0,-8,10
+Image[W]=./images/wolseley-8hp-tonneau-black_W.0.0,4,5
+Image[NW]=./images/wolseley-8hp-tonneau-black_NW.0.0,12,10
+Image[N]=./images/wolseley-8hp-tonneau-black_N.0.0,0,33
+Image[NE]=./images/wolseley-8hp-tonneau-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Wolseley8HPTonneau(Red)
+copyright=JamesPetts
+
+DistributionWeight=1
+intro_year=1902
+intro_month=1
+retire_year=1921
+retire_month=6
+speed=60
+class=4
+maximum_comfortable_journey_minutes=20
+maximum_tolerable_journey_minutes=210
+
+Image[E]=./images/wolseley-8hp-tonneau-red_E.0.0,-33,14
+Image[SE]=./images/wolseley-8hp-tonneau-red_SE.0.0,-13,0
+Image[S]=./images/wolseley-8hp-tonneau-red_S.0.0,0,0
+Image[SW]=./images/wolseley-8hp-tonneau-red_SW.0.0,-8,10
+Image[W]=./images/wolseley-8hp-tonneau-red_W.0.0,4,5
+Image[NW]=./images/wolseley-8hp-tonneau-red_NW.0.0,12,10
+Image[N]=./images/wolseley-8hp-tonneau-red_N.0.0,0,33
+Image[NE]=./images/wolseley-8hp-tonneau-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Wolseley8HPTonneau(Maroon)
+copyright=JamesPetts
+
+DistributionWeight=1
+intro_year=1902
+intro_month=1
+retire_year=1920
+retire_month=6
+speed=60
+class=4
+maximum_comfortable_journey_minutes=20
+maximum_tolerable_journey_minutes=210
+
+Image[E]=./images/wolseley-8hp-tonneau-maroon_E.0.0,-33,14
+Image[SE]=./images/wolseley-8hp-tonneau-maroon_SE.0.0,-13,0
+Image[S]=./images/wolseley-8hp-tonneau-maroon_S.0.0,0,0
+Image[SW]=./images/wolseley-8hp-tonneau-maroon_SW.0.0,-8,10
+Image[W]=./images/wolseley-8hp-tonneau-maroon_W.0.0,4,5
+Image[NW]=./images/wolseley-8hp-tonneau-maroon_NW.0.0,12,10
+Image[N]=./images/wolseley-8hp-tonneau-maroon_N.0.0,0,33
+Image[NE]=./images/wolseley-8hp-tonneau-maroon_NE.0.0,0,24

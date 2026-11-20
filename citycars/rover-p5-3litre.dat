@@ -1,0 +1,124 @@
+# Rover P5 3-Litre four-door saloon, 1958-1967.
+#
+# The first P5: the wide, low four-door with the 3.0-litre six, the upright
+# grille and the roofline that carried into the P5B. The pack photographs a
+# Mk I car; the Mk II and Mk III noses are not separately represented.
+# https://en.wikipedia.org/wiki/Rover_P5
+#
+# Dimensions 4.737 x 1.778 x 1.549 m, wheelbase 2.807 m (Mk I basis).
+#
+# Shape reference: image 1 is NOT level and is identified as a July 1960 Mk I
+# by its date and 2,995 cc engine. The rear photograph's exact mark is
+# uncertain. The flank is estimated from the three views and the published
+# dimensions; the limitation is recorded.
+#
+# Colours: no model-specific UK chart was established at the time of the
+# pack. Arden Green, Sierra Beige, Mexico Brown and Black are documented
+# Rover finishes of the period. Weights 30, 26, 24, 20, total 100,
+# provisional.
+#
+# Speed 165 km/h. Comfort 80/300, on the line 180 + 1.5 x 80. Classes 3,4.
+# Dates are road presence: 1958 intro, retires staggered 1982-1985.
+#
+# Metres master: citycars/4.5/rover-p5-3litre.blend. Interchange:
+# citycars/4.5/rover-p5-3litre.dae. References:
+# citycars/references/rover-p5-3litre/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: image 1 is a tilted July 1960 Mk I, not a scaling
+# elevation. The roof corners and rear glass are too angular, and the grille,
+# headlamps and bumper ends need closer fitting. The Mk III trim in image 4 was
+# not copied to the Mk I. At 128 px the wide low P5 body and Mk I nose read as a
+# P5 3-Litre.
+
+
+obj=citycar
+name=RoverP53Litre(ArdenGreen)
+copyright=JamesPetts
+
+DistributionWeight=30
+intro_year=1958
+intro_month=9
+retire_year=1985
+retire_month=6
+speed=165
+class=3,4
+maximum_comfortable_journey_minutes=80
+maximum_tolerable_journey_minutes=300
+
+Image[E]=./images/rover-p5-3litre-ardengreen_E.0.0,-33,14
+Image[SE]=./images/rover-p5-3litre-ardengreen_SE.0.0,-13,0
+Image[S]=./images/rover-p5-3litre-ardengreen_S.0.0,0,0
+Image[SW]=./images/rover-p5-3litre-ardengreen_SW.0.0,-8,10
+Image[W]=./images/rover-p5-3litre-ardengreen_W.0.0,4,5
+Image[NW]=./images/rover-p5-3litre-ardengreen_NW.0.0,12,10
+Image[N]=./images/rover-p5-3litre-ardengreen_N.0.0,0,33
+Image[NE]=./images/rover-p5-3litre-ardengreen_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RoverP53Litre(SierraBeige)
+copyright=JamesPetts
+
+DistributionWeight=26
+intro_year=1958
+intro_month=9
+retire_year=1984
+retire_month=6
+speed=165
+class=3,4
+maximum_comfortable_journey_minutes=80
+maximum_tolerable_journey_minutes=300
+
+Image[E]=./images/rover-p5-3litre-sierrabeige_E.0.0,-33,14
+Image[SE]=./images/rover-p5-3litre-sierrabeige_SE.0.0,-13,0
+Image[S]=./images/rover-p5-3litre-sierrabeige_S.0.0,0,0
+Image[SW]=./images/rover-p5-3litre-sierrabeige_SW.0.0,-8,10
+Image[W]=./images/rover-p5-3litre-sierrabeige_W.0.0,4,5
+Image[NW]=./images/rover-p5-3litre-sierrabeige_NW.0.0,12,10
+Image[N]=./images/rover-p5-3litre-sierrabeige_N.0.0,0,33
+Image[NE]=./images/rover-p5-3litre-sierrabeige_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RoverP53Litre(MexicoBrown)
+copyright=JamesPetts
+
+DistributionWeight=24
+intro_year=1958
+intro_month=9
+retire_year=1983
+retire_month=6
+speed=165
+class=3,4
+maximum_comfortable_journey_minutes=80
+maximum_tolerable_journey_minutes=300
+
+Image[E]=./images/rover-p5-3litre-mexicobrown_E.0.0,-33,14
+Image[SE]=./images/rover-p5-3litre-mexicobrown_SE.0.0,-13,0
+Image[S]=./images/rover-p5-3litre-mexicobrown_S.0.0,0,0
+Image[SW]=./images/rover-p5-3litre-mexicobrown_SW.0.0,-8,10
+Image[W]=./images/rover-p5-3litre-mexicobrown_W.0.0,4,5
+Image[NW]=./images/rover-p5-3litre-mexicobrown_NW.0.0,12,10
+Image[N]=./images/rover-p5-3litre-mexicobrown_N.0.0,0,33
+Image[NE]=./images/rover-p5-3litre-mexicobrown_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RoverP53Litre(Black)
+copyright=JamesPetts
+
+DistributionWeight=20
+intro_year=1958
+intro_month=9
+retire_year=1982
+retire_month=6
+speed=165
+class=3,4
+maximum_comfortable_journey_minutes=80
+maximum_tolerable_journey_minutes=300
+
+Image[E]=./images/rover-p5-3litre-black_E.0.0,-33,14
+Image[SE]=./images/rover-p5-3litre-black_SE.0.0,-13,0
+Image[S]=./images/rover-p5-3litre-black_S.0.0,0,0
+Image[SW]=./images/rover-p5-3litre-black_SW.0.0,-8,10
+Image[W]=./images/rover-p5-3litre-black_W.0.0,4,5
+Image[NW]=./images/rover-p5-3litre-black_NW.0.0,12,10
+Image[N]=./images/rover-p5-3litre-black_N.0.0,0,33
+Image[NE]=./images/rover-p5-3litre-black_NE.0.0,0,24

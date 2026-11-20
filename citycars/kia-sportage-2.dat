@@ -1,0 +1,120 @@
+# Kia Sportage second generation five-door, 2005-2010.
+#
+# The JE/KM Sportage: the Monocoque crossover that replaced the body-on-
+# frame car, with the rounded nose, the higher waistline and the five-door
+# body. UK sales from January 2005; facelifts in 2008 and 2009.
+# https://en.wikipedia.org/wiki/Kia_Sportage
+#
+# Dimensions 4.350 x 1.820-1.840 x 1.695-1.730 m, wheelbase 2.630 m.
+#
+# Shape reference: the pack's images show a UK car in side, front and rear
+# views; the side view governs.
+#
+# Colours: grade (d); no UK chart was found. Black, silver, white and blue
+# are plain names. Weights 15, 13, 12, 10, total 50, provisional.
+#
+# Speed 180 km/h. Comfort 80/300, on the line 180 + 1.5 x 80. Classes 2,3.
+# Dates are road presence: 2005 intro, retires staggered 2022-2025.
+#
+# Metres master: citycars/4.5/kia-sportage-2.blend. Interchange:
+# citycars/4.5/kia-sportage-2.dae. References:
+# citycars/references/kia-sportage-2/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: a thin bumper-corner tab is present but does not read at
+# 128 px; the arch cladding is a heavy ring. The black roof and the black arch
+# and sill cladding are not modelled as a colour split, and the greenhouse is
+# shallower than the photograph's. At 128 px the rising belt, triangular quarter
+# window and tall tail lamps read as a second-generation Sportage.
+
+
+obj=citycar
+name=KiaSportage2(Black)
+copyright=JamesPetts
+
+DistributionWeight=15
+intro_year=2005
+intro_month=1
+retire_year=2025
+retire_month=6
+speed=180
+class=2,3
+maximum_comfortable_journey_minutes=80
+maximum_tolerable_journey_minutes=300
+
+Image[E]=./images/kia-sportage-2-black_E.0.0,-33,14
+Image[SE]=./images/kia-sportage-2-black_SE.0.0,-13,0
+Image[S]=./images/kia-sportage-2-black_S.0.0,0,0
+Image[SW]=./images/kia-sportage-2-black_SW.0.0,-8,10
+Image[W]=./images/kia-sportage-2-black_W.0.0,4,5
+Image[NW]=./images/kia-sportage-2-black_NW.0.0,12,10
+Image[N]=./images/kia-sportage-2-black_N.0.0,0,33
+Image[NE]=./images/kia-sportage-2-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=KiaSportage2(Silver)
+copyright=JamesPetts
+
+DistributionWeight=13
+intro_year=2005
+intro_month=1
+retire_year=2024
+retire_month=6
+speed=180
+class=2,3
+maximum_comfortable_journey_minutes=80
+maximum_tolerable_journey_minutes=300
+
+Image[E]=./images/kia-sportage-2-silver_E.0.0,-33,14
+Image[SE]=./images/kia-sportage-2-silver_SE.0.0,-13,0
+Image[S]=./images/kia-sportage-2-silver_S.0.0,0,0
+Image[SW]=./images/kia-sportage-2-silver_SW.0.0,-8,10
+Image[W]=./images/kia-sportage-2-silver_W.0.0,4,5
+Image[NW]=./images/kia-sportage-2-silver_NW.0.0,12,10
+Image[N]=./images/kia-sportage-2-silver_N.0.0,0,33
+Image[NE]=./images/kia-sportage-2-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=KiaSportage2(White)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=2005
+intro_month=1
+retire_year=2023
+retire_month=6
+speed=180
+class=2,3
+maximum_comfortable_journey_minutes=80
+maximum_tolerable_journey_minutes=300
+
+Image[E]=./images/kia-sportage-2-white_E.0.0,-33,14
+Image[SE]=./images/kia-sportage-2-white_SE.0.0,-13,0
+Image[S]=./images/kia-sportage-2-white_S.0.0,0,0
+Image[SW]=./images/kia-sportage-2-white_SW.0.0,-8,10
+Image[W]=./images/kia-sportage-2-white_W.0.0,4,5
+Image[NW]=./images/kia-sportage-2-white_NW.0.0,12,10
+Image[N]=./images/kia-sportage-2-white_N.0.0,0,33
+Image[NE]=./images/kia-sportage-2-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=KiaSportage2(Blue)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=2005
+intro_month=1
+retire_year=2022
+retire_month=6
+speed=180
+class=2,3
+maximum_comfortable_journey_minutes=80
+maximum_tolerable_journey_minutes=300
+
+Image[E]=./images/kia-sportage-2-blue_E.0.0,-33,14
+Image[SE]=./images/kia-sportage-2-blue_SE.0.0,-13,0
+Image[S]=./images/kia-sportage-2-blue_S.0.0,0,0
+Image[SW]=./images/kia-sportage-2-blue_SW.0.0,-8,10
+Image[W]=./images/kia-sportage-2-blue_W.0.0,4,5
+Image[NW]=./images/kia-sportage-2-blue_NW.0.0,12,10
+Image[N]=./images/kia-sportage-2-blue_N.0.0,0,33
+Image[NE]=./images/kia-sportage-2-blue_NE.0.0,0,24

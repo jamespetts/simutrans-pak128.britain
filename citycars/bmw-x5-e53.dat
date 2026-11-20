@@ -1,0 +1,122 @@
+# BMW X5 E53 five-door SUV, 1999-2006.
+#
+# The first X5: the E39-based 'Sports Activity Vehicle' with the tall body,
+# the split tailgate, the short overhangs and the 4.4i V8 or 3.0d six. UK
+# sales began in 2000.
+# https://en.wikipedia.org/wiki/BMW_X5_(E53)
+#
+# Dimensions 4.666 x 1.872 x 1.707-1.760 m, wheelbase 2.819 m.
+#
+# Shape reference: NO true level side profile exists. Image 1 is the most
+# side-on view (a 3.0d with aftermarket wheels); the front and rear
+# three-quarters show the lamps, split tailgate and bumpers. The limitation
+# is recorded.
+#
+# Colours: grade (c), provisional; no UK chart was verified. Black, silver,
+# green and blue are plain names. Weights 18, 16, 14, 12, total 60,
+# provisional.
+#
+# Speed 200 km/h. Comfort 90/315, on the line 180 + 1.5 x 90. Classes 3,4.
+# Dates are road presence: 2000 intro, retires staggered 2020-2023.
+#
+# Metres master: citycars/4.5/bmw-x5-e53.blend. Interchange:
+# citycars/4.5/bmw-x5-e53.dae. References:
+# citycars/references/bmw-x5-e53/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the amber front indicators, lower cladding and split-
+# tailgate seam are understated; the aftermarket alloys in image 1 were not
+# copied. At 128 px the tall body, short overhangs and split tailgate read as an
+# E53 X5.
+
+
+obj=citycar
+name=BMWX5E53(Black)
+copyright=JamesPetts
+
+DistributionWeight=18
+intro_year=2000
+intro_month=1
+retire_year=2023
+retire_month=6
+speed=200
+class=3,4
+maximum_comfortable_journey_minutes=90
+maximum_tolerable_journey_minutes=315
+
+Image[E]=./images/bmw-x5-e53-black_E.0.0,-33,14
+Image[SE]=./images/bmw-x5-e53-black_SE.0.0,-13,0
+Image[S]=./images/bmw-x5-e53-black_S.0.0,0,0
+Image[SW]=./images/bmw-x5-e53-black_SW.0.0,-8,10
+Image[W]=./images/bmw-x5-e53-black_W.0.0,4,5
+Image[NW]=./images/bmw-x5-e53-black_NW.0.0,12,10
+Image[N]=./images/bmw-x5-e53-black_N.0.0,0,33
+Image[NE]=./images/bmw-x5-e53-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMWX5E53(Silver)
+copyright=JamesPetts
+
+DistributionWeight=16
+intro_year=2000
+intro_month=1
+retire_year=2022
+retire_month=6
+speed=200
+class=3,4
+maximum_comfortable_journey_minutes=90
+maximum_tolerable_journey_minutes=315
+
+Image[E]=./images/bmw-x5-e53-silver_E.0.0,-33,14
+Image[SE]=./images/bmw-x5-e53-silver_SE.0.0,-13,0
+Image[S]=./images/bmw-x5-e53-silver_S.0.0,0,0
+Image[SW]=./images/bmw-x5-e53-silver_SW.0.0,-8,10
+Image[W]=./images/bmw-x5-e53-silver_W.0.0,4,5
+Image[NW]=./images/bmw-x5-e53-silver_NW.0.0,12,10
+Image[N]=./images/bmw-x5-e53-silver_N.0.0,0,33
+Image[NE]=./images/bmw-x5-e53-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMWX5E53(Green)
+copyright=JamesPetts
+
+DistributionWeight=14
+intro_year=2000
+intro_month=1
+retire_year=2021
+retire_month=6
+speed=200
+class=3,4
+maximum_comfortable_journey_minutes=90
+maximum_tolerable_journey_minutes=315
+
+Image[E]=./images/bmw-x5-e53-green_E.0.0,-33,14
+Image[SE]=./images/bmw-x5-e53-green_SE.0.0,-13,0
+Image[S]=./images/bmw-x5-e53-green_S.0.0,0,0
+Image[SW]=./images/bmw-x5-e53-green_SW.0.0,-8,10
+Image[W]=./images/bmw-x5-e53-green_W.0.0,4,5
+Image[NW]=./images/bmw-x5-e53-green_NW.0.0,12,10
+Image[N]=./images/bmw-x5-e53-green_N.0.0,0,33
+Image[NE]=./images/bmw-x5-e53-green_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMWX5E53(Blue)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=2000
+intro_month=1
+retire_year=2020
+retire_month=6
+speed=200
+class=3,4
+maximum_comfortable_journey_minutes=90
+maximum_tolerable_journey_minutes=315
+
+Image[E]=./images/bmw-x5-e53-blue_E.0.0,-33,14
+Image[SE]=./images/bmw-x5-e53-blue_SE.0.0,-13,0
+Image[S]=./images/bmw-x5-e53-blue_S.0.0,0,0
+Image[SW]=./images/bmw-x5-e53-blue_SW.0.0,-8,10
+Image[W]=./images/bmw-x5-e53-blue_W.0.0,4,5
+Image[NW]=./images/bmw-x5-e53-blue_NW.0.0,12,10
+Image[N]=./images/bmw-x5-e53-blue_N.0.0,0,33
+Image[NE]=./images/bmw-x5-e53-blue_NE.0.0,0,24

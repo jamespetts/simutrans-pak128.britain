@@ -1,0 +1,124 @@
+# Lexus ES XZ10 four-door saloon, 2018 onwards.
+#
+# The seventh-generation ES: the front-wheel-drive executive saloon with the
+# large spindle grille, the sharp headlamps and the long, low body. It is the
+# first ES sold new in Britain (from January 2019); the earlier generations
+# were not UK models and are not represented.
+# https://en.wikipedia.org/wiki/Lexus_ES
+#
+# Dimensions 4.960-4.975 x 1.865 x 1.445-1.455 m, wheelbase 2.870 m.
+#
+# Shape reference: image 1 is a true level side elevation of an ES 300h
+# (AXZH10); the front and rear three-quarters are the same car.
+#
+# Colours: grade (a) for the three launch colours named in the Lexus UK
+# release of 19 September 2018: Sonic White, Sonic Titanium and Azure Blue;
+# grade (b) for Graphite Black from the later European palette. Weights 15,
+# 13, 12, 10, total 50, provisional.
+#
+# Speed 180 km/h (electronically limited). Comfort 100/330, on the line
+# 180 + 1.5 x 100: a quiet hybrid executive cabin. Classes 3,4.
+# Dates are road presence: 2019 intro, retires staggered 2038-2041.
+#
+# Metres master: citycars/4.5/lexus-es-xz10.blend. Interchange:
+# citycars/4.5/lexus-es-xz10.dae. References:
+# citycars/references/lexus-es-xz10/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the spindle grille is a straight-sided trapezoid rather
+# than the curved spindle, its vertical bars and the tick-shaped DRL are not
+# modelled, and the wheels are plain discs. The rear window and boot are slightly
+# longer than the photographs. At 128 px the low beltline, large spindle grille
+# and slim swept lamps read as an ES XZ10.
+
+
+obj=citycar
+name=LexusESXZ10(SonicWhite)
+copyright=JamesPetts
+
+DistributionWeight=15
+intro_year=2019
+intro_month=1
+retire_year=2041
+retire_month=6
+speed=180
+class=3,4
+maximum_comfortable_journey_minutes=100
+maximum_tolerable_journey_minutes=330
+
+Image[E]=./images/lexus-es-xz10-sonicwhite_E.0.0,-33,14
+Image[SE]=./images/lexus-es-xz10-sonicwhite_SE.0.0,-13,0
+Image[S]=./images/lexus-es-xz10-sonicwhite_S.0.0,0,0
+Image[SW]=./images/lexus-es-xz10-sonicwhite_SW.0.0,-8,10
+Image[W]=./images/lexus-es-xz10-sonicwhite_W.0.0,4,5
+Image[NW]=./images/lexus-es-xz10-sonicwhite_NW.0.0,12,10
+Image[N]=./images/lexus-es-xz10-sonicwhite_N.0.0,0,33
+Image[NE]=./images/lexus-es-xz10-sonicwhite_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=LexusESXZ10(SonicTitanium)
+copyright=JamesPetts
+
+DistributionWeight=13
+intro_year=2019
+intro_month=1
+retire_year=2040
+retire_month=6
+speed=180
+class=3,4
+maximum_comfortable_journey_minutes=100
+maximum_tolerable_journey_minutes=330
+
+Image[E]=./images/lexus-es-xz10-sonictitanium_E.0.0,-33,14
+Image[SE]=./images/lexus-es-xz10-sonictitanium_SE.0.0,-13,0
+Image[S]=./images/lexus-es-xz10-sonictitanium_S.0.0,0,0
+Image[SW]=./images/lexus-es-xz10-sonictitanium_SW.0.0,-8,10
+Image[W]=./images/lexus-es-xz10-sonictitanium_W.0.0,4,5
+Image[NW]=./images/lexus-es-xz10-sonictitanium_NW.0.0,12,10
+Image[N]=./images/lexus-es-xz10-sonictitanium_N.0.0,0,33
+Image[NE]=./images/lexus-es-xz10-sonictitanium_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=LexusESXZ10(AzureBlue)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=2019
+intro_month=1
+retire_year=2039
+retire_month=6
+speed=180
+class=3,4
+maximum_comfortable_journey_minutes=100
+maximum_tolerable_journey_minutes=330
+
+Image[E]=./images/lexus-es-xz10-azureblue_E.0.0,-33,14
+Image[SE]=./images/lexus-es-xz10-azureblue_SE.0.0,-13,0
+Image[S]=./images/lexus-es-xz10-azureblue_S.0.0,0,0
+Image[SW]=./images/lexus-es-xz10-azureblue_SW.0.0,-8,10
+Image[W]=./images/lexus-es-xz10-azureblue_W.0.0,4,5
+Image[NW]=./images/lexus-es-xz10-azureblue_NW.0.0,12,10
+Image[N]=./images/lexus-es-xz10-azureblue_N.0.0,0,33
+Image[NE]=./images/lexus-es-xz10-azureblue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=LexusESXZ10(GraphiteBlack)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=2019
+intro_month=1
+retire_year=2038
+retire_month=6
+speed=180
+class=3,4
+maximum_comfortable_journey_minutes=100
+maximum_tolerable_journey_minutes=330
+
+Image[E]=./images/lexus-es-xz10-graphiteblack_E.0.0,-33,14
+Image[SE]=./images/lexus-es-xz10-graphiteblack_SE.0.0,-13,0
+Image[S]=./images/lexus-es-xz10-graphiteblack_S.0.0,0,0
+Image[SW]=./images/lexus-es-xz10-graphiteblack_SW.0.0,-8,10
+Image[W]=./images/lexus-es-xz10-graphiteblack_W.0.0,4,5
+Image[NW]=./images/lexus-es-xz10-graphiteblack_NW.0.0,12,10
+Image[N]=./images/lexus-es-xz10-graphiteblack_N.0.0,0,33
+Image[NE]=./images/lexus-es-xz10-graphiteblack_NE.0.0,0,24

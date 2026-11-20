@@ -1,0 +1,121 @@
+# Tesla Model 3 four-door saloon, 2017 onwards.
+#
+# The compact electric saloon: the smooth closed nose, the flush door
+# handles, the full-glass roof and the short boot. UK orders opened 1 May
+# 2019. The 2023-24 Highland facelift changed the lamps, nose and tail and is
+# a colour-run change on the same shell; the pre-facelift car is modelled.
+# https://en.wikipedia.org/wiki/Tesla_Model_3
+#
+# Dimensions 4.694 x 1.849 x 1.443 m, wheelbase 2.875 m (2017-23 car).
+#
+# Shape reference: the pack's images show the pre-facelift car in side,
+# front and rear views; the side view governs.
+#
+# Colours: grade (c) for Red Multi-Coat and Deep Blue Metallic, the colours
+# named in the Autocar first-delivery report of June 2019; grade (d) for Pearl
+# White, Solid Black and Midnight Silver. Weights 20, 18, 17, 15, total 70,
+# provisional.
+#
+# Speed 225 km/h. Comfort 90/315, on the line 180 + 1.5 x 90: a quiet
+# electric cabin with a glass roof. Classes 2,3.
+# Dates are road presence: 2019 intro, retires staggered 2042-2045.
+#
+# Metres master: citycars/4.5/tesla-model-3.blend. Interchange:
+# citycars/4.5/tesla-model-3.dae. References:
+# citycars/references/tesla-model-3/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the pre-facelift body throughout, ends included. The lamp
+# internals, the alloy spokes and the panel seams are simplified.
+
+
+obj=citycar
+name=TeslaModel3(PearlWhite)
+copyright=JamesPetts
+
+DistributionWeight=20
+intro_year=2019
+intro_month=5
+retire_year=2045
+retire_month=6
+speed=225
+class=2,3
+maximum_comfortable_journey_minutes=90
+maximum_tolerable_journey_minutes=315
+
+Image[E]=./images/tesla-model-3-pearlwhite_E.0.0,-33,14
+Image[SE]=./images/tesla-model-3-pearlwhite_SE.0.0,-13,0
+Image[S]=./images/tesla-model-3-pearlwhite_S.0.0,0,0
+Image[SW]=./images/tesla-model-3-pearlwhite_SW.0.0,-8,10
+Image[W]=./images/tesla-model-3-pearlwhite_W.0.0,4,5
+Image[NW]=./images/tesla-model-3-pearlwhite_NW.0.0,12,10
+Image[N]=./images/tesla-model-3-pearlwhite_N.0.0,0,33
+Image[NE]=./images/tesla-model-3-pearlwhite_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=TeslaModel3(SolidBlack)
+copyright=JamesPetts
+
+DistributionWeight=18
+intro_year=2019
+intro_month=5
+retire_year=2044
+retire_month=6
+speed=225
+class=2,3
+maximum_comfortable_journey_minutes=90
+maximum_tolerable_journey_minutes=315
+
+Image[E]=./images/tesla-model-3-solidblack_E.0.0,-33,14
+Image[SE]=./images/tesla-model-3-solidblack_SE.0.0,-13,0
+Image[S]=./images/tesla-model-3-solidblack_S.0.0,0,0
+Image[SW]=./images/tesla-model-3-solidblack_SW.0.0,-8,10
+Image[W]=./images/tesla-model-3-solidblack_W.0.0,4,5
+Image[NW]=./images/tesla-model-3-solidblack_NW.0.0,12,10
+Image[N]=./images/tesla-model-3-solidblack_N.0.0,0,33
+Image[NE]=./images/tesla-model-3-solidblack_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=TeslaModel3(MidnightSilver)
+copyright=JamesPetts
+
+DistributionWeight=17
+intro_year=2019
+intro_month=5
+retire_year=2043
+retire_month=6
+speed=225
+class=2,3
+maximum_comfortable_journey_minutes=90
+maximum_tolerable_journey_minutes=315
+
+Image[E]=./images/tesla-model-3-midnightsilver_E.0.0,-33,14
+Image[SE]=./images/tesla-model-3-midnightsilver_SE.0.0,-13,0
+Image[S]=./images/tesla-model-3-midnightsilver_S.0.0,0,0
+Image[SW]=./images/tesla-model-3-midnightsilver_SW.0.0,-8,10
+Image[W]=./images/tesla-model-3-midnightsilver_W.0.0,4,5
+Image[NW]=./images/tesla-model-3-midnightsilver_NW.0.0,12,10
+Image[N]=./images/tesla-model-3-midnightsilver_N.0.0,0,33
+Image[NE]=./images/tesla-model-3-midnightsilver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=TeslaModel3(DeepBlue)
+copyright=JamesPetts
+
+DistributionWeight=15
+intro_year=2019
+intro_month=5
+retire_year=2042
+retire_month=6
+speed=225
+class=2,3
+maximum_comfortable_journey_minutes=90
+maximum_tolerable_journey_minutes=315
+
+Image[E]=./images/tesla-model-3-deepblue_E.0.0,-33,14
+Image[SE]=./images/tesla-model-3-deepblue_SE.0.0,-13,0
+Image[S]=./images/tesla-model-3-deepblue_S.0.0,0,0
+Image[SW]=./images/tesla-model-3-deepblue_SW.0.0,-8,10
+Image[W]=./images/tesla-model-3-deepblue_W.0.0,4,5
+Image[NW]=./images/tesla-model-3-deepblue_NW.0.0,12,10
+Image[N]=./images/tesla-model-3-deepblue_N.0.0,0,33
+Image[NE]=./images/tesla-model-3-deepblue_NE.0.0,0,24

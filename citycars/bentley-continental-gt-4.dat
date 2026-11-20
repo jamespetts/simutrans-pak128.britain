@@ -1,0 +1,124 @@
+# Bentley Continental GT fourth generation, 2024 onwards.
+#
+# The 2024 car: the single-oval headlamp face, the wider track and the
+# 4.0-litre V8 plug-in hybrid powertrain with the 25.9 kWh battery, which is
+# NOT a V6. Production and deliveries began in the third quarter of 2024.
+# https://en.wikipedia.org/wiki/Bentley_Continental_GT
+#
+# Dimensions 4.895 x 1.966 x 1.397 m, wheelbase 2.851 m, with 2.187 m over
+# the mirrors (Bentley's fourth-generation specification sheet).
+#
+# Shape reference: NO true level side elevation exists, either on Commons or
+# in Bentley's 30-image launch gallery. Image 1 is about 25-30 degrees off
+# square-on, so the flank is estimated and the limitation is recorded.
+#
+# Colours: grade (a) for Tourmaline Green, the launch colour, and Gravity
+# Grey; Beluga and Glacier White are carried over from the third-generation
+# palette and are only grade (c) until a fourth-generation UK brochure is
+# read. Weights 20, 16, 12, 10, total 58, provisional.
+#
+# Speed 335 km/h. Comfort 165/428, on the line 180 + 1.5 x 165. Class 4.
+# Dates: intro July 2024, the start of production and deliveries; retires
+# staggered 2043-2046.
+#
+# Metres master: citycars/4.5/bentley-continental-gt-4.blend. Interchange:
+# citycars/4.5/bentley-continental-gt-4.dae. References:
+# citycars/references/bentley-continental-gt-4/ (gitignored).
+#
+# Accepted deviations: the 4.0-litre V8 plug-in hybrid, not a V6. No true side
+# elevation exists, so the flank and the overhang split are estimates
+# constrained to the published dimensions. The lamp and diffuser detail is
+# simplified. The mirror span is 2.187 m.
+
+
+obj=citycar
+name=BentleyContinentalGT4(TourmalineGreen)
+copyright=JamesPetts
+
+DistributionWeight=20
+intro_year=2024
+intro_month=7
+retire_year=2046
+retire_month=6
+speed=335
+class=4
+maximum_comfortable_journey_minutes=165
+maximum_tolerable_journey_minutes=428
+
+Image[E]=./images/bentley-continental-gt-4-tourmalinegreen_E.0.0,-33,14
+Image[SE]=./images/bentley-continental-gt-4-tourmalinegreen_SE.0.0,-13,0
+Image[S]=./images/bentley-continental-gt-4-tourmalinegreen_S.0.0,0,0
+Image[SW]=./images/bentley-continental-gt-4-tourmalinegreen_SW.0.0,-8,10
+Image[W]=./images/bentley-continental-gt-4-tourmalinegreen_W.0.0,4,5
+Image[NW]=./images/bentley-continental-gt-4-tourmalinegreen_NW.0.0,12,10
+Image[N]=./images/bentley-continental-gt-4-tourmalinegreen_N.0.0,0,33
+Image[NE]=./images/bentley-continental-gt-4-tourmalinegreen_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BentleyContinentalGT4(GravityGrey)
+copyright=JamesPetts
+
+DistributionWeight=16
+intro_year=2024
+intro_month=7
+retire_year=2045
+retire_month=6
+speed=335
+class=4
+maximum_comfortable_journey_minutes=165
+maximum_tolerable_journey_minutes=428
+
+Image[E]=./images/bentley-continental-gt-4-gravitygrey_E.0.0,-33,14
+Image[SE]=./images/bentley-continental-gt-4-gravitygrey_SE.0.0,-13,0
+Image[S]=./images/bentley-continental-gt-4-gravitygrey_S.0.0,0,0
+Image[SW]=./images/bentley-continental-gt-4-gravitygrey_SW.0.0,-8,10
+Image[W]=./images/bentley-continental-gt-4-gravitygrey_W.0.0,4,5
+Image[NW]=./images/bentley-continental-gt-4-gravitygrey_NW.0.0,12,10
+Image[N]=./images/bentley-continental-gt-4-gravitygrey_N.0.0,0,33
+Image[NE]=./images/bentley-continental-gt-4-gravitygrey_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BentleyContinentalGT4(Beluga)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=2024
+intro_month=7
+retire_year=2044
+retire_month=6
+speed=335
+class=4
+maximum_comfortable_journey_minutes=165
+maximum_tolerable_journey_minutes=428
+
+Image[E]=./images/bentley-continental-gt-4-beluga_E.0.0,-33,14
+Image[SE]=./images/bentley-continental-gt-4-beluga_SE.0.0,-13,0
+Image[S]=./images/bentley-continental-gt-4-beluga_S.0.0,0,0
+Image[SW]=./images/bentley-continental-gt-4-beluga_SW.0.0,-8,10
+Image[W]=./images/bentley-continental-gt-4-beluga_W.0.0,4,5
+Image[NW]=./images/bentley-continental-gt-4-beluga_NW.0.0,12,10
+Image[N]=./images/bentley-continental-gt-4-beluga_N.0.0,0,33
+Image[NE]=./images/bentley-continental-gt-4-beluga_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BentleyContinentalGT4(GlacierWhite)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=2024
+intro_month=7
+retire_year=2043
+retire_month=6
+speed=335
+class=4
+maximum_comfortable_journey_minutes=165
+maximum_tolerable_journey_minutes=428
+
+Image[E]=./images/bentley-continental-gt-4-glacierwhite_E.0.0,-33,14
+Image[SE]=./images/bentley-continental-gt-4-glacierwhite_SE.0.0,-13,0
+Image[S]=./images/bentley-continental-gt-4-glacierwhite_S.0.0,0,0
+Image[SW]=./images/bentley-continental-gt-4-glacierwhite_SW.0.0,-8,10
+Image[W]=./images/bentley-continental-gt-4-glacierwhite_W.0.0,4,5
+Image[NW]=./images/bentley-continental-gt-4-glacierwhite_NW.0.0,12,10
+Image[N]=./images/bentley-continental-gt-4-glacierwhite_N.0.0,0,33
+Image[NE]=./images/bentley-continental-gt-4-glacierwhite_NE.0.0,0,24

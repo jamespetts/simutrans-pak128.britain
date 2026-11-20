@@ -1,0 +1,121 @@
+# Wolseley Ten four-door saloon, 1939-1948.
+#
+# The 1,140 cc Ten: the small Wolseley of the war and immediate post-war
+# years, with the Wolseley grille and six-light body. The museum car in the
+# pack is a 1940 example.
+# https://en.wikipedia.org/wiki/Wolseley_Ten
+#
+# Dimensions 3.734 x 1.448 x 1.55 m, wheelbase 2.286 m. The height is an
+# estimate; no published figure was established.
+#
+# Shape reference: image 1 is a near-level side view from a museum, partly
+# obscured by a rope in the foreground; the other images show the front and
+# detail. The pack contains two different cars.
+#
+# Colours: grade (d); no period chart was found. Black, grey, green and
+# maroon are plain names. Weights 9, 8, 7, 6, total 30, provisional.
+#
+# Speed 110 km/h. Comfort 45/250, on the line 180 + 1.5 x 45. Classes 2,3.
+# Dates are road presence: 1939 intro, retires staggered 1958-1961.
+#
+# Metres master: citycars/4.5/wolseley-ten.blend. Interchange:
+# citycars/4.5/wolseley-ten.dae. References:
+# citycars/references/wolseley-ten/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the rear window corners and the wing-to-running-board
+# transitions are too angular, and the museum photograph is partly obscured by a
+# rope. At 128 px the six-light cabin, upright grille and small body read as a
+# Wolseley Ten.
+
+
+obj=citycar
+name=WolseleyTen(Black)
+copyright=JamesPetts
+
+DistributionWeight=9
+intro_year=1939
+intro_month=1
+retire_year=1961
+retire_month=6
+speed=110
+class=2,3
+maximum_comfortable_journey_minutes=45
+maximum_tolerable_journey_minutes=250
+
+Image[E]=./images/wolseley-ten-black_E.0.0,-33,14
+Image[SE]=./images/wolseley-ten-black_SE.0.0,-13,0
+Image[S]=./images/wolseley-ten-black_S.0.0,0,0
+Image[SW]=./images/wolseley-ten-black_SW.0.0,-8,10
+Image[W]=./images/wolseley-ten-black_W.0.0,4,5
+Image[NW]=./images/wolseley-ten-black_NW.0.0,12,10
+Image[N]=./images/wolseley-ten-black_N.0.0,0,33
+Image[NE]=./images/wolseley-ten-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=WolseleyTen(Grey)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=1939
+intro_month=1
+retire_year=1960
+retire_month=6
+speed=110
+class=2,3
+maximum_comfortable_journey_minutes=45
+maximum_tolerable_journey_minutes=250
+
+Image[E]=./images/wolseley-ten-grey_E.0.0,-33,14
+Image[SE]=./images/wolseley-ten-grey_SE.0.0,-13,0
+Image[S]=./images/wolseley-ten-grey_S.0.0,0,0
+Image[SW]=./images/wolseley-ten-grey_SW.0.0,-8,10
+Image[W]=./images/wolseley-ten-grey_W.0.0,4,5
+Image[NW]=./images/wolseley-ten-grey_NW.0.0,12,10
+Image[N]=./images/wolseley-ten-grey_N.0.0,0,33
+Image[NE]=./images/wolseley-ten-grey_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=WolseleyTen(Green)
+copyright=JamesPetts
+
+DistributionWeight=7
+intro_year=1939
+intro_month=1
+retire_year=1959
+retire_month=6
+speed=110
+class=2,3
+maximum_comfortable_journey_minutes=45
+maximum_tolerable_journey_minutes=250
+
+Image[E]=./images/wolseley-ten-green_E.0.0,-33,14
+Image[SE]=./images/wolseley-ten-green_SE.0.0,-13,0
+Image[S]=./images/wolseley-ten-green_S.0.0,0,0
+Image[SW]=./images/wolseley-ten-green_SW.0.0,-8,10
+Image[W]=./images/wolseley-ten-green_W.0.0,4,5
+Image[NW]=./images/wolseley-ten-green_NW.0.0,12,10
+Image[N]=./images/wolseley-ten-green_N.0.0,0,33
+Image[NE]=./images/wolseley-ten-green_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=WolseleyTen(Maroon)
+copyright=JamesPetts
+
+DistributionWeight=6
+intro_year=1939
+intro_month=1
+retire_year=1958
+retire_month=6
+speed=110
+class=2,3
+maximum_comfortable_journey_minutes=45
+maximum_tolerable_journey_minutes=250
+
+Image[E]=./images/wolseley-ten-maroon_E.0.0,-33,14
+Image[SE]=./images/wolseley-ten-maroon_SE.0.0,-13,0
+Image[S]=./images/wolseley-ten-maroon_S.0.0,0,0
+Image[SW]=./images/wolseley-ten-maroon_SW.0.0,-8,10
+Image[W]=./images/wolseley-ten-maroon_W.0.0,4,5
+Image[NW]=./images/wolseley-ten-maroon_NW.0.0,12,10
+Image[N]=./images/wolseley-ten-maroon_N.0.0,0,33
+Image[NE]=./images/wolseley-ten-maroon_NE.0.0,0,24

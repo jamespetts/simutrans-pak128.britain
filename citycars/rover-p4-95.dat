@@ -1,0 +1,120 @@
+# Rover P4 95 four-door saloon, 1962-1964.
+#
+# The 2.5-litre six P4 of the final series, with the 1962 grille and the
+# last P4 body details. It sat between the 100 and the 110 in the final range.
+# https://en.wikipedia.org/wiki/Rover_P4
+#
+# Dimensions: variant-specific overall figures were not established; the
+# family wheelbase is 2.819 m.
+#
+# Shape reference: no true level side elevation exists. Image 1 is a 29 GYX
+# car identified by Commons as a 95; the rear view is tilted. The flank is
+# estimated; the limitation is recorded.
+#
+# Colours: grade (b), the P4 Drivers Guild's year-based compilation. Black,
+# Sage Green, Dove Grey and Maroon. Weights 6, 5, 5, 4, total 20, provisional.
+#
+# Speed 150 km/h. Comfort 65/280, on the line 180 + 1.5 x 65. Classes 3,4.
+# Dates are road presence: 1962 intro, retires staggered 1980-1983.
+#
+# Metres master: citycars/4.5/rover-p4-95.blend. Interchange:
+# citycars/4.5/rover-p4-95.dae. References:
+# citycars/references/rover-p4-95/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the wing script is not readable, the lower front marker
+# lamps are incomplete, and the rear glass needs more curvature. The rear view
+# in the pack is tilted and was used for fittings, not dimensions. At 128 px the
+# late P4 grille and lamps read as a P4 95.
+
+
+obj=citycar
+name=RoverP495(Black)
+copyright=JamesPetts
+
+DistributionWeight=6
+intro_year=1962
+intro_month=9
+retire_year=1983
+retire_month=6
+speed=150
+class=3,4
+maximum_comfortable_journey_minutes=65
+maximum_tolerable_journey_minutes=280
+
+Image[E]=./images/rover-p4-95-black_E.0.0,-33,14
+Image[SE]=./images/rover-p4-95-black_SE.0.0,-13,0
+Image[S]=./images/rover-p4-95-black_S.0.0,0,0
+Image[SW]=./images/rover-p4-95-black_SW.0.0,-8,10
+Image[W]=./images/rover-p4-95-black_W.0.0,4,5
+Image[NW]=./images/rover-p4-95-black_NW.0.0,12,10
+Image[N]=./images/rover-p4-95-black_N.0.0,0,33
+Image[NE]=./images/rover-p4-95-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RoverP495(SageGreen)
+copyright=JamesPetts
+
+DistributionWeight=5
+intro_year=1962
+intro_month=9
+retire_year=1982
+retire_month=6
+speed=150
+class=3,4
+maximum_comfortable_journey_minutes=65
+maximum_tolerable_journey_minutes=280
+
+Image[E]=./images/rover-p4-95-sagegreen_E.0.0,-33,14
+Image[SE]=./images/rover-p4-95-sagegreen_SE.0.0,-13,0
+Image[S]=./images/rover-p4-95-sagegreen_S.0.0,0,0
+Image[SW]=./images/rover-p4-95-sagegreen_SW.0.0,-8,10
+Image[W]=./images/rover-p4-95-sagegreen_W.0.0,4,5
+Image[NW]=./images/rover-p4-95-sagegreen_NW.0.0,12,10
+Image[N]=./images/rover-p4-95-sagegreen_N.0.0,0,33
+Image[NE]=./images/rover-p4-95-sagegreen_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RoverP495(DoveGrey)
+copyright=JamesPetts
+
+DistributionWeight=5
+intro_year=1962
+intro_month=9
+retire_year=1981
+retire_month=6
+speed=150
+class=3,4
+maximum_comfortable_journey_minutes=65
+maximum_tolerable_journey_minutes=280
+
+Image[E]=./images/rover-p4-95-dovegrey_E.0.0,-33,14
+Image[SE]=./images/rover-p4-95-dovegrey_SE.0.0,-13,0
+Image[S]=./images/rover-p4-95-dovegrey_S.0.0,0,0
+Image[SW]=./images/rover-p4-95-dovegrey_SW.0.0,-8,10
+Image[W]=./images/rover-p4-95-dovegrey_W.0.0,4,5
+Image[NW]=./images/rover-p4-95-dovegrey_NW.0.0,12,10
+Image[N]=./images/rover-p4-95-dovegrey_N.0.0,0,33
+Image[NE]=./images/rover-p4-95-dovegrey_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RoverP495(Maroon)
+copyright=JamesPetts
+
+DistributionWeight=4
+intro_year=1962
+intro_month=9
+retire_year=1980
+retire_month=6
+speed=150
+class=3,4
+maximum_comfortable_journey_minutes=65
+maximum_tolerable_journey_minutes=280
+
+Image[E]=./images/rover-p4-95-maroon_E.0.0,-33,14
+Image[SE]=./images/rover-p4-95-maroon_SE.0.0,-13,0
+Image[S]=./images/rover-p4-95-maroon_S.0.0,0,0
+Image[SW]=./images/rover-p4-95-maroon_SW.0.0,-8,10
+Image[W]=./images/rover-p4-95-maroon_W.0.0,4,5
+Image[NW]=./images/rover-p4-95-maroon_NW.0.0,12,10
+Image[N]=./images/rover-p4-95-maroon_N.0.0,0,33
+Image[NE]=./images/rover-p4-95-maroon_NE.0.0,0,24

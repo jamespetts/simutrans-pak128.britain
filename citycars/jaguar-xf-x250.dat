@@ -1,0 +1,122 @@
+# Jaguar XF X250 four-door saloon, 2008-2015.
+#
+# The first XF: the Ian Callum saloon with the oval headlamps, the mesh
+# grille, the strong shoulder line and the rotary gear selector. The X250
+# ran from the 2008 launch to the 2015 X260.
+# https://en.wikipedia.org/wiki/Jaguar_XF_(X250)
+#
+# Dimensions 4.961 x 1.877 x 1.460 m, wheelbase 2.909 m.
+#
+# Shape reference: NO true level profile exists. Image 1 is a motor-show car
+# about 15-20 degrees off the flank; the front and rear three-quarters show
+# the lamps and tail. The flank is estimated; the limitation is recorded.
+#
+# Colours: grade (a), the 2013 model year Jaguar XF UK Specification and Price
+# Guide: Ebony, Polaris White, Lunar Grey and Carnelian Red. Weights 18, 16,
+# 14, 12, total 60, provisional.
+#
+# Speed 250 km/h. Comfort 95/322, on the line 180 + 1.5 x 95. Classes 3,4.
+# Dates are road presence: 2008 intro, retires staggered 2029-2032.
+#
+# Metres master: citycars/4.5/jaguar-xf-x250.blend. Interchange:
+# citycars/4.5/jaguar-xf-x250.dae. References:
+# citycars/references/jaguar-xf-x250/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the oval headlamps are approximated by a rectangular rim,
+# the mesh grille is a flat dark panel and the chrome side vent is a small plate.
+# The rear window and boot are slightly longer and more upright than the
+# photographs, and the wheels are plain discs. At 128 px the low fastback
+# roofline, oval lamps and mesh grille read as an X250 XF.
+
+
+obj=citycar
+name=JaguarXFX250(Ebony)
+copyright=JamesPetts
+
+DistributionWeight=18
+intro_year=2008
+intro_month=3
+retire_year=2032
+retire_month=6
+speed=250
+class=3,4
+maximum_comfortable_journey_minutes=95
+maximum_tolerable_journey_minutes=322
+
+Image[E]=./images/jaguar-xf-x250-ebony_E.0.0,-33,14
+Image[SE]=./images/jaguar-xf-x250-ebony_SE.0.0,-13,0
+Image[S]=./images/jaguar-xf-x250-ebony_S.0.0,0,0
+Image[SW]=./images/jaguar-xf-x250-ebony_SW.0.0,-8,10
+Image[W]=./images/jaguar-xf-x250-ebony_W.0.0,4,5
+Image[NW]=./images/jaguar-xf-x250-ebony_NW.0.0,12,10
+Image[N]=./images/jaguar-xf-x250-ebony_N.0.0,0,33
+Image[NE]=./images/jaguar-xf-x250-ebony_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=JaguarXFX250(PolarisWhite)
+copyright=JamesPetts
+
+DistributionWeight=16
+intro_year=2008
+intro_month=3
+retire_year=2031
+retire_month=6
+speed=250
+class=3,4
+maximum_comfortable_journey_minutes=95
+maximum_tolerable_journey_minutes=322
+
+Image[E]=./images/jaguar-xf-x250-polariswhite_E.0.0,-33,14
+Image[SE]=./images/jaguar-xf-x250-polariswhite_SE.0.0,-13,0
+Image[S]=./images/jaguar-xf-x250-polariswhite_S.0.0,0,0
+Image[SW]=./images/jaguar-xf-x250-polariswhite_SW.0.0,-8,10
+Image[W]=./images/jaguar-xf-x250-polariswhite_W.0.0,4,5
+Image[NW]=./images/jaguar-xf-x250-polariswhite_NW.0.0,12,10
+Image[N]=./images/jaguar-xf-x250-polariswhite_N.0.0,0,33
+Image[NE]=./images/jaguar-xf-x250-polariswhite_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=JaguarXFX250(LunarGrey)
+copyright=JamesPetts
+
+DistributionWeight=14
+intro_year=2008
+intro_month=3
+retire_year=2030
+retire_month=6
+speed=250
+class=3,4
+maximum_comfortable_journey_minutes=95
+maximum_tolerable_journey_minutes=322
+
+Image[E]=./images/jaguar-xf-x250-lunargrey_E.0.0,-33,14
+Image[SE]=./images/jaguar-xf-x250-lunargrey_SE.0.0,-13,0
+Image[S]=./images/jaguar-xf-x250-lunargrey_S.0.0,0,0
+Image[SW]=./images/jaguar-xf-x250-lunargrey_SW.0.0,-8,10
+Image[W]=./images/jaguar-xf-x250-lunargrey_W.0.0,4,5
+Image[NW]=./images/jaguar-xf-x250-lunargrey_NW.0.0,12,10
+Image[N]=./images/jaguar-xf-x250-lunargrey_N.0.0,0,33
+Image[NE]=./images/jaguar-xf-x250-lunargrey_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=JaguarXFX250(CarnelianRed)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=2008
+intro_month=3
+retire_year=2029
+retire_month=6
+speed=250
+class=3,4
+maximum_comfortable_journey_minutes=95
+maximum_tolerable_journey_minutes=322
+
+Image[E]=./images/jaguar-xf-x250-carnelianred_E.0.0,-33,14
+Image[SE]=./images/jaguar-xf-x250-carnelianred_SE.0.0,-13,0
+Image[S]=./images/jaguar-xf-x250-carnelianred_S.0.0,0,0
+Image[SW]=./images/jaguar-xf-x250-carnelianred_SW.0.0,-8,10
+Image[W]=./images/jaguar-xf-x250-carnelianred_W.0.0,4,5
+Image[NW]=./images/jaguar-xf-x250-carnelianred_NW.0.0,12,10
+Image[N]=./images/jaguar-xf-x250-carnelianred_N.0.0,0,33
+Image[NE]=./images/jaguar-xf-x250-carnelianred_NE.0.0,0,24

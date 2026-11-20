@@ -1,0 +1,123 @@
+# Nissan Micra K14 five-door hatchback, 2017-2023.
+#
+# The Renault Flins-built fifth-generation Micra: the lower, longer car with
+# the concealed rear door handle in the black C-pillar, the V-motion grille
+# and the floating roof. Five-door only. UK sales from March 2017; the car
+# left European catalogues at the beginning of July 2023.
+# https://en.wikipedia.org/wiki/Nissan_Micra
+#
+# Dimensions 3.999 x 1.743 x 1.455 m, wheelbase 2.525 m (Nissan technical
+# data sheet, 05/01/2017).
+#
+# Shape reference: image 1 is a true level side elevation of the Energy Orange
+# launch car on the Paris 2016 stand, within about 3-5 degrees of perpendicular
+# and square enough to scale from.
+#
+# Colours: grade (b), the Nissan GB launch release of 30 March 2017: seven
+# named colours including White, Enigma Black, Platinum Silver and Passion
+# Red. Weights 12, 10, 9, 8, total 39, provisional.
+#
+# Speed 180 km/h. Comfort 70/285, on the line 180 + 1.5 x 70. Classes 1,2.
+# Dates: intro March 2017; retire staggered 2039-2042 as a road tail.
+#
+# Metres master: citycars/4.5/nissan-micra-k14.blend. Interchange:
+# citycars/4.5/nissan-micra-k14.dae. References:
+# citycars/references/nissan-micra-k14/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the side photograph is slightly oblique; the wheelbase
+# and overhangs use the published values. The shoulder pressing, lamp internals,
+# wheel spokes and rear badges are simplified. One pre-facelift body represents
+# the run.
+
+
+obj=citycar
+name=NissanMicraK14(White)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=2017
+intro_month=3
+retire_year=2042
+retire_month=6
+speed=180
+class=1,2
+maximum_comfortable_journey_minutes=70
+maximum_tolerable_journey_minutes=285
+
+Image[E]=./images/nissan-micra-k14-white_E.0.0,-33,14
+Image[SE]=./images/nissan-micra-k14-white_SE.0.0,-13,0
+Image[S]=./images/nissan-micra-k14-white_S.0.0,0,0
+Image[SW]=./images/nissan-micra-k14-white_SW.0.0,-8,10
+Image[W]=./images/nissan-micra-k14-white_W.0.0,4,5
+Image[NW]=./images/nissan-micra-k14-white_NW.0.0,12,10
+Image[N]=./images/nissan-micra-k14-white_N.0.0,0,33
+Image[NE]=./images/nissan-micra-k14-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=NissanMicraK14(EnigmaBlack)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=2017
+intro_month=3
+retire_year=2041
+retire_month=6
+speed=180
+class=1,2
+maximum_comfortable_journey_minutes=70
+maximum_tolerable_journey_minutes=285
+
+Image[E]=./images/nissan-micra-k14-enigmablack_E.0.0,-33,14
+Image[SE]=./images/nissan-micra-k14-enigmablack_SE.0.0,-13,0
+Image[S]=./images/nissan-micra-k14-enigmablack_S.0.0,0,0
+Image[SW]=./images/nissan-micra-k14-enigmablack_SW.0.0,-8,10
+Image[W]=./images/nissan-micra-k14-enigmablack_W.0.0,4,5
+Image[NW]=./images/nissan-micra-k14-enigmablack_NW.0.0,12,10
+Image[N]=./images/nissan-micra-k14-enigmablack_N.0.0,0,33
+Image[NE]=./images/nissan-micra-k14-enigmablack_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=NissanMicraK14(PassionRed)
+copyright=JamesPetts
+
+DistributionWeight=9
+intro_year=2017
+intro_month=3
+retire_year=2040
+retire_month=6
+speed=180
+class=1,2
+maximum_comfortable_journey_minutes=70
+maximum_tolerable_journey_minutes=285
+
+Image[E]=./images/nissan-micra-k14-passionred_E.0.0,-33,14
+Image[SE]=./images/nissan-micra-k14-passionred_SE.0.0,-13,0
+Image[S]=./images/nissan-micra-k14-passionred_S.0.0,0,0
+Image[SW]=./images/nissan-micra-k14-passionred_SW.0.0,-8,10
+Image[W]=./images/nissan-micra-k14-passionred_W.0.0,4,5
+Image[NW]=./images/nissan-micra-k14-passionred_NW.0.0,12,10
+Image[N]=./images/nissan-micra-k14-passionred_N.0.0,0,33
+Image[NE]=./images/nissan-micra-k14-passionred_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=NissanMicraK14(PlatinumSilver)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=2017
+intro_month=3
+retire_year=2039
+retire_month=6
+speed=180
+class=1,2
+maximum_comfortable_journey_minutes=70
+maximum_tolerable_journey_minutes=285
+
+Image[E]=./images/nissan-micra-k14-platinumsilver_E.0.0,-33,14
+Image[SE]=./images/nissan-micra-k14-platinumsilver_SE.0.0,-13,0
+Image[S]=./images/nissan-micra-k14-platinumsilver_S.0.0,0,0
+Image[SW]=./images/nissan-micra-k14-platinumsilver_SW.0.0,-8,10
+Image[W]=./images/nissan-micra-k14-platinumsilver_W.0.0,4,5
+Image[NW]=./images/nissan-micra-k14-platinumsilver_NW.0.0,12,10
+Image[N]=./images/nissan-micra-k14-platinumsilver_N.0.0,0,33
+Image[NE]=./images/nissan-micra-k14-platinumsilver_NE.0.0,0,24

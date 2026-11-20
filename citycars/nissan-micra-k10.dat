@@ -1,0 +1,123 @@
+# Nissan Micra K10 three-door hatchback, 1983-1992.
+#
+# The first Micra: the upright hatch, the flat waistline pressing along the
+# flank, the near-vertical tail and the black rubbing strip at door-handle
+# height. Sold in Britain from 1983. The five-door body is not represented,
+# because no usable five-door side, front or rear photograph was found.
+# https://en.wikipedia.org/wiki/Nissan_Micra
+#
+# Dimensions 3.785 x 1.560 x 1.395 m, wheelbase 2.300 m (Wikipedia infobox,
+# not checked against a Nissan document).
+#
+# Shape reference: image 1 is a near-level side photograph of a UK car. Its
+# suspension is lowered and its wheels are non-standard, but the body shell,
+# glass and door apertures are standard and are what is modelled.
+#
+# Colours: grade (d); no UK colour list was found. White, Red, Blue and Silver
+# are plain names, not factory paint names. Weights 12, 10, 9, 8, total 39,
+# provisional.
+#
+# Speed 145 km/h. Comfort 50/255, on the line 180 + 1.5 x 50. Classes 0,1.
+# Dates: intro 1983, the month being unconfirmed and set to January; retire
+# staggered 1999-2003 as a road tail, the K10 being long-lived as a used car.
+#
+# Metres master: citycars/4.5/nissan-micra-k10.blend. Interchange:
+# citycars/4.5/nissan-micra-k10.dae. References:
+# citycars/references/nissan-micra-k10/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the early front and the mid-1980s rear represent the
+# generation between them. The bumper corners and the lamp joins are
+# simplified and visibly faceted in close views.
+
+
+obj=citycar
+name=NissanMicraK10(White)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=1983
+intro_month=1
+retire_year=2003
+retire_month=6
+speed=145
+class=0,1
+maximum_comfortable_journey_minutes=50
+maximum_tolerable_journey_minutes=255
+
+Image[E]=./images/nissan-micra-k10-white_E.0.0,-33,14
+Image[SE]=./images/nissan-micra-k10-white_SE.0.0,-13,0
+Image[S]=./images/nissan-micra-k10-white_S.0.0,0,0
+Image[SW]=./images/nissan-micra-k10-white_SW.0.0,-8,10
+Image[W]=./images/nissan-micra-k10-white_W.0.0,4,5
+Image[NW]=./images/nissan-micra-k10-white_NW.0.0,12,10
+Image[N]=./images/nissan-micra-k10-white_N.0.0,0,33
+Image[NE]=./images/nissan-micra-k10-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=NissanMicraK10(Red)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=1983
+intro_month=1
+retire_year=2002
+retire_month=6
+speed=145
+class=0,1
+maximum_comfortable_journey_minutes=50
+maximum_tolerable_journey_minutes=255
+
+Image[E]=./images/nissan-micra-k10-red_E.0.0,-33,14
+Image[SE]=./images/nissan-micra-k10-red_SE.0.0,-13,0
+Image[S]=./images/nissan-micra-k10-red_S.0.0,0,0
+Image[SW]=./images/nissan-micra-k10-red_SW.0.0,-8,10
+Image[W]=./images/nissan-micra-k10-red_W.0.0,4,5
+Image[NW]=./images/nissan-micra-k10-red_NW.0.0,12,10
+Image[N]=./images/nissan-micra-k10-red_N.0.0,0,33
+Image[NE]=./images/nissan-micra-k10-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=NissanMicraK10(Blue)
+copyright=JamesPetts
+
+DistributionWeight=9
+intro_year=1983
+intro_month=1
+retire_year=2001
+retire_month=6
+speed=145
+class=0,1
+maximum_comfortable_journey_minutes=50
+maximum_tolerable_journey_minutes=255
+
+Image[E]=./images/nissan-micra-k10-blue_E.0.0,-33,14
+Image[SE]=./images/nissan-micra-k10-blue_SE.0.0,-13,0
+Image[S]=./images/nissan-micra-k10-blue_S.0.0,0,0
+Image[SW]=./images/nissan-micra-k10-blue_SW.0.0,-8,10
+Image[W]=./images/nissan-micra-k10-blue_W.0.0,4,5
+Image[NW]=./images/nissan-micra-k10-blue_NW.0.0,12,10
+Image[N]=./images/nissan-micra-k10-blue_N.0.0,0,33
+Image[NE]=./images/nissan-micra-k10-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=NissanMicraK10(Silver)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=1983
+intro_month=1
+retire_year=1999
+retire_month=6
+speed=145
+class=0,1
+maximum_comfortable_journey_minutes=50
+maximum_tolerable_journey_minutes=255
+
+Image[E]=./images/nissan-micra-k10-silver_E.0.0,-33,14
+Image[SE]=./images/nissan-micra-k10-silver_SE.0.0,-13,0
+Image[S]=./images/nissan-micra-k10-silver_S.0.0,0,0
+Image[SW]=./images/nissan-micra-k10-silver_SW.0.0,-8,10
+Image[W]=./images/nissan-micra-k10-silver_W.0.0,4,5
+Image[NW]=./images/nissan-micra-k10-silver_NW.0.0,12,10
+Image[N]=./images/nissan-micra-k10-silver_N.0.0,0,33
+Image[NE]=./images/nissan-micra-k10-silver_NE.0.0,0,24

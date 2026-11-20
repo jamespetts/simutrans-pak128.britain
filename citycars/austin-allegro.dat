@@ -1,0 +1,125 @@
+# Austin Allegro four-door saloon, 1973-1982.
+#
+# The Allegro: the Marina-replacing front-wheel-drive saloon with the
+# Hydragas suspension and the much-criticised styling, on sale in Britain from
+# 17 May 1973. The Series 2 four-door saloon is modelled, the shell the
+# photographs show; the two-door, the estate, the Vanden Plas and the Equipe
+# are not separately represented. The quartic steering wheel was dropped before
+# this car and is not modelled.
+# https://en.wikipedia.org/wiki/Austin_Allegro
+#
+# Dimensions 3.861 x 1.600 x 1.397 m, wheelbase 2.438 m (period UK figures).
+#
+# Shape reference: image 1 is a true level side elevation with the camera at
+# about hub height and the front bumper tip clipped at the frame edge. That
+# car is New Zealand CKD assembly; the three-quarter and rear photographs are
+# a UK Series 2 car and govern the grille, lamps and trim.
+#
+# Colours: grade (d); no UK colour list was read. White, Red, Blue and Brown
+# are plain period names. Weights 14, 12, 10, 8, total 44, provisional.
+#
+# Speed 145 km/h. Comfort 50/255, on the line 180 + 1.5 x 50. Classes 0,1.
+# Dates: intro May 1973; retires staggered 1992-1995 as a road tail.
+#
+# Metres master: citycars/4.5/austin-allegro.blend. Interchange:
+# citycars/4.5/austin-allegro.dae. References:
+# citycars/references/austin-allegro/ (gitignored).
+#
+# Accepted deviations: the level New Zealand CKD profile has a clipped front
+# bumper tip and is used for the shell only; the UK photographs govern the
+# Series 2 trim. The Series 2 appearance represents the whole 1973-82 range.
+# The grille recess is a dark bed with raised trim, and the rear bright strips
+# bow slightly more than in the photograph.
+
+
+obj=citycar
+name=AustinAllegro(White)
+copyright=JamesPetts
+
+DistributionWeight=14
+intro_year=1973
+intro_month=5
+retire_year=1995
+retire_month=6
+speed=145
+class=0,1
+maximum_comfortable_journey_minutes=50
+maximum_tolerable_journey_minutes=255
+
+Image[E]=./images/austin-allegro-white_E.0.0,-33,14
+Image[SE]=./images/austin-allegro-white_SE.0.0,-13,0
+Image[S]=./images/austin-allegro-white_S.0.0,0,0
+Image[SW]=./images/austin-allegro-white_SW.0.0,-8,10
+Image[W]=./images/austin-allegro-white_W.0.0,4,5
+Image[NW]=./images/austin-allegro-white_NW.0.0,12,10
+Image[N]=./images/austin-allegro-white_N.0.0,0,33
+Image[NE]=./images/austin-allegro-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=AustinAllegro(Red)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=1973
+intro_month=5
+retire_year=1994
+retire_month=6
+speed=145
+class=0,1
+maximum_comfortable_journey_minutes=50
+maximum_tolerable_journey_minutes=255
+
+Image[E]=./images/austin-allegro-red_E.0.0,-33,14
+Image[SE]=./images/austin-allegro-red_SE.0.0,-13,0
+Image[S]=./images/austin-allegro-red_S.0.0,0,0
+Image[SW]=./images/austin-allegro-red_SW.0.0,-8,10
+Image[W]=./images/austin-allegro-red_W.0.0,4,5
+Image[NW]=./images/austin-allegro-red_NW.0.0,12,10
+Image[N]=./images/austin-allegro-red_N.0.0,0,33
+Image[NE]=./images/austin-allegro-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=AustinAllegro(Blue)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=1973
+intro_month=5
+retire_year=1993
+retire_month=6
+speed=145
+class=0,1
+maximum_comfortable_journey_minutes=50
+maximum_tolerable_journey_minutes=255
+
+Image[E]=./images/austin-allegro-blue_E.0.0,-33,14
+Image[SE]=./images/austin-allegro-blue_SE.0.0,-13,0
+Image[S]=./images/austin-allegro-blue_S.0.0,0,0
+Image[SW]=./images/austin-allegro-blue_SW.0.0,-8,10
+Image[W]=./images/austin-allegro-blue_W.0.0,4,5
+Image[NW]=./images/austin-allegro-blue_NW.0.0,12,10
+Image[N]=./images/austin-allegro-blue_N.0.0,0,33
+Image[NE]=./images/austin-allegro-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=AustinAllegro(Brown)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=1973
+intro_month=5
+retire_year=1992
+retire_month=6
+speed=145
+class=0,1
+maximum_comfortable_journey_minutes=50
+maximum_tolerable_journey_minutes=255
+
+Image[E]=./images/austin-allegro-brown_E.0.0,-33,14
+Image[SE]=./images/austin-allegro-brown_SE.0.0,-13,0
+Image[S]=./images/austin-allegro-brown_S.0.0,0,0
+Image[SW]=./images/austin-allegro-brown_SW.0.0,-8,10
+Image[W]=./images/austin-allegro-brown_W.0.0,4,5
+Image[NW]=./images/austin-allegro-brown_NW.0.0,12,10
+Image[N]=./images/austin-allegro-brown_N.0.0,0,33
+Image[NE]=./images/austin-allegro-brown_NE.0.0,0,24

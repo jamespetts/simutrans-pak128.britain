@@ -1,6 +1,7 @@
 # https://en.wikipedia.org/wiki/Ford_Galaxy
-# This is intended to encompass both first and
-# second generation versions
+# This object represents the FIRST generation only (1995-2006). It was declared
+# to cover the second generation as a stand-in until that car was built; the
+# Mk2 now has its own object as FordGalaxyMk2, so this declaration is withdrawn.
 obj=citycar
 name=FordGalaxyMk1(Blue)
 copyright=JamesPetts

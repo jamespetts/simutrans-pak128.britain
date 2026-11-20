@@ -1,0 +1,119 @@
+# Ford Zodiac Mk IV four-door saloon, 1966-1972.
+#
+# The final Zodiac: the Zephyr Mk IV shell with four headlamps, the ZODIAC
+# script on the front wing and a different boot badge. The Executive is a
+# trim variant on the same shell and is not separately represented.
+# https://en.wikipedia.org/wiki/Ford_Zodiac
+#
+# Dimensions 4.699 x 1.810 x 1.486 m, wheelbase 2.921 m.
+#
+# Shape reference: image 1 is a true level side elevation of a 2994 cc car;
+# the front and rear three-quarters show the four lamps, vinyl roof and tail.
+#
+# Colours: grade (d); no 1966-72 chart was found. The three cars photographed
+# are pale blue with a black vinyl roof and mid-blue. Blue, white, black and
+# red are plain names. Weights 9, 8, 7, 6, total 30, provisional.
+#
+# Speed 160 km/h. Comfort 68/282, on the line 180 + 1.5 x 68. Classes 2,3.
+# Dates are road presence: 1966 intro, retires staggered 1988-1991.
+#
+# Metres master: citycars/4.5/ford-zodiac-mk4.blend. Interchange:
+# citycars/4.5/ford-zodiac-mk4.dae. References:
+# citycars/references/ford-zodiac-mk4/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the wing script is omitted, and the rear ribbing is
+# simplified. At 128 px the four-lamp recessed grille, contrasting roof and
+# Zodiac boot badge read as a Zodiac Mk IV.
+
+
+obj=citycar
+name=FordZodiacMk4(Blue)
+copyright=JamesPetts
+
+DistributionWeight=9
+intro_year=1966
+intro_month=4
+retire_year=1991
+retire_month=6
+speed=160
+class=2,3
+maximum_comfortable_journey_minutes=68
+maximum_tolerable_journey_minutes=282
+
+Image[E]=./images/ford-zodiac-mk4-blue_E.0.0,-33,14
+Image[SE]=./images/ford-zodiac-mk4-blue_SE.0.0,-13,0
+Image[S]=./images/ford-zodiac-mk4-blue_S.0.0,0,0
+Image[SW]=./images/ford-zodiac-mk4-blue_SW.0.0,-8,10
+Image[W]=./images/ford-zodiac-mk4-blue_W.0.0,4,5
+Image[NW]=./images/ford-zodiac-mk4-blue_NW.0.0,12,10
+Image[N]=./images/ford-zodiac-mk4-blue_N.0.0,0,33
+Image[NE]=./images/ford-zodiac-mk4-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FordZodiacMk4(White)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=1966
+intro_month=4
+retire_year=1990
+retire_month=6
+speed=160
+class=2,3
+maximum_comfortable_journey_minutes=68
+maximum_tolerable_journey_minutes=282
+
+Image[E]=./images/ford-zodiac-mk4-white_E.0.0,-33,14
+Image[SE]=./images/ford-zodiac-mk4-white_SE.0.0,-13,0
+Image[S]=./images/ford-zodiac-mk4-white_S.0.0,0,0
+Image[SW]=./images/ford-zodiac-mk4-white_SW.0.0,-8,10
+Image[W]=./images/ford-zodiac-mk4-white_W.0.0,4,5
+Image[NW]=./images/ford-zodiac-mk4-white_NW.0.0,12,10
+Image[N]=./images/ford-zodiac-mk4-white_N.0.0,0,33
+Image[NE]=./images/ford-zodiac-mk4-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FordZodiacMk4(Black)
+copyright=JamesPetts
+
+DistributionWeight=7
+intro_year=1966
+intro_month=4
+retire_year=1989
+retire_month=6
+speed=160
+class=2,3
+maximum_comfortable_journey_minutes=68
+maximum_tolerable_journey_minutes=282
+
+Image[E]=./images/ford-zodiac-mk4-black_E.0.0,-33,14
+Image[SE]=./images/ford-zodiac-mk4-black_SE.0.0,-13,0
+Image[S]=./images/ford-zodiac-mk4-black_S.0.0,0,0
+Image[SW]=./images/ford-zodiac-mk4-black_SW.0.0,-8,10
+Image[W]=./images/ford-zodiac-mk4-black_W.0.0,4,5
+Image[NW]=./images/ford-zodiac-mk4-black_NW.0.0,12,10
+Image[N]=./images/ford-zodiac-mk4-black_N.0.0,0,33
+Image[NE]=./images/ford-zodiac-mk4-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FordZodiacMk4(Red)
+copyright=JamesPetts
+
+DistributionWeight=6
+intro_year=1966
+intro_month=4
+retire_year=1988
+retire_month=6
+speed=160
+class=2,3
+maximum_comfortable_journey_minutes=68
+maximum_tolerable_journey_minutes=282
+
+Image[E]=./images/ford-zodiac-mk4-red_E.0.0,-33,14
+Image[SE]=./images/ford-zodiac-mk4-red_SE.0.0,-13,0
+Image[S]=./images/ford-zodiac-mk4-red_S.0.0,0,0
+Image[SW]=./images/ford-zodiac-mk4-red_SW.0.0,-8,10
+Image[W]=./images/ford-zodiac-mk4-red_W.0.0,4,5
+Image[NW]=./images/ford-zodiac-mk4-red_NW.0.0,12,10
+Image[N]=./images/ford-zodiac-mk4-red_N.0.0,0,33
+Image[NE]=./images/ford-zodiac-mk4-red_NE.0.0,0,24

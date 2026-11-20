@@ -1,0 +1,120 @@
+# BMW X5 E70 five-door SUV, 2007-2013.
+#
+# The second X5: the larger and wider body, the curved roofline, the
+# twin-kidney grille and the split tailgate. UK sales from 28 April 2007.
+# https://en.wikipedia.org/wiki/BMW_X5_(E70)
+#
+# Dimensions 4.854 x 1.933 x 1.766-1.776 m, wheelbase 2.933 m.
+#
+# Shape reference: NO true level side profile exists. Image 1 is a
+# facelifted car; the two 3.0d quarter views are pre-facelift. The flank is
+# estimated from them within the published dimensions; the mismatch is
+# recorded.
+#
+# Colours: grade (c), provisional. Black, silver, white and blue are plain
+# names. Weights 20, 18, 17, 15, total 70, provisional.
+#
+# Speed 210 km/h. Comfort 95/322, on the line 180 + 1.5 x 95. Classes 3,4.
+# Dates are road presence: 2007 intro, retires staggered 2027-2030.
+#
+# Metres master: citycars/4.5/bmw-x5-e70.blend. Interchange:
+# citycars/4.5/bmw-x5-e70.dae. References:
+# citycars/references/bmw-x5-e70/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: image 1 is a facelifted car and was used only for the
+# flank; the pre-facelift nose and tail come from images 2-3. The lower intake,
+# rear lamp wrap and split-tailgate detailing are simplified. At 128 px the wider
+# body and curved roofline read as an E70 X5.
+
+
+obj=citycar
+name=BMWX5E70(Black)
+copyright=JamesPetts
+
+DistributionWeight=20
+intro_year=2007
+intro_month=4
+retire_year=2030
+retire_month=6
+speed=210
+class=3,4
+maximum_comfortable_journey_minutes=95
+maximum_tolerable_journey_minutes=322
+
+Image[E]=./images/bmw-x5-e70-black_E.0.0,-33,14
+Image[SE]=./images/bmw-x5-e70-black_SE.0.0,-13,0
+Image[S]=./images/bmw-x5-e70-black_S.0.0,0,0
+Image[SW]=./images/bmw-x5-e70-black_SW.0.0,-8,10
+Image[W]=./images/bmw-x5-e70-black_W.0.0,4,5
+Image[NW]=./images/bmw-x5-e70-black_NW.0.0,12,10
+Image[N]=./images/bmw-x5-e70-black_N.0.0,0,33
+Image[NE]=./images/bmw-x5-e70-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMWX5E70(Silver)
+copyright=JamesPetts
+
+DistributionWeight=18
+intro_year=2007
+intro_month=4
+retire_year=2029
+retire_month=6
+speed=210
+class=3,4
+maximum_comfortable_journey_minutes=95
+maximum_tolerable_journey_minutes=322
+
+Image[E]=./images/bmw-x5-e70-silver_E.0.0,-33,14
+Image[SE]=./images/bmw-x5-e70-silver_SE.0.0,-13,0
+Image[S]=./images/bmw-x5-e70-silver_S.0.0,0,0
+Image[SW]=./images/bmw-x5-e70-silver_SW.0.0,-8,10
+Image[W]=./images/bmw-x5-e70-silver_W.0.0,4,5
+Image[NW]=./images/bmw-x5-e70-silver_NW.0.0,12,10
+Image[N]=./images/bmw-x5-e70-silver_N.0.0,0,33
+Image[NE]=./images/bmw-x5-e70-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMWX5E70(White)
+copyright=JamesPetts
+
+DistributionWeight=17
+intro_year=2007
+intro_month=4
+retire_year=2028
+retire_month=6
+speed=210
+class=3,4
+maximum_comfortable_journey_minutes=95
+maximum_tolerable_journey_minutes=322
+
+Image[E]=./images/bmw-x5-e70-white_E.0.0,-33,14
+Image[SE]=./images/bmw-x5-e70-white_SE.0.0,-13,0
+Image[S]=./images/bmw-x5-e70-white_S.0.0,0,0
+Image[SW]=./images/bmw-x5-e70-white_SW.0.0,-8,10
+Image[W]=./images/bmw-x5-e70-white_W.0.0,4,5
+Image[NW]=./images/bmw-x5-e70-white_NW.0.0,12,10
+Image[N]=./images/bmw-x5-e70-white_N.0.0,0,33
+Image[NE]=./images/bmw-x5-e70-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMWX5E70(Blue)
+copyright=JamesPetts
+
+DistributionWeight=15
+intro_year=2007
+intro_month=4
+retire_year=2027
+retire_month=6
+speed=210
+class=3,4
+maximum_comfortable_journey_minutes=95
+maximum_tolerable_journey_minutes=322
+
+Image[E]=./images/bmw-x5-e70-blue_E.0.0,-33,14
+Image[SE]=./images/bmw-x5-e70-blue_SE.0.0,-13,0
+Image[S]=./images/bmw-x5-e70-blue_S.0.0,0,0
+Image[SW]=./images/bmw-x5-e70-blue_SW.0.0,-8,10
+Image[W]=./images/bmw-x5-e70-blue_W.0.0,4,5
+Image[NW]=./images/bmw-x5-e70-blue_NW.0.0,12,10
+Image[N]=./images/bmw-x5-e70-blue_N.0.0,0,33
+Image[NE]=./images/bmw-x5-e70-blue_NE.0.0,0,24

@@ -1,0 +1,121 @@
+# Vauxhall Mokka B compact SUV, 2021 onwards.
+#
+# The Mokka B: the smaller, lower car on the CMP platform with the
+# Vauxhall Vizor face, sold from 12 April 2021 and still current in
+# facelifted form. The Mokka Electric shares the body and is not separately
+# represented.
+# https://en.wikipedia.org/wiki/Opel_Mokka
+#
+# Dimensions 4.151 x 1.791 x 1.531 m, wheelbase 2.557 m (Wikipedia infobox).
+# The car is 129 mm shorter, 16 mm wider and 115 mm lower than the Mokka A.
+#
+# Shape reference: image 1 is a true level side elevation; the flank is
+# traced from it.
+#
+# Colours: grade (a), the All-new Mokka price and specification guide of
+# 22 September 2020 for model year 2021: White Jade brilliant; Diamond
+# Black, Quartz Grey and Voltaic Blue metallic; Mamba Green and Power Red
+# premium metallic. Weights 12, 10, 9, 8, total 39, provisional.
+# Speed 200 km/h. Comfort 80/300, on the line 180 + 1.5 x 80. Classes 1,2.
+# Dates: intro April 2021; retires staggered 2040-2043.
+#
+# Metres master: citycars/4.5/vauxhall-mokka-b.blend. Interchange:
+# citycars/4.5/vauxhall-mokka-b.dae. References:
+# citycars/references/vauxhall-mokka-b/ (gitignored).
+#
+# Accepted deviations: the shared launch-era Mokka/Mokka-e shell is modelled
+# with a black roof, and no electric-only badging is added. The wheel spokes,
+# lamp internals, lettering and bumper inserts are simplified.
+
+
+obj=citycar
+name=VauxhallMokkaB(WhiteJade)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=2021
+intro_month=4
+retire_year=2043
+retire_month=6
+speed=200
+class=1,2
+maximum_comfortable_journey_minutes=80
+maximum_tolerable_journey_minutes=300
+
+Image[E]=./images/vauxhall-mokka-b-whitejade_E.0.0,-33,14
+Image[SE]=./images/vauxhall-mokka-b-whitejade_SE.0.0,-13,0
+Image[S]=./images/vauxhall-mokka-b-whitejade_S.0.0,0,0
+Image[SW]=./images/vauxhall-mokka-b-whitejade_SW.0.0,-8,10
+Image[W]=./images/vauxhall-mokka-b-whitejade_W.0.0,4,5
+Image[NW]=./images/vauxhall-mokka-b-whitejade_NW.0.0,12,10
+Image[N]=./images/vauxhall-mokka-b-whitejade_N.0.0,0,33
+Image[NE]=./images/vauxhall-mokka-b-whitejade_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallMokkaB(DiamondBlack)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=2021
+intro_month=4
+retire_year=2042
+retire_month=6
+speed=200
+class=1,2
+maximum_comfortable_journey_minutes=80
+maximum_tolerable_journey_minutes=300
+
+Image[E]=./images/vauxhall-mokka-b-diamondblack_E.0.0,-33,14
+Image[SE]=./images/vauxhall-mokka-b-diamondblack_SE.0.0,-13,0
+Image[S]=./images/vauxhall-mokka-b-diamondblack_S.0.0,0,0
+Image[SW]=./images/vauxhall-mokka-b-diamondblack_SW.0.0,-8,10
+Image[W]=./images/vauxhall-mokka-b-diamondblack_W.0.0,4,5
+Image[NW]=./images/vauxhall-mokka-b-diamondblack_NW.0.0,12,10
+Image[N]=./images/vauxhall-mokka-b-diamondblack_N.0.0,0,33
+Image[NE]=./images/vauxhall-mokka-b-diamondblack_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallMokkaB(QuartzGrey)
+copyright=JamesPetts
+
+DistributionWeight=9
+intro_year=2021
+intro_month=4
+retire_year=2041
+retire_month=6
+speed=200
+class=1,2
+maximum_comfortable_journey_minutes=80
+maximum_tolerable_journey_minutes=300
+
+Image[E]=./images/vauxhall-mokka-b-quartzgrey_E.0.0,-33,14
+Image[SE]=./images/vauxhall-mokka-b-quartzgrey_SE.0.0,-13,0
+Image[S]=./images/vauxhall-mokka-b-quartzgrey_S.0.0,0,0
+Image[SW]=./images/vauxhall-mokka-b-quartzgrey_SW.0.0,-8,10
+Image[W]=./images/vauxhall-mokka-b-quartzgrey_W.0.0,4,5
+Image[NW]=./images/vauxhall-mokka-b-quartzgrey_NW.0.0,12,10
+Image[N]=./images/vauxhall-mokka-b-quartzgrey_N.0.0,0,33
+Image[NE]=./images/vauxhall-mokka-b-quartzgrey_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallMokkaB(VoltaicBlue)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=2021
+intro_month=4
+retire_year=2040
+retire_month=6
+speed=200
+class=1,2
+maximum_comfortable_journey_minutes=80
+maximum_tolerable_journey_minutes=300
+
+Image[E]=./images/vauxhall-mokka-b-voltaicblue_E.0.0,-33,14
+Image[SE]=./images/vauxhall-mokka-b-voltaicblue_SE.0.0,-13,0
+Image[S]=./images/vauxhall-mokka-b-voltaicblue_S.0.0,0,0
+Image[SW]=./images/vauxhall-mokka-b-voltaicblue_SW.0.0,-8,10
+Image[W]=./images/vauxhall-mokka-b-voltaicblue_W.0.0,4,5
+Image[NW]=./images/vauxhall-mokka-b-voltaicblue_NW.0.0,12,10
+Image[N]=./images/vauxhall-mokka-b-voltaicblue_N.0.0,0,33
+Image[NE]=./images/vauxhall-mokka-b-voltaicblue_NE.0.0,0,24

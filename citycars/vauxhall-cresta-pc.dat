@@ -1,0 +1,121 @@
+# Vauxhall Cresta PC saloon, 1965-1972.
+#
+# The PC: the last Cresta, the coke-bottle body with the fastback roofline,
+# sold as the Cresta and, in its V8 form, as the Viscount. There was no Velox
+# PC; the Cresta stood alone. The saloon is modelled; the estate and the
+# Viscount are not separately represented.
+# https://en.wikipedia.org/wiki/Vauxhall_Cresta
+#
+# Dimensions: saloon 4,710 x 1,770 x 1,410 mm, wheelbase 2,730 mm. The estate
+# is 4,750 mm long and 1,500 mm high; the Viscount saloon is 4,790 mm.
+#
+# Shape reference: image 1 is a true level side profile; the flank is traced
+# from it.
+#
+# Colours: grade (d); no period Vauxhall colour list was found. Black, Grey,
+# Blue and Green are plain period names. Weights 12, 10, 9, 8, total 39,
+# provisional.
+#
+# Speed 155 km/h. Comfort 65/280, on the line 180 + 1.5 x 65. Classes 2,3.
+# Dates: intro October 1965; retires staggered 1979-1982 as a road tail.
+#
+# Metres master: citycars/4.5/vauxhall-cresta-pc.blend. Interchange:
+# citycars/4.5/vauxhall-cresta-pc.dae. References:
+# citycars/references/vauxhall-cresta-pc/ (gitignored).
+#
+# Accepted deviations: the Cresta De Luxe quad-lamp saloon only. No Velox,
+# Viscount vinyl roof, estate roof line or auxiliary spotlights are
+# represented.
+
+
+obj=citycar
+name=VauxhallCrestaPC(Black)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=1965
+intro_month=10
+retire_year=1982
+retire_month=6
+speed=155
+class=2,3
+maximum_comfortable_journey_minutes=65
+maximum_tolerable_journey_minutes=280
+
+Image[E]=./images/vauxhall-cresta-pc-black_E.0.0,-33,14
+Image[SE]=./images/vauxhall-cresta-pc-black_SE.0.0,-13,0
+Image[S]=./images/vauxhall-cresta-pc-black_S.0.0,0,0
+Image[SW]=./images/vauxhall-cresta-pc-black_SW.0.0,-8,10
+Image[W]=./images/vauxhall-cresta-pc-black_W.0.0,4,5
+Image[NW]=./images/vauxhall-cresta-pc-black_NW.0.0,12,10
+Image[N]=./images/vauxhall-cresta-pc-black_N.0.0,0,33
+Image[NE]=./images/vauxhall-cresta-pc-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallCrestaPC(Grey)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=1965
+intro_month=10
+retire_year=1981
+retire_month=6
+speed=155
+class=2,3
+maximum_comfortable_journey_minutes=65
+maximum_tolerable_journey_minutes=280
+
+Image[E]=./images/vauxhall-cresta-pc-grey_E.0.0,-33,14
+Image[SE]=./images/vauxhall-cresta-pc-grey_SE.0.0,-13,0
+Image[S]=./images/vauxhall-cresta-pc-grey_S.0.0,0,0
+Image[SW]=./images/vauxhall-cresta-pc-grey_SW.0.0,-8,10
+Image[W]=./images/vauxhall-cresta-pc-grey_W.0.0,4,5
+Image[NW]=./images/vauxhall-cresta-pc-grey_NW.0.0,12,10
+Image[N]=./images/vauxhall-cresta-pc-grey_N.0.0,0,33
+Image[NE]=./images/vauxhall-cresta-pc-grey_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallCrestaPC(Blue)
+copyright=JamesPetts
+
+DistributionWeight=9
+intro_year=1965
+intro_month=10
+retire_year=1980
+retire_month=6
+speed=155
+class=2,3
+maximum_comfortable_journey_minutes=65
+maximum_tolerable_journey_minutes=280
+
+Image[E]=./images/vauxhall-cresta-pc-blue_E.0.0,-33,14
+Image[SE]=./images/vauxhall-cresta-pc-blue_SE.0.0,-13,0
+Image[S]=./images/vauxhall-cresta-pc-blue_S.0.0,0,0
+Image[SW]=./images/vauxhall-cresta-pc-blue_SW.0.0,-8,10
+Image[W]=./images/vauxhall-cresta-pc-blue_W.0.0,4,5
+Image[NW]=./images/vauxhall-cresta-pc-blue_NW.0.0,12,10
+Image[N]=./images/vauxhall-cresta-pc-blue_N.0.0,0,33
+Image[NE]=./images/vauxhall-cresta-pc-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallCrestaPC(Green)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=1965
+intro_month=10
+retire_year=1979
+retire_month=6
+speed=155
+class=2,3
+maximum_comfortable_journey_minutes=65
+maximum_tolerable_journey_minutes=280
+
+Image[E]=./images/vauxhall-cresta-pc-green_E.0.0,-33,14
+Image[SE]=./images/vauxhall-cresta-pc-green_SE.0.0,-13,0
+Image[S]=./images/vauxhall-cresta-pc-green_S.0.0,0,0
+Image[SW]=./images/vauxhall-cresta-pc-green_SW.0.0,-8,10
+Image[W]=./images/vauxhall-cresta-pc-green_W.0.0,4,5
+Image[NW]=./images/vauxhall-cresta-pc-green_NW.0.0,12,10
+Image[N]=./images/vauxhall-cresta-pc-green_N.0.0,0,33
+Image[NE]=./images/vauxhall-cresta-pc-green_NE.0.0,0,24

@@ -1,0 +1,126 @@
+# Ford Puma five-door crossover, 2019 onwards.
+#
+# The revived Puma: the B-segment five-door crossover on the Fiesta platform
+# with the high waistline, the coupe-like roof and the 1.0 EcoBoost hybrid
+# powertrain. UK prices were confirmed and First Edition orders opened in
+# October 2019, with first deliveries in January 2020. This is NOT the 1997
+# coupe; the two share only the name.
+# https://en.wikipedia.org/wiki/Ford_Puma_(crossover)
+#
+# Dimensions 4.186 x 1.805 x 1.537 m, wheelbase 2.588 m (Ford UK Puma
+# brochure MY20.75, October 2020).
+#
+# Shape reference: NO true level side elevation exists. The side image is a
+# front three-quarter about 35-40 degrees off, so the flank is estimated
+# within the published dimensions and the limitation is recorded.
+#
+# Colours: grade (a), the Ford Puma UK brochure of June 2019: Blazer Blue
+# standard; Frozen White, Race Red, Agate Black and Solar Silver premium.
+# Weights 14, 12, 10, 8, total 44, provisional.
+#
+# Speed 190 km/h. Comfort 75/292, on the line 180 + 1.5 x 75. Classes 1,2.
+# Dates: intro October 2019; retires staggered 2040-2043.
+#
+# Metres master: citycars/4.5/ford-puma-2019.blend. Interchange:
+# citycars/4.5/ford-puma-2019.dae. References:
+# citycars/references/ford-puma-2019/ (gitignored).
+#
+# Accepted deviations: no level side elevation exists, so the flank stations
+# are estimated from oblique photographs within the published dimensions. The
+# pre-facelift five-door crossover is modelled. The grille texture, lamp
+# internals and lettering are simplified or omitted. The extended mirrors
+# measure 1.996 m across against the brochure 1.930 m; the body meets the
+# 1.805 m target.
+
+
+obj=citycar
+name=FordPuma2019(BlazerBlue)
+copyright=JamesPetts
+
+DistributionWeight=14
+intro_year=2019
+intro_month=10
+retire_year=2043
+retire_month=6
+speed=190
+class=1,2
+maximum_comfortable_journey_minutes=75
+maximum_tolerable_journey_minutes=292
+
+Image[E]=./images/ford-puma-2019-blazerblue_E.0.0,-33,14
+Image[SE]=./images/ford-puma-2019-blazerblue_SE.0.0,-13,0
+Image[S]=./images/ford-puma-2019-blazerblue_S.0.0,0,0
+Image[SW]=./images/ford-puma-2019-blazerblue_SW.0.0,-8,10
+Image[W]=./images/ford-puma-2019-blazerblue_W.0.0,4,5
+Image[NW]=./images/ford-puma-2019-blazerblue_NW.0.0,12,10
+Image[N]=./images/ford-puma-2019-blazerblue_N.0.0,0,33
+Image[NE]=./images/ford-puma-2019-blazerblue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FordPuma2019(FrozenWhite)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=2019
+intro_month=10
+retire_year=2042
+retire_month=6
+speed=190
+class=1,2
+maximum_comfortable_journey_minutes=75
+maximum_tolerable_journey_minutes=292
+
+Image[E]=./images/ford-puma-2019-frozenwhite_E.0.0,-33,14
+Image[SE]=./images/ford-puma-2019-frozenwhite_SE.0.0,-13,0
+Image[S]=./images/ford-puma-2019-frozenwhite_S.0.0,0,0
+Image[SW]=./images/ford-puma-2019-frozenwhite_SW.0.0,-8,10
+Image[W]=./images/ford-puma-2019-frozenwhite_W.0.0,4,5
+Image[NW]=./images/ford-puma-2019-frozenwhite_NW.0.0,12,10
+Image[N]=./images/ford-puma-2019-frozenwhite_N.0.0,0,33
+Image[NE]=./images/ford-puma-2019-frozenwhite_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FordPuma2019(RaceRed)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=2019
+intro_month=10
+retire_year=2041
+retire_month=6
+speed=190
+class=1,2
+maximum_comfortable_journey_minutes=75
+maximum_tolerable_journey_minutes=292
+
+Image[E]=./images/ford-puma-2019-racered_E.0.0,-33,14
+Image[SE]=./images/ford-puma-2019-racered_SE.0.0,-13,0
+Image[S]=./images/ford-puma-2019-racered_S.0.0,0,0
+Image[SW]=./images/ford-puma-2019-racered_SW.0.0,-8,10
+Image[W]=./images/ford-puma-2019-racered_W.0.0,4,5
+Image[NW]=./images/ford-puma-2019-racered_NW.0.0,12,10
+Image[N]=./images/ford-puma-2019-racered_N.0.0,0,33
+Image[NE]=./images/ford-puma-2019-racered_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FordPuma2019(AgateBlack)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=2019
+intro_month=10
+retire_year=2040
+retire_month=6
+speed=190
+class=1,2
+maximum_comfortable_journey_minutes=75
+maximum_tolerable_journey_minutes=292
+
+Image[E]=./images/ford-puma-2019-agateblack_E.0.0,-33,14
+Image[SE]=./images/ford-puma-2019-agateblack_SE.0.0,-13,0
+Image[S]=./images/ford-puma-2019-agateblack_S.0.0,0,0
+Image[SW]=./images/ford-puma-2019-agateblack_SW.0.0,-8,10
+Image[W]=./images/ford-puma-2019-agateblack_W.0.0,4,5
+Image[NW]=./images/ford-puma-2019-agateblack_NW.0.0,12,10
+Image[N]=./images/ford-puma-2019-agateblack_N.0.0,0,33
+Image[NE]=./images/ford-puma-2019-agateblack_NE.0.0,0,24

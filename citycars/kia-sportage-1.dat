@@ -1,0 +1,126 @@
+# Kia Sportage first generation five-door, 1995-2003.
+#
+# The original Sportage: the body-on-frame compact 4x4 based on Mazda Bongo
+# mechanicals, with the separate chassis, the upright body and the tailgate-
+# mounted spare. UK sales began in 1995 (Kia UK press office; RAC Drive).
+# https://en.wikipedia.org/wiki/Kia_Sportage
+#
+# Dimensions 4.245 x 1.730 x 1.650 m, wheelbase 2.650 m. The English
+# Wikipedia infobox's 1.855 m width is 125 mm wider than three independent
+# catalogues and wider than the 2010 car; 1.730 m is used and the discrepancy
+# is recorded.
+#
+# Shape reference: NO true level side profile exists. Image 1 is a near-side
+# view with the front face visible; the five-door body and external spare
+# govern. The limitation is recorded.
+#
+# Colours: grade (d); no UK chart was found. Black, green, silver and red
+# are plain names. Weights 9, 8, 7, 6, total 30, provisional.
+#
+# Speed 160 km/h. Comfort 70/285, on the line 180 + 1.5 x 70: a tall,
+# utilitarian body-on-frame cabin. Classes 2,3.
+# Dates are road presence: 1995 intro, retires staggered 2014-2017.
+#
+# Metres master: citycars/4.5/kia-sportage-1.blend. Interchange:
+# citycars/4.5/kia-sportage-1.dae. References:
+# citycars/references/kia-sportage-1/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: a thin dark bumper-corner tab is present in the
+# three-quarter views but does not read at 128 px; the arch cladding is a heavy
+# ring rather than a thin lip. The two-tone lower body is not modelled and the
+# tailgate spare is a plain disc without carrier or cover. The greenhouse is
+# shallower than the photograph's. At 128 px the boxy body, exposed spare and
+# slotted grille read as a first-generation Sportage.
+
+
+obj=citycar
+name=KiaSportage1(Black)
+copyright=JamesPetts
+
+DistributionWeight=9
+intro_year=1995
+intro_month=8
+retire_year=2017
+retire_month=6
+speed=160
+class=2,3
+maximum_comfortable_journey_minutes=70
+maximum_tolerable_journey_minutes=285
+
+Image[E]=./images/kia-sportage-1-black_E.0.0,-33,14
+Image[SE]=./images/kia-sportage-1-black_SE.0.0,-13,0
+Image[S]=./images/kia-sportage-1-black_S.0.0,0,0
+Image[SW]=./images/kia-sportage-1-black_SW.0.0,-8,10
+Image[W]=./images/kia-sportage-1-black_W.0.0,4,5
+Image[NW]=./images/kia-sportage-1-black_NW.0.0,12,10
+Image[N]=./images/kia-sportage-1-black_N.0.0,0,33
+Image[NE]=./images/kia-sportage-1-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=KiaSportage1(Green)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=1995
+intro_month=8
+retire_year=2016
+retire_month=6
+speed=160
+class=2,3
+maximum_comfortable_journey_minutes=70
+maximum_tolerable_journey_minutes=285
+
+Image[E]=./images/kia-sportage-1-green_E.0.0,-33,14
+Image[SE]=./images/kia-sportage-1-green_SE.0.0,-13,0
+Image[S]=./images/kia-sportage-1-green_S.0.0,0,0
+Image[SW]=./images/kia-sportage-1-green_SW.0.0,-8,10
+Image[W]=./images/kia-sportage-1-green_W.0.0,4,5
+Image[NW]=./images/kia-sportage-1-green_NW.0.0,12,10
+Image[N]=./images/kia-sportage-1-green_N.0.0,0,33
+Image[NE]=./images/kia-sportage-1-green_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=KiaSportage1(Silver)
+copyright=JamesPetts
+
+DistributionWeight=7
+intro_year=1995
+intro_month=8
+retire_year=2015
+retire_month=6
+speed=160
+class=2,3
+maximum_comfortable_journey_minutes=70
+maximum_tolerable_journey_minutes=285
+
+Image[E]=./images/kia-sportage-1-silver_E.0.0,-33,14
+Image[SE]=./images/kia-sportage-1-silver_SE.0.0,-13,0
+Image[S]=./images/kia-sportage-1-silver_S.0.0,0,0
+Image[SW]=./images/kia-sportage-1-silver_SW.0.0,-8,10
+Image[W]=./images/kia-sportage-1-silver_W.0.0,4,5
+Image[NW]=./images/kia-sportage-1-silver_NW.0.0,12,10
+Image[N]=./images/kia-sportage-1-silver_N.0.0,0,33
+Image[NE]=./images/kia-sportage-1-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=KiaSportage1(Red)
+copyright=JamesPetts
+
+DistributionWeight=6
+intro_year=1995
+intro_month=8
+retire_year=2014
+retire_month=6
+speed=160
+class=2,3
+maximum_comfortable_journey_minutes=70
+maximum_tolerable_journey_minutes=285
+
+Image[E]=./images/kia-sportage-1-red_E.0.0,-33,14
+Image[SE]=./images/kia-sportage-1-red_SE.0.0,-13,0
+Image[S]=./images/kia-sportage-1-red_S.0.0,0,0
+Image[SW]=./images/kia-sportage-1-red_SW.0.0,-8,10
+Image[W]=./images/kia-sportage-1-red_W.0.0,4,5
+Image[NW]=./images/kia-sportage-1-red_NW.0.0,12,10
+Image[N]=./images/kia-sportage-1-red_N.0.0,0,33
+Image[NE]=./images/kia-sportage-1-red_NE.0.0,0,24

@@ -1,0 +1,121 @@
+# Hillman Minx Series V four-door saloon, 1956-1967.
+#
+# The Series I-V Minx, represented by the Series V the pack photographs. The
+# range ran 1956-67 and the later Series V/VI are the best-evidenced cars;
+# the earlier series are not separately represented.
+# https://en.wikipedia.org/wiki/Hillman_Minx
+#
+# Dimensions 4.115 x 1.543 x 1.511 m, wheelbase 2.438 m (Series IIIC).
+#
+# Shape reference: NO true side profile exists. Image 1 is a front
+# three-quarter about 35 degrees off square; the flank is estimated from it
+# and the other views within the published dimensions. The pack photographs
+# a IIIA and a Series V. The limitation is recorded.
+#
+# Colours: grade (d); no period chart was found. Black, white, red and blue
+# are plain names. Weights 18, 16, 14, 12, total 60, provisional.
+#
+# Speed 130 km/h. Comfort 55/265, on the line 180 + 1.5 x 55. Classes 1,2.
+# Dates are road presence: 1956 intro, retires staggered 1982-1985.
+#
+# Metres master: citycars/4.5/hillman-minx-series.blend. Interchange:
+# citycars/4.5/hillman-minx-series.dae. References:
+# citycars/references/hillman-minx-series/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: there is no true rear view; the fins and lamp housings
+# are simplified. The IIIA's grille and roof rack were not copied, and the other
+# series are not separately represented. At 128 px the Series V grille, lamps
+# and finned tail read as a Series V Minx.
+
+
+obj=citycar
+name=HillmanMinxSeries(Black)
+copyright=JamesPetts
+
+DistributionWeight=18
+intro_year=1956
+intro_month=1
+retire_year=1985
+retire_month=6
+speed=130
+class=1,2
+maximum_comfortable_journey_minutes=55
+maximum_tolerable_journey_minutes=265
+
+Image[E]=./images/hillman-minx-series-black_E.0.0,-33,14
+Image[SE]=./images/hillman-minx-series-black_SE.0.0,-13,0
+Image[S]=./images/hillman-minx-series-black_S.0.0,0,0
+Image[SW]=./images/hillman-minx-series-black_SW.0.0,-8,10
+Image[W]=./images/hillman-minx-series-black_W.0.0,4,5
+Image[NW]=./images/hillman-minx-series-black_NW.0.0,12,10
+Image[N]=./images/hillman-minx-series-black_N.0.0,0,33
+Image[NE]=./images/hillman-minx-series-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=HillmanMinxSeries(White)
+copyright=JamesPetts
+
+DistributionWeight=16
+intro_year=1956
+intro_month=1
+retire_year=1984
+retire_month=6
+speed=130
+class=1,2
+maximum_comfortable_journey_minutes=55
+maximum_tolerable_journey_minutes=265
+
+Image[E]=./images/hillman-minx-series-white_E.0.0,-33,14
+Image[SE]=./images/hillman-minx-series-white_SE.0.0,-13,0
+Image[S]=./images/hillman-minx-series-white_S.0.0,0,0
+Image[SW]=./images/hillman-minx-series-white_SW.0.0,-8,10
+Image[W]=./images/hillman-minx-series-white_W.0.0,4,5
+Image[NW]=./images/hillman-minx-series-white_NW.0.0,12,10
+Image[N]=./images/hillman-minx-series-white_N.0.0,0,33
+Image[NE]=./images/hillman-minx-series-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=HillmanMinxSeries(Red)
+copyright=JamesPetts
+
+DistributionWeight=14
+intro_year=1956
+intro_month=1
+retire_year=1983
+retire_month=6
+speed=130
+class=1,2
+maximum_comfortable_journey_minutes=55
+maximum_tolerable_journey_minutes=265
+
+Image[E]=./images/hillman-minx-series-red_E.0.0,-33,14
+Image[SE]=./images/hillman-minx-series-red_SE.0.0,-13,0
+Image[S]=./images/hillman-minx-series-red_S.0.0,0,0
+Image[SW]=./images/hillman-minx-series-red_SW.0.0,-8,10
+Image[W]=./images/hillman-minx-series-red_W.0.0,4,5
+Image[NW]=./images/hillman-minx-series-red_NW.0.0,12,10
+Image[N]=./images/hillman-minx-series-red_N.0.0,0,33
+Image[NE]=./images/hillman-minx-series-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=HillmanMinxSeries(Blue)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=1956
+intro_month=1
+retire_year=1982
+retire_month=6
+speed=130
+class=1,2
+maximum_comfortable_journey_minutes=55
+maximum_tolerable_journey_minutes=265
+
+Image[E]=./images/hillman-minx-series-blue_E.0.0,-33,14
+Image[SE]=./images/hillman-minx-series-blue_SE.0.0,-13,0
+Image[S]=./images/hillman-minx-series-blue_S.0.0,0,0
+Image[SW]=./images/hillman-minx-series-blue_SW.0.0,-8,10
+Image[W]=./images/hillman-minx-series-blue_W.0.0,4,5
+Image[NW]=./images/hillman-minx-series-blue_NW.0.0,12,10
+Image[N]=./images/hillman-minx-series-blue_N.0.0,0,33
+Image[NE]=./images/hillman-minx-series-blue_NE.0.0,0,24

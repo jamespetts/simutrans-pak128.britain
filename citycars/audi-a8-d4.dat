@@ -1,0 +1,119 @@
+# Audi A8 D4 four-door saloon, 2010-2017.
+#
+# The third A8: the aluminium D4 body with the wide single-frame grille,
+# the full-LED headlamps and the long-wheelbase option. The S8 and the
+# W12 are variants on the same shell.
+# https://en.wikipedia.org/wiki/Audi_A8
+#
+# Dimensions 5.131 x 1.948 x 1.461 m, wheelbase 2.992 m.
+#
+# Shape reference: image 1 is a near broadside of a 2012 4.2 quattro; the
+# front and rear three-quarters are the same car. Level is not verified.
+#
+# Colours: grade (d); no UK chart was established. Black, silver, grey and
+# blue are plain names. Weights 9, 8, 7, 6, total 30, provisional.
+#
+# Speed 250 km/h. Comfort 105/337, on the line 180 + 1.5 x 105. Classes 3,4.
+# Dates are road presence: 2010 intro, retires staggered 2034-2037.
+#
+# Metres master: citycars/4.5/audi-a8-d4.blend. Interchange:
+# citycars/4.5/audi-a8-d4.dae. References:
+# citycars/references/audi-a8-d4/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: there is no door-shoulder scallop or wheel-arch flare,
+# and the lamps are flat panels rather than sculpted units; the rear window is
+# more upright than the photograph's. At 128 px the large single-frame grille,
+# slim angular lamps and long low body read as a D4 A8.
+
+
+obj=citycar
+name=AudiA8D4(Black)
+copyright=JamesPetts
+
+DistributionWeight=9
+intro_year=2010
+intro_month=1
+retire_year=2037
+retire_month=6
+speed=250
+class=3,4
+maximum_comfortable_journey_minutes=105
+maximum_tolerable_journey_minutes=337
+
+Image[E]=./images/audi-a8-d4-black_E.0.0,-33,14
+Image[SE]=./images/audi-a8-d4-black_SE.0.0,-13,0
+Image[S]=./images/audi-a8-d4-black_S.0.0,0,0
+Image[SW]=./images/audi-a8-d4-black_SW.0.0,-8,10
+Image[W]=./images/audi-a8-d4-black_W.0.0,4,5
+Image[NW]=./images/audi-a8-d4-black_NW.0.0,12,10
+Image[N]=./images/audi-a8-d4-black_N.0.0,0,33
+Image[NE]=./images/audi-a8-d4-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=AudiA8D4(Silver)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=2010
+intro_month=1
+retire_year=2036
+retire_month=6
+speed=250
+class=3,4
+maximum_comfortable_journey_minutes=105
+maximum_tolerable_journey_minutes=337
+
+Image[E]=./images/audi-a8-d4-silver_E.0.0,-33,14
+Image[SE]=./images/audi-a8-d4-silver_SE.0.0,-13,0
+Image[S]=./images/audi-a8-d4-silver_S.0.0,0,0
+Image[SW]=./images/audi-a8-d4-silver_SW.0.0,-8,10
+Image[W]=./images/audi-a8-d4-silver_W.0.0,4,5
+Image[NW]=./images/audi-a8-d4-silver_NW.0.0,12,10
+Image[N]=./images/audi-a8-d4-silver_N.0.0,0,33
+Image[NE]=./images/audi-a8-d4-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=AudiA8D4(Grey)
+copyright=JamesPetts
+
+DistributionWeight=7
+intro_year=2010
+intro_month=1
+retire_year=2035
+retire_month=6
+speed=250
+class=3,4
+maximum_comfortable_journey_minutes=105
+maximum_tolerable_journey_minutes=337
+
+Image[E]=./images/audi-a8-d4-grey_E.0.0,-33,14
+Image[SE]=./images/audi-a8-d4-grey_SE.0.0,-13,0
+Image[S]=./images/audi-a8-d4-grey_S.0.0,0,0
+Image[SW]=./images/audi-a8-d4-grey_SW.0.0,-8,10
+Image[W]=./images/audi-a8-d4-grey_W.0.0,4,5
+Image[NW]=./images/audi-a8-d4-grey_NW.0.0,12,10
+Image[N]=./images/audi-a8-d4-grey_N.0.0,0,33
+Image[NE]=./images/audi-a8-d4-grey_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=AudiA8D4(Blue)
+copyright=JamesPetts
+
+DistributionWeight=6
+intro_year=2010
+intro_month=1
+retire_year=2034
+retire_month=6
+speed=250
+class=3,4
+maximum_comfortable_journey_minutes=105
+maximum_tolerable_journey_minutes=337
+
+Image[E]=./images/audi-a8-d4-blue_E.0.0,-33,14
+Image[SE]=./images/audi-a8-d4-blue_SE.0.0,-13,0
+Image[S]=./images/audi-a8-d4-blue_S.0.0,0,0
+Image[SW]=./images/audi-a8-d4-blue_SW.0.0,-8,10
+Image[W]=./images/audi-a8-d4-blue_W.0.0,4,5
+Image[NW]=./images/audi-a8-d4-blue_NW.0.0,12,10
+Image[N]=./images/audi-a8-d4-blue_N.0.0,0,33
+Image[NE]=./images/audi-a8-d4-blue_NE.0.0,0,24

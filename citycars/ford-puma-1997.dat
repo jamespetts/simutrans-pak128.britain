@@ -1,0 +1,123 @@
+# Ford Puma three-door coupe, 1997-2002.
+#
+# The original Puma: the Fiesta-based four-seat coupe with the rounded New
+# Edge styling, the long bonnet and the curved rear haunch. UK sales from
+# mid-July 1997, at first with the 1.7 only; the 1.4 followed in February 1998
+# and the 1.6 in October 2000. Not to be confused with the 2019 Puma
+# crossover, which shares only the name.
+# https://en.wikipedia.org/wiki/Ford_Puma
+#
+# Dimensions 3.984 x 1.674 x 1.345 m, wheelbase 2.445 m.
+#
+# Shape reference: the side photograph is square in yaw within about 5
+# degrees but the camera is 10-15 degrees above the centre line, so the roof
+# and bonnet tops show and the flank is a close estimate rather than an
+# orthographic trace. The car is Spanish-registered.
+#
+# Colours: grade (d); no UK colour list was read. Blue, Red, Silver and Black
+# are plain names. Weights 14, 12, 10, 8, total 44, provisional.
+#
+# Speed 200 km/h. Comfort 65/280, on the line 180 + 1.5 x 65. Classes 1,2.
+# Dates: intro July 1997; retires staggered 2013-2016 as a road tail.
+#
+# Metres master: citycars/4.5/ford-puma-1997.blend. Interchange:
+# citycars/4.5/ford-puma-1997.dae. References:
+# citycars/references/ford-puma-1997/ (gitignored).
+#
+# Accepted deviations: the flank is a close estimate from a near-broadside
+# photograph taken about 10-15 degrees above the centre line, with the nose
+# partly obscured. The rear lamp internals, the deck-lip contours and the
+# intake detail are simplified.
+
+
+obj=citycar
+name=FordPuma1997(Blue)
+copyright=JamesPetts
+
+DistributionWeight=14
+intro_year=1997
+intro_month=7
+retire_year=2016
+retire_month=6
+speed=200
+class=1,2
+maximum_comfortable_journey_minutes=65
+maximum_tolerable_journey_minutes=280
+
+Image[E]=./images/ford-puma-1997-blue_E.0.0,-33,14
+Image[SE]=./images/ford-puma-1997-blue_SE.0.0,-13,0
+Image[S]=./images/ford-puma-1997-blue_S.0.0,0,0
+Image[SW]=./images/ford-puma-1997-blue_SW.0.0,-8,10
+Image[W]=./images/ford-puma-1997-blue_W.0.0,4,5
+Image[NW]=./images/ford-puma-1997-blue_NW.0.0,12,10
+Image[N]=./images/ford-puma-1997-blue_N.0.0,0,33
+Image[NE]=./images/ford-puma-1997-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FordPuma1997(Red)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=1997
+intro_month=7
+retire_year=2015
+retire_month=6
+speed=200
+class=1,2
+maximum_comfortable_journey_minutes=65
+maximum_tolerable_journey_minutes=280
+
+Image[E]=./images/ford-puma-1997-red_E.0.0,-33,14
+Image[SE]=./images/ford-puma-1997-red_SE.0.0,-13,0
+Image[S]=./images/ford-puma-1997-red_S.0.0,0,0
+Image[SW]=./images/ford-puma-1997-red_SW.0.0,-8,10
+Image[W]=./images/ford-puma-1997-red_W.0.0,4,5
+Image[NW]=./images/ford-puma-1997-red_NW.0.0,12,10
+Image[N]=./images/ford-puma-1997-red_N.0.0,0,33
+Image[NE]=./images/ford-puma-1997-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FordPuma1997(Silver)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=1997
+intro_month=7
+retire_year=2014
+retire_month=6
+speed=200
+class=1,2
+maximum_comfortable_journey_minutes=65
+maximum_tolerable_journey_minutes=280
+
+Image[E]=./images/ford-puma-1997-silver_E.0.0,-33,14
+Image[SE]=./images/ford-puma-1997-silver_SE.0.0,-13,0
+Image[S]=./images/ford-puma-1997-silver_S.0.0,0,0
+Image[SW]=./images/ford-puma-1997-silver_SW.0.0,-8,10
+Image[W]=./images/ford-puma-1997-silver_W.0.0,4,5
+Image[NW]=./images/ford-puma-1997-silver_NW.0.0,12,10
+Image[N]=./images/ford-puma-1997-silver_N.0.0,0,33
+Image[NE]=./images/ford-puma-1997-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FordPuma1997(Black)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=1997
+intro_month=7
+retire_year=2013
+retire_month=6
+speed=200
+class=1,2
+maximum_comfortable_journey_minutes=65
+maximum_tolerable_journey_minutes=280
+
+Image[E]=./images/ford-puma-1997-black_E.0.0,-33,14
+Image[SE]=./images/ford-puma-1997-black_SE.0.0,-13,0
+Image[S]=./images/ford-puma-1997-black_S.0.0,0,0
+Image[SW]=./images/ford-puma-1997-black_SW.0.0,-8,10
+Image[W]=./images/ford-puma-1997-black_W.0.0,4,5
+Image[NW]=./images/ford-puma-1997-black_NW.0.0,12,10
+Image[N]=./images/ford-puma-1997-black_N.0.0,0,33
+Image[NE]=./images/ford-puma-1997-black_NE.0.0,0,24

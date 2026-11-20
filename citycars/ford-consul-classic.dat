@@ -1,0 +1,123 @@
+# Ford Consul Classic four-door saloon, 1961-1963.
+#
+# The 109E/116E Consul Classic: the four-door with the quad headlamps in a
+# wide chrome grille, the reverse-rake rear screen and the projecting roof
+# overhang. 111,225 built across both body styles. It is NOT a Cortina and
+# NOT the 1972-76 Granada-based Consul.
+# https://en.wikipedia.org/wiki/Ford_Consul_Classic
+#
+# Dimensions 4.337 x 1.651 x 1.422 m, wheelbase 2.515 m.
+#
+# Shape reference: NO true level side elevation exists. Image 1 is about 40
+# degrees off square; the flank is estimated from it and the front and rear
+# three-quarters within the published dimensions. The limitation is recorded.
+#
+# Colours: grade (c), the Consul Capri 335 identification sheet's Ford plate
+# codes and promotional names. Ermine White, Ambassador Blue, Goodwood Green
+# and Monaco Red. Weights 8, 7, 5, 5, total 25, provisional.
+#
+# Speed 135 km/h. Comfort 55/265, on the line 180 + 1.5 x 55. Classes 1,2.
+# Dates are road presence: 1961 intro, retires staggered 1978-1981.
+#
+# Metres master: citycars/4.5/ford-consul-classic.blend. Interchange:
+# citycars/4.5/ford-consul-classic.dae. References:
+# citycars/references/ford-consul-classic/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: there is no true side elevation; images 2 and 3 govern
+# the four-door build, and the two-door in image 1 and its non-standard alloys
+# were excluded. The rear glass and roof corners are too angular, and the boot
+# trim is simplified. At 128 px the quad lamps, reverse-rake screen and roof
+# overhang read as a Consul Classic.
+
+
+obj=citycar
+name=FordConsulClassic(ErmineWhite)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=1961
+intro_month=5
+retire_year=1981
+retire_month=6
+speed=135
+class=1,2
+maximum_comfortable_journey_minutes=55
+maximum_tolerable_journey_minutes=265
+
+Image[E]=./images/ford-consul-classic-erminewhite_E.0.0,-33,14
+Image[SE]=./images/ford-consul-classic-erminewhite_SE.0.0,-13,0
+Image[S]=./images/ford-consul-classic-erminewhite_S.0.0,0,0
+Image[SW]=./images/ford-consul-classic-erminewhite_SW.0.0,-8,10
+Image[W]=./images/ford-consul-classic-erminewhite_W.0.0,4,5
+Image[NW]=./images/ford-consul-classic-erminewhite_NW.0.0,12,10
+Image[N]=./images/ford-consul-classic-erminewhite_N.0.0,0,33
+Image[NE]=./images/ford-consul-classic-erminewhite_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FordConsulClassic(AmbassadorBlue)
+copyright=JamesPetts
+
+DistributionWeight=7
+intro_year=1961
+intro_month=5
+retire_year=1980
+retire_month=6
+speed=135
+class=1,2
+maximum_comfortable_journey_minutes=55
+maximum_tolerable_journey_minutes=265
+
+Image[E]=./images/ford-consul-classic-ambassadorblue_E.0.0,-33,14
+Image[SE]=./images/ford-consul-classic-ambassadorblue_SE.0.0,-13,0
+Image[S]=./images/ford-consul-classic-ambassadorblue_S.0.0,0,0
+Image[SW]=./images/ford-consul-classic-ambassadorblue_SW.0.0,-8,10
+Image[W]=./images/ford-consul-classic-ambassadorblue_W.0.0,4,5
+Image[NW]=./images/ford-consul-classic-ambassadorblue_NW.0.0,12,10
+Image[N]=./images/ford-consul-classic-ambassadorblue_N.0.0,0,33
+Image[NE]=./images/ford-consul-classic-ambassadorblue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FordConsulClassic(GoodwoodGreen)
+copyright=JamesPetts
+
+DistributionWeight=5
+intro_year=1961
+intro_month=5
+retire_year=1979
+retire_month=6
+speed=135
+class=1,2
+maximum_comfortable_journey_minutes=55
+maximum_tolerable_journey_minutes=265
+
+Image[E]=./images/ford-consul-classic-goodwoodgreen_E.0.0,-33,14
+Image[SE]=./images/ford-consul-classic-goodwoodgreen_SE.0.0,-13,0
+Image[S]=./images/ford-consul-classic-goodwoodgreen_S.0.0,0,0
+Image[SW]=./images/ford-consul-classic-goodwoodgreen_SW.0.0,-8,10
+Image[W]=./images/ford-consul-classic-goodwoodgreen_W.0.0,4,5
+Image[NW]=./images/ford-consul-classic-goodwoodgreen_NW.0.0,12,10
+Image[N]=./images/ford-consul-classic-goodwoodgreen_N.0.0,0,33
+Image[NE]=./images/ford-consul-classic-goodwoodgreen_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FordConsulClassic(MonacoRed)
+copyright=JamesPetts
+
+DistributionWeight=5
+intro_year=1961
+intro_month=5
+retire_year=1978
+retire_month=6
+speed=135
+class=1,2
+maximum_comfortable_journey_minutes=55
+maximum_tolerable_journey_minutes=265
+
+Image[E]=./images/ford-consul-classic-monacored_E.0.0,-33,14
+Image[SE]=./images/ford-consul-classic-monacored_SE.0.0,-13,0
+Image[S]=./images/ford-consul-classic-monacored_S.0.0,0,0
+Image[SW]=./images/ford-consul-classic-monacored_SW.0.0,-8,10
+Image[W]=./images/ford-consul-classic-monacored_W.0.0,4,5
+Image[NW]=./images/ford-consul-classic-monacored_NW.0.0,12,10
+Image[N]=./images/ford-consul-classic-monacored_N.0.0,0,33
+Image[NE]=./images/ford-consul-classic-monacored_NE.0.0,0,24

@@ -1,0 +1,126 @@
+# Vauxhall Ten four-door saloon, 1937-1940 and 1946-1947.
+#
+# The Ten: launched in October 1937 with the first customer car on
+# 1 November 1937, and the first British car of unitary construction.
+# Production stopped in May 1940 when Luton turned to trucks and tanks, and
+# the model returned in 1946 as the HIY before withdrawal in 1947, so wartime
+# production is not included. The four-door saloon is modelled; the 1938-39
+# separate-chassis coupe is not represented.
+# https://en.wikipedia.org/wiki/Vauxhall_Ten
+#
+# Dimensions: length 155.5 in (3.950 m), width 61 in (1.549 m), wheelbase
+# 94 in (2.388 m). The post-war car is 159 in long on a 97.75 in wheelbase.
+# Height was not established and is estimated from the photograph.
+#
+# Shape reference: NO true level profile exists. Image 1 is about 40 degrees
+# off the side and only 960 px wide, so the flank is a reasoned estimate
+# within the published dimensions and the limitation is recorded.
+#
+# Colours: grade (d); no Vauxhall colour list was found. Black, Maroon, Cream
+# and Dark Blue are observed colours. Weights 12, 10, 9, 8, total 39,
+# provisional.
+#
+# Speed 100 km/h. Comfort 25/218, on the line 180 + 1.5 x 25. Classes 0,1.
+# Dates: intro November 1937; retires staggered 1955-1958 as a road tail.
+#
+# Metres master: citycars/4.5/vauxhall-ten.blend. Interchange:
+# citycars/4.5/vauxhall-ten.dae. References:
+# citycars/references/vauxhall-ten/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the flank and the 1.600 m height are estimates from a
+# 40-degree view. The master represents the pre-war H-type with its vertical
+# grille and 2.388 m wheelbase; the 1946-47 HIY had a longer wheelbase and a
+# horizontal grille and is not separately modelled.
+
+
+obj=citycar
+name=VauxhallTen(Black)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=1937
+intro_month=11
+retire_year=1958
+retire_month=6
+speed=100
+class=0,1
+maximum_comfortable_journey_minutes=25
+maximum_tolerable_journey_minutes=218
+
+Image[E]=./images/vauxhall-ten-black_E.0.0,-33,14
+Image[SE]=./images/vauxhall-ten-black_SE.0.0,-13,0
+Image[S]=./images/vauxhall-ten-black_S.0.0,0,0
+Image[SW]=./images/vauxhall-ten-black_SW.0.0,-8,10
+Image[W]=./images/vauxhall-ten-black_W.0.0,4,5
+Image[NW]=./images/vauxhall-ten-black_NW.0.0,12,10
+Image[N]=./images/vauxhall-ten-black_N.0.0,0,33
+Image[NE]=./images/vauxhall-ten-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallTen(Maroon)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=1937
+intro_month=11
+retire_year=1957
+retire_month=6
+speed=100
+class=0,1
+maximum_comfortable_journey_minutes=25
+maximum_tolerable_journey_minutes=218
+
+Image[E]=./images/vauxhall-ten-maroon_E.0.0,-33,14
+Image[SE]=./images/vauxhall-ten-maroon_SE.0.0,-13,0
+Image[S]=./images/vauxhall-ten-maroon_S.0.0,0,0
+Image[SW]=./images/vauxhall-ten-maroon_SW.0.0,-8,10
+Image[W]=./images/vauxhall-ten-maroon_W.0.0,4,5
+Image[NW]=./images/vauxhall-ten-maroon_NW.0.0,12,10
+Image[N]=./images/vauxhall-ten-maroon_N.0.0,0,33
+Image[NE]=./images/vauxhall-ten-maroon_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallTen(Cream)
+copyright=JamesPetts
+
+DistributionWeight=9
+intro_year=1937
+intro_month=11
+retire_year=1956
+retire_month=6
+speed=100
+class=0,1
+maximum_comfortable_journey_minutes=25
+maximum_tolerable_journey_minutes=218
+
+Image[E]=./images/vauxhall-ten-cream_E.0.0,-33,14
+Image[SE]=./images/vauxhall-ten-cream_SE.0.0,-13,0
+Image[S]=./images/vauxhall-ten-cream_S.0.0,0,0
+Image[SW]=./images/vauxhall-ten-cream_SW.0.0,-8,10
+Image[W]=./images/vauxhall-ten-cream_W.0.0,4,5
+Image[NW]=./images/vauxhall-ten-cream_NW.0.0,12,10
+Image[N]=./images/vauxhall-ten-cream_N.0.0,0,33
+Image[NE]=./images/vauxhall-ten-cream_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallTen(DarkBlue)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=1937
+intro_month=11
+retire_year=1955
+retire_month=6
+speed=100
+class=0,1
+maximum_comfortable_journey_minutes=25
+maximum_tolerable_journey_minutes=218
+
+Image[E]=./images/vauxhall-ten-darkblue_E.0.0,-33,14
+Image[SE]=./images/vauxhall-ten-darkblue_SE.0.0,-13,0
+Image[S]=./images/vauxhall-ten-darkblue_S.0.0,0,0
+Image[SW]=./images/vauxhall-ten-darkblue_SW.0.0,-8,10
+Image[W]=./images/vauxhall-ten-darkblue_W.0.0,4,5
+Image[NW]=./images/vauxhall-ten-darkblue_NW.0.0,12,10
+Image[N]=./images/vauxhall-ten-darkblue_N.0.0,0,33
+Image[NE]=./images/vauxhall-ten-darkblue_NE.0.0,0,24

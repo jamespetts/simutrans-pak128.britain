@@ -1,0 +1,124 @@
+# Nissan Sunny N14 five-door hatchback, 1991-1995.
+#
+# The last Sunny sold in Europe: the rounded N14 body with the small grille
+# badge and the SUNNY lettering across the tailgate. Sold in Britain from
+# March 1991. The three-door hatchback, the four-door saloon and the estate
+# were also UK bodies and are not represented; the five-door is modelled
+# because it is the body with a true level side photograph.
+# https://en.wikipedia.org/wiki/Nissan_Pulsar
+#
+# Dimensions 4.146 x 1.660 x 1.400 m, wheelbase 2.430 m (Wikipedia infobox;
+# the saloon is 4.230 m).
+#
+# Shape reference: image 1 is a true level side elevation of an Australian
+# Pulsar-badged N14 five-door, the same shell as the UK Sunny. Images 2 and 3
+# are a UK three-door, used for the nose, the tail, the badges and the lamp
+# forms; image 4 is a saloon front, used for the grille and headlamps.
+#
+# Colours: grade (d); no UK colour chart was found. White, Red, Blue and Silver
+# are plain names. Weights 12, 10, 9, 8, total 39, provisional.
+#
+# Speed 175 km/h. Comfort 70/285, on the line 180 + 1.5 x 70. Classes 1,2.
+# Dates: intro March 1991; retire staggered 2010-2013 as a road tail, the last
+# Sunnys being replaced by the Almera late in 1995.
+#
+# Metres master: citycars/4.5/nissan-sunny-n14.blend. Interchange:
+# citycars/4.5/nissan-sunny-n14.dae. References:
+# citycars/references/nissan-sunny-n14/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the five-door hatchback only; no three-door or saloon
+# body geometry was copied. The bumper corner transitions and the lamp wrap
+# are faceted, and the wheel covers and badging are simplified.
+
+
+obj=citycar
+name=NissanSunnyN14(White)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=1991
+intro_month=3
+retire_year=2013
+retire_month=6
+speed=175
+class=1,2
+maximum_comfortable_journey_minutes=70
+maximum_tolerable_journey_minutes=285
+
+Image[E]=./images/nissan-sunny-n14-white_E.0.0,-33,14
+Image[SE]=./images/nissan-sunny-n14-white_SE.0.0,-13,0
+Image[S]=./images/nissan-sunny-n14-white_S.0.0,0,0
+Image[SW]=./images/nissan-sunny-n14-white_SW.0.0,-8,10
+Image[W]=./images/nissan-sunny-n14-white_W.0.0,4,5
+Image[NW]=./images/nissan-sunny-n14-white_NW.0.0,12,10
+Image[N]=./images/nissan-sunny-n14-white_N.0.0,0,33
+Image[NE]=./images/nissan-sunny-n14-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=NissanSunnyN14(Red)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=1991
+intro_month=3
+retire_year=2012
+retire_month=6
+speed=175
+class=1,2
+maximum_comfortable_journey_minutes=70
+maximum_tolerable_journey_minutes=285
+
+Image[E]=./images/nissan-sunny-n14-red_E.0.0,-33,14
+Image[SE]=./images/nissan-sunny-n14-red_SE.0.0,-13,0
+Image[S]=./images/nissan-sunny-n14-red_S.0.0,0,0
+Image[SW]=./images/nissan-sunny-n14-red_SW.0.0,-8,10
+Image[W]=./images/nissan-sunny-n14-red_W.0.0,4,5
+Image[NW]=./images/nissan-sunny-n14-red_NW.0.0,12,10
+Image[N]=./images/nissan-sunny-n14-red_N.0.0,0,33
+Image[NE]=./images/nissan-sunny-n14-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=NissanSunnyN14(Blue)
+copyright=JamesPetts
+
+DistributionWeight=9
+intro_year=1991
+intro_month=3
+retire_year=2011
+retire_month=6
+speed=175
+class=1,2
+maximum_comfortable_journey_minutes=70
+maximum_tolerable_journey_minutes=285
+
+Image[E]=./images/nissan-sunny-n14-blue_E.0.0,-33,14
+Image[SE]=./images/nissan-sunny-n14-blue_SE.0.0,-13,0
+Image[S]=./images/nissan-sunny-n14-blue_S.0.0,0,0
+Image[SW]=./images/nissan-sunny-n14-blue_SW.0.0,-8,10
+Image[W]=./images/nissan-sunny-n14-blue_W.0.0,4,5
+Image[NW]=./images/nissan-sunny-n14-blue_NW.0.0,12,10
+Image[N]=./images/nissan-sunny-n14-blue_N.0.0,0,33
+Image[NE]=./images/nissan-sunny-n14-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=NissanSunnyN14(Silver)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=1991
+intro_month=3
+retire_year=2010
+retire_month=6
+speed=175
+class=1,2
+maximum_comfortable_journey_minutes=70
+maximum_tolerable_journey_minutes=285
+
+Image[E]=./images/nissan-sunny-n14-silver_E.0.0,-33,14
+Image[SE]=./images/nissan-sunny-n14-silver_SE.0.0,-13,0
+Image[S]=./images/nissan-sunny-n14-silver_S.0.0,0,0
+Image[SW]=./images/nissan-sunny-n14-silver_SW.0.0,-8,10
+Image[W]=./images/nissan-sunny-n14-silver_W.0.0,4,5
+Image[NW]=./images/nissan-sunny-n14-silver_NW.0.0,12,10
+Image[N]=./images/nissan-sunny-n14-silver_N.0.0,0,33
+Image[NE]=./images/nissan-sunny-n14-silver_NE.0.0,0,24

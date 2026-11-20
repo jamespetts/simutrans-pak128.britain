@@ -1,0 +1,120 @@
+# Fiat Panda third generation five-door, 2012 onwards.
+#
+# The type 319 Panda: the squarer, more mature city car with the higher
+# waistline, the revised grille and the five-door body. UK sales from the end
+# of February 2012. The 4x4 and Cross are taller, wider variants and are not
+# separately represented.
+# https://en.wikipedia.org/wiki/Fiat_Panda
+#
+# Dimensions 3.653 x 1.643 x 1.551 m, wheelbase 2.300 m (front-drive car).
+#
+# Shape reference: the pack's images show a red UK car in side, front and
+# rear views; the side view governs.
+#
+# Colours: grade (d); the UK release names ten colours but not their names.
+# White, red, blue and grey are plain names. Weights 12, 10, 10, 8, total 40,
+# provisional.
+#
+# Speed 160 km/h. Comfort 65/280, on the line 180 + 1.5 x 65. Classes 0,1.
+# Dates are road presence: 2012 intro, retires staggered 2032-2035.
+#
+# Metres master: citycars/4.5/fiat-panda-3.blend. Interchange:
+# citycars/4.5/fiat-panda-3.dae. References:
+# citycars/references/fiat-panda-3/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the lamp surrounds and wheel-arch contours are
+# simplified. At 128 px the squarer body, higher waistline and revised grille
+# read as a type 319 Panda.
+
+
+obj=citycar
+name=FiatPanda3(White)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=2012
+intro_month=2
+retire_year=2035
+retire_month=6
+speed=160
+class=0,1
+maximum_comfortable_journey_minutes=65
+maximum_tolerable_journey_minutes=280
+
+Image[E]=./images/fiat-panda-3-white_E.0.0,-33,14
+Image[SE]=./images/fiat-panda-3-white_SE.0.0,-13,0
+Image[S]=./images/fiat-panda-3-white_S.0.0,0,0
+Image[SW]=./images/fiat-panda-3-white_SW.0.0,-8,10
+Image[W]=./images/fiat-panda-3-white_W.0.0,4,5
+Image[NW]=./images/fiat-panda-3-white_NW.0.0,12,10
+Image[N]=./images/fiat-panda-3-white_N.0.0,0,33
+Image[NE]=./images/fiat-panda-3-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FiatPanda3(Red)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=2012
+intro_month=2
+retire_year=2034
+retire_month=6
+speed=160
+class=0,1
+maximum_comfortable_journey_minutes=65
+maximum_tolerable_journey_minutes=280
+
+Image[E]=./images/fiat-panda-3-red_E.0.0,-33,14
+Image[SE]=./images/fiat-panda-3-red_SE.0.0,-13,0
+Image[S]=./images/fiat-panda-3-red_S.0.0,0,0
+Image[SW]=./images/fiat-panda-3-red_SW.0.0,-8,10
+Image[W]=./images/fiat-panda-3-red_W.0.0,4,5
+Image[NW]=./images/fiat-panda-3-red_NW.0.0,12,10
+Image[N]=./images/fiat-panda-3-red_N.0.0,0,33
+Image[NE]=./images/fiat-panda-3-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FiatPanda3(Blue)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=2012
+intro_month=2
+retire_year=2033
+retire_month=6
+speed=160
+class=0,1
+maximum_comfortable_journey_minutes=65
+maximum_tolerable_journey_minutes=280
+
+Image[E]=./images/fiat-panda-3-blue_E.0.0,-33,14
+Image[SE]=./images/fiat-panda-3-blue_SE.0.0,-13,0
+Image[S]=./images/fiat-panda-3-blue_S.0.0,0,0
+Image[SW]=./images/fiat-panda-3-blue_SW.0.0,-8,10
+Image[W]=./images/fiat-panda-3-blue_W.0.0,4,5
+Image[NW]=./images/fiat-panda-3-blue_NW.0.0,12,10
+Image[N]=./images/fiat-panda-3-blue_N.0.0,0,33
+Image[NE]=./images/fiat-panda-3-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FiatPanda3(Grey)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=2012
+intro_month=2
+retire_year=2032
+retire_month=6
+speed=160
+class=0,1
+maximum_comfortable_journey_minutes=65
+maximum_tolerable_journey_minutes=280
+
+Image[E]=./images/fiat-panda-3-grey_E.0.0,-33,14
+Image[SE]=./images/fiat-panda-3-grey_SE.0.0,-13,0
+Image[S]=./images/fiat-panda-3-grey_S.0.0,0,0
+Image[SW]=./images/fiat-panda-3-grey_SW.0.0,-8,10
+Image[W]=./images/fiat-panda-3-grey_W.0.0,4,5
+Image[NW]=./images/fiat-panda-3-grey_NW.0.0,12,10
+Image[N]=./images/fiat-panda-3-grey_N.0.0,0,33
+Image[NE]=./images/fiat-panda-3-grey_NE.0.0,0,24

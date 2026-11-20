@@ -1,0 +1,126 @@
+# Fiat Panda first generation three-door, 1980-2003 (UK 1981-1995).
+#
+# The original Giugiaro Panda: the boxy, flat-glazed city car with the
+# corrugated lower door pressings, the simple upright cabin and the
+# washable interior. UK imports ran from May 1981 to June 1995. The 4x4 is a
+# taller, wider variant and is not separately represented.
+# https://en.wikipedia.org/wiki/Fiat_Panda
+#
+# Dimensions 3.380 x 1.460 x 1.445 m, wheelbase 2.160 m (launch figures).
+#
+# Shape reference: the flank is measured from a level side photograph
+# of a Panda 34 scale model, not a full-size car. The measurements
+# are calibrated to the published full-size dimensions above. Front
+# and rear three-quarter photographs of a full-size 1984 Panda 45 S
+# check the nose, hatch and lower panels. Two 1995 UK CLX photographs
+# show the same shell with later trim.
+#
+# Colours: grade (d); no UK chart was found. White, red, blue and green are
+# plain names. Weights 9, 8, 7, 6, total 30, provisional.
+#
+# Speed 130 km/h. Comfort 55/265, on the line 180 + 1.5 x 55: a simple,
+# upright, noisy cabin. Classes 0,1.
+# Dates are road presence: 1981 intro, retires staggered 2010-2013.
+#
+# Metres master: citycars/4.5/fiat-panda-1.blend. Interchange:
+# citycars/4.5/fiat-panda-1.dae. References:
+# citycars/references/fiat-panda-1/ (Wikimedia Commons full-size
+# photographs and the supplied panda-mk1-side-model.jpg).
+#
+# Accepted deviations: the flank is measured from a level side view of a Panda 34
+# scale model, not from a photograph of a full-size car; that is recorded as the
+# side reference. The round lamp elements sit in simplified housings. At 128 px
+# the boxy three-door body, flat glass and near-vertical tail read as a Panda 141.
+
+
+obj=citycar
+name=FiatPanda1(White)
+copyright=JamesPetts
+
+DistributionWeight=9
+intro_year=1981
+intro_month=5
+retire_year=2013
+retire_month=6
+speed=130
+class=0,1
+maximum_comfortable_journey_minutes=55
+maximum_tolerable_journey_minutes=265
+
+Image[E]=./images/fiat-panda-1-white_E.0.0,-33,14
+Image[SE]=./images/fiat-panda-1-white_SE.0.0,-13,0
+Image[S]=./images/fiat-panda-1-white_S.0.0,0,0
+Image[SW]=./images/fiat-panda-1-white_SW.0.0,-8,10
+Image[W]=./images/fiat-panda-1-white_W.0.0,4,5
+Image[NW]=./images/fiat-panda-1-white_NW.0.0,12,10
+Image[N]=./images/fiat-panda-1-white_N.0.0,0,33
+Image[NE]=./images/fiat-panda-1-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FiatPanda1(Red)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=1981
+intro_month=5
+retire_year=2012
+retire_month=6
+speed=130
+class=0,1
+maximum_comfortable_journey_minutes=55
+maximum_tolerable_journey_minutes=265
+
+Image[E]=./images/fiat-panda-1-red_E.0.0,-33,14
+Image[SE]=./images/fiat-panda-1-red_SE.0.0,-13,0
+Image[S]=./images/fiat-panda-1-red_S.0.0,0,0
+Image[SW]=./images/fiat-panda-1-red_SW.0.0,-8,10
+Image[W]=./images/fiat-panda-1-red_W.0.0,4,5
+Image[NW]=./images/fiat-panda-1-red_NW.0.0,12,10
+Image[N]=./images/fiat-panda-1-red_N.0.0,0,33
+Image[NE]=./images/fiat-panda-1-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FiatPanda1(Blue)
+copyright=JamesPetts
+
+DistributionWeight=7
+intro_year=1981
+intro_month=5
+retire_year=2011
+retire_month=6
+speed=130
+class=0,1
+maximum_comfortable_journey_minutes=55
+maximum_tolerable_journey_minutes=265
+
+Image[E]=./images/fiat-panda-1-blue_E.0.0,-33,14
+Image[SE]=./images/fiat-panda-1-blue_SE.0.0,-13,0
+Image[S]=./images/fiat-panda-1-blue_S.0.0,0,0
+Image[SW]=./images/fiat-panda-1-blue_SW.0.0,-8,10
+Image[W]=./images/fiat-panda-1-blue_W.0.0,4,5
+Image[NW]=./images/fiat-panda-1-blue_NW.0.0,12,10
+Image[N]=./images/fiat-panda-1-blue_N.0.0,0,33
+Image[NE]=./images/fiat-panda-1-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FiatPanda1(Green)
+copyright=JamesPetts
+
+DistributionWeight=6
+intro_year=1981
+intro_month=5
+retire_year=2010
+retire_month=6
+speed=130
+class=0,1
+maximum_comfortable_journey_minutes=55
+maximum_tolerable_journey_minutes=265
+
+Image[E]=./images/fiat-panda-1-green_E.0.0,-33,14
+Image[SE]=./images/fiat-panda-1-green_SE.0.0,-13,0
+Image[S]=./images/fiat-panda-1-green_S.0.0,0,0
+Image[SW]=./images/fiat-panda-1-green_SW.0.0,-8,10
+Image[W]=./images/fiat-panda-1-green_W.0.0,4,5
+Image[NW]=./images/fiat-panda-1-green_NW.0.0,12,10
+Image[N]=./images/fiat-panda-1-green_N.0.0,0,33
+Image[NE]=./images/fiat-panda-1-green_NE.0.0,0,24

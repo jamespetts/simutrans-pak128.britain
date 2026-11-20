@@ -1,0 +1,124 @@
+# Ford Zodiac Mk II four-door saloon, 1956-1962.
+#
+# The luxury member of the 1956 'Three Graces' range: the Zephyr shell with
+# the larger six, the gold rear-wing script, two-tone paint and chrome wheel
+# embellishers.
+# https://en.wikipedia.org/wiki/Ford_Zodiac
+#
+# Dimensions 4.534 x 1.702 m, wheelbase 2.718 m. Height was not established.
+#
+# Shape reference: NO true level side elevation exists. Image 1 is a front
+# three-quarter about 40 degrees off square; the flank is estimated from it
+# and the other views within the published dimensions. The limitation is
+# recorded.
+#
+# Colours: grade (d) for a model-specific list, grade (c) for the later
+# 1959-62 palette. Savoy Black, Ermine White, Ambassador Blue and Monaco Red.
+# Two-tone was standard on the real car; the model carries single body
+# colours and records that the contrasting roof is not represented. Weights
+# 10, 9, 8, 8, total 35, provisional.
+#
+# Speed 145 km/h. Comfort 60/270, on the line 180 + 1.5 x 60. Classes 2,3.
+# Dates are road presence: 1956 intro, retires staggered 1978-1981.
+#
+# Metres master: citycars/4.5/ford-zodiac-mk2.blend. Interchange:
+# citycars/4.5/ford-zodiac-mk2.dae. References:
+# citycars/references/ford-zodiac-mk2/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: there is no true side elevation. The rear ribs are too
+# restrained, and the bumper wrap and exact two-tone sweep are not reproduced.
+# The model height of 1.50 m is an estimate. At 128 px the Zodiac grille, lamps
+# and two-tone trim read as a Zodiac Mk II.
+
+
+obj=citycar
+name=FordZodiacMk2(SavoyBlack)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=1956
+intro_month=4
+retire_year=1981
+retire_month=6
+speed=145
+class=2,3
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=270
+
+Image[E]=./images/ford-zodiac-mk2-savoyblack_E.0.0,-33,14
+Image[SE]=./images/ford-zodiac-mk2-savoyblack_SE.0.0,-13,0
+Image[S]=./images/ford-zodiac-mk2-savoyblack_S.0.0,0,0
+Image[SW]=./images/ford-zodiac-mk2-savoyblack_SW.0.0,-8,10
+Image[W]=./images/ford-zodiac-mk2-savoyblack_W.0.0,4,5
+Image[NW]=./images/ford-zodiac-mk2-savoyblack_NW.0.0,12,10
+Image[N]=./images/ford-zodiac-mk2-savoyblack_N.0.0,0,33
+Image[NE]=./images/ford-zodiac-mk2-savoyblack_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FordZodiacMk2(ErmineWhite)
+copyright=JamesPetts
+
+DistributionWeight=9
+intro_year=1956
+intro_month=4
+retire_year=1980
+retire_month=6
+speed=145
+class=2,3
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=270
+
+Image[E]=./images/ford-zodiac-mk2-erminewhite_E.0.0,-33,14
+Image[SE]=./images/ford-zodiac-mk2-erminewhite_SE.0.0,-13,0
+Image[S]=./images/ford-zodiac-mk2-erminewhite_S.0.0,0,0
+Image[SW]=./images/ford-zodiac-mk2-erminewhite_SW.0.0,-8,10
+Image[W]=./images/ford-zodiac-mk2-erminewhite_W.0.0,4,5
+Image[NW]=./images/ford-zodiac-mk2-erminewhite_NW.0.0,12,10
+Image[N]=./images/ford-zodiac-mk2-erminewhite_N.0.0,0,33
+Image[NE]=./images/ford-zodiac-mk2-erminewhite_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FordZodiacMk2(AmbassadorBlue)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=1956
+intro_month=4
+retire_year=1979
+retire_month=6
+speed=145
+class=2,3
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=270
+
+Image[E]=./images/ford-zodiac-mk2-ambassadorblue_E.0.0,-33,14
+Image[SE]=./images/ford-zodiac-mk2-ambassadorblue_SE.0.0,-13,0
+Image[S]=./images/ford-zodiac-mk2-ambassadorblue_S.0.0,0,0
+Image[SW]=./images/ford-zodiac-mk2-ambassadorblue_SW.0.0,-8,10
+Image[W]=./images/ford-zodiac-mk2-ambassadorblue_W.0.0,4,5
+Image[NW]=./images/ford-zodiac-mk2-ambassadorblue_NW.0.0,12,10
+Image[N]=./images/ford-zodiac-mk2-ambassadorblue_N.0.0,0,33
+Image[NE]=./images/ford-zodiac-mk2-ambassadorblue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FordZodiacMk2(MonacoRed)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=1956
+intro_month=4
+retire_year=1978
+retire_month=6
+speed=145
+class=2,3
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=270
+
+Image[E]=./images/ford-zodiac-mk2-monacored_E.0.0,-33,14
+Image[SE]=./images/ford-zodiac-mk2-monacored_SE.0.0,-13,0
+Image[S]=./images/ford-zodiac-mk2-monacored_S.0.0,0,0
+Image[SW]=./images/ford-zodiac-mk2-monacored_SW.0.0,-8,10
+Image[W]=./images/ford-zodiac-mk2-monacored_W.0.0,4,5
+Image[NW]=./images/ford-zodiac-mk2-monacored_NW.0.0,12,10
+Image[N]=./images/ford-zodiac-mk2-monacored_N.0.0,0,33
+Image[NE]=./images/ford-zodiac-mk2-monacored_NE.0.0,0,24

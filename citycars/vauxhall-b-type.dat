@@ -1,0 +1,127 @@
+# Vauxhall B-type 30 hp six landaulette, 1910-1914.
+#
+# Vauxhall used the letter B for two different cars: the B.09 16 hp four of
+# 1908-1911 and the B.10, B.11 and B.12 sixes of 27, 30 and 35 hp built from
+# 1909 to 1916. THIS OBJECT IS THE B.11 30 HP SIX, because that is the car the
+# side photograph shows; the B.09 four is a different model and is NOT
+# represented. The closed landaulette body is modelled.
+# https://en.wikipedia.org/wiki/Vauxhall_B-type
+#
+# Dimensions: wheelbase 3.429 m (135 in) or 3.658 m (144 in), width 1.626 m
+# (64 in). No overall length or height is given, because they are
+# body-dependent, so the length is measured from the photograph and the height
+# is estimated.
+#
+# Shape reference: image 1 is a TRUE side elevation of car B11.39, parallel to
+# the image plane with no yaw, camera near waist height. No front or rear
+# photograph of any six-cylinder B-type exists in the pack, so the radiator
+# face and lamp arrangement are inferred and recorded as inferred.
+#
+# Colours: grade (d); no Vauxhall colour list was found. Black, Dark Green,
+# Maroon and Grey are period finishes. Weights 10, 9, 8, 7, total 34,
+# provisional.
+#
+# Speed 110 km/h. Comfort 22/213, on the line 180 + 1.5 x 22. Classes 2,3.
+# Dates: intro January 1910; retires staggered 1928-1932 as a road tail.
+#
+# Metres master: citycars/4.5/vauxhall-b-type.blend. Interchange:
+# citycars/4.5/vauxhall-b-type.dae. References:
+# citycars/references/vauxhall-b-type/ (gitignored).
+#
+# Accepted deviations: the length and height are estimated. The radiator face,
+# the lamp arrangement, the rear finish and the opposite-side spare are
+# inferred, no front or rear photograph of a six-cylinder B-type existing. The
+# bonnet is closed in the model, whereas the museum car shows its engine.
+
+
+obj=citycar
+name=VauxhallBType(Black)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=1910
+intro_month=1
+retire_year=1932
+retire_month=6
+speed=110
+class=2,3
+maximum_comfortable_journey_minutes=22
+maximum_tolerable_journey_minutes=213
+
+Image[E]=./images/vauxhall-b-type-black_E.0.0,-33,14
+Image[SE]=./images/vauxhall-b-type-black_SE.0.0,-13,0
+Image[S]=./images/vauxhall-b-type-black_S.0.0,0,0
+Image[SW]=./images/vauxhall-b-type-black_SW.0.0,-8,10
+Image[W]=./images/vauxhall-b-type-black_W.0.0,4,5
+Image[NW]=./images/vauxhall-b-type-black_NW.0.0,12,10
+Image[N]=./images/vauxhall-b-type-black_N.0.0,0,33
+Image[NE]=./images/vauxhall-b-type-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallBType(DarkGreen)
+copyright=JamesPetts
+
+DistributionWeight=9
+intro_year=1910
+intro_month=1
+retire_year=1931
+retire_month=6
+speed=110
+class=2,3
+maximum_comfortable_journey_minutes=22
+maximum_tolerable_journey_minutes=213
+
+Image[E]=./images/vauxhall-b-type-darkgreen_E.0.0,-33,14
+Image[SE]=./images/vauxhall-b-type-darkgreen_SE.0.0,-13,0
+Image[S]=./images/vauxhall-b-type-darkgreen_S.0.0,0,0
+Image[SW]=./images/vauxhall-b-type-darkgreen_SW.0.0,-8,10
+Image[W]=./images/vauxhall-b-type-darkgreen_W.0.0,4,5
+Image[NW]=./images/vauxhall-b-type-darkgreen_NW.0.0,12,10
+Image[N]=./images/vauxhall-b-type-darkgreen_N.0.0,0,33
+Image[NE]=./images/vauxhall-b-type-darkgreen_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallBType(Maroon)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=1910
+intro_month=1
+retire_year=1930
+retire_month=6
+speed=110
+class=2,3
+maximum_comfortable_journey_minutes=22
+maximum_tolerable_journey_minutes=213
+
+Image[E]=./images/vauxhall-b-type-maroon_E.0.0,-33,14
+Image[SE]=./images/vauxhall-b-type-maroon_SE.0.0,-13,0
+Image[S]=./images/vauxhall-b-type-maroon_S.0.0,0,0
+Image[SW]=./images/vauxhall-b-type-maroon_SW.0.0,-8,10
+Image[W]=./images/vauxhall-b-type-maroon_W.0.0,4,5
+Image[NW]=./images/vauxhall-b-type-maroon_NW.0.0,12,10
+Image[N]=./images/vauxhall-b-type-maroon_N.0.0,0,33
+Image[NE]=./images/vauxhall-b-type-maroon_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallBType(Grey)
+copyright=JamesPetts
+
+DistributionWeight=7
+intro_year=1910
+intro_month=1
+retire_year=1928
+retire_month=6
+speed=110
+class=2,3
+maximum_comfortable_journey_minutes=22
+maximum_tolerable_journey_minutes=213
+
+Image[E]=./images/vauxhall-b-type-grey_E.0.0,-33,14
+Image[SE]=./images/vauxhall-b-type-grey_SE.0.0,-13,0
+Image[S]=./images/vauxhall-b-type-grey_S.0.0,0,0
+Image[SW]=./images/vauxhall-b-type-grey_SW.0.0,-8,10
+Image[W]=./images/vauxhall-b-type-grey_W.0.0,4,5
+Image[NW]=./images/vauxhall-b-type-grey_NW.0.0,12,10
+Image[N]=./images/vauxhall-b-type-grey_N.0.0,0,33
+Image[NE]=./images/vauxhall-b-type-grey_NE.0.0,0,24

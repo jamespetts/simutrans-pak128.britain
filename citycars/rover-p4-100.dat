@@ -1,0 +1,121 @@
+# Rover P4 100 four-door saloon, 1960-1962.
+#
+# The 2.6-litre six P4 of the 1960 range, with the revised grille and the
+# taller final body. The 100 was the volume P4 of the early 1960s.
+# https://en.wikipedia.org/wiki/Rover_P4
+#
+# Dimensions 4.445 x 1.667 x 1.619 m, wheelbase 2.819 m.
+#
+# Shape reference: image 1 is nearly side-on but NOT level; the rear view is
+# nearly straight-on and dark. The flank is estimated from those views and the
+# front three-quarter within the published dimensions; the limitation is
+# recorded.
+#
+# Colours: grade (b), the P4 Drivers Guild's year-based compilation. Black,
+# Sage Green, Dove Grey and Maroon. Weights 12, 10, 10, 8, total 40,
+# provisional.
+#
+# Speed 150 km/h. Comfort 65/280, on the line 180 + 1.5 x 65. Classes 3,4.
+# Dates are road presence: 1960 intro, retires staggered 1978-1981.
+#
+# Metres master: citycars/4.5/rover-p4-100.blend. Interchange:
+# citycars/4.5/rover-p4-100.dae. References:
+# citycars/references/rover-p4-100/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: image 1 is a tilted near-profile, not a scaling
+# elevation, so the flank is estimated. The grille and bumper are too flat, the
+# rear plate reads too small, and the mascot is simplified. At 128 px the 1960
+# grille, lamps and P4 body read as a P4 100.
+
+
+obj=citycar
+name=RoverP4100(Black)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=1960
+intro_month=10
+retire_year=1981
+retire_month=6
+speed=150
+class=3,4
+maximum_comfortable_journey_minutes=65
+maximum_tolerable_journey_minutes=280
+
+Image[E]=./images/rover-p4-100-black_E.0.0,-33,14
+Image[SE]=./images/rover-p4-100-black_SE.0.0,-13,0
+Image[S]=./images/rover-p4-100-black_S.0.0,0,0
+Image[SW]=./images/rover-p4-100-black_SW.0.0,-8,10
+Image[W]=./images/rover-p4-100-black_W.0.0,4,5
+Image[NW]=./images/rover-p4-100-black_NW.0.0,12,10
+Image[N]=./images/rover-p4-100-black_N.0.0,0,33
+Image[NE]=./images/rover-p4-100-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RoverP4100(SageGreen)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=1960
+intro_month=10
+retire_year=1980
+retire_month=6
+speed=150
+class=3,4
+maximum_comfortable_journey_minutes=65
+maximum_tolerable_journey_minutes=280
+
+Image[E]=./images/rover-p4-100-sagegreen_E.0.0,-33,14
+Image[SE]=./images/rover-p4-100-sagegreen_SE.0.0,-13,0
+Image[S]=./images/rover-p4-100-sagegreen_S.0.0,0,0
+Image[SW]=./images/rover-p4-100-sagegreen_SW.0.0,-8,10
+Image[W]=./images/rover-p4-100-sagegreen_W.0.0,4,5
+Image[NW]=./images/rover-p4-100-sagegreen_NW.0.0,12,10
+Image[N]=./images/rover-p4-100-sagegreen_N.0.0,0,33
+Image[NE]=./images/rover-p4-100-sagegreen_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RoverP4100(DoveGrey)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=1960
+intro_month=10
+retire_year=1979
+retire_month=6
+speed=150
+class=3,4
+maximum_comfortable_journey_minutes=65
+maximum_tolerable_journey_minutes=280
+
+Image[E]=./images/rover-p4-100-dovegrey_E.0.0,-33,14
+Image[SE]=./images/rover-p4-100-dovegrey_SE.0.0,-13,0
+Image[S]=./images/rover-p4-100-dovegrey_S.0.0,0,0
+Image[SW]=./images/rover-p4-100-dovegrey_SW.0.0,-8,10
+Image[W]=./images/rover-p4-100-dovegrey_W.0.0,4,5
+Image[NW]=./images/rover-p4-100-dovegrey_NW.0.0,12,10
+Image[N]=./images/rover-p4-100-dovegrey_N.0.0,0,33
+Image[NE]=./images/rover-p4-100-dovegrey_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RoverP4100(Maroon)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=1960
+intro_month=10
+retire_year=1978
+retire_month=6
+speed=150
+class=3,4
+maximum_comfortable_journey_minutes=65
+maximum_tolerable_journey_minutes=280
+
+Image[E]=./images/rover-p4-100-maroon_E.0.0,-33,14
+Image[SE]=./images/rover-p4-100-maroon_SE.0.0,-13,0
+Image[S]=./images/rover-p4-100-maroon_S.0.0,0,0
+Image[SW]=./images/rover-p4-100-maroon_SW.0.0,-8,10
+Image[W]=./images/rover-p4-100-maroon_W.0.0,4,5
+Image[NW]=./images/rover-p4-100-maroon_NW.0.0,12,10
+Image[N]=./images/rover-p4-100-maroon_N.0.0,0,33
+Image[NE]=./images/rover-p4-100-maroon_NE.0.0,0,24

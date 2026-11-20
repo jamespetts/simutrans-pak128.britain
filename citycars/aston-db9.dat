@@ -1,0 +1,123 @@
+# Aston Martin DB9 coupe, 2004-2016.
+#
+# The VH-platform DB9 by Ian Callum and Henrik Fisker: the long bonnet, the
+# wide mesh grille, the pronounced rear haunches and the twin exhausts. The
+# coupe is modelled; the Volante is a different body. The car photographed is
+# the pre-facelift 2004-08 car.
+# https://en.wikipedia.org/wiki/Aston_Martin_DB9
+#
+# Dimensions 4.697-4.720 m long x 1.875 m wide excluding mirrors (2.017-2.061
+# including mirrors) x 1.270-1.282 m high, wheelbase 2.740 m. 1.875 m is used,
+# the mirror width being excluded as on every other car in the pakset.
+#
+# Shape reference: a dark blue DB9 coupe in true level side elevation, front
+# three-quarter and rear three-quarter. One car throughout.
+#
+# Colours: grade (a) for the 2012 model year only, from the Aston Martin
+# Colour & Trim UK brochure (part 705699): Midnight Blue, Tungsten Silver,
+# Volcano Red and Jet Black. Earlier lists were not found. Weights 3, 3, 2, 2,
+# total 10, provisional.
+#
+# Speed 300 km/h. Comfort 80/300, on the line 180 + 1.5 x 80. Classes 3,4.
+# Dates are road presence: 2004 intro, retires staggered 2032-2036.
+#
+# Metres master: citycars/4.5/aston-db9.blend. Interchange:
+# citycars/4.5/aston-db9.dae. References:
+# citycars/references/aston-db9/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the rear lenses distort around the corners and the
+# plate recess is too rounded. At 128 px the long bonnet, wide grille and
+# haunches read as a DB9.
+
+
+obj=citycar
+name=AstonDB9(MidnightBlue)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=2004
+intro_month=1
+retire_year=2036
+retire_month=6
+speed=300
+class=3,4
+maximum_comfortable_journey_minutes=80
+maximum_tolerable_journey_minutes=300
+
+Image[E]=./images/aston-db9-midnightblue_E.0.0,-33,14
+Image[SE]=./images/aston-db9-midnightblue_SE.0.0,-13,0
+Image[S]=./images/aston-db9-midnightblue_S.0.0,0,0
+Image[SW]=./images/aston-db9-midnightblue_SW.0.0,-8,10
+Image[W]=./images/aston-db9-midnightblue_W.0.0,4,5
+Image[NW]=./images/aston-db9-midnightblue_NW.0.0,12,10
+Image[N]=./images/aston-db9-midnightblue_N.0.0,0,33
+Image[NE]=./images/aston-db9-midnightblue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=AstonDB9(TungstenSilver)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=2004
+intro_month=1
+retire_year=2035
+retire_month=6
+speed=300
+class=3,4
+maximum_comfortable_journey_minutes=80
+maximum_tolerable_journey_minutes=300
+
+Image[E]=./images/aston-db9-tungstensilver_E.0.0,-33,14
+Image[SE]=./images/aston-db9-tungstensilver_SE.0.0,-13,0
+Image[S]=./images/aston-db9-tungstensilver_S.0.0,0,0
+Image[SW]=./images/aston-db9-tungstensilver_SW.0.0,-8,10
+Image[W]=./images/aston-db9-tungstensilver_W.0.0,4,5
+Image[NW]=./images/aston-db9-tungstensilver_NW.0.0,12,10
+Image[N]=./images/aston-db9-tungstensilver_N.0.0,0,33
+Image[NE]=./images/aston-db9-tungstensilver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=AstonDB9(VolcanoRed)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=2004
+intro_month=1
+retire_year=2034
+retire_month=6
+speed=300
+class=3,4
+maximum_comfortable_journey_minutes=80
+maximum_tolerable_journey_minutes=300
+
+Image[E]=./images/aston-db9-volcanored_E.0.0,-33,14
+Image[SE]=./images/aston-db9-volcanored_SE.0.0,-13,0
+Image[S]=./images/aston-db9-volcanored_S.0.0,0,0
+Image[SW]=./images/aston-db9-volcanored_SW.0.0,-8,10
+Image[W]=./images/aston-db9-volcanored_W.0.0,4,5
+Image[NW]=./images/aston-db9-volcanored_NW.0.0,12,10
+Image[N]=./images/aston-db9-volcanored_N.0.0,0,33
+Image[NE]=./images/aston-db9-volcanored_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=AstonDB9(JetBlack)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=2004
+intro_month=1
+retire_year=2032
+retire_month=6
+speed=300
+class=3,4
+maximum_comfortable_journey_minutes=80
+maximum_tolerable_journey_minutes=300
+
+Image[E]=./images/aston-db9-jetblack_E.0.0,-33,14
+Image[SE]=./images/aston-db9-jetblack_SE.0.0,-13,0
+Image[S]=./images/aston-db9-jetblack_S.0.0,0,0
+Image[SW]=./images/aston-db9-jetblack_SW.0.0,-8,10
+Image[W]=./images/aston-db9-jetblack_W.0.0,4,5
+Image[NW]=./images/aston-db9-jetblack_NW.0.0,12,10
+Image[N]=./images/aston-db9-jetblack_N.0.0,0,33
+Image[NE]=./images/aston-db9-jetblack_NE.0.0,0,24

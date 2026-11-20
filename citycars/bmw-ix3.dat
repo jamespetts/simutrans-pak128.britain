@@ -1,0 +1,124 @@
+# BMW iX3 G08 five-door electric SUV, 2020 onwards.
+#
+# The electric X3: the closed kidney grille with blue trim, the smooth
+# underbody, the iX3 rear badge and no exhaust outlets. UK pre-orders from
+# November 2020, deliveries from summer 2021. The facelifted rear view in the
+# pack is noted against the pre-facelift front and side.
+# https://en.wikipedia.org/wiki/BMW_iX3
+#
+# Dimensions 4.734 x 1.891 x 1.668 m, wheelbase 2.864 m.
+#
+# Shape reference: NO true level side profile exists. Image 1 is the most
+# side-on view; the front and rear three-quarters show the closed grille and
+# the tail. The flank is estimated; the facelift mismatch is recorded.
+#
+# Colours: grade (c), provisional; no launch paint list was verified. Black,
+# white, blue and grey are plain names. Weights 9, 8, 7, 6, total 30,
+# provisional.
+#
+# Speed 180 km/h (electronically limited). Comfort 100/330, on the line
+# 180 + 1.5 x 100: a quiet electric cabin. Classes 3,4.
+# Dates are road presence: 2021 intro, retires staggered 2041-2044.
+#
+# Metres master: citycars/4.5/bmw-ix3.blend. Interchange:
+# citycars/4.5/bmw-ix3.dae. References:
+# citycars/references/bmw-ix3/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the rear window is small, the shoulder crease is faint,
+# and the black wheel-arch cladding is omitted. The tail-lamp graphic is the
+# facelift form from image 3 on a pre-facelift body, the pack's known mismatch.
+# Mirrors project beyond the published width. At 128 px the closed blue-ringed
+# kidney grille, blue sill accent and smooth no-exhaust tail read as an iX3.
+
+
+obj=citycar
+name=BMWiX3(Black)
+copyright=JamesPetts
+
+DistributionWeight=9
+intro_year=2021
+intro_month=7
+retire_year=2044
+retire_month=6
+speed=180
+class=3,4
+maximum_comfortable_journey_minutes=100
+maximum_tolerable_journey_minutes=330
+
+Image[E]=./images/bmw-ix3-black_E.0.0,-33,14
+Image[SE]=./images/bmw-ix3-black_SE.0.0,-13,0
+Image[S]=./images/bmw-ix3-black_S.0.0,0,0
+Image[SW]=./images/bmw-ix3-black_SW.0.0,-8,10
+Image[W]=./images/bmw-ix3-black_W.0.0,4,5
+Image[NW]=./images/bmw-ix3-black_NW.0.0,12,10
+Image[N]=./images/bmw-ix3-black_N.0.0,0,33
+Image[NE]=./images/bmw-ix3-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMWiX3(White)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=2021
+intro_month=7
+retire_year=2043
+retire_month=6
+speed=180
+class=3,4
+maximum_comfortable_journey_minutes=100
+maximum_tolerable_journey_minutes=330
+
+Image[E]=./images/bmw-ix3-white_E.0.0,-33,14
+Image[SE]=./images/bmw-ix3-white_SE.0.0,-13,0
+Image[S]=./images/bmw-ix3-white_S.0.0,0,0
+Image[SW]=./images/bmw-ix3-white_SW.0.0,-8,10
+Image[W]=./images/bmw-ix3-white_W.0.0,4,5
+Image[NW]=./images/bmw-ix3-white_NW.0.0,12,10
+Image[N]=./images/bmw-ix3-white_N.0.0,0,33
+Image[NE]=./images/bmw-ix3-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMWiX3(Blue)
+copyright=JamesPetts
+
+DistributionWeight=7
+intro_year=2021
+intro_month=7
+retire_year=2042
+retire_month=6
+speed=180
+class=3,4
+maximum_comfortable_journey_minutes=100
+maximum_tolerable_journey_minutes=330
+
+Image[E]=./images/bmw-ix3-blue_E.0.0,-33,14
+Image[SE]=./images/bmw-ix3-blue_SE.0.0,-13,0
+Image[S]=./images/bmw-ix3-blue_S.0.0,0,0
+Image[SW]=./images/bmw-ix3-blue_SW.0.0,-8,10
+Image[W]=./images/bmw-ix3-blue_W.0.0,4,5
+Image[NW]=./images/bmw-ix3-blue_NW.0.0,12,10
+Image[N]=./images/bmw-ix3-blue_N.0.0,0,33
+Image[NE]=./images/bmw-ix3-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMWiX3(Grey)
+copyright=JamesPetts
+
+DistributionWeight=6
+intro_year=2021
+intro_month=7
+retire_year=2041
+retire_month=6
+speed=180
+class=3,4
+maximum_comfortable_journey_minutes=100
+maximum_tolerable_journey_minutes=330
+
+Image[E]=./images/bmw-ix3-grey_E.0.0,-33,14
+Image[SE]=./images/bmw-ix3-grey_SE.0.0,-13,0
+Image[S]=./images/bmw-ix3-grey_S.0.0,0,0
+Image[SW]=./images/bmw-ix3-grey_SW.0.0,-8,10
+Image[W]=./images/bmw-ix3-grey_W.0.0,4,5
+Image[NW]=./images/bmw-ix3-grey_NW.0.0,12,10
+Image[N]=./images/bmw-ix3-grey_N.0.0,0,33
+Image[NE]=./images/bmw-ix3-grey_NE.0.0,0,24

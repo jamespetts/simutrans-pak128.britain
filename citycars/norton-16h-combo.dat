@@ -1,0 +1,61 @@
+# Norton 16H 490 cc motorcycle with sidecar, 1937-1945.
+#
+# The WD Norton 16H: the 490 cc side-valve single, the standard British
+# military despatch machine of the Second World War, here in combination
+# form with a sidecar. The 16H was built mostly as a solo machine; the
+# standard WD outfit was the Big Four, which is already in the tree. No
+# period photograph of a 16H with sidecar was found, so the machine is the
+# 16H the pack photographs and the chair is a period-correct combination
+# recorded as such.
+# https://en.wikipedia.org/wiki/Norton_16H
+#
+# Dimensions: solo machine 2.172 x 0.762 x 0.991 m on a 1.372 m wheelbase
+# (RM Sotheby's 1940 car); a second published set gives 2.108 x 0.737 x
+# 1.041 m. Outfit width is not published; the model's chair width is a
+# period estimate recorded in the master.
+#
+# Shape reference: image 1 is a museum right-side elevation of a WD 16H
+# (solo); images 2-4 are period despatch-rider and comparable-outfit
+# photographs, each labelled as such in the notes.
+#
+# Colours: WD finish, Army Service Green/khaki with dull chrome and a white
+# census number. One colourway. Weight 80, provisional.
+#
+# Speed 70 km/h. Comfort 25/190, below the Mini's 40/240: an open chair with
+# an exposed rider. Classes 0,1.
+# Dates are road presence: 1937 intro, retires 1958.
+#
+# Metres master: citycars/4.5/norton-16h-combo.blend. Interchange:
+# citycars/4.5/norton-16h-combo.dae. References:
+# citycars/references/norton-16h-combo/ (gitignored; Wikimedia Commons and
+# period photographs).
+#
+# Accepted deviations: there is no confirmed period photograph of an exact 16H
+# combination. The chair and its mounts are estimates based on comparable Norton
+# outfits, and the chair wheel hubs and screen are simplified. Stage B lateral
+# shift +0.3179 pak units, so that the motorcycle rather than the combined
+# bounding box sits at the tile centre; the chair is on the nearside.
+
+
+obj=citycar
+name=Norton16HCombo(KhakiGreen)
+copyright=JamesPetts
+
+DistributionWeight=80
+intro_year=1937
+intro_month=1
+retire_year=1958
+retire_month=6
+speed=70
+class=0,1
+maximum_comfortable_journey_minutes=25
+maximum_tolerable_journey_minutes=190
+
+Image[E]=./images/norton-16h-combo-khakigreen_E.0.0,-33,14
+Image[SE]=./images/norton-16h-combo-khakigreen_SE.0.0,-13,0
+Image[S]=./images/norton-16h-combo-khakigreen_S.0.0,0,0
+Image[SW]=./images/norton-16h-combo-khakigreen_SW.0.0,-8,10
+Image[W]=./images/norton-16h-combo-khakigreen_W.0.0,4,5
+Image[NW]=./images/norton-16h-combo-khakigreen_NW.0.0,12,10
+Image[N]=./images/norton-16h-combo-khakigreen_N.0.0,0,33
+Image[NE]=./images/norton-16h-combo-khakigreen_NE.0.0,0,24

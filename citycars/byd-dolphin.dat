@@ -1,0 +1,123 @@
+# BYD Dolphin five-door hatchback, 2023 onwards.
+#
+# The BYD Dolphin: the C-segment electric hatchback on the e-Platform 3.0
+# with the flat floor, the two-tone roof option and the dolphin-line waist
+# crease. UK sales from the summer of 2023.
+# https://en.wikipedia.org/wiki/BYD_Dolphin
+#
+# Dimensions 4.290 x 1.770 x 1.570 m, wheelbase 2.700 m (BYD UK media
+# specification table).
+#
+# Shape reference: NO true level side elevation was obtainable. Image 1 is a
+# near-side photograph taken from about mid-body height at an angle, so the
+# flank is estimated within the published dimensions and the limitation is
+# recorded.
+#
+# Colours: grade (a) for the two names recorded by BYD UK, Surfing Blue and
+# Atlantis Grey; the modelled colourways use plain names because the full UK
+# palette was not listed. Weights 12, 10, 9, 8, total 39, provisional.
+#
+# Speed 160 km/h. Comfort 70/285, on the line 180 + 1.5 x 70. Classes 0,1.
+# Dates: intro July 2023, the UK summer launch; retires staggered 2045-2048.
+#
+# Metres master: citycars/4.5/byd-dolphin.blend. Interchange:
+# citycars/4.5/byd-dolphin.dae. References:
+# citycars/references/byd-dolphin/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the flank is estimated from the oblique photograph.
+# A single paint is modelled, so the contrasting roof and bonnet of the
+# reference car are not represented. The woven tail-lamp pattern is
+# simplified.
+
+
+obj=citycar
+name=BYDDolphin(White)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=2023
+intro_month=10
+retire_year=2048
+retire_month=6
+speed=160
+class=0,1
+maximum_comfortable_journey_minutes=70
+maximum_tolerable_journey_minutes=285
+
+Image[E]=./images/byd-dolphin-white_E.0.0,-33,14
+Image[SE]=./images/byd-dolphin-white_SE.0.0,-13,0
+Image[S]=./images/byd-dolphin-white_S.0.0,0,0
+Image[SW]=./images/byd-dolphin-white_SW.0.0,-8,10
+Image[W]=./images/byd-dolphin-white_W.0.0,4,5
+Image[NW]=./images/byd-dolphin-white_NW.0.0,12,10
+Image[N]=./images/byd-dolphin-white_N.0.0,0,33
+Image[NE]=./images/byd-dolphin-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BYDDolphin(Blue)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=2023
+intro_month=10
+retire_year=2047
+retire_month=6
+speed=160
+class=0,1
+maximum_comfortable_journey_minutes=70
+maximum_tolerable_journey_minutes=285
+
+Image[E]=./images/byd-dolphin-blue_E.0.0,-33,14
+Image[SE]=./images/byd-dolphin-blue_SE.0.0,-13,0
+Image[S]=./images/byd-dolphin-blue_S.0.0,0,0
+Image[SW]=./images/byd-dolphin-blue_SW.0.0,-8,10
+Image[W]=./images/byd-dolphin-blue_W.0.0,4,5
+Image[NW]=./images/byd-dolphin-blue_NW.0.0,12,10
+Image[N]=./images/byd-dolphin-blue_N.0.0,0,33
+Image[NE]=./images/byd-dolphin-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BYDDolphin(Grey)
+copyright=JamesPetts
+
+DistributionWeight=9
+intro_year=2023
+intro_month=10
+retire_year=2046
+retire_month=6
+speed=160
+class=0,1
+maximum_comfortable_journey_minutes=70
+maximum_tolerable_journey_minutes=285
+
+Image[E]=./images/byd-dolphin-grey_E.0.0,-33,14
+Image[SE]=./images/byd-dolphin-grey_SE.0.0,-13,0
+Image[S]=./images/byd-dolphin-grey_S.0.0,0,0
+Image[SW]=./images/byd-dolphin-grey_SW.0.0,-8,10
+Image[W]=./images/byd-dolphin-grey_W.0.0,4,5
+Image[NW]=./images/byd-dolphin-grey_NW.0.0,12,10
+Image[N]=./images/byd-dolphin-grey_N.0.0,0,33
+Image[NE]=./images/byd-dolphin-grey_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BYDDolphin(Red)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=2023
+intro_month=10
+retire_year=2045
+retire_month=6
+speed=160
+class=0,1
+maximum_comfortable_journey_minutes=70
+maximum_tolerable_journey_minutes=285
+
+Image[E]=./images/byd-dolphin-red_E.0.0,-33,14
+Image[SE]=./images/byd-dolphin-red_SE.0.0,-13,0
+Image[S]=./images/byd-dolphin-red_S.0.0,0,0
+Image[SW]=./images/byd-dolphin-red_SW.0.0,-8,10
+Image[W]=./images/byd-dolphin-red_W.0.0,4,5
+Image[NW]=./images/byd-dolphin-red_NW.0.0,12,10
+Image[N]=./images/byd-dolphin-red_N.0.0,0,33
+Image[NE]=./images/byd-dolphin-red_NE.0.0,0,24

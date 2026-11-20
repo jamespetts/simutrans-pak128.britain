@@ -1,0 +1,120 @@
+# Vauxhall Mokka compact SUV, 2012-2016.
+#
+# The first Mokka: the small crossover on the Gamma II platform with the
+# high seating position and the chunky lower body. UK showrooms from
+# November 2012; replaced by the Mokka X in October 2016.
+# https://en.wikipedia.org/wiki/Opel_Mokka
+#
+# Dimensions 4.280 x 1.775 x 1.646 m, wheelbase 2.555 m (Wikipedia infobox,
+# cross-checked against Vauxhall launch material giving 4.28 m).
+#
+# Shape reference: image 1 is a true level side elevation; the flank is
+# traced from it.
+#
+# Colours: grade (a), the Mokka June 2012 brochure for model year 2012:
+# Royal Blue solid, Summit White and Velvet Red brilliant, and Sovereign
+# Silver, Carbon Flash, Satin Steel Grey and Boracay Blue metallic. Weights
+# 12, 10, 9, 8, total 39, provisional.
+# Speed 190 km/h. Comfort 70/285, on the line 180 + 1.5 x 70. Classes 1,2.
+# Dates: intro November 2012; retires staggered 2016-2019 as a road tail.
+#
+# Metres master: citycars/4.5/vauxhall-mokka-a.blend. Interchange:
+# citycars/4.5/vauxhall-mokka-a.dae. References:
+# citycars/references/vauxhall-mokka-a/ (gitignored).
+#
+# Accepted deviations: the lamp internals, mirrors and alloy detail are
+# simplified; the rear glass is smaller and the rear skid plate shallower than
+# in the photographs.
+
+
+obj=citycar
+name=VauxhallMokkaA(RoyalBlue)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=2012
+intro_month=11
+retire_year=2019
+retire_month=6
+speed=190
+class=1,2
+maximum_comfortable_journey_minutes=70
+maximum_tolerable_journey_minutes=285
+
+Image[E]=./images/vauxhall-mokka-a-royalblue_E.0.0,-33,14
+Image[SE]=./images/vauxhall-mokka-a-royalblue_SE.0.0,-13,0
+Image[S]=./images/vauxhall-mokka-a-royalblue_S.0.0,0,0
+Image[SW]=./images/vauxhall-mokka-a-royalblue_SW.0.0,-8,10
+Image[W]=./images/vauxhall-mokka-a-royalblue_W.0.0,4,5
+Image[NW]=./images/vauxhall-mokka-a-royalblue_NW.0.0,12,10
+Image[N]=./images/vauxhall-mokka-a-royalblue_N.0.0,0,33
+Image[NE]=./images/vauxhall-mokka-a-royalblue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallMokkaA(SummitWhite)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=2012
+intro_month=11
+retire_year=2018
+retire_month=6
+speed=190
+class=1,2
+maximum_comfortable_journey_minutes=70
+maximum_tolerable_journey_minutes=285
+
+Image[E]=./images/vauxhall-mokka-a-summitwhite_E.0.0,-33,14
+Image[SE]=./images/vauxhall-mokka-a-summitwhite_SE.0.0,-13,0
+Image[S]=./images/vauxhall-mokka-a-summitwhite_S.0.0,0,0
+Image[SW]=./images/vauxhall-mokka-a-summitwhite_SW.0.0,-8,10
+Image[W]=./images/vauxhall-mokka-a-summitwhite_W.0.0,4,5
+Image[NW]=./images/vauxhall-mokka-a-summitwhite_NW.0.0,12,10
+Image[N]=./images/vauxhall-mokka-a-summitwhite_N.0.0,0,33
+Image[NE]=./images/vauxhall-mokka-a-summitwhite_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallMokkaA(VelvetRed)
+copyright=JamesPetts
+
+DistributionWeight=9
+intro_year=2012
+intro_month=11
+retire_year=2017
+retire_month=6
+speed=190
+class=1,2
+maximum_comfortable_journey_minutes=70
+maximum_tolerable_journey_minutes=285
+
+Image[E]=./images/vauxhall-mokka-a-velvetred_E.0.0,-33,14
+Image[SE]=./images/vauxhall-mokka-a-velvetred_SE.0.0,-13,0
+Image[S]=./images/vauxhall-mokka-a-velvetred_S.0.0,0,0
+Image[SW]=./images/vauxhall-mokka-a-velvetred_SW.0.0,-8,10
+Image[W]=./images/vauxhall-mokka-a-velvetred_W.0.0,4,5
+Image[NW]=./images/vauxhall-mokka-a-velvetred_NW.0.0,12,10
+Image[N]=./images/vauxhall-mokka-a-velvetred_N.0.0,0,33
+Image[NE]=./images/vauxhall-mokka-a-velvetred_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallMokkaA(SovereignSilver)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=2012
+intro_month=11
+retire_year=2016
+retire_month=6
+speed=190
+class=1,2
+maximum_comfortable_journey_minutes=70
+maximum_tolerable_journey_minutes=285
+
+Image[E]=./images/vauxhall-mokka-a-sovereignsilver_E.0.0,-33,14
+Image[SE]=./images/vauxhall-mokka-a-sovereignsilver_SE.0.0,-13,0
+Image[S]=./images/vauxhall-mokka-a-sovereignsilver_S.0.0,0,0
+Image[SW]=./images/vauxhall-mokka-a-sovereignsilver_SW.0.0,-8,10
+Image[W]=./images/vauxhall-mokka-a-sovereignsilver_W.0.0,4,5
+Image[NW]=./images/vauxhall-mokka-a-sovereignsilver_NW.0.0,12,10
+Image[N]=./images/vauxhall-mokka-a-sovereignsilver_N.0.0,0,33
+Image[NE]=./images/vauxhall-mokka-a-sovereignsilver_NE.0.0,0,24

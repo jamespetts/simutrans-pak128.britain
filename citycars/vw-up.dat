@@ -1,0 +1,124 @@
+# Volkswagen Up! three-door hatchback, 2011-2023.
+#
+# The Up!: the small rear-engined-style city car with the upright body, the
+# short overhangs and the simple interior. UK order books opened in October
+# 2011. The five-door, e-Up! and GTI are variants on the same shell and are
+# not separately represented.
+# https://en.wikipedia.org/wiki/Volkswagen_Up
+#
+# Dimensions 3.540 x 1.641 x 1.480 m, wheelbase 2.420 m (three-door; the
+# five-door is 3.563 m).
+#
+# Shape reference: NO true side elevation exists. Image 1 is about 25
+# degrees off the flank; the front overhang must not be measured from it, as
+# the notes warn. Images 2-3 show the front and rear. The limitation is
+# recorded.
+#
+# Colours: grade (d); no Volkswagen UK colour chart was read. White, black,
+# silver and blue are plain names. Weights 12, 10, 10, 8, total 40,
+# provisional.
+#
+# Speed 160 km/h. Comfort 65/280, on the line 180 + 1.5 x 65. Classes 0,1.
+# Dates are road presence: 2011 intro, retires staggered 2034-2037.
+#
+# Metres master: citycars/4.5/vw-up.blend. Interchange:
+# citycars/4.5/vw-up.dae. References:
+# citycars/references/vw-up/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: there is no true side view, so the flank is estimated;
+# the nose is more faceted and the rear slightly more tapered than the
+# photographs. At 128 px the upright body, short overhangs and simple nose read
+# as an Up!.
+
+
+obj=citycar
+name=VWUp(White)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=2011
+intro_month=10
+retire_year=2037
+retire_month=6
+speed=160
+class=0,1
+maximum_comfortable_journey_minutes=65
+maximum_tolerable_journey_minutes=280
+
+Image[E]=./images/vw-up-white_E.0.0,-33,14
+Image[SE]=./images/vw-up-white_SE.0.0,-13,0
+Image[S]=./images/vw-up-white_S.0.0,0,0
+Image[SW]=./images/vw-up-white_SW.0.0,-8,10
+Image[W]=./images/vw-up-white_W.0.0,4,5
+Image[NW]=./images/vw-up-white_NW.0.0,12,10
+Image[N]=./images/vw-up-white_N.0.0,0,33
+Image[NE]=./images/vw-up-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VWUp(Black)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=2011
+intro_month=10
+retire_year=2036
+retire_month=6
+speed=160
+class=0,1
+maximum_comfortable_journey_minutes=65
+maximum_tolerable_journey_minutes=280
+
+Image[E]=./images/vw-up-black_E.0.0,-33,14
+Image[SE]=./images/vw-up-black_SE.0.0,-13,0
+Image[S]=./images/vw-up-black_S.0.0,0,0
+Image[SW]=./images/vw-up-black_SW.0.0,-8,10
+Image[W]=./images/vw-up-black_W.0.0,4,5
+Image[NW]=./images/vw-up-black_NW.0.0,12,10
+Image[N]=./images/vw-up-black_N.0.0,0,33
+Image[NE]=./images/vw-up-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VWUp(Silver)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=2011
+intro_month=10
+retire_year=2035
+retire_month=6
+speed=160
+class=0,1
+maximum_comfortable_journey_minutes=65
+maximum_tolerable_journey_minutes=280
+
+Image[E]=./images/vw-up-silver_E.0.0,-33,14
+Image[SE]=./images/vw-up-silver_SE.0.0,-13,0
+Image[S]=./images/vw-up-silver_S.0.0,0,0
+Image[SW]=./images/vw-up-silver_SW.0.0,-8,10
+Image[W]=./images/vw-up-silver_W.0.0,4,5
+Image[NW]=./images/vw-up-silver_NW.0.0,12,10
+Image[N]=./images/vw-up-silver_N.0.0,0,33
+Image[NE]=./images/vw-up-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VWUp(Blue)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=2011
+intro_month=10
+retire_year=2034
+retire_month=6
+speed=160
+class=0,1
+maximum_comfortable_journey_minutes=65
+maximum_tolerable_journey_minutes=280
+
+Image[E]=./images/vw-up-blue_E.0.0,-33,14
+Image[SE]=./images/vw-up-blue_SE.0.0,-13,0
+Image[S]=./images/vw-up-blue_S.0.0,0,0
+Image[SW]=./images/vw-up-blue_SW.0.0,-8,10
+Image[W]=./images/vw-up-blue_W.0.0,4,5
+Image[NW]=./images/vw-up-blue_NW.0.0,12,10
+Image[N]=./images/vw-up-blue_N.0.0,0,33
+Image[NE]=./images/vw-up-blue_NE.0.0,0,24

@@ -1,0 +1,122 @@
+# Porsche Macan Electric five-door SUV, 2024 onwards.
+#
+# The electric Macan: the PPE-platform SUV with the closed nose, the
+# four-point light signature, the sloping rear roofline and the full-width
+# tail lamp. It is a different car from the 2014-23 petrol Macan, which is not
+# represented in this object.
+# https://en.wikipedia.org/wiki/Porsche_Macan
+#
+# Dimensions 4.784 x 1.938 x 1.622 m, wheelbase 2.893 m.
+#
+# Shape reference: the pack's images show a UK car in side, front and rear
+# views; the side view governs the sloping roof and the short overhangs.
+#
+# Colours: grade (b), a franchised UK Porsche Centre's reproduction of the
+# maker's UK option list: White, Jet Black, Gentian Blue and Volcano Grey.
+# Weights 12, 10, 10, 8, total 40, provisional.
+#
+# Speed 230 km/h. Comfort 95/322, on the line 180 + 1.5 x 95: a quiet,
+# spacious electric SUV. Classes 3,4.
+# Dates are road presence: 2024 intro, retires staggered 2048-2051.
+#
+# Metres master: citycars/4.5/porsche-macan-electric.blend. Interchange:
+# citycars/4.5/porsche-macan-electric.dae. References:
+# citycars/references/porsche-macan-electric/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the electric XAB only. The flank is estimated from a
+# show car about 35-40 degrees off the side, and the road-car fascia is used.
+# Turbo roof rails are omitted. The split headlamps, the diffuser and the
+# full-width tail bar are simplified, with no lettering in the bar.
+
+
+obj=citycar
+name=PorscheMacanElectric(White)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=2024
+intro_month=1
+retire_year=2051
+retire_month=6
+speed=230
+class=3,4
+maximum_comfortable_journey_minutes=95
+maximum_tolerable_journey_minutes=322
+
+Image[E]=./images/porsche-macan-electric-white_E.0.0,-33,14
+Image[SE]=./images/porsche-macan-electric-white_SE.0.0,-13,0
+Image[S]=./images/porsche-macan-electric-white_S.0.0,0,0
+Image[SW]=./images/porsche-macan-electric-white_SW.0.0,-8,10
+Image[W]=./images/porsche-macan-electric-white_W.0.0,4,5
+Image[NW]=./images/porsche-macan-electric-white_NW.0.0,12,10
+Image[N]=./images/porsche-macan-electric-white_N.0.0,0,33
+Image[NE]=./images/porsche-macan-electric-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=PorscheMacanElectric(JetBlack)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=2024
+intro_month=1
+retire_year=2050
+retire_month=6
+speed=230
+class=3,4
+maximum_comfortable_journey_minutes=95
+maximum_tolerable_journey_minutes=322
+
+Image[E]=./images/porsche-macan-electric-jetblack_E.0.0,-33,14
+Image[SE]=./images/porsche-macan-electric-jetblack_SE.0.0,-13,0
+Image[S]=./images/porsche-macan-electric-jetblack_S.0.0,0,0
+Image[SW]=./images/porsche-macan-electric-jetblack_SW.0.0,-8,10
+Image[W]=./images/porsche-macan-electric-jetblack_W.0.0,4,5
+Image[NW]=./images/porsche-macan-electric-jetblack_NW.0.0,12,10
+Image[N]=./images/porsche-macan-electric-jetblack_N.0.0,0,33
+Image[NE]=./images/porsche-macan-electric-jetblack_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=PorscheMacanElectric(GentianBlue)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=2024
+intro_month=1
+retire_year=2049
+retire_month=6
+speed=230
+class=3,4
+maximum_comfortable_journey_minutes=95
+maximum_tolerable_journey_minutes=322
+
+Image[E]=./images/porsche-macan-electric-gentianblue_E.0.0,-33,14
+Image[SE]=./images/porsche-macan-electric-gentianblue_SE.0.0,-13,0
+Image[S]=./images/porsche-macan-electric-gentianblue_S.0.0,0,0
+Image[SW]=./images/porsche-macan-electric-gentianblue_SW.0.0,-8,10
+Image[W]=./images/porsche-macan-electric-gentianblue_W.0.0,4,5
+Image[NW]=./images/porsche-macan-electric-gentianblue_NW.0.0,12,10
+Image[N]=./images/porsche-macan-electric-gentianblue_N.0.0,0,33
+Image[NE]=./images/porsche-macan-electric-gentianblue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=PorscheMacanElectric(VolcanoGrey)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=2024
+intro_month=1
+retire_year=2048
+retire_month=6
+speed=230
+class=3,4
+maximum_comfortable_journey_minutes=95
+maximum_tolerable_journey_minutes=322
+
+Image[E]=./images/porsche-macan-electric-volcanogrey_E.0.0,-33,14
+Image[SE]=./images/porsche-macan-electric-volcanogrey_SE.0.0,-13,0
+Image[S]=./images/porsche-macan-electric-volcanogrey_S.0.0,0,0
+Image[SW]=./images/porsche-macan-electric-volcanogrey_SW.0.0,-8,10
+Image[W]=./images/porsche-macan-electric-volcanogrey_W.0.0,4,5
+Image[NW]=./images/porsche-macan-electric-volcanogrey_NW.0.0,12,10
+Image[N]=./images/porsche-macan-electric-volcanogrey_N.0.0,0,33
+Image[NE]=./images/porsche-macan-electric-volcanogrey_NE.0.0,0,24

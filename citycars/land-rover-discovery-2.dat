@@ -1,0 +1,122 @@
+# Land Rover Discovery 2 five-door, 1998-2004.
+#
+# The second Discovery: the same basic body and 100 in wheelbase as the
+# Discovery 1, with the rounded nose, the new lamps and the revised rear.
+# The five-door is modelled.
+# https://en.wikipedia.org/wiki/Land_Rover_Discovery
+#
+# Dimensions 4.704 x 1.890 x 1.941 m, wheelbase 2.540 m.
+#
+# Shape reference: image 1 is the side profile; the front and rear
+# three-quarters show the rounded nose and the tailgate. The notes state the
+# angle.
+#
+# Colours: grade (b), factory-derived names from a Land Rover parts
+# catalogue. Epsom Green, Chawton White, Bonatti Grey and Blenheim Silver
+# are common on British roads. Weights 15, 13, 12, 10, total 50, provisional.
+#
+# Speed 170 km/h. Comfort 75/292, on the line 180 + 1.5 x 75. Classes 2,3.
+# Dates are road presence: 1998 intro, retires staggered 2020-2023.
+#
+# Metres master: citycars/4.5/land-rover-discovery-2.blend. Interchange:
+# citycars/4.5/land-rover-discovery-2.dae. References:
+# citycars/references/land-rover-discovery-2/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the belt line is about 6 cm higher than the photograph,
+# making the glasshouse slightly shallow; the arch cladding is a flat ribbon and
+# the alpine windows are flat panels. The police livery, beacon and decal were
+# deliberately omitted. At 128 px the longer rear overhang, rounded nose and
+# tailgate spare read as a Discovery 2.
+
+
+obj=citycar
+name=LandRoverDiscovery2(EpsomGreen)
+copyright=JamesPetts
+
+DistributionWeight=15
+intro_year=1998
+intro_month=1
+retire_year=2023
+retire_month=6
+speed=170
+class=2,3
+maximum_comfortable_journey_minutes=75
+maximum_tolerable_journey_minutes=292
+
+Image[E]=./images/land-rover-discovery-2-epsomgreen_E.0.0,-33,14
+Image[SE]=./images/land-rover-discovery-2-epsomgreen_SE.0.0,-13,0
+Image[S]=./images/land-rover-discovery-2-epsomgreen_S.0.0,0,0
+Image[SW]=./images/land-rover-discovery-2-epsomgreen_SW.0.0,-8,10
+Image[W]=./images/land-rover-discovery-2-epsomgreen_W.0.0,4,5
+Image[NW]=./images/land-rover-discovery-2-epsomgreen_NW.0.0,12,10
+Image[N]=./images/land-rover-discovery-2-epsomgreen_N.0.0,0,33
+Image[NE]=./images/land-rover-discovery-2-epsomgreen_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=LandRoverDiscovery2(ChawtonWhite)
+copyright=JamesPetts
+
+DistributionWeight=13
+intro_year=1998
+intro_month=1
+retire_year=2022
+retire_month=6
+speed=170
+class=2,3
+maximum_comfortable_journey_minutes=75
+maximum_tolerable_journey_minutes=292
+
+Image[E]=./images/land-rover-discovery-2-chawtonwhite_E.0.0,-33,14
+Image[SE]=./images/land-rover-discovery-2-chawtonwhite_SE.0.0,-13,0
+Image[S]=./images/land-rover-discovery-2-chawtonwhite_S.0.0,0,0
+Image[SW]=./images/land-rover-discovery-2-chawtonwhite_SW.0.0,-8,10
+Image[W]=./images/land-rover-discovery-2-chawtonwhite_W.0.0,4,5
+Image[NW]=./images/land-rover-discovery-2-chawtonwhite_NW.0.0,12,10
+Image[N]=./images/land-rover-discovery-2-chawtonwhite_N.0.0,0,33
+Image[NE]=./images/land-rover-discovery-2-chawtonwhite_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=LandRoverDiscovery2(BonattiGrey)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=1998
+intro_month=1
+retire_year=2021
+retire_month=6
+speed=170
+class=2,3
+maximum_comfortable_journey_minutes=75
+maximum_tolerable_journey_minutes=292
+
+Image[E]=./images/land-rover-discovery-2-bonattigrey_E.0.0,-33,14
+Image[SE]=./images/land-rover-discovery-2-bonattigrey_SE.0.0,-13,0
+Image[S]=./images/land-rover-discovery-2-bonattigrey_S.0.0,0,0
+Image[SW]=./images/land-rover-discovery-2-bonattigrey_SW.0.0,-8,10
+Image[W]=./images/land-rover-discovery-2-bonattigrey_W.0.0,4,5
+Image[NW]=./images/land-rover-discovery-2-bonattigrey_NW.0.0,12,10
+Image[N]=./images/land-rover-discovery-2-bonattigrey_N.0.0,0,33
+Image[NE]=./images/land-rover-discovery-2-bonattigrey_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=LandRoverDiscovery2(BlenheimSilver)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=1998
+intro_month=1
+retire_year=2020
+retire_month=6
+speed=170
+class=2,3
+maximum_comfortable_journey_minutes=75
+maximum_tolerable_journey_minutes=292
+
+Image[E]=./images/land-rover-discovery-2-blenheimsilver_E.0.0,-33,14
+Image[SE]=./images/land-rover-discovery-2-blenheimsilver_SE.0.0,-13,0
+Image[S]=./images/land-rover-discovery-2-blenheimsilver_S.0.0,0,0
+Image[SW]=./images/land-rover-discovery-2-blenheimsilver_SW.0.0,-8,10
+Image[W]=./images/land-rover-discovery-2-blenheimsilver_W.0.0,4,5
+Image[NW]=./images/land-rover-discovery-2-blenheimsilver_NW.0.0,12,10
+Image[N]=./images/land-rover-discovery-2-blenheimsilver_N.0.0,0,33
+Image[NE]=./images/land-rover-discovery-2-blenheimsilver_NE.0.0,0,24

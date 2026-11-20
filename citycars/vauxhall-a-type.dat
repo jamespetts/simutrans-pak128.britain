@@ -1,0 +1,126 @@
+# Vauxhall A-type 20 hp tourer, 1908-1914.
+#
+# The A-type IS the 20 hp car announced in October 1908, not a model that
+# preceded it: the car it was developed from was the 12/16 hp X-type. It was
+# built as the A09, A11 and A12, with a 16-20 hp variant, and the 1912 A12
+# cabriolet with its hood raised is the body modelled. Late cars were
+# assembled into 1915.
+# https://en.wikipedia.org/wiki/Vauxhall_A-type
+#
+# Dimensions: wheelbase 2.921 m or 3.124 m (115 or 123 in). No overall length,
+# width or height was published, so the overall length is measured from the
+# photograph and the width and height are estimated; the estimates are
+# recorded rather than presented as factory figures.
+#
+# Shape reference: image 1 is a period halftone print, near-level within about
+# 5-10 degrees, camera at hub height; it is not a modern photograph and only
+# 960 px was obtainable.
+#
+# Colours: grade (d); no Vauxhall colour list was found. Black, Dark Green,
+# Maroon and Grey are period finishes. Weights 10, 9, 8, 7, total 34,
+# provisional.
+#
+# Speed 100 km/h. Comfort 20/210, on the line 180 + 1.5 x 20. Classes 1,2.
+# Dates: intro October 1908; retires staggered 1928-1932 as a road tail.
+#
+# Metres master: citycars/4.5/vauxhall-a-type.blend. Interchange:
+# citycars/4.5/vauxhall-a-type.dae. References:
+# citycars/references/vauxhall-a-type/ (gitignored).
+#
+# Accepted deviations: the overall dimensions, the radiator face, the lamp
+# arrangement and the rear closure are inferred, there being no front or rear
+# photograph of this body. The hood framing is simplified, and the halftone
+# does not establish a paint colour.
+
+
+obj=citycar
+name=VauxhallAType(Black)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=1908
+intro_month=10
+retire_year=1932
+retire_month=6
+speed=100
+class=1,2
+maximum_comfortable_journey_minutes=20
+maximum_tolerable_journey_minutes=210
+
+Image[E]=./images/vauxhall-a-type-black_E.0.0,-33,14
+Image[SE]=./images/vauxhall-a-type-black_SE.0.0,-13,0
+Image[S]=./images/vauxhall-a-type-black_S.0.0,0,0
+Image[SW]=./images/vauxhall-a-type-black_SW.0.0,-8,10
+Image[W]=./images/vauxhall-a-type-black_W.0.0,4,5
+Image[NW]=./images/vauxhall-a-type-black_NW.0.0,12,10
+Image[N]=./images/vauxhall-a-type-black_N.0.0,0,33
+Image[NE]=./images/vauxhall-a-type-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallAType(DarkGreen)
+copyright=JamesPetts
+
+DistributionWeight=9
+intro_year=1908
+intro_month=10
+retire_year=1931
+retire_month=6
+speed=100
+class=1,2
+maximum_comfortable_journey_minutes=20
+maximum_tolerable_journey_minutes=210
+
+Image[E]=./images/vauxhall-a-type-darkgreen_E.0.0,-33,14
+Image[SE]=./images/vauxhall-a-type-darkgreen_SE.0.0,-13,0
+Image[S]=./images/vauxhall-a-type-darkgreen_S.0.0,0,0
+Image[SW]=./images/vauxhall-a-type-darkgreen_SW.0.0,-8,10
+Image[W]=./images/vauxhall-a-type-darkgreen_W.0.0,4,5
+Image[NW]=./images/vauxhall-a-type-darkgreen_NW.0.0,12,10
+Image[N]=./images/vauxhall-a-type-darkgreen_N.0.0,0,33
+Image[NE]=./images/vauxhall-a-type-darkgreen_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallAType(Maroon)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=1908
+intro_month=10
+retire_year=1930
+retire_month=6
+speed=100
+class=1,2
+maximum_comfortable_journey_minutes=20
+maximum_tolerable_journey_minutes=210
+
+Image[E]=./images/vauxhall-a-type-maroon_E.0.0,-33,14
+Image[SE]=./images/vauxhall-a-type-maroon_SE.0.0,-13,0
+Image[S]=./images/vauxhall-a-type-maroon_S.0.0,0,0
+Image[SW]=./images/vauxhall-a-type-maroon_SW.0.0,-8,10
+Image[W]=./images/vauxhall-a-type-maroon_W.0.0,4,5
+Image[NW]=./images/vauxhall-a-type-maroon_NW.0.0,12,10
+Image[N]=./images/vauxhall-a-type-maroon_N.0.0,0,33
+Image[NE]=./images/vauxhall-a-type-maroon_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallAType(Grey)
+copyright=JamesPetts
+
+DistributionWeight=7
+intro_year=1908
+intro_month=10
+retire_year=1928
+retire_month=6
+speed=100
+class=1,2
+maximum_comfortable_journey_minutes=20
+maximum_tolerable_journey_minutes=210
+
+Image[E]=./images/vauxhall-a-type-grey_E.0.0,-33,14
+Image[SE]=./images/vauxhall-a-type-grey_SE.0.0,-13,0
+Image[S]=./images/vauxhall-a-type-grey_S.0.0,0,0
+Image[SW]=./images/vauxhall-a-type-grey_SW.0.0,-8,10
+Image[W]=./images/vauxhall-a-type-grey_W.0.0,4,5
+Image[NW]=./images/vauxhall-a-type-grey_NW.0.0,12,10
+Image[N]=./images/vauxhall-a-type-grey_N.0.0,0,33
+Image[NE]=./images/vauxhall-a-type-grey_NE.0.0,0,24

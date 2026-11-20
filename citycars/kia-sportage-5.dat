@@ -1,0 +1,121 @@
+# Kia Sportage fifth generation five-door, 2022 onwards.
+#
+# The NQ5 Sportage: the short-wheelbase UK/European body with the boomerang
+# rear lamp, the curved display and the larger grille. UK sales from January
+# 2022. The long-wheelbase North American body is not represented.
+# https://en.wikipedia.org/wiki/Kia_Sportage
+#
+# Dimensions 4.515 x 1.865 x 1.650-1.660 m, wheelbase 2.680 m (short-
+# wheelbase UK car).
+#
+# Shape reference: image 1 is a true side elevation of a green five-door;
+# the other images show a UK car in front and rear views.
+#
+# Colours: grade (d); no UK chart was found. Black, silver, white and green
+# are plain names. Weights 15, 13, 12, 10, total 50, provisional.
+#
+# Speed 205 km/h. Comfort 95/322, on the line 180 + 1.5 x 95. Classes 3,4.
+# Dates are road presence: 2022 intro, retires staggered 2042-2045.
+#
+# Metres master: citycars/4.5/kia-sportage-5.blend. Interchange:
+# citycars/4.5/kia-sportage-5.dae. References:
+# citycars/references/kia-sportage-5/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: a thin bumper-corner tab is present but does not read at
+# 128 px; the arch cladding is a heavy ring. The blacked-out A- and D-pillars
+# (floating roof) are not modelled and the greenhouse is shallower than the
+# photograph's. At 128 px the shallow glasshouse, boomerang lamps and full-width
+# grille panel read as a fifth-generation Sportage.
+
+
+obj=citycar
+name=KiaSportage5(Black)
+copyright=JamesPetts
+
+DistributionWeight=15
+intro_year=2022
+intro_month=1
+retire_year=2045
+retire_month=6
+speed=205
+class=3,4
+maximum_comfortable_journey_minutes=95
+maximum_tolerable_journey_minutes=322
+
+Image[E]=./images/kia-sportage-5-black_E.0.0,-33,14
+Image[SE]=./images/kia-sportage-5-black_SE.0.0,-13,0
+Image[S]=./images/kia-sportage-5-black_S.0.0,0,0
+Image[SW]=./images/kia-sportage-5-black_SW.0.0,-8,10
+Image[W]=./images/kia-sportage-5-black_W.0.0,4,5
+Image[NW]=./images/kia-sportage-5-black_NW.0.0,12,10
+Image[N]=./images/kia-sportage-5-black_N.0.0,0,33
+Image[NE]=./images/kia-sportage-5-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=KiaSportage5(Silver)
+copyright=JamesPetts
+
+DistributionWeight=13
+intro_year=2022
+intro_month=1
+retire_year=2044
+retire_month=6
+speed=205
+class=3,4
+maximum_comfortable_journey_minutes=95
+maximum_tolerable_journey_minutes=322
+
+Image[E]=./images/kia-sportage-5-silver_E.0.0,-33,14
+Image[SE]=./images/kia-sportage-5-silver_SE.0.0,-13,0
+Image[S]=./images/kia-sportage-5-silver_S.0.0,0,0
+Image[SW]=./images/kia-sportage-5-silver_SW.0.0,-8,10
+Image[W]=./images/kia-sportage-5-silver_W.0.0,4,5
+Image[NW]=./images/kia-sportage-5-silver_NW.0.0,12,10
+Image[N]=./images/kia-sportage-5-silver_N.0.0,0,33
+Image[NE]=./images/kia-sportage-5-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=KiaSportage5(White)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=2022
+intro_month=1
+retire_year=2043
+retire_month=6
+speed=205
+class=3,4
+maximum_comfortable_journey_minutes=95
+maximum_tolerable_journey_minutes=322
+
+Image[E]=./images/kia-sportage-5-white_E.0.0,-33,14
+Image[SE]=./images/kia-sportage-5-white_SE.0.0,-13,0
+Image[S]=./images/kia-sportage-5-white_S.0.0,0,0
+Image[SW]=./images/kia-sportage-5-white_SW.0.0,-8,10
+Image[W]=./images/kia-sportage-5-white_W.0.0,4,5
+Image[NW]=./images/kia-sportage-5-white_NW.0.0,12,10
+Image[N]=./images/kia-sportage-5-white_N.0.0,0,33
+Image[NE]=./images/kia-sportage-5-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=KiaSportage5(Green)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=2022
+intro_month=1
+retire_year=2042
+retire_month=6
+speed=205
+class=3,4
+maximum_comfortable_journey_minutes=95
+maximum_tolerable_journey_minutes=322
+
+Image[E]=./images/kia-sportage-5-green_E.0.0,-33,14
+Image[SE]=./images/kia-sportage-5-green_SE.0.0,-13,0
+Image[S]=./images/kia-sportage-5-green_S.0.0,0,0
+Image[SW]=./images/kia-sportage-5-green_SW.0.0,-8,10
+Image[W]=./images/kia-sportage-5-green_W.0.0,4,5
+Image[NW]=./images/kia-sportage-5-green_NW.0.0,12,10
+Image[N]=./images/kia-sportage-5-green_N.0.0,0,33
+Image[NE]=./images/kia-sportage-5-green_NE.0.0,0,24

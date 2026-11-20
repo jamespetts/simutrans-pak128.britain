@@ -1,0 +1,123 @@
+# Ford Consul Capri two-door coupe, 1961-1964.
+#
+# The 335 Consul Capri: the pillarless two-door derivative of the Consul
+# Classic on the same 99 in wheelbase, with the low roof falling into a short
+# boot and the reverse-rake rear screen. 19,421 built, of which 2,002 were GT.
+# It is NOT the 1969-86 Ford Capri.
+# https://en.wikipedia.org/wiki/Ford_Consul_Capri
+#
+# Dimensions 4.337 x 1.659 x 1.372 m, wheelbase 2.515 m.
+#
+# Shape reference: image 1 is a true level side elevation but the car is
+# modified with non-standard alloy wheels and a red side stripe; the body and
+# glasshouse govern, not the wheels or trim. The front and rear
+# three-quarters complete the shape.
+#
+# Colours: grade (c), the Consul Capri 335 identification sheet. Savoy Black,
+# Ermine White, Caribbean Turquoise and Monaco Red. Weights 4, 3, 3, 2,
+# total 12, provisional.
+#
+# Speed 140 km/h. Comfort 55/265, on the line 180 + 1.5 x 55. Classes 2,3.
+# Dates are road presence: 1962 intro, retires staggered 1979-1982.
+#
+# Metres master: citycars/4.5/ford-consul-capri.blend. Interchange:
+# citycars/4.5/ford-consul-capri.dae. References:
+# citycars/references/ford-consul-capri/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the rear deck is largely inherited from the Classic
+# master, and the side-window outline is too angular. The modified alloys and red
+# stripe in image 1 were excluded. At 128 px the pillarless two-door cabin and
+# rear glass sloping to the boot read as a Consul Capri.
+
+
+obj=citycar
+name=FordConsulCapri(SavoyBlack)
+copyright=JamesPetts
+
+DistributionWeight=4
+intro_year=1962
+intro_month=1
+retire_year=1982
+retire_month=6
+speed=140
+class=2,3
+maximum_comfortable_journey_minutes=55
+maximum_tolerable_journey_minutes=265
+
+Image[E]=./images/ford-consul-capri-savoyblack_E.0.0,-33,14
+Image[SE]=./images/ford-consul-capri-savoyblack_SE.0.0,-13,0
+Image[S]=./images/ford-consul-capri-savoyblack_S.0.0,0,0
+Image[SW]=./images/ford-consul-capri-savoyblack_SW.0.0,-8,10
+Image[W]=./images/ford-consul-capri-savoyblack_W.0.0,4,5
+Image[NW]=./images/ford-consul-capri-savoyblack_NW.0.0,12,10
+Image[N]=./images/ford-consul-capri-savoyblack_N.0.0,0,33
+Image[NE]=./images/ford-consul-capri-savoyblack_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FordConsulCapri(ErmineWhite)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1962
+intro_month=1
+retire_year=1981
+retire_month=6
+speed=140
+class=2,3
+maximum_comfortable_journey_minutes=55
+maximum_tolerable_journey_minutes=265
+
+Image[E]=./images/ford-consul-capri-erminewhite_E.0.0,-33,14
+Image[SE]=./images/ford-consul-capri-erminewhite_SE.0.0,-13,0
+Image[S]=./images/ford-consul-capri-erminewhite_S.0.0,0,0
+Image[SW]=./images/ford-consul-capri-erminewhite_SW.0.0,-8,10
+Image[W]=./images/ford-consul-capri-erminewhite_W.0.0,4,5
+Image[NW]=./images/ford-consul-capri-erminewhite_NW.0.0,12,10
+Image[N]=./images/ford-consul-capri-erminewhite_N.0.0,0,33
+Image[NE]=./images/ford-consul-capri-erminewhite_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FordConsulCapri(CaribbeanTurquoise)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1962
+intro_month=1
+retire_year=1980
+retire_month=6
+speed=140
+class=2,3
+maximum_comfortable_journey_minutes=55
+maximum_tolerable_journey_minutes=265
+
+Image[E]=./images/ford-consul-capri-caribbeanturquoise_E.0.0,-33,14
+Image[SE]=./images/ford-consul-capri-caribbeanturquoise_SE.0.0,-13,0
+Image[S]=./images/ford-consul-capri-caribbeanturquoise_S.0.0,0,0
+Image[SW]=./images/ford-consul-capri-caribbeanturquoise_SW.0.0,-8,10
+Image[W]=./images/ford-consul-capri-caribbeanturquoise_W.0.0,4,5
+Image[NW]=./images/ford-consul-capri-caribbeanturquoise_NW.0.0,12,10
+Image[N]=./images/ford-consul-capri-caribbeanturquoise_N.0.0,0,33
+Image[NE]=./images/ford-consul-capri-caribbeanturquoise_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FordConsulCapri(MonacoRed)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1962
+intro_month=1
+retire_year=1979
+retire_month=6
+speed=140
+class=2,3
+maximum_comfortable_journey_minutes=55
+maximum_tolerable_journey_minutes=265
+
+Image[E]=./images/ford-consul-capri-monacored_E.0.0,-33,14
+Image[SE]=./images/ford-consul-capri-monacored_SE.0.0,-13,0
+Image[S]=./images/ford-consul-capri-monacored_S.0.0,0,0
+Image[SW]=./images/ford-consul-capri-monacored_SW.0.0,-8,10
+Image[W]=./images/ford-consul-capri-monacored_W.0.0,4,5
+Image[NW]=./images/ford-consul-capri-monacored_NW.0.0,12,10
+Image[N]=./images/ford-consul-capri-monacored_N.0.0,0,33
+Image[NE]=./images/ford-consul-capri-monacored_NE.0.0,0,24

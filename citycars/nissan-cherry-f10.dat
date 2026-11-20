@@ -1,0 +1,125 @@
+# Datsun Cherry 120A Coupe (F-II), 1977-1979.
+#
+# The F10 three-door liftback coupe, sold in Britain from 1977 and only with
+# the 1,171 cc engine; the saloons were the 988 cc Cherry 100A and are not
+# represented. The coupe carries the flat beltline, the full-length liftback
+# tailgate and the large rectangular rear quarter glass.
+# https://en.wikipedia.org/wiki/Nissan_Cherry
+#
+# Dimensions 3.825 x 1.500 x 1.375 m, wheelbase 2.395 m (Wikipedia infobox;
+# the height is the range figure and may be a few centimetres high for the
+# coupe, no coupe-specific height having been found).
+#
+# Shape reference: image 1 is the only true level side elevation of an F10
+# coupe found, a period film photograph at 1282 x 770, so resolution rather
+# than file size is its limit. Images 2-4 are a UK-registered 120A, APJ 364T.
+#
+# Colours: grade (d); no UK colour page for the F10 was obtained. White, Red,
+# Blue and Green are plain names. The surviving UK 1977 car is described by its
+# auctioneer as Polar White, Datsun code 216, but that is a lead, not a chart.
+# Weights 12, 10, 9, 8, total 39, provisional.
+#
+# Speed 150 km/h. Comfort 40/240, on the line 180 + 1.5 x 40. Classes 0,1.
+# Dates: intro 1977, the month unconfirmed and set to January; retire staggered
+# 1990-1994 as a road tail.
+#
+# Metres master: citycars/4.5/nissan-cherry-f10.blend. Interchange:
+# citycars/4.5/nissan-cherry-f10.dae. References:
+# citycars/references/nissan-cherry-f10/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the station picks from a period film photograph are
+# approximate. The compound tail curves, the grille texture, the wheel centres
+# and the badge lettering are simplified.
+
+
+obj=citycar
+name=DatsunCherryF10(White)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=1977
+intro_month=1
+retire_year=1994
+retire_month=6
+speed=150
+class=0,1
+maximum_comfortable_journey_minutes=40
+maximum_tolerable_journey_minutes=240
+
+Image[E]=./images/nissan-cherry-f10-white_E.0.0,-33,14
+Image[SE]=./images/nissan-cherry-f10-white_SE.0.0,-13,0
+Image[S]=./images/nissan-cherry-f10-white_S.0.0,0,0
+Image[SW]=./images/nissan-cherry-f10-white_SW.0.0,-8,10
+Image[W]=./images/nissan-cherry-f10-white_W.0.0,4,5
+Image[NW]=./images/nissan-cherry-f10-white_NW.0.0,12,10
+Image[N]=./images/nissan-cherry-f10-white_N.0.0,0,33
+Image[NE]=./images/nissan-cherry-f10-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=DatsunCherryF10(Red)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=1977
+intro_month=1
+retire_year=1993
+retire_month=6
+speed=150
+class=0,1
+maximum_comfortable_journey_minutes=40
+maximum_tolerable_journey_minutes=240
+
+Image[E]=./images/nissan-cherry-f10-red_E.0.0,-33,14
+Image[SE]=./images/nissan-cherry-f10-red_SE.0.0,-13,0
+Image[S]=./images/nissan-cherry-f10-red_S.0.0,0,0
+Image[SW]=./images/nissan-cherry-f10-red_SW.0.0,-8,10
+Image[W]=./images/nissan-cherry-f10-red_W.0.0,4,5
+Image[NW]=./images/nissan-cherry-f10-red_NW.0.0,12,10
+Image[N]=./images/nissan-cherry-f10-red_N.0.0,0,33
+Image[NE]=./images/nissan-cherry-f10-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=DatsunCherryF10(Blue)
+copyright=JamesPetts
+
+DistributionWeight=9
+intro_year=1977
+intro_month=1
+retire_year=1992
+retire_month=6
+speed=150
+class=0,1
+maximum_comfortable_journey_minutes=40
+maximum_tolerable_journey_minutes=240
+
+Image[E]=./images/nissan-cherry-f10-blue_E.0.0,-33,14
+Image[SE]=./images/nissan-cherry-f10-blue_SE.0.0,-13,0
+Image[S]=./images/nissan-cherry-f10-blue_S.0.0,0,0
+Image[SW]=./images/nissan-cherry-f10-blue_SW.0.0,-8,10
+Image[W]=./images/nissan-cherry-f10-blue_W.0.0,4,5
+Image[NW]=./images/nissan-cherry-f10-blue_NW.0.0,12,10
+Image[N]=./images/nissan-cherry-f10-blue_N.0.0,0,33
+Image[NE]=./images/nissan-cherry-f10-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=DatsunCherryF10(Green)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=1977
+intro_month=1
+retire_year=1990
+retire_month=6
+speed=150
+class=0,1
+maximum_comfortable_journey_minutes=40
+maximum_tolerable_journey_minutes=240
+
+Image[E]=./images/nissan-cherry-f10-green_E.0.0,-33,14
+Image[SE]=./images/nissan-cherry-f10-green_SE.0.0,-13,0
+Image[S]=./images/nissan-cherry-f10-green_S.0.0,0,0
+Image[SW]=./images/nissan-cherry-f10-green_SW.0.0,-8,10
+Image[W]=./images/nissan-cherry-f10-green_W.0.0,4,5
+Image[NW]=./images/nissan-cherry-f10-green_NW.0.0,12,10
+Image[N]=./images/nissan-cherry-f10-green_N.0.0,0,33
+Image[NE]=./images/nissan-cherry-f10-green_NE.0.0,0,24

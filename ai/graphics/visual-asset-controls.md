@@ -162,10 +162,15 @@ cannot pass a gate stops; it does not proceed on judgement.
 
    **Material rule — glazing is pure black.** The glazing material's diffuse colour is
    exactly `(0.0, 0.0, 0.0)`, lightness zero, in every asset; a dark grey or blue-grey reads
-   as a different material at sprite scale. The render driver forces any material whose name
-   contains `Glass` or `Glazing` to black, but the master itself must also carry black so the
-   convention survives any other render path. Builders report the material name and RGB.
-   `[USER-DIRECTION:2026-11-16]`
+   as a different material at sprite scale. **The material must also be shadeless with zero
+   specular and zero ambient**, so no light, highlight or ambient term can lift a window pixel
+   above luminance 0: `specular_intensity = 0`, `specular_color = (0,0,0)`, `roughness = 1`,
+   `ambient = 0`, `emit = 0`, `use_shadeless = True`. A black diffuse alone is not enough; the
+   2.79 default specular of 0.5 and ambient of 1.0 greyed the windows of the 2026-11-20
+   models. The render driver forces every `Glass`/`Glazing` material to this state, but the
+   master itself must also carry it so the convention survives any other render path.
+   Builders report the material name, RGB and the specular/ambient values.
+   `[USER-DIRECTION:2026-11-16; strengthened 2026-11-20]`
 3. **Gate C — user acceptance (after renders).** The human judges the renders against the
    photographs. Acceptance is recorded in the run history; AI readings are working tools.
 4. **Escalation rule.** "The builder cannot express X" or "X does not read at pak scale"

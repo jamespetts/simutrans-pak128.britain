@@ -1,0 +1,126 @@
+# BYD Sealion 7 five-door electric SUV, 2025 onwards.
+#
+# The Sealion 7: the electric coupe-SUV with the 82.5 kWh Blade battery, the
+# sloping rear roof and the full-width tail bar. UK pricing and specification
+# were announced on 10 December 2024 and the car went on sale in the first
+# quarter of 2025. The Sealion 6 is a plug-in hybrid and is not represented.
+# https://en.wikipedia.org/wiki/BYD_Sealion_7
+#
+# Dimensions 4.830 x 1.925 x 1.620 m, wheelbase 2.930 m (BYD UK media
+# specification table; Autocar of 13 November 2025 gives the same figures and
+# 2.190 m over mirrors).
+#
+# Shape reference: NO true level side elevation was obtainable. Image 1 is
+# about 12-15 degrees off the side axis at about 1.4 m, so the flank is
+# estimated within the published dimensions and the limitation is recorded.
+#
+# Colours: grade (d); Shark Grey is the only UK name recorded, and the
+# modelled colourways use plain names. Weights 12, 10, 9, 8, total 39,
+# provisional.
+#
+# Speed 180 km/h. Comfort 95/322, on the line 180 + 1.5 x 95: a quiet,
+# spacious electric SUV. Classes 3,4.
+# Dates: intro January 2025, the first quarter of UK sale; retires staggered
+# 2048-2051.
+#
+# Metres master: citycars/4.5/byd-sealion-7.blend. Interchange:
+# citycars/4.5/byd-sealion-7.dae. References:
+# citycars/references/byd-sealion-7/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the flank is estimated from an oblique monochrome
+# photograph, the only side view available. Both spoilers are present; lamp
+# internals, wheel spokes and diffuser sculpting are simplified. The proud
+# panoramic glazing adds about 14 mm above the nominal painted roof height.
+
+
+obj=citycar
+name=BYDSealion7(White)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=2025
+intro_month=1
+retire_year=2051
+retire_month=6
+speed=180
+class=3,4
+maximum_comfortable_journey_minutes=95
+maximum_tolerable_journey_minutes=322
+
+Image[E]=./images/byd-sealion-7-white_E.0.0,-33,14
+Image[SE]=./images/byd-sealion-7-white_SE.0.0,-13,0
+Image[S]=./images/byd-sealion-7-white_S.0.0,0,0
+Image[SW]=./images/byd-sealion-7-white_SW.0.0,-8,10
+Image[W]=./images/byd-sealion-7-white_W.0.0,4,5
+Image[NW]=./images/byd-sealion-7-white_NW.0.0,12,10
+Image[N]=./images/byd-sealion-7-white_N.0.0,0,33
+Image[NE]=./images/byd-sealion-7-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BYDSealion7(Black)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=2025
+intro_month=1
+retire_year=2050
+retire_month=6
+speed=180
+class=3,4
+maximum_comfortable_journey_minutes=95
+maximum_tolerable_journey_minutes=322
+
+Image[E]=./images/byd-sealion-7-black_E.0.0,-33,14
+Image[SE]=./images/byd-sealion-7-black_SE.0.0,-13,0
+Image[S]=./images/byd-sealion-7-black_S.0.0,0,0
+Image[SW]=./images/byd-sealion-7-black_SW.0.0,-8,10
+Image[W]=./images/byd-sealion-7-black_W.0.0,4,5
+Image[NW]=./images/byd-sealion-7-black_NW.0.0,12,10
+Image[N]=./images/byd-sealion-7-black_N.0.0,0,33
+Image[NE]=./images/byd-sealion-7-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BYDSealion7(Blue)
+copyright=JamesPetts
+
+DistributionWeight=9
+intro_year=2025
+intro_month=1
+retire_year=2049
+retire_month=6
+speed=180
+class=3,4
+maximum_comfortable_journey_minutes=95
+maximum_tolerable_journey_minutes=322
+
+Image[E]=./images/byd-sealion-7-blue_E.0.0,-33,14
+Image[SE]=./images/byd-sealion-7-blue_SE.0.0,-13,0
+Image[S]=./images/byd-sealion-7-blue_S.0.0,0,0
+Image[SW]=./images/byd-sealion-7-blue_SW.0.0,-8,10
+Image[W]=./images/byd-sealion-7-blue_W.0.0,4,5
+Image[NW]=./images/byd-sealion-7-blue_NW.0.0,12,10
+Image[N]=./images/byd-sealion-7-blue_N.0.0,0,33
+Image[NE]=./images/byd-sealion-7-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BYDSealion7(Grey)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=2025
+intro_month=1
+retire_year=2048
+retire_month=6
+speed=180
+class=3,4
+maximum_comfortable_journey_minutes=95
+maximum_tolerable_journey_minutes=322
+
+Image[E]=./images/byd-sealion-7-grey_E.0.0,-33,14
+Image[SE]=./images/byd-sealion-7-grey_SE.0.0,-13,0
+Image[S]=./images/byd-sealion-7-grey_S.0.0,0,0
+Image[SW]=./images/byd-sealion-7-grey_SW.0.0,-8,10
+Image[W]=./images/byd-sealion-7-grey_W.0.0,4,5
+Image[NW]=./images/byd-sealion-7-grey_NW.0.0,12,10
+Image[N]=./images/byd-sealion-7-grey_N.0.0,0,33
+Image[NE]=./images/byd-sealion-7-grey_NE.0.0,0,24

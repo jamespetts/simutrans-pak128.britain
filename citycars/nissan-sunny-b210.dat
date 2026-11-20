@@ -1,0 +1,126 @@
+# Datsun 120Y four-door saloon (B210), 1973-1977.
+#
+# Sold in Britain as the Datsun 120Y from the autumn of 1973; Datsun UK's
+# April 1974 chart heads the range "120Y Sunny Range". The four-door saloon is
+# modelled; the two-door saloon, coupe, estate and van are not represented.
+# https://en.wikipedia.org/wiki/Nissan_Sunny
+#
+# Dimensions 3.950 x 1.545 x 1.360 m, wheelbase 2.340 m (Wikipedia infobox;
+# the longer figures in the same box are the wagon, the Excellent and the
+# US-bumper cars).
+#
+# Shape reference: image 1 is about 20 degrees off the side axis, so the flank
+# is estimated within the published dimensions; images 2-4 include a UK
+# registered car, VJA 355S, carrying its Datsun 120Y boot badge.
+#
+# Colours: grade (a) for the codes and (d) for the names. Datsun UK's April
+# 1974 chart lists codes 216, 225, 226, 227, 931 and 932 for the two- and
+# four-door saloons, without names. White, Red, Blue and Yellow are plain names
+# chosen to suit the period. Weights 12, 10, 9, 8, total 39, provisional.
+#
+# Speed 145 km/h. Comfort 40/240, on the line 180 + 1.5 x 40. Classes 0,1.
+# Dates: intro October 1973, the autumn launch; retire staggered 1988-1992 as a
+# road tail.
+#
+# Metres master: citycars/4.5/nissan-sunny-b210.blend. Interchange:
+# citycars/4.5/nissan-sunny-b210.dae. References:
+# citycars/references/nissan-sunny-b210/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the flank is a reasoned estimate from the most oblique
+# of the four profile references, bounded by the published dimensions and
+# wheelbase. A single-colour roof is modelled, the vinyl roof of the
+# photographed car is not copied, the accessory spotlights are omitted and the
+# badge lettering is simplified.
+
+
+obj=citycar
+name=Datsun120Y(White)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=1973
+intro_month=10
+retire_year=1992
+retire_month=6
+speed=145
+class=0,1
+maximum_comfortable_journey_minutes=40
+maximum_tolerable_journey_minutes=240
+
+Image[E]=./images/nissan-sunny-b210-white_E.0.0,-33,14
+Image[SE]=./images/nissan-sunny-b210-white_SE.0.0,-13,0
+Image[S]=./images/nissan-sunny-b210-white_S.0.0,0,0
+Image[SW]=./images/nissan-sunny-b210-white_SW.0.0,-8,10
+Image[W]=./images/nissan-sunny-b210-white_W.0.0,4,5
+Image[NW]=./images/nissan-sunny-b210-white_NW.0.0,12,10
+Image[N]=./images/nissan-sunny-b210-white_N.0.0,0,33
+Image[NE]=./images/nissan-sunny-b210-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Datsun120Y(Red)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=1973
+intro_month=10
+retire_year=1991
+retire_month=6
+speed=145
+class=0,1
+maximum_comfortable_journey_minutes=40
+maximum_tolerable_journey_minutes=240
+
+Image[E]=./images/nissan-sunny-b210-red_E.0.0,-33,14
+Image[SE]=./images/nissan-sunny-b210-red_SE.0.0,-13,0
+Image[S]=./images/nissan-sunny-b210-red_S.0.0,0,0
+Image[SW]=./images/nissan-sunny-b210-red_SW.0.0,-8,10
+Image[W]=./images/nissan-sunny-b210-red_W.0.0,4,5
+Image[NW]=./images/nissan-sunny-b210-red_NW.0.0,12,10
+Image[N]=./images/nissan-sunny-b210-red_N.0.0,0,33
+Image[NE]=./images/nissan-sunny-b210-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Datsun120Y(Blue)
+copyright=JamesPetts
+
+DistributionWeight=9
+intro_year=1973
+intro_month=10
+retire_year=1990
+retire_month=6
+speed=145
+class=0,1
+maximum_comfortable_journey_minutes=40
+maximum_tolerable_journey_minutes=240
+
+Image[E]=./images/nissan-sunny-b210-blue_E.0.0,-33,14
+Image[SE]=./images/nissan-sunny-b210-blue_SE.0.0,-13,0
+Image[S]=./images/nissan-sunny-b210-blue_S.0.0,0,0
+Image[SW]=./images/nissan-sunny-b210-blue_SW.0.0,-8,10
+Image[W]=./images/nissan-sunny-b210-blue_W.0.0,4,5
+Image[NW]=./images/nissan-sunny-b210-blue_NW.0.0,12,10
+Image[N]=./images/nissan-sunny-b210-blue_N.0.0,0,33
+Image[NE]=./images/nissan-sunny-b210-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Datsun120Y(Yellow)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=1973
+intro_month=10
+retire_year=1988
+retire_month=6
+speed=145
+class=0,1
+maximum_comfortable_journey_minutes=40
+maximum_tolerable_journey_minutes=240
+
+Image[E]=./images/nissan-sunny-b210-yellow_E.0.0,-33,14
+Image[SE]=./images/nissan-sunny-b210-yellow_SE.0.0,-13,0
+Image[S]=./images/nissan-sunny-b210-yellow_S.0.0,0,0
+Image[SW]=./images/nissan-sunny-b210-yellow_SW.0.0,-8,10
+Image[W]=./images/nissan-sunny-b210-yellow_W.0.0,4,5
+Image[NW]=./images/nissan-sunny-b210-yellow_NW.0.0,12,10
+Image[N]=./images/nissan-sunny-b210-yellow_N.0.0,0,33
+Image[NE]=./images/nissan-sunny-b210-yellow_NE.0.0,0,24

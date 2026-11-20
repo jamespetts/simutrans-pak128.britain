@@ -1,0 +1,121 @@
+# Rover P6 3500 four-door saloon, 1968-1977.
+#
+# The V8 P6: the ex-Buick 3.5-litre engine in the base-unit body, with the
+# 3500's grille and badge treatment. The 3500S is the same shell with a manual
+# gearbox and is not separately represented.
+# https://en.wikipedia.org/wiki/Rover_P6
+#
+# Dimensions 4.572 x 1.676 x 1.422 m, wheelbase 2.616 m (family figures).
+#
+# Shape reference: image 1 is nearly side-on but not level, identified by the
+# wing script and the matching photograph series. The pack covers the Series
+# II car; the Series I nose is not represented. The limitation is recorded.
+#
+# Colours: documented Rover finishes of the period: Arden Green, Davos White,
+# Squadron Blue, Mexico Brown. Weights 25, 22, 18, 15, total 80, provisional.
+#
+# Speed 190 km/h. Comfort 115/352, on the line 180 + 1.5 x 115, the same P6
+# cabin with the V8. Classes 3,4.
+# Dates are road presence: 1968 intro, retires staggered 1988-1991.
+#
+# Metres master: citycars/4.5/rover-p6-3500.blend. Interchange:
+# citycars/4.5/rover-p6-3500.dae. References:
+# citycars/references/rover-p6-3500/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the pack is a Series II car, so the Series I nose is not
+# represented; the build is derived from the P6 2200 master with the V8 grille
+# and badges. The flank is estimated from a near-side view. At 128 px the P6
+# body and V8 grille read as a P6 3500.
+
+
+obj=citycar
+name=RoverP63500(ArdenGreen)
+copyright=JamesPetts
+
+DistributionWeight=25
+intro_year=1968
+intro_month=4
+retire_year=1991
+retire_month=6
+speed=190
+class=3,4
+maximum_comfortable_journey_minutes=115
+maximum_tolerable_journey_minutes=352
+
+Image[E]=./images/rover-p6-3500-ardengreen_E.0.0,-33,14
+Image[SE]=./images/rover-p6-3500-ardengreen_SE.0.0,-13,0
+Image[S]=./images/rover-p6-3500-ardengreen_S.0.0,0,0
+Image[SW]=./images/rover-p6-3500-ardengreen_SW.0.0,-8,10
+Image[W]=./images/rover-p6-3500-ardengreen_W.0.0,4,5
+Image[NW]=./images/rover-p6-3500-ardengreen_NW.0.0,12,10
+Image[N]=./images/rover-p6-3500-ardengreen_N.0.0,0,33
+Image[NE]=./images/rover-p6-3500-ardengreen_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RoverP63500(DavosWhite)
+copyright=JamesPetts
+
+DistributionWeight=22
+intro_year=1968
+intro_month=4
+retire_year=1990
+retire_month=6
+speed=190
+class=3,4
+maximum_comfortable_journey_minutes=115
+maximum_tolerable_journey_minutes=352
+
+Image[E]=./images/rover-p6-3500-davoswhite_E.0.0,-33,14
+Image[SE]=./images/rover-p6-3500-davoswhite_SE.0.0,-13,0
+Image[S]=./images/rover-p6-3500-davoswhite_S.0.0,0,0
+Image[SW]=./images/rover-p6-3500-davoswhite_SW.0.0,-8,10
+Image[W]=./images/rover-p6-3500-davoswhite_W.0.0,4,5
+Image[NW]=./images/rover-p6-3500-davoswhite_NW.0.0,12,10
+Image[N]=./images/rover-p6-3500-davoswhite_N.0.0,0,33
+Image[NE]=./images/rover-p6-3500-davoswhite_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RoverP63500(SquadronBlue)
+copyright=JamesPetts
+
+DistributionWeight=18
+intro_year=1968
+intro_month=4
+retire_year=1989
+retire_month=6
+speed=190
+class=3,4
+maximum_comfortable_journey_minutes=115
+maximum_tolerable_journey_minutes=352
+
+Image[E]=./images/rover-p6-3500-squadronblue_E.0.0,-33,14
+Image[SE]=./images/rover-p6-3500-squadronblue_SE.0.0,-13,0
+Image[S]=./images/rover-p6-3500-squadronblue_S.0.0,0,0
+Image[SW]=./images/rover-p6-3500-squadronblue_SW.0.0,-8,10
+Image[W]=./images/rover-p6-3500-squadronblue_W.0.0,4,5
+Image[NW]=./images/rover-p6-3500-squadronblue_NW.0.0,12,10
+Image[N]=./images/rover-p6-3500-squadronblue_N.0.0,0,33
+Image[NE]=./images/rover-p6-3500-squadronblue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RoverP63500(MexicoBrown)
+copyright=JamesPetts
+
+DistributionWeight=15
+intro_year=1968
+intro_month=4
+retire_year=1988
+retire_month=6
+speed=190
+class=3,4
+maximum_comfortable_journey_minutes=115
+maximum_tolerable_journey_minutes=352
+
+Image[E]=./images/rover-p6-3500-mexicobrown_E.0.0,-33,14
+Image[SE]=./images/rover-p6-3500-mexicobrown_SE.0.0,-13,0
+Image[S]=./images/rover-p6-3500-mexicobrown_S.0.0,0,0
+Image[SW]=./images/rover-p6-3500-mexicobrown_SW.0.0,-8,10
+Image[W]=./images/rover-p6-3500-mexicobrown_W.0.0,4,5
+Image[NW]=./images/rover-p6-3500-mexicobrown_NW.0.0,12,10
+Image[N]=./images/rover-p6-3500-mexicobrown_N.0.0,0,33
+Image[NE]=./images/rover-p6-3500-mexicobrown_NE.0.0,0,24

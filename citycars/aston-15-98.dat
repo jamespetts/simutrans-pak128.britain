@@ -1,0 +1,124 @@
+# Aston Martin 15/98 open sports tourer, 1937-1939.
+#
+# The 15/98: the 2-litre-engined touring model with the longer, roomier body
+# and the open four-seat tourer coachwork. The open tourer is modelled.
+#
+# Dimensions: NO reliable published figure was found. The model measures
+# 4.23 x 1.61 x 1.38 m with the hood folded, on a 2.75 m wheelbase,
+# ESTIMATED from the photographs and assumed tyre outside diameters; these are
+# not specifications and must not be quoted as such. This is the works tourer
+# with the hood folded.
+#
+# Shape reference: a black 15/98 open sports tourer, plate EOL 500, in near
+# true side elevation, front three-quarter and rear three-quarter.
+#
+# Colours: grade (d). No British colour list exists; the car was finished to
+# order. The objects carry plain names (green, black, red, silver).
+#
+# Speed 140 km/h, an estimate for the touring body. Comfort 35/232 on the
+# line 180 + 1.5 x 35: an open tourer with four seats, more comfortable than
+# the two-seat sports cars. Classes 3,4.
+# Dates are road presence: 1937 intro, retires staggered 1956-1959.
+#
+# Metres master: citycars/4.5/aston-15-98.blend. Interchange:
+# citycars/4.5/aston-15-98.dae. References:
+# citycars/references/aston-15-98/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the rear wings do not sweep far enough down, the
+# folded hood and fuel tank are simplified, the external exhaust is too
+# prominent, and plate lettering is absent. At 128 px the four-seat tourer
+# proportions, tall grille, auxiliary lamps and inclined spare read as a
+# 15/98.
+
+
+obj=citycar
+name=Aston15_98(Green)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1937
+intro_month=1
+retire_year=1959
+retire_month=6
+speed=140
+class=3,4
+maximum_comfortable_journey_minutes=35
+maximum_tolerable_journey_minutes=232
+
+Image[E]=./images/aston-15-98-green_E.0.0,-33,14
+Image[SE]=./images/aston-15-98-green_SE.0.0,-13,0
+Image[S]=./images/aston-15-98-green_S.0.0,0,0
+Image[SW]=./images/aston-15-98-green_SW.0.0,-8,10
+Image[W]=./images/aston-15-98-green_W.0.0,4,5
+Image[NW]=./images/aston-15-98-green_NW.0.0,12,10
+Image[N]=./images/aston-15-98-green_N.0.0,0,33
+Image[NE]=./images/aston-15-98-green_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Aston15_98(Black)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1937
+intro_month=1
+retire_year=1958
+retire_month=6
+speed=140
+class=3,4
+maximum_comfortable_journey_minutes=35
+maximum_tolerable_journey_minutes=232
+
+Image[E]=./images/aston-15-98-black_E.0.0,-33,14
+Image[SE]=./images/aston-15-98-black_SE.0.0,-13,0
+Image[S]=./images/aston-15-98-black_S.0.0,0,0
+Image[SW]=./images/aston-15-98-black_SW.0.0,-8,10
+Image[W]=./images/aston-15-98-black_W.0.0,4,5
+Image[NW]=./images/aston-15-98-black_NW.0.0,12,10
+Image[N]=./images/aston-15-98-black_N.0.0,0,33
+Image[NE]=./images/aston-15-98-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Aston15_98(Red)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1937
+intro_month=1
+retire_year=1957
+retire_month=6
+speed=140
+class=3,4
+maximum_comfortable_journey_minutes=35
+maximum_tolerable_journey_minutes=232
+
+Image[E]=./images/aston-15-98-red_E.0.0,-33,14
+Image[SE]=./images/aston-15-98-red_SE.0.0,-13,0
+Image[S]=./images/aston-15-98-red_S.0.0,0,0
+Image[SW]=./images/aston-15-98-red_SW.0.0,-8,10
+Image[W]=./images/aston-15-98-red_W.0.0,4,5
+Image[NW]=./images/aston-15-98-red_NW.0.0,12,10
+Image[N]=./images/aston-15-98-red_N.0.0,0,33
+Image[NE]=./images/aston-15-98-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Aston15_98(Silver)
+copyright=JamesPetts
+
+DistributionWeight=1
+intro_year=1937
+intro_month=1
+retire_year=1956
+retire_month=6
+speed=140
+class=3,4
+maximum_comfortable_journey_minutes=35
+maximum_tolerable_journey_minutes=232
+
+Image[E]=./images/aston-15-98-silver_E.0.0,-33,14
+Image[SE]=./images/aston-15-98-silver_SE.0.0,-13,0
+Image[S]=./images/aston-15-98-silver_S.0.0,0,0
+Image[SW]=./images/aston-15-98-silver_SW.0.0,-8,10
+Image[W]=./images/aston-15-98-silver_W.0.0,4,5
+Image[NW]=./images/aston-15-98-silver_NW.0.0,12,10
+Image[N]=./images/aston-15-98-silver_N.0.0,0,33
+Image[NE]=./images/aston-15-98-silver_NE.0.0,0,24

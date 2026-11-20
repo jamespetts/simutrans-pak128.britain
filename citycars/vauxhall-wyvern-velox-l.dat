@@ -1,0 +1,123 @@
+# Vauxhall Wyvern and Velox L-series four-door saloon, 1948-1951.
+#
+# The first post-war Vauxhalls: the four-cylinder Wyvern LIX and the
+# six-cylinder Velox LIP on one body shell, with the rounded post-war styling
+# and the four-door saloon body. One object represents the shell; the Wyvern
+# and Velox are the two engine variants sold on it.
+# https://en.wikipedia.org/wiki/Vauxhall_Velox
+#
+# Dimensions: length 4,178 mm, width 1,575 mm, wheelbase 2,483 mm. Height
+# 1,700 mm for the Wyvern and 1,600 mm for the Velox; the Velox figure is used
+# because the six is the car the object is named with.
+#
+# Shape reference: image 1 is NOT a true level profile; the flank is
+# estimated within the published dimensions and the limitation is recorded.
+#
+# Colours: grade (d); no period Vauxhall colour list was found. Black, Grey,
+# Blue and Green are plain period names. Weights 12, 10, 9, 8, total 39,
+# provisional.
+#
+# Speed 120 km/h. Comfort 35/232, on the line 180 + 1.5 x 35. Classes 0,1.
+# Dates: intro October 1948; retires staggered 1963-1966 as a road tail.
+#
+# Metres master: citycars/4.5/vauxhall-wyvern-velox-l.blend. Interchange:
+# citycars/4.5/vauxhall-wyvern-velox-l.dae. References:
+# citycars/references/vauxhall-wyvern-velox-l/ (gitignored).
+#
+# Accepted deviations: one shared shell using the Velox's 1.600 m height, not
+# the separately reported 1.700 m Wyvern figure. The flank and window contours
+# are estimates and the model-specific badging and brightwork are not
+# differentiated.
+
+
+obj=citycar
+name=VauxhallWyvernVeloxL(Black)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=1948
+intro_month=10
+retire_year=1966
+retire_month=6
+speed=120
+class=0,1
+maximum_comfortable_journey_minutes=35
+maximum_tolerable_journey_minutes=232
+
+Image[E]=./images/vauxhall-wyvern-velox-l-black_E.0.0,-33,14
+Image[SE]=./images/vauxhall-wyvern-velox-l-black_SE.0.0,-13,0
+Image[S]=./images/vauxhall-wyvern-velox-l-black_S.0.0,0,0
+Image[SW]=./images/vauxhall-wyvern-velox-l-black_SW.0.0,-8,10
+Image[W]=./images/vauxhall-wyvern-velox-l-black_W.0.0,4,5
+Image[NW]=./images/vauxhall-wyvern-velox-l-black_NW.0.0,12,10
+Image[N]=./images/vauxhall-wyvern-velox-l-black_N.0.0,0,33
+Image[NE]=./images/vauxhall-wyvern-velox-l-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallWyvernVeloxL(Grey)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=1948
+intro_month=10
+retire_year=1965
+retire_month=6
+speed=120
+class=0,1
+maximum_comfortable_journey_minutes=35
+maximum_tolerable_journey_minutes=232
+
+Image[E]=./images/vauxhall-wyvern-velox-l-grey_E.0.0,-33,14
+Image[SE]=./images/vauxhall-wyvern-velox-l-grey_SE.0.0,-13,0
+Image[S]=./images/vauxhall-wyvern-velox-l-grey_S.0.0,0,0
+Image[SW]=./images/vauxhall-wyvern-velox-l-grey_SW.0.0,-8,10
+Image[W]=./images/vauxhall-wyvern-velox-l-grey_W.0.0,4,5
+Image[NW]=./images/vauxhall-wyvern-velox-l-grey_NW.0.0,12,10
+Image[N]=./images/vauxhall-wyvern-velox-l-grey_N.0.0,0,33
+Image[NE]=./images/vauxhall-wyvern-velox-l-grey_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallWyvernVeloxL(Blue)
+copyright=JamesPetts
+
+DistributionWeight=9
+intro_year=1948
+intro_month=10
+retire_year=1964
+retire_month=6
+speed=120
+class=0,1
+maximum_comfortable_journey_minutes=35
+maximum_tolerable_journey_minutes=232
+
+Image[E]=./images/vauxhall-wyvern-velox-l-blue_E.0.0,-33,14
+Image[SE]=./images/vauxhall-wyvern-velox-l-blue_SE.0.0,-13,0
+Image[S]=./images/vauxhall-wyvern-velox-l-blue_S.0.0,0,0
+Image[SW]=./images/vauxhall-wyvern-velox-l-blue_SW.0.0,-8,10
+Image[W]=./images/vauxhall-wyvern-velox-l-blue_W.0.0,4,5
+Image[NW]=./images/vauxhall-wyvern-velox-l-blue_NW.0.0,12,10
+Image[N]=./images/vauxhall-wyvern-velox-l-blue_N.0.0,0,33
+Image[NE]=./images/vauxhall-wyvern-velox-l-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallWyvernVeloxL(Green)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=1948
+intro_month=10
+retire_year=1963
+retire_month=6
+speed=120
+class=0,1
+maximum_comfortable_journey_minutes=35
+maximum_tolerable_journey_minutes=232
+
+Image[E]=./images/vauxhall-wyvern-velox-l-green_E.0.0,-33,14
+Image[SE]=./images/vauxhall-wyvern-velox-l-green_SE.0.0,-13,0
+Image[S]=./images/vauxhall-wyvern-velox-l-green_S.0.0,0,0
+Image[SW]=./images/vauxhall-wyvern-velox-l-green_SW.0.0,-8,10
+Image[W]=./images/vauxhall-wyvern-velox-l-green_W.0.0,4,5
+Image[NW]=./images/vauxhall-wyvern-velox-l-green_NW.0.0,12,10
+Image[N]=./images/vauxhall-wyvern-velox-l-green_N.0.0,0,33
+Image[NE]=./images/vauxhall-wyvern-velox-l-green_NE.0.0,0,24

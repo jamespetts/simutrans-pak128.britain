@@ -1,0 +1,128 @@
+# Aston Martin Virage coupe, 1989-1994.
+#
+# The John Heffernan and Ken Greenley Virage: the slab-sided Towns-era body
+# replaced by a wide, square-shouldered coupe with rectangular Audi 100-type
+# headlamps, a slat grille with the winged badge, a flat bonnet with a central
+# crease, and rectangular tail lamp clusters with a body-coloured centre panel.
+# 411 coupes built; the Virage Volante is a different body and is not modelled.
+# https://en.wikipedia.org/wiki/Aston_Martin_Virage
+#
+# Dimensions 4.735 x 1.855 x 1.320 m, wheelbase 2.610 m.
+#
+# Shape reference: a green 1994 coupe in a 30-degree front three-quarter (there
+# is NO true side elevation in the pack), a 1991 Cumberland Grey car in front
+# three-quarter, and a blue Swiss car in rear three-quarter. The flank and the
+# wheelbase are therefore estimated from the three views and the published
+# dimensions; the limitation is recorded rather than hidden.
+#
+# Colours: grade (c). Cumberland Grey (the 1991 car), Snowden White, Hunter
+# Green and Suffolk Red are named on documented period cars; black is recorded
+# on the 6.3 Widebody. Weights 3, 3, 2, 2, total 10, provisional.
+#
+# Speed 255 km/h. Comfort 70/285, on the line 180 + 1.5 x 70: a wide 2+2 with a
+# more upright cabin than the V8 Vantage. Classes 3,4.
+#
+# Dates are road presence: 1989 intro, retires staggered 2007-2010 on an
+# eighteen- to twenty-one-year tail.
+#
+# Metres master: citycars/4.5/aston-virage.blend. Interchange:
+# citycars/4.5/aston-virage.dae. References:
+# citycars/references/aston-virage/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: there is no true side elevation in the pack, so the
+# flank and wheelbase are estimated from the three views and the published
+# dimensions. The front lamp housings and lower intake project slightly instead
+# of reading as inset. At 128 px the slab sides, rectangular lamps and tail
+# panel read as a Virage.
+
+obj=citycar
+name=AstonVirage(CumberlandGrey)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1989
+intro_month=1
+retire_year=2010
+retire_month=6
+speed=255
+class=3,4
+maximum_comfortable_journey_minutes=70
+maximum_tolerable_journey_minutes=285
+
+Image[E]=./images/aston-virage-cumberlandgrey_E.0.0,-33,14
+Image[SE]=./images/aston-virage-cumberlandgrey_SE.0.0,-13,0
+Image[S]=./images/aston-virage-cumberlandgrey_S.0.0,0,0
+Image[SW]=./images/aston-virage-cumberlandgrey_SW.0.0,-8,10
+Image[W]=./images/aston-virage-cumberlandgrey_W.0.0,4,5
+Image[NW]=./images/aston-virage-cumberlandgrey_NW.0.0,12,10
+Image[N]=./images/aston-virage-cumberlandgrey_N.0.0,0,33
+Image[NE]=./images/aston-virage-cumberlandgrey_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=AstonVirage(SnowdenWhite)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1989
+intro_month=1
+retire_year=2009
+retire_month=6
+speed=255
+class=3,4
+maximum_comfortable_journey_minutes=70
+maximum_tolerable_journey_minutes=285
+
+Image[E]=./images/aston-virage-snowdenwhite_E.0.0,-33,14
+Image[SE]=./images/aston-virage-snowdenwhite_SE.0.0,-13,0
+Image[S]=./images/aston-virage-snowdenwhite_S.0.0,0,0
+Image[SW]=./images/aston-virage-snowdenwhite_SW.0.0,-8,10
+Image[W]=./images/aston-virage-snowdenwhite_W.0.0,4,5
+Image[NW]=./images/aston-virage-snowdenwhite_NW.0.0,12,10
+Image[N]=./images/aston-virage-snowdenwhite_N.0.0,0,33
+Image[NE]=./images/aston-virage-snowdenwhite_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=AstonVirage(HunterGreen)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1989
+intro_month=1
+retire_year=2008
+retire_month=6
+speed=255
+class=3,4
+maximum_comfortable_journey_minutes=70
+maximum_tolerable_journey_minutes=285
+
+Image[E]=./images/aston-virage-huntergreen_E.0.0,-33,14
+Image[SE]=./images/aston-virage-huntergreen_SE.0.0,-13,0
+Image[S]=./images/aston-virage-huntergreen_S.0.0,0,0
+Image[SW]=./images/aston-virage-huntergreen_SW.0.0,-8,10
+Image[W]=./images/aston-virage-huntergreen_W.0.0,4,5
+Image[NW]=./images/aston-virage-huntergreen_NW.0.0,12,10
+Image[N]=./images/aston-virage-huntergreen_N.0.0,0,33
+Image[NE]=./images/aston-virage-huntergreen_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=AstonVirage(SuffolkRed)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1989
+intro_month=1
+retire_year=2007
+retire_month=6
+speed=255
+class=3,4
+maximum_comfortable_journey_minutes=70
+maximum_tolerable_journey_minutes=285
+
+Image[E]=./images/aston-virage-suffolkred_E.0.0,-33,14
+Image[SE]=./images/aston-virage-suffolkred_SE.0.0,-13,0
+Image[S]=./images/aston-virage-suffolkred_S.0.0,0,0
+Image[SW]=./images/aston-virage-suffolkred_SW.0.0,-8,10
+Image[W]=./images/aston-virage-suffolkred_W.0.0,4,5
+Image[NW]=./images/aston-virage-suffolkred_NW.0.0,12,10
+Image[N]=./images/aston-virage-suffolkred_N.0.0,0,33
+Image[NE]=./images/aston-virage-suffolkred_NE.0.0,0,24

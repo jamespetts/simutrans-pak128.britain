@@ -1,0 +1,123 @@
+# Vauxhall Light Six four-door saloon, 1933-1938.
+#
+# The Light Six: separate chassis, a 1,530 or 1,781 cc six, a four-speed
+# gearbox with the "silent third", and the six-light saloon body. The
+# four-door six-light saloon is modelled, being the body the side photograph
+# shows; the De Luxe saloon, the coupe, the Tickford and the tourers are not
+# represented.
+# https://en.wikipedia.org/wiki/Vauxhall_Light_Six
+#
+# Dimensions: wheelbase 101 in (2.565 m), length 154 in (3.912 m). Width and
+# height were not established from a source and are estimated from the
+# photograph; the estimate is recorded, not hidden.
+#
+# Shape reference: image 1 is a true level profile within about 3 degrees,
+# taken at waist height with no vertical convergence.
+#
+# Colours: grade (d); no Vauxhall colour list was found. Black, Maroon, Cream
+# and Dark Blue are colours observed on surviving cars, not factory names.
+# Weights 12, 10, 9, 8, total 39, provisional.
+#
+# Speed 110 km/h. Comfort 30/225, on the line 180 + 1.5 x 30. Classes 0,1.
+# Dates: intro October 1933; retires staggered 1953-1956 as a road tail.
+#
+# Metres master: citycars/4.5/vauxhall-light-six.blend. Interchange:
+# citycars/4.5/vauxhall-light-six.dae. References:
+# citycars/references/vauxhall-light-six/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the late DX profile is modelled, with the black wings
+# and the 1936 companion car's covered rear spare, which image 1 does not
+# show. The earlier ASX mesh grille and wire wheels are not copied.
+
+
+obj=citycar
+name=VauxhallLightSix(Black)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=1933
+intro_month=10
+retire_year=1956
+retire_month=6
+speed=110
+class=0,1
+maximum_comfortable_journey_minutes=30
+maximum_tolerable_journey_minutes=225
+
+Image[E]=./images/vauxhall-light-six-black_E.0.0,-33,14
+Image[SE]=./images/vauxhall-light-six-black_SE.0.0,-13,0
+Image[S]=./images/vauxhall-light-six-black_S.0.0,0,0
+Image[SW]=./images/vauxhall-light-six-black_SW.0.0,-8,10
+Image[W]=./images/vauxhall-light-six-black_W.0.0,4,5
+Image[NW]=./images/vauxhall-light-six-black_NW.0.0,12,10
+Image[N]=./images/vauxhall-light-six-black_N.0.0,0,33
+Image[NE]=./images/vauxhall-light-six-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallLightSix(Maroon)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=1933
+intro_month=10
+retire_year=1955
+retire_month=6
+speed=110
+class=0,1
+maximum_comfortable_journey_minutes=30
+maximum_tolerable_journey_minutes=225
+
+Image[E]=./images/vauxhall-light-six-maroon_E.0.0,-33,14
+Image[SE]=./images/vauxhall-light-six-maroon_SE.0.0,-13,0
+Image[S]=./images/vauxhall-light-six-maroon_S.0.0,0,0
+Image[SW]=./images/vauxhall-light-six-maroon_SW.0.0,-8,10
+Image[W]=./images/vauxhall-light-six-maroon_W.0.0,4,5
+Image[NW]=./images/vauxhall-light-six-maroon_NW.0.0,12,10
+Image[N]=./images/vauxhall-light-six-maroon_N.0.0,0,33
+Image[NE]=./images/vauxhall-light-six-maroon_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallLightSix(Cream)
+copyright=JamesPetts
+
+DistributionWeight=9
+intro_year=1933
+intro_month=10
+retire_year=1954
+retire_month=6
+speed=110
+class=0,1
+maximum_comfortable_journey_minutes=30
+maximum_tolerable_journey_minutes=225
+
+Image[E]=./images/vauxhall-light-six-cream_E.0.0,-33,14
+Image[SE]=./images/vauxhall-light-six-cream_SE.0.0,-13,0
+Image[S]=./images/vauxhall-light-six-cream_S.0.0,0,0
+Image[SW]=./images/vauxhall-light-six-cream_SW.0.0,-8,10
+Image[W]=./images/vauxhall-light-six-cream_W.0.0,4,5
+Image[NW]=./images/vauxhall-light-six-cream_NW.0.0,12,10
+Image[N]=./images/vauxhall-light-six-cream_N.0.0,0,33
+Image[NE]=./images/vauxhall-light-six-cream_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallLightSix(DarkBlue)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=1933
+intro_month=10
+retire_year=1953
+retire_month=6
+speed=110
+class=0,1
+maximum_comfortable_journey_minutes=30
+maximum_tolerable_journey_minutes=225
+
+Image[E]=./images/vauxhall-light-six-darkblue_E.0.0,-33,14
+Image[SE]=./images/vauxhall-light-six-darkblue_SE.0.0,-13,0
+Image[S]=./images/vauxhall-light-six-darkblue_S.0.0,0,0
+Image[SW]=./images/vauxhall-light-six-darkblue_SW.0.0,-8,10
+Image[W]=./images/vauxhall-light-six-darkblue_W.0.0,4,5
+Image[NW]=./images/vauxhall-light-six-darkblue_NW.0.0,12,10
+Image[N]=./images/vauxhall-light-six-darkblue_N.0.0,0,33
+Image[NE]=./images/vauxhall-light-six-darkblue_NE.0.0,0,24

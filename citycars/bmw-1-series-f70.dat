@@ -1,0 +1,119 @@
+# BMW 1-series F70 five-door hatchback, 2024 onwards.
+#
+# The fourth 1-series: the front-wheel-drive UKL2 car with the revised nose,
+# the flush door handles and the mild-hybrid range. UK order books opened
+# 4 June 2024, first deliveries October 2024.
+# https://en.wikipedia.org/wiki/BMW_1_Series_(F70)
+#
+# Dimensions 4.361 x 1.800 x 1.459 m, wheelbase 2.670 m.
+#
+# Shape reference: the pack's images show the five-door in side, front and
+# rear views; the side view governs.
+#
+# Colours: grade (c), names evidenced for the F70: Alpine White, Black
+# Sapphire, Skyscraper Grey and M Portimao Blue. Weights 9, 8, 7, 6, total
+# 30, provisional.
+#
+# Speed 225 km/h. Comfort 88/312, on the line 180 + 1.5 x 88. Classes 2,3.
+# Dates are road presence: 2024 intro, retires staggered 2046-2049.
+#
+# Metres master: citycars/4.5/bmw-1-series-f70.blend. Interchange:
+# citycars/4.5/bmw-1-series-f70.dae. References:
+# citycars/references/bmw-1-series-f70/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the model does not fully reproduce the F70's diagonal
+# grille pattern or the lower rear bumper shape. At 128 px the revised nose,
+# flush handles and five-door body read as an F70.
+
+
+obj=citycar
+name=BMW1SeriesF70(AlpineWhite)
+copyright=JamesPetts
+
+DistributionWeight=9
+intro_year=2024
+intro_month=10
+retire_year=2049
+retire_month=6
+speed=225
+class=2,3
+maximum_comfortable_journey_minutes=88
+maximum_tolerable_journey_minutes=312
+
+Image[E]=./images/bmw-1-series-f70-alpinewhite_E.0.0,-33,14
+Image[SE]=./images/bmw-1-series-f70-alpinewhite_SE.0.0,-13,0
+Image[S]=./images/bmw-1-series-f70-alpinewhite_S.0.0,0,0
+Image[SW]=./images/bmw-1-series-f70-alpinewhite_SW.0.0,-8,10
+Image[W]=./images/bmw-1-series-f70-alpinewhite_W.0.0,4,5
+Image[NW]=./images/bmw-1-series-f70-alpinewhite_NW.0.0,12,10
+Image[N]=./images/bmw-1-series-f70-alpinewhite_N.0.0,0,33
+Image[NE]=./images/bmw-1-series-f70-alpinewhite_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMW1SeriesF70(BlackSapphire)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=2024
+intro_month=10
+retire_year=2048
+retire_month=6
+speed=225
+class=2,3
+maximum_comfortable_journey_minutes=88
+maximum_tolerable_journey_minutes=312
+
+Image[E]=./images/bmw-1-series-f70-blacksapphire_E.0.0,-33,14
+Image[SE]=./images/bmw-1-series-f70-blacksapphire_SE.0.0,-13,0
+Image[S]=./images/bmw-1-series-f70-blacksapphire_S.0.0,0,0
+Image[SW]=./images/bmw-1-series-f70-blacksapphire_SW.0.0,-8,10
+Image[W]=./images/bmw-1-series-f70-blacksapphire_W.0.0,4,5
+Image[NW]=./images/bmw-1-series-f70-blacksapphire_NW.0.0,12,10
+Image[N]=./images/bmw-1-series-f70-blacksapphire_N.0.0,0,33
+Image[NE]=./images/bmw-1-series-f70-blacksapphire_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMW1SeriesF70(SkyscraperGrey)
+copyright=JamesPetts
+
+DistributionWeight=7
+intro_year=2024
+intro_month=10
+retire_year=2047
+retire_month=6
+speed=225
+class=2,3
+maximum_comfortable_journey_minutes=88
+maximum_tolerable_journey_minutes=312
+
+Image[E]=./images/bmw-1-series-f70-skyscrapergrey_E.0.0,-33,14
+Image[SE]=./images/bmw-1-series-f70-skyscrapergrey_SE.0.0,-13,0
+Image[S]=./images/bmw-1-series-f70-skyscrapergrey_S.0.0,0,0
+Image[SW]=./images/bmw-1-series-f70-skyscrapergrey_SW.0.0,-8,10
+Image[W]=./images/bmw-1-series-f70-skyscrapergrey_W.0.0,4,5
+Image[NW]=./images/bmw-1-series-f70-skyscrapergrey_NW.0.0,12,10
+Image[N]=./images/bmw-1-series-f70-skyscrapergrey_N.0.0,0,33
+Image[NE]=./images/bmw-1-series-f70-skyscrapergrey_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BMW1SeriesF70(MPortimaoBlue)
+copyright=JamesPetts
+
+DistributionWeight=6
+intro_year=2024
+intro_month=10
+retire_year=2046
+retire_month=6
+speed=225
+class=2,3
+maximum_comfortable_journey_minutes=88
+maximum_tolerable_journey_minutes=312
+
+Image[E]=./images/bmw-1-series-f70-mportimaoblue_E.0.0,-33,14
+Image[SE]=./images/bmw-1-series-f70-mportimaoblue_SE.0.0,-13,0
+Image[S]=./images/bmw-1-series-f70-mportimaoblue_S.0.0,0,0
+Image[SW]=./images/bmw-1-series-f70-mportimaoblue_SW.0.0,-8,10
+Image[W]=./images/bmw-1-series-f70-mportimaoblue_W.0.0,4,5
+Image[NW]=./images/bmw-1-series-f70-mportimaoblue_NW.0.0,12,10
+Image[N]=./images/bmw-1-series-f70-mportimaoblue_N.0.0,0,33
+Image[NE]=./images/bmw-1-series-f70-mportimaoblue_NE.0.0,0,24

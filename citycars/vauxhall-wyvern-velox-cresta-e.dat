@@ -1,0 +1,121 @@
+# Vauxhall Wyvern, Velox and Cresta E-series saloon, 1951-1957.
+#
+# The E-series: the Wyvern EIX and the Velox EIP/EIPV on one shell, joined in
+# August 1954 by the Cresta E as the trimmed version of the Velox. The
+# four-door saloon is modelled; the aftermarket estate conversions are not.
+# https://en.wikipedia.org/wiki/Vauxhall_Cresta
+#
+# Dimensions: Velox 4,369 x 1,702 x 1,613 mm, wheelbase 2,616 mm. The Wyvern
+# is 4,382 mm long to 1952 and 4,337 mm after; the Cresta E is 4,400 x 1,690 x
+# 1,560. The Velox figures are modelled and the variations are recorded.
+#
+# Shape reference: image 1 is NOT a true level profile; the flank is
+# estimated within the published dimensions.
+#
+# Colours: grade (d); no period Vauxhall colour list was found. Black, Grey,
+# Blue and Green are plain period names. Weights 12, 10, 9, 8, total 39,
+# provisional.
+#
+# Speed 125 km/h. Comfort 40/240, on the line 180 + 1.5 x 40. Classes 1,2.
+# Dates: intro October 1951; retires staggered 1967-1970 as a road tail.
+#
+# Metres master: citycars/4.5/vauxhall-wyvern-velox-cresta-e.blend.
+# Interchange: citycars/4.5/vauxhall-wyvern-velox-cresta-e.dae. References:
+# citycars/references/vauxhall-wyvern-velox-cresta-e/ (gitignored).
+#
+# Accepted deviations: one shared shell on Velox dimensions with late Cresta
+# exterior detail. The earlier Wyvern and Velox grille and rear treatments are
+# not separate variants.
+
+
+obj=citycar
+name=VauxhallWyvernVeloxCrestaE(Black)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=1951
+intro_month=10
+retire_year=1970
+retire_month=6
+speed=125
+class=1,2
+maximum_comfortable_journey_minutes=40
+maximum_tolerable_journey_minutes=240
+
+Image[E]=./images/vauxhall-wyvern-velox-cresta-e-black_E.0.0,-33,14
+Image[SE]=./images/vauxhall-wyvern-velox-cresta-e-black_SE.0.0,-13,0
+Image[S]=./images/vauxhall-wyvern-velox-cresta-e-black_S.0.0,0,0
+Image[SW]=./images/vauxhall-wyvern-velox-cresta-e-black_SW.0.0,-8,10
+Image[W]=./images/vauxhall-wyvern-velox-cresta-e-black_W.0.0,4,5
+Image[NW]=./images/vauxhall-wyvern-velox-cresta-e-black_NW.0.0,12,10
+Image[N]=./images/vauxhall-wyvern-velox-cresta-e-black_N.0.0,0,33
+Image[NE]=./images/vauxhall-wyvern-velox-cresta-e-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallWyvernVeloxCrestaE(Grey)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=1951
+intro_month=10
+retire_year=1969
+retire_month=6
+speed=125
+class=1,2
+maximum_comfortable_journey_minutes=40
+maximum_tolerable_journey_minutes=240
+
+Image[E]=./images/vauxhall-wyvern-velox-cresta-e-grey_E.0.0,-33,14
+Image[SE]=./images/vauxhall-wyvern-velox-cresta-e-grey_SE.0.0,-13,0
+Image[S]=./images/vauxhall-wyvern-velox-cresta-e-grey_S.0.0,0,0
+Image[SW]=./images/vauxhall-wyvern-velox-cresta-e-grey_SW.0.0,-8,10
+Image[W]=./images/vauxhall-wyvern-velox-cresta-e-grey_W.0.0,4,5
+Image[NW]=./images/vauxhall-wyvern-velox-cresta-e-grey_NW.0.0,12,10
+Image[N]=./images/vauxhall-wyvern-velox-cresta-e-grey_N.0.0,0,33
+Image[NE]=./images/vauxhall-wyvern-velox-cresta-e-grey_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallWyvernVeloxCrestaE(Blue)
+copyright=JamesPetts
+
+DistributionWeight=9
+intro_year=1951
+intro_month=10
+retire_year=1968
+retire_month=6
+speed=125
+class=1,2
+maximum_comfortable_journey_minutes=40
+maximum_tolerable_journey_minutes=240
+
+Image[E]=./images/vauxhall-wyvern-velox-cresta-e-blue_E.0.0,-33,14
+Image[SE]=./images/vauxhall-wyvern-velox-cresta-e-blue_SE.0.0,-13,0
+Image[S]=./images/vauxhall-wyvern-velox-cresta-e-blue_S.0.0,0,0
+Image[SW]=./images/vauxhall-wyvern-velox-cresta-e-blue_SW.0.0,-8,10
+Image[W]=./images/vauxhall-wyvern-velox-cresta-e-blue_W.0.0,4,5
+Image[NW]=./images/vauxhall-wyvern-velox-cresta-e-blue_NW.0.0,12,10
+Image[N]=./images/vauxhall-wyvern-velox-cresta-e-blue_N.0.0,0,33
+Image[NE]=./images/vauxhall-wyvern-velox-cresta-e-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallWyvernVeloxCrestaE(Green)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=1951
+intro_month=10
+retire_year=1967
+retire_month=6
+speed=125
+class=1,2
+maximum_comfortable_journey_minutes=40
+maximum_tolerable_journey_minutes=240
+
+Image[E]=./images/vauxhall-wyvern-velox-cresta-e-green_E.0.0,-33,14
+Image[SE]=./images/vauxhall-wyvern-velox-cresta-e-green_SE.0.0,-13,0
+Image[S]=./images/vauxhall-wyvern-velox-cresta-e-green_S.0.0,0,0
+Image[SW]=./images/vauxhall-wyvern-velox-cresta-e-green_SW.0.0,-8,10
+Image[W]=./images/vauxhall-wyvern-velox-cresta-e-green_W.0.0,4,5
+Image[NW]=./images/vauxhall-wyvern-velox-cresta-e-green_NW.0.0,12,10
+Image[N]=./images/vauxhall-wyvern-velox-cresta-e-green_N.0.0,0,33
+Image[NE]=./images/vauxhall-wyvern-velox-cresta-e-green_NE.0.0,0,24

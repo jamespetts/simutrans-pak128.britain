@@ -1,0 +1,59 @@
+# BSA M20 500 cc motorcycle with sidecar, 1939-1945.
+#
+# The BSA WD M20: the 500 cc side-valve single, the most numerous British
+# military motorcycle of the Second World War, here in combination form with
+# a sidecar. The M20 was built mostly without sidecar lugs; the purpose-built
+# outfit was the M21, already in the tree. No period photograph of an M20
+# with sidecar was found, so the machine is the M20 the pack photographs and
+# the chair is a period-correct combination recorded as such.
+# https://en.wikipedia.org/wiki/BSA_M20
+#
+# Dimensions: solo machine 2.179 x 0.739 m on a 1.372 m wheelbase
+# (autoevolution); a second published set gives 2.083 x 0.787 x 1.041 m.
+# Outfit width is not published; the chair width is a period estimate.
+#
+# Shape reference: image 1 is a true level right-side elevation of a 1944
+# M20; image 2 is the WD census-numbered machine; images 3-4 are a G14 outfit
+# and a 1956 M21 outfit, labelled as comparables, not as M20 outfits.
+#
+# Colours: WD khaki green with a white census number and blackout lamp. One
+# colourway. Weight 120, provisional.
+#
+# Speed 70 km/h. Comfort 25/190: an open chair with an exposed rider.
+# Classes 0,1.
+# Dates are road presence: 1939 intro, retires 1958.
+#
+# Metres master: citycars/4.5/bsa-m20-combo.blend. Interchange:
+# citycars/4.5/bsa-m20-combo.dae. References:
+# citycars/references/bsa-m20-combo/ (gitignored; Wikimedia Commons and
+# period photographs).
+#
+# Accepted deviations: there is no confirmed period photograph of an exact M20
+# outfit. The chair and the inferred mounting points are based on comparable
+# machines, not evidence of a standard WD M20 combination. Solo height and
+# outfit width are estimates. Stage B lateral shift +0.3153 pak units, so that
+# the motorcycle rather than the combined bounding box sits at the tile centre.
+
+
+obj=citycar
+name=BSAM20Combo(KhakiGreen)
+copyright=JamesPetts
+
+DistributionWeight=120
+intro_year=1939
+intro_month=1
+retire_year=1958
+retire_month=6
+speed=70
+class=0,1
+maximum_comfortable_journey_minutes=25
+maximum_tolerable_journey_minutes=190
+
+Image[E]=./images/bsa-m20-combo-khakigreen_E.0.0,-33,14
+Image[SE]=./images/bsa-m20-combo-khakigreen_SE.0.0,-13,0
+Image[S]=./images/bsa-m20-combo-khakigreen_S.0.0,0,0
+Image[SW]=./images/bsa-m20-combo-khakigreen_SW.0.0,-8,10
+Image[W]=./images/bsa-m20-combo-khakigreen_W.0.0,4,5
+Image[NW]=./images/bsa-m20-combo-khakigreen_NW.0.0,12,10
+Image[N]=./images/bsa-m20-combo-khakigreen_N.0.0,0,33
+Image[NE]=./images/bsa-m20-combo-khakigreen_NE.0.0,0,24

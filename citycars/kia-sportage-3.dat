@@ -1,0 +1,120 @@
+# Kia Sportage third generation five-door, 2010-2016.
+#
+# The SL Sportage: the Peter Schreyer-designed crossover with the tiger-nose
+# grille, the swept-back lamps and the lower roofline. UK sales from August
+# 2010; facelift January 2014.
+# https://en.wikipedia.org/wiki/Kia_Sportage
+#
+# Dimensions 4.440-4.450 x 1.855 x 1.635-1.645 m, wheelbase 2.640 m.
+#
+# Shape reference: the pack's images show the pre-facelift car in side,
+# front and rear views; the side view governs.
+#
+# Colours: grade (d); no UK chart was found. Black, silver, white and red
+# are plain names. Weights 18, 16, 14, 12, total 60, provisional.
+#
+# Speed 190 km/h. Comfort 85/307, on the line 180 + 1.5 x 85. Classes 2,3.
+# Dates are road presence: 2010 intro, retires staggered 2028-2031.
+#
+# Metres master: citycars/4.5/kia-sportage-3.blend. Interchange:
+# citycars/4.5/kia-sportage-3.dae. References:
+# citycars/references/kia-sportage-3/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: a thin bumper-corner tab is present but does not read at
+# 128 px; the arch cladding is a heavy ring. The greenhouse is shallower than the
+# photograph's, and the grille and lamps are flat panels. At 128 px the high
+# shoulder, coupe-like roof and tiger-nose grille read as a third-generation
+# Sportage.
+
+
+obj=citycar
+name=KiaSportage3(Black)
+copyright=JamesPetts
+
+DistributionWeight=18
+intro_year=2010
+intro_month=8
+retire_year=2031
+retire_month=6
+speed=190
+class=2,3
+maximum_comfortable_journey_minutes=85
+maximum_tolerable_journey_minutes=307
+
+Image[E]=./images/kia-sportage-3-black_E.0.0,-33,14
+Image[SE]=./images/kia-sportage-3-black_SE.0.0,-13,0
+Image[S]=./images/kia-sportage-3-black_S.0.0,0,0
+Image[SW]=./images/kia-sportage-3-black_SW.0.0,-8,10
+Image[W]=./images/kia-sportage-3-black_W.0.0,4,5
+Image[NW]=./images/kia-sportage-3-black_NW.0.0,12,10
+Image[N]=./images/kia-sportage-3-black_N.0.0,0,33
+Image[NE]=./images/kia-sportage-3-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=KiaSportage3(Silver)
+copyright=JamesPetts
+
+DistributionWeight=16
+intro_year=2010
+intro_month=8
+retire_year=2030
+retire_month=6
+speed=190
+class=2,3
+maximum_comfortable_journey_minutes=85
+maximum_tolerable_journey_minutes=307
+
+Image[E]=./images/kia-sportage-3-silver_E.0.0,-33,14
+Image[SE]=./images/kia-sportage-3-silver_SE.0.0,-13,0
+Image[S]=./images/kia-sportage-3-silver_S.0.0,0,0
+Image[SW]=./images/kia-sportage-3-silver_SW.0.0,-8,10
+Image[W]=./images/kia-sportage-3-silver_W.0.0,4,5
+Image[NW]=./images/kia-sportage-3-silver_NW.0.0,12,10
+Image[N]=./images/kia-sportage-3-silver_N.0.0,0,33
+Image[NE]=./images/kia-sportage-3-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=KiaSportage3(White)
+copyright=JamesPetts
+
+DistributionWeight=14
+intro_year=2010
+intro_month=8
+retire_year=2029
+retire_month=6
+speed=190
+class=2,3
+maximum_comfortable_journey_minutes=85
+maximum_tolerable_journey_minutes=307
+
+Image[E]=./images/kia-sportage-3-white_E.0.0,-33,14
+Image[SE]=./images/kia-sportage-3-white_SE.0.0,-13,0
+Image[S]=./images/kia-sportage-3-white_S.0.0,0,0
+Image[SW]=./images/kia-sportage-3-white_SW.0.0,-8,10
+Image[W]=./images/kia-sportage-3-white_W.0.0,4,5
+Image[NW]=./images/kia-sportage-3-white_NW.0.0,12,10
+Image[N]=./images/kia-sportage-3-white_N.0.0,0,33
+Image[NE]=./images/kia-sportage-3-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=KiaSportage3(Red)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=2010
+intro_month=8
+retire_year=2028
+retire_month=6
+speed=190
+class=2,3
+maximum_comfortable_journey_minutes=85
+maximum_tolerable_journey_minutes=307
+
+Image[E]=./images/kia-sportage-3-red_E.0.0,-33,14
+Image[SE]=./images/kia-sportage-3-red_SE.0.0,-13,0
+Image[S]=./images/kia-sportage-3-red_S.0.0,0,0
+Image[SW]=./images/kia-sportage-3-red_SW.0.0,-8,10
+Image[W]=./images/kia-sportage-3-red_W.0.0,4,5
+Image[NW]=./images/kia-sportage-3-red_NW.0.0,12,10
+Image[N]=./images/kia-sportage-3-red_N.0.0,0,33
+Image[NE]=./images/kia-sportage-3-red_NE.0.0,0,24

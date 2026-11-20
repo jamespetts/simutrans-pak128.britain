@@ -1,0 +1,122 @@
+# Land Rover Discovery 4 five-door, 2009-2016.
+#
+# The fourth Discovery: the Discovery 3 shell with the smoother nose, the
+# new lamps, the more powerful engines and the revised interior. The
+# five-door is modelled.
+# https://en.wikipedia.org/wiki/Land_Rover_Discovery
+#
+# Dimensions 4.838 x 2.022 m (with mirrors folded) x 1.970 m (including roof
+# rails), wheelbase 2.885 m.
+#
+# Shape reference: image 1 is the side profile; the front and rear
+# three-quarters show the lamps, grille and tailgate.
+#
+# Colours: grade (a), the Land Rover Discovery 4 UK brochure for the 2013
+# model year (LRML 3983/12): Fuji White, Santorini Black, Indus Silver and
+# Aintree Green. Weights 15, 13, 12, 10, total 50, provisional.
+#
+# Speed 195 km/h. Comfort 90/315, on the line 180 + 1.5 x 90. Classes 3,4.
+# Dates are road presence: 2009 intro, retires staggered 2031-2034.
+#
+# Metres master: citycars/4.5/land-rover-discovery-4.blend. Interchange:
+# citycars/4.5/land-rover-discovery-4.dae. References:
+# citycars/references/land-rover-discovery-4/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: there is no true profile, so the flank is estimated. The
+# rear quarter glass is a rectangular panel, the arch cladding is a flat ribbon,
+# and the model's body is 1.95 m wide with mirrors reaching 2.02 m to stay within
+# the tile. At 128 px the L319 shell, deeper bumper and mesh grille read as a
+# Discovery 4, though it is close to the Discovery 3 from the side.
+
+
+obj=citycar
+name=LandRoverDiscovery4(FujiWhite)
+copyright=JamesPetts
+
+DistributionWeight=15
+intro_year=2009
+intro_month=9
+retire_year=2034
+retire_month=6
+speed=195
+class=3,4
+maximum_comfortable_journey_minutes=90
+maximum_tolerable_journey_minutes=315
+
+Image[E]=./images/land-rover-discovery-4-fujiwhite_E.0.0,-33,14
+Image[SE]=./images/land-rover-discovery-4-fujiwhite_SE.0.0,-13,0
+Image[S]=./images/land-rover-discovery-4-fujiwhite_S.0.0,0,0
+Image[SW]=./images/land-rover-discovery-4-fujiwhite_SW.0.0,-8,10
+Image[W]=./images/land-rover-discovery-4-fujiwhite_W.0.0,4,5
+Image[NW]=./images/land-rover-discovery-4-fujiwhite_NW.0.0,12,10
+Image[N]=./images/land-rover-discovery-4-fujiwhite_N.0.0,0,33
+Image[NE]=./images/land-rover-discovery-4-fujiwhite_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=LandRoverDiscovery4(SantoriniBlack)
+copyright=JamesPetts
+
+DistributionWeight=13
+intro_year=2009
+intro_month=9
+retire_year=2033
+retire_month=6
+speed=195
+class=3,4
+maximum_comfortable_journey_minutes=90
+maximum_tolerable_journey_minutes=315
+
+Image[E]=./images/land-rover-discovery-4-santoriniblack_E.0.0,-33,14
+Image[SE]=./images/land-rover-discovery-4-santoriniblack_SE.0.0,-13,0
+Image[S]=./images/land-rover-discovery-4-santoriniblack_S.0.0,0,0
+Image[SW]=./images/land-rover-discovery-4-santoriniblack_SW.0.0,-8,10
+Image[W]=./images/land-rover-discovery-4-santoriniblack_W.0.0,4,5
+Image[NW]=./images/land-rover-discovery-4-santoriniblack_NW.0.0,12,10
+Image[N]=./images/land-rover-discovery-4-santoriniblack_N.0.0,0,33
+Image[NE]=./images/land-rover-discovery-4-santoriniblack_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=LandRoverDiscovery4(IndusSilver)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=2009
+intro_month=9
+retire_year=2032
+retire_month=6
+speed=195
+class=3,4
+maximum_comfortable_journey_minutes=90
+maximum_tolerable_journey_minutes=315
+
+Image[E]=./images/land-rover-discovery-4-indussilver_E.0.0,-33,14
+Image[SE]=./images/land-rover-discovery-4-indussilver_SE.0.0,-13,0
+Image[S]=./images/land-rover-discovery-4-indussilver_S.0.0,0,0
+Image[SW]=./images/land-rover-discovery-4-indussilver_SW.0.0,-8,10
+Image[W]=./images/land-rover-discovery-4-indussilver_W.0.0,4,5
+Image[NW]=./images/land-rover-discovery-4-indussilver_NW.0.0,12,10
+Image[N]=./images/land-rover-discovery-4-indussilver_N.0.0,0,33
+Image[NE]=./images/land-rover-discovery-4-indussilver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=LandRoverDiscovery4(AintreeGreen)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=2009
+intro_month=9
+retire_year=2031
+retire_month=6
+speed=195
+class=3,4
+maximum_comfortable_journey_minutes=90
+maximum_tolerable_journey_minutes=315
+
+Image[E]=./images/land-rover-discovery-4-aintreegreen_E.0.0,-33,14
+Image[SE]=./images/land-rover-discovery-4-aintreegreen_SE.0.0,-13,0
+Image[S]=./images/land-rover-discovery-4-aintreegreen_S.0.0,0,0
+Image[SW]=./images/land-rover-discovery-4-aintreegreen_SW.0.0,-8,10
+Image[W]=./images/land-rover-discovery-4-aintreegreen_W.0.0,4,5
+Image[NW]=./images/land-rover-discovery-4-aintreegreen_NW.0.0,12,10
+Image[N]=./images/land-rover-discovery-4-aintreegreen_N.0.0,0,33
+Image[NE]=./images/land-rover-discovery-4-aintreegreen_NE.0.0,0,24

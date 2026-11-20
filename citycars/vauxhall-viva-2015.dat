@@ -1,0 +1,117 @@
+# Vauxhall Viva five-door hatchback, 2015-2019.
+#
+# The revived Viva: the budget city car built by Opel in Eisenach and sold in
+# Britain from June 2015 to 2019, when the Corsa took the entry position.
+# Not to be confused with the 1963-79 Viva of the same name.
+# https://en.wikipedia.org/wiki/Vauxhall_Viva
+#
+# Dimensions 3.675 x 1.698 x 1.476 m, wheelbase 2.385 m.
+#
+# Shape reference: image 1 is a TRUE level side elevation, within 3 degrees.
+#
+# Colours: grade (d); no Vauxhall colour list was read. White, Red, Blue and
+# Silver are plain names. Weights 12, 10, 9, 8, total 39, provisional.
+#
+# Speed 170 km/h. Comfort 60/270, on the line 180 + 1.5 x 60. Classes 0,1.
+# Dates: intro June 2015; retires staggered 2027-2030 as a road tail.
+#
+# Metres master: citycars/4.5/vauxhall-viva-2015.blend. Interchange:
+# citycars/4.5/vauxhall-viva-2015.dae. References:
+# citycars/references/vauxhall-viva-2015/ (gitignored).
+#
+# Accepted deviations: the standard five-door hatchback is modelled. The
+# pressed body contours, the lamp internals and the wheel trim are simplified.
+# One representative wheel design stands for all trims.
+
+
+obj=citycar
+name=VauxhallViva2015(White)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=2015
+intro_month=6
+retire_year=2030
+retire_month=6
+speed=170
+class=0,1
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=270
+
+Image[E]=./images/vauxhall-viva-2015-white_E.0.0,-33,14
+Image[SE]=./images/vauxhall-viva-2015-white_SE.0.0,-13,0
+Image[S]=./images/vauxhall-viva-2015-white_S.0.0,0,0
+Image[SW]=./images/vauxhall-viva-2015-white_SW.0.0,-8,10
+Image[W]=./images/vauxhall-viva-2015-white_W.0.0,4,5
+Image[NW]=./images/vauxhall-viva-2015-white_NW.0.0,12,10
+Image[N]=./images/vauxhall-viva-2015-white_N.0.0,0,33
+Image[NE]=./images/vauxhall-viva-2015-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallViva2015(Red)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=2015
+intro_month=6
+retire_year=2029
+retire_month=6
+speed=170
+class=0,1
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=270
+
+Image[E]=./images/vauxhall-viva-2015-red_E.0.0,-33,14
+Image[SE]=./images/vauxhall-viva-2015-red_SE.0.0,-13,0
+Image[S]=./images/vauxhall-viva-2015-red_S.0.0,0,0
+Image[SW]=./images/vauxhall-viva-2015-red_SW.0.0,-8,10
+Image[W]=./images/vauxhall-viva-2015-red_W.0.0,4,5
+Image[NW]=./images/vauxhall-viva-2015-red_NW.0.0,12,10
+Image[N]=./images/vauxhall-viva-2015-red_N.0.0,0,33
+Image[NE]=./images/vauxhall-viva-2015-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallViva2015(Blue)
+copyright=JamesPetts
+
+DistributionWeight=9
+intro_year=2015
+intro_month=6
+retire_year=2028
+retire_month=6
+speed=170
+class=0,1
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=270
+
+Image[E]=./images/vauxhall-viva-2015-blue_E.0.0,-33,14
+Image[SE]=./images/vauxhall-viva-2015-blue_SE.0.0,-13,0
+Image[S]=./images/vauxhall-viva-2015-blue_S.0.0,0,0
+Image[SW]=./images/vauxhall-viva-2015-blue_SW.0.0,-8,10
+Image[W]=./images/vauxhall-viva-2015-blue_W.0.0,4,5
+Image[NW]=./images/vauxhall-viva-2015-blue_NW.0.0,12,10
+Image[N]=./images/vauxhall-viva-2015-blue_N.0.0,0,33
+Image[NE]=./images/vauxhall-viva-2015-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallViva2015(Silver)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=2015
+intro_month=6
+retire_year=2027
+retire_month=6
+speed=170
+class=0,1
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=270
+
+Image[E]=./images/vauxhall-viva-2015-silver_E.0.0,-33,14
+Image[SE]=./images/vauxhall-viva-2015-silver_SE.0.0,-13,0
+Image[S]=./images/vauxhall-viva-2015-silver_S.0.0,0,0
+Image[SW]=./images/vauxhall-viva-2015-silver_SW.0.0,-8,10
+Image[W]=./images/vauxhall-viva-2015-silver_W.0.0,4,5
+Image[NW]=./images/vauxhall-viva-2015-silver_NW.0.0,12,10
+Image[N]=./images/vauxhall-viva-2015-silver_N.0.0,0,33
+Image[NE]=./images/vauxhall-viva-2015-silver_NE.0.0,0,24

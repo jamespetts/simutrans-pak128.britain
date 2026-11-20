@@ -1,0 +1,126 @@
+# Vauxhall 14/40 two-seater with dickey, 1922-1927.
+#
+# The 14/40: announced in October 1921 and renamed the 14/40 in October 1923,
+# the M-type of 1922 becoming the LM-type from late 1924. It is unrelated to
+# the post-war 14 hp of 1948. The open two-seater with a dickey seat is
+# modelled, which is the body the photograph shows.
+# https://en.wikipedia.org/wiki/Vauxhall_14-40
+#
+# Dimensions: length 4.200 m (166 in), wheelbase 3.000 m (117 in). A period
+# road test gives 2.896 m for the early M-type and 2.972 m for the later car;
+# the conflict is recorded. No overall width or height was found and both are
+# estimated from the photograph.
+#
+# Shape reference: NO true level side elevation exists. The side image is
+# about 35-40 degrees off a true side at waist height, so the flank is a
+# reasoned estimate and the limitation is recorded.
+#
+# Colours: grade (d); no Vauxhall colour list was found. Black, Dark Green,
+# Maroon and Grey are period finishes. Weights 10, 9, 8, 7, total 34,
+# provisional.
+#
+# Speed 100 km/h. Comfort 30/225, on the line 180 + 1.5 x 30. Classes 1,2.
+# Dates: intro January 1922; retires staggered 1938-1942 as a road tail.
+#
+# Metres master: citycars/4.5/vauxhall-14-40.blend. Interchange:
+# citycars/4.5/vauxhall-14-40.dae. References:
+# citycars/references/vauxhall-14-40/ (gitignored).
+#
+# Accepted deviations: the width, height and flank are estimated from a side
+# view about 35-40 degrees off the axis. The rear profile and the closed dickey
+# lid are inferred. The 3.000 m wheelbase is the published figure and is not
+# verified for this car, a period road test giving 2.896 m for the early
+# M-type.
+
+
+obj=citycar
+name=Vauxhall1440(Black)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=1922
+intro_month=1
+retire_year=1942
+retire_month=6
+speed=100
+class=1,2
+maximum_comfortable_journey_minutes=30
+maximum_tolerable_journey_minutes=225
+
+Image[E]=./images/vauxhall-14-40-black_E.0.0,-33,14
+Image[SE]=./images/vauxhall-14-40-black_SE.0.0,-13,0
+Image[S]=./images/vauxhall-14-40-black_S.0.0,0,0
+Image[SW]=./images/vauxhall-14-40-black_SW.0.0,-8,10
+Image[W]=./images/vauxhall-14-40-black_W.0.0,4,5
+Image[NW]=./images/vauxhall-14-40-black_NW.0.0,12,10
+Image[N]=./images/vauxhall-14-40-black_N.0.0,0,33
+Image[NE]=./images/vauxhall-14-40-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Vauxhall1440(DarkGreen)
+copyright=JamesPetts
+
+DistributionWeight=9
+intro_year=1922
+intro_month=1
+retire_year=1941
+retire_month=6
+speed=100
+class=1,2
+maximum_comfortable_journey_minutes=30
+maximum_tolerable_journey_minutes=225
+
+Image[E]=./images/vauxhall-14-40-darkgreen_E.0.0,-33,14
+Image[SE]=./images/vauxhall-14-40-darkgreen_SE.0.0,-13,0
+Image[S]=./images/vauxhall-14-40-darkgreen_S.0.0,0,0
+Image[SW]=./images/vauxhall-14-40-darkgreen_SW.0.0,-8,10
+Image[W]=./images/vauxhall-14-40-darkgreen_W.0.0,4,5
+Image[NW]=./images/vauxhall-14-40-darkgreen_NW.0.0,12,10
+Image[N]=./images/vauxhall-14-40-darkgreen_N.0.0,0,33
+Image[NE]=./images/vauxhall-14-40-darkgreen_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Vauxhall1440(Maroon)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=1922
+intro_month=1
+retire_year=1940
+retire_month=6
+speed=100
+class=1,2
+maximum_comfortable_journey_minutes=30
+maximum_tolerable_journey_minutes=225
+
+Image[E]=./images/vauxhall-14-40-maroon_E.0.0,-33,14
+Image[SE]=./images/vauxhall-14-40-maroon_SE.0.0,-13,0
+Image[S]=./images/vauxhall-14-40-maroon_S.0.0,0,0
+Image[SW]=./images/vauxhall-14-40-maroon_SW.0.0,-8,10
+Image[W]=./images/vauxhall-14-40-maroon_W.0.0,4,5
+Image[NW]=./images/vauxhall-14-40-maroon_NW.0.0,12,10
+Image[N]=./images/vauxhall-14-40-maroon_N.0.0,0,33
+Image[NE]=./images/vauxhall-14-40-maroon_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Vauxhall1440(Grey)
+copyright=JamesPetts
+
+DistributionWeight=7
+intro_year=1922
+intro_month=1
+retire_year=1938
+retire_month=6
+speed=100
+class=1,2
+maximum_comfortable_journey_minutes=30
+maximum_tolerable_journey_minutes=225
+
+Image[E]=./images/vauxhall-14-40-grey_E.0.0,-33,14
+Image[SE]=./images/vauxhall-14-40-grey_SE.0.0,-13,0
+Image[S]=./images/vauxhall-14-40-grey_S.0.0,0,0
+Image[SW]=./images/vauxhall-14-40-grey_SW.0.0,-8,10
+Image[W]=./images/vauxhall-14-40-grey_W.0.0,4,5
+Image[NW]=./images/vauxhall-14-40-grey_NW.0.0,12,10
+Image[N]=./images/vauxhall-14-40-grey_N.0.0,0,33
+Image[NE]=./images/vauxhall-14-40-grey_NE.0.0,0,24

@@ -1,0 +1,125 @@
+# Vauxhall 20-60 saloon, 1927-1930.
+#
+# The 20-60: announced on 28 September 1927, the R-type 2,762 cc six joined
+# by the T-type 2,916 cc from 1928. The name covers two engine variants of one
+# chassis and body family, not two shells, so one object represents them. In
+# October 1930 it was renamed the Eighty, which is a different, larger car and
+# is not represented.
+# https://en.wikipedia.org/wiki/Vauxhall_20-60
+#
+# Dimensions: wheelbase 123 in (3.124 m) or 130 in (3.302 m), track 56 in.
+# Length, width and height were not established from a source and are
+# estimated from the photograph; the estimate is recorded.
+#
+# Shape reference: NO true level profile exists. Image 1 is about 30 degrees
+# off the side, so the flank is estimated within the published wheelbase and
+# the limitation is recorded.
+#
+# Colours: grade (d); no Vauxhall colour list was found. Black, Maroon, Cream
+# and Dark Blue are observed colours. Weights 12, 10, 9, 8, total 39,
+# provisional.
+#
+# Speed 110 km/h. Comfort 30/225, on the line 180 + 1.5 x 30. Classes 1,2.
+# Dates: intro October 1927; retires staggered 1947-1950 as a road tail.
+#
+# Metres master: citycars/4.5/vauxhall-20-60.blend. Interchange:
+# citycars/4.5/vauxhall-20-60.dae. References:
+# citycars/references/vauxhall-20-60/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the saloon is modelled on the STANDARD 3.124 m chassis,
+# not the 3.302 m long chassis. The overall dimensions are estimates. The
+# survivor's whitewall tyres and wire wheels are simplified to dark tyres and
+# low-poly hubs.
+
+
+obj=citycar
+name=Vauxhall2060(Black)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=1927
+intro_month=10
+retire_year=1950
+retire_month=6
+speed=110
+class=1,2
+maximum_comfortable_journey_minutes=30
+maximum_tolerable_journey_minutes=225
+
+Image[E]=./images/vauxhall-20-60-black_E.0.0,-33,14
+Image[SE]=./images/vauxhall-20-60-black_SE.0.0,-13,0
+Image[S]=./images/vauxhall-20-60-black_S.0.0,0,0
+Image[SW]=./images/vauxhall-20-60-black_SW.0.0,-8,10
+Image[W]=./images/vauxhall-20-60-black_W.0.0,4,5
+Image[NW]=./images/vauxhall-20-60-black_NW.0.0,12,10
+Image[N]=./images/vauxhall-20-60-black_N.0.0,0,33
+Image[NE]=./images/vauxhall-20-60-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Vauxhall2060(Maroon)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=1927
+intro_month=10
+retire_year=1949
+retire_month=6
+speed=110
+class=1,2
+maximum_comfortable_journey_minutes=30
+maximum_tolerable_journey_minutes=225
+
+Image[E]=./images/vauxhall-20-60-maroon_E.0.0,-33,14
+Image[SE]=./images/vauxhall-20-60-maroon_SE.0.0,-13,0
+Image[S]=./images/vauxhall-20-60-maroon_S.0.0,0,0
+Image[SW]=./images/vauxhall-20-60-maroon_SW.0.0,-8,10
+Image[W]=./images/vauxhall-20-60-maroon_W.0.0,4,5
+Image[NW]=./images/vauxhall-20-60-maroon_NW.0.0,12,10
+Image[N]=./images/vauxhall-20-60-maroon_N.0.0,0,33
+Image[NE]=./images/vauxhall-20-60-maroon_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Vauxhall2060(Cream)
+copyright=JamesPetts
+
+DistributionWeight=9
+intro_year=1927
+intro_month=10
+retire_year=1948
+retire_month=6
+speed=110
+class=1,2
+maximum_comfortable_journey_minutes=30
+maximum_tolerable_journey_minutes=225
+
+Image[E]=./images/vauxhall-20-60-cream_E.0.0,-33,14
+Image[SE]=./images/vauxhall-20-60-cream_SE.0.0,-13,0
+Image[S]=./images/vauxhall-20-60-cream_S.0.0,0,0
+Image[SW]=./images/vauxhall-20-60-cream_SW.0.0,-8,10
+Image[W]=./images/vauxhall-20-60-cream_W.0.0,4,5
+Image[NW]=./images/vauxhall-20-60-cream_NW.0.0,12,10
+Image[N]=./images/vauxhall-20-60-cream_N.0.0,0,33
+Image[NE]=./images/vauxhall-20-60-cream_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Vauxhall2060(DarkBlue)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=1927
+intro_month=10
+retire_year=1947
+retire_month=6
+speed=110
+class=1,2
+maximum_comfortable_journey_minutes=30
+maximum_tolerable_journey_minutes=225
+
+Image[E]=./images/vauxhall-20-60-darkblue_E.0.0,-33,14
+Image[SE]=./images/vauxhall-20-60-darkblue_SE.0.0,-13,0
+Image[S]=./images/vauxhall-20-60-darkblue_S.0.0,0,0
+Image[SW]=./images/vauxhall-20-60-darkblue_SW.0.0,-8,10
+Image[W]=./images/vauxhall-20-60-darkblue_W.0.0,4,5
+Image[NW]=./images/vauxhall-20-60-darkblue_NW.0.0,12,10
+Image[N]=./images/vauxhall-20-60-darkblue_N.0.0,0,33
+Image[NE]=./images/vauxhall-20-60-darkblue_NE.0.0,0,24

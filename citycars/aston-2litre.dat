@@ -1,0 +1,123 @@
+# Aston Martin 2-litre sports, 1936-1939.
+#
+# The 2-litre: the larger-engined development of the Ulster line, with the
+# long bonnet, the cycle wings and the exposed radiator. The two-seat sports
+# body is modelled.
+#
+# Dimensions: NO reliable published figure was found. The model measures
+# 4.08 x 1.58 x 1.28 m on a 2.61 m wheelbase, ESTIMATED from the photographs
+# and assumed tyre outside diameters; these are not specifications and must
+# not be quoted as such. This is the Speed Model, not the standard tourer.
+#
+# Shape reference: a grey car with dark blue wings, race number 29, at Pebble
+# Beach, in true level side elevation, front three-quarter and rear
+# three-quarter.
+#
+# Colours: grade (d). No British colour list exists; the car was finished to
+# order. The objects carry plain names (green, black, red, silver).
+#
+# Speed 145 km/h, an estimate. Comfort 32/228 on the line 180 + 1.5 x 32:
+# an open two-seater with a little more room than the Ulster. Classes 3,4.
+# Dates are road presence: 1936 intro, retires staggered 1955-1958.
+#
+# Metres master: citycars/4.5/aston-2litre.blend. Interchange:
+# citycars/4.5/aston-2litre.dae. References:
+# citycars/references/aston-2litre/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the wing-to-running-board transition is too abrupt,
+# the rear deck and cockpit trim are simplified, and the race number and
+# plate lettering are absent. At 128 px the long bonnet, low two-seat body,
+# upright Type A radiator and tail-mounted spare read as a 2-litre.
+
+
+obj=citycar
+name=Aston2Litre(Green)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1936
+intro_month=1
+retire_year=1958
+retire_month=6
+speed=145
+class=3,4
+maximum_comfortable_journey_minutes=32
+maximum_tolerable_journey_minutes=228
+
+Image[E]=./images/aston-2litre-green_E.0.0,-33,14
+Image[SE]=./images/aston-2litre-green_SE.0.0,-13,0
+Image[S]=./images/aston-2litre-green_S.0.0,0,0
+Image[SW]=./images/aston-2litre-green_SW.0.0,-8,10
+Image[W]=./images/aston-2litre-green_W.0.0,4,5
+Image[NW]=./images/aston-2litre-green_NW.0.0,12,10
+Image[N]=./images/aston-2litre-green_N.0.0,0,33
+Image[NE]=./images/aston-2litre-green_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Aston2Litre(Black)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1936
+intro_month=1
+retire_year=1957
+retire_month=6
+speed=145
+class=3,4
+maximum_comfortable_journey_minutes=32
+maximum_tolerable_journey_minutes=228
+
+Image[E]=./images/aston-2litre-black_E.0.0,-33,14
+Image[SE]=./images/aston-2litre-black_SE.0.0,-13,0
+Image[S]=./images/aston-2litre-black_S.0.0,0,0
+Image[SW]=./images/aston-2litre-black_SW.0.0,-8,10
+Image[W]=./images/aston-2litre-black_W.0.0,4,5
+Image[NW]=./images/aston-2litre-black_NW.0.0,12,10
+Image[N]=./images/aston-2litre-black_N.0.0,0,33
+Image[NE]=./images/aston-2litre-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Aston2Litre(Red)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1936
+intro_month=1
+retire_year=1956
+retire_month=6
+speed=145
+class=3,4
+maximum_comfortable_journey_minutes=32
+maximum_tolerable_journey_minutes=228
+
+Image[E]=./images/aston-2litre-red_E.0.0,-33,14
+Image[SE]=./images/aston-2litre-red_SE.0.0,-13,0
+Image[S]=./images/aston-2litre-red_S.0.0,0,0
+Image[SW]=./images/aston-2litre-red_SW.0.0,-8,10
+Image[W]=./images/aston-2litre-red_W.0.0,4,5
+Image[NW]=./images/aston-2litre-red_NW.0.0,12,10
+Image[N]=./images/aston-2litre-red_N.0.0,0,33
+Image[NE]=./images/aston-2litre-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Aston2Litre(Silver)
+copyright=JamesPetts
+
+DistributionWeight=1
+intro_year=1936
+intro_month=1
+retire_year=1955
+retire_month=6
+speed=145
+class=3,4
+maximum_comfortable_journey_minutes=32
+maximum_tolerable_journey_minutes=228
+
+Image[E]=./images/aston-2litre-silver_E.0.0,-33,14
+Image[SE]=./images/aston-2litre-silver_SE.0.0,-13,0
+Image[S]=./images/aston-2litre-silver_S.0.0,0,0
+Image[SW]=./images/aston-2litre-silver_SW.0.0,-8,10
+Image[W]=./images/aston-2litre-silver_W.0.0,4,5
+Image[NW]=./images/aston-2litre-silver_NW.0.0,12,10
+Image[N]=./images/aston-2litre-silver_N.0.0,0,33
+Image[NE]=./images/aston-2litre-silver_NE.0.0,0,24

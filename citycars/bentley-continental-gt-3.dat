@@ -1,0 +1,119 @@
+# Bentley Continental GT third generation, 2018-2024.
+#
+# The 2018 car: the aluminium-intensive body with the wider matrix grille,
+# the crystal-cut headlamps and the 6.0 W12. UK showrooms from May 2018;
+# replaced in 2024.
+# https://en.wikipedia.org/wiki/Bentley_Continental_GT
+#
+# Dimensions 4.850 x 1.954 x 1.405 m, wheelbase 2.851 m, with 2.187 m over
+# the mirrors (Bentley's own third-generation specification sheet).
+#
+# Shape reference: image 1 is a true level profile of a UK car, EX19 YKZ.
+#
+# Colours: grade (a), the 17 standard colours of Bentley's UK brochure "The
+# New Continental GT" of June 2018. Weights 20, 16, 12, 10, total 58,
+# provisional.
+#
+# Speed 333 km/h. Comfort 160/420, on the line 180 + 1.5 x 160. Class 4.
+# Dates: intro May 2018; retires staggered 2032-2035 as a road tail.
+#
+# Metres master: citycars/4.5/bentley-continental-gt-3.blend. Interchange:
+# citycars/4.5/bentley-continental-gt-3.dae. References:
+# citycars/references/bentley-continental-gt-3/ (gitignored).
+#
+# Accepted deviations: the W12 coupe is modelled. The rear haunch crease is
+# softer than in the photograph, and the crystal optics and brightwork are
+# simplified. The mirror span is 2.187 m.
+
+
+obj=citycar
+name=BentleyContinentalGT3(Beluga)
+copyright=JamesPetts
+
+DistributionWeight=20
+intro_year=2018
+intro_month=5
+retire_year=2035
+retire_month=6
+speed=333
+class=4
+maximum_comfortable_journey_minutes=160
+maximum_tolerable_journey_minutes=420
+
+Image[E]=./images/bentley-continental-gt-3-beluga_E.0.0,-33,14
+Image[SE]=./images/bentley-continental-gt-3-beluga_SE.0.0,-13,0
+Image[S]=./images/bentley-continental-gt-3-beluga_S.0.0,0,0
+Image[SW]=./images/bentley-continental-gt-3-beluga_SW.0.0,-8,10
+Image[W]=./images/bentley-continental-gt-3-beluga_W.0.0,4,5
+Image[NW]=./images/bentley-continental-gt-3-beluga_NW.0.0,12,10
+Image[N]=./images/bentley-continental-gt-3-beluga_N.0.0,0,33
+Image[NE]=./images/bentley-continental-gt-3-beluga_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BentleyContinentalGT3(GlacierWhite)
+copyright=JamesPetts
+
+DistributionWeight=16
+intro_year=2018
+intro_month=5
+retire_year=2034
+retire_month=6
+speed=333
+class=4
+maximum_comfortable_journey_minutes=160
+maximum_tolerable_journey_minutes=420
+
+Image[E]=./images/bentley-continental-gt-3-glacierwhite_E.0.0,-33,14
+Image[SE]=./images/bentley-continental-gt-3-glacierwhite_SE.0.0,-13,0
+Image[S]=./images/bentley-continental-gt-3-glacierwhite_S.0.0,0,0
+Image[SW]=./images/bentley-continental-gt-3-glacierwhite_SW.0.0,-8,10
+Image[W]=./images/bentley-continental-gt-3-glacierwhite_W.0.0,4,5
+Image[NW]=./images/bentley-continental-gt-3-glacierwhite_NW.0.0,12,10
+Image[N]=./images/bentley-continental-gt-3-glacierwhite_N.0.0,0,33
+Image[NE]=./images/bentley-continental-gt-3-glacierwhite_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BentleyContinentalGT3(DarkSapphire)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=2018
+intro_month=5
+retire_year=2033
+retire_month=6
+speed=333
+class=4
+maximum_comfortable_journey_minutes=160
+maximum_tolerable_journey_minutes=420
+
+Image[E]=./images/bentley-continental-gt-3-darksapphire_E.0.0,-33,14
+Image[SE]=./images/bentley-continental-gt-3-darksapphire_SE.0.0,-13,0
+Image[S]=./images/bentley-continental-gt-3-darksapphire_S.0.0,0,0
+Image[SW]=./images/bentley-continental-gt-3-darksapphire_SW.0.0,-8,10
+Image[W]=./images/bentley-continental-gt-3-darksapphire_W.0.0,4,5
+Image[NW]=./images/bentley-continental-gt-3-darksapphire_NW.0.0,12,10
+Image[N]=./images/bentley-continental-gt-3-darksapphire_N.0.0,0,33
+Image[NE]=./images/bentley-continental-gt-3-darksapphire_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BentleyContinentalGT3(StJamesRed)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=2018
+intro_month=5
+retire_year=2032
+retire_month=6
+speed=333
+class=4
+maximum_comfortable_journey_minutes=160
+maximum_tolerable_journey_minutes=420
+
+Image[E]=./images/bentley-continental-gt-3-stjamesred_E.0.0,-33,14
+Image[SE]=./images/bentley-continental-gt-3-stjamesred_SE.0.0,-13,0
+Image[S]=./images/bentley-continental-gt-3-stjamesred_S.0.0,0,0
+Image[SW]=./images/bentley-continental-gt-3-stjamesred_SW.0.0,-8,10
+Image[W]=./images/bentley-continental-gt-3-stjamesred_W.0.0,4,5
+Image[NW]=./images/bentley-continental-gt-3-stjamesred_NW.0.0,12,10
+Image[N]=./images/bentley-continental-gt-3-stjamesred_N.0.0,0,33
+Image[NE]=./images/bentley-continental-gt-3-stjamesred_NE.0.0,0,24

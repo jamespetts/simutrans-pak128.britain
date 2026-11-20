@@ -1,0 +1,127 @@
+# Nissan Micra K13 five-door hatchback, 2010-2017.
+#
+# The fourth-generation Micra: the tall five-door-only body with the large
+# oval headlamps sweeping back into the wings, the low body-side crease along
+# both doors and the number plate in the bumper below the hatch. The
+# pre-facelift car is modelled; the 2013 facelift with its large
+# chrome-framed grille is not represented. Nissan sold no three-door K13 and
+# no convertible.
+# https://en.wikipedia.org/wiki/Nissan_Micra
+#
+# Dimensions 3.780 x 1.665 x 1.495 m, wheelbase 2.450 m. The published ranges
+# run to 3.870 x 1.690 x 1.525 for the 2013 facelift; the pre-facelift UK car
+# is at the short, narrow, low end of them.
+#
+# Shape reference: image 1 is a true level side elevation, but the front
+# bumper is cut off at the frame edge, so the nose is taken from images 2 and
+# 3, which are a UK Shiro special edition.
+#
+# Colours: grade (d); no UK colour list was found, although The Telegraph road
+# test of 10 October 2010 records ten body colours without naming them. White,
+# Red, Blue and Silver are plain names. Weights 12, 10, 9, 8, total 39,
+# provisional.
+#
+# Speed 165 km/h. Comfort 65/280, on the line 180 + 1.5 x 65. Classes 1,2.
+# Dates: intro 1 December 2010, the UK on-sale date recorded by a period road
+# test; retire 2017, when the K14 replaced it in March.
+#
+# Metres master: citycars/4.5/nissan-micra-k13.blend. Interchange:
+# citycars/4.5/nissan-micra-k13.dae. References:
+# citycars/references/nissan-micra-k13/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the rear plate is in the bumper, as the photographs
+# show, and the headlamp outlines are more angular and narrower than the
+# reference. The grille internals and bumper corners are simplified.
+
+
+obj=citycar
+name=NissanMicraK13(White)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=2010
+intro_month=12
+retire_year=2033
+retire_month=6
+speed=165
+class=1,2
+maximum_comfortable_journey_minutes=65
+maximum_tolerable_journey_minutes=280
+
+Image[E]=./images/nissan-micra-k13-white_E.0.0,-33,14
+Image[SE]=./images/nissan-micra-k13-white_SE.0.0,-13,0
+Image[S]=./images/nissan-micra-k13-white_S.0.0,0,0
+Image[SW]=./images/nissan-micra-k13-white_SW.0.0,-8,10
+Image[W]=./images/nissan-micra-k13-white_W.0.0,4,5
+Image[NW]=./images/nissan-micra-k13-white_NW.0.0,12,10
+Image[N]=./images/nissan-micra-k13-white_N.0.0,0,33
+Image[NE]=./images/nissan-micra-k13-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=NissanMicraK13(Red)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=2010
+intro_month=12
+retire_year=2032
+retire_month=6
+speed=165
+class=1,2
+maximum_comfortable_journey_minutes=65
+maximum_tolerable_journey_minutes=280
+
+Image[E]=./images/nissan-micra-k13-red_E.0.0,-33,14
+Image[SE]=./images/nissan-micra-k13-red_SE.0.0,-13,0
+Image[S]=./images/nissan-micra-k13-red_S.0.0,0,0
+Image[SW]=./images/nissan-micra-k13-red_SW.0.0,-8,10
+Image[W]=./images/nissan-micra-k13-red_W.0.0,4,5
+Image[NW]=./images/nissan-micra-k13-red_NW.0.0,12,10
+Image[N]=./images/nissan-micra-k13-red_N.0.0,0,33
+Image[NE]=./images/nissan-micra-k13-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=NissanMicraK13(Blue)
+copyright=JamesPetts
+
+DistributionWeight=9
+intro_year=2010
+intro_month=12
+retire_year=2031
+retire_month=6
+speed=165
+class=1,2
+maximum_comfortable_journey_minutes=65
+maximum_tolerable_journey_minutes=280
+
+Image[E]=./images/nissan-micra-k13-blue_E.0.0,-33,14
+Image[SE]=./images/nissan-micra-k13-blue_SE.0.0,-13,0
+Image[S]=./images/nissan-micra-k13-blue_S.0.0,0,0
+Image[SW]=./images/nissan-micra-k13-blue_SW.0.0,-8,10
+Image[W]=./images/nissan-micra-k13-blue_W.0.0,4,5
+Image[NW]=./images/nissan-micra-k13-blue_NW.0.0,12,10
+Image[N]=./images/nissan-micra-k13-blue_N.0.0,0,33
+Image[NE]=./images/nissan-micra-k13-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=NissanMicraK13(Silver)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=2010
+intro_month=12
+retire_year=2030
+retire_month=6
+speed=165
+class=1,2
+maximum_comfortable_journey_minutes=65
+maximum_tolerable_journey_minutes=280
+
+Image[E]=./images/nissan-micra-k13-silver_E.0.0,-33,14
+Image[SE]=./images/nissan-micra-k13-silver_SE.0.0,-13,0
+Image[S]=./images/nissan-micra-k13-silver_S.0.0,0,0
+Image[SW]=./images/nissan-micra-k13-silver_SW.0.0,-8,10
+Image[W]=./images/nissan-micra-k13-silver_W.0.0,4,5
+Image[NW]=./images/nissan-micra-k13-silver_NW.0.0,12,10
+Image[N]=./images/nissan-micra-k13-silver_N.0.0,0,33
+Image[NE]=./images/nissan-micra-k13-silver_NE.0.0,0,24

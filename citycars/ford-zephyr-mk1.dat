@@ -1,0 +1,123 @@
+# Ford Zephyr Mk I (Zephyr Six) four-door saloon, 1951-1956.
+#
+# The six-cylinder member of the 1951 range: a Consul with a four-inch longer
+# bonnet and the 2,262 cc six. Six-light cabin, waist-level chrome strip and
+# rounded boot. The Abbott estate and Carbodies convertible are different
+# bodies and are not modelled.
+# https://en.wikipedia.org/wiki/Ford_Zephyr
+#
+# Dimensions 4.369 x 1.626 x 1.524 m, wheelbase 2.642 m.
+#
+# Shape reference: a teal-blue Zephyr Six in true level side elevation, a
+# 1953 car in front three-quarter, and a third car in rear three-quarter.
+# The long bonnet and six-light cabin govern.
+#
+# Colours: grade (a), the period Ford dealer leaflet 'Ford Sets The Fashion'
+# (1953-54 season), which names the Zephyr Six saloon colours: Opal,
+# Edinburgh Green, Bristol Fawn, Dorchester Grey, Canterbury Green,
+# Winchester Blue and Black. Four are used. Weights 15, 13, 12, 10, total
+# 50, provisional.
+#
+# Speed 135 km/h. Comfort 55/265, on the line 180 + 1.5 x 55. Classes 2,3.
+# Dates are road presence: 1950 intro, retires staggered 1970-1973.
+#
+# Metres master: citycars/4.5/ford-zephyr-mk1.blend. Interchange:
+# citycars/4.5/ford-zephyr-mk1.dae. References:
+# citycars/references/ford-zephyr-mk1/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the roof corners, rear glass and bumper wrap are
+# simplified. The three photographs show different cars. At 128 px the long
+# bonnet, six-light cabin and rounded boot read as a Zephyr Mk I.
+
+
+obj=citycar
+name=FordZephyrMk1(Opal)
+copyright=JamesPetts
+
+DistributionWeight=15
+intro_year=1950
+intro_month=10
+retire_year=1973
+retire_month=6
+speed=135
+class=2,3
+maximum_comfortable_journey_minutes=55
+maximum_tolerable_journey_minutes=265
+
+Image[E]=./images/ford-zephyr-mk1-opal_E.0.0,-33,14
+Image[SE]=./images/ford-zephyr-mk1-opal_SE.0.0,-13,0
+Image[S]=./images/ford-zephyr-mk1-opal_S.0.0,0,0
+Image[SW]=./images/ford-zephyr-mk1-opal_SW.0.0,-8,10
+Image[W]=./images/ford-zephyr-mk1-opal_W.0.0,4,5
+Image[NW]=./images/ford-zephyr-mk1-opal_NW.0.0,12,10
+Image[N]=./images/ford-zephyr-mk1-opal_N.0.0,0,33
+Image[NE]=./images/ford-zephyr-mk1-opal_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FordZephyrMk1(EdinburghGreen)
+copyright=JamesPetts
+
+DistributionWeight=13
+intro_year=1950
+intro_month=10
+retire_year=1972
+retire_month=6
+speed=135
+class=2,3
+maximum_comfortable_journey_minutes=55
+maximum_tolerable_journey_minutes=265
+
+Image[E]=./images/ford-zephyr-mk1-edinburghgreen_E.0.0,-33,14
+Image[SE]=./images/ford-zephyr-mk1-edinburghgreen_SE.0.0,-13,0
+Image[S]=./images/ford-zephyr-mk1-edinburghgreen_S.0.0,0,0
+Image[SW]=./images/ford-zephyr-mk1-edinburghgreen_SW.0.0,-8,10
+Image[W]=./images/ford-zephyr-mk1-edinburghgreen_W.0.0,4,5
+Image[NW]=./images/ford-zephyr-mk1-edinburghgreen_NW.0.0,12,10
+Image[N]=./images/ford-zephyr-mk1-edinburghgreen_N.0.0,0,33
+Image[NE]=./images/ford-zephyr-mk1-edinburghgreen_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FordZephyrMk1(WinchesterBlue)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=1950
+intro_month=10
+retire_year=1971
+retire_month=6
+speed=135
+class=2,3
+maximum_comfortable_journey_minutes=55
+maximum_tolerable_journey_minutes=265
+
+Image[E]=./images/ford-zephyr-mk1-winchesterblue_E.0.0,-33,14
+Image[SE]=./images/ford-zephyr-mk1-winchesterblue_SE.0.0,-13,0
+Image[S]=./images/ford-zephyr-mk1-winchesterblue_S.0.0,0,0
+Image[SW]=./images/ford-zephyr-mk1-winchesterblue_SW.0.0,-8,10
+Image[W]=./images/ford-zephyr-mk1-winchesterblue_W.0.0,4,5
+Image[NW]=./images/ford-zephyr-mk1-winchesterblue_NW.0.0,12,10
+Image[N]=./images/ford-zephyr-mk1-winchesterblue_N.0.0,0,33
+Image[NE]=./images/ford-zephyr-mk1-winchesterblue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FordZephyrMk1(Black)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=1950
+intro_month=10
+retire_year=1970
+retire_month=6
+speed=135
+class=2,3
+maximum_comfortable_journey_minutes=55
+maximum_tolerable_journey_minutes=265
+
+Image[E]=./images/ford-zephyr-mk1-black_E.0.0,-33,14
+Image[SE]=./images/ford-zephyr-mk1-black_SE.0.0,-13,0
+Image[S]=./images/ford-zephyr-mk1-black_S.0.0,0,0
+Image[SW]=./images/ford-zephyr-mk1-black_SW.0.0,-8,10
+Image[W]=./images/ford-zephyr-mk1-black_W.0.0,4,5
+Image[NW]=./images/ford-zephyr-mk1-black_NW.0.0,12,10
+Image[N]=./images/ford-zephyr-mk1-black_N.0.0,0,33
+Image[NE]=./images/ford-zephyr-mk1-black_NE.0.0,0,24

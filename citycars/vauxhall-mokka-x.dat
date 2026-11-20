@@ -1,0 +1,124 @@
+# Vauxhall Mokka X compact SUV, 2016-2021.
+#
+# The Mokka X: the facelifted J13 body with the new grille, the redesigned
+# lamps and a new dashboard. UK showrooms from October 2016; replaced by the
+# Mokka B in April 2021.
+# https://en.wikipedia.org/wiki/Opel_Mokka
+#
+# Dimensions 4.280 x 1.775 x 1.646 m, wheelbase 2.555 m. The Mokka X is the
+# same J13 body and no separate dimension table was read, so these are the
+# Mokka A figures and the height is grade (c).
+#
+# Shape reference: no true level side elevation of a Mokka X was found; the
+# Mokka A side is used for the body and the X-specific nose and lamps come
+# from the front views, with the limitation recorded.
+#
+# Colours: grade (a), the New Mokka X 2017 Models Edition 1 of August 2016:
+# Royal Blue solid, Summit White and Lava Red brilliant, and Quantum Grey,
+# Amaretto, Sovereign Silver, Boracay Blue and Mineral Black metallic.
+# Weights 12, 10, 9, 8, total 39, provisional.
+# Speed 190 km/h. Comfort 72/288, on the line 180 + 1.5 x 72. Classes 1,2.
+# Dates: intro October 2016; retires staggered 2018-2021 as a road tail.
+#
+# Metres master: citycars/4.5/vauxhall-mokka-x.blend. Interchange:
+# citycars/4.5/vauxhall-mokka-x.dae. References:
+# citycars/references/vauxhall-mokka-x/ (gitignored).
+#
+# Accepted deviations: the shared Mokka A flank and glazing are used, because
+# no side elevation of a Mokka X exists; the X-specific nose, grille, lamps and
+# bumper are taken from the X pack. Lamp graphics and brightwork are
+# simplified, and the rear glass and skid plate keep the Mokka A
+# simplifications.
+
+
+obj=citycar
+name=VauxhallMokkaX(RoyalBlue)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=2016
+intro_month=10
+retire_year=2021
+retire_month=6
+speed=190
+class=1,2
+maximum_comfortable_journey_minutes=72
+maximum_tolerable_journey_minutes=288
+
+Image[E]=./images/vauxhall-mokka-x-royalblue_E.0.0,-33,14
+Image[SE]=./images/vauxhall-mokka-x-royalblue_SE.0.0,-13,0
+Image[S]=./images/vauxhall-mokka-x-royalblue_S.0.0,0,0
+Image[SW]=./images/vauxhall-mokka-x-royalblue_SW.0.0,-8,10
+Image[W]=./images/vauxhall-mokka-x-royalblue_W.0.0,4,5
+Image[NW]=./images/vauxhall-mokka-x-royalblue_NW.0.0,12,10
+Image[N]=./images/vauxhall-mokka-x-royalblue_N.0.0,0,33
+Image[NE]=./images/vauxhall-mokka-x-royalblue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallMokkaX(SummitWhite)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=2016
+intro_month=10
+retire_year=2020
+retire_month=6
+speed=190
+class=1,2
+maximum_comfortable_journey_minutes=72
+maximum_tolerable_journey_minutes=288
+
+Image[E]=./images/vauxhall-mokka-x-summitwhite_E.0.0,-33,14
+Image[SE]=./images/vauxhall-mokka-x-summitwhite_SE.0.0,-13,0
+Image[S]=./images/vauxhall-mokka-x-summitwhite_S.0.0,0,0
+Image[SW]=./images/vauxhall-mokka-x-summitwhite_SW.0.0,-8,10
+Image[W]=./images/vauxhall-mokka-x-summitwhite_W.0.0,4,5
+Image[NW]=./images/vauxhall-mokka-x-summitwhite_NW.0.0,12,10
+Image[N]=./images/vauxhall-mokka-x-summitwhite_N.0.0,0,33
+Image[NE]=./images/vauxhall-mokka-x-summitwhite_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallMokkaX(LavaRed)
+copyright=JamesPetts
+
+DistributionWeight=9
+intro_year=2016
+intro_month=10
+retire_year=2019
+retire_month=6
+speed=190
+class=1,2
+maximum_comfortable_journey_minutes=72
+maximum_tolerable_journey_minutes=288
+
+Image[E]=./images/vauxhall-mokka-x-lavared_E.0.0,-33,14
+Image[SE]=./images/vauxhall-mokka-x-lavared_SE.0.0,-13,0
+Image[S]=./images/vauxhall-mokka-x-lavared_S.0.0,0,0
+Image[SW]=./images/vauxhall-mokka-x-lavared_SW.0.0,-8,10
+Image[W]=./images/vauxhall-mokka-x-lavared_W.0.0,4,5
+Image[NW]=./images/vauxhall-mokka-x-lavared_NW.0.0,12,10
+Image[N]=./images/vauxhall-mokka-x-lavared_N.0.0,0,33
+Image[NE]=./images/vauxhall-mokka-x-lavared_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallMokkaX(SovereignSilver)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=2016
+intro_month=10
+retire_year=2018
+retire_month=6
+speed=190
+class=1,2
+maximum_comfortable_journey_minutes=72
+maximum_tolerable_journey_minutes=288
+
+Image[E]=./images/vauxhall-mokka-x-sovereignsilver_E.0.0,-33,14
+Image[SE]=./images/vauxhall-mokka-x-sovereignsilver_SE.0.0,-13,0
+Image[S]=./images/vauxhall-mokka-x-sovereignsilver_S.0.0,0,0
+Image[SW]=./images/vauxhall-mokka-x-sovereignsilver_SW.0.0,-8,10
+Image[W]=./images/vauxhall-mokka-x-sovereignsilver_W.0.0,4,5
+Image[NW]=./images/vauxhall-mokka-x-sovereignsilver_NW.0.0,12,10
+Image[N]=./images/vauxhall-mokka-x-sovereignsilver_N.0.0,0,33
+Image[NE]=./images/vauxhall-mokka-x-sovereignsilver_NE.0.0,0,24

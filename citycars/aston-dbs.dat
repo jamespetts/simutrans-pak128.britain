@@ -1,0 +1,130 @@
+# Aston Martin DBS six-cylinder coupe, 1967-1972.
+#
+# William Towns's DBS on the shortened Lagonda chassis: the flat bonnet with the
+# shallow raised central vent, the wide fine-mesh grille with four round
+# headlamps, the flat rear deck and one rectangular rear lamp housing per side,
+# divided into three lens sections. 787 six-cylinder cars built; the DBS V8 of
+# 1970-72 is a different nose and is not modelled.
+# https://en.wikipedia.org/wiki/Aston_Martin_DBS
+#
+# Dimensions 4.580 x 1.830 x 1.330 m, wheelbase 2.610 m.
+#
+# Shape reference: three six-cylinder DBS coupes. Image 1 is a 1969 blue car in
+# true near-level side elevation, only 664 x 302 px, so it governs the flank and
+# roofline but not fine detail. Image 2 is a pale 1968 car, front three-quarter,
+# and shows the four round lamps, the wide grille and the shallow raised central
+# bonnet vent that is modelled here (not the DBS V8's large open scoop). Image 3
+# is a red 1971 car, rear three-quarter, and shows the single segmented rear lamp
+# housing per side.
+#
+# Colours: grade (c), the DBS register's production record of 793 identified
+# cars. The four most common are Silver Birch (107), Dubonnet Rosso (80),
+# Platinum (76) and Aquamarine (55); Pacific Blue (34) and Goodwood Green (14)
+# are used here for visual range. Weights 4, 3, 2, 1, total 10, provisional.
+#
+# Speed 240 km/h. Comfort 65/280, on the line 180 + 1.5 x 65: a longer, more
+# spacious cabin than the DB6's, with the same low roofline. Classes 3,4.
+#
+# Dates are road presence: 1967 intro, retires staggered 1985-1986 on an
+# eighteen- to nineteen-year tail.
+#
+# Metres master: citycars/4.5/aston-dbs.blend. Interchange:
+# citycars/4.5/aston-dbs.dae. References:
+# citycars/references/aston-dbs/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the quarter-window outline is more angular than the
+# photograph's, and the rear lamp panel lacks the recessed surround. At 128 px
+# the long bonnet, four-lamp grille, flat rear deck and segmented tail lamps
+# read as a DBS.
+
+obj=citycar
+name=AstonDBS(SilverBirch)
+copyright=JamesPetts
+
+DistributionWeight=4
+intro_year=1967
+intro_month=10
+retire_year=1986
+retire_month=6
+speed=240
+class=3,4
+maximum_comfortable_journey_minutes=65
+maximum_tolerable_journey_minutes=280
+
+Image[E]=./images/aston-dbs-silverbirch_E.0.0,-33,14
+Image[SE]=./images/aston-dbs-silverbirch_SE.0.0,-13,0
+Image[S]=./images/aston-dbs-silverbirch_S.0.0,0,0
+Image[SW]=./images/aston-dbs-silverbirch_SW.0.0,-8,10
+Image[W]=./images/aston-dbs-silverbirch_W.0.0,4,5
+Image[NW]=./images/aston-dbs-silverbirch_NW.0.0,12,10
+Image[N]=./images/aston-dbs-silverbirch_N.0.0,0,33
+Image[NE]=./images/aston-dbs-silverbirch_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=AstonDBS(DubonnetRosso)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1967
+intro_month=10
+retire_year=1985
+retire_month=6
+speed=240
+class=3,4
+maximum_comfortable_journey_minutes=65
+maximum_tolerable_journey_minutes=280
+
+Image[E]=./images/aston-dbs-dubonnetrosso_E.0.0,-33,14
+Image[SE]=./images/aston-dbs-dubonnetrosso_SE.0.0,-13,0
+Image[S]=./images/aston-dbs-dubonnetrosso_S.0.0,0,0
+Image[SW]=./images/aston-dbs-dubonnetrosso_SW.0.0,-8,10
+Image[W]=./images/aston-dbs-dubonnetrosso_W.0.0,4,5
+Image[NW]=./images/aston-dbs-dubonnetrosso_NW.0.0,12,10
+Image[N]=./images/aston-dbs-dubonnetrosso_N.0.0,0,33
+Image[NE]=./images/aston-dbs-dubonnetrosso_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=AstonDBS(PacificBlue)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1967
+intro_month=10
+retire_year=1985
+retire_month=6
+speed=240
+class=3,4
+maximum_comfortable_journey_minutes=65
+maximum_tolerable_journey_minutes=280
+
+Image[E]=./images/aston-dbs-pacificblue_E.0.0,-33,14
+Image[SE]=./images/aston-dbs-pacificblue_SE.0.0,-13,0
+Image[S]=./images/aston-dbs-pacificblue_S.0.0,0,0
+Image[SW]=./images/aston-dbs-pacificblue_SW.0.0,-8,10
+Image[W]=./images/aston-dbs-pacificblue_W.0.0,4,5
+Image[NW]=./images/aston-dbs-pacificblue_NW.0.0,12,10
+Image[N]=./images/aston-dbs-pacificblue_N.0.0,0,33
+Image[NE]=./images/aston-dbs-pacificblue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=AstonDBS(GoodwoodGreen)
+copyright=JamesPetts
+
+DistributionWeight=1
+intro_year=1967
+intro_month=10
+retire_year=1986
+retire_month=6
+speed=240
+class=3,4
+maximum_comfortable_journey_minutes=65
+maximum_tolerable_journey_minutes=280
+
+Image[E]=./images/aston-dbs-goodwoodgreen_E.0.0,-33,14
+Image[SE]=./images/aston-dbs-goodwoodgreen_SE.0.0,-13,0
+Image[S]=./images/aston-dbs-goodwoodgreen_S.0.0,0,0
+Image[SW]=./images/aston-dbs-goodwoodgreen_SW.0.0,-8,10
+Image[W]=./images/aston-dbs-goodwoodgreen_W.0.0,4,5
+Image[NW]=./images/aston-dbs-goodwoodgreen_NW.0.0,12,10
+Image[N]=./images/aston-dbs-goodwoodgreen_N.0.0,0,33
+Image[NE]=./images/aston-dbs-goodwoodgreen_NE.0.0,0,24

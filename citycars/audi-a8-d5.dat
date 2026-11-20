@@ -1,0 +1,121 @@
+# Audi A8 D5 four-door saloon, 2017 onwards.
+#
+# The fourth A8: the wider, sharper D5 body with the large single-frame
+# grille, the OLED tail lamps and the mild-hybrid range. UK pricing was
+# announced on 3 October 2017. The 2021 facelift is a colour-run change.
+# https://en.wikipedia.org/wiki/Audi_A8
+#
+# Dimensions 5.172 x 1.945 x 1.485 m, wheelbase 2.998 m.
+#
+# Shape reference: image 1 is an oblique rear-side view, not a true side
+# profile; the front and rear three-quarters show the lamps and grille. The
+# flank is estimated; the limitation is recorded.
+#
+# Colours: grade (d); no UK chart was established. Black, silver, grey and
+# blue are plain names. Weights 9, 8, 7, 6, total 30, provisional.
+#
+# Speed 250 km/h. Comfort 108/342, on the line 180 + 1.5 x 108. Classes 3,4.
+# Dates are road presence: 2017 intro, retires staggered 2041-2044.
+#
+# Metres master: citycars/4.5/audi-a8-d5.blend. Interchange:
+# citycars/4.5/audi-a8-d5.dae. References:
+# citycars/references/audi-a8-d5/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: no profile exists in the pack, so the flank is estimated.
+# The rear-glass area is smaller than the photograph's, the full-width tail bar
+# is a flat band without the inner lens graphics or corner wrap, and there is no
+# shoulder scallop. At 128 px the very wide grille, slim lamps and full-width
+# tail bar read as a D5 A8.
+
+
+obj=citycar
+name=AudiA8D5(Black)
+copyright=JamesPetts
+
+DistributionWeight=9
+intro_year=2017
+intro_month=10
+retire_year=2044
+retire_month=6
+speed=250
+class=3,4
+maximum_comfortable_journey_minutes=108
+maximum_tolerable_journey_minutes=342
+
+Image[E]=./images/audi-a8-d5-black_E.0.0,-33,14
+Image[SE]=./images/audi-a8-d5-black_SE.0.0,-13,0
+Image[S]=./images/audi-a8-d5-black_S.0.0,0,0
+Image[SW]=./images/audi-a8-d5-black_SW.0.0,-8,10
+Image[W]=./images/audi-a8-d5-black_W.0.0,4,5
+Image[NW]=./images/audi-a8-d5-black_NW.0.0,12,10
+Image[N]=./images/audi-a8-d5-black_N.0.0,0,33
+Image[NE]=./images/audi-a8-d5-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=AudiA8D5(Silver)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=2017
+intro_month=10
+retire_year=2043
+retire_month=6
+speed=250
+class=3,4
+maximum_comfortable_journey_minutes=108
+maximum_tolerable_journey_minutes=342
+
+Image[E]=./images/audi-a8-d5-silver_E.0.0,-33,14
+Image[SE]=./images/audi-a8-d5-silver_SE.0.0,-13,0
+Image[S]=./images/audi-a8-d5-silver_S.0.0,0,0
+Image[SW]=./images/audi-a8-d5-silver_SW.0.0,-8,10
+Image[W]=./images/audi-a8-d5-silver_W.0.0,4,5
+Image[NW]=./images/audi-a8-d5-silver_NW.0.0,12,10
+Image[N]=./images/audi-a8-d5-silver_N.0.0,0,33
+Image[NE]=./images/audi-a8-d5-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=AudiA8D5(Grey)
+copyright=JamesPetts
+
+DistributionWeight=7
+intro_year=2017
+intro_month=10
+retire_year=2042
+retire_month=6
+speed=250
+class=3,4
+maximum_comfortable_journey_minutes=108
+maximum_tolerable_journey_minutes=342
+
+Image[E]=./images/audi-a8-d5-grey_E.0.0,-33,14
+Image[SE]=./images/audi-a8-d5-grey_SE.0.0,-13,0
+Image[S]=./images/audi-a8-d5-grey_S.0.0,0,0
+Image[SW]=./images/audi-a8-d5-grey_SW.0.0,-8,10
+Image[W]=./images/audi-a8-d5-grey_W.0.0,4,5
+Image[NW]=./images/audi-a8-d5-grey_NW.0.0,12,10
+Image[N]=./images/audi-a8-d5-grey_N.0.0,0,33
+Image[NE]=./images/audi-a8-d5-grey_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=AudiA8D5(Blue)
+copyright=JamesPetts
+
+DistributionWeight=6
+intro_year=2017
+intro_month=10
+retire_year=2041
+retire_month=6
+speed=250
+class=3,4
+maximum_comfortable_journey_minutes=108
+maximum_tolerable_journey_minutes=342
+
+Image[E]=./images/audi-a8-d5-blue_E.0.0,-33,14
+Image[SE]=./images/audi-a8-d5-blue_SE.0.0,-13,0
+Image[S]=./images/audi-a8-d5-blue_S.0.0,0,0
+Image[SW]=./images/audi-a8-d5-blue_SW.0.0,-8,10
+Image[W]=./images/audi-a8-d5-blue_W.0.0,4,5
+Image[NW]=./images/audi-a8-d5-blue_NW.0.0,12,10
+Image[N]=./images/audi-a8-d5-blue_N.0.0,0,33
+Image[NE]=./images/audi-a8-d5-blue_NE.0.0,0,24

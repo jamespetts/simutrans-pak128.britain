@@ -1,0 +1,123 @@
+# Ford Zephyr Mk II four-door saloon, 1956-1962.
+#
+# The six-cylinder member of the 1956 'Three Graces' range, with the longer
+# bonnet, the wide grille and the small tail fins. 4.534 m on the 2.718 m
+# wheelbase.
+# https://en.wikipedia.org/wiki/Ford_Zephyr
+#
+# Dimensions 4.534 x 1.702 m, wheelbase 2.718 m. Height was not established.
+#
+# Shape reference: NO true level side elevation exists. Image 1 is a front
+# three-quarter about 35 degrees off square; the flank is estimated from it
+# and the other views within the published dimensions. The limitation is
+# recorded.
+#
+# Colours: grade (d) for a model-specific list, grade (c) only for the later
+# 1959-62 corporate palette. Savoy Black, Ermine White, Ambassador Blue and
+# Goodwood Green. Weights 20, 18, 17, 15, total 70, provisional.
+#
+# Speed 140 km/h. Comfort 58/267, on the line 180 + 1.5 x 58. Classes 2,3.
+# Dates are road presence: 1956 intro, retires staggered 1978-1981.
+#
+# Metres master: citycars/4.5/ford-zephyr-mk2.blend. Interchange:
+# citycars/4.5/ford-zephyr-mk2.dae. References:
+# citycars/references/ford-zephyr-mk2/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: there is no true side elevation, so the flank is
+# estimated. The wraparound glass is too flat, and the front wing transitions and
+# tail trim are simplified. The model height of 1.50 m is an estimate, no
+# published height having been established. At 128 px the broad grille, small
+# fins and three-box body read as a Zephyr Mk II.
+
+
+obj=citycar
+name=FordZephyrMk2(SavoyBlack)
+copyright=JamesPetts
+
+DistributionWeight=20
+intro_year=1956
+intro_month=4
+retire_year=1981
+retire_month=6
+speed=140
+class=2,3
+maximum_comfortable_journey_minutes=58
+maximum_tolerable_journey_minutes=267
+
+Image[E]=./images/ford-zephyr-mk2-savoyblack_E.0.0,-33,14
+Image[SE]=./images/ford-zephyr-mk2-savoyblack_SE.0.0,-13,0
+Image[S]=./images/ford-zephyr-mk2-savoyblack_S.0.0,0,0
+Image[SW]=./images/ford-zephyr-mk2-savoyblack_SW.0.0,-8,10
+Image[W]=./images/ford-zephyr-mk2-savoyblack_W.0.0,4,5
+Image[NW]=./images/ford-zephyr-mk2-savoyblack_NW.0.0,12,10
+Image[N]=./images/ford-zephyr-mk2-savoyblack_N.0.0,0,33
+Image[NE]=./images/ford-zephyr-mk2-savoyblack_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FordZephyrMk2(ErmineWhite)
+copyright=JamesPetts
+
+DistributionWeight=18
+intro_year=1956
+intro_month=4
+retire_year=1980
+retire_month=6
+speed=140
+class=2,3
+maximum_comfortable_journey_minutes=58
+maximum_tolerable_journey_minutes=267
+
+Image[E]=./images/ford-zephyr-mk2-erminewhite_E.0.0,-33,14
+Image[SE]=./images/ford-zephyr-mk2-erminewhite_SE.0.0,-13,0
+Image[S]=./images/ford-zephyr-mk2-erminewhite_S.0.0,0,0
+Image[SW]=./images/ford-zephyr-mk2-erminewhite_SW.0.0,-8,10
+Image[W]=./images/ford-zephyr-mk2-erminewhite_W.0.0,4,5
+Image[NW]=./images/ford-zephyr-mk2-erminewhite_NW.0.0,12,10
+Image[N]=./images/ford-zephyr-mk2-erminewhite_N.0.0,0,33
+Image[NE]=./images/ford-zephyr-mk2-erminewhite_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FordZephyrMk2(AmbassadorBlue)
+copyright=JamesPetts
+
+DistributionWeight=17
+intro_year=1956
+intro_month=4
+retire_year=1979
+retire_month=6
+speed=140
+class=2,3
+maximum_comfortable_journey_minutes=58
+maximum_tolerable_journey_minutes=267
+
+Image[E]=./images/ford-zephyr-mk2-ambassadorblue_E.0.0,-33,14
+Image[SE]=./images/ford-zephyr-mk2-ambassadorblue_SE.0.0,-13,0
+Image[S]=./images/ford-zephyr-mk2-ambassadorblue_S.0.0,0,0
+Image[SW]=./images/ford-zephyr-mk2-ambassadorblue_SW.0.0,-8,10
+Image[W]=./images/ford-zephyr-mk2-ambassadorblue_W.0.0,4,5
+Image[NW]=./images/ford-zephyr-mk2-ambassadorblue_NW.0.0,12,10
+Image[N]=./images/ford-zephyr-mk2-ambassadorblue_N.0.0,0,33
+Image[NE]=./images/ford-zephyr-mk2-ambassadorblue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FordZephyrMk2(GoodwoodGreen)
+copyright=JamesPetts
+
+DistributionWeight=15
+intro_year=1956
+intro_month=4
+retire_year=1978
+retire_month=6
+speed=140
+class=2,3
+maximum_comfortable_journey_minutes=58
+maximum_tolerable_journey_minutes=267
+
+Image[E]=./images/ford-zephyr-mk2-goodwoodgreen_E.0.0,-33,14
+Image[SE]=./images/ford-zephyr-mk2-goodwoodgreen_SE.0.0,-13,0
+Image[S]=./images/ford-zephyr-mk2-goodwoodgreen_S.0.0,0,0
+Image[SW]=./images/ford-zephyr-mk2-goodwoodgreen_SW.0.0,-8,10
+Image[W]=./images/ford-zephyr-mk2-goodwoodgreen_W.0.0,4,5
+Image[NW]=./images/ford-zephyr-mk2-goodwoodgreen_NW.0.0,12,10
+Image[N]=./images/ford-zephyr-mk2-goodwoodgreen_N.0.0,0,33
+Image[NE]=./images/ford-zephyr-mk2-goodwoodgreen_NE.0.0,0,24

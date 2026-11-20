@@ -1,0 +1,124 @@
+# Tesla Model S four-door electric liftback, 2016-2021 facelift.
+#
+# The 2016-21 facelift car: the smooth body-colour nose with no black cone,
+# the slim full-LED headlamps, and a chrome strip running through both tail
+# lamps. UK right-hand-drive sales ran from June 2014 to 2021; the 2014-16
+# car with the black nose cone is not represented.
+# https://en.wikipedia.org/wiki/Tesla_Model_S
+#
+# Dimensions 4.980 x 1.960 x 1.440 m, wheelbase 2.960 m (Wikipedia infobox;
+# the 2016-21 car is the short end of the quoted length range).
+#
+# Shape reference: image 1 is a near-level side photograph with about 5-8
+# degrees of perspective, square to the flank. The flank is traced from it and
+# the front overhang is not scaled from it.
+#
+# Colours: grade (d); no UK paint document was found. White, Black, Midnight
+# Silver and Deep Blue are plain names in use on UK cars. Weights 12, 10, 10,
+# 8, total 40, provisional.
+#
+# Speed 225 km/h. Comfort 105/340, on the line 180 + 1.5 x 105. Classes 3,4.
+# Dates: intro October 2016, when the facelift reached UK roads, to 2021, when
+# right-hand-drive supply ended. The 2021-onwards Palladium car has no RHD
+# version and is not represented.
+#
+# Metres master: citycars/4.5/tesla-model-s.blend. Interchange:
+# citycars/4.5/tesla-model-s.dae. References:
+# citycars/references/tesla-model-s/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the LED internals, the wheels and the badging are
+# simplified. The bumper trim brings the full mesh to 5.016 m against the
+# 4.980 m body length.
+
+
+obj=citycar
+name=TeslaModelS(White)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=2016
+intro_month=10
+retire_year=2036
+retire_month=6
+speed=225
+class=3,4
+maximum_comfortable_journey_minutes=105
+maximum_tolerable_journey_minutes=340
+
+Image[E]=./images/tesla-model-s-white_E.0.0,-33,14
+Image[SE]=./images/tesla-model-s-white_SE.0.0,-13,0
+Image[S]=./images/tesla-model-s-white_S.0.0,0,0
+Image[SW]=./images/tesla-model-s-white_SW.0.0,-8,10
+Image[W]=./images/tesla-model-s-white_W.0.0,4,5
+Image[NW]=./images/tesla-model-s-white_NW.0.0,12,10
+Image[N]=./images/tesla-model-s-white_N.0.0,0,33
+Image[NE]=./images/tesla-model-s-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=TeslaModelS(Black)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=2016
+intro_month=10
+retire_year=2035
+retire_month=6
+speed=225
+class=3,4
+maximum_comfortable_journey_minutes=105
+maximum_tolerable_journey_minutes=340
+
+Image[E]=./images/tesla-model-s-black_E.0.0,-33,14
+Image[SE]=./images/tesla-model-s-black_SE.0.0,-13,0
+Image[S]=./images/tesla-model-s-black_S.0.0,0,0
+Image[SW]=./images/tesla-model-s-black_SW.0.0,-8,10
+Image[W]=./images/tesla-model-s-black_W.0.0,4,5
+Image[NW]=./images/tesla-model-s-black_NW.0.0,12,10
+Image[N]=./images/tesla-model-s-black_N.0.0,0,33
+Image[NE]=./images/tesla-model-s-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=TeslaModelS(MidnightSilver)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=2016
+intro_month=10
+retire_year=2034
+retire_month=6
+speed=225
+class=3,4
+maximum_comfortable_journey_minutes=105
+maximum_tolerable_journey_minutes=340
+
+Image[E]=./images/tesla-model-s-midnightsilver_E.0.0,-33,14
+Image[SE]=./images/tesla-model-s-midnightsilver_SE.0.0,-13,0
+Image[S]=./images/tesla-model-s-midnightsilver_S.0.0,0,0
+Image[SW]=./images/tesla-model-s-midnightsilver_SW.0.0,-8,10
+Image[W]=./images/tesla-model-s-midnightsilver_W.0.0,4,5
+Image[NW]=./images/tesla-model-s-midnightsilver_NW.0.0,12,10
+Image[N]=./images/tesla-model-s-midnightsilver_N.0.0,0,33
+Image[NE]=./images/tesla-model-s-midnightsilver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=TeslaModelS(DeepBlue)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=2016
+intro_month=10
+retire_year=2033
+retire_month=6
+speed=225
+class=3,4
+maximum_comfortable_journey_minutes=105
+maximum_tolerable_journey_minutes=340
+
+Image[E]=./images/tesla-model-s-deepblue_E.0.0,-33,14
+Image[SE]=./images/tesla-model-s-deepblue_SE.0.0,-13,0
+Image[S]=./images/tesla-model-s-deepblue_S.0.0,0,0
+Image[SW]=./images/tesla-model-s-deepblue_SW.0.0,-8,10
+Image[W]=./images/tesla-model-s-deepblue_W.0.0,4,5
+Image[NW]=./images/tesla-model-s-deepblue_NW.0.0,12,10
+Image[N]=./images/tesla-model-s-deepblue_N.0.0,0,33
+Image[NE]=./images/tesla-model-s-deepblue_NE.0.0,0,24

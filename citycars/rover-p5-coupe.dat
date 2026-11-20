@@ -1,0 +1,125 @@
+# Rover P5 3-Litre four-door coupe, 1962-1967.
+#
+# The P5 coupe: a four-door coupe, not a two-door. It kept the saloon's four
+# doors, width and length but had a roofline lowered by 2.5 in (6.4 cm) and
+# thinner B-pillars, giving a hardtop look. 5,482 Mk II coupes and 2,501 Mk III
+# coupes were built. The car of ministers and directors in coupe form.
+# https://en.wikipedia.org/wiki/Rover_P5
+#
+# Dimensions 4.737 x 1.778 x 1.473 m, wheelbase 2.807 m.
+#
+# Shape reference: image 1 is NOT level and is identified as a Mk III by the
+# PGH 659E registration, the March 1967 date and the 2,995 cc engine. Image 3
+# is a front view, not a rear three-quarter. The flank is estimated; the
+# limitation is recorded.
+#
+# Colours: no model-specific UK chart was established. Arden Green, Sierra
+# Beige, Mexico Brown and Black. Weights 9, 8, 7, 6, total 30, provisional.
+#
+# Speed 170 km/h. Comfort 80/300, on the line 180 + 1.5 x 80. Classes 3,4.
+# Dates are road presence: 1962 intro, retires staggered 1982-1985.
+#
+# The four-door coupe's roof is 76 mm lower than the saloon's: 1.473 m.
+#
+# Metres master: citycars/4.5/rover-p5-coupe.blend. Interchange:
+# citycars/4.5/rover-p5-coupe.dae. References:
+# citycars/references/rover-p5-coupe/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: image 1 is a tilted Mk III, not a scaling elevation, and
+# image 3 is a front view rather than a rear three-quarter, so the lowered roof
+# and tail are estimated. The roof corners are too angular, and the B-pillars are
+# not as thin as the coupe's. At 128 px the 76 mm-lower roofline and hardtop
+# glasshouse read as a P5 coupe.
+
+
+obj=citycar
+name=RoverP5Coupe(ArdenGreen)
+copyright=JamesPetts
+
+DistributionWeight=9
+intro_year=1962
+intro_month=10
+retire_year=1985
+retire_month=6
+speed=170
+class=3,4
+maximum_comfortable_journey_minutes=80
+maximum_tolerable_journey_minutes=300
+
+Image[E]=./images/rover-p5-coupe-ardengreen_E.0.0,-33,14
+Image[SE]=./images/rover-p5-coupe-ardengreen_SE.0.0,-13,0
+Image[S]=./images/rover-p5-coupe-ardengreen_S.0.0,0,0
+Image[SW]=./images/rover-p5-coupe-ardengreen_SW.0.0,-8,10
+Image[W]=./images/rover-p5-coupe-ardengreen_W.0.0,4,5
+Image[NW]=./images/rover-p5-coupe-ardengreen_NW.0.0,12,10
+Image[N]=./images/rover-p5-coupe-ardengreen_N.0.0,0,33
+Image[NE]=./images/rover-p5-coupe-ardengreen_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RoverP5Coupe(SierraBeige)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=1962
+intro_month=10
+retire_year=1984
+retire_month=6
+speed=170
+class=3,4
+maximum_comfortable_journey_minutes=80
+maximum_tolerable_journey_minutes=300
+
+Image[E]=./images/rover-p5-coupe-sierrabeige_E.0.0,-33,14
+Image[SE]=./images/rover-p5-coupe-sierrabeige_SE.0.0,-13,0
+Image[S]=./images/rover-p5-coupe-sierrabeige_S.0.0,0,0
+Image[SW]=./images/rover-p5-coupe-sierrabeige_SW.0.0,-8,10
+Image[W]=./images/rover-p5-coupe-sierrabeige_W.0.0,4,5
+Image[NW]=./images/rover-p5-coupe-sierrabeige_NW.0.0,12,10
+Image[N]=./images/rover-p5-coupe-sierrabeige_N.0.0,0,33
+Image[NE]=./images/rover-p5-coupe-sierrabeige_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RoverP5Coupe(MexicoBrown)
+copyright=JamesPetts
+
+DistributionWeight=7
+intro_year=1962
+intro_month=10
+retire_year=1983
+retire_month=6
+speed=170
+class=3,4
+maximum_comfortable_journey_minutes=80
+maximum_tolerable_journey_minutes=300
+
+Image[E]=./images/rover-p5-coupe-mexicobrown_E.0.0,-33,14
+Image[SE]=./images/rover-p5-coupe-mexicobrown_SE.0.0,-13,0
+Image[S]=./images/rover-p5-coupe-mexicobrown_S.0.0,0,0
+Image[SW]=./images/rover-p5-coupe-mexicobrown_SW.0.0,-8,10
+Image[W]=./images/rover-p5-coupe-mexicobrown_W.0.0,4,5
+Image[NW]=./images/rover-p5-coupe-mexicobrown_NW.0.0,12,10
+Image[N]=./images/rover-p5-coupe-mexicobrown_N.0.0,0,33
+Image[NE]=./images/rover-p5-coupe-mexicobrown_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RoverP5Coupe(Black)
+copyright=JamesPetts
+
+DistributionWeight=6
+intro_year=1962
+intro_month=10
+retire_year=1982
+retire_month=6
+speed=170
+class=3,4
+maximum_comfortable_journey_minutes=80
+maximum_tolerable_journey_minutes=300
+
+Image[E]=./images/rover-p5-coupe-black_E.0.0,-33,14
+Image[SE]=./images/rover-p5-coupe-black_SE.0.0,-13,0
+Image[S]=./images/rover-p5-coupe-black_S.0.0,0,0
+Image[SW]=./images/rover-p5-coupe-black_SW.0.0,-8,10
+Image[W]=./images/rover-p5-coupe-black_W.0.0,4,5
+Image[NW]=./images/rover-p5-coupe-black_NW.0.0,12,10
+Image[N]=./images/rover-p5-coupe-black_N.0.0,0,33
+Image[NE]=./images/rover-p5-coupe-black_NE.0.0,0,24

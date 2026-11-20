@@ -1,0 +1,120 @@
+# Ford Zephyr Mk III four-door saloon, 1962-1966.
+#
+# The Mk III Zephyr: the flat waist line, the thin roof and the two
+# headlamps in a split vertical-bar grille. The Zodiac Mk III of the same
+# range has four headlamps and a horizontal-bar grille.
+# https://en.wikipedia.org/wiki/Ford_Zephyr
+#
+# Dimensions 4.591 x 1.759 x 1.454 m, wheelbase 2.718 m.
+#
+# Shape reference: image 1 is a true level side elevation of a 1964 Zephyr 6
+# Mk III; the front and rear three-quarters show the grille, lamps and tail.
+#
+# Colours: grade (d) for a full model-specific list; grade (c) for
+# Ambassador Blue only, recorded on a surviving Zodiac Mk III. Ambassador
+# Blue, Ermine White, Goodwood Green and Monaco Red are used. Weights 18, 16,
+# 14, 12, total 60, provisional.
+#
+# Speed 150 km/h. Comfort 62/273, on the line 180 + 1.5 x 62. Classes 2,3.
+# Dates are road presence: 1962 intro, retires staggered 1982-1985.
+#
+# Metres master: citycars/4.5/ford-zephyr-mk3.blend. Interchange:
+# citycars/4.5/ford-zephyr-mk3.dae. References:
+# citycars/references/ford-zephyr-mk3/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the grille corners are too square, and the rear fins and
+# bumper wrap are simplified. At 128 px the flat waist, thin roof, two-lamp
+# vertical-bar grille and finned tail read as a Zephyr Mk III.
+
+
+obj=citycar
+name=FordZephyrMk3(AmbassadorBlue)
+copyright=JamesPetts
+
+DistributionWeight=18
+intro_year=1962
+intro_month=4
+retire_year=1985
+retire_month=6
+speed=150
+class=2,3
+maximum_comfortable_journey_minutes=62
+maximum_tolerable_journey_minutes=273
+
+Image[E]=./images/ford-zephyr-mk3-ambassadorblue_E.0.0,-33,14
+Image[SE]=./images/ford-zephyr-mk3-ambassadorblue_SE.0.0,-13,0
+Image[S]=./images/ford-zephyr-mk3-ambassadorblue_S.0.0,0,0
+Image[SW]=./images/ford-zephyr-mk3-ambassadorblue_SW.0.0,-8,10
+Image[W]=./images/ford-zephyr-mk3-ambassadorblue_W.0.0,4,5
+Image[NW]=./images/ford-zephyr-mk3-ambassadorblue_NW.0.0,12,10
+Image[N]=./images/ford-zephyr-mk3-ambassadorblue_N.0.0,0,33
+Image[NE]=./images/ford-zephyr-mk3-ambassadorblue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FordZephyrMk3(ErmineWhite)
+copyright=JamesPetts
+
+DistributionWeight=16
+intro_year=1962
+intro_month=4
+retire_year=1984
+retire_month=6
+speed=150
+class=2,3
+maximum_comfortable_journey_minutes=62
+maximum_tolerable_journey_minutes=273
+
+Image[E]=./images/ford-zephyr-mk3-erminewhite_E.0.0,-33,14
+Image[SE]=./images/ford-zephyr-mk3-erminewhite_SE.0.0,-13,0
+Image[S]=./images/ford-zephyr-mk3-erminewhite_S.0.0,0,0
+Image[SW]=./images/ford-zephyr-mk3-erminewhite_SW.0.0,-8,10
+Image[W]=./images/ford-zephyr-mk3-erminewhite_W.0.0,4,5
+Image[NW]=./images/ford-zephyr-mk3-erminewhite_NW.0.0,12,10
+Image[N]=./images/ford-zephyr-mk3-erminewhite_N.0.0,0,33
+Image[NE]=./images/ford-zephyr-mk3-erminewhite_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FordZephyrMk3(GoodwoodGreen)
+copyright=JamesPetts
+
+DistributionWeight=14
+intro_year=1962
+intro_month=4
+retire_year=1983
+retire_month=6
+speed=150
+class=2,3
+maximum_comfortable_journey_minutes=62
+maximum_tolerable_journey_minutes=273
+
+Image[E]=./images/ford-zephyr-mk3-goodwoodgreen_E.0.0,-33,14
+Image[SE]=./images/ford-zephyr-mk3-goodwoodgreen_SE.0.0,-13,0
+Image[S]=./images/ford-zephyr-mk3-goodwoodgreen_S.0.0,0,0
+Image[SW]=./images/ford-zephyr-mk3-goodwoodgreen_SW.0.0,-8,10
+Image[W]=./images/ford-zephyr-mk3-goodwoodgreen_W.0.0,4,5
+Image[NW]=./images/ford-zephyr-mk3-goodwoodgreen_NW.0.0,12,10
+Image[N]=./images/ford-zephyr-mk3-goodwoodgreen_N.0.0,0,33
+Image[NE]=./images/ford-zephyr-mk3-goodwoodgreen_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=FordZephyrMk3(MonacoRed)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=1962
+intro_month=4
+retire_year=1982
+retire_month=6
+speed=150
+class=2,3
+maximum_comfortable_journey_minutes=62
+maximum_tolerable_journey_minutes=273
+
+Image[E]=./images/ford-zephyr-mk3-monacored_E.0.0,-33,14
+Image[SE]=./images/ford-zephyr-mk3-monacored_SE.0.0,-13,0
+Image[S]=./images/ford-zephyr-mk3-monacored_S.0.0,0,0
+Image[SW]=./images/ford-zephyr-mk3-monacored_SW.0.0,-8,10
+Image[W]=./images/ford-zephyr-mk3-monacored_W.0.0,4,5
+Image[NW]=./images/ford-zephyr-mk3-monacored_NW.0.0,12,10
+Image[N]=./images/ford-zephyr-mk3-monacored_N.0.0,0,33
+Image[NE]=./images/ford-zephyr-mk3-monacored_NE.0.0,0,24

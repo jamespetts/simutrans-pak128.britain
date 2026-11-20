@@ -1,0 +1,125 @@
+# Nissan Micra K12 three-door hatchback, 2003-2010.
+#
+# The Sunderland-built K12: the rounded body with the large ovoid headlamps
+# that sit almost on top of the wings, the sharply kicked-up rear window line
+# and the rear glass ending above a painted lower hatch, which carries the
+# number plate just above the bumper. The 2003 launch car is
+# modelled; the 2005 and 2007 K12C facelifts are not represented.
+# https://en.wikipedia.org/wiki/Nissan_Micra
+#
+# Dimensions 3.719 x 1.680 x 1.540 m, wheelbase 2.430 m (Wikipedia infobox).
+#
+# Shape reference: image 1 is a true level side elevation of a five-door car,
+# used for the shell because no three-door side view exists; images 2 and 3
+# are the UK three-door launch car and govern the front, the rear and the
+# glasshouse. The two bodies share the front end, floorpan and wheelbase.
+#
+# Colours: grade (d); no UK colour list was found, although the July 2009
+# Nissan GB price list records ten colours without naming them. White, Red,
+# Blue and Silver are plain names. Weights 12, 10, 9, 8, total 39, provisional.
+#
+# Speed 160 km/h. Comfort 60/270, on the line 180 + 1.5 x 60. Classes 1,2.
+# Dates: intro 15 January 2003, the UK launch date; retire 2010, when
+# Sunderland built its last K12 in July and the K13 replaced it.
+#
+# Metres master: citycars/4.5/nissan-micra-k12.blend. Interchange:
+# citycars/4.5/nissan-micra-k12.dae. References:
+# citycars/references/nissan-micra-k12/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the rear glass ends above a painted lower hatch and the
+# plate sits on that hatch just above the bumper, as the photographs show; the
+# 2005 and 2007 K12C facelifts are not represented. The bumper corners, the
+# glass-to-hatch join and the lamp internals are simplified.
+
+
+obj=citycar
+name=NissanMicraK12(White)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=2003
+intro_month=1
+retire_year=2023
+retire_month=6
+speed=160
+class=1,2
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=270
+
+Image[E]=./images/nissan-micra-k12-white_E.0.0,-33,14
+Image[SE]=./images/nissan-micra-k12-white_SE.0.0,-13,0
+Image[S]=./images/nissan-micra-k12-white_S.0.0,0,0
+Image[SW]=./images/nissan-micra-k12-white_SW.0.0,-8,10
+Image[W]=./images/nissan-micra-k12-white_W.0.0,4,5
+Image[NW]=./images/nissan-micra-k12-white_NW.0.0,12,10
+Image[N]=./images/nissan-micra-k12-white_N.0.0,0,33
+Image[NE]=./images/nissan-micra-k12-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=NissanMicraK12(Red)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=2003
+intro_month=1
+retire_year=2022
+retire_month=6
+speed=160
+class=1,2
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=270
+
+Image[E]=./images/nissan-micra-k12-red_E.0.0,-33,14
+Image[SE]=./images/nissan-micra-k12-red_SE.0.0,-13,0
+Image[S]=./images/nissan-micra-k12-red_S.0.0,0,0
+Image[SW]=./images/nissan-micra-k12-red_SW.0.0,-8,10
+Image[W]=./images/nissan-micra-k12-red_W.0.0,4,5
+Image[NW]=./images/nissan-micra-k12-red_NW.0.0,12,10
+Image[N]=./images/nissan-micra-k12-red_N.0.0,0,33
+Image[NE]=./images/nissan-micra-k12-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=NissanMicraK12(Blue)
+copyright=JamesPetts
+
+DistributionWeight=9
+intro_year=2003
+intro_month=1
+retire_year=2021
+retire_month=6
+speed=160
+class=1,2
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=270
+
+Image[E]=./images/nissan-micra-k12-blue_E.0.0,-33,14
+Image[SE]=./images/nissan-micra-k12-blue_SE.0.0,-13,0
+Image[S]=./images/nissan-micra-k12-blue_S.0.0,0,0
+Image[SW]=./images/nissan-micra-k12-blue_SW.0.0,-8,10
+Image[W]=./images/nissan-micra-k12-blue_W.0.0,4,5
+Image[NW]=./images/nissan-micra-k12-blue_NW.0.0,12,10
+Image[N]=./images/nissan-micra-k12-blue_N.0.0,0,33
+Image[NE]=./images/nissan-micra-k12-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=NissanMicraK12(Silver)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=2003
+intro_month=1
+retire_year=2020
+retire_month=6
+speed=160
+class=1,2
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=270
+
+Image[E]=./images/nissan-micra-k12-silver_E.0.0,-33,14
+Image[SE]=./images/nissan-micra-k12-silver_SE.0.0,-13,0
+Image[S]=./images/nissan-micra-k12-silver_S.0.0,0,0
+Image[SW]=./images/nissan-micra-k12-silver_SW.0.0,-8,10
+Image[W]=./images/nissan-micra-k12-silver_W.0.0,4,5
+Image[NW]=./images/nissan-micra-k12-silver_NW.0.0,12,10
+Image[N]=./images/nissan-micra-k12-silver_N.0.0,0,33
+Image[NE]=./images/nissan-micra-k12-silver_NE.0.0,0,24

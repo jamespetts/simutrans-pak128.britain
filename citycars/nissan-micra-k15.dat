@@ -1,0 +1,128 @@
+# Nissan Micra K15 five-door electric hatchback, 2025 onwards.
+#
+# The AmpR-platform electric Micra, built at Renault Douai: the rounded
+# five-door with the blanked nose, the slim lamp signature and the two-tone
+# roof options. Nissan GB opened the UK order bank on 1 September 2025 and
+# customer deliveries began in the first quarter of 2026. Five-door only.
+# https://en.wikipedia.org/wiki/Nissan_Micra
+#
+# Dimensions 3.974 x 1.830 x 1.499 m, wheelbase 2.541 m (Nissan GB pricing
+# release, 5 August 2025, dimensions table; the 2.020 m with-mirrors figure
+# is the one quoted in the press text).
+#
+# Shape reference: NO true level side elevation was obtainable. Image 1 is a
+# front three-quarter about 30-35 degrees off the side axis, so the flank is
+# estimated within the published dimensions and the limitation is recorded.
+#
+# Colours: grade (b), the Nissan GB launch release of 21 May 2025: Pure
+# White, Elegant Silver, Mystery Black, Noble Marine, Authentic Blue and
+# Rebel Red, in 14 two-tone combinations. Weights 12, 10, 9, 8, total 39,
+# provisional.
+#
+# Speed 150 km/h, an estimate for this car; no published UK top speed was
+# recorded in the research. Comfort 80/300, on the line 180 + 1.5 x 80.
+# Classes 0,1.
+# Dates: intro September 2025, when the UK order bank opened; retires
+# staggered 2045-2048.
+#
+# Metres master: citycars/4.5/nissan-micra-k15.blend. Interchange:
+# citycars/4.5/nissan-micra-k15.dae. References:
+# citycars/references/nissan-micra-k15/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: no orthographic flank reference exists, so the side
+# stations and the overhang split are estimates. A black two-tone roof is fixed
+# on this master. Body curvature, door sculpting and lamp internals are
+# simplified.
+
+
+obj=citycar
+name=NissanMicraK15(PureWhite)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=2025
+intro_month=9
+retire_year=2048
+retire_month=6
+speed=150
+class=0,1
+maximum_comfortable_journey_minutes=80
+maximum_tolerable_journey_minutes=300
+
+Image[E]=./images/nissan-micra-k15-purewhite_E.0.0,-33,14
+Image[SE]=./images/nissan-micra-k15-purewhite_SE.0.0,-13,0
+Image[S]=./images/nissan-micra-k15-purewhite_S.0.0,0,0
+Image[SW]=./images/nissan-micra-k15-purewhite_SW.0.0,-8,10
+Image[W]=./images/nissan-micra-k15-purewhite_W.0.0,4,5
+Image[NW]=./images/nissan-micra-k15-purewhite_NW.0.0,12,10
+Image[N]=./images/nissan-micra-k15-purewhite_N.0.0,0,33
+Image[NE]=./images/nissan-micra-k15-purewhite_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=NissanMicraK15(ElegantSilver)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=2025
+intro_month=9
+retire_year=2047
+retire_month=6
+speed=150
+class=0,1
+maximum_comfortable_journey_minutes=80
+maximum_tolerable_journey_minutes=300
+
+Image[E]=./images/nissan-micra-k15-elegantsilver_E.0.0,-33,14
+Image[SE]=./images/nissan-micra-k15-elegantsilver_SE.0.0,-13,0
+Image[S]=./images/nissan-micra-k15-elegantsilver_S.0.0,0,0
+Image[SW]=./images/nissan-micra-k15-elegantsilver_SW.0.0,-8,10
+Image[W]=./images/nissan-micra-k15-elegantsilver_W.0.0,4,5
+Image[NW]=./images/nissan-micra-k15-elegantsilver_NW.0.0,12,10
+Image[N]=./images/nissan-micra-k15-elegantsilver_N.0.0,0,33
+Image[NE]=./images/nissan-micra-k15-elegantsilver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=NissanMicraK15(MysteryBlack)
+copyright=JamesPetts
+
+DistributionWeight=9
+intro_year=2025
+intro_month=9
+retire_year=2046
+retire_month=6
+speed=150
+class=0,1
+maximum_comfortable_journey_minutes=80
+maximum_tolerable_journey_minutes=300
+
+Image[E]=./images/nissan-micra-k15-mysteryblack_E.0.0,-33,14
+Image[SE]=./images/nissan-micra-k15-mysteryblack_SE.0.0,-13,0
+Image[S]=./images/nissan-micra-k15-mysteryblack_S.0.0,0,0
+Image[SW]=./images/nissan-micra-k15-mysteryblack_SW.0.0,-8,10
+Image[W]=./images/nissan-micra-k15-mysteryblack_W.0.0,4,5
+Image[NW]=./images/nissan-micra-k15-mysteryblack_NW.0.0,12,10
+Image[N]=./images/nissan-micra-k15-mysteryblack_N.0.0,0,33
+Image[NE]=./images/nissan-micra-k15-mysteryblack_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=NissanMicraK15(AuthenticBlue)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=2025
+intro_month=9
+retire_year=2045
+retire_month=6
+speed=150
+class=0,1
+maximum_comfortable_journey_minutes=80
+maximum_tolerable_journey_minutes=300
+
+Image[E]=./images/nissan-micra-k15-authenticblue_E.0.0,-33,14
+Image[SE]=./images/nissan-micra-k15-authenticblue_SE.0.0,-13,0
+Image[S]=./images/nissan-micra-k15-authenticblue_S.0.0,0,0
+Image[SW]=./images/nissan-micra-k15-authenticblue_SW.0.0,-8,10
+Image[W]=./images/nissan-micra-k15-authenticblue_W.0.0,4,5
+Image[NW]=./images/nissan-micra-k15-authenticblue_NW.0.0,12,10
+Image[N]=./images/nissan-micra-k15-authenticblue_N.0.0,0,33
+Image[NE]=./images/nissan-micra-k15-authenticblue_NE.0.0,0,24

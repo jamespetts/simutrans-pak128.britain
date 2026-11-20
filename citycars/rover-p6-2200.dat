@@ -1,0 +1,121 @@
+# Rover P6 2200 four-door saloon, 1973-1977.
+#
+# The 2.2-litre four P6 introduced with the 1973 range: the same de Dion rear
+# end and base-unit body as the 2000, with the larger engine and the TC trim.
+# https://en.wikipedia.org/wiki/Rover_P6
+#
+# Dimensions 4.572 x 1.676 x 1.422 m, wheelbase 2.616 m (family figures).
+#
+# Shape reference: no true level side elevation exists. Image 1 is identified
+# as a TC by the Commons title and the wing trim; the front and rear views
+# show different variants. The flank is estimated; the limitation is recorded.
+#
+# Colours: no model-specific UK chart was established. Arden Green, Davos
+# White, Squadron Blue and Mexico Brown are documented Rover finishes of the
+# period. Weights 25, 22, 18, 15, total 80, provisional.
+#
+# Speed 165 km/h. Comfort 110/345, on the line 180 + 1.5 x 110, the same
+# P6 cabin as the 2000. Classes 2,3.
+# Dates are road presence: 1973 intro, retires staggered 1990-1993.
+#
+# Metres master: citycars/4.5/rover-p6-2200.blend. Interchange:
+# citycars/4.5/rover-p6-2200.dae. References:
+# citycars/references/rover-p6-2200/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: there is no true side elevation; image 1 is a TC at an
+# angle and the front and rear views show different variants. The flank is
+# estimated, and the build is a simplified adaptation of the existing P6 2000
+# master. At 128 px the P6 base-unit body and 2200 trim read as a P6 2200.
+
+
+obj=citycar
+name=RoverP62200(ArdenGreen)
+copyright=JamesPetts
+
+DistributionWeight=25
+intro_year=1973
+intro_month=10
+retire_year=1993
+retire_month=6
+speed=165
+class=2,3
+maximum_comfortable_journey_minutes=110
+maximum_tolerable_journey_minutes=345
+
+Image[E]=./images/rover-p6-2200-ardengreen_E.0.0,-33,14
+Image[SE]=./images/rover-p6-2200-ardengreen_SE.0.0,-13,0
+Image[S]=./images/rover-p6-2200-ardengreen_S.0.0,0,0
+Image[SW]=./images/rover-p6-2200-ardengreen_SW.0.0,-8,10
+Image[W]=./images/rover-p6-2200-ardengreen_W.0.0,4,5
+Image[NW]=./images/rover-p6-2200-ardengreen_NW.0.0,12,10
+Image[N]=./images/rover-p6-2200-ardengreen_N.0.0,0,33
+Image[NE]=./images/rover-p6-2200-ardengreen_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RoverP62200(DavosWhite)
+copyright=JamesPetts
+
+DistributionWeight=22
+intro_year=1973
+intro_month=10
+retire_year=1992
+retire_month=6
+speed=165
+class=2,3
+maximum_comfortable_journey_minutes=110
+maximum_tolerable_journey_minutes=345
+
+Image[E]=./images/rover-p6-2200-davoswhite_E.0.0,-33,14
+Image[SE]=./images/rover-p6-2200-davoswhite_SE.0.0,-13,0
+Image[S]=./images/rover-p6-2200-davoswhite_S.0.0,0,0
+Image[SW]=./images/rover-p6-2200-davoswhite_SW.0.0,-8,10
+Image[W]=./images/rover-p6-2200-davoswhite_W.0.0,4,5
+Image[NW]=./images/rover-p6-2200-davoswhite_NW.0.0,12,10
+Image[N]=./images/rover-p6-2200-davoswhite_N.0.0,0,33
+Image[NE]=./images/rover-p6-2200-davoswhite_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RoverP62200(SquadronBlue)
+copyright=JamesPetts
+
+DistributionWeight=18
+intro_year=1973
+intro_month=10
+retire_year=1991
+retire_month=6
+speed=165
+class=2,3
+maximum_comfortable_journey_minutes=110
+maximum_tolerable_journey_minutes=345
+
+Image[E]=./images/rover-p6-2200-squadronblue_E.0.0,-33,14
+Image[SE]=./images/rover-p6-2200-squadronblue_SE.0.0,-13,0
+Image[S]=./images/rover-p6-2200-squadronblue_S.0.0,0,0
+Image[SW]=./images/rover-p6-2200-squadronblue_SW.0.0,-8,10
+Image[W]=./images/rover-p6-2200-squadronblue_W.0.0,4,5
+Image[NW]=./images/rover-p6-2200-squadronblue_NW.0.0,12,10
+Image[N]=./images/rover-p6-2200-squadronblue_N.0.0,0,33
+Image[NE]=./images/rover-p6-2200-squadronblue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RoverP62200(MexicoBrown)
+copyright=JamesPetts
+
+DistributionWeight=15
+intro_year=1973
+intro_month=10
+retire_year=1990
+retire_month=6
+speed=165
+class=2,3
+maximum_comfortable_journey_minutes=110
+maximum_tolerable_journey_minutes=345
+
+Image[E]=./images/rover-p6-2200-mexicobrown_E.0.0,-33,14
+Image[SE]=./images/rover-p6-2200-mexicobrown_SE.0.0,-13,0
+Image[S]=./images/rover-p6-2200-mexicobrown_S.0.0,0,0
+Image[SW]=./images/rover-p6-2200-mexicobrown_SW.0.0,-8,10
+Image[W]=./images/rover-p6-2200-mexicobrown_W.0.0,4,5
+Image[NW]=./images/rover-p6-2200-mexicobrown_NW.0.0,12,10
+Image[N]=./images/rover-p6-2200-mexicobrown_N.0.0,0,33
+Image[NE]=./images/rover-p6-2200-mexicobrown_NE.0.0,0,24

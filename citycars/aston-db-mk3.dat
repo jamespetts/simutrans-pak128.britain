@@ -1,0 +1,131 @@
+# Aston Martin DB Mk III fixed-head coupe, 1957-1959.
+#
+# The final development of the DB2/4 line: the 2+2 fixed-head coupe with the
+# hatchback tailgate, the tall mesh grille, the projecting bonnet scoop and the
+# side vent behind the front wheel. 551 built before the DB4 replaced it. The
+# drophead and the two-seat coupe are not modelled.
+# https://en.wikipedia.org/wiki/Aston_Martin_DB_Mark_III
+#
+# Dimensions 4.369 x 1.651 x 1.359 m, wheelbase 2.515 m (172 x 65 x 53.5 in,
+# 99 in). The hull measures 4.369 m on the 2.515 m wheelbase.
+#
+# Shape reference: one black 1958 car, plate VD 40052, photographed at Morges in
+# 2013. Image 1 is a true level side elevation and governs the flank and roof
+# line; image 2 the mesh grille, lamps and bonnet scoop; image 3 the hatchback
+# tail, fins and vertical rear lamps. The grille is modelled as the fine mesh
+# with horizontal and vertical wires that image 2 shows, not as vertical bars.
+#
+# Colours: no British-market colour list was found (grade d); cars of this era
+# were finished to order, so the objects carry plain names: British Racing
+# Green, silver, black and red. Weights green 3, silver 3, black 2, red 2,
+# total 10, provisional pending the central rebase.
+#
+# Speed 235 km/h, the quoted maximum of the 3.0-litre six. Comfort 60/270, on the
+# line 180 + 1.5 x 60: the same open, low-roofed 2+2 as the DB5. Classes 3,4.
+#
+# Dates are road presence: 1957 intro, retires staggered 1975-1978 on an
+# eighteen- to twenty-one-year tail.
+#
+# Metres master: citycars/4.5/aston-db-mk3.blend. Interchange:
+# citycars/4.5/aston-db-mk3.dae (77 objects). References:
+# citycars/references/aston-db-mk3/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the side-window pillars lean more than the photographed
+# car's, and the hatch glazing edge stands slightly proud of the roofline in
+# profile. Uniform scaling of the side photograph by its overall length implies
+# a 2.73 m wheelbase and 1.41 m height against the published 2.515 m and
+# 1.359 m; the build keeps the published figures and attributes the difference
+# to close-camera perspective. At 128 px the long bonnet, fastback roof, mesh
+# grille, side vent and fins read as a DB Mk III.
+
+obj=citycar
+name=AstonDBMkIII(BritishRacingGreen)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1957
+intro_month=1
+retire_year=1978
+retire_month=6
+speed=235
+class=3,4
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=270
+
+Image[E]=./images/aston-db-mk3-britishracinggreen_E.0.0,-33,14
+Image[SE]=./images/aston-db-mk3-britishracinggreen_SE.0.0,-13,0
+Image[S]=./images/aston-db-mk3-britishracinggreen_S.0.0,0,0
+Image[SW]=./images/aston-db-mk3-britishracinggreen_SW.0.0,-8,10
+Image[W]=./images/aston-db-mk3-britishracinggreen_W.0.0,4,5
+Image[NW]=./images/aston-db-mk3-britishracinggreen_NW.0.0,12,10
+Image[N]=./images/aston-db-mk3-britishracinggreen_N.0.0,0,33
+Image[NE]=./images/aston-db-mk3-britishracinggreen_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=AstonDBMkIII(Silver)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1957
+intro_month=1
+retire_year=1977
+retire_month=6
+speed=235
+class=3,4
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=270
+
+Image[E]=./images/aston-db-mk3-silver_E.0.0,-33,14
+Image[SE]=./images/aston-db-mk3-silver_SE.0.0,-13,0
+Image[S]=./images/aston-db-mk3-silver_S.0.0,0,0
+Image[SW]=./images/aston-db-mk3-silver_SW.0.0,-8,10
+Image[W]=./images/aston-db-mk3-silver_W.0.0,4,5
+Image[NW]=./images/aston-db-mk3-silver_NW.0.0,12,10
+Image[N]=./images/aston-db-mk3-silver_N.0.0,0,33
+Image[NE]=./images/aston-db-mk3-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=AstonDBMkIII(Black)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1957
+intro_month=1
+retire_year=1977
+retire_month=6
+speed=235
+class=3,4
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=270
+
+Image[E]=./images/aston-db-mk3-black_E.0.0,-33,14
+Image[SE]=./images/aston-db-mk3-black_SE.0.0,-13,0
+Image[S]=./images/aston-db-mk3-black_S.0.0,0,0
+Image[SW]=./images/aston-db-mk3-black_SW.0.0,-8,10
+Image[W]=./images/aston-db-mk3-black_W.0.0,4,5
+Image[NW]=./images/aston-db-mk3-black_NW.0.0,12,10
+Image[N]=./images/aston-db-mk3-black_N.0.0,0,33
+Image[NE]=./images/aston-db-mk3-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=AstonDBMkIII(Red)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1957
+intro_month=1
+retire_year=1975
+retire_month=6
+speed=235
+class=3,4
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=270
+
+Image[E]=./images/aston-db-mk3-red_E.0.0,-33,14
+Image[SE]=./images/aston-db-mk3-red_SE.0.0,-13,0
+Image[S]=./images/aston-db-mk3-red_S.0.0,0,0
+Image[SW]=./images/aston-db-mk3-red_SW.0.0,-8,10
+Image[W]=./images/aston-db-mk3-red_W.0.0,4,5
+Image[NW]=./images/aston-db-mk3-red_NW.0.0,12,10
+Image[N]=./images/aston-db-mk3-red_N.0.0,0,33
+Image[NE]=./images/aston-db-mk3-red_NE.0.0,0,24

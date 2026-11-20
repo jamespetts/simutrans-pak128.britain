@@ -1,0 +1,122 @@
+# Wolseley Wasp four-door saloon, 1935-1936.
+#
+# The 1,069 cc Wasp: the small Wolseley of 1935-36, with the Wolseley grille
+# and the six-light body. The research corrected the order's date: the Wasp
+# is 1935-36, NOT 1955-56. 5,815 built.
+# https://en.wikipedia.org/wiki/Wolseley_Wasp
+#
+# Dimensions 3.500 x 1.460 x 1.57 m, wheelbase 2.300 m. The height is an
+# estimate; no published figure was established.
+#
+# Shape reference: NO true side profile exists. Image 1 is a front
+# three-quarter of the 1935 car, registration CEH 14; the flank is estimated
+# from it and the other views. The limitation is recorded.
+#
+# Colours: grade (d); no period chart was found. Black, grey, green and
+# maroon are plain names. Weights 4, 3, 3, 2, total 12, provisional.
+#
+# Speed 110 km/h. Comfort 45/250, on the line 180 + 1.5 x 45. Classes 2,3.
+# Dates are road presence: 1935 intro, retires staggered 1953-1956.
+#
+# Metres master: citycars/4.5/wolseley-wasp.blend. Interchange:
+# citycars/4.5/wolseley-wasp.dae. References:
+# citycars/references/wolseley-wasp/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: there is no true side or rear view, so the flank and rear
+# fittings are inferred; the model height of 1.57 m is an estimate. The roof sign
+# on the ex-police car is omitted, and the wing-to-running-board transitions are
+# simplified. At 128 px the small six-light body and Wolseley grille read as a
+# Wasp.
+
+
+obj=citycar
+name=WolseleyWasp(Black)
+copyright=JamesPetts
+
+DistributionWeight=4
+intro_year=1935
+intro_month=1
+retire_year=1956
+retire_month=6
+speed=110
+class=2,3
+maximum_comfortable_journey_minutes=45
+maximum_tolerable_journey_minutes=250
+
+Image[E]=./images/wolseley-wasp-black_E.0.0,-33,14
+Image[SE]=./images/wolseley-wasp-black_SE.0.0,-13,0
+Image[S]=./images/wolseley-wasp-black_S.0.0,0,0
+Image[SW]=./images/wolseley-wasp-black_SW.0.0,-8,10
+Image[W]=./images/wolseley-wasp-black_W.0.0,4,5
+Image[NW]=./images/wolseley-wasp-black_NW.0.0,12,10
+Image[N]=./images/wolseley-wasp-black_N.0.0,0,33
+Image[NE]=./images/wolseley-wasp-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=WolseleyWasp(Grey)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1935
+intro_month=1
+retire_year=1955
+retire_month=6
+speed=110
+class=2,3
+maximum_comfortable_journey_minutes=45
+maximum_tolerable_journey_minutes=250
+
+Image[E]=./images/wolseley-wasp-grey_E.0.0,-33,14
+Image[SE]=./images/wolseley-wasp-grey_SE.0.0,-13,0
+Image[S]=./images/wolseley-wasp-grey_S.0.0,0,0
+Image[SW]=./images/wolseley-wasp-grey_SW.0.0,-8,10
+Image[W]=./images/wolseley-wasp-grey_W.0.0,4,5
+Image[NW]=./images/wolseley-wasp-grey_NW.0.0,12,10
+Image[N]=./images/wolseley-wasp-grey_N.0.0,0,33
+Image[NE]=./images/wolseley-wasp-grey_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=WolseleyWasp(Green)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1935
+intro_month=1
+retire_year=1954
+retire_month=6
+speed=110
+class=2,3
+maximum_comfortable_journey_minutes=45
+maximum_tolerable_journey_minutes=250
+
+Image[E]=./images/wolseley-wasp-green_E.0.0,-33,14
+Image[SE]=./images/wolseley-wasp-green_SE.0.0,-13,0
+Image[S]=./images/wolseley-wasp-green_S.0.0,0,0
+Image[SW]=./images/wolseley-wasp-green_SW.0.0,-8,10
+Image[W]=./images/wolseley-wasp-green_W.0.0,4,5
+Image[NW]=./images/wolseley-wasp-green_NW.0.0,12,10
+Image[N]=./images/wolseley-wasp-green_N.0.0,0,33
+Image[NE]=./images/wolseley-wasp-green_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=WolseleyWasp(Maroon)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1935
+intro_month=1
+retire_year=1953
+retire_month=6
+speed=110
+class=2,3
+maximum_comfortable_journey_minutes=45
+maximum_tolerable_journey_minutes=250
+
+Image[E]=./images/wolseley-wasp-maroon_E.0.0,-33,14
+Image[SE]=./images/wolseley-wasp-maroon_SE.0.0,-13,0
+Image[S]=./images/wolseley-wasp-maroon_S.0.0,0,0
+Image[SW]=./images/wolseley-wasp-maroon_SW.0.0,-8,10
+Image[W]=./images/wolseley-wasp-maroon_W.0.0,4,5
+Image[NW]=./images/wolseley-wasp-maroon_NW.0.0,12,10
+Image[N]=./images/wolseley-wasp-maroon_N.0.0,0,33
+Image[NE]=./images/wolseley-wasp-maroon_NE.0.0,0,24

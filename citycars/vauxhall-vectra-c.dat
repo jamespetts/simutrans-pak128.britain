@@ -1,0 +1,121 @@
+# Vauxhall Vectra C saloon, 2002-2008.
+#
+# The last Vectra: the larger car on the Epsilon platform with the Signum
+# hatchback variant, sold from March 2002 and replaced by the Insignia in
+# 2008. The saloon is modelled; the hatchback, estate and Signum are not
+# separately represented.
+# https://en.wikipedia.org/wiki/Vauxhall_Vectra
+#
+# Dimensions 4.596 x 1.798 x 1.460 m, wheelbase 2.700 m.
+#
+# Shape reference: NO true level side elevation exists. Image 1 is a front
+# three-quarter about 25 degrees off, so the flank is estimated within the
+# published dimensions and the limitation is recorded.
+#
+# Colours: grade (d); no Vauxhall colour list was read. White, Red, Blue and
+# Silver are plain names. Weights 12, 10, 9, 8, total 39, provisional.
+#
+# Speed 200 km/h. Comfort 80/300, on the line 180 + 1.5 x 80. Classes 1,2.
+# Dates: intro March 2002; retires staggered 2014-2017 as a road tail.
+#
+# Metres master: citycars/4.5/vauxhall-vectra-c.blend. Interchange:
+# citycars/4.5/vauxhall-vectra-c.dae. References:
+# citycars/references/vauxhall-vectra-c/ (gitignored).
+#
+# Accepted deviations: the pre-facelift UK saloon is modelled. NO true level
+# side elevation was available, so the flank stations are estimated from
+# oblique photographs within the published dimensions. The facelift nose, the
+# rear wiper and the tow bar are not modelled.
+
+
+obj=citycar
+name=VauxhallVectraC(White)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=2002
+intro_month=3
+retire_year=2017
+retire_month=6
+speed=200
+class=1,2
+maximum_comfortable_journey_minutes=80
+maximum_tolerable_journey_minutes=300
+
+Image[E]=./images/vauxhall-vectra-c-white_E.0.0,-33,14
+Image[SE]=./images/vauxhall-vectra-c-white_SE.0.0,-13,0
+Image[S]=./images/vauxhall-vectra-c-white_S.0.0,0,0
+Image[SW]=./images/vauxhall-vectra-c-white_SW.0.0,-8,10
+Image[W]=./images/vauxhall-vectra-c-white_W.0.0,4,5
+Image[NW]=./images/vauxhall-vectra-c-white_NW.0.0,12,10
+Image[N]=./images/vauxhall-vectra-c-white_N.0.0,0,33
+Image[NE]=./images/vauxhall-vectra-c-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallVectraC(Red)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=2002
+intro_month=3
+retire_year=2016
+retire_month=6
+speed=200
+class=1,2
+maximum_comfortable_journey_minutes=80
+maximum_tolerable_journey_minutes=300
+
+Image[E]=./images/vauxhall-vectra-c-red_E.0.0,-33,14
+Image[SE]=./images/vauxhall-vectra-c-red_SE.0.0,-13,0
+Image[S]=./images/vauxhall-vectra-c-red_S.0.0,0,0
+Image[SW]=./images/vauxhall-vectra-c-red_SW.0.0,-8,10
+Image[W]=./images/vauxhall-vectra-c-red_W.0.0,4,5
+Image[NW]=./images/vauxhall-vectra-c-red_NW.0.0,12,10
+Image[N]=./images/vauxhall-vectra-c-red_N.0.0,0,33
+Image[NE]=./images/vauxhall-vectra-c-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallVectraC(Blue)
+copyright=JamesPetts
+
+DistributionWeight=9
+intro_year=2002
+intro_month=3
+retire_year=2015
+retire_month=6
+speed=200
+class=1,2
+maximum_comfortable_journey_minutes=80
+maximum_tolerable_journey_minutes=300
+
+Image[E]=./images/vauxhall-vectra-c-blue_E.0.0,-33,14
+Image[SE]=./images/vauxhall-vectra-c-blue_SE.0.0,-13,0
+Image[S]=./images/vauxhall-vectra-c-blue_S.0.0,0,0
+Image[SW]=./images/vauxhall-vectra-c-blue_SW.0.0,-8,10
+Image[W]=./images/vauxhall-vectra-c-blue_W.0.0,4,5
+Image[NW]=./images/vauxhall-vectra-c-blue_NW.0.0,12,10
+Image[N]=./images/vauxhall-vectra-c-blue_N.0.0,0,33
+Image[NE]=./images/vauxhall-vectra-c-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VauxhallVectraC(Silver)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=2002
+intro_month=3
+retire_year=2014
+retire_month=6
+speed=200
+class=1,2
+maximum_comfortable_journey_minutes=80
+maximum_tolerable_journey_minutes=300
+
+Image[E]=./images/vauxhall-vectra-c-silver_E.0.0,-33,14
+Image[SE]=./images/vauxhall-vectra-c-silver_SE.0.0,-13,0
+Image[S]=./images/vauxhall-vectra-c-silver_S.0.0,0,0
+Image[SW]=./images/vauxhall-vectra-c-silver_SW.0.0,-8,10
+Image[W]=./images/vauxhall-vectra-c-silver_W.0.0,4,5
+Image[NW]=./images/vauxhall-vectra-c-silver_NW.0.0,12,10
+Image[N]=./images/vauxhall-vectra-c-silver_N.0.0,0,33
+Image[NE]=./images/vauxhall-vectra-c-silver_NE.0.0,0,24

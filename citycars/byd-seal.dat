@@ -1,0 +1,123 @@
+# BYD Seal four-door electric saloon, 2023 onwards.
+#
+# The Seal: the low four-door saloon on the e-Platform 3.0 with the 82.5 kWh
+# Blade battery, the sloping fastback roof and the full-width tail lamp bar.
+# UK prices were confirmed on 1 September 2023.
+# https://en.wikipedia.org/wiki/BYD_Seal
+#
+# Dimensions 4.800 x 1.875 x 1.460 m, wheelbase 2.920 m (BYD UK media
+# specification table, 1 September 2023). The width over mirrors is 2.150 m.
+#
+# Shape reference: NO true level side elevation was obtainable. Image 1 is
+# about 20 degrees off the side axis at about 1.3 m, so the flank is estimated
+# within the published dimensions and the limitation is recorded.
+#
+# Colours: grade (b) for two names only. Shadow Green and Indigo Grey are
+# named by Autocar on 26 January 2024 as premium paints; White and Black are
+# plain names. Weights 12, 10, 9, 8, total 39, provisional.
+#
+# Speed 180 km/h. Comfort 90/315, on the line 180 + 1.5 x 90. Classes 2,3.
+# Dates: intro September 2023, when UK prices were confirmed; retires
+# staggered 2046-2049.
+#
+# Metres master: citycars/4.5/byd-seal.blend. Interchange:
+# citycars/4.5/byd-seal.dae. References:
+# citycars/references/byd-seal/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the flank is estimated from an oblique photograph. The
+# flush handles, running-light internals and diffuser vanes are simplified.
+# The proud panoramic glazing adds about 14 mm above the nominal painted roof
+# height.
+
+
+obj=citycar
+name=BYDSeal(White)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=2023
+intro_month=11
+retire_year=2049
+retire_month=6
+speed=180
+class=2,3
+maximum_comfortable_journey_minutes=90
+maximum_tolerable_journey_minutes=315
+
+Image[E]=./images/byd-seal-white_E.0.0,-33,14
+Image[SE]=./images/byd-seal-white_SE.0.0,-13,0
+Image[S]=./images/byd-seal-white_S.0.0,0,0
+Image[SW]=./images/byd-seal-white_SW.0.0,-8,10
+Image[W]=./images/byd-seal-white_W.0.0,4,5
+Image[NW]=./images/byd-seal-white_NW.0.0,12,10
+Image[N]=./images/byd-seal-white_N.0.0,0,33
+Image[NE]=./images/byd-seal-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BYDSeal(ShadowGreen)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=2023
+intro_month=11
+retire_year=2048
+retire_month=6
+speed=180
+class=2,3
+maximum_comfortable_journey_minutes=90
+maximum_tolerable_journey_minutes=315
+
+Image[E]=./images/byd-seal-shadowgreen_E.0.0,-33,14
+Image[SE]=./images/byd-seal-shadowgreen_SE.0.0,-13,0
+Image[S]=./images/byd-seal-shadowgreen_S.0.0,0,0
+Image[SW]=./images/byd-seal-shadowgreen_SW.0.0,-8,10
+Image[W]=./images/byd-seal-shadowgreen_W.0.0,4,5
+Image[NW]=./images/byd-seal-shadowgreen_NW.0.0,12,10
+Image[N]=./images/byd-seal-shadowgreen_N.0.0,0,33
+Image[NE]=./images/byd-seal-shadowgreen_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BYDSeal(IndigoGrey)
+copyright=JamesPetts
+
+DistributionWeight=9
+intro_year=2023
+intro_month=11
+retire_year=2047
+retire_month=6
+speed=180
+class=2,3
+maximum_comfortable_journey_minutes=90
+maximum_tolerable_journey_minutes=315
+
+Image[E]=./images/byd-seal-indigogrey_E.0.0,-33,14
+Image[SE]=./images/byd-seal-indigogrey_SE.0.0,-13,0
+Image[S]=./images/byd-seal-indigogrey_S.0.0,0,0
+Image[SW]=./images/byd-seal-indigogrey_SW.0.0,-8,10
+Image[W]=./images/byd-seal-indigogrey_W.0.0,4,5
+Image[NW]=./images/byd-seal-indigogrey_NW.0.0,12,10
+Image[N]=./images/byd-seal-indigogrey_N.0.0,0,33
+Image[NE]=./images/byd-seal-indigogrey_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=BYDSeal(Black)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=2023
+intro_month=11
+retire_year=2046
+retire_month=6
+speed=180
+class=2,3
+maximum_comfortable_journey_minutes=90
+maximum_tolerable_journey_minutes=315
+
+Image[E]=./images/byd-seal-black_E.0.0,-33,14
+Image[SE]=./images/byd-seal-black_SE.0.0,-13,0
+Image[S]=./images/byd-seal-black_S.0.0,0,0
+Image[SW]=./images/byd-seal-black_SW.0.0,-8,10
+Image[W]=./images/byd-seal-black_W.0.0,4,5
+Image[NW]=./images/byd-seal-black_NW.0.0,12,10
+Image[N]=./images/byd-seal-black_N.0.0,0,33
+Image[NE]=./images/byd-seal-black_NE.0.0,0,24

@@ -1,0 +1,122 @@
+# Hillman Minx Arrow four-door saloon, 1967-1970.
+#
+# The last Minx: the Rootes Arrow body with the single round headlamps, the
+# Minx script and the upright three-box saloon shape. The Hillman Hunter
+# and the other Arrow derivatives are different models.
+# https://en.wikipedia.org/wiki/Hillman_Minx
+#
+# Dimensions: overall figures were not established. The model measures 4.275 x
+# 1.565 x 1.447 m on the published 2.489 m wheelbase; the overall figures are
+# ESTIMATED and are not specifications.
+#
+# Shape reference: image 1 is a near-orthogonal rear-side view with all
+# wheels visible, registration TPK 440E, March 1968. The other images show
+# the front and detail.
+#
+# Colours: grade (d); no period chart was found. Black, white, red and blue
+# are plain names. Weights 12, 10, 10, 8, total 40, provisional.
+#
+# Speed 140 km/h. Comfort 60/270, on the line 180 + 1.5 x 60. Classes 1,2.
+# Dates are road presence: 1967 intro, retires staggered 1985-1988.
+#
+# Metres master: citycars/4.5/hillman-minx-arrow.blend. Interchange:
+# citycars/4.5/hillman-minx-arrow.dae. References:
+# citycars/references/hillman-minx-arrow/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: image 1 is a near-orthogonal rear-side view, not a
+# level profile. The grille corners and rear lamp housings are simplified. The
+# quad-lamp GT is not represented; the single-lamp Minx is modelled. At 128 px
+# the Arrow three-box body and single round lamps read as a Minx Arrow.
+
+
+obj=citycar
+name=HillmanMinxArrow(Black)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=1967
+intro_month=1
+retire_year=1988
+retire_month=6
+speed=140
+class=1,2
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=270
+
+Image[E]=./images/hillman-minx-arrow-black_E.0.0,-33,14
+Image[SE]=./images/hillman-minx-arrow-black_SE.0.0,-13,0
+Image[S]=./images/hillman-minx-arrow-black_S.0.0,0,0
+Image[SW]=./images/hillman-minx-arrow-black_SW.0.0,-8,10
+Image[W]=./images/hillman-minx-arrow-black_W.0.0,4,5
+Image[NW]=./images/hillman-minx-arrow-black_NW.0.0,12,10
+Image[N]=./images/hillman-minx-arrow-black_N.0.0,0,33
+Image[NE]=./images/hillman-minx-arrow-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=HillmanMinxArrow(White)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=1967
+intro_month=1
+retire_year=1987
+retire_month=6
+speed=140
+class=1,2
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=270
+
+Image[E]=./images/hillman-minx-arrow-white_E.0.0,-33,14
+Image[SE]=./images/hillman-minx-arrow-white_SE.0.0,-13,0
+Image[S]=./images/hillman-minx-arrow-white_S.0.0,0,0
+Image[SW]=./images/hillman-minx-arrow-white_SW.0.0,-8,10
+Image[W]=./images/hillman-minx-arrow-white_W.0.0,4,5
+Image[NW]=./images/hillman-minx-arrow-white_NW.0.0,12,10
+Image[N]=./images/hillman-minx-arrow-white_N.0.0,0,33
+Image[NE]=./images/hillman-minx-arrow-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=HillmanMinxArrow(Red)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=1967
+intro_month=1
+retire_year=1986
+retire_month=6
+speed=140
+class=1,2
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=270
+
+Image[E]=./images/hillman-minx-arrow-red_E.0.0,-33,14
+Image[SE]=./images/hillman-minx-arrow-red_SE.0.0,-13,0
+Image[S]=./images/hillman-minx-arrow-red_S.0.0,0,0
+Image[SW]=./images/hillman-minx-arrow-red_SW.0.0,-8,10
+Image[W]=./images/hillman-minx-arrow-red_W.0.0,4,5
+Image[NW]=./images/hillman-minx-arrow-red_NW.0.0,12,10
+Image[N]=./images/hillman-minx-arrow-red_N.0.0,0,33
+Image[NE]=./images/hillman-minx-arrow-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=HillmanMinxArrow(Blue)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=1967
+intro_month=1
+retire_year=1985
+retire_month=6
+speed=140
+class=1,2
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=270
+
+Image[E]=./images/hillman-minx-arrow-blue_E.0.0,-33,14
+Image[SE]=./images/hillman-minx-arrow-blue_SE.0.0,-13,0
+Image[S]=./images/hillman-minx-arrow-blue_S.0.0,0,0
+Image[SW]=./images/hillman-minx-arrow-blue_SW.0.0,-8,10
+Image[W]=./images/hillman-minx-arrow-blue_W.0.0,4,5
+Image[NW]=./images/hillman-minx-arrow-blue_NW.0.0,12,10
+Image[N]=./images/hillman-minx-arrow-blue_N.0.0,0,33
+Image[NE]=./images/hillman-minx-arrow-blue_NE.0.0,0,24
