@@ -9,6 +9,11 @@ the per-model `class=` assignments, and the era coverage check. Field spec:
 [citycar](citycar.md). Gaps and the assets needed to fill them:
 [citycar-asset-gaps](citycar-asset-gaps.md). Parent: [object-types](../object-types.md).
 
+**Private cars carry no cost fields.** An `Obj=citycar` object expresses wealth through `class=`
+alone; `cost`, `runningcost` and `fixed_cost` are not used, and none of the 435 citycar `.dat`
+files sets `runningcost`. Do not add costs to private cars as a balancing device: set the class
+list. `[USER-DIRECTION:2026-11-20]`
+
 ## The wealth ladder (era-relative ranks)
 
 `[USER-DIRECTION:2026-11-15]` The five classes (0 lowest … 4 highest) are era-relative
