@@ -1,6 +1,6 @@
 ---
 status: stub
-verified: New ex-15 @ 0ba8d7fc6
+verified: New ex-15 @ 0ba8d7fc6 (working tree, 2026-11-21)
 ---
 # Translations and text
 
@@ -46,6 +46,18 @@ names.
   extra line. The 2026-11-20 citycar check found 35 duplicate lines that had mis-paired 820
   consecutive entries; all were removed. Verify that the number of content lines is even and
   that no citycar key is followed by another citycar name.
+- **Citycar display names use the public marketing name, not the internal generation code.**
+  The 2017 additions established the pattern: `FordGalaxyMk1`/`Mk3` → `Ford Galaxy`,
+  `FordMondeoMk1`/`Mk4` → `Ford Mondeo`, `NissanQashqai` → `Nissan Qashqai`. The 2026-11-21
+  pass applied it to the whole fleet: `AudiA8D3` → `Audi A8`, `BMW5E39` → `BMW 5 Series`,
+  `MercedesSClassW222` → `Mercedes-Benz S-Class`, `RangeRoverL405` → `Range Rover`,
+  `Rover200R8` → `Rover 200`. The internal `name=` still distinguishes the generation; the
+  display name does not. Every colourway of a model carries the same display name.
+  `[USER-DIRECTION:2026-11-21]` `[EXECUTION-VERIFIED:2026-11-21]`
+- All 1,767 citycar keys now sit in the `City cars` section, in `citycars-models.csv` order,
+  rather than being scattered through later sections. The section also holds the two non-citycar
+  road entries that historically lived there (`LondonTaxi-Lanchester`, `Volvo-V70-Police`).
+  `[EXECUTION-VERIFIED:2026-11-21]`
 - Editing `New/text/en.tab` (or `config/`, `sound/`) does NOT reach the game by itself: the
   build's `copy` target (`New/Makefile`, `cp -p text/*.* $(PAKDIR)/text`) copies these into
   the pakset directory only when `make` runs. After editing any `text/`, `config/`, or
