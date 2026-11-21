@@ -1,6 +1,6 @@
 ---
 status: draft
-verified: New ex-15 @ 0a4be8077 (working tree)
+verified: New ex-15 @ 2b3ae85bf (working tree, 2026-11-21)
 ---
 # Pakset roadmap
 
@@ -41,18 +41,15 @@ for new engine features.
   the infrastructure synthesis. **Do not change `.dat` cost values until the conversion question
   in [balance-synthesis](balance-synthesis.md) is settled**, because it scales every value in both
   programmes by two orders of magnitude. `[USER-DIRECTION:2026-11-16]`
-- Add the missing citycar assets in the order set out in the Build order section of
-  [objects/citycar-asset-gaps](objects/citycar-asset-gaps.md#build-order) — the comprehensive
-  gap register and sequenced queue (P1: Very-high luxury cars for 1922–1947 and 1989–2025;
-  P2: entry cars including the motorcycle and sidecar; P3: Cavalier/Astra/Golf/Beetle; P4–P5:
-  luxury richness and texture). Produce them by the divided workflow in
-  [graphics/car-batch-production](graphics/car-batch-production.md): orchestrator research,
-  frontier-model geometry, orchestrator `.dat` and compile. Photograph-first per
-  [graphics/visual-asset-controls](graphics/visual-asset-controls.md).
-  `[USER-DIRECTION:2026-11-15]` A second tranche added 2026-11-16 covers the BMW, Datsun/Nissan,
-  Toyota, Renault, Citroën and Aston Martin generation families, the Metro/Rover/Jaguar British
-  block, and a pre-1920 audit; the generations are listed in section G of the same doc and the
-  sequence in the second tranche of its build order. `[USER-DIRECTION:2026-11-16]`
+- **Citycar build programme: complete.** The 2026-11-15/16 register ran to order 51 and closed on
+  2026-11-20 at 436 models / 1,767 objects: 425 cars, 7 outfits and 4 horse-drawn vehicles. All
+  named P1, P2 and P3 gaps are closed; the pre-1920 audit is closed; the outfits are built. The
+  current coverage audit and the remaining segment, marque, body-style and luxury-richness gaps
+  are in [objects/citycar-asset-gaps](objects/citycar-asset-gaps.md). Produce any new car by the
+  divided workflow in [graphics/car-batch-production](graphics/car-batch-production.md):
+  orchestrator research, frontier-model geometry, orchestrator `.dat` and compile.
+  Photograph-first per [graphics/visual-asset-controls](graphics/visual-asset-controls.md).
+  `[USER-DIRECTION:2026-11-15]` `[EXECUTION-VERIFIED:2026-11-21]`
 - Re-do citycar geometry that was built from text descriptions (dimension tables) using
   direct photographic reference, per the hard rule and
   [graphics/visual-asset-controls](graphics/visual-asset-controls.md): Ford Fiesta Mk1–Mk7,
@@ -63,9 +60,10 @@ for new engine features.
 - Rebase all private-car `DistributionWeight` values to the anchor principle (most popular car
   on the road at a given time = 100, assuming 5 colourways; inverse scaling for fewer
   colourways), using the parc research in
-  [objects/citycar-parc-anchors](objects/citycar-parc-anchors.md), and decide whether to add
-  the missing anchor models the research identified (Ford Fiesta, BMC 1100/1300, possibly a
-  Morris Cowley). `[USER-DIRECTION:2026-11-15]`
+  [objects/citycar-parc-anchors](objects/citycar-parc-anchors.md). The anchor models the research
+  identified are now present: Ford Fiesta Mk1–Mk7, BMC 1100/1300, the Vauxhall Cavalier and
+  Astra, VW Beetle and VW Golf. The Morris Cowley is represented by the Oxford twins, pending
+  ratification. `[USER-DIRECTION:2026-11-15]` `[EXECUTION-VERIFIED:2026-11-21]`
 - Convert all remaining graphics from the old special-colour background to anti-aliased alpha
   transparency. Many graphics still use the old system, and the aim is to convert all of them. See
   [image-layout](graphics/image-layout.md) and [blender-rendering](graphics/blender-rendering.md).

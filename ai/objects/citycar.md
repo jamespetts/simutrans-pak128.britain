@@ -7,8 +7,8 @@ verified: none
 **Covers**: `Obj=citycar` objects in `New/citycars/` — the private cars that appear on
 Simutrans-Extended city roads. Parent: [object-types](../object-types.md). Pipeline:
 [photo-to-pak-pipeline](../graphics/photo-to-pak-pipeline.md). Child docs: the wealth-class
-calibration ([citycar-wealth-classes](citycar-wealth-classes.md)), the missing-asset work
-register and build order ([citycar-asset-gaps](citycar-asset-gaps.md)), the parc-anchor research
+calibration ([citycar-wealth-classes](citycar-wealth-classes.md)), the current coverage audit
+and remaining gaps ([citycar-asset-gaps](citycar-asset-gaps.md)), the parc-anchor research
 ([citycar-parc-anchors](citycar-parc-anchors.md)), and the batch production method for adding
 them ([car-batch-production](../graphics/car-batch-production.md)).
 

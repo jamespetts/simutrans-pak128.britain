@@ -1,6 +1,6 @@
 ---
 status: draft
-verified: New ex-15 @ 66e9c2dfd
+verified: New ex-15 @ 2b3ae85bf (working tree, 2026-11-21)
 ---
 # Private-car popularity anchors (parc research)
 
@@ -81,11 +81,12 @@ the Evidence column and listed with full references at the end.
    `morris-oxford-flatnose.dat`. User ratification outstanding (open question below).
 4. **1950 is unresolvable** from published sources; its likely candidates are all present, so
    the anchor for that era has to be fixed by mutual scaling instead.
-5. Absent but relevant to surrounding traffic density (never an anchor row): done — Vauxhall
-   Corsa family (2026-11-15, `VauxhallNova`/`VauxhallCorsaB`–`F`), Ford Anglia (2026-11-15,
-   `FordAnglia100E`/`FordAnglia105E`; the earlier E04A/E494A Anglias are represented by
-   `FordPrefectEarly`, same body family), and Ford Escort Mk2 (2026-11-15, `FordEscort-mk2`).
-   Remaining: Vauxhall Cavalier, Vauxhall Astra, VW Beetle, VW Golf.
+5. Absent but relevant to surrounding traffic density (never an anchor row): **closed**. The
+   Vauxhall Corsa family (`VauxhallNova`/`VauxhallCorsaB`–`F`), Ford Anglia
+   (`FordAnglia100E`/`FordAnglia105E`; the earlier E04A/E494A Anglias are represented by
+   `FordPrefectEarly`), Ford Escort Mk2, Vauxhall Cavalier Mk1–Mk3, Vauxhall Astra Mk1–Mk8,
+   VW Beetle and VW Golf Mk1–Mk8 are all in the tree. No density anchor remains unbuilt.
+   `[CODE New ex-15 @ 2b3ae85bf]`
 
 ## Sources
 

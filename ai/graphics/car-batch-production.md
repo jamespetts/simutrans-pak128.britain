@@ -10,8 +10,8 @@ build brief, the files handed back, and how the acceptance gates are kept. Paren
 [graphics-pipelines](../graphics-pipelines.md). Mandatory controls:
 [visual-asset-controls](visual-asset-controls.md). Stage detail:
 [photo-to-pak-pipeline](photo-to-pak-pipeline.md) and [ai-pipeline](ai-pipeline.md).
-Private-car fields and conventions: [citycar](../objects/citycar.md). Ordered list of cars to
-build: [citycar-asset-gaps](../objects/citycar-asset-gaps.md#build-order).
+Private-car fields and conventions: [citycar](../objects/citycar.md). Current car coverage and
+the remaining gaps: [citycar-asset-gaps](../objects/citycar-asset-gaps.md).
 
 Status: draft, created 2026-11-15 at the user's direction for the private-car backlog.
 `[USER-DIRECTION:2026-11-15]`
