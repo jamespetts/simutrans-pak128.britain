@@ -14,7 +14,7 @@
 # Alpine White, Jet Black, Glacier Silver and Deep Sea Blue. Weights 20, 18,
 # 17, 15, total 70, provisional.
 #
-# Speed 220 km/h. Comfort 80/300, on the line 180 + 1.5 x 80. Classes 2,3.
+# Speed 220 km/h. Comfort 80/450, on the line 330 + 1.5 x 80. Classes 1,2.
 # Dates are road presence: 2011 intro, retires staggered 2034-2037.
 #
 # Metres master: citycars/4.5/bmw-1-series-f20.blend. Interchange:
@@ -36,9 +36,9 @@ intro_month=9
 retire_year=2037
 retire_month=6
 speed=220
-class=2,3
+class=1,2
 maximum_comfortable_journey_minutes=80
-maximum_tolerable_journey_minutes=300
+maximum_tolerable_journey_minutes=450
 
 Image[E]=./images/bmw-1-series-f20-alpinewhite_E.0.0,-33,14
 Image[SE]=./images/bmw-1-series-f20-alpinewhite_SE.0.0,-13,0
@@ -59,9 +59,9 @@ intro_month=9
 retire_year=2036
 retire_month=6
 speed=220
-class=2,3
+class=1,2
 maximum_comfortable_journey_minutes=80
-maximum_tolerable_journey_minutes=300
+maximum_tolerable_journey_minutes=450
 
 Image[E]=./images/bmw-1-series-f20-jetblack_E.0.0,-33,14
 Image[SE]=./images/bmw-1-series-f20-jetblack_SE.0.0,-13,0
@@ -82,9 +82,9 @@ intro_month=9
 retire_year=2035
 retire_month=6
 speed=220
-class=2,3
+class=1,2
 maximum_comfortable_journey_minutes=80
-maximum_tolerable_journey_minutes=300
+maximum_tolerable_journey_minutes=450
 
 Image[E]=./images/bmw-1-series-f20-glaciersilver_E.0.0,-33,14
 Image[SE]=./images/bmw-1-series-f20-glaciersilver_SE.0.0,-13,0
@@ -105,9 +105,9 @@ intro_month=9
 retire_year=2034
 retire_month=6
 speed=220
-class=2,3
+class=1,2
 maximum_comfortable_journey_minutes=80
-maximum_tolerable_journey_minutes=300
+maximum_tolerable_journey_minutes=450
 
 Image[E]=./images/bmw-1-series-f20-deepseablue_E.0.0,-33,14
 Image[SE]=./images/bmw-1-series-f20-deepseablue_SE.0.0,-13,0

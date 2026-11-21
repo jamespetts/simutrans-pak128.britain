@@ -23,8 +23,8 @@
 #
 # Speed 195 km/h for the 3.0 V8, a step below the car's quoted maximum because
 # the Stag's gearing and the period tyres did not encourage sustained running.
-# Comfort 100/330, on the line 180 + 1.5 x 100: a soft, well-trimmed GT, a step
-# above the Spitfire. Classes 3,4.
+# Comfort 100/480, on the line 330 + 1.5 x 100: a soft, well-trimmed GT, a step
+# above the Spitfire. Classes 1,2,3.
 #
 # Dates are road presence: June 1970 intro, retires staggered 1990-1993 on a
 # thirteen- to twenty-three-year tail.
@@ -47,9 +47,9 @@ intro_month=6
 retire_year=1993
 retire_month=6
 speed=195
-class=3,4
+class=1,2,3
 maximum_comfortable_journey_minutes=100
-maximum_tolerable_journey_minutes=330
+maximum_tolerable_journey_minutes=480
 
 Image[E]=./images/triumph-stag-damson_E.0.0,-33,14
 Image[SE]=./images/triumph-stag-damson_SE.0.0,-13,0
@@ -70,9 +70,9 @@ intro_month=6
 retire_year=1992
 retire_month=6
 speed=195
-class=3,4
+class=1,2,3
 maximum_comfortable_journey_minutes=100
-maximum_tolerable_journey_minutes=330
+maximum_tolerable_journey_minutes=480
 
 Image[E]=./images/triumph-stag-white_E.0.0,-33,14
 Image[SE]=./images/triumph-stag-white_SE.0.0,-13,0
@@ -93,9 +93,9 @@ intro_month=6
 retire_year=1991
 retire_month=6
 speed=195
-class=3,4
+class=1,2,3
 maximum_comfortable_journey_minutes=100
-maximum_tolerable_journey_minutes=330
+maximum_tolerable_journey_minutes=480
 
 Image[E]=./images/triumph-stag-saffron_E.0.0,-33,14
 Image[SE]=./images/triumph-stag-saffron_SE.0.0,-13,0
@@ -116,9 +116,9 @@ intro_month=9
 retire_year=1990
 retire_month=6
 speed=195
-class=3,4
+class=1,2,3
 maximum_comfortable_journey_minutes=100
-maximum_tolerable_journey_minutes=330
+maximum_tolerable_journey_minutes=480
 
 Image[E]=./images/triumph-stag-sapphire_E.0.0,-33,14
 Image[SE]=./images/triumph-stag-sapphire_SE.0.0,-13,0

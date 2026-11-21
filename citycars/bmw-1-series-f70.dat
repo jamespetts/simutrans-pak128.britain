@@ -1,3 +1,4 @@
+# Retire policy 2026-11-20: still in production in 2026 with no announced end; retire dates commented out. Revisit when an end is announced.
 # BMW 1-series F70 five-door hatchback, 2024 onwards.
 #
 # The fourth 1-series: the front-wheel-drive UKL2 car with the revised nose,
@@ -14,8 +15,8 @@
 # Sapphire, Skyscraper Grey and M Portimao Blue. Weights 9, 8, 7, 6, total
 # 30, provisional.
 #
-# Speed 225 km/h. Comfort 88/312, on the line 180 + 1.5 x 88. Classes 2,3.
-# Dates are road presence: 2024 intro, retires staggered 2046-2049.
+# Speed 225 km/h. Comfort 88/462, on the line 330 + 1.5 x 88. Classes 1,2.
+# Dates are road presence: 2024 intro, retire dates commented out (still in production in 2026).
 #
 # Metres master: citycars/4.5/bmw-1-series-f70.blend. Interchange:
 # citycars/4.5/bmw-1-series-f70.dae. References:
@@ -33,12 +34,12 @@ copyright=JamesPetts
 DistributionWeight=9
 intro_year=2024
 intro_month=10
-retire_year=2049
-retire_month=6
+#retire_year=2049
+#retire_month=6
 speed=225
-class=2,3
+class=1,2
 maximum_comfortable_journey_minutes=88
-maximum_tolerable_journey_minutes=312
+maximum_tolerable_journey_minutes=462
 
 Image[E]=./images/bmw-1-series-f70-alpinewhite_E.0.0,-33,14
 Image[SE]=./images/bmw-1-series-f70-alpinewhite_SE.0.0,-13,0
@@ -56,12 +57,12 @@ copyright=JamesPetts
 DistributionWeight=8
 intro_year=2024
 intro_month=10
-retire_year=2048
-retire_month=6
+#retire_year=2048
+#retire_month=6
 speed=225
-class=2,3
+class=1,2
 maximum_comfortable_journey_minutes=88
-maximum_tolerable_journey_minutes=312
+maximum_tolerable_journey_minutes=462
 
 Image[E]=./images/bmw-1-series-f70-blacksapphire_E.0.0,-33,14
 Image[SE]=./images/bmw-1-series-f70-blacksapphire_SE.0.0,-13,0
@@ -79,12 +80,12 @@ copyright=JamesPetts
 DistributionWeight=7
 intro_year=2024
 intro_month=10
-retire_year=2047
-retire_month=6
+#retire_year=2047
+#retire_month=6
 speed=225
-class=2,3
+class=1,2
 maximum_comfortable_journey_minutes=88
-maximum_tolerable_journey_minutes=312
+maximum_tolerable_journey_minutes=462
 
 Image[E]=./images/bmw-1-series-f70-skyscrapergrey_E.0.0,-33,14
 Image[SE]=./images/bmw-1-series-f70-skyscrapergrey_SE.0.0,-13,0
@@ -102,12 +103,12 @@ copyright=JamesPetts
 DistributionWeight=6
 intro_year=2024
 intro_month=10
-retire_year=2046
-retire_month=6
+#retire_year=2046
+#retire_month=6
 speed=225
-class=2,3
+class=1,2
 maximum_comfortable_journey_minutes=88
-maximum_tolerable_journey_minutes=312
+maximum_tolerable_journey_minutes=462
 
 Image[E]=./images/bmw-1-series-f70-mportimaoblue_E.0.0,-33,14
 Image[SE]=./images/bmw-1-series-f70-mportimaoblue_SE.0.0,-13,0

@@ -24,7 +24,7 @@
 # rather than doubled. Provisional pending the central rebase.
 #
 # Speed 80 km/h (50 mph): a game-balance figure for a late 600 cc outfit.
-# Comfort 35/200: the Monaco's sprung sidecar wheel and low body give a better
+# Comfort 35/353: the Monaco's sprung sidecar wheel and low body give a better
 # ride than the Maxstoke outfit's 25-50 range, but it remains an open outfit.
 #
 # Dates describe when these outfits were seen on British roads: the Monaco from
@@ -56,7 +56,7 @@ retire_month=6
 speed=80
 class=0,1
 maximum_comfortable_journey_minutes=35
-maximum_tolerable_journey_minutes=200
+maximum_tolerable_journey_minutes=353
 
 Image[E]=./images/bsa-m21-monaco-combo-maroon_E.0.0,-33,14
 Image[SE]=./images/bsa-m21-monaco-combo-maroon_SE.0.0,-13,0
@@ -79,7 +79,7 @@ retire_month=6
 speed=80
 class=0,1
 maximum_comfortable_journey_minutes=35
-maximum_tolerable_journey_minutes=200
+maximum_tolerable_journey_minutes=353
 
 Image[E]=./images/bsa-m21-monaco-combo-black_E.0.0,-33,14
 Image[SE]=./images/bsa-m21-monaco-combo-black_SE.0.0,-13,0

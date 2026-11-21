@@ -25,8 +25,8 @@
 # Black and Flame Red. Weights white 3, grey 3, black 2, red 2, total 10,
 # provisional pending the central rebase.
 #
-# Speed 195 km/h, the GT's quoted maximum. Comfort 110/345, on the line
-# 180 + 1.5 x 110: a quiet, well-damped family hatchback. Classes 2,3.
+# Speed 195 km/h, the GT's quoted maximum. Comfort 110/495, on the line
+# 330 + 1.5 x 110: a quiet, well-damped family hatchback. Classes 0,1.
 #
 # Dates are road presence: July 2016 intro, retires staggered 2030-2033 on a
 # fourteen- to seventeen-year tail.
@@ -49,9 +49,9 @@ intro_month=7
 retire_year=2033
 retire_month=6
 speed=195
-class=2,3
+class=0,1
 maximum_comfortable_journey_minutes=110
-maximum_tolerable_journey_minutes=345
+maximum_tolerable_journey_minutes=495
 
 Image[E]=./images/renault-megane-iv-glacierwhite_E.0.0,-33,14
 Image[SE]=./images/renault-megane-iv-glacierwhite_SE.0.0,-13,0
@@ -72,9 +72,9 @@ intro_month=7
 retire_year=2033
 retire_month=6
 speed=195
-class=2,3
+class=0,1
 maximum_comfortable_journey_minutes=110
-maximum_tolerable_journey_minutes=345
+maximum_tolerable_journey_minutes=495
 
 Image[E]=./images/renault-megane-iv-mercury_E.0.0,-33,14
 Image[SE]=./images/renault-megane-iv-mercury_SE.0.0,-13,0
@@ -95,9 +95,9 @@ intro_month=7
 retire_year=2032
 retire_month=6
 speed=195
-class=2,3
+class=0,1
 maximum_comfortable_journey_minutes=110
-maximum_tolerable_journey_minutes=345
+maximum_tolerable_journey_minutes=495
 
 Image[E]=./images/renault-megane-iv-diamondblack_E.0.0,-33,14
 Image[SE]=./images/renault-megane-iv-diamondblack_SE.0.0,-13,0
@@ -118,9 +118,9 @@ intro_month=7
 retire_year=2031
 retire_month=6
 speed=195
-class=2,3
+class=0,1
 maximum_comfortable_journey_minutes=110
-maximum_tolerable_journey_minutes=345
+maximum_tolerable_journey_minutes=495
 
 Image[E]=./images/renault-megane-iv-flamered_E.0.0,-33,14
 Image[SE]=./images/renault-megane-iv-flamered_SE.0.0,-13,0

@@ -16,7 +16,7 @@
 # codes and promotional names. Ermine White, Ambassador Blue, Goodwood Green
 # and Monaco Red. Weights 8, 7, 5, 5, total 25, provisional.
 #
-# Speed 135 km/h. Comfort 55/265, on the line 180 + 1.5 x 55. Classes 1,2.
+# Speed 135 km/h. Comfort 55/413, on the line 330 + 1.5 x 55. Classes 1,2,3.
 # Dates are road presence: 1961 intro, retires staggered 1978-1981.
 #
 # Metres master: citycars/4.5/ford-consul-classic.blend. Interchange:
@@ -40,9 +40,9 @@ intro_month=5
 retire_year=1981
 retire_month=6
 speed=135
-class=1,2
+class=1,2,3
 maximum_comfortable_journey_minutes=55
-maximum_tolerable_journey_minutes=265
+maximum_tolerable_journey_minutes=413
 
 Image[E]=./images/ford-consul-classic-erminewhite_E.0.0,-33,14
 Image[SE]=./images/ford-consul-classic-erminewhite_SE.0.0,-13,0
@@ -63,9 +63,9 @@ intro_month=5
 retire_year=1980
 retire_month=6
 speed=135
-class=1,2
+class=1,2,3
 maximum_comfortable_journey_minutes=55
-maximum_tolerable_journey_minutes=265
+maximum_tolerable_journey_minutes=413
 
 Image[E]=./images/ford-consul-classic-ambassadorblue_E.0.0,-33,14
 Image[SE]=./images/ford-consul-classic-ambassadorblue_SE.0.0,-13,0
@@ -86,9 +86,9 @@ intro_month=5
 retire_year=1979
 retire_month=6
 speed=135
-class=1,2
+class=1,2,3
 maximum_comfortable_journey_minutes=55
-maximum_tolerable_journey_minutes=265
+maximum_tolerable_journey_minutes=413
 
 Image[E]=./images/ford-consul-classic-goodwoodgreen_E.0.0,-33,14
 Image[SE]=./images/ford-consul-classic-goodwoodgreen_SE.0.0,-13,0
@@ -109,9 +109,9 @@ intro_month=5
 retire_year=1978
 retire_month=6
 speed=135
-class=1,2
+class=1,2,3
 maximum_comfortable_journey_minutes=55
-maximum_tolerable_journey_minutes=265
+maximum_tolerable_journey_minutes=413
 
 Image[E]=./images/ford-consul-classic-monacored_E.0.0,-33,14
 Image[SE]=./images/ford-consul-classic-monacored_SE.0.0,-13,0

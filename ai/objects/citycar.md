@@ -88,7 +88,7 @@ Method:
 | `copyright` | Holder of the images (`JamesPetts` for this pakset) | — |
 | `DistributionWeight` | Spawn frequency relative to other citycars | **unverified; do not omit** |
 | `intro_year` / `intro_month` | Year/month the colour is first seen on roads | — |
-| `retire_year` / `retire_month` | Year/month it is last seen regularly (early retires mean rare sights from that date) | — |
+| `retire_year` / `retire_month` | Year/month it is last seen regularly (early retires mean rare sights from that date). Models still in production in 2026 with no announced end have the fields commented out, not deleted | omitted → open-ended |
 | `speed` | Top speed in **km/h** (the engine reads it with `kmh_to_speed`; the tree's values are a game-balance figure, not always the model's real top speed) | — |
 | `maximum_comfortable_journey_minutes` | Maximum comfortable journey time for private-car travel, in whole minutes (the `_tenths` form gives tenths of a minute) | omitted/0 → engine default 180 minutes |
 | `maximum_tolerable_journey_minutes` | Maximum tolerable journey time, same units (`_tenths` form available) | omitted/0 → three times the comfortable time |
@@ -99,6 +99,29 @@ both the `_minutes` and `_tenths` form of one quantity is a fatal makeobj error.
 stored in tenths of minutes. `class` indices must exist in the pakset (five passenger wealth
 classes); the engine keeps per-class car pools and validates indices at load.
 `[CODE simutrans-extended ex-15 @ 8517e6c9f]`
+
+### Retirement policy (2026-11-20)
+
+1. **A model still in production in 2026 with no announced end of production has no retire
+   date.** Comment out `retire_year` and `retire_month`; do not delete them. The engine treats
+   the model as open-ended. Revisit when an end is announced.
+2. **A model that is out of production has a road-presence retirement date**, not its production
+   end. The date is an estimate of when that colour stops being a regular sight, normally
+   15–22 years after the colour's introduction, and is staggered across colourways. A future
+   date is normal for a recently withdrawn model. Two documented exceptions: the Mondeo Mk4
+   dates follow the Mk5 stand-in to 2022 (2030–34), and the Range Rover dates follow the
+   classic's 1996 production end rather than the 1970 introduction (1998–2005).
+3. **A model with an announced end of production** is treated as out of production from that
+   date and gets the same road-tail treatment.
+4. The policy note is written at the top of each affected `.dat` file as
+   `# Retire policy 2026-11-20: ...`, and the body header's date sentence is kept in step.
+
+The 2026-11-20 pass applied this to 47 models: 36 current-production models had their retire
+fields commented out, and 11 out-of-production or open-ended models had road-tail dates set or
+corrected, including the Ford Ka, Ford Focus, New Mini, Qashqai J10, Mondeo Mk4, Galaxy Mk3 and
+Range Rover. The other citycar files changed on the same date only for the comfort
+recalibration. The Hyundai i10 Mk3 is treated as current in 2026: its header originally read
+2020–2026 and was changed to 2020–present. Confirm that when Hyundai announces the model's end.
 
 Other conventions shared by all `citycar` objects:
 
@@ -214,7 +237,7 @@ as the Austin and Morris 1100/1300), whose shell did not change enough across Mk
 read at pak scale. Period BMC paint names and codes from the 1966 and 1970 Austin-Morris
 colour charts; the pre-1994 colour shares are era-adjusted from the 1994–96 measured base,
 with the adjustment stated in the `.dat` header (the same method as the VauxhallNova's
-1980s adjustment). Comfort 70/285 reflects the Hydrolastic suspension. The slim chrome
+1980s adjustment). Comfort 70/435 reflects the Hydrolastic suspension. The slim chrome
 bumper was applied as a post-build edit in the 4.5 session (bumper bars scaled down and the
 material set to chrome) without changing `car_builder.py`'s builder code.
 
@@ -223,7 +246,7 @@ material set to chrome) without changing `car_builder.py`'s builder code.
 `New/citycars/bsa-m21-combo.dat` (2026-11-15): the first non-car citycar, a BSA M21 600 cc
 motorcycle with a Watsonian Maxstoke sidecar. Three colourways — Black 140, Maroon 60, BSA
 Light Green 40 — total 240 against the Morris Minor anchor's 500, classes 0–1, 72 km/h,
-comfort 25/190, road presence 1946–66 staggered by colour. Sources and reasoning are in the
+comfort 25/338, road presence 1946-66 staggered by colour. Sources and reasoning are in the
 `.dat` header.
 
 Conventions it establishes:
@@ -249,11 +272,12 @@ at a 9 x 6 px sprite only the outline is judged.
 
 ## Comfort calibration
 
-The method is canonical in [comfort-calibration](../comfort-calibration.md): the Mini (40/240)
-and Sierra (120/360) anchors, the line `tolerable ≈ 180 + 1.5 × comfortable`, and the rule that
-the Mini is a low-end anchor rather than a floor. The private-car method and the outfit penalty
-are in [private cars](../comfort/private-cars.md); the per-model values and their notes are in
-the [register](../comfort/comfort-table.md#private-cars). Every colourway of a model shares the
+The method is canonical in [comfort-calibration](../comfort-calibration.md): the Mini (40/390)
+and Sierra (120/510) anchors, the line `tolerable ≈ 330 + 1.5 × comfortable` capped at 600, and
+the rule that the Mini is a low-end anchor rather than a floor. The private-car method, the
+outfit penalty and the separate horse-drawn line are in
+[private cars](../comfort/private-cars.md); the per-model values and their notes are in the
+[register](../comfort/comfort-table.md#private-cars). Every colourway of a model shares the
 model's values.
 
 ## The Fiesta family example (in tree)

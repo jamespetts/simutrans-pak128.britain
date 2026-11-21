@@ -9,7 +9,7 @@
 #
 # Weight: 280 in total (red 80, white 75, silver 65, black 60).
 #
-# Speed 150 km/h; comfort 90/315 (line). Classes 1,2.
+# Speed 150 km/h; comfort 90/465 (line). Classes 0,1.
 # Dates: 1974-1983 with a road tail to about 1994.
 #
 # Metres master: citycars/4.5/vw-golf-mk1.blend. References:
@@ -25,9 +25,9 @@ intro_month=5
 retire_year=1994
 retire_month=6
 speed=150
-class=1,2
+class=0,1
 maximum_comfortable_journey_minutes=90
-maximum_tolerable_journey_minutes=315
+maximum_tolerable_journey_minutes=465
 
 Image[E]=./images/vw-golf-mk1-red_E.0.0,-33,14
 Image[SE]=./images/vw-golf-mk1-red_SE.0.0,-13,0
@@ -48,9 +48,9 @@ intro_month=5
 retire_year=1993
 retire_month=6
 speed=150
-class=1,2
+class=0,1
 maximum_comfortable_journey_minutes=90
-maximum_tolerable_journey_minutes=315
+maximum_tolerable_journey_minutes=465
 
 Image[E]=./images/vw-golf-mk1-white_E.0.0,-33,14
 Image[SE]=./images/vw-golf-mk1-white_SE.0.0,-13,0
@@ -71,9 +71,9 @@ intro_month=3
 retire_year=1992
 retire_month=6
 speed=150
-class=1,2
+class=0,1
 maximum_comfortable_journey_minutes=90
-maximum_tolerable_journey_minutes=315
+maximum_tolerable_journey_minutes=465
 
 Image[E]=./images/vw-golf-mk1-silver_E.0.0,-33,14
 Image[SE]=./images/vw-golf-mk1-silver_SE.0.0,-13,0
@@ -94,9 +94,9 @@ intro_month=3
 retire_year=1991
 retire_month=6
 speed=150
-class=1,2
+class=0,1
 maximum_comfortable_journey_minutes=90
-maximum_tolerable_journey_minutes=315
+maximum_tolerable_journey_minutes=465
 
 Image[E]=./images/vw-golf-mk1-black_E.0.0,-33,14
 Image[SE]=./images/vw-golf-mk1-black_SE.0.0,-13,0

@@ -9,9 +9,9 @@ intro_month=9
 retire_year=1968
 retire_month=2
 speed=135
-class=2,3
+class=3,4
 maximum_comfortable_journey_minutes=80
-maximum_tolerable_journey_minutes=300
+maximum_tolerable_journey_minutes=450
 
 Image[E]=./images/austin-princess-silver-black_E.0.0,-33,14
 Image[SE]=./images/austin-princess-silver-black_SE.0.0,-13,0
@@ -32,9 +32,9 @@ intro_month=2
 retire_year=1968
 retire_month=9
 speed=135
-class=2,3
+class=3,4
 maximum_comfortable_journey_minutes=80
-maximum_tolerable_journey_minutes=300
+maximum_tolerable_journey_minutes=450
 
 Image[E]=./images/austin-princess-ivory_E.0.0,-33,14
 Image[SE]=./images/austin-princess-ivory_SE.0.0,-13,0
@@ -55,9 +55,9 @@ intro_month=10
 retire_year=1969
 retire_month=1
 speed=135
-class=2,3
+class=3,4
 maximum_comfortable_journey_minutes=80
-maximum_tolerable_journey_minutes=300
+maximum_tolerable_journey_minutes=450
 
 Image[E]=./images/austin-princess-red_E.0.0,-33,14
 Image[SE]=./images/austin-princess-red_SE.0.0,-13,0

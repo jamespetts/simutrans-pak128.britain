@@ -16,8 +16,8 @@
 # are road-presence dates. Weights pimento 3, white 3, frenchblue 2, emerald 2,
 # total 10, provisional pending the central rebase.
 #
-# Speed 140 km/h, the published figure for the 1500. Comfort 70/285, on the line
-# 180 + 1.5 x 70, the same as the BMC1100 and a step below the 2000 Mk1.
+# Speed 140 km/h, the published figure for the 1500. Comfort 70/435, on the line
+# 330 + 1.5 x 70, the same as the BMC1100 and a step below the 2000 Mk1.
 # Classes 1,2.
 #
 # Dates are road presence: October 1970 intro, retires staggered 1985-1988 on a
@@ -45,7 +45,7 @@ retire_month=6
 speed=140
 class=1,2
 maximum_comfortable_journey_minutes=70
-maximum_tolerable_journey_minutes=285
+maximum_tolerable_journey_minutes=435
 
 Image[E]=./images/triumph-1500-pimento_E.0.0,-33,14
 Image[SE]=./images/triumph-1500-pimento_SE.0.0,-13,0
@@ -68,7 +68,7 @@ retire_month=6
 speed=140
 class=1,2
 maximum_comfortable_journey_minutes=70
-maximum_tolerable_journey_minutes=285
+maximum_tolerable_journey_minutes=435
 
 Image[E]=./images/triumph-1500-white_E.0.0,-33,14
 Image[SE]=./images/triumph-1500-white_SE.0.0,-13,0
@@ -91,7 +91,7 @@ retire_month=6
 speed=140
 class=1,2
 maximum_comfortable_journey_minutes=70
-maximum_tolerable_journey_minutes=285
+maximum_tolerable_journey_minutes=435
 
 Image[E]=./images/triumph-1500-frenchblue_E.0.0,-33,14
 Image[SE]=./images/triumph-1500-frenchblue_SE.0.0,-13,0
@@ -114,7 +114,7 @@ retire_month=6
 speed=140
 class=1,2
 maximum_comfortable_journey_minutes=70
-maximum_tolerable_journey_minutes=285
+maximum_tolerable_journey_minutes=435
 
 Image[E]=./images/triumph-1500-emerald_E.0.0,-33,14
 Image[SE]=./images/triumph-1500-emerald_SE.0.0,-13,0

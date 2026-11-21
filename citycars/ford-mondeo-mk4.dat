@@ -1,5 +1,6 @@
+# Retire policy 2026-11-20: production ended 2014, with the Mk5 stand-in to 2022; retire dates are road-presence estimates, staggered by colourway.
 # https://en.wikipedia.org/wiki/Ford_Mondeo_(fourth_generation)
-# This is also intended to cover the fifth generation.
+# This is also intended to cover the fifth generation. Retire dates 2030-2034 are a road-presence estimate for the Mk4 shape and the Mk5 stand-in.
 obj=citycar
 name=FordMondeoMk4(Blue)
 copyright=JamesPetts
@@ -7,10 +8,12 @@ copyright=JamesPetts
 DistributionWeight=8
 intro_year=2007
 intro_month=4
+retire_year=2030
+retire_month=6
 speed=155
-class=2,3
+class=0,1,2
 maximum_comfortable_journey_minutes=135
-maximum_tolerable_journey_minutes=385
+maximum_tolerable_journey_minutes=533
 
 Image[E]=./images/ford-mondeo-mk4-blue_E.0.0,-33,14
 Image[SE]=./images/ford-mondeo-mk4-blue_SE.0.0,-13,0
@@ -28,10 +31,12 @@ copyright=JamesPetts
 DistributionWeight=8
 intro_year=2014
 intro_month=5
+retire_year=2031
+retire_month=5
 speed=155
-class=2,3
+class=0,1,2
 maximum_comfortable_journey_minutes=135
-maximum_tolerable_journey_minutes=385
+maximum_tolerable_journey_minutes=533
 
 Image[E]=./images/ford-mondeo-mk4-green_E.0.0,-33,14
 Image[SE]=./images/ford-mondeo-mk4-green_SE.0.0,-13,0
@@ -50,10 +55,12 @@ copyright=JamesPetts
 DistributionWeight=8
 intro_year=2014
 intro_month=12
+retire_year=2032
+retire_month=4
 speed=155
-class=2,3
+class=0,1,2
 maximum_comfortable_journey_minutes=135
-maximum_tolerable_journey_minutes=385
+maximum_tolerable_journey_minutes=533
 
 Image[E]=./images/ford-mondeo-mk4-grey_E.0.0,-33,14
 Image[SE]=./images/ford-mondeo-mk4-grey_SE.0.0,-13,0
@@ -72,10 +79,12 @@ copyright=JamesPetts
 DistributionWeight=8
 intro_year=2015
 intro_month=1
+retire_year=2033
+retire_month=2
 speed=155
-class=2,3
+class=0,1,2
 maximum_comfortable_journey_minutes=135
-maximum_tolerable_journey_minutes=385
+maximum_tolerable_journey_minutes=533
 
 Image[E]=./images/ford-mondeo-mk4-black_E.0.0,-33,14
 Image[SE]=./images/ford-mondeo-mk4-black_SE.0.0,-13,0
@@ -94,10 +103,12 @@ copyright=JamesPetts
 DistributionWeight=8
 intro_year=2007
 intro_month=8
+retire_year=2034
+retire_month=1
 speed=155
-class=2,3
+class=0,1,2
 maximum_comfortable_journey_minutes=135
-maximum_tolerable_journey_minutes=385
+maximum_tolerable_journey_minutes=533
 
 Image[E]=./images/ford-mondeo-mk4-white_E.0.0,-33,14
 Image[SE]=./images/ford-mondeo-mk4-white_SE.0.0,-13,0
@@ -117,10 +128,12 @@ copyright=JamesPetts
 DistributionWeight=8
 intro_year=2009
 intro_month=6
+retire_year=2034
+retire_month=12
 speed=155
-class=2,3
+class=0,1,2
 maximum_comfortable_journey_minutes=135
-maximum_tolerable_journey_minutes=385
+maximum_tolerable_journey_minutes=533
 
 Image[E]=./images/ford-mondeo-mk4-red_E.0.0,-33,14
 Image[SE]=./images/ford-mondeo-mk4-red_SE.0.0,-13,0

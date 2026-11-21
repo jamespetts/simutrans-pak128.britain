@@ -25,7 +25,7 @@
 # carry plain names: white, red, blue and grey. Weights white 3, red 3, blue 2,
 # grey 2, total 10, provisional pending the central rebase.
 #
-# Speed 175 km/h and comfort 70/285, as the phase-1 car: the facelift changed
+# Speed 175 km/h and comfort 70/435, as the phase-1 car: the facelift changed
 # trim and lamps, not the running gear. Classes 1,2.
 #
 # Dates are road presence: late 1992 intro, retires staggered 2005-2008 on a
@@ -52,7 +52,7 @@ retire_month=6
 speed=175
 class=1,2
 maximum_comfortable_journey_minutes=70
-maximum_tolerable_journey_minutes=285
+maximum_tolerable_journey_minutes=435
 
 Image[E]=./images/renault-19-phase2-white_E.0.0,-33,14
 Image[SE]=./images/renault-19-phase2-white_SE.0.0,-13,0
@@ -75,7 +75,7 @@ retire_month=6
 speed=175
 class=1,2
 maximum_comfortable_journey_minutes=70
-maximum_tolerable_journey_minutes=285
+maximum_tolerable_journey_minutes=435
 
 Image[E]=./images/renault-19-phase2-red_E.0.0,-33,14
 Image[SE]=./images/renault-19-phase2-red_SE.0.0,-13,0
@@ -98,7 +98,7 @@ retire_month=6
 speed=175
 class=1,2
 maximum_comfortable_journey_minutes=70
-maximum_tolerable_journey_minutes=285
+maximum_tolerable_journey_minutes=435
 
 Image[E]=./images/renault-19-phase2-blue_E.0.0,-33,14
 Image[SE]=./images/renault-19-phase2-blue_SE.0.0,-13,0
@@ -121,7 +121,7 @@ retire_month=6
 speed=175
 class=1,2
 maximum_comfortable_journey_minutes=70
-maximum_tolerable_journey_minutes=285
+maximum_tolerable_journey_minutes=435
 
 Image[E]=./images/renault-19-phase2-grey_E.0.0,-33,14
 Image[SE]=./images/renault-19-phase2-grey_SE.0.0,-13,0

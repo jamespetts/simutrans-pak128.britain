@@ -28,7 +28,7 @@ retire_month=6
 speed=115
 class=0,1
 maximum_comfortable_journey_minutes=55
-maximum_tolerable_journey_minutes=265
+maximum_tolerable_journey_minutes=413
 
 Image[E]=./images/ford-fiesta-mk2-red_E.0.0,-33,14
 Image[SE]=./images/ford-fiesta-mk2-red_SE.0.0,-13,0
@@ -51,7 +51,7 @@ retire_month=12
 speed=115
 class=0,1
 maximum_comfortable_journey_minutes=55
-maximum_tolerable_journey_minutes=265
+maximum_tolerable_journey_minutes=413
 
 Image[E]=./images/ford-fiesta-mk2-blue_E.0.0,-33,14
 Image[SE]=./images/ford-fiesta-mk2-blue_SE.0.0,-13,0
@@ -74,7 +74,7 @@ retire_month=12
 speed=115
 class=0,1
 maximum_comfortable_journey_minutes=55
-maximum_tolerable_journey_minutes=265
+maximum_tolerable_journey_minutes=413
 
 Image[E]=./images/ford-fiesta-mk2-white_E.0.0,-33,14
 Image[SE]=./images/ford-fiesta-mk2-white_SE.0.0,-13,0
@@ -97,7 +97,7 @@ retire_month=12
 speed=115
 class=0,1
 maximum_comfortable_journey_minutes=55
-maximum_tolerable_journey_minutes=265
+maximum_tolerable_journey_minutes=413
 
 Image[E]=./images/ford-fiesta-mk2-black_E.0.0,-33,14
 Image[SE]=./images/ford-fiesta-mk2-black_SE.0.0,-13,0

@@ -15,7 +15,7 @@
 # catalogue. Epsom Green, Chawton White, Bonatti Grey and Blenheim Silver
 # are common on British roads. Weights 15, 13, 12, 10, total 50, provisional.
 #
-# Speed 170 km/h. Comfort 75/292, on the line 180 + 1.5 x 75. Classes 2,3.
+# Speed 170 km/h. Comfort 75/443, on the line 330 + 1.5 x 75. Classes 2,3.
 # Dates are road presence: 1998 intro, retires staggered 2020-2023.
 #
 # Metres master: citycars/4.5/land-rover-discovery-2.blend. Interchange:
@@ -41,7 +41,7 @@ retire_month=6
 speed=170
 class=2,3
 maximum_comfortable_journey_minutes=75
-maximum_tolerable_journey_minutes=292
+maximum_tolerable_journey_minutes=443
 
 Image[E]=./images/land-rover-discovery-2-epsomgreen_E.0.0,-33,14
 Image[SE]=./images/land-rover-discovery-2-epsomgreen_SE.0.0,-13,0
@@ -64,7 +64,7 @@ retire_month=6
 speed=170
 class=2,3
 maximum_comfortable_journey_minutes=75
-maximum_tolerable_journey_minutes=292
+maximum_tolerable_journey_minutes=443
 
 Image[E]=./images/land-rover-discovery-2-chawtonwhite_E.0.0,-33,14
 Image[SE]=./images/land-rover-discovery-2-chawtonwhite_SE.0.0,-13,0
@@ -87,7 +87,7 @@ retire_month=6
 speed=170
 class=2,3
 maximum_comfortable_journey_minutes=75
-maximum_tolerable_journey_minutes=292
+maximum_tolerable_journey_minutes=443
 
 Image[E]=./images/land-rover-discovery-2-bonattigrey_E.0.0,-33,14
 Image[SE]=./images/land-rover-discovery-2-bonattigrey_SE.0.0,-13,0
@@ -110,7 +110,7 @@ retire_month=6
 speed=170
 class=2,3
 maximum_comfortable_journey_minutes=75
-maximum_tolerable_journey_minutes=292
+maximum_tolerable_journey_minutes=443
 
 Image[E]=./images/land-rover-discovery-2-blenheimsilver_E.0.0,-33,14
 Image[SE]=./images/land-rover-discovery-2-blenheimsilver_SE.0.0,-13,0

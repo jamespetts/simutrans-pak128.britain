@@ -9,7 +9,7 @@
 #
 # Weight: 320 in total (blue 100, red 80, silver 80, black 60).
 #
-# Speed 170 km/h; comfort 105/340 (line). Classes 1,2.
+# Speed 170 km/h; comfort 105/488 (line). Classes 1,2.
 # Dates: 1991-1998 with a road tail to about 2006.
 #
 # Metres master: citycars/4.5/vauxhall-astra-mk3.blend. References:
@@ -28,7 +28,7 @@ retire_month=6
 speed=170
 class=1,2
 maximum_comfortable_journey_minutes=105
-maximum_tolerable_journey_minutes=340
+maximum_tolerable_journey_minutes=488
 
 Image[E]=./images/vauxhall-astra-mk3-blue_E.0.0,-33,14
 Image[SE]=./images/vauxhall-astra-mk3-blue_SE.0.0,-13,0
@@ -51,7 +51,7 @@ retire_month=12
 speed=170
 class=1,2
 maximum_comfortable_journey_minutes=105
-maximum_tolerable_journey_minutes=340
+maximum_tolerable_journey_minutes=488
 
 Image[E]=./images/vauxhall-astra-mk3-red_E.0.0,-33,14
 Image[SE]=./images/vauxhall-astra-mk3-red_SE.0.0,-13,0
@@ -74,7 +74,7 @@ retire_month=6
 speed=170
 class=1,2
 maximum_comfortable_journey_minutes=105
-maximum_tolerable_journey_minutes=340
+maximum_tolerable_journey_minutes=488
 
 Image[E]=./images/vauxhall-astra-mk3-silver_E.0.0,-33,14
 Image[SE]=./images/vauxhall-astra-mk3-silver_SE.0.0,-13,0
@@ -97,7 +97,7 @@ retire_month=6
 speed=170
 class=1,2
 maximum_comfortable_journey_minutes=105
-maximum_tolerable_journey_minutes=340
+maximum_tolerable_journey_minutes=488
 
 Image[E]=./images/vauxhall-astra-mk3-black_E.0.0,-33,14
 Image[SE]=./images/vauxhall-astra-mk3-black_SE.0.0,-13,0

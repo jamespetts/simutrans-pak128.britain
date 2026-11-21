@@ -18,7 +18,7 @@
 # an insurers listing, and is not used. Weights 12, 10, 9, 8, total 39,
 # provisional.
 #
-# Speed 180 km/h. Comfort 65/280, on the line 180 + 1.5 x 65. Classes 1,2.
+# Speed 180 km/h. Comfort 65/428, on the line 330 + 1.5 x 65. Classes 1,2.
 # Dates: intro September 1978; retires staggered 1994-1997 as a road tail.
 #
 # Metres master: citycars/4.5/vauxhall-carlton-mk1.blend. Interchange:
@@ -43,7 +43,7 @@ retire_month=6
 speed=180
 class=1,2
 maximum_comfortable_journey_minutes=65
-maximum_tolerable_journey_minutes=280
+maximum_tolerable_journey_minutes=428
 
 Image[E]=./images/vauxhall-carlton-mk1-white_E.0.0,-33,14
 Image[SE]=./images/vauxhall-carlton-mk1-white_SE.0.0,-13,0
@@ -66,7 +66,7 @@ retire_month=6
 speed=180
 class=1,2
 maximum_comfortable_journey_minutes=65
-maximum_tolerable_journey_minutes=280
+maximum_tolerable_journey_minutes=428
 
 Image[E]=./images/vauxhall-carlton-mk1-red_E.0.0,-33,14
 Image[SE]=./images/vauxhall-carlton-mk1-red_SE.0.0,-13,0
@@ -89,7 +89,7 @@ retire_month=6
 speed=180
 class=1,2
 maximum_comfortable_journey_minutes=65
-maximum_tolerable_journey_minutes=280
+maximum_tolerable_journey_minutes=428
 
 Image[E]=./images/vauxhall-carlton-mk1-blue_E.0.0,-33,14
 Image[SE]=./images/vauxhall-carlton-mk1-blue_SE.0.0,-13,0
@@ -112,7 +112,7 @@ retire_month=6
 speed=180
 class=1,2
 maximum_comfortable_journey_minutes=65
-maximum_tolerable_journey_minutes=280
+maximum_tolerable_journey_minutes=428
 
 Image[E]=./images/vauxhall-carlton-mk1-silver_E.0.0,-33,14
 Image[SE]=./images/vauxhall-carlton-mk1-silver_SE.0.0,-13,0

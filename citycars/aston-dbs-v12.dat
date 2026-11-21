@@ -19,7 +19,7 @@
 # Edition) are named special editions. No full UK chart was found. Weights 3,
 # 3, 2, 2, total 10, provisional.
 #
-# Speed 307 km/h. Comfort 82/303, on the line 180 + 1.5 x 82. Classes 3,4.
+# Speed 307 km/h. Comfort 82/453, on the line 330 + 1.5 x 82. Class 4.
 # Dates are road presence: 2007 intro, retires staggered 2035-2038.
 #
 # Metres master: citycars/4.5/aston-dbs-v12.blend. Interchange:
@@ -42,9 +42,9 @@ intro_month=8
 retire_year=2038
 retire_month=6
 speed=307
-class=3,4
+class=4
 maximum_comfortable_journey_minutes=82
-maximum_tolerable_journey_minutes=303
+maximum_tolerable_journey_minutes=453
 
 Image[E]=./images/aston-dbs-v12-lightningsilver_E.0.0,-33,14
 Image[SE]=./images/aston-dbs-v12-lightningsilver_SE.0.0,-13,0
@@ -65,9 +65,9 @@ intro_month=8
 retire_year=2037
 retire_month=6
 speed=307
-class=3,4
+class=4
 maximum_comfortable_journey_minutes=82
-maximum_tolerable_journey_minutes=303
+maximum_tolerable_journey_minutes=453
 
 Image[E]=./images/aston-dbs-v12-azuriteblack_E.0.0,-33,14
 Image[SE]=./images/aston-dbs-v12-azuriteblack_SE.0.0,-13,0
@@ -88,9 +88,9 @@ intro_month=8
 retire_year=2036
 retire_month=6
 speed=307
-class=3,4
+class=4
 maximum_comfortable_journey_minutes=82
-maximum_tolerable_journey_minutes=303
+maximum_tolerable_journey_minutes=453
 
 Image[E]=./images/aston-dbs-v12-flameorange_E.0.0,-33,14
 Image[SE]=./images/aston-dbs-v12-flameorange_SE.0.0,-13,0
@@ -111,9 +111,9 @@ intro_month=8
 retire_year=2035
 retire_month=6
 speed=307
-class=3,4
+class=4
 maximum_comfortable_journey_minutes=82
-maximum_tolerable_journey_minutes=303
+maximum_tolerable_journey_minutes=453
 
 Image[E]=./images/aston-dbs-v12-ceramicgrey_E.0.0,-33,14
 Image[SE]=./images/aston-dbs-v12-ceramicgrey_SE.0.0,-13,0

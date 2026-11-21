@@ -1,3 +1,4 @@
+# Retire policy 2026-11-20: production ended 2023; retire dates are road-presence estimates, staggered by colourway.
 # https://en.wikipedia.org/wiki/Ford_Galaxy
 obj=citycar
 name=FordGalaxyMk3(Blue)
@@ -6,10 +7,12 @@ copyright=JamesPetts
 DistributionWeight=5
 intro_year=2015
 intro_month=8
+retire_year=2033
+retire_month=6
 speed=135
-class=2,3
+class=1,2
 maximum_comfortable_journey_minutes=135
-maximum_tolerable_journey_minutes=385
+maximum_tolerable_journey_minutes=533
 
 Image[E]=./images/ford-galaxy-mk3-blue_E.0.0,-33,14
 Image[SE]=./images/ford-galaxy-mk3-blue_SE.0.0,-13,0
@@ -28,10 +31,12 @@ copyright=JamesPetts
 DistributionWeight=4
 intro_year=2017
 intro_month=9
+retire_year=2035
+retire_month=3
 speed=135
-class=2,3
+class=1,2
 maximum_comfortable_journey_minutes=135
-maximum_tolerable_journey_minutes=385
+maximum_tolerable_journey_minutes=533
 
 Image[E]=./images/ford-galaxy-mk3-red_E.0.0,-33,14
 Image[SE]=./images/ford-galaxy-mk3-red_SE.0.0,-13,0
@@ -51,10 +56,12 @@ copyright=JamesPetts
 DistributionWeight=6
 intro_year=2016
 intro_month=4
+retire_year=2036
+retire_month=12
 speed=135
-class=2,3
+class=1,2
 maximum_comfortable_journey_minutes=135
-maximum_tolerable_journey_minutes=385
+maximum_tolerable_journey_minutes=533
 
 Image[E]=./images/ford-galaxy-mk3-grey_E.0.0,-33,14
 Image[SE]=./images/ford-galaxy-mk3-grey_SE.0.0,-13,0

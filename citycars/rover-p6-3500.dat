@@ -14,8 +14,8 @@
 # Colours: documented Rover finishes of the period: Arden Green, Davos White,
 # Squadron Blue, Mexico Brown. Weights 25, 22, 18, 15, total 80, provisional.
 #
-# Speed 190 km/h. Comfort 115/352, on the line 180 + 1.5 x 115, the same P6
-# cabin with the V8. Classes 3,4.
+# Speed 190 km/h. Comfort 115/503, on the line 330 + 1.5 x 115, the same P6
+# cabin with the V8. Classes 2,3.
 # Dates are road presence: 1968 intro, retires staggered 1988-1991.
 #
 # Metres master: citycars/4.5/rover-p6-3500.blend. Interchange:
@@ -38,9 +38,9 @@ intro_month=4
 retire_year=1991
 retire_month=6
 speed=190
-class=3,4
+class=2,3
 maximum_comfortable_journey_minutes=115
-maximum_tolerable_journey_minutes=352
+maximum_tolerable_journey_minutes=503
 
 Image[E]=./images/rover-p6-3500-ardengreen_E.0.0,-33,14
 Image[SE]=./images/rover-p6-3500-ardengreen_SE.0.0,-13,0
@@ -61,9 +61,9 @@ intro_month=4
 retire_year=1990
 retire_month=6
 speed=190
-class=3,4
+class=2,3
 maximum_comfortable_journey_minutes=115
-maximum_tolerable_journey_minutes=352
+maximum_tolerable_journey_minutes=503
 
 Image[E]=./images/rover-p6-3500-davoswhite_E.0.0,-33,14
 Image[SE]=./images/rover-p6-3500-davoswhite_SE.0.0,-13,0
@@ -84,9 +84,9 @@ intro_month=4
 retire_year=1989
 retire_month=6
 speed=190
-class=3,4
+class=2,3
 maximum_comfortable_journey_minutes=115
-maximum_tolerable_journey_minutes=352
+maximum_tolerable_journey_minutes=503
 
 Image[E]=./images/rover-p6-3500-squadronblue_E.0.0,-33,14
 Image[SE]=./images/rover-p6-3500-squadronblue_SE.0.0,-13,0
@@ -107,9 +107,9 @@ intro_month=4
 retire_year=1988
 retire_month=6
 speed=190
-class=3,4
+class=2,3
 maximum_comfortable_journey_minutes=115
-maximum_tolerable_journey_minutes=352
+maximum_tolerable_journey_minutes=503
 
 Image[E]=./images/rover-p6-3500-mexicobrown_E.0.0,-33,14
 Image[SE]=./images/rover-p6-3500-mexicobrown_SE.0.0,-13,0

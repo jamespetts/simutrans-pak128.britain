@@ -15,13 +15,13 @@
 #
 # Colours: Black, Dark Green, Maroon and Grey, as specified for this model.
 #
-# Weight: 13 in total (black 5, green 4, maroon 2, grey 2). Class 3 and a
+# Weight: 13 in total (black 5, green 4, maroon 2, grey 2). Classes 2,3,4 and a
 # low-volume prestige car, so the total stays inside the 10-15 band.
 #
 # Speed 80 km/h: no published 16/20 maximum speed has been found. 80 km/h
 # (50 mph) is the published maximum of the comparable 3,016 cc Sunbeam 12/16 at
 # the National Motor Museum, used here as the nearest published figure and
-# flagged for review. Comfort 60/270 (line). Class 3.
+# flagged for review. Comfort 60/420 (line). Classes 2,3,4.
 # Dates: 1910-1915 with a road tail to about 1940. The register said 1911-1919;
 # the catalogues place the model in the range from 1910 to 1915, and the later
 # date is not supported by any source found.
@@ -49,9 +49,9 @@ intro_month=1
 retire_year=1940
 retire_month=6
 speed=80
-class=3,4
+class=2,3,4
 maximum_comfortable_journey_minutes=60
-maximum_tolerable_journey_minutes=270
+maximum_tolerable_journey_minutes=420
 
 Image[E]=./images/wolseley-16-20-black_E.0.0,-33,14
 Image[SE]=./images/wolseley-16-20-black_SE.0.0,-13,0
@@ -72,9 +72,9 @@ intro_month=4
 retire_year=1939
 retire_month=6
 speed=80
-class=3,4
+class=2,3,4
 maximum_comfortable_journey_minutes=60
-maximum_tolerable_journey_minutes=270
+maximum_tolerable_journey_minutes=420
 
 Image[E]=./images/wolseley-16-20-green_E.0.0,-33,14
 Image[SE]=./images/wolseley-16-20-green_SE.0.0,-13,0
@@ -95,9 +95,9 @@ intro_month=3
 retire_year=1938
 retire_month=6
 speed=80
-class=3,4
+class=2,3,4
 maximum_comfortable_journey_minutes=60
-maximum_tolerable_journey_minutes=270
+maximum_tolerable_journey_minutes=420
 
 Image[E]=./images/wolseley-16-20-maroon_E.0.0,-33,14
 Image[SE]=./images/wolseley-16-20-maroon_SE.0.0,-13,0
@@ -118,9 +118,9 @@ intro_month=6
 retire_year=1937
 retire_month=6
 speed=80
-class=3,4
+class=2,3,4
 maximum_comfortable_journey_minutes=60
-maximum_tolerable_journey_minutes=270
+maximum_tolerable_journey_minutes=420
 
 Image[E]=./images/wolseley-16-20-grey_E.0.0,-33,14
 Image[SE]=./images/wolseley-16-20-grey_SE.0.0,-13,0

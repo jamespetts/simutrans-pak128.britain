@@ -47,9 +47,9 @@
 # Provisional pending the central rebase, as with all existing citycars.
 #
 # Speed 72 km/h (45 mph): a game-balance figure; a road test of an M21 outfit
-# reached about 40 mph. Comfort 25/190 sits well below the BMC Mini's 40/240
+# reached about 40 mph. Comfort 25/338 sits well below the BMC Mini's 40/390
 # (open chair, exposed rider), with the tolerable time deliberately below the
-# 180 + 1.5 x comfortable line for the same reason.
+# 330 + 1.5 x comfortable line for the same reason.
 #
 # Dates describe when outfits were seen regularly on UK roads, not production
 # dates. The M21 resumed production in 1946; outfits were still common in the
@@ -88,7 +88,7 @@ retire_month=6
 speed=72
 class=0,1
 maximum_comfortable_journey_minutes=25
-maximum_tolerable_journey_minutes=190
+maximum_tolerable_journey_minutes=338
 
 Image[E]=./images/bsa-m21-combo-black_E.0.0,-33,14
 Image[SE]=./images/bsa-m21-combo-black_SE.0.0,-13,0
@@ -111,7 +111,7 @@ retire_month=12
 speed=72
 class=0,1
 maximum_comfortable_journey_minutes=25
-maximum_tolerable_journey_minutes=190
+maximum_tolerable_journey_minutes=338
 
 Image[E]=./images/bsa-m21-combo-maroon_E.0.0,-33,14
 Image[SE]=./images/bsa-m21-combo-maroon_SE.0.0,-13,0
@@ -134,7 +134,7 @@ retire_month=6
 speed=72
 class=0,1
 maximum_comfortable_journey_minutes=25
-maximum_tolerable_journey_minutes=190
+maximum_tolerable_journey_minutes=338
 
 Image[E]=./images/bsa-m21-combo-green_E.0.0,-33,14
 Image[SE]=./images/bsa-m21-combo-green_SE.0.0,-13,0

@@ -12,7 +12,7 @@
 # Weight: 15 in total (black 5, silver 4, blue 3, burgundy 3), the rarest class-4
 # model of its decade.
 #
-# Speed 210 km/h; comfort 150/405 (line). Class 4.
+# Speed 210 km/h; comfort 150/555 (line). Classes 3,4.
 # Dates: 1980-1998 with a road tail to about 2012.
 #
 # Metres master: citycars/4.5/rolls-royce-silver-spirit.blend. References:
@@ -29,9 +29,9 @@ intro_month=10
 retire_year=2012
 retire_month=6
 speed=210
-class=4
+class=3,4
 maximum_comfortable_journey_minutes=150
-maximum_tolerable_journey_minutes=405
+maximum_tolerable_journey_minutes=555
 
 Image[E]=./images/rolls-royce-silver-spirit-black_E.0.0,-33,14
 Image[SE]=./images/rolls-royce-silver-spirit-black_SE.0.0,-13,0
@@ -52,9 +52,9 @@ intro_month=10
 retire_year=2011
 retire_month=6
 speed=210
-class=4
+class=3,4
 maximum_comfortable_journey_minutes=150
-maximum_tolerable_journey_minutes=405
+maximum_tolerable_journey_minutes=555
 
 Image[E]=./images/rolls-royce-silver-spirit-silver_E.0.0,-33,14
 Image[SE]=./images/rolls-royce-silver-spirit-silver_SE.0.0,-13,0
@@ -75,9 +75,9 @@ intro_month=3
 retire_year=2010
 retire_month=6
 speed=210
-class=4
+class=3,4
 maximum_comfortable_journey_minutes=150
-maximum_tolerable_journey_minutes=405
+maximum_tolerable_journey_minutes=555
 
 Image[E]=./images/rolls-royce-silver-spirit-blue_E.0.0,-33,14
 Image[SE]=./images/rolls-royce-silver-spirit-blue_SE.0.0,-13,0
@@ -98,9 +98,9 @@ intro_month=3
 retire_year=2009
 retire_month=6
 speed=210
-class=4
+class=3,4
 maximum_comfortable_journey_minutes=150
-maximum_tolerable_journey_minutes=405
+maximum_tolerable_journey_minutes=555
 
 Image[E]=./images/rolls-royce-silver-spirit-burgundy_E.0.0,-33,14
 Image[SE]=./images/rolls-royce-silver-spirit-burgundy_SE.0.0,-13,0

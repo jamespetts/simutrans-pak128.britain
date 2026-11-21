@@ -16,7 +16,7 @@
 # Colours: no model-specific UK chart was established. Arden Green, Sierra
 # Beige, Mexico Brown and Black. Weights 9, 8, 7, 6, total 30, provisional.
 #
-# Speed 170 km/h. Comfort 80/300, on the line 180 + 1.5 x 80. Classes 3,4.
+# Speed 170 km/h. Comfort 80/450, on the line 330 + 1.5 x 80. Classes 2,3,4.
 # Dates are road presence: 1962 intro, retires staggered 1982-1985.
 #
 # The four-door coupe's roof is 76 mm lower than the saloon's: 1.473 m.
@@ -42,9 +42,9 @@ intro_month=10
 retire_year=1985
 retire_month=6
 speed=170
-class=3,4
+class=2,3,4
 maximum_comfortable_journey_minutes=80
-maximum_tolerable_journey_minutes=300
+maximum_tolerable_journey_minutes=450
 
 Image[E]=./images/rover-p5-coupe-ardengreen_E.0.0,-33,14
 Image[SE]=./images/rover-p5-coupe-ardengreen_SE.0.0,-13,0
@@ -65,9 +65,9 @@ intro_month=10
 retire_year=1984
 retire_month=6
 speed=170
-class=3,4
+class=2,3,4
 maximum_comfortable_journey_minutes=80
-maximum_tolerable_journey_minutes=300
+maximum_tolerable_journey_minutes=450
 
 Image[E]=./images/rover-p5-coupe-sierrabeige_E.0.0,-33,14
 Image[SE]=./images/rover-p5-coupe-sierrabeige_SE.0.0,-13,0
@@ -88,9 +88,9 @@ intro_month=10
 retire_year=1983
 retire_month=6
 speed=170
-class=3,4
+class=2,3,4
 maximum_comfortable_journey_minutes=80
-maximum_tolerable_journey_minutes=300
+maximum_tolerable_journey_minutes=450
 
 Image[E]=./images/rover-p5-coupe-mexicobrown_E.0.0,-33,14
 Image[SE]=./images/rover-p5-coupe-mexicobrown_SE.0.0,-13,0
@@ -111,9 +111,9 @@ intro_month=10
 retire_year=1982
 retire_month=6
 speed=170
-class=3,4
+class=2,3,4
 maximum_comfortable_journey_minutes=80
-maximum_tolerable_journey_minutes=300
+maximum_tolerable_journey_minutes=450
 
 Image[E]=./images/rover-p5-coupe-black_E.0.0,-33,14
 Image[SE]=./images/rover-p5-coupe-black_SE.0.0,-13,0

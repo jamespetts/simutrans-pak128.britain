@@ -10,7 +10,7 @@
 #
 # Weight: 150 in total (black 45, silver 40, blue 35, green 30).
 #
-# Speed 220 km/h; comfort 120/360 (line). Classes 2,3.
+# Speed 220 km/h; comfort 120/510 (line). Classes 2,3.
 # Dates: 1988-1996 with a road tail to about 2008.
 #
 # Metres master: citycars/4.5/bmw-e34.blend. References:
@@ -28,7 +28,7 @@ retire_month=6
 speed=220
 class=2,3
 maximum_comfortable_journey_minutes=120
-maximum_tolerable_journey_minutes=360
+maximum_tolerable_journey_minutes=510
 
 Image[E]=./images/bmw-e34-black_E.0.0,-33,14
 Image[SE]=./images/bmw-e34-black_SE.0.0,-13,0
@@ -51,7 +51,7 @@ retire_month=6
 speed=220
 class=2,3
 maximum_comfortable_journey_minutes=120
-maximum_tolerable_journey_minutes=360
+maximum_tolerable_journey_minutes=510
 
 Image[E]=./images/bmw-e34-silver_E.0.0,-33,14
 Image[SE]=./images/bmw-e34-silver_SE.0.0,-13,0
@@ -74,7 +74,7 @@ retire_month=6
 speed=220
 class=2,3
 maximum_comfortable_journey_minutes=120
-maximum_tolerable_journey_minutes=360
+maximum_tolerable_journey_minutes=510
 
 Image[E]=./images/bmw-e34-blue_E.0.0,-33,14
 Image[SE]=./images/bmw-e34-blue_SE.0.0,-13,0
@@ -97,7 +97,7 @@ retire_month=6
 speed=220
 class=2,3
 maximum_comfortable_journey_minutes=120
-maximum_tolerable_journey_minutes=360
+maximum_tolerable_journey_minutes=510
 
 Image[E]=./images/bmw-e34-green_E.0.0,-33,14
 Image[SE]=./images/bmw-e34-green_SE.0.0,-13,0

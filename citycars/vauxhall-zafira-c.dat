@@ -16,7 +16,7 @@
 # 2012: Royal Blue solid, Power Red two-coat, Olympic White brilliant, and
 # Sovereign Silver, Silver Lake, Silky Shadow, Technical Grey and Carbon
 # Flash metallic. Weights 12, 10, 9, 8, total 39, provisional.
-# Speed 205 km/h. Comfort 80/300, on the line 180 + 1.5 x 80. Classes 1,2.
+# Speed 205 km/h. Comfort 80/450, on the line 330 + 1.5 x 80. Classes 1,2.
 # Dates: intro March 2012; retires staggered 2018-2021 as a road tail.
 #
 # Metres master: citycars/4.5/vauxhall-zafira-c.blend. Interchange:
@@ -41,7 +41,7 @@ retire_month=6
 speed=205
 class=1,2
 maximum_comfortable_journey_minutes=80
-maximum_tolerable_journey_minutes=300
+maximum_tolerable_journey_minutes=450
 
 Image[E]=./images/vauxhall-zafira-c-royalblue_E.0.0,-33,14
 Image[SE]=./images/vauxhall-zafira-c-royalblue_SE.0.0,-13,0
@@ -64,7 +64,7 @@ retire_month=6
 speed=205
 class=1,2
 maximum_comfortable_journey_minutes=80
-maximum_tolerable_journey_minutes=300
+maximum_tolerable_journey_minutes=450
 
 Image[E]=./images/vauxhall-zafira-c-powerred_E.0.0,-33,14
 Image[SE]=./images/vauxhall-zafira-c-powerred_SE.0.0,-13,0
@@ -87,7 +87,7 @@ retire_month=6
 speed=205
 class=1,2
 maximum_comfortable_journey_minutes=80
-maximum_tolerable_journey_minutes=300
+maximum_tolerable_journey_minutes=450
 
 Image[E]=./images/vauxhall-zafira-c-olympicwhite_E.0.0,-33,14
 Image[SE]=./images/vauxhall-zafira-c-olympicwhite_SE.0.0,-13,0
@@ -110,7 +110,7 @@ retire_month=6
 speed=205
 class=1,2
 maximum_comfortable_journey_minutes=80
-maximum_tolerable_journey_minutes=300
+maximum_tolerable_journey_minutes=450
 
 Image[E]=./images/vauxhall-zafira-c-sovereignsilver_E.0.0,-33,14
 Image[SE]=./images/vauxhall-zafira-c-sovereignsilver_SE.0.0,-13,0

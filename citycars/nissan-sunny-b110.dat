@@ -18,7 +18,7 @@
 # four-door saloons, but prints no names. White, Red, Blue and Green are plain
 # names. Weights 12, 10, 9, 8, total 39, provisional.
 #
-# Speed 140 km/h. Comfort 40/240, on the line 180 + 1.5 x 40. Classes 0,1.
+# Speed 140 km/h. Comfort 40/390, on the line 330 + 1.5 x 40. Classes 0,1,2.
 # Dates: intro 1971, the month unconfirmed and set to January; retire staggered
 # 1986-1990 as a road tail.
 #
@@ -41,9 +41,9 @@ intro_month=1
 retire_year=1990
 retire_month=6
 speed=140
-class=0,1
+class=0,1,2
 maximum_comfortable_journey_minutes=40
-maximum_tolerable_journey_minutes=240
+maximum_tolerable_journey_minutes=390
 
 Image[E]=./images/nissan-sunny-b110-white_E.0.0,-33,14
 Image[SE]=./images/nissan-sunny-b110-white_SE.0.0,-13,0
@@ -64,9 +64,9 @@ intro_month=1
 retire_year=1989
 retire_month=6
 speed=140
-class=0,1
+class=0,1,2
 maximum_comfortable_journey_minutes=40
-maximum_tolerable_journey_minutes=240
+maximum_tolerable_journey_minutes=390
 
 Image[E]=./images/nissan-sunny-b110-red_E.0.0,-33,14
 Image[SE]=./images/nissan-sunny-b110-red_SE.0.0,-13,0
@@ -87,9 +87,9 @@ intro_month=1
 retire_year=1988
 retire_month=6
 speed=140
-class=0,1
+class=0,1,2
 maximum_comfortable_journey_minutes=40
-maximum_tolerable_journey_minutes=240
+maximum_tolerable_journey_minutes=390
 
 Image[E]=./images/nissan-sunny-b110-blue_E.0.0,-33,14
 Image[SE]=./images/nissan-sunny-b110-blue_SE.0.0,-13,0
@@ -110,9 +110,9 @@ intro_month=1
 retire_year=1986
 retire_month=6
 speed=140
-class=0,1
+class=0,1,2
 maximum_comfortable_journey_minutes=40
-maximum_tolerable_journey_minutes=240
+maximum_tolerable_journey_minutes=390
 
 Image[E]=./images/nissan-sunny-b110-green_E.0.0,-33,14
 Image[SE]=./images/nissan-sunny-b110-green_SE.0.0,-13,0

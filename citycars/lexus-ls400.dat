@@ -9,7 +9,7 @@
 #
 # Weight: 20 in total (black 7, silver 6, blue 4, grey 3).
 #
-# Speed 250 km/h; comfort 145/395 (line). Class 4.
+# Speed 250 km/h; comfort 145/548 (line). Classes 3,4.
 # Dates: 1990-1994 with a road tail to about 2006.
 #
 # Metres master: citycars/4.5/lexus-ls400.blend. References:
@@ -29,9 +29,9 @@ intro_month=6
 retire_year=2006
 retire_month=6
 speed=250
-class=2,3
+class=3,4
 maximum_comfortable_journey_minutes=145
-maximum_tolerable_journey_minutes=395
+maximum_tolerable_journey_minutes=548
 
 Image[E]=./images/lexus-ls400-black_E.0.0,-33,14
 Image[SE]=./images/lexus-ls400-black_SE.0.0,-13,0
@@ -52,9 +52,9 @@ intro_month=6
 retire_year=2005
 retire_month=6
 speed=250
-class=2,3
+class=3,4
 maximum_comfortable_journey_minutes=145
-maximum_tolerable_journey_minutes=395
+maximum_tolerable_journey_minutes=548
 
 Image[E]=./images/lexus-ls400-silver_E.0.0,-33,14
 Image[SE]=./images/lexus-ls400-silver_SE.0.0,-13,0
@@ -75,9 +75,9 @@ intro_month=3
 retire_year=2004
 retire_month=6
 speed=250
-class=2,3
+class=3,4
 maximum_comfortable_journey_minutes=145
-maximum_tolerable_journey_minutes=395
+maximum_tolerable_journey_minutes=548
 
 Image[E]=./images/lexus-ls400-blue_E.0.0,-33,14
 Image[SE]=./images/lexus-ls400-blue_SE.0.0,-13,0
@@ -98,9 +98,9 @@ intro_month=3
 retire_year=2003
 retire_month=6
 speed=250
-class=2,3
+class=3,4
 maximum_comfortable_journey_minutes=145
-maximum_tolerable_journey_minutes=395
+maximum_tolerable_journey_minutes=548
 
 Image[E]=./images/lexus-ls400-grey_E.0.0,-33,14
 Image[SE]=./images/lexus-ls400-grey_SE.0.0,-13,0

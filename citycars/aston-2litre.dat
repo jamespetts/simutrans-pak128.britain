@@ -16,8 +16,8 @@
 # Colours: grade (d). No British colour list exists; the car was finished to
 # order. The objects carry plain names (green, black, red, silver).
 #
-# Speed 145 km/h, an estimate. Comfort 32/228 on the line 180 + 1.5 x 32:
-# an open two-seater with a little more room than the Ulster. Classes 3,4.
+# Speed 145 km/h, an estimate. Comfort 32/378 on the line 330 + 1.5 x 32:
+# an open two-seater with a little more room than the Ulster. Classes 2,3,4.
 # Dates are road presence: 1936 intro, retires staggered 1955-1958.
 #
 # Metres master: citycars/4.5/aston-2litre.blend. Interchange:
@@ -40,9 +40,9 @@ intro_month=1
 retire_year=1958
 retire_month=6
 speed=145
-class=3,4
+class=2,3,4
 maximum_comfortable_journey_minutes=32
-maximum_tolerable_journey_minutes=228
+maximum_tolerable_journey_minutes=378
 
 Image[E]=./images/aston-2litre-green_E.0.0,-33,14
 Image[SE]=./images/aston-2litre-green_SE.0.0,-13,0
@@ -63,9 +63,9 @@ intro_month=1
 retire_year=1957
 retire_month=6
 speed=145
-class=3,4
+class=2,3,4
 maximum_comfortable_journey_minutes=32
-maximum_tolerable_journey_minutes=228
+maximum_tolerable_journey_minutes=378
 
 Image[E]=./images/aston-2litre-black_E.0.0,-33,14
 Image[SE]=./images/aston-2litre-black_SE.0.0,-13,0
@@ -86,9 +86,9 @@ intro_month=1
 retire_year=1956
 retire_month=6
 speed=145
-class=3,4
+class=2,3,4
 maximum_comfortable_journey_minutes=32
-maximum_tolerable_journey_minutes=228
+maximum_tolerable_journey_minutes=378
 
 Image[E]=./images/aston-2litre-red_E.0.0,-33,14
 Image[SE]=./images/aston-2litre-red_SE.0.0,-13,0
@@ -109,9 +109,9 @@ intro_month=1
 retire_year=1955
 retire_month=6
 speed=145
-class=3,4
+class=2,3,4
 maximum_comfortable_journey_minutes=32
-maximum_tolerable_journey_minutes=228
+maximum_tolerable_journey_minutes=378
 
 Image[E]=./images/aston-2litre-silver_E.0.0,-33,14
 Image[SE]=./images/aston-2litre-silver_SE.0.0,-13,0

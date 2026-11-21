@@ -22,7 +22,7 @@
 # names: silver, blue, grey and red. Weights silver 3, blue 3, grey 2, red 2,
 # total 10, provisional pending the central rebase.
 #
-# Speed 190 km/h and comfort 90/315, as the Series 1 car. Classes 3,4.
+# Speed 190 km/h and comfort 90/465, as the Series 1 car. Classes 2,3,4.
 #
 # Dates are road presence: 1986 intro, retires staggered 2000-2003 on a
 # fourteen- to seventeen-year tail. Note that the saloon left the British range
@@ -47,9 +47,9 @@ intro_month=1
 retire_year=2003
 retire_month=6
 speed=190
-class=3,4
+class=2,3,4
 maximum_comfortable_journey_minutes=90
-maximum_tolerable_journey_minutes=315
+maximum_tolerable_journey_minutes=465
 
 Image[E]=./images/citroen-cx-series2-silver_E.0.0,-33,14
 Image[SE]=./images/citroen-cx-series2-silver_SE.0.0,-13,0
@@ -70,9 +70,9 @@ intro_month=1
 retire_year=2003
 retire_month=6
 speed=190
-class=3,4
+class=2,3,4
 maximum_comfortable_journey_minutes=90
-maximum_tolerable_journey_minutes=315
+maximum_tolerable_journey_minutes=465
 
 Image[E]=./images/citroen-cx-series2-blue_E.0.0,-33,14
 Image[SE]=./images/citroen-cx-series2-blue_SE.0.0,-13,0
@@ -93,9 +93,9 @@ intro_month=1
 retire_year=2002
 retire_month=6
 speed=190
-class=3,4
+class=2,3,4
 maximum_comfortable_journey_minutes=90
-maximum_tolerable_journey_minutes=315
+maximum_tolerable_journey_minutes=465
 
 Image[E]=./images/citroen-cx-series2-grey_E.0.0,-33,14
 Image[SE]=./images/citroen-cx-series2-grey_SE.0.0,-13,0
@@ -116,9 +116,9 @@ intro_month=1
 retire_year=2000
 retire_month=6
 speed=190
-class=3,4
+class=2,3,4
 maximum_comfortable_journey_minutes=90
-maximum_tolerable_journey_minutes=315
+maximum_tolerable_journey_minutes=465
 
 Image[E]=./images/citroen-cx-series2-red_E.0.0,-33,14
 Image[SE]=./images/citroen-cx-series2-red_SE.0.0,-13,0

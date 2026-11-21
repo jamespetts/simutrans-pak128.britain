@@ -18,7 +18,7 @@
 # Bristol Fawn, Dorchester Grey, Winchester Blue, Canterbury Green and Black.
 # Four are used. Weights 12, 10, 10, 8, total 40, provisional.
 #
-# Speed 130 km/h. Comfort 50/255, on the line 180 + 1.5 x 50. Classes 1,2.
+# Speed 130 km/h. Comfort 50/405, on the line 330 + 1.5 x 50. Class 2.
 # Dates are road presence: 1951 intro, retires staggered 1970-1973.
 #
 # Metres master: citycars/4.5/ford-consul-mk1.blend. Interchange:
@@ -41,9 +41,9 @@ intro_month=1
 retire_year=1973
 retire_month=6
 speed=130
-class=1,2
+class=2
 maximum_comfortable_journey_minutes=50
-maximum_tolerable_journey_minutes=255
+maximum_tolerable_journey_minutes=405
 
 Image[E]=./images/ford-consul-mk1-edinburghgreen_E.0.0,-33,14
 Image[SE]=./images/ford-consul-mk1-edinburghgreen_SE.0.0,-13,0
@@ -64,9 +64,9 @@ intro_month=1
 retire_year=1972
 retire_month=6
 speed=130
-class=1,2
+class=2
 maximum_comfortable_journey_minutes=50
-maximum_tolerable_journey_minutes=255
+maximum_tolerable_journey_minutes=405
 
 Image[E]=./images/ford-consul-mk1-bristolfawn_E.0.0,-33,14
 Image[SE]=./images/ford-consul-mk1-bristolfawn_SE.0.0,-13,0
@@ -87,9 +87,9 @@ intro_month=1
 retire_year=1971
 retire_month=6
 speed=130
-class=1,2
+class=2
 maximum_comfortable_journey_minutes=50
-maximum_tolerable_journey_minutes=255
+maximum_tolerable_journey_minutes=405
 
 Image[E]=./images/ford-consul-mk1-dorchestergrey_E.0.0,-33,14
 Image[SE]=./images/ford-consul-mk1-dorchestergrey_SE.0.0,-13,0
@@ -110,9 +110,9 @@ intro_month=1
 retire_year=1970
 retire_month=6
 speed=130
-class=1,2
+class=2
 maximum_comfortable_journey_minutes=50
-maximum_tolerable_journey_minutes=255
+maximum_tolerable_journey_minutes=405
 
 Image[E]=./images/ford-consul-mk1-winchesterblue_E.0.0,-33,14
 Image[SE]=./images/ford-consul-mk1-winchesterblue_SE.0.0,-13,0

@@ -29,9 +29,9 @@
 # material and is not affected by recolouring.
 #
 # Speed 140 km/h, the DS 19's quoted maximum, low for 1955 but matched to its
-# long-stroke engine. Comfort 80/300, on the line 180 + 1.5 x 80: the
+# long-stroke engine. Comfort 80/450, on the line 330 + 1.5 x 80: the
 # hydropneumatic suspension and the seats made it one of the most comfortable
-# cars of its era. Classes 2,3.
+# cars of its era. Class 3.
 #
 # Dates are road presence: October 1955 intro, retires staggered 1975-1978 on a
 # nineteen- to twenty-two-year tail.
@@ -55,9 +55,9 @@ intro_month=10
 retire_year=1978
 retire_month=6
 speed=140
-class=2,3
+class=3
 maximum_comfortable_journey_minutes=80
-maximum_tolerable_journey_minutes=300
+maximum_tolerable_journey_minutes=450
 
 Image[E]=./images/citroen-ds-1955-black_E.0.0,-33,14
 Image[SE]=./images/citroen-ds-1955-black_SE.0.0,-13,0
@@ -78,9 +78,9 @@ intro_month=10
 retire_year=1978
 retire_month=6
 speed=140
-class=2,3
+class=3
 maximum_comfortable_journey_minutes=80
-maximum_tolerable_journey_minutes=300
+maximum_tolerable_journey_minutes=450
 
 Image[E]=./images/citroen-ds-1955-white_E.0.0,-33,14
 Image[SE]=./images/citroen-ds-1955-white_SE.0.0,-13,0
@@ -101,9 +101,9 @@ intro_month=10
 retire_year=1977
 retire_month=6
 speed=140
-class=2,3
+class=3
 maximum_comfortable_journey_minutes=80
-maximum_tolerable_journey_minutes=300
+maximum_tolerable_journey_minutes=450
 
 Image[E]=./images/citroen-ds-1955-red_E.0.0,-33,14
 Image[SE]=./images/citroen-ds-1955-red_SE.0.0,-13,0
@@ -124,9 +124,9 @@ intro_month=10
 retire_year=1975
 retire_month=6
 speed=140
-class=2,3
+class=3
 maximum_comfortable_journey_minutes=80
-maximum_tolerable_journey_minutes=300
+maximum_tolerable_journey_minutes=450
 
 Image[E]=./images/citroen-ds-1955-blue_E.0.0,-33,14
 Image[SE]=./images/citroen-ds-1955-blue_SE.0.0,-13,0

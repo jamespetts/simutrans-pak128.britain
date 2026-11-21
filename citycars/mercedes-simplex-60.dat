@@ -12,7 +12,7 @@
 #
 # Weight: 10 in total (white 4, green 3, maroon 2, black 1).
 #
-# Speed 110 km/h; comfort 55/265 (line). Class 4.
+# Speed 110 km/h; comfort 55/413 (line). Class 4.
 # Dates: 1903-1909 with a road tail to about 1932.
 #
 # Metres master: citycars/4.5/mercedes-simplex-60.blend. References:
@@ -31,7 +31,7 @@ retire_month=6
 speed=110
 class=4
 maximum_comfortable_journey_minutes=55
-maximum_tolerable_journey_minutes=265
+maximum_tolerable_journey_minutes=413
 
 Image[E]=./images/mercedes-simplex-60-white_E.0.0,-33,14
 Image[SE]=./images/mercedes-simplex-60-white_SE.0.0,-13,0
@@ -54,7 +54,7 @@ retire_month=6
 speed=110
 class=4
 maximum_comfortable_journey_minutes=55
-maximum_tolerable_journey_minutes=265
+maximum_tolerable_journey_minutes=413
 
 Image[E]=./images/mercedes-simplex-60-green_E.0.0,-33,14
 Image[SE]=./images/mercedes-simplex-60-green_SE.0.0,-13,0
@@ -77,7 +77,7 @@ retire_month=6
 speed=110
 class=4
 maximum_comfortable_journey_minutes=55
-maximum_tolerable_journey_minutes=265
+maximum_tolerable_journey_minutes=413
 
 Image[E]=./images/mercedes-simplex-60-maroon_E.0.0,-33,14
 Image[SE]=./images/mercedes-simplex-60-maroon_SE.0.0,-13,0
@@ -100,7 +100,7 @@ retire_month=6
 speed=110
 class=4
 maximum_comfortable_journey_minutes=55
-maximum_tolerable_journey_minutes=265
+maximum_tolerable_journey_minutes=413
 
 Image[E]=./images/mercedes-simplex-60-black_E.0.0,-33,14
 Image[SE]=./images/mercedes-simplex-60-black_SE.0.0,-13,0

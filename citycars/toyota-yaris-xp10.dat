@@ -28,8 +28,8 @@
 # rebase.
 #
 # Speed 165 km/h, between the 1.0-litre car's 155 and the 1.3-litre car's
-# quoted maximum. Comfort 65/280, on the line 180 + 1.5 x 65: small and light,
-# but well built and quiet for its class. Classes 0,1,2, because it was cheap
+# quoted maximum. Comfort 65/428, on the line 330 + 1.5 x 65: small and light,
+# but well built and quiet for its class. Classes 0,1, because it was cheap
 # enough to be the first car of a low-income household and drifted down the
 # bands as it aged.
 #
@@ -56,9 +56,9 @@ intro_month=4
 retire_year=2014
 retire_month=6
 speed=165
-class=0,1,2
+class=0,1
 maximum_comfortable_journey_minutes=65
-maximum_tolerable_journey_minutes=280
+maximum_tolerable_journey_minutes=428
 
 Image[E]=./images/toyota-yaris-xp10-crystalsilver_E.0.0,-33,14
 Image[SE]=./images/toyota-yaris-xp10-crystalsilver_SE.0.0,-13,0
@@ -79,9 +79,9 @@ intro_month=4
 retire_year=2014
 retire_month=6
 speed=165
-class=0,1,2
+class=0,1
 maximum_comfortable_journey_minutes=65
-maximum_tolerable_journey_minutes=280
+maximum_tolerable_journey_minutes=428
 
 Image[E]=./images/toyota-yaris-xp10-cirruswhite_E.0.0,-33,14
 Image[SE]=./images/toyota-yaris-xp10-cirruswhite_SE.0.0,-13,0
@@ -102,9 +102,9 @@ intro_month=4
 retire_year=2013
 retire_month=6
 speed=165
-class=0,1,2
+class=0,1
 maximum_comfortable_journey_minutes=65
-maximum_tolerable_journey_minutes=280
+maximum_tolerable_journey_minutes=428
 
 Image[E]=./images/toyota-yaris-xp10-eclipseblack_E.0.0,-33,14
 Image[SE]=./images/toyota-yaris-xp10-eclipseblack_SE.0.0,-13,0
@@ -125,9 +125,9 @@ intro_month=4
 retire_year=2012
 retire_month=6
 speed=165
-class=0,1,2
+class=0,1
 maximum_comfortable_journey_minutes=65
-maximum_tolerable_journey_minutes=280
+maximum_tolerable_journey_minutes=428
 
 Image[E]=./images/toyota-yaris-xp10-chillired_E.0.0,-33,14
 Image[SE]=./images/toyota-yaris-xp10-chillired_SE.0.0,-13,0

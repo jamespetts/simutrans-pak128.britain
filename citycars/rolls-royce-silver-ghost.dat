@@ -11,7 +11,7 @@
 # Weight: 15 in total (black 6, green 4, maroon 3, grey 2). Section F of the gaps
 # doc: early prestige models are representative only.
 #
-# Speed 110 km/h; comfort 60/275 (line). Class 4.
+# Speed 110 km/h; comfort 60/420 (line). Class 4.
 # Dates: 1907-1925 with a road tail to about 1938.
 #
 # Metres master: citycars/4.5/rolls-royce-silver-ghost.blend. References:
@@ -36,7 +36,7 @@ retire_month=6
 speed=110
 class=4
 maximum_comfortable_journey_minutes=60
-maximum_tolerable_journey_minutes=275
+maximum_tolerable_journey_minutes=420
 
 Image[E]=./images/rolls-royce-silver-ghost-black_E.0.0,-33,14
 Image[SE]=./images/rolls-royce-silver-ghost-black_SE.0.0,-13,0
@@ -59,7 +59,7 @@ retire_month=6
 speed=110
 class=4
 maximum_comfortable_journey_minutes=60
-maximum_tolerable_journey_minutes=275
+maximum_tolerable_journey_minutes=420
 
 Image[E]=./images/rolls-royce-silver-ghost-green_E.0.0,-33,14
 Image[SE]=./images/rolls-royce-silver-ghost-green_SE.0.0,-13,0
@@ -82,7 +82,7 @@ retire_month=6
 speed=110
 class=4
 maximum_comfortable_journey_minutes=60
-maximum_tolerable_journey_minutes=275
+maximum_tolerable_journey_minutes=420
 
 Image[E]=./images/rolls-royce-silver-ghost-maroon_E.0.0,-33,14
 Image[SE]=./images/rolls-royce-silver-ghost-maroon_SE.0.0,-13,0
@@ -105,7 +105,7 @@ retire_month=6
 speed=110
 class=4
 maximum_comfortable_journey_minutes=60
-maximum_tolerable_journey_minutes=275
+maximum_tolerable_journey_minutes=420
 
 Image[E]=./images/rolls-royce-silver-ghost-grey_E.0.0,-33,14
 Image[SE]=./images/rolls-royce-silver-ghost-grey_SE.0.0,-13,0

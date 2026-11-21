@@ -11,7 +11,7 @@
 # Weight: 40 in total (black 15, silver 12, blue 8, green 5), below the Jaguar XJ's
 # 60 and above the Mercedes W140's 20 to match the measured parc ratios.
 #
-# Speed 230 km/h; comfort 140/390 (line). Class 4.
+# Speed 230 km/h; comfort 140/540 (line). Class 3.
 # Dates: 1987-1994 with a road tail to about 2006.
 #
 # Metres master: citycars/4.5/bmw-e32.blend. References:
@@ -27,9 +27,9 @@ intro_month=6
 retire_year=2006
 retire_month=6
 speed=230
-class=3,4
+class=3
 maximum_comfortable_journey_minutes=140
-maximum_tolerable_journey_minutes=390
+maximum_tolerable_journey_minutes=540
 
 Image[E]=./images/bmw-e32-black_E.0.0,-33,14
 Image[SE]=./images/bmw-e32-black_SE.0.0,-13,0
@@ -50,9 +50,9 @@ intro_month=6
 retire_year=2005
 retire_month=6
 speed=230
-class=3,4
+class=3
 maximum_comfortable_journey_minutes=140
-maximum_tolerable_journey_minutes=390
+maximum_tolerable_journey_minutes=540
 
 Image[E]=./images/bmw-e32-silver_E.0.0,-33,14
 Image[SE]=./images/bmw-e32-silver_SE.0.0,-13,0
@@ -73,9 +73,9 @@ intro_month=3
 retire_year=2004
 retire_month=6
 speed=230
-class=3,4
+class=3
 maximum_comfortable_journey_minutes=140
-maximum_tolerable_journey_minutes=390
+maximum_tolerable_journey_minutes=540
 
 Image[E]=./images/bmw-e32-blue_E.0.0,-33,14
 Image[SE]=./images/bmw-e32-blue_SE.0.0,-13,0
@@ -96,9 +96,9 @@ intro_month=3
 retire_year=2003
 retire_month=6
 speed=230
-class=3,4
+class=3
 maximum_comfortable_journey_minutes=140
-maximum_tolerable_journey_minutes=390
+maximum_tolerable_journey_minutes=540
 
 Image[E]=./images/bmw-e32-green_E.0.0,-33,14
 Image[SE]=./images/bmw-e32-green_SE.0.0,-13,0

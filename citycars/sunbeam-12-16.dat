@@ -12,12 +12,12 @@
 #
 # Colours: Black, Dark Green, Maroon and Grey, as specified for this model.
 #
-# Weight: 13 in total (black 5, green 4, maroon 2, grey 2). Class 3 and a
+# Weight: 13 in total (black 5, green 4, maroon 2, grey 2). Classes 2,3 and a
 # low-volume prestige car, so the total stays inside the 10-15 band.
 #
 # Speed 80 km/h (50 mph), the National Motor Museum figure for its 1914 12/16.
 # https://nationalmotormuseum.org.uk/collections/vehicles/sunbeam-1216hp/
-# Comfort 60/270 (line). Class 3.
+# Comfort 60/420 (line). Classes 2,3.
 # Dates: 1912-1921 with a road tail to about 1946.
 #
 # Metres master: citycars/4.5/sunbeam-12-16.blend. References:
@@ -44,9 +44,9 @@ intro_month=1
 retire_year=1946
 retire_month=6
 speed=80
-class=3,4
+class=2,3
 maximum_comfortable_journey_minutes=60
-maximum_tolerable_journey_minutes=270
+maximum_tolerable_journey_minutes=420
 
 Image[E]=./images/sunbeam-12-16-black_E.0.0,-33,14
 Image[SE]=./images/sunbeam-12-16-black_SE.0.0,-13,0
@@ -67,9 +67,9 @@ intro_month=4
 retire_year=1945
 retire_month=6
 speed=80
-class=3,4
+class=2,3
 maximum_comfortable_journey_minutes=60
-maximum_tolerable_journey_minutes=270
+maximum_tolerable_journey_minutes=420
 
 Image[E]=./images/sunbeam-12-16-green_E.0.0,-33,14
 Image[SE]=./images/sunbeam-12-16-green_SE.0.0,-13,0
@@ -90,9 +90,9 @@ intro_month=3
 retire_year=1944
 retire_month=6
 speed=80
-class=3,4
+class=2,3
 maximum_comfortable_journey_minutes=60
-maximum_tolerable_journey_minutes=270
+maximum_tolerable_journey_minutes=420
 
 Image[E]=./images/sunbeam-12-16-maroon_E.0.0,-33,14
 Image[SE]=./images/sunbeam-12-16-maroon_SE.0.0,-13,0
@@ -113,9 +113,9 @@ intro_month=6
 retire_year=1943
 retire_month=6
 speed=80
-class=3,4
+class=2,3
 maximum_comfortable_journey_minutes=60
-maximum_tolerable_journey_minutes=270
+maximum_tolerable_journey_minutes=420
 
 Image[E]=./images/sunbeam-12-16-grey_E.0.0,-33,14
 Image[SE]=./images/sunbeam-12-16-grey_SE.0.0,-13,0

@@ -1,3 +1,4 @@
+# Retire policy 2026-11-20: still in production in 2026 with no announced end; retire dates commented out. Revisit when an end is announced.
 # BMW X5 G05 five-door SUV, 2018 onwards.
 #
 # The fourth X5: the larger connected kidney grille, the pre-facelift lamps,
@@ -14,8 +15,8 @@
 # Colours: grade (c), provisional. Black, silver, white and blue are plain
 # names. Weights 18, 16, 14, 12, total 60, provisional.
 #
-# Speed 230 km/h. Comfort 100/330, on the line 180 + 1.5 x 100. Classes 3,4.
-# Dates are road presence: 2018 intro, retires staggered 2038-2041.
+# Speed 230 km/h. Comfort 100/480, on the line 330 + 1.5 x 100. Class 3.
+# Dates are road presence: 2018 intro, retire dates commented out (still in production in 2026).
 #
 # Metres master: citycars/4.5/bmw-x5-g05.blend. Interchange:
 # citycars/4.5/bmw-x5-g05.dae. References:
@@ -36,12 +37,12 @@ copyright=JamesPetts
 DistributionWeight=18
 intro_year=2018
 intro_month=12
-retire_year=2041
-retire_month=6
+#retire_year=2041
+#retire_month=6
 speed=230
-class=3,4
+class=3
 maximum_comfortable_journey_minutes=100
-maximum_tolerable_journey_minutes=330
+maximum_tolerable_journey_minutes=480
 
 Image[E]=./images/bmw-x5-g05-black_E.0.0,-33,14
 Image[SE]=./images/bmw-x5-g05-black_SE.0.0,-13,0
@@ -59,12 +60,12 @@ copyright=JamesPetts
 DistributionWeight=16
 intro_year=2018
 intro_month=12
-retire_year=2040
-retire_month=6
+#retire_year=2040
+#retire_month=6
 speed=230
-class=3,4
+class=3
 maximum_comfortable_journey_minutes=100
-maximum_tolerable_journey_minutes=330
+maximum_tolerable_journey_minutes=480
 
 Image[E]=./images/bmw-x5-g05-silver_E.0.0,-33,14
 Image[SE]=./images/bmw-x5-g05-silver_SE.0.0,-13,0
@@ -82,12 +83,12 @@ copyright=JamesPetts
 DistributionWeight=14
 intro_year=2018
 intro_month=12
-retire_year=2039
-retire_month=6
+#retire_year=2039
+#retire_month=6
 speed=230
-class=3,4
+class=3
 maximum_comfortable_journey_minutes=100
-maximum_tolerable_journey_minutes=330
+maximum_tolerable_journey_minutes=480
 
 Image[E]=./images/bmw-x5-g05-white_E.0.0,-33,14
 Image[SE]=./images/bmw-x5-g05-white_SE.0.0,-13,0
@@ -105,12 +106,12 @@ copyright=JamesPetts
 DistributionWeight=12
 intro_year=2018
 intro_month=12
-retire_year=2038
-retire_month=6
+#retire_year=2038
+#retire_month=6
 speed=230
-class=3,4
+class=3
 maximum_comfortable_journey_minutes=100
-maximum_tolerable_journey_minutes=330
+maximum_tolerable_journey_minutes=480
 
 Image[E]=./images/bmw-x5-g05-blue_E.0.0,-33,14
 Image[SE]=./images/bmw-x5-g05-blue_SE.0.0,-13,0

@@ -17,8 +17,8 @@
 # Total 15. Provisional pending the central rebase.
 #
 # Speed 180 km/h, a step above the R8 400 for the later engine range. Comfort
-# 92/320, on the line 180 + 1.5 x 92, a fraction above the R8's 90/315 for the
-# revised trim and sound deadening. Classes 1,2.
+# 92/468, on the line 330 + 1.5 x 92, a fraction above the R8's 90/465 for the
+# revised trim and sound deadening. Classes 0,1,2.
 #
 # Dates are road presence, not production: June 1995 intro, retires staggered
 # 2007-2011 on a twelve- to sixteen-year tail.
@@ -42,9 +42,9 @@ intro_month=6
 retire_year=2009
 retire_month=6
 speed=180
-class=2,3
+class=0,1,2
 maximum_comfortable_journey_minutes=92
-maximum_tolerable_journey_minutes=320
+maximum_tolerable_journey_minutes=468
 
 Image[E]=./images/rover-400-hhr-red_E.0.0,-33,14
 Image[SE]=./images/rover-400-hhr-red_SE.0.0,-13,0
@@ -65,9 +65,9 @@ intro_month=6
 retire_year=2011
 retire_month=6
 speed=180
-class=2,3
+class=0,1,2
 maximum_comfortable_journey_minutes=92
-maximum_tolerable_journey_minutes=320
+maximum_tolerable_journey_minutes=468
 
 Image[E]=./images/rover-400-hhr-silver_E.0.0,-33,14
 Image[SE]=./images/rover-400-hhr-silver_SE.0.0,-13,0
@@ -88,9 +88,9 @@ intro_month=6
 retire_year=2007
 retire_month=6
 speed=180
-class=2,3
+class=0,1,2
 maximum_comfortable_journey_minutes=92
-maximum_tolerable_journey_minutes=320
+maximum_tolerable_journey_minutes=468
 
 Image[E]=./images/rover-400-hhr-white_E.0.0,-33,14
 Image[SE]=./images/rover-400-hhr-white_SE.0.0,-13,0
@@ -111,9 +111,9 @@ intro_month=3
 retire_year=2010
 retire_month=6
 speed=180
-class=2,3
+class=0,1,2
 maximum_comfortable_journey_minutes=92
-maximum_tolerable_journey_minutes=320
+maximum_tolerable_journey_minutes=468
 
 Image[E]=./images/rover-400-hhr-blue_E.0.0,-33,14
 Image[SE]=./images/rover-400-hhr-blue_SE.0.0,-13,0

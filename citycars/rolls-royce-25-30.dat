@@ -10,7 +10,7 @@
 #
 # Weight: 10 in total (black 4, green 3, maroon 2, grey 1).
 #
-# Speed 130 km/h; comfort 80/300 (line). Class 4.
+# Speed 130 km/h; comfort 80/450 (line). Class 4.
 # Dates: 1936-1938 with a road tail to about 1960.
 #
 # Metres master: citycars/4.5/rolls-royce-25-30.blend. References:
@@ -29,7 +29,7 @@ retire_month=6
 speed=130
 class=4
 maximum_comfortable_journey_minutes=80
-maximum_tolerable_journey_minutes=300
+maximum_tolerable_journey_minutes=450
 
 Image[E]=./images/rolls-royce-25-30-black_E.0.0,-33,14
 Image[SE]=./images/rolls-royce-25-30-black_SE.0.0,-13,0
@@ -52,7 +52,7 @@ retire_month=6
 speed=130
 class=4
 maximum_comfortable_journey_minutes=80
-maximum_tolerable_journey_minutes=300
+maximum_tolerable_journey_minutes=450
 
 Image[E]=./images/rolls-royce-25-30-green_E.0.0,-33,14
 Image[SE]=./images/rolls-royce-25-30-green_SE.0.0,-13,0
@@ -75,7 +75,7 @@ retire_month=6
 speed=130
 class=4
 maximum_comfortable_journey_minutes=80
-maximum_tolerable_journey_minutes=300
+maximum_tolerable_journey_minutes=450
 
 Image[E]=./images/rolls-royce-25-30-maroon_E.0.0,-33,14
 Image[SE]=./images/rolls-royce-25-30-maroon_SE.0.0,-13,0
@@ -98,7 +98,7 @@ retire_month=6
 speed=130
 class=4
 maximum_comfortable_journey_minutes=80
-maximum_tolerable_journey_minutes=300
+maximum_tolerable_journey_minutes=450
 
 Image[E]=./images/rolls-royce-25-30-grey_E.0.0,-33,14
 Image[SE]=./images/rolls-royce-25-30-grey_SE.0.0,-13,0

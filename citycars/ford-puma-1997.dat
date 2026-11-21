@@ -17,7 +17,7 @@
 # Colours: grade (d); no UK colour list was read. Blue, Red, Silver and Black
 # are plain names. Weights 14, 12, 10, 8, total 44, provisional.
 #
-# Speed 200 km/h. Comfort 65/280, on the line 180 + 1.5 x 65. Classes 1,2.
+# Speed 200 km/h. Comfort 65/428, on the line 330 + 1.5 x 65. Classes 1,2.
 # Dates: intro July 1997; retires staggered 2013-2016 as a road tail.
 #
 # Metres master: citycars/4.5/ford-puma-1997.blend. Interchange:
@@ -42,7 +42,7 @@ retire_month=6
 speed=200
 class=1,2
 maximum_comfortable_journey_minutes=65
-maximum_tolerable_journey_minutes=280
+maximum_tolerable_journey_minutes=428
 
 Image[E]=./images/ford-puma-1997-blue_E.0.0,-33,14
 Image[SE]=./images/ford-puma-1997-blue_SE.0.0,-13,0
@@ -65,7 +65,7 @@ retire_month=6
 speed=200
 class=1,2
 maximum_comfortable_journey_minutes=65
-maximum_tolerable_journey_minutes=280
+maximum_tolerable_journey_minutes=428
 
 Image[E]=./images/ford-puma-1997-red_E.0.0,-33,14
 Image[SE]=./images/ford-puma-1997-red_SE.0.0,-13,0
@@ -88,7 +88,7 @@ retire_month=6
 speed=200
 class=1,2
 maximum_comfortable_journey_minutes=65
-maximum_tolerable_journey_minutes=280
+maximum_tolerable_journey_minutes=428
 
 Image[E]=./images/ford-puma-1997-silver_E.0.0,-33,14
 Image[SE]=./images/ford-puma-1997-silver_SE.0.0,-13,0
@@ -111,7 +111,7 @@ retire_month=6
 speed=200
 class=1,2
 maximum_comfortable_journey_minutes=65
-maximum_tolerable_journey_minutes=280
+maximum_tolerable_journey_minutes=428
 
 Image[E]=./images/ford-puma-1997-black_E.0.0,-33,14
 Image[SE]=./images/ford-puma-1997-black_SE.0.0,-13,0

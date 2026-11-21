@@ -11,7 +11,7 @@ retire_month=4
 speed=60
 class=0,1
 maximum_comfortable_journey_minutes=12
-maximum_tolerable_journey_minutes=200
+maximum_tolerable_journey_minutes=348
 
 Image[E]=./images/peel-p50-red_E.0.0,-33,14
 Image[SE]=./images/peel-p50-red_SE.0.0,-13,0
@@ -34,7 +34,7 @@ retire_month=7
 speed=60
 class=0,1
 maximum_comfortable_journey_minutes=12
-maximum_tolerable_journey_minutes=200
+maximum_tolerable_journey_minutes=348
 
 Image[E]=./images/peel-p50-blue_E.0.0,-33,14
 Image[SE]=./images/peel-p50-blue_SE.0.0,-13,0

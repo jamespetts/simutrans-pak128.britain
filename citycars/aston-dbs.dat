@@ -22,7 +22,7 @@
 # Platinum (76) and Aquamarine (55); Pacific Blue (34) and Goodwood Green (14)
 # are used here for visual range. Weights 4, 3, 2, 1, total 10, provisional.
 #
-# Speed 240 km/h. Comfort 65/280, on the line 180 + 1.5 x 65: a longer, more
+# Speed 240 km/h. Comfort 65/428, on the line 330 + 1.5 x 65: a longer, more
 # spacious cabin than the DB6's, with the same low roofline. Classes 3,4.
 #
 # Dates are road presence: 1967 intro, retires staggered 1985-1986 on an
@@ -49,7 +49,7 @@ retire_month=6
 speed=240
 class=3,4
 maximum_comfortable_journey_minutes=65
-maximum_tolerable_journey_minutes=280
+maximum_tolerable_journey_minutes=428
 
 Image[E]=./images/aston-dbs-silverbirch_E.0.0,-33,14
 Image[SE]=./images/aston-dbs-silverbirch_SE.0.0,-13,0
@@ -72,7 +72,7 @@ retire_month=6
 speed=240
 class=3,4
 maximum_comfortable_journey_minutes=65
-maximum_tolerable_journey_minutes=280
+maximum_tolerable_journey_minutes=428
 
 Image[E]=./images/aston-dbs-dubonnetrosso_E.0.0,-33,14
 Image[SE]=./images/aston-dbs-dubonnetrosso_SE.0.0,-13,0
@@ -95,7 +95,7 @@ retire_month=6
 speed=240
 class=3,4
 maximum_comfortable_journey_minutes=65
-maximum_tolerable_journey_minutes=280
+maximum_tolerable_journey_minutes=428
 
 Image[E]=./images/aston-dbs-pacificblue_E.0.0,-33,14
 Image[SE]=./images/aston-dbs-pacificblue_SE.0.0,-13,0
@@ -118,7 +118,7 @@ retire_month=6
 speed=240
 class=3,4
 maximum_comfortable_journey_minutes=65
-maximum_tolerable_journey_minutes=280
+maximum_tolerable_journey_minutes=428
 
 Image[E]=./images/aston-dbs-goodwoodgreen_E.0.0,-33,14
 Image[SE]=./images/aston-dbs-goodwoodgreen_SE.0.0,-13,0

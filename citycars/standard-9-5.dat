@@ -26,8 +26,8 @@
 # wood keep their own materials.
 #
 # Speed 80 km/h, an estimate for a 1913 9.5 hp light car; no published maximum
-# was found and the figure is recorded as an estimate. Comfort 35/235, on the
-# line 180 + 1.5 x 35. Classes 1,2.
+# was found and the figure is recorded as an estimate. Comfort 35/383, on the
+# line 330 + 1.5 x 35. Class 2.
 #
 # Dates are road presence: 1913 intro, retires staggered 1929-1932 on a
 # sixteen- to nineteen-year tail.
@@ -51,9 +51,9 @@ intro_month=1
 retire_year=1932
 retire_month=6
 speed=80
-class=1,2
+class=2
 maximum_comfortable_journey_minutes=35
-maximum_tolerable_journey_minutes=235
+maximum_tolerable_journey_minutes=383
 
 Image[E]=./images/standard-9-5-green_E.0.0,-33,14
 Image[SE]=./images/standard-9-5-green_SE.0.0,-13,0
@@ -74,9 +74,9 @@ intro_month=1
 retire_year=1932
 retire_month=6
 speed=80
-class=1,2
+class=2
 maximum_comfortable_journey_minutes=35
-maximum_tolerable_journey_minutes=235
+maximum_tolerable_journey_minutes=383
 
 Image[E]=./images/standard-9-5-black_E.0.0,-33,14
 Image[SE]=./images/standard-9-5-black_SE.0.0,-13,0
@@ -97,9 +97,9 @@ intro_month=1
 retire_year=1931
 retire_month=6
 speed=80
-class=1,2
+class=2
 maximum_comfortable_journey_minutes=35
-maximum_tolerable_journey_minutes=235
+maximum_tolerable_journey_minutes=383
 
 Image[E]=./images/standard-9-5-maroon_E.0.0,-33,14
 Image[SE]=./images/standard-9-5-maroon_SE.0.0,-13,0
@@ -120,9 +120,9 @@ intro_month=1
 retire_year=1929
 retire_month=6
 speed=80
-class=1,2
+class=2
 maximum_comfortable_journey_minutes=35
-maximum_tolerable_journey_minutes=235
+maximum_tolerable_journey_minutes=383
 
 Image[E]=./images/standard-9-5-blue_E.0.0,-33,14
 Image[SE]=./images/standard-9-5-blue_SE.0.0,-13,0

@@ -12,7 +12,7 @@
 # Weight: 25 in total (black 9, silver 7, blue 5, burgundy 4), low per section F
 # of the gaps doc.
 #
-# Speed 190 km/h; comfort 150/405 (line). Class 4.
+# Speed 190 km/h; comfort 150/555 (line). Classes 3,4.
 # Dates: 1965-1980 with a road tail to about 1995.
 #
 # Metres master: citycars/4.5/rolls-royce-silver-shadow.blend. References:
@@ -29,9 +29,9 @@ intro_month=10
 retire_year=1995
 retire_month=6
 speed=190
-class=4
+class=3,4
 maximum_comfortable_journey_minutes=150
-maximum_tolerable_journey_minutes=405
+maximum_tolerable_journey_minutes=555
 
 Image[E]=./images/rolls-royce-silver-shadow-black_E.0.0,-33,14
 Image[SE]=./images/rolls-royce-silver-shadow-black_SE.0.0,-13,0
@@ -52,9 +52,9 @@ intro_month=10
 retire_year=1994
 retire_month=6
 speed=190
-class=4
+class=3,4
 maximum_comfortable_journey_minutes=150
-maximum_tolerable_journey_minutes=405
+maximum_tolerable_journey_minutes=555
 
 Image[E]=./images/rolls-royce-silver-shadow-silver_E.0.0,-33,14
 Image[SE]=./images/rolls-royce-silver-shadow-silver_SE.0.0,-13,0
@@ -75,9 +75,9 @@ intro_month=3
 retire_year=1993
 retire_month=6
 speed=190
-class=4
+class=3,4
 maximum_comfortable_journey_minutes=150
-maximum_tolerable_journey_minutes=405
+maximum_tolerable_journey_minutes=555
 
 Image[E]=./images/rolls-royce-silver-shadow-blue_E.0.0,-33,14
 Image[SE]=./images/rolls-royce-silver-shadow-blue_SE.0.0,-13,0
@@ -98,9 +98,9 @@ intro_month=3
 retire_year=1992
 retire_month=6
 speed=190
-class=4
+class=3,4
 maximum_comfortable_journey_minutes=150
-maximum_tolerable_journey_minutes=405
+maximum_tolerable_journey_minutes=555
 
 Image[E]=./images/rolls-royce-silver-shadow-burgundy_E.0.0,-33,14
 Image[SE]=./images/rolls-royce-silver-shadow-burgundy_SE.0.0,-13,0

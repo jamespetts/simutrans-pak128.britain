@@ -10,7 +10,7 @@
 #
 # Weight: 70 in total (green 22, silver 18, blue 16, black 14).
 #
-# Speed 210 km/h; comfort 130/375 (line). Classes 3,4.
+# Speed 210 km/h; comfort 130/525 (line). Classes 2,3.
 # Dates: 1968-1987 with a road tail to about 1997.
 #
 # Metres master: citycars/4.5/jaguar-xj6-series1.blend. References:
@@ -27,9 +27,9 @@ intro_month=9
 retire_year=1997
 retire_month=6
 speed=210
-class=3,4
+class=2,3
 maximum_comfortable_journey_minutes=130
-maximum_tolerable_journey_minutes=375
+maximum_tolerable_journey_minutes=525
 
 Image[E]=./images/jaguar-xj6-series1-green_E.0.0,-33,14
 Image[SE]=./images/jaguar-xj6-series1-green_SE.0.0,-13,0
@@ -50,9 +50,9 @@ intro_month=9
 retire_year=1996
 retire_month=6
 speed=210
-class=3,4
+class=2,3
 maximum_comfortable_journey_minutes=130
-maximum_tolerable_journey_minutes=375
+maximum_tolerable_journey_minutes=525
 
 Image[E]=./images/jaguar-xj6-series1-silver_E.0.0,-33,14
 Image[SE]=./images/jaguar-xj6-series1-silver_SE.0.0,-13,0
@@ -73,9 +73,9 @@ intro_month=3
 retire_year=1995
 retire_month=6
 speed=210
-class=3,4
+class=2,3
 maximum_comfortable_journey_minutes=130
-maximum_tolerable_journey_minutes=375
+maximum_tolerable_journey_minutes=525
 
 Image[E]=./images/jaguar-xj6-series1-blue_E.0.0,-33,14
 Image[SE]=./images/jaguar-xj6-series1-blue_SE.0.0,-13,0
@@ -96,9 +96,9 @@ intro_month=3
 retire_year=1994
 retire_month=6
 speed=210
-class=3,4
+class=2,3
 maximum_comfortable_journey_minutes=130
-maximum_tolerable_journey_minutes=375
+maximum_tolerable_journey_minutes=525
 
 Image[E]=./images/jaguar-xj6-series1-black_E.0.0,-33,14
 Image[SE]=./images/jaguar-xj6-series1-black_SE.0.0,-13,0

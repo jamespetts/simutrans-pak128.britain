@@ -24,9 +24,9 @@
 # white 5, blue 5, silver 3. Total 20. Provisional pending the central rebase.
 #
 # Speed 125 km/h, matching the existing Mk1 and the Fiesta Mk4's tier rather than
-# the model's ~155 km/h maximum. Comfort 50/255, on the line 180 + 1.5 x 50, a step
-# above the Mk1's 38/235 for the revised suspension and one step above the Mini.
-# Classes 0,1,2 as the entry-level supermini of its decade.
+# the model's ~155 km/h maximum. Comfort 50/405, on the line 330 + 1.5 x 50, a step
+# above the Mk1's 38/387 for the revised suspension and one step above the Mini.
+# Classes 0,1 as the entry-level supermini of its decade.
 #
 # Dates are road presence, not production: all four appear with the October 1984
 # facelift and retire staggered 1995-1998 on a ten- to fourteen-year tail.
@@ -54,7 +54,7 @@ retire_month=6
 speed=125
 class=0,1
 maximum_comfortable_journey_minutes=50
-maximum_tolerable_journey_minutes=255
+maximum_tolerable_journey_minutes=405
 
 Image[E]=./images/austin-metro-mk2-red_E.0.0,-33,14
 Image[SE]=./images/austin-metro-mk2-red_SE.0.0,-13,0
@@ -77,7 +77,7 @@ retire_month=6
 speed=125
 class=0,1
 maximum_comfortable_journey_minutes=50
-maximum_tolerable_journey_minutes=255
+maximum_tolerable_journey_minutes=405
 
 Image[E]=./images/austin-metro-mk2-blue_E.0.0,-33,14
 Image[SE]=./images/austin-metro-mk2-blue_SE.0.0,-13,0
@@ -100,7 +100,7 @@ retire_month=6
 speed=125
 class=0,1
 maximum_comfortable_journey_minutes=50
-maximum_tolerable_journey_minutes=255
+maximum_tolerable_journey_minutes=405
 
 Image[E]=./images/austin-metro-mk2-white_E.0.0,-33,14
 Image[SE]=./images/austin-metro-mk2-white_SE.0.0,-13,0
@@ -123,7 +123,7 @@ retire_month=6
 speed=125
 class=0,1
 maximum_comfortable_journey_minutes=50
-maximum_tolerable_journey_minutes=255
+maximum_tolerable_journey_minutes=405
 
 Image[E]=./images/austin-metro-mk2-silver_E.0.0,-33,14
 Image[SE]=./images/austin-metro-mk2-silver_SE.0.0,-13,0

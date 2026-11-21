@@ -11,7 +11,7 @@
 # Weight: 120 in total (green 35, white 35, blue 30, brown 20) — a volume executive
 # car of the late 1960s and 1970s, so above the 1950s prestige weights.
 #
-# Speed 180 km/h; comfort 110/345 (line). Classes 2,3.
+# Speed 180 km/h; comfort 110/495 (line). Classes 2,3.
 # Dates: 1963-1977 with a road tail to about 1988.
 #
 # Metres master: citycars/4.5/rover-p6.blend. References:
@@ -29,7 +29,7 @@ retire_month=6
 speed=180
 class=2,3
 maximum_comfortable_journey_minutes=110
-maximum_tolerable_journey_minutes=345
+maximum_tolerable_journey_minutes=495
 
 Image[E]=./images/rover-p6-green_E.0.0,-33,14
 Image[SE]=./images/rover-p6-green_SE.0.0,-13,0
@@ -52,7 +52,7 @@ retire_month=6
 speed=180
 class=2,3
 maximum_comfortable_journey_minutes=110
-maximum_tolerable_journey_minutes=345
+maximum_tolerable_journey_minutes=495
 
 Image[E]=./images/rover-p6-white_E.0.0,-33,14
 Image[SE]=./images/rover-p6-white_SE.0.0,-13,0
@@ -75,7 +75,7 @@ retire_month=6
 speed=180
 class=2,3
 maximum_comfortable_journey_minutes=110
-maximum_tolerable_journey_minutes=345
+maximum_tolerable_journey_minutes=495
 
 Image[E]=./images/rover-p6-blue_E.0.0,-33,14
 Image[SE]=./images/rover-p6-blue_SE.0.0,-13,0
@@ -98,7 +98,7 @@ retire_month=6
 speed=180
 class=2,3
 maximum_comfortable_journey_minutes=110
-maximum_tolerable_journey_minutes=345
+maximum_tolerable_journey_minutes=495
 
 Image[E]=./images/rover-p6-brown_E.0.0,-33,14
 Image[SE]=./images/rover-p6-brown_SE.0.0,-13,0

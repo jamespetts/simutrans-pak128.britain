@@ -11,7 +11,7 @@
 # Weight: 30 in total (black 10, green 8, maroon 7, grey 5). Section F: early
 # class-3 models are representative, not common.
 #
-# Speed 110 km/h; comfort 60/270 (line). Class 3.
+# Speed 110 km/h; comfort 60/420 (line). Classes 2,3.
 # Dates: 1934-1948 with a road tail to about 1965.
 #
 # Metres master: citycars/4.5/rover-12-p2.blend. References:
@@ -29,7 +29,7 @@ retire_month=6
 speed=110
 class=2,3
 maximum_comfortable_journey_minutes=60
-maximum_tolerable_journey_minutes=270
+maximum_tolerable_journey_minutes=420
 
 Image[E]=./images/rover-12-p2-black_E.0.0,-33,14
 Image[SE]=./images/rover-12-p2-black_SE.0.0,-13,0
@@ -52,7 +52,7 @@ retire_month=6
 speed=110
 class=2,3
 maximum_comfortable_journey_minutes=60
-maximum_tolerable_journey_minutes=270
+maximum_tolerable_journey_minutes=420
 
 Image[E]=./images/rover-12-p2-green_E.0.0,-33,14
 Image[SE]=./images/rover-12-p2-green_SE.0.0,-13,0
@@ -75,7 +75,7 @@ retire_month=6
 speed=110
 class=2,3
 maximum_comfortable_journey_minutes=60
-maximum_tolerable_journey_minutes=270
+maximum_tolerable_journey_minutes=420
 
 Image[E]=./images/rover-12-p2-maroon_E.0.0,-33,14
 Image[SE]=./images/rover-12-p2-maroon_SE.0.0,-13,0
@@ -98,7 +98,7 @@ retire_month=6
 speed=110
 class=2,3
 maximum_comfortable_journey_minutes=60
-maximum_tolerable_journey_minutes=270
+maximum_tolerable_journey_minutes=420
 
 Image[E]=./images/rover-12-p2-grey_E.0.0,-33,14
 Image[SE]=./images/rover-12-p2-grey_SE.0.0,-13,0

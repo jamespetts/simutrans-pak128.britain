@@ -1,6 +1,7 @@
+# Retire policy 2026-11-20: production ended 2013; retire dates are road-presence estimates, staggered by colourway.
 # Nissan Qashqai, first generation (J10), 2006-2013.
 #
-# The five objects keep their original names and dates (rule 9, savegame
+# The five objects keep their original names (rule 9, savegame
 # validity). The graphics were replaced on 2026-11-17 with a J10 model built
 # from photographs, so the shell now represents the first-generation car rather
 # than a generic crossover. The J11 and J12 are separate objects.
@@ -22,10 +23,12 @@ copyright=James/JamesPetts
 DistributionWeight=6
 intro_year=2006
 intro_month=8
+retire_year=2021
+retire_month=6
 speed=135
-class=1,2
+class=1
 maximum_comfortable_journey_minutes=125
-maximum_tolerable_journey_minutes=370
+maximum_tolerable_journey_minutes=518
 
 Image[E]=./images/nissan-qashqai-j10-blue_E.0.0,-33,14
 Image[SE]=./images/nissan-qashqai-j10-blue_SE.0.0,-13,0
@@ -43,10 +46,12 @@ copyright=James/JamesPetts
 DistributionWeight=6
 intro_year=2013
 intro_month=8
+retire_year=2022
+retire_month=4
 speed=135
-class=1,2
+class=1
 maximum_comfortable_journey_minutes=125
-maximum_tolerable_journey_minutes=370
+maximum_tolerable_journey_minutes=518
 
 Image[E]=./images/nissan-qashqai-j10-black_E.0.0,-33,14
 Image[SE]=./images/nissan-qashqai-j10-black_SE.0.0,-13,0
@@ -65,10 +70,12 @@ copyright=James/JamesPetts
 DistributionWeight=7
 intro_year=2008
 intro_month=9
+retire_year=2023
+retire_month=3
 speed=135
-class=1,2
+class=1
 maximum_comfortable_journey_minutes=125
-maximum_tolerable_journey_minutes=370
+maximum_tolerable_journey_minutes=518
 
 Image[E]=./images/nissan-qashqai-j10-red_E.0.0,-33,14
 Image[SE]=./images/nissan-qashqai-j10-red_SE.0.0,-13,0
@@ -88,10 +95,12 @@ copyright=James/JamesPetts
 DistributionWeight=8
 intro_year=2013
 intro_month=8
+retire_year=2024
+retire_month=2
 speed=135
-class=1,2
+class=1
 maximum_comfortable_journey_minutes=125
-maximum_tolerable_journey_minutes=370
+maximum_tolerable_journey_minutes=518
 
 Image[E]=./images/nissan-qashqai-j10-white_E.0.0,-33,14
 Image[SE]=./images/nissan-qashqai-j10-white_SE.0.0,-13,0
@@ -112,10 +121,12 @@ copyright=James/JamesPetts
 DistributionWeight=8
 intro_year=2007
 intro_month=5
+retire_year=2024
+retire_month=12
 speed=135
-class=1,2
+class=1
 maximum_comfortable_journey_minutes=125
-maximum_tolerable_journey_minutes=370
+maximum_tolerable_journey_minutes=518
 
 Image[E]=./images/nissan-qashqai-j10-silver_E.0.0,-33,14
 Image[SE]=./images/nissan-qashqai-j10-silver_SE.0.0,-13,0

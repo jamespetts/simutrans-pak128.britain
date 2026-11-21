@@ -1,3 +1,4 @@
+# Retire policy 2026-11-20: still in production in 2026 with no announced end; retire dates commented out. Revisit when an end is announced.
 # BYD Atto 3 five-door compact SUV, 2023 onwards.
 #
 # The Atto 3: BYD's first UK model, with the 60.48 kWh Blade battery, the
@@ -15,8 +16,8 @@
 # modelled colourways use plain names. Weights 12, 10, 9, 8, total 39,
 # provisional.
 #
-# Speed 160 km/h. Comfort 80/300, on the line 180 + 1.5 x 80. Classes 1,2.
-# Dates: intro March 2023, the UK delivery date; retires staggered 2046-2049.
+# Speed 160 km/h. Comfort 80/450, on the line 330 + 1.5 x 80. Classes 1,2.
+# Dates: intro March 2023, the UK delivery date; retire dates commented out (still in production in 2026).
 #
 # Metres master: citycars/4.5/byd-atto-3.blend. Interchange:
 # citycars/4.5/byd-atto-3.dae. References:
@@ -35,12 +36,12 @@ copyright=JamesPetts
 DistributionWeight=12
 intro_year=2023
 intro_month=3
-retire_year=2049
-retire_month=6
+#retire_year=2049
+#retire_month=6
 speed=160
 class=1,2
 maximum_comfortable_journey_minutes=80
-maximum_tolerable_journey_minutes=300
+maximum_tolerable_journey_minutes=450
 
 Image[E]=./images/byd-atto-3-white_E.0.0,-33,14
 Image[SE]=./images/byd-atto-3-white_SE.0.0,-13,0
@@ -58,12 +59,12 @@ copyright=JamesPetts
 DistributionWeight=10
 intro_year=2023
 intro_month=3
-retire_year=2048
-retire_month=6
+#retire_year=2048
+#retire_month=6
 speed=160
 class=1,2
 maximum_comfortable_journey_minutes=80
-maximum_tolerable_journey_minutes=300
+maximum_tolerable_journey_minutes=450
 
 Image[E]=./images/byd-atto-3-blue_E.0.0,-33,14
 Image[SE]=./images/byd-atto-3-blue_SE.0.0,-13,0
@@ -81,12 +82,12 @@ copyright=JamesPetts
 DistributionWeight=9
 intro_year=2023
 intro_month=3
-retire_year=2047
-retire_month=6
+#retire_year=2047
+#retire_month=6
 speed=160
 class=1,2
 maximum_comfortable_journey_minutes=80
-maximum_tolerable_journey_minutes=300
+maximum_tolerable_journey_minutes=450
 
 Image[E]=./images/byd-atto-3-grey_E.0.0,-33,14
 Image[SE]=./images/byd-atto-3-grey_SE.0.0,-13,0
@@ -104,12 +105,12 @@ copyright=JamesPetts
 DistributionWeight=8
 intro_year=2023
 intro_month=3
-retire_year=2046
-retire_month=6
+#retire_year=2046
+#retire_month=6
 speed=160
 class=1,2
 maximum_comfortable_journey_minutes=80
-maximum_tolerable_journey_minutes=300
+maximum_tolerable_journey_minutes=450
 
 Image[E]=./images/byd-atto-3-red_E.0.0,-33,14
 Image[SE]=./images/byd-atto-3-red_SE.0.0,-13,0

@@ -18,7 +18,7 @@
 # 1 September 2014: Blazer Blue, Frozen White, Panther Black and Moondust
 # Silver. Weights 14, 12, 10, 9, total 45, provisional.
 #
-# Speed 195 km/h. Comfort 80/300, on the line 180 + 1.5 x 80. Classes 1,2.
+# Speed 195 km/h. Comfort 80/450, on the line 330 + 1.5 x 80. Classes 1,2.
 # Dates: intro June 2006, the UK launch date, to 2015 when the Mk3 replaced it.
 #
 # Metres master: citycars/4.5/ford-galaxy-mk2.blend. Interchange:
@@ -43,7 +43,7 @@ retire_month=6
 speed=195
 class=1,2
 maximum_comfortable_journey_minutes=80
-maximum_tolerable_journey_minutes=300
+maximum_tolerable_journey_minutes=450
 
 Image[E]=./images/ford-galaxy-mk2-blazerblue_E.0.0,-33,14
 Image[SE]=./images/ford-galaxy-mk2-blazerblue_SE.0.0,-13,0
@@ -66,7 +66,7 @@ retire_month=6
 speed=195
 class=1,2
 maximum_comfortable_journey_minutes=80
-maximum_tolerable_journey_minutes=300
+maximum_tolerable_journey_minutes=450
 
 Image[E]=./images/ford-galaxy-mk2-frozenwhite_E.0.0,-33,14
 Image[SE]=./images/ford-galaxy-mk2-frozenwhite_SE.0.0,-13,0
@@ -89,7 +89,7 @@ retire_month=6
 speed=195
 class=1,2
 maximum_comfortable_journey_minutes=80
-maximum_tolerable_journey_minutes=300
+maximum_tolerable_journey_minutes=450
 
 Image[E]=./images/ford-galaxy-mk2-pantherblack_E.0.0,-33,14
 Image[SE]=./images/ford-galaxy-mk2-pantherblack_SE.0.0,-13,0
@@ -112,7 +112,7 @@ retire_month=6
 speed=195
 class=1,2
 maximum_comfortable_journey_minutes=80
-maximum_tolerable_journey_minutes=300
+maximum_tolerable_journey_minutes=450
 
 Image[E]=./images/ford-galaxy-mk2-moondustsilver_E.0.0,-33,14
 Image[SE]=./images/ford-galaxy-mk2-moondustsilver_SE.0.0,-13,0

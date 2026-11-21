@@ -1,4 +1,5 @@
-# Audi A6 C8 four-door saloon, 2018 onwards.
+# Retire policy 2026-11-20: production ended 2025; retire dates are road-presence estimates, staggered by colourway.
+# Audi A6 C8 four-door saloon, 2018-2025.
 #
 # The fifth A6: the C8 body with the wider, lower single-frame grille, the
 # sharp OLED-style lamps and the mild-hybrid range. Audi UK announced it in
@@ -13,8 +14,8 @@
 # Colours: grade (d); no UK chart was established. Black, silver, grey and
 # blue are plain names. Weights 15, 13, 12, 10, total 50, provisional.
 #
-# Speed 240 km/h. Comfort 98/327, on the line 180 + 1.5 x 98. Classes 3,4.
-# Dates are road presence: 2018 intro, retires staggered 2042-2045.
+# Speed 240 km/h. Comfort 98/477, on the line 330 + 1.5 x 98. Classes 2,3.
+# Dates are road presence: 2018 intro, retires staggered 2033-2036.
 #
 # Metres master: citycars/4.5/audi-a6-c8.blend. Interchange:
 # citycars/4.5/audi-a6-c8.dae. References:
@@ -34,12 +35,12 @@ copyright=JamesPetts
 DistributionWeight=15
 intro_year=2018
 intro_month=6
-retire_year=2045
+retire_year=2033
 retire_month=6
 speed=240
-class=3,4
+class=2,3
 maximum_comfortable_journey_minutes=98
-maximum_tolerable_journey_minutes=327
+maximum_tolerable_journey_minutes=477
 
 Image[E]=./images/audi-a6-c8-black_E.0.0,-33,14
 Image[SE]=./images/audi-a6-c8-black_SE.0.0,-13,0
@@ -57,12 +58,12 @@ copyright=JamesPetts
 DistributionWeight=13
 intro_year=2018
 intro_month=6
-retire_year=2044
-retire_month=6
+retire_year=2034
+retire_month=8
 speed=240
-class=3,4
+class=2,3
 maximum_comfortable_journey_minutes=98
-maximum_tolerable_journey_minutes=327
+maximum_tolerable_journey_minutes=477
 
 Image[E]=./images/audi-a6-c8-silver_E.0.0,-33,14
 Image[SE]=./images/audi-a6-c8-silver_SE.0.0,-13,0
@@ -80,12 +81,12 @@ copyright=JamesPetts
 DistributionWeight=12
 intro_year=2018
 intro_month=6
-retire_year=2043
-retire_month=6
+retire_year=2035
+retire_month=10
 speed=240
-class=3,4
+class=2,3
 maximum_comfortable_journey_minutes=98
-maximum_tolerable_journey_minutes=327
+maximum_tolerable_journey_minutes=477
 
 Image[E]=./images/audi-a6-c8-grey_E.0.0,-33,14
 Image[SE]=./images/audi-a6-c8-grey_SE.0.0,-13,0
@@ -103,12 +104,12 @@ copyright=JamesPetts
 DistributionWeight=10
 intro_year=2018
 intro_month=6
-retire_year=2042
-retire_month=6
+retire_year=2036
+retire_month=12
 speed=240
-class=3,4
+class=2,3
 maximum_comfortable_journey_minutes=98
-maximum_tolerable_journey_minutes=327
+maximum_tolerable_journey_minutes=477
 
 Image[E]=./images/audi-a6-c8-blue_E.0.0,-33,14
 Image[SE]=./images/audi-a6-c8-blue_SE.0.0,-13,0

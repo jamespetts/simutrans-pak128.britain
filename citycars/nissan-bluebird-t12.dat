@@ -15,8 +15,8 @@
 # plain colour names: silver, blue, red and white. Weights silver 3, blue 3,
 # red 2, white 2, total 10, provisional pending the central rebase.
 #
-# Speed 175 km/h for the 1.8, the volume UK engine. Comfort 80/300, on the line
-# 180 + 1.5 x 80, a step above the rear-wheel-drive 910's 65/280. Classes 1,2.
+# Speed 175 km/h for the 1.8, the volume UK engine. Comfort 80/450, on the line
+# 330 + 1.5 x 80, a step above the rear-wheel-drive 910's 65/428. Classes 1,2.
 #
 # Dates are road presence: January 1985 intro, retires staggered 2001-2004 on a
 # fifteen- to nineteen-year tail.
@@ -44,7 +44,7 @@ retire_month=6
 speed=175
 class=1,2
 maximum_comfortable_journey_minutes=80
-maximum_tolerable_journey_minutes=300
+maximum_tolerable_journey_minutes=450
 
 Image[E]=./images/nissan-bluebird-t12-silver_E.0.0,-33,14
 Image[SE]=./images/nissan-bluebird-t12-silver_SE.0.0,-13,0
@@ -67,7 +67,7 @@ retire_month=6
 speed=175
 class=1,2
 maximum_comfortable_journey_minutes=80
-maximum_tolerable_journey_minutes=300
+maximum_tolerable_journey_minutes=450
 
 Image[E]=./images/nissan-bluebird-t12-blue_E.0.0,-33,14
 Image[SE]=./images/nissan-bluebird-t12-blue_SE.0.0,-13,0
@@ -90,7 +90,7 @@ retire_month=6
 speed=175
 class=1,2
 maximum_comfortable_journey_minutes=80
-maximum_tolerable_journey_minutes=300
+maximum_tolerable_journey_minutes=450
 
 Image[E]=./images/nissan-bluebird-t12-red_E.0.0,-33,14
 Image[SE]=./images/nissan-bluebird-t12-red_SE.0.0,-13,0
@@ -113,7 +113,7 @@ retire_month=6
 speed=175
 class=1,2
 maximum_comfortable_journey_minutes=80
-maximum_tolerable_journey_minutes=300
+maximum_tolerable_journey_minutes=450
 
 Image[E]=./images/nissan-bluebird-t12-white_E.0.0,-33,14
 Image[SE]=./images/nissan-bluebird-t12-white_SE.0.0,-13,0

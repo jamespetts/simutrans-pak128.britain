@@ -9,7 +9,7 @@
 #
 # Weight: 25 in total (black 9, green 7, maroon 5, grey 4).
 #
-# Speed 115 km/h; comfort 65/280 (line). Class 3.
+# Speed 115 km/h; comfort 65/428 (line). Classes 2,3,4.
 # Dates: 1934-1948 with a road tail to about 1965.
 #
 # Metres master: citycars/4.5/rover-14-p2.blend. References:
@@ -25,9 +25,9 @@ intro_month=10
 retire_year=1965
 retire_month=6
 speed=115
-class=2,3
+class=2,3,4
 maximum_comfortable_journey_minutes=65
-maximum_tolerable_journey_minutes=280
+maximum_tolerable_journey_minutes=428
 
 Image[E]=./images/rover-14-p2-black_E.0.0,-33,14
 Image[SE]=./images/rover-14-p2-black_SE.0.0,-13,0
@@ -48,9 +48,9 @@ intro_month=10
 retire_year=1964
 retire_month=6
 speed=115
-class=2,3
+class=2,3,4
 maximum_comfortable_journey_minutes=65
-maximum_tolerable_journey_minutes=280
+maximum_tolerable_journey_minutes=428
 
 Image[E]=./images/rover-14-p2-green_E.0.0,-33,14
 Image[SE]=./images/rover-14-p2-green_SE.0.0,-13,0
@@ -71,9 +71,9 @@ intro_month=3
 retire_year=1963
 retire_month=6
 speed=115
-class=2,3
+class=2,3,4
 maximum_comfortable_journey_minutes=65
-maximum_tolerable_journey_minutes=280
+maximum_tolerable_journey_minutes=428
 
 Image[E]=./images/rover-14-p2-maroon_E.0.0,-33,14
 Image[SE]=./images/rover-14-p2-maroon_SE.0.0,-13,0
@@ -94,9 +94,9 @@ intro_month=3
 retire_year=1962
 retire_month=6
 speed=115
-class=2,3
+class=2,3,4
 maximum_comfortable_journey_minutes=65
-maximum_tolerable_journey_minutes=280
+maximum_tolerable_journey_minutes=428
 
 Image[E]=./images/rover-14-p2-grey_E.0.0,-33,14
 Image[SE]=./images/rover-14-p2-grey_SE.0.0,-13,0

@@ -1,3 +1,4 @@
+# Retire policy 2026-11-20: still in production in 2026 with no announced end; retire dates commented out. Revisit when an end is announced.
 # Audi A8 D5 four-door saloon, 2017 onwards.
 #
 # The fourth A8: the wider, sharper D5 body with the large single-frame
@@ -14,8 +15,8 @@
 # Colours: grade (d); no UK chart was established. Black, silver, grey and
 # blue are plain names. Weights 9, 8, 7, 6, total 30, provisional.
 #
-# Speed 250 km/h. Comfort 108/342, on the line 180 + 1.5 x 108. Classes 3,4.
-# Dates are road presence: 2017 intro, retires staggered 2041-2044.
+# Speed 250 km/h. Comfort 108/492, on the line 330 + 1.5 x 108. Class 3.
+# Dates are road presence: 2017 intro, retire dates commented out (still in production in 2026).
 #
 # Metres master: citycars/4.5/audi-a8-d5.blend. Interchange:
 # citycars/4.5/audi-a8-d5.dae. References:
@@ -35,12 +36,12 @@ copyright=JamesPetts
 DistributionWeight=9
 intro_year=2017
 intro_month=10
-retire_year=2044
-retire_month=6
+#retire_year=2044
+#retire_month=6
 speed=250
-class=3,4
+class=3
 maximum_comfortable_journey_minutes=108
-maximum_tolerable_journey_minutes=342
+maximum_tolerable_journey_minutes=492
 
 Image[E]=./images/audi-a8-d5-black_E.0.0,-33,14
 Image[SE]=./images/audi-a8-d5-black_SE.0.0,-13,0
@@ -58,12 +59,12 @@ copyright=JamesPetts
 DistributionWeight=8
 intro_year=2017
 intro_month=10
-retire_year=2043
-retire_month=6
+#retire_year=2043
+#retire_month=6
 speed=250
-class=3,4
+class=3
 maximum_comfortable_journey_minutes=108
-maximum_tolerable_journey_minutes=342
+maximum_tolerable_journey_minutes=492
 
 Image[E]=./images/audi-a8-d5-silver_E.0.0,-33,14
 Image[SE]=./images/audi-a8-d5-silver_SE.0.0,-13,0
@@ -81,12 +82,12 @@ copyright=JamesPetts
 DistributionWeight=7
 intro_year=2017
 intro_month=10
-retire_year=2042
-retire_month=6
+#retire_year=2042
+#retire_month=6
 speed=250
-class=3,4
+class=3
 maximum_comfortable_journey_minutes=108
-maximum_tolerable_journey_minutes=342
+maximum_tolerable_journey_minutes=492
 
 Image[E]=./images/audi-a8-d5-grey_E.0.0,-33,14
 Image[SE]=./images/audi-a8-d5-grey_SE.0.0,-13,0
@@ -104,12 +105,12 @@ copyright=JamesPetts
 DistributionWeight=6
 intro_year=2017
 intro_month=10
-retire_year=2041
-retire_month=6
+#retire_year=2041
+#retire_month=6
 speed=250
-class=3,4
+class=3
 maximum_comfortable_journey_minutes=108
-maximum_tolerable_journey_minutes=342
+maximum_tolerable_journey_minutes=492
 
 Image[E]=./images/audi-a8-d5-blue_E.0.0,-33,14
 Image[SE]=./images/audi-a8-d5-blue_SE.0.0,-13,0

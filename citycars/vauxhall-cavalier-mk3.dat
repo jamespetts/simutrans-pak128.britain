@@ -20,8 +20,8 @@
 # central rebase.
 #
 # Speed 170 km/h: a game-balance figure for the 1.4-2.5 range.
-# Comfort 110/345: a 1990s family saloon, between the Mk2 Cavalier's 100/330 and
-# the Sierra's 120/360; the line gives 345.
+# Comfort 110/495: a 1990s family saloon, between the Mk2 Cavalier's 100/480 and
+# the Sierra's 120/510; the line gives 345.
 #
 # Dates describe road presence: launch October 1988 with a 13-14 year tail,
 # staggered by colour.
@@ -41,9 +41,9 @@ intro_month=10
 retire_year=2002
 retire_month=6
 speed=170
-class=1,2
+class=0,1,2
 maximum_comfortable_journey_minutes=110
-maximum_tolerable_journey_minutes=345
+maximum_tolerable_journey_minutes=495
 
 Image[E]=./images/vauxhall-cavalier-mk3-silver_E.0.0,-33,14
 Image[SE]=./images/vauxhall-cavalier-mk3-silver_SE.0.0,-13,0
@@ -64,9 +64,9 @@ intro_month=10
 retire_year=2000
 retire_month=12
 speed=170
-class=1,2
+class=0,1,2
 maximum_comfortable_journey_minutes=110
-maximum_tolerable_journey_minutes=345
+maximum_tolerable_journey_minutes=495
 
 Image[E]=./images/vauxhall-cavalier-mk3-red_E.0.0,-33,14
 Image[SE]=./images/vauxhall-cavalier-mk3-red_SE.0.0,-13,0
@@ -87,9 +87,9 @@ intro_month=1
 retire_year=2001
 retire_month=6
 speed=170
-class=1,2
+class=0,1,2
 maximum_comfortable_journey_minutes=110
-maximum_tolerable_journey_minutes=345
+maximum_tolerable_journey_minutes=495
 
 Image[E]=./images/vauxhall-cavalier-mk3-black_E.0.0,-33,14
 Image[SE]=./images/vauxhall-cavalier-mk3-black_SE.0.0,-13,0
@@ -110,9 +110,9 @@ intro_month=1
 retire_year=2002
 retire_month=6
 speed=170
-class=1,2
+class=0,1,2
 maximum_comfortable_journey_minutes=110
-maximum_tolerable_journey_minutes=345
+maximum_tolerable_journey_minutes=495
 
 Image[E]=./images/vauxhall-cavalier-mk3-blue_E.0.0,-33,14
 Image[SE]=./images/vauxhall-cavalier-mk3-blue_SE.0.0,-13,0

@@ -11,7 +11,7 @@ retire_month=10
 speed=72
 class=2,3
 maximum_comfortable_journey_minutes=30
-maximum_tolerable_journey_minutes=225
+maximum_tolerable_journey_minutes=375
 
 Image[E]=./images/citroen-type-b2-blue_E.0.0,-33,14
 Image[SE]=./images/citroen-type-b2-blue_SE.0.0,-13,0
@@ -35,7 +35,7 @@ retire_month=12
 speed=72
 class=2,3
 maximum_comfortable_journey_minutes=30
-maximum_tolerable_journey_minutes=225
+maximum_tolerable_journey_minutes=375
 
 Image[E]=./images/citroen-type-b2-red_E.0.0,-33,14
 Image[SE]=./images/citroen-type-b2-red_SE.0.0,-13,0
@@ -59,7 +59,7 @@ retire_month=1
 speed=72
 class=2,3
 maximum_comfortable_journey_minutes=30
-maximum_tolerable_journey_minutes=225
+maximum_tolerable_journey_minutes=375
 
 Image[E]=./images/citroen-type-b2-white_E.0.0,-33,14
 Image[SE]=./images/citroen-type-b2-white_SE.0.0,-13,0

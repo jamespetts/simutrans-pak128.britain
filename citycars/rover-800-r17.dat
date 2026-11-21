@@ -18,7 +18,7 @@
 # this tranche's provisional 12-22 scale: red 30, grey 26, white 24, blue 20. The
 # 1991-99 years have no measured colour split, so the split follows the XX's.
 #
-# Speed 210 km/h and comfort 110/345, both inherited from the existing Rover800
+# Speed 210 km/h and comfort 110/495, both inherited from the existing Rover800
 # objects so that the family is consistent. Classes 2,3.
 #
 # Dates are road presence, not production: November 1991 intro, retires staggered
@@ -46,7 +46,7 @@ retire_month=6
 speed=210
 class=2,3
 maximum_comfortable_journey_minutes=110
-maximum_tolerable_journey_minutes=345
+maximum_tolerable_journey_minutes=495
 
 Image[E]=./images/rover-800-r17-red_E.0.0,-33,14
 Image[SE]=./images/rover-800-r17-red_SE.0.0,-13,0
@@ -69,7 +69,7 @@ retire_month=6
 speed=210
 class=2,3
 maximum_comfortable_journey_minutes=110
-maximum_tolerable_journey_minutes=345
+maximum_tolerable_journey_minutes=495
 
 Image[E]=./images/rover-800-r17-grey_E.0.0,-33,14
 Image[SE]=./images/rover-800-r17-grey_SE.0.0,-13,0
@@ -92,7 +92,7 @@ retire_month=6
 speed=210
 class=2,3
 maximum_comfortable_journey_minutes=110
-maximum_tolerable_journey_minutes=345
+maximum_tolerable_journey_minutes=495
 
 Image[E]=./images/rover-800-r17-white_E.0.0,-33,14
 Image[SE]=./images/rover-800-r17-white_SE.0.0,-13,0
@@ -115,7 +115,7 @@ retire_month=6
 speed=210
 class=2,3
 maximum_comfortable_journey_minutes=110
-maximum_tolerable_journey_minutes=345
+maximum_tolerable_journey_minutes=495
 
 Image[E]=./images/rover-800-r17-blue_E.0.0,-33,14
 Image[SE]=./images/rover-800-r17-blue_SE.0.0,-13,0

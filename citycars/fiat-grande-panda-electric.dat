@@ -1,3 +1,4 @@
+# Retire policy 2026-11-20: still in production in 2026 with no announced end; retire dates commented out. Revisit when an end is announced.
 # Fiat Grande Panda Electric five-door, 2026 onwards.
 #
 # The electric Grande Panda only; the 1.2 hybrid of the same body is not
@@ -19,11 +20,11 @@
 # Colours: grade (d); no UK colour list was obtainable. White, Red, Blue and
 # Grey are plain names. Weights 12, 10, 9, 8, total 39, provisional.
 #
-# Speed 132 km/h, the car's governed top speed. Comfort 75/292, on the line
-# 180 + 1.5 x 75: a quiet electric city car with a high seating position.
-# Classes 0,1.
-# Dates: intro February 2026, the UK delivery date; retires staggered
-# 2046-2049.
+# Speed 132 km/h, the car's governed top speed. Comfort 75/443, on the line
+# 330 + 1.5 x 75: a quiet electric city car with a high seating position.
+# Class 1.
+# Dates: intro February 2026, the UK delivery date; retire dates commented out
+# (still in production in 2026).
 #
 # Metres master: citycars/4.5/fiat-grande-panda-electric.blend. Interchange:
 # citycars/4.5/fiat-grande-panda-electric.dae. References:
@@ -43,12 +44,12 @@ copyright=JamesPetts
 DistributionWeight=12
 intro_year=2026
 intro_month=2
-retire_year=2049
-retire_month=6
+#retire_year=2049
+#retire_month=6
 speed=132
-class=0,1
+class=1
 maximum_comfortable_journey_minutes=75
-maximum_tolerable_journey_minutes=292
+maximum_tolerable_journey_minutes=443
 
 Image[E]=./images/fiat-grande-panda-electric-white_E.0.0,-33,14
 Image[SE]=./images/fiat-grande-panda-electric-white_SE.0.0,-13,0
@@ -66,12 +67,12 @@ copyright=JamesPetts
 DistributionWeight=10
 intro_year=2026
 intro_month=2
-retire_year=2048
-retire_month=6
+#retire_year=2048
+#retire_month=6
 speed=132
-class=0,1
+class=1
 maximum_comfortable_journey_minutes=75
-maximum_tolerable_journey_minutes=292
+maximum_tolerable_journey_minutes=443
 
 Image[E]=./images/fiat-grande-panda-electric-red_E.0.0,-33,14
 Image[SE]=./images/fiat-grande-panda-electric-red_SE.0.0,-13,0
@@ -89,12 +90,12 @@ copyright=JamesPetts
 DistributionWeight=9
 intro_year=2026
 intro_month=2
-retire_year=2047
-retire_month=6
+#retire_year=2047
+#retire_month=6
 speed=132
-class=0,1
+class=1
 maximum_comfortable_journey_minutes=75
-maximum_tolerable_journey_minutes=292
+maximum_tolerable_journey_minutes=443
 
 Image[E]=./images/fiat-grande-panda-electric-blue_E.0.0,-33,14
 Image[SE]=./images/fiat-grande-panda-electric-blue_SE.0.0,-13,0
@@ -112,12 +113,12 @@ copyright=JamesPetts
 DistributionWeight=8
 intro_year=2026
 intro_month=2
-retire_year=2046
-retire_month=6
+#retire_year=2046
+#retire_month=6
 speed=132
-class=0,1
+class=1
 maximum_comfortable_journey_minutes=75
-maximum_tolerable_journey_minutes=292
+maximum_tolerable_journey_minutes=443
 
 Image[E]=./images/fiat-grande-panda-electric-grey_E.0.0,-33,14
 Image[SE]=./images/fiat-grande-panda-electric-grey_SE.0.0,-13,0

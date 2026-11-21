@@ -11,13 +11,13 @@
 #
 # Colours: Black, Dark Green, Maroon and Grey, as specified for this model.
 #
-# Weight: 10 in total (black 4, green 3, maroon 2, grey 1). Class 3; the Fifteen
+# Weight: 10 in total (black 4, green 3, maroon 2, grey 1). Classes 2,3,4; the Fifteen
 # was the cheapest Daimler of its day, so it carries more weight than the
 # pre-1920 prestige cars.
 #
 # Speed 100 km/h: no published maximum speed has been found for the 2-litre
 # Fifteen. 100 km/h (62 mph) is an estimate from 45 bhp at 25.25 cwt and is
-# flagged for review. Comfort 75/295 (line). Class 3.
+# flagged for review. Comfort 75/443 (line). Classes 2,3,4.
 # Dates: 1932-1937 with a road tail to about 1962. The model ran from 1932; the two-litre engine replaced the original only in August 1934, and the photographs show the later car.
 #
 # Metres master: citycars/4.5/daimler-fifteen.blend. References:
@@ -44,9 +44,9 @@ intro_month=8
 retire_year=1962
 retire_month=6
 speed=100
-class=3,4
+class=2,3,4
 maximum_comfortable_journey_minutes=75
-maximum_tolerable_journey_minutes=295
+maximum_tolerable_journey_minutes=443
 
 Image[E]=./images/daimler-fifteen-black_E.0.0,-33,14
 Image[SE]=./images/daimler-fifteen-black_SE.0.0,-13,0
@@ -67,9 +67,9 @@ intro_month=9
 retire_year=1961
 retire_month=6
 speed=100
-class=3,4
+class=2,3,4
 maximum_comfortable_journey_minutes=75
-maximum_tolerable_journey_minutes=295
+maximum_tolerable_journey_minutes=443
 
 Image[E]=./images/daimler-fifteen-green_E.0.0,-33,14
 Image[SE]=./images/daimler-fifteen-green_SE.0.0,-13,0
@@ -90,9 +90,9 @@ intro_month=3
 retire_year=1960
 retire_month=6
 speed=100
-class=3,4
+class=2,3,4
 maximum_comfortable_journey_minutes=75
-maximum_tolerable_journey_minutes=295
+maximum_tolerable_journey_minutes=443
 
 Image[E]=./images/daimler-fifteen-maroon_E.0.0,-33,14
 Image[SE]=./images/daimler-fifteen-maroon_SE.0.0,-13,0
@@ -113,9 +113,9 @@ intro_month=6
 retire_year=1959
 retire_month=6
 speed=100
-class=3,4
+class=2,3,4
 maximum_comfortable_journey_minutes=75
-maximum_tolerable_journey_minutes=295
+maximum_tolerable_journey_minutes=443
 
 Image[E]=./images/daimler-fifteen-grey_E.0.0,-33,14
 Image[SE]=./images/daimler-fifteen-grey_SE.0.0,-13,0

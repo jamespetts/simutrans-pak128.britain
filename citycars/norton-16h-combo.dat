@@ -21,7 +21,7 @@
 # Colours: WD finish, Army Service Green/khaki with dull chrome and a white
 # census number. One colourway. Weight 80, provisional.
 #
-# Speed 70 km/h. Comfort 25/190, below the Mini's 40/240: an open chair with
+# Speed 70 km/h. Comfort 25/338, below the Mini's 40/390: an open chair with
 # an exposed rider. Classes 0,1.
 # Dates are road presence: 1937 intro, retires 1958.
 #
@@ -49,7 +49,7 @@ retire_month=6
 speed=70
 class=0,1
 maximum_comfortable_journey_minutes=25
-maximum_tolerable_journey_minutes=190
+maximum_tolerable_journey_minutes=338
 
 Image[E]=./images/norton-16h-combo-khakigreen_E.0.0,-33,14
 Image[SE]=./images/norton-16h-combo-khakigreen_SE.0.0,-13,0

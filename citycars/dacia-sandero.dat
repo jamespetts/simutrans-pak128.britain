@@ -9,7 +9,7 @@
 #
 # Weight: 40 in total (white 14, red 10, blue 9, grey 7).
 #
-# Speed 170 km/h; comfort 85/305 (line). Classes 0,1.
+# Speed 170 km/h; comfort 85/458 (line). Classes 0,1.
 # Dates: 2013-2020 with a road tail to about 2030.
 #
 # Metres master: citycars/4.5/dacia-sandero.blend. References:
@@ -27,7 +27,7 @@ retire_month=6
 speed=170
 class=0,1
 maximum_comfortable_journey_minutes=85
-maximum_tolerable_journey_minutes=305
+maximum_tolerable_journey_minutes=458
 
 Image[E]=./images/dacia-sandero-white_E.0.0,-33,14
 Image[SE]=./images/dacia-sandero-white_SE.0.0,-13,0
@@ -50,7 +50,7 @@ retire_month=6
 speed=170
 class=0,1
 maximum_comfortable_journey_minutes=85
-maximum_tolerable_journey_minutes=305
+maximum_tolerable_journey_minutes=458
 
 Image[E]=./images/dacia-sandero-red_E.0.0,-33,14
 Image[SE]=./images/dacia-sandero-red_SE.0.0,-13,0
@@ -73,7 +73,7 @@ retire_month=6
 speed=170
 class=0,1
 maximum_comfortable_journey_minutes=85
-maximum_tolerable_journey_minutes=305
+maximum_tolerable_journey_minutes=458
 
 Image[E]=./images/dacia-sandero-blue_E.0.0,-33,14
 Image[SE]=./images/dacia-sandero-blue_SE.0.0,-13,0
@@ -96,7 +96,7 @@ retire_month=6
 speed=170
 class=0,1
 maximum_comfortable_journey_minutes=85
-maximum_tolerable_journey_minutes=305
+maximum_tolerable_journey_minutes=458
 
 Image[E]=./images/dacia-sandero-grey_E.0.0,-33,14
 Image[SE]=./images/dacia-sandero-grey_SE.0.0,-13,0

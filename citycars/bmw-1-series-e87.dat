@@ -15,8 +15,8 @@
 # White, Jet Black, Titanium Silver and Monaco Blue. Weights 20, 18, 17, 15,
 # total 70, provisional.
 #
-# Speed 210 km/h. Comfort 75/292, on the line 180 + 1.5 x 75: a compact but
-# rear-drive cabin. Classes 2,3.
+# Speed 210 km/h. Comfort 75/443, on the line 330 + 1.5 x 75: a compact but
+# rear-drive cabin. Classes 1,2.
 # Dates are road presence: 2004 intro, retires staggered 2026-2029.
 #
 # Metres master: citycars/4.5/bmw-1-series-e87.blend. Interchange:
@@ -39,9 +39,9 @@ intro_month=9
 retire_year=2029
 retire_month=6
 speed=210
-class=2,3
+class=1,2
 maximum_comfortable_journey_minutes=75
-maximum_tolerable_journey_minutes=292
+maximum_tolerable_journey_minutes=443
 
 Image[E]=./images/bmw-1-series-e87-alpinewhite_E.0.0,-33,14
 Image[SE]=./images/bmw-1-series-e87-alpinewhite_SE.0.0,-13,0
@@ -62,9 +62,9 @@ intro_month=9
 retire_year=2028
 retire_month=6
 speed=210
-class=2,3
+class=1,2
 maximum_comfortable_journey_minutes=75
-maximum_tolerable_journey_minutes=292
+maximum_tolerable_journey_minutes=443
 
 Image[E]=./images/bmw-1-series-e87-jetblack_E.0.0,-33,14
 Image[SE]=./images/bmw-1-series-e87-jetblack_SE.0.0,-13,0
@@ -85,9 +85,9 @@ intro_month=9
 retire_year=2027
 retire_month=6
 speed=210
-class=2,3
+class=1,2
 maximum_comfortable_journey_minutes=75
-maximum_tolerable_journey_minutes=292
+maximum_tolerable_journey_minutes=443
 
 Image[E]=./images/bmw-1-series-e87-titaniumsilver_E.0.0,-33,14
 Image[SE]=./images/bmw-1-series-e87-titaniumsilver_SE.0.0,-13,0
@@ -108,9 +108,9 @@ intro_month=9
 retire_year=2026
 retire_month=6
 speed=210
-class=2,3
+class=1,2
 maximum_comfortable_journey_minutes=75
-maximum_tolerable_journey_minutes=292
+maximum_tolerable_journey_minutes=443
 
 Image[E]=./images/bmw-1-series-e87-monacoblue_E.0.0,-33,14
 Image[SE]=./images/bmw-1-series-e87-monacoblue_SE.0.0,-13,0

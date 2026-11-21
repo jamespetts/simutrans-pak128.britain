@@ -9,7 +9,7 @@
 #
 # Weight: 300 in total (red 85, silver 85, black 70, white 60).
 #
-# Speed 210 km/h; comfort 125/370 (line). Classes 1,2.
+# Speed 210 km/h; comfort 125/518 (line). Classes 1,2.
 # Dates: 2012-2019 with a road tail to about 2028.
 #
 # Metres master: citycars/4.5/vw-golf-mk7.blend. References:
@@ -27,7 +27,7 @@ retire_month=6
 speed=210
 class=1,2
 maximum_comfortable_journey_minutes=125
-maximum_tolerable_journey_minutes=370
+maximum_tolerable_journey_minutes=518
 
 Image[E]=./images/vw-golf-mk7-red_E.0.0,-33,14
 Image[SE]=./images/vw-golf-mk7-red_SE.0.0,-13,0
@@ -50,7 +50,7 @@ retire_month=6
 speed=210
 class=1,2
 maximum_comfortable_journey_minutes=125
-maximum_tolerable_journey_minutes=370
+maximum_tolerable_journey_minutes=518
 
 Image[E]=./images/vw-golf-mk7-silver_E.0.0,-33,14
 Image[SE]=./images/vw-golf-mk7-silver_SE.0.0,-13,0
@@ -73,7 +73,7 @@ retire_month=6
 speed=210
 class=1,2
 maximum_comfortable_journey_minutes=125
-maximum_tolerable_journey_minutes=370
+maximum_tolerable_journey_minutes=518
 
 Image[E]=./images/vw-golf-mk7-black_E.0.0,-33,14
 Image[SE]=./images/vw-golf-mk7-black_SE.0.0,-13,0
@@ -96,7 +96,7 @@ retire_month=6
 speed=210
 class=1,2
 maximum_comfortable_journey_minutes=125
-maximum_tolerable_journey_minutes=370
+maximum_tolerable_journey_minutes=518
 
 Image[E]=./images/vw-golf-mk7-white_E.0.0,-33,14
 Image[SE]=./images/vw-golf-mk7-white_SE.0.0,-13,0

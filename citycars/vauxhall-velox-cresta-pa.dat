@@ -16,7 +16,7 @@
 # Blue and Green are plain period names. Weights 12, 10, 9, 8, total 39,
 # provisional.
 #
-# Speed 135 km/h. Comfort 50/255, on the line 180 + 1.5 x 50. Classes 2,3.
+# Speed 135 km/h. Comfort 50/405, on the line 330 + 1.5 x 50. Classes 2,3.
 # Dates: intro January 1958; retires staggered 1973-1976 as a road tail.
 #
 # Metres master: citycars/4.5/vauxhall-velox-cresta-pa.blend. Interchange:
@@ -41,7 +41,7 @@ retire_month=6
 speed=135
 class=2,3
 maximum_comfortable_journey_minutes=50
-maximum_tolerable_journey_minutes=255
+maximum_tolerable_journey_minutes=405
 
 Image[E]=./images/vauxhall-velox-cresta-pa-black_E.0.0,-33,14
 Image[SE]=./images/vauxhall-velox-cresta-pa-black_SE.0.0,-13,0
@@ -64,7 +64,7 @@ retire_month=6
 speed=135
 class=2,3
 maximum_comfortable_journey_minutes=50
-maximum_tolerable_journey_minutes=255
+maximum_tolerable_journey_minutes=405
 
 Image[E]=./images/vauxhall-velox-cresta-pa-grey_E.0.0,-33,14
 Image[SE]=./images/vauxhall-velox-cresta-pa-grey_SE.0.0,-13,0
@@ -87,7 +87,7 @@ retire_month=6
 speed=135
 class=2,3
 maximum_comfortable_journey_minutes=50
-maximum_tolerable_journey_minutes=255
+maximum_tolerable_journey_minutes=405
 
 Image[E]=./images/vauxhall-velox-cresta-pa-blue_E.0.0,-33,14
 Image[SE]=./images/vauxhall-velox-cresta-pa-blue_SE.0.0,-13,0
@@ -110,7 +110,7 @@ retire_month=6
 speed=135
 class=2,3
 maximum_comfortable_journey_minutes=50
-maximum_tolerable_journey_minutes=255
+maximum_tolerable_journey_minutes=405
 
 Image[E]=./images/vauxhall-velox-cresta-pa-green_E.0.0,-33,14
 Image[SE]=./images/vauxhall-velox-cresta-pa-green_SE.0.0,-13,0

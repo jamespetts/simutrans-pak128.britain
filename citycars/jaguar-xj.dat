@@ -15,7 +15,7 @@
 # Weight: 60 in total (black 20, green 15, blue 15, silver 10) against the
 # 1989-2025 Very-high gap. Provisional pending the central rebase.
 #
-# Speed 180 km/h; comfort 150/405 (line).
+# Speed 180 km/h; comfort 150/555 (line).
 # Dates: 1986-2003, with a road tail to the mid-2010s.
 #
 # Metres master: citycars/4.5/jaguar-xj.blend. References:
@@ -31,9 +31,9 @@ intro_month=10
 retire_year=2016
 retire_month=6
 speed=180
-class=3,4
+class=3
 maximum_comfortable_journey_minutes=150
-maximum_tolerable_journey_minutes=405
+maximum_tolerable_journey_minutes=555
 
 Image[E]=./images/jaguar-xj-black_E.0.0,-33,14
 Image[SE]=./images/jaguar-xj-black_SE.0.0,-13,0
@@ -54,9 +54,9 @@ intro_month=10
 retire_year=2014
 retire_month=12
 speed=180
-class=3,4
+class=3
 maximum_comfortable_journey_minutes=150
-maximum_tolerable_journey_minutes=405
+maximum_tolerable_journey_minutes=555
 
 Image[E]=./images/jaguar-xj-green_E.0.0,-33,14
 Image[SE]=./images/jaguar-xj-green_SE.0.0,-13,0
@@ -77,9 +77,9 @@ intro_month=3
 retire_year=2015
 retire_month=6
 speed=180
-class=3,4
+class=3
 maximum_comfortable_journey_minutes=150
-maximum_tolerable_journey_minutes=405
+maximum_tolerable_journey_minutes=555
 
 Image[E]=./images/jaguar-xj-blue_E.0.0,-33,14
 Image[SE]=./images/jaguar-xj-blue_SE.0.0,-13,0
@@ -100,9 +100,9 @@ intro_month=3
 retire_year=2013
 retire_month=6
 speed=180
-class=3,4
+class=3
 maximum_comfortable_journey_minutes=150
-maximum_tolerable_journey_minutes=405
+maximum_tolerable_journey_minutes=555
 
 Image[E]=./images/jaguar-xj-silver_E.0.0,-33,14
 Image[SE]=./images/jaguar-xj-silver_SE.0.0,-13,0

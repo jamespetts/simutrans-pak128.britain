@@ -14,7 +14,7 @@
 # White, Squadron Blue and Mexico Brown are documented Rover finishes of the
 # period. Weights 25, 22, 18, 15, total 80, provisional.
 #
-# Speed 165 km/h. Comfort 110/345, on the line 180 + 1.5 x 110, the same
+# Speed 165 km/h. Comfort 110/495, on the line 330 + 1.5 x 110, the same
 # P6 cabin as the 2000. Classes 2,3.
 # Dates are road presence: 1973 intro, retires staggered 1990-1993.
 #
@@ -40,7 +40,7 @@ retire_month=6
 speed=165
 class=2,3
 maximum_comfortable_journey_minutes=110
-maximum_tolerable_journey_minutes=345
+maximum_tolerable_journey_minutes=495
 
 Image[E]=./images/rover-p6-2200-ardengreen_E.0.0,-33,14
 Image[SE]=./images/rover-p6-2200-ardengreen_SE.0.0,-13,0
@@ -63,7 +63,7 @@ retire_month=6
 speed=165
 class=2,3
 maximum_comfortable_journey_minutes=110
-maximum_tolerable_journey_minutes=345
+maximum_tolerable_journey_minutes=495
 
 Image[E]=./images/rover-p6-2200-davoswhite_E.0.0,-33,14
 Image[SE]=./images/rover-p6-2200-davoswhite_SE.0.0,-13,0
@@ -86,7 +86,7 @@ retire_month=6
 speed=165
 class=2,3
 maximum_comfortable_journey_minutes=110
-maximum_tolerable_journey_minutes=345
+maximum_tolerable_journey_minutes=495
 
 Image[E]=./images/rover-p6-2200-squadronblue_E.0.0,-33,14
 Image[SE]=./images/rover-p6-2200-squadronblue_SE.0.0,-13,0
@@ -109,7 +109,7 @@ retire_month=6
 speed=165
 class=2,3
 maximum_comfortable_journey_minutes=110
-maximum_tolerable_journey_minutes=345
+maximum_tolerable_journey_minutes=495
 
 Image[E]=./images/rover-p6-2200-mexicobrown_E.0.0,-33,14
 Image[SE]=./images/rover-p6-2200-mexicobrown_SE.0.0,-13,0

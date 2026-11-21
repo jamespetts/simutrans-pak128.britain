@@ -21,9 +21,9 @@
 # white 4, silver 3, blue 3. Total 16. Provisional pending the central rebase.
 #
 # Speed 130 km/h, one step above the Mk2 for the K-series and five-speed gearbox.
-# Comfort 60/270, on the line 180 + 1.5 x 60, a step above the Mk2's 50/255 for the
+# Comfort 60/420, on the line 330 + 1.5 x 60, a step above the Mk2's 50/405 for the
 # revised Hydragas and the quieter K-series, and one step below the Corsa B's
-# 65/280. Classes 0,1,2.
+# 65/428. Classes 0,1.
 #
 # Dates are road presence, not production: May 1990 intro, retires staggered
 # 2001-2004 on an eleven- to fourteen-year tail.
@@ -51,7 +51,7 @@ retire_month=6
 speed=130
 class=0,1
 maximum_comfortable_journey_minutes=60
-maximum_tolerable_journey_minutes=270
+maximum_tolerable_journey_minutes=420
 
 Image[E]=./images/rover-metro-red_E.0.0,-33,14
 Image[SE]=./images/rover-metro-red_SE.0.0,-13,0
@@ -74,7 +74,7 @@ retire_month=6
 speed=130
 class=0,1
 maximum_comfortable_journey_minutes=60
-maximum_tolerable_journey_minutes=270
+maximum_tolerable_journey_minutes=420
 
 Image[E]=./images/rover-metro-white_E.0.0,-33,14
 Image[SE]=./images/rover-metro-white_SE.0.0,-13,0
@@ -97,7 +97,7 @@ retire_month=6
 speed=130
 class=0,1
 maximum_comfortable_journey_minutes=60
-maximum_tolerable_journey_minutes=270
+maximum_tolerable_journey_minutes=420
 
 Image[E]=./images/rover-metro-silver_E.0.0,-33,14
 Image[SE]=./images/rover-metro-silver_SE.0.0,-13,0
@@ -120,7 +120,7 @@ retire_month=6
 speed=130
 class=0,1
 maximum_comfortable_journey_minutes=60
-maximum_tolerable_journey_minutes=270
+maximum_tolerable_journey_minutes=420
 
 Image[E]=./images/rover-metro-blue_E.0.0,-33,14
 Image[SE]=./images/rover-metro-blue_SE.0.0,-13,0

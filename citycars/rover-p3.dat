@@ -16,8 +16,8 @@
 # maroon are plain names, not claimed as factory names. Weights 10, 8, 6, 6,
 # total 30, provisional.
 #
-# Speed 130 km/h. Comfort 55/265, on the line 180 + 1.5 x 55: an upright
-# 1940s saloon with independent front suspension. Classes 3,4.
+# Speed 130 km/h. Comfort 55/413, on the line 330 + 1.5 x 55: an upright
+# 1940s saloon with independent front suspension. Classes 2,3,4.
 # Dates are road presence: 1948 intro, retires staggered 1965-1968.
 #
 # Metres master: citycars/4.5/rover-p3.blend. Interchange:
@@ -37,9 +37,9 @@ intro_month=2
 retire_year=1968
 retire_month=6
 speed=130
-class=3,4
+class=2,3,4
 maximum_comfortable_journey_minutes=55
-maximum_tolerable_journey_minutes=265
+maximum_tolerable_journey_minutes=413
 
 Image[E]=./images/rover-p3-black_E.0.0,-33,14
 Image[SE]=./images/rover-p3-black_SE.0.0,-13,0
@@ -60,9 +60,9 @@ intro_month=2
 retire_year=1967
 retire_month=6
 speed=130
-class=3,4
+class=2,3,4
 maximum_comfortable_journey_minutes=55
-maximum_tolerable_journey_minutes=265
+maximum_tolerable_journey_minutes=413
 
 Image[E]=./images/rover-p3-sagegreen_E.0.0,-33,14
 Image[SE]=./images/rover-p3-sagegreen_SE.0.0,-13,0
@@ -83,9 +83,9 @@ intro_month=2
 retire_year=1966
 retire_month=6
 speed=130
-class=3,4
+class=2,3,4
 maximum_comfortable_journey_minutes=55
-maximum_tolerable_journey_minutes=265
+maximum_tolerable_journey_minutes=413
 
 Image[E]=./images/rover-p3-dovegrey_E.0.0,-33,14
 Image[SE]=./images/rover-p3-dovegrey_SE.0.0,-13,0
@@ -106,9 +106,9 @@ intro_month=2
 retire_year=1965
 retire_month=6
 speed=130
-class=3,4
+class=2,3,4
 maximum_comfortable_journey_minutes=55
-maximum_tolerable_journey_minutes=265
+maximum_tolerable_journey_minutes=413
 
 Image[E]=./images/rover-p3-maroon_E.0.0,-33,14
 Image[SE]=./images/rover-p3-maroon_SE.0.0,-13,0

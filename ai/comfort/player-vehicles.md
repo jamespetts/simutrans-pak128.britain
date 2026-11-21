@@ -48,7 +48,7 @@ the register rows are not yet written.
 | Air | not set | not set | to research |
 | Sea | not set | not set | to research |
 
-The car anchors (Mini 40/240, Sierra 120/360) are not appropriate for these types; each needs
+The car anchors (Mini 40/390, Sierra 120/510) are not appropriate for these types; each needs
 its own reference accommodation, then the same line and deviation discipline.
 
 ## Migration plan

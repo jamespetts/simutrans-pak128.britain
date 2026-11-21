@@ -27,7 +27,7 @@
 # wheels keep their own materials.
 #
 # Speed 233 km/h, the car's quoted maximum and one of the highest of its day.
-# Comfort 60/270, on the line 180 + 1.5 x 60: a fast, low GT with a firm ride.
+# Comfort 60/420, on the line 330 + 1.5 x 60: a fast, low GT with a firm ride.
 # Classes 3,4.
 #
 # Dates are road presence: 1963 intro, retires staggered 1978-1981 on a
@@ -55,7 +55,7 @@ retire_month=6
 speed=233
 class=3,4
 maximum_comfortable_journey_minutes=60
-maximum_tolerable_journey_minutes=270
+maximum_tolerable_journey_minutes=420
 
 Image[E]=./images/aston-db5-silverbirch_E.0.0,-33,14
 Image[SE]=./images/aston-db5-silverbirch_SE.0.0,-13,0
@@ -78,7 +78,7 @@ retire_month=6
 speed=233
 class=3,4
 maximum_comfortable_journey_minutes=60
-maximum_tolerable_journey_minutes=270
+maximum_tolerable_journey_minutes=420
 
 Image[E]=./images/aston-db5-britishracinggreen_E.0.0,-33,14
 Image[SE]=./images/aston-db5-britishracinggreen_SE.0.0,-13,0
@@ -101,7 +101,7 @@ retire_month=6
 speed=233
 class=3,4
 maximum_comfortable_journey_minutes=60
-maximum_tolerable_journey_minutes=270
+maximum_tolerable_journey_minutes=420
 
 Image[E]=./images/aston-db5-black_E.0.0,-33,14
 Image[SE]=./images/aston-db5-black_SE.0.0,-13,0
@@ -124,7 +124,7 @@ retire_month=6
 speed=233
 class=3,4
 maximum_comfortable_journey_minutes=60
-maximum_tolerable_journey_minutes=270
+maximum_tolerable_journey_minutes=420
 
 Image[E]=./images/aston-db5-red_E.0.0,-33,14
 Image[SE]=./images/aston-db5-red_SE.0.0,-13,0

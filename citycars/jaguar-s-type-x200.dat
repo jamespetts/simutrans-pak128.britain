@@ -18,8 +18,8 @@
 # pending the central rebase.
 #
 # Speed 210 km/h, at the Rover 800 R17's tier: the volume engines were the 3.0 V6
-# and the 4.0/4.2 V8. Comfort 110/345, on the line 180 + 1.5 x 110, equal to the
-# Rover 800 and a step below the Rover 75's 105/340 range in ride terms. Class 3.
+# and the 4.0/4.2 V8. Comfort 110/495, on the line 330 + 1.5 x 110, equal to the
+# Rover 800 and a step below the Rover 75's 105/488 range in ride terms. Classes 2,3.
 #
 # Dates are road presence: March 1999 intro, retires staggered 2018-2024 on a
 # nineteen- to twenty-five-year tail.
@@ -45,7 +45,7 @@ retire_month=6
 speed=210
 class=2,3
 maximum_comfortable_journey_minutes=110
-maximum_tolerable_journey_minutes=345
+maximum_tolerable_journey_minutes=495
 
 Image[E]=./images/jaguar-s-type-x200-black_E.0.0,-33,14
 Image[SE]=./images/jaguar-s-type-x200-black_SE.0.0,-13,0
@@ -68,7 +68,7 @@ retire_month=6
 speed=210
 class=2,3
 maximum_comfortable_journey_minutes=110
-maximum_tolerable_journey_minutes=345
+maximum_tolerable_journey_minutes=495
 
 Image[E]=./images/jaguar-s-type-x200-silver_E.0.0,-33,14
 Image[SE]=./images/jaguar-s-type-x200-silver_SE.0.0,-13,0
@@ -91,7 +91,7 @@ retire_month=6
 speed=210
 class=2,3
 maximum_comfortable_journey_minutes=110
-maximum_tolerable_journey_minutes=345
+maximum_tolerable_journey_minutes=495
 
 Image[E]=./images/jaguar-s-type-x200-blue_E.0.0,-33,14
 Image[SE]=./images/jaguar-s-type-x200-blue_SE.0.0,-13,0
@@ -114,7 +114,7 @@ retire_month=6
 speed=210
 class=2,3
 maximum_comfortable_journey_minutes=110
-maximum_tolerable_journey_minutes=345
+maximum_tolerable_journey_minutes=495
 
 Image[E]=./images/jaguar-s-type-x200-green_E.0.0,-33,14
 Image[SE]=./images/jaguar-s-type-x200-green_SE.0.0,-13,0

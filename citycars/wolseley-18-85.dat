@@ -15,7 +15,7 @@
 # Colours: grade (d); no period chart was found. Black, grey, green and
 # maroon are plain names. Weights 15, 13, 12, 10, total 50, provisional.
 #
-# Speed 130 km/h. Comfort 60/270, on the line 180 + 1.5 x 60. Classes 3,4.
+# Speed 130 km/h. Comfort 60/420, on the line 330 + 1.5 x 60. Classes 2,3.
 # Dates are road presence: 1938 intro, retires staggered 1958-1961.
 #
 # Metres master: citycars/4.5/wolseley-18-85.blend. Interchange:
@@ -38,9 +38,9 @@ intro_month=9
 retire_year=1961
 retire_month=6
 speed=130
-class=3,4
+class=2,3
 maximum_comfortable_journey_minutes=60
-maximum_tolerable_journey_minutes=270
+maximum_tolerable_journey_minutes=420
 
 Image[E]=./images/wolseley-18-85-black_E.0.0,-33,14
 Image[SE]=./images/wolseley-18-85-black_SE.0.0,-13,0
@@ -61,9 +61,9 @@ intro_month=9
 retire_year=1960
 retire_month=6
 speed=130
-class=3,4
+class=2,3
 maximum_comfortable_journey_minutes=60
-maximum_tolerable_journey_minutes=270
+maximum_tolerable_journey_minutes=420
 
 Image[E]=./images/wolseley-18-85-grey_E.0.0,-33,14
 Image[SE]=./images/wolseley-18-85-grey_SE.0.0,-13,0
@@ -84,9 +84,9 @@ intro_month=9
 retire_year=1959
 retire_month=6
 speed=130
-class=3,4
+class=2,3
 maximum_comfortable_journey_minutes=60
-maximum_tolerable_journey_minutes=270
+maximum_tolerable_journey_minutes=420
 
 Image[E]=./images/wolseley-18-85-green_E.0.0,-33,14
 Image[SE]=./images/wolseley-18-85-green_SE.0.0,-13,0
@@ -107,9 +107,9 @@ intro_month=9
 retire_year=1958
 retire_month=6
 speed=130
-class=3,4
+class=2,3
 maximum_comfortable_journey_minutes=60
-maximum_tolerable_journey_minutes=270
+maximum_tolerable_journey_minutes=420
 
 Image[E]=./images/wolseley-18-85-maroon_E.0.0,-33,14
 Image[SE]=./images/wolseley-18-85-maroon_SE.0.0,-13,0

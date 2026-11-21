@@ -12,7 +12,7 @@ retire_month=9
 speed=130
 class=2,3
 maximum_comfortable_journey_minutes=65
-maximum_tolerable_journey_minutes=280
+maximum_tolerable_journey_minutes=428
 
 Image[E]=./images/citroen-light-15-blue_E.0.0,-33,14
 Image[SE]=./images/citroen-light-15-blue_SE.0.0,-13,0
@@ -35,7 +35,7 @@ retire_month=3
 speed=130
 class=2,3
 maximum_comfortable_journey_minutes=65
-maximum_tolerable_journey_minutes=280
+maximum_tolerable_journey_minutes=428
 
 Image[E]=./images/citroen-light-15-grey_E.0.0,-33,14
 Image[SE]=./images/citroen-light-15-grey_SE.0.0,-13,0
@@ -59,7 +59,7 @@ retire_month=10
 speed=130
 class=2,3
 maximum_comfortable_journey_minutes=65
-maximum_tolerable_journey_minutes=280
+maximum_tolerable_journey_minutes=428
 
 Image[E]=./images/citroen-light-15-red_E.0.0,-33,14
 Image[SE]=./images/citroen-light-15-red_SE.0.0,-13,0
@@ -84,7 +84,7 @@ retire_month=2
 speed=130
 class=2,3
 maximum_comfortable_journey_minutes=65
-maximum_tolerable_journey_minutes=280
+maximum_tolerable_journey_minutes=428
 
 Image[E]=./images/citroen-light-15-black_E.0.0,-33,14
 Image[SE]=./images/citroen-light-15-black_SE.0.0,-13,0

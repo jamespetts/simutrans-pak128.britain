@@ -17,7 +17,7 @@
 # Weight: 6 in total (cream 2, green 2, maroon 1, black 1). The French light car
 # was numerous in Britain but the register treats imports as representative.
 #
-# Speed 45 km/h; comfort 25/220 (line). Class 2.
+# Speed 45 km/h; comfort 25/368 (line). Classes 2,3.
 # Dates: 1902-1908 with a road tail to about 1928.
 #
 # Metres master: citycars/4.5/de-dion-type-v.blend. References:
@@ -33,9 +33,9 @@ intro_month=5
 retire_year=1928
 retire_month=6
 speed=45
-class=1,2
+class=2,3
 maximum_comfortable_journey_minutes=25
-maximum_tolerable_journey_minutes=220
+maximum_tolerable_journey_minutes=368
 
 Image[E]=./images/de-dion-type-v-cream_E.0.0,-33,14
 Image[SE]=./images/de-dion-type-v-cream_SE.0.0,-13,0
@@ -56,9 +56,9 @@ intro_month=5
 retire_year=1927
 retire_month=6
 speed=45
-class=1,2
+class=2,3
 maximum_comfortable_journey_minutes=25
-maximum_tolerable_journey_minutes=220
+maximum_tolerable_journey_minutes=368
 
 Image[E]=./images/de-dion-type-v-green_E.0.0,-33,14
 Image[SE]=./images/de-dion-type-v-green_SE.0.0,-13,0
@@ -79,9 +79,9 @@ intro_month=3
 retire_year=1926
 retire_month=6
 speed=45
-class=1,2
+class=2,3
 maximum_comfortable_journey_minutes=25
-maximum_tolerable_journey_minutes=220
+maximum_tolerable_journey_minutes=368
 
 Image[E]=./images/de-dion-type-v-maroon_E.0.0,-33,14
 Image[SE]=./images/de-dion-type-v-maroon_SE.0.0,-13,0
@@ -102,9 +102,9 @@ intro_month=3
 retire_year=1925
 retire_month=6
 speed=45
-class=1,2
+class=2,3
 maximum_comfortable_journey_minutes=25
-maximum_tolerable_journey_minutes=220
+maximum_tolerable_journey_minutes=368
 
 Image[E]=./images/de-dion-type-v-black_E.0.0,-33,14
 Image[SE]=./images/de-dion-type-v-black_SE.0.0,-13,0

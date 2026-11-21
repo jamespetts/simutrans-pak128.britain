@@ -1,3 +1,4 @@
+# Retire policy 2026-11-20: still in production in 2026 with no announced end; retire dates commented out. Revisit when an end is announced.
 # Toyota Prius XW60 five-door fastback plug-in hybrid, 2024 onwards.
 #
 # The fifth-generation Prius, sold in Britain as the plug-in hybrid only.
@@ -29,13 +30,13 @@
 # rebase.
 #
 # Speed 175 km/h, just below the car's quoted 177 km/h because the plug-in
-# hybrid's electric-only running does not govern its maximum. Comfort 120/360,
-# on the line 180 + 1.5 x 120: the quietest and most refined of the Prius
-# generations. Class 3 only: the British plug-in model was priced well above
+# hybrid's electric-only running does not govern its maximum. Comfort 120/510,
+# on the line 330 + 1.5 x 120: the quietest and most refined of the Prius
+# generations. Classes 1,2 only: the British plug-in model was priced well above
 # the earlier cars, but a Toyota is not a plutocratic car and class 4 would put
 # it in the hands of households that buy Rolls-Royces.
 #
-# Dates are road presence: July 2024 intro, retires staggered 2036-2039 on a
+# Dates are road presence: July 2024 intro, retire dates commented out (still in production in 2026)
 # twelve- to fifteen-year tail.
 #
 # Metres master: citycars/4.5/toyota-prius-xw60.blend. Interchange:
@@ -56,12 +57,12 @@ copyright=JamesPetts
 DistributionWeight=3
 intro_year=2024
 intro_month=7
-retire_year=2039
-retire_month=6
+#retire_year=2039
+#retire_month=6
 speed=175
-class=3
+class=1,2
 maximum_comfortable_journey_minutes=120
-maximum_tolerable_journey_minutes=360
+maximum_tolerable_journey_minutes=510
 
 Image[E]=./images/toyota-prius-xw60-silvermetallic_E.0.0,-33,14
 Image[SE]=./images/toyota-prius-xw60-silvermetallic_SE.0.0,-13,0
@@ -79,12 +80,12 @@ copyright=JamesPetts
 DistributionWeight=3
 intro_year=2024
 intro_month=7
-retire_year=2039
-retire_month=6
+#retire_year=2039
+#retire_month=6
 speed=175
-class=3
+class=1,2
 maximum_comfortable_journey_minutes=120
-maximum_tolerable_journey_minutes=360
+maximum_tolerable_journey_minutes=510
 
 Image[E]=./images/toyota-prius-xw60-ash_E.0.0,-33,14
 Image[SE]=./images/toyota-prius-xw60-ash_SE.0.0,-13,0
@@ -102,12 +103,12 @@ copyright=JamesPetts
 DistributionWeight=2
 intro_year=2024
 intro_month=7
-retire_year=2038
-retire_month=6
+#retire_year=2038
+#retire_month=6
 speed=175
-class=3
+class=1,2
 maximum_comfortable_journey_minutes=120
-maximum_tolerable_journey_minutes=360
+maximum_tolerable_journey_minutes=510
 
 Image[E]=./images/toyota-prius-xw60-galaxyblack_E.0.0,-33,14
 Image[SE]=./images/toyota-prius-xw60-galaxyblack_SE.0.0,-13,0
@@ -125,12 +126,12 @@ copyright=JamesPetts
 DistributionWeight=2
 intro_year=2024
 intro_month=7
-retire_year=2037
-retire_month=6
+#retire_year=2037
+#retire_month=6
 speed=175
-class=3
+class=1,2
 maximum_comfortable_journey_minutes=120
-maximum_tolerable_journey_minutes=360
+maximum_tolerable_journey_minutes=510
 
 Image[E]=./images/toyota-prius-xw60-scarletflare_E.0.0,-33,14
 Image[SE]=./images/toyota-prius-xw60-scarletflare_SE.0.0,-13,0

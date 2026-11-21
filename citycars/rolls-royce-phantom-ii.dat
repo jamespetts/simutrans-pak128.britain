@@ -11,7 +11,7 @@
 # Weight: 12 in total (black 5, green 3, maroon 2, grey 2). Section F: early
 # prestige models are representative only.
 #
-# Speed 130 km/h; comfort 75/295 (line). Class 4.
+# Speed 130 km/h; comfort 75/443 (line). Class 4.
 # Dates: 1929-1935 with a road tail to about 1955.
 #
 # Metres master: citycars/4.5/rolls-royce-phantom-ii.blend. References:
@@ -30,7 +30,7 @@ retire_month=6
 speed=130
 class=4
 maximum_comfortable_journey_minutes=75
-maximum_tolerable_journey_minutes=295
+maximum_tolerable_journey_minutes=443
 
 Image[E]=./images/rolls-royce-phantom-ii-black_E.0.0,-33,14
 Image[SE]=./images/rolls-royce-phantom-ii-black_SE.0.0,-13,0
@@ -53,7 +53,7 @@ retire_month=6
 speed=130
 class=4
 maximum_comfortable_journey_minutes=75
-maximum_tolerable_journey_minutes=295
+maximum_tolerable_journey_minutes=443
 
 Image[E]=./images/rolls-royce-phantom-ii-green_E.0.0,-33,14
 Image[SE]=./images/rolls-royce-phantom-ii-green_SE.0.0,-13,0
@@ -76,7 +76,7 @@ retire_month=6
 speed=130
 class=4
 maximum_comfortable_journey_minutes=75
-maximum_tolerable_journey_minutes=295
+maximum_tolerable_journey_minutes=443
 
 Image[E]=./images/rolls-royce-phantom-ii-maroon_E.0.0,-33,14
 Image[SE]=./images/rolls-royce-phantom-ii-maroon_SE.0.0,-13,0
@@ -99,7 +99,7 @@ retire_month=6
 speed=130
 class=4
 maximum_comfortable_journey_minutes=75
-maximum_tolerable_journey_minutes=295
+maximum_tolerable_journey_minutes=443
 
 Image[E]=./images/rolls-royce-phantom-ii-grey_E.0.0,-33,14
 Image[SE]=./images/rolls-royce-phantom-ii-grey_SE.0.0,-13,0

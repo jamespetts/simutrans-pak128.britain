@@ -24,7 +24,7 @@
 # Colours: grade (d); no UK colour page was obtained. White, Red, Blue and
 # Silver are plain names. Weights 12, 10, 9, 8, total 39, provisional.
 #
-# Speed 155 km/h. Comfort 45/248, on the line 180 + 1.5 x 45. Classes 0,1.
+# Speed 155 km/h. Comfort 45/398, on the line 330 + 1.5 x 45. Classes 0,1.
 # Dates: intro May 1982, European sales beginning that month; retire staggered
 # 1995-1999 as a road tail.
 #
@@ -50,7 +50,7 @@ retire_month=6
 speed=155
 class=0,1
 maximum_comfortable_journey_minutes=45
-maximum_tolerable_journey_minutes=248
+maximum_tolerable_journey_minutes=398
 
 Image[E]=./images/nissan-sunny-b11-white_E.0.0,-33,14
 Image[SE]=./images/nissan-sunny-b11-white_SE.0.0,-13,0
@@ -73,7 +73,7 @@ retire_month=6
 speed=155
 class=0,1
 maximum_comfortable_journey_minutes=45
-maximum_tolerable_journey_minutes=248
+maximum_tolerable_journey_minutes=398
 
 Image[E]=./images/nissan-sunny-b11-red_E.0.0,-33,14
 Image[SE]=./images/nissan-sunny-b11-red_SE.0.0,-13,0
@@ -96,7 +96,7 @@ retire_month=6
 speed=155
 class=0,1
 maximum_comfortable_journey_minutes=45
-maximum_tolerable_journey_minutes=248
+maximum_tolerable_journey_minutes=398
 
 Image[E]=./images/nissan-sunny-b11-blue_E.0.0,-33,14
 Image[SE]=./images/nissan-sunny-b11-blue_SE.0.0,-13,0
@@ -119,7 +119,7 @@ retire_month=6
 speed=155
 class=0,1
 maximum_comfortable_journey_minutes=45
-maximum_tolerable_journey_minutes=248
+maximum_tolerable_journey_minutes=398
 
 Image[E]=./images/nissan-sunny-b11-silver_E.0.0,-33,14
 Image[SE]=./images/nissan-sunny-b11-silver_SE.0.0,-13,0

@@ -19,8 +19,8 @@
 # only two years. Provisional pending the central rebase.
 #
 # Speed 190 km/h, as the S-Type: the 4.2 had more torque but the same road-speed
-# ceiling in pakset terms. Comfort 90/315, on the line 180 + 1.5 x 90, inherited
-# from the shared body. Class 3.
+# ceiling in pakset terms. Comfort 90/465, on the line 330 + 1.5 x 90, inherited
+# from the shared body. Classes 1,2,3.
 #
 # Dates are road presence, not production: August 1966 intro, retires staggered
 # 1980-1987 on a fourteen- to twenty-one-year tail.
@@ -45,9 +45,9 @@ intro_month=8
 retire_year=1984
 retire_month=6
 speed=190
-class=3,4
+class=1,2,3
 maximum_comfortable_journey_minutes=90
-maximum_tolerable_journey_minutes=315
+maximum_tolerable_journey_minutes=465
 
 Image[E]=./images/jaguar-420-green_E.0.0,-33,14
 Image[SE]=./images/jaguar-420-green_SE.0.0,-13,0
@@ -68,9 +68,9 @@ intro_month=8
 retire_year=1980
 retire_month=6
 speed=190
-class=3,4
+class=1,2,3
 maximum_comfortable_journey_minutes=90
-maximum_tolerable_journey_minutes=315
+maximum_tolerable_journey_minutes=465
 
 Image[E]=./images/jaguar-420-red_E.0.0,-33,14
 Image[SE]=./images/jaguar-420-red_SE.0.0,-13,0
@@ -91,9 +91,9 @@ intro_month=8
 retire_year=1982
 retire_month=6
 speed=190
-class=3,4
+class=1,2,3
 maximum_comfortable_journey_minutes=90
-maximum_tolerable_journey_minutes=315
+maximum_tolerable_journey_minutes=465
 
 Image[E]=./images/jaguar-420-white_E.0.0,-33,14
 Image[SE]=./images/jaguar-420-white_SE.0.0,-13,0
@@ -114,9 +114,9 @@ intro_month=3
 retire_year=1987
 retire_month=6
 speed=190
-class=3,4
+class=1,2,3
 maximum_comfortable_journey_minutes=90
-maximum_tolerable_journey_minutes=315
+maximum_tolerable_journey_minutes=465
 
 Image[E]=./images/jaguar-420-silver_E.0.0,-33,14
 Image[SE]=./images/jaguar-420-silver_SE.0.0,-13,0

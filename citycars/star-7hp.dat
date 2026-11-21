@@ -16,7 +16,7 @@
 # Weight: 6 in total (green 2, blue 2, maroon 1, black 1). The 7 hp was a light
 # car of the era, and the register treats early light cars as representative.
 #
-# Speed 40 km/h; comfort 25/215 (line). Class 2.
+# Speed 40 km/h; comfort 25/368 (line). Class 2.
 # Dates: 1902-1905 with a road tail to about 1925.
 #
 # Metres master: citycars/4.5/star-7hp.blend. References:
@@ -32,9 +32,9 @@ intro_month=5
 retire_year=1925
 retire_month=6
 speed=40
-class=1,2
+class=2
 maximum_comfortable_journey_minutes=25
-maximum_tolerable_journey_minutes=215
+maximum_tolerable_journey_minutes=368
 
 Image[E]=./images/star-7hp-green_E.0.0,-33,14
 Image[SE]=./images/star-7hp-green_SE.0.0,-13,0
@@ -55,9 +55,9 @@ intro_month=5
 retire_year=1924
 retire_month=6
 speed=40
-class=1,2
+class=2
 maximum_comfortable_journey_minutes=25
-maximum_tolerable_journey_minutes=215
+maximum_tolerable_journey_minutes=368
 
 Image[E]=./images/star-7hp-blue_E.0.0,-33,14
 Image[SE]=./images/star-7hp-blue_SE.0.0,-13,0
@@ -78,9 +78,9 @@ intro_month=3
 retire_year=1923
 retire_month=6
 speed=40
-class=1,2
+class=2
 maximum_comfortable_journey_minutes=25
-maximum_tolerable_journey_minutes=215
+maximum_tolerable_journey_minutes=368
 
 Image[E]=./images/star-7hp-maroon_E.0.0,-33,14
 Image[SE]=./images/star-7hp-maroon_SE.0.0,-13,0
@@ -101,9 +101,9 @@ intro_month=3
 retire_year=1922
 retire_month=6
 speed=40
-class=1,2
+class=2
 maximum_comfortable_journey_minutes=25
-maximum_tolerable_journey_minutes=215
+maximum_tolerable_journey_minutes=368
 
 Image[E]=./images/star-7hp-black_E.0.0,-33,14
 Image[SE]=./images/star-7hp-black_SE.0.0,-13,0

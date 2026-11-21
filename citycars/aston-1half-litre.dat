@@ -18,8 +18,8 @@
 # plain names (green, black, red, silver); the photographed cream and brown
 # scheme is one customer's choice, not a catalogue colour.
 #
-# Speed 130 km/h, an estimate for the 1.5-litre sports. Comfort 25/218 on the
-# line 180 + 1.5 x 25: an open, short, hard-riding sports car. Classes 3,4.
+# Speed 130 km/h, an estimate for the 1.5-litre sports. Comfort 25/368 on the
+# line 330 + 1.5 x 25: an open, short, hard-riding sports car. Classes 2,3,4.
 # Dates are road presence: 1922 intro, retires staggered 1940-1943.
 #
 # Metres master: citycars/4.5/aston-1half-litre.blend. Interchange:
@@ -41,9 +41,9 @@ intro_month=1
 retire_year=1943
 retire_month=6
 speed=130
-class=3,4
+class=2,3,4
 maximum_comfortable_journey_minutes=25
-maximum_tolerable_journey_minutes=218
+maximum_tolerable_journey_minutes=368
 
 Image[E]=./images/aston-1half-litre-green_E.0.0,-33,14
 Image[SE]=./images/aston-1half-litre-green_SE.0.0,-13,0
@@ -64,9 +64,9 @@ intro_month=1
 retire_year=1942
 retire_month=6
 speed=130
-class=3,4
+class=2,3,4
 maximum_comfortable_journey_minutes=25
-maximum_tolerable_journey_minutes=218
+maximum_tolerable_journey_minutes=368
 
 Image[E]=./images/aston-1half-litre-black_E.0.0,-33,14
 Image[SE]=./images/aston-1half-litre-black_SE.0.0,-13,0
@@ -87,9 +87,9 @@ intro_month=1
 retire_year=1941
 retire_month=6
 speed=130
-class=3,4
+class=2,3,4
 maximum_comfortable_journey_minutes=25
-maximum_tolerable_journey_minutes=218
+maximum_tolerable_journey_minutes=368
 
 Image[E]=./images/aston-1half-litre-red_E.0.0,-33,14
 Image[SE]=./images/aston-1half-litre-red_SE.0.0,-13,0
@@ -110,9 +110,9 @@ intro_month=1
 retire_year=1940
 retire_month=6
 speed=130
-class=3,4
+class=2,3,4
 maximum_comfortable_journey_minutes=25
-maximum_tolerable_journey_minutes=218
+maximum_tolerable_journey_minutes=368
 
 Image[E]=./images/aston-1half-litre-silver_E.0.0,-33,14
 Image[SE]=./images/aston-1half-litre-silver_SE.0.0,-13,0

@@ -11,7 +11,7 @@
 #
 # Weight: 200 in total (black 70, grey 50, blue 45, green 35).
 #
-# Speed 100 km/h; comfort 40/240 (line). Classes 0,1.
+# Speed 100 km/h; comfort 40/390 (line). Class 2.
 # Dates: 1951-1962 with a road tail to about 1978.
 #
 # Metres master: citycars/4.5/austin-a30.blend. References:
@@ -27,9 +27,9 @@ intro_month=10
 retire_year=1978
 retire_month=6
 speed=100
-class=0,1
+class=2
 maximum_comfortable_journey_minutes=40
-maximum_tolerable_journey_minutes=240
+maximum_tolerable_journey_minutes=390
 
 Image[E]=./images/austin-a30-black_E.0.0,-33,14
 Image[SE]=./images/austin-a30-black_SE.0.0,-13,0
@@ -50,9 +50,9 @@ intro_month=10
 retire_year=1977
 retire_month=6
 speed=100
-class=0,1
+class=2
 maximum_comfortable_journey_minutes=40
-maximum_tolerable_journey_minutes=240
+maximum_tolerable_journey_minutes=390
 
 Image[E]=./images/austin-a30-grey_E.0.0,-33,14
 Image[SE]=./images/austin-a30-grey_SE.0.0,-13,0
@@ -73,9 +73,9 @@ intro_month=3
 retire_year=1976
 retire_month=6
 speed=100
-class=0,1
+class=2
 maximum_comfortable_journey_minutes=40
-maximum_tolerable_journey_minutes=240
+maximum_tolerable_journey_minutes=390
 
 Image[E]=./images/austin-a30-blue_E.0.0,-33,14
 Image[SE]=./images/austin-a30-blue_SE.0.0,-13,0
@@ -96,9 +96,9 @@ intro_month=3
 retire_year=1975
 retire_month=6
 speed=100
-class=0,1
+class=2
 maximum_comfortable_journey_minutes=40
-maximum_tolerable_journey_minutes=240
+maximum_tolerable_journey_minutes=390
 
 Image[E]=./images/austin-a30-green_E.0.0,-33,14
 Image[SE]=./images/austin-a30-green_SE.0.0,-13,0

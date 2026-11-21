@@ -39,7 +39,7 @@
 # central rebase.
 #
 # Speed 64 km/h (40 mph): a game-balance figure for a 557 cc side-valve outfit.
-# Comfort 20/180, below the post-war M21 outfit's 25/190: rigid frame, sprung
+# Comfort 20/330, below the post-war M21 outfit's 25/190: rigid frame, sprung
 # saddle only, and a sidecar on leaf springs.
 #
 # Dates describe when outfits were seen regularly on UK roads. The 4¼ hp with
@@ -71,7 +71,7 @@ retire_month=6
 speed=64
 class=0,1
 maximum_comfortable_journey_minutes=20
-maximum_tolerable_journey_minutes=180
+maximum_tolerable_journey_minutes=330
 
 Image[E]=./images/bsa-557-combo-green_E.0.0,-33,14
 Image[SE]=./images/bsa-557-combo-green_SE.0.0,-13,0
@@ -94,7 +94,7 @@ retire_month=6
 speed=64
 class=0,1
 maximum_comfortable_journey_minutes=20
-maximum_tolerable_journey_minutes=180
+maximum_tolerable_journey_minutes=330
 
 Image[E]=./images/bsa-557-combo-black_E.0.0,-33,14
 Image[SE]=./images/bsa-557-combo-black_SE.0.0,-13,0

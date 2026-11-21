@@ -15,7 +15,7 @@
 # Sage Green, Dove Grey and Maroon. Weights 12, 10, 10, 8, total 40,
 # provisional.
 #
-# Speed 150 km/h. Comfort 65/280, on the line 180 + 1.5 x 65. Classes 3,4.
+# Speed 150 km/h. Comfort 65/428, on the line 330 + 1.5 x 65. Classes 2,3,4.
 # Dates are road presence: 1960 intro, retires staggered 1978-1981.
 #
 # Metres master: citycars/4.5/rover-p4-100.blend. Interchange:
@@ -38,9 +38,9 @@ intro_month=10
 retire_year=1981
 retire_month=6
 speed=150
-class=3,4
+class=2,3,4
 maximum_comfortable_journey_minutes=65
-maximum_tolerable_journey_minutes=280
+maximum_tolerable_journey_minutes=428
 
 Image[E]=./images/rover-p4-100-black_E.0.0,-33,14
 Image[SE]=./images/rover-p4-100-black_SE.0.0,-13,0
@@ -61,9 +61,9 @@ intro_month=10
 retire_year=1980
 retire_month=6
 speed=150
-class=3,4
+class=2,3,4
 maximum_comfortable_journey_minutes=65
-maximum_tolerable_journey_minutes=280
+maximum_tolerable_journey_minutes=428
 
 Image[E]=./images/rover-p4-100-sagegreen_E.0.0,-33,14
 Image[SE]=./images/rover-p4-100-sagegreen_SE.0.0,-13,0
@@ -84,9 +84,9 @@ intro_month=10
 retire_year=1979
 retire_month=6
 speed=150
-class=3,4
+class=2,3,4
 maximum_comfortable_journey_minutes=65
-maximum_tolerable_journey_minutes=280
+maximum_tolerable_journey_minutes=428
 
 Image[E]=./images/rover-p4-100-dovegrey_E.0.0,-33,14
 Image[SE]=./images/rover-p4-100-dovegrey_SE.0.0,-13,0
@@ -107,9 +107,9 @@ intro_month=10
 retire_year=1978
 retire_month=6
 speed=150
-class=3,4
+class=2,3,4
 maximum_comfortable_journey_minutes=65
-maximum_tolerable_journey_minutes=280
+maximum_tolerable_journey_minutes=428
 
 Image[E]=./images/rover-p4-100-maroon_E.0.0,-33,14
 Image[SE]=./images/rover-p4-100-maroon_SE.0.0,-13,0

@@ -1,3 +1,4 @@
+# Retire policy 2026-11-20: still in production in 2026 with no announced end; retire dates commented out. Revisit when an end is announced.
 # BYD Seal four-door electric saloon, 2023 onwards.
 #
 # The Seal: the low four-door saloon on the e-Platform 3.0 with the 82.5 kWh
@@ -16,9 +17,9 @@
 # named by Autocar on 26 January 2024 as premium paints; White and Black are
 # plain names. Weights 12, 10, 9, 8, total 39, provisional.
 #
-# Speed 180 km/h. Comfort 90/315, on the line 180 + 1.5 x 90. Classes 2,3.
-# Dates: intro September 2023, when UK prices were confirmed; retires
-# staggered 2046-2049.
+# Speed 180 km/h. Comfort 90/465, on the line 330 + 1.5 x 90. Classes 1,2.
+# Dates: intro September 2023, when UK prices were confirmed; retire dates
+# commented out (still in production in 2026).
 #
 # Metres master: citycars/4.5/byd-seal.blend. Interchange:
 # citycars/4.5/byd-seal.dae. References:
@@ -37,12 +38,12 @@ copyright=JamesPetts
 DistributionWeight=12
 intro_year=2023
 intro_month=11
-retire_year=2049
-retire_month=6
+#retire_year=2049
+#retire_month=6
 speed=180
-class=2,3
+class=1,2
 maximum_comfortable_journey_minutes=90
-maximum_tolerable_journey_minutes=315
+maximum_tolerable_journey_minutes=465
 
 Image[E]=./images/byd-seal-white_E.0.0,-33,14
 Image[SE]=./images/byd-seal-white_SE.0.0,-13,0
@@ -60,12 +61,12 @@ copyright=JamesPetts
 DistributionWeight=10
 intro_year=2023
 intro_month=11
-retire_year=2048
-retire_month=6
+#retire_year=2048
+#retire_month=6
 speed=180
-class=2,3
+class=1,2
 maximum_comfortable_journey_minutes=90
-maximum_tolerable_journey_minutes=315
+maximum_tolerable_journey_minutes=465
 
 Image[E]=./images/byd-seal-shadowgreen_E.0.0,-33,14
 Image[SE]=./images/byd-seal-shadowgreen_SE.0.0,-13,0
@@ -83,12 +84,12 @@ copyright=JamesPetts
 DistributionWeight=9
 intro_year=2023
 intro_month=11
-retire_year=2047
-retire_month=6
+#retire_year=2047
+#retire_month=6
 speed=180
-class=2,3
+class=1,2
 maximum_comfortable_journey_minutes=90
-maximum_tolerable_journey_minutes=315
+maximum_tolerable_journey_minutes=465
 
 Image[E]=./images/byd-seal-indigogrey_E.0.0,-33,14
 Image[SE]=./images/byd-seal-indigogrey_SE.0.0,-13,0
@@ -106,12 +107,12 @@ copyright=JamesPetts
 DistributionWeight=8
 intro_year=2023
 intro_month=11
-retire_year=2046
-retire_month=6
+#retire_year=2046
+#retire_month=6
 speed=180
-class=2,3
+class=1,2
 maximum_comfortable_journey_minutes=90
-maximum_tolerable_journey_minutes=315
+maximum_tolerable_journey_minutes=465
 
 Image[E]=./images/byd-seal-black_E.0.0,-33,14
 Image[SE]=./images/byd-seal-black_SE.0.0,-13,0

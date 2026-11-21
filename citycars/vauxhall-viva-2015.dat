@@ -12,7 +12,7 @@
 # Colours: grade (d); no Vauxhall colour list was read. White, Red, Blue and
 # Silver are plain names. Weights 12, 10, 9, 8, total 39, provisional.
 #
-# Speed 170 km/h. Comfort 60/270, on the line 180 + 1.5 x 60. Classes 0,1.
+# Speed 170 km/h. Comfort 60/420, on the line 330 + 1.5 x 60. Classes 0,1.
 # Dates: intro June 2015; retires staggered 2027-2030 as a road tail.
 #
 # Metres master: citycars/4.5/vauxhall-viva-2015.blend. Interchange:
@@ -36,7 +36,7 @@ retire_month=6
 speed=170
 class=0,1
 maximum_comfortable_journey_minutes=60
-maximum_tolerable_journey_minutes=270
+maximum_tolerable_journey_minutes=420
 
 Image[E]=./images/vauxhall-viva-2015-white_E.0.0,-33,14
 Image[SE]=./images/vauxhall-viva-2015-white_SE.0.0,-13,0
@@ -59,7 +59,7 @@ retire_month=6
 speed=170
 class=0,1
 maximum_comfortable_journey_minutes=60
-maximum_tolerable_journey_minutes=270
+maximum_tolerable_journey_minutes=420
 
 Image[E]=./images/vauxhall-viva-2015-red_E.0.0,-33,14
 Image[SE]=./images/vauxhall-viva-2015-red_SE.0.0,-13,0
@@ -82,7 +82,7 @@ retire_month=6
 speed=170
 class=0,1
 maximum_comfortable_journey_minutes=60
-maximum_tolerable_journey_minutes=270
+maximum_tolerable_journey_minutes=420
 
 Image[E]=./images/vauxhall-viva-2015-blue_E.0.0,-33,14
 Image[SE]=./images/vauxhall-viva-2015-blue_SE.0.0,-13,0
@@ -105,7 +105,7 @@ retire_month=6
 speed=170
 class=0,1
 maximum_comfortable_journey_minutes=60
-maximum_tolerable_journey_minutes=270
+maximum_tolerable_journey_minutes=420
 
 Image[E]=./images/vauxhall-viva-2015-silver_E.0.0,-33,14
 Image[SE]=./images/vauxhall-viva-2015-silver_SE.0.0,-13,0

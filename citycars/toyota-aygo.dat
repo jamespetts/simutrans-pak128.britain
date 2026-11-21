@@ -9,7 +9,7 @@
 #
 # Weight: 40 in total (white 14, red 10, blue 9, grey 7).
 #
-# Speed 155 km/h; comfort 75/295 (line). Classes 0,1.
+# Speed 155 km/h; comfort 75/443 (line). Classes 0,1.
 # Dates: 2005-2014 with a road tail to about 2024.
 #
 # Metres master: citycars/4.5/toyota-aygo.blend. References:
@@ -27,7 +27,7 @@ retire_month=6
 speed=155
 class=0,1
 maximum_comfortable_journey_minutes=75
-maximum_tolerable_journey_minutes=295
+maximum_tolerable_journey_minutes=443
 
 Image[E]=./images/toyota-aygo-white_E.0.0,-33,14
 Image[SE]=./images/toyota-aygo-white_SE.0.0,-13,0
@@ -50,7 +50,7 @@ retire_month=6
 speed=155
 class=0,1
 maximum_comfortable_journey_minutes=75
-maximum_tolerable_journey_minutes=295
+maximum_tolerable_journey_minutes=443
 
 Image[E]=./images/toyota-aygo-red_E.0.0,-33,14
 Image[SE]=./images/toyota-aygo-red_SE.0.0,-13,0
@@ -73,7 +73,7 @@ retire_month=6
 speed=155
 class=0,1
 maximum_comfortable_journey_minutes=75
-maximum_tolerable_journey_minutes=295
+maximum_tolerable_journey_minutes=443
 
 Image[E]=./images/toyota-aygo-blue_E.0.0,-33,14
 Image[SE]=./images/toyota-aygo-blue_SE.0.0,-13,0
@@ -96,7 +96,7 @@ retire_month=6
 speed=155
 class=0,1
 maximum_comfortable_journey_minutes=75
-maximum_tolerable_journey_minutes=295
+maximum_tolerable_journey_minutes=443
 
 Image[E]=./images/toyota-aygo-grey_E.0.0,-33,14
 Image[SE]=./images/toyota-aygo-grey_SE.0.0,-13,0

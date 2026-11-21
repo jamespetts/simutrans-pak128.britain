@@ -10,7 +10,7 @@
 #
 # Weight: 30 in total (black 10, silver 8, grey 7, blue 5).
 #
-# Speed 220 km/h; comfort 125/370 (line). Classes 3,4.
+# Speed 220 km/h; comfort 125/518 (line). Classes 3,4.
 # Dates: 2003-2010 with a road tail to about 2022.
 #
 # Metres master: citycars/4.5/porsche-cayenne.blend. References:
@@ -36,7 +36,7 @@ retire_month=6
 speed=220
 class=3,4
 maximum_comfortable_journey_minutes=125
-maximum_tolerable_journey_minutes=370
+maximum_tolerable_journey_minutes=518
 
 Image[E]=./images/porsche-cayenne-black_E.0.0,-33,14
 Image[SE]=./images/porsche-cayenne-black_SE.0.0,-13,0
@@ -59,7 +59,7 @@ retire_month=6
 speed=220
 class=3,4
 maximum_comfortable_journey_minutes=125
-maximum_tolerable_journey_minutes=370
+maximum_tolerable_journey_minutes=518
 
 Image[E]=./images/porsche-cayenne-silver_E.0.0,-33,14
 Image[SE]=./images/porsche-cayenne-silver_SE.0.0,-13,0
@@ -82,7 +82,7 @@ retire_month=6
 speed=220
 class=3,4
 maximum_comfortable_journey_minutes=125
-maximum_tolerable_journey_minutes=370
+maximum_tolerable_journey_minutes=518
 
 Image[E]=./images/porsche-cayenne-grey_E.0.0,-33,14
 Image[SE]=./images/porsche-cayenne-grey_SE.0.0,-13,0
@@ -105,7 +105,7 @@ retire_month=6
 speed=220
 class=3,4
 maximum_comfortable_journey_minutes=125
-maximum_tolerable_journey_minutes=370
+maximum_tolerable_journey_minutes=518
 
 Image[E]=./images/porsche-cayenne-blue_E.0.0,-33,14
 Image[SE]=./images/porsche-cayenne-blue_SE.0.0,-13,0

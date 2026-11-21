@@ -30,9 +30,9 @@
 # silver 3, red 3, blue 2, green 2, total 10, provisional pending the central
 # rebase.
 #
-# Speed 180 km/h, the 1.6-litre car's quoted maximum. Comfort 80/300, on the
-# line 180 + 1.5 x 80: a comfortable, quiet family hatchback for its class.
-# Classes 1,2.
+# Speed 180 km/h, the 1.6-litre car's quoted maximum. Comfort 80/450, on the
+# line 330 + 1.5 x 80: a comfortable, quiet family hatchback for its class.
+# Classes 0,1.
 #
 # Dates are road presence: April 1996 intro, retires staggered 2012-2015 on a
 # sixteen- to nineteen-year tail.
@@ -57,9 +57,9 @@ intro_month=4
 retire_year=2015
 retire_month=6
 speed=180
-class=1,2
+class=0,1
 maximum_comfortable_journey_minutes=80
-maximum_tolerable_journey_minutes=300
+maximum_tolerable_journey_minutes=450
 
 Image[E]=./images/renault-megane-i-icebergsilver_E.0.0,-33,14
 Image[SE]=./images/renault-megane-i-icebergsilver_SE.0.0,-13,0
@@ -80,9 +80,9 @@ intro_month=4
 retire_year=2015
 retire_month=6
 speed=180
-class=1,2
+class=0,1
 maximum_comfortable_journey_minutes=80
-maximum_tolerable_journey_minutes=300
+maximum_tolerable_journey_minutes=450
 
 Image[E]=./images/renault-megane-i-naplesred_E.0.0,-33,14
 Image[SE]=./images/renault-megane-i-naplesred_SE.0.0,-13,0
@@ -103,9 +103,9 @@ intro_month=4
 retire_year=2014
 retire_month=6
 speed=180
-class=1,2
+class=0,1
 maximum_comfortable_journey_minutes=80
-maximum_tolerable_journey_minutes=300
+maximum_tolerable_journey_minutes=450
 
 Image[E]=./images/renault-megane-i-monacoblue_E.0.0,-33,14
 Image[SE]=./images/renault-megane-i-monacoblue_SE.0.0,-13,0
@@ -126,9 +126,9 @@ intro_month=4
 retire_year=2013
 retire_month=6
 speed=180
-class=1,2
+class=0,1
 maximum_comfortable_journey_minutes=80
-maximum_tolerable_journey_minutes=300
+maximum_tolerable_journey_minutes=450
 
 Image[E]=./images/renault-megane-i-ascotgreen_E.0.0,-33,14
 Image[SE]=./images/renault-megane-i-ascotgreen_SE.0.0,-13,0

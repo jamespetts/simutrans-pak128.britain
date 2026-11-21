@@ -17,8 +17,8 @@
 # white 2, silver 1. Total 8. Provisional pending the central rebase.
 #
 # Speed 190 km/h, near the 3.8's real maximum but held to the pakset's executive
-# tier. Comfort 90/315, on the line 180 + 1.5 x 90: a quiet, well-sprung saloon but
-# with the short-travel ride and wind noise of its decade. Class 3, the high wealth
+# tier. Comfort 90/465, on the line 330 + 1.5 x 90: a quiet, well-sprung saloon but
+# with the short-travel ride and wind noise of its decade. Classes 2,3,4, the high wealth
 # band, as the Jaguar Mk 2 already in the tree.
 #
 # Dates are road presence, not production: October 1963 intro, retires staggered
@@ -44,9 +44,9 @@ intro_month=10
 retire_year=1982
 retire_month=6
 speed=190
-class=3,4
+class=2,3,4
 maximum_comfortable_journey_minutes=90
-maximum_tolerable_journey_minutes=315
+maximum_tolerable_journey_minutes=465
 
 Image[E]=./images/jaguar-s-type-1963-green_E.0.0,-33,14
 Image[SE]=./images/jaguar-s-type-1963-green_SE.0.0,-13,0
@@ -67,9 +67,9 @@ intro_month=10
 retire_year=1978
 retire_month=6
 speed=190
-class=3,4
+class=2,3,4
 maximum_comfortable_journey_minutes=90
-maximum_tolerable_journey_minutes=315
+maximum_tolerable_journey_minutes=465
 
 Image[E]=./images/jaguar-s-type-1963-red_E.0.0,-33,14
 Image[SE]=./images/jaguar-s-type-1963-red_SE.0.0,-13,0
@@ -90,9 +90,9 @@ intro_month=10
 retire_year=1980
 retire_month=6
 speed=190
-class=3,4
+class=2,3,4
 maximum_comfortable_journey_minutes=90
-maximum_tolerable_journey_minutes=315
+maximum_tolerable_journey_minutes=465
 
 Image[E]=./images/jaguar-s-type-1963-white_E.0.0,-33,14
 Image[SE]=./images/jaguar-s-type-1963-white_SE.0.0,-13,0
@@ -113,9 +113,9 @@ intro_month=6
 retire_year=1985
 retire_month=6
 speed=190
-class=3,4
+class=2,3,4
 maximum_comfortable_journey_minutes=90
-maximum_tolerable_journey_minutes=315
+maximum_tolerable_journey_minutes=465
 
 Image[E]=./images/jaguar-s-type-1963-silver_E.0.0,-33,14
 Image[SE]=./images/jaguar-s-type-1963-silver_SE.0.0,-13,0

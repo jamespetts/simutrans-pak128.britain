@@ -9,7 +9,7 @@
 #
 # Weight: 160 in total (white 50, red 40, blue 40, grey 30).
 #
-# Speed 170 km/h; comfort 80/300 (line). Classes 1,2.
+# Speed 170 km/h; comfort 80/450 (line). Classes 0,1.
 # Dates: 1990-1998 with a road tail to about 2008.
 #
 # Metres master: citycars/4.5/renault-clio.blend. References:
@@ -25,9 +25,9 @@ intro_month=6
 retire_year=2008
 retire_month=6
 speed=170
-class=1,2
+class=0,1
 maximum_comfortable_journey_minutes=80
-maximum_tolerable_journey_minutes=300
+maximum_tolerable_journey_minutes=450
 
 Image[E]=./images/renault-clio-white_E.0.0,-33,14
 Image[SE]=./images/renault-clio-white_SE.0.0,-13,0
@@ -48,9 +48,9 @@ intro_month=6
 retire_year=2007
 retire_month=6
 speed=170
-class=1,2
+class=0,1
 maximum_comfortable_journey_minutes=80
-maximum_tolerable_journey_minutes=300
+maximum_tolerable_journey_minutes=450
 
 Image[E]=./images/renault-clio-red_E.0.0,-33,14
 Image[SE]=./images/renault-clio-red_SE.0.0,-13,0
@@ -71,9 +71,9 @@ intro_month=3
 retire_year=2006
 retire_month=6
 speed=170
-class=1,2
+class=0,1
 maximum_comfortable_journey_minutes=80
-maximum_tolerable_journey_minutes=300
+maximum_tolerable_journey_minutes=450
 
 Image[E]=./images/renault-clio-blue_E.0.0,-33,14
 Image[SE]=./images/renault-clio-blue_SE.0.0,-13,0
@@ -94,9 +94,9 @@ intro_month=3
 retire_year=2005
 retire_month=6
 speed=170
-class=1,2
+class=0,1
 maximum_comfortable_journey_minutes=80
-maximum_tolerable_journey_minutes=300
+maximum_tolerable_journey_minutes=450
 
 Image[E]=./images/renault-clio-grey_E.0.0,-33,14
 Image[SE]=./images/renault-clio-grey_SE.0.0,-13,0

@@ -15,7 +15,7 @@
 # parc is well evidenced (about 567,000 licensed in 2005), so the total is high
 # for a four-colour model.
 #
-# Speed 170 km/h (1.6); comfort 105/340 (line). Class 2.
+# Speed 170 km/h (1.6); comfort 105/488 (line). Classes 0,1.
 # Dates: 1998-2012 with a short road tail to about 2028.
 #
 # Metres master: citycars/4.5/peugeot-206.blend. References:
@@ -31,9 +31,9 @@ intro_month=9
 retire_year=2028
 retire_month=6
 speed=170
-class=1,2
+class=0,1
 maximum_comfortable_journey_minutes=105
-maximum_tolerable_journey_minutes=340
+maximum_tolerable_journey_minutes=488
 
 Image[E]=./images/peugeot-206-black_E.0.0,-33,14
 Image[SE]=./images/peugeot-206-black_SE.0.0,-13,0
@@ -54,9 +54,9 @@ intro_month=9
 retire_year=2027
 retire_month=6
 speed=170
-class=1,2
+class=0,1
 maximum_comfortable_journey_minutes=105
-maximum_tolerable_journey_minutes=340
+maximum_tolerable_journey_minutes=488
 
 Image[E]=./images/peugeot-206-silver_E.0.0,-33,14
 Image[SE]=./images/peugeot-206-silver_SE.0.0,-13,0
@@ -77,9 +77,9 @@ intro_month=3
 retire_year=2026
 retire_month=6
 speed=170
-class=1,2
+class=0,1
 maximum_comfortable_journey_minutes=105
-maximum_tolerable_journey_minutes=340
+maximum_tolerable_journey_minutes=488
 
 Image[E]=./images/peugeot-206-blue_E.0.0,-33,14
 Image[SE]=./images/peugeot-206-blue_SE.0.0,-13,0
@@ -100,9 +100,9 @@ intro_month=3
 retire_year=2025
 retire_month=6
 speed=170
-class=1,2
+class=0,1
 maximum_comfortable_journey_minutes=105
-maximum_tolerable_journey_minutes=340
+maximum_tolerable_journey_minutes=488
 
 Image[E]=./images/peugeot-206-red_E.0.0,-33,14
 Image[SE]=./images/peugeot-206-red_SE.0.0,-13,0

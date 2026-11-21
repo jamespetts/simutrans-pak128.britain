@@ -18,7 +18,7 @@
 # Colours: grade (d); no UK chart was found. White, red, blue and green are
 # plain names. Weights 9, 8, 7, 6, total 30, provisional.
 #
-# Speed 130 km/h. Comfort 55/265, on the line 180 + 1.5 x 55: a simple,
+# Speed 130 km/h. Comfort 55/413, on the line 330 + 1.5 x 55: a simple,
 # upright, noisy cabin. Classes 0,1.
 # Dates are road presence: 1981 intro, retires staggered 2010-2013.
 #
@@ -45,7 +45,7 @@ retire_month=6
 speed=130
 class=0,1
 maximum_comfortable_journey_minutes=55
-maximum_tolerable_journey_minutes=265
+maximum_tolerable_journey_minutes=413
 
 Image[E]=./images/fiat-panda-1-white_E.0.0,-33,14
 Image[SE]=./images/fiat-panda-1-white_SE.0.0,-13,0
@@ -68,7 +68,7 @@ retire_month=6
 speed=130
 class=0,1
 maximum_comfortable_journey_minutes=55
-maximum_tolerable_journey_minutes=265
+maximum_tolerable_journey_minutes=413
 
 Image[E]=./images/fiat-panda-1-red_E.0.0,-33,14
 Image[SE]=./images/fiat-panda-1-red_SE.0.0,-13,0
@@ -91,7 +91,7 @@ retire_month=6
 speed=130
 class=0,1
 maximum_comfortable_journey_minutes=55
-maximum_tolerable_journey_minutes=265
+maximum_tolerable_journey_minutes=413
 
 Image[E]=./images/fiat-panda-1-blue_E.0.0,-33,14
 Image[SE]=./images/fiat-panda-1-blue_SE.0.0,-13,0
@@ -114,7 +114,7 @@ retire_month=6
 speed=130
 class=0,1
 maximum_comfortable_journey_minutes=55
-maximum_tolerable_journey_minutes=265
+maximum_tolerable_journey_minutes=413
 
 Image[E]=./images/fiat-panda-1-green_E.0.0,-33,14
 Image[SE]=./images/fiat-panda-1-green_SE.0.0,-13,0

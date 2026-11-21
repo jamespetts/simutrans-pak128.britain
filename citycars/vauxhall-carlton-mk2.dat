@@ -16,7 +16,7 @@
 # Colours: grade (d); no Vauxhall colour list was read. White, Red, Blue and
 # Silver are plain names. Weights 12, 10, 9, 8, total 39, provisional.
 #
-# Speed 190 km/h. Comfort 75/292, on the line 180 + 1.5 x 75. Classes 2,3.
+# Speed 190 km/h. Comfort 75/443, on the line 330 + 1.5 x 75. Classes 0,1,2.
 # Dates: intro November 1986; retires staggered 2000-2003 as a road tail.
 #
 # Metres master: citycars/4.5/vauxhall-carlton-mk2.blend. Interchange:
@@ -39,9 +39,9 @@ intro_month=11
 retire_year=2003
 retire_month=6
 speed=190
-class=2,3
+class=0,1,2
 maximum_comfortable_journey_minutes=75
-maximum_tolerable_journey_minutes=292
+maximum_tolerable_journey_minutes=443
 
 Image[E]=./images/vauxhall-carlton-mk2-white_E.0.0,-33,14
 Image[SE]=./images/vauxhall-carlton-mk2-white_SE.0.0,-13,0
@@ -62,9 +62,9 @@ intro_month=11
 retire_year=2002
 retire_month=6
 speed=190
-class=2,3
+class=0,1,2
 maximum_comfortable_journey_minutes=75
-maximum_tolerable_journey_minutes=292
+maximum_tolerable_journey_minutes=443
 
 Image[E]=./images/vauxhall-carlton-mk2-red_E.0.0,-33,14
 Image[SE]=./images/vauxhall-carlton-mk2-red_SE.0.0,-13,0
@@ -85,9 +85,9 @@ intro_month=11
 retire_year=2001
 retire_month=6
 speed=190
-class=2,3
+class=0,1,2
 maximum_comfortable_journey_minutes=75
-maximum_tolerable_journey_minutes=292
+maximum_tolerable_journey_minutes=443
 
 Image[E]=./images/vauxhall-carlton-mk2-blue_E.0.0,-33,14
 Image[SE]=./images/vauxhall-carlton-mk2-blue_SE.0.0,-13,0
@@ -108,9 +108,9 @@ intro_month=11
 retire_year=2000
 retire_month=6
 speed=190
-class=2,3
+class=0,1,2
 maximum_comfortable_journey_minutes=75
-maximum_tolerable_journey_minutes=292
+maximum_tolerable_journey_minutes=443
 
 Image[E]=./images/vauxhall-carlton-mk2-silver_E.0.0,-33,14
 Image[SE]=./images/vauxhall-carlton-mk2-silver_SE.0.0,-13,0

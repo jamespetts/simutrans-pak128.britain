@@ -15,8 +15,8 @@
 # silver 3, blue 3, red 2, white 2, total 10, provisional pending the central
 # rebase.
 #
-# Speed 175 km/h for the 1.8. Comfort 82/303, on the line 180 + 1.5 x 82, a
-# hair above the imported T12's 80/300 because the British-built car was better
+# Speed 175 km/h for the 1.8. Comfort 82/453, on the line 330 + 1.5 x 82, a
+# hair above the imported T12's 80/450 because the British-built car was better
 # trimmed. Classes 1,2.
 #
 # Dates are road presence: July 1986 intro, retires staggered 2002-2005 on a
@@ -43,7 +43,7 @@ retire_month=6
 speed=175
 class=1,2
 maximum_comfortable_journey_minutes=82
-maximum_tolerable_journey_minutes=303
+maximum_tolerable_journey_minutes=453
 
 Image[E]=./images/nissan-bluebird-t72-silver_E.0.0,-33,14
 Image[SE]=./images/nissan-bluebird-t72-silver_SE.0.0,-13,0
@@ -66,7 +66,7 @@ retire_month=6
 speed=175
 class=1,2
 maximum_comfortable_journey_minutes=82
-maximum_tolerable_journey_minutes=303
+maximum_tolerable_journey_minutes=453
 
 Image[E]=./images/nissan-bluebird-t72-blue_E.0.0,-33,14
 Image[SE]=./images/nissan-bluebird-t72-blue_SE.0.0,-13,0
@@ -89,7 +89,7 @@ retire_month=6
 speed=175
 class=1,2
 maximum_comfortable_journey_minutes=82
-maximum_tolerable_journey_minutes=303
+maximum_tolerable_journey_minutes=453
 
 Image[E]=./images/nissan-bluebird-t72-red_E.0.0,-33,14
 Image[SE]=./images/nissan-bluebird-t72-red_SE.0.0,-13,0
@@ -112,7 +112,7 @@ retire_month=6
 speed=175
 class=1,2
 maximum_comfortable_journey_minutes=82
-maximum_tolerable_journey_minutes=303
+maximum_tolerable_journey_minutes=453
 
 Image[E]=./images/nissan-bluebird-t72-white_E.0.0,-33,14
 Image[SE]=./images/nissan-bluebird-t72-white_SE.0.0,-13,0

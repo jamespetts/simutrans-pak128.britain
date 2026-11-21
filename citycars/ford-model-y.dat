@@ -10,7 +10,7 @@
 #
 # Weight: 120 in total (black 50, maroon 30, blue 22, green 18).
 #
-# Speed 80 km/h; comfort 25/220 (line). Classes 0,1.
+# Speed 80 km/h; comfort 25/368 (line). Class 1.
 # Dates: 1932-1937 with a road tail to about 1955.
 #
 # Metres master: citycars/4.5/ford-model-y.blend. References:
@@ -26,9 +26,9 @@ intro_month=4
 retire_year=1955
 retire_month=6
 speed=80
-class=1,2
+class=1
 maximum_comfortable_journey_minutes=25
-maximum_tolerable_journey_minutes=220
+maximum_tolerable_journey_minutes=368
 
 Image[E]=./images/ford-model-y-black_E.0.0,-33,14
 Image[SE]=./images/ford-model-y-black_SE.0.0,-13,0
@@ -49,9 +49,9 @@ intro_month=4
 retire_year=1954
 retire_month=6
 speed=80
-class=1,2
+class=1
 maximum_comfortable_journey_minutes=25
-maximum_tolerable_journey_minutes=220
+maximum_tolerable_journey_minutes=368
 
 Image[E]=./images/ford-model-y-maroon_E.0.0,-33,14
 Image[SE]=./images/ford-model-y-maroon_SE.0.0,-13,0
@@ -72,9 +72,9 @@ intro_month=3
 retire_year=1953
 retire_month=6
 speed=80
-class=1,2
+class=1
 maximum_comfortable_journey_minutes=25
-maximum_tolerable_journey_minutes=220
+maximum_tolerable_journey_minutes=368
 
 Image[E]=./images/ford-model-y-blue_E.0.0,-33,14
 Image[SE]=./images/ford-model-y-blue_SE.0.0,-13,0
@@ -95,9 +95,9 @@ intro_month=3
 retire_year=1952
 retire_month=6
 speed=80
-class=1,2
+class=1
 maximum_comfortable_journey_minutes=25
-maximum_tolerable_journey_minutes=220
+maximum_tolerable_journey_minutes=368
 
 Image[E]=./images/ford-model-y-green_E.0.0,-33,14
 Image[SE]=./images/ford-model-y-green_SE.0.0,-13,0

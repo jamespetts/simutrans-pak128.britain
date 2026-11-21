@@ -25,8 +25,8 @@
 # central rebase.
 #
 # Speed 185 km/h: between the 520's 160 km/h and the 528i's published 202 km/h,
-# the volume UK six-cylinder cars of the late 1970s. Comfort 110/345, on the
-# line 180 + 1.5 x 110. Classes 2,3.
+# the volume UK six-cylinder cars of the late 1970s. Comfort 110/495, on the
+# line 330 + 1.5 x 110. Classes 2,3.
 #
 # Dates are road presence, not production: July 1972 intro, retires staggered
 # 1993-1996 on a twenty-one- to twenty-four-year tail.
@@ -51,7 +51,7 @@ retire_month=6
 speed=185
 class=2,3
 maximum_comfortable_journey_minutes=110
-maximum_tolerable_journey_minutes=345
+maximum_tolerable_journey_minutes=495
 
 Image[E]=./images/bmw-e12-silver_E.0.0,-33,14
 Image[SE]=./images/bmw-e12-silver_SE.0.0,-13,0
@@ -74,7 +74,7 @@ retire_month=6
 speed=185
 class=2,3
 maximum_comfortable_journey_minutes=110
-maximum_tolerable_journey_minutes=345
+maximum_tolerable_journey_minutes=495
 
 Image[E]=./images/bmw-e12-blue_E.0.0,-33,14
 Image[SE]=./images/bmw-e12-blue_SE.0.0,-13,0
@@ -97,7 +97,7 @@ retire_month=6
 speed=185
 class=2,3
 maximum_comfortable_journey_minutes=110
-maximum_tolerable_journey_minutes=345
+maximum_tolerable_journey_minutes=495
 
 Image[E]=./images/bmw-e12-black_E.0.0,-33,14
 Image[SE]=./images/bmw-e12-black_SE.0.0,-13,0
@@ -120,7 +120,7 @@ retire_month=6
 speed=185
 class=2,3
 maximum_comfortable_journey_minutes=110
-maximum_tolerable_journey_minutes=345
+maximum_tolerable_journey_minutes=495
 
 Image[E]=./images/bmw-e12-white_E.0.0,-33,14
 Image[SE]=./images/bmw-e12-white_SE.0.0,-13,0

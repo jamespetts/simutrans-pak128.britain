@@ -14,7 +14,7 @@
 # New Continental GT" of June 2018. Weights 20, 16, 12, 10, total 58,
 # provisional.
 #
-# Speed 333 km/h. Comfort 160/420, on the line 180 + 1.5 x 160. Class 4.
+# Speed 333 km/h. Comfort 160/570, on the line 330 + 1.5 x 160. Classes 3,4.
 # Dates: intro May 2018; retires staggered 2032-2035 as a road tail.
 #
 # Metres master: citycars/4.5/bentley-continental-gt-3.blend. Interchange:
@@ -36,9 +36,9 @@ intro_month=5
 retire_year=2035
 retire_month=6
 speed=333
-class=4
+class=3,4
 maximum_comfortable_journey_minutes=160
-maximum_tolerable_journey_minutes=420
+maximum_tolerable_journey_minutes=570
 
 Image[E]=./images/bentley-continental-gt-3-beluga_E.0.0,-33,14
 Image[SE]=./images/bentley-continental-gt-3-beluga_SE.0.0,-13,0
@@ -59,9 +59,9 @@ intro_month=5
 retire_year=2034
 retire_month=6
 speed=333
-class=4
+class=3,4
 maximum_comfortable_journey_minutes=160
-maximum_tolerable_journey_minutes=420
+maximum_tolerable_journey_minutes=570
 
 Image[E]=./images/bentley-continental-gt-3-glacierwhite_E.0.0,-33,14
 Image[SE]=./images/bentley-continental-gt-3-glacierwhite_SE.0.0,-13,0
@@ -82,9 +82,9 @@ intro_month=5
 retire_year=2033
 retire_month=6
 speed=333
-class=4
+class=3,4
 maximum_comfortable_journey_minutes=160
-maximum_tolerable_journey_minutes=420
+maximum_tolerable_journey_minutes=570
 
 Image[E]=./images/bentley-continental-gt-3-darksapphire_E.0.0,-33,14
 Image[SE]=./images/bentley-continental-gt-3-darksapphire_SE.0.0,-13,0
@@ -105,9 +105,9 @@ intro_month=5
 retire_year=2032
 retire_month=6
 speed=333
-class=4
+class=3,4
 maximum_comfortable_journey_minutes=160
-maximum_tolerable_journey_minutes=420
+maximum_tolerable_journey_minutes=570
 
 Image[E]=./images/bentley-continental-gt-3-stjamesred_E.0.0,-33,14
 Image[SE]=./images/bentley-continental-gt-3-stjamesred_SE.0.0,-13,0

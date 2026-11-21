@@ -9,7 +9,7 @@
 #
 # Weight: 340 in total (red 95, white 90, silver 85, black 70).
 #
-# Speed 180 km/h; comfort 105/340 (line). Classes 1,2.
+# Speed 180 km/h; comfort 105/488 (line). Classes 1,2.
 # Dates: 1991-1997 with a road tail to about 2008.
 #
 # Metres master: citycars/4.5/vw-golf-mk3.blend. References:
@@ -27,7 +27,7 @@ retire_month=6
 speed=180
 class=1,2
 maximum_comfortable_journey_minutes=105
-maximum_tolerable_journey_minutes=340
+maximum_tolerable_journey_minutes=488
 
 Image[E]=./images/vw-golf-mk3-red_E.0.0,-33,14
 Image[SE]=./images/vw-golf-mk3-red_SE.0.0,-13,0
@@ -50,7 +50,7 @@ retire_month=6
 speed=180
 class=1,2
 maximum_comfortable_journey_minutes=105
-maximum_tolerable_journey_minutes=340
+maximum_tolerable_journey_minutes=488
 
 Image[E]=./images/vw-golf-mk3-white_E.0.0,-33,14
 Image[SE]=./images/vw-golf-mk3-white_SE.0.0,-13,0
@@ -73,7 +73,7 @@ retire_month=6
 speed=180
 class=1,2
 maximum_comfortable_journey_minutes=105
-maximum_tolerable_journey_minutes=340
+maximum_tolerable_journey_minutes=488
 
 Image[E]=./images/vw-golf-mk3-silver_E.0.0,-33,14
 Image[SE]=./images/vw-golf-mk3-silver_SE.0.0,-13,0
@@ -96,7 +96,7 @@ retire_month=6
 speed=180
 class=1,2
 maximum_comfortable_journey_minutes=105
-maximum_tolerable_journey_minutes=340
+maximum_tolerable_journey_minutes=488
 
 Image[E]=./images/vw-golf-mk3-black_E.0.0,-33,14
 Image[SE]=./images/vw-golf-mk3-black_SE.0.0,-13,0

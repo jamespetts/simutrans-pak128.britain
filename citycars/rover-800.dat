@@ -16,7 +16,7 @@
 #
 # Weight: 100 in total (red 30, grey 26, white 24, blue 20).
 #
-# Speed 210 km/h; comfort 110/345 (line). Classes 2,3.
+# Speed 210 km/h; comfort 110/495 (line). Classes 2,3.
 # Dates: 1986-1999 with a road tail to about 2010.
 #
 # Metres master: citycars/4.5/rover-800.blend. References:
@@ -34,7 +34,7 @@ retire_month=6
 speed=210
 class=2,3
 maximum_comfortable_journey_minutes=110
-maximum_tolerable_journey_minutes=345
+maximum_tolerable_journey_minutes=495
 
 Image[E]=./images/rover-800-red_E.0.0,-33,14
 Image[SE]=./images/rover-800-red_SE.0.0,-13,0
@@ -57,7 +57,7 @@ retire_month=6
 speed=210
 class=2,3
 maximum_comfortable_journey_minutes=110
-maximum_tolerable_journey_minutes=345
+maximum_tolerable_journey_minutes=495
 
 Image[E]=./images/rover-800-grey_E.0.0,-33,14
 Image[SE]=./images/rover-800-grey_SE.0.0,-13,0
@@ -80,7 +80,7 @@ retire_month=6
 speed=210
 class=2,3
 maximum_comfortable_journey_minutes=110
-maximum_tolerable_journey_minutes=345
+maximum_tolerable_journey_minutes=495
 
 Image[E]=./images/rover-800-white_E.0.0,-33,14
 Image[SE]=./images/rover-800-white_SE.0.0,-13,0
@@ -103,7 +103,7 @@ retire_month=6
 speed=210
 class=2,3
 maximum_comfortable_journey_minutes=110
-maximum_tolerable_journey_minutes=345
+maximum_tolerable_journey_minutes=495
 
 Image[E]=./images/rover-800-blue_E.0.0,-33,14
 Image[SE]=./images/rover-800-blue_SE.0.0,-13,0

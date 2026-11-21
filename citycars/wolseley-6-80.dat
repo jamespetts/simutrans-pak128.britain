@@ -12,7 +12,7 @@
 # Weight: 55 in total (black 20, maroon 12, grey 12, green 11), low per section F
 # of the gaps doc.
 #
-# Speed 130 km/h; comfort 100/330 (line). Class 3.
+# Speed 130 km/h; comfort 100/480 (line). Classes 2,3.
 # Dates: 1948-1962, the tail covering later life on British roads.
 #
 # Metres master: citycars/4.5/wolseley-6-80.blend. References:
@@ -28,9 +28,9 @@ intro_month=10
 retire_year=1962
 retire_month=6
 speed=130
-class=3,4
+class=2,3
 maximum_comfortable_journey_minutes=100
-maximum_tolerable_journey_minutes=330
+maximum_tolerable_journey_minutes=480
 
 Image[E]=./images/wolseley-6-80-black_E.0.0,-33,14
 Image[SE]=./images/wolseley-6-80-black_SE.0.0,-13,0
@@ -51,9 +51,9 @@ intro_month=10
 retire_year=1961
 retire_month=6
 speed=130
-class=3,4
+class=2,3
 maximum_comfortable_journey_minutes=100
-maximum_tolerable_journey_minutes=330
+maximum_tolerable_journey_minutes=480
 
 Image[E]=./images/wolseley-6-80-maroon_E.0.0,-33,14
 Image[SE]=./images/wolseley-6-80-maroon_SE.0.0,-13,0
@@ -74,9 +74,9 @@ intro_month=3
 retire_year=1960
 retire_month=6
 speed=130
-class=3,4
+class=2,3
 maximum_comfortable_journey_minutes=100
-maximum_tolerable_journey_minutes=330
+maximum_tolerable_journey_minutes=480
 
 Image[E]=./images/wolseley-6-80-grey_E.0.0,-33,14
 Image[SE]=./images/wolseley-6-80-grey_SE.0.0,-13,0
@@ -97,9 +97,9 @@ intro_month=3
 retire_year=1959
 retire_month=6
 speed=130
-class=3,4
+class=2,3
 maximum_comfortable_journey_minutes=100
-maximum_tolerable_journey_minutes=330
+maximum_tolerable_journey_minutes=480
 
 Image[E]=./images/wolseley-6-80-green_E.0.0,-33,14
 Image[SE]=./images/wolseley-6-80-green_SE.0.0,-13,0

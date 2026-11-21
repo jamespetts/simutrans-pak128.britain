@@ -1,3 +1,4 @@
+# Retire policy 2026-11-20: still in production in 2026 with no announced end; retire dates commented out. Revisit when an end is announced.
 # BMW 7 Series G70 four-door saloon, 2022-.
 #
 # The seventh 7-series: the CLAR-platform car revealed in April 2022, sold in
@@ -24,11 +25,11 @@
 # central rebase.
 #
 # Speed 250 km/h, the limiter on the 750e and M760e; the i7 is quoted at
-# 240 km/h but the same body is modelled once. Comfort 180/450, on the line
-# 180 + 1.5 x 180, the highest private-car value in the pakset and a step above
-# the G11's 175/445. Class 4.
+# 240 km/h but the same body is modelled once. Comfort 180/600, on the line
+# 330 + 1.5 x 180, the highest private-car value in the pakset and a step above
+# the G11's 175/593. Classes 3,4.
 #
-# Dates are road presence: December 2022 intro, retires staggered 2037-2040 on a
+# Dates are road presence: December 2022 intro, retire dates commented out (still in production in 2026)
 # fifteen- to eighteen-year tail.
 #
 # Metres master: citycars/4.5/bmw-g70.blend. Interchange:
@@ -50,12 +51,12 @@ copyright=JamesPetts
 DistributionWeight=3
 intro_year=2022
 intro_month=12
-retire_year=2040
-retire_month=6
+#retire_year=2040
+#retire_month=6
 speed=250
 class=3,4
 maximum_comfortable_journey_minutes=180
-maximum_tolerable_journey_minutes=450
+maximum_tolerable_journey_minutes=600
 
 Image[E]=./images/bmw-g70-black_E.0.0,-33,14
 Image[SE]=./images/bmw-g70-black_SE.0.0,-13,0
@@ -73,12 +74,12 @@ copyright=JamesPetts
 DistributionWeight=3
 intro_year=2022
 intro_month=12
-retire_year=2039
-retire_month=6
+#retire_year=2039
+#retire_month=6
 speed=250
 class=3,4
 maximum_comfortable_journey_minutes=180
-maximum_tolerable_journey_minutes=450
+maximum_tolerable_journey_minutes=600
 
 Image[E]=./images/bmw-g70-grey_E.0.0,-33,14
 Image[SE]=./images/bmw-g70-grey_SE.0.0,-13,0
@@ -96,12 +97,12 @@ copyright=JamesPetts
 DistributionWeight=2
 intro_year=2022
 intro_month=12
-retire_year=2038
-retire_month=6
+#retire_year=2038
+#retire_month=6
 speed=250
 class=3,4
 maximum_comfortable_journey_minutes=180
-maximum_tolerable_journey_minutes=450
+maximum_tolerable_journey_minutes=600
 
 Image[E]=./images/bmw-g70-silver_E.0.0,-33,14
 Image[SE]=./images/bmw-g70-silver_SE.0.0,-13,0
@@ -119,12 +120,12 @@ copyright=JamesPetts
 DistributionWeight=2
 intro_year=2022
 intro_month=12
-retire_year=2037
-retire_month=6
+#retire_year=2037
+#retire_month=6
 speed=250
 class=3,4
 maximum_comfortable_journey_minutes=180
-maximum_tolerable_journey_minutes=450
+maximum_tolerable_journey_minutes=600
 
 Image[E]=./images/bmw-g70-white_E.0.0,-33,14
 Image[SE]=./images/bmw-g70-white_SE.0.0,-13,0

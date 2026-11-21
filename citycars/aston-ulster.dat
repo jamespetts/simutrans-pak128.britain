@@ -18,8 +18,8 @@
 # dark green with red leather and red wheels. The objects carry plain names
 # (green, black, red, silver).
 #
-# Speed 150 km/h, an estimate for the competition model. Comfort 30/225 on
-# the line 180 + 1.5 x 30: an open, hard-riding two-seater. Classes 3,4.
+# Speed 150 km/h, an estimate for the competition model. Comfort 30/375 on
+# the line 330 + 1.5 x 30: an open, hard-riding two-seater. Classes 2,3,4.
 # Dates are road presence: 1934 intro, retires staggered 1952-1955.
 #
 # Metres master: citycars/4.5/aston-ulster.blend. Interchange:
@@ -43,9 +43,9 @@ intro_month=1
 retire_year=1955
 retire_month=6
 speed=150
-class=3,4
+class=2,3,4
 maximum_comfortable_journey_minutes=30
-maximum_tolerable_journey_minutes=225
+maximum_tolerable_journey_minutes=375
 
 Image[E]=./images/aston-ulster-green_E.0.0,-33,14
 Image[SE]=./images/aston-ulster-green_SE.0.0,-13,0
@@ -66,9 +66,9 @@ intro_month=1
 retire_year=1954
 retire_month=6
 speed=150
-class=3,4
+class=2,3,4
 maximum_comfortable_journey_minutes=30
-maximum_tolerable_journey_minutes=225
+maximum_tolerable_journey_minutes=375
 
 Image[E]=./images/aston-ulster-black_E.0.0,-33,14
 Image[SE]=./images/aston-ulster-black_SE.0.0,-13,0
@@ -89,9 +89,9 @@ intro_month=1
 retire_year=1953
 retire_month=6
 speed=150
-class=3,4
+class=2,3,4
 maximum_comfortable_journey_minutes=30
-maximum_tolerable_journey_minutes=225
+maximum_tolerable_journey_minutes=375
 
 Image[E]=./images/aston-ulster-red_E.0.0,-33,14
 Image[SE]=./images/aston-ulster-red_SE.0.0,-13,0
@@ -112,9 +112,9 @@ intro_month=1
 retire_year=1952
 retire_month=6
 speed=150
-class=3,4
+class=2,3,4
 maximum_comfortable_journey_minutes=30
-maximum_tolerable_journey_minutes=225
+maximum_tolerable_journey_minutes=375
 
 Image[E]=./images/aston-ulster-silver_E.0.0,-33,14
 Image[SE]=./images/aston-ulster-silver_SE.0.0,-13,0

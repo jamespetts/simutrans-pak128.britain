@@ -9,7 +9,7 @@
 #
 # Weight: 330 in total (red 95, silver 90, black 75, white 70).
 #
-# Speed 190 km/h; comfort 110/345 (line). Classes 1,2.
+# Speed 190 km/h; comfort 110/495 (line). Classes 1,2.
 # Dates: 1997-2003 with a road tail to about 2012.
 #
 # Metres master: citycars/4.5/vw-golf-mk4.blend. References:
@@ -27,7 +27,7 @@ retire_month=6
 speed=190
 class=1,2
 maximum_comfortable_journey_minutes=110
-maximum_tolerable_journey_minutes=345
+maximum_tolerable_journey_minutes=495
 
 Image[E]=./images/vw-golf-mk4-red_E.0.0,-33,14
 Image[SE]=./images/vw-golf-mk4-red_SE.0.0,-13,0
@@ -50,7 +50,7 @@ retire_month=6
 speed=190
 class=1,2
 maximum_comfortable_journey_minutes=110
-maximum_tolerable_journey_minutes=345
+maximum_tolerable_journey_minutes=495
 
 Image[E]=./images/vw-golf-mk4-silver_E.0.0,-33,14
 Image[SE]=./images/vw-golf-mk4-silver_SE.0.0,-13,0
@@ -73,7 +73,7 @@ retire_month=6
 speed=190
 class=1,2
 maximum_comfortable_journey_minutes=110
-maximum_tolerable_journey_minutes=345
+maximum_tolerable_journey_minutes=495
 
 Image[E]=./images/vw-golf-mk4-black_E.0.0,-33,14
 Image[SE]=./images/vw-golf-mk4-black_SE.0.0,-13,0
@@ -96,7 +96,7 @@ retire_month=6
 speed=190
 class=1,2
 maximum_comfortable_journey_minutes=110
-maximum_tolerable_journey_minutes=345
+maximum_tolerable_journey_minutes=495
 
 Image[E]=./images/vw-golf-mk4-white_E.0.0,-33,14
 Image[SE]=./images/vw-golf-mk4-white_SE.0.0,-13,0

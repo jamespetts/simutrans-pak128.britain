@@ -15,7 +15,7 @@
 # Colours: grade (c), provisional. Black, silver, white and grey are plain
 # names. Weights 18, 16, 14, 12, total 60, provisional.
 #
-# Speed 220 km/h. Comfort 98/327, on the line 180 + 1.5 x 98. Classes 3,4.
+# Speed 220 km/h. Comfort 98/477, on the line 330 + 1.5 x 98. Class 3.
 # Dates are road presence: 2013 intro, retires staggered 2032-2035.
 #
 # Metres master: citycars/4.5/bmw-x5-f15.blend. Interchange:
@@ -42,9 +42,9 @@ intro_month=11
 retire_year=2035
 retire_month=6
 speed=220
-class=3,4
+class=3
 maximum_comfortable_journey_minutes=98
-maximum_tolerable_journey_minutes=327
+maximum_tolerable_journey_minutes=477
 
 Image[E]=./images/bmw-x5-f15-black_E.0.0,-33,14
 Image[SE]=./images/bmw-x5-f15-black_SE.0.0,-13,0
@@ -65,9 +65,9 @@ intro_month=11
 retire_year=2034
 retire_month=6
 speed=220
-class=3,4
+class=3
 maximum_comfortable_journey_minutes=98
-maximum_tolerable_journey_minutes=327
+maximum_tolerable_journey_minutes=477
 
 Image[E]=./images/bmw-x5-f15-silver_E.0.0,-33,14
 Image[SE]=./images/bmw-x5-f15-silver_SE.0.0,-13,0
@@ -88,9 +88,9 @@ intro_month=11
 retire_year=2033
 retire_month=6
 speed=220
-class=3,4
+class=3
 maximum_comfortable_journey_minutes=98
-maximum_tolerable_journey_minutes=327
+maximum_tolerable_journey_minutes=477
 
 Image[E]=./images/bmw-x5-f15-white_E.0.0,-33,14
 Image[SE]=./images/bmw-x5-f15-white_SE.0.0,-13,0
@@ -111,9 +111,9 @@ intro_month=11
 retire_year=2032
 retire_month=6
 speed=220
-class=3,4
+class=3
 maximum_comfortable_journey_minutes=98
-maximum_tolerable_journey_minutes=327
+maximum_tolerable_journey_minutes=477
 
 Image[E]=./images/bmw-x5-f15-grey_E.0.0,-33,14
 Image[SE]=./images/bmw-x5-f15-grey_SE.0.0,-13,0

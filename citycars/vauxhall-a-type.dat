@@ -20,7 +20,7 @@
 # Maroon and Grey are period finishes. Weights 10, 9, 8, 7, total 34,
 # provisional.
 #
-# Speed 100 km/h. Comfort 20/210, on the line 180 + 1.5 x 20. Classes 1,2.
+# Speed 100 km/h. Comfort 20/360, on the line 330 + 1.5 x 20. Classes 2,3.
 # Dates: intro October 1908; retires staggered 1928-1932 as a road tail.
 #
 # Metres master: citycars/4.5/vauxhall-a-type.blend. Interchange:
@@ -43,9 +43,9 @@ intro_month=10
 retire_year=1932
 retire_month=6
 speed=100
-class=1,2
+class=2,3
 maximum_comfortable_journey_minutes=20
-maximum_tolerable_journey_minutes=210
+maximum_tolerable_journey_minutes=360
 
 Image[E]=./images/vauxhall-a-type-black_E.0.0,-33,14
 Image[SE]=./images/vauxhall-a-type-black_SE.0.0,-13,0
@@ -66,9 +66,9 @@ intro_month=10
 retire_year=1931
 retire_month=6
 speed=100
-class=1,2
+class=2,3
 maximum_comfortable_journey_minutes=20
-maximum_tolerable_journey_minutes=210
+maximum_tolerable_journey_minutes=360
 
 Image[E]=./images/vauxhall-a-type-darkgreen_E.0.0,-33,14
 Image[SE]=./images/vauxhall-a-type-darkgreen_SE.0.0,-13,0
@@ -89,9 +89,9 @@ intro_month=10
 retire_year=1930
 retire_month=6
 speed=100
-class=1,2
+class=2,3
 maximum_comfortable_journey_minutes=20
-maximum_tolerable_journey_minutes=210
+maximum_tolerable_journey_minutes=360
 
 Image[E]=./images/vauxhall-a-type-maroon_E.0.0,-33,14
 Image[SE]=./images/vauxhall-a-type-maroon_SE.0.0,-13,0
@@ -112,9 +112,9 @@ intro_month=10
 retire_year=1928
 retire_month=6
 speed=100
-class=1,2
+class=2,3
 maximum_comfortable_journey_minutes=20
-maximum_tolerable_journey_minutes=210
+maximum_tolerable_journey_minutes=360
 
 Image[E]=./images/vauxhall-a-type-grey_E.0.0,-33,14
 Image[SE]=./images/vauxhall-a-type-grey_SE.0.0,-13,0

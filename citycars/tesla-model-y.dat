@@ -1,3 +1,4 @@
+# Retire policy 2026-11-20: still in production in 2026 with no announced end; retire dates commented out. Revisit when an end is announced.
 # Tesla Model Y five-door SUV, 2020 onwards.
 #
 # The Model 3-based electric SUV: the taller body, the large glass roof, the
@@ -15,9 +16,9 @@
 # Black, Midnight Silver and Deep Blue are the names in use on UK cars.
 # Weights 18, 16, 14, 12, total 60, provisional.
 #
-# Speed 217 km/h. Comfort 95/322, on the line 180 + 1.5 x 95: a tall, quiet
-# electric SUV. Classes 3,4.
-# Dates are road presence: 2021 intro, retires staggered 2044-2047.
+# Speed 217 km/h. Comfort 95/473, on the line 330 + 1.5 x 95: a tall, quiet
+# electric SUV. Classes 1,2.
+# Dates are road presence: 2021 intro, retire dates commented out (still in production in 2026).
 #
 # Metres master: citycars/4.5/tesla-model-y.blend. Interchange:
 # citycars/4.5/tesla-model-y.dae. References:
@@ -35,12 +36,12 @@ copyright=JamesPetts
 DistributionWeight=18
 intro_year=2021
 intro_month=10
-retire_year=2047
-retire_month=6
+#retire_year=2047
+#retire_month=6
 speed=217
-class=3,4
+class=1,2
 maximum_comfortable_journey_minutes=95
-maximum_tolerable_journey_minutes=322
+maximum_tolerable_journey_minutes=473
 
 Image[E]=./images/tesla-model-y-pearlwhite_E.0.0,-33,14
 Image[SE]=./images/tesla-model-y-pearlwhite_SE.0.0,-13,0
@@ -58,12 +59,12 @@ copyright=JamesPetts
 DistributionWeight=16
 intro_year=2021
 intro_month=10
-retire_year=2046
-retire_month=6
+#retire_year=2046
+#retire_month=6
 speed=217
-class=3,4
+class=1,2
 maximum_comfortable_journey_minutes=95
-maximum_tolerable_journey_minutes=322
+maximum_tolerable_journey_minutes=473
 
 Image[E]=./images/tesla-model-y-solidblack_E.0.0,-33,14
 Image[SE]=./images/tesla-model-y-solidblack_SE.0.0,-13,0
@@ -81,12 +82,12 @@ copyright=JamesPetts
 DistributionWeight=14
 intro_year=2021
 intro_month=10
-retire_year=2045
-retire_month=6
+#retire_year=2045
+#retire_month=6
 speed=217
-class=3,4
+class=1,2
 maximum_comfortable_journey_minutes=95
-maximum_tolerable_journey_minutes=322
+maximum_tolerable_journey_minutes=473
 
 Image[E]=./images/tesla-model-y-midnightsilver_E.0.0,-33,14
 Image[SE]=./images/tesla-model-y-midnightsilver_SE.0.0,-13,0
@@ -104,12 +105,12 @@ copyright=JamesPetts
 DistributionWeight=12
 intro_year=2021
 intro_month=10
-retire_year=2044
-retire_month=6
+#retire_year=2044
+#retire_month=6
 speed=217
-class=3,4
+class=1,2
 maximum_comfortable_journey_minutes=95
-maximum_tolerable_journey_minutes=322
+maximum_tolerable_journey_minutes=473
 
 Image[E]=./images/tesla-model-y-deepblue_E.0.0,-33,14
 Image[SE]=./images/tesla-model-y-deepblue_SE.0.0,-13,0

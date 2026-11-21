@@ -10,7 +10,7 @@
 #
 # Weight: 140 in total (black 45, silver 40, blue 30, grey 25).
 #
-# Speed 220 km/h; comfort 115/350 (line). Classes 2,3.
+# Speed 220 km/h; comfort 115/503 (line). Classes 2,3.
 # Dates: 1985-1995 with a road tail to about 2007.
 #
 # Metres master: citycars/4.5/mercedes-w124.blend. References:
@@ -28,7 +28,7 @@ retire_month=6
 speed=220
 class=2,3
 maximum_comfortable_journey_minutes=115
-maximum_tolerable_journey_minutes=350
+maximum_tolerable_journey_minutes=503
 
 Image[E]=./images/mercedes-w124-black_E.0.0,-33,14
 Image[SE]=./images/mercedes-w124-black_SE.0.0,-13,0
@@ -51,7 +51,7 @@ retire_month=6
 speed=220
 class=2,3
 maximum_comfortable_journey_minutes=115
-maximum_tolerable_journey_minutes=350
+maximum_tolerable_journey_minutes=503
 
 Image[E]=./images/mercedes-w124-silver_E.0.0,-33,14
 Image[SE]=./images/mercedes-w124-silver_SE.0.0,-13,0
@@ -74,7 +74,7 @@ retire_month=6
 speed=220
 class=2,3
 maximum_comfortable_journey_minutes=115
-maximum_tolerable_journey_minutes=350
+maximum_tolerable_journey_minutes=503
 
 Image[E]=./images/mercedes-w124-blue_E.0.0,-33,14
 Image[SE]=./images/mercedes-w124-blue_SE.0.0,-13,0
@@ -97,7 +97,7 @@ retire_month=6
 speed=220
 class=2,3
 maximum_comfortable_journey_minutes=115
-maximum_tolerable_journey_minutes=350
+maximum_tolerable_journey_minutes=503
 
 Image[E]=./images/mercedes-w124-grey_E.0.0,-33,14
 Image[SE]=./images/mercedes-w124-grey_SE.0.0,-13,0

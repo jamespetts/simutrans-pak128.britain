@@ -15,7 +15,7 @@
 # Racing Green are the plain names used. Weights 3, 3, 2, 2, total 10,
 # provisional.
 #
-# Speed 301 km/h. Comfort 90/315, on the line 180 + 1.5 x 90. Classes 3,4.
+# Speed 301 km/h. Comfort 90/465, on the line 330 + 1.5 x 90. Classes 3,4.
 # Dates are road presence: 2016 intro, retires staggered 2042-2045.
 #
 # Metres master: citycars/4.5/aston-db11.blend. Interchange:
@@ -40,7 +40,7 @@ retire_month=6
 speed=301
 class=3,4
 maximum_comfortable_journey_minutes=90
-maximum_tolerable_journey_minutes=315
+maximum_tolerable_journey_minutes=465
 
 Image[E]=./images/aston-db11-silver_E.0.0,-33,14
 Image[SE]=./images/aston-db11-silver_SE.0.0,-13,0
@@ -63,7 +63,7 @@ retire_month=6
 speed=301
 class=3,4
 maximum_comfortable_journey_minutes=90
-maximum_tolerable_journey_minutes=315
+maximum_tolerable_journey_minutes=465
 
 Image[E]=./images/aston-db11-black_E.0.0,-33,14
 Image[SE]=./images/aston-db11-black_SE.0.0,-13,0
@@ -86,7 +86,7 @@ retire_month=6
 speed=301
 class=3,4
 maximum_comfortable_journey_minutes=90
-maximum_tolerable_journey_minutes=315
+maximum_tolerable_journey_minutes=465
 
 Image[E]=./images/aston-db11-blue_E.0.0,-33,14
 Image[SE]=./images/aston-db11-blue_SE.0.0,-13,0
@@ -109,7 +109,7 @@ retire_month=6
 speed=301
 class=3,4
 maximum_comfortable_journey_minutes=90
-maximum_tolerable_journey_minutes=315
+maximum_tolerable_journey_minutes=465
 
 Image[E]=./images/aston-db11-britishracinggreen_E.0.0,-33,14
 Image[SE]=./images/aston-db11-britishracinggreen_SE.0.0,-13,0

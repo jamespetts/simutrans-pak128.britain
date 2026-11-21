@@ -27,9 +27,9 @@
 # names: black, white, red and blue. Weights black 3, white 3, red 2, blue 2,
 # total 10, provisional pending the central rebase.
 #
-# Speed 165 km/h, the DS 21's quoted maximum. Comfort 85/310, on the line
-# 180 + 1.5 x 85: the hydropneumatic suspension and the later seats made it one
-# of the most comfortable cars of its generation. Classes 2,3.
+# Speed 165 km/h, the DS 21's quoted maximum. Comfort 85/458, on the line
+# 330 + 1.5 x 85: the hydropneumatic suspension and the later seats made it one
+# of the most comfortable cars of its generation. Classes 2,3,4.
 #
 # Dates are road presence: September 1962 intro, retires staggered 1980-1983 on
 # an eighteen- to twenty-one-year tail.
@@ -53,9 +53,9 @@ intro_month=9
 retire_year=1983
 retire_month=6
 speed=165
-class=2,3
+class=2,3,4
 maximum_comfortable_journey_minutes=85
-maximum_tolerable_journey_minutes=310
+maximum_tolerable_journey_minutes=458
 
 Image[E]=./images/citroen-ds-1962-black_E.0.0,-33,14
 Image[SE]=./images/citroen-ds-1962-black_SE.0.0,-13,0
@@ -76,9 +76,9 @@ intro_month=9
 retire_year=1983
 retire_month=6
 speed=165
-class=2,3
+class=2,3,4
 maximum_comfortable_journey_minutes=85
-maximum_tolerable_journey_minutes=310
+maximum_tolerable_journey_minutes=458
 
 Image[E]=./images/citroen-ds-1962-white_E.0.0,-33,14
 Image[SE]=./images/citroen-ds-1962-white_SE.0.0,-13,0
@@ -99,9 +99,9 @@ intro_month=9
 retire_year=1982
 retire_month=6
 speed=165
-class=2,3
+class=2,3,4
 maximum_comfortable_journey_minutes=85
-maximum_tolerable_journey_minutes=310
+maximum_tolerable_journey_minutes=458
 
 Image[E]=./images/citroen-ds-1962-red_E.0.0,-33,14
 Image[SE]=./images/citroen-ds-1962-red_SE.0.0,-13,0
@@ -122,9 +122,9 @@ intro_month=9
 retire_year=1980
 retire_month=6
 speed=165
-class=2,3
+class=2,3,4
 maximum_comfortable_journey_minutes=85
-maximum_tolerable_journey_minutes=310
+maximum_tolerable_journey_minutes=458
 
 Image[E]=./images/citroen-ds-1962-blue_E.0.0,-33,14
 Image[SE]=./images/citroen-ds-1962-blue_SE.0.0,-13,0

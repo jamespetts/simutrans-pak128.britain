@@ -21,7 +21,7 @@
 # Red, Blue and Silver are plain names. Weights 12, 10, 9, 8, total 39,
 # provisional.
 #
-# Speed 165 km/h. Comfort 65/280, on the line 180 + 1.5 x 65. Classes 1,2.
+# Speed 165 km/h. Comfort 65/428, on the line 330 + 1.5 x 65. Classes 0,1.
 # Dates: intro 1 December 2010, the UK on-sale date recorded by a period road
 # test; retire 2017, when the K14 replaced it in March.
 #
@@ -44,9 +44,9 @@ intro_month=12
 retire_year=2033
 retire_month=6
 speed=165
-class=1,2
+class=0,1
 maximum_comfortable_journey_minutes=65
-maximum_tolerable_journey_minutes=280
+maximum_tolerable_journey_minutes=428
 
 Image[E]=./images/nissan-micra-k13-white_E.0.0,-33,14
 Image[SE]=./images/nissan-micra-k13-white_SE.0.0,-13,0
@@ -67,9 +67,9 @@ intro_month=12
 retire_year=2032
 retire_month=6
 speed=165
-class=1,2
+class=0,1
 maximum_comfortable_journey_minutes=65
-maximum_tolerable_journey_minutes=280
+maximum_tolerable_journey_minutes=428
 
 Image[E]=./images/nissan-micra-k13-red_E.0.0,-33,14
 Image[SE]=./images/nissan-micra-k13-red_SE.0.0,-13,0
@@ -90,9 +90,9 @@ intro_month=12
 retire_year=2031
 retire_month=6
 speed=165
-class=1,2
+class=0,1
 maximum_comfortable_journey_minutes=65
-maximum_tolerable_journey_minutes=280
+maximum_tolerable_journey_minutes=428
 
 Image[E]=./images/nissan-micra-k13-blue_E.0.0,-33,14
 Image[SE]=./images/nissan-micra-k13-blue_SE.0.0,-13,0
@@ -113,9 +113,9 @@ intro_month=12
 retire_year=2030
 retire_month=6
 speed=165
-class=1,2
+class=0,1
 maximum_comfortable_journey_minutes=65
-maximum_tolerable_journey_minutes=280
+maximum_tolerable_journey_minutes=428
 
 Image[E]=./images/nissan-micra-k13-silver_E.0.0,-33,14
 Image[SE]=./images/nissan-micra-k13-silver_SE.0.0,-13,0

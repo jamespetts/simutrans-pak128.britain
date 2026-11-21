@@ -19,7 +19,7 @@
 # green, black-over-grey and black cars; plain names are used, not invented
 # period names. Weights 3, 2, 2, 1, total 8, provisional.
 #
-# Speed 130 km/h. Comfort 45/250, on the line 180 + 1.5 x 45: a roomy but
+# Speed 130 km/h. Comfort 45/398, on the line 330 + 1.5 x 45: a roomy but
 # upright and hard-riding 1940s saloon. Classes 2,3.
 # Dates are road presence: 1947 intro, retires staggered 1965-1968.
 #
@@ -45,7 +45,7 @@ retire_month=6
 speed=130
 class=2,3
 maximum_comfortable_journey_minutes=45
-maximum_tolerable_journey_minutes=250
+maximum_tolerable_journey_minutes=398
 
 Image[E]=./images/ford-pilot-green_E.0.0,-33,14
 Image[SE]=./images/ford-pilot-green_SE.0.0,-13,0
@@ -68,7 +68,7 @@ retire_month=6
 speed=130
 class=2,3
 maximum_comfortable_journey_minutes=45
-maximum_tolerable_journey_minutes=250
+maximum_tolerable_journey_minutes=398
 
 Image[E]=./images/ford-pilot-black_E.0.0,-33,14
 Image[SE]=./images/ford-pilot-black_SE.0.0,-13,0
@@ -91,7 +91,7 @@ retire_month=6
 speed=130
 class=2,3
 maximum_comfortable_journey_minutes=45
-maximum_tolerable_journey_minutes=250
+maximum_tolerable_journey_minutes=398
 
 Image[E]=./images/ford-pilot-grey_E.0.0,-33,14
 Image[SE]=./images/ford-pilot-grey_SE.0.0,-13,0
@@ -114,7 +114,7 @@ retire_month=6
 speed=130
 class=2,3
 maximum_comfortable_journey_minutes=45
-maximum_tolerable_journey_minutes=250
+maximum_tolerable_journey_minutes=398
 
 Image[E]=./images/ford-pilot-maroon_E.0.0,-33,14
 Image[SE]=./images/ford-pilot-maroon_SE.0.0,-13,0

@@ -9,12 +9,12 @@
 #
 # Colours: Black, Dark Green, Maroon and Grey, as specified for this model.
 #
-# Weight: 13 in total (black 5, green 4, maroon 2, grey 2). Class 3 and a
+# Weight: 13 in total (black 5, green 4, maroon 2, grey 2). Classes 2,3 and a
 # low-volume prestige car, so the total stays inside the 10-15 band.
 #
 # Speed 70 km/h (45 mph), the Powerhouse Museum figure for its 1912 tourer;
 # Rover itself claimed 75 km/h.
-# Comfort 60/270 (line). Class 3.
+# Comfort 60/420 (line). Classes 2,3.
 # Dates: 1912-1924 with a road tail to about 1949.
 #
 # Metres master: citycars/4.5/rover-twelve.blend. References:
@@ -40,9 +40,9 @@ intro_month=1
 retire_year=1949
 retire_month=6
 speed=70
-class=3,4
+class=2,3
 maximum_comfortable_journey_minutes=60
-maximum_tolerable_journey_minutes=270
+maximum_tolerable_journey_minutes=420
 
 Image[E]=./images/rover-twelve-black_E.0.0,-33,14
 Image[SE]=./images/rover-twelve-black_SE.0.0,-13,0
@@ -63,9 +63,9 @@ intro_month=4
 retire_year=1948
 retire_month=6
 speed=70
-class=3,4
+class=2,3
 maximum_comfortable_journey_minutes=60
-maximum_tolerable_journey_minutes=270
+maximum_tolerable_journey_minutes=420
 
 Image[E]=./images/rover-twelve-green_E.0.0,-33,14
 Image[SE]=./images/rover-twelve-green_SE.0.0,-13,0
@@ -86,9 +86,9 @@ intro_month=3
 retire_year=1947
 retire_month=6
 speed=70
-class=3,4
+class=2,3
 maximum_comfortable_journey_minutes=60
-maximum_tolerable_journey_minutes=270
+maximum_tolerable_journey_minutes=420
 
 Image[E]=./images/rover-twelve-maroon_E.0.0,-33,14
 Image[SE]=./images/rover-twelve-maroon_SE.0.0,-13,0
@@ -109,9 +109,9 @@ intro_month=6
 retire_year=1946
 retire_month=6
 speed=70
-class=3,4
+class=2,3
 maximum_comfortable_journey_minutes=60
-maximum_tolerable_journey_minutes=270
+maximum_tolerable_journey_minutes=420
 
 Image[E]=./images/rover-twelve-grey_E.0.0,-33,14
 Image[SE]=./images/rover-twelve-grey_SE.0.0,-13,0

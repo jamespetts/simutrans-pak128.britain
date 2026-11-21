@@ -14,7 +14,7 @@
 # Colours: grade (d); no Vauxhall colour list was read. White, Red, Blue and
 # Silver are plain names. Weights 12, 10, 9, 8, total 39, provisional.
 #
-# Speed 195 km/h. Comfort 75/292, on the line 180 + 1.5 x 75. Classes 1,2.
+# Speed 195 km/h. Comfort 75/443, on the line 330 + 1.5 x 75. Classes 1,2.
 # Dates: intro October 1995; retires staggered 2008-2011 as a road tail.
 #
 # Metres master: citycars/4.5/vauxhall-vectra-b.blend. Interchange:
@@ -40,7 +40,7 @@ retire_month=6
 speed=195
 class=1,2
 maximum_comfortable_journey_minutes=75
-maximum_tolerable_journey_minutes=292
+maximum_tolerable_journey_minutes=443
 
 Image[E]=./images/vauxhall-vectra-b-white_E.0.0,-33,14
 Image[SE]=./images/vauxhall-vectra-b-white_SE.0.0,-13,0
@@ -63,7 +63,7 @@ retire_month=6
 speed=195
 class=1,2
 maximum_comfortable_journey_minutes=75
-maximum_tolerable_journey_minutes=292
+maximum_tolerable_journey_minutes=443
 
 Image[E]=./images/vauxhall-vectra-b-red_E.0.0,-33,14
 Image[SE]=./images/vauxhall-vectra-b-red_SE.0.0,-13,0
@@ -86,7 +86,7 @@ retire_month=6
 speed=195
 class=1,2
 maximum_comfortable_journey_minutes=75
-maximum_tolerable_journey_minutes=292
+maximum_tolerable_journey_minutes=443
 
 Image[E]=./images/vauxhall-vectra-b-blue_E.0.0,-33,14
 Image[SE]=./images/vauxhall-vectra-b-blue_SE.0.0,-13,0
@@ -109,7 +109,7 @@ retire_month=6
 speed=195
 class=1,2
 maximum_comfortable_journey_minutes=75
-maximum_tolerable_journey_minutes=292
+maximum_tolerable_journey_minutes=443
 
 Image[E]=./images/vauxhall-vectra-b-silver_E.0.0,-33,14
 Image[SE]=./images/vauxhall-vectra-b-silver_SE.0.0,-13,0

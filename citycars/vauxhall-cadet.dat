@@ -20,7 +20,7 @@
 # and Dark Blue are observed colours. Weights 12, 10, 9, 8, total 39,
 # provisional.
 #
-# Speed 100 km/h. Comfort 25/218, on the line 180 + 1.5 x 25. Classes 0,1.
+# Speed 100 km/h. Comfort 25/368, on the line 330 + 1.5 x 25. Classes 2,3.
 # Dates: intro October 1930; retires staggered 1947-1950 as a road tail.
 #
 # Metres master: citycars/4.5/vauxhall-cadet.blend. Interchange:
@@ -42,9 +42,9 @@ intro_month=10
 retire_year=1950
 retire_month=6
 speed=100
-class=0,1
+class=2,3
 maximum_comfortable_journey_minutes=25
-maximum_tolerable_journey_minutes=218
+maximum_tolerable_journey_minutes=368
 
 Image[E]=./images/vauxhall-cadet-black_E.0.0,-33,14
 Image[SE]=./images/vauxhall-cadet-black_SE.0.0,-13,0
@@ -65,9 +65,9 @@ intro_month=10
 retire_year=1949
 retire_month=6
 speed=100
-class=0,1
+class=2,3
 maximum_comfortable_journey_minutes=25
-maximum_tolerable_journey_minutes=218
+maximum_tolerable_journey_minutes=368
 
 Image[E]=./images/vauxhall-cadet-maroon_E.0.0,-33,14
 Image[SE]=./images/vauxhall-cadet-maroon_SE.0.0,-13,0
@@ -88,9 +88,9 @@ intro_month=10
 retire_year=1948
 retire_month=6
 speed=100
-class=0,1
+class=2,3
 maximum_comfortable_journey_minutes=25
-maximum_tolerable_journey_minutes=218
+maximum_tolerable_journey_minutes=368
 
 Image[E]=./images/vauxhall-cadet-cream_E.0.0,-33,14
 Image[SE]=./images/vauxhall-cadet-cream_SE.0.0,-13,0
@@ -111,9 +111,9 @@ intro_month=10
 retire_year=1947
 retire_month=6
 speed=100
-class=0,1
+class=2,3
 maximum_comfortable_journey_minutes=25
-maximum_tolerable_journey_minutes=218
+maximum_tolerable_journey_minutes=368
 
 Image[E]=./images/vauxhall-cadet-darkblue_E.0.0,-33,14
 Image[SE]=./images/vauxhall-cadet-darkblue_SE.0.0,-13,0

@@ -18,8 +18,8 @@
 # names used with that caveat. Weights 30, 30, 25, 25, total 110,
 # provisional.
 #
-# Speed 190 km/h. Comfort 90/315, on the line 180 + 1.5 x 90: the largest
-# executive Ford of its day. Classes 2,3.
+# Speed 190 km/h. Comfort 90/465, on the line 330 + 1.5 x 90: the largest
+# executive Ford of its day. Classes 0,1,2.
 # Dates are road presence: 1985 intro, retires staggered 2010-2013.
 #
 # Metres master: citycars/4.5/ford-granada-mk3.blend. Interchange:
@@ -42,9 +42,9 @@ intro_month=4
 retire_year=2013
 retire_month=6
 speed=190
-class=2,3
+class=0,1,2
 maximum_comfortable_journey_minutes=90
-maximum_tolerable_journey_minutes=315
+maximum_tolerable_journey_minutes=465
 
 Image[E]=./images/ford-granada-mk3-diamondwhite_E.0.0,-33,14
 Image[SE]=./images/ford-granada-mk3-diamondwhite_SE.0.0,-13,0
@@ -65,9 +65,9 @@ intro_month=4
 retire_year=2012
 retire_month=6
 speed=190
-class=2,3
+class=0,1,2
 maximum_comfortable_journey_minutes=90
-maximum_tolerable_journey_minutes=315
+maximum_tolerable_journey_minutes=465
 
 Image[E]=./images/ford-granada-mk3-midnightblue_E.0.0,-33,14
 Image[SE]=./images/ford-granada-mk3-midnightblue_SE.0.0,-13,0
@@ -88,9 +88,9 @@ intro_month=4
 retire_year=2011
 retire_month=6
 speed=190
-class=2,3
+class=0,1,2
 maximum_comfortable_journey_minutes=90
-maximum_tolerable_journey_minutes=315
+maximum_tolerable_journey_minutes=465
 
 Image[E]=./images/ford-granada-mk3-venetianred_E.0.0,-33,14
 Image[SE]=./images/ford-granada-mk3-venetianred_SE.0.0,-13,0
@@ -111,9 +111,9 @@ intro_month=4
 retire_year=2010
 retire_month=6
 speed=190
-class=2,3
+class=0,1,2
 maximum_comfortable_journey_minutes=90
-maximum_tolerable_journey_minutes=315
+maximum_tolerable_journey_minutes=465
 
 Image[E]=./images/ford-granada-mk3-stratosilver_E.0.0,-33,14
 Image[SE]=./images/ford-granada-mk3-stratosilver_SE.0.0,-13,0

@@ -1,3 +1,4 @@
+# Retire policy 2026-11-20: still in production in 2026 with no announced end; retire dates commented out. Revisit when an end is announced.
 # Vauxhall Astra Mk8 (Astra L) five-door hatchback, 2021-present.
 #
 # 4,374 mm long, 1,860 mm wide, 1,441 mm high, 2,675 mm wheelbase; 1.2 petrol
@@ -9,7 +10,7 @@
 #
 # Weight: 220 in total (silver 70, black 60, red 50, blue 40).
 #
-# Speed 220 km/h; comfort 130/375 (line). Classes 1,2.
+# Speed 220 km/h; comfort 130/525 (line). Class 1.
 # Dates: 2021 to 2035, an estimate.
 #
 # Metres master: citycars/4.5/vauxhall-astra-mk8.blend. References:
@@ -23,12 +24,12 @@ copyright=JamesPetts
 DistributionWeight=70
 intro_year=2021
 intro_month=10
-retire_year=2035
-retire_month=6
+#retire_year=2035
+#retire_month=6
 speed=220
-class=1,2
+class=1
 maximum_comfortable_journey_minutes=130
-maximum_tolerable_journey_minutes=375
+maximum_tolerable_journey_minutes=525
 
 Image[E]=./images/vauxhall-astra-mk8-silver_E.0.0,-33,14
 Image[SE]=./images/vauxhall-astra-mk8-silver_SE.0.0,-13,0
@@ -46,12 +47,12 @@ copyright=JamesPetts
 DistributionWeight=60
 intro_year=2021
 intro_month=10
-retire_year=2034
-retire_month=6
+#retire_year=2034
+#retire_month=6
 speed=220
-class=1,2
+class=1
 maximum_comfortable_journey_minutes=130
-maximum_tolerable_journey_minutes=375
+maximum_tolerable_journey_minutes=525
 
 Image[E]=./images/vauxhall-astra-mk8-black_E.0.0,-33,14
 Image[SE]=./images/vauxhall-astra-mk8-black_SE.0.0,-13,0
@@ -69,12 +70,12 @@ copyright=JamesPetts
 DistributionWeight=50
 intro_year=2021
 intro_month=10
-retire_year=2033
-retire_month=6
+#retire_year=2033
+#retire_month=6
 speed=220
-class=1,2
+class=1
 maximum_comfortable_journey_minutes=130
-maximum_tolerable_journey_minutes=375
+maximum_tolerable_journey_minutes=525
 
 Image[E]=./images/vauxhall-astra-mk8-red_E.0.0,-33,14
 Image[SE]=./images/vauxhall-astra-mk8-red_SE.0.0,-13,0
@@ -92,12 +93,12 @@ copyright=JamesPetts
 DistributionWeight=40
 intro_year=2022
 intro_month=3
-retire_year=2032
-retire_month=6
+#retire_year=2032
+#retire_month=6
 speed=220
-class=1,2
+class=1
 maximum_comfortable_journey_minutes=130
-maximum_tolerable_journey_minutes=375
+maximum_tolerable_journey_minutes=525
 
 Image[E]=./images/vauxhall-astra-mk8-blue_E.0.0,-33,14
 Image[SE]=./images/vauxhall-astra-mk8-blue_SE.0.0,-13,0

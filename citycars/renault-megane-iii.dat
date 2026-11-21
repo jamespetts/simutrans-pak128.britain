@@ -28,8 +28,8 @@
 # Pacific Blue, Capsicum Red and Oyster Grey. Weights white 3, blue 3, red 2,
 # grey 2, total 10, provisional pending the central rebase.
 #
-# Speed 190 km/h, the 1.6-litre turbo's quoted maximum. Comfort 100/330, on the
-# line 180 + 1.5 x 100: a quiet, well-finished family hatchback. Classes 1,2.
+# Speed 190 km/h, the 1.6-litre turbo's quoted maximum. Comfort 100/480, on the
+# line 330 + 1.5 x 100: a quiet, well-finished family hatchback. Classes 0,1.
 #
 # Dates are road presence: 2009 intro, retires staggered 2024-2027 on a
 # fifteen- to eighteen-year tail.
@@ -52,9 +52,9 @@ intro_month=1
 retire_year=2027
 retire_month=6
 speed=190
-class=1,2
+class=0,1
 maximum_comfortable_journey_minutes=100
-maximum_tolerable_journey_minutes=330
+maximum_tolerable_journey_minutes=480
 
 Image[E]=./images/renault-megane-iii-glacierwhite_E.0.0,-33,14
 Image[SE]=./images/renault-megane-iii-glacierwhite_SE.0.0,-13,0
@@ -75,9 +75,9 @@ intro_month=1
 retire_year=2027
 retire_month=6
 speed=190
-class=1,2
+class=0,1
 maximum_comfortable_journey_minutes=100
-maximum_tolerable_journey_minutes=330
+maximum_tolerable_journey_minutes=480
 
 Image[E]=./images/renault-megane-iii-pacificblue_E.0.0,-33,14
 Image[SE]=./images/renault-megane-iii-pacificblue_SE.0.0,-13,0
@@ -98,9 +98,9 @@ intro_month=1
 retire_year=2026
 retire_month=6
 speed=190
-class=1,2
+class=0,1
 maximum_comfortable_journey_minutes=100
-maximum_tolerable_journey_minutes=330
+maximum_tolerable_journey_minutes=480
 
 Image[E]=./images/renault-megane-iii-capsicumred_E.0.0,-33,14
 Image[SE]=./images/renault-megane-iii-capsicumred_SE.0.0,-13,0
@@ -121,9 +121,9 @@ intro_month=1
 retire_year=2025
 retire_month=6
 speed=190
-class=1,2
+class=0,1
 maximum_comfortable_journey_minutes=100
-maximum_tolerable_journey_minutes=330
+maximum_tolerable_journey_minutes=480
 
 Image[E]=./images/renault-megane-iii-oystergrey_E.0.0,-33,14
 Image[SE]=./images/renault-megane-iii-oystergrey_SE.0.0,-13,0

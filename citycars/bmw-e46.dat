@@ -24,8 +24,8 @@
 # central rebase.
 #
 # Speed 220 km/h for the volume 320i/325i; the 330i's 250 km/h limiter and the
-# M3 are not modelled. Comfort 120/360, on the line 180 + 1.5 x 120, between the
-# E36's 115/350 and the E90's 125/370. Classes 2,3.
+# M3 are not modelled. Comfort 120/510, on the line 330 + 1.5 x 120, between the
+# E36's 115/503 and the E90's 125/518. Classes 1,2,3.
 #
 # Dates are road presence, not production: March 1998 intro, retires staggered
 # 2014-2017 on a sixteen- to nineteen-year tail.
@@ -51,9 +51,9 @@ intro_month=3
 retire_year=2017
 retire_month=6
 speed=220
-class=1,2
+class=1,2,3
 maximum_comfortable_journey_minutes=120
-maximum_tolerable_journey_minutes=360
+maximum_tolerable_journey_minutes=510
 
 Image[E]=./images/bmw-e46-silver_E.0.0,-33,14
 Image[SE]=./images/bmw-e46-silver_SE.0.0,-13,0
@@ -74,9 +74,9 @@ intro_month=3
 retire_year=2016
 retire_month=6
 speed=220
-class=1,2
+class=1,2,3
 maximum_comfortable_journey_minutes=120
-maximum_tolerable_journey_minutes=360
+maximum_tolerable_journey_minutes=510
 
 Image[E]=./images/bmw-e46-black_E.0.0,-33,14
 Image[SE]=./images/bmw-e46-black_SE.0.0,-13,0
@@ -97,9 +97,9 @@ intro_month=3
 retire_year=2015
 retire_month=6
 speed=220
-class=1,2
+class=1,2,3
 maximum_comfortable_journey_minutes=120
-maximum_tolerable_journey_minutes=360
+maximum_tolerable_journey_minutes=510
 
 Image[E]=./images/bmw-e46-white_E.0.0,-33,14
 Image[SE]=./images/bmw-e46-white_SE.0.0,-13,0
@@ -120,9 +120,9 @@ intro_month=3
 retire_year=2014
 retire_month=6
 speed=220
-class=1,2
+class=1,2,3
 maximum_comfortable_journey_minutes=120
-maximum_tolerable_journey_minutes=360
+maximum_tolerable_journey_minutes=510
 
 Image[E]=./images/bmw-e46-blue_E.0.0,-33,14
 Image[SE]=./images/bmw-e46-blue_SE.0.0,-13,0

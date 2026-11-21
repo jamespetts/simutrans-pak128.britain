@@ -13,7 +13,7 @@
 # Colours: grade (b), the P4 Drivers Guild's year-based compilation. Black,
 # Sage Green, Dove Grey and Maroon. Weights 6, 5, 5, 4, total 20, provisional.
 #
-# Speed 160 km/h. Comfort 68/282, on the line 180 + 1.5 x 68. Classes 3,4.
+# Speed 160 km/h. Comfort 68/432, on the line 330 + 1.5 x 68. Classes 2,3.
 # Dates are road presence: 1962 intro, retires staggered 1980-1983.
 #
 # Metres master: citycars/4.5/rover-p4-110.blend. Interchange:
@@ -35,9 +35,9 @@ intro_month=9
 retire_year=1983
 retire_month=6
 speed=160
-class=3,4
+class=2,3
 maximum_comfortable_journey_minutes=68
-maximum_tolerable_journey_minutes=282
+maximum_tolerable_journey_minutes=432
 
 Image[E]=./images/rover-p4-110-black_E.0.0,-33,14
 Image[SE]=./images/rover-p4-110-black_SE.0.0,-13,0
@@ -58,9 +58,9 @@ intro_month=9
 retire_year=1982
 retire_month=6
 speed=160
-class=3,4
+class=2,3
 maximum_comfortable_journey_minutes=68
-maximum_tolerable_journey_minutes=282
+maximum_tolerable_journey_minutes=432
 
 Image[E]=./images/rover-p4-110-sagegreen_E.0.0,-33,14
 Image[SE]=./images/rover-p4-110-sagegreen_SE.0.0,-13,0
@@ -81,9 +81,9 @@ intro_month=9
 retire_year=1981
 retire_month=6
 speed=160
-class=3,4
+class=2,3
 maximum_comfortable_journey_minutes=68
-maximum_tolerable_journey_minutes=282
+maximum_tolerable_journey_minutes=432
 
 Image[E]=./images/rover-p4-110-dovegrey_E.0.0,-33,14
 Image[SE]=./images/rover-p4-110-dovegrey_SE.0.0,-13,0
@@ -104,9 +104,9 @@ intro_month=9
 retire_year=1980
 retire_month=6
 speed=160
-class=3,4
+class=2,3
 maximum_comfortable_journey_minutes=68
-maximum_tolerable_journey_minutes=282
+maximum_tolerable_journey_minutes=432
 
 Image[E]=./images/rover-p4-110-maroon_E.0.0,-33,14
 Image[SE]=./images/rover-p4-110-maroon_SE.0.0,-13,0

@@ -26,7 +26,7 @@
 # 1940s anchors. Provisional pending the central rebase.
 #
 # Speed 80 km/h (50 mph): a game-balance figure; the WD machine was geared low
-# for sidecar work. Comfort 25/190: rigid frame, girder fork, sprung saddle and
+# for sidecar work. Comfort 25/338: rigid frame, girder fork, sprung saddle and
 # an open military tub.
 #
 # Dates describe when the outfit was seen on British roads: wartime service from
@@ -57,7 +57,7 @@ retire_month=6
 speed=80
 class=0,1
 maximum_comfortable_journey_minutes=25
-maximum_tolerable_journey_minutes=190
+maximum_tolerable_journey_minutes=338
 
 Image[E]=./images/norton-big-four-combo-khaki_E.0.0,-33,14
 Image[SE]=./images/norton-big-four-combo-khaki_SE.0.0,-13,0

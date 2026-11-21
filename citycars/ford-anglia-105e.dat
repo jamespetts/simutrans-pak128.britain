@@ -51,11 +51,11 @@
 # property of the per-generation convention and is for the central rebase.
 #
 # Speed 120 km/h: a game-balance figure, not the model's top speed. The Motor
-# recorded 73.8 mph (119 km/h) for a 105E saloon in 1959. Comfort 50/255 is one
-# step above the 100E's 45/250: the 105E is a newer body (1959) on the same
+# recorded 73.8 mph (119 km/h) for a 105E saloon in 1959. Comfort 50/405 is one
+# step above the 100E's 45/398: the 105E is a newer body (1959) on the same
 # MacPherson-strut front suspension, with better seating and a four-speed
 # gearbox, which is a modest improvement on its era peers (FordPrefectLate
-# 45/250, Morris Minor 45/250).
+# 45/398, Morris Minor 45/398).
 #
 # Dates describe when each colour would be seen regularly on UK roads, not
 # production dates. Production ended in November 1967; the cars rusted severely
@@ -78,9 +78,9 @@ intro_month=9
 retire_year=1976
 retire_month=12
 speed=120
-class=0,1
+class=1,2
 maximum_comfortable_journey_minutes=50
-maximum_tolerable_journey_minutes=255
+maximum_tolerable_journey_minutes=405
 
 Image[E]=./images/ford-anglia-105e-blue_E.0.0,-33,14
 Image[SE]=./images/ford-anglia-105e-blue_SE.0.0,-13,0
@@ -101,9 +101,9 @@ intro_month=9
 retire_year=1975
 retire_month=6
 speed=120
-class=0,1
+class=1,2
 maximum_comfortable_journey_minutes=50
-maximum_tolerable_journey_minutes=255
+maximum_tolerable_journey_minutes=405
 
 Image[E]=./images/ford-anglia-105e-black_E.0.0,-33,14
 Image[SE]=./images/ford-anglia-105e-black_SE.0.0,-13,0
@@ -124,9 +124,9 @@ intro_month=9
 retire_year=1973
 retire_month=12
 speed=120
-class=0,1
+class=1,2
 maximum_comfortable_journey_minutes=50
-maximum_tolerable_journey_minutes=255
+maximum_tolerable_journey_minutes=405
 
 Image[E]=./images/ford-anglia-105e-maroon_E.0.0,-33,14
 Image[SE]=./images/ford-anglia-105e-maroon_SE.0.0,-13,0
@@ -147,9 +147,9 @@ intro_month=9
 retire_year=1976
 retire_month=6
 speed=120
-class=0,1
+class=1,2
 maximum_comfortable_journey_minutes=50
-maximum_tolerable_journey_minutes=255
+maximum_tolerable_journey_minutes=405
 
 Image[E]=./images/ford-anglia-105e-white_E.0.0,-33,14
 Image[SE]=./images/ford-anglia-105e-white_SE.0.0,-13,0
@@ -170,9 +170,9 @@ intro_month=5
 retire_year=1974
 retire_month=6
 speed=120
-class=0,1
+class=1,2
 maximum_comfortable_journey_minutes=50
-maximum_tolerable_journey_minutes=255
+maximum_tolerable_journey_minutes=405
 
 Image[E]=./images/ford-anglia-105e-green_E.0.0,-33,14
 Image[SE]=./images/ford-anglia-105e-green_SE.0.0,-13,0

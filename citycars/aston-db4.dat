@@ -21,8 +21,8 @@
 # Green, silver, black and red. Weights green 3, silver 3, black 2, red 2,
 # total 10, provisional pending the central rebase.
 #
-# Speed 225 km/h, the car's quoted maximum. Comfort 58/267, on the line
-# 180 + 1.5 x 58: a light, low GT of 1958. Classes 3,4.
+# Speed 225 km/h, the car's quoted maximum. Comfort 58/417, on the line
+# 330 + 1.5 x 58: a light, low GT of 1958. Class 4.
 #
 # Dates are road presence: 1958 intro, retires staggered 1973-1976 on a
 # fifteen- to eighteen-year tail.
@@ -46,9 +46,9 @@ intro_month=1
 retire_year=1976
 retire_month=6
 speed=225
-class=3,4
+class=4
 maximum_comfortable_journey_minutes=58
-maximum_tolerable_journey_minutes=267
+maximum_tolerable_journey_minutes=417
 
 Image[E]=./images/aston-db4-britishracinggreen_E.0.0,-33,14
 Image[SE]=./images/aston-db4-britishracinggreen_SE.0.0,-13,0
@@ -69,9 +69,9 @@ intro_month=1
 retire_year=1976
 retire_month=6
 speed=225
-class=3,4
+class=4
 maximum_comfortable_journey_minutes=58
-maximum_tolerable_journey_minutes=267
+maximum_tolerable_journey_minutes=417
 
 Image[E]=./images/aston-db4-silver_E.0.0,-33,14
 Image[SE]=./images/aston-db4-silver_SE.0.0,-13,0
@@ -92,9 +92,9 @@ intro_month=1
 retire_year=1975
 retire_month=6
 speed=225
-class=3,4
+class=4
 maximum_comfortable_journey_minutes=58
-maximum_tolerable_journey_minutes=267
+maximum_tolerable_journey_minutes=417
 
 Image[E]=./images/aston-db4-black_E.0.0,-33,14
 Image[SE]=./images/aston-db4-black_SE.0.0,-13,0
@@ -115,9 +115,9 @@ intro_month=1
 retire_year=1973
 retire_month=6
 speed=225
-class=3,4
+class=4
 maximum_comfortable_journey_minutes=58
-maximum_tolerable_journey_minutes=267
+maximum_tolerable_journey_minutes=417
 
 Image[E]=./images/aston-db4-red_E.0.0,-33,14
 Image[SE]=./images/aston-db4-red_SE.0.0,-13,0

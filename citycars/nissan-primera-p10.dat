@@ -16,9 +16,9 @@
 # pending the central rebase.
 #
 # Speed 180 km/h for the 1.6, the volume fleet model; the 2.0 was quicker and
-# the eGT quicker still, neither is modelled. Comfort 90/315, on the line
-# 180 + 1.5 x 90, the same as the Rover 200 R3 and a step above the Bluebird's
-# 65/280. Classes 1,2,3.
+# the eGT quicker still, neither is modelled. Comfort 90/465, on the line
+# 330 + 1.5 x 90, the same as the Rover 200 R3 and a step above the Bluebird's
+# 65/428. Classes 1,2.
 #
 # Dates are road presence: September 1990 intro, retires staggered 2005-2008 on
 # a fifteen- to eighteen-year tail.
@@ -44,7 +44,7 @@ retire_month=6
 speed=180
 class=1,2
 maximum_comfortable_journey_minutes=90
-maximum_tolerable_journey_minutes=315
+maximum_tolerable_journey_minutes=465
 
 Image[E]=./images/nissan-primera-p10-silver_E.0.0,-33,14
 Image[SE]=./images/nissan-primera-p10-silver_SE.0.0,-13,0
@@ -67,7 +67,7 @@ retire_month=6
 speed=180
 class=1,2
 maximum_comfortable_journey_minutes=90
-maximum_tolerable_journey_minutes=315
+maximum_tolerable_journey_minutes=465
 
 Image[E]=./images/nissan-primera-p10-red_E.0.0,-33,14
 Image[SE]=./images/nissan-primera-p10-red_SE.0.0,-13,0
@@ -90,7 +90,7 @@ retire_month=6
 speed=180
 class=1,2
 maximum_comfortable_journey_minutes=90
-maximum_tolerable_journey_minutes=315
+maximum_tolerable_journey_minutes=465
 
 Image[E]=./images/nissan-primera-p10-white_E.0.0,-33,14
 Image[SE]=./images/nissan-primera-p10-white_SE.0.0,-13,0
@@ -113,7 +113,7 @@ retire_month=6
 speed=180
 class=1,2
 maximum_comfortable_journey_minutes=90
-maximum_tolerable_journey_minutes=315
+maximum_tolerable_journey_minutes=465
 
 Image[E]=./images/nissan-primera-p10-blue_E.0.0,-33,14
 Image[SE]=./images/nissan-primera-p10-blue_SE.0.0,-13,0

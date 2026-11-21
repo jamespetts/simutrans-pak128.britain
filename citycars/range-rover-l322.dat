@@ -11,7 +11,7 @@
 # Weight: 45 in total (black 15, silver 12, blue 10, green 8), above the P38 as
 # the L322 parc grew through the 2000s.
 #
-# Speed 210 km/h; comfort 150/405 (line). Classes 2,3,4.
+# Speed 210 km/h; comfort 150/555 (line). Classes 3,4.
 # Dates: 2002-2012 with a road tail to about 2020.
 #
 # Metres master: citycars/4.5/range-rover-l322.blend. References:
@@ -29,7 +29,7 @@ retire_month=6
 speed=210
 class=3,4
 maximum_comfortable_journey_minutes=150
-maximum_tolerable_journey_minutes=405
+maximum_tolerable_journey_minutes=555
 
 Image[E]=./images/range-rover-l322-black_E.0.0,-33,14
 Image[SE]=./images/range-rover-l322-black_SE.0.0,-13,0
@@ -52,7 +52,7 @@ retire_month=6
 speed=210
 class=3,4
 maximum_comfortable_journey_minutes=150
-maximum_tolerable_journey_minutes=405
+maximum_tolerable_journey_minutes=555
 
 Image[E]=./images/range-rover-l322-silver_E.0.0,-33,14
 Image[SE]=./images/range-rover-l322-silver_SE.0.0,-13,0
@@ -75,7 +75,7 @@ retire_month=6
 speed=210
 class=3,4
 maximum_comfortable_journey_minutes=150
-maximum_tolerable_journey_minutes=405
+maximum_tolerable_journey_minutes=555
 
 Image[E]=./images/range-rover-l322-blue_E.0.0,-33,14
 Image[SE]=./images/range-rover-l322-blue_SE.0.0,-13,0
@@ -98,7 +98,7 @@ retire_month=6
 speed=210
 class=3,4
 maximum_comfortable_journey_minutes=150
-maximum_tolerable_journey_minutes=405
+maximum_tolerable_journey_minutes=555
 
 Image[E]=./images/range-rover-l322-green_E.0.0,-33,14
 Image[SE]=./images/range-rover-l322-green_SE.0.0,-13,0

@@ -12,7 +12,7 @@
 # family was the largest class-4 parc of the 1990s (about 60,000 licensed in
 # 1994, all generations), with the P38 a growing share.
 #
-# Speed 190 km/h; comfort 140/390 (line). Classes 2,3,4.
+# Speed 190 km/h; comfort 140/540 (line). Classes 3,4.
 # Dates: 1994-2001 with a road tail to about 2012.
 #
 # Metres master: citycars/4.5/range-rover-p38.blend. References:
@@ -30,7 +30,7 @@ retire_month=6
 speed=190
 class=3,4
 maximum_comfortable_journey_minutes=140
-maximum_tolerable_journey_minutes=390
+maximum_tolerable_journey_minutes=540
 
 Image[E]=./images/range-rover-p38-green_E.0.0,-33,14
 Image[SE]=./images/range-rover-p38-green_SE.0.0,-13,0
@@ -53,7 +53,7 @@ retire_month=6
 speed=190
 class=3,4
 maximum_comfortable_journey_minutes=140
-maximum_tolerable_journey_minutes=390
+maximum_tolerable_journey_minutes=540
 
 Image[E]=./images/range-rover-p38-black_E.0.0,-33,14
 Image[SE]=./images/range-rover-p38-black_SE.0.0,-13,0
@@ -76,7 +76,7 @@ retire_month=6
 speed=190
 class=3,4
 maximum_comfortable_journey_minutes=140
-maximum_tolerable_journey_minutes=390
+maximum_tolerable_journey_minutes=540
 
 Image[E]=./images/range-rover-p38-silver_E.0.0,-33,14
 Image[SE]=./images/range-rover-p38-silver_SE.0.0,-13,0
@@ -99,7 +99,7 @@ retire_month=6
 speed=190
 class=3,4
 maximum_comfortable_journey_minutes=140
-maximum_tolerable_journey_minutes=390
+maximum_tolerable_journey_minutes=540
 
 Image[E]=./images/range-rover-p38-blue_E.0.0,-33,14
 Image[SE]=./images/range-rover-p38-blue_SE.0.0,-13,0

@@ -15,7 +15,7 @@
 # 1960s-70s class-4 row, per the register's note that the W116 was still to be
 # verified for the UK; it is included here at a modest weight.
 #
-# Speed 200 km/h (450 SE); comfort 95/320 (line). Class 4.
+# Speed 200 km/h (450 SE); comfort 95/473 (line). Classes 3,4.
 # Dates: 1972-1980 with a road tail to about 2000.
 #
 # Metres master: citycars/4.5/mercedes-w116.blend. References:
@@ -33,7 +33,7 @@ retire_month=6
 speed=200
 class=3,4
 maximum_comfortable_journey_minutes=95
-maximum_tolerable_journey_minutes=320
+maximum_tolerable_journey_minutes=473
 
 Image[E]=./images/mercedes-w116-black_E.0.0,-33,14
 Image[SE]=./images/mercedes-w116-black_SE.0.0,-13,0
@@ -56,7 +56,7 @@ retire_month=6
 speed=200
 class=3,4
 maximum_comfortable_journey_minutes=95
-maximum_tolerable_journey_minutes=320
+maximum_tolerable_journey_minutes=473
 
 Image[E]=./images/mercedes-w116-silver_E.0.0,-33,14
 Image[SE]=./images/mercedes-w116-silver_SE.0.0,-13,0
@@ -79,7 +79,7 @@ retire_month=6
 speed=200
 class=3,4
 maximum_comfortable_journey_minutes=95
-maximum_tolerable_journey_minutes=320
+maximum_tolerable_journey_minutes=473
 
 Image[E]=./images/mercedes-w116-blue_E.0.0,-33,14
 Image[SE]=./images/mercedes-w116-blue_SE.0.0,-13,0
@@ -102,7 +102,7 @@ retire_month=6
 speed=200
 class=3,4
 maximum_comfortable_journey_minutes=95
-maximum_tolerable_journey_minutes=320
+maximum_tolerable_journey_minutes=473
 
 Image[E]=./images/mercedes-w116-grey_E.0.0,-33,14
 Image[SE]=./images/mercedes-w116-grey_SE.0.0,-13,0

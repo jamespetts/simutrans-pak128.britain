@@ -18,7 +18,7 @@
 # Volcano Red and Jet Black. Earlier lists were not found. Weights 3, 3, 2, 2,
 # total 10, provisional.
 #
-# Speed 300 km/h. Comfort 80/300, on the line 180 + 1.5 x 80. Classes 3,4.
+# Speed 300 km/h. Comfort 80/450, on the line 330 + 1.5 x 80. Classes 3,4.
 # Dates are road presence: 2004 intro, retires staggered 2032-2036.
 #
 # Metres master: citycars/4.5/aston-db9.blend. Interchange:
@@ -42,7 +42,7 @@ retire_month=6
 speed=300
 class=3,4
 maximum_comfortable_journey_minutes=80
-maximum_tolerable_journey_minutes=300
+maximum_tolerable_journey_minutes=450
 
 Image[E]=./images/aston-db9-midnightblue_E.0.0,-33,14
 Image[SE]=./images/aston-db9-midnightblue_SE.0.0,-13,0
@@ -65,7 +65,7 @@ retire_month=6
 speed=300
 class=3,4
 maximum_comfortable_journey_minutes=80
-maximum_tolerable_journey_minutes=300
+maximum_tolerable_journey_minutes=450
 
 Image[E]=./images/aston-db9-tungstensilver_E.0.0,-33,14
 Image[SE]=./images/aston-db9-tungstensilver_SE.0.0,-13,0
@@ -88,7 +88,7 @@ retire_month=6
 speed=300
 class=3,4
 maximum_comfortable_journey_minutes=80
-maximum_tolerable_journey_minutes=300
+maximum_tolerable_journey_minutes=450
 
 Image[E]=./images/aston-db9-volcanored_E.0.0,-33,14
 Image[SE]=./images/aston-db9-volcanored_SE.0.0,-13,0
@@ -111,7 +111,7 @@ retire_month=6
 speed=300
 class=3,4
 maximum_comfortable_journey_minutes=80
-maximum_tolerable_journey_minutes=300
+maximum_tolerable_journey_minutes=450
 
 Image[E]=./images/aston-db9-jetblack_E.0.0,-33,14
 Image[SE]=./images/aston-db9-jetblack_SE.0.0,-13,0

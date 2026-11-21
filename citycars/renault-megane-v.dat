@@ -1,3 +1,4 @@
+# Retire policy 2026-11-20: still in production in 2026 with no announced end; retire dates commented out. Revisit when an end is announced.
 # Renault Megane E-Tech Electric five-door crossover, 2022 onwards.
 #
 # The "Megane V" as sold in Britain. From 2022 the only Megane on sale here was
@@ -32,10 +33,10 @@
 # The gold "F1 blade" in the front bumper carries its own material and is not
 # affected by the body recolouring.
 #
-# Speed 160 km/h, the car's governed maximum. Comfort 115/355, on the line
-# 180 + 1.5 x 115: quiet, smooth and roomy for its size. Classes 2,3.
+# Speed 160 km/h, the car's governed maximum. Comfort 115/503, on the line
+# 330 + 1.5 x 115: quiet, smooth and roomy for its size. Classes 1,2.
 #
-# Dates are road presence: July 2022 intro, retires staggered 2036-2039 on a
+# Dates are road presence: July 2022 intro, retire dates commented out (still in production in 2026)
 # fourteen- to seventeen-year tail.
 #
 # Metres master: citycars/4.5/renault-megane-v.blend. Interchange:
@@ -54,12 +55,12 @@ copyright=JamesPetts
 DistributionWeight=3
 intro_year=2022
 intro_month=7
-retire_year=2039
-retire_month=6
+#retire_year=2039
+#retire_month=6
 speed=160
-class=2,3
+class=1,2
 maximum_comfortable_journey_minutes=115
-maximum_tolerable_journey_minutes=355
+maximum_tolerable_journey_minutes=503
 
 Image[E]=./images/renault-megane-v-glacierwhite_E.0.0,-33,14
 Image[SE]=./images/renault-megane-v-glacierwhite_SE.0.0,-13,0
@@ -77,12 +78,12 @@ copyright=JamesPetts
 DistributionWeight=3
 intro_year=2022
 intro_month=7
-retire_year=2039
-retire_month=6
+#retire_year=2039
+#retire_month=6
 speed=160
-class=2,3
+class=1,2
 maximum_comfortable_journey_minutes=115
-maximum_tolerable_journey_minutes=355
+maximum_tolerable_journey_minutes=503
 
 Image[E]=./images/renault-megane-v-shadowgrey_E.0.0,-33,14
 Image[SE]=./images/renault-megane-v-shadowgrey_SE.0.0,-13,0
@@ -100,12 +101,12 @@ copyright=JamesPetts
 DistributionWeight=2
 intro_year=2022
 intro_month=7
-retire_year=2038
-retire_month=6
+#retire_year=2038
+#retire_month=6
 speed=160
-class=2,3
+class=1,2
 maximum_comfortable_journey_minutes=115
-maximum_tolerable_journey_minutes=355
+maximum_tolerable_journey_minutes=503
 
 Image[E]=./images/renault-megane-v-diamondblack_E.0.0,-33,14
 Image[SE]=./images/renault-megane-v-diamondblack_SE.0.0,-13,0
@@ -123,12 +124,12 @@ copyright=JamesPetts
 DistributionWeight=2
 intro_year=2022
 intro_month=7
-retire_year=2037
-retire_month=6
+#retire_year=2037
+#retire_month=6
 speed=160
-class=2,3
+class=1,2
 maximum_comfortable_journey_minutes=115
-maximum_tolerable_journey_minutes=355
+maximum_tolerable_journey_minutes=503
 
 Image[E]=./images/renault-megane-v-flamered_E.0.0,-33,14
 Image[SE]=./images/renault-megane-v-flamered_SE.0.0,-13,0

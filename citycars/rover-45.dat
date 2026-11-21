@@ -9,7 +9,7 @@
 #
 # Weight: 100 in total (blue 30, silver 26, red 24, green 20).
 #
-# Speed 200 km/h; comfort 105/340 (line). Classes 2,3.
+# Speed 200 km/h; comfort 105/488 (line). Classes 0,1,2.
 # Dates: 1999-2005 with a road tail to about 2016.
 #
 # Metres master: citycars/4.5/rover-45.blend. References:
@@ -25,9 +25,9 @@ intro_month=10
 retire_year=2016
 retire_month=6
 speed=200
-class=2,3
+class=0,1,2
 maximum_comfortable_journey_minutes=105
-maximum_tolerable_journey_minutes=340
+maximum_tolerable_journey_minutes=488
 
 Image[E]=./images/rover-45-blue_E.0.0,-33,14
 Image[SE]=./images/rover-45-blue_SE.0.0,-13,0
@@ -48,9 +48,9 @@ intro_month=10
 retire_year=2015
 retire_month=6
 speed=200
-class=2,3
+class=0,1,2
 maximum_comfortable_journey_minutes=105
-maximum_tolerable_journey_minutes=340
+maximum_tolerable_journey_minutes=488
 
 Image[E]=./images/rover-45-silver_E.0.0,-33,14
 Image[SE]=./images/rover-45-silver_SE.0.0,-13,0
@@ -71,9 +71,9 @@ intro_month=3
 retire_year=2014
 retire_month=6
 speed=200
-class=2,3
+class=0,1,2
 maximum_comfortable_journey_minutes=105
-maximum_tolerable_journey_minutes=340
+maximum_tolerable_journey_minutes=488
 
 Image[E]=./images/rover-45-red_E.0.0,-33,14
 Image[SE]=./images/rover-45-red_SE.0.0,-13,0
@@ -94,9 +94,9 @@ intro_month=3
 retire_year=2013
 retire_month=6
 speed=200
-class=2,3
+class=0,1,2
 maximum_comfortable_journey_minutes=105
-maximum_tolerable_journey_minutes=340
+maximum_tolerable_journey_minutes=488
 
 Image[E]=./images/rover-45-green_E.0.0,-33,14
 Image[SE]=./images/rover-45-green_SE.0.0,-13,0

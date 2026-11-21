@@ -22,9 +22,9 @@
 # brochure, and the header records that grading. Weights brg 3, carmine 3,
 # tahiti 2, inca 2, total 10, provisional pending the central rebase.
 #
-# Speed 161 km/h, the published 100 mph figure for the 1500. Comfort 50/255, on
-# the line 180 + 1.5 x 50: a small, low, stiff two-seater, comfortable for a
-# short run and tiring on a long one. Classes 2,3.
+# Speed 161 km/h, the published 100 mph figure for the 1500. Comfort 50/405, on
+# the line 330 + 1.5 x 50: a small, low, stiff two-seater, comfortable for a
+# short run and tiring on a long one. Classes 1,2.
 #
 # Dates are road presence: October 1974 intro, retires staggered 1995-1998 on a
 # fifteen- to twenty-four-year tail.
@@ -48,9 +48,9 @@ intro_month=10
 retire_year=1998
 retire_month=6
 speed=161
-class=2,3
+class=1,2
 maximum_comfortable_journey_minutes=50
-maximum_tolerable_journey_minutes=255
+maximum_tolerable_journey_minutes=405
 
 Image[E]=./images/triumph-spitfire-1500-brg_E.0.0,-33,14
 Image[SE]=./images/triumph-spitfire-1500-brg_SE.0.0,-13,0
@@ -71,9 +71,9 @@ intro_month=10
 retire_year=1997
 retire_month=6
 speed=161
-class=2,3
+class=1,2
 maximum_comfortable_journey_minutes=50
-maximum_tolerable_journey_minutes=255
+maximum_tolerable_journey_minutes=405
 
 Image[E]=./images/triumph-spitfire-1500-carmine_E.0.0,-33,14
 Image[SE]=./images/triumph-spitfire-1500-carmine_SE.0.0,-13,0
@@ -94,9 +94,9 @@ intro_month=3
 retire_year=1996
 retire_month=6
 speed=161
-class=2,3
+class=1,2
 maximum_comfortable_journey_minutes=50
-maximum_tolerable_journey_minutes=255
+maximum_tolerable_journey_minutes=405
 
 Image[E]=./images/triumph-spitfire-1500-tahiti_E.0.0,-33,14
 Image[SE]=./images/triumph-spitfire-1500-tahiti_SE.0.0,-13,0
@@ -117,9 +117,9 @@ intro_month=3
 retire_year=1995
 retire_month=6
 speed=161
-class=2,3
+class=1,2
 maximum_comfortable_journey_minutes=50
-maximum_tolerable_journey_minutes=255
+maximum_tolerable_journey_minutes=405
 
 Image[E]=./images/triumph-spitfire-1500-inca_E.0.0,-33,14
 Image[SE]=./images/triumph-spitfire-1500-inca_SE.0.0,-13,0

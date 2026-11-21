@@ -10,7 +10,7 @@
 #
 # Weight: 130 in total (black 40, silver 35, blue 30, green 25).
 #
-# Speed 230 km/h; comfort 125/370 (line). Classes 2,3.
+# Speed 230 km/h; comfort 125/518 (line). Classes 2,3.
 # Dates: 1995-2004 with a road tail to about 2015.
 #
 # Metres master: citycars/4.5/bmw-e39.blend. References:
@@ -28,7 +28,7 @@ retire_month=6
 speed=230
 class=2,3
 maximum_comfortable_journey_minutes=125
-maximum_tolerable_journey_minutes=370
+maximum_tolerable_journey_minutes=518
 
 Image[E]=./images/bmw-e39-black_E.0.0,-33,14
 Image[SE]=./images/bmw-e39-black_SE.0.0,-13,0
@@ -51,7 +51,7 @@ retire_month=6
 speed=230
 class=2,3
 maximum_comfortable_journey_minutes=125
-maximum_tolerable_journey_minutes=370
+maximum_tolerable_journey_minutes=518
 
 Image[E]=./images/bmw-e39-silver_E.0.0,-33,14
 Image[SE]=./images/bmw-e39-silver_SE.0.0,-13,0
@@ -74,7 +74,7 @@ retire_month=6
 speed=230
 class=2,3
 maximum_comfortable_journey_minutes=125
-maximum_tolerable_journey_minutes=370
+maximum_tolerable_journey_minutes=518
 
 Image[E]=./images/bmw-e39-blue_E.0.0,-33,14
 Image[SE]=./images/bmw-e39-blue_SE.0.0,-13,0
@@ -97,7 +97,7 @@ retire_month=6
 speed=230
 class=2,3
 maximum_comfortable_journey_minutes=125
-maximum_tolerable_journey_minutes=370
+maximum_tolerable_journey_minutes=518
 
 Image[E]=./images/bmw-e39-green_E.0.0,-33,14
 Image[SE]=./images/bmw-e39-green_SE.0.0,-13,0

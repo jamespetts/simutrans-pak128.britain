@@ -11,7 +11,7 @@
 # Weight: 12 in total (black 5, silver 3, maroon 2, grey 2). Section F: the
 # 1940s-50s class-4 row, alongside the S1 and the Silver Cloud I.
 #
-# Speed 160 km/h (about 100 mph); comfort 85/310 (line). Class 4.
+# Speed 160 km/h (about 100 mph); comfort 85/458 (line). Classes 3,4.
 # Dates: 1952-1955 with a road tail to about 1978.
 #
 # Metres master: citycars/4.5/bentley-r-type.blend. References:
@@ -27,9 +27,9 @@ intro_month=9
 retire_year=1978
 retire_month=6
 speed=160
-class=4
+class=3,4
 maximum_comfortable_journey_minutes=85
-maximum_tolerable_journey_minutes=310
+maximum_tolerable_journey_minutes=458
 
 Image[E]=./images/bentley-r-type-black_E.0.0,-33,14
 Image[SE]=./images/bentley-r-type-black_SE.0.0,-13,0
@@ -50,9 +50,9 @@ intro_month=9
 retire_year=1977
 retire_month=6
 speed=160
-class=4
+class=3,4
 maximum_comfortable_journey_minutes=85
-maximum_tolerable_journey_minutes=310
+maximum_tolerable_journey_minutes=458
 
 Image[E]=./images/bentley-r-type-silver_E.0.0,-33,14
 Image[SE]=./images/bentley-r-type-silver_SE.0.0,-13,0
@@ -73,9 +73,9 @@ intro_month=3
 retire_year=1976
 retire_month=6
 speed=160
-class=4
+class=3,4
 maximum_comfortable_journey_minutes=85
-maximum_tolerable_journey_minutes=310
+maximum_tolerable_journey_minutes=458
 
 Image[E]=./images/bentley-r-type-maroon_E.0.0,-33,14
 Image[SE]=./images/bentley-r-type-maroon_SE.0.0,-13,0
@@ -96,9 +96,9 @@ intro_month=3
 retire_year=1975
 retire_month=6
 speed=160
-class=4
+class=3,4
 maximum_comfortable_journey_minutes=85
-maximum_tolerable_journey_minutes=310
+maximum_tolerable_journey_minutes=458
 
 Image[E]=./images/bentley-r-type-grey_E.0.0,-33,14
 Image[SE]=./images/bentley-r-type-grey_SE.0.0,-13,0

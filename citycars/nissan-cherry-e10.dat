@@ -16,8 +16,8 @@
 # blue 2, yellow 2, total 10, provisional pending the central rebase.
 #
 # Speed 130 km/h for the 1.0-litre 100A, the volume British model; the 1.2-litre
-# 120A was quicker but rare here. Comfort 50/255, on the line 180 + 1.5 x 50,
-# the same as the Fiesta Mk1 and Metro Mk2. Classes 0,1,2.
+# 120A was quicker but rare here. Comfort 50/405, on the line 330 + 1.5 x 50,
+# the same as the Fiesta Mk1 and Metro Mk2. Classes 0,1.
 #
 # Dates are road presence: January 1971 intro, retires staggered 1984-1987 on a
 # thirteen- to sixteen-year tail.
@@ -42,9 +42,9 @@ intro_month=1
 retire_year=1987
 retire_month=6
 speed=130
-class=1,2
+class=0,1
 maximum_comfortable_journey_minutes=50
-maximum_tolerable_journey_minutes=255
+maximum_tolerable_journey_minutes=405
 
 Image[E]=./images/nissan-cherry-e10-white_E.0.0,-33,14
 Image[SE]=./images/nissan-cherry-e10-white_SE.0.0,-13,0
@@ -65,9 +65,9 @@ intro_month=1
 retire_year=1986
 retire_month=6
 speed=130
-class=1,2
+class=0,1
 maximum_comfortable_journey_minutes=50
-maximum_tolerable_journey_minutes=255
+maximum_tolerable_journey_minutes=405
 
 Image[E]=./images/nissan-cherry-e10-red_E.0.0,-33,14
 Image[SE]=./images/nissan-cherry-e10-red_SE.0.0,-13,0
@@ -88,9 +88,9 @@ intro_month=1
 retire_year=1985
 retire_month=6
 speed=130
-class=1,2
+class=0,1
 maximum_comfortable_journey_minutes=50
-maximum_tolerable_journey_minutes=255
+maximum_tolerable_journey_minutes=405
 
 Image[E]=./images/nissan-cherry-e10-blue_E.0.0,-33,14
 Image[SE]=./images/nissan-cherry-e10-blue_SE.0.0,-13,0
@@ -111,9 +111,9 @@ intro_month=1
 retire_year=1984
 retire_month=6
 speed=130
-class=1,2
+class=0,1
 maximum_comfortable_journey_minutes=50
-maximum_tolerable_journey_minutes=255
+maximum_tolerable_journey_minutes=405
 
 Image[E]=./images/nissan-cherry-e10-yellow_E.0.0,-33,14
 Image[SE]=./images/nissan-cherry-e10-yellow_SE.0.0,-13,0

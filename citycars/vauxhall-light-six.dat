@@ -18,7 +18,7 @@
 # and Dark Blue are colours observed on surviving cars, not factory names.
 # Weights 12, 10, 9, 8, total 39, provisional.
 #
-# Speed 110 km/h. Comfort 30/225, on the line 180 + 1.5 x 30. Classes 0,1.
+# Speed 110 km/h. Comfort 30/375, on the line 330 + 1.5 x 30. Classes 1,2.
 # Dates: intro October 1933; retires staggered 1953-1956 as a road tail.
 #
 # Metres master: citycars/4.5/vauxhall-light-six.blend. Interchange:
@@ -40,9 +40,9 @@ intro_month=10
 retire_year=1956
 retire_month=6
 speed=110
-class=0,1
+class=1,2
 maximum_comfortable_journey_minutes=30
-maximum_tolerable_journey_minutes=225
+maximum_tolerable_journey_minutes=375
 
 Image[E]=./images/vauxhall-light-six-black_E.0.0,-33,14
 Image[SE]=./images/vauxhall-light-six-black_SE.0.0,-13,0
@@ -63,9 +63,9 @@ intro_month=10
 retire_year=1955
 retire_month=6
 speed=110
-class=0,1
+class=1,2
 maximum_comfortable_journey_minutes=30
-maximum_tolerable_journey_minutes=225
+maximum_tolerable_journey_minutes=375
 
 Image[E]=./images/vauxhall-light-six-maroon_E.0.0,-33,14
 Image[SE]=./images/vauxhall-light-six-maroon_SE.0.0,-13,0
@@ -86,9 +86,9 @@ intro_month=10
 retire_year=1954
 retire_month=6
 speed=110
-class=0,1
+class=1,2
 maximum_comfortable_journey_minutes=30
-maximum_tolerable_journey_minutes=225
+maximum_tolerable_journey_minutes=375
 
 Image[E]=./images/vauxhall-light-six-cream_E.0.0,-33,14
 Image[SE]=./images/vauxhall-light-six-cream_SE.0.0,-13,0
@@ -109,9 +109,9 @@ intro_month=10
 retire_year=1953
 retire_month=6
 speed=110
-class=0,1
+class=1,2
 maximum_comfortable_journey_minutes=30
-maximum_tolerable_journey_minutes=225
+maximum_tolerable_journey_minutes=375
 
 Image[E]=./images/vauxhall-light-six-darkblue_E.0.0,-33,14
 Image[SE]=./images/vauxhall-light-six-darkblue_SE.0.0,-13,0

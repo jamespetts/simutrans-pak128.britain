@@ -15,7 +15,7 @@
 # Guide: Ebony, Polaris White, Lunar Grey and Carnelian Red. Weights 18, 16,
 # 14, 12, total 60, provisional.
 #
-# Speed 250 km/h. Comfort 95/322, on the line 180 + 1.5 x 95. Classes 3,4.
+# Speed 250 km/h. Comfort 95/473, on the line 330 + 1.5 x 95. Classes 2,3.
 # Dates are road presence: 2008 intro, retires staggered 2029-2032.
 #
 # Metres master: citycars/4.5/jaguar-xf-x250.blend. Interchange:
@@ -39,9 +39,9 @@ intro_month=3
 retire_year=2032
 retire_month=6
 speed=250
-class=3,4
+class=2,3
 maximum_comfortable_journey_minutes=95
-maximum_tolerable_journey_minutes=322
+maximum_tolerable_journey_minutes=473
 
 Image[E]=./images/jaguar-xf-x250-ebony_E.0.0,-33,14
 Image[SE]=./images/jaguar-xf-x250-ebony_SE.0.0,-13,0
@@ -62,9 +62,9 @@ intro_month=3
 retire_year=2031
 retire_month=6
 speed=250
-class=3,4
+class=2,3
 maximum_comfortable_journey_minutes=95
-maximum_tolerable_journey_minutes=322
+maximum_tolerable_journey_minutes=473
 
 Image[E]=./images/jaguar-xf-x250-polariswhite_E.0.0,-33,14
 Image[SE]=./images/jaguar-xf-x250-polariswhite_SE.0.0,-13,0
@@ -85,9 +85,9 @@ intro_month=3
 retire_year=2030
 retire_month=6
 speed=250
-class=3,4
+class=2,3
 maximum_comfortable_journey_minutes=95
-maximum_tolerable_journey_minutes=322
+maximum_tolerable_journey_minutes=473
 
 Image[E]=./images/jaguar-xf-x250-lunargrey_E.0.0,-33,14
 Image[SE]=./images/jaguar-xf-x250-lunargrey_SE.0.0,-13,0
@@ -108,9 +108,9 @@ intro_month=3
 retire_year=2029
 retire_month=6
 speed=250
-class=3,4
+class=2,3
 maximum_comfortable_journey_minutes=95
-maximum_tolerable_journey_minutes=322
+maximum_tolerable_journey_minutes=473
 
 Image[E]=./images/jaguar-xf-x250-carnelianred_E.0.0,-33,14
 Image[SE]=./images/jaguar-xf-x250-carnelianred_SE.0.0,-13,0

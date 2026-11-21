@@ -12,7 +12,7 @@
 # Weight: 55 in total (black 18, silver 15, blue 12, grey 10), the largest class-4
 # 4x4 parc of the 2010s.
 #
-# Speed 220 km/h; comfort 160/420 (line). Classes 2,3,4.
+# Speed 220 km/h; comfort 160/570 (line). Classes 3,4.
 # Dates: 2012-2021 with a road tail to about 2028.
 #
 # Metres master: citycars/4.5/range-rover-l405.blend. References:
@@ -30,7 +30,7 @@ retire_month=6
 speed=220
 class=3,4
 maximum_comfortable_journey_minutes=160
-maximum_tolerable_journey_minutes=420
+maximum_tolerable_journey_minutes=570
 
 Image[E]=./images/range-rover-l405-black_E.0.0,-33,14
 Image[SE]=./images/range-rover-l405-black_SE.0.0,-13,0
@@ -53,7 +53,7 @@ retire_month=6
 speed=220
 class=3,4
 maximum_comfortable_journey_minutes=160
-maximum_tolerable_journey_minutes=420
+maximum_tolerable_journey_minutes=570
 
 Image[E]=./images/range-rover-l405-silver_E.0.0,-33,14
 Image[SE]=./images/range-rover-l405-silver_SE.0.0,-13,0
@@ -76,7 +76,7 @@ retire_month=6
 speed=220
 class=3,4
 maximum_comfortable_journey_minutes=160
-maximum_tolerable_journey_minutes=420
+maximum_tolerable_journey_minutes=570
 
 Image[E]=./images/range-rover-l405-blue_E.0.0,-33,14
 Image[SE]=./images/range-rover-l405-blue_SE.0.0,-13,0
@@ -99,7 +99,7 @@ retire_month=6
 speed=220
 class=3,4
 maximum_comfortable_journey_minutes=160
-maximum_tolerable_journey_minutes=420
+maximum_tolerable_journey_minutes=570
 
 Image[E]=./images/range-rover-l405-grey_E.0.0,-33,14
 Image[SE]=./images/range-rover-l405-grey_SE.0.0,-13,0

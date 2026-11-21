@@ -13,7 +13,7 @@
 # Colours: grade (d); no UK chart was established. Black, silver, grey and
 # blue are plain names. Weights 9, 8, 7, 6, total 30, provisional.
 #
-# Speed 250 km/h. Comfort 105/337, on the line 180 + 1.5 x 105. Classes 3,4.
+# Speed 250 km/h. Comfort 105/488, on the line 330 + 1.5 x 105. Class 3.
 # Dates are road presence: 2010 intro, retires staggered 2034-2037.
 #
 # Metres master: citycars/4.5/audi-a8-d4.blend. Interchange:
@@ -36,9 +36,9 @@ intro_month=1
 retire_year=2037
 retire_month=6
 speed=250
-class=3,4
+class=3
 maximum_comfortable_journey_minutes=105
-maximum_tolerable_journey_minutes=337
+maximum_tolerable_journey_minutes=488
 
 Image[E]=./images/audi-a8-d4-black_E.0.0,-33,14
 Image[SE]=./images/audi-a8-d4-black_SE.0.0,-13,0
@@ -59,9 +59,9 @@ intro_month=1
 retire_year=2036
 retire_month=6
 speed=250
-class=3,4
+class=3
 maximum_comfortable_journey_minutes=105
-maximum_tolerable_journey_minutes=337
+maximum_tolerable_journey_minutes=488
 
 Image[E]=./images/audi-a8-d4-silver_E.0.0,-33,14
 Image[SE]=./images/audi-a8-d4-silver_SE.0.0,-13,0
@@ -82,9 +82,9 @@ intro_month=1
 retire_year=2035
 retire_month=6
 speed=250
-class=3,4
+class=3
 maximum_comfortable_journey_minutes=105
-maximum_tolerable_journey_minutes=337
+maximum_tolerable_journey_minutes=488
 
 Image[E]=./images/audi-a8-d4-grey_E.0.0,-33,14
 Image[SE]=./images/audi-a8-d4-grey_SE.0.0,-13,0
@@ -105,9 +105,9 @@ intro_month=1
 retire_year=2034
 retire_month=6
 speed=250
-class=3,4
+class=3
 maximum_comfortable_journey_minutes=105
-maximum_tolerable_journey_minutes=337
+maximum_tolerable_journey_minutes=488
 
 Image[E]=./images/audi-a8-d4-blue_E.0.0,-33,14
 Image[SE]=./images/audi-a8-d4-blue_SE.0.0,-13,0

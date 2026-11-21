@@ -18,7 +18,7 @@
 # 2010 launch colour (grade c). No complete UK palette was found. Weights 3,
 # 3, 2, 2, total 10, provisional.
 #
-# Speed 296 km/h. Comfort 88/312, on the line 180 + 1.5 x 88: the only
+# Speed 296 km/h. Comfort 88/462, on the line 330 + 1.5 x 88: the only
 # four-door Aston, with a longer cabin and rear seats. Classes 3,4.
 # Dates are road presence: 2010 intro, retires staggered 2036-2039.
 #
@@ -43,7 +43,7 @@ retire_month=6
 speed=296
 class=3,4
 maximum_comfortable_journey_minutes=88
-maximum_tolerable_journey_minutes=312
+maximum_tolerable_journey_minutes=462
 
 Image[E]=./images/aston-rapide-silverblonde_E.0.0,-33,14
 Image[SE]=./images/aston-rapide-silverblonde_SE.0.0,-13,0
@@ -66,7 +66,7 @@ retire_month=6
 speed=296
 class=3,4
 maximum_comfortable_journey_minutes=88
-maximum_tolerable_journey_minutes=312
+maximum_tolerable_journey_minutes=462
 
 Image[E]=./images/aston-rapide-volcanored_E.0.0,-33,14
 Image[SE]=./images/aston-rapide-volcanored_SE.0.0,-13,0
@@ -89,7 +89,7 @@ retire_month=6
 speed=296
 class=3,4
 maximum_comfortable_journey_minutes=88
-maximum_tolerable_journey_minutes=312
+maximum_tolerable_journey_minutes=462
 
 Image[E]=./images/aston-rapide-morningfrostwhite_E.0.0,-33,14
 Image[SE]=./images/aston-rapide-morningfrostwhite_SE.0.0,-13,0
@@ -112,7 +112,7 @@ retire_month=6
 speed=296
 class=3,4
 maximum_comfortable_journey_minutes=88
-maximum_tolerable_journey_minutes=312
+maximum_tolerable_journey_minutes=462
 
 Image[E]=./images/aston-rapide-amethystred_E.0.0,-33,14
 Image[SE]=./images/aston-rapide-amethystred_SE.0.0,-13,0

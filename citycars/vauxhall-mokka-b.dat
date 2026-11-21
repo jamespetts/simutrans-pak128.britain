@@ -1,3 +1,4 @@
+# Retire policy 2026-11-20: still in production in 2026 with no announced end; retire dates commented out. Revisit when an end is announced.
 # Vauxhall Mokka B compact SUV, 2021 onwards.
 #
 # The Mokka B: the smaller, lower car on the CMP platform with the
@@ -16,8 +17,8 @@
 # 22 September 2020 for model year 2021: White Jade brilliant; Diamond
 # Black, Quartz Grey and Voltaic Blue metallic; Mamba Green and Power Red
 # premium metallic. Weights 12, 10, 9, 8, total 39, provisional.
-# Speed 200 km/h. Comfort 80/300, on the line 180 + 1.5 x 80. Classes 1,2.
-# Dates: intro April 2021; retires staggered 2040-2043.
+# Speed 200 km/h. Comfort 80/450, on the line 330 + 1.5 x 80. Class 1.
+# Dates: intro April 2021; retire dates commented out (still in production in 2026).
 #
 # Metres master: citycars/4.5/vauxhall-mokka-b.blend. Interchange:
 # citycars/4.5/vauxhall-mokka-b.dae. References:
@@ -35,12 +36,12 @@ copyright=JamesPetts
 DistributionWeight=12
 intro_year=2021
 intro_month=4
-retire_year=2043
-retire_month=6
+#retire_year=2043
+#retire_month=6
 speed=200
-class=1,2
+class=1
 maximum_comfortable_journey_minutes=80
-maximum_tolerable_journey_minutes=300
+maximum_tolerable_journey_minutes=450
 
 Image[E]=./images/vauxhall-mokka-b-whitejade_E.0.0,-33,14
 Image[SE]=./images/vauxhall-mokka-b-whitejade_SE.0.0,-13,0
@@ -58,12 +59,12 @@ copyright=JamesPetts
 DistributionWeight=10
 intro_year=2021
 intro_month=4
-retire_year=2042
-retire_month=6
+#retire_year=2042
+#retire_month=6
 speed=200
-class=1,2
+class=1
 maximum_comfortable_journey_minutes=80
-maximum_tolerable_journey_minutes=300
+maximum_tolerable_journey_minutes=450
 
 Image[E]=./images/vauxhall-mokka-b-diamondblack_E.0.0,-33,14
 Image[SE]=./images/vauxhall-mokka-b-diamondblack_SE.0.0,-13,0
@@ -81,12 +82,12 @@ copyright=JamesPetts
 DistributionWeight=9
 intro_year=2021
 intro_month=4
-retire_year=2041
-retire_month=6
+#retire_year=2041
+#retire_month=6
 speed=200
-class=1,2
+class=1
 maximum_comfortable_journey_minutes=80
-maximum_tolerable_journey_minutes=300
+maximum_tolerable_journey_minutes=450
 
 Image[E]=./images/vauxhall-mokka-b-quartzgrey_E.0.0,-33,14
 Image[SE]=./images/vauxhall-mokka-b-quartzgrey_SE.0.0,-13,0
@@ -104,12 +105,12 @@ copyright=JamesPetts
 DistributionWeight=8
 intro_year=2021
 intro_month=4
-retire_year=2040
-retire_month=6
+#retire_year=2040
+#retire_month=6
 speed=200
-class=1,2
+class=1
 maximum_comfortable_journey_minutes=80
-maximum_tolerable_journey_minutes=300
+maximum_tolerable_journey_minutes=450
 
 Image[E]=./images/vauxhall-mokka-b-voltaicblue_E.0.0,-33,14
 Image[SE]=./images/vauxhall-mokka-b-voltaicblue_SE.0.0,-13,0

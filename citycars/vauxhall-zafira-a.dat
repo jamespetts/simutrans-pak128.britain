@@ -17,7 +17,7 @@
 # and Black Sapphire pearlescent. The four modelled are named on it. For
 # 1999-2004 no Vauxhall list was read. Weights 12, 10, 9, 8, total 39,
 # provisional.
-# Speed 195 km/h. Comfort 70/285, on the line 180 + 1.5 x 70. Classes 1,2.
+# Speed 195 km/h. Comfort 70/435, on the line 330 + 1.5 x 70. Classes 1,2.
 # Dates: intro May 1999; retires staggered 2009-2012 as a road tail.
 #
 # Metres master: citycars/4.5/vauxhall-zafira-a.blend. Interchange:
@@ -42,7 +42,7 @@ retire_month=6
 speed=195
 class=1,2
 maximum_comfortable_journey_minutes=70
-maximum_tolerable_journey_minutes=285
+maximum_tolerable_journey_minutes=435
 
 Image[E]=./images/vauxhall-zafira-a-glacierwhite_E.0.0,-33,14
 Image[SE]=./images/vauxhall-zafira-a-glacierwhite_SE.0.0,-13,0
@@ -65,7 +65,7 @@ retire_month=6
 speed=195
 class=1,2
 maximum_comfortable_journey_minutes=70
-maximum_tolerable_journey_minutes=285
+maximum_tolerable_journey_minutes=435
 
 Image[E]=./images/vauxhall-zafira-a-royalblue_E.0.0,-33,14
 Image[SE]=./images/vauxhall-zafira-a-royalblue_SE.0.0,-13,0
@@ -88,7 +88,7 @@ retire_month=6
 speed=195
 class=1,2
 maximum_comfortable_journey_minutes=70
-maximum_tolerable_journey_minutes=285
+maximum_tolerable_journey_minutes=435
 
 Image[E]=./images/vauxhall-zafira-a-flamered_E.0.0,-33,14
 Image[SE]=./images/vauxhall-zafira-a-flamered_SE.0.0,-13,0
@@ -111,7 +111,7 @@ retire_month=6
 speed=195
 class=1,2
 maximum_comfortable_journey_minutes=70
-maximum_tolerable_journey_minutes=285
+maximum_tolerable_journey_minutes=435
 
 Image[E]=./images/vauxhall-zafira-a-starsilver_E.0.0,-33,14
 Image[SE]=./images/vauxhall-zafira-a-starsilver_SE.0.0,-13,0

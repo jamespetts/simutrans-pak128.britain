@@ -18,8 +18,8 @@
 # pending the central rebase.
 #
 # Speed 166 km/h, the period Motor Sport figure for a 1974 UK 2500 TC manual.
-# Comfort 88/312, on the line 180 + 1.5 x 88: a little more comfortable than the
-# 2000 because of the smoother six. Classes 2,3.
+# Comfort 88/462, on the line 330 + 1.5 x 88: a little more comfortable than the
+# 2000 because of the smoother six. Classes 1,2,3.
 #
 # Dates are road presence: October 1969 intro, retires staggered 1986-1989.
 #
@@ -43,9 +43,9 @@ intro_month=10
 retire_year=1989
 retire_month=6
 speed=166
-class=2,3
+class=1,2,3
 maximum_comfortable_journey_minutes=88
-maximum_tolerable_journey_minutes=312
+maximum_tolerable_journey_minutes=462
 
 Image[E]=./images/triumph-2500-damson_E.0.0,-33,14
 Image[SE]=./images/triumph-2500-damson_SE.0.0,-13,0
@@ -66,9 +66,9 @@ intro_month=10
 retire_year=1988
 retire_month=6
 speed=166
-class=2,3
+class=1,2,3
 maximum_comfortable_journey_minutes=88
-maximum_tolerable_journey_minutes=312
+maximum_tolerable_journey_minutes=462
 
 Image[E]=./images/triumph-2500-white_E.0.0,-33,14
 Image[SE]=./images/triumph-2500-white_SE.0.0,-13,0
@@ -89,9 +89,9 @@ intro_month=10
 retire_year=1987
 retire_month=6
 speed=166
-class=2,3
+class=1,2,3
 maximum_comfortable_journey_minutes=88
-maximum_tolerable_journey_minutes=312
+maximum_tolerable_journey_minutes=462
 
 Image[E]=./images/triumph-2500-saffron_E.0.0,-33,14
 Image[SE]=./images/triumph-2500-saffron_SE.0.0,-13,0
@@ -112,9 +112,9 @@ intro_month=10
 retire_year=1986
 retire_month=6
 speed=166
-class=2,3
+class=1,2,3
 maximum_comfortable_journey_minutes=88
-maximum_tolerable_journey_minutes=312
+maximum_tolerable_journey_minutes=462
 
 Image[E]=./images/triumph-2500-frenchblue_E.0.0,-33,14
 Image[SE]=./images/triumph-2500-frenchblue_SE.0.0,-13,0

@@ -16,7 +16,7 @@
 # green and blue are plain names. Weights 18, 16, 14, 12, total 60,
 # provisional.
 #
-# Speed 200 km/h. Comfort 90/315, on the line 180 + 1.5 x 90. Classes 3,4.
+# Speed 200 km/h. Comfort 90/465, on the line 330 + 1.5 x 90. Class 3.
 # Dates are road presence: 2000 intro, retires staggered 2020-2023.
 #
 # Metres master: citycars/4.5/bmw-x5-e53.blend. Interchange:
@@ -39,9 +39,9 @@ intro_month=1
 retire_year=2023
 retire_month=6
 speed=200
-class=3,4
+class=3
 maximum_comfortable_journey_minutes=90
-maximum_tolerable_journey_minutes=315
+maximum_tolerable_journey_minutes=465
 
 Image[E]=./images/bmw-x5-e53-black_E.0.0,-33,14
 Image[SE]=./images/bmw-x5-e53-black_SE.0.0,-13,0
@@ -62,9 +62,9 @@ intro_month=1
 retire_year=2022
 retire_month=6
 speed=200
-class=3,4
+class=3
 maximum_comfortable_journey_minutes=90
-maximum_tolerable_journey_minutes=315
+maximum_tolerable_journey_minutes=465
 
 Image[E]=./images/bmw-x5-e53-silver_E.0.0,-33,14
 Image[SE]=./images/bmw-x5-e53-silver_SE.0.0,-13,0
@@ -85,9 +85,9 @@ intro_month=1
 retire_year=2021
 retire_month=6
 speed=200
-class=3,4
+class=3
 maximum_comfortable_journey_minutes=90
-maximum_tolerable_journey_minutes=315
+maximum_tolerable_journey_minutes=465
 
 Image[E]=./images/bmw-x5-e53-green_E.0.0,-33,14
 Image[SE]=./images/bmw-x5-e53-green_SE.0.0,-13,0
@@ -108,9 +108,9 @@ intro_month=1
 retire_year=2020
 retire_month=6
 speed=200
-class=3,4
+class=3
 maximum_comfortable_journey_minutes=90
-maximum_tolerable_journey_minutes=315
+maximum_tolerable_journey_minutes=465
 
 Image[E]=./images/bmw-x5-e53-blue_E.0.0,-33,14
 Image[SE]=./images/bmw-x5-e53-blue_SE.0.0,-13,0

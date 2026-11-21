@@ -12,8 +12,8 @@
 # colour names: white, red, silver and blue. Weights white 3, red 3, silver 2,
 # blue 2, total 10, provisional pending the central rebase.
 #
-# Speed 170 km/h for the 1.2 DIG-S, the volume model. Comfort 85/310, on the line
-# 180 + 1.5 x 85, the same as the E11 despite the lower body. Classes 1,2.
+# Speed 170 km/h for the 1.2 DIG-S, the volume model. Comfort 85/458, on the line
+# 330 + 1.5 x 85, the same as the E11 despite the lower body. Classes 0,1.
 #
 # Dates are road presence: September 2013 intro, retires staggered 2028-2031 on a
 # fifteen- to eighteen-year tail.
@@ -39,9 +39,9 @@ intro_month=9
 retire_year=2031
 retire_month=6
 speed=170
-class=1,2
+class=0,1
 maximum_comfortable_journey_minutes=85
-maximum_tolerable_journey_minutes=310
+maximum_tolerable_journey_minutes=458
 
 Image[E]=./images/nissan-note-e12-white_E.0.0,-33,14
 Image[SE]=./images/nissan-note-e12-white_SE.0.0,-13,0
@@ -62,9 +62,9 @@ intro_month=9
 retire_year=2030
 retire_month=6
 speed=170
-class=1,2
+class=0,1
 maximum_comfortable_journey_minutes=85
-maximum_tolerable_journey_minutes=310
+maximum_tolerable_journey_minutes=458
 
 Image[E]=./images/nissan-note-e12-red_E.0.0,-33,14
 Image[SE]=./images/nissan-note-e12-red_SE.0.0,-13,0
@@ -85,9 +85,9 @@ intro_month=9
 retire_year=2029
 retire_month=6
 speed=170
-class=1,2
+class=0,1
 maximum_comfortable_journey_minutes=85
-maximum_tolerable_journey_minutes=310
+maximum_tolerable_journey_minutes=458
 
 Image[E]=./images/nissan-note-e12-silver_E.0.0,-33,14
 Image[SE]=./images/nissan-note-e12-silver_SE.0.0,-13,0
@@ -108,9 +108,9 @@ intro_month=9
 retire_year=2028
 retire_month=6
 speed=170
-class=1,2
+class=0,1
 maximum_comfortable_journey_minutes=85
-maximum_tolerable_journey_minutes=310
+maximum_tolerable_journey_minutes=458
 
 Image[E]=./images/nissan-note-e12-blue_E.0.0,-33,14
 Image[SE]=./images/nissan-note-e12-blue_SE.0.0,-13,0

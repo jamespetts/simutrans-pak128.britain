@@ -29,8 +29,8 @@
 # white, red, blue and grey. Weights white 3, red 3, blue 2, grey 2, total 10,
 # provisional pending the central rebase.
 #
-# Speed 175 km/h, the 1.4-litre car's quoted maximum. Comfort 70/285, on the
-# line 180 + 1.5 x 70: a roomy, quiet family hatchback for 1989. Classes 1,2.
+# Speed 175 km/h, the 1.4-litre car's quoted maximum. Comfort 70/435, on the
+# line 330 + 1.5 x 70: a roomy, quiet family hatchback for 1989. Classes 0,1.
 #
 # Dates are road presence: 1989 intro, retires staggered 2001-2004 on a twelve-
 # to fifteen-year tail.
@@ -56,9 +56,9 @@ intro_month=1
 retire_year=2004
 retire_month=6
 speed=175
-class=1,2
+class=0,1
 maximum_comfortable_journey_minutes=70
-maximum_tolerable_journey_minutes=285
+maximum_tolerable_journey_minutes=435
 
 Image[E]=./images/renault-19-phase1-white_E.0.0,-33,14
 Image[SE]=./images/renault-19-phase1-white_SE.0.0,-13,0
@@ -79,9 +79,9 @@ intro_month=1
 retire_year=2004
 retire_month=6
 speed=175
-class=1,2
+class=0,1
 maximum_comfortable_journey_minutes=70
-maximum_tolerable_journey_minutes=285
+maximum_tolerable_journey_minutes=435
 
 Image[E]=./images/renault-19-phase1-red_E.0.0,-33,14
 Image[SE]=./images/renault-19-phase1-red_SE.0.0,-13,0
@@ -102,9 +102,9 @@ intro_month=1
 retire_year=2003
 retire_month=6
 speed=175
-class=1,2
+class=0,1
 maximum_comfortable_journey_minutes=70
-maximum_tolerable_journey_minutes=285
+maximum_tolerable_journey_minutes=435
 
 Image[E]=./images/renault-19-phase1-blue_E.0.0,-33,14
 Image[SE]=./images/renault-19-phase1-blue_SE.0.0,-13,0
@@ -125,9 +125,9 @@ intro_month=1
 retire_year=2002
 retire_month=6
 speed=175
-class=1,2
+class=0,1
 maximum_comfortable_journey_minutes=70
-maximum_tolerable_journey_minutes=285
+maximum_tolerable_journey_minutes=435
 
 Image[E]=./images/renault-19-phase1-grey_E.0.0,-33,14
 Image[SE]=./images/renault-19-phase1-grey_SE.0.0,-13,0

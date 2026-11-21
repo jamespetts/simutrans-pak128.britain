@@ -10,7 +10,7 @@
 #
 # Weight: 90 in total (white 30, red 25, blue 20, green 15).
 #
-# Speed 140 km/h; comfort 50/255 (line). Classes 0,1.
+# Speed 140 km/h; comfort 50/405 (line). Classes 0,1,2.
 # Dates: 1979-2012 with a road tail to about 2016.
 #
 # Metres master: citycars/4.5/lada-riva.blend. References:
@@ -26,9 +26,9 @@ intro_month=9
 retire_year=2016
 retire_month=6
 speed=140
-class=0,1
+class=0,1,2
 maximum_comfortable_journey_minutes=50
-maximum_tolerable_journey_minutes=255
+maximum_tolerable_journey_minutes=405
 
 Image[E]=./images/lada-riva-white_E.0.0,-33,14
 Image[SE]=./images/lada-riva-white_SE.0.0,-13,0
@@ -49,9 +49,9 @@ intro_month=9
 retire_year=2015
 retire_month=6
 speed=140
-class=0,1
+class=0,1,2
 maximum_comfortable_journey_minutes=50
-maximum_tolerable_journey_minutes=255
+maximum_tolerable_journey_minutes=405
 
 Image[E]=./images/lada-riva-red_E.0.0,-33,14
 Image[SE]=./images/lada-riva-red_SE.0.0,-13,0
@@ -72,9 +72,9 @@ intro_month=3
 retire_year=2014
 retire_month=6
 speed=140
-class=0,1
+class=0,1,2
 maximum_comfortable_journey_minutes=50
-maximum_tolerable_journey_minutes=255
+maximum_tolerable_journey_minutes=405
 
 Image[E]=./images/lada-riva-blue_E.0.0,-33,14
 Image[SE]=./images/lada-riva-blue_SE.0.0,-13,0
@@ -95,9 +95,9 @@ intro_month=3
 retire_year=2013
 retire_month=6
 speed=140
-class=0,1
+class=0,1,2
 maximum_comfortable_journey_minutes=50
-maximum_tolerable_journey_minutes=255
+maximum_tolerable_journey_minutes=405
 
 Image[E]=./images/lada-riva-green_E.0.0,-33,14
 Image[SE]=./images/lada-riva-green_SE.0.0,-13,0

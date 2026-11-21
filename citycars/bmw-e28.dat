@@ -24,8 +24,8 @@
 # central rebase.
 #
 # Speed 205 km/h, below the 535i's 225 km/h and above the four-cylinder cars,
-# for the volume UK six-cylinder models. Comfort 115/350, on the line
-# 180 + 1.5 x 115, the same as the E36. Classes 2,3.
+# for the volume UK six-cylinder models. Comfort 115/503, on the line
+# 330 + 1.5 x 115, the same as the E36. Classes 2,3.
 #
 # Dates are road presence, not production: September 1981 intro, retires
 # staggered 1999-2002 on an eighteen- to twenty-one-year tail.
@@ -52,7 +52,7 @@ retire_month=6
 speed=205
 class=2,3
 maximum_comfortable_journey_minutes=115
-maximum_tolerable_journey_minutes=350
+maximum_tolerable_journey_minutes=503
 
 Image[E]=./images/bmw-e28-silver_E.0.0,-33,14
 Image[SE]=./images/bmw-e28-silver_SE.0.0,-13,0
@@ -75,7 +75,7 @@ retire_month=6
 speed=205
 class=2,3
 maximum_comfortable_journey_minutes=115
-maximum_tolerable_journey_minutes=350
+maximum_tolerable_journey_minutes=503
 
 Image[E]=./images/bmw-e28-red_E.0.0,-33,14
 Image[SE]=./images/bmw-e28-red_SE.0.0,-13,0
@@ -98,7 +98,7 @@ retire_month=6
 speed=205
 class=2,3
 maximum_comfortable_journey_minutes=115
-maximum_tolerable_journey_minutes=350
+maximum_tolerable_journey_minutes=503
 
 Image[E]=./images/bmw-e28-blue_E.0.0,-33,14
 Image[SE]=./images/bmw-e28-blue_SE.0.0,-13,0
@@ -121,7 +121,7 @@ retire_month=6
 speed=205
 class=2,3
 maximum_comfortable_journey_minutes=115
-maximum_tolerable_journey_minutes=350
+maximum_tolerable_journey_minutes=503
 
 Image[E]=./images/bmw-e28-black_E.0.0,-33,14
 Image[SE]=./images/bmw-e28-black_SE.0.0,-13,0

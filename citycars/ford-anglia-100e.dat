@@ -51,8 +51,8 @@
 # central rebase to resolve.
 #
 # Speed 115 km/h: a game-balance figure, not the model's top speed. The Motor
-# recorded 70.2 mph (113 km/h) for a 100E saloon in 1954. Comfort 45/250 sits at
-# the contemporary small-car tier (Morris Minor 45/250, FordPrefectLate 45/250).
+# recorded 70.2 mph (113 km/h) for a 100E saloon in 1954. Comfort 45/398 sits at
+# the contemporary small-car tier (Morris Minor 45/398, FordPrefectLate 45/398).
 #
 # Dates describe when each colour would be seen regularly on UK roads, not
 # production dates. Black, Corfe Grey and Wells Fawn enter at the October 1953
@@ -75,9 +75,9 @@ intro_month=10
 retire_year=1966
 retire_month=6
 speed=115
-class=0,1
+class=2
 maximum_comfortable_journey_minutes=45
-maximum_tolerable_journey_minutes=250
+maximum_tolerable_journey_minutes=398
 
 Image[E]=./images/ford-anglia-100e-black_E.0.0,-33,14
 Image[SE]=./images/ford-anglia-100e-black_SE.0.0,-13,0
@@ -98,9 +98,9 @@ intro_month=10
 retire_year=1965
 retire_month=6
 speed=115
-class=0,1
+class=2
 maximum_comfortable_journey_minutes=45
-maximum_tolerable_journey_minutes=250
+maximum_tolerable_journey_minutes=398
 
 Image[E]=./images/ford-anglia-100e-grey_E.0.0,-33,14
 Image[SE]=./images/ford-anglia-100e-grey_SE.0.0,-13,0
@@ -121,9 +121,9 @@ intro_month=10
 retire_year=1967
 retire_month=6
 speed=115
-class=0,1
+class=2
 maximum_comfortable_journey_minutes=45
-maximum_tolerable_journey_minutes=250
+maximum_tolerable_journey_minutes=398
 
 Image[E]=./images/ford-anglia-100e-fawn_E.0.0,-33,14
 Image[SE]=./images/ford-anglia-100e-fawn_SE.0.0,-13,0
@@ -144,9 +144,9 @@ intro_month=3
 retire_year=1965
 retire_month=12
 speed=115
-class=0,1
+class=2
 maximum_comfortable_journey_minutes=45
-maximum_tolerable_journey_minutes=250
+maximum_tolerable_journey_minutes=398
 
 Image[E]=./images/ford-anglia-100e-blue_E.0.0,-33,14
 Image[SE]=./images/ford-anglia-100e-blue_SE.0.0,-13,0
@@ -167,9 +167,9 @@ intro_month=9
 retire_year=1964
 retire_month=6
 speed=115
-class=0,1
+class=2
 maximum_comfortable_journey_minutes=45
-maximum_tolerable_journey_minutes=250
+maximum_tolerable_journey_minutes=398
 
 Image[E]=./images/ford-anglia-100e-green_E.0.0,-33,14
 Image[SE]=./images/ford-anglia-100e-green_SE.0.0,-13,0

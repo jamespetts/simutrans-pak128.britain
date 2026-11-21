@@ -17,7 +17,7 @@
 # era-adjusted from the 1994-96 measured base: red 5, white 3, blue 2, silver 2.
 # Total 12. Provisional pending the central rebase.
 #
-# Speed 135 km/h. Comfort 65/280, on the line 180 + 1.5 x 65, equal to the Corsa B
+# Speed 135 km/h. Comfort 65/428, on the line 330 + 1.5 x 65, equal to the Corsa B
 # and a step above the Rover Metro for the later trim and sound deadening. Classes
 # 0,1,2.
 #
@@ -46,7 +46,7 @@ retire_month=6
 speed=135
 class=0,1
 maximum_comfortable_journey_minutes=65
-maximum_tolerable_journey_minutes=280
+maximum_tolerable_journey_minutes=428
 
 Image[E]=./images/rover-100-red_E.0.0,-33,14
 Image[SE]=./images/rover-100-red_SE.0.0,-13,0
@@ -69,7 +69,7 @@ retire_month=6
 speed=135
 class=0,1
 maximum_comfortable_journey_minutes=65
-maximum_tolerable_journey_minutes=280
+maximum_tolerable_journey_minutes=428
 
 Image[E]=./images/rover-100-blue_E.0.0,-33,14
 Image[SE]=./images/rover-100-blue_SE.0.0,-13,0
@@ -92,7 +92,7 @@ retire_month=6
 speed=135
 class=0,1
 maximum_comfortable_journey_minutes=65
-maximum_tolerable_journey_minutes=280
+maximum_tolerable_journey_minutes=428
 
 Image[E]=./images/rover-100-white_E.0.0,-33,14
 Image[SE]=./images/rover-100-white_SE.0.0,-13,0
@@ -115,7 +115,7 @@ retire_month=6
 speed=135
 class=0,1
 maximum_comfortable_journey_minutes=65
-maximum_tolerable_journey_minutes=280
+maximum_tolerable_journey_minutes=428
 
 Image[E]=./images/rover-100-silver_E.0.0,-33,14
 Image[SE]=./images/rover-100-silver_SE.0.0,-13,0

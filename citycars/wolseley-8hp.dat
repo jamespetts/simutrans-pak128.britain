@@ -15,8 +15,8 @@
 # Colours: grade (d). No period colour list exists; the objects carry plain
 # names (green, black, red, maroon). Weights 1 each, total 4, provisional.
 #
-# Speed 60 km/h, an estimate. Comfort 20/210, on the line 180 + 1.5 x 20:
-# an open, exposed veteran. Class 4.
+# Speed 60 km/h, an estimate. Comfort 20/360, on the line 330 + 1.5 x 20:
+# an open, exposed veteran. Classes 2,3.
 # Dates are road presence: 1902 intro, retires staggered 1920-1923.
 #
 # Metres master: citycars/4.5/wolseley-8hp-tonneau.blend. Interchange:
@@ -39,9 +39,9 @@ intro_month=1
 retire_year=1923
 retire_month=6
 speed=60
-class=4
+class=2,3
 maximum_comfortable_journey_minutes=20
-maximum_tolerable_journey_minutes=210
+maximum_tolerable_journey_minutes=360
 
 Image[E]=./images/wolseley-8hp-tonneau-green_E.0.0,-33,14
 Image[SE]=./images/wolseley-8hp-tonneau-green_SE.0.0,-13,0
@@ -62,9 +62,9 @@ intro_month=1
 retire_year=1922
 retire_month=6
 speed=60
-class=4
+class=2,3
 maximum_comfortable_journey_minutes=20
-maximum_tolerable_journey_minutes=210
+maximum_tolerable_journey_minutes=360
 
 Image[E]=./images/wolseley-8hp-tonneau-black_E.0.0,-33,14
 Image[SE]=./images/wolseley-8hp-tonneau-black_SE.0.0,-13,0
@@ -85,9 +85,9 @@ intro_month=1
 retire_year=1921
 retire_month=6
 speed=60
-class=4
+class=2,3
 maximum_comfortable_journey_minutes=20
-maximum_tolerable_journey_minutes=210
+maximum_tolerable_journey_minutes=360
 
 Image[E]=./images/wolseley-8hp-tonneau-red_E.0.0,-33,14
 Image[SE]=./images/wolseley-8hp-tonneau-red_SE.0.0,-13,0
@@ -108,9 +108,9 @@ intro_month=1
 retire_year=1920
 retire_month=6
 speed=60
-class=4
+class=2,3
 maximum_comfortable_journey_minutes=20
-maximum_tolerable_journey_minutes=210
+maximum_tolerable_journey_minutes=360
 
 Image[E]=./images/wolseley-8hp-tonneau-maroon_E.0.0,-33,14
 Image[SE]=./images/wolseley-8hp-tonneau-maroon_SE.0.0,-13,0

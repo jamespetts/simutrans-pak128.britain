@@ -41,6 +41,11 @@ names.
   asset-adding task: search `en.tab` for each new object's `name=` value. The Audi A4 B6 and
   the Vauxhall Nova/Corsa family shipped without entries and were fixed on 2026-11-15.
   `[EXECUTION-VERIFIED:2026-09-23]` `[USER-DIRECTION:2026-11-15]`
+- A **stray duplicate display line** is as damaging as a missing entry. The file is read as
+  strict two-line key/value pairs, so an extra line shifts every following pair until the next
+  extra line. The 2026-11-20 citycar check found 35 duplicate lines that had mis-paired 820
+  consecutive entries; all were removed. Verify that the number of content lines is even and
+  that no citycar key is followed by another citycar name.
 - Editing `New/text/en.tab` (or `config/`, `sound/`) does NOT reach the game by itself: the
   build's `copy` target (`New/Makefile`, `cp -p text/*.* $(PAKDIR)/text`) copies these into
   the pakset directory only when `make` runs. After editing any `text/`, `config/`, or

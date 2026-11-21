@@ -21,7 +21,7 @@
 # Maroon and Grey are period finishes. Weights 10, 9, 8, 7, total 34,
 # provisional.
 #
-# Speed 110 km/h. Comfort 22/213, on the line 180 + 1.5 x 22. Classes 2,3.
+# Speed 110 km/h. Comfort 22/363, on the line 330 + 1.5 x 22. Classes 2,3.
 # Dates: intro January 1910; retires staggered 1928-1932 as a road tail.
 #
 # Metres master: citycars/4.5/vauxhall-b-type.blend. Interchange:
@@ -46,7 +46,7 @@ retire_month=6
 speed=110
 class=2,3
 maximum_comfortable_journey_minutes=22
-maximum_tolerable_journey_minutes=213
+maximum_tolerable_journey_minutes=363
 
 Image[E]=./images/vauxhall-b-type-black_E.0.0,-33,14
 Image[SE]=./images/vauxhall-b-type-black_SE.0.0,-13,0
@@ -69,7 +69,7 @@ retire_month=6
 speed=110
 class=2,3
 maximum_comfortable_journey_minutes=22
-maximum_tolerable_journey_minutes=213
+maximum_tolerable_journey_minutes=363
 
 Image[E]=./images/vauxhall-b-type-darkgreen_E.0.0,-33,14
 Image[SE]=./images/vauxhall-b-type-darkgreen_SE.0.0,-13,0
@@ -92,7 +92,7 @@ retire_month=6
 speed=110
 class=2,3
 maximum_comfortable_journey_minutes=22
-maximum_tolerable_journey_minutes=213
+maximum_tolerable_journey_minutes=363
 
 Image[E]=./images/vauxhall-b-type-maroon_E.0.0,-33,14
 Image[SE]=./images/vauxhall-b-type-maroon_SE.0.0,-13,0
@@ -115,7 +115,7 @@ retire_month=6
 speed=110
 class=2,3
 maximum_comfortable_journey_minutes=22
-maximum_tolerable_journey_minutes=213
+maximum_tolerable_journey_minutes=363
 
 Image[E]=./images/vauxhall-b-type-grey_E.0.0,-33,14
 Image[SE]=./images/vauxhall-b-type-grey_SE.0.0,-13,0

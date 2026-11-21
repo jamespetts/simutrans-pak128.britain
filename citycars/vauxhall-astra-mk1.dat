@@ -23,7 +23,7 @@
 #
 # Speed 150 km/h: a game-balance figure for the 1.2-1.8 range (the GTE reached
 # about 120 mph).
-# Comfort 95/325: a 1980s small family hatch, below the Cavalier Mk2's 100/330
+# Comfort 95/473: a 1980s small family hatch, below the Cavalier Mk2's 100/480
 # and above the Escort; the line gives 322.5, rounded to 325.
 #
 # Dates describe road presence: launch March 1980 with a 12-14 year tail,
@@ -44,9 +44,9 @@ intro_month=3
 retire_year=1994
 retire_month=6
 speed=150
-class=1,2
+class=0,1,2
 maximum_comfortable_journey_minutes=95
-maximum_tolerable_journey_minutes=325
+maximum_tolerable_journey_minutes=473
 
 Image[E]=./images/vauxhall-astra-mk1-blue_E.0.0,-33,14
 Image[SE]=./images/vauxhall-astra-mk1-blue_SE.0.0,-13,0
@@ -67,9 +67,9 @@ intro_month=3
 retire_year=1992
 retire_month=12
 speed=150
-class=1,2
+class=0,1,2
 maximum_comfortable_journey_minutes=95
-maximum_tolerable_journey_minutes=325
+maximum_tolerable_journey_minutes=473
 
 Image[E]=./images/vauxhall-astra-mk1-red_E.0.0,-33,14
 Image[SE]=./images/vauxhall-astra-mk1-red_SE.0.0,-13,0
@@ -90,9 +90,9 @@ intro_month=3
 retire_year=1993
 retire_month=6
 speed=150
-class=1,2
+class=0,1,2
 maximum_comfortable_journey_minutes=95
-maximum_tolerable_journey_minutes=325
+maximum_tolerable_journey_minutes=473
 
 Image[E]=./images/vauxhall-astra-mk1-silver_E.0.0,-33,14
 Image[SE]=./images/vauxhall-astra-mk1-silver_SE.0.0,-13,0
@@ -113,9 +113,9 @@ intro_month=3
 retire_year=1991
 retire_month=6
 speed=150
-class=1,2
+class=0,1,2
 maximum_comfortable_journey_minutes=95
-maximum_tolerable_journey_minutes=325
+maximum_tolerable_journey_minutes=473
 
 Image[E]=./images/vauxhall-astra-mk1-white_E.0.0,-33,14
 Image[SE]=./images/vauxhall-astra-mk1-white_SE.0.0,-13,0

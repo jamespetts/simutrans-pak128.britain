@@ -19,7 +19,7 @@
 # 2001-03; it is not a brochure and the full range is grade (d). Weights 3, 3,
 # 2, 2, total 10, provisional.
 #
-# Speed 305 km/h. Comfort 78/297, on the line 180 + 1.5 x 78. Classes 3,4.
+# Speed 305 km/h. Comfort 78/447, on the line 330 + 1.5 x 78. Class 4.
 # Dates are road presence: 2001 intro, retires staggered 2022-2025.
 #
 # Metres master: citycars/4.5/aston-vanquish.blend. Interchange:
@@ -42,9 +42,9 @@ intro_month=9
 retire_year=2025
 retire_month=6
 speed=305
-class=3,4
+class=4
 maximum_comfortable_journey_minutes=78
-maximum_tolerable_journey_minutes=297
+maximum_tolerable_journey_minutes=447
 
 Image[E]=./images/aston-vanquish-stronsaysilver_E.0.0,-33,14
 Image[SE]=./images/aston-vanquish-stronsaysilver_SE.0.0,-13,0
@@ -65,9 +65,9 @@ intro_month=9
 retire_year=2024
 retire_month=6
 speed=305
-class=3,4
+class=4
 maximum_comfortable_journey_minutes=78
-maximum_tolerable_journey_minutes=297
+maximum_tolerable_journey_minutes=447
 
 Image[E]=./images/aston-vanquish-derwentgreen_E.0.0,-33,14
 Image[SE]=./images/aston-vanquish-derwentgreen_SE.0.0,-13,0
@@ -88,9 +88,9 @@ intro_month=9
 retire_year=2023
 retire_month=6
 speed=305
-class=3,4
+class=4
 maximum_comfortable_journey_minutes=78
-maximum_tolerable_journey_minutes=297
+maximum_tolerable_journey_minutes=447
 
 Image[E]=./images/aston-vanquish-mendipblue_E.0.0,-33,14
 Image[SE]=./images/aston-vanquish-mendipblue_SE.0.0,-13,0
@@ -111,9 +111,9 @@ intro_month=9
 retire_year=2022
 retire_month=6
 speed=305
-class=3,4
+class=4
 maximum_comfortable_journey_minutes=78
-maximum_tolerable_journey_minutes=297
+maximum_tolerable_journey_minutes=447
 
 Image[E]=./images/aston-vanquish-chilterngreen_E.0.0,-33,14
 Image[SE]=./images/aston-vanquish-chilterngreen_SE.0.0,-13,0

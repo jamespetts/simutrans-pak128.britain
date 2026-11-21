@@ -1,3 +1,4 @@
+# Retire policy 2026-11-20: still in production in 2026 with no announced end; retire dates commented out. Revisit when an end is announced.
 # BYD Sealion 7 five-door electric SUV, 2025 onwards.
 #
 # The Sealion 7: the electric coupe-SUV with the 82.5 kWh Blade battery, the
@@ -18,10 +19,10 @@
 # modelled colourways use plain names. Weights 12, 10, 9, 8, total 39,
 # provisional.
 #
-# Speed 180 km/h. Comfort 95/322, on the line 180 + 1.5 x 95: a quiet,
-# spacious electric SUV. Classes 3,4.
-# Dates: intro January 2025, the first quarter of UK sale; retires staggered
-# 2048-2051.
+# Speed 180 km/h. Comfort 95/473, on the line 330 + 1.5 x 95: a quiet,
+# spacious electric SUV. Classes 1,2.
+# Dates: intro January 2025, the first quarter of UK sale; retire dates
+# commented out (still in production in 2026).
 #
 # Metres master: citycars/4.5/byd-sealion-7.blend. Interchange:
 # citycars/4.5/byd-sealion-7.dae. References:
@@ -40,12 +41,12 @@ copyright=JamesPetts
 DistributionWeight=12
 intro_year=2025
 intro_month=1
-retire_year=2051
-retire_month=6
+#retire_year=2051
+#retire_month=6
 speed=180
-class=3,4
+class=1,2
 maximum_comfortable_journey_minutes=95
-maximum_tolerable_journey_minutes=322
+maximum_tolerable_journey_minutes=473
 
 Image[E]=./images/byd-sealion-7-white_E.0.0,-33,14
 Image[SE]=./images/byd-sealion-7-white_SE.0.0,-13,0
@@ -63,12 +64,12 @@ copyright=JamesPetts
 DistributionWeight=10
 intro_year=2025
 intro_month=1
-retire_year=2050
-retire_month=6
+#retire_year=2050
+#retire_month=6
 speed=180
-class=3,4
+class=1,2
 maximum_comfortable_journey_minutes=95
-maximum_tolerable_journey_minutes=322
+maximum_tolerable_journey_minutes=473
 
 Image[E]=./images/byd-sealion-7-black_E.0.0,-33,14
 Image[SE]=./images/byd-sealion-7-black_SE.0.0,-13,0
@@ -86,12 +87,12 @@ copyright=JamesPetts
 DistributionWeight=9
 intro_year=2025
 intro_month=1
-retire_year=2049
-retire_month=6
+#retire_year=2049
+#retire_month=6
 speed=180
-class=3,4
+class=1,2
 maximum_comfortable_journey_minutes=95
-maximum_tolerable_journey_minutes=322
+maximum_tolerable_journey_minutes=473
 
 Image[E]=./images/byd-sealion-7-blue_E.0.0,-33,14
 Image[SE]=./images/byd-sealion-7-blue_SE.0.0,-13,0
@@ -109,12 +110,12 @@ copyright=JamesPetts
 DistributionWeight=8
 intro_year=2025
 intro_month=1
-retire_year=2048
-retire_month=6
+#retire_year=2048
+#retire_month=6
 speed=180
-class=3,4
+class=1,2
 maximum_comfortable_journey_minutes=95
-maximum_tolerable_journey_minutes=322
+maximum_tolerable_journey_minutes=473
 
 Image[E]=./images/byd-sealion-7-grey_E.0.0,-33,14
 Image[SE]=./images/byd-sealion-7-grey_SE.0.0,-13,0

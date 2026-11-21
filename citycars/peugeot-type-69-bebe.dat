@@ -18,7 +18,7 @@
 # end of the Edwardian market, so its parc weight is well below the big cars of
 # the same years.
 #
-# Speed 40 km/h; comfort 25/215 (line). Class 1.
+# Speed 40 km/h; comfort 25/368 (line). Class 2.
 # Dates: 1905-1912 with a road tail to about 1932.
 #
 # Metres master: citycars/4.5/peugeot-type-69-bebe.blend. References:
@@ -35,9 +35,9 @@ intro_month=6
 retire_year=1932
 retire_month=6
 speed=40
-class=1,2
+class=2
 maximum_comfortable_journey_minutes=25
-maximum_tolerable_journey_minutes=215
+maximum_tolerable_journey_minutes=368
 
 Image[E]=./images/peugeot-type-69-bebe-red_E.0.0,-33,14
 Image[SE]=./images/peugeot-type-69-bebe-red_SE.0.0,-13,0
@@ -58,9 +58,9 @@ intro_month=6
 retire_year=1931
 retire_month=6
 speed=40
-class=1,2
+class=2
 maximum_comfortable_journey_minutes=25
-maximum_tolerable_journey_minutes=215
+maximum_tolerable_journey_minutes=368
 
 Image[E]=./images/peugeot-type-69-bebe-green_E.0.0,-33,14
 Image[SE]=./images/peugeot-type-69-bebe-green_SE.0.0,-13,0
@@ -81,9 +81,9 @@ intro_month=3
 retire_year=1930
 retire_month=6
 speed=40
-class=1,2
+class=2
 maximum_comfortable_journey_minutes=25
-maximum_tolerable_journey_minutes=215
+maximum_tolerable_journey_minutes=368
 
 Image[E]=./images/peugeot-type-69-bebe-cream_E.0.0,-33,14
 Image[SE]=./images/peugeot-type-69-bebe-cream_SE.0.0,-13,0
@@ -104,9 +104,9 @@ intro_month=3
 retire_year=1929
 retire_month=6
 speed=40
-class=1,2
+class=2
 maximum_comfortable_journey_minutes=25
-maximum_tolerable_journey_minutes=215
+maximum_tolerable_journey_minutes=368
 
 Image[E]=./images/peugeot-type-69-bebe-black_E.0.0,-33,14
 Image[SE]=./images/peugeot-type-69-bebe-black_SE.0.0,-13,0

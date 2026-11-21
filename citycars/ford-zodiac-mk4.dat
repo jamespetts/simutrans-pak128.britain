@@ -14,7 +14,7 @@
 # are pale blue with a black vinyl roof and mid-blue. Blue, white, black and
 # red are plain names. Weights 9, 8, 7, 6, total 30, provisional.
 #
-# Speed 160 km/h. Comfort 68/282, on the line 180 + 1.5 x 68. Classes 2,3.
+# Speed 160 km/h. Comfort 68/432, on the line 330 + 1.5 x 68. Classes 1,2,3.
 # Dates are road presence: 1966 intro, retires staggered 1988-1991.
 #
 # Metres master: citycars/4.5/ford-zodiac-mk4.blend. Interchange:
@@ -36,9 +36,9 @@ intro_month=4
 retire_year=1991
 retire_month=6
 speed=160
-class=2,3
+class=1,2,3
 maximum_comfortable_journey_minutes=68
-maximum_tolerable_journey_minutes=282
+maximum_tolerable_journey_minutes=432
 
 Image[E]=./images/ford-zodiac-mk4-blue_E.0.0,-33,14
 Image[SE]=./images/ford-zodiac-mk4-blue_SE.0.0,-13,0
@@ -59,9 +59,9 @@ intro_month=4
 retire_year=1990
 retire_month=6
 speed=160
-class=2,3
+class=1,2,3
 maximum_comfortable_journey_minutes=68
-maximum_tolerable_journey_minutes=282
+maximum_tolerable_journey_minutes=432
 
 Image[E]=./images/ford-zodiac-mk4-white_E.0.0,-33,14
 Image[SE]=./images/ford-zodiac-mk4-white_SE.0.0,-13,0
@@ -82,9 +82,9 @@ intro_month=4
 retire_year=1989
 retire_month=6
 speed=160
-class=2,3
+class=1,2,3
 maximum_comfortable_journey_minutes=68
-maximum_tolerable_journey_minutes=282
+maximum_tolerable_journey_minutes=432
 
 Image[E]=./images/ford-zodiac-mk4-black_E.0.0,-33,14
 Image[SE]=./images/ford-zodiac-mk4-black_SE.0.0,-13,0
@@ -105,9 +105,9 @@ intro_month=4
 retire_year=1988
 retire_month=6
 speed=160
-class=2,3
+class=1,2,3
 maximum_comfortable_journey_minutes=68
-maximum_tolerable_journey_minutes=282
+maximum_tolerable_journey_minutes=432
 
 Image[E]=./images/ford-zodiac-mk4-red_E.0.0,-33,14
 Image[SE]=./images/ford-zodiac-mk4-red_SE.0.0,-13,0

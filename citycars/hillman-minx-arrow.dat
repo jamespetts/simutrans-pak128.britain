@@ -16,7 +16,7 @@
 # Colours: grade (d); no period chart was found. Black, white, red and blue
 # are plain names. Weights 12, 10, 10, 8, total 40, provisional.
 #
-# Speed 140 km/h. Comfort 60/270, on the line 180 + 1.5 x 60. Classes 1,2.
+# Speed 140 km/h. Comfort 60/420, on the line 330 + 1.5 x 60. Classes 1,2.
 # Dates are road presence: 1967 intro, retires staggered 1985-1988.
 #
 # Metres master: citycars/4.5/hillman-minx-arrow.blend. Interchange:
@@ -41,7 +41,7 @@ retire_month=6
 speed=140
 class=1,2
 maximum_comfortable_journey_minutes=60
-maximum_tolerable_journey_minutes=270
+maximum_tolerable_journey_minutes=420
 
 Image[E]=./images/hillman-minx-arrow-black_E.0.0,-33,14
 Image[SE]=./images/hillman-minx-arrow-black_SE.0.0,-13,0
@@ -64,7 +64,7 @@ retire_month=6
 speed=140
 class=1,2
 maximum_comfortable_journey_minutes=60
-maximum_tolerable_journey_minutes=270
+maximum_tolerable_journey_minutes=420
 
 Image[E]=./images/hillman-minx-arrow-white_E.0.0,-33,14
 Image[SE]=./images/hillman-minx-arrow-white_SE.0.0,-13,0
@@ -87,7 +87,7 @@ retire_month=6
 speed=140
 class=1,2
 maximum_comfortable_journey_minutes=60
-maximum_tolerable_journey_minutes=270
+maximum_tolerable_journey_minutes=420
 
 Image[E]=./images/hillman-minx-arrow-red_E.0.0,-33,14
 Image[SE]=./images/hillman-minx-arrow-red_SE.0.0,-13,0
@@ -110,7 +110,7 @@ retire_month=6
 speed=140
 class=1,2
 maximum_comfortable_journey_minutes=60
-maximum_tolerable_journey_minutes=270
+maximum_tolerable_journey_minutes=420
 
 Image[E]=./images/hillman-minx-arrow-blue_E.0.0,-33,14
 Image[SE]=./images/hillman-minx-arrow-blue_SE.0.0,-13,0

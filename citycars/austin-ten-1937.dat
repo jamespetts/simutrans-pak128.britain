@@ -12,7 +12,7 @@ retire_month=9
 speed=97
 class=1,2
 maximum_comfortable_journey_minutes=45
-maximum_tolerable_journey_minutes=250
+maximum_tolerable_journey_minutes=398
 
 Image[E]=./images/austin-ten-1937-blue_E.0.0,-33,14
 Image[SE]=./images/austin-ten-1937-blue_SE.0.0,-13,0
@@ -35,7 +35,7 @@ retire_month=9
 speed=97
 class=1,2
 maximum_comfortable_journey_minutes=45
-maximum_tolerable_journey_minutes=250
+maximum_tolerable_journey_minutes=398
 
 Image[E]=./images/austin-ten-1937-green_E.0.0,-33,14
 Image[SE]=./images/austin-ten-1937-green_SE.0.0,-13,0
@@ -58,7 +58,7 @@ retire_month=11
 speed=97
 class=1,2
 maximum_comfortable_journey_minutes=45
-maximum_tolerable_journey_minutes=250
+maximum_tolerable_journey_minutes=398
 
 Image[E]=./images/austin-ten-1937-red_E.0.0,-33,14
 Image[SE]=./images/austin-ten-1937-red_SE.0.0,-13,0
@@ -81,7 +81,7 @@ retire_month=9
 speed=97
 class=1,2
 maximum_comfortable_journey_minutes=45
-maximum_tolerable_journey_minutes=250
+maximum_tolerable_journey_minutes=398
 
 Image[E]=./images/austin-ten-1937-brown_E.0.0,-33,14
 Image[SE]=./images/austin-ten-1937-brown_SE.0.0,-13,0
@@ -106,7 +106,7 @@ retire_month=3
 speed=97
 class=1,2
 maximum_comfortable_journey_minutes=45
-maximum_tolerable_journey_minutes=250
+maximum_tolerable_journey_minutes=398
 
 Image[E]=./images/austin-ten-1937-black_E.0.0,-33,14
 Image[SE]=./images/austin-ten-1937-black_SE.0.0,-13,0

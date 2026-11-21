@@ -11,7 +11,7 @@
 # Weight: 50 in total (black 18, silver 15, blue 10, champagne 7), between the
 # Jaguar XJ's 60 and the BMW 7 E32's 40.
 #
-# Speed 230 km/h; comfort 140/390 (line). Class 4.
+# Speed 230 km/h; comfort 140/540 (line). Classes 3,4.
 # Dates: 1979-1991 with a road tail to about 2005.
 #
 # Metres master: citycars/4.5/mercedes-w126.blend. References:
@@ -29,7 +29,7 @@ retire_month=6
 speed=230
 class=3,4
 maximum_comfortable_journey_minutes=140
-maximum_tolerable_journey_minutes=390
+maximum_tolerable_journey_minutes=540
 
 Image[E]=./images/mercedes-w126-black_E.0.0,-33,14
 Image[SE]=./images/mercedes-w126-black_SE.0.0,-13,0
@@ -52,7 +52,7 @@ retire_month=6
 speed=230
 class=3,4
 maximum_comfortable_journey_minutes=140
-maximum_tolerable_journey_minutes=390
+maximum_tolerable_journey_minutes=540
 
 Image[E]=./images/mercedes-w126-silver_E.0.0,-33,14
 Image[SE]=./images/mercedes-w126-silver_SE.0.0,-13,0
@@ -75,7 +75,7 @@ retire_month=6
 speed=230
 class=3,4
 maximum_comfortable_journey_minutes=140
-maximum_tolerable_journey_minutes=390
+maximum_tolerable_journey_minutes=540
 
 Image[E]=./images/mercedes-w126-blue_E.0.0,-33,14
 Image[SE]=./images/mercedes-w126-blue_SE.0.0,-13,0
@@ -98,7 +98,7 @@ retire_month=6
 speed=230
 class=3,4
 maximum_comfortable_journey_minutes=140
-maximum_tolerable_journey_minutes=390
+maximum_tolerable_journey_minutes=540
 
 Image[E]=./images/mercedes-w126-champagne_E.0.0,-33,14
 Image[SE]=./images/mercedes-w126-champagne_SE.0.0,-13,0

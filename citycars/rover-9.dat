@@ -11,7 +11,7 @@ retire_month=7
 speed=80
 class=2,3
 maximum_comfortable_journey_minutes=32
-maximum_tolerable_journey_minutes=230
+maximum_tolerable_journey_minutes=378
 
 Image[E]=./images/rover-9-blue_E.0.0,-33,14
 Image[SE]=./images/rover-9-blue_SE.0.0,-13,0
@@ -34,7 +34,7 @@ retire_month=1
 speed=80
 class=2,3
 maximum_comfortable_journey_minutes=32
-maximum_tolerable_journey_minutes=230
+maximum_tolerable_journey_minutes=378
 
 Image[E]=./images/rover-9-green_E.0.0,-33,14
 Image[SE]=./images/rover-9-green_SE.0.0,-13,0
@@ -57,7 +57,7 @@ retire_month=7
 speed=80
 class=2,3
 maximum_comfortable_journey_minutes=32
-maximum_tolerable_journey_minutes=230
+maximum_tolerable_journey_minutes=378
 
 Image[E]=./images/rover-9-red_E.0.0,-33,14
 Image[SE]=./images/rover-9-red_SE.0.0,-13,0
@@ -81,7 +81,7 @@ retire_month=2
 speed=80
 class=2,3
 maximum_comfortable_journey_minutes=32
-maximum_tolerable_journey_minutes=230
+maximum_tolerable_journey_minutes=378
 
 Image[E]=./images/rover-9-black_E.0.0,-33,14
 Image[SE]=./images/rover-9-black_SE.0.0,-13,0
@@ -105,7 +105,7 @@ retire_month=9
 speed=80
 class=2,3
 maximum_comfortable_journey_minutes=32
-maximum_tolerable_journey_minutes=230
+maximum_tolerable_journey_minutes=378
 
 Image[E]=./images/rover-9-yellow_E.0.0,-33,14
 Image[SE]=./images/rover-9-yellow_SE.0.0,-13,0

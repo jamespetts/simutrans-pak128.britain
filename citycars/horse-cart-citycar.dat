@@ -1,3 +1,4 @@
+# Horse-drawn comfort 2026-11-20: passenger carriages use 240 + 4 x comfortable (cap 600); working carts use 180 + 6 x comfortable (cap 300).
 obj=citycar
 name=HorseCart(Brown)
 copyright=James
@@ -14,7 +15,7 @@ retire_month=3
 speed=12
 class=0,1
 maximum_comfortable_journey_minutes=10
-maximum_tolerable_journey_minutes=195
+maximum_tolerable_journey_minutes=240
 
 Image[E]=./images/horse-cart-piece-citycar-brown_E.0.0,-33,14
 Image[SE]=./images/horse-cart-piece-citycar-brown_SE.0.0,-13,0
@@ -42,7 +43,7 @@ retire_month=12
 speed=12
 class=0,1
 maximum_comfortable_journey_minutes=10
-maximum_tolerable_journey_minutes=195
+maximum_tolerable_journey_minutes=240
 
 Image[E]=./images/horse-cart-piece-citycar-grey_E.0.0,-33,14
 Image[SE]=./images/horse-cart-piece-citycar-grey_SE.0.0,-13,0
@@ -70,7 +71,7 @@ retire_month=5
 speed=12
 class=0,1
 maximum_comfortable_journey_minutes=10
-maximum_tolerable_journey_minutes=195
+maximum_tolerable_journey_minutes=240
 
 Image[E]=./images/horse-cart-piece-citycar-turquoise_E.0.0,-33,14
 Image[SE]=./images/horse-cart-piece-citycar-turquoise_SE.0.0,-13,0

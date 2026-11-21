@@ -30,9 +30,9 @@
 # White, Satin Black and Solar Red. Weights silver 3, white 3, red 2, black 2,
 # total 10, provisional pending the central rebase.
 #
-# Speed 180 km/h, the 1.6-litre car's quoted maximum. Comfort 85/310, on the
-# line 180 + 1.5 x 85: a quiet, well-finished family hatchback, a step above
-# the E100. Classes 1,2.
+# Speed 180 km/h, the 1.6-litre car's quoted maximum. Comfort 85/458, on the
+# line 330 + 1.5 x 85: a quiet, well-finished family hatchback, a step above
+# the E100. Classes 0,1.
 #
 # Dates are road presence: June 1997 intro, retires staggered 2010-2013 on a
 # thirteen- to sixteen-year tail.
@@ -59,9 +59,9 @@ intro_month=6
 retire_year=2013
 retire_month=6
 speed=180
-class=1,2
+class=0,1
 maximum_comfortable_journey_minutes=85
-maximum_tolerable_journey_minutes=310
+maximum_tolerable_journey_minutes=458
 
 Image[E]=./images/toyota-corolla-e110-lucernesilver_E.0.0,-33,14
 Image[SE]=./images/toyota-corolla-e110-lucernesilver_SE.0.0,-13,0
@@ -82,9 +82,9 @@ intro_month=6
 retire_year=2013
 retire_month=6
 speed=180
-class=1,2
+class=0,1
 maximum_comfortable_journey_minutes=85
-maximum_tolerable_journey_minutes=310
+maximum_tolerable_journey_minutes=458
 
 Image[E]=./images/toyota-corolla-e110-purewhite_E.0.0,-33,14
 Image[SE]=./images/toyota-corolla-e110-purewhite_SE.0.0,-13,0
@@ -105,9 +105,9 @@ intro_month=6
 retire_year=2012
 retire_month=6
 speed=180
-class=1,2
+class=0,1
 maximum_comfortable_journey_minutes=85
-maximum_tolerable_journey_minutes=310
+maximum_tolerable_journey_minutes=458
 
 Image[E]=./images/toyota-corolla-e110-satinblack_E.0.0,-33,14
 Image[SE]=./images/toyota-corolla-e110-satinblack_SE.0.0,-13,0
@@ -128,9 +128,9 @@ intro_month=6
 retire_year=2011
 retire_month=6
 speed=180
-class=1,2
+class=0,1
 maximum_comfortable_journey_minutes=85
-maximum_tolerable_journey_minutes=310
+maximum_tolerable_journey_minutes=458
 
 Image[E]=./images/toyota-corolla-e110-solarred_E.0.0,-33,14
 Image[SE]=./images/toyota-corolla-e110-solarred_SE.0.0,-13,0

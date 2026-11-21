@@ -11,7 +11,7 @@ retire_month=7
 speed=119
 class=2,3
 maximum_comfortable_journey_minutes=60
-maximum_tolerable_journey_minutes=270
+maximum_tolerable_journey_minutes=420
 
 Image[E]=./images/morris-oxford-2-grey_E.0.0,-33,14
 Image[SE]=./images/morris-oxford-2-grey_SE.0.0,-13,0
@@ -34,7 +34,7 @@ retire_month=7
 speed=119
 class=2,3
 maximum_comfortable_journey_minutes=60
-maximum_tolerable_journey_minutes=270
+maximum_tolerable_journey_minutes=420
 
 Image[E]=./images/morris-oxford-2-green_E.0.0,-33,14
 Image[SE]=./images/morris-oxford-2-green_SE.0.0,-13,0
@@ -58,7 +58,7 @@ retire_month=9
 speed=119
 class=2,3
 maximum_comfortable_journey_minutes=60
-maximum_tolerable_journey_minutes=270
+maximum_tolerable_journey_minutes=420
 
 Image[E]=./images/morris-oxford-2-black_E.0.0,-33,14
 Image[SE]=./images/morris-oxford-2-black_SE.0.0,-13,0

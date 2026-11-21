@@ -22,8 +22,8 @@
 # Weights black 3, grey 3, silver 2, white 2, total 10, provisional pending the
 # central rebase.
 #
-# Speed 250 km/h, the electronic limiter on the 730d and 740i. Comfort 175/445,
-# on the line 180 + 1.5 x 175, above the F01's 170/435. Class 4, the top band.
+# Speed 250 km/h, the electronic limiter on the 730d and 740i. Comfort 175/593,
+# on the line 330 + 1.5 x 175, above the F01's 170/585. Class 3, the top band.
 #
 # Dates are road presence: October 2015 intro, retires staggered 2030-2033 on a
 # fifteen- to eighteen-year tail.
@@ -52,9 +52,9 @@ intro_month=10
 retire_year=2033
 retire_month=6
 speed=250
-class=3,4
+class=3
 maximum_comfortable_journey_minutes=175
-maximum_tolerable_journey_minutes=445
+maximum_tolerable_journey_minutes=593
 
 Image[E]=./images/bmw-g11-black_E.0.0,-33,14
 Image[SE]=./images/bmw-g11-black_SE.0.0,-13,0
@@ -75,9 +75,9 @@ intro_month=10
 retire_year=2032
 retire_month=6
 speed=250
-class=3,4
+class=3
 maximum_comfortable_journey_minutes=175
-maximum_tolerable_journey_minutes=445
+maximum_tolerable_journey_minutes=593
 
 Image[E]=./images/bmw-g11-grey_E.0.0,-33,14
 Image[SE]=./images/bmw-g11-grey_SE.0.0,-13,0
@@ -98,9 +98,9 @@ intro_month=10
 retire_year=2031
 retire_month=6
 speed=250
-class=3,4
+class=3
 maximum_comfortable_journey_minutes=175
-maximum_tolerable_journey_minutes=445
+maximum_tolerable_journey_minutes=593
 
 Image[E]=./images/bmw-g11-silver_E.0.0,-33,14
 Image[SE]=./images/bmw-g11-silver_SE.0.0,-13,0
@@ -121,9 +121,9 @@ intro_month=10
 retire_year=2030
 retire_month=6
 speed=250
-class=3,4
+class=3
 maximum_comfortable_journey_minutes=175
-maximum_tolerable_journey_minutes=445
+maximum_tolerable_journey_minutes=593
 
 Image[E]=./images/bmw-g11-white_E.0.0,-33,14
 Image[SE]=./images/bmw-g11-white_SE.0.0,-13,0

@@ -34,7 +34,7 @@
 # central rebase.
 #
 # Speed 68 km/h (42 mph): a game-balance figure for a 557 cc side-valve outfit.
-# Comfort 25/190: sprung saddle and girder fork, no rear suspension, open chair,
+# Comfort 25/338: sprung saddle and girder fork, no rear suspension, open chair,
 # slightly better than the 1920s outfit on better roads.
 #
 # Dates describe when outfits were seen regularly on UK roads. The Sloper ran
@@ -65,7 +65,7 @@ retire_month=6
 speed=68
 class=0,1
 maximum_comfortable_journey_minutes=25
-maximum_tolerable_journey_minutes=190
+maximum_tolerable_journey_minutes=338
 
 Image[E]=./images/bsa-sloper-combo-green_E.0.0,-33,14
 Image[SE]=./images/bsa-sloper-combo-green_SE.0.0,-13,0
@@ -88,7 +88,7 @@ retire_month=6
 speed=68
 class=0,1
 maximum_comfortable_journey_minutes=25
-maximum_tolerable_journey_minutes=190
+maximum_tolerable_journey_minutes=338
 
 Image[E]=./images/bsa-sloper-combo-black_E.0.0,-33,14
 Image[SE]=./images/bsa-sloper-combo-black_SE.0.0,-13,0

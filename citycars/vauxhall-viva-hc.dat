@@ -15,7 +15,7 @@
 # Colours: grade (d); no Vauxhall colour list was read. White, Red, Blue and
 # Green are plain names. Weights 12, 10, 9, 8, total 39, provisional.
 #
-# Speed 150 km/h. Comfort 50/255, on the line 180 + 1.5 x 50. Classes 0,1.
+# Speed 150 km/h. Comfort 50/405, on the line 330 + 1.5 x 50. Classes 0,1,2.
 # Dates: intro January 1970; retires staggered 1986-1989 as a road tail.
 #
 # Metres master: citycars/4.5/vauxhall-viva-hc.blend. Interchange:
@@ -38,9 +38,9 @@ intro_month=1
 retire_year=1989
 retire_month=6
 speed=150
-class=0,1
+class=0,1,2
 maximum_comfortable_journey_minutes=50
-maximum_tolerable_journey_minutes=255
+maximum_tolerable_journey_minutes=405
 
 Image[E]=./images/vauxhall-viva-hc-white_E.0.0,-33,14
 Image[SE]=./images/vauxhall-viva-hc-white_SE.0.0,-13,0
@@ -61,9 +61,9 @@ intro_month=1
 retire_year=1988
 retire_month=6
 speed=150
-class=0,1
+class=0,1,2
 maximum_comfortable_journey_minutes=50
-maximum_tolerable_journey_minutes=255
+maximum_tolerable_journey_minutes=405
 
 Image[E]=./images/vauxhall-viva-hc-red_E.0.0,-33,14
 Image[SE]=./images/vauxhall-viva-hc-red_SE.0.0,-13,0
@@ -84,9 +84,9 @@ intro_month=1
 retire_year=1987
 retire_month=6
 speed=150
-class=0,1
+class=0,1,2
 maximum_comfortable_journey_minutes=50
-maximum_tolerable_journey_minutes=255
+maximum_tolerable_journey_minutes=405
 
 Image[E]=./images/vauxhall-viva-hc-blue_E.0.0,-33,14
 Image[SE]=./images/vauxhall-viva-hc-blue_SE.0.0,-13,0
@@ -107,9 +107,9 @@ intro_month=1
 retire_year=1986
 retire_month=6
 speed=150
-class=0,1
+class=0,1,2
 maximum_comfortable_journey_minutes=50
-maximum_tolerable_journey_minutes=255
+maximum_tolerable_journey_minutes=405
 
 Image[E]=./images/vauxhall-viva-hc-green_E.0.0,-33,14
 Image[SE]=./images/vauxhall-viva-hc-green_SE.0.0,-13,0

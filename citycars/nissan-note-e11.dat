@@ -12,9 +12,9 @@
 # colour names: white, silver, blue and red. Weights white 3, silver 3, blue 2,
 # red 2, total 10, provisional pending the central rebase.
 #
-# Speed 165 km/h for the 1.4, the volume UK engine. Comfort 85/310, on the line
-# 180 + 1.5 x 85, the same as the Juke F15: roomy for its size but short-legged.
-# Classes 1,2.
+# Speed 165 km/h for the 1.4, the volume UK engine. Comfort 85/458, on the line
+# 330 + 1.5 x 85, the same as the Juke F15: roomy for its size but short-legged.
+# Classes 0,1.
 #
 # Dates are road presence: May 2006 intro, retires staggered 2021-2024 on a
 # fifteen- to eighteen-year tail.
@@ -41,9 +41,9 @@ intro_month=5
 retire_year=2024
 retire_month=6
 speed=165
-class=1,2
+class=0,1
 maximum_comfortable_journey_minutes=85
-maximum_tolerable_journey_minutes=310
+maximum_tolerable_journey_minutes=458
 
 Image[E]=./images/nissan-note-e11-white_E.0.0,-33,14
 Image[SE]=./images/nissan-note-e11-white_SE.0.0,-13,0
@@ -64,9 +64,9 @@ intro_month=5
 retire_year=2023
 retire_month=6
 speed=165
-class=1,2
+class=0,1
 maximum_comfortable_journey_minutes=85
-maximum_tolerable_journey_minutes=310
+maximum_tolerable_journey_minutes=458
 
 Image[E]=./images/nissan-note-e11-silver_E.0.0,-33,14
 Image[SE]=./images/nissan-note-e11-silver_SE.0.0,-13,0
@@ -87,9 +87,9 @@ intro_month=5
 retire_year=2022
 retire_month=6
 speed=165
-class=1,2
+class=0,1
 maximum_comfortable_journey_minutes=85
-maximum_tolerable_journey_minutes=310
+maximum_tolerable_journey_minutes=458
 
 Image[E]=./images/nissan-note-e11-blue_E.0.0,-33,14
 Image[SE]=./images/nissan-note-e11-blue_SE.0.0,-13,0
@@ -110,9 +110,9 @@ intro_month=5
 retire_year=2021
 retire_month=6
 speed=165
-class=1,2
+class=0,1
 maximum_comfortable_journey_minutes=85
-maximum_tolerable_journey_minutes=310
+maximum_tolerable_journey_minutes=458
 
 Image[E]=./images/nissan-note-e11-red_E.0.0,-33,14
 Image[SE]=./images/nissan-note-e11-red_SE.0.0,-13,0

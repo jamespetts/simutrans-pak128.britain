@@ -10,7 +10,7 @@
 #
 # Weight: 100 in total (green 32, beige 26, brown 22, black 20).
 #
-# Speed 180 km/h; comfort 120/360 (line). Classes 2,3.
+# Speed 180 km/h; comfort 120/510 (line). Classes 2,3.
 # Dates: 1967-1973 with a road tail to about 1986.
 #
 # Metres master: citycars/4.5/rover-p5b.blend. References:
@@ -28,7 +28,7 @@ retire_month=6
 speed=180
 class=2,3
 maximum_comfortable_journey_minutes=120
-maximum_tolerable_journey_minutes=360
+maximum_tolerable_journey_minutes=510
 
 Image[E]=./images/rover-p5b-green_E.0.0,-33,14
 Image[SE]=./images/rover-p5b-green_SE.0.0,-13,0
@@ -51,7 +51,7 @@ retire_month=6
 speed=180
 class=2,3
 maximum_comfortable_journey_minutes=120
-maximum_tolerable_journey_minutes=360
+maximum_tolerable_journey_minutes=510
 
 Image[E]=./images/rover-p5b-beige_E.0.0,-33,14
 Image[SE]=./images/rover-p5b-beige_SE.0.0,-13,0
@@ -74,7 +74,7 @@ retire_month=6
 speed=180
 class=2,3
 maximum_comfortable_journey_minutes=120
-maximum_tolerable_journey_minutes=360
+maximum_tolerable_journey_minutes=510
 
 Image[E]=./images/rover-p5b-brown_E.0.0,-33,14
 Image[SE]=./images/rover-p5b-brown_SE.0.0,-13,0
@@ -97,7 +97,7 @@ retire_month=6
 speed=180
 class=2,3
 maximum_comfortable_journey_minutes=120
-maximum_tolerable_journey_minutes=360
+maximum_tolerable_journey_minutes=510
 
 Image[E]=./images/rover-p5b-black_E.0.0,-33,14
 Image[SE]=./images/rover-p5b-black_SE.0.0,-13,0

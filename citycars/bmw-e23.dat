@@ -31,8 +31,8 @@
 # white 2, total 10, provisional pending the central rebase.
 #
 # Speed 212 km/h, the 735i's quoted maximum and the 733i's as well. Comfort
-# 130/375, on the line 180 + 1.5 x 130, a step below the E32's 140/390.
-# Class 4, the top wealth band, as the other 7-series cars are.
+# 130/525, on the line 330 + 1.5 x 130, a step below the E32's 140/540.
+# Classes 3,4, the top wealth band, as the other 7-series cars are.
 #
 # Dates are road presence, not production: May 1977 intro, retires staggered
 # 1997-2000 on a fourteen- to seventeen-year tail.
@@ -57,7 +57,7 @@ retire_month=6
 speed=212
 class=3,4
 maximum_comfortable_journey_minutes=130
-maximum_tolerable_journey_minutes=375
+maximum_tolerable_journey_minutes=525
 
 Image[E]=./images/bmw-e23-silver_E.0.0,-33,14
 Image[SE]=./images/bmw-e23-silver_SE.0.0,-13,0
@@ -80,7 +80,7 @@ retire_month=6
 speed=212
 class=3,4
 maximum_comfortable_journey_minutes=130
-maximum_tolerable_journey_minutes=375
+maximum_tolerable_journey_minutes=525
 
 Image[E]=./images/bmw-e23-black_E.0.0,-33,14
 Image[SE]=./images/bmw-e23-black_SE.0.0,-13,0
@@ -103,7 +103,7 @@ retire_month=6
 speed=212
 class=3,4
 maximum_comfortable_journey_minutes=130
-maximum_tolerable_journey_minutes=375
+maximum_tolerable_journey_minutes=525
 
 Image[E]=./images/bmw-e23-white_E.0.0,-33,14
 Image[SE]=./images/bmw-e23-white_SE.0.0,-13,0
@@ -126,7 +126,7 @@ retire_month=6
 speed=212
 class=3,4
 maximum_comfortable_journey_minutes=130
-maximum_tolerable_journey_minutes=375
+maximum_tolerable_journey_minutes=525
 
 Image[E]=./images/bmw-e23-blue_E.0.0,-33,14
 Image[SE]=./images/bmw-e23-blue_SE.0.0,-13,0

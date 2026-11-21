@@ -1,3 +1,4 @@
+# Retire policy 2026-11-20: still in production in 2026 with no announced end; retire dates commented out. Revisit when an end is announced.
 # BYD Dolphin five-door hatchback, 2023 onwards.
 #
 # The BYD Dolphin: the C-segment electric hatchback on the e-Platform 3.0
@@ -17,8 +18,8 @@
 # Atlantis Grey; the modelled colourways use plain names because the full UK
 # palette was not listed. Weights 12, 10, 9, 8, total 39, provisional.
 #
-# Speed 160 km/h. Comfort 70/285, on the line 180 + 1.5 x 70. Classes 0,1.
-# Dates: intro July 2023, the UK summer launch; retires staggered 2045-2048.
+# Speed 160 km/h. Comfort 70/435, on the line 330 + 1.5 x 70. Classes 0,1.
+# Dates: intro July 2023, the UK summer launch; retire dates commented out (still in production in 2026).
 #
 # Metres master: citycars/4.5/byd-dolphin.blend. Interchange:
 # citycars/4.5/byd-dolphin.dae. References:
@@ -37,12 +38,12 @@ copyright=JamesPetts
 DistributionWeight=12
 intro_year=2023
 intro_month=10
-retire_year=2048
-retire_month=6
+#retire_year=2048
+#retire_month=6
 speed=160
 class=0,1
 maximum_comfortable_journey_minutes=70
-maximum_tolerable_journey_minutes=285
+maximum_tolerable_journey_minutes=435
 
 Image[E]=./images/byd-dolphin-white_E.0.0,-33,14
 Image[SE]=./images/byd-dolphin-white_SE.0.0,-13,0
@@ -60,12 +61,12 @@ copyright=JamesPetts
 DistributionWeight=10
 intro_year=2023
 intro_month=10
-retire_year=2047
-retire_month=6
+#retire_year=2047
+#retire_month=6
 speed=160
 class=0,1
 maximum_comfortable_journey_minutes=70
-maximum_tolerable_journey_minutes=285
+maximum_tolerable_journey_minutes=435
 
 Image[E]=./images/byd-dolphin-blue_E.0.0,-33,14
 Image[SE]=./images/byd-dolphin-blue_SE.0.0,-13,0
@@ -83,12 +84,12 @@ copyright=JamesPetts
 DistributionWeight=9
 intro_year=2023
 intro_month=10
-retire_year=2046
-retire_month=6
+#retire_year=2046
+#retire_month=6
 speed=160
 class=0,1
 maximum_comfortable_journey_minutes=70
-maximum_tolerable_journey_minutes=285
+maximum_tolerable_journey_minutes=435
 
 Image[E]=./images/byd-dolphin-grey_E.0.0,-33,14
 Image[SE]=./images/byd-dolphin-grey_SE.0.0,-13,0
@@ -106,12 +107,12 @@ copyright=JamesPetts
 DistributionWeight=8
 intro_year=2023
 intro_month=10
-retire_year=2045
-retire_month=6
+#retire_year=2045
+#retire_month=6
 speed=160
 class=0,1
 maximum_comfortable_journey_minutes=70
-maximum_tolerable_journey_minutes=285
+maximum_tolerable_journey_minutes=435
 
 Image[E]=./images/byd-dolphin-red_E.0.0,-33,14
 Image[SE]=./images/byd-dolphin-red_SE.0.0,-13,0

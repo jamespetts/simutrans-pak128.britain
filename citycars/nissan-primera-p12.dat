@@ -15,8 +15,8 @@
 # is deliberate: this is a low-volume, fleet-heavy car and the weight is set a
 # notch below its stablemates.
 #
-# Speed 190 km/h for the 1.6, the volume model. Comfort 100/330, on the line
-# 180 + 1.5 x 100, a step above the P11. Classes 1,2,3.
+# Speed 190 km/h for the 1.6, the volume model. Comfort 100/480, on the line
+# 330 + 1.5 x 100, a step above the P11. Classes 1,2.
 #
 # Dates are road presence: March 2002 intro, retires staggered 2017-2020 on a
 # thirteen- to eighteen-year tail.
@@ -41,7 +41,7 @@ retire_month=6
 speed=190
 class=1,2
 maximum_comfortable_journey_minutes=100
-maximum_tolerable_journey_minutes=330
+maximum_tolerable_journey_minutes=480
 
 Image[E]=./images/nissan-primera-p12-silver_E.0.0,-33,14
 Image[SE]=./images/nissan-primera-p12-silver_SE.0.0,-13,0
@@ -64,7 +64,7 @@ retire_month=6
 speed=190
 class=1,2
 maximum_comfortable_journey_minutes=100
-maximum_tolerable_journey_minutes=330
+maximum_tolerable_journey_minutes=480
 
 Image[E]=./images/nissan-primera-p12-blue_E.0.0,-33,14
 Image[SE]=./images/nissan-primera-p12-blue_SE.0.0,-13,0
@@ -87,7 +87,7 @@ retire_month=6
 speed=190
 class=1,2
 maximum_comfortable_journey_minutes=100
-maximum_tolerable_journey_minutes=330
+maximum_tolerable_journey_minutes=480
 
 Image[E]=./images/nissan-primera-p12-red_E.0.0,-33,14
 Image[SE]=./images/nissan-primera-p12-red_SE.0.0,-13,0
@@ -110,7 +110,7 @@ retire_month=6
 speed=190
 class=1,2
 maximum_comfortable_journey_minutes=100
-maximum_tolerable_journey_minutes=330
+maximum_tolerable_journey_minutes=480
 
 Image[E]=./images/nissan-primera-p12-black_E.0.0,-33,14
 Image[SE]=./images/nissan-primera-p12-black_SE.0.0,-13,0

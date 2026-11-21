@@ -17,7 +17,7 @@
 # Silver rests on grade (d) evidence. Weights 12, 10, 10, 8, total 40,
 # provisional.
 #
-# Speed 190 km/h. Comfort 85/307, on the line 180 + 1.5 x 85. Classes 3,4.
+# Speed 190 km/h. Comfort 85/458, on the line 330 + 1.5 x 85. Class 3.
 # Dates are road presence: 2004 intro, retires staggered 2025-2028.
 #
 # Metres master: citycars/4.5/land-rover-discovery-3.blend. Interchange:
@@ -40,9 +40,9 @@ intro_month=6
 retire_year=2028
 retire_month=6
 speed=190
-class=3,4
+class=3
 maximum_comfortable_journey_minutes=85
-maximum_tolerable_journey_minutes=307
+maximum_tolerable_journey_minutes=458
 
 Image[E]=./images/land-rover-discovery-3-javablack_E.0.0,-33,14
 Image[SE]=./images/land-rover-discovery-3-javablack_SE.0.0,-13,0
@@ -63,9 +63,9 @@ intro_month=6
 retire_year=2027
 retire_month=6
 speed=190
-class=3,4
+class=3
 maximum_comfortable_journey_minutes=85
-maximum_tolerable_journey_minutes=307
+maximum_tolerable_journey_minutes=458
 
 Image[E]=./images/land-rover-discovery-3-zermattsilver_E.0.0,-33,14
 Image[SE]=./images/land-rover-discovery-3-zermattsilver_SE.0.0,-13,0
@@ -86,9 +86,9 @@ intro_month=6
 retire_year=2026
 retire_month=6
 speed=190
-class=3,4
+class=3
 maximum_comfortable_journey_minutes=85
-maximum_tolerable_journey_minutes=307
+maximum_tolerable_journey_minutes=458
 
 Image[E]=./images/land-rover-discovery-3-chawtonwhite_E.0.0,-33,14
 Image[SE]=./images/land-rover-discovery-3-chawtonwhite_SE.0.0,-13,0
@@ -109,9 +109,9 @@ intro_month=6
 retire_year=2025
 retire_month=6
 speed=190
-class=3,4
+class=3
 maximum_comfortable_journey_minutes=85
-maximum_tolerable_journey_minutes=307
+maximum_tolerable_journey_minutes=458
 
 Image[E]=./images/land-rover-discovery-3-bonattigrey_E.0.0,-33,14
 Image[SE]=./images/land-rover-discovery-3-bonattigrey_SE.0.0,-13,0

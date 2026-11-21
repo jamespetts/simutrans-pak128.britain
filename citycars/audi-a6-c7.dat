@@ -14,7 +14,7 @@
 # Colours: grade (d); no UK chart was established. Black, silver, grey and
 # blue are plain names. Weights 18, 16, 14, 12, total 60, provisional.
 #
-# Speed 235 km/h. Comfort 95/322, on the line 180 + 1.5 x 95. Classes 3,4.
+# Speed 235 km/h. Comfort 95/473, on the line 330 + 1.5 x 95. Classes 2,3.
 # Dates are road presence: 2011 intro, retires staggered 2035-2038.
 #
 # Metres master: citycars/4.5/audi-a6-c7.blend. Interchange:
@@ -37,9 +37,9 @@ intro_month=1
 retire_year=2038
 retire_month=6
 speed=235
-class=3,4
+class=2,3
 maximum_comfortable_journey_minutes=95
-maximum_tolerable_journey_minutes=322
+maximum_tolerable_journey_minutes=473
 
 Image[E]=./images/audi-a6-c7-black_E.0.0,-33,14
 Image[SE]=./images/audi-a6-c7-black_SE.0.0,-13,0
@@ -60,9 +60,9 @@ intro_month=1
 retire_year=2037
 retire_month=6
 speed=235
-class=3,4
+class=2,3
 maximum_comfortable_journey_minutes=95
-maximum_tolerable_journey_minutes=322
+maximum_tolerable_journey_minutes=473
 
 Image[E]=./images/audi-a6-c7-silver_E.0.0,-33,14
 Image[SE]=./images/audi-a6-c7-silver_SE.0.0,-13,0
@@ -83,9 +83,9 @@ intro_month=1
 retire_year=2036
 retire_month=6
 speed=235
-class=3,4
+class=2,3
 maximum_comfortable_journey_minutes=95
-maximum_tolerable_journey_minutes=322
+maximum_tolerable_journey_minutes=473
 
 Image[E]=./images/audi-a6-c7-grey_E.0.0,-33,14
 Image[SE]=./images/audi-a6-c7-grey_SE.0.0,-13,0
@@ -106,9 +106,9 @@ intro_month=1
 retire_year=2035
 retire_month=6
 speed=235
-class=3,4
+class=2,3
 maximum_comfortable_journey_minutes=95
-maximum_tolerable_journey_minutes=322
+maximum_tolerable_journey_minutes=473
 
 Image[E]=./images/audi-a6-c7-blue_E.0.0,-33,14
 Image[SE]=./images/audi-a6-c7-blue_SE.0.0,-13,0

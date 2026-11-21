@@ -1,3 +1,4 @@
+# Retire policy 2026-11-20: still in production in 2026 with no announced end; retire dates commented out. Revisit when an end is announced.
 # Lexus ES XZ10 four-door saloon, 2018 onwards.
 #
 # The seventh-generation ES: the front-wheel-drive executive saloon with the
@@ -16,9 +17,9 @@
 # grade (b) for Graphite Black from the later European palette. Weights 15,
 # 13, 12, 10, total 50, provisional.
 #
-# Speed 180 km/h (electronically limited). Comfort 100/330, on the line
-# 180 + 1.5 x 100: a quiet hybrid executive cabin. Classes 3,4.
-# Dates are road presence: 2019 intro, retires staggered 2038-2041.
+# Speed 180 km/h (electronically limited). Comfort 100/480, on the line
+# 330 + 1.5 x 100: a quiet hybrid executive cabin. Class 2.
+# Dates are road presence: 2019 intro, retire dates commented out (still in production in 2026).
 #
 # Metres master: citycars/4.5/lexus-es-xz10.blend. Interchange:
 # citycars/4.5/lexus-es-xz10.dae. References:
@@ -38,12 +39,12 @@ copyright=JamesPetts
 DistributionWeight=15
 intro_year=2019
 intro_month=1
-retire_year=2041
-retire_month=6
+#retire_year=2041
+#retire_month=6
 speed=180
-class=3,4
+class=2
 maximum_comfortable_journey_minutes=100
-maximum_tolerable_journey_minutes=330
+maximum_tolerable_journey_minutes=480
 
 Image[E]=./images/lexus-es-xz10-sonicwhite_E.0.0,-33,14
 Image[SE]=./images/lexus-es-xz10-sonicwhite_SE.0.0,-13,0
@@ -61,12 +62,12 @@ copyright=JamesPetts
 DistributionWeight=13
 intro_year=2019
 intro_month=1
-retire_year=2040
-retire_month=6
+#retire_year=2040
+#retire_month=6
 speed=180
-class=3,4
+class=2
 maximum_comfortable_journey_minutes=100
-maximum_tolerable_journey_minutes=330
+maximum_tolerable_journey_minutes=480
 
 Image[E]=./images/lexus-es-xz10-sonictitanium_E.0.0,-33,14
 Image[SE]=./images/lexus-es-xz10-sonictitanium_SE.0.0,-13,0
@@ -84,12 +85,12 @@ copyright=JamesPetts
 DistributionWeight=12
 intro_year=2019
 intro_month=1
-retire_year=2039
-retire_month=6
+#retire_year=2039
+#retire_month=6
 speed=180
-class=3,4
+class=2
 maximum_comfortable_journey_minutes=100
-maximum_tolerable_journey_minutes=330
+maximum_tolerable_journey_minutes=480
 
 Image[E]=./images/lexus-es-xz10-azureblue_E.0.0,-33,14
 Image[SE]=./images/lexus-es-xz10-azureblue_SE.0.0,-13,0
@@ -107,12 +108,12 @@ copyright=JamesPetts
 DistributionWeight=10
 intro_year=2019
 intro_month=1
-retire_year=2038
-retire_month=6
+#retire_year=2038
+#retire_month=6
 speed=180
-class=3,4
+class=2
 maximum_comfortable_journey_minutes=100
-maximum_tolerable_journey_minutes=330
+maximum_tolerable_journey_minutes=480
 
 Image[E]=./images/lexus-es-xz10-graphiteblack_E.0.0,-33,14
 Image[SE]=./images/lexus-es-xz10-graphiteblack_SE.0.0,-13,0

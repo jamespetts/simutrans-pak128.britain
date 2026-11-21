@@ -18,7 +18,7 @@
 # colours and records that the contrasting roof is not represented. Weights
 # 10, 9, 8, 8, total 35, provisional.
 #
-# Speed 145 km/h. Comfort 60/270, on the line 180 + 1.5 x 60. Classes 2,3.
+# Speed 145 km/h. Comfort 60/420, on the line 330 + 1.5 x 60. Classes 2,3.
 # Dates are road presence: 1956 intro, retires staggered 1978-1981.
 #
 # Metres master: citycars/4.5/ford-zodiac-mk2.blend. Interchange:
@@ -43,7 +43,7 @@ retire_month=6
 speed=145
 class=2,3
 maximum_comfortable_journey_minutes=60
-maximum_tolerable_journey_minutes=270
+maximum_tolerable_journey_minutes=420
 
 Image[E]=./images/ford-zodiac-mk2-savoyblack_E.0.0,-33,14
 Image[SE]=./images/ford-zodiac-mk2-savoyblack_SE.0.0,-13,0
@@ -66,7 +66,7 @@ retire_month=6
 speed=145
 class=2,3
 maximum_comfortable_journey_minutes=60
-maximum_tolerable_journey_minutes=270
+maximum_tolerable_journey_minutes=420
 
 Image[E]=./images/ford-zodiac-mk2-erminewhite_E.0.0,-33,14
 Image[SE]=./images/ford-zodiac-mk2-erminewhite_SE.0.0,-13,0
@@ -89,7 +89,7 @@ retire_month=6
 speed=145
 class=2,3
 maximum_comfortable_journey_minutes=60
-maximum_tolerable_journey_minutes=270
+maximum_tolerable_journey_minutes=420
 
 Image[E]=./images/ford-zodiac-mk2-ambassadorblue_E.0.0,-33,14
 Image[SE]=./images/ford-zodiac-mk2-ambassadorblue_SE.0.0,-13,0
@@ -112,7 +112,7 @@ retire_month=6
 speed=145
 class=2,3
 maximum_comfortable_journey_minutes=60
-maximum_tolerable_journey_minutes=270
+maximum_tolerable_journey_minutes=420
 
 Image[E]=./images/ford-zodiac-mk2-monacored_E.0.0,-33,14
 Image[SE]=./images/ford-zodiac-mk2-monacored_SE.0.0,-13,0

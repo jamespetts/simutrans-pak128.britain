@@ -1,3 +1,4 @@
+# Retire policy 2026-11-20: still in production in 2026 with no announced end; retire dates commented out. Revisit when an end is announced.
 # Toyota Yaris XP210 five-door hatchback, 2020 onwards.
 #
 # The fourth-generation Yaris, sold in Britain as a hybrid only. UK on sale
@@ -26,13 +27,13 @@
 # Pure White, Decuma Grey and Tokyo Red. Weights silver 3, white 3, grey 2,
 # red 2, total 10, provisional pending the central rebase.
 #
-# Speed 175 km/h, the hybrid's quoted maximum. Comfort 105/340, on the line
-# 180 + 1.5 x 105: a modern, quiet supermini, a step above the XP130. Classes
+# Speed 175 km/h, the hybrid's quoted maximum. Comfort 105/488, on the line
+# 330 + 1.5 x 105: a modern, quiet supermini, a step above the XP130. Classes
 # 0,1,2: it is the cheapest hybrid small car in the range and drifts down the
 # wealth bands as it ages, and the modern Very-low band needs a car that is not
 # a luxury model.
 #
-# Dates are road presence: August 2020 intro, retires staggered 2032-2035 on a
+# Dates are road presence: August 2020 intro, retire dates commented out (still in production in 2026)
 # twelve- to fifteen-year tail.
 #
 # Metres master: citycars/4.5/toyota-yaris-xp210.blend. Interchange:
@@ -54,12 +55,12 @@ copyright=JamesPetts
 DistributionWeight=3
 intro_year=2020
 intro_month=8
-retire_year=2035
-retire_month=6
+#retire_year=2035
+#retire_month=6
 speed=175
-class=0,1,2
+class=0,1
 maximum_comfortable_journey_minutes=105
-maximum_tolerable_journey_minutes=340
+maximum_tolerable_journey_minutes=488
 
 Image[E]=./images/toyota-yaris-xp210-tyrolsilver_E.0.0,-33,14
 Image[SE]=./images/toyota-yaris-xp210-tyrolsilver_SE.0.0,-13,0
@@ -77,12 +78,12 @@ copyright=JamesPetts
 DistributionWeight=3
 intro_year=2020
 intro_month=8
-retire_year=2035
-retire_month=6
+#retire_year=2035
+#retire_month=6
 speed=175
-class=0,1,2
+class=0,1
 maximum_comfortable_journey_minutes=105
-maximum_tolerable_journey_minutes=340
+maximum_tolerable_journey_minutes=488
 
 Image[E]=./images/toyota-yaris-xp210-purewhite_E.0.0,-33,14
 Image[SE]=./images/toyota-yaris-xp210-purewhite_SE.0.0,-13,0
@@ -100,12 +101,12 @@ copyright=JamesPetts
 DistributionWeight=2
 intro_year=2020
 intro_month=8
-retire_year=2034
-retire_month=6
+#retire_year=2034
+#retire_month=6
 speed=175
-class=0,1,2
+class=0,1
 maximum_comfortable_journey_minutes=105
-maximum_tolerable_journey_minutes=340
+maximum_tolerable_journey_minutes=488
 
 Image[E]=./images/toyota-yaris-xp210-decumagrey_E.0.0,-33,14
 Image[SE]=./images/toyota-yaris-xp210-decumagrey_SE.0.0,-13,0
@@ -123,12 +124,12 @@ copyright=JamesPetts
 DistributionWeight=2
 intro_year=2020
 intro_month=8
-retire_year=2033
-retire_month=6
+#retire_year=2033
+#retire_month=6
 speed=175
-class=0,1,2
+class=0,1
 maximum_comfortable_journey_minutes=105
-maximum_tolerable_journey_minutes=340
+maximum_tolerable_journey_minutes=488
 
 Image[E]=./images/toyota-yaris-xp210-tokyored_E.0.0,-33,14
 Image[SE]=./images/toyota-yaris-xp210-tokyored_SE.0.0,-13,0

@@ -1,3 +1,4 @@
+# Retire policy 2026-11-20: still in production in 2026 with no announced end; retire dates commented out. Revisit when an end is announced.
 # Kia Sportage fifth generation five-door, 2022 onwards.
 #
 # The NQ5 Sportage: the short-wheelbase UK/European body with the boomerang
@@ -14,8 +15,8 @@
 # Colours: grade (d); no UK chart was found. Black, silver, white and green
 # are plain names. Weights 15, 13, 12, 10, total 50, provisional.
 #
-# Speed 205 km/h. Comfort 95/322, on the line 180 + 1.5 x 95. Classes 3,4.
-# Dates are road presence: 2022 intro, retires staggered 2042-2045.
+# Speed 205 km/h. Comfort 95/473, on the line 330 + 1.5 x 95. Classes 1,2.
+# Dates are road presence: 2022 intro, retire dates commented out (still in production in 2026).
 #
 # Metres master: citycars/4.5/kia-sportage-5.blend. Interchange:
 # citycars/4.5/kia-sportage-5.dae. References:
@@ -35,12 +36,12 @@ copyright=JamesPetts
 DistributionWeight=15
 intro_year=2022
 intro_month=1
-retire_year=2045
-retire_month=6
+#retire_year=2045
+#retire_month=6
 speed=205
-class=3,4
+class=1,2
 maximum_comfortable_journey_minutes=95
-maximum_tolerable_journey_minutes=322
+maximum_tolerable_journey_minutes=473
 
 Image[E]=./images/kia-sportage-5-black_E.0.0,-33,14
 Image[SE]=./images/kia-sportage-5-black_SE.0.0,-13,0
@@ -58,12 +59,12 @@ copyright=JamesPetts
 DistributionWeight=13
 intro_year=2022
 intro_month=1
-retire_year=2044
-retire_month=6
+#retire_year=2044
+#retire_month=6
 speed=205
-class=3,4
+class=1,2
 maximum_comfortable_journey_minutes=95
-maximum_tolerable_journey_minutes=322
+maximum_tolerable_journey_minutes=473
 
 Image[E]=./images/kia-sportage-5-silver_E.0.0,-33,14
 Image[SE]=./images/kia-sportage-5-silver_SE.0.0,-13,0
@@ -81,12 +82,12 @@ copyright=JamesPetts
 DistributionWeight=12
 intro_year=2022
 intro_month=1
-retire_year=2043
-retire_month=6
+#retire_year=2043
+#retire_month=6
 speed=205
-class=3,4
+class=1,2
 maximum_comfortable_journey_minutes=95
-maximum_tolerable_journey_minutes=322
+maximum_tolerable_journey_minutes=473
 
 Image[E]=./images/kia-sportage-5-white_E.0.0,-33,14
 Image[SE]=./images/kia-sportage-5-white_SE.0.0,-13,0
@@ -104,12 +105,12 @@ copyright=JamesPetts
 DistributionWeight=10
 intro_year=2022
 intro_month=1
-retire_year=2042
-retire_month=6
+#retire_year=2042
+#retire_month=6
 speed=205
-class=3,4
+class=1,2
 maximum_comfortable_journey_minutes=95
-maximum_tolerable_journey_minutes=322
+maximum_tolerable_journey_minutes=473
 
 Image[E]=./images/kia-sportage-5-green_E.0.0,-33,14
 Image[SE]=./images/kia-sportage-5-green_SE.0.0,-13,0

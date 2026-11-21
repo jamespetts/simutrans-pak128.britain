@@ -10,7 +10,7 @@
 #
 # Weight: 350 in total (white 100, red 100, silver 80, grey 70).
 #
-# Speed 195 km/h; comfort 125/370 (line). Classes 1,2.
+# Speed 195 km/h; comfort 125/518 (line). Classes 1,2.
 # Dates: 1987-1993 with a road tail to about 2001.
 #
 # Metres master: citycars/4.5/ford-sierra-mk2.blend. References:
@@ -28,7 +28,7 @@ retire_month=6
 speed=195
 class=1,2
 maximum_comfortable_journey_minutes=125
-maximum_tolerable_journey_minutes=370
+maximum_tolerable_journey_minutes=518
 
 Image[E]=./images/ford-sierra-mk2-white_E.0.0,-33,14
 Image[SE]=./images/ford-sierra-mk2-white_SE.0.0,-13,0
@@ -51,7 +51,7 @@ retire_month=6
 speed=195
 class=1,2
 maximum_comfortable_journey_minutes=125
-maximum_tolerable_journey_minutes=370
+maximum_tolerable_journey_minutes=518
 
 Image[E]=./images/ford-sierra-mk2-red_E.0.0,-33,14
 Image[SE]=./images/ford-sierra-mk2-red_SE.0.0,-13,0
@@ -74,7 +74,7 @@ retire_month=6
 speed=195
 class=1,2
 maximum_comfortable_journey_minutes=125
-maximum_tolerable_journey_minutes=370
+maximum_tolerable_journey_minutes=518
 
 Image[E]=./images/ford-sierra-mk2-silver_E.0.0,-33,14
 Image[SE]=./images/ford-sierra-mk2-silver_SE.0.0,-13,0
@@ -97,7 +97,7 @@ retire_month=6
 speed=195
 class=1,2
 maximum_comfortable_journey_minutes=125
-maximum_tolerable_journey_minutes=370
+maximum_tolerable_journey_minutes=518
 
 Image[E]=./images/ford-sierra-mk2-grey_E.0.0,-33,14
 Image[SE]=./images/ford-sierra-mk2-grey_SE.0.0,-13,0

@@ -26,8 +26,8 @@
 # folded hood keep their own materials.
 #
 # Speed 80 km/h, an estimate for a 1919 10 hp light car; no published maximum
-# was found and the figure is recorded as an estimate. Comfort 35/235, on the
-# line 180 + 1.5 x 35: an open car with a folding screen. Classes 1,2.
+# was found and the figure is recorded as an estimate. Comfort 35/383, on the
+# line 330 + 1.5 x 35: an open car with a folding screen. Class 2.
 #
 # Dates are road presence: 1912 intro, retires staggered 1929-1932 on a
 # seventeen- to twenty-year tail.
@@ -51,9 +51,9 @@ intro_month=11
 retire_year=1932
 retire_month=6
 speed=80
-class=1,2
+class=2
 maximum_comfortable_journey_minutes=35
-maximum_tolerable_journey_minutes=235
+maximum_tolerable_journey_minutes=383
 
 Image[E]=./images/singer-ten-green_E.0.0,-33,14
 Image[SE]=./images/singer-ten-green_SE.0.0,-13,0
@@ -74,9 +74,9 @@ intro_month=11
 retire_year=1932
 retire_month=6
 speed=80
-class=1,2
+class=2
 maximum_comfortable_journey_minutes=35
-maximum_tolerable_journey_minutes=235
+maximum_tolerable_journey_minutes=383
 
 Image[E]=./images/singer-ten-black_E.0.0,-33,14
 Image[SE]=./images/singer-ten-black_SE.0.0,-13,0
@@ -97,9 +97,9 @@ intro_month=11
 retire_year=1931
 retire_month=6
 speed=80
-class=1,2
+class=2
 maximum_comfortable_journey_minutes=35
-maximum_tolerable_journey_minutes=235
+maximum_tolerable_journey_minutes=383
 
 Image[E]=./images/singer-ten-maroon_E.0.0,-33,14
 Image[SE]=./images/singer-ten-maroon_SE.0.0,-13,0
@@ -120,9 +120,9 @@ intro_month=11
 retire_year=1929
 retire_month=6
 speed=80
-class=1,2
+class=2
 maximum_comfortable_journey_minutes=35
-maximum_tolerable_journey_minutes=235
+maximum_tolerable_journey_minutes=383
 
 Image[E]=./images/singer-ten-blue_E.0.0,-33,14
 Image[SE]=./images/singer-ten-blue_SE.0.0,-13,0

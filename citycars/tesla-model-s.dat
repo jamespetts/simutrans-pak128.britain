@@ -17,7 +17,7 @@
 # Silver and Deep Blue are plain names in use on UK cars. Weights 12, 10, 10,
 # 8, total 40, provisional.
 #
-# Speed 225 km/h. Comfort 105/340, on the line 180 + 1.5 x 105. Classes 3,4.
+# Speed 225 km/h. Comfort 105/488, on the line 330 + 1.5 x 105. Classes 1,2,3.
 # Dates: intro October 2016, when the facelift reached UK roads, to 2021, when
 # right-hand-drive supply ended. The 2021-onwards Palladium car has no RHD
 # version and is not represented.
@@ -41,9 +41,9 @@ intro_month=10
 retire_year=2036
 retire_month=6
 speed=225
-class=3,4
+class=1,2,3
 maximum_comfortable_journey_minutes=105
-maximum_tolerable_journey_minutes=340
+maximum_tolerable_journey_minutes=488
 
 Image[E]=./images/tesla-model-s-white_E.0.0,-33,14
 Image[SE]=./images/tesla-model-s-white_SE.0.0,-13,0
@@ -64,9 +64,9 @@ intro_month=10
 retire_year=2035
 retire_month=6
 speed=225
-class=3,4
+class=1,2,3
 maximum_comfortable_journey_minutes=105
-maximum_tolerable_journey_minutes=340
+maximum_tolerable_journey_minutes=488
 
 Image[E]=./images/tesla-model-s-black_E.0.0,-33,14
 Image[SE]=./images/tesla-model-s-black_SE.0.0,-13,0
@@ -87,9 +87,9 @@ intro_month=10
 retire_year=2034
 retire_month=6
 speed=225
-class=3,4
+class=1,2,3
 maximum_comfortable_journey_minutes=105
-maximum_tolerable_journey_minutes=340
+maximum_tolerable_journey_minutes=488
 
 Image[E]=./images/tesla-model-s-midnightsilver_E.0.0,-33,14
 Image[SE]=./images/tesla-model-s-midnightsilver_SE.0.0,-13,0
@@ -110,9 +110,9 @@ intro_month=10
 retire_year=2033
 retire_month=6
 speed=225
-class=3,4
+class=1,2,3
 maximum_comfortable_journey_minutes=105
-maximum_tolerable_journey_minutes=340
+maximum_tolerable_journey_minutes=488
 
 Image[E]=./images/tesla-model-s-deepblue_E.0.0,-33,14
 Image[SE]=./images/tesla-model-s-deepblue_SE.0.0,-13,0

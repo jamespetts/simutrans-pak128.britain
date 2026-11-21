@@ -18,7 +18,7 @@
 # silver and blue are plain names. Weights 12, 10, 10, 8, total 40,
 # provisional.
 #
-# Speed 160 km/h. Comfort 65/280, on the line 180 + 1.5 x 65. Classes 0,1.
+# Speed 160 km/h. Comfort 65/428, on the line 330 + 1.5 x 65. Classes 0,1.
 # Dates are road presence: 2011 intro, retires staggered 2034-2037.
 #
 # Metres master: citycars/4.5/vw-up.blend. Interchange:
@@ -43,7 +43,7 @@ retire_month=6
 speed=160
 class=0,1
 maximum_comfortable_journey_minutes=65
-maximum_tolerable_journey_minutes=280
+maximum_tolerable_journey_minutes=428
 
 Image[E]=./images/vw-up-white_E.0.0,-33,14
 Image[SE]=./images/vw-up-white_SE.0.0,-13,0
@@ -66,7 +66,7 @@ retire_month=6
 speed=160
 class=0,1
 maximum_comfortable_journey_minutes=65
-maximum_tolerable_journey_minutes=280
+maximum_tolerable_journey_minutes=428
 
 Image[E]=./images/vw-up-black_E.0.0,-33,14
 Image[SE]=./images/vw-up-black_SE.0.0,-13,0
@@ -89,7 +89,7 @@ retire_month=6
 speed=160
 class=0,1
 maximum_comfortable_journey_minutes=65
-maximum_tolerable_journey_minutes=280
+maximum_tolerable_journey_minutes=428
 
 Image[E]=./images/vw-up-silver_E.0.0,-33,14
 Image[SE]=./images/vw-up-silver_SE.0.0,-13,0
@@ -112,7 +112,7 @@ retire_month=6
 speed=160
 class=0,1
 maximum_comfortable_journey_minutes=65
-maximum_tolerable_journey_minutes=280
+maximum_tolerable_journey_minutes=428
 
 Image[E]=./images/vw-up-blue_E.0.0,-33,14
 Image[SE]=./images/vw-up-blue_SE.0.0,-13,0

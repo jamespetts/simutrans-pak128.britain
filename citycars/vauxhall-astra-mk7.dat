@@ -1,3 +1,4 @@
+# Retire policy 2026-11-20: production ended 2021; retire dates are road-presence estimates, staggered by colourway.
 # Vauxhall Astra Mk7 (Astra K) five-door hatchback, 2015-2021.
 #
 # 4,370 mm long, 1,809 mm wide, 1,485 mm high, 2,662 mm wheelbase; 1.0-1.6
@@ -9,7 +10,7 @@
 #
 # Weight: 240 in total (silver 80, black 65, red 50, blue 45).
 #
-# Speed 210 km/h; comfort 125/370 (line). Classes 1,2.
+# Speed 210 km/h; comfort 125/518 (line). Classes 0,1.
 # Dates: 2015-2021 with a road tail to about 2029.
 #
 # Metres master: citycars/4.5/vauxhall-astra-mk7.blend. References:
@@ -23,12 +24,12 @@ copyright=JamesPetts
 DistributionWeight=80
 intro_year=2015
 intro_month=9
-retire_year=2029
+retire_year=2030
 retire_month=6
 speed=210
-class=1,2
+class=0,1
 maximum_comfortable_journey_minutes=125
-maximum_tolerable_journey_minutes=370
+maximum_tolerable_journey_minutes=518
 
 Image[E]=./images/vauxhall-astra-mk7-silver_E.0.0,-33,14
 Image[SE]=./images/vauxhall-astra-mk7-silver_SE.0.0,-13,0
@@ -46,12 +47,12 @@ copyright=JamesPetts
 DistributionWeight=65
 intro_year=2015
 intro_month=9
-retire_year=2028
-retire_month=6
+retire_year=2031
+retire_month=8
 speed=210
-class=1,2
+class=0,1
 maximum_comfortable_journey_minutes=125
-maximum_tolerable_journey_minutes=370
+maximum_tolerable_journey_minutes=518
 
 Image[E]=./images/vauxhall-astra-mk7-black_E.0.0,-33,14
 Image[SE]=./images/vauxhall-astra-mk7-black_SE.0.0,-13,0
@@ -69,12 +70,12 @@ copyright=JamesPetts
 DistributionWeight=50
 intro_year=2015
 intro_month=9
-retire_year=2027
-retire_month=6
+retire_year=2032
+retire_month=10
 speed=210
-class=1,2
+class=0,1
 maximum_comfortable_journey_minutes=125
-maximum_tolerable_journey_minutes=370
+maximum_tolerable_journey_minutes=518
 
 Image[E]=./images/vauxhall-astra-mk7-red_E.0.0,-33,14
 Image[SE]=./images/vauxhall-astra-mk7-red_SE.0.0,-13,0
@@ -92,12 +93,12 @@ copyright=JamesPetts
 DistributionWeight=45
 intro_year=2016
 intro_month=3
-retire_year=2026
-retire_month=6
+retire_year=2033
+retire_month=12
 speed=210
-class=1,2
+class=0,1
 maximum_comfortable_journey_minutes=125
-maximum_tolerable_journey_minutes=370
+maximum_tolerable_journey_minutes=518
 
 Image[E]=./images/vauxhall-astra-mk7-blue_E.0.0,-33,14
 Image[SE]=./images/vauxhall-astra-mk7-blue_SE.0.0,-13,0

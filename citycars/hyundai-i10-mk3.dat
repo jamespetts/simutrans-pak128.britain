@@ -1,4 +1,5 @@
-# Hyundai i10 third generation five-door, 2020-2026.
+# Retire policy 2026-11-20: still in production in 2026 with no announced end; retire dates commented out. Revisit when an end is announced.
+# Hyundai i10 third generation five-door, 2020-present.
 #
 # The AC3 i10: the wider, lower city car with the very wide trapezoid
 # grille, the sharp lamps and the blacked-out A-pillar. UK sales from
@@ -15,8 +16,8 @@
 # Polar White, Tomato Red, Phantom Black and Sleek Silver. Weights 12, 10, 10,
 # 8, total 40, provisional.
 #
-# Speed 165 km/h. Comfort 70/285, on the line 180 + 1.5 x 70. Classes 0,1.
-# Dates are road presence: 2020 intro, retires staggered 2040-2043.
+# Speed 165 km/h. Comfort 70/435, on the line 330 + 1.5 x 70. Classes 0,1.
+# Dates are road presence: 2020 intro, retire dates commented out (still in production in 2026).
 #
 # Metres master: citycars/4.5/hyundai-i10-mk3.blend. Interchange:
 # citycars/4.5/hyundai-i10-mk3.dae. References:
@@ -35,12 +36,12 @@ copyright=JamesPetts
 DistributionWeight=12
 intro_year=2020
 intro_month=1
-retire_year=2043
-retire_month=6
+#retire_year=2043
+#retire_month=6
 speed=165
 class=0,1
 maximum_comfortable_journey_minutes=70
-maximum_tolerable_journey_minutes=285
+maximum_tolerable_journey_minutes=435
 
 Image[E]=./images/hyundai-i10-mk3-polarwhite_E.0.0,-33,14
 Image[SE]=./images/hyundai-i10-mk3-polarwhite_SE.0.0,-13,0
@@ -58,12 +59,12 @@ copyright=JamesPetts
 DistributionWeight=10
 intro_year=2020
 intro_month=1
-retire_year=2042
-retire_month=6
+#retire_year=2042
+#retire_month=6
 speed=165
 class=0,1
 maximum_comfortable_journey_minutes=70
-maximum_tolerable_journey_minutes=285
+maximum_tolerable_journey_minutes=435
 
 Image[E]=./images/hyundai-i10-mk3-tomatored_E.0.0,-33,14
 Image[SE]=./images/hyundai-i10-mk3-tomatored_SE.0.0,-13,0
@@ -81,12 +82,12 @@ copyright=JamesPetts
 DistributionWeight=10
 intro_year=2020
 intro_month=1
-retire_year=2041
-retire_month=6
+#retire_year=2041
+#retire_month=6
 speed=165
 class=0,1
 maximum_comfortable_journey_minutes=70
-maximum_tolerable_journey_minutes=285
+maximum_tolerable_journey_minutes=435
 
 Image[E]=./images/hyundai-i10-mk3-phantomblack_E.0.0,-33,14
 Image[SE]=./images/hyundai-i10-mk3-phantomblack_SE.0.0,-13,0
@@ -104,12 +105,12 @@ copyright=JamesPetts
 DistributionWeight=8
 intro_year=2020
 intro_month=1
-retire_year=2040
-retire_month=6
+#retire_year=2040
+#retire_month=6
 speed=165
 class=0,1
 maximum_comfortable_journey_minutes=70
-maximum_tolerable_journey_minutes=285
+maximum_tolerable_journey_minutes=435
 
 Image[E]=./images/hyundai-i10-mk3-sleeksilver_E.0.0,-33,14
 Image[SE]=./images/hyundai-i10-mk3-sleeksilver_SE.0.0,-13,0

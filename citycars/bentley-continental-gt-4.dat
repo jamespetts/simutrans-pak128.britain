@@ -1,3 +1,4 @@
+# Retire policy 2026-11-20: still in production in 2026 with no announced end; retire dates commented out. Revisit when an end is announced.
 # Bentley Continental GT fourth generation, 2024 onwards.
 #
 # The 2024 car: the single-oval headlamp face, the wider track and the
@@ -17,9 +18,9 @@
 # palette and are only grade (c) until a fourth-generation UK brochure is
 # read. Weights 20, 16, 12, 10, total 58, provisional.
 #
-# Speed 335 km/h. Comfort 165/428, on the line 180 + 1.5 x 165. Class 4.
-# Dates: intro July 2024, the start of production and deliveries; retires
-# staggered 2043-2046.
+# Speed 335 km/h. Comfort 165/578, on the line 330 + 1.5 x 165. Classes 3,4.
+# Dates: intro July 2024, the start of production and deliveries; retire dates
+# commented out (still in production in 2026).
 #
 # Metres master: citycars/4.5/bentley-continental-gt-4.blend. Interchange:
 # citycars/4.5/bentley-continental-gt-4.dae. References:
@@ -38,12 +39,12 @@ copyright=JamesPetts
 DistributionWeight=20
 intro_year=2024
 intro_month=7
-retire_year=2046
-retire_month=6
+#retire_year=2046
+#retire_month=6
 speed=335
-class=4
+class=3,4
 maximum_comfortable_journey_minutes=165
-maximum_tolerable_journey_minutes=428
+maximum_tolerable_journey_minutes=578
 
 Image[E]=./images/bentley-continental-gt-4-tourmalinegreen_E.0.0,-33,14
 Image[SE]=./images/bentley-continental-gt-4-tourmalinegreen_SE.0.0,-13,0
@@ -61,12 +62,12 @@ copyright=JamesPetts
 DistributionWeight=16
 intro_year=2024
 intro_month=7
-retire_year=2045
-retire_month=6
+#retire_year=2045
+#retire_month=6
 speed=335
-class=4
+class=3,4
 maximum_comfortable_journey_minutes=165
-maximum_tolerable_journey_minutes=428
+maximum_tolerable_journey_minutes=578
 
 Image[E]=./images/bentley-continental-gt-4-gravitygrey_E.0.0,-33,14
 Image[SE]=./images/bentley-continental-gt-4-gravitygrey_SE.0.0,-13,0
@@ -84,12 +85,12 @@ copyright=JamesPetts
 DistributionWeight=12
 intro_year=2024
 intro_month=7
-retire_year=2044
-retire_month=6
+#retire_year=2044
+#retire_month=6
 speed=335
-class=4
+class=3,4
 maximum_comfortable_journey_minutes=165
-maximum_tolerable_journey_minutes=428
+maximum_tolerable_journey_minutes=578
 
 Image[E]=./images/bentley-continental-gt-4-beluga_E.0.0,-33,14
 Image[SE]=./images/bentley-continental-gt-4-beluga_SE.0.0,-13,0
@@ -107,12 +108,12 @@ copyright=JamesPetts
 DistributionWeight=10
 intro_year=2024
 intro_month=7
-retire_year=2043
-retire_month=6
+#retire_year=2043
+#retire_month=6
 speed=335
-class=4
+class=3,4
 maximum_comfortable_journey_minutes=165
-maximum_tolerable_journey_minutes=428
+maximum_tolerable_journey_minutes=578
 
 Image[E]=./images/bentley-continental-gt-4-glacierwhite_E.0.0,-33,14
 Image[SE]=./images/bentley-continental-gt-4-glacierwhite_SE.0.0,-13,0

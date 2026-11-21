@@ -21,7 +21,7 @@
 # plain names: silver, blue, grey and red. Weights silver 3, blue 3, grey 2,
 # red 2, total 10, provisional pending the central rebase.
 #
-# Speed 190 km/h and comfort 90/315, as the phase-1 car. Classes 3,4.
+# Speed 190 km/h and comfort 90/465, as the phase-1 car. Classes 2,3,4.
 #
 # Dates are road presence: June 1988 intro, retires staggered 2002-2005 on a
 # fourteen- to seventeen-year tail.
@@ -46,9 +46,9 @@ intro_month=6
 retire_year=2005
 retire_month=6
 speed=190
-class=3,4
+class=2,3,4
 maximum_comfortable_journey_minutes=90
-maximum_tolerable_journey_minutes=315
+maximum_tolerable_journey_minutes=465
 
 Image[E]=./images/renault-25-phase2-silver_E.0.0,-33,14
 Image[SE]=./images/renault-25-phase2-silver_SE.0.0,-13,0
@@ -69,9 +69,9 @@ intro_month=6
 retire_year=2005
 retire_month=6
 speed=190
-class=3,4
+class=2,3,4
 maximum_comfortable_journey_minutes=90
-maximum_tolerable_journey_minutes=315
+maximum_tolerable_journey_minutes=465
 
 Image[E]=./images/renault-25-phase2-blue_E.0.0,-33,14
 Image[SE]=./images/renault-25-phase2-blue_SE.0.0,-13,0
@@ -92,9 +92,9 @@ intro_month=6
 retire_year=2004
 retire_month=6
 speed=190
-class=3,4
+class=2,3,4
 maximum_comfortable_journey_minutes=90
-maximum_tolerable_journey_minutes=315
+maximum_tolerable_journey_minutes=465
 
 Image[E]=./images/renault-25-phase2-grey_E.0.0,-33,14
 Image[SE]=./images/renault-25-phase2-grey_SE.0.0,-13,0
@@ -115,9 +115,9 @@ intro_month=6
 retire_year=2003
 retire_month=6
 speed=190
-class=3,4
+class=2,3,4
 maximum_comfortable_journey_minutes=90
-maximum_tolerable_journey_minutes=315
+maximum_tolerable_journey_minutes=465
 
 Image[E]=./images/renault-25-phase2-red_E.0.0,-33,14
 Image[SE]=./images/renault-25-phase2-red_SE.0.0,-13,0

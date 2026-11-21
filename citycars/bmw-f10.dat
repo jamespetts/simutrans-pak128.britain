@@ -9,7 +9,7 @@
 #
 # Weight: 150 in total (black 55, silver 40, blue 30, white 25).
 #
-# Speed 250 km/h; comfort 135/385 (line). Classes 2,3.
+# Speed 250 km/h; comfort 135/533 (line). Class 2.
 # Dates: 2010-2017 with a road tail to about 2028.
 #
 # Metres master: citycars/4.5/bmw-f10.blend. References:
@@ -25,9 +25,9 @@ intro_month=3
 retire_year=2028
 retire_month=6
 speed=250
-class=2,3
+class=2
 maximum_comfortable_journey_minutes=135
-maximum_tolerable_journey_minutes=385
+maximum_tolerable_journey_minutes=533
 
 Image[E]=./images/bmw-f10-black_E.0.0,-33,14
 Image[SE]=./images/bmw-f10-black_SE.0.0,-13,0
@@ -48,9 +48,9 @@ intro_month=3
 retire_year=2027
 retire_month=6
 speed=250
-class=2,3
+class=2
 maximum_comfortable_journey_minutes=135
-maximum_tolerable_journey_minutes=385
+maximum_tolerable_journey_minutes=533
 
 Image[E]=./images/bmw-f10-silver_E.0.0,-33,14
 Image[SE]=./images/bmw-f10-silver_SE.0.0,-13,0
@@ -71,9 +71,9 @@ intro_month=3
 retire_year=2026
 retire_month=6
 speed=250
-class=2,3
+class=2
 maximum_comfortable_journey_minutes=135
-maximum_tolerable_journey_minutes=385
+maximum_tolerable_journey_minutes=533
 
 Image[E]=./images/bmw-f10-blue_E.0.0,-33,14
 Image[SE]=./images/bmw-f10-blue_SE.0.0,-13,0
@@ -94,9 +94,9 @@ intro_month=3
 retire_year=2025
 retire_month=6
 speed=250
-class=2,3
+class=2
 maximum_comfortable_journey_minutes=135
-maximum_tolerable_journey_minutes=385
+maximum_tolerable_journey_minutes=533
 
 Image[E]=./images/bmw-f10-white_E.0.0,-33,14
 Image[SE]=./images/bmw-f10-white_SE.0.0,-13,0

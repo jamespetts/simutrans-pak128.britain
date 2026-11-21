@@ -50,7 +50,7 @@ retire_month=6
 speed=115
 class=1,2
 maximum_comfortable_journey_minutes=70
-maximum_tolerable_journey_minutes=285
+maximum_tolerable_journey_minutes=435
 
 Image[E]=./images/bmc1100-trafalgar-blue_E.0.0,-33,14
 Image[SE]=./images/bmc1100-trafalgar-blue_SE.0.0,-13,0
@@ -73,7 +73,7 @@ retire_month=6
 speed=115
 class=1,2
 maximum_comfortable_journey_minutes=70
-maximum_tolerable_journey_minutes=285
+maximum_tolerable_journey_minutes=435
 
 Image[E]=./images/bmc1100-tartan-red_E.0.0,-33,14
 Image[SE]=./images/bmc1100-tartan-red_SE.0.0,-13,0
@@ -96,7 +96,7 @@ retire_month=6
 speed=115
 class=1,2
 maximum_comfortable_journey_minutes=70
-maximum_tolerable_journey_minutes=285
+maximum_tolerable_journey_minutes=435
 
 Image[E]=./images/bmc1100-snowberry-white_E.0.0,-33,14
 Image[SE]=./images/bmc1100-snowberry-white_SE.0.0,-13,0
@@ -119,7 +119,7 @@ retire_month=12
 speed=115
 class=1,2
 maximum_comfortable_journey_minutes=70
-maximum_tolerable_journey_minutes=285
+maximum_tolerable_journey_minutes=435
 
 Image[E]=./images/bmc1100-connaught-green_E.0.0,-33,14
 Image[SE]=./images/bmc1100-connaught-green_SE.0.0,-13,0
@@ -142,7 +142,7 @@ retire_month=6
 speed=115
 class=1,2
 maximum_comfortable_journey_minutes=70
-maximum_tolerable_journey_minutes=285
+maximum_tolerable_journey_minutes=435
 
 Image[E]=./images/bmc1100-el-paso-beige_E.0.0,-33,14
 Image[SE]=./images/bmc1100-el-paso-beige_SE.0.0,-13,0

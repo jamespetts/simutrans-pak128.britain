@@ -14,7 +14,7 @@
 # Colours: grade (c), provisional. Black, silver, white and blue are plain
 # names. Weights 20, 18, 17, 15, total 70, provisional.
 #
-# Speed 210 km/h. Comfort 95/322, on the line 180 + 1.5 x 95. Classes 3,4.
+# Speed 210 km/h. Comfort 95/473, on the line 330 + 1.5 x 95. Class 3.
 # Dates are road presence: 2007 intro, retires staggered 2027-2030.
 #
 # Metres master: citycars/4.5/bmw-x5-e70.blend. Interchange:
@@ -37,9 +37,9 @@ intro_month=4
 retire_year=2030
 retire_month=6
 speed=210
-class=3,4
+class=3
 maximum_comfortable_journey_minutes=95
-maximum_tolerable_journey_minutes=322
+maximum_tolerable_journey_minutes=473
 
 Image[E]=./images/bmw-x5-e70-black_E.0.0,-33,14
 Image[SE]=./images/bmw-x5-e70-black_SE.0.0,-13,0
@@ -60,9 +60,9 @@ intro_month=4
 retire_year=2029
 retire_month=6
 speed=210
-class=3,4
+class=3
 maximum_comfortable_journey_minutes=95
-maximum_tolerable_journey_minutes=322
+maximum_tolerable_journey_minutes=473
 
 Image[E]=./images/bmw-x5-e70-silver_E.0.0,-33,14
 Image[SE]=./images/bmw-x5-e70-silver_SE.0.0,-13,0
@@ -83,9 +83,9 @@ intro_month=4
 retire_year=2028
 retire_month=6
 speed=210
-class=3,4
+class=3
 maximum_comfortable_journey_minutes=95
-maximum_tolerable_journey_minutes=322
+maximum_tolerable_journey_minutes=473
 
 Image[E]=./images/bmw-x5-e70-white_E.0.0,-33,14
 Image[SE]=./images/bmw-x5-e70-white_SE.0.0,-13,0
@@ -106,9 +106,9 @@ intro_month=4
 retire_year=2027
 retire_month=6
 speed=210
-class=3,4
+class=3
 maximum_comfortable_journey_minutes=95
-maximum_tolerable_journey_minutes=322
+maximum_tolerable_journey_minutes=473
 
 Image[E]=./images/bmw-x5-e70-blue_E.0.0,-33,14
 Image[SE]=./images/bmw-x5-e70-blue_SE.0.0,-13,0

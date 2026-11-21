@@ -24,8 +24,8 @@
 # central rebase.
 #
 # Speed 225 km/h, around the 325i's 240 km/h and the 320i's 220 km/h; the 335i
-# and the M3 are not modelled. Comfort 125/370, on the line 180 + 1.5 x 125,
-# the same as the E39. Classes 2,3.
+# and the M3 are not modelled. Comfort 125/518, on the line 330 + 1.5 x 125,
+# the same as the E39. Classes 1,2.
 #
 # Dates are road presence, not production: March 2005 intro, retires staggered
 # 2020-2023 on a fifteen- to eighteen-year tail.
@@ -52,7 +52,7 @@ retire_month=6
 speed=225
 class=1,2
 maximum_comfortable_journey_minutes=125
-maximum_tolerable_journey_minutes=370
+maximum_tolerable_journey_minutes=518
 
 Image[E]=./images/bmw-e90-silver_E.0.0,-33,14
 Image[SE]=./images/bmw-e90-silver_SE.0.0,-13,0
@@ -75,7 +75,7 @@ retire_month=6
 speed=225
 class=1,2
 maximum_comfortable_journey_minutes=125
-maximum_tolerable_journey_minutes=370
+maximum_tolerable_journey_minutes=518
 
 Image[E]=./images/bmw-e90-black_E.0.0,-33,14
 Image[SE]=./images/bmw-e90-black_SE.0.0,-13,0
@@ -98,7 +98,7 @@ retire_month=6
 speed=225
 class=1,2
 maximum_comfortable_journey_minutes=125
-maximum_tolerable_journey_minutes=370
+maximum_tolerable_journey_minutes=518
 
 Image[E]=./images/bmw-e90-white_E.0.0,-33,14
 Image[SE]=./images/bmw-e90-white_SE.0.0,-13,0
@@ -121,7 +121,7 @@ retire_month=6
 speed=225
 class=1,2
 maximum_comfortable_journey_minutes=125
-maximum_tolerable_journey_minutes=370
+maximum_tolerable_journey_minutes=518
 
 Image[E]=./images/bmw-e90-blue_E.0.0,-33,14
 Image[SE]=./images/bmw-e90-blue_SE.0.0,-13,0

@@ -18,8 +18,8 @@
 # Total 13. Provisional pending the central rebase.
 #
 # Speed 175 km/h, a step below the HH-R because the R3 was a lighter car with the
-# smaller engine range. Comfort 90/315, on the line 180 + 1.5 x 90, a step below the
-# HH-R's 92/320 and equal to the R8 200 hatchback, whose platform it developed.
+# smaller engine range. Comfort 90/465, on the line 330 + 1.5 x 90, a step below the
+# HH-R's 92/468 and equal to the R8 200 hatchback, whose platform it developed.
 # Classes 0,1,2: the R3 was the mainstream supermini of the Rover range.
 #
 # Dates are road presence, not production: October 1995 intro, retires staggered
@@ -44,9 +44,9 @@ intro_month=10
 retire_year=2010
 retire_month=6
 speed=175
-class=1,2
+class=0,1,2
 maximum_comfortable_journey_minutes=90
-maximum_tolerable_journey_minutes=315
+maximum_tolerable_journey_minutes=465
 
 Image[E]=./images/rover-200-r3-red_E.0.0,-33,14
 Image[SE]=./images/rover-200-r3-red_SE.0.0,-13,0
@@ -67,9 +67,9 @@ intro_month=10
 retire_year=2012
 retire_month=6
 speed=175
-class=1,2
+class=0,1,2
 maximum_comfortable_journey_minutes=90
-maximum_tolerable_journey_minutes=315
+maximum_tolerable_journey_minutes=465
 
 Image[E]=./images/rover-200-r3-silver_E.0.0,-33,14
 Image[SE]=./images/rover-200-r3-silver_SE.0.0,-13,0
@@ -90,9 +90,9 @@ intro_month=10
 retire_year=2008
 retire_month=6
 speed=175
-class=1,2
+class=0,1,2
 maximum_comfortable_journey_minutes=90
-maximum_tolerable_journey_minutes=315
+maximum_tolerable_journey_minutes=465
 
 Image[E]=./images/rover-200-r3-white_E.0.0,-33,14
 Image[SE]=./images/rover-200-r3-white_SE.0.0,-13,0
@@ -113,9 +113,9 @@ intro_month=3
 retire_year=2011
 retire_month=6
 speed=175
-class=1,2
+class=0,1,2
 maximum_comfortable_journey_minutes=90
-maximum_tolerable_journey_minutes=315
+maximum_tolerable_journey_minutes=465
 
 Image[E]=./images/rover-200-r3-blue_E.0.0,-33,14
 Image[SE]=./images/rover-200-r3-blue_SE.0.0,-13,0

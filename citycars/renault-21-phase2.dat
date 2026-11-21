@@ -24,7 +24,7 @@
 # names: silver, red, blue and white. Weights silver 3, red 3, blue 2, white 2,
 # total 10, provisional pending the central rebase.
 #
-# Speed 180 km/h and comfort 75/295, as the phase-1 car. Classes 2,3.
+# Speed 180 km/h and comfort 75/443, as the phase-1 car. Classes 1,2,3.
 #
 # Dates are road presence: May 1989 intro, retires staggered 2004-2007 on a
 # fifteen- to eighteen-year tail.
@@ -48,9 +48,9 @@ intro_month=5
 retire_year=2007
 retire_month=6
 speed=180
-class=2,3
+class=1,2,3
 maximum_comfortable_journey_minutes=75
-maximum_tolerable_journey_minutes=295
+maximum_tolerable_journey_minutes=443
 
 Image[E]=./images/renault-21-phase2-silver_E.0.0,-33,14
 Image[SE]=./images/renault-21-phase2-silver_SE.0.0,-13,0
@@ -71,9 +71,9 @@ intro_month=5
 retire_year=2007
 retire_month=6
 speed=180
-class=2,3
+class=1,2,3
 maximum_comfortable_journey_minutes=75
-maximum_tolerable_journey_minutes=295
+maximum_tolerable_journey_minutes=443
 
 Image[E]=./images/renault-21-phase2-red_E.0.0,-33,14
 Image[SE]=./images/renault-21-phase2-red_SE.0.0,-13,0
@@ -94,9 +94,9 @@ intro_month=5
 retire_year=2006
 retire_month=6
 speed=180
-class=2,3
+class=1,2,3
 maximum_comfortable_journey_minutes=75
-maximum_tolerable_journey_minutes=295
+maximum_tolerable_journey_minutes=443
 
 Image[E]=./images/renault-21-phase2-blue_E.0.0,-33,14
 Image[SE]=./images/renault-21-phase2-blue_SE.0.0,-13,0
@@ -117,9 +117,9 @@ intro_month=5
 retire_year=2005
 retire_month=6
 speed=180
-class=2,3
+class=1,2,3
 maximum_comfortable_journey_minutes=75
-maximum_tolerable_journey_minutes=295
+maximum_tolerable_journey_minutes=443
 
 Image[E]=./images/renault-21-phase2-white_E.0.0,-33,14
 Image[SE]=./images/renault-21-phase2-white_SE.0.0,-13,0

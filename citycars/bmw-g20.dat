@@ -1,3 +1,4 @@
+# Retire policy 2026-11-20: still in production in 2026 with no announced end; retire dates commented out. Revisit when an end is announced.
 # BMW 3 Series G20 four-door saloon, 2019-.
 #
 # The seventh 3-series, on the CLAR platform: the saloon that replaced the F30
@@ -23,10 +24,10 @@
 # central rebase.
 #
 # Speed 250 km/h, the electronic limiter that applies to the whole range, the
-# same figure the F30 and F10 carry. Comfort 135/385, on the line
-# 180 + 1.5 x 135, equal to the F30. Classes 2,3.
+# same figure the F30 and F10 carry. Comfort 135/533, on the line
+# 330 + 1.5 x 135, equal to the F30. Classes 1,2.
 #
-# Dates are road presence: March 2019 intro, retires staggered 2034-2037 on a
+# Dates are road presence: March 2019 intro, retire dates commented out (still in production in 2026)
 # fifteen- to eighteen-year tail, so every colourway is still current in 2026.
 #
 # Metres master: citycars/4.5/bmw-g20.blend. Interchange:
@@ -45,12 +46,12 @@ copyright=JamesPetts
 DistributionWeight=2
 intro_year=2019
 intro_month=3
-retire_year=2035
-retire_month=6
+#retire_year=2035
+#retire_month=6
 speed=250
 class=1,2
 maximum_comfortable_journey_minutes=135
-maximum_tolerable_journey_minutes=385
+maximum_tolerable_journey_minutes=533
 
 Image[E]=./images/bmw-g20-white_E.0.0,-33,14
 Image[SE]=./images/bmw-g20-white_SE.0.0,-13,0
@@ -68,12 +69,12 @@ copyright=JamesPetts
 DistributionWeight=3
 intro_year=2019
 intro_month=3
-retire_year=2037
-retire_month=6
+#retire_year=2037
+#retire_month=6
 speed=250
 class=1,2
 maximum_comfortable_journey_minutes=135
-maximum_tolerable_journey_minutes=385
+maximum_tolerable_journey_minutes=533
 
 Image[E]=./images/bmw-g20-black_E.0.0,-33,14
 Image[SE]=./images/bmw-g20-black_SE.0.0,-13,0
@@ -91,12 +92,12 @@ copyright=JamesPetts
 DistributionWeight=3
 intro_year=2019
 intro_month=3
-retire_year=2036
-retire_month=6
+#retire_year=2036
+#retire_month=6
 speed=250
 class=1,2
 maximum_comfortable_journey_minutes=135
-maximum_tolerable_journey_minutes=385
+maximum_tolerable_journey_minutes=533
 
 Image[E]=./images/bmw-g20-grey_E.0.0,-33,14
 Image[SE]=./images/bmw-g20-grey_SE.0.0,-13,0
@@ -114,12 +115,12 @@ copyright=JamesPetts
 DistributionWeight=2
 intro_year=2019
 intro_month=3
-retire_year=2034
-retire_month=6
+#retire_year=2034
+#retire_month=6
 speed=250
 class=1,2
 maximum_comfortable_journey_minutes=135
-maximum_tolerable_journey_minutes=385
+maximum_tolerable_journey_minutes=533
 
 Image[E]=./images/bmw-g20-blue_E.0.0,-33,14
 Image[SE]=./images/bmw-g20-blue_SE.0.0,-13,0

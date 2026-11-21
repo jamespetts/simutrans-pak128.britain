@@ -14,7 +14,7 @@
 # Colours: grade (d); no UK chart was found. White, blue, red and grey are
 # plain names. Weights 12, 10, 10, 8, total 40, provisional.
 #
-# Speed 150 km/h. Comfort 60/270, on the line 180 + 1.5 x 60: a tall, roomy
+# Speed 150 km/h. Comfort 60/420, on the line 330 + 1.5 x 60: a tall, roomy
 # city cabin. Classes 0,1.
 # Dates are road presence: 2004 intro, retires staggered 2020-2023.
 #
@@ -39,7 +39,7 @@ retire_month=6
 speed=150
 class=0,1
 maximum_comfortable_journey_minutes=60
-maximum_tolerable_journey_minutes=270
+maximum_tolerable_journey_minutes=420
 
 Image[E]=./images/fiat-panda-2-white_E.0.0,-33,14
 Image[SE]=./images/fiat-panda-2-white_SE.0.0,-13,0
@@ -62,7 +62,7 @@ retire_month=6
 speed=150
 class=0,1
 maximum_comfortable_journey_minutes=60
-maximum_tolerable_journey_minutes=270
+maximum_tolerable_journey_minutes=420
 
 Image[E]=./images/fiat-panda-2-blue_E.0.0,-33,14
 Image[SE]=./images/fiat-panda-2-blue_SE.0.0,-13,0
@@ -85,7 +85,7 @@ retire_month=6
 speed=150
 class=0,1
 maximum_comfortable_journey_minutes=60
-maximum_tolerable_journey_minutes=270
+maximum_tolerable_journey_minutes=420
 
 Image[E]=./images/fiat-panda-2-red_E.0.0,-33,14
 Image[SE]=./images/fiat-panda-2-red_SE.0.0,-13,0
@@ -108,7 +108,7 @@ retire_month=6
 speed=150
 class=0,1
 maximum_comfortable_journey_minutes=60
-maximum_tolerable_journey_minutes=270
+maximum_tolerable_journey_minutes=420
 
 Image[E]=./images/fiat-panda-2-grey_E.0.0,-33,14
 Image[SE]=./images/fiat-panda-2-grey_SE.0.0,-13,0

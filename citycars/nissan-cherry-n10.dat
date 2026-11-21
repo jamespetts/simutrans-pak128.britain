@@ -13,9 +13,9 @@
 # colour names: white, red, blue and silver. Weights white 3, red 3, blue 2,
 # silver 2, total 10, provisional pending the central rebase.
 #
-# Speed 140 km/h for the 1.2, the volume UK engine. Comfort 55/265, on the line
-# 180 + 1.5 x 55, a step above the E10's 50/255 because the hatchback is roomier
-# and rides better. Classes 0,1,2.
+# Speed 140 km/h for the 1.2, the volume UK engine. Comfort 55/413, on the line
+# 330 + 1.5 x 55, a step above the E10's 50/405 because the hatchback is roomier
+# and rides better. Classes 1,2.
 #
 # Dates are road presence: September 1978 intro, retires staggered 1994-1997 on a
 # sixteen- to nineteen-year tail.
@@ -42,7 +42,7 @@ retire_month=6
 speed=140
 class=1,2
 maximum_comfortable_journey_minutes=55
-maximum_tolerable_journey_minutes=265
+maximum_tolerable_journey_minutes=413
 
 Image[E]=./images/nissan-cherry-n10-white_E.0.0,-33,14
 Image[SE]=./images/nissan-cherry-n10-white_SE.0.0,-13,0
@@ -65,7 +65,7 @@ retire_month=6
 speed=140
 class=1,2
 maximum_comfortable_journey_minutes=55
-maximum_tolerable_journey_minutes=265
+maximum_tolerable_journey_minutes=413
 
 Image[E]=./images/nissan-cherry-n10-red_E.0.0,-33,14
 Image[SE]=./images/nissan-cherry-n10-red_SE.0.0,-13,0
@@ -88,7 +88,7 @@ retire_month=6
 speed=140
 class=1,2
 maximum_comfortable_journey_minutes=55
-maximum_tolerable_journey_minutes=265
+maximum_tolerable_journey_minutes=413
 
 Image[E]=./images/nissan-cherry-n10-blue_E.0.0,-33,14
 Image[SE]=./images/nissan-cherry-n10-blue_SE.0.0,-13,0
@@ -111,7 +111,7 @@ retire_month=6
 speed=140
 class=1,2
 maximum_comfortable_journey_minutes=55
-maximum_tolerable_journey_minutes=265
+maximum_tolerable_journey_minutes=413
 
 Image[E]=./images/nissan-cherry-n10-silver_E.0.0,-33,14
 Image[SE]=./images/nissan-cherry-n10-silver_SE.0.0,-13,0

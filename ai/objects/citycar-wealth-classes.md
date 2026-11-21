@@ -1,6 +1,6 @@
 ---
 status: draft
-verified: New ex-15 @ cfd36f1b3
+verified: New ex-15 @ 209c09a77 (working tree, 2026-11-20)
 ---
 # Citycar wealth classes (calibration and coverage)
 
@@ -36,7 +36,8 @@ same rank means the same segment of society in every era; absolute income change
 The class pools must be populated wherever `car_ownership[class]` is non-zero, because that
 table (indexed by class, 0 lowest) already throttles what share of each class has car
 access: Very high is 82% from 1750 and 85–93% later; High reaches 20% by 1920 and 60% by
-1950; Medium 21% (1951); Low 5% (1955); Very low 0 before 1945, 2% (1955), 5% (1960).
+1950; Medium 21% (1951); Low 5% (1955); Very low 0 before 1940, 1% (1940), 2% (1955),
+5% (1960).
 Marginal access is still access: **keep the pools populated even when the percentage is
 small** — frequency is handled by this table and by `citycar_level`, not by the class
 lists. `[USER-DIRECTION:2026-11-15]`
@@ -46,15 +47,17 @@ lists. `[USER-DIRECTION:2026-11-15]`
 1. A model lists every class band that plausibly drove it at some point in its road life:
    trim spread at purchase plus downward drift into cheaper hands as it ages (a Ford
    Cortina is Low and Medium for this reason).
-2. Genuine cross-class cars list widely (the BMC Mini: 0–3; the Range Rover: 2–4).
+2. Genuine cross-class cars list widely (the Jaguar XF X250: `2,3`; the Range Rover L405:
+   `3,4`; the BMC Mini: `0,1`).
 3. The cheapest aged models carry band 0 once the class has car access at all — in practice from
-   1945, when `privatecar.tab` first gives class 0 a non-zero share. **Before 1945 the Very-low and
-   Low classes had no car ownership whatsoever** (`car_ownership[0]` and `[1]` are both zero from
-   1750 to 1945, and even in 1935 only Medium at 3% and High at 33% had cars). Pre-war cars
-   therefore start at Medium, and the characteristic Very-low vehicle of c. 1920–1965 is the
-   **motorcycle and sidecar** — era-specific outfits (BSA 557 combinations, Norton Big Four, BSA M21
-   + Watsonian) are listed in [citycar-asset-gaps](citycar-asset-gaps.md) section C1 with classes
-   `0,1`. `[USER-DIRECTION:2026-11-15]` `[EXECUTION-VERIFIED:2026-11-18]`
+   1940, when `privatecar.tab` first gives class 0 a non-zero share. Class 1 has 1% from 1925.
+   **Class 0 had no car ownership before 1940, and class 1 none before 1925**
+   (`car_ownership[0]` is zero from 1750 to 1940, `[1]` from 1750 to 1925; even in 1935 only
+   Medium at 3% and High at 33% had cars). Pre-war cars therefore start at Medium or Low-and-Medium,
+   not class 0, and the characteristic Very-low vehicle of c. 1920–1965 is the **motorcycle and
+   sidecar** — era-specific outfits (BSA 557 combinations, Norton Big Four, BSA M21 + Watsonian)
+   are listed in [citycar-asset-gaps](citycar-asset-gaps.md) section C1 with classes `0,1`.
+   `[USER-DIRECTION:2026-11-15]` `[EXECUTION-VERIFIED:2026-11-18]`
 4. Horse-drawn: private carriages and the park drag are 3–4; the working cart is 0–1.
 
 **Correction, 2026-11-18.** The first calibration put the pre-war cheap cars — Ford T, Austin Seven,
@@ -64,200 +67,257 @@ are now Medium (2), or Low-and-Medium (1,2) where their road life runs into the 
 Very-low pool is the motorcycle outfits, and it is thin because only two pre-war outfits exist
 (BSA 557 from 1921 and BSA Sloper from 1930; the Norton Big Four runs 1940–48).
 
-## Assignments (by class list)
+## How a class list is calibrated (2026-11-20)
 
-Revised 2026-11-18 across the whole fleet of 247 models, applying principles 1–4 above. Forty-one
-models changed. The changes were of three kinds:
+The earlier rule — purchase band plus one band below — assumed that five years of depreciation
+always moves a car down exactly one band. That assumption is wrong. Depreciation varies by
+segment and era, so the lower band has to be calculated from the actual five-year-old price.
 
-1. **Prestige cars widened from `4` to `3,4`** where the model genuinely passed into prosperous
-   but not plutocratic hands as it aged: the BMW 7-series, Mercedes S-Class and W116, Audi A8,
-   Lexus LS400, Jaguar XJ, Daimler TE30 and Vauxhall 30-98. The Rolls-Royce and Bentley models stay
-   at `4` alone, on the ground that their running costs kept them out of ordinary use.
-2. **Single-band `3` widened** where the car sat across the High boundary: Argyll 15/30, Daimler
-   Fifteen, Jaguar 420, Jaguar S-Type, Rover 8, Rover 20, Rover P4 75, Rover Twelve, Rover 12 P2 and
-   14 P2, Sunbeam 12/16, Wolseley 16/20 and 6/80, Humber Hawk VI.
-3. **Single-band `2` corrected down or across** where the model was a mainstream car rather than an
-   executive one: Ford Mondeo Mk1 and Mk4, Peugeot 206 and the Qashqai J10 dropped to `1,2`;
-   Leyland Princess widened to `2,3`; the three early light cars (Star 7 hp, De Dion Type V,
-   Peugeot Type 69 Bébé) set to `1,2`.
+The redo works in six steps for every car:
 
-The distribution after revision:
+1. **New-price band.** Put the launch price of the volume trim on the era's earnings ladder.
+   407 of the 425 cars now have a model-specific launch price: 194 from the original price
+   research and 213 added by the 2026-11-20 verification pass. The other 18 keep the committed
+   purchase band and use a representative price inside that band for the five-year calculation;
+   `price_source` in `ai/temp/wealth_results.csv` records which is which.
+2. **Five-year price.** Multiply the new price by the researched five-year retained value for the
+   model or, where no model-specific figure exists, its segment and era. Model-specific values
+   override the matrix for the XF, XJ, S-Class, 7-series, A8, Range Rover, Defender, Rolls-Royce,
+   Bentley, Tesla, BYD, Jaecoo, Fiesta, Focus, Mondeo, Ka, Mini, Beetle, 2CV, Lada, Yugo, Fiat 126
+   and Škoda Estelle.
+3. **Five-year band.** Put the five-year price on the earnings ladder using earnings at
+   launch + 5, not at launch. This matters in fast-growing or inflationary periods.
+4. **Union.** The class list is the contiguous union of the new-price band and the five-year band.
+   It can therefore be one, two or three bands. A four-band span is capped at three, dropping the
+   lowest band, so that no model blurs the whole ladder.
+5. **Running-cost floor.** A cheap used executive or luxury car is not a Low-household car once
+   fuel, insurance, tyres and repairs are counted. The floor is a model-level minimum, not a
+   segment average. It is derived from the running-cost index described below, which in practice
+   reproduces the model-group floors:
+   - flagship luxury (Rolls-Royce, Bentley, 7-series, A8, S-Class, LS, XJ from 1980): High (3);
+   - full-size executive (5-series, A6, E-Class, XF, S-Type, ES, Rover 800, P5/P6): Medium (2);
+   - large luxury SUV (Range Rover P38/L322/L405, X5, Cayenne, Discovery 3–5): High (3);
+   - utility SUV and Land Rover (early Range Rover, Discovery 1–2, Series): Medium (2);
+   - high-end sports (Aston, Porsche): Medium (2);
+   - compact executive (3-series, A4, C-Class), mainstream cars, small SUVs and cheap sports
+     cars: no floor.
+   The index can add one band where a model's running cost is at least 1.5× its segment median,
+   or two at 2.2×, but only for models whose base floor is below High. The floor raises only the
+   lower bound; it never raises the top.
+6. **Pre-war floor.** Before 1945 the absolute wage ladder is not comparable with the modern
+   market: even cheap cars were several times annual earnings and classes 0 and 1 had little or no
+   car ownership. Pre-1919 cars therefore start at Medium (2); 1919–44 cars start at Medium (2),
+   or Low-and-Medium (1,2) where the model is cheap and its road life runs into the 1950s.
+
+### Class thresholds
+
+Multiples of annual average earnings at the relevant year:
+
+| Era | Class 0 | Class 1 | Class 2 | Class 3 | Class 4 |
+| --- | --- | --- | --- | --- | --- |
+| pre-1919 | ≤1.0× | ≤2.0× | ≤4.0× | ≤8.0× | >8.0× |
+| 1919–1944 | ≤0.5× | ≤1.0× | ≤2.0× | ≤4.0× | >4.0× |
+| 1945–1959 | ≤0.35× | ≤1.0× | ≤2.0× | ≤4.0× | >4.0× |
+| 1960–2026 | ≤0.25× | ≤0.75× | ≤1.5× | ≤3.0× | >3.0× |
+
+The 1960+ thresholds follow the earlier 0.75/1.5/3.0 ladder, with 0.25× as the Very-low ceiling.
+The earlier thresholds are shifted because car ownership was concentrated: a 1902 light car at
+five times average earnings was a Medium car, not a Very-high one.
+
+### Retained values used
+
+The research matrix (five-year retail value, per cent of new list price):
+
+| Segment | pre-1900 | 1900–18 | 1919–39 | 1945–59 | 1960–79 | 1980–99 | 2000–26 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| A City / microcar | 8 | 17 | 25 | 105 | 55 | 40 | 45 |
+| B Supermini | 8 | 16 | 24 | 100 | 53 | 39 | 44 |
+| C Lower medium | 8 | 15 | 22 | 92 | 48 | 35 | 37 |
+| D Upper medium | 7 | 14 | 20 | 85 | 44 | 32 | 35 |
+| E Executive | 6 | 12 | 18 | 74 | 38 | 28 | 33 |
+| F Luxury | 5 | 9 | 14 | 58 | 30 | 24 | 28 |
+| Sports | 7 | 14 | 21 | 88 | 48 | 36 | 46 |
+| SUV / 4x4 | — | — | — | 96 | 50 | 37 | 44 |
+| MPV | — | — | — | — | — | 36 | 41 |
+
+Recent 2021–26 readings are slightly higher for most segments (A 49, B 47, C 40, D 38, E 35,
+F 28, Sports 50, SUV 48, MPV 45); they are used for models launched after 2020. The 1945–59
+column is above 100 per cent because the controlled post-war new-car market traded above list;
+that is measured evidence, not an error. It is why some early post-war cars have a one-band list
+(for example the Ford Anglia 100E, new and five-year-old both in Medium).
+
+### Price verification pass (2026-11-20)
+
+The first redo had a model-specific price for 194 cars and kept the committed band for the other
+231. A verification pass has now priced 213 of those 231 from period UK sources:
+
+| Result | Models |
+| --- | --- |
+| Priced, high confidence | 136 |
+| Priced, medium confidence | 60 |
+| Priced, low confidence | 17 |
+| Not found, still on the fallback band | 18 |
+
+The sources are period price lists, launch reports and road tests rather than modern
+retrospectives: Motor Sport, Autocar, Motor, The Motor, Financial Times, The Independent,
+Commercial Motor, manufacturer press offices, marque clubs and reproduced dealer adverts. The
+verified prices are in `ai/temp/price_research_merged.csv`; the six batch files retain the URLs.
+
+The correction that matters most is the removal of the round-number block. The 1972 BMW 520 is
+£2,999, not £15,000; the 1974 Golf is £1,294, not £6,000; the 1948 2CV is £400, not £3,000; the
+1986 XJ6 2.9 is £17,000, not £70,000. The 2022 Kia Sportage is £26,745, so it is `1,2`, not the
+inherited `3,4`. In total 121 class lists changed in the final application.
+
+The 18 cars still on the fallback band are:
+Ford Zephyr Mk3, Hillman Minx Arrow, Datsun Cherry F10, Datsun Cherry N10, Datsun Sunny B310,
+Nissan Sunny B11, Austin Metro Mk2, Renault 25 Phase 1, Rover 200 SD3, Nissan Bluebird T12,
+Citroën CX Series 2, Nissan Sunny N13, Renault 25 Phase 2, Renault 21 Phase 2, Vauxhall Astra Mk3,
+Renault 19 Phase 2, Ford Sierra Mk3 and Vauxhall Vectra B. Their lists remain lower-confidence.
+
+### Running-cost index (2026-11-20)
+
+The index is a per-model annual running cost at age five, built from a 9-segment × 6-era matrix
+and a model-level adjustment for price position and known outliers.
+
+| Component | Source and method |
+| --- | --- |
+| Fuel | UK pump price for the year at launch + 5 (DESNZ *Quarterly Energy Prices* 1954–2025; Hansard petrol answers 1913–1952), annual mileage 6,000–10,000 by era, and the segment/era MPG adjusted by the model's price ratio within its segment |
+| Insurance | Parkers insurance-group ranges for 1980–2026, interpolated by the model's price ratio; before 1980 there was no group rating and the matrix uses a small third-party provision |
+| Servicing | Kwik Fit engine-band service prices plus the statutory MOT fee, scaled to the era by earnings and a service-frequency multiplier (7 services a year pre-1919, 4 in 1919–39, 2.5 in 1945–59, 2 in 1960–79, 1.5 in 1980–99, 1 now) |
+| Tyres | Segment/era tyre cost, scaled the same way |
+| Repair risk | 1–4 by segment and era, plus one for flagship luxury, large luxury SUV and exotic sports cars |
+
+The model-level adjustment uses the model's verified price relative to its segment median: a car
+priced twice the segment median uses about 18 per cent more fuel, carries a higher insurance
+group and costs more to service. Explicit overrides cover the known outliers (Range Rover, X5,
+Cayenne, Discovery, 7-series, A8, S-Class, XJ, LS, Rolls-Royce, Bentley, Aston, Porsche, the
+2CV/Fiat 126, the small city cars and the EVs).
+
+The result is a dimensionless index, 1.0 = the segment-era median. The distribution is 0.5–2.2,
+with most cars at 0.8–1.2. The high end is exactly the expected group: Cayenne 2.02, Range Rover
+L322 1.99, Range Rover L405 1.95, X5 E53 1.84, Discovery 3/4/5 and X5 E70/G05 1.74–1.76,
+Bentley and Rolls-Royce 1.7–2.2. Every one of those already has a base floor of High, so the
+index confirms the floor rather than changing it. The only model the index moves is the Porsche
+Macan Electric, from Medium to High (2→3), because its insurance group and tyre costs remain
+luxury-SUV levels even though its fuel cost is low.
+
+The weak parts are recorded rather than hidden: all pre-1980 MPG figures are period-typical
+estimates marked low confidence; the 1960–79 fuel price uses the 1970 value for an era containing
+two oil shocks; service and tyre costs are 2025 references scaled by earnings and a
+service-frequency multiplier, not measured period bills; and the index is not applied before
+1945, where the ownership floor dominates.
+
+### Examples
+
+| Model | New band | Five-year band | Running floor | Class list |
+| --- | --- | --- | --- | --- |
+| Jaguar XF X250 (2008) | High (3) | Low (1) | Medium (2) | `2,3` |
+| Jaguar XF X260 (2015) | Medium (2) | Low (1) | Medium (2) | `2` |
+| BMW 5-series E39 (1995) | High (3) | Low (1) | Medium (2) | `2,3` |
+| BMW 5-series G60 (2023) | Medium (2) | Low (1) | Medium (2) | `2` |
+| BMW 7-series G70 (2022) | Very high (4) | Medium (2) | High (3) | `3,4` |
+| Ford Fiesta Mk7 (2017) | Low (1) | Very low (0) | — | `0,1` |
+| Ford Anglia 100E (1953) | Medium (2) | Medium (2) | — | `2` |
+| Rolls-Royce Silver Ghost (1907) | Very high (4) | Very high (4) | — | `4` |
+| Range Rover L405 (2012) | Very high (4) | Medium (2) | High (3) | `3,4` |
+| Kia Sportage 5 (2022) | Medium (2) | Low (1) | — | `1,2` |
+| Citroën 2CV (1948) | Medium (2) | Low (1) | — | `1,2` |
+
+The 5-series is the case that prompted the running-cost work. Its five-year purchase price is Low
+money, but a Low household cannot carry the fuel, insurance, tyres and repair risk of a 5-series;
+the lower bound is therefore Medium. The XF X250 is `2,3` for the same reason; the X260 is Medium
+only because its new price was already Medium. The XFR-S halo is not part of the standard XF model
+and does not add a fourth band.
+
+### Distribution in the current tree
+
+436 vehicles (425 cars, 7 outfits, 4 horse-drawn):
 
 | Class list | Models |
 | --- | --- |
-| `0,1` | 21 |
-| `0,1,2` | 31 |
-| `0,1,2,3` | 2 |
-| `1,2` | 69 |
-| `1,2,3` | 3 |
-| `2,3` | 65 |
-| `2,3,4` | 4 |
-| `3,4` | 37 |
-| `4` | 15 |
+| `0,1` | 75 |
+| `0,1,2` | 40 |
+| `1` | 11 |
+| `1,2` | 96 |
+| `1,2,3` | 21 |
+| `2` | 25 |
+| `2,3` | 70 |
+| `2,3,4` | 26 |
+| `3` | 16 |
+| `3,4` | 44 |
+| `4` | 12 |
+
+That is 64 one-band models, 285 two-band models and 87 three-band models. The verified prices
+narrowed many lists: the ordinary family cars of the 1970s–90s were cheaper relative to earnings
+than the fallback anchors assumed, so they now run `0,1,2` (Medium new, Very low at five years)
+rather than a wider spread. The one-band lists are the cars whose new and five-year prices stayed
+in the same band (Rolls-Royce, the 1945–59 above-list cars, and the modern Low-only hatchbacks).
 
 ## Coverage, 1920–2025
 
-Two changes of method from the earlier object-count table:
-
-1. **Generations of one series count once.** The 247 models collapse to **149 series** (Ford Fiesta
-   Mk1–Mk7 is one car, BMW 3-series E21–G20 is one car, Triumph 2000 Mk1/Mk2/2500 is one car). A
-   series is present in a year if any of its generations is on the road that year.
-2. **Each series is counted once in the main figure**, in its *primary band* — the band that bought
-   it new, e.g. Medium for a 3-series, Very high for an S-Class, Low for a Fiesta. The figure in
-   [square brackets] is what the column would read if every series were counted in every band it
-   belongs to. The gap between the two is the cross-class drift the class lists encode.
-
-### What we have
-
 | Year | 0 Very low | 1 Low | 2 Medium | 3 High | 4 Very high |
 | --- | --- | --- | --- | --- | --- |
-| 1920 | 0 [1] | 1 [4] | 3 [7] | 4 [10] | 10 [10] |
-| 1925 | 0 [2] | 2 [7] | 5 [11] | 6 [10] | 8 [8] |
-| 1930 | 0 [3] | 3 [7] | 4 [10] | 6 [10] | 10 [10] |
-| 1935 | 0 [2] | 2 [8] | 6 [13] | 7 [12] | 11 [11] |
-| 1940 | 0 [3] | 2 [9] | 7 [13] | 6 [10] | 9 [9] |
-| 1945 | 0 [3] | 2 [8] | 6 [12] | 6 [9] | 8 [8] |
-| 1950 | 0 [5] | 4 [11] | 7 [16] | 9 [12] | 7 [7] |
-| 1955 | 0 [7] | 6 [11] | 5 [14] | 9 [12] | 9 [9] |
-| 1960 | 0 [9] | 8 [10] | 2 [12] | 10 [13] | 8 [8] |
-| 1965 | 0 [12] | 11 [15] | 4 [15] | 11 [12] | 6 [6] |
-| 1970 | 0 [10] | 9 [15] | 6 [14] | 8 [13] | 9 [9] |
-| 1975 | 0 [11] | 11 [21] | 10 [23] | 13 [19] | 10 [10] |
-| 1980 | 0 [12] | 12 [25] | 13 [27] | 14 [21] | 11 [11] |
-| 1985 | 0 [12] | 12 [31] | 19 [33] | 14 [21] | 11 [11] |
-| 1990 | 0 [11] | 11 [27] | 16 [28] | 12 [17] | 8 [8] |
-| 1995 | 0 [13] | 13 [30] | 17 [28] | 11 [15] | 7 [7] |
-| 2000 | 0 [10] | 10 [28] | 18 [29] | 11 [15] | 6 [6] |
-| 2005 | 0 [9] | 9 [21] | 12 [22] | 10 [16] | 9 [9] |
-| 2010 | 0 [8] | 8 [21] | 13 [21] | 8 [14] | 9 [9] |
-| 2015 | 0 [7] | 7 [20] | 13 [20] | 7 [13] | 7 [7] |
-| 2020 | 0 [6] | 6 [16] | 10 [13] | 3 [8] | 6 [6] |
-| 2025 | 0 [3] | 3 [12] | 9 [10] | 1 [4] | 3 [3] |
-
-
-
-
-### With the planned queue added
-
-The queue adds sixteen series: Yaris, Prius and Corolla; Renault 15, 17, 19, 21, 25 and Megane;
-Citroën DS and CX; an Aston Martin family; and the four pre-1920 light cars.
-
-| Year | 0 Very low | 1 Low | 2 Medium | 3 High | 4 Very high |
-| --- | --- | --- | --- | --- | --- |
-| 1920 | 0 [3] | 3 [8] | 5 [9] | 4 [10] | 10 [10] |
-| 1925 | 0 [4] | 4 [11] | 7 [13] | 6 [10] | 9 [9] |
-| 1930 | 0 [3] | 3 [7] | 4 [10] | 6 [10] | 11 [11] |
-| 1935 | 0 [2] | 2 [8] | 6 [13] | 7 [12] | 12 [12] |
-| 1940 | 0 [3] | 2 [9] | 7 [13] | 6 [10] | 10 [10] |
-| 1945 | 0 [3] | 2 [8] | 6 [12] | 6 [9] | 9 [9] |
-| 1950 | 0 [5] | 4 [11] | 7 [16] | 9 [12] | 8 [8] |
-| 1955 | 0 [7] | 6 [11] | 5 [14] | 9 [13] | 11 [11] |
-| 1960 | 0 [9] | 8 [10] | 2 [12] | 10 [14] | 10 [10] |
-| 1965 | 0 [12] | 11 [15] | 4 [15] | 11 [13] | 8 [8] |
-| 1970 | 0 [10] | 9 [15] | 6 [14] | 8 [14] | 11 [11] |
-| 1975 | 0 [11] | 11 [23] | 12 [26] | 14 [21] | 12 [12] |
-| 1980 | 0 [12] | 12 [27] | 15 [30] | 15 [22] | 12 [12] |
-| 1985 | 0 [12] | 12 [33] | 21 [37] | 16 [23] | 12 [12] |
-| 1990 | 0 [11] | 11 [29] | 18 [32] | 14 [19] | 9 [9] |
-| 1995 | 0 [13] | 13 [33] | 20 [33] | 13 [17] | 8 [8] |
-| 2000 | 0 [11] | 11 [33] | 22 [35] | 13 [17] | 7 [7] |
-| 2005 | 0 [10] | 10 [26] | 16 [26] | 10 [16] | 10 [10] |
-| 2010 | 0 [9] | 9 [25] | 16 [24] | 8 [14] | 10 [10] |
-| 2015 | 0 [8] | 8 [24] | 16 [23] | 7 [13] | 8 [8] |
-| 2020 | 0 [7] | 7 [19] | 12 [15] | 3 [8] | 7 [7] |
-| 2025 | 0 [4] | 4 [15] | 11 [12] | 1 [4] | 4 [4] |
-
-
-
-
-The table counts *available models*, not spawning. Whether a pool is actually used depends on
-`privatecar.tab`: with the pre-war assumption in place, classes 0 and 1 run at 1% from 1940 and 1925
-respectively, so the 1920–35 Very-low and Low figures are models with no traffic until those dates.
+| 1920 | 0 [1] | 1 [1] | 7 [22] | 11 [16] | 7 [7] |
+| 1925 | 0 [2] | 2 [3] | 8 [26] | 12 [18] | 8 [8] |
+| 1930 | 0 [3] | 3 [4] | 9 [31] | 14 [22] | 12 [12] |
+| 1935 | 0 [2] | 3 [8] | 9 [32] | 12 [23] | 15 [15] |
+| 1940 | 0 [4] | 5 [17] | 14 [37] | 11 [23] | 16 [16] |
+| 1945 | 0 [4] | 5 [17] | 12 [33] | 12 [21] | 13 [13] |
+| 1950 | 0 [4] | 5 [19] | 15 [41] | 16 [28] | 16 [16] |
+| 1955 | 0 [3] | 4 [17] | 18 [44] | 20 [32] | 15 [15] |
+| 1960 | 0 [2] | 2 [10] | 17 [45] | 24 [36] | 16 [16] |
+| 1965 | 0 [4] | 4 [21] | 19 [52] | 28 [44] | 19 [19] |
+| 1970 | 0 [4] | 2 [29] | 23 [60] | 34 [47] | 15 [15] |
+| 1975 | 0 [19] | 7 [47] | 34 [69] | 32 [46] | 16 [16] |
+| 1980 | 0 [26] | 8 [57] | 39 [72] | 30 [46] | 16 [16] |
+| 1985 | 0 [44] | 15 [73] | 49 [75] | 24 [36] | 12 [12] |
+| 1990 | 0 [48] | 19 [68] | 45 [65] | 19 [30] | 12 [12] |
+| 1995 | 0 [43] | 20 [70] | 46 [66] | 19 [35] | 17 [17] |
+| 2000 | 0 [40] | 22 [72] | 46 [65] | 19 [35] | 17 [17] |
+| 2005 | 0 [35] | 25 [68] | 39 [57] | 21 [40] | 21 [21] |
+| 2010 | 0 [38] | 32 [70] | 37 [50] | 20 [37] | 20 [20] |
+| 2015 | 0 [36] | 36 [70] | 35 [46] | 20 [35] | 17 [17] |
+| 2020 | 0 [32] | 35 [63] | 31 [41] | 21 [37] | 18 [18] |
+| 2025 | 0 [25] | 30 [62] | 35 [42] | 18 [32] | 16 [16] |
 
 ### What the table shows
 
-- **The main figure counts each series once, in the band that bought it new.** The classes are now
-  uniform two-band lists (purchase band plus one below), so the main figure is the purchase market and
-  the bracket is what the fleet can actually carry.
-- **Very low is a second-hand band by construction, so its main column is near zero.** Every car that
-  a Very-low passenger can drive was bought new by someone in a higher band; the bracket is the
-  meaningful number there, and it reaches 31 series in 1985.
-- **In the 1930s the fleet is concentrated in High and Very high**, because cars were expensive
-  relative to manual wages: the price research puts a £185–245 car at about two years of a manual
-  wage, above the Medium ceiling of 1.5. That is the price evidence, not a modelling choice.
-- **The modern outer bands remain thin** — Very low 3 and Very high 3 by 2025 — while Medium and High
-  are served by the generational overlap of the executive cars.
-- **High is no longer artificially weak**: the 5-series, E-Class, A6 and XF carry it from the 1970s
-  on, and the top luxury saloons sit one band above them, which matches the price research (a 5-series
-  at 1.2–1.5× the manual wage against a 7-series above 3×).
-
-- **The main figure uses a convention: each series is counted in the band that bought it new.** For
-  the luxury saloons that is Very high, so the 7-series, A8, LS400 and S-Class all sit in the fourth
-  column; the `.dat` files still give them `class=3,4`, because the used market and the company-car
-  channel put them in High hands later. The bracketed figure is the one to read when judging
-  coverage, because it has no such convention in it.
-- **High is the weakest band from 1990 onward.** With the top luxury saloons counted in Very high,
-  High falls to three series in 1990 and one by 2025 — the Range Rover. The cars that serve it in the
-  bracket are the `2,3` executive saloons (5-series, A4, C-Class, XF-class), which are counted in
-  Medium in the main figure.
-- **Before 1945 the outer bands rest on motorcycles and on very few cars.** Very low is two pre-war
-  outfits in 1935 and never more than three series; Low is empty until the Ford Model Y and Model C
-  give it two series in 1935. This is correct, not a modelling gap: `privatecar.tab` gives both
-  classes zero ownership before 1945.
-- **But that same table means the pre-war outfits cannot spawn at all.** Their `.dat` files carry
-  `class=0,1`, yet both classes were at 0% until 1945. That has now been changed to a labelled
-  gameplay assumption (below), so they spawn from 1925 in Low and 1940 in Very low.
-- **The whole 2015–2025 block is thin, in every band.** Once each series is counted once, the recent
-  fleet is five to ten series per band, falling to one or two in the outer bands by 2025. The
-  pakset's modern coverage rests on the 2005–2015 cohort, most of which is near or past its retire
-  date.
-- **Medium is the consistently strongest band** once generations are collapsed: six to nineteen
-  series in every year from 1920, and the largest column throughout the middle of the century.
+- **Very low is a large bracket from 1985 onward**, peaking at 48 models in 1990. The verified
+  prices put many 1970s–90s family cars at 0.8–1.2× earnings when new, so their five-year-old
+  price is below the Very-low ceiling. This is the cheap used-car market the pakset previously
+  under-represented.
+- **The 2025 bracket is 25 Very low, 30 Low, 35 Medium, 18 High and 16 Very high.** Medium is
+  the largest, not Low: the running-cost floor removed the executive and luxury cars from Low,
+  while the cheap hatchbacks and crossovers fill Very low.
+- **The 1930s fleet is concentrated in Medium/High**, not uniformly Very high: the pre-war price
+  method puts the cheap and mid cars in Medium, the luxury cars in High/Very high.
+- **One-band and three-band lists are real, not rounding errors.** The Rolls-Royce new and used
+  prices both stay in Very high; the XF X250 new price is High but its five-year price is Low, so
+  it spans `2,3`; the 7-series G70 spans `3,4` once the running-cost floor is applied.
+- **The main figure counts each model once in its upper band**, the purchase band; the bracket
+  counts it in every band its list allows. The bracket is the coverage measure.
 
 ## Provenance
 
-Assignments calibrated 2026-11-15 from two Exa research runs (luxury and entry-level
-segments, UK, 1920–2025 at 5-year points; per-model figures and sources in
-[citycar-asset-gaps](citycar-asset-gaps.md)) and from the class anchors above.
+The 2026-11-20 redo replaces the earlier one-band rule. It uses:
+- model-specific launch prices for 407 of the 425 cars. 194 came from the original price research
+  and 213 from the verification pass (136 high, 60 medium, 17 low confidence; 18 not found).
+  The price files are `ai/temp/price_research_a.csv` to `f.csv` and the merged
+  `ai/temp/price_research_merged.csv`, with the source URL on every row;
+- the committed purchase band for the other 18 cars, with a representative price inside that
+  band for the five-year calculation;
+- the retained-value matrix and model exceptions in `ai/temp/retained-values.csv`, researched on
+  2026-11-20 from Auto Express/VIP Data, Auto Express/CDL, cap hpi, Glass's via Motor Trader,
+  Parkers via The Times, Motor Sport, Offer (2007) and Hansard;
+- the running-cost matrix in `ai/temp/running-cost-matrix.csv` and the per-model index in
+  `ai/temp/running-index.csv`, built from DESNZ *Quarterly Energy Prices*, Hansard petrol answers,
+  Parkers insurance groups, Kwik Fit servicing and the AA/RAC/Confused.com cross-checks recorded
+  in `ai/temp/running-cost-notes.md`;
+- the class thresholds above and the union rule.
 
-Revised 2026-11-18 across the full 247-model fleet, adding the BMW, Datsun/Nissan, Toyota Prius,
-Triumph and earlier private-car work: 41 models changed and 170 `class=` lines rewritten in the
-`.dat` files. The coverage table was generated from each model's `.dat` intro and retire dates and
-from the planned queue.
+The full evidence and source register for retained values are in
+`ai/temp/depreciation-research.md`. The previous one-band pass and its 54 changes are superseded.
 
-Compiled with the ex-15 makeobj (`class` key, node version 0x8004)
-`[CODE simutrans-extended ex-15 @ 6bda048cf]`, 1,018 objects, zero ignored warnings.
-
-## How a class list is calibrated (decision 2026-11-18)
-
-`[USER-DIRECTION:2026-11-18]` A model is eligible for a band if a person in that band could
-plausibly afford the car **new, or as a second purchaser at about five years old**. In practice
-that bounds almost every list to the purchase band and the one below it, and it removes the deeper
-drift bands that some models carried (`0,1,2,3` on the Mini, `2,3,4` on the Range Rover).
-
-The mechanism is the **colourway ladder**: every colourway is a separate object with its own intro,
-retire and `class=`, so a colour introduced about five years after launch can carry the wider list
-while the launch colours carry the purchase band only. This works where such a colourway exists —
-**23 of 255 models have one introduced at least five years after the first** — and where none
-exists the wider list simply runs from launch. That is an accepted approximation, not a modelling
-error.
-
-**Rejected alternative: explicit second-hand objects.** Duplicating each model with a later intro
-and a lower class would be exact in timing and cheap in objects, since the sprites could be reused.
-It was rejected because a second-hand object is invisible: the sprite is identical, so a Medium
-passenger in a 5-series cannot be distinguished from a High one, and the pakset loses the visual
-signal that a distinct model is supposed to give. The player reads wealth from the *shape* on the
-road.
-
-**What carries the visual signal instead** is generation overlap. In 2005 the road holds E34s,
-E39s and E60s; the older silhouette is the cheaper journey, exactly as on a real street. The class
-lists therefore need to be right per generation, because the generation *is* the used-car cue.
-
-**The trade-off, plainly.** We chose legibility over precision. The cost is that a new car's lower
-band becomes available in game from launch rather than from its fifth year — at most a five-year
-error in when a Medium passenger starts using a High car. The benefit is that every car the player
-sees is a car whose wealth band they can read, with no invisible duplicates in the pool. This is a
-deliberate compromise, not an oversight.
 
 ## Pre-war evidence for the two lowest classes
 
@@ -298,13 +358,32 @@ late 1930s — but not the magnitude.
 
 ## Open questions
 
+- **New prices are model-specific for 407 of the 425 cars.** 194 came from the original research
+  and 213 from the 2026-11-20 verification pass. The 18 still on the fallback band are listed in
+  the price-verification section; their class lists remain lower-confidence.
+- **The running-cost index is built, but its early-era inputs are weak.** All pre-1980 MPG figures
+  are period-typical estimates marked low confidence; the 1960–79 fuel price uses the 1970 value
+  for an era containing two oil shocks; service and tyre costs are 2025 references scaled by
+  earnings and a service-frequency multiplier, not measured period bills; and the index is not
+  applied before 1945, where the ownership floor dominates. A later pass should replace those
+  inputs with period road-test MPG and garage bills.
+- **Desirability is not applied as a band adjustment.** Cult cheap cars (Mini, Beetle, 2CV, Fiat
+  500) and undesirable cheap cars (Lada, Yugo, Fiat 126, Škoda Estelle) are treated as neutral in
+  this pass. The earlier colourway profile for the BMC Mini was lost when the price-only pass
+  overwrote it; if it is restored, it should follow the colourway-profile rules in
+  `ai/temp/analysis-wealth-factors.md`.
+- **The pre-1919 and 1919–44 class thresholds are a calibration judgement.** They are set to fit
+  the pre-war ownership evidence (even cheap cars were several times annual earnings and classes
+  0/1 had little or no car ownership), not to a measured price distribution. Review them if a
+  pre-war price series is assembled.
 - **Pre-war `car_ownership` for classes 0 and 1 is a labelled assumption.** Research on 2026-11-18
   found licensed vehicle counts but no ownership rate by class. On the user's direction, class 1
   runs at 1% from 1925 and 2% by 1945, and class 0 at 1% from 1940, so that the pre-war outfits can
   spawn. `privatecar.tab` carries a comment stating that this is a gameplay assumption, not a
   historical rate, and the direction of the evidence but not the magnitude supports it.
   `[USER-DIRECTION:2026-11-18]`
-- Whether the RangeRover retire date (1988) is right: the classic remained common through
-  the 1990s, and extending it would soften the 1989+ Very-high gap.
+- The Range Rover retire date is settled as of 2026-11-20: all five colourways now carry a
+  staggered road tail of 1998–2005, replacing the single 1988 date on the Blue colourway. The
+  classic remained common through the 1990s.
 - Whether old bangers deserve explicit models (an ageing cheap model kept alive for band 0)
   instead of the current stand-ins.

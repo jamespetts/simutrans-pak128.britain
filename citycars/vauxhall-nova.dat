@@ -26,7 +26,7 @@ retire_month=6
 speed=110
 class=0,1
 maximum_comfortable_journey_minutes=55
-maximum_tolerable_journey_minutes=265
+maximum_tolerable_journey_minutes=413
 
 Image[E]=./images/vauxhall-nova-blue_E.0.0,-33,14
 Image[SE]=./images/vauxhall-nova-blue_SE.0.0,-13,0
@@ -49,7 +49,7 @@ retire_month=12
 speed=110
 class=0,1
 maximum_comfortable_journey_minutes=55
-maximum_tolerable_journey_minutes=265
+maximum_tolerable_journey_minutes=413
 
 Image[E]=./images/vauxhall-nova-red_E.0.0,-33,14
 Image[SE]=./images/vauxhall-nova-red_SE.0.0,-13,0
@@ -72,7 +72,7 @@ retire_month=12
 speed=110
 class=0,1
 maximum_comfortable_journey_minutes=55
-maximum_tolerable_journey_minutes=265
+maximum_tolerable_journey_minutes=413
 
 Image[E]=./images/vauxhall-nova-white_E.0.0,-33,14
 Image[SE]=./images/vauxhall-nova-white_SE.0.0,-13,0
@@ -95,7 +95,7 @@ retire_month=12
 speed=110
 class=0,1
 maximum_comfortable_journey_minutes=55
-maximum_tolerable_journey_minutes=265
+maximum_tolerable_journey_minutes=413
 
 Image[E]=./images/vauxhall-nova-black_E.0.0,-33,14
 Image[SE]=./images/vauxhall-nova-black_SE.0.0,-13,0

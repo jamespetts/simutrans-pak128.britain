@@ -14,7 +14,7 @@
 # Colours: grade (c); the notes record the period palette. Black, white, red
 # and blue are used. Weights 9, 8, 7, 6, total 30, provisional.
 #
-# Speed 130 km/h. Comfort 60/270, on the line 180 + 1.5 x 60: the Mini
+# Speed 130 km/h. Comfort 60/420, on the line 330 + 1.5 x 60: the Mini
 # cabin with a little more rear room. Classes 1,2.
 # Dates are road presence: 1961 intro, retires staggered 1983-1986.
 #
@@ -39,7 +39,7 @@ retire_month=6
 speed=130
 class=1,2
 maximum_comfortable_journey_minutes=60
-maximum_tolerable_journey_minutes=270
+maximum_tolerable_journey_minutes=420
 
 Image[E]=./images/wolseley-hornet-mini-black_E.0.0,-33,14
 Image[SE]=./images/wolseley-hornet-mini-black_SE.0.0,-13,0
@@ -62,7 +62,7 @@ retire_month=6
 speed=130
 class=1,2
 maximum_comfortable_journey_minutes=60
-maximum_tolerable_journey_minutes=270
+maximum_tolerable_journey_minutes=420
 
 Image[E]=./images/wolseley-hornet-mini-white_E.0.0,-33,14
 Image[SE]=./images/wolseley-hornet-mini-white_SE.0.0,-13,0
@@ -85,7 +85,7 @@ retire_month=6
 speed=130
 class=1,2
 maximum_comfortable_journey_minutes=60
-maximum_tolerable_journey_minutes=270
+maximum_tolerable_journey_minutes=420
 
 Image[E]=./images/wolseley-hornet-mini-red_E.0.0,-33,14
 Image[SE]=./images/wolseley-hornet-mini-red_SE.0.0,-13,0
@@ -108,7 +108,7 @@ retire_month=6
 speed=130
 class=1,2
 maximum_comfortable_journey_minutes=60
-maximum_tolerable_journey_minutes=270
+maximum_tolerable_journey_minutes=420
 
 Image[E]=./images/wolseley-hornet-mini-blue_E.0.0,-33,14
 Image[SE]=./images/wolseley-hornet-mini-blue_SE.0.0,-13,0

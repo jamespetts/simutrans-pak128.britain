@@ -1,6 +1,6 @@
 ---
 status: draft
-verified: New ex-15 @ c9f95535f (working tree; orders 38-48 added 2026-11-19)
+verified: New ex-15 @ 209c09a77 (working tree; retirement and comfort pass 2026-11-20)
 ---
 # Citycar asset gaps (work register)
 
@@ -25,10 +25,16 @@ research (DfT VEH0120 via ukmotoring.co.uk; SMMT via AROnline; marque production
 
 ## A. Hard class-coverage gaps (P1)
 
-| Gap | Fill models (most popular first) | Evidence |
+Both recorded rows are **CLOSED** as of 2026-11-20. The coverage audit found no historical month
+from 1750-01 to 2026-11 in which a class with non-zero ownership had 0 or 1 models.
+
+| Gap | Status and fill models | Evidence |
 | --- | --- | --- |
-| Very high, 1922–1947 | Rolls-Royce Twenty (2,940 built 1922–29) or 20/25 (3,827, 1929–36, the inter-war best-seller); Bentley 3½/4¼ Derby (1,177 + 1,234); Daimler Light Twenty (877) or DB18; Bentley Mk VI (5,368, 1946–52) for 1946–47 | production records; >16 RAC hp classes were <10,000 registrations/yr in 1930 |
-| Very high, 1989–2025 | Jaguar XJ (XJ40/X300/X308: 87,374 licensed 1995 → 22,384 in 2025); Mercedes S-Class W126/W140/W220/W221 (22–29k licensed); Bentley Continental GT (13,216 in 2025); Range Rover P38/L322/L405 (+ Sport: 142,546 licensed 2025); BMW 7-series (16–33k) | DfT VEH0120 parc series |
+| Very high, 1922–1947 | **CLOSED.** Minimum class-4 pool is 7 models, at 1926: Mercedes Simplex 60, Rolls-Royce Silver Ghost, Wolseley 16/20, Daimler TE30, Vauxhall 30-98, Aston 1½-Litre and Vauxhall 14/40; the 1929–39 Rolls-Royce 20/25, Phantom II, 25/30 and Derby Bentley follow, then the Bentley Mk VI from 1947 | production records; >16 RAC hp classes were <10,000 registrations/yr in 1930 |
+| Very high, 1989-2025 | **CLOSED.** Minimum class-4 pool is 11 models (1989): Rolls-Royce Silver Shadow and Silver Spirit, Mercedes W116 and W126, Aston V8 Vantage and Virage, BMW 7-series E23, Renault 25 Phase 1 and Phase 2, Citroen CX Series 2 and Bentley Turbo R; the later XJ, S-Class W140–W222, 7-series E32–G70, Range Rover P38/L322/L405, Bentley Continental GT 2–4, Audi A8 D2–D5 and Lexus LS400 follow | DfT VEH0120 parc series |
+
+One texture gap remains, not a P1 failure: in 1750–1829 classes 3 and 4 have exactly two models
+(a closed and an open carriage). The park drag adds a third from April 1830.
 
 ## B. Luxury / executive segment (P4, with P1 models above)
 
@@ -78,7 +84,7 @@ Traffic Act 1960 barred learners from machines over 250 cc from 1 Jul 1961.
 Rendering/behaviour notes: sidecar on the **nearside (left)**; a typical outfit is a 500–650 cc
 low-revving side-valve single (or 650 twin late) with a stiff lugged frame, girder/telescopic
 fork, and a bulbous-nosed chair with small screen and nearside door. Provisional game values:
-capacity 2 adults + 1 child; ~45–50 mph with the chair; comfort below the BMC Mini's 40/240
+capacity 2 adults + 1 child; ~45–50 mph with the chair; comfort below the BMC Mini's 40/390
 (far below — open chair, exposed rider); classes `0,1`. Folklore to avoid when modelling: the
 M20 was NOT the sidecar machine (it was built mostly without sidecar lugs — the M21 was);
 "one in four BSAs" is a 1920s advertising slogan, not a measured share.
@@ -106,7 +112,7 @@ that shares a body shell; the production method is
 | 2 | Vauxhall Astra, Mk1–Mk4 first, later marks after | Same; the long-running Escort-class rival | D |
 | 3 | VW Beetle (one model; the 1998 New Beetle is a separate car) | Same; the defining small car of the 1950s–70s | D |
 | 4 | VW Golf, Mk1–Mk4 first, later marks after | Same; the Escort-class rival of the 1980s–2000s | D |
-| 4a | **Ford Sierra, Mk1–Mk3 — every major mark, each with several realistic colourways** (priority insert 2026-11-15) | The comfort calibration anchor (120/360) and a major 1980s–90s parc; build immediately after the user's four, as a family like the Fiesta/Corsa runs | D, and [citycar](citycar.md#comfort-calibration) |
+| 4a | **Ford Sierra, Mk1–Mk3 — every major mark, each with several realistic colourways** (priority insert 2026-11-15) | The comfort calibration anchor (120/510) and a major 1980s–90s parc; build immediately after the user's four, as a family like the Fiesta/Corsa runs | D, and [citycar](citycar.md#comfort-calibration) |
 | 4b | **Audi A4 B5, B7, B8 and B9 — complete the family** (priority insert 2026-11-16; the B6 is already in the tree) | The B6 was the first car built with the MCP pipeline; the family should be complete, with authentic colours for each mark | [citycar](citycar.md) |
 | 5 | Rolls-Royce 20/25 | Closes the Very-high gap 1925–47 at its largest-volume model | A |
 | 6 | Derby Bentley 3½/4¼ | Same gap, second volume | A |
@@ -127,8 +133,8 @@ that shares a body shell; the production method is
 | 21 | Jaguar Mk 2; Rover P5/P5B; Ford Granada Mk1/Mk2; Rolls-Royce Silver Shadow; Jaguar XJ6 S1–S3; Mercedes W123 and W124; BMW 5 E34/E39 | Executive richness through the 1960s–90s | B |
 | 22 | Dacia Sandero; Kia Picanto / Hyundai i10 / Toyota Aygo; Porsche Cayenne; Audi A8; Lexus LS | Marginal volume and recent texture | B, C |
 
-Later marks of the Cavalier, Astra and Golf are complete. The remaining open items are the tail of
-order 22, the section F prestige rows, and the second tranche below.
+Later marks of the Cavalier, Astra and Golf are complete. The first tranche is closed, and the
+second tranche closed with orders 34–51 on 2026-11-20; the tables below record the build history.
 
 ### Build order, second tranche (2026-11-16)
 
@@ -364,8 +370,8 @@ Decisions taken when the tranche was set:
   Ford Fiesta Mk1–Mk7, BMC1100, Ford Escort Mk2, Vauxhall Nova/Corsa B–F.
 - Ratification pending: Morris Cowley represented by the Oxford twins; E04A/E494A Anglia
   represented by FordPrefectEarly.
-- RangeRover retire date (1988) may be too early — see
-  [citycar-wealth-classes](citycar-wealth-classes.md) open questions.
+- RangeRover retire dates settled 2026-11-20: all five colourways carry a staggered 1998–2005
+  road tail, replacing the single 1988 date on the Blue colourway.
 
 ## Open questions
 

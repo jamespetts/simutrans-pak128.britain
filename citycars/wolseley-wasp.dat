@@ -15,7 +15,7 @@
 # Colours: grade (d); no period chart was found. Black, grey, green and
 # maroon are plain names. Weights 4, 3, 3, 2, total 12, provisional.
 #
-# Speed 110 km/h. Comfort 45/250, on the line 180 + 1.5 x 45. Classes 2,3.
+# Speed 110 km/h. Comfort 45/398, on the line 330 + 1.5 x 45. Classes 2,3.
 # Dates are road presence: 1935 intro, retires staggered 1953-1956.
 #
 # Metres master: citycars/4.5/wolseley-wasp.blend. Interchange:
@@ -41,7 +41,7 @@ retire_month=6
 speed=110
 class=2,3
 maximum_comfortable_journey_minutes=45
-maximum_tolerable_journey_minutes=250
+maximum_tolerable_journey_minutes=398
 
 Image[E]=./images/wolseley-wasp-black_E.0.0,-33,14
 Image[SE]=./images/wolseley-wasp-black_SE.0.0,-13,0
@@ -64,7 +64,7 @@ retire_month=6
 speed=110
 class=2,3
 maximum_comfortable_journey_minutes=45
-maximum_tolerable_journey_minutes=250
+maximum_tolerable_journey_minutes=398
 
 Image[E]=./images/wolseley-wasp-grey_E.0.0,-33,14
 Image[SE]=./images/wolseley-wasp-grey_SE.0.0,-13,0
@@ -87,7 +87,7 @@ retire_month=6
 speed=110
 class=2,3
 maximum_comfortable_journey_minutes=45
-maximum_tolerable_journey_minutes=250
+maximum_tolerable_journey_minutes=398
 
 Image[E]=./images/wolseley-wasp-green_E.0.0,-33,14
 Image[SE]=./images/wolseley-wasp-green_SE.0.0,-13,0
@@ -110,7 +110,7 @@ retire_month=6
 speed=110
 class=2,3
 maximum_comfortable_journey_minutes=45
-maximum_tolerable_journey_minutes=250
+maximum_tolerable_journey_minutes=398
 
 Image[E]=./images/wolseley-wasp-maroon_E.0.0,-33,14
 Image[SE]=./images/wolseley-wasp-maroon_SE.0.0,-13,0

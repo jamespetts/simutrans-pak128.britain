@@ -1,3 +1,4 @@
+# Retire policy 2026-11-20: still in production in 2026 with no announced end; retire dates commented out. Revisit when an end is announced.
 # Aston Martin DBX SUV, 2020 onwards.
 #
 # Aston's first SUV, built at St Athan, Wales: the tall five-door body with
@@ -16,9 +17,9 @@
 # Racing Green are the plain names used. Weights 3, 3, 2, 2, total 10,
 # provisional.
 #
-# Speed 291 km/h. Comfort 92/318, on the line 180 + 1.5 x 92: the tallest
+# Speed 291 km/h. Comfort 92/468, on the line 330 + 1.5 x 92: the tallest
 # and most spacious Aston. Classes 3,4.
-# Dates are road presence: 2020 intro, retires staggered 2046-2049.
+# Dates are road presence: 2020 intro, retire dates commented out (still in production in 2026).
 #
 # Metres master: citycars/4.5/aston-dbx.blend. Interchange:
 # citycars/4.5/aston-dbx.dae. References:
@@ -36,12 +37,12 @@ copyright=JamesPetts
 DistributionWeight=3
 intro_year=2020
 intro_month=7
-retire_year=2049
-retire_month=6
+#retire_year=2049
+#retire_month=6
 speed=291
 class=3,4
 maximum_comfortable_journey_minutes=92
-maximum_tolerable_journey_minutes=318
+maximum_tolerable_journey_minutes=468
 
 Image[E]=./images/aston-dbx-silver_E.0.0,-33,14
 Image[SE]=./images/aston-dbx-silver_SE.0.0,-13,0
@@ -59,12 +60,12 @@ copyright=JamesPetts
 DistributionWeight=3
 intro_year=2020
 intro_month=7
-retire_year=2048
-retire_month=6
+#retire_year=2048
+#retire_month=6
 speed=291
 class=3,4
 maximum_comfortable_journey_minutes=92
-maximum_tolerable_journey_minutes=318
+maximum_tolerable_journey_minutes=468
 
 Image[E]=./images/aston-dbx-black_E.0.0,-33,14
 Image[SE]=./images/aston-dbx-black_SE.0.0,-13,0
@@ -82,12 +83,12 @@ copyright=JamesPetts
 DistributionWeight=2
 intro_year=2020
 intro_month=7
-retire_year=2047
-retire_month=6
+#retire_year=2047
+#retire_month=6
 speed=291
 class=3,4
 maximum_comfortable_journey_minutes=92
-maximum_tolerable_journey_minutes=318
+maximum_tolerable_journey_minutes=468
 
 Image[E]=./images/aston-dbx-blue_E.0.0,-33,14
 Image[SE]=./images/aston-dbx-blue_SE.0.0,-13,0
@@ -105,12 +106,12 @@ copyright=JamesPetts
 DistributionWeight=2
 intro_year=2020
 intro_month=7
-retire_year=2046
-retire_month=6
+#retire_year=2046
+#retire_month=6
 speed=291
 class=3,4
 maximum_comfortable_journey_minutes=92
-maximum_tolerable_journey_minutes=318
+maximum_tolerable_journey_minutes=468
 
 Image[E]=./images/aston-dbx-britishracinggreen_E.0.0,-33,14
 Image[SE]=./images/aston-dbx-britishracinggreen_SE.0.0,-13,0

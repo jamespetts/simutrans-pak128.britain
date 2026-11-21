@@ -1,3 +1,4 @@
+# Retire policy 2026-11-20: still in production in 2026 with no announced end; retire dates commented out. Revisit when an end is announced.
 # BMW 5 Series G60 four-door saloon, 2023-.
 #
 # The eighth 5-series: the CLAR-platform car revealed in May 2023 and on sale in
@@ -23,10 +24,10 @@
 #
 # Speed 250 km/h, the limit that applies to the 750e-class powertrains; the
 # electric i5 is quoted at 240 km/h but the same body is modelled once. Comfort
-# 145/400, on the line 180 + 1.5 x 145, a step above the G30's 140/390.
-# Classes 2,3.
+# 145/548, on the line 330 + 1.5 x 145, a step above the G30's 140/540.
+# Class 2.
 #
-# Dates are road presence: October 2023 intro, retires staggered 2038-2041 on a
+# Dates are road presence: October 2023 intro, retire dates commented out (still in production in 2026)
 # fifteen- to eighteen-year tail.
 #
 # Metres master: citycars/4.5/bmw-g60.blend. Interchange:
@@ -48,12 +49,12 @@ copyright=JamesPetts
 DistributionWeight=3
 intro_year=2023
 intro_month=10
-retire_year=2041
-retire_month=6
+#retire_year=2041
+#retire_month=6
 speed=250
-class=2,3
+class=2
 maximum_comfortable_journey_minutes=145
-maximum_tolerable_journey_minutes=400
+maximum_tolerable_journey_minutes=548
 
 Image[E]=./images/bmw-g60-black_E.0.0,-33,14
 Image[SE]=./images/bmw-g60-black_SE.0.0,-13,0
@@ -71,12 +72,12 @@ copyright=JamesPetts
 DistributionWeight=3
 intro_year=2023
 intro_month=10
-retire_year=2040
-retire_month=6
+#retire_year=2040
+#retire_month=6
 speed=250
-class=2,3
+class=2
 maximum_comfortable_journey_minutes=145
-maximum_tolerable_journey_minutes=400
+maximum_tolerable_journey_minutes=548
 
 Image[E]=./images/bmw-g60-grey_E.0.0,-33,14
 Image[SE]=./images/bmw-g60-grey_SE.0.0,-13,0
@@ -94,12 +95,12 @@ copyright=JamesPetts
 DistributionWeight=2
 intro_year=2023
 intro_month=10
-retire_year=2039
-retire_month=6
+#retire_year=2039
+#retire_month=6
 speed=250
-class=2,3
+class=2
 maximum_comfortable_journey_minutes=145
-maximum_tolerable_journey_minutes=400
+maximum_tolerable_journey_minutes=548
 
 Image[E]=./images/bmw-g60-green_E.0.0,-33,14
 Image[SE]=./images/bmw-g60-green_SE.0.0,-13,0
@@ -117,12 +118,12 @@ copyright=JamesPetts
 DistributionWeight=2
 intro_year=2023
 intro_month=10
-retire_year=2038
-retire_month=6
+#retire_year=2038
+#retire_month=6
 speed=250
-class=2,3
+class=2
 maximum_comfortable_journey_minutes=145
-maximum_tolerable_journey_minutes=400
+maximum_tolerable_journey_minutes=548
 
 Image[E]=./images/bmw-g60-white_E.0.0,-33,14
 Image[SE]=./images/bmw-g60-white_SE.0.0,-13,0

@@ -9,7 +9,7 @@
 #
 # Weight: 310 in total (red 85, silver 85, black 75, white 65).
 #
-# Speed 200 km/h; comfort 115/350 (line). Classes 1,2.
+# Speed 200 km/h; comfort 115/503 (line). Classes 1,2.
 # Dates: 2004-2008 with a road tail to about 2019.
 #
 # Metres master: citycars/4.5/vw-golf-mk5.blend. References:
@@ -27,7 +27,7 @@ retire_month=6
 speed=200
 class=1,2
 maximum_comfortable_journey_minutes=115
-maximum_tolerable_journey_minutes=350
+maximum_tolerable_journey_minutes=503
 
 Image[E]=./images/vw-golf-mk5-red_E.0.0,-33,14
 Image[SE]=./images/vw-golf-mk5-red_SE.0.0,-13,0
@@ -50,7 +50,7 @@ retire_month=6
 speed=200
 class=1,2
 maximum_comfortable_journey_minutes=115
-maximum_tolerable_journey_minutes=350
+maximum_tolerable_journey_minutes=503
 
 Image[E]=./images/vw-golf-mk5-silver_E.0.0,-33,14
 Image[SE]=./images/vw-golf-mk5-silver_SE.0.0,-13,0
@@ -73,7 +73,7 @@ retire_month=6
 speed=200
 class=1,2
 maximum_comfortable_journey_minutes=115
-maximum_tolerable_journey_minutes=350
+maximum_tolerable_journey_minutes=503
 
 Image[E]=./images/vw-golf-mk5-black_E.0.0,-33,14
 Image[SE]=./images/vw-golf-mk5-black_SE.0.0,-13,0
@@ -96,7 +96,7 @@ retire_month=6
 speed=200
 class=1,2
 maximum_comfortable_journey_minutes=115
-maximum_tolerable_journey_minutes=350
+maximum_tolerable_journey_minutes=503
 
 Image[E]=./images/vw-golf-mk5-white_E.0.0,-33,14
 Image[SE]=./images/vw-golf-mk5-white_SE.0.0,-13,0

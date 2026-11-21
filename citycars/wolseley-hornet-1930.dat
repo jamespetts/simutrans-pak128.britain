@@ -14,8 +14,8 @@
 # Colours: grade (d); no period chart was found. Black, green, red and
 # silver are plain names. Weights 5, 4, 3, 3, total 15, provisional.
 #
-# Speed 120 km/h. Comfort 45/250, on the line 180 + 1.5 x 45: an open
-# two-seater. Classes 3,4.
+# Speed 120 km/h. Comfort 45/398, on the line 330 + 1.5 x 45: an open
+# two-seater. Classes 2,3.
 # Dates are road presence: 1930 intro, retires staggered 1950-1953.
 #
 # Metres master: citycars/4.5/wolseley-hornet-1930.blend. Interchange:
@@ -39,9 +39,9 @@ intro_month=1
 retire_year=1953
 retire_month=6
 speed=120
-class=3,4
+class=2,3
 maximum_comfortable_journey_minutes=45
-maximum_tolerable_journey_minutes=250
+maximum_tolerable_journey_minutes=398
 
 Image[E]=./images/wolseley-hornet-1930-black_E.0.0,-33,14
 Image[SE]=./images/wolseley-hornet-1930-black_SE.0.0,-13,0
@@ -62,9 +62,9 @@ intro_month=1
 retire_year=1952
 retire_month=6
 speed=120
-class=3,4
+class=2,3
 maximum_comfortable_journey_minutes=45
-maximum_tolerable_journey_minutes=250
+maximum_tolerable_journey_minutes=398
 
 Image[E]=./images/wolseley-hornet-1930-green_E.0.0,-33,14
 Image[SE]=./images/wolseley-hornet-1930-green_SE.0.0,-13,0
@@ -85,9 +85,9 @@ intro_month=1
 retire_year=1951
 retire_month=6
 speed=120
-class=3,4
+class=2,3
 maximum_comfortable_journey_minutes=45
-maximum_tolerable_journey_minutes=250
+maximum_tolerable_journey_minutes=398
 
 Image[E]=./images/wolseley-hornet-1930-red_E.0.0,-33,14
 Image[SE]=./images/wolseley-hornet-1930-red_SE.0.0,-13,0
@@ -108,9 +108,9 @@ intro_month=1
 retire_year=1950
 retire_month=6
 speed=120
-class=3,4
+class=2,3
 maximum_comfortable_journey_minutes=45
-maximum_tolerable_journey_minutes=250
+maximum_tolerable_journey_minutes=398
 
 Image[E]=./images/wolseley-hornet-1930-silver_E.0.0,-33,14
 Image[SE]=./images/wolseley-hornet-1930-silver_SE.0.0,-13,0

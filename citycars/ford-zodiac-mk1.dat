@@ -20,7 +20,7 @@
 # material; three colourways, not four. Weights 8, 7, 5, total 20,
 # provisional.
 #
-# Speed 140 km/h. Comfort 58/267, on the line 180 + 1.5 x 58. Classes 2,3.
+# Speed 140 km/h. Comfort 58/417, on the line 330 + 1.5 x 58. Classes 2,3.
 # Dates are road presence: 1953 intro, retires staggered 1971-1974.
 #
 # Metres master: citycars/4.5/ford-zodiac-mk1.blend. Interchange:
@@ -46,7 +46,7 @@ retire_month=6
 speed=140
 class=2,3
 maximum_comfortable_journey_minutes=58
-maximum_tolerable_journey_minutes=267
+maximum_tolerable_journey_minutes=417
 
 Image[E]=./images/ford-zodiac-mk1-bristolfawn_E.0.0,-33,14
 Image[SE]=./images/ford-zodiac-mk1-bristolfawn_SE.0.0,-13,0
@@ -69,7 +69,7 @@ retire_month=6
 speed=140
 class=2,3
 maximum_comfortable_journey_minutes=58
-maximum_tolerable_journey_minutes=267
+maximum_tolerable_journey_minutes=417
 
 Image[E]=./images/ford-zodiac-mk1-canterburygreen_E.0.0,-33,14
 Image[SE]=./images/ford-zodiac-mk1-canterburygreen_SE.0.0,-13,0
@@ -92,7 +92,7 @@ retire_month=6
 speed=140
 class=2,3
 maximum_comfortable_journey_minutes=58
-maximum_tolerable_journey_minutes=267
+maximum_tolerable_journey_minutes=417
 
 Image[E]=./images/ford-zodiac-mk1-winchesterblue_E.0.0,-33,14
 Image[SE]=./images/ford-zodiac-mk1-winchesterblue_SE.0.0,-13,0

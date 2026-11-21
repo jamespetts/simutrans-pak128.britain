@@ -19,9 +19,9 @@
 # month. Weights saffron 3, emerald 3, pimento 2, frenchblue 2, total 10,
 # provisional pending the central rebase.
 #
-# Speed 160 km/h for the 2000 and 2000 TC. Comfort 85/310, on the line
-# 180 + 1.5 x 85, a step above the Mk1's 85-minute figure at the same value
-# because the Mk2 rides and insulates better. Classes 2,3.
+# Speed 160 km/h for the 2000 and 2000 TC. Comfort 85/458, on the line
+# 330 + 1.5 x 85, a step above the Mk1's 85-minute figure at the same value
+# because the Mk2 rides and insulates better. Classes 1,2,3.
 #
 # Dates are road presence: October 1969 intro, retires staggered 1986-1989 on a
 # twelve- to twenty-year tail.
@@ -47,9 +47,9 @@ intro_month=10
 retire_year=1989
 retire_month=6
 speed=160
-class=2,3
+class=1,2,3
 maximum_comfortable_journey_minutes=85
-maximum_tolerable_journey_minutes=310
+maximum_tolerable_journey_minutes=458
 
 Image[E]=./images/triumph-2000-mk2-saffron_E.0.0,-33,14
 Image[SE]=./images/triumph-2000-mk2-saffron_SE.0.0,-13,0
@@ -70,9 +70,9 @@ intro_month=10
 retire_year=1988
 retire_month=6
 speed=160
-class=2,3
+class=1,2,3
 maximum_comfortable_journey_minutes=85
-maximum_tolerable_journey_minutes=310
+maximum_tolerable_journey_minutes=458
 
 Image[E]=./images/triumph-2000-mk2-emerald_E.0.0,-33,14
 Image[SE]=./images/triumph-2000-mk2-emerald_SE.0.0,-13,0
@@ -93,9 +93,9 @@ intro_month=10
 retire_year=1987
 retire_month=6
 speed=160
-class=2,3
+class=1,2,3
 maximum_comfortable_journey_minutes=85
-maximum_tolerable_journey_minutes=310
+maximum_tolerable_journey_minutes=458
 
 Image[E]=./images/triumph-2000-mk2-pimento_E.0.0,-33,14
 Image[SE]=./images/triumph-2000-mk2-pimento_SE.0.0,-13,0
@@ -116,9 +116,9 @@ intro_month=10
 retire_year=1986
 retire_month=6
 speed=160
-class=2,3
+class=1,2,3
 maximum_comfortable_journey_minutes=85
-maximum_tolerable_journey_minutes=310
+maximum_tolerable_journey_minutes=458
 
 Image[E]=./images/triumph-2000-mk2-frenchblue_E.0.0,-33,14
 Image[SE]=./images/triumph-2000-mk2-frenchblue_SE.0.0,-13,0

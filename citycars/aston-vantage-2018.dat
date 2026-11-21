@@ -14,7 +14,7 @@
 # Colours: grade (c), documented period cars. Blue, silver, black and red are
 # the plain names used. Weights 3, 3, 2, 2, total 10, provisional.
 #
-# Speed 315 km/h. Comfort 88/312, on the line 180 + 1.5 x 88. Classes 3,4.
+# Speed 315 km/h. Comfort 88/462, on the line 330 + 1.5 x 88. Classes 3,4.
 # Dates are road presence: 2018 intro, retires staggered 2043-2046.
 #
 # Metres master: citycars/4.5/aston-vantage-2018.blend. Interchange:
@@ -38,7 +38,7 @@ retire_month=6
 speed=315
 class=3,4
 maximum_comfortable_journey_minutes=88
-maximum_tolerable_journey_minutes=312
+maximum_tolerable_journey_minutes=462
 
 Image[E]=./images/aston-vantage-2018-blue_E.0.0,-33,14
 Image[SE]=./images/aston-vantage-2018-blue_SE.0.0,-13,0
@@ -61,7 +61,7 @@ retire_month=6
 speed=315
 class=3,4
 maximum_comfortable_journey_minutes=88
-maximum_tolerable_journey_minutes=312
+maximum_tolerable_journey_minutes=462
 
 Image[E]=./images/aston-vantage-2018-silver_E.0.0,-33,14
 Image[SE]=./images/aston-vantage-2018-silver_SE.0.0,-13,0
@@ -84,7 +84,7 @@ retire_month=6
 speed=315
 class=3,4
 maximum_comfortable_journey_minutes=88
-maximum_tolerable_journey_minutes=312
+maximum_tolerable_journey_minutes=462
 
 Image[E]=./images/aston-vantage-2018-black_E.0.0,-33,14
 Image[SE]=./images/aston-vantage-2018-black_SE.0.0,-13,0
@@ -107,7 +107,7 @@ retire_month=6
 speed=315
 class=3,4
 maximum_comfortable_journey_minutes=88
-maximum_tolerable_journey_minutes=312
+maximum_tolerable_journey_minutes=462
 
 Image[E]=./images/aston-vantage-2018-red_E.0.0,-33,14
 Image[SE]=./images/aston-vantage-2018-red_SE.0.0,-13,0

@@ -1,4 +1,5 @@
-# BMW iX3 G08 five-door electric SUV, 2020 onwards.
+# Retire policy 2026-11-20: production ended 2025; retire dates are road-presence estimates, staggered by colourway.
+# BMW iX3 G08 five-door electric SUV, 2020-2025.
 #
 # The electric X3: the closed kidney grille with blue trim, the smooth
 # underbody, the iX3 rear badge and no exhaust outlets. UK pre-orders from
@@ -16,8 +17,8 @@
 # white, blue and grey are plain names. Weights 9, 8, 7, 6, total 30,
 # provisional.
 #
-# Speed 180 km/h (electronically limited). Comfort 100/330, on the line
-# 180 + 1.5 x 100: a quiet electric cabin. Classes 3,4.
+# Speed 180 km/h (electronically limited). Comfort 100/480, on the line
+# 330 + 1.5 x 100: a quiet electric cabin. Classes 1,2,3.
 # Dates are road presence: 2021 intro, retires staggered 2041-2044.
 #
 # Metres master: citycars/4.5/bmw-ix3.blend. Interchange:
@@ -41,9 +42,9 @@ intro_month=7
 retire_year=2044
 retire_month=6
 speed=180
-class=3,4
+class=1,2,3
 maximum_comfortable_journey_minutes=100
-maximum_tolerable_journey_minutes=330
+maximum_tolerable_journey_minutes=480
 
 Image[E]=./images/bmw-ix3-black_E.0.0,-33,14
 Image[SE]=./images/bmw-ix3-black_SE.0.0,-13,0
@@ -64,9 +65,9 @@ intro_month=7
 retire_year=2043
 retire_month=6
 speed=180
-class=3,4
+class=1,2,3
 maximum_comfortable_journey_minutes=100
-maximum_tolerable_journey_minutes=330
+maximum_tolerable_journey_minutes=480
 
 Image[E]=./images/bmw-ix3-white_E.0.0,-33,14
 Image[SE]=./images/bmw-ix3-white_SE.0.0,-13,0
@@ -87,9 +88,9 @@ intro_month=7
 retire_year=2042
 retire_month=6
 speed=180
-class=3,4
+class=1,2,3
 maximum_comfortable_journey_minutes=100
-maximum_tolerable_journey_minutes=330
+maximum_tolerable_journey_minutes=480
 
 Image[E]=./images/bmw-ix3-blue_E.0.0,-33,14
 Image[SE]=./images/bmw-ix3-blue_SE.0.0,-13,0
@@ -110,9 +111,9 @@ intro_month=7
 retire_year=2041
 retire_month=6
 speed=180
-class=3,4
+class=1,2,3
 maximum_comfortable_journey_minutes=100
-maximum_tolerable_journey_minutes=330
+maximum_tolerable_journey_minutes=480
 
 Image[E]=./images/bmw-ix3-grey_E.0.0,-33,14
 Image[SE]=./images/bmw-ix3-grey_SE.0.0,-13,0

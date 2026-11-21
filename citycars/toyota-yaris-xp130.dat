@@ -1,3 +1,4 @@
+# Retire policy 2026-11-20: production ended 2020; retire dates are road-presence estimates, staggered by colourway.
 # Toyota Yaris XP130 five-door hatchback, 2011-2020.
 #
 # The third-generation Yaris. UK launch August 2011, first customer deliveries
@@ -29,9 +30,9 @@
 # rebase.
 #
 # Speed 175 km/h, the hybrid and 1.33-litre cars' quoted maximum. Comfort
-# 95/325, on the line 180 + 1.5 x 95. Classes 1,2.
+# 95/473, on the line 330 + 1.5 x 95. Classes 0,1.
 #
-# Dates are road presence: August 2011 intro, retires staggered 2023-2026 on a
+# Dates are road presence: August 2011 intro, retires staggered 2026-2029 on a
 # twelve- to fifteen-year tail.
 #
 # Metres master: citycars/4.5/toyota-yaris-xp130.blend. Interchange:
@@ -57,9 +58,9 @@ intro_month=8
 retire_year=2026
 retire_month=6
 speed=175
-class=1,2
+class=0,1
 maximum_comfortable_journey_minutes=95
-maximum_tolerable_journey_minutes=325
+maximum_tolerable_journey_minutes=473
 
 Image[E]=./images/toyota-yaris-xp130-tyrolsilver_E.0.0,-33,14
 Image[SE]=./images/toyota-yaris-xp130-tyrolsilver_SE.0.0,-13,0
@@ -77,12 +78,12 @@ copyright=JamesPetts
 DistributionWeight=3
 intro_year=2011
 intro_month=8
-retire_year=2026
-retire_month=6
+retire_year=2027
+retire_month=8
 speed=175
-class=1,2
+class=0,1
 maximum_comfortable_journey_minutes=95
-maximum_tolerable_journey_minutes=325
+maximum_tolerable_journey_minutes=473
 
 Image[E]=./images/toyota-yaris-xp130-cirruswhite_E.0.0,-33,14
 Image[SE]=./images/toyota-yaris-xp130-cirruswhite_SE.0.0,-13,0
@@ -100,12 +101,12 @@ copyright=JamesPetts
 DistributionWeight=2
 intro_year=2011
 intro_month=8
-retire_year=2025
-retire_month=6
+retire_year=2028
+retire_month=10
 speed=175
-class=1,2
+class=0,1
 maximum_comfortable_journey_minutes=95
-maximum_tolerable_journey_minutes=325
+maximum_tolerable_journey_minutes=473
 
 Image[E]=./images/toyota-yaris-xp130-eclipseblack_E.0.0,-33,14
 Image[SE]=./images/toyota-yaris-xp130-eclipseblack_SE.0.0,-13,0
@@ -123,12 +124,12 @@ copyright=JamesPetts
 DistributionWeight=2
 intro_year=2011
 intro_month=8
-retire_year=2024
-retire_month=6
+retire_year=2029
+retire_month=12
 speed=175
-class=1,2
+class=0,1
 maximum_comfortable_journey_minutes=95
-maximum_tolerable_journey_minutes=325
+maximum_tolerable_journey_minutes=473
 
 Image[E]=./images/toyota-yaris-xp130-burningred_E.0.0,-33,14
 Image[SE]=./images/toyota-yaris-xp130-burningred_SE.0.0,-13,0

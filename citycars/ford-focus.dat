@@ -1,3 +1,4 @@
+# Retire policy 2026-11-20: production ended 2004; retire dates are road-presence estimates, staggered by colourway.
 # https://en.wikipedia.org/wiki/Ford_Focus
 obj=citycar
 name=FordFocus(Blue)
@@ -6,10 +7,12 @@ copyright=James/JamesPetts
 DistributionWeight=12
 intro_year=1998
 intro_month=8
+retire_year=2013
+retire_month=6
 speed=135
 class=1,2
 maximum_comfortable_journey_minutes=125
-maximum_tolerable_journey_minutes=370
+maximum_tolerable_journey_minutes=518
 
 Image[E]=./images/ford-focus-blue_E.0.0,-33,14
 Image[SE]=./images/ford-focus-blue_SE.0.0,-13,0
@@ -27,10 +30,12 @@ copyright=James/JamesPetts
 DistributionWeight=16
 intro_year=2002
 intro_month=4
+retire_year=2014
+retire_month=3
 speed=135
 class=1,2
 maximum_comfortable_journey_minutes=125
-maximum_tolerable_journey_minutes=370
+maximum_tolerable_journey_minutes=518
 
 Image[E]=./images/ford-focus-green_E.0.0,-33,14
 Image[SE]=./images/ford-focus-green_SE.0.0,-13,0
@@ -48,10 +53,12 @@ copyright=James/JamesPetts
 DistributionWeight=14
 intro_year=1998
 intro_month=8
+retire_year=2014
+retire_month=12
 speed=135
 class=1,2
 maximum_comfortable_journey_minutes=125
-maximum_tolerable_journey_minutes=370
+maximum_tolerable_journey_minutes=518
 
 Image[E]=./images/ford-focus-black_E.0.0,-33,14
 Image[SE]=./images/ford-focus-black_SE.0.0,-13,0
@@ -70,10 +77,12 @@ copyright=James/JamesPetts
 DistributionWeight=16
 intro_year=2000
 intro_month=1
+retire_year=2015
+retire_month=9
 speed=135
 class=1,2
 maximum_comfortable_journey_minutes=125
-maximum_tolerable_journey_minutes=370
+maximum_tolerable_journey_minutes=518
 
 Image[E]=./images/ford-focus-red_E.0.0,-33,14
 Image[SE]=./images/ford-focus-red_SE.0.0,-13,0
@@ -93,10 +102,12 @@ copyright=James/JamesPetts
 DistributionWeight=16
 intro_year=1998
 intro_month=8
+retire_year=2016
+retire_month=6
 speed=135
 class=1,2
 maximum_comfortable_journey_minutes=125
-maximum_tolerable_journey_minutes=370
+maximum_tolerable_journey_minutes=518
 
 Image[E]=./images/ford-focus-white_E.0.0,-33,14
 Image[SE]=./images/ford-focus-white_SE.0.0,-13,0
@@ -116,10 +127,12 @@ copyright=James/JamesPetts
 DistributionWeight=5
 intro_year=1999
 intro_month=12
+retire_year=2017
+retire_month=3
 speed=135
 class=1,2
 maximum_comfortable_journey_minutes=125
-maximum_tolerable_journey_minutes=370
+maximum_tolerable_journey_minutes=518
 
 Image[E]=./images/ford-focus-purple_E.0.0,-33,14
 Image[SE]=./images/ford-focus-purple_SE.0.0,-13,0
@@ -139,10 +152,12 @@ copyright=James/JamesPetts
 DistributionWeight=20
 intro_year=1998
 intro_month=8
+retire_year=2017
+retire_month=12
 speed=135
 class=1,2
 maximum_comfortable_journey_minutes=125
-maximum_tolerable_journey_minutes=370
+maximum_tolerable_journey_minutes=518
 
 Image[E]=./images/ford-focus-silver_E.0.0,-33,14
 Image[SE]=./images/ford-focus-silver_SE.0.0,-13,0

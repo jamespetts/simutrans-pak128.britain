@@ -32,9 +32,9 @@
 # Eclipse Black and Sunburst Red. Weights silver 3, white 3, red 2, black 2,
 # total 10, provisional pending the central rebase.
 #
-# Speed 185 km/h, the 1.6-litre car's quoted maximum. Comfort 95/325, on the
-# line 180 + 1.5 x 95: a roomy, quiet family hatchback, the best of the three
-# Corolla generations built here. Classes 1,2.
+# Speed 185 km/h, the 1.6-litre car's quoted maximum. Comfort 95/473, on the
+# line 330 + 1.5 x 95: a roomy, quiet family hatchback, the best of the three
+# Corolla generations built here. Classes 0,1.
 #
 # Dates are road presence: January 2002 intro, retires staggered 2015-2018 on a
 # thirteen- to sixteen-year tail.
@@ -59,9 +59,9 @@ intro_month=1
 retire_year=2018
 retire_month=6
 speed=185
-class=1,2
+class=0,1
 maximum_comfortable_journey_minutes=95
-maximum_tolerable_journey_minutes=325
+maximum_tolerable_journey_minutes=473
 
 Image[E]=./images/toyota-corolla-e120-lucernesilver_E.0.0,-33,14
 Image[SE]=./images/toyota-corolla-e120-lucernesilver_SE.0.0,-13,0
@@ -82,9 +82,9 @@ intro_month=1
 retire_year=2018
 retire_month=6
 speed=185
-class=1,2
+class=0,1
 maximum_comfortable_journey_minutes=95
-maximum_tolerable_journey_minutes=325
+maximum_tolerable_journey_minutes=473
 
 Image[E]=./images/toyota-corolla-e120-purewhite_E.0.0,-33,14
 Image[SE]=./images/toyota-corolla-e120-purewhite_SE.0.0,-13,0
@@ -105,9 +105,9 @@ intro_month=1
 retire_year=2017
 retire_month=6
 speed=185
-class=1,2
+class=0,1
 maximum_comfortable_journey_minutes=95
-maximum_tolerable_journey_minutes=325
+maximum_tolerable_journey_minutes=473
 
 Image[E]=./images/toyota-corolla-e120-eclipseblack_E.0.0,-33,14
 Image[SE]=./images/toyota-corolla-e120-eclipseblack_SE.0.0,-13,0
@@ -128,9 +128,9 @@ intro_month=1
 retire_year=2016
 retire_month=6
 speed=185
-class=1,2
+class=0,1
 maximum_comfortable_journey_minutes=95
-maximum_tolerable_journey_minutes=325
+maximum_tolerable_journey_minutes=473
 
 Image[E]=./images/toyota-corolla-e120-sunburstred_E.0.0,-33,14
 Image[SE]=./images/toyota-corolla-e120-sunburstred_SE.0.0,-13,0

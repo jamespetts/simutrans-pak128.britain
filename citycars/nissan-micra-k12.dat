@@ -18,7 +18,7 @@
 # Nissan GB price list records ten colours without naming them. White, Red,
 # Blue and Silver are plain names. Weights 12, 10, 9, 8, total 39, provisional.
 #
-# Speed 160 km/h. Comfort 60/270, on the line 180 + 1.5 x 60. Classes 1,2.
+# Speed 160 km/h. Comfort 60/420, on the line 330 + 1.5 x 60. Classes 0,1.
 # Dates: intro 15 January 2003, the UK launch date; retire 2010, when
 # Sunderland built its last K12 in July and the K13 replaced it.
 #
@@ -42,9 +42,9 @@ intro_month=1
 retire_year=2023
 retire_month=6
 speed=160
-class=1,2
+class=0,1
 maximum_comfortable_journey_minutes=60
-maximum_tolerable_journey_minutes=270
+maximum_tolerable_journey_minutes=420
 
 Image[E]=./images/nissan-micra-k12-white_E.0.0,-33,14
 Image[SE]=./images/nissan-micra-k12-white_SE.0.0,-13,0
@@ -65,9 +65,9 @@ intro_month=1
 retire_year=2022
 retire_month=6
 speed=160
-class=1,2
+class=0,1
 maximum_comfortable_journey_minutes=60
-maximum_tolerable_journey_minutes=270
+maximum_tolerable_journey_minutes=420
 
 Image[E]=./images/nissan-micra-k12-red_E.0.0,-33,14
 Image[SE]=./images/nissan-micra-k12-red_SE.0.0,-13,0
@@ -88,9 +88,9 @@ intro_month=1
 retire_year=2021
 retire_month=6
 speed=160
-class=1,2
+class=0,1
 maximum_comfortable_journey_minutes=60
-maximum_tolerable_journey_minutes=270
+maximum_tolerable_journey_minutes=420
 
 Image[E]=./images/nissan-micra-k12-blue_E.0.0,-33,14
 Image[SE]=./images/nissan-micra-k12-blue_SE.0.0,-13,0
@@ -111,9 +111,9 @@ intro_month=1
 retire_year=2020
 retire_month=6
 speed=160
-class=1,2
+class=0,1
 maximum_comfortable_journey_minutes=60
-maximum_tolerable_journey_minutes=270
+maximum_tolerable_journey_minutes=420
 
 Image[E]=./images/nissan-micra-k12-silver_E.0.0,-33,14
 Image[SE]=./images/nissan-micra-k12-silver_SE.0.0,-13,0

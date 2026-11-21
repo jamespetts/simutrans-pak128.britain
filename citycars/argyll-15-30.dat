@@ -15,7 +15,7 @@
 # Weight: 8 in total (black 3, green 3, maroon 1, grey 1). Section F: early
 # prestige models are representative only, so the total stays low.
 #
-# Speed 80 km/h (estimate for a 15/30 tourer); comfort 60/270 (line). Class 3.
+# Speed 80 km/h (estimate for a 15/30 tourer); comfort 60/420 (line). Classes 2,3.
 # Dates: 1912-1915 with a road tail to about 1935.
 #
 # Metres master: citycars/4.5/argyll-15-30.blend. References:
@@ -33,9 +33,9 @@ intro_month=4
 retire_year=1935
 retire_month=6
 speed=80
-class=3,4
+class=2,3
 maximum_comfortable_journey_minutes=60
-maximum_tolerable_journey_minutes=270
+maximum_tolerable_journey_minutes=420
 
 Image[E]=./images/argyll-15-30-black_E.0.0,-33,14
 Image[SE]=./images/argyll-15-30-black_SE.0.0,-13,0
@@ -56,9 +56,9 @@ intro_month=4
 retire_year=1934
 retire_month=6
 speed=80
-class=3,4
+class=2,3
 maximum_comfortable_journey_minutes=60
-maximum_tolerable_journey_minutes=270
+maximum_tolerable_journey_minutes=420
 
 Image[E]=./images/argyll-15-30-green_E.0.0,-33,14
 Image[SE]=./images/argyll-15-30-green_SE.0.0,-13,0
@@ -79,9 +79,9 @@ intro_month=3
 retire_year=1933
 retire_month=6
 speed=80
-class=3,4
+class=2,3
 maximum_comfortable_journey_minutes=60
-maximum_tolerable_journey_minutes=270
+maximum_tolerable_journey_minutes=420
 
 Image[E]=./images/argyll-15-30-maroon_E.0.0,-33,14
 Image[SE]=./images/argyll-15-30-maroon_SE.0.0,-13,0
@@ -102,9 +102,9 @@ intro_month=3
 retire_year=1932
 retire_month=6
 speed=80
-class=3,4
+class=2,3
 maximum_comfortable_journey_minutes=60
-maximum_tolerable_journey_minutes=270
+maximum_tolerable_journey_minutes=420
 
 Image[E]=./images/argyll-15-30-grey_E.0.0,-33,14
 Image[SE]=./images/argyll-15-30-grey_SE.0.0,-13,0

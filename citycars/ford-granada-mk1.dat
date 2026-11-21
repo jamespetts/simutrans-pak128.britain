@@ -9,7 +9,7 @@
 #
 # Weight: 160 in total (white 45, red 40, blue 40, green 35).
 #
-# Speed 180 km/h; comfort 105/340 (line). Classes 2,3.
+# Speed 180 km/h; comfort 105/488 (line). Classes 1,2.
 # Dates: 1972-1977 with a road tail to about 1989.
 #
 # Metres master: citycars/4.5/ford-granada-mk1.blend. References:
@@ -26,9 +26,9 @@ intro_month=3
 retire_year=1989
 retire_month=6
 speed=180
-class=2,3
+class=1,2
 maximum_comfortable_journey_minutes=105
-maximum_tolerable_journey_minutes=340
+maximum_tolerable_journey_minutes=488
 
 Image[E]=./images/ford-granada-mk1-white_E.0.0,-33,14
 Image[SE]=./images/ford-granada-mk1-white_SE.0.0,-13,0
@@ -49,9 +49,9 @@ intro_month=3
 retire_year=1988
 retire_month=6
 speed=180
-class=2,3
+class=1,2
 maximum_comfortable_journey_minutes=105
-maximum_tolerable_journey_minutes=340
+maximum_tolerable_journey_minutes=488
 
 Image[E]=./images/ford-granada-mk1-red_E.0.0,-33,14
 Image[SE]=./images/ford-granada-mk1-red_SE.0.0,-13,0
@@ -72,9 +72,9 @@ intro_month=3
 retire_year=1987
 retire_month=6
 speed=180
-class=2,3
+class=1,2
 maximum_comfortable_journey_minutes=105
-maximum_tolerable_journey_minutes=340
+maximum_tolerable_journey_minutes=488
 
 Image[E]=./images/ford-granada-mk1-blue_E.0.0,-33,14
 Image[SE]=./images/ford-granada-mk1-blue_SE.0.0,-13,0
@@ -95,9 +95,9 @@ intro_month=3
 retire_year=1986
 retire_month=6
 speed=180
-class=2,3
+class=1,2
 maximum_comfortable_journey_minutes=105
-maximum_tolerable_journey_minutes=340
+maximum_tolerable_journey_minutes=488
 
 Image[E]=./images/ford-granada-mk1-green_E.0.0,-33,14
 Image[SE]=./images/ford-granada-mk1-green_SE.0.0,-13,0

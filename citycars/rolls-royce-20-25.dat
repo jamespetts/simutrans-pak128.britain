@@ -25,8 +25,8 @@
 # ordinary traffic. Provisional pending the central rebase.
 #
 # Speed 100 km/h: a game-balance figure; the period claim was about 76 mph.
-# Comfort 150/405: a long-wheelbase coachbuilt saloon with soft suspension and a
-# quiet six; the line gives 405.
+# Comfort 72/438: a long-wheelbase coachbuilt saloon, but the 1929 standard sits
+# with the Phantom II (75) and 25/30 (80), below the 1955 Silver Cloud (85); the line gives 438.
 #
 # Dates describe road presence: 1929 to the late 1940s, when pre-war cars were
 # still in use.
@@ -47,8 +47,8 @@ retire_year=1948
 retire_month=6
 speed=100
 class=4
-maximum_comfortable_journey_minutes=150
-maximum_tolerable_journey_minutes=405
+maximum_comfortable_journey_minutes=72
+maximum_tolerable_journey_minutes=438
 
 Image[E]=./images/rolls-royce-20-25-black_E.0.0,-33,14
 Image[SE]=./images/rolls-royce-20-25-black_SE.0.0,-13,0
@@ -70,8 +70,8 @@ retire_year=1946
 retire_month=12
 speed=100
 class=4
-maximum_comfortable_journey_minutes=150
-maximum_tolerable_journey_minutes=405
+maximum_comfortable_journey_minutes=72
+maximum_tolerable_journey_minutes=438
 
 Image[E]=./images/rolls-royce-20-25-maroon_E.0.0,-33,14
 Image[SE]=./images/rolls-royce-20-25-maroon_SE.0.0,-13,0
@@ -93,8 +93,8 @@ retire_year=1947
 retire_month=6
 speed=100
 class=4
-maximum_comfortable_journey_minutes=150
-maximum_tolerable_journey_minutes=405
+maximum_comfortable_journey_minutes=72
+maximum_tolerable_journey_minutes=438
 
 Image[E]=./images/rolls-royce-20-25-blue_E.0.0,-33,14
 Image[SE]=./images/rolls-royce-20-25-blue_SE.0.0,-13,0
@@ -116,8 +116,8 @@ retire_year=1945
 retire_month=6
 speed=100
 class=4
-maximum_comfortable_journey_minutes=150
-maximum_tolerable_journey_minutes=405
+maximum_comfortable_journey_minutes=72
+maximum_tolerable_journey_minutes=438
 
 Image[E]=./images/rolls-royce-20-25-cream_E.0.0,-33,14
 Image[SE]=./images/rolls-royce-20-25-cream_SE.0.0,-13,0

@@ -17,7 +17,7 @@
 # Rover finishes of the period. Weights 30, 26, 24, 20, total 100,
 # provisional.
 #
-# Speed 165 km/h. Comfort 80/300, on the line 180 + 1.5 x 80. Classes 3,4.
+# Speed 165 km/h. Comfort 80/450, on the line 330 + 1.5 x 80. Class 3.
 # Dates are road presence: 1958 intro, retires staggered 1982-1985.
 #
 # Metres master: citycars/4.5/rover-p5-3litre.blend. Interchange:
@@ -41,9 +41,9 @@ intro_month=9
 retire_year=1985
 retire_month=6
 speed=165
-class=3,4
+class=3
 maximum_comfortable_journey_minutes=80
-maximum_tolerable_journey_minutes=300
+maximum_tolerable_journey_minutes=450
 
 Image[E]=./images/rover-p5-3litre-ardengreen_E.0.0,-33,14
 Image[SE]=./images/rover-p5-3litre-ardengreen_SE.0.0,-13,0
@@ -64,9 +64,9 @@ intro_month=9
 retire_year=1984
 retire_month=6
 speed=165
-class=3,4
+class=3
 maximum_comfortable_journey_minutes=80
-maximum_tolerable_journey_minutes=300
+maximum_tolerable_journey_minutes=450
 
 Image[E]=./images/rover-p5-3litre-sierrabeige_E.0.0,-33,14
 Image[SE]=./images/rover-p5-3litre-sierrabeige_SE.0.0,-13,0
@@ -87,9 +87,9 @@ intro_month=9
 retire_year=1983
 retire_month=6
 speed=165
-class=3,4
+class=3
 maximum_comfortable_journey_minutes=80
-maximum_tolerable_journey_minutes=300
+maximum_tolerable_journey_minutes=450
 
 Image[E]=./images/rover-p5-3litre-mexicobrown_E.0.0,-33,14
 Image[SE]=./images/rover-p5-3litre-mexicobrown_SE.0.0,-13,0
@@ -110,9 +110,9 @@ intro_month=9
 retire_year=1982
 retire_month=6
 speed=165
-class=3,4
+class=3
 maximum_comfortable_journey_minutes=80
-maximum_tolerable_journey_minutes=300
+maximum_tolerable_journey_minutes=450
 
 Image[E]=./images/rover-p5-3litre-black_E.0.0,-33,14
 Image[SE]=./images/rover-p5-3litre-black_SE.0.0,-13,0

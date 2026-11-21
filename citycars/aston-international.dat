@@ -16,8 +16,8 @@
 # Colours: grade (d). No British colour list exists; cars were finished to
 # order. The objects carry plain names (green, black, red, silver).
 #
-# Speed 135 km/h, an estimate. Comfort 28/222 on the line 180 + 1.5 x 28:
-# an open two-seater. Classes 3,4.
+# Speed 135 km/h, an estimate. Comfort 28/372 on the line 330 + 1.5 x 28:
+# an open two-seater. Classes 2,3,4.
 # Dates are road presence: 1929 intro, retires staggered 1948-1951.
 #
 # Metres master: citycars/4.5/aston-international.blend. Interchange:
@@ -39,9 +39,9 @@ intro_month=1
 retire_year=1951
 retire_month=6
 speed=135
-class=3,4
+class=2,3,4
 maximum_comfortable_journey_minutes=28
-maximum_tolerable_journey_minutes=222
+maximum_tolerable_journey_minutes=372
 
 Image[E]=./images/aston-international-green_E.0.0,-33,14
 Image[SE]=./images/aston-international-green_SE.0.0,-13,0
@@ -62,9 +62,9 @@ intro_month=1
 retire_year=1950
 retire_month=6
 speed=135
-class=3,4
+class=2,3,4
 maximum_comfortable_journey_minutes=28
-maximum_tolerable_journey_minutes=222
+maximum_tolerable_journey_minutes=372
 
 Image[E]=./images/aston-international-black_E.0.0,-33,14
 Image[SE]=./images/aston-international-black_SE.0.0,-13,0
@@ -85,9 +85,9 @@ intro_month=1
 retire_year=1949
 retire_month=6
 speed=135
-class=3,4
+class=2,3,4
 maximum_comfortable_journey_minutes=28
-maximum_tolerable_journey_minutes=222
+maximum_tolerable_journey_minutes=372
 
 Image[E]=./images/aston-international-red_E.0.0,-33,14
 Image[SE]=./images/aston-international-red_SE.0.0,-13,0
@@ -108,9 +108,9 @@ intro_month=1
 retire_year=1948
 retire_month=6
 speed=135
-class=3,4
+class=2,3,4
 maximum_comfortable_journey_minutes=28
-maximum_tolerable_journey_minutes=222
+maximum_tolerable_journey_minutes=372
 
 Image[E]=./images/aston-international-silver_E.0.0,-33,14
 Image[SE]=./images/aston-international-silver_SE.0.0,-13,0

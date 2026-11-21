@@ -15,8 +15,8 @@
 # Capparis White, Arravani Grey, Andesit Silver and Laurus Grey, all with the
 # BMW i Blue highlight. Weights 12, 10, 10, 8, total 40, provisional.
 #
-# Speed 150 km/h (electronically limited). Comfort 75/292, on the line
-# 180 + 1.5 x 75: a quiet, upright electric cabin. Classes 2,3.
+# Speed 150 km/h (electronically limited). Comfort 75/443, on the line
+# 330 + 1.5 x 75: a quiet, upright electric cabin. Classes 1,2.
 # Dates are road presence: 2013 intro, retires staggered 2038-2041.
 #
 # Metres master: citycars/4.5/bmw-i3.blend. Interchange:
@@ -39,9 +39,9 @@ intro_month=11
 retire_year=2041
 retire_month=6
 speed=150
-class=2,3
+class=1,2
 maximum_comfortable_journey_minutes=75
-maximum_tolerable_journey_minutes=292
+maximum_tolerable_journey_minutes=443
 
 Image[E]=./images/bmw-i3-cappariswhite_E.0.0,-33,14
 Image[SE]=./images/bmw-i3-cappariswhite_SE.0.0,-13,0
@@ -62,9 +62,9 @@ intro_month=11
 retire_year=2040
 retire_month=6
 speed=150
-class=2,3
+class=1,2
 maximum_comfortable_journey_minutes=75
-maximum_tolerable_journey_minutes=292
+maximum_tolerable_journey_minutes=443
 
 Image[E]=./images/bmw-i3-arravanigrey_E.0.0,-33,14
 Image[SE]=./images/bmw-i3-arravanigrey_SE.0.0,-13,0
@@ -85,9 +85,9 @@ intro_month=11
 retire_year=2039
 retire_month=6
 speed=150
-class=2,3
+class=1,2
 maximum_comfortable_journey_minutes=75
-maximum_tolerable_journey_minutes=292
+maximum_tolerable_journey_minutes=443
 
 Image[E]=./images/bmw-i3-andesitsilver_E.0.0,-33,14
 Image[SE]=./images/bmw-i3-andesitsilver_SE.0.0,-13,0
@@ -108,9 +108,9 @@ intro_month=11
 retire_year=2038
 retire_month=6
 speed=150
-class=2,3
+class=1,2
 maximum_comfortable_journey_minutes=75
-maximum_tolerable_journey_minutes=292
+maximum_tolerable_journey_minutes=443
 
 Image[E]=./images/bmw-i3-laurusgrey_E.0.0,-33,14
 Image[SE]=./images/bmw-i3-laurusgrey_SE.0.0,-13,0

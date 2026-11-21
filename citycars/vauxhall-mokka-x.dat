@@ -17,7 +17,7 @@
 # Royal Blue solid, Summit White and Lava Red brilliant, and Quantum Grey,
 # Amaretto, Sovereign Silver, Boracay Blue and Mineral Black metallic.
 # Weights 12, 10, 9, 8, total 39, provisional.
-# Speed 190 km/h. Comfort 72/288, on the line 180 + 1.5 x 72. Classes 1,2.
+# Speed 190 km/h. Comfort 72/438, on the line 330 + 1.5 x 72. Classes 1,2.
 # Dates: intro October 2016; retires staggered 2018-2021 as a road tail.
 #
 # Metres master: citycars/4.5/vauxhall-mokka-x.blend. Interchange:
@@ -43,7 +43,7 @@ retire_month=6
 speed=190
 class=1,2
 maximum_comfortable_journey_minutes=72
-maximum_tolerable_journey_minutes=288
+maximum_tolerable_journey_minutes=438
 
 Image[E]=./images/vauxhall-mokka-x-royalblue_E.0.0,-33,14
 Image[SE]=./images/vauxhall-mokka-x-royalblue_SE.0.0,-13,0
@@ -66,7 +66,7 @@ retire_month=6
 speed=190
 class=1,2
 maximum_comfortable_journey_minutes=72
-maximum_tolerable_journey_minutes=288
+maximum_tolerable_journey_minutes=438
 
 Image[E]=./images/vauxhall-mokka-x-summitwhite_E.0.0,-33,14
 Image[SE]=./images/vauxhall-mokka-x-summitwhite_SE.0.0,-13,0
@@ -89,7 +89,7 @@ retire_month=6
 speed=190
 class=1,2
 maximum_comfortable_journey_minutes=72
-maximum_tolerable_journey_minutes=288
+maximum_tolerable_journey_minutes=438
 
 Image[E]=./images/vauxhall-mokka-x-lavared_E.0.0,-33,14
 Image[SE]=./images/vauxhall-mokka-x-lavared_SE.0.0,-13,0
@@ -112,7 +112,7 @@ retire_month=6
 speed=190
 class=1,2
 maximum_comfortable_journey_minutes=72
-maximum_tolerable_journey_minutes=288
+maximum_tolerable_journey_minutes=438
 
 Image[E]=./images/vauxhall-mokka-x-sovereignsilver_E.0.0,-33,14
 Image[SE]=./images/vauxhall-mokka-x-sovereignsilver_SE.0.0,-13,0

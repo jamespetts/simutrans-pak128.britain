@@ -17,7 +17,7 @@
 # are plain names. Grade (d) for the standard range, for which no UK colour
 # chart was found. Weights 3, 3, 2, 2, total 10, provisional.
 #
-# Speed 280 km/h. Comfort 78/297, on the line 180 + 1.5 x 78. Classes 3,4.
+# Speed 280 km/h. Comfort 78/447, on the line 330 + 1.5 x 78. Classes 3,4.
 # Dates are road presence: 2005 intro, retires staggered 2032-2035.
 #
 # Metres master: citycars/4.5/aston-vantage-2005.blend. Interchange:
@@ -41,7 +41,7 @@ retire_month=6
 speed=280
 class=3,4
 maximum_comfortable_journey_minutes=78
-maximum_tolerable_journey_minutes=297
+maximum_tolerable_journey_minutes=447
 
 Image[E]=./images/aston-vantage-2005-darkblue_E.0.0,-33,14
 Image[SE]=./images/aston-vantage-2005-darkblue_SE.0.0,-13,0
@@ -64,7 +64,7 @@ retire_month=6
 speed=280
 class=3,4
 maximum_comfortable_journey_minutes=78
-maximum_tolerable_journey_minutes=297
+maximum_tolerable_journey_minutes=447
 
 Image[E]=./images/aston-vantage-2005-black_E.0.0,-33,14
 Image[SE]=./images/aston-vantage-2005-black_SE.0.0,-13,0
@@ -87,7 +87,7 @@ retire_month=6
 speed=280
 class=3,4
 maximum_comfortable_journey_minutes=78
-maximum_tolerable_journey_minutes=297
+maximum_tolerable_journey_minutes=447
 
 Image[E]=./images/aston-vantage-2005-lightningsilver_E.0.0,-33,14
 Image[SE]=./images/aston-vantage-2005-lightningsilver_SE.0.0,-13,0
@@ -110,7 +110,7 @@ retire_month=6
 speed=280
 class=3,4
 maximum_comfortable_journey_minutes=78
-maximum_tolerable_journey_minutes=297
+maximum_tolerable_journey_minutes=447
 
 Image[E]=./images/aston-vantage-2005-karussellorange_E.0.0,-33,14
 Image[SE]=./images/aston-vantage-2005-karussellorange_SE.0.0,-13,0

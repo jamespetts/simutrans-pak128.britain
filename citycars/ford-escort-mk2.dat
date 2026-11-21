@@ -66,11 +66,11 @@
 # convention and is for the central rebase to normalise.
 #
 # Speed 123 km/h: a game-balance figure, not the model's top speed. It sits one
-# step above the Mk1 (120) and below the Mk3 (127) in the tree. Comfort 60/270 is
-# one modest step above the Mk1's 55/265: the Mk2 is the same platform with a new
+# step above the Mk1 (120) and below the Mk3 (127) in the tree. Comfort 60/420 is
+# one modest step above the Mk1's 55/413: the Mk2 is the same platform with a new
 # body, better noise suppression and upgraded trim, but no new suspension design;
-# it is well below the Cortina's 80/300 and above the Fiesta Mk1's 50/255.
-# Tolerable = 180 + 1.5 x comfortable, rounded to 5.
+# it is well below the Cortina's 80/450 and above the Fiesta Mk1's 50/405.
+# Tolerable = 330 + 1.5 x comfortable, rounded to 5.
 #
 # Dates describe when each colour is seen regularly on UK roads, not production
 # dates. Production ended in Britain in August 1980, although Mk1-based cars
@@ -93,9 +93,9 @@ intro_month=1
 retire_year=1989
 retire_month=6
 speed=123
-class=1,2
+class=0,1,2
 maximum_comfortable_journey_minutes=60
-maximum_tolerable_journey_minutes=270
+maximum_tolerable_journey_minutes=420
 
 Image[E]=./images/ford-escort-mk2-blue_E.0.0,-33,14
 Image[SE]=./images/ford-escort-mk2-blue_SE.0.0,-13,0
@@ -116,9 +116,9 @@ intro_month=1
 retire_year=1988
 retire_month=6
 speed=123
-class=1,2
+class=0,1,2
 maximum_comfortable_journey_minutes=60
-maximum_tolerable_journey_minutes=270
+maximum_tolerable_journey_minutes=420
 
 Image[E]=./images/ford-escort-mk2-red_E.0.0,-33,14
 Image[SE]=./images/ford-escort-mk2-red_SE.0.0,-13,0
@@ -139,9 +139,9 @@ intro_month=1
 retire_year=1990
 retire_month=6
 speed=123
-class=1,2
+class=0,1,2
 maximum_comfortable_journey_minutes=60
-maximum_tolerable_journey_minutes=270
+maximum_tolerable_journey_minutes=420
 
 Image[E]=./images/ford-escort-mk2-white_E.0.0,-33,14
 Image[SE]=./images/ford-escort-mk2-white_SE.0.0,-13,0
@@ -162,9 +162,9 @@ intro_month=1
 retire_year=1987
 retire_month=6
 speed=123
-class=1,2
+class=0,1,2
 maximum_comfortable_journey_minutes=60
-maximum_tolerable_journey_minutes=270
+maximum_tolerable_journey_minutes=420
 
 Image[E]=./images/ford-escort-mk2-yellow_E.0.0,-33,14
 Image[SE]=./images/ford-escort-mk2-yellow_SE.0.0,-13,0
@@ -185,9 +185,9 @@ intro_month=1
 retire_year=1986
 retire_month=6
 speed=123
-class=1,2
+class=0,1,2
 maximum_comfortable_journey_minutes=60
-maximum_tolerable_journey_minutes=270
+maximum_tolerable_journey_minutes=420
 
 Image[E]=./images/ford-escort-mk2-bronze_E.0.0,-33,14
 Image[SE]=./images/ford-escort-mk2-bronze_SE.0.0,-13,0

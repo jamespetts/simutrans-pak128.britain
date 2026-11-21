@@ -16,7 +16,7 @@
 # Colours: documented Rover finishes of the period: Arden Green, Sierra
 # Beige, Mexico Brown, Black. Weights 9, 8, 7, 6, total 30, provisional.
 #
-# Speed 180 km/h. Comfort 120/360, on the line 180 + 1.5 x 120, the same
+# Speed 180 km/h. Comfort 120/510, on the line 330 + 1.5 x 120, the same
 # spacious cabin as the P5B saloon. Classes 2,3.
 # Dates are road presence: 1967 intro, retires staggered 1986-1989.
 #
@@ -46,7 +46,7 @@ retire_month=6
 speed=180
 class=2,3
 maximum_comfortable_journey_minutes=120
-maximum_tolerable_journey_minutes=360
+maximum_tolerable_journey_minutes=510
 
 Image[E]=./images/rover-p5b-coupe-ardengreen_E.0.0,-33,14
 Image[SE]=./images/rover-p5b-coupe-ardengreen_SE.0.0,-13,0
@@ -69,7 +69,7 @@ retire_month=6
 speed=180
 class=2,3
 maximum_comfortable_journey_minutes=120
-maximum_tolerable_journey_minutes=360
+maximum_tolerable_journey_minutes=510
 
 Image[E]=./images/rover-p5b-coupe-sierrabeige_E.0.0,-33,14
 Image[SE]=./images/rover-p5b-coupe-sierrabeige_SE.0.0,-13,0
@@ -92,7 +92,7 @@ retire_month=6
 speed=180
 class=2,3
 maximum_comfortable_journey_minutes=120
-maximum_tolerable_journey_minutes=360
+maximum_tolerable_journey_minutes=510
 
 Image[E]=./images/rover-p5b-coupe-mexicobrown_E.0.0,-33,14
 Image[SE]=./images/rover-p5b-coupe-mexicobrown_SE.0.0,-13,0
@@ -115,7 +115,7 @@ retire_month=6
 speed=180
 class=2,3
 maximum_comfortable_journey_minutes=120
-maximum_tolerable_journey_minutes=360
+maximum_tolerable_journey_minutes=510
 
 Image[E]=./images/rover-p5b-coupe-black_E.0.0,-33,14
 Image[SE]=./images/rover-p5b-coupe-black_SE.0.0,-13,0

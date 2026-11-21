@@ -12,7 +12,7 @@
 # Weight: 30 in total (black 10, silver 9, blue 6, green 5), between the Jaguar
 # XJ's 60 and the S-Class W140's 20.
 #
-# Speed 210 km/h; comfort 160/420 (line).
+# Speed 210 km/h; comfort 160/570 (line).
 # Dates: 1994-2001 with a road tail to about 2012.
 #
 # Metres master: citycars/4.5/bmw-e38.blend. References:
@@ -30,7 +30,7 @@ retire_month=6
 speed=210
 class=3,4
 maximum_comfortable_journey_minutes=160
-maximum_tolerable_journey_minutes=420
+maximum_tolerable_journey_minutes=570
 
 Image[E]=./images/bmw-e38-black_E.0.0,-33,14
 Image[SE]=./images/bmw-e38-black_SE.0.0,-13,0
@@ -53,7 +53,7 @@ retire_month=6
 speed=210
 class=3,4
 maximum_comfortable_journey_minutes=160
-maximum_tolerable_journey_minutes=420
+maximum_tolerable_journey_minutes=570
 
 Image[E]=./images/bmw-e38-silver_E.0.0,-33,14
 Image[SE]=./images/bmw-e38-silver_SE.0.0,-13,0
@@ -76,7 +76,7 @@ retire_month=6
 speed=210
 class=3,4
 maximum_comfortable_journey_minutes=160
-maximum_tolerable_journey_minutes=420
+maximum_tolerable_journey_minutes=570
 
 Image[E]=./images/bmw-e38-blue_E.0.0,-33,14
 Image[SE]=./images/bmw-e38-blue_SE.0.0,-13,0
@@ -99,7 +99,7 @@ retire_month=6
 speed=210
 class=3,4
 maximum_comfortable_journey_minutes=160
-maximum_tolerable_journey_minutes=420
+maximum_tolerable_journey_minutes=570
 
 Image[E]=./images/bmw-e38-green_E.0.0,-33,14
 Image[SE]=./images/bmw-e38-green_SE.0.0,-13,0

@@ -13,7 +13,7 @@
 # Colours: grade (d); no UK chart was found. Black, silver, white and blue
 # are plain names. Weights 15, 13, 12, 10, total 50, provisional.
 #
-# Speed 180 km/h. Comfort 80/300, on the line 180 + 1.5 x 80. Classes 2,3.
+# Speed 180 km/h. Comfort 80/450, on the line 330 + 1.5 x 80. Class 1.
 # Dates are road presence: 2005 intro, retires staggered 2022-2025.
 #
 # Metres master: citycars/4.5/kia-sportage-2.blend. Interchange:
@@ -37,9 +37,9 @@ intro_month=1
 retire_year=2025
 retire_month=6
 speed=180
-class=2,3
+class=1
 maximum_comfortable_journey_minutes=80
-maximum_tolerable_journey_minutes=300
+maximum_tolerable_journey_minutes=450
 
 Image[E]=./images/kia-sportage-2-black_E.0.0,-33,14
 Image[SE]=./images/kia-sportage-2-black_SE.0.0,-13,0
@@ -60,9 +60,9 @@ intro_month=1
 retire_year=2024
 retire_month=6
 speed=180
-class=2,3
+class=1
 maximum_comfortable_journey_minutes=80
-maximum_tolerable_journey_minutes=300
+maximum_tolerable_journey_minutes=450
 
 Image[E]=./images/kia-sportage-2-silver_E.0.0,-33,14
 Image[SE]=./images/kia-sportage-2-silver_SE.0.0,-13,0
@@ -83,9 +83,9 @@ intro_month=1
 retire_year=2023
 retire_month=6
 speed=180
-class=2,3
+class=1
 maximum_comfortable_journey_minutes=80
-maximum_tolerable_journey_minutes=300
+maximum_tolerable_journey_minutes=450
 
 Image[E]=./images/kia-sportage-2-white_E.0.0,-33,14
 Image[SE]=./images/kia-sportage-2-white_SE.0.0,-13,0
@@ -106,9 +106,9 @@ intro_month=1
 retire_year=2022
 retire_month=6
 speed=180
-class=2,3
+class=1
 maximum_comfortable_journey_minutes=80
-maximum_tolerable_journey_minutes=300
+maximum_tolerable_journey_minutes=450
 
 Image[E]=./images/kia-sportage-2-blue_E.0.0,-33,14
 Image[SE]=./images/kia-sportage-2-blue_SE.0.0,-13,0

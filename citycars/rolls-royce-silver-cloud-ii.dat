@@ -13,7 +13,7 @@
 # Weight: 10 in total (black 5, silver 2, maroon 2, grey 1). The Cloud II is
 # rarer than the Cloud I in the parc, so the total is lower.
 #
-# Speed 165 km/h; comfort 90/315 (line). Class 4.
+# Speed 165 km/h; comfort 90/465 (line). Classes 3,4.
 # Dates: 1959-1962 with a road tail to about 1985.
 #
 # Metres master: citycars/4.5/rolls-royce-silver-cloud-ii.blend, derived from
@@ -31,9 +31,9 @@ intro_month=9
 retire_year=1985
 retire_month=6
 speed=165
-class=4
+class=3,4
 maximum_comfortable_journey_minutes=90
-maximum_tolerable_journey_minutes=315
+maximum_tolerable_journey_minutes=465
 
 Image[E]=./images/rolls-royce-silver-cloud-ii-black_E.0.0,-33,14
 Image[SE]=./images/rolls-royce-silver-cloud-ii-black_SE.0.0,-13,0
@@ -54,9 +54,9 @@ intro_month=9
 retire_year=1984
 retire_month=6
 speed=165
-class=4
+class=3,4
 maximum_comfortable_journey_minutes=90
-maximum_tolerable_journey_minutes=315
+maximum_tolerable_journey_minutes=465
 
 Image[E]=./images/rolls-royce-silver-cloud-ii-silver_E.0.0,-33,14
 Image[SE]=./images/rolls-royce-silver-cloud-ii-silver_SE.0.0,-13,0
@@ -77,9 +77,9 @@ intro_month=3
 retire_year=1983
 retire_month=6
 speed=165
-class=4
+class=3,4
 maximum_comfortable_journey_minutes=90
-maximum_tolerable_journey_minutes=315
+maximum_tolerable_journey_minutes=465
 
 Image[E]=./images/rolls-royce-silver-cloud-ii-maroon_E.0.0,-33,14
 Image[SE]=./images/rolls-royce-silver-cloud-ii-maroon_SE.0.0,-13,0
@@ -100,9 +100,9 @@ intro_month=3
 retire_year=1982
 retire_month=6
 speed=165
-class=4
+class=3,4
 maximum_comfortable_journey_minutes=90
-maximum_tolerable_journey_minutes=315
+maximum_tolerable_journey_minutes=465
 
 Image[E]=./images/rolls-royce-silver-cloud-ii-grey_E.0.0,-33,14
 Image[SE]=./images/rolls-royce-silver-cloud-ii-grey_SE.0.0,-13,0

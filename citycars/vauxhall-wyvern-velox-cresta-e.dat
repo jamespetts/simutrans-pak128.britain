@@ -16,7 +16,7 @@
 # Blue and Green are plain period names. Weights 12, 10, 9, 8, total 39,
 # provisional.
 #
-# Speed 125 km/h. Comfort 40/240, on the line 180 + 1.5 x 40. Classes 1,2.
+# Speed 125 km/h. Comfort 40/390, on the line 330 + 1.5 x 40. Classes 2,3.
 # Dates: intro October 1951; retires staggered 1967-1970 as a road tail.
 #
 # Metres master: citycars/4.5/vauxhall-wyvern-velox-cresta-e.blend.
@@ -38,9 +38,9 @@ intro_month=10
 retire_year=1970
 retire_month=6
 speed=125
-class=1,2
+class=2,3
 maximum_comfortable_journey_minutes=40
-maximum_tolerable_journey_minutes=240
+maximum_tolerable_journey_minutes=390
 
 Image[E]=./images/vauxhall-wyvern-velox-cresta-e-black_E.0.0,-33,14
 Image[SE]=./images/vauxhall-wyvern-velox-cresta-e-black_SE.0.0,-13,0
@@ -61,9 +61,9 @@ intro_month=10
 retire_year=1969
 retire_month=6
 speed=125
-class=1,2
+class=2,3
 maximum_comfortable_journey_minutes=40
-maximum_tolerable_journey_minutes=240
+maximum_tolerable_journey_minutes=390
 
 Image[E]=./images/vauxhall-wyvern-velox-cresta-e-grey_E.0.0,-33,14
 Image[SE]=./images/vauxhall-wyvern-velox-cresta-e-grey_SE.0.0,-13,0
@@ -84,9 +84,9 @@ intro_month=10
 retire_year=1968
 retire_month=6
 speed=125
-class=1,2
+class=2,3
 maximum_comfortable_journey_minutes=40
-maximum_tolerable_journey_minutes=240
+maximum_tolerable_journey_minutes=390
 
 Image[E]=./images/vauxhall-wyvern-velox-cresta-e-blue_E.0.0,-33,14
 Image[SE]=./images/vauxhall-wyvern-velox-cresta-e-blue_SE.0.0,-13,0
@@ -107,9 +107,9 @@ intro_month=10
 retire_year=1967
 retire_month=6
 speed=125
-class=1,2
+class=2,3
 maximum_comfortable_journey_minutes=40
-maximum_tolerable_journey_minutes=240
+maximum_tolerable_journey_minutes=390
 
 Image[E]=./images/vauxhall-wyvern-velox-cresta-e-green_E.0.0,-33,14
 Image[SE]=./images/vauxhall-wyvern-velox-cresta-e-green_SE.0.0,-13,0

@@ -18,7 +18,8 @@ Children: [private cars](comfort/private-cars.md), [player vehicles](comfort/pla
 - **Private cars** carry it as two fields, `maximum_comfortable_journey_minutes` and
   `maximum_tolerable_journey_minutes` (or their `_tenths` forms). Omitted or 0 gives the engine
   defaults: 180 comfortable minutes and three times the comfortable time as tolerable
-  ([citycar](objects/citycar.md#fields-one-objcitycar-per-colour)).
+  ([citycar](objects/citycar.md#fields-one-objcitycar-per-colour)). The engine default is not the
+  calibrated line: citycars carry explicit values on the line below.
 - **Player vehicles** carry it per accommodation class as `comfort[i]`, in the same minutes
   ([vehicle-fields](objects/vehicle-fields.md)). The tolerable time is currently an engine-wide
   table in `config/simuconf.tab`, not a per-vehicle field, so the tolerable column in the
@@ -31,19 +32,24 @@ Children: [private cars](comfort/private-cars.md), [player vehicles](comfort/pla
 
 | Vehicle | Comfortable | Tolerable | Role |
 | --- | --- | --- | --- |
-| BMC Mini | 40 | 240 | **Low-end anchor, not a floor.** Motorcycle outfits and older or less comfortable cars sit below it. `[USER-DIRECTION:2026-11-15]` |
-| Ford Sierra | 120 | 360 | Middle-of-the-road comfortable car. `[USER-DIRECTION:2026-11-15]` |
+| BMC Mini | 40 | 390 | **Low-end anchor, not a floor.** Motorcycle outfits and older or less comfortable cars sit below it. `[USER-DIRECTION:2026-11-15]` |
+| Ford Sierra | 120 | 510 | Middle-of-the-road comfortable car. `[USER-DIRECTION:2026-11-15]` |
 
 The Mini and Sierra are calibration points, not limits. A vehicle harsher than the Mini is
 expected, and its value records how much harsher.
 
 ## The line
 
-`tolerable ≈ 180 + 1.5 × comfortable` minutes, rounded to 5.
+`tolerable ≈ 330 + 1.5 × comfortable` minutes, rounded to the nearest minute and capped at 600.
 
-Both anchors lie on it (Mini 240, Sierra 360). It is the default for every type. A vehicle that
-deviates records the reason in its note: an open motorcycle outfit takes a penalty, a luxury
-saloon or a sleeper takes a bonus.
+Both anchors lie on it (Mini 390, Sierra 510). It is the default for every motor vehicle.
+Horse-drawn passenger carriages use `tolerable ≈ 240 + 4 × comfortable`, capped at 600; working
+carts use `tolerable ≈ 180 + 6 × comfortable`, capped at 300. A closed landau is a private
+carriage, not a lowly cart: coaching passengers travelled six to ten hours a day, so its limit is
+passenger endurance, not the horse. A motor vehicle that deviates records the reason in its note:
+an open motorcycle outfit takes a flat −30, a luxury saloon or a sleeper may take a bonus. The
+2026-11-15 values (Mini 240, Sierra 360) are superseded by the 2026-11-20 recalibration; the
+evidence is in the private-car audit of that date.
 
 ## Method per type
 
@@ -59,5 +65,8 @@ saloon or a sleeper takes a bonus.
   `simuconf.tab` table? The register records targets either way.
 - How should the 0–255 cap be handled for long-journey stock once the explicit fields are
   available: raise the cap, or migrate those vehicles first?
-- Should the line's intercept (180 minutes) differ by type? It is calibrated on cars; a
+- Does the raised tolerance (330 + 1.5 × comfortable, cap 600) make citycars too competitive on
+  long trips? They carry no running cost, so comfort is currently the only brake. Test on a
+  large map before treating the line as final.
+- Should the motor-car intercept differ for player vehicles? It is calibrated on cars; a
   first-class sleeper and a motorcycle outfit both use it with an explicit deviation.

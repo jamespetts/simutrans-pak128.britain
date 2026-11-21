@@ -12,7 +12,8 @@
 # Weight: 15 in total (black 5, silver 4, blue 3, grey 3), below the W140's 20 as
 # the measured UK parc of the later generation is smaller.
 #
-# Speed 210 km/h; comfort 180/450 (line).
+# Speed 210 km/h; comfort 170/585 (line; 170, below the 2013 W222's 175 and the
+# 2022 G70's 180).
 # Dates: 1998-2005 with a road tail to about 2016.
 #
 # Metres master: citycars/4.5/mercedes-w220.blend. References:
@@ -29,8 +30,8 @@ retire_year=2016
 retire_month=6
 speed=210
 class=3,4
-maximum_comfortable_journey_minutes=180
-maximum_tolerable_journey_minutes=450
+maximum_comfortable_journey_minutes=170
+maximum_tolerable_journey_minutes=585
 
 Image[E]=./images/mercedes-w220-black_E.0.0,-33,14
 Image[SE]=./images/mercedes-w220-black_SE.0.0,-13,0
@@ -52,8 +53,8 @@ retire_year=2015
 retire_month=6
 speed=210
 class=3,4
-maximum_comfortable_journey_minutes=180
-maximum_tolerable_journey_minutes=450
+maximum_comfortable_journey_minutes=170
+maximum_tolerable_journey_minutes=585
 
 Image[E]=./images/mercedes-w220-silver_E.0.0,-33,14
 Image[SE]=./images/mercedes-w220-silver_SE.0.0,-13,0
@@ -75,8 +76,8 @@ retire_year=2014
 retire_month=6
 speed=210
 class=3,4
-maximum_comfortable_journey_minutes=180
-maximum_tolerable_journey_minutes=450
+maximum_comfortable_journey_minutes=170
+maximum_tolerable_journey_minutes=585
 
 Image[E]=./images/mercedes-w220-blue_E.0.0,-33,14
 Image[SE]=./images/mercedes-w220-blue_SE.0.0,-13,0
@@ -98,8 +99,8 @@ retire_year=2013
 retire_month=6
 speed=210
 class=3,4
-maximum_comfortable_journey_minutes=180
-maximum_tolerable_journey_minutes=450
+maximum_comfortable_journey_minutes=170
+maximum_tolerable_journey_minutes=585
 
 Image[E]=./images/mercedes-w220-grey_E.0.0,-33,14
 Image[SE]=./images/mercedes-w220-grey_SE.0.0,-13,0

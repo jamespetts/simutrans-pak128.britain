@@ -27,8 +27,8 @@
 # their own materials.
 #
 # Speed 70 km/h, an estimate for a cyclecar of this period; no published figure
-# was found. Comfort 25/220, the floor of the comfort scale: an open cyclecar
-# with a fabric hood. Classes 0,1.
+# was found. Comfort 25/368, the floor of the comfort scale: an open cyclecar
+# with a fabric hood. Class 2.
 #
 # Dates are road presence: 1911 intro, retires staggered 1927-1930 on a
 # sixteen- to nineteen-year tail.
@@ -52,9 +52,9 @@ intro_month=1
 retire_year=1930
 retire_month=6
 speed=70
-class=0,1
+class=2
 maximum_comfortable_journey_minutes=25
-maximum_tolerable_journey_minutes=220
+maximum_tolerable_journey_minutes=368
 
 Image[E]=./images/gwk-cyclecar-green_E.0.0,-33,14
 Image[SE]=./images/gwk-cyclecar-green_SE.0.0,-13,0
@@ -75,9 +75,9 @@ intro_month=1
 retire_year=1930
 retire_month=6
 speed=70
-class=0,1
+class=2
 maximum_comfortable_journey_minutes=25
-maximum_tolerable_journey_minutes=220
+maximum_tolerable_journey_minutes=368
 
 Image[E]=./images/gwk-cyclecar-black_E.0.0,-33,14
 Image[SE]=./images/gwk-cyclecar-black_SE.0.0,-13,0
@@ -98,9 +98,9 @@ intro_month=1
 retire_year=1929
 retire_month=6
 speed=70
-class=0,1
+class=2
 maximum_comfortable_journey_minutes=25
-maximum_tolerable_journey_minutes=220
+maximum_tolerable_journey_minutes=368
 
 Image[E]=./images/gwk-cyclecar-maroon_E.0.0,-33,14
 Image[SE]=./images/gwk-cyclecar-maroon_SE.0.0,-13,0
@@ -121,9 +121,9 @@ intro_month=1
 retire_year=1927
 retire_month=6
 speed=70
-class=0,1
+class=2
 maximum_comfortable_journey_minutes=25
-maximum_tolerable_journey_minutes=220
+maximum_tolerable_journey_minutes=368
 
 Image[E]=./images/gwk-cyclecar-blue_E.0.0,-33,14
 Image[SE]=./images/gwk-cyclecar-blue_SE.0.0,-13,0

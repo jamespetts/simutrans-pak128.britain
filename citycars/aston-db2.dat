@@ -22,9 +22,9 @@
 # total 10, provisional pending the central rebase. Chrome and the wire wheels
 # keep their own materials.
 #
-# Speed 180 km/h, the car's quoted maximum. Comfort 55/265, on the line
-# 180 + 1.5 x 55: a low, firm-riding GT of 1950 with little luggage space.
-# Classes 3,4.
+# Speed 180 km/h, the car's quoted maximum. Comfort 55/413, on the line
+# 330 + 1.5 x 55: a low, firm-riding GT of 1950 with little luggage space.
+# Class 4.
 #
 # Dates are road presence: May 1950 intro, retires staggered 1963-1966 on a
 # thirteen- to sixteen-year tail.
@@ -49,9 +49,9 @@ intro_month=5
 retire_year=1966
 retire_month=6
 speed=180
-class=3,4
+class=4
 maximum_comfortable_journey_minutes=55
-maximum_tolerable_journey_minutes=265
+maximum_tolerable_journey_minutes=413
 
 Image[E]=./images/aston-db2-britishracinggreen_E.0.0,-33,14
 Image[SE]=./images/aston-db2-britishracinggreen_SE.0.0,-13,0
@@ -72,9 +72,9 @@ intro_month=5
 retire_year=1966
 retire_month=6
 speed=180
-class=3,4
+class=4
 maximum_comfortable_journey_minutes=55
-maximum_tolerable_journey_minutes=265
+maximum_tolerable_journey_minutes=413
 
 Image[E]=./images/aston-db2-silver_E.0.0,-33,14
 Image[SE]=./images/aston-db2-silver_SE.0.0,-13,0
@@ -95,9 +95,9 @@ intro_month=5
 retire_year=1965
 retire_month=6
 speed=180
-class=3,4
+class=4
 maximum_comfortable_journey_minutes=55
-maximum_tolerable_journey_minutes=265
+maximum_tolerable_journey_minutes=413
 
 Image[E]=./images/aston-db2-black_E.0.0,-33,14
 Image[SE]=./images/aston-db2-black_SE.0.0,-13,0
@@ -118,9 +118,9 @@ intro_month=5
 retire_year=1963
 retire_month=6
 speed=180
-class=3,4
+class=4
 maximum_comfortable_journey_minutes=55
-maximum_tolerable_journey_minutes=265
+maximum_tolerable_journey_minutes=413
 
 Image[E]=./images/aston-db2-red_E.0.0,-33,14
 Image[SE]=./images/aston-db2-red_SE.0.0,-13,0

@@ -10,7 +10,7 @@
 #
 # Weight: 30 in total (black 12, silver 8, blue 5, grey 5).
 #
-# Speed 250 km/h; comfort 150/405 (line). Class 4.
+# Speed 250 km/h; comfort 150/555 (line). Classes 3,4.
 # Dates: 2002-2010 with a road tail to about 2022.
 #
 # Metres master: citycars/4.5/audi-a8-d3.blend. References:
@@ -33,7 +33,7 @@ retire_month=6
 speed=250
 class=3,4
 maximum_comfortable_journey_minutes=150
-maximum_tolerable_journey_minutes=405
+maximum_tolerable_journey_minutes=555
 
 Image[E]=./images/audi-a8-d3-black_E.0.0,-33,14
 Image[SE]=./images/audi-a8-d3-black_SE.0.0,-13,0
@@ -56,7 +56,7 @@ retire_month=6
 speed=250
 class=3,4
 maximum_comfortable_journey_minutes=150
-maximum_tolerable_journey_minutes=405
+maximum_tolerable_journey_minutes=555
 
 Image[E]=./images/audi-a8-d3-silver_E.0.0,-33,14
 Image[SE]=./images/audi-a8-d3-silver_SE.0.0,-13,0
@@ -79,7 +79,7 @@ retire_month=6
 speed=250
 class=3,4
 maximum_comfortable_journey_minutes=150
-maximum_tolerable_journey_minutes=405
+maximum_tolerable_journey_minutes=555
 
 Image[E]=./images/audi-a8-d3-blue_E.0.0,-33,14
 Image[SE]=./images/audi-a8-d3-blue_SE.0.0,-13,0
@@ -102,7 +102,7 @@ retire_month=6
 speed=250
 class=3,4
 maximum_comfortable_journey_minutes=150
-maximum_tolerable_journey_minutes=405
+maximum_tolerable_journey_minutes=555
 
 Image[E]=./images/audi-a8-d3-grey_E.0.0,-33,14
 Image[SE]=./images/audi-a8-d3-grey_SE.0.0,-13,0

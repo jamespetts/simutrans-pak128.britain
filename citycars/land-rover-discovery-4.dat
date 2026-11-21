@@ -15,7 +15,7 @@
 # model year (LRML 3983/12): Fuji White, Santorini Black, Indus Silver and
 # Aintree Green. Weights 15, 13, 12, 10, total 50, provisional.
 #
-# Speed 195 km/h. Comfort 90/315, on the line 180 + 1.5 x 90. Classes 3,4.
+# Speed 195 km/h. Comfort 90/465, on the line 330 + 1.5 x 90. Class 3.
 # Dates are road presence: 2009 intro, retires staggered 2031-2034.
 #
 # Metres master: citycars/4.5/land-rover-discovery-4.blend. Interchange:
@@ -39,9 +39,9 @@ intro_month=9
 retire_year=2034
 retire_month=6
 speed=195
-class=3,4
+class=3
 maximum_comfortable_journey_minutes=90
-maximum_tolerable_journey_minutes=315
+maximum_tolerable_journey_minutes=465
 
 Image[E]=./images/land-rover-discovery-4-fujiwhite_E.0.0,-33,14
 Image[SE]=./images/land-rover-discovery-4-fujiwhite_SE.0.0,-13,0
@@ -62,9 +62,9 @@ intro_month=9
 retire_year=2033
 retire_month=6
 speed=195
-class=3,4
+class=3
 maximum_comfortable_journey_minutes=90
-maximum_tolerable_journey_minutes=315
+maximum_tolerable_journey_minutes=465
 
 Image[E]=./images/land-rover-discovery-4-santoriniblack_E.0.0,-33,14
 Image[SE]=./images/land-rover-discovery-4-santoriniblack_SE.0.0,-13,0
@@ -85,9 +85,9 @@ intro_month=9
 retire_year=2032
 retire_month=6
 speed=195
-class=3,4
+class=3
 maximum_comfortable_journey_minutes=90
-maximum_tolerable_journey_minutes=315
+maximum_tolerable_journey_minutes=465
 
 Image[E]=./images/land-rover-discovery-4-indussilver_E.0.0,-33,14
 Image[SE]=./images/land-rover-discovery-4-indussilver_SE.0.0,-13,0
@@ -108,9 +108,9 @@ intro_month=9
 retire_year=2031
 retire_month=6
 speed=195
-class=3,4
+class=3
 maximum_comfortable_journey_minutes=90
-maximum_tolerable_journey_minutes=315
+maximum_tolerable_journey_minutes=465
 
 Image[E]=./images/land-rover-discovery-4-aintreegreen_E.0.0,-33,14
 Image[SE]=./images/land-rover-discovery-4-aintreegreen_SE.0.0,-13,0

@@ -17,7 +17,7 @@
 # named colours including White, Enigma Black, Platinum Silver and Passion
 # Red. Weights 12, 10, 9, 8, total 39, provisional.
 #
-# Speed 180 km/h. Comfort 70/285, on the line 180 + 1.5 x 70. Classes 1,2.
+# Speed 180 km/h. Comfort 70/435, on the line 330 + 1.5 x 70. Classes 0,1.
 # Dates: intro March 2017; retire staggered 2039-2042 as a road tail.
 #
 # Metres master: citycars/4.5/nissan-micra-k14.blend. Interchange:
@@ -40,9 +40,9 @@ intro_month=3
 retire_year=2042
 retire_month=6
 speed=180
-class=1,2
+class=0,1
 maximum_comfortable_journey_minutes=70
-maximum_tolerable_journey_minutes=285
+maximum_tolerable_journey_minutes=435
 
 Image[E]=./images/nissan-micra-k14-white_E.0.0,-33,14
 Image[SE]=./images/nissan-micra-k14-white_SE.0.0,-13,0
@@ -63,9 +63,9 @@ intro_month=3
 retire_year=2041
 retire_month=6
 speed=180
-class=1,2
+class=0,1
 maximum_comfortable_journey_minutes=70
-maximum_tolerable_journey_minutes=285
+maximum_tolerable_journey_minutes=435
 
 Image[E]=./images/nissan-micra-k14-enigmablack_E.0.0,-33,14
 Image[SE]=./images/nissan-micra-k14-enigmablack_SE.0.0,-13,0
@@ -86,9 +86,9 @@ intro_month=3
 retire_year=2040
 retire_month=6
 speed=180
-class=1,2
+class=0,1
 maximum_comfortable_journey_minutes=70
-maximum_tolerable_journey_minutes=285
+maximum_tolerable_journey_minutes=435
 
 Image[E]=./images/nissan-micra-k14-passionred_E.0.0,-33,14
 Image[SE]=./images/nissan-micra-k14-passionred_SE.0.0,-13,0
@@ -109,9 +109,9 @@ intro_month=3
 retire_year=2039
 retire_month=6
 speed=180
-class=1,2
+class=0,1
 maximum_comfortable_journey_minutes=70
-maximum_tolerable_journey_minutes=285
+maximum_tolerable_journey_minutes=435
 
 Image[E]=./images/nissan-micra-k14-platinumsilver_E.0.0,-33,14
 Image[SE]=./images/nissan-micra-k14-platinumsilver_SE.0.0,-13,0

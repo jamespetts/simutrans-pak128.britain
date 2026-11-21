@@ -11,7 +11,7 @@ retire_month=7
 speed=70
 class=1,2
 maximum_comfortable_journey_minutes=35
-maximum_tolerable_journey_minutes=235
+maximum_tolerable_journey_minutes=383
 
 Image[E]=./images/morris-eight-blue_E.0.0,-33,14
 Image[SE]=./images/morris-eight-blue_SE.0.0,-13,0
@@ -34,7 +34,7 @@ retire_month=1
 speed=70
 class=1,2
 maximum_comfortable_journey_minutes=35
-maximum_tolerable_journey_minutes=235
+maximum_tolerable_journey_minutes=383
 
 Image[E]=./images/morris-eight-green_E.0.0,-33,14
 Image[SE]=./images/morris-eight-green_SE.0.0,-13,0
@@ -57,7 +57,7 @@ retire_month=3
 speed=70
 class=1,2
 maximum_comfortable_journey_minutes=35
-maximum_tolerable_journey_minutes=235
+maximum_tolerable_journey_minutes=383
 
 Image[E]=./images/morris-eight-black_E.0.0,-33,14
 Image[SE]=./images/morris-eight-black_SE.0.0,-13,0
@@ -81,7 +81,7 @@ retire_month=1
 speed=70
 class=1,2
 maximum_comfortable_journey_minutes=35
-maximum_tolerable_journey_minutes=235
+maximum_tolerable_journey_minutes=383
 
 Image[E]=./images/morris-eight-maroon_E.0.0,-33,14
 Image[SE]=./images/morris-eight-maroon_SE.0.0,-13,0

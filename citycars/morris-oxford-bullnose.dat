@@ -12,7 +12,7 @@ retire_month=9
 speed=55
 class=2,3
 maximum_comfortable_journey_minutes=30
-maximum_tolerable_journey_minutes=225
+maximum_tolerable_journey_minutes=375
 
 Image[E]=./images/morris-oxford-bullnose-blue_E.0.0,-33,14
 Image[SE]=./images/morris-oxford-bullnose-blue_SE.0.0,-13,0
@@ -35,7 +35,7 @@ retire_month=9
 speed=55
 class=2,3
 maximum_comfortable_journey_minutes=30
-maximum_tolerable_journey_minutes=225
+maximum_tolerable_journey_minutes=375
 
 Image[E]=./images/morris-oxford-bullnose-green_E.0.0,-33,14
 Image[SE]=./images/morris-oxford-bullnose-green_SE.0.0,-13,0
@@ -58,7 +58,7 @@ retire_month=12
 speed=55
 class=2,3
 maximum_comfortable_journey_minutes=30
-maximum_tolerable_journey_minutes=225
+maximum_tolerable_journey_minutes=375
 
 Image[E]=./images/morris-oxford-bullnose-white_E.0.0,-33,14
 Image[SE]=./images/morris-oxford-bullnose-white_SE.0.0,-13,0
@@ -82,7 +82,7 @@ retire_month=3
 speed=55
 class=2,3
 maximum_comfortable_journey_minutes=30
-maximum_tolerable_journey_minutes=225
+maximum_tolerable_journey_minutes=375
 
 Image[E]=./images/morris-oxford-bullnose-red_E.0.0,-33,14
 Image[SE]=./images/morris-oxford-bullnose-red_SE.0.0,-13,0

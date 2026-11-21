@@ -21,7 +21,7 @@
 # period Vantages; black is a documented Aston finish. Weights 3, 3, 2, 2,
 # total 10, provisional.
 #
-# Speed 270 km/h. Comfort 68/282, on the line 180 + 1.5 x 68: a wide 2+2 with
+# Speed 270 km/h. Comfort 68/432, on the line 330 + 1.5 x 68: a wide 2+2 with
 # more shoulder room than the DBS. Classes 3,4.
 #
 # Dates are road presence: 1977 intro, retires staggered 1999-2002 on a
@@ -49,7 +49,7 @@ retire_month=6
 speed=270
 class=3,4
 maximum_comfortable_journey_minutes=68
-maximum_tolerable_journey_minutes=282
+maximum_tolerable_journey_minutes=432
 
 Image[E]=./images/aston-v8-vantage-orchardgreen_E.0.0,-33,14
 Image[SE]=./images/aston-v8-vantage-orchardgreen_SE.0.0,-13,0
@@ -72,7 +72,7 @@ retire_month=6
 speed=270
 class=3,4
 maximum_comfortable_journey_minutes=68
-maximum_tolerable_journey_minutes=282
+maximum_tolerable_journey_minutes=432
 
 Image[E]=./images/aston-v8-vantage-suffolkred_E.0.0,-33,14
 Image[SE]=./images/aston-v8-vantage-suffolkred_SE.0.0,-13,0
@@ -95,7 +95,7 @@ retire_month=6
 speed=270
 class=3,4
 maximum_comfortable_journey_minutes=68
-maximum_tolerable_journey_minutes=282
+maximum_tolerable_journey_minutes=432
 
 Image[E]=./images/aston-v8-vantage-kentgreen_E.0.0,-33,14
 Image[SE]=./images/aston-v8-vantage-kentgreen_SE.0.0,-13,0
@@ -118,7 +118,7 @@ retire_month=6
 speed=270
 class=3,4
 maximum_comfortable_journey_minutes=68
-maximum_tolerable_journey_minutes=282
+maximum_tolerable_journey_minutes=432
 
 Image[E]=./images/aston-v8-vantage-black_E.0.0,-33,14
 Image[SE]=./images/aston-v8-vantage-black_SE.0.0,-13,0

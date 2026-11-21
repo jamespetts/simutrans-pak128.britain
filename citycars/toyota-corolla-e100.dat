@@ -28,7 +28,7 @@
 # black 2, total 10, provisional pending the central rebase.
 #
 # Speed 175 km/h, between the 1.3-litre and 1.6-litre cars' quoted maxima.
-# Comfort 80/300, on the line 180 + 1.5 x 80: a quiet, well-finished small
+# Comfort 80/450, on the line 330 + 1.5 x 80: a quiet, well-finished small
 # family car for its year, a step above the superminis. Classes 1,2.
 #
 # Dates are road presence: August 1992 intro, retires staggered 2005-2008 on a
@@ -55,7 +55,7 @@ retire_month=6
 speed=175
 class=1,2
 maximum_comfortable_journey_minutes=80
-maximum_tolerable_journey_minutes=300
+maximum_tolerable_journey_minutes=450
 
 Image[E]=./images/toyota-corolla-e100-silver_E.0.0,-33,14
 Image[SE]=./images/toyota-corolla-e100-silver_SE.0.0,-13,0
@@ -78,7 +78,7 @@ retire_month=6
 speed=175
 class=1,2
 maximum_comfortable_journey_minutes=80
-maximum_tolerable_journey_minutes=300
+maximum_tolerable_journey_minutes=450
 
 Image[E]=./images/toyota-corolla-e100-white_E.0.0,-33,14
 Image[SE]=./images/toyota-corolla-e100-white_SE.0.0,-13,0
@@ -101,7 +101,7 @@ retire_month=6
 speed=175
 class=1,2
 maximum_comfortable_journey_minutes=80
-maximum_tolerable_journey_minutes=300
+maximum_tolerable_journey_minutes=450
 
 Image[E]=./images/toyota-corolla-e100-black_E.0.0,-33,14
 Image[SE]=./images/toyota-corolla-e100-black_SE.0.0,-13,0
@@ -124,7 +124,7 @@ retire_month=6
 speed=175
 class=1,2
 maximum_comfortable_journey_minutes=80
-maximum_tolerable_journey_minutes=300
+maximum_tolerable_journey_minutes=450
 
 Image[E]=./images/toyota-corolla-e100-red_E.0.0,-33,14
 Image[SE]=./images/toyota-corolla-e100-red_SE.0.0,-13,0

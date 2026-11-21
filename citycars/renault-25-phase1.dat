@@ -27,8 +27,8 @@
 # red 2, total 10, provisional pending the central rebase.
 #
 # Speed 190 km/h, the 2.0-litre injection car's quoted maximum. Comfort
-# 90/315, on the line 180 + 1.5 x 90: a soft-riding executive hatchback, the
-# most comfortable Renault of its era. Classes 3,4.
+# 90/465, on the line 330 + 1.5 x 90: a soft-riding executive hatchback, the
+# most comfortable Renault of its era. Classes 2,3,4.
 #
 # Dates are road presence: January 1984 intro, retires staggered 1998-2001 on a
 # fourteen- to seventeen-year tail.
@@ -51,9 +51,9 @@ intro_month=1
 retire_year=2001
 retire_month=6
 speed=190
-class=3,4
+class=2,3,4
 maximum_comfortable_journey_minutes=90
-maximum_tolerable_journey_minutes=315
+maximum_tolerable_journey_minutes=465
 
 Image[E]=./images/renault-25-phase1-silver_E.0.0,-33,14
 Image[SE]=./images/renault-25-phase1-silver_SE.0.0,-13,0
@@ -74,9 +74,9 @@ intro_month=1
 retire_year=2001
 retire_month=6
 speed=190
-class=3,4
+class=2,3,4
 maximum_comfortable_journey_minutes=90
-maximum_tolerable_journey_minutes=315
+maximum_tolerable_journey_minutes=465
 
 Image[E]=./images/renault-25-phase1-blue_E.0.0,-33,14
 Image[SE]=./images/renault-25-phase1-blue_SE.0.0,-13,0
@@ -97,9 +97,9 @@ intro_month=1
 retire_year=2000
 retire_month=6
 speed=190
-class=3,4
+class=2,3,4
 maximum_comfortable_journey_minutes=90
-maximum_tolerable_journey_minutes=315
+maximum_tolerable_journey_minutes=465
 
 Image[E]=./images/renault-25-phase1-grey_E.0.0,-33,14
 Image[SE]=./images/renault-25-phase1-grey_SE.0.0,-13,0
@@ -120,9 +120,9 @@ intro_month=1
 retire_year=1999
 retire_month=6
 speed=190
-class=3,4
+class=2,3,4
 maximum_comfortable_journey_minutes=90
-maximum_tolerable_journey_minutes=315
+maximum_tolerable_journey_minutes=465
 
 Image[E]=./images/renault-25-phase1-red_E.0.0,-33,14
 Image[SE]=./images/renault-25-phase1-red_SE.0.0,-13,0

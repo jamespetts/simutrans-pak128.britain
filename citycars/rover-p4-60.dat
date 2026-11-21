@@ -17,7 +17,7 @@
 # documented Rover finishes of the period. Weights 18, 16, 14, 12, total 60,
 # provisional.
 #
-# Speed 135 km/h. Comfort 60/270, on the line 180 + 1.5 x 60. Classes 3,4.
+# Speed 135 km/h. Comfort 60/420, on the line 330 + 1.5 x 60. Classes 2,3.
 # Dates are road presence: 1953 intro, retires staggered 1975-1978.
 #
 # Metres master: citycars/4.5/rover-p4-60.blend. Interchange:
@@ -41,9 +41,9 @@ intro_month=9
 retire_year=1978
 retire_month=6
 speed=135
-class=3,4
+class=2,3
 maximum_comfortable_journey_minutes=60
-maximum_tolerable_journey_minutes=270
+maximum_tolerable_journey_minutes=420
 
 Image[E]=./images/rover-p4-60-black_E.0.0,-33,14
 Image[SE]=./images/rover-p4-60-black_SE.0.0,-13,0
@@ -64,9 +64,9 @@ intro_month=9
 retire_year=1977
 retire_month=6
 speed=135
-class=3,4
+class=2,3
 maximum_comfortable_journey_minutes=60
-maximum_tolerable_journey_minutes=270
+maximum_tolerable_journey_minutes=420
 
 Image[E]=./images/rover-p4-60-sagegreen_E.0.0,-33,14
 Image[SE]=./images/rover-p4-60-sagegreen_SE.0.0,-13,0
@@ -87,9 +87,9 @@ intro_month=9
 retire_year=1976
 retire_month=6
 speed=135
-class=3,4
+class=2,3
 maximum_comfortable_journey_minutes=60
-maximum_tolerable_journey_minutes=270
+maximum_tolerable_journey_minutes=420
 
 Image[E]=./images/rover-p4-60-dovegrey_E.0.0,-33,14
 Image[SE]=./images/rover-p4-60-dovegrey_SE.0.0,-13,0
@@ -110,9 +110,9 @@ intro_month=9
 retire_year=1975
 retire_month=6
 speed=135
-class=3,4
+class=2,3
 maximum_comfortable_journey_minutes=60
-maximum_tolerable_journey_minutes=270
+maximum_tolerable_journey_minutes=420
 
 Image[E]=./images/rover-p4-60-maroon_E.0.0,-33,14
 Image[SE]=./images/rover-p4-60-maroon_SE.0.0,-13,0

@@ -14,7 +14,7 @@
 # Weight: 20 in total (black 7, silver 6, blue 4, grey 3) against the Jaguar XJ's
 # 60, matching the measured 1990s parc ratio. Provisional pending the rebase.
 #
-# Speed 200 km/h; comfort 170/435 (line).
+# Speed 200 km/h; comfort 170/585 (line).
 # Dates: 1991-1998 with a road tail to about 2010.
 #
 # Metres master: citycars/4.5/mercedes-w140.blend. References:
@@ -32,7 +32,7 @@ retire_month=6
 speed=200
 class=3,4
 maximum_comfortable_journey_minutes=170
-maximum_tolerable_journey_minutes=435
+maximum_tolerable_journey_minutes=585
 
 Image[E]=./images/mercedes-w140-black_E.0.0,-33,14
 Image[SE]=./images/mercedes-w140-black_SE.0.0,-13,0
@@ -55,7 +55,7 @@ retire_month=6
 speed=200
 class=3,4
 maximum_comfortable_journey_minutes=170
-maximum_tolerable_journey_minutes=435
+maximum_tolerable_journey_minutes=585
 
 Image[E]=./images/mercedes-w140-silver_E.0.0,-33,14
 Image[SE]=./images/mercedes-w140-silver_SE.0.0,-13,0
@@ -78,7 +78,7 @@ retire_month=6
 speed=200
 class=3,4
 maximum_comfortable_journey_minutes=170
-maximum_tolerable_journey_minutes=435
+maximum_tolerable_journey_minutes=585
 
 Image[E]=./images/mercedes-w140-blue_E.0.0,-33,14
 Image[SE]=./images/mercedes-w140-blue_SE.0.0,-13,0
@@ -101,7 +101,7 @@ retire_month=6
 speed=200
 class=3,4
 maximum_comfortable_journey_minutes=170
-maximum_tolerable_journey_minutes=435
+maximum_tolerable_journey_minutes=585
 
 Image[E]=./images/mercedes-w140-grey_E.0.0,-33,14
 Image[SE]=./images/mercedes-w140-grey_SE.0.0,-13,0

@@ -12,8 +12,8 @@
 # colour names: white, red, blue and silver. Weights white 3, red 3, blue 2,
 # silver 2, total 10, provisional pending the central rebase.
 #
-# Speed 165 km/h for the 1.3, the volume UK engine. Comfort 80/300, on the line
-# 180 + 1.5 x 80, the same as the Bluebird T12. Classes 1,2.
+# Speed 165 km/h for the 1.3, the volume UK engine. Comfort 80/450, on the line
+# 330 + 1.5 x 80, the same as the Bluebird T12. Classes 1,2.
 #
 # Dates are road presence: October 1986 intro, retires staggered 2001-2004 on a
 # fifteen- to eighteen-year tail.
@@ -40,7 +40,7 @@ retire_month=6
 speed=165
 class=1,2
 maximum_comfortable_journey_minutes=80
-maximum_tolerable_journey_minutes=300
+maximum_tolerable_journey_minutes=450
 
 Image[E]=./images/nissan-sunny-n13-white_E.0.0,-33,14
 Image[SE]=./images/nissan-sunny-n13-white_SE.0.0,-13,0
@@ -63,7 +63,7 @@ retire_month=6
 speed=165
 class=1,2
 maximum_comfortable_journey_minutes=80
-maximum_tolerable_journey_minutes=300
+maximum_tolerable_journey_minutes=450
 
 Image[E]=./images/nissan-sunny-n13-red_E.0.0,-33,14
 Image[SE]=./images/nissan-sunny-n13-red_SE.0.0,-13,0
@@ -86,7 +86,7 @@ retire_month=6
 speed=165
 class=1,2
 maximum_comfortable_journey_minutes=80
-maximum_tolerable_journey_minutes=300
+maximum_tolerable_journey_minutes=450
 
 Image[E]=./images/nissan-sunny-n13-blue_E.0.0,-33,14
 Image[SE]=./images/nissan-sunny-n13-blue_SE.0.0,-13,0
@@ -109,7 +109,7 @@ retire_month=6
 speed=165
 class=1,2
 maximum_comfortable_journey_minutes=80
-maximum_tolerable_journey_minutes=300
+maximum_tolerable_journey_minutes=450
 
 Image[E]=./images/nissan-sunny-n13-silver_E.0.0,-33,14
 Image[SE]=./images/nissan-sunny-n13-silver_SE.0.0,-13,0

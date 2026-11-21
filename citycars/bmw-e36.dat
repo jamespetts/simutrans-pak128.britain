@@ -10,7 +10,7 @@
 #
 # Weight: 180 in total (blue 55, red 45, white 40, black 40).
 #
-# Speed 210 km/h; comfort 115/350 (line). Classes 2,3.
+# Speed 210 km/h; comfort 115/503 (line). Classes 1,2,3.
 # Dates: 1991-1998 with a road tail to about 2009.
 #
 # Metres master: citycars/4.5/bmw-e36.blend. References:
@@ -26,9 +26,9 @@ intro_month=4
 retire_year=2009
 retire_month=6
 speed=210
-class=1,2
+class=1,2,3
 maximum_comfortable_journey_minutes=115
-maximum_tolerable_journey_minutes=350
+maximum_tolerable_journey_minutes=503
 
 Image[E]=./images/bmw-e36-blue_E.0.0,-33,14
 Image[SE]=./images/bmw-e36-blue_SE.0.0,-13,0
@@ -49,9 +49,9 @@ intro_month=4
 retire_year=2008
 retire_month=6
 speed=210
-class=1,2
+class=1,2,3
 maximum_comfortable_journey_minutes=115
-maximum_tolerable_journey_minutes=350
+maximum_tolerable_journey_minutes=503
 
 Image[E]=./images/bmw-e36-red_E.0.0,-33,14
 Image[SE]=./images/bmw-e36-red_SE.0.0,-13,0
@@ -72,9 +72,9 @@ intro_month=3
 retire_year=2007
 retire_month=6
 speed=210
-class=1,2
+class=1,2,3
 maximum_comfortable_journey_minutes=115
-maximum_tolerable_journey_minutes=350
+maximum_tolerable_journey_minutes=503
 
 Image[E]=./images/bmw-e36-white_E.0.0,-33,14
 Image[SE]=./images/bmw-e36-white_SE.0.0,-13,0
@@ -95,9 +95,9 @@ intro_month=3
 retire_year=2006
 retire_month=6
 speed=210
-class=1,2
+class=1,2,3
 maximum_comfortable_journey_minutes=115
-maximum_tolerable_journey_minutes=350
+maximum_tolerable_journey_minutes=503
 
 Image[E]=./images/bmw-e36-black_E.0.0,-33,14
 Image[SE]=./images/bmw-e36-black_SE.0.0,-13,0

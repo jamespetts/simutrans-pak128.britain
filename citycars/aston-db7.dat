@@ -20,7 +20,7 @@
 # Brecon Black; the four used here are Chiltern Green, Mendip Blue, Cheviot Red
 # and Malvern Silver. Weights 3, 3, 2, 2, total 10, provisional.
 #
-# Speed 265 km/h. Comfort 72/288, on the line 180 + 1.5 x 72: a 2+2 with a
+# Speed 265 km/h. Comfort 72/438, on the line 330 + 1.5 x 72: a 2+2 with a
 # longer cabin and a more upright screen than the Virage. Classes 3,4.
 #
 # Dates are road presence: 1994 intro (the range), retires staggered 2012-2016
@@ -48,7 +48,7 @@ retire_month=6
 speed=265
 class=3,4
 maximum_comfortable_journey_minutes=72
-maximum_tolerable_journey_minutes=288
+maximum_tolerable_journey_minutes=438
 
 Image[E]=./images/aston-db7-chilterngreen_E.0.0,-33,14
 Image[SE]=./images/aston-db7-chilterngreen_SE.0.0,-13,0
@@ -71,7 +71,7 @@ retire_month=6
 speed=265
 class=3,4
 maximum_comfortable_journey_minutes=72
-maximum_tolerable_journey_minutes=288
+maximum_tolerable_journey_minutes=438
 
 Image[E]=./images/aston-db7-mendipblue_E.0.0,-33,14
 Image[SE]=./images/aston-db7-mendipblue_SE.0.0,-13,0
@@ -94,7 +94,7 @@ retire_month=6
 speed=265
 class=3,4
 maximum_comfortable_journey_minutes=72
-maximum_tolerable_journey_minutes=288
+maximum_tolerable_journey_minutes=438
 
 Image[E]=./images/aston-db7-cheviotred_E.0.0,-33,14
 Image[SE]=./images/aston-db7-cheviotred_SE.0.0,-13,0
@@ -117,7 +117,7 @@ retire_month=6
 speed=265
 class=3,4
 maximum_comfortable_journey_minutes=72
-maximum_tolerable_journey_minutes=288
+maximum_tolerable_journey_minutes=438
 
 Image[E]=./images/aston-db7-malvernsilver_E.0.0,-33,14
 Image[SE]=./images/aston-db7-malvernsilver_SE.0.0,-13,0

@@ -16,7 +16,7 @@
 # White and Altai Silver are common on British roads. Weights 12, 10, 10, 8,
 # total 40, provisional.
 #
-# Speed 160 km/h. Comfort 70/285, on the line 180 + 1.5 x 70: a tall,
+# Speed 160 km/h. Comfort 70/435, on the line 330 + 1.5 x 70: a tall,
 # upright, utilitarian cabin. Classes 2,3.
 # Dates are road presence: 1989 intro, retires staggered 2014-2017.
 #
@@ -42,7 +42,7 @@ retire_month=6
 speed=160
 class=2,3
 maximum_comfortable_journey_minutes=70
-maximum_tolerable_journey_minutes=285
+maximum_tolerable_journey_minutes=435
 
 Image[E]=./images/land-rover-discovery-1-conistongreen_E.0.0,-33,14
 Image[SE]=./images/land-rover-discovery-1-conistongreen_SE.0.0,-13,0
@@ -65,7 +65,7 @@ retire_month=6
 speed=160
 class=2,3
 maximum_comfortable_journey_minutes=70
-maximum_tolerable_journey_minutes=285
+maximum_tolerable_journey_minutes=435
 
 Image[E]=./images/land-rover-discovery-1-belugablack_E.0.0,-33,14
 Image[SE]=./images/land-rover-discovery-1-belugablack_SE.0.0,-13,0
@@ -88,7 +88,7 @@ retire_month=6
 speed=160
 class=2,3
 maximum_comfortable_journey_minutes=70
-maximum_tolerable_journey_minutes=285
+maximum_tolerable_journey_minutes=435
 
 Image[E]=./images/land-rover-discovery-1-chawtonwhite_E.0.0,-33,14
 Image[SE]=./images/land-rover-discovery-1-chawtonwhite_SE.0.0,-13,0
@@ -111,7 +111,7 @@ retire_month=6
 speed=160
 class=2,3
 maximum_comfortable_journey_minutes=70
-maximum_tolerable_journey_minutes=285
+maximum_tolerable_journey_minutes=435
 
 Image[E]=./images/land-rover-discovery-1-altaisilver_E.0.0,-33,14
 Image[SE]=./images/land-rover-discovery-1-altaisilver_SE.0.0,-13,0

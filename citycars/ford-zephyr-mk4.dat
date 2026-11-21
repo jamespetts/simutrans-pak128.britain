@@ -15,7 +15,7 @@
 # are plain names, not claimed as factory names. Weights 18, 16, 14, 12,
 # total 60, provisional.
 #
-# Speed 155 km/h. Comfort 65/280, on the line 180 + 1.5 x 65. Classes 2,3.
+# Speed 155 km/h. Comfort 65/428, on the line 330 + 1.5 x 65. Classes 1,2.
 # Dates are road presence: 1966 intro, retires staggered 1988-1991.
 #
 # Metres master: citycars/4.5/ford-zephyr-mk4.blend. Interchange:
@@ -37,9 +37,9 @@ intro_month=4
 retire_year=1991
 retire_month=6
 speed=155
-class=2,3
+class=1,2
 maximum_comfortable_journey_minutes=65
-maximum_tolerable_journey_minutes=280
+maximum_tolerable_journey_minutes=428
 
 Image[E]=./images/ford-zephyr-mk4-blue_E.0.0,-33,14
 Image[SE]=./images/ford-zephyr-mk4-blue_SE.0.0,-13,0
@@ -60,9 +60,9 @@ intro_month=4
 retire_year=1990
 retire_month=6
 speed=155
-class=2,3
+class=1,2
 maximum_comfortable_journey_minutes=65
-maximum_tolerable_journey_minutes=280
+maximum_tolerable_journey_minutes=428
 
 Image[E]=./images/ford-zephyr-mk4-white_E.0.0,-33,14
 Image[SE]=./images/ford-zephyr-mk4-white_SE.0.0,-13,0
@@ -83,9 +83,9 @@ intro_month=4
 retire_year=1989
 retire_month=6
 speed=155
-class=2,3
+class=1,2
 maximum_comfortable_journey_minutes=65
-maximum_tolerable_journey_minutes=280
+maximum_tolerable_journey_minutes=428
 
 Image[E]=./images/ford-zephyr-mk4-green_E.0.0,-33,14
 Image[SE]=./images/ford-zephyr-mk4-green_SE.0.0,-13,0
@@ -106,9 +106,9 @@ intro_month=4
 retire_year=1988
 retire_month=6
 speed=155
-class=2,3
+class=1,2
 maximum_comfortable_journey_minutes=65
-maximum_tolerable_journey_minutes=280
+maximum_tolerable_journey_minutes=428
 
 Image[E]=./images/ford-zephyr-mk4-grey_E.0.0,-33,14
 Image[SE]=./images/ford-zephyr-mk4-grey_SE.0.0,-13,0

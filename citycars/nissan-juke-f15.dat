@@ -12,9 +12,9 @@
 # colour names: white, red, black and silver. Weights red 3, white 3, black 2,
 # silver 2, total 10, provisional pending the central rebase.
 #
-# Speed 180 km/h for the 1.6, the volume model. Comfort 85/310, on the line
-# 180 + 1.5 x 85: a tall, short-wheelbase car, comfortable enough but not a
-# long-distance machine. Classes 1,2.
+# Speed 180 km/h for the 1.6, the volume model. Comfort 85/458, on the line
+# 330 + 1.5 x 85: a tall, short-wheelbase car, comfortable enough but not a
+# long-distance machine. Classes 0,1.
 #
 # Dates are road presence: September 2010 intro, retires staggered 2025-2028 on
 # a fifteen- to eighteen-year tail.
@@ -37,9 +37,9 @@ intro_month=9
 retire_year=2028
 retire_month=6
 speed=180
-class=1,2
+class=0,1
 maximum_comfortable_journey_minutes=85
-maximum_tolerable_journey_minutes=310
+maximum_tolerable_journey_minutes=458
 
 Image[E]=./images/nissan-juke-f15-white_E.0.0,-33,14
 Image[SE]=./images/nissan-juke-f15-white_SE.0.0,-13,0
@@ -60,9 +60,9 @@ intro_month=9
 retire_year=2027
 retire_month=6
 speed=180
-class=1,2
+class=0,1
 maximum_comfortable_journey_minutes=85
-maximum_tolerable_journey_minutes=310
+maximum_tolerable_journey_minutes=458
 
 Image[E]=./images/nissan-juke-f15-red_E.0.0,-33,14
 Image[SE]=./images/nissan-juke-f15-red_SE.0.0,-13,0
@@ -83,9 +83,9 @@ intro_month=9
 retire_year=2026
 retire_month=6
 speed=180
-class=1,2
+class=0,1
 maximum_comfortable_journey_minutes=85
-maximum_tolerable_journey_minutes=310
+maximum_tolerable_journey_minutes=458
 
 Image[E]=./images/nissan-juke-f15-black_E.0.0,-33,14
 Image[SE]=./images/nissan-juke-f15-black_SE.0.0,-13,0
@@ -106,9 +106,9 @@ intro_month=9
 retire_year=2025
 retire_month=6
 speed=180
-class=1,2
+class=0,1
 maximum_comfortable_journey_minutes=85
-maximum_tolerable_journey_minutes=310
+maximum_tolerable_journey_minutes=458
 
 Image[E]=./images/nissan-juke-f15-silver_E.0.0,-33,14
 Image[SE]=./images/nissan-juke-f15-silver_SE.0.0,-13,0

@@ -22,8 +22,8 @@
 # names: yellow, red, white and blue. Weights yellow 3, red 3, white 2, blue 2,
 # total 10, provisional pending the central rebase.
 #
-# Speed 155 km/h, the 1.3-litre car's quoted maximum. Comfort 50/255, on the
-# line 180 + 1.5 x 50: a small, softly sprung family coupé. Classes 1,2.
+# Speed 155 km/h, the 1.3-litre car's quoted maximum. Comfort 50/405, on the
+# line 330 + 1.5 x 50: a small, softly sprung family coupé. Classes 0,1,2.
 #
 # Dates are road presence: 1972 intro, retires staggered 1988-1991 on a
 # sixteen- to nineteen-year tail.
@@ -46,9 +46,9 @@ intro_month=1
 retire_year=1991
 retire_month=6
 speed=155
-class=1,2
+class=0,1,2
 maximum_comfortable_journey_minutes=50
-maximum_tolerable_journey_minutes=255
+maximum_tolerable_journey_minutes=405
 
 Image[E]=./images/renault-15-yellow_E.0.0,-33,14
 Image[SE]=./images/renault-15-yellow_SE.0.0,-13,0
@@ -69,9 +69,9 @@ intro_month=1
 retire_year=1991
 retire_month=6
 speed=155
-class=1,2
+class=0,1,2
 maximum_comfortable_journey_minutes=50
-maximum_tolerable_journey_minutes=255
+maximum_tolerable_journey_minutes=405
 
 Image[E]=./images/renault-15-red_E.0.0,-33,14
 Image[SE]=./images/renault-15-red_SE.0.0,-13,0
@@ -92,9 +92,9 @@ intro_month=1
 retire_year=1990
 retire_month=6
 speed=155
-class=1,2
+class=0,1,2
 maximum_comfortable_journey_minutes=50
-maximum_tolerable_journey_minutes=255
+maximum_tolerable_journey_minutes=405
 
 Image[E]=./images/renault-15-white_E.0.0,-33,14
 Image[SE]=./images/renault-15-white_SE.0.0,-13,0
@@ -115,9 +115,9 @@ intro_month=1
 retire_year=1988
 retire_month=6
 speed=155
-class=1,2
+class=0,1,2
 maximum_comfortable_journey_minutes=50
-maximum_tolerable_journey_minutes=255
+maximum_tolerable_journey_minutes=405
 
 Image[E]=./images/renault-15-blue_E.0.0,-33,14
 Image[SE]=./images/renault-15-blue_SE.0.0,-13,0

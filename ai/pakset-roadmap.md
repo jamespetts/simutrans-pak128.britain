@@ -127,7 +127,7 @@ for new engine features.
   factory colourways each and installed 2026-11-16. Mk1 180 total weight (Signal Yellow, Signal
   Red, Polar White, Regatta Blue); Mk2 300 (Helios Blue, Carmine Red, Astro Silver, White Gold);
   Mk3 320 (Star Silver, Satin Red, Diamond Black, Nautilus Blue). Comfort follows the register:
-  85/310, 100/330, 110/345.
+  85/458, 100/480, 110/495.
   `[USER-DIRECTION:2026-11-16]` `[EXECUTION-VERIFIED:2026-11-16]`
 
 - Ford Anglia 100E/105E photographic geometry rework: the user accepted the replacement

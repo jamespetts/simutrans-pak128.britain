@@ -18,8 +18,8 @@
 # white 3, blue 3. Total 16. Provisional pending the central rebase.
 #
 # Speed 175 km/h, as the 200 R8: the saloon shared the engine range. Comfort
-# 90/315, on the line 180 + 1.5 x 90, and equal to the hatchback, which shared the
-# bodyshell and suspension. Classes 1,2.
+# 90/465, on the line 330 + 1.5 x 90, and equal to the hatchback, which shared the
+# bodyshell and suspension. Classes 0,1,2.
 #
 # Dates are road presence, not production: April 1990 intro, retires staggered
 # 2002-2006 on a twelve- to sixteen-year tail.
@@ -45,9 +45,9 @@ intro_month=4
 retire_year=2003
 retire_month=6
 speed=175
-class=2,3
+class=0,1,2
 maximum_comfortable_journey_minutes=90
-maximum_tolerable_journey_minutes=315
+maximum_tolerable_journey_minutes=465
 
 Image[E]=./images/rover-400-r8-red_E.0.0,-33,14
 Image[SE]=./images/rover-400-r8-red_SE.0.0,-13,0
@@ -68,9 +68,9 @@ intro_month=4
 retire_year=2005
 retire_month=6
 speed=175
-class=2,3
+class=0,1,2
 maximum_comfortable_journey_minutes=90
-maximum_tolerable_journey_minutes=315
+maximum_tolerable_journey_minutes=465
 
 Image[E]=./images/rover-400-r8-silver_E.0.0,-33,14
 Image[SE]=./images/rover-400-r8-silver_SE.0.0,-13,0
@@ -91,9 +91,9 @@ intro_month=4
 retire_year=2002
 retire_month=6
 speed=175
-class=2,3
+class=0,1,2
 maximum_comfortable_journey_minutes=90
-maximum_tolerable_journey_minutes=315
+maximum_tolerable_journey_minutes=465
 
 Image[E]=./images/rover-400-r8-white_E.0.0,-33,14
 Image[SE]=./images/rover-400-r8-white_SE.0.0,-13,0
@@ -114,9 +114,9 @@ intro_month=4
 retire_year=2006
 retire_month=6
 speed=175
-class=2,3
+class=0,1,2
 maximum_comfortable_journey_minutes=90
-maximum_tolerable_journey_minutes=315
+maximum_tolerable_journey_minutes=465
 
 Image[E]=./images/rover-400-r8-moonraker_E.0.0,-33,14
 Image[SE]=./images/rover-400-r8-moonraker_SE.0.0,-13,0

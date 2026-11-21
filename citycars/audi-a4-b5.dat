@@ -9,7 +9,7 @@
 #
 # Weight: 200 in total (black 60, silver 60, blue 50, red 30).
 #
-# Speed 210 km/h; comfort 115/350 (line). Classes 2,3.
+# Speed 210 km/h; comfort 115/503 (line). Classes 1,2,3.
 # Dates: 1995-2001 with a road tail to about 2010.
 #
 # Metres master: citycars/4.5/audi-a4-b5.blend. References:
@@ -25,9 +25,9 @@ intro_month=1
 retire_year=2010
 retire_month=6
 speed=210
-class=1,2
+class=1,2,3
 maximum_comfortable_journey_minutes=115
-maximum_tolerable_journey_minutes=350
+maximum_tolerable_journey_minutes=503
 
 Image[E]=./images/audi-a4-b5-black_E.0.0,-33,14
 Image[SE]=./images/audi-a4-b5-black_SE.0.0,-13,0
@@ -48,9 +48,9 @@ intro_month=1
 retire_year=2009
 retire_month=6
 speed=210
-class=1,2
+class=1,2,3
 maximum_comfortable_journey_minutes=115
-maximum_tolerable_journey_minutes=350
+maximum_tolerable_journey_minutes=503
 
 Image[E]=./images/audi-a4-b5-silver_E.0.0,-33,14
 Image[SE]=./images/audi-a4-b5-silver_SE.0.0,-13,0
@@ -71,9 +71,9 @@ intro_month=3
 retire_year=2008
 retire_month=6
 speed=210
-class=1,2
+class=1,2,3
 maximum_comfortable_journey_minutes=115
-maximum_tolerable_journey_minutes=350
+maximum_tolerable_journey_minutes=503
 
 Image[E]=./images/audi-a4-b5-blue_E.0.0,-33,14
 Image[SE]=./images/audi-a4-b5-blue_SE.0.0,-13,0
@@ -94,9 +94,9 @@ intro_month=3
 retire_year=2007
 retire_month=6
 speed=210
-class=1,2
+class=1,2,3
 maximum_comfortable_journey_minutes=115
-maximum_tolerable_journey_minutes=350
+maximum_tolerable_journey_minutes=503
 
 Image[E]=./images/audi-a4-b5-red_E.0.0,-33,14
 Image[SE]=./images/audi-a4-b5-red_SE.0.0,-13,0

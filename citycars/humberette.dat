@@ -26,8 +26,8 @@
 # hood keep their own materials and are not recoloured.
 #
 # Speed 75 km/h, an estimate for a 1913 8 hp cyclecar; no published maximum was
-# found and this is recorded as an estimate. Comfort 30/225, on the line
-# 180 + 1.5 x 30: an open cyclecar with no weather protection. Classes 0,1.
+# found and this is recorded as an estimate. Comfort 30/375, on the line
+# 330 + 1.5 x 30: an open cyclecar with no weather protection. Class 2.
 #
 # Dates are road presence: 1913 intro, retires staggered 1930-1933 on a
 # seventeen- to twenty-year tail, which was a long life for a cyclecar.
@@ -51,9 +51,9 @@ intro_month=1
 retire_year=1933
 retire_month=6
 speed=75
-class=0,1
+class=2
 maximum_comfortable_journey_minutes=30
-maximum_tolerable_journey_minutes=225
+maximum_tolerable_journey_minutes=375
 
 Image[E]=./images/humberette-green_E.0.0,-33,14
 Image[SE]=./images/humberette-green_SE.0.0,-13,0
@@ -74,9 +74,9 @@ intro_month=1
 retire_year=1933
 retire_month=6
 speed=75
-class=0,1
+class=2
 maximum_comfortable_journey_minutes=30
-maximum_tolerable_journey_minutes=225
+maximum_tolerable_journey_minutes=375
 
 Image[E]=./images/humberette-black_E.0.0,-33,14
 Image[SE]=./images/humberette-black_SE.0.0,-13,0
@@ -97,9 +97,9 @@ intro_month=1
 retire_year=1932
 retire_month=6
 speed=75
-class=0,1
+class=2
 maximum_comfortable_journey_minutes=30
-maximum_tolerable_journey_minutes=225
+maximum_tolerable_journey_minutes=375
 
 Image[E]=./images/humberette-maroon_E.0.0,-33,14
 Image[SE]=./images/humberette-maroon_SE.0.0,-13,0
@@ -120,9 +120,9 @@ intro_month=1
 retire_year=1930
 retire_month=6
 speed=75
-class=0,1
+class=2
 maximum_comfortable_journey_minutes=30
-maximum_tolerable_journey_minutes=225
+maximum_tolerable_journey_minutes=375
 
 Image[E]=./images/humberette-blue_E.0.0,-33,14
 Image[SE]=./images/humberette-blue_SE.0.0,-13,0

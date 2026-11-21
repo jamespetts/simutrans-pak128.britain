@@ -10,7 +10,7 @@
 # Weight: 200 in total (black 70, silver 55, blue 40, white 35), the 3-series the
 # strongest class-3 seller of the 2010s.
 #
-# Speed 240 km/h; comfort 135/385 (line). Classes 2,3.
+# Speed 240 km/h; comfort 135/533 (line). Classes 1,2.
 # Dates: 2011-2019 with a road tail to about 2030.
 #
 # Metres master: citycars/4.5/bmw-f30.blend. References:
@@ -28,7 +28,7 @@ retire_month=6
 speed=240
 class=1,2
 maximum_comfortable_journey_minutes=135
-maximum_tolerable_journey_minutes=385
+maximum_tolerable_journey_minutes=533
 
 Image[E]=./images/bmw-f30-black_E.0.0,-33,14
 Image[SE]=./images/bmw-f30-black_SE.0.0,-13,0
@@ -51,7 +51,7 @@ retire_month=6
 speed=240
 class=1,2
 maximum_comfortable_journey_minutes=135
-maximum_tolerable_journey_minutes=385
+maximum_tolerable_journey_minutes=533
 
 Image[E]=./images/bmw-f30-silver_E.0.0,-33,14
 Image[SE]=./images/bmw-f30-silver_SE.0.0,-13,0
@@ -74,7 +74,7 @@ retire_month=6
 speed=240
 class=1,2
 maximum_comfortable_journey_minutes=135
-maximum_tolerable_journey_minutes=385
+maximum_tolerable_journey_minutes=533
 
 Image[E]=./images/bmw-f30-blue_E.0.0,-33,14
 Image[SE]=./images/bmw-f30-blue_SE.0.0,-13,0
@@ -97,7 +97,7 @@ retire_month=6
 speed=240
 class=1,2
 maximum_comfortable_journey_minutes=135
-maximum_tolerable_journey_minutes=385
+maximum_tolerable_journey_minutes=533
 
 Image[E]=./images/bmw-f30-white_E.0.0,-33,14
 Image[SE]=./images/bmw-f30-white_SE.0.0,-13,0

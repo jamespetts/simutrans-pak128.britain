@@ -17,7 +17,7 @@
 # Speed 80 km/h: no TE30 maximum speed has been found. 80 km/h (50 mph) is
 # derived from the 51.5 mph at 1,800 rpm published for the 1919 30 hp Daimler
 # Light Thirty (Motor Sport, May 1961), reduced for the heavier landaulette
-# body, and is flagged for review. Comfort 65/280 (line). Class 4.
+# body, and is flagged for review. Comfort 65/428 (line). Classes 2,3,4.
 # Dates: 1913 only, with a road tail to about 1938.
 #
 # Dimensions have not been found for the landaulette body. The model was built
@@ -48,9 +48,9 @@ intro_month=3
 retire_year=1938
 retire_month=6
 speed=80
-class=4
+class=2,3,4
 maximum_comfortable_journey_minutes=65
-maximum_tolerable_journey_minutes=280
+maximum_tolerable_journey_minutes=428
 
 Image[E]=./images/daimler-te30-black_E.0.0,-33,14
 Image[SE]=./images/daimler-te30-black_SE.0.0,-13,0
@@ -71,9 +71,9 @@ intro_month=6
 retire_year=1937
 retire_month=6
 speed=80
-class=4
+class=2,3,4
 maximum_comfortable_journey_minutes=65
-maximum_tolerable_journey_minutes=280
+maximum_tolerable_journey_minutes=428
 
 Image[E]=./images/daimler-te30-green_E.0.0,-33,14
 Image[SE]=./images/daimler-te30-green_SE.0.0,-13,0
@@ -94,9 +94,9 @@ intro_month=9
 retire_year=1936
 retire_month=6
 speed=80
-class=4
+class=2,3,4
 maximum_comfortable_journey_minutes=65
-maximum_tolerable_journey_minutes=280
+maximum_tolerable_journey_minutes=428
 
 Image[E]=./images/daimler-te30-maroon_E.0.0,-33,14
 Image[SE]=./images/daimler-te30-maroon_SE.0.0,-13,0
@@ -117,9 +117,9 @@ intro_month=11
 retire_year=1935
 retire_month=6
 speed=80
-class=4
+class=2,3,4
 maximum_comfortable_journey_minutes=65
-maximum_tolerable_journey_minutes=280
+maximum_tolerable_journey_minutes=428
 
 Image[E]=./images/daimler-te30-grey_E.0.0,-33,14
 Image[SE]=./images/daimler-te30-grey_SE.0.0,-13,0

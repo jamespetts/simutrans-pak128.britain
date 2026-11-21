@@ -15,9 +15,9 @@
 # Colours: grade (d). No British colour list exists; the car was finished to
 # order. The objects carry plain names (green, black, red, silver).
 #
-# Speed 140 km/h, an estimate for the touring body. Comfort 35/232 on the
-# line 180 + 1.5 x 35: an open tourer with four seats, more comfortable than
-# the two-seat sports cars. Classes 3,4.
+# Speed 140 km/h, an estimate for the touring body. Comfort 35/383 on the
+# line 330 + 1.5 x 35: an open tourer with four seats, more comfortable than
+# the two-seat sports cars. Classes 2,3,4.
 # Dates are road presence: 1937 intro, retires staggered 1956-1959.
 #
 # Metres master: citycars/4.5/aston-15-98.blend. Interchange:
@@ -41,9 +41,9 @@ intro_month=1
 retire_year=1959
 retire_month=6
 speed=140
-class=3,4
+class=2,3,4
 maximum_comfortable_journey_minutes=35
-maximum_tolerable_journey_minutes=232
+maximum_tolerable_journey_minutes=383
 
 Image[E]=./images/aston-15-98-green_E.0.0,-33,14
 Image[SE]=./images/aston-15-98-green_SE.0.0,-13,0
@@ -64,9 +64,9 @@ intro_month=1
 retire_year=1958
 retire_month=6
 speed=140
-class=3,4
+class=2,3,4
 maximum_comfortable_journey_minutes=35
-maximum_tolerable_journey_minutes=232
+maximum_tolerable_journey_minutes=383
 
 Image[E]=./images/aston-15-98-black_E.0.0,-33,14
 Image[SE]=./images/aston-15-98-black_SE.0.0,-13,0
@@ -87,9 +87,9 @@ intro_month=1
 retire_year=1957
 retire_month=6
 speed=140
-class=3,4
+class=2,3,4
 maximum_comfortable_journey_minutes=35
-maximum_tolerable_journey_minutes=232
+maximum_tolerable_journey_minutes=383
 
 Image[E]=./images/aston-15-98-red_E.0.0,-33,14
 Image[SE]=./images/aston-15-98-red_SE.0.0,-13,0
@@ -110,9 +110,9 @@ intro_month=1
 retire_year=1956
 retire_month=6
 speed=140
-class=3,4
+class=2,3,4
 maximum_comfortable_journey_minutes=35
-maximum_tolerable_journey_minutes=232
+maximum_tolerable_journey_minutes=383
 
 Image[E]=./images/aston-15-98-silver_E.0.0,-33,14
 Image[SE]=./images/aston-15-98-silver_SE.0.0,-13,0

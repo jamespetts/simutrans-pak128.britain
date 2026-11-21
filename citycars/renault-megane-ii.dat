@@ -26,8 +26,8 @@
 # and red. Weights white 3, silver 3, red 2, black 2, total 10, provisional
 # pending the central rebase.
 #
-# Speed 185 km/h, the 1.6-litre car's quoted maximum. Comfort 90/315, on the
-# line 180 + 1.5 x 90: roomy and quiet for its class. Classes 1,2.
+# Speed 185 km/h, the 1.6-litre car's quoted maximum. Comfort 90/465, on the
+# line 330 + 1.5 x 90: roomy and quiet for its class. Classes 0,1.
 #
 # Dates are road presence: late 2002 intro, retires staggered 2018-2021 on a
 # sixteen- to nineteen-year tail.
@@ -50,9 +50,9 @@ intro_month=12
 retire_year=2021
 retire_month=6
 speed=185
-class=1,2
+class=0,1
 maximum_comfortable_journey_minutes=90
-maximum_tolerable_journey_minutes=315
+maximum_tolerable_journey_minutes=465
 
 Image[E]=./images/renault-megane-ii-white_E.0.0,-33,14
 Image[SE]=./images/renault-megane-ii-white_SE.0.0,-13,0
@@ -73,9 +73,9 @@ intro_month=12
 retire_year=2021
 retire_month=6
 speed=185
-class=1,2
+class=0,1
 maximum_comfortable_journey_minutes=90
-maximum_tolerable_journey_minutes=315
+maximum_tolerable_journey_minutes=465
 
 Image[E]=./images/renault-megane-ii-silver_E.0.0,-33,14
 Image[SE]=./images/renault-megane-ii-silver_SE.0.0,-13,0
@@ -96,9 +96,9 @@ intro_month=12
 retire_year=2020
 retire_month=6
 speed=185
-class=1,2
+class=0,1
 maximum_comfortable_journey_minutes=90
-maximum_tolerable_journey_minutes=315
+maximum_tolerable_journey_minutes=465
 
 Image[E]=./images/renault-megane-ii-black_E.0.0,-33,14
 Image[SE]=./images/renault-megane-ii-black_SE.0.0,-13,0
@@ -119,9 +119,9 @@ intro_month=12
 retire_year=2019
 retire_month=6
 speed=185
-class=1,2
+class=0,1
 maximum_comfortable_journey_minutes=90
-maximum_tolerable_journey_minutes=315
+maximum_tolerable_journey_minutes=465
 
 Image[E]=./images/renault-megane-ii-red_E.0.0,-33,14
 Image[SE]=./images/renault-megane-ii-red_SE.0.0,-13,0
