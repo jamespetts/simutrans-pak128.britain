@@ -1,6 +1,6 @@
 ---
 status: draft
-verified: simutrans-extended ex-15 @ 9fdefa153; New ex-15 @ 8d0603d81
+verified: simutrans-extended ex-15 @ 2ec587a; New ex-15 @ e46fd294b
 ---
 # Vehicle cost model
 
@@ -36,6 +36,8 @@ the base-level evidence by vehicle type belongs in a vehicle evidence doc, along
 
 ## Units
 
+- The canonical table covering every category of money is [conversion-chains](conversion-chains.md);
+  the three vehicle rows are derived here and must agree with it.
 - The engine stores money in hundredths of the displayed currency unit (Simucents); every display path
   divides by 100. `[CODE simutrans-extended ex-15 @ 9fdefa153]`
 - The pakset's conversion from that displayed unit to 1900 pounds is recorded in
@@ -46,6 +48,89 @@ the base-level evidence by vehicle type belongs in a vehicle evidence doc, along
   different kinds of real cost to 1900 pounds; they are not an engine distinction. Which rate a
   given field should be calibrated at is therefore a decision for the synthesis, not a property
   of the field. The present `.dat` level cannot be used to infer it.
+
+## Engine scaling of the money fields
+
+Derived from the **ex-15** engine source on 2026-11-22 (branch `ex-15`, not `master`; the two agree
+on these functions, but every claim here was read on `ex-15`).
+
+- `karte_t::set_scale` passes `scale_factor = get_meters_per_tile()` to every vehicle descriptor,
+  and to ways, tunnels, bridges, way objects, station buildings, goods, industries and signals.
+  Depots, headquarters and city buildings are absent, so they are not scaled.
+  `SIMTYPES.H set_scale_generic<T>(value, f) = value x f / 1000`, integer division.
+  `[CODE simutrans-extended ex-15 @ 2ec587a]`
+- `obj_desc_transport_related_t::set_scale` computes `price = base_cost x scale_factor / 1000`,
+  and the same for `maintenance` and `way_only_cost`; `vehicle_desc_t::set_scale` additionally
+  scales `upgrade_price`, `fixed_cost`, `initial_overhaul_cost` and `max_overhaul_cost`.
+  **`running_cost` is not scaled.** `[CODE simutrans-extended ex-15 @ 2ec587a]`
+- The `.dat` value is the 1900 nominal. `config/prices.tab` line 2: "100% = the price specified in
+  the .dat file (adjusted for meters per tile and bits per month)". At display or charge the engine
+  applies the **object type's own series** for the current month:
+  `adjusted = value x index(month) / 100` (`get_inflation_adjusted_price`, linear interpolation
+  between the listed years, month = `year x 12 + month`).
+  `[CODE simutrans-extended ex-15 @ 2ec587a]`
+- The series differ by type, and this is the part that is easy to get wrong:
+
+  | Object | Series |
+  |---|---|
+  | Vehicle `cost` | `vehicle purchase` |
+  | Vehicle `runningcost`, `fixed_cost`, `upgrade_price` | `general` (`vehicle maintenance` is commented out, so it falls back) |
+  | Ways, tunnels, bridges, way objects, signals, roadsigns | `infrastructure` |
+  | Buildings: stations, station buildings, signalboxes, depots, HQ, city buildings, industries | `buildings` |
+  | Goods | `goods rate` |
+  | Land | `city land` / `country land` |
+  | Engine settings (`cost_*`) | `general`; `forge_cost_*` are indexed `infrastructure` |
+
+  `[CODE simutrans-extended ex-15 @ 2ec587a]` `[CODE New ex-15]`
+- At `meters_per_tile = 125` and `bits_per_month = 22` (`base_bits = 18`, `base_mpt = 1000`) the
+  factors at index 100 are: purchase and building cost **`.dat x 0.00125`**; building, way and
+  vehicle monthly maintenance **x 2** on top of the load-time scale
+  (`calc_adjusted_monthly_figure` = `2^(22-18) / INT(1000/125)` = 2); `runningcost`
+  **`.dat x 0.01` per km**; way/tunnel/bridge/way-object cost **`.dat x 0.01` per km**.
+  `[CODE simutrans-extended ex-15 @ 2ec587a]`
+- The per-month factor applies to **all** monthly charges, not only vehicle `fixed_cost`:
+  `finance_t::get_maintenance_with_bits` computes
+  `get_inflation_adjusted_price(month, calc_adjusted_monthly_figure(maintenance[tt]), infrastructure)`,
+  and `weg_t` and `gebaeude_t` book their `get_maintenance()` into that accumulator. Building
+  maintenance follows the same path with the `buildings` series.
+  `[CODE simutrans-extended ex-15 @ 2ec587a]`
+
+### Worked example: CSLR 1890 Tube Locomotive, January 1891
+
+`.dat`: `cost=650000`, `runningcost=51`, `fixed_cost=10677`. Series at Jan 1891:
+`vehicle purchase` 80, `general` 97.
+
+| Figure | Arithmetic | At 125 m/tile | At 120 m/tile |
+|---|---|---|---|
+| Price | 650,000 x 0.125 = 81,250; x 80/100 = 65,000; /100 | **650.00** | **624.00** |
+| Maintenance per km | 51 x 97/100 = 49; /100 | **0.49** | **0.49** |
+| Maintenance per month | 10,677 x 0.125 = 1,334; x 97/100 = 1,293; x2 = 2,586; /100 | **25.86** | **24.84** |
+
+The user's 2026-11-22 screenshot shows 624.00 / 0.49 / 24.84. `runningcost` is the control: it is
+not tile-scaled, so it is identical at both settings, and its 0.49 fixes the date (general 97) and
+the conversion. The two scaled figures are both 4 per cent below the 125 m/tile prediction, which
+is exactly the ratio 120/125. The three figures therefore reproduce the dialog only at
+`meters_per_tile = 120`. Setting `METERS_PER_TILE` on the workbooks' Params sheet to 120 gives
+624.00 / 0.49 / 24.86; the last differs by 0.02 from the dialog because the engine truncates to an
+integer at each step (1,281 -> 1,242 -> 2,484 -> 24.84) while the workbook multiplies exactly.
+Either the game in the screenshot did not load the pakset's `config/simuconf.tab` (125), or its
+setting was changed; this is recorded as an open question, not as an inference about the `.dat`
+values. A fresh game with the checked-out config should show 650.00 / 0.49 / 25.86.
+
+The table gives the engine's integer-truncated results. Exact multiplication gives 0.4947 for the
+per-kilometre charge and 25.89 for the monthly one; the engine casts to integers after each step
+(`1,334 -> 1,293 -> 2,586`), so a workbook built on exact arithmetic will differ in the second
+decimal place.
+`[USER-DIRECTION:2026-11-22]` `[CODE New ex-15]`
+
+### What the example does not say
+
+- It does not make the `.dat` values 1891 prices. They are 1900 prices; the 1891 figure is the
+  1900 figure deflated by the vehicle-purchase index. Writing 624 (or 650) into `cost` would
+  double-count the deflation.
+- The four per cent tile difference is a settings difference, not an inflation effect. The
+  `general` index at 1890 is 96, which happens to equal 120/125; that coincidence is what made the
+  earlier derivation look like a second index.
 
 ## Per-kilometre cost
 
@@ -81,6 +166,24 @@ the base-level evidence by vehicle type belongs in a vehicle evidence doc, along
   settings, and the two effects run in opposite directions. Raising `bits_per_month` lengthens
   the game month and raises the charge proportionally; lowering `meters_per_tile` shortens the
   tile and lowers it. Only the ratio of the two is visible in the `.dat` figure.
+- The same factor applies to **way, bridge, tunnel, way-object and building maintenance**.
+  `weg_t` and `gebaeude_t` book `get_maintenance()` into the player's `maintenance[waytype]`
+  accumulator; `finance_t::get_maintenance_with_bits` then applies
+  `calc_adjusted_monthly_figure` and the `infrastructure` series (buildings: `buildings`).
+  A way's `.dat` maintenance therefore costs `.dat x 0.02` SC per km per month at the pakset
+  settings, not `.dat x 0.01`. The earlier workbooks applied the doubling to vehicles only and
+  understated every infrastructure and building maintenance row by a factor of two.
+  `[CODE simutrans-extended ex-15 @ 2ec587a]`
+- The way tooltip and the charge do not agree. The charge path above applies the doubling and the
+  `infrastructure` index; the tooltip path (`tool_build_way_t::get_tooltip` ->
+  `tooltip_with_price_maintenance`) divides the per-kilometre figure by 100. For `wssri`
+  (`maintenance=450`) the charge at the price reading's own index (188, 1930) is
+  16.85 SC per km per month, and without the doubling it would still be 8.42; the tooltip showed
+  4.21. That figure is reproducible only with the index at 94 and no doubling, which contradicts
+  the price reading in the same tooltip. The maintenance line of the way tooltip is therefore
+  unreliable; do not calibrate way maintenance from it. The booking code, not the tooltip, is the
+  authority.
+  `[CODE simutrans-extended ex-15 @ 2ec587a]`
 - The tile factor is the same one applied to factory output and passenger generation. For a
   monthly charge the reason for dividing by it is not documented in the engine; see the open
   questions.
@@ -157,8 +260,9 @@ purchase price is 420 months of it, or 35 years. The numbers illustrate the arit
   figure that is right for a busy vehicle is too high for an idle one.
 - Changing `fixed_cost` is charged whether or not the vehicle runs, so it is the field that
   decides whether an idle fleet bleeds money.
-- Because `fixed_cost` is doubled by the settings while `runningcost` is not, the balance between
-  standing and distance costs in the `.dat` files is not the balance the player experiences.
+- Because every per-month charge is doubled by the settings while `runningcost` is not, the
+  balance between standing and distance costs in the `.dat` files is not the balance the player
+  experiences.
 - `upgrade_price` defaults to `cost` and is indexed by the `vehicle maintenance` series, while
   `cost` is indexed by `vehicle purchase`. If both are left at the same nominal figure, the two
   price types will pull them apart over time. See [engine-bugs](engine-bugs.md).
@@ -175,8 +279,8 @@ purchase price is 420 months of it, or 35 years. The numbers illustrate the arit
 - Is `upgrade_price`'s default of `cost` intended to mean that an upgrade costs as much as a new
   vehicle unless stated?
 - The `Vehicles (Simutrans)` sheet of `New/Infrastructure balancing calibration-2.ods` converts
-  vehicle capital to "in game" by dividing by 8 and the monthly figure by 4. The engine does
-  neither: it charges the `.dat` figure with only the price index applied, and multiplies the
-  monthly figure by 2 at this pakset's settings. The workbook's in-game columns are therefore not
-  a description of the engine. Which convention the older calibration was built on, and whether
-  any `.dat` value was set from that column, is unresolved.
+  vehicle capital to "in game" by dividing by 8 and the monthly figure by 4. The capital division
+  matches the engine's `meters_per_tile/1000` scale (1/8 at 125 m/tile). The monthly division does
+  not: the engine **multiplies** `fixed_cost` by 2 at this pakset's settings. The sheet's monthly
+  in-game column is therefore 8 times too small. Which convention the older calibration was built
+  on, and whether any `.dat` value was set from that column, is unresolved.

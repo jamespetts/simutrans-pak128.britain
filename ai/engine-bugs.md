@@ -1,6 +1,6 @@
 ---
 status: draft
-verified: simutrans-extended ex-15 @ bdfdc8311
+verified: simutrans-extended ex-15 @ 2ec587a
 ---
 # Engine bugs
 
@@ -168,6 +168,48 @@ Decision needed, not a confirmed defect. Recorded here because it changes what t
 - Consequence for balancing: any change to the relative level of the two series moves upgrade
   and overhaul costs with maintenance, not with purchase. Do not "correct" this without deciding
   what should index an overhaul.
+
+## 3. The way tooltip's maintenance line does not match the charge
+
+Priority 3 (display only; the charge is the code path that matters for balancing).
+
+### Where
+
+`tool_build_way_t::get_tooltip` in `simtool.cc` (through `tooltip_with_price_maintenance`) against
+`finance_t::get_maintenance_with_bits` in `player/finance.cc` and `weg_t::book_maintenance` in
+`boden/wege/weg.cc`.
+
+### What the code does
+
+The charge path books `way_desc->get_maintenance()` (the tile-scaled, unindexed member) into
+`maintenance[waytype]`, then charges
+`get_inflation_adjusted_price(month, calc_adjusted_monthly_figure(maintenance[tt]), infrastructure)`.
+At the pakset settings `calc_adjusted_monthly_figure` doubles it. The tooltip takes
+`desc->get_maintenance()`, multiplies by `base_meters_per_tile / meters_per_tile` and divides by
+100, with neither the monthly doubling nor (apparently) the index applied consistently.
+
+### Evidence
+
+`wssri-intermediate` (`cost=90000`, `maintenance=450`, `forge_cost_track=15000`). The 2026-11-17
+reading is `1,974.00 (-4.21) / km`. The price corresponds exactly to index 188 (1930):
+`(90,000 + 15,000) × 0.125 × 8 ÷ 100 × 1.88 = 1,974.00`. Maintenance at the same index should be
+`450 × 0.125 × 8 ÷ 100 × 1.88 = 8.42` without the doubling and 16.85 with it; the tooltip shows
+4.21, which needs index 94 and no doubling. The two lines of one tooltip cannot both be right.
+`[CODE simutrans-extended ex-15 @ 2ec587a]`
+
+### Effect and consequence
+
+A player reading the tooltip underestimates way upkeep by at least a factor of two, and by four
+against the actual charge. For balancing, never take a way maintenance figure from the tooltip;
+use the booking path, which at 125 m/tile and 22 bits is `.dat × 0.02` Simucredits per kilometre
+per month at index 100.
+
+### Test
+
+Lay one tile of `cast_iron` (`maintenance=800`, no forge), read the tooltip, then read the
+way-maintenance line of the monthly finance report for the same month. The charge should be
+`800 × 0.125 × 2 ÷ 100 = 2.00` Simucredits at index 100; the tooltip will show about half of the
+undoubled figure.
 
 ## Checked and not defects
 

@@ -94,14 +94,17 @@ without a controlled in-game reading, and it confirms the capital chain.
 
 ## What the screenshots do not validate
 
-Maintenance. Master's `tooltip_with_price_maintenance` applies
-`calc_adjusted_monthly_figure(maintenance)` and divides by 100, with **no** price index, so
-`maintenance=450` over eight tiles at a monthly factor of 2 must display exactly 72.00 in any
-year. The master screenshot shows 0.00, and the ex-15 screenshot's 4.21 is equally unreachable
-from 450 under either branch's formula. Both paks therefore carry a maintenance value near zero
-for this object, whatever the checked-in `.dat` says. The screenshots confirm the capital
-conversion and are silent on the maintenance one.
-`[CODE simutrans-extended master, ex-15 @ bdfdc8311]`
+Maintenance. The maintenance line of the way tooltip cannot be reconciled with the booking code.
+`finance_t::get_maintenance_with_bits` charges
+`get_inflation_adjusted_price(month, calc_adjusted_monthly_figure(maintenance[tt]), infrastructure)`,
+i.e. the `.dat` maintenance is scaled by `meters_per_tile/1000`, doubled by the monthly factor and
+indexed by `infrastructure`. For `wssri-intermediate` (`maintenance=450`) at the reading's own
+index (188, 1930) that is 16.85 a kilometre per month; without the doubling it is 8.42. The
+tooltip showed 4.21. That value is reproducible only with the index at 94 (about 1895) and no
+doubling, which contradicts the price reading in the same tooltip. The maintenance line is
+therefore unreliable, and the earlier inference that the paks carry a near-zero maintenance value
+does not follow. The capital conversion is unaffected.
+`[CODE simutrans-extended ex-15 @ 2ec587a]`
 
 ## What it confirms
 

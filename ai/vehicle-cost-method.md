@@ -90,6 +90,37 @@ workable.
 - Check that the implied price per ton and per horsepower falls within the ranges the engineering
   literature gives for the period.
 
+### The fitted locomotive ladder (2026-11-22)
+
+The locomotive surface is now fitted rather than assumed. Two forms, both in 1900 GBP:
+
+```
+steam, before 1900     price = 107 x weight^0.86
+steam, 1900 onwards    price = 132 x weight^0.86 x (power/600)^0.15
+diesel / electric      price =  28 x power^0.889
+```
+
+`weight` is engine weight in tons as the `.dat` states it; `power` is the `.dat` power field.
+The constants are least-squares fits in log space to the measured rows (Whishaw 1833-40; Planet
+1831; Stirling 1870; Metropolitan A 1871; M7 1897; T9 1899; Stanier 4P/5MT 1934; A4 1936; 9F 1960;
+Class 31/52/55/66/68). Class 57 is excluded from the diesel fit because it is a rebuild at about a
+third of a new-build price.
+
+**Why not a flat price per ton.** On the twelve steam rows, log price on log weight has an
+elasticity of 0.86 and an R² of 0.91: a 10 per cent heavier engine cost about 8.6 per cent more,
+so price per ton *falls* as engines grow. Adding power raises R² only to 0.93, and adding a year
+term to 0.97. Across all traction, weight alone explains 0.70 and, once power is included, weight
+becomes insignificant (power 0.889, R² 0.90) - diesels and electrics are priced by power and
+electrical equipment, not by tonnage. The flat £32-78/ton ladder it replaces had a mean absolute
+log error of 0.31 against the measured rows; the fitted ladder has 0.21.
+
+**Caveats.** The fit rests on 12 steam and 5 diesel points, which is enough to fix the slope and
+the order of magnitude, not to separate builders or specifications. The `.dat` weight may or may
+not include the tender while the measured prices sometimes do, which is worth perhaps 10-20 per
+cent at the light end. The era split at 1900 is a convention, not a measured break. Refit when
+more points arrive; the scripts are `ai/temp/regress_locomotive_price.py`,
+`ai/temp/analyse_price_per_ton.py` and `ai/temp/compare_ladders.py`.
+
 ## Building the index from 1900
 
 With the base level fixed, the index only has to move a constant basket. Three routes, in order

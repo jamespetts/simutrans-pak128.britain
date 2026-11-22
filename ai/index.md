@@ -35,8 +35,11 @@ do not use line-number references to files that change. Never edit a document's 
 - [high-level-design-goals](high-level-design-goals.md) — read before any design or balancing work: the amended design goals that govern pakset assets and data.
 - [pakset-roadmap](pakset-roadmap.md) — read when planning what assets or features to add in what order; registry of planned work. Check after completing work to close its entry.
 - [balancing](balancing.md) — read when tuning prices, costs, capacities, speeds, or intro/retire dates, or when judging economic and historical realism.
+- [cost-balancing-register](cost-balancing-register.md) — read when starting or tracking cost-balancing work on any class or item: the coverage status (balanced? class data? individual data? extrapolation feasible?) for every costed class, keyed to the cost-balancing spreadsheets.
+- [cost-data-coverage](cost-data-coverage.md) — read when judging how good the historical cost data is for a class of objects before setting any price: the per-class coverage quality, what each class's data can support, and the gaps.
 - [calibration-sources](calibration-sources.md) — read before entering any historically derived value in a config file or `.dat`: the source-recording rule and the dataset registry.
 - [prices-config](prices-config.md) — read when editing or extending `config/prices.tab`: the price types, the index method, the unit conversion and the outstanding series.
+- [conversion-chains](conversion-chains.md) — read before converting any cost, fare, wage or fuel price between `.dat` units and pounds: the canonical table for every category, with its timescale, monthly factor and status.
 - [vehicle-cost-model](vehicle-cost-model.md) — read before setting or changing any vehicle `cost`, `runningcost`, `fixed_cost` or `upgrade_cost`: what each field is charged for, and how `bits_per_month` and `meters_per_tile` scale it.
 - [vehicle-cost-method](vehicle-cost-method.md) — read before comparing vehicle prices across eras or classes: how to hold the specification constant, how to estimate a 1900 base level, and the traps in matched-model evidence.
 - [vehicle-cost-evidence](vehicle-cost-evidence.md) — read when a measured historical vehicle price or maintenance figure is needed: the evidence by class and era, the conversion question it exposes, and what it does not support.

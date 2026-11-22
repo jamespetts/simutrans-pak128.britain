@@ -1,6 +1,6 @@
 ---
 status: draft
-verified: New ex-15 @ b8f011fcd (working tree); simutrans-extended ex-15 @ 22cc3af
+verified: New ex-15 @ e46fd294b; simutrans-extended ex-15 @ 2ec587a
 ---
 # Prices config
 
@@ -18,6 +18,39 @@ conversion, and the research required for each type that has no series of its ow
   `[CODE New ex-15 @ 8d0603d81]`
 - Base prices in `.dat` files and in the finance settings of `simuconf.tab` are in 1900
   terms, and 1900 is 100 by construction. `[CODE New ex-15 @ 8d0603d81]`
+
+## Which series the engine applies
+
+The engine applies a **different series to different object types**. Getting this wrong makes a
+`.dat` value and a historical price incomparable, because the two are on different 1900 bases.
+
+| Object | Series applied by the engine | Where |
+|---|---|---|
+| Vehicle `cost` | `vehicle purchase` | `vehicle_desc_t::get_value` |
+| Vehicle `runningcost`, `fixed_cost`, `upgrade_price`, overhauls | `general` (`vehicle maintenance` is commented out and falls back) | `vehicle_desc.cc` |
+| Ways, tunnels, bridges, way objects, signals, roadsigns | `infrastructure` | `obj_desc_transport_infrastructure_t::get_value` / `get_base_price`; `obj/roadsign.cc`, `obj/signal.cc` |
+| Buildings: stations, station buildings, signalboxes, depots, HQ, city buildings, industries | `buildings` | `building_desc_t::get_price` / `get_base_price` |
+| Goods | `goods rate` | `goods_desc.cc` |
+| Land | `city land` / `country land` | `karte_t::get_land_value` |
+| Engine settings | `general` (`forge_cost_*`: `infrastructure`) | `settings.cc`, `karte_t::get_forge_cost` |
+
+`[CODE simutrans-extended ex-15 @ 2ec587a]`
+
+The in-game figure for an object at a given month is therefore
+
+```
+displayed = (.dat x meters_per_tile / 1000) x series(month) / 100 / 100        (scaled objects)
+displayed = .dat x series(month) / 100 / 100                                   (unscaled objects)
+displayed = per-month figure x 2^(bits_per_month-18) / INT(base_mpt/mpt)       (monthly charges)
+```
+
+The series diverge substantially, so substituting `general` for all of them is a material error:
+in 2026, `vehicle purchase` is 0.90 times `general`, `infrastructure` 0.57 times, and `buildings`
+1.35 times. Before 1900 the three are close but not identical (`vehicle purchase` is about 0.82
+times `general` in 1891); after 1950 they are far apart. The first version of the
+`cost-balancing-capital` and `cost-balancing-maintenance` workbooks deflated every historical
+price with `general`; the 2026-11-22 rebuild uses the series in this table.
+`[USER-DIRECTION:2026-11-22]`
 
 ## Types and state
 
@@ -59,6 +92,9 @@ used as rates rather than as multipliers on a base price; confirm this against t
   while the per-tile land model is outstanding. `[USER-DIRECTION:2026-11-15]`
 
 ## Unit conversion
+
+The canonical table covering every category of money, with its timescale and monthly factor, is
+[conversion-chains](conversion-chains.md). This section gives only the two rates it is built from.
 
 The pakset uses two conversion rates because the engine has two timescales.
 

@@ -14,6 +14,9 @@ history rests on a small number of anchors.
 
 ## The conversion chain
 
+The canonical table for every category of money, with its timescale and monthly factor, is
+[conversion-chains](conversion-chains.md). This section derives the two rows that concern ways.
+
 A `.dat` price is not a real price until four separate scalings are applied, and confusing any
 two of them changes the answer by an order of magnitude.
 
@@ -58,6 +61,29 @@ An in-game tooltip read on 2026-11-17 confirms the mechanics: a 97.5 lb/yard ste
 figure is the same quantity divided by the year index in force at the time of the reading; the
 ratio between `.dat` and pounds does not depend on that index, because it cancels.
 `[CODE simutrans-extended ex-15 @ bdfdc8311]`
+
+## Forge costs
+
+A plain way's build price is `cost + forge_cost_waytype` per tile, not `cost` alone. The forge
+charge is the **bed preparation** — trimming, drainage, fencing — and is a separate
+`simuconf.tab` setting. Bulk earthworks (cuttings and embankments) are deliberately **excluded**:
+they are made with the raise/lower land tool, not with the forge. `[USER-DIRECTION:2026-11-22]`
+
+Settings from 2026-11-22 (midpoints of the synthesis ranges, at 1900 prices): 88,000 for track,
+315,000 road, 125,000 water, 225,000 tram, 95,000 narrow gauge, 108,000 maglev, 108,000 monorail,
+1,875,000 air. They are scaled by `meters_per_tile/1000` and indexed by `infrastructure`, exactly
+like the way's own `cost`. `settings_t::get_forge_cost` (settings.cc) and `wegbauer`
+(bauer/wegbauer.cc) show the charge; the parallel-way rule reduces it to
+`parallel_ways_forge_cost_percentage_*` (35 per cent for track) when a way of the same type
+already runs alongside, and to zero on a tile that already carries one. Bridges, tunnels, piers
+and way objects do not pay it. `[CODE simutrans-extended ex-15 @ 2ec587a]`
+
+The 2026-11-22 workbook revision splits the way figures explicitly: "way only" and "way + forge"
+in-game columns, and the same split in the suggested `.dat` values. The "way only" suggested
+figure is the value for the `.dat` `cost` field at the present settings; the "way only" in-game
+column is what the way object alone costs. At the new track forge of 88,000 the bed preparation
+is larger than most present way costs, which is the correction: the old 15,000 was £59 per route
+kilometre against a measured bed-preparation range of £250-400. `[USER-DIRECTION:2026-11-22]`
 
 ## What changing meters_per_tile would do
 

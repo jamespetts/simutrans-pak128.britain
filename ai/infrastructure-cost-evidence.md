@@ -42,7 +42,9 @@ blocks and sleepers £586/mile); Leicester 1877 £1,790 (47 lb, including labour
 65 lb to £1,040 at 90 lb. **Working anchor: £1,300-1,900/km, roughly flat 1830-1900.**
 
 **Formation and minor earthworks**: £110/km (Surrey Iron Railway, 1803), £253/km including fencing
-(L&M, 1830), £250-400/km typical (1855-1900).
+(L&M, 1830), £250-400/km typical (1855-1900). The Midland Counties 1840 heavy earthworks were about
+£3,200/km, independently confirming the L&M figure; the £250-400/km band is therefore **bed
+preparation**, not bulk earthworks. `[LITERATURE:research-pricing-report-3.md §4]`
 
 **Heavy earthworks**: L&M cuttings and embankments £3,284/km plus Chat Moss £456/km. Grand
 Junction contracts 1837-39: 4.4 million cubic yards at about 9d a yard with leads under a mile,
@@ -69,7 +71,11 @@ rates: £0.70 per square metre of face at 15 ft, £1.16 at 25 ft, £1.70 at 40 f
 
 **Renewal**: wrought iron 5-25 years depending on traffic, steel 15-25 years, modern 25-45.
 Relaying costs 50-60% of new permanent way, because the formation and ballast are reused. NER
-relaying 1878 was £661/km against new permanent way at £1,277/km.
+relaying 1878 was £661/km against new permanent way at £1,277/km. The 1859 ICE discussion gives
+£100 a mile-year with 37 per cent of the cost in rails and 63 per cent in the substructure. The
+modern component split (ORR CP5/CP6) is: rail-only renewal 18-22 per cent of a full renewal,
+re-ballast 42-46 per cent, rail plus sleeper 43-62 per cent, and full plain-line renewal
+£1.41-1.45m per track km in nominal prices. `[LITERATURE:network-rail-track-renewal-unit-costs.md]`
 
 ## 3. Roads
 
@@ -191,12 +197,41 @@ domain, and it comes from track circuits, cables, interlocking and control rathe
 
 ## 8. Electrification
 
-**Capital**: Southern Railway third rail 1925 £833,000 for 67 track miles, about £3,825 per track
-km at 1900 prices; the 1955 programmes £40m for 390 route miles of overhead AC and £25m for 250
-route miles of third rail, about £13,600 per route km; modern overhead £6,100-8,100 per track km
-simple, rising to £16,300-20,300 on the troubled schemes.
+**Capital, third rail.** Four Southern schemes: LSWR 1913 estimate £4,833 per track km; Guildford
+and Dorking 1925 £7,713; Portsmouth No. 1 1937 £7,712; Reading and Camberley 1939 £7,042 (all
+nominal). The 1925 and 1937 figures are almost identical in money of the day twelve years apart, so
+the real fall came from the price level, not from cheaper work. The 1925 figure includes seven
+rotary-converter substations, conductor rail and platform lengthening, and excludes rolling stock.
+`[LITERATURE:br-electrification-costs-1955-1991.md]`
+
+**Capital, 25 kV.** The 1955 Modernisation Plan (Cmnd 9691) gives about £125m for main-line fixed
+installations: £94,722 per route km if the 820 trunk route miles are meant, £53,200 if all 1,460
+plan route miles are. The Southern Region extension is 250 route miles for about £25m (£62,137 per
+route km). BTC *Electrification* (1955) gives the only clean 25 kV figure: £38.6m for the
+Euston-Manchester-Liverpool power supply and overhead, including clearances, over 495 route miles
+(£48,454 per route km; about £24,200 per track km if two tracks). The 1966 West Coast scheme was
+£175m for 1,500 track miles including track, signalling and stations (£72,494 per track km, an
+upper bound); Hansard (27 May 1968) gives the net capital cost as about £90m including electric
+stock. The East Coast scheme was authorised at £306m in 1984 and cost £344.4m at 1983 prices; 60
+per cent was infrastructure and 1,400 track miles were electrified, about £91,700 per track km.
+`[LITERATURE:br-electrification-costs-1955-1991.md]`
+
+**The earlier £40m for 390 route miles is withdrawn.** 390 miles is the Plan's *suburban*
+programme, and the Plan's fixed-installation figure is £125m, not £40m. The suburban programme's
+own cost could not be recovered from the scanned table and is recorded as unverified.
+`[LITERATURE:br-electrification-costs-1955-1991.md]`
+
+**Fixed equipment.** A 25 kV feeder station is about £1m with about £2m more for the grid
+connection (2010). Crossrail's 2014 contract for eight auto-transformer substations plus a feeder
+station was £16m, about £1.78m a site. Overhead-line base rates (HS2 cost model, 2011) are £377
+per route metre single track, £544 two-track and £1,084 four-track; the Railway Industry
+Association's 2019 efficient-electrification figures are £750,000-1,000,000 per single track km,
+and the Great Western outturn was about £2m per single track km. Tramway 750 V DC overhead is
+£150,000-200,000 per single track km, or about £600,000 per route km with feeder substations and
+grid connection. `[LITERATURE:br-electrification-costs-1955-1991.md]`
 
 **Maintenance**: tramway line equipment, maintenance and renewal combined, £58/km a year in 1930-31.
+No British electrification maintenance series per track-km-year was found.
 
 **Renewal**: contact wire 35-40 years, catenary with it; registration assemblies 50-60 years;
 steelwork 80 years; foundations 120 years. Conductor rail 60-80 years, barely traffic-dependent.

@@ -874,20 +874,27 @@ cost_multiply_headquarter=10000
 # Forge cost settings
 # 
 # The forge cost settings determine the cost of building a new way, in
-# SimuCents per kilometre. This cost is charged when building a new
+# SimuCents per tile before the meters_per_tile scale and the infrastructure
+# index are applied. This cost is charged when building a new
 # way of a specified type on a tile, but not when upgrading an existing
 # way of that same type. This therefore makes it cheaper to upgrade ways
 # than build new ones. This cost is added to the base cost of the ways
 # specified in the .dat files.
+#
+# 2026-11-22: the forge represents BED PREPARATION (trimming, drainage,
+# fencing), not bulk earthworks; cuttings and embankments are made with the
+# raise/lower land tool. Values are the midpoints of the ranges in
+# New/ai/infrastructure-cost-synthesis.md section 5, calibrated to 1900
+# pounds per route kilometre (setting = GBP/km x 252.3).
 
-forge_cost_road = 7500
-forge_cost_track = 15000
-forge_cost_water = 25000
-forge_cost_monorail = 15000
-forge_cost_maglev = 20000
-forge_cost_tram = 4000
-forge_cost_narrowgauge = 8000
-forge_cost_air = 22500
+forge_cost_road = 315000
+forge_cost_track = 88000
+forge_cost_water = 125000
+forge_cost_monorail = 108000
+forge_cost_maglev = 108000
+forge_cost_tram = 225000
+forge_cost_narrowgauge = 95000
+forge_cost_air = 1875000
 
 # The parallel ways forge cost percentage is the percentage of the
 # forge cost that is charged when building one way of each type

@@ -252,6 +252,15 @@ the whole channel in the way object: either the water forge rises to 300,000-450
 
 **Parallel ways.** Track 35%, road 50%, water 75% and air 85% hold on the marginal cost of a second way; tram does not, at nearer 40% than 85%.
 
+**Definitional choice, 2026-11-22.** Heavy earthworks are **excluded** from the forge by user
+direction: cuttings and embankments are made with the raise/lower land tool, not the forge. The
+forge is bed preparation only, which is the £250-400/km band behind the track recommendation (the
+1840 Midland Counties heavy earthworks were about £3,200/km, matching the L&M figure, and are not
+in the forge). The recommended settings were applied on 2026-11-22 as the midpoints of the ranges
+above: track 88,000, narrow gauge 95,000, road 315,000, tram 225,000, water 125,000, air
+1,875,000, monorail and maglev 108,000. `[USER-DIRECTION:2026-11-22]`
+`[LITERATURE:research-pricing-report-3.md §4.5]`
+
 ## 6. Defects found in passing
 
 - `ways/wooden-trestle-stone-pillar.dat` read `cost=cost=672000`, and `ways/iron-arch-rail.dat` had

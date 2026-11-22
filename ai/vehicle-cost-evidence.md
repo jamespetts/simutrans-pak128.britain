@@ -214,6 +214,12 @@ The measured steam-era engines cluster at £32 to £78 per ton of engine weight,
 above them. The two implied columns bracket that range by an order of magnitude on each side,
 which is the same conclusion reached another way.
 
+**Price per ton is a check, not the ladder.** The fit of 2026-11-22 shows why: on the steam rows,
+price scales as weight^0.86, so a flat £/ton overprices small engines and underprices large ones;
+across traction, power rather than weight carries the diesel/electric price. The ladder actually
+used by the workbooks is the one in [vehicle-cost-method](vehicle-cost-method.md#the-fitted-locomotive-ladder-2026-11-22).
+The table above remains valid as a per-ton sanity check within the steam era.
+
 ## What the evidence supports
 
 - A price surface for carriages and wagons from the 1895-1910 records, which are dense and carry

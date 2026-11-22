@@ -1,0 +1,82 @@
+match,capital,maintenance,source,note
+br-class15,1.000,1.100,research pass 21,"Paxman 16YHXL; required excessive maintenance as delivered, improved by piston and cylinder-head modifications"
+br-class16,1.000,1.150,research pass 21,worse than Class 15: inadequate ventilation seized the engine and the red-circle control gear was failure-prone
+br-class17,1.000,1.100,research pass 21,early diesel unreliability
+br-class21,1.000,1.100,research pass 21,early diesel unreliability
+br-class22,1.000,1.050,research pass 21,reached 85 per cent availability later; small adjustment only
+br-class23,1.000,1.100,research pass 21,early diesel unreliability
+br-class28,1.000,1.100,research pass 21,early diesel unreliability
+br-class31,1.000,1.050,research pass 21,modest reliability penalty
+br-class40,1.000,0.950,research pass 21,regarded as solid
+br-class42,1.000,1.050,research pass 21,modest reliability penalty
+br-class43,1.000,1.100,research pass 21,modest reliability penalty
+br-class47,1.000,1.050,research pass 21,25 per cent failure rate in October 1965
+br-class50,1.000,1.080,research pass 21,modest reliability penalty
+br-class52,1.000,1.050,research pass 21,overhaul every 4-5 years and light overhaul every 6000 hours
+br-class55,1.000,1.080,research pass 21,modest reliability penalty
+br-class76,1.000,0.950,research pass 21,regarded as solid
+br-class77,1.000,0.950,research pass 21,regarded as solid
+br-303,1.000,1.100,research pass 21,early-life EMU reliability penalty
+br-305,1.000,1.100,research pass 21,early-life EMU reliability penalty
+br-8p,1.000,1.050,research pass 21,Britannia: slide-bar access and water carry-over; build cost not differentiated
+br-4mt-4-6-0,1.050,1.000,research pass 21,Class 4 4-6-0 build premium
+br-4mt-2-6-0,1.050,1.000,research pass 21,Class 4 2-6-0 build premium
+lbscr,1.050,1.000,research pass 20,Stroudley admission and Park capital charge; build premium about 5 per cent
+lnwr-coal,0.900,1.000,research pass 20,simplest and cheapest ever built for a main line; 25.5-hour erection
+lnwr-g1,0.900,1.000,research pass 20,20 per cent lighter and cheaper to build than the GCR 8K
+lnwr-precursor,1.066,1.000,research pass 20,69124 miles between general repairs against 64835 for the Experiment
+gwr-churchward-star,1.100,1.000,research pass 20,three LNWR 4-6-0s for the price of two; claim capped at 10 per cent
+ner-p3,0.850,1.000,research pass 20,Darlington 2986 against 3500-3550 quoted for the identical engine in 1908
+nbr-scott,0.910,1.000,research pass 20,Cowlairs beat the contractor 3000 floor
+routemaster,1.100,0.900,research pass 22,"light-alloy integral body, dearer to build but rot-free and fewer road failures than the RT"
+leyland-titan-pd2,1.000,0.950,research pass 22,spare ratios 10 per cent against 20-25 for the early Atlantean
+leyland-titan-pd3,1.000,0.950,research pass 22,as PD2: low spare ratio
+scammellcrusader,1.000,0.950,research pass 22,built around proven Rolls-Royce and Fuller components
+morrismarina,0.950,1.000,research pass 22,18-month gestation on carry-over parts; cheap to develop
+ford-transit-mk1,0.950,1.000,research pass 22,one range covering 12 cwt to 3 tons; shared running components
+tilling-stevens,1.150,1.000,research pass 22,"petrol-electric transmission; Stevens stated 25 per cent, capped at 15"
+br-mk1,0.95,0.90,research pass 23,spartan finish and batch production (build -5); corrosion record -10 on maintenance
+br-mk2,1.05,1.00,research pass 23,"integral tooling and lost flexibility; the weight saving is the ladder job, not a class term"
+br-mk3,1.05,0.90,research pass 23,systems +5 build; early BT10 axlebox and disc-brake failures -10 maintenance
+br-mk4,1.00,0.90,research pass 23,introduction reliability: high risk and we paid the price (BRB 1992)
+pullman,1.15,1.00,research pass 23,dining and Pullman vehicles 2.0-2.2 times a corridor third in the measured ratio; capped at 15
+br-455,1.00,0.95,research pass 23,regarded as reliable
+dh-comet-1,1.15,1.15,research pass 24,"Comet 1: nine delivered against GBP 4.25m development, and Ghost overhaul at 375 hours against 1050 for the Dart"
+bristol-britannia,1.00,1.10,research pass 24,Proteus 500-hour overhaul life at entry; 16 failures and 49 engine changes in trials
+vickers-super-vc10,1.15,1.10,research pass 24,measured 27 per cent above the 707 in build; maintenance 8-9 per cent per hour above
+vickers-vc10,1.00,1.10,research pass 24,maintenance 8-9 per cent per hour above the 707; VC10 lost half the 707 maintenance time
+aerospatiale-bac-concorde,1.00,1.15,research pass 24,"measured about five times the 747 per capacity; capped at 15, and 782 against 4000 hours a year"
+vickers-vc2-viscount,1.00,0.90,research pass 24,Dart overhaul at 5000 hours; the most maintainable of the British types
+glasgow-coronation,1.15,1.10,research pass 24,Glasgow Coronation: build premium and heavier maintenance
+feltham,1.10,1.00,research pass 24,Feltham prototypes: build premium for the prototype batch
+glasgow-cunarder,1.05,1.00,research pass 24,Cunarder: modest build premium
+br-141,0.85,1.00,research pass 23,"Pacer family 141-144: bus body on a four-wheel wagon underframe; a Class 142 set cost GBP 340,000 against about GBP 481 a vehicle for the Sprinter order, 35 per cent cheaper, capped at 15"
+br-142,0.85,1.00,research pass 23,"Pacer family 141-144: bus body on a four-wheel wagon underframe; a Class 142 set cost GBP 340,000 against about GBP 481 a vehicle for the Sprinter order, 35 per cent cheaper, capped at 15"
+br-143,0.85,1.00,research pass 23,"Pacer family 141-144: bus body on a four-wheel wagon underframe; a Class 142 set cost GBP 340,000 against about GBP 481 a vehicle for the Sprinter order, 35 per cent cheaper, capped at 15"
+br-144,0.85,1.00,research pass 23,"Pacer family 141-144: bus body on a four-wheel wagon underframe; a Class 142 set cost GBP 340,000 against about GBP 481 a vehicle for the Sprinter order, 35 per cent cheaper, capped at 15"
+br-150,1.10,1.00,research pass 23,"Sprinter family 150/155/156: conventional bogie DMU, GBP 263,204 a vehicle in 1984-86 against GBP 170,000 for a Class 142 car"
+br-153,1.10,1.00,research pass 23,"Sprinter family 150/155/156: conventional bogie DMU, GBP 263,204 a vehicle in 1984-86 against GBP 170,000 for a Class 142 car"
+br-156,1.10,1.00,research pass 23,"Sprinter family 150/155/156: conventional bogie DMU, GBP 263,204 a vehicle in 1984-86 against GBP 170,000 for a Class 142 car"
+br-158,1.10,1.00,research pass 23,"Sprinter family 150/155/156: conventional bogie DMU, GBP 263,204 a vehicle in 1984-86 against GBP 170,000 for a Class 142 car"
+br-159,1.10,1.00,research pass 23,"Sprinter family 150/155/156: conventional bogie DMU, GBP 263,204 a vehicle in 1984-86 against GBP 170,000 for a Class 142 car"
+br-313,1.10,1.00,research pass 23,"PEP family 313/314/315/507/508: aluminium-alloy integral body, all axles motored, trailer 26.5 t against 35.5 t for a Class 450"
+br-314,1.10,1.00,research pass 23,"PEP family 313/314/315/507/508: aluminium-alloy integral body, all axles motored, trailer 26.5 t against 35.5 t for a Class 450"
+br-315,1.10,1.00,research pass 23,"PEP family 313/314/315/507/508: aluminium-alloy integral body, all axles motored, trailer 26.5 t against 35.5 t for a Class 450"
+br-507,1.10,1.00,research pass 23,"PEP family 313/314/315/507/508: aluminium-alloy integral body, all axles motored, trailer 26.5 t against 35.5 t for a Class 450"
+br-508,1.10,0.95,research pass 23,PEP build premium +10; Class 508 braking and reliability record -5 maintenance
+1983tubestock,1.00,1.15,research pass 26,"Kiepe camshaft, Mawdsley motor alternators, Westinghouse analogue brake control, single-leaf doors, first batch 18 mm too wide; withdrawn after 14 years"
+1992tubestock,1.00,1.15,research pass 26,reliability penalty recorded by the pass
+1995tubestock,1.00,0.90,research pass 26,regarded as reliable
+1996tubestock,1.00,0.95,research pass 26,regarded as reliable
+1973tubestock,1.00,0.950,research pass 26,"the 2011 ""by far the most reliable"" is a late-life judgement at 36 years old; the 1970s record shows introduction defects (trains delivered without doors in 1975, a 10 mph restriction in 1976), so the penalty is halved"
+1959tubestock,1.00,1.05,research pass 26,modest reliability penalty
+2009tubestock,1.00,0.90,research pass 26,S stock: reliable
+metropolitan1905gate,1.00,1.05,research pass 26,modest reliability penalty
+districtelectricloco,1.15,1.05,research pass 26,no contract price found; build placeholder +15 and reliability +5
+metcamelbackloco,1.15,1.05,research pass 26,"Westinghouse electric locomotive of 1906; no contract price, build placeholder +15"
+metbthloco,1.15,1.00,research pass 26,no contract price found; build placeholder +15
+metropolitan-vickers,1.10,1.00,research pass 26,no contract price found; build placeholder +10
+1890tubestockloco,1.15,1.00,research pass 26,no contract price found; build placeholder +15
+1900tubeloco,1.15,1.00,research pass 26,no contract price found; build placeholder +15
+lul_c_stock,1.00,0.940,research pass 26,"more reliable than the CO/CP it replaced (Bruce 1971, Clarke 1974); the late-life record is not evidence about the period of interest; -6 per cent as directed"
+lul_s_stock,1.00,0.90,research pass 26,S stock: reliable

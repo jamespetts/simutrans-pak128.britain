@@ -1,0 +1,421 @@
+name,traction,transmission,class_name,cylinders,arrangement,superheat,valve_gear,boiler_pressure,grate_area,driving_wheel_dia,built_from,built_to,confidence,source,notes
+ac-railbus,diesel,diesel-mechanical,AC railbus,,,,,,,,1958,1958,medium,Wikipedia: AC railbus,
+BR-Class09,diesel,diesel-electric,BR Class 09,,,,,,,,1959,1962,medium,Wikipedia: BR Class 09,
+BR-Class10800,diesel,diesel-electric,BR 10800,,,,,,,,1950,1953,medium,Wikipedia: BR 10800,
+BR-Class15,diesel,diesel-electric,BR Class 15,,,,,,,,1957,1961,medium,Wikipedia: BR Class 15,
+BR-Class16,diesel,diesel-electric,BR Class 16,,,,,,,,1958,1962,medium,Wikipedia: BR Class 16,
+BR-Class17,diesel,diesel-electric,BR Class 17,,,,,,,,1962,1965,medium,Wikipedia: BR Class 17,
+BR-Class20,diesel,diesel-electric,BR Class 20,,,,,,,,1957,1968,medium,Wikipedia: BR Class 20,
+BR-Class21,diesel,diesel-electric,BR Class 21,,,,,,,,1958,1960,medium,Wikipedia: BR Class 21,
+BR-Class24,diesel,diesel-electric,BR Class 24,,,,,,,,1958,1961,medium,Wikipedia: BR Class 24,
+BR-Class25,diesel,diesel-electric,BR Class 25,,,,,,,,1961,1967,medium,Wikipedia: BR Class 25,
+BR-Class26,diesel,diesel-electric,BR Class 26,,,,,,,,1958,1960,medium,Wikipedia: BR Class 26,
+BR-Class27,diesel,diesel-electric,BR Class 27,,,,,,,,1961,1962,medium,Wikipedia: BR Class 27,
+BR-Class28,diesel,diesel-electric,BR Class 28,,,,,,,,1958,1959,medium,Wikipedia: BR Class 28,
+BR-Class28-2,diesel,diesel-electric,BR Class 28,,,,,,,,1958,1959,medium,Wikipedia: BR Class 28,
+BR-Class29,diesel,diesel-electric,BR Class 29,,,,,,,,1963,1963,medium,Wikipedia: BR Class 29,
+BR-Class30,diesel,diesel-electric,BR Class 30,,,,,,,,1957,1962,medium,Wikipedia: BR Class 30,
+BR-Class31-1,diesel,diesel-electric,BR Class 31,,,,,,,,1957,1962,medium,Wikipedia: BR Class 31,
+BR-Class33,diesel,diesel-electric,BR Class 33,,,,,,,,1960,1962,medium,Wikipedia: BR Class 33,
+BR-Class35,diesel,diesel-hydraulic,BR Class 35 (Hymek),,,,,,,,1961,1964,medium,Wikipedia: BR Class 35 (Hymek),
+BR-Class37,diesel,diesel-electric,BR Class 37,,,,,,,,1960,1965,medium,Wikipedia: BR Class 37,
+BR-Class40,diesel,diesel-electric,BR Class 40,,,,,,,,1958,1962,medium,Wikipedia: BR Class 40,
+BR-Class41,diesel,diesel-hydraulic,BR Class 41 (Warship),,,,,,,,1958,1959,medium,Wikipedia: BR Class 41 (Warship),
+BR-Class42,diesel,diesel-hydraulic,BR Class 42 (Warship),,,,,,,,1958,1961,medium,Wikipedia: BR Class 42 (Warship),
+BR-Class43,diesel,diesel-electric,BR Class 43 (HST power car),,,,,,,,1976,1982,medium,Wikipedia: BR Class 43 (HST power car),
+BR-Class43Rear,diesel,diesel-electric,BR Class 43 (HST power car),,,,,,,,1976,1982,medium,Wikipedia: BR Class 43 (HST power car),
+BR-Class45,diesel,diesel-electric,BR Class 45,,,,,,,,1960,1962,medium,Wikipedia: BR Class 45,
+BR-Class47,diesel,diesel-electric,BR Class 47,,,,,,,,1962,1968,medium,Wikipedia: BR Class 47,
+BR-Class50,diesel,diesel-electric,BR Class 50,,,,,,,,1967,1974,medium,Wikipedia: BR Class 50,
+BR-Class52,diesel,diesel-hydraulic,BR Class 52 (Western),,,,,,,,1961,1964,medium,Wikipedia: BR Class 52 (Western),
+BR-Class55,diesel,diesel-electric,BR Class 55 (Deltic),,,,,,,,1961,1962,medium,Wikipedia: BR Class 55 (Deltic),
+BR-Class56,diesel,diesel-electric,BR Class 56,,,,,,,,1976,1984,medium,Wikipedia: BR Class 56,
+BR-Class57,diesel,diesel-electric,BR Class 57,,,,,,,,1998,2004,medium,Wikipedia: BR Class 57,
+BR-Class58,diesel,diesel-electric,BR Class 58,,,,,,,,1982,1987,medium,Wikipedia: BR Class 58,
+BR-Class60,diesel,diesel-electric,BR Class 60,,,,,,,,1989,1993,medium,Wikipedia: BR Class 60,
+BR-Class62,diesel,diesel-electric,BR Class 62 (HS4000 Kestrel production version),,,,,,,,1971,1971,medium,Wikipedia: BR Class 62,Hypothetical production version of the HS4000 Kestrel prototype (diesel-electric).
+BR-Class66,diesel,diesel-electric,BR Class 66,,,,,,,,1998,2000,medium,Wikipedia: BR Class 66,
+BR-Class67,diesel,diesel-electric,BR Class 67,,,,,,,,1999,2000,medium,Wikipedia: BR Class 67,
+BR-Class68,diesel,diesel-electric,BR Class 68,,,,,,,,2014,2017,medium,Wikipedia: BR Class 68,
+BR-Class70,diesel,diesel-electric,BR Class 70,,,,,,,,2009,2012,medium,Wikipedia: BR Class 70,
+GWR-Gloucester-Parcel-Railcar,diesel,diesel-mechanical,GWR Gloucester parcels railcar,,,,,,,,1937,1937,medium,Wikipedia: GWR Gloucester parcels railcar,
+GWR-Gloucester-Railcar,diesel,diesel-mechanical,GWR Gloucester railcar,,,,,,,,1937,1937,medium,Wikipedia: GWR Gloucester railcar,
+GWR-ParkRoyal-Railcar,diesel,diesel-mechanical,GWR Park Royal railcar,,,,,,,,1936,1936,medium,Wikipedia: GWR Park Royal railcar,
+gwr-swindon-railcar,diesel,diesel-mechanical,GWR Swindon railcar,,,,,,,,1934,1934,medium,Wikipedia: GWR Swindon railcar,
+gwr-swindon-railcar-parcels,diesel,diesel-mechanical,GWR Swindon parcels railcar,,,,,,,,1934,1934,medium,Wikipedia: GWR Swindon parcels railcar,
+leyland-railbus,diesel,diesel-mechanical,Leyland railbus,,,,,,,,1933,1933,medium,Wikipedia: Leyland railbus,
+LMS-10000,diesel,diesel-electric,LMS 10000,,,,,,,,1947,1948,medium,Wikipedia: LMS 10000,
+SR-1-Co-Co-1,diesel,diesel-electric,SR 1-Co-Co-1,,,,,,,,1937,1937,medium,Wikipedia: SR 1-Co-Co-1,
+BR-Class71,electric,electric,BR Class 71,,,,,,,,1958,1960,medium,Wikipedia: BR Class 71,
+BR-Class73,electric,electric,BR Class 73,,,,,,,,1962,1967,medium,Wikipedia: BR Class 73,
+BR-Class81,electric,electric,BR Class 81,,,,,,,,1959,1964,medium,Wikipedia: BR Class 81,
+BR-Class83,electric,electric,BR Class 83,,,,,,,,1960,1962,medium,Wikipedia: BR Class 83,
+BR-Class85,electric,electric,BR Class 85,,,,,,,,1961,1964,medium,Wikipedia: BR Class 85,
+BR-Class86,electric,electric,BR Class 86,,,,,,,,1965,1966,medium,Wikipedia: BR Class 86,
+BR-Class87,electric,electric,BR Class 87,,,,,,,,1973,1975,medium,Wikipedia: BR Class 87,
+BR-Class88,electric,electric,BR Class 88,,,,,,,,2014,2015,medium,Wikipedia: BR Class 88,
+BR-Class89,electric,electric,BR Class 89,,,,,,,,1986,1986,medium,Wikipedia: BR Class 89,
+BR-Class90,electric,electric,BR Class 90,,,,,,,,1987,1990,medium,Wikipedia: BR Class 90,
+BR-Class91,electric,electric,BR Class 91,,,,,,,,1988,1991,medium,Wikipedia: BR Class 91,
+BR-Class92,electric,electric,BR Class 92,,,,,,,,1993,1996,medium,Wikipedia: BR Class 92,
+LMS-502Front,electric,electric,LMS 502,,,,,,,,1940,1940,medium,Wikipedia: LMS 502,
+LNER-ClassEM1,electric,electric,LNER Class EM1,,,,,,,,1941,1952,medium,Wikipedia: LNER Class EM1,
+LNER-ClassEM2,electric,electric,LNER Class EM2,,,,,,,,1953,1954,medium,Wikipedia: LNER Class EM2,
+NER-ClassEE1,electric,electric,NER Class EE1,,,,,,,,1922,1922,medium,Wikipedia: NER Class EE1,
+NER-ClassEF1,electric,electric,NER Class EF1,,,,,,,,1914,1923,medium,Wikipedia: NER Class EF1,
+NER-ClassES1,electric,electric,NER Class ES1,,,,,,,,1903,1905,medium,Wikipedia: NER Class ES1,
+SR-CC,electric,electric,SR CC class (electric locomotive),,,,,,,,1941,1945,medium,Wikipedia: SR CC class,Third-rail electric locomotives for Southampton Docks.
+ner-tyne-petrol-electric-railcar,petrol,petrol-electric,NER petrol-electric railcar,,,,,,,,1908,1908,medium,Wikipedia: NER petrol-electric railcar,Petrol engine driving a generator; electric traction motors.
+BR-2MT-Tank,steam,,BR Standard Class 2 2-6-2T,2,simple,yes,Walschaerts,200,17.5,60,1953,1956,high,"RCTS, British Railways Standard Steam Locomotives (4 vols, 1966-71)",
+BR-2MT-Tank-Push-Pull,steam,,BR Standard Class 2 2-6-2T,2,simple,yes,Walschaerts,200,17.5,60,1953,1956,high,"RCTS, British Railways Standard Steam Locomotives (4 vols, 1966-71)",
+BR-4MT-2-6-0,steam,,BR Standard Class 4 2-6-0,2,simple,yes,Walschaerts,225,23,63,1952,1957,high,"RCTS, British Railways Standard Steam Locomotives (4 vols, 1966-71)",
+BR-4MT-4-6-0,steam,,BR Standard Class 4 4-6-0,2,simple,yes,Walschaerts,225,26.7,68,1951,1957,high,"RCTS, British Railways Standard Steam Locomotives (4 vols, 1966-71)",
+BR-4MT-Tank,steam,,BR Standard Class 4 2-6-4T,2,simple,yes,Walschaerts,225,26.7,68,1951,1956,high,"RCTS, British Railways Standard Steam Locomotives (4 vols, 1966-71)",
+BR-5MT,steam,,BR Standard Class 5,2,simple,yes,Walschaerts,225,28.7,74,1951,1957,high,"RCTS, British Railways Standard Steam Locomotives (4 vols, 1966-71)",
+BR-7MT,steam,,BR Standard Class 7 (Britannia),2,simple,yes,Walschaerts,250,42,74,1951,1954,high,"RCTS, British Railways Standard Steam Locomotives (4 vols, 1966-71)",
+BR-8P,steam,,BR Standard Class 8 (Duke of Gloucester),3,simple,yes,Caprotti,250,48.6,74,1954,1954,high,"RCTS, British Railways Standard Steam Locomotives",Only British Pacific with Caprotti poppet valve gear; three cylinders.
+BR-9F,steam,,BR Standard Class 9F,2,simple,yes,Walschaerts,250,40.2,60,1954,1960,high,"RCTS, British Railways Standard Steam Locomotives (4 vols, 1966-71)",
+bury-bar-frame-goods,steam,,Bury bar-frame goods,2,simple,no,,,,,,,low,"Ahrons, The British Steam Railway Locomotive 1825-1925 (1927)","Pioneer engine; cylinder count from the standard description, details uncertain."
+bury-bar-frame-passenger,steam,,Bury bar-frame passenger,2,simple,no,,,,,,,low,"Ahrons, The British Steam Railway Locomotive 1825-1925 (1927)","Pioneer engine; cylinder count from the standard description, details uncertain."
+ger-belpaire-claud,steam,,GER Class S46 (Claud Hamilton),2,simple,no,Stephenson,180,21.3,84,1900,1923,medium,"Wikipedia: GER Classes S46, D56 and H88",Saturated as built; superheated later.
+GER-Claud-Hamilton,steam,,GER Class S46 (Claud Hamilton),2,simple,no,Stephenson,180,21.3,84,1900,1923,medium,"Wikipedia: GER Classes S46, D56 and H88",Saturated as built; superheated later.
+ger-s69,steam,,GER Class S69,2,simple,no,Stephenson,180,26.5,78,1911,1928,medium,"Wikipedia: GER Classes S46, D56 and H88",Saturated as built; many later superheated.
+ger-super-claud,steam,,GER Class H88 (super-Claud),2,simple,yes,Stephenson,180,21.3,84,1900,1923,medium,"Wikipedia: GER Classes S46, D56 and H88",
+gnr-120-class,steam,,GNR 120 Class,2,simple,no,Stephenson,,,,,,low,"RCTS, Locomotives of the GNR (1970)",
+gnr-1321,steam,,GNR Class C1 (large boiler),2,simple,no,,170,,80,1902,1910,medium,"RCTS, Locomotives of the GNR (1970); Wikipedia class article",
+gnr-241-class,steam,,GNR 241 Class,2,simple,no,Stephenson,,,,,,medium,"RCTS, Locomotives of the GNR (1970); Wikipedia class article",
+gnr-658-class,steam,,GNR 658 Class,2,simple,no,Stephenson,,,,,,medium,"RCTS, Locomotives of the GNR (1970); Wikipedia class article",
+gnr-766-class,steam,,GNR 766 Class,2,simple,no,Stephenson,,,,,,medium,"RCTS, Locomotives of the GNR (1970); Wikipedia class article",
+gnr-a-class,steam,,GNR Class A,2,simple,no,Stephenson,,,,,,medium,"RCTS, Locomotives of the GNR (1970); Wikipedia class article",
+GNR-C1,steam,,GNR Class C1 (large boiler),2,simple,no,Stephenson,170,,80,1902,1910,medium,"RCTS, Locomotives of the GNR (1970); Wikipedia class article",
+GNR-C1-superheated,steam,,"GNR Class C1 (large boiler, superheated)",2,simple,yes,,170,,80,1902,1910,medium,"RCTS, Locomotives of the GNR (1970); Wikipedia class article",
+gnr-c12-class,steam,,GNR Class C12,2,simple,no,Stephenson,,,,,,medium,"RCTS, Locomotives of the GNR (1970); Wikipedia class article",
+gnr-d1,steam,,GNR Class D1,2,simple,yes,,,,,,,medium,"RCTS, Locomotives of the GNR (1970); Wikipedia class article",
+gnr-d2,steam,,GNR Class D2,2,simple,no,Stephenson,175,16.2,80,1896,1899,medium,"RCTS, Locomotives of the GNR (1970); Wikipedia class article",
+gnr-e1,steam,,GNR Class E1,2,simple,no,Stephenson,,,,,,medium,"RCTS, Locomotives of the GNR (1970); Wikipedia class article",
+gnr-g1,steam,,GNR Class G1,2,simple,no,Stephenson,,,,,,medium,"RCTS, Locomotives of the GNR (1970); Wikipedia class article",
+gnr-g2,steam,,GNR Class G2,2,simple,no,,,,,,,low,"RCTS, Locomotives of the GNR (1970)",
+gnr-g3,steam,,GNR Class G3,2,simple,no,,,,,,,low,"RCTS, Locomotives of the GNR (1970)",
+gnr-h-class,steam,,GNR Class H,2,simple,no,,,,,,,low,"RCTS, Locomotives of the GNR (1970)",
+gnr-h2-class,steam,,GNR Class H2,2,simple,no,Stephenson,180,24.5,68,1912,1912,medium,"RCTS, Locomotives of the GNR (1970); Wikipedia class article",
+gnr-hawthorn-single,steam,,GNR Hawthorn single,2,simple,no,Stephenson,,,,,,medium,"RCTS, Locomotives of the GNR (1970); Wikipedia class article",
+gnr-k1,steam,,GNR Class K1,2,simple,yes,,,,,,,medium,"RCTS, Locomotives of the GNR (1970); Wikipedia class article",
+gnr-k3,steam,,GNR Class K3,2,simple,yes,,,,,,,medium,"RCTS, Locomotives of the GNR (1970); Wikipedia class article",
+GNR-Klondyke,steam,,GNR Klondyke,2,simple,no,Stephenson,,,,,,medium,"RCTS, Locomotives of the GNR (1970); Wikipedia class article",
+gnr-n1,steam,,GNR Class N1,2,simple,no,Stephenson,170,19,68,1906,1912,medium,"RCTS, Locomotives of the GNR (1970); Wikipedia class article",
+gnr-n2,steam,,GNR Class N2,2,simple,yes,Stephenson,170,19,68,1920,1929,medium,"RCTS, Locomotives of the GNR (1970); Wikipedia class article",
+gnr-q,steam,,GNR Class Q,2,simple,no,Stephenson,,,,,,medium,"RCTS, Locomotives of the GNR (1970); Wikipedia class article",
+GNR-Stirling7Foot,steam,,GNR Stirling 7ft single,2,simple,no,Stephenson,,,,,,medium,"RCTS, Locomotives of the GNR (1970); Wikipedia class article",
+GNR-Stirling8Foot,steam,,GNR Stirling 8ft single,2,simple,no,Stephenson,,,,,,medium,"RCTS, Locomotives of the GNR (1970); Wikipedia class article",
+gnr-sturrock-coupled,steam,,GNR Sturrock coupled,2,simple,no,Stephenson,,,,,,medium,"RCTS, Locomotives of the GNR (1970); Wikipedia class article",
+gnr-sturrock-single,steam,,GNR Sturrock single,2,simple,no,Stephenson,,,,,,medium,"RCTS, Locomotives of the GNR (1970); Wikipedia class article",
+gnr-wilson-single,steam,,GNR Wilson single,2,simple,no,Stephenson,,,,,,medium,"RCTS, Locomotives of the GNR (1970); Wikipedia class article",
+gwr-131,steam,,GWR 131 Class,2,simple,no,Stephenson,,,,,,low,Wikipedia: Daniel Gooch standard-gauge locomotives,Early Gooch standard; individual class detail not in the general article.
+GWR-1400Tank,steam,,GWR 1400 Class,2,simple,no,Stephenson,165,12.8,62,1932,1936,medium,"Wikipedia class article (infobox); see Nock, The GWR Stars, Castles and Kings",Saturated 0-4-2T; auto-fitted.
+gwr-157,steam,,GWR 157 Class,2,simple,no,Stephenson,,,,,,medium,Wikipedia: GWR 157 Class,
+gwr-1600,steam,,GWR 1600 Class,2,simple,no,Stephenson,165,14.9,49.5,1949,1955,medium,"Wikipedia class article (infobox); see Nock, The GWR Stars, Castles and Kings",Saturated 0-6-0T.
+gwr-1813,steam,,GWR 1813 Class,2,simple,no,Stephenson,,,54,1882,1884,medium,"Wikipedia class article (infobox); see Nock, The GWR Stars, Castles and Kings",
+gwr-1813-rebuilt,steam,,GWR 1813 Class (rebuilt),2,simple,no,Stephenson,,,54,1882,1884,medium,"Wikipedia class article (infobox); see Nock, The GWR Stars, Castles and Kings",Rebuilt member of the class; machinery largely unchanged.
+gwr-2021,steam,,GWR 2021 Class,2,simple,no,Stephenson,150,14.5,49.5,1897,1905,medium,"Wikipedia class article (infobox); see Nock, The GWR Stars, Castles and Kings",
+gwr-2021-rebuilt,steam,,GWR 2021 Class (rebuilt),2,simple,no,Stephenson,150,14.5,49.5,1897,1905,medium,"Wikipedia class article (infobox); see Nock, The GWR Stars, Castles and Kings",Rebuilt member of the class; machinery largely unchanged.
+gwr-2201,steam,,GWR 2201 Class,2,simple,no,Stephenson,,,78,1881,1882,medium,"Wikipedia class article (infobox); see Nock, The GWR Stars, Castles and Kings",
+GWR-2800,steam,,GWR 2800 Class,2,simple,no,Stephenson,225,27.1,55.5,1903,1919,medium,"Wikipedia class article (infobox); see Nock, The GWR Stars, Castles and Kings",Saturated as built; superheated from 1909 (the pakset has a separate object).
+gwr-2800-superheated,steam,,GWR 2800 Class (superheated),2,simple,yes,Stephenson,225,27.1,55.5,1909,1919,medium,"Wikipedia class article (infobox); see Nock, The GWR Stars, Castles and Kings",Superheater fitted from 1909; the class was built saturated from 1903.
+gwr-2884,steam,,GWR 2884 Class,2,simple,yes,Stephenson,225,27.1,55.5,1938,1942,medium,"Wikipedia class article (infobox); see Nock, The GWR Stars, Castles and Kings",
+gwr-3150,steam,,GWR 3150 Class,2,simple,no,Stephenson,200,20.6,68,1906,1908,medium,"Wikipedia class article (infobox); see Nock, The GWR Stars, Castles and Kings",
+gwr-3150-superheated,steam,,GWR 3150 Class (superheated),2,simple,yes,Stephenson,200,20.6,68,1906,1908,medium,"Wikipedia class article (infobox); see Nock, The GWR Stars, Castles and Kings",Superheated version of the class; see the saturated entry.
+gwr-322,steam,,GWR 322 Class,2,simple,no,Stephenson,,,,,,low,Wikipedia: Daniel Gooch standard-gauge locomotives,Early Gooch standard; individual class detail not in the general article.
+gwr-3232,steam,,GWR 3232 Class,2,simple,no,Stephenson,,,79,1892,1892,medium,"Wikipedia class article (infobox); see Nock, The GWR Stars, Castles and Kings",
+gwr-3571,steam,,GWR 3571 Class,2,simple,no,Stephenson,,,,,,medium,"Wikipedia class article (infobox); see Nock, The GWR Stars, Castles and Kings",
+gwr-4200,steam,,GWR 4200 Class,2,simple,no,Stephenson,200,,55.5,1910,1923,medium,"Wikipedia class article (infobox); see Nock, The GWR Stars, Castles and Kings",
+gwr-4300,steam,,GWR 4300 Class,2,simple,yes,Stephenson,200,20.6,68,1911,1932,medium,"Wikipedia class article (infobox); see Nock, The GWR Stars, Castles and Kings",
+gwr-4500,steam,,GWR 4500 Class,2,simple,no,Stephenson,200,,55.5,1906,1924,medium,"Wikipedia class article (infobox); see Nock, The GWR Stars, Castles and Kings",
+gwr-4500-superheated,steam,,GWR 4500 Class (superheated),2,simple,yes,Stephenson,200,,55.5,1906,1924,medium,"Wikipedia class article (infobox); see Nock, The GWR Stars, Castles and Kings",Superheated version of the class; see the saturated entry.
+gwr-4575,steam,,GWR 4575 Class,2,simple,yes,Stephenson,200,16.6,55.5,1927,1929,medium,"Wikipedia class article (infobox); see Nock, The GWR Stars, Castles and Kings",
+gwr-481,steam,,GWR 481 Class,2,simple,no,Stephenson,,,,1869,1869,low,Wikipedia: Daniel Gooch standard-gauge locomotives,Early Gooch standard; individual class detail not in the general article.
+gwr-5100,steam,,GWR 5100 Class,2,simple,no,Stephenson,200,,68,1903,1903,medium,"Wikipedia class article (infobox); see Nock, The GWR Stars, Castles and Kings",Saturated as built in 1903; the 5101 class of 1929 was the superheated development.
+gwr-5101,steam,,GWR 5101 Class,2,simple,yes,Stephenson,200,20.4,68,1929,1949,medium,"Wikipedia class article (infobox); see Nock, The GWR Stars, Castles and Kings",
+gwr-517,steam,,GWR 517 Class,2,simple,no,Stephenson,150,12.8,60,1868,1885,medium,"Wikipedia class article (infobox); see Nock, The GWR Stars, Castles and Kings",
+gwr-517-rebuilt,steam,,GWR 517 Class (rebuilt),2,simple,no,Stephenson,150,12.8,60,1868,1885,medium,"Wikipedia class article (infobox); see Nock, The GWR Stars, Castles and Kings",Rebuilt member of the class; machinery largely unchanged.
+gwr-517-rebuilt-auto-fitted,steam,,"GWR 517 Class (rebuilt, auto-fitted)",2,simple,no,Stephenson,150,12.8,60,1868,1885,medium,"Wikipedia class article (infobox); see Nock, The GWR Stars, Castles and Kings",Rebuilt member of the class; machinery largely unchanged.
+gwr-5205,steam,,GWR 5205 Class,2,simple,no,Stephenson,200,,55.5,1923,1940,medium,"Wikipedia class article (infobox); see Nock, The GWR Stars, Castles and Kings",
+gwr-5400,steam,,GWR 5400 Class,2,simple,no,Stephenson,,,62,1930,1958,medium,"Wikipedia class article (infobox); see Nock, The GWR Stars, Castles and Kings",
+gwr-57,steam,,GWR 57 Class,2,simple,no,Stephenson,,,,,,low,Wikipedia: Daniel Gooch standard-gauge locomotives,Early Gooch standard; individual class detail not in the general article.
+gwr-6100,steam,,GWR 6100 Class,2,simple,yes,Stephenson,225,20.4,68,1931,1935,medium,"Wikipedia class article (infobox); see Nock, The GWR Stars, Castles and Kings",
+gwr-6400,steam,,GWR 6400 Class,2,simple,no,Stephenson,165,16.8,55.5,1932,1950,medium,"Wikipedia class article (infobox); see Nock, The GWR Stars, Castles and Kings",
+gwr-69,steam,,GWR 69 Class,2,simple,no,Stephenson,,,,,,low,Wikipedia: Daniel Gooch standard-gauge locomotives,Early Gooch standard; individual class detail not in the general article.
+gwr-717,steam,,GWR 717 Class,2,simple,no,Stephenson,,,,,,low,Wikipedia: Daniel Gooch standard-gauge locomotives,Early Gooch standard; individual class detail not in the general article.
+gwr-79,steam,,GWR 79 Class,2,simple,no,Stephenson,,,,,,low,Wikipedia: Daniel Gooch standard-gauge locomotives,Early Gooch standard; individual class detail not in the general article.
+gwr-806,steam,,GWR 806 Class,2,simple,no,Stephenson,,,78,1873,1873,medium,Wikipedia: GWR 806 Class,
+gwr-8100,steam,,GWR 8100 Class,2,simple,no,Stephenson,200,,68,1903,1903,medium,"Wikipedia class article (infobox); see Nock, The GWR Stars, Castles and Kings",
+gwr-850,steam,,GWR 850 Class,2,simple,no,Stephenson,,,48,1874,1895,medium,Wikipedia: GWR 850 Class,
+gwr-850-rebuilt,steam,,GWR 850 Class,2,simple,no,Stephenson,,,48,1874,1895,medium,Wikipedia: GWR 850 Class,
+gwr-9400,steam,,GWR 9400 Class,2,simple,no,Stephenson,200,17.4,55.5,1947,1956,medium,"Wikipedia class article (infobox); see Nock, The GWR Stars, Castles and Kings",
+gwr-aberdare,steam,,GWR 2600 Class (Aberdare),2,simple,no,Stephenson,200,20.4,55.5,1900,1907,medium,"Wikipedia class article (infobox); see Nock, The GWR Stars, Castles and Kings",
+gwr-aberdare-superheated,steam,,"GWR 2600 Class (Aberdare, superheated)",2,simple,yes,Stephenson,200,20.4,55.5,1900,1907,medium,"Wikipedia class article (infobox); see Nock, The GWR Stars, Castles and Kings",Superheated version of the class; see the saturated entry.
+gwr-achillies,steam,,GWR 3031 Class (Achilles),2,simple,no,Stephenson,,,92.5,1894,1899,medium,"Wikipedia class article (infobox); see Nock, The GWR Stars, Castles and Kings",
+gwr-armstrong-coal-goods,steam,,GWR Armstrong coal goods,2,simple,no,Stephenson,,,,,,low,Wikipedia: GWR Armstrong locomotives,
+gwr-armstrong-standard-goods,steam,,GWR Armstrong standard goods,2,simple,no,Stephenson,,,,,,low,Wikipedia: GWR Armstrong locomotives,
+gwr-badminton,steam,,GWR 4100 Class (Badminton),2,simple,no,Stephenson,,,,1897,1908,medium,"Wikipedia class article (infobox); see Nock, The GWR Stars, Castles and Kings",
+gwr-badminton-superheated,steam,,"GWR 4100 Class (Badminton, superheated)",2,simple,yes,Stephenson,,,,1897,1908,medium,"Wikipedia class article (infobox); see Nock, The GWR Stars, Castles and Kings",Superheated version of the class; see the saturated entry.
+gwr-barnum,steam,,GWR Barnum Class,2,simple,no,Stephenson,,,,,,medium,"Wikipedia class article (infobox); see Nock, The GWR Stars, Castles and Kings",
+gwr-birdcage,steam,,GWR Birdcage Class,2,simple,no,Stephenson,,,,,,medium,"Wikipedia class article (infobox); see Nock, The GWR Stars, Castles and Kings",
+gwr-birdcage-superheated,steam,,GWR Birdcage Class (superheated),2,simple,yes,Stephenson,,,,,,medium,"Wikipedia class article (infobox); see Nock, The GWR Stars, Castles and Kings",Superheated version of the class; see the saturated entry.
+gwr-buffalo,steam,,GWR Buffalo Class,2,simple,no,Stephenson,,,,,,medium,"Wikipedia class article (infobox); see Nock, The GWR Stars, Castles and Kings",
+gwr-buffalo-rebuilt,steam,,GWR Buffalo Class (rebuilt),2,simple,no,Stephenson,,,,,,medium,"Wikipedia class article (infobox); see Nock, The GWR Stars, Castles and Kings",Rebuilt member of the class; machinery largely unchanged.
+GWR-Bulldog,steam,,GWR Bulldog Class,2,simple,no,Stephenson,200,20.4,68,1899,1910,low,Wikipedia: GWR Bulldog Class,Numbers taken from the 3300 Class article are not used here; treat with caution.
+gwr-bulldog-superheated,steam,,GWR Bulldog Class (superheated),2,simple,yes,Stephenson,,,,,,low,Wikipedia: GWR Bulldog Class,Superheated version of the class; see the saturated entry.
+GWR-Castle,steam,,GWR 4073 Class (Castle),4,simple,yes,Walschaerts,225,30.3,80.5,1923,1950,high,"Nock, The GWR Stars, Castles and Kings (1967); Wikipedia infobox",
+gwr-chancellor,steam,,GWR Chancellor Class,2,simple,no,Stephenson,,,,,,medium,"Wikipedia class article (infobox); see Nock, The GWR Stars, Castles and Kings",
+GWR-Churchward-Star,steam,,GWR 4000 Class (Star),4,simple,yes,Walschaerts,225,27,79,1906,1923,high,"Nock, The GWR Stars, Castles and Kings (1967); Wikipedia infobox",
+GWR-Churchward-Star-superheated,steam,,GWR 4000 Class (Star),4,simple,yes,Walschaerts,225,27,79,1906,1923,high,"Nock, The GWR Stars, Castles and Kings (1967); Wikipedia infobox",
+GWR-City,steam,,GWR 3700 Class (City),2,simple,no,Stephenson,,,80.5,1903,1903,medium,"Wikipedia class article (infobox); see Nock, The GWR Stars, Castles and Kings",
+gwr-city-superheated,steam,,"GWR 3700 Class (City, superheated)",2,simple,yes,Stephenson,,,80.5,1903,1903,medium,"Wikipedia class article (infobox); see Nock, The GWR Stars, Castles and Kings",Superheated version of the class; see the saturated entry.
+gwr-collett-goods,steam,,GWR 2251 Class (Collett Goods),2,simple,yes,Stephenson,,,,1930,1948,medium,"Wikipedia class article (infobox); see Nock, The GWR Stars, Castles and Kings",
+gwr-dean-goods,steam,,GWR 2301 Class (Dean Goods),2,simple,no,Stephenson,,,,1897,1907,medium,"Wikipedia class article (infobox); see Nock, The GWR Stars, Castles and Kings",Saturated; a few were later fitted with superheaters.
+gwr-duke,steam,,GWR 3252 Class (Duke),2,simple,no,Stephenson,160,,68,1895,1899,medium,"Wikipedia class article (infobox); see Nock, The GWR Stars, Castles and Kings",
+gwr-duke-superheated,steam,,"GWR 3252 Class (Duke, superheated)",2,simple,yes,Stephenson,160,,68,1895,1899,medium,"Wikipedia class article (infobox); see Nock, The GWR Stars, Castles and Kings",Superheated version of the class; see the saturated entry.
+gwr-grange,steam,,GWR 6800 Class (Grange),2,simple,yes,Stephenson,225,27.1,68,1936,1939,medium,"Wikipedia class article (infobox); see Nock, The GWR Stars, Castles and Kings",
+GWR-Hall,steam,,GWR 4900 Class (Hall),2,simple,yes,Stephenson,225,27.1,72,1928,1943,medium,"Wikipedia class article (infobox); see Nock, The GWR Stars, Castles and Kings",
+GWR-Hawksworth-County,steam,,GWR 1000 Class (Hawksworth County),2,simple,yes,Walschaerts,280,28.8,75,1945,1947,high,"Nock, The GWR Stars, Castles and Kings (1967); Wikipedia infobox",
+GWR-King,steam,,GWR 6000 Class (King),4,simple,yes,Walschaerts,250,34.3,78,1927,1936,high,"Nock, The GWR Stars, Castles and Kings (1967); Wikipedia infobox",
+gwr-metro,steam,,GWR Metro Class,2,simple,no,Stephenson,,,,,,medium,"Wikipedia class article (infobox); see Nock, The GWR Stars, Castles and Kings",
+GWR-Modified-Hall,steam,,GWR 6959 Class (Modified Hall),2,simple,yes,Stephenson,,,,1944,1950,medium,"Wikipedia class article (infobox); see Nock, The GWR Stars, Castles and Kings",
+GWR-PannierTank,steam,,GWR 5700 Class,2,simple,no,Stephenson,,,,1929,1950,medium,"Wikipedia class article (infobox); see Nock, The GWR Stars, Castles and Kings",5700 class; saturated. Later 15xx and 16xx panniers are separate designs.
+GWR-Prairie-Tank,steam,,GWR 5101 Class (Prairie Tank),2,simple,yes,Stephenson,,,,1929,1949,medium,"Wikipedia class article (infobox); see Nock, The GWR Stars, Castles and Kings",
+GWR-Prairie-Tank-Modified,steam,,GWR 6100 Class (Modified Prairie Tank),2,simple,yes,Stephenson,225,20.4,68,1931,1935,medium,"Wikipedia class article (infobox); see Nock, The GWR Stars, Castles and Kings",
+gwr-queen,steam,,GWR Queen Class,2,simple,no,Stephenson,,,84,1873,1875,medium,"Wikipedia class article (infobox); see Nock, The GWR Stars, Castles and Kings",
+gwr-queen-rebuilt,steam,,GWR Queen Class (rebuilt),2,simple,no,Stephenson,,,84,1873,1875,medium,"Wikipedia class article (infobox); see Nock, The GWR Stars, Castles and Kings",Rebuilt member of the class; machinery largely unchanged.
+gwr-railmotor,steam,,GWR steam railmotor,2,simple,no,Stephenson,,,,1903,1908,low,Wikipedia: GWR railmotor,Single-coach steam railmotor; the pakset name is generic.
+gwr-river,steam,,GWR River Class,2,simple,no,Stephenson,,,80,1895,1897,medium,"Wikipedia class article (infobox); see Nock, The GWR Stars, Castles and Kings",
+GWR-Saint,steam,,GWR 2900 Class (Saint),2,simple,yes,Stephenson,225,27.2,80.5,1902,1913,medium,"Wikipedia class article (infobox); see Nock, The GWR Stars, Castles and Kings",
+gwr-saint-superheated,steam,,"GWR 2900 Class (Saint, superheated)",2,simple,yes,Stephenson,225,27.2,80.5,1902,1913,medium,"Wikipedia class article (infobox); see Nock, The GWR Stars, Castles and Kings",Superheated version of the class; see the saturated entry.
+gwr-sharp,steam,,GWR Sharp Class,2,simple,no,Stephenson,,,,,,low,Wikipedia: GWR Sharp Class (not verified),
+gwr-sir-daniel,steam,,GWR 378 Class (Sir Daniel),2,simple,no,Stephenson,140,16.6,84,1866,1869,medium,"Wikipedia class article (infobox); see Nock, The GWR Stars, Castles and Kings",
+gwr-stella,steam,,GWR 3201 Class (Stella),2,simple,no,Stephenson,,,61,1884,1885,medium,"Wikipedia class article (infobox); see Nock, The GWR Stars, Castles and Kings",
+hawthorn-2-2-2,steam,,Hawthorn 2-2-2,2,simple,no,,,,,,,low,"Ahrons, The British Steam Railway Locomotive 1825-1925 (1927)","Pioneer engine; cylinder count from the standard description, details uncertain."
+HR-Jones-Goods,steam,,Highland Railway Jones Goods,2,simple,no,Stephenson,170,,63,1894,1894,medium,Wikipedia: Highland Railway Jones Goods Class,
+JennyLind,steam,,Jenny Lind,2,simple,no,,120,,72,1847,1847,low,"Ahrons, The British Steam Railway Locomotive 1825-1925 (1927)","Pioneer engine; cylinder count from the standard description, details uncertain."
+lancashire-witch,steam,,Lancashire Witch,2,simple,no,,,,,1828,1828,low,"Ahrons, The British Steam Railway Locomotive 1825-1925","Pioneer engine; cylinder count from the standard description, details uncertain."
+LBR-2-4-0T,steam,,London & Brighton 2-4-0T,2,simple,no,,,,,,,low,"Ahrons, The British Steam Railway Locomotive 1825-1925 (1927)","Pioneer engine; cylinder count from the standard description, details uncertain."
+LBSCR-0-4-2T,steam,,LB&SCR 0-4-2T,2,simple,no,Stephenson,,,,,,medium,"Bradley, The Locomotive History of the LB&SCR (RCTS, 1969-72)",
+LBSCR-6ft-6-single,steam,,LB&SCR 6ft 6in single,2,simple,no,Stephenson,,,,,,medium,"Bradley, The Locomotive History of the LB&SCR (RCTS, 1969-72)",
+LBSCR-A1,steam,,LB&SCR A1 class (Terrier),2,simple,no,Stephenson,140,10,48,1872,1880,medium,"Bradley, The Locomotive History of the LB&SCR (RCTS, 1969-72)",
+LBSCR-A1X,steam,,"LB&SCR A1X class (Terrier, rebuilt)",2,simple,no,Stephenson,,,,,,low,"Bradley, The Locomotive History of the LB&SCR",
+LBSCR-B1-Gladstone,steam,,LB&SCR B1 class (Gladstone),2,simple,no,Stephenson,140,,78,1882,1891,medium,"Bradley, The Locomotive History of the LB&SCR (RCTS, 1969-72)",
+LBSCR-B2,steam,,LB&SCR B2 class,2,simple,no,Stephenson,160,,81,1895,1898,medium,"Bradley, The Locomotive History of the LB&SCR (RCTS, 1969-72)",
+LBSCR-B2x,steam,,LB&SCR B2X class,2,simple,no,Stephenson,,,,,,low,"Bradley, The Locomotive History of the LB&SCR",
+LBSCR-B4,steam,,LB&SCR B4 class,2,simple,no,Stephenson,180,,81,1899,1924,medium,"Bradley, The Locomotive History of the LB&SCR (RCTS, 1969-72)",
+LBSCR-B4x,steam,,LB&SCR B4X class,2,simple,no,,,,,,,low,"Bradley, The Locomotive History of the LB&SCR",
+LBSCR-Belgravia,steam,,LB&SCR Belgravia class,2,simple,no,Stephenson,140,18.8,78,1872,1876,medium,"Bradley, The Locomotive History of the LB&SCR (RCTS, 1969-72)",
+LBSCR-C,steam,,LB&SCR C class,2,simple,no,Stephenson,140,20.9,60,1871,1874,medium,"Bradley, The Locomotive History of the LB&SCR (RCTS, 1969-72)",
+LBSCR-C1,steam,,LB&SCR C1 class,2,simple,no,Stephenson,150,20.9,,1882,1887,medium,"Bradley, The Locomotive History of the LB&SCR (RCTS, 1969-72)",
+LBSCR-C2,steam,,LB&SCR C2 class,2,simple,no,Stephenson,160,,60,1893,1902,medium,"Bradley, The Locomotive History of the LB&SCR (RCTS, 1969-72)",
+LBSCR-C2x,steam,,LB&SCR C2X class,2,simple,no,Stephenson,,,,,,low,"Bradley, The Locomotive History of the LB&SCR",
+LBSCR-croydon,steam,,LB&SCR Croydon class,2,simple,no,,,,,,,low,"Bradley, The Locomotive History of the LB&SCR (RCTS, 1969-72)",
+LBSCR-Crystal-Palace-tank,steam,,LB&SCR Crystal Palace Tank,2,simple,no,,,,,,,medium,"Bradley, The Locomotive History of the LB&SCR (RCTS, 1969-72)",
+LBSCR-D1,steam,,LB&SCR D1 class,2,simple,no,Stephenson,140,15,66,1873,1887,medium,"Bradley, The Locomotive History of the LB&SCR (RCTS, 1969-72)",
+LBSCR-D2,steam,,LB&SCR D2 class,2,simple,no,Stephenson,140,,66,1876,1883,medium,"Bradley, The Locomotive History of the LB&SCR (RCTS, 1969-72)",
+LBSCR-D3,steam,,LB&SCR D3 class,2,simple,no,Stephenson,170,,66,1892,1896,medium,"Bradley, The Locomotive History of the LB&SCR (RCTS, 1969-72)",
+LBSCR-E1,steam,,LB&SCR E1 class,2,simple,no,Stephenson,160,16,54,1874,1891,medium,"Bradley, The Locomotive History of the LB&SCR (RCTS, 1969-72)",
+LBSCR-E2,steam,,LB&SCR E2 class,2,simple,no,Stephenson,170,17.4,,1913,1916,medium,"Bradley, The Locomotive History of the LB&SCR (RCTS, 1969-72)",Saturated 0-6-0T; the last Stroudley-lineage design.
+LBSCR-E3,steam,,LB&SCR E3 class,2,simple,no,Stephenson,150,,54,1891,1895,medium,"Bradley, The Locomotive History of the LB&SCR (RCTS, 1969-72)",
+LBSCR-E4,steam,,LB&SCR E4 class,2,simple,no,Stephenson,170,,60,1897,1903,medium,"Bradley, The Locomotive History of the LB&SCR (RCTS, 1969-72)",
+LBSCR-E5,steam,,LB&SCR E5 class,2,simple,no,Stephenson,160,,66,1902,1904,medium,"Bradley, The Locomotive History of the LB&SCR (RCTS, 1969-72)",
+LBSCR-E6,steam,,LB&SCR E6 class,2,simple,no,Stephenson,160,19,54,1904,1905,medium,"Bradley, The Locomotive History of the LB&SCR (RCTS, 1969-72)",
+LBSCR-G,steam,,LB&SCR G class,2,simple,no,Stephenson,150,17,81,1874,1882,medium,"Bradley, The Locomotive History of the LB&SCR (RCTS, 1969-72)",
+lbscr-gray-single,steam,,LB&SCR Gray single,2,simple,no,,,,,,,low,"Bradley, The Locomotive History of the LB&SCR",
+LBSCR-H1,steam,,LB&SCR H1 class,2,simple,no,,200,,79.5,1905,1906,medium,"Bradley, The Locomotive History of the LB&SCR (RCTS, 1969-72)",
+LBSCR-H2,steam,,LB&SCR H2 class,2,simple,no,,170,,79.5,1911,1911,medium,"Bradley, The Locomotive History of the LB&SCR (RCTS, 1969-72)",
+LBSCR-I3,steam,,LB&SCR I3 class,2,simple,yes,,180,,81,1907,1913,medium,"Bradley, The Locomotive History of the LB&SCR (RCTS, 1969-72)",Superheated from new.
+LBSCR-J,steam,,LB&SCR J class,2,simple,no,,,,,,,medium,"Bradley, The Locomotive History of the LB&SCR (RCTS, 1969-72)",
+LBSCR-K,steam,,LB&SCR K class,2,simple,yes,Stephenson,170,24.8,66,1913,1921,medium,"Bradley, The Locomotive History of the LB&SCR (RCTS, 1969-72)",
+LBSCR-L,steam,,LB&SCR L class,2,simple,yes,,170,,81,1914,1922,medium,"Bradley, The Locomotive History of the LB&SCR (RCTS, 1969-72)",
+LBSCR-light-tank,steam,,LB&SCR light tank (Stroudley),2,simple,no,,,,,,,low,"Bradley, The Locomotive History of the LB&SCR (RCTS, 1969-72)",
+LBSCR-long-boiler-mixed,steam,,LB&SCR long-boiler mixed traffic,2,simple,no,,,,,,,low,"Bradley, The Locomotive History of the LB&SCR (RCTS, 1969-72)",
+LBSCR-long-boiler-passenger,steam,,LB&SCR long-boiler passenger,2,simple,no,,,,,,,low,"Bradley, The Locomotive History of the LB&SCR (RCTS, 1969-72)",
+LBSCR-Richmond,steam,,LB&SCR Richmond class,2,simple,no,Stephenson,150,,78,1878,1880,medium,"Bradley, The Locomotive History of the LB&SCR (RCTS, 1969-72)",
+LBSCR-sharp-well-tank,steam,,LB&SCR Sharp well tank,2,simple,no,,,,,,,low,"Bradley, The Locomotive History of the LB&SCR (RCTS, 1969-72)",
+LBSCR-single-well-tank,steam,,LB&SCR single well tank,2,simple,no,,,,,,,low,"Bradley, The Locomotive History of the LB&SCR (RCTS, 1969-72)",
+LBSCR-small-goods,steam,,LB&SCR small goods,2,simple,no,,,,,,,medium,"Bradley, The Locomotive History of the LB&SCR (RCTS, 1969-72)",
+LBSCR-small-single,steam,,LB&SCR small single,2,simple,no,,,,,,,medium,"Bradley, The Locomotive History of the LB&SCR (RCTS, 1969-72)",
+LBSCR-standard-goods,steam,,LB&SCR standard goods,2,simple,no,,,,,,,medium,"Bradley, The Locomotive History of the LB&SCR (RCTS, 1969-72)",
+LBSCR-standard-passenger,steam,,LB&SCR standard passenger,2,simple,no,,,,,,,medium,"Bradley, The Locomotive History of the LB&SCR (RCTS, 1969-72)",
+LBSCR-victoria,steam,,LB&SCR Victoria class,2,simple,no,Stephenson,,,,,,medium,"Bradley, The Locomotive History of the LB&SCR (RCTS, 1969-72)",
+LBSCR-West-End-tank,steam,,LB&SCR West End tank,2,simple,no,,,,,,,medium,"Bradley, The Locomotive History of the LB&SCR (RCTS, 1969-72)",
+LMR-Bird,steam,,LMR Bird class,2,simple,no,,,,,,,low,"Ahrons, The British Steam Railway Locomotive 1825-1925 (1927)","Pioneer engine; cylinder count from the standard description, details uncertain."
+LMR-Lion,steam,,Lion,2,simple,no,,,,,,,low,"Ahrons, The British Steam Railway Locomotive 1825-1925 (1927)","Pioneer engine; cylinder count from the standard description, details uncertain."
+LMR-Patentee,steam,,LMR Patentee,2,simple,no,,,,56,1834,1834,low,"Ahrons, The British Steam Railway Locomotive 1825-1925 (1927)","Pioneer engine; cylinder count from the standard description, details uncertain."
+LMR-Planet,steam,,LMR Planet,2,simple,no,,,,60,1830,1830,low,"Ahrons, The British Steam Railway Locomotive 1825-1925 (1927)","Pioneer engine; cylinder count from the standard description, details uncertain."
+LMR-Planet-Goods,steam,,LMR Planet (goods),2,simple,no,,,,60,1830,1830,low,"Ahrons, The British Steam Railway Locomotive 1825-1925 (1927)","Pioneer engine; cylinder count from the standard description, details uncertain."
+LMR-Rocket,steam,,Stephenson's Rocket,2,simple,no,,50,6,,1829,1829,low,"Ahrons, The British Steam Railway Locomotive 1825-1925 (1927)","Pioneer engine; cylinder count from the standard description, details uncertain."
+LMS-0-4-4T,steam,,LMS 0-4-4T (Fowler),2,simple,no,Stephenson,160,,,1924,1926,medium,Wikipedia: LMS 0-4-4T,
+LMS-2P,steam,,LMS Fowler Class 2P 4-4-0,2,simple,no,Stephenson,160,,84,1928,1932,medium,"LMS Locomotive Profiles (Wild Swan), no. 5",
+LMS-3F-Jinty,steam,,LMS Fowler Class 3F (Jinty),2,simple,no,Stephenson,160,17,54,1924,1931,high,"LMS Locomotive Profiles (Wild Swan), no. 4","Two inside cylinders, slide valves, Stephenson gear."
+LMS-3F-Jinty-Push-Pull,steam,,"LMS Fowler Class 3F (Jinty, push-pull)",2,simple,no,Stephenson,160,17,54,1924,1931,high,"LMS Locomotive Profiles (Wild Swan), no. 4",Two inside cylinders; push-pull fitted member of the class.
+LMS-4F,steam,,LMS Fowler Class 4F,2,simple,no,Stephenson,175,21,58,1911,1941,high,"LMS Locomotive Profiles (Wild Swan), no. 3",Saturated boiler as built; a proportion were later fitted with superheaters.
+LMS-4P,steam,,LMS Fowler Class 4P 4-4-0,2,simple,yes,Walschaerts,180,,84,1924,1932,medium,LMS Locomotive Profiles (Wild Swan),
+LMS-7F,steam,,LMS Fowler Class 7F 0-8-0,2,simple,yes,Walschaerts,200,,58,1929,1932,medium,Wikipedia: LMS Class 7F,
+LMS-Fairburn-4P-Tank,steam,,LMS Fairburn 2-6-4T,2,simple,yes,Walschaerts,200,25,69,1945,1951,high,"LMS Locomotive Profiles (Wild Swan), no. 10",
+LMS-Fowler-3P-Tank,steam,,LMS Fowler Class 3P 2-6-2T,2,simple,no,Stephenson,200,17.5,63,1930,1932,medium,LMS Locomotive Profiles (Wild Swan),Superheated taper boiler; some sources give 160 psi.
+LMS-Fowler-3P-Tank-Push-Pull,steam,,LMS Fowler Class 3P 2-6-2T (push-pull),2,simple,no,Stephenson,200,17.5,63,1930,1932,medium,LMS Locomotive Profiles (Wild Swan),
+LMS-Fowler-4P-Tank,steam,,LMS Fowler Class 4P 2-6-4T,2,simple,yes,Walschaerts,200,28.5,69,1927,1932,low,LMS Locomotive Profiles (Wild Swan),
+LMS-Garratt-Front,steam,,LMS Garratt,4,simple,yes,Walschaerts,190,44,57,1927,1927,medium,Wikipedia: LMS Garratt,"Two engine units, each with its own pair of cylinders: four cylinders in total."
+LMS-Hughes-Crab,steam,,LMS Hughes Crab,2,simple,yes,Walschaerts,180,30,66,1926,1932,high,"LMS Locomotive Profiles (Wild Swan), no. 8",
+LMS-Ivatt-2P-Tank,steam,,LMS Ivatt Class 2 2-6-2T,2,simple,yes,Walschaerts,200,17,60,1946,1952,high,"RCTS, Locomotives of the LMS (Ivatt classes)",
+LMS-Ivatt-2P-Tank-Push-Pull,steam,,LMS Ivatt Class 2 2-6-2T (push-pull),2,simple,yes,Walschaerts,200,17,60,1946,1952,high,"RCTS, Locomotives of the LMS (Ivatt classes)",
+LMS-Ivatt-4F,steam,,LMS Ivatt Class 4 2-6-0,2,simple,yes,Walschaerts,225,23,64,1947,1952,high,"RCTS, Locomotives of the LMS (Ivatt classes)",
+LMS-Jubilee,steam,,LMS Jubilee Class,3,simple,yes,Walschaerts,250,30,81,1934,1936,high,"LMS Locomotive Profiles (Wild Swan), no. 2",250 psi in service; the class article quotes 225 psi for the original boiler setting.
+LMS-Patriot,steam,,LMS Patriot Class,3,simple,yes,Walschaerts,200,30,81,1930,1934,high,"LMS Locomotive Profiles (Wild Swan), no. 2",
+LMS-Princess-Royal,steam,,LMS Princess Royal Class,4,simple,yes,Walschaerts,250,45,81,1933,1935,high,"LMS Locomotive Profiles (Wild Swan), no. 1",
+LMS-rebuilt-royal-scot,steam,,LMS Royal Scot Class (rebuilt),3,simple,yes,Walschaerts,250,30,81,1943,1955,high,"LMS Locomotive Profiles (Wild Swan), no. 1",Rebuilt with a taper boiler 1943-55.
+LMS-royal-scot,steam,,LMS Royal Scot Class,3,simple,yes,Walschaerts,250,30,81,1927,1930,high,"LMS Locomotive Profiles (Wild Swan), no. 1",
+LMS-Stanier-3P-Tank,steam,,LMS Stanier Class 3 2-6-2T,2,simple,yes,Walschaerts,200,17,60,1930,1932,low,LMS Locomotive Profiles (Wild Swan),
+LMS-Stanier-3P-Tank-Push-Pull,steam,,LMS Stanier Class 3 2-6-2T (push-pull),2,simple,yes,Walschaerts,200,17,60,1930,1932,low,LMS Locomotive Profiles (Wild Swan),
+LMS-Stanier-4P-Tank,steam,,LMS Stanier Class 4 2-6-4T (2-cylinder),2,simple,yes,Walschaerts,200,25,69,1935,1943,high,"LMS Locomotive Profiles (Wild Swan), no. 10",
+LMS-Stanier-4P-Tank-3-cylinder,steam,,LMS Stanier Class 4 2-6-4T (3-cylinder),3,simple,yes,Walschaerts,200,25,69,1934,1934,high,"LMS Locomotive Profiles (Wild Swan), no. 10","No. 2500, the three-cylinder prototype of 1934; the production class reverted to two cylinders."
+LMS-Stanier-5MT,steam,,LMS Stanier Class 5 4-6-0,2,simple,yes,Walschaerts,225,28.6,72,1934,1951,high,"LMS Locomotive Profiles (Wild Swan), no. 6","A minority were built with Caprotti valve gear (30 engines, 1950s)."
+LMS-Stanier-7P,steam,,LMS Coronation Class (streamlined),4,simple,yes,Walschaerts,250,50,81,1937,1939,high,"LMS Locomotive Profiles (Wild Swan), no. 1",
+LMS-Stanier-7P-non-streamlined,steam,,LMS Coronation Class (non-streamlined),4,simple,yes,Walschaerts,250,50,81,1938,1944,high,"LMS Locomotive Profiles (Wild Swan), no. 1",
+LMS-Stanier-8F,steam,,LMS Stanier Class 8F,2,simple,yes,Walschaerts,225,28.6,57,1935,1946,high,"LMS Locomotive Profiles (Wild Swan), no. 7",
+LMS-Stanier-Mogul,steam,,LMS Stanier Mogul,2,simple,yes,Walschaerts,225,27,63,1933,1934,high,"LMS Locomotive Profiles (Wild Swan), no. 9",
+LNER-A1,steam,,LNER Class A1 (Gresley Pacific),3,simple,yes,Walschaerts,180,41.2,80,1922,1925,high,"RCTS, Locomotives of the LNER, part 2A",
+LNER-A3,steam,,LNER Class A3,3,simple,yes,Walschaerts,220,41.2,80,1927,1935,high,"RCTS, Locomotives of the LNER, part 2A",220 psi after the 1930s boiler changes; 180 psi as built.
+LNER-A4,steam,,LNER Class A4,3,simple,yes,Walschaerts,250,41.2,80,1935,1938,high,"RCTS, Locomotives of the LNER, part 2A",
+LNER-B17,steam,,LNER Class B17,3,simple,yes,Walschaerts,200,31,80,1928,1937,high,"RCTS, Locomotives of the LNER, part 2B",
+LNER-B17-5,steam,,LNER Class B17/5,3,simple,yes,Walschaerts,200,31,80,1937,1937,high,"RCTS, Locomotives of the LNER, part 2B","Streamlined version of the B17, two built for the East Anglian."
+LNER-D49,steam,,LNER Class D49,3,simple,yes,Walschaerts,180,26,80,1927,1932,medium,"RCTS, Locomotives of the LNER, part 2B",
+LNER-J94,steam,,LNER Class J94 (Hunslet Austerity),2,simple,no,Stephenson,170,16,52,1943,1945,medium,Wikipedia: LNER Class J94,Saturated as built; many later fitted with superheaters by BR.
+lner-l1,steam,,LNER Class L1,3,simple,yes,Walschaerts,200,28,62,1945,1949,high,"RCTS, Locomotives of the LNER, part 3B",
+LNER-P2,steam,,LNER Class P2,3,simple,yes,Walschaerts,220,50,74,1934,1936,high,"RCTS, Locomotives of the LNER, part 2A",2-8-2 Mikado; rebuilt as Pacifics 1943-44.
+lner-steam-railmotor-1924,steam,,LNER steam railmotor,2,simple,no,Stephenson,,,,1924,1928,low,Wikipedia: LNER steam railmotor,"Single-coach steam railmotor; saturated boiler, small driver."
+lner-steam-railmotor-1928,steam,,LNER steam railmotor,2,simple,no,Stephenson,,,,1924,1928,low,Wikipedia: LNER steam railmotor,"Single-coach steam railmotor; saturated boiler, small driver."
+lner-v1,steam,,LNER Class V1,3,simple,yes,Walschaerts,200,,62,1930,1939,medium,Wikipedia: LNER Class V1,3-cylinder 2-6-2T; V3 was the same design with a different boiler.
+LNER-V2,steam,,LNER Class V2,3,simple,yes,Walschaerts,220,31,74,1936,1944,high,"RCTS, Locomotives of the LNER, part 2A",Grate area is given as 31 sq ft in some sources and 41.25 sq ft in the class article; 31 is used here.
+lner-v3,steam,,LNER Class V3,3,simple,yes,Walschaerts,200,,62,1939,1940,medium,Wikipedia: LNER Class V3,
+LNWR-17in-coal-engine,steam,,LNWR 17in Coal Engine,2,simple,no,Stephenson,140,17.1,51,1873,1873,medium,"RCTS, Locomotives of the LNWR (3 parts, 1973-79); Wikipedia class article",
+LNWR-19in-express-goods,steam,,LNWR 19in Express Goods,2,simple,no,,,,,,,medium,"RCTS, Locomotives of the LNWR (3 parts, 1973-79); Wikipedia class article",
+LNWR-5ft-6-tank,steam,,LNWR 5ft 6in Tank,2,simple,no,,,,,,,medium,"RCTS, Locomotives of the LNWR (3 parts, 1973-79); Wikipedia class article",
+LNWR-AClass,steam,,LNWR Class A 0-8-0,3,compound,no,Stephenson,175,,53.5,1893,1900,medium,"RCTS, Locomotives of the LNWR (3 parts, 1973-79); Wikipedia class article",
+LNWR-Alfred-the-Great,steam,,LNWR Alfred the Great Class,4,simple,no,other,200,,85,1901,1903,medium,"RCTS, Locomotives of the LNWR (3 parts, 1973-79); Wikipedia class article",
+LNWR-BClass,steam,,LNWR Class B,4,compound,no,,200,,53.5,1901,1904,medium,"RCTS, Locomotives of the LNWR (3 parts, 1973-79); Wikipedia class article",
+LNWR-Bloomer,steam,,LNWR Bloomer Class,2,simple,no,Stephenson,100,,84,1851,1862,medium,"RCTS, Locomotives of the LNWR (3 parts, 1973-79); Wikipedia class article",
+LNWR-Cauliflower,steam,,LNWR 18in Goods Class (Cauliflower),2,simple,no,other,150,,62.5,1880,1902,medium,"RCTS, Locomotives of the LNWR (3 parts, 1973-79); Wikipedia class article",
+LNWR-Claughton,steam,,LNWR Claughton Class,4,simple,yes,,175,,81,1913,1921,medium,"RCTS, Locomotives of the LNWR (3 parts, 1973-79); Wikipedia class article",
+LNWR-coal-tank,steam,,LNWR Coal Tank,2,simple,no,,,,,,,medium,"RCTS, Locomotives of the LNWR (3 parts, 1973-79); Wikipedia class article",
+LNWR-crewe-type,steam,,LNWR Crewe type,2,simple,no,,,,,,,medium,"RCTS, Locomotives of the LNWR (3 parts, 1973-79); Wikipedia class article",
+lnwr-crewe-type-goods,steam,,LNWR Crewe type (goods),2,simple,no,,,,,,,low,"RCTS, Locomotives of the LNWR (1973-79)",
+LNWR-DXgoods,steam,,LNWR DX Goods Class,2,simple,no,Stephenson,120,15,62,1858,1874,medium,"RCTS, Locomotives of the LNWR (3 parts, 1973-79); Wikipedia class article",
+LNWR-Experiment,steam,,LNWR Experiment Class,3,compound,no,,,,,,,medium,"RCTS, Locomotives of the LNWR (3 parts, 1973-79); Wikipedia class article",
+LNWR-extra-large-bloomer,steam,,LNWR Extra Large Bloomer,2,simple,no,Stephenson,100,,84,1851,1862,medium,"RCTS, Locomotives of the LNWR (3 parts, 1973-79); Wikipedia class article",
+LNWR-G1Class,steam,,LNWR Class G,2,simple,no,,160,,53.5,1910,1910,medium,"RCTS, Locomotives of the LNWR (3 parts, 1973-79); Wikipedia class article",
+LNWR-George-V,steam,,LNWR George the Fifth Class,2,simple,yes,other,180,,81,1910,1915,medium,"RCTS, Locomotives of the LNWR (3 parts, 1973-79); Wikipedia class article",
+LNWR-Jubilee,steam,,LNWR Jubilee Class,2,simple,no,other,200,,85,1897,1900,medium,"RCTS, Locomotives of the LNWR (3 parts, 1973-79); Wikipedia class article",
+LNWR-Jumbo,steam,,LNWR Improved Precedent Class (Jumbo),2,simple,no,other,150,,81,1887,1901,medium,"RCTS, Locomotives of the LNWR (3 parts, 1973-79); Wikipedia class article",
+LNWR-Mansion-House-tank,steam,,LNWR Mansion House Tank,2,simple,no,,,,,,,medium,"RCTS, Locomotives of the LNWR (3 parts, 1973-79); Wikipedia class article",
+LNWR-mcconnell-large-single,steam,,LNWR McConnell large single,2,simple,no,,,,,,,medium,"RCTS, Locomotives of the LNWR (3 parts, 1973-79); Wikipedia class article",
+LNWR-McConnell-tank,steam,,LNWR McConnell Tank,2,simple,no,,,,,,,medium,"RCTS, Locomotives of the LNWR (3 parts, 1973-79); Wikipedia class article",
+LNWR-Newton,steam,,LNWR Newton Class,2,simple,no,,140,15,81,1866,1873,medium,"RCTS, Locomotives of the LNWR (3 parts, 1973-79); Wikipedia class article",
+LNWR-Precedent,steam,,LNWR Precedent Class,2,simple,no,other,,,78,1874,1882,medium,"RCTS, Locomotives of the LNWR (3 parts, 1973-79); Wikipedia class article",
+LNWR-Precursor,steam,,LNWR Precursor Class,2,simple,no,,,,,,,medium,"RCTS, Locomotives of the LNWR (3 parts, 1973-79); Wikipedia class article",
+LNWR-Precursor-tank,steam,,LNWR Precursor Tank Class,2,simple,no,,,,,,,medium,"RCTS, Locomotives of the LNWR (3 parts, 1973-79); Wikipedia class article",
+LNWR-precursor-webb,steam,,LNWR Precursor Class (Webb),2,simple,no,,,,,,,medium,"RCTS, Locomotives of the LNWR (3 parts, 1973-79); Wikipedia class article",
+LNWR-PrinceOfWales,steam,,LNWR Prince of Wales Class,2,simple,yes,Walschaerts,175,,75,1911,1924,medium,"RCTS, Locomotives of the LNWR (3 parts, 1973-79); Wikipedia class article",
+LNWR-PrinceOfWales-tank,steam,,LNWR Prince of Wales Tank Class,2,simple,no,,,,,,,medium,"RCTS, Locomotives of the LNWR (3 parts, 1973-79); Wikipedia class article",
+LNWR-Problem,steam,,LNWR Problem Class,2,simple,no,,,,,,,medium,"RCTS, Locomotives of the LNWR (3 parts, 1973-79); Wikipedia class article",
+LNWR-Renown,steam,,LNWR Renown Class,2,simple,no,other,200,,85,1897,1903,medium,"RCTS, Locomotives of the LNWR (3 parts, 1973-79); Wikipedia class article",
+LNWR-Sampson,steam,,LNWR Samson Class,2,simple,no,Stephenson,140,,75,1863,1879,medium,"RCTS, Locomotives of the LNWR (3 parts, 1973-79); Wikipedia class article",
+LNWR-Sharp-goods,steam,,LNWR Sharp Goods,2,simple,no,,,,,,,medium,"RCTS, Locomotives of the LNWR (3 parts, 1973-79); Wikipedia class article",
+LNWR-sharp-tank,steam,,LNWR Sharp Tank,2,simple,no,,,,,,,medium,"RCTS, Locomotives of the LNWR (3 parts, 1973-79); Wikipedia class article",
+LNWR-side-tank,steam,,LNWR Side Tank,2,simple,no,,,,,,,medium,"RCTS, Locomotives of the LNWR (3 parts, 1973-79); Wikipedia class article",
+LNWR-small-bloomer,steam,,LNWR Small Bloomer,2,simple,no,,,,,,,medium,"RCTS, Locomotives of the LNWR (3 parts, 1973-79); Wikipedia class article",
+LNWR-special-dx,steam,,LNWR Special DX Goods,2,simple,no,,,,,,,medium,"RCTS, Locomotives of the LNWR (3 parts, 1973-79); Wikipedia class article",
+LNWR-Waterloo,steam,,LNWR Waterloo Class,2,simple,no,other,150,,75,1889,1896,medium,"RCTS, Locomotives of the LNWR (3 parts, 1973-79); Wikipedia class article",
+LNWR-watford-tank,steam,,LNWR Watford Tank,2,simple,no,,,,,,,medium,"RCTS, Locomotives of the LNWR (3 parts, 1973-79); Wikipedia class article",
+LSWR-700-class,steam,,LSWR 700 class,2,simple,no,Stephenson,175,20.2,,1897,1897,medium,"Bradley, LSWR Locomotives (RCTS, 1965-82)",
+LSWR-700-class-superheated,steam,,LSWR 700 class (superheated),2,simple,yes,,175,20.2,,1897,1897,medium,"Bradley, LSWR Locomotives (RCTS, 1965-82)",
+LSWR-D15,steam,,LSWR D15 class,2,simple,yes,Stephenson,200,,79,1912,1912,medium,"Bradley, LSWR Locomotives (RCTS, 1965-82)",
+LSWR-D15-superheated,steam,,LSWR D15 class (superheated),2,simple,yes,Walschaerts,200,,79,1912,1912,medium,"Bradley, LSWR Locomotives (RCTS, 1965-82)",
+LSWR-H15,steam,,LSWR H15 class,2,simple,yes,,180,,72,1914,1925,medium,"Bradley, LSWR Locomotives (RCTS, 1965-82)",
+LSWR-K10,steam,,LSWR K10 class,2,simple,no,Stephenson,175,,67,1901,1902,medium,"Bradley, LSWR Locomotives (RCTS, 1965-82)",
+LSWR-L11,steam,,LSWR L11 class,2,simple,yes,Stephenson,175,,67,1903,1907,medium,"Bradley, LSWR Locomotives (RCTS, 1965-82)",
+LSWR-L12,steam,,LSWR L12 class,2,simple,no,,175,,79,1904,1905,medium,"Bradley, LSWR Locomotives (RCTS, 1965-82)",
+LSWR-L12-superheated,steam,,LSWR L12 class (superheated),2,simple,yes,,175,,79,1904,1905,medium,"Bradley, LSWR Locomotives (RCTS, 1965-82)",
+LSWR-M7,steam,,LSWR M7 class,2,simple,no,Stephenson,175,,67,1897,1911,medium,"Bradley, LSWR Locomotives (RCTS, 1965-82)",
+LSWR-N15,steam,,LSWR N15 class,2,simple,yes,,180,,79,1918,1927,medium,"Bradley, LSWR Locomotives (RCTS, 1965-82)",
+LSWR-S11,steam,,LSWR S11 class,2,simple,no,Stephenson,175,,73,1903,1903,medium,"Bradley, LSWR Locomotives (RCTS, 1965-82)",
+LSWR-S11-superheated,steam,,LSWR S11 class (superheated),2,simple,yes,Stephenson,175,,73,1903,1903,medium,"Bradley, LSWR Locomotives (RCTS, 1965-82)",
+LSWR-S15,steam,,LSWR S15 class,2,simple,yes,Walschaerts,180,,67,1920,1936,medium,"Bradley, LSWR Locomotives (RCTS, 1965-82)",
+LSWR-T14,steam,,LSWR T14 class,4,simple,yes,Stephenson,200,,79,1911,1911,medium,"Bradley, LSWR Locomotives (RCTS, 1965-82)",
+LSWR-T14-superheated,steam,,LSWR T14 class (superheated),4,simple,yes,Walschaerts,200,,79,1911,1911,medium,"Bradley, LSWR Locomotives (RCTS, 1965-82)",
+LSWR-T9,steam,,LSWR T9 class,2,simple,no,Stephenson,175,,79,1899,1901,medium,"Bradley, LSWR Locomotives (RCTS, 1965-82)",
+LSWR-T9-superheated,steam,,LSWR T9 class (superheated),2,simple,yes,Stephenson,175,,79,1899,1901,medium,"Bradley, LSWR Locomotives (RCTS, 1965-82)",
+ltsr-1-class,steam,,LT&SR 1 class,2,simple,no,,,,,,,low,Wikipedia: LT&SR locomotive classes,
+ltsr-37-class,steam,,LT&SR 37 class,2,simple,no,Stephenson,170,,78,1897,1898,low,Wikipedia: LT&SR locomotive classes,
+ltsr-51-class,steam,,LT&SR 51 class,2,simple,no,Stephenson,170,,78,1900,1903,low,Wikipedia: LT&SR locomotive classes,
+ltsr-69-class,steam,,LT&SR 69 class,2,simple,no,Stephenson,170,,63,1903,1912,low,Wikipedia: LT&SR locomotive classes,
+ltsr-79-class,steam,,LT&SR 79 class,2,simple,,Stephenson,170,,78,1909,1930,low,Wikipedia: LT&SR locomotive classes,Superheating status not established.
+ltsr-87-class,steam,,LT&SR 87 class,2,simple,,,,,,,,low,Wikipedia: LT&SR locomotive classes,Superheating status not established.
+LYR-Class25,steam,,Lancashire & Yorkshire Class 25 (2-4-2T),2,simple,no,,140,,54,1876,1887,medium,Wikipedia: L&YR Class 25,
+MR-1,steam,,Midland Railway 1 Class,2,simple,no,Stephenson,,,,,,medium,"Summers, Midland Railway locomotives; Wikipedia class article",
+MR-1000,steam,,Midland Railway 1000 Class (Johnson compound),2,compound,no,Stephenson,220,,84,1902,1909,medium,"Summers, Midland Railway locomotives; Wikipedia class article",
+MR-1000-superheated,steam,,Midland Railway 1000 Class (superheated),2,compound,yes,Stephenson,220,,84,1902,1909,medium,"Summers, Midland Railway locomotives; Wikipedia class article",
+MR-130,steam,,Midland Railway 130 Class,2,simple,no,Stephenson,,,80,1852,1866,medium,"Summers, Midland Railway locomotives; Wikipedia class article",
+MR-1327,steam,,Midland Railway 1327 Class,2,simple,no,Stephenson,,,,,,medium,"Summers, Midland Railway locomotives; Wikipedia class article",
+MR-133,steam,,Midland Railway 133 Class,2,simple,no,Stephenson,,,,,,medium,"Summers, Midland Railway locomotives; Wikipedia class article",
+MR-1357,steam,,Midland Railway 1357 Class,2,simple,no,Stephenson,,,,,,medium,"Summers, Midland Railway locomotives; Wikipedia class article",
+MR-1377,steam,,Midland Railway 1377 Class,2,simple,no,Stephenson,175,,55,1878,1892,medium,"Summers, Midland Railway locomotives; Wikipedia class article",
+MR-1632,steam,,Midland Railway 1632 Class,2,simple,no,Stephenson,,,,,,medium,"Summers, Midland Railway locomotives; Wikipedia class article",
+MR-1738,steam,,Midland Railway 1738 Class,2,simple,no,Stephenson,,,,,,medium,"Summers, Midland Railway locomotives; Wikipedia class article",
+MR-1833,steam,,Midland Railway 1833 Class,2,simple,no,Stephenson,,,63,1892,1893,medium,"Summers, Midland Railway locomotives; Wikipedia class article",
+MR-1873,steam,,Midland Railway Johnson 0-6-0,2,simple,no,Stephenson,,,,,,medium,"Summers, Midland Railway locomotives; Wikipedia class article",
+MR-2000,steam,,Midland Railway 2000 Class,2,simple,no,Stephenson,175,,67,1907,1907,medium,"Summers, Midland Railway locomotives; Wikipedia class article",
+MR-2000-superheated,steam,,Midland Railway 2000 Class (superheated),2,simple,yes,,175,,67,1907,1907,medium,"Summers, Midland Railway locomotives; Wikipedia class article",
+MR-2203,steam,,Midland Railway Class 2 4-4-0,2,simple,no,Stephenson,,,,,,medium,"Summers, Midland Railway locomotives; Wikipedia class article",
+MR-2441,steam,,Midland Railway 2441 Class,2,simple,no,Stephenson,160,,55,1899,1902,medium,"Summers, Midland Railway locomotives; Wikipedia class article",
+MR-25,steam,,Midland Railway 25 Class,2,simple,no,Stephenson,,,,,,medium,"Summers, Midland Railway locomotives; Wikipedia class article",
+MR-2601,steam,,Midland Railway 2601 Class,2,simple,no,Stephenson,180,,93.5,1899,1900,medium,"Summers, Midland Railway locomotives; Wikipedia class article",
+MR-2631,steam,,Midland Railway 2631 Class,2,simple,no,Stephenson,,,,,,medium,"Summers, Midland Railway locomotives; Wikipedia class article",
+MR-27,steam,,Midland Railway 27 Class,2,simple,no,Stephenson,,,,,,medium,"Summers, Midland Railway locomotives; Wikipedia class article",
+MR-2736,steam,,Midland Railway Johnson 0-6-0,2,simple,no,Stephenson,,,,,,medium,"Summers, Midland Railway locomotives; Wikipedia class article",
+MR-2781,steam,,Midland Railway Class 3 4-4-0,2,simple,no,Stephenson,,,81,1900,1905,medium,"Summers, Midland Railway locomotives; Wikipedia class article",
+MR-480,steam,,Midland Railway 480 Class,2,simple,no,Stephenson,140,,,1863,1869,medium,"Summers, Midland Railway locomotives; Wikipedia class article",
+MR-483,steam,,Midland Railway 483 Class,2,simple,no,Stephenson,160,,78.5,1882,1921,medium,"Summers, Midland Railway locomotives; Wikipedia class article",
+MR-690,steam,,Midland Railway 690 Class,2,simple,no,Stephenson,,,62,1869,1869,medium,"Summers, Midland Railway locomotives; Wikipedia class article",
+MR-700,steam,,Midland Railway 700 Class,2,simple,no,Stephenson,140,,62.5,1869,1874,medium,"Summers, Midland Railway locomotives; Wikipedia class article",
+MR-800,steam,,Midland Railway 800 Class,2,simple,no,Stephenson,,,,,,medium,"Summers, Midland Railway locomotives; Wikipedia class article",
+MR-800-original,steam,,Midland Railway 800 Class (original),2,simple,no,Stephenson,,,,,,medium,"Summers, Midland Railway locomotives; Wikipedia class article",
+MR-Kirtley156,steam,,Midland Railway 156 Class,2,simple,no,Stephenson,140,,74.5,1866,1874,medium,"Summers, Midland Railway locomotives; Wikipedia class article",
+MR-Spinner,steam,,Midland Railway Spinner,2,simple,no,Stephenson,,,,,,medium,"Summers, Midland Railway locomotives; Wikipedia class article",
+PuffingBilly,steam,,Puffing Billy,2,simple,no,,50,,,1814,1814,low,"Ahrons, The British Steam Railway Locomotive 1825-1925 (1927)","Pioneer engine; cylinder count from the standard description, details uncertain."
+royal-george,steam,,Royal George,2,simple,no,,,,,,,low,"Ahrons, The British Steam Railway Locomotive 1825-1925 (1927)","Pioneer engine; cylinder count from the standard description, details uncertain."
+sanspariel,steam,,Sans Pareil,2,simple,no,,,,,,,low,"Ahrons, The British Steam Railway Locomotive 1825-1925 (1927)","Pioneer engine; cylinder count from the standard description, details uncertain."
+SDR-1001,steam,,S&D 1001 class,2,simple,no,,,,,,,low,Wikipedia: NER 1001 Class,1850s S&D mineral engine; identification by the pakset name and date only.
+SDR-Derwent,steam,,Derwent,2,simple,no,,,,,,,low,"Ahrons, The British Steam Railway Locomotive 1825-1925 (1927)","Pioneer engine; cylinder count from the standard description, details uncertain."
+SDR-Locomotion,steam,,Locomotion No. 1,2,simple,no,,50,,,1825,1825,low,"Ahrons, The British Steam Railway Locomotive 1825-1925 (1927)","Pioneer engine; cylinder count from the standard description, details uncertain."
+sdr-mineral-engine,steam,,S&D mineral engine,2,simple,no,,,,,,,low,"Ahrons, The British Steam Railway Locomotive 1825-1925 (1927)","Pioneer engine; cylinder count from the standard description, details uncertain."
+secr-k-class,steam,,SECR K class,2,simple,yes,Walschaerts,200,,72,1917,1926,medium,"Bradley, The Locomotive History of the SECR (RCTS, 1980)",
+SECR-N-Class,steam,,SECR N class,2,simple,yes,Walschaerts,200,,66,1917,1934,medium,"Bradley, The Locomotive History of the SECR (RCTS, 1980)",
+SECR-N1-Class,steam,,SECR N1 class,3,simple,yes,Walschaerts,200,,66,1922,1934,medium,"Bradley, The Locomotive History of the SECR (RCTS, 1980)",
+SR-Bulleid-Leader,steam,,SR Leader class,6,simple,yes,other,280,25.5,61,1946,1949,medium,Wikipedia: SR Leader class,Six cylinders in three coupled pairs under a cab-forward body; chain-driven valve gear. Never in revenue service.
+SR-Lord-Nelson,steam,,SR Lord Nelson class,4,simple,yes,Walschaerts,220,33,79,1926,1929,high,"Bradley, LSWR Locomotives: the Urie and Maunsell classes (RCTS, 1982)",
+SR-MerchantNavy_4-6-2,steam,,SR Merchant Navy class,3,simple,yes,Walschaerts,280,48.5,74,1941,1949,high,"RCTS, Locomotives of the Southern Railway",
+SR-MerchantNavyRebuilt_4-6-2,steam,,SR Merchant Navy class (rebuilt),3,simple,yes,Walschaerts,250,48.5,74,1956,1960,high,"RCTS, Locomotives of the Southern Railway",Rebuilt with a conventional boiler at Eastleigh 1956-60; original air-smoothed casing removed.
+SR-N15,steam,,SR N15 class (King Arthur),2,simple,yes,Walschaerts,200,30,79,1919,1927,high,"Bradley, LSWR Locomotives: the Urie and Maunsell classes (RCTS, 1982)",
+SR-Q1,steam,,SR Q1 class,2,simple,yes,Walschaerts,230,27,69,1942,1942,high,"RCTS, Locomotives of the Southern Railway",
+SR-Schools,steam,,SR V class (Schools),3,simple,yes,Walschaerts,220,28.3,79,1930,1935,high,"RCTS, Locomotives of the Southern Railway",
+SR-U-Class,steam,,SR U class,2,simple,yes,Walschaerts,200,27,62,1928,1932,high,"RCTS, Locomotives of the Southern Railway",
+SR-U1-Class,steam,,SR U1 class,3,simple,yes,Walschaerts,200,27,62,1928,1931,high,"Bradley, LSWR Locomotives: the Urie and Maunsell classes (RCTS, 1982)",Three-cylinder development of the U class was projected; the U1 as built had two cylinders.
+sr-w-class,steam,,SR W class,3,simple,yes,Walschaerts,200,,69,1932,1932,medium,Wikipedia: SR W class,Only five built; 2-6-4T.
+SR-WestCountry_4-6-2,steam,,SR West Country / Battle of Britain class,3,simple,yes,Walschaerts,280,38.2,74,1945,1951,high,"RCTS, Locomotives of the Southern Railway",
+SR-WestCountryRebuilt_4-6-2,steam,,SR West Country / Battle of Britain class (rebuilt),3,simple,yes,Walschaerts,250,38.2,74,1957,1961,high,"RCTS, Locomotives of the Southern Railway",Rebuilt 1957-61.
+stephenson-2-2-2,steam,,Stephenson 2-2-2,2,simple,no,,,,56,1834,1834,low,"Ahrons, The British Steam Railway Locomotive 1825-1925 (1927)","Pioneer engine; cylinder count from the standard description, details uncertain."
+stephenson-dodd-patent,steam,,Dodd's patent engine,2,simple,no,,,,,,,low,"Ahrons, The British Steam Railway Locomotive 1825-1925 (1927)","Pioneer engine; cylinder count from the standard description, details uncertain."
+stephenson-improved,steam,,Stephenson improved engine,2,simple,no,,,,,,,low,"Ahrons, The British Steam Railway Locomotive 1825-1925 (1927)","Pioneer engine; cylinder count from the standard description, details uncertain."
+stephenson-long-boiler-goods,steam,,Stephenson long-boiler goods,2,simple,no,,,,,,,low,"Ahrons, The British Steam Railway Locomotive 1825-1925 (1927)","Pioneer engine; cylinder count from the standard description, details uncertain."
+stephenson-long-boiler-passenger,steam,,Stephenson long-boiler passenger,2,simple,no,,,,,,,low,"Ahrons, The British Steam Railway Locomotive 1825-1925 (1927)","Pioneer engine; cylinder count from the standard description, details uncertain."
+stevenson-goods,steam,,Stevenson goods engine,2,simple,no,,,,,,,low,"Ahrons, The British Steam Railway Locomotive 1825-1925 (1927)","Pioneer engine; cylinder count from the standard description, details uncertain."
+tayleur-2-2-2,steam,,Tayleur 2-2-2,2,simple,no,,,,,,,low,"Ahrons, The British Steam Railway Locomotive 1825-1925 (1927)","Pioneer engine; cylinder count from the standard description, details uncertain."
+vulcan,steam,,Vulcan,2,simple,no,,,,,,,low,"Ahrons, The British Steam Railway Locomotive 1825-1925 (1927)","Pioneer engine; cylinder count from the standard description, details uncertain."
+WD-Austerity-2-8-0,steam,,WD Austerity 2-8-0,2,simple,no,Stephenson,225,27,57,1943,1945,medium,Wikipedia: WD Austerity 2-8-0,Saturated as built; some later received Melesco superheaters.
+wilberforce,steam,,Wilberforce,2,simple,no,,,,,,,low,"Ahrons, The British Steam Railway Locomotive 1825-1925 (1927)","Pioneer engine; cylinder count from the standard description, details uncertain."

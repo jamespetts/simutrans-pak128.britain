@@ -1,0 +1,172 @@
+domain,kind,name_or_item,year,price,price_unit,scope,source_ref,kb_location,notes
+horse,capital,cart colts when set to work (Annals of Agriculture),1797,,GBP per horse,class-ladder,"Annals of Agriculture vol.28 (1797) p.413, quoted on PBworks 'Horses' page",report-6 2.1,range 15-22 pounds; secondary transcription of the 1797 volume; volume date not independently verified
+horse,capital,farm horse at work (Communications to the Board of Agriculture),1797,25.00,GBP per horse,class-ladder,"Communications to the Board of Agriculture (1797) p.408, quoted on PBworks 'Horses' page",report-6 2.1,as stated 25 pounds; secondary transcription
+horse,capital,gentleman's coach horse or good hunter,1797,31.50,GBP per horse,class-ladder,"Annals of Agriculture vol.28 (1797) p.413, quoted on PBworks 'Horses' page",report-6 2.1,30 guineas; secondary transcription
+horse,capital,farm horses sold at five or six years old,1797,,GBP per horse,class-ladder,"Annals of Agriculture vol.28 (1797) p.411, quoted on PBworks 'Horses' page",report-6 2.1,range 25-40 guineas; secondary transcription
+horse,capital,stage coach horses (Gurney calculation),1831,25.00,GBP per horse,class-ladder,"Select Committee on Steam Carriages 1831, Gurney evidence 5 Aug 1831 (Wikisource)",report-6 2.1,"source says 20 or 30 pounds per horse, or say 25; 100 horses to work 100 miles up and down daily"
+horse,capital,Edinburgh tramway horses acquired by valuation,1874,28.00,GBP per horse,individual,"Clark, Tramways (1878) p.243",report-6 2.4,price paid for the contractor's horses at valuation when the company began horsing its own cars
+horse,capital,Liverpool tramway horses valuation,1877,30.00,GBP per horse,class-ladder,"Munro, Tramway Companies in Liverpool 1859-1897, Trans HSLC 119 (1967) p.193",report-6 2.4,"shareholder objected that the accounts valued each horse at 30 pounds; company accounts, reported secondhand"
+horse,capital,Dublin tramway horses (486 head),1876,36.00,GBP per horse,class-ladder,"Clark, Tramways (1878) p.233",report-6 2.4,UNVERIFIED: computed from horses at 6.79 per cent of capital (about 17400 pounds) divided by 486; OCR of the balance sheet is partly unreadable
+horse,capital,North Metropolitan Tramways discarded horses book value,1886,37.83,GBP per horse,individual,"Worcester Journal 31 July 1886, via Ian Waugh 'Running London's tramway'",report-6 2.4,111 horses discarded during the half year had cost 4199 pounds 10s; computed per head
+horse,capital,North Metropolitan Tramways discarded horses sale price,1886,6.01,GBP per horse,individual,"Worcester Journal 31 July 1886, via Ian Waugh",report-6 2.4,111 horses sold for 667 pounds 11s 6d; computed per head
+horse,capital,North Metropolitan Tramways carcass value of horses died,1886,1.79,GBP per horse,individual,"Worcester Journal 31 July 1886, via Ian Waugh",report-6 2.4,102 pounds received for 57 carcasses; computed per head
+horse,capital,Battersea vestry horses purchased during year (10 head),1890,55.70,GBP per horse,individual,"Battersea MOH report 1890, p.118",report-6 2.3,557 pounds paid for 10 horses; computed per head
+horse,capital,Battersea vestry horses in stock at 25 March 1889 (23 head),1890,32.48,GBP per horse,individual,"Battersea MOH report 1890, p.118",report-6 2.3,Mr Boswell's valuation 747 pounds for 23 horses; computed per head
+horse,capital,Fulham vestry horse no.1 chestnut,1888,52.50,GBP per horse,individual,Fulham MOH 1890-91 p.156 table (Wellcome 10199536001700155) horse 1,report-6 2.2,present age 9; heavy vestry cart horse
+horse,capital,Fulham vestry horse no.2 exchange,1888,10.00,GBP per horse,individual,Fulham MOH 1890-91 p.156 horse 2,report-6 2.2,present age 8; marked Exchange; part-exchange price not a market price
+horse,capital,Fulham vestry horse no.3 brown,1889,55.00,GBP per horse,individual,Fulham MOH 1890-91 p.156 horse 3,report-6 2.2,present age 8
+horse,capital,Fulham vestry horse no.4 brown,1890,58.00,GBP per horse,individual,Fulham MOH 1890-91 p.156 horse 4,report-6 2.2,present age 7
+horse,capital,Fulham vestry horse no.5 bay mare,1882,,GBP per horse,individual,Fulham MOH 1890-91 p.156 horse 5,report-6 2.2,no cost stated; present age unknown
+horse,capital,Fulham vestry horse no.6 bay mare,1889,30.00,GBP per horse,individual,Fulham MOH 1890-91 p.156 horse 6,report-6 2.2,present age 7; low price for an older or inferior animal
+horse,capital,Fulham vestry horse no.7 iron grey,1889,58.00,GBP per horse,individual,Fulham MOH 1890-91 p.156 horse 7,report-6 2.2,present age 9
+horse,capital,Fulham vestry horse no.8 grey mare,1888,55.00,GBP per horse,individual,Fulham MOH 1890-91 p.156 horse 8,report-6 2.2,present age 8
+horse,capital,Fulham vestry horse no.9 bay,1890,60.00,GBP per horse,individual,Fulham MOH 1890-91 p.156 horse 9,report-6 2.2,present age 8
+horse,capital,Fulham vestry horse no.10 roan mare,1890,55.00,GBP per horse,individual,Fulham MOH 1890-91 p.156 horse 10,report-6 2.2,present age 8
+horse,capital,Fulham vestry horse no.11 bay,1890,60.00,GBP per horse,individual,Fulham MOH 1890-91 p.156 horse 11,report-6 2.2,present age 6
+horse,capital,Fulham vestry horse no.12 brown,1890,60.00,GBP per horse,individual,Fulham MOH 1890-91 p.156 horse 12,report-6 2.2,present age 7
+horse,capital,Fulham vestry horse no.13 grey mare,1890,60.00,GBP per horse,individual,Fulham MOH 1890-91 p.156 horse 13,report-6 2.2,present age 7
+horse,capital,Fulham vestry horse no.14 bay,1881,70.00,GBP per horse,individual,Fulham MOH 1890-91 p.156 horse 14,report-6 2.2,present age 16; oldest and dearest purchase in the list
+horse,capital,Fulham vestry horse no.15 roan mare,1890,60.00,GBP per horse,individual,Fulham MOH 1890-91 p.156 horse 15,report-6 2.2,present age 6
+horse,capital,Fulham vestry horse no.16 chestnut,1890,60.00,GBP per horse,individual,Fulham MOH 1890-91 p.156 horse 16,report-6 2.2,present age 6
+horse,capital,Fulham vestry horse no.17 black,1890,60.00,GBP per horse,individual,Fulham MOH 1890-91 p.156 horse 17,report-6 2.2,present age 7
+horse,capital,Fulham vestry horse no.18 roan,1890,60.00,GBP per horse,individual,Fulham MOH 1890-91 p.156 horse 18,report-6 2.2,present age 7
+horse,capital,Fulham vestry horse no.19 black mare,1890,55.00,GBP per horse,individual,Fulham MOH 1890-91 p.156 horse 19,report-6 2.2,present age 6
+horse,capital,Fulham vestry horse no.20 pay horse,1885,35.00,GBP per horse,individual,Fulham MOH 1890-91 p.156 horse 20,report-6 2.2,present age unknown; described as Pay horse
+horse,capital,Fulham vestry horse no.21 chestnut,1884,65.00,GBP per horse,individual,Fulham MOH 1890-91 p.156 horse 21,report-6 2.2,present age 13
+horse,capital,Fulham vestry horse no.22 bay,1890,59.00,GBP per horse,individual,Fulham MOH 1890-91 p.156 horse 22,report-6 2.2,present age 6
+horse,capital,Fulham vestry horse no.23 bay mare,1890,57.00,GBP per horse,individual,Fulham MOH 1890-91 p.156 horse 23,report-6 2.2,present age 6
+horse,capital,Fulham vestry horse no.24 brown mare,1890,47.00,GBP per horse,individual,Fulham MOH 1890-91 p.156 horse 24,report-6 2.2,present age 7
+horse,capital,Fulham vestry horse no.25 black mare,1890,48.00,GBP per horse,individual,Fulham MOH 1890-91 p.156 horse 25,report-6 2.2,present age 7
+horse,capital,Fulham vestry horse no.26 bay,1890,55.00,GBP per horse,individual,Fulham MOH 1890-91 p.156 horse 26,report-6 2.2,present age 6
+horse,capital,Fulham vestry horse no.27 roan,1890,60.00,GBP per horse,individual,Fulham MOH 1890-91 p.156 horse 27,report-6 2.2,present age 6
+horse,capital,Fulham vestry horse no.28 brown mare,1890,60.00,GBP per horse,individual,Fulham MOH 1890-91 p.156 horse 28,report-6 2.2,present age 7
+horse,capital,Fulham vestry horse no.29 chestnut,1890,62.50,GBP per horse,individual,Fulham MOH 1890-91 p.156 horse 29,report-6 2.2,present age 7
+horse,capital,Fulham vestry horse no.30 bay,1890,55.00,GBP per horse,individual,Fulham MOH 1890-91 p.156 horse 30,report-6 2.2,present age 7
+horse,capital,Fulham vestry horse stock value 1890 (21 head),1890,47.62,GBP per horse,class-ladder,Fulham MOH 1890-91 table (Wellcome 10199536001710157),report-6 2.2,1000 pounds stock of horses used for the 15 per cent replacement allowance; computed per head
+horse,capital,Fulham vestry horse stock value 1891 (32 head),1891,56.25,GBP per horse,class-ladder,Fulham MOH 1890-91 table (Wellcome 10199536001710157),report-6 2.2,1800 pounds stock of horses; computed per head
+horse,capital,LGOC omnibus horse,1893,35.00,GBP per horse,class-ladder,"Gordon, The Horse World of London (1893) ch.1 p.10",report-6 2.3,bought at five years old; works five years; sold for 5 pounds
+horse,capital,Road Car Company omnibus horse,1893,35.00,GBP per horse,class-ladder,"Gordon, Horse World of London ch.1 p.19",report-6 2.3,about 35 pounds each; most are Scotch
+horse,capital,omnibus horse carcass value,1893,1.50,GBP per horse,class-ladder,"Gordon, Horse World of London ch.1 p.19",report-6 2.3,fetch about thirty shillings each as carcases for the cat's-meat man
+horse,capital,cab horse,1893,30.00,GBP per horse,class-ladder,"Gordon, Horse World of London ch.2 p.34",report-6 2.3,Irish four-year-olds cost 30 pounds; last three years; sold for 9 pounds
+horse,capital,cab horse resale to a tradesman,1893,9.00,GBP per horse,class-ladder,"Gordon, Horse World of London ch.2 p.34",report-6 2.3,sold at three years' end to go into the tradesman's cart
+horse,capital,fine hansom horse,1893,52.50,GBP per horse,individual,"Gordon, Horse World of London ch.2 p.42",report-6 2.3,a fifty-guinea horse in a good hansom
+horse,capital,London tram horse average value,1893,30.00,GBP per horse,class-ladder,"Gordon, Horse World of London ch.1 p.28",report-6 2.3,UNVERIFIED: computed from 'nearly a third of a million' for just under 10000 London tram horses; rounded
+horse,capital,London railway horse all round,1893,60.00,GBP per horse,class-ladder,"Gordon, Horse World of London ch.3 p.49",report-6 2.3,6000 railway cartage horses not over-valued at 60 pounds each
+horse,capital,London carrying trade horse average,1893,47.37,GBP per horse,class-ladder,"Gordon, Horse World of London ch.3 p.66",report-6 2.3,19000 horses cost close on 900000 pounds on entering the trade; computed per head
+horse,capital,London carrying and railway horse average,1893,50.40,GBP per horse,class-ladder,"Gordon, Horse World of London ch.3 p.66",report-6 2.3,25000 horses worth 1260000 pounds; computed per head
+horse,capital,mail horse (McNamara),1893,36.00,GBP per horse,class-ladder,"Gordon, Horse World of London ch.4 p.71",report-6 2.3,rather under the mark at 36 pounds; lasts six years in the service
+horse,capital,general carman's horse,1893,25.00,GBP per horse,class-ladder,"Gordon, Horse World of London ch.3 p.62",report-6 2.3,250 horses of the old long-distance carriers worth say 25 pounds apiece
+horse,capital,heavy four-horse team horse,1893,105.00,GBP per horse,individual,"Gordon, Horse World of London ch.3 p.50",report-6 2.3,heaviest van horses weigh 19 cwt and are worth a hundred guineas
+horse,capital,Midland Railway cast horse,1893,10.00,GBP per horse,class-ladder,"Gordon, Horse World of London ch.3 p.55",report-6 2.3,the Midlander averages 10 pounds when sold out of the stud
+horse,capital,Brighton Railway cast cart horse,1893,12.30,GBP per horse,class-ladder,"Gordon, Horse World of London ch.3 p.55",report-6 2.3,Brighton cart horse averages 12 pounds 6s
+horse,capital,Wandsworth vestry horses in stock (15 head),1897,62.82,GBP per horse,class-ladder,"Wandsworth MOH report 1897 p.52",report-6 2.3,942 pounds 5s at 10 per cent for depreciation and interest; computed per head
+horse,capital,Wandsworth vestry roan gelding sold,1896,32.50,GBP per horse,individual,"Wandsworth MOH report 1896 p.52",report-6 2.3,cash received for a roan gelding 32 pounds 10s
+horse,capital,Army heavy cavalry remount,1887,42.00,GBP per horse,class-ladder,"Hansard 12 Sep 1887 vol 321 cc261-2",report-6 2.5,average Government price; standard ages four to six
+horse,capital,Army light cavalry remount,1887,40.00,GBP per horse,class-ladder,"Hansard 12 Sep 1887 vol 321 cc261-2",report-6 2.5,average Government price
+horse,capital,Army artillery remount,1887,45.00,GBP per horse,class-ladder,"Hansard 12 Sep 1887 vol 321 cc261-2",report-6 2.5,average Government price
+horse,capital,War Office advertised price for a horse,1895,40.00,GBP per horse,class-ladder,"Hansard 26 Aug 1895 vol 36 cc798-9",report-6 2.5,the price the War Office would give for a horse
+horse,capital,Army cavalry remount in Ireland,1900,,GBP per horse,class-ladder,"Hansard 23 Feb 1900",report-6 2.5,standard prices range 45-50 pounds
+horse,capital,mounted infantry cob,1900,30.00,GBP per horse,class-ladder,"Hansard 23 Feb 1900",report-6 2.5,standard price for mounted infantry cobs
+horse,capital,English remount horse,1900,,GBP per horse,class-ladder,"Hansard 19 June 1900 vol 84 cc449-504",report-6 2.5,English horse cannot be got for less than 35-40 pounds; Australian 45 pounds and Argentine 26 pounds delivered in South Africa
+horse,capital,Hungarian artillery horse contract,1902,35.00,GBP per horse,class-ladder,"Hansard 13 Feb 1902 vol 102 cc1189-1230",report-6 2.5,War Office contract with Hauser for 2000 artillery horses
+horse,capital,Hungarian cavalry horse contract,1902,30.00,GBP per horse,class-ladder,"Hansard 13 Feb 1902 vol 102 cc1189-1230",report-6 2.5,War Office contract for 5000 cavalry horses
+horse,capital,Hungarian cob contract,1902,20.00,GBP per horse,class-ladder,"Hansard 13 Feb 1902 vol 102 cc1189-1230",report-6 2.5,War Office contract for 5346 cobs; earlier Yeomanry contracts at 33 pounds 16s 8d and 26 pounds
+horse,capital,Hungarian cobs open market value,1902,,GBP per horse,class-ladder,"Hansard 13 Feb 1902 vol 102 cc1189-1230",report-6 2.5,open market price 8-12 pounds; the Government paid 20-33 pounds
+horse,capital,Austrian Government remount,1902,28.00,GBP per horse,class-ladder,"Hansard 13 Feb 1902 vol 102 cc1189-1230",report-6 2.5,stated in the Lords debate as the price the Austrian Government pays
+horse,capital,British remount cob,1909,30.00,GBP per horse,class-ladder,"Hansard 5 May 1909 vol 4 c1055",report-6 2.5,current price of remounts varies from 30 pounds for cobs
+horse,capital,British troop horse,1909,42.00,GBP per horse,class-ladder,"Hansard 5 May 1909 vol 4 c1055",report-6 2.5,current price for troop horses
+horse,capital,charger,1909,60.00,GBP per horse,class-ladder,"Hansard 5 May 1909 vol 4 c1055",report-6 2.5,current price for chargers
+horse,capital,laundry horse,1909,30.00,GBP per horse,individual,"Commercial Motor 24 June 1909 p.29, reader's cost statement",report-6 2.6,two horses at 30 pounds each in the capital account
+horse,capital,light tradesman's horse (10 cwt van),1920,70.00,GBP per horse,class-ladder,"Commercial Motor 28 Dec 1920 p.15",report-6 2.6,UNVERIFIED OCR: text reads 60-80 pounds and adopts 70; article gives a good horse at 60-80
+horse,capital,two-horse van horse (30 cwt),1920,80.00,GBP per horse,class-ladder,"Commercial Motor 28 Dec 1920 p.15",report-6 2.6,UNVERIFIED OCR: animals will cost 80 pounds each
+horse,capital,heavy five-ton dray horse,1920,,GBP per horse,class-ladder,"Commercial Motor 28 Dec 1920 p.15",report-6 2.6,UNVERIFIED OCR: horses suitable for this work cost 100-140 pounds each; article assumes 100
+horse,capital,farm horse,1922,75.00,GBP per horse,class-ladder,"Commercial Motor 4 July 1922 p.13",report-6 2.6,UNVERIFIED OCR: initial cost of 75 pounds; 12.5 per cent depreciation over eight years
+horse,capital,set of harness (Battersea vestry),1890,7.56,GBP per set of harness,individual,"Battersea MOH report 1890 p.118",report-6 2.7,32 sets cost 241 pounds 17s 6d; computed per set
+horse,capital,harness and stores per omnibus horse,1893,7.58,GBP per horse,class-ladder,"Gordon, Horse World of London ch.1 p.24",report-6 2.7,UNVERIFIED: computed from a sixth of a million pounds for 22000 horses and 2210 vehicles; the text calls it harness and stores generally
+horse,capital,set of harness (trade reader),1909,10.00,GBP per set of harness,individual,"Commercial Motor 24 June 1909 p.29",report-6 2.7,two sets of harness at 10 pounds each
+horse,capital,harness and gear for a one-horse van,1920,10.00,GBP per set of harness,individual,"Commercial Motor 28 Dec 1920 p.15",report-6 2.7,10 pounds for gear and harness and essential sundries
+horse,capital,harness and gear for a two-horse van,1920,15.00,GBP per set of harness,individual,"Commercial Motor 28 Dec 1920 p.15",report-6 2.7,15 pounds for both horses; 7 pounds 10s per horse
+horse,capital,harness stable implements forges and tools per horse (Dublin),1876,2.06,GBP per horse,class-ladder,"Clark, Tramways (1878) p.233",report-6 2.7,1000 pounds for 486 horses and 76 cars; computed per horse
+road-vehicle,capital,stage coach (Manchester),1760,100.00,GBP per vehicle,individual,"Gerhold, John Hanforth and Manchester's first stage-coaches (S4)",report-6 2.8,a good coach about 100 pounds lasting about three years
+road-vehicle,capital,stage coach,1830,,GBP per vehicle,class-ladder,"Simutrans forum post quoting an archived coaching source (thread 6521)",report-6 2.8,UNVERIFIED: range 130-150 pounds to build; original archived source not identified
+road-vehicle,capital,single brougham (Rock and Son),1862,126.00,GBP per vehicle,individual,"1862 London Exhibition catalogue, Class VI, Rock and Son, via Grace's Guide",report-6 2.8,120 guineas one-horse; 130 medium; 140 pair-horse; nett prices not including rumbles
+road-vehicle,capital,double brougham (Rock and Son),1862,136.50,GBP per vehicle,individual,"1862 London Exhibition catalogue, Rock and Son, via Grace's Guide",report-6 2.8,130 guineas one-horse; 140 medium; 150 pair-horse
+road-vehicle,capital,sociable landau (Rock and Son),1862,168.00,GBP per vehicle,individual,"1862 London Exhibition catalogue, Rock and Son, via Grace's Guide",report-6 2.8,160 guineas one-horse; 180 medium; 200 pair-horse
+road-vehicle,capital,dioropha landau (Rock and Son),1862,199.50,GBP per vehicle,individual,"1862 London Exhibition catalogue, Rock and Son, via Grace's Guide",report-6 2.8,190 guineas one-horse; 210 medium; 240 pair-horse
+road-vehicle,capital,sociable coach landau barouche (Rock and Son),1862,220.50,GBP per vehicle,individual,"1862 London Exhibition catalogue, Rock and Son, via Grace's Guide",report-6 2.8,210 guineas one-horse; 235 medium; 265 pair-horse; three interchangeable heads
+road-vehicle,capital,open sociable half-head (Rock and Son),1862,136.50,GBP per vehicle,individual,"1862 London Exhibition catalogue, Rock and Son, via Grace's Guide",report-6 2.8,130 guineas one-horse; 145 medium; 160 pair-horse
+road-vehicle,capital,enclosed sociable (Rock and Son),1862,152.25,GBP per vehicle,individual,"1862 London Exhibition catalogue, Rock and Son, via Grace's Guide",report-6 2.8,145 guineas one-horse; 165 medium; 180 pair-horse
+road-vehicle,capital,waggonette (Rock and Son),1862,68.25,GBP per vehicle,individual,"1862 London Exhibition catalogue, Rock and Son, via Grace's Guide",report-6 2.8,65 guineas one-horse; 75 medium; 90 pair-horse
+road-vehicle,capital,dog cart (Rock and Son),1862,31.50,GBP per vehicle,class-ladder,"1862 London Exhibition catalogue, Rock and Son, via Grace's Guide",report-6 2.8,from 30 guineas
+road-vehicle,capital,victoria phaeton (Rock and Son),1862,,GBP per vehicle,class-ladder,"1862 London Exhibition catalogue, Rock and Son, via Grace's Guide",report-6 2.8,range 55-90 guineas
+road-vehicle,capital,pony phaeton (Rock and Son),1862,26.25,GBP per vehicle,class-ladder,"1862 London Exhibition catalogue, Rock and Son, via Grace's Guide",report-6 2.8,from 25 guineas
+road-vehicle,capital,pillar and standard van 50 cwt (George Ell),1862,,GBP per vehicle,class-ladder,"1862 London Exhibition catalogue, Class VI, George Ell and Co, via Grace's Guide",report-6 2.8,range 40-46 pounds
+road-vehicle,capital,builder's van 2-5 tons (George Ell),1862,,GBP per vehicle,class-ladder,"1862 London Exhibition catalogue, George Ell and Co, via Grace's Guide",report-6 2.8,range 40-60 pounds
+road-vehicle,capital,railway or carrier's van 2-6 tons (George Ell),1862,,GBP per vehicle,class-ladder,"1862 London Exhibition catalogue, George Ell and Co, via Grace's Guide",report-6 2.8,range 36-60 pounds
+road-vehicle,capital,furniture van complete (George Ell),1862,,GBP per vehicle,class-ladder,"1862 London Exhibition catalogue, George Ell and Co, via Grace's Guide",report-6 2.8,range 45-55 pounds
+road-vehicle,capital,agricultural cart (George Ell),1862,,GBP per vehicle,class-ladder,"1862 London Exhibition catalogue, George Ell and Co, via Grace's Guide",report-6 2.8,range 11-18 pounds
+road-vehicle,capital,agricultural waggon (George Ell),1862,,GBP per vehicle,class-ladder,"1862 London Exhibition catalogue, George Ell and Co, via Grace's Guide",report-6 2.8,range 30-40 pounds
+road-vehicle,capital,improved dray (George Ell),1862,,GBP per vehicle,class-ladder,"1862 London Exhibition catalogue, George Ell and Co, via Grace's Guide",report-6 2.8,range 25-45 pounds
+road-vehicle,capital,two-horse brick cart (George Ell),1862,,GBP per vehicle,class-ladder,"1862 London Exhibition catalogue, George Ell and Co, via Grace's Guide",report-6 2.8,range 20-30 pounds; carries 1000 bricks
+road-vehicle,capital,one-horse brick cart (George Ell),1862,,GBP per vehicle,class-ladder,"1862 London Exhibition catalogue, George Ell and Co, via Grace's Guide",report-6 2.8,range 13-21 pounds; carries 500-600 bricks
+road-vehicle,capital,light spring cart (George Ell),1862,,GBP per vehicle,class-ladder,"1862 London Exhibition catalogue, George Ell and Co, via Grace's Guide",report-6 2.8,range 16-26 pounds
+road-vehicle,capital,stone truck 6-10 tons (George Ell),1862,,GBP per vehicle,class-ladder,"1862 London Exhibition catalogue, George Ell and Co, via Grace's Guide",report-6 2.8,range 35-50 pounds
+road-vehicle,capital,timber carriage 3-8 tons (George Ell),1862,,GBP per vehicle,class-ladder,"1862 London Exhibition catalogue, George Ell and Co, via Grace's Guide",report-6 2.8,range 28-45 pounds
+road-vehicle,capital,one-horse landau (Thomas King),1874,180.00,GBP per vehicle,individual,"Herts Memories, Thomas King wheelwright and coachbuilder, citing HALS D/EBi/1-5",report-6 2.8,built for Mrs Pegg of Chesham August 1874; lined with claret cloth and morocco leather
+road-vehicle,capital,phaeton for Countess de Salis (Thomas King),,107.00,GBP per vehicle,individual,"Herts Memories, Thomas King, citing HALS D/EBi/1-5",report-6 2.8,107 pounds; year not stated in the secondary account; account books run 1840s-1880s
+road-vehicle,capital,grocer's van (Thomas King),,20.00,GBP per vehicle,class-ladder,"Herts Memories, Thomas King, citing HALS D/EBi/1-5",report-6 2.8,20 pounds; year not stated in the secondary account
+road-vehicle,capital,manure cart (Thomas King),,10.00,GBP per vehicle,class-ladder,"Herts Memories, Thomas King, citing HALS D/EBi/1-5",report-6 2.8,10 pounds; year not stated
+road-vehicle,capital,pony cart (Thomas King),,16.00,GBP per vehicle,class-ladder,"Herts Memories, Thomas King, citing HALS D/EBi/1-5",report-6 2.8,16 pounds; supplied to a baker at Leighton Buzzard; year not stated
+road-vehicle,capital,covered bread barrow (Thomas King),,7.00,GBP per vehicle,class-ladder,"Herts Memories, Thomas King, citing HALS D/EBi/1-5",report-6 2.8,7 pounds; year not stated
+road-vehicle,capital,landau from catalogue (Stokes and Son),1890,105.00,GBP per vehicle,class-ladder,"Kings Cliffe Heritage, Messrs Stokes and Son, 1890 catalogue",report-6 2.8,from 100 guineas; provincial builder
+road-vehicle,capital,improved brougham from catalogue (Stokes and Son),1890,73.50,GBP per vehicle,class-ladder,"Kings Cliffe Heritage, Messrs Stokes and Son, 1890 catalogue",report-6 2.8,from 70 guineas
+road-vehicle,capital,governess car (Stokes and Son),1890,23.00,GBP per vehicle,class-ladder,"Kings Cliffe Heritage, Messrs Stokes and Son, 1890 catalogue",report-6 2.8,23 pounds exactly
+road-vehicle,capital,estate wagon (Stokes and Son),1890,29.50,GBP per vehicle,individual,"Kings Cliffe Heritage, Messrs Stokes and Son, 1890 catalogue",report-6 2.8,29 pounds 10s
+road-vehicle,capital,hansom cab,1893,105.00,GBP per vehicle,class-ladder,"Gordon, Horse World of London ch.2 p.44",report-6 2.8,newer hansoms weigh about 9.5 cwt and cost a hundred guineas; four-wheelers cost less
+road-vehicle,capital,London horse omnibus average,1893,150.00,GBP per vehicle,class-ladder,"Gordon, Horse World of London ch.1 p.24",report-6 2.8,2210 licensed omnibuses average 150 pounds apiece to build
+road-vehicle,capital,Road Car Company road car,1893,160.00,GBP per vehicle,individual,"Gordon, Horse World of London ch.1 p.21",report-6 2.8,latest type weighs 33 cwt and costs 160 pounds lettering and all
+road-vehicle,capital,Dublin horse tramcar,1876,230.00,GBP per vehicle,class-ladder,"Clark, Tramways (1878) p.233",report-6 2.8,76 cars at 230 pounds each; balance sheet footnote
+road-vehicle,capital,farm wagon single-shaft (Chapman),1896,30.00,GBP per vehicle,class-ladder,"Cliffe's wheelwrights, King's Cliffe local history, citing J and R Chapman works",report-6 2.8,a finished wagon cost 30 pounds single-shafted; date from firm's move to King's Cliffe in 1896
+road-vehicle,capital,farm wagon double-shaft (Chapman),1896,40.00,GBP per vehicle,class-ladder,"Cliffe's wheelwrights, King's Cliffe local history",report-6 2.8,40 pounds double-shafted for two horses
+road-vehicle,capital,farm cart (Chapman),1896,12.00,GBP per vehicle,class-ladder,"Cliffe's wheelwrights, King's Cliffe local history",report-6 2.8,a farm cart cost 12 pounds
+road-vehicle,capital,laundry van,1909,30.00,GBP per vehicle,individual,"Commercial Motor 24 June 1909 p.29",report-6 2.6,two vans and fittings at 30 pounds each
+road-vehicle,capital,one-horse 10 cwt van,1920,70.00,GBP per vehicle,class-ladder,"Commercial Motor 28 Dec 1920 p.15",report-6 2.6,70 pounds for the van and 70 pounds for the horse
+road-vehicle,capital,two-horse 30 cwt van,1920,80.00,GBP per vehicle,class-ladder,"Commercial Motor 28 Dec 1920 p.15",report-6 2.6,van about 80 pounds
+road-vehicle,capital,five-ton dray with harness,1920,150.00,GBP per vehicle,class-ladder,"Commercial Motor 28 Dec 1920 p.15",report-6 2.6,dray harness and gear at least 150 pounds
+road-vehicle,capital,farm wagon,1922,65.00,GBP per vehicle,class-ladder,"Commercial Motor 4 July 1922 p.13",report-6 2.6,UNVERIFIED OCR: wagon worth about 65 pounds; depreciation about 4s a week
+depot,capital,Battersea vestry stables capital per horse,1890,63.63,GBP per stall,class-ladder,"Battersea MOH report 1890 pp.117-118",report-6 2.9,stables at Bridge Road West 1048 pounds 7s 4d plus harness room 64 pounds plus Battersea Park Road 402 pounds 1s 5d; 23.8 horses; computed
+depot,capital,Wandsworth vestry stables capital per horse,1894,63.64,GBP per stall,class-ladder,"Wandsworth MOH report 1894 p.50",report-6 2.9,first cost of stables 700 pounds for 11 cart horses; computed per horse
+depot,capital,Wandsworth vestry stables capital per horse,1896,57.74,GBP per stall,class-ladder,"Wandsworth MOH report 1896 p.52",report-6 2.9,buildings 811 pounds 4s 10d for average 14.05 horses; computed per horse
+depot,capital,fit-up of loose boxes (Wandsworth),1894,31.80,GBP per loose box,individual,"Wandsworth MOH report 1894 p.50",report-6 2.9,fitting up loose boxes 31 pounds 16s; interest at 5 per cent 1 pound 11s 10d
+depot,maintenance,rent of stables per stall (Fulham),1891,4.54,GBP per stall-year,class-ladder,"Fulham MOH 1890-91 table (Wellcome 10199536001710157)",report-6 2.9,rent 199 pounds 17s 4d for stables with room for 44; computed per stall
+depot,capital,cab stable accommodation per horse (London),1893,11.33,GBP per stall,class-ladder,"Gordon, Horse World of London ch.2 p.48",report-6 2.9,170000 pounds for stable accommodation fittings plant and working cash for 15000 cab horses; computed
+depot,capital,omnibus stable value per horse (London),1893,15.38,GBP per stall,class-ladder,"Gordon, Horse World of London ch.1 p.24",report-6 2.9,stables of the LGOC and Road Car valued at 200000 pounds for about 13000 horses; computed; probably excludes land
+other,maintenance,contract horsing of tramcars (North Metropolitan),1876,6.50,pence per car-mile,class-ladder,"Clark, Tramways (1878) pp.213-214",report-6 2.4,hired from the LGOC at 6.5d per mile run including horses keepers stables harness wear and renewal; 11 horses per car doing 70 miles a day
+other,maintenance,working days per horse-year (Fulham),1891,310,days per horse-year,class-ladder,"Fulham MOH 1890-91 table (Wellcome 10199536001710157)",report-6 2.10,average 310 days per annum used in the hire comparison; 9s 6d a day for horse cart and man
+horse,maintenance,keep and bedding Paddington,1878,19.80,shillings per horse-week,individual,"Paddington MOH report 1878 p.8",report-6 2.11,19s 9.59d per horse per week; average of three tenders; hay 2s 8.66d a truss clover 3s 6.66d straw 1s 5.33d oats 2s 9.75d a bushel bran 4.87d
+horse,maintenance,provender Battersea vestry,1890,35.38,GBP per horse-year,class-ladder,"Battersea MOH report 1890 p.117",report-6 2.11,842 pounds 1s 8d for average 23.8 horses; computed
+horse,maintenance,shoeing Battersea vestry,1890,3.17,GBP per horse-year,class-ladder,"Battersea MOH report 1890 p.117",report-6 2.11,75 pounds 9s 11d for 23.8 horses; computed
+horse,maintenance,veterinary Battersea vestry,1890,1.41,GBP per horse-year,class-ladder,"Battersea MOH report 1890 p.117",report-6 2.11,33 pounds 11s for 23.8 horses; computed
+horse,maintenance,harness repairs Battersea vestry,1890,1.45,GBP per horse-year,class-ladder,"Battersea MOH report 1890 p.117",report-6 2.11,34 pounds 10s 7d for 23.8 horses; computed
+horse,maintenance,horsekeeper and stable help wages Battersea vestry,1890,6.47,GBP per horse-year,class-ladder,"Battersea MOH report 1890 p.117",report-6 2.11,153 pounds 17s 9d for 23.8 horses; computed
+horse,maintenance,provender Wandsworth vestry,1894,35.90,GBP per horse-year,class-ladder,"Wandsworth MOH report 1894 p.50",report-6 2.11,394 pounds 17s 2d for 11 horses; computed
+horse,maintenance,shoeing Wandsworth vestry,1894,2.80,GBP per horse-year,class-ladder,"Wandsworth MOH report 1894 p.50",report-6 2.11,30 pounds 15s 11d for 11 horses; computed
+horse,maintenance,veterinary Wandsworth vestry,1894,1.12,GBP per horse-year,class-ladder,"Wandsworth MOH report 1894 p.50",report-6 2.11,12 pounds 6s 9d for 11 horses; computed
+horse,maintenance,harness hire Wandsworth vestry,1894,2.22,GBP per horse-year,class-ladder,"Wandsworth MOH report 1894 p.50",report-6 2.11,24 pounds 8s 9d for 11 horses; computed; the Board hired rather than owned its harness
+horse,maintenance,horsekeeper wages Wandsworth vestry,1894,6.22,GBP per horse-year,class-ladder,"Wandsworth MOH report 1894 p.50",report-6 2.11,68 pounds 8s 8d for 11 horses; computed
+horse,maintenance,provender Wandsworth vestry,1896,34.92,GBP per horse-year,class-ladder,"Wandsworth MOH report 1896 p.52",report-6 2.11,490 pounds 13s 10d for average 14.05 horses; computed
+horse,maintenance,shoeing Wandsworth vestry,1896,3.33,GBP per horse-year,class-ladder,"Wandsworth MOH report 1896 p.52",report-6 2.11,46 pounds 17s for 14.05 horses; computed
+horse,maintenance,veterinary Wandsworth vestry,1896,1.23,GBP per horse-year,class-ladder,"Wandsworth MOH report 1896 p.52",report-6 2.11,17 pounds 6s 6d for 14.05 horses; computed
+horse,maintenance,horsekeeper wages Wandsworth vestry,1896,5.93,GBP per horse-year,class-ladder,"Wandsworth MOH report 1896 p.52",report-6 2.11,83 pounds 6s 1d for 14.05 horses; computed
+horse,maintenance,shoeing (trade reader),1909,4.20,GBP per horse-year,individual,"Commercial Motor 24 June 1909 p.29",report-6 2.11,shoeing for two horses at 4 pounds 4s per horse
+horse,maintenance,veterinary (trade reader),1909,1.00,GBP per horse-year,individual,"Commercial Motor 24 June 1909 p.29",report-6 2.11,vet for two horses at 1 pound per horse
+horse,maintenance,harness repairs (trade reader),1909,1.00,GBP per set-year,individual,"Commercial Motor 24 June 1909 p.29",report-6 2.11,repairs to two sets of harness at 1 pound per set
+horse,maintenance,stabling (trade reader),1909,5.00,GBP per horse-year,individual,"Commercial Motor 24 June 1909 p.29",report-6 2.11,stabling or rent charge for two horses and vans 10 pounds; computed per horse
+horse,maintenance,fodder and bedding (trade reader),1909,41.60,GBP per horse-year,individual,"Commercial Motor 24 June 1909 p.29",report-6 2.11,16s per week each for two horses for 52 weeks; computed
+horse,maintenance,fodder (trade costing),1920,106.60,GBP per horse-year,class-ladder,"Commercial Motor 28 Dec 1920 p.15",report-6 2.11,41s per week: oats 21s hay 13s chaff 4-5s bran and sundries 2s 6d; computed over 52 weeks
+horse,maintenance,food (farm horse),1922,40.00,GBP per horse-year,class-ladder,"Commercial Motor 4 July 1922 p.13",report-6 2.11,UNVERIFIED OCR: 15s a week will barely cover food and 15s a week is 40 pounds a year
+horse,maintenance,shoeing (farm horse),1922,5.00,GBP per horse-year,class-ladder,"Commercial Motor 4 July 1922 p.13",report-6 2.11,UNVERIFIED OCR: shoeing about 5 pounds a year
+horse,maintenance,veterinary (farm horse),1922,5.00,GBP per horse-year,class-ladder,"Commercial Motor 4 July 1922 p.13",report-6 2.11,UNVERIFIED OCR: veterinary attention another 5 pounds
+horse,maintenance,stabling (farm horse),1922,5.00,GBP per horse-year,class-ladder,"Commercial Motor 4 July 1922 p.13",report-6 2.11,UNVERIFIED OCR: allowance for stabling 5 pounds
+horse,maintenance,harness depreciation and repairs (farm horse),1922,3.50,GBP per horse-year,class-ladder,"Commercial Motor 4 July 1922 p.13",report-6 2.11,UNVERIFIED OCR: 3 pounds 10s per annum
+horse,maintenance,depreciation of farm horse,1922,9.375,GBP per horse-year,class-ladder,"Commercial Motor 4 July 1922 p.13",report-6 2.11,UNVERIFIED OCR: 12.5 per cent of a 75 pound horse over eight years; as stated 9 pounds 7s 6d
