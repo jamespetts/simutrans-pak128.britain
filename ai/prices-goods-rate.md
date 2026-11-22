@@ -98,8 +98,8 @@ and the tables above reconcile to the inserted line.
 - **Year convention**: 1920–1951 figures are calendar years; the BR yearbook years and TiGB/ORR
   rail data are statistical or financial years. The modern block uses financial years labelled
   by starting year (2015 = April 2015–March 2016). A ±1-year uncertainty sits at the joins.
-- Unit conversions: 1 ton-mile = 1.609344 tonne-km; 1 tonne-mile = 0.904204 ton-miles; 1d = 00
-  iimuCent at 1900 on the revenue timescale.
+- Unit conversions: 1 ton-mile = 1.609344 tonne-km; 1 tonne-mile = 0.904204 ton-miles; 1d = 80
+  SimuCents at 1900 on the revenue timescale.
 
 ## Traps
 

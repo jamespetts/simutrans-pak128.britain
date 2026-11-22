@@ -141,11 +141,11 @@ The calibration workbook prices the same vehicles two ways, and the gap between 
 problem for vehicle balancing.
 
 - The `Vehicles (historical)` sheet normalises a nominal price to 1900, converts it at 2.523
-  iimuCents to the pound (the capital conversion), then multiplies by 8 to give the figure written
-  into the `.dat`. For the GNR 8 ft single: £2,033 in 1870, £1,973.79 in 1900, 4,980.40 iimucredits,
+  SimuCents to the pound (the capital conversion), then multiplies by 8 to give the figure written
+  into the `.dat`. For the GNR 8 ft single: £2,033 in 1870, £1,973.79 in 1900, 4,980.40 Simucredits,
   39,843.21 in the `.dat`. The ratio is exactly 8.0 for every row checked, carriages included.
   `[CODE New ex-15 @ 8d0603d81]`
-- The `Vehicles (iimutrans)` sheet takes the same `.dat` figure and divides it by 8 to reach "in
+- The `Vehicles (Simutrans)` sheet takes the same `.dat` figure and divides it by 8 to reach "in
   game", and divides the monthly figure by 4. `[CODE New ex-15 @ 8d0603d81]`
 - The engine does neither. `cost` is charged at face value with only the price index applied, and
   the monthly figure is multiplied by 2 at this pakset's settings.
@@ -154,9 +154,9 @@ problem for vehicle balancing.
 Read against the real price, the same `.dat` value is therefore either about eight times too high
 or about ten times too low, depending on which conversion the rest of the economy uses:
 
-- at the capital conversion, £1,973.79 becomes 4,980 iimucredits, and the written value of 39,843 is
+- at the capital conversion, £1,973.79 becomes 4,980 Simucredits, and the written value of 39,843 is
   8.0 times that;
-- at the revenue conversion, £1,973.79 becomes 378,968 iimucredits, and the written value is 0.105 of
+- at the revenue conversion, £1,973.79 becomes 378,968 Simucredits, and the written value is 0.105 of
   that, or 9.5 times too low.
 
 Which one is correct cannot be settled from the vehicle evidence alone: it depends on whether the

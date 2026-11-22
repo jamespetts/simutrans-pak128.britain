@@ -37,8 +37,12 @@ The four combine, for a way, to a single convenient factor:
 
 - real capital cost per kilometre = `.dat` cost × 0.125 × 8 ÷ 100 × 0.396311
   = **`.dat` cost × 0.00396311**;
-- real maintenance per kilometre per month = `.dat` maintenance × 0.125 × 8 ÷ 100 × 0.396311
-  = **`.dat` maintenance × 0.00396311**, and per year that × 12.
+- real maintenance per kilometre per month = `.dat` maintenance × 0.125 × 2 × 8 ÷ 100 × 0.396311
+  = **`.dat` maintenance × 0.00792622**, and per year that × 12. The `2` is
+  `calc_adjusted_monthly_figure` (16 ÷ 8 at the pakset settings), applied by
+  `finance_t::get_maintenance_with_bits` to the `maintenance[waytype]` accumulator into which
+  `weg_t` books `get_maintenance()`. The way tooltip omits it; the charge does not.
+  `[CODE simutrans-extended ex-15 @ 2ec587a]`
 
 For per-object classes the same factor applies once the engine scale is used instead of the tile
 count: a scaled one-tile object is `.dat` × 0.125 ÷ 100 × 0.396311 = `.dat` × 0.00049539, and an

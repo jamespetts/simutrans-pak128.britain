@@ -15,11 +15,14 @@ Companions: [infrastructure-base-costs](infrastructure-base-costs.md) (the conve
 
 **Figures recomputed 2026-11-17** for the interface's division of engine money by 100 before display:
 a raw `.dat` unit is £0.00396311, not £0.396311. Factors: `.dat` × **0.00396311** for way, bridge,
-tunnel, way-object and forge capital per kilometre and way maintenance per kilometre per month (× 12
-for the year); `.dat` × **0.00049539** for a scaled one-tile object and **0.00396311** for an
-unscaled one. Derivation: [infrastructure-base-costs](infrastructure-base-costs.md), confirmed in
+tunnel, way-object and forge capital per kilometre, and `.dat` × **0.00792622** for way maintenance
+per kilometre per month (× 12 for the year), which is twice the capital factor because
+`calc_adjusted_monthly_figure` applies to the maintenance charge; `.dat` × **0.00049539** for a
+scaled one-tile object and **0.00396311** for an unscaled one. Derivation and the code path:
+[infrastructure-base-costs](infrastructure-base-costs.md), confirmed in
 [balance-conversion-check](balance-conversion-check.md). Ratios stand; levels moved, and the
-conclusions with them: infrastructure is too cheap, not too dear.
+conclusions with them: infrastructure capital is too cheap, while maintenance is close to the
+measured range.
 
 ## 1. The scaling map
 
@@ -49,8 +52,9 @@ which Simutrans charges separately through `weg_t::renew()` when wear runs out.
 | Canal routine upkeep, 1938 | £62/km/year |
 
 The rule is **single, not object by object**: strip renewal out of every maintenance value. At the
-corrected rate `wssr` is **£218 a km**, six to nine times below the measured £1,300-1,900, and **£26
-a km a year**, two to thirteen times below the £44-334 range; `wssri_intermediate` is **£416**.
+corrected rate `wssr` capital is **£218 a km**, six to nine times below the measured £1,300-1,900,
+while its maintenance is **£52 a km a year** (550 × 0.00792622 × 12), which sits just inside the
+measured £44-334 range rather than below it; `wssri_intermediate` capital is **£416**.
 
 ## 3. Decision tables
 

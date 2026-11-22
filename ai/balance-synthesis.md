@@ -36,6 +36,20 @@ the tooltip multiplies by `base_meters_per_tile / meters_per_tile`, the length f
 confirm it: (90,000 + 15,000) × 0.00396311 = **£416 a kilometre**. They display 1,974.00 and 1,100.00,
 the same object under the `infrastructure` index at 188 (1930) and 104.76 (about 1910).
 
+**Each object type is indexed by its own series.** `.dat` values are 1900 nominal. Vehicle `cost`
+is indexed by `vehicle purchase`, vehicle running and fixed by `general`, ways/tunnels/bridges/way
+objects/signals by `infrastructure`, and buildings by `buildings`. The series diverge: in 2026
+`vehicle purchase` is 0.90 times `general`, `infrastructure` 0.57 and `buildings` 1.35. The
+2026-11-22 rebuild of the two cost workbooks uses the type series on both sides of every
+comparison; the first version deflated everything with `general`. [prices-config](prices-config.md)
+`[USER-DIRECTION:2026-11-22]`
+
+**Per-month charges are doubled.** `calc_adjusted_monthly_figure` = 2^(22-18) / INT(1000/125) = 2 at
+the pakset settings, and it applies to vehicle `fixed_cost`, to way/tunnel/bridge/way-object
+maintenance (`finance_t::get_maintenance_with_bits`) and to building maintenance. The way tooltip
+omits it and under-reports upkeep. [vehicle-cost-model](vehicle-cost-model.md)
+`[CODE simutrans-extended ex-15 @ 2ec587a]`
+
 **The revenue rate is pinned by two independent anchors:**
 
 - Passenger fare: `value[1]=50` in `goods-128.dat` is 50 Simucents a kilometre, 0.50 Simucredits, or
@@ -151,15 +165,16 @@ times too small, which pushes the return up again.
 
 ### 5.1 Infrastructure maintenance is 4 to 100 times too high — **false; the direction is reversed**
 
-At the confirmed rate `wssr` is **£218 a kilometre** with **£26 a kilometre a year** of maintenance, and
-`wssri_intermediate` with its forge is £416. The measured permanent-way-only capital is £1,300-1,900 a
-kilometre and the measured maintenance excluding renewal £44-334 a kilometre a year.
-[infrastructure-cost-synthesis](infrastructure-cost-synthesis.md) §2 So capital is six to nine times
-too **low** and maintenance two to thirteen times too **low**. The ratio errs the same way: the way
-returns 8.3 years of capital (55,000 ÷ (550 × 12)) against Acworth's 72.7, because maintenance is
-relatively less under-priced than capital. The correction is capital about sixfold and maintenance
-about twofold, which is the synthesis's recommendation (`wssr` 55,000 → 320,000, maintenance 550 →
-1,300). The "maintenance carries renewal" finding survives and explains why maintenance rises less than
+At the confirmed rate `wssr` is **£218 a kilometre** of capital with **£52 a kilometre a year** of
+maintenance, and `wssri_intermediate` with its forge is £416. The measured permanent-way-only
+capital is £1,300-1,900 a kilometre and the measured maintenance excluding renewal £44-334 a
+kilometre a year. [infrastructure-cost-synthesis](infrastructure-cost-synthesis.md) §2 So capital
+is six to nine times too **low**, while maintenance sits just inside the measured range. The
+capital-to-maintenance ratio errs accordingly: the way returns 4.2 years of capital
+(55,000 ÷ (550 × 2 × 12)) against Acworth's 72.7, because capital is under-priced and maintenance
+is not. The correction is capital about sixfold and maintenance about twofold, which is the
+synthesis's recommendation (`wssr` 55,000 → 320,000, maintenance 550 → 1,300). The "maintenance
+carries renewal" finding survives and explains why maintenance rises less than
 capital: the accounts combine routine maintenance with renewal, and the engine renews separately
 through `weg_t::renew()`.
 
