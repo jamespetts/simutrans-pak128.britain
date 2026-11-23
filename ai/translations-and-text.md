@@ -1,6 +1,6 @@
 ---
 status: stub
-verified: New ex-15 @ 0ba8d7fc6 (working tree, 2026-11-21)
+verified: New ex-15 @ f22a41c83; simutrans-extended ex-15 @ b914de7f4
 ---
 # Translations and text
 
@@ -38,14 +38,30 @@ names.
   `[CODE New ex-15 @ 8b04b2114]`
 - Forgetting the `en.tab` entry leaves the raw machine name (e.g. `ger-s69`,
   `douglas-dc-8-10`) shown in game. Checking this is a mandatory final step of every
-  asset-adding task: search `en.tab` for each new object's `name=` value. The Audi A4 B6 and
-  the Vauxhall Nova/Corsa family shipped without entries and were fixed on 2026-11-15.
+  asset-adding task: search `en.tab` for each new object's `name=` value. The search is necessary
+  but not sufficient, because a malformed line elsewhere in the file can leave the key present
+  and out of the loaded table; see the next two bullets. The Audi A4 B6 and the Vauxhall
+  Nova/Corsa family shipped without entries and were fixed on 2026-11-15.
   `[EXECUTION-VERIFIED:2026-09-23]` `[USER-DIRECTION:2026-11-15]`
-- A **stray duplicate display line** is as damaging as a missing entry. The file is read as
-  strict two-line key/value pairs, so an extra line shifts every following pair until the next
-  extra line. The 2026-11-20 citycar check found 35 duplicate lines that had mis-paired 820
-  consecutive entries; all were removed. Verify that the number of content lines is even and
-  that no citycar key is followed by another citycar name.
+- **Any malformed line breaks the table, not just a missing entry.** `en.tab` is read as strict
+  two-line key/value pairs. The reader skips only lines that begin with `#`, and drops a pair
+  whose two lines are identical. Any line that does not belong in the pair being read — a blank
+  line, a duplicated display line, a spurious key or value, or a line missing altogether —
+  becomes a key or a value in the wrong position, which shifts every following pair by one until
+  another malformed line cancels the shift. The mis-paired names never register, and the game
+  shows the raw machine name. Two measured cases: the 2026-11-20 citycar check found 35
+  duplicate lines that had mis-paired 820 consecutive entries; a single blank line added on
+  2026-11-23 before `JaguarType01(VisionarySilver)` silenced all 144 objects of the 36 models
+  appended in that commit, while a grep of the file found every key present.
+  `[CODE New ex-15 @ f22a41c83]` `[CODE simutrans-extended ex-15 @ b914de7f4]`
+  `[EXECUTION-VERIFIED:2026-11-20]` `[EXECUTION-VERIFIED:2026-11-23]`
+- **Verify the loaded table, not the file.** Neither an even count of content lines nor a grep
+  proves the table is sound: a comment line consumes one line, an identical pair consumes two and
+  registers nothing, and a shifted pair still contains the key, as a value. Walk the file exactly
+  as the reader does — two lines per entry from the start, skipping a line that begins with `#`,
+  stripping trailing CR and LF — then assert that every `.dat` `name=` value is a stored key. At
+  the 2026-11-23 fix all 1,911 citycar names resolved and none was missing.
+  `[EXECUTION-VERIFIED:2026-11-23]`
 - **Citycar display names use the public marketing name, not the internal generation code.**
   The 2017 additions established the pattern: `FordGalaxyMk1`/`Mk3` → `Ford Galaxy`,
   `FordMondeoMk1`/`Mk4` → `Ford Mondeo`, `NissanQashqai` → `Nissan Qashqai`. The 2026-11-21
@@ -54,10 +70,12 @@ names.
   `Rover200R8` → `Rover 200`. The internal `name=` still distinguishes the generation; the
   display name does not. Every colourway of a model carries the same display name.
   `[USER-DIRECTION:2026-11-21]` `[EXECUTION-VERIFIED:2026-11-21]`
-- All 1,767 citycar keys now sit in the `City cars` section, in `citycars-models.csv` order,
-  rather than being scattered through later sections. The section also holds the two non-citycar
-  road entries that historically lived there (`LondonTaxi-Lanchester`, `Volvo-V70-Police`).
-  `[EXECUTION-VERIFIED:2026-11-21]`
+- All 1,911 citycar keys belong in the `City cars` section, in `citycars-models.csv` order,
+  rather than scattered through later sections; the section also holds the two non-citycar
+  road entries that historically lived there (`LondonTaxi-Lanchester`, `Volvo-V70-Police`). The
+  144 keys appended on 2026-11-23 (`JaguarType01` to `VWPoloMk6`) sit at the end of the file,
+  after the ferry texts, and remain to be moved into the section.
+  `[EXECUTION-VERIFIED:2026-11-21]` `[EXECUTION-VERIFIED:2026-11-23]`
 - Editing `New/text/en.tab` (or `config/`, `sound/`) does NOT reach the game by itself: the
   build's `copy` target (`New/Makefile`, `cp -p text/*.* $(PAKDIR)/text`) copies these into
   the pakset directory only when `make` runs. After editing any `text/`, `config/`, or
