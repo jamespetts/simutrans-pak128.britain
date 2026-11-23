@@ -90,6 +90,7 @@ Method:
 | `intro_year` / `intro_month` | Year/month the colour is first seen on roads | — |
 | `retire_year` / `retire_month` | Year/month it is last seen regularly (early retires mean rare sights from that date). Models still in production in 2026 with no announced end have the fields commented out, not deleted | omitted → open-ended |
 | `speed` | Top speed in **km/h** (the engine reads it with `kmh_to_speed`; the tree's values are a game-balance figure, not always the model's real top speed) | — |
+| `length` | Vehicle length in carunits (16 to a tile), e.g. `2` for a family car; set from the model's real length at 1.875 m per carunit ([road-vehicle-lengths](road-vehicle-lengths.md)) | omitted → 4 (a quarter tile) |
 | `maximum_comfortable_journey_minutes` | Maximum comfortable journey time for private-car travel, in whole minutes (the `_tenths` form gives tenths of a minute) | omitted/0 → engine default 180 minutes |
 | `maximum_tolerable_journey_minutes` | Maximum tolerable journey time, same units (`_tenths` form available) | omitted/0 → three times the comfortable time |
 | `class` | Comma-separated passenger wealth class indices the car is available to (0 = Very low … 4 = Very high in this pakset), e.g. `class=1,2` | omitted → available to **all** classes; an empty `class=` is a fatal makeobj error |
@@ -131,6 +132,11 @@ Other conventions shared by all `citycar` objects:
 - All views are supplied as separate files (8 views), compiled into one `.pak` per folder.
 - The per-view image offset table used by every citycar in this pakset is
   `E: -33,14; SE: -13,0; S: 0,0; SW: -8,10; W: 4,5; NW: 12,10; N: 0,33; NE: 0,24`.
+- `length` is set on every object (2026-11-23 pass). Most cars are `3`, small cars and the
+  Mini class `2`, large saloons and estates `3`–`4`, and the horse-drawn carriages `4`–`5`
+  because their sprites include the horse. The value is measured from the `E`-view sprite's
+  extent along the 2:1 axis, not from the real vehicle length. Method, calibration and the
+  road-vehicle counterpart: [road-vehicle-lengths](road-vehicle-lengths.md).
 
 ## DistributionWeight method
 

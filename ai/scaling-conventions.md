@@ -1,6 +1,6 @@
 ---
 status: draft
-verified: New master @ 30444805f
+verified: New master @ fc87c0424
 ---
 # Scaling conventions
 
@@ -22,7 +22,13 @@ are from `GitBlends master @ 8d4bf9e0`.
 | Aircraft | 128 px (one tile) = 46 m, **linear** | not separately documented; treated as per aircraft docs | 128, typically 192 | `[FORUM msg162208]` [aircraft-notes](graphics/aircraft-notes.md) |
 | Non-vehicles (buildings, trees, signals…) | not documented | not documented | 128 | open question |
 
-In-game one tile is 128 px; the length factor maps one tile (15 m) to 8.5131 Blender units.
+In-game one tile is 128 px wide as an image cell, but adjacent tile centres are 64 px apart
+horizontally and 32 px vertically (`display/viewport.cc`: `x = (x - y) * img_size / 2`,
+`y = (x + y) * img_size / 4`), and a vehicle crossing a tile moves 64 px horizontally
+(`vehicle_base_t::get_screen_offset`). The 8.5131-unit length ruler is therefore **half a tile**:
+15 m = 8.5131 units = 32 px, so the graphics scale is 30 m per tile. Vehicle `length` values
+follow it at 1.875 m per carunit (16 carunits per tile); the evidence and the method are in
+[road-vehicle-lengths](objects/road-vehicle-lengths.md).
 Each axis factor is the same chain of multiplication, stated explicitly so it cannot be
 misread:
 

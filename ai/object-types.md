@@ -27,6 +27,7 @@ creation: [translations-and-text](translations-and-text.md). `[USER-DIRECTION:20
 - [way-object](objects/way-object.md) — read when touching `Obj=way-object`.
 - [tree](objects/tree.md) — read when touching `Obj=tree`.
 - [citycar](objects/citycar.md) — read when touching private cars (`Obj=citycar`).
+- [road-vehicle-lengths](objects/road-vehicle-lengths.md) — read when setting or checking a `length` field on a citycar or road vehicle, or when road vehicles queue with the wrong spacing.
 - [pedestrian](objects/pedestrian.md) — read when touching `Obj=pedestrian`.
 - [factory](objects/factory.md) — read when touching industries (`Obj=factory`). Keys the [factory fields](objects/factory-fields.md) child doc.
 - [pier](objects/pier.md) — read when touching `Obj=pier`.

@@ -1,6 +1,6 @@
 ---
 status: draft
-verified: New master @ 96a2c9593
+verified: New master @ fc87c0424
 ---
 # Vehicle fields
 
@@ -76,8 +76,11 @@ The general rule is a hard-coded default in makeobj: absent keys are read as emp
 - `axle_load` is the load of the heaviest axle, used in routing against each way's limit. If
   omitted it is computed as `weight / axles` in tonnes.
   `[CODE simutrans-extended master @ d09e920]`
-- `length` is in eighths of a tile, so 8 is half a tile. If omitted it is 8.
-  `[CODE simutrans-extended master @ d09e920]`
+- `length` is in carunits, of which there are 16 to a tile: 8 is half a tile and 4 a quarter.
+  If omitted it is 8. One carunit is 1.875 m at the pak's graphics scale (30 m per tile); the
+  value, however, must cover the drawn sprite rather than the real body, because the field
+  spaces the images. Derivation and method: [road-vehicle-lengths](road-vehicle-lengths.md).
+  `[CODE simutrans-extended master @ d09e920]` `[CODE New master @ fc87c0424]`
 - `waytype` selects the way system: `track`, `road`, `tram_track`, `water`, `air`,
   `narrowgauge_track`, `maglev_track`. It is required: if omitted, makeobj aborts with an
   invalid-waytype error. `[CODE simutrans-extended master @ d09e920]`
