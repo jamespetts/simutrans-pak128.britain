@@ -32,6 +32,7 @@ Constraint[Prev][0]=SR-1-Co-Co-1
 Constraint[Prev][1]=none
 
 driver[0]=1
+multiple_working_type=31
 
 liverytype[0]=BR-Early
 liverytype[1]=BR-Revised

@@ -45,6 +45,8 @@ range=950
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[10]=2
+
 EmptyImage[E]=./images/ju-52_E.0.0
 EmptyImage[SE]=./images/ju-52_SE.0.0
 EmptyImage[S]=./images/ju-52_S.0.0

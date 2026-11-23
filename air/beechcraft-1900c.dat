@@ -42,6 +42,8 @@ sound=bigpickle51-turboprop.wav
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[10]=2
+
 EmptyImage[E]=./images/beechcraft-1900c_E.0.0
 EmptyImage[SE]=./images/beechcraft-1900c_SE.0.0
 EmptyImage[S]=./images/beechcraft-1900c_S.0.0
@@ -90,6 +92,8 @@ sound=bigpickle51-turboprop.wav
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
+
+staff[10]=2
 
 EmptyImage[E]=./images/beechcraft-1900c-mail_E.0.0
 EmptyImage[SE]=./images/beechcraft-1900c-mail_SE.0.0

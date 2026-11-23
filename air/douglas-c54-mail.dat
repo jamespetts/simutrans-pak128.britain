@@ -36,6 +36,8 @@ sound=betteraircraftfabric-dc4.wav
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[10]=2
+
 EmptyImage[E]=./images/Douglas_DC4_C54_Mail.0.2
 EmptyImage[SE]=./images/Douglas_DC4_C54_Mail.0.1
 EmptyImage[S]=./images/Douglas_DC4_C54_Mail.0.0

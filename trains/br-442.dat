@@ -43,9 +43,9 @@ Constraint[Prev][1]=none
 
 Constraint[Next][0]=BR-442-Middle1
 
-multiple_working_type=1
 
 driver[0]=1
+multiple_working_type=8
 
 liverytype[0]=NSE-Standard
 liverytype[1]=SWT-orange-stripe
@@ -319,11 +319,11 @@ Constraint[Prev][0]=BR-442-Middle3
 Constraint[Next][0]=BR-442-Front
 Constraint[Next][1]=none
 
-multiple_working_type=1
 
 staff[2]=1
 
 driver[0]=1
+multiple_working_type=8
 
 liverytype[0]=NSE-Standard
 liverytype[1]=SWT-orange-stripe

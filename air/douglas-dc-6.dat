@@ -47,6 +47,9 @@ upgrade[0]=douglas-dc-6-high-density
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[10]=4
+staff[11]=1
+
 EmptyImage[E]=./images/Douglas_DC6_LloydInternationalAirways.0.2
 EmptyImage[SE]=./images/Douglas_DC6_LloydInternationalAirways.0.1
 EmptyImage[S]=./images/Douglas_DC6_LloydInternationalAirways.0.0
@@ -106,6 +109,9 @@ upgrade[0]=douglas-dc-6
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
+
+staff[10]=4
+staff[11]=2
 
 EmptyImage[E]=./images/Douglas_DC6_LloydInternationalAirways.0.2
 EmptyImage[SE]=./images/Douglas_DC6_LloydInternationalAirways.0.1

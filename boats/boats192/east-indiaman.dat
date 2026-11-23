@@ -30,6 +30,10 @@ Constraint[Next][8]=EastIndiamanAddPax-first-class
 
 Constraint[Prev][0]=none
 
+staff[7]=12
+staff[8]=94
+staff[9]=14
+
 EmptyImage[E]=../images/east-indiaman_E.0.0,-31,-46
 EmptyImage[SE]=../images/east-indiaman_SE.0.0,-31,-46
 EmptyImage[S]=../images/east-indiaman_S.0.0,-31,-46

@@ -48,7 +48,7 @@ Constraint[Next][1]=BR-221Middle
 Constraint[Next][2]=BR-221Middle-shop
 
 driver[0]=1
-multiple_working_type=1
+multiple_working_type=42
 
 liverytype[0]=Virgin-MU
 liverytype[1]=Arriva-original
@@ -265,7 +265,7 @@ Constraint[Next][1]=none
 
 driver[0]=1
 staff[2]=1
-multiple_working_type=1
+multiple_working_type=42
 
 liverytype[0]=Virgin-MU
 liverytype[1]=Arriva-original

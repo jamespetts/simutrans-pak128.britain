@@ -45,6 +45,8 @@ Constraint[Next][15]=WoodenHullUnpoweredNarrowboatLong
 Constraint[Next][16]=WoodenHullUnpoweredNarrowboatPiece
 Constraint[Next][17]=WoodenHullUnpoweredNarrowboatCool
 
+driver[5]=1
+
 EmptyImage[E]=./images/towpath-tractor.1.4
 EmptyImage[SE]=./images/towpath-tractor.1.5
 EmptyImage[S]=./images/towpath-tractor.1.6

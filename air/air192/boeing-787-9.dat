@@ -43,6 +43,9 @@ range=14140
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[10]=2
+staff[11]=5
+
 EmptyImage[E]=../images/boeing-787-9_E.0.0,-64,-56
 EmptyImage[SE]=../images/boeing-787-9_SE.0.0,-32,-32
 EmptyImage[S]=../images/boeing-787-9_S.0.0,-110,0
@@ -91,6 +94,9 @@ range=14140
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
+
+staff[10]=2
+staff[11]=7
 
 EmptyImage[E]=../images/boeing-787-9_E.0.0,-64,-56
 EmptyImage[SE]=../images/boeing-787-9_SE.0.0,-32,-32

@@ -52,6 +52,9 @@ upgrade[0]=tristar-1-high-density
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[10]=3
+staff[11]=6
+
 liverytype[0]=BEA-speedjack
 liverytype[1]=BA-Union-flag
 liverytype[2]=BA-Landor
@@ -132,6 +135,9 @@ upgrade[0]=tristar-1
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
+
+staff[10]=3
+staff[11]=8
 
 liverytype[0]=BEA-speedjack
 liverytype[1]=BA-Union-flag

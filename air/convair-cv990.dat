@@ -47,6 +47,9 @@ range=4430
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[10]=4
+staff[11]=2
+
 EmptyImage[E]=./images/convair-cv990_E.0.0
 EmptyImage[SE]=./images/convair-cv990_SE.0.0
 EmptyImage[S]=./images/convair-cv990_S.0.0
@@ -100,6 +103,9 @@ range=4430
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
+
+staff[10]=4
+staff[11]=3
 
 EmptyImage[E]=./images/convair-cv990_E.0.0
 EmptyImage[SE]=./images/convair-cv990_SE.0.0

@@ -36,6 +36,9 @@ way_constraint_prohibitive[6]=6 # Large ship
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
 
+staff[7]=2
+staff[9]=1
+
 EmptyImage[E]=./images/ap1-88.1.0
 EmptyImage[SE]=./images/ap1-88.1.1
 EmptyImage[S]=./images/ap1-88.1.2
@@ -71,6 +74,10 @@ way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
+
+staff[7]=2
+staff[9]=1
+
 # Hovercraft loading time: approx. 15 mins:
 # http://www.theyworkforyou.com/debates/?id=1986-06-05a.1100.0#g1124.0
 min_loading_time=900
@@ -121,6 +128,10 @@ way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
+
+staff[7]=2
+staff[9]=1
+
 # Hovercraft loading time: approx. 15 mins:
 # http://www.theyworkforyou.com/debates/?id=1986-06-05a.1100.0#g1124.0
 min_loading_time=900

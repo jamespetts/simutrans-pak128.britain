@@ -53,6 +53,9 @@ range=6960
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[10]=4
+staff[11]=3
+
 liverytype[0]=Private-operator
 
 EmptyImage[E][0]=../images/dc-8-10_E.0.0,-20,-44

@@ -5,7 +5,8 @@ verified: New ex-15 working tree, 2026-11-23
 # Multiple working and consists
 
 **Covers**: how the engine couples vehicles and convoys, what that means for crew charging, the
-pakset changes that make two units coupleable, and the engine limitations found.
+multiple-working codes and their integer allocation, the pakset changes that make two units
+coupleable, and the engine limitations found.
 
 Parent doc: [crew-complements](crew-complements.md).
 
@@ -43,27 +44,29 @@ its `Constraint[Next]` list, and the following vehicle lists the leading one in 
 
 ## The declarations
 
-- Every driving car of a multiple unit carries `multiple_working_type=1`. This is the only field
-  the engine shares across a coupled formation, so it is what makes a two-unit train pay one
-  driver. Trailer cars, including driving trailers, declare neither a driver nor a type: the
-  engine charges drivers only for the leading vehicle and for vehicles whose type differs from it,
-  and a trailer contributes none either way.
-- One number is shared by all rail multiple units, so two units of the same class and two units of
-  different classes both pay one driver. Using one number per class would make a cross-class
-  formation pay one driver for the leading unit plus one for every driving car of the trailing
-  unit.
-- Locomotives keep the default of 0, so a double-headed train pays one driver per locomotive. That
-  is the only way to get the right count: a non-zero number held in common by two locomotives
-  would pay one driver for both.
-- Trams use `multiple_working_type=2` on their powered cars, separate from rail, so a multi-car
-  tram pays one driver. The type is only put on a car that can couple to another powered car. Every
-  British electric tramcar before 1992 is closed at both ends in its constraints and ran singly, so
-  those take no type; the Blackpool Progress Twin of 1958 is the one pre-1992 exception. The
-  articulated light-rail cars from 1992 onward are the cars that couple and carry the type. Their
-  pre-1900 tramcars declare a driver but no type, because a tramcar does not work in multiple; see
-  [crew-complements](crew-complements.md#trams).
-- `multiple_working_type` is compared only with the front vehicle's value. It has no effect on
-  coupling, physics or the save format, and it is included in the descriptor checksum.
+The pakset now encodes the real British coupling codes in `multiple_working_type`: one integer per
+control system, shared by every class that could work in multiple with the others of that code.
+The code table, the integer allocation, the class lists and the evidence are in
+[multiple-working-codes](multiple-working-codes.md).
+
+- **Locomotives** carry their class code where the class was fitted for multiple working: blue star
+  (1), red circle (2), orange square (4), red diamond (5), white diamond (6) and yellow triangle (7).
+  A class with no multiple working carries 0, so a double-header of two such locomotives pays two
+  drivers. A double-header of two fitted locomotives of the same code pays one.
+- **Multiple units** carry their code on every driving car, powered or a driving trailer, and on no
+  intermediate motor car or trailer. A two-unit formation therefore pays one driver. The Southern
+  27-wire stock (8), the first-generation DMU codes (blue square 9, yellow diamond 10, red triangle
+  11, orange star 12, white circle 13), the HST pair (14), TDM stock (15), AAR (17), BSI (18),
+  Scharfenberg (19) and the post-1970 families (32-73) each have their own integer.
+- **Trams** use 16, separate from every rail code. The 25 articulated cars that work in multiple
+  carry it; every other tram carries 0.
+
+The engine still compares each vehicle only with the leading vehicle, so a formation of types X, Y
+and Y pays three drivers, not two. That is why classes that could work together must share one
+integer exactly; a per-class integer would overcharge the trailing unit.
+
+`multiple_working_type` is compared only with the front vehicle's value. It has no effect on
+coupling, physics or the save format, and it is included in the descriptor checksum.
 
 ## Pakset changes made
 
@@ -76,6 +79,12 @@ Gloucester, Gloucester parcels, Park Royal and Swindon twin-set railcars.
 
 The remaining 213 multiple-unit classes already listed each other's cab ends and needed no change.
 
+The multiple-working codes were then replaced: the single number 1 gave way to the real coupling
+codes for locomotives and units, and the trams moved from 2 to 16 so that no rail code collides with
+them. The code table and the class lists are in
+[multiple-working-codes](multiple-working-codes.md). The field was written on 424 objects and
+cleared on seven railcars that had no multiple-working equipment.
+
 ## Engine shortcomings
 
 These are engine defects or limitations, not pakset errors. They should be fixed in the engine
@@ -86,7 +95,7 @@ rather than worked around in the `.dat` files.
    full. That is deliberate for the pakset: spreading a guard across a formation with
    `staff_hundredths` would make the charge depend on the number of carriages, so each brake
    vehicle is a separate guard's post.
-2. **The rule is not "one crew per type".** A formation of types 1, 2 and 2 pays three drivers, not
+2. **The rule is not "one crew per type".** A formation of types X, Y and Y pays three drivers, not
    two, because every vehicle whose type differs from the front vehicle's is charged.
 3. **The type does not constrain coupling.** The field and the constraint lists can contradict
    each other with no diagnostic: two classes with different numbers couple and pay two drivers;
@@ -114,8 +123,10 @@ rather than worked around in the `.dat` files.
 
 ## Open questions
 
-- Should the pakset give each multiple-unit class its own multiple-working number, so that only
-  classes the pakset intends to work together share a driver? The present single number is right
-  for crew but cannot express intent.
+- ~~Should the pakset give each multiple-unit class its own multiple-working number?~~ Resolved
+  2026-11-23: the pakset uses the real coupling codes, with one integer per compatible group; see
+  [multiple-working-codes](multiple-working-codes.md). The remaining question is whether the
+  post-1970 block should be collapsed, because those groups are builder families rather than
+  documented compatibility.
 - Is the tick-0 salary-clock behaviour observable in a test game with a convoy bought in 1900 and
   run for two months?

@@ -49,6 +49,9 @@ upgrade[0]=vickers-vc10-high-density
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[10]=4
+staff[11]=3
+
 liverytype[0]=BOAC-speedbird
 liverytype[1]=BA-Union-flag
 
@@ -115,6 +118,9 @@ upgrade[0]=vickers-vc10
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
+
+staff[10]=4
+staff[11]=3
 
 liverytype[0]=BOAC-speedbird
 liverytype[1]=BA-Union-flag

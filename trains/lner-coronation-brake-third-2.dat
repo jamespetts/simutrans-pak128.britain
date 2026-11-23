@@ -39,8 +39,6 @@ Constraint[Prev][2]=LNER-Coronation-Restaurant-Triple(rear)
 
 Constraint[Next][0]=LNER-Coronation-RearBrake-Third-Twin(rear)
 
-staff[2]=1
-
 liverytype[0]=LNER-Silver-Jubilee
 liverytype[1]=LNER-Cornoation
 liverytype[2]=BR-Early

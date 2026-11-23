@@ -48,6 +48,9 @@ upgrade[0]=lockheed-l1049-c-super-constellation-high-density
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[10]=5
+staff[11]=2
+
 EmptyImage[E]=./images/lockheed-l1049-c-super-constellation_E.0.0
 EmptyImage[SE]=./images/lockheed-l1049-c-super-constellation_SE.0.0
 EmptyImage[S]=./images/lockheed-l1049-c-super-constellation_S.0.0
@@ -104,6 +107,9 @@ upgrade[0]=lockheed-l1049-c-super-constellation
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
+
+staff[10]=5
+staff[11]=3
 
 EmptyImage[E]=./images/lockheed-l1049-c-super-constellation_E.0.0
 EmptyImage[SE]=./images/lockheed-l1049-c-super-constellation_SE.0.0

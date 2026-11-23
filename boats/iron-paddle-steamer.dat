@@ -38,6 +38,10 @@ way_constraint_prohibitive[6]=6 # Large ship
 Constraint[Next][0]=IronPaddleSteamerMail
 Constraint[Prev][0]=none
 
+staff[7]=4
+staff[8]=4
+staff[9]=2
+
 EmptyImage[E]=./images/iron-paddle-steamer_E.0.0
 EmptyImage[SE]=./images/iron-paddle-steamer_SE.0.0
 EmptyImage[S]=./images/iron-paddle-steamer_S.0.0

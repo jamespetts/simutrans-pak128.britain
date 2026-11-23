@@ -29,6 +29,9 @@ range=50
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[7]=1
+staff[8]=1
+
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
 
@@ -121,6 +124,9 @@ range=50
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[7]=1
+staff[8]=1
+
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
 
@@ -184,6 +190,9 @@ range=50
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[7]=1
+staff[8]=1
+
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
 
@@ -234,6 +243,9 @@ range=50
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[7]=1
+staff[8]=1
+
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
 
@@ -283,6 +295,9 @@ range=50
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
+
+staff[7]=1
+staff[8]=1
 
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship

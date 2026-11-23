@@ -27,8 +27,6 @@ bidirectional=1
 Constraint[Prev][0]=any
 Constraint[Next][0]=any
 
-staff[2]=1
-
 liverytype[0]=BR-Revised
 liverytype[1]=RM-Early
 liverytype[2]=RM-Revised

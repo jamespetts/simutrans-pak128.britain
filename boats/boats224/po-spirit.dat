@@ -32,6 +32,10 @@ Constraint[Next][1]=POSpiritAddPiece
 Constraint[Next][2]=POSpiritAddCool
 Constraint[Prev][0]=none
 
+staff[7]=13
+staff[8]=26
+staff[9]=46
+
 EmptyImage[E]=../images/po-spirit.1.0,-31,-46
 EmptyImage[SE]=../images/po-spirit.1.1,-31,-46
 EmptyImage[S]=../images/po-spirit.1.2,-31,-46

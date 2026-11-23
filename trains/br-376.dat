@@ -56,7 +56,7 @@ Constraint[Next][0]=BR-376Middle
 Constraint[Next][1]=BR-376MiddlePower
 
 driver[0]=1
-multiple_working_type=1
+multiple_working_type=37
 
 liverytype[0]=South-Eastern-Trains
 liverytype[1]=southeastern
@@ -130,7 +130,7 @@ Constraint[Next][5]=BR-387Front
 Constraint[Next][6]=none
 
 driver[0]=1
-multiple_working_type=1
+multiple_working_type=37
 
 liverytype[0]=South-Eastern-Trains
 liverytype[1]=southeastern

@@ -28,6 +28,8 @@ way_constraint_prohibitive[6]=6 # Large ship
 Constraint[Prev][0]=BoatHorsesSingle
 Constraint[Next][0]=none
 
+staff[7]=1
+
 EmptyImage[E]=./images/box-boat-empty.1.4
 EmptyImage[SE]=./images/box-boat-empty.1.5
 EmptyImage[S]=./images/box-boat-empty.1.6
@@ -118,6 +120,8 @@ way_constraint_prohibitive[6]=6 # Large ship
 Constraint[Prev][0]=BoatHorsesSingle
 Constraint[Next][0]=none
 
+staff[7]=1
+
 EmptyImage[E]=./images/box-boat-empty.1.4
 EmptyImage[SE]=./images/box-boat-empty.1.5
 EmptyImage[S]=./images/box-boat-empty.1.6
@@ -178,6 +182,8 @@ way_constraint_prohibitive[6]=6 # Large ship
 Constraint[Prev][0]=BoatHorsesSingle
 Constraint[Next][0]=none
 
+staff[7]=1
+
 EmptyImage[E]=./images/box-boat-empty.1.4
 EmptyImage[SE]=./images/box-boat-empty.1.5
 EmptyImage[S]=./images/box-boat-empty.1.6
@@ -226,6 +232,8 @@ way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Prev][0]=BoatHorsesSingle
 Constraint[Next][0]=none
+
+staff[7]=1
 
 EmptyImage[E]=./images/box-boat-empty.1.4
 EmptyImage[SE]=./images/box-boat-empty.1.5

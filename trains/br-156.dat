@@ -56,7 +56,7 @@ Constraint[Prev][12]=none
 Constraint[Next][0]=br-156-rear
 
 driver[0]=1
-multiple_working_type=1
+multiple_working_type=18
 
 liverytype[0]=Regional-Railways-Standard
 liverytype[1]=One
@@ -189,7 +189,7 @@ Constraint[Prev][12]=none
 Constraint[Next][0]=br-156-rear
 
 driver[0]=1
-multiple_working_type=1
+multiple_working_type=18
 
 liverytype[0]=Regional-Railways-Standard
 liverytype[1]=One
@@ -322,7 +322,7 @@ Constraint[Next][13]=none
 
 driver[0]=1
 staff[2]=1
-multiple_working_type=1
+multiple_working_type=18
 
 liverytype[0]=Regional-Railways-Standard
 liverytype[1]=One

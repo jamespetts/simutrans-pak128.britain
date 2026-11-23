@@ -49,9 +49,9 @@ Constraint[Prev][8]=none
 
 Constraint[Next][0]=BR-423-MBSO
 
-multiple_working_type=1
 
 driver[0]=1
+multiple_working_type=8
 
 liverytype[0]=BR-Blue
 liverytype[1]=BR-Large-Logo
@@ -317,9 +317,9 @@ Constraint[Next][7]=none
 
 Constraint[Prev][0]=BR-423-TSO
 
-multiple_working_type=1
 
 driver[0]=1
+multiple_working_type=8
 
 liverytype[0]=BR-Blue
 liverytype[1]=BR-Large-Logo

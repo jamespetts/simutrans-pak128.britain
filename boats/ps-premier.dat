@@ -37,6 +37,10 @@ way_constraint_prohibitive[6]=6 # Large ship
 Constraint[Next][0]=IronPaddleSteamerMail
 Constraint[Prev][0]=none
 
+staff[7]=4
+staff[8]=5
+staff[9]=3
+
 EmptyImage[E]=./images/ps-premiere_E.0.0
 EmptyImage[SE]=./images/ps-premiere_SE.0.0
 EmptyImage[S]=./images/ps-premiere_S.0.0

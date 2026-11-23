@@ -42,7 +42,7 @@ Constraint[Prev][1]=none
 Constraint[Next][0]=br-141-0-rear
 
 driver[0]=1
-multiple_working_type=1
+multiple_working_type=18
 
 liverytype[0]=wypte-Green-Cream
 
@@ -101,7 +101,7 @@ Constraint[Next][1]=none
 
 driver[0]=1
 staff[2]=1
-multiple_working_type=1
+multiple_working_type=18
 
 liverytype[0]=wypte-Green-Cream
 
@@ -172,7 +172,7 @@ Constraint[Prev][12]=none
 Constraint[Next][0]=br-141-1-rear
 
 driver[0]=1
-multiple_working_type=1
+multiple_working_type=18
 
 liverytype[0]=wypte-Red-Cream
 
@@ -245,7 +245,7 @@ Constraint[Next][13]=none
 
 driver[0]=1
 staff[2]=1
-multiple_working_type=1
+multiple_working_type=18
 
 liverytype[0]=wypte-Red-Cream
 

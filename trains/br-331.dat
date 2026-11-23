@@ -46,7 +46,7 @@ Constraint[Prev][1]=none
 Constraint[Next][0]=BR-331FrontPanto
 
 driver[0]=1
-multiple_working_type=1
+multiple_working_type=46
 
 liverytype[0]=Northern
 
@@ -320,7 +320,7 @@ Constraint[Next][0]=BR-331Front
 Constraint[Next][1]=none
 
 driver[0]=1
-multiple_working_type=1
+multiple_working_type=46
 
 liverytype[0]=Northern
 

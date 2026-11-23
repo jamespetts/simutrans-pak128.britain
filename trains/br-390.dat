@@ -48,7 +48,7 @@ Constraint[Prev][1]=none
 Constraint[Next][0]=BR-390FrontCoach
 
 driver[0]=1
-multiple_working_type=1
+multiple_working_type=58
 
 EmptyImage[E]=./railcars/br-390-virgin.0.0
 EmptyImage[SE]=./railcars/br-390-virgin.0.1
@@ -527,7 +527,7 @@ Constraint[Next][0]=BR-390FrontCab
 Constraint[Next][1]=none
 
 driver[0]=1
-multiple_working_type=1
+multiple_working_type=58
 
 EmptyImage[E]=./railcars/br-390-virgin.4.0
 EmptyImage[SE]=./railcars/br-390-virgin.4.1

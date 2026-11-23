@@ -29,6 +29,10 @@ range=300
 Constraint[Next][0]=HSS-1500(AddMail)
 Constraint[Prev][0]=none
 
+staff[7]=8
+staff[8]=7
+staff[9]=18
+
 EmptyImage[E]=../images/hss-1500.1.0,-31,-46
 EmptyImage[SE]=../images/hss-1500.1.1,-31,-46
 EmptyImage[S]=../images/hss-1500.1.2,-31,-46

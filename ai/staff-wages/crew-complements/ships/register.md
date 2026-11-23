@@ -2,9 +2,12 @@
 status: draft
 verified: New ex-15 working tree, 2026-11-23
 ---
-# Crew register: ---
+# Crew register: ships and boats
 
-Evidence for [../ships.md](../ships.md). One row per hull.
+Evidence for [../ships.md](../ships.md). One row per hull class, not per object. The 101 classes
+below cover 344 vehicle objects; the alternative cargo fits repeat the hull's crew, and the 43
+objects in `boats192/` and `boats224/` are separate vessels. `[CODE New ex-15 working tree,
+2026-11-23]`
 
 ## 1. Table of hulls
 
@@ -16,7 +19,7 @@ Evidence for [../ships.md](../ships.md). One row per hull.
 | BHT-150(Piece) | Hovercraft, 30 t cargo; second cargo variant in the same file | 2005 | 900 | 4 | 4 (pilot, engineer, 2 cabin). Estimate, as BHT-130 [S33]. |
 | BoatHorsesSingle | Single horse for a horse-drawn boat | 1750 | 1 | 0 | 0. The horse is not staff; the boatman is declared on the boat. |
 | BoatHorsesFly | Horse pair for a fly boat | 1835 | 46 | 0 | 0. As above. |
-| BlackwallFrigateHull | Blackwall frigate, about 1,000 register tons, passengers and cargo | 1830 | 1450 | 32 | 32 (master, 3 mates, bosun, carpenter, sailmaker, cook, 20 ABs, 5 boys). Rule: 3.2 men per 100 register tons, between the 1854 (4.17) and 1880 (2.90) rates [S04]. |
+| BlackwallFrigateHull | Blackwall frigate, about 1,000 register tons, passengers and cargo | 1830 | 1450 | 32 | 32 (master, 3 mates, bosun, carpenter, sailmaker, cook, 20 ABs, 4 boys). Rule: 3.2 men per 100 register tons, between the 1854 (4.17) and 1880 (2.90) rates [S04]. |
 | BTCLordWarden | Dover-Calais turbine steamer, 550 passengers and 150 cars | 1951 | 11900 | 65 | 65 (master, 4 deck officers, 5 engineer officers, radio officer, purser, 2 bosuns, 8 ABs, 6 firemen/greasers, 37 catering). Estimate: 1950s short-sea ferry of about 6,500 gt; no complement found. |
 | ClanLineSteamerPiece | Cargo liner, 5,000 t cargo; six further cargo fits in the same file | 1912 | 1870 | 40 | 40 (master, 3 mates, 2 engineers, 4 firemen, bosun, carpenter, cook, steward, 14 ABs, 8 trimmers, 4 boys). Estimate: 1912 steam cargo liner, manning ratio about 0.8 per 100 gt, below the 1899 steam rate of 2.66 [S04]. |
 | ClipperHull | Tea clipper, about 963 register tons | 1837 | 800 | 30 | 30 (master, 3 mates, bosun, carpenter, sailmaker, cook, 18 ABs, 4 boys). Measured: Cutty Sark, 963 GRT, complement 28-35 [S15]. |
@@ -38,11 +41,11 @@ Evidence for [../ships.md](../ships.md). One row per hull.
 | POSuperEuropeanFreight | Ro-ro freight ferry, 13,000 t | 1991 | 27000 | 25 | 25 (master, 3 mates, 4 engineers, ETO, bosun, 7 ABs, 6 engine ratings, cook, steward). Rule: ro-ro freight 20-25 [S17][S18]. |
 | POSuperEuropeanMixed | Ro-ro passenger and freight ferry, 2,000 passengers | 2003 | 27000 | 85 | 85 (master, 5 deck officers, 6 engineers, ETO, 14 deck ratings, 12 engine ratings, 46 catering). Estimate: as POSpirit. |
 | SSGreatEastern | Iron paddle and screw liner, 4,000 passengers | 1858 | 5400 | 418 | 418 (master, 8 mates, 12 engineers, 60 firemen, 4 pursers, 40 stewards, 20 cooks, 183 seamen, 90 boys). Measured: complement 418, and 418 crew on the 1860 maiden voyage [S14]. |
-| WindjammerHull | Steel barque, about 2,500 register tons | 1880 | 1200 | 30 | 30 (master, 2 mates, bosun, sailmaker, carpenter, cook, steward, 18 ABs, 5 apprentices). Rule: square rig is manned by rig, not tonnage; a four-masted barque carried 25-30 [S15]. |
+| WindjammerHull | Steel barque, about 2,500 register tons | 1880 | 1200 | 30 | 30 (master, 2 mates, bosun, sailmaker, carpenter, cook, steward, 18 ABs, 4 apprentices). Rule: square rig is manned by rig, not tonnage; a four-masted barque carried 25-30 [S15]. |
 | BoxBoatBulk | Unpowered box boat, 17 t; four cargo fits in the same file | 1750 | 0 | 1 | 1 (boatman). Estimate: canal boat small enough for one man; no source. |
 | BrigHull | Brig, about 250 register tons | 1700 | 440 | 9 | 9 (master, mate, bosun, cook, 4 ABs, boy). Rule: coastal sailing 3 + tons/40 [S04][S05]. |
-| ChannelPaddleSteamerHull | Channel paddle steamer, 350 passengers | 1853 | 3550 | 35 | 35 (master, 3 mates, 4 engineers, 10 firemen, bosun, carpenter, 8 ABs, 8 stewards). Estimate: 1850s Channel packet of about 1,200 register tons. The 1870 steam ratio of 4.7 men per 100 tons would give 56; 35 is used because the crossing is short and the catering load small [S04]. |
-| ChannelScrewSteamship | Channel screw steamer, 350 passengers | 1886 | 3550 | 30 | 30 (master, 3 mates, 4 engineers, 8 firemen, bosun, carpenter, 6 ABs, 7 stewards). Estimate: 1880s Channel packet. The 1890 steam ratio of 3.0 men per 100 tons gives 45 for 1,500 tons, so 30 is the lower bound of the class [S04]. |
+| ChannelPaddleSteamerHull | Channel paddle steamer, 350 passengers | 1853 | 3550 | 35 | 35 (master, 3 mates, 4 engineers, 9 firemen, bosun, carpenter, 8 ABs, 8 stewards). Estimate: 1850s Channel packet of about 1,200 register tons. The 1870 steam ratio of 4.7 men per 100 tons would give 56; 35 is used because the crossing is short and the catering load small [S04]. |
+| ChannelScrewSteamship | Channel screw steamer, 350 passengers | 1886 | 3550 | 30 | 30 (master, 3 mates, 4 engineers, 7 firemen, bosun, carpenter, 6 ABs, 7 stewards). Estimate: 1880s Channel packet. The 1890 steam ratio of 3.0 men per 100 tons gives 45 for 1,500 tons, so 30 is the lower bound of the class [S04]. |
 | ClydeCargoSteamerHull | Clyde cargo steamer, 3,500 t | 1869 | 4550 | 20 | 20 (master, 2 mates, 3 engineers, 5 firemen, bosun, 6 ABs, cook, steward). Estimate: small steam collier; engine room smaller than a deep-sea ship of the same tonnage. |
 | ClydePufferBulk | Clyde puffer, 75 t; five further cargo fits in the same file | 1856 | 200 | 4 | 4 (master, engineer, fireman, deckhand). Estimate: puffer crews were three or four; no source found. |
 | ClydeSteamer | Clyde passenger steamer, 300 passengers | 1860 | 1000 | 14 | 14 (master, mate, 2 engineers, 3 firemen, 4 deck, 3 catering). Estimate: 1860 river steamer, scaled from the preserved Waverley [S36]. |
@@ -91,7 +94,7 @@ Evidence for [../ships.md](../ships.md). One row per hull.
 | SteamBargeTug | Steam barge tug, 1850 | 1850 | 100 | 5 | 5 (master, mate, engineer, fireman, deckhand). Estimate: small steam tug; no source. |
 | SteamNarrowboatTug | Steam narrowboat tug, 1851 | 1851 | 60 | 3 | 3 (boatman, engineer, fireman). Estimate: steam narrowboat. |
 | SteamNarrowboatBulk | Steam narrowboat, 20 t; six cargo fits | 1889 | 20 | 3 | 3 (boatman, engineer, fireman). Estimate: steam plant needs a second man in the engine room. |
-| SteelHullDumbBargeBulk | Steel dumb barge, 50 t; six cargo fits | 1930 | 0 | 2 | 2 (bargee, mate). Estimate: dumb barges under tow carried a bargee and a hand; no source. |
+| SteelHullDumbBargeBulk | Steel dumb barge, 50 t; six cargo fits | 1930 | 0 | 1 | 1 (bargee). Estimate: a towed 50 t steel barge needs one man at the helm; the earlier figure of 2 is withdrawn. |
 | SteelHullUnpoweredNarrowboatBulk | Steel unpowered narrowboat butty, 30 t; six cargo fits | 1920 | 0 | 1 | 1 (boatman). Rule: butty in a motor-boat pair [S09]. |
 | SteelRiverSteamer | River steamer, 250 passengers | 1886 | 500 | 12 | 12 (master, mate, 2 engineers, 4 firemen, 2 deck, 2 catering). Estimate. |
 | Super-Loch | Car ferry, 250 passengers | 2007 | 1200 | 5 | 5 (master, mate, engineer, 2 deck/catering). Estimate: small modern island ferry. |
@@ -113,5 +116,41 @@ Evidence for [../ships.md](../ships.md). One row per hull.
 | WoodenRiverSteamer | Wooden river steamer, 250 passengers | 1842 | 120 | 10 | 10 (master, mate, 2 engineers, 2 firemen, 2 deck, 2 catering). Estimate. |
 
 Rows: 101.
+
+## Passenger-capacity corrections
+
+The descriptions above quote the real vessel's passenger and car capacity. The pakset distributes
+passengers over two `payload` classes and models cars as separate hold vehicles (`CarferryAddCar`),
+so a hull with two non-zero passenger classes carries passengers in both. The `.dat` totals are
+below; they matter because the catering complement is scaled from the passenger certificate.
+`[CODE New ex-15 working tree, 2026-11-23]`
+
+| Object | Description above | `.dat` payload | Pakset total |
+|---|---|---:|---:|
+| `BTCLordWarden` | 550 passengers and 150 cars | 550 + 150 | 700 |
+| `SRInvicta` | 1,004 passengers and 300 cars | 1,004 + 300 | 1,304 |
+| `SRIsleOfThanet` | 1,000 passengers and 400 cars | 1,000 + 400 | 1,400 |
+| `SSGreatWestern` | 128 passengers | 20 + 128 | 148 |
+| `ChannelPaddleSteamerHull` | 350 passengers | 350 + 100 | 450 |
+| `ChannelScrewSteamship` | 350 passengers | 350 + 150 | 500 |
+| `ClydeSteamer` | 300 passengers | 300 + 150 | 450 |
+| `IronPaddleSteamer` | 200 passengers | 200 + 120 | 320 |
+| `IronRiverSteamer` | 250 passengers | 250 + 100 | 350 |
+| `LargeSteelRiverSteamer` | 350 passengers | 350 + 150 | 500 |
+| `SteelRiverSteamer` | 250 passengers | 250 + 150 | 400 |
+| `MVBalmoral` | 500 passengers | 500 + 150 | 650 |
+| `MVLochfyne` | 900 passengers | 900 + 300 | 1,200 |
+| `PSChevalier` | 400 passengers | 400 + 200 | 600 |
+| `PSMadgeWildfire` | 800 passengers | 800 + 183 | 983 |
+| `ps-premier-covered` | 250 passengers | 250 + 60 | 310 |
+| `PSWaverley2` | 900 passengers | 900 + 300 | 1,200 |
+| `RMSColumba` | 1,500 passengers | 1,500 + 500 | 2,000 |
+| `SECRQueen` | 450 passengers | 450 + 125 | 575 |
+| `TSSKingEdward` | 1,286 passengers | 1,286 + 650 | 1,936 |
+| `TSSQueenMary` | 1,419 passengers | 1,419 + 720 | 2,139 |
+
+`SSGreatBritain` (600 + 80 + 30 = 710), `SSGreatEastern` (4,000) and the single-class vessels are
+unchanged. The complements in the table above were set from the real passenger certificate, not
+from these pakset totals.
 
 ---

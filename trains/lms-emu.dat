@@ -43,9 +43,9 @@ Constraint[Prev][1]=none
 
 Constraint[Next][0]=LMS-EMU-centre-trailer
 
-multiple_working_type=1
 
 driver[0]=1
+multiple_working_type=30
 
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
@@ -183,7 +183,7 @@ Constraint[Next][1]=none
 
 driver[0]=1
 staff[2]=1
-multiple_working_type=1
+multiple_working_type=30
 
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early

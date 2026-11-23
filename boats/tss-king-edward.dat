@@ -39,6 +39,10 @@ way_constraint_prohibitive[6]=6 # Large ship
 Constraint[Next][0]=TSSKingEdwardMail
 Constraint[Prev][0]=none
 
+staff[7]=11
+staff[8]=20
+staff[9]=9
+
 EmptyImage[E]=./images/tss-king-edward_E.0.0
 EmptyImage[SE]=./images/tss-king-edward_SE.0.0
 EmptyImage[S]=./images/tss-king-edward_S.0.0

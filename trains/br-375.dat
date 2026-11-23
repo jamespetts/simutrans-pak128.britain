@@ -60,7 +60,7 @@ Constraint[Next][0]=BR-375Middle
 Constraint[Next][1]=BR-375Panto
 
 driver[0]=1
-multiple_working_type=1
+multiple_working_type=37
 
 liverytype[0]=South-Eastern-Trains
 liverytype[1]=southeastern
@@ -387,7 +387,7 @@ Constraint[Next][5]=BR-379Front
 Constraint[Next][6]=none
 
 driver[0]=1
-multiple_working_type=1
+multiple_working_type=37
 
 liverytype[0]=South-Eastern-Trains
 liverytype[1]=southeastern

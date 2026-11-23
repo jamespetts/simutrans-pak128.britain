@@ -35,6 +35,10 @@ Constraint[Prev][0]=none
 Constraint[Next][0]=ferry-mail
 Constraint[Next][1]=none
 
+staff[7]=4
+staff[8]=3
+staff[9]=3
+
 EmptyImage[E]=./images/hsc-our-lady.1.0
 EmptyImage[SE]=./images/hsc-our-lady.1.1
 EmptyImage[S]=./images/hsc-our-lady.1.2

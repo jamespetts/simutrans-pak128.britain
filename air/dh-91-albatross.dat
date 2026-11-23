@@ -46,6 +46,9 @@ sound=ylearkisto-dc-3.wav
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[10]=3
+staff[11]=1
+
 EmptyImage[E]=./images/dh-91-albatross_E.0.0
 EmptyImage[SE]=./images/dh-91-albatross_SE.0.0
 EmptyImage[S]=./images/dh-91-albatross_S.0.0
@@ -89,6 +92,8 @@ sound=ylearkisto-dc-3.wav
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
+
+staff[10]=3
 
 EmptyImage[E]=./images/dh-91-albatross-mail_E.0.0
 EmptyImage[SE]=./images/dh-91-albatross-mail_SE.0.0

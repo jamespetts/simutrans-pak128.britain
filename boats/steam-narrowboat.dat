@@ -51,6 +51,9 @@ Constraint[Next][16]=WoodenHullUnpoweredNarrowboatPiece
 Constraint[Next][17]=WoodenHullUnpoweredNarrowboatCool
 Constraint[Next][18]=none
 
+staff[7]=2
+staff[8]=1
+
 liverytype[0]=Private
 liverytype[1]=BW-Standard
 
@@ -221,6 +224,9 @@ Constraint[Next][16]=WoodenHullUnpoweredNarrowboatPiece
 Constraint[Next][17]=WoodenHullUnpoweredNarrowboatCool
 Constraint[Next][18]=none
 
+staff[7]=2
+staff[8]=1
+
 liverytype[0]=Private
 liverytype[1]=BW-Standard
 
@@ -353,6 +359,9 @@ Constraint[Next][16]=WoodenHullUnpoweredNarrowboatPiece
 Constraint[Next][17]=WoodenHullUnpoweredNarrowboatCool
 Constraint[Next][18]=none
 
+staff[7]=2
+staff[8]=1
+
 liverytype[0]=Private
 liverytype[1]=BW-Standard
 
@@ -427,6 +436,9 @@ Constraint[Next][15]=WoodenHullUnpoweredNarrowboatLong
 Constraint[Next][16]=WoodenHullUnpoweredNarrowboatPiece
 Constraint[Next][17]=WoodenHullUnpoweredNarrowboatCool
 Constraint[Next][18]=none
+
+staff[7]=2
+staff[8]=1
 
 liverytype[0]=Private
 liverytype[1]=BW-Standard
@@ -504,6 +516,9 @@ Constraint[Next][16]=WoodenHullUnpoweredNarrowboatPiece
 Constraint[Next][17]=WoodenHullUnpoweredNarrowboatCool
 Constraint[Next][18]=none
 
+staff[7]=2
+staff[8]=1
+
 liverytype[0]=Private
 liverytype[1]=BW-Standard
 
@@ -578,6 +593,9 @@ Constraint[Next][15]=WoodenHullUnpoweredNarrowboatLong
 Constraint[Next][16]=WoodenHullUnpoweredNarrowboatPiece
 Constraint[Next][17]=WoodenHullUnpoweredNarrowboatCool
 Constraint[Next][18]=none
+
+staff[7]=2
+staff[8]=1
 
 liverytype[0]=Private
 liverytype[1]=BW-Standard

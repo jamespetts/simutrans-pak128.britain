@@ -123,7 +123,7 @@ costing pass. `[CODE New ex-15 working tree, 2026-11-23]`
 | Class | Balanced | Class data | Item data | Extrapolate | Pointer |
 |---|---|---|---|---|---|
 | Fuel (`config/fuel.tab`) | no | yes (coal, oil, electricity, jet series) | n/a | n/a | [fuel-evidence](fuel-evidence.md); open M3 (steam unit question). |
-| Crew wages (`config/staff.tab`) | no | yes (1907 grades; 1914-61 Hansard; 1946; 1956-68 Table 50; NES 1980; ASHE 1999-2026) | n/a | n/a | [staff-wages](staff-wages.md), [staff-wages/reconstruction](staff-wages/reconstruction.md) and [staff-wages/post-1980](staff-wages/post-1980.md); review workbook `New/staff-wages.xlsx`; gaps 1926-68 by grade, 1981-98. |
+| Crew wages (`config/staff.tab`) | no | yes (1907 grades; 1914-61 Hansard; 1946; 1956-68 Table 50; NES 1980; ASHE 1999-2026; sea grades 1912-1960 NMB and ASHE; air grades 1924-1969 and ASHE) | n/a | n/a | [staff-wages](staff-wages.md), [staff-wages/reconstruction](staff-wages/reconstruction.md) and [staff-wages/post-1980](staff-wages/post-1980.md); review workbook `New/staff-wages.xlsx`; gaps 1926-68 by grade, 1981-98, sea 1938-66/1981-89 and air 1909-23/1925-53/1955-68/1970-98. |
 | Revenue rates (fares, mail, goods) | no | yes (statutory schedules; charged-rate series) | n/a | n/a | [goods-rate-evidence](goods-rate-evidence.md); [class](class.md). |
 
 ## Cross-cutting status

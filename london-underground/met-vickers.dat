@@ -34,6 +34,7 @@ Constraint[Prev][0]=Metropolitan-Vickers
 Constraint[Prev][1]=none
 
 driver[0]=1
+multiple_working_type=22
 
 liverytype[0]=Metropolitan-Red
 liverytype[1]=LT

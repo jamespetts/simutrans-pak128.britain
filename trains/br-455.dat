@@ -40,9 +40,9 @@ Constraint[Prev][2]=none
 
 Constraint[Next][0]=BR-455-Motor
 
-multiple_working_type=1
 
 driver[0]=1
+multiple_working_type=35
 
 liverytype[0]=BR-Blue
 liverytype[1]=NSE-Standard
@@ -298,11 +298,11 @@ Constraint[Next][2]=none
 Constraint[Prev][0]=BR-455-Trailer
 Constraint[Prev][1]=BR-507(centre2)
 
-multiple_working_type=1
 
 staff[2]=1
 
 driver[0]=1
+multiple_working_type=35
 
 liverytype[0]=BR-Blue
 liverytype[1]=NSE-Standard

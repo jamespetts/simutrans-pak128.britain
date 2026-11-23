@@ -32,6 +32,10 @@ Constraint[Next][6]=BlackwallFrigateAddLivestock
 Constraint[Next][7]=BlackwallFrigateAddPax-second-class
 Constraint[Next][8]=BlackwallFrigateAddPax-first-class
 
+staff[7]=4
+staff[8]=27
+staff[9]=1
+
 EmptyImage[E]=../images/blackwall-frigate_E.0.0,-31,-46
 EmptyImage[SE]=../images/blackwall-frigate_SE.0.0,-31,-46
 EmptyImage[S]=../images/blackwall-frigate_S.0.0,-31,-46

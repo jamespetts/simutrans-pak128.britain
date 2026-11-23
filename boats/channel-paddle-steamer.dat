@@ -46,6 +46,10 @@ Constraint[Next][6]=ChannelPaddleSteamerAddLong
 
 Constraint[Prev][0]=none
 
+staff[7]=8
+staff[8]=19
+staff[9]=8
+
 EmptyImage[E]=./images/channel-paddle-steamer_E.0.0
 EmptyImage[SE]=./images/channel-paddle-steamer_SE.0.0
 EmptyImage[S]=./images/channel-paddle-steamer_S.0.0

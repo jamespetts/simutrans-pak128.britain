@@ -39,6 +39,10 @@ way_constraint_prohibitive[6]=6 # Large ship
 Constraint[Next][0]=ChannelScrewSteamshipAddMail
 Constraint[Prev][0]=none
 
+staff[7]=8
+staff[8]=15
+staff[9]=7
+
 EmptyImage[E]=./images/channel-screw-steamship_E.0.0
 EmptyImage[SE]=./images/channel-screw-steamship_SE.0.0
 EmptyImage[S]=./images/channel-screw-steamship_S.0.0

@@ -41,8 +41,8 @@ Constraint[Prev][0]=none
 Constraint[Next][0]=Bombardier-Flexity-2-middle1
 
 driver[5]=1
+multiple_working_type=16
 
-multiple_working_type=2
 
 EmptyImage[E]=./images/bombardier-flexity-2-front.1.4
 EmptyImage[SE]=./images/bombardier-flexity-2-front.1.5
@@ -231,8 +231,8 @@ Constraint[Prev][0]=Bombardier-Flexity-2-middle2
 Constraint[Next][0]=none
 
 driver[5]=1
+multiple_working_type=16
 
-multiple_working_type=2
 
 EmptyImage[E]=./images/bombardier-flexity-2-rear.1.4
 EmptyImage[SE]=./images/bombardier-flexity-2-rear.1.5

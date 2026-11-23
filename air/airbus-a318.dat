@@ -41,6 +41,9 @@ upgrade[0]=airbus-a318-high-density
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[10]=2
+staff[11]=3
+
 EmptyImage[E]=./images/A318_BritishAirways.0.2
 EmptyImage[SE]=./images/A318_BritishAirways.0.1
 EmptyImage[S]=./images/A318_BritishAirways.0.0
@@ -88,6 +91,9 @@ upgrade[0]=airbus-a318
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
+
+staff[10]=2
+staff[11]=3
 
 EmptyImage[E]=./images/A318_BritishAirways.0.2
 EmptyImage[SE]=./images/A318_BritishAirways.0.1

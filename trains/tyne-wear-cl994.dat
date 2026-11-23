@@ -36,7 +36,7 @@ Constraint[Prev][1]=none
 Constraint[Next][0]=TyneWearMetroClass994Rear
 
 driver[0]=1
-multiple_working_type=1
+multiple_working_type=71
 
 EmptyImage[E]=./railcars/tyne-wear-cl994-front.1.4
 EmptyImage[SE]=./railcars/tyne-wear-cl994-front.1.5
@@ -88,7 +88,7 @@ Constraint[Next][1]=none
 
 driver[0]=1
 staff[2]=1
-multiple_working_type=1
+multiple_working_type=71
 
 EmptyImage[E]=./railcars/tyne-wear-cl994-rear.1.4
 EmptyImage[SE]=./railcars/tyne-wear-cl994-rear.1.5

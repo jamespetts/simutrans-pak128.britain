@@ -42,7 +42,6 @@ Constraint[Next][1]=none
 
 driver[0]=1
 staff[2]=1
-multiple_working_type=1
 
 liverytype[0]=GWR-shirtbutton
 liverytype[1]=GWR-hawksworth

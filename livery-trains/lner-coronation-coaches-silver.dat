@@ -57,8 +57,6 @@ Constraint[Next][0]=LNER-Coronation-Restaurant-Triple(front)(Silver)
 Constraint[Next][1]=LNER-Coronation-RearBrake-Third-Twin(front)(Silver)
 Constraint[Next][2]=LNER-Coronation-Observation(Silver)
 
-staff[2]=1
-
 EmptyImage[E]=./images/lner-coronation-coaches-silver.2.0
 EmptyImage[SE]=./images/lner-coronation-coaches-silver.2.1
 EmptyImage[S]=./images/lner-coronation-coaches-silver.2.2
@@ -125,8 +123,6 @@ Constraint[Prev][0]=LNER-Coronation-Brake-Third-Triple(front)(Silver)
 
 Constraint[Next][0]=LNER-Coronation-Brake-Third-Triple(rear)(Silver)
 
-staff[2]=1
-
 EmptyImage[E]=./images/lner-coronation-coaches-silver.1.0
 EmptyImage[SE]=./images/lner-coronation-coaches-silver.1.1
 EmptyImage[S]=./images/lner-coronation-coaches-silver.1.2
@@ -161,8 +157,6 @@ Constraint[Next][0]=LNER-Coronation-Restaurant-Triple(front)(Silver)
 Constraint[Next][1]=LNER-Coronation-RearBrake-Third-Twin(front)(Silver)
 Constraint[Next][2]=LNER-Coronation-Observation(Silver)
 
-staff[2]=1
-
 EmptyImage[E]=./images/lner-coronation-coaches-silver.2.0
 EmptyImage[SE]=./images/lner-coronation-coaches-silver.2.1
 EmptyImage[S]=./images/lner-coronation-coaches-silver.2.2
@@ -196,8 +190,6 @@ Constraint[Prev][1]=LNER-Coronation-Brake-Third-Triple(rear)(Silver)
 Constraint[Prev][2]=LNER-Coronation-Restaurant-Triple(rear)(Silver)
 
 Constraint[Next][0]=LNER-Coronation-RearBrake-Third-Twin(rear)(Silver)
-
-staff[2]=1
 
 EmptyImage[E]=./images/lner-coronation-coaches-silver.6.0
 EmptyImage[SE]=./images/lner-coronation-coaches-silver.6.1

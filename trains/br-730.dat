@@ -42,7 +42,7 @@ Constraint[Prev][2]=BR-730-2Rear
 Constraint[Next][0]=BR-730-0Panto
 
 driver[0]=1
-multiple_working_type=1
+multiple_working_type=40
 
 liverytype[0]=west-midlands-network
 
@@ -152,7 +152,7 @@ Constraint[Next][1]=none
 Constraint[Next][2]=BR-730-2Front
 
 driver[0]=1
-multiple_working_type=1
+multiple_working_type=40
 
 liverytype[0]=west-midlands-network
 
@@ -210,7 +210,7 @@ Constraint[Prev][2]=BR-730-0Rear
 Constraint[Next][0]=BR-730-2MiddleFront
 
 driver[0]=1
-multiple_working_type=1
+multiple_working_type=40
 
 liverytype[0]=LNwR
 
@@ -424,7 +424,7 @@ Constraint[Next][1]=none
 Constraint[Next][2]=BR-730-0Front
 
 driver[0]=1
-multiple_working_type=1
+multiple_working_type=40
 
 liverytype[0]=LNwR
 

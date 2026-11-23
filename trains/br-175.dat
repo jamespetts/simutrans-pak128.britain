@@ -43,7 +43,7 @@ Constraint[Next][1]=BR-175Middle
 Constraint[Next][2]=BR-175Middle-trolley
 
 driver[0]=1
-multiple_working_type=1
+multiple_working_type=19
 
 liverytype[0]=Arriva-original
 liverytype[1]=Firstgroup-Mauve
@@ -114,7 +114,7 @@ Constraint[Next][1]=none
 
 driver[0]=1
 staff[2]=1
-multiple_working_type=1
+multiple_working_type=19
 
 liverytype[0]=Arriva-original
 liverytype[1]=Firstgroup-Mauve

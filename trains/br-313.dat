@@ -41,7 +41,7 @@ Constraint[Prev][1]=none
 Constraint[Next][0]=BR-313Pantograph
 
 driver[0]=1
-multiple_working_type=1
+multiple_working_type=33
 
 liverytype[0]=BR-Blue
 liverytype[1]=NSE-Standard
@@ -188,7 +188,7 @@ Constraint[Next][1]=none
 
 driver[0]=1
 staff[2]=1
-multiple_working_type=1
+multiple_working_type=33
 
 liverytype[0]=BR-Blue
 liverytype[1]=NSE-Standard

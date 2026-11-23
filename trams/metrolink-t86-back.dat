@@ -51,8 +51,8 @@ Constraint[Next][1]=Metrolink-T68A(Front)
 Constraint[Next][2]=none
 
 driver[5]=1
+multiple_working_type=16
 
-multiple_working_type=2
 
 EmptyImage[E]=./images/metrolink-t68-rear.1.4
 EmptyImage[SE]=./images/metrolink-t68-rear.1.5
@@ -111,8 +111,8 @@ Constraint[Next][1]=Metrolink-T86(Front)
 Constraint[Next][2]=none
 
 driver[5]=1
+multiple_working_type=16
 
-multiple_working_type=2
 
 EmptyImage[E]=./images/metrolink-t68-rear.1.4
 EmptyImage[SE]=./images/metrolink-t68-rear.1.5

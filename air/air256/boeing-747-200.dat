@@ -46,6 +46,9 @@ upgrade[0]=boeing-747-200-high-density
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[10]=3
+staff[11]=8
+
 EmptyImage[E]=../images/747_200_BritishCaledonian.0.2,-62,-92
 EmptyImage[SE]=../images/747_200_BritishCaledonian.0.1,-62,-92
 EmptyImage[S]=../images/747_200_BritishCaledonian.0.0,-62,-92
@@ -102,6 +105,9 @@ upgrade[0]=boeing-747-200
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
+
+staff[10]=3
+staff[11]=10
 
 EmptyImage[E]=../images/747_200_BritishCaledonian.0.2,-62,-92
 EmptyImage[SE]=../images/747_200_BritishCaledonian.0.1,-62,-92

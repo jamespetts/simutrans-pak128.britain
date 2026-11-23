@@ -57,6 +57,9 @@ range=3259
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[10]=3
+staff[11]=2
+
 upgrade[0]=hs-trident-1c-high-density
 
 liverytype[0]=BEA-red-square
@@ -132,6 +135,9 @@ range=3259
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
+
+staff[10]=3
+staff[11]=3
 
 upgrade[0]=hs-trident-1c
 

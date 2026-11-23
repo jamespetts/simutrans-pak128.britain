@@ -50,7 +50,7 @@ Constraint[Next][0]=BR-165Rear
 Constraint[Next][1]=BR-165Middle
 
 driver[0]=1
-multiple_working_type=1
+multiple_working_type=18
 
 liverytype[0]=NSE-Revised
 
@@ -177,7 +177,7 @@ Constraint[Next][2]=none
 
 driver[0]=1
 staff[2]=1
-multiple_working_type=1
+multiple_working_type=18
 
 liverytype[0]=NSE-Revised
 

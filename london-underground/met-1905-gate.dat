@@ -48,7 +48,7 @@ Constraint[Next][1]=Metropolitan1913CircleMiddle
 Constraint[Next][2]=Metropolitan1921CircleMiddle
 
 driver[0]=1
-multiple_working_type=1
+multiple_working_type=21
 
 EmptyImage[E]=./images/met-1905-gate-front.1.4
 EmptyImage[SE]=./images/met-1905-gate-front.1.5
@@ -167,7 +167,7 @@ Constraint[Next][3]=none
 
 driver[0]=1
 staff[2]=1
-multiple_working_type=1
+multiple_working_type=21
 
 EmptyImage[E]=./images/met-1905-gate-rear.1.4
 EmptyImage[SE]=./images/met-1905-gate-rear.1.5

@@ -26,13 +26,20 @@ The staff types are defined by `config/staff.tab` and are read by the engine as 
 | 2 | Guard | `staff[2]=1` | brake carriage, brake van, one car of a guarded multiple unit |
 | 3 | Carriage attendant | `staff[3]=n` | dining, kitchen, buffet, Pullman and TPO vehicles |
 | 4 | General labourer | not used | station and goods handling is a building cost |
-| 5 | Tram/bus driver | `driver[5]=1` | bus, tram, trolleybus, lorry, van, horse omnibus |
+| 5 | Tram/bus driver | `driver[5]=1` | bus, tram, trolleybus, lorry, van, horse omnibus, towpath tractor |
 | 6 | Tram/bus conductor | `staff[6]=1` | bus or tram before one-person operation; DLR train captain |
+| 7 | Ship's officer | `staff[7]=n` | every manned boat, ship and hovercraft |
+| 8 | Ship's rating | `staff[8]=n` | boats and ships with deck or engine ratings |
+| 9 | Ship's catering | `staff[9]=n` | boats and ships with cooks or stewards |
+| 10 | Aircraft flight deck | `staff[10]=n` | every aircraft |
+| 11 | Cabin crew | `staff[11]=n` | passenger aircraft above the 19-seat threshold, with documented exceptions |
 
 `[USER-DIRECTION:2026-11-23]` confirmed these placements: one driver and one fireman on each
 steam locomotive except steam tram locomotives, which have no fireman; the guard travels in the
 rear guard's carriage and not in the locomotive; on a multiple unit the guard is in the car whose
-code contains "B" (for example DMBS) and, where no car is so marked, in the rear cab.
+code contains "B" (for example DMBS) and, where no car is so marked, in the rear cab. Sea and air
+complements are individual to each type, except that the standard inland craft use the group rules
+in [ships](crew-complements/ships.md).
 
 ## Engine mechanics
 
@@ -53,19 +60,27 @@ Verified against the ex-15 engine source. `[CODE simutrans-extended ex-15]`
 
 ## What is declared
 
-`[CODE New ex-15 working tree, 2026-11-23]` Declarations are in 1,244 `.dat` files, on 2,048 of the
-3,788 vehicle objects; 407 objects carry a multiple-working type. Totals by role:
+`[CODE New ex-15 working tree, 2026-11-23]` Every powered rail, air and water vehicle carries a
+crew declaration; unpowered tenders, wagons, mail coaches, trailers, holds and horses carry none.
+Objects by role:
 
 | Role | Objects | Where |
 |---|---:|---|
 | `driver[0]` | 840 | 381 steam locomotives, 77 diesel and electric locomotives, 382 multiple-unit driving cars and unpowered driving trailers |
 | `staff[1]` | 381 | steam locomotives |
-| `staff[2]` | 532 | 362 brake carriages, 19 brake vans, 129 multiple units, 22 coaches |
+| `staff[2]` | 521 | 381 brake carriages, brake vans and brake-ended vans, 134 multiple-unit guard cars, 6 non-driving guard cars |
 | `staff[3]` | 122 | 78 catering cars, 27 TPOs, 17 Pullman parlour cars |
-| `driver[5]` | 692 | 343 buses, 283 lorries and vans, 60 tram cars, 6 pre-1900 tramcars |
+| `driver[5]` | 693 | 343 buses, 283 lorries and vans, 60 tram cars, 6 pre-1900 tramcars, 1 towpath tractor |
 | `staff[6]` | 281 | 238 bus conductors, 34 tram conductors, 6 pre-1900 tramcars, 3 DLR train captains |
+| `staff[7]` | 204 | sea-crewed boats, ships and hovercraft |
+| `staff[8]` | 148 | vessels with deck or engine ratings |
+| `staff[9]` | 80 | vessels with cooks or stewards |
+| `staff[10]` | 230 | every aircraft object, including high-density, mail and freight variants |
+| `staff[11]` | 139 | passenger aircraft above the 19-seat threshold and the three documented exceptions |
 
-Tenders, wagons, mail coaches, trailers of all kinds, horses and maglev cars carry no crew.
+The sea totals are 646 officers, 1,543 ratings and 648 catering staff if every object is bought
+once. The air totals are 595 flight-deck persons and 440 cabin crew. `[CODE New ex-15 working tree,
+2026-11-23; arithmetic]`
 
 ## Rules applied
 
@@ -80,11 +95,13 @@ Tenders, wagons, mail coaches, trailers of all kinds, horses and maglev cars car
 ### Rail multiple units
 
 - `driver[0]=1` on each driving car (a car with a closed end, that is a cab). Not on intermediate
-  motor cars, which have no controls, and not on trailers.
-- `multiple_working_type=1` on each driving car. This is the only field the engine shares across a
-  coupled formation, so it is what makes a two-unit train pay one driver. Trailer cars declare
-  neither a driver nor a type: they contribute no drivers, and a type would be meaningless on a
-  vehicle that does not work in multiple.
+  motor cars, which have no controls, and not on ordinary trailers; an unpowered driving trailer
+  has a cab and therefore carries a driver.
+- `multiple_working_type` on each driving car carries the unit's real coupling code; the code table
+  and the class lists are in [multiple-working-codes](multiple-working-codes.md). A two-unit
+  formation of units that share a code pays one driver. Trailer cars declare neither a driver nor a
+  type: they contribute no drivers, and a type would be meaningless on a vehicle that does not work
+  in multiple.
 - The guard is declared `staff[2]=1` on one car per unit: the B-coded car where the class has one,
   otherwise a rear driving car.
 - No guard on classes introduced for driver-only operation. The rule and its class lists are in
@@ -104,6 +121,10 @@ Tenders, wagons, mail coaches, trailers of all kinds, horses and maglev cars car
   slightly high afterwards for a train that happens to carry two brake vehicles.
   `[USER-DIRECTION:2026-11-23]`
 - Ordinary coaches, mail coaches and wagons: nothing.
+- Articulated sets: only the body with the brake compartment carries the guard. The middle and
+  trailing bodies of the LNER Coronation brake-third twins and triples carry none, even though the
+  set as a whole is a brake third. A unit formed with an alternative plain rear car carries the
+  guard on its designated guard car instead.
 
 ### Catering and mail
 
@@ -128,7 +149,7 @@ semi-trailers and dollies carry nothing, so a lorry and trailer pays one driver.
 
 ### Trams
 
-`driver[5]=1` on each powered tram car, with `multiple_working_type=2` on those cars that can
+`driver[5]=1` on each powered tram car, with `multiple_working_type=16` on those cars that can
 couple to another powered car, so that a multi-car tram pays one driver. One conductor,
 `staff[6]=1`, on sets built before one-person working. Modern trams are driver only; Sheffield
 Supertram keeps a conductor; the Blackpool Centenary and Millennium cars are driver only from 1984.
@@ -143,7 +164,7 @@ Blackpool Progress Twin power car of 1958, which couples to its own trailer; it 
 powered car in its set, so it takes no type either. The articulated light-rail cars from 1992
 onward — Metrolink T86, Sheffield Supertram, Midland Metro T69, then Croydon, Edinburgh, NET,
 Blackpool's Flexity and the Vossloh tram-train — are the only cars that carry
-`multiple_working_type=2`. `[USER-DIRECTION:2026-11-23]`
+`multiple_working_type=16`. `[USER-DIRECTION:2026-11-23]`
 `[CODE New ex-15 working tree, 2026-11-23]`
 
 The pre-1900 tramcars are the one case where a vehicle that does not work in multiple carries a
@@ -159,23 +180,44 @@ there is never a second driver to suppress. `[USER-DIRECTION:2026-11-23]`
 `staff[6]=1` on one car per unit and no driver: the train captain is the only crew member and is
 priced at the conductor rate. `[USER-DIRECTION:2026-11-23]`
 
+### Ships, boats and hovercraft
+
+Staff are declared per vessel in three grades: officer (`staff[7]`), rating (`staff[8]`) and
+catering (`staff[9]`). Every manned vessel has at least one officer, because the master or skipper
+is an officer. Holds, horses and other unpowered attachments carry nothing; the towpath tractor
+carries `driver[5]=1`.
+
+Cargo variants of one hull repeat the same crew: the player buys one complete vessel in the chosen
+fit, so a variant without the declaration would be crewless. The 43 objects in `boats/boats192`
+and `boats/boats224` are additional vessels, not duplicates.
+
+Dumb barges carry one bargee each. A tug with six barges therefore pays six bargees, although the
+tow was worked by one man on the lead barge. This is the largest approximation in the water fleet.
+The complements, the group rules and the discharge of the officer, rating and catering split are in
+[ships](crew-complements/ships.md) and its register.
+
+### Aircraft
+
+Flight deck is `staff[10]`; cabin crew is `staff[11]`. Cabin crew are calculated per object from
+that object's own seat total: one per 50 seats or fraction, none at 19 seats or fewer, and the
+three documented exceptions (Concorde 6, Boeing 307 2, Boeing 247 1). High-density variants
+therefore often carry more cabin crew than the base airframe. Mail and freight variants carry the
+flight deck and no cabin crew. The rules, the object table and the sources are in
+[aircraft](crew-complements/aircraft.md).
+
 ## Multiple working
 
 Two units couple when each cab end lists the other in its `Constraint` list. Most of the pakset
 already does this. Twenty units had both ends closed with a single `Constraint[...][0]=none`, which
 the engine reads as "unconnectable"; those ends now name the unit's own opposite cab and keep
 `none` as the second entry, so two units of the class can couple and the end still terminates a
-train. The mechanism, the engine defects and the remaining gaps are in
-[multiple-working](multiple-working.md).
+train. `multiple_working_type` holds the real coupling code, one integer per control system; the
+code table and the class lists are in
+[multiple-working-codes](multiple-working-codes.md). The mechanism, the engine defects and the
+remaining gaps are in [multiple-working](multiple-working.md).
 
 ## Not yet declared
 
-- **Ships and aircraft.** The complements are researched and tabulated per hull and per airframe
-  ([ships](crew-complements/ships.md), [aircraft](crew-complements/aircraft.md)), but no declaration
-  is made, because `config/staff.tab` has no sea or air grade and the pakset rule is that every
-  wage names a source. The measured anchors that a new grade would use are the 1912 able-seaman
-  rate of 100s a month and the 2019 and 2026 ASHE means for ship and hovercraft officers and for
-  aircraft pilots; the ratings and cabin-crew grades have no measured long series.
 - **Buildings cannot declare staff at all.** `staff.tab` is charged only through
   `convoi_t::get_salaries`, so station, depot, signalbox and goods staff cannot be charged. This is
   an open question, not a defect to fix in the pakset. `[CODE simutrans-extended ex-15]`
@@ -190,3 +232,16 @@ train. The mechanism, the engine defects and the remaining gaps are in
 - Are there classes documented as two-man fired that should get `staff[1]=2`?
 - Should the maglev cars carry a crew? They are declared driverless on the assumption that the
   pakset's maglevs are automated.
+- **Barge convoys.** A tug with six dumb barges pays six bargees because the engine charges each
+  vehicle. The tow was worked by one man on the lead barge. Should the barges carry 0 and the tug
+  the whole complement, or is the per-barge charge the better approximation across all uses?
+- **Sea officer ratio.** No measured officer rate exists before 1937; the series uses 1.90 times the
+  rating. The McConville 1947-1980 tables would replace the assumption if they can be read.
+- **Sea catering ratio.** One measured shipboard rate (1928) supports the 0.92 differential; the
+  fall to 0.60 by 1999 is an assumption bounded by shore-catering proxies.
+- **Pursers.** They are counted as catering, not officers, so that the officer grade means deck and
+  engineer certificates. Should they be officers?
+- **Cabin-crew ratio.** The 0.27 ratio is the median measured cabin/pilot ratio, but the ASHE
+  air-travel-assistant code includes ground staff and is unstable in 2024-2025.
+- **A separate master rate.** The single officer grade averages a master and a junior mate, a 2:1
+  range in every period examined. Should there be a master grade above the officer grade?

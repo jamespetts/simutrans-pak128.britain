@@ -37,6 +37,8 @@ range=885
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[10]=2
+
 EmptyImage[E]=images/Ford_Trimotr_RoylaMail.0.2
 EmptyImage[SE]=images/Ford_Trimotr_RoylaMail.0.1
 EmptyImage[S]=images/Ford_Trimotr_RoylaMail.0.0

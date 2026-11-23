@@ -41,6 +41,10 @@ Constraint[Prev][0]=none
 Constraint[Next][0]=ferry-mail
 Constraint[Next][1]=none
 
+staff[7]=4
+staff[8]=8
+staff[9]=8
+
 EmptyImage[E]=./images/mv-balmoral_E.0.0
 EmptyImage[SE]=./images/mv-balmoral_SE.0.0
 EmptyImage[S]=./images/mv-balmoral_S.0.0

@@ -32,6 +32,10 @@ way_constraint_prohibitive[6]=6 # Large ship
 Constraint[Next][0]=WoodenPaddleSteamerMail
 Constraint[Prev][0]=none
 
+staff[7]=4
+staff[8]=4
+staff[9]=2
+
 EmptyImage[E]=./images/wooden-paddle-steamer_E.0.0
 EmptyImage[SE]=./images/wooden-paddle-steamer_SE.0.0
 EmptyImage[S]=./images/wooden-paddle-steamer_S.0.0

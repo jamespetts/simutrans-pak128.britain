@@ -51,9 +51,9 @@ Constraint[Prev][3]=none
 
 Constraint[Next][0]=BR-801FrontMS
 
-multiple_working_type=1
 
 driver[0]=1
+multiple_working_type=41
 
 liverytype[0]=LNER
 liverytype[1]=Virgin-MU
@@ -471,9 +471,9 @@ Constraint[Prev][3]=BR-801MiddleFirst
 Constraint[Next][0]=BR-801Front
 Constraint[Next][1]=none
 
-multiple_working_type=1
 
 driver[0]=1
+multiple_working_type=41
 
 liverytype[0]=LNER
 liverytype[1]=Virgin-MU
@@ -725,9 +725,9 @@ Constraint[Prev][3]=BR-801MiddleFirst
 Constraint[Next][0]=BR-801Front
 Constraint[Next][1]=none
 
-multiple_working_type=1
 
 driver[0]=1
+multiple_working_type=41
 
 liverytype[0]=LNER
 liverytype[1]=Virgin-MU
@@ -895,9 +895,9 @@ Constraint[Prev][3]=BR-801MiddleFirst
 Constraint[Next][0]=BR-801Front
 Constraint[Next][1]=none
 
-multiple_working_type=1
 
 driver[0]=1
+multiple_working_type=41
 
 liverytype[0]=LNER
 liverytype[1]=Virgin-MU

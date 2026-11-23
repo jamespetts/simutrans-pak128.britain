@@ -46,6 +46,9 @@ sound=planelow.wav
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[10]=2
+
+
 EmptyImage[E]=./images/junkers-w34_E.0.0
 EmptyImage[SE]=./images/junkers-w34_SE.0.0
 EmptyImage[S]=./images/junkers-w34_S.0.0
@@ -92,6 +95,9 @@ sound=planelow.wav
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
+
+staff[10]=2
+
 
 EmptyImage[E]=./images/junkers-w34_E.0.0
 EmptyImage[SE]=./images/junkers-w34_SE.0.0

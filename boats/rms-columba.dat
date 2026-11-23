@@ -39,6 +39,10 @@ range=130
 Constraint[Next][0]=RMSColumbaMail
 Constraint[Prev][0]=none
 
+staff[7]=8
+staff[8]=16
+staff[9]=6
+
 EmptyImage[E]=./images/rms-columba_E.0.0
 EmptyImage[SE]=./images/rms-columba_SE.0.0
 EmptyImage[S]=./images/rms-columba_S.0.0

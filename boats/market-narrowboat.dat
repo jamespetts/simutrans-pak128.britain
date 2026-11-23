@@ -33,6 +33,8 @@ Constraint[Prev][0]=BoatHorsesSingle
 
 Constraint[Next][0]=MarketNarrowboatAddMail
 
+staff[7]=1
+
 
 EmptyImage[E]=./images/unpowered-narrowboat-wooden-hull-market-boat.1.4
 EmptyImage[SE]=./images/unpowered-narrowboat-wooden-hull-market-boat.1.5

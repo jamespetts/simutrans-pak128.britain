@@ -44,9 +44,9 @@ Constraint[Prev][1]=none
 Constraint[Next][0]=MSJ&A-EMU-centre-trailer
 
 # Strictly, the MSJ&A had its own livery, but this is unlikely to be relevant here.
-multiple_working_type=1
 
 driver[0]=1
+multiple_working_type=26
 
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
@@ -204,7 +204,7 @@ Constraint[Next][1]=none
 
 driver[0]=1
 staff[2]=1
-multiple_working_type=1
+multiple_working_type=26
 
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early

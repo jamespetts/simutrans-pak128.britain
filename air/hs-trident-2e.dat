@@ -57,6 +57,9 @@ upgrade[0]=hs-trident-2e-high-density
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[10]=3
+staff[11]=3
+
 liverytype[0]=BEA-red-square
 liverytype[1]=BEA-speedjack
 
@@ -134,6 +137,9 @@ upgrade[0]=hs-trident-2e
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
+
+staff[10]=3
+staff[11]=3
 
 liverytype[0]=BEA-red-square
 liverytype[1]=BEA-speedjack

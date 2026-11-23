@@ -34,6 +34,10 @@ way_constraint_prohibitive[6]=6 # Large ship
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[7]=3
+staff[8]=3
+staff[9]=4
+
 EmptyImage[E]=./images/tyne-ferry_E.0.0
 EmptyImage[SE]=./images/tyne-ferry_SE.0.0
 EmptyImage[S]=./images/tyne-ferry_S.0.0

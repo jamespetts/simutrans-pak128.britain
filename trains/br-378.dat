@@ -54,7 +54,7 @@ Constraint[Next][0]=BR-378Middle-unpowered
 Constraint[Next][1]=BR-378Middle
 
 driver[0]=1
-multiple_working_type=1
+multiple_working_type=37
 
 EmptyImage[E]=./railcars/br-378-a-lt_E.0.0
 EmptyImage[SE]=./railcars/br-378-a-lt_SE.0.0
@@ -270,7 +270,7 @@ Constraint[Next][5]=BR-387Front
 Constraint[Next][6]=none
 
 driver[0]=1
-multiple_working_type=1
+multiple_working_type=37
 
 EmptyImage[E]=./railcars/br-378-c-lt_E.0.0
 EmptyImage[SE]=./railcars/br-378-c-lt_SE.0.0

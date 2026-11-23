@@ -348,6 +348,7 @@ Constraint[Next][0]=BR-370RearPower
 Constraint[Next][1]=BR-370BrakeFirstRear
 
 driver[0]=1
+multiple_working_type=53
 
 EmptyImage[E]=./railcars/br-370-power-front-ic_E.0.0
 EmptyImage[SE]=./railcars/br-370-power-front-ic_SE.0.0
@@ -402,6 +403,7 @@ Constraint[Prev][1]=BR-370FrontPower
 Constraint[Next][0]=BR-370BrakeFirstRear
 
 driver[0]=1
+multiple_working_type=53
 
 EmptyImage[E]=./railcars/br-370-power-rear-ic_E.0.0
 EmptyImage[SE]=./railcars/br-370-power-rear-ic_SE.0.0

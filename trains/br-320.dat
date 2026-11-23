@@ -47,9 +47,9 @@ Constraint[Prev][2]=none
 
 Constraint[Next][0]=BR-320(pantograph)
 
-multiple_working_type=1
 
 driver[0]=1
+multiple_working_type=34
 
 liverytype[0]=Strathclyde-orange-black
 liverytype[1]=Strathclyde-carmine-cream
@@ -207,9 +207,9 @@ Constraint[Next][0]=BR-320(front)
 Constraint[Next][1]=BR-318-Driving-Front
 Constraint[Next][2]=none
 
-multiple_working_type=1
 
 driver[0]=1
+multiple_working_type=34
 
 liverytype[0]=Strathclyde-orange-black
 liverytype[1]=Strathclyde-carmine-cream

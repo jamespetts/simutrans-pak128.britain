@@ -28,6 +28,9 @@ Constraint[Prev][0]=none
 Constraint[Next][0]=ferry-mail
 Constraint[Next][1]=none
 
+staff[7]=2
+staff[8]=1
+
 way_constraint_permissive[4]=4  # Waterway
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship

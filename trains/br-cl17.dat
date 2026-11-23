@@ -33,6 +33,7 @@ Constraint[Prev][0]=BR-Class17
 Constraint[Prev][1]=none
 
 driver[0]=1
+multiple_working_type=5
 
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue

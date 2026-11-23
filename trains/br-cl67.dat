@@ -36,6 +36,7 @@ Constraint[Prev][3]=none
 # Also class 59
 
 driver[0]=1
+multiple_working_type=17
 
 EmptyImage[E]=./locomotives/br-cl67-ews_E.0.0
 EmptyImage[SE]=./locomotives/br-cl67-ews_SE.0.0

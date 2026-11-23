@@ -32,6 +32,9 @@ way_constraint_prohibitive[6]=6 # Large ship
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[7]=2
+staff[8]=2
+
 EmptyImage[E]=./images/clyde-puffer-empty.1.0
 EmptyImage[SE]=./images/clyde-puffer-empty.1.1
 EmptyImage[S]=./images/clyde-puffer-empty.1.2
@@ -125,6 +128,9 @@ way_constraint_prohibitive[6]=6 # Large ship
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[7]=2
+staff[8]=2
+
 EmptyImage[E]=./images/clyde-puffer-empty.1.0
 EmptyImage[SE]=./images/clyde-puffer-empty.1.1
 EmptyImage[S]=./images/clyde-puffer-empty.1.2
@@ -188,6 +194,9 @@ way_constraint_prohibitive[6]=6 # Large ship
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[7]=2
+staff[8]=2
+
 EmptyImage[E]=./images/clyde-puffer-empty.1.0
 EmptyImage[SE]=./images/clyde-puffer-empty.1.1
 EmptyImage[S]=./images/clyde-puffer-empty.1.2
@@ -235,6 +244,9 @@ range=180
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
+
+staff[7]=2
+staff[8]=2
 
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
@@ -290,6 +302,9 @@ way_constraint_prohibitive[6]=6 # Large ship
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[7]=2
+staff[8]=2
+
 EmptyImage[E]=./images/clyde-puffer-empty.1.0
 EmptyImage[SE]=./images/clyde-puffer-empty.1.1
 EmptyImage[S]=./images/clyde-puffer-empty.1.2
@@ -340,6 +355,9 @@ way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
+
+staff[7]=2
+staff[8]=2
 
 EmptyImage[E]=./images/clyde-puffer-oil.1.0
 EmptyImage[SE]=./images/clyde-puffer-oil.1.1

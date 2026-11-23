@@ -43,7 +43,7 @@ Constraint[Prev][1]=none
 Constraint[Next][0]=MidlandMetroT69Rear
 
 driver[5]=1
-multiple_working_type=2
+multiple_working_type=16
 
 liverytype[0]=Midland-Metro
 liverytype[1]=NWM
@@ -107,7 +107,7 @@ Constraint[Next][0]=MidlandMetroT69Front
 Constraint[Next][1]=none
 
 driver[5]=1
-multiple_working_type=2
+multiple_working_type=16
 
 liverytype[0]=Midland-Metro
 liverytype[1]=NWM

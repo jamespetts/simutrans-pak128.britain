@@ -49,7 +49,7 @@ Constraint[Next][2]=BR-180Middle-Buffet
 Constraint[Next][3]=BR-180Middle-first
 
 driver[0]=1
-multiple_working_type=1
+multiple_working_type=19
 
 liverytype[0]=Firstgroup-Mauve
 
@@ -307,7 +307,7 @@ Constraint[Next][1]=none
 
 driver[0]=1
 staff[2]=1
-multiple_working_type=1
+multiple_working_type=19
 
 liverytype[0]=Firstgroup-Mauve
 

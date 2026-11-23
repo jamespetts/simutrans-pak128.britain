@@ -60,7 +60,7 @@ Constraint[Next][0]=br-159-rear
 Constraint[Next][1]=br-159-centre
 
 driver[0]=1
-multiple_working_type=1
+multiple_working_type=18
 
 liverytype[0]=NSE-Revised
 
@@ -197,7 +197,7 @@ Constraint[Next][13]=none
 
 driver[0]=1
 staff[2]=1
-multiple_working_type=1
+multiple_working_type=18
 
 liverytype[0]=NSE-Revised
 

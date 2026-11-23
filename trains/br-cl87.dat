@@ -38,6 +38,7 @@ Constraint[Prev][4]=BR-Class91
 Constraint[Prev][5]=none
 
 driver[0]=1
+multiple_working_type=15
 
 liverytype[0]=BR-Blue
 liverytype[1]=IC-Executive

@@ -28,6 +28,10 @@ range=250
 Constraint[Next][0]=Incat74m(AddMail)
 Constraint[Prev][0]=none
 
+staff[7]=6
+staff[8]=3
+staff[9]=3
+
 EmptyImage[E]=../images/incat-74m.1.0,-31,-46
 EmptyImage[SE]=../images/incat-74m.1.1,-31,-46
 EmptyImage[S]=../images/incat-74m.1.2,-31,-46

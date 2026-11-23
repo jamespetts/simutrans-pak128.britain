@@ -42,7 +42,7 @@ Constraint[Prev][1]=none
 Constraint[Next][0]=LUL_A_StockMiddle1
 
 driver[0]=1
-multiple_working_type=1
+multiple_working_type=21
 
 liverytype[0]=LT
 liverytype[1]=LUL
@@ -230,7 +230,7 @@ Constraint[Next][1]=none
 
 driver[0]=1
 staff[2]=1
-multiple_working_type=1
+multiple_working_type=21
 
 liverytype[0]=LT
 liverytype[1]=LUL

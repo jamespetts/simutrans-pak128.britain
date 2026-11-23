@@ -40,6 +40,10 @@ Constraint[Next][1]=SealinkHorsaAddPiece
 Constraint[Next][2]=SealinkHorsaAddCool
 Constraint[Prev][0]=none
 
+staff[7]=12
+staff[8]=22
+staff[9]=36
+
 EmptyImage[E][0]=../images/sealink-horsa.1.0,-20,-30
 EmptyImage[SE][0]=../images/sealink-horsa.1.1,-20,-30
 EmptyImage[S][0]=../images/sealink-horsa.1.2,-20,-30

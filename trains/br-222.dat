@@ -49,7 +49,7 @@ Constraint[Next][0]=BR-222MidStandard
 Constraint[Next][1]=BR-222MidBuffet
 
 driver[0]=1
-multiple_working_type=1
+multiple_working_type=42
 
 liverytype[0]=East-Midlands-Trains
 liverytype[1]=HullTrains
@@ -525,7 +525,7 @@ Constraint[Next][1]=none
 
 driver[0]=1
 staff[2]=1
-multiple_working_type=1
+multiple_working_type=42
 
 liverytype[0]=East-Midlands-Trains
 liverytype[1]=HullTrains

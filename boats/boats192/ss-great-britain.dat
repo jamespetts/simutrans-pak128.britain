@@ -40,6 +40,10 @@ way_constraint_prohibitive[6]=6 # Large ship
 Constraint[Next][0]=SSGreatBritainAddMail
 Constraint[Prev][0]=none
 
+staff[7]=14
+staff[8]=76
+staff[9]=40
+
 EmptyImage[E]=../images/ss-great-britain_E.0.0,-31,-46
 EmptyImage[SE]=../images/ss-great-britain_SE.0.0,-31,-46
 EmptyImage[S]=../images/ss-great-britain_S.0.0,-31,-46

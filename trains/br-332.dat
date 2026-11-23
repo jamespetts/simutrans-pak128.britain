@@ -45,7 +45,7 @@ Constraint[Prev][2]=none
 Constraint[Next][0]=BR-332(centre2)
 
 driver[0]=1
-multiple_working_type=1
+multiple_working_type=47
 
 EmptyImage[E]=./railcars/br-332-front-hex.1.4
 EmptyImage[SE]=./railcars/br-332-front-hex.1.5
@@ -218,7 +218,7 @@ Constraint[Next][1]=BR-333(front)
 Constraint[Next][2]=none
 
 driver[0]=1
-multiple_working_type=1
+multiple_working_type=47
 
 EmptyImage[E]=./railcars/br-332-rear-hex.1.4
 EmptyImage[SE]=./railcars/br-332-rear-hex.1.5

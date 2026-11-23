@@ -38,6 +38,10 @@ max_loading_time=10800
 Constraint[Next][0]=SSGreatEasternAddMail
 Constraint[Prev][0]=none
 
+staff[7]=21
+staff[8]=333
+staff[9]=64
+
 EmptyImage[E]=../images/ss-great-eastern_E.0.0,-31,-46
 EmptyImage[SE]=../images/ss-great-eastern_SE.0.0,-31,-46
 EmptyImage[S]=../images/ss-great-eastern_S.0.0,-31,-46

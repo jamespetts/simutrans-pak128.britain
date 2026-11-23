@@ -36,6 +36,8 @@ range=2600
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[10]=2
+
 EmptyImage[E]=./images/Fokker_F27_100_300_RoyalMail.0.2
 EmptyImage[SE]=./images/Fokker_F27_100_300_RoyalMail.0.1
 EmptyImage[S]=./images/Fokker_F27_100_300_RoyalMail.0.0

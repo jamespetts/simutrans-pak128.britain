@@ -41,6 +41,8 @@ range=1120
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[10]=2
+
 EmptyImage[E]=./images/HandleyPageW8b.0.2
 EmptyImage[SE]=./images/HandleyPageW8b.0.1
 EmptyImage[S]=./images/HandleyPageW8b.0.0

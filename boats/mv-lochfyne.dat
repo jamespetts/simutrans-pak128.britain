@@ -43,6 +43,10 @@ Constraint[Prev][0]=none
 Constraint[Next][0]=ferry-mail
 Constraint[Next][1]=none
 
+staff[7]=7
+staff[8]=5
+staff[9]=10
+
 EmptyImage[E]=./images/mv-lochfyne_E.0.0
 EmptyImage[SE]=./images/mv-lochfyne_SE.0.0
 EmptyImage[S]=./images/mv-lochfyne_S.0.0

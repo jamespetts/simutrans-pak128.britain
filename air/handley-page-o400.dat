@@ -43,6 +43,8 @@ sound=andysvideo-vickers-vimy.wav
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[10]=2
+
 EmptyImage[E]=./images/HandleyPageO400_Grigio.0.2
 EmptyImage[SE]=./images/HandleyPageO400_Grigio.0.1
 EmptyImage[S]=./images/HandleyPageO400_Grigio.0.0

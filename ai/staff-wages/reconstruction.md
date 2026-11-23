@@ -4,7 +4,7 @@ verified: New ex-15 working tree, 2026-11-23
 ---
 # Staff wage reconstruction, 2026-11-23
 
-**Covers**: how the seven `staff.tab` series were rebuilt from the measured rows in
+**Covers**: how the twelve `staff.tab` series were rebuilt from the measured rows in
 [evidence-1914-1946](evidence-1914-1946.md), [post-1980](post-1980.md) and
 [staff-wages](../staff-wages.md), the engine conversion from annual wages to monthly Simucents,
 and the status (measured, derived or estimated) of every anchor.
@@ -53,7 +53,7 @@ stored value back: stored × 3/10 / 240 is the annual pound figure, and stored �
 implied weekly rate. The ×10/3 conversion is applied exactly once. See
 [post-1980](post-1980.md) section 4.
 
-## 2. The seven series
+## 2. The twelve series
 
 All values below are annual old pence, before the ×10/3 conversion. "Measured" means a wage
 rate or earnings figure in a cited source; "derived" means a measured figure multiplied by a
@@ -213,7 +213,110 @@ bus driver earns 46 per cent of the train driver, against 102 per cent in 1980.
 
 No conductor grade survives in ASHE, so the ratio is held to 2050 for heritage vehicles.
 
+### staff[7]-staff[11] — sea and air grades
+
+These five grades were added on 2026-11-23 for the ship and aircraft declarations. The full
+complement evidence is in [crew-complements/ships](crew-complements/ships.md) and
+[crew-complements/aircraft](crew-complements/aircraft.md); the wage sources are in
+[crew-complements/ships/sources](crew-complements/ships/sources.md) and the aircraft section D of
+the research record that the declarations were built from.
+
+| Year | Officer (7) | Rating (8) | Catering (9) | Status |
+|---:|---:|---:|---:|---|
+| 1700 | 8,162 | 4,296 | 3,953 | rating forum-sourced; officer and catering assumed |
+| 1850 | 19,152 | 10,080 | 9,274 | rating derived; officer and catering assumed |
+| 1890 | 20,520 | 10,800 | 9,936 | rating derived; officer and catering assumed |
+| 1912 | 27,360 | 14,400 | 13,248 | rating measured; officer and catering assumed |
+| 1928 | 49,248 | 25,920 | 23,846 | rating and catering measured; officer assumed |
+| 1936 | 46,786 | 24,624 | 22,654 | rating measured; officer and catering assumed |
+| 1947 | 131,328 | 69,120 | 60,326 | rating derived; officer assumed; catering interpolated |
+| 1960 | 195,624 | 102,960 | 82,841 | rating and officer basic; catering derived |
+| 1967 | 446,223 | 292,781 | 224,817 | officer derived gross (basic ratio x AB gross); rating measured gross; catering derived |
+| 1970 | 543,284 | 389,002 | 292,581 | officer derived gross; rating measured gross; catering derived |
+| 1973 | 662,640 | — | — | officer measured: Maritime Earnings Survey |
+| 1974 | 902,880 | — | — | officer measured |
+| 1975 | — | 891,571 | 647,193 | rating measured gross; catering derived |
+| 1976 | 1,303,200 | — | — | officer measured |
+| 1978 | 1,786,080 | — | — | officer measured |
+| 1980 | 2,407,200 | 1,757,184 | 1,229,453 | officer and rating measured gross; catering derived |
+| 1990 | — | 3,166,176 | 2,049,191 | rating measured: NES Table 86; catering derived |
+| 1992 | — | 3,957,408 | 2,519,766 | rating measured: NES Table 86; catering derived |
+| 1999 | 6,874,560 | 4,494,000 | 2,696,400 | officer and rating measured (ASHE mean); catering derived at 0.60 x rating |
+| 2016 | 9,581,040 | 5,447,760 | 3,268,656 | officer and rating measured (ASHE full-time mean); catering derived |
+| 2019 | 11,146,560 | 7,466,160 | 4,479,696 | officer and rating measured (ASHE mean); catering derived |
+| 2026 | 13,433,448 | 10,859,808 | 6,515,885 | officer and rating measured (ASHE mean, provisional); catering derived |
+
+The officer series is 1.90 × the rating to 1960. That ratio is an assumption: the only measured
+officer point before 1967 is the 1937 masters' minimum of £22 a month, which is 2.57 × the 1936
+able seaman and is the top of the officer range. From 1967 the series moves onto gross earnings:
+1967 and 1970 are derived by applying the measured basic-rate officer/AB ratio (1.524 and 1.397) to
+the measured AB gross, and 1973-1980 are McConville's Maritime Earnings Survey average officer
+earnings. The rating series uses the 18th-century merchant able seaman (25-30s a lunar month, forum
+source, secondary), the National Maritime Board firemen's rates less 10s a month for the
+able-seaman differential, the 1912 able seaman 100s a month, McConville's gross weekly AB earnings
+for 1967-1980, NES Table 86 for 1990 and 1992, and ASHE marine and waterways transport operatives
+from 1999. The catering series is 0.92 × the rating to 1938, falling linearly to 0.60 at 1999 and
+held; the 1928 assistant steward's £8 5s against the able seaman's £9 is the only measured
+shipboard catering point. Every catering point is computed from the rating point of the same year.
+
+The two basis joins are deliberate. 1960 is the last basic-rate anchor and 1967 the first
+gross-earnings anchor, so 1960-1967 carries a rate-to-earnings step as well as a pay rise, because
+a foreign-going AB worked about 70 hours a week in 1980, 30.7 of them overtime. The 1990 and 1992
+NES rows are a classification break: 1990 is pre-SOC90 with 1,546 in sample, 1992 is SOC90 with
+100, so the 25 per cent rise between them is part definition and part pay and is not read as a
+wage increase. The measured officer/rating ratio for 1967-1980 is 1.40-1.77, below the 1.90 used
+before 1960.
+
+Sources for the sea anchors: the 1912 able seaman and fireman rates are Board of Trade, *Fifteenth
+Abstract of Labour Statistics* (Cd. 6514, 1913), p. 65, https://archive.org/details/op1256113-1001 ;
+the 1928 European standard rates, including the assistant steward's £8 5s, are Hansard, HC Deb 15
+June 1928, vol. 218, c. 1331W,
+https://api.parliament.uk/historic-hansard/written-answers/1928/jun/15/mercantile-marine ; the 1934
+and 1936 able seaman rates are Hansard, 19 December 1934, vol. 296, cc. 1136-7, and 7 May 1936,
+vol. 311, c. 1896W; the 1937 masters' minimum is Hansard, 2 March 1937, vol. 321, c. 169; the
+1917-1960 firemen's series is Kennerley, "The Seamen's Union, the National Maritime Board and
+Firemen", *The Northern Mariner* VII no. 4 (1997), tables 1 and 2,
+https://cnrs-scrn.org/northern_mariner/vol07/tnm_7_4_15-28.pdf ; the 1967-1980 earnings are
+McConville, *Industrial Relations in the UK Shipping Industry since the Second World War* (Warwick
+PhD, 1982), table 6.1 (basic officer and AB rates, p. 110), table 6.3 (Maritime Earnings Survey
+average officer earnings, p. 113) and table 6.4 (average gross weekly AB earnings, p. 114),
+https://wrap.warwick.ac.uk/id/eprint/110067/1/WRAP_Theses_MCConville_1982.pdf ; the 1990 and 1992
+ratings are NES Table 86, page D 86.9, in ONS adhoc 005457, the "seafarers (merchant navy); barge,
+lighter and boat operatives" row; the 1999-2026 values are ASHE, as in
+[post-1980](post-1980.md) section 2a.
+
+| Year | Flight deck (10) | Cabin (11) | Status |
+|---:|---:|---:|---|
+| 1909 | 101,592 | - | estimate: the 1924 scale deflated by the general index |
+| 1924 | 199,200 | - | measured: Imperial Airways scale midpoint |
+| 1930 | - | 40,200 | estimate at 0.167 of flight deck, the measured 1965 ratio |
+| 1954 | 406,800 | - | derived: National Joint Council scale midpoint |
+| 1965 | - | 140,160 | measured, secondary: BOAC entrant £584 a year |
+| 1969 | 999,120 | - | derived: 0.708 x the BOAC senior captain rate |
+| 1980 | 4,466,191 | 1,015,728 | derived by linear real growth |
+| 1999 | 13,756,800 | 3,714,336 | flight deck measured (ASHE median); cabin estimated at 0.27 x |
+| 2002-2020 | ASHE median | 0.27 x flight deck | flight deck measured; cabin estimated |
+| 2024-2026 | ASHE median | 0.27 x flight deck | flight deck measured, 2026 provisional; cabin estimated |
+
+Sources for the air anchors: the 1924 Imperial Airways scale is recorded at
+https://www.historiccroydonairport.org.uk/history/civil-operations-1920-1939/ ; the 1954 National
+Joint Council minima are in Hansard, HC Deb 8 July 1954, "Airline Pilots (Service Conditions)",
+https://api.parliament.uk/historic-hansard/commons/1954/jul/08/airline-pilots-service-conditions ;
+the 1969 BOAC senior captain's rate is in Hansard, 31 March 1969, "BOAC Pilots (Strike)",
+https://hansard.parliament.uk/Commons/1969-03-31/debates/1d20b5c7-3663-46a0-a442-57d39e9f609e/BoacPilots(Strike) ;
+the 1965 cabin entrant's £584 is a secondary newspaper report of a British Airways reunion,
+https://www.telegraph.co.uk/travel/news/Being-an-air-hostess-during-the-golden-age-of-flying/ .
+
+The flight-deck series uses ASHE aircraft pilots and flight engineers (SOC90 331, SOC2000 and
+SOC2010 3512). The 2021-2023 years are omitted because SOC2020 3511 merges air traffic controllers
+into the pilot code and the 2022 median is not comparable with 2020. The 2005 point is the ASHE
+mean because the median was suppressed. The cabin series is 0.27 × the flight deck, the median
+measured cabin/pilot ratio over the ASHE years; the ASHE air-travel-assistant series includes
+ground passenger staff and is unstable in 2024-2025, so the ratio is used.
+
 ## 3. What changed
+
+The 2026-11-23 rebuild replaced seven series. The table below records that change.
 
 | Grade | Old file, 1906/1907 | New file, 1907 | Factor | Old 2026 | New 2026 | Factor |
 |---|---:|---:|---:|---:|---:|---:|

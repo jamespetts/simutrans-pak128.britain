@@ -39,6 +39,9 @@ range=1340
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[10]=2
+staff[11]=2
+
 EmptyImage[E]=images/BAC111_200_BUA.0.2
 EmptyImage[SE]=images/BAC111_200_BUA.0.1
 EmptyImage[S]=images/BAC111_200_BUA.0.0

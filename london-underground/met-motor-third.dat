@@ -56,7 +56,7 @@ Constraint[Next][4]=Metropolitan-Motor-First-Middle
 Constraint[Next][5]=met-mv-stock-centre-first
 
 driver[0]=1
-multiple_working_type=1
+multiple_working_type=21
 
 liverytype[0]=Metropolitan-Red
 liverytype[1]=LT
@@ -295,7 +295,7 @@ Constraint[Next][2]=none
 
 driver[0]=1
 staff[2]=1
-multiple_working_type=1
+multiple_working_type=21
 
 liverytype[0]=Metropolitan-Red
 liverytype[1]=LT

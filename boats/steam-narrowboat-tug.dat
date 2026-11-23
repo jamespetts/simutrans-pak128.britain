@@ -49,6 +49,9 @@ Constraint[Next][17]=WoodenHullUnpoweredNarrowboatCool
 
 Constraint[Prev][0]=none
 
+staff[7]=2
+staff[8]=1
+
 liverytype[0]=Private
 liverytype[1]=BW-Standard
 

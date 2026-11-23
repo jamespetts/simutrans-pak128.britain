@@ -40,6 +40,10 @@ Constraint[Next][1]=BTCLordWardenAddPiece
 Constraint[Next][2]=BTCLordWardenAddCool
 Constraint[Prev][0]=none
 
+staff[7]=11
+staff[8]=16
+staff[9]=38
+
 liverytype[0]=BTC
 liverytype[1]=BR-ferries
 

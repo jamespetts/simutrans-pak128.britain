@@ -67,7 +67,7 @@ Constraint[Prev][14]=none
 Constraint[Next][0]=SR-3SUB(centre)
 
 driver[0]=1
-multiple_working_type=1
+multiple_working_type=8
 
 liverytype[0]=SR-Olive-Green
 liverytype[1]=SR-Malachite-Green
@@ -279,7 +279,7 @@ Constraint[Next][14]=none
 
 driver[0]=1
 staff[2]=1
-multiple_working_type=1
+multiple_working_type=8
 
 liverytype[0]=SR-Olive-Green
 liverytype[1]=SR-Malachite-Green

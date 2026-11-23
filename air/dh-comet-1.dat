@@ -53,6 +53,9 @@ range=2414
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[10]=4
+staff[11]=1
+
 EmptyImage[E]=./images/dh-comet-1_E.0.0
 EmptyImage[SE]=./images/dh-comet-1_SE.0.0
 EmptyImage[S]=./images/dh-comet-1_S.0.0

@@ -131,9 +131,9 @@ only by a class range or by a measured peer.
 - **The pakset `weight` field cannot carry a tonnage rule.** `BlackwallFrigateHull`,
   `ClipperHull` and `EastIndiamanHull` all have `weight=300` although their real tonnages differ by
   a factor of four. Crew must be assigned by class, as in the table.
-- **Crew is charged per vehicle, not per convoy, for water vehicles.** A tug and six barges will
-  charge the tug crew plus one per barge. If that is not wanted, the barges must carry 0 and the
-  tug must carry the whole complement.
-- **No sea crew grade exists in `config/staff.tab`.** The handoff note records this: ships cannot
-  be charged through the existing seven land grades without inventing a sea series. This table
-  supplies the numbers, not the charging mechanism.
+- **Sea grades now exist in `config/staff.tab`.** Grades 7 (officer), 8 (rating) and 9 (catering)
+  were added on 2026-11-23 and every vessel declares a complement. The wage evidence and the
+  ten remaining gaps are in [reconstruction](../reconstruction.md) section 2.
+- **Crew is charged per vehicle, not per convoy, for water vehicles.** A tug and six barges charge
+  the tug crew plus one bargee per barge. The declarations accept that total rather than putting
+  the whole complement on the tug; it is the largest approximation in the water fleet.

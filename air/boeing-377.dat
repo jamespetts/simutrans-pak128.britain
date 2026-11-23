@@ -49,6 +49,9 @@ range=3650
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[10]=4
+staff[11]=2
+
 EmptyImage[E]=./images/boeing-377_E.0.0
 EmptyImage[SE]=./images/boeing-377_SE.0.0
 EmptyImage[S]=./images/boeing-377_S.0.0

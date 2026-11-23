@@ -49,6 +49,8 @@ sound=planelow.wav
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[10]=1
+
 EmptyImage[E]=./images/lockheed-vega_E.0.0
 EmptyImage[SE]=./images/lockheed-vega_SE.0.0
 EmptyImage[S]=./images/lockheed-vega_S.0.0
@@ -97,6 +99,8 @@ sound=planelow.wav
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
+
+staff[10]=1
 
 EmptyImage[E]=./images/lockheed-vega-mail_E.0.0
 EmptyImage[SE]=./images/lockheed-vega-mail_SE.0.0

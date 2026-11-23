@@ -34,6 +34,9 @@ range=110
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
 
+staff[7]=3
+staff[9]=3
+
 liverytype[0]=Seaspeed-late
 liverytype[1]=Hoverspeed-early
 liverytype[2]=Hoverspeed-late

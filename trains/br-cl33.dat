@@ -36,6 +36,7 @@ Constraint[Prev][2]=none
 # Also Mark I electric units.
 
 driver[0]=1
+multiple_working_type=1
 
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue

@@ -4,27 +4,44 @@ verified: New ex-15 working tree, 2026-11-23
 ---
 # Aircraft crew complements
 
-**Covers**: flight-deck and cabin crew complements for every airframe in `New/air/`.
+**Covers**: flight-deck and cabin crew complements for every vehicle object in `New/air/`,
+`New/air/air192/` and `New/air/air256/`, and the declarations made in the `.dat` files.
 
-Research only: no declaration is made in the vehicle `.dat` files yet, because
-`config/staff.tab` has no air grade. See [../crew-complements](../crew-complements.md).
+The complements are declared as `staff[10]` flight deck and `staff[11]` cabin crew. Across the 230
+objects they total 595 flight-deck persons and 440 cabin crew. See
+[../crew-complements](../crew-complements.md) for the role map and
+[aircraft/register](aircraft/register.md) for the airframe table.
 
 ## Scope and method
 
-- **Airframe** means the object in a `.dat` file whose name carries none of the suffixes `high-density`, `-post`, `-piece`, `-cool`, `-mail`, `-cars`. Each such object is one row. High-density and cargo variants are not separate rows: they share the airframe and its crew.
-- **Seats** is the sum of the `payload[n]` classes of the airframe object. It is the pakset's capacity, not any real cabin layout.
+- **Airframe** means the base object for a type; the high-density, mail, freight and car variants
+  are separate objects in the same `.dat` file. Each object carries its own declaration.
+- **Seats** is the sum of the `payload[n]` classes of that object. It is the pakset's capacity, not
+  any real cabin layout.
 - **Year** is the pakset `intro_year`.
 - **Flight deck crew** and **cabin crew** are whole persons. The composition follows in brackets.
-- Coverage: 108 passenger airframes (table 1) and three airframes represented in the pakset only by mail or freight objects (table 2), 111 in total.
-- Flight deck complements take five values: 1, 2, 3, 4 and 5. Cabin crew values run from 0 to 9. The most frequent combination is two pilots with two cabin crew, on 13 airframes.
+- Coverage: **230 objects** in 136 files, belonging to 112 airframes: 108 with a passenger object
+  and four represented only by mail or freight objects (`MailMonoPlane`, `dhc3-otter`,
+  `boeing-707-320c`, `atr-42-300f`). The 182 objects in `air/`, 27 in `air192/` and 21 in
+  `air256/` all compile into the same pak set.
+- Cabin crew are computed **per object** from its own seat total, so 30 of the 50 high-density
+  variants carry more cabin crew than the base airframe. Flight-deck complements are inherited by
+  the variant.
+- Flight deck complements take five values: 1, 2, 3, 4 and 5. Cabin crew values run from 0 to 12.
+  The most frequent combination is two pilots with two cabin crew, on 17 objects.
 
 ## Rules applied
 
 ### F1: one pilot
 
-Used where single-pilot operation was normal for the type: the pre-1930 single-engine types (Junkers F 13, Junkers W 34, Lockheed Vega), the 1930s single-engine types (Lockheed Model 9 Orion, DH.89 Dragon Rapide), and light twins certificated for single-pilot operation (Aero Commander 520 and 681, King Air 200, Twin Otter).
+Used where single-pilot operation was normal for the type: the Lockheed Vega, the Lockheed Model 9
+Orion, the DH.89 Dragon Rapide, and the light twins certificated for single-pilot operation (Aero
+Commander 520 and 681, King Air 200, Twin Otter).
 
-The operating rule used here is that the earliest aircraft carry one pilot where a single pilot was normal. The Junkers F 13 and W 34 are sometimes listed with two crew; one pilot is the assumption recorded here and both rows are flagged in "Gaps and estimates".
+The Junkers F 13 and W 34 are **not** F1. The F 13 source describes a two-seat open cockpit, and
+the W 34 is its derivative with the same arrangement; two flight-deck persons is the sourced figure
+and both are recorded with 2. The earlier one-pilot assumption is withdrawn. `[LITERATURE:
+https://en.wikipedia.org/wiki/Junkers_F_13]`
 
 ### F2: two pilots
 
@@ -183,7 +200,7 @@ Wikipedia is a secondary source. It is cited only for per-type figures that were
 | Row or group | Status | Assumption |
 |---|---|---|
 | `zeppelin-lz6`, `Zeppelin_LZ10`, `zeppelin-lz127`, `zeppelin-lz-129` | estimate | Airship control-car watches are not documented in a form comparable with aeroplane flight crew. 3 for the two pre-1914 ships and 4 for the two large ships assumes commander or watch officer, helmsman, elevatorman and, on the large ships, radio operator. Total crew is documented (36 for LZ 127, 40-61 for LZ 129, 13 for LZ 10) but not the watch composition. Cabin crew on these four rows is the C1 ratio, not a documented figure. |
-| `junkers-f13`, `junkers-w34` | estimate | One pilot assumed for single-engine types under the pre-1930 rule; Wikipedia lists two for both. |
+| `junkers-f13`, `junkers-w34` | resolved | Two. The F 13 source describes a two-seat open cockpit, and the W 34 has the same arrangement; the earlier one-pilot assumption is withdrawn. |
 | `HandleyPageO400` | estimate | Two pilots assumed for the 1918 twin-engine type. In military service the O/400 carried a crew of four or five including observer and gunners; the civil conversion is not separately documented here. |
 | `ford-trimotor` | estimate | Two pilots. Wikipedia gives a crew of three including a flight attendant; the pakset row records no cabin crew because the type is below 20 seats and the attendant was not universal. |
 | `beechcraft-18`, `lockheed-10-electra`, `aero-commander-520`, `aero-commander-681`, `king-air-200`, `twin-otter-300` | estimate | Two pilots (Beech 18, Electra 10) or one pilot (light twins) by the airline-use assumption. All are below the 22,500 lb threshold of the 1960 Order, so no legal minimum applies. |

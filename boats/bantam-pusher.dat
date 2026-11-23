@@ -36,6 +36,8 @@ Constraint[Prev][9]=WoodenHullDumbBargePiece
 Constraint[Prev][10]=WoodenHullDumbBargeCool
 Constraint[Prev][11]=WoodenHullDumbBargeOil
 
+staff[7]=1
+
 liverytype[0]=Private
 liverytype[1]=BW-Standard
 

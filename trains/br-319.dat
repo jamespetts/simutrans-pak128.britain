@@ -48,9 +48,9 @@ Constraint[Prev][1]=none
 
 Constraint[Next][0]=BR-319Pantograph
 
-multiple_working_type=1
 
 driver[0]=1
+multiple_working_type=34
 
 liverytype[0]=NSE-Standard
 liverytype[1]=Northern
@@ -120,9 +120,9 @@ Constraint[Prev][1]=none
 
 Constraint[Next][0]=BR-319Pantograph
 
-multiple_working_type=1
 
 driver[0]=1
+multiple_working_type=34
 
 liverytype[0]=NSE-Standard
 liverytype[1]=Northern
@@ -330,9 +330,9 @@ Constraint[Next][2]=none
 #Constraint[Next][3]=BR-769Front
 #Constraint[Next][4]=BR-769FrontComposite
 
-multiple_working_type=1
 
 driver[0]=1
+multiple_working_type=34
 
 liverytype[0]=NSE-Standard
 liverytype[1]=Northern

@@ -31,6 +31,7 @@ Constraint[Prev][0]=BR-Class68
 Constraint[Prev][1]=none
 
 driver[0]=1
+multiple_working_type=17
 
 liverytype[0]=DRS-Standard
 liverytype[1]=Chiltern-Mainline

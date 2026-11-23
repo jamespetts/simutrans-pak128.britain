@@ -56,7 +56,7 @@ Constraint[Next][0]=BR-379Middle
 Constraint[Next][1]=BR-379Panto
 
 driver[0]=1
-multiple_working_type=1
+multiple_working_type=37
 
 EmptyImage[E]=./railcars/br-379-front-orig.1.4
 EmptyImage[SE]=./railcars/br-379-front-orig.1.5
@@ -292,7 +292,7 @@ Constraint[Next][5]=BR-378Front
 Constraint[Next][6]=none
 
 driver[0]=1
-multiple_working_type=1
+multiple_working_type=37
 
 EmptyImage[E]=./railcars/br-379-rear-orig.1.4
 EmptyImage[SE]=./railcars/br-379-rear-orig.1.5

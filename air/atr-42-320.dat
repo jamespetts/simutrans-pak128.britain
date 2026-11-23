@@ -36,6 +36,9 @@ range=885
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[10]=2
+staff[11]=1
+
 EmptyImage[E]=images/ATR_42_320_BlueIsland.0.2
 EmptyImage[SE]=images/ATR_42_320_BlueIsland.0.1
 EmptyImage[S]=images/ATR_42_320_BlueIsland.0.0

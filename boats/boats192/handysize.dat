@@ -26,6 +26,10 @@ max_loading_time=10800
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[7]=9
+staff[8]=22
+staff[9]=4
+
 EmptyImage[E]=../images/handysize.8.0,-31,-46
 EmptyImage[SE]=../images/handysize.8.1,-31,-46
 EmptyImage[S]=../images/handysize.8.2,-31,-46
@@ -70,6 +74,10 @@ max_loading_time=10800
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[7]=9
+staff[8]=22
+staff[9]=4
+
 EmptyImage[E]=../images/handysize-car-empty.1.0,-31,-46
 EmptyImage[SE]=../images/handysize-car-empty.1.1,-31,-46
 EmptyImage[S]=../images/handysize-car-empty.1.2,-31,-46
@@ -113,6 +121,10 @@ max_loading_time=10800
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
+
+staff[7]=9
+staff[8]=22
+staff[9]=4
 
 EmptyImage[E]=../images/handysize.8.0,-31,-46
 EmptyImage[SE]=../images/handysize.8.1,-31,-46
@@ -159,6 +171,10 @@ max_loading_time=10800
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[7]=9
+staff[8]=22
+staff[9]=4
+
 EmptyImage[E]=../images/handysize.0.0,-31,-46
 EmptyImage[SE]=../images/handysize.0.1,-31,-46
 EmptyImage[S]=../images/handysize.0.2,-31,-46
@@ -194,6 +210,10 @@ max_loading_time=10800
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[7]=9
+staff[8]=22
+staff[9]=4
+
 EmptyImage[E]=../images/handysize-livestock.1.0,-31,-46
 EmptyImage[SE]=../images/handysize-livestock.1.1,-31,-46
 EmptyImage[S]=../images/handysize-livestock.1.2,-31,-46
@@ -228,6 +248,10 @@ max_loading_time=10800
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
+
+staff[7]=9
+staff[8]=22
+staff[9]=4
 
 EmptyImage[E]=../images/handysize.1.0,-31,-46
 EmptyImage[SE]=../images/handysize.1.1,-31,-46
@@ -314,6 +338,10 @@ max_loading_time=10800
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
+
+staff[7]=9
+staff[8]=22
+staff[9]=4
 
 EmptyImage[E]=../images/handysize.8.0,-31,-46
 EmptyImage[SE]=../images/handysize.8.1,-31,-46

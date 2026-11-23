@@ -47,6 +47,9 @@ range=6820
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[10]=3
+staff[11]=6
+
 liverytype[0]=BA-Union-flag
 liverytype[1]=BA-Landor
 
@@ -113,6 +116,9 @@ range=6820
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
+
+staff[10]=3
+staff[11]=8
 
 liverytype[0]=BA-Union-flag
 liverytype[1]=BA-Landor

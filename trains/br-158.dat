@@ -54,7 +54,7 @@ Constraint[Next][0]=br-158-rear
 Constraint[Next][1]=br-158-centre
 
 driver[0]=1
-multiple_working_type=1
+multiple_working_type=18
 
 liverytype[0]=Regional-Railways-Standard
 
@@ -181,7 +181,7 @@ Constraint[Next][13]=none
 
 driver[0]=1
 staff[2]=1
-multiple_working_type=1
+multiple_working_type=18
 
 liverytype[0]=Regional-Railways-Standard
 

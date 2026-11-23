@@ -35,6 +35,8 @@ range=1750
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[10]=2
+
 EmptyImage[E]=images/Douglas_DC2_Mail.0.2
 EmptyImage[SE]=images/Douglas_DC2_Mail.0.1
 EmptyImage[S]=images/Douglas_DC2_Mail.0.0

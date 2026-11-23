@@ -38,6 +38,8 @@ sound=bigpickle51-turboprop.wav
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[10]=2
+
 EmptyImage[E]=./images/dornier-do-228_E.0.0
 EmptyImage[SE]=./images/dornier-do-228_SE.0.0
 EmptyImage[S]=./images/dornier-do-228_S.0.0
@@ -84,6 +86,8 @@ sound=bigpickle51-turboprop.wav
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
+
+staff[10]=2
 
 EmptyImage[E]=./images/dornier-do-228-mail_E.0.0
 EmptyImage[SE]=./images/dornier-do-228-mail_SE.0.0

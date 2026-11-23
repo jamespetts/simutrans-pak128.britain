@@ -31,6 +31,9 @@ Constraint[Prev][0]=BoatHorsesFly
 
 Constraint[Next][0]=none
 
+staff[7]=1
+staff[8]=3
+
 EmptyImage[E]=./images/unpowered-narrowboat-flyboat-covered.1.4
 EmptyImage[SE]=./images/unpowered-narrowboat-flyboat-covered.1.5
 EmptyImage[S]=./images/unpowered-narrowboat-flyboat-covered.1.6
@@ -73,6 +76,9 @@ way_constraint_prohibitive[6]=6 # Large ship
 Constraint[Prev][0]=BoatHorsesFly
 
 Constraint[Next][0]=none
+
+staff[7]=1
+staff[8]=3
 
 
 EmptyImage[E]=./images/unpowered-narrowboat-flyboat-covered-cool.1.4
@@ -118,6 +124,9 @@ Constraint[Prev][0]=BoatHorsesFly
 
 Constraint[Next][0]=none
 
+staff[7]=1
+staff[8]=3
+
 EmptyImage[E]=./images/unpowered-narrowboat-flyboat-covered.1.4
 EmptyImage[SE]=./images/unpowered-narrowboat-flyboat-covered.1.5
 EmptyImage[S]=./images/unpowered-narrowboat-flyboat-covered.1.6
@@ -161,6 +170,9 @@ way_constraint_prohibitive[6]=6 # Large ship
 Constraint[Prev][0]=BoatHorsesFly
 
 Constraint[Next][0]=none
+
+staff[7]=1
+staff[8]=3
 
 EmptyImage[E]=./images/unpowered-narrowboat-flyboat-passengers-empty.1.4
 EmptyImage[SE]=./images/unpowered-narrowboat-flyboat-passengers-empty.1.5

@@ -38,6 +38,10 @@ way_constraint_prohibitive[6]=6 # Large ship
 Constraint[Next][0]=PSWaverley2Mail
 Constraint[Prev][0]=none
 
+staff[7]=8
+staff[8]=10
+staff[9]=7
+
 EmptyImage[E]=./images/ps-waverly_E.0.0
 EmptyImage[SE]=./images/ps-waverly_SE.0.0
 EmptyImage[S]=./images/ps-waverly_S.0.0

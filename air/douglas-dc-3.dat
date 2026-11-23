@@ -44,6 +44,9 @@ sound=ylearkisto-dc-3.wav
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[10]=2
+staff[11]=1
+
 liverytype[0]=Private-operator
 liverytype[1]=BOAC-unpainted
 liverytype[2]=BOAC-speedbird
@@ -154,6 +157,8 @@ range=2400
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
+
+staff[10]=2
 
 EmptyImage[E]=./images/Douglas_DC3_mail.1.2
 EmptyImage[SE]=./images/Douglas_DC3_mail.1.3

@@ -47,7 +47,7 @@ Constraint[Next][1]=BR-Class483Trailer
 Constraint[Next][2]=BR-Class483Rear
 
 driver[0]=1
-multiple_working_type=1
+multiple_working_type=20
 
 liverytype[0]=NSE-Standard
 liverytype[1]=Island-Heritage
@@ -252,7 +252,7 @@ Constraint[Next][1]=none
 
 driver[0]=1
 staff[2]=1
-multiple_working_type=1
+multiple_working_type=20
 
 liverytype[0]=NSE-Standard
 liverytype[1]=Island-Heritage

@@ -53,7 +53,7 @@ Constraint[Next][4]=Mersey-EMU-1923(trailer-first)
 Constraint[Next][5]=Mersey-EMU(rear)
 
 driver[0]=1
-multiple_working_type=1
+multiple_working_type=27
 
 liverytype[0]=Mersey-Railway-Standard
 liverytype[1]=BR-Early
@@ -282,7 +282,7 @@ Constraint[Next][2]=none
 
 driver[0]=1
 staff[2]=1
-multiple_working_type=1
+multiple_working_type=27
 
 liverytype[0]=Mersey-Railway-Standard
 liverytype[1]=BR-Early

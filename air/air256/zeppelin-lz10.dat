@@ -53,6 +53,9 @@ range=1700
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[10]=3
+staff[11]=1
+
 EmptyImage[E]=../images/Zeppelin_LZ10_Grigio.0.2,-62,-92
 EmptyImage[SE]=../images/Zeppelin_LZ10_Grigio.0.1,-62,-92
 EmptyImage[S]=../images/Zeppelin_LZ10_Grigio.0.0,-62,-92

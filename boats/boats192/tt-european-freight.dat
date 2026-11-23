@@ -41,6 +41,10 @@ Constraint[Next][6]=TTEuropeanFreightAddLivestock
 Constraint[Next][7]=TTEuropeanFreightAddCar
 Constraint[Next][8]=none
 
+staff[7]=8
+staff[8]=12
+staff[9]=2
+
 EmptyImage[E][0]=../images/tt-european.1.0,-20,-30
 EmptyImage[SE][0]=../images/tt-european.1.1,-20,-30
 EmptyImage[S][0]=../images/tt-european.1.2,-20,-30

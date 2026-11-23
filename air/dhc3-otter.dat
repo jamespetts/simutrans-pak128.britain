@@ -38,6 +38,8 @@ sound=planelow.wav
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[10]=1
+
 EmptyImage[E]=./images/dhc3-otter_E.0.0
 EmptyImage[SE]=./images/dhc3-otter_SE.0.0
 EmptyImage[S]=./images/dhc3-otter_S.0.0

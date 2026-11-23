@@ -45,7 +45,7 @@ Constraint[Prev][1]=none
 Constraint[Next][0]=BR-365Power
 
 driver[0]=1
-multiple_working_type=1
+multiple_working_type=52
 
 EmptyImage[E]=./railcars/br-465-driving-front_E.0.0
 EmptyImage[SE]=./railcars/br-465-driving-front_SE.0.0
@@ -215,7 +215,7 @@ Constraint[Next][0]=BR-365Front
 Constraint[Next][1]=none
 
 driver[0]=1
-multiple_working_type=1
+multiple_working_type=52
 
 EmptyImage[E]=./railcars/br-465-driving-rear_E.0.0
 EmptyImage[SE]=./railcars/br-465-driving-rear_SE.0.0

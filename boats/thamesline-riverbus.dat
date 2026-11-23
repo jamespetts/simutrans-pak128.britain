@@ -32,6 +32,10 @@ way_constraint_prohibitive[6]=6 # Large ship
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
 
+staff[7]=1
+staff[8]=1
+staff[9]=1
+
 EmptyImage[E]=./images/thamesline-riverbus.1.0
 EmptyImage[SE]=./images/thamesline-riverbus.1.1
 EmptyImage[S]=./images/thamesline-riverbus.1.2

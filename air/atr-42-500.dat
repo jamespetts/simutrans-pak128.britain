@@ -33,6 +33,9 @@ range=1555
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[10]=2
+staff[11]=1
+
 EmptyImage[E]=images/ATR_42_500_TitanAirways.0.2
 EmptyImage[SE]=images/ATR_42_500_TitanAirways.0.1
 EmptyImage[S]=images/ATR_42_500_TitanAirways.0.0

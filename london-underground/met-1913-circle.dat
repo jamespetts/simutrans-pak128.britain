@@ -48,7 +48,7 @@ Constraint[Next][2]=Metropolitan1921CircleMiddle
 
 # The later livery should be red/cream, but, in fact, it is currently red.
 driver[0]=1
-multiple_working_type=1
+multiple_working_type=21
 
 liverytype[0]=Metropolitan-Red
 liverytype[1]=LT
@@ -187,7 +187,7 @@ Constraint[Next][3]=none
 
 driver[0]=1
 staff[2]=1
-multiple_working_type=1
+multiple_working_type=21
 
 liverytype[0]=Metropolitan-Red
 liverytype[1]=LT

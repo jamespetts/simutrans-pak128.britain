@@ -36,6 +36,8 @@ sound=kubanskiloewe-dc-6.wav
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[10]=4
+
 EmptyImage[E]=./images/Douglas_DC6A_RoyalMail.0.2
 EmptyImage[SE]=./images/Douglas_DC6A_RoyalMail.0.1
 EmptyImage[S]=./images/Douglas_DC6A_RoyalMail.0.0

@@ -35,6 +35,8 @@ Constraint[Prev][8]=none
 Constraint[Next][0]=BantamPusher
 Constraint[Next][1]=none
 
+staff[7]=1
+
 liverytype[0]=Private
 liverytype[1]=BW-Standard
 
@@ -189,6 +191,8 @@ Constraint[Prev][8]=none
 Constraint[Next][0]=BantamPusher
 Constraint[Next][1]=none
 
+staff[7]=1
+
 liverytype[0]=Private
 liverytype[1]=BW-Standard
 
@@ -286,6 +290,8 @@ Constraint[Prev][8]=none
 Constraint[Next][0]=BantamPusher
 Constraint[Next][1]=none
 
+staff[7]=1
+
 liverytype[0]=Private
 liverytype[1]=BW-Standard
 
@@ -361,6 +367,8 @@ Constraint[Prev][8]=none
 
 Constraint[Next][0]=BantamPusher
 Constraint[Next][1]=none
+
+staff[7]=1
 
 liverytype[0]=Private
 liverytype[1]=BW-Standard
@@ -438,6 +446,8 @@ Constraint[Prev][8]=none
 Constraint[Next][0]=BantamPusher
 Constraint[Next][1]=none
 
+staff[7]=1
+
 liverytype[0]=Private
 liverytype[1]=BW-Standard
 
@@ -513,6 +523,8 @@ Constraint[Prev][8]=none
 
 Constraint[Next][0]=BantamPusher
 Constraint[Next][1]=none
+
+staff[7]=1
 
 liverytype[0]=Private
 liverytype[1]=BW-Standard

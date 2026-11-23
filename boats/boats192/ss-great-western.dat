@@ -39,6 +39,10 @@ way_constraint_prohibitive[6]=6 # Large ship
 Constraint[Next][0]=SSGreatWesternAddMail
 Constraint[Prev][0]=none
 
+staff[7]=8
+staff[8]=30
+staff[9]=22
+
 EmptyImage[E]=../images/ss-great-western_E.0.0,-31,-46
 EmptyImage[SE]=../images/ss-great-western_SE.0.0,-31,-46
 EmptyImage[S]=../images/ss-great-western_S.0.0,-31,-46

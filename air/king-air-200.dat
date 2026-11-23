@@ -40,6 +40,8 @@ range=3658
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[10]=1
+
 EmptyImage[E]=./images/king-air-200_E.0.0
 EmptyImage[SE]=./images/king-air-200_SE.0.0
 EmptyImage[S]=./images/king-air-200_S.0.0
@@ -87,6 +89,8 @@ range=3658
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
+
+staff[10]=1
 
 EmptyImage[E]=./images/king-air-200-mail_E.0.0
 EmptyImage[SE]=./images/king-air-200-mail_SE.0.0

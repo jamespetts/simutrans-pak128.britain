@@ -31,6 +31,10 @@ Constraint[Next][8]=ClipperAddPax-first-class
 
 Constraint[Prev][0]=none
 
+staff[7]=4
+staff[8]=25
+staff[9]=1
+
 EmptyImage[E]=../images/clipper_E.0.0,-31,-46
 EmptyImage[SE]=../images/clipper_SE.0.0,-31,-46
 EmptyImage[S]=../images/clipper_S.0.0,-31,-46

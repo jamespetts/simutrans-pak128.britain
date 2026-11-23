@@ -26,6 +26,9 @@ way_constraint_prohibitive[6]=6 # Large ship
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[7]=3
+staff[8]=2
+
 EmptyImage[E]=./images/seine-netter.0.0
 EmptyImage[SE]=./images/seine-netter.0.1
 EmptyImage[S]=./images/seine-netter.0.2
@@ -65,6 +68,9 @@ way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
+
+staff[7]=3
+staff[8]=3
 
 EmptyImage[E]=./images/seine-netter.1.0
 EmptyImage[SE]=./images/seine-netter.1.1

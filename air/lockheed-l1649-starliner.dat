@@ -51,6 +51,9 @@ upgrade[0]=lockheed-l1649-starliner-high-density
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[10]=5
+staff[11]=2
+
 EmptyImage[E]=./images/lockheed-l1649-starliner_E.0.0
 EmptyImage[SE]=./images/lockheed-l1649-starliner_SE.0.0
 EmptyImage[S]=./images/lockheed-l1649-starliner_S.0.0
@@ -110,6 +113,9 @@ upgrade[0]=lockheed-l1649-starliner
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
+
+staff[10]=5
+staff[11]=2
 
 EmptyImage[E]=./images/lockheed-l1649-starliner_E.0.0
 EmptyImage[SE]=./images/lockheed-l1649-starliner_SE.0.0

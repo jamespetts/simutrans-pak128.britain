@@ -42,6 +42,9 @@ upgrade[0]=airbus-a321-high-density
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[10]=2
+staff[11]=4
+
 EmptyImage[E]=images/A321_Monarch.0.2
 EmptyImage[SE]=images/A321_Monarch.0.1
 EmptyImage[S]=images/A321_Monarch.0.0
@@ -88,6 +91,9 @@ range=5600
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
+
+staff[10]=2
+staff[11]=5
 
 upgrade[0]=airbus-a321
 

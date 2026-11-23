@@ -69,7 +69,7 @@ Constraint[Prev][15]=none
 Constraint[Next][0]=SR-5-BEL-parlour-third
 
 driver[0]=1
-multiple_working_type=1
+multiple_working_type=8
 
 liverytype[0]=Pullman-Cream-Umber
 liverytype[1]=WW2-Austerity
@@ -450,7 +450,7 @@ Constraint[Next][15]=none
 
 driver[0]=1
 staff[2]=1
-multiple_working_type=1
+multiple_working_type=8
 
 liverytype[0]=Pullman-Cream-Umber
 liverytype[1]=WW2-Austerity

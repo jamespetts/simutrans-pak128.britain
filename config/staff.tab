@@ -6,6 +6,8 @@
 #
 # Basis (2026-11-23 v2): nominal annual wages in OLD pence (240 to the pound).
 # staff[N] value = annual old pence x 10/3.
+# Grades 0-6 are the land grades; 7-9 the sea grades and 10-11 the air grades, added in v4
+# (2026-11-23). The sea and air basis and sources are in the v4 block at the end of this file.
 # Derivation: 1 old penny = 80 Simucents; annual / 12 = monthly Simucents; the engine's
 # monthly factor doubles the charge, so store half: 80/12/2 = 10/3.
 # The stored value must include this conversion: without it the engine charges 3/10 of
@@ -95,3 +97,71 @@ staff[5]=1750,24700,1800,35410,1839,48810,1850,53380,1890,62400,1906,65693,1914,
 # the 0.891 ratio is held 1980-2050 (the 1982 NES figure, 83 in sample, is not used;
 # no conductor grade survives in ASHE).
 staff[6]=1750,16467,1800,23607,1839,32540,1850,35587,1890,41600,1900,58240,1906,60320,1914,57893,1920,146813,1925,113220,1930,118733,1940,145253,1950,233480,1961,417560,1962,438217,1964,483957,1966,613800,1968,646260,1980,4351360,1982,5322620,1985,6364164,1988,7094356,1990,8020996,1992,8699296,1995,9025474,1999,9544795,2000,9951790,2001,10476394,2002,10554799,2003,11202001,2004,11900522,2005,12460052,2006,12976102,2007,13948330,2008,14529956,2009,14627606,2010,15104454,2011,15369607,2012,15541386,2013,16032489,2014,15454427,2015,16381750,2016,16514326,2017,16962663,2018,17413138,2019,17963402,2020,18051073,2021,16939854,2022,18681881,2023,20947798,2024,22840221,2025,24055505,2026,24184161,2030,27214423,2035,30047124,2040,33172452,2045,36627545,2050,40439138
+
+# ---------------------------------------------------------------------------
+# 2026-11-23 v4: sea and air crew grades (7-11).
+#
+# These five grades extend the file from the seven land grades. The complement
+# declared on each vehicle is in New/ai/staff-wages/crew-complements.md; the
+# evidence and the measured/derived/estimate status of every point are in
+# New/ai/staff-wages/crew-complements/ships.md, aircraft.md and their child
+# registers and source tables.
+#
+# The sea grades follow the National Maritime Board panels: officers (deck and
+# engineer certificates), ratings (deck and engine) and catering (cooks and
+# stewards). The 1928 assistant-steward rate, GBP 8 5s a month against the able
+# seaman's GBP 9, is the measured basis for the catering differential.
+#
+# Ship's officer. 1700-1960 is 1.90 x the rating. That ratio is an assumption:
+# the only measured officer point is the 1937 masters' minimum of GBP 22 a
+# month, which is 2.57 x the 1936 able seaman and is the top of the officer
+# range. 1967 and 1970 are derived gross earnings: the measured basic-rate
+# officer/AB ratio (1.524 and 1.397) applied to the measured AB gross. 1973-1980
+# are McConville's Maritime Earnings Survey average officer earnings. 1999-2026
+# is ASHE ship and hovercraft officers, mean (SOC90 332, SOC2000 3512, SOC2010
+# 3513, SOC2020 3512). The 2002 and 2011 ASHE points are classification breaks
+# and are not used.
+#
+# Ship's rating. 18th-century merchant able seaman 25-30s a lunar month (forum
+# source, secondary); 1850-1910 National Maritime Board firemen less 10s a
+# month for the able-seaman differential; 1912 able seaman 100s a month; the
+# 1928-1960 National Maritime Board rates; 1967-1980 McConville gross weekly
+# earnings (table 6.4); 1990 and 1992 NES Table 86, gross weekly earnings;
+# 1999-2026 ASHE marine and waterways transport operatives, mean (SOC90 880,
+# SOC2000/SOC2010/SOC2020 8232). The gross-earnings rows are used from 1967
+# because the 1999 ASHE anchor is gross earnings; the basic-rate rows in
+# McConville table 6.1 are recorded as the no-overtime alternative.
+#
+# Ship's catering. 1928 assistant steward GBP 8 5s a month, 0.92 of the able
+# seaman. The ratio falls linearly to 0.60 of the rating at 1999 and is held to
+# 2026. The 1999-2026 values are derived, not measured: no ship's steward
+# series exists, and the ASHE cook and air-travel-assistant rows are shore
+# proxies with classification breaks of their own. Every catering point is
+# computed from the rating point at the same year.
+#
+# Basis joins. 1960 is the last basic-rate anchor and 1967 the first
+# gross-earnings anchor, so 1960-1967 carries a rate-to-earnings step as well as
+# a pay rise. The 1990 and 1992 NES rows are a classification break: 1990 is
+# pre-SOC90 with 1,546 in sample, 1992 is SOC90 with 100. The 1990-1992 rise is
+# therefore part definition and part pay, and is not read as a wage increase.
+#
+# Aircraft flight deck. 1909 estimate (the 1924 scale deflated by the general
+# index); 1924 Imperial Airways scale midpoint; 1954 National Joint Council
+# scale midpoint; 1969 BOAC all-pilot proxy; 1980 derived by linear real growth
+# between 1969 and 1999; 1999-2026 ASHE aircraft pilots and flight engineers,
+# median (SOC90 331, SOC2000/SOC2010 3512). 2021-2023 are omitted: SOC2020 3511
+# merges air traffic controllers into the pilot code, and the 2022 median is
+# not comparable with 2020.
+#
+# Cabin crew. 1930 estimate at 0.167 of the flight deck (the measured 1965
+# ratio); 1965 BOAC entrant GBP 584 a year; 1980 derived by linear real growth;
+# 1999-2026 0.27 of the flight deck, the median measured cabin/pilot ratio over
+# the ASHE years. The ASHE air-travel-assistant series includes ground
+# passenger staff and is unstable in 2024-2025, so the ratio is used.
+#
+# 2030-2050 hold 2026 real pay and rise with the general index, as for 0-6.
+staff[7]=1700,27207,1850,63840,1890,68400,1912,91200,1928,164160,1936,155953,1947,437760,1960,652080,1967,1487410,1970,1810947,1973,2208800,1974,3009600,1976,4344000,1978,5953600,1980,8024000,1999,22915200,2016,31936800,2019,37155200,2026,44778160,2030,50388837,2035,55633720,2040,61420420,2045,67817693,2050,74875047
+staff[8]=1700,14320,1850,33600,1890,36000,1912,48000,1928,86400,1936,82080,1947,230400,1960,343200,1967,975937,1970,1296673,1975,2971903,1980,5857280,1990,10553920,1992,13191360,1999,14980000,2016,18159200,2019,24887200,2026,36199360,2030,40735120,2035,44975163,2040,49653223,2045,54824877,2050,60530150
+staff[9]=1700,13173,1850,30913,1890,33120,1912,44160,1928,79487,1936,75513,1947,201090,1960,276137,1967,749390,1970,975270,1975,2157310,1980,4098177,1990,6830637,1992,8399220,1999,8988000,2016,10895520,2019,14932320,2026,21719617,2030,24441073,2035,26985100,2040,29791933,2045,32894927,2050,36318090
+staff[10]=1909,338640,1924,664000,1954,1356000,1969,3330400,1980,14887303,1999,45856000,2002,48660800,2005,48894400,2008,47243200,2011,57244000,2014,72438400,2017,66952800,2020,73864000,2024,77132000,2025,86169600,2026,77298080,2030,86983487,2035,96037440,2040,106026700,2045,117069963,2050,129252683
+staff[11]=1930,134000,1965,467200,1980,3385760,1999,12381120,2002,13138417,2005,13201487,2008,12755663,2011,15455880,2014,19558367,2017,18077257,2020,19943280,2024,20825640,2025,23265793,2026,20870480,2030,23485540,2035,25930107,2040,28627207,2045,31608887,2050,34898223

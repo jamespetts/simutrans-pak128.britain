@@ -45,6 +45,9 @@ upgrade[0]=boeing-737-max-8-high-density
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[10]=2
+staff[11]=4
+
 EmptyImage[E]=./images/boeing-737-max-8_E.0.0
 EmptyImage[SE]=./images/boeing-737-max-8_SE.0.0
 EmptyImage[S]=./images/boeing-737-max-8_S.0.0
@@ -93,6 +96,9 @@ upgrade[0]=boeing-737-max-8
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
+
+staff[10]=2
+staff[11]=4
 
 EmptyImage[E]=./images/boeing-737-max-8_E.0.0
 EmptyImage[SE]=./images/boeing-737-max-8_SE.0.0

@@ -46,6 +46,9 @@ upgrade[0]=boeing-737-700-high-density
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[10]=2
+staff[11]=3
+
 EmptyImage[E]=./images/boeing-737-700_E.0.0
 EmptyImage[SE]=./images/boeing-737-700_SE.0.0
 EmptyImage[S]=./images/boeing-737-700_S.0.0
@@ -94,6 +97,9 @@ upgrade[0]=boeing-737-700
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
+
+staff[10]=2
+staff[11]=3
 
 EmptyImage[E]=./images/boeing-737-700_E.0.0
 EmptyImage[SE]=./images/boeing-737-700_SE.0.0

@@ -45,7 +45,7 @@ Constraint[Prev][1]=none
 Constraint[Next][0]=WatfordJointStockMiddle
 
 driver[0]=1
-multiple_working_type=1
+multiple_working_type=21
 
 EmptyImage[E]=./images/watford-joint-stock-lnwr.0.0
 EmptyImage[SE]=./images/watford-joint-stock-lnwr.0.1
@@ -154,7 +154,7 @@ Constraint[Next][2]=none
 
 driver[0]=1
 staff[2]=1
-multiple_working_type=1
+multiple_working_type=21
 
 EmptyImage[E]=./images/watford-joint-stock-lnwr.2.0
 EmptyImage[SE]=./images/watford-joint-stock-lnwr.2.1

@@ -35,6 +35,10 @@ Constraint[Next][5]=ClydeCargoSteamerAddLong
 
 Constraint[Prev][0]=none
 
+staff[7]=6
+staff[8]=12
+staff[9]=2
+
 EmptyImage[E]=./images/clyde-cargo-steamer_E.0.0
 EmptyImage[SE]=./images/clyde-cargo-steamer_SE.0.0
 EmptyImage[S]=./images/clyde-cargo-steamer_S.0.0

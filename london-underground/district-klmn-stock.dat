@@ -52,7 +52,7 @@ Constraint[Next][6]=District_E_StockMiddle
 Constraint[Next][7]=District_BCD_StockMiddle
 
 driver[0]=1
-multiple_working_type=1
+multiple_working_type=21
 
 EmptyImage[E]=./images/district-klmn-stock.1.4
 EmptyImage[SE]=./images/district-klmn-stock.1.5
@@ -169,7 +169,7 @@ Constraint[Next][3]=none
 
 driver[0]=1
 staff[2]=1
-multiple_working_type=1
+multiple_working_type=21
 
 EmptyImage[E]=./images/district-klmn-stock.1.4
 EmptyImage[SE]=./images/district-klmn-stock.1.5

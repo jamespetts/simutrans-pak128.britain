@@ -42,6 +42,9 @@ Constraint[Next][10]=WoodenHullDumbBargeOil
 Constraint[Next][11]=WoodenHullDumbBargeLivestock
 Constraint[Next][12]=none
 
+staff[7]=1
+staff[8]=1
+
 liverytype[0]=Private
 liverytype[1]=BW-Standard
 
@@ -203,6 +206,9 @@ Constraint[Next][10]=WoodenHullDumbBargeOil
 Constraint[Next][11]=WoodenHullDumbBargeLivestock
 Constraint[Next][12]=none
 
+staff[7]=1
+staff[8]=1
+
 
 liverytype[0]=Private
 liverytype[1]=BW-Standard
@@ -308,6 +314,9 @@ Constraint[Next][10]=WoodenHullDumbBargeOil
 Constraint[Next][11]=WoodenHullDumbBargeLivestock
 Constraint[Next][12]=none
 
+staff[7]=1
+staff[8]=1
+
 liverytype[0]=Private
 liverytype[1]=BW-Standard
 
@@ -390,6 +399,9 @@ Constraint[Next][9]=WoodenHullDumbBargeCool
 Constraint[Next][10]=WoodenHullDumbBargeOil
 Constraint[Next][11]=WoodenHullDumbBargeLivestock
 Constraint[Next][12]=none
+
+staff[7]=1
+staff[8]=1
 
 liverytype[0]=Private
 liverytype[1]=BW-Standard
@@ -474,6 +486,9 @@ Constraint[Next][10]=WoodenHullDumbBargeOil
 Constraint[Next][11]=WoodenHullDumbBargeLivestock
 Constraint[Next][12]=none
 
+staff[7]=1
+staff[8]=1
+
 liverytype[0]=Private
 liverytype[1]=BW-Standard
 
@@ -556,6 +571,9 @@ Constraint[Next][9]=WoodenHullDumbBargeCool
 Constraint[Next][10]=WoodenHullDumbBargeOil
 Constraint[Next][11]=WoodenHullDumbBargeLivestock
 Constraint[Next][12]=none
+
+staff[7]=1
+staff[8]=1
 
 liverytype[0]=Private
 liverytype[1]=BW-Standard

@@ -28,6 +28,9 @@ Constraint[Next][4]=TugBargeCool
 Constraint[Next][5]=TugBargeOil
 Constraint[Next][6]=none
 
+staff[7]=3
+staff[8]=3
+
 EmptyImage[E]=./images/wooden-paddle-tug.1.0,10,5
 EmptyImage[SE]=./images/wooden-paddle-tug.1.1,0,7
 EmptyImage[S]=./images/wooden-paddle-tug.1.2,-10,5
@@ -69,6 +72,9 @@ Constraint[Next][4]=TugBargeCool
 Constraint[Next][5]=TugBargeOil
 Constraint[Next][6]=none
 
+staff[7]=3
+staff[8]=4
+
 EmptyImage[E]=./images/iron-steam-tug.1.0,10,5
 EmptyImage[SE]=./images/iron-steam-tug.1.1,0,7
 EmptyImage[S]=./images/iron-steam-tug.1.2,-10,5
@@ -107,6 +113,9 @@ Constraint[Next][3]=TugBargeLong
 Constraint[Next][4]=TugBargeCool
 Constraint[Next][5]=TugBargeOil
 Constraint[Next][6]=none
+
+staff[7]=3
+staff[8]=2
 
 EmptyImage[E]=./images/diesel-tug.1.0,10,5
 EmptyImage[SE]=./images/diesel-tug.1.1,0,7
@@ -160,6 +169,8 @@ Constraint[Prev][5]=TugBargeOil
 Constraint[Prev][6]=WoodenPaddleTug
 Constraint[Prev][7]=DieselTug
 Constraint[Prev][8]=IronSteamTug
+
+staff[7]=1
 
 EmptyImage[E]=./images/tug-barge-empty.1.0
 EmptyImage[SE]=./images/tug-barge-empty.1.1
@@ -262,6 +273,8 @@ Constraint[Prev][6]=WoodenPaddleTug
 Constraint[Prev][7]=DieselTug
 Constraint[Prev][8]=IronSteamTug
 
+staff[7]=1
+
 EmptyImage[E]=./images/tug-barge-empty.1.0
 EmptyImage[SE]=./images/tug-barge-empty.1.1
 EmptyImage[S]=./images/tug-barge-empty.1.2
@@ -333,6 +346,8 @@ Constraint[Prev][6]=WoodenPaddleTug
 Constraint[Prev][7]=DieselTug
 Constraint[Prev][8]=IronSteamTug
 
+staff[7]=1
+
 EmptyImage[E]=./images/tug-barge-empty.1.0
 EmptyImage[SE]=./images/tug-barge-empty.1.1
 EmptyImage[S]=./images/tug-barge-empty.1.2
@@ -391,6 +406,8 @@ Constraint[Prev][5]=TugBargeOil
 Constraint[Prev][6]=WoodenPaddleTug
 Constraint[Prev][7]=DieselTug
 Constraint[Prev][8]=IronSteamTug
+
+staff[7]=1
 
 EmptyImage[E]=./images/tug-barge-empty.1.0
 EmptyImage[SE]=./images/tug-barge-empty.1.1
@@ -452,6 +469,8 @@ Constraint[Prev][6]=WoodenPaddleTug
 Constraint[Prev][7]=DieselTug
 Constraint[Prev][8]=IronSteamTug
 
+staff[7]=1
+
 EmptyImage[E]=./images/tug-barge-empty.1.0
 EmptyImage[SE]=./images/tug-barge-empty.1.1
 EmptyImage[S]=./images/tug-barge-empty.1.2
@@ -510,6 +529,8 @@ Constraint[Prev][5]=TugBargeOil
 Constraint[Prev][6]=WoodenPaddleTug
 Constraint[Prev][7]=DieselTug
 Constraint[Prev][8]=IronSteamTug
+
+staff[7]=1
 
 EmptyImage[E]=./images/tug-barge-oil.1.0
 EmptyImage[SE]=./images/tug-barge-oil.1.1

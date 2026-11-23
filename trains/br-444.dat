@@ -46,7 +46,7 @@ Constraint[Prev][2]=none
 Constraint[Next][0]=BR-444(centre1)
 
 driver[0]=1
-multiple_working_type=1
+multiple_working_type=38
 
 EmptyImage[E]=./railcars/br-444-driving-front_E.0.0
 EmptyImage[SE]=./railcars/br-444-driving-front_SE.0.0
@@ -265,7 +265,7 @@ Constraint[Next][2]=none
 
 driver[0]=1
 staff[2]=1
-multiple_working_type=1
+multiple_working_type=38
 
 EmptyImage[E]=./railcars/br-444-driving-rear_E.0.0
 EmptyImage[SE]=./railcars/br-444-driving-rear_SE.0.0

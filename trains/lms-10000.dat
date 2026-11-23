@@ -35,6 +35,7 @@ Constraint[Prev][0]=LMS-10000
 Constraint[Prev][1]=none
 
 driver[0]=1
+multiple_working_type=5
 
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early

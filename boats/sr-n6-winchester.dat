@@ -37,6 +37,9 @@ way_constraint_prohibitive[6]=6 # Large ship
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
 
+staff[7]=2
+staff[9]=1
+
 liverytype[0]=Hovertravel-standard
 liverytype[1]=Hoverlloyd-Standard
 liverytype[2]=Seaspeed

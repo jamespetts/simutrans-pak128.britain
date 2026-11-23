@@ -47,7 +47,7 @@ Constraint[Next][0]=BR-210-TSO
 Constraint[Next][1]=BR-210-TCOL
 
 driver[0]=1
-multiple_working_type=1
+multiple_working_type=66
 
 liverytype[0]=BR-Blue
 liverytype[1]=Regional-Railways
@@ -288,9 +288,9 @@ Constraint[Next][0]=BR-210-DM
 Constraint[Next][1]=none
 
 staff[2]=1
-multiple_working_type=1
 
 driver[0]=1
+multiple_working_type=66
 
 liverytype[0]=BR-Blue
 liverytype[1]=Regional-Railways

@@ -21,6 +21,7 @@ fixed_cost=18333
 sound=-1
 
 driver[0]=1
+multiple_working_type=15
 
 EmptyImage[E]=./images/br-cl91-ec.0.0
 EmptyImage[SE]=./images/br-cl91-ec.0.1

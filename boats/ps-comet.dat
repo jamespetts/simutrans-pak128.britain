@@ -34,6 +34,9 @@ way_constraint_prohibitive[6]=6 # Large ship
 Constraint[Next][0]=PSCometMail
 Constraint[Prev][0]=none
 
+staff[7]=2
+staff[8]=4
+
 EmptyImage[E]=./images/ps-comet_E.0.0
 EmptyImage[SE]=./images/ps-comet_SE.0.0
 EmptyImage[S]=./images/ps-comet_S.0.0

@@ -39,6 +39,9 @@ Constraint[Next][10]=WoodenHullDumbBargeOil
 Constraint[Next][11]=WoodenHullDumbBargeLivestock
 Constraint[Prev][0]=none
 
+staff[7]=3
+staff[8]=2
+
 EmptyImage[E]=./images/steam-barge-tug.1.4
 EmptyImage[SE]=./images/steam-barge-tug.1.5
 EmptyImage[S]=./images/steam-barge-tug.1.6

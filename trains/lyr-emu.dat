@@ -41,7 +41,7 @@ Constraint[Prev][1]=none
 Constraint[Next][0]=L&YR-EMU-driving-trailer
 
 driver[0]=1
-multiple_working_type=1
+multiple_working_type=25
 
 liverytype[0]=LYR-Black
 liverytype[1]=LMS-Standard
@@ -105,11 +105,11 @@ Constraint[Prev][0]=L&YR-EMU-driving-motor
 Constraint[Next][0]=L&YR-EMU-driving-motor
 Constraint[Next][1]=none
 
-multiple_working_type=1
 
 staff[2]=1
 
 driver[0]=1
+multiple_working_type=25
 
 liverytype[0]=LYR-Black
 liverytype[1]=LMS-Standard

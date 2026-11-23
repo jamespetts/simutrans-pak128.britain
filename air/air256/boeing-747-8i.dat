@@ -45,6 +45,9 @@ range=14320
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[10]=2
+staff[11]=8
+
 EmptyImage[E]=../images/boeing-747-8i_E.0.0,-62,-92
 EmptyImage[SE]=../images/boeing-747-8i_SE.0.0,-62,-92
 EmptyImage[S]=../images/boeing-747-8i_S.0.0,-62,-92

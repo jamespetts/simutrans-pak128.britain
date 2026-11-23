@@ -31,6 +31,10 @@ Constraint[Next][7]=BrigAddPax-first-class
 
 Constraint[Prev][0]=none
 
+staff[7]=2
+staff[8]=6
+staff[9]=1
+
 EmptyImage[E]=./images/brig_E.0.0
 EmptyImage[SE]=./images/brig_SE.0.0
 EmptyImage[S]=./images/brig_S.0.0

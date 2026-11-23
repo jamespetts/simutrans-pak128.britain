@@ -49,9 +49,9 @@ Constraint[Prev][5]=none
 
 Constraint[Next][0]=BR-310-MBSO
 
-multiple_working_type=1
 
 driver[0]=1
+multiple_working_type=32
 
 liverytype[0]=BR-Blue
 liverytype[1]=BR-Large-Logo
@@ -325,9 +325,9 @@ Constraint[Next][3]=BR-302(front)
 Constraint[Next][4]=BR-310-BDTSOL
 Constraint[Next][5]=none
 
-multiple_working_type=1
 
 driver[0]=1
+multiple_working_type=32
 
 liverytype[0]=BR-Blue
 liverytype[1]=BR-Large-Logo

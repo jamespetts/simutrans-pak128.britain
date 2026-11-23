@@ -35,6 +35,10 @@ way_constraint_prohibitive[6]=6 # Large ship
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[7]=4
+staff[8]=6
+staff[9]=2
+
 EmptyImage[E]=./images/iron-paddle-river-steamer-1880s.1.4
 EmptyImage[SE]=./images/iron-paddle-river-steamer-1880s.1.5
 EmptyImage[S]=./images/iron-paddle-river-steamer-1880s.1.6

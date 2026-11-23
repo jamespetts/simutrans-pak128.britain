@@ -46,6 +46,9 @@ range=1233
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[10]=1
+staff[11]=1
+
 liverytype[0]=Private-operator
 liverytype[1]=BA-new
 

@@ -32,6 +32,9 @@ sound=bigpickle51-jet-takeoff.wav
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[10]=2
+staff[11]=2
+
 EmptyImage[E]=./images/embraer-erj-175-flybe_E.0.0
 EmptyImage[SE]=./images/embraer-erj-175-flybe_SE.0.0
 EmptyImage[S]=./images/embraer-erj-175-flybe_S.0.0

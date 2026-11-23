@@ -48,7 +48,7 @@ Constraint[Prev][3]=none
 Constraint[Next][0]=NER-Tyneside-unit(trailer1)
 
 driver[0]=1
-multiple_working_type=1
+multiple_working_type=28
 
 EmptyImage[E]=./railcars/ner-tyne-1904-frontmotor_E.0.0
 EmptyImage[SE]=./railcars/ner-tyne-1904-frontmotor_SE.0.0
@@ -107,9 +107,9 @@ Constraint[Next][0]=NER-Tyneside-unit(front)
 Constraint[Next][1]=NER-Tyneside-mpv
 Constraint[Next][2]=none
 
-multiple_working_type=1
 
 driver[0]=1
+multiple_working_type=28
 
 EmptyImage[E]=./railcars/ner-tyne-1904-driving-trailer_E.0.0
 EmptyImage[SE]=./railcars/ner-tyne-1904-driving-trailer_SE.0.0
@@ -283,7 +283,7 @@ Constraint[Next][2]=none
 
 driver[0]=1
 staff[2]=1
-multiple_working_type=1
+multiple_working_type=28
 
 EmptyImage[E]=./railcars/ner-tyne-1904-rearmotor_E.0.0
 EmptyImage[SE]=./railcars/ner-tyne-1904-rearmotor_SE.0.0
@@ -340,7 +340,7 @@ Constraint[Prev][3]=NER-Tyneside-unit(rear motor)
 Constraint[Prev][4]=none
 
 driver[0]=1
-multiple_working_type=1
+multiple_working_type=28
 
 EmptyImage[E]=./railcars/ner-tyne-1904-mpv_E.0.0
 EmptyImage[SE]=./railcars/ner-tyne-1904-mpv_SE.0.0

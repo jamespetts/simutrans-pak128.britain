@@ -32,6 +32,7 @@ Constraint[Prev][0]=BR-Class92
 Constraint[Prev][1]=none
 
 driver[0]=1
+multiple_working_type=69
 
 EmptyImage[E]=./locomotives/br-cl92-rf_E.0.0
 EmptyImage[SE]=./locomotives/br-cl92-rf_SE.0.0

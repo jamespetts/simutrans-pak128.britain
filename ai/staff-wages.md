@@ -22,11 +22,11 @@ per year, per hour, or per week, by staff type and era, for `New/config/staff.ta
 
 ## Reconstruction, 2026-11-23
 
-The file was rebuilt as seven grade series in annual old pence, converted to the engine's
-monthly Simucents at ×10/3 (1 old penny = 80 Simucents; /12 months; /2 for the engine's
-monthly factor). The previous file held annual pence unconverted, so the engine charged 3/10
-of the intended wage, and it used one all-grades railway average for `staff[0]` rather than
-the driver rate.
+The file was rebuilt as twelve grade series in annual old pence: seven land grades, three sea grades
+and two air grades. They are converted to the engine's monthly Simucents at ×10/3 (1 old penny = 80
+Simucents; /12 months; /2 for the engine's monthly factor). The previous file held annual pence
+unconverted, so the engine charged 3/10 of the intended wage, and it used one all-grades railway
+average for `staff[0]` rather than the driver rate.
 
 The method, anchor table and measured/derived/estimated status are in
 [staff-wages/reconstruction](staff-wages/reconstruction.md). The 1839-1946 evidence added in
@@ -117,7 +117,7 @@ and its estimated points are listed in [staff-wages/reconstruction](staff-wages/
 | 1939-1955 | Railway driver 1940 and 1950; passenger porter 1940 and 1950; road driver and conductor 1940 and 1950 (Hansard 1962 table); 1946 signalman, control centre, marshalling yard, platelayer, cleaner, parcels porter and booking clerk; transport industry hourly average 1948. |
 | 1956-1968 | Railway driver 1961; road driver and conductor 1961; local authority labourer 1950 and 1961 (Hansard 1962 table); British Rail manual averages 1956-1968 (Table 50; 1963 missing), used for the 1962-1968 differential points; agricultural labourers 1956 and 1968; skilled engineering timeworkers 1963 and 1968; lorry drivers 1963 and 1968. |
 | 1969-1996 | 1970-1975 relative pay by grade group (Hansard 1976); NES mean earnings 1970-1979 and 1980 (Hansard 1980); NES April grade means for locomotive drivers, bus drivers, bus conductors, general labourers and construction labourers at 1980, 1982, 1985, 1988, 1990, 1992 and 1995 (S18); no rail driver row published in 1990 or 1992. |
-| 1997-2026 | ASHE 1999-2026 annual medians for eight occupations, five values interpolated over ONS suppressions; 2030-2050 hold 2026 real pay and rise with the general index (projection). |
+| 1997-2026 | ASHE 1999-2026 annual medians for twelve occupations, including ship and hovercraft officers, marine and waterways transport operatives, aircraft pilots and cabin crew; five rail values interpolated over ONS suppressions; 2030-2050 hold 2026 real pay and rise with the general index (projection). |
 
 ### Main gaps
 
@@ -141,11 +141,15 @@ and its estimated points are listed in [staff-wages/reconstruction](staff-wages/
    No conductor grade survives in ASHE, so the conductor is held at 0.891 of the bus driver, the
    measured 1980 ratio. The 1956 and 1962 London Transport averages are London-weighted and are
    no longer used for the national series.
-5. **Sea, 1750-1911 and 1913-2018.** Except the 18th-century rates, the 1912 monthly rates and the
-   ASHE ship's-officer figures, nothing. No ship's master, mate or engineer rate was found before
-   2019.
-6. **Air before 2019.** Nothing. No pilot or cabin crew pay scale was found in an accessible
-   source.
+5. **Sea, 1938-1966 and 1981-1989.** The sea grades were added on 2026-11-23: the rating has
+   18th-century rates, 1912, the 1928-1960 National Maritime Board series, McConville's 1967-1980
+   gross earnings, NES 1990/1992 and ASHE from 1999; the officer has the 1937 masters' minimum and
+   McConville's 1973-1980 earnings, with 1967 and 1970 derived and 1.90 × the rating before that;
+   catering has one measured shipboard rate (1928). No AB rate was found for 1961-1966 or
+   1981-1989, and no officer earnings for 1990-1992.
+6. **Air, 1909-1923, 1925-1953, 1955-1968 and 1970-1998.** The air grades were added on 2026-11-23
+   with measured anchors at 1924, 1954 and 1969 and ASHE from 1999. The gaps are filled by
+   interpolation; the 1969-1999 gap carries a derived 1980 point.
 7. **Hours.** Most weekly and daily figures are published without hours of duty. No hourly rate can
    be derived from them without an assumption, and none has been made here.
 8. **Overtime and allowances.** Only the 1907 railway table separates a rate for ordinary time from

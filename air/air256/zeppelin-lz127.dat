@@ -57,6 +57,9 @@ range=12000
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[10]=4
+staff[11]=1
+
 EmptyImage[E]=../images/Zeppelin_Z127.0.2,-62,-92
 EmptyImage[SE]=../images/Zeppelin_Z127.0.1,-62,-92
 EmptyImage[S]=../images/Zeppelin_Z127.0.0,-62,-92

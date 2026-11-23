@@ -46,6 +46,9 @@ range=3630
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[10]=2
+staff[11]=3
+
 EmptyImage[E]=./images/boeing-737-400_E.0.0
 EmptyImage[SE]=./images/boeing-737-400_SE.0.0
 EmptyImage[S]=./images/boeing-737-400_S.0.0
@@ -95,6 +98,9 @@ range=3630
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
+
+staff[10]=2
+staff[11]=4
 
 EmptyImage[E]=./images/boeing-737-400_E.0.0
 EmptyImage[SE]=./images/boeing-737-400_SE.0.0

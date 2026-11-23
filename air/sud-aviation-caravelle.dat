@@ -51,6 +51,9 @@ upgrade[0]=caravelle-high-density
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[10]=3
+staff[11]=2
+
 EmptyImage[E]=./images/caravelle_E.0.0
 EmptyImage[SE]=./images/caravelle_SE.0.0
 EmptyImage[S]=./images/caravelle_S.0.0
@@ -107,6 +110,9 @@ upgrade[0]=caravelle
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
+
+staff[10]=3
+staff[11]=2
 
 EmptyImage[E]=./images/caravelle_E.0.0
 EmptyImage[SE]=./images/caravelle_SE.0.0

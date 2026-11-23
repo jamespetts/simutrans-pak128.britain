@@ -44,9 +44,9 @@ Constraint[Next][3]=BR-Mk3-FO
 Constraint[Next][4]=BR-Mk3-TRFB-pullman
 
 driver[0]=1
-multiple_working_type=1
 
 staff[2]=1
+multiple_working_type=14
 
 liverytype[0]=BR-Blue
 liverytype[1]=IC-Executive
@@ -228,7 +228,7 @@ Constraint[Next][1]=none
 
 driver[0]=1
 staff[2]=1
-multiple_working_type=1
+multiple_working_type=14
 
 liverytype[0]=BR-Blue
 liverytype[1]=IC-Executive

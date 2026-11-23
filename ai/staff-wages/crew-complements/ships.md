@@ -4,22 +4,25 @@ verified: New ex-15 working tree, 2026-11-23
 ---
 # Ship and boat crew complements
 
-**Covers**: crew complements for every hull in `New/boats/`.
+**Covers**: crew complements for every vehicle object in `New/boats/`, `New/boats/boats192/`,
+`New/boats/boats224/` and `New/boats/holds/`, and the declarations made in the `.dat` files.
 
-Research only: no declaration is made in the vehicle `.dat` files yet, because
-`config/staff.tab` has no sea grade. See [../crew-complements](../crew-complements.md).
+The complements are declared in three grades: `staff[7]` officer, `staff[8]` rating and `staff[9]`
+catering. Over the 344 objects the declarations total 646 officers, 1,543 ratings and 648 catering
+staff. See [../crew-complements](../crew-complements.md) for the role map and
+[ships/register](ships/register.md) for the per-hull table.
 
 ## Scope and counting
 
-- 124 `.dat` files under `boats/`; 29 of them are pure hold files in `boats/holds/` and carry no
-  hull.
-- 95 files contain at least one hull. Four files contain more than one vessel class:
-  `boat-horse.dat` (2 horse units), `tug-barges.dat` (3 tugs + 1 dumb barge), `seine-netter.dat`
-  (2 netters) and `river-runner.dat` (2 river buses). Two further files, `bht-150.dat` and
-  `ap1-88.dat`, contain cargo or passenger variants of a single hovercraft class and are counted
-  once each.
-- **101 hull objects are listed below.** Hovercraft and cargo variants of one craft are treated
-  as one hull row because they are alternatives, not parts of one convoy.
+- 124 `.dat` files across the four folders; 29 of them are pure hold files in `boats/holds/`.
+- 344 vehicle objects: 153 powered marine objects in 86 classes, 51 unpowered towed craft in 12
+  classes, 129 holds, 8 add-on mail holds, 2 horses and 1 towpath tractor.
+- 98 manned classes; 205 objects carry crew, 204 sea-crewed and the towpath tractor at
+  `driver[5]=1`.
+- The 43 objects in `boats192/` and `boats224/` are additional vessels, not duplicates: no object
+  name repeats across the folders. `[CODE New ex-15 working tree, 2026-11-23]`
+- **101 hull classes are listed below.** Hovercraft and cargo variants of one craft are treated as
+  one hull row because they are alternatives, not parts of one convoy.
 - Crew range: **0 to 418**.
 
 ### How the hull was identified
@@ -55,6 +58,20 @@ The pakset `weight` field is **not** a register tonnage: many unrelated vessels 
 to the `.dat` field. The `.dat` `weight` should not be used to derive crew.
 
 ---
+
+## 1. Declaration rules
+
+- **Three grades.** Officer (`staff[7]`): master, mates, chief and assistant engineers, radio
+  officer and ETO. Rating (`staff[8]`): bosun, carpenter, sailmaker, able and ordinary seamen, boys
+  and apprentices, stokers, firemen, trimmers, greasers, donkeymen and deckhands. Catering
+  (`staff[9]`): cooks, stewards, cabin attendants and hotel-services staff, including pursers.
+- **Every manned vessel has at least one officer**, because the master or skipper is an officer.
+- **Holds and unpowered attachments carry nothing.** The 129 holds, 8 add-on mail holds and 2
+  horses are 0. The towpath tractor carries `driver[5]=1`, not a sea grade.
+- **Cargo variants repeat the hull's crew.** The player buys one complete vessel in the chosen
+  cargo fit, so a variant without the declaration would be crewless.
+- **Dumb barges carry one bargee each.** A tug with six barges pays six bargees, although the tow
+  was worked by one man on the lead barge. This is the largest approximation in the water fleet.
 
 ## 2. Group rules and worked examples
 
@@ -100,13 +117,14 @@ Worked example: `DieselNarrowboatBulk` (1920) = 2 [S10]. `CompositeHullUnpowered
 = 1. `FlyboatPiece` = 4 (master and three men), the 1844 single-boat scale [S11]. The wartime
 motor-and-butty pair was worked by three women [S09].
 
-### Dumb barge - 1 or 2
+### Dumb barge - 1 (2 for a wooden barge worked independently)
 
-A dumb barge under tow carries a bargee and, on larger barges, a mate: 2. Small canal boats
-under 30 t (tub boat, box boat, tug barge) carry 1. This is the weakest rule in the table: no
+A dumb barge under tow needs one man at the helm: 1. A wooden 50 t barge of 1750 could be worked
+independently under sail or quant, so it keeps 2. This is the weakest rule in the table: no
 measured complement was found.
 
-Worked example: `SteelHullDumbBargeBulk` (1930, 50 t) = 2.
+Worked example: `SteelHullDumbBargeBulk` (1930, 50 t) = 1. `WoodenHullDumbBargeBulk` (1750, 50 t)
+= 2.
 
 ### Tug - 1 to 7
 

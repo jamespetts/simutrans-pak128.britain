@@ -28,6 +28,10 @@ Constraint[Next][5]=WindjammerAddLong
 Constraint[Next][6]=WindjammerAddLivestock
 Constraint[Prev][0]=none
 
+staff[7]=3
+staff[8]=25
+staff[9]=2
+
 EmptyImage[E]=../images/windjammer_E.0.0,-31,-46
 EmptyImage[SE]=../images/windjammer_SE.0.0,-31,-46
 EmptyImage[S]=../images/windjammer_S.0.0,-31,-46

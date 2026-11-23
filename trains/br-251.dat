@@ -48,7 +48,7 @@ Constraint[Next][1]=BR-251FirstParlour
 Constraint[Next][2]=BR-251Kitchen
 
 driver[0]=1
-multiple_working_type=1
+multiple_working_type=67
 
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue
@@ -123,7 +123,7 @@ Constraint[Next][1]=BR-251FirstParlour
 Constraint[Next][2]=BR-251Kitchen
 
 driver[0]=1
-multiple_working_type=1
+multiple_working_type=67
 
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue
@@ -421,7 +421,7 @@ Constraint[Next][2]=none
 
 driver[0]=1
 staff[2]=1
-multiple_working_type=1
+multiple_working_type=67
 
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue
@@ -496,7 +496,8 @@ Constraint[Next][1]=BR-251FrontFirst
 Constraint[Next][2]=none
 
 driver[0]=1
-multiple_working_type=1
+staff[2]=1
+multiple_working_type=67
 
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue

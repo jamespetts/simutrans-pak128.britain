@@ -41,7 +41,7 @@ Constraint[Prev][1]=none
 Constraint[Next][0]=BR-323Middle
 
 driver[0]=1
-multiple_working_type=1
+multiple_working_type=44
 
 liverytype[0]=GMPTE-black-red
 liverytype[1]=Centro
@@ -139,7 +139,7 @@ Constraint[Next][0]=BR-323Front
 Constraint[Next][1]=none
 
 driver[0]=1
-multiple_working_type=1
+multiple_working_type=44
 
 liverytype[0]=GMPTE-black-red
 liverytype[1]=Centro

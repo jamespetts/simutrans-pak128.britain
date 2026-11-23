@@ -55,7 +55,7 @@ Constraint[Next][8]=District_BCD_StockMiddle-first
 Constraint[Next][9]=District_E_StockMiddle-first
 
 driver[0]=1
-multiple_working_type=1
+multiple_working_type=21
 
 EmptyImage[E]=./images/district-bcd-stock-front.1.4
 EmptyImage[SE]=./images/district-bcd-stock-front.1.5
@@ -272,7 +272,7 @@ Constraint[Next][10]=none
 
 driver[0]=1
 staff[2]=1
-multiple_working_type=1
+multiple_working_type=21
 
 EmptyImage[E]=./images/district-bcd-stock-rear.1.4
 EmptyImage[SE]=./images/district-bcd-stock-rear.1.5

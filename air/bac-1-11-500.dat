@@ -39,6 +39,9 @@ range=2744
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[10]=2
+staff[11]=3
+
 EmptyImage[E]=images/BAC_111_500_Caledonian.0.2
 EmptyImage[SE]=images/BAC_111_500_Caledonian.0.1
 EmptyImage[S]=images/BAC_111_500_Caledonian.0.0

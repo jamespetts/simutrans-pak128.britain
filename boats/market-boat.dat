@@ -32,6 +32,9 @@ Constraint[Prev][0]=BoatHorsesSingle
 
 Constraint[Next][0]=MarketBargeAddMail
 
+staff[7]=1
+staff[8]=1
+
 
 EmptyImage[E]=./images/dumb-barge-wooden-passenger-market-boat.1.4
 EmptyImage[SE]=./images/dumb-barge-wooden-passenger-market-boat.1.5

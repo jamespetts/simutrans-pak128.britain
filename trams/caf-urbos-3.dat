@@ -51,8 +51,8 @@ Constraint[Prev][0]=none
 Constraint[Next][0]=CAF-Urbos-3-middle1
 
 driver[5]=1
+multiple_working_type=16
 
-multiple_working_type=2
 
 EmptyImage[E]=./images/caf-urbos-3-front.1.4
 EmptyImage[SE]=./images/caf-urbos-3-front.1.5
@@ -239,8 +239,8 @@ Constraint[Prev][0]=CAF-Urbos-3-middle2
 Constraint[Next][0]=none
 
 driver[5]=1
+multiple_working_type=16
 
-multiple_working_type=2
 
 EmptyImage[E]=./images/caf-urbos-3-rear.1.4
 EmptyImage[SE]=./images/caf-urbos-3-rear.1.5

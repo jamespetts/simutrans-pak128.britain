@@ -27,6 +27,10 @@ range=60
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[7]=8
+staff[8]=6
+staff[9]=11
+
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
 

@@ -49,7 +49,7 @@ Constraint[Next][0]=BR-465Rear
 Constraint[Next][1]=BR-465Middle
 
 driver[0]=1
-multiple_working_type=1
+multiple_working_type=36
 
 EmptyImage[E]=./railcars/br-465-driving-front_E.0.0
 EmptyImage[SE]=./railcars/br-465-driving-front_SE.0.0
@@ -174,7 +174,7 @@ Constraint[Next][1]=none
 
 driver[0]=1
 staff[2]=1
-multiple_working_type=1
+multiple_working_type=36
 
 EmptyImage[E]=./railcars/br-465-driving-rear_E.0.0
 EmptyImage[SE]=./railcars/br-465-driving-rear_SE.0.0

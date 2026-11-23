@@ -42,7 +42,7 @@ Constraint[Prev][2]=none
 Constraint[Next][0]=BR-333(centre-pantograph)
 
 driver[0]=1
-multiple_working_type=1
+multiple_working_type=47
 
 liverytype[0]=WYPTE-Northern-Spirit
 liverytype[1]=Northern-Metro
@@ -239,7 +239,7 @@ Constraint[Next][1]=BR-332(front)
 Constraint[Next][2]=none
 
 driver[0]=1
-multiple_working_type=1
+multiple_working_type=47
 
 liverytype[0]=WYPTE-Northern-Spirit
 liverytype[1]=Northern-Metro

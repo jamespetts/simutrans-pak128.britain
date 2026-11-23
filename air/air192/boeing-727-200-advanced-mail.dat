@@ -34,6 +34,8 @@ range=3500
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[10]=3
+
 EmptyImage[E]=../images/Boeing_727_200_DHL_Yellow.0.2,-31,-46
 EmptyImage[SE]=../images/Boeing_727_200_DHL_Yellow.0.1,-31,-46
 EmptyImage[S]=../images/Boeing_727_200_DHL_Yellow.0.0,-31,-46

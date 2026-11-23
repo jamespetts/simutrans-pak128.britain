@@ -48,7 +48,7 @@ Constraint[Next][4]=District_KLMN_StockMiddle
 Constraint[Next][5]=District_G_StockMiddle
 
 driver[0]=1
-multiple_working_type=1
+multiple_working_type=21
 
 EmptyImage[E]=./images/lul-op-stock-front.1.4
 EmptyImage[SE]=./images/lul-op-stock-front.1.5
@@ -161,7 +161,7 @@ Constraint[Next][3]=none
 
 driver[0]=1
 staff[2]=1
-multiple_working_type=1
+multiple_working_type=21
 
 EmptyImage[E]=./images/lul-op-stock-rear.1.4
 EmptyImage[SE]=./images/lul-op-stock-rear.1.5

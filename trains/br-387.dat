@@ -52,7 +52,7 @@ Constraint[Next][0]=BR-387Panto
 Constraint[Next][1]=BR-387Middle
 
 driver[0]=1
-multiple_working_type=1
+multiple_working_type=37
 
 liverytype[0]=Southern
 liverytype[1]=GATEX
@@ -332,7 +332,7 @@ Constraint[Next][5]=BR-378Front
 Constraint[Next][6]=none
 
 driver[0]=1
-multiple_working_type=1
+multiple_working_type=37
 
 liverytype[0]=Southern
 liverytype[1]=GATEX

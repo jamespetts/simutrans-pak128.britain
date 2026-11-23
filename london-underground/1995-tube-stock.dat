@@ -45,7 +45,7 @@ Constraint[Prev][1]=none
 Constraint[Next][0]=1995TubeStockMiddle1
 
 driver[0]=1
-multiple_working_type=1
+multiple_working_type=20
 
 EmptyImage[E]=./images/lu-1995.0.0
 EmptyImage[SE]=./images/lu-1995.0.1
@@ -325,7 +325,7 @@ Constraint[Next][1]=none
 
 
 driver[0]=1
-multiple_working_type=1
+multiple_working_type=20
 
 EmptyImage[E]=./images/lu-1995.2.0
 EmptyImage[SE]=./images/lu-1995.2.1

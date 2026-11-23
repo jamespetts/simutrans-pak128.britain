@@ -51,9 +51,9 @@ Constraint[Prev][3]=none
 
 Constraint[Next][0]=BR-800FrontMS
 
-multiple_working_type=1
 
 driver[0]=1
+multiple_working_type=41
 
 liverytype[0]=Firstgroup-GWR
 liverytype[1]=LNER
@@ -564,9 +564,9 @@ Constraint[Prev][3]=BR-800MiddleFirst
 Constraint[Next][0]=BR-800Front
 Constraint[Next][1]=none
 
-multiple_working_type=1
 
 driver[0]=1
+multiple_working_type=41
 
 liverytype[0]=Firstgroup-GWR
 liverytype[1]=LNER
@@ -874,9 +874,9 @@ Constraint[Prev][3]=BR-800MiddleFirst
 Constraint[Next][0]=BR-800Front
 Constraint[Next][1]=none
 
-multiple_working_type=1
 
 driver[0]=1
+multiple_working_type=41
 
 liverytype[0]=Firstgroup-GWR
 liverytype[1]=LNER
@@ -1083,9 +1083,9 @@ Constraint[Prev][3]=BR-800MiddleFirst
 Constraint[Next][0]=BR-800Front
 Constraint[Next][1]=none
 
-multiple_working_type=1
 
 driver[0]=1
+multiple_working_type=41
 
 liverytype[0]=Firstgroup-GWR
 liverytype[1]=LNER

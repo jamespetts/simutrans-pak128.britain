@@ -30,6 +30,10 @@ Constraint[Next][6]=SchoonerAddLivestock
 
 Constraint[Prev][0]=none
 
+staff[7]=2
+staff[8]=4
+staff[9]=1
+
 EmptyImage[E]=./images/schooner_E.0.0
 EmptyImage[SE]=./images/schooner_SE.0.0
 EmptyImage[S]=./images/schooner_S.0.0

@@ -35,6 +35,7 @@ Constraint[Prev][1]=BR-Class58
 Constraint[Prev][2]=none
 
 driver[0]=1
+multiple_working_type=5
 
 EmptyImage[E]=./locomotives/br-cl56-b_E.0.0
 EmptyImage[SE]=./locomotives/br-cl56-b_SE.0.0

@@ -21,6 +21,7 @@ fixed_cost=11460
 sound=-1
 
 driver[0]=1
+multiple_working_type=15
 
 EmptyImage[E]=./images/br-cl90-gner.0.0
 EmptyImage[SE]=./images/br-cl90-gner.0.1
@@ -54,6 +55,7 @@ fixed_cost=11460
 sound=-1
 
 driver[0]=1
+multiple_working_type=15
 
 EmptyImage[E]=./images/br-cl90-nx.0.0
 EmptyImage[SE]=./images/br-cl90-nx.0.1

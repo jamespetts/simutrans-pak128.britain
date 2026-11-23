@@ -49,6 +49,8 @@ Constraint[Prev][20]=SteamNarrowboatLivestock
 
 Constraint[Next][0]=none
 
+staff[7]=1
+
 liverytype[0]=Private
 liverytype[1]=BW-Standard
 
@@ -217,6 +219,8 @@ Constraint[Prev][20]=SteamNarrowboatLivestock
 
 Constraint[Next][0]=none
 
+staff[7]=1
+
 liverytype[0]=Private
 liverytype[1]=BW-Standard
 
@@ -347,6 +351,8 @@ Constraint[Prev][20]=SteamNarrowboatLivestock
 
 Constraint[Next][0]=none
 
+staff[7]=1
+
 liverytype[0]=Private
 liverytype[1]=BW-Standard
 
@@ -419,6 +425,8 @@ Constraint[Prev][19]=SteamNarrowboatOil
 Constraint[Prev][20]=SteamNarrowboatLivestock
 
 Constraint[Next][0]=none
+
+staff[7]=1
 
 liverytype[0]=Private
 liverytype[1]=BW-Standard
@@ -494,6 +502,8 @@ Constraint[Prev][20]=SteamNarrowboatLivestock
 
 Constraint[Next][0]=none
 
+staff[7]=1
+
 liverytype[0]=Private
 liverytype[1]=BW-Standard
 
@@ -566,6 +576,8 @@ Constraint[Prev][19]=SteamNarrowboatOil
 Constraint[Prev][20]=SteamNarrowboatLivestock
 
 Constraint[Next][0]=none
+
+staff[7]=1
 
 liverytype[0]=Private
 liverytype[1]=BW-Standard

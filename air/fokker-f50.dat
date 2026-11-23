@@ -41,6 +41,9 @@ range=2055
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[10]=2
+staff[11]=1
+
 EmptyImage[E]=./images/fokker-f50_E.0.0
 EmptyImage[SE]=./images/fokker-f50_SE.0.0
 EmptyImage[S]=./images/fokker-f50_S.0.0
@@ -91,6 +94,9 @@ range=2055
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
+
+staff[10]=2
+staff[11]=2
 
 EmptyImage[E]=./images/fokker-f50_E.0.0
 EmptyImage[SE]=./images/fokker-f50_SE.0.0

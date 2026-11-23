@@ -49,7 +49,7 @@ Constraint[Next][2]=District_A_StockRearDM
 # These were apparently originally bright yellow: see Hamilton Ellis p. 260.
 
 driver[0]=1
-multiple_working_type=1
+multiple_working_type=21
 
 EmptyImage[E]=./images/district-a-stock-front.1.4
 EmptyImage[SE]=./images/district-a-stock-front.1.5
@@ -215,7 +215,7 @@ Constraint[Next][3]=none
 
 driver[0]=1
 staff[2]=1
-multiple_working_type=1
+multiple_working_type=21
 
 EmptyImage[E]=./images/district-a-stock-rear.1.4
 EmptyImage[SE]=./images/district-a-stock-rear.1.5

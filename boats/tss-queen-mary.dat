@@ -38,6 +38,10 @@ way_constraint_prohibitive[6]=6 # Large ship
 Constraint[Next][0]=TSSQueenMaryMail
 Constraint[Prev][0]=none
 
+staff[7]=11
+staff[8]=22
+staff[9]=12
+
 EmptyImage[E]=./images/tss-queen-mary_E.0.0
 EmptyImage[SE]=./images/tss-queen-mary_SE.0.0
 EmptyImage[S]=./images/tss-queen-mary_S.0.0

@@ -45,7 +45,7 @@ Constraint[Prev][1]=none
 Constraint[Next][0]=1906TubeStockTrailer
 
 driver[0]=1
-multiple_working_type=1
+multiple_working_type=20
 
 liverytype[0]=UERL
 liverytype[1]=LT
@@ -112,9 +112,9 @@ Constraint[Next][1]=1906TubeStockRear
 Constraint[Next][2]=1914TubeStockRear
 Constraint[Next][3]=none
 
-multiple_working_type=1
 
 driver[0]=1
+multiple_working_type=20
 
 liverytype[0]=UERL
 liverytype[1]=LT
@@ -184,7 +184,7 @@ Constraint[Next][1]=none
 
 driver[0]=1
 staff[2]=1
-multiple_working_type=1
+multiple_working_type=20
 
 liverytype[0]=UERL
 liverytype[1]=LT

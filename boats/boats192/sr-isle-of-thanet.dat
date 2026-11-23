@@ -39,6 +39,10 @@ way_constraint_prohibitive[6]=6 # Large ship
 Constraint[Next][0]=SRIsleOfThanetAddMail
 Constraint[Prev][0]=none
 
+staff[7]=9
+staff[8]=12
+staff[9]=24
+
 EmptyImage[E]=../images/sr-isle-of-thanet_E.0.0,-31,-46
 EmptyImage[SE]=../images/sr-isle-of-thanet_SE.0.0,-31,-46
 EmptyImage[S]=../images/sr-isle-of-thanet_S.0.0,-31,-46

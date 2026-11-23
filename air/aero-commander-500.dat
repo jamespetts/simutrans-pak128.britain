@@ -44,6 +44,8 @@ sound=planelow.wav
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[10]=1
+
 EmptyImage[E]=./images/aero-commander-520_E.0.0
 EmptyImage[SE]=./images/aero-commander-520_SE.0.0
 EmptyImage[S]=./images/aero-commander-520_S.0.0
@@ -92,6 +94,8 @@ sound=planelow.wav
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
+
+staff[10]=1
 
 EmptyImage[E]=./images/aero-commander-500_E.0.0
 EmptyImage[SE]=./images/aero-commander-500_SE.0.0
@@ -145,6 +149,8 @@ sound=bigpickle51-turboprop.wav
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
+
+staff[10]=1
 
 EmptyImage[E]=./images/aero-commander-681_E.0.0
 EmptyImage[SE]=./images/aero-commander-681_SE.0.0

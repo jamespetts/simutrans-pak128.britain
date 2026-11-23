@@ -33,6 +33,10 @@ Constraint[Prev][0]=none
 Constraint[Next][0]=ferry-mail
 Constraint[Next][1]=none
 
+staff[7]=3
+staff[8]=1
+staff[9]=2
+
 EmptyImage[E]=./images/hsc-wight-ryder.1.0
 EmptyImage[SE]=./images/hsc-wight-ryder.1.1
 EmptyImage[S]=./images/hsc-wight-ryder.1.2

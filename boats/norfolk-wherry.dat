@@ -35,6 +35,9 @@ max_loading_time=3600
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[7]=1
+staff[8]=1
+
 way_constraint_permissive[4]=4  # Waterway
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
@@ -131,6 +134,9 @@ way_constraint_prohibitive[6]=6 # Large ship
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[7]=1
+staff[8]=1
+
 EmptyImage[E]=./images/norfolk-wherry-empty_E.0.0,-33,14
 EmptyImage[SE]=./images/norfolk-wherry-empty_SE.0.0,-13,0
 EmptyImage[S]=./images/norfolk-wherry-empty_S.0.0,0,0
@@ -193,6 +199,9 @@ way_constraint_prohibitive[6]=6 # Large ship
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[7]=1
+staff[8]=1
+
 EmptyImage[E]=./images/norfolk-wherry-empty_E.0.0,-33,14
 EmptyImage[SE]=./images/norfolk-wherry-empty_SE.0.0,-13,0
 EmptyImage[S]=./images/norfolk-wherry-empty_S.0.0,0,0
@@ -239,6 +248,9 @@ max_loading_time=3600
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
+
+staff[7]=1
+staff[8]=1
 
 way_constraint_permissive[4]=4  # Waterway
 way_constraint_prohibitive[5]=5 # Ship
@@ -290,6 +302,9 @@ max_loading_time=360
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
+
+staff[7]=1
+staff[8]=1
 
 way_constraint_permissive[4]=4  # Waterway
 way_constraint_prohibitive[5]=5 # Ship
@@ -345,6 +360,9 @@ max_loading_time=180
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[7]=1
+staff[8]=1
+
 way_constraint_permissive[4]=4  # Waterway
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
@@ -391,6 +409,9 @@ is_tall=1
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
+
+staff[7]=1
+staff[8]=1
 
 # 45-60 minutes
 min_loading_time=2700

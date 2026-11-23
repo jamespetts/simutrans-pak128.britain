@@ -46,6 +46,9 @@ range=5436
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[10]=2
+staff[11]=4
+
 liverytype[0]=BA-new
 liverytype[1]=Private-operator
 
@@ -102,6 +105,9 @@ range=5436
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
+
+staff[10]=2
+staff[11]=4
 
 EmptyImage[E]=./images/boeing-737-800-ryanair_E.0.0
 EmptyImage[SE]=./images/boeing-737-800-ryanair_SE.0.0

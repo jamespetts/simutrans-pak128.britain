@@ -32,6 +32,8 @@ range=1528
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[10]=2
+
 EmptyImage[E]=images/ATR_72_500_FarnairEurope.0.2
 EmptyImage[SE]=images/ATR_72_500_FarnairEurope.0.1
 EmptyImage[S]=images/ATR_72_500_FarnairEurope.0.0

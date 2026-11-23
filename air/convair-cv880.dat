@@ -49,6 +49,9 @@ upgrade[0]=convair-cv880-high-density
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[10]=3
+staff[11]=2
+
 EmptyImage[E]=./images/convair-cv880_E.0.0
 EmptyImage[SE]=./images/convair-cv880_SE.0.0
 EmptyImage[S]=./images/convair-cv880_S.0.0
@@ -104,6 +107,9 @@ upgrade[0]=convair-cv880
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
+
+staff[10]=3
+staff[11]=3
 
 EmptyImage[E]=./images/convair-cv880_E.0.0
 EmptyImage[SE]=./images/convair-cv880_SE.0.0

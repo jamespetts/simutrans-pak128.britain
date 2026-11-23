@@ -52,6 +52,9 @@ upgrade[0]=boeing-707-120-high-density
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[10]=4
+staff[11]=3
+
 liverytype[0]=Private-operator
 liverytype[1]=Dan-Air-White-Tail
 liverytype[2]=Dan-Air-Red-Tail
@@ -131,6 +134,9 @@ upgrade[0]=Boeing_707_120
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
+
+staff[10]=4
+staff[11]=4
 
 liverytype[0]=Private-operator
 liverytype[1]=Dan-Air-White-Tail

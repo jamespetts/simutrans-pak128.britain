@@ -42,7 +42,7 @@ Constraint[Next][1]=BR-196Middle
 Constraint[Next][2]=BR-196Rear-first
 
 driver[0]=1
-multiple_working_type=1
+multiple_working_type=43
 
 liverytype[0]=west-midlands-network
 
@@ -101,7 +101,7 @@ Constraint[Next][1]=BR-196Middle
 Constraint[Next][2]=BR-196Rear-first
 
 driver[0]=1
-multiple_working_type=1
+multiple_working_type=43
 
 liverytype[0]=west-midlands-network
 
@@ -162,7 +162,7 @@ Constraint[Next][2]=none
 
 driver[0]=1
 staff[2]=1
-multiple_working_type=1
+multiple_working_type=43
 
 liverytype[0]=west-midlands-network
 
@@ -226,7 +226,8 @@ Constraint[Next][1]=BR-196Front-trolley
 Constraint[Next][2]=none
 
 driver[0]=1
-multiple_working_type=1
+staff[2]=1
+multiple_working_type=43
 
 liverytype[0]=west-midlands-network
 

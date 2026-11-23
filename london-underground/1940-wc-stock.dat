@@ -44,7 +44,7 @@ Constraint[Prev][1]=none
 Constraint[Next][0]=1940TubeStockMiddle
 
 driver[0]=1
-multiple_working_type=1
+multiple_working_type=20
 
 liverytype[0]=SR-Malachite-Green
 liverytype[1]=BR-Blue
@@ -196,7 +196,7 @@ Constraint[Next][1]=none
 
 driver[0]=1
 staff[2]=1
-multiple_working_type=1
+multiple_working_type=20
 
 liverytype[0]=SR-Malachite-Green
 liverytype[1]=BR-Blue

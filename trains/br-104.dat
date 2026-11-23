@@ -55,7 +55,7 @@ Constraint[Next][0]=BR-104Rear
 Constraint[Next][1]=BR-104Middle
 
 driver[0]=1
-multiple_working_type=1
+multiple_working_type=9
 
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue
@@ -261,7 +261,7 @@ Constraint[Next][8]=none
 
 driver[0]=1
 staff[2]=1
-multiple_working_type=1
+multiple_working_type=9
 
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue

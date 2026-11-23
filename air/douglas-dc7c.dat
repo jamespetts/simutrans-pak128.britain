@@ -46,6 +46,9 @@ range=9012
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[10]=5
+staff[11]=2
+
 EmptyImage[E]=./images/douglas-dc-7c_E.0.0
 EmptyImage[SE]=./images/douglas-dc-7c_SE.0.0
 EmptyImage[S]=./images/douglas-dc-7c_S.0.0
@@ -102,6 +105,9 @@ range=9012
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
+
+staff[10]=5
+staff[11]=3
 
 EmptyImage[E]=./images/douglas-dc-7c_E.0.0
 EmptyImage[SE]=./images/douglas-dc-7c_SE.0.0

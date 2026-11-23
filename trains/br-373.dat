@@ -38,6 +38,7 @@ Constraint[Prev][0]=none
 Constraint[Next][0]=BR-373FrontPower
 
 driver[0]=1
+multiple_working_type=54
 
 liverytype[0]=Eurostar-original
 liverytype[1]=GNER
@@ -864,6 +865,7 @@ Constraint[Prev][0]=BR-373RearPower
 Constraint[Next][0]=none
 
 driver[0]=1
+multiple_working_type=54
 
 liverytype[0]=Eurostar-original
 liverytype[1]=GNER

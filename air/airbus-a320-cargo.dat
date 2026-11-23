@@ -32,6 +32,8 @@ range=5700
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[10]=2
+
 EmptyImage[E]=./images/A320_AerLingus_Cargo.0.2
 EmptyImage[SE]=./images/A320_AerLingus_Cargo.0.1
 EmptyImage[S]=./images/A320_AerLingus_Cargo.0.0
@@ -75,6 +77,8 @@ range=5700
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[10]=2
+
 EmptyImage[E]=./images/A320_AerLingus_Cargo.0.2
 EmptyImage[SE]=./images/A320_AerLingus_Cargo.0.1
 EmptyImage[S]=./images/A320_AerLingus_Cargo.0.0
@@ -117,6 +121,8 @@ range=5700
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
+
+staff[10]=2
 
 EmptyImage[E]=./images/A320_AerLingus_Cargo.0.2
 EmptyImage[SE]=./images/A320_AerLingus_Cargo.0.1

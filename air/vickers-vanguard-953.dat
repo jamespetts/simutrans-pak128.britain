@@ -53,6 +53,9 @@ range=2945
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[10]=3
+staff[11]=3
+
 # This is probably close enough
 EmptyImage[E]=./images/vickers-vanguard-952-bea_E.0.0
 EmptyImage[SE]=./images/vickers-vanguard-952-bea_SE.0.0
@@ -110,6 +113,8 @@ range=2945
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[10]=3
+
 EmptyImage[E]=./images/vickers-vanguard-953-ba-cargo_E.0.0
 EmptyImage[SE]=./images/vickers-vanguard-953-ba-cargo_SE.0.0
 EmptyImage[S]=./images/vickers-vanguard-953-ba-cargo_S.0.0
@@ -165,6 +170,8 @@ range=2945
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
+
+staff[10]=3
 
 EmptyImage[E]=./images/vickers-vanguard-953-ba-cargo_E.0.0
 EmptyImage[SE]=./images/vickers-vanguard-953-ba-cargo_SE.0.0

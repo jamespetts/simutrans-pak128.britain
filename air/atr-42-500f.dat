@@ -32,6 +32,8 @@ range=1555
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[10]=2
+
 EmptyImage[E]=images/ATR_42_500F_DHLWhite_Cargo.0.2
 EmptyImage[SE]=images/ATR_42_500F_DHLWhite_Cargo.0.1
 EmptyImage[S]=images/ATR_42_500F_DHLWhite_Cargo.0.0
@@ -76,6 +78,8 @@ range=1555
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[10]=2
+
 EmptyImage[E]=images/ATR_42_500F_DHLYellow_Cargo.0.2
 EmptyImage[SE]=images/ATR_42_500F_DHLYellow_Cargo.0.1
 EmptyImage[S]=images/ATR_42_500F_DHLYellow_Cargo.0.0
@@ -119,6 +123,8 @@ range=1555
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
+
+staff[10]=2
 
 EmptyImage[E]=images/ATR_42_500F_DHLYellow_Cargo.0.2
 EmptyImage[SE]=images/ATR_42_500F_DHLYellow_Cargo.0.1

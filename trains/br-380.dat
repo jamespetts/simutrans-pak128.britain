@@ -41,7 +41,7 @@ Constraint[Prev][1]=none
 Constraint[Next][0]=BR-380(centre1)
 
 driver[0]=1
-multiple_working_type=1
+multiple_working_type=56
 
 EmptyImage[E]=./railcars/br-380-front.1.4
 EmptyImage[SE]=./railcars/br-380-front.1.5
@@ -200,7 +200,7 @@ Constraint[Next][0]=BR-380(front)
 Constraint[Next][1]=none
 
 driver[0]=1
-multiple_working_type=1
+multiple_working_type=56
 
 EmptyImage[E]=./railcars/br-380-rear.1.4
 EmptyImage[SE]=./railcars/br-380-rear.1.5

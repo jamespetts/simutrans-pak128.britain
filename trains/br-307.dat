@@ -42,9 +42,9 @@ Constraint[Prev][1]=none
 
 Constraint[Next][0]=BR-307(centre1)
 
-multiple_working_type=1
 
 driver[0]=1
+multiple_working_type=32
 
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue
@@ -305,11 +305,11 @@ Constraint[Prev][0]=BR-307(centre2)
 Constraint[Next][0]=BR-307(front)
 Constraint[Next][1]=none
 
-multiple_working_type=1
 
 staff[2]=1
 
 driver[0]=1
+multiple_working_type=32
 
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue

@@ -47,7 +47,7 @@ Constraint[Next][2]=LMS-502MiddleComposite
 #fixed_coupling[next]=1
 
 driver[0]=1
-multiple_working_type=1
+multiple_working_type=30
 
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
@@ -314,11 +314,11 @@ Constraint[Prev][2]=LMS-502MiddleComposite
 Constraint[Next][0]=LMS-502Front
 Constraint[Next][1]=none
 
-multiple_working_type=1
 
 staff[2]=1
 
 driver[0]=1
+multiple_working_type=30
 
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early

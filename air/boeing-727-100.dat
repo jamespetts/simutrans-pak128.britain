@@ -47,6 +47,9 @@ upgrade[0]=boeing-727-100-high-density
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[10]=3
+staff[11]=3
+
 EmptyImage[E]=./images/727_100_DanAirLondon.0.2
 EmptyImage[SE]=./images/727_100_DanAirLondon.0.1
 EmptyImage[S]=./images/727_100_DanAirLondon.0.0
@@ -101,6 +104,9 @@ upgrade[0]=boeing-727-100
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
+
+staff[10]=3
+staff[11]=3
 
 EmptyImage[E]=./images/727_100_DanAirLondon.0.2
 EmptyImage[SE]=./images/727_100_DanAirLondon.0.1

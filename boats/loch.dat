@@ -42,6 +42,10 @@ Constraint[Next][6]=CarferryAddCar1
 Constraint[Next][7]=ferry-mail
 Constraint[Next][8]=none
 
+staff[7]=3
+staff[8]=1
+staff[9]=1
+
 EmptyImage[E]=./images/loch.0.0,-16,-8
 EmptyImage[SE]=./images/loch.0.1
 EmptyImage[S]=./images/loch.0.2,16,-8

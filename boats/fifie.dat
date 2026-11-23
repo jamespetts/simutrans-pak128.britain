@@ -27,6 +27,9 @@ way_constraint_prohibitive[6]=6 # Large ship
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[7]=2
+staff[8]=5
+
 EmptyImage[E]=./images/fifie.1.0
 EmptyImage[SE]=./images/fifie.1.1
 EmptyImage[S]=./images/fifie.1.2

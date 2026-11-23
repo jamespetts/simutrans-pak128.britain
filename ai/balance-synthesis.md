@@ -313,14 +313,16 @@ uncertainty is the timescale of per-month charges (M2).
    kilograms. The series equals the pithead price in shillings and the file comment says kilograms;
    both cannot be right. [fuel-evidence](fuel-evidence.md)
 4. **M4 — the staff domain (resolved 2026-11-23).** `staff.tab` is now compiled as annual old
-   pence × 10/3, with seven grade series from the 1907 Board of Trade rates, the 1914-1925 Hansard
-   ranges, the 1962 Hansard standard time rates (1914, 1920, 1930, 1940, 1950, 1961), the 1946
-   grades, the New Earnings Survey of April 1980 and the ASHE medians 1999-2026. The
-   reconstruction and its estimates are in
+   pence × 10/3, with twelve grade series: seven land grades from the 1907 Board of Trade rates, the
+   1914-1925 Hansard ranges, the 1962 Hansard standard time rates (1914, 1920, 1930, 1940, 1950,
+   1961), the 1946 grades, the New Earnings Survey of April 1980 and the ASHE medians 1999-2026;
+   three sea grades from the 18th-century rates, the 1912 able seaman, the 1928-1960 National
+   Maritime Board series and ASHE; and two air grades from the 1924, 1954 and 1969 anchors and ASHE.
+   The reconstruction and its estimates are in
    [staff-wages/reconstruction](staff-wages/reconstruction.md), and the post-1980 evidence and
    the 2026-2050 projection in [staff-wages/post-1980](staff-wages/post-1980.md). Remaining: the
-   complement each vehicle class requires, the 1926-1968 fireman/guard rates, and the 1981-1998
-   grade series.
+   1926-1968 fireman/guard rates, the 1981-1998 grade series, sea 1938-1966 and 1981-1989, and air
+   1909-1998.
 5. **M5 — the residual head.** Railway Returns "repairs to carriages and wagons" and the traffic-expense
    columns, divided by stock and by receipts, would separate the largest gap.
 6. **M6 — an average-mix line.** Asset counts by line class from a real company's accounts.

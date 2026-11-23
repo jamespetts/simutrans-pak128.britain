@@ -40,7 +40,7 @@ Constraint[Next][0]=BR-195Rear
 Constraint[Next][1]=BR-195Middle
 
 driver[0]=1
-multiple_working_type=1
+multiple_working_type=43
 
 liverytype[0]=Northern
 
@@ -100,7 +100,7 @@ Constraint[Next][1]=none
 
 driver[0]=1
 staff[2]=1
-multiple_working_type=1
+multiple_working_type=43
 
 liverytype[0]=Northern
 

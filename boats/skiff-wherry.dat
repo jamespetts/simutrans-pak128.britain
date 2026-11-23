@@ -35,6 +35,8 @@ range=6
 Constraint[Next][0]=mail-space
 Constraint[Prev][0]=none
 
+staff[7]=1
+
 way_constraint_prohibitive[2]=2 # Barge
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
@@ -87,6 +89,8 @@ range=6
 
 Constraint[Next][0]=mail-space
 Constraint[Prev][0]=none
+
+staff[7]=1
 
 way_constraint_prohibitive[2]=2 # Barge
 way_constraint_prohibitive[5]=5 # Ship
@@ -141,6 +145,8 @@ range=6
 Constraint[Next][0]=mail-space
 Constraint[Prev][0]=none
 
+staff[7]=1
+
 way_constraint_prohibitive[2]=2 # Barge
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
@@ -193,6 +199,8 @@ range=6
 
 Constraint[Next][0]=mail-space
 Constraint[Prev][0]=none
+
+staff[7]=1
 
 way_constraint_prohibitive[2]=2 # Barge
 way_constraint_prohibitive[5]=5 # Ship
@@ -247,6 +255,8 @@ range=6
 Constraint[Next][0]=mail-space
 Constraint[Prev][0]=none
 
+staff[7]=1
+
 way_constraint_prohibitive[2]=2 # Barge
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
@@ -299,6 +309,8 @@ range=6
 
 Constraint[Next][0]=mail-space
 Constraint[Prev][0]=none
+
+staff[7]=1
 
 way_constraint_prohibitive[2]=2 # Barge
 way_constraint_prohibitive[5]=5 # Ship

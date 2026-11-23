@@ -41,6 +41,10 @@ comfort[3]=80
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[7]=4
+staff[8]=7
+staff[9]=3
+
 EmptyImage[E]=./images/clyde-steamer_E.0.0
 EmptyImage[SE]=./images/clyde-steamer_SE.0.0
 EmptyImage[S]=./images/clyde-steamer_S.0.0

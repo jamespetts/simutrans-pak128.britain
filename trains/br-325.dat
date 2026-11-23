@@ -31,9 +31,9 @@ Constraint[Prev][1]=none
 
 Constraint[Next][0]=BR-325Power
 
-multiple_working_type=1
 
 driver[0]=1
+multiple_working_type=45
 
 EmptyImage[E]=./railcars/br-325-driving-front_E.0.0
 EmptyImage[SE]=./railcars/br-325-driving-front_SE.0.0
@@ -165,9 +165,9 @@ Constraint[Next][0]=BR-325Front
 Constraint[Next][1]=none
 has_rear_cab=1
 
-multiple_working_type=1
 
 driver[0]=1
+multiple_working_type=45
 
 EmptyImage[E]=./railcars/br-325-driving-rear_E.0.0
 EmptyImage[SE]=./railcars/br-325-driving-rear_SE.0.0

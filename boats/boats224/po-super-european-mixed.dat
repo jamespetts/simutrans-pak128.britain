@@ -35,6 +35,10 @@ Constraint[Next][1]=POSuperEuropeanMixedAddPiece
 Constraint[Next][2]=POSuperEuropeanMixedAddCool
 Constraint[Prev][0]=none
 
+staff[7]=13
+staff[8]=26
+staff[9]=46
+
 EmptyImage[E]=../images/po-super-european-pax.1.0,-31,-46
 EmptyImage[SE]=../images/po-super-european-pax.1.1,-31,-46
 EmptyImage[S]=../images/po-super-european-pax.1.2,-31,-46

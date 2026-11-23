@@ -44,7 +44,7 @@ Constraint[Prev][1]=none
 Constraint[Next][0]=BR-717MiddleTrailer
 
 driver[0]=1
-multiple_working_type=1
+multiple_working_type=39
 
 liverytype[0]=GTR
 
@@ -314,7 +314,7 @@ Constraint[Next][0]=BR-717Front
 Constraint[Next][1]=none
 
 driver[0]=1
-multiple_working_type=1
+multiple_working_type=39
 
 liverytype[0]=GTR
 

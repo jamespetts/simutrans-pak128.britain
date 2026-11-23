@@ -43,6 +43,8 @@ sound=bigpickle51-turboprop.wav
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[10]=2
+
 EmptyImage[E]=./images/fairchild-metroliner_E.0.0
 EmptyImage[SE]=./images/fairchild-metroliner_SE.0.0
 EmptyImage[S]=./images/fairchild-metroliner_S.0.0
@@ -86,6 +88,8 @@ air_resistance=50
 minimum_runway_length=870
 
 range=1100
+
+staff[10]=2
 
 sound=bigpickle51-turboprop.wav
 
@@ -132,6 +136,8 @@ minimum_runway_length=870
 
 range=1100
 
+staff[10]=2
+
 sound=bigpickle51-turboprop.wav
 
 EmptyImage[E]=./images/fairchild-metroliner-cargo_E.0.0
@@ -176,6 +182,8 @@ air_resistance=50
 minimum_runway_length=870
 
 range=1100
+
+staff[10]=2
 
 sound=bigpickle51-turboprop.wav
 

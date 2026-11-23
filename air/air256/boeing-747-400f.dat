@@ -32,6 +32,8 @@ minimum_runway_length=3500
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[10]=2
+
 EmptyImage[E]=../images/747_400F_CargoLux.0.2,-62,-92
 EmptyImage[SE]=../images/747_400F_CargoLux.0.1,-62,-92
 EmptyImage[S]=../images/747_400F_CargoLux.0.0,-62,-92
@@ -74,6 +76,8 @@ minimum_runway_length=3500
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[10]=2
+
 EmptyImage[E]=../images/747_400F_CargoLux.0.2,-62,-92
 EmptyImage[SE]=../images/747_400F_CargoLux.0.1,-62,-92
 EmptyImage[S]=../images/747_400F_CargoLux.0.0,-62,-92
@@ -115,6 +119,8 @@ minimum_runway_length=3500
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
+
+staff[10]=2
 
 EmptyImage[E]=../images/747_400F_CargoLux.0.2,-62,-92
 EmptyImage[SE]=../images/747_400F_CargoLux.0.1,-62,-92

@@ -2,9 +2,17 @@
 status: draft
 verified: New ex-15 working tree, 2026-11-23
 ---
-# Crew register: ---
+# Crew register: aircraft
 
-Evidence for [../aircraft.md](../aircraft.md). One row per airframe.
+Evidence for [../aircraft.md](../aircraft.md). One row per airframe, not per object.
+
+The pakset holds 230 air vehicle objects in three folders (`air/`, `air192/`, `air256/`): 158
+passenger objects (108 airframes plus 50 `-high-density` variants), 39 mail objects and 33 freight
+objects. Each object carries its own declaration. The cabin-crew column below is the base
+airframe's figure; 30 of the 50 high-density variants carry more cabin crew because their own seat
+total crosses a 50-seat boundary. The full object-level table is in the research record used to
+make the declarations, and the declared values are in the `.dat` files. `[CODE New ex-15 working
+tree, 2026-11-23]`
 
 ## Table 1: passenger airframes
 
@@ -13,10 +21,10 @@ Evidence for [../aircraft.md](../aircraft.md). One row per airframe.
 | `zeppelin-lz6` | Luftschiffbau Zeppelin LZ 6 | 1909 | 20 | 3 (3 in the control-car watch) | 1 | F7, C1 - estimate |
 | `Zeppelin_LZ10` | Luftschiffbau Zeppelin LZ 10 Schwaben | 1911 | 20 | 3 (3 in the control-car watch) | 1 | F7, C1 - estimate |
 | `HandleyPageO400` | Handley Page O/400 | 1918 | 8 | 2 (2 pilots) | 0 | F2, C0 - twin-engine |
-| `junkers-f13` | Junkers F 13 | 1920 | 4 | 1 (1 pilot) | 0 | F1, C0 - single-engine; one pilot assumed |
+| `junkers-f13` | Junkers F 13 | 1920 | 4 | 2 (2 pilots) | 0 | F2, C0 - two-seat open cockpit, sourced |
 | `HandleyPageW8b` | Handley Page W.8b | 1921 | 12 | 2 (2 pilots) | 0 | F2, C0 - twin-engine |
 | `ford-trimotor` | Ford Trimotor | 1926 | 12 | 2 (2 pilots) | 0 | F2, C0 - three-engine |
-| `junkers-w34` | Junkers W 34 | 1926 | 6 | 1 (1 pilot) | 0 | F1, C0 - single-engine; one pilot assumed |
+| `junkers-w34` | Junkers W 34 | 1926 | 6 | 2 (2 pilots) | 0 | F2, C0 - two-seat cockpit, same arrangement as the F 13 |
 | `lockheed-vega` | Lockheed Vega | 1928 | 6 | 1 (1 pilot) | 0 | F1, C0 - single-engine |
 | `zeppelin-lz127` | Luftschiffbau Zeppelin LZ 127 Graf Zeppelin | 1928 | 20 | 4 (4 in the control-car watch) | 1 | F7, C1 - estimate |
 | `ju-52` | Junkers Ju 52/3m | 1931 | 17 | 2 (2 pilots) | 0 | F2, C0 - three-engine |
@@ -127,3 +135,4 @@ Evidence for [../aircraft.md](../aircraft.md). One row per airframe.
 | `MailMonoPlane` | unidentified 1910 mail monoplane | 1910 | mail | 1 (1 pilot) | 0 | F1, C0 - estimate |
 | `dhc3-otter` | de Havilland Canada DHC-3 Otter | 1953 | mail, 1,900 kg | 1 (1 pilot) | 0 | F1, C0 |
 | `boeing-707-320c` | Boeing 707-320C | 1958 | mail, 17,800 kg | 4 (2 pilots + flight engineer + navigator) | 0 | F4, C0 - the pakset models this airframe as a mail carrier only |
+| `atr-42-300f` | ATR 42-300F | 1985 | mail 4,800 kg; piece and cool 56 | 2 (2 pilots) | 0 | F2, C0 - three freight objects, no passenger counterpart |

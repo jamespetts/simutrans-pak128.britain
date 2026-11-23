@@ -34,6 +34,9 @@ Constraint[Prev][1]=BoatHorsesSingle
 
 Constraint[Next][0]=PacketBargeAddMail
 
+staff[7]=1
+staff[8]=2
+
 EmptyImage[E]=./images/dumb-barge-wooden-passenger-packet-boat.1.4
 EmptyImage[SE]=./images/dumb-barge-wooden-passenger-packet-boat.1.5
 EmptyImage[S]=./images/dumb-barge-wooden-passenger-packet-boat.1.6

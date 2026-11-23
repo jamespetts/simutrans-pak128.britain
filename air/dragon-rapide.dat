@@ -46,6 +46,8 @@ sound=andysvideo-vickers-vimy.wav
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[10]=1
+
 EmptyImage[E]=./images/dragon-rapide_E.0.0
 EmptyImage[SE]=./images/dragon-rapide_SE.0.0
 EmptyImage[S]=./images/dragon-rapide_S.0.0
@@ -93,6 +95,8 @@ sound=andysvideo-vickers-vimy.wav
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
+
+staff[10]=1
 
 EmptyImage[E]=./images/dragon-rapide_E.0.0
 EmptyImage[SE]=./images/dragon-rapide_SE.0.0

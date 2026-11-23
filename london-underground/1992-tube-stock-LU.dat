@@ -45,7 +45,7 @@ Constraint[Prev][1]=none
 Constraint[Next][0]=1992TubeStockMiddle1
 
 driver[0]=1
-multiple_working_type=1
+multiple_working_type=20
 
 liverytype[0]=LUL
 liverytype[1]=NSE-Standard
@@ -252,7 +252,7 @@ Constraint[Next][0]=1992TubeStockFront
 Constraint[Next][1]=none
 
 driver[0]=1
-multiple_working_type=1
+multiple_working_type=20
 
 liverytype[0]=LUL
 liverytype[1]=NSE-Standard

@@ -55,6 +55,9 @@ upgrade[0]=dh-comet-4-high-density
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[10]=4
+staff[11]=2
+
 liverytype[0]=BOAC-speedbird
 liverytype[1]=Private-operator
 
@@ -128,6 +131,9 @@ upgrade[0]=dh-comet-4
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
+
+staff[10]=4
+staff[11]=3
 
 liverytype[0]=BOAC-speedbird
 liverytype[1]=Private-operator

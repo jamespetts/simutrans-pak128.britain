@@ -48,7 +48,7 @@ Constraint[Next][0]=LOR-EMU(trailer)
 Constraint[Next][1]=none
 
 driver[0]=1
-multiple_working_type=1
+multiple_working_type=24
 
 EmptyImage[E]=./railcars/lor-emu.0.0
 EmptyImage[SE]=./railcars/lor-emu.0.1
@@ -106,11 +106,11 @@ Constraint[Prev][0]=LOR-EMU(front)
 Constraint[Next][0]=LOR-EMU(front)
 Constraint[Next][1]=none
 
-multiple_working_type=1
 
 staff[2]=1
 
 driver[0]=1
+multiple_working_type=24
 
 EmptyImage[E]=./railcars/lor-emu.1.0
 EmptyImage[SE]=./railcars/lor-emu.1.1

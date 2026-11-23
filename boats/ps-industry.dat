@@ -31,6 +31,10 @@ way_constraint_prohibitive[6]=6 # Large ship
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[7]=2
+staff[8]=5
+staff[9]=1
+
 EmptyImage[E]=./images/ps-industry-empty.1.0
 EmptyImage[SE]=./images/ps-industry-empty.1.1
 EmptyImage[S]=./images/ps-industry-empty.1.2
@@ -81,6 +85,10 @@ way_constraint_prohibitive[6]=6 # Large ship
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[7]=2
+staff[8]=5
+staff[9]=1
+
 EmptyImage[E]=./images/ps-industry-empty.1.0
 EmptyImage[SE]=./images/ps-industry-empty.1.1
 EmptyImage[S]=./images/ps-industry-empty.1.2
@@ -130,6 +138,10 @@ way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
+
+staff[7]=2
+staff[8]=5
+staff[9]=1
 
 EmptyImage[E]=./images/ps-industry-empty.1.0
 EmptyImage[SE]=./images/ps-industry-empty.1.1

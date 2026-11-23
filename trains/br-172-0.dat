@@ -42,7 +42,7 @@ Constraint[Next][0]=BR-172-0Rear
 Constraint[Next][1]=BR-172-0Middle
 
 driver[0]=1
-multiple_working_type=1
+multiple_working_type=18
 
 EmptyImage[E]=./railcars/br-172-front-lorol.1.4
 EmptyImage[SE]=./railcars/br-172-front-lorol.1.5
@@ -100,7 +100,7 @@ Constraint[Next][1]=none
 
 driver[0]=1
 staff[2]=1
-multiple_working_type=1
+multiple_working_type=18
 
 EmptyImage[E]=./railcars/br-172-rear-lorol.1.4
 EmptyImage[SE]=./railcars/br-172-rear-lorol.1.5

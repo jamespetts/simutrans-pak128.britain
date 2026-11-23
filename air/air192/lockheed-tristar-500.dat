@@ -50,6 +50,9 @@ upgrade[0]=tristar-500-high-density
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[10]=3
+staff[11]=5
+
 EmptyImage[E]=../images/tristar-500_E.0.0,-64,-56
 EmptyImage[SE]=../images/tristar-500_SE.0.0,-32,-32
 EmptyImage[S]=../images/tristar-500_S.0.0,-110,0
@@ -104,6 +107,9 @@ upgrade[0]=tristar-500
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
+
+staff[10]=3
+staff[11]=7
 
 EmptyImage[E]=../images/tristar-500_E.0.0,-64,-56
 EmptyImage[SE]=../images/tristar-500_SE.0.0,-32,-32

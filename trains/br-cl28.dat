@@ -39,6 +39,7 @@ Constraint[Prev][4]=BR-Class30
 Constraint[Prev][5]=none
 
 driver[0]=1
+multiple_working_type=2
 
 liverytype[0]=BR-Early
 liverytype[1]=BR-Blue
@@ -106,6 +107,7 @@ Constraint[Prev][4]=BR-Class30
 Constraint[Prev][5]=none
 
 driver[0]=1
+multiple_working_type=2
 
 liverytype[0]=BR-Early
 liverytype[1]=BR-Blue

@@ -40,7 +40,7 @@ Constraint[Prev][1]=none
 Constraint[Next][0]=BR-707MiddleTrailer
 
 driver[0]=1
-multiple_working_type=1
+multiple_working_type=39
 
 liverytype[0]=SWT-modified
 liverytype[1]=southeastern-blue
@@ -354,7 +354,7 @@ Constraint[Next][0]=BR-707Front
 Constraint[Next][1]=none
 
 driver[0]=1
-multiple_working_type=1
+multiple_working_type=39
 
 liverytype[0]=SWT-modified
 liverytype[1]=southeastern-blue

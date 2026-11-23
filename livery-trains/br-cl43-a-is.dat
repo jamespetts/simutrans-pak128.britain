@@ -29,9 +29,9 @@ Constraint[Next][1]=BR-Mk3-TRB(IntercitySwallow)
 
 
 driver[0]=1
-multiple_working_type=1
 
 staff[2]=1
+multiple_working_type=14
 
 EmptyImage[E]=./images/br-cl43-is.0.0
 EmptyImage[SE]=./images/br-cl43-is.0.1
@@ -73,7 +73,7 @@ Constraint[Next][1]=none
 
 driver[0]=1
 staff[2]=1
-multiple_working_type=1
+multiple_working_type=14
 
 EmptyImage[E]=./images/br-cl43-is.1.0
 EmptyImage[SE]=./images/br-cl43-is.1.1

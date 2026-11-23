@@ -37,6 +37,9 @@ range=2909
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[10]=2
+staff[11]=3
+
 EmptyImage[E]=images/BAE_146_300_JerseyEuropean.0.2
 EmptyImage[SE]=images/BAE_146_300_JerseyEuropean.0.1
 EmptyImage[S]=images/BAE_146_300_JerseyEuropean.0.0

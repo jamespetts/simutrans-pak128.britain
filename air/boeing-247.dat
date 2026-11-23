@@ -45,6 +45,9 @@ sound=ylearkisto-dc-3.wav
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+staff[10]=2
+staff[11]=1
+
 EmptyImage[E]=./images/boeing-247_E.0.0
 EmptyImage[SE]=./images/boeing-247_SE.0.0
 EmptyImage[S]=./images/boeing-247_S.0.0
@@ -93,6 +96,8 @@ sound=ylearkisto-dc-3.wav
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
+
+staff[10]=2
 
 EmptyImage[E]=./images/boeing-247-mail_E.0.0
 EmptyImage[SE]=./images/boeing-247-mail_SE.0.0
