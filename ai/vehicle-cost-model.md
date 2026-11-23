@@ -199,6 +199,34 @@ decimal place.
 - The 0.997 monthly factor alone puts a vehicle at half its purchase price after about 231
   months, close to 19 years. `[UNVERIFIED]` — arithmetic on the factor, not a pakset decision.
 
+## Overhauls and upgrades
+
+Separate from the wear ramp, a vehicle can be overhauled at a depot. The mechanics are in
+`vehicle_t::is_overhaul_needed`, `vehicle_t::overhaul` and `vehicle_t::get_overhaul_cost`:
+
+- **When.** An overhaul falls due when `km_since_last_overhaul` exceeds
+  `max_distance_between_overhauls`. A value of zero disables overhauls for that vehicle.
+  `[CODE simutrans-extended ex-15]`
+- **What it costs.** The first overhaul costs `initial_overhaul_cost`. Successive overhauls
+  rise on a sigmoid across `overhauls_before_max_cost` toward `max_overhaul_cost`; the cost is
+  `initial + (max - initial) × sigmoid(overhauls, overhauls_before_max_cost)`.
+  `[CODE simutrans-extended ex-15]`
+- **Where it is booked.** As vehicle maintenance, not as capital: the charge goes through
+  `book_vehicle_maintenance`. It is therefore indexed by the `vehicle maintenance` series, not
+  by `vehicle purchase`. `[CODE simutrans-extended ex-15]`
+- **How long it takes.** `overhaul_month_tenths / 10` months, applied as a wait lock.
+  `[CODE simutrans-extended ex-15]`
+- **Upgrades.** Replacing a vehicle with a newer type charges `upgrade->get_upgrade_price()` —
+  the target vehicle's `upgrade_price`, again as vehicle maintenance. The old vehicle is
+  deleted with no resale credit, so `upgrade_price` is the whole net cost of the replacement,
+  not a supplement to a trade-in. `upgrade_price` defaults to `cost`, which would make an
+  upgrade cost as much as a new vehicle. `[CODE simutrans-extended ex-15]`
+- **Coverage.** At the start of this work only nine of the pakset's 3,539 vehicles carried any
+  overhaul field, all rail, and 403 carried an `upgrade_price`, most of them the token value
+  5000. The targets are now in the `Overhauls & upgrades` sheet of the capital workbook.
+
+
+
 ## Obsolescence and wear
 
 Two separate ramps raise the charged running cost, and both also reach the monthly cost:

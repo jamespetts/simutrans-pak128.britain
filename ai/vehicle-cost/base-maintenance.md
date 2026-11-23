@@ -148,6 +148,61 @@ per-vehicle-km figure can be constructed but is not published as one. See
 
 ## Maintenance as a share of purchase price
 
+### Road vehicles, measured share (2026-11-23)
+
+For motor road vehicles the annual maintenance bill is **12 to 21 per cent of purchase price**,
+and four of the ratios have both sides measured in the same accounts or the same article:
+
+| Year | Vehicle | Share a year | Basis |
+|---|---|---|---|
+| 1932 | Glasgow 51-seat double-decker | 21% | both sides in the same accounts |
+| 1934 | Glasgow 51-seat double-decker | 15% | capital includes premises and plant, so the vehicle share is higher |
+| 1961 | 31-seat bus | 14% | both sides in the same article |
+| 1934 | 1-ton lorry | 12% | both sides in the same article |
+| 1933 | 2-ton van | 21% | both sides in the same article |
+| 1933 | 12-13 ton steam wagon | 8% | owner's accounts |
+
+The share does **not** taper with vehicle size: the apparent taper in a 1-ton/2-ton lorry pair
+is the price ratio doing the work, not the maintenance ratio. The share is therefore useful as
+a cross-check, but it is not how the workbooks now charge road maintenance: the per-kilometre
+evidence is direct and the share is not (see the field note below).
+`[LITERATURE: research pass 31; Commercial Motor accounts quoted there]`
+
+**Field note and the split (2026-11-23).** The section above puts road vehicles in
+`runningcost`, because Commercial Motor records maintenance per mile. Maintenance is not
+wholly mileage-driven, however: the annual test, periodic safety inspections, washing,
+cleaning and body care accrue whether or not the vehicle runs, and so does workshop overhead.
+No source measures the split. The workbooks therefore take the measured per-kilometre total
+and divide it **75 per cent distance-driven to 25 per cent standing**, the standing part being
+an estimate within a defensible band of 15-35 per cent. The per-kilometre charge goes to
+`runningcost` and the standing part to `fixed_cost`; the reference annual distance at which
+the total is turned into the two charges is 50,000 km for a bus, 40,000 km for a lorry and
+25,000 km for a van. Every row records the split, the reference distance and the implied share
+of capital, so a later reader can see what was measured and what was assumed.
+`[CODE ai/temp/evidence_data.py; research pass 31]`
+
+**The two routes disagree, and the per-kilometre one is used.** The capital-share route and
+the per-kilometre route do not reconcile for every vehicle. A 1961 31-seat bus at £2,900 with
+a £407 a year maintenance bill is 14 per cent of capital; a 1955 municipal bus at 2.82d a mile
+over 48,000 km is about £75 a year, which is 7-9 per cent of a £850-1,200 bus. The spread of
+the measured evidence is therefore **7-21 per cent**, not the 12-21 per cent of the ratio table
+above, and the ratio is sensitive to the annual mileage assumption. The per-kilometre figures
+are direct measurements of the quantity being charged, so they carry the workbooks, and the
+implied share is printed on every row as the cross-check.
+`[LITERATURE: research pass 31; Commercial Motor 1961 cost tables]`
+
+**Towed trailers carry a distance charge too.** A semi-trailer has no engine but it wears on
+tyres, brakes, suspension, body and coupling, and the only measured split found — the FTA 2016
+table — puts the trailer at 5.72p a mile against the tractor's 10.41p, so a trailer carries
+about 35 per cent of the combination's maintenance and about 30 per cent of its capital. The
+workbooks price motor-era trailers that way and keep the same 75/25 distance-to-standing split.
+Horse-drawn carts and horse-drawn trailers stay on the cart ladder, because they have no
+mileage evidence of their own; the horse itself is a separate object and its keep is entirely
+time-based, which is correct.
+`[LITERATURE: FTA Managers' Guide to Distribution Costs, October 2016]`
+
+### The dimensionless result
+
 The dimensionless result, which is independent of the currency conversion and of mileage:
 
 | Vehicle | Annual maintenance as a share of purchase price | Basis |
@@ -267,10 +322,12 @@ What the evidence supports, and what it does not.
 | Multiple units | Good | RDG £0.80 diesel and £0.44 electric per vehicle-mile; London Underground per car-year; Civity per train-km | No scheduled/unscheduled money split |
 | Carriages | Strong | Per vehicle-year, eight companies, 1892 | No post-1906 figure except whole-company totals |
 | Wagons | Weak | Metropolitan Railway whole-account totals 1893-1906 | No per-wagon figure: Hill's wagon column is unreadable in the digitised text |
-| Buses | Good | 1928 Keighley; six undertakings 1955; Merseyside 1983 | Gap 1959-1982 |
-| Coaches | Fair | 1948 and 1964 costings | No undertaking data |
-| Lorries | Good | 1950-1970 and 2016, with tyres and lubricants itemised | Gap 1975-2015 |
+| Buses | Strong | 1914 LGOC, 1925 Edinburgh, 1931-34 Glasgow, 1955 six undertakings; annual bill 12-21 per cent of purchase price | No measured pre-1914 figure; no municipal omnibus returns exist |
+| Coaches | Fair | 1948, 1964, 1969 and 1970 costings | No undertaking data |
+| Lorries | Strong | 1934-1970 size pairs and the 2016 FTA tables, with tyres and lubricants itemised | Gap 1975-2015; the trade tables are page images |
+| Vans | Fair | 1934 1-ton and 1933 2-ton, both with the purchase price | No pre-1930 figure |
 | Trolleybuses | Weak | 1928 Keighley only | No other undertaking |
+| Horse stage coaches | Fair | 1760s Hanforth accounts: GBP 70 a coach-year and about 70 per cent of capital | No 1800-1840 repair account; the 1820 private-carriage bill is the nearest |
 | Trams, old | Good | Ministry of Transport returns 1913-14 and 1922-23 to 1930-31, per car-mile on a combined repairs and maintenance head | No car-only figure; no pre-1913 figure |
 | Trams, light rail | Fair | Sheffield Supertram budgets 2024/25 and 2025/26; DfT vehicle mileage by system; DLR CoMET unit costs | No operator-stated cost per vehicle-km |
 | Ships | Good | 50 figures 1849-2026, dry-docking and survey costs; no per-voyage figure exists in any source found | No British liner-company repair figure: the accounts print working expenses as one line |

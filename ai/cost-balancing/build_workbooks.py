@@ -242,14 +242,51 @@ def load_inventory():
             seen.add(nm)
     return out
 
-def load_price_rows():
-    rows = []
-    for path in (PRICE_ROWS, RESEARCH_ROWS, RESEARCH_ROWS_2, RESEARCH_ROWS_3, RESEARCH_ROWS_6, RESEARCH_ROWS_5, RESEARCH_ROWS_4, RESEARCH_ROWS_4B):
-        if os.path.exists(path):
-            with open(path, encoding='utf-8-sig') as f:
-                for row in csv.DictReader(f):
-                    row['_source'] = os.path.basename(path)
-                    rows.append(row)
+def load_price_rows(full=False):
+    """Measured rows for matching, or the complete set for the display sheet.
+
+    `full=False` returns the curated register plus research passes 1-6, which is the set the
+    matcher uses. `full=True` adds every research pass file, deduplicated on domain, kind, name,
+    year and price, for the Research prices sheet. The uncurated passes carry rows that have not
+    been checked for binding (a ship's engine builder, a US locomotive price in dollars), so they
+    are displayed rather than matched.
+    """
+    if not full:
+        rows = []
+        for path in (PRICE_ROWS, RESEARCH_ROWS, RESEARCH_ROWS_2, RESEARCH_ROWS_3,
+                     RESEARCH_ROWS_6, RESEARCH_ROWS_5, RESEARCH_ROWS_4, RESEARCH_ROWS_4B):
+            if os.path.exists(path):
+                with open(path, encoding='utf-8-sig') as f:
+                    for row in csv.DictReader(f):
+                        row['_source'] = os.path.basename(path)
+                        rows.append(row)
+        return rows
+
+    paths = [PRICE_ROWS]
+    passes = []
+    for name in os.listdir(HERE):
+        m = re.match(r'research-pricing-rows(?:-(\d+b?))?\.csv$', name)
+        if m:
+            tag = m.group(1) or '1'
+            passes.append(((int(re.sub(r'\D', '', tag)), tag), os.path.join(HERE, name)))
+    paths += [p for _, p in sorted(passes)]
+
+    rows, seen = [], set()
+    for path in paths:
+        if not os.path.exists(path):
+            continue
+        with open(path, encoding='utf-8-sig') as f:
+            for row in csv.DictReader(f):
+                key = ((row.get('domain') or '').strip().lower(),
+                       (row.get('kind') or '').strip().lower(),
+                       (row.get('name_or_item') or '').strip().lower(),
+                       str(row.get('year') or '').strip(),
+                       str(row.get('price') or '').strip())
+                if key in seen:
+                    continue
+                seen.add(key)
+                row['_source'] = os.path.basename(path)
+                rows.append(row)
     return rows
 
 # ---------------------------------------------------------------- families
@@ -469,10 +506,11 @@ def write_readme(wb, title, extra_lines):
         'suggested .dat figures where they can be computed, and the object each row binds to (if any).',
         'Nothing from the thread is omitted because it failed to bind.',
         '',
-        'SHEET "Research prices (2026-11-22)"',
-        'The rows added by the two deep-research passes of that date, with the same treatment. Most are',
-        'class-level evidence and do not bind to one object; see ai/temp/research-pricing-report.md,',
-        'research-pricing-report-2.md and the draft evidence docs named there.',
+        'SHEET "Research prices (all passes)"',
+        'Every measured row: the evidence register plus all research passes 1-38, deduplicated on',
+        'domain, kind, item, year and price. The register rows are the merged subset; the per-pass',
+        'files carry the full record, including passes (aircraft, ships, overhauls, .dat comments)',
+        'that were never merged. Most are class-level evidence and do not bind to one object.',
         '',
         'COLOUR CODING (Match column; priority: source-derived first, then class-derived)',
         'Green = within +/-25%. Amber = within +/-50%. Red = beyond. Grey = no data.',
@@ -979,17 +1017,16 @@ def build_snippet_sheet(wb, forum, numeric, inv, name_index):
 
 def build_research_sheet(wb, rows, name_index):
     """Register of measured rows added by the 2026-11-22 deep-research pass."""
-    ws = wb.create_sheet('Research prices (2026-11-22)')
+    ws = wb.create_sheet('Research prices (all passes)')
     heads = ['Domain', 'Kind', 'Item', 'Year', 'Price', 'Currency', 'Scope', 'Notes / specification',
              'Source reference', 'Evidence file', 'GBP @1900', 'SC @1900', 'Suggested .dat',
              'Bound object', 'Workbook sheet', 'Row']
     for j, h in enumerate(heads, start=1):
         c = ws.cell(1, j, h); c.font = HDR_FONT; c.fill = HDR_FILL
         c.alignment = Alignment(wrap_text=True, vertical='center')
-    ws.cell(2, 1, 'Rows found by the two 2026-11-22 research passes (rail, then non-rail); see '
-                  'ai/temp/research-pricing-report.md, research-pricing-report-2.md and the two '
-                  'draft evidence docs named there. Only capital rows with a stated year and a '
-                  'vehicle/way/building unit are converted here. Maintenance rows are left nominal because '
+    ws.cell(2, 1, 'Every measured row: the evidence register plus all research passes 1-38, '
+                  'deduplicated on domain, kind, item, year and price. Only capital rows with a '
+                  'stated year and a vehicle/way/building unit are converted here. Maintenance rows are left nominal because '
                   'the quoted unit (per engine-mile, per vehicle-year, per mile of way) decides the '
                   'conversion; see the reports for the unit of each row.')
     ws.merge_cells(start_row=2, start_column=1, end_row=2, end_column=len(heads))
@@ -1084,6 +1121,98 @@ def build_name_index(wb):
 # ---------------------------------------------------------------- main
 SERIES_DB = load_series()
 
+def build_overhaul_sheet(wb, rows, prows, ev, en):
+    """Overhaul and upgrade targets, one row per vehicle.
+
+    The engine charges: initial_overhaul_cost, rising on a sigmoid to max_overhaul_cost across
+    overhauls_before_max_cost overhauls, each due after max_distance_between_overhauls km and
+    taking overhaul_month_tenths/10 months. upgrade_price prices a replacement with a newer type.
+    """
+    ws = wb.create_sheet('Overhauls & upgrades')
+    cols = [
+        ('Name (English)', 26), ('Base name', 22), ('Object key (.dat)', 30), ('Obj=', 8),
+        ('Intro', 7), ('Class', 14),
+        ('In-game cost\n(.dat)', 12), ('In-game\ninitial overhaul', 12),
+        ('In-game\nmax overhaul', 12), ('In-game\noverhauls to max', 10),
+        ('In-game\ninterval km', 11), ('In-game\ndowntime tenths', 11),
+        ('Capital target\nGBP @1900', 12),
+        ('Suggested first\noverhaul GBP', 13), ('Suggested max\noverhaul GBP', 13),
+        ('Overhauls\nto max', 9), ('Interval\nkm', 10), ('Downtime\nmonths', 10),
+        ('Suggested\nupgrade GBP', 12),
+        ('Suggested .dat\ninitial', 13), ('Suggested .dat\nmax', 13),
+        ('Suggested .dat\ninterval km', 12), ('Suggested .dat\nupgrade', 13),
+        ('Basis', 76),
+    ]
+    hdr = sheet_header_block(ws, 'Overhauls & upgrades - targets', SCOPE_NOTE,
+                             [('Rate (1 SC = GBP1900):', '=Params!$B$2'),
+                              ('Factor (FACTOR_SCALED):', '=Params!$B$12')])
+    ws.cell(5, 2, 'One-off charges. The engine books an overhaul and an upgrade as vehicle '
+                  'maintenance, so they are indexed by the maintenance series at charge time, '
+                  'but the field is tile-scaled like cost, which is why the .dat conversion here '
+                  'uses FACTOR_SCALED and the capital rate. upgrade_price is the whole net cost of '
+                  'replacing the old vehicle, because the engine deletes it with no resale credit.')
+    for i, (title, width) in enumerate(cols, 1):
+        c = ws.cell(hdr, i, title)
+        c.font = Font(bold=True, color='FFFFFF')
+        c.fill = PatternFill('solid', fgColor='1F4E79')
+        c.alignment = Alignment(wrap_text=True, vertical='center')
+        ws.column_dimensions[get_column_letter(i)].width = width
+    ws.row_dimensions[hdr].height = 44
+    r = hdr + 1
+    n = 0
+    for row in rows:
+        cls = pick(row, 'class', 'folder')
+        eng, base = item_names(row, en)
+        cap = None
+        intro = intro_year(row)
+        x = ev.extrapolation(cls, base, pick(row, 'cost'), 0.00396311, intro)
+        if x:
+            cap = x.get('capital_gbp')
+        prof = ev.overhaul_profile(cls, base, cap, intro)
+        if not prof:
+            continue
+        other = pick(row, 'other_cost_fields') or ''
+
+        def fld(name):
+            m = re.search(r'%s=(\d+)' % name, other)
+            return int(m.group(1)) if m else None
+
+        ws.cell(r, 1, eng or base)
+        ws.cell(r, 2, base)
+        ws.cell(r, 3, pick(row, 'file'))
+        ws.cell(r, 4, pick(row, 'obj_type', 'obj', 'type'))
+        ws.cell(r, 5, intro)
+        ws.cell(r, 6, cls)
+        ws.cell(r, 7, num(pick(row, 'cost')))
+        ws.cell(r, 8, fld('initial_overhaul_cost'))
+        ws.cell(r, 9, fld('max_overhaul_cost'))
+        ws.cell(r, 10, fld('overhauls_before_max_cost'))
+        ws.cell(r, 11, fld('max_distance_between_overhauls'))
+        ws.cell(r, 12, fld('overhaul_month_tenths'))
+        ws.cell(r, 13, cap)
+        ws.cell(r, 14, prof['initial_gbp'])
+        ws.cell(r, 15, prof['max_gbp'])
+        ws.cell(r, 16, prof['overhauls'])
+        ws.cell(r, 17, prof['interval_km'] or None)
+        ws.cell(r, 18, prof['months'])
+        ws.cell(r, 19, prof['upgrade_gbp'])
+        for c, src in ((20, 14), (21, 15)):
+            ws.cell(r, c, '=IF(AND(ISNUMBER({s}{r}),ISNUMBER(Params!$B$2),ISNUMBER(Params!$B$12)),'
+                          '{s}{r}/Params!$B$12/Params!$B$2,"")'.format(s=get_column_letter(src), r=r))
+        ws.cell(r, 22, prof['interval_km'] or None)
+        ws.cell(r, 23, '=IF(AND(ISNUMBER({s}{r}),ISNUMBER(Params!$B$2),ISNUMBER(Params!$B$12)),'
+                       '{s}{r}/Params!$B$12/Params!$B$2,"")'.format(s='S', r=r))
+        ws.cell(r, 24, prof['basis'])
+        r += 1
+        n += 1
+    if n:
+        style_data_area(ws, len(cols), hdr + 1, r - 1,
+                        dict(dat_cols=(7, 8, 9, 10, 11, 12, 22), gbp_cols=(13, 14, 15, 19),
+                             sc_cols=(), ratio_cols=(), year_cols=(5,), num_cols=(16, 18)))
+    ws.freeze_panes = 'B%d' % (hdr + 1)
+    return n
+
+
 def main():
     import evidence_data as ev
     inv = load_inventory()
@@ -1110,10 +1239,14 @@ def main():
     name_index = build_name_index(cap_wb)
     n = build_snippet_sheet(cap_wb, forum, numeric, inv, name_index)
     print('  %-28s %4d rows (forum thread 6521)' % ('Snippet prices (6521)', n))
-    research = [r for r in prows if str(r.get('_source', '')).startswith('research-pricing')]
+    research = load_price_rows(full=True)
     if research:
         m = build_research_sheet(cap_wb, research, name_index)
-        print('  %-28s %4d rows (2026-11-22 research)' % ('Research prices', m))
+        print('  %-28s %4d rows (all research passes)' % ('Research prices', m))
+
+    veh = [r for r in inv if pick(r, 'obj_type', 'obj', 'type') == 'vehicle']
+    m = build_overhaul_sheet(cap_wb, veh, prows, ev, en)
+    print('  %-28s %4d rows' % ('Overhauls & upgrades', m))
 
     cap_wb.save(OUT_CAP)
     main_wb.save(OUT_MAINT)

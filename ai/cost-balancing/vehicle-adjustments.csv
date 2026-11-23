@@ -28,7 +28,7 @@ lnwr-precursor,1.066,1.000,research pass 20,69124 miles between general repairs 
 gwr-churchward-star,1.100,1.000,research pass 20,three LNWR 4-6-0s for the price of two; claim capped at 10 per cent
 ner-p3,0.850,1.000,research pass 20,Darlington 2986 against 3500-3550 quoted for the identical engine in 1908
 nbr-scott,0.910,1.000,research pass 20,Cowlairs beat the contractor 3000 floor
-routemaster,1.100,0.900,research pass 22,"light-alloy integral body, dearer to build but rot-free and fewer road failures than the RT"
+routemaster,1.100,0.900,research pass 22,"light-alloy integral body, dearer to build but rot-free and fewer road failures than the RT; forum thread 6521 row 211 states 150 per cent of the price of other buses to build, which is the upper bound this +10 is capped well below"
 leyland-titan-pd2,1.000,0.950,research pass 22,spare ratios 10 per cent against 20-25 for the early Atlantean
 leyland-titan-pd3,1.000,0.950,research pass 22,as PD2: low spare ratio
 scammellcrusader,1.000,0.950,research pass 22,built around proven Rolls-Royce and Fuller components
@@ -36,7 +36,7 @@ morrismarina,0.950,1.000,research pass 22,18-month gestation on carry-over parts
 ford-transit-mk1,0.950,1.000,research pass 22,one range covering 12 cwt to 3 tons; shared running components
 tilling-stevens,1.150,1.000,research pass 22,"petrol-electric transmission; Stevens stated 25 per cent, capped at 15"
 br-mk1,0.95,0.90,research pass 23,spartan finish and batch production (build -5); corrosion record -10 on maintenance
-br-mk2,1.05,1.00,research pass 23,"integral tooling and lost flexibility; the weight saving is the ladder job, not a class term"
+br-mk2,1.050,0.900,dat comment audit 2026-11-23,"AUTHOR ""Mk. 2s should have a higher purchase but lower running/overhaul cost than Mk. 1s""; merged into the existing row, which said integral tooling raised the build cost and left maintenance at 1.00. Maintenance set at 0.90, the middle of the two readings"
 br-mk3,1.05,0.90,research pass 23,systems +5 build; early BT10 axlebox and disc-brake failures -10 maintenance
 br-mk4,1.00,0.90,research pass 23,introduction reliability: high risk and we paid the price (BRB 1992)
 pullman,1.15,1.00,research pass 23,dining and Pullman vehicles 2.0-2.2 times a corridor third in the measured ratio; capped at 15
@@ -80,3 +80,45 @@ metropolitan-vickers,1.10,1.00,research pass 26,no contract price found; build p
 1900tubeloco,1.15,1.00,research pass 26,no contract price found; build placeholder +15
 lul_c_stock,1.00,0.940,research pass 26,"more reliable than the CO/CP it replaced (Bruce 1971, Clarke 1974); the late-life record is not evidence about the period of interest; -6 per cent as directed"
 lul_s_stock,1.00,0.90,research pass 26,S stock: reliable
+daimler-cc,0.98,1.00,road pass 2026-11-23 (bus capital),"marque only: pre-fluid-flywheel Daimler, priced at or slightly below Leyland in the 1928 Salford tender (GBP 1,220 against 1,270)"
+daimler-cf6,0.98,1.00,road pass 2026-11-23 (bus capital),"marque only: 1928, before the fluid flywheel was introduced"
+daimler-fleetline,0.98,1.00,road pass 2026-11-23 (bus capital),"marque only: Daimatic transmission, not the Wilson preselector; London withdrew 2,646 Fleetlines early, so no maintenance credit"
+daimler-freeline,0.98,1.00,road pass 2026-11-23 (bus capital),marque only: no preselector evidence
+daimler-c,1.03,1.00,road pass 2026-11-23 (bus capital),"marque 0.98 x fluid flywheel and Wilson preselector 1.05: Daimler list, October 1930, CH6 GBP 1,275 against CG6 GBP 1,175 on the same chassis, +8.5 per cent of chassis and about +5 per cent of a complete double-decker"
+dennis,0.98,1.00,road pass 2026-11-23 (bus capital),"Salford 1928 chassis GBP 1,263 against Leyland 1,270; the Salford 1931 Dennis complete at GBP 1,498 was 8 per cent below a Daimler of the same year"
+guy,0.97,1.00,road pass 2026-11-23 (bus capital),"light construction and the lowest list prices of the group: Guy Vixen 26-seat coach GBP 1,047 in 1937"
+karrier,0.97,1.00,road pass 2026-11-23 (bus capital),"Salford 1928 chassis GBP 1,238 against Leyland 1,270; name read from damaged OCR, low"
+bristol,0.97,1.00,road pass 2026-11-23 (bus capital),"Hull 1928 chassis GBP 963 and Bradford complete GBP 1,300, cheap against Leyland, but no same-year comparator"
+crossley,0.99,1.00,road pass 2026-11-23 (bus capital),"Manchester 1937 trolleybus tender: quoted the aligned GBP 995, so at parity only"
+ford,0.96,1.00,road pass 2026-11-23 (lorry capital),"Ford 3-ton GBP 769 against Bedford 840 and Austin/Morris 867.5 in the same 1960 list; the Transit is one range off one tooling programme. 1930s Ford was not yet the cheap option, so this is a post-war effect"
+bedford,0.98,1.00,road pass 2026-11-23 (lorry capital),"Bedford 3-ton GBP 840 and 5-ton GBP 1,025 in the 1960 list, below Austin/Morris, above Ford. CAUTION: in 1938 the Bedford 5-6 cwt van was criticised as dearer and heavier than rivals; the price leadership is a 1950s-60s phenomenon"
+austin,1.02,1.00,road pass 2026-11-23 (lorry capital),"Austin and Morris-Commercial quoted identical prices (GBP 867.5, 1,098.5, 1,162 in 1960), about 8-13 per cent above Ford"
+morris,1.02,1.00,road pass 2026-11-23 (lorry capital),badge-engineered with Austin and priced identically; about 8-13 per cent above Ford in the 1960 list
+scammell,1.25,1.00,road pass 2026-11-23 (lorry capital),"heavy specialist: the closest comparators (Foden 1.20-1.35, Seddon 1.35-1.55) put the heavy specialist makers above the volume makers; Scammell itself is inferred"
+foden,1.25,1.00,road pass 2026-11-23 (lorry capital),heavy specialist and steam-wagon builder; 1.20-1.35 band
+adc-416,1.000,1.100,dat comment audit 2026-11-23,"AUTHOR 'Engines unreliable: lubrication issues'; +10 maintenance; family claim over adc-416a and adc-416d, the baseline of the adc-423 and adc-424 comparisons"
+adc-423,1.000,0.950,dat comment audit 2026-11-23,"AUTHOR 'More reliable than ADC 416D'; -5 maintenance on the object the comment favours, against the penalised adc-416 family"
+adc-424-coach,1.000,0.950,dat comment audit 2026-11-23,"AUTHOR 'More reliable than ADC 416D'; -5 maintenance on the object the comment favours, against the penalised adc-416 family"
+guy-arab,0.970,0.950,dat comment audit 2026-11-23,"AUTHOR 'Noted for reliability and low running costs'; maintenance -5; family claim over guy-arab-1933 and guy-arab-mk2; the match also catches guy-arab-3, which the input gives only 'and better seats' but which is the same Arab family; carries the existing maker capital 0.97 so the longer match does not drop it"
+guyarab,0.970,0.950,dat comment audit 2026-11-23,AUTHOR 'Noted for reliability and low running costs'; maintenance -5; family claim on GuyArab; carries the existing maker capital 0.97
+leyland-national,1.000,1.100,dat comment audit 2026-11-23,AUTHOR 'Heavy fuel consumption and hard to maintain'; +10 maintenance; family claim over leyland-national-lnc and leyland-national-11-lc-2-door; the B variants are matched by the longer leyland-national-b row
+leyland-national-b,0.900,1.050,dat comment audit 2026-11-23,"SOURCED 'A lot cheaper than the basic version' and AUTHOR 'The shorter, cheaper version without the pod' give capital -10; AUTHOR 'Downrated: cheaper maintenance' against the family 'Heavy fuel consumption and hard to maintain' gives maintenance +5, below the standard National but above the ladder"
+dennisdominator,0.980,0.950,dat comment audit 2026-11-23,AUTHOR 'These were long-lasting reliable buses'; -5 maintenance; carries the existing maker capital 0.98 so the longer match does not drop it
+mcw-metrorider-long,1.000,1.050,dat comment audit 2026-11-23,"AUTHOR 'Apparently, these had corrosion problems (the long ones in particular)'; +5 maintenance; hearsay ('apparently'), direction only"
+super-sentinel,0.950,0.950,dat comment audit 2026-11-23,AUTHOR 'These were cheaper to build and run than the standard Sentinels'; -5 both; family claim over the six bodies; the sentinel-dg4 note that assumes the DG4 cheaper to maintain is MODELLING and is not used
+district_a_stock,1.000,1.050,dat comment audit 2026-11-23,"AUTHOR 'wooden underframes, which proved insufficiently robust, prompting their early withdrawal'; +5 maintenance; family claim over the four cars in the file"
+district_bcd_stock,1.000,1.050,dat comment audit 2026-11-23,"AUTHOR 'wooden underframes, which proved insufficiently robust, prompting their early withdrawal'; +5 maintenance; family claim over the four cars in the file"
+district_e_stock,1.000,1.050,dat comment audit 2026-11-23,"AUTHOR 'wooden underframes, which proved insufficiently robust, prompting their early withdrawal'; +5 maintenance; family claim over the four cars in the file"
+br-class30,1.000,1.100,dat comment audit 2026-11-23,SOURCED 'The original engines suffered early failure' (therailwaycentre link); +10 maintenance
+c2c-357,1.000,0.900,dat comment audit 2026-11-23,AUTHOR 'These should have low maintenance costs: they are very reliable and save engery with regenerative braking'; -10 maintenance; family claim over the five cars
+br-444,1.000,0.950,dat comment audit 2026-11-23,"SOURCED 'Awareded the Golden Spanner in 2010 for reliability' (award, Wikipedia); -5 maintenance; family claim over the five cars"
+lbscr-4wheel-brake-front-fitted,1.100,1.000,dat comment audit 2026-11-23,"AUTHOR 'The fitted vehicles use the Westinghouse air brake ... but are more expensive'; +5 capital folded into the existing lbscr maker 1.05 = 1.10; the input attached the comment to the unfitted front brake, but the words name the fitted vehicles"
+lbscr-4wheel-brake-rear-fitted,1.100,1.000,dat comment audit 2026-11-23,AUTHOR 'The fitted vehicles use the Westinghouse air brake ... but are more expensive'; +5 capital folded into the existing lbscr maker 1.05 = 1.10
+lbscr-4wheel-composite-fitted,1.100,1.000,dat comment audit 2026-11-23,AUTHOR 'The fitted vehicles use the Westinghouse air brake ... but are more expensive'; +5 capital folded into the existing lbscr maker 1.05 = 1.10
+lbscr-4wheel-first-fitted,1.100,1.000,dat comment audit 2026-11-23,AUTHOR 'The fitted vehicles use the Westinghouse air brake ... but are more expensive'; +5 capital folded into the existing lbscr maker 1.05 = 1.10
+lbscr-b1-gladstone,1.150,1.100,dat comment audit 2026-11-23,"SOURCED 'These should be expensive to construct and run by comparison to equivalents' (semgonline link); +10 both, capital folded into the existing lbscr maker 1.05 = 1.15"
+lbscr-c1,1.050,1.050,dat comment audit 2026-11-23,SOURCED 'these were recorded as poor steamers'; +5 maintenance; capital carries only the existing lbscr maker 1.05
+lms-garratt,1.000,1.150,dat comment audit 2026-11-23,"SOURCED 'These were heavy on coal and maintenance' (Wikipedia); +15 maintenance; match covers Front and Rear, the Front carrying the consist price"
+lner-p2,1.000,1.100,dat comment audit 2026-11-23,SOURCED 'These were noted as unreliable' (lner.info link); +10 maintenance; match covers the locomotive as well as the tender
+lnwr-alfred-the-great,1.000,1.100,dat comment audit 2026-11-23,SOURCED 'These compound locomotives were considered mechanically unreliable' (contemporary judgement); +10 maintenance
+lnwr-jubilee,1.000,1.100,dat comment audit 2026-11-23,SOURCED 'These compound locomotives were considered mechanically unreliable' (contemporary judgement); +10 maintenance

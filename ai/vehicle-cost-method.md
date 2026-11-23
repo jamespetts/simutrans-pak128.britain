@@ -121,6 +121,83 @@ cent at the light end. The era split at 1900 is a convention, not a measured bre
 more points arrive; the scripts are `ai/temp/regress_locomotive_price.py`,
 `ai/temp/analyse_price_per_ton.py` and `ai/temp/compare_ladders.py`.
 
+### The fitted road ladders (2026-11-23)
+
+The road ladders were refitted on complete vehicles only, because the old ones mixed chassis,
+body and complete prices and a body is 42-45 per cent of a complete bus. All in 1900 GBP:
+
+```
+bus, complete        price = 1240 x (seats/50)^0.67          flat to 1990, then 1.40 by 2026
+lorry, complete      price =  162 x payload^0.30 up to 7 t
+                             x (payload/7)^0.75 above 7 t     real fall 1.8% a year to 1960,
+                                                              then 1.40 by 2026
+steam wagon          price =  300 x payload^0.464
+battery-electric     price = diesel price x 2.10 for a bus or a lorry from 7.5 t
+                             x 1.50 for a coach
+                             x 1.25 for a van
+```
+
+The bus fit rests on 18 complete vehicles 1909-80 (mean absolute error 23 per cent) and the
+lorry fit on 34 complete lorries and vans 1920-60 (15 per cent). The lorry exponent of 0.30
+below the knee carries the fixed element the old `payload^0.60` ladder lacked: a 1.5-ton van
+measures £160-210, not £58. Above 7 tons the measured 1960s and 1970s heavies require the
+steeper 0.75 leg. The real trend is fitted on 1920-60 and held flat outside that range; the
+post-1990 rise is carried by the modern level, measured from 59 tender awards and price lists.
+
+Chassis-only and body-only measured rows are excluded from the match for road vehicles, and so
+are option prices: a magneto at £12 and a diesel premium of £135 are additions to a chassis,
+not the chassis. `[CODE ai/temp/evidence_data.py; research passes 29-30]`
+
+### The road maintenance split (2026-11-23)
+
+Maintenance is charged from a measured per-kilometre total, split 75 per cent to `runningcost`
+and 25 per cent to `fixed_cost`. The per-kilometre anchors, in 1900 pence per km:
+
+```
+bus, 50 seats     1925 1.16   1955 0.37 (size^0.25)
+lorry, 5 tons     1935 0.38   1955 0.21   1970 0.22   2016 0.20 (size^0.45)
+```
+
+The standing quarter is an **estimate**, not a measurement: no source found separates the
+annual test, inspection, cleaning and body care from the mileage-driven repairs. The band is
+15-35 per cent, and the reference annual distance at which the total becomes the two charges
+is 50,000 km (bus), 40,000 km (lorry) and 25,000 km (van). Each row prints the split, the
+reference distance and the implied share of capital, so the assumption is visible wherever the
+figure is used. `[CODE ai/temp/evidence_data.py; research pass 31]`
+
+### Comment-derived adjustments (2026-11-23)
+
+The pakset's `.dat` comments carry the authors' historical notes, and a scan of all 25,113
+comment lines produced 1,022 with a qualitative judgement, of which 80 made a comparative claim
+worth an adjustment. The audit is `ai/temp/dat-comment-audit.md`; the accepted rows are tagged
+`dat comment audit 2026-11-23` in `vehicle-adjustments.csv`.
+
+Two rules came out of it.
+
+1. **An adjustment must land in the field the claim is about.** Five of the proposed rows were
+   dropped because the claim was about *fuel economy* — "30 lbs of coal per mile against 40 for
+   the saturated equivalent", "especially economical", "expensive on fuel". The engine charges
+   fuel separately from `config/fuel.tab` and the vehicle's `fuel_per_km`, so putting a coal
+   saving into `runningcost` or `fixed_cost` would place it in the wrong account and double
+   count. Those comments are evidence for a future `fuel_per_km` calibration, not for the cost
+   fields.
+2. **A specific row must carry the maker multiplier it displaces.** The adjustment engine
+   applies only the longest matching row and never stacks. A new `guy-arab` row therefore has
+   to carry the existing `guy` capital multiplier of 0.97 as well as its own maintenance
+   credit, or the maker effect is silently lost.
+3. **A comment that states a price is not an adjustment.** "These were very cheap: £155 in
+   1923" is an individual price and belongs in the register, not in a 10 per cent multiplier.
+4. **Where a measured capital price exists, the capital multiplier does not apply to it.** The
+   percentage stays on the class ladder, which is the fallback for variants with no price, and
+   only the maintenance multiplier continues to apply to the measured object. The Leyland
+   National is the worked case: the audit gave the family capital 1.000 and maintenance 1.100,
+   and the measured £9,500 of 1971 is bound as the capital figure through an explicit manual
+   entry, because the matcher cannot link a long measured name to the short object names.
+
+Comment evidence ranks below literature: 20 of the claims cite a source and are tagged
+SOURCED, 60 are the authors' own assertions and are tagged AUTHOR, and the band is capped at
+15 per cent. `[CODE ai/temp/dat-comment-audit.md; New/ai/cost-balancing/vehicle-adjustments.csv]`
+
 ### Feature premiums in the workbooks (2026-11-22)
 
 The class ladders are fitted to samples of mixed specification. A vehicle that records a priced
