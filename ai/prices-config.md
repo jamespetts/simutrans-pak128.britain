@@ -1,6 +1,6 @@
 ---
 status: draft
-verified: New ex-15 @ e46fd294b; simutrans-extended ex-15 @ 2ec587a
+verified: New ex-15 working tree, 2026-11-23; simutrans-extended ex-15 @ 2ec587a
 ---
 # Prices config
 
@@ -100,9 +100,11 @@ The pakset uses two conversion rates because the engine has two timescales.
 
 - Revenue (short timescale): 1 Simucredit = £0.005208 in 1900 = 1.25 old pence = 0.5208 new
   pence. 80 Simucents = 1d; 192 Simucents = 1 new penny; £1 = 19,200 Simucents.
-- Capital and annualised costs (long timescale): the `Currency conversion` sheet of
-  `New/Infrastructure balancing calibration-2.ods` gives 1 Simucredit = £0.396 in 1900.
-  `[CODE New ex-15 @ 8d0603d81]`
+- Capital and annualised costs (long timescale): 1 Simucredit = £0.396311 in 1900, held as
+  `RATE_CAPITAL` on the `Params` sheet of `New/cost-balancing-capital.xlsx`. The derivation is the
+  `Currency conversion` sheet of the 2023 working paper `New/Infrastructure balancing
+  calibration-2.ods`. `[CODE New ex-15 @ 8d0603d81]`
+  `[CODE New ex-15 working tree, 2026-11-23]`
 
 The engine stores money as a signed integer in **Simucents** (1/100 Simucredit); every display
 path divides by 100 to show **Simucredits**. Do not call the displayed unit a Simucent.
@@ -262,10 +264,12 @@ see [vehicle-cost-model](vehicle-cost-model.md) and [engine-bugs](engine-bugs.md
 - The official series is the ONS output price index for new work: infrastructure, which measures
   roads and bridges and starts in 1980. No free civil engineering series reaches back further;
   the forum's individual structure prices were tested as a substitute and cannot carry an index.
-- The `Infrastructure capital costs (historical)` sheet of
+- The `Infrastructure capital costs (historical)` sheet of the 2023 working paper
   `New/Infrastructure balancing calibration-2.ods` holds project costs at specific dates
   (ship canal 1724 to motorway 2011) normalised to 1900. It is a calibration workbook, not a
-  price index, and must not be used as one.
+  price index, and must not be used as one. The live cost workbooks quote the same rows with their
+  source keys on the type sheets; take the figure from those, not from the old sheet.
+  `[CODE New ex-15 working tree, 2026-11-23]`
 
 ### `city land`
 

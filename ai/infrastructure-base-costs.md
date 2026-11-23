@@ -1,6 +1,6 @@
 ---
 status: draft
-verified: New ex-15 @ 6d8ebdbc5 (working tree); simutrans-extended ex-15 @ 22cc3af
+verified: New ex-15 working tree, 2026-11-23; simutrans-extended ex-15 @ 22cc3af
 ---
 # Infrastructure base costs
 
@@ -108,12 +108,13 @@ The per-tile land model, which is outstanding, may force a change to `meters_per
 does, the per-object family and the land values need rebalancing together; the length-based
 family does not.
 
-## A trap in the calibration workbook
+## A trap in the old calibration workbook
 
-`New/Infrastructure balancing calibration-2.ods` carries a sheet named "Capital to maintenance
-ratio" whose value 76.0917 is 5,843.84 real active hours a year divided by 76.8 Simutrans active
-hours a year. That is the **time compression** of the game, and it appears again as 0.013142 in
-the Currency conversion sheet.
+The 2023 working paper `New/Infrastructure balancing calibration-2.ods`, superseded for current
+values by `New/cost-balancing-capital.xlsx` and `New/cost-balancing-maintenance.xlsx`, carries a
+sheet named "Capital to maintenance ratio" whose value 76.0917 is 5,843.84 real active hours a year
+divided by 76.8 Simutrans active hours a year. That is the **time compression** of the game, and it
+appears again as 0.013142 in the Currency conversion sheet.
 
 It is not a scale factor. Treating it as one understates every capital figure by a factor of 9.5,
 which is the error this document was written to correct.

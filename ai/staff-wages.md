@@ -11,9 +11,11 @@ record for `config/staff.tab`; the measured tables are in
 [staff-wages/evidence-1914-1946](staff-wages/evidence-1914-1946.md) and
 [staff-wages/post-1980](staff-wages/post-1980.md).
 
-Read with [balance-synthesis](balance-synthesis.md), which finds that railway crew is charged
-almost nowhere in the present pakset because only two of 871 train `.dat` files declare any staff,
-and with [vehicle-cost-model](vehicle-cost-model.md), which records how the engine charges crew.
+Read with [balance-synthesis](balance-synthesis.md), which finds that railway crew is now charged
+across the vehicle fleet and records the effect on the operating account, and with
+[vehicle-cost-model](vehicle-cost-model.md), which records how the engine charges crew. The crew
+complements declared in the `.dat` files — who travels on which vehicle, and why — are in
+[staff-wages/crew-complements](staff-wages/crew-complements.md).
 
 Evidence file for the `staff` domain of the pakset cost calibration. Target: a wage rate per person
 per year, per hour, or per week, by staff type and era, for `New/config/staff.tab`.

@@ -1,6 +1,6 @@
 ---
 status: draft
-verified: New ex-15 @ 0a4be8077 (working tree)
+verified: New ex-15 working tree, 2026-11-23
 ---
 # Balancing
 
@@ -179,24 +179,38 @@ be economically and historically realistic.
 - `New/` contains calibration spreadsheets used as working papers for balancing decisions. They
   are inputs, not canonical values; the canonical values live in the `.dat` files.
   `[CODE New master @ c842afdbd]`
-- Vehicle purchase prices and operating physics: `Vehicle cost table.ods`,
-  `Horses cost table.ods`, `steam-physics-calcs.ods`, `road-vehicle-physics-calibration.ods`,
-  `Rolling resistance calcs.ods`, `Multiple unit TE extrapolation.ods`, `Track weights.ods`.
+- **The live cost workbooks are `New/cost-balancing-capital.xlsx` and
+  `New/cost-balancing-maintenance.xlsx`.** Between them they carry every costed item in the pakset,
+  one row per `.dat` object, with the engine's scaling model on the `README` sheet, the conversion
+  rates and engine settings on `Params`, and the classes and evidence keys on `Index`. Take a
+  current cost or maintenance figure from these two files.
+  `[CODE New ex-15 working tree, 2026-11-23]`
+- **Superseded cost papers, kept only as the record of how a figure was derived.**
+  `Vehicle cost table.ods` (2018) and `Infrastructure balancing calibration.ods` and
+  `Infrastructure balancing calibration-2.ods` (2022 and 2023). The `-2` file is the calculation
+  behind the forum thread tables and still holds the currency conversion, the historical and
+  Simutrans infrastructure costs, wages, fares, revenue ratios and fuel normalisation; it predates
+  the present `.dat` values and must not be read as a current source. `Pak128 Britain - mod.xlsx`
+  (2022) is an interim vehicle balance of the same period. `[CODE New master @ c842afdbd]`
+  `[CODE New ex-15 working tree, 2026-11-23]`
+- Vehicle operating physics: `steam-physics-calcs.ods`, `road-vehicle-physics-calibration.ods`,
+  `Rolling resistance calcs.ods`, `Multiple unit TE extrapolation.ods`, `Track weights.ods`,
+  `Horses cost table.ods`. These are not superseded; no cost figure is taken from them.
   `[CODE New master @ c842afdbd]`
-- Interim vehicle balance: `Pak128 Britain - mod.xlsx` is reported to be the interim balancing
-  spreadsheet for vehicles, attributed to neroden. `[RECOLLECTION:2026-09-19]`
 - Passenger capacity and comfort: `Comfort calibration overview.ods` (sheets `Overview` and
   `All vehicles`), `Exp-Cater-Comfort-Capacity.ods`, `Passenger density calculations.ods`,
   `payload-tonnage-calcs.ods`, `stagecoach-passenger-calcs.ods`.
   `[CODE New master @ c842afdbd]`
-- Infrastructure costs: `Infrastructure balancing calibration.ods`,
-  `Infrastructure balancing calibration-2.ods` (calculation spreadsheet behind the thread tables;
-  sheets include currency conversion, historical and Simutrans infrastructure costs, historical
-  and Simutrans vehicles, wages, passenger fares, revenue ratios, and fuel price normalisation;
-  one sheet links to the `Extrapolation` sheet of `steam-physics-calcs.ods`),
-  `bridges-new.xls`,
-  `road-bridges.xls`, `Tunnel cost research (PJMack).ods`, `ways-rail-balance-v1.ods`,
-  `Wear calculations.ods`, `road-vehicle-wear-calcs.ods`. `[CODE New master @ c842afdbd]`
+- Infrastructure costs: the live workbook is `New/cost-balancing-capital.xlsx` (sheets `Ways -…`,
+  `Bridges & viaducts`, `Tunnels`, `Way objects (electrification)`, `Signals`, `Signalboxes`,
+  `Stations & bus stops`, `Piers & docks`, `Depots`) with `New/cost-balancing-maintenance.xlsx` for
+  upkeep. The older `Infrastructure balancing calibration.ods` and `-2.ods`, `bridges-new.xls`,
+  `road-bridges.xls`, `Tunnel cost research (PJMack).ods` and `ways-rail-balance-v1.ods` are
+  derivation records for those rows, not current sources.
+  `[CODE New master @ c842afdbd]` `[CODE New ex-15 working tree, 2026-11-23]`
+- Wear calculations: `Wear calculations.ods` and `road-vehicle-wear-calcs.ods`, which hold the
+  vehicle-wear calculations behind the maintenance figures.
+  `[CODE New master @ c842afdbd]`
 - Steam locomotive physics: `steam-physics-calcs.ods` (sheets `Hill (AEO)`, `Hill (Hood)`,
   `Extrapolation`, `Theoretical figures`). `[CODE New master @ c842afdbd]`
 - Demand and wider economy: `Agricultural output calibration.ods`,
@@ -224,10 +238,13 @@ be economically and historically realistic.
 
 ## Open questions
 
-- What is the current, documented calibration method, and where does it live?
-- Which engine fields must a balancing change touch together to stay coherent?
-- Who authored `Pak128 Britain - mod.xlsx` and which vehicle classes does its interim balance
-  cover?
+- Which engine fields must a balancing change touch together to stay coherent? The per-field
+  derivation is in [vehicle-cost-model](vehicle-cost-model.md) and the `README` sheet of each cost
+  workbook; what remains open is the conversion question in
+  [balance-synthesis](balance-synthesis.md).
+- Were any present `.dat` cost values set from a superseded working paper (`Vehicle cost table.ods`
+  or `Infrastructure balancing calibration-2.ods`) rather than from the live workbooks, and if so
+  which?
 - What yearly factors should `New/config/prices.tab` record per price type, and from which
   historical sources? The method and sources are recorded in [prices-config](prices-config.md)
   and [calibration-sources](calibration-sources.md); the remaining open points are the engine

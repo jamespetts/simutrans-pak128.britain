@@ -29,6 +29,22 @@ Data-quality assessment per class: [cost-data-coverage](cost-data-coverage.md).
 - Evidence pointers name the doc and section holding the figures; the spreadsheets carry the same
   references row by row.
 
+## Continuous brakes
+
+The `Continuous brakes` sheet in each workbook records the fitted and unfitted carriage pairs and
+the price and maintenance ratio each should carry. The measured premium is **+7.7 per cent**: an
+automatic continuous brake cost about GBP 35 a carriage fitted (Msrs Peel and Makins, HC Deb
+13 June 1879, vol 246 cc1840-1842), against carriage prices of GBP 397.86 to GBP 517.50 in the
+1870s, and the extra maintenance was about 7.1 per cent a year of the brake capital, against
+carriage maintenance of GBP 18.3 to GBP 45.3 a vehicle a year (Hill 1895, Appendix II Table I).
+
+The current `.dat` values do not carry that premium. Cost ratios run from 54.2 to 191.9 per cent,
+with six of the thirty fitted vehicles cheaper than the vehicle they upgrade, and maintenance
+ratios from 8.9 to 1,818 per cent. In `New/trains/4wheel-1870s.dat` the eight fitted vehicles take
+only four distinct prices, so a GBP 185,000 mail van and a GBP 655,000 TPO both become GBP 355,000
+fitted. No `.dat` value has been changed; the correction is held in the workbooks for the next
+costing pass. `[CODE New ex-15 working tree, 2026-11-23]`
+
 ## Cost scope: what the cost fields do and do not hold
 
 - **Vehicles.** `cost`, `runningcost`, `fixed_cost` and `upgrade_cost` cover the vehicle itself

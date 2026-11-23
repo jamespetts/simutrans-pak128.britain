@@ -1,6 +1,6 @@
 ---
 status: draft
-verified: New master @ fc87c0424
+verified: New ex-15 working tree, 2026-11-23; simutrans-extended master @ d09e920
 ---
 # Vehicle fields
 
@@ -69,6 +69,17 @@ The general rule is a hard-coded default in makeobj: absent keys are read as emp
   the force of the brakes on the wheels. If omitted it is `BRAKE_FORCE_UNKNOWN` (65535), which
   the engine treats as unknown rather than zero; a value of 0 means an unbraked vehicle.
   `[CODE simutrans-extended master @ d09e920]`
+- An unknown `brake_force` is not treated as zero: `potential_convoy_t::get_brake_summary`
+  substitutes a force derived from the vehicle's weight, about half the weight in kilogrammes
+  expressed in newtons. A vehicle that is meant to brake must therefore still declare a value,
+  or its braking will silently follow that fallback rather than the pakset's convention.
+  `[CODE simutrans-extended ex-15]`
+- Pakset convention for continuous-braked carriages: about 0.42 kN per tonne, rounded to a whole
+  number and never below the unfitted counterpart. The fitted four-wheel carriage of 9.6 t uses 4,
+  the fitted suburban carriage of 10 t uses 4, and the same ratio reproduces the hand-brake brake
+  vans already in the data (7.2 t at 3, 17.5 t at 7). Every fitted carriage in `New/` now declares
+  a value; before 2026-11-23 seventeen of them omitted the field and fell back to the weight
+  estimate. `[CODE New ex-15 working tree, 2026-11-23]`
 - `weight` is in kilogrammes; if omitted it is 0.
   `[CODE simutrans-extended master @ d09e920]`
 - `axles` counts the vehicle's axles; it is not stored directly. If omitted it is 1 for water

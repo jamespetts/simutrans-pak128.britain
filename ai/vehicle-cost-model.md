@@ -249,9 +249,10 @@ Deliberately, because each is charged elsewhere:
 - **Staff.** Crew wages come from `config/staff.tab`, by staff type and year, not from
   `fixed_cost`. `[USER-DIRECTION:2026-11-16]` The engine charges crew only for a vehicle that
   declares `staff[i]` in its `.dat` file; an undeclared type is absent from the vehicle's staff
-  map rather than defaulted. Only two of the 871 `.dat` files in `New/trains/` declare any staff
-  at all, so railway crew is charged only for those two files in the present pakset.
-  `[CODE New ex-15 @ 8d0603d81]`
+  map rather than defaulted. Since 2026-11-23 the declarations cover rail, road and tram vehicles
+  (1,988 objects); the role map, the rules and the remaining gaps are in
+  [staff-wages/crew-complements](staff-wages/crew-complements.md). `[CODE New ex-15 working tree,
+  2026-11-23]`
 - **Fuel and energy.** Priced in `config/fuel.tab`, by fuel and engine type, and charged per unit
   consumed. `[USER-DIRECTION:2026-11-16]`
 - **Infrastructure.** Depot upkeep is charged on the depot building, way maintenance on the way,
@@ -306,9 +307,12 @@ purchase price is 420 months of it, or 35 years. The numbers illustrate the arit
   independently in the pakset? Neither is currently overridden.
 - Is `upgrade_price`'s default of `cost` intended to mean that an upgrade costs as much as a new
   vehicle unless stated?
-- The `Vehicles (Simutrans)` sheet of `New/Infrastructure balancing calibration-2.ods` converts
-  vehicle capital to "in game" by dividing by 8 and the monthly figure by 4. The capital division
-  matches the engine's `meters_per_tile/1000` scale (1/8 at 125 m/tile). The monthly division does
-  not: the engine **multiplies** `fixed_cost` by 2 at this pakset's settings. The sheet's monthly
-  in-game column is therefore 8 times too small. Which convention the older calibration was built
-  on, and whether any `.dat` value was set from that column, is unresolved.
+- The `Vehicles (Simutrans)` sheet of the 2023 working paper `New/Infrastructure balancing
+  calibration-2.ods` converted vehicle capital to "in game" by dividing by 8 and the monthly figure
+  by 4. The capital division matches the engine's `meters_per_tile/1000` scale (1/8 at 125 m/tile),
+  apart from the display division by 100. The monthly division does not: the engine **multiplies**
+  `fixed_cost` by 2 at this pakset's settings, so that sheet's monthly column was 8 times too small.
+  The live workbooks supersede it: the `Params` sheet of `New/cost-balancing-capital.xlsx` carries
+  `FACTOR_SCALED` and `FACTOR_VEHICLE_MONTH`, which encode the engine's arithmetic directly. Which
+  convention any present `.dat` value was set from is unresolved.
+  `[CODE New ex-15 working tree, 2026-11-23]`

@@ -38,6 +38,18 @@ for new engine features.
   staff numbers and wages? If yes, the signaller wage series is ready; an ATC series would need
   NATS/CAA data. Analysis: [staff-wages/reconstruction](staff-wages/reconstruction.md).
   `[OPEN:2026-11-23]`
+- **Vehicle crew complements: rail, road and tram declared; sea and air blocked on grades.**
+  1,988 of 3,788 vehicle objects now declare a crew complement, and 681 carry a
+  multiple-working type, so `config/staff.tab` is charged for locomotives, multiple units,
+  coaches, brake vehicles, catering cars, TPOs, buses, lorries and trams. The role map, the rules
+  and the engine limitations are in [staff-wages/crew-complements](staff-wages/crew-complements.md).
+  Two steps remain. **(a)** Ships and aircraft: the complements are researched per hull
+  ([ships](staff-wages/crew-complements/ships.md), 101 hulls) and per airframe
+  ([aircraft](staff-wages/crew-complements/aircraft.md), 111 airframes), but `config/staff.tab`
+  has no sea or air grade. Adding grades 7-10 needs a wage series each; only the modern ASHE
+  anchors and the 1912 able-seaman rate exist. **(b)** The cost-balancing workbooks exclude crew,
+  so the balanced vehicle targets now sit below actual running cost.
+  `[OPEN:2026-11-23]`
 - Research each cost domain to the depth of the infrastructure study before deriving balance
   implications, and only then take the balancing decisions. Infrastructure and vehicles are
   complete: [infrastructure-cost-synthesis](infrastructure-cost-synthesis.md) and
