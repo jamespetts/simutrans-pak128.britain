@@ -1,6 +1,6 @@
 ---
 status: draft
-verified: New ex-15 @ f05e52352 (working tree)
+verified: New ex-15 @ 33cf9b106 (working tree)
 ---
 # Infrastructure cost evidence
 
@@ -131,8 +131,11 @@ years of accounts for two North Eastern viaducts.
 | Hownes Gill, firebrick | £0.05 |
 | Plain line for comparison | £0.19 |
 
-Timber deck renewal is a further £0.52-0.55/m/year and is renewal, not maintenance. Relative to
-plain line, **brick is about 0.25-0.5 times, iron 1.2-1.5 times and timber 7-8 times**.
+Timber deck renewal is a further £0.52-0.55/m/year and is renewal, not maintenance. **Brick is
+about 0.25-0.5 times plain line upkeep, iron 1.2-1.5 times plain line, and timber 7-8 times the
+brick rate**; the Cudworth timber renewal itself is 2.7 times plain line, so the 7-8 multiplier
+is against brick, not against plain line. [LITERATURE: Cudworth, *Minutes of the Proceedings of
+the Institution of Civil Engineers* 85 (1886) 340-342; arithmetic check in research pass 19 §11]
 
 ## 5. Canals, docks and locks
 

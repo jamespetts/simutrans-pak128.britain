@@ -1,6 +1,6 @@
 ﻿---
 status: draft
-verified: New ex-15 @ 96cff9eed (working tree); simutrans-extended ex-15 @ 22cc3af
+verified: New ex-15 @ 33cf9b106 (working tree); simutrans-extended ex-15 @ 22cc3af
 ---
 # Infrastructure cost synthesis
 
@@ -131,7 +131,9 @@ Rows near-unchanged in the old draft now rise: `cobblestone-road` 100 times, `ci
 | SubSurfaceRailTunnelBrick | 2,000,000 → **30,000,000** | 4,000 → **7,500** |
 | LT_Tunnel | 775,000 → **15,000,000** | 1,375 → **9,500** |
 
-Timber runs 7-8 times plain line upkeep, brick about half, iron 1.2-1.5 times.
+Timber runs 7-8 times the brick rate (the Cudworth renewal is 2.7 times plain line); brick about
+half plain line, iron 1.2-1.5 times. [LITERATURE: Cudworth 1886; arithmetic check in research
+pass 19 §11]
 
 ### 3.4 Canals, aqueducts, piers
 
@@ -147,6 +149,14 @@ Timber runs 7-8 times plain line upkeep, brick about half, iron 1.2-1.5 times.
 | brick-aqueduct tub/narrow/barge | 4,480,000 → **21,400,000 / 30,300,000 / 41,600,000** | 205 → **12,600 / 17,700 / 24,400** |
 | concrete-aqueduct tub/narrow/barge | 1,456,000 → **11,400,000 / 15,600,000 / 21,400,000** | 149 → **9,500 / 13,000 / 17,900** |
 | piers, timber / iron / brick-stone / concrete | → **5,000,000 / 8,800,000 / 27,800,000 / 13,900,000** | → **14,700 / 14,700 / 18,500 / 11,600** |
+
+**Bridge-substructure piers.** The 111 `pier-*` objects are bridge substructure, not the four
+standalone pier archetypes in the row above. They stay unpriced. The measured substructure share
+is 16-82% of bridge cost and depends on pier height and span (Tower Bridge 15.8%, the Humber
+worked example 25%, Maynard's 200 ft viaduct 66-82%), so one share would be wrong for most
+bridges. If the pakset later charges them, the defensible low-bridge range is 13-25% and the
+tall-viaduct range 50-65%. [LITERATURE: research pass 13 §6; Tower Bridge contract list, Humber
+worked example, Maynard 1868]
 
 `forge_cost_water`: **25,000 → 100,000** (or 50,000 if `way + forge` must equal the anchor exactly).
 At 25,000 it charges £99/km, more than a narrow canal's way cost (£59/km).

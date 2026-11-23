@@ -1,6 +1,6 @@
 ---
 status: draft
-verified: New ex-15 @ 8d0603d81; simutrans-extended ex-15 @ bdfdc8311
+verified: New ex-15 @ 33cf9b106; simutrans-extended ex-15 @ bdfdc8311
 ---
 # Vehicle cost evidence
 
@@ -11,7 +11,7 @@ re-examined.
 Method: [vehicle-cost-method](vehicle-cost-method.md). Engine mechanics:
 [vehicle-cost-model](vehicle-cost-model.md). Index series: [prices-config](prices-config.md).
 This doc is evidence and analysis only. No `.dat` value has been changed, and none should be
-until every cost domain has reached this depth. `[UiER-DIRECTION:2026-11-16]`
+until every cost domain has reached this depth. `[USER-DIRECTION:2026-11-16]`
 
 ## The evidence base
 
@@ -127,13 +127,33 @@ smooth continuation.
 - The maintenance evidence separates running cost from purchase price for the same classes, which
   is what allows a maintenance-to-capital ratio to be tested at all.
 
-### ihips and aircraft
+### Ships and aircraft
 
-- 1816 Fronteac £20,000; 1843 ii Great Britain £117,000; 1858 ii Great Eastern £377,200, of which
-  £275,200 was hull and the rest engines. `[FORUM:https://forum.simutrans.com/index.php?topic=6521.0]`
-- Aircraft are the weakest class: one forum figure (Ford Trimotor, 1933) and eight published
-  figures, none with a full specification. Aircraft costs should not be calibrated from this
-  evidence; they need a procurement-price source of their own.
+- 1816 Frontenac £20,000; 1843 SS Great Britain £117,000; 1858 SS Great Eastern £377,200, of
+  which £275,200 was hull and the rest engines.
+  `[FORUM:https://forum.simutrans.com/index.php?topic=6521.0]`
+- Research pass 25 (2026-11-22) adds 76 measured ship, ferry, river-boat and inland-craft prices.
+  The strongest series is 14 British passenger vessels 1924-38: price = £149.7 × GT^0.90,
+  n = 14, R² = 0.992, residuals within ±16 per cent. The 1927-38 band is £70-80 per gross ton
+  across ten ferries from 38 to 2,910 GT, four yards and five operators. Cargo ships are flat at
+  £149-173 per gross ton (1950-53, 925-1,500 GT), and inland motor narrowboats cost £700-900
+  (1928-37) against £390 for a butty. `[LITERATURE: research pass 25; Moses, *Commercial and
+  Technical Evolution of the Ferry Industry 1948-1987* (2010), Table 2.7 from TNA AN13/391;
+  Wallasey fleet list; Paddle Steamer Preservation Society]`
+- Gross tonnage is not recorded for any pakset water object, and the measured GT-per-passenger
+  relationship is type-dependent (R² 0.08 within 1924-38), so the GT fit cannot be applied
+  directly. The workbook prices passenger vessels per passenger (sea-going, river and estuary
+  anchors) and cargo and inland craft per tonne of capacity; the GT fit is the check on the
+  shape. `[CODE New ex-15 @ 33cf9b106; ai/temp/water-capacity.csv]`
+- Cargo is priced at £8.5 per tonne of capacity, the direct per-ton rate from the Fairplay tramp
+  (1900), the 1918 steel barge and *Cambria* (1906). The £149-173 per gross ton of the 1950-53 BR
+  cargo ships is a small-ship rate (925-1,500 GT) and would overprice the pakset's 20,000 t bulk
+  carriers about threefold; it is recorded as the small-ship end, not applied to them.
+- Aircraft purchase prices are now fitted hedonically on 116 measured aircraft, 1936-2015:
+  seats^0.867 × engines^0.768 × engine type × wide-body × 1.0111^(year-1959), R² 0.948. That fit
+  replaces the earlier eight published figures and one forum figure, which were too thin and too
+  poorly specified to carry a ladder; it does not extend to maintenance, where the only evidence
+  is engineering cost per flying hour. `[LITERATURE: research pass 18]`
 
 ## The conversion question this evidence exposes
 

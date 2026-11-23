@@ -1,6 +1,6 @@
 ---
 status: draft
-verified: none
+verified: New ex-15 @ 33cf9b106
 ---
 # Cost data coverage
 
@@ -60,18 +60,27 @@ car-mile 1913-14 to 1930-31 on a defined (narrow) scope; tram track £600/mile 1
 reservation forge basis; modern system budgets (Sheffield Supertram). No car purchase ladder; no
 car-only maintenance figure.
 
-**Ships — Poor.** Three purchase points (Frontenac 1816, SS Great Britain 1843, SS Great Eastern
-1858) spanning incompatible vessel types; Martin's 5%-of-capital-a-year surveyor's rule for
-mid-life maintenance; modern operating-cost surveys with repair separated. No per-voyage repair
-figure exists. Do not fit a ladder to three points.
+**Ships — Fair.** 76 research rows, 1845-1987, including ten 1927-38 ferries of 38-2,910
+GT at £70-80/GT and 14 British passenger vessels 1924-38 fitted at £149.7 × GT^0.90 (R² 0.992).
+Cargo ships are flat at £149-173/GT (1950-53) and the Fairplay tramp at £6.3-8.1 per deadweight
+ton (1898-1930). Repair evidence remains Martin's 5%-of-capital rule and dry-docking figures, not
+per-voyage costs. Gross tonnage is not recorded in the pakset, so the workbook applies the ladder
+through capacity (passengers, cargo tonnes). `[LITERATURE: research pass 25; Moses 2010, Table 2.7;
+Wallasey fleet list]`
 
-**Inland boats — Poor.** Individual repair jobs (canal tug and narrowboat) for the ends of the range
-only; no carrying-trade boat figure.
+**Inland boats — Fair.** Motor narrowboats £700-900 (1928-37), a butty £390, a steam narrowboat
+£600 (1909), a horse boat £190 (1912) and a sailing barge £1,895 (1906), giving £7-32 per ton of
+capacity by engine type. No annual repair figure for a carrying boat.
+`[LITERATURE: research pass 25; canal company records]`
 
-**Aircraft — Poor (and recorded as unusable).** Engineering cost per flying hour (1969/70, 1972/73),
-IATA benchmarks, check intervals; one forum and eight published purchase figures, none with a full
-specification. The evidence doc is explicit: aircraft costs must not be calibrated from this
-evidence; a procurement-price source is required.
+**Aircraft — Fair (purchase), Poor (maintenance).** The workbook fits a hedonic purchase surface
+on 116 measured aircraft, 1936-2015: seats^0.867 × engines^0.768 × engine type × wide-body ×
+1.0111^(year-1959), R² 0.948. Pressurisation and swept wing are not identifiable in that sample and
+are not applied. Maintenance evidence is engineering cost per flying hour (1969/70, 1972/73),
+IATA benchmarks and check intervals; it does not support a maintenance ladder. The earlier
+statement that aircraft costs must not be calibrated from the forum evidence applies to that
+three-point set, which the hedonic sample replaces. `[LITERATURE: research pass 18; aircraft
+price survey 1959]`
 
 **Horses and horse vehicles — Good (keep), Poor (purchase).** Itemised London keep accounts 1876-97:
 about £45 a year, range £28-60, excluding the horsekeeper's wages; the shape of the cost (low

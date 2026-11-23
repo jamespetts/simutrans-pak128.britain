@@ -1,6 +1,6 @@
 ---
 status: draft
-verified: New ex-15 @ 8d0603d81
+verified: New ex-15 @ 33cf9b106
 ---
 # Vehicle cost method
 
@@ -120,6 +120,36 @@ not include the tender while the measured prices sometimes do, which is worth pe
 cent at the light end. The era split at 1900 is a convention, not a measured break. Refit when
 more points arrive; the scripts are `ai/temp/regress_locomotive_price.py`,
 `ai/temp/analyse_price_per_ton.py` and `ai/temp/compare_ladders.py`.
+
+### Feature premiums in the workbooks (2026-11-22)
+
+The class ladders are fitted to samples of mixed specification. A vehicle that records a priced
+option is adjusted by the measured premium for that option against the same vehicle without it,
+so the ladder level stays the anchor and the premium carries the specification. The factors
+applied are from research pass 8, which rests on same-vehicle option prices and same-model pairs:
+
+| Feature | Factor | Applied to | Evidence |
+|---|---|---|---|
+| Automatic transmission | ×1.15 (semi-automatic ×1.08 is not separately recorded) | road vehicles with `transmission=automatic` | Bristol RELL 1966; ERF 1965 |
+| Air suspension | ×1.06 | road vehicles with `suspension=air` | Bristol RELL, £206 on £3,335 |
+| Saloon heating | ×1.04 | buses with `heating=yes` | Bristol RELL exhaust heater |
+| Air conditioning | ×1.08 road, ×1.10 rail | rows with `aircon=yes` | ITDP norm; Pullman enquiry |
+| Low floor | ×1.03 | road vehicles with `low_floor=yes` | Scania 1995; ITDP; TRL |
+| Corridor | ×1.02 | carriages with `corridor=yes` | NER 1906 and 1910/11 pairs |
+| Sleeping car | ×2.2 | carriages with `sleeping=yes`, or a `sleep` name | Jenkinson averages |
+| Tram articulation | ×1.30 | trams with `articulated=yes` | structure and capacity, inferred |
+
+The already-applied premiums are the diesel, trolleybus and steam road factors; carriage
+dining/kitchen ×1.45, buffet ×1.15, bogie ×1.20 and steel panelling ×1.25; and the steam
+locomotive superheat, compound, cylinder and Caprotti factors. `[LITERATURE: research pass 8,
+"Recommended multiplier table"; Bristol RELL list, 4 November 1966; NER carriage records 1905-34]`
+
+Two rules keep the premiums from double-counting. A blank feature cell is the baseline: the
+factor applies only where the feature is explicitly recorded, so an unrecorded feature receives
+no premium and the result is a lower bound. A factor is not applied where the ladder already
+prices the feature through its size measure: bus deck type, for example, is left out because the
+capacity term already prices the extra seats. The factors are small-sample estimates; the
+ranges in research pass 8 are the uncertainty band, not a confidence interval.
 
 ## Building the index from 1900
 

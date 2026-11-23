@@ -1,6 +1,6 @@
 ---
 status: draft
-verified: none
+verified: New ex-15 @ 33cf9b106
 ---
 # Cost-balancing register
 
@@ -55,9 +55,9 @@ Data-quality assessment per class: [cost-data-coverage](cost-data-coverage.md).
 | Multiple units | no | partial (modern maintenance only) | no purchase prices | no | Modern per-vehicle-mile maintenance (2013 prices); no purchase ladder. [base-maintenance](vehicle-cost/base-maintenance.md) "Later anchors" |
 | Road vehicles (buses, coaches, lorries) | no | yes | partial (2010s bus prices; Commercial Motor tables 1923-1980) | yes | Chassis/vehicle prices by seating and tonnage; maintenance ladders 1928-2016. [vehicle-cost-evidence](vehicle-cost-evidence.md) "Buses, coaches and lorries" |
 | Trams and light rail | no | partial (maintenance; tramway track) | partial (system budgets) | partial | MoT statutory returns per car-mile 1913-30; Sheffield Supertram budgets modern. No car purchase ladder. [base-maintenance](vehicle-cost/base-maintenance.md) "Trams" |
-| Ships | no | partial (5% of capital a year, mid-life) | yes (Frontenac 1816, SS Great Britain 1843, SS Great Eastern 1858) | no | Three purchase points spanning 42 years cannot carry a ladder; repair evidence is dry-docking and survey, not per-voyage. [vehicle-cost-evidence](vehicle-cost-evidence.md) "Ships and aircraft" |
-| Inland boats | no | partial (repair jobs only) | partial (individual repair jobs) | no | No carrying-trade boat figure exists. [vehicle-cost](vehicle-cost/inland-boat-maintenance.md) |
-| Aircraft | no | partial (maintenance per flying hour) | no usable prices | no | Explicit: "Aircraft costs should not be calibrated from this evidence"; a procurement-price source is required. [vehicle-cost-evidence](vehicle-cost-evidence.md) "What it does not support" |
+| Ships | no | yes (76 research rows 1845-1987; 14-vessel passenger fit R² 0.992) | yes (Frontenac 1816, SS Great Britain 1843, SS Great Eastern 1858; 14 measured passenger vessels in pass 25) | yes (per passenger by type, per tonne of cargo) | Passenger ferries £10-66 per passenger by type; cargo £8.5/t; the GT fit is the shape check. [vehicle-cost-evidence](vehicle-cost-evidence.md) "Ships and aircraft" |
+| Inland boats | no | yes (motor, steam, horse and sail per-ton prices 1909-37) | partial (individual craft) | yes (per tonne by engine type) | £8/t horse, £11/t sail, £14/t motor, £32/t steam. [vehicle-cost-evidence](vehicle-cost-evidence.md) "Ships and aircraft" |
+| Aircraft | no | yes (116 measured purchase prices 1936-2015); partial (maintenance per flying hour) | yes (hedonic fit, R² 0.948) | yes (seats, engines, engine type, wide body, year) | Pressurisation and swept wing are not identifiable and not applied. [vehicle-cost-evidence](vehicle-cost-evidence.md) "Ships and aircraft" |
 | Horses and horse vehicles | no | yes (annual keep £28-60) | partial (two accounts: LGOC 1893, London coal wharf 1830) | yes | Keep is well bracketed; purchase prices in `Horses cost table.ods` only. [base-maintenance](vehicle-cost/base-maintenance.md) "Later anchors" |
 | Narrow-gauge vehicles | no | no | no | no | Nothing measured; forge basis is terrain not gauge. [infrastructure-cost-synthesis](infrastructure-cost-synthesis.md) §5 |
 | Monorail vehicles | no | no | no | no | "No British historical basis". [infrastructure-cost-synthesis](infrastructure-cost-synthesis.md) §5 |

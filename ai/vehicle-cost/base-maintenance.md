@@ -1,6 +1,6 @@
 ---
 status: draft
-verified: New ex-15 @ 8d0603d81
+verified: New ex-15 @ 33cf9b106
 ---
 # Base maintenance costs
 
@@ -215,7 +215,10 @@ A comparison against the files as they stand, offered as a diagnostic and not as
 
 ### Later anchors, added 2026-11-17
 
-Road vehicles, converted from the Commercial Motor tables and later sources:
+Road vehicles, converted from the Commercial Motor tables and later sources. The 1983 and 2016
+sources are printed in decimal pence; the 1900 basis is old pence, so every post-1971
+pence-per-mile figure carries an additional factor of 2.4 (one decimal penny is 2.4 old pence).
+The rows below include it.
 
 | Year | Vehicle | As stated | `runningcost` |
 |---|---|---|---|
@@ -224,13 +227,16 @@ Road vehicles, converted from the Commercial Motor tables and later sources:
 | 1966 | 10-ton articulated | 3.13d per mile | 24 |
 | 1968 | 16-ton rigid eight-wheeler | 5.06d per mile | 36 |
 | 1970 | 16-ton four-wheeler | 4.66d per mile | 29 |
-| 1983 | Merseyside buses, repairs and maintenance | 53.7p per mile | 74 |
-| 2016 | 32-ton rigid tipper | 21.37p per mile | 9 |
-| 2016 | 44-ton artic tractor unit | 10.41p per mile | 5 |
+| 1983 | Merseyside buses, repairs and maintenance | 53.7p per mile (decimal) | 177 |
+| 2016 | 32-ton rigid tipper | 21.37p per mile (decimal) | 23 |
+| 2016 | 44-ton artic tractor unit | 10.41p per mile (decimal) | 11 |
 
 The 2016 values are per unit, not per combination: the trailer adds 5.72p per mile, so the
-articulated combination is about 16p per mile, or `runningcost` 7. The fall from 36 in 1968 to 7
-in 2016 is a real-terms fall in maintenance per mile, not a units error.
+articulated combination is about 16.1p per mile, or `runningcost` 17. Maintenance per mile is
+therefore roughly flat in real terms between 1968 (36) and 2016 (17-23), not a fivefold fall;
+the earlier figures in this table that omitted the 2.4 factor made the post-1971 rows look like
+a real-terms collapse. [LITERATURE: *Commercial Motor*, 21 Jan 1984; FTA *Managers' Guide to
+Distribution Costs*, Oct 2016; unit conversion in research pass 15]
 
 Modern rail traction, total maintenance per vehicle-mile at 2013 prices: £0.80 for diesel multiple
 units, giving `runningcost` 89, and £0.44 for electric, giving 49. London Underground's per-car-year
