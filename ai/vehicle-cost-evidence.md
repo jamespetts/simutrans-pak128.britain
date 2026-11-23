@@ -1,6 +1,6 @@
 ---
 status: draft
-verified: New ex-15 @ 33cf9b106; simutrans-extended ex-15 @ bdfdc8311
+verified: New ex-15 @ 6b46c373c (working tree); simutrans-extended ex-15 @ bdfdc8311
 ---
 # Vehicle cost evidence
 
@@ -154,6 +154,13 @@ smooth continuation.
   replaces the earlier eight published figures and one forum figure, which were too thin and too
   poorly specified to carry a ladder; it does not extend to maintenance, where the only evidence
   is engineering cost per flying hour. `[LITERATURE: research pass 18]`
+- Light twins outside the 1959 airliner survey have period prices. The Aero Commander 520 sold for
+  $45,000 in 1952 (rising to $66,000 by 1954), and the 500B for $87,000 standard in 1960. At
+  $2.80/£ the 1952 price is £16,071 nominal, or £4,477 at 1900 on the vehicle purchase index. The
+  pakset object named `aero-commander-500` has `intro_year=1951`, which is the 520; the 500 series
+  began in 1958, so the 520 is the correct type anchor. The workbook uses the measured price in
+  preference to the hedonic. `[LITERATURE: All Aero, *Aero Design & Engineering 500 / 520 / 560 /
+  580 / Shrike Commander / L-26*; AOPA, *An Aero Commander Restoration* (2002)]`
 
 ## The conversion question this evidence exposes
 
