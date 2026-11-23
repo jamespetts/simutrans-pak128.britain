@@ -245,3 +245,11 @@ remaining gaps are in [multiple-working](multiple-working.md).
   air-travel-assistant code includes ground staff and is unstable in 2024-2025.
 - **A separate master rate.** The single officer grade averages a master and a junior mate, a 2:1
   range in every period examined. Should there be a master grade above the officer grade?
+- **Guard open cases from the 2026-11-23 audit.** The MR miniature restaurant "brake" body; the
+  1890 tube stock, which has no brake vehicle at all; the guard placement in the London
+  Underground UNDM cars; `BR-139` (a 2009 railcar); `br-370`, which has two brake cars in one unit;
+  and five alternative or standalone cars left unguarded (`LNER-1937-Tyneside-EMU-rear-composite`,
+  `NER-Tyneside-unit(driving trailer)`, `NER-Tyneside-mpv`, `LNER-1937-Tyneside-EMU-MPV`,
+  `LOR-EMU(front)`). The 22 Class 43 power cars also keep a guard at both ends, because British
+  Rail classified the production power car as a Driving Motor Brake; a later-formation refinement
+  would remove one guard per train.
