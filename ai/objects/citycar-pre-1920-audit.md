@@ -1,6 +1,6 @@
 ---
 status: draft
-verified: New ex-15 @ 2b3ae85bf (working tree, 2026-11-21)
+verified: New working tree, 2026-11-23 (pre-1910 additions uncommitted)
 ---
 # Pre-1920 private-car coverage audit
 
@@ -29,11 +29,14 @@ photographs the condition of building at all.
 | 1902–1908 | De Dion-Bouton Type V, Star 7 hp, Wolseley 8 hp tonneau, Mercedes Simplex 60, Rover 8, Peugeot Type 69 Bébé, Rolls-Royce Silver Ghost, Rover 20, Ford Model T, Vauxhall A-type |
 | 1910–1914 | Vauxhall B-type, Vauxhall C-type, Wolseley 16/20, GWK cyclecar, Argyll 15/30, Rover Twelve, Singer Ten, Sunbeam 12/16, Daimler TE30, Humberette, Morris Oxford bullnose, Standard 9.5, Vauxhall 30-98 |
 | 1919 | Citroen Type A, Rover 8 (1919) |
+| 1900–1909 additions (2026-11-23) | Napier 8, Wolseley 10/12, Swift 7, Arrol-Johnston 10/12, Austin 7 (1909), Rover 6 |
+| 1927–1936 additions (2026-11-23) | Rover 10/25, Rover 16 P2 |
 
-That is 26 car models plus the three park-drag colourways. All have a `.dat` in
+That is 34 car models plus the three park-drag colourways. All have a `.dat` in
 `New/citycars/`, both comfort fields and an `en.tab` entry. The three models previously recorded
 as prepared but not built — Rolls-Royce Silver Ghost, Mercedes Simplex 60 and Vauxhall 30-98 —
-are now built. `[CODE New ex-15 @ 2b3ae85bf]`
+are now built. The eight 2026-11-23 additions close the pre-1910 and inter-war Rover gaps.
+`[CODE New working tree, 2026-11-23]`
 
 ## The market
 
@@ -147,11 +150,30 @@ photographs of the Riverside Museum's 1912 Argyll 15/30 tourer supply the missin
 Argyll was the seventh-largest British maker by 1913 output (622 cars). It joins the 1910–1920 list
 as the class-3 Glasgow representative.
 
+### 2026-11-23 additions
+
+Eight models were added to close the pre-1910 and inter-war Rover gaps. All are installed with
+four colourways, `.dat` headers and `en.tab` entries. `[CODE 2026-11-23]`
+
+| # | Model | Years | Class | Evidence | Side view |
+| --- | --- | --- | --- | --- | --- |
+| 1 | Napier 8 (AP 3575) | 1900–1903 | 4 | one of the three original Lambeth cars | true |
+| 2 | Wolseley 10/12 | 1901–1906 | 3 | 1,051 built; Wolseley the largest British maker by 1913 | 20° off |
+| 3 | Swift 7 | 1904–1908 | 2 | first registered 1 Oct 1904; Swift built 850 in 1913 | true |
+| 4 | Arrol-Johnston 10/12 | c.1902–1905 | 3 | about 700 cars in 1907, 1,150 in 1913 | true |
+| 5 | Austin 7 (1909) | 1909–1911 | 2 | the first Austin, about 1,030 built | 1909 halftone |
+| 6 | Rover 6 | 1905–1912 | 2 | about 2,296 built | 45° front quarter |
+| 7 | Rover 10/25 | 1927–1933 | 2,3 | 24,687 built, the largest missing Rover | true |
+| 8 | Rover 16 P2 | 1936–1940 | 3,4 | 5,109 pre-war cars | true |
+
+Recorded limitations: the Napier is AP 3575's double phaeton, not a single-row two-seater; the
+Rover 6 is the open windscreen-free car and has no glazing; the Wolseley has no true side; the
+Austin profile is a period halftone; the Rover 16 rear view is a 1947 car on the same body.
+
 ## Open questions
 
-- **Pre-1910 Wolseley.** Wolseley was the largest British maker of the 1910s, but no pre-1910
-  Wolseley photograph could be confirmed on Commons. If one is found, a Wolseley 6 or 8 hp of
-  1904–10 would be the natural fourth pre-1910 model.
+- **Smaller pre-1910 Wolseley.** The Wolseley 10/12 is now built. Whether a smaller Wolseley 6
+  or 8 hp of 1904–10 is also needed is a density question, not a coverage failure.
 - **Star's pre-1910 output** is not recorded in the sources used here; the 7 hp is included as the
   photographed British light car of 1902–05, not on a volume figure. The 1913 Star 12/15 also has
   no Commons category under the obvious name.

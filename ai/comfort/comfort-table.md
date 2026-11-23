@@ -22,7 +22,8 @@ era, suspension, seating — is in each `.dat` header.
 `Obj=citycar` models, one row per model; each colourway has its own `class=` list, but every
 colourway of a model shares both comfort values. The **Class** column is the union of the
 colourway lists. Generated from the `.dat` files on 2026-11-20 (436 models, 1,767 objects).
-The `.dat` files remain the authority. **Model** is the internal model stem, which usually
+**The 2026-11-22/23 additions (36 models, 144 objects) are not yet in this table**; the `.dat`
+files remain the authority and the table must be regenerated before its counts are relied on. **Model** is the internal model stem, which usually
 carries the generation where the English display name does not (the five Fiesta generations all
 display as "Ford Fiesta", but are `FordFiestaMk1` to `FordFiestaMk7` here). The row `park-drag`
 groups the three colour objects `park-drag-yellow`, `park-drag-blue` and `park-drag-green`, whose

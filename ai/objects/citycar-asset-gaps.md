@@ -1,6 +1,6 @@
 ---
 status: draft
-verified: New ex-15 @ 2b3ae85bf (working tree, 2026-11-21)
+verified: New working tree, 2026-11-23 (36-model gap-fill programme, uncommitted)
 ---
 # Citycar asset gaps (current register)
 
@@ -16,15 +16,17 @@ research (DfT VEH0120 via ukmotoring.co.uk; SMMT via AROnline; marque production
 
 ## Status of the 2026 programme
 
-- The fleet is **425 cars, 7 motorcycle outfits and 4 horse-drawn vehicles: 436 models, 1,767
-  objects**. `[CODE New ex-15 @ 2b3ae85bf]`
-- Orders 1–51 of the 2026-11-15/16 build register closed on 2026-11-20. The per-order record is
-  in the git history and `ai/temp/handoff.md`; it is not repeated here.
+- The fleet is **472 models: 461 cars, 7 motorcycle outfits and 4 horse-drawn vehicles; 1,911
+  objects**. `[CODE New working tree, 2026-11-23]`
+- Orders 1–51 of the 2026-11-15/16 build register closed on 2026-11-20, and the 2026-11-22/23
+  gap-fill programme added 36 models (144 objects). The per-order record is in the git history
+  and `ai/temp/handoff.md`; it is not repeated here.
 - Every named P1, P2 and P3 gap in the 2026-11-15 register is closed. The remaining gaps are
   **segment, marque, body-style and luxury-richness** gaps, not hard coverage failures.
 - Exceptions carried forward: the Toyota Corolla E90 (1987–92) was in the generation scope but
-  was not built; the E140 was dropped because Toyota GB did not sell it. The Toyota Yaris XP130
-  is built and held for a user decision on its outline.
+  was not built; the E140 was dropped because Toyota GB did not sell it. The Toyota Yaris XP130's
+  outline was resolved by one authorised correction round on 2026-11-20 and the model is
+  installed, as are XP10, XP90 and XP210. `[CODE 2026-11-23]`
 
 ## A. Class coverage (P1) — closed
 
@@ -57,8 +59,8 @@ The defining cheap cars of every era are now in the tree:
 
 The 2026 register's named mainstream gaps are closed: Vauxhall Cavalier Mk1–Mk3, Vauxhall Astra
 Mk1–Mk8, VW Beetle, VW Golf Mk1–Mk8, Nissan Micra K10–K15 and Peugeot 205/206 are all present.
-The remaining density gaps are structural, not marque-wide. The research segment column counts
-the 425 cars as:
+The remaining density gaps are structural, not marque-wide. The research segment column predates
+the 2026-11-22/23 programme and counted the 425 cars of that date as:
 
 | Segment | Models | Segment | Models |
 | --- | --- | --- | --- |
@@ -78,7 +80,8 @@ The D and MPV rows are the outliers:
   Citroen BX/Xantia/C5, Toyota Carina/Avensis, Honda Accord and Mazda 626.
 - **MPV is thin.** Six models, all Ford Galaxy Mk1–Mk3 and Vauxhall Zafira A–C. Missing: Renault
   Espace, Citroen Picasso, VW Touran/Sharan, SEAT Alhambra and Ford S-Max.
-- **VW Polo is one generation only.** Mk2 is present; Mk1 and Mk3–Mk6 are absent.
+- **VW Polo is now complete through Mk6.** Mk1, Mk3, Mk4, Mk5 and Mk6 were added by the
+  2026-11-22/23 programme, so Mk2 is no longer the only generation. `[CODE 2026-11-23]`
 - **Peugeot 306/307/308 are absent.** The 205 and 206 bracket them but do not cover the 1993–2013
   lower-medium continuity.
 
@@ -118,8 +121,8 @@ and 1980s rows are fully represented. The remaining absent models, strongest evi
 | --- | --- | --- |
 | 1920s | Armstrong Siddeley Twenty; Bentley 3 Litre | 8,847 Twenty built 1926–36; 1,622 3 Litres |
 | 1930s | Lanchester Eighteen; Alvis Speed 20 | 901 Lanchesters |
-| 1950s | Jaguar Mk VII; Humber Super Snipe Mk IV; Armstrong Siddeley Sapphire; Wolseley 6/90; Daimler Conquest; Vanden Plas 4-Litre R | 20,908 Mk VII; 17,993 Super Snipe; 7,697 Sapphire; 2,509 Vanden Plas |
-| 1960s | Jaguar Mk IX; Jaguar Mk X/420G | 10,009 Mk IX; 24,282 Mk X/420G |
+| 1950s | Humber Super Snipe Mk IV; Armstrong Siddeley Sapphire; Wolseley 6/90; Daimler Conquest; Vanden Plas 4-Litre R | 17,993 Super Snipe; 7,697 Sapphire; 2,509 Vanden Plas |
+| 1960s | None: the 2026-11-22/23 programme added the Jaguar Mark V–X, Mark 1, 240, 340, E-type and XJS | — |
 | 1990s | Mercedes E-Class W210 | 87,509 licensed in 2000 |
 | 2000s–20s | Mercedes E-Class W211/W213 | 247,289 licensed in 2020, the biggest prestige parc |
 
@@ -134,12 +137,16 @@ remains subject to the photograph-first rule and the colour rule.
 The pre-1920 audit is closed: every model in its build list is in the tree, including the three
 that were "prepared but not built" in the old text (Rolls-Royce Silver Ghost, Mercedes Simplex 60,
 Vauxhall 30-98). The full audit is in [citycar-pre-1920-audit](citycar-pre-1920-audit.md).
-Remaining pre-1920 questions are research questions, not asset gaps: the pre-1910 Wolseley
-photograph, Star's pre-1910 output, the Humberette's class and whether the Singer Ten's pre-war
-and post-war bodies justify two shells.
+The 2026-11-22/23 programme then added eight more pre-1920 models: the **Rover 6** (1905),
+**Rover 10/25** (1927), **Rover 16 P2** (1936), **Napier 8** (1900), **Wolseley 10/12** (1901),
+**Swift 7** (1904), **Arrol-Johnston 10/12** (1905) and **Austin 7** (1909).
+`[CODE 2026-11-23]`
 
-Pre-1900 texture is thin: the Daimler wagonette is the only object before 1902. This is P5; the
-period park was tiny and a second veteran would be texture, not coverage.
+The pre-1900 texture gap is closed on the 1900 side by the Napier: the park now runs from the
+Daimler wagonette through the Napier 8, De Dion, Star, Wolseley, Mercedes, Rover 8 and Peugeot to
+the 1909 Austin. Remaining pre-1920 questions are research questions, not asset gaps: the
+pre-1910 Wolseley photograph, Star's pre-1910 output, the Humberette's class and whether the
+Singer Ten's pre-war and post-war bodies justify two shells.
 
 ## G. Body style and texture (P5)
 
@@ -167,10 +174,44 @@ Do not re-open a closed order for a model that is already represented; use this 
 sections for anything new. The per-order record, including pak counts and the few research
 corrections, is in the git history and the session handoff.
 
+The **2026-11-22/23 gap-fill programme** added 36 models and 144 objects, closing the named
+Jaguar, Rover, Range Rover, Polo and pre-1910 gaps: Jaguar XE, Type 01, XJ Series 2/3, X350,
+X351, XJS, E-type S1 3.8/4.2, S2 and S3, Mark V, VII, VIII, IX and X (no production Mark VI
+exists), 1½ Litre, Mark 1 2.4/3.4, 240 and 340; Rover 6, 10/25 and 16 P2; Morris Ital;
+Austin Ambassador; Range Rover L460 and Range Rover Electric; Polo Mk1, Mk3, Mk4, Mk5 and Mk6;
+Napier 8, Wolseley 10/12, Swift 7, Arrol-Johnston 10/12 and Austin 7 (1909).
+`[CODE 2026-11-23]`
+
 ## I. Known and deferred
 
 - **Geometry re-do.** The text-derived families remain deferred: Ford Fiesta Mk1–Mk7, BMC1100,
   Ford Escort Mk2 and the Vauxhall Nova/Corsa B–F. They are acceptable at pak scale for now.
+- **Jaguar Mark 2 shell.** The 2026-11-23 compact-Jaguar batch found the existing
+  `jaguar-mk2` master's nose too squared and its roof/rear glazing too angular against the
+  photographs. The 240 and 340 were built from corrected derivative shells; the Mark 2 asset
+  itself is byte-identical and is flagged for a possible future graphics replacement.
+  `[EXECUTION-VERIFIED:2026-11-23]`
+- **Rover 12 mislabel.** `rover-12-p2.dat` is dated 1934, which is the P1 Twelve's period
+  (August 1933-1936); the P2 Twelve dates from 1937. The filename and header say P2. Renaming
+  or re-dating it is savegame-relevant, so it is recorded, not changed. A separate P1 Twelve
+  was therefore not added. `[CODE 2026-11-23]`
+- **E-type S2/S3 and XJS side references.** The research classified these packs as having true
+  side elevations; the builders found the side photographs oblique. The comparisons were matched
+  to the actual angle and the limitation is in each `.dat`. Correct the pack notes when the
+  references are next touched. `[EXECUTION-VERIFIED:2026-11-23]`
+- **Body-style limits recorded in `.dat` headers.** The Jaguar 1½ Litre is the later body
+  without the exposed wing-mounted spare; the Rover 6 is the open windscreen-free car; the
+  Napier 8 is AP 3575's double phaeton, not a two-seater.
+  `[EXECUTION-VERIFIED:2026-11-23]`
+- **No production Jaguar Mark VI exists.** The number was skipped because Bentley used Mark VI;
+  the 1950 large saloon is the Mark VII. The Mark VI was an experimental XK-engined Mark V only.
+  `[LITERATURE:https://en.wikipedia.org/wiki/Jaguar_Mark_V]`
+- **Range Rover Electric reference.** No free-licence photograph of the production car exists;
+  the pack uses official JLR press images locally plus the L460 true side for the shared body.
+  The substitution is recorded in the pack notes. `[CODE 2026-11-23]`
+- **Pre-1910 dimensions.** All five pre-1910 additions have estimated length, width and height
+  except where a published wheelbase exists; the estimates are recorded per car.
+  `[EXECUTION-VERIFIED:2026-11-23]`
 - **Stand-ins pending ratification.** Morris Cowley is represented by the Oxford twins; the
   E04A/E494A Anglia is represented by `FordPrefectEarly`.
 - **Range Rover retire dates** settled 2026-11-20: all five colourways carry a staggered 1998–2005
@@ -185,8 +226,10 @@ corrections, is in the git history and the session handoff.
   models with production figures, then the marques.
 - **Toyota Corolla E90.** The 1987–92 UK car is in the generation scope but was not built. Build
   it, or accept the E100 as the representative of the late 1980s Corolla?
-- **Pre-1910 Wolseley.** Wolseley was the largest British maker of the 1910s, but no pre-1910
-  photograph has been confirmed. Add only if one is found.
+- **Rover 2 Litre.** At 8,048 built (1928–34) it is the largest remaining pre-war Rover gap, but
+  it has no Commons category and needs a dedicated image hunt.
+- **Pre-1910 Wolseley.** The 10/12 is now built; whether a smaller pre-1910 Wolseley is also
+  needed is a density question, not a coverage failure.
 - **Rover 800 XX and Nissan Qashqai J10 dates.** The shells were re-rendered to one mark; whether
   to narrow `intro_year`/`retire_year` to that mark is savegame-relevant and remains undecided.
 - **Body-style scope.** Are estates, convertibles and coupes wanted as a general programme, or

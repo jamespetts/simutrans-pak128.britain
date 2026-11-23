@@ -288,6 +288,28 @@ dimensions, paint names, share years and sources are recorded in the `.dat` head
 Colourway weights total 500 per generation (the anchor convention), provisional pending the
 central rebase. Built with `car_builder.py` and the Stage B car scripts.
 
+## Bulk gap-fill lessons (2026-11-23)
+
+The 36-model gap-fill programme produced four rules worth carrying into the next batch.
+
+1. **The photograph governs body style, not the brief.** Three cars had a plausible generic
+   description that the surviving car contradicted: the Rover 6 is open and windscreen-free, the
+   Napier 8 (AP 3575) is a double phaeton rather than a two-seater, and the Jaguar 1½ Litre is
+   the later body without the exposed wing-mounted spare. In each case the builder stopped at the
+   reference check and the model followed the photographs, with the other body recorded as not
+   represented. Builders must keep stopping for this.
+2. **A claimed "true side elevation" must be verified by the builder.** Three packs classified as
+   true side (E-type S2, E-type S3, XJS) were oblique when the builder opened them. The comparison
+   camera is matched to the actual angle and the limitation goes into the `.dat`.
+3. **Stage B attachment needs the right hull or the connectivity mode.** The Type 01 roof and
+   camera attached to the cabin rather than the hull; grouping the painted cabin and roof into
+   `Hull` fixed it. Surface details that sit proud of the body (Mark V plates, overriders,
+   hubcaps, spat latches) and chassis-based brass cars pass with `-` connectivity, not the
+   hull-only check.
+4. **Derivatives may correct a weak parent, but must not alter it.** The 240 and 340 were built
+   from corrected derivative shells because the existing Mark 2 master was too squared; the Mark 2
+   asset itself stayed byte-identical and is flagged for a later graphics replacement.
+
 ## Open questions
 
 - Whether the same staggered-colour rule applies to player-help vehicle fleets.
