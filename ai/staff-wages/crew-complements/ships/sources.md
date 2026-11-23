@@ -104,13 +104,31 @@ only by a class range or by a measured peer.
 2. `HumberKeelBulk` 3 - no measured complement; a sailing keel may have been worked by two.
 3. `NorfolkWherryBulk` 2 - no measured complement.
 4. `SteamBargeTug` 5 and `WoodenPaddleTug` 6 - no measured tug complement of any date.
-5. `SteelHullDumbBargeBulk` 2 and `WoodenHullDumbBargeBulk` 2 - no measured dumb barge crew.
+5. `SteelHullDumbBargeBulk` 1 and `WoodenHullDumbBargeBulk` 2 - no measured dumb barge crew.
 6. `ClydePufferBulk` 4 - puffer crews are usually given as three or four, but no source was read.
 7. `PSComet` 6, `PSIndustryPiece` 8, `WoodenPaddleSteamer` 10 - pioneer paddle steamers.
 8. `RMSColumba` 30 - a 543 GRT steamer with a 1,500-passenger certificate; the ratio is the
    least secure in the passenger table.
-9. `POSpirit` 85 and `POPride` 90 - limited by measured peers but not measured themselves.
+9. `POSpirit` 102 is peer-based (Pride of Kent, MAIB 3/2019); `POPride` 81 is measured for the
+   class (Pride of Calais, MAIB 18/2012). See the ferry section below.
 10. `HandysizePiece` 35 - a 1958 crew, before the automation that the SIRC figures describe.
+
+### Ferry crews added 2026-11-23
+
+| Object | Figure | Source | Status |
+|---|---:|---|---|
+| `POPride` | 81 | MAIB 18/2012, *Pride of Calais*, "Manning 81 crew", https://assets.digital.cabinet-office.gov.uk/media/547c6f7540f0b6024400001d/PrideofCalais.pdf | measured |
+| `POSpirit` | 102 | MAIB 3/2019, *Pride of Kent*, particulars table "Manning 102", https://assets.publishing.service.gov.uk/media/5c6b9e6f40f0b61a1dbf749c/2019_-_3_-_PrideOfKentReport.pdf | peer |
+| `SRIsleOfThanet` | 51 | MV *Princess Victoria*, 2,694 GRT, 1,500 passengers, 51 crew, https://en.wikipedia.org/wiki/MV_Princess_Victoria | peer |
+| `SealinkHorsa` | 80 | MV *Herald of Free Enterprise*, 80 at the same 1,400-passenger certificate, https://assets.publishing.service.gov.uk/media/54c1704ce5274a15b6000025/FormalInvestigation_HeraldofFreeEnterprise-MSA1894.pdf | peer |
+| `SRInvicta` | 58 | Bounded by *Princess Victoria* (51) and the larger turbine hull; no complement found | estimate |
+| `BTCLordWarden` | 54 | Bounded by *Princess Victoria* (51) and *Invicta* (58); no complement found | estimate |
+
+Dover Ferry Photos technical pages supply the corrected particulars: *Lord Warden* 3,333 GRT,
+1,000 passengers and 120 cars; *Horsa* 5,590 GT and 1,400 passengers; *Isle of Thanet* 2,664 GRT
+and 1,400 passengers; *Invicta* 4,178 GRT and 1,304 passengers. The office and rating splits for
+all six are apportionments, not measured department breakdowns; the only measured British ferry
+breakdown used is *Pride of Hampshire* (MAIB 1994), 12 deck, 16 engine and 57 hotel staff.
 
 ### Data and design gaps
 

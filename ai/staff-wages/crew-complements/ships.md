@@ -8,7 +8,7 @@ verified: New ex-15 working tree, 2026-11-23
 `New/boats/boats224/` and `New/boats/holds/`, and the declarations made in the `.dat` files.
 
 The complements are declared in three grades: `staff[7]` officer, `staff[8]` rating and `staff[9]`
-catering. Over the 344 objects the declarations total 646 officers, 1,543 ratings and 648 catering
+catering. Over the 344 objects the declarations total 643 officers, 1,534 ratings and 676 catering
 staff. See [../crew-complements](../crew-complements.md) for the role map and
 [ships/register](ships/register.md) for the per-hull table.
 
@@ -185,12 +185,13 @@ Worked example: `Pride of Kent` (30,635 GT, 2,000 passengers) had a manning of 1
 (24,828 GT) carried 59, against a minimum safe manning of 21-24 [S21] - the range is wide because
 operators run one, two or three crews.
 
-### Car ferry - 70 for 7,500 t, 85 for 15,000 t
+### Car ferry - 80 for 5,590 GT, 85 for 14,760 GT
 
 Short-sea car ferries of 1970-1990 are intermediate between the freight and passenger cases: a
 deck crew for vehicle loading, a full catering crew, and two or three watches.
 
-Worked example: `SealinkHorsa` (1972, 7,500 t, 1,400 passengers) = 70 (estimate). `Pride of
+Worked example: `SealinkHorsa` (1972, 5,590 GT, 1,400 passengers) = 80 (peer: `Herald of Free
+Enterprise`, 80 at the same passenger certificate). `Pride of
 Hampshire` (1974, 14,760 GT) carried 85, with the breakdown master, 4 deck officers, 1 technical
 officer, 11 deck ratings, 6 engineer officers, 5 engineer ratings and 57 hotel services staff
 [S22]. `Herald of Free Enterprise` carried 80 [S24]. `Norsea` (1,250 passengers) carried 90

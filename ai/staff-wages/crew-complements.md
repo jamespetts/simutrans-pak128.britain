@@ -78,7 +78,7 @@ Objects by role:
 | `staff[10]` | 230 | every aircraft object, including high-density, mail and freight variants |
 | `staff[11]` | 139 | passenger aircraft above the 19-seat threshold and the three documented exceptions |
 
-The sea totals are 646 officers, 1,543 ratings and 648 catering staff if every object is bought
+The sea totals are 643 officers, 1,534 ratings and 676 catering staff if every object is bought
 once. The air totals are 595 flight-deck persons and 440 cabin crew. `[CODE New ex-15 working tree,
 2026-11-23; arithmetic]`
 

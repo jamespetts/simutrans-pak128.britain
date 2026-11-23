@@ -20,7 +20,7 @@ objects in `boats192/` and `boats224/` are separate vessels. `[CODE New ex-15 wo
 | BoatHorsesSingle | Single horse for a horse-drawn boat | 1750 | 1 | 0 | 0. The horse is not staff; the boatman is declared on the boat. |
 | BoatHorsesFly | Horse pair for a fly boat | 1835 | 46 | 0 | 0. As above. |
 | BlackwallFrigateHull | Blackwall frigate, about 1,000 register tons, passengers and cargo | 1830 | 1450 | 32 | 32 (master, 3 mates, bosun, carpenter, sailmaker, cook, 20 ABs, 4 boys). Rule: 3.2 men per 100 register tons, between the 1854 (4.17) and 1880 (2.90) rates [S04]. |
-| BTCLordWarden | Dover-Calais turbine steamer, 550 passengers and 150 cars | 1951 | 11900 | 65 | 65 (master, 4 deck officers, 5 engineer officers, radio officer, purser, 2 bosuns, 8 ABs, 6 firemen/greasers, 37 catering). Estimate: 1950s short-sea ferry of about 6,500 gt; no complement found. |
+| BTCLordWarden | Dover-Calais turbine car ferry, 1,000 passengers and 120 cars | 1951 | 11900 | 54 | 54 (master, 3 mates, 4 engineers, radio officer; bosun, 8 ABs, 2 quartermasters, 5 greasers, 1 boy; purser, chief steward, 2 cooks, 24 stewards). Estimate: 3,333 GRT, 1,000 passengers; no complement found. Bounded by Princess Victoria (51) and Invicta (58). |
 | ClanLineSteamerPiece | Cargo liner, 5,000 t cargo; six further cargo fits in the same file | 1912 | 1870 | 40 | 40 (master, 3 mates, 2 engineers, 4 firemen, bosun, carpenter, cook, steward, 14 ABs, 8 trimmers, 4 boys). Estimate: 1912 steam cargo liner, manning ratio about 0.8 per 100 gt, below the 1899 steam rate of 2.66 [S04]. |
 | ClipperHull | Tea clipper, about 963 register tons | 1837 | 800 | 30 | 30 (master, 3 mates, bosun, carpenter, sailmaker, cook, 18 ABs, 4 boys). Measured: Cutty Sark, 963 GRT, complement 28-35 [S15]. |
 | EastIndiamanHull | East Indiaman, about 1,200 tons, passengers and cargo | 1700 | 1270 | 120 | 120 (master, 6 mates, 4 midshipmen, surgeon, purser, bosun, gunner, carpenter, sailmaker, cook, 60 seamen, 30 lascars, servants). Class range: recorded complements include 143 for one Indiaman and 150 crew and passengers for another [S43]. |
@@ -30,14 +30,14 @@ objects in `boats192/` and `boats224/` are separate vessels. `[CODE New ex-15 wo
 | Incat74m | 74 m wave-piercing catamaran, 450 passengers | 1990 | 14400 | 12 | 12 (master, 2 mates, 2 engineers, ETO, 3 deck, 3 catering). Estimate: 74 m craft; the 100 m Incat has crew cabins for 14 [S28]. |
 | Incat96m | 96 m wave-piercing catamaran, 900 passengers | 1998 | 28337 | 16 | 16 (master, 3 mates, 3 engineers, ETO, 4 deck, 4 catering). Estimate: between the 100 m (14 cabins) and 110 m (24 cabins) Incat specs [S28][S29]. |
 | MDV-1200 | Monohull fast ferry, 710 passengers | 1996 | 27500 | 14 | 14 (master, 2 mates, 2 engineers, ETO, 4 deck, 4 catering). Estimate: monohull fast craft of about 5,000 gt; no complement found. |
-| SealinkHorsa | Ro-ro car ferry, 1,400 passengers, 7,500 t | 1972 | 8575 | 70 | 70 (master, 4 deck officers, 6 engineer officers, radio officer, purser, 10 deck ratings, 12 engine ratings, 35 catering). Estimate: 1970s short-sea car ferry; compare Pride of Hampshire at 85 for 14,760 gt [S22]. |
-| SRInvicta | Cross-Channel steamer, 1,004 passengers and 300 cars | 1940 | 8200 | 55 | 55 (master, 4 mates, 5 engineers, radio officer, purser, 8 ABs, 8 firemen, 27 catering). Estimate: 4,220 GRT cross-Channel steamer; no complement found. |
-| SRIsleOfThanet | Cross-Channel steamer, 1,000 passengers and 400 cars | 1925 | 6340 | 45 | 45 (master, 3 mates, 4 engineers, radio officer, purser, 6 ABs, 6 firemen, 23 catering). Estimate: 1920s short-sea steamer of about 2,700 gt. |
+| SealinkHorsa | Ro-ro car ferry, 1,400 passengers, 5,590 GT | 1972 | 8575 | 80 | 80 (master, 4 deck officers, 6 engineers, ETO; bosun, 10 deck ratings, 10 engine ratings; purser, 2 catering officers, cooks, stewards). Peer: Herald of Free Enterprise, 80 at the same 1,400-passenger certificate. |
+| SRInvicta | Cross-Channel steamer, 1,304 passengers | 1940 | 8200 | 58 | 58 (master, 4 mates, 5 engineers, radio officer; bosun, carpenter, 8 ABs, 2 quartermasters, 6 greasers, 1 boy; purser, chief steward, 3 cooks, 23 stewards). Estimate: 4,178 GRT; no complement found; seven above Princess Victoria for the larger hull and engine room. |
+| SRIsleOfThanet | Cross-Channel steamer, 1,400 passengers | 1925 | 6340 | 51 | 51 (master, 3 mates, 4 engineers, radio officer; bosun, carpenter, 8 ABs, 2 quartermasters, 4 greasers, 1 boy; purser, chief steward, 2 cooks, 21 stewards). Peer: MV Princess Victoria, 51 crew at 2,694 GRT and 1,500 passengers. |
 | SSGreatBritain | Iron screw liner, 710 passengers in three classes (later emigrant fit) | 1844 | 1350 | 130 | 130 (master, 5 mates, 8 engineers, 16 firemen, bosun, carpenter, 40 ABs, 40 stewards and cooks, 18 boys). Measured: complement 130 as completed with 360 passengers [S13]; the same article also states a crew of 120 and 125 on one voyage. The pakset models the later 710-passenger fit. |
 | SSGreatWestern | Wooden paddle liner, 128 passengers | 1838 | 850 | 60 | 60 (master, 3 mates, 4 engineers, 8 firemen, bosun, carpenter, 20 ABs, 16 stewards, 6 cooks). Measured: crew 60 [S12]. |
 | TTEuropeanFreight | Ro-ro freight ferry, 7,500 t | 1975 | 8835 | 22 | 22 (master, 3 mates, 3 engineers, ETO, bosun, 6 ABs, 5 engine ratings, cook, steward). Rule: modern ro-ro freight 20-25 [S17][S18]. |
-| POPride | Cross-Channel ferry, 2,290 passengers | 1987 | 23170 | 90 | 90 (master, 5 deck officers, 6 engineers, ETO, 14 deck ratings, 12 engine ratings, 51 catering). Estimate: between Pride of Hampshire (85) and Pride of Kent (102) [S22][S23]. |
-| POSpirit | Cross-Channel ferry, 2,000 passengers | 2011 | 30400 | 85 | 85 (master, 5 deck officers, 6 engineers, ETO, 14 deck ratings, 12 engine ratings, 46 catering). Estimate: modern Dover ferry of about 30,000 gt; measured peers 102 and 105 [S20][S23]. |
+| POPride | Cross-Channel ferry, 2,290 passengers, 26,433 GT | 1987 | 23170 | 81 | 81 (master, 5 deck officers, 5 engineers, ETO; bosun, 8 deck ratings, 6 engine ratings; purser, catering officers, cooks, shop and stewards). Measured: MAIB 18/2012, Pride of Calais, "Manning 81 crew". |
+| POSpirit | Cross-Channel ferry, 2,000 passengers, 47,592 GT | 2011 | 30400 | 102 | 102 (master, 5 deck officers, 6 engineers, ETO; bosun, 10 deck ratings, 9 engine ratings; purser, catering officers, cooks, shop and stewards). Peer: Pride of Kent, 102 at the same 2,000-passenger certificate. |
 | POSuperEuropeanFreight | Ro-ro freight ferry, 13,000 t | 1991 | 27000 | 25 | 25 (master, 3 mates, 4 engineers, ETO, bosun, 7 ABs, 6 engine ratings, cook, steward). Rule: ro-ro freight 20-25 [S17][S18]. |
 | POSuperEuropeanMixed | Ro-ro passenger and freight ferry, 2,000 passengers | 2003 | 27000 | 85 | 85 (master, 5 deck officers, 6 engineers, ETO, 14 deck ratings, 12 engine ratings, 46 catering). Estimate: as POSpirit. |
 | SSGreatEastern | Iron paddle and screw liner, 4,000 passengers | 1858 | 5400 | 418 | 418 (master, 8 mates, 12 engineers, 60 firemen, 4 pursers, 40 stewards, 20 cooks, 183 seamen, 90 boys). Measured: complement 418, and 418 crew on the 1860 maiden voyage [S14]. |
@@ -127,9 +127,9 @@ below; they matter because the catering complement is scaled from the passenger 
 
 | Object | Description above | `.dat` payload | Pakset total |
 |---|---|---:|---:|
-| `BTCLordWarden` | 550 passengers and 150 cars | 550 + 150 | 700 |
-| `SRInvicta` | 1,004 passengers and 300 cars | 1,004 + 300 | 1,304 |
-| `SRIsleOfThanet` | 1,000 passengers and 400 cars | 1,000 + 400 | 1,400 |
+| `BTCLordWarden` | 1,000 passengers and 120 cars | 550 + 150 | 700 |
+| `SRInvicta` | 1,304 passengers | 1,004 + 300 | 1,304 |
+| `SRIsleOfThanet` | 1,400 passengers | 1,000 + 400 | 1,400 |
 | `SSGreatWestern` | 128 passengers | 20 + 128 | 148 |
 | `ChannelPaddleSteamerHull` | 350 passengers | 350 + 100 | 450 |
 | `ChannelScrewSteamship` | 350 passengers | 350 + 150 | 500 |

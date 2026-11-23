@@ -34,9 +34,9 @@ Constraint[Next][1]=POPrideAddPiece
 Constraint[Next][2]=POPrideAddCool
 Constraint[Prev][0]=none
 
-staff[7]=13
-staff[8]=26
-staff[9]=51
+staff[7]=12
+staff[8]=15
+staff[9]=54
 
 EmptyImage[E]=../images/po-pride.1.0,-31,-46
 EmptyImage[SE]=../images/po-pride.1.1,-31,-46

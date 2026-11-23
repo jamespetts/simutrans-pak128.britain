@@ -46,7 +46,7 @@ Constraint[Next][0]=SRInvictaAddMail
 Constraint[Prev][0]=none
 
 staff[7]=11
-staff[8]=16
+staff[8]=19
 staff[9]=28
 
 EmptyImage[E][0]=../images/sr-invicta_E.0.0,-31,-46
