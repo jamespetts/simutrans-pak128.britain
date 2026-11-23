@@ -85,6 +85,13 @@ either. The limitation is the engine's single-value field, not a statement about
 but no reliable code was found for it, so it carries its own integer, 74, as a temporary measure:
 it shares a driver only with another 57.
 
+**Class 71 and 73.** The 73 carries the Southern 27-wire code (8). The 71 carries 0: it was not
+fitted with the SR high-level control jumpers and was never retro-fitted, so it had no multiple
+working. The Class 74 rebuilds gained the jumpers and could work with 73/74, 33/1 and EP stock. One
+Wikipedia article states that 73s could work with 71s, but the Class 71, Class 74 and SREmG pages
+contradict it. The pakset has one Class 73 object covering both the JA (73/0) and JB (73/1)
+batches, which were not compatible with each other; both are coded 8 for now.
+
 ### Post-1970 and individual codes
 
 British Railways stopped publishing symbols, and each later design had its own control system.
@@ -159,6 +166,8 @@ The pakset names code 8 by the system and leaves the symbol question open.
 | Class 47 | Blue star, by direct user direction. The earlier green-circle note and the "never fitted" staff source are withdrawn |
 | Class 57 | Rebuilt from the 47, but no reliable code found; own integer 74 as a temporary measure |
 | Class 33 | One object treated as a 33/1; carries 8, the Southern 27-wire code. Dual compatibility with blue star cannot be expressed in one integer |
+| Class 71 | Not fitted with the SR high-level jumpers and never retro-fitted; carries 0. The Class 74 rebuilds gained the jumpers |
+| Class 73 | Southern 27-wire (8); also blue star under diesel power, which the single value cannot express. One object covers the JA and JB batches, which were not compatible with each other |
 | Classes 17, 21, 31 | Each carried two codes; the pakset has one object each, so the majority code is used |
 | Class 139 | Treated as not fitted; an estimate |
 
