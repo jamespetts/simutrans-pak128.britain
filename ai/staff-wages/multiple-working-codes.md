@@ -57,14 +57,22 @@ The first-generation diesel multiple-unit codes are the best-documented set.
 
 | No. | Code | System | Classes in the pakset |
 |---:|---|---|---|
-| 9 | blue square | EP control with relays; leading car signals, each car switches its own battery | most mechanical DMUs: 100-112, 114-124, 128, 130, 131; 113; 127 until 1969 |
-| 10 | yellow diamond | direct battery control, no relays | Derby Lightweight (mechanical), Metro-Cammell Lightweight, 129 |
-| 11 | red triangle | West Riding hydraulic Derby Lightweights; from 1969 Class 127 | 127 (from 1969) |
+| 9 | blue square | EP control with relays; leading car signals, each car switches its own battery | most mechanical DMUs: 100-112, 114-124, 128, 130, 131; 113; 127 (all years, see the note below) |
+| 10 | yellow diamond | direct battery control, no relays | Metro-Cammell Lightweight, 129 |
+| 11 | red triangle | West Riding hydraulic Derby Lightweights | the pakset's Derby Lightweight sets (1954, hydraulic) |
 | 12 | orange star | hydraulic transmission with pneumatic throttle and an extra air pipe | 125 |
 | 13 | white circle | relays, no through air pipe | 126 |
 
 `[LITERATURE:https://railcar.co.uk/technology/controls/coupling-codes/]`
 `[LITERATURE:https://railcar.co.uk/technology/the-basics/?page=page-02]`
+
+**Class 127.** The class was built with blue square control. In 1969 it was reclassified red
+triangle on paper, taking the code of the withdrawn West Riding Derby Lightweights, after a 127
+working in multiple with a Class 116 damaged the mechanical unit when the gears were not changed.
+The control system was not altered and the 127 was not compatible with the Derby Lightweights. The
+pakset follows the physical system: the 127 carries blue square (9) and the Derby Lightweights
+carry red triangle (11). The paper restriction is recorded but not modelled, so a 127 and a blue
+square unit share a driver in the game.
 
 ### Post-1970 and individual codes
 
@@ -120,8 +128,8 @@ Wikipedia's table and the *British Railways Diesel Traction Manual* — give ora
 pakset does not use it.
 
 Confirmed assignments for the examples in the brief: **Class 50 carries orange square (4)**, as
-does Class 41; **red triangle is 11**, carried by Class 127 from 1969 (and, historically, by the
-West Riding Derby Lightweights); **blue square is 9**, the standard first-generation DMU code.
+does Class 41; **red triangle is 11**, carried by the West Riding Derby Lightweights; **blue
+square is 9**, the standard first-generation DMU code and the code the Class 127 kept physically.
 
 `[UNVERIFIED]` The Southern 27-wire system is documented, but no source read assigns it a symbol.
 The pakset names code 8 by the system and leaves the symbol question open.
