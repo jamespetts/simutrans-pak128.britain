@@ -112,6 +112,17 @@ The nearest documented items to orange circle are orange square (locomotives) an
 (Class 125); the nearest to green triangle is yellow triangle (Class 35). The symbol **blue square**
 is documented only as a diesel multiple-unit code, not as a Southern electric code.
 
+The only occurrence of **orange circle** found in any source is a railway forum recollection
+(RailUK Forums, 2010, https://www.railforums.co.uk/threads/a-peculiar-1st-gen-dmu-query.35740/),
+which also places it among DMU markings. The documented DMU lists — the Railcar Association,
+Wikipedia's table and the *British Railways Diesel Traction Manual* — give orange **star**
+(Class 125) and white **circle** (Class 126), not orange circle. Without a primary source the
+pakset does not use it.
+
+Confirmed assignments for the examples in the brief: **Class 50 carries orange square (4)**, as
+does Class 41; **red triangle is 11**, carried by Class 127 from 1969 (and, historically, by the
+West Riding Derby Lightweights); **blue square is 9**, the standard first-generation DMU code.
+
 `[UNVERIFIED]` The Southern 27-wire system is documented, but no source read assigns it a symbol.
 The pakset names code 8 by the system and leaves the symbol question open.
 
