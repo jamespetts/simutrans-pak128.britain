@@ -1,0 +1,123 @@
+# Jaguar Mark 1 3.4 Litre four-door saloon, 1957-1959.
+#
+# The 3.4-litre version of the compact Mark 1: the same shell as the 2.4 with
+# the larger engine, a different grille and lamp treatment and, from 1957, disc
+# brakes. It was replaced by the Mark 2 in 1959.
+# https://en.wikipedia.org/wiki/Jaguar_Mark_1
+#
+# Dimensions 4.60 x 1.70 x 1.45 m, wheelbase 2.73 m.
+#
+# Shape reference: no side, no rear and no badge close-up exist in the pack.
+# The best images are front three-quarters about 40 degrees off and a dead-on
+# front. The flank and tail are reconciled within the published dimensions, and
+# the 3.4 identification rests on the uploaders' titles because no boot badge is
+# legible. Both limitations are recorded.
+#
+# Colours: grade (d); no UK brochure was consulted. British Racing Green,
+# Black, Pearl Grey and Carmen Red are period Jaguar finishes. Weights 4, 3, 2,
+# 1, total 10, provisional pending the central rebase.
+#
+# Speed 180 km/h. Comfort 75/443, on the line 330 + 1.5 x 75. Classes 3,4.
+# Dates 1957-1959 production, road tail staggered 1972-1974.
+#
+# Metres master: citycars/4.5/jaguar-mk1-34.blend. Interchange:
+# citycars/4.5/jaguar-mk1-34.dae. References:
+# citycars/references/jaguar-mk1-34/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: built as a variant of the Mark 1 2.4 master. No side, no
+# rear and no badge close-up exist in the pack; the 3.4 identification rests on
+# the uploaders' titles, and the flank and tail are reconciled within the
+# published dimensions.
+
+
+obj=citycar
+name=JaguarMk1_34(BritishRacingGreen)
+copyright=JamesPetts
+
+DistributionWeight=4
+intro_year=1957
+intro_month=9
+retire_year=1974
+retire_month=6
+speed=180
+class=3,4
+maximum_comfortable_journey_minutes=75
+maximum_tolerable_journey_minutes=443
+
+Image[E]=./images/jaguar-mk1-34-britishracinggreen_E.0.0,-33,14
+Image[SE]=./images/jaguar-mk1-34-britishracinggreen_SE.0.0,-13,0
+Image[S]=./images/jaguar-mk1-34-britishracinggreen_S.0.0,0,0
+Image[SW]=./images/jaguar-mk1-34-britishracinggreen_SW.0.0,-8,10
+Image[W]=./images/jaguar-mk1-34-britishracinggreen_W.0.0,4,5
+Image[NW]=./images/jaguar-mk1-34-britishracinggreen_NW.0.0,12,10
+Image[N]=./images/jaguar-mk1-34-britishracinggreen_N.0.0,0,33
+Image[NE]=./images/jaguar-mk1-34-britishracinggreen_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=JaguarMk1_34(Black)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1957
+intro_month=9
+retire_year=1973
+retire_month=6
+speed=180
+class=3,4
+maximum_comfortable_journey_minutes=75
+maximum_tolerable_journey_minutes=443
+
+Image[E]=./images/jaguar-mk1-34-black_E.0.0,-33,14
+Image[SE]=./images/jaguar-mk1-34-black_SE.0.0,-13,0
+Image[S]=./images/jaguar-mk1-34-black_S.0.0,0,0
+Image[SW]=./images/jaguar-mk1-34-black_SW.0.0,-8,10
+Image[W]=./images/jaguar-mk1-34-black_W.0.0,4,5
+Image[NW]=./images/jaguar-mk1-34-black_NW.0.0,12,10
+Image[N]=./images/jaguar-mk1-34-black_N.0.0,0,33
+Image[NE]=./images/jaguar-mk1-34-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=JaguarMk1_34(PearlGrey)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1957
+intro_month=9
+retire_year=1972
+retire_month=6
+speed=180
+class=3,4
+maximum_comfortable_journey_minutes=75
+maximum_tolerable_journey_minutes=443
+
+Image[E]=./images/jaguar-mk1-34-pearlgrey_E.0.0,-33,14
+Image[SE]=./images/jaguar-mk1-34-pearlgrey_SE.0.0,-13,0
+Image[S]=./images/jaguar-mk1-34-pearlgrey_S.0.0,0,0
+Image[SW]=./images/jaguar-mk1-34-pearlgrey_SW.0.0,-8,10
+Image[W]=./images/jaguar-mk1-34-pearlgrey_W.0.0,4,5
+Image[NW]=./images/jaguar-mk1-34-pearlgrey_NW.0.0,12,10
+Image[N]=./images/jaguar-mk1-34-pearlgrey_N.0.0,0,33
+Image[NE]=./images/jaguar-mk1-34-pearlgrey_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=JaguarMk1_34(CarmenRed)
+copyright=JamesPetts
+
+DistributionWeight=1
+intro_year=1957
+intro_month=9
+retire_year=1972
+retire_month=6
+speed=180
+class=3,4
+maximum_comfortable_journey_minutes=75
+maximum_tolerable_journey_minutes=443
+
+Image[E]=./images/jaguar-mk1-34-carmenred_E.0.0,-33,14
+Image[SE]=./images/jaguar-mk1-34-carmenred_SE.0.0,-13,0
+Image[S]=./images/jaguar-mk1-34-carmenred_S.0.0,0,0
+Image[SW]=./images/jaguar-mk1-34-carmenred_SW.0.0,-8,10
+Image[W]=./images/jaguar-mk1-34-carmenred_W.0.0,4,5
+Image[NW]=./images/jaguar-mk1-34-carmenred_NW.0.0,12,10
+Image[N]=./images/jaguar-mk1-34-carmenred_N.0.0,0,33
+Image[NE]=./images/jaguar-mk1-34-carmenred_NE.0.0,0,24

@@ -1,0 +1,124 @@
+# Arrol-Johnston 10/12 hp dogcart, c.1902-1905.
+#
+# The Glasgow-built Arrol-Johnston dogcart: a two-cylinder car with a
+# rear-entrance body. Arrol-Johnston made an estimated 700 cars in 1907 and
+# 1,150 in 1913. SA 88 is a c.1904-05 car by its Aberdeen plate and the
+# model's end date.
+# https://en.wikipedia.org/wiki/Arrol-Johnston
+#
+# Dimensions 3.1 x 1.6 x 1.8 m, wheelbase 2.1 m. All four are estimates
+# measured from the photographs; no published dimension box was found.
+#
+# Shape reference: a true level side elevation of SA 88. No front
+# three-quarter of SA 88 exists in Commons; the front view is the detail
+# image. The limitation is recorded. The 1905 12/15 hp, the 1905 TT racer
+# and the 1902 ST 52 dogcart were examined and excluded as different models.
+#
+# Colours: grade (d), no period UK document consulted. Black, Dark Green,
+# Maroon and Grey are plain colour names. Weights 3, 2, 1, 1, total 7,
+# provisional pending the central rebase.
+#
+# Speed 50 km/h. Comfort 18/357, on the line 330 + 1.5 x 18. Class 3.
+# Dates c.1902-1905 production, road tail staggered 1914-1916.
+#
+# Metres master: citycars/4.5/arrol-johnston-10-12.blend. Interchange:
+# citycars/4.5/arrol-johnston-10-12.dae. References:
+# citycars/references/arrol-johnston-10-12/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: SA 88 is modelled as the photographed dogcart from its
+# true side. No front three-quarter of SA 88 exists; the front follows the detail
+# image. Preserving the side-photograph proportions at the brief's wheelbase
+# gives a model length of 3.93 m, not the brief's 3.1 m estimate.
+
+
+obj=citycar
+name=ArrolJohnston10_12(Black)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1902
+intro_month=1
+retire_year=1916
+retire_month=6
+speed=50
+class=3
+maximum_comfortable_journey_minutes=18
+maximum_tolerable_journey_minutes=357
+
+Image[E]=./images/arrol-johnston-10-12-black_E.0.0,-33,14
+Image[SE]=./images/arrol-johnston-10-12-black_SE.0.0,-13,0
+Image[S]=./images/arrol-johnston-10-12-black_S.0.0,0,0
+Image[SW]=./images/arrol-johnston-10-12-black_SW.0.0,-8,10
+Image[W]=./images/arrol-johnston-10-12-black_W.0.0,4,5
+Image[NW]=./images/arrol-johnston-10-12-black_NW.0.0,12,10
+Image[N]=./images/arrol-johnston-10-12-black_N.0.0,0,33
+Image[NE]=./images/arrol-johnston-10-12-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=ArrolJohnston10_12(DarkGreen)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1902
+intro_month=1
+retire_year=1915
+retire_month=6
+speed=50
+class=3
+maximum_comfortable_journey_minutes=18
+maximum_tolerable_journey_minutes=357
+
+Image[E]=./images/arrol-johnston-10-12-darkgreen_E.0.0,-33,14
+Image[SE]=./images/arrol-johnston-10-12-darkgreen_SE.0.0,-13,0
+Image[S]=./images/arrol-johnston-10-12-darkgreen_S.0.0,0,0
+Image[SW]=./images/arrol-johnston-10-12-darkgreen_SW.0.0,-8,10
+Image[W]=./images/arrol-johnston-10-12-darkgreen_W.0.0,4,5
+Image[NW]=./images/arrol-johnston-10-12-darkgreen_NW.0.0,12,10
+Image[N]=./images/arrol-johnston-10-12-darkgreen_N.0.0,0,33
+Image[NE]=./images/arrol-johnston-10-12-darkgreen_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=ArrolJohnston10_12(Maroon)
+copyright=JamesPetts
+
+DistributionWeight=1
+intro_year=1902
+intro_month=1
+retire_year=1914
+retire_month=6
+speed=50
+class=3
+maximum_comfortable_journey_minutes=18
+maximum_tolerable_journey_minutes=357
+
+Image[E]=./images/arrol-johnston-10-12-maroon_E.0.0,-33,14
+Image[SE]=./images/arrol-johnston-10-12-maroon_SE.0.0,-13,0
+Image[S]=./images/arrol-johnston-10-12-maroon_S.0.0,0,0
+Image[SW]=./images/arrol-johnston-10-12-maroon_SW.0.0,-8,10
+Image[W]=./images/arrol-johnston-10-12-maroon_W.0.0,4,5
+Image[NW]=./images/arrol-johnston-10-12-maroon_NW.0.0,12,10
+Image[N]=./images/arrol-johnston-10-12-maroon_N.0.0,0,33
+Image[NE]=./images/arrol-johnston-10-12-maroon_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=ArrolJohnston10_12(Grey)
+copyright=JamesPetts
+
+DistributionWeight=1
+intro_year=1902
+intro_month=1
+retire_year=1914
+retire_month=6
+speed=50
+class=3
+maximum_comfortable_journey_minutes=18
+maximum_tolerable_journey_minutes=357
+
+Image[E]=./images/arrol-johnston-10-12-grey_E.0.0,-33,14
+Image[SE]=./images/arrol-johnston-10-12-grey_SE.0.0,-13,0
+Image[S]=./images/arrol-johnston-10-12-grey_S.0.0,0,0
+Image[SW]=./images/arrol-johnston-10-12-grey_SW.0.0,-8,10
+Image[W]=./images/arrol-johnston-10-12-grey_W.0.0,4,5
+Image[NW]=./images/arrol-johnston-10-12-grey_NW.0.0,12,10
+Image[N]=./images/arrol-johnston-10-12-grey_N.0.0,0,33
+Image[NE]=./images/arrol-johnston-10-12-grey_NE.0.0,0,24

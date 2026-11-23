@@ -1,0 +1,121 @@
+# Jaguar 240 four-door saloon, 1967-1969.
+#
+# The final 2.4-litre Mark 2 derivative: slim chrome bumpers, a revised grille
+# and the Ambla-trimmed interior of the 1967 range. It is the Mark 2 shell with
+# the later detailing, not a new body.
+# https://en.wikipedia.org/wiki/Jaguar_Mark_2
+#
+# Dimensions 4.57 x 1.70 x 1.47 m, wheelbase 2.72 m.
+#
+# Shape reference: a near-profile about 5-10 degrees off perpendicular, plus
+# front and rear three-quarters. It is close to a true side and is the best
+# available; the small angle is recorded.
+#
+# Colours: grade (d); no UK brochure was consulted. British Racing Green,
+# Black, Old English White and Carmen Red are period Jaguar finishes. Weights 3,
+# 2, 2, 1, total 8, provisional pending the central rebase.
+#
+# Speed 170 km/h. Comfort 75/443, on the line 330 + 1.5 x 75. Classes 2,3.
+# Dates 1967-1969 production, road tail staggered 1982-1984.
+#
+# Metres master: citycars/4.5/jaguar-240.blend. Interchange:
+# citycars/4.5/jaguar-240.dae. References: citycars/references/jaguar-240/
+# (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the shell was corrected in a derivative copy because the
+# existing Mark 2 master's squared nose and angular roof/rear glazing did not
+# match the photographs. The existing Mark 2 asset is left untouched. The side
+# reference is a near-profile 5-10 degrees off, not a true elevation.
+
+
+obj=citycar
+name=Jaguar240(BritishRacingGreen)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1967
+intro_month=9
+retire_year=1984
+retire_month=6
+speed=170
+class=2,3
+maximum_comfortable_journey_minutes=75
+maximum_tolerable_journey_minutes=443
+
+Image[E]=./images/jaguar-240-britishracinggreen_E.0.0,-33,14
+Image[SE]=./images/jaguar-240-britishracinggreen_SE.0.0,-13,0
+Image[S]=./images/jaguar-240-britishracinggreen_S.0.0,0,0
+Image[SW]=./images/jaguar-240-britishracinggreen_SW.0.0,-8,10
+Image[W]=./images/jaguar-240-britishracinggreen_W.0.0,4,5
+Image[NW]=./images/jaguar-240-britishracinggreen_NW.0.0,12,10
+Image[N]=./images/jaguar-240-britishracinggreen_N.0.0,0,33
+Image[NE]=./images/jaguar-240-britishracinggreen_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Jaguar240(Black)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1967
+intro_month=9
+retire_year=1983
+retire_month=6
+speed=170
+class=2,3
+maximum_comfortable_journey_minutes=75
+maximum_tolerable_journey_minutes=443
+
+Image[E]=./images/jaguar-240-black_E.0.0,-33,14
+Image[SE]=./images/jaguar-240-black_SE.0.0,-13,0
+Image[S]=./images/jaguar-240-black_S.0.0,0,0
+Image[SW]=./images/jaguar-240-black_SW.0.0,-8,10
+Image[W]=./images/jaguar-240-black_W.0.0,4,5
+Image[NW]=./images/jaguar-240-black_NW.0.0,12,10
+Image[N]=./images/jaguar-240-black_N.0.0,0,33
+Image[NE]=./images/jaguar-240-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Jaguar240(OldEnglishWhite)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1967
+intro_month=9
+retire_year=1982
+retire_month=6
+speed=170
+class=2,3
+maximum_comfortable_journey_minutes=75
+maximum_tolerable_journey_minutes=443
+
+Image[E]=./images/jaguar-240-oldenglishwhite_E.0.0,-33,14
+Image[SE]=./images/jaguar-240-oldenglishwhite_SE.0.0,-13,0
+Image[S]=./images/jaguar-240-oldenglishwhite_S.0.0,0,0
+Image[SW]=./images/jaguar-240-oldenglishwhite_SW.0.0,-8,10
+Image[W]=./images/jaguar-240-oldenglishwhite_W.0.0,4,5
+Image[NW]=./images/jaguar-240-oldenglishwhite_NW.0.0,12,10
+Image[N]=./images/jaguar-240-oldenglishwhite_N.0.0,0,33
+Image[NE]=./images/jaguar-240-oldenglishwhite_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Jaguar240(CarmenRed)
+copyright=JamesPetts
+
+DistributionWeight=1
+intro_year=1967
+intro_month=9
+retire_year=1982
+retire_month=6
+speed=170
+class=2,3
+maximum_comfortable_journey_minutes=75
+maximum_tolerable_journey_minutes=443
+
+Image[E]=./images/jaguar-240-carmenred_E.0.0,-33,14
+Image[SE]=./images/jaguar-240-carmenred_SE.0.0,-13,0
+Image[S]=./images/jaguar-240-carmenred_S.0.0,0,0
+Image[SW]=./images/jaguar-240-carmenred_SW.0.0,-8,10
+Image[W]=./images/jaguar-240-carmenred_W.0.0,4,5
+Image[NW]=./images/jaguar-240-carmenred_NW.0.0,12,10
+Image[N]=./images/jaguar-240-carmenred_N.0.0,0,33
+Image[NE]=./images/jaguar-240-carmenred_NE.0.0,0,24

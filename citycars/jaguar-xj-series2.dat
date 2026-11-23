@@ -1,0 +1,128 @@
+# Jaguar XJ Series 2 four-door saloon, 1973-1979.
+#
+# The 1973 revision of the XJ: a raised front bumper with the grille above it,
+# a smaller grille, the front quarter light retained, horizontal grille bars and
+# reversing lamps moved into the rear clusters. The long-wheelbase shell is
+# modelled, matching the photographed car.
+# https://en.wikipedia.org/wiki/Jaguar_XJ
+#
+# Dimensions 4.947 x 1.772 x 1.372 m, wheelbase 2.864 m (long-wheelbase
+# saloon; the short-wheelbase car is 2.762 m to 1974).
+#
+# Shape reference: no true level side elevation exists in the pack. The side
+# image is a front three-quarter about 45-50 degrees off the centre line, the
+# most side-on Series 2 saloon found; the flank is reconciled against the front
+# and rear three-quarters within the published dimensions. The photographed car
+# carries non-original alloy wheels and a side stripe, which are not copied.
+#
+# Colours: grade (d), Jaguar BLVC paint-code tables rather than a UK brochure.
+# British Racing Green 254, Regency Red TDD, Old English White NDB and
+# Silver Sand 280 are period names. Weights 11, 10, 10, 9, total 40,
+# provisional pending the central rebase.
+#
+# Speed 200 km/h. Comfort 120/510, on the line 330 + 1.5 x 120. Classes 3,4.
+# Dates 1973-1979 production, road tail staggered 1994-1996.
+#
+# Metres master: citycars/4.5/jaguar-xj-series2.blend. Interchange:
+# citycars/4.5/jaguar-xj-series2.dae. References:
+# citycars/references/jaguar-xj-series2/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: no true side elevation exists; the side image is a front
+# three-quarter about 45-50 degrees off. The flank was reconciled against both
+# three-quarters and the published dimensions. The photographed car's
+# non-original alloy wheels and side stripe are not copied. Lamp and grille detail
+# is simplified at sprite scale. Reversing lamps sit inboard of the corner
+# clusters, as the photographs show.
+
+
+obj=citycar
+name=JaguarXJSeries2(BritishRacingGreen)
+copyright=JamesPetts
+
+DistributionWeight=11
+intro_year=1973
+intro_month=9
+retire_year=1996
+retire_month=6
+speed=200
+class=3,4
+maximum_comfortable_journey_minutes=120
+maximum_tolerable_journey_minutes=510
+
+Image[E]=./images/jaguar-xj-series2-britishracinggreen_E.0.0,-33,14
+Image[SE]=./images/jaguar-xj-series2-britishracinggreen_SE.0.0,-13,0
+Image[S]=./images/jaguar-xj-series2-britishracinggreen_S.0.0,0,0
+Image[SW]=./images/jaguar-xj-series2-britishracinggreen_SW.0.0,-8,10
+Image[W]=./images/jaguar-xj-series2-britishracinggreen_W.0.0,4,5
+Image[NW]=./images/jaguar-xj-series2-britishracinggreen_NW.0.0,12,10
+Image[N]=./images/jaguar-xj-series2-britishracinggreen_N.0.0,0,33
+Image[NE]=./images/jaguar-xj-series2-britishracinggreen_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=JaguarXJSeries2(RegencyRed)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=1973
+intro_month=9
+retire_year=1995
+retire_month=6
+speed=200
+class=3,4
+maximum_comfortable_journey_minutes=120
+maximum_tolerable_journey_minutes=510
+
+Image[E]=./images/jaguar-xj-series2-regencyred_E.0.0,-33,14
+Image[SE]=./images/jaguar-xj-series2-regencyred_SE.0.0,-13,0
+Image[S]=./images/jaguar-xj-series2-regencyred_S.0.0,0,0
+Image[SW]=./images/jaguar-xj-series2-regencyred_SW.0.0,-8,10
+Image[W]=./images/jaguar-xj-series2-regencyred_W.0.0,4,5
+Image[NW]=./images/jaguar-xj-series2-regencyred_NW.0.0,12,10
+Image[N]=./images/jaguar-xj-series2-regencyred_N.0.0,0,33
+Image[NE]=./images/jaguar-xj-series2-regencyred_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=JaguarXJSeries2(OldEnglishWhite)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=1973
+intro_month=9
+retire_year=1995
+retire_month=6
+speed=200
+class=3,4
+maximum_comfortable_journey_minutes=120
+maximum_tolerable_journey_minutes=510
+
+Image[E]=./images/jaguar-xj-series2-oldenglishwhite_E.0.0,-33,14
+Image[SE]=./images/jaguar-xj-series2-oldenglishwhite_SE.0.0,-13,0
+Image[S]=./images/jaguar-xj-series2-oldenglishwhite_S.0.0,0,0
+Image[SW]=./images/jaguar-xj-series2-oldenglishwhite_SW.0.0,-8,10
+Image[W]=./images/jaguar-xj-series2-oldenglishwhite_W.0.0,4,5
+Image[NW]=./images/jaguar-xj-series2-oldenglishwhite_NW.0.0,12,10
+Image[N]=./images/jaguar-xj-series2-oldenglishwhite_N.0.0,0,33
+Image[NE]=./images/jaguar-xj-series2-oldenglishwhite_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=JaguarXJSeries2(SilverSand)
+copyright=JamesPetts
+
+DistributionWeight=9
+intro_year=1973
+intro_month=9
+retire_year=1994
+retire_month=6
+speed=200
+class=3,4
+maximum_comfortable_journey_minutes=120
+maximum_tolerable_journey_minutes=510
+
+Image[E]=./images/jaguar-xj-series2-silversand_E.0.0,-33,14
+Image[SE]=./images/jaguar-xj-series2-silversand_SE.0.0,-13,0
+Image[S]=./images/jaguar-xj-series2-silversand_S.0.0,0,0
+Image[SW]=./images/jaguar-xj-series2-silversand_SW.0.0,-8,10
+Image[W]=./images/jaguar-xj-series2-silversand_W.0.0,4,5
+Image[NW]=./images/jaguar-xj-series2-silversand_NW.0.0,12,10
+Image[N]=./images/jaguar-xj-series2-silversand_N.0.0,0,33
+Image[NE]=./images/jaguar-xj-series2-silversand_NE.0.0,0,24

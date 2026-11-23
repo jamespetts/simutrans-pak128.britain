@@ -1,0 +1,124 @@
+# Jaguar 340 four-door saloon, 1967-1969.
+#
+# The final 3.4-litre Mark 2 derivative, sold alongside the 240 with the same
+# slim bumpers, revised grille and Ambla interior. The Mark 2 shell with the
+# 1967 detailing.
+# https://en.wikipedia.org/wiki/Jaguar_Mark_2
+#
+# Dimensions 4.57 x 1.70 x 1.47 m, wheelbase 2.72 m.
+#
+# Shape reference: no true side elevation exists. The best is a rear
+# three-quarter profile about 40 degrees off; the flank is reconciled against
+# the front and rear three-quarters within the published dimensions. Three
+# files titled as 340s were rejected on date or trim grounds and are recorded
+# in the pack notes.
+#
+# Colours: grade (d); no UK brochure was consulted. British Racing Green,
+# Black, Old English White and Carmen Red are period Jaguar finishes. Weights 4,
+# 3, 2, 1, total 10, provisional pending the central rebase.
+#
+# Speed 185 km/h. Comfort 75/443, on the line 330 + 1.5 x 75. Classes 2,3.
+# Dates 1967-1969 production, road tail staggered 1982-1984.
+#
+# Metres master: citycars/4.5/jaguar-340.blend. Interchange:
+# citycars/4.5/jaguar-340.dae. References: citycars/references/jaguar-340/
+# (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the shell was corrected in a derivative copy because the
+# existing Mark 2 master's squared nose and angular roof/rear glazing did not
+# match the photographs. The existing Mark 2 asset is left untouched. No true
+# side elevation or rear view exists; the best is a rear three-quarter about
+# 40 degrees off, reconciled against the front view and the published dimensions.
+
+
+obj=citycar
+name=Jaguar340(BritishRacingGreen)
+copyright=JamesPetts
+
+DistributionWeight=4
+intro_year=1967
+intro_month=9
+retire_year=1984
+retire_month=6
+speed=185
+class=2,3
+maximum_comfortable_journey_minutes=75
+maximum_tolerable_journey_minutes=443
+
+Image[E]=./images/jaguar-340-britishracinggreen_E.0.0,-33,14
+Image[SE]=./images/jaguar-340-britishracinggreen_SE.0.0,-13,0
+Image[S]=./images/jaguar-340-britishracinggreen_S.0.0,0,0
+Image[SW]=./images/jaguar-340-britishracinggreen_SW.0.0,-8,10
+Image[W]=./images/jaguar-340-britishracinggreen_W.0.0,4,5
+Image[NW]=./images/jaguar-340-britishracinggreen_NW.0.0,12,10
+Image[N]=./images/jaguar-340-britishracinggreen_N.0.0,0,33
+Image[NE]=./images/jaguar-340-britishracinggreen_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Jaguar340(Black)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1967
+intro_month=9
+retire_year=1983
+retire_month=6
+speed=185
+class=2,3
+maximum_comfortable_journey_minutes=75
+maximum_tolerable_journey_minutes=443
+
+Image[E]=./images/jaguar-340-black_E.0.0,-33,14
+Image[SE]=./images/jaguar-340-black_SE.0.0,-13,0
+Image[S]=./images/jaguar-340-black_S.0.0,0,0
+Image[SW]=./images/jaguar-340-black_SW.0.0,-8,10
+Image[W]=./images/jaguar-340-black_W.0.0,4,5
+Image[NW]=./images/jaguar-340-black_NW.0.0,12,10
+Image[N]=./images/jaguar-340-black_N.0.0,0,33
+Image[NE]=./images/jaguar-340-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Jaguar340(OldEnglishWhite)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1967
+intro_month=9
+retire_year=1982
+retire_month=6
+speed=185
+class=2,3
+maximum_comfortable_journey_minutes=75
+maximum_tolerable_journey_minutes=443
+
+Image[E]=./images/jaguar-340-oldenglishwhite_E.0.0,-33,14
+Image[SE]=./images/jaguar-340-oldenglishwhite_SE.0.0,-13,0
+Image[S]=./images/jaguar-340-oldenglishwhite_S.0.0,0,0
+Image[SW]=./images/jaguar-340-oldenglishwhite_SW.0.0,-8,10
+Image[W]=./images/jaguar-340-oldenglishwhite_W.0.0,4,5
+Image[NW]=./images/jaguar-340-oldenglishwhite_NW.0.0,12,10
+Image[N]=./images/jaguar-340-oldenglishwhite_N.0.0,0,33
+Image[NE]=./images/jaguar-340-oldenglishwhite_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Jaguar340(CarmenRed)
+copyright=JamesPetts
+
+DistributionWeight=1
+intro_year=1967
+intro_month=9
+retire_year=1982
+retire_month=6
+speed=185
+class=2,3
+maximum_comfortable_journey_minutes=75
+maximum_tolerable_journey_minutes=443
+
+Image[E]=./images/jaguar-340-carmenred_E.0.0,-33,14
+Image[SE]=./images/jaguar-340-carmenred_SE.0.0,-13,0
+Image[S]=./images/jaguar-340-carmenred_S.0.0,0,0
+Image[SW]=./images/jaguar-340-carmenred_SW.0.0,-8,10
+Image[W]=./images/jaguar-340-carmenred_W.0.0,4,5
+Image[NW]=./images/jaguar-340-carmenred_NW.0.0,12,10
+Image[N]=./images/jaguar-340-carmenred_N.0.0,0,33
+Image[NE]=./images/jaguar-340-carmenred_NE.0.0,0,24

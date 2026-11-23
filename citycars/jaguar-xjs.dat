@@ -1,0 +1,125 @@
+# Jaguar XJS coupe, 1975-1996.
+#
+# The XJS: the long-lived V12 grand tourer with the low roofline, the
+# buttressed rear quarter and the broad, flat tail. The pre-facelift
+# 1975-1991 body is modelled; the 1991 facelift with the larger rear lamps and
+# body-colour rear bumper is not.
+# https://en.wikipedia.org/wiki/Jaguar_XJS
+#
+# Dimensions 4.870 x 1.793 x 1.270 m, wheelbase 2.591 m (pre-HE car).
+#
+# Shape reference: a true level side elevation of a 1975 car built on
+# 18 June 1975, plus front and rear three-quarters and a four-lamp headlamp
+# detail. All four images are pre-facelift; the US four-lamp detail is of
+# unstated year and is used only for the lamp arrangement.
+#
+# Colours: grade (d); no period UK document was sighted. Black, Signal Red,
+# British Racing Green and Silver are period Jaguar names recorded as context.
+# Weights 10, 8, 6, 6, total 30, reflecting the model's long UK life,
+# provisional pending the central rebase.
+#
+# Speed 240 km/h. Comfort 90/465, on the line 330 + 1.5 x 90. Classes 3,4.
+# Dates September 1975 to April 1996 production, road tail staggered
+# 2010-2013.
+#
+# Metres master: citycars/4.5/jaguar-xjs.blend. Interchange:
+# citycars/4.5/jaguar-xjs.dae. References: citycars/references/jaguar-xjs/
+# (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the pre-facelift 1975-1991 body is modelled. The side
+# photograph is oblique, so the comparison camera was matched to it. Buttress,
+# lamp and bumper detail is simplified at sprite scale. The four-lamp headlamp
+# arrangement follows the detail photograph.
+
+
+obj=citycar
+name=JaguarXJS(Black)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=1975
+intro_month=9
+retire_year=2013
+retire_month=6
+speed=240
+class=3,4
+maximum_comfortable_journey_minutes=90
+maximum_tolerable_journey_minutes=465
+
+Image[E]=./images/jaguar-xjs-black_E.0.0,-33,14
+Image[SE]=./images/jaguar-xjs-black_SE.0.0,-13,0
+Image[S]=./images/jaguar-xjs-black_S.0.0,0,0
+Image[SW]=./images/jaguar-xjs-black_SW.0.0,-8,10
+Image[W]=./images/jaguar-xjs-black_W.0.0,4,5
+Image[NW]=./images/jaguar-xjs-black_NW.0.0,12,10
+Image[N]=./images/jaguar-xjs-black_N.0.0,0,33
+Image[NE]=./images/jaguar-xjs-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=JaguarXJS(SignalRed)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=1975
+intro_month=9
+retire_year=2012
+retire_month=6
+speed=240
+class=3,4
+maximum_comfortable_journey_minutes=90
+maximum_tolerable_journey_minutes=465
+
+Image[E]=./images/jaguar-xjs-signalred_E.0.0,-33,14
+Image[SE]=./images/jaguar-xjs-signalred_SE.0.0,-13,0
+Image[S]=./images/jaguar-xjs-signalred_S.0.0,0,0
+Image[SW]=./images/jaguar-xjs-signalred_SW.0.0,-8,10
+Image[W]=./images/jaguar-xjs-signalred_W.0.0,4,5
+Image[NW]=./images/jaguar-xjs-signalred_NW.0.0,12,10
+Image[N]=./images/jaguar-xjs-signalred_N.0.0,0,33
+Image[NE]=./images/jaguar-xjs-signalred_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=JaguarXJS(BritishRacingGreen)
+copyright=JamesPetts
+
+DistributionWeight=6
+intro_year=1975
+intro_month=9
+retire_year=2011
+retire_month=6
+speed=240
+class=3,4
+maximum_comfortable_journey_minutes=90
+maximum_tolerable_journey_minutes=465
+
+Image[E]=./images/jaguar-xjs-britishracinggreen_E.0.0,-33,14
+Image[SE]=./images/jaguar-xjs-britishracinggreen_SE.0.0,-13,0
+Image[S]=./images/jaguar-xjs-britishracinggreen_S.0.0,0,0
+Image[SW]=./images/jaguar-xjs-britishracinggreen_SW.0.0,-8,10
+Image[W]=./images/jaguar-xjs-britishracinggreen_W.0.0,4,5
+Image[NW]=./images/jaguar-xjs-britishracinggreen_NW.0.0,12,10
+Image[N]=./images/jaguar-xjs-britishracinggreen_N.0.0,0,33
+Image[NE]=./images/jaguar-xjs-britishracinggreen_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=JaguarXJS(Silver)
+copyright=JamesPetts
+
+DistributionWeight=6
+intro_year=1975
+intro_month=9
+retire_year=2010
+retire_month=6
+speed=240
+class=3,4
+maximum_comfortable_journey_minutes=90
+maximum_tolerable_journey_minutes=465
+
+Image[E]=./images/jaguar-xjs-silver_E.0.0,-33,14
+Image[SE]=./images/jaguar-xjs-silver_SE.0.0,-13,0
+Image[S]=./images/jaguar-xjs-silver_S.0.0,0,0
+Image[SW]=./images/jaguar-xjs-silver_SW.0.0,-8,10
+Image[W]=./images/jaguar-xjs-silver_W.0.0,4,5
+Image[NW]=./images/jaguar-xjs-silver_NW.0.0,12,10
+Image[N]=./images/jaguar-xjs-silver_N.0.0,0,33
+Image[NE]=./images/jaguar-xjs-silver_NE.0.0,0,24

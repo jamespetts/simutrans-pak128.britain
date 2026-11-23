@@ -1,0 +1,134 @@
+# Jaguar Type 01 four-door electric luxury GT, 2027-
+#
+# The production Type 01 on the Jaguar Electric Architecture, revealed in New
+# York on 6 October 2026: a low four-door fastback GT with a long bonnet,
+# short front overhang, extended rear overhang and 23-inch wheels. It is not
+# the earlier Type 00 concept: the production car has the taller glasshouse,
+# visible door handles and road-legal lamps.
+# https://en.wikipedia.org/wiki/Jaguar_Type_01
+#
+# Dimensions 5.235 x 2.021 x 1.403 m, wheelbase 3.200 m (JLR technical
+# specification). The master models a 3.350 m wheelbase measured from the side
+# photograph, which reads 4.7 per cent longer than the published figure; the
+# deviation is recorded and is under a pixel at sprite scale.
+#
+# Shape reference: official JLR press images. The side view is a true level
+# side elevation. The rear three-quarter in the pack is a macro detail rather
+# than a full-car view, so the tail was taken from the side view and the front
+# three-quarter plus a supplemental full rear photograph. No rear full-car
+# press image was available in the first pack.
+#
+# Colours: grade (a), the JLR launch palette. Visionary Silver, Iconic Black,
+# Compelling Blue and Refined Grey are official gloss colours. Weights 3, 2, 2,
+# 1, total 8: a very low-volume new halo car, provisional pending the central
+# rebase.
+#
+# Speed 240 km/h; comfort 165/578, on the line 330 + 1.5 x 165. Class 4.
+# Orders open early 2027, first deliveries expected in the second half of 2027;
+# still in production, so no retire fields are set.
+#
+# Metres master: citycars/4.5/jaguar-type-01.blend. Interchange:
+# citycars/4.5/jaguar-type-01.dae. References:
+# citycars/references/jaguar-type-01/ (gitignored; official JLR press images,
+# reference use only).
+#
+# Accepted deviations: the master models a 3.350 m wheelbase measured from the
+# side photograph against the published 3.200 m (4.7 per cent, under a pixel at
+# sprite scale). The rear three-quarter in the pack is a macro detail, so the
+# tail shape follows the side view, the front three-quarter and a supplemental
+# full rear photograph. Front bumper recesses and vane counts are simplified;
+# the rear lamp bar is a narrow dark-red insert within the ribbed panel, as the
+# photographs show the lamp hardware concealed.
+
+
+obj=citycar
+name=JaguarType01(VisionarySilver)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=2027
+intro_month=7
+# retire_year=2047
+# retire_month=6
+speed=240
+class=4
+maximum_comfortable_journey_minutes=165
+maximum_tolerable_journey_minutes=578
+
+Image[E]=./images/jaguar-type-01-visionarysilver_E.0.0,-33,14
+Image[SE]=./images/jaguar-type-01-visionarysilver_SE.0.0,-13,0
+Image[S]=./images/jaguar-type-01-visionarysilver_S.0.0,0,0
+Image[SW]=./images/jaguar-type-01-visionarysilver_SW.0.0,-8,10
+Image[W]=./images/jaguar-type-01-visionarysilver_W.0.0,4,5
+Image[NW]=./images/jaguar-type-01-visionarysilver_NW.0.0,12,10
+Image[N]=./images/jaguar-type-01-visionarysilver_N.0.0,0,33
+Image[NE]=./images/jaguar-type-01-visionarysilver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=JaguarType01(IconicBlack)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=2027
+intro_month=7
+# retire_year=2047
+# retire_month=6
+speed=240
+class=4
+maximum_comfortable_journey_minutes=165
+maximum_tolerable_journey_minutes=578
+
+Image[E]=./images/jaguar-type-01-iconicblack_E.0.0,-33,14
+Image[SE]=./images/jaguar-type-01-iconicblack_SE.0.0,-13,0
+Image[S]=./images/jaguar-type-01-iconicblack_S.0.0,0,0
+Image[SW]=./images/jaguar-type-01-iconicblack_SW.0.0,-8,10
+Image[W]=./images/jaguar-type-01-iconicblack_W.0.0,4,5
+Image[NW]=./images/jaguar-type-01-iconicblack_NW.0.0,12,10
+Image[N]=./images/jaguar-type-01-iconicblack_N.0.0,0,33
+Image[NE]=./images/jaguar-type-01-iconicblack_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=JaguarType01(CompellingBlue)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=2027
+intro_month=7
+# retire_year=2047
+# retire_month=6
+speed=240
+class=4
+maximum_comfortable_journey_minutes=165
+maximum_tolerable_journey_minutes=578
+
+Image[E]=./images/jaguar-type-01-compellingblue_E.0.0,-33,14
+Image[SE]=./images/jaguar-type-01-compellingblue_SE.0.0,-13,0
+Image[S]=./images/jaguar-type-01-compellingblue_S.0.0,0,0
+Image[SW]=./images/jaguar-type-01-compellingblue_SW.0.0,-8,10
+Image[W]=./images/jaguar-type-01-compellingblue_W.0.0,4,5
+Image[NW]=./images/jaguar-type-01-compellingblue_NW.0.0,12,10
+Image[N]=./images/jaguar-type-01-compellingblue_N.0.0,0,33
+Image[NE]=./images/jaguar-type-01-compellingblue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=JaguarType01(RefinedGrey)
+copyright=JamesPetts
+
+DistributionWeight=1
+intro_year=2027
+intro_month=7
+# retire_year=2047
+# retire_month=6
+speed=240
+class=4
+maximum_comfortable_journey_minutes=165
+maximum_tolerable_journey_minutes=578
+
+Image[E]=./images/jaguar-type-01-refinedgrey_E.0.0,-33,14
+Image[SE]=./images/jaguar-type-01-refinedgrey_SE.0.0,-13,0
+Image[S]=./images/jaguar-type-01-refinedgrey_S.0.0,0,0
+Image[SW]=./images/jaguar-type-01-refinedgrey_SW.0.0,-8,10
+Image[W]=./images/jaguar-type-01-refinedgrey_W.0.0,4,5
+Image[NW]=./images/jaguar-type-01-refinedgrey_NW.0.0,12,10
+Image[N]=./images/jaguar-type-01-refinedgrey_N.0.0,0,33
+Image[NE]=./images/jaguar-type-01-refinedgrey_NE.0.0,0,24

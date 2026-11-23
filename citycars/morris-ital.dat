@@ -1,0 +1,123 @@
+# Morris Ital four-door saloon, 1980-1984.
+#
+# The facelifted Morris Marina: black slatted grille with rectangular lamps in a
+# black surround, a different bonnet pressing, and a restyled boot lid with much
+# larger tail lamps. It is not a Marina, and the Marina is already in the tree.
+# https://en.wikipedia.org/wiki/Morris_Ital
+#
+# Dimensions 4.340 x 1.640 x 1.420 m, wheelbase 2.440 m.
+#
+# Shape reference: a true broadside of a cream four-door saloon, plus matching
+# front and rear three-quarters and a front detail. All four images were checked
+# for the Ital grille and boot.
+#
+# Colours: grade (b), Morris Marina Owners Club and Ital Register colour and trim
+# compilation of BL/ICI paint codes. Black, Pageant Blue, Vermillion and Silver
+# Leaf are period names. Weights 13, 12, 10, 10, total 45, reflecting the Ital's
+# UK volume, provisional pending the central rebase.
+#
+# Speed 145 km/h. Comfort 60/420, on the line 330 + 1.5 x 60. Classes 1,2.
+# Dates July 1980 to February 1984 (estate to August 1984), road tail staggered
+# 1996-1998.
+#
+# Metres master: citycars/4.5/morris-ital.blend. Interchange:
+# citycars/4.5/morris-ital.dae. References: citycars/references/morris-ital/
+# (gitignored; Wikimedia Commons, CC BY 2.0).
+#
+# Accepted deviations: the true broadside governs the body. Grille slats, lamp
+# internals, badges and wheel detail are simplified at sprite scale. The Ital
+# grille, bonnet pressing and larger tail lamps are modelled; it is not a Marina
+# and no Marina parts are copied.
+
+
+obj=citycar
+name=MorrisItal(Black)
+copyright=JamesPetts
+
+DistributionWeight=13
+intro_year=1980
+intro_month=7
+retire_year=1998
+retire_month=6
+speed=145
+class=1,2
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=420
+
+Image[E]=./images/morris-ital-black_E.0.0,-33,14
+Image[SE]=./images/morris-ital-black_SE.0.0,-13,0
+Image[S]=./images/morris-ital-black_S.0.0,0,0
+Image[SW]=./images/morris-ital-black_SW.0.0,-8,10
+Image[W]=./images/morris-ital-black_W.0.0,4,5
+Image[NW]=./images/morris-ital-black_NW.0.0,12,10
+Image[N]=./images/morris-ital-black_N.0.0,0,33
+Image[NE]=./images/morris-ital-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=MorrisItal(PageantBlue)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=1980
+intro_month=7
+retire_year=1997
+retire_month=6
+speed=145
+class=1,2
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=420
+
+Image[E]=./images/morris-ital-pageantblue_E.0.0,-33,14
+Image[SE]=./images/morris-ital-pageantblue_SE.0.0,-13,0
+Image[S]=./images/morris-ital-pageantblue_S.0.0,0,0
+Image[SW]=./images/morris-ital-pageantblue_SW.0.0,-8,10
+Image[W]=./images/morris-ital-pageantblue_W.0.0,4,5
+Image[NW]=./images/morris-ital-pageantblue_NW.0.0,12,10
+Image[N]=./images/morris-ital-pageantblue_N.0.0,0,33
+Image[NE]=./images/morris-ital-pageantblue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=MorrisItal(Vermillion)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=1980
+intro_month=7
+retire_year=1996
+retire_month=6
+speed=145
+class=1,2
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=420
+
+Image[E]=./images/morris-ital-vermillion_E.0.0,-33,14
+Image[SE]=./images/morris-ital-vermillion_SE.0.0,-13,0
+Image[S]=./images/morris-ital-vermillion_S.0.0,0,0
+Image[SW]=./images/morris-ital-vermillion_SW.0.0,-8,10
+Image[W]=./images/morris-ital-vermillion_W.0.0,4,5
+Image[NW]=./images/morris-ital-vermillion_NW.0.0,12,10
+Image[N]=./images/morris-ital-vermillion_N.0.0,0,33
+Image[NE]=./images/morris-ital-vermillion_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=MorrisItal(SilverLeaf)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=1980
+intro_month=7
+retire_year=1996
+retire_month=6
+speed=145
+class=1,2
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=420
+
+Image[E]=./images/morris-ital-silverleaf_E.0.0,-33,14
+Image[SE]=./images/morris-ital-silverleaf_SE.0.0,-13,0
+Image[S]=./images/morris-ital-silverleaf_S.0.0,0,0
+Image[SW]=./images/morris-ital-silverleaf_SW.0.0,-8,10
+Image[W]=./images/morris-ital-silverleaf_W.0.0,4,5
+Image[NW]=./images/morris-ital-silverleaf_NW.0.0,12,10
+Image[N]=./images/morris-ital-silverleaf_N.0.0,0,33
+Image[NE]=./images/morris-ital-silverleaf_NE.0.0,0,24

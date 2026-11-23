@@ -1,0 +1,124 @@
+# Napier 8 hp open two-seater, 1900-1903.
+#
+# The first Napier production car, built at Lambeth: a double phaeton with two
+# rows of seats, a sloping perforated nose and no windscreen. AP 3575 is one of
+# the three original cars. Napier production reached 250 cars in 1903 and 743
+# in 1913. The single-row two-seater body is not represented.
+# https://en.wikipedia.org/wiki/Napier_%26_Son
+#
+# Dimensions 3.5 x 1.65 x 1.55 m, wheelbase 2.153 m. Length and width are
+# estimates measured from the photographs; the wheelbase is published.
+#
+# Shape reference: a true level side photograph of AP 3575, plus front
+# three-quarter and detail views of the same car. No rear three-quarter of
+# AP 3575 exists in Commons, so the tail follows the side view. Recorded.
+#
+# Colours: grade (d), no period UK document consulted. Black, Dark Green,
+# Maroon and Grey are plain colour names, the common finishes of the period.
+# Weights 2, 1, 1, 1, total 5, provisional pending the central rebase.
+#
+# Speed 50 km/h. Comfort 18/357, on the line 330 + 1.5 x 18. Class 4.
+# Dates 1900-1903 production, road tail staggered 1912-1914.
+#
+# Metres master: citycars/4.5/napier-8.blend. Interchange:
+# citycars/4.5/napier-8.dae. References: citycars/references/napier-8/
+# (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: AP 3575 is modelled as the double phaeton with two seat
+# rows, the sloping perforated nose and no windscreen; the single-row two-seater
+# body is not represented. The true side governs; no rear view exists, so the
+# tail follows the side and the elevated detail photograph. Segmented curves,
+# turned-up mudguard ends and seat scallops are simplified.
+
+
+obj=citycar
+name=Napier8(Black)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1900
+intro_month=6
+retire_year=1914
+retire_month=6
+speed=50
+class=4
+maximum_comfortable_journey_minutes=18
+maximum_tolerable_journey_minutes=357
+
+Image[E]=./images/napier-8-black_E.0.0,-33,14
+Image[SE]=./images/napier-8-black_SE.0.0,-13,0
+Image[S]=./images/napier-8-black_S.0.0,0,0
+Image[SW]=./images/napier-8-black_SW.0.0,-8,10
+Image[W]=./images/napier-8-black_W.0.0,4,5
+Image[NW]=./images/napier-8-black_NW.0.0,12,10
+Image[N]=./images/napier-8-black_N.0.0,0,33
+Image[NE]=./images/napier-8-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Napier8(DarkGreen)
+copyright=JamesPetts
+
+DistributionWeight=1
+intro_year=1900
+intro_month=6
+retire_year=1913
+retire_month=6
+speed=50
+class=4
+maximum_comfortable_journey_minutes=18
+maximum_tolerable_journey_minutes=357
+
+Image[E]=./images/napier-8-darkgreen_E.0.0,-33,14
+Image[SE]=./images/napier-8-darkgreen_SE.0.0,-13,0
+Image[S]=./images/napier-8-darkgreen_S.0.0,0,0
+Image[SW]=./images/napier-8-darkgreen_SW.0.0,-8,10
+Image[W]=./images/napier-8-darkgreen_W.0.0,4,5
+Image[NW]=./images/napier-8-darkgreen_NW.0.0,12,10
+Image[N]=./images/napier-8-darkgreen_N.0.0,0,33
+Image[NE]=./images/napier-8-darkgreen_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Napier8(Maroon)
+copyright=JamesPetts
+
+DistributionWeight=1
+intro_year=1900
+intro_month=6
+retire_year=1912
+retire_month=6
+speed=50
+class=4
+maximum_comfortable_journey_minutes=18
+maximum_tolerable_journey_minutes=357
+
+Image[E]=./images/napier-8-maroon_E.0.0,-33,14
+Image[SE]=./images/napier-8-maroon_SE.0.0,-13,0
+Image[S]=./images/napier-8-maroon_S.0.0,0,0
+Image[SW]=./images/napier-8-maroon_SW.0.0,-8,10
+Image[W]=./images/napier-8-maroon_W.0.0,4,5
+Image[NW]=./images/napier-8-maroon_NW.0.0,12,10
+Image[N]=./images/napier-8-maroon_N.0.0,0,33
+Image[NE]=./images/napier-8-maroon_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Napier8(Grey)
+copyright=JamesPetts
+
+DistributionWeight=1
+intro_year=1900
+intro_month=6
+retire_year=1912
+retire_month=6
+speed=50
+class=4
+maximum_comfortable_journey_minutes=18
+maximum_tolerable_journey_minutes=357
+
+Image[E]=./images/napier-8-grey_E.0.0,-33,14
+Image[SE]=./images/napier-8-grey_SE.0.0,-13,0
+Image[S]=./images/napier-8-grey_S.0.0,0,0
+Image[SW]=./images/napier-8-grey_SW.0.0,-8,10
+Image[W]=./images/napier-8-grey_W.0.0,4,5
+Image[NW]=./images/napier-8-grey_NW.0.0,12,10
+Image[N]=./images/napier-8-grey_N.0.0,0,33
+Image[NE]=./images/napier-8-grey_NE.0.0,0,24

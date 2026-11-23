@@ -1,0 +1,123 @@
+# Jaguar E-type Series 2 fixed-head coupe, 1968-1971.
+#
+# The Series 2: open headlamps, larger below-bumper indicators, a wrap-around
+# rear bumper with the lamps below it and an enlarged grille. The fixed-head
+# coupe is modelled.
+# https://en.wikipedia.org/wiki/Jaguar_E-Type
+#
+# Dimensions 4.453 x 1.657 x 1.222 m, wheelbase 2.438 m. The Series 1 figures
+# are carried over; no separate Series 2 table was sighted, and the pack says
+# so rather than implying a second source.
+#
+# Shape reference: a true level side elevation of a black 1969 car, plus front
+# and rear three-quarters and a detail.
+#
+# Colours: grade (d); no period UK document was sighted. Cream, Signal Red,
+# Black and British Racing Green are period Jaguar names recorded as context.
+# Weights 5, 4, 3, 2, total 14, provisional pending the central rebase.
+#
+# Speed 230 km/h. Comfort 62/423, on the line 330 + 1.5 x 62. Classes 3,4.
+# Dates October 1968 to 1971 production, road tail staggered 1982-1984.
+#
+# Metres master: citycars/4.5/jaguar-e-type-s2.blend. Interchange:
+# citycars/4.5/jaguar-e-type-s2.dae. References:
+# citycars/references/jaguar-e-type-s2/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: built as a variant of the Series 1 4.2 master with the
+# open headlamps, larger indicators, wrap-around rear bumper and enlarged grille.
+# The side photograph is oblique (from the rear), so the comparison camera was
+# matched to it rather than treated as a true elevation. Lamp and bumper detail
+# is simplified at sprite scale.
+
+
+obj=citycar
+name=JaguarETypeS2(Cream)
+copyright=JamesPetts
+
+DistributionWeight=5
+intro_year=1968
+intro_month=10
+retire_year=1984
+retire_month=6
+speed=230
+class=3,4
+maximum_comfortable_journey_minutes=62
+maximum_tolerable_journey_minutes=423
+
+Image[E]=./images/jaguar-e-type-s2-cream_E.0.0,-33,14
+Image[SE]=./images/jaguar-e-type-s2-cream_SE.0.0,-13,0
+Image[S]=./images/jaguar-e-type-s2-cream_S.0.0,0,0
+Image[SW]=./images/jaguar-e-type-s2-cream_SW.0.0,-8,10
+Image[W]=./images/jaguar-e-type-s2-cream_W.0.0,4,5
+Image[NW]=./images/jaguar-e-type-s2-cream_NW.0.0,12,10
+Image[N]=./images/jaguar-e-type-s2-cream_N.0.0,0,33
+Image[NE]=./images/jaguar-e-type-s2-cream_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=JaguarETypeS2(SignalRed)
+copyright=JamesPetts
+
+DistributionWeight=4
+intro_year=1968
+intro_month=10
+retire_year=1983
+retire_month=6
+speed=230
+class=3,4
+maximum_comfortable_journey_minutes=62
+maximum_tolerable_journey_minutes=423
+
+Image[E]=./images/jaguar-e-type-s2-signalred_E.0.0,-33,14
+Image[SE]=./images/jaguar-e-type-s2-signalred_SE.0.0,-13,0
+Image[S]=./images/jaguar-e-type-s2-signalred_S.0.0,0,0
+Image[SW]=./images/jaguar-e-type-s2-signalred_SW.0.0,-8,10
+Image[W]=./images/jaguar-e-type-s2-signalred_W.0.0,4,5
+Image[NW]=./images/jaguar-e-type-s2-signalred_NW.0.0,12,10
+Image[N]=./images/jaguar-e-type-s2-signalred_N.0.0,0,33
+Image[NE]=./images/jaguar-e-type-s2-signalred_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=JaguarETypeS2(Black)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1968
+intro_month=10
+retire_year=1982
+retire_month=6
+speed=230
+class=3,4
+maximum_comfortable_journey_minutes=62
+maximum_tolerable_journey_minutes=423
+
+Image[E]=./images/jaguar-e-type-s2-black_E.0.0,-33,14
+Image[SE]=./images/jaguar-e-type-s2-black_SE.0.0,-13,0
+Image[S]=./images/jaguar-e-type-s2-black_S.0.0,0,0
+Image[SW]=./images/jaguar-e-type-s2-black_SW.0.0,-8,10
+Image[W]=./images/jaguar-e-type-s2-black_W.0.0,4,5
+Image[NW]=./images/jaguar-e-type-s2-black_NW.0.0,12,10
+Image[N]=./images/jaguar-e-type-s2-black_N.0.0,0,33
+Image[NE]=./images/jaguar-e-type-s2-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=JaguarETypeS2(BritishRacingGreen)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1968
+intro_month=10
+retire_year=1982
+retire_month=6
+speed=230
+class=3,4
+maximum_comfortable_journey_minutes=62
+maximum_tolerable_journey_minutes=423
+
+Image[E]=./images/jaguar-e-type-s2-britishracinggreen_E.0.0,-33,14
+Image[SE]=./images/jaguar-e-type-s2-britishracinggreen_SE.0.0,-13,0
+Image[S]=./images/jaguar-e-type-s2-britishracinggreen_S.0.0,0,0
+Image[SW]=./images/jaguar-e-type-s2-britishracinggreen_SW.0.0,-8,10
+Image[W]=./images/jaguar-e-type-s2-britishracinggreen_W.0.0,4,5
+Image[NW]=./images/jaguar-e-type-s2-britishracinggreen_NW.0.0,12,10
+Image[N]=./images/jaguar-e-type-s2-britishracinggreen_N.0.0,0,33
+Image[NE]=./images/jaguar-e-type-s2-britishracinggreen_NE.0.0,0,24

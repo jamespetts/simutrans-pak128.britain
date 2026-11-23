@@ -1,0 +1,129 @@
+# Jaguar XE (X760) four-door saloon, 2015-2024.
+#
+# The compact executive Jaguar on the D7a aluminium platform: short front
+# overhang, long bonnet, rising beltline, narrow swept headlamps with the
+# J-shaped daytime light, a rounded-rectangular mesh grille, a strong flank
+# crease through the door handles and a chrome fender blade behind the front
+# wheel. The pre-facelift 2015-2019 body is modelled; the 2019 facelift
+# changed the bumper intakes, lamps and rear bumper.
+# https://en.wikipedia.org/wiki/Jaguar_XE
+#
+# Dimensions 4.672 x 1.850 x 1.416 m, wheelbase 2.835 m. The Chinese
+# long-wheelbase XEL is not the UK car and is not modelled.
+#
+# Shape reference: no true level side elevation was available. The side image
+# is a front three-quarter about 45 degrees off the centre line, the most
+# side-on XE found; the flank is reconciled against the front and rear
+# three-quarters within the published dimensions. The limitation is recorded.
+#
+# Colours: no Jaguar UK document was retrieved, so no factory paint name is
+# claimed (grade d). White, Black, Blue and Silver are plain colour names; the
+# four most common UK colours of the period, not factory wording. Weights 6, 5,
+# 5, 4, total 20, provisional pending the central rebase.
+#
+# Speed 240 km/h. Comfort 95/473, on the line 330 + 1.5 x 95. Classes 2,3.
+# Dates 2015-2024 production, road tail staggered 2038-2041.
+#
+# Metres master: citycars/4.5/jaguar-xe.blend. Interchange:
+# citycars/4.5/jaguar-xe.dae. References: citycars/references/jaguar-xe/
+# (gitignored; Wikimedia Commons, CC BY-SA 4.0).
+#
+# Accepted deviations: no true side elevation exists; the side image is a front
+# three-quarter about 45 degrees off, and the flank was reconciled against both
+# three-quarters and the published dimensions. The rear follows the photographs:
+# two adjacent exhaust tips and no continuous chrome bar between the lamps. Lamp,
+# grille and wheel detail is simplified at sprite scale. The pre-facelift body is
+# modelled.
+
+
+obj=citycar
+name=JaguarXE(White)
+copyright=JamesPetts
+
+DistributionWeight=6
+intro_year=2015
+intro_month=4
+retire_year=2041
+retire_month=6
+speed=240
+class=2,3
+maximum_comfortable_journey_minutes=95
+maximum_tolerable_journey_minutes=473
+
+Image[E]=./images/jaguar-xe-white_E.0.0,-33,14
+Image[SE]=./images/jaguar-xe-white_SE.0.0,-13,0
+Image[S]=./images/jaguar-xe-white_S.0.0,0,0
+Image[SW]=./images/jaguar-xe-white_SW.0.0,-8,10
+Image[W]=./images/jaguar-xe-white_W.0.0,4,5
+Image[NW]=./images/jaguar-xe-white_NW.0.0,12,10
+Image[N]=./images/jaguar-xe-white_N.0.0,0,33
+Image[NE]=./images/jaguar-xe-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=JaguarXE(Black)
+copyright=JamesPetts
+
+DistributionWeight=5
+intro_year=2015
+intro_month=4
+retire_year=2040
+retire_month=6
+speed=240
+class=2,3
+maximum_comfortable_journey_minutes=95
+maximum_tolerable_journey_minutes=473
+
+Image[E]=./images/jaguar-xe-black_E.0.0,-33,14
+Image[SE]=./images/jaguar-xe-black_SE.0.0,-13,0
+Image[S]=./images/jaguar-xe-black_S.0.0,0,0
+Image[SW]=./images/jaguar-xe-black_SW.0.0,-8,10
+Image[W]=./images/jaguar-xe-black_W.0.0,4,5
+Image[NW]=./images/jaguar-xe-black_NW.0.0,12,10
+Image[N]=./images/jaguar-xe-black_N.0.0,0,33
+Image[NE]=./images/jaguar-xe-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=JaguarXE(Blue)
+copyright=JamesPetts
+
+DistributionWeight=5
+intro_year=2015
+intro_month=4
+retire_year=2039
+retire_month=6
+speed=240
+class=2,3
+maximum_comfortable_journey_minutes=95
+maximum_tolerable_journey_minutes=473
+
+Image[E]=./images/jaguar-xe-blue_E.0.0,-33,14
+Image[SE]=./images/jaguar-xe-blue_SE.0.0,-13,0
+Image[S]=./images/jaguar-xe-blue_S.0.0,0,0
+Image[SW]=./images/jaguar-xe-blue_SW.0.0,-8,10
+Image[W]=./images/jaguar-xe-blue_W.0.0,4,5
+Image[NW]=./images/jaguar-xe-blue_NW.0.0,12,10
+Image[N]=./images/jaguar-xe-blue_N.0.0,0,33
+Image[NE]=./images/jaguar-xe-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=JaguarXE(Silver)
+copyright=JamesPetts
+
+DistributionWeight=4
+intro_year=2015
+intro_month=4
+retire_year=2038
+retire_month=6
+speed=240
+class=2,3
+maximum_comfortable_journey_minutes=95
+maximum_tolerable_journey_minutes=473
+
+Image[E]=./images/jaguar-xe-silver_E.0.0,-33,14
+Image[SE]=./images/jaguar-xe-silver_SE.0.0,-13,0
+Image[S]=./images/jaguar-xe-silver_S.0.0,0,0
+Image[SW]=./images/jaguar-xe-silver_SW.0.0,-8,10
+Image[W]=./images/jaguar-xe-silver_W.0.0,4,5
+Image[NW]=./images/jaguar-xe-silver_NW.0.0,12,10
+Image[N]=./images/jaguar-xe-silver_N.0.0,0,33
+Image[NE]=./images/jaguar-xe-silver_NE.0.0,0,24

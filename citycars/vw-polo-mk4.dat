@@ -1,0 +1,130 @@
+# Volkswagen Polo Mk4 (Typ 9N) five-door hatchback, 2002-2009.
+#
+# The 9N Polo with two round headlamps per side under clear covers (the
+# four-eye front), a short bonnet and a five-door shell. The pre-facelift 9N
+# is modelled; the 9N3 facelift of June 2005 with the chrome-topped grille is
+# not.
+# https://en.wikipedia.org/wiki/Volkswagen_Polo_Mk4
+#
+# Dimensions 3.897 x 1.650 x 1.465 m, wheelbase 2.460 m (PoloDriver,
+# credited to the Volkswagen UK Press Office; Wikipedia agrees on width,
+# height and wheelbase).
+#
+# Shape reference: no true level side elevation was available. The side image
+# is a front three-quarter about 50 degrees to the side axis, the most side-on
+# 9N found; the flank is reconciled against the front and rear three-quarters
+# within the published dimensions. The limitation is recorded. The side and
+# rear cars are the same UK five-door; the front three-quarter is a three-door.
+#
+# Colours: no UK brochure was retrievable, so no factory name is claimed
+# (grade d). Blue, Silver, Black and Red are plain colour names; the
+# photographer's note for the side car, Indigo Blue Pearl Effect, is recorded
+# as a lead only. Weights 11, 10, 8, 7, total 36, provisional pending the
+# central rebase.
+#
+# Speed 165 km/h. Comfort 70/435, on the line 330 + 1.5 x 70. Classes 1,2.
+# Dates 2002-2009 production, road tail staggered 2024-2027.
+#
+# Metres master: citycars/4.5/vw-polo-mk4.blend. Interchange:
+# citycars/4.5/vw-polo-mk4.dae. References: citycars/references/vw-polo-mk4/
+# (gitignored; Wikimedia Commons, CC BY-SA 4.0).
+#
+# Accepted deviations: no true side elevation exists, so the five-door flank was
+# reconciled against the front three-quarter, rear three-quarter and detail
+# images within the published dimensions; the silver three-door in the front
+# three-quarter supplied only the front-end reference. Four round headlamps are
+# modelled; lens internals, wheel-cover openings and rear lamp segmentation are
+# simplified. The aerial, rear wiper and model lettering are omitted.
+
+
+obj=citycar
+name=VWPoloMk4(Blue)
+copyright=JamesPetts
+
+DistributionWeight=11
+intro_year=2002
+intro_month=2
+retire_year=2027
+retire_month=6
+speed=165
+class=1,2
+maximum_comfortable_journey_minutes=70
+maximum_tolerable_journey_minutes=435
+
+Image[E]=./images/vw-polo-mk4-blue_E.0.0,-33,14
+Image[SE]=./images/vw-polo-mk4-blue_SE.0.0,-13,0
+Image[S]=./images/vw-polo-mk4-blue_S.0.0,0,0
+Image[SW]=./images/vw-polo-mk4-blue_SW.0.0,-8,10
+Image[W]=./images/vw-polo-mk4-blue_W.0.0,4,5
+Image[NW]=./images/vw-polo-mk4-blue_NW.0.0,12,10
+Image[N]=./images/vw-polo-mk4-blue_N.0.0,0,33
+Image[NE]=./images/vw-polo-mk4-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VWPoloMk4(Silver)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=2002
+intro_month=2
+retire_year=2026
+retire_month=6
+speed=165
+class=1,2
+maximum_comfortable_journey_minutes=70
+maximum_tolerable_journey_minutes=435
+
+Image[E]=./images/vw-polo-mk4-silver_E.0.0,-33,14
+Image[SE]=./images/vw-polo-mk4-silver_SE.0.0,-13,0
+Image[S]=./images/vw-polo-mk4-silver_S.0.0,0,0
+Image[SW]=./images/vw-polo-mk4-silver_SW.0.0,-8,10
+Image[W]=./images/vw-polo-mk4-silver_W.0.0,4,5
+Image[NW]=./images/vw-polo-mk4-silver_NW.0.0,12,10
+Image[N]=./images/vw-polo-mk4-silver_N.0.0,0,33
+Image[NE]=./images/vw-polo-mk4-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VWPoloMk4(Black)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=2002
+intro_month=2
+retire_year=2025
+retire_month=6
+speed=165
+class=1,2
+maximum_comfortable_journey_minutes=70
+maximum_tolerable_journey_minutes=435
+
+Image[E]=./images/vw-polo-mk4-black_E.0.0,-33,14
+Image[SE]=./images/vw-polo-mk4-black_SE.0.0,-13,0
+Image[S]=./images/vw-polo-mk4-black_S.0.0,0,0
+Image[SW]=./images/vw-polo-mk4-black_SW.0.0,-8,10
+Image[W]=./images/vw-polo-mk4-black_W.0.0,4,5
+Image[NW]=./images/vw-polo-mk4-black_NW.0.0,12,10
+Image[N]=./images/vw-polo-mk4-black_N.0.0,0,33
+Image[NE]=./images/vw-polo-mk4-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VWPoloMk4(Red)
+copyright=JamesPetts
+
+DistributionWeight=7
+intro_year=2002
+intro_month=2
+retire_year=2024
+retire_month=6
+speed=165
+class=1,2
+maximum_comfortable_journey_minutes=70
+maximum_tolerable_journey_minutes=435
+
+Image[E]=./images/vw-polo-mk4-red_E.0.0,-33,14
+Image[SE]=./images/vw-polo-mk4-red_SE.0.0,-13,0
+Image[S]=./images/vw-polo-mk4-red_S.0.0,0,0
+Image[SW]=./images/vw-polo-mk4-red_SW.0.0,-8,10
+Image[W]=./images/vw-polo-mk4-red_W.0.0,4,5
+Image[NW]=./images/vw-polo-mk4-red_NW.0.0,12,10
+Image[N]=./images/vw-polo-mk4-red_N.0.0,0,33
+Image[NE]=./images/vw-polo-mk4-red_NE.0.0,0,24

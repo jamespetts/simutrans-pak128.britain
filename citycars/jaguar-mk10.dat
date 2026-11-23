@@ -1,0 +1,121 @@
+# Jaguar Mark X four-door saloon, 1961-1970.
+#
+# The wide, low large Jaguar with independent rear suspension, four round
+# headlamps in pairs and a broad grille. The 4.2-litre Mark X and the 420G are
+# the same shell and are represented together.
+# https://en.wikipedia.org/wiki/Jaguar_Mark_X
+#
+# Dimensions 5.13 x 1.94 x 1.38 m, wheelbase 3.05 m.
+#
+# Shape reference: no true level side elevation exists; the best is a 420G at
+# 10-15 degrees off perpendicular. The flank is reconciled against the front
+# and rear three-quarters within the published dimensions. No detail image.
+#
+# Colours: grade (d); no UK brochure was consulted. British Racing Green,
+# Black, Opalescent Silver Grey and Carmen Red are period Jaguar finishes.
+# Weights 3, 2, 2, 1, total 8, provisional pending the central rebase.
+#
+# Speed 200 km/h. Comfort 85/458, on the line 330 + 1.5 x 85. Class 4.
+# Dates 1961-1970 production, road tail staggered 1978-1980.
+#
+# Metres master: citycars/4.5/jaguar-mk10.blend. Interchange:
+# citycars/4.5/jaguar-mk10.dae. References: citycars/references/jaguar-mk10/
+# (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the 420G flank photograph is more oblique than the pack
+# notes suggest, so the flank was reconciled against both three-quarters and the
+# published dimensions rather than treated as a true side elevation. Grille,
+# four-lamp and bumper detail is simplified at sprite scale.
+
+
+obj=citycar
+name=JaguarMk10(BritishRacingGreen)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1961
+intro_month=10
+retire_year=1980
+retire_month=6
+speed=200
+class=4
+maximum_comfortable_journey_minutes=85
+maximum_tolerable_journey_minutes=458
+
+Image[E]=./images/jaguar-mk10-britishracinggreen_E.0.0,-33,14
+Image[SE]=./images/jaguar-mk10-britishracinggreen_SE.0.0,-13,0
+Image[S]=./images/jaguar-mk10-britishracinggreen_S.0.0,0,0
+Image[SW]=./images/jaguar-mk10-britishracinggreen_SW.0.0,-8,10
+Image[W]=./images/jaguar-mk10-britishracinggreen_W.0.0,4,5
+Image[NW]=./images/jaguar-mk10-britishracinggreen_NW.0.0,12,10
+Image[N]=./images/jaguar-mk10-britishracinggreen_N.0.0,0,33
+Image[NE]=./images/jaguar-mk10-britishracinggreen_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=JaguarMk10(Black)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1961
+intro_month=10
+retire_year=1979
+retire_month=6
+speed=200
+class=4
+maximum_comfortable_journey_minutes=85
+maximum_tolerable_journey_minutes=458
+
+Image[E]=./images/jaguar-mk10-black_E.0.0,-33,14
+Image[SE]=./images/jaguar-mk10-black_SE.0.0,-13,0
+Image[S]=./images/jaguar-mk10-black_S.0.0,0,0
+Image[SW]=./images/jaguar-mk10-black_SW.0.0,-8,10
+Image[W]=./images/jaguar-mk10-black_W.0.0,4,5
+Image[NW]=./images/jaguar-mk10-black_NW.0.0,12,10
+Image[N]=./images/jaguar-mk10-black_N.0.0,0,33
+Image[NE]=./images/jaguar-mk10-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=JaguarMk10(OpalescentSilverGrey)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1961
+intro_month=10
+retire_year=1978
+retire_month=6
+speed=200
+class=4
+maximum_comfortable_journey_minutes=85
+maximum_tolerable_journey_minutes=458
+
+Image[E]=./images/jaguar-mk10-opalescentsilvergrey_E.0.0,-33,14
+Image[SE]=./images/jaguar-mk10-opalescentsilvergrey_SE.0.0,-13,0
+Image[S]=./images/jaguar-mk10-opalescentsilvergrey_S.0.0,0,0
+Image[SW]=./images/jaguar-mk10-opalescentsilvergrey_SW.0.0,-8,10
+Image[W]=./images/jaguar-mk10-opalescentsilvergrey_W.0.0,4,5
+Image[NW]=./images/jaguar-mk10-opalescentsilvergrey_NW.0.0,12,10
+Image[N]=./images/jaguar-mk10-opalescentsilvergrey_N.0.0,0,33
+Image[NE]=./images/jaguar-mk10-opalescentsilvergrey_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=JaguarMk10(CarmenRed)
+copyright=JamesPetts
+
+DistributionWeight=1
+intro_year=1961
+intro_month=10
+retire_year=1978
+retire_month=6
+speed=200
+class=4
+maximum_comfortable_journey_minutes=85
+maximum_tolerable_journey_minutes=458
+
+Image[E]=./images/jaguar-mk10-carmenred_E.0.0,-33,14
+Image[SE]=./images/jaguar-mk10-carmenred_SE.0.0,-13,0
+Image[S]=./images/jaguar-mk10-carmenred_S.0.0,0,0
+Image[SW]=./images/jaguar-mk10-carmenred_SW.0.0,-8,10
+Image[W]=./images/jaguar-mk10-carmenred_W.0.0,4,5
+Image[NW]=./images/jaguar-mk10-carmenred_NW.0.0,12,10
+Image[N]=./images/jaguar-mk10-carmenred_N.0.0,0,33
+Image[NE]=./images/jaguar-mk10-carmenred_NE.0.0,0,24

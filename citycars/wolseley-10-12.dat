@@ -1,0 +1,124 @@
+# Wolseley 10/12 hp open two-seater, 1901-1906.
+#
+# The horizontal-twin Wolseley: 2,606 cc, 1,051 built from 1900 to 1906.
+# Wolseley was Britain's largest car maker by 1913 with 3,000 cars.
+# The period catalogued the car as a 10 hp; later sources call it a 12 hp,
+# and the pack name records both.
+# https://en.wikipedia.org/wiki/Wolseley_Motors
+#
+# Dimensions 3.4 x 1.7 x 1.7 m, wheelbase 2.3 m. All four are estimates
+# measured from the photographs; no published dimension box was found.
+#
+# Shape reference: the most side-on image found is a front three-quarter
+# about 20 degrees forward of profile, both wheels visible. The flank and
+# tail are estimated from it and the photographs' proportions. No rear view
+# of AT 45 exists in Commons. The limitation is recorded.
+#
+# Colours: grade (d), no period UK document consulted. Black, Dark Green,
+# Maroon and Grey are plain colour names. Weights 2, 2, 2, 1, total 7,
+# provisional pending the central rebase.
+#
+# Speed 50 km/h. Comfort 18/357, on the line 330 + 1.5 x 18. Class 3.
+# Dates 1901-1906 production, road tail staggered 1914-1916.
+#
+# Metres master: citycars/4.5/wolseley-10-12.blend. Interchange:
+# citycars/4.5/wolseley-10-12.dae. References:
+# citycars/references/wolseley-10-12/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: no true side elevation exists; the best is a front
+# three-quarter about 20 degrees forward of profile, and no rear view of AT 45
+# exists. The flank and tail are estimates from the photographs and their
+# proportions. The four-seat tonneau body is modelled.
+
+
+obj=citycar
+name=Wolseley10_12(Black)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1901
+intro_month=1
+retire_year=1916
+retire_month=6
+speed=50
+class=3
+maximum_comfortable_journey_minutes=18
+maximum_tolerable_journey_minutes=357
+
+Image[E]=./images/wolseley-10-12-black_E.0.0,-33,14
+Image[SE]=./images/wolseley-10-12-black_SE.0.0,-13,0
+Image[S]=./images/wolseley-10-12-black_S.0.0,0,0
+Image[SW]=./images/wolseley-10-12-black_SW.0.0,-8,10
+Image[W]=./images/wolseley-10-12-black_W.0.0,4,5
+Image[NW]=./images/wolseley-10-12-black_NW.0.0,12,10
+Image[N]=./images/wolseley-10-12-black_N.0.0,0,33
+Image[NE]=./images/wolseley-10-12-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Wolseley10_12(DarkGreen)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1901
+intro_month=1
+retire_year=1915
+retire_month=6
+speed=50
+class=3
+maximum_comfortable_journey_minutes=18
+maximum_tolerable_journey_minutes=357
+
+Image[E]=./images/wolseley-10-12-darkgreen_E.0.0,-33,14
+Image[SE]=./images/wolseley-10-12-darkgreen_SE.0.0,-13,0
+Image[S]=./images/wolseley-10-12-darkgreen_S.0.0,0,0
+Image[SW]=./images/wolseley-10-12-darkgreen_SW.0.0,-8,10
+Image[W]=./images/wolseley-10-12-darkgreen_W.0.0,4,5
+Image[NW]=./images/wolseley-10-12-darkgreen_NW.0.0,12,10
+Image[N]=./images/wolseley-10-12-darkgreen_N.0.0,0,33
+Image[NE]=./images/wolseley-10-12-darkgreen_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Wolseley10_12(Maroon)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1901
+intro_month=1
+retire_year=1914
+retire_month=6
+speed=50
+class=3
+maximum_comfortable_journey_minutes=18
+maximum_tolerable_journey_minutes=357
+
+Image[E]=./images/wolseley-10-12-maroon_E.0.0,-33,14
+Image[SE]=./images/wolseley-10-12-maroon_SE.0.0,-13,0
+Image[S]=./images/wolseley-10-12-maroon_S.0.0,0,0
+Image[SW]=./images/wolseley-10-12-maroon_SW.0.0,-8,10
+Image[W]=./images/wolseley-10-12-maroon_W.0.0,4,5
+Image[NW]=./images/wolseley-10-12-maroon_NW.0.0,12,10
+Image[N]=./images/wolseley-10-12-maroon_N.0.0,0,33
+Image[NE]=./images/wolseley-10-12-maroon_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Wolseley10_12(Grey)
+copyright=JamesPetts
+
+DistributionWeight=1
+intro_year=1901
+intro_month=1
+retire_year=1914
+retire_month=6
+speed=50
+class=3
+maximum_comfortable_journey_minutes=18
+maximum_tolerable_journey_minutes=357
+
+Image[E]=./images/wolseley-10-12-grey_E.0.0,-33,14
+Image[SE]=./images/wolseley-10-12-grey_SE.0.0,-13,0
+Image[S]=./images/wolseley-10-12-grey_S.0.0,0,0
+Image[SW]=./images/wolseley-10-12-grey_SW.0.0,-8,10
+Image[W]=./images/wolseley-10-12-grey_W.0.0,4,5
+Image[NW]=./images/wolseley-10-12-grey_NW.0.0,12,10
+Image[N]=./images/wolseley-10-12-grey_N.0.0,0,33
+Image[NE]=./images/wolseley-10-12-grey_NE.0.0,0,24

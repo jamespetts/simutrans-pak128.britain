@@ -1,0 +1,123 @@
+# Jaguar Mark V 2 1/2 and 3 1/2 Litre four-door saloon, 1948-1951.
+#
+# The first post-war Jaguar saloon: separate front wings with the headlamps in
+# teardrop housings on top, a tall narrow radiator grille with close-set vertical
+# bars, a two-piece flat windscreen, six-light body, rear wheel spats and a chrome
+# waist moulding. The 2 1/2 and 3 1/2 Litre saloons are externally identical apart
+# from badges and tyres, so one shell represents both.
+# https://en.wikipedia.org/wiki/Jaguar_Mark_V
+#
+# Dimensions 4.762 x 1.765 x 1.588 m, wheelbase 3.048 m (The Motor road test, 1949).
+#
+# Shape reference: a true level side elevation of a silver saloon, but the front
+# bumper and leading edge of the wing are clipped by the frame edge; the extreme
+# nose is taken from the front three-quarter and the frontal detail. Recorded.
+#
+# Colours: grade (c), the 1948 Foleshill colour-scheme list quoted second-hand.
+# Black, Birch Grey, Silver and Cream are period Jaguar names. Weights 2, 2, 1, 1,
+# total 6: a low-volume luxury saloon, provisional pending the central rebase.
+#
+# Speed 145 km/h. Comfort 55/413, on the line 330 + 1.5 x 55. Classes 3,4.
+# Dates 1948-1951 production, road tail staggered 1966-1968.
+#
+# Metres master: citycars/4.5/jaguar-mk5.blend. Interchange:
+# citycars/4.5/jaguar-mk5.dae. References: citycars/references/jaguar-mk5/
+# (gitignored; Wikimedia Commons, CC BY-SA 2.0/4.0 and CC BY 2.0).
+#
+# Accepted deviations: the side photograph clips the front bumper and the
+# leading edge of the front wing, so the extreme nose follows the front
+# three-quarter and the frontal detail. Radiator bar count and lamp bezel detail
+# are simplified at sprite scale. No shape-defining feature was omitted.
+
+
+obj=citycar
+name=JaguarMk5(Black)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1948
+intro_month=10
+retire_year=1968
+retire_month=6
+speed=145
+class=3,4
+maximum_comfortable_journey_minutes=55
+maximum_tolerable_journey_minutes=413
+
+Image[E]=./images/jaguar-mk5-black_E.0.0,-33,14
+Image[SE]=./images/jaguar-mk5-black_SE.0.0,-13,0
+Image[S]=./images/jaguar-mk5-black_S.0.0,0,0
+Image[SW]=./images/jaguar-mk5-black_SW.0.0,-8,10
+Image[W]=./images/jaguar-mk5-black_W.0.0,4,5
+Image[NW]=./images/jaguar-mk5-black_NW.0.0,12,10
+Image[N]=./images/jaguar-mk5-black_N.0.0,0,33
+Image[NE]=./images/jaguar-mk5-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=JaguarMk5(BirchGrey)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1948
+intro_month=10
+retire_year=1967
+retire_month=6
+speed=145
+class=3,4
+maximum_comfortable_journey_minutes=55
+maximum_tolerable_journey_minutes=413
+
+Image[E]=./images/jaguar-mk5-birchgrey_E.0.0,-33,14
+Image[SE]=./images/jaguar-mk5-birchgrey_SE.0.0,-13,0
+Image[S]=./images/jaguar-mk5-birchgrey_S.0.0,0,0
+Image[SW]=./images/jaguar-mk5-birchgrey_SW.0.0,-8,10
+Image[W]=./images/jaguar-mk5-birchgrey_W.0.0,4,5
+Image[NW]=./images/jaguar-mk5-birchgrey_NW.0.0,12,10
+Image[N]=./images/jaguar-mk5-birchgrey_N.0.0,0,33
+Image[NE]=./images/jaguar-mk5-birchgrey_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=JaguarMk5(Silver)
+copyright=JamesPetts
+
+DistributionWeight=1
+intro_year=1948
+intro_month=10
+retire_year=1966
+retire_month=6
+speed=145
+class=3,4
+maximum_comfortable_journey_minutes=55
+maximum_tolerable_journey_minutes=413
+
+Image[E]=./images/jaguar-mk5-silver_E.0.0,-33,14
+Image[SE]=./images/jaguar-mk5-silver_SE.0.0,-13,0
+Image[S]=./images/jaguar-mk5-silver_S.0.0,0,0
+Image[SW]=./images/jaguar-mk5-silver_SW.0.0,-8,10
+Image[W]=./images/jaguar-mk5-silver_W.0.0,4,5
+Image[NW]=./images/jaguar-mk5-silver_NW.0.0,12,10
+Image[N]=./images/jaguar-mk5-silver_N.0.0,0,33
+Image[NE]=./images/jaguar-mk5-silver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=JaguarMk5(Cream)
+copyright=JamesPetts
+
+DistributionWeight=1
+intro_year=1948
+intro_month=10
+retire_year=1966
+retire_month=6
+speed=145
+class=3,4
+maximum_comfortable_journey_minutes=55
+maximum_tolerable_journey_minutes=413
+
+Image[E]=./images/jaguar-mk5-cream_E.0.0,-33,14
+Image[SE]=./images/jaguar-mk5-cream_SE.0.0,-13,0
+Image[S]=./images/jaguar-mk5-cream_S.0.0,0,0
+Image[SW]=./images/jaguar-mk5-cream_SW.0.0,-8,10
+Image[W]=./images/jaguar-mk5-cream_W.0.0,4,5
+Image[NW]=./images/jaguar-mk5-cream_NW.0.0,12,10
+Image[N]=./images/jaguar-mk5-cream_N.0.0,0,33
+Image[NE]=./images/jaguar-mk5-cream_NE.0.0,0,24

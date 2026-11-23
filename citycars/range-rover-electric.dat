@@ -1,0 +1,129 @@
+# Range Rover Electric five-door SUV, 2026-
+#
+# The battery-electric L460: the same body, wheelbase and glasshouse as the
+# fifth-generation Range Rover, with an aerodynamically optimised closed grille,
+# EV-specific aero wheels, a charging flap on the rear quarter and no exhaust
+# outlets. Standard wheelbase modelled.
+# https://en.wikipedia.org/wiki/Range_Rover_(L460)
+#
+# Dimensions 5.052 x 2.047 x 1.870 m, wheelbase 2.997 m (shared L460 figures;
+# 2.209 m with mirrors out).
+#
+# Shape reference: the true side elevation is the L460 combustion car, which
+# shares the body; the Electric-specific grille, wheels, charging flap, badging
+# and bumpers come from official JLR press images of the production car. No
+# free-licence photograph of the Electric exists yet; the press images are held
+# locally for reference only. The substitution is recorded in the pack notes.
+#
+# Colours: grade (a), the 2 September 2026 JLR launch release. Belgravia Green,
+# Santorini Black and Varesine Blue are First Edition colours; Charente Grey is
+# from the L460 UK range. Weights 9, 8, 7, 6, total 30, reflecting a new
+# low-volume model, provisional pending the central rebase.
+#
+# Speed 200 km/h; comfort 165/578, on the line 330 + 1.5 x 165. Classes 3,4.
+# On sale 2 September 2026; deliveries from late 2026/early 2027; still in
+# production, so no retire fields are set.
+#
+# Metres master: citycars/4.5/range-rover-electric.blend. Interchange:
+# citycars/4.5/range-rover-electric.dae. References:
+# citycars/references/range-rover-electric/ (gitignored; official JLR press
+# images, reference use only).
+#
+# Accepted deviations: the body, roof and glasshouse are the shared L460 shell;
+# the closed aero grille, charging flap and absence of exhaust outlets follow the
+# Electric press images. The aero wheel pattern is taken from the front press
+# photograph, which differs from the rear photograph's wheel; one pattern is used
+# on all four corners. Grille bars and lamp internals are simplified.
+
+
+obj=citycar
+name=RangeRoverElectric(BelgraviaGreen)
+copyright=JamesPetts
+
+DistributionWeight=9
+intro_year=2026
+intro_month=9
+# retire_year=2046
+# retire_month=6
+speed=200
+class=3,4
+maximum_comfortable_journey_minutes=165
+maximum_tolerable_journey_minutes=578
+
+Image[E]=./images/range-rover-electric-belgraviagreen_E.0.0,-33,14
+Image[SE]=./images/range-rover-electric-belgraviagreen_SE.0.0,-13,0
+Image[S]=./images/range-rover-electric-belgraviagreen_S.0.0,0,0
+Image[SW]=./images/range-rover-electric-belgraviagreen_SW.0.0,-8,10
+Image[W]=./images/range-rover-electric-belgraviagreen_W.0.0,4,5
+Image[NW]=./images/range-rover-electric-belgraviagreen_NW.0.0,12,10
+Image[N]=./images/range-rover-electric-belgraviagreen_N.0.0,0,33
+Image[NE]=./images/range-rover-electric-belgraviagreen_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RangeRoverElectric(SantoriniBlack)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=2026
+intro_month=9
+# retire_year=2046
+# retire_month=6
+speed=200
+class=3,4
+maximum_comfortable_journey_minutes=165
+maximum_tolerable_journey_minutes=578
+
+Image[E]=./images/range-rover-electric-santoriniblack_E.0.0,-33,14
+Image[SE]=./images/range-rover-electric-santoriniblack_SE.0.0,-13,0
+Image[S]=./images/range-rover-electric-santoriniblack_S.0.0,0,0
+Image[SW]=./images/range-rover-electric-santoriniblack_SW.0.0,-8,10
+Image[W]=./images/range-rover-electric-santoriniblack_W.0.0,4,5
+Image[NW]=./images/range-rover-electric-santoriniblack_NW.0.0,12,10
+Image[N]=./images/range-rover-electric-santoriniblack_N.0.0,0,33
+Image[NE]=./images/range-rover-electric-santoriniblack_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RangeRoverElectric(VaresineBlue)
+copyright=JamesPetts
+
+DistributionWeight=7
+intro_year=2026
+intro_month=9
+# retire_year=2046
+# retire_month=6
+speed=200
+class=3,4
+maximum_comfortable_journey_minutes=165
+maximum_tolerable_journey_minutes=578
+
+Image[E]=./images/range-rover-electric-varesineblue_E.0.0,-33,14
+Image[SE]=./images/range-rover-electric-varesineblue_SE.0.0,-13,0
+Image[S]=./images/range-rover-electric-varesineblue_S.0.0,0,0
+Image[SW]=./images/range-rover-electric-varesineblue_SW.0.0,-8,10
+Image[W]=./images/range-rover-electric-varesineblue_W.0.0,4,5
+Image[NW]=./images/range-rover-electric-varesineblue_NW.0.0,12,10
+Image[N]=./images/range-rover-electric-varesineblue_N.0.0,0,33
+Image[NE]=./images/range-rover-electric-varesineblue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RangeRoverElectric(CharenteGrey)
+copyright=JamesPetts
+
+DistributionWeight=6
+intro_year=2026
+intro_month=9
+# retire_year=2046
+# retire_month=6
+speed=200
+class=3,4
+maximum_comfortable_journey_minutes=165
+maximum_tolerable_journey_minutes=578
+
+Image[E]=./images/range-rover-electric-charentegrey_E.0.0,-33,14
+Image[SE]=./images/range-rover-electric-charentegrey_SE.0.0,-13,0
+Image[S]=./images/range-rover-electric-charentegrey_S.0.0,0,0
+Image[SW]=./images/range-rover-electric-charentegrey_SW.0.0,-8,10
+Image[W]=./images/range-rover-electric-charentegrey_W.0.0,4,5
+Image[NW]=./images/range-rover-electric-charentegrey_NW.0.0,12,10
+Image[N]=./images/range-rover-electric-charentegrey_N.0.0,0,33
+Image[NE]=./images/range-rover-electric-charentegrey_NE.0.0,0,24

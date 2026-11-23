@@ -1,0 +1,123 @@
+# Rover 10/25 six-light saloon, 1927-1933.
+#
+# The 10/25 was Rover's volume model of the late 1920s and early 1930s: a
+# 1,185/1,389 cc four in a six-light saloon body, and the largest-selling
+# missing Rover in the tree at 24,687 built.
+# https://en.wikipedia.org/wiki/Rover_10
+#
+# Dimensions 3.962 x 1.575 x about 1.60 m (height estimated), wheelbase 2.642 m.
+#
+# Shape reference: a true level broadside of GK 5752. The rear three-quarter in
+# the pack is a sports tourer with the hood erected, not a 10/25 saloon, and is
+# used only for trim detail; the saloon tail follows the side view and the
+# published dimensions.
+#
+# Colours: grade (d), no period UK document consulted. Black, Green, Grey and
+# Maroon are period Rover finishes, recorded as plain names. Weights 12, 10, 9,
+# 9, total 40, reflecting the model's volume, provisional pending the central
+# rebase.
+#
+# Speed 95 km/h. Comfort 50/405, on the line 330 + 1.5 x 50. Classes 2,3.
+# Dates mid-1927 to 1933 production, road tail staggered 1946-1948.
+#
+# Metres master: citycars/4.5/rover-10.blend. Interchange:
+# citycars/4.5/rover-10.dae. References: citycars/references/rover-10/
+# (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the true side of GK 5752 governs. The rear three-quarter
+# is a sports tourer with the hood erected, not a saloon, and is used only for
+# trim detail; the saloon tail follows the side view and the published
+# dimensions.
+
+
+obj=citycar
+name=Rover10(Black)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=1927
+intro_month=7
+retire_year=1948
+retire_month=6
+speed=95
+class=2,3
+maximum_comfortable_journey_minutes=50
+maximum_tolerable_journey_minutes=405
+
+Image[E]=./images/rover-10-black_E.0.0,-33,14
+Image[SE]=./images/rover-10-black_SE.0.0,-13,0
+Image[S]=./images/rover-10-black_S.0.0,0,0
+Image[SW]=./images/rover-10-black_SW.0.0,-8,10
+Image[W]=./images/rover-10-black_W.0.0,4,5
+Image[NW]=./images/rover-10-black_NW.0.0,12,10
+Image[N]=./images/rover-10-black_N.0.0,0,33
+Image[NE]=./images/rover-10-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Rover10(Green)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=1927
+intro_month=7
+retire_year=1947
+retire_month=6
+speed=95
+class=2,3
+maximum_comfortable_journey_minutes=50
+maximum_tolerable_journey_minutes=405
+
+Image[E]=./images/rover-10-green_E.0.0,-33,14
+Image[SE]=./images/rover-10-green_SE.0.0,-13,0
+Image[S]=./images/rover-10-green_S.0.0,0,0
+Image[SW]=./images/rover-10-green_SW.0.0,-8,10
+Image[W]=./images/rover-10-green_W.0.0,4,5
+Image[NW]=./images/rover-10-green_NW.0.0,12,10
+Image[N]=./images/rover-10-green_N.0.0,0,33
+Image[NE]=./images/rover-10-green_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Rover10(Grey)
+copyright=JamesPetts
+
+DistributionWeight=9
+intro_year=1927
+intro_month=7
+retire_year=1946
+retire_month=6
+speed=95
+class=2,3
+maximum_comfortable_journey_minutes=50
+maximum_tolerable_journey_minutes=405
+
+Image[E]=./images/rover-10-grey_E.0.0,-33,14
+Image[SE]=./images/rover-10-grey_SE.0.0,-13,0
+Image[S]=./images/rover-10-grey_S.0.0,0,0
+Image[SW]=./images/rover-10-grey_SW.0.0,-8,10
+Image[W]=./images/rover-10-grey_W.0.0,4,5
+Image[NW]=./images/rover-10-grey_NW.0.0,12,10
+Image[N]=./images/rover-10-grey_N.0.0,0,33
+Image[NE]=./images/rover-10-grey_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Rover10(Maroon)
+copyright=JamesPetts
+
+DistributionWeight=9
+intro_year=1927
+intro_month=7
+retire_year=1946
+retire_month=6
+speed=95
+class=2,3
+maximum_comfortable_journey_minutes=50
+maximum_tolerable_journey_minutes=405
+
+Image[E]=./images/rover-10-maroon_E.0.0,-33,14
+Image[SE]=./images/rover-10-maroon_SE.0.0,-13,0
+Image[S]=./images/rover-10-maroon_S.0.0,0,0
+Image[SW]=./images/rover-10-maroon_SW.0.0,-8,10
+Image[W]=./images/rover-10-maroon_W.0.0,4,5
+Image[NW]=./images/rover-10-maroon_NW.0.0,12,10
+Image[N]=./images/rover-10-maroon_N.0.0,0,33
+Image[NE]=./images/rover-10-maroon_NE.0.0,0,24

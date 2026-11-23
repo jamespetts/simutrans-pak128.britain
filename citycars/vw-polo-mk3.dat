@@ -1,0 +1,124 @@
+# Volkswagen Polo Mk3 (Typ 6N) three-door hatchback, 1994-2001.
+#
+# The rounded 1990s Polo: narrow grille between rectangular headlamps,
+# body-coloured bumpers with a black rubbing strip, a single long door per
+# side and a fixed rear quarter window. The pre-facelift 6N is modelled; the
+# 6N2 facelift of February 2000 with clear-lens lamps is not.
+# https://en.wikipedia.org/wiki/Volkswagen_Polo_Mk3
+#
+# Dimensions 3.715 x 1.655 x 1.420 m, wheelbase 2.407 m (Wikipedia; the
+# German infobox rounds the wheelbase to 2.400 m).
+#
+# Shape reference: a true level side elevation of a continental left-hand-drive
+# three-door 6N, same body as the UK car; the detail image is a UK-registered
+# 1998 Polo CL. All four images show the pre-facelift front end.
+#
+# Colours: no UK brochure or price list was read, so no factory name is
+# claimed (grade d). Green, Red, Blue and Silver are plain colour names.
+# Weights 10, 9, 8, 8, total 35, reflecting the Polo's UK volume in the 1990s,
+# provisional pending the central rebase.
+#
+# Speed 155 km/h. Comfort 60/420, on the line 330 + 1.5 x 60. Classes 1,2.
+# Dates 1994-2001 production, road tail staggered 2016-2019.
+#
+# Metres master: citycars/4.5/vw-polo-mk3.blend. Interchange:
+# citycars/4.5/vw-polo-mk3.dae. References: citycars/references/vw-polo-mk3/
+# (gitignored; Wikimedia Commons, CC BY-SA 3.0/4.0).
+#
+# Accepted deviations: the pre-facelift 6N is modelled with UK amber front
+# indicators from the CL detail image. Lens internals, grille slats and wheel
+# ventilation holes are simplified; the aerial, rear wiper and model lettering
+# are omitted at sprite scale.
+
+
+obj=citycar
+name=VWPoloMk3(Green)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=1994
+intro_month=10
+retire_year=2019
+retire_month=6
+speed=155
+class=1,2
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=420
+
+Image[E]=./images/vw-polo-mk3-green_E.0.0,-33,14
+Image[SE]=./images/vw-polo-mk3-green_SE.0.0,-13,0
+Image[S]=./images/vw-polo-mk3-green_S.0.0,0,0
+Image[SW]=./images/vw-polo-mk3-green_SW.0.0,-8,10
+Image[W]=./images/vw-polo-mk3-green_W.0.0,4,5
+Image[NW]=./images/vw-polo-mk3-green_NW.0.0,12,10
+Image[N]=./images/vw-polo-mk3-green_N.0.0,0,33
+Image[NE]=./images/vw-polo-mk3-green_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VWPoloMk3(Red)
+copyright=JamesPetts
+
+DistributionWeight=9
+intro_year=1994
+intro_month=10
+retire_year=2018
+retire_month=6
+speed=155
+class=1,2
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=420
+
+Image[E]=./images/vw-polo-mk3-red_E.0.0,-33,14
+Image[SE]=./images/vw-polo-mk3-red_SE.0.0,-13,0
+Image[S]=./images/vw-polo-mk3-red_S.0.0,0,0
+Image[SW]=./images/vw-polo-mk3-red_SW.0.0,-8,10
+Image[W]=./images/vw-polo-mk3-red_W.0.0,4,5
+Image[NW]=./images/vw-polo-mk3-red_NW.0.0,12,10
+Image[N]=./images/vw-polo-mk3-red_N.0.0,0,33
+Image[NE]=./images/vw-polo-mk3-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VWPoloMk3(Blue)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=1994
+intro_month=10
+retire_year=2017
+retire_month=6
+speed=155
+class=1,2
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=420
+
+Image[E]=./images/vw-polo-mk3-blue_E.0.0,-33,14
+Image[SE]=./images/vw-polo-mk3-blue_SE.0.0,-13,0
+Image[S]=./images/vw-polo-mk3-blue_S.0.0,0,0
+Image[SW]=./images/vw-polo-mk3-blue_SW.0.0,-8,10
+Image[W]=./images/vw-polo-mk3-blue_W.0.0,4,5
+Image[NW]=./images/vw-polo-mk3-blue_NW.0.0,12,10
+Image[N]=./images/vw-polo-mk3-blue_N.0.0,0,33
+Image[NE]=./images/vw-polo-mk3-blue_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=VWPoloMk3(Silver)
+copyright=JamesPetts
+
+DistributionWeight=8
+intro_year=1994
+intro_month=10
+retire_year=2016
+retire_month=6
+speed=155
+class=1,2
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=420
+
+Image[E]=./images/vw-polo-mk3-silver_E.0.0,-33,14
+Image[SE]=./images/vw-polo-mk3-silver_SE.0.0,-13,0
+Image[S]=./images/vw-polo-mk3-silver_S.0.0,0,0
+Image[SW]=./images/vw-polo-mk3-silver_SW.0.0,-8,10
+Image[W]=./images/vw-polo-mk3-silver_W.0.0,4,5
+Image[NW]=./images/vw-polo-mk3-silver_NW.0.0,12,10
+Image[N]=./images/vw-polo-mk3-silver_N.0.0,0,33
+Image[NE]=./images/vw-polo-mk3-silver_NE.0.0,0,24

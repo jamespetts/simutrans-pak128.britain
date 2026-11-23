@@ -1,0 +1,123 @@
+# Swift 7 hp open two-seater, 1904-1908.
+#
+# The 7 hp was Swift's first conventional car and the company made 850 cars
+# in 1913. BS 8487 was first registered on 1 October 1904.
+# https://en.wikipedia.org/wiki/Swift_Motor_Company
+#
+# Dimensions 2.7 x 1.4 x 1.5 m, wheelbase 1.8 m. All four are estimates
+# measured from the photographs; no published dimension box was found.
+#
+# Shape reference: a true level side elevation of HV 5765, plus front, rear
+# and detail views. The side and front are HV 5765; the rear and detail are
+# BS 8487, also a 1904 7 hp car. The DVLA capacity recorded for BS 8487
+# (726 cc) does not match the catalogue 905 cc twin; the pack records that
+# open question.
+#
+# Colours: grade (d), no period UK document consulted. Black, Dark Green,
+# Maroon and Grey are plain colour names. Weights 2, 1, 1, 1, total 5,
+# provisional pending the central rebase.
+#
+# Speed 45 km/h. Comfort 15/353, on the line 330 + 1.5 x 15. Class 2.
+# Dates 1904-1908 production, road tail staggered 1914-1916.
+#
+# Metres master: citycars/4.5/swift-7.blend. Interchange:
+# citycars/4.5/swift-7.dae. References: citycars/references/swift-7/
+# (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: HV 5765 is modelled from the true side. The file labelled
+# as a rear view actually shows the front of BS 8487, so the tail is inferred from
+# the side and the period proportions. The recorded capacity conflict between the
+# two cars is a research question, not a shape instruction.
+
+
+obj=citycar
+name=Swift7(Black)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1904
+intro_month=10
+retire_year=1916
+retire_month=6
+speed=45
+class=2
+maximum_comfortable_journey_minutes=15
+maximum_tolerable_journey_minutes=353
+
+Image[E]=./images/swift-7-black_E.0.0,-33,14
+Image[SE]=./images/swift-7-black_SE.0.0,-13,0
+Image[S]=./images/swift-7-black_S.0.0,0,0
+Image[SW]=./images/swift-7-black_SW.0.0,-8,10
+Image[W]=./images/swift-7-black_W.0.0,4,5
+Image[NW]=./images/swift-7-black_NW.0.0,12,10
+Image[N]=./images/swift-7-black_N.0.0,0,33
+Image[NE]=./images/swift-7-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Swift7(DarkGreen)
+copyright=JamesPetts
+
+DistributionWeight=1
+intro_year=1904
+intro_month=10
+retire_year=1915
+retire_month=6
+speed=45
+class=2
+maximum_comfortable_journey_minutes=15
+maximum_tolerable_journey_minutes=353
+
+Image[E]=./images/swift-7-darkgreen_E.0.0,-33,14
+Image[SE]=./images/swift-7-darkgreen_SE.0.0,-13,0
+Image[S]=./images/swift-7-darkgreen_S.0.0,0,0
+Image[SW]=./images/swift-7-darkgreen_SW.0.0,-8,10
+Image[W]=./images/swift-7-darkgreen_W.0.0,4,5
+Image[NW]=./images/swift-7-darkgreen_NW.0.0,12,10
+Image[N]=./images/swift-7-darkgreen_N.0.0,0,33
+Image[NE]=./images/swift-7-darkgreen_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Swift7(Maroon)
+copyright=JamesPetts
+
+DistributionWeight=1
+intro_year=1904
+intro_month=10
+retire_year=1914
+retire_month=6
+speed=45
+class=2
+maximum_comfortable_journey_minutes=15
+maximum_tolerable_journey_minutes=353
+
+Image[E]=./images/swift-7-maroon_E.0.0,-33,14
+Image[SE]=./images/swift-7-maroon_SE.0.0,-13,0
+Image[S]=./images/swift-7-maroon_S.0.0,0,0
+Image[SW]=./images/swift-7-maroon_SW.0.0,-8,10
+Image[W]=./images/swift-7-maroon_W.0.0,4,5
+Image[NW]=./images/swift-7-maroon_NW.0.0,12,10
+Image[N]=./images/swift-7-maroon_N.0.0,0,33
+Image[NE]=./images/swift-7-maroon_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Swift7(Grey)
+copyright=JamesPetts
+
+DistributionWeight=1
+intro_year=1904
+intro_month=10
+retire_year=1914
+retire_month=6
+speed=45
+class=2
+maximum_comfortable_journey_minutes=15
+maximum_tolerable_journey_minutes=353
+
+Image[E]=./images/swift-7-grey_E.0.0,-33,14
+Image[SE]=./images/swift-7-grey_SE.0.0,-13,0
+Image[S]=./images/swift-7-grey_S.0.0,0,0
+Image[SW]=./images/swift-7-grey_SW.0.0,-8,10
+Image[W]=./images/swift-7-grey_W.0.0,4,5
+Image[NW]=./images/swift-7-grey_NW.0.0,12,10
+Image[N]=./images/swift-7-grey_N.0.0,0,33
+Image[NE]=./images/swift-7-grey_NE.0.0,0,24

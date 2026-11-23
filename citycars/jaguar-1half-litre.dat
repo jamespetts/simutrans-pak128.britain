@@ -1,0 +1,124 @@
+# Jaguar 1 1/2 Litre four-door saloon, 1935-1949.
+#
+# The SS Jaguar 1 1/2 Litre, sold after 1945 as the Jaguar 1 1/2 Litre and
+# then as the Mark IV 1 1/2. The modelled body is the separate-headlamp
+# saloon shown by the 1939 and 1948 photographs, without a wing-mounted spare.
+# The earlier 1935-37 body with the exposed spare wheel is not represented.
+# https://en.wikipedia.org/wiki/SS_Jaguar_1%C2%BD_Litre
+#
+# Dimensions 4.39 x 1.66 x 1.52 m, wheelbase 2.86 m.
+#
+# Shape reference: no side elevation and no rear view were available. The best
+# images are front three-quarters about 40 degrees off and a near-front detail.
+# The flank and tail are therefore estimated from those views and the published
+# dimensions, and the limitation is recorded.
+#
+# Colours: grade (d); no period UK document was consulted. Black, Grey, Green
+# and Maroon are plain colour names, the common finishes of the period. Weights
+# 2, 2, 1, 1, total 6, provisional pending the central rebase.
+#
+# Speed 120 km/h. Comfort 40/390, on the line 330 + 1.5 x 40. Classes 2,3.
+# Dates 1935-1949 production, road tail staggered 1955-1958.
+#
+# Metres master: citycars/4.5/jaguar-1half-litre.blend. Interchange:
+# citycars/4.5/jaguar-1half-litre.dae. References:
+# citycars/references/jaguar-1half-litre/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: no side elevation and no rear view exist; the best
+# references are front three-quarters about 40 degrees off and a near-front
+# detail. The flank and tail are estimated from those and the published
+# dimensions. The early 1935-37 body with the exposed wing-mounted spare is not
+# represented; the model is the later body shown by the 1939 and 1948 cars.
+
+
+obj=citycar
+name=Jaguar1HalfLitre(Black)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1935
+intro_month=9
+retire_year=1958
+retire_month=6
+speed=120
+class=2,3
+maximum_comfortable_journey_minutes=40
+maximum_tolerable_journey_minutes=390
+
+Image[E]=./images/jaguar-1half-litre-black_E.0.0,-33,14
+Image[SE]=./images/jaguar-1half-litre-black_SE.0.0,-13,0
+Image[S]=./images/jaguar-1half-litre-black_S.0.0,0,0
+Image[SW]=./images/jaguar-1half-litre-black_SW.0.0,-8,10
+Image[W]=./images/jaguar-1half-litre-black_W.0.0,4,5
+Image[NW]=./images/jaguar-1half-litre-black_NW.0.0,12,10
+Image[N]=./images/jaguar-1half-litre-black_N.0.0,0,33
+Image[NE]=./images/jaguar-1half-litre-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Jaguar1HalfLitre(Grey)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1935
+intro_month=9
+retire_year=1957
+retire_month=6
+speed=120
+class=2,3
+maximum_comfortable_journey_minutes=40
+maximum_tolerable_journey_minutes=390
+
+Image[E]=./images/jaguar-1half-litre-grey_E.0.0,-33,14
+Image[SE]=./images/jaguar-1half-litre-grey_SE.0.0,-13,0
+Image[S]=./images/jaguar-1half-litre-grey_S.0.0,0,0
+Image[SW]=./images/jaguar-1half-litre-grey_SW.0.0,-8,10
+Image[W]=./images/jaguar-1half-litre-grey_W.0.0,4,5
+Image[NW]=./images/jaguar-1half-litre-grey_NW.0.0,12,10
+Image[N]=./images/jaguar-1half-litre-grey_N.0.0,0,33
+Image[NE]=./images/jaguar-1half-litre-grey_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Jaguar1HalfLitre(Green)
+copyright=JamesPetts
+
+DistributionWeight=1
+intro_year=1935
+intro_month=9
+retire_year=1956
+retire_month=6
+speed=120
+class=2,3
+maximum_comfortable_journey_minutes=40
+maximum_tolerable_journey_minutes=390
+
+Image[E]=./images/jaguar-1half-litre-green_E.0.0,-33,14
+Image[SE]=./images/jaguar-1half-litre-green_SE.0.0,-13,0
+Image[S]=./images/jaguar-1half-litre-green_S.0.0,0,0
+Image[SW]=./images/jaguar-1half-litre-green_SW.0.0,-8,10
+Image[W]=./images/jaguar-1half-litre-green_W.0.0,4,5
+Image[NW]=./images/jaguar-1half-litre-green_NW.0.0,12,10
+Image[N]=./images/jaguar-1half-litre-green_N.0.0,0,33
+Image[NE]=./images/jaguar-1half-litre-green_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Jaguar1HalfLitre(Maroon)
+copyright=JamesPetts
+
+DistributionWeight=1
+intro_year=1935
+intro_month=9
+retire_year=1955
+retire_month=6
+speed=120
+class=2,3
+maximum_comfortable_journey_minutes=40
+maximum_tolerable_journey_minutes=390
+
+Image[E]=./images/jaguar-1half-litre-maroon_E.0.0,-33,14
+Image[SE]=./images/jaguar-1half-litre-maroon_SE.0.0,-13,0
+Image[S]=./images/jaguar-1half-litre-maroon_S.0.0,0,0
+Image[SW]=./images/jaguar-1half-litre-maroon_SW.0.0,-8,10
+Image[W]=./images/jaguar-1half-litre-maroon_W.0.0,4,5
+Image[NW]=./images/jaguar-1half-litre-maroon_NW.0.0,12,10
+Image[N]=./images/jaguar-1half-litre-maroon_N.0.0,0,33
+Image[NE]=./images/jaguar-1half-litre-maroon_NE.0.0,0,24

@@ -1,0 +1,122 @@
+# Austin 7 hp open two-seater, 1909-1911.
+#
+# The first Austin, introduced at the November 1909 Olympia show: a light
+# 7 hp car. About 1,030 were built 1909-1911, of which 162 were Austin-badged.
+# https://en.wikipedia.org/wiki/Austin_7_(1909)
+#
+# Dimensions 2.680 x 1.397 x about 1.55 m (height estimated), wheelbase
+# 1.829 m (Culshaw and Horrobin, Complete Catalogue of British Cars).
+#
+# Shape reference: the side view is a 1909 period halftone, not a modern
+# photograph. The front, rear and detail views are the 1910 Gaydon car
+# BJ 1935, chassis 7058, engine 7064. The Commons description's 748 cc
+# conflicts with the published 1,087/1,099 cc and is flagged in the notes.
+#
+# Colours: grade (d), no period UK document consulted. Black, Dark Green,
+# Maroon and Grey are plain colour names. Weights 3, 2, 2, 1, total 8,
+# provisional pending the central rebase.
+#
+# Speed 50 km/h. Comfort 18/357, on the line 330 + 1.5 x 18. Class 2.
+# Dates 1909-1911 production, road tail staggered 1920-1922.
+#
+# Metres master: citycars/4.5/austin-7-1909.blend. Interchange:
+# citycars/4.5/austin-7-1909.dae. References:
+# citycars/references/austin-7-1909/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the 1909 period halftone governs the profile; the 1910
+# Gaydon car supplies the folded hood, fittings and lamp detail. The two are
+# mixed and the mix is recorded. This is the only car of the five with a
+# windscreen, and its glazing is pure black.
+
+
+obj=citycar
+name=Austin7_1909(Black)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1909
+intro_month=11
+retire_year=1922
+retire_month=6
+speed=50
+class=2
+maximum_comfortable_journey_minutes=18
+maximum_tolerable_journey_minutes=357
+
+Image[E]=./images/austin-7-1909-black_E.0.0,-33,14
+Image[SE]=./images/austin-7-1909-black_SE.0.0,-13,0
+Image[S]=./images/austin-7-1909-black_S.0.0,0,0
+Image[SW]=./images/austin-7-1909-black_SW.0.0,-8,10
+Image[W]=./images/austin-7-1909-black_W.0.0,4,5
+Image[NW]=./images/austin-7-1909-black_NW.0.0,12,10
+Image[N]=./images/austin-7-1909-black_N.0.0,0,33
+Image[NE]=./images/austin-7-1909-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Austin7_1909(DarkGreen)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1909
+intro_month=11
+retire_year=1921
+retire_month=6
+speed=50
+class=2
+maximum_comfortable_journey_minutes=18
+maximum_tolerable_journey_minutes=357
+
+Image[E]=./images/austin-7-1909-darkgreen_E.0.0,-33,14
+Image[SE]=./images/austin-7-1909-darkgreen_SE.0.0,-13,0
+Image[S]=./images/austin-7-1909-darkgreen_S.0.0,0,0
+Image[SW]=./images/austin-7-1909-darkgreen_SW.0.0,-8,10
+Image[W]=./images/austin-7-1909-darkgreen_W.0.0,4,5
+Image[NW]=./images/austin-7-1909-darkgreen_NW.0.0,12,10
+Image[N]=./images/austin-7-1909-darkgreen_N.0.0,0,33
+Image[NE]=./images/austin-7-1909-darkgreen_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Austin7_1909(Maroon)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1909
+intro_month=11
+retire_year=1920
+retire_month=6
+speed=50
+class=2
+maximum_comfortable_journey_minutes=18
+maximum_tolerable_journey_minutes=357
+
+Image[E]=./images/austin-7-1909-maroon_E.0.0,-33,14
+Image[SE]=./images/austin-7-1909-maroon_SE.0.0,-13,0
+Image[S]=./images/austin-7-1909-maroon_S.0.0,0,0
+Image[SW]=./images/austin-7-1909-maroon_SW.0.0,-8,10
+Image[W]=./images/austin-7-1909-maroon_W.0.0,4,5
+Image[NW]=./images/austin-7-1909-maroon_NW.0.0,12,10
+Image[N]=./images/austin-7-1909-maroon_N.0.0,0,33
+Image[NE]=./images/austin-7-1909-maroon_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Austin7_1909(Grey)
+copyright=JamesPetts
+
+DistributionWeight=1
+intro_year=1909
+intro_month=11
+retire_year=1920
+retire_month=6
+speed=50
+class=2
+maximum_comfortable_journey_minutes=18
+maximum_tolerable_journey_minutes=357
+
+Image[E]=./images/austin-7-1909-grey_E.0.0,-33,14
+Image[SE]=./images/austin-7-1909-grey_SE.0.0,-13,0
+Image[S]=./images/austin-7-1909-grey_S.0.0,0,0
+Image[SW]=./images/austin-7-1909-grey_SW.0.0,-8,10
+Image[W]=./images/austin-7-1909-grey_W.0.0,4,5
+Image[NW]=./images/austin-7-1909-grey_NW.0.0,12,10
+Image[N]=./images/austin-7-1909-grey_N.0.0,0,33
+Image[NE]=./images/austin-7-1909-grey_NE.0.0,0,24

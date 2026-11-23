@@ -1,0 +1,121 @@
+# Jaguar E-type Series 1 3.8 fixed-head coupe, 1961-1964.
+#
+# The original E-type: covered headlamps, narrow grille, the long bonnet and
+# the short rear deck, with the 3.8-litre six. The fixed-head coupe is modelled.
+# https://en.wikipedia.org/wiki/Jaguar_E-Type
+#
+# Dimensions 4.453 x 1.657 x 1.222 m, wheelbase 2.438 m.
+#
+# Shape reference: a true level side elevation of a cream 1962 3.8 FHC, plus
+# front and rear three-quarters and a detail. No outside bonnet latches are
+# visible on the front views, so the model is not presented as a flat-floor or
+# outside-latch car.
+#
+# Colours: grade (d); no period UK document was sighted. Cream, Carmen Red,
+# Black and British Racing Green are period Jaguar names recorded from
+# American-market dealer material as context, not as UK brochure evidence.
+# Weights 7, 5, 4, 4, total 20, provisional pending the central rebase.
+#
+# Speed 240 km/h. Comfort 60/420, on the line 330 + 1.5 x 60. Classes 3,4.
+# Dates July 1961 to October 1964 production, road tail staggered 1975-1977.
+#
+# Metres master: citycars/4.5/jaguar-e-type-s1-38.blend. Interchange:
+# citycars/4.5/jaguar-e-type-s1-38.dae. References:
+# citycars/references/jaguar-e-type-s1-38/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: wire-wheel spokes, lamp internals and badge detail are
+# simplified at sprite scale. No outside bonnet latches are modelled, as the
+# photographs do not show them.
+
+
+obj=citycar
+name=JaguarETypeS138(Cream)
+copyright=JamesPetts
+
+DistributionWeight=7
+intro_year=1961
+intro_month=7
+retire_year=1977
+retire_month=6
+speed=240
+class=3,4
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=420
+
+Image[E]=./images/jaguar-e-type-s1-38-cream_E.0.0,-33,14
+Image[SE]=./images/jaguar-e-type-s1-38-cream_SE.0.0,-13,0
+Image[S]=./images/jaguar-e-type-s1-38-cream_S.0.0,0,0
+Image[SW]=./images/jaguar-e-type-s1-38-cream_SW.0.0,-8,10
+Image[W]=./images/jaguar-e-type-s1-38-cream_W.0.0,4,5
+Image[NW]=./images/jaguar-e-type-s1-38-cream_NW.0.0,12,10
+Image[N]=./images/jaguar-e-type-s1-38-cream_N.0.0,0,33
+Image[NE]=./images/jaguar-e-type-s1-38-cream_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=JaguarETypeS138(CarmenRed)
+copyright=JamesPetts
+
+DistributionWeight=5
+intro_year=1961
+intro_month=7
+retire_year=1976
+retire_month=6
+speed=240
+class=3,4
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=420
+
+Image[E]=./images/jaguar-e-type-s1-38-carmenred_E.0.0,-33,14
+Image[SE]=./images/jaguar-e-type-s1-38-carmenred_SE.0.0,-13,0
+Image[S]=./images/jaguar-e-type-s1-38-carmenred_S.0.0,0,0
+Image[SW]=./images/jaguar-e-type-s1-38-carmenred_SW.0.0,-8,10
+Image[W]=./images/jaguar-e-type-s1-38-carmenred_W.0.0,4,5
+Image[NW]=./images/jaguar-e-type-s1-38-carmenred_NW.0.0,12,10
+Image[N]=./images/jaguar-e-type-s1-38-carmenred_N.0.0,0,33
+Image[NE]=./images/jaguar-e-type-s1-38-carmenred_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=JaguarETypeS138(Black)
+copyright=JamesPetts
+
+DistributionWeight=4
+intro_year=1961
+intro_month=7
+retire_year=1975
+retire_month=6
+speed=240
+class=3,4
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=420
+
+Image[E]=./images/jaguar-e-type-s1-38-black_E.0.0,-33,14
+Image[SE]=./images/jaguar-e-type-s1-38-black_SE.0.0,-13,0
+Image[S]=./images/jaguar-e-type-s1-38-black_S.0.0,0,0
+Image[SW]=./images/jaguar-e-type-s1-38-black_SW.0.0,-8,10
+Image[W]=./images/jaguar-e-type-s1-38-black_W.0.0,4,5
+Image[NW]=./images/jaguar-e-type-s1-38-black_NW.0.0,12,10
+Image[N]=./images/jaguar-e-type-s1-38-black_N.0.0,0,33
+Image[NE]=./images/jaguar-e-type-s1-38-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=JaguarETypeS138(BritishRacingGreen)
+copyright=JamesPetts
+
+DistributionWeight=4
+intro_year=1961
+intro_month=7
+retire_year=1975
+retire_month=6
+speed=240
+class=3,4
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=420
+
+Image[E]=./images/jaguar-e-type-s1-38-britishracinggreen_E.0.0,-33,14
+Image[SE]=./images/jaguar-e-type-s1-38-britishracinggreen_SE.0.0,-13,0
+Image[S]=./images/jaguar-e-type-s1-38-britishracinggreen_S.0.0,0,0
+Image[SW]=./images/jaguar-e-type-s1-38-britishracinggreen_SW.0.0,-8,10
+Image[W]=./images/jaguar-e-type-s1-38-britishracinggreen_W.0.0,4,5
+Image[NW]=./images/jaguar-e-type-s1-38-britishracinggreen_NW.0.0,12,10
+Image[N]=./images/jaguar-e-type-s1-38-britishracinggreen_N.0.0,0,33
+Image[NE]=./images/jaguar-e-type-s1-38-britishracinggreen_NE.0.0,0,24

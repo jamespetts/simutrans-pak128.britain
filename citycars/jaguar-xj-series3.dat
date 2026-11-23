@@ -1,0 +1,126 @@
+# Jaguar XJ Series 3 four-door saloon, 1979-1992.
+#
+# The Pininfarina restyle of the XJ: a revised roofline with narrower door
+# frames and more glass area, body-colour rather than chrome-framed roof
+# pillars, a more pronounced Hofmeister kink, a larger grille and revised
+# bumpers. The longest-running XJ and the largest class-3/4 Jaguar parc of the
+# 1980s.
+# https://en.wikipedia.org/wiki/Jaguar_XJ_(Series_3)
+#
+# Dimensions 4.959 x 1.770 x 1.377 m, wheelbase 2.865 m.
+#
+# Shape reference: a near-side view about 15-20 degrees behind square, the most
+# side-on Series 3 found; the boot lid is open and the bumpers are North
+# American. The flank and tail are reconciled against the front three-quarter
+# and the grille detail within the published dimensions. Recorded.
+#
+# Colours: grade (d), Jaguar BLVC paint-code tables rather than a UK brochure.
+# Regent Grey 315, Rhodium Silver MDE, Sebring Red CDJ and Cobalt Blue 286 are
+# period names. Weights 15, 14, 13, 13, total 55, reflecting the model's UK
+# volume, provisional pending the central rebase.
+#
+# Speed 210 km/h. Comfort 130/525, on the line 330 + 1.5 x 130. Classes 3,4.
+# Dates 1979-1992 production, road tail staggered 2007-2010.
+#
+# Metres master: citycars/4.5/jaguar-xj-series3.blend. Interchange:
+# citycars/4.5/jaguar-xj-series3.dae. References:
+# citycars/references/jaguar-xj-series3/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: no true side elevation exists; the side image is about
+# 15-20 degrees behind square, with the boot lid open and North American bumpers.
+# The flank was reconciled against the front three-quarter and grille detail
+# within the published dimensions; the open boot and bumper equipment are not
+# copied as body shape. Lamp and grille detail is simplified.
+
+
+obj=citycar
+name=JaguarXJSeries3(RegentGrey)
+copyright=JamesPetts
+
+DistributionWeight=15
+intro_year=1979
+intro_month=4
+retire_year=2010
+retire_month=6
+speed=210
+class=3,4
+maximum_comfortable_journey_minutes=130
+maximum_tolerable_journey_minutes=525
+
+Image[E]=./images/jaguar-xj-series3-regentgrey_E.0.0,-33,14
+Image[SE]=./images/jaguar-xj-series3-regentgrey_SE.0.0,-13,0
+Image[S]=./images/jaguar-xj-series3-regentgrey_S.0.0,0,0
+Image[SW]=./images/jaguar-xj-series3-regentgrey_SW.0.0,-8,10
+Image[W]=./images/jaguar-xj-series3-regentgrey_W.0.0,4,5
+Image[NW]=./images/jaguar-xj-series3-regentgrey_NW.0.0,12,10
+Image[N]=./images/jaguar-xj-series3-regentgrey_N.0.0,0,33
+Image[NE]=./images/jaguar-xj-series3-regentgrey_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=JaguarXJSeries3(RhodiumSilver)
+copyright=JamesPetts
+
+DistributionWeight=14
+intro_year=1979
+intro_month=4
+retire_year=2009
+retire_month=6
+speed=210
+class=3,4
+maximum_comfortable_journey_minutes=130
+maximum_tolerable_journey_minutes=525
+
+Image[E]=./images/jaguar-xj-series3-rhodiumsilver_E.0.0,-33,14
+Image[SE]=./images/jaguar-xj-series3-rhodiumsilver_SE.0.0,-13,0
+Image[S]=./images/jaguar-xj-series3-rhodiumsilver_S.0.0,0,0
+Image[SW]=./images/jaguar-xj-series3-rhodiumsilver_SW.0.0,-8,10
+Image[W]=./images/jaguar-xj-series3-rhodiumsilver_W.0.0,4,5
+Image[NW]=./images/jaguar-xj-series3-rhodiumsilver_NW.0.0,12,10
+Image[N]=./images/jaguar-xj-series3-rhodiumsilver_N.0.0,0,33
+Image[NE]=./images/jaguar-xj-series3-rhodiumsilver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=JaguarXJSeries3(SebringRed)
+copyright=JamesPetts
+
+DistributionWeight=13
+intro_year=1979
+intro_month=4
+retire_year=2008
+retire_month=6
+speed=210
+class=3,4
+maximum_comfortable_journey_minutes=130
+maximum_tolerable_journey_minutes=525
+
+Image[E]=./images/jaguar-xj-series3-sebringred_E.0.0,-33,14
+Image[SE]=./images/jaguar-xj-series3-sebringred_SE.0.0,-13,0
+Image[S]=./images/jaguar-xj-series3-sebringred_S.0.0,0,0
+Image[SW]=./images/jaguar-xj-series3-sebringred_SW.0.0,-8,10
+Image[W]=./images/jaguar-xj-series3-sebringred_W.0.0,4,5
+Image[NW]=./images/jaguar-xj-series3-sebringred_NW.0.0,12,10
+Image[N]=./images/jaguar-xj-series3-sebringred_N.0.0,0,33
+Image[NE]=./images/jaguar-xj-series3-sebringred_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=JaguarXJSeries3(CobaltBlue)
+copyright=JamesPetts
+
+DistributionWeight=13
+intro_year=1979
+intro_month=4
+retire_year=2007
+retire_month=6
+speed=210
+class=3,4
+maximum_comfortable_journey_minutes=130
+maximum_tolerable_journey_minutes=525
+
+Image[E]=./images/jaguar-xj-series3-cobaltblue_E.0.0,-33,14
+Image[SE]=./images/jaguar-xj-series3-cobaltblue_SE.0.0,-13,0
+Image[S]=./images/jaguar-xj-series3-cobaltblue_S.0.0,0,0
+Image[SW]=./images/jaguar-xj-series3-cobaltblue_SW.0.0,-8,10
+Image[W]=./images/jaguar-xj-series3-cobaltblue_W.0.0,4,5
+Image[NW]=./images/jaguar-xj-series3-cobaltblue_NW.0.0,12,10
+Image[N]=./images/jaguar-xj-series3-cobaltblue_N.0.0,0,33
+Image[NE]=./images/jaguar-xj-series3-cobaltblue_NE.0.0,0,24

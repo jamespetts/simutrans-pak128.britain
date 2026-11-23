@@ -1,0 +1,126 @@
+# Austin Ambassador five-door hatchback, 1982-1984.
+#
+# The facelifted Austin Princess: a five-door hatchback with a new front end,
+# twin rectangular headlamps, a slatted grille and a tailgate. It is not a
+# Princess: the Princess is a four-door saloon with concealed wipers, a taller
+# bonnet line and a different grille and lamps, and only the front door skins
+# are shared. The Princess is already in the tree.
+# https://en.wikipedia.org/wiki/Austin_Ambassador
+#
+# Dimensions 4.550 x 1.760 x 1.400 m, wheelbase 2.670 m.
+#
+# Shape reference: the nearest available to a side elevation is about 15 degrees
+# ahead of broadside, both wheels visible. The flank is reconciled against the
+# front and rear three-quarters and the head-on detail within the published
+# dimensions. The limitation is recorded. The Commons title claiming a 1973
+# first registration is wrong; the car carries a Y-suffix plate.
+#
+# Colours: grade (d), no UK document found. Black, Red, White and Blue are plain
+# colour names, not claimed as factory names. Weights 6, 5, 5, 4, total 20,
+# provisional pending the central rebase.
+#
+# Speed 160 km/h. Comfort 70/435, on the line 330 + 1.5 x 70. Classes 2,3.
+# Dates March 1982 to March 1984 production, road tail staggered 1998-2000.
+#
+# Metres master: citycars/4.5/austin-ambassador.blend. Interchange:
+# citycars/4.5/austin-ambassador.dae. References:
+# citycars/references/austin-ambassador/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the nearest side image is about 15 degrees ahead of
+# broadside, so the flank was reconciled against the front and rear
+# three-quarters and the head-on detail within the published dimensions. Grille,
+# lamp and badge detail is simplified at sprite scale. The Ambassador front end
+# and tailgate are modelled; it is not a Princess.
+
+
+obj=citycar
+name=AustinAmbassador(Black)
+copyright=JamesPetts
+
+DistributionWeight=6
+intro_year=1982
+intro_month=3
+retire_year=2000
+retire_month=6
+speed=160
+class=2,3
+maximum_comfortable_journey_minutes=70
+maximum_tolerable_journey_minutes=435
+
+Image[E]=./images/austin-ambassador-black_E.0.0,-33,14
+Image[SE]=./images/austin-ambassador-black_SE.0.0,-13,0
+Image[S]=./images/austin-ambassador-black_S.0.0,0,0
+Image[SW]=./images/austin-ambassador-black_SW.0.0,-8,10
+Image[W]=./images/austin-ambassador-black_W.0.0,4,5
+Image[NW]=./images/austin-ambassador-black_NW.0.0,12,10
+Image[N]=./images/austin-ambassador-black_N.0.0,0,33
+Image[NE]=./images/austin-ambassador-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=AustinAmbassador(Red)
+copyright=JamesPetts
+
+DistributionWeight=5
+intro_year=1982
+intro_month=3
+retire_year=1999
+retire_month=6
+speed=160
+class=2,3
+maximum_comfortable_journey_minutes=70
+maximum_tolerable_journey_minutes=435
+
+Image[E]=./images/austin-ambassador-red_E.0.0,-33,14
+Image[SE]=./images/austin-ambassador-red_SE.0.0,-13,0
+Image[S]=./images/austin-ambassador-red_S.0.0,0,0
+Image[SW]=./images/austin-ambassador-red_SW.0.0,-8,10
+Image[W]=./images/austin-ambassador-red_W.0.0,4,5
+Image[NW]=./images/austin-ambassador-red_NW.0.0,12,10
+Image[N]=./images/austin-ambassador-red_N.0.0,0,33
+Image[NE]=./images/austin-ambassador-red_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=AustinAmbassador(White)
+copyright=JamesPetts
+
+DistributionWeight=5
+intro_year=1982
+intro_month=3
+retire_year=1998
+retire_month=6
+speed=160
+class=2,3
+maximum_comfortable_journey_minutes=70
+maximum_tolerable_journey_minutes=435
+
+Image[E]=./images/austin-ambassador-white_E.0.0,-33,14
+Image[SE]=./images/austin-ambassador-white_SE.0.0,-13,0
+Image[S]=./images/austin-ambassador-white_S.0.0,0,0
+Image[SW]=./images/austin-ambassador-white_SW.0.0,-8,10
+Image[W]=./images/austin-ambassador-white_W.0.0,4,5
+Image[NW]=./images/austin-ambassador-white_NW.0.0,12,10
+Image[N]=./images/austin-ambassador-white_N.0.0,0,33
+Image[NE]=./images/austin-ambassador-white_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=AustinAmbassador(Blue)
+copyright=JamesPetts
+
+DistributionWeight=4
+intro_year=1982
+intro_month=3
+retire_year=1998
+retire_month=6
+speed=160
+class=2,3
+maximum_comfortable_journey_minutes=70
+maximum_tolerable_journey_minutes=435
+
+Image[E]=./images/austin-ambassador-blue_E.0.0,-33,14
+Image[SE]=./images/austin-ambassador-blue_SE.0.0,-13,0
+Image[S]=./images/austin-ambassador-blue_S.0.0,0,0
+Image[SW]=./images/austin-ambassador-blue_SW.0.0,-8,10
+Image[W]=./images/austin-ambassador-blue_W.0.0,4,5
+Image[NW]=./images/austin-ambassador-blue_NW.0.0,12,10
+Image[N]=./images/austin-ambassador-blue_N.0.0,0,33
+Image[NE]=./images/austin-ambassador-blue_NE.0.0,0,24

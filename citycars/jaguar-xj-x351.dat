@@ -1,0 +1,128 @@
+# Jaguar XJ (X351) four-door saloon, 2010-2019.
+#
+# The long, low XJ: a large oval mesh grille, narrow swept headlamps wrapping
+# into the wings, a body-colour roof panel running back between the C-pillars,
+# and slim horizontal tail lamps wrapping onto the rear wings. The standard
+# wheelbase is modelled.
+# https://en.wikipedia.org/wiki/Jaguar_XJ_(X351)
+#
+# Dimensions 5.130 x 1.899 x 1.461 m, wheelbase 3.032 m (standard wheelbase;
+# the XJL is 5.255 m on 3.157 m).
+#
+# Shape reference: no true level side elevation exists in the pack. The side
+# image is a front three-quarter about 30 degrees off the centre line; it is a
+# standard-wheelbase 2010 car while the front and rear images are a
+# long-wheelbase 2018 XJL, so the tail is reconciled to the standard car.
+# No detail close-up was available. Both limitations are recorded.
+#
+# Colours: grade (a), the 2014 model year UK Specification and Price Guide,
+# confirmed by the 2013/14 and 2017 UK brochures. Ebony, Polaris White,
+# Rhodium Silver and British Racing Green are UK brochure names. Weights 11,
+# 10, 10, 9, total 40, provisional pending the central rebase.
+#
+# Speed 250 km/h. Comfort 145/548, on the line 330 + 1.5 x 145. Classes 3,4.
+# Dates 2010-2019 production, road tail staggered 2034-2037.
+#
+# Metres master: citycars/4.5/jaguar-xj-x351.blend. Interchange:
+# citycars/4.5/jaguar-xj-x351.dae. References:
+# citycars/references/jaguar-xj-x351/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: no true side elevation exists; the side image is a front
+# three-quarter about 30 degrees off, and it is a standard-wheelbase 2010 car
+# while the front and rear images are a long-wheelbase 2018 XJL. The tail was
+# reconciled to the standard car. No detail close-up was available. The tall
+# J-shaped rear lamps follow the photographs; grille and lamp internals are
+# simplified at sprite scale.
+
+
+obj=citycar
+name=JaguarXJX351(Ebony)
+copyright=JamesPetts
+
+DistributionWeight=11
+intro_year=2010
+intro_month=3
+retire_year=2037
+retire_month=6
+speed=250
+class=3,4
+maximum_comfortable_journey_minutes=145
+maximum_tolerable_journey_minutes=548
+
+Image[E]=./images/jaguar-xj-x351-ebony_E.0.0,-33,14
+Image[SE]=./images/jaguar-xj-x351-ebony_SE.0.0,-13,0
+Image[S]=./images/jaguar-xj-x351-ebony_S.0.0,0,0
+Image[SW]=./images/jaguar-xj-x351-ebony_SW.0.0,-8,10
+Image[W]=./images/jaguar-xj-x351-ebony_W.0.0,4,5
+Image[NW]=./images/jaguar-xj-x351-ebony_NW.0.0,12,10
+Image[N]=./images/jaguar-xj-x351-ebony_N.0.0,0,33
+Image[NE]=./images/jaguar-xj-x351-ebony_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=JaguarXJX351(PolarisWhite)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=2010
+intro_month=3
+retire_year=2036
+retire_month=6
+speed=250
+class=3,4
+maximum_comfortable_journey_minutes=145
+maximum_tolerable_journey_minutes=548
+
+Image[E]=./images/jaguar-xj-x351-polariswhite_E.0.0,-33,14
+Image[SE]=./images/jaguar-xj-x351-polariswhite_SE.0.0,-13,0
+Image[S]=./images/jaguar-xj-x351-polariswhite_S.0.0,0,0
+Image[SW]=./images/jaguar-xj-x351-polariswhite_SW.0.0,-8,10
+Image[W]=./images/jaguar-xj-x351-polariswhite_W.0.0,4,5
+Image[NW]=./images/jaguar-xj-x351-polariswhite_NW.0.0,12,10
+Image[N]=./images/jaguar-xj-x351-polariswhite_N.0.0,0,33
+Image[NE]=./images/jaguar-xj-x351-polariswhite_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=JaguarXJX351(RhodiumSilver)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=2010
+intro_month=3
+retire_year=2035
+retire_month=6
+speed=250
+class=3,4
+maximum_comfortable_journey_minutes=145
+maximum_tolerable_journey_minutes=548
+
+Image[E]=./images/jaguar-xj-x351-rhodiumsilver_E.0.0,-33,14
+Image[SE]=./images/jaguar-xj-x351-rhodiumsilver_SE.0.0,-13,0
+Image[S]=./images/jaguar-xj-x351-rhodiumsilver_S.0.0,0,0
+Image[SW]=./images/jaguar-xj-x351-rhodiumsilver_SW.0.0,-8,10
+Image[W]=./images/jaguar-xj-x351-rhodiumsilver_W.0.0,4,5
+Image[NW]=./images/jaguar-xj-x351-rhodiumsilver_NW.0.0,12,10
+Image[N]=./images/jaguar-xj-x351-rhodiumsilver_N.0.0,0,33
+Image[NE]=./images/jaguar-xj-x351-rhodiumsilver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=JaguarXJX351(BritishRacingGreen)
+copyright=JamesPetts
+
+DistributionWeight=9
+intro_year=2010
+intro_month=3
+retire_year=2034
+retire_month=6
+speed=250
+class=3,4
+maximum_comfortable_journey_minutes=145
+maximum_tolerable_journey_minutes=548
+
+Image[E]=./images/jaguar-xj-x351-britishracinggreen_E.0.0,-33,14
+Image[SE]=./images/jaguar-xj-x351-britishracinggreen_SE.0.0,-13,0
+Image[S]=./images/jaguar-xj-x351-britishracinggreen_S.0.0,0,0
+Image[SW]=./images/jaguar-xj-x351-britishracinggreen_SW.0.0,-8,10
+Image[W]=./images/jaguar-xj-x351-britishracinggreen_W.0.0,4,5
+Image[NW]=./images/jaguar-xj-x351-britishracinggreen_NW.0.0,12,10
+Image[N]=./images/jaguar-xj-x351-britishracinggreen_N.0.0,0,33
+Image[NE]=./images/jaguar-xj-x351-britishracinggreen_NE.0.0,0,24

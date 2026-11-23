@@ -1,0 +1,121 @@
+# Jaguar E-type Series 3 V12 2+2 coupe, 1971-1974.
+#
+# The V12 Series 3: flared wheel arches, a wide cross-slatted grille, the V12
+# boot badge and four exhaust tips, on the longer 2+2 body. The Series 3 coupe
+# was 2+2 only.
+# https://en.wikipedia.org/wiki/Jaguar_E-Type
+#
+# Dimensions 4.684 x 1.676 x 1.242 m, wheelbase 2.667 m (2+2).
+#
+# Shape reference: a true level side elevation of a dark green V12 2+2, plus
+# front and rear three-quarters and a detail. The side and rear are the same
+# car.
+#
+# Colours: grade (d); no period UK document was sighted. Signal Red, Black,
+# British Racing Green and Pale Primrose are period Jaguar names recorded as
+# context. Weights 4, 3, 2, 1, total 10, provisional pending the central rebase.
+#
+# Speed 240 km/h. Comfort 70/435, on the line 330 + 1.5 x 70. Classes 3,4.
+# Dates announced 29 March 1971, production ended June 1974; road tail
+# staggered 1986-1988.
+#
+# Metres master: citycars/4.5/jaguar-e-type-s3.blend. Interchange:
+# citycars/4.5/jaguar-e-type-s3.dae. References:
+# citycars/references/jaguar-e-type-s3/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: a new longer 2+2 body, not a stretched Series 2. The side
+# photograph is oblique, so the comparison camera was matched to it. Flared arch,
+# grille-slat, exhaust and lamp detail is simplified at sprite scale.
+
+
+obj=citycar
+name=JaguarETypeS3(SignalRed)
+copyright=JamesPetts
+
+DistributionWeight=4
+intro_year=1971
+intro_month=3
+retire_year=1988
+retire_month=6
+speed=240
+class=3,4
+maximum_comfortable_journey_minutes=70
+maximum_tolerable_journey_minutes=435
+
+Image[E]=./images/jaguar-e-type-s3-signalred_E.0.0,-33,14
+Image[SE]=./images/jaguar-e-type-s3-signalred_SE.0.0,-13,0
+Image[S]=./images/jaguar-e-type-s3-signalred_S.0.0,0,0
+Image[SW]=./images/jaguar-e-type-s3-signalred_SW.0.0,-8,10
+Image[W]=./images/jaguar-e-type-s3-signalred_W.0.0,4,5
+Image[NW]=./images/jaguar-e-type-s3-signalred_NW.0.0,12,10
+Image[N]=./images/jaguar-e-type-s3-signalred_N.0.0,0,33
+Image[NE]=./images/jaguar-e-type-s3-signalred_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=JaguarETypeS3(Black)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1971
+intro_month=3
+retire_year=1987
+retire_month=6
+speed=240
+class=3,4
+maximum_comfortable_journey_minutes=70
+maximum_tolerable_journey_minutes=435
+
+Image[E]=./images/jaguar-e-type-s3-black_E.0.0,-33,14
+Image[SE]=./images/jaguar-e-type-s3-black_SE.0.0,-13,0
+Image[S]=./images/jaguar-e-type-s3-black_S.0.0,0,0
+Image[SW]=./images/jaguar-e-type-s3-black_SW.0.0,-8,10
+Image[W]=./images/jaguar-e-type-s3-black_W.0.0,4,5
+Image[NW]=./images/jaguar-e-type-s3-black_NW.0.0,12,10
+Image[N]=./images/jaguar-e-type-s3-black_N.0.0,0,33
+Image[NE]=./images/jaguar-e-type-s3-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=JaguarETypeS3(BritishRacingGreen)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1971
+intro_month=3
+retire_year=1986
+retire_month=6
+speed=240
+class=3,4
+maximum_comfortable_journey_minutes=70
+maximum_tolerable_journey_minutes=435
+
+Image[E]=./images/jaguar-e-type-s3-britishracinggreen_E.0.0,-33,14
+Image[SE]=./images/jaguar-e-type-s3-britishracinggreen_SE.0.0,-13,0
+Image[S]=./images/jaguar-e-type-s3-britishracinggreen_S.0.0,0,0
+Image[SW]=./images/jaguar-e-type-s3-britishracinggreen_SW.0.0,-8,10
+Image[W]=./images/jaguar-e-type-s3-britishracinggreen_W.0.0,4,5
+Image[NW]=./images/jaguar-e-type-s3-britishracinggreen_NW.0.0,12,10
+Image[N]=./images/jaguar-e-type-s3-britishracinggreen_N.0.0,0,33
+Image[NE]=./images/jaguar-e-type-s3-britishracinggreen_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=JaguarETypeS3(PalePrimrose)
+copyright=JamesPetts
+
+DistributionWeight=1
+intro_year=1971
+intro_month=3
+retire_year=1986
+retire_month=6
+speed=240
+class=3,4
+maximum_comfortable_journey_minutes=70
+maximum_tolerable_journey_minutes=435
+
+Image[E]=./images/jaguar-e-type-s3-paleprimrose_E.0.0,-33,14
+Image[SE]=./images/jaguar-e-type-s3-paleprimrose_SE.0.0,-13,0
+Image[S]=./images/jaguar-e-type-s3-paleprimrose_S.0.0,0,0
+Image[SW]=./images/jaguar-e-type-s3-paleprimrose_SW.0.0,-8,10
+Image[W]=./images/jaguar-e-type-s3-paleprimrose_W.0.0,4,5
+Image[NW]=./images/jaguar-e-type-s3-paleprimrose_NW.0.0,12,10
+Image[N]=./images/jaguar-e-type-s3-paleprimrose_N.0.0,0,33
+Image[NE]=./images/jaguar-e-type-s3-paleprimrose_NE.0.0,0,24

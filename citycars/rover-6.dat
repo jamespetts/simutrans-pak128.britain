@@ -1,0 +1,125 @@
+# Rover 6 hp two-seater, 1905-1912.
+#
+# The single-cylinder Rover: a light open two-seater with a 780/812 cc engine,
+# the model that sat below the Rover 8 and sold in almost the same numbers.
+# About 2,296 built.
+# https://en.wikipedia.org/wiki/Rover_6
+#
+# Dimensions 2.819 x 1.219 x about 1.40 m (height estimated), wheelbase 1.829 m.
+#
+# Shape reference: no broadside photograph of a Rover 6 exists in the pack; the
+# side slot is a front three-quarter about 45 degrees off, both wheels visible.
+# The flank and tail are estimated from that view and the published dimensions.
+# The limitation is recorded. Two Commons files titled as 6 hp cars were
+# rejected as 1329 cc cars of a different model.
+#
+# Colours: grade (d), no period UK document consulted. Black, Green, Maroon and
+# Grey are plain colour names, the common finishes of the period. Weights 2, 2,
+# 1, 1, total 6, provisional pending the central rebase.
+#
+# Speed 45 km/h. Comfort 18/357, on the line 330 + 1.5 x 18. Classes 2,3.
+# Dates 1905-1912 production, road tail staggered 1922-1924.
+#
+# Metres master: citycars/4.5/rover-6.blend. Interchange:
+# citycars/4.5/rover-6.dae. References: citycars/references/rover-6/
+# (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: no broadside photograph exists; the side slot is a front
+# three-quarter about 45 degrees off, with an elevated rear three-quarter and a
+# front detail. The flank and tail are estimates. The open, windscreen-free car
+# is modelled and has no glazing; the windscreen-and-hood variant is not
+# represented. Two Commons files titled as 6 hp cars were rejected as 1329 cc
+# cars of a different model.
+
+
+obj=citycar
+name=Rover6(Black)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1905
+intro_month=1
+retire_year=1924
+retire_month=6
+speed=45
+class=2,3
+maximum_comfortable_journey_minutes=18
+maximum_tolerable_journey_minutes=357
+
+Image[E]=./images/rover-6-black_E.0.0,-33,14
+Image[SE]=./images/rover-6-black_SE.0.0,-13,0
+Image[S]=./images/rover-6-black_S.0.0,0,0
+Image[SW]=./images/rover-6-black_SW.0.0,-8,10
+Image[W]=./images/rover-6-black_W.0.0,4,5
+Image[NW]=./images/rover-6-black_NW.0.0,12,10
+Image[N]=./images/rover-6-black_N.0.0,0,33
+Image[NE]=./images/rover-6-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Rover6(Green)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1905
+intro_month=1
+retire_year=1923
+retire_month=6
+speed=45
+class=2,3
+maximum_comfortable_journey_minutes=18
+maximum_tolerable_journey_minutes=357
+
+Image[E]=./images/rover-6-green_E.0.0,-33,14
+Image[SE]=./images/rover-6-green_SE.0.0,-13,0
+Image[S]=./images/rover-6-green_S.0.0,0,0
+Image[SW]=./images/rover-6-green_SW.0.0,-8,10
+Image[W]=./images/rover-6-green_W.0.0,4,5
+Image[NW]=./images/rover-6-green_NW.0.0,12,10
+Image[N]=./images/rover-6-green_N.0.0,0,33
+Image[NE]=./images/rover-6-green_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Rover6(Maroon)
+copyright=JamesPetts
+
+DistributionWeight=1
+intro_year=1905
+intro_month=1
+retire_year=1922
+retire_month=6
+speed=45
+class=2,3
+maximum_comfortable_journey_minutes=18
+maximum_tolerable_journey_minutes=357
+
+Image[E]=./images/rover-6-maroon_E.0.0,-33,14
+Image[SE]=./images/rover-6-maroon_SE.0.0,-13,0
+Image[S]=./images/rover-6-maroon_S.0.0,0,0
+Image[SW]=./images/rover-6-maroon_SW.0.0,-8,10
+Image[W]=./images/rover-6-maroon_W.0.0,4,5
+Image[NW]=./images/rover-6-maroon_NW.0.0,12,10
+Image[N]=./images/rover-6-maroon_N.0.0,0,33
+Image[NE]=./images/rover-6-maroon_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Rover6(Grey)
+copyright=JamesPetts
+
+DistributionWeight=1
+intro_year=1905
+intro_month=1
+retire_year=1922
+retire_month=6
+speed=45
+class=2,3
+maximum_comfortable_journey_minutes=18
+maximum_tolerable_journey_minutes=357
+
+Image[E]=./images/rover-6-grey_E.0.0,-33,14
+Image[SE]=./images/rover-6-grey_SE.0.0,-13,0
+Image[S]=./images/rover-6-grey_S.0.0,0,0
+Image[SW]=./images/rover-6-grey_SW.0.0,-8,10
+Image[W]=./images/rover-6-grey_W.0.0,4,5
+Image[NW]=./images/rover-6-grey_NW.0.0,12,10
+Image[N]=./images/rover-6-grey_N.0.0,0,33
+Image[NE]=./images/rover-6-grey_NE.0.0,0,24

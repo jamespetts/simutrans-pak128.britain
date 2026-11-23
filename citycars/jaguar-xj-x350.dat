@@ -1,0 +1,125 @@
+# Jaguar XJ (X350) four-door saloon, 2003-2009.
+#
+# The aluminium XJ: a retro three-box body with an upright grille and four
+# round headlamps in pairs, but a modern aluminium monocoque. The standard
+# wheelbase is modelled.
+# https://en.wikipedia.org/wiki/Jaguar_XJ_(X350)
+#
+# Dimensions 5.090 x 1.859 x 1.448 m, wheelbase 3.033 m (standard wheelbase;
+# the long-wheelbase car is 5.215 m on 3.160 m).
+#
+# Shape reference: no true level side elevation exists in the pack. The side
+# image is a front three-quarter about 35 degrees off the centre line; the
+# flank is reconciled against the front and rear three-quarters within the
+# published dimensions. The detail image is a full front three-quarter rather
+# than a lamp close-up. Both limitations are recorded.
+#
+# Colours: grade (a), the 2008 model year XJ Collection brochure. Ebony,
+# Liquid Silver, Lunar Grey and Botanical Green are brochure names. Weights
+# 12, 12, 11, 10, total 45, provisional pending the central rebase.
+#
+# Speed 250 km/h. Comfort 140/540, on the line 330 + 1.5 x 140. Classes 3,4.
+# Dates 2003-2009 production, road tail staggered 2024-2026.
+#
+# Metres master: citycars/4.5/jaguar-xj-x350.blend. Interchange:
+# citycars/4.5/jaguar-xj-x350.dae. References:
+# citycars/references/jaguar-xj-x350/ (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: no true side elevation exists; the side image is a front
+# three-quarter about 35 degrees off and the detail image is a full front
+# three-quarter rather than a lamp close-up. The flank was reconciled against
+# both three-quarters and the published dimensions. Lamp, grille and chrome
+# detail is simplified at sprite scale.
+
+
+obj=citycar
+name=JaguarXJX350(Ebony)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=2003
+intro_month=1
+retire_year=2026
+retire_month=6
+speed=250
+class=3,4
+maximum_comfortable_journey_minutes=140
+maximum_tolerable_journey_minutes=540
+
+Image[E]=./images/jaguar-xj-x350-ebony_E.0.0,-33,14
+Image[SE]=./images/jaguar-xj-x350-ebony_SE.0.0,-13,0
+Image[S]=./images/jaguar-xj-x350-ebony_S.0.0,0,0
+Image[SW]=./images/jaguar-xj-x350-ebony_SW.0.0,-8,10
+Image[W]=./images/jaguar-xj-x350-ebony_W.0.0,4,5
+Image[NW]=./images/jaguar-xj-x350-ebony_NW.0.0,12,10
+Image[N]=./images/jaguar-xj-x350-ebony_N.0.0,0,33
+Image[NE]=./images/jaguar-xj-x350-ebony_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=JaguarXJX350(LiquidSilver)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=2003
+intro_month=1
+retire_year=2025
+retire_month=6
+speed=250
+class=3,4
+maximum_comfortable_journey_minutes=140
+maximum_tolerable_journey_minutes=540
+
+Image[E]=./images/jaguar-xj-x350-liquidsilver_E.0.0,-33,14
+Image[SE]=./images/jaguar-xj-x350-liquidsilver_SE.0.0,-13,0
+Image[S]=./images/jaguar-xj-x350-liquidsilver_S.0.0,0,0
+Image[SW]=./images/jaguar-xj-x350-liquidsilver_SW.0.0,-8,10
+Image[W]=./images/jaguar-xj-x350-liquidsilver_W.0.0,4,5
+Image[NW]=./images/jaguar-xj-x350-liquidsilver_NW.0.0,12,10
+Image[N]=./images/jaguar-xj-x350-liquidsilver_N.0.0,0,33
+Image[NE]=./images/jaguar-xj-x350-liquidsilver_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=JaguarXJX350(LunarGrey)
+copyright=JamesPetts
+
+DistributionWeight=11
+intro_year=2003
+intro_month=1
+retire_year=2025
+retire_month=6
+speed=250
+class=3,4
+maximum_comfortable_journey_minutes=140
+maximum_tolerable_journey_minutes=540
+
+Image[E]=./images/jaguar-xj-x350-lunargrey_E.0.0,-33,14
+Image[SE]=./images/jaguar-xj-x350-lunargrey_SE.0.0,-13,0
+Image[S]=./images/jaguar-xj-x350-lunargrey_S.0.0,0,0
+Image[SW]=./images/jaguar-xj-x350-lunargrey_SW.0.0,-8,10
+Image[W]=./images/jaguar-xj-x350-lunargrey_W.0.0,4,5
+Image[NW]=./images/jaguar-xj-x350-lunargrey_NW.0.0,12,10
+Image[N]=./images/jaguar-xj-x350-lunargrey_N.0.0,0,33
+Image[NE]=./images/jaguar-xj-x350-lunargrey_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=JaguarXJX350(BotanicalGreen)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=2003
+intro_month=1
+retire_year=2024
+retire_month=6
+speed=250
+class=3,4
+maximum_comfortable_journey_minutes=140
+maximum_tolerable_journey_minutes=540
+
+Image[E]=./images/jaguar-xj-x350-botanicalgreen_E.0.0,-33,14
+Image[SE]=./images/jaguar-xj-x350-botanicalgreen_SE.0.0,-13,0
+Image[S]=./images/jaguar-xj-x350-botanicalgreen_S.0.0,0,0
+Image[SW]=./images/jaguar-xj-x350-botanicalgreen_SW.0.0,-8,10
+Image[W]=./images/jaguar-xj-x350-botanicalgreen_W.0.0,4,5
+Image[NW]=./images/jaguar-xj-x350-botanicalgreen_NW.0.0,12,10
+Image[N]=./images/jaguar-xj-x350-botanicalgreen_N.0.0,0,33
+Image[NE]=./images/jaguar-xj-x350-botanicalgreen_NE.0.0,0,24

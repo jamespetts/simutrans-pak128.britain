@@ -1,0 +1,117 @@
+# Jaguar Mark IX four-door saloon, 1958-1961.
+#
+# The last of the large separate-chassis Jaguar saloons: the Mark VIII body
+# with a larger wrap-around rear window, a revised grille and bumper, disc
+# brakes and the 3.8-litre six. A true level side elevation exists in the pack.
+# https://en.wikipedia.org/wiki/Jaguar_Mark_IX
+#
+# Dimensions 4.99 x 1.91 x 1.60 m, wheelbase 3.05 m.
+#
+# Colours: grade (d); no UK brochure was consulted. British Racing Green,
+# Black, Pearl Grey and Carmen Red are period Jaguar finishes, recorded without
+# claiming factory wording. Weights 4, 3, 2, 1, total 10, provisional pending
+# the central rebase.
+#
+# Speed 180 km/h. Comfort 80/450, on the line 330 + 1.5 x 80. Class 4.
+# Dates 1958-1961 production, road tail staggered 1972-1974.
+#
+# Metres master: citycars/4.5/jaguar-mk9.blend. Interchange:
+# citycars/4.5/jaguar-mk9.dae. References: citycars/references/jaguar-mk9/
+# (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: grille bars, lamp internals, bumper overriders and wheel
+# detail are simplified at sprite scale. The side view is a true elevation and
+# governs the roofline, wing line and spats.
+
+
+obj=citycar
+name=JaguarMk9(BritishRacingGreen)
+copyright=JamesPetts
+
+DistributionWeight=4
+intro_year=1958
+intro_month=10
+retire_year=1974
+retire_month=6
+speed=180
+class=4
+maximum_comfortable_journey_minutes=80
+maximum_tolerable_journey_minutes=450
+
+Image[E]=./images/jaguar-mk9-britishracinggreen_E.0.0,-33,14
+Image[SE]=./images/jaguar-mk9-britishracinggreen_SE.0.0,-13,0
+Image[S]=./images/jaguar-mk9-britishracinggreen_S.0.0,0,0
+Image[SW]=./images/jaguar-mk9-britishracinggreen_SW.0.0,-8,10
+Image[W]=./images/jaguar-mk9-britishracinggreen_W.0.0,4,5
+Image[NW]=./images/jaguar-mk9-britishracinggreen_NW.0.0,12,10
+Image[N]=./images/jaguar-mk9-britishracinggreen_N.0.0,0,33
+Image[NE]=./images/jaguar-mk9-britishracinggreen_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=JaguarMk9(Black)
+copyright=JamesPetts
+
+DistributionWeight=3
+intro_year=1958
+intro_month=10
+retire_year=1973
+retire_month=6
+speed=180
+class=4
+maximum_comfortable_journey_minutes=80
+maximum_tolerable_journey_minutes=450
+
+Image[E]=./images/jaguar-mk9-black_E.0.0,-33,14
+Image[SE]=./images/jaguar-mk9-black_SE.0.0,-13,0
+Image[S]=./images/jaguar-mk9-black_S.0.0,0,0
+Image[SW]=./images/jaguar-mk9-black_SW.0.0,-8,10
+Image[W]=./images/jaguar-mk9-black_W.0.0,4,5
+Image[NW]=./images/jaguar-mk9-black_NW.0.0,12,10
+Image[N]=./images/jaguar-mk9-black_N.0.0,0,33
+Image[NE]=./images/jaguar-mk9-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=JaguarMk9(PearlGrey)
+copyright=JamesPetts
+
+DistributionWeight=2
+intro_year=1958
+intro_month=10
+retire_year=1972
+retire_month=6
+speed=180
+class=4
+maximum_comfortable_journey_minutes=80
+maximum_tolerable_journey_minutes=450
+
+Image[E]=./images/jaguar-mk9-pearlgrey_E.0.0,-33,14
+Image[SE]=./images/jaguar-mk9-pearlgrey_SE.0.0,-13,0
+Image[S]=./images/jaguar-mk9-pearlgrey_S.0.0,0,0
+Image[SW]=./images/jaguar-mk9-pearlgrey_SW.0.0,-8,10
+Image[W]=./images/jaguar-mk9-pearlgrey_W.0.0,4,5
+Image[NW]=./images/jaguar-mk9-pearlgrey_NW.0.0,12,10
+Image[N]=./images/jaguar-mk9-pearlgrey_N.0.0,0,33
+Image[NE]=./images/jaguar-mk9-pearlgrey_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=JaguarMk9(CarmenRed)
+copyright=JamesPetts
+
+DistributionWeight=1
+intro_year=1958
+intro_month=10
+retire_year=1972
+retire_month=6
+speed=180
+class=4
+maximum_comfortable_journey_minutes=80
+maximum_tolerable_journey_minutes=450
+
+Image[E]=./images/jaguar-mk9-carmenred_E.0.0,-33,14
+Image[SE]=./images/jaguar-mk9-carmenred_SE.0.0,-13,0
+Image[S]=./images/jaguar-mk9-carmenred_S.0.0,0,0
+Image[SW]=./images/jaguar-mk9-carmenred_SW.0.0,-8,10
+Image[W]=./images/jaguar-mk9-carmenred_W.0.0,4,5
+Image[NW]=./images/jaguar-mk9-carmenred_NW.0.0,12,10
+Image[N]=./images/jaguar-mk9-carmenred_N.0.0,0,33
+Image[NE]=./images/jaguar-mk9-carmenred_NE.0.0,0,24

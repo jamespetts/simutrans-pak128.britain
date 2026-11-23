@@ -1,0 +1,120 @@
+# Rover 16 P2 six-light saloon, 1936-1940.
+#
+# The six-cylinder P2: a 2,147 cc six in the six-light saloon body with the
+# upright grille, separate wing line and sloping tail. About 5,109 pre-war cars
+# built; production resumed 1945-48.
+# https://en.wikipedia.org/wiki/Rover_P2
+#
+# Dimensions 4.445 x 1.588 x about 1.62 m (height estimated), wheelbase 2.870 m.
+#
+# Shape reference: a true level broadside. The rear three-quarter is a 1947
+# post-war car on the same P2 body with later trim; no pre-war saloon rear
+# exists in Commons. The difference is recorded and limited to trim.
+#
+# Colours: grade (d), no period UK document consulted. Black, Green,
+# Dove Grey and Maroon are period Rover finishes, recorded as plain names.
+# Weights 6, 5, 5, 4, total 20, provisional pending the central rebase.
+#
+# Speed 120 km/h. Comfort 60/420, on the line 330 + 1.5 x 60. Classes 3,4.
+# Dates mid-1936 to 1940, resumed 1945-48, road tail staggered 1952-1954.
+#
+# Metres master: citycars/4.5/rover-16.blend. Interchange:
+# citycars/4.5/rover-16.dae. References: citycars/references/rover-16/
+# (gitignored; Wikimedia Commons).
+#
+# Accepted deviations: the true side governs. The rear three-quarter is a 1947
+# post-war car on the same P2 body with later trim; the body shape is shared and
+# the post-war trim differences are not copied.
+
+
+obj=citycar
+name=Rover16(Black)
+copyright=JamesPetts
+
+DistributionWeight=6
+intro_year=1936
+intro_month=8
+retire_year=1954
+retire_month=6
+speed=120
+class=3,4
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=420
+
+Image[E]=./images/rover-16-black_E.0.0,-33,14
+Image[SE]=./images/rover-16-black_SE.0.0,-13,0
+Image[S]=./images/rover-16-black_S.0.0,0,0
+Image[SW]=./images/rover-16-black_SW.0.0,-8,10
+Image[W]=./images/rover-16-black_W.0.0,4,5
+Image[NW]=./images/rover-16-black_NW.0.0,12,10
+Image[N]=./images/rover-16-black_N.0.0,0,33
+Image[NE]=./images/rover-16-black_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Rover16(Green)
+copyright=JamesPetts
+
+DistributionWeight=5
+intro_year=1936
+intro_month=8
+retire_year=1953
+retire_month=6
+speed=120
+class=3,4
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=420
+
+Image[E]=./images/rover-16-green_E.0.0,-33,14
+Image[SE]=./images/rover-16-green_SE.0.0,-13,0
+Image[S]=./images/rover-16-green_S.0.0,0,0
+Image[SW]=./images/rover-16-green_SW.0.0,-8,10
+Image[W]=./images/rover-16-green_W.0.0,4,5
+Image[NW]=./images/rover-16-green_NW.0.0,12,10
+Image[N]=./images/rover-16-green_N.0.0,0,33
+Image[NE]=./images/rover-16-green_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Rover16(DoveGrey)
+copyright=JamesPetts
+
+DistributionWeight=5
+intro_year=1936
+intro_month=8
+retire_year=1952
+retire_month=6
+speed=120
+class=3,4
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=420
+
+Image[E]=./images/rover-16-dovegrey_E.0.0,-33,14
+Image[SE]=./images/rover-16-dovegrey_SE.0.0,-13,0
+Image[S]=./images/rover-16-dovegrey_S.0.0,0,0
+Image[SW]=./images/rover-16-dovegrey_SW.0.0,-8,10
+Image[W]=./images/rover-16-dovegrey_W.0.0,4,5
+Image[NW]=./images/rover-16-dovegrey_NW.0.0,12,10
+Image[N]=./images/rover-16-dovegrey_N.0.0,0,33
+Image[NE]=./images/rover-16-dovegrey_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=Rover16(Maroon)
+copyright=JamesPetts
+
+DistributionWeight=4
+intro_year=1936
+intro_month=8
+retire_year=1952
+retire_month=6
+speed=120
+class=3,4
+maximum_comfortable_journey_minutes=60
+maximum_tolerable_journey_minutes=420
+
+Image[E]=./images/rover-16-maroon_E.0.0,-33,14
+Image[SE]=./images/rover-16-maroon_SE.0.0,-13,0
+Image[S]=./images/rover-16-maroon_S.0.0,0,0
+Image[SW]=./images/rover-16-maroon_SW.0.0,-8,10
+Image[W]=./images/rover-16-maroon_W.0.0,4,5
+Image[NW]=./images/rover-16-maroon_NW.0.0,12,10
+Image[N]=./images/rover-16-maroon_N.0.0,0,33
+Image[NE]=./images/rover-16-maroon_NE.0.0,0,24

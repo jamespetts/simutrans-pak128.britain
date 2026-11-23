@@ -1,0 +1,125 @@
+# Range Rover L460 five-door SUV, 2021-
+#
+# The fifth-generation Range Rover: flush retracting door handles, a continuous
+# waistline with no separate door frames above it, vertical tail lamp blades
+# running from the roof down the rear corners, and RANGE ROVER lettering spaced
+# across the bonnet and tailgate. Standard wheelbase modelled.
+# https://en.wikipedia.org/wiki/Range_Rover_(L460)
+#
+# Dimensions 5.052 x 2.047 x 1.870 m, wheelbase 2.997 m (standard wheelbase;
+# 2.209 m with mirrors out).
+#
+# Shape reference: a true level side elevation and front/rear three-quarters of
+# one L460 display car, plus a front detail of an HSE. The display car is
+# Japanese-market with a display plate; the body and trim are the same.
+#
+# Colours: grade (a), the 26 October 2021 UK press release. Belgravia Green,
+# Charente Grey, Ostuni Pearl White and Batumi Gold are UK launch names.
+# Weights 15, 13, 12, 10, total 50, provisional pending the central rebase.
+#
+# Speed 250 km/h. Comfort 160/570, on the line 330 + 1.5 x 160. Classes 3,4.
+# On sale October 2021; still in production, so no retire fields are set.
+#
+# Metres master: citycars/4.5/range-rover-l460.blend. Interchange:
+# citycars/4.5/range-rover-l460.dae. References:
+# citycars/references/range-rover-l460/ (gitignored; Wikimedia Commons,
+# CC BY-SA 4.0).
+#
+# Accepted deviations: the reference car is a Japanese-market display car; its
+# display plate and windscreen QR card are not copied. Grille slats, lamp
+# internals and badging are simplified at sprite scale. The body proportions,
+# flush handles, vertical tail lamp blades and bonnet/tailgate lettering follow
+# the photographs.
+
+
+obj=citycar
+name=RangeRoverL460(BelgraviaGreen)
+copyright=JamesPetts
+
+DistributionWeight=15
+intro_year=2021
+intro_month=10
+# retire_year=2041
+# retire_month=6
+speed=250
+class=3,4
+maximum_comfortable_journey_minutes=160
+maximum_tolerable_journey_minutes=570
+
+Image[E]=./images/range-rover-l460-belgraviagreen_E.0.0,-33,14
+Image[SE]=./images/range-rover-l460-belgraviagreen_SE.0.0,-13,0
+Image[S]=./images/range-rover-l460-belgraviagreen_S.0.0,0,0
+Image[SW]=./images/range-rover-l460-belgraviagreen_SW.0.0,-8,10
+Image[W]=./images/range-rover-l460-belgraviagreen_W.0.0,4,5
+Image[NW]=./images/range-rover-l460-belgraviagreen_NW.0.0,12,10
+Image[N]=./images/range-rover-l460-belgraviagreen_N.0.0,0,33
+Image[NE]=./images/range-rover-l460-belgraviagreen_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RangeRoverL460(CharenteGrey)
+copyright=JamesPetts
+
+DistributionWeight=13
+intro_year=2021
+intro_month=10
+# retire_year=2041
+# retire_month=6
+speed=250
+class=3,4
+maximum_comfortable_journey_minutes=160
+maximum_tolerable_journey_minutes=570
+
+Image[E]=./images/range-rover-l460-charentegrey_E.0.0,-33,14
+Image[SE]=./images/range-rover-l460-charentegrey_SE.0.0,-13,0
+Image[S]=./images/range-rover-l460-charentegrey_S.0.0,0,0
+Image[SW]=./images/range-rover-l460-charentegrey_SW.0.0,-8,10
+Image[W]=./images/range-rover-l460-charentegrey_W.0.0,4,5
+Image[NW]=./images/range-rover-l460-charentegrey_NW.0.0,12,10
+Image[N]=./images/range-rover-l460-charentegrey_N.0.0,0,33
+Image[NE]=./images/range-rover-l460-charentegrey_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RangeRoverL460(OstuniPearlWhite)
+copyright=JamesPetts
+
+DistributionWeight=12
+intro_year=2021
+intro_month=10
+# retire_year=2041
+# retire_month=6
+speed=250
+class=3,4
+maximum_comfortable_journey_minutes=160
+maximum_tolerable_journey_minutes=570
+
+Image[E]=./images/range-rover-l460-ostunipearlwhite_E.0.0,-33,14
+Image[SE]=./images/range-rover-l460-ostunipearlwhite_SE.0.0,-13,0
+Image[S]=./images/range-rover-l460-ostunipearlwhite_S.0.0,0,0
+Image[SW]=./images/range-rover-l460-ostunipearlwhite_SW.0.0,-8,10
+Image[W]=./images/range-rover-l460-ostunipearlwhite_W.0.0,4,5
+Image[NW]=./images/range-rover-l460-ostunipearlwhite_NW.0.0,12,10
+Image[N]=./images/range-rover-l460-ostunipearlwhite_N.0.0,0,33
+Image[NE]=./images/range-rover-l460-ostunipearlwhite_NE.0.0,0,24
+---------------------------------
+obj=citycar
+name=RangeRoverL460(BatumiGold)
+copyright=JamesPetts
+
+DistributionWeight=10
+intro_year=2021
+intro_month=10
+# retire_year=2041
+# retire_month=6
+speed=250
+class=3,4
+maximum_comfortable_journey_minutes=160
+maximum_tolerable_journey_minutes=570
+
+Image[E]=./images/range-rover-l460-batumigold_E.0.0,-33,14
+Image[SE]=./images/range-rover-l460-batumigold_SE.0.0,-13,0
+Image[S]=./images/range-rover-l460-batumigold_S.0.0,0,0
+Image[SW]=./images/range-rover-l460-batumigold_SW.0.0,-8,10
+Image[W]=./images/range-rover-l460-batumigold_W.0.0,4,5
+Image[NW]=./images/range-rover-l460-batumigold_NW.0.0,12,10
+Image[N]=./images/range-rover-l460-batumigold_N.0.0,0,33
+Image[NE]=./images/range-rover-l460-batumigold_NE.0.0,0,24
