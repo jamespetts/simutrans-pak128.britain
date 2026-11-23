@@ -17,7 +17,7 @@ gear=80
 # 8t 14cwt tare
 weight=8.8
 axles=3
-length=6
+length=5
 cost=232000
 runningcost=32
 fixed_cost=12242

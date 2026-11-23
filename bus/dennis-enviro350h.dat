@@ -15,7 +15,7 @@ overcrowded_capacity=18
 power=138
 tractive_effort=31
 gear=50
-length=5
+length=6
 range=100
 
 weight=18
@@ -61,7 +61,7 @@ overcrowded_capacity=24
 power=138
 tractive_effort=31
 gear=50
-length=5
+length=6
 range=100
 
 weight=18

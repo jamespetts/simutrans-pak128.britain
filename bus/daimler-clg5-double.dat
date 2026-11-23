@@ -20,7 +20,7 @@ gear=50
 # Guessed to be slightly lighter than
 # CLG6
 weight=6.9
-length=6
+length=5
 cost=1261000
 runningcost=60
 fixed_cost=8500

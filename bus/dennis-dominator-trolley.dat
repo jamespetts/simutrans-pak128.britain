@@ -14,7 +14,7 @@ tractive_effort=70
 gear=80
 weight=10.4
 axles=2
-length=7
+length=6
 # Actual cost circa £100,000 (Trolleybus Database CD-ROM)
 cost=517000 
 runningcost=20

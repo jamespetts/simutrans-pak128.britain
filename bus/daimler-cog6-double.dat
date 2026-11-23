@@ -16,7 +16,7 @@ tractive_effort=11
 gear=50
 # Townsin p. 49
 weight=6.1
-length=6
+length=5
 cost=1032000
 runningcost=74
 fixed_cost=8501

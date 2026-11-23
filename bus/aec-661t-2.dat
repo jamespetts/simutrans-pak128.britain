@@ -18,6 +18,7 @@ tractive_effort=47
 gear=80
 weight=6.7
 axles=2
+length=5
 # A similar trolleybus (albeit the Portsmouth, rather than the
 # London version, with a 50 seater body and a 80hp motor) cost 
 # £1,811-8-4 in 1934.

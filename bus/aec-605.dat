@@ -13,6 +13,7 @@ gear=80
 # Guessed
 weight=4.6
 axles=2
+length=5
 # £1,445 in reality
 cost=60200
 runningcost=22

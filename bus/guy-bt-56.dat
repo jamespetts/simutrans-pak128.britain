@@ -12,6 +12,7 @@ tractive_effort=36
 gear=80
 weight=7.7
 axles=2
+length=5
 # £2,170 to Reading in 1936
 cost=136225
 runningcost=32

@@ -20,7 +20,7 @@ overcrowded_capacity=5
 power=85
 tractive_effort=15
 gear=50
-length=5
+length=4
 # Await more suitable sound effect
 sound=video47-optare-tempo.wav
 

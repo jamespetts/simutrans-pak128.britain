@@ -18,7 +18,7 @@ gear=50
 # 11 1/4 tons: https://en.wikipedia.org/wiki/Leyland_Leopard
 weight=11.4
 axles=2
-length=7
+length=6
 cost=5200000
 runningcost=105
 fixed_cost=11012

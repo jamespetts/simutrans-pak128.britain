@@ -15,7 +15,7 @@ gear=50
 # https://www.flickr.com/photos/14730981@N08/6978114401/in/album-72157629573765473/
 weight=5.7
 axles=2
-length=6
+length=5
 cost=790000
 runningcost=67
 fixed_cost=8411

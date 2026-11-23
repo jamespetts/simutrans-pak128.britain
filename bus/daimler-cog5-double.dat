@@ -23,7 +23,7 @@ gear=50
 # The 6.1t figure is suggested by p. 49 of "Daimler" by Allan Towsin,
 # but this is for the (presumably heavier) COG6.
 weight=5.8
-length=6
+length=5
 cost=961000
 runningcost=63
 fixed_cost=8501

@@ -16,6 +16,7 @@ tractive_effort=5
 gear=50
 weight=4.0
 axles=2
+length=4
 way_wear_factor=156
 cost=83750
 runningcost=35

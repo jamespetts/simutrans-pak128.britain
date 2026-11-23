@@ -19,7 +19,7 @@ tractive_effort=9
 gear=50
 # Guessed
 weight=5.2
-length=6
+length=5
 cost=920000
 # These apparently gave 11.79 - 12.55mpg on local services:
 # see Townsin p. 42

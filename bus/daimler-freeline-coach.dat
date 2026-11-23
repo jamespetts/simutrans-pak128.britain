@@ -18,7 +18,7 @@ tractive_effort=13
 gear=50
 # Guessed. Said to be heavier than lightweight double decker.
 weight=7.3
-length=6
+length=5
 cost=1720000
 runningcost=94
 fixed_cost=8499

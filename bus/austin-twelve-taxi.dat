@@ -23,7 +23,7 @@ engine_type=petrol
 # 20bhp, 15kw (per Wikipedia)
 power=15
 way_wear_factor=1
-length=1
+length=3
 cost=40000
 runningcost=10
 fixed_cost=10000
@@ -76,7 +76,7 @@ engine_type=petrol
 # 40bhp (per Wikipedia) = 30kw
 power=30
 way_wear_factor=1
-length=1
+length=3
 cost=40000
 runningcost=10
 fixed_cost=8000

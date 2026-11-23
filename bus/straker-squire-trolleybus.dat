@@ -14,6 +14,7 @@ gear=80
 # Guessed
 weight=5.5
 axles=2
+length=4
 way_wear_factor=276
 cost=71000
 # 1.875d/mile in 1921

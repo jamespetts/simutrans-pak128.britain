@@ -19,7 +19,7 @@ intro_year=1973
 intro_month=3
 retire_year=1984
 retire_month=5
-length=4
+length=3
 
 constraint[next][0]=none
 constraint[prev][0]=none
@@ -57,7 +57,7 @@ intro_year=1973
 intro_month=3
 retire_year=1984
 retire_month=5
-length=4
+length=3
 
 constraint[next][0]=none
 constraint[prev][0]=none
@@ -94,7 +94,7 @@ intro_year=1973
 intro_month=3
 retire_year=1984
 retire_month=5
-length=4
+length=3
 
 constraint[next][0]=none
 constraint[prev][0]=none

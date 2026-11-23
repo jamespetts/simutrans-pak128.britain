@@ -21,7 +21,7 @@ gear=50
 # See Townsin p. 88 - 6 tons 19 cwt
 # Consider using weight to affect fuel economy figures
 weight=7.0
-length=6
+length=5
 cost=1561000
 runningcost=74
 fixed_cost=8500

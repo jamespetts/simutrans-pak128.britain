@@ -17,6 +17,7 @@ gear=50
 speed=56
 weight=2.6
 axle_load=2
+length=3
 way_wear_factor=64
 cost=101225
 runningcost=21

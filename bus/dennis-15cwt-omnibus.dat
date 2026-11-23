@@ -16,7 +16,7 @@ speed=20
 weight=2.2
 axles=2
 way_wear_factor=9
-length=4
+length=3
 # These cost £715 + lettering: see Baldwin pp. 8-9
 cost=85500
 runningcost=11

@@ -13,6 +13,7 @@ gear=80
 # Guessed
 weight=7.2
 axles=2
+length=5
 cost=90200
 upgrade_cost=5150
 runningcost=25

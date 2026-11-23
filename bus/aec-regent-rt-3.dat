@@ -16,7 +16,7 @@ gear=50
 # This is heavier than the earlier RT2 (the pre-war 'buses) probably because this had
 # a metal body and the earlier 'buses a wooden body
 weight=7.6
-length=6
+length=4
 cost=1042000
 runningcost=89
 fixed_cost=8543

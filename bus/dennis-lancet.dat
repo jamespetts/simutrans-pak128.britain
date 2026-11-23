@@ -16,7 +16,7 @@ gear=50
 # Guessed
 weight=6.5
 axles=2
-length=5
+length=4
 cost=455000
 # 11MPG - Baldwin p. 62
 runningcost=63

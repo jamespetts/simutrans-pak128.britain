@@ -12,6 +12,7 @@ tractive_effort=35
 gear=80
 weight=7.5
 axles=2
+length=5
 cost=97500
 upgrade_cost=7500
 runningcost=33

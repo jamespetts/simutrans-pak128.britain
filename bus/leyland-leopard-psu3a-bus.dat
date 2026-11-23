@@ -18,7 +18,7 @@ gear=50
 # Assumed to be slightly heavier than the PSU3 on account of larger engine
 weight=11.7
 axles=2
-length=7
+length=6
 cost=5900000
 runningcost=130
 fixed_cost=11512

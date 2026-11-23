@@ -16,7 +16,7 @@ tractive_effort=9
 gear=50
 # Guessed
 weight=5.6
-length=6
+length=5
 cost=425000
 runningcost=67
 fixed_cost=8250

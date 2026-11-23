@@ -18,7 +18,7 @@ intro_year=1984
 intro_month=2
 retire_year=1990
 retire_month=9
-length=4
+length=3
 
 constraint[next][0]=none
 constraint[prev][0]=none
@@ -59,7 +59,7 @@ intro_month=1
 retire_year=1990
 retire_month=9
 
-length=4
+length=3
 
 constraint[next][0]=none
 constraint[prev][0]=none
@@ -98,7 +98,7 @@ intro_year=1984
 intro_month=1
 retire_year=1990
 retire_month=9
-length=4
+length=3
 
 constraint[next][0]=none
 constraint[prev][0]=none

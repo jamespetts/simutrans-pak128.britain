@@ -15,7 +15,7 @@ tractive_effort=9
 gear=50
 # Guessed to be slightly lighter than the COG-5
 weight=5.7
-length=6
+length=5
 cost=485000
 runningcost=67
 fixed_cost=8550

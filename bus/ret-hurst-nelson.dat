@@ -13,6 +13,7 @@ tractive_effort=6
 gear=80
 weight=3.7
 axles=2
+length=4
 way_wear_factor=166
 # Cost £725 in 1911
 cost=66500

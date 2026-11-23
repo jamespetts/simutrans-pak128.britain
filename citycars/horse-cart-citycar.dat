@@ -13,6 +13,7 @@ retire_month=3
 # stagecoach traffic until an improved overtaking mechanism
 # can be developed.
 speed=12
+length=3
 class=0,1
 maximum_comfortable_journey_minutes=10
 maximum_tolerable_journey_minutes=240
@@ -41,6 +42,7 @@ retire_month=12
 # stagecoach traffic until an improved overtaking mechanism
 # can be developed.
 speed=12
+length=3
 class=0,1
 maximum_comfortable_journey_minutes=10
 maximum_tolerable_journey_minutes=240
@@ -69,6 +71,7 @@ retire_month=5
 # stagecoach traffic until an improved overtaking mechanism
 # can be developed.
 speed=12
+length=3
 class=0,1
 maximum_comfortable_journey_minutes=10
 maximum_tolerable_journey_minutes=240

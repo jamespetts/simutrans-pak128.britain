@@ -13,6 +13,7 @@ gear=80
 # Guessed
 weight=5.3
 axles=2
+length=5
 cost=97500
 runningcost=30
 fixed_cost=4100

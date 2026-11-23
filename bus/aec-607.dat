@@ -13,6 +13,7 @@ gear=80
 # Guessed
 weight=7.2
 axles=2
+length=5
 way_wear_factor=499
 cost=87700
 runningcost=25

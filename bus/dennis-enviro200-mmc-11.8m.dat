@@ -14,7 +14,7 @@ overcrowded_capacity=26
 power=193
 tractive_effort=39
 gear=50
-length=7
+length=6
 
 weight=14.4
 axles=2
@@ -62,7 +62,7 @@ overcrowded_capacity=30
 power=193
 tractive_effort=39
 gear=50
-length=7
+length=6
 
 weight=14.4
 axles=2

@@ -13,6 +13,7 @@ gear=80
 # Composite body
 weight=6.7
 axles=2
+length=5
 cost=107500
 runningcost=32
 fixed_cost=8000

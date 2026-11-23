@@ -21,7 +21,7 @@ intro_year=1965
 intro_month=9
 retire_year=1986
 retire_month=9
-length=4
+length=3
 
 constraint[next][0]=none
 constraint[prev][0]=none
@@ -60,7 +60,7 @@ intro_year=1965
 intro_month=9
 retire_year=1986
 retire_month=9
-length=4
+length=3
 
 constraint[next][0]=none
 constraint[prev][0]=none
@@ -98,7 +98,7 @@ intro_year=1965
 intro_month=9
 retire_year=1986
 retire_month=9
-length=4
+length=3
 
 constraint[next][0]=none
 constraint[prev][0]=none

@@ -15,6 +15,7 @@ tractive_effort=27
 gear=80
 weight=7.7
 axles=2
+length=5
 # £2,117 in 1936
 cost=115000
 runningcost=28

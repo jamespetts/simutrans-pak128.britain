@@ -19,7 +19,7 @@ gear=50
 # Guessed as mid-point between ST and RT
 weight=6.8
 axles=2
-length=6
+length=5
 cost=682000
 runningcost=62
 fixed_cost=8355

@@ -13,6 +13,7 @@ tractive_effort=67
 gear=80
 weight=5
 axle_load=4
+length=5
 cost=48000
 runningcost=21
 fixed_cost=6050

@@ -14,7 +14,7 @@ speed=5
 weight=0.75
 axle_load=0
 cost=2
-length=6
+length=2
 runningcost=0
 # Calibrated (approximately) to the cost of "agricultural labourer" here:
 # https://www.pascalbonenfant.com/18c/wages.html

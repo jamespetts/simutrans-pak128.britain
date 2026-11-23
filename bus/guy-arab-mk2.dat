@@ -19,7 +19,7 @@ gear=50
 # Guessed to be slightly heavier than the mk. 1 owing to the larger engine
 weight=7.9
 axle_load=4
-length=6
+length=5
 cost=640000
 # Noted for reliability and low running costs:
 # http://www.historywebsite.co.uk/Museum/Transport/Buses/Guy/guyhistory5.htm

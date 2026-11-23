@@ -20,7 +20,7 @@ gear=50
 # Guessed
 weight=3.9
 axles=2
-length=3
+length=4
 cost=235000
 runningcost=40
 # No conductor - 20 seats

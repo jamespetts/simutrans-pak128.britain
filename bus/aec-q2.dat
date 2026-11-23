@@ -17,7 +17,7 @@ gear=50
 # See the website linked above
 weight=6.3
 axle_load=5
-length=6
+length=5
 cost=810000
 runningcost=82
 fixed_cost=8422

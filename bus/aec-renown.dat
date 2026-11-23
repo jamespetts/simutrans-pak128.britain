@@ -20,7 +20,7 @@ gear=50
 # Guessed
 weight=7.5
 axles=3
-length=6
+length=5
 cost=725200
 runningcost=78
 fixed_cost=8378

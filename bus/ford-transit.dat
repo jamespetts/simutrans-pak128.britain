@@ -23,7 +23,7 @@ runningcost=15
 fixed_cost=8051
 intro_year=1986
 intro_month=1
-length=4
+length=3
 
 constraint[next][0]=none
 constraint[prev][0]=none
@@ -62,7 +62,7 @@ runningcost=15
 fixed_cost=8051
 intro_year=1986
 intro_month=1
-length=4
+length=3
 
 constraint[next][0]=none
 constraint[prev][0]=none
@@ -100,7 +100,7 @@ runningcost=15
 fixed_cost=8051
 intro_year=1986
 intro_month=1
-length=4
+length=3
 
 constraint[next][0]=none
 constraint[prev][0]=none

@@ -16,7 +16,7 @@ tractive_effort=10
 gear=50
 # See Townsin p. 76
 weight=8.1
-length=6
+length=5
 cost=1011000
 runningcost=70
 fixed_cost=8555
