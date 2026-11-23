@@ -31,7 +31,9 @@ way_constraint_permissive[0]=0
 # SR EMU
 Constraint[Prev][0]=BR-Class33
 Constraint[Prev][1]=BR-Class73
-Constraint[Prev][2]=none
+Constraint[Prev][2]=BR-491[TC]Front
+Constraint[Prev][3]=BR-491[TC]Rear
+Constraint[Prev][4]=none
 # Also Mark I electric units.
 # Blue star in diesel mode.
 

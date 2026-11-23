@@ -42,7 +42,7 @@ Systems that carried no symbol:
 
 | No. | System | Classes in the pakset |
 |---:|---|---|
-| 8 | Southern 27-wire | SR and BR(S) electric stock, and the 33 treated as a 33/1: 2-NOL, 2-HAL, 3-SUB, 4-LAV, 401, 404, 410, 414, 415, 419, 421, 423, 430, 442, 489, 202, 205, 33, 73 |
+| 8 | Southern 27-wire | SR and BR(S) electric stock, and the 33 treated as a 33/1: 2-NOL, 2-HAL, 3-SUB, 4-LAV, 401, 404, 410, 414, 415, 419, 421, 423, 430, 442, 489, 491 (4-TC), 202, 205, 33, 73 |
 | 14 | HST pair | Class 43 power cars |
 | 15 | time-division multiplex | 86, 87, 89, 90, 91, push-pull 47, DBSO, DVT |
 | 17 | AAR | 59, 66, 67, 68 (008-015), 69, 70, 73/9 |
@@ -91,6 +91,11 @@ working. The Class 74 rebuilds gained the jumpers and could work with 73/74, 33/
 Wikipedia article states that 73s could work with 71s, but the Class 71, Class 74 and SREmG pages
 contradict it. The pakset has one Class 73 object covering both the JA (73/0) and JB (73/1)
 batches, which were not compatible with each other; both are coded 8 for now.
+
+**4-TC (Class 491).** The five-car trailer control unit carries `driver[0]=1` and 8 on its two outer
+cars, so it shares a driver with the 33, 73 and 4-REP whichever end leads. Its coupling lists name
+the 33 and 73 at both outer ends, and those locomotives name the TC, so push-pull works with the
+locomotive at the rear.
 
 ### Post-1970 and individual codes
 

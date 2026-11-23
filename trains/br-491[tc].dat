@@ -38,9 +38,13 @@ comfort[3]=154
 Constraint[Prev][0]=BR-430[REP]Rear
 Constraint[Prev][1]=BR-491[TC]Rear
 Constraint[Prev][2]=BR-Class33
-Constraint[Prev][3]=none
+Constraint[Prev][3]=BR-Class73
+Constraint[Prev][4]=none
 
 Constraint[Next][0]=BR-491[TC]Brake
+
+driver[0]=1
+multiple_working_type=8
 
 EmptyImage[E]=./railcars/br-491-a-bg_E.0.0
 EmptyImage[SE]=./railcars/br-491-a-bg_SE.0.0
@@ -247,7 +251,11 @@ Constraint[Prev][1]=BR-491[TC]Buffet
 Constraint[Next][0]=BR-430[REP]Front
 Constraint[Next][1]=BR-491[TC]Front
 Constraint[Next][2]=BR-Class33
-Constraint[Next][3]=none
+Constraint[Next][3]=BR-Class73
+Constraint[Next][4]=none
+
+driver[0]=1
+multiple_working_type=8
 
 EmptyImage[E]=./railcars/br-491-b-bg_E.0.0
 EmptyImage[SE]=./railcars/br-491-b-bg_SE.0.0
