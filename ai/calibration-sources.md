@@ -1,6 +1,6 @@
 ---
 status: draft
-verified: New ex-15 @ b8f011fcd (working tree)
+verified: New ex-15 @ cedd39abc (working tree, 2026-11-23)
 ---
 # Calibration sources
 
@@ -60,6 +60,7 @@ from observed values.
 | Urban land | UK residential land price | JST Macrohistory Database UK nominal house price index (1900-1995 proxy); ONS land underlying dwellings, AN.21111 (1995-2025) | 1899-2025 | `city land` |
 | Vehicles | Purchase prices of transport equipment | Feinstein 1972 table 63 column 6 (railway rolling stock, 1856-1938) and column 4 (plant and machinery, 1938-1965); Blue Book 1997 tables 13.2 and 13.4 (vehicles, ships and aircraft, 1965-1997); the 1997 real level held thereafter | 1750-2050 | `vehicle purchase` (implemented) |
 | Vehicle maintenance | Repair and servicing prices | ONS RPI DOCT; CPI maintenance and repair components; wage and parts indices | 1987-2026; earlier under research | `vehicle maintenance` (planned) |
+| Car access | Share of households with a car or van, by income quintile | National Travel Survey table NTS0703, "Household car availability by household income quintile: England, 2002 onwards" (DfT, NTS 2025 release, 10 September 2026), value = 100 minus the "no car or van" percentage; the general Great Britain vehicle-availability series in DfT Transport Statistics Great Britain 2008, section 9, is the anchor for the 1951-2001 rows, which are extrapolations, not measurements | 2002-2025 measured; 1951-2001 extrapolated; 2030 and 2050 projected by a logarithmic continuation of the 2002-2025 trend, with the three highest classes held at their 2025 equality | `privatecar.tab` |
 | Freight | Rail freight revenue per ton-mile | Canal Acts and Acworth 1905 (pre-1845); Cmd. 525 (1920) and HANSARD charge changes (1913-1923); Ministry of Transport monthly Railway Statistics via NBER (1920-1931); Annual Abstract of Statistics (1938-1951); BR Facts and Figures and GERS yearbooks RH087/RH062/RH071 (1948-1977); Serpell 1982 (real, cross-check); ORR Table 1310 and nominal freight income (1982-2026) | 1750-2050 | `goods rate` (implemented) |
 
 The general index measures consumer prices. Land, construction and vehicles are assets or
@@ -79,6 +80,10 @@ the general index by default.
 - The land series are first-pass: `country land` is an England series and `city land` uses a
   house price proxy before 1995 and a total land value, not a value per dwelling, after it.
   They will be revisited when the engine models land value per tile.
+- `privatecar.tab` is a measured block (NTS0703, 2002 onwards) behind extrapolated rows
+  (1951-2001). NTS revises earlier years at each release, so replace the whole 2002-latest
+  block from the current NTS0703 rather than appending the new year alone; the 2026 release
+  changed the 2009 and 2013 values that the 2024 copy had recorded.
 - `buildings` is a four-block chain: Mitchell's building cost index (1845-1938), Holmans's
   construction cost index (1939-1954), the BIS output price index for all new construction
   (1955-2013) and the ONS construction output price index for all new work (2014-2026). The

@@ -1,6 +1,6 @@
 ---
 status: draft
-verified: New ex-15 @ 209c09a77 (working tree, 2026-11-20)
+verified: New ex-15 @ cedd39abc (working tree, 2026-11-23)
 ---
 # Citycar wealth classes (calibration and coverage)
 
@@ -35,12 +35,28 @@ same rank means the same segment of society in every era; absolute income change
 
 The class pools must be populated wherever `car_ownership[class]` is non-zero, because that
 table (indexed by class, 0 lowest) already throttles what share of each class has car
-access: Very high is 82% from 1750 and 85–93% later; High reaches 20% by 1920 and 60% by
+access: Very high is 82% in 1750 and 93% by 1970; High reaches 20% by 1920 and 60% by
 1950; Medium 21% (1951); Low 5% (1955); Very low 0 before 1940, 1% (1940), 2% (1955),
 5% (1960).
 Marginal access is still access: **keep the pools populated even when the percentage is
 small** — frequency is handled by this table and by `citycar_level`, not by the class
 lists. `[USER-DIRECTION:2026-11-15]`
+
+**Source and basis of the rates.** The rows from 2002 are the five household income
+quintiles of National Travel Survey table NTS0703, "Household car availability by household
+income quintile: England, 2002 onwards" (DfT, NTS 2025 release, 10 September 2026): class 0
+is the lowest quintile and class 4 the highest, and the value is 100 minus the published
+"no car or van" percentage. In 2025 that gives 56, 71, 83, 83 and 83. Class 4 is a narrower
+group than the highest quintile, so its rate is an approximation. Household access is used
+rather than the NTS0704 personal-access measure (2025: 63, 78, 87, 87, 87), because one
+household car is one vehicle. The 2030 and 2050 entries continue the measured 2002-2025 trend
+with a logarithmically decaying rate: the annual change starts at the measured 2002-2025
+average and halves by 2050, giving 2030: 57, 72, 83, 83, 83 and 2050: 60, 76, 83, 83, 83.
+The three highest classes are held at their 2025 equality of 83 so that no class passes the
+class above it. They are estimates, not measurements. The pre-2002 quintile rows are extrapolations from the
+general Great Britain series.
+`[CODE New ex-15 @ cedd39abc (working tree, 2026-11-23)]`
+`[LITERATURE:https://www.gov.uk/government/statistical-data-sets/nts07-car-ownership-and-access]`
 
 ## Assignment principles
 
