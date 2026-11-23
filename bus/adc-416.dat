@@ -34,6 +34,9 @@ max_loading_time=60
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
 
+driver[5]=1
+staff[6]=1
+
 liverytype[0]=E-Surrey-Blue
 liverytype[1]=E-Surrey-Red
 liverytype[2]=Tilling-early
@@ -238,6 +241,9 @@ max_loading_time=60
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
+
+driver[5]=1
+staff[6]=1
 
 liverytype[0]=E-Surrey-Blue
 liverytype[1]=E-Surrey-Red

@@ -27,6 +27,8 @@ max_loading_time=100
 can_lead_from_rear=0
 bidirectional=1
 
+staff[2]=1
+
 liverytype[0]=LBSCR-Stroudley
 liverytype[1]=LBSCR-Marsh
 liverytype[2]=LBSCR-Late
@@ -98,6 +100,8 @@ max_loading_time=100
 
 can_lead_from_rear=0
 bidirectional=1
+
+staff[2]=1
 
 liverytype[0]=LBSCR-Stroudley
 liverytype[1]=LBSCR-Marsh
@@ -203,6 +207,8 @@ Constraint[Prev][28]=LBSCR-non-cor-lav-first
 Constraint[Prev][29]=LBSCR-sub-bogie-54ft-tricomposite
 Constraint[Prev][30]=LBSCR-balloon-tricomposite
 
+staff[2]=1
+
 liverytype[0]=LBSCR-Stroudley
 liverytype[1]=LBSCR-Marsh
 liverytype[2]=LBSCR-Late
@@ -307,6 +313,8 @@ Constraint[Next][28]=LBSCR-non-cor-lav-first
 Constraint[Next][29]=LBSCR-sub-bogie-54ft-tricomposite
 Constraint[Next][30]=LBSCR-balloon-tricomposite
 Constraint[Next][31]=none
+
+staff[2]=1
 
 liverytype[0]=LBSCR-Stroudley
 liverytype[1]=LBSCR-Marsh

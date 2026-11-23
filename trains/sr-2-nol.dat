@@ -68,6 +68,9 @@ Constraint[Prev][15]=none
 
 Constraint[Next][0]=SR-2-NOL-rear
 
+driver[0]=1
+multiple_working_type=1
+
 liverytype[0]=SR-Olive-Green
 liverytype[1]=SR-Malachite-Green
 liverytype[2]=BR-Early
@@ -179,6 +182,12 @@ Constraint[Next][12]=lswr-48ft-augmentation-trailer-front
 Constraint[Next][13]=lswr-56ft-augmentation-trailer-front
 Constraint[Next][14]=SR-5-BEL-driving-motor-front
 Constraint[Next][15]=none
+
+multiple_working_type=1
+
+staff[2]=1
+
+driver[0]=1
 
 liverytype[0]=SR-Olive-Green
 liverytype[1]=SR-Malachite-Green

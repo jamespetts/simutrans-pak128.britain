@@ -33,6 +33,8 @@ is_tall=0
 Constraint[Prev][0]=Metropolitan-Vickers
 Constraint[Prev][1]=none
 
+driver[0]=1
+
 liverytype[0]=Metropolitan-Red
 liverytype[1]=LT
 liverytype[2]=LT-revised

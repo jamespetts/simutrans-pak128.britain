@@ -39,6 +39,8 @@ Constraint[Next][1]=BR-Mk4-DVT
 Constraint[Next][2]=BR-Mk4-RSB
 Constraint[Next][3]=BR-Mk4-FO
 
+staff[3]=1
+
 liverytype[0]=IC-Swallow
 liverytype[1]=GNER
 liverytype[2]=National-Express

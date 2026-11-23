@@ -397,6 +397,8 @@ Constraint[Next][34]=pullman-1951-kitchen-first
 Constraint[Next][35]=pullman-k-type-kitchen-first
 Constraint[Next][36]=none
 
+staff[2]=1
+
 liverytype[0]=LSWR-pea-green
 liverytype[1]=LSWR-sage
 liverytype[2]=SR-Olive-Green
@@ -520,6 +522,8 @@ Constraint[Prev][32]=SR-Bulleid-Express-first
 Constraint[Prev][33]=pullman-1928-kitchen-first
 Constraint[Prev][34]=pullman-1951-kitchen-first
 Constraint[Prev][35]=pullman-k-type-kitchen-first
+
+staff[2]=1
 
 liverytype[0]=LSWR-pea-green
 liverytype[1]=LSWR-sage
@@ -686,6 +690,8 @@ Constraint[Next][32]=SR-Bulleid-Express-first
 Constraint[Next][33]=pullman-1928-kitchen-first
 Constraint[Next][34]=pullman-1951-kitchen-first
 Constraint[Next][35]=pullman-k-type-kitchen-first
+
+staff[3]=3
 
 liverytype[0]=LSWR-pea-green
 liverytype[1]=LSWR-sage

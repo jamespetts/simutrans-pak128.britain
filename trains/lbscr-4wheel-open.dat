@@ -99,6 +99,8 @@ upgrade[0]=LBSCR-4wheel-open-sided-brake
 upgrade[1]=LBSCR-4wheel-parliamentary-third-brake
 upgrade[2]=milk-van
 
+staff[2]=1
+
 EmptyImage[E]=./carriages/lbscr-4wheel-open-brake-rear_E.0.0
 EmptyImage[SE]=./carriages/lbscr-4wheel-open-brake-rear_SE.0.0
 EmptyImage[S]=./carriages/lbscr-4wheel-open-brake-rear_S.0.0

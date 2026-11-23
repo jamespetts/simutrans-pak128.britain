@@ -43,6 +43,9 @@ Constraint[Prev][1]=none
 
 Constraint[Next][0]=BR-374(panto)
 
+driver[0]=1
+multiple_working_type=1
+
 EmptyImage[E]=./railcars/br-374-front.1.4
 EmptyImage[SE]=./railcars/br-374-front.1.5
 EmptyImage[S]=./railcars/br-374-front.1.6
@@ -96,6 +99,7 @@ Constraint[Prev][2]=BR-374(power)
 Constraint[Next][0]=BR-374(power)
 Constraint[Next][1]=BR-374(panto)
 Constraint[Next][2]=BR-374(rear)
+
 
 EmptyImage[E]=./railcars/br-374-panto.1.4
 EmptyImage[SE]=./railcars/br-374-panto.1.5
@@ -151,6 +155,7 @@ Constraint[Prev][2]=BR-374(buffet)
 Constraint[Next][0]=BR-374(power)
 Constraint[Next][1]=BR-374(panto)
 Constraint[Next][2]=BR-374(buffet)
+
 
 EmptyImage[E]=./railcars/br-374-power.1.4
 EmptyImage[SE]=./railcars/br-374-power.1.5
@@ -210,6 +215,7 @@ Constraint[Next][1]=BR-374(panto)
 Constraint[Next][2]=BR-374(buffet)
 
 # TODO: Create proper graphics for this buffet car
+
 EmptyImage[E]=./railcars/br-374-power.1.4
 EmptyImage[SE]=./railcars/br-374-power.1.5
 EmptyImage[S]=./railcars/br-374-power.1.6
@@ -267,6 +273,7 @@ Constraint[Next][0]=BR-374(power)
 Constraint[Next][1]=BR-374(panto)
 Constraint[Next][2]=BR-374(buffet)
 
+
 EmptyImage[E]=./railcars/br-374-power.1.4
 EmptyImage[SE]=./railcars/br-374-power.1.5
 EmptyImage[S]=./railcars/br-374-power.1.6
@@ -321,6 +328,9 @@ Constraint[Prev][2]=BR-374(buffet)
 
 Constraint[Next][0]=BR-374(front)
 Constraint[Next][1]=none
+
+driver[0]=1
+multiple_working_type=1
 
 EmptyImage[E]=./railcars/br-374-rear.1.4
 EmptyImage[SE]=./railcars/br-374-rear.1.5

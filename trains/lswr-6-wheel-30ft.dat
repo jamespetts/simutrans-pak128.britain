@@ -84,6 +84,8 @@ Constraint[Next][47]=lswr-48ft-lav-tricomposite
 Constraint[Next][48]=lswr-48ft-lav-composite
 Constraint[Next][49]=none
 
+staff[2]=1
+
 liverytype[0]=LSWR-pea-green
 liverytype[1]=LSWR-sage
 liverytype[2]=SR-Olive-Green
@@ -201,6 +203,8 @@ Constraint[Prev][45]=lswr-6-wheel-29ft-6-first
 Constraint[Prev][46]=lswr-48ft-arc-lav-composite
 Constraint[Prev][47]=lswr-48ft-lav-tricomposite
 Constraint[Prev][48]=lswr-48ft-lav-composite
+
+staff[2]=1
 
 liverytype[0]=LSWR-pea-green
 liverytype[1]=LSWR-sage
@@ -930,6 +934,8 @@ bidirectional=1
 min_loading_time=35
 max_loading_time=85
 
+staff[2]=1
+
 liverytype[0]=LSWR-pea-green
 liverytype[1]=LSWR-sage
 liverytype[2]=SR-Olive-Green
@@ -988,6 +994,8 @@ can_lead_from_rear=0
 bidirectional=1
 min_loading_time=35
 max_loading_time=120
+
+staff[2]=1
 
 liverytype[0]=LSWR-pea-green
 liverytype[1]=LSWR-sage

@@ -34,6 +34,8 @@ sound=video47-optare-tempo.wav
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
 
+driver[5]=1
+
 liverytype[0]=Non-London
 
 # TODO: Add more liveries and length varients. This is the longest.

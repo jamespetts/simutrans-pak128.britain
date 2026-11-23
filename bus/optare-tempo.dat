@@ -36,6 +36,8 @@ Constraint[Next][0]=none
 
 # TODO: Add more length varients of this.
 
+driver[5]=1
+
 liverytype[0]=Arriva-original
 
 EmptyImage[E][0]=./images/optare-tempo-arriva_E.0.0,-33,14

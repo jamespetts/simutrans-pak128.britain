@@ -230,6 +230,8 @@ Constraint[Prev][36]=gnr-suburban-4wheel-second
 Constraint[Prev][37]=gnr-suburban-4wheel-first
 Constraint[Prev][38]=gnr-suburban-4wheel-brake-third-front
 
+staff[3]=3
+
 liverytype[0]=GNR-Standard
 liverytype[1]=LNER-Standard
 

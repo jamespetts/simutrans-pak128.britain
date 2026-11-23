@@ -51,6 +51,10 @@ Constraint[Prev][3]=none
 
 Constraint[Next][0]=BR-801FrontMS
 
+multiple_working_type=1
+
+driver[0]=1
+
 liverytype[0]=LNER
 liverytype[1]=Virgin-MU
 liverytype[2]=ectf-1
@@ -135,6 +139,7 @@ Constraint[Next][3]=BR-801MiddleComposite
 Constraint[Next][4]=BR-801Composite18+58
 
 
+
 liverytype[0]=LNER
 liverytype[1]=Virgin-MU
 liverytype[2]=ectf-1
@@ -212,6 +217,7 @@ Constraint[Next][1]=BR-801MiddlePower
 Constraint[Next][2]=BR-801MiddleFirst
 Constraint[Next][3]=BR-801MiddleComposite
 Constraint[Next][4]=BR-801Composite18+58
+
 
 liverytype[0]=LNER
 liverytype[1]=Virgin-MU
@@ -295,6 +301,7 @@ Constraint[Next][0]=BR-801Rear
 Constraint[Next][1]=BR-801Rear-compact
 Constraint[Next][2]=BR-801Rear-trolley
 Constraint[Next][3]=BR-801MiddleFirst
+
 
 liverytype[0]=LNER
 liverytype[1]=Virgin-MU
@@ -381,6 +388,7 @@ Constraint[Next][1]=BR-801Rear-compact
 Constraint[Next][2]=BR-801Rear-trolley
 
 
+
 liverytype[0]=LNER
 liverytype[1]=Virgin-MU
 liverytype[2]=ectf-1
@@ -462,6 +470,10 @@ Constraint[Prev][3]=BR-801MiddleFirst
 
 Constraint[Next][0]=BR-801Front
 Constraint[Next][1]=none
+
+multiple_working_type=1
+
+driver[0]=1
 
 liverytype[0]=LNER
 liverytype[1]=Virgin-MU
@@ -546,6 +558,7 @@ Constraint[Next][2]=BR-801MiddleComposite
 Constraint[Next][3]=BR-801Composite18+58
 Constraint[Next][4]=BR-801RearMS
 
+
 liverytype[0]=LNER
 liverytype[1]=Virgin-MU
 liverytype[2]=ectf-1
@@ -629,6 +642,7 @@ Constraint[Next][0]=BR-801Rear
 Constraint[Next][1]=BR-801Rear-compact
 Constraint[Next][2]=BR-801Rear-trolley
 
+
 liverytype[0]=LNER
 liverytype[1]=Virgin-MU
 liverytype[2]=ectf-1
@@ -710,6 +724,10 @@ Constraint[Prev][3]=BR-801MiddleFirst
 
 Constraint[Next][0]=BR-801Front
 Constraint[Next][1]=none
+
+multiple_working_type=1
+
+driver[0]=1
 
 liverytype[0]=LNER
 liverytype[1]=Virgin-MU
@@ -794,6 +812,7 @@ Constraint[Next][1]=BR-801Rear-compact
 Constraint[Next][2]=BR-801Rear-trolley
 Constraint[Next][3]=BR-801MiddleFirst
 
+
 liverytype[0]=LNER
 liverytype[1]=Virgin-MU
 liverytype[2]=ectf-1
@@ -875,6 +894,10 @@ Constraint[Prev][3]=BR-801MiddleFirst
 
 Constraint[Next][0]=BR-801Front
 Constraint[Next][1]=none
+
+multiple_working_type=1
+
+driver[0]=1
 
 liverytype[0]=LNER
 liverytype[1]=Virgin-MU

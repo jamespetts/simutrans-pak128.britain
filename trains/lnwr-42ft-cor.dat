@@ -536,6 +536,8 @@ Constraint[Next][44]=LMS-cor-first
 Constraint[Next][45]=LMS-cor-composite
 Constraint[Next][46]=none
 
+staff[2]=1
+
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard
 
@@ -639,6 +641,8 @@ Constraint[Prev][42]=LMS-open-first
 Constraint[Prev][43]=LMS-open-composite
 Constraint[Prev][44]=LMS-cor-first
 Constraint[Prev][45]=LMS-cor-composite
+
+staff[2]=1
 
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard
@@ -744,6 +748,8 @@ Constraint[Prev][43]=LMS-open-composite
 Constraint[Prev][44]=LMS-cor-first
 Constraint[Prev][45]=LMS-cor-composite
 
+staff[2]=1
+
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard
 
@@ -847,6 +853,8 @@ Constraint[Next][43]=LMS-open-composite
 Constraint[Next][44]=LMS-cor-first
 Constraint[Next][45]=LMS-cor-composite
 Constraint[Next][46]=none
+
+staff[2]=1
 
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard
@@ -1127,6 +1135,8 @@ Constraint[Prev][42]=LMS-open-first
 Constraint[Prev][43]=LMS-open-composite
 Constraint[Prev][44]=LMS-cor-first
 Constraint[Prev][45]=LMS-cor-composite
+
+staff[3]=3
 
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard

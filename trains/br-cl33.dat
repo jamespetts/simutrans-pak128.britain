@@ -35,6 +35,8 @@ Constraint[Prev][1]=BR-Class73
 Constraint[Prev][2]=none
 # Also Mark I electric units.
 
+driver[0]=1
+
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue
 

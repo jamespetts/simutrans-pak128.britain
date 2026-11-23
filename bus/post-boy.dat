@@ -29,6 +29,8 @@ max_loading_time=60
 Constraint[next][0]=none
 Constraint[prev][0]=none
 
+driver[5]=1
+
 EmptyImage[E]=./images/post-boy_E.0.0,-19,7
 EmptyImage[SE]=./images/post-boy_SE.0.0,-4,0
 EmptyImage[S]=./images/post-boy_S.0.0,14,7

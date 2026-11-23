@@ -27,6 +27,9 @@ years_before_maintenance_max_reached=12
 
 Constraint[Next][0]=LMS-7F-Tender
 
+driver[0]=1
+staff[1]=1
+
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
 

@@ -36,6 +36,10 @@ max_loading_time=218
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
 
+driver[5]=1
+
+staff[6]=1
+
 liverytype[0]=General
 liverytype[1]=Green-Line-Coaches
 liverytype[2]=Green-Line-two-tone

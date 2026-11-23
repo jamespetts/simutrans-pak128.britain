@@ -32,6 +32,9 @@ fixed_cost=34313
 
 Constraint[Next][0]=LBSCR-Belgravia-tender
 
+driver[0]=1
+staff[1]=1
+
 liverytype[0]=LBSCR-Stroudley
 liverytype[1]=LBSCR-Marsh
 

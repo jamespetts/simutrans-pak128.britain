@@ -37,6 +37,9 @@ increase_maintenance_after_years=25
 
 Constraint[Next][0]=LMR-Patentee-Tender
 
+driver[0]=1
+staff[1]=1
+
 EmptyImage[E]=./carriages/lmr-patentee_E.0.0
 EmptyImage[SE]=./carriages/lmr-patentee_SE.0.0
 EmptyImage[S]=./carriages/lmr-patentee_S.0.0

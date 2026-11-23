@@ -215,6 +215,8 @@ Constraint[Next][37]=gnr-suburban-4wheel-first
 Constraint[Next][38]=gnr-suburban-4wheel-brake-third-rear
 Constraint[Next][39]=none
 
+staff[2]=1
+
 liverytype[0]=GNR-Standard
 liverytype[1]=LNER-Standard
 
@@ -314,6 +316,8 @@ Constraint[Prev][35]=gnr-suburban-4wheel-third
 Constraint[Prev][36]=gnr-suburban-4wheel-second
 Constraint[Prev][37]=gnr-suburban-4wheel-first
 Constraint[Prev][38]=gnr-suburban-4wheel-brake-third-front
+
+staff[2]=1
 
 liverytype[0]=GNR-Standard
 liverytype[1]=LNER-Standard
@@ -827,6 +831,8 @@ Constraint[Next][37]=gnr-suburban-4wheel-first
 Constraint[Next][38]=gnr-suburban-4wheel-brake-third-rear
 Constraint[Next][39]=none
 
+staff[2]=1
+
 liverytype[0]=GNR-Standard
 liverytype[1]=LNER-Standard
 
@@ -925,6 +931,8 @@ Constraint[Prev][36]=gnr-suburban-4wheel-second
 Constraint[Prev][37]=gnr-suburban-4wheel-first
 Constraint[Prev][38]=gnr-suburban-4wheel-brake-third-front
 
+staff[2]=1
+
 liverytype[0]=GNR-Standard
 liverytype[1]=LNER-Standard
 
@@ -973,6 +981,8 @@ can_lead_from_rear=0
 bidirectional=1
 min_loading_time=35
 max_loading_time=120
+
+staff[2]=1
 
 liverytype[0]=GNR-Standard
 liverytype[1]=LNER-Standard

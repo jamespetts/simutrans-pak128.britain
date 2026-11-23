@@ -38,6 +38,9 @@ sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=LMR-Patentee-Tender
 
+driver[0]=1
+staff[1]=1
+
 EmptyImage[E]=./locomotives/tayleur-2-2-2_E.0.0
 EmptyImage[SE]=./locomotives/tayleur-2-2-2_SE.0.0
 EmptyImage[S]=./locomotives/tayleur-2-2-2_S.0.0

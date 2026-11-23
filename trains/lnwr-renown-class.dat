@@ -28,6 +28,9 @@ fixed_cost=24000
 sound=lwalker-br-4mt-tank.wav
 available_only_as_upgrade=1
 
+driver[0]=1
+staff[1]=1
+
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard
 

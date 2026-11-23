@@ -21,11 +21,17 @@ runningcost=1006
 fixed_cost=12480
 sound=-1
 
-Constraint[Prev][0]=none
+Constraint[Prev][0]=BR-Class43Rear(IntercitySwallow)
+Constraint[Prev][1]=none
 
 Constraint[Next][0]=BR-Mk3-TO(IntercitySwallow)
 Constraint[Next][1]=BR-Mk3-TRB(IntercitySwallow)
 
+
+driver[0]=1
+multiple_working_type=1
+
+staff[2]=1
 
 EmptyImage[E]=./images/br-cl43-is.0.0
 EmptyImage[SE]=./images/br-cl43-is.0.1
@@ -62,7 +68,12 @@ sound=-1
 Constraint[Prev][0]=BR-Mk3-TO(IntercitySwallow)
 Constraint[Prev][1]=BR-Mk3-TRB(IntercitySwallow)
 
-Constraint[Next][0]=none
+Constraint[Next][0]=BR-Class43(IntercitySwallow)
+Constraint[Next][1]=none
+
+driver[0]=1
+staff[2]=1
+multiple_working_type=1
 
 EmptyImage[E]=./images/br-cl43-is.1.0
 EmptyImage[SE]=./images/br-cl43-is.1.1

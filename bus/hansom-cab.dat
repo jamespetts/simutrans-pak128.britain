@@ -49,6 +49,8 @@ Constraint[Prev][11]=road-horse-hackney-double
 
 Constraint[Next][0]=none
 
+driver[5]=1
+
 EmptyImage[E]=./images/hansom-cab_E.0.0,-33,14
 EmptyImage[SE]=./images/hansom-cab_SE.0.0,-13,0
 EmptyImage[S]=./images/hansom-cab_S.0.0,0,0

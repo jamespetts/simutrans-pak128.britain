@@ -19,6 +19,8 @@ intro_month=7
 retire_year=1967
 retire_month=1
 
+driver[5]=1
+
 EmptyImage[E]=./images/scammell-scarab-tractor_E.0.0,-33,14
 EmptyImage[SE]=./images/scammell-scarab-tractor_SE.0.0,-13,0
 EmptyImage[S]=./images/scammell-scarab-tractor_S.0.0,0,0
@@ -93,6 +95,8 @@ intro_year=1967
 intro_month=1
 retire_year=1976
 retire_month=10
+
+driver[5]=1
 
 EmptyImage[E]=./images/scammell-townsman-tractor_E.0.0,-33,14
 EmptyImage[SE]=./images/scammell-townsman-tractor_SE.0.0,-13,0

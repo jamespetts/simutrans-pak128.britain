@@ -23,6 +23,9 @@ runningcost=212
 fixed_cost=27292
 sound=lwalker-br-4mt-tank.wav
 
+driver[0]=1
+staff[1]=1
+
 liverytype[0]=SR-Olive-Green
 liverytype[1]=SR-Malachite-Green
 liverytype[2]=WW2-Austerity

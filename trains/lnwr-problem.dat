@@ -36,6 +36,9 @@ increase_maintenance_after_years=40
 
 Constraint[Next][0]=LNWR-Problem-Tender
 
+driver[0]=1
+staff[1]=1
+
 liverytype[0]=LNWR-Early
 liverytype[1]=LNWR-Black
 

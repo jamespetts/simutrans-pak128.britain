@@ -47,6 +47,9 @@ Constraint[Prev][2]=none
 
 Constraint[Next][0]=BR-315Pantograph
 
+driver[0]=1
+multiple_working_type=1
+
 liverytype[0]=BR-Blue
 liverytype[1]=NSE-Standard
 liverytype[2]=One
@@ -161,6 +164,7 @@ Constraint[Prev][0]=BR-315Front
 Constraint[Next][0]=BR-315Rear
 Constraint[Next][1]=BR-315Trailer
 
+
 liverytype[0]=BR-Blue
 liverytype[1]=NSE-Standard
 liverytype[2]=One
@@ -272,6 +276,7 @@ way_constraint_permissive[2]=2
 Constraint[Prev][0]=BR-315Pantograph
 
 Constraint[Next][0]=BR-315Rear
+
 
 liverytype[0]=BR-Blue
 liverytype[1]=NSE-Standard
@@ -388,6 +393,10 @@ Constraint[Prev][1]=BR-315Trailer
 Constraint[Next][0]=BR-315Front
 Constraint[Next][1]=BR-314Front
 Constraint[Next][2]=none
+
+driver[0]=1
+staff[2]=1
+multiple_working_type=1
 
 liverytype[0]=BR-Blue
 liverytype[1]=NSE-Standard

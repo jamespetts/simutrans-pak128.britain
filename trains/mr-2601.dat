@@ -29,6 +29,9 @@ years_before_maintenance_max_reached=20
 
 Constraint[Next][0]=MR-Spinner-Tender
 
+driver[0]=1
+staff[1]=1
+
 EmptyImage[E]=./locomotives/mr-115-class_E.0.0
 EmptyImage[SE]=./locomotives/mr-115-class_SE.0.0
 EmptyImage[S]=./locomotives/mr-115-class_S.0.0

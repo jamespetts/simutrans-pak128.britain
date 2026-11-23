@@ -29,6 +29,8 @@ max_loading_time=20
 constraint[next][0]=none
 constraint[prev][0]=none
 
+driver[5]=1
+
 EmptyImage[E]=./images/postal-bicycle_E.0.0,-23,9
 EmptyImage[SE]=./images/postal-bicycle_SE.0.0,-6,0
 EmptyImage[S]=./images/postal-bicycle_S.0.0,10,5

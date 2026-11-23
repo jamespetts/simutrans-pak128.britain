@@ -18,6 +18,8 @@ intro_month=2
 retire_year=1972
 retire_month=10
 
+driver[5]=1
+
 EmptyImage[E]=./images/scammell-highwayman-tractor_E.0.0,-33,14
 EmptyImage[SE]=./images/scammell-highwayman-tractor_SE.0.0,-13,0
 EmptyImage[S]=./images/scammell-highwayman-tractor_S.0.0,0,0
@@ -56,6 +58,8 @@ intro_year=1955
 intro_month=2
 retire_year=1973
 retire_month=10
+
+driver[5]=1
 
 EmptyImage[E]=./images/scammell-handyman-tractor_E.0.0,-33,14
 EmptyImage[SE]=./images/scammell-handyman-tractor_SE.0.0,-13,0

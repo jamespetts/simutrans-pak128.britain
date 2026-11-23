@@ -42,6 +42,9 @@ Constraint[Prev][1]=none
 
 Constraint[Next][0]=LUL_D_StockMiddle1
 
+driver[0]=1
+multiple_working_type=1
+
 liverytype[0]=LT
 liverytype[1]=LUL
 
@@ -101,6 +104,7 @@ comfort[1]=59
 Constraint[Prev][0]=LUL_D_StockRearUNDM
 
 Constraint[Next][0]=LUL_D_StockMiddle1
+
 
 liverytype[0]=LT
 liverytype[1]=LUL
@@ -162,6 +166,7 @@ Constraint[Next][0]=LUL_D_StockMiddle2
 Constraint[Next][1]=LUL_D_StockRearDM
 Constraint[Next][2]=LUL_D_StockRearUNDM
 
+
 liverytype[0]=LT
 liverytype[1]=LUL
 
@@ -220,6 +225,7 @@ Constraint[Prev][0]=LUL_D_StockMiddle1
 
 Constraint[Next][0]=LUL_D_StockRearDM
 Constraint[Next][1]=LUL_D_StockRearUNDM
+
 
 liverytype[0]=LT
 liverytype[1]=LUL
@@ -282,6 +288,8 @@ Constraint[Prev][0]=LUL_D_StockMiddle1
 Constraint[Prev][1]=LUL_D_StockMiddle2
 
 Constraint[Next][0]=LUL_D_StockFrontUNDM
+
+staff[2]=1
 
 liverytype[0]=LT
 liverytype[1]=LUL
@@ -346,6 +354,9 @@ Constraint[Prev][1]=LUL_D_StockMiddle2
 
 Constraint[Next][0]=LUL_D_StockFrontDM
 Constraint[Next][1]=none
+
+driver[0]=1
+multiple_working_type=1
 
 liverytype[0]=LT
 liverytype[1]=LUL

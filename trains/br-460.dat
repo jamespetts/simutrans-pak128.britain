@@ -50,6 +50,9 @@ Constraint[Next][1]=BR-460-TSO
 Constraint[Next][2]=BR-460-TCO
 Constraint[Next][3]=BR-460-TFO
 
+driver[0]=1
+multiple_working_type=1
+
 EmptyImage[E]=./railcars/br-460-front-gatex.1.4
 EmptyImage[SE]=./railcars/br-460-front-gatex.1.5
 EmptyImage[S]=./railcars/br-460-front-gatex.1.6
@@ -111,6 +114,7 @@ Constraint[Next][1]=BR-460-TSO
 Constraint[Next][2]=BR-460-TCO
 Constraint[Next][3]=BR-460-TFO
 Constraint[Next][4]=BR-460-DMLFO
+
 
 EmptyImage[E]=./railcars/br-460-middle-gatex.1.4
 EmptyImage[SE]=./railcars/br-460-middle-gatex.1.5
@@ -174,6 +178,7 @@ Constraint[Next][2]=BR-460-TCO
 Constraint[Next][3]=BR-460-TFO
 Constraint[Next][4]=BR-460-DMLFO
 
+
 EmptyImage[E]=./railcars/br-460-middle-gatex.1.4
 EmptyImage[SE]=./railcars/br-460-middle-gatex.1.5
 EmptyImage[S]=./railcars/br-460-middle-gatex.1.6
@@ -235,6 +240,7 @@ Constraint[Next][1]=BR-460-TSO
 Constraint[Next][2]=BR-460-TCO
 Constraint[Next][3]=BR-460-TFO
 Constraint[Next][4]=BR-460-DMLFO
+
 
 EmptyImage[E]=./railcars/br-460-middle-gatex.1.4
 EmptyImage[SE]=./railcars/br-460-middle-gatex.1.5
@@ -298,6 +304,7 @@ Constraint[Next][2]=BR-460-TCO
 Constraint[Next][3]=BR-460-TFO
 Constraint[Next][4]=BR-460-DMLFO
 
+
 EmptyImage[E]=./railcars/br-460-middle-gatex.1.4
 EmptyImage[SE]=./railcars/br-460-middle-gatex.1.5
 EmptyImage[S]=./railcars/br-460-middle-gatex.1.6
@@ -357,6 +364,9 @@ Constraint[Prev][3]=BR-460-TFO
 
 Constraint[Next][0]=BR-460-DMSO
 Constraint[Next][1]=none
+
+driver[0]=1
+multiple_working_type=1
 
 EmptyImage[E]=./railcars/br-460-rear-gatex.1.4
 EmptyImage[SE]=./railcars/br-460-rear-gatex.1.5

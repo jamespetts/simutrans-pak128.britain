@@ -38,6 +38,8 @@ Constraint[Prev][1]=none
 
 Constraint[Next][0]=DLR-P86Rear
 
+staff[6]=1
+
 EmptyImage[E]=./images/dlr-p86.0.0
 EmptyImage[SE]=./images/dlr-p86.0.1
 EmptyImage[S]=./images/dlr-p86.0.2

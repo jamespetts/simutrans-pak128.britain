@@ -32,6 +32,8 @@ max_loading_time=64
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
 
+driver[5]=1
+
 liverytype[0]=Private-operator
 
 EmptyImage[E][0]=./images/optare-alero-private_E.0.0,-33,14

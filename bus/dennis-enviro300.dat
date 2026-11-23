@@ -35,6 +35,8 @@ Constraint[Next][0]=none
 
 # TODO: Add multiple liveries
 
+driver[5]=1
+
 EmptyImage[E]=./images/dennis-enviro300_E.0.0,-33,14
 EmptyImage[SE]=./images/dennis-enviro300_SE.0.0,-13,0
 EmptyImage[S]=./images/dennis-enviro300_S.0.0,4,0

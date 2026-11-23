@@ -38,6 +38,9 @@ Constraint[Prev][1]=none
 
 Constraint[Next][0]=BR-507(centre1)
 
+driver[0]=1
+multiple_working_type=1
+
 liverytype[0]=BR-Blue
 liverytype[1]=NSE-Standard
 
@@ -98,6 +101,7 @@ Constraint[Prev][0]=BR-507(front)
 
 Constraint[Next][0]=BR-507(centre2)
 Constraint[Next][1]=BR-507(rear)
+
 
 liverytype[0]=BR-Blue
 liverytype[1]=NSE-Standard
@@ -160,6 +164,7 @@ Constraint[Prev][1]=BR-455-Motor
 
 Constraint[Next][0]=BR-507(rear)
 Constraint[Next][1]=BR-455-Driving-Rear
+
 
 liverytype[0]=BR-Blue
 liverytype[1]=NSE-Standard
@@ -235,6 +240,10 @@ Constraint[Prev][1]=BR-507(centre2)
 
 Constraint[Next][0]=BR-507(front)
 Constraint[Next][1]=none
+
+driver[0]=1
+staff[2]=1
+multiple_working_type=1
 
 liverytype[0]=BR-Blue
 liverytype[1]=NSE-Standard

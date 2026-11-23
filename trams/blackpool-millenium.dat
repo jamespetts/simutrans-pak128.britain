@@ -36,6 +36,8 @@ max_loading_time=70
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
 
+driver[5]=1
+
 EmptyImage[E]=./images/blackpool-millennium_E.0.0
 EmptyImage[SE]=./images/blackpool-millennium_SE.0.0
 EmptyImage[S]=./images/blackpool-millennium_S.0.0

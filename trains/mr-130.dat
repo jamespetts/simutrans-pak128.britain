@@ -37,6 +37,9 @@ fixed_cost=40283
 
 Constraint[Next][0]=MR-130-tender
 
+driver[0]=1
+staff[1]=1
+
 liverytype[0]=MR-Early
 liverytype[1]=MR-Standard
 

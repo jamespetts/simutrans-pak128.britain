@@ -35,6 +35,8 @@ Constraint[Prev][0]=any
 Constraint[Next][0]=any
 
 # TODO: Liveries
+staff[3]=3
+
 liverytype[0]=LMR-Standard
 #liverytype[1]=MR-Early
 #liverytype[2]=LNWR-Early

@@ -50,6 +50,9 @@ sound=swearingkevo-bristol-l6b.wav
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
 
+driver[5]=1
+staff[6]=1
+
 liverytype[0]=LT
 liverytype[1]=LT-revised
 liverytype[2]=WW2-Austerity

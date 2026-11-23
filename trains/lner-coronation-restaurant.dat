@@ -43,6 +43,8 @@ Constraint[Prev][1]=LNER-Coronation-Brake-Third-Triple(rear)
 
 Constraint[Next][0]=LNER-Coronation-Restaurant-Triple(middle)
 
+staff[3]=3
+
 liverytype[0]=LNER-Silver-Jubilee
 liverytype[1]=LNER-Cornoation
 liverytype[2]=BR-Early
@@ -115,6 +117,8 @@ max_loading_time=180
 Constraint[Prev][0]=LNER-Coronation-Restaurant-Triple(front)
 
 Constraint[Next][0]=LNER-Coronation-Restaurant-Triple(rear)
+
+staff[3]=3
 
 liverytype[0]=LNER-Silver-Jubilee
 liverytype[1]=LNER-Cornoation
@@ -196,6 +200,8 @@ comfort[3]=171
 Constraint[Prev][0]=LNER-Coronation-Restaurant-Triple(middle)
 
 Constraint[Next][0]=LNER-Coronation-RearBrake-Third-Twin(front)
+
+staff[3]=3
 
 liverytype[0]=LNER-Silver-Jubilee
 liverytype[1]=LNER-Cornoation

@@ -51,6 +51,9 @@ Constraint[Next][5]=District_G_StockMiddle
 Constraint[Next][6]=District_E_StockMiddle
 Constraint[Next][7]=District_BCD_StockMiddle
 
+driver[0]=1
+multiple_working_type=1
+
 EmptyImage[E]=./images/district-klmn-stock.1.4
 EmptyImage[SE]=./images/district-klmn-stock.1.5
 EmptyImage[S]=./images/district-klmn-stock.1.6
@@ -102,6 +105,7 @@ Constraint[Next][4]=District_BCD_StockMiddle
 Constraint[Next][0]=LUL_OP_StockRearDM
 Constraint[Next][1]=District_KLMN_StockRearDM
 Constraint[Next][2]=District_G_StockRearDM
+
 
 EmptyImage[E]=./images/district-klmn-stock.1.4
 EmptyImage[SE]=./images/district-klmn-stock.1.5
@@ -162,6 +166,10 @@ Constraint[Next][0]=LUL_OP_StockFrontDM
 Constraint[Next][1]=District_KLMN_StockFrontDM
 Constraint[Next][2]=District_G_StockFrontDM
 Constraint[Next][3]=none
+
+driver[0]=1
+staff[2]=1
+multiple_working_type=1
 
 EmptyImage[E]=./images/district-klmn-stock.1.4
 EmptyImage[SE]=./images/district-klmn-stock.1.5

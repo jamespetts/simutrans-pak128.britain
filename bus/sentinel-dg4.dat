@@ -35,6 +35,8 @@ upgrade[0]=sentinel-dg4-pneumatic-bulk
 min_loading_time=120
 max_loading_time=560
 
+driver[5]=1
+
 EmptyImage[E]=./images/sentinel-dg4-tipper-empty_E.0.0,-33,14
 EmptyImage[SE]=./images/sentinel-dg4-tipper-empty_SE.0.0,-13,0
 EmptyImage[S]=./images/sentinel-dg4-tipper-empty_S.0.0,0,0
@@ -125,6 +127,8 @@ upgrade[0]=sentinel-dg4-pneumatic-long
 min_loading_time=120
 max_loading_time=560
 
+driver[5]=1
+
 EmptyImage[E]=./images/sentinel-dg4-flat-empty_E.0.0,-33,14
 EmptyImage[SE]=./images/sentinel-dg4-flat-empty_SE.0.0,-13,0
 EmptyImage[S]=./images/sentinel-dg4-flat-empty_S.0.0,0,0
@@ -185,6 +189,8 @@ upgrade[0]=sentinel-dg4-pneumatic-piece
 min_loading_time=120
 max_loading_time=560
 
+driver[5]=1
+
 EmptyImage[E]=./images/sentinel-dg4-piece_E.0.0,-33,14
 EmptyImage[SE]=./images/sentinel-dg4-piece_SE.0.0,-13,0
 EmptyImage[S]=./images/sentinel-dg4-piece_S.0.0,0,0
@@ -224,6 +230,8 @@ upgrade[0]=sentinel-dg4-pneumatic-cool
 
 min_loading_time=120
 max_loading_time=560
+
+driver[5]=1
 
 EmptyImage[E]=./images/sentinel-dg4-cool_E.0.0,-33,14
 EmptyImage[SE]=./images/sentinel-dg4-cool_SE.0.0,-13,0
@@ -265,6 +273,8 @@ upgrade[0]=sentinel-dg4-pneumatic-livestock
 min_loading_time=120
 max_loading_time=560
 
+driver[5]=1
+
 EmptyImage[E]=./images/sentinel-dg4-livestock_E.0.0,-33,14
 EmptyImage[SE]=./images/sentinel-dg4-livestock_SE.0.0,-13,0
 EmptyImage[S]=./images/sentinel-dg4-livestock_S.0.0,0,0
@@ -305,6 +315,8 @@ upgrade[0]=sentinel-dg4-pneumatic-tanker
 
 min_loading_time=120
 max_loading_time=560
+
+driver[5]=1
 
 EmptyImage[E]=./images/sentinel-dg4-tanker_E.0.0,-33,14
 EmptyImage[SE]=./images/sentinel-dg4-tanker_SE.0.0,-13,0

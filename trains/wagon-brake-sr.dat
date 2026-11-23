@@ -28,6 +28,8 @@ max_loading_time=30
 can_lead_from_rear=0
 bidirectional=1
 
+staff[2]=1
+
 EmptyImage[E]=./wagons/brake-sr_E.0.0
 EmptyImage[SE]=./wagons/brake-sr_SE.0.0
 EmptyImage[S]=./wagons/brake-sr_S.0.0

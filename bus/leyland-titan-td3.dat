@@ -42,6 +42,9 @@ upgrade[0]=leyland-titan-td4
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
 
+driver[5]=1
+staff[6]=1
+
 liverytype[0]=Southdown-standard
 liverytype[1]=Sheffield-light
 liverytype[2]=Ribble-standard

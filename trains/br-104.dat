@@ -54,6 +54,9 @@ Constraint[Prev][9]=none
 Constraint[Next][0]=BR-104Rear
 Constraint[Next][1]=BR-104Middle
 
+driver[0]=1
+multiple_working_type=1
+
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue
 liverytype[2]=BR-Large-Logo
@@ -147,6 +150,7 @@ Constraint[Prev][0]=BR-104Front
 Constraint[Prev][1]=BR-104Middle
 
 Constraint[Next][0]=BR-104Rear
+
 
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue
@@ -254,6 +258,10 @@ Constraint[Next][5]=BR-120-DMBC
 Constraint[Next][6]=BR-114-DMBS
 Constraint[Next][7]=BR-110-DMBC
 Constraint[Next][8]=none
+
+driver[0]=1
+staff[2]=1
+multiple_working_type=1
 
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue

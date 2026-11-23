@@ -113,6 +113,8 @@ Constraint[Next][3]=l&s-composite-carriage-brake-rear
 Constraint[Next][4]=l&s-open-carriage
 Constraint[Next][5]=none
 
+staff[2]=1
+
 EmptyImage[E]=./carriages/l&s-composite-carriage_E.0.0
 EmptyImage[SE]=./carriages/l&s-composite-carriage_SE.0.0
 EmptyImage[S]=./carriages/l&s-composite-carriage_S.0.0
@@ -174,6 +176,8 @@ Constraint[Prev][1]=l&s-enclosed-carriage-brake-front
 Constraint[Prev][2]=l&s-composite-carriage
 Constraint[Prev][3]=l&s-composite-carriage-brake-front
 Constraint[Prev][4]=l&s-open-carriage
+
+staff[2]=1
 
 EmptyImage[E]=./carriages/l&s-composite-carriage_E.0.0
 EmptyImage[SE]=./carriages/l&s-composite-carriage_SE.0.0

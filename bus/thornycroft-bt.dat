@@ -28,6 +28,8 @@ max_loading_time=360
 constraint[next][0]=none
 constraint[prev][0]=none
 
+driver[5]=1
+
 EmptyImage[E]=./images/thornycroft-bt-bulk-empty_E.0.0,-33,14
 EmptyImage[SE]=./images/thornycroft-bt-bulk-empty_SE.0.0,-13,0
 EmptyImage[S]=./images/thornycroft-bt-bulk-empty_S.0.0,0,0
@@ -116,6 +118,8 @@ max_loading_time=360
 constraint[next][0]=none
 constraint[prev][0]=none
 
+driver[5]=1
+
 EmptyImage[E]=./images/thornycroft-bt-long-empty_E.0.0,-33,14
 EmptyImage[SE]=./images/thornycroft-bt-long-empty_SE.0.0,-13,0
 EmptyImage[S]=./images/thornycroft-bt-long-empty_S.0.0,0,0
@@ -175,6 +179,8 @@ max_loading_time=360
 constraint[next][0]=none
 constraint[prev][0]=none
 
+driver[5]=1
+
 EmptyImage[E]=./images/thornycroft-bt-piece_E.0.0,-33,14
 EmptyImage[SE]=./images/thornycroft-bt-piece_SE.0.0,-13,0
 EmptyImage[S]=./images/thornycroft-bt-piece_S.0.0,0,0
@@ -215,6 +221,8 @@ max_loading_time=360
 constraint[next][0]=none
 constraint[prev][0]=none
 
+driver[5]=1
+
 EmptyImage[E]=./images/thornycroft-bt-cool_E.0.0,-33,14
 EmptyImage[SE]=./images/thornycroft-bt-cool_SE.0.0,-13,0
 EmptyImage[S]=./images/thornycroft-bt-cool_S.0.0,0,0
@@ -253,6 +261,8 @@ max_loading_time=360
 
 constraint[next][0]=none
 constraint[prev][0]=none
+
+driver[5]=1
 
 EmptyImage[E]=./images/thornycroft-bt-livestock_E.0.0,-33,14
 EmptyImage[SE]=./images/thornycroft-bt-livestock_SE.0.0,-13,0
@@ -294,6 +304,8 @@ max_loading_time=360
 constraint[next][0]=none
 constraint[prev][0]=none
 
+driver[5]=1
+
 EmptyImage[E]=./images/thornycroft-bt-post_E.0.0,-33,14
 EmptyImage[SE]=./images/thornycroft-bt-post_SE.0.0,-13,0
 EmptyImage[S]=./images/thornycroft-bt-post_S.0.0,0,0
@@ -332,6 +344,8 @@ max_loading_time=360
 
 constraint[next][0]=none
 constraint[prev][0]=none
+
+driver[5]=1
 
 EmptyImage[E]=./images/thornycroft-bt-cars-empty_E.0.0,-33,14
 EmptyImage[SE]=./images/thornycroft-bt-cars-empty_SE.0.0,-13,0

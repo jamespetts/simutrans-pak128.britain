@@ -33,6 +33,9 @@ Constraint[Next][0]=GWR-Saint-Tender
 
 upgrade[0]=GWR-Hall
 
+driver[0]=1
+staff[1]=1
+
 liverytype[0]=GWR-standard-green
 liverytype[1]=GWR-overall-brown
 liverytype[2]=WW1-Austerity

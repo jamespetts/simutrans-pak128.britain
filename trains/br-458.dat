@@ -46,6 +46,9 @@ Constraint[Prev][1]=none
 
 Constraint[Next][0]=BR-458(centre1)
 
+driver[0]=1
+multiple_working_type=1
+
 liverytype[0]=SWT-standard
 liverytype[1]=SWT-modified
 
@@ -115,6 +118,7 @@ Constraint[Prev][2]=BR-458(centre2)
 Constraint[Next][0]=BR-458(centre2)
 Constraint[Next][1]=BR-458(centre1)
 Constraint[Next][2]=BR-458(rear)
+
 
 liverytype[0]=SWT-standard
 liverytype[1]=SWT-modified
@@ -186,6 +190,7 @@ Constraint[Next][0]=BR-458(rear)
 Constraint[Next][1]=BR-458(centre2)
 Constraint[Next][2]=BR-458(centre1)
 
+
 liverytype[0]=SWT-standard
 liverytype[1]=SWT-modified
 
@@ -254,6 +259,10 @@ Constraint[Prev][1]=BR-458(centre2)
 
 Constraint[Next][0]=BR-458(front)
 Constraint[Next][1]=none
+
+driver[0]=1
+staff[2]=1
+multiple_working_type=1
 
 liverytype[0]=SWT-standard
 liverytype[1]=SWT-modified

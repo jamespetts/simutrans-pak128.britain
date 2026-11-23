@@ -34,6 +34,9 @@ upgrade[0]=MR-483
 
 Constraint[Next][0]=MR-Kirtley156Tender
 
+driver[0]=1
+staff[1]=1
+
 liverytype[0]=MR-Standard
 
 # At the Simutrans scale, visually indistinguishable from the 1738 class

@@ -29,6 +29,8 @@ max_loading_time=120
 
 increase_maintenance_after_years=22
 
+staff[2]=1
+
 liverytype[0]=BR-Early
 liverytype[1]=BR-Revised
 liverytype[2]=BR-Blue

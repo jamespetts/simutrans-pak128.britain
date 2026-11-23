@@ -29,6 +29,8 @@ max_loading_time=360
 constraint[next][0]=none
 constraint[prev][0]=none
 
+driver[5]=1
+
 EmptyImage[E]=./images/leyland-roadrunner-bulk-empty_E.0.0,-33,14
 EmptyImage[SE]=./images/leyland-roadrunner-bulk-empty_SE.0.0,-13,0
 EmptyImage[S]=./images/leyland-roadrunner-bulk-empty_S.0.0,0,0
@@ -118,6 +120,8 @@ max_loading_time=360
 constraint[next][0]=none
 constraint[prev][0]=none
 
+driver[5]=1
+
 EmptyImage[E]=./images/leyland-roadrunner-long-empty_E.0.0,-33,14
 EmptyImage[SE]=./images/leyland-roadrunner-long-empty_SE.0.0,-13,0
 EmptyImage[S]=./images/leyland-roadrunner-long-empty_S.0.0,0,0
@@ -178,6 +182,8 @@ max_loading_time=360
 constraint[next][0]=none
 constraint[prev][0]=none
 
+driver[5]=1
+
 EmptyImage[E]=./images/leyland-roadrunner-piece_E.0.0,-33,14
 EmptyImage[SE]=./images/leyland-roadrunner-piece_SE.0.0,-13,0
 EmptyImage[S]=./images/leyland-roadrunner-piece_S.0.0,0,0
@@ -218,6 +224,8 @@ max_loading_time=360
 
 constraint[next][0]=none
 constraint[prev][0]=none
+
+driver[5]=1
 
 EmptyImage[E]=./images/leyland-roadrunner-cool_E.0.0,-33,14
 EmptyImage[SE]=./images/leyland-roadrunner-cool_SE.0.0,-13,0
@@ -260,6 +268,8 @@ max_loading_time=360
 constraint[next][0]=none
 constraint[prev][0]=none
 
+driver[5]=1
+
 EmptyImage[E]=./images/leyland-roadrunner-livestock_E.0.0,-33,14
 EmptyImage[SE]=./images/leyland-roadrunner-livestock_SE.0.0,-13,0
 EmptyImage[S]=./images/leyland-roadrunner-livestock_S.0.0,0,0
@@ -298,6 +308,8 @@ max_loading_time=300
 
 constraint[next][0]=none
 constraint[prev][0]=none
+
+driver[5]=1
 
 EmptyImage[E]=./images/leyland-roadrunner-post_E.0.0,-33,14
 EmptyImage[SE]=./images/leyland-roadrunner-post_SE.0.0,-13,0

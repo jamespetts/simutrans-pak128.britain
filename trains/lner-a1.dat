@@ -33,6 +33,9 @@ Constraint[Next][0]=LNER-A1-Tender
 
 upgrade[0]=LNER-A3
 
+driver[0]=1
+staff[1]=1
+
 liverytype[0]=LNER-Standard
 liverytype[1]=WW2-Austerity
 liverytype[2]=BR-Early

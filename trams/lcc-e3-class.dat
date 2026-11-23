@@ -45,6 +45,9 @@ Constraint[Next][0]=none
 # They were very similar, but must have been at least
 # slightly different. Using the same graphics for now.
 
+driver[5]=1
+staff[6]=1
+
 liverytype[0]=LCC-red
 liverytype[1]=LT
 

@@ -165,6 +165,8 @@ Constraint[Prev][1]=BR-Mk3a-TRB(GNER)
 Constraint[Next][0]=None
 
 
+staff[2]=1
+
 EmptyImage[E]=./images/br-mk3-gner.3.0
 EmptyImage[SE]=./images/br-mk3-gner.3.1
 EmptyImage[S]=./images/br-mk3-gner.3.2

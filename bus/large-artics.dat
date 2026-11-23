@@ -22,6 +22,8 @@ retire_month=10
 min_loading_time=120
 max_loading_time=480
 
+driver[5]=1
+
 EmptyImage[E]=./images/leyland-daf-95-tractor_E.0.0,-33,14
 EmptyImage[SE]=./images/leyland-daf-95-tractor_SE.0.0,-13,0
 EmptyImage[S]=./images/leyland-daf-95-tractor_S.0.0,0,0
@@ -67,6 +69,8 @@ payload=1000
 min_loading_time=120
 max_loading_time=480
 
+driver[5]=1
+
 EmptyImage[E]=./images/leyland-daf-95-tractor-mail_E.0.0,-33,14
 EmptyImage[SE]=./images/leyland-daf-95-tractor-mail_SE.0.0,-13,0
 EmptyImage[S]=./images/leyland-daf-95-tractor-mail_S.0.0,0,0
@@ -103,6 +107,8 @@ sound=clarkster92-scania-h2870.wav
 
 min_loading_time=120
 max_loading_time=480
+
+driver[5]=1
 
 EmptyImage[E]=./images/daf-xf-tractor_E.0.0,-33,14
 EmptyImage[SE]=./images/daf-xf-tractor_SE.0.0,-13,0
@@ -147,6 +153,8 @@ payload=1100
 
 min_loading_time=120
 max_loading_time=480
+
+driver[5]=1
 
 EmptyImage[E]=./images/daf-xf-tractor-mail_E.0.0,-33,14
 EmptyImage[SE]=./images/daf-xf-tractor-mail_SE.0.0,-13,0

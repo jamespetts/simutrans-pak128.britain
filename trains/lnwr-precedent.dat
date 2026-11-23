@@ -34,6 +34,9 @@ upgrade[0]=LNWR-Jumbo
 
 Constraint[Next][0]=LNWR-Precedent-Tender
 
+driver[0]=1
+staff[1]=1
+
 EmptyImage[E]=./locomotives/lnwr-precedent_E.0.0
 EmptyImage[SE]=./locomotives/lnwr-precedent_SE.0.0
 EmptyImage[S]=./locomotives/lnwr-precedent_S.0.0

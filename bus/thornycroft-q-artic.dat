@@ -19,6 +19,8 @@ intro_month=2
 retire_year=1934
 retire_month=10
 
+driver[5]=1
+
 EmptyImage[E]=./images/thornycroft-q-artic-tractor_E.0.0,-33,14
 EmptyImage[SE]=./images/thornycroft-q-artic-tractor_SE.0.0,-13,0
 EmptyImage[S]=./images/thornycroft-q-artic-tractor_S.0.0,0,0

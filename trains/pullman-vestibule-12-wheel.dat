@@ -46,6 +46,8 @@ Constraint[Next][0]=any
 
 # Sources conflict as to whether these would
 # have appeared in green.
+staff[3]=1
+
 liverytype[0]=Pullman-Mahogany
 liverytype[1]=Pullman-Bronze-Green
 liverytype[2]=Pullman-Ivory-Umber
@@ -133,6 +135,8 @@ Constraint[Next][0]=any
 
 # Sources conflict as to whether these would
 # have appeared in green.
+staff[3]=3
+
 liverytype[0]=Pullman-Mahogany
 liverytype[1]=Pullman-Bronze-Green
 liverytype[2]=Pullman-Ivory-Umber

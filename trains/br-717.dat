@@ -43,6 +43,9 @@ Constraint[Prev][1]=none
 
 Constraint[Next][0]=BR-717MiddleTrailer
 
+driver[0]=1
+multiple_working_type=1
+
 liverytype[0]=GTR
 
 EmptyImage[E][0]=./railcars/br-717-front-tsgn_E.0
@@ -94,6 +97,7 @@ Constraint[Prev][0]=BR-717Front
 
 Constraint[Next][0]=BR-717TSOW
 
+
 liverytype[0]=GTR
 
 EmptyImage[E][0]=./railcars/br-700-middle-tsgn_E.0
@@ -144,6 +148,7 @@ comfort[3]=94
 Constraint[Prev][0]=BR-717MiddleTrailer
 
 Constraint[Next][0]=BR-717MiddlePower
+
 
 liverytype[0]=GTR
 
@@ -199,6 +204,7 @@ Constraint[Prev][0]=BR-717TSOW
 
 Constraint[Next][0]=BR-717Panto
 
+
 liverytype[0]=GTR
 
 EmptyImage[E][0]=./railcars/br-700-middle-tsgn_E.0
@@ -249,6 +255,7 @@ comfort[3]=94
 Constraint[Prev][0]=BR-717MiddlePower
 
 Constraint[Next][0]=BR-717Rear
+
 
 liverytype[0]=GTR
 
@@ -305,6 +312,9 @@ Constraint[Prev][0]=BR-717Panto
 
 Constraint[Next][0]=BR-717Front
 Constraint[Next][1]=none
+
+driver[0]=1
+multiple_working_type=1
 
 liverytype[0]=GTR
 

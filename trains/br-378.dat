@@ -53,6 +53,9 @@ Constraint[Prev][6]=none
 Constraint[Next][0]=BR-378Middle-unpowered
 Constraint[Next][1]=BR-378Middle
 
+driver[0]=1
+multiple_working_type=1
+
 EmptyImage[E]=./railcars/br-378-a-lt_E.0.0
 EmptyImage[SE]=./railcars/br-378-a-lt_SE.0.0
 EmptyImage[S]=./railcars/br-378-a-lt_S.0.0
@@ -102,6 +105,7 @@ comfort[1]=59
 Constraint[Prev][0]=BR-378Front
 
 Constraint[Next][0]=BR-378Middle-unpowered
+
 
 EmptyImage[E]=./railcars/br-378-b-lt_E.0.0
 EmptyImage[SE]=./railcars/br-378-b-lt_SE.0.0
@@ -155,6 +159,7 @@ Constraint[Prev][0]=BR-378Middle-unpowered
 
 Constraint[Next][0]=BR-378Rear
 
+
 EmptyImage[E]=./railcars/br-378-b-lt_E.0.0
 EmptyImage[SE]=./railcars/br-378-b-lt_SE.0.0
 EmptyImage[S]=./railcars/br-378-b-lt_S.0.0
@@ -204,6 +209,7 @@ Constraint[Prev][1]=BR-378Middle
 
 Constraint[Next][0]=BR-378Rear
 Constraint[Next][1]=BR-378Middle2
+
 
 EmptyImage[E]=./railcars/br-378-b-lt_E.0.0
 EmptyImage[SE]=./railcars/br-378-b-lt_SE.0.0
@@ -262,6 +268,9 @@ Constraint[Next][3]=BR-375-6Front
 Constraint[Next][4]=BR-379Front
 Constraint[Next][5]=BR-387Front
 Constraint[Next][6]=none
+
+driver[0]=1
+multiple_working_type=1
 
 EmptyImage[E]=./railcars/br-378-c-lt_E.0.0
 EmptyImage[SE]=./railcars/br-378-c-lt_SE.0.0

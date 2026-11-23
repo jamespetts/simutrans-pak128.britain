@@ -36,6 +36,10 @@ Constraint[Prev][1]=none
 
 Constraint[Next][0]=BR-395Middle
 
+multiple_working_type=1
+
+driver[0]=1
+
 EmptyImage[E]=./railcars/br-395-front-se.1.4
 EmptyImage[SE]=./railcars/br-395-front-se.1.5
 EmptyImage[S]=./railcars/br-395-front-se.1.6
@@ -86,6 +90,7 @@ Constraint[Prev][1]=BR-395Middle
 Constraint[Next][0]=BR-395Middle
 Constraint[Next][1]=BR-395Rear
 
+
 EmptyImage[E]=./railcars/br-395-middle-se.1.4
 EmptyImage[SE]=./railcars/br-395-middle-se.1.5
 EmptyImage[S]=./railcars/br-395-middle-se.1.6
@@ -134,6 +139,10 @@ Constraint[Next][0]=BR-395Front
 Constraint[Next][1]=none
 
 Constraint[Prev][0]=BR-395Middle
+
+multiple_working_type=1
+
+driver[0]=1
 
 EmptyImage[E]=./railcars/br-395-rear-se.1.4
 EmptyImage[SE]=./railcars/br-395-rear-se.1.5

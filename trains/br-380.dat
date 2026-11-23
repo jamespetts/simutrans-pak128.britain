@@ -40,6 +40,9 @@ Constraint[Prev][1]=none
 
 Constraint[Next][0]=BR-380(centre1)
 
+driver[0]=1
+multiple_working_type=1
+
 EmptyImage[E]=./railcars/br-380-front.1.4
 EmptyImage[SE]=./railcars/br-380-front.1.5
 EmptyImage[S]=./railcars/br-380-front.1.6
@@ -91,6 +94,7 @@ Constraint[Prev][0]=BR-380(front)
 Constraint[Next][0]=BR-380(centre2)
 Constraint[Next][1]=BR-380(rear)
 
+
 EmptyImage[E]=./railcars/br-380-panto.1.4
 EmptyImage[SE]=./railcars/br-380-panto.1.5
 EmptyImage[S]=./railcars/br-380-panto.1.6
@@ -140,6 +144,7 @@ way_constraint_permissive[2]=2
 Constraint[Prev][0]=BR-380(centre1)
 
 Constraint[Next][0]=BR-380(rear)
+
 
 EmptyImage[E]=./railcars/br-380-middle.1.4
 EmptyImage[SE]=./railcars/br-380-middle.1.5
@@ -193,6 +198,9 @@ Constraint[Prev][1]=BR-380(centre1)
 
 Constraint[Next][0]=BR-380(front)
 Constraint[Next][1]=none
+
+driver[0]=1
+multiple_working_type=1
 
 EmptyImage[E]=./railcars/br-380-rear.1.4
 EmptyImage[SE]=./railcars/br-380-rear.1.5

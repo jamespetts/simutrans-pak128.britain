@@ -41,6 +41,9 @@ bidirectional=0
 
 Constraint[Next][0]=George-England-tender
 
+driver[0]=1
+staff[1]=1
+
 liverytype[0]=FR-Royal-Purple
 liverytype[1]=FR-Royal-Purple-Cream
 liverytype[2]=FR-Col-Stephens

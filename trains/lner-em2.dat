@@ -30,6 +30,8 @@ way_constraint_permissive[1]=1
 # No multiple working
 Constraint[Prev][0]=none
 
+driver[0]=1
+
 liverytype[0]=BR-Early
 liverytype[1]=BR-Revised
 liverytype[2]=BR-Blue

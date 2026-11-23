@@ -37,6 +37,9 @@ max_loading_time=62
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
 
+driver[5]=1
+staff[6]=1
+
 EmptyImage[E]=./images/sheffield-roberts_E.0.0
 EmptyImage[SE]=./images/sheffield-roberts_SE.0.0
 EmptyImage[S]=./images/sheffield-roberts_S.0.0

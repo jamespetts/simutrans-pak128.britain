@@ -39,6 +39,9 @@ min_loading_time=3
 max_loading_time=112
 sound=androo4519-btu9613t.wav
 
+driver[5]=1
+staff[6]=1
+
 liverytype[0]=Bradford-standard
 liverytype[1]=Teesside-standard
 liverytype[2]=Birmingham-Corporation

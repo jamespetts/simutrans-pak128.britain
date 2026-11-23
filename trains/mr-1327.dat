@@ -42,6 +42,9 @@ Constraint[Next][0]=MR-Kirtley156Tender
 
 # Too similar to 1738 class to deserve separate graphics.
 
+driver[0]=1
+staff[1]=1
+
 liverytype[0]=MR-Early
 liverytype[1]=MR-Standard
 

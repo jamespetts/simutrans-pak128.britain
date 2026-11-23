@@ -42,6 +42,10 @@ max_loading_time=45
 Constraint[Prev][0]=none
 Constraint[Next][0]=Croydon-Variobahn-middle1
 
+driver[5]=1
+
+multiple_working_type=2
+
 EmptyImage[E]=./images/croydon-variobahn-front.1.4
 EmptyImage[SE]=./images/croydon-variobahn-front.1.5
 EmptyImage[S]=./images/croydon-variobahn-front.1.6
@@ -85,6 +89,7 @@ max_loading_time=45
 
 Constraint[Prev][0]=Croydon-Variobahn-front
 Constraint[Next][0]=Croydon-Variobahn-panto
+
 
 EmptyImage[E]=./images/croydon-variobahn-middle1.1.4
 EmptyImage[SE]=./images/croydon-variobahn-middle1.1.5
@@ -130,6 +135,7 @@ max_loading_time=45
 Constraint[Prev][0]=Croydon-Variobahn-panto
 Constraint[Next][0]=Croydon-Variobahn-rear
 
+
 EmptyImage[E]=./images/croydon-variobahn-middle2.1.4
 EmptyImage[SE]=./images/croydon-variobahn-middle2.1.5
 EmptyImage[S]=./images/croydon-variobahn-middle2.1.6
@@ -173,6 +179,7 @@ max_loading_time=45
 
 Constraint[Prev][0]=Croydon-Variobahn-middle1
 Constraint[Next][0]=Croydon-Variobahn-middle2
+
 
 EmptyImage[E]=./images/croydon-variobahn-panto.1.4
 EmptyImage[SE]=./images/croydon-variobahn-panto.1.5
@@ -220,6 +227,10 @@ max_loading_time=45
 
 Constraint[Prev][0]=Croydon-Variobahn-middle2
 Constraint[Next][0]=none
+
+driver[5]=1
+
+multiple_working_type=2
 
 EmptyImage[E]=./images/croydon-variobahn-rear.1.4
 EmptyImage[SE]=./images/croydon-variobahn-rear.1.5

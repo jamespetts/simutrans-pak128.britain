@@ -31,6 +31,9 @@ runningcost=112
 fixed_cost=19308
 sound=lwalker-br-4mt-tank.wav
 
+driver[0]=1
+staff[1]=1
+
 liverytype[0]=LBSCR-Craven
 liverytype[1]=LBSCR-Stroudley
 liverytype[2]=LBSCR-Marsh

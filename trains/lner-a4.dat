@@ -39,6 +39,9 @@ years_before_maintenance_max_reached=12
 
 Constraint[Next][0]=LNER-A4-Tender
 
+driver[0]=1
+staff[1]=1
+
 liverytype[0]=LNER-Silver-Jubilee
 liverytype[1]=LNER-Cornoation
 liverytype[2]=LNER-Standard

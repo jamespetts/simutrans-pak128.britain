@@ -32,6 +32,8 @@ constraint[prev][0]=none
 min_loading_time=30
 max_loading_time=350
 
+driver[5]=1
+
 EmptyImage[E]=./images/dennis-15cwt-van-piece_E.0.0,-33,14
 EmptyImage[SE]=./images/dennis-15cwt-van-piece_SE.0.0,-13,0
 EmptyImage[S]=./images/dennis-15cwt-van-piece_S.0.0,0,0
@@ -74,6 +76,8 @@ constraint[prev][0]=none
 
 min_loading_time=30
 max_loading_time=350
+
+driver[5]=1
 
 EmptyImage[E]=./images/dennis-15cwt-van-cool_E.0.0,-33,14
 EmptyImage[SE]=./images/dennis-15cwt-van-cool_SE.0.0,-13,0
@@ -118,6 +122,8 @@ constraint[prev][0]=none
 
 min_loading_time=25
 max_loading_time=300
+
+driver[5]=1
 
 EmptyImage[E]=./images/dennis-15cwt-van-post_E.0.0,-33,14
 EmptyImage[SE]=./images/dennis-15cwt-van-post_SE.0.0,-13,0

@@ -34,6 +34,8 @@ bidirectional=1
 # None fitted
 Constraint[Prev][0]=none
 
+driver[0]=1
+
 liverytype[0]=BR-Early
 liverytype[1]=BR-Revised
 liverytype[2]=BR-Blue

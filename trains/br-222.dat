@@ -48,6 +48,9 @@ Constraint[Prev][1]=none
 Constraint[Next][0]=BR-222MidStandard
 Constraint[Next][1]=BR-222MidBuffet
 
+driver[0]=1
+multiple_working_type=1
+
 liverytype[0]=East-Midlands-Trains
 liverytype[1]=HullTrains
 liverytype[2]=East-Midlands-Railway
@@ -141,6 +144,7 @@ Constraint[Next][1]=BR-222MidBuffet
 Constraint[Next][2]=BR-222Rear
 Constraint[Next][3]=BR-222MidFirst
 Constraint[Next][4]=BR-222MidComposite
+
 
 liverytype[0]=East-Midlands-Trains
 liverytype[1]=HullTrains
@@ -238,6 +242,7 @@ Constraint[Prev][1]=BR-222Front
 Constraint[Next][0]=BR-222MidFirst
 Constraint[Next][1]=BR-222MidComposite
 
+
 liverytype[0]=East-Midlands-Trains
 liverytype[1]=HullTrains
 liverytype[2]=East-Midlands-Railway
@@ -331,6 +336,7 @@ Constraint[Prev][3]=BR-222MidStandard
 Constraint[Next][0]=BR-222Rear
 Constraint[Next][1]=BR-222MidFirst
 
+
 liverytype[0]=East-Midlands-Trains
 liverytype[1]=HullTrains
 liverytype[2]=East-Midlands-Railway
@@ -421,6 +427,7 @@ Constraint[Prev][1]=BR-222MidStandard
 
 Constraint[Next][0]=BR-222MidFirst
 Constraint[Next][1]=BR-222Rear
+
 
 liverytype[0]=East-Midlands-Trains
 liverytype[1]=HullTrains
@@ -515,6 +522,10 @@ Constraint[Prev][2]=BR-222MidStandard
 
 Constraint[Next][0]=BR-222Front
 Constraint[Next][1]=none
+
+driver[0]=1
+staff[2]=1
+multiple_working_type=1
 
 liverytype[0]=East-Midlands-Trains
 liverytype[1]=HullTrains

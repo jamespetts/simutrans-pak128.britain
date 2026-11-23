@@ -28,6 +28,9 @@ fixed_cost=43700
 sound=nick-parry-gwr-city-class.wav
 
 # NOTE: This shares a .blend file with the 4200 class
+driver[0]=1
+staff[1]=1
+
 liverytype[0]=GWR-chocolate-cream-lined
 liverytype[1]=GWR-shirtbutton
 liverytype[2]=GWR-hawksworth

@@ -31,6 +31,9 @@ upgrade[1]=MR-1000
 
 Constraint[Next][0]=MR-1000-Tender
 
+driver[0]=1
+staff[1]=1
+
 liverytype[0]=MR-Standard
 liverytype[1]=LMS-Standard
 

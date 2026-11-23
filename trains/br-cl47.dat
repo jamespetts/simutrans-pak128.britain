@@ -35,6 +35,8 @@ upgrade[0]=BR-Class57
 Constraint[Prev][0]=BR-Class47
 Constraint[Prev][1]=none
 
+driver[0]=1
+
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue
 liverytype[2]=BR-Large-Logo

@@ -43,6 +43,9 @@ Constraint[Prev][1]=none
 
 Constraint[Next][0]=1900TubeStockTrailer
 
+driver[0]=1
+multiple_working_type=1
+
 EmptyImage[E]=./images/clr-1900.0.0
 EmptyImage[SE]=./images/clr-1900.0.1
 EmptyImage[S]=./images/clr-1900.0.2
@@ -101,6 +104,10 @@ Constraint[Next][1]=1903TubeStockRear
 Constraint[Next][2]=1915TubeStockRear
 Constraint[Next][3]=none
 
+multiple_working_type=1
+
+driver[0]=1
+
 EmptyImage[E]=./images/clr-1900.1.0
 EmptyImage[SE]=./images/clr-1900.1.1
 EmptyImage[S]=./images/clr-1900.1.2
@@ -154,6 +161,10 @@ Constraint[Prev][0]=1900TubeStockTrailer
 
 Constraint[Next][0]=1903TubeStockFront
 Constraint[Next][1]=none
+
+driver[0]=1
+staff[2]=1
+multiple_working_type=1
 
 EmptyImage[E]=./images/clr-1900.2.0
 EmptyImage[SE]=./images/clr-1900.2.1

@@ -54,6 +54,9 @@ Constraint[Next][0]=gwr-churchward-tender
 # above numbers, so that the lowest layer number is 0, not 1. The above 
 # numbers assume that the lowest numbered layer is 1.
 
+driver[0]=1
+staff[1]=1
+
 liverytype[0]=GWR-standard-green
 liverytype[1]=GWR-overall-brown
 liverytype[2]=WW1-Austerity

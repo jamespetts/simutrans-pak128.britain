@@ -28,6 +28,8 @@ max_loading_time=120
 comfort[0]=0
 comfort[1]=140
 
+staff[2]=1
+
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue
 liverytype[2]=NSE-Standard

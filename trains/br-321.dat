@@ -46,6 +46,10 @@ Constraint[Prev][1]=none
 
 Constraint[Next][0]=BR-321(pantograph)
 
+multiple_working_type=1
+
+driver[0]=1
+
 liverytype[0]=NSE-Standard
 # For contemporary First Great Eastern
 liverytype[1]=Anglia-original
@@ -132,6 +136,10 @@ Constraint[Prev][0]=BR-321(rear)
 Constraint[Prev][1]=none
 
 Constraint[Next][0]=BR-321(pantograph)
+
+multiple_working_type=1
+
+driver[0]=1
 
 liverytype[0]=NSE-Standard
 # For contemporary First Great Eastern
@@ -222,6 +230,7 @@ Constraint[Prev][1]=BR-321(front-composite)
 
 Constraint[Next][0]=BR-321(trailer)
 
+
 liverytype[0]=NSE-Standard
 # For contemporary First Great Eastern
 liverytype[1]=Anglia-original
@@ -307,6 +316,7 @@ comfort[3]=145
 Constraint[Prev][0]=BR-321(pantograph)
 
 Constraint[Next][0]=BR-321(rear)
+
 
 liverytype[0]=NSE-Standard
 # For contemporary First Great Eastern
@@ -396,6 +406,10 @@ Constraint[Prev][0]=BR-321(trailer)
 Constraint[Next][0]=BR-321(front)
 Constraint[Next][1]=BR-321(front-composite)
 Constraint[Next][2]=none
+
+multiple_working_type=1
+
+driver[0]=1
 
 liverytype[0]=NSE-Standard
 # For contemporary First Great Eastern

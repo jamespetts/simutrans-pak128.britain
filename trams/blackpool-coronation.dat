@@ -39,6 +39,9 @@ years_before_maintenance_max_reached=12
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
 
+driver[5]=1
+staff[6]=1
+
 EmptyImage[E]=./images/blackpool-coronation_E.0.0
 EmptyImage[SE]=./images/blackpool-coronation_SE.0.0
 EmptyImage[S]=./images/blackpool-coronation_S.0.0

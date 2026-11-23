@@ -35,6 +35,8 @@ Constraint[Prev][2]=none
 # Also Mark I electric units.
 # Blue star in diesel mode.
 
+driver[0]=1
+
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue
 liverytype[2]=BR-Large-Logo

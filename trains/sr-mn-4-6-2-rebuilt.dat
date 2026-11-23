@@ -38,6 +38,9 @@ available_only_as_upgrade=1
 
 Constraint[Next][0]=BR-7MT-Tender
 
+driver[0]=1
+staff[1]=1
+
 EmptyImage[E]=./locomotives/sr-mn-4-6-2-rebuilt_E.0.0
 EmptyImage[SE]=./locomotives/sr-mn-4-6-2-rebuilt_SE.0.0
 EmptyImage[S]=./locomotives/sr-mn-4-6-2-rebuilt_S.0.0

@@ -32,6 +32,9 @@ increase_maintenance_after_years=25
 
 Constraint[Next][0]=LMR-Planet-Tender
 
+driver[0]=1
+staff[1]=1
+
 EmptyImage[E]=./carriages/lmr-planet-goods_E.0.0
 EmptyImage[SE]=./carriages/lmr-planet-goods_SE.0.0
 EmptyImage[S]=./carriages/lmr-planet-goods_S.0.0

@@ -36,6 +36,9 @@ bidirectional=0
 
 Constraint[Next][0]=BR-4MT-Tender
 
+driver[0]=1
+staff[1]=1
+
 EmptyImage[E]=./locomotives/br-4mt-4-6-0_E.0.0
 EmptyImage[SE]=./locomotives/br-4mt-4-6-0_SE.0.0
 EmptyImage[S]=./locomotives/br-4mt-4-6-0_S.0.0

@@ -32,6 +32,8 @@ is_tall=0
 
 Constraint[Next][0]=1900TubeStockTrailer
 
+driver[0]=1
+
 EmptyImage[E]=./images/clr-1900-loco.0.0
 EmptyImage[SE]=./images/clr-1900-loco.0.1
 EmptyImage[S]=./images/clr-1900-loco.0.2

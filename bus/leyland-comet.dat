@@ -34,6 +34,8 @@ max_loading_time=600
 constraint[next][0]=none
 constraint[prev][0]=none
 
+driver[5]=1
+
 EmptyImage[E]=./images/leyland-comet-bulk-empty_E.0.0,-33,14
 EmptyImage[SE]=./images/leyland-comet-bulk-empty_SE.0.0,-13,0
 EmptyImage[S]=./images/leyland-comet-bulk-empty_S.0.0,0,0
@@ -125,6 +127,8 @@ max_loading_time=600
 constraint[next][0]=none
 constraint[prev][0]=none
 
+driver[5]=1
+
 EmptyImage[E]=./images/leyland-comet-long-empty_E.0.0,-33,14
 EmptyImage[SE]=./images/leyland-comet-long-empty_SE.0.0,-13,0
 EmptyImage[S]=./images/leyland-comet-long-empty_S.0.0,0,0
@@ -187,6 +191,8 @@ max_loading_time=600
 constraint[next][0]=none
 constraint[prev][0]=none
 
+driver[5]=1
+
 EmptyImage[E]=./images/leyland-comet-piece_E.0.0,-33,14
 EmptyImage[SE]=./images/leyland-comet-piece_SE.0.0,-13,0
 EmptyImage[S]=./images/leyland-comet-piece_S.0.0,0,0
@@ -230,6 +236,8 @@ max_loading_time=600
 constraint[next][0]=none
 constraint[prev][0]=none
 
+driver[5]=1
+
 EmptyImage[E]=./images/leyland-comet-cool_E.0.0,-33,14
 EmptyImage[SE]=./images/leyland-comet-cool_SE.0.0,-13,0
 EmptyImage[S]=./images/leyland-comet-cool_S.0.0,0,0
@@ -271,6 +279,8 @@ max_loading_time=600
 
 constraint[next][0]=none
 constraint[prev][0]=none
+
+driver[5]=1
 
 EmptyImage[E]=./images/leyland-comet-livestock_E.0.0,-33,14
 EmptyImage[SE]=./images/leyland-comet-livestock_SE.0.0,-13,0
@@ -316,6 +326,8 @@ max_loading_time=600
 constraint[next][0]=none
 constraint[prev][0]=none
 
+driver[5]=1
+
 EmptyImage[E]=./images/leyland-comet-tanker_E.0.0,-33,14
 EmptyImage[SE]=./images/leyland-comet-tanker_SE.0.0,-13,0
 EmptyImage[S]=./images/leyland-comet-tanker_S.0.0,0,0
@@ -357,6 +369,8 @@ max_loading_time=600
 
 constraint[next][0]=none
 constraint[prev][0]=none
+
+driver[5]=1
 
 EmptyImage[E]=./images/leyland-comet-cars-empty_E.0.0,-33,14
 EmptyImage[SE]=./images/leyland-comet-cars-empty_SE.0.0,-13,0

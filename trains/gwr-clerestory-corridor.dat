@@ -681,6 +681,8 @@ Constraint[Next][36]=gwr-clerestory-mail
 Constraint[Next][37]=gwr-clerestory-tpo
 Constraint[Next][38]=none
 
+staff[2]=1
+
 liverytype[0]=GWR-two-tone
 liverytype[1]=GWR-overall-brown
 liverytype[2]=GWR-lake
@@ -841,6 +843,8 @@ Constraint[Prev][34]=gwr-clerestory-corridor-restaurant
 Constraint[Prev][35]=gwr-clerestory-full-brake
 Constraint[Prev][36]=gwr-clerestory-mail
 Constraint[Prev][37]=gwr-clerestory-tpo
+
+staff[2]=1
 
 liverytype[0]=GWR-two-tone
 liverytype[1]=GWR-overall-brown
@@ -1043,6 +1047,8 @@ Constraint[Prev][35]=gwr-clerestory-full-brake
 Constraint[Prev][36]=gwr-clerestory-mail
 Constraint[Prev][37]=gwr-clerestory-tpo
 
+staff[3]=3
+
 liverytype[0]=GWR-two-tone
 liverytype[1]=GWR-overall-brown
 liverytype[2]=GWR-lake
@@ -1154,6 +1160,8 @@ bidirectional=1
 
 min_loading_time=25
 max_loading_time=55
+
+staff[2]=1
 
 liverytype[0]=GWR-two-tone
 liverytype[1]=GWR-overall-brown
@@ -1533,6 +1541,8 @@ Constraint[Prev][34]=gwr-clerestory-corridor-restaurant
 Constraint[Prev][35]=gwr-clerestory-full-brake
 Constraint[Prev][36]=gwr-clerestory-mail
 Constraint[Prev][37]=gwr-clerestory-tpo
+
+staff[3]=3
 
 liverytype[0]=GWR-two-tone
 liverytype[1]=GWR-overall-brown

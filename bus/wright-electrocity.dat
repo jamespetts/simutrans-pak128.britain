@@ -38,6 +38,8 @@ Constraint[Next][0]=none
 
 # TODO: Add multiple liveries and a one door option
 
+driver[5]=1
+
 EmptyImage[E]=./images/wright-electrocity_E.0.0,-33,14
 EmptyImage[SE]=./images/wright-electrocity_SE.0.0,-13,0
 EmptyImage[S]=./images/wright-electrocity_S.0.0,4,0

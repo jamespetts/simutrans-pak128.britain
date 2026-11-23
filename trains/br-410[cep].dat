@@ -49,6 +49,9 @@ Constraint[Prev][8]=none
 
 Constraint[Next][0]=BR-410[CEP]Brake
 
+driver[0]=1
+multiple_working_type=1
+
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue
 liverytype[2]=Jaffa-Cake
@@ -140,6 +143,9 @@ Constraint[Prev][0]=BR-410[CEP]Front
 
 Constraint[Next][0]=BR-410[CEP]Middle
 Constraint[Next][1]=BR-410[CEP]Buffet
+
+
+
 
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue
@@ -233,6 +239,7 @@ comfort[3]=154
 Constraint[Prev][0]=BR-410[CEP]Brake
 Constraint[Next][0]=BR-410[CEP]Rear
 
+
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue
 liverytype[2]=Jaffa-Cake
@@ -322,6 +329,9 @@ catering_level=3
 
 Constraint[Prev][0]=BR-410[CEP]Brake
 Constraint[Next][0]=BR-410[CEP]Rear
+
+staff[3]=1
+
 
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue
@@ -427,6 +437,10 @@ Constraint[Next][4]=BR-423-DTCL-Front
 Constraint[Next][5]=BR-421[CIG]Front
 Constraint[Next][6]=BR-4EPB(front)
 Constraint[Next][7]=none
+
+driver[0]=1
+staff[2]=1
+multiple_working_type=1
 
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue

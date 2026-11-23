@@ -35,6 +35,9 @@ sound=androo4519-btu9613t.wav
 constraint[next][0]=none
 constraint[prev][0]=none
 
+driver[5]=1
+staff[6]=1
+
 liverytype[0]=Bradford-standard
 liverytype[1]=Teesside-standard
 liverytype[2]=Birmingham-Corporation

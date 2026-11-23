@@ -41,6 +41,9 @@ Constraint[Prev][2]=none
 
 Constraint[Next][0]=BR-456-DTSO
 
+driver[0]=1
+multiple_working_type=1
+
 EmptyImage[E]=./railcars/br-456-motor_E.0.0
 EmptyImage[SE]=./railcars/br-456-motor_SE.0.0
 EmptyImage[S]=./railcars/br-456-motor_S.0.0
@@ -91,6 +94,11 @@ Constraint[Next][1]=BR-455-Driving-Front
 Constraint[Next][2]=none
 
 Constraint[Prev][0]=BR-456-DMSO
+
+staff[2]=1
+multiple_working_type=1
+
+driver[0]=1
 
 EmptyImage[E]=./railcars/br-456-trailer_E.0.0
 EmptyImage[SE]=./railcars/br-456-trailer_SE.0.0

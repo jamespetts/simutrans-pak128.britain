@@ -35,6 +35,8 @@ sound=ff3170-volvo-alisa-b55.wav
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
 
+driver[5]=1
+
 liverytype[0]=London-Buses
 liverytype[1]=LT-revised
 liverytype[2]=Bradford-standard
@@ -163,6 +165,8 @@ sound=ff3170-volvo-alisa-b55.wav
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
+
+driver[5]=1
 
 liverytype[0]=London-Buses
 liverytype[1]=LT-revised

@@ -35,6 +35,8 @@ sound=hkmtrhah-volvo-bm10.wav
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
 
+driver[5]=1
+
 liverytype[0]=London-United-grey-white
 liverytype[1]=Metroline-blue-skirt
 liverytype[2]=Grey-Green-standard
@@ -100,6 +102,8 @@ sound=hkmtrhah-volvo-bm10.wav
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
+
+driver[5]=1
 
 liverytype[0]=London-United-grey-white
 liverytype[1]=Metroline-blue-skirt

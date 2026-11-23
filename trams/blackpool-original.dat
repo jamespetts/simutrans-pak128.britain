@@ -39,6 +39,9 @@ Constraint[Prev][0]=none
 
 Constraint[Next][0]=none
 
+driver[5]=1
+staff[6]=1
+
 EmptyImage[E]=./images/blackpool-original_E.0.0
 EmptyImage[SE]=./images/blackpool-original_SE.0.0
 EmptyImage[S]=./images/blackpool-original_S.0.0

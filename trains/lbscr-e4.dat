@@ -27,6 +27,9 @@ sound=lwalker-br-4mt-tank.wav
 can_lead_from_rear=0
 bidirectional=1
 
+driver[0]=1
+staff[1]=1
+
 liverytype[0]=LBSCR-Stroudley
 liverytype[1]=LBSCR-Marsh
 liverytype[2]=SR-Olive-Green

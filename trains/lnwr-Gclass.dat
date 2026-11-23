@@ -30,6 +30,9 @@ years_before_maintenance_max_reached=25
 
 Constraint[Next][0]=LNWR-AClass-Tender
 
+driver[0]=1
+staff[1]=1
+
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard
 liverytype[2]=BR-Early

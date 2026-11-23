@@ -39,6 +39,9 @@ Constraint[Next][0]=none
 upgrade[0]=aec-ns-type-double-covered
 upgrade[1]=aec-ns-type-double-pneumatic
 
+driver[5]=1
+staff[6]=1
+
 liverytype[0]=General
 
 EmptyImage[E][0]=./images/ns-type-double_E.0.0,-33,14
@@ -98,6 +101,9 @@ upgrade[0]=aec-ns-type-double-pneumatic
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
+
+driver[5]=1
+staff[6]=1
 
 liverytype[0]=General
 liverytype[1]=LT
@@ -167,6 +173,9 @@ max_loading_time=114
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
+
+driver[5]=1
+staff[6]=1
 
 liverytype[0]=General
 liverytype[1]=LT

@@ -27,6 +27,9 @@ air_resistance=140
 increase_maintenance_after_years=7
 years_before_maintenance_max_reached=9
 
+driver[0]=1
+staff[1]=1
+
 EmptyImage[E]=./locomotives/sr-leader.0.0
 EmptyImage[SE]=./locomotives/sr-leader.0.1
 EmptyImage[S]=./locomotives/sr-leader.0.2

@@ -47,6 +47,9 @@ Constraint[Prev][2]=none
 
 Constraint[Next][0]=BR-430[REP]Brake
 
+driver[0]=1
+multiple_working_type=1
+
 EmptyImage[E]=./railcars/br-430-a-bg_E.0.0
 EmptyImage[SE]=./railcars/br-430-a-bg_SE.0.0
 EmptyImage[S]=./railcars/br-430-a-bg_S.0.0
@@ -94,6 +97,9 @@ Constraint[Prev][0]=BR-430[REP]Front
 
 Constraint[Next][0]=BR-430[REP]Middle
 Constraint[Next][1]=BR-430[REP]Buffet
+
+
+
 
 EmptyImage[E]=./railcars/br-421-mbso-bg_E.0.0
 EmptyImage[SE]=./railcars/br-421-mbso-bg_SE.0.0
@@ -145,6 +151,7 @@ Constraint[Prev][0]=BR-430[REP]Brake
 
 Constraint[Next][0]=BR-430[REP]Rear
 
+
 EmptyImage[E]=./carriages/br-mk1-sk-bg_E.0.0
 EmptyImage[SE]=./carriages/br-mk1-sk-bg_SE.0.0
 EmptyImage[S]=./carriages/br-mk1-sk-bg_S.0.0
@@ -194,6 +201,9 @@ catering_level=3
 Constraint[Prev][0]=BR-430[REP]Brake
 
 Constraint[Next][0]=BR-430[REP]Rear
+
+staff[3]=1
+
 
 EmptyImage[E]=./carriages/br-mk1-rmb-bg_E.0.0
 EmptyImage[SE]=./carriages/br-mk1-rmb-bg_SE.0.0
@@ -255,6 +265,10 @@ Constraint[Prev][1]=BR-430[REP]Buffet
 Constraint[Next][0]=BR-430[REP]Front
 Constraint[Next][1]=BR-491[TC]Front
 Constraint[Next][2]=none
+
+driver[0]=1
+staff[2]=1
+multiple_working_type=1
 
 EmptyImage[E]=./railcars/br-430-b-bg_E.0.0
 EmptyImage[SE]=./railcars/br-430-b-bg_SE.0.0

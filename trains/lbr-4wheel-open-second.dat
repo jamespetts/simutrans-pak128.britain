@@ -92,6 +92,8 @@ bidirectional=1
 
 # TODO: Add liveries
 
+staff[2]=1
+
 liverytype[0]=LMR-Standard
 #liverytype[1]=MR-Early
 #liverytype[2]=LNWR-Early

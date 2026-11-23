@@ -28,6 +28,9 @@ years_before_maintenance_max_reached=10
 
 Constraint[Next][0]=GWR-Hawksworth-County-Tender
 
+driver[0]=1
+staff[1]=1
+
 liverytype[0]=GWR-hawksworth
 liverytype[1]=BR-Early
 liverytype[2]=BR-Revised

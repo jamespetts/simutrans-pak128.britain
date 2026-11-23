@@ -19,6 +19,8 @@ intro_month=1
 retire_year=1990
 retire_month=12
 
+driver[5]=1
+
 EmptyImage[E]=./images/leyland-t45-roadtrain-tractor_E.0.0,-33,14
 EmptyImage[SE]=./images/leyland-t45-roadtrain-tractor_SE.0.0,-13,0
 EmptyImage[S]=./images/leyland-t45-roadtrain-tractor_S.0.0,0,0
@@ -61,6 +63,8 @@ retire_month=12
 Freight=Post
 payload=600
 
+driver[5]=1
+
 EmptyImage[E]=./images/leyland-t45-roadtrain-tractor-mail_E.0.0,-33,14
 EmptyImage[SE]=./images/leyland-t45-roadtrain-tractor-mail_SE.0.0,-13,0
 EmptyImage[S]=./images/leyland-t45-roadtrain-tractor-mail_S.0.0,0,0
@@ -94,6 +98,8 @@ intro_year=1988
 intro_month=4
 retire_year=2000
 retire_month=10
+
+driver[5]=1
 
 EmptyImage[E]=./images/leyland-daf-85-tractor_E.0.0,-33,14
 EmptyImage[SE]=./images/leyland-daf-85-tractor_SE.0.0,-13,0
@@ -137,6 +143,8 @@ retire_month=10
 Freight=Post
 payload=750
 
+driver[5]=1
+
 EmptyImage[E]=./images/leyland-daf-85-tractor-mail_E.0.0,-33,14
 EmptyImage[SE]=./images/leyland-daf-85-tractor-mail_SE.0.0,-13,0
 EmptyImage[S]=./images/leyland-daf-85-tractor-mail_S.0.0,0,0
@@ -169,6 +177,8 @@ fixed_cost=8065
 intro_year=2000
 intro_month=4
 sound=clarkster92-scania-h2870.wav
+
+driver[5]=1
 
 EmptyImage[E]=./images/daf-cf-tractor_E.0.0,-33,14
 EmptyImage[SE]=./images/daf-cf-tractor_SE.0.0,-13,0
@@ -211,6 +221,8 @@ sound=clarkster92-scania-h2870.wav
 
 Freight=Post
 payload=900
+
+driver[5]=1
 
 EmptyImage[E]=./images/daf-cf-tractor-mail_E.0.0,-33,14
 EmptyImage[SE]=./images/daf-cf-tractor-mail_SE.0.0,-13,0

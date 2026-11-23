@@ -29,6 +29,8 @@ sound=video47-ng-diesel.wav
 can_lead_from_rear=0
 bidirectional=1
 
+driver[0]=1
+
 EmptyImage[W]=./images/funkey-diesel_E.0.0
 EmptyImage[NW]=./images/funkey-diesel_SE.0.0
 EmptyImage[N]=./images/funkey-diesel_S.0.0

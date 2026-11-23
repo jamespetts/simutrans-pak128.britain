@@ -31,6 +31,9 @@ sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=royal-george-tender
 
+driver[0]=1
+staff[1]=1
+
 EmptyImage[E]=./locomotives/royal-george_E.0.0
 EmptyImage[SE]=./locomotives/royal-george_SE.0.0
 EmptyImage[S]=./locomotives/royal-george_S.0.0

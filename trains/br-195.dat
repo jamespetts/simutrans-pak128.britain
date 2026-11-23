@@ -39,6 +39,9 @@ Constraint[Prev][1]=none
 Constraint[Next][0]=BR-195Rear
 Constraint[Next][1]=BR-195Middle
 
+driver[0]=1
+multiple_working_type=1
+
 liverytype[0]=Northern
 
 EmptyImage[E][0]=./railcars/br-331-front-northern_E.png
@@ -95,6 +98,10 @@ Constraint[Prev][1]=BR-195Front
 Constraint[Next][0]=BR-195Front
 Constraint[Next][1]=none
 
+driver[0]=1
+staff[2]=1
+multiple_working_type=1
+
 liverytype[0]=Northern
 
 EmptyImage[E][0]=./railcars/br-331-rear-northern_E.png
@@ -149,6 +156,7 @@ Constraint[Prev][1]=BR-195Middle
 
 Constraint[Next][0]=BR-195Rear
 Constraint[Next][1]=BR-195Middle
+
 
 liverytype[0]=Northern
 

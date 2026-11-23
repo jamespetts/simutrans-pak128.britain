@@ -36,6 +36,8 @@ Constraint[Next][0]=none
 
 # TODO: Add more liveries
 
+driver[5]=1
+
 liverytype[0]=Metroline-blue-skirt
 liverytype[1]=Metroline-plain-red
 
@@ -93,6 +95,8 @@ Constraint[Prev][0]=none
 Constraint[Next][0]=none
 
 # TODO: Add more liveries
+
+driver[5]=1
 
 liverytype[0]=Metroline-blue-skirt
 liverytype[1]=Metroline-plain-red

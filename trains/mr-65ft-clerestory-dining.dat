@@ -163,6 +163,8 @@ Constraint[Prev][61]=MR-54ft-clerestory-cor-composite-d593
 Constraint[Prev][62]=MR-54ft-clerestory-cor-first-d600
 Constraint[Prev][63]=MR-54ft-eliptical-cor-brake-composite-front-d1046
 
+staff[3]=3
+
 liverytype[0]=MR-Standard
 
 EmptyImage[E][0]=./carriages/mr-65ft-clerestory-dining_E.0.0

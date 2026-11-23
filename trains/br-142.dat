@@ -53,6 +53,9 @@ Constraint[Prev][12]=none
 
 Constraint[Next][0]=br-142-rear
 
+driver[0]=1
+multiple_working_type=1
+
 liverytype[0]=GMPTE-orange-brown
 liverytype[1]=Provincial
 liverytype[2]=BR-Large-Logo
@@ -151,6 +154,10 @@ Constraint[Next][11]=BR-170Front
 Constraint[Next][12]=br-159-front
 Constraint[Next][13]=none
 
+driver[0]=1
+staff[2]=1
+multiple_working_type=1
+
 liverytype[0]=GMPTE-orange-brown
 liverytype[1]=Provincial
 liverytype[2]=BR-Blue
@@ -247,6 +254,9 @@ Constraint[Prev][11]=br-159-rear
 Constraint[Prev][12]=none
 
 Constraint[Next][0]=br-142-1-rear
+
+driver[0]=1
+multiple_working_type=1
 
 liverytype[0]=Regional-Railways-Standard
 liverytype[1]=GMPTE-orange-brown
@@ -384,6 +394,9 @@ Constraint[Next][10]=br-144-1-front
 Constraint[Next][11]=BR-170Front
 Constraint[Next][12]=br-159-front
 Constraint[Next][13]=none
+
+driver[0]=1
+multiple_working_type=1
 
 liverytype[0]=Regional-Railways-Standard
 liverytype[1]=GMPTE-orange-brown

@@ -55,6 +55,8 @@ Constraint[Next][16]=ltsr-6wheel-composite-dia8
 Constraint[Next][17]=ltsr-4wheel-composite-dia7
 Constraint[Next][17]=none
 
+staff[2]=1
+
 liverytype[0]=LTSR-standard
 liverytype[1]=MR-Standard
 liverytype[2]=LMS-Standard
@@ -143,6 +145,8 @@ Constraint[Next][15]=ltsr-6wheel-composite-dia9
 Constraint[Next][16]=ltsr-6wheel-composite-dia8
 Constraint[Next][17]=ltsr-4wheel-composite-dia7
 Constraint[Next][17]=none
+
+staff[2]=1
 
 liverytype[0]=LTSR-standard
 liverytype[1]=MR-Standard
@@ -542,6 +546,8 @@ Constraint[Next][15]=ltsr-6wheel-composite-dia9
 Constraint[Next][16]=ltsr-6wheel-composite-dia8
 Constraint[Next][17]=ltsr-4wheel-composite-dia7
 Constraint[Next][18]=none
+
+staff[2]=1
 
 liverytype[0]=LTSR-standard
 liverytype[1]=MR-Standard

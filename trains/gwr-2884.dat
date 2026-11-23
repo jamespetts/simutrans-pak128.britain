@@ -28,6 +28,9 @@ sound=keithpeter-gwr-hall.wav
 Constraint[Next][0]=gwr-2884-tender
 
 # NOTE: This shares a .blend file with the 2800
+driver[0]=1
+staff[1]=1
+
 liverytype[0]=GWR-chocolate-cream-lined
 liverytype[1]=WW2-Austerity
 liverytype[2]=BR-Early

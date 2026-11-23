@@ -34,6 +34,8 @@ max_loading_time=65
 Constraint[Prev][0]=any
 Constraint[Next][0]=any
 
+staff[3]=1
+
 liverytype[0]=Pullman-Cream-Umber
 
 EmptyImage[W][0]=./images/whr-pullman_E.0.0

@@ -30,6 +30,9 @@ bidirectional=0
 
 Constraint[Next][0]=LMS-Stanier-Mogul-Tender
 
+driver[0]=1
+staff[1]=1
+
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
 

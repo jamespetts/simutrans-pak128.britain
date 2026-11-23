@@ -39,6 +39,9 @@ max_loading_time=189
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
 
+driver[5]=1
+staff[6]=1
+
 liverytype[0]=Private
 liverytype[1]=Leaf-Green
 liverytype[2]=Poppy-Red

@@ -82,6 +82,8 @@ Constraint[Next][44]=lswr-42ft-first
 Constraint[Next][45]=lswr-42ft-tricomposite
 Constraint[Next][46]=none
 
+staff[2]=1
+
 liverytype[0]=LSWR-pea-green
 liverytype[1]=LSWR-sage
 liverytype[2]=SR-Olive-Green
@@ -195,6 +197,8 @@ Constraint[Prev][42]=lswr-42ft-brake-third-front
 Constraint[Prev][43]=lswr-42ft-third
 Constraint[Prev][44]=lswr-42ft-first
 Constraint[Prev][45]=lswr-42ft-tricomposite
+
+staff[2]=1
 
 liverytype[0]=LSWR-pea-green
 liverytype[1]=LSWR-sage

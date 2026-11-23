@@ -41,13 +41,11 @@ runningcost=20
 fixed_cost=1400
 
 override_way_speed=0
-multiple_working_type=0
 self_contained_catering=0
 calibration_speed=75
 cut_off_speed=40
 fuel_per_km=0
 
-driver[0]=0
 staff[0]=0
 
 initial_overhaul_cost=119603
@@ -230,13 +228,11 @@ runningcost=18
 fixed_cost=1328
 
 override_way_speed=0
-multiple_working_type=0
 self_contained_catering=0
 calibration_speed=75
 cut_off_speed=40
 fuel_per_km=0
 
-driver[0]=0
 staff[0]=0
 
 initial_overhaul_cost=103454
@@ -419,13 +415,11 @@ runningcost=18
 fixed_cost=1328
 
 override_way_speed=0
-multiple_working_type=0
 self_contained_catering=0
 calibration_speed=75
 cut_off_speed=40
 fuel_per_km=0
 
-driver[0]=0
 staff[0]=0
 
 initial_overhaul_cost=119603
@@ -603,7 +597,6 @@ runningcost=18
 fixed_cost=1328
 
 override_way_speed=0
-multiple_working_type=0
 self_contained_catering=0
 calibration_speed=75
 cut_off_speed=40
@@ -779,13 +772,11 @@ runningcost=18
 fixed_cost=1328
 
 override_way_speed=0
-multiple_working_type=0
 self_contained_catering=0
 calibration_speed=75
 cut_off_speed=40
 fuel_per_km=0
 
-driver[0]=0
 staff[0]=0
 
 initial_overhaul_cost=46250
@@ -959,7 +950,6 @@ runningcost=18
 fixed_cost=1328
 
 override_way_speed=0
-multiple_working_type=0
 self_contained_catering=0
 calibration_speed=75
 cut_off_speed=40
@@ -1139,13 +1129,11 @@ runningcost=18
 fixed_cost=1328
 
 override_way_speed=0
-multiple_working_type=0
 self_contained_catering=0
 calibration_speed=75
 cut_off_speed=40
 fuel_per_km=0
 
-driver[0]=0
 staff[0]=0
 
 initial_overhaul_cost=46250
@@ -1318,13 +1306,11 @@ runningcost=18
 fixed_cost=1328
 
 override_way_speed=0
-multiple_working_type=0
 self_contained_catering=0
 calibration_speed=75
 cut_off_speed=40
 fuel_per_km=0
 
-driver[0]=0
 staff[0]=0
 
 initial_overhaul_cost=46250
@@ -2684,6 +2670,8 @@ can_lead_from_rear=0
 bidirectional=1
 increase_maintenance_after_years=45
 
+staff[2]=1
+
 liverytype[0]=LNWR-Early
 liverytype[1]=MR-Early
 liverytype[2]=MR-Standard
@@ -3451,6 +3439,8 @@ Constraint[Prev][111]=gnr-suburban-4wheel-third
 Constraint[Prev][112]=gnr-suburban-4wheel-second
 Constraint[Prev][113]=gnr-suburban-4wheel-first
 Constraint[Prev][114]=gnr-suburban-4wheel-brake-third-front
+
+staff[3]=3
 
 liverytype[0]=LNWR-Early
 liverytype[1]=MR-Early

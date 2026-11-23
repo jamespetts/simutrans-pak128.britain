@@ -41,6 +41,9 @@ Constraint[Next][0]=BR-196Rear
 Constraint[Next][1]=BR-196Middle
 Constraint[Next][2]=BR-196Rear-first
 
+driver[0]=1
+multiple_working_type=1
+
 liverytype[0]=west-midlands-network
 
 EmptyImage[E][0]=./railcars/br-196-front-wmr_E.png
@@ -96,6 +99,9 @@ Constraint[Prev][2]=none
 Constraint[Next][0]=BR-196Rear
 Constraint[Next][1]=BR-196Middle
 Constraint[Next][2]=BR-196Rear-first
+
+driver[0]=1
+multiple_working_type=1
 
 liverytype[0]=west-midlands-network
 
@@ -153,6 +159,10 @@ Constraint[Prev][2]=BR-196Front-trolley
 Constraint[Next][0]=BR-196Front
 Constraint[Next][1]=BR-196Front-trolley
 Constraint[Next][2]=none
+
+driver[0]=1
+staff[2]=1
+multiple_working_type=1
 
 liverytype[0]=west-midlands-network
 
@@ -215,6 +225,9 @@ Constraint[Next][0]=BR-196Front
 Constraint[Next][1]=BR-196Front-trolley
 Constraint[Next][2]=none
 
+driver[0]=1
+multiple_working_type=1
+
 liverytype[0]=west-midlands-network
 
 EmptyImage[E][0]=./railcars/br-196-rear-wmr_E.png
@@ -270,6 +283,7 @@ Constraint[Prev][2]=BR-196Middle
 Constraint[Next][0]=BR-196Rear
 Constraint[Next][1]=BR-196Rear-first
 Constraint[Next][2]=BR-196Middle
+
 
 liverytype[0]=west-midlands-network
 

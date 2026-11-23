@@ -37,6 +37,8 @@ Constraint[Prev][3]=BR-Class29
 Constraint[Prev][4]=BR-Class30
 Constraint[Prev][5]=none
 
+driver[0]=1
+
 liverytype[0]=BR-Early
 
 EmptyImage[E][0]=./locomotives/br-cl21-g.1.4

@@ -49,6 +49,8 @@ Constraint[Prev][5]=road-horse-clydesdale-double
 
 Constraint[Next][0]=mail-boot
 
+driver[5]=1
+
 EmptyImage[E]=./images/mailcoach-regency_E.0.0,-33,14
 EmptyImage[SE]=./images/mailcoach-regency_SE.0.0,-13,0
 EmptyImage[S]=./images/mailcoach-regency_S.0.0,0,0

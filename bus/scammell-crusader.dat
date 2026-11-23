@@ -21,6 +21,8 @@ intro_month=8
 retire_year=1981
 retire_month=10
 
+driver[5]=1
+
 EmptyImage[E]=./images/scammel-crusader-tractor_E.0.0,-33,14
 EmptyImage[SE]=./images/scammel-crusader-tractor_SE.0.0,-13,0
 EmptyImage[S]=./images/scammel-crusader-tractor_S.0.0,0,0

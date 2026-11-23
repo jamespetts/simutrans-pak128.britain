@@ -38,6 +38,10 @@ Constraint[Prev][0]=none
 Constraint[Next][0]=Sheffield-Supertram(Middle)
 
 # TODO: Consider adding earlier liveries.
+driver[5]=1
+staff[6]=1
+multiple_working_type=2
+
 EmptyImage[E]=./images/sheffield-supertram-front.1.4
 EmptyImage[SE]=./images/sheffield-supertram-front.1.5
 EmptyImage[S]=./images/sheffield-supertram-front.1.6
@@ -86,6 +90,9 @@ max_loading_time=40
 Constraint[Next][0]=Sheffield-Supertram(Rear)
 Constraint[Prev][0]=Sheffield-Supertram(Front)
 
+driver[5]=1
+multiple_working_type=2
+
 EmptyImage[E]=./images/sheffield-supertram-middle.1.4
 EmptyImage[SE]=./images/sheffield-supertram-middle.1.5
 EmptyImage[S]=./images/sheffield-supertram-middle.1.6
@@ -131,6 +138,9 @@ max_loading_time=40
 
 Constraint[Prev][0]=Sheffield-Supertram(Middle)
 Constraint[Next][0]=none
+
+driver[5]=1
+multiple_working_type=2
 
 EmptyImage[E]=./images/sheffield-supertram-rear.1.4
 EmptyImage[SE]=./images/sheffield-supertram-rear.1.5

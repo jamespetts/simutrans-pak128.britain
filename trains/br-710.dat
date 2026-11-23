@@ -41,6 +41,9 @@ Constraint[Prev][1]=none
 Constraint[Next][0]=BR-710Panto
 Constraint[Next][1]=BR-710Middle
 
+driver[0]=1
+multiple_working_type=1
+
 liverytype[0]=LO-revised
 
 EmptyImage[E][0]=./railcars/br-710-front-lorol_E.0
@@ -95,6 +98,7 @@ Constraint[Next][0]=BR-710Rear
 Constraint[Next][1]=BR-710Middle
 Constraint[Next][2]=BR-710Panto
 
+
 liverytype[0]=LO-revised
 
 EmptyImage[E][0]=./railcars/br-710-middle-lorol_E.0
@@ -146,6 +150,7 @@ Constraint[Prev][1]=BR-710Middle
 
 Constraint[Next][0]=BR-710Rear
 Constraint[Next][1]=BR-710Middle
+
 
 liverytype[0]=LO-revised
 
@@ -200,6 +205,9 @@ Constraint[Prev][1]=BR-710Panto
 
 Constraint[Next][0]=BR-710Front
 Constraint[Next][1]=none
+
+driver[0]=1
+multiple_working_type=1
 
 liverytype[0]=LO-revised
 

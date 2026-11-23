@@ -102,6 +102,8 @@ Constraint[Prev][28]=BR-Mk1-PSP
 Constraint[Prev][29]=BR-Mk1-PFP
 Constraint[Prev][30]=pullman-1951-kitchen-first
 
+staff[3]=1
+
 liverytype[0]=BR-Early
 liverytype[1]=BR-Revised
 liverytype[2]=BR-Blue

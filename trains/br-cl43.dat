@@ -34,13 +34,19 @@ max_loading_time=50
 can_lead_from_rear=1
 bidirectional=0
 
-Constraint[Prev][0]=none
+Constraint[Prev][0]=BR-Class43Rear
+Constraint[Prev][1]=none
 
 Constraint[Next][0]=BR-Mk3-TSO
 Constraint[Next][1]=BR-Mk3-TRB
 Constraint[Next][2]=BR-Mk3-TRFB
 Constraint[Next][3]=BR-Mk3-FO
 Constraint[Next][4]=BR-Mk3-TRFB-pullman
+
+driver[0]=1
+multiple_working_type=1
+
+staff[2]=1
 
 liverytype[0]=BR-Blue
 liverytype[1]=IC-Executive
@@ -217,7 +223,12 @@ Constraint[Prev][2]=BR-Mk3-TRFB
 Constraint[Prev][3]=BR-Mk3-FO
 Constraint[Prev][4]=BR-Mk3-TRFB-pullman
 
-Constraint[Next][0]=none
+Constraint[Next][0]=BR-Class43
+Constraint[Next][1]=none
+
+driver[0]=1
+staff[2]=1
+multiple_working_type=1
 
 liverytype[0]=BR-Blue
 liverytype[1]=IC-Executive

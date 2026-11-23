@@ -104,6 +104,7 @@ waytype=narrowgauge_track
 freight=Post
 payload=150
 length=3
+brake_force=2
 rolling_resistance=19
 
 weight=4

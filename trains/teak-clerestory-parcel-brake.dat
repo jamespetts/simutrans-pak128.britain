@@ -31,6 +31,8 @@ Constraint[Next][4]=Teak-Clerestory-Dining
 Constraint[Next][5]=Teak-Clerestory-Parcel-Brake
 Constraint[Next][6]=none
 
+staff[2]=1
+
 EmptyImage[E]=./carriages/teak-clerestory-mail.1.0
 EmptyImage[SE]=./carriages/teak-clerestory-mail.1.1
 EmptyImage[S]=./carriages/teak-clerestory-mail.1.2

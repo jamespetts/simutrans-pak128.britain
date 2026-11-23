@@ -41,6 +41,8 @@ max_loading_time=115
 comfort[0]=0
 comfort[1]=70
 
+staff[2]=1
+
 liverytype[0]=LNER-Standard
 liverytype[1]=BR-Early
 

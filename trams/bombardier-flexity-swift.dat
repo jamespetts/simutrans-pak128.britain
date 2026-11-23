@@ -45,6 +45,9 @@ max_loading_time=45
 Constraint[Prev][0]=none
 Constraint[Next][0]=Flexity-SwiftRear
 
+driver[5]=1
+multiple_working_type=2
+
 liverytype[0]=Tramlink-red
 liverytype[1]=Tramlink-green
 liverytype[2]=Metrolink-yellow
@@ -116,6 +119,9 @@ max_loading_time=45
 
 Constraint[Prev][0]=Flexity-SwiftFront
 Constraint[Next][0]=none
+
+driver[5]=1
+multiple_working_type=2
 
 liverytype[0]=Tramlink-red
 liverytype[1]=Tramlink-green

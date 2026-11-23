@@ -96,6 +96,8 @@ Constraint[Prev][26]=pullman-vestibule-kitchen
 Constraint[Prev][27]=pullman-vestibule-12-wheel-parlour
 Constraint[Prev][28]=pullman-vestibule-12-wheel-kitchen
 
+staff[3]=1
+
 liverytype[0]=Pullman-Ivory-Umber
 liverytype[1]=Pullman-Cream-Umber
 liverytype[2]=WW2-Austerity
@@ -226,6 +228,8 @@ Constraint[Prev][25]=pullman-vestibule-parlour
 Constraint[Prev][26]=pullman-vestibule-kitchen
 Constraint[Prev][27]=pullman-vestibule-12-wheel-parlour
 Constraint[Prev][28]=pullman-vestibule-12-wheel-kitchen
+
+staff[3]=1
 
 liverytype[0]=Pullman-Ivory-Umber
 liverytype[1]=Pullman-Cream-Umber
@@ -360,6 +364,8 @@ Constraint[Prev][26]=pullman-vestibule-kitchen
 Constraint[Prev][27]=pullman-vestibule-12-wheel-parlour
 Constraint[Prev][28]=pullman-vestibule-12-wheel-kitchen
 
+staff[3]=3
+
 liverytype[0]=Pullman-Ivory-Umber
 liverytype[1]=Pullman-Cream-Umber
 liverytype[2]=WW2-Austerity
@@ -438,6 +444,8 @@ comfort[4]=158
 Constraint[Next][0]=any
 
 Constraint[Prev][0]=any
+
+staff[3]=3
 
 liverytype[0]=Pullman-Ivory-Umber
 liverytype[1]=Pullman-Cream-Umber
@@ -542,6 +550,8 @@ Constraint[Next][27]=pullman-vestibule-12-wheel-parlour
 Constraint[Next][28]=pullman-vestibule-12-wheel-kitchen
 Constraint[Next][29]=none
 
+staff[2]=1
+
 liverytype[0]=Pullman-Ivory-Umber
 liverytype[1]=Pullman-Cream-Umber
 liverytype[2]=WW2-Austerity
@@ -642,6 +652,8 @@ Constraint[Prev][25]=pullman-vestibule-parlour
 Constraint[Prev][26]=pullman-vestibule-kitchen
 Constraint[Prev][27]=pullman-vestibule-12-wheel-parlour
 Constraint[Prev][28]=pullman-vestibule-12-wheel-kitchen
+
+staff[2]=1
 
 liverytype[0]=Pullman-Ivory-Umber
 liverytype[1]=Pullman-Cream-Umber

@@ -47,6 +47,10 @@ max_loading_time=45
 Constraint[Prev][0]=none
 Constraint[Next][0]=bombardier-incentro-middle1
 
+driver[5]=1
+
+multiple_working_type=2
+
 EmptyImage[E]=./images/bombardier-incentro-front.1.4
 EmptyImage[SE]=./images/bombardier-incentro-front.1.5
 EmptyImage[S]=./images/bombardier-incentro-front.1.6
@@ -93,6 +97,7 @@ max_loading_time=45
 
 Constraint[Prev][0]=bombardier-incentro-front
 Constraint[Next][0]=bombardier-incentro-panto
+
 
 EmptyImage[E]=./images/bombardier-incentro-middle.1.4
 EmptyImage[SE]=./images/bombardier-incentro-middle.1.5
@@ -141,6 +146,7 @@ max_loading_time=45
 Constraint[Prev][0]=bombardier-incentro-panto
 Constraint[Next][0]=bombardier-incentro-rear
 
+
 EmptyImage[E]=./images/bombardier-incentro-middle.1.4
 EmptyImage[SE]=./images/bombardier-incentro-middle.1.5
 EmptyImage[S]=./images/bombardier-incentro-middle.1.6
@@ -187,6 +193,7 @@ max_loading_time=45
 
 Constraint[Prev][0]=bombardier-incentro-middle1
 Constraint[Next][0]=bombardier-incentro-middle2
+
 
 EmptyImage[E]=./images/bombardier-incentro-panto.1.4
 EmptyImage[SE]=./images/bombardier-incentro-panto.1.5
@@ -237,6 +244,10 @@ max_loading_time=45
 
 Constraint[Prev][0]=bombardier-incentro-middle2
 Constraint[Next][0]=none
+
+driver[5]=1
+
+multiple_working_type=2
 
 EmptyImage[E]=./images/bombardier-incentro-rear.1.4
 EmptyImage[SE]=./images/bombardier-incentro-rear.1.5

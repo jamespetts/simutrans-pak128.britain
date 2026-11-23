@@ -34,6 +34,9 @@ max_loading_time=94
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
 
+driver[5]=1
+staff[6]=1
+
 liverytype[0]=LT-revised
 liverytype[1]=LT-Green-revised
 liverytype[2]=London-Country-standard

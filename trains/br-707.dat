@@ -39,6 +39,9 @@ Constraint[Prev][1]=none
 
 Constraint[Next][0]=BR-707MiddleTrailer
 
+driver[0]=1
+multiple_working_type=1
+
 liverytype[0]=SWT-modified
 liverytype[1]=southeastern-blue
 
@@ -102,6 +105,7 @@ Constraint[Next][1]=BR-707MiddleTrailer
 Constraint[Next][2]=BR-707TSOW
 Constraint[Next][3]=BR-707Rear
 
+
 liverytype[0]=SWT-modified
 liverytype[1]=southeastern-blue
 
@@ -161,6 +165,7 @@ Constraint[Prev][1]=BR-707MiddlePower
 
 Constraint[Next][0]=BR-707Panto
 
+
 liverytype[0]=SWT-modified
 liverytype[1]=southeastern-blue
 
@@ -218,6 +223,7 @@ way_constraint_permissive[0]=0
 Constraint[Prev][0]=BR-707TSOW
 
 Constraint[Next][0]=BR-707Rear
+
 
 liverytype[0]=SWT-modified
 liverytype[1]=southeastern-blue
@@ -282,6 +288,7 @@ Constraint[Prev][1]=BR-707MiddlePower
 Constraint[Next][0]=BR-707MiddlePower
 Constraint[Next][1]=BR-707MiddleTrailer
 
+
 liverytype[0]=SWT-modified
 liverytype[1]=southeastern-blue
 
@@ -345,6 +352,9 @@ Constraint[Prev][1]=BR-707MiddleTrailer
 
 Constraint[Next][0]=BR-707Front
 Constraint[Next][1]=none
+
+driver[0]=1
+multiple_working_type=1
 
 liverytype[0]=SWT-modified
 liverytype[1]=southeastern-blue

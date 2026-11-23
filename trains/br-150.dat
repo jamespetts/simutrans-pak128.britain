@@ -54,6 +54,9 @@ Constraint[Prev][12]=none
 Constraint[Next][0]=br-150-rear
 Constraint[Next][1]=br-150-centre
 
+driver[0]=1
+multiple_working_type=1
+
 liverytype[0]=Provincial
 liverytype[1]=Sprinter
 liverytype[2]=Regional-Railways-Standard
@@ -137,6 +140,7 @@ comfort[1]=82
 Constraint[Prev][0]=br-150-front
 
 Constraint[Next][0]=br-150-rear
+
 
 liverytype[0]=Provincial
 liverytype[1]=Sprinter
@@ -236,6 +240,10 @@ Constraint[Next][10]=br-144-1-front
 Constraint[Next][11]=BR-170Front
 Constraint[Next][12]=br-159-front
 Constraint[Next][13]=none
+
+driver[0]=1
+staff[2]=1
+multiple_working_type=1
 
 liverytype[0]=Provincial
 liverytype[1]=Sprinter

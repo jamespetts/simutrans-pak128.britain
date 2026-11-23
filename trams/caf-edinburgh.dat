@@ -42,6 +42,10 @@ Constraint[Prev][0]=none
 Constraint[Next][0]=CAF-Edinburgh-middle1
 
 
+driver[5]=1
+
+multiple_working_type=2
+
 EmptyImage[E]=./images/caf-edinburgh-front.1.4
 EmptyImage[SE]=./images/caf-edinburgh-front.1.5
 EmptyImage[S]=./images/caf-edinburgh-front.1.6
@@ -85,6 +89,7 @@ max_loading_time=45
 
 Constraint[Prev][0]=CAF-Edinburgh-front
 Constraint[Next][0]=CAF-Edinburgh-bogie
+
 
 EmptyImage[E]=./images/caf-edinburgh-artic-front.1.4
 EmptyImage[SE]=./images/caf-edinburgh-artic-front.1.5
@@ -130,6 +135,7 @@ max_loading_time=45
 Constraint[Prev][0]=CAF-Edinburgh-motor
 Constraint[Next][0]=CAF-Edinburgh-rear
 
+
 EmptyImage[E]=./images/caf-edinburgh-artic-rear.1.4
 EmptyImage[SE]=./images/caf-edinburgh-artic-rear.1.5
 EmptyImage[S]=./images/caf-edinburgh-artic-rear.1.6
@@ -173,6 +179,7 @@ max_loading_time=45
 
 Constraint[Prev][0]=CAF-Edinburgh-bogie
 Constraint[Next][0]=CAF-Edinburgh-motor
+
 
 EmptyImage[E]=./images/caf-edinburgh-artic-panto.1.4
 EmptyImage[SE]=./images/caf-edinburgh-artic-panto.1.5
@@ -265,6 +272,10 @@ max_loading_time=45
 Constraint[Prev][0]=CAF-Edinburgh-panto
 Constraint[Next][0]=CAF-Edinburgh-middle2
 
+driver[5]=1
+
+multiple_working_type=2
+
 EmptyImage[E]=./images/caf-edinburgh-bogie.1.4
 EmptyImage[SE]=./images/caf-edinburgh-bogie.1.5
 EmptyImage[S]=./images/caf-edinburgh-bogie.1.6
@@ -311,6 +322,10 @@ max_loading_time=45
 
 Constraint[Prev][0]=CAF-Edinburgh-middle2
 Constraint[Next][0]=none
+
+driver[5]=1
+
+multiple_working_type=2
 
 EmptyImage[E]=./images/caf-edinburgh-rear.1.4
 EmptyImage[SE]=./images/caf-edinburgh-rear.1.5

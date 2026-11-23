@@ -47,6 +47,9 @@ Constraint[Next][0]=BR-221Rear
 Constraint[Next][1]=BR-221Middle
 Constraint[Next][2]=BR-221Middle-shop
 
+driver[0]=1
+multiple_working_type=1
+
 liverytype[0]=Virgin-MU
 liverytype[1]=Arriva-original
 
@@ -120,6 +123,7 @@ Constraint[Next][0]=BR-221Rear
 Constraint[Next][1]=BR-221Middle
 Constraint[Next][2]=BR-221Middle-shop
 
+
 liverytype[0]=Virgin-MU
 liverytype[1]=Arriva-original
 
@@ -189,6 +193,7 @@ Constraint[Prev][1]=BR-221Middle
 Constraint[Next][0]=BR-221Rear
 Constraint[Next][1]=BR-221Middle
 
+
 liverytype[0]=Virgin-MU
 liverytype[1]=Arriva-original
 
@@ -257,6 +262,10 @@ Constraint[Prev][2]=BR-221Middle-shop
 
 Constraint[Next][0]=BR-221Front
 Constraint[Next][1]=none
+
+driver[0]=1
+staff[2]=1
+multiple_working_type=1
 
 liverytype[0]=Virgin-MU
 liverytype[1]=Arriva-original

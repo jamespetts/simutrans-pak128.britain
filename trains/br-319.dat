@@ -48,6 +48,10 @@ Constraint[Prev][1]=none
 
 Constraint[Next][0]=BR-319Pantograph
 
+multiple_working_type=1
+
+driver[0]=1
+
 liverytype[0]=NSE-Standard
 liverytype[1]=Northern
 
@@ -116,6 +120,10 @@ Constraint[Prev][1]=none
 
 Constraint[Next][0]=BR-319Pantograph
 
+multiple_working_type=1
+
+driver[0]=1
+
 liverytype[0]=NSE-Standard
 liverytype[1]=Northern
 
@@ -183,6 +191,7 @@ Constraint[Prev][1]=BR-319FrontComposite
 
 Constraint[Next][0]=BR-319Engine
 
+
 liverytype[0]=NSE-Standard
 liverytype[1]=Northern
 
@@ -249,6 +258,7 @@ comfort[3]=145
 Constraint[Prev][0]=BR-319Pantograph
 
 Constraint[Next][0]=BR-319Rear
+
 
 liverytype[0]=NSE-Standard
 liverytype[1]=Northern
@@ -319,6 +329,10 @@ Constraint[Next][1]=BR-319FrontComposite
 Constraint[Next][2]=none
 #Constraint[Next][3]=BR-769Front
 #Constraint[Next][4]=BR-769FrontComposite
+
+multiple_working_type=1
+
+driver[0]=1
 
 liverytype[0]=NSE-Standard
 liverytype[1]=Northern

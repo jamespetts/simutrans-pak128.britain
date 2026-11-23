@@ -30,6 +30,9 @@ sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=lancashire-witch-tender
 
+driver[0]=1
+staff[1]=1
+
 EmptyImage[E]=./locomotives/lancashire-witch_E.0.0
 EmptyImage[SE]=./locomotives/lancashire-witch_SE.0.0
 EmptyImage[S]=./locomotives/lancashire-witch_S.0.0

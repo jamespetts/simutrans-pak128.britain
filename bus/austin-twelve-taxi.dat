@@ -36,6 +36,8 @@ years_before_maintenance_max_reached=15
 constraint[next][0]=none
 constraint[prev][0]=none
 
+driver[5]=1
+
 EmptyImage[E]=../citycars/images/austin-twelve-black_E.0.0,-33,14
 EmptyImage[SE]=../citycars/images/austin-twelve-black_SE.0.0,-13,0
 EmptyImage[S]=../citycars/images/austin-twelve-black_S.0.0,0,0
@@ -88,6 +90,8 @@ years_before_maintenance_max_reached=20
 
 constraint[next][0]=none
 constraint[prev][0]=none
+
+driver[5]=1
 
 EmptyImage[E]=../citycars/images/austin-twelve-black_E.0.0,-33,14
 EmptyImage[SE]=../citycars/images/austin-twelve-black_SE.0.0,-13,0

@@ -92,6 +92,8 @@ Constraint[Prev][0]=BR-491[TC]Front
 Constraint[Next][0]=BR-491[TC]Middle
 Constraint[Next][1]=BR-491[TC]Buffet
 
+staff[2]=1
+
 EmptyImage[E]=./railcars/br-421-mbso-bg_E.0.0
 EmptyImage[SE]=./railcars/br-421-mbso-bg_SE.0.0
 EmptyImage[S]=./railcars/br-421-mbso-bg_S.0.0
@@ -190,6 +192,8 @@ catering_level=3
 Constraint[Prev][0]=BR-491[TC]Brake
 
 Constraint[Next][0]=BR-491[TC]Rear
+
+staff[3]=1
 
 EmptyImage[E]=./carriages/br-mk1-rmb-bg_E.0.0
 EmptyImage[SE]=./carriages/br-mk1-rmb-bg_SE.0.0

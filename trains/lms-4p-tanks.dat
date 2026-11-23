@@ -28,6 +28,9 @@ years_before_maintenance_max_reached=16
 can_lead_from_rear=0
 bidirectional=1
 
+driver[0]=1
+staff[1]=1
+
 liverytype[0]=LMS-Standard
 liverytype[1]=WW2-Austerity
 liverytype[2]=BR-Early
@@ -93,6 +96,9 @@ years_before_maintenance_max_reached=16
 can_lead_from_rear=0
 bidirectional=1
 
+driver[0]=1
+staff[1]=1
+
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
 
@@ -150,6 +156,9 @@ years_before_maintenance_max_reached=16
 can_lead_from_rear=0
 bidirectional=1
 
+driver[0]=1
+staff[1]=1
+
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
 
@@ -202,6 +211,9 @@ years_before_maintenance_max_reached=19
 
 can_lead_from_rear=0
 bidirectional=1
+
+driver[0]=1
+staff[1]=1
 
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early

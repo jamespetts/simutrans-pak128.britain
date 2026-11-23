@@ -43,6 +43,9 @@ Constraint[Prev][1]=none
 
 Constraint[Next][0]=BR-700Panto
 
+driver[0]=1
+multiple_working_type=1
+
 liverytype[0]=GTR
 
 EmptyImage[E][0]=./railcars/br-700-front-tsgn_E.0
@@ -103,6 +106,7 @@ Constraint[Next][1]=BR-700MiddlePower
 Constraint[Next][2]=BR-700MiddleTrailer
 Constraint[Next][3]=BR-700TSOW
 
+
 liverytype[0]=GTR
 
 EmptyImage[E][0]=./railcars/br-700-middle-tsgn_E.0
@@ -160,6 +164,7 @@ Constraint[Next][1]=BR-700MiddlePower
 Constraint[Next][2]=BR-700MiddleTrailer
 Constraint[Next][3]=BR-700TSOW
 
+
 liverytype[0]=GTR
 
 EmptyImage[E][0]=./railcars/br-700-middle-tsgn_E.0
@@ -211,6 +216,7 @@ Constraint[Prev][0]=BR-700MiddleTrailer
 Constraint[Prev][1]=BR-700MiddlePower
 
 Constraint[Next][0]=BR-700TSOLW
+
 
 liverytype[0]=GTR
 
@@ -264,6 +270,7 @@ Constraint[Prev][0]=BR-700TSOW
 Constraint[Next][0]=BR-700MiddlePower
 Constraint[Next][1]=BR-700MiddleTrailer
 
+
 liverytype[0]=GTR
 
 EmptyImage[E][0]=./railcars/br-700-tsolw-tsgn_E.0
@@ -315,6 +322,7 @@ Constraint[Prev][0]=BR-700Front
 
 Constraint[Next][0]=BR-700MiddlePower
 
+
 liverytype[0]=GTR
 
 EmptyImage[E][0]=./railcars/br-700-panto-front-tsgn_E.0
@@ -365,6 +373,7 @@ comfort[3]=94
 Constraint[Prev][0]=BR-700MiddlePower
 
 Constraint[Next][0]=BR-700Rear
+
 
 liverytype[0]=GTR
 
@@ -422,6 +431,9 @@ Constraint[Prev][1]=BR-700PantoRear
 
 Constraint[Next][0]=BR-700Front
 Constraint[Next][1]=none
+
+driver[0]=1
+multiple_working_type=1
 
 liverytype[0]=GTR
 

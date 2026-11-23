@@ -47,6 +47,8 @@ upgrade[0]=gwr-churchward-autotrailer
 comfort[0]=0
 comfort[1]=62
 
+staff[2]=1
+
 liverytype[0]=GWR-two-tone
 liverytype[1]=GWR-overall-brown
 liverytype[2]=GWR-lake

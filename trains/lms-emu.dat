@@ -43,6 +43,10 @@ Constraint[Prev][1]=none
 
 Constraint[Next][0]=LMS-EMU-centre-trailer
 
+multiple_working_type=1
+
+driver[0]=1
+
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
 
@@ -107,6 +111,7 @@ comfort[3]=88
 Constraint[Prev][0]=LMS-EMU-driving-trailer
 
 Constraint[Next][0]=LMS-EMU-driving-motor
+
 
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
@@ -175,6 +180,10 @@ Constraint[Prev][0]=LMS-EMU-centre-trailer
 
 Constraint[Next][0]=LMS-EMU-driving-trailer
 Constraint[Next][1]=none
+
+driver[0]=1
+staff[2]=1
+multiple_working_type=1
 
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early

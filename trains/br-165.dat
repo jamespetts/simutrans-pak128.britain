@@ -49,6 +49,9 @@ Constraint[Prev][2]=none
 Constraint[Next][0]=BR-165Rear
 Constraint[Next][1]=BR-165Middle
 
+driver[0]=1
+multiple_working_type=1
+
 liverytype[0]=NSE-Revised
 
 EmptyImage[E][0]=./railcars/br-165-front-nse_E.0.0
@@ -107,6 +110,7 @@ Constraint[Prev][0]=BR-165Front
 Constraint[Prev][1]=BR-165Middle
 
 Constraint[Next][0]=BR-165Rear
+
 
 liverytype[0]=NSE-Revised
 
@@ -170,6 +174,10 @@ Constraint[Prev][1]=BR-165Front
 Constraint[Next][0]=BR-165Front
 Constraint[Next][1]=BR-166Front
 Constraint[Next][2]=none
+
+driver[0]=1
+staff[2]=1
+multiple_working_type=1
 
 liverytype[0]=NSE-Revised
 

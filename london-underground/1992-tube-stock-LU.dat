@@ -44,6 +44,9 @@ Constraint[Prev][1]=none
 
 Constraint[Next][0]=1992TubeStockMiddle1
 
+driver[0]=1
+multiple_working_type=1
+
 liverytype[0]=LUL
 liverytype[1]=NSE-Standard
 
@@ -110,6 +113,7 @@ Constraint[Prev][0]=1992TubeStockFront
 Constraint[Prev][1]=1992TubeStockMiddle2
 
 Constraint[Next][0]=1992TubeStockMiddle2
+
 
 liverytype[0]=LUL
 liverytype[1]=NSE-Standard
@@ -178,6 +182,7 @@ Constraint[Prev][0]=1992TubeStockMiddle1
 Constraint[Next][0]=1992TubeStockMiddle1
 Constraint[Next][1]=1992TubeStockRear
 
+
 liverytype[0]=LUL
 liverytype[1]=NSE-Standard
 
@@ -245,6 +250,9 @@ Constraint[Prev][0]=1992TubeStockMiddle2
 
 Constraint[Next][0]=1992TubeStockFront
 Constraint[Next][1]=none
+
+driver[0]=1
+multiple_working_type=1
 
 liverytype[0]=LUL
 liverytype[1]=NSE-Standard

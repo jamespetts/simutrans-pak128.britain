@@ -119,6 +119,7 @@ payload[1]=32
 payload[2]=16
 payload[3]=6
 length=5
+brake_force=3
 rolling_resistance=19
 
 # https://www.festipedia.org.uk/wiki/Carriage_16

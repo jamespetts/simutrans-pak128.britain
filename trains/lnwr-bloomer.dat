@@ -37,6 +37,9 @@ sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=LNWR-Bloomer-Tender
 
+driver[0]=1
+staff[1]=1
+
 liverytype[0]=LNWR-Early
 liverytype[1]=LNWR-Black
 

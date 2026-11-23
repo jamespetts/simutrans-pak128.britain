@@ -32,6 +32,8 @@ bidirectional=1
 Constraint[Prev][0]=BR-Class41
 Constraint[Prev][1]=none
 
+driver[0]=1
+
 liverytype[0]=BR-Early
 liverytype[1]=BR-Blue
 

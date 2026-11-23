@@ -34,6 +34,9 @@ sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=bury-bar-frame-tender
 
+driver[0]=1
+staff[1]=1
+
 EmptyImage[E]=./locomotives/bury-bar-frame-passenger_E.0.0
 EmptyImage[SE]=./locomotives/bury-bar-frame-passenger_SE.0.0
 EmptyImage[S]=./locomotives/bury-bar-frame-passenger_S.0.0

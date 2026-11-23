@@ -32,6 +32,9 @@ years_before_maintenance_max_reached=12
 
 Constraint[Next][0]=SR-Lord-Nelson-Tender
 
+driver[0]=1
+staff[1]=1
+
 liverytype[0]=SR-Olive-Green
 liverytype[1]=SR-Malachite-Green
 liverytype[2]=WW2-Austerity

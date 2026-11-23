@@ -275,6 +275,8 @@ Constraint[Next][6]=met-ashbury-1863-composite-unfitted
 Constraint[Next][7]=met-ashbury-1863-first-unfitted
 Constraint[Next][8]=none
 
+staff[2]=1
+
 liverytype[0]=Metropolitan-Green
 liverytype[1]=LT
 
@@ -353,6 +355,8 @@ Constraint[Prev][5]=district-4-wheel-first-unfitted
 Constraint[Prev][6]=met-ashbury-1863-composite-unfitted
 Constraint[Prev][7]=met-ashbury-1863-first-unfitted
 
+staff[2]=1
+
 liverytype[0]=Metropolitan-Green
 liverytype[1]=LT
 
@@ -392,6 +396,7 @@ payload[2]=0
 payload[3]=0
 overcrowded_capacity=40
 length=7
+brake_force=7
 
 weight=17.5
 axles=4
@@ -490,6 +495,7 @@ payload[2]=40
 payload[3]=16
 overcrowded_capacity=40
 length=7
+brake_force=7
 
 weight=17.5
 axles=4
@@ -588,6 +594,7 @@ payload[2]=0
 payload[3]=48
 overcrowded_capacity=40
 length=7
+brake_force=7
 
 weight=17.5
 axles=4
@@ -686,6 +693,7 @@ payload[2]=0
 payload[3]=0
 overcrowded_capacity=30
 length=7
+brake_force=7
 
 weight=16.5
 axles=4
@@ -726,6 +734,8 @@ Constraint[Next][17]=met-bogie-first
 Constraint[Next][18]=met-dreadnought-first
 Constraint[Next][19]=none
 
+staff[2]=1
+
 liverytype[0]=Metropolitan-Green
 liverytype[1]=LT
 
@@ -765,6 +775,7 @@ payload[2]=0
 payload[3]=0
 overcrowded_capacity=30
 length=7
+brake_force=7
 
 weight=16.5
 axles=4
@@ -824,6 +835,8 @@ Constraint[Prev][15]=met-jubilee-first
 Constraint[Prev][16]=met-bogie-second
 Constraint[Prev][17]=met-bogie-first
 Constraint[Prev][18]=met-dreadnought-first
+
+staff[2]=1
 
 liverytype[0]=Metropolitan-Green
 liverytype[1]=LT

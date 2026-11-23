@@ -34,6 +34,9 @@ increase_maintenance_after_years=42
 
 Constraint[Next][0]=PuffingBilly-Tender
 
+driver[0]=1
+staff[1]=1
+
 EmptyImage[E]=./locomotives/puffing-billy_E.0.0
 EmptyImage[SE]=./locomotives/puffing-billy_SE.0.0
 EmptyImage[S]=./locomotives/puffing-billy_S.0.0

@@ -405,6 +405,8 @@ Constraint[Prev][36]=pullman-k-type-kitchen-first
 Constraint[Prev][37]=pullman-1928-kitchen-first
 Constraint[Prev][38]=pullman-1951-kitchen-first
 
+staff[2]=1
+
 liverytype[0]=LBSCR-Marsh
 liverytype[1]=LBSCR-Late
 liverytype[2]=SR-Olive-Green
@@ -532,6 +534,8 @@ Constraint[Next][37]=pullman-1928-kitchen-first
 Constraint[Next][38]=pullman-1951-kitchen-first
 Constraint[Next][39]=none
 
+staff[2]=1
+
 liverytype[0]=LBSCR-Marsh
 liverytype[1]=LBSCR-Late
 liverytype[2]=SR-Olive-Green
@@ -608,6 +612,8 @@ can_lead_from_rear=0
 bidirectional=1
 min_loading_time=30
 max_loading_time=90
+
+staff[2]=1
 
 liverytype[0]=LBSCR-Marsh
 liverytype[1]=LBSCR-Late

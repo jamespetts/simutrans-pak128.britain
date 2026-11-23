@@ -52,6 +52,9 @@ Constraint[Next][3]=Mersey-EMU(trailer-first)
 Constraint[Next][4]=Mersey-EMU-1923(trailer-first)
 Constraint[Next][5]=Mersey-EMU(rear)
 
+driver[0]=1
+multiple_working_type=1
+
 liverytype[0]=Mersey-Railway-Standard
 liverytype[1]=BR-Early
 
@@ -125,6 +128,7 @@ Constraint[Next][2]=Mersey-EMU(trailer)
 Constraint[Next][3]=Mersey-EMU(trailer-first)
 Constraint[Next][4]=Mersey-EMU-1923(trailer-first)
 Constraint[Next][5]=Mersey-EMU(rear)
+
 
 liverytype[0]=Mersey-Railway-Standard
 liverytype[1]=BR-Early
@@ -201,6 +205,7 @@ Constraint[Next][3]=Mersey-EMU(trailer-first)
 Constraint[Next][4]=Mersey-EMU-1923(trailer-first)
 Constraint[Next][5]=Mersey-EMU(rear)
 
+
 liverytype[0]=Mersey-Railway-Standard
 liverytype[1]=BR-Early
 
@@ -274,6 +279,10 @@ Constraint[Prev][5]=Mersey-EMU-1923(trailer-first)
 Constraint[Next][0]=Mersey-EMU-1923(front)
 Constraint[Next][1]=Mersey-EMU(front)
 Constraint[Next][2]=none
+
+driver[0]=1
+staff[2]=1
+multiple_working_type=1
 
 liverytype[0]=Mersey-Railway-Standard
 liverytype[1]=BR-Early

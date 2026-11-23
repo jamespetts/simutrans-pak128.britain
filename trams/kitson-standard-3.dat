@@ -29,6 +29,8 @@ way_constraint_prohibitive[0]=0
 
 Constraint[Prev][0]=none
 
+
+
 EmptyImage[E]=./images/kitson-standard-3_E.0.0
 EmptyImage[SE]=./images/kitson-standard-3_SE.0.0
 EmptyImage[S]=./images/kitson-standard-3_S.0.0

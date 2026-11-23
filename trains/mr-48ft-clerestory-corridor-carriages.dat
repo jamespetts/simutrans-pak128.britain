@@ -281,6 +281,8 @@ Constraint[Next][62]=MR-54ft-clerestory-cor-first-d600
 Constraint[Next][63]=MR-54ft-eliptical-cor-brake-composite-rear-d1046
 Constraint[Next][64]=none
 
+staff[2]=1
+
 liverytype[0]=MR-Standard
 
 EmptyImage[E][0]=./carriages/mr-48ft-clerestory-cor-lav-brake-front_E.0.0
@@ -393,6 +395,8 @@ Constraint[Prev][61]=MR-54ft-clerestory-cor-composite-d593
 Constraint[Prev][62]=MR-54ft-clerestory-cor-first-d600
 Constraint[Prev][63]=MR-54ft-eliptical-cor-brake-composite-front-d1046
 
+staff[2]=1
+
 liverytype[0]=MR-Standard
 
 EmptyImage[E][0]=./carriages/mr-48ft-clerestory-cor-lav-brake-rear_E.0.0
@@ -431,6 +435,8 @@ bidirectional=1
 
 min_loading_time=35
 max_loading_time=90
+
+staff[2]=1
 
 liverytype[0]=MR-Standard
 

@@ -47,6 +47,10 @@ Constraint[Prev][5]=none
 
 Constraint[Next][0]=BR-302(centre1)
 
+multiple_working_type=1
+
+driver[0]=1
+
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue
 liverytype[2]=BR-Large-Logo
@@ -132,6 +136,7 @@ Constraint[Prev][0]=BR-302(front)
 
 Constraint[Next][0]=BR-302(centre2)
 
+
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue
 liverytype[2]=BR-Large-Logo
@@ -215,6 +220,7 @@ comfort[3]=129
 Constraint[Prev][0]=BR-302(centre1)
 
 Constraint[Next][0]=BR-302(rear)
+
 
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue
@@ -307,6 +313,12 @@ Constraint[Next][2]=BR-303Front
 Constraint[Next][3]=BR-302(front)
 Constraint[Next][4]=BR-310-BDTSOL
 Constraint[Next][5]=none
+
+multiple_working_type=1
+
+staff[2]=1
+
+driver[0]=1
 
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue

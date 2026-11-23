@@ -33,6 +33,9 @@ bidirectional=1
 has_front_cab=1
 Constraint[Next][0]=LMS-Garratt-Middle
 
+driver[0]=1
+staff[1]=1
+
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
 

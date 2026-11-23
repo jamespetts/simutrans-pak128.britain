@@ -37,6 +37,9 @@ upgrade[0]=GWR-Modified-Hall
 
 Constraint[Next][0]=GWR-Hall-Tender
 
+driver[0]=1
+staff[1]=1
+
 liverytype[0]=GWR-chocolate-cream-lined
 liverytype[1]=WW2-Austerity
 liverytype[2]=BR-Early

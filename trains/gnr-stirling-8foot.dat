@@ -40,7 +40,6 @@ increase_maintenance_after_years=27
 years_before_maintenance_max_reached=31
 
 override_way_speed=0
-multiple_working_type=0
 self_contained_catering=0
 calibration_speed=75
 cut_off_speed=40

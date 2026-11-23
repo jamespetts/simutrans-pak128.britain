@@ -40,6 +40,9 @@ Constraint[Prev][1]=none
 
 Constraint[Next][0]=BR-313Pantograph
 
+driver[0]=1
+multiple_working_type=1
+
 liverytype[0]=BR-Blue
 liverytype[1]=NSE-Standard
 liverytype[2]=wagn-purple
@@ -109,6 +112,7 @@ comfort[1]=56
 Constraint[Prev][0]=BR-313Front
 
 Constraint[Next][0]=BR-313Rear
+
 
 liverytype[0]=BR-Blue
 liverytype[1]=NSE-Standard
@@ -181,6 +185,10 @@ Constraint[Prev][0]=BR-313Pantograph
 
 Constraint[Next][0]=BR-313Front
 Constraint[Next][1]=none
+
+driver[0]=1
+staff[2]=1
+multiple_working_type=1
 
 liverytype[0]=BR-Blue
 liverytype[1]=NSE-Standard

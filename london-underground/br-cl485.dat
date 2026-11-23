@@ -45,6 +45,9 @@ Constraint[Prev][1]=none
 
 Constraint[Next][0]=BR-Class485Middle1
 
+driver[0]=1
+multiple_working_type=1
+
 liverytype[0]=BR-Blue
 liverytype[1]=BR-Large-Logo
 liverytype[2]=NSE-Standard
@@ -118,6 +121,7 @@ Constraint[Prev][0]=BR-Class485Front
 
 Constraint[Next][0]=BR-Class485Middle2
 Constraint[Next][1]=BR-Class485Rear
+
 
 liverytype[0]=BR-Blue
 liverytype[1]=BR-Large-Logo
@@ -193,6 +197,7 @@ comfort[1]=57
 Constraint[Prev][0]=BR-Class485Middle1
 
 Constraint[Next][0]=BR-Class485Rear
+
 
 liverytype[0]=BR-Blue
 liverytype[1]=BR-Large-Logo
@@ -273,6 +278,10 @@ Constraint[Prev][1]=BR-Class485Middle2
 
 Constraint[Next][0]=BR-Class485Front
 Constraint[Next][1]=none
+
+driver[0]=1
+staff[2]=1
+multiple_working_type=1
 
 liverytype[0]=BR-Blue
 liverytype[1]=BR-Large-Logo

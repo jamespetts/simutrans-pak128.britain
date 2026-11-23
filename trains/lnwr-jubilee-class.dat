@@ -32,6 +32,9 @@ upgrade[0]=LNWR-Renown
 increase_maintenance_after_years=17
 years_before_maintenance_max_reached=21
 
+driver[0]=1
+staff[1]=1
+
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard
 

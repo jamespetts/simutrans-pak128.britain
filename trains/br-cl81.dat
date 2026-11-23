@@ -33,6 +33,8 @@ way_constraint_permissive[2]=2
 # No multiple working fitted
 Constraint[Prev][0]=none
 
+driver[0]=1
+
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue
 liverytype[2]=IC-Executive

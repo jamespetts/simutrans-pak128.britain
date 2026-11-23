@@ -30,6 +30,9 @@ years_before_maintenance_max_reached=13
 
 Constraint[Next][0]=BR-4MT-Tender
 
+driver[0]=1
+staff[1]=1
+
 EmptyImage[E]=./locomotives/br-standard-5mt_E.0.0
 EmptyImage[SE]=./locomotives/br-standard-5mt_SE.0.0
 EmptyImage[S]=./locomotives/br-standard-5mt_S.0.0

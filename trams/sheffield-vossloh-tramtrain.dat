@@ -39,6 +39,9 @@ Constraint[Prev][0]=none
 Constraint[Next][0]=Sheffield-VosslohTramtrain(Middle)
 
 # TODO: Consider adding earlier liveries.
+driver[5]=1
+multiple_working_type=2
+
 EmptyImage[E]=./images/sheffield-vossloh-tramtrain-front.1.4
 EmptyImage[SE]=./images/sheffield-vossloh-tramtrain-front.1.5
 EmptyImage[S]=./images/sheffield-vossloh-tramtrain-front.1.6
@@ -86,6 +89,9 @@ max_loading_time=40
 Constraint[Next][0]=Sheffield-VosslohTramtrain(Rear)
 Constraint[Prev][0]=Sheffield-VosslohTramtrain(Front)
 
+driver[5]=1
+multiple_working_type=2
+
 EmptyImage[E]=./images/sheffield-vossloh-tramtrain-middle.1.4
 EmptyImage[SE]=./images/sheffield-vossloh-tramtrain-middle.1.5
 EmptyImage[S]=./images/sheffield-vossloh-tramtrain-middle.1.6
@@ -131,6 +137,9 @@ max_loading_time=40
 
 Constraint[Prev][0]=Sheffield-VosslohTramtrain(Middle)
 Constraint[Next][0]=none
+
+driver[5]=1
+multiple_working_type=2
 
 EmptyImage[E]=./images/sheffield-vossloh-tramtrain-rear.1.4
 EmptyImage[SE]=./images/sheffield-vossloh-tramtrain-rear.1.5

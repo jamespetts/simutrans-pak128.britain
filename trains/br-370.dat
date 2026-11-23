@@ -234,6 +234,8 @@ Constraint[Prev][2]=BR-370TrailerFirst
 
 Constraint[Next][0]=BR-370BrakeFirstFront
 
+staff[3]=3
+
 EmptyImage[E]=./railcars/br-370-buffet-front-ic_E.0.0
 EmptyImage[SE]=./railcars/br-370-buffet-front-ic_SE.0.0
 EmptyImage[S]=./railcars/br-370-buffet-front-ic_S.0.0
@@ -291,6 +293,8 @@ Constraint[Prev][0]=BR-370RestaurantFront
 
 Constraint[Next][0]=BR-370FrontPower
 
+staff[2]=1
+
 EmptyImage[E]=./railcars/br-370-brake-first-front-ic_E.0.0
 EmptyImage[SE]=./railcars/br-370-brake-first-front-ic_SE.0.0
 EmptyImage[S]=./railcars/br-370-brake-first-front-ic_S.0.0
@@ -343,6 +347,8 @@ Constraint[Prev][0]=BR-370BrakeFirstFront
 Constraint[Next][0]=BR-370RearPower
 Constraint[Next][1]=BR-370BrakeFirstRear
 
+driver[0]=1
+
 EmptyImage[E]=./railcars/br-370-power-front-ic_E.0.0
 EmptyImage[SE]=./railcars/br-370-power-front-ic_SE.0.0
 EmptyImage[S]=./railcars/br-370-power-front-ic_S.0.0
@@ -394,6 +400,8 @@ Constraint[Prev][0]=BR-370BrakeFirstFront
 Constraint[Prev][1]=BR-370FrontPower
 
 Constraint[Next][0]=BR-370BrakeFirstRear
+
+driver[0]=1
 
 EmptyImage[E]=./railcars/br-370-power-rear-ic_E.0.0
 EmptyImage[SE]=./railcars/br-370-power-rear-ic_SE.0.0
@@ -453,6 +461,8 @@ Constraint[Prev][0]=BR-370FrontPower
 Constraint[Prev][1]=BR-370RearPower
 
 Constraint[Next][0]=BR-370RestaurantRear
+
+staff[2]=1
 
 EmptyImage[E]=./railcars/br-370-brake-first-rear-ic_E.0.0
 EmptyImage[SE]=./railcars/br-370-brake-first-rear-ic_SE.0.0
@@ -514,6 +524,8 @@ Constraint[Prev][0]=BR-370BrakeFirstRear
 Constraint[Next][0]=BR-370RearCab
 Constraint[Next][1]=BR-370TrailerSecond
 Constraint[Next][2]=BR-370TrailerFirst
+
+staff[3]=3
 
 EmptyImage[E]=./railcars/br-370-buffet-rear-ic_E.0.0
 EmptyImage[SE]=./railcars/br-370-buffet-rear-ic_SE.0.0

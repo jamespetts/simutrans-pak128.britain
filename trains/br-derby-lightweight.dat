@@ -51,6 +51,10 @@ Constraint[Prev][3]=none
 Constraint[Next][0]=BR-Derby-Lightweight-DTCL
 Constraint[Next][1]=BR-Derby-Lightweight-DMCL
 
+driver[0]=1
+staff[2]=1
+multiple_working_type=1
+
 liverytype[0]=BR-Early
 liverytype[1]=BR-Revised
 liverytype[2]=BR-Blue
@@ -139,6 +143,10 @@ Constraint[Next][0]=BR-Derby-Lightweight-DMBS
 Constraint[Next][1]=BR-Derby-Lightweight-DMBS-single
 Constraint[Next][2]=BR-Derby-Lightweight-DMS
 Constraint[Next][3]=none
+
+multiple_working_type=1
+
+driver[0]=1
 
 liverytype[0]=BR-Early
 liverytype[1]=BR-Revised
@@ -237,6 +245,9 @@ Constraint[Next][1]=BR-Derby-Lightweight-DMBS-single
 Constraint[Next][2]=BR-Derby-Lightweight-DMS
 Constraint[Next][3]=none
 
+driver[0]=1
+multiple_working_type=1
+
 liverytype[0]=BR-Early
 liverytype[1]=BR-Revised
 liverytype[2]=BR-Blue
@@ -332,6 +343,9 @@ Constraint[Prev][3]=none
 
 Constraint[Next][0]=BR-Derby-Lightweight-TBSL
 
+driver[0]=1
+multiple_working_type=1
+
 liverytype[0]=BR-Early
 liverytype[1]=BR-Revised
 liverytype[2]=BR-Blue
@@ -419,6 +433,7 @@ Constraint[Next][0]=BR-Derby-Lightweight-TSL
 # Allow formation of a 3 car set
 Constraint[Next][1]=BR-Derby-Lightweight-DMCL
 
+
 liverytype[0]=BR-Early
 liverytype[1]=BR-Revised
 liverytype[2]=BR-Blue
@@ -503,6 +518,7 @@ comfort[3]=111
 Constraint[Prev][0]=BR-Derby-Lightweight-TBSL
 
 Constraint[Next][0]=BR-Derby-Lightweight-DMCL
+
 
 liverytype[0]=BR-Early
 liverytype[1]=BR-Revised
@@ -598,6 +614,9 @@ Constraint[Next][0]=BR-Derby-Lightweight-DMBS
 Constraint[Next][1]=BR-Derby-Lightweight-DMBS-single
 Constraint[Next][2]=BR-Derby-Lightweight-DMS
 Constraint[Next][3]=none
+
+driver[0]=1
+multiple_working_type=1
 
 liverytype[0]=BR-Early
 liverytype[1]=BR-Revised

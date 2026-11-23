@@ -1259,6 +1259,8 @@ Constraint[Next][75]=MR-54ft-eliptical-non-lav-first-d1301
 Constraint[Next][76]=MR-54ft-eliptical-non-lav-composite-d1559
 Constraint[Next][77]=none
 
+staff[2]=1
+
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
 liverytype[2]=BR-Revised
@@ -1410,6 +1412,8 @@ Constraint[Prev][73]=MR-50ft-arc-first-d553
 Constraint[Prev][74]=MR-50ft-arc-composite-d554
 Constraint[Prev][75]=MR-54ft-eliptical-non-lav-first-d1301
 Constraint[Prev][76]=MR-54ft-eliptical-non-lav-composite-d1559
+
+staff[2]=1
 
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
@@ -1564,6 +1568,8 @@ Constraint[Next][75]=MR-54ft-eliptical-non-lav-first-d1301
 Constraint[Next][76]=MR-54ft-eliptical-non-lav-composite-d1559
 Constraint[Next][77]=none
 
+staff[2]=1
+
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
 liverytype[2]=BR-Revised
@@ -1715,6 +1721,8 @@ Constraint[Prev][73]=MR-50ft-arc-first-d553
 Constraint[Prev][74]=MR-50ft-arc-composite-d554
 Constraint[Prev][75]=MR-54ft-eliptical-non-lav-first-d1301
 Constraint[Prev][76]=MR-54ft-eliptical-non-lav-composite-d1559
+
+staff[2]=1
 
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early

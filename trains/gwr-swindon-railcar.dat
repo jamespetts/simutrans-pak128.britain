@@ -37,6 +37,8 @@ comfort[0]=0
 comfort[1]=115
 air_resistance=112
 
+staff[2]=1
+
 liverytype[0]=GWR-shirtbutton
 liverytype[1]=GWR-hawksworth
 liverytype[2]=BR-Early

@@ -34,6 +34,8 @@ Constraint[Prev][0]=BR-Class56
 Constraint[Prev][1]=BR-Class58
 Constraint[Prev][2]=none
 
+driver[0]=1
+
 EmptyImage[E]=./locomotives/br-cl58-g_E.0.0
 EmptyImage[SE]=./locomotives/br-cl58-g_SE.0.0
 EmptyImage[S]=./locomotives/br-cl58-g_S.0.0

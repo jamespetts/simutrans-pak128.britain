@@ -253,6 +253,8 @@ Constraint[Next][14]=gwr-clerestory-suburban-first
 Constraint[Next][15]=gwr-clerestory-suburban-brake-third-rear
 Constraint[Next][16]=none
 
+staff[2]=1
+
 liverytype[0]=GWR-shirtbutton
 liverytype[1]=GWR-hawksworth
 liverytype[2]=BR-Early
@@ -336,6 +338,8 @@ Constraint[Prev][12]=gwr-clerestory-suburban-third
 Constraint[Prev][13]=gwr-clerestory-suburban-second
 Constraint[Prev][14]=gwr-clerestory-suburban-first
 Constraint[Prev][15]=gwr-clerestory-suburban-brake-third-front
+
+staff[2]=1
 
 liverytype[0]=GWR-shirtbutton
 liverytype[1]=GWR-hawksworth

@@ -34,6 +34,9 @@ upgrade[0]=manning-wardle-2-6-2t-superheated
 can_lead_from_rear=0
 bidirectional=1
 
+driver[0]=1
+staff[1]=1
+
 liverytype[0]=L&BR-Standard
 liverytype[1]=SR-Olive-Green
 liverytype[2]=SR-Malachite-Green

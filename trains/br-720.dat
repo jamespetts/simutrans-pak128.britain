@@ -38,6 +38,10 @@ Constraint[Prev][1]=none
 Constraint[Next][0]=BR-720Panto
 Constraint[Next][1]=BR-720Middle
 
+multiple_working_type=1
+
+driver[0]=1
+
 liverytype[0]=Abellio-Greater-Anglia
 liverytype[1]=c2c-white
 
@@ -103,6 +107,7 @@ Constraint[Next][0]=BR-720Rear
 Constraint[Next][1]=BR-720Middle
 Constraint[Next][2]=BR-720Panto
 
+
 liverytype[0]=Abellio-Greater-Anglia
 liverytype[1]=c2c-white
 
@@ -165,6 +170,7 @@ Constraint[Prev][1]=BR-720Middle
 
 Constraint[Next][0]=BR-720Rear
 Constraint[Next][1]=BR-720Middle
+
 
 liverytype[0]=Abellio-Greater-Anglia
 liverytype[1]=c2c-white
@@ -230,6 +236,9 @@ Constraint[Prev][1]=BR-720Panto
 
 Constraint[Next][0]=BR-720Front
 Constraint[Next][1]=none
+
+driver[0]=1
+multiple_working_type=1
 
 liverytype[0]=Abellio-Greater-Anglia
 liverytype[1]=c2c-white

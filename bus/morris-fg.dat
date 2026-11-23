@@ -29,6 +29,8 @@ max_loading_time=280
 constraint[next][0]=none
 constraint[prev][0]=none
 
+driver[5]=1
+
 EmptyImage[E]=./images/morris-fg-bulk-empty_E.0.0,-33,14
 EmptyImage[SE]=./images/morris-fg-bulk-empty_SE.0.0,-13,0
 EmptyImage[S]=./images/morris-fg-bulk-empty_S.0.0,0,0
@@ -118,6 +120,8 @@ max_loading_time=280
 constraint[next][0]=none
 constraint[prev][0]=none
 
+driver[5]=1
+
 EmptyImage[E]=./images/morris-fg-long-empty_E.0.0,-33,14
 EmptyImage[SE]=./images/morris-fg-long-empty_SE.0.0,-13,0
 EmptyImage[S]=./images/morris-fg-long-empty_S.0.0,0,0
@@ -178,6 +182,8 @@ max_loading_time=280
 constraint[next][0]=none
 constraint[prev][0]=none
 
+driver[5]=1
+
 EmptyImage[E]=./images/morris-fg-piece_E.0.0,-33,14
 EmptyImage[SE]=./images/morris-fg-piece_SE.0.0,-13,0
 EmptyImage[S]=./images/morris-fg-piece_S.0.0,0,0
@@ -219,6 +225,8 @@ max_loading_time=280
 constraint[next][0]=none
 constraint[prev][0]=none
 
+driver[5]=1
+
 EmptyImage[E]=./images/morris-fg-cool_E.0.0,-33,14
 EmptyImage[SE]=./images/morris-fg-cool_SE.0.0,-13,0
 EmptyImage[S]=./images/morris-fg-cool_S.0.0,0,0
@@ -259,6 +267,8 @@ max_loading_time=280
 constraint[next][0]=none
 constraint[prev][0]=none
 
+driver[5]=1
+
 EmptyImage[E]=./images/morris-fg-livestock_E.0.0,-33,14
 EmptyImage[SE]=./images/morris-fg-livestock_SE.0.0,-13,0
 EmptyImage[S]=./images/morris-fg-livestock_S.0.0,0,0
@@ -298,6 +308,8 @@ max_loading_time=225
 
 constraint[next][0]=none
 constraint[prev][0]=none
+
+driver[5]=1
 
 EmptyImage[E]=./images/morris-fg-post_E.0.0,-33,14
 EmptyImage[SE]=./images/morris-fg-post_SE.0.0,-13,0

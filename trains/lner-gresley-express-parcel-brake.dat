@@ -26,6 +26,8 @@ increase_maintenance_after_years=15
 years_before_maintenance_max_reached=30
 # Wooden bodied vehicles become obsolete sooner.
 
+staff[2]=1
+
 liverytype[0]=LNER-Standard
 liverytype[1]=BR-Early
 liverytype[2]=BR-Revised

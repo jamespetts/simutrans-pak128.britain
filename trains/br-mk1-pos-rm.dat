@@ -30,6 +30,8 @@ Constraint[Next][0]=BR-Mk1-POS
 Constraint[Next][1]=BR-Mk1-TPO
 Constraint[Next][2]=BR-Mk1-BG
 
+staff[3]=3
+
 liverytype[0]=BR-Revised
 liverytype[1]=RM-Early
 liverytype[2]=RM-Revised

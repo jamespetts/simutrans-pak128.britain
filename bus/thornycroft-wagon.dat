@@ -32,6 +32,8 @@ constraint[prev][0]=none
 min_loading_time=95
 max_loading_time=365
 
+driver[5]=1
+
 EmptyImage[E]=./images/thorneycroft-wagon-bulk-empty_E.0.0,-33,14
 EmptyImage[SE]=./images/thorneycroft-wagon-bulk-empty_SE.0.0,-13,0
 EmptyImage[S]=./images/thorneycroft-wagon-bulk-empty_S.0.0,0,0
@@ -120,6 +122,8 @@ constraint[prev][0]=none
 min_loading_time=95
 max_loading_time=365
 
+driver[5]=1
+
 EmptyImage[E]=./images/thorneycroft-wagon-long-empty_E.0.0,-33,14
 EmptyImage[SE]=./images/thorneycroft-wagon-long-empty_SE.0.0,-13,0
 EmptyImage[S]=./images/thorneycroft-wagon-long-empty_S.0.0,0,0
@@ -178,6 +182,8 @@ constraint[prev][0]=none
 min_loading_time=95
 max_loading_time=365
 
+driver[5]=1
+
 EmptyImage[E]=./images/thorneycroft-wagon-piece-empty_E.0.0,-33,14
 EmptyImage[SE]=./images/thorneycroft-wagon-piece-empty_SE.0.0,-13,0
 EmptyImage[S]=./images/thorneycroft-wagon-piece-empty_S.0.0,0,0
@@ -216,6 +222,8 @@ constraint[prev][0]=none
 min_loading_time=95
 max_loading_time=365
 
+driver[5]=1
+
 EmptyImage[E]=./images/thorneycroft-wagon-piece-empty_E.0.0,-33,14
 EmptyImage[SE]=./images/thorneycroft-wagon-piece-empty_SE.0.0,-13,0
 EmptyImage[S]=./images/thorneycroft-wagon-piece-empty_S.0.0,0,0
@@ -252,6 +260,8 @@ constraint[prev][0]=none
 
 min_loading_time=95
 max_loading_time=365
+
+driver[5]=1
 
 EmptyImage[E]=./images/thorneycroft-wagon-piece-empty_E.0.0,-33,14
 EmptyImage[SE]=./images/thorneycroft-wagon-piece-empty_SE.0.0,-13,0

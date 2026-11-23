@@ -26,6 +26,8 @@ Constraint[Prev][1]=none
 Constraint[Next][0]=RMUbox(cooled)
 Constraint[Next][1]=RMUbox(piece)
 
+driver[0]=1
+
 EmptyImage[E]=images/RMU_aerocab.0.4,12,3
 EmptyImage[SE]=images/RMU_aerocab.0.5,0,7
 EmptyImage[S]=images/RMU_aerocab.0.6,-12,3
@@ -61,6 +63,8 @@ Constraint[Prev][0]=RMUbox(cooled)
 Constraint[Prev][1]=RMUbox(piece)
 Constraint[Next][0]=RMU-aerocab(front)
 Constraint[Next][1]=none
+
+driver[0]=1
 
 EmptyImage[E]=images/RMU_aerocab.0.0,12,3
 EmptyImage[SE]=images/RMU_aerocab.0.1,0,15

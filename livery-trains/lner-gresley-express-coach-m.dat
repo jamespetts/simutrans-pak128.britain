@@ -59,6 +59,8 @@ Constraint[Next][3]=LNER-Gresley-Express-Mail(Maroon)
 Constraint[Next][4]=LNER-Gresley-Express-TPO(Maroon)
 Constraint[Next][5]=LNER-Gresley-Express-Parcel-Brake(Maroon)
 
+staff[3]=3
+
 EmptyImage[E]=./images/lner-gresley-express-coach-m.0.0
 EmptyImage[SE]=./images/lner-gresley-express-coach-m.0.1
 EmptyImage[S]=./images/lner-gresley-express-coach-m.0.2
@@ -87,6 +89,8 @@ cost=742000
 runningcost=0
 fixed_cost=5683
 sound=-1
+
+staff[2]=1
 
 EmptyImage[E]=./images/lner-gresley-express-coach-m.1.0
 EmptyImage[SE]=./images/lner-gresley-express-coach-m.1.1
@@ -186,6 +190,8 @@ cost=742000
 runningcost=0
 fixed_cost=5109
 sound=-1
+
+staff[2]=1
 
 EmptyImage[E]=./images/lner-gresley-express-coach-m.4.0
 EmptyImage[SE]=./images/lner-gresley-express-coach-m.4.1

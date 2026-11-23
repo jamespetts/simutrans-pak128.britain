@@ -176,6 +176,8 @@ comfort[1]=66
 comfort[2]=76
 comfort[3]=91
 
+staff[2]=1
+
 liverytype[0]=GWR-two-tone
 liverytype[1]=GWR-overall-brown
 liverytype[2]=GWR-lake
@@ -412,6 +414,8 @@ comfort[1]=66
 comfort[2]=76
 comfort[3]=91
 
+staff[2]=1
+
 liverytype[0]=GWR-two-tone
 liverytype[1]=GWR-overall-brown
 liverytype[2]=GWR-lake
@@ -505,6 +509,8 @@ comfort[0]=0
 comfort[1]=66
 comfort[2]=76
 comfort[3]=91
+
+staff[2]=1
 
 liverytype[0]=GWR-two-tone
 liverytype[1]=GWR-overall-brown

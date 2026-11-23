@@ -268,6 +268,8 @@ Constraint[Prev][35]=gwr-clerestory-full-brake
 Constraint[Prev][36]=gwr-clerestory-mail
 Constraint[Prev][37]=gwr-clerestory-tpo
 
+staff[3]=3
+
 liverytype[0]=GWR-shirtbutton
 liverytype[1]=GWR-hawksworth
 liverytype[2]=BR-Early

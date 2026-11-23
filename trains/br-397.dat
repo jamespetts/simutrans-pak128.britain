@@ -46,6 +46,9 @@ Constraint[Prev][1]=none
 
 Constraint[Next][0]=BR-397FrontPanto
 
+driver[0]=1
+multiple_working_type=1
+
 EmptyImage[E]=./railcars/br-397-front-tpe_E.png
 EmptyImage[SE]=./railcars/br-397-front-tpe_SE.png
 EmptyImage[S]=./railcars/br-397-front-tpe_S.png
@@ -97,6 +100,7 @@ Constraint[Prev][0]=BR-397Front
 Constraint[Next][0]=BR-397Middle
 Constraint[Next][1]=BR-397Rear
 Constraint[Next][2]=BR-397MiddleTrailer
+
 
 EmptyImage[E]=./railcars/br-397-frontpanto-tpe_E.png
 EmptyImage[SE]=./railcars/br-397-frontpanto-tpe_SE.png
@@ -154,6 +158,7 @@ Constraint[Prev][1]=BR-397MiddleTrailer
 Constraint[Next][0]=BR-397RearPanto
 Constraint[Next][1]=BR-397MiddleTrailer
 
+
 EmptyImage[E]=./railcars/br-397-middle-tpe_E.png
 EmptyImage[SE]=./railcars/br-397-middle-tpe_SE.png
 EmptyImage[S]=./railcars/br-397-middle-tpe_S.png
@@ -203,6 +208,7 @@ way_constraint_permissive[2]=2
 Constraint[Prev][0]=BR-397Middle
 
 Constraint[Next][0]=BR-397Rear
+
 
 EmptyImage[E]=./railcars/br-397-rearpanto-tpe_E.png
 EmptyImage[SE]=./railcars/br-397-rearpanto-tpe_SE.png
@@ -264,6 +270,9 @@ Constraint[Prev][2]=BR-397MiddleTrailer
 Constraint[Next][0]=BR-397Front
 Constraint[Next][1]=none
 
+driver[0]=1
+multiple_working_type=1
+
 EmptyImage[E]=./railcars/br-397-rear-tpe_E.png
 EmptyImage[SE]=./railcars/br-397-rear-tpe_SE.png
 EmptyImage[S]=./railcars/br-397-rear-tpe_S.png
@@ -315,6 +324,7 @@ Constraint[Prev][1]=BR-397Middle
 
 Constraint[Next][0]=BR-397Rear
 Constraint[Next][1]=BR-397Middle
+
 
 EmptyImage[E]=./railcars/br-397-middle-tpe_E.png
 EmptyImage[SE]=./railcars/br-397-middle-tpe_SE.png

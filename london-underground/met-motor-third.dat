@@ -55,6 +55,9 @@ Constraint[Next][3]=Metropolitan-Motor-Third-Middle
 Constraint[Next][4]=Metropolitan-Motor-First-Middle
 Constraint[Next][5]=met-mv-stock-centre-first
 
+driver[0]=1
+multiple_working_type=1
+
 liverytype[0]=Metropolitan-Red
 liverytype[1]=LT
 
@@ -132,6 +135,7 @@ Constraint[Next][2]=Metropolitan-Motor-Third-Middle
 Constraint[Next][3]=Metropolitan-Motor-Third-Back
 Constraint[Next][4]=Metropolitan-Motor-First-Middle
 Constraint[Next][5]=met-mv-stock-centre-first
+
 
 liverytype[0]=Metropolitan-Red
 liverytype[1]=LT
@@ -211,6 +215,7 @@ Constraint[Next][3]=Metropolitan-Motor-Third-Back
 Constraint[Next][4]=Metropolitan-Motor-First-Middle
 Constraint[Next][5]=met-mv-stock-centre-first
 
+
 liverytype[0]=Metropolitan-Red
 liverytype[1]=LT
 
@@ -287,6 +292,10 @@ Constraint[Prev][5]=met-mv-stock-centre-first
 Constraint[Next][0]=met-mv-stock-front
 Constraint[Next][1]=Metropolitan-Motor-Third-Front
 Constraint[Next][2]=none
+
+driver[0]=1
+staff[2]=1
+multiple_working_type=1
 
 liverytype[0]=Metropolitan-Red
 liverytype[1]=LT

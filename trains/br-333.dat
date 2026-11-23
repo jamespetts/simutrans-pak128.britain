@@ -41,6 +41,9 @@ Constraint[Prev][2]=none
 
 Constraint[Next][0]=BR-333(centre-pantograph)
 
+driver[0]=1
+multiple_working_type=1
+
 liverytype[0]=WYPTE-Northern-Spirit
 liverytype[1]=Northern-Metro
 
@@ -104,6 +107,7 @@ Constraint[Prev][0]=BR-333(front)
 Constraint[Next][0]=BR-333(centre-trailer)
 Constraint[Next][1]=BR-333(rear)
 
+
 liverytype[0]=WYPTE-Northern-Spirit
 liverytype[1]=Northern-Metro
 
@@ -165,6 +169,7 @@ way_constraint_permissive[2]=2
 Constraint[Prev][0]=BR-333(centre-pantograph)
 
 Constraint[Next][0]=BR-333(rear)
+
 
 liverytype[0]=WYPTE-Northern-Spirit
 liverytype[1]=Northern-Metro
@@ -232,6 +237,9 @@ Constraint[Prev][1]=BR-333(centre-trailer)
 Constraint[Next][0]=BR-333(front)
 Constraint[Next][1]=BR-332(front)
 Constraint[Next][2]=none
+
+driver[0]=1
+multiple_working_type=1
 
 liverytype[0]=WYPTE-Northern-Spirit
 liverytype[1]=Northern-Metro

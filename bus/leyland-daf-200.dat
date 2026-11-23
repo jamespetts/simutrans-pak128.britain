@@ -35,6 +35,8 @@ max_loading_time=300
 available_only_as_upgrade=0
 fixed_maintenance=0
 
+driver[5]=1
+
 EmptyImage[E]=./images/leyland-daf-200-piece_E.0.0,-33,14
 EmptyImage[SE]=./images/leyland-daf-200-piece_SE.0.0,-13,0
 EmptyImage[S]=./images/leyland-daf-200-piece_S.0.0,0,0
@@ -78,6 +80,8 @@ max_loading_time=300
 available_only_as_upgrade=0
 fixed_maintenance=0
 
+driver[5]=1
+
 EmptyImage[E]=./images/leyland-daf-200-cool_E.0.0,-33,14
 EmptyImage[SE]=./images/leyland-daf-200-cool_SE.0.0,-13,0
 EmptyImage[S]=./images/leyland-daf-200-cool_S.0.0,0,0
@@ -117,6 +121,8 @@ min_loading_time=30
 max_loading_time=200
 available_only_as_upgrade=0
 fixed_maintenance=0
+
+driver[5]=1
 
 EmptyImage[E]=./images/leyland-daf-200-post_E.0.0,-33,14
 EmptyImage[SE]=./images/leyland-daf-200-post_SE.0.0,-13,0

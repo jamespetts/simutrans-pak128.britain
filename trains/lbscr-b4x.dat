@@ -29,6 +29,9 @@ available_only_as_upgrade=1
 
 Constraint[Next][0]=LBSCR-B4-tender
 
+driver[0]=1
+staff[1]=1
+
 liverytype[0]=LBSCR-Marsh
 liverytype[1]=SR-Olive-Green
 liverytype[2]=SR-Malachite-Green

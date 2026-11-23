@@ -36,6 +36,8 @@ max_loading_time=222
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
 
+driver[5]=1
+
 liverytype[0]=LT-revised
 liverytype[1]=London-Buses
 liverytype[2]=Arriva-original
@@ -133,6 +135,8 @@ max_loading_time=304
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
+
+driver[5]=1
 
 liverytype[0]=LT-revised
 liverytype[1]=London-Buses

@@ -86,6 +86,8 @@ Constraint[Prev][43]=LMS-open-composite
 Constraint[Prev][44]=LMS-cor-first
 Constraint[Prev][45]=LMS-cor-composite
 
+staff[3]=3
+
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard
 

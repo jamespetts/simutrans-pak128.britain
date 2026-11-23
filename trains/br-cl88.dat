@@ -31,6 +31,8 @@ way_constraint_permissive[2]=2
 # Unknown
 Constraint[Prev][0]=none
 
+driver[0]=1
+
 EmptyImage[E]=./locomotives/br-cl88-drs.1.4
 EmptyImage[SE]=./locomotives/br-cl88-drs.1.5
 EmptyImage[S]=./locomotives/br-cl88-drs.1.6

@@ -20,6 +20,8 @@ runningcost=471
 fixed_cost=18333
 sound=-1
 
+driver[0]=1
+
 EmptyImage[E]=./images/br-cl91-gner.0.0
 EmptyImage[SE]=./images/br-cl91-gner.0.1
 EmptyImage[S]=./images/br-cl91-gner.0.2

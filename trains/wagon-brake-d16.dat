@@ -22,6 +22,8 @@ fixed_cost=4850
 
 bidirectional=1
 
+staff[2]=1
+
 EmptyImage[E]=./wagons/brake-d16_E.0.0
 EmptyImage[SE]=./wagons/brake-d16_SE.0.0
 EmptyImage[S]=./wagons/brake-d16_S.0.0

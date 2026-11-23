@@ -31,6 +31,9 @@ sound=lwalker-br-4mt-tank.wav
 bidirectional=1
 is_tall=0
 
+driver[0]=1
+staff[1]=1
+
 liverytype[0]=Metropolitan-Red
 liverytype[1]=LNER-Standard
 liverytype[2]=BR-Early

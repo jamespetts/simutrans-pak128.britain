@@ -34,6 +34,9 @@ Constraint[Next][0]=GWR-Churchward-Star-Tender
 upgrade[0]=GWR-Churchward-Star-superheated
 upgrade[1]=GWR-Castle
 
+driver[0]=1
+staff[1]=1
+
 liverytype[0]=GWR-standard-green
 liverytype[1]=WW1-Austerity
 liverytype[2]=GWR-chocolate-cream-lined
@@ -144,6 +147,9 @@ years_before_maintenance_max_reached=16
 Constraint[Next][0]=GWR-Churchward-Star-Tender
 
 upgrade[0]=GWR-Castle
+
+driver[0]=1
+staff[1]=1
 
 liverytype[0]=GWR-standard-green
 liverytype[1]=WW1-Austerity

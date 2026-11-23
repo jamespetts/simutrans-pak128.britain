@@ -51,6 +51,10 @@ Constraint[Prev][3]=none
 
 Constraint[Next][0]=BR-800FrontMS
 
+multiple_working_type=1
+
+driver[0]=1
+
 liverytype[0]=Firstgroup-GWR
 liverytype[1]=LNER
 liverytype[2]=VTEC
@@ -153,6 +157,7 @@ Constraint[Next][2]=BR-800MiddleFirst
 Constraint[Next][3]=BR-800MiddleComposite
 Constraint[Next][4]=BR-800Composite18+58
 
+
 liverytype[0]=Firstgroup-GWR
 liverytype[1]=LNER
 liverytype[2]=VTEC
@@ -249,6 +254,7 @@ Constraint[Next][1]=BR-800MiddlePower
 Constraint[Next][2]=BR-800MiddleFirst
 Constraint[Next][3]=BR-800MiddleComposite
 Constraint[Next][4]=BR-800Composite18+58
+
 
 liverytype[0]=Firstgroup-GWR
 liverytype[1]=LNER
@@ -351,6 +357,7 @@ Constraint[Next][0]=BR-800Rear
 Constraint[Next][1]=BR-800Rear-compact
 Constraint[Next][2]=BR-800Rear-trolley
 Constraint[Next][3]=BR-800MiddleFirst
+
 
 liverytype[0]=Firstgroup-GWR
 liverytype[1]=LNER
@@ -455,6 +462,7 @@ Constraint[Next][0]=BR-800Rear
 Constraint[Next][1]=BR-800Rear-compact
 Constraint[Next][2]=BR-800Rear-trolley
 
+
 liverytype[0]=Firstgroup-GWR
 liverytype[1]=LNER
 liverytype[2]=VTEC
@@ -555,6 +563,10 @@ Constraint[Prev][3]=BR-800MiddleFirst
 
 Constraint[Next][0]=BR-800Front
 Constraint[Next][1]=none
+
+multiple_working_type=1
+
+driver[0]=1
 
 liverytype[0]=Firstgroup-GWR
 liverytype[1]=LNER
@@ -657,6 +669,7 @@ Constraint[Next][2]=BR-800MiddleComposite
 Constraint[Next][3]=BR-800Composite18+58
 Constraint[Next][4]=BR-800RearMS
 
+
 liverytype[0]=Firstgroup-GWR
 liverytype[1]=LNER
 liverytype[2]=VTEC
@@ -757,6 +770,7 @@ Constraint[Prev][2]=BR-800FrontMS
 Constraint[Next][0]=BR-800Rear
 Constraint[Next][1]=BR-800Rear-compact
 Constraint[Next][2]=BR-800Rear-trolley
+
 
 liverytype[0]=Firstgroup-GWR
 liverytype[1]=LNER
@@ -859,6 +873,10 @@ Constraint[Prev][3]=BR-800MiddleFirst
 
 Constraint[Next][0]=BR-800Front
 Constraint[Next][1]=none
+
+multiple_working_type=1
+
+driver[0]=1
 
 liverytype[0]=Firstgroup-GWR
 liverytype[1]=LNER
@@ -963,6 +981,7 @@ Constraint[Next][1]=BR-800Rear-compact
 Constraint[Next][2]=BR-800Rear-trolley
 Constraint[Next][3]=BR-800MiddleFirst
 
+
 liverytype[0]=Firstgroup-GWR
 liverytype[1]=LNER
 liverytype[2]=HullTrains
@@ -1063,6 +1082,10 @@ Constraint[Prev][3]=BR-800MiddleFirst
 
 Constraint[Next][0]=BR-800Front
 Constraint[Next][1]=none
+
+multiple_working_type=1
+
+driver[0]=1
 
 liverytype[0]=Firstgroup-GWR
 liverytype[1]=LNER

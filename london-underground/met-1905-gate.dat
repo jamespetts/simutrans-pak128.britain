@@ -47,6 +47,9 @@ Constraint[Next][0]=Metropolitan1905GateMiddle
 Constraint[Next][1]=Metropolitan1913CircleMiddle
 Constraint[Next][2]=Metropolitan1921CircleMiddle
 
+driver[0]=1
+multiple_working_type=1
+
 EmptyImage[E]=./images/met-1905-gate-front.1.4
 EmptyImage[SE]=./images/met-1905-gate-front.1.5
 EmptyImage[S]=./images/met-1905-gate-front.1.6
@@ -105,6 +108,7 @@ Constraint[Next][3]=Metropolitan1905GateRear
 Constraint[Next][4]=Metropolitan1913CircleRear
 Constraint[Next][5]=Metropolitan1921CircleRear
 
+
 EmptyImage[E]=./images/met-1905-gate-middle.1.4
 EmptyImage[SE]=./images/met-1905-gate-middle.1.5
 EmptyImage[S]=./images/met-1905-gate-middle.1.6
@@ -160,6 +164,10 @@ Constraint[Next][0]=Metropolitan1905GateFront
 Constraint[Next][1]=Metropolitan1913CircleFront
 Constraint[Next][2]=Metropolitan1921CircleFront
 Constraint[Next][3]=none
+
+driver[0]=1
+staff[2]=1
+multiple_working_type=1
 
 EmptyImage[E]=./images/met-1905-gate-rear.1.4
 EmptyImage[SE]=./images/met-1905-gate-rear.1.5

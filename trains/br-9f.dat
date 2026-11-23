@@ -33,6 +33,9 @@ years_before_maintenance_max_reached=12
 
 Constraint[Next][0]=BR-9F-Tender
 
+driver[0]=1
+staff[1]=1
+
 EmptyImage[E]=./locomotives/br-9f_E.0.0
 EmptyImage[SE]=./locomotives/br-9f_SE.0.0
 EmptyImage[S]=./locomotives/br-9f_S.0.0

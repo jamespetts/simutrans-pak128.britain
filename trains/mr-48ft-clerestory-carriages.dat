@@ -547,6 +547,8 @@ Constraint[Next][81]=MR-clayton-12wheel-clerestory-composite
 Constraint[Next][82]=MR-clayton-12wheel-clerestory-composite-lav
 Constraint[Next][83]=none
 
+staff[2]=1
+
 liverytype[0]=MR-Standard
 
 EmptyImage[E][0]=./carriages/mr-48ft-clerestory-lav-brake-d499-front_E.0.0
@@ -673,6 +675,8 @@ Constraint[Prev][79]=MR-clayton-8wheel-clerestory-composite
 Constraint[Prev][80]=MR-clayton-8wheel-clerestory-composite-lav
 Constraint[Prev][81]=MR-clayton-12wheel-clerestory-composite
 Constraint[Prev][82]=MR-clayton-12wheel-clerestory-composite-lav
+
+staff[2]=1
 
 liverytype[0]=MR-Standard
 
@@ -803,6 +807,8 @@ Constraint[Next][81]=MR-clayton-12wheel-clerestory-composite
 Constraint[Next][82]=MR-clayton-12wheel-clerestory-composite-lav
 Constraint[Next][83]=none
 
+staff[2]=1
+
 liverytype[0]=MR-Standard
 
 EmptyImage[E][0]=./carriages/mr-48ft-clerestory-non-lav-brake-d500-front_E.0.0
@@ -931,6 +937,8 @@ Constraint[Prev][79]=MR-clayton-8wheel-clerestory-composite
 Constraint[Prev][80]=MR-clayton-8wheel-clerestory-composite-lav
 Constraint[Prev][81]=MR-clayton-12wheel-clerestory-composite
 Constraint[Prev][82]=MR-clayton-12wheel-clerestory-composite-lav
+
+staff[2]=1
 
 liverytype[0]=MR-Standard
 
@@ -1065,6 +1073,8 @@ Constraint[Next][81]=MR-clayton-12wheel-clerestory-composite
 Constraint[Next][82]=MR-clayton-12wheel-clerestory-composite-lav
 Constraint[Next][83]=none
 
+staff[2]=1
+
 liverytype[0]=MR-Standard
 
 EmptyImage[E][0]=./carriages/mr-48ft-clerestory-brake-composite-d525-front_E.0.0
@@ -1196,6 +1206,8 @@ Constraint[Prev][79]=MR-clayton-8wheel-clerestory-composite
 Constraint[Prev][80]=MR-clayton-8wheel-clerestory-composite-lav
 Constraint[Prev][81]=MR-clayton-12wheel-clerestory-composite
 Constraint[Prev][82]=MR-clayton-12wheel-clerestory-composite-lav
+
+staff[2]=1
 
 liverytype[0]=MR-Standard
 
@@ -1820,6 +1832,8 @@ Constraint[Prev][79]=MR-clayton-8wheel-clerestory-composite
 Constraint[Prev][80]=MR-clayton-8wheel-clerestory-composite-lav
 Constraint[Prev][81]=MR-clayton-12wheel-clerestory-composite
 Constraint[Prev][82]=MR-clayton-12wheel-clerestory-composite-lav
+
+staff[3]=3
 
 liverytype[0]=MR-Standard
 

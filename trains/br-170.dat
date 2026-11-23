@@ -58,6 +58,9 @@ Constraint[Prev][12]=none
 Constraint[Next][0]=BR-170Rear
 Constraint[Next][1]=BR-170Middle
 
+driver[0]=1
+multiple_working_type=1
+
 liverytype[0]=Scotrail-NE
 liverytype[1]=First-Scotrail
 liverytype[2]=Scotrail-Saltire
@@ -295,6 +298,7 @@ comfort[3]=135
 Constraint[Prev][0]=BR-170Front
 
 Constraint[Next][0]=BR-170Rear
+
 
 liverytype[0]=Scotrail-NE
 liverytype[1]=First-Scotrail
@@ -548,6 +552,10 @@ Constraint[Next][10]=br-144-1-front
 Constraint[Next][11]=BR-170Front
 Constraint[Next][12]=br-159-front
 Constraint[Next][13]=none
+
+driver[0]=1
+staff[2]=1
+multiple_working_type=1
 
 liverytype[0]=Scotrail-NE
 liverytype[1]=First-Scotrail

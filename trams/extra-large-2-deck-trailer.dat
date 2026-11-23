@@ -41,6 +41,10 @@ Constraint[Prev][8]=merryweather-standard-2
 
 Constraint[Next][0]=none
 
+staff[6]=1
+
+driver[5]=1
+
 EmptyImage[E]=./images/extra-large-2-deck-trailer_E.0.0
 EmptyImage[SE]=./images/extra-large-2-deck-trailer_SE.0.0
 EmptyImage[S]=./images/extra-large-2-deck-trailer_S.0.0

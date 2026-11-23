@@ -31,6 +31,9 @@ years_before_maintenance_max_reached=7
 
 Constraint[Next][0]=GWR-King-Tender
 
+driver[0]=1
+staff[1]=1
+
 liverytype[0]=GWR-chocolate-cream-plain
 liverytype[1]=GWR-shirtbutton
 liverytype[2]=GWR-hawksworth

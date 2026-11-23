@@ -43,6 +43,9 @@ Constraint[Prev][1]=none
 
 Constraint[Next][0]=1940TubeStockMiddle
 
+driver[0]=1
+multiple_working_type=1
+
 liverytype[0]=SR-Malachite-Green
 liverytype[1]=BR-Blue
 liverytype[2]=NSE-Standard
@@ -114,6 +117,7 @@ Constraint[Prev][1]=1940TubeStockMiddle
 
 Constraint[Next][0]=1940TubeStockMiddle
 Constraint[Next][1]=1940TubeStockRear
+
 
 liverytype[0]=SR-Malachite-Green
 liverytype[1]=BR-Blue
@@ -189,6 +193,10 @@ Constraint[Prev][0]=1940TubeStockMiddle
 
 Constraint[Next][0]=1940TubeStockFront
 Constraint[Next][1]=none
+
+driver[0]=1
+staff[2]=1
+multiple_working_type=1
 
 liverytype[0]=SR-Malachite-Green
 liverytype[1]=BR-Blue

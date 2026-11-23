@@ -46,6 +46,9 @@ Constraint[Prev][1]=none
 Constraint[Next][0]=BR-210-TSO
 Constraint[Next][1]=BR-210-TCOL
 
+driver[0]=1
+multiple_working_type=1
+
 liverytype[0]=BR-Blue
 liverytype[1]=Regional-Railways
 liverytype[2]=NSE-Standard
@@ -124,6 +127,7 @@ Constraint[Prev][2]=BR-210-TCOL
 Constraint[Next][0]=BR-210-DTSOL
 Constraint[Next][1]=BR-210-TSO
 Constraint[Next][2]=BR-210-TCOL
+
 
 liverytype[0]=BR-Blue
 liverytype[1]=Regional-Railways
@@ -204,6 +208,7 @@ Constraint[Next][0]=BR-210-DTSOL
 Constraint[Next][1]=BR-210-TSO
 Constraint[Next][2]=BR-210-TCOL
 
+
 liverytype[0]=BR-Blue
 liverytype[1]=Regional-Railways
 liverytype[2]=NSE-Standard
@@ -281,6 +286,11 @@ Constraint[Prev][1]=BR-210-TCOL
 
 Constraint[Next][0]=BR-210-DM
 Constraint[Next][1]=none
+
+staff[2]=1
+multiple_working_type=1
+
+driver[0]=1
 
 liverytype[0]=BR-Blue
 liverytype[1]=Regional-Railways

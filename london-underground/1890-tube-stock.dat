@@ -32,6 +32,8 @@ Constraint[Prev][0]=none
 
 Constraint[Next][0]=1890TubeStockTrailer
 
+driver[0]=1
+
 EmptyImage[E]=./images/cslr-1890.0.0
 EmptyImage[SE]=./images/cslr-1890.0.1
 EmptyImage[S]=./images/cslr-1890.0.2

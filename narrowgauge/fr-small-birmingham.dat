@@ -121,6 +121,7 @@ payload[1]=14
 payload[2]=0
 payload[3]=0
 length=2
+brake_force=1
 rolling_resistance=20
 
 # See Hamilton Ellis p. 181
@@ -327,6 +328,7 @@ payload[1]=0
 payload[2]=14
 payload[3]=0
 length=2
+brake_force=1
 rolling_resistance=20
 
 # See Hamilton Ellis p. 181
@@ -533,6 +535,7 @@ payload[1]=0
 payload[2]=0
 payload[3]=12
 length=2
+brake_force=1
 rolling_resistance=20
 
 # See Hamilton Ellis p. 181

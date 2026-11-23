@@ -21,6 +21,8 @@ fixed_cost=4850
 
 bidirectional=1
 
+staff[2]=1
+
 EmptyImage[E]=./wagons/brake-lner_E.0.0
 EmptyImage[SE]=./wagons/brake-lner_SE.0.0
 EmptyImage[S]=./wagons/brake-lner_S.0.0

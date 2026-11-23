@@ -46,6 +46,9 @@ Constraint[Next][0]=BR-Class483NDM
 Constraint[Next][1]=BR-Class483Trailer
 Constraint[Next][2]=BR-Class483Rear
 
+driver[0]=1
+multiple_working_type=1
+
 liverytype[0]=NSE-Standard
 liverytype[1]=Island-Heritage
 
@@ -113,6 +116,7 @@ Constraint[Prev][0]=BR-Class483Front
 Constraint[Next][0]=BR-Class483Trailer
 Constraint[Next][1]=BR-Class483Rear
 
+
 liverytype[0]=NSE-Standard
 liverytype[1]=Island-Heritage
 
@@ -176,6 +180,7 @@ Constraint[Prev][0]=BR-Class483NDM
 Constraint[Prev][1]=BR-Class483Front
 
 Constraint[Next][0]=BR-Class483Rear
+
 
 liverytype[0]=NSE-Standard
 liverytype[1]=Island-Heritage
@@ -244,6 +249,10 @@ Constraint[Prev][2]=BR-Class483Front
 
 Constraint[Next][0]=BR-Class483Front
 Constraint[Next][1]=none
+
+driver[0]=1
+staff[2]=1
+multiple_working_type=1
 
 liverytype[0]=NSE-Standard
 liverytype[1]=Island-Heritage

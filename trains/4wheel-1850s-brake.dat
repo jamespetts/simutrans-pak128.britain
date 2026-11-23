@@ -25,6 +25,8 @@ max_loading_time=55
 can_lead_from_rear=0
 bidirectional=1
 
+staff[2]=1
+
 liverytype[0]=LNWR-Early
 liverytype[1]=MR-Early
 liverytype[2]=MR-Standard

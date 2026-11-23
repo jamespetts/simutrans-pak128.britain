@@ -66,6 +66,9 @@ Constraint[Prev][15]=none
 
 Constraint[Next][0]=LSWR-EMU(centre)
 
+driver[0]=1
+multiple_working_type=1
+
 liverytype[0]=LSWR-sage
 liverytype[1]=SR-Olive-Green
 liverytype[2]=SR-Malachite-Green
@@ -169,6 +172,7 @@ Constraint[Next][0]=LSWR-EMU(rear)
 Constraint[Next][1]=SR-4SUB(centre2)
 
 Constraint[Prev][0]=LSWR-EMU(front)
+
 
 liverytype[0]=LSWR-sage
 liverytype[1]=SR-Olive-Green
@@ -291,6 +295,10 @@ Constraint[Next][12]=lswr-48ft-augmentation-trailer-front
 Constraint[Next][13]=lswr-56ft-augmentation-trailer-front
 Constraint[Next][14]=SR-5-BEL-driving-motor-front
 Constraint[Next][15]=none
+
+driver[0]=1
+staff[2]=1
+multiple_working_type=1
 
 liverytype[0]=LSWR-sage
 liverytype[1]=SR-Olive-Green

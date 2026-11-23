@@ -32,6 +32,9 @@ upgrade[0]=LNWR-Waterloo
 
 Constraint[Next][0]=LNWR-Sampson-Tender
 
+driver[0]=1
+staff[1]=1
+
 liverytype[0]=LNWR-Early
 liverytype[1]=LNWR-Black
 

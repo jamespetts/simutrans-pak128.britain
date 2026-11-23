@@ -68,6 +68,9 @@ Constraint[Prev][15]=none
 
 Constraint[Next][0]=SR-5-BEL-parlour-third
 
+driver[0]=1
+multiple_working_type=1
+
 liverytype[0]=Pullman-Cream-Umber
 liverytype[1]=WW2-Austerity
 liverytype[2]=BR-Revised
@@ -152,6 +155,7 @@ comfort[4]=158
 Constraint[Next][0]=SR-5-bel-kitchen-first-1
 
 Constraint[Prev][0]=SR-5-BEL-driving-motor-front
+
 
 liverytype[0]=Pullman-Cream-Umber
 liverytype[1]=WW2-Austerity
@@ -240,6 +244,9 @@ Constraint[Next][0]=SR-5-bel-kitchen-first-2
 
 Constraint[Prev][0]=SR-5-BEL-parlour-third
 
+staff[3]=3
+
+
 liverytype[0]=Pullman-Cream-Umber
 liverytype[1]=WW2-Austerity
 liverytype[2]=BR-Revised
@@ -326,6 +333,9 @@ comfort[4]=158
 Constraint[Next][0]=SR-5-BEL-driving-motor-rear
 
 Constraint[Prev][0]=SR-5-bel-kitchen-first-1
+
+staff[3]=3
+
 
 liverytype[0]=Pullman-Cream-Umber
 liverytype[1]=WW2-Austerity
@@ -437,6 +447,10 @@ Constraint[Next][12]=lswr-48ft-augmentation-trailer-front
 Constraint[Next][13]=lswr-56ft-augmentation-trailer-front
 Constraint[Next][14]=SR-5-BEL-driving-motor-front
 Constraint[Next][15]=none
+
+driver[0]=1
+staff[2]=1
+multiple_working_type=1
 
 liverytype[0]=Pullman-Cream-Umber
 liverytype[1]=WW2-Austerity

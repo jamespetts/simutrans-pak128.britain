@@ -27,6 +27,8 @@ max_loading_time=160
 
 Constraint[Prev][0]=any
 
+staff[2]=1
+
 liverytype[0]=IC-Swallow
 liverytype[1]=GNER
 liverytype[2]=National-Express

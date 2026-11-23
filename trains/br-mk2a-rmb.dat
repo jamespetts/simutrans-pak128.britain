@@ -103,6 +103,8 @@ Constraint[Prev][32]=BR-Mk1-PFK
 Constraint[Prev][33]=BR-Mk1-PSP
 Constraint[Prev][34]=BR-Mk1-PFP
 
+staff[3]=1
+
 liverytype[0]=BR-Blue
 liverytype[1]=NSE-Standard
 liverytype[2]=Scotrail-original

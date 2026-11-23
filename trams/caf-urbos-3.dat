@@ -50,6 +50,10 @@ max_loading_time=45
 Constraint[Prev][0]=none
 Constraint[Next][0]=CAF-Urbos-3-middle1
 
+driver[5]=1
+
+multiple_working_type=2
+
 EmptyImage[E]=./images/caf-urbos-3-front.1.4
 EmptyImage[SE]=./images/caf-urbos-3-front.1.5
 EmptyImage[S]=./images/caf-urbos-3-front.1.6
@@ -94,6 +98,7 @@ max_loading_time=45
 
 Constraint[Prev][0]=CAF-Urbos-3-front
 Constraint[Next][0]=CAF-Urbos-3-panto
+
 
 EmptyImage[E]=./images/caf-urbos-3-middle.1.4
 EmptyImage[SE]=./images/caf-urbos-3-middle.1.5
@@ -140,6 +145,7 @@ max_loading_time=45
 Constraint[Prev][0]=CAF-Urbos-3-panto
 Constraint[Next][0]=CAF-Urbos-3-rear
 
+
 EmptyImage[E]=./images/caf-urbos-3-middle.1.4
 EmptyImage[SE]=./images/caf-urbos-3-middle.1.5
 EmptyImage[S]=./images/caf-urbos-3-middle.1.6
@@ -183,6 +189,7 @@ max_loading_time=45
 
 Constraint[Prev][0]=CAF-Urbos-3-middle1
 Constraint[Next][0]=CAF-Urbos-3-middle2
+
 
 EmptyImage[E]=./images/caf-urbos-3-panto.1.4
 EmptyImage[SE]=./images/caf-urbos-3-panto.1.5
@@ -230,6 +237,10 @@ max_loading_time=45
 
 Constraint[Prev][0]=CAF-Urbos-3-middle2
 Constraint[Next][0]=none
+
+driver[5]=1
+
+multiple_working_type=2
 
 EmptyImage[E]=./images/caf-urbos-3-rear.1.4
 EmptyImage[SE]=./images/caf-urbos-3-rear.1.5

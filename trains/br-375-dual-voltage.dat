@@ -53,6 +53,9 @@ Constraint[Prev][6]=none
 Constraint[Next][0]=BR-375-6Middle
 Constraint[Next][1]=BR-375-6Panto
 
+driver[0]=1
+multiple_working_type=1
+
 liverytype[0]=South-Eastern-Trains
 liverytype[1]=southeastern
 liverytype[2]=Firstgroup-Neon
@@ -142,6 +145,7 @@ Constraint[Prev][1]=BR-375-6Middle
 Constraint[Next][0]=BR-375-6Rear
 Constraint[Next][1]=BR-377-7Middle2
 
+
 liverytype[0]=South-Eastern-Trains
 liverytype[1]=southeastern
 liverytype[2]=Firstgroup-Neon
@@ -229,6 +233,7 @@ Constraint[Prev][0]=BR-375-6Front
 
 Constraint[Next][0]=BR-375-6Panto
 
+
 liverytype[0]=South-Eastern-Trains
 liverytype[1]=southeastern
 liverytype[2]=Firstgroup-Neon
@@ -315,6 +320,7 @@ bidirectional=1
 Constraint[Prev][0]=BR-375-6Panto
 
 Constraint[Next][0]=BR-375-6Rear
+
 
 liverytype[0]=South-Eastern-Trains
 liverytype[1]=southeastern
@@ -410,6 +416,9 @@ Constraint[Next][3]=BR-387Front
 Constraint[Next][4]=BR-376Front
 Constraint[Next][5]=BR-378Front
 Constraint[Next][6]=none
+
+driver[0]=1
+multiple_working_type=1
 
 liverytype[0]=South-Eastern-Trains
 liverytype[1]=southeastern

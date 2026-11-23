@@ -31,6 +31,8 @@ way_constraint_permissive[1]=1
 Constraint[Prev][0]=LNER-ClassEM1
 Constraint[Prev][1]=none
 
+driver[0]=1
+
 liverytype[0]=LNER-Standard
 liverytype[1]=WW2-Austerity
 liverytype[2]=BR-Early

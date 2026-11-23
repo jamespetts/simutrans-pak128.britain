@@ -51,6 +51,9 @@ Constraint[Prev][6]=none
 Constraint[Next][0]=BR-387Panto
 Constraint[Next][1]=BR-387Middle
 
+driver[0]=1
+multiple_working_type=1
+
 liverytype[0]=Southern
 liverytype[1]=GATEX
 
@@ -117,6 +120,7 @@ Constraint[Prev][0]=BR-387Front
 
 Constraint[Next][0]=BR-387Panto
 
+
 liverytype[0]=Southern
 liverytype[1]=GATEX
 
@@ -182,6 +186,7 @@ bidirectional=1
 Constraint[Prev][0]=BR-387Panto
 
 Constraint[Next][0]=BR-387Rear
+
 
 liverytype[0]=Southern
 liverytype[1]=GATEX
@@ -250,6 +255,7 @@ Constraint[Prev][1]=BR-387Middle
 
 Constraint[Next][0]=BR-387Rear
 Constraint[Next][1]=BR-387Middle2
+
 
 liverytype[0]=Southern
 liverytype[1]=GATEX
@@ -324,6 +330,9 @@ Constraint[Next][3]=BR-375-6Front
 Constraint[Next][4]=BR-376Front
 Constraint[Next][5]=BR-378Front
 Constraint[Next][6]=none
+
+driver[0]=1
+multiple_working_type=1
 
 liverytype[0]=Southern
 liverytype[1]=GATEX

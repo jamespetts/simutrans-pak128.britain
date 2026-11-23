@@ -39,6 +39,8 @@ Constraint[Prev][7]=MR-54ft-eliptical-cor-d1047
 Constraint[Prev][8]=MR-54ft-eliptical-non-lav-brake-front-d1246
 Constraint[Prev][9]=BR-Mk1-Sub-cl
 
+staff[2]=1
+
 liverytype[0]=BR-Early
 liverytype[1]=BR-Revised
 liverytype[2]=BR-Blue
@@ -114,6 +116,8 @@ Constraint[Next][7]=MR-54ft-eliptical-cor-d1047
 Constraint[Next][8]=MR-54ft-eliptical-non-lav-brake-rear-d1246
 Constraint[Next][9]=BR-Mk1-Sub-cl
 Constraint[Next][10]=none
+
+staff[2]=1
 
 liverytype[0]=BR-Early
 liverytype[1]=BR-Revised

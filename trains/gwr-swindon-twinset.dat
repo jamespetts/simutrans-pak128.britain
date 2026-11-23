@@ -38,8 +38,12 @@ comfort[1]=115
 catering_level=2
 air_resistance=112
 
-Constraint[Prev][0]=none
+Constraint[Prev][0]=GWR-Swindon-TwinsetRear
+Constraint[Prev][1]=none
 Constraint[Next][0]=GWR-Swindon-TwinsetRear
+
+driver[0]=1
+multiple_working_type=1
 
 liverytype[0]=GWR-shirtbutton
 liverytype[1]=BR-Early
@@ -112,7 +116,12 @@ comfort[1]=115
 air_resistance=112
 
 Constraint[Prev][0]=GWR-Swindon-TwinsetFront
-Constraint[Next][0]=none
+Constraint[Next][0]=GWR-Swindon-TwinsetFront
+Constraint[Next][1]=none
+
+driver[0]=1
+staff[2]=1
+multiple_working_type=1
 
 liverytype[0]=GWR-shirtbutton
 liverytype[1]=BR-Early

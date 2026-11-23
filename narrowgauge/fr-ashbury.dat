@@ -121,6 +121,7 @@ payload[1]=16
 payload[2]=0
 payload[3]=0
 length=2
+brake_force=1
 rolling_resistance=19
 
 weight=2
@@ -326,6 +327,7 @@ payload[1]=0
 payload[2]=0
 payload[3]=12
 length=2
+brake_force=1
 rolling_resistance=19
 
 weight=2

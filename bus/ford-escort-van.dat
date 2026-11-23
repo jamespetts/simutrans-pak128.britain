@@ -26,6 +26,8 @@ constraint[prev][0]=none
 min_loading_time=30
 max_loading_time=240
 
+driver[5]=1
+
 EmptyImage[E]=./images/ford-escort-van-piece_E.0.0,-33,14
 EmptyImage[SE]=./images/ford-escort-van-piece_SE.0.0,-13,0
 EmptyImage[S]=./images/ford-escort-van-piece_S.0.0,0,0
@@ -64,6 +66,8 @@ constraint[prev][0]=none
 min_loading_time=30
 max_loading_time=240
 
+driver[5]=1
+
 EmptyImage[E]=./images/ford-escort-van-cool_E.0.0,-33,14
 EmptyImage[SE]=./images/ford-escort-van-cool_SE.0.0,-13,0
 EmptyImage[S]=./images/ford-escort-van-cool_S.0.0,0,0
@@ -100,6 +104,8 @@ constraint[prev][0]=none
 
 min_loading_time=30
 max_loading_time=180
+
+driver[5]=1
 
 EmptyImage[E]=./images/ford-escort-van-post_E.0.0,-33,14
 EmptyImage[SE]=./images/ford-escort-van-post_SE.0.0,-13,0

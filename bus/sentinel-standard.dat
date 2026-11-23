@@ -32,6 +32,8 @@ constraint[prev][0]=none
 min_loading_time=95
 max_loading_time=365
 
+driver[5]=1
+
 EmptyImage[E]=./images/sentinel-standard-tipper-empty_E.0.0,-33,14
 EmptyImage[SE]=./images/sentinel-standard-tipper-empty_SE.0.0,-13,0
 EmptyImage[S]=./images/sentinel-standard-tipper-empty_S.0.0,0,0
@@ -120,6 +122,8 @@ constraint[prev][0]=none
 min_loading_time=95
 max_loading_time=365
 
+driver[5]=1
+
 EmptyImage[E]=./images/sentinel-standard-flat-empty_E.0.0,-33,14
 EmptyImage[SE]=./images/sentinel-standard-flat-empty_SE.0.0,-13,0
 EmptyImage[S]=./images/sentinel-standard-flat-empty_S.0.0,0,0
@@ -178,6 +182,8 @@ constraint[prev][0]=none
 min_loading_time=95
 max_loading_time=365
 
+driver[5]=1
+
 EmptyImage[E]=./images/sentinel-standard-flat-empty_E.0.0,-33,14
 EmptyImage[SE]=./images/sentinel-standard-flat-empty_SE.0.0,-13,0
 EmptyImage[S]=./images/sentinel-standard-flat-empty_S.0.0,0,0
@@ -225,6 +231,8 @@ constraint[prev][0]=none
 min_loading_time=95
 max_loading_time=365
 
+driver[5]=1
+
 EmptyImage[E]=./images/sentinel-standard-flat-empty_E.0.0,-33,14
 EmptyImage[SE]=./images/sentinel-standard-flat-empty_SE.0.0,-13,0
 EmptyImage[S]=./images/sentinel-standard-flat-empty_S.0.0,0,0
@@ -271,6 +279,8 @@ constraint[prev][0]=none
 
 min_loading_time=95
 max_loading_time=365
+
+driver[5]=1
 
 EmptyImage[E]=./images/sentinel-standard-livestock-empty_E.0.0,-33,14
 EmptyImage[SE]=./images/sentinel-standard-livestock-empty_SE.0.0,-13,0
@@ -320,6 +330,8 @@ constraint[prev][0]=none
 
 min_loading_time=95
 max_loading_time=365
+
+driver[5]=1
 
 EmptyImage[E]=./images/sentinel-standard-tanker_E.0.0,-33,14
 EmptyImage[SE]=./images/sentinel-standard-tanker_SE.0.0,-13,0

@@ -30,6 +30,9 @@ sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=gnr-early-tender
 
+driver[0]=1
+staff[1]=1
+
 liverytype[0]=GNR-early
 liverytype[1]=GNR-Standard
 

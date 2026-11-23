@@ -30,6 +30,9 @@ sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=stephenson-dodd-patent-tender
 
+driver[0]=1
+staff[1]=1
+
 EmptyImage[E]=./locomotives/stephenson-dodd-patent_E.0.0
 EmptyImage[SE]=./locomotives/stephenson-dodd-patent_SE.0.0
 EmptyImage[S]=./locomotives/stephenson-dodd-patent_S.0.0

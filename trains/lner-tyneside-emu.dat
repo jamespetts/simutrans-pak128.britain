@@ -46,6 +46,9 @@ Constraint[Prev][3]=none
 Constraint[Next][0]=LNER-1937-Tyneside-EMU-rear
 Constraint[Next][1]=LNER-1937-Tyneside-EMU-rear-composite
 
+driver[0]=1
+multiple_working_type=1
+
 liverytype[0]=LNER
 liverytype[1]=BR-Early
 
@@ -112,6 +115,12 @@ Constraint[Next][0]=LNER-1937-Tyneside-EMU-front
 Constraint[Next][1]=LNER-1937-Tyneside-EMU-MPV
 Constraint[Next][2]=none
 
+multiple_working_type=1
+
+staff[2]=1
+
+driver[0]=1
+
 liverytype[0]=LNER
 liverytype[1]=BR-Early
 
@@ -177,6 +186,10 @@ Constraint[Prev][0]=LNER-1937-Tyneside-EMU-front
 Constraint[Next][0]=LNER-1937-Tyneside-EMU-front
 Constraint[Next][1]=LNER-1937-Tyneside-EMU-MPV
 Constraint[Next][2]=none
+
+multiple_working_type=1
+
+driver[0]=1
 
 liverytype[0]=LNER
 liverytype[1]=BR-Early
@@ -247,6 +260,9 @@ Constraint[Next][5]=SR-Maunsell-Parcels
 Constraint[Next][6]=BR-Mk1-POS
 Constraint[Next][7]=BR-Mk1-TPO
 Constraint[Next][8]=none
+
+driver[0]=1
+multiple_working_type=1
 
 liverytype[0]=LNER
 liverytype[1]=BR-Early

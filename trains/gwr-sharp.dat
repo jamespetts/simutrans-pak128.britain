@@ -31,6 +31,9 @@ sound=nick-parry-gwr-city-class.wav
 
 Constraint[Next][0]=gwr-armstrong-tender
 
+driver[0]=1
+staff[1]=1
+
 liverytype[0]=GWR-early
 liverytype[1]=GWR-dark-green
 liverytype[2]=GWR-standard-green

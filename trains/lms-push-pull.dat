@@ -49,6 +49,8 @@ Constraint[Prev][8]=LMS-Stanier-3P-Tank-Push-Pull
 
 Constraint[Next][0]=none
 
+staff[2]=1
+
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
 liverytype[2]=BR-Revised

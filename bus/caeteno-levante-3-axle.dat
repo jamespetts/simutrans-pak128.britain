@@ -38,6 +38,8 @@ max_loading_time=450
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
 
+driver[5]=1
+
 liverytype[0]=NE-Grey-Stripes
 
 EmptyImage[E][0]=./images/catano-levante--3-axle-national-express_E.0.0,-33,14

@@ -30,6 +30,9 @@ years_before_maintenance_max_reached=21
 Constraint[Next][0]=HR-Jones-Goods-Tender
 
 # HACK: We use the Midland scheme here as a generic pre-grouping scheme. 
+driver[0]=1
+staff[1]=1
+
 liverytype[0]=MR-Standard
 liverytype[1]=LMS-Standard
 

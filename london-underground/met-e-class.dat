@@ -29,6 +29,9 @@ years_before_maintenance_max_reached=17
 bidirectional=1
 is_tall=0
 
+driver[0]=1
+staff[1]=1
+
 liverytype[0]=Metropolitan-Red
 liverytype[1]=Metropolitan-Late
 liverytype[2]=LT

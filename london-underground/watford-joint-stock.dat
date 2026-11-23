@@ -44,6 +44,9 @@ Constraint[Prev][1]=none
 
 Constraint[Next][0]=WatfordJointStockMiddle
 
+driver[0]=1
+multiple_working_type=1
+
 EmptyImage[E]=./images/watford-joint-stock-lnwr.0.0
 EmptyImage[SE]=./images/watford-joint-stock-lnwr.0.1
 EmptyImage[S]=./images/watford-joint-stock-lnwr.0.2
@@ -93,6 +96,7 @@ Constraint[Prev][2]=WatfordJointStockRear
 
 Constraint[Next][0]=WatfordJointStockMiddle
 Constraint[Next][1]=WatfordJointStockRear
+
 
 EmptyImage[E]=./images/watford-joint-stock-lnwr.1.0
 EmptyImage[SE]=./images/watford-joint-stock-lnwr.1.1
@@ -147,6 +151,10 @@ Constraint[Prev][0]=WatfordJointStockMiddle
 Constraint[Next][0]=WatfordJointStockFront
 Constraint[Next][1]=WatfordJointStockMiddle
 Constraint[Next][2]=none
+
+driver[0]=1
+staff[2]=1
+multiple_working_type=1
 
 EmptyImage[E]=./images/watford-joint-stock-lnwr.2.0
 EmptyImage[SE]=./images/watford-joint-stock-lnwr.2.1

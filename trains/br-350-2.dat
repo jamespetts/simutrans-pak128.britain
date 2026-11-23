@@ -44,6 +44,9 @@ Constraint[Prev][1]=none
 
 Constraint[Next][0]=BR-350-2(centre1)
 
+driver[0]=1
+multiple_working_type=1
+
 liverytype[0]=LM-Standard
 liverytype[1]=Firstgroup-Neon
 liverytype[2]=Private
@@ -130,6 +133,7 @@ Constraint[Prev][0]=BR-350-2(front)
 
 Constraint[Next][0]=BR-350-2(centre2)
 
+
 liverytype[0]=LM-Standard
 liverytype[1]=Firstgroup-Neon
 liverytype[2]=Private
@@ -215,6 +219,7 @@ way_constraint_permissive[2]=2
 Constraint[Prev][0]=BR-350-2(centre1)
 
 Constraint[Next][0]=BR-350-2(rear)
+
 
 liverytype[0]=LM-Standard
 liverytype[1]=Firstgroup-Neon
@@ -304,6 +309,9 @@ Constraint[Prev][0]=BR-350-2(centre2)
 
 Constraint[Next][0]=BR-350-2(front)
 Constraint[Next][1]=none
+
+driver[0]=1
+multiple_working_type=1
 
 liverytype[0]=LM-Standard
 liverytype[1]=Firstgroup-Neon

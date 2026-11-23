@@ -34,6 +34,8 @@ Constraint[Prev][0]=none
 Constraint[Next][0]=none
 
 # TODO: Add more liveries
+driver[5]=1
+
 liverytype[0]=LT-revised
 
 EmptyImage[E][0]=./images/leyland-national-2-short-lt-revised_E.0.0,-33,14

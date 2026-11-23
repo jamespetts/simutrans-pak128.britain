@@ -116,6 +116,8 @@ Constraint[Prev][36]=pullman-k-type-kitchen-first
 Constraint[Prev][37]=LNER-Gresley-Express-first
 Constraint[Prev][38]=LNER-Gresley-Express-Coach-All-Doors-first
 
+staff[3]=1
+
 liverytype[0]=LNER-Standard
 liverytype[1]=BR-Early
 liverytype[2]=BR-Revised

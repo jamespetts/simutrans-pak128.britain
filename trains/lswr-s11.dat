@@ -27,6 +27,9 @@ upgrade[0]=LSWR-S11-superheated
 
 Constraint[Next][0]=lswr-watercart-tender
 
+driver[0]=1
+staff[1]=1
+
 liverytype[0]=LSWR-royal-green
 liverytype[1]=LSWR-sage
 liverytype[2]=SR-Olive-Green

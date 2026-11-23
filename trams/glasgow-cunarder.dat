@@ -40,6 +40,9 @@ max_loading_time=54
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
 
+driver[5]=1
+staff[6]=1
+
 liverytype[0]=Glasgow-Corporation-standard
 
 EmptyImage[E][0]=./images/glasgow-cunarder_E.0.0

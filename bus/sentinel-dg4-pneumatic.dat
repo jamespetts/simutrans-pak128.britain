@@ -33,6 +33,8 @@ constraint[prev][0]=none
 min_loading_time=120
 max_loading_time=560
 
+driver[5]=1
+
 EmptyImage[E]=./images/sentinel-dg4-pneumatic-tipper-empty_E.0.0,-33,14
 EmptyImage[SE]=./images/sentinel-dg4-pneumatic-tipper-empty_SE.0.0,-13,0
 EmptyImage[S]=./images/sentinel-dg4-pneumatic-tipper-empty_S.0.0,0,0
@@ -122,6 +124,8 @@ constraint[prev][0]=none
 min_loading_time=120
 max_loading_time=560
 
+driver[5]=1
+
 EmptyImage[E]=./images/sentinel-dg4-pneumatic-flat-empty_E.0.0,-33,14
 EmptyImage[SE]=./images/sentinel-dg4-pneumatic-flat-empty_SE.0.0,-13,0
 EmptyImage[S]=./images/sentinel-dg4-pneumatic-flat-empty_S.0.0,0,0
@@ -181,6 +185,8 @@ constraint[prev][0]=none
 min_loading_time=120
 max_loading_time=560
 
+driver[5]=1
+
 EmptyImage[E]=./images/sentinel-dg4-pneumatic-piece_E.0.0,-33,14
 EmptyImage[SE]=./images/sentinel-dg4-pneumatic-piece_SE.0.0,-13,0
 EmptyImage[S]=./images/sentinel-dg4-pneumatic-piece_S.0.0,0,0
@@ -219,6 +225,8 @@ constraint[prev][0]=none
 
 min_loading_time=120
 max_loading_time=560
+
+driver[5]=1
 
 EmptyImage[E]=./images/sentinel-dg4-pneumatic-cool_E.0.0,-33,14
 EmptyImage[SE]=./images/sentinel-dg4-pneumatic-cool_SE.0.0,-13,0
@@ -259,6 +267,8 @@ constraint[prev][0]=none
 min_loading_time=120
 max_loading_time=560
 
+driver[5]=1
+
 EmptyImage[E]=./images/sentinel-dg4-pneumatic-livestock_E.0.0,-33,14
 EmptyImage[SE]=./images/sentinel-dg4-pneumatic-livestock_SE.0.0,-13,0
 EmptyImage[S]=./images/sentinel-dg4-pneumatic-livestock_S.0.0,0,0
@@ -298,6 +308,8 @@ constraint[prev][0]=none
 
 min_loading_time=120
 max_loading_time=560
+
+driver[5]=1
 
 EmptyImage[E]=./images/sentinel-dg4-pneumatic-tanker_E.0.0,-33,14
 EmptyImage[SE]=./images/sentinel-dg4-pneumatic-tanker_SE.0.0,-13,0

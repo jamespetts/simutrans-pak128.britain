@@ -34,6 +34,8 @@ Constraint[Next][0]=none
 # TODO: Add more liveries
 # TODO: Add the EV version of this.
 
+driver[5]=1
+
 liverytype[0]=Metroline-plain-red
 
 EmptyImage[E][0]=./images/dennis-enviro200-mmc-8-9m-tfl_E.0.0,-33,14

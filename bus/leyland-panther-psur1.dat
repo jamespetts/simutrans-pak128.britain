@@ -35,6 +35,9 @@ sound=henergy1994-leyland-leopard.wav
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
 
+driver[5]=1
+staff[6]=1
+
 liverytype[0]=Ribble-standard
 liverytype[1]=Southdown-standard
 liverytype[2]=Glasgow-Corporation-revised-2
@@ -133,6 +136,9 @@ sound=henergy1994-leyland-leopard.wav
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
+
+driver[5]=1
+staff[6]=1
 
 liverytype[0]=Ribble-standard
 liverytype[1]=Southdown-standard

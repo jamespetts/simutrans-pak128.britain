@@ -995,6 +995,8 @@ Constraint[Next][81]=MR-clayton-12wheel-clerestory-composite
 Constraint[Next][82]=MR-clayton-12wheel-clerestory-composite-lav
 Constraint[Next][83]=none
 
+staff[2]=1
+
 liverytype[0]=MR-Early
 liverytype[1]=MR-Standard
 
@@ -1133,6 +1135,8 @@ Constraint[Prev][79]=MR-clayton-8wheel-clerestory-composite
 Constraint[Prev][80]=MR-clayton-8wheel-clerestory-composite-lav
 Constraint[Prev][81]=MR-clayton-12wheel-clerestory-composite
 Constraint[Prev][82]=MR-clayton-12wheel-clerestory-composite-lav
+
+staff[2]=1
 
 liverytype[0]=MR-Early
 liverytype[1]=MR-Standard
@@ -1276,6 +1280,8 @@ Constraint[Next][81]=MR-clayton-12wheel-clerestory-composite
 Constraint[Next][82]=MR-clayton-12wheel-clerestory-composite-lav
 Constraint[Next][66]=none
 
+staff[2]=1
+
 EmptyImage[E]=./carriages/mr-clayton-8wheel-clerestory-brake-lav-front_E.0.0
 EmptyImage[SE]=./carriages/mr-clayton-8wheel-clerestory-brake-lav-front_SE.0.0
 EmptyImage[S]=./carriages/mr-clayton-8wheel-clerestory-brake-lav-front_S.0.0
@@ -1403,6 +1409,8 @@ Constraint[Prev][79]=MR-clayton-8wheel-clerestory-composite
 Constraint[Prev][80]=MR-clayton-8wheel-clerestory-composite-lav
 Constraint[Prev][81]=MR-clayton-12wheel-clerestory-composite
 Constraint[Prev][82]=MR-clayton-12wheel-clerestory-composite-lav
+
+staff[2]=1
 
 EmptyImage[E]=./carriages/mr-clayton-8wheel-clerestory-brake-lav-rear_E.0.0
 EmptyImage[SE]=./carriages/mr-clayton-8wheel-clerestory-brake-lav-rear_SE.0.0

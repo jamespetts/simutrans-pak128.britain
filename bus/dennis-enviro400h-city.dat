@@ -34,6 +34,8 @@ Constraint[Next][0]=none
 
 # TODO: Add more liveries
 
+driver[5]=1
+
 liverytype[0]=Metroline-plain-red
 
 EmptyImage[E][0]=./images/dennis-enviro400h-city-2-door-tfl_E.0.0,-33,14
@@ -79,6 +81,8 @@ Constraint[Prev][0]=none
 Constraint[Next][0]=none
 
 # TODO: Add more liveries
+
+driver[5]=1
 
 liverytype[0]=Metroline-plain-red
 

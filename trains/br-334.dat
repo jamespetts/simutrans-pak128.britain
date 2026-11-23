@@ -40,6 +40,9 @@ Constraint[Prev][1]=none
 
 Constraint[Next][0]=BR-334Middle
 
+driver[0]=1
+multiple_working_type=1
+
 liverytype[0]=Strathclyde-carmine-cream
 liverytype[1]=Saltire
 
@@ -105,6 +108,9 @@ Constraint[Prev][0]=BR-334Middle
 Constraint[Next][0]=BR-334Front
 Constraint[Next][1]=none
 
+driver[0]=1
+multiple_working_type=1
+
 liverytype[0]=Strathclyde-carmine-cream
 liverytype[1]=Saltire
 
@@ -167,6 +173,7 @@ way_constraint_permissive[2]=2
 Constraint[Prev][0]=BR-334Front
 
 Constraint[Next][0]=BR-334Rear
+
 
 liverytype[0]=Strathclyde-carmine-cream
 liverytype[1]=Saltire

@@ -459,6 +459,8 @@ Constraint[Prev][36]=pullman-k-type-kitchen-first
 Constraint[Prev][37]=pullman-1928-kitchen-first
 Constraint[Prev][38]=pullman-1951-kitchen-first
 
+staff[2]=1
+
 liverytype[0]=LBSCR-Stroudley
 liverytype[1]=LBSCR-Marsh
 liverytype[2]=LBSCR-Late
@@ -605,6 +607,8 @@ Constraint[Next][36]=pullman-k-type-kitchen-first
 Constraint[Next][37]=pullman-1928-kitchen-first
 Constraint[Next][38]=pullman-1951-kitchen-first
 Constraint[Next][39]=none
+
+staff[2]=1
 
 liverytype[0]=LBSCR-Stroudley
 liverytype[1]=LBSCR-Marsh

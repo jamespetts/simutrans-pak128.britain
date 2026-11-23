@@ -41,6 +41,10 @@ Constraint[Prev][8]=none
 # No next constraints, as this could haul a trailing load
 # of 100t: http://www.therailwaycentre.com/Recognition%20Tech%20Data%20EMU/EMU_419_499.html
 
+driver[0]=1
+staff[2]=1
+multiple_working_type=1
+
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue
 liverytype[2]=BR-Large-Logo

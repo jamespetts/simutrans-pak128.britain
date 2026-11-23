@@ -27,6 +27,9 @@ sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=SECR-N-Class-Tender
 
+driver[0]=1
+staff[1]=1
+
 liverytype[0]=WW1-Austerity
 liverytype[1]=SR-Olive-Green
 liverytype[2]=SR-Malachite-Green

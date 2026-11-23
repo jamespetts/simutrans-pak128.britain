@@ -41,6 +41,7 @@ Constraint[Next][3]=tram-horse-clydesdale-double
 Constraint[Next][4]=tram-horse-shire-double
 Constraint[Next][5]=tram-horse-irish-draught-double
 
+
 EmptyImage[E]=./images/horse-shire-single_E.0.0
 EmptyImage[SE]=./images/horse-shire-single_SE.0.0
 EmptyImage[S]=./images/horse-shire-single_S.0.0
@@ -94,6 +95,7 @@ Constraint[Next][2]=Small-2-Deck-Trailer
 Constraint[Next][3]=Medium-large-2-Deck-Trailer
 Constraint[Next][4]=Large-2-Deck-Trailer
 Constraint[Next][5]=Extra-large-2-Deck-Trailer
+
 
 EmptyImage[E]=./images/horse-shire-double_E.0.0
 EmptyImage[SE]=./images/horse-shire-double_SE.0.0

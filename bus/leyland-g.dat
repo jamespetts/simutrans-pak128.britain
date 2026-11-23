@@ -29,6 +29,8 @@ max_loading_time=450
 constraint[next][0]=none
 constraint[prev][0]=none
 
+driver[5]=1
+
 EmptyImage[E]=./images/leyland-g-bulk-empty_E.0.0,-33,14
 EmptyImage[SE]=./images/leyland-g-bulk-empty_SE.0.0,-13,0
 EmptyImage[S]=./images/leyland-g-bulk-empty_S.0.0,0,0
@@ -118,6 +120,8 @@ max_loading_time=450
 constraint[next][0]=none
 constraint[prev][0]=none
 
+driver[5]=1
+
 EmptyImage[E]=./images/leyland-g-long-empty_E.0.0,-33,14
 EmptyImage[SE]=./images/leyland-g-long-empty_SE.0.0,-13,0
 EmptyImage[S]=./images/leyland-g-long-empty_S.0.0,0,0
@@ -178,6 +182,8 @@ max_loading_time=450
 constraint[next][0]=none
 constraint[prev][0]=none
 
+driver[5]=1
+
 EmptyImage[E]=./images/leyland-g-piece_E.0.0,-33,14
 EmptyImage[SE]=./images/leyland-g-piece_SE.0.0,-13,0
 EmptyImage[S]=./images/leyland-g-piece_S.0.0,0,0
@@ -219,6 +225,8 @@ max_loading_time=450
 constraint[next][0]=none
 constraint[prev][0]=none
 
+driver[5]=1
+
 EmptyImage[E]=./images/leyland-g-cool_E.0.0,-33,14
 EmptyImage[SE]=./images/leyland-g-cool_SE.0.0,-13,0
 EmptyImage[S]=./images/leyland-g-cool_S.0.0,0,0
@@ -259,6 +267,8 @@ max_loading_time=450
 constraint[next][0]=none
 constraint[prev][0]=none
 
+driver[5]=1
+
 EmptyImage[E]=./images/leyland-g-livestock_E.0.0,-33,14
 EmptyImage[SE]=./images/leyland-g-livestock_SE.0.0,-13,0
 EmptyImage[S]=./images/leyland-g-livestock_S.0.0,0,0
@@ -298,6 +308,8 @@ max_loading_time=240
 
 constraint[next][0]=none
 constraint[prev][0]=none
+
+driver[5]=1
 
 EmptyImage[E]=./images/leyland-g-post_E.0.0,-33,14
 EmptyImage[SE]=./images/leyland-g-post_SE.0.0,-13,0

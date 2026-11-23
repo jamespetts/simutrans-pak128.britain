@@ -697,6 +697,8 @@ Constraint[Next][62]=MR-54ft-clerestory-cor-first-d600
 Constraint[Next][63]=MR-54ft-eliptical-cor-brake-composite-rear-d1046
 Constraint[Next][64]=none
 
+staff[2]=1
+
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
 liverytype[2]=BR-Revised
@@ -830,6 +832,8 @@ Constraint[Prev][60]=LMS-cor-composite
 Constraint[Prev][61]=MR-54ft-clerestory-cor-composite-d593
 Constraint[Prev][62]=MR-54ft-clerestory-cor-first-d600
 Constraint[Prev][63]=MR-54ft-eliptical-cor-brake-composite-front-d1046
+
+staff[2]=1
 
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
@@ -1561,6 +1565,8 @@ Constraint[Next][62]=MR-54ft-clerestory-cor-first-d600
 Constraint[Next][63]=MR-54ft-eliptical-cor-brake-composite-rear-d1046
 Constraint[Next][64]=none
 
+staff[2]=1
+
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
 liverytype[2]=BR-Revised
@@ -1693,6 +1699,8 @@ Constraint[Prev][60]=LMS-cor-composite
 Constraint[Prev][61]=MR-54ft-clerestory-cor-composite-d593
 Constraint[Prev][62]=MR-54ft-clerestory-cor-first-d600
 Constraint[Prev][63]=MR-54ft-eliptical-cor-brake-composite-front-d1046
+
+staff[2]=1
 
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
@@ -2093,6 +2101,8 @@ Constraint[Prev][61]=MR-54ft-clerestory-cor-composite-d593
 Constraint[Prev][62]=MR-54ft-clerestory-cor-first-d600
 Constraint[Prev][63]=MR-54ft-eliptical-cor-brake-composite-front-d1046
 
+staff[3]=1
+
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
 liverytype[2]=BR-Revised
@@ -2151,6 +2161,8 @@ can_lead_from_rear=0
 bidirectional=1
 min_loading_time=25
 max_loading_time=120
+
+staff[2]=1
 
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
@@ -2530,6 +2542,8 @@ Constraint[Prev][61]=MR-54ft-clerestory-cor-composite-d593
 Constraint[Prev][62]=MR-54ft-clerestory-cor-first-d600
 Constraint[Prev][63]=MR-54ft-eliptical-cor-brake-composite-front-d1046
 Constraint[Prev][64]=BR-Mk1-BG
+
+staff[3]=3
 
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early

@@ -34,6 +34,9 @@ sound=leyland-atlantean-ff3170.wav
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
 
+driver[5]=1
+staff[6]=1
+
 liverytype[0]=Ribble-coach
 liverytype[1]=Private
 liverytype[2]=NE-White

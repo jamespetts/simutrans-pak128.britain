@@ -97,6 +97,8 @@ Constraint[Prev][26]=pullman-vestibule-kitchen
 Constraint[Prev][27]=pullman-vestibule-12-wheel-parlour
 Constraint[Prev][28]=pullman-vestibule-12-wheel-kitchen
 
+staff[3]=1
+
 liverytype[0]=Pullman-Cream-Umber
 
 EmptyImage[E][0]=./carriages/pullman-1951-parlour-first_E.0.0
@@ -208,6 +210,8 @@ Constraint[Prev][25]=pullman-vestibule-parlour
 Constraint[Prev][26]=pullman-vestibule-kitchen
 Constraint[Prev][27]=pullman-vestibule-12-wheel-parlour
 Constraint[Prev][28]=pullman-vestibule-12-wheel-kitchen
+
+staff[3]=1
 
 liverytype[0]=Pullman-Cream-Umber
 
@@ -323,6 +327,8 @@ Constraint[Prev][26]=pullman-vestibule-kitchen
 Constraint[Prev][27]=pullman-vestibule-12-wheel-parlour
 Constraint[Prev][28]=pullman-vestibule-12-wheel-kitchen
 
+staff[3]=3
+
 liverytype[0]=Pullman-Cream-Umber
 
 EmptyImage[E][0]=./carriages/pullman-1951-kitchen-third_E.0.0
@@ -381,6 +387,8 @@ comfort[4]=161
 Constraint[Next][0]=any
 
 Constraint[Prev][0]=any
+
+staff[3]=3
 
 liverytype[0]=Pullman-Cream-Umber
 
@@ -466,6 +474,8 @@ Constraint[Next][27]=pullman-vestibule-12-wheel-parlour
 Constraint[Next][28]=pullman-vestibule-12-wheel-kitchen
 Constraint[Next][29]=none
 
+staff[2]=1
+
 liverytype[0]=Pullman-Cream-Umber
 
 EmptyImage[E][0]=./carriages/pullman-1951-brake-third-front_E.0.0
@@ -547,6 +557,8 @@ Constraint[Prev][25]=pullman-vestibule-parlour
 Constraint[Prev][26]=pullman-vestibule-kitchen
 Constraint[Prev][27]=pullman-vestibule-12-wheel-parlour
 Constraint[Prev][28]=pullman-vestibule-12-wheel-kitchen
+
+staff[2]=1
 
 liverytype[0]=Pullman-Cream-Umber
 

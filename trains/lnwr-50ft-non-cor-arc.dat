@@ -103,6 +103,8 @@ Constraint[Next][66]=LMS-non-cor-non-lav-composite
 Constraint[Next][67]=LMS-non-cor-non-lav-first
 Constraint[Next][68]=none
 
+staff[2]=1
+
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard
 
@@ -813,6 +815,8 @@ Constraint[Prev][64]=LNWR-57ft-non-cor-composite
 Constraint[Prev][65]=LMS-non-cor-lav-first
 Constraint[Prev][66]=LMS-non-cor-non-lav-composite
 Constraint[Prev][67]=LMS-non-cor-non-lav-first
+
+staff[2]=1
 
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard

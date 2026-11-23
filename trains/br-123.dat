@@ -49,6 +49,10 @@ Constraint[Prev][1]=BR-123-TBS
 Constraint[Next][0]=BR-123-DMS
 Constraint[Next][1]=none
 
+driver[0]=1
+staff[2]=1
+multiple_working_type=1
+
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue
 
@@ -115,6 +119,7 @@ Constraint[Prev][0]=BR-123-DMS
 
 Constraint[Next][0]=BR-123-TS
 Constraint[Next][1]=BR-123-TBS
+
 
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue
@@ -183,6 +188,7 @@ Constraint[Prev][0]=BR-123-TCK
 
 Constraint[Next][0]=BR-123-DMBS
 
+
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue
 
@@ -249,6 +255,7 @@ catering_level=3
 Constraint[Prev][0]=BR-123-TCK
 
 Constraint[Next][0]=BR-123-DMBS
+
 
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue
@@ -319,6 +326,9 @@ Constraint[Prev][0]=BR-123-DMBS
 Constraint[Prev][1]=none
 
 Constraint[Next][0]=BR-123-TCK
+
+driver[0]=1
+multiple_working_type=1
 
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue

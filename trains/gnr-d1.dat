@@ -26,6 +26,9 @@ sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=GNR-C1-Tender
 
+driver[0]=1
+staff[1]=1
+
 liverytype[0]=GNR-Standard
 liverytype[1]=LNER-Standard
 

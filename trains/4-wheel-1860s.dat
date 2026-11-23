@@ -639,6 +639,8 @@ bidirectional=1
 Constraint[Prev][0]=any
 Constraint[Next][0]=any
 
+staff[2]=1
+
 liverytype[0]=LNWR-Early
 liverytype[1]=MR-Early
 liverytype[2]=MR-Standard
@@ -785,6 +787,8 @@ max_loading_time=47
 can_lead_from_rear=0
 bidirectional=1
 
+staff[2]=1
+
 liverytype[0]=LNWR-Early
 liverytype[1]=MR-Early
 liverytype[2]=MR-Standard
@@ -924,6 +928,8 @@ max_loading_time=120
 
 can_lead_from_rear=0
 bidirectional=1
+
+staff[2]=1
 
 liverytype[0]=LNWR-Early
 liverytype[1]=MR-Early
@@ -1211,6 +1217,8 @@ bidirectional=1
 
 Constraint[Prev][0]=any
 Constraint[Next][0]=any
+
+staff[3]=3
 
 liverytype[0]=LNWR-Early
 liverytype[1]=MR-Early

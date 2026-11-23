@@ -36,6 +36,9 @@ sound=leyland-atlantean-an68-ff3170.wav
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
 
+driver[5]=1
+staff[6]=1
+
 liverytype[0]=Ribble-standard
 liverytype[1]=Southdown-standard
 liverytype[2]=Glasgow-Corporation-revised-2
@@ -134,6 +137,9 @@ sound=leyland-atlantean-an68-ff3170.wav
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
+
+driver[5]=1
+staff[6]=1
 
 liverytype[0]=Ribble-standard
 liverytype[1]=Southdown-standard

@@ -33,6 +33,8 @@ available_only_as_upgrade=1
 Constraint[Prev][0]=BR-Class57
 Constraint[Prev][1]=none
 
+driver[0]=1
+
 EmptyImage[E]=./locomotives/br-cl57-fgw_E.0.0
 EmptyImage[SE]=./locomotives/br-cl57-fgw_SE.0.0
 EmptyImage[S]=./locomotives/br-cl57-fgw_S.0.0

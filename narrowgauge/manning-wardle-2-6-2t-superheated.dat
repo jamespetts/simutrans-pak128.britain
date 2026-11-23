@@ -34,6 +34,9 @@ sound=the-mart-ban-wllr-tank.wav
 can_lead_from_rear=0
 bidirectional=1
 
+driver[0]=1
+staff[1]=1
+
 liverytype[0]=SR-Olive-Green
 liverytype[1]=SR-Malachite-Green
 liverytype[2]=WW2-Austerity

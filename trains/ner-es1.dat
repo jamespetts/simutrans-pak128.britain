@@ -30,6 +30,8 @@ air_resistance=125
 # No multiple working
 Constraint[Prev][0]=none
 
+driver[0]=1
+
 liverytype[0]=NER-standard
 liverytype[1]=LNER-Standard
 liverytype[2]=WW2-Austerity

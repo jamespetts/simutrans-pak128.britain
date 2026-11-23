@@ -27,6 +27,8 @@ constraint[prev][0]=none
 min_loading_time=30
 max_loading_time=300
 
+driver[5]=1
+
 EmptyImage[E]=./images/ford-transit-coonnect-piece_E.0.0,-33,14
 EmptyImage[SE]=./images/ford-transit-coonnect-piece_SE.0.0,-13,0
 EmptyImage[S]=./images/ford-transit-coonnect-piece_S.0.0,0,0
@@ -64,6 +66,8 @@ constraint[prev][0]=none
 min_loading_time=30
 max_loading_time=300
 
+driver[5]=1
+
 EmptyImage[E]=./images/ford-transit-coonnect-cool_E.0.0,-33,14
 EmptyImage[SE]=./images/ford-transit-coonnect-cool_SE.0.0,-13,0
 EmptyImage[S]=./images/ford-transit-coonnect-cool_S.0.0,0,0
@@ -98,6 +102,8 @@ constraint[prev][0]=none
 
 min_loading_time=30
 max_loading_time=200
+
+driver[5]=1
 
 EmptyImage[E]=./images/ford-transit-coonnect-post_E.0.0,-33,14
 EmptyImage[SE]=./images/ford-transit-coonnect-post_SE.0.0,-13,0

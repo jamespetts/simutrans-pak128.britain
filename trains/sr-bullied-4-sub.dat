@@ -55,6 +55,9 @@ Constraint[Prev][15]=none
 
 Constraint[Next][0]=SR-4SUB(centre1)
 
+driver[0]=1
+multiple_working_type=1
+
 liverytype[0]=SR-Malachite-Green
 liverytype[1]=BR-Early
 liverytype[2]=BR-Revised
@@ -152,6 +155,10 @@ Constraint[Next][13]=lswr-56ft-augmentation-trailer-front
 Constraint[Next][14]=SR-5-BEL-driving-motor-front
 Constraint[Next][15]=none
 
+driver[0]=1
+staff[2]=1
+multiple_working_type=1
+
 liverytype[0]=SR-Malachite-Green
 liverytype[1]=BR-Early
 liverytype[2]=BR-Revised
@@ -231,6 +238,7 @@ comfort[1]=70
 Constraint[Prev][0]=SR-4SUB(front)
 
 Constraint[Next][0]=SR-4SUB(centre2)
+
 
 liverytype[0]=SR-Malachite-Green
 liverytype[1]=BR-Early
@@ -317,6 +325,7 @@ Constraint[Prev][0]=SR-4SUB(centre1)
 Constraint[Prev][1]=SR-3SUB(centre)
 Constraint[Prev][2]=LSWR-EMU(centre)
 #fixed_coupling[prev]=1
+
 
 liverytype[0]=SR-Malachite-Green
 liverytype[1]=BR-Early

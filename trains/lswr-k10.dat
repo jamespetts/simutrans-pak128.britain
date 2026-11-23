@@ -25,6 +25,9 @@ sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=lswr-6-wheel-tender
 
+driver[0]=1
+staff[1]=1
+
 liverytype[0]=LSWR-royal-green
 liverytype[1]=LSWR-sage
 liverytype[2]=SR-Olive-Green

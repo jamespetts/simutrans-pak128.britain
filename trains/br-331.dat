@@ -45,6 +45,9 @@ Constraint[Prev][1]=none
 
 Constraint[Next][0]=BR-331FrontPanto
 
+driver[0]=1
+multiple_working_type=1
+
 liverytype[0]=Northern
 
 EmptyImage[E][0]=./railcars/br-331-front-northern_E.png
@@ -98,6 +101,7 @@ Constraint[Prev][0]=BR-331Front
 Constraint[Next][0]=BR-331Rear
 Constraint[Next][1]=BR-331Trailer
 
+
 liverytype[0]=Northern
 
 EmptyImage[E][0]=./railcars/br-331-frontpanto-northern_E.png
@@ -147,6 +151,7 @@ Constraint[Prev][1]=BR-331Motor
 Constraint[Next][0]=BR-331RearPanto
 Constraint[Next][1]=BR-331Motor
 Constraint[Next][2]=BR-331Rear
+
 
 liverytype[0]=Northern
 
@@ -198,6 +203,7 @@ Constraint[Prev][0]=BR-331Trailer
 
 Constraint[Next][0]=BR-331RearPanto
 Constraint[Next][1]=BR-331Trailer
+
 
 liverytype[0]=Northern
 
@@ -251,6 +257,7 @@ Constraint[Prev][0]=BR-331Trailer
 Constraint[Prev][1]=BR-331Motor
 
 Constraint[Next][0]=BR-331Rear
+
 
 liverytype[0]=Northern
 
@@ -311,6 +318,9 @@ Constraint[Prev][2]=BR-331RearPanto
 
 Constraint[Next][0]=BR-331Front
 Constraint[Next][1]=none
+
+driver[0]=1
+multiple_working_type=1
 
 liverytype[0]=Northern
 

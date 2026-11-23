@@ -20,6 +20,8 @@ runningcost=586
 fixed_cost=11460
 sound=-1
 
+driver[0]=1
+
 EmptyImage[E]=./images/br-cl90-gner.0.0
 EmptyImage[SE]=./images/br-cl90-gner.0.1
 EmptyImage[S]=./images/br-cl90-gner.0.2
@@ -50,6 +52,8 @@ cost=6552000
 runningcost=586
 fixed_cost=11460
 sound=-1
+
+driver[0]=1
 
 EmptyImage[E]=./images/br-cl90-nx.0.0
 EmptyImage[SE]=./images/br-cl90-nx.0.1

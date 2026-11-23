@@ -39,6 +39,9 @@ Constraint[Prev][1]=none
 
 Constraint[Next][0]=SR-4DD-TT1
 
+driver[0]=1
+multiple_working_type=1
+
 liverytype[0]=BR-Early
 liverytype[1]=BR-Revised
 liverytype[2]=BR-Blue
@@ -112,6 +115,10 @@ Constraint[Prev][0]=SR-4DD-TT2
 Constraint[Next][0]=SR-4DD-front
 Constraint[Next][1]=none
 
+driver[0]=1
+staff[2]=1
+multiple_working_type=1
+
 liverytype[0]=BR-Early
 liverytype[1]=BR-Revised
 liverytype[2]=BR-Blue
@@ -182,6 +189,7 @@ Constraint[Prev][0]=SR-4DD-front
 
 Constraint[Next][0]=SR-4DD-TT2
 
+
 liverytype[0]=BR-Early
 liverytype[1]=BR-Revised
 liverytype[2]=BR-Blue
@@ -251,6 +259,7 @@ comfort[1]=65
 Constraint[Next][0]=SR-4DD-rear
 
 Constraint[Prev][0]=SR-4DD-TT1
+
 
 liverytype[0]=BR-Early
 liverytype[1]=BR-Revised

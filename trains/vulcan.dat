@@ -31,6 +31,9 @@ sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=LMR-Planet-Tender
 
+driver[0]=1
+staff[1]=1
+
 EmptyImage[E]=./locomotives/vulcan_E.0.0
 EmptyImage[SE]=./locomotives/vulcan_SE.0.0
 EmptyImage[S]=./locomotives/vulcan_S.0.0

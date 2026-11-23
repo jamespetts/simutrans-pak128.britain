@@ -40,7 +40,11 @@ Constraint[Prev][7]=BR-Mk2a-SO
 Constraint[Prev][8]=BR-Mk1-SK
 Constraint[Prev][9]=BR-Mk1-TSO
 
-Constraint[Next][0]=none
+Constraint[Next][0]=BR-489[GLV]
+Constraint[Next][1]=none
+
+driver[0]=1
+multiple_working_type=1
 
 liverytype[0]=IC-Executive
 liverytype[1]=IC-Swallow

@@ -37,6 +37,9 @@ bidirectional=1
 upgrade[0]=gwr-517-rebuilt-auto-fitted
 upgrade[1]=gwr-3571
 
+driver[0]=1
+staff[1]=1
+
 liverytype[0]=GWR-standard-green
 liverytype[1]=GWR-overall-brown
 liverytype[2]=WW1-Austerity
@@ -134,6 +137,9 @@ years_before_maintenance_max_reached=20
 
 can_lead_from_rear=0
 bidirectional=1
+
+driver[0]=1
+staff[1]=1
 
 liverytype[0]=GWR-standard-green
 liverytype[1]=GWR-overall-brown

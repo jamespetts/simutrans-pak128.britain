@@ -33,6 +33,8 @@ bidirectional=1
 # No multiple working fitted
 Constraint[Prev][0]=none
 
+driver[0]=1
+
 liverytype[0]=BR-Blue
 liverytype[1]=IC-Executive
 

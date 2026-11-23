@@ -40,6 +40,9 @@ years_before_maintenance_max_reached=25
 
 Constraint[Next][0]=GER-Claud-Hamilton-Tender
 
+driver[0]=1
+staff[1]=1
+
 liverytype[0]=GER-Ultramarine
 liverytype[1]=WW1-Austerity
 liverytype[2]=LNER-Standard

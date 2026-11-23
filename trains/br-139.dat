@@ -33,9 +33,15 @@ comfort[1]=45
 can_lead_from_rear=1
 bidirectional=1
 
-Constraint[Prev][0]=none
+Constraint[Prev][0]=BR-139
+Constraint[Prev][1]=none
 
-Constraint[Next][0]=none
+Constraint[Next][0]=BR-139
+Constraint[Next][1]=none
+
+driver[0]=1
+staff[2]=1
+multiple_working_type=1
 
 EmptyImage[E]=./railcars/br-139-lm.1.4
 EmptyImage[SE]=./railcars/br-139-lm.1.5

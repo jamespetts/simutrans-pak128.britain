@@ -23,6 +23,9 @@ sound=-1
 
 Constraint[Next][0]=LNER-A1-Tender(Black)
 
+driver[0]=1
+staff[1]=1
+
 EmptyImage[E]=./images/lner-a3-black.0.0
 EmptyImage[SE]=./images/lner-a3-black.0.1
 EmptyImage[S]=./images/lner-a3-black.0.2
@@ -57,6 +60,9 @@ sound=-1
 
 Constraint[Next][0]=LNER-A1-Tender(BRBlue)
 
+driver[0]=1
+staff[1]=1
+
 EmptyImage[E]=./images/lner-a3-brblue.0.0
 EmptyImage[SE]=./images/lner-a3-brblue.0.1
 EmptyImage[S]=./images/lner-a3-brblue.0.2
@@ -90,6 +96,9 @@ fixed_cost=64413
 sound=-1
 
 Constraint[Next][0]=LNER-A1-Tender(BRGreen)
+
+driver[0]=1
+staff[1]=1
 
 EmptyImage[E]=./images/lner-a3-brgreen.0.0
 EmptyImage[SE]=./images/lner-a3-brgreen.0.1

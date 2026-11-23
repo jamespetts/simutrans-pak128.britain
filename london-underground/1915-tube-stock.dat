@@ -44,6 +44,9 @@ Constraint[Prev][1]=none
 
 Constraint[Next][0]=1900TubeStockTrailer
 
+driver[0]=1
+multiple_working_type=1
+
 EmptyImage[E]=./images/clr-1915.0.0
 EmptyImage[SE]=./images/clr-1915.0.1
 EmptyImage[S]=./images/clr-1915.0.2
@@ -97,6 +100,10 @@ Constraint[Prev][0]=1900TubeStockTrailer
 Constraint[Next][0]=1915TubeStockFront
 Constraint[Next][1]=none
 
+
+driver[0]=1
+staff[2]=1
+multiple_working_type=1
 
 EmptyImage[E]=./images/clr-1915.2.0
 EmptyImage[SE]=./images/clr-1915.2.1

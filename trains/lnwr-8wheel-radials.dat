@@ -106,6 +106,8 @@ Constraint[Next][66]=LMS-non-cor-non-lav-composite
 Constraint[Next][67]=LMS-non-cor-non-lav-first
 Constraint[Next][68]=none
 
+staff[2]=1
+
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard
 
@@ -238,6 +240,8 @@ Constraint[Next][65]=LMS-non-cor-lav-first
 Constraint[Next][66]=LMS-non-cor-non-lav-composite
 Constraint[Next][67]=LMS-non-cor-non-lav-first
 Constraint[Next][68]=none
+
+staff[2]=1
 
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard
@@ -1583,6 +1587,8 @@ Constraint[Prev][65]=LMS-non-cor-lav-first
 Constraint[Prev][66]=LMS-non-cor-non-lav-composite
 Constraint[Prev][67]=LMS-non-cor-non-lav-first
 
+staff[2]=1
+
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard
 
@@ -1718,6 +1724,8 @@ Constraint[Prev][65]=LMS-non-cor-lav-first
 Constraint[Prev][66]=LMS-non-cor-non-lav-composite
 Constraint[Prev][67]=LMS-non-cor-non-lav-first
 
+staff[2]=1
+
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard
 
@@ -1766,6 +1774,8 @@ can_lead_from_rear=0
 bidirectional=1
 min_loading_time=35
 max_loading_time=120
+
+staff[2]=1
 
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard
@@ -2141,6 +2151,8 @@ Constraint[Prev][64]=LNWR-57ft-non-cor-composite
 Constraint[Prev][65]=LMS-non-cor-lav-first
 Constraint[Prev][66]=LMS-non-cor-non-lav-composite
 Constraint[Prev][67]=LMS-non-cor-non-lav-first
+
+staff[3]=3
 
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard

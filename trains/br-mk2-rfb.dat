@@ -77,6 +77,8 @@ Constraint[Next][39]=BR-Mk1-PSP
 Constraint[Next][40]=BR-Mk1-PFP
 Constraint[Next][41]=pullman-1951-kitchen-first
 
+staff[3]=1
+
 liverytype[0]=BR-Blue
 liverytype[1]=IC-Executive
 liverytype[2]=Scotrail-original

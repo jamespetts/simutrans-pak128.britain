@@ -40,6 +40,8 @@ Constraint[Prev][0]=LNER-A4-Tender
 
 Constraint[Next][0]=LNER-Coronation-Brake-Third-Twin(rear)
 
+staff[2]=1
+
 liverytype[0]=LNER-Silver-Jubilee
 liverytype[1]=LNER-Cornoation
 liverytype[2]=BR-Early
@@ -121,6 +123,8 @@ Constraint[Next][0]=LNER-Coronation-Restaurant-Triple(front)
 Constraint[Next][1]=LNER-Coronation-RearBrake-Third-Twin(front)
 Constraint[Next][2]=LNER-Coronation-Observation
 
+staff[2]=1
+
 liverytype[0]=LNER-Silver-Jubilee
 liverytype[1]=LNER-Cornoation
 liverytype[2]=BR-Early
@@ -200,6 +204,8 @@ Constraint[Prev][0]=LNER-A4-Tender
 
 Constraint[Next][0]=LNER-Coronation-Brake-Third-Triple(middle)
 
+staff[2]=1
+
 liverytype[0]=LNER-Silver-Jubilee
 liverytype[1]=LNER-Cornoation
 liverytype[2]=BR-Early
@@ -278,6 +284,8 @@ comfort[3]=171
 Constraint[Prev][0]=LNER-Coronation-Brake-Third-Triple(front)
 
 Constraint[Next][0]=LNER-Coronation-Brake-Third-Triple(rear)
+
+staff[2]=1
 
 liverytype[0]=LNER-Silver-Jubilee
 liverytype[1]=LNER-Cornoation
@@ -359,6 +367,8 @@ Constraint[Prev][0]=LNER-Coronation-Brake-Third-Triple(middle)
 Constraint[Next][0]=LNER-Coronation-Restaurant-Triple(front)
 Constraint[Next][1]=LNER-Coronation-RearBrake-Third-Twin(front)
 Constraint[Next][2]=LNER-Coronation-Observation
+
+staff[2]=1
 
 liverytype[0]=LNER-Silver-Jubilee
 liverytype[1]=LNER-Cornoation

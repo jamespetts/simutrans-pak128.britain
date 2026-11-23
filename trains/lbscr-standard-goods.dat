@@ -32,6 +32,9 @@ fixed_cost=30458
 sound=-1sound=lwalker-br-4mt-tank.wav
 Constraint[Next][0]=LBSCR-standard-goods-tender
 
+driver[0]=1
+staff[1]=1
+
 liverytype[0]=LBSCR-Craven
 liverytype[1]=LBSCR-Stroudley
 liverytype[2]=LBSCR-Marsh

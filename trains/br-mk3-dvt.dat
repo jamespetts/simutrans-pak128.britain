@@ -41,6 +41,8 @@ Constraint[Prev][10]=BR-Mk2-PFP
 Constraint[Prev][11]=BR-Mk2-PFK
 Constraint[Prev][12]=BR-Mk2-PFB
 
+staff[2]=1
+
 liverytype[0]=BR-Blue
 liverytype[1]=IC-Swallow
 liverytype[2]=Chiltern-Mainline

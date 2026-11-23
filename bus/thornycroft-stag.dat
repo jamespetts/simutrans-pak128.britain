@@ -31,6 +31,8 @@ max_loading_time=600
 constraint[next][0]=none
 constraint[prev][0]=none
 
+driver[5]=1
+
 EmptyImage[E]=./images/thornycroft-stag-bulk-empty_E.0.0,-33,14
 EmptyImage[SE]=./images/thornycroft-stag-bulk-empty_SE.0.0,-13,0
 EmptyImage[S]=./images/thornycroft-stag-bulk-empty_S.0.0,0,0
@@ -120,6 +122,8 @@ max_loading_time=600
 constraint[next][0]=none
 constraint[prev][0]=none
 
+driver[5]=1
+
 EmptyImage[E]=./images/thornycroft-stag-long-empty_E.0.0,-33,14
 EmptyImage[SE]=./images/thornycroft-stag-long-empty_SE.0.0,-13,0
 EmptyImage[S]=./images/thornycroft-stag-long-empty_S.0.0,0,0
@@ -180,6 +184,8 @@ max_loading_time=600
 constraint[next][0]=none
 constraint[prev][0]=none
 
+driver[5]=1
+
 EmptyImage[E]=./images/thornycroft-stag-piece_E.0.0,-33,14
 EmptyImage[SE]=./images/thornycroft-stag-piece_SE.0.0,-13,0
 EmptyImage[S]=./images/thornycroft-stag-piece_S.0.0,0,0
@@ -221,6 +227,8 @@ max_loading_time=600
 constraint[next][0]=none
 constraint[prev][0]=none
 
+driver[5]=1
+
 EmptyImage[E]=./images/thornycroft-stag-cool_E.0.0,-33,14
 EmptyImage[SE]=./images/thornycroft-stag-cool_SE.0.0,-13,0
 EmptyImage[S]=./images/thornycroft-stag-cool_S.0.0,0,0
@@ -260,6 +268,8 @@ max_loading_time=600
 
 constraint[next][0]=none
 constraint[prev][0]=none
+
+driver[5]=1
 
 EmptyImage[E]=./images/thornycroft-stag-livestock_E.0.0,-33,14
 EmptyImage[SE]=./images/thornycroft-stag-livestock_SE.0.0,-13,0
@@ -302,6 +312,8 @@ max_loading_time=600
 constraint[next][0]=none
 constraint[prev][0]=none
 
+driver[5]=1
+
 EmptyImage[E]=./images/thornycroft-stag-tanker_E.0.0,-33,14
 EmptyImage[SE]=./images/thornycroft-stag-tanker_SE.0.0,-13,0
 EmptyImage[S]=./images/thornycroft-stag-tanker_S.0.0,0,0
@@ -341,6 +353,8 @@ max_loading_time=600
 
 constraint[next][0]=none
 constraint[prev][0]=none
+
+driver[5]=1
 
 EmptyImage[E]=./images/thornycroft-stag-cars-empty_E.0.0,-33,14
 EmptyImage[SE]=./images/thornycroft-stag-cars-empty_SE.0.0,-13,0

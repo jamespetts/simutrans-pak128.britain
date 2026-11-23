@@ -54,6 +54,9 @@ Constraint[Prev][12]=none
 Constraint[Next][0]=br-144-0-rear
 Constraint[Next][1]=br-144-0-middle
 
+driver[0]=1
+multiple_working_type=1
+
 liverytype[0]=WYPTE-Red-Cream
 
 EmptyImage[E][0]=./railcars/br-144-front-wypte_E.png
@@ -109,6 +112,7 @@ upgrade[0]=br-144-1-middle
 Constraint[Prev][0]=br-144-0-front
 
 Constraint[Next][0]=br-144-0-rear
+
 
 liverytype[0]=WYPTE-Red-Cream
 
@@ -179,6 +183,10 @@ Constraint[Next][11]=BR-170Front
 Constraint[Next][12]=br-159-front
 Constraint[Next][13]=none
 
+driver[0]=1
+staff[2]=1
+multiple_working_type=1
+
 liverytype[0]=WYPTE-Red-Cream
 
 EmptyImage[E][0]=./railcars/br-144-rear-wypte_E.png
@@ -248,6 +256,9 @@ Constraint[Prev][12]=none
 Constraint[Next][0]=br-144-1-rear
 Constraint[Next][1]=br-144-1-middle
 
+driver[0]=1
+multiple_working_type=1
+
 liverytype[0]=WYPTE-Red-Cream
 
 EmptyImage[E][0]=./railcars/br-144-front-wypte_E.png
@@ -303,6 +314,7 @@ increase_maintenance_after_years=26
 Constraint[Prev][0]=br-144-1-front
 
 Constraint[Next][0]=br-144-1-rear
+
 
 liverytype[0]=WYPTE-Red-Cream
 
@@ -372,6 +384,9 @@ Constraint[Next][10]=br-144-1-front
 Constraint[Next][11]=BR-170Front
 Constraint[Next][12]=br-159-front
 Constraint[Next][13]=none
+
+driver[0]=1
+multiple_working_type=1
 
 liverytype[0]=WYPTE-Red-Cream
 

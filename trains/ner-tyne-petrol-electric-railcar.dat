@@ -41,10 +41,15 @@ max_loading_time=80
 comfort[0]=0
 comfort[1]=69
 
-Constraint[Prev][0]=none
+Constraint[Prev][0]=ner-tyne-petrol-electric-railcar
+Constraint[Prev][1]=none
 
 # Can haul a load
 #Constraint[Next][0]=none
+
+driver[0]=1
+staff[2]=1
+multiple_working_type=1
 
 liverytype[0]=NER-standard
 liverytype[1]=LNER-Standard

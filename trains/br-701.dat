@@ -40,6 +40,9 @@ Constraint[Prev][1]=none
 
 Constraint[Next][0]=BR-701Panto
 
+driver[0]=1
+multiple_working_type=1
+
 liverytype[0]=SWR
 
 EmptyImage[E][0]=./railcars/br-701-front-swr_E.0
@@ -91,6 +94,7 @@ Constraint[Prev][0]=BR-701Front
 
 Constraint[Next][0]=BR-701TLW
 
+
 liverytype[0]=SWR
 
 EmptyImage[E][0]=./railcars/br-701-panto-front-swr_E.0
@@ -141,6 +145,7 @@ Constraint[Prev][1]=BR-701Middle
 Constraint[Next][0]=BR-701Rear
 Constraint[Next][1]=BR-701Middle
 Constraint[Next][2]=BR-701PantoRear
+
 
 liverytype[0]=SWR
 
@@ -198,6 +203,7 @@ Constraint[Next][1]=BR-701Middle
 Constraint[Next][2]=BR-701PantoRear
 Constraint[Next][3]=BR-701Rear
 
+
 liverytype[0]=SWR
 
 EmptyImage[E][0]=./railcars/br-701-middle-swr_E.0
@@ -248,6 +254,7 @@ way_constraint_permissive[0]=0
 Constraint[Prev][0]=BR-701TLW
 
 Constraint[Next][0]=BR-701Rear
+
 
 liverytype[0]=SWR
 
@@ -303,6 +310,9 @@ Constraint[Prev][1]=BR-701PantoRear
 
 Constraint[Next][0]=BR-701Front
 Constraint[Next][1]=none
+
+driver[0]=1
+multiple_working_type=1
 
 liverytype[0]=SWR
 

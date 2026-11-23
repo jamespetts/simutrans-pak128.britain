@@ -31,6 +31,8 @@ bidirectional=1
 Constraint[Prev][0]=BR-Class92
 Constraint[Prev][1]=none
 
+driver[0]=1
+
 EmptyImage[E]=./locomotives/br-cl92-rf_E.0.0
 EmptyImage[SE]=./locomotives/br-cl92-rf_SE.0.0
 EmptyImage[S]=./locomotives/br-cl92-rf_S.0.0

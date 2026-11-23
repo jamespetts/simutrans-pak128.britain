@@ -33,6 +33,9 @@ sound=lwalker-br-4mt-tank.wav
 can_lead_from_rear=0
 bidirectional=1
 
+driver[0]=1
+staff[1]=1
+
 liverytype[0]=LBSCR-Craven
 liverytype[1]=LBSCR-Craven
 liverytype[2]=LBSCR-Stroudley

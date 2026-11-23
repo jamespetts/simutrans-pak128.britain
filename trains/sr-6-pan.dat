@@ -54,6 +54,9 @@ Constraint[Prev][15]=none
 
 Constraint[Next][0]=SR-6PAN(trailer1)
 
+driver[0]=1
+multiple_working_type=1
+
 liverytype[0]=SR-Olive-Green
 liverytype[1]=SR-Malachite-Green
 liverytype[2]=BR-Early
@@ -137,6 +140,7 @@ comfort[3]=153
 Constraint[Prev][0]=SR-6PAN(front)
 
 Constraint[Next][0]=SR-6PAN(trailer2)
+
 
 liverytype[0]=SR-Olive-Green
 liverytype[1]=SR-Malachite-Green
@@ -223,6 +227,7 @@ Constraint[Prev][0]=SR-6PAN(trailer1)
 Constraint[Next][0]=SR-6PAN(buffet)
 Constraint[Next][1]=pullman-kitchen-composite
 
+
 liverytype[0]=SR-Olive-Green
 liverytype[1]=SR-Malachite-Green
 liverytype[2]=BR-Early
@@ -307,6 +312,9 @@ catering_level=3
 Constraint[Prev][0]=SR-6PAN(trailer2)
 
 Constraint[Next][0]=SR-6PAN(trailer4)
+
+staff[3]=1
+
 
 liverytype[0]=SR-Olive-Green
 liverytype[1]=SR-Malachite-Green
@@ -396,6 +404,9 @@ Constraint[Prev][0]=SR-6PAN(trailer2)
 
 Constraint[Next][0]=SR-6PAN(trailer4)
 
+staff[3]=3
+
+
 liverytype[0]=Pullman-Cream-Umber
 liverytype[1]=WW2-Austerity
 
@@ -460,6 +471,7 @@ Constraint[Prev][0]=SR-6PAN(buffet)
 Constraint[Prev][1]=pullman-kitchen-composite
 
 Constraint[Next][0]=SR-6PAN(rear)
+
 
 liverytype[0]=SR-Olive-Green
 liverytype[1]=SR-Malachite-Green
@@ -557,6 +569,10 @@ Constraint[Next][12]=lswr-48ft-augmentation-trailer-front
 Constraint[Next][13]=lswr-56ft-augmentation-trailer-front
 Constraint[Next][14]=SR-5-BEL-driving-motor-front
 Constraint[Next][15]=none
+
+driver[0]=1
+staff[2]=1
+multiple_working_type=1
 
 liverytype[0]=SR-Olive-Green
 liverytype[1]=SR-Malachite-Green

@@ -29,6 +29,8 @@ constraint[prev][0]=none
 min_loading_time=30
 max_loading_time=300
 
+driver[5]=1
+
 EmptyImage[E]=./images/ford-transit-mk1-piece_E.0.0,-33,14
 EmptyImage[SE]=./images/ford-transit-mk1-piece_SE.0.0,-13,0
 EmptyImage[S]=./images/ford-transit-mk1-piece_S.0.0,0,0
@@ -68,6 +70,8 @@ constraint[prev][0]=none
 min_loading_time=30
 max_loading_time=300
 
+driver[5]=1
+
 EmptyImage[E]=./images/ford-transit-mk1-cool_E.0.0,-33,14
 EmptyImage[SE]=./images/ford-transit-mk1-cool_SE.0.0,-13,0
 EmptyImage[S]=./images/ford-transit-mk1-cool_S.0.0,0,0
@@ -105,6 +109,8 @@ constraint[prev][0]=none
 
 min_loading_time=30
 max_loading_time=200
+
+driver[5]=1
 
 EmptyImage[E]=./images/ford-transit-mk1-post_E.0.0,-33,14
 EmptyImage[SE]=./images/ford-transit-mk1-post_SE.0.0,-13,0

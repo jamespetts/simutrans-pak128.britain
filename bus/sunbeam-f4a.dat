@@ -35,6 +35,9 @@ sound=androo4519-btu9613t.wav
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
 
+driver[5]=1
+staff[6]=1
+
 liverytype[0]=Glasgow-Corporation-revised-1
 liverytype[1]=Glasgow-Corporation-revised-2
 liverytype[2]=Birmingham-Corporation

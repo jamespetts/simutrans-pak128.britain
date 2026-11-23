@@ -35,6 +35,8 @@ upgrade[0]=super-sentinel-pneumatic-bulk
 min_loading_time=120
 max_loading_time=510
 
+driver[5]=1
+
 EmptyImage[E]=./images/super-sentinel-tipper-empty_E.0.0,-33,14
 EmptyImage[SE]=./images/super-sentinel-tipper-empty_SE.0.0,-13,0
 EmptyImage[S]=./images/super-sentinel-tipper-empty_S.0.0,0,0
@@ -125,6 +127,8 @@ upgrade[0]=super-sentinel-pneumatic-long
 min_loading_time=120
 max_loading_time=510
 
+driver[5]=1
+
 EmptyImage[E]=./images/super-sentinel-flat-empty_E.0.0,-33,14
 EmptyImage[SE]=./images/super-sentinel-flat-empty_SE.0.0,-13,0
 EmptyImage[S]=./images/super-sentinel-flat-empty_S.0.0,0,0
@@ -185,6 +189,8 @@ upgrade[0]=super-sentinel-pneumatic-piece
 min_loading_time=120
 max_loading_time=510
 
+driver[5]=1
+
 EmptyImage[E]=./images/super-sentinel-flat-empty_E.0.0,-33,14
 EmptyImage[SE]=./images/super-sentinel-flat-empty_SE.0.0,-13,0
 EmptyImage[S]=./images/super-sentinel-flat-empty_S.0.0,0,0
@@ -235,6 +241,8 @@ upgrade[0]=super-sentinel-pneumatic-cool
 min_loading_time=120
 max_loading_time=510
 
+driver[5]=1
+
 EmptyImage[E]=./images/super-sentinel-flat-empty_E.0.0,-33,14
 EmptyImage[SE]=./images/super-sentinel-flat-empty_SE.0.0,-13,0
 EmptyImage[S]=./images/super-sentinel-flat-empty_S.0.0,0,0
@@ -284,6 +292,8 @@ upgrade[0]=super-sentinel-pneumatic-livestock
 min_loading_time=120
 max_loading_time=510
 
+driver[5]=1
+
 EmptyImage[E]=./images/super-sentinel-livestock_E.0.0,-33,14
 EmptyImage[SE]=./images/super-sentinel-livestock_SE.0.0,-13,0
 EmptyImage[S]=./images/super-sentinel-livestock_S.0.0,0,0
@@ -325,6 +335,8 @@ upgrade[0]=super-sentinel-pneumatic-tanker
 
 min_loading_time=120
 max_loading_time=510
+
+driver[5]=1
 
 EmptyImage[E]=./images/super-sentinel-tanker_E.0.0,-33,14
 EmptyImage[SE]=./images/super-sentinel-tanker_SE.0.0,-13,0

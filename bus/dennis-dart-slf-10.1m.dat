@@ -34,6 +34,8 @@ max_loading_time=152
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
 
+driver[5]=1
+
 liverytype[0]=Metroline-blue-skirt
 liverytype[1]=Arriva-original
 liverytype[2]=London-United-grey-white
@@ -121,6 +123,8 @@ max_loading_time=106
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
+
+driver[5]=1
 
 liverytype[0]=Metroline-blue-skirt
 liverytype[1]=Arriva-original

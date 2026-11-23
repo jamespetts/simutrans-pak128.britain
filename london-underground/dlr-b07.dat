@@ -38,6 +38,8 @@ comfort[1]=54
 
 Constraint[Next][0]=DLR-B07Rear
 
+staff[6]=1
+
 EmptyImage[E]=./images/dlr-b07.0.0
 EmptyImage[SE]=./images/dlr-b07.0.1
 EmptyImage[S]=./images/dlr-b07.0.2

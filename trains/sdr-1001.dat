@@ -32,6 +32,9 @@ sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=SDR-1001-Tender
 
+driver[0]=1
+staff[1]=1
+
 EmptyImage[E]=./locomotives/sdr-1001_E.0.0
 EmptyImage[SE]=./locomotives/sdr-1001_SE.0.0
 EmptyImage[S]=./locomotives/sdr-1001_S.0.0

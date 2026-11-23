@@ -31,6 +31,9 @@ Constraint[Next][0]=LNWR-PrinceOfWales-Tender
 
 # Graphics also used by "Renown" class
 
+driver[0]=1
+staff[1]=1
+
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard
 

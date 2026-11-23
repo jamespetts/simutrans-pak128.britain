@@ -42,6 +42,8 @@ Constraint[Prev][3]=Teak-Clerestory-TPO
 Constraint[Prev][4]=Teak-Clerestory-Dining
 Constraint[Prev][5]=Teak-Clerestory-Parcel-Brake
 
+staff[3]=3
+
 EmptyImage[E]=./carriages/teak-clerestory.2.0
 EmptyImage[SE]=./carriages/teak-clerestory.2.1
 EmptyImage[S]=./carriages/teak-clerestory.2.2

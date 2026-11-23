@@ -28,6 +28,9 @@ sound=nick-parry-gwr-city-class.wav
 
 upgrade[0]=gwr-5205
 
+driver[0]=1
+staff[1]=1
+
 liverytype[0]=GWR-overall-brown
 liverytype[1]=WW1-Austerity
 liverytype[2]=GWR-chocolate-cream-lined

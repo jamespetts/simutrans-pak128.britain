@@ -43,6 +43,9 @@ Constraint[Prev][0]=none
 Constraint[Next][0]=Blackpool-ProgressTwin-Trailer
 Constraint[Next][1]=none
 
+driver[5]=1
+staff[6]=1
+
 EmptyImage[E]=./images/blackpool-progress-twin-power_E.0.0
 EmptyImage[SE]=./images/blackpool-progress-twin-power_SE.0.0
 EmptyImage[S]=./images/blackpool-progress-twin-power_S.0.0

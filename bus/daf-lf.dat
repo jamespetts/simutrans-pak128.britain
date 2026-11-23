@@ -30,6 +30,8 @@ fixed_maintenance=0
 constraint[next][0]=none
 constraint[prev][0]=none
 
+driver[5]=1
+
 EmptyImage[E]=./images/daf-lf-bulk-empty_E.0.0,-33,14
 EmptyImage[SE]=./images/daf-lf-bulk-empty_SE.0.0,-13,0
 EmptyImage[S]=./images/daf-lf-bulk-empty_S.0.0,0,0
@@ -119,6 +121,8 @@ fixed_maintenance=0
 constraint[next][0]=none
 constraint[prev][0]=none
 
+driver[5]=1
+
 EmptyImage[E]=./images/daf-lf-long-empty_E.0.0,-33,14
 EmptyImage[SE]=./images/daf-lf-long-empty_SE.0.0,-13,0
 EmptyImage[S]=./images/daf-lf-long-empty_S.0.0,0,0
@@ -179,6 +183,8 @@ fixed_maintenance=0
 constraint[next][0]=none
 constraint[prev][0]=none
 
+driver[5]=1
+
 EmptyImage[E]=./images/daf-lf-piece_E.0.0,-33,14
 EmptyImage[SE]=./images/daf-lf-piece_SE.0.0,-13,0
 EmptyImage[S]=./images/daf-lf-piece_S.0.0,0,0
@@ -219,6 +225,8 @@ fixed_maintenance=0
 constraint[next][0]=none
 constraint[prev][0]=none
 
+driver[5]=1
+
 EmptyImage[E]=./images/daf-lf-cool_E.0.0,-33,14
 EmptyImage[SE]=./images/daf-lf-cool_SE.0.0,-13,0
 EmptyImage[S]=./images/daf-lf-cool_S.0.0,0,0
@@ -258,6 +266,8 @@ fixed_maintenance=0
 constraint[next][0]=none
 constraint[prev][0]=none
 
+driver[5]=1
+
 EmptyImage[E]=./images/daf-lf-livestock_E.0.0,-33,14
 EmptyImage[SE]=./images/daf-lf-livestock_SE.0.0,-13,0
 EmptyImage[S]=./images/daf-lf-livestock_S.0.0,0,0
@@ -296,6 +306,8 @@ fixed_maintenance=0
 
 constraint[next][0]=none
 constraint[prev][0]=none
+
+driver[5]=1
 
 EmptyImage[E]=./images/daf-lf-post_E.0.0,-33,14
 EmptyImage[SE]=./images/daf-lf-post_SE.0.0,-13,0

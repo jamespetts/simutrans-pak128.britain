@@ -28,6 +28,9 @@ bidirectional=0
 
 Constraint[Next][0]=LSWR-700-class-tender
 
+driver[0]=1
+staff[1]=1
+
 liverytype[0]=LSWR-royal-green
 liverytype[1]=SR-Olive-Green
 liverytype[2]=BR-Early

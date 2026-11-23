@@ -98,6 +98,8 @@ bidirectional=1
 Constraint[Next][0]=railway-mail-locker
 
 # TODO: Multiple liveries
+staff[2]=1
+
 liverytype[0]=LMR-Standard
 #liverytype[1]=MR-Early
 #liverytype[2]=LNWR-Early
@@ -155,6 +157,8 @@ bidirectional=1
 catering_level=0
 
 Constraint[Next][0]=railway-mail-locker-rear
+
+staff[2]=1
 
 liverytype[0]=LMR-Standard
 #liverytype[1]=MR-Early

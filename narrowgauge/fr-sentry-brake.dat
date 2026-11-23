@@ -30,6 +30,8 @@ min_loading_time=25
 max_loading_time=50
 
 # It is not clear whether this ever carried any other liveries.
+staff[2]=1
+
 EmptyImage[W]=./images/fr-sentry-brake_E.0.0
 EmptyImage[NW]=./images/fr-sentry-brake_SE.0.0
 EmptyImage[N]=./images/fr-sentry-brake_S.0.0

@@ -28,6 +28,8 @@ way_constraint_prohibitive[0]=0
 
 Constraint[Prev][0]=none
 
+
+
 EmptyImage[E]=./images/merryweather-standard-1_E.0.0
 EmptyImage[SE]=./images/merryweather-standard-1_SE.0.0
 EmptyImage[S]=./images/merryweather-standard-1_S.0.0

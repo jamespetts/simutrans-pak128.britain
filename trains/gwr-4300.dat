@@ -30,6 +30,9 @@ bidirectional=0
 
 Constraint[Next][0]=gwr-churchward-tender
 
+driver[0]=1
+staff[1]=1
+
 liverytype[0]=GWR-overall-brown
 liverytype[1]=WW1-Austerity
 liverytype[2]=GWR-chocolate-cream-lined

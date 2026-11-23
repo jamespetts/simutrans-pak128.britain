@@ -43,6 +43,10 @@ Constraint[Prev][1]=none
 
 Constraint[Next][0]=BR-317-Trailer
 
+multiple_working_type=1
+
+driver[0]=1
+
 liverytype[0]=BR-Blue
 liverytype[1]=NSE-Standard
 liverytype[2]=One
@@ -160,6 +164,7 @@ Constraint[Next][0]=BR-317-Driving-Rear
 
 Constraint[Prev][0]=BR-317-Trailer
 
+
 liverytype[0]=BR-Blue
 liverytype[1]=NSE-Standard
 liverytype[2]=One
@@ -275,6 +280,7 @@ comfort[3]=148
 Constraint[Prev][0]=BR-317-Driving-Front
 
 Constraint[Next][0]=BR-317-Motor
+
 
 liverytype[0]=BR-Blue
 liverytype[1]=NSE-Standard
@@ -397,6 +403,10 @@ Constraint[Next][0]=BR-317-Driving-Front
 Constraint[Next][1]=none
 
 Constraint[Prev][0]=BR-317-Motor
+
+multiple_working_type=1
+
+driver[0]=1
 
 liverytype[0]=BR-Blue
 liverytype[1]=NSE-Standard

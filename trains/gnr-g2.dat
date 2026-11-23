@@ -29,6 +29,9 @@ upgrade[0]=gnr-g3
 
 Constraint[Next][0]=GNR-Stirling8Foot-Tender
 
+driver[0]=1
+staff[1]=1
+
 EmptyImage[E]=./locomotives/gnr-stirling-single-g1_E.0.0
 EmptyImage[SE]=./locomotives/gnr-stirling-single-g1_SE.0.0
 EmptyImage[S]=./locomotives/gnr-stirling-single-g1_S.0.0

@@ -39,6 +39,9 @@ Constraint[Next][0]=none
 
 upgrade[0]=tilling-stevens-ts7-double-pneumatic
 
+driver[5]=1
+staff[6]=1
+
 liverytype[0]=E-Surrey-Blue
 liverytype[1]=E-Surrey-Red
 liverytype[2]=Tilling-early

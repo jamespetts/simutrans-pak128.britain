@@ -21,6 +21,8 @@ Constraint[Prev][0]=LNER-A4-Tender(BRBlue)
 
 Constraint[Next][0]=LNER-Coronation-Brake-Third-Twin(rear)(cc)
 
+staff[2]=1
+
 EmptyImage[E]=./images/lner-coronation-coaches-cc.0.0
 EmptyImage[SE]=./images/lner-coronation-coaches-cc.0.1
 EmptyImage[S]=./images/lner-coronation-coaches-cc.0.2
@@ -55,6 +57,8 @@ Constraint[Next][0]=LNER-Coronation-Restaurant-Triple(front)(cc)
 Constraint[Next][1]=LNER-Coronation-RearBrake-Third-Twin(front)(cc)
 Constraint[Next][2]=LNER-Coronation-Observation(cc)
 
+staff[2]=1
+
 EmptyImage[E]=./images/lner-coronation-coaches-cc.2.0
 EmptyImage[SE]=./images/lner-coronation-coaches-cc.2.1
 EmptyImage[S]=./images/lner-coronation-coaches-cc.2.2
@@ -87,6 +91,8 @@ Constraint[Prev][0]=LNER-A4-Tender(BRBlue)
 
 Constraint[Next][0]=LNER-Coronation-Brake-Third-Triple(middle)(cc)
 
+staff[2]=1
+
 EmptyImage[E]=./images/lner-coronation-coaches-cc.0.0
 EmptyImage[SE]=./images/lner-coronation-coaches-cc.0.1
 EmptyImage[S]=./images/lner-coronation-coaches-cc.0.2
@@ -118,6 +124,8 @@ sound=-1
 Constraint[Prev][0]=LNER-Coronation-Brake-Third-Triple(front)(cc)
 
 Constraint[Next][0]=LNER-Coronation-Brake-Third-Triple(rear)(cc)
+
+staff[2]=1
 
 EmptyImage[E]=./images/lner-coronation-coaches-cc.1.0
 EmptyImage[SE]=./images/lner-coronation-coaches-cc.1.1
@@ -153,6 +161,8 @@ Constraint[Next][0]=LNER-Coronation-Restaurant-Triple(front)(cc)
 Constraint[Next][1]=LNER-Coronation-RearBrake-Third-Twin(front)(cc)
 Constraint[Next][2]=LNER-Coronation-Observation(cc)
 
+staff[2]=1
+
 EmptyImage[E]=./images/lner-coronation-coaches-cc.2.0
 EmptyImage[SE]=./images/lner-coronation-coaches-cc.2.1
 EmptyImage[S]=./images/lner-coronation-coaches-cc.2.2
@@ -187,6 +197,8 @@ Constraint[Prev][2]=LNER-Coronation-Restaurant-Triple(rear)(cc)
 
 Constraint[Next][0]=LNER-Coronation-RearBrake-Third-Twin(rear)(cc)
 
+staff[2]=1
+
 EmptyImage[E]=./images/lner-coronation-coaches-cc.6.0
 EmptyImage[SE]=./images/lner-coronation-coaches-cc.6.1
 EmptyImage[S]=./images/lner-coronation-coaches-cc.6.2
@@ -219,6 +231,8 @@ Constraint[Prev][0]=LNER-Coronation-RearBrake-Third-Twin(front)(cc)
 
 Constraint[Next][0]=LNER-Coronation-Observation(cc)
 Constraint[Next][1]=none
+
+staff[2]=1
 
 EmptyImage[E]=./images/lner-coronation-coaches-cc.7.0
 EmptyImage[SE]=./images/lner-coronation-coaches-cc.7.1
@@ -285,6 +299,8 @@ Constraint[Prev][1]=LNER-Coronation-Brake-Third-Triple(rear)(cc)
 
 Constraint[Next][0]=LNER-Coronation-Restaurant-Triple(middle)(cc)
 
+staff[3]=3
+
 EmptyImage[E]=./images/lner-coronation-coaches-cc.3.0
 EmptyImage[SE]=./images/lner-coronation-coaches-cc.3.1
 EmptyImage[S]=./images/lner-coronation-coaches-cc.3.2
@@ -317,6 +333,8 @@ Constraint[Prev][0]=LNER-Coronation-Restaurant-Triple(front)(cc)
 
 Constraint[Next][0]=LNER-Coronation-Restaurant-Triple(rear)(cc)
 
+staff[3]=3
+
 EmptyImage[E]=./images/lner-coronation-coaches-cc.4.0
 EmptyImage[SE]=./images/lner-coronation-coaches-cc.4.1
 EmptyImage[S]=./images/lner-coronation-coaches-cc.4.2
@@ -348,6 +366,8 @@ sound=-1
 Constraint[Prev][0]=LNER-Coronation-Restaurant-Triple(middle)(cc)
 
 Constraint[Next][0]=LNER-Coronation-RearBrake-Third-Twin(front)(cc)
+
+staff[3]=3
 
 EmptyImage[E]=./images/lner-coronation-coaches-cc.5.0
 EmptyImage[SE]=./images/lner-coronation-coaches-cc.5.1

@@ -32,6 +32,9 @@ fixed_cost=45389
 Constraint[Next][0]=stephenson-long-boiler-passenger-tender
 
 # TODO: Other liveries.
+driver[0]=1
+staff[1]=1
+
 liverytype[0]=MR-Early
 
 EmptyImage[E][0]=./locomotives/stephenson-long-boiler-passenger-mr-green_E.0.0

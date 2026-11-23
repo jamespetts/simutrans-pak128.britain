@@ -41,6 +41,9 @@ Constraint[Prev][1]=none
 Constraint[Next][0]=BR-172-2Rear
 Constraint[Next][1]=BR-172-2Middle
 
+driver[0]=1
+multiple_working_type=1
+
 EmptyImage[E]=./railcars/br-172-front-lm.1.4
 EmptyImage[SE]=./railcars/br-172-front-lm.1.5
 EmptyImage[S]=./railcars/br-172-front-lm.1.6
@@ -95,6 +98,10 @@ Constraint[Prev][1]=BR-172-2Front
 Constraint[Next][0]=BR-172-2Front
 Constraint[Next][1]=none
 
+driver[0]=1
+staff[2]=1
+multiple_working_type=1
+
 EmptyImage[E]=./railcars/br-172-rear-lm.1.4
 EmptyImage[SE]=./railcars/br-172-rear-lm.1.5
 EmptyImage[S]=./railcars/br-172-rear-lm.1.6
@@ -147,6 +154,7 @@ Constraint[Prev][1]=BR-172-2Middle
 
 Constraint[Next][0]=BR-172-2Rear
 Constraint[Next][1]=BR-172-2Middle
+
 
 EmptyImage[E]=./railcars/br-172-middle-lm.1.4
 EmptyImage[SE]=./railcars/br-172-middle-lm.1.5

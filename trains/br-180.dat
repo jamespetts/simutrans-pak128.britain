@@ -48,6 +48,9 @@ Constraint[Next][1]=BR-180Middle
 Constraint[Next][2]=BR-180Middle-Buffet
 Constraint[Next][3]=BR-180Middle-first
 
+driver[0]=1
+multiple_working_type=1
+
 liverytype[0]=Firstgroup-Mauve
 
 EmptyImage[E][0]=./railcars/br-180-front-fgw_E.0.0
@@ -111,6 +114,7 @@ Constraint[Next][0]=BR-180Rear
 Constraint[Next][1]=BR-180Middle
 Constraint[Next][2]=BR-180Middle-Buffet
 Constraint[Next][3]=BR-180Middle-first
+
 
 liverytype[0]=Firstgroup-Mauve
 
@@ -177,6 +181,7 @@ Constraint[Next][1]=BR-180Middle
 Constraint[Next][2]=BR-180Middle-Buffet
 Constraint[Next][3]=BR-180Middle-first
 
+
 liverytype[0]=Firstgroup-Mauve
 
 EmptyImage[E][0]=./railcars/br-180-middle-fgw_E.0.0
@@ -235,6 +240,7 @@ Constraint[Prev][2]=BR-180Middle-first
 Constraint[Next][0]=BR-180Rear
 Constraint[Next][1]=BR-180Middle
 Constraint[Next][2]=BR-180Middle-first
+
 
 liverytype[0]=Firstgroup-Mauve
 
@@ -298,6 +304,10 @@ Constraint[Prev][3]=BR-180Middle-first
 
 Constraint[Next][0]=BR-180Front
 Constraint[Next][1]=none
+
+driver[0]=1
+staff[2]=1
+multiple_working_type=1
 
 liverytype[0]=Firstgroup-Mauve
 

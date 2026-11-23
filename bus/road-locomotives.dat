@@ -25,6 +25,8 @@ Constraint[Prev][0]=LightRoadLocomotive
 Constraint[Prev][1]=HeavyRoadLocomotive
 Constraint[Prev][2]=none
 
+driver[5]=1
+
 EmptyImage[E]=./images/road-engine-light_E.0.0,-33,14
 EmptyImage[SE]=./images/road-engine-light_SE.0.0,-13,0
 EmptyImage[S]=./images/road-engine-light_S.0.0,0,0
@@ -61,6 +63,8 @@ sound=video47-traction-engine.wav
 Constraint[Prev][0]=LightRoadLocomotive
 Constraint[Prev][1]=HeavyRoadLocomotive
 Constraint[Prev][2]=none
+
+driver[5]=1
 
 EmptyImage[E]=./images/road-engine-heavy_E.0.0,-33,14
 EmptyImage[SE]=./images/road-engine-heavy_SE.0.0,-13,0

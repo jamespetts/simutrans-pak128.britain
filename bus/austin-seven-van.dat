@@ -29,6 +29,8 @@ max_loading_time=180
 available_only_as_upgrade=0
 fixed_maintenance=0
 
+driver[5]=1
+
 EmptyImage[E]=./images/morris-eight-piece_E.0.0,-33,14
 EmptyImage[SE]=./images/morris-eight-piece_SE.0.0,-13,0
 EmptyImage[S]=./images/morris-eight-piece_S.0.0,0,0
@@ -70,6 +72,8 @@ max_loading_time=180
 available_only_as_upgrade=0
 fixed_maintenance=0
 
+driver[5]=1
+
 EmptyImage[E]=./images/morris-eight-cool_E.0.0,-33,14
 EmptyImage[SE]=./images/morris-eight-cool_SE.0.0,-13,0
 EmptyImage[S]=./images/morris-eight-cool_S.0.0,0,0
@@ -109,6 +113,8 @@ min_loading_time=30
 max_loading_time=180
 available_only_as_upgrade=0
 fixed_maintenance=0
+
+driver[5]=1
 
 EmptyImage[E]=./images/morris-eight-post_E.0.0,-33,14
 EmptyImage[SE]=./images/morris-eight-post_SE.0.0,-13,0

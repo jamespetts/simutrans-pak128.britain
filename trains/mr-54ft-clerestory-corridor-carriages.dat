@@ -633,6 +633,8 @@ Constraint[Next][62]=MR-54ft-clerestory-cor-first-d600
 Constraint[Next][63]=MR-54ft-eliptical-cor-brake-composite-rear-d1046
 Constraint[Next][64]=none
 
+staff[2]=1
+
 liverytype[0]=MR-Standard
 
 EmptyImage[E][0]=./carriages/mr-54ft-clerestory-cor-brake-d467-front_E.0.0
@@ -745,6 +747,8 @@ Constraint[Prev][60]=LMS-cor-composite
 Constraint[Prev][61]=MR-54ft-clerestory-cor-composite-d593
 Constraint[Prev][62]=MR-54ft-clerestory-cor-first-d600
 Constraint[Prev][63]=MR-54ft-eliptical-cor-brake-composite-front-d1046
+
+staff[2]=1
 
 liverytype[0]=MR-Standard
 
@@ -861,6 +865,8 @@ Constraint[Next][62]=MR-54ft-clerestory-cor-first-d600
 Constraint[Next][63]=MR-54ft-eliptical-cor-brake-composite-rear-d1046
 Constraint[Next][64]=none
 
+staff[3]=1
+
 liverytype[0]=MR-Standard
 
 EmptyImage[E][0]=./carriages/mr-54ft-clerestory-mini-restaurant-brake-d443-front_E.0.0
@@ -973,6 +979,8 @@ Constraint[Prev][60]=LMS-cor-composite
 Constraint[Prev][61]=MR-54ft-clerestory-cor-composite-d593
 Constraint[Prev][62]=MR-54ft-clerestory-cor-first-d600
 Constraint[Prev][63]=MR-54ft-eliptical-cor-brake-composite-front-d1046
+
+staff[3]=1
 
 liverytype[0]=MR-Standard
 
@@ -1258,6 +1266,8 @@ Constraint[Next][62]=MR-54ft-clerestory-cor-first-d600
 Constraint[Next][63]=MR-54ft-eliptical-cor-brake-composite-rear-d1046
 Constraint[Next][64]=none
 
+staff[2]=1
+
 liverytype[0]=MR-Standard
 
 EmptyImage[E][0]=./carriages/mr-54ft-clerestory-open-vestibule-brake-d594-front_E.0.0
@@ -1366,6 +1376,8 @@ Constraint[Prev][60]=LMS-cor-composite
 Constraint[Prev][61]=MR-54ft-clerestory-cor-composite-d593
 Constraint[Prev][62]=MR-54ft-clerestory-cor-first-d600
 Constraint[Prev][63]=MR-54ft-eliptical-cor-brake-composite-front-d1046
+
+staff[2]=1
 
 liverytype[0]=MR-Standard
 

@@ -32,6 +32,8 @@ way_constraint_prohibitive[0]=0
 
 Constraint[Prev][0]=none
 
+
+
 EmptyImage[E]=./images/wilkinson-engine_E.0.0
 EmptyImage[SE]=./images/wilkinson-engine_SE.0.0
 EmptyImage[S]=./images/wilkinson-engine_S.0.0

@@ -55,6 +55,10 @@ Constraint[Prev][9]=none
 
 Constraint[Next][0]=BR-114-DTCL
 
+driver[0]=1
+staff[2]=1
+multiple_working_type=1
+
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue
 liverytype[2]=BR-Large-Logo
@@ -149,6 +153,10 @@ Constraint[Next][5]=BR-120-DMBC
 Constraint[Next][6]=BR-114-DMBS
 Constraint[Next][7]=BR-110-DMBC
 Constraint[Next][8]=none
+
+multiple_working_type=1
+
+driver[0]=1
 
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue

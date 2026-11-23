@@ -44,6 +44,8 @@ Constraint[Prev][6]=road-horse-hackney-double
 
 Constraint[Next][0]=mail-boot
 
+driver[5]=1
+
 EmptyImage[E]=./images/mailcoach-besant_E.0.0,-33,14
 EmptyImage[SE]=./images/mailcoach-besant_SE.0.0,-13,0
 EmptyImage[S]=./images/mailcoach-besant_S.0.0,0,0

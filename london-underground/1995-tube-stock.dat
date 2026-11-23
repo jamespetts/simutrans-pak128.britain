@@ -44,6 +44,9 @@ Constraint[Prev][1]=none
 
 Constraint[Next][0]=1995TubeStockMiddle1
 
+driver[0]=1
+multiple_working_type=1
+
 EmptyImage[E]=./images/lu-1995.0.0
 EmptyImage[SE]=./images/lu-1995.0.1
 EmptyImage[S]=./images/lu-1995.0.2
@@ -95,6 +98,7 @@ comfort[1]=56
 Constraint[Prev][0]=1995TubeStockRearUNDM
 
 Constraint[Next][0]=1995TubeStockMiddle1
+
 
 EmptyImage[E]=./images/lu-1995.1.0
 EmptyImage[SE]=./images/lu-1995.1.1
@@ -151,6 +155,7 @@ Constraint[Next][1]=1995TubeStockRearDM
 Constraint[Next][2]=1995TubeStockRearUNDM
 
 
+
 EmptyImage[E]=./images/lu-1995.1.0
 EmptyImage[SE]=./images/lu-1995.1.1
 EmptyImage[S]=./images/lu-1995.1.2
@@ -201,6 +206,7 @@ Constraint[Prev][0]=1995TubeStockMiddle1
 
 Constraint[Next][0]=1995TubeStockRearDM
 Constraint[Next][1]=1995TubeStockRearUNDM
+
 
 
 EmptyImage[E]=./images/lu-1995.1.0
@@ -257,6 +263,7 @@ Constraint[Prev][0]=1995TubeStockMiddle1
 Constraint[Prev][1]=1995TubeStockMiddle2
 
 Constraint[Next][0]=1995TubeStockFrontUNDM
+
 
 
 EmptyImage[E]=./images/lu-1995.1.0
@@ -316,6 +323,9 @@ Constraint[Prev][1]=1995TubeStockMiddle2
 Constraint[Next][0]=1995TubeStockFrontDM
 Constraint[Next][1]=none
 
+
+driver[0]=1
+multiple_working_type=1
 
 EmptyImage[E]=./images/lu-1995.2.0
 EmptyImage[SE]=./images/lu-1995.2.1

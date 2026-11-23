@@ -32,6 +32,9 @@ sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=stephenson-improved-tender
 
+driver[0]=1
+staff[1]=1
+
 EmptyImage[E]=./locomotives/stephenson-improved_E.0.0
 EmptyImage[SE]=./locomotives/stephenson-improved_SE.0.0
 EmptyImage[S]=./locomotives/stephenson-improved_S.0.0

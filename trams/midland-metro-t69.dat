@@ -42,6 +42,9 @@ Constraint[Prev][0]=MidlandMetroT69Rear
 Constraint[Prev][1]=none
 Constraint[Next][0]=MidlandMetroT69Rear
 
+driver[5]=1
+multiple_working_type=2
+
 liverytype[0]=Midland-Metro
 liverytype[1]=NWM
 
@@ -102,6 +105,9 @@ max_loading_time=45
 Constraint[Prev][0]=MidlandMetroT69Front
 Constraint[Next][0]=MidlandMetroT69Front
 Constraint[Next][1]=none
+
+driver[5]=1
+multiple_working_type=2
 
 liverytype[0]=Midland-Metro
 liverytype[1]=NWM

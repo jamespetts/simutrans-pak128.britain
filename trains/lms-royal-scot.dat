@@ -31,6 +31,9 @@ upgrade[0]=LMS-rebuilt-royal-scot
 
 Constraint[Next][0]=LMS-royal-scot-tender
 
+driver[0]=1
+staff[1]=1
+
 liverytype[0]=LMS-Standard
 liverytype[1]=WW2-Austerity
 liverytype[2]=BR-Early

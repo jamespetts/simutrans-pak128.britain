@@ -35,8 +35,14 @@ comfort[0]=0
 comfort[1]=82
 air_resistance=108
 
-Constraint[Prev][0]=none
-Constraint[Next][0]=none
+Constraint[Prev][0]=GWR-ParkRoyal-Railcar
+Constraint[Prev][1]=none
+Constraint[Next][0]=GWR-ParkRoyal-Railcar
+Constraint[Next][1]=none
+
+driver[0]=1
+staff[2]=1
+multiple_working_type=1
 
 liverytype[0]=GWR-shirtbutton
 liverytype[1]=GWR-hawksworth

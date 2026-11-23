@@ -32,6 +32,9 @@ Constraint[Next][0]=SR-MerchantNavy_4-6-2Tender
 
 upgrade[0]=SR-MerchantNavyRebuilt_4-6-2
 
+driver[0]=1
+staff[1]=1
+
 liverytype[0]=SR-Malachite-Green
 liverytype[1]=WW2-Austerity
 liverytype[2]=BR-Early

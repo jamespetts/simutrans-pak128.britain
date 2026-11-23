@@ -201,6 +201,8 @@ Constraint[Next][2]=ltsr-cor-composite
 Constraint[Next][3]=ltsr-dining-saloon
 Constraint[Next][4]=none
 
+staff[2]=1
+
 liverytype[0]=LTSR-standard
 liverytype[1]=MR-Standard
 liverytype[2]=LMS-Standard
@@ -281,6 +283,8 @@ Constraint[Prev][0]=ltsr-cor
 Constraint[Prev][1]=ltsr-cor-brake
 Constraint[Prev][2]=ltsr-cor-composite
 Constraint[Prev][3]=ltsr-dining-saloon
+
+staff[3]=3
 
 liverytype[0]=LTSR-standard
 liverytype[1]=MR-Standard

@@ -42,6 +42,9 @@ Constraint[Prev][1]=none
 
 Constraint[Next][0]=1898TubeStockMiddle
 
+driver[0]=1
+multiple_working_type=1
+
 EmptyImage[E]=./images/wcr-1898.0.0
 EmptyImage[SE]=./images/wcr-1898.0.1
 EmptyImage[S]=./images/wcr-1898.0.2
@@ -93,6 +96,7 @@ Constraint[Prev][1]=1898TubeStockMiddle
 Constraint[Next][0]=1898TubeStockMiddle
 Constraint[Next][1]=1898TubeStockRear
 
+
 EmptyImage[E]=./images/wcr-1898.1.0
 EmptyImage[SE]=./images/wcr-1898.1.1
 EmptyImage[S]=./images/wcr-1898.1.2
@@ -143,6 +147,10 @@ Constraint[Prev][0]=1898TubeStockMiddle
 Constraint[Next][0]=1898TubeStockFront
 Constraint[Next][1]=none
 
+
+driver[0]=1
+staff[2]=1
+multiple_working_type=1
 
 EmptyImage[E]=./images/wcr-1898.2.0
 EmptyImage[SE]=./images/wcr-1898.2.1

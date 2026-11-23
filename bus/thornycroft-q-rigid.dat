@@ -28,6 +28,8 @@ max_loading_time=600
 constraint[next][0]=none
 constraint[prev][0]=none
 
+driver[5]=1
+
 EmptyImage[E]=./images/thornycroft-q-rigid-bulk-empty_E.0.0,-33,14
 EmptyImage[SE]=./images/thornycroft-q-rigid-bulk-empty_SE.0.0,-13,0
 EmptyImage[S]=./images/thornycroft-q-rigid-bulk-empty_S.0.0,0,0
@@ -116,6 +118,8 @@ max_loading_time=600
 constraint[next][0]=none
 constraint[prev][0]=none
 
+driver[5]=1
+
 EmptyImage[E]=./images/thornycroft-q-rigid-long-empty_E.0.0,-33,14
 EmptyImage[SE]=./images/thornycroft-q-rigid-long-empty_SE.0.0,-13,0
 EmptyImage[S]=./images/thornycroft-q-rigid-long-empty_S.0.0,0,0
@@ -175,6 +179,8 @@ max_loading_time=600
 constraint[next][0]=none
 constraint[prev][0]=none
 
+driver[5]=1
+
 EmptyImage[E]=./images/thornycroft-q-rigid-piece_E.0.0,-33,14
 EmptyImage[SE]=./images/thornycroft-q-rigid-piece_SE.0.0,-13,0
 EmptyImage[S]=./images/thornycroft-q-rigid-piece_S.0.0,0,0
@@ -215,6 +221,8 @@ max_loading_time=600
 constraint[next][0]=none
 constraint[prev][0]=none
 
+driver[5]=1
+
 EmptyImage[E]=./images/thornycroft-q-rigid-cool_E.0.0,-33,14
 EmptyImage[SE]=./images/thornycroft-q-rigid-cool_SE.0.0,-13,0
 EmptyImage[S]=./images/thornycroft-q-rigid-cool_S.0.0,0,0
@@ -253,6 +261,8 @@ max_loading_time=600
 
 constraint[next][0]=none
 constraint[prev][0]=none
+
+driver[5]=1
 
 EmptyImage[E]=./images/thornycroft-q-rigid-livestock_E.0.0,-33,14
 EmptyImage[SE]=./images/thornycroft-q-rigid-livestock_SE.0.0,-13,0
@@ -295,6 +305,8 @@ max_loading_time=600
 constraint[next][0]=none
 constraint[prev][0]=none
 
+driver[5]=1
+
 EmptyImage[E]=./images/thornycroft-q-rigid-tanker_E.0.0,-33,14
 EmptyImage[SE]=./images/thornycroft-q-rigid-tanker_SE.0.0,-13,0
 EmptyImage[S]=./images/thornycroft-q-rigid-tanker_S.0.0,0,0
@@ -333,6 +345,8 @@ max_loading_time=600
 
 constraint[next][0]=none
 constraint[prev][0]=none
+
+driver[5]=1
 
 EmptyImage[E]=./images/thornycroft-q-rigid-cars-empty_E.0.0,-33,14
 EmptyImage[SE]=./images/thornycroft-q-rigid-cars-empty_SE.0.0,-13,0

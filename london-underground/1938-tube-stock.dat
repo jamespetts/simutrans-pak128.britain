@@ -43,6 +43,9 @@ Constraint[Prev][1]=none
 
 Constraint[Next][0]=1938TubeStockNDM
 
+driver[0]=1
+multiple_working_type=1
+
 EmptyImage[E]=./images/lu-1938.0.0
 EmptyImage[SE]=./images/lu-1938.0.1
 EmptyImage[S]=./images/lu-1938.0.2
@@ -97,6 +100,7 @@ Constraint[Prev][0]=1938TubeStockFront
 Constraint[Next][0]=1938TubeStockTrailer
 Constraint[Next][1]=1938TubeStockRear
 
+
 EmptyImage[E]=./images/lu-1938.1.0
 EmptyImage[SE]=./images/lu-1938.1.1
 EmptyImage[S]=./images/lu-1938.1.2
@@ -145,6 +149,7 @@ comfort[1]=61
 Constraint[Prev][0]=1938TubeStockNDM
 
 Constraint[Next][0]=1938TubeStockRear
+
 
 EmptyImage[E]=./images/lu-1938.1.0
 EmptyImage[SE]=./images/lu-1938.1.1
@@ -201,6 +206,10 @@ Constraint[Prev][1]=1938TubeStockTrailer
 Constraint[Next][0]=1938TubeStockFront
 Constraint[Next][1]=none
 
+
+driver[0]=1
+staff[2]=1
+multiple_working_type=1
 
 EmptyImage[E]=./images/lu-1938.2.0
 EmptyImage[SE]=./images/lu-1938.2.1

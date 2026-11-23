@@ -42,6 +42,9 @@ Constraint[Prev][1]=none
 Constraint[Next][0]=LUL_R_StockMiddle
 Constraint[Next][1]=LUL_R_StockRearDM
 
+driver[0]=1
+multiple_working_type=1
+
 liverytype[0]=LT
 liverytype[1]=LT-revised
 
@@ -104,6 +107,7 @@ Constraint[Prev][1]=LUL_R_StockMiddle
 
 Constraint[Next][0]=LUL_R_StockRearDM
 Constraint[Next][1]=LUL_R_StockMiddle
+
 
 liverytype[0]=LT
 liverytype[1]=LT-revised
@@ -168,6 +172,10 @@ Constraint[Prev][1]=LUL_R_StockFrontDM
 
 Constraint[Next][0]=LUL_R_StockFrontDM
 Constraint[Next][1]=none
+
+driver[0]=1
+staff[2]=1
+multiple_working_type=1
 
 liverytype[0]=LT
 liverytype[1]=LT-revised

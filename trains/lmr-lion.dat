@@ -30,6 +30,9 @@ sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=LMR-Planet-Tender
 
+driver[0]=1
+staff[1]=1
+
 EmptyImage[E]=./carriages/lmr-lion_E.0.0
 EmptyImage[SE]=./carriages/lmr-lion_SE.0.0
 EmptyImage[S]=./carriages/lmr-lion_S.0.0

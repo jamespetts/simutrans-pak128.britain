@@ -41,6 +41,9 @@ Constraint[Prev][1]=none
 
 Constraint[Next][0]=BR-501(T)
 
+driver[0]=1
+multiple_working_type=1
+
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue
 liverytype[2]=BR-Large-Logo
@@ -111,6 +114,7 @@ comfort[1]=77
 Constraint[Prev][0]=BR-501(DMB)
 
 Constraint[Next][0]=BR-501(DTB)
+
 
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue
@@ -183,6 +187,12 @@ Constraint[Prev][0]=BR-501(T)
 
 Constraint[Next][0]=BR-501(DMB)
 Constraint[Next][1]=none
+
+multiple_working_type=1
+
+staff[2]=1
+
+driver[0]=1
 
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue

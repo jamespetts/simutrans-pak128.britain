@@ -32,6 +32,9 @@ upgrade[0]=MR-800
 
 Constraint[Next][0]=MR-Kirtley156Tender
 
+driver[0]=1
+staff[1]=1
+
 liverytype[0]=MR-Early
 liverytype[1]=MR-Standard
 

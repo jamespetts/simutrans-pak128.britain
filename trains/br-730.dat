@@ -41,6 +41,9 @@ Constraint[Prev][2]=BR-730-2Rear
 
 Constraint[Next][0]=BR-730-0Panto
 
+driver[0]=1
+multiple_working_type=1
+
 liverytype[0]=west-midlands-network
 
 EmptyImage[E][0]=./railcars/br-730-0-front-wmr_E.0
@@ -91,6 +94,7 @@ way_constraint_permissive[2]=2
 Constraint[Prev][0]=BR-730-0Front
 
 Constraint[Next][0]=BR-730-0Rear
+
 
 liverytype[0]=west-midlands-network
 
@@ -147,6 +151,9 @@ Constraint[Next][0]=BR-730-0Front
 Constraint[Next][1]=none
 Constraint[Next][2]=BR-730-2Front
 
+driver[0]=1
+multiple_working_type=1
+
 liverytype[0]=west-midlands-network
 
 EmptyImage[E][0]=./railcars/br-730-0-rear-wmr_E.0
@@ -202,6 +209,9 @@ Constraint[Prev][2]=BR-730-0Rear
 
 Constraint[Next][0]=BR-730-2MiddleFront
 
+driver[0]=1
+multiple_working_type=1
+
 liverytype[0]=LNwR
 
 EmptyImage[E][0]=./railcars/br-730-2-front-lnr_E.0
@@ -252,6 +262,7 @@ way_constraint_permissive[2]=2
 Constraint[Prev][0]=BR-730-2Front
 
 Constraint[Next][0]=BR-730-2Panto
+
 
 liverytype[0]=LNwR
 
@@ -304,6 +315,7 @@ Constraint[Prev][0]=BR-730-2MiddleFront
 
 Constraint[Next][0]=BR-730-2MiddleRear
 
+
 liverytype[0]=LNwR
 
 EmptyImage[E][0]=./railcars/br-730-2-panto-lnr_E.0
@@ -354,6 +366,7 @@ way_constraint_permissive[2]=2
 Constraint[Prev][0]=BR-730-2Panto
 
 Constraint[Next][0]=BR-730-2Rear
+
 
 liverytype[0]=LNwR
 
@@ -409,6 +422,9 @@ Constraint[Prev][0]=BR-730-2MiddleRear
 Constraint[Next][0]=BR-730-2Front
 Constraint[Next][1]=none
 Constraint[Next][2]=BR-730-0Front
+
+driver[0]=1
+multiple_working_type=1
 
 liverytype[0]=LNwR
 

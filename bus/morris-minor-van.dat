@@ -26,6 +26,8 @@ constraint[prev][0]=none
 min_loading_time=30
 max_loading_time=240
 
+driver[5]=1
+
 EmptyImage[E]=./images/morris-minor-van-piece_E.0.0,-33,14
 EmptyImage[SE]=./images/morris-minor-van-piece_SE.0.0,-13,0
 EmptyImage[S]=./images/morris-minor-van-piece_S.0.0,0,0
@@ -64,6 +66,8 @@ constraint[prev][0]=none
 min_loading_time=30
 max_loading_time=240
 
+driver[5]=1
+
 EmptyImage[E]=./images/morris-minor-van-cool_E.0.0,-33,14
 EmptyImage[SE]=./images/morris-minor-van-cool_SE.0.0,-13,0
 EmptyImage[S]=./images/morris-minor-van-cool_S.0.0,0,0
@@ -100,6 +104,8 @@ constraint[prev][0]=none
 
 min_loading_time=30
 max_loading_time=180
+
+driver[5]=1
 
 EmptyImage[E]=./images/morris-minor-van-post_E.0.0,-33,14
 EmptyImage[SE]=./images/morris-minor-van-post_SE.0.0,-13,0

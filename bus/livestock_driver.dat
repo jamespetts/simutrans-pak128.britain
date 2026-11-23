@@ -40,6 +40,8 @@ increase_maintenance_by_percent=250
 constraint[next][0]=none
 constraint[prev][0]=none
 
+driver[5]=1
+
 EmptyImage[E]=./images/livestock-drover_E.0.0,-33,14
 EmptyImage[SE]=./images/livestock-drover_SE.0.0,-13,0
 EmptyImage[S]=./images/livestock-drover_S.0.0,0,0

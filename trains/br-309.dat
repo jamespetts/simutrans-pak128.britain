@@ -43,6 +43,9 @@ Constraint[Prev][1]=none
 
 Constraint[Next][0]=BR-309Rear
 
+driver[0]=1
+multiple_working_type=1
+
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue
 liverytype[2]=Jaffa-Cake
@@ -130,6 +133,10 @@ Constraint[Prev][1]=none
 
 Constraint[Next][0]=BR-309Power
 
+multiple_working_type=1
+
+driver[0]=1
+
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue
 liverytype[2]=Jaffa-Cake
@@ -214,6 +221,7 @@ comfort[3]=154
 Constraint[Prev][0]=BR-309Power
 Constraint[Next][0]=BR-309Rear
 
+
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue
 liverytype[2]=Jaffa-Cake
@@ -297,6 +305,7 @@ catering_level=3
 
 Constraint[Prev][0]=BR-309Power
 Constraint[Next][0]=BR-309Rear
+
 
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue
@@ -387,6 +396,7 @@ Constraint[Prev][0]=BR-309-2Front
 Constraint[Next][0]=BR-309Middle
 Constraint[Next][1]=BR-309Griddle
 
+
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue
 liverytype[2]=Jaffa-Cake
@@ -475,6 +485,12 @@ Constraint[Prev][2]=BR-309-1Front
 Constraint[Next][0]=BR-309-1Front
 Constraint[Next][1]=BR-309-2Front
 Constraint[Next][2]=none
+
+multiple_working_type=1
+
+staff[2]=1
+
+driver[0]=1
 
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue

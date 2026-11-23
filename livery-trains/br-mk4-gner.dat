@@ -16,6 +16,8 @@ runningcost=0
 fixed_cost=2146
 sound=-1
 
+staff[2]=1
+
 EmptyImage[E]=./images/br-mk4-gner.2.0
 EmptyImage[SE]=./images/br-mk4-gner.2.1
 EmptyImage[S]=./images/br-mk4-gner.2.2

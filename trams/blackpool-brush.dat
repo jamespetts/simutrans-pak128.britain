@@ -41,6 +41,9 @@ upgrade[0]=Blackpool-ProgressTwin-Power
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
 
+driver[5]=1
+staff[6]=1
+
 liverytype[0]=Blackpool-green
 liverytype[1]=WW2-Austerity
 liverytype[2]=Blackpool-green-postwar

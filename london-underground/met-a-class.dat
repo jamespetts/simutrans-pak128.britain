@@ -33,6 +33,9 @@ bidirectional=1
 is_tall=0
 
 # TODO: Add SECR and possibly earlier LSWR liveries for this.
+driver[0]=1
+staff[1]=1
+
 liverytype[0]=Metropolitan-Green
 liverytype[1]=Metropolitan-Red
 liverytype[2]=Metropolitan-Late

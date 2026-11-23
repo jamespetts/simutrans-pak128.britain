@@ -38,6 +38,9 @@ upgrade[0]=MR-483
 
 Constraint[Next][0]=MR-Kirtley156Tender
 
+driver[0]=1
+staff[1]=1
+
 EmptyImage[E]=./locomotives/mr-1738-class_E.0.0
 EmptyImage[SE]=./locomotives/mr-1738-class_SE.0.0
 EmptyImage[S]=./locomotives/mr-1738-class_S.0.0

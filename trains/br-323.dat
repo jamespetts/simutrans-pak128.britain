@@ -40,6 +40,9 @@ Constraint[Prev][1]=none
 
 Constraint[Next][0]=BR-323Middle
 
+driver[0]=1
+multiple_working_type=1
+
 liverytype[0]=GMPTE-black-red
 liverytype[1]=Centro
 liverytype[2]=Northern-Spirit
@@ -135,6 +138,9 @@ Constraint[Prev][0]=BR-323Middle
 Constraint[Next][0]=BR-323Front
 Constraint[Next][1]=none
 
+driver[0]=1
+multiple_working_type=1
+
 liverytype[0]=GMPTE-black-red
 liverytype[1]=Centro
 liverytype[2]=Northern-Spirit
@@ -227,6 +233,7 @@ way_constraint_permissive[2]=2
 Constraint[Prev][0]=BR-323Front
 
 Constraint[Next][0]=BR-323Rear
+
 
 liverytype[0]=GMPTE-black-red
 liverytype[1]=Centro

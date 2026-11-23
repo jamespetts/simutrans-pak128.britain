@@ -32,6 +32,8 @@ max_loading_time=84
 Constraint[Prev][0]=none
 Constraint[Next][0]=WrightStreetcar(Rear)
 
+driver[5]=1
+
 EmptyImage[E]=./images/wright-streetcar-front_E.0.0,-33,14
 EmptyImage[SE]=./images/wright-streetcar-front_SE.0.0,-13,0
 EmptyImage[S]=./images/wright-streetcar-front_S.0.0,4,0
@@ -70,6 +72,8 @@ max_loading_time=84
 
 Constraint[Prev][0]=WrightStreetcar(Front)
 Constraint[Next][0]=none
+
+driver[5]=1
 
 EmptyImage[E]=./images/wright-streetcar-rear_E.0.0,-33,14
 EmptyImage[SE]=./images/wright-streetcar-rear_SE.0.0,-13,0

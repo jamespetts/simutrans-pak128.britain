@@ -32,6 +32,8 @@ constraint[prev][0]=none
 min_loading_time=30
 max_loading_time=355
 
+driver[5]=1
+
 EmptyImage[E]=./images/dennis-30cwt-van-pneumatic-piece_E.0.0,-33,14
 EmptyImage[SE]=./images/dennis-30cwt-van-pneumatic-piece_SE.0.0,-13,0
 EmptyImage[S]=./images/dennis-30cwt-van-pneumatic-piece_S.0.0,0,0
@@ -75,6 +77,8 @@ constraint[prev][0]=none
 min_loading_time=30
 max_loading_time=355
 
+driver[5]=1
+
 EmptyImage[E]=./images/dennis-30cwt-van-pneumatic-piece_E.0.0,-33,14
 EmptyImage[SE]=./images/dennis-30cwt-van-pneumatic-piece_SE.0.0,-13,0
 EmptyImage[S]=./images/dennis-30cwt-van-pneumatic-piece_S.0.0,0,0
@@ -117,6 +121,8 @@ constraint[prev][0]=none
 
 min_loading_time=25
 max_loading_time=305
+
+driver[5]=1
 
 EmptyImage[E]=./images/dennis-30cwt-van-pneumatic-post_E.0.0,-33,14
 EmptyImage[SE]=./images/dennis-30cwt-van-pneumatic-post_SE.0.0,-13,0

@@ -887,6 +887,8 @@ Constraint[Next][69]=pullman-elliptical-8-wheel-parlour-first
 Constraint[Next][70]=pullman-vestibule-kitchen
 Constraint[Next][71]=none
 
+staff[2]=1
+
 liverytype[0]=MR-Early
 liverytype[1]=MR-Standard
 
@@ -1013,6 +1015,8 @@ Constraint[Prev][67]=pullman-open-platform-kitchen
 Constraint[Prev][68]=pullman-vestibule-12-wheel-kitchen
 Constraint[Prev][69]=pullman-elliptical-8-wheel-parlour-first
 Constraint[Prev][70]=pullman-vestibule-kitchen
+
+staff[2]=1
 
 liverytype[0]=MR-Early
 liverytype[1]=MR-Standard
@@ -1144,6 +1148,8 @@ Constraint[Next][69]=pullman-elliptical-8-wheel-parlour-first
 Constraint[Next][70]=pullman-vestibule-kitchen
 Constraint[Next][71]=none
 
+staff[2]=1
+
 EmptyImage[E]=./carriages/mr-clayton-8wheel-arc-roof-brake-lav-front_E.0.0
 EmptyImage[SE]=./carriages/mr-clayton-8wheel-arc-roof-brake-lav-front_SE.0.0
 EmptyImage[S]=./carriages/mr-clayton-8wheel-arc-roof-brake-lav-front_S.0.0
@@ -1259,6 +1265,8 @@ Constraint[Prev][67]=pullman-open-platform-kitchen
 Constraint[Prev][68]=pullman-vestibule-12-wheel-kitchen
 Constraint[Prev][69]=pullman-elliptical-8-wheel-parlour-first
 Constraint[Prev][70]=pullman-vestibule-kitchen
+
+staff[2]=1
 
 EmptyImage[E]=./carriages/mr-clayton-8wheel-arc-roof-brake-lav-rear_E.0.0
 EmptyImage[SE]=./carriages/mr-clayton-8wheel-arc-roof-brake-lav-rear_SE.0.0

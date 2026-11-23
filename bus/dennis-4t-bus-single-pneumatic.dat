@@ -42,6 +42,9 @@ upgrade[0]=dennis-4t-bus-single-pneumatic
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
 
+driver[5]=1
+staff[6]=1
+
 liverytype[0]=General
 liverytype[1]=LT
 liverytype[2]=General-Country

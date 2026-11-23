@@ -45,6 +45,8 @@ max_loading_time=65
 Constraint[Prev][0]=any
 Constraint[Next][0]=any
 
+staff[3]=1
+
 liverytype[0]=FR-Royal-Purple-Cream
 liverytype[1]=FR-Col-Stephens
 liverytype[2]=FR-Green-Cream

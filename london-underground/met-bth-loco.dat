@@ -31,6 +31,8 @@ is_tall=0
 Constraint[Prev][0]=MetBTHLoco
 Constraint[Prev][1]=none
 
+driver[0]=1
+
 EmptyImage[E]=./images/met-bth-loco.1.4
 EmptyImage[SE]=./images/met-bth-loco.1.5
 EmptyImage[S]=./images/met-bth-loco.1.6

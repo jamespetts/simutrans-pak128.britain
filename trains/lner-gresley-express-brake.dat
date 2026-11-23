@@ -35,6 +35,8 @@ comfort[1]=144
 comfort[2]=144
 comfort[3]=155
 
+staff[2]=1
+
 liverytype[0]=LNER-Standard
 liverytype[1]=BR-Early
 liverytype[2]=BR-Revised
@@ -165,6 +167,8 @@ Constraint[Prev][27]=gnr-gresley-cor-first
 Constraint[Prev][28]=gnr-clerestory-cor-63ft-5-composite
 Constraint[Prev][29]=gnr-clerestory-cor-63ft-5-first
 Constraint[Prev][30]=gnr-clerestory-cor-composite-53ft-6
+
+staff[2]=1
 
 liverytype[0]=LNER-Standard
 liverytype[1]=BR-Early

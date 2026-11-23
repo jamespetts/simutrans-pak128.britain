@@ -41,6 +41,9 @@ Constraint[Prev][1]=none
 
 Constraint[Next][0]=br-141-0-rear
 
+driver[0]=1
+multiple_working_type=1
+
 liverytype[0]=wypte-Green-Cream
 
 EmptyImage[E][0]=./railcars/br-141-front-wyptegreen_E.png
@@ -95,6 +98,10 @@ Constraint[Prev][0]=br-141-0-front
 
 Constraint[Next][0]=br-141-0-front
 Constraint[Next][1]=none
+
+driver[0]=1
+staff[2]=1
+multiple_working_type=1
 
 liverytype[0]=wypte-Green-Cream
 
@@ -164,6 +171,9 @@ Constraint[Prev][12]=none
 
 Constraint[Next][0]=br-141-1-rear
 
+driver[0]=1
+multiple_working_type=1
+
 liverytype[0]=wypte-Red-Cream
 
 EmptyImage[E][0]=./railcars/br-141-front-wypte-red_E.png
@@ -232,6 +242,10 @@ Constraint[Next][10]=br-144-1-front
 Constraint[Next][11]=BR-170Front
 Constraint[Next][12]=br-159-front
 Constraint[Next][13]=none
+
+driver[0]=1
+staff[2]=1
+multiple_working_type=1
 
 liverytype[0]=wypte-Red-Cream
 

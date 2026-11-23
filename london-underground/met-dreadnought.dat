@@ -261,6 +261,8 @@ Constraint[Next][17]=met-bogie-first
 Constraint[Next][18]=met-dreadnought-first
 Constraint[Next][19]=none
 
+staff[2]=1
+
 liverytype[0]=Metropolitan-Red
 liverytype[1]=LT
 
@@ -362,6 +364,8 @@ Constraint[Prev][15]=met-jubilee-first
 Constraint[Prev][16]=met-bogie-second
 Constraint[Prev][17]=met-bogie-first
 Constraint[Prev][18]=met-dreadnought-first
+
+staff[2]=1
 
 liverytype[0]=Metropolitan-Red
 liverytype[1]=LT

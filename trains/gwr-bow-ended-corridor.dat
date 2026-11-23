@@ -411,6 +411,8 @@ Constraint[Next][36]=gwr-clerestory-mail
 Constraint[Next][37]=gwr-clerestory-tpo
 Constraint[Next][38]=none
 
+staff[2]=1
+
 liverytype[0]=GWR-chocolate-cream-lined
 liverytype[1]=GWR-chocolate-cream-plain
 liverytype[2]=GWR-shirtbutton
@@ -537,6 +539,8 @@ Constraint[Prev][34]=gwr-clerestory-corridor-restaurant
 Constraint[Prev][35]=gwr-clerestory-full-brake
 Constraint[Prev][36]=gwr-clerestory-mail
 Constraint[Prev][37]=gwr-clerestory-tpo
+
+staff[2]=1
 
 liverytype[0]=GWR-chocolate-cream-lined
 liverytype[1]=GWR-chocolate-cream-plain
@@ -705,6 +709,8 @@ Constraint[Prev][34]=gwr-clerestory-corridor-restaurant
 Constraint[Prev][35]=gwr-clerestory-full-brake
 Constraint[Prev][36]=gwr-clerestory-mail
 Constraint[Prev][37]=gwr-clerestory-tpo
+
+staff[3]=3
 
 liverytype[0]=GWR-chocolate-cream-lined
 liverytype[1]=GWR-chocolate-cream-plain
@@ -875,6 +881,8 @@ Constraint[Prev][35]=gwr-clerestory-full-brake
 Constraint[Prev][36]=gwr-clerestory-mail
 Constraint[Prev][37]=gwr-clerestory-tpo
 
+staff[3]=1
+
 liverytype[0]=GWR-chocolate-cream-plain
 liverytype[1]=GWR-shirtbutton
 liverytype[2]=GWR-hawksworth
@@ -943,6 +951,8 @@ bidirectional=1
 
 min_loading_time=25
 max_loading_time=55
+
+staff[2]=1
 
 liverytype[0]=GWR-chocolate-cream-lined
 liverytype[1]=GWR-chocolate-cream-plain
@@ -1268,6 +1278,8 @@ Constraint[Prev][34]=gwr-clerestory-corridor-restaurant
 Constraint[Prev][35]=gwr-clerestory-full-brake
 Constraint[Prev][36]=gwr-clerestory-mail
 Constraint[Prev][37]=gwr-clerestory-tpo
+
+staff[3]=3
 
 liverytype[0]=GWR-chocolate-cream-lined
 liverytype[1]=GWR-chocolate-cream-plain

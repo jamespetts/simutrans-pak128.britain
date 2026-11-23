@@ -41,6 +41,9 @@ Constraint[Prev][1]=none
 
 Constraint[Next][0]=BR-345Panto
 
+driver[0]=1
+multiple_working_type=1
+
 liverytype[0]=Elizabeth-line
 
 EmptyImage[E][0]=./railcars/br-345-front-crossrail_E.0
@@ -92,6 +95,7 @@ Constraint[Prev][0]=BR-345Front
 
 Constraint[Next][0]=BR-345Rear
 Constraint[Next][1]=BR-345Middle
+
 
 liverytype[0]=Elizabeth-line
 
@@ -146,6 +150,7 @@ Constraint[Prev][1]=BR-345Middle
 Constraint[Next][0]=BR-345TSW
 Constraint[Next][1]=BR-345MS3Front
 
+
 liverytype[0]=Elizabeth-line
 
 EmptyImage[E][0]=./railcars/br-345-middle-front-crossrail_E.0
@@ -197,6 +202,7 @@ Constraint[Prev][0]=BR-345Middle
 
 Constraint[Next][0]=BR-345TSW
 
+
 liverytype[0]=Elizabeth-line
 
 EmptyImage[E][0]=./railcars/br-345-middle-front-crossrail_E.0
@@ -246,6 +252,7 @@ Constraint[Prev][1]=BR-345MS3Front
 
 Constraint[Next][0]=BR-345MiddleRear
 Constraint[Next][1]=BR-345MS3Rear
+
 
 liverytype[0]=Elizabeth-line
 
@@ -297,6 +304,7 @@ way_constraint_permissive[2]=2
 Constraint[Prev][0]=BR-345TSW
 
 Constraint[Next][0]=BR-345MiddleRear
+
 
 liverytype[0]=Elizabeth-line
 
@@ -350,6 +358,7 @@ Constraint[Prev][1]=BR-345MS3Rear
 
 Constraint[Next][0]=BR-345PantoRear
 
+
 liverytype[0]=Elizabeth-line
 
 EmptyImage[E][0]=./railcars/br-345-middle-rear-crossrail_E.0
@@ -400,6 +409,7 @@ way_constraint_permissive[2]=2
 Constraint[Prev][0]=BR-345MiddleRear
 
 Constraint[Next][0]=BR-345Rear
+
 
 liverytype[0]=Elizabeth-line
 
@@ -456,6 +466,9 @@ Constraint[Prev][2]=BR-345Panto
 
 Constraint[Next][0]=BR-345Front
 Constraint[Next][1]=none
+
+driver[0]=1
+multiple_working_type=1
 
 liverytype[0]=Elizabeth-line
 

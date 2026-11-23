@@ -26,6 +26,8 @@ Constraint[Next][0]=RMUflat(cooled)
 Constraint[Next][1]=RMUflat(piece)
 Constraint[Next][2]=none
 
+driver[0]=1
+
 EmptyImage[E]=images/RMU9000.0.0,16,5
 EmptyImage[SE]=images/RMU9000.0.1,0,11
 EmptyImage[S]=images/RMU9000.0.2,-16,5

@@ -36,6 +36,8 @@ Constraint[Prev][0]=none
 Constraint[Next][0]=none
 
 # TODO: Add more liveries
+driver[5]=1
+
 liverytype[0]=LT-revised
 liverytype[1]=Leaf-Green
 liverytype[2]=Poppy-Red
@@ -105,6 +107,8 @@ Constraint[Prev][0]=none
 Constraint[Next][0]=none
 
 # TODO: Add more liveries
+driver[5]=1
+
 liverytype[0]=LT-revised
 liverytype[1]=Leaf-Green
 liverytype[2]=Poppy-Red

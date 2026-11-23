@@ -40,9 +40,15 @@ max_loading_time=72
 comfort[0]=0
 comfort[1]=48
 
-Constraint[Prev][0]=none
+Constraint[Prev][0]=leyland-railbus
+Constraint[Prev][1]=none
 
-Constraint[Next][0]=none
+Constraint[Next][0]=leyland-railbus
+Constraint[Next][1]=none
+
+driver[0]=1
+staff[2]=1
+multiple_working_type=1
 
 liverytype[0]=LMS-Standard
 liverytype[1]=WW2-Austerity

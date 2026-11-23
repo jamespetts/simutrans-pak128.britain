@@ -43,6 +43,9 @@ Constraint[Prev][1]=none
 
 Constraint[Next][0]=1967TubeStockMiddle1
 
+driver[0]=1
+multiple_working_type=1
+
 liverytype[0]=LT
 liverytype[1]=LUL
 
@@ -105,6 +108,7 @@ Constraint[Prev][0]=1967TubeStockFront
 Constraint[Next][0]=1967TubeStockMiddle2
 Constraint[Next][1]=1967TubeStockMiddle1
 Constraint[Next][2]=1967TubeStockRear
+
 
 liverytype[0]=LT
 liverytype[1]=LUL
@@ -171,6 +175,7 @@ Constraint[Prev][0]=1967TubeStockMiddle1
 
 Constraint[Next][0]=1967TubeStockRear
 
+
 liverytype[0]=LT
 liverytype[1]=LUL
 
@@ -236,6 +241,10 @@ Constraint[Prev][1]=1967TubeStockMiddle2
 
 Constraint[Next][0]=1967TubeStockFront
 Constraint[Next][1]=none
+
+driver[0]=1
+staff[2]=1
+multiple_working_type=1
 
 liverytype[0]=LT
 liverytype[1]=LUL

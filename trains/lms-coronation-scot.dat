@@ -210,6 +210,8 @@ Constraint[Next][0]=lms-coronation-fk
 Constraint[Next][1]=lms-coronation-to
 Constraint[Next][2]=lms-coronation-kitchen
 
+staff[2]=1
+
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
 liverytype[2]=BR-Revised
@@ -380,6 +382,8 @@ Constraint[Prev][1]=lms-coronation-fk
 Constraint[Prev][2]=lms-coronation-bfk
 
 Constraint[Next][0]=lms-coronation-fo
+
+staff[3]=3
 
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early

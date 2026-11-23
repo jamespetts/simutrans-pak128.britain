@@ -33,6 +33,8 @@ Constraint[Prev][2]=BR-Class70
 Constraint[Prev][3]=none
 # Also class 59
 
+driver[0]=1
+
 liverytype[0]=Freightliner-green
 liverytype[1]=Colas-Standard
 

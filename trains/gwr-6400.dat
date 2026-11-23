@@ -33,6 +33,9 @@ bidirectional=1
 # The only difference is wheel size, so the different
 # wheels are on different layers.
 
+driver[0]=1
+staff[1]=1
+
 liverytype[0]=GWR-standard-green
 liverytype[1]=GWR-shirtbutton
 liverytype[2]=GWR-hawksworth

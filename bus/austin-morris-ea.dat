@@ -25,6 +25,8 @@ constraint[prev][0]=none
 min_loading_time=30
 max_loading_time=300
 
+driver[5]=1
+
 EmptyImage[E]=./images/austin-morris-ea-piece_E.0.0,-33,14
 EmptyImage[SE]=./images/austin-morris-ea-piece_SE.0.0,-13,0
 EmptyImage[S]=./images/austin-morris-ea-piece_S.0.0,0,0
@@ -64,6 +66,8 @@ constraint[prev][0]=none
 min_loading_time=30
 max_loading_time=300
 
+driver[5]=1
+
 EmptyImage[E]=./images/austin-morris-ea-cool_E.0.0,-33,14
 EmptyImage[SE]=./images/austin-morris-ea-cool_SE.0.0,-13,0
 EmptyImage[S]=./images/austin-morris-ea-cool_S.0.0,0,0
@@ -101,6 +105,8 @@ constraint[prev][0]=none
 
 min_loading_time=20
 max_loading_time=250
+
+driver[5]=1
 
 EmptyImage[E]=./images/austin-morris-ea-post_E.0.0,-33,14
 EmptyImage[SE]=./images/austin-morris-ea-post_SE.0.0,-13,0

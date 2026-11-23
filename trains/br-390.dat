@@ -42,9 +42,13 @@ comfort[2]=0
 comfort[3]=135
 air_resistance=108
 
-Constraint[Prev][0]=none
+Constraint[Prev][0]=BR-390RearCab
+Constraint[Prev][1]=none
 
 Constraint[Next][0]=BR-390FrontCoach
+
+driver[0]=1
+multiple_working_type=1
 
 EmptyImage[E]=./railcars/br-390-virgin.0.0
 EmptyImage[SE]=./railcars/br-390-virgin.0.1
@@ -100,6 +104,7 @@ comfort[3]=135
 Constraint[Prev][0]=BR-390FrontCab
 
 Constraint[Next][0]=BR-390FrontPantograph
+
 
 EmptyImage[E]=./railcars/br-390-virgin.1.0
 EmptyImage[SE]=./railcars/br-390-virgin.1.1
@@ -157,6 +162,7 @@ Constraint[Prev][0]=BR-390FrontCoach
 Constraint[Next][0]=BR-390PoweredCoach
 Constraint[Next][1]=BR-390RearCoach
 Constraint[Next][2]=BR-390PoweredCoachFirst
+
 
 EmptyImage[E]=./railcars/br-390-virgin.2.0
 EmptyImage[SE]=./railcars/br-390-virgin.2.1
@@ -217,6 +223,7 @@ Constraint[Next][0]=BR-390Coach
 Constraint[Next][1]=BR-390RearPantograph
 Constraint[Next][2]=BR-390PoweredCoach
 Constraint[Next][3]=BR-390PoweredCoachFirst
+
 
 EmptyImage[E]=./railcars/br-390-virgin.1.0
 EmptyImage[SE]=./railcars/br-390-virgin.1.1
@@ -280,6 +287,7 @@ Constraint[Next][1]=BR-390Coach
 Constraint[Next][2]=BR-390RearPantograph
 Constraint[Next][3]=BR-390PoweredCoachFirst
 
+
 EmptyImage[E]=./railcars/br-390-virgin.1.0
 EmptyImage[SE]=./railcars/br-390-virgin.1.1
 EmptyImage[S]=./railcars/br-390-virgin.1.2
@@ -342,6 +350,7 @@ Constraint[Next][1]=BR-390Coach
 Constraint[Next][2]=BR-390RearPantograph
 Constraint[Next][3]=BR-390PoweredCoachFirst
 
+
 EmptyImage[E]=./railcars/br-390-virgin.1.0
 EmptyImage[SE]=./railcars/br-390-virgin.1.1
 EmptyImage[S]=./railcars/br-390-virgin.1.2
@@ -398,6 +407,7 @@ Constraint[Prev][1]=BR-390PoweredCoach
 Constraint[Prev][2]=BR-390PoweredCoachFirst
 
 Constraint[Next][0]=BR-390RearCoach
+
 
 EmptyImage[E]=./railcars/br-390-virgin.3.0
 EmptyImage[SE]=./railcars/br-390-virgin.3.1
@@ -456,6 +466,7 @@ Constraint[Prev][1]=BR-390FrontPantograph
 
 Constraint[Next][0]=BR-390RearCab
 
+
 EmptyImage[E]=./railcars/br-390-virgin.1.0
 EmptyImage[SE]=./railcars/br-390-virgin.1.1
 EmptyImage[S]=./railcars/br-390-virgin.1.2
@@ -512,7 +523,11 @@ air_resistance=108
 
 Constraint[Prev][0]=BR-390RearCoach
 
-Constraint[Next][0]=none
+Constraint[Next][0]=BR-390FrontCab
+Constraint[Next][1]=none
+
+driver[0]=1
+multiple_working_type=1
 
 EmptyImage[E]=./railcars/br-390-virgin.4.0
 EmptyImage[SE]=./railcars/br-390-virgin.4.1

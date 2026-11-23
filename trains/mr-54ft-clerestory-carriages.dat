@@ -308,6 +308,8 @@ Constraint[Next][73]=pullman-elliptical-8-wheel-parlour-first
 Constraint[Next][74]=pullman-vestibule-kitchen
 Constraint[Next][75]=none
 
+staff[2]=1
+
 liverytype[0]=MR-Standard
 
 EmptyImage[E][0]=./carriages/mr-54ft-clerestory-lav-brake-d550-front_E.0.0
@@ -430,6 +432,8 @@ Constraint[Prev][71]=pullman-open-platform-kitchen
 Constraint[Prev][72]=pullman-vestibule-12-wheel-kitchen
 Constraint[Prev][73]=pullman-elliptical-8-wheel-parlour-first
 Constraint[Prev][74]=pullman-vestibule-kitchen
+
+staff[2]=1
 
 liverytype[0]=MR-Standard
 
@@ -555,6 +559,8 @@ Constraint[Next][73]=pullman-elliptical-8-wheel-parlour-first
 Constraint[Next][74]=pullman-vestibule-kitchen
 Constraint[Next][75]=none
 
+staff[2]=1
+
 liverytype[0]=MR-Standard
 
 EmptyImage[E][0]=./carriages/mr-54ft-clerestory-lav-brake-composite-d521-front_E.0.0
@@ -677,6 +683,8 @@ Constraint[Prev][71]=pullman-open-platform-kitchen
 Constraint[Prev][72]=pullman-vestibule-12-wheel-kitchen
 Constraint[Prev][73]=pullman-elliptical-8-wheel-parlour-first
 Constraint[Prev][74]=pullman-vestibule-kitchen
+
+staff[2]=1
 
 liverytype[0]=MR-Standard
 
@@ -1003,6 +1011,8 @@ Constraint[Next][73]=pullman-elliptical-8-wheel-parlour-first
 Constraint[Next][74]=pullman-vestibule-kitchen
 Constraint[Next][75]=none
 
+staff[2]=1
+
 liverytype[0]=MR-Standard
 
 EmptyImage[E][0]=./carriages/mr-54ft-clerestory-brake-d497-front_E.0.0
@@ -1126,6 +1136,8 @@ Constraint[Prev][71]=pullman-open-platform-kitchen
 Constraint[Prev][72]=pullman-vestibule-12-wheel-kitchen
 Constraint[Prev][73]=pullman-elliptical-8-wheel-parlour-first
 Constraint[Prev][74]=pullman-vestibule-kitchen
+
+staff[2]=1
 
 liverytype[0]=MR-Standard
 
@@ -1252,6 +1264,8 @@ Constraint[Next][73]=pullman-elliptical-8-wheel-parlour-first
 Constraint[Next][74]=pullman-vestibule-kitchen
 Constraint[Next][75]=none
 
+staff[2]=1
+
 liverytype[0]=MR-Standard
 
 EmptyImage[E][0]=./carriages/mr-54ft-clerestory-brake-composite-d519a-front_E.0.0
@@ -1375,6 +1389,8 @@ Constraint[Prev][71]=pullman-open-platform-kitchen
 Constraint[Prev][72]=pullman-vestibule-12-wheel-kitchen
 Constraint[Prev][73]=pullman-elliptical-8-wheel-parlour-first
 Constraint[Prev][74]=pullman-vestibule-kitchen
+
+staff[2]=1
 
 liverytype[0]=MR-Standard
 
@@ -1759,6 +1775,8 @@ Constraint[Prev][71]=pullman-open-platform-kitchen
 Constraint[Prev][72]=pullman-vestibule-12-wheel-kitchen
 Constraint[Prev][73]=pullman-elliptical-8-wheel-parlour-first
 Constraint[Prev][74]=pullman-vestibule-kitchen
+
+staff[3]=3
 
 liverytype[0]=MR-Standard
 

@@ -49,6 +49,8 @@ Constraint[Prev][3]=BR-Mk3-FO
 Constraint[Prev][4]=BR-Class43
 Constraint[Prev][5]=BR-Mk3-TRFB-pullman
 
+staff[3]=1
+
 liverytype[0]=BR-Blue
 liverytype[1]=IC-Executive
 liverytype[2]=GWT
@@ -225,6 +227,8 @@ Constraint[Next][12]=BR-Mk2-PFP
 Constraint[Next][13]=BR-Mk2-PFK
 Constraint[Next][14]=BR-Mk2-PFB
 Constraint[Next][15]=None
+
+staff[3]=1
 
 liverytype[0]=BR-Blue
 liverytype[1]=IC-Executive

@@ -41,6 +41,9 @@ Constraint[Prev][1]=none
 
 Constraint[Next][0]=LUL_S_Stock(Middle)
 
+driver[0]=1
+multiple_working_type=1
+
 EmptyImage[E]=./images/lul-s-stock-front.1.4
 EmptyImage[SE]=./images/lul-s-stock-front.1.5
 EmptyImage[S]=./images/lul-s-stock-front.1.6
@@ -94,6 +97,7 @@ Constraint[Next][0]=LUL_S_Stock(Middle)
 Constraint[Next][1]=LUL_S_Stock(Rear)
 
 
+
 EmptyImage[E]=./images/lul-s-stock-middle.1.4
 EmptyImage[SE]=./images/lul-s-stock-middle.1.5
 EmptyImage[S]=./images/lul-s-stock-middle.1.6
@@ -144,6 +148,9 @@ Constraint[Prev][0]=LUL_S_Stock(Middle)
 
 Constraint[Next][0]=LUL_S_Stock(Front)
 Constraint[Next][1]=none
+
+driver[0]=1
+multiple_working_type=1
 
 EmptyImage[E]=./images/lul-s-stock-rear.1.4
 EmptyImage[SE]=./images/lul-s-stock-rear.1.5

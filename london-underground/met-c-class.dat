@@ -34,6 +34,9 @@ is_tall=0
 # This only seems to have had the one livery in Metropolitan days (unconfirmed).
 # However, it was nearly identical to the SECR Q class: consider adding that.
 
+driver[0]=1
+staff[1]=1
+
 EmptyImage[E]=./images/met-c-class_E.0.0
 EmptyImage[SE]=./images/met-c-class_SE.0.0
 EmptyImage[S]=./images/met-c-class_S.0.0

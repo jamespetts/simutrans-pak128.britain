@@ -30,6 +30,9 @@ bidirectional=0
 
 Constraint[Next][0]=LMS-Hughes-Crab-Tender
 
+driver[0]=1
+staff[1]=1
+
 liverytype[0]=LMS-Standard
 liverytype[1]=WW2-Austerity
 liverytype[2]=BR-Early

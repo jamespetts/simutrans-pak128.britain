@@ -46,6 +46,9 @@ Constraint[Prev][1]=none
 
 Constraint[Next][0]=1920TubeStockAirDoorTrailer
 
+driver[0]=1
+multiple_working_type=1
+
 liverytype[0]=UERL
 liverytype[1]=LT
 
@@ -109,6 +112,10 @@ Constraint[Prev][1]=1920TubeStockAirDoorTrailer
 Constraint[Next][0]=1920TubeStockAirDoorTrailer
 Constraint[Next][1]=1920TubeStockAirDoorRear
 Constraint[Next][2]=none
+
+multiple_working_type=1
+
+driver[0]=1
 
 liverytype[0]=UERL
 liverytype[1]=LT
@@ -176,6 +183,10 @@ Constraint[Prev][0]=1920TubeStockAirDoorTrailer
 
 Constraint[Next][0]=1920TubeStockAirDoorFront
 Constraint[Next][1]=none
+
+driver[0]=1
+staff[2]=1
+multiple_working_type=1
 
 liverytype[0]=UERL
 liverytype[1]=LT

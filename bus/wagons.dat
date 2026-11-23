@@ -40,6 +40,8 @@ increase_maintenance_after_years=35
 years_before_maintenance_max_reached=30
 increase_maintenance_by_percent=275
 
+driver[5]=1
+
 EmptyImage[E]=./images/horse-wagon-empty_E.0.0,-33,14
 EmptyImage[SE]=./images/horse-wagon-empty_SE.0.0,-13,0
 EmptyImage[S]=./images/horse-wagon-empty_S.0.0,0,0
@@ -142,6 +144,8 @@ Constraint[Prev][9]=road-horse-shire-single
 
 Constraint[Next][0]=none
 
+driver[5]=1
+
 EmptyImage[E]=./images/horse-wagon-empty_E.0.0,-33,14
 EmptyImage[SE]=./images/horse-wagon-empty_SE.0.0,-13,0
 EmptyImage[S]=./images/horse-wagon-empty_S.0.0,0,0
@@ -223,6 +227,8 @@ Constraint[Prev][9]=road-horse-shire-single
 
 Constraint[Next][0]=none
 
+driver[5]=1
+
 EmptyImage[E]=./images/horse-wagon-empty_E.0.0,-33,14
 EmptyImage[SE]=./images/horse-wagon-empty_SE.0.0,-13,0
 EmptyImage[S]=./images/horse-wagon-empty_S.0.0,0,0
@@ -282,6 +288,8 @@ Constraint[Prev][8]=road-horse-irish-draught-single
 Constraint[Prev][9]=road-horse-shire-single
 
 Constraint[Next][0]=none
+
+driver[5]=1
 
 EmptyImage[E]=./images/horse-wagon-empty_E.0.0,-33,14
 EmptyImage[SE]=./images/horse-wagon-empty_SE.0.0,-13,0

@@ -34,6 +34,9 @@ bidirectional=1
 # See: http://en.wikipedia.org/wiki/SR_N15X_class
 # However, the logistics of upgrading tank to tender in Simutrans-Extended are potentially problematic.
 
+driver[0]=1
+staff[1]=1
+
 liverytype[0]=LBSCR-Marsh
 liverytype[1]=SR-Olive-Green
 

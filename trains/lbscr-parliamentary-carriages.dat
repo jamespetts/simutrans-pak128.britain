@@ -136,6 +136,8 @@ upgrade[0]=milk-van
 can_lead_from_rear=0
 bidirectional=1
 
+staff[2]=1
+
 EmptyImage[E]=./carriages/lbscr-4wheel-parliamentary-third_E.0.0
 EmptyImage[SE]=./carriages/lbscr-4wheel-parliamentary-third_SE.0.0
 EmptyImage[S]=./carriages/lbscr-4wheel-parliamentary-third_S.0.0

@@ -29,6 +29,8 @@ constraint[prev][0]=none
 min_loading_time=120
 max_loading_time=510
 
+driver[5]=1
+
 EmptyImage[E]=./images/leyland-class-f-tipper-empty_E.0.0,-33,14
 EmptyImage[SE]=./images/leyland-class-f-tipper-empty_SE.0.0,-13,0
 EmptyImage[S]=./images/leyland-class-f-tipper-empty_S.0.0,0,0
@@ -117,6 +119,8 @@ constraint[prev][0]=none
 min_loading_time=120
 max_loading_time=510
 
+driver[5]=1
+
 EmptyImage[E]=./images/leyland-class-f-flat-empty_E.0.0,-33,14
 EmptyImage[SE]=./images/leyland-class-f-flat-empty_SE.0.0,-13,0
 EmptyImage[S]=./images/leyland-class-f-flat-empty_S.0.0,0,0
@@ -175,6 +179,8 @@ constraint[prev][0]=none
 min_loading_time=120
 max_loading_time=510
 
+driver[5]=1
+
 EmptyImage[E]=./images/leyland-class-f-flat-empty_E.0.0,-33,14
 EmptyImage[SE]=./images/leyland-class-f-flat-empty_SE.0.0,-13,0
 EmptyImage[S]=./images/leyland-class-f-flat-empty_S.0.0,0,0
@@ -223,6 +229,8 @@ constraint[prev][0]=none
 min_loading_time=120
 max_loading_time=510
 
+driver[5]=1
+
 EmptyImage[E]=./images/leyland-class-f-flat-empty_E.0.0,-33,14
 EmptyImage[SE]=./images/leyland-class-f-flat-empty_SE.0.0,-13,0
 EmptyImage[S]=./images/leyland-class-f-flat-empty_S.0.0,0,0
@@ -269,6 +277,8 @@ constraint[prev][0]=none
 
 min_loading_time=120
 max_loading_time=510
+
+driver[5]=1
 
 EmptyImage[E]=./images/leyland-class-f-livestock-empty_E.0.0,-33,14
 EmptyImage[SE]=./images/leyland-class-f-livestock-empty_SE.0.0,-13,0
@@ -318,6 +328,8 @@ constraint[prev][0]=none
 
 min_loading_time=120
 max_loading_time=510
+
+driver[5]=1
 
 EmptyImage[E]=./images/leyland-class-f-tanker_E.0.0,-33,14
 EmptyImage[SE]=./images/leyland-class-f-tanker_SE.0.0,-13,0

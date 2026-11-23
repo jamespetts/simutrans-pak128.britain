@@ -30,6 +30,9 @@ years_before_maintenance_max_reached=13
 
 Constraint[Next][0]=LNER-D49-Tender
 
+driver[0]=1
+staff[1]=1
+
 liverytype[0]=LNER-Standard
 liverytype[1]=WW2-Austerity
 liverytype[2]=BR-Early
