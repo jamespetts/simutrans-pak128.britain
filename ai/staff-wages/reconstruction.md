@@ -293,6 +293,7 @@ anchors and are small relative to the measured points. `[USER-DIRECTION:2026-11-
 |---:|---:|---:|---|
 | 1909 | 101,592 | - | estimate: the 1924 scale deflated by the general index |
 | 1924 | 199,200 | - | measured: Imperial Airways scale midpoint |
+| 1938 | 254,880 | - | measured, weak: master pilot "may earn £1,500", 0.708 midpoint ratio |
 | 1930 | - | 40,200 | estimate at 0.167 of flight deck, the measured 1965 ratio |
 | 1954 | 406,800 | - | derived: National Joint Council scale midpoint |
 | 1965 | - | 140,160 | measured, secondary: BOAC entrant £584 a year |
@@ -310,6 +311,12 @@ the 1969 BOAC senior captain's rate is in Hansard, 31 March 1969, "BOAC Pilots (
 https://hansard.parliament.uk/Commons/1969-03-31/debates/1d20b5c7-3663-46a0-a442-57d39e9f609e/BoacPilots(Strike) ;
 the 1965 cabin entrant's £584 is a secondary newspaper report of a British Airways reunion,
 https://www.telegraph.co.uk/travel/news/Being-an-air-hostess-during-the-golden-age-of-flying/ .
+
+The 1938 point comes from *Wonders of World Aviation* (Amalgamated Press, 1938), which states that a
+master pilot "may earn £1,500 a year"; the 0.708 midpoint ratio used for 1954 and 1969 converts it
+to £1,062. It is a weak measured point: it implies a 41 per cent real rise from 1924 and a 35 per
+cent real fall to 1954, so it is recorded but treated cautiously.
+https://wondersofworldaviation.com/civil_flying.html
 
 The flight-deck series uses ASHE aircraft pilots and flight engineers (SOC90 331, SOC2000 and
 SOC2010 3512). The 2021-2023 years are omitted because SOC2020 3511 merges air traffic controllers

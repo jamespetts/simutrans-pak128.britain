@@ -18,15 +18,15 @@ tree, 2026-11-23]`
 
 | Pakset object | Manufacturer and type | Year | Seats | Flight deck crew | Cabin crew | Basis |
 |---|---|---:|---:|---|---:|---|
-| `zeppelin-lz6` | Luftschiffbau Zeppelin LZ 6 | 1909 | 20 | 3 (3 in the control-car watch) | 1 | F7, C1 - estimate |
-| `Zeppelin_LZ10` | Luftschiffbau Zeppelin LZ 10 Schwaben | 1911 | 20 | 3 (3 in the control-car watch) | 1 | F7, C1 - estimate |
+| `zeppelin-lz6` | Luftschiffbau Zeppelin LZ 6 | 1909 | 20 | 3 (commander, helmsman, mechanic; one watch) | 1 | F7, C1 - estimate |
+| `Zeppelin_LZ10` | Luftschiffbau Zeppelin LZ 10 Schwaben | 1911 | 20 | 3 (commander, helmsman, mechanic; one watch) | 1 | F7, C1 - estimate |
 | `HandleyPageO400` | Handley Page O/400 | 1918 | 8 | 2 (2 pilots) | 0 | F2, C0 - twin-engine |
 | `junkers-f13` | Junkers F 13 | 1920 | 4 | 2 (2 pilots) | 0 | F2, C0 - two-seat open cockpit, sourced |
 | `HandleyPageW8b` | Handley Page W.8b | 1921 | 12 | 2 (2 pilots) | 0 | F2, C0 - twin-engine |
 | `ford-trimotor` | Ford Trimotor | 1926 | 12 | 2 (2 pilots) | 0 | F2, C0 - three-engine |
 | `junkers-w34` | Junkers W 34 | 1926 | 6 | 2 (2 pilots) | 0 | F2, C0 - two-seat cockpit, same arrangement as the F 13 |
 | `lockheed-vega` | Lockheed Vega | 1928 | 6 | 1 (1 pilot) | 0 | F1, C0 - single-engine |
-| `zeppelin-lz127` | Luftschiffbau Zeppelin LZ 127 Graf Zeppelin | 1928 | 20 | 4 (4 in the control-car watch) | 1 | F7, C1 - estimate |
+| `zeppelin-lz127` | Luftschiffbau Zeppelin LZ 127 Graf Zeppelin | 1928 | 20 | 4 (watch officer, navigator, helmsman, radio officer; three watches) | 3 | F7, C2 - documented |
 | `ju-52` | Junkers Ju 52/3m | 1931 | 17 | 2 (2 pilots) | 0 | F2, C0 - three-engine |
 | `lockheed-orion` | Lockheed Model 9 Orion | 1931 | 6 | 1 (1 pilot) | 0 | F1, C0 - single-engine |
 | `boeing-247` | Boeing 247 | 1933 | 10 | 2 (2 pilots) | 1 | F2, C2 - documented crew of three including one cabin attendant |
@@ -34,7 +34,7 @@ tree, 2026-11-23]`
 | `dragon-rapide` | de Havilland DH.89 Dragon Rapide | 1934 | 8 | 1 (1 pilot) | 0 | F1, C0 - single-engine |
 | `lockheed-10-electra` | Lockheed Model 10 Electra | 1935 | 10 | 2 (2 pilots) | 0 | F2, C0 |
 | `Douglas_DC3` | Douglas DC-3 | 1936 | 21 | 2 (2 pilots) | 1 | F2, C1 - radio operator carried by some operators |
-| `zeppelin-lz-129` | Luftschiffbau Zeppelin LZ 129 Hindenburg | 1936 | 50 | 4 (4 in the control-car watch) | 1 | F7, C1 - estimate |
+| `zeppelin-lz-129` | Luftschiffbau Zeppelin LZ 129 Hindenburg | 1936 | 50 | 5 (watch officer, navigator, rudderman, elevatorman, radio officer; three watches) | 8 | F7, C2 - documented |
 | `beechcraft-18` | Beechcraft Model 18 | 1937 | 8 | 2 (2 pilots) | 0 | F2, C0 - airline operation |
 | `dh-91-albatross` | de Havilland DH.91 Albatross | 1938 | 22 | 3 (2 pilots + radio operator) | 1 | F2r, C1 - documented crew of pilot, co-pilot, radio operator and steward |
 | `Douglas_DC3A` | Douglas DC-3A | 1939 | 21 | 2 (2 pilots) | 1 | F2, C1 - radio operator carried by some operators |

@@ -8,7 +8,7 @@ verified: New ex-15 working tree, 2026-11-23
 `New/air/air192/` and `New/air/air256/`, and the declarations made in the `.dat` files.
 
 The complements are declared as `staff[10]` flight deck and `staff[11]` cabin crew. Across the 230
-objects they total 595 flight-deck persons and 440 cabin crew. See
+objects they total 596 flight-deck persons and 449 cabin crew. See
 [../crew-complements](../crew-complements.md) for the role map and
 [aircraft/register](aircraft/register.md) for the airframe table.
 
@@ -99,7 +99,12 @@ In table 1 the radio operator appears on types entering service between 1943 and
 
 ### F7: airship control-car watch
 
-Airships have no direct equivalent of an aeroplane flight deck. The figures are the control-car watch: commander or watch officer, helmsman, elevatorman and, on the two large ships, radio operator. The four airship rows are estimates; see "Gaps and estimates".
+Airships have no direct equivalent of an aeroplane flight deck. The figures are the control-car watch on duty, not the whole ship's company.
+
+- The two pre-1914 ships, LZ 6 and LZ 10, carried one watch: commander, helmsman and mechanic. These two remain estimates.
+- The two large ships carried three watches. LZ 127's watch was the watch officer, navigator, helmsman and radio officer. LZ 129's was the watch officer, navigator, rudderman, elevatorman and radio officer. The 1929 LZ 127 crew list has no elevatorman rating, so LZ 127 stays at four.
+
+The radio room was a separate compartment above the control car. If it is excluded from the flight deck, the figures are 3 and 4 rather than 4 and 5.
 
 ### C1: one cabin crew member per 50 seats, rounded up
 
@@ -199,12 +204,12 @@ Wikipedia is a secondary source. It is cited only for per-type figures that were
 
 | Row or group | Status | Assumption |
 |---|---|---|
-| `zeppelin-lz6`, `Zeppelin_LZ10`, `zeppelin-lz127`, `zeppelin-lz-129` | estimate | Airship control-car watches are not documented in a form comparable with aeroplane flight crew. 3 for the two pre-1914 ships and 4 for the two large ships assumes commander or watch officer, helmsman, elevatorman and, on the large ships, radio operator. Total crew is documented (36 for LZ 127, 40-61 for LZ 129, 13 for LZ 10) but not the watch composition. Cabin crew on these four rows is the C1 ratio, not a documented figure. |
+| `zeppelin-lz6`, `Zeppelin_LZ10`, `zeppelin-lz127`, `zeppelin-lz-129` | documented except the two pre-1914 ships | LZ 6 and LZ 10: 3 (commander, helmsman, mechanic, one watch) is an estimate. LZ 127: 4 (watch officer, navigator, helmsman, radio officer, three watches) is documented from the 1929 crew list. LZ 129: 5 (watch officer, navigator, rudderman, elevatorman, radio officer, three watches) is documented. Cabin crew: LZ 127 carries 3 and LZ 129 carries 8 from the documented complements, not the C1 ratio. |
 | `junkers-f13`, `junkers-w34` | resolved | Two. The F 13 source describes a two-seat open cockpit, and the W 34 has the same arrangement; the earlier one-pilot assumption is withdrawn. |
 | `HandleyPageO400` | estimate | Two pilots assumed for the 1918 twin-engine type. In military service the O/400 carried a crew of four or five including observer and gunners; the civil conversion is not separately documented here. |
 | `ford-trimotor` | estimate | Two pilots. Wikipedia gives a crew of three including a flight attendant; the pakset row records no cabin crew because the type is below 20 seats and the attendant was not universal. |
 | `beechcraft-18`, `lockheed-10-electra`, `aero-commander-520`, `aero-commander-681`, `king-air-200`, `twin-otter-300` | estimate | Two pilots (Beech 18, Electra 10) or one pilot (light twins) by the airline-use assumption. All are below the 22,500 lb threshold of the 1960 Order, so no legal minimum applies. |
-| `dh-comet-1` | estimate | Four assumed (two pilots, flight engineer, navigator). No crew breakdown was located for the Comet 1; the Comet 4 figure is documented. |
+| `dh-comet-1` | documented | Four: two pilots, flight engineer and navigator, from the four-place cockpit. |
 | `Boeing_707_120`, `boeing-707-420`, `douglas-dc-8-10` | estimate | Four assumed (two pilots, flight engineer, navigator). The certificated minimum was three; the navigator was a route requirement under the 1960 Order and was deleted when inertial navigation arrived in the late 1960s. An earlier radio operator would make five; that combination is recorded for the piston types, not for these. |
 | `bristol-britannia` | estimate | Four assumed. The source gives 4-7 without a breakdown. |
 | `douglas-dc-6`, `douglas-dc-6b` | estimate | Four assumed (two pilots, flight engineer, navigator or radio operator). The source gives 3 to 4. The higher figure is used because the type was operated transatlantically. |
