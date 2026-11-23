@@ -1,6 +1,6 @@
 ---
 status: draft
-verified: simutrans-extended ex-15 @ 2ec587a; New ex-15 @ e46fd294b
+verified: simutrans-extended ex-15 @ 2ec587a; New ex-15 working tree, 2026-11-23
 ---
 # Vehicle cost model
 
@@ -250,7 +250,7 @@ Deliberately, because each is charged elsewhere:
   `fixed_cost`. `[USER-DIRECTION:2026-11-16]` The engine charges crew only for a vehicle that
   declares `staff[i]` in its `.dat` file; an undeclared type is absent from the vehicle's staff
   map rather than defaulted. Only two of the 871 `.dat` files in `New/trains/` declare any staff
-  at all, so railway crew is charged nowhere in the present pakset.
+  at all, so railway crew is charged only for those two files in the present pakset.
   `[CODE New ex-15 @ 8d0603d81]`
 - **Fuel and energy.** Priced in `config/fuel.tab`, by fuel and engine type, and charged per unit
   consumed. `[USER-DIRECTION:2026-11-16]`

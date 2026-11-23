@@ -1,6 +1,6 @@
 ---
 status: draft
-verified: New ex-15 @ 33cf9b106
+verified: New ex-15 working tree, 2026-11-23
 ---
 # Cost-balancing register
 
@@ -107,7 +107,7 @@ Data-quality assessment per class: [cost-data-coverage](cost-data-coverage.md).
 | Class | Balanced | Class data | Item data | Extrapolate | Pointer |
 |---|---|---|---|---|---|
 | Fuel (`config/fuel.tab`) | no | yes (coal, oil, electricity, jet series) | n/a | n/a | [fuel-evidence](fuel-evidence.md); open M3 (steam unit question). |
-| Crew wages (`config/staff.tab`) | no | yes (1907 grades; 1956-62; ASHE modern) | n/a | n/a | [staff-wages](staff-wages.md); gaps before 1901 and 1908-1955. |
+| Crew wages (`config/staff.tab`) | no | yes (1907 grades; 1914-61 Hansard; 1946; 1956-68 Table 50; NES 1980; ASHE 1999-2026) | n/a | n/a | [staff-wages](staff-wages.md), [staff-wages/reconstruction](staff-wages/reconstruction.md) and [staff-wages/post-1980](staff-wages/post-1980.md); review workbook `New/staff-wages.xlsx`; gaps 1926-68 by grade, 1981-98. |
 | Revenue rates (fares, mail, goods) | no | yes (statutory schedules; charged-rate series) | n/a | n/a | [goods-rate-evidence](goods-rate-evidence.md); [class](class.md). |
 
 ## Cross-cutting status

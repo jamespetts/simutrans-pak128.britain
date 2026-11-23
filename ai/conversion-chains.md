@@ -1,6 +1,6 @@
 ---
 status: draft
-verified: simutrans-extended ex-15 @ 2ec587a; New ex-15 @ 29e0a6038
+verified: simutrans-extended ex-15 @ 2ec587a; New ex-15 working tree, 2026-11-23
 ---
 # Conversion chains
 
@@ -49,7 +49,7 @@ the factor, and the result is 1900 pounds.
 | Corporation tax | `prices.tab` `corporation tax` | percentage, not a price | n/a | n/a | n/a | verified |
 | Interest | `prices.tab` `base rate` plus the `simuconf.tab` margin | percentage, not a price | n/a | n/a | n/a | verified |
 | Fuel | `fuel.tab` per fuel type | **unknown** | **unknown** | no | **open** | open |
-| Staff wages | `staff.tab` per staff type | **unknown** | **unknown** | likely yes | **open** | open |
+| Staff wages | annual old pence in `staff.tab`, one value per grade | × 10/3 | revenue | yes | **0.00010416 per stored unit per month** | verified |
 
 ## The three rules this table enforces
 
@@ -62,7 +62,7 @@ the factor, and the result is 1900 pounds.
 3. **A new money field is added here before it is used.** If a category is not in the table, its
    conversion is not known, and any figure derived from it is an assumption to be labelled as one.
 
-## The two open rows
+## The open row
 
 **Fuel.** `fuel.tab` holds one series per traction type. The observed `fuel[steam]` values equal
 the pithead coal price in shillings per ton — 10 at 1913 and 29 at 1919 — while the file's own
@@ -70,11 +70,12 @@ comment says kilograms. Both cannot be right, and the engine divides fuel units 
 factor. Until it is settled, no fuel cost can be converted to pounds with confidence.
 `[CODE New ex-15 @ 29e0a6038]`
 
-**Staff.** `staff.tab` holds a monthly salary per staff type. The balance work found that the
-driver's 13,824 units a month at 1900 is £0.72 at the revenue rate and £5,479 at the capital rate,
-neither of which is a 1900 wage, so the field is on some third basis or the value is wrong. The
-1907 Board of Trade evidence is in [staff-wages](staff-wages.md); what is missing is the mapping,
-not the evidence.
+**Staff (resolved 2026-11-23).** `staff.tab` holds a monthly salary per person in Simucents. The
+series is compiled as nominal annual old pence and converted at ×10/3: 1 old penny = 80 Simucents
+at the revenue rate, divided by 12 months and by the engine's ×2 monthly factor. The previous file
+held the annual-pence values unconverted, which is why 13,824 at 1900 charged £0.72 a month at the
+revenue rate. The reconstruction, anchors and estimates are in
+[staff-wages/reconstruction](staff-wages/reconstruction.md).
 
 ## What this replaces
 
@@ -95,4 +96,5 @@ above governs:
 - Is land scaled by `meters_per_tile` at all? It is absent from `modifiable_station_buildings`, so
   the table says no, but the multipliers in town are a separate mechanism that is only partly
   verified.
-- What are the `fuel.tab` and `staff.tab` units? Both rows are open and both block a domain.
+- What are the `fuel.tab` units? That row remains open and blocks the fuel domain. The `staff.tab`
+  row is resolved.

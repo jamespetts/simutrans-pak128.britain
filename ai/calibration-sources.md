@@ -51,7 +51,7 @@ from observed values.
 | Road fuel | Petrol and diesel pump prices | DESNZ annual average road fuel prices | 1900-2026 | `fuel[petrol]`, `fuel[diesel]` |
 | Electricity | Non-domestic electricity price | DESNZ QEP table 3.4.1, excluding CCL | 1900-2026 | `fuel[electric]` |
 | Jet fuel | Jet fuel price | EUROCONTROL/IATA (Platts) | 1900-2026 | `fuel[turbine]` |
-| Wages | Average and occupational earnings | ONS AWE series a3wx; measuringworth | 1750-2026 | `staff[*]` |
+| Wages | Railway, tram and general wages | Board of Trade railway and public-utility enquiries 1906-1907; Hansard 1922, 1925, 1962, 1976 and 1980; Williamson 1982 (via Stanier's archived page); Simutrans forum topic 6521; *British Labour Statistics: Historical Abstract 1886-1968* Table 50; New Earnings Survey April 1980 (ONS adhoc 005457); ONS ASHE 4-digit occupational timeseries 1999-2016 and Table 14.7a 2017-2026 | 1710-2026 measured, projected to 2050 | `staff[*]` |
 | Corporation tax | UK main rate | GOV.UK rates and allowances | 1798-2023 | `corporation tax` |
 | Bank Rate | Bank of England policy rate | Bank of England Bank Rate history | 1750-2025 | `base rate` |
 | Building construction | Nominal price of building work | Mitchell, *British Historical Statistics* (1988) Ch VII Table 8, building costs (1930=100), 1845-1938; Holmans, *Historical Statistics of Housing in Britain*, Table M.10, construction costs (1958-60=100), 1939-1970, with 1940-1947 from Mitchell and Deane, *Abstract of British Historical Statistics* (1962) Ch IX Table 4; BIS output price index, all new construction, 1955-2013; ONS construction output price index, all new work, 2014-2026. The first two are taken from the Bank of England "A millennium of macroeconomic data" workbook, sheet A32, columns S and T. Before 1845 the 1845 real level is held and tracks the general index (backcast tested against a wage-based alternative; see [prices-config](prices-config.md)) | 1845-2026, backcast to 1750 | `buildings` |
@@ -94,6 +94,11 @@ the general index by default.
   reaches back that far. The consequence is that the pre-1980 range of that index carries
   building prices. The method, the link factors and the test that rejected the forum structure
   prices as a substitute are in [prices-infrastructure](prices-infrastructure.md).
+- `staff[*]` is compiled as nominal annual old pence and converted at **×10/3** to the engine's
+  monthly Simucents: 1 old penny = 80 Simucents at the revenue rate, divided by 12 months and by
+  the engine's ×2 monthly factor. The anchor table, the measured/derived/estimated status and the
+  remaining gaps are in [staff-wages](staff-wages.md) and
+  [staff-wages/reconstruction](staff-wages/reconstruction.md).
 
 ## Open questions
 

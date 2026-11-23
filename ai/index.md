@@ -51,7 +51,7 @@ do not use line-number references to files that change. Never edit a document's 
 - [transport-finance-1945-2026](transport-finance-1945-2026.md) — read when financing a road fleet, ship or aircraft: hire purchase, leasing, ship mortgages, aircraft finance and sector evidence.
 - [borrowing-land-transport-1750-1948](borrowing-land-transport-1750-1948.md) — read before setting a pre-1948 borrowing rate for a canal, omnibus or tramway company: the rates those companies actually paid.
 - [borrowing-docks-shipping-1750-1948](borrowing-docks-shipping-1750-1948.md) — read for a dock, shipping or general industrial benchmark rate before 1948, and for Bank Rate and bill rates.
-- [staff-wages](staff-wages.md) — read before setting or checking a crew wage in `config/staff.tab`: the published wage rates by grade and era, 1750-2026, and the gaps.
+- [staff-wages](staff-wages.md) - read before setting or checking a crew wage in `config/staff.tab`: the published wage rates by grade and era, 1750-2050, the reconstructed series, and the gaps.
 - [prices-forum-fragments](prices-forum-fragments.md) — read when a single building or structure price is needed for an era, or before setting the station, depot and platform multipliers: what the forum pricing thread supplies and what it does not.
 - [prices-goods-rate](prices-goods-rate.md) — read when building, reviewing or amending the `goods rate` series in `config/prices.tab`: the 1900 anchor, the series path by block, the method and the traps.
 - [goods-rate-evidence](goods-rate-evidence.md) — read when a historical goods freight rate figure or source is needed: the measured evidence by block, canal era to the present, with source records.

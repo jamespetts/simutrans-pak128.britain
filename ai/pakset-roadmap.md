@@ -31,6 +31,13 @@ for new engine features.
   rail or engineering repair price series is found. Method and sources:
   [prices-config](prices-config.md), [vehicle-cost-evidence](vehicle-cost-evidence.md).
   `[USER-DIRECTION:2026-11-17]`
+
+- **Building staff: open question.** `staff.tab` is charged only for vehicle crew. Signalbox and
+  control-tower staff are inside the building maintenance, not separate. Should the engine gain a
+  building staff field and a charge path, so signalboxes, airports and other buildings can carry
+  staff numbers and wages? If yes, the signaller wage series is ready; an ATC series would need
+  NATS/CAA data. Analysis: [staff-wages/reconstruction](staff-wages/reconstruction.md).
+  `[OPEN:2026-11-23]`
 - Research each cost domain to the depth of the infrastructure study before deriving balance
   implications, and only then take the balancing decisions. Infrastructure and vehicles are
   complete: [infrastructure-cost-synthesis](infrastructure-cost-synthesis.md) and

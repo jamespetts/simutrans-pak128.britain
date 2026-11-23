@@ -119,12 +119,15 @@ table.
 Arithmetic: `runningcost` 199 is per kilometre by definition; standing charges are `fixed_cost × 2` a
 month ([vehicle-cost-model](vehicle-cost-model.md)) × 12 ÷ 37,000 km; way maintenance is
 550 × 0.125 × 16 × 12 ÷ 12,410 km and station maintenance (11,800 + 2 × 2,700) × 0.125 × 12 ÷ 5 ÷
-12,410; crew is £266.72 ÷ 37,000 km at the revenue rate.
+12,410; crew is £266.72 ÷ 37,000 km at the revenue rate (1907 earnings: driver 45s 11d, fireman
+27s 5d, guard 29s 3d).
 
-**The pakset charges no crew at all.** Only two of the 871 train `.dat` files declare any `staff`, and
-an undeclared type is absent from the engine's staff map rather than defaulted.
-`[CODE New ex-15 @ 8d0603d81]` The 138.4 is the whole crew cost, not an addition. `staff.tab` would
-charge 32,052 Simucents a month for the same three men, or 10.4 a train-kilometre: 13 times too low.
+**The pakset charges crew almost nowhere.** Only two of the 871 train `.dat` files declare any
+`staff`, and an undeclared type is absent from the engine's staff map rather than defaulted.
+`[CODE New ex-15 @ 8d0603d81]` The 138.4 is the whole crew cost, not an addition. `staff.tab` now
+charges the measured 1907 rates, or 123.3 Simucents a train-kilometre (driver £104, fireman
+£61.75, guard £71.93; [staff-wages/reconstruction](staff-wages/reconstruction.md)); the remaining
+gap is coverage, not the wage level.
 
 **The timescale caveat.** Per-month charges are 76 times smaller in pounds than per-kilometre charges of
 the same engine value. Way maintenance therefore reads 0.03 per cent of receipts in engine cash but 1.5
@@ -309,10 +312,15 @@ uncertainty is the timescale of per-month charges (M2).
 3. **M3 — `fuel[steam]` unit and basis.** Pithead or delivered, and whether consumption is grammes or
    kilograms. The series equals the pithead price in shillings and the file comment says kilograms;
    both cannot be right. [fuel-evidence](fuel-evidence.md)
-4. **M4 — the staff domain.** [staff-wages](staff-wages.md) gives 1907 earnings by grade and the
-   1901-1910 averages. Open: hours per duty, wages before 1901, the complement each class requires, and
-   the re-basing of `staff.tab`, whose 13,824 Simucents a month for a driver at 1900 is neither
-   conversion of a 1900 wage.
+4. **M4 — the staff domain (resolved 2026-11-23).** `staff.tab` is now compiled as annual old
+   pence × 10/3, with seven grade series from the 1907 Board of Trade rates, the 1914-1925 Hansard
+   ranges, the 1962 Hansard standard time rates (1914, 1920, 1930, 1940, 1950, 1961), the 1946
+   grades, the New Earnings Survey of April 1980 and the ASHE medians 1999-2026. The
+   reconstruction and its estimates are in
+   [staff-wages/reconstruction](staff-wages/reconstruction.md), and the post-1980 evidence and
+   the 2026-2050 projection in [staff-wages/post-1980](staff-wages/post-1980.md). Remaining: the
+   complement each vehicle class requires, the 1926-1968 fireman/guard rates, and the 1981-1998
+   grade series.
 5. **M5 — the residual head.** Railway Returns "repairs to carriages and wagons" and the traffic-expense
    columns, divided by stock and by receipts, would separate the largest gap.
 6. **M6 — an average-mix line.** Asset counts by line class from a real company's accounts.
