@@ -36,8 +36,8 @@ Constraint[Next][8]=none
 Constraint[Prev][0]=none
 
 staff[7]=9
-staff[8]=14
-staff[9]=2
+staff[8]=12
+staff[9]=4
 
 EmptyImage[E]=../images/po-super-european-freight.1.0,-31,-46
 EmptyImage[SE]=../images/po-super-european-freight.1.1,-31,-46

@@ -42,7 +42,7 @@ Constraint[Next][7]=TTEuropeanFreightAddCar
 Constraint[Next][8]=none
 
 staff[7]=8
-staff[8]=12
+staff[8]=10
 staff[9]=2
 
 EmptyImage[E][0]=../images/tt-european.1.0,-20,-30

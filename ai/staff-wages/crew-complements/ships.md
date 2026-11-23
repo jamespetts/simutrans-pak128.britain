@@ -8,7 +8,7 @@ verified: New ex-15 working tree, 2026-11-23
 `New/boats/boats224/` and `New/boats/holds/`, and the declarations made in the `.dat` files.
 
 The complements are declared in three grades: `staff[7]` officer, `staff[8]` rating and `staff[9]`
-catering. Over the 344 objects the declarations total 643 officers, 1,534 ratings and 676 catering
+catering. Over the 344 objects the declarations total 653 officers, 1,618 ratings and 728 catering
 staff. See [../crew-complements](../crew-complements.md) for the role map and
 [ships/register](ships/register.md) for the per-hull table.
 

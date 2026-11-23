@@ -28,9 +28,9 @@ max_loading_time=10800
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
-staff[7]=6
-staff[8]=32
-staff[9]=2
+staff[7]=8
+staff[8]=45
+staff[9]=10
 
 EmptyImage[E]=../images/clan-line-steamer.1.0,-31,-46
 EmptyImage[SE]=../images/clan-line-steamer.1.1,-31,-46
@@ -68,9 +68,9 @@ max_loading_time=10800
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
-staff[7]=6
-staff[8]=32
-staff[9]=2
+staff[7]=8
+staff[8]=45
+staff[9]=10
 
 EmptyImage[E]=../images/clan-line-steamer.1.0,-31,-46
 EmptyImage[SE]=../images/clan-line-steamer.1.1,-31,-46
@@ -109,9 +109,9 @@ max_loading_time=10800
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
-staff[7]=6
-staff[8]=32
-staff[9]=2
+staff[7]=8
+staff[8]=45
+staff[9]=10
 
 EmptyImage[E]=../images/clan-line-steamer.1.0,-31,-46
 EmptyImage[SE]=../images/clan-line-steamer.1.1,-31,-46
@@ -150,9 +150,9 @@ max_loading_time=10800
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
-staff[7]=6
-staff[8]=32
-staff[9]=2
+staff[7]=8
+staff[8]=45
+staff[9]=10
 
 EmptyImage[E]=../images/clan-line-steamer.1.0,-31,-46
 EmptyImage[SE]=../images/clan-line-steamer.1.1,-31,-46
@@ -191,9 +191,9 @@ max_loading_time=10800
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
-staff[7]=6
-staff[8]=32
-staff[9]=2
+staff[7]=8
+staff[8]=45
+staff[9]=10
 
 EmptyImage[E]=../images/clan-line-steamer.1.0,-31,-46
 EmptyImage[SE]=../images/clan-line-steamer.1.1,-31,-46
@@ -233,9 +233,9 @@ max_loading_time=10800
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
-staff[7]=6
-staff[8]=32
-staff[9]=2
+staff[7]=8
+staff[8]=45
+staff[9]=10
 
 EmptyImage[E]=../images/clan-line-steamer-empty.1.0,-31,-46
 EmptyImage[SE]=../images/clan-line-steamer-empty.1.1,-31,-46
@@ -325,9 +325,9 @@ max_loading_time=10800
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
-staff[7]=6
-staff[8]=32
-staff[9]=2
+staff[7]=8
+staff[8]=45
+staff[9]=10
 
 EmptyImage[E]=../images/clan-line-steamer-empty.1.0,-31,-46
 EmptyImage[SE]=../images/clan-line-steamer-empty.1.1,-31,-46

@@ -130,6 +130,30 @@ and 1,400 passengers; *Invicta* 4,178 GRT and 1,304 passengers. The office and r
 all six are apportionments, not measured department breakdowns; the only measured British ferry
 breakdown used is *Pride of Hampshire* (MAIB 1994), 12 deck, 16 engine and 57 hotel staff.
 
+### Ocean, tug and river crews added 2026-11-23
+
+| Key | URL | What it supports |
+|---|---|---|
+| G02 | http://thamestugs.co.uk/EARLY-OWNERS.php | Sandford, *Reminiscences of Thames Tugs 1875-1880*: captain, engineer, 1st and 2nd mate, 2 firemen and boy; the `IronSteamTug` peer |
+| G04 | https://www.thewhitbyguide.co.uk/whitby-through-the-lens-paddle-steam-tug-sinks-in-whitby-harbour-1872/ | Paddle tug *Contest* 1856: captain, engineer, 1st and 2nd mates, two firemen, deckhand/cook; the `WoodenPaddleTug` peer |
+| G05 | https://www.thesteamboattrust.co.uk/portwey/project-one-ephnc-ghba6 | *Portwey* 1927: watch of five, crew of eight; the `DieselTug` peer |
+| G07 | https://www.canaljunction.com/heritage/craft/yorkshire.htm | Aire and Calder one-man push tugs, about 500 tons each; the `BantamPusher` peer |
+| G08 | https://www.marinersandships.com.au/1912/12/164cla.htm | *Clan Lamont*, 3,594 GRT, 1912: 63 named crew with stations; the `ClanLineSteamer` class figure |
+| G11 | https://assets.publishing.service.gov.uk/media/547c719e40f0b60241000145/octogon_3.pdf | MAIB, *Octogon 3* 1998: 9,983 gt, 25 crew with the department split |
+| G12 | https://assets.publishing.service.gov.uk/media/547c700b40f0b6024100006f/RiverdanceReport.pdf | MAIB 18/2009, *Riverdance*: 6,041 gt, 19 crew |
+| G15 | https://assets.publishing.service.gov.uk/media/5ee08229e90e07141fd1a990/2020-10-SeatruckProgress.pdf | MAIB 10/2020, *Seatruck Progress*: 22 crew |
+| G19 | https://electricscotland.com/history/articles/clydesteamers.pdf | Williamson, *The Clyde Passenger Steamers* (1904): 13 all told in the 1820s, 16 for the smaller 1904 classes |
+| G21 | https://www.nationalhistoricships.org.uk/register/495/ts-queen-mary | *Queen Mary*: certificate for 2,086 passengers |
+| G23 | https://en.wikipedia.org/wiki/TS_King_Edward | *King Edward*: certificate for 1,966 passengers |
+| G24 | https://assets.publishing.service.gov.uk/media/591ee154e5274a5e51000062/MAIBInvReport11_2017.pdf | MAIB 11/2017, *Royal Iris of the Mersey*: 9 crew, master, mate, engineer, 2 deckhands, 4 service staff |
+| G26 | https://assets.publishing.service.gov.uk/media/547c6f76ed915d4c0d000033/MoonClipper.pdf | MAIB 21/2012, *Moon Clipper*: manning 3, master, mate and CSA |
+| G28 | https://www.maritimejournal.com/news/accessories-equipment/in-house-training-for-river-bus-bml-masters/ | Thames river bus: three crew on larger vessels, two on smaller, plus bar tender |
+
+**Clan Line wage caveat.** The 63 is the measured lascar crew of *Clan Lamont*. The pakset pays
+ratings at the British series, so a Clan Line ship's crew cost is overstated. That is a wage-grade
+gap, not a complement error; a separate lascar or Indian rating grade would resolve it. The seven
+cargo variants each carry the full 63.
+
 ### Data and design gaps
 
 - **Duplicated power in cargo variants.** Twelve files give every cargo fit the same `power`

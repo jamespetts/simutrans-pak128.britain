@@ -72,8 +72,8 @@ Constraint[Next][4]=TugBargeCool
 Constraint[Next][5]=TugBargeOil
 Constraint[Next][6]=none
 
-staff[7]=3
-staff[8]=4
+staff[7]=4
+staff[8]=3
 
 EmptyImage[E]=./images/iron-steam-tug.1.0,10,5
 EmptyImage[SE]=./images/iron-steam-tug.1.1,0,7
