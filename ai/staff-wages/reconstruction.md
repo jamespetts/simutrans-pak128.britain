@@ -285,6 +285,10 @@ ratings are NES Table 86, page D 86.9, in ONS adhoc 005457, the "seafarers (merc
 lighter and boat operatives" row; the 1999-2026 values are ASHE, as in
 [post-1980](post-1980.md) section 2a.
 
+The remaining sea gaps — no able-seaman rate for 1961-1966 or 1981-1989 and no officer earnings for
+1990-1992 — are accepted and left to the engine's linear interpolation. They sit between measured
+anchors and are small relative to the measured points. `[USER-DIRECTION:2026-11-23]`
+
 | Year | Flight deck (10) | Cabin (11) | Status |
 |---:|---:|---:|---|
 | 1909 | 101,592 | - | estimate: the 1924 scale deflated by the general index |

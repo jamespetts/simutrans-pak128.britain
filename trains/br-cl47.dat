@@ -34,6 +34,7 @@ upgrade[0]=BR-Class57
 # Green circle
 Constraint[Prev][0]=BR-Class47
 Constraint[Prev][1]=none
+multiple_working_type=1
 
 driver[0]=1
 

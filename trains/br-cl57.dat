@@ -32,6 +32,7 @@ available_only_as_upgrade=1
 # Within type only
 Constraint[Prev][0]=BR-Class57
 Constraint[Prev][1]=none
+multiple_working_type=74
 
 driver[0]=1
 

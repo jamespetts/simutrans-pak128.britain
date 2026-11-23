@@ -146,7 +146,8 @@ and its estimated points are listed in [staff-wages/reconstruction](staff-wages/
    gross earnings, NES 1990/1992 and ASHE from 1999; the officer has the 1937 masters' minimum and
    McConville's 1973-1980 earnings, with 1967 and 1970 derived and 1.90 × the rating before that;
    catering has one measured shipboard rate (1928). No AB rate was found for 1961-1966 or
-   1981-1989, and no officer earnings for 1990-1992.
+   1981-1989, and no officer earnings for 1990-1992; these are accepted and left to interpolation.
+   `[USER-DIRECTION:2026-11-23]`
 6. **Air, 1909-1923, 1925-1953, 1955-1968 and 1970-1998.** The air grades were added on 2026-11-23
    with measured anchors at 1924, 1954 and 1969 and ASHE from 1999. The gaps are filled by
    interpolation; the 1969-1999 gap carries a derived 1980 point.
