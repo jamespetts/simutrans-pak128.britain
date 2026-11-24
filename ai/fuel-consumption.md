@@ -119,8 +119,8 @@ What is not done:
   [fuel/steam](fuel/steam.md#range) for what it does and does not represent.
 - Marine bunker fuel has no price series of its own; ships buy road diesel.
 - The steam tram engines have their own evidence base and their own document, [fuel/steam-tram](fuel/steam-tram.md).
-  Their coal and their `power` are both re-based on the tramway companies' coal accounts and on the
-  class duty ratings; their fuel is still priced as coal although the companies mostly issued coke.
+  Their coal, their `power` and their range are all re-based on evidence; their fuel is still priced as
+  coal although the companies mostly issued coke.
 
 ## Open questions
 

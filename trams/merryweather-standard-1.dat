@@ -12,6 +12,9 @@ power=11
 # Kinnear Clark, Tramways (1894), company coal accounts; see New/ai/fuel/steam-tram.md.
 fuel_per_km=1600
 calibration_speed=12
+# Coal space: rear bunker, about 0.97 cubic metres for a three-unit body, 470 kg/m3 of lump coke.
+# Capacity 275 kg gives a coal range of 172 km at 1600 g/km. See New/ai/fuel/steam-tram.md.
+range=172
 tractive_effort=6
 copyright=jamespetts
 intro_year=1875

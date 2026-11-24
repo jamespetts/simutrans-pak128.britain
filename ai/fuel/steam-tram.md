@@ -145,6 +145,43 @@ per cent, which is what a saturated boiler reaches at full firing where its effi
 What it changes in play is acceleration. A 20 kW engine with a 5-ton car accelerates at about
 0.35 m/s² at line speed against 0.05 before, so the trams can now keep to a timetable at all.
 
+## Coal space and range
+
+No source gives a tram engine's coal capacity, but it can be bounded from photographs of surviving
+engines, because the coal sits in the rear compartment of the body behind the driver and the body is a
+plain box of known width. Three are useful:
+
+- Kitson No. 7 of the Christchurch Tramways, preserved at Ferrymead, seen from the side and in
+  service. `[LITERATURE:https://commons.wikimedia.org/wiki/File:Kitson_no._7.JPG]`
+- The Beyer Peacock "John Bull", which is the Wilkinson type, photographed under restoration at Crich
+  in 1981 with the bodywork stripped, so that the open-topped bunker box behind the cab is visible.
+  `[LITERATURE:https://commons.wikimedia.org/wiki/File:Steam_tram_%27John_Bull%27_under_restoration,_1981_(geograph_6539704).jpg]`
+- A Baldwin-pattern Sydney motor in the Crich exhibition hall, showing the rear platform and the
+  raised bunker lid. `[LITERATURE:https://commons.wikimedia.org/wiki/File:The_Great_Exhibition_Hall_-_Century_of_Trams_Exhibition_-_National_Tramway_Museum_-_Crich_-_Steam_Tram_Engine_-_New_South_Wales_Government_(47)_(15207523009).jpg]`
+
+The body is about 2.1 m wide over the frame, and the coal space behind the driver about 0.9 m long,
+1.7 m wide inside and 0.6 m deep. That is 0.92 m³; trimmed to nine tenths for the untrimmed corners,
+0.83 m³. Two-unit bodies take two thirds of that.
+
+The engines burned **coke**, whose bulk density is 0.45 to 0.51 t/m³ for average lump, against 0.75
+to 1.0 for coal. `[LITERATURE:https://www.vibrascrew.com/bulk-materials-density-guide/]` At 0.47
+t/m³ the three-unit bunker holds about 390 kg; 410 kg is taken, and 275 kg for the two-unit
+Merryweather.
+
+| Object | Capacity, kg | `fuel_per_km` | Range, km |
+|---|---:|---:|---:|
+| `merryweather-standard-1` | 275 | 1600 | 172 |
+| `merryweather-standard-2` | 410 | 1650 | 248 |
+| `wilkinson-engine` | 410 | 1780 | 230 |
+| `kitson-standard-1` | 410 | 2200 | 186 |
+| `kitson-standard-2` | 410 | 2800 | 146 |
+| `kitson-standard-3` | 410 | 3100 | 132 |
+
+The ranges are 130 to 250 km, comfortably more than a day's work on a town tramway, which is what
+matters: these engines filled up at the depot between shifts and never ran out in service. The
+estimate is uncertain by perhaps ±40 per cent, because the depth of the bunker is inferred rather
+than measured and the compartment also contains the tank and the framing.
+
 ## What the change to the coal did
 
 The previous coal figures were only 0 to 50 per cent low, not ten times wrong, because the change of
@@ -171,3 +208,6 @@ because the price series is owned by [fuel-evidence](../fuel-evidence.md).
   same applies to the early coke-burning railways.
 - The weight scaling assumes one car. A pakset player may run two, and the engine is then charged for
   one; the engine's own weight-based physics partly compensates but does not model the extra coal.
+- The coal space is inferred from photographs, not measured, and the depth of the bunker in
+  particular. A measured capacity from a preserved engine — the Kitson at Ferrymead or "John Bull" at
+  Crich — would replace the estimate.
