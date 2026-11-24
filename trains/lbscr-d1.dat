@@ -8,6 +8,10 @@ power=181
 # Tractive effort taken from:
 # http://www.semgonline.com/steam/d1%28lbsc%29_class_dat.html
 # (Wikipedia seemed unreliable on this locomotive)
+# Fuel: 9000 g of Welsh steam coal per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LBSCR D1 Class.
+fuel_per_km=9000
+calibration_speed=105
 tractive_effort=60
 copyright=Kieron/JamesPetts
 intro_year=1873

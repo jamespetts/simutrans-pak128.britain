@@ -7,6 +7,10 @@ speed=55
 power=34
 # Calculated from values from http://www.festipedia.org.uk/wiki/Taliesin_III 
 # with the 135lb boiler pressure specified at http://www.festipedia.org.uk/wiki/Taliesin
+# Fuel: 6480 g of Welsh steam coal per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for FR Single Fairlie.
+fuel_per_km=6480
+calibration_speed=55
 tractive_effort=17
 copyright=James/jamespetts
 # http://www.festipedia.org.uk/wiki/Taliesin

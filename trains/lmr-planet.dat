@@ -15,6 +15,10 @@ speed=59
 power=18
 # Tractive effort value calculated from data from Ahrons (p. 19)
 # Loss factor set to 0.5, pressure assumed to be 50lb
+# Fuel: 6100 g of coke per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LMR Planet.
+fuel_per_km=6100
+calibration_speed=59
 tractive_effort=4
 copyright=Kieron
 intro_year=1830

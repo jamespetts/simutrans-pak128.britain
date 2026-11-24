@@ -4,6 +4,9 @@ engine_type=diesel
 smoke=Diesel-light
 speed=120
 power=2750
+# Fuel: 4549 mL per km at 120 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=4549
+calibration_speed=120
 tractive_effort=534
 gear=50
 copyright=James

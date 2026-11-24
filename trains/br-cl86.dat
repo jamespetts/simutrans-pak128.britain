@@ -4,6 +4,9 @@ engine_type=electric
 speed=160
 gear=80
 power=3010
+# Fuel: 14471 Wh per km at 160 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=14471
+calibration_speed=160
 tractive_effort=267
 copyright=Kieron/Rollmaterial
 intro_year=1965

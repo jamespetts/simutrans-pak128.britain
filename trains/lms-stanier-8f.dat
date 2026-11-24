@@ -5,6 +5,10 @@ smoke=Steam
 speed=90
 # Extrapolated
 power=437
+# Fuel: 18420 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LMS Stanier 8F; coal range at full bunker about 494 km.
+fuel_per_km=18420
+calibration_speed=90
 tractive_effort=144
 copyright=Kieron
 intro_year=1935

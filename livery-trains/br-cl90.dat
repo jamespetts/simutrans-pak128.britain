@@ -4,6 +4,9 @@ engine_type=electric
 speed=175
 gear=130
 power=5860
+# Fuel: 16396 Wh per km at 175 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=16396
+calibration_speed=175
 copyright=Kieron
 intro_year=1987
 intro_month=1
@@ -38,6 +41,9 @@ engine_type=electric
 speed=175
 gear=130
 power=5860
+# Fuel: 16396 Wh per km at 175 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=16396
+calibration_speed=175
 copyright=Kieron
 intro_year=1987
 intro_month=1

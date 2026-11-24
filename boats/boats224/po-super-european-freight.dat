@@ -7,6 +7,9 @@ smoke=Diesel
 sound=ship-horn_a.wav
 speed=40
 power=27000
+# Fuel: 96629 mL per km at 40 km/h. Basis and sources: New/ai/fuel/water.md
+fuel_per_km=96629
+calibration_speed=40
 weight=13000
 length=14
 cost=91000000

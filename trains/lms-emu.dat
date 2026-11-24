@@ -141,6 +141,9 @@ name=LMS-EMU-driving-motor
 engine_type=electric
 speed=110
 power=792
+# Fuel: 5539 Wh per km at 110 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=5539
+calibration_speed=110
 tractive_effort=62
 gear=80
 copyright=Kieron/JamesPetts/Junna

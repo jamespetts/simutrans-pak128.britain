@@ -13,6 +13,9 @@ speed=70
 # TL11 engine (turbocharged)
 # http://middx.net/aec/board/viewtopic.php?f=1&t=403
 power=194
+# Fuel: 340 mL per km at 70 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=340
+calibration_speed=70
 tractive_effort=30
 gear=50
 weight=9.7
@@ -113,6 +116,9 @@ speed=70
 # TL11 engine (turbocharged)
 # http://middx.net/aec/board/viewtopic.php?f=1&t=403
 power=194
+# Fuel: 340 mL per km at 70 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=340
+calibration_speed=70
 tractive_effort=30
 gear=50
 weight=9.7

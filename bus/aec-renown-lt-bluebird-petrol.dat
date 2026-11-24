@@ -11,6 +11,9 @@ overcrowded_capacity=5
 speed=50
 # Assuming to be the same as the AEC STL, into which these engines were fitted later in life.
 power=62
+# Fuel: 435 mL per km at 50 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=435
+calibration_speed=50
 tractive_effort=7
 gear=50
 # Guessed

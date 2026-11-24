@@ -7,6 +7,10 @@ speed=96
 # Extrapolated
 power=220
 # https://en.wikipedia.org/wiki/GWR_5400_Class
+# Fuel: 10650 g of Welsh steam coal per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for GWR 5400 Class; coal range at full bunker about 282 km.
+fuel_per_km=10650
+calibration_speed=96
 tractive_effort=66
 copyright=Kieron/JamesPetts
 intro_year=1930

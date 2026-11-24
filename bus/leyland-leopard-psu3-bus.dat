@@ -13,6 +13,9 @@ overcrowded_capacity=5
 # Leyland O.600 engine
 speed=72
 power=104
+# Fuel: 280 mL per km at 72 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=280
+calibration_speed=72
 tractive_effort=13
 gear=50
 # 11 1/4 tons: https://en.wikipedia.org/wiki/Leyland_Leopard

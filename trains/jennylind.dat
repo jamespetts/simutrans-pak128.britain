@@ -8,6 +8,10 @@ speed=105
 # Adjusted for a 1/330 falling gradient (-8Kw). 
 power=98
 # Taken from: http://en.wikipedia.org/wiki/Jenny_Lind_locomotive
+# Fuel: 7830 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LBSC Jenny Lind.
+fuel_per_km=7830
+calibration_speed=105
 tractive_effort=28
 copyright=James
 intro_year=1847

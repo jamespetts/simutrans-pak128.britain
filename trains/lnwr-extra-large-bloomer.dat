@@ -6,6 +6,10 @@ speed=115
 tractive_effort=35
 # Extrapolated
 power=197
+# Fuel: 17280 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LNWR Extra Large Bloomer.
+fuel_per_km=17280
+calibration_speed=115
 copyright=James/JamesPetts
 intro_year=1852
 intro_month=7

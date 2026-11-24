@@ -7,6 +7,9 @@ smoke=Diesel-light
 sound=hovercraft.wav
 speed=110
 power=11350
+# Fuel: 41328 mL per km at 110 km/h. Basis and sources: New/ai/fuel/water.md
+fuel_per_km=41328
+calibration_speed=110
 freight=Passagiere
 payload[0]=0
 payload[1]=0

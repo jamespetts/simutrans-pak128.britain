@@ -10,6 +10,9 @@ overcrowded_capacity=3
 speed=32
 # Assume 38hp: this source regards that as the "standard" Guy engine: http://historywebsite.co.uk/Museum/Transport/Buses/Guy/guy6w.htm
 power=30
+# Fuel: 510 mL per km at 32 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=510
+calibration_speed=32
 tractive_effort=4
 gear=50
 # Guessed

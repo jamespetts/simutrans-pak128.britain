@@ -14,6 +14,9 @@ speed=50
 # and http://www.classicbuses.co.uk/T.html showing the power rating of this
 # engine.
 power=70
+# Fuel: 250 mL per km at 50 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=250
+calibration_speed=50
 tractive_effort=9
 gear=50
 # Townsin p. 63 - 6cwt heavier than the COG5

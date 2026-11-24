@@ -10,6 +10,9 @@ payload=76
 overcrowded_capacity=14
 speed=64
 power=132
+# Fuel: 1700 Wh per km at 64 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=1700
+calibration_speed=64
 tractive_effort=70
 gear=80
 weight=10.4

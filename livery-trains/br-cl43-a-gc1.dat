@@ -5,6 +5,9 @@ smoke=Diesel
 speed=200
 gear=370
 power=2010
+# Fuel: 1836 mL per km at 200 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=1836
+calibration_speed=200
 copyright=Kieron
 intro_year=1976
 intro_month=1
@@ -49,6 +52,9 @@ smoke=Diesel
 speed=200
 gear=370
 power=2010
+# Fuel: 1836 mL per km at 200 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=1836
+calibration_speed=200
 copyright=Kieron
 intro_year=1976
 intro_month=1

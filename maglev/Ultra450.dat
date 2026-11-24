@@ -3,6 +3,9 @@ name=BR-Ultra-450(front)
 engine_type=hydrogene
 speed=430
 power=3400
+# Fuel: 11163 Wh per km at 430 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=11163
+calibration_speed=430
 gear=90
 tractive_effort=150
 copyright=AEO
@@ -51,6 +54,9 @@ name=BR-Ultra-450(Open)
 engine_type=hydrogene
 speed=430
 power=3400
+# Fuel: 11163 Wh per km at 430 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=11163
+calibration_speed=430
 gear=90
 tractive_effort=150
 copyright=AEO
@@ -100,6 +106,9 @@ name=BR-Ultra-450(Buffet)
 engine_type=hydrogene
 speed=430
 power=3400
+# Fuel: 11163 Wh per km at 430 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=11163
+calibration_speed=430
 gear=90
 tractive_effort=150
 copyright=AEO
@@ -150,6 +159,9 @@ name=BR-Ultra-450(rear)
 engine_type=hydrogene
 speed=430
 power=3400
+# Fuel: 11163 Wh per km at 430 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=11163
+calibration_speed=430
 gear=90
 tractive_effort=150
 copyright=AEO

@@ -4,6 +4,9 @@ engine_type=diesel
 smoke=Diesel-heavy
 speed=120
 power=895
+# Fuel: 1731 mL per km at 120 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=1731
+calibration_speed=120
 gear=50
 tractive_effort=222
 copyright=Junna/Cake
@@ -71,6 +74,9 @@ engine_type=diesel
 smoke=Diesel
 speed=120
 power=1230
+# Fuel: 2379 mL per km at 120 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=2379
+calibration_speed=120
 gear=50
 tractive_effort=275
 copyright=Junna/Cake

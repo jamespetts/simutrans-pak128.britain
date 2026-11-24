@@ -10,6 +10,10 @@ speed=80
 power=37
 # Calculated from data from Ahrons, pp. 22-4
 # Loss factor set at 0.5
+# Fuel: 7420 g of coke per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LMR Patentee.
+fuel_per_km=7420
+calibration_speed=80
 tractive_effort=5
 copyright=James
 intro_year=1833

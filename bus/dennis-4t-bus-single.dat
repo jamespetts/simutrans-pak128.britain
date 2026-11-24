@@ -13,6 +13,9 @@ overcrowded_capacity=3
 speed=20
 # Guessed to be the same as the double deck 4t bus - but uncertain
 power=34
+# Fuel: 430 mL per km at 20 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=430
+calibration_speed=20
 tractive_effort=6
 gear=50
 # Guessed

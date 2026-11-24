@@ -7,6 +7,9 @@ waytype=air
 engine_type=petrol
 speed=418
 power=3916
+# Fuel: 1940 mL per km at 418 km/h (M: Airspeed Ambassador, 2x Centaurus). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=1940
+calibration_speed=418
 tractive_effort=15
 #gear=1
 freight=Passagiere

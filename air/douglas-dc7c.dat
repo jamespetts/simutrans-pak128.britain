@@ -8,6 +8,9 @@ waytype=air
 engine_type=petrol
 speed=555
 power=10144
+# Fuel: 3571 mL per km at 555 km/h (M: DC-7C, 4x3,400 hp, long-span wing). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=3571
+calibration_speed=555
 tractive_effort=73
 freight=Passagiere
 payload[0]=0
@@ -68,6 +71,9 @@ waytype=air
 engine_type=petrol
 speed=555
 power=10144
+# Fuel: 3571 mL per km at 555 km/h (M: DC-7C, 4x3,400 hp, long-span wing). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=3571
+calibration_speed=555
 tractive_effort=73
 freight=Passagiere
 payload[0]=0

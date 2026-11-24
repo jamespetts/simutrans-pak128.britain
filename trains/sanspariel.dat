@@ -6,6 +6,10 @@ engine_type=steam
 smoke=Steam
 speed=30
 power=19
+# Fuel: 12000 g of coke per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for Sanspariel.
+fuel_per_km=12000
+calibration_speed=30
 tractive_effort=4
 copyright=Kieron/JamesPetts
 intro_year=1829

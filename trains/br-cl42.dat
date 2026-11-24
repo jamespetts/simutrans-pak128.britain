@@ -5,6 +5,9 @@ smoke=Diesel-heavy
 # Gearing did not well restrict speed, exceeded 100mph numerous times, restricted later to 90mph due to track wear
 speed=145
 power=1692
+# Fuel: 2708 mL per km at 145 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=2708
+calibration_speed=145
 gear=50
 tractive_effort=214
 copyright=Junna/Cake

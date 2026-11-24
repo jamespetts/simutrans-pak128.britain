@@ -17,6 +17,9 @@ speed=50
 # It requires multiplying by approx. 1.3: see: http://www.austin7.org/Other%20Articles/RAC%20HP%20Rating/
 power=40
 # Reduced as assumed to be geard for higher top speed
+# Fuel: 435 mL per km at 50 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=435
+calibration_speed=50
 tractive_effort=3
 gear=50
 # Guessed

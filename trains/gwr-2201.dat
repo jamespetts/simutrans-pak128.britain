@@ -10,6 +10,10 @@ speed=128
 # The information for those boilers can be found here: http://www.gwr.org.uk/no-boilers.html
 power=203
 # Calculated from data given at Ahrons p. 266 with a loss factor of 0.77
+# Fuel: 7740 g of Welsh steam coal per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for GWR 2201 Class; coal range at full bunker about 426 km.
+fuel_per_km=7740
+calibration_speed=128
 tractive_effort=44
 copyright=James/JamesPetts
 intro_year=1881

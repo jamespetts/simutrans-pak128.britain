@@ -12,6 +12,9 @@ payload=11
 engine_type=diesel
 smoke=Diesel-light
 power=45
+# Fuel: 110 mL per km at 96 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=110
+calibration_speed=96
 tractive_effort=12
 gear=50
 speed=96
@@ -57,6 +60,9 @@ payload=11
 engine_type=diesel
 smoke=Diesel-light
 power=45
+# Fuel: 110 mL per km at 96 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=110
+calibration_speed=96
 tractive_effort=12
 gear=50
 speed=96
@@ -100,6 +106,9 @@ payload=280
 engine_type=diesel
 smoke=Diesel-light
 power=45
+# Fuel: 110 mL per km at 96 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=110
+calibration_speed=96
 tractive_effort=12
 gear=50
 speed=96

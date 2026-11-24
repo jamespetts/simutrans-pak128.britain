@@ -7,6 +7,9 @@ smoke=Steam
 sound=ship-horn_b.wav
 speed=15
 power=55
+# Fuel: 2419 g per km at 15 km/h. Basis and sources: New/ai/fuel/water.md
+fuel_per_km=2419
+calibration_speed=15
 freight=Passagiere
 payload[0]=0
 payload[1]=40

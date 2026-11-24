@@ -10,6 +10,10 @@ speed=56
 power=34
 # Tractive effort value calculated from data from the above source
 # Loss factor set to 0.5
+# Fuel: 7490 g of coke per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for Bury bar frame goods engine.
+fuel_per_km=7490
+calibration_speed=56
 tractive_effort=5
 copyright=Kieron/JamesPetts
 intro_year=1837

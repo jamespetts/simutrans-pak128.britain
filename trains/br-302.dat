@@ -99,6 +99,9 @@ name=BR-302(centre1)
 engine_type=electric
 speed=120
 power=565
+# Fuel: 3622 Wh per km at 120 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=3622
+calibration_speed=120
 gear=80
 tractive_effort=65
 copyright=Junna/Cake

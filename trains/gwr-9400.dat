@@ -5,6 +5,10 @@ smoke=Steam
 speed=95
 # Extrapolated
 power=274
+# Fuel: 12450 g of Welsh steam coal per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for GWR 9400 class.
+fuel_per_km=12450
+calibration_speed=95
 tractive_effort=100
 copyright=JamesPetts
 intro_year=1947

@@ -5,6 +5,9 @@ waytype=air
 engine_type=turbine
 speed=775
 power=22500
+# Fuel: 3033 mL per km at 775 km/h (M: ALF502R-5, cruise SFC 0.72). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=3033
+calibration_speed=775
 tractive_effort=125
 #gear=1
 freight=Passagiere

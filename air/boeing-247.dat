@@ -8,6 +8,9 @@ waytype=air
 engine_type=petrol
 speed=304
 power=738
+# Fuel: 722 mL per km at 304 km/h (M: Boeing 247, 2x550 hp Wasp). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=722
+calibration_speed=304
 tractive_effort=7
 freight=Passagiere
 payload[0]=0
@@ -68,6 +71,9 @@ waytype=air
 engine_type=petrol
 speed=304
 power=738
+# Fuel: 722 mL per km at 304 km/h (M: Boeing 247, 2x550 hp Wasp). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=722
+calibration_speed=304
 tractive_effort=7
 freight=Post
 # Payload: 1750kg

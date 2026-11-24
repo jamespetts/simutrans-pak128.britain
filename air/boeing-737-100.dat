@@ -10,6 +10,9 @@ engine_type=turbine
 # LRC (TAS)
 speed=778
 power=22320
+# Fuel: 3600 mL per km at 778 km/h (E: 737-100, 3.20 kg/km at 939 km, x0.90, /0.80; anchored on ). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=3600
+calibration_speed=778
 tractive_effort=124
 #gear=1
 freight=Passagiere
@@ -72,6 +75,9 @@ engine_type=turbine
 # LRC (TAS)
 speed=778
 power=22320
+# Fuel: 3600 mL per km at 778 km/h (E: 737-100, 3.20 kg/km at 939 km, x0.90, /0.80; anchored on ). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=3600
+calibration_speed=778
 tractive_effort=124
 #gear=1
 freight=Passagiere

@@ -5,6 +5,10 @@ smoke=Steam
 speed=160
 # Extrapolated
 power=649
+# Fuel: 19600 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for SR Merchant Navy Class; coal range at full bunker about 260 km.
+fuel_per_km=19600
+calibration_speed=160
 tractive_effort=167
 copyright=Kieron/jamespetts
 intro_year=1941

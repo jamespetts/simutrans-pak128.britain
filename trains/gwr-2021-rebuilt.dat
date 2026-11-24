@@ -10,6 +10,10 @@ speed=85
 power=203
 # Calculated using data from: https://en.wikipedia.org/wiki/GWR_2021_Class
 # assuming boiler pressure of 150psi and loss factor of 0.8.
+# Fuel: 11320 g of Welsh steam coal per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for GWR 2021 Class (rebuilt); coal range at full bunker about 247 km.
+fuel_per_km=11320
+calibration_speed=85
 tractive_effort=72
 copyright=Kieron/JamesPetts
 intro_year=1910

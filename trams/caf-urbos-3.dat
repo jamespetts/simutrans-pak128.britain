@@ -18,6 +18,9 @@ name=CAF-Urbos-3-front
 engine_type=electric
 speed=70
 power=320
+# Fuel: 5195 Wh per km at 70 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=5195
+calibration_speed=70
 gear=80
 tractive_effort=29
 copyright=James/jamespetts
@@ -207,6 +210,9 @@ name=CAF-Urbos-3-rear
 engine_type=electric
 speed=70
 power=320
+# Fuel: 5195 Wh per km at 70 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=5195
+calibration_speed=70
 gear=80
 tractive_effort=29
 copyright=James/jamespetts

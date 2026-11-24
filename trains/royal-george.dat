@@ -8,6 +8,10 @@ smoke=Steam
 speed=20
 # Extrapolated
 power=11
+# Fuel: 10080 g of coke per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for SDR Royal George.
+fuel_per_km=10080
+calibration_speed=20
 tractive_effort=6
 copyright=Kieron/JamesPetts
 intro_year=1827

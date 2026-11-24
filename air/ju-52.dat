@@ -7,6 +7,9 @@ waytype=air
 engine_type=petrol
 speed=222
 power=1286
+# Fuel: 1324 mL per km at 222 km/h (M: Ju 52/3m, 3x660 hp; capacity/range check 2,450 L / 1,300 ). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=1324
+calibration_speed=222
 tractive_effort=15
 freight=Passagiere
 # 2,350kg

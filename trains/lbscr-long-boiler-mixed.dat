@@ -8,6 +8,10 @@ power=144
 # Tractive effort calculated using data from 
 # http://www.steamindex.com/locotype/lbscrloc.htm
 # (These data are incomplete, partly guessed)
+# Fuel: 10790 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LBSCR Long boiler mixed.
+fuel_per_km=10790
+calibration_speed=85
 tractive_effort=35
 copyright=Kieron/JamesPetts
 intro_year=1855

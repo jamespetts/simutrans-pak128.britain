@@ -9,6 +9,9 @@ freight=Passagiere
 payload[0]=21
 # 12hp (Baldwin, p. 8)
 power=9
+# Fuel: 245 mL per km at 20 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=245
+calibration_speed=20
 tractive_effort=2
 gear=50
 speed=20

@@ -8,6 +8,10 @@ speed=142
 # Extrapolated
 power=259
 # Tractive effort from Wikipedia: http://en.wikipedia.org/wiki/LNWR_Alfred_the_Great_Class
+# Fuel: 9680 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LNWR Alfred the Great.
+fuel_per_km=9680
+calibration_speed=142
 tractive_effort=136
 copyright=James/jamespetts
 intro_year=1901

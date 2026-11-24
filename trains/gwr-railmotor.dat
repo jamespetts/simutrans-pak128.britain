@@ -10,6 +10,10 @@ smoke=Steam
 power=130
 # Calculated from data given here: https://www.rmweb.co.uk/community/index.php?/topic/150503-gwr-railmotors-grate-area/&tab=comments#comment-3789872
 # Loss factor given of 0.8
+# Fuel: 5290 g of Welsh steam coal per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for GWR railmotor; coal range at full bunker about 144 km.
+fuel_per_km=5290
+calibration_speed=90
 tractive_effort=61
 speed=90
 copyright=JamesPetts

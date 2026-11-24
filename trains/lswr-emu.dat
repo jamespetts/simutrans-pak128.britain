@@ -3,6 +3,9 @@ name=LSWR-EMU(front)
 engine_type=electric
 speed=97
 power=402
+# Fuel: 3108 Wh per km at 97 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=3108
+calibration_speed=97
 gear=80
 tractive_effort=35
 copyright=Kieron/JamesPetts
@@ -232,6 +235,9 @@ name=LSWR-EMU(rear)
 engine_type=electric
 speed=97
 power=402
+# Fuel: 3108 Wh per km at 97 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=3108
+calibration_speed=97
 gear=80
 tractive_effort=35
 copyright=Kieron/JamesPetts

@@ -5,6 +5,10 @@ smoke=Steam
 speed=145
 # Extrapolated
 power=349
+# Fuel: 12190 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for MR 2631 Class.
+fuel_per_km=12190
+calibration_speed=145
 tractive_effort=86
 copyright=James/JamesPetts
 intro_year=1901

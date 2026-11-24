@@ -8,6 +8,10 @@ power=209
 # Calculated from data from Ahrons, p. 221
 # Loss factor set at 0.8 
 # Note: these were the first Midland engines to have steam brakes.
+# Fuel: 13170 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for MR 1357 Class.
+fuel_per_km=13170
+calibration_speed=87
 tractive_effort=65
 copyright=Kieron/JamesPetts
 intro_year=1878

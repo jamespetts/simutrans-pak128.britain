@@ -11,6 +11,9 @@ overcrowded_capacity=0
 engine_type=petrol
 # C type engine: 36hp. See Baldwin p. 35
 power=27
+# Fuel: 295 mL per km at 50 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=295
+calibration_speed=50
 tractive_effort=9
 gear=50
 speed=50

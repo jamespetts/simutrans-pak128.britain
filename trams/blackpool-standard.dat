@@ -9,6 +9,9 @@ gear=80
 # these used the same controller as conteporary pantograph cars
 # conteporary pantograph and boat cars had 2x 40 HP = 60 kW
 power=60
+# Fuel: 2344 Wh per km at 32 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=2344
+calibration_speed=32
 tractive_effort=35
 copyright=James
 intro_year=1923

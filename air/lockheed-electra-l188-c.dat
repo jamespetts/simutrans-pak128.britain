@@ -8,6 +8,9 @@ waytype=air
 engine_type=turbine
 speed=602
 power=11200
+# Fuel: 2943 mL per km at 602 km/h (M: L-188C Electra, 4x501-D13). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=2943
+calibration_speed=602
 tractive_effort=43
 freight=Passagiere
 payload[0]=0
@@ -72,6 +75,9 @@ waytype=air
 engine_type=turbine
 speed=602
 power=11200
+# Fuel: 2943 mL per km at 602 km/h (M: L-188C Electra, 4x501-D13). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=2943
+calibration_speed=602
 tractive_effort=43
 freight=Passagiere
 payload[0]=0

@@ -7,6 +7,9 @@ smoke=Steam
 sound=ship-horn_b.wav
 speed=20
 power=3550
+# Fuel: 73860 g per km at 20 km/h. Basis and sources: New/ai/fuel/water.md
+fuel_per_km=73860
+calibration_speed=20
 weight=3000
 length=10
 cost=83865600

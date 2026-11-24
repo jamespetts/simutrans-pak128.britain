@@ -5,6 +5,9 @@ speed=70
 gear=80
 # http://blackpool-trams.yolasite.com/jubilee-trams.php
 power=85
+# Fuel: 1429 Wh per km at 70 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=1429
+calibration_speed=70
 tractive_effort=40
 copyright=James
 intro_year=1979

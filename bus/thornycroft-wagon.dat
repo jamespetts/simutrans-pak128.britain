@@ -13,6 +13,9 @@ freight=Kohle
 mixed_load_prohibition=1
 payload=3
 power=15
+# Fuel: 3000 g per km at 12 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=3000
+calibration_speed=12
 tractive_effort=5
 speed=12
 weight=3.3
@@ -103,6 +106,9 @@ waytype=road
 freight=Bretter
 payload=3
 power=15
+# Fuel: 3000 g per km at 12 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=3000
+calibration_speed=12
 tractive_effort=5
 speed=12
 weight=3.3
@@ -163,6 +169,9 @@ waytype=road
 freight=Bucher
 payload=4
 power=15
+# Fuel: 3000 g per km at 12 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=3000
+calibration_speed=12
 tractive_effort=5
 speed=12
 weight=3.3
@@ -203,6 +212,9 @@ waytype=road
 freight=meat
 payload=7
 power=15
+# Fuel: 3000 g per km at 12 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=3000
+calibration_speed=12
 tractive_effort=5
 speed=12
 weight=3.3
@@ -242,6 +254,9 @@ waytype=road
 freight=livestock
 payload=5
 power=15
+# Fuel: 3000 g per km at 12 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=3000
+calibration_speed=12
 tractive_effort=5
 speed=12
 weight=3.3

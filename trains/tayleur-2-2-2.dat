@@ -13,6 +13,10 @@ speed=85
 power=47
 # Calculated from data from Ahrons, p. 35
 # Loss factor set at 0.5
+# Fuel: 7200 g of coke per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for Tayleur 2-2-2.
+fuel_per_km=7200
+calibration_speed=85
 tractive_effort=8
 copyright=James/JamesPetts
 intro_year=1840

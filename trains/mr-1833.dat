@@ -9,6 +9,10 @@ speed=95
 power=200
 # Calculated from data on Ahrons p. 201. 
 # Loss factor set at 0.8
+# Fuel: 12060 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for MR 1833 Class.
+fuel_per_km=12060
+calibration_speed=95
 tractive_effort=53
 copyright=James/jamespetts
 intro_year=1875

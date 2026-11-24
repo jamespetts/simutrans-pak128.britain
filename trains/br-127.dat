@@ -8,6 +8,9 @@ smoke=Diesel
 speed=113
 # https://railcar.co.uk/type/class-127/power-train
 power=355
+# Fuel: 729 mL per km at 113 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=729
+calibration_speed=113
 gear=50
 tractive_effort=50
 copyright=Kieron/JamesPetts
@@ -245,6 +248,9 @@ smoke=Diesel
 speed=113
 # https://railcar.co.uk/type/class-127/power-train
 power=355
+# Fuel: 729 mL per km at 113 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=729
+calibration_speed=113
 gear=50
 tractive_effort=50
 copyright=Kieron/JamesPetts

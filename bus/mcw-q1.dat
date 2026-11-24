@@ -14,6 +14,9 @@ speed=55
 # Trolleybuses generally had only 1 motor:
 # http://www.ltmcollection.org/museum/object/link.html?_IXMAXHITS_=1&IXinv=1981/528&IXexpand=designservice	
 power=89
+# Fuel: 1400 Wh per km at 55 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=1400
+calibration_speed=55
 tractive_effort=65
 gear=80
 weight=10.1

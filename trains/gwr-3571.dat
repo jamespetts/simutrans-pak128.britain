@@ -6,6 +6,10 @@ smoke=Steam
 speed=90
 # Extrapolated
 power=199
+# Fuel: 10700 g of Welsh steam coal per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for GER 3571 Class.
+fuel_per_km=10700
+calibration_speed=90
 tractive_effort=75
 copyright=James/JamesPetts
 intro_year=1895

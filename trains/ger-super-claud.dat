@@ -6,6 +6,10 @@ speed=148
 # Extrapolated
 power=309
 # http://www.lner.info/locos/D/d14d15d16.php
+# Fuel: 8900 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for GER H88 'Super Claud'; coal range at full bunker about 461 km.
+fuel_per_km=8900
+calibration_speed=148
 tractive_effort=76
 copyright=James/JamesPetts
 intro_year=1922

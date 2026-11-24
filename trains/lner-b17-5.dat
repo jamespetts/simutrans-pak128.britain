@@ -5,6 +5,10 @@ smoke=Steam
 speed=150
 # Extrapolated
 power=416
+# Fuel: 11200 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LNER B17-5 Class; coal range at full bunker about 366 km.
+fuel_per_km=11200
+calibration_speed=150
 tractive_effort=100
 copyright=James
 intro_year=1937

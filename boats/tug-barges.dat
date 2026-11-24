@@ -5,6 +5,9 @@ waytype=water
 engine_type=steam
 smoke=Steam
 power=100
+# Fuel: 5880 g per km at 15 km/h. Basis and sources: New/ai/fuel/water.md
+fuel_per_km=5880
+calibration_speed=15
 speed=15
 weight=40
 length=8
@@ -49,6 +52,9 @@ waytype=water
 engine_type=steam
 smoke=Steam
 power=200
+# Fuel: 6698 g per km at 20 km/h. Basis and sources: New/ai/fuel/water.md
+fuel_per_km=6698
+calibration_speed=20
 speed=20
 weight=40
 length=8
@@ -93,6 +99,9 @@ waytype=water
 engine_type=diesel
 smoke=Diesel
 power=300
+# Fuel: 2571 mL per km at 20 km/h. Basis and sources: New/ai/fuel/water.md
+fuel_per_km=2571
+calibration_speed=20
 speed=20
 weight=40
 length=8

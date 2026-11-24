@@ -5,6 +5,9 @@ engine_type=electric
 speed=200
 gear=80
 power=4286
+# Fuel: 16484 Wh per km at 200 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=16484
+calibration_speed=200
 tractive_effort=205
 copyright=Kieron/Rollmaterial
 intro_year=1986

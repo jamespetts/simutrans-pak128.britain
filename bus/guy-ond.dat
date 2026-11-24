@@ -10,6 +10,9 @@ overcrowded_capacity=0
 speed=55
 # 38hp: http://historywebsite.co.uk/Museum/Transport/Buses/Guy/guyOND.htm
 power=28
+# Fuel: 275 mL per km at 55 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=275
+calibration_speed=55
 tractive_effort=4
 gear=50
 weight=2.3

@@ -11,6 +11,9 @@ speed=64
 # 75hp
 power=56
 # 0-30 in 16 seconds
+# Fuel: 1100 Wh per km at 64 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=1100
+calibration_speed=64
 tractive_effort=40
 gear=80
 # Guessed

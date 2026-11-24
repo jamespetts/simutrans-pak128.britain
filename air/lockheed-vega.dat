@@ -12,6 +12,9 @@ waytype=air
 engine_type=petrol
 speed=285
 power=302
+# Fuel: 274 mL per km at 285 km/h (M: Lockheed Vega, 1x450 hp Wasp). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=274
+calibration_speed=285
 tractive_effort=3
 freight=Passagiere
 payload[0]=0
@@ -71,6 +74,9 @@ waytype=air
 engine_type=petrol
 speed=285
 power=302
+# Fuel: 274 mL per km at 285 km/h (M: Lockheed Vega, 1x450 hp Wasp). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=274
+calibration_speed=285
 tractive_effort=3
 freight=Post
 # Max. payload 600kg

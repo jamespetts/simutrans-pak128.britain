@@ -10,6 +10,9 @@ gear=50
 # Heavy fuel consumption and hard to maintain
 power=127
 # Coach gearings
+# Fuel: 300 mL per km at 85 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=300
+calibration_speed=85
 tractive_effort=17
 copyright=Kieron
 # Guessed

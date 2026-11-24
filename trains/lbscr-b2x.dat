@@ -6,6 +6,10 @@ speed=132
 # Extrapolated
 power=262
 # http://en.wikipedia.org/wiki/LB%26SCR_B2_class
+# Fuel: 9140 g of Welsh steam coal per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LBSCR B2x Class.
+fuel_per_km=9140
+calibration_speed=132
 tractive_effort=67
 copyright=James/jamespetts
 intro_year=1907

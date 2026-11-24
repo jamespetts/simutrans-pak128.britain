@@ -12,6 +12,9 @@ payload=49
 speed=96
 # http://www.volvodemort.com/technical/engine.html
 power=203
+# Fuel: 300 mL per km at 96 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=300
+calibration_speed=96
 tractive_effort=16
 gear=50
 weight=15.6

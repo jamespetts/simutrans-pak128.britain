@@ -7,6 +7,10 @@ smoke=Steam
 speed=44
 # Estimated
 power=35
+# Fuel: 12310 g of coke per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for Stephenson Goods.
+fuel_per_km=12310
+calibration_speed=44
 tractive_effort=8
 copyright=Kieron/JamesPetts
 intro_year=1833

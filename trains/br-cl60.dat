@@ -4,6 +4,9 @@ engine_type=diesel
 smoke=Diesel
 speed=97
 power=2300
+# Fuel: 4706 mL per km at 97 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=4706
+calibration_speed=97
 gear=50
 tractive_effort=474
 copyright=Kieron/JamesPetts

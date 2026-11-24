@@ -5,6 +5,9 @@ waytype=air
 engine_type=turbine
 speed=828
 power=43200
+# Fuel: 3639 mL per km at 828 km/h (S: A320 at 1,900 km sector: 3.13 kg/km, x0.93, /0.80). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=3639
+calibration_speed=828
 tractive_effort=240
 #gear=1
 freight=Passagiere
@@ -63,6 +66,9 @@ waytype=air
 engine_type=turbine
 speed=828
 power=43200
+# Fuel: 3639 mL per km at 828 km/h (S: A320 at 1,900 km sector: 3.13 kg/km, x0.93, /0.80). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=3639
+calibration_speed=828
 tractive_effort=240
 #gear=1
 freight=Passagiere

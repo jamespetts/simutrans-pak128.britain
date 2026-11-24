@@ -11,6 +11,10 @@ speed=160
 #
 # Now extrapolated. Calibration from data as above produces a result inconsistently low compared to other locomotives.
 power=690
+# Fuel: 19400 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for SR Rebuilt 'Merchant Navy'; coal range at full bunker about 263 km.
+fuel_per_km=19400
+calibration_speed=160
 tractive_effort=149
 copyright=Kieron/JamesPetts
 intro_year=1956

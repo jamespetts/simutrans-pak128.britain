@@ -7,6 +7,9 @@ waytype=air
 engine_type=turbine
 speed=829
 power=16020
+# Fuel: 3645 mL per km at 829 km/h (S: E-190 at 1,124 km sector: 3.24 kg/km, x0.90, /0.80; CF34-). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=3645
+calibration_speed=829
 tractive_effort=89
 freight=Passagiere
 payload=100

@@ -8,6 +8,10 @@ smoke=Steam
 speed=44
 # Estimated
 power=54
+# Fuel: 17330 g of coke per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for Vulcan.
+fuel_per_km=17330
+calibration_speed=44
 tractive_effort=11
 copyright=Kieron/JamesPetts
 intro_year=1834

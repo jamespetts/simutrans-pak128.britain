@@ -8,6 +8,9 @@ waytype=air
 engine_type=turbine
 speed=575
 power=11952
+# Fuel: 5127 mL per km at 575 km/h (M: Bristol Britannia, 4x Proteus; long-range clean airframe). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=5127
+calibration_speed=575
 tractive_effort=56
 #gear=1
 freight=Passagiere

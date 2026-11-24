@@ -5,6 +5,9 @@ smoke=Diesel
 speed=44
 gear=50
 power=298
+# Fuel: 1572 mL per km at 44 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=1572
+calibration_speed=44
 tractive_effort=111
 copyright=Junna/Cake
 intro_year=1959

@@ -4,6 +4,9 @@ engine_type=electric
 speed=160
 # https://tsa.at/references/caf_civity_uk_for_various_operators_in_the_united_kingdom
 power=880
+# Fuel: 4342 Wh per km at 160 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=4342
+calibration_speed=160
 tractive_effort=102
 gear=80
 copyright=Kieron/James/jonbridg
@@ -171,6 +174,9 @@ engine_type=electric
 speed=160
 #https://tsa.at/references/caf_civity_uk_for_various_operators_in_the_united_kingdom
 power=880
+# Fuel: 4342 Wh per km at 160 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=4342
+calibration_speed=160
 tractive_effort=102
 gear=80
 copyright=Kieron/James/jonbridg
@@ -276,6 +282,9 @@ engine_type=electric
 speed=160
 #https://tsa.at/references/caf_civity_uk_for_various_operators_in_the_united_kingdom
 power=880
+# Fuel: 4342 Wh per km at 160 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=4342
+calibration_speed=160
 tractive_effort=102
 gear=80
 copyright=Kieron/James/jonbridg

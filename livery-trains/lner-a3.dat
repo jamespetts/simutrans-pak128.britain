@@ -5,6 +5,10 @@ smoke=Steam
 speed=160
 gear=320
 power=2000
+# Fuel: 14740 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LNER A1 Class; coal range at full bunker about 550 km.
+fuel_per_km=14740
+calibration_speed=160
 copyright=Kieron
 intro_year=1922
 intro_month=4
@@ -42,6 +46,10 @@ smoke=Steam
 speed=160
 gear=320
 power=2000
+# Fuel: 14740 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LNER A1 Class; coal range at full bunker about 550 km.
+fuel_per_km=14740
+calibration_speed=160
 copyright=Kieron
 intro_year=1922
 intro_month=4
@@ -79,6 +87,10 @@ smoke=Steam
 speed=160
 gear=320
 power=2000
+# Fuel: 14740 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LNER A1 Class; coal range at full bunker about 550 km.
+fuel_per_km=14740
+calibration_speed=160
 copyright=Kieron
 intro_year=1922
 intro_month=4

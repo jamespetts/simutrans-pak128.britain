@@ -12,6 +12,9 @@ payload=52
 overcrowded_capacity=3
 speed=20
 power=26
+# Fuel: 480 mL per km at 20 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=480
+calibration_speed=20
 tractive_effort=5
 gear=50
 weight=8
@@ -75,6 +78,9 @@ payload=52
 overcrowded_capacity=3
 speed=20
 power=26
+# Fuel: 480 mL per km at 20 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=480
+calibration_speed=20
 tractive_effort=5
 gear=50
 weight=8.1
@@ -150,6 +156,9 @@ payload=52
 overcrowded_capacity=3
 speed=32
 power=26
+# Fuel: 440 mL per km at 32 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=440
+calibration_speed=32
 tractive_effort=5
 gear=50
 weight=8.1

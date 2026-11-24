@@ -7,6 +7,9 @@ gear=50
 # Leyland 510 engine
 # Heavy fuel consumption and hard to maintain
 power=127
+# Fuel: 300 mL per km at 75 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=300
+calibration_speed=75
 tractive_effort=20
 copyright=Kieron
 intro_year=1972
@@ -80,6 +83,9 @@ gear=50
 # Leyland 510 engine
 # Heavy fuel consumption and hard to maintain
 power=127
+# Fuel: 300 mL per km at 75 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=300
+calibration_speed=75
 tractive_effort=20
 copyright=Kieron
 intro_year=1972

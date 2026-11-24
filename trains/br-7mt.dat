@@ -11,6 +11,10 @@ speed=160
 # by in-game tests. However, even this is out of line with other
 # locomotives, so extrapolated.
 power=639
+# Fuel: 17850 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for BR 7MT 'Britannia'; coal range at full bunker about 398 km.
+fuel_per_km=17850
+calibration_speed=160
 tractive_effort=143
 copyright=Kieron
 intro_year=1951

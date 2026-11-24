@@ -6,6 +6,10 @@ speed=85
 # Extrapolated
 power=225
 # Calculated using data from https://orion.math.iastate.edu/jdhsmith/term/slgbmet.htm with loss factor of 0.8
+# Fuel: 13870 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for Metropolitan F Class.
+fuel_per_km=13870
+calibration_speed=85
 tractive_effort=72
 copyright=James/jamespetts
 intro_year=1901

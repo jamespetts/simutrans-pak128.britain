@@ -4,6 +4,9 @@ engine_type=electric
 speed=50
 gear=80
 power=50
+# Fuel: 750 Wh per km at 50 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=750
+calibration_speed=50
 tractive_effort=26
 length=8
 copyright=James
@@ -112,6 +115,9 @@ engine_type=electric
 speed=50
 gear=80
 power=50
+# Fuel: 750 Wh per km at 50 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=750
+calibration_speed=50
 tractive_effort=26
 length=8
 copyright=James

@@ -8,6 +8,9 @@ waytype=air
 engine_type=turbine
 speed=885
 power=43200
+# Fuel: 5920 mL per km at 885 km/h (M: JT3C turbojet, cruise SFC ~0.88). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=5920
+calibration_speed=885
 tractive_effort=240
 #gear=1
 freight=Passagiere
@@ -95,6 +98,9 @@ waytype=air
 engine_type=turbine
 speed=885
 power=43200
+# Fuel: 5920 mL per km at 885 km/h (M: JT3C turbojet, cruise SFC ~0.88). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=5920
+calibration_speed=885
 tractive_effort=240
 #gear=1
 freight=Passagiere

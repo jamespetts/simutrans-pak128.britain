@@ -6,6 +6,10 @@ smoke=Steam
 speed=130
 # Extrapolated
 power=170
+# Fuel: 8260 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for GNR Stirling 7ft single.
+fuel_per_km=8260
+calibration_speed=130
 tractive_effort=39
 copyright=Kieron/JamesPetts
 intro_year=1868

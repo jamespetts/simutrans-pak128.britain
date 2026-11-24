@@ -8,6 +8,10 @@ engine_type=steam
 speed=14
 # Extrapolated
 power=3
+# Fuel: 1590 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for Merryweather Type 2 tram.
+fuel_per_km=1590
+calibration_speed=14
 tractive_effort=8
 copyright=jamespetts
 intro_year=1879

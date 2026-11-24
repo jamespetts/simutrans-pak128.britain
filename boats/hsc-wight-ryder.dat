@@ -6,6 +6,9 @@ engine_type=diesel
 smoke=Diesel
 speed=60
 power=3000
+# Fuel: 9524 mL per km at 60 km/h. Basis and sources: New/ai/fuel/water.md
+fuel_per_km=9524
+calibration_speed=60
 freight=Passagiere
 payload[0]=0
 payload[1]=260

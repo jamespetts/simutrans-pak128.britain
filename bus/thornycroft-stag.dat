@@ -10,6 +10,9 @@ payload=12
 engine_type=petrol
 # 104hp for the petrol version
 power=76
+# Fuel: 360 mL per km at 56 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=360
+calibration_speed=56
 tractive_effort=16
 gear=50
 speed=56
@@ -101,6 +104,9 @@ payload=12
 engine_type=petrol
 # 104hp for the petrol version
 power=76
+# Fuel: 360 mL per km at 56 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=360
+calibration_speed=56
 tractive_effort=16
 gear=50
 speed=56
@@ -163,6 +169,9 @@ payload=14
 engine_type=petrol
 # 104hp for the petrol version
 power=76
+# Fuel: 360 mL per km at 56 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=360
+calibration_speed=56
 tractive_effort=16
 gear=50
 speed=56
@@ -206,6 +215,9 @@ payload=14
 engine_type=petrol
 # 104hp for the petrol version
 power=76
+# Fuel: 360 mL per km at 56 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=360
+calibration_speed=56
 tractive_effort=16
 gear=50
 speed=56
@@ -248,6 +260,9 @@ payload=14
 engine_type=petrol
 # 104hp for the petrol version
 power=76
+# Fuel: 360 mL per km at 56 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=360
+calibration_speed=56
 tractive_effort=16
 gear=50
 speed=56
@@ -291,6 +306,9 @@ payload=14
 engine_type=petrol
 # 104hp for the petrol version
 power=76
+# Fuel: 360 mL per km at 56 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=360
+calibration_speed=56
 tractive_effort=16
 gear=50
 speed=56
@@ -333,6 +351,9 @@ payload=1
 engine_type=petrol
 # 104hp for the petrol version
 power=76
+# Fuel: 360 mL per km at 56 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=360
+calibration_speed=56
 tractive_effort=16
 gear=50
 speed=56

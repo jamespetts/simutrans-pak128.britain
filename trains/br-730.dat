@@ -4,6 +4,9 @@ name=BR-730-0Front
 engine_type=electric
 speed=145
 power=500
+# Fuel: 2722 Wh per km at 145 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=2722
+calibration_speed=145
 tractive_effort=78
 gear=80
 copyright=James, Rollmaterial
@@ -62,6 +65,9 @@ name=BR-730-0Panto
 engine_type=electric
 speed=145
 power=500
+# Fuel: 2722 Wh per km at 145 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=2722
+calibration_speed=145
 tractive_effort=78
 gear=80
 copyright=James, Rollmaterial
@@ -114,6 +120,9 @@ name=BR-730-0Rear
 engine_type=electric
 speed=145
 power=500
+# Fuel: 2722 Wh per km at 145 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=2722
+calibration_speed=145
 tractive_effort=45
 gear=80
 copyright=James, Rollmaterial
@@ -172,6 +181,9 @@ name=BR-730-2Front
 engine_type=electric
 speed=177
 power=500
+# Fuel: 2230 Wh per km at 177 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=2230
+calibration_speed=177
 tractive_effort=78
 gear=80
 copyright=James, Rollmaterial
@@ -230,6 +242,9 @@ name=BR-730-2MiddleFront
 engine_type=electric
 speed=177
 power=500
+# Fuel: 2230 Wh per km at 177 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=2230
+calibration_speed=177
 tractive_effort=78
 gear=80
 copyright=James, Rollmaterial
@@ -282,6 +297,9 @@ name=BR-730-2Panto
 engine_type=electric
 speed=177
 power=500
+# Fuel: 2230 Wh per km at 177 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=2230
+calibration_speed=177
 tractive_effort=78
 gear=80
 copyright=James, Rollmaterial
@@ -334,6 +352,9 @@ name=BR-730-2MiddleRear
 engine_type=electric
 speed=177
 power=500
+# Fuel: 2230 Wh per km at 177 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=2230
+calibration_speed=177
 tractive_effort=78
 gear=80
 copyright=James, Rollmaterial
@@ -386,6 +407,9 @@ name=BR-730-2Rear
 engine_type=electric
 speed=177
 power=500
+# Fuel: 2230 Wh per km at 177 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=2230
+calibration_speed=177
 tractive_effort=45
 gear=80
 copyright=James, Rollmaterial

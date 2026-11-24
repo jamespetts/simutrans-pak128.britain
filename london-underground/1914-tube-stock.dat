@@ -4,6 +4,9 @@ engine_type=electric
 speed=60
 gear=80
 power=150
+# Fuel: 1875 Wh per km at 60 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=1875
+calibration_speed=60
 tractive_effort=28
 length=8
 copyright=James
@@ -72,6 +75,9 @@ engine_type=electric
 speed=60
 gear=80
 power=150
+# Fuel: 1875 Wh per km at 60 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=1875
+calibration_speed=60
 tractive_effort=28
 length=8
 copyright=James

@@ -13,6 +13,9 @@ speed=64
 # Gardner 6LX engine
 # 150hp - Townsin p. 96
 power=112
+# Fuel: 270 mL per km at 64 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=270
+calibration_speed=64
 tractive_effort=15
 gear=50
 # Guessed

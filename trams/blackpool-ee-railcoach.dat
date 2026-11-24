@@ -7,6 +7,9 @@ gear=80
 # 57 electric horse power is 42.5KW, unlike the source states.
 # http://blackpool-trams.yolasite.com/railcoaches.php
 power=85
+# Fuel: 1538 Wh per km at 65 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=1538
+calibration_speed=65
 tractive_effort=40
 copyright=James
 intro_year=1934

@@ -8,6 +8,10 @@ speed=135
 # Extrapolated
 power=243
 # Calculated from data given at Ahrons p. 266 with a loss factor of 0.79
+# Fuel: 9010 g of Welsh steam coal per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for GWR 157 'Cobham' class; coal range at full bunker about 366 km.
+fuel_per_km=9010
+calibration_speed=135
 tractive_effort=46
 copyright=James/JamesPetts
 intro_year=1878

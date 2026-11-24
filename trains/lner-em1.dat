@@ -3,6 +3,9 @@ name=LNER-ClassEM1
 engine_type=electric
 speed=105
 power=1400
+# Fuel: 9412 Wh per km at 105 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=9412
+calibration_speed=105
 gear=80
 tractive_effort=200
 copyright=James

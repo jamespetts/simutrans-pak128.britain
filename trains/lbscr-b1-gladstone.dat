@@ -7,6 +7,10 @@ speed=130
 power=275
 # http://www.semgonline.com/steam/gladstone_dat.html
 # See also Ahrons p. 273
+# Fuel: 10260 g of Welsh steam coal per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LBSCR B1 'Gladstone'.
+fuel_per_km=10260
+calibration_speed=130
 tractive_effort=63
 copyright=James
 intro_year=1882

@@ -10,6 +10,10 @@ speed=85
 power=176
 # Calculated using data from: https://en.wikipedia.org/wiki/GWR_1076_Class
 # assuming boiler pressure of 140psi and loss factor of 0.77.
+# Fuel: 10550 g of Welsh steam coal per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for GWR 'Buffalo' Class.
+fuel_per_km=10550
+calibration_speed=85
 tractive_effort=62
 copyright=Kieron/JamesPetts
 # There were a number of very similar classes only one of which was the "Buffalo", 

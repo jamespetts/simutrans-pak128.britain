@@ -8,6 +8,9 @@ waytype=air
 engine_type=petrol
 speed=503
 power=5904
+# Fuel: 3298 mL per km at 503 km/h (M: L-049 Constellation, 4x2,200 hp). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=3298
+calibration_speed=503
 tractive_effort=32
 freight=Passagiere
 # Payload: 10.3t
@@ -72,6 +75,9 @@ waytype=air
 engine_type=petrol
 speed=503
 power=5904
+# Fuel: 3298 mL per km at 503 km/h (M: L-049 Constellation, 4x2,200 hp). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=3298
+calibration_speed=503
 tractive_effort=32
 freight=Passagiere
 # Payload: 10.3t

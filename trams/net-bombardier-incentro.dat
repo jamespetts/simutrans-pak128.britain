@@ -14,6 +14,9 @@ name=bombardier-incentro-front
 engine_type=electric
 speed=80
 power=180
+# Fuel: 2557 Wh per km at 80 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=2557
+calibration_speed=80
 gear=80
 tractive_effort=29
 copyright=James
@@ -211,6 +214,9 @@ name=bombardier-incentro-rear
 engine_type=electric
 speed=80
 power=180
+# Fuel: 2557 Wh per km at 80 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=2557
+calibration_speed=80
 gear=80
 tractive_effort=29
 copyright=James

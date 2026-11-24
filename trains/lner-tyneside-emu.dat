@@ -4,6 +4,9 @@ engine_type=electric
 speed=90
 gear=80
 power=320
+# Fuel: 2510 Wh per km at 90 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=2510
+calibration_speed=90
 tractive_effort=70
 copyright=Junna/Cake
 intro_year=1936
@@ -221,6 +224,9 @@ speed=90
 gear=80
 # These had four motors: https://en.wikipedia.org/wiki/LNER_Tyneside_electric_units
 power=640
+# Fuel: 5020 Wh per km at 90 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=5020
+calibration_speed=90
 tractive_effort=140
 copyright=Junna/Cake
 intro_year=1936

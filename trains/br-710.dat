@@ -5,6 +5,9 @@ name=BR-710Front
 engine_type=electric
 speed=120
 power=450
+# Fuel: 2557 Wh per km at 120 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=2557
+calibration_speed=120
 tractive_effort=78
 gear=80
 copyright=James, Rollmaterial
@@ -62,6 +65,9 @@ name=BR-710Middle
 engine_type=electric
 speed=120
 power=450
+# Fuel: 2557 Wh per km at 120 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=2557
+calibration_speed=120
 tractive_effort=78
 gear=80
 copyright=James, Rollmaterial
@@ -117,6 +123,9 @@ name=BR-710Panto
 engine_type=electric
 speed=120
 power=450
+# Fuel: 2557 Wh per km at 120 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=2557
+calibration_speed=120
 tractive_effort=78
 gear=80
 copyright=James, Rollmaterial
@@ -170,6 +179,9 @@ name=BR-710Rear
 engine_type=electric
 speed=120
 power=450
+# Fuel: 2557 Wh per km at 120 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=2557
+calibration_speed=120
 tractive_effort=45
 gear=80
 copyright=James, Rollmaterial

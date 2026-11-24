@@ -13,6 +13,9 @@ speed=85
 # Power: 96bhp (Phillips p. 36)
 power=72
 # Assume higher gearing for coach version
+# Fuel: 380 mL per km at 85 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=380
+calibration_speed=85
 tractive_effort=7
 gear=50
 # Guessed

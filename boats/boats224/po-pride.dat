@@ -7,6 +7,9 @@ smoke=Diesel
 sound=ship-horn_a.wav
 speed=41
 power=23170
+# Fuel: 83086 mL per km at 41 km/h. Basis and sources: New/ai/fuel/water.md
+fuel_per_km=83086
+calibration_speed=41
 freight=Passagiere
 payload[0]=0
 payload[1]=2290

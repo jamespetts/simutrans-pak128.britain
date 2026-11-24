@@ -11,6 +11,10 @@ power=400
 # 21,969 lbf: 20x28in cylinders, 6ft6in drivers, 180psi
 # https://en.wikipedia.org/wiki/GER_Class_S69
 # https://www.lner.info/locos/B/b12.php
+# Fuel: 12370 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for GER S69 "1500 Class"; coal range at full bunker about 332 km.
+fuel_per_km=12370
+calibration_speed=135
 tractive_effort=98
 copyright=James
 intro_year=1911

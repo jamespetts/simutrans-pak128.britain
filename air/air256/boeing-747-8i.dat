@@ -10,6 +10,9 @@ waytype=air
 engine_type=turbine
 speed=914
 power=213120
+# Fuel: 12780 mL per km at 914 km/h (S: 747-8 at 11,000 km sector: 10.54 kg/km, x0.97, /0.80; GEn). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=12780
+calibration_speed=914
 tractive_effort=1184
 freight=Passagiere
 payload[0]=0

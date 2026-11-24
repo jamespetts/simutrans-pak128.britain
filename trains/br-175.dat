@@ -5,6 +5,9 @@ smoke=Diesel
 speed=160
 gear=50
 power=340
+# Fuel: 433 mL per km at 160 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=433
+calibration_speed=160
 tractive_effort=48
 copyright=Kieron/James
 intro_year=2000
@@ -75,6 +78,9 @@ smoke=Diesel
 speed=160
 gear=50
 power=340
+# Fuel: 433 mL per km at 160 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=433
+calibration_speed=160
 tractive_effort=48
 copyright=Kieron/James
 intro_year=2000
@@ -146,6 +152,9 @@ smoke=Diesel
 speed=160
 gear=50
 power=340
+# Fuel: 433 mL per km at 160 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=433
+calibration_speed=160
 tractive_effort=48
 copyright=Kieron/James
 intro_year=2000
@@ -217,6 +226,9 @@ smoke=Diesel
 speed=160
 gear=50
 power=340
+# Fuel: 433 mL per km at 160 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=433
+calibration_speed=160
 tractive_effort=48
 copyright=Kieron/James
 intro_year=2000

@@ -8,6 +8,10 @@ speed=81
 power=76
 # Calculated from data from Ahrons, p. 58
 # Loss factor set at 0.6, assumed 80lbs pressure.
+# Fuel: 8740 g of coke per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for Stephenson long boiler pass..
+fuel_per_km=8740
+calibration_speed=81
 tractive_effort=16
 copyright=Kieron/JamesPetts
 intro_year=1845

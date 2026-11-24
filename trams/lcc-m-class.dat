@@ -6,6 +6,9 @@ speed=32
 gear=80
 # 2x 42hp motors 
 power=63
+# Fuel: 2461 Wh per km at 32 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=2461
+calibration_speed=32
 tractive_effort=32
 copyright=James/jamespetts
 intro_year=1910

@@ -5,6 +5,9 @@ waytype=air
 engine_type=turbine
 speed=885
 power=57600
+# Fuel: 5898 mL per km at 885 km/h (M: JT3D turbofan). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=5898
+calibration_speed=885
 tractive_effort=320
 #gear=1
 freight=Post

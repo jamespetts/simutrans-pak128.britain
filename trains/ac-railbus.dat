@@ -7,6 +7,9 @@ smoke=Diesel
 # https://railcar.co.uk/type/ac-cars-railbus/numbering
 speed=92
 power=110
+# Fuel: 277 mL per km at 92 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=277
+calibration_speed=92
 gear=50
 tractive_effort=21
 copyright=JamesPetts

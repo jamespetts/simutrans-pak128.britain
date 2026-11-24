@@ -6,6 +6,10 @@ speed=80
 # Extrapolated
 power=617
 # http://en.wikipedia.org/wiki/LMS_Garratt
+# Fuel: 33930 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LMS Garratt; coal range at full bunker about 209 km.
+fuel_per_km=33930
+calibration_speed=80
 tractive_effort=203
 copyright=James
 intro_year=1927

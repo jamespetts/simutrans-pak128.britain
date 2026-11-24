@@ -7,6 +7,10 @@ speed=115
 # Are values in Wikipedia from which it might be calculated.
 power=386
 # http://en.wikipedia.org/wiki/LB%26SCR_K_class#cite_ref-7
+# Fuel: 13040 g of Welsh steam coal per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LBSCR K Class; coal range at full bunker about 314 km.
+fuel_per_km=13040
+calibration_speed=115
 tractive_effort=118
 copyright=Kieron/JamesPetts
 # http://www.semgonline.com/steam/kclass_dat.html

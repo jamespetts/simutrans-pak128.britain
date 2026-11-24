@@ -5,6 +5,9 @@ waytype=air
 engine_type=turbine
 speed=828
 power=36000
+# Fuel: 3579 mL per km at 828 km/h (M: CFM56-5A1, cruise SFC 0.596; A320 L/D 16.3). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=3579
+calibration_speed=828
 tractive_effort=200
 freight=Passagiere
 payload[0]=0
@@ -62,6 +65,9 @@ waytype=air
 engine_type=turbine
 speed=828
 power=36000
+# Fuel: 3579 mL per km at 828 km/h (M: CFM56-5A1, cruise SFC 0.596; A320 L/D 16.3). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=3579
+calibration_speed=828
 tractive_effort=200
 freight=Passagiere
 payload[0]=132

@@ -4,6 +4,9 @@ engine_type=electric
 speed=145
 gear=80
 power=375
+# Fuel: 1826 Wh per km at 145 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=1826
+calibration_speed=145
 tractive_effort=33
 copyright=Kieron
 intro_year=1957
@@ -395,6 +398,9 @@ speed=145
 gear=80
 power=375
 # Would be 136Kn for a 4-CIG (presumably for the *whole* unit)
+# Fuel: 1826 Wh per km at 145 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=1826
+calibration_speed=145
 tractive_effort=33
 copyright=Kieron
 intro_year=1957

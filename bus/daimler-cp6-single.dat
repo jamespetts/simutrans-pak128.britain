@@ -12,6 +12,9 @@ overcrowded_capacity=0
 speed=50
 # Townsin p. 38 - 90HP
 power=67
+# Fuel: 410 mL per km at 50 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=410
+calibration_speed=50
 tractive_effort=9
 gear=50
 # Guessed

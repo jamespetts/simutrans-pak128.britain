@@ -4,6 +4,9 @@ name=BR-506Front
 engine_type=electric
 speed=120
 power=552
+# Fuel: 3247 Wh per km at 120 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=3247
+calibration_speed=120
 gear=80
 tractive_effort=64
 copyright=Kieron/JamesPetts

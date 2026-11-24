@@ -7,6 +7,10 @@ speed=86
 power=172
 # Calculated from data from Ahrons, pp. 219-220
 # Loss factor set at 0.85
+# Fuel: 10840 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LNWR Mansion House.
+fuel_per_km=10840
+calibration_speed=86
 tractive_effort=57
 copyright=James/jamespetts
 intro_year=1880

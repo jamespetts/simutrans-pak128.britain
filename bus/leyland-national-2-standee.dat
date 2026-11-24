@@ -7,6 +7,9 @@ speed=75
 gear=50
 # TL11 engine
 power=194
+# Fuel: 330 mL per km at 75 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=330
+calibration_speed=75
 tractive_effort=30
 copyright=Kieron
 intro_year=1980

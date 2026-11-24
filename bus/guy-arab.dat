@@ -14,6 +14,9 @@ speed=55
 # albeit with a crash gearbox
 # 85HP - Townsin p. 41
 power=63
+# Fuel: 300 mL per km at 55 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=300
+calibration_speed=55
 tractive_effort=8
 gear=50
 # http://web.archive.org/web/20180329142123/http://www.countrybus.org/Guy/G1.htm#pk

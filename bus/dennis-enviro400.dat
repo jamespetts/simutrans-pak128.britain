@@ -11,6 +11,9 @@ payload=70
 overcrowded_capacity=22
 speed=75
 power=230
+# Fuel: 380 mL per km at 75 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=380
+calibration_speed=75
 tractive_effort=55
 gear=50
 weight=18.0
@@ -71,6 +74,9 @@ payload=74
 overcrowded_capacity=18
 speed=75
 power=230
+# Fuel: 380 mL per km at 75 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=380
+calibration_speed=75
 tractive_effort=55
 gear=50
 weight=18.0

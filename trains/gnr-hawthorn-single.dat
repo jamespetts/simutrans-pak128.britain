@@ -6,6 +6,10 @@ speed=110
 tractive_effort=35
 # Extrapolated
 power=112
+# Fuel: 8360 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for GNR Hawthorn Single.
+fuel_per_km=8360
+calibration_speed=110
 copyright=Kieron/JamesPetts
 intro_year=1851
 intro_month=1

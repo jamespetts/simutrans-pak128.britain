@@ -11,6 +11,9 @@ freight=Kohle
 mixed_load_prohibition=1
 payload=8
 power=76
+# Fuel: 1600 g per km at 65 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=1600
+calibration_speed=65
 tractive_effort=5
 speed=65
 weight=6.8
@@ -101,6 +104,9 @@ waytype=road
 freight=Bretter
 payload=8
 power=76
+# Fuel: 1600 g per km at 65 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=1600
+calibration_speed=65
 tractive_effort=5
 speed=65
 weight=6.8
@@ -161,6 +167,9 @@ waytype=road
 freight=Bucher
 payload=11
 power=76
+# Fuel: 1600 g per km at 65 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=1600
+calibration_speed=65
 tractive_effort=5
 speed=65
 weight=6.8
@@ -201,6 +210,9 @@ waytype=road
 freight=meat
 payload=20
 power=76
+# Fuel: 1600 g per km at 65 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=1600
+calibration_speed=65
 tractive_effort=5
 speed=65
 weight=6.8
@@ -240,6 +252,9 @@ waytype=road
 freight=livestock
 payload=16
 power=76
+# Fuel: 1600 g per km at 65 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=1600
+calibration_speed=65
 tractive_effort=5
 speed=65
 weight=6.8
@@ -282,6 +297,9 @@ freight=Oel
 mixed_load_prohibition=1
 payload=8
 power=76
+# Fuel: 1600 g per km at 65 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=1600
+calibration_speed=65
 tractive_effort=5
 speed=65
 weight=6.8

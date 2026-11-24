@@ -13,6 +13,9 @@ speed=50
 # See the Flanders & Swann song for the power rating (97hp)
 # Confirmed here: http://webcache.googleusercontent.com/search?q=cache:zkrkIblLE7cJ:www.countrybus.org/LT/LT.html+&cd=8&hl=en&ct=clnk&gl=uk&client=firefox-b
 power=72
+# Fuel: 250 mL per km at 50 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=250
+calibration_speed=50
 tractive_effort=9
 gear=50
 # Guessed

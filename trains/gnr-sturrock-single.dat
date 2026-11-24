@@ -5,6 +5,10 @@ smoke=Steam
 speed=115
 # Extrapolated
 power=201
+# Fuel: 11960 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for GNR Sturrock single.
+fuel_per_km=11960
+calibration_speed=115
 tractive_effort=41
 copyright=Kieron/JamesPetts
 intro_year=1860

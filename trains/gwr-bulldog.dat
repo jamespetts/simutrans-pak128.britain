@@ -8,6 +8,10 @@ speed=127
 power=282
 # Calculated using figures from: http://orion.math.iastate.edu/jdhsmith/term/slgbgw.htm
 # Loss factor set to 0.8. See also: http://www.gwr.org.uk/no440s.html
+# Fuel: 10490 g of Welsh steam coal per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for GWR 3300 'Bulldog'; coal range at full bunker about 436 km.
+fuel_per_km=10490
+calibration_speed=127
 tractive_effort=90
 copyright=James/JamesPetts
 intro_year=1898

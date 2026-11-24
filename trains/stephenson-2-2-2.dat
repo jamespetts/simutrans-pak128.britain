@@ -13,6 +13,10 @@ speed=85
 power=45
 # Calculated from data from Ahrons, p. 35
 # Loss factor set at 0.5
+# Fuel: 6560 g of coke per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for Stephenson 2-2-2.
+fuel_per_km=6560
+calibration_speed=85
 tractive_effort=6
 copyright=James/JamesPetts
 intro_year=1838

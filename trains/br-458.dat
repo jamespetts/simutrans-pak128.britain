@@ -5,6 +5,9 @@ name=BR-458(front)
 engine_type=electric
 speed=160
 power=750
+# Fuel: 3196 Wh per km at 160 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=3196
+calibration_speed=160
 tractive_effort=75
 gear=80
 copyright=Kieron/jamespetts/James
@@ -148,6 +151,9 @@ name=BR-458(centre2)
 engine_type=electric
 speed=160
 power=750
+# Fuel: 3196 Wh per km at 160 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=3196
+calibration_speed=160
 tractive_effort=75
 gear=80
 copyright=Kieron/jamespetts/James
@@ -219,6 +225,9 @@ name=BR-458(rear)
 engine_type=electric
 speed=160
 power=750
+# Fuel: 3196 Wh per km at 160 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=3196
+calibration_speed=160
 tractive_effort=75
 gear=80
 copyright=Kieron/jamespetts/James

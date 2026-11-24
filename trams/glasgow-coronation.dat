@@ -6,6 +6,9 @@ engine_type=electric
 speed=67
 gear=80
 power=104
+# Fuel: 1826 Wh per km at 67 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=1826
+calibration_speed=67
 tractive_effort=34
 copyright=James&JamesPetts
 intro_year=1937

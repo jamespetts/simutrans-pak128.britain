@@ -6,6 +6,9 @@ waytype=air
 engine_type=turbine
 speed=907
 power=139320
+# Fuel: 13024 mL per km at 907 km/h (M: JT9D, L/D 15.3). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=13024
+calibration_speed=907
 tractive_effort=774
 #gear=1
 freight=Passagiere
@@ -67,6 +70,9 @@ waytype=air
 engine_type=turbine
 speed=907
 power=139320
+# Fuel: 13024 mL per km at 907 km/h (M: JT9D, L/D 15.3). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=13024
+calibration_speed=907
 tractive_effort=774
 #gear=1
 freight=Passagiere

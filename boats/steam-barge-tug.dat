@@ -5,6 +5,9 @@ smoke=Steam
 speed=8
 power=100
 #gear=1200
+# Fuel: 8611 g per km at 8 km/h. Basis and sources: New/ai/fuel/water.md
+fuel_per_km=8611
+calibration_speed=8
 copyright=Jamespetts
 intro_year=1850
 intro_month=2

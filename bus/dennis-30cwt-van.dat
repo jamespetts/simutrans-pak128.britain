@@ -9,6 +9,9 @@ payload=5
 engine_type=petrol
 # Guessed
 power=18
+# Fuel: 220 mL per km at 34 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=220
+calibration_speed=34
 tractive_effort=5
 gear=50
 speed=34
@@ -55,6 +58,9 @@ payload=5
 engine_type=petrol
 # Guessed
 power=18
+# Fuel: 220 mL per km at 34 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=220
+calibration_speed=34
 tractive_effort=5
 gear=50
 speed=34
@@ -100,6 +106,9 @@ payload=225
 engine_type=petrol
 # Guessed
 power=18
+# Fuel: 220 mL per km at 34 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=220
+calibration_speed=34
 tractive_effort=5
 gear=50
 speed=34

@@ -8,6 +8,9 @@ smoke=Steam
 sound=ship-horn_a.wav
 speed=40
 power=4250
+# Fuel: 55652 g per km at 40 km/h. Basis and sources: New/ai/fuel/water.md
+fuel_per_km=55652
+calibration_speed=40
 weight=800
 length=10
 cost=67500000

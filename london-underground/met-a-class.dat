@@ -8,6 +8,10 @@ speed=95
 # Extrapolated: see data here: http://orion.math.iastate.edu/jdhsmith/term/slgbmet.htm
 power=186
 # Tractive effort calculated using figures from http://orion.math.iastate.edu/jdhsmith/term/slgbmet.htm. Loss factor: 0.7
+# Fuel: 12700 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for Metropolitan A Class.
+fuel_per_km=12700
+calibration_speed=95
 tractive_effort=38
 copyright=James/jamespetts
 intro_year=1864

@@ -18,6 +18,9 @@ overcrowded_capacity=5
 # Cummins B Series engine
 # Lower in power than the Optare version
 power=85
+# Fuel: 290 mL per km at 64 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=290
+calibration_speed=64
 tractive_effort=15
 gear=50
 length=4

@@ -9,6 +9,9 @@ smoke=Diesel
 sound=ship-horn_b.wav
 speed=25
 power=100
+# Fuel: 686 mL per km at 25 km/h. Basis and sources: New/ai/fuel/water.md
+fuel_per_km=686
+calibration_speed=25
 freight=Passagiere
 payload[0]=0
 payload[1]=313

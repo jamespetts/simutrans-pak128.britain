@@ -8,6 +8,10 @@ power=126
 # http://orion.math.iastate.edu/jdhsmith/term/slgblbsc.htm 
 # See also Ahrons p. 202
 # http://www.smileatyou.com/1/5/96/46/1-5-96-46-1.html
+# Fuel: 7700 g of Welsh steam coal per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LBSCR A1 Class.
+fuel_per_km=7700
+calibration_speed=85
 tractive_effort=34
 copyright=Kieron
 intro_year=1872
@@ -107,6 +111,10 @@ speed=85
 # Extrapolated
 power=134
 # http://en.wikipedia.org/wiki/LB%26SCR_A1_class
+# Fuel: 7470 g of Welsh steam coal per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LBSCR A1X Class.
+fuel_per_km=7470
+calibration_speed=85
 tractive_effort=48
 copyright=Kieron
 intro_year=1911

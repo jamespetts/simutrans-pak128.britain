@@ -9,6 +9,10 @@ speed=85
 # Extrapolated (figures from the 2441 used)
 power=192
 # http://en.wikipedia.org/wiki/Midland_Railway_2441_Class
+# Fuel: 11950 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for MR 1632 Class.
+fuel_per_km=11950
+calibration_speed=85
 tractive_effort=93
 copyright=Kieron
 intro_year=1908

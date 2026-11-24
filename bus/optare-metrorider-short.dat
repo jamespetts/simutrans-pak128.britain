@@ -15,6 +15,9 @@ payload=25
 overcrowded_capacity=5
 # Cummins 6BT engine
 power=123
+# Fuel: 300 mL per km at 64 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=300
+calibration_speed=64
 tractive_effort=22
 gear=50
 length=4

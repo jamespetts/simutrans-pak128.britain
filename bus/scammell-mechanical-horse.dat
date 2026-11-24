@@ -6,6 +6,9 @@ copyright=JamesHood
 waytype=road
 engine_type=petrol
 power=34
+# Fuel: 240 mL per km at 50 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=240
+calibration_speed=50
 tractive_effort=9
 gear=50
 speed=50
@@ -44,6 +47,9 @@ copyright=JamesHood
 waytype=road
 engine_type=petrol
 power=20
+# Fuel: 250 mL per km at 32 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=250
+calibration_speed=32
 tractive_effort=5
 gear=50
 speed=32
@@ -83,6 +89,9 @@ waytype=road
 engine_type=diesel
 smoke=Diesel
 power=40
+# Fuel: 200 mL per km at 80 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=200
+calibration_speed=80
 tractive_effort=8
 gear=50
 speed=80

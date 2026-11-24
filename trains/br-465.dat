@@ -6,6 +6,9 @@ engine_type=electric
 speed=120
 gear=80
 power=600
+# Fuel: 3409 Wh per km at 120 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=3409
+calibration_speed=120
 tractive_effort=93
 copyright=Kieron
 intro_year=1991
@@ -130,6 +133,9 @@ engine_type=electric
 speed=120
 gear=80
 power=600
+# Fuel: 3409 Wh per km at 120 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=3409
+calibration_speed=120
 tractive_effort=93
 copyright=Kieron
 intro_year=1991

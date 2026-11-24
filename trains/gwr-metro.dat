@@ -8,6 +8,10 @@ speed=95
 power=189
 # Calculated from data at Ahrons p. 199.
 # Loss factor set to 0.77
+# Fuel: 10430 g of Welsh steam coal per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for GWR 'Metro' tank; coal range at full bunker about 269 km.
+fuel_per_km=10430
+calibration_speed=95
 tractive_effort=50
 copyright=James/JamesPetts
 intro_year=1868

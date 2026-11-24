@@ -14,6 +14,9 @@ speed=72
 # Cummins C8.3 (https://en.wikipedia.org/wiki/Dennis_Lance)
 # https://en.wikipedia.org/wiki/Cummins_C_Series_engine
 power=209
+# Fuel: 330 mL per km at 72 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=330
+calibration_speed=72
 tractive_effort=42
 gear=50
 # Guessed
@@ -69,6 +72,9 @@ speed=72
 # Cummins C8.3 (https://en.wikipedia.org/wiki/Dennis_Lance)
 # https://en.wikipedia.org/wiki/Cummins_C_Series_engine
 power=209
+# Fuel: 330 mL per km at 72 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=330
+calibration_speed=72
 tractive_effort=42
 gear=50
 # Guessed

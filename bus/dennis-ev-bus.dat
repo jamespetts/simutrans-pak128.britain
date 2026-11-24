@@ -11,6 +11,9 @@ overcrowded_capacity=3
 speed=65
 # Guessed to be the same as the Arrow at 100hp. Information on this is inconsistent.
 power=75
+# Fuel: 370 mL per km at 65 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=370
+calibration_speed=65
 tractive_effort=9
 gear=50
 # Guessed

@@ -7,6 +7,9 @@ mixed_load_prohibition=1
 payload=3
 engine_type=petrol
 power=15
+# Fuel: 235 mL per km at 30 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=235
+calibration_speed=30
 tractive_effort=4
 gear=50
 speed=30
@@ -98,6 +101,9 @@ freight=Bretter
 payload=3
 engine_type=petrol
 power=15
+# Fuel: 235 mL per km at 30 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=235
+calibration_speed=30
 tractive_effort=4
 gear=50
 speed=30
@@ -159,6 +165,9 @@ freight=Bucher
 payload=5
 engine_type=petrol
 power=15
+# Fuel: 235 mL per km at 30 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=235
+calibration_speed=30
 tractive_effort=4
 gear=50
 speed=30
@@ -202,6 +211,9 @@ payload=5
 engine_type=petrol
 gear=50
 power=15
+# Fuel: 235 mL per km at 30 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=235
+calibration_speed=30
 tractive_effort=4
 speed=30
 weight=3
@@ -242,6 +254,9 @@ freight=Post
 payload=210
 engine_type=petrol
 power=15
+# Fuel: 235 mL per km at 30 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=235
+calibration_speed=30
 gear=50
 tractive_effort=4
 speed=30

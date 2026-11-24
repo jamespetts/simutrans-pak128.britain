@@ -13,6 +13,9 @@ overcrowded_capacity=3
 speed=50
 # 5.7l diesel engine. Guessed.
 power=47
+# Fuel: 250 mL per km at 50 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=250
+calibration_speed=50
 tractive_effort=7
 gear=50
 # Guessed

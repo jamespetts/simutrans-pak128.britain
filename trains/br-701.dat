@@ -4,6 +4,9 @@ name=BR-701Front
 engine_type=electric
 speed=160
 power=500
+# Fuel: 2131 Wh per km at 160 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=2131
+calibration_speed=160
 tractive_effort=78
 gear=80
 copyright=James, Rollmaterial
@@ -61,6 +64,9 @@ name=BR-701Panto
 engine_type=electric
 speed=160
 power=500
+# Fuel: 2131 Wh per km at 160 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=2131
+calibration_speed=160
 tractive_effort=78
 gear=80
 copyright=James, Rollmaterial
@@ -165,6 +171,9 @@ name=BR-701Middle
 engine_type=electric
 speed=160
 power=500
+# Fuel: 2131 Wh per km at 160 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=2131
+calibration_speed=160
 tractive_effort=78
 gear=80
 copyright=James, Rollmaterial
@@ -222,6 +231,9 @@ name=BR-701PantoRear
 engine_type=electric
 speed=160
 power=500
+# Fuel: 2131 Wh per km at 160 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=2131
+calibration_speed=160
 tractive_effort=78
 gear=80
 copyright=James, Rollmaterial
@@ -274,6 +286,9 @@ name=BR-701Rear
 engine_type=electric
 speed=160
 power=500
+# Fuel: 2131 Wh per km at 160 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=2131
+calibration_speed=160
 tractive_effort=45
 gear=80
 copyright=James, Rollmaterial

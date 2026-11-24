@@ -5,6 +5,9 @@ waytype=air
 engine_type=petrol
 speed=80
 power=100
+# Fuel: 214 mL per km at 80 km/h (E: 1910 mail monoplane, 100 hp; low-aspect-ratio contemporar). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=214
+calibration_speed=80
 tractive_effort=3
 freight=Post
 #payload=100kg

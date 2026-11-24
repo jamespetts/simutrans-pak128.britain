@@ -7,6 +7,10 @@ speed=127
 power=236
 # Tractive calculated using data from
 # http://en.wikipedia.org/wiki/LB%26SCR_Belgravia_class
+# Fuel: 9870 g of Welsh steam coal per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LBSCR Belgravia Class.
+fuel_per_km=9870
+calibration_speed=127
 tractive_effort=44
 copyright=Kieron/JamesPetts
 intro_year=1872

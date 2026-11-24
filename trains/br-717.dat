@@ -5,6 +5,9 @@ name=BR-717Front
 engine_type=electric
 speed=137
 power=400
+# Fuel: 1991 Wh per km at 137 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=1991
+calibration_speed=137
 tractive_effort=85
 gear=80
 copyright=James, Rollmaterial
@@ -168,6 +171,9 @@ name=BR-717MiddlePower
 engine_type=electric
 speed=137
 power=400
+# Fuel: 1991 Wh per km at 137 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=1991
+calibration_speed=137
 tractive_effort=85
 gear=80
 copyright=James, Rollmaterial
@@ -275,6 +281,9 @@ name=BR-717Rear
 engine_type=electric
 speed=137
 power=400
+# Fuel: 1991 Wh per km at 137 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=1991
+calibration_speed=137
 tractive_effort=85
 gear=80
 copyright=James, Rollmaterial

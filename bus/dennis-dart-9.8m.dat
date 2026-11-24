@@ -12,6 +12,9 @@ overcrowded_capacity=26
 speed=75
 # Cummins 6BT engine
 power=123
+# Fuel: 290 mL per km at 75 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=290
+calibration_speed=75
 tractive_effort=22
 gear=50
 weight=7.3
@@ -92,6 +95,9 @@ overcrowded_capacity=28
 speed=75
 # Cummins 6BT engine
 power=123
+# Fuel: 290 mL per km at 75 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=290
+calibration_speed=75
 tractive_effort=22
 gear=50
 weight=7.3

@@ -11,6 +11,9 @@ overcrowded_capacity=0
 speed=64
 # http://storfjorden.no/asite/images/Busser/Bedford_modeller.pdf
 power=62
+# Fuel: 340 mL per km at 64 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=340
+calibration_speed=64
 tractive_effort=4
 gear=50
 weight=3.6

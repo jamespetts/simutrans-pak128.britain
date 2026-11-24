@@ -5,6 +5,10 @@ smoke=Steam
 speed=160
 # Calculated from figures at: https://books.google.co.uk/books?id=GVgiRfFBiTgC&pg=PA437&lpg=PA437&dq=locomotive+coal+%22per+mile%22&source=bl&ots=1R8R332rHP&sig=AeHL9rdFv901TWvON1sPXfXkznE&hl=en&sa=X&ved=0ahUKEwjDjtTbqcfJAhXFzRQKHebyBRY4ChDoAQgeMAA#v=onepage&q=locomotive%20coal%20%22per%20mile%22&f=false
 power=697
+# Fuel: 17190 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for BR 8P 'Duke of Gloucester'; coal range at full bunker about 582 km.
+fuel_per_km=17190
+calibration_speed=160
 tractive_effort=174
 copyright=Kieron/JamesPetts
 intro_year=1954

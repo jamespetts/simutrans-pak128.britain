@@ -6,6 +6,10 @@ speed=145
 # Approximately calibrated based on assumption of 90mph speed with 201t gross
 # load down a 1/175 gradient. (-45.49Kw).
 power=233
+# Fuel: 8510 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LNWR Jumbo.
+fuel_per_km=8510
+calibration_speed=145
 tractive_effort=49
 copyright=James
 intro_year=1887

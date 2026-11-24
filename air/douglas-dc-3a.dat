@@ -5,6 +5,9 @@ waytype=air
 engine_type=petrol
 speed=333
 power=1611
+# Fuel: 1006 mL per km at 333 km/h (M: DC-3A, 2x1,200 hp Twin Wasp, higher cruise). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=1006
+calibration_speed=333
 tractive_effort=9
 freight=Passagiere
 payload[0]=0
@@ -128,6 +131,9 @@ waytype=air
 engine_type=petrol
 speed=333
 power=1611
+# Fuel: 1006 mL per km at 333 km/h (M: DC-3A, 2x1,200 hp Twin Wasp, higher cruise). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=1006
+calibration_speed=333
 tractive_effort=9
 #gear=1
 freight=Post

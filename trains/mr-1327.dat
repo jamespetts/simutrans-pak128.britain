@@ -7,6 +7,10 @@ speed=135
 power=207
 # Calculated from data from Ahrons, p. 214
 # Loss factor set at 0.8
+# Fuel: 8490 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for MR 1327 Class.
+fuel_per_km=8490
+calibration_speed=135
 tractive_effort=50
 copyright=Kieron/JamesPetts
 intro_year=1877

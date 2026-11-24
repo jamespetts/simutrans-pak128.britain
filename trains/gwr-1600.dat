@@ -7,6 +7,10 @@ speed=85
 # Extrapolated
 power=196
 # https://en.wikipedia.org/wiki/GWR_1600_Class
+# Fuel: 11360 g of Welsh steam coal per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for GWR 1600 Class; coal range at full bunker about 264 km.
+fuel_per_km=11360
+calibration_speed=85
 tractive_effort=82
 copyright=Kieron/JamesPetts
 intro_year=1949

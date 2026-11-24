@@ -3,6 +3,9 @@ name=Mersey-EMU(front)
 engine_type=electric
 speed=70
 power=175
+# Fuel: 1875 Wh per km at 70 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=1875
+calibration_speed=70
 gear=80
 tractive_effort=16
 copyright=Junna/Cake
@@ -234,6 +237,9 @@ name=Mersey-EMU(rear)
 engine_type=electric
 speed=70
 power=175
+# Fuel: 1875 Wh per km at 70 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=1875
+calibration_speed=70
 gear=80
 tractive_effort=16
 copyright=Junna/Cake

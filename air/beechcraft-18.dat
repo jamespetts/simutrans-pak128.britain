@@ -7,6 +7,9 @@ waytype=air
 engine_type=petrol
 speed=298
 power=604
+# Fuel: 558 mL per km at 298 km/h (M: Beech 18, 2x450 hp; also D18C). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=558
+calibration_speed=298
 tractive_effort=5
 freight=Passagiere
 payload[0]=0
@@ -63,6 +66,9 @@ waytype=air
 engine_type=petrol
 speed=298
 power=604
+# Fuel: 558 mL per km at 298 km/h (M: Beech 18, 2x450 hp; also D18C). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=558
+calibration_speed=298
 tractive_effort=5
 freight=Post
 # payload: 750kg

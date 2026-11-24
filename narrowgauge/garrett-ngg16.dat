@@ -8,6 +8,10 @@ speed=60
 # Extrapolated
 power=198
 # http://en.wikipedia.org/wiki/South_African_Class_NG_G16_2-6-2%2B2-6-2
+# Fuel: 16250 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for SAR NG G16; coal range at full bunker about 252 km.
+fuel_per_km=16250
+calibration_speed=60
 tractive_effort=84
 copyright=James/jamespetts
 # Sufficiently similar to the NG G13 class to give the earlier introduction date for that class:

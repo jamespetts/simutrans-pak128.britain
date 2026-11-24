@@ -7,6 +7,10 @@ speed=141
 # Extrapolated
 power=393
 # http://en.wikipedia.org/wiki/LMS_Compound_4-4-0
+# Fuel: 12330 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LMS 4P; coal range at full bunker about 454 km.
+fuel_per_km=12330
+calibration_speed=141
 tractive_effort=101
 copyright=James
 intro_year=1924

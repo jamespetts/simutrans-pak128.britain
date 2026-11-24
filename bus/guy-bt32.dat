@@ -9,6 +9,9 @@ overcrowded_capacity=2
 speed=48
 # 60hp
 power=45
+# Fuel: 1050 Wh per km at 48 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=1050
+calibration_speed=48
 tractive_effort=20
 gear=80
 # Guessed

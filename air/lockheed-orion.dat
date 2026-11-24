@@ -8,6 +8,9 @@ waytype=air
 engine_type=petrol
 speed=282
 power=386
+# Fuel: 347 mL per km at 282 km/h (M: Lockheed Orion, 1x550 hp Wasp). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=347
+calibration_speed=282
 tractive_effort=4
 freight=Passagiere
 payload[0]=0
@@ -68,6 +71,9 @@ waytype=air
 engine_type=petrol
 speed=282
 power=386
+# Fuel: 347 mL per km at 282 km/h (M: Lockheed Orion, 1x550 hp Wasp). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=347
+calibration_speed=282
 tractive_effort=4
 freight=Post
 # 500kg

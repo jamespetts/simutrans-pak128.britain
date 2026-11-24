@@ -7,6 +7,9 @@ waytype=air
 engine_type=petrol
 speed=483
 power=9396
+# Fuel: 5182 mL per km at 483 km/h (M: Boeing 377 Stratocruiser, 4x3,500 hp). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=5182
+calibration_speed=483
 tractive_effort=52
 freight=Passagiere
 # Payload: 22.5t

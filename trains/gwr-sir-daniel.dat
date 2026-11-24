@@ -9,6 +9,10 @@ speed=125
 # Extrapolated
 power=195
 # https://en.wikipedia.org/wiki/GWR_378_Class
+# Fuel: 8700 g of Welsh steam coal per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for GWR 378 'Sir Daniel' Class; coal range at full bunker about 379 km.
+fuel_per_km=8700
+calibration_speed=125
 tractive_effort=43
 copyright=James/JamesPetts
 intro_year=1866

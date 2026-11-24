@@ -6,6 +6,10 @@ speed=150
 # Extrapolated
 power=419
 # Tractive effort from Wikipedia: http://en.wikipedia.org/wiki/LNWR_Prince_of_Wales_Class
+# Fuel: 14740 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LNWR Prince of Wales Class.
+fuel_per_km=14740
+calibration_speed=150
 tractive_effort=97
 copyright=James
 intro_year=1911

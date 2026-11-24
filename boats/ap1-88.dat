@@ -7,6 +7,9 @@ smoke=Diesel
 sound=hovercraft.wav
 speed=90
 power=894
+# Fuel: 3423 mL per km at 90 km/h. Basis and sources: New/ai/fuel/water.md
+fuel_per_km=3423
+calibration_speed=90
 gear=100
 freight=Passagiere
 payload[0]=0
@@ -57,6 +60,9 @@ smoke=Diesel
 sound=hovercraft.wav
 speed=90
 power=894
+# Fuel: 3423 mL per km at 90 km/h. Basis and sources: New/ai/fuel/water.md
+fuel_per_km=3423
+calibration_speed=90
 gear=100
 freight=Bucher
 payload=25
@@ -111,6 +117,9 @@ smoke=Diesel
 sound=hovercraft.wav
 speed=90
 power=894
+# Fuel: 3423 mL per km at 90 km/h. Basis and sources: New/ai/fuel/water.md
+fuel_per_km=3423
+calibration_speed=90
 gear=100
 freight=meat
 payload=25

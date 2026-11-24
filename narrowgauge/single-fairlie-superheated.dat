@@ -6,6 +6,10 @@ speed=60
 # Extrapolated approximately - firegrate and heating surface areas not known
 power=46
 # Calculated from values from http://www.festipedia.org.uk/wiki/Taliesin_III 
+# Fuel: 4530 g of Welsh steam coal per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for FR Single Fairle (s' heated).
+fuel_per_km=4530
+calibration_speed=60
 tractive_effort=24
 copyright=James/jamespetts
 # http://www.festipedia.org.uk/wiki/Taliesin

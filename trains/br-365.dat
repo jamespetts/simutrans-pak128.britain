@@ -3,6 +3,9 @@ name=BR-365Front
 engine_type=electric
 speed=160
 power=628
+# Fuel: 3098 Wh per km at 160 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=3098
+calibration_speed=160
 tractive_effort=93
 gear=80
 copyright=Kieron
@@ -172,6 +175,9 @@ name=BR-365Rear
 engine_type=electric
 speed=160
 power=628
+# Fuel: 3098 Wh per km at 160 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=3098
+calibration_speed=160
 tractive_effort=93
 gear=80
 copyright=Kieron

@@ -8,6 +8,9 @@ sound=ship-horn_a.wav
 speed=26
 power=5400
 #gear=1200
+# Fuel: 303325 g per km at 26 km/h. Basis and sources: New/ai/fuel/water.md
+fuel_per_km=303325
+calibration_speed=26
 freight=Passagiere
 payload[0]=0
 payload[1]=3000

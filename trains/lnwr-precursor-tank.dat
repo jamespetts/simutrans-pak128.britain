@@ -6,6 +6,10 @@ speed=120
 # Extrapolated
 power=279
 # http://en.wikipedia.org/wiki/LNWR_Precursor_Tank_Class
+# Fuel: 12000 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LNWR Precursor Tank.
+fuel_per_km=12000
+calibration_speed=120
 tractive_effort=68
 copyright=Kieron/JamesPetts
 intro_year=1906

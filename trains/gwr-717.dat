@@ -8,6 +8,10 @@ speed=112
 # Assumed to be identical to the 806 class except in wheel size.
 power=193
 # Calculated from data given at Ahrons p. 266 with a loss factor of 0.75
+# Fuel: 8840 g of Welsh steam coal per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for GWR 717 Class; coal range at full bunker about 373 km.
+fuel_per_km=8840
+calibration_speed=112
 tractive_effort=52
 copyright=James/JamesPetts
 intro_year=1871

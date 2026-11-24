@@ -6,6 +6,10 @@ speed=100
 # Extrapolated
 power=281
 # http://en.wikipedia.org/wiki/Highland_Railway_Jones_Goods_Class
+# Fuel: 15060 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for HR Jones Goods.
+fuel_per_km=15060
+calibration_speed=100
 tractive_effort=109
 copyright=James
 intro_year=1894

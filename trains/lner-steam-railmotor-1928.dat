@@ -8,6 +8,10 @@ smoke=Steam
 # 300hp: https://www.lner.info/locos/Railcar/sentinel.php
 power=221
 # Guessed
+# Fuel: 10570 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for lner-steam-railmotor-1928.
+fuel_per_km=10570
+calibration_speed=92
 tractive_effort=74
 # Guessed
 speed=92

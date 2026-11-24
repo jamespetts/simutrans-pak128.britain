@@ -8,6 +8,9 @@ freight=Bucher
 payload=5
 engine_type=petrol
 power=22
+# Fuel: 100 mL per km at 80 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=100
+calibration_speed=80
 gear=50
 tractive_effort=4
 speed=80
@@ -47,6 +50,9 @@ freight=meat
 payload=5
 engine_type=petrol
 power=22
+# Fuel: 100 mL per km at 80 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=100
+calibration_speed=80
 gear=50
 tractive_effort=4
 speed=80
@@ -85,6 +91,9 @@ freight=Post
 payload=160
 engine_type=petrol
 power=22
+# Fuel: 100 mL per km at 80 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=100
+calibration_speed=80
 gear=50
 tractive_effort=4
 speed=80

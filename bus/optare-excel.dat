@@ -12,6 +12,9 @@ speed=64
 # Cummins 6BT engine
 # https://en.wikipedia.org/wiki/Cummins_B_Series_engine#6BT
 power=160
+# Fuel: 350 mL per km at 64 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=350
+calibration_speed=64
 tractive_effort=32
 gear=50
 weight=9

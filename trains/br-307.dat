@@ -95,6 +95,9 @@ name=BR-307(centre1)
 engine_type=electric
 speed=120
 power=545
+# Fuel: 3494 Wh per km at 120 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=3494
+calibration_speed=120
 gear=80
 tractive_effort=65
 copyright=Kieron/JamesPetts

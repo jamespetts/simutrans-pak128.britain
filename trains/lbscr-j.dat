@@ -8,6 +8,10 @@ power=398
 # http://www.semgonline.com/steam/jclass.html
 # Note: Wikipedia gives 92.5kN, but this seems 
 # out of keeping with other classes of the period.
+# Fuel: 11730 g of Welsh steam coal per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LBSCR J Class.
+fuel_per_km=11730
+calibration_speed=130
 tractive_effort=84
 copyright=James
 intro_year=1910

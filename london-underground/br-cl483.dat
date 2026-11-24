@@ -4,6 +4,9 @@ engine_type=electric
 speed=72
 gear=80
 power=250
+# Fuel: 2451 Wh per km at 72 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=2451
+calibration_speed=72
 tractive_effort=65
 length=8
 copyright=James
@@ -78,6 +81,9 @@ engine_type=electric
 speed=72
 gear=80
 power=250
+# Fuel: 2451 Wh per km at 72 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=2451
+calibration_speed=72
 tractive_effort=65
 length=8
 copyright=James
@@ -209,6 +215,9 @@ engine_type=electric
 speed=72
 gear=80
 power=250
+# Fuel: 2451 Wh per km at 72 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=2451
+calibration_speed=72
 tractive_effort=65
 length=8
 copyright=James

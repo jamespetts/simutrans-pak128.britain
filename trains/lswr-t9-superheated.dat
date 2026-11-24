@@ -5,6 +5,10 @@ smoke=Steam
 speed=145
 # Extrapolated
 power=318
+# Fuel: 9930 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LSWR T9 (s'heated); coal range at full bunker about 514 km.
+fuel_per_km=9930
+calibration_speed=145
 tractive_effort=81
 copyright=James/JamesPetts
 intro_year=1912

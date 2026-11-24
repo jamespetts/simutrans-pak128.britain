@@ -8,6 +8,9 @@ waytype=air
 engine_type=turbine
 speed=724
 power=15856
+# Fuel: 4758 mL per km at 724 km/h (M: Avon RA.7 turbojet). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=4758
+calibration_speed=724
 tractive_effort=88
 #gear=1
 freight=Passagiere

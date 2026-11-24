@@ -5,6 +5,10 @@ smoke=Steam
 speed=145
 # Extrapolated
 power=500
+# Fuel: 14170 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for SR 'Lord Nelson'; coal range at full bunker about 360 km.
+fuel_per_km=14170
+calibration_speed=145
 tractive_effort=149
 copyright=James
 intro_year=1926

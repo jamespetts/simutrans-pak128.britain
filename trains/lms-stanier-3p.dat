@@ -9,6 +9,10 @@ smoke=Steam
 speed=100
 # Extrapolated
 power=261
+# Fuel: 11590 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LMS 3P Tank (Stanier); coal range at full bunker about 263 km.
+fuel_per_km=11590
+calibration_speed=100
 tractive_effort=96
 copyright=Kieron/JamesPetts
 intro_year=1935
@@ -68,6 +72,10 @@ smoke=Steam
 speed=110
 # Extrapolated (from Hall class rather than BR 4MT, as underpowered)
 power=151
+# Fuel: 11590 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LMS 3P Tank (Stanier); coal range at full bunker about 263 km.
+fuel_per_km=11590
+calibration_speed=110
 tractive_effort=96
 copyright=Kieron/JamesPetts
 intro_year=1935

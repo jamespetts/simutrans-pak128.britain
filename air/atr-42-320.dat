@@ -5,6 +5,9 @@ waytype=air
 engine_type=turbine
 speed=450
 power=3132
+# Fuel: 1282 mL per km at 450 km/h (M: ATR 42-300, 2x PW120). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=1282
+calibration_speed=450
 tractive_effort=25
 freight=Passagiere
 #

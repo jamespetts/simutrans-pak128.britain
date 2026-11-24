@@ -11,6 +11,9 @@ engine_type=turbine
 speed=890
 # Power data not available - inferred from tractive force
 power=103564
+# Fuel: 8924 mL per km at 890 km/h (M: RB.211, L/D 14.5). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=8924
+calibration_speed=890
 tractive_effort=561
 freight=Passagiere
 # http://frequentlyflying.boardingarea.com/wp-content/uploads/2010/12/TWA-L-1011-100-522x1024.jpg
@@ -99,6 +102,9 @@ engine_type=turbine
 speed=890
 # Power data not available - inferred from tractive force
 power=103564
+# Fuel: 8924 mL per km at 890 km/h (M: RB.211, L/D 14.5). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=8924
+calibration_speed=890
 tractive_effort=561
 freight=Passagiere
 # http://frequentlyflying.boardingarea.com/wp-content/uploads/2010/12/TWA-L-1011-100-522x1024.jpg

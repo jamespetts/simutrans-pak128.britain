@@ -8,6 +8,9 @@ smoke=Diesel
 speed=100
 # 2x 150hp: https://railcar.co.uk/type/derby-lightweight/description
 power=224
+# Fuel: 536 mL per km at 100 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=536
+calibration_speed=100
 gear=50
 tractive_effort=52
 copyright=Kieron/JamesPetts
@@ -200,6 +203,9 @@ smoke=Diesel
 speed=100
 # 2x 150hp: https://railcar.co.uk/type/derby-lightweight/description
 power=224
+# Fuel: 536 mL per km at 100 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=536
+calibration_speed=100
 gear=50
 tractive_effort=52
 copyright=Kieron/JamesPetts
@@ -301,6 +307,9 @@ smoke=Diesel
 speed=100
 # 2x 150hp: https://railcar.co.uk/type/derby-lightweight/description
 power=224
+# Fuel: 536 mL per km at 100 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=536
+calibration_speed=100
 gear=50
 tractive_effort=52
 copyright=Kieron/JamesPetts
@@ -570,6 +579,9 @@ smoke=Diesel
 speed=100
 # 2x 150hp: https://railcar.co.uk/type/derby-lightweight/description
 power=224
+# Fuel: 536 mL per km at 100 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=536
+calibration_speed=100
 gear=50
 tractive_effort=52
 copyright=Kieron/JamesPetts

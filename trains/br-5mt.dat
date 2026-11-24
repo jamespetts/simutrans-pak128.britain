@@ -7,6 +7,10 @@ speed=135
 # Sadly, the data sheet is missing, but the summary suggests 1,000Hp, or approx.
 # So, extrapolated.
 power=421
+# Fuel: 14030 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for BR 5MT; coal range at full bunker about 507 km.
+fuel_per_km=14030
+calibration_speed=135
 tractive_effort=116
 copyright=Kieron/JamesPetts
 intro_year=1951

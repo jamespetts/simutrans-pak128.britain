@@ -14,6 +14,9 @@ overcrowded_capacity=10
 speed=64
 # Leyland O.600
 power=93
+# Fuel: 310 mL per km at 64 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=310
+calibration_speed=64
 tractive_effort=12
 gear=50
 weight=9.7
@@ -226,6 +229,9 @@ overcrowded_capacity=11
 speed=64
 # Leyland O.600
 power=84
+# Fuel: 295 mL per km at 64 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=295
+calibration_speed=64
 tractive_effort=16
 gear=50
 weight=9.7

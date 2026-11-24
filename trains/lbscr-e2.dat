@@ -4,6 +4,10 @@ engine_type=steam
 smoke=Steam
 speed=92
 power=237
+# Fuel: 12750 g of Welsh steam coal per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LBSCR E2 Class; coal range at full bunker about 196 km.
+fuel_per_km=12750
+calibration_speed=92
 tractive_effort=95
 copyright=James/jamespetts
 intro_year=1913

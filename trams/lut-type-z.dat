@@ -6,6 +6,9 @@ speed=32
 gear=80
 # 2x 25hp motors (Reed p. 66); 50hp = 37kW
 power=37
+# Fuel: 1445 Wh per km at 32 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=1445
+calibration_speed=32
 tractive_effort=30
 copyright=James/jamespetts
 intro_year=1901

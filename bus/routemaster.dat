@@ -10,6 +10,9 @@ payload=64
 overcrowded_capacity=5
 speed=73
 power=86
+# Fuel: 320 mL per km at 73 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=320
+calibration_speed=73
 tractive_effort=14
 gear=50
 weight=7.47

@@ -12,6 +12,9 @@ payload=30
 overcrowded_capacity=3
 speed=50
 power=36
+# Fuel: 390 mL per km at 50 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=390
+calibration_speed=50
 tractive_effort=5
 gear=50
 # Guessing to be similar to the Regal

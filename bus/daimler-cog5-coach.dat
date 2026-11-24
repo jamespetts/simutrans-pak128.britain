@@ -12,6 +12,9 @@ overcrowded_capacity=0
 speed=64
 # 85HP - Townsin p. 41
 power=63
+# Fuel: 235 mL per km at 64 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=235
+calibration_speed=64
 tractive_effort=7
 gear=50
 # Guessed

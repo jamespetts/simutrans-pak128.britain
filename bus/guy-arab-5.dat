@@ -13,6 +13,9 @@ speed=56
 # Gardner 6LW engine
 # 112hp
 power=82
+# Fuel: 290 mL per km at 56 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=290
+calibration_speed=56
 tractive_effort=12
 gear=56
 # Guessed

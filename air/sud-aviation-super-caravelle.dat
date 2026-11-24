@@ -11,6 +11,9 @@ waytype=air
 engine_type=turbine
 speed=800
 power=20400
+# Fuel: 3377 mL per km at 800 km/h (M: JT8D). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=3377
+calibration_speed=800
 tractive_effort=129
 freight=Passagiere
 payload[0]=0
@@ -68,6 +71,9 @@ waytype=air
 engine_type=turbine
 speed=800
 power=20400
+# Fuel: 3377 mL per km at 800 km/h (M: JT8D). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=3377
+calibration_speed=800
 tractive_effort=129
 freight=Passagiere
 payload[0]=0

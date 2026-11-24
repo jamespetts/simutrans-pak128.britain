@@ -6,6 +6,10 @@ speed=150
 # Extrapolated
 power=361
 # http://en.wikipedia.org/wiki/GNR_Class_C1_%28large_boiler%29
+# Fuel: 12610 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for GNR C1 Class (large boiler).
+fuel_per_km=12610
+calibration_speed=150
 tractive_effort=70
 copyright=Kieron
 intro_year=1902
@@ -67,6 +71,10 @@ speed=150
 # Extrapolated
 power=434
 # http://en.wikipedia.org/wiki/GNR_Class_C1_%28large_boiler%29
+# Fuel: 12400 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for GNR C1 Class (s'heated); coal range at full bunker about 532 km.
+fuel_per_km=12400
+calibration_speed=150
 tractive_effort=77
 copyright=Kieron
 intro_year=1910

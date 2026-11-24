@@ -11,6 +11,9 @@ engine_type=turbine
 # LRC (TAS)
 speed=844
 power=42159
+# Fuel: 4309 mL per km at 844 km/h (S: 737-900ER at 930 km sector: 3.83 kg/km, x0.90, /0.80). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=4309
+calibration_speed=844
 tractive_effort=234
 #gear=1
 freight=Passagiere
@@ -69,6 +72,9 @@ engine_type=turbine
 # LRC (TAS)
 speed=844
 power=42159
+# Fuel: 4309 mL per km at 844 km/h (S: 737-900ER at 930 km sector: 3.83 kg/km, x0.90, /0.80). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=4309
+calibration_speed=844
 tractive_effort=234
 #gear=1
 freight=Passagiere

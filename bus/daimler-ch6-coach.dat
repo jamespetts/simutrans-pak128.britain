@@ -11,6 +11,9 @@ overcrowded_capacity=0
 speed=64
 power=36
 # Better TE owing to epicyclic gearbox (assuming that drivers can change gear faster; but geared for higher top speed)
+# Fuel: 260 mL per km at 64 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=260
+calibration_speed=64
 tractive_effort=5
 gear=50
 # Guessed

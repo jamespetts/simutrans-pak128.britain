@@ -13,6 +13,9 @@ speed=82
 # Power: 96bhp (Phillips p. 36)
 power=72
 # Assumed geared for higher top speed
+# Fuel: 380 mL per km at 82 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=380
+calibration_speed=82
 tractive_effort=7
 gear=50
 # Guessed

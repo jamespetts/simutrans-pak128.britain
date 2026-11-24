@@ -8,6 +8,10 @@ speed=98
 # Extrapolated
 power=274
 # Assuming that the tractive effort given in Wikipedia of 85 is the superheated version
+# Fuel: 11930 g of Welsh steam coal per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for GER 3600 'Birdcage' Class; coal range at full bunker about 252 km.
+fuel_per_km=11930
+calibration_speed=98
 tractive_effort=81
 copyright=James/JamesPetts
 intro_year=1900

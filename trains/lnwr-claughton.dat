@@ -8,6 +8,10 @@ speed=152
 # equivalent to 686kW.
 power=441
 # Tractive effort from Wikipedia: http://en.wikipedia.org/wiki/LNWR_Claughton_Class
+# Fuel: 12850 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LNWR Claughton Class.
+fuel_per_km=12850
+calibration_speed=152
 tractive_effort=120
 copyright=James/jamespetts
 intro_year=1913

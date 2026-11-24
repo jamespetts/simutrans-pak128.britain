@@ -8,6 +8,9 @@ engine_type=turbine
 speed=903
 # Power data not available - inferred from tractive force
 power=118149
+# Fuel: 6826 mL per km at 903 km/h (S: 787-9 at 9,208 km sector: 5.63 kg/km, x0.97, /0.80). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=6826
+calibration_speed=903
 tractive_effort=640
 freight=Passagiere
 payload[0]=0
@@ -64,6 +67,9 @@ engine_type=turbine
 speed=903
 # Power data not available - inferred from tractive force
 power=118149
+# Fuel: 6826 mL per km at 903 km/h (S: 787-9 at 9,208 km sector: 5.63 kg/km, x0.97, /0.80). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=6826
+calibration_speed=903
 tractive_effort=640
 freight=Passagiere
 payload[0]=0

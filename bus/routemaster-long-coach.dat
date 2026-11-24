@@ -9,6 +9,9 @@ freight=Passagiere
 payload=65
 speed=90
 power=86
+# Fuel: 265 mL per km at 90 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=265
+calibration_speed=90
 tractive_effort=11
 gear=50
 weight=8.3

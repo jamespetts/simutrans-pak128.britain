@@ -9,6 +9,9 @@ engine_type=turbine
 speed=935
 # Power data not available - inferred from tractive force
 power=72072
+# Fuel: 7275 mL per km at 935 km/h (M: Conway RCo.43). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=7275
+calibration_speed=935
 tractive_effort=400
 freight=Passagiere
 # 139 in a mixed class arrangement
@@ -84,6 +87,9 @@ engine_type=turbine
 speed=935
 # Power data not available - inferred from tractive force
 power=72072
+# Fuel: 7275 mL per km at 935 km/h (M: Conway RCo.43). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=7275
+calibration_speed=935
 tractive_effort=400
 freight=Passagiere
 # http://www.michaelprophet.com/News_articles/News_articles2010/images_VC10/logo4.jpg

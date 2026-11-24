@@ -112,6 +112,9 @@ name=BR-800MiddlePower
 engine_type=diesel
 speed=200
 power=700
+# Fuel: 712 mL per km at 200 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=712
+calibration_speed=200
 tractive_effort=122
 gear=50
 copyright=Kieron/James/jonbridg
@@ -313,6 +316,9 @@ name=BR-800MiddleComposite
 engine_type=diesel
 speed=200
 power=700
+# Fuel: 712 mL per km at 200 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=712
+calibration_speed=200
 tractive_effort=122
 gear=50
 copyright=Kieron/James/jonbridg
@@ -416,6 +422,9 @@ name=BR-800MiddleFirst
 engine_type=diesel
 speed=200
 power=700
+# Fuel: 712 mL per km at 200 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=712
+calibration_speed=200
 tractive_effort=122
 gear=50
 copyright=Kieron/James/jonbridg
@@ -625,6 +634,9 @@ name=BR-800FrontMS
 engine_type=diesel
 speed=200
 power=700
+# Fuel: 712 mL per km at 200 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=712
+calibration_speed=200
 tractive_effort=122
 gear=50
 copyright=Kieron/James/jonbridg
@@ -727,6 +739,9 @@ name=BR-800RearMS
 engine_type=diesel
 speed=200
 power=700
+# Fuel: 712 mL per km at 200 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=712
+calibration_speed=200
 tractive_effort=122
 gear=50
 copyright=Kieron/James/jonbridg
@@ -936,6 +951,9 @@ name=BR-800Composite18+58
 engine_type=diesel
 speed=200
 power=700
+# Fuel: 712 mL per km at 200 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=712
+calibration_speed=200
 tractive_effort=122
 gear=50
 copyright=Kieron/James/jonbridg

@@ -14,6 +14,9 @@ speed=55
 # albeit with a crash gearbox
 # 102HP - Townsin p. 49
 power=76
+# Fuel: 290 mL per km at 55 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=290
+calibration_speed=55
 tractive_effort=10
 gear=50
 weight=8.0

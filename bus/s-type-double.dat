@@ -10,6 +10,9 @@ overcrowded_capacity=3
 speed=20
 # See "The Story of the London Bus", John Day, p. 56
 power=26
+# Fuel: 500 mL per km at 20 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=500
+calibration_speed=20
 tractive_effort=5
 gear=50
 # An example of this 'bus in the London 'Bus Museum has the unladen weight given as 5t, 1cwt, 2qrs

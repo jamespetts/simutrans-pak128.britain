@@ -9,6 +9,9 @@ waytype=air
 engine_type=turbine
 speed=371
 power=1163
+# Fuel: 940 mL per km at 371 km/h (S: Do 228 at 560 km sector: 0.94 kg/km, x0.80). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=940
+calibration_speed=371
 tractive_effort=10
 freight=Passagiere
 payload[0]=0
@@ -60,6 +63,9 @@ waytype=air
 engine_type=turbine
 speed=371
 power=1163
+# Fuel: 940 mL per km at 371 km/h (S: Do 228 at 560 km sector: 0.94 kg/km, x0.80). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=940
+calibration_speed=371
 tractive_effort=10
 freight=Post
 payload[0]=0

@@ -8,6 +8,9 @@ payload=36
 overcrowded_capacity=2
 speed=34
 power=25
+# Fuel: 1000 Wh per km at 34 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=1000
+calibration_speed=34
 tractive_effort=6
 gear=80
 weight=5.0

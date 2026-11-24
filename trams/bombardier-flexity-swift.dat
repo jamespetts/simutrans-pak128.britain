@@ -11,6 +11,9 @@ power=240
 # https://en.wikipedia.org/wiki/Bombardier_M5000
 # First delivery 13 July 2009 (Manchester)
 # Passenger service since 21 December 2009
+# Fuel: 3409 Wh per km at 80 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=3409
+calibration_speed=80
 tractive_effort=30
 copyright=Kieron
 intro_year=1998
@@ -87,6 +90,9 @@ engine_type=electric
 speed=80
 gear=80
 power=240
+# Fuel: 3409 Wh per km at 80 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=3409
+calibration_speed=80
 tractive_effort=30
 copyright=Kieron
 intro_year=1998

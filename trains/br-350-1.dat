@@ -4,6 +4,9 @@ engine_type=electric
 # Was originally 160, but upgraded in 2012.
 speed=177
 power=750
+# Fuel: 3345 Wh per km at 177 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=3345
+calibration_speed=177
 tractive_effort=100
 gear=80
 copyright=Kieron/jamespetts/James
@@ -270,6 +273,9 @@ name=BR-350-1(rear)
 engine_type=electric
 speed=177
 power=750
+# Fuel: 3345 Wh per km at 177 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=3345
+calibration_speed=177
 tractive_effort=100
 gear=80
 copyright=Kieron/jamespetts/James

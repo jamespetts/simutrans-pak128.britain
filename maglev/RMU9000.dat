@@ -3,6 +3,9 @@ name=BR-M-Class9000
 engine_type=hydrogene
 speed=180
 power=800
+# Fuel: 6275 Wh per km at 180 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=6275
+calibration_speed=180
 gear=90
 copyright=AEO
 intro_year=2015

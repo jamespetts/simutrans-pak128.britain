@@ -8,6 +8,10 @@ engine_type=steam
 speed=16
 # Extrapolated
 power=6
+# Fuel: 2750 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for Kitson Standard no. 3 tram.
+fuel_per_km=2750
+calibration_speed=16
 tractive_effort=18
 copyright=jamespetts
 intro_year=1886

@@ -7,6 +7,9 @@ mixed_load_prohibition=1
 payload=4
 engine_type=petrol
 power=18
+# Fuel: 190 mL per km at 34 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=190
+calibration_speed=34
 tractive_effort=10
 gear=50
 speed=34
@@ -97,6 +100,9 @@ freight=Bretter
 payload=6
 engine_type=petrol
 power=18
+# Fuel: 190 mL per km at 34 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=190
+calibration_speed=34
 tractive_effort=10
 gear=50
 speed=34
@@ -158,6 +164,9 @@ freight=Bucher
 payload=7
 engine_type=petrol
 power=18
+# Fuel: 190 mL per km at 34 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=190
+calibration_speed=34
 tractive_effort=10
 gear=50
 speed=34
@@ -200,6 +209,9 @@ freight=meat
 payload=7
 engine_type=petrol
 power=18
+# Fuel: 190 mL per km at 34 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=190
+calibration_speed=34
 tractive_effort=10
 gear=50
 speed=34
@@ -241,6 +253,9 @@ freight=livestock
 payload=7
 engine_type=petrol
 power=18
+# Fuel: 190 mL per km at 34 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=190
+calibration_speed=34
 tractive_effort=10
 gear=50
 speed=34
@@ -283,6 +298,9 @@ freight=Post
 payload=120
 engine_type=petrol
 power=18
+# Fuel: 190 mL per km at 34 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=190
+calibration_speed=34
 tractive_effort=10
 gear=50
 speed=34
@@ -324,6 +342,9 @@ freight=Autos
 payload=1
 engine_type=petrol
 power=18
+# Fuel: 190 mL per km at 34 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=190
+calibration_speed=34
 tractive_effort=10
 gear=50
 speed=34

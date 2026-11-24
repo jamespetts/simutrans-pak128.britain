@@ -5,6 +5,9 @@ smoke=Diesel-heavy
 speed=145
 gear=50
 power=1864
+# Fuel: 2984 mL per km at 145 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=2984
+calibration_speed=145
 tractive_effort=245
 copyright=Kieron/jamespetts
 intro_year=1960

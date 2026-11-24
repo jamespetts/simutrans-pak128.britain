@@ -5,6 +5,9 @@ waytype=air
 engine_type=turbine
 speed=907
 power=160200
+# Fuel: 13079 mL per km at 907 km/h (M: JT9D/CF6 freighter). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=13079
+calibration_speed=907
 tractive_effort=890
 freight=Post
 #payload=41.5t
@@ -52,6 +55,9 @@ waytype=air
 engine_type=turbine
 speed=907
 power=160200
+# Fuel: 13079 mL per km at 907 km/h (M: JT9D/CF6 freighter). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=13079
+calibration_speed=907
 tractive_effort=890
 freight=Bucher
 #payload=41.5t
@@ -98,6 +104,9 @@ waytype=air
 engine_type=turbine
 speed=907
 power=160200
+# Fuel: 13079 mL per km at 907 km/h (M: JT9D/CF6 freighter). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=13079
+calibration_speed=907
 tractive_effort=890
 freight=fish
 #payload=41.5t

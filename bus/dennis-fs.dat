@@ -12,6 +12,9 @@ speed=75
 # Guessed to be the same as the Arrow at 100hp.
 power=75
 # Lower as assumed geared for high speed
+# Fuel: 360 mL per km at 75 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=360
+calibration_speed=75
 tractive_effort=6
 gear=50
 # Guessed

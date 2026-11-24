@@ -5,6 +5,10 @@ smoke=Steam
 speed=122
 # Extrapolated
 power=273
+# Fuel: 10730 g of Welsh steam coal per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LTSR 37 Class.
+fuel_per_km=10730
+calibration_speed=122
 tractive_effort=77
 copyright=JamesPetts
 intro_year=1897

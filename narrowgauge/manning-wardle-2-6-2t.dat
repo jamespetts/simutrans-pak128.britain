@@ -7,6 +7,10 @@ speed=72
 # Extrapolated
 power=55
 # Calculated using data from: http://orion.math.iastate.edu/jdhsmith/term/slgblb.htm
+# Fuel: 5900 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for Manning-Wardle tank.
+fuel_per_km=5900
+calibration_speed=72
 tractive_effort=30
 copyright=JamesPetts
 intro_year=1898

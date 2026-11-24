@@ -13,6 +13,9 @@ engine_type=electric
 speed=32
 gear=80
 power=45
+# Fuel: 1758 Wh per km at 32 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=1758
+calibration_speed=32
 tractive_effort=26
 copyright=James/jamespetts
 intro_year=1898
@@ -103,6 +106,9 @@ engine_type=electric
 speed=32
 gear=80
 power=60
+# Fuel: 2344 Wh per km at 32 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=2344
+calibration_speed=32
 tractive_effort=35
 copyright=James/jamespetts
 intro_year=1904
@@ -171,6 +177,9 @@ engine_type=electric
 speed=32
 gear=80
 power=89
+# Fuel: 3477 Wh per km at 32 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=3477
+calibration_speed=32
 tractive_effort=52
 copyright=James/jamespetts
 intro_year=1928

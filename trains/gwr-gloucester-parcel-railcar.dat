@@ -5,6 +5,9 @@ smoke=Diesel
 speed=130
 gear=50
 power=195
+# Fuel: 359 mL per km at 130 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=359
+calibration_speed=130
 tractive_effort=30
 copyright=Kieron
 intro_year=1935

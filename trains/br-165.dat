@@ -6,6 +6,9 @@ smoke=Diesel-light
 speed=120
 gear=50
 power=260
+# Fuel: 463 mL per km at 120 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=463
+calibration_speed=120
 tractive_effort=55
 copyright=Kieron
 intro_year=1991
@@ -72,6 +75,9 @@ smoke=Diesel-light
 speed=120
 gear=50
 power=260
+# Fuel: 463 mL per km at 120 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=463
+calibration_speed=120
 tractive_effort=55
 copyright=Kieron
 intro_year=1991
@@ -132,6 +138,9 @@ smoke=Diesel-light
 speed=120
 gear=50
 power=260
+# Fuel: 463 mL per km at 120 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=463
+calibration_speed=120
 tractive_effort=55
 copyright=Kieron
 intro_year=1991

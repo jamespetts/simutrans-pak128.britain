@@ -7,6 +7,10 @@ speed=80
 power=85
 # Calculated from data in http://www.steamindex.com/locotype/lbscrloc.htm  
 # with loss factor of 0.7
+# Fuel: 8380 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LBSCR Sharp well tank.
+fuel_per_km=8380
+calibration_speed=80
 tractive_effort=27
 copyright=James/jamespetts
 intro_year=1847

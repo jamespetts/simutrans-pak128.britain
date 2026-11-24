@@ -5,6 +5,9 @@ waytype=air
 engine_type=turbine
 speed=828
 power=52920
+# Fuel: 4197 mL per km at 828 km/h (S: A321-200 at 1,900 km sector: 3.61 kg/km, x0.93, /0.80; CF). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=4197
+calibration_speed=828
 tractive_effort=294
 #gear=1
 freight=Passagiere
@@ -63,6 +66,9 @@ waytype=air
 engine_type=turbine
 speed=828
 power=52920
+# Fuel: 4197 mL per km at 828 km/h (S: A321-200 at 1,900 km sector: 3.61 kg/km, x0.93, /0.80; CF). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=4197
+calibration_speed=828
 tractive_effort=294
 #gear=1
 freight=Passagiere

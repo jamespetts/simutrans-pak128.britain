@@ -6,6 +6,9 @@ speed=120
 gear=50
 power=750
 # http://en.wikipedia.org/wiki/British_Rail_Class_205
+# Fuel: 1451 mL per km at 120 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=1451
+calibration_speed=120
 tractive_effort=56
 copyright=Kieron
 intro_year=1957

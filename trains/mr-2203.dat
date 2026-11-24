@@ -7,6 +7,10 @@ speed=145
 power=257
 # Calculated using data from http://en.wikipedia.org/wiki/Midland_Railway_Class_2_4-4-0
 # Loss factor set at 0.8
+# Fuel: 9380 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for MR 2203 class.
+fuel_per_km=9380
+calibration_speed=145
 tractive_effort=66
 copyright=Kieron/JamesPetts
 intro_year=1893

@@ -6,6 +6,10 @@ speed=90
 # Extrapolated
 power=208
 # http://en.wikipedia.org/wiki/LMS_Fowler_Class_3F
+# Fuel: 11640 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LMS 3F 'Jinty'; coal range at full bunker about 197 km.
+fuel_per_km=11640
+calibration_speed=90
 tractive_effort=93
 copyright=Kieron
 intro_year=1924
@@ -68,6 +72,10 @@ speed=90
 # Extrapolated
 power=208
 # http://en.wikipedia.org/wiki/LMS_Fowler_Class_3F
+# Fuel: 11640 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LMS 3F 'Jinty'; coal range at full bunker about 197 km.
+fuel_per_km=11640
+calibration_speed=90
 tractive_effort=93
 copyright=Kieron
 intro_year=1924

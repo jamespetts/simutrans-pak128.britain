@@ -12,6 +12,9 @@ engine_type=turbine
 # Boeing 707's economical cruising speed to its maximum cruising speed (slightly above 0.9). 
 speed=848
 power=27849
+# Fuel: 3491 mL per km at 848 km/h (M: Spey RB.168). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=3491
+calibration_speed=848
 tractive_effort=159
 #gear=1
 freight=Passagiere
@@ -97,6 +100,9 @@ engine_type=turbine
 # Boeing 707's economical cruising speed to its maximum cruising speed (slightly above 0.9). 
 speed=848
 power=27849
+# Fuel: 3491 mL per km at 848 km/h (M: Spey RB.168). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=3491
+calibration_speed=848
 tractive_effort=159
 #gear=1
 freight=Passagiere

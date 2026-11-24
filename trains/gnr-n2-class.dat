@@ -7,6 +7,10 @@ speed=107
 # Extrapolated
 power=291
 # https://en.wikipedia.org/wiki/GNR_Class_N2
+# Fuel: 11630 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for GNR N2 Class; coal range at full bunker about 349 km.
+fuel_per_km=11630
+calibration_speed=107
 tractive_effort=89
 copyright=JamesPetts
 intro_year=1920

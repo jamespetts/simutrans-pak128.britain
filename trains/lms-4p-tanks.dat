@@ -5,6 +5,10 @@ smoke=Steam
 speed=126
 # Extrapolated
 power=377
+# Fuel: 13070 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LMS 4P Tank (Fowler); coal range at full bunker about 275 km.
+fuel_per_km=13070
+calibration_speed=126
 tractive_effort=106
 copyright=Kieron/JamesPetts
 intro_year=1927
@@ -73,6 +77,10 @@ smoke=Steam
 speed=126
 # Extrapolated
 power=377
+# Fuel: 13070 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LMS 4P Tank (Fowler); coal range at full bunker about 275 km.
+fuel_per_km=13070
+calibration_speed=126
 tractive_effort=110
 copyright=Kieron/JamesPetts
 intro_year=1935
@@ -132,6 +140,10 @@ speed=126
 # Extrapolated
 power=377
 # Calculated figure: data not otherwise available.
+# Fuel: 13070 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LMS 3 cylinder 4P Tank; coal range at full bunker about 272 km.
+fuel_per_km=13070
+calibration_speed=126
 tractive_effort=168
 copyright=Kieron/JamesPetts
 intro_year=1934
@@ -189,6 +201,10 @@ smoke=Steam
 speed=126
 # Extrapolated
 power=349
+# Fuel: 13620 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LMS Fairburn 4P Tank; coal range at full bunker about 264 km.
+fuel_per_km=13620
+calibration_speed=126
 tractive_effort=109
 copyright=Kieron/JamesPetts
 intro_year=1945

@@ -12,6 +12,9 @@ overcrowded_capacity=20
 speed=72
 # Unable to find this information for the original Swift, so guessed
 power=85
+# Fuel: 280 mL per km at 72 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=280
+calibration_speed=72
 tractive_effort=12
 gear=50
 # An SMS in the London 'Bus Museum is marked as being 7 tons, 12cwt

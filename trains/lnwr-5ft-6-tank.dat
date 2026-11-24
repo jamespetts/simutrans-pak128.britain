@@ -9,6 +9,10 @@ power=173
 # (Mansion House tank), with wheels adjusted to
 # 5'6 as the later engines.
 # Loss factor set at 0.85
+# Fuel: 9240 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LNWR Problem.
+fuel_per_km=9240
+calibration_speed=95
 tractive_effort=48
 copyright=James/jamespetts
 intro_year=1890

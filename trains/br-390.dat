@@ -3,6 +3,9 @@ name=BR-390FrontCab
 engine_type=electric
 speed=225
 power=855
+# Fuel: 3000 Wh per km at 225 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=3000
+calibration_speed=225
 tractive_effort=34
 gear=80
 copyright=Kieron
@@ -66,6 +69,9 @@ name=BR-390FrontCoach
 engine_type=electric
 speed=225
 power=855
+# Fuel: 3000 Wh per km at 225 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=3000
+calibration_speed=225
 gear=80
 tractive_effort=34
 copyright=Kieron
@@ -241,6 +247,9 @@ name=BR-390PoweredCoach
 engine_type=electric
 speed=225
 power=855
+# Fuel: 3000 Wh per km at 225 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=3000
+calibration_speed=225
 gear=80
 tractive_effort=34
 copyright=Kieron
@@ -304,6 +313,9 @@ name=BR-390PoweredCoachFirst
 engine_type=electric
 speed=225
 power=855
+# Fuel: 3000 Wh per km at 225 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=3000
+calibration_speed=225
 gear=80
 tractive_effort=34
 copyright=Kieron
@@ -425,6 +437,9 @@ name=BR-390RearCoach
 engine_type=electric
 speed=225
 power=855
+# Fuel: 3000 Wh per km at 225 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=3000
+calibration_speed=225
 gear=80
 tractive_effort=34
 copyright=Kieron
@@ -483,6 +498,9 @@ name=BR-390RearCab
 engine_type=electric
 speed=225
 power=855
+# Fuel: 3000 Wh per km at 225 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=3000
+calibration_speed=225
 gear=80
 tractive_effort=34
 copyright=Kieron

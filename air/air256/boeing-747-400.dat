@@ -6,6 +6,9 @@ waytype=air
 engine_type=turbine
 speed=907
 power=185580
+# Fuel: 13471 mL per km at 907 km/h (S: 747-400 at 11,000 km sector: 11.11 kg/km, x0.97, /0.80; C). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=13471
+calibration_speed=907
 tractive_effort=1031
 freight=Passagiere
 payload[0]=0
@@ -67,6 +70,9 @@ waytype=air
 engine_type=turbine
 speed=907
 power=185580
+# Fuel: 13471 mL per km at 907 km/h (S: 747-400 at 11,000 km sector: 11.11 kg/km, x0.97, /0.80; C). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=13471
+calibration_speed=907
 tractive_effort=1031
 freight=Passagiere
 payload[0]=0

@@ -5,6 +5,9 @@ engine_type=electric
 speed=200
 # Power an estimate based on Class 331
 power=880
+# Fuel: 3473 Wh per km at 200 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=3473
+calibration_speed=200
 tractive_effort=78
 gear=80
 copyright=Kieron/James/jonbridg
@@ -119,6 +122,9 @@ engine_type=electric
 speed=200
 #power an estimate based on Class 331
 power=880
+# Fuel: 3473 Wh per km at 200 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=3473
+calibration_speed=200
 tractive_effort=78
 gear=80
 copyright=Kieron/James/jonbridg
@@ -227,6 +233,9 @@ engine_type=electric
 speed=200
 #power an estimate based on Class 331
 power=880
+# Fuel: 3473 Wh per km at 200 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=3473
+calibration_speed=200
 tractive_effort=78
 gear=80
 copyright=Kieron/James/jonbridg

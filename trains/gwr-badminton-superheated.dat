@@ -9,6 +9,10 @@ speed=140
 power=325
 # Calculated using figures from: http://orion.math.iastate.edu/jdhsmith/term/slgbgw.htm
 # Loss factor set to 0.85.
+# Fuel: 8890 g of Welsh steam coal per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for GWR 4100 'Badminton' (s'htd); coal range at full bunker about 800 km.
+fuel_per_km=8890
+calibration_speed=140
 tractive_effort=86
 copyright=James/JamesPetts
 intro_year=1911

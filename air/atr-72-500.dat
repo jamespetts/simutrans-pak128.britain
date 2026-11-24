@@ -5,6 +5,9 @@ waytype=air
 engine_type=turbine
 speed=460
 power=3690
+# Fuel: 1744 mL per km at 460 km/h (S: ATR 72-500 at 560 km sector: 1.55 kg/km). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=1744
+calibration_speed=460
 tractive_effort=29
 #gear=1
 freight=Passagiere

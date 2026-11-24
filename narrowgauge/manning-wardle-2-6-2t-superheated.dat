@@ -7,6 +7,10 @@ speed=72
 # Extrapolated
 power=72
 # Calculated using data from: https://en.wikipedia.org/wiki/Lew_(locomotive)
+# Fuel: 6150 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for Manning-Wardle tank (s'heated).
+fuel_per_km=6150
+calibration_speed=72
 tractive_effort=32
 copyright=JamesPetts
 intro_year=1925

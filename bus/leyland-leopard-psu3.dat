@@ -11,6 +11,9 @@ payload=49
 # Leyland O.600 engine
 speed=75
 power=104
+# Fuel: 280 mL per km at 75 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=280
+calibration_speed=75
 tractive_effort=13
 gear=50
 # 11 1/4 tons: https://en.wikipedia.org/wiki/Leyland_Leopard

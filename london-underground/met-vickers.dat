@@ -6,6 +6,9 @@ engine_type=electric
 speed=105
 gear=80
 power=890
+# Fuel: 6357 Wh per km at 105 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=6357
+calibration_speed=105
 tractive_effort=100
 copyright=Kieron
 intro_year=1922

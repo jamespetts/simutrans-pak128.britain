@@ -8,6 +8,10 @@ speed=89
 # Extrapolated: see data here: https://orion.math.iastate.edu/jdhsmith/term/slgbsecr.htm
 power=216
 # http://en.wikipedia.org/wiki/SER_Q_class
+# Fuel: 11770 g of Welsh steam coal per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for Met C Class.
+fuel_per_km=11770
+calibration_speed=89
 tractive_effort=68
 copyright=James/jamespetts
 intro_year=1891

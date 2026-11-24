@@ -5,6 +5,10 @@ smoke=Steam
 speed=45
 # Estimated
 power=40
+# Fuel: 11010 g of coke per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LMR Lion.
+fuel_per_km=11010
+calibration_speed=45
 tractive_effort=9
 copyright=Kieron
 intro_year=1837

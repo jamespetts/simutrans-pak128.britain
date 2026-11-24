@@ -7,6 +7,9 @@ waytype=air
 engine_type=turbine
 speed=437
 power=3956
+# Fuel: 1526 mL per km at 437 km/h (M: BAe ATP, 2x PW126). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=1526
+calibration_speed=437
 tractive_effort=28
 freight=Passagiere
 payload[0]=0
@@ -64,6 +67,9 @@ waytype=air
 engine_type=turbine
 speed=437
 power=3956
+# Fuel: 1526 mL per km at 437 km/h (M: BAe ATP, 2x PW126). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=1526
+calibration_speed=437
 tractive_effort=28
 freight=Passagiere
 payload[0]=0

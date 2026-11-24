@@ -9,6 +9,9 @@ engine_type=turbine
 speed=894
 # Power data not available - inferred from tractive force
 power=118240
+# Fuel: 8989 mL per km at 894 km/h (M: RB.211-524, L/D 14.5). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=8989
+calibration_speed=894
 tractive_effort=641
 freight=Passagiere
 # http://frequentlyflying.boardingarea.com/wp-content/uploads/2011/11/DL-L-1011-500-Intl-515x1024.jpg
@@ -73,6 +76,9 @@ engine_type=turbine
 speed=894
 # Power data not available - inferred from tractive force
 power=118240
+# Fuel: 8989 mL per km at 894 km/h (M: RB.211-524, L/D 14.5). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=8989
+calibration_speed=894
 tractive_effort=641
 freight=Passagiere
 # http://frequentlyflying.boardingarea.com/wp-content/uploads/2011/11/DL-L-1011-500-Intl-515x1024.jpg

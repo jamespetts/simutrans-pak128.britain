@@ -8,6 +8,9 @@ waytype=air
 engine_type=turbine
 speed=805
 power=28195
+# Fuel: 5149 mL per km at 805 km/h (M: Avon RA.29 turbojet). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=5149
+calibration_speed=805
 tractive_effort=187
 #gear=1
 freight=Passagiere
@@ -76,6 +79,9 @@ waytype=air
 engine_type=turbine
 speed=805
 power=28195
+# Fuel: 5149 mL per km at 805 km/h (M: Avon RA.29 turbojet). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=5149
+calibration_speed=805
 tractive_effort=187
 #gear=1
 freight=Passagiere

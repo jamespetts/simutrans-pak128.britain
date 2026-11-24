@@ -10,6 +10,9 @@ overcrowded_capacity=3
 speed=50
 # "Big four" engine 6.786l. Power not given, so guessed.
 power=78
+# Fuel: 165 mL per km at 50 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=165
+calibration_speed=50
 tractive_effort=9
 gear=50
 # Guessed

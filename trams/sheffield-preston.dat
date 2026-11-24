@@ -6,6 +6,9 @@ gear=80
 # http://en.wikipedia.org/wiki/Tramcars_of_the_Sheffield_Tramway
 # These use 2x. 35hp motors. 70hp = 52kW
 power=52
+# Fuel: 2031 Wh per km at 32 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=2031
+calibration_speed=32
 tractive_effort=35
 copyright=James/jamespetts
 intro_year=1907

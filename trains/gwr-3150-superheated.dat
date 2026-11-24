@@ -6,6 +6,10 @@ speed=105
 # Extrapolated
 power=326
 # https://en.wikipedia.org/wiki/GWR_3150_Class
+# Fuel: 12040 g of Welsh steam coal per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for GWR 3150 Class (superheated); coal range at full bunker about 282 km.
+fuel_per_km=12040
+calibration_speed=105
 tractive_effort=114
 copyright=James/JamesPetts
 intro_year=1912

@@ -5,6 +5,10 @@ smoke=Steam
 speed=105
 # Extrapolated
 power=97
+# Fuel: 7860 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for GNR Wilson Single.
+fuel_per_km=7860
+calibration_speed=105
 tractive_effort=28
 copyright=James/JamesPetts
 intro_year=1847

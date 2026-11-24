@@ -5,6 +5,9 @@ waytype=water
 engine_type=steam
 speed=15
 power=200
+# Fuel: 3578 g per km at 15 km/h. Basis and sources: New/ai/fuel/water.md
+fuel_per_km=3578
+calibration_speed=15
 smoke=Steam
 sound=ship-horn_b.wav
 freight=vegetables
@@ -60,6 +63,9 @@ waytype=water
 engine_type=steam
 speed=15
 power=200
+# Fuel: 3578 g per km at 15 km/h. Basis and sources: New/ai/fuel/water.md
+fuel_per_km=3578
+calibration_speed=15
 smoke=Steam
 freight=meat
 payload=45
@@ -114,6 +120,9 @@ waytype=water
 engine_type=steam
 speed=15
 power=200
+# Fuel: 3578 g per km at 15 km/h. Basis and sources: New/ai/fuel/water.md
+fuel_per_km=3578
+calibration_speed=15
 smoke=Steam
 freight=Post
 payload=450

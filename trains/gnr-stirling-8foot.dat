@@ -12,6 +12,10 @@ speed=135
 power=203
 # Calculated from information on http://en.wikipedia.org/wiki/GNR_Stirling_4-2-2
 # Loss factor set at 0.75
+# Fuel: 7660 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for GNR Stirling 8ft single G class.
+fuel_per_km=7660
+calibration_speed=135
 tractive_effort=45
 copyright=Kieron
 intro_year=1870
@@ -41,9 +45,6 @@ years_before_maintenance_max_reached=31
 
 override_way_speed=0
 self_contained_catering=0
-calibration_speed=75
-cut_off_speed=40
-fuel_per_km=7650 # Grammes of coal per km at calibration speed at full power
 
 driver[0]=1
 staff[1]=1

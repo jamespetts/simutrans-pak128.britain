@@ -5,6 +5,9 @@ engine_type=steam
 smoke=Steam
 waytype=road
 power=8
+# Fuel: 6260 g per km at 15 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=6260
+calibration_speed=15
 tractive_effort=16
 speed=15
 weight=5
@@ -44,6 +47,9 @@ engine_type=steam
 smoke=Steam
 waytype=road
 power=10
+# Fuel: 7000 g per km at 20 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=7000
+calibration_speed=20
 tractive_effort=27
 speed=20
 weight=7

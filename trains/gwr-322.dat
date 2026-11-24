@@ -8,6 +8,10 @@ speed=75
 # Extrapolated
 power=171
 # Assumed to be an 0-6-0 version of the 157 "Sharp" class class with 4ft6 wheels
+# Fuel: 12750 g of Welsh steam coal per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for GWR 322 'Beyer' Class; coal range at full bunker about 259 km.
+fuel_per_km=12750
+calibration_speed=75
 tractive_effort=50
 copyright=James/JamesPetts
 intro_year=1864

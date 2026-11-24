@@ -4,6 +4,9 @@ engine_type=electric
 speed=85
 gear=80
 power=150
+# Fuel: 1203 Wh per km at 85 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=1203
+calibration_speed=85
 tractive_effort=40
 copyright=Kieron
 intro_year=2007
@@ -57,6 +60,9 @@ engine_type=electric
 speed=85
 gear=80
 power=150
+# Fuel: 1203 Wh per km at 85 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=1203
+calibration_speed=85
 tractive_effort=40
 copyright=Kieron
 intro_year=2007

@@ -6,6 +6,10 @@ speed=150
 # Extrapolated
 power=377
 # http://en.wikipedia.org/wiki/GWR_2900_Class
+# Fuel: 11520 g of Welsh steam coal per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for GWR 2900 'Saint'; coal range at full bunker about 617 km.
+fuel_per_km=11520
+calibration_speed=150
 tractive_effort=91
 copyright=Kieron/JamesPetts
 intro_year=1902

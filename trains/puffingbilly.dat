@@ -7,6 +7,10 @@ speed=10
 # https://ia600309.us.archive.org/17/items/evolutionofsteam00nokerich/evolutionofsteam00nokerich.pdf
 power=8
 # http://www.steamlocomotive.com/locobase.php?country=Great_Britain&wheel=0-4-0&railroad=wylam
+# Fuel: 17540 g of coke per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for Puffing Billy.
+fuel_per_km=17540
+calibration_speed=10
 tractive_effort=1
 copyright=James
 intro_year=1813

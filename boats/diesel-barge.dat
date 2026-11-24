@@ -7,6 +7,9 @@ smoke=Diesel
 speed=8
 power=50
 #gear=1200
+# Fuel: 774 mL per km at 8 km/h. Basis and sources: New/ai/fuel/water.md
+fuel_per_km=774
+calibration_speed=8
 freight=Kohle
 payload=50
 weight=20
@@ -171,6 +174,9 @@ smoke=Diesel
 speed=8
 power=50
 #gear=1200
+# Fuel: 774 mL per km at 8 km/h. Basis and sources: New/ai/fuel/water.md
+fuel_per_km=774
+calibration_speed=8
 freight=Bretter
 payload=50
 weight=20
@@ -279,6 +285,9 @@ smoke=Diesel
 speed=8
 power=50
 #gear=1200
+# Fuel: 774 mL per km at 8 km/h. Basis and sources: New/ai/fuel/water.md
+fuel_per_km=774
+calibration_speed=8
 freight=vegetables
 payload=50
 weight=20
@@ -365,6 +374,9 @@ smoke=Diesel
 speed=8
 power=50
 #gear=1200
+# Fuel: 774 mL per km at 8 km/h. Basis and sources: New/ai/fuel/water.md
+fuel_per_km=774
+calibration_speed=8
 freight=fish
 payload=50
 weight=20
@@ -451,6 +463,9 @@ smoke=Diesel
 speed=8
 power=50
 #gear=1200
+# Fuel: 774 mL per km at 8 km/h. Basis and sources: New/ai/fuel/water.md
+fuel_per_km=774
+calibration_speed=8
 freight=Oel
 payload=50
 weight=20
@@ -537,6 +552,9 @@ smoke=Diesel
 speed=8
 power=50
 #gear=1200
+# Fuel: 774 mL per km at 8 km/h. Basis and sources: New/ai/fuel/water.md
+fuel_per_km=774
+calibration_speed=8
 freight=livestock
 payload=50
 weight=20

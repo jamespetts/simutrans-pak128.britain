@@ -6,6 +6,10 @@ speed=90
 # Extrapolated
 power=445
 # https://en.wikipedia.org/wiki/GWR_2884_Class
+# Fuel: 18800 g of Welsh steam coal per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for GWR 2884 Class; coal range at full bunker about 218 km.
+fuel_per_km=18800
+calibration_speed=90
 tractive_effort=157
 copyright=James/JamesPetts
 intro_year=1938

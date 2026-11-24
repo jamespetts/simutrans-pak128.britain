@@ -7,6 +7,10 @@ speed=130
 power=337
 # Calculated from figures at: http://www.smex.net.au/Reference/TractiveEffort02.php
 # Efficiency factor of 0.85 used, as this is a superheated locomotive music.
+# Fuel: 11210 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LNWR PoW Tank.
+fuel_per_km=11210
+calibration_speed=130
 tractive_effort=102
 copyright=James
 intro_year=1910

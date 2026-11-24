@@ -6,6 +6,9 @@ engine_type=diesel
 smoke=Diesel
 speed=45
 power=300
+# Fuel: 1310 mL per km at 45 km/h. Basis and sources: New/ai/fuel/water.md
+fuel_per_km=1310
+calibration_speed=45
 freight=Passagiere
 payload[0]=0
 payload[1]=51

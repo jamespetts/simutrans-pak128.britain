@@ -5,6 +5,9 @@ smoke=Diesel-heavy
 speed=97
 gear=50
 power=671
+# Fuel: 1606 mL per km at 97 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=1606
+calibration_speed=97
 tractive_effort=178
 copyright=Junna/Cake
 intro_year=1962

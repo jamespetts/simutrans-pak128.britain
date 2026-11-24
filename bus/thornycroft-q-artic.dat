@@ -5,6 +5,9 @@ copyright=JamesPetts&JamesHood
 waytype=road
 engine_type=petrol
 power=37
+# Fuel: 300 mL per km at 34 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=300
+calibration_speed=34
 tractive_effort=13
 gear=50
 speed=34

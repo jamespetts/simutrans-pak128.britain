@@ -7,6 +7,10 @@ speed=85
 power=259
 # Tractive effort data unavailalbe: guessed from similar classes:
 # http://en.wikipedia.org/wiki/LNWR_G_Class
+# Fuel: 16180 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LNWR B Class.
+fuel_per_km=16180
+calibration_speed=85
 tractive_effort=104
 copyright=James
 intro_year=1901

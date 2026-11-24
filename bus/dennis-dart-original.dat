@@ -10,6 +10,9 @@ speed=80
 gear=50
 # 65bhp: Baldwin p. 48
 power=48
+# Fuel: 325 mL per km at 80 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=325
+calibration_speed=80
 tractive_effort=6
 copyright=Kieron/JamesPetts
 intro_year=1929

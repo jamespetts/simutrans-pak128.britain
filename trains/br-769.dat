@@ -180,6 +180,9 @@ name=BR-769Motor
 engine_type=diesel
 speed=145
 power=780
+# Fuel: 1095 mL per km at 145 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=1095
+calibration_speed=145
 gear=58
 tractive_effort=130
 copyright=Kieron/jonbridg

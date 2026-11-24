@@ -9,6 +9,9 @@ engine_type=turbine
 # LRC (TAS)
 speed=839
 power=46842
+# Fuel: 3420 mL per km at 839 km/h (S: 737 MAX 8 at 1,220 km sector: 3.04 kg/km, x0.90, /0.80). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=3420
+calibration_speed=839
 tractive_effort=260
 freight=Passagiere
 payload[0]=0
@@ -68,6 +71,9 @@ engine_type=turbine
 # LRC (TAS)
 speed=839
 power=46842
+# Fuel: 3420 mL per km at 839 km/h (S: 737 MAX 8 at 1,220 km sector: 3.04 kg/km, x0.90, /0.80). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=3420
+calibration_speed=839
 tractive_effort=260
 freight=Passagiere
 payload[0]=200

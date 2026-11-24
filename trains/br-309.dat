@@ -3,6 +3,9 @@ name=BR-309-1Front
 engine_type=electric
 speed=160
 power=846
+# Fuel: 4067 Wh per km at 160 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=4067
+calibration_speed=160
 tractive_effort=70
 gear=80
 copyright=Kieron
@@ -356,6 +359,9 @@ name=BR-309Power
 engine_type=electric
 speed=160
 power=846
+# Fuel: 4067 Wh per km at 160 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=4067
+calibration_speed=160
 tractive_effort=70
 gear=80
 copyright=Kieron

@@ -14,6 +14,10 @@ speed=160
 # gradient. 577.84kW assuming on the level, + 108.87kW for gradient
 power=687
 # http://en.wikipedia.org/wiki/LNER_Class_A4
+# Fuel: 16270 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LNER A4 Class; coal range at full bunker about 498 km.
+fuel_per_km=16270
+calibration_speed=160
 tractive_effort=158
 copyright=Kieron
 intro_year=1935

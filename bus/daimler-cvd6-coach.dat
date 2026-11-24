@@ -12,6 +12,9 @@ overcrowded_capacity=0
 speed=72
 # Guessed
 power=64
+# Fuel: 245 mL per km at 72 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=245
+calibration_speed=72
 tractive_effort=7
 gear=50
 # Guessed

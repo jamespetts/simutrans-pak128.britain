@@ -9,6 +9,10 @@ power=232
 # Tractive effort calculated using figures from Ahrons, p. 174. Loss factor: 0.7
 # Note: This is based on the specifications in the state as modified by the Taff Vale,
 # or else the tractive effort is exceptionally high.
+# Fuel: 19310 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for Metropolitan Burnett tank.
+fuel_per_km=19310
+calibration_speed=74
 tractive_effort=54
 copyright=James/jamespetts
 intro_year=1868

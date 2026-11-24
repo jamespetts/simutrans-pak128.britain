@@ -8,6 +8,9 @@ waytype=air
 engine_type=petrol
 speed=547
 power=9696
+# Fuel: 4133 mL per km at 547 km/h (M: L-1049G, 4x3,250 hp). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=4133
+calibration_speed=547
 tractive_effort=69
 freight=Passagiere
 payload[0]=0
@@ -72,6 +75,9 @@ waytype=air
 engine_type=petrol
 speed=547
 power=9696
+# Fuel: 4133 mL per km at 547 km/h (M: L-1049G, 4x3,250 hp). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=4133
+calibration_speed=547
 tractive_effort=69
 freight=Passagiere
 payload[0]=0

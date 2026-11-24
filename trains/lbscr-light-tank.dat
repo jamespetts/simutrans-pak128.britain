@@ -7,6 +7,10 @@ speed=76
 # Extrapolated 
 power=93
 # Calculated from data obtained from http://www.steamindex.com/locotype/lbscrloc.htm
+# Fuel: 11460 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LBSCR Kemp Town tank.
+fuel_per_km=11460
+calibration_speed=76
 tractive_effort=25
 copyright=Kieron/JamesPetts
 intro_year=1869

@@ -5,6 +5,9 @@ waytype=air
 engine_type=petrol
 speed=293
 power=1477
+# Fuel: 1233 mL per km at 293 km/h (M: DC-3, 2x1,200 hp Cyclone; capacity/range check 3,043 L / ). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=1233
+calibration_speed=293
 tractive_effort=9
 freight=Passagiere
 payload[0]=0
@@ -127,6 +130,9 @@ waytype=air
 engine_type=petrol
 speed=293
 power=1477
+# Fuel: 1233 mL per km at 293 km/h (M: DC-3, 2x1,200 hp Cyclone; capacity/range check 3,043 L / ). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=1233
+calibration_speed=293
 tractive_effort=9
 #gear=1
 freight=Post

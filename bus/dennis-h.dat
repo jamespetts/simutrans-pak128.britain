@@ -11,6 +11,9 @@ overcrowded_capacity=3
 speed=32
 # Same engine as the E - see Baldwin p. 37
 power=52
+# Fuel: 480 mL per km at 32 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=480
+calibration_speed=32
 tractive_effort=7
 gear=50
 # Guessed

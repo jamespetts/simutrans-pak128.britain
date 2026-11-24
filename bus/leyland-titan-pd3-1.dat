@@ -13,6 +13,9 @@ overcrowded_capacity=5
 speed=55
 # 150BHP - https://en.wikipedia.org/wiki/Leyland_Titan_(front-engined_double-decker)#PD3
 power=112
+# Fuel: 300 mL per km at 55 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=300
+calibration_speed=55
 tractive_effort=14
 gear=50
 # Guessed

@@ -8,6 +8,10 @@ speed=40
 # Extrapolated
 power=13
 # https://www.bala-lake-railway.co.uk/stock/Alice/alice.html
+# Fuel: 2750 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for Hunslet 'Alice' Class.
+fuel_per_km=2750
+calibration_speed=40
 tractive_effort=11
 copyright=James/jamespetts
 # See Ffestiniog illustrated stock list p. 40

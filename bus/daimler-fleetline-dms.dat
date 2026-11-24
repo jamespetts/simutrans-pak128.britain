@@ -16,6 +16,9 @@ speed=64
 # Gardner 6XLB engine, 180HP
 # Townsin p. 119
 power=134
+# Fuel: 320 mL per km at 64 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=320
+calibration_speed=64
 tractive_effort=15
 gear=50
 weight=10.0

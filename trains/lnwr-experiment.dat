@@ -6,6 +6,10 @@ speed=143
 # Extrapolated
 power=330
 # Tractive effort from Wikipedia: http://en.wikipedia.org/wiki/LNWR_Whale_Experiment_Class
+# Fuel: 12240 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LNWR 'Experiment' Class.
+fuel_per_km=12240
+calibration_speed=143
 tractive_effort=83
 copyright=James
 intro_year=1904

@@ -9,6 +9,10 @@ speed=45
 # Calibration gives a power of 8, but this is clearly too low in practice.
 power=14
 # Calculated from values from "Ffestiniog & Welsh Highland Railways - illustrated stock list" (2011 ed.) p. 20
+# Fuel: 2930 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for FR George England.
+fuel_per_km=2930
+calibration_speed=45
 tractive_effort=17
 copyright=James/jamespetts
 intro_year=1863

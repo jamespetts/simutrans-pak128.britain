@@ -5,6 +5,9 @@ name=BR-387Front
 engine_type=electric
 speed=177
 power=600
+# Fuel: 2676 Wh per km at 177 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=2676
+calibration_speed=177
 tractive_effort=44
 gear=80
 copyright=Kieron
@@ -82,6 +85,9 @@ name=BR-387Middle
 engine_type=electric
 speed=177
 power=600
+# Fuel: 2676 Wh per km at 177 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=2676
+calibration_speed=177
 tractive_effort=44
 gear=80
 copyright=Kieron
@@ -149,6 +155,9 @@ name=BR-387Middle2
 engine_type=electric
 speed=177
 power=600
+# Fuel: 2676 Wh per km at 177 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=2676
+calibration_speed=177
 tractive_effort=44
 gear=80
 copyright=Kieron
@@ -285,6 +294,9 @@ name=BR-387Rear
 engine_type=electric
 speed=177
 power=600
+# Fuel: 2676 Wh per km at 177 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=2676
+calibration_speed=177
 tractive_effort=44
 gear=80
 copyright=Kieron

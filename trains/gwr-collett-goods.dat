@@ -7,6 +7,10 @@ speed=88
 # Extrapolated
 power=280
 # https://en.wikipedia.org/wiki/GWR_2251_Class
+# Fuel: 12060 g of Welsh steam coal per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for GWR 2251 'Collett Goods'; coal range at full bunker about 423 km.
+fuel_per_km=12060
+calibration_speed=88
 tractive_effort=90
 copyright=James/JamesPetts
 intro_year=1930

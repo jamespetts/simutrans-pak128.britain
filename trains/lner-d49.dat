@@ -6,6 +6,10 @@ speed=145
 # Extrapolated
 power=386
 # http://en.wikipedia.org/wiki/LNER_Class_D49
+# Fuel: 10940 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LNER D49 Class; coal range at full bunker about 375 km.
+fuel_per_km=10940
+calibration_speed=145
 tractive_effort=96
 copyright=James/jamespetts
 intro_year=1927

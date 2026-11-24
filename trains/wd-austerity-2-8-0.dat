@@ -5,6 +5,10 @@ smoke=Steam
 speed=90
 # Extrapolated
 power=384
+# Fuel: 19660 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for WD 2-8-0; coal range at full bunker about 463 km.
+fuel_per_km=19660
+calibration_speed=90
 tractive_effort=152
 copyright=Kieron
 intro_year=1943

@@ -14,6 +14,9 @@ freight=Passagiere
 payload=42
 overcrowded_capacity=18
 power=166
+# Fuel: 340 mL per km at 75 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=340
+calibration_speed=75
 tractive_effort=33
 gear=50
 length=6

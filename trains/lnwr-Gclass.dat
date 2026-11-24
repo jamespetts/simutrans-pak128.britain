@@ -6,6 +6,10 @@ speed=85
 # Extrapolated
 power=356
 # http://en.wikipedia.org/wiki/LNWR_G_Class
+# Fuel: 17220 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LNWR G1 Class.
+fuel_per_km=17220
+calibration_speed=85
 tractive_effort=114
 copyright=James
 intro_year=1912

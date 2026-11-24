@@ -6,6 +6,9 @@ engine_type=diesel
 smoke=Diesel
 speed=46
 power=1000
+# Fuel: 4141 mL per km at 46 km/h. Basis and sources: New/ai/fuel/water.md
+fuel_per_km=4141
+calibration_speed=46
 freight=Passagiere
 payload[0]=0
 payload[1]=138
@@ -50,6 +53,9 @@ engine_type=diesel
 smoke=Diesel
 speed=52
 power=1200
+# Fuel: 4396 mL per km at 52 km/h. Basis and sources: New/ai/fuel/water.md
+fuel_per_km=4396
+calibration_speed=52
 freight=Passagiere
 payload[0]=0
 payload[1]=220

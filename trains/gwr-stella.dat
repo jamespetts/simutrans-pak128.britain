@@ -9,6 +9,10 @@ speed=87
 power=252
 # Calculated from data given at https://en.wikipedia.org/wiki/GWR_3201_Class
 # (assuming a boiler pressure of 160psi) with a loss factor of 0.8
+# Fuel: 13870 g of Welsh steam coal per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for GWR 3201 'Stella' Class; coal range at full bunker about 330 km.
+fuel_per_km=13870
+calibration_speed=87
 tractive_effort=61
 copyright=James/JamesPetts
 intro_year=1884

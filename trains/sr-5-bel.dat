@@ -7,6 +7,9 @@ engine_type=electric
 # http://extra.southernelectric.org.uk/features/historical-features/fleet_bel.html
 speed=120
 power=671
+# Fuel: 3947 Wh per km at 120 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=3947
+calibration_speed=120
 gear=80
 tractive_effort=63
 copyright=JamesPetts
@@ -387,6 +390,9 @@ engine_type=electric
 # http://extra.southernelectric.org.uk/features/historical-features/fleet_bel.html
 speed=120
 power=671
+# Fuel: 3947 Wh per km at 120 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=3947
+calibration_speed=120
 gear=80
 tractive_effort=63
 copyright=JamesPetts

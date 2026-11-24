@@ -7,6 +7,9 @@ gear=80
 # Tractive and brake forces calculated from acceleration
 # 4 doors, total weight 66t
 power=290
+# Fuel: 3295 Wh per km at 100 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=3295
+calibration_speed=100
 tractive_effort=32
 brake_force=20
 copyright=James
@@ -58,6 +61,9 @@ speed=100
 gear=80
 # https://en.wikipedia.org/wiki/British_Rail_Class_399
 power=290
+# Fuel: 3295 Wh per km at 100 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=3295
+calibration_speed=100
 tractive_effort=32
 brake_force=40
 copyright=James
@@ -108,6 +114,9 @@ speed=100
 gear=80
 # https://en.wikipedia.org/wiki/British_Rail_Class_399
 power=290
+# Fuel: 3295 Wh per km at 100 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=3295
+calibration_speed=100
 tractive_effort=32
 brake_force=20
 copyright=James

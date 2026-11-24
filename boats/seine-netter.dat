@@ -6,6 +6,9 @@ engine_type=diesel
 speed=30
 power=1250
 #gear=1200
+# Fuel: 1264 mL per km at 30 km/h. Basis and sources: New/ai/fuel/water.md
+fuel_per_km=1264
+calibration_speed=30
 freight=FreshFish
 payload=50
 weight=40
@@ -47,6 +50,9 @@ engine_type=steam
 speed=25
 power=1000
 #gear=1200
+# Fuel: 3518 g per km at 25 km/h. Basis and sources: New/ai/fuel/water.md
+fuel_per_km=3518
+calibration_speed=25
 freight=FreshFish
 payload=55
 weight=40

@@ -8,6 +8,10 @@ speed=110
 # Data not available, so guessed. Known to be smaller than the 717 class.
 power=176
 # Data not available, so guessed. Known to be smaller than the 717 class.
+# Fuel: 8370 g of Welsh steam coal per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for GWR 481 Class; coal range at full bunker about 394 km.
+fuel_per_km=8370
+calibration_speed=110
 tractive_effort=40
 copyright=James/JamesPetts
 # Actually introduced in 1869, but the earlier "Bicycle" class was built

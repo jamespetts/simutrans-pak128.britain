@@ -8,6 +8,10 @@ smoke=Steam
 speed=16
 # Extrapolated
 power=3
+# Fuel: 1720 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for Wilkinson tram engine.
+fuel_per_km=1720
+calibration_speed=16
 tractive_effort=9
 copyright=jamespetts
 intro_year=1881

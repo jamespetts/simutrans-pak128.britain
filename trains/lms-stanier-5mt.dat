@@ -6,6 +6,10 @@ speed=135
 # Extrapolated
 power=451
 # http://en.wikipedia.org/wiki/LMS_Stanier_Class_5_4-6-0
+# Fuel: 12650 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LMS 'Black Five'; coal range at full bunker about 719 km.
+fuel_per_km=12650
+calibration_speed=135
 tractive_effort=113
 copyright=Kieron
 intro_year=1934

@@ -9,6 +9,9 @@ engine_type=petrol
 speed=117
 # 5x530CV=1961kW max, SHP=0,9*kW
 power=1765
+# Fuel: 3846 mL per km at 117 km/h (M: LZ 127: 5x570 hp Maybach, 4 running at ~60%, BSFC 0.45; c). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=3846
+calibration_speed=117
 tractive_effort=52
 freight=Passagiere
 #payload 15t

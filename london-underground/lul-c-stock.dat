@@ -7,6 +7,9 @@ engine_type=electric
 speed=90
 gear=80
 power=350
+# Fuel: 2745 Wh per km at 90 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=2745
+calibration_speed=90
 tractive_effort=65
 length=9
 copyright=James
@@ -199,6 +202,9 @@ engine_type=electric
 speed=90
 gear=80
 power=350
+# Fuel: 2745 Wh per km at 90 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=2745
+calibration_speed=90
 tractive_effort=65
 length=9
 copyright=James

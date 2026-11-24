@@ -3,6 +3,9 @@ name=RMUbox(cooled)
 engine_type=hydrogene
 speed=320
 power=1600
+# Fuel: 7059 Wh per km at 320 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=7059
+calibration_speed=320
 gear=90
 copyright=AEO
 intro_year=2012
@@ -55,6 +58,9 @@ name=RMUbox(piece)
 engine_type=hydrogene
 speed=320
 power=1600
+# Fuel: 7059 Wh per km at 320 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=7059
+calibration_speed=320
 gear=90
 copyright=AEO
 intro_year=2012

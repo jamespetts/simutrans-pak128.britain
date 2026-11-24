@@ -11,6 +11,9 @@ payload=51
 speed=96
 # Leyland O.680 engine
 power=130
+# Fuel: 280 mL per km at 96 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=280
+calibration_speed=96
 tractive_effort=14
 gear=50
 # Guessed

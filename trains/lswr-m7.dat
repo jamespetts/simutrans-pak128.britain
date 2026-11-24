@@ -5,6 +5,10 @@ smoke=Steam
 speed=100
 # Extrapolated
 power=248
+# Fuel: 13100 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LSWR M7.
+fuel_per_km=13100
+calibration_speed=100
 tractive_effort=87
 copyright=James
 intro_year=1897

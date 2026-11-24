@@ -8,6 +8,10 @@ speed=147
 # which equates to 708kW. 
 power=324
 # Tractive effort from Wikipedia: http://en.wikipedia.org/wiki/LNWR_George_the_Fifth_Class
+# Fuel: 9280 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LNWR George V.
+fuel_per_km=9280
+calibration_speed=147
 tractive_effort=92
 copyright=James/jamespetts
 intro_year=1910

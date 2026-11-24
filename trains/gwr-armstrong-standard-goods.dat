@@ -10,6 +10,10 @@ speed=85
 power=192
 # Calculated from data at https://en.wikipedia.org/wiki/GWR_388_class
 # assuming a boiler pressure of 140psi (not given) and a loss factor of 0.8
+# Fuel: 11940 g of Welsh steam coal per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for GWR 388 'Standard Goods'; coal range at full bunker about 276 km.
+fuel_per_km=11940
+calibration_speed=85
 tractive_effort=59
 copyright=James/JamesPetts
 intro_year=1866

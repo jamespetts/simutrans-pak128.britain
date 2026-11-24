@@ -5,6 +5,9 @@ waytype=air
 engine_type=petrol
 speed=365
 power=3760
+# Fuel: 2679 mL per km at 365 km/h (M: C-54/DC-4, 4x1,450 hp). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=2679
+calibration_speed=365
 tractive_effort=28
 freight=Post
 #capacity: 11.0t

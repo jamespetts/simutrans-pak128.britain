@@ -4,6 +4,9 @@ name=BR-707Front
 engine_type=electric
 speed=160
 power=850
+# Fuel: 3622 Wh per km at 160 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=3622
+calibration_speed=160
 tractive_effort=85
 gear=80
 copyright=James
@@ -253,6 +256,9 @@ name=BR-707MiddlePower
 engine_type=electric
 speed=160
 power=850
+# Fuel: 3622 Wh per km at 160 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=3622
+calibration_speed=160
 tractive_effort=85
 gear=80
 copyright=James
@@ -317,6 +323,9 @@ name=BR-707Rear
 engine_type=electric
 speed=160
 power=850
+# Fuel: 3622 Wh per km at 160 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=3622
+calibration_speed=160
 tractive_effort=85
 gear=80
 copyright=James

@@ -7,6 +7,9 @@ engine_type=turbine
 # https://www.baesystems.com/en/heritage/vickers-vanguard
 speed=663
 power=16540
+# Fuel: 5257 mL per km at 663 km/h (M: Vanguard, 4x Tyne; very high aspect ratio). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=5257
+calibration_speed=663
 tractive_effort=32
 #gear=1
 freight=Passagiere
@@ -75,6 +78,9 @@ waytype=air
 engine_type=turbine
 speed=663
 power=16540
+# Fuel: 5257 mL per km at 663 km/h (M: Vanguard, 4x Tyne; very high aspect ratio). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=5257
+calibration_speed=663
 tractive_effort=32
 #gear=1
 freight=Bucher
@@ -133,6 +139,9 @@ waytype=air
 engine_type=turbine
 speed=663
 power=16540
+# Fuel: 5257 mL per km at 663 km/h (M: Vanguard, 4x Tyne; very high aspect ratio). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=5257
+calibration_speed=663
 tractive_effort=32
 #gear=1
 freight=fish

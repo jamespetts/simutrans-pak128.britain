@@ -5,6 +5,9 @@ name=BR-700Front
 engine_type=electric
 speed=160
 power=850
+# Fuel: 4194 Wh per km at 160 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=4194
+calibration_speed=160
 tractive_effort=85
 gear=80
 copyright=James, Rollmaterial
@@ -64,6 +67,9 @@ name=BR-700MiddlePower
 engine_type=electric
 speed=160
 power=850
+# Fuel: 4194 Wh per km at 160 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=4194
+calibration_speed=160
 tractive_effort=85
 gear=80
 copyright=James, Rollmaterial
@@ -393,6 +399,9 @@ name=BR-700Rear
 engine_type=electric
 speed=160
 power=850
+# Fuel: 4194 Wh per km at 160 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=4194
+calibration_speed=160
 tractive_effort=85
 gear=80
 copyright=James, Rollmaterial

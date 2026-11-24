@@ -5,6 +5,9 @@ smoke=Diesel
 speed=100
 gear=50
 power=195
+# Fuel: 467 mL per km at 100 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=467
+calibration_speed=100
 tractive_effort=32
 copyright=Kieron
 intro_year=1933

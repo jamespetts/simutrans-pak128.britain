@@ -7,6 +7,10 @@ speed=75
 power=135
 # Tractive effort calculated using data from 
 # http://www.steamindex.com/locotype/lbscrloc.htm
+# Fuel: 11110 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LBSCR Small goods.
+fuel_per_km=11110
+calibration_speed=75
 tractive_effort=47
 copyright=Kieron/JamesPetts
 intro_year=1859

@@ -7,6 +7,10 @@ speed=42
 power=10
 # Tractive effort value calculated from data from Ahrons (p. 20)
 # Loss factor set to 0.5, pressure assumed to be 50lb
+# Fuel: 8570 g of coke per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LMR Planet goods.
+fuel_per_km=8570
+calibration_speed=42
 tractive_effort=7
 copyright=Kieron/JamesPetts
 intro_year=1830

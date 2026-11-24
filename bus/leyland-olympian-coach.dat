@@ -13,6 +13,9 @@ speed=96
 # TL11 engine (turbocharged)
 # http://middx.net/aec/board/viewtopic.php?f=1&t=403
 power=194
+# Fuel: 330 mL per km at 96 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=330
+calibration_speed=96
 tractive_effort=22
 gear=50
 weight=11.1

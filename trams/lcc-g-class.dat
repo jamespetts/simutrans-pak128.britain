@@ -6,6 +6,9 @@ speed=32
 gear=80
 # Assumed to have the same power as the early batch of E class trams.
 power=45
+# Fuel: 1758 Wh per km at 32 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=1758
+calibration_speed=32
 tractive_effort=34
 copyright=James/jamespetts
 intro_year=1906

@@ -5,6 +5,9 @@ smoke=Diesel
 speed=200
 gear=50
 power=1678
+# Fuel: 1836 mL per km at 200 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=1836
+calibration_speed=200
 tractive_effort=80
 copyright=Kieron/Rollmaterial
 intro_year=1976
@@ -188,6 +191,9 @@ gear=50
 smoke=Diesel
 speed=200
 power=1678
+# Fuel: 1836 mL per km at 200 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=1836
+calibration_speed=200
 tractive_effort=80
 copyright=Kieron/Rollmaterial
 intro_year=1976

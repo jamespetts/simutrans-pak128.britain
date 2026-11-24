@@ -6,6 +6,10 @@ speed=145
 # Extrapolated
 power=307
 # http://www.lner.info/locos/D/d14d15d16.php
+# Fuel: 10810 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for GER D56 'Belpaire Claud'.
+fuel_per_km=10810
+calibration_speed=145
 tractive_effort=76
 copyright=James/JamesPetts
 intro_year=1903

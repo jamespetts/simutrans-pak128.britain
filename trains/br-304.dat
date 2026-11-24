@@ -186,6 +186,9 @@ name=BR-304Centre-Motor
 engine_type=electric
 speed=120
 power=618
+# Fuel: 3962 Wh per km at 120 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=3962
+calibration_speed=120
 gear=80
 tractive_effort=72
 copyright=Kieron/JamesPetts

@@ -14,6 +14,9 @@ speed=80
 # Daimler CD650 engine. 
 # 125hp (originally): https://en.wikipedia.org/wiki/Daimler_Freeline
 power=93
+# Fuel: 250 mL per km at 80 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=250
+calibration_speed=80
 tractive_effort=13
 gear=50
 # Guessed. Said to be heavier than lightweight double decker.

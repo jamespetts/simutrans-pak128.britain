@@ -8,6 +8,9 @@ speed=50
 gear=50
 # Power for diesel version not given in Phillips: guessed
 power=42
+# Fuel: 240 mL per km at 50 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=240
+calibration_speed=50
 tractive_effort=5
 copyright=Kieron
 intro_year=1933

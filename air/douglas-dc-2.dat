@@ -5,6 +5,9 @@ waytype=air
 engine_type=petrol
 speed=300
 power=946
+# Fuel: 1123 mL per km at 300 km/h (M: DC-2, 2x875 hp Cyclone). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=1123
+calibration_speed=300
 tractive_effort=11
 #gear=1
 freight=Passagiere

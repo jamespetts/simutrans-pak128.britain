@@ -10,6 +10,10 @@ power=284
 #tractive_effort=115
 # Calculated from data at 50orion.math.iastate.edu/jdhsmith/term/slgbgw.htm
 # with a loss factor given of 0.8
+# Fuel: 12240 g of Welsh steam coal per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for GWR 2600 'Aberdare' Class; coal range at full bunker about 373 km.
+fuel_per_km=12240
+calibration_speed=85
 tractive_effort=107
 copyright=James/JamesPetts
 intro_year=1900

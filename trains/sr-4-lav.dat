@@ -4,6 +4,9 @@ name=SR-4LAV(front)
 engine_type=electric
 speed=120
 power=410
+# Fuel: 2412 Wh per km at 120 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=2412
+calibration_speed=120
 gear=80
 tractive_effort=30
 copyright=Kieron/JamesPetts
@@ -279,6 +282,9 @@ name=SR-4LAV(rear)
 engine_type=electric
 speed=120
 power=410
+# Fuel: 2412 Wh per km at 120 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=2412
+calibration_speed=120
 gear=80
 tractive_effort=30
 copyright=Kieron/JamesPetts

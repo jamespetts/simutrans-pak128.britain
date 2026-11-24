@@ -7,6 +7,9 @@ waytype=water
 engine_type=diesel
 speed=80
 power=28337
+# Fuel: 65782 mL per km at 80 km/h. Basis and sources: New/ai/fuel/water.md
+fuel_per_km=65782
+calibration_speed=80
 freight=Passagiere
 payload[0]=0
 payload[1]=900

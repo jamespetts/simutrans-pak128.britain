@@ -12,6 +12,9 @@ overcrowded_capacity=2
 speed=50
 # Power: 96bhp (Phillips p. 36)
 power=72
+# Fuel: 400 mL per km at 50 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=400
+calibration_speed=50
 tractive_effort=9
 gear=50
 # Guessed

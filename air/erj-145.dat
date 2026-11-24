@@ -9,6 +9,9 @@ waytype=air
 engine_type=turbine
 speed=833
 power=11340
+# Fuel: 1744 mL per km at 833 km/h (S: ERJ-145 at 1,107 km sector: 1.55 kg/km, x0.90, /0.80). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=1744
+calibration_speed=833
 tractive_effort=63
 freight=Passagiere
 payload=50

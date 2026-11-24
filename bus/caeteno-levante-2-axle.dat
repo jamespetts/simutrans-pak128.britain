@@ -17,6 +17,9 @@ payload=50
 speed=96
 # https://en.wikipedia.org/wiki/Volvo_B9R
 power=283
+# Fuel: 300 mL per km at 96 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=300
+calibration_speed=96
 tractive_effort=28
 gear=50
 # Guessed

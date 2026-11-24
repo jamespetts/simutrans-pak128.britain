@@ -6,6 +6,10 @@ smoke=Steam
 speed=120
 # Extrapolated
 power=326
+# Fuel: 10540 g of Welsh steam coal per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for GWR 4300 Class; coal range at full bunker about 675 km.
+fuel_per_km=10540
+calibration_speed=120
 tractive_effort=114
 copyright=James/JamesPetts
 intro_year=1911

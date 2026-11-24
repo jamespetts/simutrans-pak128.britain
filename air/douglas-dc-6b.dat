@@ -5,6 +5,9 @@ waytype=air
 engine_type=petrol
 speed=507
 power=6714
+# Fuel: 3767 mL per km at 507 km/h (M: DC-6B, 4x2,500 hp). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=3767
+calibration_speed=507
 tractive_effort=48
 freight=Passagiere
 #payload=12.8t

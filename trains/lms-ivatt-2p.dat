@@ -5,6 +5,10 @@ smoke=Steam
 speed=100
 # Extrapolated
 power=238
+# Fuel: 10980 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LMS Ivatt 2P; coal range at full bunker about 278 km.
+fuel_per_km=10980
+calibration_speed=100
 tractive_effort=77
 copyright=Kieron/JamesPetts
 intro_year=1946
@@ -62,6 +66,10 @@ smoke=Steam
 speed=100
 # Extrapolated
 power=229
+# Fuel: 11460 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LMS 2P Tank; coal range at full bunker about 266 km.
+fuel_per_km=11460
+calibration_speed=100
 tractive_effort=77
 copyright=Kieron/JamesPetts
 intro_year=1946

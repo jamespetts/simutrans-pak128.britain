@@ -12,6 +12,9 @@ overcrowded_capacity=0
 engine_type=petrol
 # Updated OHV engine: 42hp. See Baldwin p. 48
 power=31
+# Fuel: 300 mL per km at 56 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=300
+calibration_speed=56
 tractive_effort=10
 gear=50
 speed=56

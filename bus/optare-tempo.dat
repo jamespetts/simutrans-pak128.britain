@@ -12,6 +12,9 @@ speed=74
 # Mercedes OM-906-LA engine
 # https://www.mercedes-benz.com.sg/content/singapore/mpc/mpc_singapore_website/enng/home_mpc/truck_home/home/trucks/econic/engine_transmission_axles/engines.fb0002.html
 power=205
+# Fuel: 380 mL per km at 74 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=380
+calibration_speed=74
 tractive_effort=39
 gear=50
 weight=9

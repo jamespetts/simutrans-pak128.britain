@@ -11,6 +11,9 @@ speed=96
 # Leyland TL11 engine
 # (The more powerful version for coaches)
 power=183
+# Fuel: 350 mL per km at 96 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=350
+calibration_speed=96
 tractive_effort=15
 gear=50
 weight=12

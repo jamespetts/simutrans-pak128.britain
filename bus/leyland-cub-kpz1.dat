@@ -7,6 +7,9 @@ speed=64
 gear=50
 # 85bhp: Phillips p. 57
 power=63
+# Fuel: 380 mL per km at 64 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=380
+calibration_speed=64
 tractive_effort=7
 copyright=Kieron
 intro_year=1936

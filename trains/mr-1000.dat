@@ -6,6 +6,10 @@ speed=145
 # Extrapolated
 power=387
 # http://en.wikipedia.org/wiki/Midland_Railway_1000_Class
+# Fuel: 13510 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for MR 1000 Class.
+fuel_per_km=13510
+calibration_speed=145
 tractive_effort=97
 copyright=James
 intro_year=1905

@@ -5,6 +5,9 @@ waytype=air
 engine_type=petrol
 speed=254
 power=2659
+# Fuel: 1746 mL per km at 254 km/h (M: Bristol 170 Freighter, 2x Bristol Hercules). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=1746
+calibration_speed=254
 tractive_effort=38
 freight=Post
 #payload=5.45t

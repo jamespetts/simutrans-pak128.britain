@@ -150,6 +150,9 @@ retire_year=2001
 retire_month=3
 waytype=track
 power=1200
+# Fuel: 5294 Wh per km at 160 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=5294
+calibration_speed=160
 gear=80
 tractive_effort=95
 freight=Passagiere

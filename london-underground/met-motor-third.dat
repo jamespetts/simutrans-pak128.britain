@@ -7,6 +7,9 @@ engine_type=electric
 speed=65
 gear=80
 power=400
+# Fuel: 4615 Wh per km at 65 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=4615
+calibration_speed=65
 tractive_effort=45
 copyright=James/jamespetts
 intro_year=1906
@@ -245,6 +248,9 @@ engine_type=electric
 speed=65
 gear=80
 power=400
+# Fuel: 4615 Wh per km at 65 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=4615
+calibration_speed=65
 tractive_effort=45
 copyright=James/jamespetts
 intro_year=1906

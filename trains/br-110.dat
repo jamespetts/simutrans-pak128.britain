@@ -6,6 +6,9 @@ gear=50
 smoke=Diesel
 speed=113
 power=268
+# Fuel: 551 mL per km at 113 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=551
+calibration_speed=113
 tractive_effort=40
 copyright=Kieron/JamesPetts
 intro_year=1961
@@ -176,6 +179,9 @@ gear=50
 smoke=Diesel
 speed=113
 power=268
+# Fuel: 551 mL per km at 113 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=551
+calibration_speed=113
 tractive_effort=40
 copyright=Kieron/JamesPetts
 intro_year=1961

@@ -7,6 +7,10 @@ speed=100
 # Extrapolated
 power=302
 # http://en.wikipedia.org/wiki/Metropolitan_Railway_H_Class
+# Fuel: 13050 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for Metropolitan H Class; coal range at full bunker about 311 km.
+fuel_per_km=13050
+calibration_speed=100
 tractive_effort=82
 copyright=James/jamespetts
 intro_year=1920

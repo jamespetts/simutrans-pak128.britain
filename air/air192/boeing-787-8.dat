@@ -10,6 +10,9 @@ engine_type=turbine
 speed=903
 # Power data not available - inferred from tractive force
 power=103381
+# Fuel: 6523 mL per km at 903 km/h (S: 787-8 at 8,610 km sector: 5.38 kg/km, x0.97, /0.80; Trent). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=6523
+calibration_speed=903
 tractive_effort=560
 freight=Passagiere
 payload[0]=0
@@ -67,6 +70,9 @@ engine_type=turbine
 speed=903
 # Power data not available - inferred from tractive force
 power=103381
+# Fuel: 6523 mL per km at 903 km/h (S: 787-8 at 8,610 km sector: 5.38 kg/km, x0.97, /0.80; Trent). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=6523
+calibration_speed=903
 tractive_effort=560
 freight=Passagiere
 payload[0]=0

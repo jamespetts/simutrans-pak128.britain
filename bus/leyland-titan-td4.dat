@@ -16,6 +16,9 @@ overcrowded_capacity=5
 speed=50
 # See Phillips pp. 76-77
 power=73
+# Fuel: 280 mL per km at 50 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=280
+calibration_speed=50
 tractive_effort=10
 gear=50
 # Guessed. Steel body

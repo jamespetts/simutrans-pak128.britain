@@ -5,6 +5,9 @@ speed=80
 gear=80
 # http://en.wikipedia.org/wiki/T-68
 power=210
+# Fuel: 2983 Wh per km at 80 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=2983
+calibration_speed=80
 tractive_effort=40
 copyright=James
 # T-68 delivered 1991-1992
@@ -72,6 +75,9 @@ speed=80
 gear=80
 # http://en.wikipedia.org/wiki/T-68
 power=240
+# Fuel: 3409 Wh per km at 80 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=3409
+calibration_speed=80
 tractive_effort=40
 copyright=James
 intro_year=1999

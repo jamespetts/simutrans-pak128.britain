@@ -10,6 +10,9 @@ payload=56
 overcrowded_capacity=5
 speed=50
 power=80
+# Fuel: 290 mL per km at 50 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=290
+calibration_speed=50
 tractive_effort=11
 gear=50
 # An example of this 'bus at the London 'Bus Museum gives its weight as 6t, 15cwt, 3qrs

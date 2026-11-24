@@ -11,6 +11,10 @@ speed=105
 power=140
 # Calculated from data from Ahrons, pp. 72-3
 # Loss factor set at 0.7, assumed 100lbs boiler pressure. 
+# Fuel: 13390 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for MR 130 'Crampton'.
+fuel_per_km=13390
+calibration_speed=105
 tractive_effort=21
 copyright=James/jamespetts
 intro_year=1848

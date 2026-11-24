@@ -5,6 +5,9 @@ smoke=Diesel
 speed=160
 gear=50
 power=2010
+# Fuel: 2916 mL per km at 160 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=2916
+calibration_speed=160
 tractive_effort=216
 copyright=Kieron/JamesPetts/Rollmaterial
 intro_year=1967

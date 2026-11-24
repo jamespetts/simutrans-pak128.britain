@@ -5,6 +5,10 @@ smoke=Steam
 speed=112
 # Extrapolated
 power=180
+# Fuel: 9410 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LNWR Precursor (Webb).
+fuel_per_km=9410
+calibration_speed=112
 tractive_effort=53
 copyright=James/JamesPetts
 intro_year=1874

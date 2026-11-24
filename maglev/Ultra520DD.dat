@@ -4,6 +4,9 @@ name=BR-Ultra-520DD(front)
 engine_type=hydrogene
 speed=525
 power=5100
+# Fuel: 13714 Wh per km at 525 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=13714
+calibration_speed=525
 gear=90
 tractive_effort=225
 copyright=AEO
@@ -52,6 +55,9 @@ name=BR-Ultra-520DD(Open)
 engine_type=hydrogene
 speed=525
 power=5100
+# Fuel: 13714 Wh per km at 525 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=13714
+calibration_speed=525
 gear=90
 tractive_effort=225
 copyright=AEO
@@ -101,6 +107,9 @@ name=BR-Ultra-520DD(Buffet)
 engine_type=hydrogene
 speed=525
 power=5100
+# Fuel: 13714 Wh per km at 525 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=13714
+calibration_speed=525
 gear=90
 tractive_effort=225
 copyright=AEO
@@ -151,6 +160,9 @@ name=BR-Ultra-520DD(rear)
 engine_type=hydrogene
 speed=525
 power=5100
+# Fuel: 13714 Wh per km at 525 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=13714
+calibration_speed=525
 gear=90
 tractive_effort=225
 copyright=AEO

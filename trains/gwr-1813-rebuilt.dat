@@ -10,6 +10,10 @@ speed=87
 power=206
 # Calculated using data from: https://en.wikipedia.org/wiki/GWR_1813_Class
 # assuming boiler pressure of 175psi and loss factor of 0.8.
+# Fuel: 11310 g of Welsh steam coal per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for GWR 1813 Class (rebuilt); coal range at full bunker about 301 km.
+fuel_per_km=11310
+calibration_speed=87
 tractive_effort=82
 copyright=Kieron/JamesPetts
 intro_year=1903

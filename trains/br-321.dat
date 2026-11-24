@@ -190,6 +190,9 @@ name=BR-321(pantograph)
 engine_type=electric
 speed=160
 power=1072
+# Fuel: 5154 Wh per km at 160 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=5154
+calibration_speed=160
 tractive_effort=97
 gear=80
 copyright=Kieron/Rollmaterial

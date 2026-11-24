@@ -7,6 +7,10 @@ speed=48
 power=103
 # See "The Locomotive", 14th of January 1928, p. 14
 # TE data taken from: http://www.lner.info/locos/J/ner_1001.shtml
+# Fuel: 17590 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for SDR 1001.
+fuel_per_km=17590
+calibration_speed=48
 tractive_effort=66
 copyright=James
 intro_year=1852

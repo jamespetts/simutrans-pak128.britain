@@ -9,6 +9,9 @@ gear=80
 # http://en.wikipedia.org/wiki/English_Electric_Balloon_tram
 # http://blackpool-trams.yolasite.com/balloon-trams.php
 power=85
+# Fuel: 1538 Wh per km at 65 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=1538
+calibration_speed=65
 tractive_effort=40
 copyright=James
 intro_year=1934

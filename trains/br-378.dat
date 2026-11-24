@@ -11,6 +11,9 @@ name=BR-378Front
 engine_type=electric
 speed=120
 power=600
+# Fuel: 3409 Wh per km at 120 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=3409
+calibration_speed=120
 gear=80
 tractive_effort=50
 copyright=Kieron
@@ -72,6 +75,9 @@ name=BR-378Middle
 engine_type=electric
 speed=120
 power=600
+# Fuel: 3409 Wh per km at 120 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=3409
+calibration_speed=120
 tractive_effort=50
 gear=80
 copyright=Kieron
@@ -123,6 +129,9 @@ name=BR-378Middle2
 engine_type=electric
 speed=120
 power=600
+# Fuel: 3409 Wh per km at 120 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=3409
+calibration_speed=120
 tractive_effort=50
 gear=80
 copyright=Kieron
@@ -227,6 +236,9 @@ name=BR-378Rear
 engine_type=electric
 speed=120
 power=600
+# Fuel: 3409 Wh per km at 120 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=3409
+calibration_speed=120
 gear=80
 tractive_effort=50
 copyright=Kieron

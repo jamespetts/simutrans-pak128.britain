@@ -14,6 +14,9 @@ speed=72
 # Assuming the AH590 engine at 9.6l.
 # Power figures not known
 power=89
+# Fuel: 255 mL per km at 72 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=255
+calibration_speed=72
 tractive_effort=11
 gear=50
 # Guessed

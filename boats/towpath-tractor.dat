@@ -5,6 +5,9 @@ smoke=Diesel
 speed=14
 power=80
 #gear=1200
+# Fuel: 816 mL per km at 14 km/h. Basis and sources: New/ai/fuel/water.md
+fuel_per_km=816
+calibration_speed=14
 copyright=Jamespetts
 intro_year=1950
 intro_month=4

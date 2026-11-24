@@ -101,6 +101,9 @@ name=BR-312-MBSO
 engine_type=electric
 speed=145
 power=806
+# Fuel: 4276 Wh per km at 145 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=4276
+calibration_speed=145
 tractive_effort=75
 gear=80
 copyright=Junna/Cake/Rollmaterial

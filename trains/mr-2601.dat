@@ -6,6 +6,10 @@ speed=146
 # Extrapolated
 power=309
 # http://chasewaterstuff.wordpress.com/2012/04/07/steam-locos-of-a-leisurely-era-1887-johnson-4-2-2-midland-railway/
+# Fuel: 11210 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for MR 2601.
+fuel_per_km=11210
+calibration_speed=146
 tractive_effort=66
 copyright=James
 intro_year=1900

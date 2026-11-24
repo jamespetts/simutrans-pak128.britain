@@ -5,6 +5,10 @@ engine_type=steam
 smoke=Steam
 speed=8
 power=7
+# Fuel: 16000 g of coke per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for Stephenson/Dodd Patent.
+fuel_per_km=16000
+calibration_speed=8
 tractive_effort=1
 copyright=Kieron/JamesPetts
 intro_year=1815

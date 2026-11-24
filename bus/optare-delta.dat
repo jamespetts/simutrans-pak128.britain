@@ -12,6 +12,9 @@ speed=64
 # DAF DKTL 1160 (11.6 litres) 
 # http://portal.enginedesk.net/engine/daf/1160_dktl/technical/data/471/0/KOP
 power=185
+# Fuel: 380 mL per km at 64 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=380
+calibration_speed=64
 tractive_effort=28
 gear=50
 weight=9.1

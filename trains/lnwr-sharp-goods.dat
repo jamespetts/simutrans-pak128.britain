@@ -7,6 +7,10 @@ speed=55
 power=86
 # Calculated from data from Ahrons, p. 81
 # Loss factor set at 0.7, assumed 100lbs boiler pressure. 
+# Fuel: 12990 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LNWR Sharp goods.
+fuel_per_km=12990
+calibration_speed=55
 tractive_effort=46
 copyright=James/jamespetts
 intro_year=1846

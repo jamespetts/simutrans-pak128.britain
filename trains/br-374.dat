@@ -6,6 +6,9 @@ name=BR-374(front)
 engine_type=electric
 speed=320
 power=2000
+# Fuel: 7895 Wh per km at 320 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=7895
+calibration_speed=320
 tractive_effort=71
 gear=80
 copyright=James
@@ -117,6 +120,9 @@ name=BR-374(power)
 engine_type=electric
 speed=320
 power=2000
+# Fuel: 7895 Wh per km at 320 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=7895
+calibration_speed=320
 tractive_effort=71
 gear=80
 copyright=James
@@ -173,6 +179,9 @@ name=BR-374(buffet)
 engine_type=electric
 speed=320
 power=2000
+# Fuel: 7895 Wh per km at 320 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=7895
+calibration_speed=320
 tractive_effort=71
 gear=80
 copyright=James
@@ -232,6 +241,9 @@ name=BR-374(first)
 engine_type=electric
 speed=320
 power=2000
+# Fuel: 7895 Wh per km at 320 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=7895
+calibration_speed=320
 tractive_effort=71
 gear=80
 copyright=James
@@ -290,6 +302,9 @@ name=BR-374(rear)
 engine_type=electric
 speed=320
 power=2000
+# Fuel: 7895 Wh per km at 320 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=7895
+calibration_speed=320
 tractive_effort=71
 gear=80
 copyright=James

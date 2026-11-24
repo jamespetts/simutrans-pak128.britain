@@ -4,6 +4,9 @@ engine_type=electric
 speed=80
 gear=80
 power=131
+# Fuel: 1156 Wh per km at 80 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=1156
+calibration_speed=80
 tractive_effort=32
 copyright=Kieron
 intro_year=1987
@@ -57,6 +60,9 @@ engine_type=electric
 speed=80
 gear=80
 power=131
+# Fuel: 1156 Wh per km at 80 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=1156
+calibration_speed=80
 tractive_effort=32
 copyright=Kieron
 intro_year=1987

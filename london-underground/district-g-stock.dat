@@ -6,6 +6,9 @@ engine_type=electric
 speed=70
 gear=80
 power=300
+# Fuel: 3214 Wh per km at 70 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=3214
+calibration_speed=70
 tractive_effort=50
 length=8
 copyright=James
@@ -122,6 +125,9 @@ engine_type=electric
 speed=70
 gear=80
 power=300
+# Fuel: 3214 Wh per km at 70 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=3214
+calibration_speed=70
 tractive_effort=50
 length=8
 copyright=James

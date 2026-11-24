@@ -10,6 +10,10 @@ speed=76
 power=141
 # Calculated using data from: https://en.wikipedia.org/wiki/GWR_850_Class
 # assuming boiler pressure of 140psi and loss factor of 0.77.
+# Fuel: 9560 g of Welsh steam coal per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for GWR 850 Class.
+fuel_per_km=9560
+calibration_speed=76
 tractive_effort=55
 copyright=Kieron/JamesPetts
 intro_year=1874

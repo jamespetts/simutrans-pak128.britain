@@ -6,6 +6,10 @@ speed=100
 # Extrapolated
 power=232
 # http://en.wikipedia.org/wiki/LMS_Stanier_Class_2_0-4-4T
+# Fuel: 11460 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LMS 2P Tank; coal range at full bunker about 266 km.
+fuel_per_km=11460
+calibration_speed=100
 tractive_effort=76
 copyright=James/jamespetts
 intro_year=1932

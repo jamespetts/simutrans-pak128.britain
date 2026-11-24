@@ -15,6 +15,9 @@ payload=29
 overcrowded_capacity=26
 # Cummins ISBe 4 cylinder engine
 power=103
+# Fuel: 300 mL per km at 76 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=300
+calibration_speed=76
 tractive_effort=21
 gear=50
 length=6

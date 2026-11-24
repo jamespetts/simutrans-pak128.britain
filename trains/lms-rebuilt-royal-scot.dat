@@ -6,6 +6,10 @@ speed=155
 # Extrapolated
 power=403
 # http://mcgavin.no-ip.info/robbie/details/LMS_Royal_Scot_Rebuild_1947.html
+# Fuel: 10490 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LMS rebuilt Royal Scot; coal range at full bunker about 868 km.
+fuel_per_km=10490
+calibration_speed=155
 tractive_effort=148
 copyright=James/jamespetts
 intro_year=1943

@@ -9,6 +9,9 @@ engine_type=petrol
 speed=214
 # https://en.wikipedia.org/wiki/De_Havilland_Dragon_Rapide#Specifications_(Dragon_Rapide)
 power=300
+# Fuel: 292 mL per km at 214 km/h (M: DH.89 Dragon Rapide, 2x200 hp Gipsy Six). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=292
+calibration_speed=214
 tractive_effort=4
 freight=Passagiere
 payload[0]=0
@@ -67,6 +70,9 @@ speed=214
 engine_type=petrol
 speed=214
 power=268
+# Fuel: 292 mL per km at 214 km/h (M: DH.89 Dragon Rapide, 2x200 hp Gipsy Six). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=292
+calibration_speed=214
 tractive_effort=3
 freight=Post
 # 860kg

@@ -7,6 +7,10 @@ speed=85
 power=48
 # Calculated from data from Ahrons, p. 50
 # Loss factor set at 0.5. Assuming boiler pressure of 60psi.
+# Fuel: 6350 g of coke per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LMR Bird.
+fuel_per_km=6350
+calibration_speed=85
 tractive_effort=6
 copyright=James/jamespetts
 intro_year=1842

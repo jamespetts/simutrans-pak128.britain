@@ -8,6 +8,9 @@ waytype=air
 engine_type=turbine
 speed=533
 power=1908
+# Fuel: 1063 mL per km at 533 km/h (S: Beech 1900D at 419 km sector: 1.00 kg/km, x0.85 climb cor). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=1063
+calibration_speed=533
 tractive_effort=12
 freight=Passagiere
 payload[0]=0
@@ -62,6 +65,9 @@ waytype=air
 engine_type=turbine
 speed=533
 power=1908
+# Fuel: 1063 mL per km at 533 km/h (S: Beech 1900D at 419 km sector: 1.00 kg/km, x0.85 climb cor). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=1063
+calibration_speed=533
 tractive_effort=12
 freight=Post
 payload[0]=0

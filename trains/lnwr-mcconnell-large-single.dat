@@ -6,6 +6,10 @@ speed=117
 tractive_effort=35
 # Extrapolated
 power=206
+# Fuel: 13990 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LNWR McConnell large s'gle.
+fuel_per_km=13990
+calibration_speed=117
 copyright=James/JamesPetts
 intro_year=1861
 intro_month=7

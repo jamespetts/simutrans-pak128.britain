@@ -5,6 +5,9 @@ waytype=air
 engine_type=turbine
 speed=450
 power=3220
+# Fuel: 1495 mL per km at 450 km/h (M: ATR 72-200, 2x PW124). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=1495
+calibration_speed=450
 tractive_effort=25
 #gear=1
 freight=Post
@@ -55,6 +58,9 @@ waytype=air
 engine_type=turbine
 speed=450
 power=3220
+# Fuel: 1495 mL per km at 450 km/h (M: ATR 72-200, 2x PW124). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=1495
+calibration_speed=450
 tractive_effort=25
 #gear=1
 freight=Bucher
@@ -103,6 +109,9 @@ waytype=air
 engine_type=turbine
 speed=450
 power=3220
+# Fuel: 1495 mL per km at 450 km/h (M: ATR 72-200, 2x PW124). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=1495
+calibration_speed=450
 tractive_effort=25
 #gear=1
 freight=fish

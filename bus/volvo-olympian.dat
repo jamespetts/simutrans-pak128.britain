@@ -12,6 +12,9 @@ overcrowded_capacity=12
 speed=64
 # Volvo TD102KF
 power=183
+# Fuel: 360 mL per km at 64 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=360
+calibration_speed=64
 tractive_effort=37
 gear=50
 weight=16
@@ -82,6 +85,9 @@ overcrowded_capacity=7
 speed=64
 # Volvo TD102KF
 power=183
+# Fuel: 360 mL per km at 64 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=360
+calibration_speed=64
 tractive_effort=37
 gear=50
 weight=16

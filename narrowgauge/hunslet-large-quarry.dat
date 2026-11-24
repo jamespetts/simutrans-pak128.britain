@@ -7,6 +7,10 @@ speed=40
 # Extrapolated
 power=16
 # https://www.quarryhunslet.mste.co.uk/public/Bill_Harvey.php
+# Fuel: 3300 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for Hunslet 'Large Quarry' Class.
+fuel_per_km=3300
+calibration_speed=40
 tractive_effort=15
 copyright=James/jamespetts
 # Guessed - no data available

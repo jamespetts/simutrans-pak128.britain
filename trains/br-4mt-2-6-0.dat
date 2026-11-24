@@ -6,6 +6,10 @@ speed=115
 # Extrapolated
 power=331
 # http://en.wikipedia.org/wiki/BR_Standard_Class_4_2-6-0
+# Fuel: 12700 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for BR 4MT 2-6-0; coal range at full bunker about 480 km.
+fuel_per_km=12700
+calibration_speed=115
 tractive_effort=108
 copyright=Kieron/JamesPetts
 intro_year=1952

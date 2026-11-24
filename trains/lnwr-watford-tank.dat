@@ -6,6 +6,10 @@ speed=96
 # Extrapolated
 power=208
 # Calculated using data from: http://orion.math.iastate.edu/jdhsmith/term/slgblnwr.htm
+# Fuel: 11600 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LNWR Watford tank.
+fuel_per_km=11600
+calibration_speed=96
 tractive_effort=73
 copyright=James/jamespetts
 intro_year=1895

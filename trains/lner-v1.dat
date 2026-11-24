@@ -8,6 +8,10 @@ speed=108
 # Extrapolated
 power=313
 # https://www.lner.info/locos/V/v1v3.php
+# Fuel: 12980 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LNER V1 Class; coal range at full bunker about 313 km.
+fuel_per_km=12980
+calibration_speed=108
 tractive_effort=100
 copyright=Kieron/JamesPetts
 intro_year=1930

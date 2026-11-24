@@ -8,6 +8,9 @@ name=MidlandMetroT69Front
 engine_type=electric
 speed=70
 power=210
+# Fuel: 3409 Wh per km at 70 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=3409
+calibration_speed=70
 gear=80
 tractive_effort=31
 copyright=James
@@ -73,6 +76,9 @@ name=MidlandMetroT69Rear
 engine_type=electric
 speed=70
 power=210
+# Fuel: 3409 Wh per km at 70 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=3409
+calibration_speed=70
 gear=80
 tractive_effort=31
 copyright=James

@@ -13,6 +13,9 @@ overcrowded_capacity=5
 speed=50
 # Assuming AEC171 7.7l engine, which has 95HP: http://www.classicbuses.co.uk/T.html
 power=70
+# Fuel: 250 mL per km at 50 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=250
+calibration_speed=50
 tractive_effort=9
 gear=50
 # Guessed as mid-point between ST and RT

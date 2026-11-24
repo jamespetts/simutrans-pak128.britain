@@ -8,6 +8,9 @@ speed=68
 gear=50
 # 60bhp: Baldwin p. 68
 power=44
+# Fuel: 300 mL per km at 68 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=300
+calibration_speed=68
 tractive_effort=5
 copyright=Kieron/JamesPetts
 intro_year=1934

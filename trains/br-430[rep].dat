@@ -4,6 +4,9 @@ engine_type=electric
 speed=145
 gear=80
 power=1200
+# Fuel: 5842 Wh per km at 145 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=5842
+calibration_speed=145
 tractive_effort=177
 copyright=Kieron/JamesPetts
 intro_year=1966
@@ -223,6 +226,9 @@ name=BR-430[REP]Rear
 engine_type=electric
 gear=80
 power=1200
+# Fuel: 5842 Wh per km at 145 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=5842
+calibration_speed=145
 tractive_effort=177
 speed=145
 copyright=Kieron/JamesPetts

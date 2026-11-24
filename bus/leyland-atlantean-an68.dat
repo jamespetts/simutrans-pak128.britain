@@ -11,6 +11,9 @@ overcrowded_capacity=12
 speed=75
 # Leyland O.680 engine
 power=114
+# Fuel: 320 mL per km at 75 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=320
+calibration_speed=75
 tractive_effort=18
 gear=50
 weight=10
@@ -190,6 +193,9 @@ overcrowded_capacity=13
 speed=87
 # Leyland O.680 engine
 power=114
+# Fuel: 320 mL per km at 87 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=320
+calibration_speed=87
 tractive_effort=22
 gear=50
 weight=10

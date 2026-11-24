@@ -5,6 +5,9 @@ name=BR-345Front
 engine_type=electric
 speed=145
 power=440
+# Fuel: 2396 Wh per km at 145 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=2396
+calibration_speed=145
 tractive_effort=80
 gear=80
 copyright=James
@@ -62,6 +65,9 @@ name=BR-345Panto
 engine_type=electric
 speed=145
 power=440
+# Fuel: 2396 Wh per km at 145 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=2396
+calibration_speed=145
 tractive_effort=80
 gear=80
 copyright=James, Rollmaterial
@@ -115,6 +121,9 @@ name=BR-345Middle
 engine_type=electric
 speed=145
 power=880
+# Fuel: 4791 Wh per km at 145 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=4791
+calibration_speed=145
 tractive_effort=80
 gear=80
 copyright=James, Rollmaterial
@@ -169,6 +178,9 @@ name=BR-345MS3Front
 engine_type=electric
 speed=145
 power=440
+# Fuel: 2396 Wh per km at 145 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=2396
+calibration_speed=145
 tractive_effort=80
 gear=80
 copyright=James, Rollmaterial
@@ -272,6 +284,9 @@ name=BR-345MS3Rear
 engine_type=electric
 speed=145
 power=440
+# Fuel: 2396 Wh per km at 145 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=2396
+calibration_speed=145
 tractive_effort=80
 gear=80
 copyright=James, Rollmaterial
@@ -324,6 +339,9 @@ name=BR-345MiddleRear
 engine_type=electric
 speed=145
 power=880
+# Fuel: 4791 Wh per km at 145 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=4791
+calibration_speed=145
 tractive_effort=80
 gear=80
 copyright=James, Rollmaterial
@@ -377,6 +395,9 @@ name=BR-345PantoRear
 engine_type=electric
 speed=145
 power=440
+# Fuel: 2396 Wh per km at 145 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=2396
+calibration_speed=145
 tractive_effort=80
 gear=80
 copyright=James, Rollmaterial
@@ -429,6 +450,9 @@ name=BR-345Rear
 engine_type=electric
 speed=145
 power=440
+# Fuel: 2396 Wh per km at 145 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=2396
+calibration_speed=145
 tractive_effort=40
 gear=80
 copyright=James, Rollmaterial

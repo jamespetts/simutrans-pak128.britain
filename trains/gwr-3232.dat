@@ -10,6 +10,10 @@ speed=138
 power=228
 # Calculated from data given in https://en.wikipedia.org/wiki/GWR_3232_Class
 # with a loss factor of 0.8. Boiler pressure not given, so assumed 180psi.
+# Fuel: 8050 g of Welsh steam coal per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for GWR 3232 Class; coal range at full bunker about 568 km.
+fuel_per_km=8050
+calibration_speed=138
 tractive_effort=54
 copyright=James/JamesPetts
 intro_year=1892

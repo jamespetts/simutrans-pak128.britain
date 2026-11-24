@@ -9,6 +9,10 @@ speed=135
 # Recorded at 57mph on an upward gradient of 1/178 with a load of 651 tons (presumably
 # 815 tons gross). 540kW for this speed with this load as if on the level, +113kW
 power=653
+# Fuel: 20370 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LNER P2 Class; coal range at full bunker about 398 km.
+fuel_per_km=20370
+calibration_speed=135
 tractive_effort=200
 copyright=James
 intro_year=1934

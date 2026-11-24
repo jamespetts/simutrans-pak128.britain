@@ -11,6 +11,9 @@ engine_type=diesel
 # This is taken from the LZ-130, as the range is based on this.
 speed=135
 power=2940
+# Fuel: 3852 mL per km at 135 km/h (M: LZ 129: 4x1,050 hp diesel at ~55%, BSFC 0.42 lb/hp/h, die). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=3852
+calibration_speed=135
 tractive_effort=87
 freight=Passagiere
 payload[0]=0

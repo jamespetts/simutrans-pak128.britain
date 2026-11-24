@@ -6,6 +6,9 @@ speed=75
 gear=50
 # Leyland O.680 engine
 power=114
+# Fuel: 310 mL per km at 75 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=310
+calibration_speed=75
 tractive_effort=18
 copyright=Kieron
 intro_year=1980
@@ -78,6 +81,9 @@ speed=75
 gear=50
 # Leyland O.680 engine
 power=114
+# Fuel: 310 mL per km at 75 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=310
+calibration_speed=75
 tractive_effort=18
 copyright=Kieron
 intro_year=1980

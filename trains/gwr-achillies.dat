@@ -7,6 +7,10 @@ speed=146
 # Extrapolated
 power=240
 # http://www.greatwestern.org.uk/m_in_3001.htm
+# Fuel: 7880 g of Welsh steam coal per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for GWR 3021 'Achillies' Class; coal range at full bunker about 580 km.
+fuel_per_km=7880
+calibration_speed=146
 tractive_effort=54
 copyright=James/JamesPetts
 intro_year=1894

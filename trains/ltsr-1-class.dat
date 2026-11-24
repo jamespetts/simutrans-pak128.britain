@@ -6,6 +6,10 @@ speed=120
 # Extrapolated
 power=223
 # https://en.wikipedia.org/wiki/LT%26SR_1_Class
+# Fuel: 9000 g of Welsh steam coal per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for L&TSR 1 Class.
+fuel_per_km=9000
+calibration_speed=120
 tractive_effort=62
 copyright=JamesPetts
 intro_year=1880

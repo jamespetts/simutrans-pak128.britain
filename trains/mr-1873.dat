@@ -7,6 +7,10 @@ speed=85
 power=221
 # Calculated from data http://en.wikipedia.org/wiki/Midland_Railway_Johnson_0-6-0
 # Loss factor set at 0.8 
+# Fuel: 13870 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for MR 1873 'Neilson Goods'.
+fuel_per_km=13870
+calibration_speed=85
 tractive_effort=73
 copyright=James/JamesPetts
 intro_year=1890

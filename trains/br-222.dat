@@ -6,6 +6,9 @@ smoke=Diesel-light
 speed=200
 gear=50
 power=560
+# Fuel: 570 mL per km at 200 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=570
+calibration_speed=200
 tractive_effort=47
 copyright=Kieron/jonbridg
 intro_year=2004
@@ -101,6 +104,9 @@ smoke=Diesel-light
 speed=200
 gear=50
 power=560
+# Fuel: 570 mL per km at 200 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=570
+calibration_speed=200
 tractive_effort=47
 copyright=Kieron/jonbridg
 intro_year=2004
@@ -196,6 +202,9 @@ smoke=Diesel-light
 speed=200
 gear=50
 power=560
+# Fuel: 570 mL per km at 200 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=570
+calibration_speed=200
 tractive_effort=47
 copyright=Kieron/jonbridg
 intro_year=2004
@@ -293,6 +302,9 @@ smoke=Diesel-light
 speed=200
 gear=50
 power=560
+# Fuel: 570 mL per km at 200 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=570
+calibration_speed=200
 tractive_effort=47
 copyright=Kieron/jonbridg
 intro_year=2004
@@ -387,6 +399,9 @@ smoke=Diesel-light
 speed=200
 gear=50
 power=560
+# Fuel: 570 mL per km at 200 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=570
+calibration_speed=200
 tractive_effort=47
 copyright=Kieron/jonbridg
 intro_year=2004
@@ -480,6 +495,9 @@ smoke=Diesel-light
 speed=200
 gear=50
 power=560
+# Fuel: 570 mL per km at 200 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=570
+calibration_speed=200
 tractive_effort=47
 copyright=Kieron/jonbridg
 intro_year=2004

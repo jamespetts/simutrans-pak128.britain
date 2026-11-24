@@ -3,6 +3,9 @@ name=BR-350-2(front)
 engine_type=electric
 speed=160
 power=750
+# Fuel: 3701 Wh per km at 160 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=3701
+calibration_speed=160
 tractive_effort=100
 gear=80
 copyright=Kieron/jamespetts/James
@@ -269,6 +272,9 @@ name=BR-350-2(rear)
 engine_type=electric
 speed=160
 power=750
+# Fuel: 3701 Wh per km at 160 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=3701
+calibration_speed=160
 tractive_effort=100
 gear=80
 copyright=Kieron/jamespetts/James

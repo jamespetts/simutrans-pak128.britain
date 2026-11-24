@@ -8,6 +8,9 @@ gear=80
 # https://forum.simutrans.com/index.php/topic,19782.msg186269.html#msg186269
 # https://web.archive.org/web/20170411200128/http://www.lrta.org/Manchester/lrv_t68.html
 power=210
+# Fuel: 2983 Wh per km at 80 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=2983
+calibration_speed=80
 tractive_effort=40
 copyright=James
 intro_year=1992
@@ -71,6 +74,9 @@ gear=80
 # https://forum.simutrans.com/index.php/topic,19782.msg186269.html#msg186269
 # https://web.archive.org/web/20170411200128/http://www.lrta.org/Manchester/lrv_t68.html
 power=240
+# Fuel: 3409 Wh per km at 80 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=3409
+calibration_speed=80
 tractive_effort=40
 copyright=James
 intro_year=1999

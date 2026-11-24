@@ -8,6 +8,9 @@ freight=Bucher
 payload=3
 axle_load=3
 power=4
+# Fuel: 900 g per km at 16 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=900
+calibration_speed=16
 tractive_effort=2
 speed=16
 weight=1.0
@@ -48,6 +51,9 @@ waytype=road
 freight=meat
 payload=3
 power=4
+# Fuel: 900 g per km at 16 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=900
+calibration_speed=16
 tractive_effort=2
 speed=16
 weight=1.0
@@ -88,6 +94,9 @@ waytype=road
 freight=Post
 payload=100
 power=4
+# Fuel: 900 g per km at 16 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=900
+calibration_speed=16
 tractive_effort=2
 speed=16
 weight=1.0

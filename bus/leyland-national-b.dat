@@ -9,6 +9,9 @@ gear=50
 # Heavy fuel consumption and hard to maintain
 # Downrated: cheaper maintenance
 power=108
+# Fuel: 310 mL per km at 70 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=310
+calibration_speed=70
 tractive_effort=17
 copyright=Kieron
 # Guessed
@@ -76,6 +79,9 @@ gear=50
 # Heavy fuel consumption and hard to maintain
 # Downrated: cheaper maintenance
 power=108
+# Fuel: 310 mL per km at 70 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=310
+calibration_speed=70
 tractive_effort=17
 copyright=Kieron
 # Guessed

@@ -10,6 +10,9 @@ overcrowded_capacity=2
 speed=67
 # 100hp
 power=75
+# Fuel: 1250 Wh per km at 67 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=1250
+calibration_speed=67
 tractive_effort=47
 gear=80
 # Guessed

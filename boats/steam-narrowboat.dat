@@ -7,6 +7,9 @@ Smoke=Steam
 speed=8
 power=20
 #gear=1200
+# Fuel: 1990 g per km at 8 km/h. Basis and sources: New/ai/fuel/water.md
+fuel_per_km=1990
+calibration_speed=8
 freight=Kohle
 payload=20
 weight=10
@@ -180,6 +183,9 @@ Smoke=Steam
 speed=8
 power=20
 #gear=1200
+# Fuel: 1990 g per km at 8 km/h. Basis and sources: New/ai/fuel/water.md
+fuel_per_km=1990
+calibration_speed=8
 freight=Bretter
 payload=20
 weight=10
@@ -315,6 +321,9 @@ Smoke=Steam
 speed=8
 power=20
 #gear=1200
+# Fuel: 1990 g per km at 8 km/h. Basis and sources: New/ai/fuel/water.md
+fuel_per_km=1990
+calibration_speed=8
 freight=vegetables
 payload=20
 weight=10
@@ -393,6 +402,9 @@ Smoke=Steam
 speed=8
 power=20
 #gear=1200
+# Fuel: 1990 g per km at 8 km/h. Basis and sources: New/ai/fuel/water.md
+fuel_per_km=1990
+calibration_speed=8
 freight=fish
 payload=20
 weight=10
@@ -472,6 +484,9 @@ Smoke=Steam
 speed=8
 power=20
 #gear=1200
+# Fuel: 1990 g per km at 8 km/h. Basis and sources: New/ai/fuel/water.md
+fuel_per_km=1990
+calibration_speed=8
 freight=Oel
 payload=20
 weight=10
@@ -550,6 +565,9 @@ Smoke=Steam
 speed=8
 power=20
 #gear=1200
+# Fuel: 1990 g per km at 8 km/h. Basis and sources: New/ai/fuel/water.md
+fuel_per_km=1990
+calibration_speed=8
 freight=livestock
 payload=20
 weight=10

@@ -10,6 +10,10 @@ speed=35
 # Extrapolated
 power=9
 # Calculated from estimated values as follows: 120psi, 6x10in cylinders, 20in wheels.
+# Fuel: 2200 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for Hunslet quarry class.
+fuel_per_km=2200
+calibration_speed=35
 tractive_effort=7
 copyright=James/jamespetts
 intro_year=1870

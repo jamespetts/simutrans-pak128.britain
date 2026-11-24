@@ -8,6 +8,10 @@ power=239
 # Tractive effort taken from:
 # http://en.wikipedia.org/wiki/LB%26SCR_C1_class
 # See also: http://www.semgonline.com/steam/c1class_01.html 
+# Fuel: 16720 g of Welsh steam coal per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LBSCR C1 Class.
+fuel_per_km=16720
+calibration_speed=75
 tractive_effort=82
 copyright=Kieron/JamesPetts
 intro_year=1882

@@ -12,6 +12,9 @@ speed=85
 # 85hp - Baldwin p. 62
 power=63
 # Assume geared higher for coach work
+# Fuel: 240 mL per km at 85 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=240
+calibration_speed=85
 tractive_effort=4
 gear=50
 # Guessed

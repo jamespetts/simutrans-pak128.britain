@@ -7,6 +7,9 @@ engine_type=petrol
 speed=73
 # 3x108kW=324kW max, SHP=0,9*kW
 power=292
+# Fuel: 959 mL per km at 73 km/h (M: LZ 10). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=959
+calibration_speed=73
 tractive_effort=11
 #gear=1
 freight=Passagiere

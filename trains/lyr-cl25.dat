@@ -7,6 +7,10 @@ speed=85
 power=215
 # Tractive effort calculated from http://orion.math.iastate.edu/jdhsmith/term/slgblyr.htm
 # Loss factor of 0.8
+# Fuel: 13860 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LYR Class 25.
+fuel_per_km=13860
+calibration_speed=85
 tractive_effort=75
 copyright=James
 intro_year=1876

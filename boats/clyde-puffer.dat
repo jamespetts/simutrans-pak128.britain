@@ -6,6 +6,9 @@ engine_type=steam
 speed=15
 power=200
 #gear=1200
+# Fuel: 3780 g per km at 15 km/h. Basis and sources: New/ai/fuel/water.md
+fuel_per_km=3780
+calibration_speed=15
 smoke=Steam
 sound=ship-horn_b.wav
 freight=Kohle
@@ -103,6 +106,9 @@ engine_type=steam
 speed=15
 power=200
 #gear=1200
+# Fuel: 3780 g per km at 15 km/h. Basis and sources: New/ai/fuel/water.md
+fuel_per_km=3780
+calibration_speed=15
 smoke=Steam
 freight=Bretter
 payload=75
@@ -169,6 +175,9 @@ engine_type=steam
 speed=15
 power=200
 #gear=1200
+# Fuel: 3780 g per km at 15 km/h. Basis and sources: New/ai/fuel/water.md
+fuel_per_km=3780
+calibration_speed=15
 smoke=Steam
 freight=vegetables
 payload=75
@@ -223,6 +232,9 @@ engine_type=steam
 speed=15
 power=200
 #gear=1200
+# Fuel: 3780 g per km at 15 km/h. Basis and sources: New/ai/fuel/water.md
+fuel_per_km=3780
+calibration_speed=15
 smoke=Steam
 freight=meat
 payload=75
@@ -277,6 +289,9 @@ engine_type=steam
 speed=15
 power=200
 #gear=1200
+# Fuel: 3780 g per km at 15 km/h. Basis and sources: New/ai/fuel/water.md
+fuel_per_km=3780
+calibration_speed=15
 smoke=Steam
 freight=livestock
 payload=75
@@ -331,6 +346,9 @@ engine_type=steam
 speed=15
 power=200
 #gear=1200
+# Fuel: 3780 g per km at 15 km/h. Basis and sources: New/ai/fuel/water.md
+fuel_per_km=3780
+calibration_speed=15
 smoke=Steam
 freight=Oel
 payload=75

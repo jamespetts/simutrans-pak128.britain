@@ -14,6 +14,9 @@ overcrowded_capacity=3
 speed=55
 # 90BHP - Phillips p. 101
 power=67
+# Fuel: 250 mL per km at 55 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=250
+calibration_speed=55
 tractive_effort=7
 gear=50
 # See Phillips p. 100 - 2t lighter than a Royal Tiger

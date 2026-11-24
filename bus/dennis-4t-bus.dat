@@ -16,6 +16,9 @@ overcrowded_capacity=3
 speed=20
 # http://www.old-bus-photos.co.uk/?tag=dennis-4-ton : 40-50hp
 power=34
+# Fuel: 430 mL per km at 20 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=430
+calibration_speed=20
 tractive_effort=6
 gear=50
 # https://www.flickr.com/photos/14730981@N08/33764671432/in/photostream/

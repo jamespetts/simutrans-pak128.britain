@@ -5,6 +5,9 @@ speed=32
 gear=80
 # No data - guessed
 power=23
+# Fuel: 898 Wh per km at 32 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=898
+calibration_speed=32
 tractive_effort=26
 copyright=James
 intro_year=1890

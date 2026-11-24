@@ -5,6 +5,9 @@ waytype=air
 engine_type=petrol
 speed=198
 power=940
+# Fuel: 955 mL per km at 198 km/h (M: Ford Trimotor, 3x300 hp; capacity/range check 870 L / 885). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=955
+calibration_speed=198
 tractive_effort=17
 #gear=1
 freight=Post

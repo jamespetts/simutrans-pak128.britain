@@ -7,6 +7,9 @@ smoke=Diesel
 speed=8
 power=30
 #gear=1200
+# Fuel: 536 mL per km at 8 km/h. Basis and sources: New/ai/fuel/water.md
+fuel_per_km=536
+calibration_speed=8
 freight=Kohle
 payload=20
 weight=10
@@ -180,6 +183,9 @@ smoke=Diesel
 speed=8
 power=30
 #gear=1200
+# Fuel: 536 mL per km at 8 km/h. Basis and sources: New/ai/fuel/water.md
+fuel_per_km=536
+calibration_speed=8
 freight=Bretter
 payload=20
 weight=10
@@ -315,6 +321,9 @@ smoke=Diesel
 speed=8
 power=30
 #gear=1200
+# Fuel: 536 mL per km at 8 km/h. Basis and sources: New/ai/fuel/water.md
+fuel_per_km=536
+calibration_speed=8
 freight=vegetables
 payload=20
 weight=10
@@ -393,6 +402,9 @@ smoke=Diesel
 speed=8
 power=30
 #gear=1200
+# Fuel: 536 mL per km at 8 km/h. Basis and sources: New/ai/fuel/water.md
+fuel_per_km=536
+calibration_speed=8
 freight=fish
 payload=20
 weight=10
@@ -466,11 +478,14 @@ obj=vehicle
 name=SemiDieselNarrowboatOil
 copyright=Jamespetts
 waytype=water
-engine_type=Diesel
+engine_type=diesel
 smoke=Diesel
 speed=8
 power=30
 #gear=1200
+# Fuel: 536 mL per km at 8 km/h. Basis and sources: New/ai/fuel/water.md
+fuel_per_km=536
+calibration_speed=8
 freight=Oel
 payload=20
 weight=10
@@ -549,6 +564,9 @@ smoke=Diesel
 speed=8
 power=30
 #gear=1200
+# Fuel: 536 mL per km at 8 km/h. Basis and sources: New/ai/fuel/water.md
+fuel_per_km=536
+calibration_speed=8
 freight=livestock
 payload=20
 weight=10

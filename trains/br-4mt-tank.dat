@@ -5,6 +5,10 @@ smoke=Steam
 speed=126
 # Extrapolated
 power=312
+# Fuel: 13460 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for BR 4MT Tank; coal range at full bunker about 265 km.
+fuel_per_km=13460
+calibration_speed=126
 tractive_effort=111
 copyright=Kieron
 intro_year=1951

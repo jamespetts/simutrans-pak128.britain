@@ -8,6 +8,9 @@ smoke=Diesel
 speed=60
 power=134
 # Guessed value
+# Fuel: 535 mL per km at 60 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=535
+calibration_speed=60
 tractive_effort=45
 copyright=James
 # See Ffestiniog illustrated stock list p. 28

@@ -5,6 +5,9 @@ waytype=air
 engine_type=turbine
 speed=828
 power=38520
+# Fuel: 3406 mL per km at 828 km/h (S: A319 at 1,900 km sector: 2.93 kg/km, x0.93, /0.80). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=3406
+calibration_speed=828
 tractive_effort=214
 freight=Passagiere
 payload[0]=0
@@ -62,6 +65,9 @@ waytype=air
 engine_type=turbine
 speed=828
 power=35280
+# Fuel: 3406 mL per km at 828 km/h (S: A319 at 1,900 km sector: 2.93 kg/km, x0.93, /0.80). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=3406
+calibration_speed=828
 tractive_effort=214
 freight=Passagiere
 payload[0]=156

@@ -9,6 +9,9 @@ payload=2
 engine_type=petrol
 # 12hp (Baldwin, p. 8)
 power=9
+# Fuel: 165 mL per km at 30 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=165
+calibration_speed=30
 tractive_effort=2
 gear=50
 speed=30
@@ -54,6 +57,9 @@ payload=2
 engine_type=petrol
 # 12hp (Baldwin, p. 8)
 power=9
+# Fuel: 165 mL per km at 30 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=165
+calibration_speed=30
 tractive_effort=2
 gear=50
 speed=30
@@ -100,6 +106,9 @@ payload=70
 engine_type=petrol
 # 12hp (Baldwin, p. 8)
 power=9
+# Fuel: 165 mL per km at 30 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=165
+calibration_speed=30
 tractive_effort=2
 gear=50
 speed=30

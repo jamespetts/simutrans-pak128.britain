@@ -5,6 +5,9 @@ name=BR-373FrontCab
 engine_type=electric
 speed=300
 power=6100
+# Fuel: 16052 Wh per km at 300 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=16052
+calibration_speed=300
 gear=80
 tractive_effort=205
 copyright=Kieron/Rollmaterial
@@ -832,6 +835,9 @@ name=BR-373RearCab
 engine_type=electric
 speed=300
 power=6100
+# Fuel: 16052 Wh per km at 300 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=16052
+calibration_speed=300
 gear=80
 tractive_effort=205
 copyright=Kieron/Rollmaterial

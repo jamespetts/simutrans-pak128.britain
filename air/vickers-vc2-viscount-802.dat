@@ -5,6 +5,9 @@ waytype=air
 engine_type=turbine
 speed=530
 power=4774
+# Fuel: 2886 mL per km at 530 km/h (M: Viscount 800, 4x Dart RDa.7). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=2886
+calibration_speed=530
 tractive_effort=32
 freight=Passagiere
 payload[0]=0

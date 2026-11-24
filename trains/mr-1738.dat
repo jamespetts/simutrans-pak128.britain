@@ -8,6 +8,10 @@ power=221
 # Calculated from data from http://orion.math.iastate.edu/jdhsmith/term/slgbmr.htm
 # (Note: that site has the class incorrectly named as the 1740 class)
 # Loss factor set at 0.8
+# Fuel: 8420 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for MR 1738 Class.
+fuel_per_km=8420
+calibration_speed=140
 tractive_effort=58
 copyright=Kieron/JamesPetts
 intro_year=1885

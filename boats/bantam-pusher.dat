@@ -5,6 +5,9 @@ smoke=Diesel
 speed=8
 power=100
 #gear=1200
+# Fuel: 1860 mL per km at 8 km/h. Basis and sources: New/ai/fuel/water.md
+fuel_per_km=1860
+calibration_speed=8
 copyright=Jamespetts
 intro_year=1948
 intro_month=6

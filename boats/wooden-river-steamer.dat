@@ -7,6 +7,9 @@ smoke=Steam
 speed=15
 power=120
 #gear=1200
+# Fuel: 7031 g per km at 15 km/h. Basis and sources: New/ai/fuel/water.md
+fuel_per_km=7031
+calibration_speed=15
 freight=Passagiere
 payload[0]=0
 payload[1]=250

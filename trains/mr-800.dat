@@ -11,6 +11,10 @@ tractive_effort=53
 # This was on the flat. This is average, not top, speed, so is too low for calibration purposes.
 # Therefore, extrapolated.
 power=208
+# Fuel: 8790 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for MR 800 class (rebuilt).
+fuel_per_km=8790
+calibration_speed=125
 copyright=Kieron/JamesPetts
 intro_year=1875
 intro_month=3

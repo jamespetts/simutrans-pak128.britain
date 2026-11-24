@@ -8,6 +8,10 @@ power=244
 # http://chasewaterstuff.wordpress.com/2012/04/07/steam-locos-of-a-leisurely-era-1887-johnson-4-2-2-midland-railway/
 # Calculated using data from: http://orion.math.iastate.edu/jdhsmith/term/slgbmr.htm (multiplied by 0.95 to reflect reduction in these values
 # between measured value of the MR 2601 class of 66kN and the calculated value of 69kN)
+# Fuel: 9030 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for MR 25 Class.
+fuel_per_km=9030
+calibration_speed=145
 tractive_effort=54
 copyright=James/jamespetts
 intro_year=1887

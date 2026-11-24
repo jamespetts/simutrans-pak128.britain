@@ -15,6 +15,9 @@ overcrowded_capacity=4
 speed=50
 # 85HP - Townsin p. 41
 power=63
+# Fuel: 240 mL per km at 50 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=240
+calibration_speed=50
 tractive_effort=9
 gear=50
 # http://www.classicbuses.co.uk/busnews3.html

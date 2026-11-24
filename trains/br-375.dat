@@ -11,6 +11,9 @@ name=BR-375Front
 engine_type=electric
 speed=160
 power=500
+# Fuel: 2131 Wh per km at 160 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=2131
+calibration_speed=160
 tractive_effort=44
 gear=80
 copyright=Kieron
@@ -182,6 +185,9 @@ name=BR-375Middle
 engine_type=electric
 speed=160
 power=500
+# Fuel: 2131 Wh per km at 160 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=2131
+calibration_speed=160
 tractive_effort=44
 gear=80
 copyright=Kieron
@@ -260,6 +266,9 @@ name=BR-375Middle2
 engine_type=electric
 speed=160
 power=500
+# Fuel: 2131 Wh per km at 160 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=2131
+calibration_speed=160
 tractive_effort=44
 gear=80
 copyright=Kieron
@@ -338,6 +347,9 @@ name=BR-375Rear
 engine_type=electric
 speed=160
 power=500
+# Fuel: 2131 Wh per km at 160 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=2131
+calibration_speed=160
 tractive_effort=44
 gear=80
 copyright=Kieron

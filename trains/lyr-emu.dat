@@ -4,6 +4,9 @@ name=L&YR-EMU-driving-motor
 engine_type=electric
 speed=89
 power=552
+# Fuel: 4652 Wh per km at 89 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=4652
+calibration_speed=89
 gear=80
 tractive_effort=30
 copyright=Kieron/JamesPetts

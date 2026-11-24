@@ -6,6 +6,10 @@ smoke=Steam
 speed=96
 # Extrapolated
 power=153
+# Fuel: 9410 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for GNR 120 Class; coal range at full bunker about 162 km.
+fuel_per_km=9410
+calibration_speed=96
 tractive_effort=51
 copyright=JamesPetts
 intro_year=1872

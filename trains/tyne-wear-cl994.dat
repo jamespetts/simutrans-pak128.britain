@@ -3,6 +3,9 @@ name=TyneWearMetroClass994Front
 engine_type=electric
 speed=80
 power=220
+# Fuel: 1941 Wh per km at 80 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=1941
+calibration_speed=80
 copyright=James
 intro_year=1980
 intro_month=1
@@ -54,6 +57,9 @@ name=TyneWearMetroClass994Rear
 engine_type=electric
 speed=80
 power=220
+# Fuel: 1941 Wh per km at 80 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=1941
+calibration_speed=80
 copyright=James
 intro_year=1980
 intro_month=1

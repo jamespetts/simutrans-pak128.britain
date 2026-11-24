@@ -5,6 +5,9 @@ waytype=air
 engine_type=turbine
 speed=2170
 power=100440
+# Fuel: 13996 mL per km at 2170 km/h (M: Olympus 593 at M2: SFC 1.195 lb/lbf/h). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=13996
+calibration_speed=2170
 tractive_effort=558
 freight=Passagiere
 payload[0]=0

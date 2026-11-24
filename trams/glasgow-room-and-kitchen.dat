@@ -5,6 +5,9 @@ engine_type=electric
 speed=32
 gear=80
 power=52
+# Fuel: 2031 Wh per km at 32 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=2031
+calibration_speed=32
 tractive_effort=32
 copyright=James/jamespetts
 intro_year=1898

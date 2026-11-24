@@ -5,6 +5,9 @@ waytype=air
 engine_type=petrol
 speed=507
 power=6445
+# Fuel: 3275 mL per km at 507 km/h (M: DC-6A, 4x2,500 hp). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=3275
+calibration_speed=507
 tractive_effort=46
 freight=Bucher
 #payload=12.8t
@@ -55,6 +58,9 @@ waytype=air
 engine_type=petrol
 speed=507
 power=6445
+# Fuel: 3275 mL per km at 507 km/h (M: DC-6A, 4x2,500 hp). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=3275
+calibration_speed=507
 tractive_effort=46
 freight=fish
 #payload=12.8t

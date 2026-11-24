@@ -14,6 +14,9 @@ speed=75
 # Guessed
 power=61
 # Inferred lower gearing for coach model
+# Fuel: 245 mL per km at 75 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=245
+calibration_speed=75
 tractive_effort=6
 gear=50
 # Guessed

@@ -9,6 +9,10 @@ speed=85
 power=192
 # Calculated from data from data at above website.
 # Loss factor set at 0.75 
+# Fuel: 13100 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for MR 690 Class.
+fuel_per_km=13100
+calibration_speed=85
 tractive_effort=53
 copyright=Kieron/JamesPetts
 intro_year=1869

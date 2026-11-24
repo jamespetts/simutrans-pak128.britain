@@ -9,6 +9,10 @@ speed=117
 power=173
 # Calculated from data from Ahrons, pp. 144-5
 # Loss factor set at 0.75
+# Fuel: 9240 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LNWR Problem.
+fuel_per_km=9240
+calibration_speed=117
 tractive_effort=27
 copyright=James
 intro_year=1859

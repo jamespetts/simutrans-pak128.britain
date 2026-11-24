@@ -8,6 +8,10 @@ speed=112
 # Extrapolated
 power=156
 # Calculated from data at Ahrons p. 113 with a loss factor of 0.70
+# Fuel: 7950 g of Welsh steam coal per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for GWR 69 Class; coal range at full bunker about 415 km.
+fuel_per_km=7950
+calibration_speed=112
 tractive_effort=26
 copyright=James/JamesPetts
 intro_year=1855

@@ -14,6 +14,9 @@ speed=50
 # multiply by 2.31 (to replicate the relationship between the Titan TD1's 38.8 RAC HP
 # and its 90 BHP)
 power=62
+# Fuel: 435 mL per km at 50 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=435
+calibration_speed=50
 tractive_effort=7
 gear=50
 # Guessed as mid-point between ST and RT

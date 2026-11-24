@@ -6,6 +6,10 @@ speed=125
 # Extrapolated
 power=427
 # https://en.wikipedia.org/wiki/LSWR_H15_class
+# Fuel: 14640 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LSWR H15; coal range at full bunker about 348 km.
+fuel_per_km=14640
+calibration_speed=125
 tractive_effort=117
 copyright=James/JamesPetts
 intro_year=1914

@@ -5,6 +5,9 @@ waytype=air
 engine_type=turbine
 speed=851
 power=33480
+# Fuel: 5503 mL per km at 851 km/h (M: JT8D-9, cruise SFC 0.80). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=5503
+calibration_speed=851
 tractive_effort=186
 #gear=1
 freight=Bucher
@@ -52,6 +55,9 @@ waytype=air
 engine_type=turbine
 speed=851
 power=33480
+# Fuel: 5503 mL per km at 851 km/h (M: JT8D-9, cruise SFC 0.80). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=5503
+calibration_speed=851
 tractive_effort=186
 #gear=1
 freight=meat

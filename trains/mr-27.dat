@@ -7,6 +7,10 @@ speed=122
 power=170
 # Calculated from data from Ahrons, p. 145
 # Loss factor set at 0.75, at 140lbs boiler pressure. 
+# Fuel: 8590 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for MR 27 Class.
+fuel_per_km=8590
+calibration_speed=122
 tractive_effort=36
 copyright=James/jamespetts
 intro_year=1864

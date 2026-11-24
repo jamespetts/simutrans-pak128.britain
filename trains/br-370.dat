@@ -311,6 +311,9 @@ name=BR-370FrontPower
 engine_type=electric
 speed=250
 power=2983
+# Fuel: 9178 Wh per km at 250 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=9178
+calibration_speed=250
 tractive_effort=110
 gear=80
 copyright=Kieron
@@ -366,6 +369,9 @@ name=BR-370RearPower
 engine_type=electric
 speed=250
 power=2983
+# Fuel: 9178 Wh per km at 250 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=9178
+calibration_speed=250
 tractive_effort=110
 gear=80
 copyright=Kieron

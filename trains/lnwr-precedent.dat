@@ -12,6 +12,10 @@ speed=130
 power=232
 # Tractive effort calculated from data on Ahrons p. 192
 # Loss factor 0.8
+# Fuel: 10490 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LNWR Precedent.
+fuel_per_km=10490
+calibration_speed=130
 tractive_effort=44
 copyright=James
 intro_year=1874

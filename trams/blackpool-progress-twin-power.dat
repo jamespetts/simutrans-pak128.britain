@@ -6,6 +6,9 @@ gear=80
 # http://www.britishtramsonline.co.uk/blackpoolfleet.doc
 # 57 electric horse power is 42.5KW, unlike the source states.
 power=85
+# Fuel: 1429 Wh per km at 70 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=1429
+calibration_speed=70
 tractive_effort=40
 copyright=James
 intro_year=1958

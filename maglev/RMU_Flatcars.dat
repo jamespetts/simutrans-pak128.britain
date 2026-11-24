@@ -6,6 +6,9 @@ name=RMUflat(cooled)
 engine_type=hydrogene
 speed=160
 power=800
+# Fuel: 7059 Wh per km at 160 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=7059
+calibration_speed=160
 gear=90
 copyright=AEO
 intro_year=2012
@@ -69,6 +72,9 @@ name=RMUflat(piece)
 engine_type=hydrogene
 speed=160
 power=800
+# Fuel: 7059 Wh per km at 160 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=7059
+calibration_speed=160
 gear=90
 copyright=AEO
 intro_year=2012

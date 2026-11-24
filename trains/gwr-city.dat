@@ -12,6 +12,10 @@ speed=150
 # 300kW for 102.3mph or 241kW for 92mph
 power=300
 # http://en.wikipedia.org/wiki/GWR_3700_Class
+# Fuel: 9060 g of Welsh steam coal per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for GWR 3700 'City'; coal range at full bunker about 504 km.
+fuel_per_km=9060
+calibration_speed=150
 tractive_effort=79
 copyright=James/jamespetts
 intro_year=1902

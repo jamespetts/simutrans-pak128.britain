@@ -6,6 +6,10 @@ speed=100
 # Extrapolated
 power=206
 # Tractive effort from: http://www.brc-stockbook.co.uk/Met1.HTM
+# Fuel: 11130 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for Metropolitan E Class.
+fuel_per_km=11130
+calibration_speed=100
 tractive_effort=65
 copyright=Kieron
 intro_year=1898

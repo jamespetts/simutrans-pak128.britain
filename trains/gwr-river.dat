@@ -9,6 +9,10 @@ speed=131
 power=252
 # Calculated from data at https://en.wikipedia.org/wiki/GWR_River_Class 
 # (assumed 160psi boiler pressure) with a loss factor of 0.8
+# Fuel: 9210 g of Welsh steam coal per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for GWR 69 'River' Class; coal range at full bunker about 496 km.
+fuel_per_km=9210
+calibration_speed=131
 tractive_effort=50
 copyright=James/JamesPetts
 intro_year=1895

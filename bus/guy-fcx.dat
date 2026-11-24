@@ -11,6 +11,9 @@ overcrowded_capacity=5
 speed=32
 # 45hp: http://historywebsite.co.uk/Museum/Transport/Buses/Guy/guy6w.htm
 power=33
+# Fuel: 550 mL per km at 32 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=550
+calibration_speed=32
 tractive_effort=5
 gear=50
 # Guessed

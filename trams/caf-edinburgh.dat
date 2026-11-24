@@ -10,6 +10,9 @@ name=CAF-Edinburgh-front
 engine_type=electric
 speed=70
 power=320
+# Fuel: 5195 Wh per km at 70 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=5195
+calibration_speed=70
 gear=80
 tractive_effort=29
 copyright=James/jamespetts
@@ -244,6 +247,9 @@ copyright=James/jamespetts
 intro_year=2011
 intro_month=1
 power=320
+# Fuel: 5195 Wh per km at 70 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=5195
+calibration_speed=70
 gear=80
 tractive_effort=29
 waytype=tram_track
@@ -292,6 +298,9 @@ name=CAF-Edinburgh-rear
 engine_type=electric
 speed=70
 power=320
+# Fuel: 5195 Wh per km at 70 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=5195
+calibration_speed=70
 gear=80
 tractive_effort=29
 copyright=James/jamespetts

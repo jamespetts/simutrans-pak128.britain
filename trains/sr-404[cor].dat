@@ -4,6 +4,9 @@ engine_type=electric
 speed=121
 gear=80
 power=336
+# Fuel: 1960 Wh per km at 121 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=1960
+calibration_speed=121
 tractive_effort=31
 copyright=Kieron
 intro_year=1937
@@ -499,6 +502,9 @@ engine_type=electric
 speed=121
 gear=80
 power=336
+# Fuel: 1960 Wh per km at 121 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=1960
+calibration_speed=121
 tractive_effort=31
 copyright=Kieron
 intro_year=1937

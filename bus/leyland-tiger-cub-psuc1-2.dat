@@ -16,6 +16,9 @@ speed=113
 # 90BHP - Phillips p. 101
 power=67
 # Assume lower gearing for coach version
+# Fuel: 185 mL per km at 113 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=185
+calibration_speed=113
 tractive_effort=5
 gear=50
 # See Phillips p. 100 - 2t lighter than a Royal Tiger

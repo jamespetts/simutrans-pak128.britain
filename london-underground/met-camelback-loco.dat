@@ -6,6 +6,9 @@ engine_type=electric
 speed=80
 gear=80
 power=640
+# Fuel: 6000 Wh per km at 80 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=6000
+calibration_speed=80
 tractive_effort=65
 copyright=James
 intro_year=1906

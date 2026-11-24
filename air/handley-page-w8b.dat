@@ -5,6 +5,9 @@ waytype=air
 engine_type=petrol
 speed=137
 power=482
+# Fuel: 1015 mL per km at 137 km/h (M: HP W.8b, 2x450 hp Eagle). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=1015
+calibration_speed=137
 tractive_effort=13
 freight=Passagiere
 payload[0]=0

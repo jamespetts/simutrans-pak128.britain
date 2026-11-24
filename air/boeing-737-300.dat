@@ -9,6 +9,9 @@ engine_type=turbine
 # LRC (TAS)
 speed=794
 power=32040
+# Fuel: 3926 mL per km at 794 km/h (S: 737-300 at 939 km sector: 3.49 kg/km, x0.90, /0.80; CFM56). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=3926
+calibration_speed=794
 tractive_effort=178
 freight=Passagiere
 payload[0]=0
@@ -69,6 +72,9 @@ engine_type=turbine
 # LRC (TAS)
 speed=794
 power=32040
+# Fuel: 3926 mL per km at 794 km/h (S: 737-300 at 939 km sector: 3.49 kg/km, x0.90, /0.80; CFM56). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=3926
+calibration_speed=794
 tractive_effort=178
 freight=Passagiere
 payload[0]=0

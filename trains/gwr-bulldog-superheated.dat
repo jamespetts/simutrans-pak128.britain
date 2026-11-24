@@ -6,6 +6,10 @@ smoke=Steam
 speed=127
 power=325
 # https://en.wikipedia.org/wiki/GWR_3300_Class#cite_note-OSNa76-8
+# Fuel: 9800 g of Welsh steam coal per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for GWR 3300 'Bulldog' (s'heated); coal range at full bunker about 726 km.
+fuel_per_km=9800
+calibration_speed=127
 tractive_effort=94
 copyright=James/JamesPetts
 intro_year=1910

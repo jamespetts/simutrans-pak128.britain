@@ -5,6 +5,9 @@ waytype=air
 engine_type=petrol
 speed=131
 power=482
+# Fuel: 1223 mL per km at 131 km/h (M: HP O/400, 2x360 hp Eagle; capacity/range check 1,136 L / ). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=1223
+calibration_speed=131
 tractive_effort=13
 #gear=1
 freight=Post

@@ -10,6 +10,9 @@ speed=56
 power=71
 # 0-35mph: 44 seconds;
 # 0-30mph: 23 seconds
+# Fuel: 1400 Wh per km at 56 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=1400
+calibration_speed=56
 tractive_effort=47
 gear=80
 weight=9.1

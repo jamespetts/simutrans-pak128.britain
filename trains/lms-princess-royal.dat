@@ -5,6 +5,10 @@ smoke=Steam
 speed=155
 # Extrapolated
 power=606
+# Fuel: 12760 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LMS 'Princess Royal'; coal range at full bunker about 717 km.
+fuel_per_km=12760
+calibration_speed=155
 tractive_effort=179
 copyright=James
 intro_year=1933

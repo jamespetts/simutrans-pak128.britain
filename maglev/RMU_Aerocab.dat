@@ -3,6 +3,9 @@ name=RMU-aerocab(front)
 engine_type=hydrogene
 speed=320
 power=500
+# Fuel: 2206 Wh per km at 320 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=2206
+calibration_speed=320
 gear=90
 copyright=AEO
 intro_year=2012
@@ -42,6 +45,9 @@ name=RMU-aerocab(rear)
 engine_type=hydrogene
 speed=320
 power=500
+# Fuel: 2206 Wh per km at 320 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=2206
+calibration_speed=320
 copyright=AEO
 intro_year=2012
 intro_month=1

@@ -7,6 +7,10 @@ speed=70
 power=45
 # Calculated from data in http://www.steamindex.com/locotype/lbscrloc.htm  
 # (data incomplete, largely guessed)
+# Fuel: 5980 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for L&BR 2-4-0T (early).
+fuel_per_km=5980
+calibration_speed=70
 tractive_effort=12
 copyright=James/jamespetts
 intro_year=1843

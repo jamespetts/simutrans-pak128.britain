@@ -11,6 +11,9 @@ overcrowded_capacity=3
 speed=50
 # 85hp - Baldwin p. 62
 power=63
+# Fuel: 255 mL per km at 50 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=255
+calibration_speed=50
 tractive_effort=8
 gear=50
 # Guessed

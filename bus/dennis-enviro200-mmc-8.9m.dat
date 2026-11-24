@@ -12,6 +12,9 @@ payload=32
 overcrowded_capacity=16
 # Cummins ISB4.5 engine
 power=147
+# Fuel: 295 mL per km at 76 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=295
+calibration_speed=76
 tractive_effort=30
 gear=50
 length=5

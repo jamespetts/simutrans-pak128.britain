@@ -7,6 +7,9 @@ engine_type=electric
 speed=110
 gear=80
 power=335
+# Fuel: 2150 Wh per km at 110 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=2150
+calibration_speed=110
 tractive_effort=65
 length=9
 copyright=James
@@ -193,6 +196,9 @@ engine_type=electric
 speed=110
 gear=80
 power=335
+# Fuel: 2150 Wh per km at 110 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=2150
+calibration_speed=110
 tractive_effort=65
 length=9
 copyright=James

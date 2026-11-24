@@ -5,6 +5,10 @@ smoke=Steam
 speed=148
 # Extrapolated
 power=407
+# Fuel: 12370 g of Welsh steam coal per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for GWR Hawksworth County; coal range at full bunker about 574 km.
+fuel_per_km=12370
+calibration_speed=148
 tractive_effort=145
 copyright=James
 intro_year=1945

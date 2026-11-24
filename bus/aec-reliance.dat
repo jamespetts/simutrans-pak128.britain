@@ -10,6 +10,9 @@ payload=28
 overcrowded_capacity=0
 speed=45
 power=31
+# Fuel: 375 mL per km at 45 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=375
+calibration_speed=45
 gear=50
 tractive_effort=5
 # Guessed

@@ -8,6 +8,9 @@ sound=ship-horn_a.wav
 speed=40
 power=6340
 #gear=400
+# Fuel: 95808 g per km at 40 km/h. Basis and sources: New/ai/fuel/water.md
+fuel_per_km=95808
+calibration_speed=40
 weight=853
 length=10
 freight=Passagiere

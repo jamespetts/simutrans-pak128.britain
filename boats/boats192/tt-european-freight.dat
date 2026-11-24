@@ -8,6 +8,9 @@ sound=ship-horn_a.wav
 speed=35
 power=8835
 #gear=500
+# Fuel: 41020 mL per km at 35 km/h. Basis and sources: New/ai/fuel/water.md
+fuel_per_km=41020
+calibration_speed=35
 weight=7500
 length=10
 cost=82100000

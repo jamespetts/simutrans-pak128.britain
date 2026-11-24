@@ -22,6 +22,9 @@ weight=1.2
 engine_type=petrol
 # 20bhp, 15kw (per Wikipedia)
 power=15
+# Fuel: 95 mL per km at 70 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=95
+calibration_speed=70
 way_wear_factor=1
 length=3
 cost=40000
@@ -77,6 +80,9 @@ weight=1.2
 engine_type=petrol
 # 40bhp (per Wikipedia) = 30kw
 power=30
+# Fuel: 100 mL per km at 87 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=100
+calibration_speed=87
 way_wear_factor=1
 length=3
 cost=40000

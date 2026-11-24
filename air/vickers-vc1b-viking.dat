@@ -5,6 +5,9 @@ waytype=air
 engine_type=petrol
 speed=338
 power=2269
+# Fuel: 1471 mL per km at 338 km/h (M: Vickers VC.1 Viking, 2x Hercules). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=1471
+calibration_speed=338
 tractive_effort=24
 freight=Passagiere
 #payload=2.5t

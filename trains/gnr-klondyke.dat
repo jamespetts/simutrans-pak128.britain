@@ -7,6 +7,10 @@ speed=145
 # reprinted by Charles Fryer, "British Locomotive Practice and Performance", p. 110. 
 power=314
 # http://en.wikipedia.org/wiki/GNR_Class_C1_%28small_boiler%29
+# Fuel: 12510 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for GNR C1 'Klondyke' Class.
+fuel_per_km=12510
+calibration_speed=145
 tractive_effort=70
 copyright=Kieron&jamespetts
 intro_year=1898

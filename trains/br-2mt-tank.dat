@@ -6,6 +6,10 @@ speed=100
 # Extrapolated
 power=234
 # http://en.wikipedia.org/wiki/BR_Standard_Class_2_2-6-2T
+# Fuel: 8350 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for BR 2MT Tank; coal range at full bunker about 365 km.
+fuel_per_km=8350
+calibration_speed=100
 tractive_effort=82
 copyright=Kieron
 intro_year=1953
@@ -53,6 +57,10 @@ smoke=Steam
 speed=100
 # Extrapolated
 power=234
+# Fuel: 8350 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for BR 2MT Tank; coal range at full bunker about 365 km.
+fuel_per_km=8350
+calibration_speed=100
 tractive_effort=82
 copyright=Kieron
 intro_year=1953

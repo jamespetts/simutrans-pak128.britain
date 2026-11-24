@@ -6,6 +6,9 @@ waytype=road
 engine_type=diesel
 smoke=Diesel-light
 power=198
+# Fuel: 310 mL per km at 90 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=310
+calibration_speed=90
 tractive_effort=35
 gear=50
 speed=90
@@ -98,6 +101,9 @@ waytype=road
 engine_type=diesel
 smoke=Diesel-light
 power=198
+# Fuel: 310 mL per km at 90 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=310
+calibration_speed=90
 tractive_effort=35
 gear=50
 speed=90
@@ -161,6 +167,9 @@ waytype=road
 engine_type=diesel
 smoke=Diesel-light
 power=198
+# Fuel: 310 mL per km at 90 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=310
+calibration_speed=90
 tractive_effort=35
 gear=50
 speed=90

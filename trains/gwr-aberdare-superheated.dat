@@ -7,6 +7,10 @@ speed=85
 # Extrapolated
 power=327
 # http://www.greatwestern.org.uk/m_in_260_aberdare.htm
+# Fuel: 11400 g of Welsh steam coal per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for GWR 'Aberdare' (s'heated); coal range at full bunker about 624 km.
+fuel_per_km=11400
+calibration_speed=85
 tractive_effort=115
 copyright=James/JamesPetts
 intro_year=1908

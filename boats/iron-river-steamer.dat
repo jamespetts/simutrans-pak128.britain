@@ -6,6 +6,9 @@ engine_type=steam
 smoke=Steam
 speed=20
 power=500
+# Fuel: 10148 g per km at 20 km/h. Basis and sources: New/ai/fuel/water.md
+fuel_per_km=10148
+calibration_speed=20
 freight=Passagiere
 payload[0]=0
 payload[1]=250

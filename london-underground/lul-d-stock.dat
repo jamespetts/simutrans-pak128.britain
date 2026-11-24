@@ -7,6 +7,9 @@ engine_type=electric
 speed=100
 gear=80
 power=300
+# Fuel: 2117 Wh per km at 100 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=2117
+calibration_speed=100
 tractive_effort=70
 length=10
 copyright=James
@@ -74,6 +77,9 @@ engine_type=electric
 speed=100
 gear=80
 power=300
+# Fuel: 2117 Wh per km at 100 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=2117
+calibration_speed=100
 tractive_effort=70
 length=10
 copyright=James
@@ -256,6 +262,9 @@ engine_type=electric
 speed=100
 gear=80
 power=300
+# Fuel: 2117 Wh per km at 100 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=2117
+calibration_speed=100
 tractive_effort=70
 length=10
 copyright=James
@@ -320,6 +329,9 @@ engine_type=electric
 speed=100
 gear=80
 power=300
+# Fuel: 2117 Wh per km at 100 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=2117
+calibration_speed=100
 tractive_effort=70
 length=10
 copyright=James

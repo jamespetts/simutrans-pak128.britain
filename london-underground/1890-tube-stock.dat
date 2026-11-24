@@ -4,6 +4,9 @@ engine_type=electric
 speed=40
 gear=80
 power=85
+# Fuel: 1594 Wh per km at 40 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=1594
+calibration_speed=40
 tractive_effort=50
 length=3
 copyright=James

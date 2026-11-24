@@ -6,6 +6,9 @@ engine_type=diesel
 smoke=Diesel
 speed=18
 power=300
+# Fuel: 2560 mL per km at 18 km/h. Basis and sources: New/ai/fuel/water.md
+fuel_per_km=2560
+calibration_speed=18
 freight=Passagiere
 payload[0]=0
 payload[1]=203

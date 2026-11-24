@@ -7,6 +7,11 @@ smoke=Steam
 sound=ship-horn_a.wav
 speed=36
 power=11900
+# Fuel: 184600 g of coal-equivalent per km at 36 km/h. The ship burned oil, 150799 mL/km;
+# converted at 42.7 MJ/kg oil and 29.3 MJ/kg coal because turbine steamers are coded steam.
+# Basis and sources: New/ai/fuel/water.md
+fuel_per_km=184600
+calibration_speed=36
 weight=6500
 length=10
 freight=Passagiere

@@ -5,6 +5,9 @@ name=BR-Class88
 engine_type=electric
 speed=160
 power=4700
+# Fuel: 14704 Wh per km at 160 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=14704
+calibration_speed=160
 tractive_effort=317
 gear=80
 copyright=James

@@ -14,6 +14,9 @@ speed=56
 # other 60kW 2 axle double decker trolleybuses 
 # available in this period.
 power=71
+# Fuel: 1400 Wh per km at 56 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=1400
+calibration_speed=56
 tractive_effort=47
 gear=80
 weight=6.7

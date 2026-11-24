@@ -6,6 +6,9 @@ engine_type=diesel
 smoke=Diesel
 speed=110
 power=617
+# Fuel: 1302 mL per km at 110 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=1302
+calibration_speed=110
 gear=50
 tractive_effort=153
 copyright=Junna/Cake/JamesPetts

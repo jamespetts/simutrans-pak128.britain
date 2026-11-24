@@ -5,6 +5,10 @@ smoke=Steam
 speed=155
 # Extrapolated
 power=612
+# Fuel: 19840 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LMS Royal Scot; coal range at full bunker about 282 km.
+fuel_per_km=19840
+calibration_speed=155
 tractive_effort=148
 copyright=James/jamespetts
 intro_year=1927

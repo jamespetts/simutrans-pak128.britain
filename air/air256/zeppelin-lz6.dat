@@ -8,6 +8,9 @@ engine_type=petrol
 speed=70
 # 270HP=202kW max, SHP=0,9*kW
 power=182
+# Fuel: 571 mL per km at 70 km/h (M: LZ 6). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=571
+calibration_speed=70
 tractive_effort=7
 freight=Passagiere
 #payload 7t

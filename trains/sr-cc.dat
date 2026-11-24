@@ -4,6 +4,9 @@ engine_type=electric
 speed=120
 gear=80
 power=1100
+# Fuel: 6470 Wh per km at 120 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=6470
+calibration_speed=120
 tractive_effort=178
 copyright=Kieron/JamesPetts
 intro_year=1941

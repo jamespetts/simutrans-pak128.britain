@@ -8,6 +8,9 @@ payload=6
 engine_type=diesel
 smoke=Diesel-light
 power=44
+# Fuel: 120 mL per km at 88 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=120
+calibration_speed=88
 tractive_effort=7
 gear=50
 speed=88
@@ -99,6 +102,9 @@ payload=6
 engine_type=diesel
 smoke=Diesel-light
 power=44
+# Fuel: 120 mL per km at 88 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=120
+calibration_speed=88
 tractive_effort=7
 gear=50
 speed=88
@@ -161,6 +167,9 @@ payload=10
 engine_type=diesel
 smoke=Diesel-light
 power=44
+# Fuel: 120 mL per km at 88 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=120
+calibration_speed=88
 tractive_effort=7
 gear=50
 speed=88
@@ -204,6 +213,9 @@ payload=10
 engine_type=diesel
 smoke=Diesel-light
 power=44
+# Fuel: 120 mL per km at 88 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=120
+calibration_speed=88
 tractive_effort=7
 gear=50
 speed=88
@@ -246,6 +258,9 @@ payload=10
 engine_type=diesel
 smoke=Diesel-light
 power=44
+# Fuel: 120 mL per km at 88 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=120
+calibration_speed=88
 tractive_effort=7
 gear=50
 speed=88
@@ -289,6 +304,9 @@ payload=360
 engine_type=diesel
 smoke=Diesel-light
 power=44
+# Fuel: 120 mL per km at 88 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=120
+calibration_speed=88
 gear=50
 speed=88
 weight=2

@@ -3,6 +3,9 @@ name=Croydon-Variobahn-front
 engine_type=electric
 speed=80
 power=180
+# Fuel: 2557 Wh per km at 80 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=2557
+calibration_speed=80
 gear=80
 # tractive effort and braking based on bombardier incentro (same power, slightly lighter)
 tractive_effort=31
@@ -197,6 +200,9 @@ name=Croydon-Variobahn-rear
 engine_type=electric
 speed=80
 power=180
+# Fuel: 2557 Wh per km at 80 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=2557
+calibration_speed=80
 gear=80
 tractive_effort=31
 copyright=James/jamespetts

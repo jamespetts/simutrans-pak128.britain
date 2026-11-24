@@ -8,6 +8,10 @@ speed=75
 power=192
 # Calculated from data at https://en.wikipedia.org/wiki/GWR_927_Class
 # assuming a boiler pressure of 140psi (not given) and a loss factor of 0.8
+# Fuel: 13530 g of Welsh steam coal per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for GWR 927 'Coal Goods'; coal range at full bunker about 244 km.
+fuel_per_km=13530
+calibration_speed=75
 tractive_effort=65
 copyright=James/JamesPetts
 intro_year=1866

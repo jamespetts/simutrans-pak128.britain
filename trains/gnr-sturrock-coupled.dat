@@ -5,6 +5,10 @@ smoke=Steam
 speed=100
 # Extrapolated
 power=151
+# Fuel: 10110 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for GNR 223 Class.
+fuel_per_km=10110
+calibration_speed=100
 tractive_effort=42
 copyright=Kieron/JamesPetts
 intro_year=1855

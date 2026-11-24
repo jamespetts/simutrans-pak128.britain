@@ -7,6 +7,9 @@ speed=140
 # http://en.wikipedia.org/wiki/British_Rail_Class_52#Performance
 gear=42
 power=2025
+# Fuel: 3358 mL per km at 140 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=3358
+calibration_speed=140
 tractive_effort=297
 copyright=Kieron
 intro_year=1961

@@ -12,6 +12,9 @@ overcrowded_capacity=55
 speed=65
 # Mercedes-Benz OM 457 hLA
 power=260
+# Fuel: 430 mL per km at 65 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=430
+calibration_speed=65
 tractive_effort=52
 gear=50
 weight=14

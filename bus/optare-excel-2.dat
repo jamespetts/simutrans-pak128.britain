@@ -12,6 +12,9 @@ speed=77
 # Mercedes-Benz 900 series engine
 # http://www.todaystrucking.com/the-mbe900-engine-from-mercedes
 power=208
+# Fuel: 350 mL per km at 77 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=350
+calibration_speed=77
 tractive_effort=39
 gear=50
 weight=9

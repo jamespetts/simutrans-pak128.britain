@@ -6,6 +6,9 @@ smoke=Diesel
 speed=109
 # 2x 150hp engines: http://www.miac.org.uk/class120.htm
 power=224
+# Fuel: 477 mL per km at 109 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=477
+calibration_speed=109
 gear=50
 tractive_effort=55
 copyright=Kieron/JamesPetts
@@ -153,6 +156,9 @@ engine_type=diesel
 smoke=Diesel
 speed=109
 power=224
+# Fuel: 477 mL per km at 109 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=477
+calibration_speed=109
 gear=50
 tractive_effort=55
 copyright=Kieron/JamesPetts

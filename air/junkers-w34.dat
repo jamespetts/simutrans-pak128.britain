@@ -9,6 +9,9 @@ waytype=air
 engine_type=petrol
 speed=190
 power=298
+# Fuel: 319 mL per km at 190 km/h (M: Junkers W.34, 1x300 hp). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=319
+calibration_speed=190
 tractive_effort=4
 freight=Passagiere
 payload[0]=0
@@ -67,6 +70,9 @@ waytype=air
 engine_type=petrol
 speed=190
 power=298
+# Fuel: 319 mL per km at 190 km/h (M: Junkers W.34, 1x300 hp). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=319
+calibration_speed=190
 tractive_effort=4
 freight=Post
 # Max. payload for cargo not given

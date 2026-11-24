@@ -12,6 +12,9 @@ name=BR-376Front
 engine_type=electric
 speed=120
 power=500
+# Fuel: 2841 Wh per km at 120 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=2841
+calibration_speed=120
 tractive_effort=50
 gear=80
 copyright=Kieron
@@ -86,6 +89,9 @@ name=BR-376Rear
 engine_type=electric
 speed=120
 power=500
+# Fuel: 2841 Wh per km at 120 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=2841
+calibration_speed=120
 tractive_effort=50
 gear=80
 copyright=Kieron
@@ -225,6 +231,9 @@ name=BR-376MiddlePower
 engine_type=electric
 speed=120
 power=500
+# Fuel: 2841 Wh per km at 120 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=2841
+calibration_speed=120
 tractive_effort=50
 gear=80
 copyright=Kieron
@@ -289,6 +298,9 @@ name=BR-376MiddlePower2
 engine_type=electric
 speed=120
 power=500
+# Fuel: 2841 Wh per km at 120 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=2841
+calibration_speed=120
 tractive_effort=50
 gear=80
 copyright=Kieron

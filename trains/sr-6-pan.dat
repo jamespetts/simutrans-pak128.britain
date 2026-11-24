@@ -4,6 +4,9 @@ name=SR-6PAN(front)
 engine_type=electric
 speed=120
 power=671
+# Fuel: 3947 Wh per km at 120 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=3947
+calibration_speed=120
 gear=80
 tractive_effort=63
 copyright=Kieron/JamesPetts
@@ -521,6 +524,9 @@ name=SR-6PAN(rear)
 engine_type=electric
 speed=120
 power=671
+# Fuel: 3947 Wh per km at 120 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=3947
+calibration_speed=120
 gear=80
 tractive_effort=63
 copyright=Kieron/JamesPetts

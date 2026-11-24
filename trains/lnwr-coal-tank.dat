@@ -7,6 +7,10 @@ speed=82
 # Extrapolated
 power=206
 # http://en.wikipedia.org/wiki/LNWR_Webb_Coal_Tank
+# Fuel: 13580 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LNWR Coal tank.
+fuel_per_km=13580
+calibration_speed=82
 tractive_effort=74
 copyright=Kieron/JamesPetts
 intro_year=1881

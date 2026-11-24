@@ -6,6 +6,10 @@ speed=135
 # Extrapolated.
 power=248
 # Tractive effort from Wikipedia: http://en.wikipedia.org/wiki/LNWR_Jubilee_Class
+# Fuel: 10190 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LNWR Jubilee.
+fuel_per_km=10190
+calibration_speed=135
 tractive_effort=130
 copyright=James/jamespetts
 intro_year=1897

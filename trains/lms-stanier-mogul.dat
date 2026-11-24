@@ -5,6 +5,10 @@ smoke=Steam
 speed=125
 # Extrapolated
 power=409
+# Fuel: 12770 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LMS Stanier Mogul; coal range at full bunker about 399 km.
+fuel_per_km=12770
+calibration_speed=125
 tractive_effort=117
 copyright=Kieron/JamesPetts
 intro_year=1933

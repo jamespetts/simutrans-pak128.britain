@@ -10,6 +10,10 @@ speed=147
 # which is equivalent to 895Kw, compared to the 670Kw suggested
 # by in-game tests.
 power=670
+# Fuel: 17070 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LNER V2 Class; coal range at full bunker about 445 km.
+fuel_per_km=17070
+calibration_speed=147
 tractive_effort=150
 copyright=Kieron
 intro_year=1936

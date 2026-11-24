@@ -11,6 +11,9 @@ overcrowded_capacity=4
 speed=50
 # 95hp
 power=71
+# Fuel: 1300 Wh per km at 50 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=1300
+calibration_speed=50
 tractive_effort=50
 gear=80
 # Guessed

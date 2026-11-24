@@ -5,6 +5,9 @@ waytype=water
 engine_type=diesel
 speed=16
 power=100
+# Fuel: 1004 mL per km at 16 km/h. Basis and sources: New/ai/fuel/water.md
+fuel_per_km=1004
+calibration_speed=16
 freight=Passagiere
 payload[0]=0
 payload[1]=50

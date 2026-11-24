@@ -10,6 +10,10 @@ speed=92
 power=83
 # Calculated from data from Ahrons, p. 52
 # Loss factor set at 0.7
+# Fuel: 7690 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LNWR Crewe type.
+fuel_per_km=7690
+calibration_speed=92
 tractive_effort=12
 copyright=James/jamespetts
 intro_year=1845

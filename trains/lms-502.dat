@@ -4,6 +4,9 @@ name=LMS-502Front
 engine_type=electric
 speed=112
 power=705
+# Fuel: 4443 Wh per km at 112 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=4443
+calibration_speed=112
 tractive_effort=64
 gear=80
 copyright=Kieron

@@ -7,6 +7,10 @@ speed=110
 power=208
 # Tractive effort taken from:
 # http://en.wikipedia.org/wiki/LB%26SCR_D2_class
+# Fuel: 9580 g of Welsh steam coal per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LBSCR D2 Class.
+fuel_per_km=9580
+calibration_speed=110
 tractive_effort=56
 copyright=Kieron/JamesPetts
 intro_year=1876

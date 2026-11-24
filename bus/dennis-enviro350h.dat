@@ -13,6 +13,9 @@ freight=Passagiere
 payload=46
 overcrowded_capacity=18
 power=138
+# Fuel: 380 mL per km at 64 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=380
+calibration_speed=64
 tractive_effort=31
 gear=50
 length=6
@@ -61,6 +64,9 @@ freight=Passagiere
 payload=40
 overcrowded_capacity=24
 power=138
+# Fuel: 380 mL per km at 64 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=380
+calibration_speed=64
 tractive_effort=31
 gear=50
 length=6

@@ -6,6 +6,10 @@ speed=150
 # Extrapolated
 power=431
 # http://en.wikipedia.org/wiki/LMS_Patriot_Class
+# Fuel: 10890 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LMS 'Patriot'; coal range at full bunker about 514 km.
+fuel_per_km=10890
+calibration_speed=150
 tractive_effort=118
 copyright=James
 intro_year=1930

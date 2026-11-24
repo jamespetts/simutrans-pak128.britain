@@ -6,6 +6,10 @@ engine_type=steam
 smoke=Steam
 speed=25
 power=20
+# Fuel: 17280 g of coke per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for Lancashire Witch.
+fuel_per_km=17280
+calibration_speed=25
 tractive_effort=2
 copyright=Kieron/JamesPetts
 intro_year=1828

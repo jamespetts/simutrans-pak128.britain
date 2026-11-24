@@ -11,6 +11,9 @@ speed=85
 # "Big four" engine 6.786l. Power not given, so guessed.
 power=78
 # Geared lower for coach work
+# Fuel: 160 mL per km at 85 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=160
+calibration_speed=85
 tractive_effort=5
 gear=50
 # Guessed

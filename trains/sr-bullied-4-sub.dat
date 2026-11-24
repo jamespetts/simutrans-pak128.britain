@@ -6,6 +6,9 @@ name=SR-4SUB(front)
 engine_type=electric
 speed=120
 power=412
+# Fuel: 2423 Wh per km at 120 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=2423
+calibration_speed=120
 gear=80
 tractive_effort=45
 copyright=Kieron/JamesPetts
@@ -106,6 +109,9 @@ name=SR-4SUB(rear)
 engine_type=electric
 speed=120
 power=412
+# Fuel: 2423 Wh per km at 120 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=2423
+calibration_speed=120
 gear=80
 tractive_effort=45
 copyright=Kieron/JamesPetts

@@ -8,6 +8,10 @@ speed=125
 power=189
 # Calculated from data at http://orion.math.iastate.edu/jdhsmith/term/slgbgnr.htm
 # with a loss factor of 0.8
+# Fuel: 8550 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for GNR H2 Class.
+fuel_per_km=8550
+calibration_speed=125
 tractive_effort=59
 copyright=James/jamespetts
 intro_year=1874

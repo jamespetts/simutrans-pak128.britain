@@ -7,6 +7,9 @@ smoke=Steam
 sound=ship-horn_a.wav
 speed=38
 power=1827
+# Fuel: 46450 g per km at 38 km/h. Basis and sources: New/ai/fuel/water.md
+fuel_per_km=46450
+calibration_speed=38
 freight=Passagiere
 payload[0]=0
 payload[1]=1286

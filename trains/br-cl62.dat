@@ -7,6 +7,9 @@ smoke=Diesel
 # There is inconsistent information about the maximum speed, but this is a sensible guess for the production version.
 speed=175
 power=3000
+# Fuel: 3490 mL per km at 175 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=3490
+calibration_speed=175
 gear=50
 tractive_effort=450
 copyright=Junna/Cake

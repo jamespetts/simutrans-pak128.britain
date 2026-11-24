@@ -7,6 +7,10 @@ speed=100
 # Extrapolated
 power=371
 # Same as the SECR N class
+# Fuel: 15250 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for Metropolitak K Class; coal range at full bunker about 266 km.
+fuel_per_km=15250
+calibration_speed=100
 tractive_effort=116
 copyright=James/jamespetts
 intro_year=1925

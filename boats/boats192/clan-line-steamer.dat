@@ -8,6 +8,9 @@ sound=ship-horn_a.wav
 speed=20
 # https://en.wikipedia.org/wiki/SS_Clan_Alpine_%281942%29#Propulsion
 power=1870
+# Fuel: 47476 g per km at 20 km/h. Basis and sources: New/ai/fuel/water.md
+fuel_per_km=47476
+calibration_speed=20
 freight=vegetables
 payload=5000
 weight=320
@@ -49,6 +52,9 @@ waytype=water
 engine_type=steam
 speed=20
 power=1870
+# Fuel: 47476 g per km at 20 km/h. Basis and sources: New/ai/fuel/water.md
+fuel_per_km=47476
+calibration_speed=20
 freight=fish
 payload=5000
 weight=320
@@ -90,6 +96,9 @@ engine_type=steam
 smoke=Steam
 speed=20
 power=1870
+# Fuel: 47476 g per km at 20 km/h. Basis and sources: New/ai/fuel/water.md
+fuel_per_km=47476
+calibration_speed=20
 freight=Oel
 payload=5000
 weight=320
@@ -131,6 +140,9 @@ engine_type=steam
 smoke=Steam
 speed=20
 power=1870
+# Fuel: 47476 g per km at 20 km/h. Basis and sources: New/ai/fuel/water.md
+fuel_per_km=47476
+calibration_speed=20
 freight=livestock
 payload=5000
 weight=320
@@ -172,6 +184,9 @@ engine_type=steam
 smoke=Steam
 speed=20
 power=1870
+# Fuel: 47476 g per km at 20 km/h. Basis and sources: New/ai/fuel/water.md
+fuel_per_km=47476
+calibration_speed=20
 freight=Autos
 payload=5000
 weight=320
@@ -214,6 +229,9 @@ engine_type=steam
 smoke=Steam
 speed=20
 power=1870
+# Fuel: 47476 g per km at 20 km/h. Basis and sources: New/ai/fuel/water.md
+fuel_per_km=47476
+calibration_speed=20
 freight=Kohle
 payload=5000
 weight=320
@@ -306,6 +324,9 @@ engine_type=steam
 smoke=Steam
 speed=20
 power=1870
+# Fuel: 47476 g per km at 20 km/h. Basis and sources: New/ai/fuel/water.md
+fuel_per_km=47476
+calibration_speed=20
 freight=Bretter
 payload=5000
 weight=320

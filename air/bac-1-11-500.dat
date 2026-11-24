@@ -5,6 +5,9 @@ waytype=air
 engine_type=turbine
 speed=742
 power=20160
+# Fuel: 3605 mL per km at 742 km/h (M: Spey RB.163). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=3605
+calibration_speed=742
 tractive_effort=112
 #gear=1
 freight=Passagiere

@@ -7,6 +7,10 @@ speed=85
 power=149
 # Calculated from data in http://www.steamindex.com/locotype/lbscrloc.htm  
 # with loss factor of 0.75
+# Fuel: 10780 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LBSCR Crystal Palace tank.
+fuel_per_km=10780
+calibration_speed=85
 tractive_effort=37
 copyright=James/jamespetts
 intro_year=1863

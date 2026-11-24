@@ -5,6 +5,9 @@ name=BR-501(DMB)
 engine_type=electric
 speed=120
 power=740
+# Fuel: 4353 Wh per km at 120 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=4353
+calibration_speed=120
 gear=80
 tractive_effort=113
 copyright=Junna/Cake

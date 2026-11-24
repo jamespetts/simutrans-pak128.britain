@@ -10,6 +10,10 @@ speed=131
 # which is equivalent to 372.8-596.6Kw, compared to the 368Kw suggested
 # by in-game tests adjusted for by gradient.
 power=368
+# Fuel: 13090 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for BR 4MT 4-6-0; coal range at full bunker about 543 km.
+fuel_per_km=13090
+calibration_speed=131
 tractive_effort=114
 copyright=Kieron/JamesPetts
 intro_year=1951

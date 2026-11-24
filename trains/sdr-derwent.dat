@@ -7,6 +7,10 @@ speed=46
 power=70
 # Tractive effort value calculated from data from Ahrons (p. 48)
 # Loss factor set to 0.7, pressure was 75lb.
+# Fuel: 14650 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for SDR Derwent.
+fuel_per_km=14650
+calibration_speed=46
 tractive_effort=18
 copyright=James
 # There are divergent introduction dates for this given in various sources. Ahrons (p. 48) gives 1845-1848.

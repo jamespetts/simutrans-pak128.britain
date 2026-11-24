@@ -15,6 +15,10 @@ tractive_effort=26
 # NOTE: Ahrons at p. 130 gives figures suggesting a power of 101Kw, 
 # but these figures are probably inaccurate: see ibid p. 131.
 power=160
+# Fuel: 7940 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LNWR Bloomer.
+fuel_per_km=7940
+calibration_speed=115
 copyright=James
 intro_year=1851
 intro_month=5

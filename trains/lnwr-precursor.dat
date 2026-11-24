@@ -7,6 +7,10 @@ speed=146
 # reprinted by Charles Fryer, "British Locomotive Practice and Performance", p. 96. 
 power=290
 # Tractive effort from Wikipedia: http://en.wikipedia.org/wiki/LNWR_Whale_Precursor_Class
+# Fuel: 10400 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LNWR Precursor.
+fuel_per_km=10400
+calibration_speed=146
 tractive_effort=81
 copyright=James/jamespetts
 intro_year=1904

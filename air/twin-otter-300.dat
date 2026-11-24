@@ -9,6 +9,9 @@ waytype=air
 engine_type=turbine
 speed=278
 power=920
+# Fuel: 749 mL per km at 278 km/h (M: DHC-6-300 Twin Otter, 2x PT6A-27; slow, high-drag airfram). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=749
+calibration_speed=278
 tractive_effort=4
 #gear=1
 freight=Passagiere

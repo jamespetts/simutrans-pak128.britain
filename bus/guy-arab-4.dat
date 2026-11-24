@@ -16,6 +16,9 @@ speed=55
 # and (the Birmingham versions at least)
 # a preselective gearbox.
 power=76
+# Fuel: 290 mL per km at 55 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=290
+calibration_speed=55
 tractive_effort=11
 gear=50
 # Guessed

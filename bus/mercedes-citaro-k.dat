@@ -12,6 +12,9 @@ overcrowded_capacity=60
 speed=75
 # http://www.mercedes-benz.com.sg/content/singapore/mpc/mpc_singapore_website/enng/home_mpc/bus/home/new_buses/models/regular_service_busses/citaro/technical_data.html
 power=210
+# Fuel: 340 mL per km at 75 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=340
+calibration_speed=75
 tractive_effort=42
 gear=50
 weight=10

@@ -12,6 +12,9 @@ overcrowded_capacity=7
 speed=55
 # https://www.flickr.com/photos/108243483@N02/11887385026
 power=82
+# Fuel: 400 mL per km at 55 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=400
+calibration_speed=55
 tractive_effort=7
 gear=50
 # See the website linked above

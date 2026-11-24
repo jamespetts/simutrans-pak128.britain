@@ -7,6 +7,9 @@ engine_type=electric
 speed=60
 gear=80
 power=52
+# Fuel: 650 Wh per km at 60 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=650
+calibration_speed=60
 tractive_effort=20
 copyright=Junna/Cake
 intro_year=1893

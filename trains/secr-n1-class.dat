@@ -5,6 +5,10 @@ smoke=Steam
 speed=107
 # Extrapolated
 power=362
+# Fuel: 14020 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for SECR N1 Class; coal range at full bunker about 364 km.
+fuel_per_km=14020
+calibration_speed=107
 tractive_effort=123
 copyright=James/JamesPetts
 intro_year=1922

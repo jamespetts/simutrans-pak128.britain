@@ -102,6 +102,9 @@ name=BR-310-MBSO
 engine_type=electric
 speed=120
 power=806
+# Fuel: 5167 Wh per km at 120 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=5167
+calibration_speed=120
 tractive_effort=75
 gear=80
 copyright=Junna/Cake/Rollmaterial

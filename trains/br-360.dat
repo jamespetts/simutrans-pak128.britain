@@ -3,6 +3,9 @@ name=BR-360(front)
 engine_type=electric
 speed=160
 power=775
+# Fuel: 3824 Wh per km at 160 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=3824
+calibration_speed=160
 tractive_effort=75
 gear=80
 copyright=Kieron/jamespetts/James
@@ -271,6 +274,9 @@ name=BR-360(rear)
 engine_type=electric
 speed=160
 power=775
+# Fuel: 3824 Wh per km at 160 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=3824
+calibration_speed=160
 tractive_effort=75
 gear=80
 copyright=Kieron/jamespetts/James

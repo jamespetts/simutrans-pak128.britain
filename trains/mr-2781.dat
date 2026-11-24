@@ -6,6 +6,10 @@ speed=147
 # Extrapolated
 power=316
 # http://chasewaterstuff.wordpress.com/tag/s-w-johnson/
+# Fuel: 11140 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for MR 2781 'Belpaire'.
+fuel_per_km=11140
+calibration_speed=147
 tractive_effort=89
 copyright=James
 # http://en.wikipedia.org/wiki/Midland_Railway_Class_3_4-4-0

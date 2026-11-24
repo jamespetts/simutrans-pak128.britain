@@ -7,6 +7,9 @@ smoke=Diesel
 # Guessed
 speed=90
 power=71
+# Fuel: 189 mL per km at 90 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=189
+calibration_speed=90
 gear=50
 tractive_effort=21
 copyright=JamesPetts

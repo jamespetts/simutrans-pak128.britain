@@ -10,6 +10,9 @@ waytype=air
 engine_type=petrol
 speed=338
 power=1411
+# Fuel: 899 mL per km at 338 km/h (M: DH.91 Albatross, 4x Gipsy Six). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=899
+calibration_speed=338
 tractive_effort=11
 freight=Passagiere
 # 454kg
@@ -67,6 +70,9 @@ waytype=air
 engine_type=petrol
 speed=338
 power=1568
+# Fuel: 899 mL per km at 338 km/h (M: DH.91 Albatross, 4x Gipsy Six). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=899
+calibration_speed=338
 tractive_effort=16
 freight=Post
 payload[0]=0

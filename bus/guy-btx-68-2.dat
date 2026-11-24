@@ -8,6 +8,9 @@ payload=68
 overcrowded_capacity=5
 speed=55
 power=93
+# Fuel: 1400 Wh per km at 55 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=1400
+calibration_speed=55
 tractive_effort=55
 gear=80
 # Guessed

@@ -8,6 +8,9 @@ waytype=air
 engine_type=petrol
 speed=489
 power=8980
+# Fuel: 3584 mL per km at 489 km/h (M: L-1049C Super Constellation, 4x2,700 hp). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=3584
+calibration_speed=489
 tractive_effort=64
 freight=Passagiere
 payload[0]=0
@@ -70,6 +73,9 @@ waytype=air
 engine_type=petrol
 speed=489
 power=8980
+# Fuel: 3584 mL per km at 489 km/h (M: L-1049C Super Constellation, 4x2,700 hp). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=3584
+calibration_speed=489
 tractive_effort=64
 freight=Passagiere
 payload[0]=0

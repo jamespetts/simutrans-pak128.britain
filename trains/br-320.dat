@@ -89,6 +89,9 @@ name=BR-320(pantograph)
 engine_type=electric
 speed=145
 power=1072
+# Fuel: 5837 Wh per km at 145 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=5837
+calibration_speed=145
 tractive_effort=97
 gear=80
 copyright=Kieron, Rollmaterial

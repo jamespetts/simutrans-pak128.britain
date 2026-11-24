@@ -7,6 +7,10 @@ speed=84
 power=101
 # Calculated from data from Ahrons, p. 151
 # Loss factor set at 0.72, assumed 120lbs boiler pressure. 
+# Fuel: 7800 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LNWR McConnell tank.
+fuel_per_km=7800
+calibration_speed=84
 tractive_effort=29
 copyright=James/jamespetts
 intro_year=1862

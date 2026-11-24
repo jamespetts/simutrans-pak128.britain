@@ -8,6 +8,9 @@ waytype=air
 engine_type=turbine
 speed=895
 power=39504
+# Fuel: 5409 mL per km at 895 km/h (M: CJ-805-23 aft-fan). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=5409
+calibration_speed=895
 tractive_effort=286
 freight=Passagiere
 payload[0]=0
@@ -69,6 +72,9 @@ waytype=air
 engine_type=turbine
 speed=895
 power=39504
+# Fuel: 5409 mL per km at 895 km/h (M: CJ-805-23 aft-fan). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=5409
+calibration_speed=895
 tractive_effort=286
 freight=Passagiere
 payload[0]=0

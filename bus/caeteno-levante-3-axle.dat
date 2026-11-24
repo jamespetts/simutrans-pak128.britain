@@ -16,6 +16,9 @@ speed=96
 # Volvo DH12E engine at 340hp
 # http://www.volvobuses.com/SiteCollectionDocuments/VBC/United_Kingdom_and_Ireland/Downloads/b12b_ifs_rhd_6x2.pdf
 power=254
+# Fuel: 310 mL per km at 96 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=310
+calibration_speed=96
 tractive_effort=28
 gear=50
 weight=19

@@ -13,6 +13,10 @@ speed=96
 power=66
 # Calculated from data from Ahrons, p. 50
 # Loss factor set at 0.5
+# Fuel: 8070 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for Hawthorn 2-2-2.
+fuel_per_km=8070
+calibration_speed=96
 tractive_effort=12
 copyright=James/JamesPetts
 intro_year=1845

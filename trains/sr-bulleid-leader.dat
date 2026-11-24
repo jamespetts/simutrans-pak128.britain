@@ -5,6 +5,10 @@ smoke=Steam
 speed=140
 # Extrapolated
 power=512
+# Fuel: 11480 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for SR-Bulleid-Leader.
+fuel_per_km=11480
+calibration_speed=140
 tractive_effort=117
 copyright=Cake/Junna
 intro_year=1949

@@ -12,6 +12,9 @@ speed=62
 # 70hp - Baldwin p. 36
 power=52
 # Lower as assumed geared for high speed
+# Fuel: 400 mL per km at 62 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=400
+calibration_speed=62
 tractive_effort=5
 gear=50
 # Guessed

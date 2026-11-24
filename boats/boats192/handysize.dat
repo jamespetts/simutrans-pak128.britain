@@ -7,6 +7,9 @@ sound=ship-horn_a.wav
 # http://marine.man.eu/docs/librariesprovider6/technical-papers/propulsion-of-30000-dwt-handysize-bulk-carrier.pdf?sfvrsn=16
 speed=25
 power=6100
+# Fuel: 39214 mL per km at 25 km/h. Basis and sources: New/ai/fuel/water.md
+fuel_per_km=39214
+calibration_speed=25
 freight=vegetables
 # http://en.wikipedia.org/wiki/Handysize
 payload=20000
@@ -56,6 +59,9 @@ waytype=water
 engine_type=diesel
 speed=25
 power=6100
+# Fuel: 39214 mL per km at 25 km/h. Basis and sources: New/ai/fuel/water.md
+fuel_per_km=39214
+calibration_speed=25
 freight=Autos
 # Guessed - no research available
 payload=2000
@@ -104,6 +110,9 @@ waytype=water
 engine_type=diesel
 speed=25
 power=6100
+# Fuel: 39214 mL per km at 25 km/h. Basis and sources: New/ai/fuel/water.md
+fuel_per_km=39214
+calibration_speed=25
 freight=fish
 # http://en.wikipedia.org/wiki/Handysize
 payload=20000
@@ -153,6 +162,9 @@ waytype=water
 engine_type=diesel
 speed=25
 power=6100
+# Fuel: 39214 mL per km at 25 km/h. Basis and sources: New/ai/fuel/water.md
+fuel_per_km=39214
+calibration_speed=25
 freight=Oel
 # http://stevesmaritime.com/tanker.html
 payload=20000
@@ -192,6 +204,9 @@ waytype=water
 engine_type=diesel
 speed=25
 power=6100
+# Fuel: 39214 mL per km at 25 km/h. Basis and sources: New/ai/fuel/water.md
+fuel_per_km=39214
+calibration_speed=25
 freight=livestock
 # Guessed figure - no research available.
 payload=4000
@@ -231,6 +246,9 @@ waytype=water
 engine_type=diesel
 speed=25
 power=6100
+# Fuel: 39214 mL per km at 25 km/h. Basis and sources: New/ai/fuel/water.md
+fuel_per_km=39214
+calibration_speed=25
 freight=Kohle
 # http://en.wikipedia.org/wiki/Handysize
 payload=20000
@@ -321,6 +339,9 @@ waytype=water
 engine_type=diesel
 speed=25
 power=6100
+# Fuel: 39214 mL per km at 25 km/h. Basis and sources: New/ai/fuel/water.md
+fuel_per_km=39214
+calibration_speed=25
 freight=Bretter
 # http://en.wikipedia.org/wiki/Handysize
 payload=20000

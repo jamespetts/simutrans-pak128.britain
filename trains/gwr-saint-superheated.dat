@@ -8,6 +8,10 @@ power=445
 # http://en.wikipedia.org/wiki/GWR_2900_Class
 # The higher figure is presumed to be the 
 # tractive effort of the class as superheated.
+# Fuel: 11070 g of Welsh steam coal per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for GWR 2900 'Saint' (s'heated); coal range at full bunker about 642 km.
+fuel_per_km=11070
+calibration_speed=150
 tractive_effort=108
 copyright=Kieron/JamesPetts
 intro_year=1910

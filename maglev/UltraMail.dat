@@ -3,6 +3,9 @@ name=BR-Ultra-Mail(front)
 engine_type=hydrogene
 speed=450
 power=3400
+# Fuel: 10667 Wh per km at 450 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=10667
+calibration_speed=450
 gear=90
 tractive_effort=150
 copyright=AEO
@@ -43,6 +46,9 @@ name=BR-Ultra-Mail(Open)
 engine_type=hydrogene
 speed=450
 power=3400
+# Fuel: 10667 Wh per km at 450 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=10667
+calibration_speed=450
 gear=90
 tractive_effort=150
 copyright=AEO
@@ -82,6 +88,9 @@ name=BR-Ultra-Mail(rear)
 engine_type=hydrogene
 speed=450
 power=3400
+# Fuel: 10667 Wh per km at 450 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=10667
+calibration_speed=450
 gear=90
 tractive_effort=150
 copyright=AEO

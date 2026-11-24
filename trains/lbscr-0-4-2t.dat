@@ -7,6 +7,10 @@ speed=78
 power=95
 # Calculated from data in http://www.steamindex.com/locotype/lbscrloc.htm  
 # with loss factor of 0.71
+# Fuel: 7760 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LBSCR 0-4-2ST.
+fuel_per_km=7760
+calibration_speed=78
 tractive_effort=26
 copyright=James/jamespetts
 intro_year=1855

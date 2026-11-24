@@ -6,6 +6,9 @@ engine_type=diesel
 smoke=Diesel
 speed=60
 power=186
+# Fuel: 719 mL per km at 60 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=719
+calibration_speed=60
 gear=50
 # Guessed value
 tractive_effort=60

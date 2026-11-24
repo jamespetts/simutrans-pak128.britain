@@ -10,6 +10,9 @@ payload=12
 engine_type=petrol
 # 104hp
 power=76
+# Fuel: 380 mL per km at 47 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=380
+calibration_speed=47
 tractive_effort=15
 gear=50
 speed=47
@@ -102,6 +105,9 @@ payload=12
 engine_type=petrol
 smoke=Diesel
 power=76
+# Fuel: 380 mL per km at 47 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=380
+calibration_speed=47
 tractive_effort=15
 gear=50
 speed=47
@@ -163,6 +169,9 @@ payload=14
 engine_type=petrol
 smoke=Diesel
 power=76
+# Fuel: 380 mL per km at 47 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=380
+calibration_speed=47
 tractive_effort=15
 gear=50
 speed=47
@@ -206,6 +215,9 @@ payload=14
 engine_type=petrol
 smoke=Diesel
 power=77
+# Fuel: 380 mL per km at 47 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=380
+calibration_speed=47
 tractive_effort=15
 gear=50
 speed=47
@@ -248,6 +260,9 @@ payload=14
 engine_type=petrol
 smoke=Diesel
 power=76
+# Fuel: 380 mL per km at 39 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=380
+calibration_speed=39
 tractive_effort=15
 gear=50
 speed=39
@@ -291,6 +306,9 @@ payload=14
 engine_type=petrol
 smoke=Diesel
 power=76
+# Fuel: 380 mL per km at 47 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=380
+calibration_speed=47
 tractive_effort=15
 gear=50
 speed=47
@@ -333,6 +351,9 @@ payload=1
 engine_type=petrol
 smoke=Diesel
 power=76
+# Fuel: 380 mL per km at 47 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=380
+calibration_speed=47
 tractive_effort=15
 gear=50
 speed=47

@@ -14,6 +14,9 @@ overcrowded_capacity=8
 speed=80
 # https://en.wikipedia.org/wiki/Cummins_C_Series_engine
 power=209
+# Fuel: 360 mL per km at 80 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=360
+calibration_speed=80
 tractive_effort=32
 gear=50
 # Guessed
@@ -98,6 +101,9 @@ overcrowded_capacity=16
 speed=80
 # https://en.wikipedia.org/wiki/Cummins_C_Series_engine
 power=209
+# Fuel: 360 mL per km at 80 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=360
+calibration_speed=80
 tractive_effort=32
 gear=50
 # Guessed

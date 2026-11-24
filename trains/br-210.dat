@@ -4,6 +4,9 @@ engine_type=diesel
 smoke=Diesel
 speed=145
 power=850
+# Fuel: 1361 mL per km at 145 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=1361
+calibration_speed=145
 gear=50
 tractive_effort=65
 copyright=Junna/Cake

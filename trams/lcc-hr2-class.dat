@@ -9,6 +9,9 @@ gear=80
 # intended to be especially powerful to deal with "hilly routes" (hence "HR"). The only sensible deduction, therefore
 # is that these had *four* 35hp motors - one for each wheel, so as to maximise both power and tractive effort.
 power=104
+# Fuel: 2447 Wh per km at 50 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=2447
+calibration_speed=50
 tractive_effort=64
 copyright=James/jamespetts
 intro_year=1930

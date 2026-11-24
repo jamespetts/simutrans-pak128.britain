@@ -6,6 +6,10 @@ speed=150
 # Extrapolated
 power=399
 # http://en.wikipedia.org/wiki/GWR_4000_Class
+# Fuel: 12340 g of Welsh steam coal per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for GWR 4000 'Star'; coal range at full bunker about 576 km.
+fuel_per_km=12340
+calibration_speed=150
 tractive_effort=124
 copyright=Kieron
 intro_year=1907
@@ -119,6 +123,10 @@ speed=150
 # Extrapolated
 power=445
 # http://en.wikipedia.org/wiki/GWR_4000_Class
+# Fuel: 11070 g of Welsh steam coal per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for GWR 4000 'Star' (s'heated).
+fuel_per_km=11070
+calibration_speed=150
 tractive_effort=124
 copyright=Kieron
 intro_year=1910

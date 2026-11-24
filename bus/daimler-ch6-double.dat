@@ -11,6 +11,9 @@ overcrowded_capacity=3
 speed=50
 power=36
 # Better TE owing to epicyclic gearbox (assuming that drivers can change gear faster)
+# Fuel: 335 mL per km at 50 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=335
+calibration_speed=50
 tractive_effort=6
 gear=50
 # Guessed to be slightly lighter than the COG-5

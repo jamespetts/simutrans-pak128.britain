@@ -7,6 +7,9 @@ payload=3
 engine_type=petrol
 smoke=Diesel
 power=8
+# Fuel: 70 mL per km at 42 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=70
+calibration_speed=42
 tractive_effort=4
 gear=50
 speed=42
@@ -50,6 +53,9 @@ payload=3
 engine_type=petrol
 smoke=Diesel
 power=8
+# Fuel: 70 mL per km at 42 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=70
+calibration_speed=42
 tractive_effort=4
 gear=50
 speed=42
@@ -92,6 +98,9 @@ payload=100
 engine_type=petrol
 smoke=Diesel
 power=8
+# Fuel: 70 mL per km at 42 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=70
+calibration_speed=42
 tractive_effort=4
 gear=50
 speed=42

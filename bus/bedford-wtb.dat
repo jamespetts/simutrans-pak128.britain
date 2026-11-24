@@ -13,6 +13,9 @@ speed=64
 # https://books.google.co.uk/books?id=-H5rDQAAQBAJ&pg=PT85&lpg=PT85&dq=bedford+wtb+length&source=bl&ots=qMsrfMx2WV&sig=ttLKb3h4F1A1VZc0B7AX2VsZeAM&hl=en&sa=X&ved=0ahUKEwisr6SskJfYAhWEa1AKHc8nBxkQ6AEIUzAG#v=onepage&q&f=false
 power=48
 # Fuel tank: 91l
+# Fuel: 345 mL per km at 64 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=345
+calibration_speed=64
 tractive_effort=3
 gear=50
 # Guessed

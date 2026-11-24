@@ -3,6 +3,9 @@ name=SR-2-NOL-front
 engine_type=electric
 speed=97
 power=410
+# Fuel: 2984 Wh per km at 97 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=2984
+calibration_speed=97
 gear=80
 tractive_effort=38
 copyright=Kieron/JamesPetts

@@ -8,6 +8,9 @@ waytype=air
 engine_type=petrol
 speed=467
 power=10140
+# Fuel: 4935 mL per km at 467 km/h (M: L-1649 Starliner, 4x3,400 hp). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=4935
+calibration_speed=467
 tractive_effort=72
 freight=Passagiere
 payload[0]=0
@@ -73,6 +76,9 @@ waytype=air
 engine_type=petrol
 speed=467
 power=10140
+# Fuel: 4935 mL per km at 467 km/h (M: L-1649 Starliner, 4x3,400 hp). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=4935
+calibration_speed=467
 tractive_effort=72
 freight=Passagiere
 payload[0]=0

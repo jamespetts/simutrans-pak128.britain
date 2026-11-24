@@ -5,6 +5,10 @@ smoke=Steam
 speed=130
 # Extrapolated
 power=430
+# Fuel: 12670 g of Welsh steam coal per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LBSCR L Class.
+fuel_per_km=12670
+calibration_speed=130
 tractive_effort=108
 copyright=James
 intro_year=1914

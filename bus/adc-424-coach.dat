@@ -11,6 +11,9 @@ overcrowded_capacity=0
 speed=50
 power=30
 # Reduced as assumed to be geard for higher top speed
+# Fuel: 325 mL per km at 50 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=325
+calibration_speed=50
 tractive_effort=4
 gear=50
 # Guessing to be similar to the Regal

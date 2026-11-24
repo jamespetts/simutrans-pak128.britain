@@ -113,6 +113,9 @@ payload[3]=0
 overcrowded_capacity=35
 length=11
 power=750
+# Fuel: 3782 Wh per km at 140 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=3782
+calibration_speed=140
 gear=80
 tractive_effort=74
 engine_type=electric

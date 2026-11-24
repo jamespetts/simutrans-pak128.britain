@@ -9,6 +9,9 @@ waytype=air
 engine_type=turbine
 speed=495
 power=1640
+# Fuel: 775 mL per km at 495 km/h (M: Beech 1900C, 2x PT6A-65B). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=775
+calibration_speed=495
 tractive_effort=10
 freight=Passagiere
 payload[0]=0
@@ -63,6 +66,9 @@ waytype=air
 engine_type=turbine
 speed=495
 power=1640
+# Fuel: 775 mL per km at 495 km/h (M: Beech 1900C, 2x PT6A-65B). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=775
+calibration_speed=495
 tractive_effort=10
 freight=Post
 payload[0]=0

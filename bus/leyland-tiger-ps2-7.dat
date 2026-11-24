@@ -15,6 +15,9 @@ speed=90
 # 125BHP - Phillips p. 86
 power=93
 # Assume lower gearing for coach version
+# Fuel: 260 mL per km at 90 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=260
+calibration_speed=90
 tractive_effort=8
 gear=50
 # Guessed

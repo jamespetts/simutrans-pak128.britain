@@ -4,6 +4,9 @@ engine_type=electric
 speed=140
 gear=80
 power=5040
+# Fuel: 28421 Wh per km at 140 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=28421
+calibration_speed=140
 tractive_effort=360
 copyright=Kieron
 intro_year=1994

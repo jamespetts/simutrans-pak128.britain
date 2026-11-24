@@ -12,6 +12,9 @@ freight=Kohle
 mixed_load_prohibition=1
 payload=4
 power=30
+# Fuel: 3300 g per km at 18 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=3300
+calibration_speed=18
 tractive_effort=3
 speed=18
 weight=5.0
@@ -103,6 +106,9 @@ waytype=road
 freight=Bretter
 payload=4
 power=30
+# Fuel: 3300 g per km at 18 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=3300
+calibration_speed=18
 tractive_effort=3
 speed=18
 weight=5.0
@@ -163,6 +169,9 @@ waytype=road
 freight=Bucher
 payload=5
 power=30
+# Fuel: 3300 g per km at 18 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=3300
+calibration_speed=18
 tractive_effort=3
 speed=18
 weight=5.0
@@ -212,6 +221,9 @@ waytype=road
 freight=meat
 payload=10
 power=30
+# Fuel: 3300 g per km at 18 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=3300
+calibration_speed=18
 tractive_effort=3
 speed=18
 weight=5.0
@@ -261,6 +273,9 @@ waytype=road
 freight=livestock
 payload=6
 power=30
+# Fuel: 3300 g per km at 18 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=3300
+calibration_speed=18
 tractive_effort=3
 speed=18
 weight=5.0
@@ -312,6 +327,9 @@ freight=Oel
 mixed_load_prohibition=1
 payload=4
 power=30
+# Fuel: 3300 g per km at 18 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=3300
+calibration_speed=18
 tractive_effort=3
 speed=18
 weight=5.0

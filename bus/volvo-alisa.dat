@@ -11,6 +11,9 @@ overcrowded_capacity=10
 speed=70
 # https://www.barringtondieselclub.co.za/volvo/volvo-td70.html
 power=153
+# Fuel: 340 mL per km at 70 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=340
+calibration_speed=70
 tractive_effort=31
 gear=50
 # Guessed
@@ -143,6 +146,9 @@ overcrowded_capacity=6
 speed=70
 # https://www.barringtondieselclub.co.za/volvo/volvo-td70.html
 power=153
+# Fuel: 340 mL per km at 70 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=340
+calibration_speed=70
 tractive_effort=31
 gear=50
 # Guessed

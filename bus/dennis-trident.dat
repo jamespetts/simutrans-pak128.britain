@@ -14,6 +14,9 @@ overcrowded_capacity=17
 speed=80
 # 250hp: https://en.wikipedia.org/wiki/Dennis_Trident_2
 power=187
+# Fuel: 350 mL per km at 80 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=350
+calibration_speed=80
 tractive_effort=33
 gear=50
 # Guessed

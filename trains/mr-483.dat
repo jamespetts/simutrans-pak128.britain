@@ -6,6 +6,10 @@ speed=142
 # Extrapolated
 power=278
 # http://en.wikipedia.org/wiki/Midland_Railway_483_Class
+# Fuel: 10100 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for MR 483 Class.
+fuel_per_km=10100
+calibration_speed=142
 tractive_effort=78
 copyright=James
 # The Wikipedia article is unclear on the introduction date.

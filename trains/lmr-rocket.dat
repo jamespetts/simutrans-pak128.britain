@@ -9,6 +9,10 @@ speed=48
 # Max. speed given as 30mph with a gross weight of 21t
 # Assumed level ground. Actual figure is 11.55Kw12 - rounded up.
 power=12
+# Fuel: 5500 g of coke per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LMR Rocket.
+fuel_per_km=5500
+calibration_speed=48
 tractive_effort=4
 copyright=Kieron
 intro_year=1829

@@ -5,6 +5,10 @@ smoke=Steam
 speed=143
 # Extrapolated
 power=295
+# Fuel: 9070 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LSWR T9 'Greyhound'.
+fuel_per_km=9070
+calibration_speed=143
 tractive_effort=79
 copyright=James/JamesPetts
 intro_year=1899

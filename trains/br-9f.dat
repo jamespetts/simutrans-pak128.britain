@@ -8,6 +8,10 @@ speed=110
 # efficiency, which is not accurate, so extrapolated on the basis of 
 # 7% thermal efficiency instead.
 power=601
+# Fuel: 23020 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for BR 9F; coal range at full bunker about 309 km.
+fuel_per_km=23020
+calibration_speed=110
 tractive_effort=176
 copyright=Kieron
 intro_year=1954

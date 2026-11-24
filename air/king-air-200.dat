@@ -8,6 +8,9 @@ waytype=air
 engine_type=turbine
 speed=515
 power=1250
+# Fuel: 704 mL per km at 515 km/h (M: King Air 200, 2x PT6A-42; King Air 350 documented 304 kg/). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=704
+calibration_speed=515
 tractive_effort=9
 freight=Passagiere
 payload[0]=0
@@ -61,6 +64,9 @@ waytype=air
 engine_type=turbine
 speed=515
 power=1250
+# Fuel: 704 mL per km at 515 km/h (M: King Air 200, 2x PT6A-42; King Air 350 documented 304 kg/). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=704
+calibration_speed=515
 tractive_effort=9
 freight=Post
 payload[0]=0

@@ -7,6 +7,10 @@ speed=86
 power=190
 # Calculated from data from Ahrons, p. 202
 # Loss factor set at 0.75 
+# Fuel: 12820 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for MR 700 Class.
+fuel_per_km=12820
+calibration_speed=86
 tractive_effort=53
 copyright=Kieron/JamesPetts
 intro_year=1869

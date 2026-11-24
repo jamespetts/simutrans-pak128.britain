@@ -11,6 +11,9 @@ payload=57
 speed=90
 power=86
 # Different gear ratio to permit higher speeds, so lower TE
+# Fuel: 265 mL per km at 90 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=265
+calibration_speed=90
 tractive_effort=11
 gear=50
 weight=7.9

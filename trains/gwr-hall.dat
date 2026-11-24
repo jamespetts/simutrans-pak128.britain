@@ -12,6 +12,10 @@ speed=137
 # by in-game tests adjusted for by gradient. That is to be preferred
 # given the better efficiency given. 
 power=410
+# Fuel: 10940 g of Welsh steam coal per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for GWR 4900 Hall Class; coal range at full bunker about 557 km.
+fuel_per_km=10940
+calibration_speed=137
 tractive_effort=121
 copyright=James
 intro_year=1928

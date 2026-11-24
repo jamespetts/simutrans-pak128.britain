@@ -7,6 +7,10 @@ speed=95
 # Extrapolated
 # Note that these were not superheated
 power=236
+# Fuel: 10950 g of Welsh steam coal per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for GWR 5700 Class; coal range at full bunker about 310 km.
+fuel_per_km=10950
+calibration_speed=95
 tractive_effort=100
 copyright=Kieron
 intro_year=1929

@@ -8,6 +8,10 @@ speed=30
 power=27
 # Tractive effort value calculated from data from Ahrons (p. 22)
 # Loss factor set to 0.5, pressure was 70lb.
+# Fuel: 12500 g of coke per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for SDR mineral engine.
+fuel_per_km=12500
+calibration_speed=30
 tractive_effort=14
 copyright=James/JamesPetts
 intro_year=1838

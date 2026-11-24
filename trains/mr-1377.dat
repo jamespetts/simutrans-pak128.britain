@@ -7,6 +7,10 @@ speed=85
 # Extrapolated
 power=209
 # Tractive effort from http://en.wikipedia.org/wiki/Midland_Railway_1377_Class
+# Fuel: 13480 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for MR 1377 Class.
+fuel_per_km=13480
+calibration_speed=85
 tractive_effort=67
 copyright=Kieron/JamesPetts
 intro_year=1878

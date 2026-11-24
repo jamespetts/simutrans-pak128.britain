@@ -5,6 +5,9 @@ waytype=air
 engine_type=turbine
 speed=490
 power=2850
+# Fuel: 1437 mL per km at 490 km/h (M: F27-200, 2x Dart RDa.7). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=1437
+calibration_speed=490
 tractive_effort=10
 freight=Passagiere
 payload[0]=0

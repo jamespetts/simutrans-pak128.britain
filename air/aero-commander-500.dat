@@ -11,6 +11,9 @@ engine_type=petrol
 speed=326
 # https://en.wikipedia.org/wiki/Aero_Commander_500_family
 power=432
+# Fuel: 282 mL per km at 326 km/h (M: 1951 light twin, 2x260 hp). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=282
+calibration_speed=326
 tractive_effort=3
 freight=Passagiere
 # Payload: 0.8t
@@ -66,6 +69,9 @@ waytype=air
 engine_type=petrol
 speed=326
 power=432
+# Fuel: 282 mL per km at 326 km/h (M: 1951 light twin, 2x260 hp). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=282
+calibration_speed=326
 tractive_effort=3
 freight=Post
 # Payload: 0.8t
@@ -117,6 +123,9 @@ waytype=air
 engine_type=petrol
 speed=370
 power=456
+# Fuel: 487 mL per km at 370 km/h (M: 1955 supercharged light twin, 2x340 hp). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=487
+calibration_speed=370
 tractive_effort=4
 # Payload: 1.0t
 freight=Passagiere

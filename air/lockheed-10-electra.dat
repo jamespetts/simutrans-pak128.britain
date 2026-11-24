@@ -9,6 +9,9 @@ engine_type=petrol
 speed=306
 # https://en.wikipedia.org/wiki/Lockheed_Model_10_Electra#Specifications_(Electra_10A)
 power=680
+# Fuel: 513 mL per km at 306 km/h (M: Lockheed 10 Electra, 2x450 hp Wasp). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=513
+calibration_speed=306
 tractive_effort=6
 freight=Passagiere
 # 1,560kg

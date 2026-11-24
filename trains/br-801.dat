@@ -92,6 +92,9 @@ name=BR-801MiddlePower
 engine_type=electric
 speed=225
 power=904
+# Fuel: 3172 Wh per km at 225 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=3172
+calibration_speed=225
 tractive_effort=77
 gear=80
 copyright=Kieron/James
@@ -256,6 +259,9 @@ name=BR-801MiddleComposite
 engine_type=electric
 speed=225
 power=904
+# Fuel: 3172 Wh per km at 225 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=3172
+calibration_speed=225
 tractive_effort=77
 gear=80
 copyright=Kieron/James
@@ -340,6 +346,9 @@ name=BR-801MiddleFirst
 engine_type=electric
 speed=225
 power=904
+# Fuel: 3172 Wh per km at 225 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=3172
+calibration_speed=225
 tractive_effort=77
 gear=80
 copyright=Kieron/James
@@ -513,6 +522,9 @@ name=BR-801FrontMS
 engine_type=electric
 speed=225
 power=904
+# Fuel: 3172 Wh per km at 225 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=3172
+calibration_speed=225
 tractive_effort=77
 gear=80
 copyright=Kieron/James
@@ -597,6 +609,9 @@ name=BR-801RearMS
 engine_type=electric
 speed=225
 power=904
+# Fuel: 3172 Wh per km at 225 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=3172
+calibration_speed=225
 tractive_effort=77
 gear=80
 copyright=Kieron/James
@@ -766,6 +781,9 @@ name=BR-801Composite18+58
 engine_type=electric
 speed=225
 power=904
+# Fuel: 3172 Wh per km at 225 km/h. Basis and sources: New/ai/fuel/rail.md
+fuel_per_km=3172
+calibration_speed=225
 tractive_effort=77
 gear=80
 copyright=Kieron/James

@@ -11,6 +11,9 @@ speed=895
 # Thrust-ratio from the 707-420 precedent (closest kin); see open questions.
 power=43724
 # 4x 13,500 lbf JT3C-6
+# Fuel: 5962 mL per km at 895 km/h (M: JT3C/JT4A turbojet). Basis and sources: New/ai/fuel/air.md
+fuel_per_km=5962
+calibration_speed=895
 tractive_effort=240
 freight=Passagiere
 payload[0]=0

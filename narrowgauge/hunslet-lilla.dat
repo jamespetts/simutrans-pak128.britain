@@ -7,6 +7,10 @@ speed=40
 # Extrapolated
 power=18
 # https://www.festipedia.org.uk/wiki/Lilla
+# Fuel: 2640 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for Hunslet 'Lilla' Class.
+fuel_per_km=2640
+calibration_speed=40
 tractive_effort=21
 copyright=James/jamespetts
 intro_year=1891

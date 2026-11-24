@@ -11,6 +11,9 @@ payload=20
 overcrowded_capacity=2
 speed=20
 power=22
+# Fuel: 450 mL per km at 20 km/h. Basis and sources: New/ai/fuel/road.md
+fuel_per_km=450
+calibration_speed=20
 tractive_effort=4
 # Petrol electric has more transmission losses
 gear=40
