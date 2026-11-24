@@ -13,6 +13,7 @@ power=252
 # Steam-physics-calcs.ods "Extrapolation", row for GWR 69 'River' Class; coal range at full bunker about 496 km.
 fuel_per_km=9210
 calibration_speed=131
+range=496
 tractive_effort=50
 copyright=James/JamesPetts
 intro_year=1895

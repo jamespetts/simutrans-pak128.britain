@@ -9,6 +9,7 @@ power=208
 # Steam-physics-calcs.ods "Extrapolation", row for LNER J94 Class; coal range at full bunker about 168 km.
 fuel_per_km=13600
 calibration_speed=80
+range=168
 tractive_effort=106
 copyright=James
 intro_year=1943

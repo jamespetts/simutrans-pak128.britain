@@ -12,6 +12,7 @@ power=197
 # Steam-physics-calcs.ods "Extrapolation", row for GNR 766 Class (G1); coal range at full bunker about 267 km.
 fuel_per_km=11440
 calibration_speed=93
+range=267
 tractive_effort=66
 copyright=JamesPetts
 intro_year=1889

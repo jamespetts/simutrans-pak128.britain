@@ -9,6 +9,7 @@ power=2000
 # Steam-physics-calcs.ods "Extrapolation", row for LNER A1 Class; coal range at full bunker about 550 km.
 fuel_per_km=14740
 calibration_speed=160
+range=550
 copyright=Kieron
 intro_year=1922
 intro_month=4
@@ -50,6 +51,7 @@ power=2000
 # Steam-physics-calcs.ods "Extrapolation", row for LNER A1 Class; coal range at full bunker about 550 km.
 fuel_per_km=14740
 calibration_speed=160
+range=550
 copyright=Kieron
 intro_year=1922
 intro_month=4
@@ -91,6 +93,7 @@ power=2000
 # Steam-physics-calcs.ods "Extrapolation", row for LNER A1 Class; coal range at full bunker about 550 km.
 fuel_per_km=14740
 calibration_speed=160
+range=550
 copyright=Kieron
 intro_year=1922
 intro_month=4

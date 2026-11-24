@@ -9,6 +9,7 @@ power=394
 # Steam-physics-calcs.ods "Extrapolation", row for MR 1000 Class (superheated); coal range at full bunker about 343 km.
 fuel_per_km=11950
 calibration_speed=145
+range=343
 tractive_effort=98
 copyright=James
 intro_year=1913

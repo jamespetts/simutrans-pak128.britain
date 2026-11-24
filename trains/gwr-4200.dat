@@ -10,6 +10,7 @@ power=336
 # Steam-physics-calcs.ods "Extrapolation", row for GWR 4200 Class; coal range at full bunker about 294 km.
 fuel_per_km=13940
 calibration_speed=90
+range=294
 tractive_effort=139
 copyright=James/JamesPetts
 intro_year=1910

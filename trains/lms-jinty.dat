@@ -10,6 +10,7 @@ power=208
 # Steam-physics-calcs.ods "Extrapolation", row for LMS 3F 'Jinty'; coal range at full bunker about 197 km.
 fuel_per_km=11640
 calibration_speed=90
+range=197
 tractive_effort=93
 copyright=Kieron
 intro_year=1924
@@ -76,6 +77,7 @@ power=208
 # Steam-physics-calcs.ods "Extrapolation", row for LMS 3F 'Jinty'; coal range at full bunker about 197 km.
 fuel_per_km=11640
 calibration_speed=90
+range=197
 tractive_effort=93
 copyright=Kieron
 intro_year=1924

@@ -13,6 +13,7 @@ power=264
 # Steam-physics-calcs.ods "Extrapolation", row for MR 2000 'Flatiron' Class; coal range at full bunker about 221 km.
 fuel_per_km=16310
 calibration_speed=85
+range=221
 tractive_effort=83
 copyright=Kieron/JamesPetts
 intro_year=1907
@@ -77,6 +78,7 @@ power=298
 # Steam-physics-calcs.ods "Extrapolation", row for MR 2000 Class (superheated); coal range at full bunker about 242 km.
 fuel_per_km=14890
 calibration_speed=85
+range=242
 tractive_effort=88
 copyright=Kieron/JamesPetts
 intro_year=1920

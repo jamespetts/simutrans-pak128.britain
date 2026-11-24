@@ -11,6 +11,7 @@ power=280
 # Steam-physics-calcs.ods "Extrapolation", row for GWR 2251 'Collett Goods'; coal range at full bunker about 423 km.
 fuel_per_km=12060
 calibration_speed=88
+range=423
 tractive_effort=90
 copyright=James/JamesPetts
 intro_year=1930

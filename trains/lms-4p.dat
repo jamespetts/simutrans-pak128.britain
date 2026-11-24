@@ -11,6 +11,7 @@ power=393
 # Steam-physics-calcs.ods "Extrapolation", row for LMS 4P; coal range at full bunker about 454 km.
 fuel_per_km=12330
 calibration_speed=141
+range=454
 tractive_effort=101
 copyright=James
 intro_year=1924

@@ -9,6 +9,7 @@ power=777
 # Steam-physics-calcs.ods "Extrapolation", row for LMS Princess Coronation; coal range at full bunker about 643 km.
 fuel_per_km=15870
 calibration_speed=160
+range=643
 tractive_effort=180
 copyright=Kieron
 intro_year=1937
@@ -73,6 +74,7 @@ power=773
 # Steam-physics-calcs.ods "Extrapolation", row for LMS Princess Coronation; coal range at full bunker about 643 km.
 fuel_per_km=15870
 calibration_speed=160
+range=643
 tractive_effort=180
 copyright=Kieron
 intro_year=1946

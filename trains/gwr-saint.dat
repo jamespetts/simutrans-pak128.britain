@@ -10,6 +10,7 @@ power=377
 # Steam-physics-calcs.ods "Extrapolation", row for GWR 2900 'Saint'; coal range at full bunker about 617 km.
 fuel_per_km=11520
 calibration_speed=150
+range=617
 tractive_effort=91
 copyright=Kieron/JamesPetts
 intro_year=1902

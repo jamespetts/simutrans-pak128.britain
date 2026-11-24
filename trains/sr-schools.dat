@@ -10,6 +10,7 @@ power=525
 # Steam-physics-calcs.ods "Extrapolation", row for SR Class V 'Schools'; coal range at full bunker about 353 km.
 fuel_per_km=14460
 calibration_speed=153
+range=353
 tractive_effort=112
 copyright=James
 intro_year=1930

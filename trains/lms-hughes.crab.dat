@@ -9,6 +9,7 @@ power=448
 # Steam-physics-calcs.ods "Extrapolation", row for LMS 'Crab'; coal range at full bunker about 300 km.
 fuel_per_km=17010
 calibration_speed=120
+range=300
 tractive_effort=118
 copyright=Kieron/JamesPetts
 intro_year=1926

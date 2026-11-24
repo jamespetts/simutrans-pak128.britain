@@ -9,6 +9,7 @@ power=376
 # Steam-physics-calcs.ods "Extrapolation", row for GWR Modified Hall; coal range at full bunker about 490 km.
 fuel_per_km=12450
 calibration_speed=137
+range=490
 tractive_effort=121
 copyright=James
 intro_year=1944

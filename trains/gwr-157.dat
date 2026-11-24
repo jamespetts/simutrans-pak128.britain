@@ -12,6 +12,7 @@ power=243
 # Steam-physics-calcs.ods "Extrapolation", row for GWR 157 'Cobham' class; coal range at full bunker about 366 km.
 fuel_per_km=9010
 calibration_speed=135
+range=366
 tractive_effort=46
 copyright=James/JamesPetts
 intro_year=1878

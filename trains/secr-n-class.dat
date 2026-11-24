@@ -9,6 +9,7 @@ power=368
 # Steam-physics-calcs.ods "Extrapolation", row for SECR N Class; coal range at full bunker about 368 km.
 fuel_per_km=13860
 calibration_speed=110
+range=368
 tractive_effort=116
 copyright=James/JamesPetts
 intro_year=1917

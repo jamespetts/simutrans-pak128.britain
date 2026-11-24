@@ -9,6 +9,7 @@ power=262
 # Steam-physics-calcs.ods "Extrapolation", row for LMS Fowler 3P; coal range at full bunker about 262 km.
 fuel_per_km=11430
 calibration_speed=110
+range=262
 tractive_effort=98
 copyright=Kieron/JamesPetts
 intro_year=1930

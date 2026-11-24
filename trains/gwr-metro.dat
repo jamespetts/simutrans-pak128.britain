@@ -12,6 +12,7 @@ power=189
 # Steam-physics-calcs.ods "Extrapolation", row for GWR 'Metro' tank; coal range at full bunker about 269 km.
 fuel_per_km=10430
 calibration_speed=95
+range=269
 tractive_effort=50
 copyright=James/JamesPetts
 intro_year=1868

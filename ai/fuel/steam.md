@@ -125,21 +125,26 @@ strongest single validation of the unit convention and of the price series toget
 
 ## Range
 
-The sheet gives a fuel capacity for 162 of its rows, which produces a coal range for 175 of the 390
-objects. Coal range at full bunker is `capacity ÷ consumption`; it runs from 144 km (GWR railmotor,
-0.76 t) to 924 km, median 360 km. Every `.dat` records its class's figure in the fuel comment.
+`range` is set on 175 of the 390 objects: **the coal range at full bunker**, computed as the class's
+fuel capacity divided by `fuel_per_km` and recorded in the same comment line. It runs from 144 km
+(GWR railmotor, 0.76 t) to 924 km, median 360 km. The other objects are tenders, or classes whose
+sheet row records no fuel capacity.
 
-**The range is recorded, not applied**: `range` is left at 0. Three reasons:
+The value is the coal in the bunker, so on a tender engine it is the coal in its standard tender. The
+pakset's coupling constraints fix the tender for each class, so a locomotive cannot be given a larger
+one to extend the range.
 
-1. Nothing in the engine restores a range — `replenish()` is never called — so a range is a permanent
-   cap on the distance to the next scheduled stop, with no way to comply except inserting a stop. That
-   is a change to how routes may be planned, not an economic change.
-2. Water, not coal, was the binding constraint on most British locomotives; a coal-based range is
-   generous and would rarely bind, so it adds little.
-3. It would alter existing schedules in saved games without warning.
+Three limits on the figure:
 
-Revisit if replenishment is implemented: then a coal range becomes a real operating constraint and
-should be set.
+- It is the **coal** range. Water was often the binding constraint in service, and the sheet records
+  no water capacity, so a water range cannot be derived from it. A locomotive working hard would need
+  water before it needed coal.
+- It is the theoretical capacity divided by the service consumption: no allowance is made for coal
+  left unburnable in the corners of the bunker or for a fire built up at the end of a turn.
+- It was withheld until replenishment was added to the engine, because nothing in the engine restores
+  a range — `vehicle_t::replenish()` is never called — so a range is a permanent cap on the distance
+  to the next scheduled stop with no way to comply. With replenishment, the cap becomes a real
+  operating constraint that a stop satisfies.
 
 ## The price series
 

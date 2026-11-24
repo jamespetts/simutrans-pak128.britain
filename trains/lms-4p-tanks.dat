@@ -9,6 +9,7 @@ power=377
 # Steam-physics-calcs.ods "Extrapolation", row for LMS 4P Tank (Fowler); coal range at full bunker about 275 km.
 fuel_per_km=13070
 calibration_speed=126
+range=275
 tractive_effort=106
 copyright=Kieron/JamesPetts
 intro_year=1927
@@ -81,6 +82,7 @@ power=377
 # Steam-physics-calcs.ods "Extrapolation", row for LMS 4P Tank (Fowler); coal range at full bunker about 275 km.
 fuel_per_km=13070
 calibration_speed=126
+range=275
 tractive_effort=110
 copyright=Kieron/JamesPetts
 intro_year=1935
@@ -144,6 +146,7 @@ power=377
 # Steam-physics-calcs.ods "Extrapolation", row for LMS 3 cylinder 4P Tank; coal range at full bunker about 272 km.
 fuel_per_km=13070
 calibration_speed=126
+range=272
 tractive_effort=168
 copyright=Kieron/JamesPetts
 intro_year=1934
@@ -205,6 +208,7 @@ power=349
 # Steam-physics-calcs.ods "Extrapolation", row for LMS Fairburn 4P Tank; coal range at full bunker about 264 km.
 fuel_per_km=13620
 calibration_speed=126
+range=264
 tractive_effort=109
 copyright=Kieron/JamesPetts
 intro_year=1945

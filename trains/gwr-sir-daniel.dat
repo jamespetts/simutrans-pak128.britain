@@ -13,6 +13,7 @@ power=195
 # Steam-physics-calcs.ods "Extrapolation", row for GWR 378 'Sir Daniel' Class; coal range at full bunker about 379 km.
 fuel_per_km=8700
 calibration_speed=125
+range=379
 tractive_effort=43
 copyright=James/JamesPetts
 intro_year=1866

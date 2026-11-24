@@ -9,6 +9,7 @@ power=386
 # Steam-physics-calcs.ods "Extrapolation", row for SR Q1 Class; coal range at full bunker about 267 km.
 fuel_per_km=19120
 calibration_speed=96
+range=267
 tractive_effort=133
 copyright=Kieron
 intro_year=1942

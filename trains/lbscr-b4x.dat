@@ -10,6 +10,7 @@ power=310
 # Steam-physics-calcs.ods "Extrapolation", row for LBSCR B4x Class; coal range at full bunker about 540 km.
 fuel_per_km=7600
 calibration_speed=150
+range=540
 tractive_effort=87
 copyright=James/jamespetts
 intro_year=1922

@@ -12,6 +12,7 @@ power=192
 # Steam-physics-calcs.ods "Extrapolation", row for GWR 927 'Coal Goods'; coal range at full bunker about 244 km.
 fuel_per_km=13530
 calibration_speed=75
+range=244
 tractive_effort=65
 copyright=James/JamesPetts
 intro_year=1866

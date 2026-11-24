@@ -12,6 +12,7 @@ power=601
 # Steam-physics-calcs.ods "Extrapolation", row for BR 9F; coal range at full bunker about 309 km.
 fuel_per_km=23020
 calibration_speed=110
+range=309
 tractive_effort=176
 copyright=Kieron
 intro_year=1954

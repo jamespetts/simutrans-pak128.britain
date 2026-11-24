@@ -10,6 +10,7 @@ power=358
 # Steam-physics-calcs.ods "Extrapolation", row for SR U1 Class; coal range at full bunker about 391 km.
 fuel_per_km=13030
 calibration_speed=117
+range=391
 copyright=James
 intro_year=1928
 intro_month=3

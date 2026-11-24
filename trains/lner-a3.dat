@@ -11,6 +11,7 @@ power=655
 # Steam-physics-calcs.ods "Extrapolation", row for LNER A3 Class; coal range at full bunker about 502 km.
 fuel_per_km=16140
 calibration_speed=160
+range=502
 tractive_effort=146
 copyright=Kieron
 intro_year=1927

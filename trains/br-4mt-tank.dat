@@ -9,6 +9,7 @@ power=312
 # Steam-physics-calcs.ods "Extrapolation", row for BR 4MT Tank; coal range at full bunker about 265 km.
 fuel_per_km=13460
 calibration_speed=126
+range=265
 tractive_effort=111
 copyright=Kieron
 intro_year=1951

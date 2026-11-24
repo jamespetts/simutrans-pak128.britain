@@ -16,6 +16,7 @@ power=410
 # Steam-physics-calcs.ods "Extrapolation", row for GWR 4900 Hall Class; coal range at full bunker about 557 km.
 fuel_per_km=10940
 calibration_speed=137
+range=557
 tractive_effort=121
 copyright=James
 intro_year=1928

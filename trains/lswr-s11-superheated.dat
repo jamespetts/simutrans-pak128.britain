@@ -9,6 +9,7 @@ power=342
 # Steam-physics-calcs.ods "Extrapolation", row for LSWR S11 Class (s'heated); coal range at full bunker about 460 km.
 fuel_per_km=11080
 calibration_speed=130
+range=460
 tractive_effort=85
 copyright=James/JamesPetts
 intro_year=1920

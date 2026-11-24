@@ -114,8 +114,12 @@ What is not done:
   figure that is never charged.
 - The fuel price series has defects recorded in [fuel-evidence](fuel-evidence.md); the steam series'
   1968 point is about half what it should be.
-- `range` is not set on steam locomotives. The analysis and the numbers are in [fuel/steam](fuel/steam.md#range).
+- `range` is set on 175 steam locomotives as their coal range at full bunker; see
+  [fuel/steam](fuel/steam.md#range) for what it does and does not represent.
 - Marine bunker fuel has no price series of its own; ships buy road diesel.
+- The six steam tram engines still carry the steam sheet's unsourced burn rate. A research pass is
+  under way because their duty — one man, a banked fire, one car at up to 20 mph — is not a railway
+  locomotive's and the figure has no independent evidence behind it.
 
 ## Open questions
 

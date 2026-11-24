@@ -10,6 +10,7 @@ power=234
 # Steam-physics-calcs.ods "Extrapolation", row for BR 2MT Tank; coal range at full bunker about 365 km.
 fuel_per_km=8350
 calibration_speed=100
+range=365
 tractive_effort=82
 copyright=Kieron
 intro_year=1953
@@ -61,6 +62,7 @@ power=234
 # Steam-physics-calcs.ods "Extrapolation", row for BR 2MT Tank; coal range at full bunker about 365 km.
 fuel_per_km=8350
 calibration_speed=100
+range=365
 tractive_effort=82
 copyright=Kieron
 intro_year=1953

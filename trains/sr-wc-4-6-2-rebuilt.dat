@@ -9,6 +9,7 @@ power=548
 # Steam-physics-calcs.ods "Extrapolation", row for SR Rebuilt 'West Country'; coal range at full bunker about 323 km.
 fuel_per_km=15790
 calibration_speed=155
+range=323
 tractive_effort=123
 copyright=Kieron/JamesPetts
 # http://www.semgonline.com/steam/blp_dat.html

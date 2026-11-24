@@ -10,6 +10,7 @@ power=403
 # Steam-physics-calcs.ods "Extrapolation", row for LMS rebuilt Royal Scot; coal range at full bunker about 868 km.
 fuel_per_km=10490
 calibration_speed=155
+range=868
 tractive_effort=148
 copyright=James/jamespetts
 intro_year=1943

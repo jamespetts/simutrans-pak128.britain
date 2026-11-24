@@ -9,6 +9,7 @@ power=411
 # Steam-physics-calcs.ods "Extrapolation", row for GWR 6800 Grange class; coal range at full bunker about 595 km.
 fuel_per_km=11920
 calibration_speed=126
+range=595
 tractive_effort=128
 copyright=James/JamesPetts
 intro_year=1936

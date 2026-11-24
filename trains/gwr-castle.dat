@@ -12,6 +12,7 @@ power=458
 # Steam-physics-calcs.ods "Extrapolation", row for GWR 4073 'Castle' Class; coal range at full bunker about 590 km.
 fuel_per_km=10170
 calibration_speed=155
+range=590
 tractive_effort=141
 copyright=James
 intro_year=1923

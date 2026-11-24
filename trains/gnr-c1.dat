@@ -75,6 +75,7 @@ power=434
 # Steam-physics-calcs.ods "Extrapolation", row for GNR C1 Class (s'heated); coal range at full bunker about 532 km.
 fuel_per_km=12400
 calibration_speed=150
+range=532
 tractive_effort=77
 copyright=Kieron
 intro_year=1910

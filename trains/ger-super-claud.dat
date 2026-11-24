@@ -10,6 +10,7 @@ power=309
 # Steam-physics-calcs.ods "Extrapolation", row for GER H88 'Super Claud'; coal range at full bunker about 461 km.
 fuel_per_km=8900
 calibration_speed=148
+range=461
 tractive_effort=76
 copyright=James/JamesPetts
 intro_year=1922

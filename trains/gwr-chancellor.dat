@@ -12,6 +12,7 @@ power=171
 # Steam-physics-calcs.ods "Extrapolation", row for GWR 149 'Chancellor' Class; coal range at full bunker about 380 km.
 fuel_per_km=8690
 calibration_speed=110
+range=380
 tractive_effort=35
 copyright=James/JamesPetts
 intro_year=1862

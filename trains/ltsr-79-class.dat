@@ -9,6 +9,7 @@ power=287
 # Steam-physics-calcs.ods "Extrapolation", row for LTSR 79 Class; coal range at full bunker about 277 km.
 fuel_per_km=10070
 calibration_speed=130
+range=277
 tractive_effort=77
 copyright=JamesPetts
 intro_year=1909

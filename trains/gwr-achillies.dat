@@ -11,6 +11,7 @@ power=240
 # Steam-physics-calcs.ods "Extrapolation", row for GWR 3021 'Achillies' Class; coal range at full bunker about 580 km.
 fuel_per_km=7880
 calibration_speed=146
+range=580
 tractive_effort=54
 copyright=James/JamesPetts
 intro_year=1894

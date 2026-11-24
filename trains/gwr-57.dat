@@ -12,6 +12,7 @@ power=156
 # Steam-physics-calcs.ods "Extrapolation", row for GWR 57 Class; coal range at full bunker about 278 km.
 fuel_per_km=11870
 calibration_speed=75
+range=278
 tractive_effort=44
 copyright=James/JamesPetts
 intro_year=1855

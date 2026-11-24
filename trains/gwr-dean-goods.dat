@@ -11,6 +11,7 @@ power=218
 # Steam-physics-calcs.ods "Extrapolation", row for GWR 2301 'Dean Goods'; coal range at full bunker about 377 km.
 fuel_per_km=12110
 calibration_speed=86
+range=377
 tractive_effort=80
 copyright=James/JamesPetts
 intro_year=1883

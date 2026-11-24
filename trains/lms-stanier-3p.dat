@@ -13,6 +13,7 @@ power=261
 # Steam-physics-calcs.ods "Extrapolation", row for LMS 3P Tank (Stanier); coal range at full bunker about 263 km.
 fuel_per_km=11590
 calibration_speed=100
+range=263
 tractive_effort=96
 copyright=Kieron/JamesPetts
 intro_year=1935
@@ -76,6 +77,7 @@ power=151
 # Steam-physics-calcs.ods "Extrapolation", row for LMS 3P Tank (Stanier); coal range at full bunker about 263 km.
 fuel_per_km=11590
 calibration_speed=110
+range=263
 tractive_effort=96
 copyright=Kieron/JamesPetts
 intro_year=1935

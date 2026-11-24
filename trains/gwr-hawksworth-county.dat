@@ -9,6 +9,7 @@ power=407
 # Steam-physics-calcs.ods "Extrapolation", row for GWR Hawksworth County; coal range at full bunker about 574 km.
 fuel_per_km=12370
 calibration_speed=148
+range=574
 tractive_effort=145
 copyright=James
 intro_year=1945

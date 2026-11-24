@@ -53,9 +53,12 @@ for new engine features.
   convention in `config/fuel.tab` is resolved and verified (192 × pence per unit; `fuel_per_km` in
   thousandths of a unit), and the model, the researched figures and the calibration decision for each
   sector are in [fuel-consumption](fuel-consumption.md). Open: `fuel[hydrogene]` is still commented
-  out, so hydrogen maglev is free; steam coal range is derived but not applied; marine bunker fuel has
-  no price series of its own; and the 1968 point of the coal series is about half what it should be.
-  `[OPEN:2026-11-23]`
+  out, so hydrogen maglev is free; marine bunker fuel has no price series of its own; and the 1968
+  point of the coal series is about half what it should be. `[OPEN:2026-11-23]`
+- **Steam locomotive coal range applied.** `range` is set on 175 steam locomotives as the coal range
+  at full bunker, 144-924 km with a median of 360, now that the engine is gaining replenishment.
+  Recorded with the figures in [fuel/steam](fuel/steam.md#range). What is still wanted is a water
+  range, which no source in the pakset supplies. `[OPEN:2026-11-24]`
 - Research each cost domain to the depth of the infrastructure study before deriving balance
   implications, and only then take the balancing decisions. Infrastructure and vehicles are
   complete: [infrastructure-cost-synthesis](infrastructure-cost-synthesis.md) and

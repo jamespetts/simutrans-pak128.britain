@@ -12,6 +12,7 @@ power=282
 # Steam-physics-calcs.ods "Extrapolation", row for GWR 3300 'Bulldog'; coal range at full bunker about 436 km.
 fuel_per_km=10490
 calibration_speed=127
+range=436
 tractive_effort=90
 copyright=James/JamesPetts
 intro_year=1898

@@ -9,6 +9,7 @@ power=343
 # Steam-physics-calcs.ods "Extrapolation", row for LSWR D15; coal range at full bunker about 341 km.
 fuel_per_km=12030
 calibration_speed=147
+range=341
 tractive_effort=99
 copyright=James/JamesPetts
 intro_year=1912

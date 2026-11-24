@@ -9,6 +9,7 @@ power=257
 # Steam-physics-calcs.ods "Extrapolation", row for LSWR 700 Class (s'heated); coal range at full bunker about 420 km.
 fuel_per_km=12150
 calibration_speed=85
+range=420
 tractive_effort=105
 copyright=James/JamesPetts
 intro_year=1919

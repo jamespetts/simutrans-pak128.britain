@@ -14,6 +14,7 @@ power=130
 # Steam-physics-calcs.ods "Extrapolation", row for GWR railmotor; coal range at full bunker about 144 km.
 fuel_per_km=5290
 calibration_speed=90
+range=144
 tractive_effort=61
 speed=90
 copyright=JamesPetts

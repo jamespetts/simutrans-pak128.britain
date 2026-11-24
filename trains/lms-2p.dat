@@ -10,6 +10,7 @@ power=228
 # Steam-physics-calcs.ods "Extrapolation", row for LMS 2P Tank; coal range at full bunker about 266 km.
 fuel_per_km=11460
 calibration_speed=140
+range=266
 tractive_effort=79
 copyright=James
 intro_year=1928

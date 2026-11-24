@@ -14,6 +14,7 @@ power=206
 # Steam-physics-calcs.ods "Extrapolation", row for GWR 1813 Class (rebuilt); coal range at full bunker about 301 km.
 fuel_per_km=11310
 calibration_speed=87
+range=301
 tractive_effort=82
 copyright=Kieron/JamesPetts
 intro_year=1903

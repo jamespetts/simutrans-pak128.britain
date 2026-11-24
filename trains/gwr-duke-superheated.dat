@@ -13,6 +13,7 @@ power=260
 # Steam-physics-calcs.ods "Extrapolation", row for GWR 3252 'Duke' (s'heated); coal range at full bunker about 523 km.
 fuel_per_km=8740
 calibration_speed=127
+range=523
 tractive_effort=76
 copyright=James/JamesPetts
 intro_year=1911

@@ -14,6 +14,7 @@ power=228
 # Steam-physics-calcs.ods "Extrapolation", row for GWR 3232 Class; coal range at full bunker about 568 km.
 fuel_per_km=8050
 calibration_speed=138
+range=568
 tractive_effort=54
 copyright=James/JamesPetts
 intro_year=1892

@@ -14,6 +14,7 @@ power=284
 # Steam-physics-calcs.ods "Extrapolation", row for GWR 2600 'Aberdare' Class; coal range at full bunker about 373 km.
 fuel_per_km=12240
 calibration_speed=85
+range=373
 tractive_effort=107
 copyright=James/JamesPetts
 intro_year=1900

@@ -9,6 +9,7 @@ power=318
 # Steam-physics-calcs.ods "Extrapolation", row for LSWR T9 (s'heated); coal range at full bunker about 514 km.
 fuel_per_km=9930
 calibration_speed=145
+range=514
 tractive_effort=81
 copyright=James/JamesPetts
 intro_year=1912

@@ -11,6 +11,7 @@ power=197
 # Steam-physics-calcs.ods "Extrapolation", row for GNR 658 Class; coal range at full bunker about 252 km.
 fuel_per_km=12090
 calibration_speed=88
+range=252
 tractive_effort=67
 copyright=JamesPetts
 intro_year=1881

@@ -16,6 +16,7 @@ power=300
 # Steam-physics-calcs.ods "Extrapolation", row for GWR 3700 'City'; coal range at full bunker about 504 km.
 fuel_per_km=9060
 calibration_speed=150
+range=504
 tractive_effort=79
 copyright=James/jamespetts
 intro_year=1902

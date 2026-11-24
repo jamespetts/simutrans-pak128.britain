@@ -14,6 +14,7 @@ power=317
 # Steam-physics-calcs.ods "Extrapolation", row for GWR 5100 Class; coal range at full bunker about 350 km.
 fuel_per_km=11710
 calibration_speed=105
+range=350
 tractive_effort=108
 copyright=James/JamesPetts
 intro_year=1912

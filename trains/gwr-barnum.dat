@@ -11,6 +11,7 @@ power=252
 # Steam-physics-calcs.ods "Extrapolation", row for GWR 3206 'Barnum' class; coal range at full bunker about 477 km.
 fuel_per_km=9580
 calibration_speed=126
+range=477
 tractive_effort=61
 copyright=James/JamesPetts
 intro_year=1889

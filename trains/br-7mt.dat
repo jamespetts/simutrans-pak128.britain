@@ -15,6 +15,7 @@ power=639
 # Steam-physics-calcs.ods "Extrapolation", row for BR 7MT 'Britannia'; coal range at full bunker about 398 km.
 fuel_per_km=17850
 calibration_speed=160
+range=398
 tractive_effort=143
 copyright=Kieron
 intro_year=1951

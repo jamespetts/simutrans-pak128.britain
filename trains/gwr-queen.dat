@@ -12,6 +12,7 @@ power=220
 # Steam-physics-calcs.ods "Extrapolation", row for GWR 55 'Queen' Class; coal range at full bunker about 297 km.
 fuel_per_km=11120
 calibration_speed=132
+range=297
 tractive_effort=45
 copyright=James/JamesPetts
 intro_year=1873

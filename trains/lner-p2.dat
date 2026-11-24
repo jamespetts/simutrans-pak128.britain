@@ -13,6 +13,7 @@ power=653
 # Steam-physics-calcs.ods "Extrapolation", row for LNER P2 Class; coal range at full bunker about 398 km.
 fuel_per_km=20370
 calibration_speed=135
+range=398
 tractive_effort=200
 copyright=James
 intro_year=1934

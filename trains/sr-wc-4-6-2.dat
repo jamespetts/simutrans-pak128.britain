@@ -9,6 +9,7 @@ power=468
 # Steam-physics-calcs.ods "Extrapolation", row for SR West Country Class; coal range at full bunker about 376 km.
 fuel_per_km=13580
 calibration_speed=155
+range=376
 tractive_effort=137
 copyright=Kieron/JamesPetts
 intro_year=1945

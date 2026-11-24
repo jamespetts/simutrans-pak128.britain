@@ -10,6 +10,7 @@ power=399
 # Steam-physics-calcs.ods "Extrapolation", row for GWR 4000 'Star'; coal range at full bunker about 576 km.
 fuel_per_km=12340
 calibration_speed=150
+range=576
 tractive_effort=124
 copyright=Kieron
 intro_year=1907

@@ -8,6 +8,7 @@ power=237
 # Steam-physics-calcs.ods "Extrapolation", row for LBSCR E2 Class; coal range at full bunker about 196 km.
 fuel_per_km=12750
 calibration_speed=92
+range=196
 tractive_effort=95
 copyright=James/jamespetts
 intro_year=1913

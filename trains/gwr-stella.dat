@@ -13,6 +13,7 @@ power=252
 # Steam-physics-calcs.ods "Extrapolation", row for GWR 3201 'Stella' Class; coal range at full bunker about 330 km.
 fuel_per_km=13870
 calibration_speed=87
+range=330
 tractive_effort=61
 copyright=James/JamesPetts
 intro_year=1884

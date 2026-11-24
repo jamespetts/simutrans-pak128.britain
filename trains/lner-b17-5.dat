@@ -9,6 +9,7 @@ power=416
 # Steam-physics-calcs.ods "Extrapolation", row for LNER B17-5 Class; coal range at full bunker about 366 km.
 fuel_per_km=11200
 calibration_speed=150
+range=366
 tractive_effort=100
 copyright=James
 intro_year=1937

@@ -13,6 +13,7 @@ power=253
 # Steam-physics-calcs.ods "Extrapolation", row for GWR 4100 'Badminton' Class; coal range at full bunker about 534 km.
 fuel_per_km=8560
 calibration_speed=140
+range=534
 tractive_effort=80
 copyright=James/JamesPetts
 intro_year=1897

@@ -9,6 +9,7 @@ power=606
 # Steam-physics-calcs.ods "Extrapolation", row for LMS 'Princess Royal'; coal range at full bunker about 717 km.
 fuel_per_km=12760
 calibration_speed=155
+range=717
 tractive_effort=179
 copyright=James
 intro_year=1933

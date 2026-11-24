@@ -9,6 +9,7 @@ power=697
 # Steam-physics-calcs.ods "Extrapolation", row for BR 8P 'Duke of Gloucester'; coal range at full bunker about 582 km.
 fuel_per_km=17190
 calibration_speed=160
+range=582
 tractive_effort=174
 copyright=Kieron/JamesPetts
 intro_year=1954

@@ -9,6 +9,7 @@ power=384
 # Steam-physics-calcs.ods "Extrapolation", row for WD 2-8-0; coal range at full bunker about 463 km.
 fuel_per_km=19660
 calibration_speed=90
+range=463
 tractive_effort=152
 copyright=Kieron
 intro_year=1943

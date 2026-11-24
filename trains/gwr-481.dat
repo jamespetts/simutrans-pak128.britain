@@ -12,6 +12,7 @@ power=176
 # Steam-physics-calcs.ods "Extrapolation", row for GWR 481 Class; coal range at full bunker about 394 km.
 fuel_per_km=8370
 calibration_speed=110
+range=394
 tractive_effort=40
 copyright=James/JamesPetts
 # Actually introduced in 1869, but the earlier "Bicycle" class was built

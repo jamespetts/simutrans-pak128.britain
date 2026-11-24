@@ -9,6 +9,7 @@ power=238
 # Steam-physics-calcs.ods "Extrapolation", row for LMS Ivatt 2P; coal range at full bunker about 278 km.
 fuel_per_km=10980
 calibration_speed=100
+range=278
 tractive_effort=77
 copyright=Kieron/JamesPetts
 intro_year=1946
@@ -70,6 +71,7 @@ power=229
 # Steam-physics-calcs.ods "Extrapolation", row for LMS 2P Tank; coal range at full bunker about 266 km.
 fuel_per_km=11460
 calibration_speed=100
+range=266
 tractive_effort=77
 copyright=Kieron/JamesPetts
 intro_year=1946

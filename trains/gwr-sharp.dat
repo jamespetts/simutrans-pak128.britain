@@ -12,6 +12,7 @@ power=171
 # Steam-physics-calcs.ods "Extrapolation", row for GWR 157 'Sharp' Class; coal range at full bunker about 397 km.
 fuel_per_km=8310
 calibration_speed=115
+range=397
 tractive_effort=32
 copyright=James/JamesPetts
 intro_year=1862

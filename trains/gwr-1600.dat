@@ -11,6 +11,7 @@ power=196
 # Steam-physics-calcs.ods "Extrapolation", row for GWR 1600 Class; coal range at full bunker about 264 km.
 fuel_per_km=11360
 calibration_speed=85
+range=264
 tractive_effort=82
 copyright=Kieron/JamesPetts
 intro_year=1949

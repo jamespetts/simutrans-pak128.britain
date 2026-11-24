@@ -10,6 +10,7 @@ power=320
 # Steam-physics-calcs.ods "Extrapolation", row for LMS Ivatt 4F; coal range at full bunker about 323 km.
 fuel_per_km=12700
 calibration_speed=115
+range=323
 tractive_effort=108
 copyright=Kieron/JamesPetts
 intro_year=1947

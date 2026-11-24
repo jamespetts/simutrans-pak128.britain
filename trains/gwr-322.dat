@@ -12,6 +12,7 @@ power=171
 # Steam-physics-calcs.ods "Extrapolation", row for GWR 322 'Beyer' Class; coal range at full bunker about 259 km.
 fuel_per_km=12750
 calibration_speed=75
+range=259
 tractive_effort=50
 copyright=James/JamesPetts
 intro_year=1864

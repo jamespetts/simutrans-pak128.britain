@@ -10,6 +10,7 @@ power=307
 # Steam-physics-calcs.ods "Extrapolation", row for Metropolitan G Class; coal range at full bunker about 335 km.
 fuel_per_km=13740
 calibration_speed=95
+range=335
 tractive_effort=91
 copyright=James/jamespetts
 intro_year=1915

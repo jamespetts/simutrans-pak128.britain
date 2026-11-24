@@ -12,6 +12,7 @@ power=198
 # Steam-physics-calcs.ods "Extrapolation", row for SAR NG G16; coal range at full bunker about 252 km.
 fuel_per_km=16250
 calibration_speed=60
+range=252
 tractive_effort=84
 copyright=James/jamespetts
 # Sufficiently similar to the NG G13 class to give the earlier introduction date for that class:

@@ -15,6 +15,7 @@ power=690
 # Steam-physics-calcs.ods "Extrapolation", row for SR Rebuilt 'Merchant Navy'; coal range at full bunker about 263 km.
 fuel_per_km=19400
 calibration_speed=160
+range=263
 tractive_effort=149
 copyright=Kieron/JamesPetts
 intro_year=1956

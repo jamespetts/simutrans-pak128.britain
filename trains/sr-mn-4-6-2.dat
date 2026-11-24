@@ -9,6 +9,7 @@ power=649
 # Steam-physics-calcs.ods "Extrapolation", row for SR Merchant Navy Class; coal range at full bunker about 260 km.
 fuel_per_km=19600
 calibration_speed=160
+range=260
 tractive_effort=167
 copyright=Kieron/jamespetts
 intro_year=1941

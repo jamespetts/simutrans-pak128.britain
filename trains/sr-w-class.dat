@@ -9,6 +9,7 @@ power=363
 # Steam-physics-calcs.ods "Extrapolation", row for SR W Class; coal range at full bunker about 224 km.
 fuel_per_km=16050
 calibration_speed=95
+range=224
 tractive_effort=131
 copyright=James/JamesPetts
 intro_year=1930
