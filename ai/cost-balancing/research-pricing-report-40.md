@@ -442,10 +442,14 @@ commercially 1958-1980 and the cycle-heavy Comet 4B needed only minor structural
 complete-cabin tank testing; BCAR D3-7 (1956) reg 4.3.2 required the test cabin never to have been
 used for strength work — the cold-working lesson. No "1,000-cycle rule" exists in the inquiry.
 
-**Pakset rule**: the Comet 1 (`dh-comet-1`) overhaul is **replacement at 100% of purchase price at
-≈1,000 pressurisation cycles** (band 900-1,300), entered as 1,790,000 km = 1,000 cycles × the
-measured BOAC mean sector 1,790 km — **sector-dependent**: shorter sectors reach the cycle limit
-sooner per km (the engine triggers on distance only).
+**Pakset rule**: the Comet 1 (`dh-comet-1`) overhaul is **replacement of the fatigue-doomed
+airframe at ≈1,000 pressurisation cycles** (band 900-1,300), entered as 1,790,000 km = 1,000
+cycles × the measured BOAC mean sector 1,790 km — **sector-dependent**: shorter sectors reach the
+cycle limit sooner per km (the engine triggers on distance only). Cost revised same day at the
+user's direction: **67% of new, not 100%**, because the Ghost engines, avionics and interior
+fittings are salvageable (gross salvage 40-45% of new = engines 25-30% + avionics 8-10% +
+interior 7-10%, less 8-12% extraction and refit = net 30-35%); band 65-75, rung 3/5. Direction:
+a Ghost engine unit price or de Havilland price list would sharpen the salvage share.
 
 ### 1.11 Dead ends and cautions (the overhaul pass)
 

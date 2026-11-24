@@ -350,18 +350,19 @@ def main():
                    'engine triggers on distance only; time basis is measured); 2% -> 5% (bare survey+dock <1.5%, with '
                    'steel renewal 3-9%).')
         elif kind == 'comet1':
-            q, first, mx, p, downtime = 1790000, 1.0, 1.0, 1, 0.8
-            tag = ('Comet 1 (pass 40): the overhaul is REPLACEMENT at the pressurisation-cycle '
-                   'fatigue limit, 100% of the purchase price (user direction 2026-11-24; the '
-                   'airframe could not withstand many pressurisation cycles). Measured limit '
-                   'about 1,000 pressurisation cycles (G-ALYP failed on its 1,286th pressurised '
-                   'flight, G-ALYY on her 903rd; FAA: production Comets formed fatigue cracks at '
-                   'approximately 1,000 flight cycles; the RAE tank airframe failed at 3,060 '
-                   'total, about 2,500 service-equivalent; the design assumption had been 10,000). '
-                   '1,000 cycles at the measured BOAC mean sector 1,790 km = 1,790,000 km '
-                   '(sector-dependent: shorter sectors reach the cycle limit sooner per km). '
-                   'C.A.P. 127 (1955); RAE Accident Note 270. The Comet 4 and 1XB must not carry '
-                   'this rule (redesigned structure, safe life tens of thousands of hours).')
+            q, first, mx, p, downtime = 1790000, 0.67, 0.67, 1, 0.8
+            tag = ('Comet 1 (pass 40): the overhaul is REPLACEMENT of the fatigue-doomed airframe at '
+                   'the pressurisation-cycle limit (user direction 2026-11-24; revised same day: '
+                   'not 100%, because the Ghost engines, avionics and interior fittings are '
+                   'salvageable). ESTIMATE 67% of new (band 65-75): engines 25-30% + avionics '
+                   '8-10% + interior 7-10% gross salvage 40-45%, less 8-12% extraction and refit. '
+                   'Fatigue limit about 1,000 pressurisation cycles (G-ALYP failed on her 1,286th '
+                   'pressurised flight, G-ALYY on her 903rd; FAA approximately 1,000; design '
+                   'assumption 10,000), entered as 1,790,000 km = 1,000 cycles x the measured '
+                   'BOAC mean sector 1,790 km (sector-dependent: shorter sectors reach the limit '
+                   'sooner per km). C.A.P. 127 (1955); RAE Accident Note 270. The Comet 4 and 1XB '
+                   'must not carry this rule. Direction: a Ghost engine unit price or de Havilland '
+                   'price list would sharpen the salvage share.')
         elif kind == 'aircraft':
             q, first, mx, p, downtime = 4200000, 0.025, 0.05, 4, 0.8
             tag = ('aircraft (pass 40): one C-check every 4,000-6,000 FH ≈ 4,200,000 km at cruise (ESTIMATE — real duty; '
