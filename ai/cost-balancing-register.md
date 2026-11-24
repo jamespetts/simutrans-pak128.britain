@@ -1,6 +1,6 @@
 ---
 status: draft
-verified: New ex-15 working tree, 2026-11-23
+verified: New ex-15 working tree @ 184d0d1d3, 2026-11-24
 ---
 # Cost-balancing register
 
@@ -99,8 +99,8 @@ costing pass. `[CODE New ex-15 working tree, 2026-11-23]`
 | Stations, platforms, shelters, bus stops | no | yes (platform £/m of face; canopies; shelters) | yes (25 forum station rows 1851-1984) | yes | Per-metre and per-item ladders by construction; station maintenance conflict unresolved (conflict 2). [infrastructure-cost-evidence](infrastructure-cost-evidence.md) §6 |
 | Depots | no | partial (8 named sheds 1851-1969) | partial | partial | No cost line in current settings; suggested 1,000,000 rail / 500,000 road. [infrastructure-cost-synthesis](infrastructure-cost-synthesis.md) §3.5 |
 | Airports (runways, terminals, hangars, towers) | no | yes (per m2 ladders; control towers £2.3m-£50m) | partial (Stansted 1991; Luton; Heathrow) | yes | Deflate modern £/m2 on the `buildings` index for pre-1950. [infrastructure-cost-evidence](infrastructure-cost-evidence.md) §9 |
-| Power lines | no | partial (1959, 2015 anchors) | partial (the two anchors) | partial | Two points only. [infrastructure-cost-evidence](infrastructure-cost-evidence.md) §9 |
-| Transformers | no | no (as such) | no | no | Engine key coverage only ([prices-config](prices-config.md) "buildings"). |
+| Power lines | no | yes (132/275 kV 1959; 400 kV 1965, 2012) | partial (the line rates) | yes | 132 kV £10,000/mile and 275 kV £25,000/mile 1959; 400 kV £65,800/mile 1965 and £1.6m/km 2012; maintenance £650/km-year. [infrastructure-cost-evidence](infrastructure-cost-evidence.md) §9 |
+| Grid substations (engine `cost_transformer`) | no | partial (1933 and 1953 inferred; modern measured) | partial | yes | Modelling choice, 2026-11-24: the game object is a 132 kV grid supply point at each power station and town. £27m for 273 stations in 1933 leaves about £40,000 each, £25,000 at 1900. `cost_transformer` 2,500 → 6,308,177; `cost_maintain_transformer` 100 → 2,628. [infrastructure-cost-evidence](infrastructure-cost-evidence.md) §9 |
 
 ## Buildings, land and engine-charged actions
 
@@ -134,10 +134,10 @@ costing pass. `[CODE New ex-15 working tree, 2026-11-23]`
   (maintenance display confirmation), M2 (rate for per-month charges) and the workbook x8 trap are
   listed in [balance-synthesis](balance-synthesis.md).
 - Class data sufficient to extrapolate, in summary: rail carriages, rail wagons, road vehicles,
-  rail ways, road ways, canal ways, piers, stations, airports, electrification, horses, forge
-  costs. Partial: locomotives (steam with known weight only), trams, bridges, tunnels, signals,
-  depots, land alteration, power lines. No: multiple units, ships, aircraft, inland boats,
-  narrow-gauge/monorail/maglev vehicles and ways, roadsigns, crossings, transformers, industry and
+  rail ways, road ways, canal ways, piers, stations, airports, electrification, power lines,
+  grid substations, horses, forge costs. Partial: locomotives (steam with known weight only),
+  trams, bridges, tunnels, signals, depots, land alteration. No: multiple units, ships, aircraft,
+  inland boats, narrow-gauge/monorail/maglev vehicles and ways, roadsigns, crossings, industry and
   city buildings, trees, ground objects.
 
 ## Open questions

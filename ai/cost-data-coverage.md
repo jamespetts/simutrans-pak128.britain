@@ -1,6 +1,6 @@
 ---
 status: draft
-verified: New ex-15 @ 33cf9b106
+verified: New ex-15 @ 184d0d1d3 (working tree), 2026-11-24
 ---
 # Cost data coverage
 
@@ -221,8 +221,11 @@ pre-1950 figure; the pre-1950 method is to deflate modern £/m2 on the `building
 **Industry buildings — None.** **City buildings — None** (the forum holds no pre-1845 building prices
 at all). **Trees — None. Ground objects, fences — None.**
 
-**Power lines — Fair.** Two anchors (275 kV lattice £15,535/km 1959; £1.6m/km 2015; maintenance
-about £650/km/year); no pre-1959 figure. **Transformers — None** as such.
+**Power lines and grid substations — Fair.** Line rates at 132 kV and 275 kV (1959), 400 kV (1965
+and 2012), and grid totals for 1933 and the 1953 supergrid that give an inferred cost per
+transforming station; modern 400/132 kV substation costs. Maintenance about £650/km/year. No
+pre-1927 figure and no account split between lines and stations, so the per-station figures are
+inferences.
 
 ## Land and engine-charged actions
 
@@ -245,8 +248,9 @@ way class has a derived basis recorded in
 [infrastructure-cost-synthesis](infrastructure-cost-synthesis.md) §5.
 
 **Engine finance settings (`cost_depot_*`, `cst_*`) — Poor.** Derivable from the per-action structure
-ladders (building removal, transformer, found city/industry) but no measured figure is recorded per
-action; unscaled by length and adjusted only by inflation.
+ladders (building removal, found city/industry) but no measured figure is recorded per
+action; unscaled by length and adjusted only by inflation. The transformer is the exception: its
+132 kV grid supply point is derived above.
 
 ## Config-driven costs (for completeness)
 
@@ -263,7 +267,7 @@ see [goods-rate-evidence](goods-rate-evidence.md)).
 2. Two-thirds of the whole-line capital comparison is composition the rural test line does not carry
    (urban land, tunnels, viaducts, terminals, multiple track).
 3. Classes rated None account for a large share of the object count (signals aside): roadsigns,
-   crossings, trees, ground objects, industry and city buildings, transformers, removal actions.
+   crossings, trees, ground objects, industry and city buildings, removal actions.
    For these the workbooks can record only in-game costs and derivations from neighbouring classes,
    clearly labelled as such.
 

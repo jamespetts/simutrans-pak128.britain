@@ -1,6 +1,6 @@
 ﻿---
 status: draft
-verified: New ex-15 @ 33cf9b106 (working tree); simutrans-extended ex-15 @ 22cc3af
+verified: New ex-15 @ 184d0d1d3 (working tree), 2026-11-24; simutrans-extended ex-15 @ 22cc3af
 ---
 # Infrastructure cost synthesis
 
@@ -211,7 +211,7 @@ and the pakset has the reverse order (750 V DC 69,000, AC 105,000), which the re
 Only the two third-rail-plus-catenary values reach the £4,600-10,000 band; the 750 V DC catenary at
 £991 is ten times below the 1925 anchor.
 
-### 3.7 Airports, power lines, elevated ways
+### 3.7 Airports, power lines, substations, elevated ways
 
 | Object | Cost now → recommended | Maintenance now → recommended |
 |---|---|---|
@@ -221,8 +221,20 @@ Only the two third-rail-plus-catenary values reach the £4,600-10,000 band; the 
 | terminal | 2,500,000-2,700,000 → **272,000,000** | ~9,000 → **681,000** |
 | hangar | — → **30,300,000** | — → **75,700** |
 | control tower | — → **70,700,000** | — → **177,000** |
-| power line | 35,000 → **6,800,000** | 25 → **200** |
+| power line | 35,000 → **742,405** | 25 → **100** |
+| grid substation (`cost_transformer`) | 2,500 → **6,308,177** | 100 → **2,628** |
 | elevated way (concrete) | 1,456,000 → **50,500,000** | 149 → **42,000** |
+
+The power row has two corrections. It now uses the 1959 275 kV anchor (£2,942/km at 1900), not
+the 2012 400 kV anchor (£26,949/km) behind 6,800,000; the 1959 value is within about 1.6 times the
+1933 132 kV line and exact for 1959, but undercharges a 2012 400 kV line by about eight times,
+which needs a second, 400 kV way object. The substation is a new row, treated as a 132 kV grid
+supply point at each power station and town, not a 400 kV supergrid node: 273 stations in the 1933
+grid at about £40,000 each, £25,000 at 1900. The earlier 200 maintenance figure divided an annual
+value by the monthly factor; 100 .dat is about £610/km-year at 2015 prices against the measured
+£650. The `PowerBridge` row is not usable: its class price is £280,000 a metre, giving 70.65m .dat
+a tile, so it is held for its own research as a long-span tower section rather than a steel road
+bridge.
 
 Runways were called the family already close to history, but that compared the raw `.dat` 182,500 with
 a recommendation 100 times too small: at the corrected rate the runway is £723 a km against £59,843.

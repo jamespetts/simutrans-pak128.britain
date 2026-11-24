@@ -1,6 +1,6 @@
 ---
 status: draft
-verified: New ex-15 @ 33cf9b106 (working tree)
+verified: New ex-15 @ 184d0d1d3 (working tree), 2026-11-24
 ---
 # Infrastructure cost evidence
 
@@ -239,7 +239,7 @@ No British electrification maintenance series per track-km-year was found.
 **Renewal**: contact wire 35-40 years, catenary with it; registration assemblies 50-60 years;
 steelwork 80 years; foundations 120 years. Conductor rail 60-80 years, barely traffic-dependent.
 
-## 9. Airports, power lines and elevated ways
+## 9. Airports, power lines, substations and elevated ways
 
 **Runways**: grass £1-2/m²; concrete by strength, £69/m² at PCN 10 rising to £189 at PCN 93;
 maintenance 1.6-2.4% of capital a year, overlay every 20-35 years as renewal. Second World War:
@@ -248,8 +248,17 @@ maintenance 1.6-2.4% of capital a year, overlay every 20-35 years as renewal. Se
 **Terminals**: £10,000-21,000/m² modern; Stansted £1,600/m² in 1991. **Hangars** £250-750/m².
 **Control towers** £2.3m (Luton, 48 m) to £50m (Heathrow, 87 m).
 
-**Power lines**: 275 kV lattice £15,535/km in 1959, £1.6m/km in 2015; maintenance about £650/km a
-year, overwhelmingly tower painting and vegetation.
+**Power lines and grid substations.** The 1927-33 grid was 4,000 route miles (2,894 miles of 132 kV
+primary line, 1,106 of secondary) with 273 transforming and switching stations, for about £27m
+(Grace's Guide, *British Commerce and Industry* 1934); splitting the total on a line rate of about
+£4,000 a mile leaves about £40,000 a station, an inference. The 1953 supergrid estimate was £72m
+for about 1,200 route miles and 22 stations (HL Deb 31 July 1956 vol 199 cc487-513); at £30,000 a
+mile the lines are £36m, leaving about £1.6m a station, also an inference. Line rates: 132 kV
+£10,000 a mile and 275 kV £25,000 a mile in 1959 (HC Deb 4 February 1959 vol 599 c98W); 400 kV
+£65,800 a mile in 1965 (Goulty 1969); 400 kV £1.6m/km in 2012 (IET and Parsons Brinckerhoff).
+Maintenance about £650/km a year. Modelling choice, 2026-11-24: the game's substation is a 132 kV
+grid supply point, one per power station and one per town or industry; the 400/132 kV supergrid
+nodes (£67.6m-£158.45m modern) are not one per town.
 
 **Elevated ways**: DLR City Airport viaduct about £19-24m/km in 2005 prices; the 1978 Queen
 Elizabeth II bridge £499,024/km in 1900 prices.
@@ -303,7 +312,10 @@ Whishaw, *Railways of Great Britain and Ireland*; Humber, *Cast and Wrought Iron
 Construction*; Cudworth in ICE Minutes vol. 85 (1886); Greathead on the City and South London
 Railway; McAdam, *Remarks on the Present System of Road Making*; Telford's Holyhead estimates;
 Leeds & Liverpool and Stroudwater canal estimates; ICE Minutes throughout; the Railway Companies
-(Accounts and Returns) Act 1911 for the account headings; Hansard; and the Simutrans forum thread
+(Accounts and Returns) Act 1911 for the account headings; Hansard; Grace's Guide, "Central
+Electricity Board" (abridged from *British Commerce and Industry* 1934); Goulty, *The Transmission
+of Electricity in England and Wales* (Durham thesis, 1969); IET and Parsons Brinckerhoff,
+*Electricity Transmission Costing Study* (2012); and the Simutrans forum thread
 "A snippet of relative pricing information", whose tables are in
 [prices-forum-fragments](prices-forum-fragments.md).
 
