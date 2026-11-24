@@ -59,13 +59,13 @@ for new engine features.
   at full bunker, 144-924 km with a median of 360, now that the engine is gaining replenishment.
   Recorded with the figures in [fuel/steam](fuel/steam.md#range). What is still wanted is a water
   range, which no source in the pakset supplies. `[OPEN:2026-11-24]`
-- **Steam tram fuel re-based on measured company accounts.** The six tram engines now carry
+- **Steam tram fuel and power re-based on measured company accounts.** The six tram engines now carry
   1,600-3,100 g of coke per km from Kinnear Clark's reproduction of the tramway companies' coal
   returns, not the sheet's unsourced grate-area guess. The finding is that a tram engine's fire is
   demand-limited rather than grate-limited, and that the true burn rate is about 5-7 kg/h per square
-  foot against the sheet's 2.5-3.0. Their `power` figures of 2-6 kW remain wrong against class
-  ratings of 15-45 hp, and coke has no price series of its own. Method, evidence and confidence:
-  [fuel/steam-tram](fuel/steam-tram.md). `[OPEN:2026-11-24]`
+  foot against the sheet's 2.5-3.0. Their `power` rose from 2-6 kW to 11-31 kW from the class duty
+  ratings, which is what the tractive efforts always implied. Coke still has no price series of its
+  own. Method, evidence and confidence: [fuel/steam-tram](fuel/steam-tram.md). `[OPEN:2026-11-24]`
 - Research each cost domain to the depth of the infrastructure study before deriving balance
   implications, and only then take the balancing decisions. Infrastructure and vehicles are
   complete: [infrastructure-cost-synthesis](infrastructure-cost-synthesis.md) and

@@ -8,7 +8,9 @@ engine_type=steam
 #smoke=Steam
 speed=16
 # Extrapolated
-power=4
+power=27
+# Output: the Kitson no. 3's documented duty rating of 42 hp, scaled by engine weight.
+# See New/ai/fuel/steam-tram.md.
 # Fuel: 2800 g of coke per km in street service, 7.5 kg/h per sq ft of grate at 16 km/h.
 # Kinnear Clark, Tramways (1894), company coal accounts; see New/ai/fuel/steam-tram.md.
 fuel_per_km=2800

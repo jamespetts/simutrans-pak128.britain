@@ -96,18 +96,48 @@ engines. At 2.5 per cent efficiency instead of 2.8 the figures rise 12 per cent;
 
 The full derivation, with every source and the weight-scaling fit: [steam-tram-derivation](steam-tram-derivation.md).
 
-## What the change does and does not do
+## Power
 
-- The previous figures were only 0 to 50 per cent low, not ten times wrong, because the change of
-  `calibration_speed` from half the maximum speed to the full maximum had already doubled the hourly
-  burn the `.dat` files charge: the shipped data implied 5.0 to 6.0 kg/h/sq ft, not 2.50 to 3.00.
-- **The `power` figures are the real casualty**: 2 to 6 kW where the class ratings were 30 to 45 hp
-  (22 to 34 kW) for the Kitsons and the Wilkinson and 15 to 25 hp (11 to 19 kW) for the Merryweathers.
-  They are left alone, because `power` governs acceleration and that is a separate change.
-- **The speeds are right, and should not be raised.** The Board of Trade requirements reproduced by
-  Parsons set a hard 8 mph limit for a steam tram with a 10 mph governor. The engines could reach 16
-  to 19 mph, but did not run there in service, so the pakset's 12 to 16 km/h is the legal and service
-  maximum, not a misreading.
+The `power` figures were 2 to 6 kW, which is not a rating at all: they were the output that fell out
+of the sheet's 2.50 kg/h/sq ft burn rate and its 2.25 to 4.00 per cent efficiency, never checked
+against a rated horsepower. They are now set from the one documented duty rating in the evidence,
+scaled by engine weight, which is how boiler size scales:
+
+| Object | Was, kW | Now, kW | hp | Weight, t |
+|---|---:|---:|---:|---:|
+| `kitson-standard-1` | 3 | 20 | 27 | 7.0 |
+| `kitson-standard-2` | 4 | 27 | 36 | 9.5 |
+| `kitson-standard-3` | 6 | 31 | 42 | 11.0 |
+| `merryweather-standard-1` | 2 | 11 | 15 | 4.0 |
+| `merryweather-standard-2` | 3 | 14 | 19 | 5.0 |
+| `wilkinson-engine` | 3 | 16 | 21 | 5.5 |
+
+Clark's class table rates the Kitson no. 3 to haul 19 tons net up 1 in 25 at 6 mph. At Clark's own
+30 lb per ton resistance that is 27 kW at the rail if the 19 tons is the trailing load and 43 kW if
+it is the gross weight; the independent band from the boilers' heating surface and the other returns
+is 22 to 34 kW. The figure taken is 31 kW, 42 hp, in the middle of the range, and the other five are
+scaled from it. The results sit inside the researched bands: 27 to 42 hp for the Kitsons and the
+Wilkinson, 15 to 21 hp for the Merryweathers.
+
+Two checks confirm the old figures were unusable rather than merely pessimistic. The tractive efforts
+already in the data are 6 to 18 kN, and a 12 kN engine at 3 kW could not use its adhesion above about
+1 km/h. And at the new maximum power with the coal figures above, the implied efficiency is 6 to 7
+per cent, which is what a saturated boiler reaches at full firing where its efficiency peaks; the
+2.8 per cent average is over a whole shift.
+
+What it changes in play is acceleration. A 20 kW engine with a 5-ton car accelerates at about
+0.35 m/s² at line speed against 0.05 before, so the trams can now keep to a timetable at all.
+
+## What the change to the coal did
+
+The previous coal figures were only 0 to 50 per cent low, not ten times wrong, because the change of
+`calibration_speed` from half the maximum speed to the full maximum had already doubled the hourly
+burn the `.dat` files charge: the shipped data implied 5.0 to 6.0 kg/h/sq ft, not 2.50 to 3.00.
+
+**The speeds are right, and should not be raised.** The Board of Trade requirements reproduced by
+Parsons set a hard 8 mph limit for a steam tram with a 10 mph governor. The engines could reach 16 to
+19 mph, but did not run there in service, so the pakset's 12 to 16 km/h is the legal and service
+maximum, not a misreading.
 
 ## The fuel price
 
@@ -122,7 +152,5 @@ because the price series is owned by [fuel-evidence](../fuel-evidence.md).
 
 - Should coke have its own price series? Seven of the eight measured accounts above are coke, and the
   same applies to the early coke-burning railways.
-- Should the six `power` figures be corrected to the class ratings? It would raise their acceleration
-  threefold and is a physics change, not a fuel one.
 - The weight scaling assumes one car. A pakset player may run two, and the engine is then charged for
   one; the engine's own weight-based physics partly compensates but does not model the extra coal.
