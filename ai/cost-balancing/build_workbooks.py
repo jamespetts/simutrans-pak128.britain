@@ -40,6 +40,15 @@ Consumes:
 
 Run: C:\\WINDOWS\\py.exe -3 ai\\temp\\build_workbooks.py
 Output: New/cost-balancing-capital.xlsx, New/cost-balancing-maintenance.xlsx
+
+WARNING (2026-11-24): the committed workbooks New/cost-balancing-capital.xlsx and
+New/cost-balancing-maintenance.xlsx contain manual corrections this script does NOT reproduce
+(the power-line maintenance conversion, the x8 way-maintenance columns, a maintained formula
+variant, and in-place object corrections). A fresh build OVERWRITES them. Do not rebuild without
+first porting those corrections into this script. To add notes or rows to the existing workbooks,
+patch them in place with wb_patch.py (decision notes and research-pricing-rows-*.csv rows),
+wb_dedupe.py (duplicate-row cleanup), wb_dump.py and wb_diff.py (cell-level before/after
+verification), all in this folder.
 """
 import csv, os, re, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))

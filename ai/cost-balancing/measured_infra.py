@@ -334,7 +334,10 @@ def way_rate(row):
             v, y = WAY_KM['canal ship']
         else:
             v, y = WAY_KM['canal narrow']
-        return to1900(v, y), 'measured canal construction per km by size class'
+        return to1900(v, y), (
+            'measured canal construction per km by size class; whole construction including '
+            'formation, because for a canal the forging is the building and forge_cost_water is 0 '
+            '(decision 2026-11-24)')
     return None, 'no measured rate for this way type'
 
 
@@ -491,6 +494,12 @@ def station_rate(row):
         'scale: 28.8 m of train per tile, not 125 m')
 
 
+# One signal object is one signal in reality (post with its arms or lamps); the general
+# signalling infrastructure is priced in the signalbox, not here (decision 2026-11-24).
+_SIGNAL_MEANING = (' | one signal object is one signal in reality; the general signalling '
+                   'infrastructure is priced in the signalbox (decision 2026-11-24)')
+
+
 def signal_rate(row):
     st = (row.get('signal_type') or '').lower()
     wm = (row.get('working_method') or '').lower()
@@ -499,16 +508,19 @@ def signal_rate(row):
         return to1900(v, y), (
             'colour-light running signal, Kent Coast Phase I 1959-62: GBP 4.3m for 97 route '
             'miles, 640 signals, 930 track circuits and 275 point machines = GBP 12,000 a '
-            'signal (Tyler 1962, Appendix E), deflated to 1900')
+            'signal (Tyler 1962, Appendix E), deflated to 1900') + _SIGNAL_MEANING
     if st in ('mechanical', 'semaphore', 'electro-pneumatic', 'vane', 'board', 'flag', 'staff'):
         v, y = SIGNAL_POST
-        return to1900(v, y), 'signal post complete, GBP 16-33 in 1912, midpoint 25'
+        return to1900(v, y), ('signal post complete, GBP 16-33 in 1912, midpoint 25'
+                              ) + _SIGNAL_MEANING
     if wm in ('drive_by_sight', 'one_train_staff', 'time_interval',
               'time_interval_with_telegraph', 'token_block', 'absolute_block'):
         v, y = SIGNAL_POST
-        return to1900(v, y), 'signal post complete, GBP 16-33 in 1912, midpoint 25'
+        return to1900(v, y), ('signal post complete, GBP 16-33 in 1912, midpoint 25'
+                              ) + _SIGNAL_MEANING
     v, y = SIGNAL_AUTOMATIC
-    return to1900(v, y), 'complete automatic semaphore signal, GBP 97-100 in 1909'
+    return to1900(v, y), ('complete automatic semaphore signal, GBP 97-100 in 1909'
+                          ) + _SIGNAL_MEANING
 
 
 def signalbox_rate(row):
@@ -716,7 +728,8 @@ def maintenance(row):
         #   road   main road GBP 35 11s a mile-year (1880) = 22/km
         # Elevated ways add the structure upkeep from the bridge material rate.
         cls = (row.get('class') or '').lower()
-        if 'water' in cls:
+        water = 'water' in cls
+        if water:
             per_km, y = 62.0, 1938
         elif 'road' in cls:
             per_km, y = 22.0, 1880
@@ -727,6 +740,9 @@ def maintenance(row):
         total = to1900(per_km, y) / 8.0
         basis = 'way upkeep GBP %0.1f a tile-year at 1900 (GBP %0.0f/km-year nominal %d)' % (
             total, per_km, y)
+        if water:
+            basis += (' | canal upkeep only: canal ways carry no wear and are not renewed, so '
+                      'this carries no renewal element (decision 2026-11-24)')
         if (row.get('elevated') or '').lower() == 'yes':
             b, bbasis = bridge_rate(row)
             if b is None:

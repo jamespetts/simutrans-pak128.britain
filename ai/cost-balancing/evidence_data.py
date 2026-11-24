@@ -1720,6 +1720,18 @@ def readme_extra():
         'PIERS: the 111 bridge-substructure pier objects are deliberately unpriced. The measured',
         'substructure share is 16-82% of bridge cost and depends on pier height and span, so one',
         'share would be wrong for most bridges (research pass 13 section 6).',
+        'THE COSTING PASS: nothing in these sheets is applied to the .dat files. These sheets are',
+        'the research store; copying their values into the .dat files is the costing pass, one',
+        'operation, run only when the research is complete and the sheets hold the final figures',
+        '(user direction 2026-11-24). Corrections found before then accumulate here.',
+        'CANALS: deliberate zero forge and zero renewal. For a canal there is no way surface - the',
+        'forging is the building, and it differs by canal class (ship canal against tub-boat',
+        'canal), so the formation is folded into the per-class way cost and forge_cost_water goes',
+        'to 0 at the costing pass (decision 2026-11-24). The suggested canal values are the whole',
+        'construction and are unchanged by the fold.',
+        'SIGNALS: one signal object is one signal in reality (post with its arms or lamps); the',
+        'general signalling infrastructure is represented by the signalbox cost (decision',
+        '2026-11-24). The 168 signal objects are calibrated to the per-post ladder at the pass.',
     ]
 
 def readme_extra_maint():
@@ -1729,4 +1741,8 @@ def readme_extra_maint():
         '2x .dat per game month at the pakset settings (see Params FIXED_COST_MONTH_FACTOR).',
         'Maintenance source figures given per mile are converted to per km when entered',
         '(divide by MILES_TO_KM); the notes column records the original figure.',
+        'THE COSTING PASS: nothing here is applied to the .dat files until the research is',
+        'complete and the sheets hold the final figures (user direction 2026-11-24).',
+        'CANALS: canal ways carry no wear and are not renewed, so their maintenance is upkeep',
+        'only and carries no renewal element (decision 2026-11-24).',
     ]
