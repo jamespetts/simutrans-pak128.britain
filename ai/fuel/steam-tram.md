@@ -96,6 +96,23 @@ engines. At 2.5 per cent efficiency instead of 2.8 the figures rise 12 per cent;
 
 The full derivation, with every source and the weight-scaling fit: [steam-tram-derivation](steam-tram-derivation.md).
 
+## The six rows in the steam sheet
+
+Their rows on `Extrapolation` now describe the same quantity the `.dat` files charge. That needed
+three changes, and the row no longer computes like the locomotive rows, deliberately:
+
+- **Calibration speed = maximum speed**, not half of it, because the fuel is a measured service
+  figure at the speed the engine actually ran. The locomotive rows calibrate at half the maximum
+  because their hourly rate is a full-output rate.
+- **Calorific value 8.08**, coke, where the sheet had 6.78, sub-bituminous.
+- **Burn rate 4.8 to 7.5 kg/h per square foot and efficiency 2.80 per cent**, which together give the
+  kg/h and the kg/km in the table above.
+
+The sheet's power column for these six rows therefore holds the **service average** of 4 to 11 kW —
+the output that the coal buys at 2.8 per cent — and not the maximum. The `power` in the `.dat` is the
+maximum and comes from the duty rating, as the next section sets out. The `Applied` tab carries both
+columns side by side.
+
 ## Power
 
 The `power` figures were 2 to 6 kW, which is not a rating at all: they were the output that fell out

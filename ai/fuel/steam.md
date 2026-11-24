@@ -42,10 +42,10 @@ is derived from it. `[CODE New ex-15 working tree @ 6d28e20d5]`
 The sheet carries a sixth tab, `Applied`, added when the figures were entered in the `.dat` files. It
 has one row per powered steam rail object — 390 of them — giving the object and its file, the coal
 type, the `Extrapolation` row it comes from, that row's grate area and kg/km, the calibration speed,
-the applied `fuel_per_km` and the applied `range`. Twenty-three objects differ from the sheet's own
-kg/km by more than 1 per cent: the seventeen whose cached value is stale against the sheet's own
-formula, and the six tram engines. The `Extrapolation` sheet is otherwise left as it was, so that the
-difference stays visible.
+the applied `fuel_per_km` and the applied `range`, and, for the six tram engines, the sheet's service
+power beside the pakset's maximum. Seventeen objects differ from the sheet's own kg/km by more than
+1 per cent: the seventeen whose cached value is stale against the sheet's own formula. The
+`Extrapolation` sheet is otherwise left as it was, so that the difference stays visible.
 
 ## Coal types
 
