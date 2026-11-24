@@ -94,6 +94,8 @@ fixed loss of a boiler that does not fall in proportion to weight.
 The uncertainty is about ±25 per cent on the burn rate and ±20 to 25 per cent on the individual
 engines. At 2.5 per cent efficiency instead of 2.8 the figures rise 12 per cent; at 3.0 they fall 7.
 
+The full derivation, with every source and the weight-scaling fit: [steam-tram-derivation](steam-tram-derivation.md).
+
 ## What the change does and does not do
 
 - The previous figures were only 0 to 50 per cent low, not ten times wrong, because the change of
