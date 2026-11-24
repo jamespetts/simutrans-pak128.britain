@@ -15,6 +15,7 @@ Read before setting or checking any vehicle's fuel consumption, and before chang
 | Document | Read when | Contents |
 |---|---|---|
 | [fuel/steam](fuel/steam.md) | setting or checking a steam locomotive, steam tram, narrow-gauge steam engine, steam ship or steam wagon | the sheet the figures come from, the coal types, the calibration decision, and the range analysis |
+| [fuel/steam-tram](fuel/steam-tram.md) | setting or checking a steam tram engine | why a tram engine's fire is demand-limited, the company coal accounts, and why its `power` and its fuel disagree |
 | [fuel/road](fuel/road.md) | setting or checking a bus, coach, lorry, van, steam wagon, trolleybus or horse-drawn vehicle | mpg and pounds-per-mile evidence from the forum thread and the *Commercial Motor* archive |
 | [fuel/rail](fuel/rail.md) | setting or checking a diesel or electric locomotive, multiple unit, tram, tube train or maglev | the brake-specific-consumption and traction-energy derivation, and the service-duty correction |
 | [fuel/water](fuel/water.md) | setting or checking a ship, barge, ferry or hovercraft | coal per indicated horsepower-hour and marine diesel consumption, and the engine-type corrections made |
@@ -117,9 +118,9 @@ What is not done:
 - `range` is set on 175 steam locomotives as their coal range at full bunker; see
   [fuel/steam](fuel/steam.md#range) for what it does and does not represent.
 - Marine bunker fuel has no price series of its own; ships buy road diesel.
-- The six steam tram engines still carry the steam sheet's unsourced burn rate. A research pass is
-  under way because their duty — one man, a banked fire, one car at up to 20 mph — is not a railway
-  locomotive's and the figure has no independent evidence behind it.
+- The steam tram engines have their own evidence base and their own document, [fuel/steam-tram](fuel/steam-tram.md).
+  Their `power` figures of 2 to 6 kW are still wrong — the class ratings were 15 to 45 hp — and their
+  fuel is priced as coal although the companies mostly issued coke.
 
 ## Open questions
 

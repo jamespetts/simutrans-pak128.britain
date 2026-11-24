@@ -9,9 +9,9 @@ engine_type=steam
 speed=16
 # Extrapolated
 power=4
-# Fuel: 1880 g of bituminous per km at calibration speed (maximum output).
-# Steam-physics-calcs.ods "Extrapolation", row for Kitson Standard no. 2 tram.
-fuel_per_km=1880
+# Fuel: 2800 g of coke per km in street service, 7.5 kg/h per sq ft of grate at 16 km/h.
+# Kinnear Clark, Tramways (1894), company coal accounts; see New/ai/fuel/steam-tram.md.
+fuel_per_km=2800
 calibration_speed=16
 tractive_effort=16
 copyright=jamespetts

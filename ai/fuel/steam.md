@@ -9,7 +9,9 @@ verified: New ex-15 working tree @ 6d28e20d5
 and the working paper behind them. Engine semantics and the unit convention: [fuel-consumption](../fuel-consumption.md).
 
 Steam ships are in [water](water.md) and steam road vehicles in [road](road.md); both are priced from
-the same grammes-of-coal unit.
+the same grammes-of-coal unit. Steam **tram engines** are a separate case and have their own document,
+[steam-tram](steam-tram.md), because their fire was demand-limited rather than grate-limited and their
+coal figures are two to three times what a grate-area calculation gives.
 
 ## The source
 

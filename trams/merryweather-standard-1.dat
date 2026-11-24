@@ -7,9 +7,9 @@ smoke=Steam
 speed=12
 # Extrapolated (based on estimated figures)
 power=2
-# Fuel: 1670 g of bituminous per km at calibration speed (maximum output).
-# Steam-physics-calcs.ods "Extrapolation", row for Merryweather Type 1 tram.
-fuel_per_km=1670
+# Fuel: 1600 g of coke per km in street service, 4.8 kg/h per sq ft of grate at 12 km/h.
+# Kinnear Clark, Tramways (1894), company coal accounts; see New/ai/fuel/steam-tram.md.
+fuel_per_km=1600
 calibration_speed=12
 tractive_effort=6
 copyright=jamespetts
