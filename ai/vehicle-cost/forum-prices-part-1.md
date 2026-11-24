@@ -235,8 +235,8 @@ too interleaved in the thread for a classified split to be made safely by rule.
 | 201 | 1907 | L&TSR electric multiple unit — 37 motor cars and 37 trailer cars | £130,000 (total, described as "cost price") | 37 motor cars and 37 trailer cars, purchased from the District Railway | total cost price | Kay, Vol. 5, p. 109 | .140 | #166 |
 | 202 | 1952 | BR Clan class 6P | £20,426 | 6P | cost to build | linked website (link given as "this website") | .140 | #167 |
 | 203 | about 1812 | very early steam railway locomotive (unnamed) | £400 | weighed 5 tons; burnt 75lb of coal in an hour | cost to construct | e-book (link given as "this e-book") | .140 | #168 |
-| 204 | 1836 | "Harvey Combe" ballast engine | £1,400 | 50 horsepower (37.285kW); 25-53mph with a gross load including the engine of 81 tons | cost | same e-book, p. 60 | .140 | #168 |
-| 205 | 1838 | "Wallace", one of the first locomotives for the Dundee and Arbroath Railway | £1,012 including tender | not stated | cost to build | same e-book, p. 82 | .140 | #168 |
+| 204 | 1836 | "Harvey Combe" ballast engine | £1,400 | 50 horsepower (37.285kW); 25-53mph with a gross load including the engine of 81 tons | cost | same e-book, p. 60 | .140 | #169 |
+| 205 | 1838 | "Wallace", one of the first locomotives for the Dundee and Arbroath Railway | £1,012 including tender | not stated | cost to build | same e-book, p. 82 | .140 | #169 |
 | 206 | 1870 (April) | GNR Stirling 8ft single (G class) | £2,033 | leading bogie (rather than a single pair of leading wheels), which made the design more expensive | cost to build | linked web page (link given as "this web page") | .140 | #174 |
 | 207 | 1896 | LSWR M7 class | £1,400 each | not stated | cost to build | linked website (link given as "this website") | .175 | #175 |
 | 208 | 1922 | EE/1 prototype electric passenger locomotive | £27,767 | prototype electric passenger locomotive | cost of construction | LNER Encyclopedia (link given as "the LNER Encyclopedia") | .175 | #176 |

@@ -1,6 +1,6 @@
 ---
 status: draft
-verified: New ex-15 @ 6b46c373c (working tree); simutrans-extended ex-15 @ bdfdc8311
+verified: New ex-15 @ 687347620 (working tree), 2026-11-24; simutrans-extended ex-15 @ bdfdc8311
 ---
 # Vehicle cost evidence
 
@@ -100,6 +100,8 @@ separate the two effects.
 | 1924/5 | iouthern Railway eight-compartment third | £2,500 | forum |
 | 1929-30 | LNER five-compartment brake third | £2,300 | forum |
 | 1934 | NER/LNER standard brake third | £2,136 | forum |
+| 1955 | BR passenger carriages, Modernisation Plan programme average | £7,400 | plan estimate: £230m for about 31,000 vehicles (BTC, *Modernisation and Re-equipment of British Railways* 1955, para 74; read from the page image — the hidden OCR misreads the figure, and Wikipedia's £285m is the heading including stations and parcels depots) |
+| 1971 | BR inter-city coach (Mk 2F / early Mk 3 era) | £26,667 | Hansard HC 5 Nov 1971 vol 825 c37W: £16m for 600 coaches |
 | early 1980s | BR Mk III | £100,000 | forum |
 
 The NER build records are the strongest block in the whole evidence base: consecutive years,
@@ -126,7 +128,43 @@ The ihildon records of 1906 give eleven mineral and coal wagons with stated carr
 Price per ton of capacity ranges from £6.37 to £8.40, mean about £7.2. The relationship is close to
 proportional with a modest fixed element, which makes capacity a usable normaliser for goods stock
 in this era, and the 30-ton outlier suggests a specification change above 23 tons rather than a
-smooth continuation.
+smooth continuation. One mid-century point: high-capacity coal wagons cost £4,000 each in 1971
+(Hansard HC 5 Nov 1971 vol 825 c37W: £2m for 500). `[LITERATURE:https://api.parliament.uk/historic-hansard/written-answers/1971/nov/05/railways-rolling-stock]`
+
+**Maintenance.** Hill 1895, Appendix II Table III ("Cost of wagon maintenance per vehicle",
+pp. 242-243; note Table I is locomotives and Table II carriages) gives nineteen companies over the
+five years ending June 1892, covering repairs and renewals: **average £4 4s. per wagon-year**,
+range £2 4s. (L&NWR, 55,126 mostly-mineral wagons) to £6 10s. (LCDR, 2,045 wagons). Large
+low-utilisation fleets (Caledonian, NBR, L&NWR) run £2-2 12s.; small intensively-worked fleets
+(LCDR, LSWR) £6-6 10s. Read from the page images of Internet Archive `minutesproceedi43britgoog`
+on 2026-11-24; the full attributed table is in
+[published-maintenance](vehicle-cost/published-maintenance.md) §2. A 1929 private-owner repair
+contract (Colchester Gas Company, 20 wagons, Thomas Burnett & Co) was £5 per wagon-year. No
+measured wagon overhaul price exists in any era. `[LITERATURE:https://doi.org/10.1680/imotp.1895.19704;
+https://www.essexarchivesonline.co.uk/Result_Details.aspx?DocID=987543]`
+
+### Multiple units
+
+Purchase prices (2026-11-24 pass; before it, no purchase ladder existed for this class):
+
+| Year | Stock | Price per vehicle | Basis |
+|---|---|---|---|
+| 1915 | LSWR electric stock conversion | £1,520 | per-car conversion (research pass 27) |
+| 1954 | First-generation DMU, the 1,408-vehicle tranche | £12,479 | £17,570,000 for 858 motor + 550 trailer cars (BTC Works & Equipment Committee memo, 2 Dec 1954) |
+| 1954 | GRC&W tender, Class 100-type | power car £19,300-20,811; trailer £13,186-14,671 | tender prices at 50/20/10 units: a measured volume-price curve |
+| 1955 | Derby-built share of the 1,408 | about £12,050 | £6m for 374 motor + 124 trailer (Lightweight Trains Committee, 11 Jan 1955) |
+| 1956 | Standard DMU motor car, Derby works | £15,200 | works cost (Diesel Lightweight Trains Committee, 15 Mar 1956) |
+| 1956 | Railbuses | £10,000-13,888 | tender prices by maker (W&E Committee memo, 30 Oct 1956) |
+| 1979-80 | Class 508 | £151,163 | £26m for 172 cars (research pass 23) |
+| 1980-82 | Class 141 £200,000; Class 142 £170,000 | as stated | research pass 23 |
+| 1984-86 | Classes 150/2, 155, 156 | £263,204 | £149.5m for 568 vehicles (research pass 23) |
+
+London Underground per-car prices 1972-2010 are in
+[cost-balancing/research-pricing-report-26](cost-balancing/research-pricing-report-26.md) §7.
+The 1955 Plan average for carriages (above) covers EMU and DMU vehicles as well as loco-hauled
+coaches and is a cross-check, not an MU figure. Routes to the remaining gaps (1950s-60s EMU
+per-car, 1980s order values, 1890-1910 electric stock) are recorded in
+[cost-balancing/research-pricing-report-39](cost-balancing/research-pricing-report-39.md).
 
 ### Buses, coaches and lorries
 

@@ -1,6 +1,6 @@
 ---
 status: draft
-verified: New ex-15 @ 5a254ba24 (working tree)
+verified: New ex-15 @ 687347620 (working tree), 2026-11-24
 ---
 # Infrastructure cost findings
 
@@ -44,7 +44,7 @@ chain stands and the defects are in the objects.
 | Canals, capital | 3 to 12 | Firm; the class anchors are wide but consistent |
 | Canals, maintenance | 15 to 23 | Single 1938 ratio |
 | Electrification | 3 to 9, with the trend inverted | Weak; no track count for the 1955 schemes |
-| Signals | Not comparable as specified | The objects appear to price a block section, not an arm |
+| Signals | Not comparable as specified | The objects appeared to price a block section; settled 2026-11-24: one object is one signal, with the general infrastructure in the signalbox |
 
 ## What this means
 
@@ -76,19 +76,25 @@ These are bugs, not calibration judgements, and are independent of any decision 
 
 1. **What is a way object?** Whole line, or permanent way only. This decides whether the track
    costs are right or twelve times too dear, and it decides whether structures should carry their
-   full historical cost or only a premium.
+   full historical cost or only a premium. Settled 2026-11-16: the way is the permanent way alone
+   and the forge the formation — except canals, settled 2026-11-24: the canal way object is the
+   whole construction and the canal forge is 0 ([infrastructure-cost-synthesis](infrastructure-cost-synthesis.md) §4.1, §4.5).
 2. **Maintenance.** Whichever answer above, the maintenance of ways, tunnels and canals is far too
    high relative to capital, and tunnels by a factor of forty. This is the change with the largest
    effect on play and the strongest evidence behind it.
 3. **Structures.** Masonry and brick are 14 to 30 times their historical cost per metre, and the
    relative price of masonry against iron and timber is also wrong: masonry is 4.3 times iron in
    the pakset where history has them within 10%.
-4. **Signals.** Decide what one signal object represents before any number is changed.
+4. **Signals.** Settled 2026-11-24: one signal object is one signal in reality, and the general
+   signalling infrastructure is the signalbox's cost. The 168 objects are to be calibrated to the
+   per-post ladder at the costing pass.
 
 ## Not established
 
-- Permanent way cost for 1900-1930 and after 1945. Every post-1925 way ratio is against the 1898
-  anchor held flat.
+- Permanent way cost for 1900-1930 (interpolation on general inflation is acceptable if nothing is
+  found) and after 1945 (a priority gap: must track inflation and the technology change
+  realistically; research in progress). `[USER-DIRECTION:2026-11-24]` Every post-1925 way ratio is
+  against the 1898 anchor held flat.
 - Earthworks per km for a stated cross-section.
 - Vault or viaduct cost by height, which the forum table does not separate.
 - Any measured split of maintenance between rails, earthworks, bridges and tunnels.

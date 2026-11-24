@@ -1,6 +1,6 @@
 ---
 status: draft
-verified: New ex-15 @ 33cf9b106
+verified: New ex-15 @ 687347620 (working tree), 2026-11-24
 ---
 # Base maintenance costs
 
@@ -9,8 +9,9 @@ terms so that the values can be entered in a `.dat` file and scaled by the index
 
 Evidence: [published-maintenance](../vehicle-cost/published-maintenance.md). Method:
 [vehicle-cost-method](../vehicle-cost-method.md). Engine mechanics:
-[vehicle-cost-model](../vehicle-cost-model.md). Parent:
-[vehicle-cost-evidence](../vehicle-cost-evidence.md).
+[vehicle-cost-model](../vehicle-cost-model.md). Decomposition into `fixed_cost`, `runningcost`,
+overhaul and upgrade components: [maintenance-decomposition](maintenance-decomposition.md).
+Parent: [vehicle-cost-evidence](../vehicle-cost-evidence.md).
 
 No `.dat` value has been changed. This doc supplies the level; the synthesis across all domains
 decides when it is used. `[USER-DIRECTION:2026-11-16]`
@@ -317,11 +318,11 @@ What the evidence supports, and what it does not.
 
 | Class | Coverage | Best figures | Gap |
 |---|---|---|---|
-| Steam locomotives | Strong | 19-company per-mile range 1892; GWR and SER per-engine-year | No pre-1890 figure |
-| Diesel and electric locomotives | Good | TRB classes 37, 47, 55, 87; Class 66 and 47 rebuild costs and intervals | No per-hour British operator figure |
+| Steam locomotives | Strong | 19-company per-mile range 1892; GWR and SER per-engine-year; pre-1890 now measured (Price Williams 1870, 12 companies; McDonnell 1877, 6 companies) | No per-mile figure for 1900-1950 |
+| Diesel and electric locomotives | Good | TRB classes 37, 47, 55, 87; Class 66 and 47 rebuild costs and intervals; Beeching 1961 and Serpell per-train-mile and per-passenger-mile chains | No money per overhaul (Kew: COAL 101/164, AN 88/108, AN 112 charge schedules) |
 | Multiple units | Good | RDG £0.80 diesel and £0.44 electric per vehicle-mile; London Underground per car-year; Civity per train-km | No scheduled/unscheduled money split |
-| Carriages | Strong | Per vehicle-year, eight companies, 1892 | No post-1906 figure except whole-company totals |
-| Wagons | Weak | Metropolitan Railway whole-account totals 1893-1906 | No per-wagon figure: Hill's wagon column is unreadable in the digitised text |
+| Carriages | Strong | Per vehicle-year, 19 companies, 1892 (£18 6s.-£52 14s., average £33 6s.; Hill 1895 Table II, company attribution recovered 2026-11-24) | No post-1906 figure except whole-company totals |
+| Wagons | Strong (1892), fair after | Hill 1895 Table III: 19 companies, average £4 4s. per wagon-year repairs + renewals; 1929 private-owner repair contract £5; Metropolitan whole-account totals 1893-1906 | Solved for 1887-92 (2026-11-24); no 20th-century figure (post-1911 MoT returns, library route) and no overhaul price in any era |
 | Buses | Strong | 1914 LGOC, 1925 Edinburgh, 1931-34 Glasgow, 1955 six undertakings; annual bill 12-21 per cent of purchase price | No measured pre-1914 figure; no municipal omnibus returns exist |
 | Coaches | Fair | 1948, 1964, 1969 and 1970 costings | No undertaking data |
 | Lorries | Strong | 1934-1970 size pairs and the 2016 FTA tables, with tyres and lubricants itemised | Gap 1975-2015; the trade tables are page images |
@@ -352,8 +353,10 @@ Candidate sources, none yet tried:
 - **Horses**: feed, farriery, veterinary and stabling are separable heads in coaching and omnibus
   accounts. The London General Omnibus Company and the coaching inn records are the likely route;
   agricultural cost surveys also price horse keep.
-- **Wagons**: Railway Returns "repairs to wagons" divided by wagon stock gives a per-wagon-year
-  figure, by company.
+- **Wagons**: solved — Hill 1895 Appendix II Table III gives the per-wagon-year figure for 1887-92
+  (19 companies, average £4 4s., repairs + renewals). The 20th century needs the post-1911
+  Ministry of Transport returns (library route); overhaul prices survive only in undigitised
+  repair invoices.
 - **Diesel and electric multiple units**: BR depot cost data of the kind the TRB report used, or
   the modern train-operating companies' published cost per vehicle-mile.
 - **Inland boats**: canal carrier accounts; the narrowboat operating literature is thin and mostly
@@ -366,6 +369,13 @@ Candidate sources, none yet tried:
 ## Open questions
 
 - What standing allowance should a locomotive carry, given that no source measures one?
+- How is the Hill per-vehicle-year maintenance figure (repairs **and renewals** combined) to be
+  split into `fixed_cost` and `runningcost`? The 2026-11-24 regression across Hill's 19 companies
+  does not identify it (r² 0.04 in cost space; see
+  [research-pricing-report-39](../cost-balancing/research-pricing-report-39.md) §1). Routes: the
+  GER half-yearly series within-company; an engineering fixed/distance decomposition; modern
+  contract structures. The renewals share must also be netted out (renewals are capital in-game),
+  against the post-1911 MoT returns' renewals columns.
 - Does the engine's wear ramp already represent the distance-based overhaul, so that
   `runningcost` should be the mid-life average rather than the new-vehicle figure?
 - Should wagons, which the accounts also record per vehicle-year, use `fixed_cost` like carriages,

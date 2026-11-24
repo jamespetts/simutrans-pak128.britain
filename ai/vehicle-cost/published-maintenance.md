@@ -1,6 +1,6 @@
 ---
 status: draft
-verified: New ex-15 @ 8d0603d81
+verified: New ex-15 @ 687347620 (working tree), 2026-11-24
 ---
 # Vehicle maintenance and running cost: published historical figures
 
@@ -63,7 +63,10 @@ https://archive.org/stream/accountsfrailway00fishrich/accountsfrailway00fishrich
 
 | Year / period | Vehicle class or fleet | Figure as stated | Includes / excludes (as the source states) | Fleet size or mileage base | Source | P/S |
 |---|---|---|---|---|---|---|
-| Five years ending June 1892 | Carriages, 19 British railway companies | Cost of carriage maintenance per vehicle per annum: the values legible in the digitised table include £18 6s., £26 4s., £27 6s., £31 6s., £39 6s., £40 14s., £41 12s. and £45 6s. | "maintenance, that is the cost of repairs and renewals" of carriages. Company attribution is lost in the digitised text; the values are recorded only as the range the table contains. | 19 companies | Hill 1895, Appendix II Table I (digitised text, column alignment lost) | Primary (reading uncertain) |
+| Five years ending June 1892 | Carriages, 19 British railway companies | Carriage maintenance per vehicle per annum: G.E.R. £28 · L.C.&D.R. £31 · N.E.R. £45 6s. · L.&N.W.R. £52 14s. · L.&Y.R. £45 10s. · G.&S.W.R. £25 10s. · G.N.R. £41 12s. · L.&S.W.R. £26 4s. · S.E.R. £31 6s. · Mid.R. £40 14s. · M.S.&L.R. £27 6s. · G.W.R. £39 6s. · L.B.&S.C.R. £18 6s. · C.R. £36 14s. · N.B.R. £23 10s. · M.G.W.R. £34 · G.N.R.(I) £28 6s. · B.&N.C.R. £25 8s. · G.S.&W.R. £32 12s.; average of all companies £33 6s. | "maintenance, that is the cost of repairs and renewals" of carriages. Renewals included. | 19 companies; averages of half-yearly reports over five years | Hill 1895, Appendix II **Table II**, pp. 240-241; scan read from page images 2026-11-24 (Internet Archive `minutesproceedi43britgoog`); https://doi.org/10.1680/imotp.1895.19704 | Primary (page images; row order validated by the mileage subtotals) |
+| Five years ending June 1892 | Wagons, 19 British railway companies | Wagon maintenance per vehicle per annum: G.E.R. £4 12s. · L.C.&D.R. £6 10s. · N.E.R. £5 10s. · L.&N.W.R. £2 4s. · L.&Y.R. £4 · G.&S.W.R. £3 12s. · G.N.R. £3 8s. · L.&S.W.R. £6 · S.E.R. £4 14s. · Mid.R. £4 16s. · M.S.&L.R. £3 12s. · G.W.R. £4 6s. · L.B.&S.C.R. £3 12s. · C.R. £2 12s. · N.B.R. £2 12s. · M.G.W.R. £4 · G.N.R.(I) £4 10s. · B.&N.C.R. £3 10s. · G.S.&W.R. £5 12s.; **average of all companies £4 4s.** (3.66d. per goods train-mile) | "maintenance, that is the cost of repairs and renewals"; renewals included | 19 companies; same base as above | Hill 1895, Appendix II **Table III**, pp. 242-243; scan read from page images 2026-11-24 (Internet Archive `minutesproceedi43britgoog`); https://doi.org/10.1680/imotp.1895.19704 | Primary (page images; each figure reproduces from Hill's per-train-mile rate × goods train-miles per wagon) |
+| 1887-92 half-yearly series | Great Eastern Railway wagons | Wagon maintenance totals per half-year with wages and materials separate (e.g. Dec 1888: wages £15,317 + materials £22,020 = £37,950, 2.78d. per goods train-mile, stock 14,821) | repairs + renewals; salaries included in totals (footnote 2) | as stated | Hill 1895, Appendix II Table IV, p. 244 (same source) | Primary |
+| 1929 | Colchester Gas Company, 20 private-owner wagons | £5 per wagon per year (£100 p.a.) | 7-year repair agreement with Thomas Burnett & Co, Hexthorpe Wagon & Wheel Works, Doncaster; scope within the agreement not stated in the catalogue description | 20 wagons | Essex Archives Online D/F 27/2/108, agreement dated 3 June 1929; https://www.essexarchivesonline.co.uk/Result_Details.aspx?DocID=987543 | Primary (archival original, not digitised; rate as catalogued) |
 | 1893 | Metropolitan Railway carriage and wagon stock | Carriage and wagon repairs £28,162 for the year | Whole-company "Carriage & Wagon Repairs" account line. Excludes locomotive repairs (separate "Locomotive Power" line) and excludes way and works. | Whole company; vehicle count not given in the quoted table | Sheward, *A Financial History of the Metropolitan Railway*, Railway & Canal Historical Society, Table 16. https://rchs.org.uk/wp-content/uploads/2019/05/FINAL-Sheward-Metropolitan-for-website.pdf | Secondary (from company accounts) |
 | 1900 | Metropolitan Railway carriage and wagon stock | Carriage and wagon repairs £33,075 for the year | As above. | Whole company | Sheward, Table 16 | Secondary |
 | 1906 | Metropolitan Railway carriage and wagon stock | Carriage and wagon repairs £33,657 for the year | As above. | Whole company | Sheward, Table 19 | Secondary |
@@ -235,9 +238,12 @@ item 17. https://www.caa.co.uk/Documents/Download/3707/a9c76f44-35a4-4a0a-8e14-c
 
 ### Gaps
 
-- No clean **per-wagon-per-year** repair figure was obtained. Hill's wagon column is unreadable
-  in the digitised text, and the Metropolitan Railway figures are whole-company totals without a
-  vehicle count.
+- No **per-wagon-per-year** figure for the 20th century. Hill's Table III (read from page images
+  2026-11-24) closes the 19th; the pre-1911 published returns carry no wagon-only money line at
+  all (settled 2026-11-24 — a combined "carriages and wagons" head only), and the post-1911
+  Ministry of Transport returns do separate wagons but are HathiTrust/print only. No measured
+  wagon overhaul price exists in any era; the surviving route is archival repair invoices
+  (Oxfordshire B8/A5, Essex D/F 27/2/108, Chasewater RCH), none digitised.
 - No **British locomotive repair cost per mile for 1900-1950** was obtained from a primary
   source. The gap between Hill (to 1892) and the BR boiler table (1954) is real and should not be
   bridged by interpolation.

@@ -29,6 +29,12 @@ Data-quality assessment per class: [cost-data-coverage](cost-data-coverage.md).
 - Evidence pointers name the doc and section holding the figures; the spreadsheets carry the same
   references row by row.
 
+**The costing pass.** The spreadsheets are the research store; the `.dat` files hold the
+pre-calibration values. Copying the spreadsheet values into the `.dat` files is the costing pass:
+one operation, run only when the research is complete and the spreadsheets hold the final figures.
+Corrections found before then accumulate in the spreadsheets and are not applied piecemeal.
+`[USER-DIRECTION:2026-11-24]`
+
 ## Continuous brakes
 
 The `Continuous brakes` sheet in each workbook records the fitted and unfitted carriage pairs and
@@ -36,14 +42,14 @@ the price and maintenance ratio each should carry. The measured premium is **+7.
 automatic continuous brake cost about GBP 35 a carriage fitted (Msrs Peel and Makins, HC Deb
 13 June 1879, vol 246 cc1840-1842), against carriage prices of GBP 397.86 to GBP 517.50 in the
 1870s, and the extra maintenance was about 7.1 per cent a year of the brake capital, against
-carriage maintenance of GBP 18.3 to GBP 45.3 a vehicle a year (Hill 1895, Appendix II Table I).
+carriage maintenance of GBP 18.3 to GBP 45.3 a vehicle a year (Hill 1895, Appendix II Table II).
 
 The current `.dat` values do not carry that premium. Cost ratios run from 54.2 to 191.9 per cent,
 with six of the thirty fitted vehicles cheaper than the vehicle they upgrade, and maintenance
 ratios from 8.9 to 1,818 per cent. In `New/trains/4wheel-1870s.dat` the eight fitted vehicles take
 only four distinct prices, so a GBP 185,000 mail van and a GBP 655,000 TPO both become GBP 355,000
-fitted. No `.dat` value has been changed; the correction is held in the workbooks for the next
-costing pass. `[CODE New ex-15 working tree, 2026-11-23]`
+fitted. No `.dat` value has been changed; the correction is held in the workbooks for the costing
+pass (defined above). `[CODE New ex-15 working tree, 2026-11-23]`
 
 ## Cost scope: what the cost fields do and do not hold
 
@@ -66,8 +72,8 @@ costing pass. `[CODE New ex-15 working tree, 2026-11-23]`
 | Class | Balanced | Class data | Item data | Extrapolate | Basis and pointer |
 |---|---|---|---|---|---|
 | Rail locomotives | no | yes | yes (13 classes, 1831-1960) | partial | Price per ton of engine weight (£32-78/ton steam era; diesels above) and £/1,000 dbhp (1951 Hansard); enough to interpolate steam-era items with a known weight, not diesels or pre-1850. [vehicle-cost-evidence](vehicle-cost-evidence.md) "Locomotives", "Price per ton" |
-| Rail carriages | no | yes | yes (9 builds, 1846-1980s) | yes | Era-band ladders by vehicle type (bogie third £1,200-1,500 etc.) and the NER build records 1905-34 as matched-model pairs. [vehicle-cost-evidence](vehicle-cost-evidence.md) "Carriages" |
-| Rail wagons | no | yes | yes (11 Shildon 1906 builds by capacity) | yes | Price per ton of capacity £6.37-8.40 (mean £7.2); proportional with a modest fixed element. [vehicle-cost-evidence](vehicle-cost-evidence.md) "Wagons" |
+| Rail carriages | no | yes | yes (9 builds, 1846-1980s; 1955 Plan average and 1971 Hansard coach added 2026-11-24) | yes outside 1934-1980; across the gap partial, anchored at 1955 and 1971 | Era-band ladders by vehicle type (bogie third £1,200-1,500 etc.) and the NER build records 1905-34 as matched-model pairs. The 1934-1980 gap is a priority gap (wartime, nationalisation and Mark 1/2/3 across two inflation surges): [cost-data-coverage](cost-data-coverage.md) "Rail carriages". [vehicle-cost-evidence](vehicle-cost-evidence.md) "Carriages" |
+| Rail wagons | no | yes | yes (11 Shildon 1906 builds by capacity; 1971 Hansard coal wagon) | yes | Price per ton of capacity £6.37-8.40 (mean £7.2); proportional with a modest fixed element. Maintenance now measured: £4 4s. per wagon-year 1887-92 (Hill 1895 Table III, 19 companies, repairs + renewals) and a 1929 private-owner repair contract at £5; no wagon overhaul price in any era. [vehicle-cost-evidence](vehicle-cost-evidence.md) "Wagons" |
 | Multiple units | no | partial (modern maintenance only) | no purchase prices | no | Modern per-vehicle-mile maintenance (2013 prices); no purchase ladder. [base-maintenance](vehicle-cost/base-maintenance.md) "Later anchors" |
 | Road vehicles (buses, coaches, lorries) | no | yes | partial (Routemaster, Atlantean, Guy Arab, Bedford OWB, Scammell Crusader) | yes | Complete-vehicle ladders: bus GBP 1,240 at 50 seats, seats^0.67; lorry GBP 162 at 1 ton in 1950, payload^0.30 below 7 tons and 0.75 above, with a 1.8 per cent a year real fall to 1960; steam wagons on their own ladder; battery-electric bus at twice the diesel. Chassis-only and body-only prices are excluded because a body is 42-45 per cent of a complete bus. The real level rises 40 per cent from 1990 to 2026 on measured tender awards. Maintenance from a measured per-km total, split 75/25 between running and standing charges (the standing share is an estimate). [vehicle-cost-evidence](vehicle-cost-evidence.md) "Buses, coaches and lorries" |
 | Trams and light rail | no | yes (modern vehicle prices solid 2007-19; historic cars 1901-50) | partial (Metrolink M5000, Croydon CR4000, Edinburgh CAF, Blackpool Flexity 2) | yes | Historic ladder: £670 (1902 car), £904 (1929). Modern: £24,026 (1996) to £24,500 (2026) in 1900 money, from every UK order 2007-19 falling in a £1.80-2.72m band. Maintenance: historic £64 a car-year (MoT 1913-14, car only), modern £1,301 a tram-year (Nottingham 2011 contract). Articulated sections are priced zero on all but the leading section. [cost-balancing/research-pricing-report-35](cost-balancing/research-pricing-report-35.md) |
@@ -85,14 +91,14 @@ costing pass. `[CODE New ex-15 working tree, 2026-11-23]`
 |---|---|---|---|---|---|
 | Rail ways (track) | no | yes | yes (L&M 1830 account; Leicester/Leeds/Dewsbury 1877-82; Mills c.1898) | yes | Permanent way £1,300-1,900/km flat 1830-1900; rail weight ladder; whole-line capital £20,300-22,400/km 1858-1902. [infrastructure-cost-evidence](infrastructure-cost-evidence.md) §1-2 |
 | Road ways | no | yes | partial (2011 motorway yard rates) | yes | Turnpike to motorway: construction and upkeep figures 1819-2021; the motorway object is the decisive 2.5x-too-cheap check. [infrastructure-cost-evidence](infrastructure-cost-evidence.md) §3 |
-| Canal ways | no | yes | yes (7 named canals 1724-1905; itemised Leeds & Liverpool estimate) | yes | £1,850-5,560/km narrow and barge, £14,750-33,000/km ship; but the pakset's way object and forge meanings are reversed (conflict 7). [infrastructure-cost-evidence](infrastructure-cost-evidence.md) §5 |
+| Canal ways | no | yes | yes (7 named canals 1724-1905; itemised Leeds & Liverpool estimate) | yes | £1,850-5,560/km narrow and barge, £14,750-33,000/km ship; canals are deliberately zero-forge and unrenewed — for a canal the forging is the building, so the formation is folded into the per-class way cost and `forge_cost_water` goes to 0 at the costing pass (decision 2026-11-24, conflict 7 resolved). [infrastructure-cost-evidence](infrastructure-cost-evidence.md) §5 |
 | Tram ways | no | partial (track £600/mile 1911; forge £600-1,200/km) | no | partial | Street reservation basis. [prices-forum-fragments](prices-forum-fragments.md) "Rails and permanent way" |
 | Narrow-gauge ways | no | partial (forge £250-620/km) | no | partial | Terrain-dominated forge basis only. [infrastructure-cost-synthesis](infrastructure-cost-synthesis.md) §5 |
 | Monorail / maglev ways | no | no | no | no | Forge recommendation without historical basis. [infrastructure-cost-synthesis](infrastructure-cost-synthesis.md) §5 |
 | Bridges and viaducts | no | yes | yes (25 named viaducts 1828-1978) | partial | £/m ladders by material and span class; height and span are deliberately not costed in the data. [infrastructure-cost-evidence](infrastructure-cost-evidence.md) §4 |
 | Tunnels | no | yes | yes (21 named tunnels 1779-1962) | partial | £/m by ground and method; two table artefacts recorded. [infrastructure-cost-evidence](infrastructure-cost-evidence.md) §4 |
 | Piers, docks, quays | no | yes (per metre by construction) | partial (Margate 1853; Tilbury works) | yes | Per-metre ladder by construction type; maintenance heuristic 0.8-4% a year. [infrastructure-cost-evidence](infrastructure-cost-evidence.md) §5 |
-| Signals and signalboxes | no | yes (1912 post prices; mechanical vs colour light) | partial (Spetisbury 1901; Kent Coast; Tilbury 1929; Reading 1963) | partial | Decide what one signal object represents first (a block section, not an arm). [infrastructure-cost-evidence](infrastructure-cost-evidence.md) §7 |
+| Signals and signalboxes | no | yes (1912 post prices; mechanical vs colour light) | partial (Spetisbury 1901; Kent Coast; Tilbury 1929; Reading 1963) | partial | One signal object is one signal in reality (post with its arms or lamps); the general signalling infrastructure is represented by the signalbox cost (settled 2026-11-24). The 168 signal objects are calibrated to the per-post ladder at the costing pass. [infrastructure-cost-evidence](infrastructure-cost-evidence.md) §7 |
 | Roadsigns | no | no | no | no | No historical cost data anywhere. |
 | Way objects (electrification) | no | yes | partial (Southern 1925; BR 1955 pair; Romford 1986) | yes | £/track-km ladders 1925-2016; pakset era order reversed (750 V DC cheaper than AC). [infrastructure-cost-evidence](infrastructure-cost-evidence.md) §8 |
 | Crossings (level) | no | no | no | no | Field semantics only ([objects/crossing](objects/crossing.md)); no cost data. |

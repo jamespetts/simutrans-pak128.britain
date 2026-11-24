@@ -269,9 +269,13 @@ Recorded from the forum, largely by the pakset owner, and the basis for every re
 
 - **Way and forge**: the way is the permanent way on a prepared bed; the forge is the difference
   between renewing on that bed and forging virgin terrain. Halved for a parallel way. Charged again
-  on a full rebuild. Charged on a new tunnel but not an upgrade.
+  on a full rebuild. Charged on a new tunnel but not an upgrade. Canals are the exception
+  (2026-11-24): for a canal the forging is the building and the formation differs by canal class,
+  so the canal way object carries the whole construction, the canal forge is 0, and canal ways
+  carry no wear and are not renewed. `[USER-DIRECTION:2026-11-24]`
 - **Way objects** (catenary and similar) are objects laid over a way, distinct from the way itself.
-- **Signal objects** represent one post with its arms or lamps, mechanism and share of the wires.
+- **Signal objects** represent one post with its arms or lamps, mechanism and share of the wires;
+  one signal object is one signal in reality (settled 2026-11-24).
 - **Signalboxes** represent the general signalling infrastructure: building, frame, locking, block
   instruments, interlocking, track circuits and control.
 - **Platforms**: timber should be cheap to build and dear to maintain, brick dear to build and
@@ -300,8 +304,10 @@ These are recorded so that they are resolved deliberately rather than rediscover
    every cost-to-revenue ratio used in the earlier calibration.
 6. **Depot maintenance** is too *low* (700c against 2,797c) where almost everything else is too
    high.
-7. **The canal way object** and the forge have their meanings reversed, as recorded in
-   [infrastructure-cost-synthesis](infrastructure-cost-synthesis.md).
+7. **Resolved 2026-11-24.** The canal way object carries the whole construction including the
+   formation and the canal forge is 0, by design: for a canal the forging is the building and it
+   differs by canal class (ship canal against tub-boat canal). Canal ways carry no wear and are
+   not renewed, so the folded formation is paid once. `[USER-DIRECTION:2026-11-24]`
 
 ## 12. Sources
 

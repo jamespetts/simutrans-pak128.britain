@@ -28,8 +28,15 @@ specification-normalised ladders (price per ton of engine weight, £32-78 steam 
 draw-bar hp, 1951 Hansard). The diesel-to-steam price ratio (2.5x at equivalent power, 1955
 modernisation report) brackets the traction transition. Maintenance: 1892 repair per train-mile for
 six companies, Hill's £253 per engine-year (about 12% of purchase price a year), renewals 3.6% a
-year; modern rebuild costs. Gaps: no pre-1890 repair figure; no per-hour British diesel/electric
-operating figure; no price surface can be fitted (only eight classes matched to a pakset weight).
+year; modern rebuild costs. Gaps: no per-overhaul money for a BR diesel or electric locomotive
+(the money is in TNA COAL 101/164, AN 88/108 and the BREL AN 112 standard-charge schedules,
+Kew-only); no price surface can be fitted (only eight classes matched to a pakset weight). The
+pre-1890 repair gap is closed — Price Williams (ICE 1870, 12 companies) and McDonnell (ICE 1877)
+give £195-357 per engine-year / 2.68-4.39d per train-mile for 1858-76, so the 1892 extrapolation
+is roughly right per engine-year but understates per train-mile — and the per-hour British
+diesel/electric operating figure now exists as a chain (Beeching 1961 per train-mile by traffic;
+TRB 1975 per locomotive-hour; Serpell per passenger-mile; ORR from 2000-01 per vehicle-km and per
+train-hour).
 Calibration use: interpolate steam-era locomotives by weight; do not extrapolate diesels from steam
 or vice versa.
 
@@ -37,13 +44,24 @@ or vice versa.
 bogie third £1,200-1,500; corridor composite or dining £1,600-2,000; twelve-wheel diner £2,500-3,000;
 1920s corridor third £2,300-2,500). The NER build records (1905-34, consecutive years, stated
 diagrams and prices) are the strongest block in the vehicle evidence and the natural basis for a
-carriage price surface. Maintenance: Hill's £18-45 per vehicle-year 1892 with the full `fixed_cost`
-conversion recorded. Gap: nothing between 1934 and the early 1980s.
+carriage price surface. Maintenance: Hill's £18-45 per vehicle-year 1892 (repairs and renewals
+combined; no fixed/per-km split is settled — see
+[vehicle-cost/maintenance-decomposition](vehicle-cost/maintenance-decomposition.md)). Gap: nothing between 1934 and the early 1980s — a priority gap, not
+interpolation, because wartime and utility construction, nationalisation and the Mark 1/2/3
+generations fall across the 1945-51 and 1970s inflation surges `[USER-DIRECTION:2026-11-24]`. Two
+anchors now stand inside it: the 1955 Modernisation Plan's programme average of about £7,400 a
+passenger vehicle (£230m for about 31,000 vehicles) and Hansard's 1971 inter-city coach at
+£26,667 (£16m for 600). The 1935-48 block (Big Four and wartime utility stock) is still empty;
+routes: Hansard, TNA AN 97/124 and RAIL works cost records, NRM accounts (expenditure on
+additional rolling stock ÷ stock additions), Grace's Guide contract notices.
 
-**Rail wagons — Good (capital), None (maintenance).** Eleven Shildon 1906 builds priced by capacity,
-a clean £6.37-8.40 per ton of capacity ladder (mean £7.2) with a modest fixed element and a
-speculation point at 23 tons. No per-wagon-year maintenance figure exists in any source read (Hill's
-wagon column is unreadable; the Railway Returns route is untried).
+**Rail wagons — Good (capital), Good (maintenance, 1892).** Eleven Shildon 1906 builds priced by
+capacity, a clean £6.37-8.40 per ton of capacity ladder (mean £7.2) with a modest fixed element and
+a speculation point at 23 tons. Maintenance is now measured: Hill 1895 Appendix II Table III gives
+£4 4s. per wagon-year (19 companies, 1887-92, repairs + renewals; range £2 4s.-£6 10s.), and a
+1929 private-owner repair contract gives £5. Gaps: no 20th-century figure (the pre-1911 published
+returns carry no wagon-only line, settled 2026-11-24; the post-1911 MoT returns are library-only)
+and no wagon overhaul price in any era (archival repair invoices only).
 
 **Multiple units — Poor.** Modern per-vehicle-mile maintenance only (diesel £0.80, electric £0.44 at
 2013 prices; Underground, Civity, ScotRail comparators). No purchase price ladder at all.
@@ -55,9 +73,12 @@ Manchester in 1937), the ten-make 1960 lorry price list with a further 129 lorry
 1919-61, and a measured repair series from operator accounts (Edinburgh 1925, Glasgow 1931-34)
 with the purchase price in the same accounts. Maintenance is charged from the measured
 per-kilometre total, split 75 per cent distance-driven to 25 per cent standing; the split is an
-estimate and is recorded as one. Gaps: no 1939-54 bus price ladder worth the name; the
-Commercial Motor cost tables are page images and could not be machine-read; Tilling-Stevens has
-no price in any year. Modern prices (1980-2026) are now measured from 59 tender awards and price
+estimate and is recorded as one. Gaps: no 1939-54 bus price ladder worth the name; Tilling-Stevens has
+no price in any year. The Commercial Motor page-image tables are now transcribed from the scans —
+the complete 1932, 1935 and 1937 chassis-price ladders and the 1933-34 operating-cost tables
+([cost-balancing/research-pricing-report-39](cost-balancing/research-pricing-report-39.md) §6) —
+closing the earlier machine-reading dead end; the 1939-54 bus ladder and the road-test price
+panels remain open. Modern prices (1980-2026) are now measured from 59 tender awards and price
 lists, which show a 40 per cent real rise after 1990 and a battery-electric bus premium of about
 twice the diesel price.
 [vehicle-cost-evidence](vehicle-cost-evidence.md) "Buses, coaches and lorries";
@@ -74,8 +95,14 @@ DLR, West Midlands, Edinburgh's £2.396m settled final account, Blackpool's £2.
 rolling-stock maintenance is anchored on Nottingham 2011: £101m over 23 years for 37 trams,
 £118,657 a tram-year. Historic maintenance remains the Ministry of Transport returns 1913-30
 on a **combined** head that includes permanent way and line electrical equipment, so it is an
-upper bound on car cost. Gaps: nothing measured between 1950 and 1994, and no car-only
-historic maintenance figure from an abstract of accounts.
+upper bound on car cost. The car-only figure is now measured: from 1919-20 the MoT tramway returns
+carry a separate "Cars and other Rolling Stock" head (1923-33: 1.98d to 1.52d per car-mile for
+local authorities, **50-55% of the combined head**), with named municipal rows — see
+[tram-maintenance](vehicle-cost/tram-maintenance.md) and
+[cost-balancing/research-pricing-report-39](cost-balancing/research-pricing-report-39.md) §7. The 1950-94 vehicle gap is accepted as immaterial: almost no
+British trams were built between the 1950s closures and Manchester Metrolink's 1992 opening
+(Blackpool and a few prototypes), so no pakset vehicle's price turns on it.
+`[USER-DIRECTION:2026-11-24]`
 [vehicle-cost/tram-maintenance](vehicle-cost/tram-maintenance.md);
 [cost-balancing/research-pricing-report-35](cost-balancing/research-pricing-report-35.md).
 
@@ -140,9 +167,12 @@ hold 76 price statements, which are being parsed into the register separately.
 Leicester 1877, Leeds 1881, Dewsbury 1881-82, Mills c.1898); a rail-weight materials ladder; whole
 line capital strikingly flat at £20,300-22,400/km 1858-1902 (the single most useful anchor), with the
 1858 component split (6% parliamentary, 18% land, 66% works, 10% rolling stock); maintenance and
-renewal separately documented (relaying 50-60% of new). Gaps: permanent way 1900-1930 and after 1945;
-the capital-to-maintenance target ratio for a bare way is not established (Acworth's 72.7 years is a
-whole railway).
+renewal separately documented (relaying 50-60% of new). Gaps: permanent way 1900-1930 — worth
+researching, but interpolation on general inflation is acceptable if nothing is found; permanent
+way after 1945 — a priority gap, and the series must track inflation and the technology change
+(concrete sleepers, welded rail, changed rail sections) realistically rather than being indexed
+forward from the 1830-1900 flat band. `[USER-DIRECTION:2026-11-24]` The capital-to-maintenance
+target ratio for a bare way is not established (Acworth's 72.7 years is a whole railway).
 
 **Road ways — Good.** Turnpike construction and upkeep 1819-23, Telford/McAdam new roads, 1880
 upkeep, tarmac and tarred slag rates 1906-11, modern asphalt £/m2, motorway 2005 and 2011 (the 2011
@@ -151,8 +181,11 @@ documented. Gap: no road construction cost from before 1950 from a historical so
 
 **Canal ways — Good.** Construction per km by canal class (£1,850-5,560 narrow and barge; £14,750-
 33,000 ship; £272,000 large ship); seven named canals 1724-1905; the itemised Leeds & Liverpool 1776
-estimate; lock prices by class and per foot of fall; routine maintenance £62/km/year. Caution: the
-pakset's canal way object and forge meanings are reversed (conflict 7).
+estimate; lock prices by class and per foot of fall; routine maintenance £62/km/year. Canals are
+deliberately zero-forge and unrenewed: for a canal the forging is the building and it differs by
+canal class, so the formation is folded into the per-class way cost, `forge_cost_water` goes to 0
+at the costing pass, and canal maintenance is upkeep only (decision 2026-11-24; conflict 7
+resolved).
 
 **Tram ways — Fair.** Track laid £600/mile 1911 (excluding electrification); line equipment
 maintenance and renewal £58/km/year 1930-31; a defensible street-reservation forge basis. The
@@ -181,9 +214,11 @@ per unit of berth; no measured dock/pier maintenance account (heuristic 0.8-4% a
 **Signals and signalboxes — Fair.** 1912 post prices by height complete with arm, lamp and wire;
 1909 automatic signal £97-100 an arm; interlocking and lever costs 1873-84; Spetisbury 1901 and
 other named boxes; the 15-20 fold real increase from mechanical to colour light ("the most important
-fact in this domain"); per-route-km signalling £315 mechanical to £5,200 Kent Coast. Unresolved: what
-one signal object represents (a block section, not an arm); the 168 signal objects differ 178x within
-one era and method.
+fact in this domain"); per-route-km signalling £315 mechanical to £5,200 Kent Coast. Settled
+2026-11-24: one signal object is one signal in reality (post with its arms or lamps), and the
+general signalling infrastructure is represented by the signalbox cost. The 168 signal objects
+still differ 178x within one era and method and are to be calibrated to the per-post ladder at
+the costing pass.
 
 **Roadsigns — None.**
 

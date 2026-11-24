@@ -1,6 +1,6 @@
 ---
 status: draft
-verified: New ex-15 @ 8d0603d81
+verified: New ex-15 @ 687347620 (working tree), 2026-11-24
 ---
 # Tram and light rail maintenance costs, British
 
@@ -22,8 +22,9 @@ Two warnings that apply to the whole file:
 - **Tram and trolleybus are different vehicles.** Where a source reports both, the rows say
   which is which. Trolleybus figures are included only where the source itself compares them
   with trams on the same route.
-- **"Maintenance" in the Ministry of Transport returns is a combined head.** It is not car
-  maintenance alone. See the head note to section A1.
+- **"Maintenance" in the Ministry of Transport returns is a combined head** in the comparative
+  per-car-mile table of section A1. The returns' Part II Revenue Account, however, prints "Cars
+  and other Rolling Stock" as a separate expenditure head from 1919-20: see section A4.
 
 ---
 
@@ -126,9 +127,30 @@ figure is offered for it.
 | Year ended 31 March 1925 | West Hartlepool Corporation, trolleybuses (Foggy Furze route) | "general repairs and maintenance ... trolley-buses only aggregated £485 9s. 4d., or 1.26d. per mile" | Same head as the row above. The "per mile" is per vehicle-mile of trolleybus. Track maintenance is absent by construction (no track). | Not stated as a total; the 1.26d. is per mile | As above | Primary |
 | 1923 | Ashton-under-Lyme, existing tramcars, as stated by the tramways manager | "with the ordinary cars the authorities are compelled to pay about 2d. per car-mile for the permanent way" | This is the permanent-way component **within** repairs and maintenance, stated as an approximation ("about"). The same passage states that repairs and maintenance as a whole showed "a slight saving in favour of the trackless system amounting to about 1d. per car-mile". The comparison vehicle in the same passage is a trolleybus. | Per car-mile; the undertaking's car-mileage is not stated | "Ashton Adopts Trolley-Buses", *The Commercial Motor*, 3 July 1923, p. 40. https://archive.commercialmotor.com/article/3rd-july-1923/40/ashton-adopts-trolley-buses | Primary (officer's estimate, reported) |
 
-No figure was found in this period for a named municipal tramway's **car-only** repairs and
-maintenance per car-mile. The published statutory returns combine the head (A1), and the trade
-press reports of municipal accounts that were checked also combine it or quote only the total.
+The named municipal car-only figures are now recovered from the returns themselves — see A4.
+
+### A4. Car-only maintenance from the statutory returns, 1919-20 to 1932-33
+
+From 1919-20 the returns' Part II Revenue Account prints "General Repairs and Maintenance (or
+Renewals out of Revenue)" analysed into **Permanent Way | Electrical Equipment | Engines or Horses
+| Cars and other Rolling Stock | Buildings, Fixtures, Tools and Miscellaneous** (1924-25 onward:
+*Permanent Way | Electrical Equipment of Line | Cars and Equipment of Cars | Miscellaneous*). The
+sub-columns sum exactly to the printed maintenance total in every year checked. Coverage: repairs
+and renewals charged to revenue of cars and their equipment only; 1919-20/1920-21 are UK scope,
+1922-23 onward GB.
+
+**Car-only is 50-55% of the combined head** over 1923-33, rising slowly as the permanent-way share
+falls. Local-authority series, per car-mile (computed £×240 ÷ car-miles): 1923-24 **1.98d** ·
+1924-25 1.84d · 1925-26 1.76d · 1926-27 1.71d · 1927-28 1.65d · 1928-29 1.63d · 1929-30 1.60d ·
+1930-31 1.60d · 1932-33 1.52d. Companies 2.39d (1923-24) falling to 1.51d (1930-31). National
+car-only totals (LA): £2,458,932 (1923-24) falling to £1,928,948 (1932-33); 1920-21 UK £3,420,280
+LA + £972,543 companies. Named municipal car-only totals 1923-24 (Part IIA): LCC £568,948 ·
+Liverpool £222,409 · Glasgow £159,769 · Manchester £150,467 · Birmingham £111,713 · Sheffield
+£85,521 · Leeds £71,699 · Blackpool £23,511 (full list and the per-year component tables:
+[cost-balancing/research-pricing-report-39](../cost-balancing/research-pricing-report-39.md) §7.1).
+Pair the Part II "Cars" column with the undertaking's Part IV car-miles for per-car-mile figures.
+`[LITERATURE: MoT Returns ... Tramways and Light Railways, archive.org railways00566412/14,
+railways00590412/13, railways00609099-9135, railways1675821-1001; 1930-31 via ekeving.se 0-11.pdf]`
 
 ---
 
@@ -248,10 +270,11 @@ maintenance unit cost was above it.
 
 ### Gaps this file does not close
 
-- **No car-only historical maintenance figure.** The statutory returns combine the head, and the
-  municipal accounts that were checked either combine it or report only totals. A car-only
-  figure needs a corporation's own abstract of accounts, where "repairs and maintenance of cars"
-  is a separate line, or an engineering paper that tabulates car maintenance separately.
+- **The car-only historical maintenance figure is now measured** (section A4): the returns' own
+  "Cars and other Rolling Stock" head, 1919-20 to 1932-33, at 50-55% of the combined head.
+  Remaining: the 1931-32 and 1933-39 splits (one row each in the returns' Abstract of Totals; the
+  volumes are not online), per-undertaking per-car-mile figures (mechanical: pair the Part II
+  "Cars" column with Part IV car-miles), and whether the pre-1919 returns separate cars at all.
 - **No modern per-vehicle-km maintenance figure stated as such.** Supertram gives £ totals;
   DfT gives vehicle miles; nobody found states the ratio. The ratio has to be computed, with the
   caveats above.
@@ -267,15 +290,13 @@ maintenance unit cost was above it.
    They would extend the per-car-mile series back through the electric-tramway conversion and
    give the horse and steam years on the same definition. The 1922-23 volume in particular would
    fill the missing local-authorities row.
-2. **The detailed accounts in the same returns**, which do print "permanent way", "electrical
-   equipment of line" and "cars and equipment of cars" as separate columns. A careful reading of
-   the printed page (not the OCR) would give a car-only maintenance total for 1930-31 and
-   possibly for other years. The digitised copy at ekeving.se is a page image with an OCR layer
-   that misaligns the columns; the printed page needs to be read.
+2. **The returns' Abstract of Totals for 1931-32 and 1933-39** (BPP via ProQuest UK Parliamentary
+   Papers or a legal deposit library; the volumes are not on archive.org): one row each gives the
+   national car-only split for those years.
 3. **Municipal abstracts of accounts** for Manchester, Birmingham, Glasgow, Liverpool, Leeds,
-   Sheffield, Bradford, Edinburgh and Belfast. These are the route to a car-only head. They are
-   not on archive.org as a rule and would need the corporation's own annual abstract or a local
-   studies collection.
+   Sheffield, Bradford, Edinburgh and Belfast. A4 supersedes them for 1919-33; their remaining
+   value is the pre-1914 years and cross-checking. They are not on archive.org as a rule and would
+   need the corporation's own annual abstract or a local studies collection.
 4. **The Tramway and Railway World volumes 1913-1930** (archive.org identifiers `trawo-33` to
    `trawo-68`), which reported municipal accounts in detail and may carry the car-only head in
    their annual statistical issues. The text files for several volumes were not retrievable in

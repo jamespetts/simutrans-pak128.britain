@@ -1,6 +1,6 @@
 ---
 status: draft
-verified: New ex-15 @ 8d0603d81
+verified: New ex-15 @ 687347620 (working tree), 2026-11-24
 ---
 # Fuel evidence
 
@@ -16,6 +16,7 @@ type, and a battery or fuel-cell vehicle buys electricity divided by its round-t
 | Document | Read when | Contents |
 |---|---|---|
 | [fuel/coal](fuel/coal.md) | you need a coal or town gas price | northeast pithead decade averages from the 1700s, district prices for 1860, pithead proceeds 1913-1944, bunker and shipment coal, delivered industrial coal 1993-2025 |
+| [fuel/coke](fuel/coke.md) | you need a coke price, or are pricing a coke-burning tramway or railway | gas coke and furnace/foundry coke by decade 1846-2026 with the basis of each figure, the 1.5-2.5x coke:coal ratio, and the grade rule |
 | [fuel/oil-and-power](fuel/oil-and-power.md) | you need an oil, petrol, electricity or aviation price | gas oil, derv, industrial gas oil, petrol, industrial electricity, marine bunkers, aviation fuel, with the duty position stated |
 
 ## The long coal series

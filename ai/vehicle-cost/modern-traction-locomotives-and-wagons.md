@@ -1,6 +1,6 @@
 ---
 status: draft
-verified: New ex-15 @ 8d0603d81
+verified: New ex-15 @ 687347620 (working tree), 2026-11-24
 ---
 # Modern traction maintenance: locomotives and wagons
 
@@ -219,32 +219,36 @@ tranche from the level 1-3 rate per car-year and the unscheduled tranche from a 
 a repair cost. Neither input is published for British main-line vehicles. Anyone who quotes a
 percentage split for UK traction is quoting an assumption, not a measurement.
 
-### The best route to a per-wagon-year figure
+### The per-wagon-year figure: solved 2026-11-24
 
-In order of likelihood of success:
+**Hill 1895, Appendix II Table III** ("Cost of wagon maintenance per vehicle", pp. 242-243; note
+that Table I is locomotives and Table II is carriages) gives the figure for nineteen companies,
+five years ending June 1892, covering "maintenance, that is the cost of repairs and renewals":
+**average £4 4s. per wagon-year**, range £2 4s. (L&NWR, 55,126 mostly-mineral wagons) to £6 10s.
+(LCDR, 2,045 wagons). Low-utilisation large fleets (Caledonian, NBR, L&NWR) sit at £2-2 12s.;
+small intensively-worked fleets (LCDR, LSWR) at £6-6 10s. Read from the page images of Internet
+Archive `minutesproceedi43britgoog`, 2026-11-24; the full attributed table is in
+[published-maintenance](published-maintenance.md) §2. The GER half-yearly series (Table IV) gives
+wages and materials separately. The 20th-century substitute is a 1929 private-owner repair
+contract at £5 per wagon-year (Essex Archives D/F 27/2/108).
 
-1. **Railway Returns, "repairs and renewals of wagons" divided by wagons in stock.** Both numbers
-   are in the same annual return for each company, so the ratio needs no external denominator and
-   no assumption about mileage. The return is a Parliamentary Paper, company by company, annually
-   from the 1850s to 1912 and continued by the Ministry of Transport afterwards. Two cautions are
-   established above: before 1911 the line includes complete renewals, and the carriage/wagon split
-   was made half-yearly by the superintendent. The figure obtained is therefore "maintenance" in
-   Hill's sense (repairs plus renewals), not repairs alone.
-2. **Hill 1895, Appendix II Table I, wagon column.** The same data already compiled for nineteen
-   companies over five years ending June 1892, in the same table that yields the per-carriage and
-   per-engine figures already in the evidence base. The wagon column is present but unreadable in
-   the digitised text; a better scan or the printed volume would fill the largest single gap in the
-   whole series at one stroke, and would give a per-wagon-year figure for nineteen companies
-   simultaneously.
+The routes, as now settled:
+
+1. **Railway Returns, "repairs and renewals of wagons" divided by wagons in stock.** Settled
+   2026-11-24: the pre-1911 published returns carry no wagon-only money line at all — only a
+   combined "Repairs and Renewals of Carriages and Waggons" — so this is a structural absence,
+   not an OCR problem. The post-1911 Ministry of Transport returns do separate "Complete renewals
+   (wagons)" and "Repairs and partial renewals (wagons)", so a 1912+ series is realistic from
+   those volumes, but they are HathiTrust/print only.
+2. **Hill 1895, Appendix II Table III** — solved, see above.
 3. **The private-owner repair contract.** Gloucester Railway Carriage & Wagon sold private-owner
    wagons on seven-year deferred payment with a repair contract attached, and Wagon Repairs Ltd
    took over such contracts from 1918 (for example 482 ICI wagons transferred from Gloucester in
-   1934-36). A contract of that kind is a fixed annual sum per wagon and is exactly the quantity
-   wanted. The rates are in the builders' and repairers' records, not in print: the Gloucester
-   RCW archive, the Charles Roberts archive, and The National Archives' RAIL series. The Railway
-   Clearing House archives (Chasewater Railway Museum catalogue) include "Private Wagons Stopped
-   for Repairs" (1926) and "Re. Repairs to Wagons" (1943), which would show the volume of work even
-   if not the price.
+   1934-36). One measured rate exists (Colchester Gas Company 1929, £5 per wagon-year, Essex
+   Archives D/F 27/2/108). Further rates are in undigitised archives: Gloucester RCW, Charles
+   Roberts, TNA RAIL, Oxfordshire History Centre B8/A5, and the Railway Clearing House papers at
+   Chasewater ("Private Wagons Stopped for Repairs" 1926; "Re. Repairs to Wagons" 1943) — a
+   reading-room or archive-enquiry route. No measured wagon overhaul price exists in any era.
 4. **Board of Trade and Railway Clearing House returns.** The RCH administered the pooling of
    repair work and the commuted charges; its published schedules give prices per job rather than
    per year, so they are a means of building a per-year figure bottom-up from a repair frequency,
@@ -262,8 +266,9 @@ In order of likelihood of success:
   could not be re-fetched because the host refused connections throughout this session.
 - **No Class 67, 70, 90 or 92 maintenance figure.** Classes 90 and 92 are electric freight
   locomotives with no published cost data at all.
-- **No per-wagon-year figure for any period.** The method is established; the arithmetic has not
-  been done because the source volumes were not reachable in this session.
+- **The per-wagon-year figure is solved for 1887-92** (Hill Table III; see above). Remaining: no
+  20th-century figure (post-1911 MoT returns, library route) and no wagon overhaul price in any
+  era (archival repair invoices only).
 - **No money split between scheduled and unscheduled maintenance for any British vehicle.**
 - **No ROSCO maintenance-reserve figures**, although the Competition Commission's 2009 transparency
   order requires ROSCOs to disclose "maintenance reserve charges and estimated opening and closing

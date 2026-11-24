@@ -56,6 +56,13 @@ corrected rate `wssr` capital is **£218 a km**, six to nine times below the mea
 while its maintenance is **£52 a km a year** (550 × 0.00792622 × 12), which sits just inside the
 measured £44-334 range rather than below it; `wssri_intermediate` capital is **£416**.
 
+**Caution on the BR 1966 £44/km-year anchor** `[UNVERIFIED]`: its provenance is not traced. The
+measured BR working-expense heads (1958 "Maintenance of Way and Structures" £80.3m; 1961 £85.4m
+over 34,150 running track-miles = £1,553 a track-km-year nominal) imply roughly £300-350 a
+track-km-year at 1900 prices on the combined head, so the £44 anchor is low by close to an order
+of magnitude unless its scope is routine length-gang upkeep alone. Re-derive it before the
+post-1945 series is built on it (research pass 39, permanent way).
+
 ## 3. Decision tables
 
 "Now" is the current `.dat` value; every recommended value is 100 times the pre-correction draft's.
@@ -158,8 +165,9 @@ bridges. If the pakset later charges them, the defensible low-bridge range is 13
 tall-viaduct range 50-65%. [LITERATURE: research pass 13 §6; Tower Bridge contract list, Humber
 worked example, Maynard 1868]
 
-`forge_cost_water`: **25,000 → 100,000** (or 50,000 if `way + forge` must equal the anchor exactly).
-At 25,000 it charges £99/km, more than a narrow canal's way cost (£59/km).
+**Canal forge, decided 2026-11-24: `forge_cost_water` → 0, formation folded into the way cost
+(§4.5).** The canal rows above already come from measured whole-channel construction, so they
+stand unchanged; the earlier 100,000-or-50,000 choice is superseded.
 
 ### 3.5 Stations, platforms, shelters, depots
 
@@ -252,6 +260,22 @@ Nothing has been applied to any `.dat` file.
   formation are in the forge, and the second road of a dual carriageway takes the 50% discount.
 - **4.4 Renewals belong in the revenue account**, not in capital; the game books them as capital,
   which needs an engine change and affects every earlier cost-to-revenue ratio. `[CODE 96cff9eed]`
+- **4.5 Canals: zero forge, zero renewal (2026-11-24).** For canals and canals alone the forge is
+  0: for a canal there is no way surface — the forging is the building — and the formation differs
+  dramatically by canal class (ship canal against tub-boat canal), so one `forge_cost_water`
+  setting cannot carry it. What would otherwise be the forge cost is folded into the per-class way
+  cost, which already comes from measured whole-channel construction (the Leeds & Liverpool 1776
+  estimate puts cutting, puddling and banks inside construction), so the §3.4 rows stand
+  unchanged. Canal ways carry no wear and are not renewed, so the folded formation is paid once;
+  the 75% parallel-ways forge discount therefore no longer applies to canals. `forge_cost_water`
+  goes to 0 at the costing pass, superseding the 125,000 applied on 2026-11-22.
+  `[USER-DIRECTION:2026-11-24]`
+- **4.6 One signal object is one signal (2026-11-24).** A signal object represents one signal in
+  reality — one post with its arms or lamps, mechanism and share of the wires — and the general
+  signalling infrastructure (block instruments, interlocking, track circuits, control) is
+  represented by the signalbox cost. The 168 signal objects, whose costs differ 178x within one
+  era and method (§6), are to be calibrated to the per-post ladder (1912 prices by height) at the
+  costing pass. `[USER-DIRECTION:2026-11-24]`
 
 ## 5. Forge costs by way type
 
@@ -263,24 +287,25 @@ Values are 1900 pounds per **route** kilometre; the setting is the pound figure 
 | narrow gauge | 10,000 | **76,000-114,000** | £250-450/km typical, £500-620/km for a Festiniog-type mountain line; terrain-dominated, not gauge-dominated |
 | road | 7,500 | **250,000-380,000** | turnpike and macadam formation £50-250/km, modern asphalt roadbed £2,000-8,000/km. One value cannot fit both eras; the recommendation favours the early road |
 | tram | 5,000 | **150,000-300,000** | £600-1,200/km, a street reservation sharing the road formation, so trench and concrete bed only |
-| water | 25,000 | **300,000-450,000**, or 125,000 | see the definitional note below |
+| water | 25,000 | **0** | canals: formation folded into the way cost (§4.5, 2026-11-24) |
 | air | 22,500 | **1,500,000-2,250,000** | £6,000-9,000/km formation, 30-40% of the pavement cost; the present value is 67 to 100 times below the range |
 | monorail | 20,000 | **90,000-125,000** if a ground formation | no British historical basis |
 | maglev | 20,000 | **90,000-125,000** if a ground formation | if these are elevated guideways the forge belongs with pier foundations instead |
 
-**The canal definitional flag.** The formation — cut, drainage, fencing, land clearance — is large at
-£1,200-2,200/km; re-puddling is small. Section 4.1 puts the formation in the forge, yet the pakset puts
-the whole channel in the way object: either the water forge rises to 300,000-450,000, or stays at 125,000.
+**Canal formation, resolved 2026-11-24.** The formation — cut, drainage, fencing, land clearance —
+is large at £1,200-2,200/km; re-puddling is small. Section 4.1 put the formation in the forge
+while the pakset put the whole channel in the way object; §4.5 resolves it the second way for
+canals: the formation is in the way cost and the canal forge is 0.
 
-**Parallel ways.** Track 35%, road 50%, water 75% and air 85% hold on the marginal cost of a second way; tram does not, at nearer 40% than 85%.
+**Parallel ways.** Track 35%, road 50%, water 75% and air 85% hold on the marginal cost of a second way; tram does not, at nearer 40% than 85%. The water percentage is moot for canals now that the canal forge is 0 (§4.5).
 
 **Definitional choice, 2026-11-22.** Heavy earthworks are **excluded** from the forge by user
 direction: cuttings and embankments are made with the raise/lower land tool, not the forge. The
 forge is bed preparation only, which is the £250-400/km band behind the track recommendation (the
 1840 Midland Counties heavy earthworks were about £3,200/km, matching the L&M figure, and are not
 in the forge). The recommended settings were applied on 2026-11-22 as the midpoints of the ranges
-above: track 88,000, narrow gauge 95,000, road 315,000, tram 225,000, water 125,000, air
-1,875,000, monorail and maglev 108,000. `[USER-DIRECTION:2026-11-22]`
+above: track 88,000, narrow gauge 95,000, road 315,000, tram 225,000, water 125,000 (superseded
+2026-11-24 by §4.5: water → 0), air 1,875,000, monorail and maglev 108,000. `[USER-DIRECTION:2026-11-22]`
 `[LITERATURE:research-pricing-report-3.md §4.5]`
 
 ## 6. Defects found in passing
@@ -299,7 +324,8 @@ above: track 88,000, narrow gauge 95,000, road 315,000, tram 225,000, water 125,
 
 | Gap | Suggested heuristic |
 |---|---|
-| Permanent-way cost 1900-1930 and after 1945 | Interpolate between the measured 1898, 1966 and 2000 anchors; treat the 1922 rail contract as a component check |
+| Permanent-way cost 1900-1930 | Research if possible; if nothing is found, interpolate on general inflation (user direction 2026-11-24). The 1922 rail contract is a component check |
+| Permanent-way cost after 1945 | Priority gap (user direction 2026-11-24): must track inflation and the technology change (concrete sleepers, welded rail) realistically; research in progress |
 | Earthworks per km for a stated cross-section | Use the measured 9d-1s 3d per cubic yard and a stated depth; the L&M's £3,284/km is the heavy-grading check |
 | Straight-sided retaining walls, modern | Use the Victorian £0.70-1.70/m² of wall face and scale by wall height |
 | Structure maintenance by type where no account exists | Apply the measured relativities: brick 0.5× plain line, iron 1.2-1.5×, timber 7-8×, tunnel 1.5-2.5× |
@@ -364,6 +390,6 @@ currently charge, and it may account for part of the balance gap in section 8.
 ## 10. What I would do first
 
 1. **The maintenance rule**, across every family.
-2. **`forge_cost_track` and `forge_cost_water`**, both an order of magnitude too **low** now.
+2. **`forge_cost_track`** (water is settled: 0 for canals, §4.5).
 3. **The masonry and brick structures**, five times too low, then the free shelters and depots.
-4. **Signals**, once a signal object's meaning is settled.
+4. **Signals**, the meaning now settled (§4.6): calibrate the 168 objects to the per-post ladder.
