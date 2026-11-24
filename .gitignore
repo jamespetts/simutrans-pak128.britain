@@ -24,3 +24,4 @@ makeobj-extended
 makeobj-extended*
 *db-wal
 *db-shm
+/ai/temp/
