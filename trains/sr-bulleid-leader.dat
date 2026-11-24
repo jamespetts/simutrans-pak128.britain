@@ -6,7 +6,7 @@ speed=140
 # Extrapolated
 power=512
 # Fuel: 11480 g of bituminous per km at calibration speed (maximum output).
-# Steam-physics-calcs.ods "Extrapolation", row for SR-Bulleid-Leader.
+# Derived: own 25.5 sq ft grate at the 1949 burn rate. No row in Steam-physics-calcs.ods.
 fuel_per_km=11480
 calibration_speed=140
 tractive_effort=117

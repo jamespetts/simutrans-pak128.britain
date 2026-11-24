@@ -39,6 +39,14 @@ that class**, and **coal per kilometre = that hourly rate ÷ the speed it was me
 efficiency column is mostly derived from the power, and where the efficiency is the input the power
 is derived from it. `[CODE New ex-15 working tree @ 6d28e20d5]`
 
+The sheet carries a sixth tab, `Applied`, added when the figures were entered in the `.dat` files. It
+has one row per powered steam rail object — 390 of them — giving the object and its file, the coal
+type, the `Extrapolation` row it comes from, that row's grate area and kg/km, the calibration speed,
+the applied `fuel_per_km` and the applied `range`. Twenty-four objects differ from the sheet's own
+kg/km by more than 1 per cent: the eighteen whose cached value is stale against the sheet's own
+formula, and the six tram engines. The `Extrapolation` sheet is deliberately left as it was, so that
+the difference stays visible.
+
 ## Coal types
 
 The sheet assigns a calorific value per row from its own `Theoretical figures` sheet, which cites
@@ -82,6 +90,10 @@ Three defects in the sheet had to be worked around before its numbers could be u
 - **Three classes have no row at all**: the Southern Railway Leader, and the two LNER steam railmotors
   of 1924 and 1928. The Leader is derived from its own 25.5 sq ft grate at the 1949 burn rate; the
   railmotors from their power at 5.6 per cent efficiency.
+- **One object was matched to the wrong row.** `LMS-2P` is the 1928 Class 2P 4-4-0, and its 140 km/h
+  top speed matches the sheet's `LMS 2P` row. The first automated match took `LMS 2P Tank` instead,
+  because the pakset's `power` of 228 kW happens to equal that row's 228. It now takes the 4-4-0 row:
+  13.32 kg/km rather than 11.46, and a 308 km coal range rather than 266.
 
 ## Calibration
 
@@ -168,7 +180,12 @@ owned by [fuel-evidence](../fuel-evidence.md):
 ## Open questions
 
 - Should the sheet's 18 stale cached values be fixed in the spreadsheet itself, so that the paper and
-  the `.dat` files agree? The `.dat` files now hold the formula values.
+  the `.dat` files agree? The `.dat` files now hold the formula values, and the `Applied` tab records
+  them beside the sheet's own figures.
+- Where the pakset's top speed differs from the sheet's, the applied hourly rate shifts by the ratio,
+  although the per-kilometre figure is kept. Thirteen objects differ by more than 2 per cent; eleven
+  by under 10, and the LSWR T14 by 34, where the pakset's 95 km/h looks low for a locomotive capable of
+  about 80 mph. Which of the two speeds is wrong has not been established.
 - The sheet's power column for the 1941-1957 classes is 20 per cent low as a direct consequence of
   the 6.784 calorific value. Correcting it would raise the `power` of 27 classes and change their
   acceleration; that is a physics change outside this work.

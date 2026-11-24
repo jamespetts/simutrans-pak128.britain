@@ -9,7 +9,7 @@ smoke=Steam
 power=221
 # Guessed
 # Fuel: 10570 g of bituminous per km at calibration speed (maximum output).
-# Steam-physics-calcs.ods "Extrapolation", row for lner-steam-railmotor-1928.
+# Derived: power at 5.6 per cent efficiency. No row in Steam-physics-calcs.ods.
 fuel_per_km=10570
 calibration_speed=92
 tractive_effort=74
