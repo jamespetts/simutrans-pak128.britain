@@ -8,9 +8,9 @@ speed=135
 # Extrapolated
 power=274
 # Tractive effort from Wikipedia: http://en.wikipedia.org/wiki/LNWR_Renown_Class
-# Fuel: 12440 g of Welsh steam coal per km at calibration speed (maximum output).
+# Fuel: 9220 g of Welsh steam coal per km at calibration speed (maximum output).
 # Steam-physics-calcs.ods "Extrapolation", row for LNWR Renown Class.
-fuel_per_km=12440
+fuel_per_km=9220
 calibration_speed=135
 tractive_effort=73
 copyright=James/jamespetts

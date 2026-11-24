@@ -9,11 +9,11 @@ speed=127
 power=229
 # Calculated using figures from:https://en.wikipedia.org/wiki/GWR_3252_Class
 # Loss factor set to 0.8.
-# Fuel: 9100 g of Welsh steam coal per km at calibration speed (maximum output).
-# Steam-physics-calcs.ods "Extrapolation", row for GWR 3252 'Duke' Class; coal range at full bunker about 502 km.
-fuel_per_km=9100
+# Fuel: 8600 g of Welsh steam coal per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for GWR 3252 'Duke' Class; coal range at full bunker about 531 km.
+fuel_per_km=8600
 calibration_speed=127
-range=502
+range=531
 tractive_effort=71
 copyright=James/JamesPetts
 intro_year=1895

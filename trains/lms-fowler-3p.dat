@@ -5,11 +5,11 @@ smoke=Steam
 speed=110
 # Extrapolated
 power=262
-# Fuel: 11430 g of bituminous per km at calibration speed (maximum output).
-# Steam-physics-calcs.ods "Extrapolation", row for LMS Fowler 3P; coal range at full bunker about 262 km.
-fuel_per_km=11430
+# Fuel: 10390 g of bituminous per km at calibration speed (maximum output).
+# Steam-physics-calcs.ods "Extrapolation", row for LMS Fowler 3P; coal range at full bunker about 289 km.
+fuel_per_km=10390
 calibration_speed=110
-range=262
+range=289
 tractive_effort=98
 copyright=Kieron/JamesPetts
 intro_year=1930

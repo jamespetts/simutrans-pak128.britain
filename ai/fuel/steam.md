@@ -42,10 +42,10 @@ is derived from it. `[CODE New ex-15 working tree @ 6d28e20d5]`
 The sheet carries a sixth tab, `Applied`, added when the figures were entered in the `.dat` files. It
 has one row per powered steam rail object — 390 of them — giving the object and its file, the coal
 type, the `Extrapolation` row it comes from, that row's grate area and kg/km, the calibration speed,
-the applied `fuel_per_km` and the applied `range`. Twenty-four objects differ from the sheet's own
-kg/km by more than 1 per cent: the eighteen whose cached value is stale against the sheet's own
-formula, and the six tram engines. The `Extrapolation` sheet is deliberately left as it was, so that
-the difference stays visible.
+the applied `fuel_per_km` and the applied `range`. Twenty-three objects differ from the sheet's own
+kg/km by more than 1 per cent: the seventeen whose cached value is stale against the sheet's own
+formula, and the six tram engines. The `Extrapolation` sheet is otherwise left as it was, so that the
+difference stays visible.
 
 ## Coal types
 
@@ -94,6 +94,20 @@ Three defects in the sheet had to be worked around before its numbers could be u
   top speed matches the sheet's `LMS 2P` row. The first automated match took `LMS 2P Tank` instead,
   because the pakset's `power` of 228 kW happens to equal that row's 228. It now takes the 4-4-0 row:
   13.32 kg/km rather than 11.46, and a 308 km coal range rather than 266.
+- **The sheet's maximum speeds have been reconciled to the pakset.** The pakset is authoritative for
+  what a vehicle can do, so eleven rows whose sheet speed disagreed were reset to the pakset's, and
+  their calibration speed, kg/km, hourly rate and range recomputed; the objects that use them were
+  re-derived to match. The largest change is the **LSWR T14**, an unsuccessful 4-6-0 that could not
+  reach its intended speed: 143 km/h became 95, so its coal rose from 14.54 to 21.88 kg/km and its
+  coal range fell from 351 to 233 km. The others are 2 to 10 per cent, except the LNWR Renown, which
+  gained 35 km/h and shed 26 per cent of its coal per kilometre.
+
+  Five rows were left alone because the objects sharing them disagree: `LBSCR B2x Class` (132
+  against objects at 100 and 132), `LMS 3P Tank (Stanier)` (100 against 100 and 110), `LNER A1 Class`
+  (155 against 155 and 160), `LNER A4 Class` (160 against 160 and 175) and `LNWR Problem` (117
+  against 95 and 117). In each the sheet already matches one of the objects, and the other is a
+  pakset inconsistency to correct rather than a sheet error to copy. Two of them, `LBSCR C2x` and
+  `LNWR 5ft 6in tank`, also look like wrong row assignments.
 
 ## Calibration
 
@@ -117,12 +131,12 @@ the decade the class was introduced:
 | Introduced | Classes | Median | Lowest | Highest |
 |---|---|---|---|---|
 | 1800-1819 | 3 | 16000 | 6300 | 17540 |
-| 1820-1839 | 16 | 9325 | 4930 | 19280 |
+| 1820-1839 | 16 | 9325 | 4930 | 17330 |
 | 1840-1859 | 37 | 8790 | 5980 | 17590 |
-| 1860-1879 | 68 | 9410 | 1590 | 20540 |
-| 1880-1899 | 66 | 9975 | 1720 | 17790 |
-| 1900-1919 | 94 | 11730 | 4530 | 19100 |
-| 1920-1939 | 78 | 13005 | 6150 | 33930 |
+| 1860-1879 | 68 | 9410 | 1600 | 20540 |
+| 1880-1899 | 66 | 9975 | 1780 | 17790 |
+| 1900-1919 | 94 | 11720 | 4530 | 21880 |
+| 1920-1939 | 78 | 13040 | 6150 | 33930 |
 | 1940-1959 | 28 | 13520 | 8350 | 23020 |
 
 Named classes, in grammes of coal per kilometre: LMR Rocket 5500, GNR Stirling 8 ft single 7660, GWR
@@ -182,10 +196,11 @@ owned by [fuel-evidence](../fuel-evidence.md):
 - Should the sheet's 18 stale cached values be fixed in the spreadsheet itself, so that the paper and
   the `.dat` files agree? The `.dat` files now hold the formula values, and the `Applied` tab records
   them beside the sheet's own figures.
-- Where the pakset's top speed differs from the sheet's, the applied hourly rate shifts by the ratio,
-  although the per-kilometre figure is kept. Thirteen objects differ by more than 2 per cent; eleven
-  by under 10, and the LSWR T14 by 34, where the pakset's 95 km/h looks low for a locomotive capable of
-  about 80 mph. Which of the two speeds is wrong has not been established.
+- Five sheet rows are shared by pakset objects that disagree about the top speed; the list is above.
+  Until those objects are corrected, the sheet carries one of the two.
+- `LBSCR C2x` and `LNWR 5ft 6in tank` appear to use another class's row. The pakset's `power` matched
+  the row, but the classes differ; they want re-checking against the sheet by name rather than by
+  power.
 - The sheet's power column for the 1941-1957 classes is 20 per cent low as a direct consequence of
   the 6.784 calorific value. Correcting it would raise the `power` of 27 classes and change their
   acceleration; that is a physics change outside this work.

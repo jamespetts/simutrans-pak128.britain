@@ -6,9 +6,9 @@ smoke=Steam
 speed=40
 # Extrapolated from estimated values
 power=30
-# Fuel: 19280 g of coke per km at calibration speed (maximum output).
+# Fuel: 14460 g of coke per km at calibration speed (maximum output).
 # Steam-physics-calcs.ods "Extrapolation", row for SDR Wilberforce.
-fuel_per_km=19280
+fuel_per_km=14460
 calibration_speed=40
 tractive_effort=9
 copyright=Kieron/JamesPetts

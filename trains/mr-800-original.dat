@@ -7,9 +7,9 @@ speed=125
 # Loss factor set at 0.76 
 tractive_effort=42
 power=184
-# Fuel: 7130 g of bituminous per km at calibration speed (maximum output).
+# Fuel: 8550 g of bituminous per km at calibration speed (maximum output).
 # Steam-physics-calcs.ods "Extrapolation", row for MR 800 Class (original).
-fuel_per_km=7130
+fuel_per_km=8550
 calibration_speed=125
 copyright=Kieron/JamesPetts
 intro_year=1870
