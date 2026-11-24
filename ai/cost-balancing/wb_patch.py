@@ -51,6 +51,9 @@ README_MAINT = [
     'complete and the sheets hold the final figures (user direction 2026-11-24).',
     'CANALS: canal ways carry no wear and are not renewed, so their maintenance is upkeep',
     'only and carries no renewal element (decision 2026-11-24).',
+    'SIGNALS: one signal object is one signal in reality (post with its arms or lamps); the',
+    'general signalling infrastructure is represented by the signalbox cost (decision',
+    '2026-11-24).',
 ]
 
 MARK = 'decision 2026-11-24'

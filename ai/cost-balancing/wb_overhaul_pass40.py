@@ -174,6 +174,19 @@ def classify(name, dat, basis, profile, year):
     if (re.search(r'tender', dat, re.I) or re.search(r'tender', name, re.I)) and \
             dat.startswith(('trains/', 'london-underground/', 'narrowgauge/')):
         return 'steam'
+    # Sailing craft (guarded to the boats folder): inshore/coastal versus deep-sea by name.
+    if dat.startswith('boats/') and \
+            re.search(r'sail|brig|schooner|wherry|smack|ketch|yawl|cutter|barque|brigantine|'
+                      r'spritsail|yacht|windjammer|clipper|frigate|ship-rigged', name + ' ' + dat, re.I) and \
+            not re.search(r'paddle|steam|motor|diesel|tug|with sail', name, re.I):
+        if re.search(r'windjammer|clipper|frigate|barque|ship-rigged', name + ' ' + dat, re.I):
+            return 'sailing-deep'
+        return 'sailing-inshore'
+    # The Comet 1 is a special case: its airframe was written off by pressurisation-cycle
+    # fatigue, so its overhaul is replacement at 100% of the purchase price (user direction
+    # 2026-11-24). The Comet 4 family must NOT take this rule.
+    if 'dh-comet-1' in dat or re.search(r'\bcomet 1\b', name, re.I):
+        return 'comet1'
     # Rows already carrying a pass-40 basis classify from its prefix (the profile string is gone).
     for prefix, k in (('steam (pass 40', 'steam'), ('diesel/electric (pass 40', 'diesel'),
                       ('MU ', 'mu'), ('carriage', 'carriage'), ('wagon (pass 40', 'wagon'),
@@ -183,9 +196,24 @@ def classify(name, dat, basis, profile, year):
             return k
     # Non-rail profiles resolve first: their names contain rail-like words ("3-ton", "van").
     for p, k in (('bus', 'bus'), ('lorry', 'lorry'), ('tram', 'tram'),
-                 ('ship', 'ship'), ('aircraft', 'aircraft'), ('horse', None)):
+                 ('ship', 'ship'), ('aircraft', 'aircraft')):
         if profile == p:
             return k
+    # The old "horse profile" bucket held three populations: the animals, horse-drawn vehicles,
+    # and (misclassified) motor trailers and articulated bus sections. Horses and horse vehicles
+    # wear out and take overhauls (user direction 2026-11-24): a horse's overhaul is the
+    # replacement at the end of its working life.
+    if profile == 'horse':
+        if re.search(r'trailer', name, re.I):
+            return 'trailer'
+        if '(rear)' in name.lower():
+            return 'bus'
+        if 'mechanical horse' in name.lower():
+            return 'lorry'
+        if re.search(r'horse', name, re.I) and (dat.startswith('bus/horse-')
+                                               or 'pack-horse' in dat or 'pack horse' in name.lower()):
+            return 'horse-animal'
+        return 'horse-vehicle'
     # Rail-family rows: wagons and MUs are distinguished by name within the loco/carriage profiles.
     if profile in ('carriage', 'locomotive', 'locomotive-steam', 'multiple-unit'):
         if WAGON_RE.search(name) or WAGON_RE.search(dat):
@@ -261,6 +289,25 @@ def main():
                    '(k-dependent); events 12% -> 20%, 3 rungs (composed from 7-yr repair contracts, 4-6-yr POH analogue, '
                    'reconciled with measured £5-£5 8s 6d/wagon-yr contracts). The annual light works visit (NER 1892: '
                    '0.95/wagon-yr) belongs to routine cost. Direction: RCH per-job schedules; a wagon overhaul invoice.')
+        elif kind == 'horse-animal':
+            q, first, mx, p, downtime = 70000, 1.0, 1.0, 1, 0.1
+            tag = ('horse (pass 40): the overhaul is the replacement of the horse at the end of its '
+                   'working life (user direction 2026-11-24). Measured renewal cadence: the Leeds '
+                   'tramway horses were renewed about once every 7 years at a cost equal to the '
+                   'purchase price (1894-5 accounts, forum 6521 #116); 7 yr = 70,000 km at an '
+                   'assumed 10,000 km/yr (k-dependent). Keep is the routine cost and carries no '
+                   'renewal element.')
+        elif kind == 'horse-vehicle':
+            q, first, mx, p, downtime = 50000, 0.15, 0.30, 2, 0.5
+            tag = ('horse vehicle (pass 40): rebuilding wheels, axles, springs, bodywork and paint; '
+                   'ESTIMATE 5 yr = 50,000 km at an assumed 10,000 km/yr (k-dependent); 15% -> 30% '
+                   '(carriage-era analogue: the Lacy & Dow event at 25% of capital). Direction: '
+                   'coaching and omnibus accounts (Hanforth type), preserved practice.')
+        elif kind == 'trailer':
+            q, first, mx, p, downtime = 160000, 0.10, 0.25, 2, 0.5
+            tag = ('trailer (pass 40): lorry-cadence attention without the engine element; 160,000 km, '
+                   '10% -> 25% (ESTIMATE from the lorry bands). Direction: trailer maintenance '
+                   'schedules.')
         elif kind == 'carriage':
             q, first, mx, p, downtime, why = carriage_values(year)
             tag = why
@@ -280,11 +327,41 @@ def main():
                 q, first, mx, p, downtime = 600000, 0.08, 0.45, 3, 0.5
                 tag = ('tram modern (pass 40): 12-yr mid-life 600,000 km (Metrolink £80,000; Supertram extension '
                        '£856,000, MEASURED); 8% -> 45%.')
+        elif kind == 'sailing-deep':
+            q, first, mx, p, downtime = 500000, 0.03, 0.10, 3, 0.8
+            tag = ('sailing ship, deep-sea (pass 40): Lloyd\'s-classed like steamers, 5-year special '
+                   'survey cycle at the duty of the ocean trades (ESTIMATE 5 yr = 500,000 km at an '
+                   'assumed 100,000 km/yr, k-dependent); hull survey and refit 3% -> 10% (between '
+                   'the motor-ship band and the wooden refit band; measured analogue: "Earl of '
+                   'Esce" overhaul GBP 1,100 against GBP 4,154 new, 1877 = 26% at 18 years). '
+                   'Refit share carved OUT of the Martin 5% annual provision at the costing pass. '
+                   'Direction: RMG barque accounts (ELEANOR DODSON AMS/36; BURNS MSS/77/063).')
+        elif kind == 'sailing-inshore':
+            q, first, mx, p, downtime = 175000, 0.05, 0.15, 3, 0.8
+            tag = ('sailing boat, inshore/coastal (pass 40): hull, rig and spar refits (re-planking, '
+                   're-masting, re-rigging, sheathing); ESTIMATE 5 yr = 175,000 km at an assumed '
+                   '35,000 km/yr (k-dependent); 5% -> 15% (measured analogue: "Earl of Essex" 26% '
+                   'at 18 years). Refit share carved OUT of the Martin 5%-of-capital annual '
+                   'provision at the costing pass. Direction: RMG barque accounts; coastal trader '
+                   'histories.')
         elif kind == 'ship':
             q, first, mx, p, downtime = 575000, 0.02, 0.05, 6, 0.4
             tag = ('ship (pass 40): 5-year special survey ≈ 575,000 km (200-250 sea-days at 9-12 kn, ESTIMATE — the '
                    'engine triggers on distance only; time basis is measured); 2% -> 5% (bare survey+dock <1.5%, with '
                    'steel renewal 3-9%).')
+        elif kind == 'comet1':
+            q, first, mx, p, downtime = 1790000, 1.0, 1.0, 1, 0.8
+            tag = ('Comet 1 (pass 40): the overhaul is REPLACEMENT at the pressurisation-cycle '
+                   'fatigue limit, 100% of the purchase price (user direction 2026-11-24; the '
+                   'airframe could not withstand many pressurisation cycles). Measured limit '
+                   'about 1,000 pressurisation cycles (G-ALYP failed on its 1,286th pressurised '
+                   'flight, G-ALYY on her 903rd; FAA: production Comets formed fatigue cracks at '
+                   'approximately 1,000 flight cycles; the RAE tank airframe failed at 3,060 '
+                   'total, about 2,500 service-equivalent; the design assumption had been 10,000). '
+                   '1,000 cycles at the measured BOAC mean sector 1,790 km = 1,790,000 km '
+                   '(sector-dependent: shorter sectors reach the cycle limit sooner per km). '
+                   'C.A.P. 127 (1955); RAE Accident Note 270. The Comet 4 and 1XB must not carry '
+                   'this rule (redesigned structure, safe life tens of thousands of hours).')
         elif kind == 'aircraft':
             q, first, mx, p, downtime = 4200000, 0.025, 0.05, 4, 0.8
             tag = ('aircraft (pass 40): one C-check every 4,000-6,000 FH ≈ 4,200,000 km at cruise (ESTIMATE — real duty; '
