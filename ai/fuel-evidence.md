@@ -28,17 +28,26 @@ forward is Church's northeast pithead series for 1882-1913, which Clark and Jack
 has not been obtained.
 `[LITERATURE:https://doi.org/10.1017/S1361491607001965]`
 
-## An observation to verify
+## The unit, resolved
 
-`fuel[steam]` in `config/fuel.tab` reads 10 at 1913 and 29 at 1919. Against the pithead series,
-those numbers equal the price **per ton in shillings** (10s 1½d at 1913, 29s 4d at 1919), not a
-price per kilogram. The file's own comment says the unit is kilograms. The two cannot both be
-right, and the file's fuel consumption figures are in kilograms per kilometre.
+`fuel[steam]` reads 10 at 1913 and 29 at 1919, and the file's own comment says kilograms. Read as
+192 × the price in decimal pence per kilogramme, those values give 10s 6d a ton in 1913 and 30s 8d in
+1919, against a pithead series that records 10s 1½d and 29s 4d. Read instead as a price per ton in
+shillings, they give exactly the same figures. The two readings are numerically almost identical
+because one shilling a ton is 0.945 stored units per kilogramme, a coincidence of the decimal penny
+and the 2,240 lb ton, and they separate by only about 5 per cent across the whole series.
 
-This matters because it decides whether steam traction is charged the pithead or the delivered
-price, which differ by the cost of moving coal to the depot. The arithmetic is recorded as an
-observation, not as a claim about the intended unit; the unit question is open.
-`[CODE New ex-15 @ 8d0603d81]`
+The unit is therefore thousandths of a fuel unit per km for `fuel_per_km`, with the price per
+kilogramme, litre or kWh in `fuel.tab`. The convention and its verification against the rest of the
+file are in [conversion-chains](conversion-chains.md#fuel-resolved-2026-11-23); the consumption
+figures that depend on it are in [fuel-consumption](fuel-consumption.md). `[CODE New ex-15 working tree @ 6d28e20d5]`
+
+Two defects in the steam series remain, and are recorded rather than fixed:
+
+- The 1968 value, 55, implies £2.91 a ton between 1959 (£4.55) and 1971 (£5.73). Interpolation between
+  its neighbours gives about 103.
+- The series has no 1920 spike, although the average pithead price reached 48s 7d that year against
+  29s 4d in 1919.
 
 ## Gaps
 

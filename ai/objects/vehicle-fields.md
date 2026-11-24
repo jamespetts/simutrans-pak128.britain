@@ -109,6 +109,12 @@ The general rule is a hard-coded default in makeobj: absent keys are read as emp
 - `range` is the maximum kilometres between stops, used by aircraft and some road vehicles;
   if omitted it is 0 (no limit). `minimum_runway_length` gates aircraft by airfield size; if
   omitted it is 0. `[CODE simutrans-extended master @ d09e920]`
+- `fuel_per_km`, `calibration_speed` and `cut_off_speed` make the engine charge fuel on top of the
+  maintenance in `runningcost`. `fuel_per_km` is the fuel consumed per kilometre in thousandths of
+  the fuel unit — grammes of coal, millilitres of liquid fuel or watt-hours of electricity — and
+  `calibration_speed` is the speed it was measured at. If either is omitted it is 0, and a fuel figure
+  with no calibration speed charges nothing. Full model and the researched figures:
+  [fuel-consumption](../fuel-consumption.md).
 - `way_wear_factor` is the wear the vehicle inflicts on ways, in standard 8-tonne axle loads
   times 10,000, applied on every tile traversed. If omitted it is left uninitialised and the
   engine computes it from waytype, axle load, weight and steam hammer-blow during scaling.

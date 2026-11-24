@@ -47,6 +47,15 @@ for new engine features.
   in [staff-wages/crew-complements](staff-wages/crew-complements.md). The remaining item is that
   the cost-balancing workbooks exclude crew, so the balanced vehicle targets sit below actual
   running cost. `[OPEN:2026-11-23]`
+- **Vehicle fuel consumption: declared on every powered vehicle.** 1,924 objects carry `fuel_per_km`
+  and `calibration_speed`, so the engine charges fuel on top of maintenance: 390 steam rail, narrow
+  gauge and tram objects, 595 diesel and electric rail, 587 road, 230 air and 122 water. The unit
+  convention in `config/fuel.tab` is resolved and verified (192 × pence per unit; `fuel_per_km` in
+  thousandths of a unit), and the model, the researched figures and the calibration decision for each
+  sector are in [fuel-consumption](fuel-consumption.md). Open: `fuel[hydrogene]` is still commented
+  out, so hydrogen maglev is free; steam coal range is derived but not applied; marine bunker fuel has
+  no price series of its own; and the 1968 point of the coal series is about half what it should be.
+  `[OPEN:2026-11-23]`
 - Research each cost domain to the depth of the infrastructure study before deriving balance
   implications, and only then take the balancing decisions. Infrastructure and vehicles are
   complete: [infrastructure-cost-synthesis](infrastructure-cost-synthesis.md) and

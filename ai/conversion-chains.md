@@ -48,7 +48,7 @@ the factor, and the result is 1900 pounds.
 | Land | `simuconf.tab` `cost_buy_land`, `cost_buy_city_land`, per tile | none; town multipliers ×6 capital, ×4 city, ×3 town | capital | no | **0.00396311 per tile** for `cost_buy_land` | partly verified |
 | Corporation tax | `prices.tab` `corporation tax` | percentage, not a price | n/a | n/a | n/a | verified |
 | Interest | `prices.tab` `base rate` plus the `simuconf.tab` margin | percentage, not a price | n/a | n/a | n/a | verified |
-| Fuel | `fuel.tab` per fuel type | **unknown** | **unknown** | no | **open** | open |
+| Fuel | `fuel.tab` per fuel type, per kg / litre / kWh; `fuel_per_km` per km | ÷ 1000 | revenue | no | **0.00005208 per Simucent; a `fuel.tab` value is 192 × the price in pence per unit** | verified |
 | Staff wages | annual old pence in `staff.tab`, one value per grade | × 10/3 | revenue | yes | **0.00010416 per stored unit per month** | verified |
 
 ## The three rules this table enforces
@@ -62,13 +62,22 @@ the factor, and the result is 1900 pounds.
 3. **A new money field is added here before it is used.** If a category is not in the table, its
    conversion is not known, and any figure derived from it is an assumption to be labelled as one.
 
-## The open row
+## Fuel (resolved 2026-11-23)
 
-**Fuel.** `fuel.tab` holds one series per traction type. The observed `fuel[steam]` values equal
-the pithead coal price in shillings per ton — 10 at 1913 and 29 at 1919 — while the file's own
-comment says kilograms. Both cannot be right, and the engine divides fuel units by a thousands
-factor. Until it is settled, no fuel cost can be converted to pounds with confidence.
-`[CODE New ex-15 @ 29e0a6038]`
+`fuel.tab` holds one series per traction type, read at the current year with no inflation index, so
+the series are nominal prices. The engine books `fuel_cost_per_unit × fuel_used ÷ 1000` Simucents,
+the 1000 being `fuel_unit_cost_divider` in `New/config/simuconf.tab`.
+
+The stored value is **192 × the price in decimal pence per unit of fuel** (per kg for coal, per litre
+for liquid fuels, per kWh for electricity), so one stored unit is one Simucent of 1900 revenue money.
+`fuel_per_km` is therefore in thousandths of that unit: grammes, millilitres or watt-hours per km.
+
+The reading is confirmed against the series themselves: 192 × pence per litre reproduces £0.825 a
+litre for diesel in 2000 and £1.65 in 2026; 192 × pence per kilogramme reproduces about 10s 6d a ton
+for coal in 1900 and about £2.50 a ton in 1950. The earlier "pithead price in shillings per ton"
+reading was a coincidence — one shilling a ton is 0.945 stored units per kilogramme — and it is
+withdrawn. Figures per vehicle and per sector: [fuel-consumption](fuel-consumption.md).
+`[CODE New ex-15 working tree @ 6d28e20d5]`
 
 **Staff (resolved 2026-11-23).** `staff.tab` holds a monthly salary per person in Simucents. The
 series is compiled as nominal annual old pence and converted at ×10/3: 1 old penny = 80 Simucents
