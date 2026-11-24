@@ -23,8 +23,11 @@ and the pass-40 reports in [cost-balancing](../cost-balancing/).
    maintenance as fixed only — sets no precedent for the new values.
    `[USER-DIRECTION:2026-11-24]`
 2. **Horses and sailing boats take no per-km figure.** Their upkeep is standing cost (horse keep;
-   hull, rig and gear decay): `runningcost` 0, everything in `fixed_cost`.
-   `[USER-DIRECTION:2026-11-24]`
+   hull, rig and gear decay): `runningcost` 0, everything in `fixed_cost`. This does **not** exempt
+   them from overhauls: a horse's overhaul is its **replacement at the end of its working life, at
+   100% of the purchase price** (measured renewal cadence: the Leeds tramway horses were renewed
+   about once every 7 years at cost equal to the purchase price, 1894-5 accounts), and horse
+   vehicles are rebuilt like any other vehicle. `[USER-DIRECTION:2026-11-24]`
 3. **Every estimated figure carries its basis and its directionality**: what evidence would move
    it, and in which direction. Directly measured figures win over estimates whenever both exist.
    `[USER-DIRECTION:2026-11-24]`
@@ -128,8 +131,13 @@ so each year-interval converts at the class's mean annual km: `interval_km = int
 | Trams | 12 yr (600,000 km) | 8% -> 45% | Metrolink mid-life £80,000; Supertram life extension £856,000 (KB); E/1 class £400 a tram (1934); Feltham about £300 against a £500 secondhand price (1949) | pre-1950 municipal overhaul accounts |
 | Ships | 5 yr special survey | 2% -> 5% (bare survey + dock under 1.5%; with steel renewal 3-9%) | US National Academies tanker data; Hellenic Chamber provision (report 40 §1.5); "Earl of Essex" overhauled with new boilers £1,100 against £4,154 new (1877, ≈26%) | Drewry/Lloyd's repair records (paywalled) |
 | Aircraft | heavy check in a 6-check cycle; 6-10 yr | 2.5% -> 5% (airframe heavy check 0.8-1.1%; with engines and gear 2-5%) | Aircraft Commerce 777 guide; D-check 50,000+ man-hours (report 40 §1.5) | engine shop-visit prices in lessor filings |
+| **Comet 1** (special case) | replacement at the fatigue limit ≈1,000 pressurisation cycles | 1,790,000 km = 1,000 cycles × the measured BOAC mean sector 1,790 km (sector-dependent: shorter sectors reach the limit sooner per km) | **100% -> 100%** | M + user direction 2026-11-24: fatigue failures at 903-1,286 pressurisations (C.A.P. 127; FAA ≈1,000; RAE tank 3,060 ≈ 2,500 service-equivalent; design assumption 10,000). **Comet 4 and 1XB excluded** — redesigned structure, safe life tens of thousands of hours (report 40 §1.10) |
 | Narrow gauge, maglev | analogue of nearest class | analogue | rung 5 | any measured narrow-gauge overhaul |
-| Horses | none — upkeep is keep and standing cost | — | standing rule 2 | — |
+| Horses (the animals) | 7 yr (Leeds renewal cadence) | 70,000 km at an assumed 10,000 km/yr | **100% -> 100%** — the overhaul is the replacement at the end of working life | M: renewed about once every 7 years at cost = purchase price (1894-5 accounts, forum 6521 #116) |
+| Horse vehicles (carts, omnibuses, coaches, wagons) | 5 yr (EST) | 50,000 km at an assumed 10,000 km/yr | 15% -> 30% (EST) | rebuilding wheels, axles, springs, bodywork and paint; Lacy & Dow 25% carriage analogue. Moves: coaching/omnibus accounts |
+| Motor trailers and articulated bus sections | lorry cadence | 160,000 km | 10% -> 25% (EST) | the lorry bands without the engine element |
+| Sailing craft, inshore/coastal (barges, wherries, brigs, schooners) | 5 yr (EST) | 175,000 km at an assumed 35,000 km/yr (k-dependent) | 5% -> 15% (EST) | hull, rig and spar refits; "Earl of Essex" overhaul 26% at 18 years as the analogue; refit share carved OUT of the Martin 5% provision. Moves: RMG barque accounts |
+| Sailing ships, deep-sea (clippers, windjammers, Blackwall frigates, barques) | 5-yr Lloyd's survey cycle (as steamers) | 500,000 km at an assumed 100,000 km/yr ocean-trade duty (k-dependent) | 3% -> 10% (EST) | classed vessels surveyed like motor ships minus the machinery share; between the motor-ship and wooden-refit bands |
 
 Notes:
 

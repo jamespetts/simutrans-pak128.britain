@@ -409,7 +409,45 @@ Modern Railways paywall (IET figures from search extraction); Larkin & Larkin ch
 (library copy would settle the 4× lifetime figure); HMRS 1993 Mk 3 draft overhaul specification is
 the single document that would close the Mk 3 band (archive enquiry).
 
-### 1.10 Dead ends and cautions (the overhaul pass)
+### 1.10 Comet 1 pressurisation-cycle fatigue
+
+**Citation correction**: the Court of Inquiry report is **C.A.P. 127** (MT & CA, 1955, Lord
+Cohen), not Cmd 9018; the RAE evidence is *Report on Comet Accident Investigation* (Accident Note
+270, 1954). All read in full (2026-11-24).
+
+**Fatigue cycles** (= one pressurisation = one pressurised flight): G-ALYP failed on her
+**1,286th** pressurised flight (10 Jan 1954, plus 255 unpressurised; fatigue crack from a 10 mm
+bolthole at the rear ADF window cut-out); G-ALYY on her **903rd** (8 Apr 1954). FAA's summary:
+production Comets formed fatigue cracks near window corners at **approximately 1,000 flight
+cycles**. The RAE tank airframe G-ALYU (1,221-1,230 pressurisations and about 3,530 hours in
+service) failed after a further 1,830 tank cycles — **3,057-3,060 total, about 2,500
+service-equivalent** per RAE's Walker (the tank omits vibration and ground-air-ground inputs);
+testing continued to 5,546 cycles. Nominally identical structures show at least a 9:1 fatigue-life
+scatter (C.A.P. 127 paras 70-71). The misleading number: de Havilland's forward-cabin test
+section survived 18,000 applications of working pressure — but it had first been taken to 2P,
+cold-working the high-stress corners. The design assumption was **10,000 pressurised flights or
+10 years** (para 121): the failure was about ten times worse than designed.
+
+**Duty**: BOAC London-Johannesburg (six sectors via Rome, Beirut, Khartoum, Entebbe, Livingstone;
+official air miles): **mean sector ≈ 1,790 km** (978-2,229); G-ALYP flew 1,286 pressurised cycles
+in 618 days ≈ **758 cycles a year**, ≈2.86 h a cycle (C.A.P. 127 para 23 corroborates: "no Comet
+had exceeded 2,500 hours flying — say 800 pressurised flights"). Air France Comet 1As on mixed
+sectors (Algiers 1,339 km etc.): F-BGNZ flew 371 h / 211 landings in four months. C.A.P. 127's own
+equivalence: 1 flight ≈ 3 hours.
+
+**Comet 4 exclusion**: the post-accident design (thicker cabin skin, redesigned oval windows,
+complete-cabin fatigue testing) targeted a safe life of at least 30,000 hours; Comet 4s flew
+commercially 1958-1980 and the cycle-heavy Comet 4B needed only minor structural changes. The
+100% rule must not touch them. Regulatory outcome (for the record): C.A.P. 127 Part XV required
+complete-cabin tank testing; BCAR D3-7 (1956) reg 4.3.2 required the test cabin never to have been
+used for strength work — the cold-working lesson. No "1,000-cycle rule" exists in the inquiry.
+
+**Pakset rule**: the Comet 1 (`dh-comet-1`) overhaul is **replacement at 100% of purchase price at
+≈1,000 pressurisation cycles** (band 900-1,300), entered as 1,790,000 km = 1,000 cycles × the
+measured BOAC mean sector 1,790 km — **sector-dependent**: shorter sectors reach the cycle limit
+sooner per km (the engine triggers on distance only).
+
+### 1.11 Dead ends and cautions (the overhaul pass)
 
 RCH per-job schedules archive-only (component-composition route stands unless visited); RMweb
 blocks automated fetch (its repair-plate regime and the 1920 £9 figure are leads only); Oxfordshire
