@@ -68,6 +68,12 @@ The current coherence audit reports 3,539 vehicles, 3,265 envelopes checked, 274
 sections, 0 unchecked and 0 failures. The distance check reports 1,524 rows with a stated mean
 and 0 deviations over 10 per cent.
 
+**Feature premiums are applied, not outstanding.** The generator and the workbook basis notes
+apply: road automatic transmission, air suspension, low floor, air conditioning and saloon
+heating; carriage corridor, sleeping, steam/electric heating and air conditioning; tram
+articulation. The earlier statement in this handoff that only road engine type and carriage
+dining/bogie/steel were wired was wrong.
+
 ## Remaining work, in order
 
 1. **Documentation review.** This handoff, `maintenance-decomposition.md`,
@@ -112,21 +118,27 @@ and 0 deviations over 10 per cent.
    current workbook already uses a capacity capital ladder with maintenance at 2 per cent of
    capital, inside the report's 2-5 per cent band. Report 56 is for review; the data are in
    `water-gross-tonnage.csv`.
-8. **General feature premiums.** Only road engine type and carriage dining/bogie/steel are
-   wired. Transmission, suspension, heating, air conditioning, low floor, corridor, sleeping and
-   tram articulation are researched (pass 8) and have attribute columns, but no multipliers.
-9. **Piers**: 111 objects unpriced. Decision needed: leave at zero (bridge carries the structure)
-   or charge the measured 13-25% substructure share.
-10. **Knowledge-base corrections awaiting review**: the 1983 and 2016 road maintenance rows are
-    2.4x too small (decimal pence treated as old pence; corrected 178, 22, 12); "timber bridge
-    upkeep 7-8 times plain line" should read "7-8 times the brick rate".
-11. **Generator alignment.** `evidence_data.py` carries the tram ladder and
+8. **Piers**: 111 rows in the `Piers & docks` sheets, all with a blank target. Decision needed:
+   leave at zero (the bridge carries the structure) or charge the measured 13-25 per cent
+   substructure share.
+9. **Knowledge-base corrections awaiting review**: the 1983 and 2016 road maintenance rows are
+   2.4x too small (decimal pence treated as old pence; corrected 178, 22, 12); "timber bridge
+   upkeep 7-8 times plain line" should read "7-8 times the brick rate".
+10. **Generator alignment.** `evidence_data.py` carries the tram ladder and
     `tram_overhaul()`, the multiple-unit distance table, the tram upgrade share, the report 51
     carriage ladder and the report 55 maglev acquisition constants; `build_workbooks.py` passes
-    `maint_a_gbp` to `overhaul_profile()`. The Class 92 and Class 88 corrections are
-    workbook-only. A rebuild still discards every pass note after 40, and the carriage distance
-    table is not wired into the generator; the patch scripts remain the supported route.
-12. **`.dat` update.** The point of the exercise. Do it as one total-set pass, not object by
+    `maint_a_gbp` to `overhaul_profile()`. It does **not** carry the locomotive maintenance
+    ladder: the locomotive branch still applies Hill's 253 GBP an engine-year, not the report
+    46/50 series, and the Class 92 and Class 88 corrections are workbook-only. The carriage
+    distance table (pass 60) is also not wired. A rebuild still discards every pass note after
+    40; the patch scripts remain the supported route.
+11. **Class 89-91 electric factor.** The 1986-88 electric locomotives still take 0.5 of the time
+    ladder: A 740.69, 712.52 and 685.42. Report 50 withdraws the factor only for post-1995
+    electrics; whether the pre-1995 classes keep it or move to an electric track is a decision.
+12. **Narrow-gauge and other pass-47 rows.** The 35 narrow-gauge carriage rows (pass 48) and the
+    12 non-carriage rows that pass 47 touched still carry the pre-51 carriage ladder. Report 51's
+    evidence is mainline carriage; decide whether the same ladder applies to them.
+13. **`.dat` update.** The point of the exercise. Do it as one total-set pass, not object by
     object, after the workbook review.
 
 ## Interim, not settled
