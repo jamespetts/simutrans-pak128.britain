@@ -1,6 +1,6 @@
 ---
 status: draft
-verified: New ex-15 @ fcd40c0bc + passes 62-65 (working tree), 2026-11-25
+verified: New ex-15 @ fcd40c0bc + passes 62-65 + KB corrections (working tree), 2026-11-25
 ---
 # Cost data coverage
 
@@ -229,7 +229,8 @@ terrain-dominated; monorail and maglev explicitly without British historical bas
 (masonry and brick £55-160/m; iron trestles £48-280/m by span and pier height; tubular and major
 river £337-1,321/m; major crossings about 10x an ordinary underbridge, confirmed independently
 1832); 25 named viaducts 1828-1978 normalised to 1900; Cudworth's eighteen-year NER maintenance
-accounts giving maintenance relative to plain line (brick 0.25-0.5x, iron 1.2-1.5x, timber 7-8x).
+accounts giving maintenance relative to plain line (brick 0.25-0.5x plain line, iron 1.2-1.5x
+plain line, timber 7-8x the brick rate).
 Gaps: cost by height cannot be separated; the present data treats all brick viaducts alike and
 reverses masonry against history; the 2022 note conflicts with present data by two orders of
 magnitude (conflict 1).

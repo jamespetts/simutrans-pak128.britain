@@ -43,6 +43,11 @@ Merseyside, 2016 FTA) appears to have been converted without the 2.4, so its `ru
 values of 74 and 9 are probably about 2.4 times too small (about 177 and 23 on the same method).
 That is a proposal for the KB owner to check, not a change made here.**
 
+**Applied 2026-11-23 (commit `6b46c373c`).** The later-anchors block in
+`base-maintenance.md` was corrected; its current running-cost values are **177** (1983
+Merseyside), **23** (2016 32-ton rigid) and **11** (2016 44-ton artic tractor), with the
+articulated combination at 17. The earlier values 74, 9 and 5 were the uncorrected figures.
+
 A second trap, already in the KB but worth repeating: the Commercial Motor "maintenance" item
 excludes tyres and lubricants by construction, while a municipal "repairs" head usually includes
 them. Rows in the CSV say which.

@@ -1,6 +1,6 @@
 ﻿---
 status: draft
-verified: New ex-15 @ 184d0d1d3 (working tree), 2026-11-24; simutrans-extended ex-15 @ 22cc3af
+verified: New ex-15 @ fcd40c0bc + KB corrections (working tree), 2026-11-25; simutrans-extended ex-15 @ 22cc3af
 ---
 # Infrastructure cost synthesis
 
@@ -328,7 +328,7 @@ above: track 88,000, narrow gauge 95,000, road 315,000, tram 225,000, water 125,
 | Permanent-way cost after 1945 | Priority gap (user direction 2026-11-24): must track inflation and the technology change (concrete sleepers, welded rail) realistically; research in progress |
 | Earthworks per km for a stated cross-section | Use the measured 9d-1s 3d per cubic yard and a stated depth; the L&M's £3,284/km is the heavy-grading check |
 | Straight-sided retaining walls, modern | Use the Victorian £0.70-1.70/m² of wall face and scale by wall height |
-| Structure maintenance by type where no account exists | Apply the measured relativities: brick 0.5× plain line, iron 1.2-1.5×, timber 7-8×, tunnel 1.5-2.5× |
+| Structure maintenance by type where no account exists | Apply the measured relativities: brick 0.5× plain line, iron 1.2-1.5× plain line, timber 7-8× the brick rate, tunnel 1.5-2.5× plain line |
 | Dock and pier maintenance | Use 2-4% a year for timber and 0.8-1% for masonry and concrete |
 | Hangars, terminals and towers before 1950 | Deflate modern £/m² on the `buildings` index; there is no measured pre-war figure |
 | Total signalling cost per route km before 1909 | Use Rapier's 1874 model: 10 levers a mile, one box per 1.5 miles, 4.2 posts a km, about £315/route km |

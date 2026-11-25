@@ -74,6 +74,17 @@ heating; carriage corridor, sleeping, steam/electric heating and air conditionin
 articulation. The earlier statement in this handoff that only road engine type and carriage
 dining/bogie/steel were wired was wrong.
 
+**User decisions, 2026-11-25** `[USER-DIRECTION:2026-11-25]`:
+
+1. The `.dat` pass waits.
+2. The generator must override every asset for which individual asset data exist. This is an
+   invariant, not a preference.
+3. Piers take the measured structure share.
+4. The two knowledge-base corrections are applied now; they are closed.
+5. Class 89/91 are interpolated from the 1950s/1960s figures to the 1980s/1990s figures for
+   intermediate locomotives; confirm whether Class 90 is included.
+6. The narrow-gauge carriage rows are re-based on report 51.
+
 ## Remaining work, in order
 
 1. **Documentation review.** This handoff, `maintenance-decomposition.md`,
@@ -118,28 +129,36 @@ dining/bogie/steel were wired was wrong.
    current workbook already uses a capacity capital ladder with maintenance at 2 per cent of
    capital, inside the report's 2-5 per cent band. Report 56 is for review; the data are in
    `water-gross-tonnage.csv`.
-8. **Piers**: 111 rows in the `Piers & docks` sheets, all with a blank target. Decision needed:
-   leave at zero (the bridge carries the structure) or charge the measured 13-25 per cent
-   substructure share.
-9. **Knowledge-base corrections awaiting review**: the 1983 and 2016 road maintenance rows are
-   2.4x too small (decimal pence treated as old pence; corrected 178, 22, 12); "timber bridge
-   upkeep 7-8 times plain line" should read "7-8 times the brick rate".
-10. **Generator alignment.** `evidence_data.py` carries the tram ladder and
-    `tram_overhaul()`, the multiple-unit distance table, the tram upgrade share, the report 51
-    carriage ladder and the report 55 maglev acquisition constants; `build_workbooks.py` passes
-    `maint_a_gbp` to `overhaul_profile()`. It does **not** carry the locomotive maintenance
-    ladder: the locomotive branch still applies Hill's 253 GBP an engine-year, not the report
-    46/50 series, and the Class 92 and Class 88 corrections are workbook-only. The carriage
-    distance table (pass 60) is also not wired. A rebuild still discards every pass note after
-    40; the patch scripts remain the supported route.
-11. **Class 89-91 electric factor.** The 1986-88 electric locomotives still take 0.5 of the time
-    ladder: A 740.69, 712.52 and 685.42. Report 50 withdraws the factor only for post-1995
-    electrics; whether the pre-1995 classes keep it or move to an electric track is a decision.
-12. **Narrow-gauge and other pass-47 rows.** The 35 narrow-gauge carriage rows (pass 48) and the
-    12 non-carriage rows that pass 47 touched still carry the pre-51 carriage ladder. Report 51's
-    evidence is mainline carriage; decide whether the same ladder applies to them.
-13. **`.dat` update.** The point of the exercise. Do it as one total-set pass, not object by
+8. **Piers.** 111 rows in the `Piers & docks` sheets, all with a blank target. **Decision: charge
+   the measured structure share.** Apply the 13-25 per cent substructure share per object, with
+   the basis recorded on each row.
+9. **Generator alignment.** **Decision: override every asset for which individual asset data
+   exist; this is an invariant.** `evidence_data.py` carries the tram ladder and
+   `tram_overhaul()`, the multiple-unit distance table, the tram upgrade share, the report 51
+   carriage ladder and the report 55 maglev acquisition constants; `build_workbooks.py` passes
+   `maint_a_gbp` to `overhaul_profile()`. It does **not** carry the locomotive maintenance
+   ladder: the locomotive branch still applies Hill's 253 GBP an engine-year, not the report
+   46/50 series, and the Class 92 and Class 88 corrections are workbook-only. The carriage
+   distance table (pass 60) is also not wired. A rebuild still discards every pass note after
+   40; the next session must make a rebuild reproduce the workbooks for every asset that has
+   individual data.
+10. **Class 89/91 electric factor.** **Decision: interpolate from the 1950s/1960s figures to the
+    1980s/1990s figures for intermediate locomotives.** The 1986-88 electric locomotives
+    currently take 0.5 of the time ladder: A 740.69, 712.52 and 685.42 for Classes 89, 90 and 91.
+    The user's note names "Class 89/91"; confirm whether Class 90 is included, since it is the
+    intermediate class between them. The next session is to identify the measured 1950s/1960s
+    and 1980s/1990s endpoints, interpolate by introduction year, and apply the result.
+11. **Narrow-gauge carriage rows.** **Decision: rebase.** The 35 narrow-gauge carriage rows
+    (pass 48) still carry the pre-51 carriage ladder; apply the report 51 series, recompute A,
+    the provision, the head and the event, and audit. The 12 non-carriage rows that pass 47
+    touched are a separate question and are not included in this decision.
+12. **`.dat` update.** **Decision: not yet.** It remains one total-set pass, not object by
     object, after the workbook review.
+
+The two knowledge-base corrections are closed. Commit `6b46c373c` (2026-11-23) corrected the
+1983 and 2016 road maintenance running-cost rows to **177, 23 and 11** and the timber ratio to
+**7-8 times the brick rate**. The earlier handoff wording "178, 22, 12" was a rounded
+restatement; the current file values in `base-maintenance.md` are 177, 23 and 11.
 
 ## Interim, not settled
 
