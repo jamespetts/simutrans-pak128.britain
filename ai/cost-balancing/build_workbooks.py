@@ -58,8 +58,9 @@ from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 from openpyxl.formatting.rule import CellIsRule, FormulaRule
 from openpyxl.utils import get_column_letter
 
-BASE = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-HERE = os.path.join(BASE, 'ai', 'temp')
+BASE = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(
+    os.path.abspath(__file__)))))
+HERE = os.path.join(BASE, 'New', 'ai', 'cost-balancing')
 INVENTORY = os.path.join(HERE, 'cost-inventory.csv')
 PRICE_ROWS = os.path.join(HERE, 'individual-price-rows.csv')
 RESEARCH_ROWS = os.path.join(HERE, 'research-pricing-rows.csv')

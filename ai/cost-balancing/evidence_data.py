@@ -868,8 +868,8 @@ MAGLEV_REF_SEATS = 54.0
 MAGLEV_REF_LENGTH = 14.0
 MAGLEV_CAP_PER_M = MAGLEV_CAP_PER_SEAT * MAGLEV_REF_SEATS / MAGLEV_REF_LENGTH
 MAGLEV_MAINT_M_KM = MAGLEV_MAINT_SEAT_KM * MAGLEV_REF_SEATS / MAGLEV_REF_LENGTH
-LOCO_REPAIR_PERKM = 0.0067  # Hill 1892 19-company average 1.61 d/km at 1900 (band 0.0039-0.0118)
-LOCO_MAINT_YR = 253.0     # Hill: 253 GBP per engine-year at 1900 (~12% of price)
+LOCO_REPAIR_PERKM = 0.0067  # Hill 1892 1.61 d/km; WITHDRAWN as a separate charge (report 46)
+LOCO_MAINT_YR = 253.0     # Hill 1892 GWR maximum; WITHDRAWN as the total (report 46)
 CARRIAGE_MAINT_YR = 32.6  # Hill 1892 carriage average, retained for the multiple-unit branch
 # Rail carriage and wagon maintenance ladders, 1900 money per vehicle-year. Research pass 43
 # (New/ai/cost-balancing/research-pricing-report-43.md): the carriage series is measured at 1892
@@ -884,6 +884,175 @@ CARRIAGE_MAINT_YR = 32.6  # Hill 1892 carriage average, retained for the multipl
 CARRIAGE_MAINT_LADDER = ((1900, 33.0), (1920, 39.0), (1950, 121.0), (1970, 265.0), (1990, 460.0),
                          (2020, 440.0))
 WAGON_MAINT_LADDER = ((1900, 4.2), (1950, 8.7), (1970, 14.3), (1990, 24.8), (2020, 23.8))
+# Locomotive maintenance, 1900 money per engine-year. Research pass 46 section 5, validated and
+# extended by research pass 50: the 1900, 1950 and 1961 points are measured fleet averages, 1977
+# is Calder's measured main-line Class 47, and 1995 and 2020 are derived from measured
+# heavy-maintenance turnover. Log-linear between points, flat outside. This is the diesel/steam
+# line; a straight-electric locomotive does NOT take a share of it (see ELEC_LOCO_LADDER).
+LOCO_MAINT_LADDER = ((1900, 215.0), (1950, 306.0), (1961, 800.0), (1977, 2100.0),
+                     (1995, 1045.0), (2020, 520.0))
+# Electric-locomotive maintenance track, 1900 money per engine-year. Research pass 50 section 5
+# item 6 reads the modern ladder as two class tracks; research pass 46 row 12 supplies the 1950s
+# point. The 1950 point is the Southern Region electric locomotives at GBP 5,300 each in 1949-50,
+# repairs only, deflated at the general index 359 (5,300 x 100 / 359 = 1,476). The 1977 point is
+# Calder's Class 87, GBP 1,103 in 1900 money (report 46 row 19). The 1995 point is the BRML
+# mixed-fleet heavy-maintenance turnover (report 50), and the 2018 point is the measured Class 92
+# full-maintenance contract (868). Log-linear between points, flat outside. The 0.5-of-the-diesel
+# -ladder rule is Calder's 1977 Class 87/Class 47 ratio, a class result rather than a
+# traction-type constant; this track replaces it for the intermediate electric classes.
+ELEC_LOCO_LADDER = ((1950, 1476.3), (1977, 1103.0), (1995, 1045.0), (2018, 868.0))
+# Class overrides with their own measured figure. A class here takes the figure, not a rung of
+# either track. The Class 92 is the 2018 Alstom/GB Railfreight full-maintenance contract on the
+# Caledonian Sleeper duty (research pass 50; GBP 868, band 740-1,000). The Class 88 is the 2014
+# dual-mode, which pass 64 puts at the Class 68 level (614.82) rather than on half the electric
+# ladder. Keys are the lower-case pakset object names.
+LOCO_CLASS_OVERRIDES = {
+    'br-class92': (868.0, 'the 2018 Alstom/GB Railfreight full-maintenance contract, GBP 868 an '
+                          'engine-year in 1900 money (research pass 50; band 740-1,000)'),
+    'br-class88': (614.82, 'the Class 68 level of 614.82 GBP an engine-year (pass 64), the '
+                           'nearest measured 2014 dual-mode diesel'),
+}
+# Classes with no class-specific figure that take the electric track rather than half the
+# diesel/steam ladder. The 2026-11-25 decision: interpolate the intermediate electric
+# locomotives between the measured 1950s and 1980s/1990s points.
+LOCO_ELECTRIC_TRACK = ('br-class89', 'br-class90', 'br-class91')
+# Measured class duties, km an engine-year, where Calder's 1977 paper gives the class its own
+# figure rather than the class/era table's band (research pass 46 row 17). Keys are the
+# lower-case pakset object names. Every other locomotive takes MEAN_ANNUAL_KM['locomotive'].
+LOCO_DUTY_KM = {
+    'br-class37': 81000.0,
+    'br-class55': 226000.0,
+    'br-class86': 176000.0,
+    'br-class87': 274000.0,
+    '1890tubestockloco': 120000.0,
+}
+
+
+def loco_duty(name, intro):
+    """km an engine-year: the class's own measured duty if it has one, else the table band."""
+    nm = (name or '').lower()
+    if nm in LOCO_DUTY_KM:
+        return LOCO_DUTY_KM[nm]
+    return mean_annual_km('locomotive', intro) or 40000.0
+
+
+# Bridge-substructure piers (the 111 `Piers & docks` rows). Research pass 13 section 6 measures
+# the substructure share of a low bridge at 13-25 per cent (Tower Bridge 15.8, the Humber 60 ft
+# worked example 25); the share rises with pier height to 65.9-82.3 per cent at 200 ft. The pakset
+# records no height or span for a pier object, so the low-bridge midpoint of 19 per cent is
+# charged against the measured rate of the bridge family the object belongs to. The deck and
+# track are carried by the way object; no substructure maintenance rate is measured, so the
+# maintenance sheet's pier rows stay blank.
+PIER_SHARE = 0.19
+PIER_FAMILY_RATE = {
+    'brick': ('BrickViaduct', 107500.0),
+    'stone': ('MasonryViaduct', 107500.0),
+    'concrete': ('ConcreteViaduct', 410317.0),
+    'iron': ('IronViaduct', 164000.0),
+    'steel': ('SteelTruss', 280000.0),
+    'timber': ('WoodenTrestle', 48000.0),
+}
+
+
+def pier_family(name):
+    """brick, stone, concrete, iron, steel or timber, by the object's base name."""
+    nm = (name or '').lower()
+    if nm.startswith('steel'):
+        return 'steel'
+    if nm.startswith('iron') or nm.startswith('l') or nm == 'brickironarch':
+        return 'iron'
+    if nm.startswith('brick'):
+        return 'brick'
+    if nm.startswith('stone'):
+        return 'stone'
+    if nm.startswith('concrete'):
+        return 'concrete'
+    if nm.startswith('wood'):
+        return 'timber'
+    return None
+
+
+def pier_extrapolation(name):
+    fam = pier_family(name)
+    if not fam:
+        return None
+    rep, rate = PIER_FAMILY_RATE[fam]
+    return {'capital_gbp': round(PIER_SHARE * rate, 2), 'year': 1900,
+            'basis': ('pier (pass 68, research pass 13 section 6): the measured 13-25 per cent '
+                      'substructure share of a low bridge at its midpoint 19 per cent, applied to '
+                      'the %s bridge rate of GBP %s a km at 1900. Tower Bridge measures 15.8 per '
+                      'cent and the Humber 60 ft worked example 25 per cent; the share rises with '
+                      'pier height (Maynard 1868: 65.9 per cent at 200 ft and 82.3 per cent with '
+                      '60 ft spans). The pakset records no height or span for a pier object, so '
+                      'the low-bridge midpoint is used and the band is stated. The object is '
+                      'charged as the substructure component of the equivalent bridge; the deck '
+                      'and track are carried by the way object it supports. Maintenance is not '
+                      'charged: pass 13 measures no substructure maintenance share.'
+                      % (rep, format(int(rate), ',')))}
+
+
+
+def loco_maint(name, engine, intro):
+    """(A, basis) for one locomotive, 1900 GBP an engine-year.
+
+    A class with a measured figure takes it. A Class 89, 90 or 91 takes the electric track at
+    its introduction year. Any other straight-electric locomotive after 1961 takes half the
+    diesel/steam ladder (Calder's 1977 Class 87/Class 47 ratio); a pre-1961 electric takes the
+    ladder whole. Everything else takes the diesel/steam ladder."""
+    nm = (name or '').lower()
+    eng = (engine or '').lower()
+    y = intro or 1900
+    if nm in LOCO_CLASS_OVERRIDES:
+        a, label = LOCO_CLASS_OVERRIDES[nm]
+        return a, 'class figure: ' + label
+    electric = ('electric' in eng) and ('diesel' not in eng)
+    if electric and nm in LOCO_ELECTRIC_TRACK:
+        return interp_log(ELEC_LOCO_LADDER, y), (
+            'electric-locomotive track: 1,476 at 1950 (Southern Region electrics, GBP 5,300 each '
+            'in 1949-50, repairs only), 1,103 at 1977 (Calder\'s Class 87), 1,045 at 1995 (BRML '
+            'mixed fleet) and 868 at 2018 (the Class 92 contract), read at the introduction year '
+            '(research passes 46 row 12, 50 section 5 item 6)')
+    base = interp_log(LOCO_MAINT_LADDER, y)
+    if electric and y > 1961:
+        return 0.5 * base, ('half the diesel/steam ladder: Calder\'s 1977 Class 87 is 52 per cent '
+                            'of the Class 47 on the same duty (research pass 46 row 19)')
+    return base, ('locomotive ladder: 215 at 1900, 306 at 1950, 800 at 1961, 2,100 at 1977, 1,045 '
+                  'at 1995 and 520 at 2020 (research passes 46 and 50)')
+
+
+def loco_renewals(intro):
+    """Renewals share of A for a locomotive: 25 per cent at 1900 phased out by 1950, 22 per cent
+    at 1961 phased in from 1950 and out by 1977, zero after."""
+    y = intro or 1900
+    if y <= 1950:
+        return 0.25 * (1950.0 - y) / 50.0
+    if y <= 1961:
+        return 0.22 * (y - 1950.0) / 11.0
+    if y <= 1977:
+        return 0.22 * (1977.0 - y) / 16.0
+    return 0.0
+
+
+def locomotive_overhaul(intro, maint_gbp, km, steam):
+    """Overhaul targets for a locomotive inside the measured-total envelope (passes 49-66)."""
+    a = maint_gbp or 0.0
+    share = 0.35 if steam else 0.39
+    years = 7.0
+    rho = loco_renewals(intro) * a
+    prov = share * a
+    mx = prov * years
+    return dict(initial_gbp=round(mx, 1), max_gbp=round(mx, 1), overhauls=0,
+                interval_km=int(round(years * (km or 40000.0))), months=0.8,
+                mean_gbp=round(mx, 1),
+                basis=('locomotive overhaul (passes 49-66): the measured annual total is the '
+                       'envelope. Renewals %.1f per cent of A; works-overhaul provision %.0f per '
+                       'cent of A; head = the residual; the event is provision x %.0f years = '
+                       '%.1f GBP, one event to the maximum. The interval is %.0f years at the '
+                       'class/era distance. %s'
+                       % (100.0 * loco_renewals(intro), 100.0 * share, years, mx, years,
+                          'steam: 35 per cent provision and a 65/35 split'
+                          if steam else 'diesel/electric: 39 per cent provision and a 60/40 '
+                                        'split, from the Class 47 pair')))
 
 
 def interp_log(points, x):
@@ -1220,6 +1389,12 @@ def carriage_overhaul(intro, maint_gbp):
         if y >= cand[0]:
             row = cand
     _, years, km, share = row
+    # The interval is the band's years at the class and era distance table's reference duty,
+    # not a per-band constant: the two agree at every existing band, and this is the route by
+    # which a row's own measured duty can replace the table default.
+    table_km = mean_annual_km('carriage', y)
+    if table_km:
+        km = years * table_km
     ann = share * (maint_gbp or 0.0)
     mx = 2.0 * ann * years / (1.0 + OVH_FIRST_RATIO)
     return dict(initial_gbp=round(OVH_FIRST_RATIO * mx, 1), max_gbp=round(mx, 1),
@@ -1367,6 +1542,11 @@ def overhaul_profile(cls, name, capital_gbp, intro, maint_gbp=None):
                       % (tram_upgrade_share(intro) * 100))
         return p
     up = OVERHAUL_PROFILE[key][5]
+    if key in ('locomotive', 'locomotive-steam') and maint_gbp:
+        km = loco_duty(name, intro)
+        p = locomotive_overhaul(intro, maint_gbp, km, key == 'locomotive-steam')
+        p['upgrade_gbp'] = round(cap * up, 1)
+        return p
     if key == 'carriage' and maint_gbp:
         p = carriage_overhaul(intro, maint_gbp)
         p['upgrade_gbp'] = round(cap * up, 1)
@@ -1415,6 +1595,10 @@ def extrapolation(cls, name, dat, gbp_per_dat=0.00396311, intro=None):
     eng = str(sp.get('engine', '')).lower()
     year = None  # all outputs expressed at 1900
     x = {}
+    if cls == 'stops-stations/piers':
+        p = pier_extrapolation(name)
+        if p:
+            return p
 
     # Animals are not locomotives, tram cars or vessels. The horse-keep evidence is the only
     # measure for them, and it applies on every sheet (pass 43). The horse clause below used to
@@ -1542,14 +1726,30 @@ def extrapolation(cls, name, dat, gbp_per_dat=0.00396311, intro=None):
                         basis += (' | features x%.3f relative to the fitted base (base x%.3f: %s)'
                                   % (rel, baseline, ', '.join(parts) if parts else 'none'))
                     x.update(capital_gbp=round(capital, 0), year=1900, basis=basis)
-            # The Hill locomotive figures apply to locomotives only. Guard added 2026-11-25:
-            # unguarded, this update replaced the multiple-unit branch's carriage figure
-            # (maint_gbp_yr=CARRIAGE_MAINT_YR, a few lines above) with the locomotive figure
-            # for every powered multiple-unit car.
+            # The Hill 1892 GBP 253 an engine-year is withdrawn as the total (research pass 46:
+            # it is the Great Western maximum, not the nineteen-company average). The rows take
+            # the dated ladder, the electric track or a class figure, and are decomposed into a
+            # continuous head and an overhaul provision inside the same total.
             if not is_multiple_unit(nm):
-                x.update(maint_gbp_yr=LOCO_MAINT_YR, maint_year=1900,
-                         perkm_gbp=LOCO_REPAIR_PERKM, perkm_year=1900,
-                         basis=(x.get('basis', '') + ' | Hill 1892: 253 GBP/engine-year and 1.61 d/km repair (19-company average) at 1900').strip(' |'))
+                A, mtrack = loco_maint(name, eng, yi)
+                steam = 'steam' in eng
+                share = 0.35 if steam else 0.39
+                fixed_share = 0.65 if steam else 0.60
+                km = loco_duty(name, yi)
+                rho = loco_renewals(yi)
+                head = A - rho * A - share * A
+                perkm = head * (1.0 - fixed_share) / km
+                x.update(maint_a_gbp=round(A, 1),
+                         maint_gbp_yr=round(head * fixed_share, 1), maint_year=1900,
+                         perkm_gbp=round(perkm, 10), perkm_year=1900)
+                x['basis'] = (x.get('basis', '') +
+                              ' | maintenance: A %s GBP an engine-year from %s; renewals %.1f '
+                              'per cent; works-overhaul provision %.0f per cent; the continuous '
+                              'head is %s GBP, split %.0f/%.0f fixed/per-km at the class/era '
+                              'distance of %s km a year'
+                              % (round(A, 1), mtrack, 100.0 * rho, 100.0 * share,
+                                 round(head, 1), 100.0 * fixed_share,
+                                 100.0 * (1.0 - fixed_share), format(int(km), ','))).strip(' |')
         elif freight and 'passagiere' in freight:       # carriage
             base = interp(CARRIAGE_PTS, intro or 1910)
             mods = []
