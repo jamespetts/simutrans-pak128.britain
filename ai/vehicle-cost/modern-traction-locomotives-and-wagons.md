@@ -69,8 +69,36 @@ whole replacement wagons; after 1911 it does not.**
 | 2024 (as reported) | GB Railfreight, wagon maintenance contracting | Full-service maintenance contracts with a delay payment from the maintainer for "a locomotive or wagon fault" | **Full-service contract**: covers all wagon maintenance; price not published | n/a | Total, contracted | as above | Secondary |
 | 2026 (as reported) | Porterbrook / GB Railfreight, 56 MWA box wagons | New wagons financed by Porterbrook for an 11-year contract with 7 Steel UK; built by W H Davis | **Capital and contract structure, not a maintenance cost** | n/a | n/a | Rail Market, "Porterbrook orders 56 MWA wagons for GBRf's Cardiff steel contract", 2026. https://en.railmarket.com/news/rolling-stock/66009 | Secondary |
 
-No British per-wagon-per-year maintenance figure for the modern period was located. See the
-Assessment for the route to one.
+No British per-wagon-per-year maintenance figure for the modern period was located in this
+document's own evidence, but research pass 43 closed the gap from a different source: the
+Beeching Report's 1961 functional split of working expenses gives £46.1m for 848,591 wagons =
+**£54.3 a wagon-year** in 1961 money, £9.84 in 1900 money (general index 552), on the heading "provision,
+maintenance, stabling and servicing" (capital provision included; bounded at 78 per cent by the
+£122.2m maintenance account line). The same table gives £55.0m for 46,089 multiple units,
+carriages and parcels vans, £1,012 a coach-year, so the wagon:carriage ratio is 5.4 per cent in
+1961 against 12.6 per cent in 1892. Research pass 43 recommends a wagon ladder of 4.2 / 8.7 /
+14.3 / 24.8 / 23.8 GBP (1900 money) per 10-tonne wagon-year at 1900 / 1950 / 1970 / 1990 / 2020,
+scaled by (payload/10)^0.4; a modern 100-tonne hopper then carries about £59.7, close to the
+workbook's 8-per-cent rule. The ladder is applied to the workbooks and the generator in pass 45.
+The evidence, the method and the error bars are in
+[research-pricing-report-43](../cost-balancing/research-pricing-report-43.md).
+
+### 3. Hauled coaches
+
+The same Beeching table gives the coach level: £55.0m for 46,089 multiple-unit cars, carriages
+and parcels vans = £1,193 a carrying vehicle-year, and £1,012 a coach-year with the MU cars
+removed at 1.75 times a coach. In 1900 money that is £183, against Hill's £34.3 gross (£22.3 net
+of renewals) in 1892. Research pass 43 extends the series: £374-686 a coach-year in 1984 (derived
+from the HST £2.28 a train-mile rate), £308-615 in 2013 (RDG EMU rate ÷ 3 for a coach) and
+£296-433 in 2024-25 (ORR medians ÷ 3). The recommended ladder is 33 / 140 / 265 / 460 / 440 GBP
+(1900 money) at 1900 / 1950 / 1970 / 1990 / 2020; pass 45 applies it, and pass 47 splits it into
+a continuous head and works-overhaul events of 28 / 24 / 19 / 12 / 10 / 8 per cent of the annual
+total by era ([research-pricing-report-44](../cost-balancing/research-pricing-report-44.md)).
+The
+wagon:carriage ratio falls from 12.6 per cent in 1892 to 5.4 per cent in 1961 and is held at 5.4
+per cent after; scaling wagons by the carriage index alone overstates the 1961 wagon by 2.35
+times, so the ratio must be allowed to decline. Evidence, method and error bars:
+[research-pricing-report-43](../cost-balancing/research-pricing-report-43.md).
 
 ---
 

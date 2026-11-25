@@ -1,6 +1,6 @@
 ---
 status: draft
-verified: New ex-15 @ 23149dd57 (working tree), 2026-11-25
+verified: New ex-15 @ 70a098c64 (working tree), 2026-11-25
 ---
 # Vehicle maintenance decomposition
 
@@ -22,8 +22,52 @@ archive visit (Kew, library, Chasewater, HMRS) to close one of the maintenance o
 this doc flags: it carries the orderable references, the transcription spec per document and the
 what-it-adds table.
 
+**Terms.** The **combined source figure** (the envelope) is one source figure that covers several
+cost fields of an asset object; the object's cost fields must together charge it. The
+**continuous head** (the head) is the part of that figure left after the components charged
+through other fields are removed. A **rung** is one
+era value in a class ladder; a **class ladder** is the ordered set of rungs. The **mean annual
+distance** is the class and era distance that converts an overhaul interval in years to kilometres
+and sets the reference duty for the fixed/per-km split; the table is
+[mean-annual-distance](mean-annual-distance.md). A **pass** is one numbered research report or
+workbook patch script in [cost-balancing](../cost-balancing/);
+[pass-history](../cost-balancing/pass-history.md) records what each pass applied.
+
 ## Standing rules
 
+0. **The decomposition rule: complete every cost field and charge no component twice.** Where
+   several cost fields for one asset object must be completed from a single data source that
+   gives one combined figure covering all of those fields, and no obtainable source provides a
+   breakdown, estimate a decomposition from inferences drawn from surrounding evidence, then
+   cross-check the result for plausibility and coherency.
+
+   The procedure:
+
+   1. **Establish the scope.** State which cost fields the source figure covers. If a source
+      gives a component individually for the object, use that component directly and do not
+      decompose the combined figure.
+   2. **Deduct only what the source contains and another field charges.** If the source includes
+      a component that another field charges, deduct it exactly once (for vehicle upkeep, renewals
+      are charged through the purchase price and works overhauls through the overhaul fields). If
+      the source gives the component separately, do not deduct it again. Do not deduct a
+      component the source has already put outside the figure.
+   3. **Estimate the split where it is not measured.** Use the nearest measured anchor (same
+      class, same era, or the nearest era), state the evidence and what would replace it, and
+      state which part the data constrain. A coherent estimate that keeps the fields summing to
+      the source figure is better than a precise figure that does not add up.
+   4. **Keep every field complete.** An empty overhaul field means that the vehicle is never
+      overhauled in game: its wear never resets, its availability never recovers and it never
+      enters works. Every vehicle needs an overhaul figure or a stated reason for zero.
+   5. **Test every row.** The fields must sum to the source figure after the components charged
+      elsewhere are removed. `wb_audit_coherence.py` checks coverage, a positive target or a
+      stated reason for zero, an interval, and the arithmetic. Run it after every pass.
+
+   Where data contradict a decomposition formula for any object or set, reconsider the formula:
+   discard it, modify it, or limit it to the range the data support, rather than only flagging the
+   row. Treatments by source: [source-composition](source-composition.md). The failures that
+   motivated the rule, and the pass records, are in
+   [cost-balancing/pass-history](../cost-balancing/pass-history.md).
+   `[USER-DIRECTION:2026-11-25]`
 1. **The current `.dat` values are not a basis for anything.** They are pre-calibration and will be
    replaced wholesale at the costing pass ([cost-balancing-register](../cost-balancing-register.md)
    "How to read"). Whatever the present balance does with a field — including charging carriage
@@ -146,26 +190,27 @@ the fixed/per-km split").
 ## Overhaul values by class
 
 Interval and cost share of the vehicle's new price. The engine's interval field is in kilometres,
-so each year-interval converts at the class's mean annual distance: `interval_km = interval_years x mean annual distance`
-(the mean annual distance decision below). Rung and direction for every row: report 40 §1-§1.5.
+so each year-interval converts at the class's mean annual distance: `interval_km = interval_years x mean annual distance`.
+The class and era values, their evidence and the rows they apply to are in
+[mean-annual-distance](mean-annual-distance.md). Rung and direction for every row: report 40 §1-§1.5.
 
 | Class | Interval | Share (initial -> max) | Basis | What would move it |
 |---|---|---|---|---|
 | Rail wagons | 6 yr (5-7) | 12% -> 20% | composed (rung 3): 7-year repair-contract terms, the 4-6-year periodic-overhaul (POH) analogue of the Indian Railways wagon manual, reconciled with measured £5-£5 8s 6d a wagon-year contracts (3.2-4% of new a year) | RCH per-job schedules (Chasewater 4778) or a wagon overhaul invoice; share could sit 8-25% |
-| Rail carriages | **per era** — see the era-band table below | 8% -> 27% (BR Mk 1 band; Victorian measured at 25%) | Hansard 11 Mar 1996 (2-yr cycle, BR); Mk 1 works overhaul 1982 ≈8%; Lacy & Dow 25% (1850s-60s) | era-band research in flight |
+| Rail carriages | **per era** — see the era-band table below | **share of the measured annual total, not of capital**: 28% / 24% / 19% / 12% / 10% / 8% of A from 1830 to 2026 | research pass 44: two measured events (Lacy & Dow £62 in the 1860s = 1.84 A; the 1982 York Works Mk 1 overhaul = 0.16 A) set the ends, the middle is interpolated | the four missing event prices named in report 44 §8 |
 | Steam locomotives | **per class** — see the archetype table below | 5% -> 15% (heavy general measured at 9-14% for GWR 28xx; share likely scales with class size) | GWR 28xx record card (IR yr 2, HO yr 6.5, HG yr 13-14); Fowler 1913 heavy/light scope definitions; Stanier's practice (JILocoE 43); Bond Table IV per-class values | per-class values reported (report 40 §1.8) — to be applied per row |
 | Diesel/electric locomotives | 2.75 yr, heavy at 11 yr | 7% -> 20% | Hansard 11 Mar 1996 (measured) intervals; shares provisional | Kew: COAL 101/164, AN 88/108, AN 112 standard charge schedules |
-| Multiple units | 5-6 yr (classified C6 cycle) | £ measured: 158 C6+ £180,000; 365 £187,500; LU 1996 stock £64,700/car; % awaits the multiple-unit purchase ladder | report 40 §1.3 | multiple-unit purchase ladder (report 39 §3) gives the denominator |
+| Multiple units | 8 yr in the workbook (measured C6 cycle); report 45 recommends 5 yr before 1948 and 6 yr to 1999, both ESTIMATE | 15% of A; event 1.2A, first 0.70 of the maximum over three | research pass 45/53: measured 158 C6+ £180,000; 365 £187,500; LU 1996 stock £64,700/car. The provision and the event are a share of the measured annual ladder, not of capital | measured interval for the C6 cycle; a measured pre-2000 interval and a measured annual distance for first-generation stock |
 | Buses | 4 yr (220,000 km) | 25% -> 40% | Aldenham £2,000 (1965) = 25-33% of a new double-decker (measured) | further municipal overhaul accounts |
 | Lorries | engine exchange 100,000-250,000 mi; complete overhaul 250,000 mi | 10% -> 30% | CM 1960/61/69: Cummins ReCon £394-473, Ford £39 exchange units (measured) | maker overhaul schemes (Gardner scheme unpriced) |
-| Trams | 12 yr (600,000 km) | 8% -> 45% | Metrolink mid-life £80,000; Supertram life extension £856,000 (knowledge base); E/1 class £400 a tram (1934); Feltham about £300 against a £500 secondhand price (1949) | pre-1950 municipal overhaul accounts |
+| Trams | 2 yr pre-1950; 3 yr 1950-90; 12 yr modern | Pre-1950 28% of gross A, event 0.35A rising to 0.75A; 1950-90 28% of the repairs-only rung, event 0.54A rising to 1.15A; modern 6%, one event of 0.75A; upgrade 22-50% of the new price by introduction year | research passes 47 and 49: measured municipal car-only returns 1923-33, Sheffield repairs 1938-50, estimate 1950-90; measured 1934 LCC E/1 rebuild and 2026 Supertram life extension for the upgrade | a measured municipal tramcar repairs figure after 1950 and a measured works-overhaul price |
 | Ships | 5 yr special survey | 2% -> 5% (bare survey + dock under 1.5%; with steel renewal 3-9%) | US National Academies tanker data; Hellenic Chamber provision (report 40 §1.5); "Earl of Essex" overhauled with new boilers £1,100 against £4,154 new (1877, ≈26%) | Drewry/Lloyd's repair records (paywalled) |
 | Aircraft | heavy check in a 6-check cycle; 6-10 yr | 2.5% -> 5% (airframe heavy check 0.8-1.1%; with engines and gear 2-5%) | Aircraft Commerce 777 guide; D-check 50,000+ man-hours (report 40 §1.5) | engine shop-visit prices in lessor filings |
 | **Comet 1** (special case) | replacement of the fatigue-doomed airframe ≈1,000 pressurisation cycles | 1,790,000 km = 1,000 cycles × the measured BOAC mean sector 1,790 km (sector-dependent: shorter sectors reach the limit sooner per km) | **67% -> 67%** (band 65-75; engines, avionics and interior are salvaged — user direction 2026-11-24 revised) | measured + estimate: fatigue failures at 903-1,286 pressurisations (C.A.P. 127; FAA ≈1,000; design assumption 10,000); salvage = engines 25-30% + avionics 8-10% + interior 7-10% less 8-12% extraction and refit. **Comet 4 and 1XB excluded** (report 40 §1.10). Direction: a Ghost engine unit price |
 | Narrow gauge, maglev | analogue of nearest class | analogue | rung 5 | any measured narrow-gauge overhaul |
 | Horses (the animals) | 7 yr (Leeds renewal cadence) | 70,000 km at an assumed 10,000 km/yr | **100% -> 100%** — the overhaul is the replacement at the end of working life | M: renewed about once every 7 years at cost = purchase price (1894-5 accounts, forum 6521 #116) |
 | Horse vehicles (carts, omnibuses, coaches, wagons) | 5 yr (estimate) | 50,000 km at an assumed 10,000 km/yr | 15% -> 30% (estimate) | rebuilding wheels, axles, springs, bodywork and paint; Lacy & Dow 25% carriage analogue. Moves: coaching/omnibus accounts |
-| Motor trailers and articulated bus sections | lorry cadence | 160,000 km | 10% -> 25% (estimate) | the lorry bands without the engine element |
+| Motor trailers and articulated bus sections | 11 yr (440,000 km) for a trailer; lorry cadence for an articulated bus section | trailer refurbishment 0.33 of capital, annual share about 3% | research pass 48; passes 54-55: measured TIP 2025 and Cooks 1988 refurbishments at about one-third of a new trailer | a measured trailer refurbishment price in another era; the unmeasured trailer composition |
 | Sailing craft, inshore/coastal (barges, wherries, brigs, schooners) | 5 yr (estimate) | 175,000 km at an assumed 35,000 km/yr (depends on the assumed mean annual distance) | 5% -> 15% (estimate) | hull, rig and spar refits; "Earl of Essex" overhaul 26% at 18 years as the analogue; refit share carved OUT of the Martin 5% provision. Moves: RMG barque accounts |
 | Sailing ships, deep-sea (clippers, windjammers, Blackwall frigates, barques) | 5-yr Lloyd's survey cycle (as steamers) | 500,000 km at an assumed 100,000 km/yr ocean-trade duty (depends on the assumed mean annual distance) | 3% -> 10% (estimate) | classed vessels surveyed like motor ships minus the machinery share; between the motor-ship and wooden-refit bands |
 
@@ -175,40 +220,54 @@ Notes:
   `max_overhaul_cost` over `overhauls_before_max_cost`) collapses an event ladder into one field:
   set `overhauls_before_max_cost` to the number of intervals reaching the heavy event (e.g. 4 for
   the diesel 2.75/5.5/11-year cycle).
-- **Interval coverage and the km gap.** Time-basis intervals are measured or composed for every
-  class above except narrow gauge and maglev (analogues only) and the per-class steam, diesel and multiple-unit
-  refinement (research in flight). But the engine triggers on **distance only** (zero disables
-  overhauls), and ships and aircraft have measured *time* intervals with **no km equivalent** —
-  the current sheet's "n/a km" means they would never be overhauled in-game. Estimated km
-  equivalents (ESTIMATE, rung 3): ships — 5-year survey at 200-250 sea-days a year at 9-12 knots
-  ≈ 100,000-130,000 km a year → **500,000-650,000 km** per cycle; aircraft — C-check every
-  4,000-6,000 flight-hours ≈ 3.4-5.1m km at cruise, heavy check (C6/D) at 23,000-35,000 FH ≈
-  **20-30m km**, with `overhauls_before_max_cost` set so the sigmoid reaches the heavy share at
-  the heavy check. Direction: in-game duty statistics would confirm or rescale both; the open
-  trigger decision below applies.
+- **Interval coverage and the km gap.** The engine triggers on **distance only** (zero disables
+  overhauls), so every time-basis interval needs a km equivalent. The class and era values are in
+  [mean-annual-distance](mean-annual-distance.md): carriages, wagons, locomotives, multiple
+  units, trams, buses, lorries, vans, cars, ships and maglev have a table value; aircraft use
+  the measured C-check event distance (4,000-6,000 flight hours, about 4.2m km at cruise) and a
+  separate heavy-check distance, with `overhauls_before_max_cost` set so the sigmoid reaches the
+  heavy share at the heavy check. The ship annual distance (115,000 km) and the aircraft annual
+  utilisation are estimates; a measured sea-days or annual-hours figure would replace them. The
+  trigger decision below still applies.
 - Overhaul cost is booked as vehicle maintenance and indexed on the `vehicle maintenance` series
   (vehicle-cost-model "Overhauls and upgrades").
 
 ### Carriage overhaul by era
 
-**Rule (user direction 2026-11-24): no single interval spans 1820-2026.** The 2-year/8%-27% rule is
-BR Mk 1/2 practice, not a universal. Era bands (research in flight: report 40 §1.10):
+**Rule (user direction 2026-11-24): no single interval spans 1820-2026.** The 2-year rule is
+BR coaching-stock practice, not a universal. The table below is research pass 44 §5, and its
+unit is a share of the measured annual maintenance total A, not a share of capital. Two
+measured events set the ends of the series: Lacy & Dow's £62 for a Midland composite carriage
+"repairing, repainting and retrimming" in the 1860s (1.84 × A) and the 1982 York Works Mk 1
+overhaul at "more than £2,000" (0.16 × A). The event stayed roughly flat in real money while A
+rose elevenfold, so the share must fall.
 
-| Era / type | Interval (heavy event) | Distance | Share (initial -> max) | Basis / direction |
-|---|---|---|---|---|
-| Victorian 4/6-wheel wooden (1830s-90s) | 4-6 yr (estimate) | 130,000-190,000 km | 8-10% -> **25% (M: Lacy & Dow £62 ≈ 25%)** | interval: NER 2.4 light visits/carriage-yr (measured and computed); GER varnish cycle; Hill envelope forces a 25% event to ≥5-yr spacing; lives ≈20 yr (Hawkshaw fund arithmetic) |
-| Late Victorian/Edwardian bogie (1890s-1920s) | 5-7 yr (estimate) | 200,000-280,000 km | 20-25% (estimate) | component check: bogies £33 ≈ 4-5% of a £700-900 carriage; steel underframes lengthen cycles. Moves: NER repair entries |
-| Grouping steel-panelled (1920s-40s) | 3-4 yr | 100,000-160,000 km | 15-25% (estimate) | interval **computed from GWR 1935 capacity** (3,000 heavy repairs on 8,948 vehicles); St Rollox 1945 heavy 36/wk (measured); progressive repair cut costs 30% |
-| BR Mk 1/2 (1951-75) | **two-speed (measured): coded visits ≈2 yr; full renovation at years 9-11 and 19-21** | 80,000-160,000 km per visit | 8% -> 25-27%, rungs ≈5 to the renovation | 1965 Code of Practice M.C.65/80 + 1966 C1-C6 scopes + target days C1 20 / C2 18 / C3 14 / C4 10 (all M); Mk 1 1982 ≈8% |
-| BR Mk 3+ (1975-2000s) | balanced ≈2 yr; **heavy structural 10-12 yr (Chiltern)** | 400,000-600,000 km | 5-8% -> 12-15% (estimate) | 1978 annual Derby overhaul 15 working days (measured); 2016 A/B 15k/30k, balanced 90k, C4 bogie 600-750k mi (measured). Moves: HMRS 1993 draft overhaul specification (archive enquiry) |
-| Modern (2000s-2026) | heavy ≈950 days (stated) | 400,000-500,000 km | 8-12% (estimate) | IET 10/50/950-day regime (paywall extraction); ORR 2022 exam structure (measured); GWR 802 contract £1.67m a train-year all-in |
+| Era / type | Interval (heavy event) | Interval km (reference duty) | Provision, % of A | Event, × A | Basis / direction |
+|---|---|---|---|---|---|
+| Victorian 4/6-wheel wooden (1830s-90s) | 6 yr (5-8) | 210,000 (35,000 km/yr) | **28%** (15-31) | 1.68 | £62 = 1.84 A (MEASURED event, A proxied by 1892); NER 2.65 works visits a carriage-year and GER 5-year paint cycle bound the interval (ESTIMATE); Hill's envelope forces 6-8 yr for a 25%-of-capital event |
+| Late Victorian/Edwardian bogie (1890s-1920s) | 5 yr (4-6) | 180,000 (36,000 km/yr) | **24%** (15-30) | 1.20 | interpolated between the two anchors; GWR 1935's 3.0-year heavy interval as the lower bound |
+| Grouping steel-panelled (1920s-40s) | 3.0 yr (2.5-4) | 165,000 (55,000 km/yr) | **19%** (15-25) | 0.57 | interval MEASURED: Swindon 3,000 heavy repairs on 8,948 coaching vehicles, 1935; provision interpolated |
+| BR Mk 1/2 (1948-75) | **2 yr** (2-3) | 176,000 (88,000 km/yr) | **12%** (8-18) | 0.24 | Hansard 11 Mar 1996: full overhaul "approximately every two years"; 1965 code renovation at years 9-11 and 19-21; 1982 £2,000 = 0.16 A |
+| BR Mk 3+ (1975-2000) | 2 yr (1-4) | 240,000 (120,000 km/yr) | **10%** (7-15) | 0.20 | 1978 HST annual works overhaul; C4 bogie at 600,000-750,000 miles |
+| Modern (2000-26) | 2.6 yr (2.6-5) | 294,000 (113,000 km/yr) | **8%** (6-12) | 0.21 | IET heavy overhaul at about 950 days; Sprinter specification 5 years / 350,000 miles |
 
-**The cycle is two-speed in every BR band**: frequent light coded visits plus a decennial full
-renovation. The engine's single interval + sigmoid models it with `overhauls_before_max_cost` =
-coded visits per renovation (≈5 at 2-year visits; ≈2 at 4-year). Hansard 1996's "2-year full
-overhaul" and the 1965 code's "10-year full renovation" are the visit cadence and the top event of
-one ladder, not a conflict. The C1-C6 definitions themselves are recovered (railcar.co.uk — the
-PDFs are fetchable with a browser-header Referer; the earlier "bot-blocked" note is struck).
+**How the engine holds it.** The interval field is the heavy event. The first overhaul costs
+0.70 of the maximum and the maximum is reached over three events (research pass 44 §6); the
+smoothstep is symmetric, so the mean event is (first + max)/2 and the events amortise to the
+provision. The light works visits are not a separate charge: they are inside the continuous
+head, which is A less renewals less the provision.
+
+**The anchors.** The Victorian £62 overhaul is 24.8-27.6 per cent of the £225-250 composite
+price ([report 53](../cost-balancing/research-pricing-report-53.md)); the £450-500 alternative
+has no source. The BR Mk 1 £2,000 event is 0.16 × A (£57 in 1900 money); the 8-27 per cent band
+in report 36 is not used. The km column is the band's reference duty, stated in every row's
+basis.
+
+**Research pass 51 (not yet applied).** The 1920 and 1950 points are the weakest in the series.
+New measured inputs give 39 GBP a carriage-year at 1920 (band 28-55) and 121 at 1950; 1948 falls
+at 112 and 1966 at 226. The 1990 rung of 460 stands untested. The workbook uses 140 at 1950
+until the re-base; [report 51](../cost-balancing/research-pricing-report-51.md) is the evidence
+for the next carriage pass.
 
 ### Steam overhaul intervals — per class, by archetype
 
@@ -277,17 +336,17 @@ table's decision.
   Table IV/V, passenger wheel turning long-interval (140,000 miles or annual), body/roof/paint/
   upholstery time-based. Direction: post-1911 repairs-vs-renewals columns; car works job-cost
   records; the ORR RSMR final coefficients if published.
-- Overhaul: the table above (2 years; 8% -> 27%). Upgrades: brake pairs at 7.7%, structural
+- Overhaul: the era table above (share of A, not of capital). Upgrades: brake pairs at 7.7%, structural
   conversions 25-30% (below).
 
 ### Rail wagons
 
 - **Renewals provision**: **≈50% (40-60) of Hill's £4 4s**; life 30-35 years (Hill App. III Table XXV:
   3.1% a year by number; statutory Abstract B wagon shares measured 21-68%; rate × price ÷ Hill's
-  total = 52-55%). Rung 1. The share applies to Hill's wagon head; the workbook's wagon head is the
-  8-per-cent-of-capital rule, whose composition is unrecorded
-  ([source-composition](source-composition.md)), so no renewals share is deducted from it and the
-  wagon rows are written whole.
+  total = 52-55%). Rung 1. The workbook's wagon head is the measured wagon ladder (research pass
+  46): head = 0.8A and the event 1.2A every six years. The composition of the wagon ladder is
+  unrecorded, so no separate renewals share is deducted
+  ([source-composition](source-composition.md)).
 - **fixed/per-km split of the routine remainder: 65/35** (rung 1-3, low-medium confidence): wages track
   stock almost exactly (+9.6% vs +9.5% over five years) and cost is not mileage-driven (December
   halves +39% on +5% miles — Hill IV/V); wheelset work on 250,000 km cycles is the main distance
@@ -296,18 +355,44 @@ table's decision.
   increment as 300-600 EUR/year or 0.01-0.02 EUR/km. Direction: a full-service contract split into
   standing and mileage; a wheelset/brake/body cost-share build.
 - Note the utilisation unit: Hill's is goods train-miles per wagon in stock (418-455 a year).
-  Overhaul: the table above (6 years; 12% -> 20%). Upgrades: brake pairs 10-20% (below).
+  Overhaul: six years; head 0.8A, event 1.2A (research pass 46). [Report 52](../cost-balancing/research-pricing-report-52.md)
+  finds the HMRS 1972-81 repair-cost data are archive-only (SKU ME0354) and no readable measured
+  wagon repair cost for that window; the documented seven-year BR cycle for HAA wagons supports
+  the six-year band, and the 1.2A event remains an ESTIMATE. Upgrades: brake pairs 10-20% (below).
 
 ### Rail locomotives
 
+- **The level: a dated ladder, not one era-blind figure** (research pass 46). 215 / 306 / 800 /
+  2,100 / 1,045 / 520 GBP per engine-year in 1900 money at 1900 / 1950 / 1961 / 1977 / 1995 /
+  2020, log-linear between and flat outside. Hill's figure is the 1892 nineteen-company average
+  (GBP 208 18s.), **not** the GBP 253 the generator had used, which is the Great Western maximum.
+  The ladder rises to a 1970s peak and falls about fourfold to the Class 66 generation. A
+  straight-electric locomotive takes 0.5 of the rung (Calder's Class 87 is 52 per cent of the
+  Class 47 on the same duty); steam introduced after 61 stays on the 1961 rung, because the modern
+  fall is a property of the Class 66 generation, not of steam.
+  [research pass 46](../cost-balancing/research-pricing-report-46.md). The measured
+  1913-1938 Ministry returns validate the 1900-1950 interpolation within 5 per cent in every
+  stable year; the 1920-21 spike is arrears of repairs and is not a rung. The series changes
+  composition at 1950: the pre-1950 points are gross of renewals and the 1950 point is repairs
+  only, so a 25 per cent renewals deduction requires the 1950 rung to be entered as 408 gross to
+  return 306 net. The modern series is two class tracks: the diesel/freight line is 2,100 (1977)
+  to 1,045 (1995) to 520 (2020, Class 66), and the electric passenger line is 1,103 (1977,
+  Class 87) to 1,045 (1995) to 868 (2018, measured Class 92 contract). The 868 is a class override,
+  not a new time rung. The workbook currently applies the single time ladder; the Class 92
+  override is the next locomotive pass.
+  [Research pass 50](../cost-balancing/research-pricing-report-50.md).
+- **The per-km rate is derived from the ladder, never added to it.** Hill's per-engine-year and
+  per-train-mile figures are the same money (2.51d. x 20,164 miles = the annual figure); a
+  separate per-km charge of the annual total would double count it. The per-km rate is the
+  variable share of the head over the row's own mean annual distance.
 - **Renewals provision**: **≈25% (20-30) of the total** — complete renewals only; 55-65% if partial
   renewals are excluded too — life 25-30 years (Hill App. III Table XXIII 3.6%/yr; statutory
-  Abstract B loco shares 5-18% for rebuilders, 13-18% for renewers). Two corrections to earlier
-  notes: Price Williams's "money life" (10.81 yr) is a payback coefficient, not a service life
-  (NER ultimate life 25 years; PW models 30), and his £139.91 an engine-year is a
-  component-renewal schedule (repairs **and partial renewals**), not the capital share — netting
-  it would strip boiler/tyre/tube work that belongs to maintenance or the overhaul fields. The
-  capital share is net cost ÷ service life ≈ £60-75 an engine-year. Rung 1.
+  Abstract B loco shares 5-18% for rebuilders, 13-18% for renewers). Price Williams's "money
+  life" (10.81 yr) is a payback coefficient, not a service life (NER ultimate life 25 years; PW
+  models 30). His £139.91 an engine-year is a component-renewal schedule (repairs **and partial
+  renewals**), not the capital share; netting it would strip boiler, tyre and tube work that
+  belongs to maintenance or the overhaul fields. The capital share is net cost ÷ service life,
+  about £60-75 an engine-year. Rung 1.
 - **fixed/per-km split of the routine remainder: steam 60/40; diesel/electric 50/50** (rung 2/3, low to
   low-medium). Steam: known distance items are only about 12% of the per-train-mile cost (tyres
   0.052pence per mile, boiler 0.24pence per mile) but axle exams (250,000 miles) and tyre lives are mileage-gated
@@ -321,15 +406,19 @@ table's decision.
 
 ### Multiple units
 
-- **Renewals provision**: **≈30% (25-45)**; life 25-40 years (ROSCO policy 30-35: Angel 2023/25,
-  Porterbrook 2024, ORR 2020; Southern EMU measured 32% in the 1933 statutory accounts). Rung 1-2.
-- **fixed/per-km split of the routine remainder: 50/50** with diesel/electric locomotives (above). Modern
-  anchors: ORR RSMR 2026 medians £0.72-1.88 a vehicle-mile (£93k-285k a vehicle-year by contract
-  type); LU levels 1-3 £25,700 a car-year standing; the lease form is standing + mileage
-  (Porterbrook accounts). Direction: ORR RSMR final coefficients; SPARK MR-MEA-005 (Class 150/1
-  typical maintenance costs).
-- Overhaul: the table above (C6 cycle; £ measured per vehicle). Upgrades: refresh 8-12%,
-  re-tractioning 20-25% (below).
+- **Renewals provision: 0 per cent.** The research pass 45 ladder is a total-maintenance figure
+  with vehicle renewal and the capital lease outside it, so no renewals deduction is taken.
+- **Fixed/per-km split of the routine remainder: 50/50** at the reference duty. The table gives
+  100,000 km a car-year before 1960, 120,000 km from 1960 to 1999 and 161,000 km from 2000
+  (100,000 miles); tube, LUL, Underground, DLR, Docklands and Tyne & Wear stock take 120,000 km
+  in every era. Modern anchors: ORR RSMR 2026 medians £0.72-1.88 a vehicle-mile
+  (£93k-285k a vehicle-year by contract type); LU levels 1-3 £25,700 a car-year standing; the
+  lease form is standing + mileage (Porterbrook accounts). Direction: ORR RSMR final
+  coefficients; SPARK MR-MEA-005 (Class 150/1 typical maintenance costs).
+- Overhaul: 15 per cent of A, event 1.2A every eight years, first event 0.70 of the maximum over
+  three. Report 45 recommends five years before 1948 and six years to 1999, both ESTIMATE; the
+  workbook uses eight years for the whole fleet. Upgrades: refresh 8-12%, re-tractioning 20-25%
+  (below).
 
 ### Road vehicles (buses, coaches, lorries, vans)
 
@@ -350,27 +439,46 @@ function of duty — 47% → 22% as a bus's weekly mileage goes 200 → 600.
 | Lorry | ≈ £4,400/vehicle-year (2016) | 13.6 pence per mile | 33-39% at 50-65,000 mi/yr | 1 (measured, FTA 2016 bands decomposed) |
 | Van | bus/lorry interpolation | as above | 35-45% at ~25,000 km/yr | 3-4 (duty interpolation of the 1959 curve) |
 
-The old 75/25 distance/standing rule is retained only as the busy-urban-duty check; the entered
-values are the absolute forms. What would move these: a second multi-mileage CM table (bus/coach),
+The 75/25 distance/standing rule is the busy-urban-duty check; the entered values are the
+absolute forms. What would move these: a second multi-mileage CM table (bus/coach),
 FTA originals with more bands (lorry), a 1930s CM van table at multiple mileages (van).
 
 ### Trams and light rail
 
-**Renewals provision: 30-50% of the car-only figure** (estimate — the statutory head is "General Repairs and
-Maintenance (or Renewals out of Revenue)", so renewals charged to revenue sit inside it; fund
-renewals outside). Life 25-35 years (statutory loan 15; Supertram life-extension at 32-34). The
-head does not state that works overhauls are inside it, so no overhaul provision is deducted from
-it ([source-composition](source-composition.md)); the modern availability contracts are recorded
-there as an open question and are written whole.
+**The measured annual total is the envelope (research passes 47 and 49).** The annual figure A
+is in 1900 money a car-year at 48,000 km (90,000 km from 1990). The pre-1950 series is the
+Ministry of Transport gross car-only figure: 84 at 1900-13, 131 at 1920, 106 at 1931, 89 at
+1939, with renewals inside. The 1950-90 rung is **150 repairs-only** (band 130-210), from the
+measured Sheffield 1949-50 repairs line of 147.3; renewals are outside that head
+([report 49](../cost-balancing/research-pricing-report-49.md)). The 1990-2026 value is 1,177
+from the 2011 Nottingham Express Transit availability contract, a different scope again. The
+scope changes at 1950 and 1990 are source changes, not arithmetic errors; each row's note states
+which basis it uses. The historic series covers cars and equipment only; permanent way, line
+electrical equipment, power, traffic, rates, insurance and general expenses are outside it.
 
-**40-55% standing** (rung 2/5): modern contracts are per vehicle-year availability payments (NET:
-£118,657 a tram-year), overhauls are calendar events, and buses at similar duty measure 22-33%
-standing. The historic MoT car-only series (1.98 → 1.52d per car-mile, 1923-33) aggregates standing
-decay with distance wear and cannot be split from the returns. Fixed level to derive from the
-car-only totals at the class duty. What would move it: a municipal abstract separating time-based
-from mileage-based car work; CoMET benchmarking data. **Renewals note**: the one directly measured renewals share anywhere is a steam
-tramway's — Dewsbury 1885 running cost 3.13d per car-mile including **0.8d renewals ≈ 26%** (forum
-6521 post #116; report 40 §1.6).
+**Deductions and split.** Pre-1950 gross rows deduct renewals at 35 per cent of A (central; the
+only measured share is Dewsbury 1885 at 26 per cent, band 26-50) and a works-overhaul provision
+of 28 per cent of A at two years; the event is 0.35A for the first overhaul rising to 0.75A
+over three, 96,000 km, 0.4 months. The 1950-90 repairs-only rows deduct no renewals and a
+28 per cent works-overhaul provision at three years; the event is 0.54A for the first overhaul
+rising to 1.15A for the late-life overhaul, a mean of 0.85A, 144,000 km, 0.5 months. Modern
+rows deduct no renewals and a 6 per cent provision at twelve years; one event of 0.75A,
+1,080,000 km, 0.8 months. The continuous head is A less renewals less the provision, split
+50/50 standing and distance (the measured band for the standing share is 40-55 per cent). The
+1950-90 rung remains an estimate constrained by the Sheffield measurement; the research route is
+the Ministry "Tramways and trolley vehicle undertakings" volumes and the Glasgow, Sheffield and
+Blackpool accounts.
+
+**Rebuilds are upgrades, not overhauls.** The 1934 London County Council E/1 rebuild at GBP 400
+a car (20-27 per cent of a new car) and the 2026 Supertram life extension at GBP 856,000 a tram
+(43-50 per cent of a new tram) are `upgrade_price` events. The workbook uses 0.22 of the new
+price for trams introduced up to 1950, rising linearly to 0.50 by 1990 and held at 0.50 after
+that. The Metrolink 2004 mid-life refurbishment at GBP 80,000 is the modern works overhaul
+(about 8 per cent of a new T68), not an upgrade.
+
+**What would move it.** A measured municipal tramcar repairs figure after 1950; a works order
+for a two-yearly complete overhaul at Charlton, Coplawhill or Kirkstall; a measured renewals
+share for electric tramcars; a measured modern heavy-exam interval.
 
 ### Ships and inland boats (powered)
 
@@ -406,13 +514,36 @@ per-km rate with the sector-length caveat recorded. What would move it: IATA MCX
 ### Horses and horse vehicles
 
 **No per-km figure** (rule 2). Horses: keep £28-60/yr, central £45, excluding the horsekeeper's
-wages (staff are charged separately) — measured, rung 1. Horse vehicles: all repair accounts are
-per-year (1760s coach £70 a coach-year, about 70% of capital; no horse-drawn goods repair account
-exists). Enter the whole maintenance figure in `fixed_cost`, `runningcost` 0.
+wages (staff are charged separately) — measured, rung 1. A pair takes twice the figure, 90 a
+year. The overhaul is the replacement at the end of working life, 100 per cent of the purchase
+price at 70,000 km (the seven-year Leeds cadence at 10,000 km a year). Horse vehicles: all
+repair accounts are per-year (1760s coach £70 a coach-year, about 70% of capital; no horse-drawn
+goods repair account exists). Enter the whole maintenance figure in `fixed_cost`, `runningcost`
+0. Every animal row uses this rule, including the six horses on the tram sheet.
 
 ### Narrow gauge and maglev
 
-*(pending: analogue estimates only)*
+**Narrow gauge.** The gauge is not a variable in any carriage, wagon or locomotive
+source, so the narrow-gauge vehicles take the class rules unchanged, and all 73 carry both a
+continuous head and an overhaul target:
+
+- **34 carriages**: the carriage era bands (28 / 24 / 19 / 12 / 10 / 8 per cent of A at 6 / 5 /
+  3 / 2 / 2 / 2.6 years), the measured total as the envelope. Many of these rows had also
+  inherited the modern mainline carriage duty of 172,600 km a year as a family default; it is
+  corrected to 40,000 km a year, inside the measured 29,000-41,000 km a carriage-year of 1892.
+- **14 wagons and vans**: head = 0.8A, overhaul event = 1.2A every six years at the 40,000 km/yr
+  reference duty.
+- **17 locomotives**: the class profile every other locomotive carries (steam 5 and 15 per cent
+  of capital over four events at 150,000 km, the Festiniog archetype; diesel 7 and 20 over three
+  at 300,000 km). These are the one rail group still on a capital share rather than a measured
+  envelope; see the open question below.
+- **3 horses**: the replacement at 100 per cent of the purchase price at 70,000 km (standing
+  rule 2). The same correction was applied to the 16 animal rows on the other sheets, which
+  pass 40 had given the locomotive, tram or ship overhaul because it keyed on the sheet rather
+  than on the animal.
+- **5 multi-part sections**: zero, the leading unit carrying the consist.
+
+**Maglev** remains on the overseas-system analogue; see [maglev-costs](maglev-costs.md).
 
 ## Upgrade costs
 
@@ -424,9 +555,10 @@ Measured events and the full class-rule table: [research-pricing-report-40](../c
 - Diesel heavy rebuild 30-35% (Class 47→57, measured); re-engine only 10-15%; steam reboilering
   20-27% (boiler share, measured); steam donor-parts class conversion **85-100% of new** (Grange
   £5,000 — not a cheap conversion); multiple-unit refresh 8-12% / re-tractioning 20-25%; carriage structural
-  conversion 25-30%; bus refurb 25-30% / rebuild 50%; lorry rebuild 50%; tram life extension
-  45-50%; aircraft cabin variants **1-5%** (reject the blanket 50% for variant links; P2F is
-  measured at 4-8% of new list).
+  conversion 25-30%; bus refurb 25-30% / rebuild 50%; lorry rebuild 50%; tram rebuild 22% for
+  pre-1950 stock rising linearly to 50% by 1990 (research pass 47; the 1934 LCC E/1 and 2026
+  Supertram measured rebuilds); aircraft cabin variants **1-5%** (reject the blanket 50% for
+  variant links; P2F is measured at 4-8% of new list).
 
 **Mapping to `upgrade_price`** — definitions: C = target's `cost` (the engine's default
 `upgrade_price`); B = measured works bill; R = the resale credit the engine withholds on the old
@@ -457,16 +589,17 @@ it on the right basis.
 - `max_running_cost`, `increase_maintenance_by_percent` and
   `years_before_maintenance_max_reached` are engine defaults, not calibrated; should the pakset set
   them per class?
-- How is the mean annual distance per class to be fixed — from in-game utilisation assumptions, or
-  from historical utilisation (Hill's goods train-miles per wagon-year, modern vehicle-mile
-  statistics)? The fixed/per-km split is sensitive to it whenever a per-year figure is the only evidence.
+- **Mean annual distance.** The class and era table is in
+  [mean-annual-distance](mean-annual-distance.md). The outstanding gaps are the carriage 1920 and
+  1950 levels (report 51 recommends 39 and 121 against the current interpolations), the
+  locomotive 1914-48 and post-1977 levels (report 50), road annual distances, the ship annual
+  distance and aircraft utilisation.
 - Do Hill's repairs contain works overhauls? Until a company repair account (or the post-1911
   "Repairs and partial renewals" column) itemises a heavy general inside the repairs element, the
   rail rows deduct renewals only.
-- What composition does each recorded-as-unrecorded head have (the wagon 8-per-cent rule, the
-  motor-trailer 5-per-cent rule, the water 2-per-cent rule, the aircraft 20-per-cent rule, the
-  modern tram contract)? Each row's note names the passage that would settle it; the full list is
-  in [source-composition](source-composition.md) "Open questions".
-- Do the `Overhauls & upgrades` sheet's road overhaul provisions fit inside the Commercial Motor
-  maintenance heads? On a large minority of road rows the provision exceeds the whole head, and
-  those rows are written whole with the arithmetic on the note.
+- What composition does each recorded-as-unrecorded head have (the water 2-per-cent rule, the
+  aircraft 20-per-cent rule, the modern tram contract, the FTA trailer line)? Each row's note
+  names the passage that would settle it; the full list is in
+  [source-composition](source-composition.md) "Open questions".
+- The trailer refurbishment composition is unmeasured: the FTA line gives no workscope, and the
+  0.33-of-capital event is a measured refurbishment price applied to an unmeasured annual total.

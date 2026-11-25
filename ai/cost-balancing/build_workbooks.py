@@ -1177,7 +1177,9 @@ def build_overhaul_sheet(wb, rows, prows, ev, en):
         x = ev.extrapolation(cls, base, pick(row, 'cost'), 0.00396311, intro)
         if x:
             cap = x.get('capital_gbp')
-        prof = ev.overhaul_profile(cls, base, cap, intro)
+        prof = ev.overhaul_profile(
+            cls, base, cap, intro,
+            (x or {}).get('maint_a_gbp', (x or {}).get('maint_gbp_yr')))
         if not prof:
             continue
         other = pick(row, 'other_cost_fields') or ''

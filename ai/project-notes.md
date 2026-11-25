@@ -1,6 +1,6 @@
 ---
 status: stub
-verified: New master @ 4fffcc19e
+verified: New ex-15 @ 70a098c64 (working tree), 2026-11-25
 ---
 # Project notes
 
@@ -45,7 +45,7 @@ capture rule). `[USER-DIRECTION:2026-11-15]`
 - The pakset has two halves kept in two repositories: the compiled sources in `New/` and the
   Blender meta-sources in `Git Blends/Pak128.Britain-blends/`. A graphics change normally starts
   in the latter and ends as `.png` files in the former.
-- AI `.blend` work now runs in a live Blender 4.5 session through MCP; that is the only
+- AI `.blend` work runs in a live Blender 4.5 session through MCP; that is the only
   process shown to work to any extent, and the extent is still being established (2026-11-15).
   Under the superseded pre-MCP script pipeline, novel `.blend` creation was unstable while
   minor edits and the `.blend`→`.pak` pipeline were workable. AI readings of renders inform
@@ -53,7 +53,7 @@ capture rule). `[USER-DIRECTION:2026-11-15]`
   [graphics/blend-creation](graphics/blend-creation.md); procedure:
   [graphics/ai-pipeline](graphics/ai-pipeline.md).
   `[RECOLLECTION:2026-09-27]` `[USER-DIRECTION:2026-11-15]`
-- Private cars are now produced by a divided workflow: the orchestrating agent researches
+- Private cars are produced by a divided workflow: the orchestrating agent researches
   identity, photographs, dimensions, colour range and dates, writes a build brief that carries
   the image files, and does the `.dat`, text entry and compile; a delegated builder agent on
   GPT-6.1 Sol builds the geometry in the live Blender MCP session. The builder must view the
@@ -77,6 +77,31 @@ capture rule). `[USER-DIRECTION:2026-11-15]`
   the user identifies GPT 6.1 Sol as the only successful model so far and a Terra model
   (as offered, GPT-5.6 Terra) as worth trying; the unsuccessful models are recorded there.
   `[USER-DIRECTION:2026-11-15]` `[RECOLLECTION:2026-11-15]`
+- Decomposition is a last resort, not a default. Subtract a component from a combined cost
+  figure only where a source gives a confirmed combined total, the component is not stated
+  separately, and the basis has been assessed against the data. Where a source gives a component
+  individually for a vehicle, use it directly and never decompose. If data contradict a
+  decomposition formula for any vehicle or set, reconsider the formula — discard, modify or
+  limit it — rather than only flagging the row. Rule and treatments:
+  [vehicle-cost/source-composition](vehicle-cost/source-composition.md). `[USER-DIRECTION:2026-11-25]`
+- Maglev prices use the costs of overseas maglev systems adjusted for differing labour costs,
+  because there are no mainline maglevs in Britain. Rule, evidence, conversion and open
+  questions: [vehicle-cost/maglev-costs](vehicle-cost/maglev-costs.md). `[USER-DIRECTION:2026-11-25]`
+- **The decomposition rule: complete every cost field and charge no component twice.** Where a
+  data source has one combined figure covering several cost fields, and no obtainable source
+  provides a breakdown, estimate a decomposition from inferences drawn from surrounding
+  evidence, then cross-check the result for plausibility and coherency. An empty overhaul field
+  means that the vehicle is never overhauled in game. The failure modes that motivated this rule
+  are recorded in [pass-history](cost-balancing/pass-history.md). Full rule, worked examples and
+  the acceptance test:
+  [vehicle-cost/maintenance-decomposition](vehicle-cost/maintenance-decomposition.md) standing
+  rule 0; automated check:
+  [wb_audit_coherence](cost-balancing/wb_audit_coherence.py). `[USER-DIRECTION:2026-11-25]`
+- **Mean annual distance is a class and era table, not a per-row default.** The value converts an
+  overhaul interval in years to the engine's kilometre field and sets the reference duty for the
+  fixed/per-km split. The table, its evidence and the rows it applies to:
+  [vehicle-cost/mean-annual-distance](vehicle-cost/mean-annual-distance.md); check:
+  `cost-balancing/wb_distance_check.py`. `[CODE New ex-15 @ 70a098c64 (working tree)]`
 
 ## Planned sections
 

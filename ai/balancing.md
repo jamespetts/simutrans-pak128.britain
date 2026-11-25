@@ -1,6 +1,6 @@
 ---
 status: draft
-verified: New ex-15 working tree, 2026-11-23
+verified: New ex-15 @ 70a098c64 (working tree), 2026-11-25
 ---
 # Balancing
 
@@ -46,6 +46,17 @@ be economically and historically realistic.
   as the feature set permits. `[FORUM:https://forum.simutrans.com/index.php/topic,21310.0.html]`
 - Much of the full balancing work described in the thread is still in the future for the ex-15
   engine version. `[RECOLLECTION:2026-09-19]`
+- **The decomposition rule (user direction 2026-11-25).** Where several cost fields for one asset
+  object must be completed from a single data source that gives one combined figure covering all
+  of those fields, and no obtainable source provides a breakdown, estimate a decomposition from
+  inferences drawn from surrounding evidence, then cross-check the result for plausibility and
+  coherency. Take particular care not to double count: a component that the combined figure
+  already contains must not be charged again through another field. An empty overhaul field means
+  that the vehicle is never overhauled in game, so every vehicle needs an overhaul figure or a
+  stated reason for zero. Where the split is not measured, state the evidence the estimate rests
+  on and what would replace it. Rule and acceptance test:
+  [vehicle-cost/maintenance-decomposition](vehicle-cost/maintenance-decomposition.md) standing
+  rule 0; `New/ai/cost-balancing/wb_audit_coherence.py`. `[USER-DIRECTION:2026-11-25]`
 - The vehicle cost balancing in the project takes effect only after ex-15 with its inflation
   feature; without year-indexed price adjustment, the calibrated vehicle figures cannot apply.
   `[RECOLLECTION:2026-09-19]`
@@ -127,7 +138,7 @@ be economically and historically realistic.
   survey data cited in the file. `[CODE New master @ eff439751]`
 - Calibration rule: compare trips generated per person per 6.4-hour month across all modes,
   including walking. Rail-only passenger counts are not a valid basis, as they depend on
-  service levels and competing private cars. Earlier calibration discussion lives in threads
+  service levels and competing private cars. Calibration discussion lives in threads
   9981, 10953, 12551, 17336 and 18423.
   `[FORUM:https://forum.simutrans.com/index.php/topic,21310.msg198373.html#msg198373]`
 - Tolerances: commuting `min_commuting_tolerance = 30` with `range_commuting_tolerance = 180`;
@@ -185,7 +196,7 @@ be economically and historically realistic.
   rates and engine settings on `Params`, and the classes and evidence keys on `Index`. Take a
   current cost or maintenance figure from these two files.
   `[CODE New ex-15 working tree, 2026-11-23]`
-- **Superseded cost papers, kept only as the record of how a figure was derived.**
+- **Cost papers kept as the record of how a figure was derived.**
   `Vehicle cost table.ods` (2018) and `Infrastructure balancing calibration.ods` and
   `Infrastructure balancing calibration-2.ods` (2022 and 2023). The `-2` file is the calculation
   behind the forum thread tables and still holds the currency conversion, the historical and
@@ -195,7 +206,7 @@ be economically and historically realistic.
   `[CODE New ex-15 working tree, 2026-11-23]`
 - Vehicle operating physics: `steam-physics-calcs.ods`, `road-vehicle-physics-calibration.ods`,
   `Rolling resistance calcs.ods`, `Multiple unit TE extrapolation.ods`, `Track weights.ods`,
-  `Horses cost table.ods`. These are not superseded; no cost figure is taken from them.
+  `Horses cost table.ods`. No cost figure is taken from them.
   `[CODE New master @ c842afdbd]`
 - Passenger capacity and comfort: `Comfort calibration overview.ods` (sheets `Overview` and
   `All vehicles`), `Exp-Cater-Comfort-Capacity.ods`, `Passenger density calculations.ods`,
@@ -242,7 +253,7 @@ be economically and historically realistic.
   derivation is in [vehicle-cost-model](vehicle-cost-model.md) and the `README` sheet of each cost
   workbook; what remains open is the conversion question in
   [balance-synthesis](balance-synthesis.md).
-- Were any present `.dat` cost values set from a superseded working paper (`Vehicle cost table.ods`
+- Were any present `.dat` cost values set from a working paper (`Vehicle cost table.ods`
   or `Infrastructure balancing calibration-2.ods`) rather than from the live workbooks, and if so
   which?
 - What yearly factors should `New/config/prices.tab` record per price type, and from which

@@ -1,6 +1,6 @@
 ---
 status: draft
-verified: New ex-15 @ 184d0d1d3 (working tree), 2026-11-24
+verified: New ex-15 @ 70a098c64 (working tree), 2026-11-25
 ---
 # Cost data coverage
 
@@ -34,7 +34,7 @@ Kew-only); no price surface can be fitted (only eight classes matched to a pakse
 pre-1890 repair gap is closed — Price Williams (ICE 1870, 12 companies) and McDonnell (ICE 1877)
 give £195-357 per engine-year / 2.68-4.39d per train-mile for 1858-76, so the 1892 extrapolation
 is roughly right per engine-year but understates per train-mile — and the per-hour British
-diesel/electric operating figure now exists as a chain (Beeching 1961 per train-mile by traffic;
+diesel/electric operating figure is a chain (Beeching 1961 per train-mile by traffic;
 TRB 1975 per locomotive-hour; Serpell per passenger-mile; ORR from 2000-01 per vehicle-km and per
 train-hour).
 Calibration use: interpolate steam-era locomotives by weight; do not extrapolate diesels from steam
@@ -44,29 +44,37 @@ or vice versa.
 bogie third £1,200-1,500; corridor composite or dining £1,600-2,000; twelve-wheel diner £2,500-3,000;
 1920s corridor third £2,300-2,500). The NER build records (1905-34, consecutive years, stated
 diagrams and prices) are the strongest block in the vehicle evidence and the natural basis for a
-carriage price surface. Maintenance: Hill's £18-45 per vehicle-year 1892 (repairs and renewals
-combined; no fixed/per-km split is settled — see
-[vehicle-cost/maintenance-decomposition](vehicle-cost/maintenance-decomposition.md)). Gap: nothing between 1934 and the early 1980s — a priority gap, not
+carriage price surface. Maintenance: the measured era ladder 33 / 140 / 265 / 460 / 440 GBP a
+vehicle-year at 1900 / 1950 / 1970 / 1990 / 2020, anchored on Hill 1892, the Beeching 1961 split,
+the 1984 HST rate, the RDG 2013 rate and the ORR 2024-25 medians
+([research-pricing-report-43](cost-balancing/research-pricing-report-43.md)); the older Hill
+figure was £18-45 a vehicle-year in 1892 (repairs and renewals combined). No fixed/per-km split is
+settled — see
+[vehicle-cost/maintenance-decomposition](vehicle-cost/maintenance-decomposition.md). Gap: nothing between 1934 and the early 1980s — a priority gap, not
 interpolation, because wartime and utility construction, nationalisation and the Mark 1/2/3
 generations fall across the 1945-51 and 1970s inflation surges `[USER-DIRECTION:2026-11-24]`. Two
-anchors now stand inside it: the 1955 Modernisation Plan's programme average of about £7,400 a
+anchors stand inside it: the 1955 Modernisation Plan's programme average of about £7,400 a
 passenger vehicle (£230m for about 31,000 vehicles) and Hansard's 1971 inter-city coach at
 £26,667 (£16m for 600). The 1935-48 block (Big Four and wartime utility stock) is still empty;
 routes: Hansard, TNA AN 97/124 and RAIL works cost records, NRM accounts (expenditure on
 additional rolling stock ÷ stock additions), Grace's Guide contract notices.
 
-**Rail wagons — Good (capital), Good (maintenance, 1892).** Eleven Shildon 1906 builds priced by
+**Rail wagons — Good (capital), Good (maintenance, 1961).** Eleven Shildon 1906 builds priced by
 capacity, a clean £6.37-8.40 per ton of capacity ladder (mean £7.2) with a modest fixed element and
-a speculation point at 23 tons. Maintenance is now measured: Hill 1895 Appendix II Table III gives
-£4 4s. per wagon-year (19 companies, 1887-92, repairs + renewals; range £2 4s.-£6 10s.), and a
-1929 private-owner repair contract gives £5. Gaps: no 20th-century figure (the pre-1911 published
-returns carry no wagon-only line, settled 2026-11-24; the post-1911 MoT returns are library-only)
-and no wagon overhaul price in any era (archival repair invoices only).
+a speculation point at 23 tons. Maintenance is measured across the era: Hill 1895 Appendix II
+Table III gives £4 4s. per wagon-year (19 companies, 1887-92, repairs + renewals; range £2 4s.-£6
+10s.), a 1929 private-owner repair contract gives £5, and the Beeching 1961 functional split gives
+£54.3 a wagon-year (848,591 wagons; £9.84 in 1900 money at the 1961 general index of 552). The wagon ladder is 4.2 / 8.7 / 14.3 /
+24.8 / 23.8 GBP per 10-tonne wagon-year at 1900 / 1950 / 1970 / 1990 / 2020
+([research-pricing-report-43](cost-balancing/research-pricing-report-43.md)). Gaps: no measured
+per-wagon figure after 1961; no wagon overhaul price in any era (archival repair invoices only),
+which is why the overhaul share is under source review in
+[wagon-overhaul-source-analysis](cost-balancing/wagon-overhaul-source-analysis.md).
 
 **Multiple units — Poor.** Modern per-vehicle-mile maintenance only (diesel £0.80, electric £0.44 at
 2013 prices; Underground, Civity, ScotRail comparators). No purchase price ladder at all.
 
-**Road vehicles (buses, coaches, lorries) — Good.** The 2026-11-23 pass adds 284 measured rows:
+**Road vehicles (buses, coaches, lorries) - Good.** The table has 284 measured rows:
 the Commercial Motor "Municipal Purchases and Proposals" series for buses (72 prices, 1909-55,
 including a four-maker chassis tender at Salford in 1928 and a ten-bidder trolleybus tender at
 Manchester in 1937), the ten-make 1960 lorry price list with a further 129 lorry and van prices
@@ -74,28 +82,27 @@ Manchester in 1937), the ten-make 1960 lorry price list with a further 129 lorry
 with the purchase price in the same accounts. Maintenance is charged from the measured
 per-kilometre total, split 75 per cent distance-driven to 25 per cent standing; the split is an
 estimate and is recorded as one. Gaps: no 1939-54 bus price ladder worth the name; Tilling-Stevens has
-no price in any year. The Commercial Motor page-image tables are now transcribed from the scans —
-the complete 1932, 1935 and 1937 chassis-price ladders and the 1933-34 operating-cost tables
-([cost-balancing/research-pricing-report-39](cost-balancing/research-pricing-report-39.md) §6) —
-closing the earlier machine-reading dead end; the 1939-54 bus ladder and the road-test price
-panels remain open. Modern prices (1980-2026) are now measured from 59 tender awards and price
-lists, which show a 40 per cent real rise after 1990 and a battery-electric bus premium of about
-twice the diesel price.
+no price in any year. The Commercial Motor page-image tables are transcribed from the scans: the
+complete 1932, 1935 and 1937 chassis-price ladders and the 1933-34 operating-cost tables
+([cost-balancing/research-pricing-report-39](cost-balancing/research-pricing-report-39.md) §6).
+The 1939-54 bus ladder and the road-test price panels remain open. Modern prices (1980-2026) are
+measured from 59 tender awards and price lists, which show a 40 per cent real rise after 1990 and
+a battery-electric bus premium of about twice the diesel price.
 [vehicle-cost-evidence](vehicle-cost-evidence.md) "Buses, coaches and lorries";
 [cost-balancing/research-pricing-report-29](cost-balancing/research-pricing-report-29.md),
 [-30](cost-balancing/research-pricing-report-30.md),
 [-31](cost-balancing/research-pricing-report-31.md),
 [-32](cost-balancing/research-pricing-report-32.md).
 
-**Trams and light rail — Good (modern capital), Fair (historic maintenance).** The 2026-11-23
-pass adds 28 rows. Modern vehicle prices are now solid: every UK order 2007-19 that prices
+**Trams and light rail - Good (modern capital), Fair (historic maintenance).** The evidence has
+28 rows. Modern vehicle prices are solid: every UK order 2007-19 that prices
 vehicles alone falls between £1.80m and £2.72m a tram (Metrolink's seven orders, Croydon,
 DLR, West Midlands, Edinburgh's £2.396m settled final account, Blackpool's £2.0625m), against
 £575-590 for a municipal car in 1901-04 and £1,750-2,688 for Blackpool's 1926-34 cars. Modern
 rolling-stock maintenance is anchored on Nottingham 2011: £101m over 23 years for 37 trams,
 £118,657 a tram-year. Historic maintenance remains the Ministry of Transport returns 1913-30
 on a **combined** head that includes permanent way and line electrical equipment, so it is an
-upper bound on car cost. The car-only figure is now measured: from 1919-20 the MoT tramway returns
+upper bound on car cost. The car-only figure is measured: from 1919-20 the MoT tramway returns
 carry a separate "Cars and other Rolling Stock" head (1923-33: 1.98d to 1.52d per car-mile for
 local authorities, **50-55% of the combined head**), with named municipal rows — see
 [tram-maintenance](vehicle-cost/tram-maintenance.md) and
@@ -123,32 +130,51 @@ capacity by engine type. No annual repair figure for a carrying boat.
 on 116 measured aircraft, 1936-2015: seats^0.867 × engines^0.768 × engine type × wide-body ×
 1.0111^(year-1959), R² 0.948. Pressurisation and swept wing are not identifiable in that sample and
 are not applied. Maintenance evidence is engineering cost per flying hour (1969/70, 1972/73),
-IATA benchmarks and check intervals; it does not support a maintenance ladder. The earlier
-statement that aircraft costs must not be calibrated from the forum evidence applies to that
-three-point set, which the hedonic sample replaces. `[LITERATURE: research pass 18; aircraft
-price survey 1959]`
+IATA benchmarks and check intervals; it does not support a maintenance ladder. The aircraft
+calibration uses the hedonic sample; the three-point forum set is not used. `[LITERATURE: research
+pass 18; aircraft price survey 1959]`
 
 **Horses and horse vehicles — Good (keep), Poor (purchase).** Itemised London keep accounts 1876-97:
 about £45 a year, range £28-60, excluding the horsekeeper's wages; the shape of the cost (low
 `cost`, high `fixed_cost`) is well evidenced. Purchase prices exist only in `Horses cost table.ods`;
 nothing before 1830 outside one coach account.
 
-**Narrow-gauge, monorail, maglev vehicles — None.** No measured British vehicle costs; the narrow
+**Narrow-gauge and monorail vehicles — None.** No measured British vehicle costs; the narrow
 gauge forge basis is terrain, not gauge.
 
-**Vehicle overhauls and upgrades — Fair (rail), Poor (everything else).** Until 2026-11-23 only
-nine of the pakset's 3,539 vehicles carried any overhaul field, and 403 carried an
-`upgrade_price`, most of them the token 5000. The two passes now give measured intervals and cost
-shares. Rail: steam general repairs at 104,000-196,000 miles, a GWR 28xx heavy general of £450-700
-against a £4,992 build, BR's 2.75/5.5/11-year diesel overhauls, a two-year carriage cycle.
+**Maglev vehicles — Fair, from overseas systems only.** There is no mainline maglev in Britain,
+so no British evidence can exist. The price and maintenance figures use the overseas-system unit
+costs (EUR 49,233 a seat and EUR 0.011 a seat-km, 2009 prices, from the Shanghai, Linimo, Incheon
+and Changsha systems), converted and adjusted for labour. Rule, conversion and open questions:
+[vehicle-cost/maglev-costs](vehicle-cost/maglev-costs.md).
+
+**Vehicle overhauls and upgrades — Fair (rail), Poor (everything else).** All 3,539 vehicles
+carry a maintenance figure and an overhaul target; 403 carry an `upgrade_price`, most of them the
+token 5000. The intervals and cost shares are measured or estimated by class. Rail: steam general
+repairs at 104,000-196,000 miles, a GWR 28xx heavy general of £450-700
+against a £4,992 build, BR's 2.75/5.5/11-year diesel overhauls, and for carriages two measured
+event prices — Lacy & Dow's £62 in the 1860s and the 1982 York Works Mk 1 overhaul at "more than
+£2,000" — which set the works-overhaul share of the annual total at 28 / 24 / 19 / 12 / 10 / 8 per
+cent by era ([research-pricing-report-44](cost-balancing/research-pricing-report-44.md)).
 Road: a four-year bus overhaul of about 220,000 km at £2,000 a bus in 1965 (25-33% of a new
 double-decker), lorry engine cycles at 50,000-100,000 miles, and a 1955 lorry overhaul of £280 at
-100,000 miles. Trams: Metrolink's 12-year mid-life at £80,000 and Supertram's 32-34-year life
-extension at £856,000. Ships and aircraft: five-year surveys and C/D checks at 2-5% of new value.
-Upgrades: measured rebuilds at 20-50% of a new vehicle (Class 47-to-57, Class 321 Renatus, Mk3
-sliding-door conversion, steam reboilering, the Leyland National Greenway). Gaps: no measured
-wagon overhaul price in any era, no per-overhaul money for a BR diesel or electric locomotive, no
-measured historic municipal tramcar overhaul, and no pre-2009 ship or pre-2000 aircraft cost series.
+100,000 miles. Multiple units: a 15 per cent provision of the measured annual ladder, event 1.2A
+every eight years (research pass 45/53). Trams: a pre-1950 gross car-only ladder of 84-89 GBP a
+car-year, a 1950-90 repairs-only rung of 150 (band 130-210) and 1,177 from 1990; the works-overhaul
+provision is 28 per cent at two years pre-1950, 28 per cent at three years for 1950-90 and 6 per
+cent at twelve years modern, with renewals 35 per cent pre-1950 and zero after; the 1934 LCC E/1
+rebuild and the 2026 Supertram life extension are upgrades at
+22-50 per cent of the new price, and Metrolink's 12-year mid-life at £80,000 is the modern works
+overhaul (research pass 47). Ships and aircraft: five-year surveys and C/D checks at 2-5% of new
+value. Upgrades: measured rebuilds at 20-50% of a new vehicle (Class 47-to-57, Class 321 Renatus,
+Mk3 sliding-door conversion, steam reboilering, the Leyland National Greenway). Gaps: no measured
+wagon overhaul price in any era (the HMRS 1972-81 data are archive-only, SKU ME0354); for
+carriages no measured heavy-repair price for 1935, the BR coded visits or the modern period — only
+the two endpoints; the 1920 and 1950 carriage levels are not closed (report 51 recommends 39 and
+121); no per-overhaul money for a BR diesel or electric locomotive, although the 1914-48 annual
+total is measured and the 2018 Class 92 contract partly closes the post-1977 gap (report 50;
+the 1995 rung remains derived); no measured municipal tramcar repairs figure after 1950
+(the 150 GBP rung is an estimate); and no pre-2009 ship or pre-2000 aircraft cost series.
 
 **`.dat` comments — Fair, as a supplementary channel.** The pakset authors wrote historical
 notes into the `.dat` files: 25,113 comment lines across 2,664 files. Of 1,022 vehicle comments

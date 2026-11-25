@@ -25,3 +25,4 @@ makeobj-extended*
 *db-wal
 *db-shm
 /ai/temp/__pycache__/
+__pycache__/

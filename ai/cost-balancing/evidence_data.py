@@ -11,7 +11,9 @@ workbook's normalisation formula leaves them unchanged and the comparison is cle
 import csv, os, re, glob, math
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-BASE = os.path.dirname(os.path.dirname(HERE))
+# The script lives in <workspace>/New/ai/cost-balancing; the pakset sources are under
+# <workspace>/New and the scratch inventories under <workspace>/ai/temp.
+BASE = os.path.dirname(os.path.dirname(os.path.dirname(HERE)))
 PRICE_ROWS = os.path.join(HERE, 'individual-price-rows.csv')
 SYNTH = os.path.join(HERE, 'synthesis-recommended.csv')   # optional
 PRICES_TAB = os.path.join(BASE, 'New', 'config', 'prices.tab')
@@ -91,9 +93,15 @@ def vehicle_specs():
                 if k in ('name', 'name__'):
                     if name is None:
                         name = v
-                elif k in ('freight', 'capacity', 'weight', 'power', 'engine', 'engine_type', 'payload'):
+                elif k in ('freight', 'capacity', 'weight', 'power', 'engine', 'engine_type',
+                           'payload', 'length', 'cost'):
                     n = re.match(r'^-?[0-9.]+', v)
                     cur['engine' if k == 'engine_type' else k] = float(n.group(0)) if n else v
+                elif k == 'payload[1]':
+                    # passenger capacity: the conventional index for seats in this pakset
+                    n = re.match(r'^-?[0-9.]+', v)
+                    if n:
+                        cur['seats'] = float(n.group(0))
                 elif re.match(r'^payload\[\d+\]$', k):
                     n = re.match(r'^-?[0-9.]+', v)
                     if n:
@@ -307,15 +315,52 @@ ROAD_LADDER_NOTE = {
              'ladder lacked: a 1.5-ton van measures GBP 160-210, not GBP 58',
     'car': 'private car ladder, 4 seats at GBP 234 in 1959, seats^0.40',
 }
-TRAM_MAINT = 64.0          # car only, 1913-14, excluding track and electrical supply
-# Modern light rail maintenance is a different order. The only measured contract for rolling
-# stock alone is Nottingham, 2011: GBP 101m over 23 years for 37 trams = GBP 118,657 a tram-year,
-# corroborated by Alstom's EUR 120m (EUR 141k a tram-year). In 1900 money that is GBP 1,301.
-# Nothing measures 1950-1990, so the break is placed at 1990, where the LRV generation begins.
-TRAM_MAINT_TOTAL = [(1900, 64.0), (1990, 64.0), (2011, 1301.0), (2026, 1301.0)]
-# Reference annual distance, km: a 1920s car ran about 30,000 miles; the Nottingham figure
-# assumes 90,000 km a tram-year.
-TRAM_REF_KM = [(1900, 48000.0), (1990, 48000.0), (2011, 90000.0), (2026, 90000.0)]
+# Tram maintenance, 1900 money a car-year, gross of revenue renewals. Research pass 47
+# (New/ai/cost-balancing/research-pricing-report-47.md) measures 1923-1933, derives 1900,
+# 1913, 1937-1939 and 1949-50, and estimates 1960-1990 at 150 (band 120-250) because no
+# municipal tramcar account for that period was found. The modern value is the 2011
+# Nottingham Express Transit availability contract, GBP 118,657 a tram-year at index 10,085
+# = GBP 1,177 in 1900 money; it is a different scope (full service, 90,000 km a year) and is
+# held flat from 1990. Renewals are 35 per cent of A to 1990 and zero on the modern
+# contract; the works-overhaul provision is 28 / 18 / 6 per cent of A at 2 / 3 / 12 years.
+TRAM_MAINT_LADDER = ((1900, 84.0), (1913, 84.0), (1920, 131.0), (1931, 106.0),
+                     (1939, 89.0), (1950, 131.0), (1960, 150.0), (1990, 150.0))
+TRAM_MAINT_MODERN = 1177.0
+TRAM_REF_HISTORIC = 48000.0
+TRAM_REF_MODERN = 90000.0
+
+# Mean annual distance by class and era, km a vehicle-year. This table converts an overhaul
+# interval in years to the engine's `max_distance_between_overhauls` field and sets the
+# reference duty for the fixed/per-km split. It is a class/era reference, not a per-row
+# measurement: a measured row duty overrides it. Evidence and grades:
+# New/ai/vehicle-cost/mean-annual-distance.md. Values are step bands: the value applies from
+# its start year to the year before the next band.
+MEAN_ANNUAL_KM = {
+    'carriage': ((1830, 35000.0), (1890, 36000.0), (1923, 55000.0), (1948, 88000.0),
+                 (1975, 120000.0), (2000, 113000.0)),
+    'wagon': ((1900, 40000.0),),
+    'locomotive': ((1900, 40000.0), (1948, 65000.0), (1961, 113000.0), (1990, 150000.0)),
+    'multiple-unit': ((1900, 100000.0), (1960, 120000.0), (2000, 161000.0)),
+    'tram': ((1900, 48000.0), (1990, 90000.0)),
+    'bus': ((1900, 55000.0),),
+    'lorry': ((1900, 40000.0),),
+    'van': ((1900, 40000.0),),
+    'ship': ((1900, 115000.0),),
+    'maglev': ((1900, 300000.0),),
+}
+
+
+def mean_annual_km(kind, intro):
+    """Class/era mean annual distance in km, or None if the class is not in the table."""
+    points = MEAN_ANNUAL_KM.get(kind)
+    if not points:
+        return None
+    y = intro or 1900
+    value = points[0][1]
+    for start, candidate in points:
+        if y >= start:
+            value = candidate
+    return value
 SHIP_MAINT_RATIO = 0.02    # 1850 GSN GBP 788 against a ship capital of about GBP 39,000
 AIR_MAINT_RATIO = 0.20     # BOAC VC10 1969/70 GBP 49,057 against a VC10 capital of GBP 209,085
 HORSE_VEH_MAINT = 38.0     # 1893-97 horse-only accounts, 29-47
@@ -453,7 +498,65 @@ SHIP_TUG_PER_HP = 40.0       # one measured tug, 1882: 81 GT, GBP 3,106 at 1900
 MU_CAR_PTS = [(1905, 1745.0), (1955, 2671.0), (1982, 9500.0)]
 
 def is_multiple_unit(nm):
-    return bool(re.search(r'dmu|emu|demu|railcar|\bapt\b|multiple.?unit|tyneside-unit', nm))
+    """True where the object is a car of a multiple-unit formation.
+
+    Widened in research pass 45 section 6 item 2: the original predicate matched only names
+    carrying EMU, DMU, DEMU, railcar, APT, multiple-unit or tyneside-unit, so it missed every
+    BR 1xx-8xx multiple-unit class whose name carries only the class number (br-158-*, BR-365*,
+    BR-465*), every *TubeStock* name, the London Underground A/C/D/OP/R/S stock, the District,
+    Metropolitan, Watford and MV stock, the Southern 2-NOL/2-HAL/3-SUB/4-LAV/4-SUB/4-DD/
+    401/404/5-BEL/6-PAN classes, the LMS 502 and the Docklands and Tyne & Wear metro cars.
+
+    A locomotive, a locomotive-hauled carriage and a wagon stay out. The exclusions that carry
+    a matching token are named explicitly: the 1890 tube-stock locomotive and the trailer it
+    hauls (the City & South London stock was locomotive-worked), the District electric
+    locomotive, and the push-pull, auto-train and augmentation-trailer carriages, whose names
+    contain no MU token in the first place. BR class numbers that are locomotives (2MT, 4MT,
+    5MT, 7MT, 8P, 9F, 43, 91) are absent from the class-number list.
+    """
+    n = (nm or '').lower()
+    if not n:
+        return False
+    # Locomotives and locomotive-hauled stock that carry a multiple-unit token.
+    if 'tubestockloco' in n or n == '1890tubestocktrailer':
+        return False
+    # Named multiple-unit families and the generic tokens.
+    if re.search(r'dmu|emu|demu|railcar|railbus|railmotor|\bapt\b|multiple.?unit|tyneside', n):
+        return True
+    if 'tubestock' in n or 'twinset' in n:
+        return True
+    # London Underground, District, Metropolitan, Watford and Metrovick multiple-unit stock.
+    if n.startswith(('lul_', 'district_', 'met-mv-stock', 'watfordjointstock')):
+        return True
+    if n.startswith(('metropolitan1905', 'metropolitan1913', 'metropolitan1921',
+                     'metropolitan-motor')):
+        return True
+    # Light metro cars.
+    if n.startswith('dlr-') or 'tynewearmetro' in n:
+        return True
+    # Southern Region and BR electric-multiple-unit class codes.
+    if re.match(r'br-(2epb|4epb)', n) or re.match(r'br-class(483|485)', n):
+        return True
+    if re.match(r'sr-(2-nol|2hal|3sub|4lav|401|404|4dd|4sub|5-bel|6pan)', n):
+        return True
+    # BR diesel and electric multiple-unit class numbers. EMU classes are 3xx, 4xx (with the
+    # 4-EPB and 4-SUB codes named above), 5xx and 7xx-8xx; DMU/DEMU classes are 1xx-2xx.
+    br_mu = ('101', '104', '110', '114', '117', '120', '121', '123', '127', '128', '139',
+             '141', '142', '144', '150', '153', '156', '158', '159', '165', '166', '170',
+             '172', '175', '180', '185', '195', '196', '202', '205', '210', '220', '221',
+             '222', '251', '302', '303', '304', '307', '309', '310', '312', '313', '314',
+             '315', '317', '318', '319', '320', '321', '323', '325', '331', '332', '333',
+             '334', '345', '350', '357', '360', '365', '370', '373', '374', '375', '376',
+             '377', '378', '379', '380', '385', '387', '390', '395', '397', '410', '414',
+             '419', '421', '423', '430', '442', '444', '450', '455', '456', '458', '460',
+             '465', '489', '491', '499', '501', '506', '507', '700', '701', '707', '710',
+             '717', '720', '730', '769', '800', '801')
+    m = re.match(r'br-(\d{3})(?!\d)', n)
+    if m and m.group(1) in br_mu:
+        return True
+    if n.startswith('br-derby-lightweight') or n.startswith('c2c-357') or n.startswith('lms-502'):
+        return True
+    return False
 
 _features = None
 
@@ -738,15 +841,55 @@ def horse_price(name):
         if k in nm:
             base = v
             break
-    if nm.endswith('-double') or '-double-' in nm or 'pair' in nm:
+    if nm.endswith('-double') or '-double-' in nm or 'pair' in nm or (
+            re.search(r'horses|ponies|mules|donkeys', nm) and 'single' not in nm):
         base *= 2
     return base
 WAGON_PER_TON = 7.07      # Shildon 1906 mean 7.2 nominal = 7.07 at 1900 (range 6.2-8.2)
-HORSE_KEEP_YR = 45.0      # London accounts 1876-97, band 28-60 (1900 GBP/yr)
-TRAM_PERKM = 0.0045       # MoT returns 1913-30: 0.91-1.28 d/car-km at 1900 = 0.0038-0.0053 GBP
+HORSE_KEEP_YR = 45.0      # London accounts 1876-97, band 28-60 (1900 GBP/yr per animal)
+ANIMAL_NAME = re.compile(r'horse|pony|ponies|mule|donkey', re.I)
+PAIR_NAME = re.compile(r'pair|double|horses|ponies|mules|donkeys', re.I)
+
+# Maglev: no mainline maglev exists in Britain, so its prices come from the overseas systems,
+# adjusted for labour cost (USER DIRECTION, recorded in New/ai/vehicle-cost/maglev-costs.md).
+# Almujibah and Preston 2018, Table 6 (2009 prices): EUR 49,233 a seat to acquire and EUR 0.011
+# a seat-km to maintain, the unit costs drawn from the Shanghai, Linimo, Incheon and Changsha
+# systems. EUR 1 = GBP 0.89; deflated on the workbook index (vehicle purchase 82.87 and general
+# 91.63 times 1900 in 2009); labour x0.96 for Germany, the source country (report 17 section 5).
+# Non-passenger stock has no seat count: the same rate is applied per metre of car length on the
+# 14 m, 54-seat reference car.
+MAGLEV_CAP_PER_SEAT = 49233.0 * 0.89 / 82.87 * 0.96
+MAGLEV_MAINT_SEAT_KM = 0.011 * 0.89 / 91.63 * 0.96
+MAGLEV_REF_SEATS = 54.0
+MAGLEV_REF_LENGTH = 14.0
+MAGLEV_CAP_PER_M = MAGLEV_CAP_PER_SEAT * MAGLEV_REF_SEATS / MAGLEV_REF_LENGTH
+MAGLEV_MAINT_M_KM = MAGLEV_MAINT_SEAT_KM * MAGLEV_REF_SEATS / MAGLEV_REF_LENGTH
 LOCO_REPAIR_PERKM = 0.0067  # Hill 1892 19-company average 1.61 d/km at 1900 (band 0.0039-0.0118)
 LOCO_MAINT_YR = 253.0     # Hill: 253 GBP per engine-year at 1900 (~12% of price)
-CARRIAGE_MAINT_YR = 32.6  # Hill: 18.6-46.7 GBP per vehicle-year at 1900
+CARRIAGE_MAINT_YR = 32.6  # Hill 1892 carriage average, retained for the multiple-unit branch
+# Rail carriage and wagon maintenance ladders, 1900 money per vehicle-year. Research pass 43
+# (New/ai/cost-balancing/research-pricing-report-43.md): the carriage series is measured at 1892
+# (Hill), 1961 (the Beeching functional split, GBP 1,012 a coach-year), 1984 (the HST train-mile
+# rate), 2013 (RDG EMU rate) and 2024-25 (ORR medians); the wagon ladder uses the measured
+# wagon:carriage ratio, which falls from 12.6 per cent in 1892 to 5.4 per cent in 1961 and is held
+# after. Log-linear between points, flat outside. The wagon figure is per 10-tonne wagon-year and
+# scales by (payload/10)^0.4.
+CARRIAGE_MAINT_LADDER = ((1900, 33.0), (1950, 140.0), (1970, 265.0), (1990, 460.0), (2020, 440.0))
+WAGON_MAINT_LADDER = ((1900, 4.2), (1950, 8.7), (1970, 14.3), (1990, 24.8), (2020, 23.8))
+
+
+def interp_log(points, x):
+    """Log-linear interpolation between the points, flat outside the ends."""
+    xs = [p[0] for p in points]
+    if x <= xs[0]:
+        return points[0][1]
+    if x >= xs[-1]:
+        return points[-1][1]
+    for (x0, y0), (x1, y1) in zip(points, points[1:]):
+        if x0 <= x <= x1:
+            t = (x - x0) / float(x1 - x0)
+            return math.exp(math.log(y0) + (math.log(y1) - math.log(y0)) * t)
+    return points[-1][1]
 
 def interp(points, x):
     xs = [p[0] for p in points]
@@ -768,7 +911,7 @@ STATUS = {
     'air-vehicles':       ('partial', 'no', 'no'),
     'tram-vehicles':      ('partial', 'partial', 'partial'),
     'narrowgauge-vehicles': ('no', 'no', 'no'),
-    'maglev-vehicles':    ('no', 'no', 'no'),
+    'maglev-vehicles':    ('yes', 'no', 'partial'),   # overseas system costs; no British maglev
     'ways/rail':          ('yes', 'yes', 'yes'),
     'ways/road':          ('yes', 'partial', 'yes'),
     'ways/water':         ('yes', 'yes', 'yes'),
@@ -1032,7 +1175,9 @@ def match(prows, cls, name):
     return out or None
 
 # ---------------------------------------------------------------- extrapolation
-# Overhaul and upgrade profiles, by class. Shares are of the vehicle's own capital target.
+# Overhaul and upgrade profiles, by class. Shares are of the vehicle's own capital target,
+# except the rail carriage and wagon classes, which are shares of the measured annual
+# maintenance figure (see CARRIAGE_OVERHAUL and WAGON_OVERHAUL below).
 #   initial / max       cost of the first and the late-life overhaul, as a share of capital
 #   n                   overhauls before the cost reaches the maximum
 #   interval_km         distance between overhauls
@@ -1040,6 +1185,93 @@ def match(prows, cls, name):
 #   upgrade             net cost of replacing an old vehicle with this type, as a share of the
 #                       new vehicle's capital (a trade-in price, not the new price)
 # These are placeholders pending research pass 36/37 and are the single place to change.
+CARRIAGE_OVERHAUL = (
+    # Research pass 44 section 5: (from year, interval years, reference km, provision of A).
+    # The provision is calibrated on two measured events: Lacy & Dow's GBP 62 in the 1860s
+    # (1.84 x A) and the 1982 York Works Mk 1 overhaul at "more than GBP 2,000" (0.16 x A).
+    (1830, 6.0, 210000.0, 0.28),
+    (1890, 5.0, 180000.0, 0.24),
+    (1923, 3.0, 165000.0, 0.19),
+    (1948, 2.0, 176000.0, 0.12),
+    (1975, 2.0, 240000.0, 0.10),
+    (2000, 2.6, 294000.0, 0.08),
+)
+WAGON_OVERHAUL = dict(provision=0.20, years=6.0, km=240000.0, first_ratio=0.75)
+# Research pass 46: the measured wagon total A is the envelope, head = 0.8A and the event
+# 1.2A every six years at the 40,000 km/yr reference duty. Only the product 0.20 x 6 is
+# constrained; the split between the share and the interval is an estimate.
+OVH_FIRST_RATIO = 0.70   # first event as a share of the maximum (research pass 44 section 6)
+OVH_RUNGS = 3
+
+
+def carriage_overhaul(intro, maint_gbp):
+    """Overhaul targets for a carriage, from the measured annual maintenance figure A."""
+    y = intro or 1900
+    row = CARRIAGE_OVERHAUL[0]
+    for cand in CARRIAGE_OVERHAUL:
+        if y >= cand[0]:
+            row = cand
+    _, years, km, share = row
+    ann = share * (maint_gbp or 0.0)
+    mx = 2.0 * ann * years / (1.0 + OVH_FIRST_RATIO)
+    return dict(initial_gbp=round(OVH_FIRST_RATIO * mx, 1), max_gbp=round(mx, 1),
+                overhauls=OVH_RUNGS, interval_km=km, months=0.5,
+                mean_gbp=round(ann * years, 1))
+
+
+def wagon_overhaul(maint_gbp):
+    """Overhaul targets for a wagon, from the measured annual maintenance figure A."""
+    a = maint_gbp or 0.0
+    first = WAGON_OVERHAUL['first_ratio'] * WAGON_OVERHAUL['provision'] * WAGON_OVERHAUL['years'] * a
+    mx = WAGON_OVERHAUL['provision'] * WAGON_OVERHAUL['years'] * a
+    return dict(initial_gbp=round(first, 1), max_gbp=round(mx, 1), overhauls=2,
+                interval_km=WAGON_OVERHAUL['km'], months=0.2,
+                mean_gbp=round((first + mx) / 2.0, 1))
+
+
+def tram_maint(intro):
+    """Gross annual maintenance A for a tram, 1900 GBP a car-year (research pass 47)."""
+    y = intro or 1929
+    if y >= 1990:
+        return TRAM_MAINT_MODERN
+    return interp_log(TRAM_MAINT_LADDER, y)
+
+
+def tram_upgrade_share(intro):
+    """Share of the new price charged as upgrade_price (research pass 47 section 5)."""
+    y = intro or 1900
+    if y <= 1950:
+        return 0.22
+    if y >= 1990:
+        return 0.50
+    return 0.22 + 0.28 * (y - 1950) / 40.0
+
+
+def tram_overhaul(intro, maint_gbp):
+    """Overhaul targets for a tram, from the gross annual maintenance figure A.
+
+    Research pass 47: renewals are inside A for the municipal series; the works-overhaul
+    provision is 28 / 18 / 6 per cent of A at 2 / 3 / 12 years. The first event is 0.35A
+    rising to 0.75A over 3 / 2 / 1 events; the modern contract carries one event of 0.75A.
+    """
+    a = maint_gbp or 0.0
+    y = intro or 1900
+    if y >= 1990:
+        share, years, km, months, rungs = 0.06, 12.0, 1080000.0, 0.8, 1
+        first = 0.75 * a
+        mx = 0.75 * a
+    elif y >= 1950:
+        share, years, km, months, rungs = 0.18, 3.0, 144000.0, 0.5, 2
+        first = 0.35 * a
+        mx = 0.75 * a
+    else:
+        share, years, km, months, rungs = 0.28, 2.0, 96000.0, 0.4, 3
+        first = 0.35 * a
+        mx = 0.75 * a
+    return dict(initial_gbp=round(first, 1), max_gbp=round(mx, 1), overhauls=rungs,
+                interval_km=km, months=months, mean_gbp=round(share * a * years, 1))
+
+
 OVERHAUL_PROFILE = {
     # rail: research pass 36. Steam interval 104,000-196,000 miles per general repair
     # (BR Pacifics 1951-60) = 167,000-315,000 km; cost 5 per cent first, 15 per cent late,
@@ -1064,9 +1296,8 @@ OVERHAUL_PROFILE = {
     # survey, drydocking every 2.5-5 years, 2-5 per cent of newbuild value, 12 days. Aircraft:
     # C check 18-24 months and three weeks, D check six years, base checks 2-3 per cent of a new
     # narrowbody. Upgrade: the Leyland National Greenway rebuild at GBP 45,000 was stated to be
-    # half a new bus, so 50 per cent.
+    # half a new bus, so 50 per cent. Trams are handled by tram_overhaul() from A, not here.
     'bus':            (0.25, 0.40, 3, 220000.0, 0.5, 0.50),
-    'tram':           (0.08, 0.45, 3, 600000.0, 0.5, 0.50),
     'lorry':          (0.10, 0.30, 3, 160000.0, 0.3, 0.50),
     'van':            (0.10, 0.30, 3, 60000.0, 0.1, 0.50),
     'ship':           (0.02, 0.05, 6, 0.0, 0.4, 0.50),
@@ -1079,8 +1310,12 @@ OVERHAUL_CLASS = [
 ]
 
 
-def overhaul_profile(cls, name, capital_gbp, intro):
-    """Suggested overhaul and upgrade figures for one vehicle, in 1900 GBP."""
+def overhaul_profile(cls, name, capital_gbp, intro, maint_gbp=None):
+    """Suggested overhaul and upgrade figures for one vehicle, in 1900 GBP.
+
+    maint_gbp is the measured annual maintenance figure from extrapolation(); the rail
+    carriage and wagon classes take their overhaul events from it (research passes 44 and 46)
+    and fall back to the capital-share rule only when it is absent."""
     nm = (name or '').lower()
     key = None
     if cls == 'rail-vehicles':
@@ -1110,8 +1345,45 @@ def overhaul_profile(cls, name, capital_gbp, intro):
         key = 'aircraft'
     if key is None:
         return None
-    s0, smax, n, km, months, up = OVERHAUL_PROFILE[key]
     cap = capital_gbp or 0.0
+    if key == 'tram':
+        a = maint_gbp if maint_gbp else tram_maint(intro)
+        p = tram_overhaul(intro, a)
+        p['upgrade_gbp'] = round(cap * tram_upgrade_share(intro), 1)
+        p['basis'] = ('tram overhaul (research pass 47 section 5): the gross annual figure A '
+                      'is the envelope. Provision 28 / 18 / 6 per cent of A at 2 / 3 / 12 '
+                      'years, the event 0.35A rising to 0.75A over 3 / 2 / 1 events; renewals '
+                      '35 per cent of A to 1990 and zero on the modern contract. Upgrade %.0f '
+                      'per cent of the new price, from the measured 1934 London County Council '
+                      'E/1 rebuild and the 2026 Supertram life extension.'
+                      % (tram_upgrade_share(intro) * 100))
+        return p
+    up = OVERHAUL_PROFILE[key][5]
+    if key == 'carriage' and maint_gbp:
+        p = carriage_overhaul(intro, maint_gbp)
+        p['upgrade_gbp'] = round(cap * up, 1)
+        p['basis'] = ('carriage overhaul (research pass 44 section 5): the measured annual '
+                      'maintenance figure is the envelope. The works-overhaul provision is 28, '
+                      '24, 19, 12, 10 and 8 per cent of A at 1830-89, 1890-1922, 1923-47, '
+                      '1948-74, 1975-99 and 2000-26, from two measured events (Lacy & Dow GBP 62 '
+                      'in the 1860s = 1.84 A; the 1982 York Works Mk 1 overhaul = 0.16 A); the '
+                      'interval is 6, 5, 3, 2, 2 and 2.6 years, entered as the band\'s reference '
+                      'km. The mean event is provision x interval x A = %s GBP, paid as a first '
+                      'overhaul of %s GBP rising to a maximum of %s GBP over %d. The 0.70 '
+                      'first-event ratio is an estimate. Upgrade %.0f per cent of the new price.'
+                      % (p['mean_gbp'], p['initial_gbp'], p['max_gbp'], p['overhauls'], up * 100))
+        return p
+    if key == 'wagon' and maint_gbp:
+        p = wagon_overhaul(maint_gbp)
+        p['upgrade_gbp'] = round(cap * up, 1)
+        p['basis'] = ('wagon overhaul (research pass 46): the measured annual maintenance figure '
+                      'is the envelope, head = 0.8A and the event 1.2A every six years at the '
+                      '40,000 km/yr reference duty (240,000 km), first event 0.75 of the steady '
+                      'event, two rungs. The 0.20 share and the six years are an estimate; only '
+                      'their product is constrained. Upgrade %.0f per cent of the new price.'
+                      % (up * 100))
+        return p
+    s0, smax, n, km, months, up = OVERHAUL_PROFILE[key]
     return dict(initial_gbp=round(cap * s0, 1), max_gbp=round(cap * smax, 1),
                 overhauls=n, interval_km=km, months=months,
                 upgrade_gbp=round(cap * up, 1),
@@ -1136,7 +1408,59 @@ def extrapolation(cls, name, dat, gbp_per_dat=0.00396311, intro=None):
     year = None  # all outputs expressed at 1900
     x = {}
 
-    if cls in ('rail-vehicles', 'narrowgauge-vehicles', 'maglev-vehicles'):
+    # Animals are not locomotives, tram cars or vessels. The horse-keep evidence is the only
+    # measure for them, and it applies on every sheet (pass 43). The horse clause below used to
+    # sit after the class dispatch, so rail, narrow-gauge, tram and water animals took the
+    # sheet's ladder (a locomotive's 253 GBP/engine-year, a tram car's 64, a ship's 2 per cent).
+    if ANIMAL_NAME.search(nm) and str(sp.get('engine', '')).lower() == 'bio':
+        try:
+            animal_power = float(sp.get('power') or 0)
+        except (TypeError, ValueError):
+            animal_power = 0.0
+        if animal_power >= 1:
+            pair = 1.0
+            if PAIR_NAME.search(nm) and 'single' not in nm:
+                pair = 2.0
+            x.update(capital_gbp=round(horse_price(name), 0), year=1900,
+                     basis='horse breed/type ladder (1900 GBP): pony 25, hackney 55, Friesian 120, '
+                           'Cleveland Bay 90, Yorkshire coach 90, Irish draught 135, Clydesdale '
+                           '175, Shire 180, cart/dray 60; a pair doubles the figure')
+            x.update(maint_gbp_yr=HORSE_KEEP_YR * pair, maint_year=1900,
+                     basis=x['basis'] + ' | London horse-keep accounts 1876-97: about 45 GBP an '
+                           'animal-year (band 28-60) at 1900, excluding the horsekeeper; the '
+                           'whole figure is standing and there is no per-km charge')
+            return x
+
+    # Maglev rolling stock: overseas system costs adjusted for labour (user direction), used
+    # directly as individual figures: no decomposition applies to either the capital price or
+    # the per-seat-km maintenance cost.
+    if cls == 'maglev-vehicles':
+        seats = sp.get('seats') or 0.0
+        length = sp.get('length') or MAGLEV_REF_LENGTH
+        if seats and seats > 0:
+            capital = MAGLEV_CAP_PER_SEAT * seats
+            perkm = MAGLEV_MAINT_SEAT_KM * seats
+            unit = '%d seats' % seats
+        else:
+            capital = MAGLEV_CAP_PER_M * length
+            perkm = MAGLEV_MAINT_M_KM * length
+            unit = '%g m of car length (no seat count, so the seat rate is applied per metre ' \
+                   'on the 14 m, 54-seat reference car)' % length
+        x.update(capital_gbp=round(capital, 0), year=1900,
+                 basis='overseas maglev stock: EUR 49,233 a seat at 2009 prices (Almujibah and '
+                       'Preston 2018, Table 6, the unit acquisition cost of a Transrapid trainset '
+                       'from the Shanghai, Linimo, Incheon and Changsha systems), at EUR 1 = GBP '
+                       '0.89, deflated on the vehicle purchase index (82.87 times 1900 in 2009) '
+                       'and adjusted for labour (x0.96, Germany; report 17 section 5): %.1f GBP a '
+                       'seat in 1900 money; %s' % (MAGLEV_CAP_PER_SEAT, unit))
+        x.update(perkm_gbp=round(perkm, 10), perkm_year=1900,
+                 basis=x['basis'] + ' | maintenance EUR 0.011 a seat-km at 2009 prices, at the '
+                       'same exchange and labour adjustment and deflated on the general index '
+                       '(91.63 times 1900 in 2009): the cost is distance-driven, so the whole '
+                       'figure is the per-km charge and there is no fixed charge')
+        return x
+
+    if cls in ('rail-vehicles', 'narrowgauge-vehicles'):
         # Multi-part locomotives: the front unit carries the whole cost; tenders and Garratt
         # middle/rear units are priced at zero. Their weight is added to the front unit instead.
         if 'tender' in nm or nm.endswith('-middle') or nm.endswith('-rear'):
@@ -1163,8 +1487,7 @@ def extrapolation(cls, name, dat, gbp_per_dat=0.00396311, intro=None):
                 x.update(maint_gbp_yr=CARRIAGE_MAINT_YR, maint_year=1900,
                          basis=x['basis'] + ' | Hill 1892 carriage rate 32.6 GBP/vehicle-year')
             else:
-                diesel = any(t in eng for t in ('diesel', 'electric', 'turbine')) \
-                    or cls == 'maglev-vehicles'
+                diesel = any(t in eng for t in ('diesel', 'electric', 'turbine'))
                 if diesel and 'electric' in eng and yi and yi <= 1930:
                     rate = 8.8 if (pw >= 1000 and 'ee1' in nm) else 4.4
                     x.update(capital_gbp=round(rate * pw, 0), year=1900,
@@ -1247,8 +1570,10 @@ def extrapolation(cls, name, dat, gbp_per_dat=0.00396311, intro=None):
             if mods:
                 basis += ' | ' + ', '.join(mods)
             x.update(capital_gbp=round(base, 0), year=1900, basis=basis)
-            x.update(maint_gbp_yr=CARRIAGE_MAINT_YR, maint_year=1900,
-                     basis=basis + ' | Hill 1892: 18.6-46.7 GBP/vehicle-year (mid 32.6) at 1900')
+            x.update(maint_gbp_yr=round(interp_log(CARRIAGE_MAINT_LADDER, intro or 1900), 1),
+                     maint_year=1900,
+                     basis=basis + ' | rail carriage maintenance ladder (pass 43): 33, 140, 265, '
+                           '460 and 440 GBP a vehicle-year at 1900, 1950, 1970, 1990 and 2020')
         elif 'post' in freight or any(k in nm for k in ('mail', 'tpo', 'brake', 'parcel', 'luggage')):
             # Non-passenger carriage stock: a mail or TPO vehicle is a carriage body without
             # seats, a brake van is simpler still. Priced as a fraction of the carriage ladder,
@@ -1261,8 +1586,11 @@ def extrapolation(cls, name, dat, gbp_per_dat=0.00396311, intro=None):
                 f, label = 0.75, 'mail or TPO vehicle at 0.75 of the carriage ladder'
             base = interp(CARRIAGE_PTS, intro or 1910) * f
             x.update(capital_gbp=round(base, 0), year=1900, basis=label)
-            x.update(maint_gbp_yr=round(CARRIAGE_MAINT_YR * f, 1), maint_year=1900,
-                     basis=label + ' | Hill 1892 carriage rate 32.6 GBP/vehicle-year, scaled')
+            x.update(maint_gbp_yr=round(interp_log(CARRIAGE_MAINT_LADDER, intro or 1900) * f, 1),
+                     maint_year=1900,
+                     basis=label + ' | rail carriage maintenance ladder (pass 43): 33, 140, 265, '
+                           '460 and 440 GBP a vehicle-year at 1900, 1950, 1970, 1990 and 2020, '
+                           'scaled by the same factor')
         else:
             try:
                 tons = float(sp.get('payload') or cap or 0)
@@ -1272,9 +1600,12 @@ def extrapolation(cls, name, dat, gbp_per_dat=0.00396311, intro=None):
                 wcap = tons * WAGON_PER_TON
                 x.update(capital_gbp=round(wcap, 0), year=1900,
                          basis='payload x Shildon 1906 mean 7.2 GBP/ton nominal = 7.07 GBP/ton at 1900 (measured range 6.2-8.2)')
-                x.update(maint_gbp_yr=round(wcap * 0.08, 1), maint_year=1900,
-                         basis='wagon maintenance 8% of capital a year (a 10 t wagon at about '
-                               'GBP 71 capital carries about GBP 6 a year)')
+                x.update(maint_gbp_yr=round(
+                    interp_log(WAGON_MAINT_LADDER, intro or 1900)
+                    * (tons / 10.0) ** 0.4, 1), maint_year=1900,
+                    basis='rail wagon maintenance ladder (pass 43): 4.2, 8.7, 14.3, 24.8 and 23.8 '
+                          'GBP a 10-tonne wagon-year at 1900, 1950, 1970, 1990 and 2020, scaled by '
+                          '(payload/10)^0.4; replaces the 8-per-cent-of-capital rule')
     elif cls == 'tram-vehicles':
         if re.search(r'(middle|rear|panto|bogie|motor)', nm):
             # An articulated tram is modelled as separate sections, and the .dat puts the whole
@@ -1298,27 +1629,46 @@ def extrapolation(cls, name, dat, gbp_per_dat=0.00396311, intro=None):
             # premium would double count them.
             tram *= tm
             tparts = tmods
-        total = interp(TRAM_MAINT_TOTAL, intro or 1929)
-        km = interp(TRAM_REF_KM, intro or 1929)
-        perkm = total * (1.0 - ROAD_MAINT_FIXED_SHARE) / km
+        total = tram_maint(intro or 1929)
+        modern = (intro or 0) >= 1990
+        km = TRAM_REF_MODERN if modern else TRAM_REF_HISTORIC
+        renewals = 0.0 if modern else 0.35
+        prov = 0.06 if modern else (0.18 if (intro or 0) >= 1950 else 0.28)
+        head = total - renewals * total - prov * total
+        perkm = head * (1.0 - ROAD_MAINT_FIXED_SHARE) / km
         x.update(capital_gbp=round(tram, 0), year=1900,
                  basis='tram ladder: measured points 670 GBP (1900) for a 1902 municipal car, '
                        '904 at 1929, 24,026 at 1996 (Croydon CR4000) and 24,500 at 2026; the '
                        'modern LRV is a different machine, not inflation; the era itself is '
                        'carried by the vehicle purchase index' +
                        ((' | ' + ', '.join(tparts)) if tparts else ''))
-        x.update(maint_gbp_yr=round(total * ROAD_MAINT_FIXED_SHARE, 1), maint_year=1900,
+        x.update(maint_a_gbp=round(total, 1),
+                 maint_gbp_yr=round(head * ROAD_MAINT_FIXED_SHARE, 1), maint_year=1900,
                  perkm_gbp=round(perkm, 6), perkm_year=1900)
-        x['basis'] = (x['basis'] + ' | maintenance %.0f GBP a car-year in 1900 money, split '
-                      '%.0f/%.0f between the per-km charge and a standing charge at %.0f km a '
-                      'year: historic 64 GBP (MoT returns 1913-14, car only, track and '
-                      'electrical supply excluded); modern 1,301 GBP from the Nottingham 2011 '
-                      'contract, GBP 118,657 nominal for 37 trams over 23 years'
-                      % (total, (1.0 - ROAD_MAINT_FIXED_SHARE) * 100,
+        x['basis'] = (x['basis'] + ' | maintenance %.0f GBP a car-year gross in 1900 money; '
+                      'renewals %.0f per cent; works-overhaul provision %.0f per cent; the '
+                      'continuous head is %.0f GBP, split %.0f/%.0f between the per-km charge '
+                      'and a standing charge at %.0f km a year. Historic series from the '
+                      'Ministry of Transport car-only returns, 1923-1933 measured and 1900, '
+                      '1913, 1937-1939 and 1949-50 derived; 1960-1990 is an estimate of 150 '
+                      'GBP (band 120-250). Modern value from the Nottingham 2011 contract, '
+                      'GBP 118,657 nominal for 37 trams over 23 years, at 90,000 km and zero '
+                      'renewals. Research pass 47.'
+                      % (total, renewals * 100, prov * 100, head,
+                         (1.0 - ROAD_MAINT_FIXED_SHARE) * 100,
                          ROAD_MAINT_FIXED_SHARE * 100, km))
     elif cls == 'road-vehicles':
         pwr = sp.get('power')
         eng0 = str(sp.get('engine', '')).lower()
+        if not pwr and re.search(r'\((rear|centre)\)', nm):
+            # An articulated bus is two vehicle objects; the leading object carries the whole
+            # purchase price and maintenance, as for articulated tram sections. Without this
+            # guard the unpowered passenger section fell through to the horse-drawn ladder.
+            x.update(capital_gbp=0, year=1900, maint_gbp_yr=0.0, maint_year=1900,
+                     basis='rear section of an articulated road vehicle: the leading section '
+                           'carries the whole purchase price and maintenance (pakset convention, '
+                           'as for articulated tram sections)')
+            return x
         if 'horse' in nm and eng0 == 'bio':
             # Only the animals: the Scammell mechanical horse is a petrol tractor and its
             # trailers are unpowered, so a plain name test would price both as horses.
