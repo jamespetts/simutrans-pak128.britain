@@ -598,6 +598,104 @@ def water_capacity():
                                   kind=(row.get('kind') or '').strip().lower())
     return _water
 
+# Per-gross-ton water ladder (2026-11-25 decision). Research reports 56 and 57 established that
+# the three per-GT rates are the measured capital prices of report 25: 84.1 x GT^0.90 is the
+# 14-vessel passenger fit deflated to 1900 money, GBP 35/GT is the British Railways 1950-53
+# cargo price and GBP 17/GT is Cambria's 1906 inland price. The tug rate of GBP 39/GT is report
+# 25 section 9.4's single 1882 point (81 GT). Rows without a tonnage keep the capacity ladder:
+# hovercraft (no gross tonnage exists), holds (the parent carries the hull) and the hulls the
+# tonnage passes could not identify.
+WATER_FERRY_RATE = 84.1
+WATER_CARGO_PER_GT = 35.0
+WATER_INLAND_PER_GT = 17.0
+WATER_TUG_PER_GT = 39.0
+WATER_GT_BRIDGE = {'barge': 1.2, 'narrowboat': 1.2, 'river-boat': 6.2, 'cargo': 1.6,
+                   'coaster': 1.6}
+
+_water_gt = None
+def water_tonnage():
+    """Object name -> gross-tonnage record from water-gross-tonnage.csv and its additions."""
+    global _water_gt
+    if _water_gt is None:
+        _water_gt = {}
+        for fn in ('water-gross-tonnage.csv', 'water-gross-tonnage-additions.csv'):
+            p = os.path.join(HERE, fn)
+            if not os.path.exists(p):
+                continue
+            for row in csv.DictReader(open(p, encoding='utf-8-sig')):
+                nm = (row.get('name') or '').strip().lower()
+                if not nm:
+                    continue
+                cur = _water_gt.get(nm, {})
+                gt = (row.get('gross_tonnage') or '').strip()
+                try:
+                    gt = float(gt.replace(',', ''))
+                except ValueError:
+                    gt = 0.0
+                _water_gt[nm] = dict(
+                    gt=gt or cur.get('gt', 0.0),
+                    kind=(row.get('kind') or '').strip().lower() or cur.get('kind', ''),
+                    method=(row.get('method') or '').strip().lower() or cur.get('method', ''),
+                    type=(row.get('type') or '').strip().lower() or cur.get('type', ''),
+                    size=(row.get('total_size_t') or '').strip() or cur.get('size', ''),
+                    definition=(row.get('gross_tonnage_definition') or '').strip()
+                    or cur.get('definition', ''),
+                    year=(row.get('year') or '').strip() or cur.get('year', ''),
+                    grade=(row.get('evidence_grade') or '').strip() or cur.get('grade', ''),
+                    identity=(row.get('identity') or '').strip() or cur.get('identity', ''))
+    return _water_gt
+
+
+def water_gt_price(name):
+    """(capital GBP, basis) from the per-gross-ton ladder, or (None, reason).
+
+    A row the tonnage research examined and left blank with a reason is not bridged: an
+    unidentified hull, or a fit whose capacity bridge would price one hull at three sizes, keeps
+    the capacity rule. A row the research bridged carries its figure and is priced normally."""
+    nm = (name or '').lower()
+    rec = water_tonnage().get(nm)
+    if not rec:
+        return None, 'no tonnage record'
+    kind = rec.get('type') or ''
+    gt = rec.get('gt') or 0.0
+    basis_extra = ''
+    if not gt:
+        if rec.get('method', '').startswith('unavailable') or kind == 'hovercraft':
+            return None, 'no gross tonnage: ' + (rec.get('method') or 'hovercraft')
+        ratio = WATER_GT_BRIDGE.get(kind)
+        try:
+            size = float(rec.get('size') or 0)
+        except ValueError:
+            size = 0.0
+        if ratio and size > 0:
+            gt = ratio * size
+            basis_extra = ' (bridge %g gross tons per capacity tonne on %.1f capacity tonnes)' \
+                          % (ratio, size)
+        else:
+            return None, 'no gross tonnage'
+    if kind in ('ferry', 'river-boat'):
+        return WATER_FERRY_RATE * (gt ** 0.90), (
+            '%s gross tons%s at 1900, priced on the passenger fit 84.1 x GT^0.90'
+            % (format(round(gt, 1), ','), basis_extra))
+    if kind in ('cargo', 'coaster'):
+        return WATER_CARGO_PER_GT * gt, (
+            '%s gross tons%s at 1900, priced at GBP %g a gross ton'
+            % (format(round(gt, 1), ','), basis_extra, WATER_CARGO_PER_GT))
+    if kind in ('barge', 'narrowboat'):
+        return WATER_INLAND_PER_GT * gt, (
+            '%s gross tons%s at 1900, priced at GBP %g a gross ton'
+            % (format(round(gt, 1), ','), basis_extra, WATER_INLAND_PER_GT))
+    if kind == 'tug':
+        return WATER_TUG_PER_GT * gt, (
+            '%s gross tons%s at 1900, priced at GBP %g a gross ton (the 1882 tug point)'
+            % (format(round(gt, 1), ','), basis_extra, WATER_TUG_PER_GT))
+    if kind == 'other':
+        return WATER_INLAND_PER_GT * gt, (
+            '%s gross tons%s at 1900, priced at GBP %g a gross ton (the inland rate, the nearest '
+            'measured per-gross-ton price for a small craft)'
+            % (format(round(gt, 1), ','), basis_extra, WATER_INLAND_PER_GT))
+    return None, 'no per-gross-ton rate for this type'
+
 def _flag(row, key):
     return str((row or {}).get(key) or '').strip().lower()
 
@@ -2047,17 +2145,23 @@ def extrapolation(cls, name, dat, gbp_per_dat=0.00396311, intro=None):
                              ROAD_MAINT_FIXED_SHARE * 100, ref_km, total_yr,
                              (total_yr / base * 100.0) if base else 0.0))
     elif cls == 'water-vehicles':
-        # Capacity-based water ladder, research pass 25. The measured per-GT ferry fit
-        # (84.1 x GT^0.90, R2 0.992) cannot be applied because GT is not recorded and the
-        # measured GT-per-passenger relationship is type-dependent (R2 0.08 within 1924-38).
-        # The report's practical route is therefore used: GBP per passenger for passenger
-        # vessels, GBP per tonne of cargo for cargo and inland craft, with the measured
-        # anchors below. See ai/temp/water-capacity.csv for the capacity of every object.
+        # Per-gross-ton capital ladder (the 2026-11-25 decision), from research reports 25, 56
+        # and 57. Where a tonnage exists it supersedes the capacity ladder below. The capacity
+        # ladder remains for hovercraft (no gross tonnage exists), holds (the parent carries the
+        # hull) and the hulls the tonnage passes could not identify.
         wc = water_capacity().get(nm)
         if wc and wc['kind'] == 'hold':
             x.update(capital_gbp=0, year=1900, maint_gbp_yr=0.0, maint_year=1900,
                      basis='hold object: the parent hull carries the whole cost (pakset convention; '
                            'the holds are part of the hull advertised outfit)')
+            return x
+        gt_price, gt_basis = water_gt_price(nm)
+        if gt_price is not None:
+            x.update(capital_gbp=round(gt_price, 2), year=1900,
+                     basis='water (per-gross-ton capital ladder, research reports 25, 56 and 57): '
+                           + gt_basis)
+            x.update(maint_gbp_yr=round(gt_price * SHIP_MAINT_RATIO, 1), maint_year=1900,
+                     basis=x['basis'] + ' | maintenance 2% of capital a year (1850 GSN comparison)')
             return x
         if wc:
             pax, cargo, typ = wc['pax'], wc['cargo'], wc['type']
