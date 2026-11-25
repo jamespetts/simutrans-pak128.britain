@@ -70,8 +70,8 @@ and 0 deviations over 10 per cent.
 1. **Documentation review.** This handoff, `maintenance-decomposition.md`,
    `source-composition.md`, `cost-balancing-register.md`, `cost-data-coverage.md`,
    `vehicle-cost-evidence.md`, `mean-annual-distance.md` and the research reports 47-53 state
-   the current treatments and the remaining work. The user reviews and approves the docs before
-   any commit.
+   the current treatments and the remaining work. The docs are committed at `2caa6d431`; further
+   changes need the user's review before commit.
 2. **Carriage re-base on report 51 (not applied).** Report 51 recommends 39 GBP a carriage-year
    in 1900 money for 1920 (band 28-55) and 121 for 1950, against the current interpolations; 1948
    falls at 112 and 1966 at 226, and the 1990 rung of 460 stands untested. A carriage pass would
