@@ -1211,9 +1211,14 @@ def extrapolation(cls, name, dat, gbp_per_dat=0.00396311, intro=None):
                         basis += (' | features x%.3f relative to the fitted base (base x%.3f: %s)'
                                   % (rel, baseline, ', '.join(parts) if parts else 'none'))
                     x.update(capital_gbp=round(capital, 0), year=1900, basis=basis)
-            x.update(maint_gbp_yr=LOCO_MAINT_YR, maint_year=1900,
-                     perkm_gbp=LOCO_REPAIR_PERKM, perkm_year=1900,
-                     basis=(x.get('basis', '') + ' | Hill 1892: 253 GBP/engine-year and 1.61 d/km repair (19-company average) at 1900').strip(' |'))
+            # The Hill locomotive figures apply to locomotives only. Guard added 2026-11-25:
+            # unguarded, this update replaced the multiple-unit branch's carriage figure
+            # (maint_gbp_yr=CARRIAGE_MAINT_YR, a few lines above) with the locomotive figure
+            # for every powered multiple-unit car.
+            if not is_multiple_unit(nm):
+                x.update(maint_gbp_yr=LOCO_MAINT_YR, maint_year=1900,
+                         perkm_gbp=LOCO_REPAIR_PERKM, perkm_year=1900,
+                         basis=(x.get('basis', '') + ' | Hill 1892: 253 GBP/engine-year and 1.61 d/km repair (19-company average) at 1900').strip(' |'))
         elif freight and 'passagiere' in freight:       # carriage
             base = interp(CARRIAGE_PTS, intro or 1910)
             mods = []
