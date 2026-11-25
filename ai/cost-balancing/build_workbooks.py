@@ -72,8 +72,12 @@ RESEARCH_ROWS_4 = os.path.join(HERE, 'research-pricing-rows-4.csv')
 RESEARCH_ROWS_4B = os.path.join(HERE, 'research-pricing-rows-4b.csv')
 PRICES_TAB = os.path.join(BASE, 'New', 'config', 'prices.tab')
 EN_TAB = os.path.join(BASE, 'New', 'text', 'en.tab')
-OUT_CAP = os.path.join(BASE, 'New', 'cost-balancing-capital.xlsx')
-OUT_MAINT = os.path.join(BASE, 'New', 'cost-balancing-maintenance.xlsx')
+# Output directory. The default is the live pakset folder. Set COST_BALANCE_OUT to any existing
+# directory to run a test rebuild without touching the live workbooks (a review or a comparison
+# run uses this), so a rebuild can never overwrite the reviewed files by accident.
+OUT_DIR = os.environ.get('COST_BALANCE_OUT') or os.path.join(BASE, 'New')
+OUT_CAP = os.path.join(OUT_DIR, 'cost-balancing-capital.xlsx')
+OUT_MAINT = os.path.join(OUT_DIR, 'cost-balancing-maintenance.xlsx')
 
 RATE_CAPITAL = 0.396311
 RATE_REVENUE = 0.005208
