@@ -1,6 +1,6 @@
 ---
 status: draft
-verified: New ex-15 @ fcd40c0bc + passes 62-65 (working tree), 2026-11-25
+verified: New ex-15 @ 35fb36f78 + passes 66-69 (working tree), 2026-11-25
 ---
 # Pass history and rejected treatments
 
@@ -80,6 +80,16 @@ follow [maintenance-decomposition](../vehicle-cost/maintenance-decomposition.md)
 - **The 507.6 GBP a seat maglev acquisition estimate.** It is the Almujibah and Preston
   serial-production model; the only transaction-level price, the 2003 Shanghai imported car, gives
   1,088 GBP a seat. Pass 65 applies the transaction figure and records 507.6 as the floor.
+- **The 0.5-of-the-diesel-ladder value for the intermediate electric locomotives.** 740.69,
+  712.52 and 685.42 on Classes 89, 90 and 91 are half the Class 47 line, from Calder's 1977
+  Class 87/Class 47 ratio. Report 50 shows the ratio is a class result, not a traction-type
+  constant, and the measured electric track gives 1,073.61, 1,070.39 and 1,067.18; pass 66
+  applies it. The 0.5 factor still prices Classes 83, 85, 86 and 87, which is an open question:
+  Calder also measures the Class 86 at 176,000 km (the same order as the 1977 electric point).
+- **The inherited 109,000 km locomotive mean annual distance.** Pass 49 read a single distance
+  from the workbook's earlier default on 40 diesel and electric rows and on 11 post-1948 steam
+  rows at 40,000 km. Pass 69 replaces the defaults with the class and era distance table; the
+  measured class duties of Classes 37, 47, 55, 86 and 87 and the CSLR tube locomotive stay.
 
 ## Pass log, 42-65
 
@@ -117,6 +127,20 @@ Each entry is a one-line record only; the research reports and patch scripts hol
   the Class 92 notes say mixed traffic on the Caledonian Sleeper duty.
 - **65**: the 22 maglev capital targets take the Shanghai acquisition price, 1,087.5 GBP a seat
   (4,194.6 GBP a metre for stock with no seat count) in place of 507.6.
+- **66**: the BR Class 89, 90 and 91 leave the 0.5-of-the-diesel-ladder rule for the measured
+  electric-locomotive track (1,476 at 1950, 1,103 at 1977, 1,045 at 1995, 868 at 2018); A becomes
+  1,073.61, 1,070.39 and 1,067.18 in place of 740.69, 712.52 and 685.42.
+- **67**: the 34 narrow-gauge carriage rows are re-based on research report 51, as pass 62 did for
+  the standard gauge; A, the provision, the head and the event are recomputed with the class
+  factors kept, and the overhaul interval becomes the band's years at the narrow gauge's own
+  40,000 km a year.
+- **68**: the 111 `Piers & docks` rows take the measured 13-25 per cent substructure share at its
+  19 per cent midpoint against the bridge family's measured rate; capital only, and the basis is
+  recorded on every row.
+- **69**: 71 locomotive rows whose stated mean annual distance was the inherited 109,000 km
+  default (and 11 post-1948 steam rows at the 40,000 km default) move to the class and era
+  distance table; the measured class duties stay, and only the per-km charge and the overhaul
+  interval move.
 
 ## Link from current docs
 

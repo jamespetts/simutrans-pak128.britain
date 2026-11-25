@@ -121,7 +121,13 @@ GT at £70-80/GT and 14 British passenger vessels 1924-38 fitted at £149.7 × G
 Cargo ships are flat at £149-173/GT (1950-53) and the Fairplay tramp at £6.3-8.1 per deadweight
 ton (1898-1930). Repair evidence remains Martin's 5%-of-capital rule and dry-docking figures, not
 per-voyage costs. Gross tonnage is not recorded in the pakset, so the workbook applies the ladder
-through capacity (passengers, cargo tonnes). `[LITERATURE: research pass 25; Moses 2010, Table 2.7;
+through capacity (passengers, cargo tonnes). Research pass 56 identified 39 real vessels behind
+57 of the 216 rows and showed that the three per-gross-ton rates are the measured **capital**
+prices (84.1 × GT^0.90 is the fit above deflated to 1900 money; £17/GT is *Cambria*'s 1906
+price; £35/GT is the BR 1950-53 cargo price), so the per-capacity ladder is a conversion of them
+at an assumed gross tonnage per capacity unit. Which ladder the workbook should carry is an open
+decision recorded in [cost-balancing/handoff](cost-balancing/handoff.md).
+`[LITERATURE: research pass 25; research pass 56; Moses 2010, Table 2.7;
 Wallasey fleet list]`
 
 **Inland boats — Fair.** Motor narrowboats £700-900 (1928-37), a butty £390, a steam narrowboat
@@ -241,7 +247,11 @@ table. Two table artefacts recorded (Primrose Hill length; Islington canal tunne
 
 **Piers, docks, quays — Fair.** Per-metre ladder by construction (timber wharf £18/m to Admiralty
 breakwater £1,061/m); Margate-type landing stage 1853; the Tilbury works itemisations. No wharf cost
-per unit of berth; no measured dock/pier maintenance account (heuristic 0.8-4% a year).
+per unit of berth; no measured dock/pier maintenance account (heuristic 0.8-4% a year). The 111
+bridge-substructure pier objects are not standalone docks: research pass 13 measures their share of
+a bridge at 13-25 per cent for a low bridge (Tower Bridge 15.8, the Humber 60 ft example 25) and
+50-82 per cent for a tall viaduct. Pass 68 charges the low-bridge midpoint of 19 per cent against
+the bridge family's measured rate, with the band stated on every row.
 
 **Signals and signalboxes — Fair.** 1912 post prices by height complete with arm, lamp and wire;
 1909 automatic signal £97-100 an arm; interlocking and lever costs 1873-84; Spetisbury 1901 and

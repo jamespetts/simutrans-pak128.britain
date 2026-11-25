@@ -371,11 +371,27 @@ a tractor price could bind to every trailer variant. Bound measured rows rose fr
   (1928-37) against £390 for a butty. `[LITERATURE: research pass 25; Moses, *Commercial and
   Technical Evolution of the Ferry Industry 1948-1987* (2010), Table 2.7 from TNA AN13/391;
   Wallasey fleet list; Paddle Steamer Preservation Society]`
-- Gross tonnage is not recorded for any pakset water object, and the measured GT-per-passenger
-  relationship is type-dependent (R² 0.08 within 1924-38), so the GT fit cannot be applied
-  directly. The workbook prices passenger vessels per passenger (sea-going, river and estuary
-  anchors) and cargo and inland craft per tonne of capacity; the GT fit is the check on the
-  shape. `[CODE New ex-15 @ 33cf9b106; ai/temp/water-capacity.csv]`
+- Gross tonnage is not recorded for any pakset water object, and the measured GT-per-capacity
+  relationship is type-dependent (0.80-188.9 gross tons per capacity tonne across 39 vessels;
+  R² 0.08 within 1924-38), so the GT fit cannot be applied directly. The workbook prices
+  passenger vessels per passenger (sea-going, river and estuary anchors) and cargo and inland
+  craft per tonne of capacity. `[CODE New ex-15 @ 33cf9b106; ai/temp/water-capacity.csv]`
+- Research pass 56 (2026-11-25) shows that the three per-gross-ton rates are the measured
+  **capital** prices, not annual repair: 84.1 × GT^0.90 is the report 25 passenger purchase fit
+  deflated at the 1931-32 general index (149.7 × 100/178 = 84.06), GBP 17/GT is *Cambria*'s 1906
+  price deflated (1,895 × 100/102/109 = 17.04), and GBP 35/GT is the British Railways 1950-53
+  cargo price (148.6-173.3 × 100/391-440 = 38.0-39.4, within 11 per cent). Applied as maintenance
+  they would charge a hull's whole capital every year. The GT fit is therefore a price check, not
+  only a shape check, and the per-capacity rates are a conversion of it at an assumed gross
+  tonnage per capacity unit; that assumption is what the 0.80-188.9 range makes unsafe.
+  `[LITERATURE: research pass 56 § 4.4; research pass 25 § 9]`
+- The workbook keeps the per-capacity capital ladder and charges repair at 2 per cent of capital,
+  inside report 56's 2-5 per cent band. On the 57 rows with a sourced gross tonnage the capacity
+  target is a median 0.30 of the per-GT figure; on an individual check (*TS King Edward*, 502 GT,
+  £33,000 in 1901) the capacity target reproduces the measured price and the per-GT rate is 31 per
+  cent below it, while on a large modern hull (*Spirit of Britain*, 47,592 GT) the per-GT figure
+  is ten times the capacity figure. Adopting the per-GT ladder is an open decision, recorded in
+  [cost-balancing/handoff](../cost-balancing/handoff.md).
 - Cargo is priced at £8.5 per tonne of capacity, the direct per-ton rate from the Fairplay tramp
   (1900), the 1918 steel barge and *Cambria* (1906). The £149-173 per gross ton of the 1950-53 BR
   cargo ships is a small-ship rate (925-1,500 GT) and would overprice the pakset's 20,000 t bulk
