@@ -3,7 +3,7 @@
 # class/era table by more than 10 per cent.
 #
 # Scope: the classes where the note states its own mean annual distance and the table is
-# directly applicable: pass 47 carriages, pass 53 multiple units and pass 58 trams. The
+# directly applicable: pass 47/62 carriages, pass 53 multiple units and pass 58 trams. The
 # locomotive, road, ship and maglev figures are reference duties for the fixed/per-km split
 # and are not an overhaul interval in years, so they are not checked here.
 #
@@ -61,7 +61,7 @@ def main():
                 kind = 'tram'
             elif 'pass 53' in note:
                 kind = 'multiple-unit'
-            elif 'pass 47' in note:
+            elif 'pass 47' in note or 'pass 62' in note:
                 low = name.lower()
                 if (ev.is_multiple_unit(low)
                         or any(k in low for k in ('tube stock', 'emu', 'demu', 'railcar',

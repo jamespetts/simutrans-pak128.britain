@@ -1,6 +1,6 @@
 ---
 status: draft
-verified: New ex-15 @ 70a098c64 (working tree), 2026-11-25
+verified: New ex-15 @ fcd40c0bc + passes 62-65 (working tree), 2026-11-25
 ---
 # Cost data coverage
 
@@ -44,10 +44,13 @@ or vice versa.
 bogie third £1,200-1,500; corridor composite or dining £1,600-2,000; twelve-wheel diner £2,500-3,000;
 1920s corridor third £2,300-2,500). The NER build records (1905-34, consecutive years, stated
 diagrams and prices) are the strongest block in the vehicle evidence and the natural basis for a
-carriage price surface. Maintenance: the measured era ladder 33 / 140 / 265 / 460 / 440 GBP a
-vehicle-year at 1900 / 1950 / 1970 / 1990 / 2020, anchored on Hill 1892, the Beeching 1961 split,
-the 1984 HST rate, the RDG 2013 rate and the ORR 2024-25 medians
-([research-pricing-report-43](cost-balancing/research-pricing-report-43.md)); the older Hill
+carriage price surface. Maintenance: the measured era ladder 33 / 39 / 121 / 265 / 460 / 440 GBP
+a vehicle-year at 1900 / 1920 / 1950 / 1970 / 1990 / 2020, anchored on Hill 1892, the 1912
+company mean and the 1913-21 rolling-stock change, the Beeching 1961 split, the 1984 HST rate, the
+RDG 2013 rate and the ORR 2024-25 medians
+([research-pricing-report-43](cost-balancing/research-pricing-report-43.md);
+[research-pricing-report-51](cost-balancing/research-pricing-report-51.md), applied by pass 62); the
+older Hill
 figure was £18-45 a vehicle-year in 1892 (repairs and renewals combined). No fixed/per-km split is
 settled — see
 [vehicle-cost/maintenance-decomposition](vehicle-cost/maintenance-decomposition.md). Gap: nothing between 1934 and the early 1980s — a priority gap, not
@@ -143,10 +146,12 @@ nothing before 1830 outside one coach account.
 gauge forge basis is terrain, not gauge.
 
 **Maglev vehicles — Fair, from overseas systems only.** There is no mainline maglev in Britain,
-so no British evidence can exist. The price and maintenance figures use the overseas-system unit
-costs (EUR 49,233 a seat and EUR 0.011 a seat-km, 2009 prices, from the Shanghai, Linimo, Incheon
-and Changsha systems), converted and adjusted for labour. Rule, conversion and open questions:
-[vehicle-cost/maglev-costs](vehicle-cost/maglev-costs.md).
+so no British evidence can exist. The acquisition price uses the 2003 Shanghai imported-car
+transaction (1,088 GBP a seat in 1900 money; the Almujibah and Preston EUR 49,233 a seat estimate
+remains the serial-production floor). Maintenance uses the overseas rate EUR 0.011 a seat-km
+(0.00010257 GBP), because no operator account separates rolling-stock maintenance. Rule,
+conversion and open questions:
+[vehicle-cost/maglev-costs](vehicle-cost/maglev-costs.md); [research-pricing-report-55](cost-balancing/research-pricing-report-55.md).
 
 **Vehicle overhauls and upgrades — Fair (rail), Poor (everything else).** All 3,539 vehicles
 carry a maintenance figure and an overhaul target; 403 carry an `upgrade_price`, most of them the
@@ -170,9 +175,9 @@ value. Upgrades: measured rebuilds at 20-50% of a new vehicle (Class 47-to-57, C
 Mk3 sliding-door conversion, steam reboilering, the Leyland National Greenway). Gaps: no measured
 wagon overhaul price in any era (the HMRS 1972-81 data are archive-only, SKU ME0354); for
 carriages no measured heavy-repair price for 1935, the BR coded visits or the modern period — only
-the two endpoints; the 1920 and 1950 carriage levels are not closed (report 51 recommends 39 and
+the two endpoints; the 1920 and 1950 carriage levels are closed by pass 62 on report 51 (39 and
 121); no per-overhaul money for a BR diesel or electric locomotive, although the 1914-48 annual
-total is measured and the 2018 Class 92 contract partly closes the post-1977 gap (report 50;
+total is measured and pass 63 applies the 2018 Class 92 class override of 868 (mixed traffic on the Caledonian Sleeper; report 50;
 the 1995 rung remains derived); no measured municipal tramcar repairs figure after 1950
 (the 150 GBP rung is an estimate); and no pre-2009 ship or pre-2000 aircraft cost series.
 

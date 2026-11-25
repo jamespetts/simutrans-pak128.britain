@@ -1,7 +1,8 @@
 # Cost-balancing workbooks: handoff
 
-**Status**: analysis complete and committed 2026-11-25; `.dat` costs deliberately NOT changed.
-The workbooks carry the current treatments and are ready for the user's review.
+**Status**: analysis complete; passes 62-65 applied and committed; `.dat`
+costs deliberately NOT changed. The workbooks carry the current treatments and are ready for the
+user's review.
 
 ## What this is
 
@@ -11,7 +12,9 @@ target column must never take a `.dat` price as an input: that is the quantity u
 using it to build the target is circular.
 
 Coverage: **4,071 of 4,218 objects have a capital target (97%); 4,154 have a maintenance target
-(98%)**. Both workbooks rebuild with zero error cells.
+(98%)**. Both workbooks rebuild with zero error cells. Before commissioning a research pass, read
+[negative-findings](negative-findings.md): it records the searches that found nothing and the
+archive routes that remain.
 
 ## How it is built
 
@@ -49,16 +52,16 @@ class; money is 1900 GBP. The pass-by-pass history and the rejected treatments a
 
 | Class | Annual level (1900 money) | Overhaul and upgrade | Fixed/per-km | Mean annual distance |
 |---|---|---|---|---|
-| Rail carriages | 33 / 140 / 265 / 460 / 440 GBP a vehicle-year at 1900 / 1950 / 1970 / 1990 / 2020, log-linear between and flat outside | Provision 28 / 24 / 19 / 12 / 10 / 8 per cent of A at 6 / 5 / 3 / 2 / 2 / 2.6 years; first event 0.70 of the maximum over three; upgrade 7.7 per cent for brake pairs, 25-30 per cent for structural conversion | 70/30 | 35,000 / 36,000 / 55,000 / 88,000 / 120,000 / 113,000 km by era |
+| Rail carriages | 33 / 39 / 121 / 265 / 460 / 440 GBP a vehicle-year at 1900 / 1920 / 1950 / 1970 / 1990 / 2020, log-linear between and flat outside; 1948 and 1966 read 112 and 226 by interpolation | Provision 28 / 24 / 19 / 12 / 10 / 8 per cent of A at 6 / 5 / 3 / 2 / 2 / 2.6 years; first event 0.70 of the maximum over three; upgrade 7.7 per cent for brake pairs, 25-30 per cent for structural conversion | 70/30 | 35,000 / 36,000 / 55,000 / 88,000 / 120,000 / 113,000 km by era |
 | Rail wagons | 4.2 / 8.7 / 14.3 / 24.8 / 23.8 GBP per 10-tonne wagon-year at 1900 / 1950 / 1970 / 1990 / 2020, scaled by (payload/10)^0.4 | Head 0.8A; event 1.2A every six years, first event 0.75 of the steady event; upgrade 10-20 per cent for brake pairs | 65/35 | 40,000 km |
-| Rail locomotives | 215 / 306 / 800 / 2,100 / 1,045 / 520 GBP an engine-year at 1900 / 1950 / 1961 / 1977 / 1995 / 2020, log-linear between | Renewals 25 per cent (22.5 for 1948-61 electric, 20.6 for 1962+ diesel/electric); provision 35 per cent steam and 39 per cent diesel/electric; events scaled to the provision | 60/40 steam, 50/50 diesel/electric | The row's own measured duty |
+| Rail locomotives | 215 / 306 / 800 / 2,100 / 1,045 / 520 GBP an engine-year at 1900 / 1950 / 1961 / 1977 / 1995 / 2020, log-linear between; the Class 92 is a mixed-traffic class override at 868 (2018, Caledonian Sleeper duty), and the Class 88 takes the Class 68 level of 614.82 with no 0.5 electric factor; neither is a time rung | Renewals 25 per cent at 1900 phasing to zero by 1950; 22 per cent at 1961, phased in from 1950 and out by 1977; provision 35 per cent steam and 39 per cent diesel/electric; events scaled to the provision | 65/35 steam, 60/40 diesel/electric | The row's own measured duty |
 | Multiple units | 66 / 241 / 380 / 510 / 780 GBP a car-year at 1900 / 1950 / 1970 / 1990 / 2020, log-linear between | Provision 15 per cent of A; event 1.2A every eight years, first event 0.70 of the maximum over three; upgrade 8-12 per cent refresh, 20-25 per cent re-tractioning | 50/50 | 100,000 / 120,000 / 161,000 km by era; tube and metro 120,000 |
 | Trams | Pre-1950 gross 84 / 131 / 106 / 89 GBP a car-year at 1900 / 1920 / 1931 / 1939; 1950-90 repairs-only 150 (band 130-210); 1990+ 1,177 | Pre-1950: renewals 35 per cent, provision 28 per cent at two years, event 0.35A rising to 0.75A. 1950-90: renewals 0, provision 28 per cent at three years, event 0.54A rising to 1.15A. 1990+: renewals 0, provision 6 per cent at twelve years, one event of 0.75A. Upgrade 0.22 of the new price to 1950, rising linearly to 0.50 by 1990 | 50/50 | 48,000 km to 1989; 90,000 km from 1990 |
 | Buses and coaches | Measured Commercial Motor level, rescaled to the 37.5 per cent overhaul composition | 220,000 km, 25 to 40 per cent of capital, rescaled to the measured annual share | 75/25 | 55,000 km overhaul reference; 40,000 km split reference |
 | Lorries and vans | Measured Commercial Motor level | Introduction-year bands: before 1930 35-50 per cent, 1930-59 44-56, 1960-84 25-35, 1985-2004 20-30; intervals 80,000 / 80,000 / 160,000 / 400,000 km; vans 80,000 / 160,000 km | 75/25 | 40,000 km split reference (25,000 for short-duty vans) |
 | Ships | Measured repair level; see [source-composition](../vehicle-cost/source-composition.md) | Five-year special survey; 2 to 5 per cent of capital | 50-65 per cent standing | 115,000 km |
 | Aircraft | BOAC engineering cost per flying hour; see [aircraft-maintenance](../vehicle-cost/aircraft-maintenance.md) | C-check every 4,000-6,000 flight hours; 2.5 to 5 per cent of capital; D-check in the cycle | Class rule | 4,200,000 km per C-check |
-| Maglev | Overseas system unit costs; see [maglev-costs](../vehicle-cost/maglev-costs.md) | 15 per cent of A, event 1.2A every eight years | 50/50 | 300,000 km |
+| Maglev | Shanghai imported-car acquisition at 1,088 GBP a seat (1,087.5 before rounding; report 55; the 507.6 Almujibah estimate remains the serial-production floor); maintenance 0.00010257 GBP a seat-km | 15 per cent of A, event 1.2A every eight years | 50/50 | 300,000 km |
 | Holds and animals | Holds are containers inside a vehicle: 1 per cent of their own capital, no per-km charge. Animals are 45 GBP an animal-year (90 for a pair), standing only | Holds take no overhaul and a zero target; animals replace at 100 per cent of the purchase price at 70,000 km; upgrade 50 per cent | Holds all fixed; animals all fixed | Holds none; animals 10,000 km a year |
 
 The current coherence audit reports 3,539 vehicles, 3,265 envelopes checked, 274 zero-priced
@@ -69,59 +72,61 @@ and 0 deviations over 10 per cent.
 
 1. **Documentation review.** This handoff, `maintenance-decomposition.md`,
    `source-composition.md`, `cost-balancing-register.md`, `cost-data-coverage.md`,
-   `vehicle-cost-evidence.md`, `mean-annual-distance.md` and the research reports 47-53 state
-   the current treatments and the remaining work. The docs are committed at `2caa6d431`; further
-   changes need the user's review before commit.
-2. **Carriage re-base on report 51 (not applied).** Report 51 recommends 39 GBP a carriage-year
-   in 1900 money for 1920 (band 28-55) and 121 for 1950, against the current interpolations; 1948
-   falls at 112 and 1966 at 226, and the 1990 rung of 460 stands untested. A carriage pass would
-   change the annual figure A, the provision, the head and the event in 758 rows, so it needs a
-   fresh backup and a full audit.
-3. **Locomotive report 50 (not applied).** Keep the ladder levels 215 / 306 / 800 / 2,100 /
-   1,045 / 520. The measured 1913-1938 points validate the 1900-1950 interpolation within 5 per
-   cent; do not add a 1922 rung. Add the measured Class 92 level of 868 GBP at 2018 as a
-   class-specific override (band 740-1,000), keep 520 at 2020 for the Class 66 freight line, and
-   state the 1950 composition break (pre-1950 gross of renewals, 1950 net) in the basis text. If
-   the 25 per cent renewals deduction is kept on the pre-1961 rows, the 1950 rung is 408 gross so
-   that the deduction returns 306 net. Report 46 covers the diesel/freight line; report 50 covers
-   the electric-passenger line.
-4. **Tram 1950-90 measured figure.** Report 49 closes the 1949-50 point with the Sheffield
+   `vehicle-cost-evidence.md`, `mean-annual-distance.md`, `negative-findings.md` and the research
+   reports 47-56 state the current treatments and the remaining work. The docs are committed with
+   the pass 62-65 change; the previous documentation commit was `2caa6d431`. Read
+   [negative-findings](negative-findings.md) before commissioning any research pass.
+2. **Tram 1950-90 measured figure.** Report 49 closes the 1949-50 point with the Sheffield
    repairs line (147.3 GBP a car-year, repairs-only) and applies the 150 repairs-only rung with
    zero renewals. No measured municipal repairs figure after 1950 was found; the routes are the
    Ministry "Tramways and trolley vehicle undertakings" volumes after 1949-50 and the Glasgow,
    Blackpool and later Sheffield accounts.
-5. **Wagon 1972-81.** Report 52 finds the HMRS repair-cost data are archive-only (SKU ME0354);
+3. **Wagon 1972-81.** Report 52 finds the HMRS repair-cost data are archive-only (SKU ME0354);
    the BRB accounts are search-only and the Serpell report has no per-wagon split. The seven-year
-   HAA cycle supports the six-year band; the 1.2A event remains an ESTIMATE.
-6. **Midland carriage price.** Report 53 finds the GBP 225-250 range for 1860s composites, so the
+   HAA cycle supports the six-year band; the 1.2A event remains an ESTIMATE. Research pass 54
+   found no readable measurement but located The National Archives file **AN 112/25, "Unit cost
+   of repair: wagons", 1965-1981** (open, not digitised), with AN 112/26, AN 112/87, AN 112/129
+   and AN 171/941 as related routes. The ladder's 14.3 and the 1.2A event are unchanged.
+4. **Midland carriage price.** Report 53 finds the GBP 225-250 range for 1860s composites, so the
    GBP 62 overhaul is 24.8-27.6 per cent of capital (about 25 per cent). This supports the
    existing Victorian 28 per cent provision; no workbook change.
-7. **Carriage size term.** The carriage annual figure is flat per vehicle, so a 1900 50 ft bogie
+5. **Carriage size term.** The carriage annual figure is flat per vehicle, so a 1900 50 ft bogie
    carriage and an 1833 four-wheeler carry the same figure: 2.4 per cent of capital against 14
    per cent. The wagon ladder has a (payload/10)^0.4 term; the carriage ladder has none. A seats
    or tare based term is the next research question and would change the overhaul events too.
-8. **Maglev unit costs** are estimates (Almujibah and Preston 2018), not operator accounts. An
-   Aichi Rapid Transit or Shanghai rolling-stock maintenance line would replace them; the open
-   questions are in `maglev-costs.md`.
-9. **Water size ladder.** The measured rates are ready: ferries 84.1 x GT^0.90 in 1900 GBP (R2
-   0.992), coastal cargo GBP 35/GT, inland GBP 17/GT. Blocked because the pakset records no gross
-   tonnage. `water-capacity.csv` gives hull+hold capacity in tonnes; the missing step is a
-   GT-versus-capacity bridge fitted from research pass 25. Then replace the flat GBP 38,958 ship
-   ladder.
-10. **General feature premiums.** Only road engine type and carriage dining/bogie/steel are
-    wired. Transmission, suspension, heating, air conditioning, low floor, corridor, sleeping and
-    tram articulation are researched (pass 8) and have attribute columns, but no multipliers.
-11. **Piers**: 111 objects unpriced. Decision needed: leave at zero (bridge carries the structure)
-    or charge the measured 13-25% substructure share.
-12. **Knowledge-base corrections awaiting review**: the 1983 and 2016 road maintenance rows are
+6. **Maglev maintenance and overhaul evidence.** The acquisition price is applied by pass 65
+   (1,088 GBP a seat; the 507.6 Almujibah estimate remains the serial-production floor). The
+   maintenance rate stays 0.00010257 GBP a seat-km because no operator account separates
+   rolling-stock maintenance. The remaining routes are a Shanghai operator maintenance line, a
+   Changsha 架修 contract value and an Incheon asset-class split; [negative-findings](negative-findings.md)
+   records them.
+7. **Water size ladder.** Research pass 56 identified 57 of the 216 rows from 39 real vessels and
+   produced `water-gross-tonnage.csv`. It also found that the three per-gross-ton rates are
+   **capital prices, not annual maintenance**: 84.1 x GT^0.90 is report 25's purchase-price fit
+   deflated at the 1931-32 index, GBP 17/GT is Cambria's 1906 price, and GBP 35/GT is the BR
+   1950-53 cargo price. Applied as maintenance they charge a hull's entire capital every year.
+   The recommended treatment is to use them as the capital ladder and set repair at 2-5 per cent
+   of capital. The bridge for the blank rows is 1.6 GT per cargo tonne (coastal cargo), 1.2
+   (inland craft) and 6.2 (river steamers); ferries are unbridgeable as a pool. Not applied: the
+   per-GT capital ladder requires a route-class assignment the pakset does not record, and the
+   current workbook already uses a capacity capital ladder with maintenance at 2 per cent of
+   capital, inside the report's 2-5 per cent band. Report 56 is for review; the data are in
+   `water-gross-tonnage.csv`.
+8. **General feature premiums.** Only road engine type and carriage dining/bogie/steel are
+   wired. Transmission, suspension, heating, air conditioning, low floor, corridor, sleeping and
+   tram articulation are researched (pass 8) and have attribute columns, but no multipliers.
+9. **Piers**: 111 objects unpriced. Decision needed: leave at zero (bridge carries the structure)
+   or charge the measured 13-25% substructure share.
+10. **Knowledge-base corrections awaiting review**: the 1983 and 2016 road maintenance rows are
     2.4x too small (decimal pence treated as old pence; corrected 178, 22, 12); "timber bridge
     upkeep 7-8 times plain line" should read "7-8 times the brick rate".
-13. **Generator alignment.** `evidence_data.py` carries the tram ladder and
-    `tram_overhaul()`, the multiple-unit distance table and the tram upgrade share;
-    `build_workbooks.py` passes `maint_a_gbp` to `overhaul_profile()`. A rebuild still discards
-    every pass note after 40, and the carriage distance table is not wired into the generator;
-    the patch scripts remain the supported route.
-14. **`.dat` update.** The point of the exercise. Do it as one total-set pass, not object by
+11. **Generator alignment.** `evidence_data.py` carries the tram ladder and
+    `tram_overhaul()`, the multiple-unit distance table, the tram upgrade share, the report 51
+    carriage ladder and the report 55 maglev acquisition constants; `build_workbooks.py` passes
+    `maint_a_gbp` to `overhaul_profile()`. The Class 92 and Class 88 corrections are
+    workbook-only. A rebuild still discards every pass note after 40, and the carriage distance
+    table is not wired into the generator; the patch scripts remain the supported route.
+12. **`.dat` update.** The point of the exercise. Do it as one total-set pass, not object by
     object, after the workbook review.
 
 ## Interim, not settled
@@ -136,12 +141,22 @@ and 0 deviations over 10 per cent.
   rows are repairs-only. The 150 GBP rung is an estimate constrained by the Sheffield 1949-50
   measurement; no municipal repairs figure after 1950 was found.
 - The locomotive series changes scope at 1950: the pre-1950 rows are gross of renewals and the
-  1950 row is net. The Class 92 measured level of 868 GBP at 2018 is a class override, not a new
-  time rung; the 1995 rung of 1,045 is retained.
+  1950 row is net. The 25 per cent renewals share is phased out by 1950, so the 1950 rung is
+  entered net at 306; the 408 gross alternative is not used. The Class 92 measured level of
+  868 GBP at 2018 is a class/duty override for a mixed-traffic locomotive on the Caledonian
+  Sleeper, applied by pass 63, not a new time rung; the 1995 rung of 1,045 is retained and the
+  2020 rung of 520 remains the Class 66 freight-diesel line. The 868 is not a clean
+  electric-passenger anchor, because the class is mixed traffic and the contract covers a
+  low-mileage passenger duty.
 - Multiple-unit report 45 recommends five-year overhauls before 1948 and six-year overhauls to
   1999, both ESTIMATE; the workbook uses eight years for the whole fleet.
-- The carriage 1920 and 1950 levels await the report 51 re-base; the distance table is separate
-  and does not settle them.
+- The carriage 1920 and 1950 levels were applied by pass 62 on report 51 (39 and 121); the
+  distance table is separate and does not settle them.
+- Pass 62 covers the 758 standard-gauge carriage rows on the distance table. The 35 narrow-gauge
+  carriage rows (pass 48) and the 12 non-carriage rows that pass 47 also touched (tube stock,
+  Stanhope wagons, SR EMU trailers and a passenger wagon) still carry the pre-51 carriage ladder.
+  Report 51's evidence is mainline carriage, so those rows need a separate decision on whether the
+  same ladder applies.
 
 ## Rules in force
 
@@ -200,36 +215,44 @@ and 0 deviations over 10 per cent.
 Run `py -3 New/ai/cost-balancing/wb_audit_coherence.py` after every pass. The current run reports
 3,539 vehicles coverage-clean, 3,265 envelopes checked, 274 zero-priced sections, 0 rows
 unchecked and 0 failures. The parser reads the pass 42, 44, 46, 47, 48, 49, 52, 53, 57, 58, 59,
-60 and 61 note forms, the standing-charge and written-whole cases, and the hold cases.
+60, 61, 62, 63, 64 and 65 note forms, the standing-charge and written-whole cases, and the hold
+cases.
 
 Run `py -3 New/ai/cost-balancing/wb_distance_check.py` for the distance table. The current run
 reports 1,524 rows with a stated mean (707 multiple units, 758 carriages, 59 trams) and 0
 deviations over 10 per cent.
 
 Re-run each patch script in its default dry-run mode after writing; passes 55, 56, 57, 58, 59,
-60 and 61 each report 0 rows changed. The maintenance workbook has no formula error cells. The
-capital workbook's `Snippet prices (6521)` sheet contains literal `#0` and `#20` markers, which
+60, 61, 62, 63, 64 and 65 each report 0 rows changed. The maintenance workbook has no
+formula error cells.
+The capital workbook's `Snippet prices (6521)` sheet contains literal `#0` and `#20` markers, which
 are not formula errors.
 
 Backups of the workbooks before the first pass of this session are in `ai/temp/pre-pass57/`.
-Later passes overwrote the same two files; the pre-pass57 copies are the review baseline.
+The pass 62-65 review baselines are `ai/temp/pre-pass62/`, `ai/temp/pre-pass63/`,
+`ai/temp/pre-pass64/` and `ai/temp/pre-pass65/`.
 
 ## Files
 
-The patch scripts for this work are `wb_fv_pass57.py` to `wb_fv_pass61.py` and
+The patch scripts for this work are `wb_fv_pass57.py` to `wb_fv_pass65.py` and
 `wb_distance_check.py`, in `New/ai/cost-balancing/`. The class and era distance table is
 `New/ai/vehicle-cost/mean-annual-distance.md`; its constants are in `evidence_data.py`. The
-research reports 49-53 and their `research-pricing-rows-*.csv` sit beside reports 42-48.
+research reports 49-56 and their `research-pricing-rows-*.csv` sit beside reports 42-48; report
+56 also writes `water-gross-tonnage.csv`. Report 54 is the wagon archive route, report 55 the
+maglev evidence, report 56 the water gross tonnage and the capital/maintenance correction.
 The supporting code is `evidence_data.py` (tram ladder, `tram_overhaul()`, `tram_upgrade_share()`,
-`MEAN_ANNUAL_KM`, `mean_annual_km()`), `build_workbooks.py` (`maint_a_gbp`) and
-`wb_audit_coherence.py` (widened parser, `--notes`). The current-state documents are this
-handoff, `maintenance-decomposition.md`, `source-composition.md`, `cost-balancing-register.md`,
-`cost-data-coverage.md`, `vehicle-cost-evidence.md` and `project-notes.md`; the previous states
-are in [pass-history](pass-history.md).
+`MEAN_ANNUAL_KM`, `mean_annual_km()`, the report 51 carriage ladder and the report 55 maglev
+acquisition constants), `build_workbooks.py` (`maint_a_gbp`) and `wb_audit_coherence.py` (widened
+parser, `--notes`). The Class 92 and Class 88 corrections are workbook-only. The current-state
+documents are this handoff, `negative-findings.md`, `maintenance-decomposition.md`,
+`source-composition.md`, `cost-balancing-register.md`, `cost-data-coverage.md`,
+`vehicle-cost-evidence.md`, `vehicle-cost/maglev-costs.md` and `project-notes.md`; the previous
+states are in [pass-history](pass-history.md).
 
 ## Git and push
 
-The `New/` repository is on branch `ex-15`; this work is committed. Push with:
+The `New/` repository is on branch `ex-15`; the pass 62-65 work is committed with this change.
+Push with:
 
     git -C New -c credential.helper="!gh auth git-credential" push \
         https://github.com/jamespetts/simutrans-pak128.britain.git ex-15
@@ -237,6 +260,7 @@ The `New/` repository is on branch `ex-15`; this work is committed. Push with:
 ## Scratch
 
 `ai/temp/` holds the workbook backups, the research subagents' scratch folders (`rp47`, `rp48`,
-`rp53`), and reference material that cannot be re-fetched (`research-pdfs/`, `erj/`,
-`jgl/`, the `fig11_*` scripts). The session state file `ai/temp/session-state-balancing.md` is
-deleted at the end of the session; this handoff is the record.
+`rp53`, `rp54`, `rp55`, `rp56`), and reference material that cannot be re-fetched
+(`research-pdfs/`, `erj/`, `jgl/`, the `fig11_*` scripts). The session state file
+`ai/temp/session-state-balancing.md` is deleted at the end of the session; this handoff is the
+record.

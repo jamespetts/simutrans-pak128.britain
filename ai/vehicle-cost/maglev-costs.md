@@ -1,6 +1,6 @@
 ---
 status: draft
-verified: New ex-15 @ working tree, 2026-11-25
+verified: New ex-15 @ fcd40c0bc + passes 64-65 (working tree), 2026-11-25
 ---
 # Maglev vehicle costs
 
@@ -31,35 +31,56 @@ per-metre equivalents in `New/ai/cost-balancing/evidence_data.py`, with the bran
 
 ## The evidence
 
-The unit costs are those of **Almujibah and Preston (2018)**, Table 6, at 2009 prices. The paper
-assembles them from the published costs of the Shanghai Transrapid, the Linimo (Nagoya), the
-Incheon Airport and the Changsha systems. `[LITERATURE:https://doi.org/10.17816/transsyst201843s1298-327]`
-H. Almujibah and J. Preston, "The total social costs of constructing and operating a maglev line
-using a case study of the Riyadh-Dammam corridor, Saudi Arabia", *Transportation Systems and
-Technology* 4(3 suppl. 1), 2018, pp. 298-327.
+### Acquisition: the Shanghai transaction
 
-| Element | Rate | Grade | What the source says |
-|---|---|---|---|
-| Acquisition | EUR 49,233 a seat | ESTIMATE built from system costs | "The unit cost of acquiring a Transrapid" |
-| Rolling-stock maintenance | EUR 0.011 a seat-km | ESTIMATE built from system costs | "Average unit cost of maintaining a Maglev trainset"; a distance-driven unit cost |
+The only transaction-level maglev vehicle price found is the Shanghai imported Transrapid car:
+**more than RMB 100 million a car**, with 15 cars ordered. Two Chinese trade-press reports five
+years apart give the same figure, the second stating that it includes the suppliers' development
+cost. At the 2003 average of RMB 13.531 to GBP 1 that is GBP 7,390,579 a car, or **105,129 GBP a
+car in 1900 money**. A Shanghai five-car set carries 464 seats (92.8 seats a car), so the price
+is **1,133 GBP a seat** before the labour adjustment and **1,087.5 GBP a seat** after it. The
+band is **761-1,133**: 761 is the 2010 domestic-build price at 30 per cent below the imported
+car; 1,133 is the imported price before the labour adjustment. `[LITERATURE: *China Business
+Times*, 18 May 2005, https://finance.sina.com.cn/chanjing/b/20050518/07101596819.shtml;
+*Beijing Daily*, reprinted 9 April 2010, https://kunming.cn/news/c/2010-04-09/2122408.shtml]`
 
-The same paper's guideway figures are already used in
-[research-pricing-report-17](../cost-balancing/research-pricing-report-17.md) §7, so the two
-maglev evidence routes now share one source.
+The Shanghai price is consistent with the German contract envelope: 15 cars at RMB 100m is
+RMB 1.5bn, 30.6 per cent of the DM 1,293m equipment and services contract. It is a first batch
+with development cost inside it, so the previous **Almujibah and Preston (2018)** estimate of
+EUR 49,233 a seat (507.6 GBP in 1900 money) remains the **serial-production floor**. The choice
+between 1,087.5 and 507.6 is a choice about production volume, not about which arithmetic is
+right; the workbook applies the transaction figure and records the floor.
 
-**Cross-checks on the acquisition rate.** A 438-seat five-car Transrapid train costs
-EUR 21.6m at this rate. The Shanghai project's German equipment and services contract was
-DM 1,293m for three five-car trains, the operation control system, the propulsion and power
-supply, the stator packs and the winding cables (report 17 §2); vehicles at EUR 21.6m a train are
-EUR 65m of that total, a plausible share. The Emsland test facility budgeted about DM 60m for one
-test vehicle (report 17 §2), roughly EUR 30m — a test vehicle, not a production car, so the
-direction is right and the size is not comparable.
+### Maintenance: the Almujibah rate stands
 
-**Cross-check on the maintenance rate.** The pakset's Ultra 450 front car carried a `fixed_cost`
-of 18,500 `.dat` (555 GBP a year in 1900 money at the workbook's conversion). At 100,000 km a year
-the overseas rate for its 54 seats gives 554 GBP a year. The two agree within 0.2 per cent, which
-is a useful confirmation that the existing pakset level was not absurd and that the overseas rate
-is of the right order. `[CODE New ex-15 working tree, 2026-11-25]`
+The maintenance figure remains **Almujibah and Preston (2018)**, Table 6, at 2009 prices:
+**EUR 0.011 a seat-km**, converted to **0.00010257 GBP a seat-km** in 1900 money. It is an
+estimate assembled from system costs, not an operator account; no operator account found in
+research pass 55 separates maglev rolling-stock maintenance from infrastructure maintenance.
+`[LITERATURE:https://doi.org/10.17816/transsyst201843s1298-327]`
+
+The available evidence brackets the rate rather than displacing it:
+
+- the Incheon Airport Maglev heavy-maintenance contracts (about KRW 3.8bn and KRW 5.77bn for four
+  two-car sets) convert to **5,189 and 5,987 GBP a set-event**, or annualised 1,153 and 1,330 GBP
+  a set-year. At Incheon's 57,332 train-km a set-year and 180 passengers a set that is
+  **0.000112-0.000129 GBP a seat-km**, 1.1-1.3 times the current rate;
+- the Shanghai 2026 spare-parts procurement budget is about **0.0000267 GBP a seat-km**, 26 per
+  cent of the current rate, and covers parts only;
+- a Korean work study puts maglev heavy-maintenance labour 23 per cent below heavy rail and 40
+  per cent below light rail for comparable formations.
+
+The current rate is therefore not generous, not below the parts cost, and consistent with the
+lower labour requirement. Whether it includes heavy overhauls is not stated; if it excludes them,
+the pakset under-charges by the annualised overhaul cost. `[Report
+55](../cost-balancing/research-pricing-report-55.md).`
+
+### The old acquisition estimate
+
+The previous figure was **EUR 49,233 a seat** from Almujibah and Preston (2018), Table 6,
+converted to 507.6 GBP a seat. The paper presents it as an estimated unit cost assembled from
+system costs and does not publish the derivation of the per-seat rate. It remains the floor for a
+serial-production reading, not the applied figure. `[LITERATURE:https://doi.org/10.17816/transsyst201843s1298-327]`
 
 ## The conversion
 
@@ -68,17 +89,18 @@ The workbook's `Index` sheet reproduces the engine's price series from `config/p
 
 | Step | Value | Basis |
 |---|---|---|
-| Exchange | EUR 1 = GBP 0.89 | 2009 average; the source prices are 2009 prices |
-| Deflator, acquisition | 82.87 | workbook `Index` sheet, vehicle purchase, 2009 (8,287 per cent of 1900) |
+| Exchange, acquisition | RMB 13.531 = GBP 1 | 2003 average; the Shanghai price is a 2003 price |
+| Deflator, acquisition | 70.30 | workbook `Index` sheet, vehicle purchase, 2003 (7,030 per cent of 1900) |
+| Exchange, maintenance | EUR 1 = GBP 0.89 | 2009 average; the Almujibah price is a 2009 price |
 | Deflator, maintenance | 91.63 | workbook `Index` sheet, general, 2009 (9,163 per cent of 1900) |
 | Labour adjustment | ×0.96 | Germany, the source country, at a 25 per cent labour share: [research-pricing-report-17](../cost-balancing/research-pricing-report-17.md) §5 |
 
 Resulting figures, in 1900 money:
 
-- purchase **507.6 GBP a seat**;
+- purchase **1,087.5 GBP a seat** (band 761-1,133);
 - maintenance **0.00010257 GBP a seat-km**;
 - for stock with no seat count, applied per metre of car length on the 14 m, 54-seat reference
-  car: **1,957.7 GBP a metre** and **0.00039563 GBP a metre-km**.
+  car: **4,194.6 GBP a metre** and **0.00039563 GBP a metre-km**.
 
 The maintenance cost is distance-driven in the source, so the whole figure is the per-km charge
 and there is no fixed charge. Where a maglev vehicle has seats (`payload[1]`, the pakset's
@@ -88,35 +110,39 @@ tagged as one, because no overseas system runs freight maglev stock.
 
 ## Application
 
-Applied in the two workbooks and the generator on 2026-11-25, replacing the diesel/electric
-locomotive ladder for capital and the Hill 1895 steam locomotive figure (253 GBP an engine-year)
-for maintenance. The Hill figure had been applied to every maglev vehicle because maglev fell
-through the rail branch of the generator; it is not evidence for a maglev and the workbook's own
-status column already said the class had no data. `[CODE New ex-15 working tree, 2026-11-25]`
+Applied in the two workbooks and the generator on 2026-11-25; the acquisition rate was re-based by
+pass 65 on research pass 55. The maintenance rate was not changed. `[CODE New ex-15 working tree,
+2026-11-25]`
 
 | Object | Seats or length | Class purchase (GBP 1900) | Class per-km (GBP 1900) |
 |---|---|---|---|
-| RMU 9000 Class | 8 m, no seats | 15,663 | 0.003165 |
-| RMU Aerocab | 10 m, no seats | 19,579 | 0.003956 |
-| RMU Box Car / Flat Car | 16 m, no seats | 31,326 | 0.006330 |
-| Ultraspeed M10 "Zephyr" (front/rear) | 54 seats | 27,410 | 0.005539 |
-| Ultraspeed M30 "Platinum Jubilee" (centre) | 108 seats | 54,821 | 0.011077 |
+| RMU 9000 Class | 8 m, no seats | 33,557 | 0.003165 |
+| RMU Aerocab | 10 m, no seats | 41,946 | 0.003956 |
+| RMU Box Car / Flat Car | 16 m, no seats | 67,114 | 0.006330 |
+| Ultraspeed M10 "Zephyr" (front/rear) | 54 seats | 58,725 | 0.005539 |
+| Ultraspeed M30 "Platinum Jubilee" (centre) | 108 seats | 117,450 | 0.011077 |
 
-The full row-by-row values are in the class columns of the `Maglev vehicles` sheets in both
-workbooks, with the conversion recorded in the row note.
+Intermediate seat counts use the per-seat rate; the M10 centre (82 seats) is 89,175 and the M20
+centre (81 seats) is 88,088. The full row-by-row values are in the class columns of the `Maglev
+vehicles` sheets in both workbooks, with the conversion recorded in the row note.
 
 ## Open questions
 
-- Are the Almujibah and Preston unit costs measured or modelled? They are presented as estimated
-  unit costs assembled from system data, not as operator accounts. An operator account (Aichi
-  Rapid Transit's rolling-stock maintenance line, or Shanghai Maglev Transportation's) would
-  replace them with a measurement.
-- The exchange rate and the labour factor are roundings. The German factor of 0.96 is for
+- **Maintenance remains an estimate.** No operator account separates maglev rolling-stock
+  maintenance from infrastructure. The routes are a Shanghai operator maintenance line, a
+  Changsha 架修 (scheduled works overhaul) contract value, and an Incheon maintenance breakdown by
+  asset class; [negative-findings](../cost-balancing/negative-findings.md) records them.
+- **Acquisition is a first-batch price.** The Shanghai figure is a 15-car order with development
+  cost inside it. A Changsha 2021 or Beijing S1 vehicle contract would test whether the 2.14
+  factor is a development-cost effect; if a Chinese production price came out near 507.6, the
+  serial-production reading would be vindicated.
+- **The exchange rate and the labour factor are roundings.** The German factor of 0.96 is for
   construction labour at a 25 per cent labour share; a vehicle is more labour-intensive than a
   guideway, so the true factor may be higher.
-- No overseas system runs freight maglev stock, so the per-metre application to the RMU freight
-  and tractor units is an extrapolation. A Transrapid or Linimo car-structure price per metre
-  would replace it.
-- The maintenance unit cost is per seat-km. Whether it includes heavy overhauls and component
-  exchange is not stated. If it excludes them, overhaul events would be additional; the pakset
-  currently has no maglev overhaul rows.
+- **No overseas system runs freight maglev stock**, so the per-metre application to the RMU
+  freight and tractor units is an extrapolation. A Transrapid or Linimo car-structure price per
+  metre would replace it.
+- **The maintenance unit cost is per seat-km.** Whether it includes heavy overhauls and component
+  exchange is not stated. If it excludes them, overhaul events would be additional; the workbook
+  currently gives the maglev rows an overhaul provision of 15 per cent of A, event 1.2A every
+  eight years, as the nearest analogue.

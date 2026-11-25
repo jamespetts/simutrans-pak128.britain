@@ -17,6 +17,13 @@ report 46's ladder and the composition work in [report 43](research-pricing-repo
 standing rule 0 of [maintenance-decomposition](../vehicle-cost/maintenance-decomposition.md):
 the measured total is the envelope, and no component of it may be charged a second time.
 
+> **Correction, 2026-11-25.** The Class 92 is a mixed-traffic locomotive: the pakset object
+> `BR-Class92` has `freight=None`, so it can work passenger or freight trains. The 2018
+> Alstom/GB Railfreight contract is for 12 locomotives on the Caledonian Sleeper, a low-mileage
+> passenger duty. The report's "electric passenger" label describes that measured duty, not the
+> class's traffic capability. The GBP 868 is therefore a class/duty override, not a clean anchor
+> for an electric-passenger track.
+
 ## 1. What this pass found
 
 1. **The 1914-1948 gap is closed by the Ministry of Transport's annual *Railway Returns*.**
@@ -72,7 +79,7 @@ the measured total is the envelope, and no component of it may be charged a seco
 
 7. **The post-1977 gap is closed by a measured full-maintenance contract.** Alstom's press
    release of 17 April 2018 states that it will provide "full maintenance support for 12
-   Class 92 locomotives" (a large electric passenger locomotive) for twelve years
+   Class 92 locomotives" (a large mixed-traffic electric locomotive) for twelve years
    "in a contract worth around £15 million", awarded by GB Railfreight for the Caledonian
    Sleeper, the London-Scotland overnight service. That is **£1.25m a year for 12 locomotives =
    £104,167 a locomotive-year**, or **£868 in 1900 money** at the general index 11,999.
@@ -88,16 +95,16 @@ the measured total is the envelope, and no component of it may be charged a seco
    (the Class 66 is a 2000s freight diesel) is £520 in 1900 money. The measured Class 92 is
    £868, a ratio of **1.67**. The blanket "straight-electric locomotive takes 0.5 of the
    ladder" rule in report 46 is a 1977 result: Calder's Class 87 was 52 per cent of the
-   Class 47 on the same passenger duty. It does not hold for a large modern electric passenger
+   Class 47 on the same passenger duty. It does not hold for a large modern mixed-traffic electric
    locomotive on a low-mileage sleeper duty. The modern ladder of £520 is a **Class 66
    freight-diesel** line, not a universal modern locomotive line. **DERIVED from two MEASURED
    figures.**
 
 9. **The Class 92 level supports the 1995 rung and contradicts the size of the 1995-2020
-   fall for electric passenger traction.** £868 is 17 per cent below the 1995 rung of £1,045,
+   fall for large electric traction.** £868 is 17 per cent below the 1995 rung of £1,045,
    but 58 per cent above the ladder's 2018 interpolation of £550. The fall from £1,045 to £520
    is therefore a change of class generation (Class 47/87/92 to Class 66), not a general fall
-   in the real cost of maintaining a locomotive. A large electric passenger locomotive of the
+   in the real cost of maintaining a locomotive. A large mixed-traffic electric locomotive of the
    Class 92 generation stays near £870-£1,045; a 2000s freight diesel sits at £520. **DERIVED.**
 
 10. **No 1980s or 1990s locomotive-specific measured annual total was found.** The British
@@ -305,11 +312,11 @@ interpolation. The Class 66 point at 2020 is 40 per cent below the Class 92. The
 therefore has two modern levels, not one:
 
 - **the Class 66 freight-diesel level of about £520**, which is the 2020 rung as it stands;
-- **the large electric passenger level of about £870**, which is the 2018 Class 92 contract.
+- **the large electric locomotive level of about £870**, which is the 2018 Class 92 contract.
 
 The 1995 rung of £1,045 sits between them and is consistent with a mixed fleet in transition.
 The fall from £1,045 to £520 is not a uniform real decline: it is the replacement of the
-Class 47/87/92 generation by the Class 66. A large electric passenger locomotive of the Class 92
+Class 47/87/92 generation by the Class 66. A large mixed-traffic electric locomotive of the Class 92
 generation in 2018 still cost £868 to maintain, 83 per cent of the 1995 rung.
 
 ## 5. Recommended treatment
@@ -331,31 +338,33 @@ generation in 2018 still cost £868 to maintain, 83 per cent of the 1995 rung.
    excess, and the basis text must say so.
 3. **Keep £520 at 2020 as the Class 66 freight-diesel rung.** It is a measured-and-derived
    Class 66 figure, not a universal modern locomotive figure. Do not apply it to a large
-   electric passenger locomotive.
+   electric locomotive on passenger or mixed-traffic duty.
 4. **Add the measured Class 92 level of £868 at 2018 as a class-specific value.** Band
-   £740-£1,000. It applies to a large electric passenger locomotive on a low-mileage sleeper
-   duty, and it is the nearest measured analogue for a modern large electric passenger
-   locomotive. The £868 is an envelope: the 12-year full-maintenance term contains the heavy
+   £740-£1,000. It applies to a large mixed-traffic electric locomotive on a low-mileage sleeper
+   duty, and it is the nearest measured analogue for a modern large electric locomotive on that
+   duty. The £868 is an envelope: the 12-year full-maintenance term contains the heavy
    events, so the Class 92's overhaul provision is deducted from it, not added.
 5. **Withdraw the blanket 0.5 electric factor for post-1995 electrics.** The 0.5 factor is
    Calder's 1977 Class 87/Class 47 result on high-mileage passenger duty. For a modern large
-   electric passenger locomotive the measured ratio is **1.67** (band 1.3-2.0). The factor is
+   mixed-traffic electric locomotive on that sleeper duty the measured ratio is **1.67** (band 1.3-2.0). The factor is
    a class factor, not a traction-type constant: 0.5 against the Class 47 for the Class 87
    generation, 1.67 against the Class 66 for the Class 92 generation.
 6. **Read the modern ladder as two class tracks, not one time track.** The diesel/freight
-   track is 2,100 (1977) → 1,045 (1995) → 520 (2020). The electric passenger track is 1,103
-   (1977, Class 87) → 1,045 (1995, mixed fleet) → 868 (2018, Class 92). The workbook needs a
+   track is 2,100 (1977) → 1,045 (1995) → 520 (2020). The electric track is 1,103
+   (1977, Class 87) → 1,045 (1995, mixed fleet) → 868 (2018, Class 92 on the Caledonian
+   Sleeper, a passenger duty). The Class 92 is mixed traffic, so the 868 is a class/duty
+   override, not a clean electric-passenger point. The workbook needs a
    class override only where a measured class figure exists; unmeasured classes take the
    nearest measured class of the same generation and duty.
 7. **Do not interpolate the 2018 point as a time rung.** It is a class figure. The time
-   ladder's 1995-2020 fall remains the diesel/freight line; the electric passenger line is
+   ladder's 1995-2020 fall remains the diesel/freight line; the electric line is
    flat from 2018 and does not fall to 520.
 8. **Update [report 46](research-pricing-report-46.md).** Its gap "no measured 1914-1948
    point" is closed by the evidence in §3, rows 1-17. Its gap "no measured UK annual total per
    locomotive after 1977" is partly closed by the Class 92 contract; the 1995 rung remains
    derived, but the 2018 measured point constrains the modern electric level. Report 46's
    ladder values and its finding 11 stand for the diesel/freight line; finding 14 is
-   superseded for the electric passenger class.
+   superseded for the large electric locomotive class.
 9. **Do not change the 1995 rung.** £1,045 remains the best available mixed-fleet transition
    figure. The Class 92 at £868 is 17 per cent below it, which is a plausible real decline for
    a 1990s design maintained in 2018; it is not evidence for a fall to £520.

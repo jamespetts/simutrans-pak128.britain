@@ -852,13 +852,17 @@ PAIR_NAME = re.compile(r'pair|double|horses|ponies|mules|donkeys', re.I)
 
 # Maglev: no mainline maglev exists in Britain, so its prices come from the overseas systems,
 # adjusted for labour cost (USER DIRECTION, recorded in New/ai/vehicle-cost/maglev-costs.md).
-# Almujibah and Preston 2018, Table 6 (2009 prices): EUR 49,233 a seat to acquire and EUR 0.011
-# a seat-km to maintain, the unit costs drawn from the Shanghai, Linimo, Incheon and Changsha
-# systems. EUR 1 = GBP 0.89; deflated on the workbook index (vehicle purchase 82.87 and general
-# 91.63 times 1900 in 2009); labour x0.96 for Germany, the source country (report 17 section 5).
-# Non-passenger stock has no seat count: the same rate is applied per metre of car length on the
-# 14 m, 54-seat reference car.
-MAGLEV_CAP_PER_SEAT = 49233.0 * 0.89 / 82.87 * 0.96
+# Acquisition: the Shanghai imported Transrapid cars at more than RMB 100m a car (2003; research
+# pass 55), GBP 105,129 a car in 1900 money, 92.8 seats a five-car set = 1,087.5 GBP a seat after
+# the 0.96 labour adjustment (band 761-1,133). The previous Almujibah and Preston estimate
+# (EUR 49,233 a seat at 2009 prices = 507.6) remains the serial-production floor.
+# Maintenance: Almujibah and Preston 2018, Table 6 (2009 prices), EUR 0.011 a seat-km; no
+# operator account found in pass 55 separates rolling-stock maintenance, so the rate stands.
+# EUR 1 = GBP 0.89; deflated on the workbook index (vehicle purchase 82.87 and general 91.63
+# times 1900 in 2009); labour x0.96 for Germany, the source country (report 17 section 5).
+# Non-passenger stock has no seat count: the acquisition rate is applied per metre of car length
+# on the 14 m, 54-seat reference car.
+MAGLEV_CAP_PER_SEAT = 1087.5
 MAGLEV_MAINT_SEAT_KM = 0.011 * 0.89 / 91.63 * 0.96
 MAGLEV_REF_SEATS = 54.0
 MAGLEV_REF_LENGTH = 14.0
@@ -872,9 +876,13 @@ CARRIAGE_MAINT_YR = 32.6  # Hill 1892 carriage average, retained for the multipl
 # (Hill), 1961 (the Beeching functional split, GBP 1,012 a coach-year), 1984 (the HST train-mile
 # rate), 2013 (RDG EMU rate) and 2024-25 (ORR medians); the wagon ladder uses the measured
 # wagon:carriage ratio, which falls from 12.6 per cent in 1892 to 5.4 per cent in 1961 and is held
-# after. Log-linear between points, flat outside. The wagon figure is per 10-tonne wagon-year and
-# scales by (payload/10)^0.4.
-CARRIAGE_MAINT_LADDER = ((1900, 33.0), (1950, 140.0), (1970, 265.0), (1990, 460.0), (2020, 440.0))
+# after. Research pass 51 re-bases the carriage series: the 1912 company mean and the measured
+# 1913-1921 rolling-stock change give 39 at 1920 (band 28-55), and the 1950 rung is re-drawn to
+# 121 by interpolation between 39 at 1920 and 183 at 1961. The 1948 and 1966 values (112 and 226)
+# are read from the interpolation, not stored. Log-linear between points, flat outside. The wagon
+# figure is per 10-tonne wagon-year and scales by (payload/10)^0.4.
+CARRIAGE_MAINT_LADDER = ((1900, 33.0), (1920, 39.0), (1950, 121.0), (1970, 265.0), (1990, 460.0),
+                         (2020, 440.0))
 WAGON_MAINT_LADDER = ((1900, 4.2), (1950, 8.7), (1970, 14.3), (1990, 24.8), (2020, 23.8))
 
 
@@ -1447,11 +1455,11 @@ def extrapolation(cls, name, dat, gbp_per_dat=0.00396311, intro=None):
             unit = '%g m of car length (no seat count, so the seat rate is applied per metre ' \
                    'on the 14 m, 54-seat reference car)' % length
         x.update(capital_gbp=round(capital, 0), year=1900,
-                 basis='overseas maglev stock: EUR 49,233 a seat at 2009 prices (Almujibah and '
-                       'Preston 2018, Table 6, the unit acquisition cost of a Transrapid trainset '
-                       'from the Shanghai, Linimo, Incheon and Changsha systems), at EUR 1 = GBP '
-                       '0.89, deflated on the vehicle purchase index (82.87 times 1900 in 2009) '
-                       'and adjusted for labour (x0.96, Germany; report 17 section 5): %.1f GBP a '
+                 basis='overseas maglev stock: Shanghai imported Transrapid cars at more than '
+                       'RMB 100m a car (2003), GBP 105,129 a car in 1900 money, 92.8 seats a '
+                       'five-car set = 1,087.5 GBP a seat after the 0.96 labour adjustment '
+                       '(research pass 55; band 761-1,133); the previous EUR 49,233 a seat '
+                       'estimate (507.6) is the serial-production floor: %.1f GBP a '
                        'seat in 1900 money; %s' % (MAGLEV_CAP_PER_SEAT, unit))
         x.update(perkm_gbp=round(perkm, 10), perkm_year=1900,
                  basis=x['basis'] + ' | maintenance EUR 0.011 a seat-km at 2009 prices, at the '
@@ -1572,8 +1580,9 @@ def extrapolation(cls, name, dat, gbp_per_dat=0.00396311, intro=None):
             x.update(capital_gbp=round(base, 0), year=1900, basis=basis)
             x.update(maint_gbp_yr=round(interp_log(CARRIAGE_MAINT_LADDER, intro or 1900), 1),
                      maint_year=1900,
-                     basis=basis + ' | rail carriage maintenance ladder (pass 43): 33, 140, 265, '
-                           '460 and 440 GBP a vehicle-year at 1900, 1950, 1970, 1990 and 2020')
+                     basis=basis + ' | rail carriage maintenance ladder (pass 43, re-based on '
+                           'pass 51): 33, 39, 121, 265, 460 and 440 GBP a vehicle-year at 1900, '
+                           '1920, 1950, 1970, 1990 and 2020')
         elif 'post' in freight or any(k in nm for k in ('mail', 'tpo', 'brake', 'parcel', 'luggage')):
             # Non-passenger carriage stock: a mail or TPO vehicle is a carriage body without
             # seats, a brake van is simpler still. Priced as a fraction of the carriage ladder,
@@ -1588,9 +1597,9 @@ def extrapolation(cls, name, dat, gbp_per_dat=0.00396311, intro=None):
             x.update(capital_gbp=round(base, 0), year=1900, basis=label)
             x.update(maint_gbp_yr=round(interp_log(CARRIAGE_MAINT_LADDER, intro or 1900) * f, 1),
                      maint_year=1900,
-                     basis=label + ' | rail carriage maintenance ladder (pass 43): 33, 140, 265, '
-                           '460 and 440 GBP a vehicle-year at 1900, 1950, 1970, 1990 and 2020, '
-                           'scaled by the same factor')
+                     basis=label + ' | rail carriage maintenance ladder (pass 43, re-based on '
+                           'pass 51): 33, 39, 121, 265, 460 and 440 GBP a vehicle-year at 1900, '
+                           '1920, 1950, 1970, 1990 and 2020, scaled by the same factor')
         else:
             try:
                 tons = float(sp.get('payload') or cap or 0)

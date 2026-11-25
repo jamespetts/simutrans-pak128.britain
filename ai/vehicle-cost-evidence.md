@@ -1,6 +1,6 @@
 ---
 status: draft
-verified: New ex-15 @ 70a098c64 (working tree), 2026-11-25; simutrans-extended ex-15 @ bdfdc8311
+verified: New ex-15 @ fcd40c0bc + passes 62-65 (working tree), 2026-11-25; simutrans-extended ex-15 @ bdfdc8311
 ---
 # Vehicle cost evidence
 
@@ -41,17 +41,20 @@ until every cost domain has reached this depth. `[USER-DIRECTION:2026-11-16]`
 | [research-pricing-report-37](cost-balancing/research-pricing-report-37.md) | you need a road, tram, ship or aircraft overhaul or rebuild cost | 92 rows; Aldenham bus overhauls, lorry engine cycles, Metrolink and Supertram refits, drydocking, C and D checks |
 | [research-pricing-report-38](cost-balancing/research-pricing-report-38.md) | you need a price that the pakset's own `.dat` comments record | 43 new prices, 1911-2015, parsed from the comments; duplicates excluded |
 | [research-pricing-report-42](cost-balancing/research-pricing-report-42.md) | you need a lorry overhaul cost, interval or the overhaul share of lorry maintenance | 20 Commercial Motor and trade sources read; the 1938, 1949 and 1955 itemised compositions (46, 53, 44 per cent); invoices 1933-2023; four era bands |
-| [research-pricing-report-43](cost-balancing/research-pricing-report-43.md) | you need a modern carriage or wagon maintenance level, or the wagon:carriage ratio | Beeching 1961 (£1,012 a coach-year, £54.3 a wagon-year), Serpell 1982, HST 1984, ORR 2024-25; the carriage series and the ratio-declining wagon ladder |
+| [research-pricing-report-43](cost-balancing/research-pricing-report-43.md) | you need a modern carriage or wagon maintenance level, or the wagon:carriage ratio | Beeching 1961 (£1,012 a coach-year, £54.3 a wagon-year), Serpell 1982, HST 1984, ORR 2024-25; the carriage series (later re-based at 1920 and 1950 by report 51) and the ratio-declining wagon ladder |
 | [research-pricing-report-44](cost-balancing/research-pricing-report-44.md) | you need a carriage works-overhaul interval, or the overhaul's share of the annual maintenance total | Lacy & Dow £62 (1860s, 1.84 A) and the 1982 York Works Mk 1 overhaul (0.16 A); GWR 1935 heavy repairs; Hansard 1996; the era table now in the workbook |
 | [research-pricing-report-45](cost-balancing/research-pricing-report-45.md) | you need a multiple-unit maintenance level or overhaul share | Beeching 1961, Serpell 1982, RDG 2013, ORR 2026, LU per car-year; the 66-780 GBP ladder and the eight-year C6 cycle |
 | [research-pricing-report-46](cost-balancing/research-pricing-report-46.md) | you need a locomotive maintenance level | the 215 / 306 / 800 / 2,100 / 1,045 / 520 GBP ladder at 1900-2020; the 1892 nineteen-company average and the Class 47 seven-year cycle |
 | [research-pricing-report-47](cost-balancing/research-pricing-report-47.md) | you need a tram or light rail maintenance level, overhaul share or rebuild share | MoT car-only returns 1919-33, the 1900-1950 derived ladder, Sheffield 1949-50, the Nottingham 2011 contract, the LCC E/1 and Supertram rebuilds |
 | [research-pricing-report-48](cost-balancing/research-pricing-report-48.md) | you need a trailer refurbishment or a van maintenance composition | the FTA trailer line, the TIP 2025 and Cooks 1988 refurbishments at one-third of a new trailer, the Commercial Motor van totals |
 | [research-pricing-report-49](cost-balancing/research-pricing-report-49.md) | you need a tram repairs figure for 1950-1990 | Sheffield 1938-50 repairs line (147.3 GBP a car-year in 1900 money at 1949-50); the 150 repairs-only rung and the archive routes after 1950 |
-| [research-pricing-report-50](cost-balancing/research-pricing-report-50.md) | you need a locomotive maintenance level for 1914-1948 or after 1977 | Ministry of Transport Railway Returns 1913-38; the Class 92 full-maintenance contract at 868 GBP a locomotive-year (2018); the class-specific override and the 1950 composition break |
-| [research-pricing-report-51](cost-balancing/research-pricing-report-51.md) | you need a carriage maintenance level for 1920, 1948, 1966 or 1990 | five companies' 1912 carriage upkeep; the 1913/1920-21 rolling-stock aggregate; the recommended 39 at 1920 and 121 at 1950; 1948 112 and 1966 226 |
+| [research-pricing-report-50](cost-balancing/research-pricing-report-50.md) | you need a locomotive maintenance level for 1914-1948 or after 1977 | Ministry of Transport Railway Returns 1913-38; the Class 92 full-maintenance contract at 868 GBP a locomotive-year (2018), a mixed-traffic class on the Caledonian Sleeper; the class/duty override and the 1950 composition break; applied by pass 63; the Class 88 electric-factor correction applied by pass 64 |
+| [research-pricing-report-51](cost-balancing/research-pricing-report-51.md) | you need a carriage maintenance level for 1920, 1948, 1966 or 1990 | five companies' 1912 carriage upkeep; the 1913/1920-21 rolling-stock aggregate; the recommended 39 at 1920 and 121 at 1950; 1948 112 and 1966 226; applied by pass 62 |
 | [research-pricing-report-52](cost-balancing/research-pricing-report-52.md) | you need a British Rail wagon repair cost for 1972-1981 | HMRS ME0354 (archive-only), Serpell 1983 aggregates, the 1970 Hansard wagon price and the seven-year HAA overhaul cycle |
 | [research-pricing-report-53](cost-balancing/research-pricing-report-53.md) | you need a Midland composite carriage price in the 1860s | the GBP 225-250 early-carriage range, the GBP 62 overhaul at 24.8-27.6 per cent of capital, and the 1874 Midland price bracket |
+| [research-pricing-report-54](cost-balancing/research-pricing-report-54.md) | you need a British Rail wagon repair cost for 1972-81 | no readable measurement; The National Archives AN 112/25 "Unit cost of repair: wagons" 1965-81, with AN 112/26, AN 112/87, AN 112/129 and AN 171/941 as related routes; the ladder 14.3 and the 1.2A event remain estimates |
+| [research-pricing-report-55](cost-balancing/research-pricing-report-55.md) | you need a maglev rolling-stock acquisition or maintenance price | the Shanghai imported-car price (RMB 100m a car), the Incheon heavy-maintenance contracts (corrected to 5,189 and 5,987 GBP a set-event), and the Changsha and Shanghai overhaul intervals; the acquisition figure of 1,088 GBP a seat is applied by pass 65; maintenance stays 0.00010257 GBP a seat-km |
+| [research-pricing-report-56](cost-balancing/research-pricing-report-56.md) | you need a water-object gross tonnage or the basis of the per-GT rates | 39 real vessels covering 57 of the 216 rows; the three per-GT rates (84.1 x GT^0.90, GBP 35/GT, GBP 17/GT) are capital prices, not annual maintenance; recommends using them as the capital ladder and setting repair at 2-5 per cent of capital |
 | [modern-traction-multiple-units](vehicle-cost/modern-traction-multiple-units.md) | you need a multiple unit maintenance cost | RDG per vehicle-mile, London Underground per car-year, Civity per train-km |
 | [modern-traction-locomotives-and-wagons](vehicle-cost/modern-traction-locomotives-and-wagons.md) | you need a post-1987 locomotive or a wagon figure | Class 66 and 47 rebuild costs, wagon routes and gaps, the scheduled/unscheduled question |
 | [ship-maintenance](vehicle-cost/ship-maintenance.md) | you need a ship repair or dry-docking cost | 50 figures 1849-2026, dry-docking and survey costs |
@@ -59,7 +62,7 @@ until every cost domain has reached this depth. `[USER-DIRECTION:2026-11-16]`
 | [horse-keep-components](vehicle-cost/horse-keep-components.md) | you need a horse cost component | feed, farriery, veterinary, stabling, 1876-1897 London |
 | [horse-keep-totals](vehicle-cost/horse-keep-totals.md) | you need a horse annual keep figure | totals, horsekeeper wages, working life and work done |
 | [tram-maintenance](vehicle-cost/tram-maintenance.md) | you need a tram or light rail maintenance cost | Ministry of Transport returns 1913-1930, iheffield iupertram budgets, DfT mileage |
-| [maglev-costs](vehicle-cost/maglev-costs.md) | you need a maglev vehicle purchase or maintenance figure, or are checking one | the overseas-system rule, the Almujibah and Preston unit costs, the conversion and the open questions |
+| [maglev-costs](vehicle-cost/maglev-costs.md) | you need a maglev vehicle purchase or maintenance figure, or are checking one | the overseas-system rule, the Shanghai acquisition transaction (1,088 GBP a seat), the Almujibah maintenance rate (0.00010257 GBP a seat-km), the conversion and the open questions |
 
 The two sources are complementary and do not duplicate each other. The forum thread is a wide,
 shallow sweep: many classes, often a single price with no specification. The published table is
@@ -291,8 +294,8 @@ all 3,539 vehicles.
 
 | Class | Interval | First overhaul | Late-life overhaul | Downtime |
 |---|---|---|---|---:|---|
-| Steam locomotive | 200,000 km (BR general repairs 104,000-196,000 miles) | 5% of capital | 15% of capital | 1.2 months (31-53 days) |
-| Diesel/electric locomotive | 300,000 km (BR's 2.75/5.5/11-year cycle) | 7% of capital | 20% of capital | 0.8 months |
+| Steam locomotive | Per class (BR general repairs 104,000-196,000 miles for the archetype) | 0.70 of the maximum | 35% of A as the works-overhaul provision; the events are scaled to it | 1.2 months (31-53 days) |
+| Diesel/electric locomotive | 7 years at the row's own duty (BR's 2.75/5.5/11-year cycle is the class evidence) | Flat event | 39% of A as the provision; one event of provision x seven years | 0.8 months |
 | Carriage | 210,000 / 180,000 / 165,000 / 176,000 / 240,000 / 294,000 km by era (6 / 5 / 3 / 2 / 2 / 2.6 years) | 0.70 of the maximum | 28 / 24 / 19 / 12 / 10 / 8 per cent of the annual maintenance total A by era; the mean event is provision x interval | 0.5 months |
 | Wagon | 240,000 km (six years at 40,000 km/yr) | 0.75 of the maximum | head 0.8A, event 1.2A | 0.2 months |
 | Multiple unit | eight years at 100,000 / 120,000 / 161,000 km a car-year | 15% of A; first event 0.70 of the maximum over three | 1.2A | 0.4 months |
@@ -306,7 +309,10 @@ all 3,539 vehicles.
 The carriage and wagon rows are shares of the measured annual maintenance total, not of capital,
 because the measured total is the envelope: head plus amortised events equals the net total
 ([research-pricing-report-44](cost-balancing/research-pricing-report-44.md);
-[wagon-overhaul-source-analysis](cost-balancing/wagon-overhaul-source-analysis.md)).
+[wagon-overhaul-source-analysis](cost-balancing/wagon-overhaul-source-analysis.md)). The steam
+and diesel/electric locomotive rows are also shares of the measured annual total A, not of
+capital, since pass 49; the Class 92 provision is deducted from its measured 868 GBP total
+(pass 63).
 
 The measured anchors: a GWR 28xx heavy general at £450-700 against a £4,992 build (9-14%); Lacy &
 Dow's £62 Midland composite overhaul in the 1860s, which is 24.8-27.6 per cent of the £225-250

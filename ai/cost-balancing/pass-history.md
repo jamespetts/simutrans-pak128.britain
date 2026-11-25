@@ -1,6 +1,6 @@
 ---
 status: draft
-verified: New ex-15 @ 70a098c64 (working tree), 2026-11-25
+verified: New ex-15 @ fcd40c0bc + passes 62-65 (working tree), 2026-11-25
 ---
 # Pass history and rejected treatments
 
@@ -65,8 +65,23 @@ follow [maintenance-decomposition](../vehicle-cost/maintenance-decomposition.md)
 - **The tramcar ladder on the six tram-sheet horses.** Withdrawn by pass 57; the animal rule
   applies.
 - **The 172,600 km multiple-unit default.** Withdrawn by pass 59; the distance table applies.
+- **The carriage 1920 interpolation of 59 and the 1950 rung of 140.** Report 51's 1912 company
+  mean and 1913-1921 rolling-stock change give 39 at 1920 (band 28-55) and 121 at 1950; pass 62
+  applies them, with 1948 at 112 and 1966 at 226 by interpolation.
+- **The Class 92 ladder value of 543.16.** It is half the 1994 rung under the blanket electric
+  factor. The 2018 Alstom/GB Railfreight contract measures 868; pass 63 applies it as a class
+  override, not a time rung.
+- **The 408 gross 1950 locomotive rung.** The workbook phases the 25 per cent renewals share out
+  by 1950 and enters the 1950 rung net at 306; the gross alternative is not used.
+- **The 0.5 electric factor for the Class 88.** It is Calder's 1977 Class 87/Class 47 passenger
+  result; the 2014 Class 88 is a dual-mode mixed-traffic locomotive, and the Class 68 diesel at
+  the same date (614.82) is the nearest measured class. Pass 64 withdraws the factor for the
+  Class 88.
+- **The 507.6 GBP a seat maglev acquisition estimate.** It is the Almujibah and Preston
+  serial-production model; the only transaction-level price, the 2003 Shanghai imported car, gives
+  1,088 GBP a seat. Pass 65 applies the transaction figure and records 507.6 as the floor.
 
-## Pass log, 42-61
+## Pass log, 42-65
 
 Each entry is a one-line record only; the research reports and patch scripts hold the detail.
 
@@ -93,6 +108,15 @@ Each entry is a one-line record only; the research reports and patch scripts hol
 - **59**: 707 multiple-unit cars on the distance table.
 - **60**: 758 carriage rows on the distance table.
 - **61**: final tram calibration on report 49; 1950-90 repairs-only, 50/50 split.
+- **62**: 758 standard-gauge carriage rows re-based on report 51; 39 at 1920 and 121 at 1950,
+  1948 112 and 1966 226, 1900/1970/1990/2020 stand.
+- **63**: 423 locomotive notes record the report 50 1913-1938 validation and the 1950 composition
+  break; the mixed-traffic Class 92 takes the measured 868 class/duty override (Caledonian
+  Sleeper).
+- **64**: the Class 88 loses the 0.5 electric factor (A 307.41 to 614.82, the Class 68 level);
+  the Class 92 notes say mixed traffic on the Caledonian Sleeper duty.
+- **65**: the 22 maglev capital targets take the Shanghai acquisition price, 1,087.5 GBP a seat
+  (4,194.6 GBP a metre for stock with no seat count) in place of 507.6.
 
 ## Link from current docs
 

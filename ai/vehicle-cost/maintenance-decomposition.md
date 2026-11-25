@@ -1,6 +1,6 @@
 ---
 status: draft
-verified: New ex-15 @ 70a098c64 (working tree), 2026-11-25
+verified: New ex-15 @ fcd40c0bc + passes 62-65 (working tree), 2026-11-25
 ---
 # Vehicle maintenance decomposition
 
@@ -263,11 +263,13 @@ has no source. The BR Mk 1 £2,000 event is 0.16 × A (£57 in 1900 money); the 
 in report 36 is not used. The km column is the band's reference duty, stated in every row's
 basis.
 
-**Research pass 51 (not yet applied).** The 1920 and 1950 points are the weakest in the series.
-New measured inputs give 39 GBP a carriage-year at 1920 (band 28-55) and 121 at 1950; 1948 falls
-at 112 and 1966 at 226. The 1990 rung of 460 stands untested. The workbook uses 140 at 1950
-until the re-base; [report 51](../cost-balancing/research-pricing-report-51.md) is the evidence
-for the next carriage pass.
+**Research pass 51 (applied by pass 62).** The 1920 and 1950 points were the weakest in the
+series. The measured inputs give 39 GBP a carriage-year at 1920 (band 28-55) and 121 at 1950;
+1948 falls at 112 and 1966 at 226 by interpolation. The 1990 rung of 460 stands untested. Pass 62
+replaces the previous interpolations (59 at 1920 and 140 at 1950) in the workbook and recomputes A,
+the renewals deduction, the provision, the head and the event on every standard-gauge carriage row;
+the provision shares, the intervals, the renewals treatment and the 70/30 split are unchanged.
+[Report 51](../cost-balancing/research-pricing-report-51.md).
 
 ### Steam overhaul intervals — per class, by archetype
 
@@ -367,19 +369,24 @@ table's decision.
   2020, log-linear between and flat outside. Hill's figure is the 1892 nineteen-company average
   (GBP 208 18s.), **not** the GBP 253 the generator had used, which is the Great Western maximum.
   The ladder rises to a 1970s peak and falls about fourfold to the Class 66 generation. A
-  straight-electric locomotive takes 0.5 of the rung (Calder's Class 87 is 52 per cent of the
-  Class 47 on the same duty); steam introduced after 61 stays on the 1961 rung, because the modern
+  straight-electric locomotive of the Class 87 generation takes 0.5 of the rung (Calder's Class 87
+  is 52 per cent of the Class 47 on the same duty); the factor is not applied to a post-1995
+  dual-mode mixed-traffic locomotive, and the Class 88 takes the Class 68 level of 614.82 (pass
+  64). Steam introduced after 61 stays on the 1961 rung, because the modern
   fall is a property of the Class 66 generation, not of steam.
   [research pass 46](../cost-balancing/research-pricing-report-46.md). The measured
   1913-1938 Ministry returns validate the 1900-1950 interpolation within 5 per cent in every
   stable year; the 1920-21 spike is arrears of repairs and is not a rung. The series changes
   composition at 1950: the pre-1950 points are gross of renewals and the 1950 point is repairs
-  only, so a 25 per cent renewals deduction requires the 1950 rung to be entered as 408 gross to
-  return 306 net. The modern series is two class tracks: the diesel/freight line is 2,100 (1977)
-  to 1,045 (1995) to 520 (2020, Class 66), and the electric passenger line is 1,103 (1977,
-  Class 87) to 1,045 (1995) to 868 (2018, measured Class 92 contract). The 868 is a class override,
-  not a new time rung. The workbook currently applies the single time ladder; the Class 92
-  override is the next locomotive pass.
+  only. The workbook phases the 25 per cent renewals share out by 1950 and enters the 1950 rung
+  net at 306; the 408 gross alternative is not used. The modern series is two class tracks: the
+  diesel/freight line is 2,100 (1977)
+  to 1,045 (1995) to 520 (2020, Class 66), and the electric line is 1,103 (1977,
+  Class 87) to 1,045 (1995, mixed fleet) to 868 (2018, Class 92 sleeper contract). The 868 is a
+  class/duty override, not a clean electric-passenger track point: the Class 92 is a
+  **mixed-traffic** locomotive (the pakset object has `freight=None`), and the measured contract
+  covers 12 locomotives on the Caledonian Sleeper, a low-mileage passenger duty. Pass 63 applies
+  the override in the workbook; the rest of the fleet remains on the single time ladder.
   [Research pass 50](../cost-balancing/research-pricing-report-50.md).
 - **The per-km rate is derived from the ladder, never added to it.** Hill's per-engine-year and
   per-train-mile figures are the same money (2.51d. x 20,164 miles = the annual figure); a
@@ -393,7 +400,7 @@ table's decision.
   renewals**), not the capital share; netting it would strip boiler, tyre and tube work that
   belongs to maintenance or the overhaul fields. The capital share is net cost ÷ service life,
   about £60-75 an engine-year. Rung 1.
-- **fixed/per-km split of the routine remainder: steam 60/40; diesel/electric 50/50** (rung 2/3, low to
+- **fixed/per-km split of the routine remainder: steam 65/35; diesel/electric 60/40** (rung 2/3, low to
   low-medium). Steam: known distance items are only about 12% of the per-train-mile cost (tyres
   0.052pence per mile, boiler 0.24pence per mile) but axle exams (250,000 miles) and tyre lives are mileage-gated
   while painting and boiler-washing are calendar-gated; Hill's text finds little mileage relation.
@@ -590,10 +597,10 @@ it on the right basis.
   `years_before_maintenance_max_reached` are engine defaults, not calibrated; should the pakset set
   them per class?
 - **Mean annual distance.** The class and era table is in
-  [mean-annual-distance](mean-annual-distance.md). The outstanding gaps are the carriage 1920 and
-  1950 levels (report 51 recommends 39 and 121 against the current interpolations), the
-  locomotive 1914-48 and post-1977 levels (report 50), road annual distances, the ship annual
-  distance and aircraft utilisation.
+  [mean-annual-distance](mean-annual-distance.md). The outstanding gaps are road annual
+  distances, the ship annual distance and aircraft utilisation. The carriage 1920 and 1950 levels
+  were closed by pass 62 on report 51; the locomotive 1914-48 and post-1977 levels were closed by
+  pass 63 on report 50 (the Class 92 override; the 1995 rung remains derived).
 - Do Hill's repairs contain works overhauls? Until a company repair account (or the post-1911
   "Repairs and partial renewals" column) itemises a heavy general inside the repairs element, the
   rail rows deduct renewals only.

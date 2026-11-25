@@ -36,7 +36,8 @@ do not use line-number references to files that change. Never edit a document's 
 - [pakset-roadmap](pakset-roadmap.md) — read when planning what assets or features to add in what order; registry of planned work. Check after completing work to close its entry.
 - [balancing](balancing.md) — read when tuning prices, costs, capacities, speeds, or intro/retire dates, or when judging economic and historical realism.
 - [cost-balancing-register](cost-balancing-register.md) — read when starting or tracking cost-balancing work on any class or item: the coverage status (balanced? class data? individual data? extrapolation feasible?) for every costed class, keyed to the cost-balancing spreadsheets.
-- [cost-data-coverage](cost-data-coverage.md) — read when judging how good the historical cost data is for a class of objects before setting any price: the per-class coverage quality, what each class's data can support, and the gaps.
+- [cost-data-coverage](cost-data-coverage.md) - read when judging how good the historical cost data is for a class of objects before setting any price: the per-class coverage quality, what each class's data can support, and the gaps.
+- [cost-balancing/negative-findings](cost-balancing/negative-findings.md) - read before commissioning a research pass: the searches that found nothing, the sources checked, and the archive routes that remain.
 - [calibration-sources](calibration-sources.md) — read before entering any historically derived value in a config file or `.dat`: the source-recording rule and the dataset registry.
 - [prices-config](prices-config.md) — read when editing or extending `config/prices.tab`: the price types, the index method, the unit conversion and the outstanding series.
 - [conversion-chains](conversion-chains.md) — read before converting any cost, fare, wage or fuel price between `.dat` units and pounds: the canonical table for every category, with its timescale, monthly factor and status.

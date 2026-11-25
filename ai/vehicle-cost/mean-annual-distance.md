@@ -82,13 +82,11 @@ distance itself is not deflated. The grade describes the distance evidence, not 
 ## Open questions
 
 - **Carriage 1920 and 1950 levels.** [Report 51](../cost-balancing/research-pricing-report-51.md)
-  recommends 39 GBP a carriage-year in 1900 money for 1920 (band 28-55) and 121 for 1950,
-  because the measured inputs do not support the higher interpolated values. The carriage
-  maintenance level has not been re-based; the table's distance values are independent of that
-  question.
+  gives 39 GBP a carriage-year in 1900 money for 1920 (band 28-55) and 121 for 1950; pass 62
+  applied them. The table's distance values are independent of that question.
 - **Locomotive 1914-1948 and after 1977.** [Report 50](../cost-balancing/research-pricing-report-50.md)
-  is the research route for the missing rungs; the table's 65,000 and 150,000 km values are
-  estimates until it reports.
+  supplied the measured levels; pass 63 applied the Class 92 override (a mixed-traffic class on
+  the Caledonian Sleeper). The table's 65,000 and 150,000 km values remain estimates.
 - **Road annual distances.** The 40,000 km figure is a split reference, not a measured fleet
   duty. A measured bus, lorry or van annual distance would replace the class assumptions.
 - **Trams 1950-90.** The 150 GBP a car-year rung is a repairs-only estimate constrained by the

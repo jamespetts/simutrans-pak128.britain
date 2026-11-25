@@ -90,8 +90,9 @@ and parcels vans = £1,193 a carrying vehicle-year, and £1,012 a coach-year wit
 removed at 1.75 times a coach. In 1900 money that is £183, against Hill's £34.3 gross (£22.3 net
 of renewals) in 1892. Research pass 43 extends the series: £374-686 a coach-year in 1984 (derived
 from the HST £2.28 a train-mile rate), £308-615 in 2013 (RDG EMU rate ÷ 3 for a coach) and
-£296-433 in 2024-25 (ORR medians ÷ 3). The recommended ladder is 33 / 140 / 265 / 460 / 440 GBP
-(1900 money) at 1900 / 1950 / 1970 / 1990 / 2020; pass 45 applies it, and pass 47 splits it into
+£296-433 in 2024-25 (ORR medians ÷ 3). The recommended ladder is 33 / 39 / 121 / 265 / 460 /
+440 GBP (1900 money) at 1900 / 1920 / 1950 / 1970 / 1990 / 2020; pass 45 applied the original
+series, pass 62 re-based 1920 and 1950 on report 51, and pass 47 splits it into
 a continuous head and works-overhaul events of 28 / 24 / 19 / 12 / 10 / 8 per cent of the annual
 total by era ([research-pricing-report-44](../cost-balancing/research-pricing-report-44.md)).
 The
