@@ -60,7 +60,7 @@ class; money is 1900 GBP. The pass-by-pass history and the rejected treatments a
 | Trams | Pre-1950 gross 84 / 131 / 106 / 89 GBP a car-year at 1900 / 1920 / 1931 / 1939; 1950-90 repairs-only 150 (band 130-210); 1990+ 1,177 | Pre-1950: renewals 35 per cent, provision 28 per cent at two years, event 0.35A rising to 0.75A. 1950-90: renewals 0, provision 28 per cent at three years, event 0.54A rising to 1.15A. 1990+: renewals 0, provision 6 per cent at twelve years, one event of 0.75A. Upgrade 0.22 of the new price to 1950, rising linearly to 0.50 by 1990 | 50/50 | 48,000 km to 1989; 90,000 km from 1990 |
 | Buses and coaches | Measured Commercial Motor level, rescaled to the 37.5 per cent overhaul composition | 220,000 km, 25 to 40 per cent of capital, rescaled to the measured annual share | 75/25 | 55,000 km overhaul reference; 40,000 km split reference |
 | Lorries and vans | Measured Commercial Motor level | Introduction-year bands: before 1930 35-50 per cent, 1930-59 44-56, 1960-84 25-35, 1985-2004 20-30; intervals 80,000 / 80,000 / 160,000 / 400,000 km; vans 80,000 / 160,000 km | 75/25 | 40,000 km split reference (25,000 for short-duty vans) |
-| Ships | Measured repair level; see [source-composition](../vehicle-cost/source-composition.md). Capital is the per-capacity ladder at 2 per cent a year repair; report 56 shows the three per-gross-ton rates are capital prices and recommends the per-GT ladder, which is an open decision | Five-year special survey; 2 to 5 per cent of capital | 50-65 per cent standing | 115,000 km |
+| Ships | Capital is the per-gross-ton ladder: 84.1 × GT^0.90 passenger, GBP 35/GT cargo and coasters, GBP 17/GT inland craft, GBP 39/GT tugs; 177 of 216 rows carry a sourced tonnage (research pass 57), and 39 keep the capacity rule with the reason stated. Repair is 2 per cent of capital; see [source-composition](../vehicle-cost/source-composition.md) | Five-year special survey; 2 to 5 per cent of capital | 50-65 per cent standing | 115,000 km |
 | Aircraft | BOAC engineering cost per flying hour; see [aircraft-maintenance](../vehicle-cost/aircraft-maintenance.md) | C-check every 4,000-6,000 flight hours; 2.5 to 5 per cent of capital; D-check in the cycle | Class rule | 4,200,000 km per C-check |
 | Maglev | Shanghai imported-car acquisition at 1,088 GBP a seat (1,087.5 before rounding; report 55; the 507.6 Almujibah estimate remains the serial-production floor); maintenance 0.00010257 GBP a seat-km | 15 per cent of A, event 1.2A every eight years | 50/50 | 300,000 km |
 | Holds and animals | Holds are containers inside a vehicle: 1 per cent of their own capital, no per-km charge. Animals are 45 GBP an animal-year (90 for a pair), standing only | Holds take no overhaul and a zero target; animals replace at 100 per cent of the purchase price at 70,000 km; upgrade 50 per cent | Holds all fixed; animals all fixed | Holds none; animals 10,000 km a year |
@@ -89,11 +89,14 @@ dining/bogie/steel were wired was wrong.
    figure takes that figure and a class without one sits on the interpolation line, so Class 90
    is included: none of the three has a measured figure, and all three take the electric track.
 6. The narrow-gauge carriage rows are re-based on report 51.
-7. The water question is open. The user asked whether either the current per-capacity capital
-   ladder or report 56's per-gross-ton ladder makes sense on the whole evidence. The analysis in
-   "Water: the capital question" below is the basis for the next decision.
+7. **Water: use the per-gross-ton capital ladder.** The user decided on 2026-11-25 to price the
+   water objects on the gross-tonnage ladder. Pass 70 applies it: the three measured per-gross-ton
+   rates are the capital prices, repair stays at 2 per cent of the resulting capital, and the
+   rows with no gross tonnage (hovercraft, holds and fishing craft) keep their current rules
+   because no tonnage can exist or is recorded. Research pass 57 fills the blank tonnage rows.
+   The analysis behind the decision is in "Water: the capital question" below.
 
-## Passes 66-69 (2026-11-25)
+## Passes 66-70 (2026-11-25)
 
 - **Pass 66**: Classes 89, 90 and 91 leave the 0.5-of-the-diesel-ladder rule for the measured
   electric-locomotive track. A becomes 1,073.61, 1,070.39 and 1,067.18 in place of 740.69,
@@ -113,13 +116,27 @@ dining/bogie/steel were wired was wrong.
   distance table. The measured class duties stay (Class 37 81,000; Class 47 113,000; Class 55
   226,000; Class 86 176,000; Class 87 274,000; the CSLR tube locomotive 120,000). Only the
   per-km charge and the overhaul interval move.
-- **Generator alignment**: `build_workbooks.py` had the same one-directory path error that
-  `evidence_data.BASE` had before 2026-11-25 and failed at its first file read, so no rebuild
-  had been possible. The path is fixed; `evidence_data.py` now carries the locomotive ladder,
-  the electric track, the Class 92 and Class 88 overrides, the measured class duties, the pier
-  share and the class and era distance table for the carriage overhaul interval, and
-  `build_workbooks.py` uses the table. A test rebuild now reproduces the patched values for the
-  electric locomotives, the Class 92, Classes 86, 87 and 37 and all 111 piers.
+- **Pass 70** (`wb_fv_pass70.py`): the water objects move to the per-gross-ton capital ladder
+  after the 2026-11-25 decision. 177 of the 216 rows are re-based: 84.1 x GT^0.90 for passenger
+  vessels, GBP 35/GT for cargo and coasters, GBP 17/GT for inland craft and GBP 39/GT for tugs,
+  with repair at 2 per cent of capital and the overhaul event scaled by the same factor. The
+  median capital movement is x2.55; the extremes are the small tugs (x0.13 to x0.31) and the
+  large cargo hulls' low-value fits (a Handysize livestock fit moves x94, because every object is
+  a separately purchased ship and carries its whole hull once). The 39 rows without a tonnage
+  keep their capacity rule and say why: 9 hovercraft (no gross tonnage exists), 9 holds (the
+  parent carries the hull), 2 towing horses and a towpath tractor (not vessels), and 18 hulls
+  that research pass 57 could not identify.
+- **Generator alignment for water**: `evidence_data.py` now carries `water_tonnage()`,
+  `water_gt_price()` and the four rates, and the water branch uses them before the capacity
+  ladder. A test rebuild reproduces all 216 water capital targets exactly.
+- **Generator alignment (the general path repair)**: `build_workbooks.py` had the same
+  one-directory path error that `evidence_data.BASE` had before 2026-11-25 and failed at its
+  first file read, so no rebuild had been possible. The path is fixed; `evidence_data.py` now
+  carries the locomotive ladder, the electric track, the Class 92 and Class 88 overrides, the
+  measured class duties, the pier share and the class and era distance table for the carriage
+  overhaul interval, and `build_workbooks.py` uses the table. A test rebuild reproduces the
+  patched values for the electric locomotives, the Class 92, Classes 86, 87 and 37 and all 111
+  piers.
 - **What a rebuild still does not reproduce**: the qualitative maintenance adjustments on
   locomotive rows (for example the Class 47 ×1.05 from the October 1965 failure rate, which pass
   49 overwrote and the generator still applies); the fixed/per-km split of the carriage, wagon
@@ -131,8 +148,7 @@ dining/bogie/steel were wired was wrong.
 1. **Documentation review.** This handoff, `maintenance-decomposition.md`,
    `source-composition.md`, `cost-balancing-register.md`, `cost-data-coverage.md`,
    `vehicle-cost-evidence.md`, `mean-annual-distance.md`, `negative-findings.md` and the research
-   reports 47-56 state the current treatments and the remaining work. The docs are committed with
-   the pass 62-65 change; the previous documentation commit was `2caa6d431`. Read
+   reports 47-57 state the current treatments and the remaining work. Read
    [negative-findings](negative-findings.md) before commissioning any research pass.
 2. **Tram 1950-90 measured figure.** Report 49 closes the 1949-50 point with the Sheffield
    repairs line (147.3 GBP a car-year, repairs-only) and applies the 150 repairs-only rung with
@@ -158,14 +174,12 @@ dining/bogie/steel were wired was wrong.
    rolling-stock maintenance. The remaining routes are a Shanghai operator maintenance line, a
    Changsha 架修 contract value and an Incheon asset-class split; [negative-findings](negative-findings.md)
    records them.
-7. **Water: the capital question (open).** Research pass 56 identified 57 of the 216 rows from
-   39 real vessels and produced `water-gross-tonnage.csv`. It found that the three per-gross-ton
-   rates are **capital prices, not annual maintenance**: 84.1 x GT^0.90 is report 25's
-   purchase-price fit deflated at the 1931-32 index, GBP 17/GT is Cambria's 1906 price, and
-   GBP 35/GT is the BR 1950-53 cargo price. Applied as maintenance they charge a hull's entire
-   capital every year. The workbook keeps the per-capacity capital ladder with repair at 2 per
-   cent of capital, inside the report's 2-5 per cent band. The user asked whether either ladder
-   makes sense on the whole evidence; see "Water: the capital question" below for the analysis.
+7. **Water: the per-gross-ton ladder is applied.** Pass 70 re-based 177 of the 216 rows on the
+   measured per-gross-ton capital rates and research pass 57 raised the tonnage coverage to 177
+   rows. The remaining work in the class is to close the 18 unidentified hulls (5 generic
+   ferries, the three PS Industry fits, ClydeSteamer, 2 early tugs and 7 fishing craft), each of
+   which has an archive route in research pass 57 section 6, and to decide whether the
+   unavailable groups should later take a type representative.
 8. **Class 83, 85, 86 and 87 electric factor.** Pass 66 moved only Classes 89, 90 and 91. Classes
    83, 85, 86 and 87 still take 0.5 of the diesel ladder, and Calder measures the Class 86/0 at
    176,000 km as well as the Class 87 at 274,000 km: both measured figures are of the same order
@@ -235,6 +249,32 @@ where no tonnage or bridge exists, and keep repair at 2 per cent of capital. Tha
 undocumented conversion with a measured price, at the cost of a median 3.3-fold rise in the
 water capital targets. The alternative is to keep the capacity ladder and record it as an
 explicitly unproven placeholder.
+
+**Decision, 2026-11-25: adopt the per-gross-ton ladder.** Research pass 57 fills the blank
+tonnages where the evidence allows, and pass 70 applies these rates: passenger vessels
+(ferries and river boats) 84.1 x GT^0.90; cargo ships and coasters GBP 35 a gross ton; inland
+craft (barges and narrowboats) GBP 17 a gross ton; tugs GBP 39 a gross ton, report 25's one
+measured tug point (1882, 81 GT); and fishing and small craft at the inland rate, the nearest
+measured per-gross-ton price. Repair stays at 2 per cent of the resulting capital, which is
+inside report 56's 2-5 per cent band and within a factor of 2-4 of the measured 0.24-0.60 GBP a
+gross ton a year.
+
+**What the decision produced.** Research pass 57 raised the tonnage coverage from 57 to 177 of
+216 rows: 98 MEASURED, 56 STATED, 23 DERIVED and 39 UNAVAILABLE. Pass 70 re-based 177 rows, a
+median x2.55 on the previous capital. The 39 rows left on the capacity rule are: 9 hovercraft
+(no gross tonnage exists), 9 holds (the parent carries the hull), 2 towing horses and a towpath
+tractor (not vessels), and 18 hulls research pass 57 could not identify (5 generic ferries, 4
+river boats including the three PS Industry fits and ClydeSteamer, 2 early tugs and 7 fishing
+craft). Each of those rows says on the capital basis why it was not re-based, and report 57
+section 6 records the archive route for each.
+
+**Each object carries its whole hull once.** A pakset water object is a separately purchased
+vehicle, and the cargo and mail fits of one hull are alternative configurations of that vehicle,
+not sections of a consist. The per-gross-ton price is therefore charged in full on every fit of
+a hull: a livestock-fit Clan liner costs the same hull as its bulk fit. Report 57 section 7
+cautions against applying a hull's tonnage once per cargo fit; that caution would apply to a
+consist, and a ship is not one. The same logic already governed the capacity ladder, where each
+fit was priced separately by its own capacity.
 
 ## Piers: what was charged and what was not
 
@@ -341,7 +381,7 @@ handoff wording "178, 22, 12" was a rounded restatement; the current file values
 Run `py -3 New/ai/cost-balancing/wb_audit_coherence.py` after every pass. The current run reports
 3,539 vehicles coverage-clean, 3,265 envelopes checked, 274 zero-priced sections, 0 rows
 unchecked and 0 failures. The parser reads the pass 42, 44, 46, 47, 48, 49, 52, 53, 57, 58, 59,
-60, 61, 62, 63, 64, 65, 66, 67 and 69 note forms (pass 68 is infrastructure and outside the
+60, 61, 62, 63, 64, 65, 66, 67, 69 and 70 note forms (pass 68 is infrastructure and outside the
 vehicles audit), the standing-charge and written-whole cases, and the hold cases.
 
 Run `py -3 New/ai/cost-balancing/wb_distance_check.py` for the distance table. The current run
@@ -349,14 +389,15 @@ reports 1,524 rows with a stated mean (707 multiple units, 758 carriages, 59 tra
 deviations over 10 per cent.
 
 Re-run each patch script in its default dry-run mode after writing; passes 55, 56, 57, 58, 59,
-60, 61, 62, 63, 64, 65, 66, 67, 68 and 69 each report 0 rows changed. The maintenance workbook
+60, 61, 62, 63, 64, 65, 66, 67, 68, 69 and 70 each report 0 rows changed. The maintenance workbook
 has no formula error cells.
 The capital workbook's `Snippet prices (6521)` sheet contains literal `#0` and `#20` markers, which
 are not formula errors.
 
 Backups of the workbooks before each pass of this session are in `ai/temp/pre-pass66/`,
-`ai/temp/pre-pass67/`, `ai/temp/pre-pass68/` and `ai/temp/pre-pass69/`. The state after pass 68,
-before the generator test rebuilds, is in `ai/temp/post-pass68/` and `ai/temp/post-rebuild2/`.
+`ai/temp/pre-pass67/`, `ai/temp/pre-pass68/`, `ai/temp/pre-pass69/` and `ai/temp/pre-pass70/`.
+The state after pass 68, before the generator test rebuilds, is in `ai/temp/post-pass68/`; the
+state after pass 70 is in `ai/temp/post-pass70/`.
 
 Backups of the workbooks before the first pass of this session are in `ai/temp/pre-pass57/`.
 The pass 62-65 review baselines are `ai/temp/pre-pass62/`, `ai/temp/pre-pass63/`,
@@ -364,20 +405,24 @@ The pass 62-65 review baselines are `ai/temp/pre-pass62/`, `ai/temp/pre-pass63/`
 
 ## Files
 
-The patch scripts for this work are `wb_fv_pass57.py` to `wb_fv_pass69.py` and
+The patch scripts for this work are `wb_fv_pass57.py` to `wb_fv_pass70.py` and
 `wb_distance_check.py`, in `New/ai/cost-balancing/`. The class and era distance table is
 `New/ai/vehicle-cost/mean-annual-distance.md`; its constants are in `evidence_data.py`. The
-research reports 49-56 and their `research-pricing-rows-*.csv` sit beside reports 42-48; report
-56 also writes `water-gross-tonnage.csv`. Report 54 is the wagon archive route, report 55 the
-maglev evidence, report 56 the water gross tonnage and the capital/maintenance correction.
+research reports 49-57 and their `research-pricing-rows-*.csv` sit beside reports 42-48; report
+56 writes `water-gross-tonnage.csv`, and report 57 writes `water-gross-tonnage-additions.csv`.
+Report 54 is the wagon archive route, report 55 the maglev evidence, report 56 the water gross
+tonnage and the capital/maintenance correction, and report 57 the tonnage additions for the
+blank rows.
 The supporting code is `evidence_data.py` (`LOCO_MAINT_LADDER`, `ELEC_LOCO_LADDER`,
 `LOCO_CLASS_OVERRIDES`, `LOCO_DUTY_KM`, `loco_maint()`, `loco_renewals()`,
-`locomotive_overhaul()`, `PIER_SHARE`, `pier_extrapolation()`, `tram_overhaul()`,
+`locomotive_overhaul()`, `PIER_SHARE`, `pier_extrapolation()`, `WATER_FERRY_RATE`,
+`WATER_GT_BRIDGE`, `water_tonnage()`, `water_gt_price()`, `tram_overhaul()`,
 `tram_upgrade_share()`, `MEAN_ANNUAL_KM`, `mean_annual_km()`, the report 51 carriage ladder and
 the report 55 maglev acquisition constants), `build_workbooks.py` (`maint_a_gbp`, and the path
 repair of 2026-11-25) and `wb_audit_coherence.py` (widened parser, `--notes`). The Class 92 and
-Class 88 corrections and the locomotive ladder are now carried by the generator as well as the
-workbook. The current-state documents are this handoff, `negative-findings.md`,
+Class 88 corrections, the locomotive ladder, the pier share and the water ladder are now
+carried by the generator as well as the workbook. The current-state documents are this handoff,
+`negative-findings.md`,
 `maintenance-decomposition.md`, `source-composition.md`, `cost-balancing-register.md`,
 `cost-data-coverage.md`, `vehicle-cost-evidence.md`, `vehicle-cost/maglev-costs.md` and
 `project-notes.md`; the previous states are in [pass-history](pass-history.md).

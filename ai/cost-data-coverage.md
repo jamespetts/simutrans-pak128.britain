@@ -120,14 +120,13 @@ British trams were built between the 1950s closures and Manchester Metrolink's 1
 GT at £70-80/GT and 14 British passenger vessels 1924-38 fitted at £149.7 × GT^0.90 (R² 0.992).
 Cargo ships are flat at £149-173/GT (1950-53) and the Fairplay tramp at £6.3-8.1 per deadweight
 ton (1898-1930). Repair evidence remains Martin's 5%-of-capital rule and dry-docking figures, not
-per-voyage costs. Gross tonnage is not recorded in the pakset, so the workbook applies the ladder
-through capacity (passengers, cargo tonnes). Research pass 56 identified 39 real vessels behind
-57 of the 216 rows and showed that the three per-gross-ton rates are the measured **capital**
-prices (84.1 × GT^0.90 is the fit above deflated to 1900 money; £17/GT is *Cambria*'s 1906
-price; £35/GT is the BR 1950-53 cargo price), so the per-capacity ladder is a conversion of them
-at an assumed gross tonnage per capacity unit. Which ladder the workbook should carry is an open
-decision recorded in [cost-balancing/handoff](cost-balancing/handoff.md).
-`[LITERATURE: research pass 25; research pass 56; Moses 2010, Table 2.7;
+per-voyage costs. Gross tonnage is not recorded for most pakset water objects, so research pass
+56 identified 39 real vessels behind 57 of the 216 rows, and research pass 57 extends that
+coverage; the three per-gross-ton rates are the measured **capital** prices (84.1 × GT^0.90 is
+the fit above deflated to 1900 money; £17/GT is *Cambria*'s 1906 price; £35/GT is the BR 1950-53
+cargo price). The workbook now prices by gross ton (the 2026-11-25 decision), with repair at 2
+per cent of capital.
+`[LITERATURE: research pass 25; research pass 56; research pass 57; Moses 2010, Table 2.7;
 Wallasey fleet list]`
 
 **Inland boats — Fair.** Motor narrowboats £700-900 (1928-37), a butty £390, a steam narrowboat

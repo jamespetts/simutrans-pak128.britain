@@ -1,6 +1,6 @@
 ---
 status: draft
-verified: New ex-15 @ 35fb36f78 + passes 66-69 (working tree), 2026-11-25
+verified: New ex-15 @ 36a741673 + pass 70 (working tree), 2026-11-25
 ---
 # Pass history and rejected treatments
 
@@ -90,6 +90,12 @@ follow [maintenance-decomposition](../vehicle-cost/maintenance-decomposition.md)
   from the workbook's earlier default on 40 diesel and electric rows and on 11 post-1948 steam
   rows at 40,000 km. Pass 69 replaces the defaults with the class and era distance table; the
   measured class duties of Classes 37, 47, 55, 86 and 87 and the CSLR tube locomotive stay.
+- **The per-capacity water capital ladder.** Passenger vessels at GBP 10-66 a passenger and
+  cargo at GBP 8.5 a tonne are not in research report 25; they are the measured per-gross-ton
+  price divided by an assumed gross tonnage per capacity unit, and that ratio runs from 0.80 to
+  188.9 across the identified vessels. Pass 70 replaces them with the measured per-gross-ton
+  rates on the 177 rows that have a tonnage; the remaining 39 keep the capacity rule only
+  because no tonnage exists or could be found, and say so on the row.
 
 ## Pass log, 42-65
 
@@ -141,6 +147,11 @@ Each entry is a one-line record only; the research reports and patch scripts hol
   default (and 11 post-1948 steam rows at the 40,000 km default) move to the class and era
   distance table; the measured class duties stay, and only the per-km charge and the overhaul
   interval move.
+- **70**: the 177 water rows with a sourced gross tonnage move from the per-capacity ladder to
+  the measured per-gross-ton capital rates (84.1 x GT^0.90 passenger, GBP 35/GT cargo and
+  coasters, GBP 17/GT inland, GBP 39/GT tugs); repair stays at 2 per cent of capital and the
+  overhaul event scales with it. The 39 rows without a tonnage keep the capacity rule and state
+  why. Research pass 57 supplies the tonnages: coverage rises from 57 to 177 of 216.
 
 ## Link from current docs
 

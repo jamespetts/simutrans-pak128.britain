@@ -55,6 +55,7 @@ until every cost domain has reached this depth. `[USER-DIRECTION:2026-11-16]`
 | [research-pricing-report-54](cost-balancing/research-pricing-report-54.md) | you need a British Rail wagon repair cost for 1972-81 | no readable measurement; The National Archives AN 112/25 "Unit cost of repair: wagons" 1965-81, with AN 112/26, AN 112/87, AN 112/129 and AN 171/941 as related routes; the ladder 14.3 and the 1.2A event remain estimates |
 | [research-pricing-report-55](cost-balancing/research-pricing-report-55.md) | you need a maglev rolling-stock acquisition or maintenance price | the Shanghai imported-car price (RMB 100m a car), the Incheon heavy-maintenance contracts (corrected to 5,189 and 5,987 GBP a set-event), and the Changsha and Shanghai overhaul intervals; the acquisition figure of 1,088 GBP a seat is applied by pass 65; maintenance stays 0.00010257 GBP a seat-km |
 | [research-pricing-report-56](cost-balancing/research-pricing-report-56.md) | you need a water-object gross tonnage or the basis of the per-GT rates | 39 real vessels covering 57 of the 216 rows; the three per-GT rates (84.1 x GT^0.90, GBP 35/GT, GBP 17/GT) are capital prices, not annual maintenance; recommends using them as the capital ladder and setting repair at 2-5 per cent of capital |
+| [research-pricing-report-57](cost-balancing/research-pricing-report-57.md) | you need a gross tonnage for a water object that has none | 120 new figures from 16 vessels, mostly the National Historic Ships UK register's "Tonnage: Gross" field transferred as type representatives (96 MEASURED), 22 DERIVED and 2 STATED; coverage rises from 57 to 177 of 216; the 39 blank rows and the archive route for each; applied by pass 70 |
 | [modern-traction-multiple-units](vehicle-cost/modern-traction-multiple-units.md) | you need a multiple unit maintenance cost | RDG per vehicle-mile, London Underground per car-year, Civity per train-km |
 | [modern-traction-locomotives-and-wagons](vehicle-cost/modern-traction-locomotives-and-wagons.md) | you need a post-1987 locomotive or a wagon figure | Class 66 and 47 rebuild costs, wagon routes and gaps, the scheduled/unscheduled question |
 | [ship-maintenance](vehicle-cost/ship-maintenance.md) | you need a ship repair or dry-docking cost | 50 figures 1849-2026, dry-docking and survey costs |
@@ -385,13 +386,14 @@ a tractor price could bind to every trailer variant. Bound measured rows rose fr
   only a shape check, and the per-capacity rates are a conversion of it at an assumed gross
   tonnage per capacity unit; that assumption is what the 0.80-188.9 range makes unsafe.
   `[LITERATURE: research pass 56 § 4.4; research pass 25 § 9]`
-- The workbook keeps the per-capacity capital ladder and charges repair at 2 per cent of capital,
-  inside report 56's 2-5 per cent band. On the 57 rows with a sourced gross tonnage the capacity
-  target is a median 0.30 of the per-GT figure; on an individual check (*TS King Edward*, 502 GT,
-  £33,000 in 1901) the capacity target reproduces the measured price and the per-GT rate is 31 per
-  cent below it, while on a large modern hull (*Spirit of Britain*, 47,592 GT) the per-GT figure
-  is ten times the capacity figure. Adopting the per-GT ladder is an open decision, recorded in
-  [cost-balancing/handoff](../cost-balancing/handoff.md).
+- The workbook now uses the per-gross-ton capital ladder (the 2026-11-25 decision): passenger
+  vessels at 84.1 × GT^0.90, cargo ships and coasters at GBP 35/GT, inland craft at GBP 17/GT and
+  tugs at GBP 39/GT, with repair at 2 per cent of capital. On the rows with a sourced tonnage the
+  per-GT figure replaces a capacity target that was a median 0.30 of it; on an individual check
+  (*TS King Edward*, 502 GT, £33,000 in 1901) the capacity target reproduced the measured price
+  and the per-GT rate is 31 per cent below it, while on a large modern hull (*Spirit of Britain*,
+  47,592 GT) the per-GT figure is ten times the capacity figure. The full effect and the tonnage
+  coverage are in [cost-balancing/handoff](../cost-balancing/handoff.md).
 - Cargo is priced at £8.5 per tonne of capacity, the direct per-ton rate from the Fairplay tramp
   (1900), the 1918 steel barge and *Cambria* (1906). The £149-173 per gross ton of the 1950-53 BR
   cargo ships is a small-ship rate (925-1,500 GT) and would overprice the pakset's 20,000 t bulk
