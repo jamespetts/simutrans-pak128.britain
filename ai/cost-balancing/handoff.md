@@ -384,9 +384,9 @@ workbook. The current-state documents are this handoff, `negative-findings.md`,
 
 ## Git and push
 
-The `New/` repository is on branch `ex-15`; the pass 62-65 work is committed at `a3560ded3` and
-pushed to `origin/ex-15`. The pass 66-69 work and the documentation edits of 2026-11-25 are in
-the working tree for the user's review. Push with:
+The `New/` repository is on branch `ex-15`; the pass 62-65 work is committed at `a3560ded3`, and
+the pass 66-69 work and the documentation edits of 2026-11-25 at `58b1a8e3c` (CHANGE) and
+`494791b20` (DOC), pushed to `origin/ex-15`. Push with:
 
     git -C New -c credential.helper="!gh auth git-credential" push \
         https://github.com/jamespetts/simutrans-pak128.britain.git ex-15
