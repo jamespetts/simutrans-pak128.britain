@@ -80,7 +80,8 @@ dining/bogie/steel were wired was wrong.
 2. The generator must override every asset for which individual asset data exist. This is an
    invariant, not a preference.
 3. Piers take the measured structure share.
-4. The two knowledge-base corrections are applied now; they are closed.
+4. The two knowledge-base corrections are closed: the road running-cost values were corrected on
+   2026-11-23; the remaining timber wording is corrected now.
 5. Class 89/91 are interpolated from the 1950s/1960s figures to the 1980s/1990s figures for
    intermediate locomotives; confirm whether Class 90 is included.
 6. The narrow-gauge carriage rows are re-based on report 51.
@@ -156,9 +157,11 @@ dining/bogie/steel were wired was wrong.
     object, after the workbook review.
 
 The two knowledge-base corrections are closed. Commit `6b46c373c` (2026-11-23) corrected the
-1983 and 2016 road maintenance running-cost rows to **177, 23 and 11** and the timber ratio to
-**7-8 times the brick rate**. The earlier handoff wording "178, 22, 12" was a rounded
-restatement; the current file values in `base-maintenance.md` are 177, 23 and 11.
+1983 and 2016 road maintenance running-cost rows to **177, 23 and 11** and the main timber-ratio
+wording; the two remaining ambiguous instances in `cost-data-coverage.md` and
+`infrastructure-cost-synthesis.md` are corrected now to **7-8 times the brick rate**. The earlier
+handoff wording "178, 22, 12" was a rounded restatement; the current file values in
+`base-maintenance.md` are 177, 23 and 11.
 
 ## Interim, not settled
 
