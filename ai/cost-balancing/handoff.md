@@ -1,6 +1,6 @@
 # Cost-balancing workbooks: handoff
 
-**Status**: analysis complete; passes 62-65 applied and committed; `.dat`
+**Status**: analysis complete; passes 62-65 applied and committed at `a3560ded3`; `.dat`
 costs deliberately NOT changed. The workbooks carry the current treatments and are ready for the
 user's review.
 
@@ -251,8 +251,8 @@ states are in [pass-history](pass-history.md).
 
 ## Git and push
 
-The `New/` repository is on branch `ex-15`; the pass 62-65 work is committed with this change.
-Push with:
+The `New/` repository is on branch `ex-15`; the pass 62-65 work is committed at `a3560ded3` and
+pushed to `origin/ex-15`. Push with:
 
     git -C New -c credential.helper="!gh auth git-credential" push \
         https://github.com/jamespetts/simutrans-pak128.britain.git ex-15
