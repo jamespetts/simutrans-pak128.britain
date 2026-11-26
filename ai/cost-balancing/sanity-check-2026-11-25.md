@@ -65,15 +65,15 @@ decision because they change the `.dat` policy, the forge rule or the overhaul l
 
 | Finding | Status |
 |---|---|
-| B1, 19 values above the signed 32-bit cost field | Open: needs a representation decision before the `.dat` pass (cap at 2,147,483,647, widen the engine field, or lower the target) |
-| B2, 8 way rows with a negative way-only cost | Open: raise the total to the forge cost, zero the forge, or treat the object as forge-dominated |
+| B1, 19 values above the signed 32-bit cost field | **Engine change to be considered.** The user will consider widening the engine field; it must be raised at the start of the next session and settled before the `.dat` pass writes those rows. No workbook change. |
+| B2, 8 way rows with a negative way-only cost | **Not a local defect and not a policy choice.** The user's direction (2026-11-26): a negative way-only value means the way/forge decomposition is fundamentally wrong. The next session must commission a research subagent to find the fundamental cause. Do not raise the total, zero the forge or record a forge-dominated rule. |
 | M1, stale suggested interval column | Fixed by pass 71: column 22 synced to column 17 on 3,302 rows |
 | M2, rebuild divergences | Recorded in the handoff with the four extra areas; the generator fixes (multiple-unit ladder, narrow-gauge and maglev overhaul branches) remain outstanding |
 | M3, README stale | Fixed in the workbook and in `evidence_data.readme_extra()` |
 | M4, `negative-findings.md` stale | Fixed |
 | M5, pass 69 suffix misstates the old distance | Fixed on 68 rows; the three lost markers restored |
 | M6, `vehicle-cost-evidence.md` stale bullets and link | Fixed |
-| M7, pier and elevated-way double count | Open: decide whether the way target is the complete structure or the deck |
+| M7, pier and elevated-way double count | **Withdrawn.** The user's direction (2026-11-26): an elevated way is the whole structure and is retained for compatibility only; a pier is a structure on which a normal way is built. The two are alternatives, so there is no double count. |
 | m1, register summary and fishing reason | Fixed |
 | m2, tub-boat four tonnages | Fixed by pass 71 (4.8 GT on all four fits) |
 | m3, water event sized to A | Fixed by pass 71 (53 rows re-sized to the provision) |

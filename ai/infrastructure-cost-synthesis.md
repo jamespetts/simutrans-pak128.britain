@@ -157,12 +157,17 @@ pass 19 §11]
 | concrete-aqueduct tub/narrow/barge | 1,456,000 → **11,400,000 / 15,600,000 / 21,400,000** | 149 → **9,500 / 13,000 / 17,900** |
 | piers, timber / iron / brick-stone / concrete | → **5,000,000 / 8,800,000 / 27,800,000 / 13,900,000** | → **14,700 / 14,700 / 18,500 / 11,600** |
 
-**Bridge-substructure piers.** The 111 `pier-*` objects are bridge substructure, not the four
-standalone pier archetypes in the row above. They stay unpriced. The measured substructure share
-is 16-82% of bridge cost and depends on pier height and span (Tower Bridge 15.8%, the Humber
-worked example 25%, Maynard's 200 ft viaduct 66-82%), so one share would be wrong for most
-bridges. If the pakset later charges them, the defensible low-bridge range is 13-25% and the
-tall-viaduct range 50-65%. [LITERATURE: research pass 13 §6; Tower Bridge contract list, Humber
+**Piers.** The 111 `pier-*` objects are support structures on which normal ways are built, not
+elevated ways: an elevated way is a whole structure (deck and supports) and is retained in the
+pakset for compatibility as the old solution, while a pier is the newer solution. The four
+standalone pier archetypes in the row above are a different class. Pass 68 charges the 111 rows at
+19 per cent, the midpoint of the measured 13-25 per cent low-bridge substructure share, against the
+matching bridge family's measured rate, with the band stated on every row; the normal way built on
+top carries its own cost. The share was measured on bridges and is a proxy for the support
+structure: it is 16-82 per cent of bridge cost and depends on pier height and span (Tower Bridge
+15.8%, the Humber worked example 25%, Maynard's 200 ft viaduct 66-82%), so the tall-viaduct shares
+are not applied to objects whose height the pakset does not record. Capital only: no substructure
+maintenance rate is measured. [LITERATURE: research pass 13 §6; Tower Bridge contract list, Humber
 worked example, Maynard 1868]
 
 **Canal forge, decided 2026-11-24: `forge_cost_water` → 0, formation folded into the way cost

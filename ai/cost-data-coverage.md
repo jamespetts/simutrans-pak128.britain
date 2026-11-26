@@ -247,10 +247,12 @@ table. Two table artefacts recorded (Primrose Hill length; Islington canal tunne
 **Piers, docks, quays — Fair.** Per-metre ladder by construction (timber wharf £18/m to Admiralty
 breakwater £1,061/m); Margate-type landing stage 1853; the Tilbury works itemisations. No wharf cost
 per unit of berth; no measured dock/pier maintenance account (heuristic 0.8-4% a year). The 111
-bridge-substructure pier objects are not standalone docks: research pass 13 measures their share of
-a bridge at 13-25 per cent for a low bridge (Tower Bridge 15.8, the Humber 60 ft example 25) and
-50-82 per cent for a tall viaduct. Pass 68 charges the low-bridge midpoint of 19 per cent against
-the bridge family's measured rate, with the band stated on every row.
+pier objects are support structures on which normal ways are built, not elevated ways (an elevated
+way is a whole structure, retained in the pakset for compatibility as the old solution). Research
+pass 13 measures a bridge's substructure share as a proxy at 13-25 per cent for a low bridge (Tower
+Bridge 15.8, the Humber 60 ft example 25) and 50-82 per cent for a tall viaduct. Pass 68 charges the
+low-bridge midpoint of 19 per cent against the bridge family's measured rate, with the band stated
+on every row.
 
 **Signals and signalboxes — Fair.** 1912 post prices by height complete with arm, lamp and wire;
 1909 automatic signal £97-100 an arm; interlocking and lever costs 1873-84; Spetisbury 1901 and

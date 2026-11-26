@@ -3,9 +3,48 @@
 **Status**: analysis complete; passes 62-71 applied in the working tree; `.dat` costs deliberately
 NOT changed. The workbooks carry the current treatments and are ready for the user's review. The
 independent sanity check of 2026-11-25/26 (`sanity-check-2026-11-25.md`) found them fit for review
-and not yet fit for the `.dat` pass: 19 suggested `.dat` values exceed the engine's signed 32-bit
-cost field and 8 way rows have a negative way-only cost, both of which need a decision before that
-pass. Its documentation and workbook defects are fixed by pass 71.
+and not yet fit for the `.dat` pass. Two matters take precedence over everything else and are set
+out in "Next session: read this first": an engine change to consider for the 19 values above the
+signed 32-bit cost field, and a fundamental failure of the way/forge decomposition that the
+negative way-only costs expose.
+
+## Next session: read this first
+
+Three directions from the user on 2026-11-26 govern the next session. They take precedence over
+the remaining-work list below.
+
+1. **An engine change will need consideration.** The 19 suggested `.dat` values above
+   2,147,483,647 cannot be held by the engine's signed 32-bit cost field (finding B1). The user
+   will consider widening the field. **Remind the user of this at the start of the next session.**
+   It is a decision for the engine repository, not the pakset, and it must be settled before the
+   `.dat` pass writes those 19 rows.
+
+2. **The negative way-only cost is evidence of a fundamental failure, not a local anomaly.**
+   Eight way rows have a suggested total below the forge charge, so the way-only value is negative
+   (a bridleway is 289,767 below zero). A way cost plus a forge cost cannot be negative in any
+   coherent decomposition. The user's direction is that this points to a potentially fundamental
+   problem with the **entire** decomposition, not an anomaly in eight rows. **Do not raise the
+   total, zero the forge, or record those rows as forge-dominated.** The next session must
+   commission a research subagent to audit the whole way/forge decomposition and find the
+   fundamental cause: what the measured rates include, what the forge charge represents, the
+   per-km, per-tile and 125 m chain, and whether the whole split is misconceived. No local fix is
+   to be applied until that audit reports.
+
+   This repeats a standing rule the work already carried and did not apply. A local anomaly that
+   is evidence of a more fundamental failure must never be accepted, papered over or turned into a
+   per-row decision. The previous session treated the eight rows as a policy choice; that was
+   wrong. The rule is now stated as rule 0 below, and the user has asked that it be recorded with
+   the utmost clarity.
+
+3. **Elevated ways are not piers.** An elevated way is the whole structure, deck and supports
+   together. A pier is a structure on which a normal way is built. Elevated ways are retained in
+   the pakset for compatibility only: they are the old solution, and piers are the newer one.
+   There is therefore **no pier/elevated-way double count**, and the sanity check's finding M7 is
+   withdrawn. The pier target remains 19 per cent of the measured bridge-substructure share as the
+   proxy for the support structure, and the normal way built on top carries its own cost. The
+   phrases "bridge-substructure pier objects" and "the deck and track are carried by the way
+   object" should be reworded to the support-structure description at the next workbook pass.
+
 
 ## What this is
 
@@ -67,7 +106,7 @@ class; money is 1900 GBP. The pass-by-pass history and the rejected treatments a
 | Aircraft | BOAC engineering cost per flying hour; see [aircraft-maintenance](../vehicle-cost/aircraft-maintenance.md) | C-check every 4,000-6,000 flight hours; 2.5 to 5 per cent of capital; D-check in the cycle | Class rule | 4,200,000 km per C-check |
 | Maglev | Shanghai imported-car acquisition at 1,088 GBP a seat (1,087.5 before rounding; report 55; the 507.6 Almujibah estimate remains the serial-production floor); maintenance 0.00010257 GBP a seat-km | 15 per cent of A, event 1.2A every eight years | 50/50 | 300,000 km |
 | Holds and animals | Holds are containers inside a vehicle: 1 per cent of their own capital, no per-km charge. Animals are 45 GBP an animal-year (90 for a pair), standing only | Holds take no overhaul and a zero target; animals replace at 100 per cent of the purchase price at 70,000 km; upgrade 50 per cent | Holds all fixed; animals all fixed | Holds none; animals 10,000 km a year |
-| Piers (infrastructure) | The 111 bridge-substructure pier rows take 19 per cent, the midpoint of the measured 13-25 per cent low-bridge substructure share, of their bridge family's measured rate: brick and stone 107,500 GBP a km, iron 164,000, concrete 410,317, steel 280,000, timber 48,000 | Capital only: no substructure maintenance rate is measured, so the maintenance sheet's pier rows stay blank | Not applicable (infrastructure) | Not applicable |
+| Piers (infrastructure) | The 111 pier rows (support structures on which normal ways are built, not elevated ways) take 19 per cent, the midpoint of the measured 13-25 per cent low-bridge substructure share, of their bridge family's measured rate: brick and stone 107,500 GBP a km, iron 164,000, concrete 410,317, steel 280,000, timber 48,000 | Capital only: no substructure maintenance rate is measured, so the maintenance sheet's pier rows stay blank | Not applicable (infrastructure) | Not applicable |
 
 The current coherence audit reports 3,539 vehicles, 3,265 envelopes checked, 274 zero-priced
 sections, 0 unchecked and 0 failures. The distance check reports 1,524 rows with a stated mean
@@ -305,10 +344,10 @@ Pass 68 charges the 111 `Piers & docks` rows at 19 per cent, the midpoint of the
 object belongs to. The share is measured: Tower Bridge 15.8 per cent, the Humber 1900 worked
 example at 60 ft 25 per cent; Maynard's 200 ft viaduct gives 65.9 and 82.3 per cent, which is why
 the pale high-viaduct shares are not applied to objects whose height the pakset does not record.
-The object is charged as the substructure component of the equivalent bridge; the deck and track
-are carried by the way object. If the object is later shown to carry the deck as well, the target
-should rise to the whole bridge rate, not the share. Maintenance is not charged because no
-substructure maintenance rate is measured.
+The object is the support structure on which a normal way is built; the normal way carries its own
+cost. The measured share comes from bridges and is a proxy for the support structure. If the object
+is later shown to carry the deck as well, the target should rise to the whole structure rate, not
+the share. Maintenance is not charged because no substructure maintenance rate is measured.
 
 The two knowledge-base corrections are closed. Commit `6b46c373c` (2026-11-23) corrected the
 1983 and 2016 road maintenance running-cost rows to **177, 23 and 11** and the main timber-ratio
@@ -346,6 +385,14 @@ handoff wording "178, 22, 12" was a rounded restatement; the current file values
   the pre-51 carriage ladder and need a separate decision.
 
 ## Rules in force
+
+0. **A local anomaly is a symptom, not a defect.** When a result is absurd — a negative cost, a
+   price below one of its own components, a charge larger than the total it belongs to — suspect
+   the decomposition or the unit chain, not the row. Never accept the anomaly, never paper it over
+   with a per-row decision, and never fix only the row. Find the fundamental cause first. Worked
+   example: the negative way-only costs of 2026-11-25 (sanity check finding B2) were recorded as a
+   policy choice when they are evidence that the way/forge decomposition itself is wrong. The user
+   called this out on 2026-11-26 and asked that the rule be recorded with the utmost clarity.
 
 1. **Never use a `.dat` price, or a value derived from one, as a target.** Balancing spreadsheets
    other than the two workbooks (`Vehicle cost table.ods`, `Simutrans Ship Balance.xlsx` and the
