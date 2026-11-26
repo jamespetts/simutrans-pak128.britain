@@ -454,9 +454,9 @@ carried by the generator as well as the workbook. The current-state documents ar
 ## Git and push
 
 The `New/` repository is on branch `ex-15`; the pass 62-65 work is committed at `a3560ded3`,
-the pass 66-69 work and its documentation at `58b1a8e3c` and `494791b20`, and the water
-gross-tonnage work at `3976c0e00` (CHANGE) and `3b7192a39` (DOC), all pushed to `origin/ex-15`.
-Push with:
+the pass 66-69 work and its documentation at `58b1a8e3c` and `494791b20`, the water
+gross-tonnage work at `3976c0e00` and `3b7192a39`, and the sanity-check fixes at `8f58f1bf3`
+(CHANGE) and `1a970ac5c` (DOC), all pushed to `origin/ex-15`. Push with:
 
     git -C New -c credential.helper="!gh auth git-credential" push \
         https://github.com/jamespetts/simutrans-pak128.britain.git ex-15
