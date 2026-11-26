@@ -55,16 +55,18 @@ pages for a maintenance line; the routes above are the only new access.
 
 | Sought | Sources checked | Result | Remaining route | Report |
 |---|---|---|---|---|
-| Gross tonnage for all 216 water objects | Vessel registers, National Historic Ships UK, Wikipedia ship pages with cited registers, company histories, harbour records | 39 vessels covering 57 rows; 159 rows blank: 87 inland craft, 6 tugs, 9 hovercraft, 9 holds, 3 non-vessels, 6 generic ferries, 11 fishing craft, PS Industry, ClydeSteamer | A route class in the pakset; vessel registers for the type rows; National Historic Ships UK for the fishing craft | [56](research-pricing-report-56.md) |
+| Gross tonnage for all 216 water objects | Vessel registers, National Historic Ships UK, Wikipedia ship pages with cited registers, company histories, harbour records | Report 56 found 39 vessels covering 57 rows. Report 57 added 120 figures from 16 vessels, taking coverage to 177 of 216. 39 remain blank: 9 hovercraft, 9 holds, 2 towing horses, 1 towpath tractor and 18 hulls (5 generic ferries, 3 PS Industry fits, ClydeSteamer, 2 early tugs, 7 fishing craft) | The archive route for each of the 18 is in report 57 section 6 | [56](research-pricing-report-56.md), [57](research-pricing-report-57.md) |
 | Gross tonnage for hovercraft | AP1-88, BHT-130/150, SR.N4, SR.N6 | Not a registered ship; no GRT/GT | Length and light displacement; a hovercraft-specific treatment | [56](research-pricing-report-56.md) |
 | Gross tonnage for tugs | British tug registers and company histories | No British tug with a published tonnage and price that fixes a type figure | A tug register or a builder's list | [56](research-pricing-report-56.md) |
 | Gross tonnage for fishing craft and skiffs | Dogger, Fifie, seine netters, skiff wherries | No register figure | Fishing-vessel registers; local museum records | [56](research-pricing-report-56.md) |
 | A ferry bridge from passenger capacity to GT | The 14 measured passenger vessels | Pooled fit GT = 14.49 x capacity^1.111, R2 0.47; residuals to -87 per cent | Do not bridge; assign the ferry rate by route and era | [56](research-pricing-report-56.md) |
 | Provenance of the three per-GT rates | `ship-maintenance.md`; report 25 | The file ends at the heading "B. Inland and canal boats" with no text; the three rates are not recorded there. The rates are capital prices, not maintenance: 84.1 is report 25's purchase fit at the 1931-32 index, GBP 17/GT is Cambria's 1906 price, GBP 35/GT is the BR 1950-53 cargo price | Close the evidence file's section B; the arithmetic is in report 56 §4.4 | [56](research-pricing-report-56.md) |
 
-**Status**: the three rates are capital, not annual maintenance. The workbook already uses capital
-plus 2 per cent of capital a year; applying the per-GT capital ladder to the 57 measured rows is
-the next pass, and the route-class assignment is the open decision.
+**Status**: closed. The three rates are capital, not annual maintenance. The 2026-11-25 decision
+adopted the per-gross-ton ladder, and pass 70 applies it to the 177 rows with a sourced tonnage at
+84.1 x GT^0.90 (passenger), GBP 35/GT (cargo and coasters), GBP 17/GT (inland) and GBP 39/GT
+(tugs), with repair at 2 per cent of capital. The 39 rows without a tonnage keep the capacity rule
+and state why; the archive routes for the 18 unidentified hulls are in report 57 section 6.
 
 ## Tramcar maintenance, 1950-1990
 

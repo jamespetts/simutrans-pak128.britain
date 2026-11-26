@@ -1,6 +1,6 @@
 ---
 status: draft
-verified: New ex-15 @ 36a741673 + pass 70 (working tree), 2026-11-25
+verified: New ex-15 @ cd856ac71 + passes 70-71 (working tree), 2026-11-26
 ---
 # Pass history and rejected treatments
 
@@ -96,6 +96,12 @@ follow [maintenance-decomposition](../vehicle-cost/maintenance-decomposition.md)
   188.9 across the identified vessels. Pass 70 replaces them with the measured per-gross-ton
   rates on the 177 rows that have a tonnage; the remaining 39 keep the capacity rule only
   because no tonnage exists or could be found, and say so on the row.
+- **Bridging each cargo fit of one hull from its own capacity.** The four tub-boat fits were
+  priced at 4.8, 2.4, 2.4 and 4.2 GT. Gross tonnage is a property of the hull, and every other
+  multi-fit hull carries one figure; pass 71 gives all four the largest fit's 4.8 GT.
+- **Sizing the water overhaul event to the whole annual figure.** Pass 51 sized the sailing rows'
+  events to A rather than to the provision, so the continuous head was recovered a second time.
+  Pass 71 re-sizes every water event so that its mid-point is the provision times five years.
 
 ## Pass log, 42-65
 
@@ -152,6 +158,11 @@ Each entry is a one-line record only; the research reports and patch scripts hol
   coasters, GBP 17/GT inland, GBP 39/GT tugs); repair stays at 2 per cent of capital and the
   overhaul event scales with it. The 39 rows without a tonnage keep the capacity rule and state
   why. Research pass 57 supplies the tonnages: coverage rises from 57 to 177 of 216.
+- **71**: the sanity-check defects. The suggested `.dat` interval column is synced with the
+  modelled interval (3,302 rows); the four tub-boat fits take one hull tonnage of 4.8 GT; 53 water
+  overhaul events are re-sized to the provision at five years, not to the whole annual figure; the
+  pass 69 suffix on 68 locomotive notes states the true inherited distance and the marker is
+  restored on Classes 89/90/91; and three narrow-gauge locomotives leave the 109,000 km default.
 
 ## Link from current docs
 

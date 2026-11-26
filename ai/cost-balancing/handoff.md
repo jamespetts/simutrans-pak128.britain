@@ -1,8 +1,11 @@
 # Cost-balancing workbooks: handoff
 
-**Status**: analysis complete; passes 62-69 applied in the working tree; `.dat`
-costs deliberately NOT changed. The workbooks carry the current treatments and are ready for the
-user's review.
+**Status**: analysis complete; passes 62-71 applied in the working tree; `.dat` costs deliberately
+NOT changed. The workbooks carry the current treatments and are ready for the user's review. The
+independent sanity check of 2026-11-25/26 (`sanity-check-2026-11-25.md`) found them fit for review
+and not yet fit for the `.dat` pass: 19 suggested `.dat` values exceed the engine's signed 32-bit
+cost field and 8 way rows have a negative way-only cost, both of which need a decision before that
+pass. Its documentation and workbook defects are fixed by pass 71.
 
 ## What this is
 
@@ -52,7 +55,7 @@ class; money is 1900 GBP. The pass-by-pass history and the rejected treatments a
 
 | Class | Annual level (1900 money) | Overhaul and upgrade | Fixed/per-km | Mean annual distance |
 |---|---|---|---|---|
-| Rail carriages | 33 / 39 / 121 / 265 / 460 / 440 GBP a vehicle-year at 1900 / 1920 / 1950 / 1970 / 1990 / 2020, log-linear between and flat outside; 1948 and 1966 read 112 and 226 by interpolation | Provision 28 / 24 / 19 / 12 / 10 / 8 per cent of A at 6 / 5 / 3 / 2 / 2 / 2.6 years; first event 0.70 of the maximum over three; upgrade 7.7 per cent for brake pairs, 25-30 per cent for structural conversion | 70/30 | 35,000 / 36,000 / 55,000 / 88,000 / 120,000 / 113,000 km by era |
+| Rail carriages | 33 / 39 / 121 / 265 / 460 / 440 GBP a vehicle-year at 1900 / 1920 / 1950 / 1970 / 1990 / 2020, log-linear between and flat outside; 1948 and 1966 read 112 and 226 by interpolation | Provision 28 / 24 / 19 / 12 / 10 / 8 per cent of A at 6 / 5 / 3 / 2 / 2 / 2.6 years; first event 0.70 of the maximum over three; upgrade 35 per cent on 682 rows, 32.5 per cent on 56, and 5.3-6.6 per cent on the 20 brake pairs, as the sheet holds them | 70/30 | 35,000 / 36,000 / 55,000 / 88,000 / 120,000 / 113,000 km by era |
 | Rail wagons | 4.2 / 8.7 / 14.3 / 24.8 / 23.8 GBP per 10-tonne wagon-year at 1900 / 1950 / 1970 / 1990 / 2020, scaled by (payload/10)^0.4 | Head 0.8A; event 1.2A every six years, first event 0.75 of the steady event; upgrade 10-20 per cent for brake pairs | 65/35 | 40,000 km |
 | Rail locomotives | 215 / 306 / 800 / 2,100 / 1,045 / 520 GBP an engine-year at 1900 / 1950 / 1961 / 1977 / 1995 / 2020, log-linear between; the Class 92 is a mixed-traffic class override at 868 (2018, Caledonian Sleeper duty), the Class 88 takes the Class 68 level of 614.82, and Classes 89, 90 and 91 take the measured electric-locomotive track of 1,476 / 1,103 / 1,045 / 868 at 1950 / 1977 / 1995 / 2018; none is a time rung of the diesel ladder | Renewals 25 per cent at 1900 phasing to zero by 1950; 22 per cent at 1961, phased in from 1950 and out by 1977; provision 35 per cent steam and 39 per cent diesel/electric; events scaled to the provision | 65/35 steam, 60/40 diesel/electric | The row's measured duty where the class has one, else the class and era distance table |
 | Narrow-gauge carriages | The standard-gauge carriage series (33 / 39 / 121 / 265 / 460 / 440), because no source distinguishes gauge in carriage maintenance; class factors (brake 0.5, mail 0.75) kept | As rail carriages, with the narrow gauge's own 40,000 km a year setting the interval | 70/30 | 40,000 km |
@@ -96,7 +99,7 @@ dining/bogie/steel were wired was wrong.
    because no tonnage can exist or is recorded. Research pass 57 fills the blank tonnage rows.
    The analysis behind the decision is in "Water: the capital question" below.
 
-## Passes 66-70 (2026-11-25)
+## Passes 66-71 (2026-11-25 to 26)
 
 - **Pass 66**: Classes 89, 90 and 91 leave the 0.5-of-the-diesel-ladder rule for the measured
   electric-locomotive track. A becomes 1,073.61, 1,070.39 and 1,067.18 in place of 740.69,
@@ -137,11 +140,30 @@ dining/bogie/steel were wired was wrong.
   overhaul interval, and `build_workbooks.py` uses the table. A test rebuild reproduces the
   patched values for the electric locomotives, the Class 92, Classes 86, 87 and 37 and all 111
   piers.
-- **What a rebuild still does not reproduce**: the qualitative maintenance adjustments on
-  locomotive rows (for example the Class 47 ×1.05 from the October 1965 failure rate, which pass
-  49 overwrote and the generator still applies); the fixed/per-km split of the carriage, wagon
-  and multiple-unit rows, which the generator still writes as a whole annual figure; and the
-  pass notes after 40, which a rebuild discards.
+- **Pass 71** (`wb_fv_pass71.py`): the workbook defects the sanity check found. It syncs the
+  "Suggested .dat interval km" column with the modelled interval on 3,302 rows (2,751 disagreements
+  and 551 blanks), so the `.dat` pass cannot write a stale interval; gives the four tub-boat fits
+  one hull tonnage of 4.8 GT and re-prices them at GBP 17/GT; re-sizes 53 water overhaul events so
+  that the mid-point is the provision times five years rather than the whole annual figure A (the
+  15 sailing rows were recovering the continuous head a second time, and 38 more differed by
+  rounding or by the same cause); corrects the pass 69 suffix on 68 locomotive notes to state the
+  true inherited distance (55 at 109,000, 13 at 40,000) and restores the marker on Classes 89, 90
+  and 91; and moves the three narrow-gauge locomotives still on the 109,000 km default (Baguely-
+  Drewery, Funkey, Hibberd Planet) to the class and era distance table.
+- **What a rebuild still does not reproduce** (measured by the sanity check,
+  `sanity-check-2026-11-25.md` section 5): the qualitative maintenance adjustments on locomotive
+  rows (for example the Class 47 ×1.05 from the October 1965 failure rate, which pass 49
+  overwrote and the generator still applies); the fixed/per-km split of the carriage, wagon and
+  multiple-unit rows, which the generator still writes as a whole annual figure; and the pass
+  notes after 40, which a rebuild discards. Beyond those three: 444 capital rows differ (317
+  multiple-unit rows are on the diesel/electric `28 × power^0.889` ladder in the workbook but on
+  the multiple-unit car ladder in the generator, 67 early-electric per-hp rows, 14 multiple-unit
+  feature-term rows and 3 steam rows); 827 annual-maintenance rows differ (the 707 multiple-unit
+  cars are at the generator's 32.6 carriage rate against the workbook's 66-780 ladder, plus the
+  Class 47 adjustment, 6 road and 38 air rows); and all 95 narrow-gauge and maglev overhaul rows
+  are missing from a rebuild, because the generator has no branch for either class. The two
+  classes the handoff names as reproduced (the electric locomotives, the water rows and the
+  piers) do reproduce.
 
 ## Remaining work, in order
 
@@ -265,8 +287,8 @@ median x2.55 on the previous capital. The 39 rows left on the capacity rule are:
 (no gross tonnage exists), 9 holds (the parent carries the hull), 2 towing horses and a towpath
 tractor (not vessels), and 18 hulls research pass 57 could not identify (5 generic ferries, 4
 river boats including the three PS Industry fits and ClydeSteamer, 2 early tugs and 7 fishing
-craft). Each of those rows says on the capital basis why it was not re-based, and report 57
-section 6 records the archive route for each.
+craft). Each of those rows records that research pass 57 examined it and left the tonnage blank;
+the reason and the archive route for each are in report 57 section 6.
 
 **Each object carries its whole hull once.** A pakset water object is a separately purchased
 vehicle, and the cargo and mail fits of one hull are alternative configurations of that vehicle,
@@ -380,24 +402,24 @@ handoff wording "178, 22, 12" was a rounded restatement; the current file values
 
 Run `py -3 New/ai/cost-balancing/wb_audit_coherence.py` after every pass. The current run reports
 3,539 vehicles coverage-clean, 3,265 envelopes checked, 274 zero-priced sections, 0 rows
-unchecked and 0 failures. The parser reads the pass 42, 44, 46, 47, 48, 49, 52, 53, 57, 58, 59,
-60, 61, 62, 63, 64, 65, 66, 67, 69 and 70 note forms (pass 68 is infrastructure and outside the
-vehicles audit), the standing-charge and written-whole cases, and the hold cases.
+unchecked and 0 failures. The parser reads the pass 42, 43, 44, 45, 46, 47, 48, 49, 51, 52, 53,
+57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 69, 70 and 71 note forms (pass 68 is infrastructure and
+outside the vehicles audit), the standing-charge and written-whole cases, and the hold cases.
 
 Run `py -3 New/ai/cost-balancing/wb_distance_check.py` for the distance table. The current run
 reports 1,524 rows with a stated mean (707 multiple units, 758 carriages, 59 trams) and 0
 deviations over 10 per cent.
 
 Re-run each patch script in its default dry-run mode after writing; passes 55, 56, 57, 58, 59,
-60, 61, 62, 63, 64, 65, 66, 67, 68, 69 and 70 each report 0 rows changed. The maintenance workbook
-has no formula error cells.
+60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70 and 71 each report 0 rows changed. The maintenance
+workbook has no formula error cells.
 The capital workbook's `Snippet prices (6521)` sheet contains literal `#0` and `#20` markers, which
 are not formula errors.
 
-Backups of the workbooks before each pass of this session are in `ai/temp/pre-pass66/`,
-`ai/temp/pre-pass67/`, `ai/temp/pre-pass68/`, `ai/temp/pre-pass69/` and `ai/temp/pre-pass70/`.
-The state after pass 68, before the generator test rebuilds, is in `ai/temp/post-pass68/`; the
-state after pass 70 is in `ai/temp/post-pass70/`.
+Backups of the workbooks before each pass of this session are in the workspace-root scratch folder
+`ai/temp/` (not `New/ai/temp/`): `pre-pass66/` to `pre-pass71/`, with `post-pass70/` for the state
+before the first rebuild test and `post-rebuild2/` for the earlier one. The sanity check's outputs
+are in `New/ai/temp/sanity/` and `New/ai/temp/sanity-rebuild/`.
 
 Backups of the workbooks before the first pass of this session are in `ai/temp/pre-pass57/`.
 The pass 62-65 review baselines are `ai/temp/pre-pass62/`, `ai/temp/pre-pass63/`,
@@ -405,8 +427,10 @@ The pass 62-65 review baselines are `ai/temp/pre-pass62/`, `ai/temp/pre-pass63/`
 
 ## Files
 
-The patch scripts for this work are `wb_fv_pass57.py` to `wb_fv_pass70.py` and
-`wb_distance_check.py`, in `New/ai/cost-balancing/`. The class and era distance table is
+The patch scripts for this work are `wb_fv_pass57.py` to `wb_fv_pass71.py` and
+`wb_distance_check.py`, in `New/ai/cost-balancing/`. The independent review is
+`sanity-check-2026-11-25.md` (2 blocking, 7 material, 9 minor, 7 observations; the blocking two
+are `.dat`-pass decisions). The class and era distance table is
 `New/ai/vehicle-cost/mean-annual-distance.md`; its constants are in `evidence_data.py`. The
 research reports 49-57 and their `research-pricing-rows-*.csv` sit beside reports 42-48; report
 56 writes `water-gross-tonnage.csv`, and report 57 writes `water-gross-tonnage-additions.csv`.

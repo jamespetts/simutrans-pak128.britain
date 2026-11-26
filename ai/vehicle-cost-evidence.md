@@ -372,11 +372,12 @@ a tractor price could bind to every trailer variant. Bound measured rows rose fr
   (1928-37) against £390 for a butty. `[LITERATURE: research pass 25; Moses, *Commercial and
   Technical Evolution of the Ferry Industry 1948-1987* (2010), Table 2.7 from TNA AN13/391;
   Wallasey fleet list; Paddle Steamer Preservation Society]`
-- Gross tonnage is not recorded for any pakset water object, and the measured GT-per-capacity
-  relationship is type-dependent (0.80-188.9 gross tons per capacity tonne across 39 vessels;
-  R² 0.08 within 1924-38), so the GT fit cannot be applied directly. The workbook prices
-  passenger vessels per passenger (sea-going, river and estuary anchors) and cargo and inland
-  craft per tonne of capacity. `[CODE New ex-15 @ 33cf9b106; ai/temp/water-capacity.csv]`
+- Gross tonnage was not recorded for any pakset water object when the capacity ladder was built,
+  and the measured GT-per-capacity relationship is type-dependent (0.80-188.9 gross tons per
+  capacity tonne across 39 vessels; R² 0.08 within 1924-38), which is why the earlier workbook
+  priced passenger vessels per passenger and cargo and inland craft per tonne of capacity.
+  Research passes 56 and 57 have since given 177 of the 216 rows a sourced tonnage, and the
+  workbook now prices per gross ton. `[CODE New ex-15 @ 33cf9b106; ai/temp/water-capacity.csv]`
 - Research pass 56 (2026-11-25) shows that the three per-gross-ton rates are the measured
   **capital** prices, not annual repair: 84.1 × GT^0.90 is the report 25 passenger purchase fit
   deflated at the 1931-32 general index (149.7 × 100/178 = 84.06), GBP 17/GT is *Cambria*'s 1906
@@ -393,11 +394,13 @@ a tractor price could bind to every trailer variant. Bound measured rows rose fr
   (*TS King Edward*, 502 GT, £33,000 in 1901) the capacity target reproduced the measured price
   and the per-GT rate is 31 per cent below it, while on a large modern hull (*Spirit of Britain*,
   47,592 GT) the per-GT figure is ten times the capacity figure. The full effect and the tonnage
-  coverage are in [cost-balancing/handoff](../cost-balancing/handoff.md).
-- Cargo is priced at £8.5 per tonne of capacity, the direct per-ton rate from the Fairplay tramp
-  (1900), the 1918 steel barge and *Cambria* (1906). The £149-173 per gross ton of the 1950-53 BR
-  cargo ships is a small-ship rate (925-1,500 GT) and would overprice the pakset's 20,000 t bulk
-  carriers about threefold; it is recorded as the small-ship end, not applied to them.
+  coverage are in [cost-balancing/handoff](cost-balancing/handoff.md).
+- Cargo used to be priced at £8.5 per tonne of capacity, the direct per-ton rate from the Fairplay
+  tramp (1900), the 1918 steel barge and *Cambria* (1906). The £149-173 per gross ton of the
+  1950-53 BR cargo ships is a small-ship rate (925-1,500 GT) and would overprice the pakset's
+  20,000 t bulk carriers about threefold; it is recorded as the small-ship end. The 39 rows with
+  no usable tonnage keep the capacity rule; the cargo rows among them are the only rows still
+  priced at £8.5 a capacity tonne.
 - Aircraft purchase prices are fitted hedonically on 116 measured aircraft, 1936-2015:
   seats^0.867 × engines^0.768 × engine type × wide-body × 1.0111^(year-1959), R² 0.948. The fit
   does not extend to maintenance, where the only evidence is engineering cost per flying hour.
