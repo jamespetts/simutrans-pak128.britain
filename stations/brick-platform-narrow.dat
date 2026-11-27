@@ -1,3 +1,9 @@
+# Stop waiting comfort values added 2026-11-27.
+# Sources: Board of Trade Requirements 1892/1902; Hansard 1889-90, 1940;
+# Quick, Railway Passenger Stations (RCHS 2023); NR/GN/CIV/100/03 (2023);
+# NR/GN/CIV/200/03 (2022); DfT disruption handling (2021); CAA CAP 1258 (2015).
+# Method and full table: New/ai/comfort/stop-waiting.md.
+
 Obj=building
 Name=BrickPlatformTrainStopNarrow
 copyright=Kieron/James
@@ -19,6 +25,10 @@ pier_sub_1_mask=0x1F
 pier_sub_2_mask=0xFFFFFFFF
 
 capacity=0
+# Stop waiting comfort (see New/ai/comfort/stop-waiting.md)
+maximum_comfortable_wait_minutes=10
+maximum_tolerable_wait_minutes=240
+comfort_capacity=0
 maintenance=2500
 cost=140000
 
@@ -82,6 +92,10 @@ allow_underground=0
 maintenance=3400
 cost=250000
 capacity=22
+# Stop waiting comfort (see New/ai/comfort/stop-waiting.md)
+maximum_comfortable_wait_minutes=30
+maximum_tolerable_wait_minutes=360
+comfort_capacity=10
 
 BackImage[0][0][0][0][0][0]=brick-platform-building-narrow.0.1
 BackImage[1][0][0][0][0][0]=brick-platform-building-narrow.0.2
@@ -144,6 +158,10 @@ allow_underground=0
 maintenance=4200
 cost=400000
 capacity=35
+# Stop waiting comfort (see New/ai/comfort/stop-waiting.md)
+maximum_comfortable_wait_minutes=18
+maximum_tolerable_wait_minutes=360
+comfort_capacity=20
 
 BackImage[0][0][0][0][0][0]=brick-platform-overall-narrow.0.1
 BackImage[1][0][0][0][0][0]=brick-platform-overall-narrow.0.2

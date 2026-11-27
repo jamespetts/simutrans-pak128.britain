@@ -1,3 +1,9 @@
+# Stop waiting comfort values added 2026-11-27.
+# Sources: Board of Trade Requirements 1892/1902; Hansard 1889-90, 1940;
+# Quick, Railway Passenger Stations (RCHS 2023); NR/GN/CIV/100/03 (2023);
+# NR/GN/CIV/200/03 (2022); DfT disruption handling (2021); CAA CAP 1258 (2015).
+# Method and full table: New/ai/comfort/stop-waiting.md.
+
 ##################################
 # Harbours for PakBritain
 # James Hood - March 2009
@@ -166,6 +172,10 @@ retire_month=2
 maintenance=15000
 cost=1275000
 capacity=85
+# Stop waiting comfort (see New/ai/comfort/stop-waiting.md)
+maximum_comfortable_wait_minutes=60
+maximum_tolerable_wait_minutes=1440
+comfort_capacity=60
 
 layover_enable=1
 replenish_enable=1
@@ -238,6 +248,10 @@ retire_month=8
 maintenance=15300
 cost=1567500
 capacity=95
+# Stop waiting comfort (see New/ai/comfort/stop-waiting.md)
+maximum_comfortable_wait_minutes=60
+maximum_tolerable_wait_minutes=1200
+comfort_capacity=70
 
 layover_enable=1
 replenish_enable=1
@@ -310,6 +324,10 @@ retire_month=1
 maintenance=16350
 cost=2371875
 capacity=115
+# Stop waiting comfort (see New/ai/comfort/stop-waiting.md)
+maximum_comfortable_wait_minutes=60
+maximum_tolerable_wait_minutes=1080
+comfort_capacity=85
 
 layover_enable=1
 replenish_enable=1
@@ -381,6 +399,10 @@ intro_month=1
 maintenance=24840
 cost=2052000
 capacity=135
+# Stop waiting comfort (see New/ai/comfort/stop-waiting.md)
+maximum_comfortable_wait_minutes=60
+maximum_tolerable_wait_minutes=900
+comfort_capacity=105
 
 layover_enable=1
 replenish_enable=1

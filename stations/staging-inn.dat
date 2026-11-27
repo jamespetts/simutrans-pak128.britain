@@ -1,3 +1,9 @@
+# Stop waiting comfort values added 2026-11-27.
+# Sources: Board of Trade Requirements 1892/1902; Hansard 1889-90, 1940;
+# Quick, Railway Passenger Stations (RCHS 2023); NR/GN/CIV/100/03 (2023);
+# NR/GN/CIV/200/03 (2022); DfT disruption handling (2021); CAA CAP 1258 (2015).
+# Method and full table: New/ai/comfort/stop-waiting.md.
+
 Obj=building
 Name=StagingInn
 # must be 1*1
@@ -15,6 +21,10 @@ Dims=1,1,4
 level=3
 allow_underground=0
 capacity=40
+# Stop waiting comfort (see New/ai/comfort/stop-waiting.md)
+maximum_comfortable_wait_minutes=75
+maximum_tolerable_wait_minutes=1440
+comfort_capacity=30
 cost=70000
 maintenance=450
 
@@ -56,6 +66,10 @@ Dims=1,1,1
 level=3
 allow_underground=0
 capacity=120
+# Stop waiting comfort (see New/ai/comfort/stop-waiting.md)
+maximum_comfortable_wait_minutes=90
+maximum_tolerable_wait_minutes=2160
+comfort_capacity=80
 cost=480000
 maintenance=3200
 

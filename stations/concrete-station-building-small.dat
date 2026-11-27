@@ -1,3 +1,9 @@
+# Stop waiting comfort values added 2026-11-27.
+# Sources: Board of Trade Requirements 1892/1902; Hansard 1889-90, 1940;
+# Quick, Railway Passenger Stations (RCHS 2023); NR/GN/CIV/100/03 (2023);
+# NR/GN/CIV/200/03 (2022); DfT disruption handling (2021); CAA CAP 1258 (2015).
+# Method and full table: New/ai/comfort/stop-waiting.md.
+
 Obj=building
 Name=ConcreteStationBuildingSmall
 copyright=Kieron/James
@@ -30,6 +36,10 @@ pier_sub_2_mask=0x03
 maintenance=8000
 cost=615000
 capacity=60
+# Stop waiting comfort (see New/ai/comfort/stop-waiting.md)
+maximum_comfortable_wait_minutes=30
+maximum_tolerable_wait_minutes=360
+comfort_capacity=30
 
 layover_enable=1
 replenish_enable=0

@@ -1,3 +1,9 @@
+# Stop waiting comfort values added 2026-11-27.
+# Sources: Board of Trade Requirements 1892/1902; Hansard 1889-90, 1940;
+# Quick, Railway Passenger Stations (RCHS 2023); NR/GN/CIV/100/03 (2023);
+# NR/GN/CIV/200/03 (2022); DfT disruption handling (2021); CAA CAP 1258 (2015).
+# Method and full table: New/ai/comfort/stop-waiting.md.
+
 Obj=building
 Name=WoodenPlatformTrainStop
 copyright=Kieron/James
@@ -21,6 +27,10 @@ pier_sub_2_mask=0xFFFFFFFF
 maintenance=4000
 cost=75000
 capacity=0
+# Stop waiting comfort (see New/ai/comfort/stop-waiting.md)
+maximum_comfortable_wait_minutes=10
+maximum_tolerable_wait_minutes=240
+comfort_capacity=0
 
 BackImage[0][0][0][0][0][0]=wooden-platform.1.0
 BackImage[1][0][0][0][0][0]=wooden-platform.0.0
@@ -84,6 +94,10 @@ allow_underground=0
 maintenance=8500
 cost=240000
 capacity=42
+# Stop waiting comfort (see New/ai/comfort/stop-waiting.md)
+maximum_comfortable_wait_minutes=18
+maximum_tolerable_wait_minutes=360
+comfort_capacity=20
 
 BackImage[0][0][0][0][0][0]=wooden-platform-overall.0.1
 BackImage[1][0][0][0][0][0]=wooden-platform-overall.0.2

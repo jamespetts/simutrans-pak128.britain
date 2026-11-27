@@ -1,3 +1,9 @@
+# Stop waiting comfort values added 2026-11-27.
+# Sources: Board of Trade Requirements 1892/1902; Hansard 1889-90, 1940;
+# Quick, Railway Passenger Stations (RCHS 2023); NR/GN/CIV/100/03 (2023);
+# NR/GN/CIV/200/03 (2022); DfT disruption handling (2021); CAA CAP 1258 (2015).
+# Method and full table: New/ai/comfort/stop-waiting.md.
+
 #####################################################
 # Road stops for PakBritain
 # James Hood - March 2009
@@ -23,6 +29,10 @@ Dims=1,1,2
 level=1
 allow_underground=0
 capacity=10
+# Stop waiting comfort (see New/ai/comfort/stop-waiting.md)
+maximum_comfortable_wait_minutes=10
+maximum_tolerable_wait_minutes=120
+comfort_capacity=0
 cost=4000
 maintenance=400
 pier_sub_1_mask=0x1F
@@ -51,6 +61,10 @@ Dims=1,1,2
 level=1
 allow_underground=0
 capacity=12
+# Stop waiting comfort (see New/ai/comfort/stop-waiting.md)
+maximum_comfortable_wait_minutes=10
+maximum_tolerable_wait_minutes=120
+comfort_capacity=0
 cost=8500
 maintenance=1000
 pier_sub_1_mask=0x1F
@@ -86,6 +100,10 @@ Dims=1,1,2
 level=2
 allow_underground=0
 capacity=25
+# Stop waiting comfort (see New/ai/comfort/stop-waiting.md)
+maximum_comfortable_wait_minutes=15
+maximum_tolerable_wait_minutes=240
+comfort_capacity=10
 pier_sub_1_mask=0x1F
 pier_sub_2_mask=0xFFFFFFFF
 BackImage[0][0][0][0][0][0]=old-bus-shelter.0.0
@@ -117,6 +135,10 @@ Dims=1,1,2
 level=2
 allow_underground=0
 capacity=25
+# Stop waiting comfort (see New/ai/comfort/stop-waiting.md)
+maximum_comfortable_wait_minutes=15
+maximum_tolerable_wait_minutes=240
+comfort_capacity=10
 pier_sub_1_mask=0x1F
 pier_sub_2_mask=0xFFFFFFFF
 BackImage[0][0][0][0][0][0]=modern-bus-shelter.0.0
@@ -245,6 +267,10 @@ allow_underground=0
 intro_year=1952
 intro_month=7
 capacity=100
+# Stop waiting comfort (see New/ai/comfort/stop-waiting.md)
+maximum_comfortable_wait_minutes=30
+maximum_tolerable_wait_minutes=360
+comfort_capacity=80
 
 layover_enable=1
 replenish_enable=1
@@ -276,6 +302,10 @@ intro_month=3
 retire_year=1952
 retire_month=7
 capacity=85
+# Stop waiting comfort (see New/ai/comfort/stop-waiting.md)
+maximum_comfortable_wait_minutes=30
+maximum_tolerable_wait_minutes=360
+comfort_capacity=60
 
 layover_enable=1
 replenish_enable=1

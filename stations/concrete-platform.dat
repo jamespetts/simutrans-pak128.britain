@@ -1,3 +1,9 @@
+# Stop waiting comfort values added 2026-11-27.
+# Sources: Board of Trade Requirements 1892/1902; Hansard 1889-90, 1940;
+# Quick, Railway Passenger Stations (RCHS 2023); NR/GN/CIV/100/03 (2023);
+# NR/GN/CIV/200/03 (2022); DfT disruption handling (2021); CAA CAP 1258 (2015).
+# Method and full table: New/ai/comfort/stop-waiting.md.
+
 Obj=building
 Name=ConcretePlatformTrainStop
 copyright=Kieron
@@ -23,6 +29,10 @@ pier_sub_2_mask=0xFFFFFFFF
 maintenance=2250
 cost=250000
 capacity=0
+# Stop waiting comfort (see New/ai/comfort/stop-waiting.md)
+maximum_comfortable_wait_minutes=10
+maximum_tolerable_wait_minutes=240
+comfort_capacity=0
 
 BackImage[0][0][0][0][0][0]=concrete-platform.1.0
 BackImage[1][0][0][0][0][0]=concrete-platform.0.0
@@ -89,6 +99,10 @@ allow_underground=0
 maintenance=3000
 cost=500000
 capacity=31
+# Stop waiting comfort (see New/ai/comfort/stop-waiting.md)
+maximum_comfortable_wait_minutes=30
+maximum_tolerable_wait_minutes=360
+comfort_capacity=15
 
 BackImage[0][0][0][0][0][0]=concrete-platform-building.0.1
 BackImage[1][0][0][0][0][0]=concrete-platform-building.0.2
@@ -155,6 +169,10 @@ allow_underground=0
 maintenance=4800
 cost=800000
 capacity=50
+# Stop waiting comfort (see New/ai/comfort/stop-waiting.md)
+maximum_comfortable_wait_minutes=18
+maximum_tolerable_wait_minutes=360
+comfort_capacity=30
 
 BackImage[0][0][0][0][0][0]=concrete-platform-overall.0.1
 BackImage[1][0][0][0][0][0]=concrete-platform-overall.0.2

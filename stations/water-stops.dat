@@ -1,3 +1,9 @@
+# Stop waiting comfort values added 2026-11-27.
+# Sources: Board of Trade Requirements 1892/1902; Hansard 1889-90, 1940;
+# Quick, Railway Passenger Stations (RCHS 2023); NR/GN/CIV/100/03 (2023);
+# NR/GN/CIV/200/03 (2022); DfT disruption handling (2021); CAA CAP 1258 (2015).
+# Method and full table: New/ai/comfort/stop-waiting.md.
+
 #######################################
 # Water stops for PakBritain
 # James Hood - March 2009
@@ -17,6 +23,10 @@ enables_pax=1
 Dims=1,1,2
 level=1
 allow_underground=0
+# Stop waiting comfort (see New/ai/comfort/stop-waiting.md)
+maximum_comfortable_wait_minutes=10
+maximum_tolerable_wait_minutes=240
+comfort_capacity=0
 BackImage[0][0][0][0][0][0]=old-pax-quay.0.0
 FrontImage[0][0][0][0][0][0]=old-pax-quay.0.1
 BackImage[1][0][0][0][0][0]=old-pax-quay.0.2
@@ -45,6 +55,10 @@ level=1
 allow_underground=0
 pier_sub_1_mask=0x1F
 pier_sub_2_mask=0xFFFFFFFF
+# Stop waiting comfort (see New/ai/comfort/stop-waiting.md)
+maximum_comfortable_wait_minutes=10
+maximum_tolerable_wait_minutes=240
+comfort_capacity=0
 BackImage[0][0][0][0][0][0]=modern-pax-quay.0.0
 FrontImage[0][0][0][0][0][0]=modern-pax-quay.0.1
 BackImage[1][0][0][0][0][0]=modern-pax-quay.0.2

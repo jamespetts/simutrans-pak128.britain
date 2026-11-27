@@ -272,7 +272,9 @@ max_comfortable_journey_overcrowded = 5
 
 # Comfortable waiting time when the comfortable facility capacity is full, in
 # minutes. Overcrowding never changes the maximum tolerable waiting time.
-max_comfortable_wait_overcrowded = 15
+# Set to the open-platform comfort value, so a passenger who cannot get into a
+# shelter or waiting room is treated as waiting in the open.
+max_comfortable_wait_overcrowded = 10
 
 # Walking comfort uses the same penalty curve as vehicle and waiting comfort.
 # A walk of up to the maximum comfortable walking time counts as its actual

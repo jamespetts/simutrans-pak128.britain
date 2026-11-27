@@ -1,3 +1,9 @@
+# Stop waiting comfort values added 2026-11-27.
+# Sources: Board of Trade Requirements 1892/1902; Hansard 1889-90, 1940;
+# Quick, Railway Passenger Stations (RCHS 2023); NR/GN/CIV/100/03 (2023);
+# NR/GN/CIV/200/03 (2022); DfT disruption handling (2021); CAA CAP 1258 (2015).
+# Method and full table: New/ai/comfort/stop-waiting.md.
+
 Obj=building
 Name=OldBusShelterWmail1852
 # must be 1*1
@@ -18,6 +24,10 @@ Dims=1,1,2
 level=3
 allow_underground=0
 capacity=25
+# Stop waiting comfort (see New/ai/comfort/stop-waiting.md)
+maximum_comfortable_wait_minutes=15
+maximum_tolerable_wait_minutes=240
+comfort_capacity=10
 pier_sub_1_mask=0x1F
 pier_sub_2_mask=0xFFFFFFFF
 BackImage[0][0][0][0][0][0]=old-bus-shelterWMail.2.0
@@ -52,6 +62,10 @@ Dims=1,1,2
 level=3
 allow_underground=0
 capacity=25
+# Stop waiting comfort (see New/ai/comfort/stop-waiting.md)
+maximum_comfortable_wait_minutes=15
+maximum_tolerable_wait_minutes=240
+comfort_capacity=10
 pier_sub_1_mask=0x1F
 pier_sub_2_mask=0xFFFFFFFF
 BackImage[0][0][0][0][0][0]=old-bus-shelterWMail.0.0

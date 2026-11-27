@@ -1,3 +1,9 @@
+# Stop waiting comfort values added 2026-11-27.
+# Sources: Board of Trade Requirements 1892/1902; Hansard 1889-90, 1940;
+# Quick, Railway Passenger Stations (RCHS 2023); NR/GN/CIV/100/03 (2023);
+# NR/GN/CIV/200/03 (2022); DfT disruption handling (2021); CAA CAP 1258 (2015).
+# Method and full table: New/ai/comfort/stop-waiting.md.
+
 Obj=building
 Name=DecoTerminalBuildingEntrance
 copyright=James
@@ -31,6 +37,10 @@ class_proportion_jobs[4]=0
 maintenance=20400
 cost=2090000
 capacity=95
+# Stop waiting comfort (see New/ai/comfort/stop-waiting.md)
+maximum_comfortable_wait_minutes=60
+maximum_tolerable_wait_minutes=720
+comfort_capacity=20
 
 layover_enable=1
 replenish_enable=0
@@ -85,6 +95,10 @@ class_proportion_jobs[4]=0
 maintenance=45000
 cost=4500000
 capacity=95
+# Stop waiting comfort (see New/ai/comfort/stop-waiting.md)
+maximum_comfortable_wait_minutes=60
+maximum_tolerable_wait_minutes=720
+comfort_capacity=90
 
 layover_enable=1
 replenish_enable=0
@@ -134,6 +148,10 @@ class_proportion_jobs[4]=0
 maintenance=10200
 cost=1045000
 capacity=95
+# Stop waiting comfort (see New/ai/comfort/stop-waiting.md)
+maximum_comfortable_wait_minutes=30
+maximum_tolerable_wait_minutes=480
+comfort_capacity=20
 
 layover_enable=1
 replenish_enable=0
