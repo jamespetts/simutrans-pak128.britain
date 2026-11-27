@@ -19,16 +19,15 @@ the remaining-work list below.
    It is a decision for the engine repository, not the pakset, and it must be settled before the
    `.dat` pass writes those 19 rows.
 
-2. **The negative way-only cost is evidence of a fundamental failure, not a local anomaly.**
-   Eight way rows have a suggested total below the forge charge, so the way-only value is negative
-   (a bridleway is 289,767 below zero). A way cost plus a forge cost cannot be negative in any
-   coherent decomposition. The user's direction is that this points to a potentially fundamental
-   problem with the **entire** decomposition, not an anomaly in eight rows. **Do not raise the
-   total, zero the forge, or record those rows as forge-dominated.** The next session must
-   commission a research subagent to audit the whole way/forge decomposition and find the
-   fundamental cause: what the measured rates include, what the forge charge represents, the
-   per-km, per-tile and 125 m chain, and whether the whole split is misconceived. No local fix is
-   to be applied until that audit reports.
+2. **The negative way-only cost is evidence of a fundamental failure, not a local anomaly.
+   Closed 2026-11-27: see "Way cost audit and passes 72-73" below.** Eight way rows had a suggested
+   total below the forge charge, so the way-only value was negative (a bridleway was 289,767 below
+   zero). A way cost plus a forge cost cannot be negative in any coherent decomposition. The user's
+   direction was that this points to a potentially fundamental problem with the **entire**
+   decomposition, not an anomaly in eight rows. **Do not raise the total, zero the forge, or record
+   those rows as forge-dominated.** The session of 2026-11-27 commissioned the research subagent,
+   audited the whole way/forge decomposition and applied the audit; the direction below is retained
+   as the record of why. No local fix was applied before the audit reported.
 
    This repeats a standing rule the work already carried and did not apply. A local anomaly that
    is evidence of a more fundamental failure must never be accepted, papered over or turned into a
@@ -45,6 +44,30 @@ the remaining-work list below.
    phrases "bridge-substructure pier objects" and "the deck and track are carried by the way
    object" should be reworded to the support-structure description at the next workbook pass.
 
+## Way cost audit and passes 72-73 (2026-11-27)
+
+The audit that item 2 required is [way-cost-audit-2026-11-26](way-cost-audit-2026-11-26.md); the
+road and air research it commissioned is [research-pricing-report-58](research-pricing-report-58.md).
+
+- **Pass 72** (`wb_fv_pass72.py`): `forge_cost_water` set to 0 in the workbooks and the generator,
+  and in both `simuconf.tab` copies (source and live runtime); the four wrong water measured binds
+  rejected; the 17 elevated maintenance rows corrected from the bridge **capital** to the measured
+  Cudworth bridge upkeep plus the plain-way upkeep. For example the brick viaduct elevated track is
+  now GBP56.67 per km-year (596 raw) instead of GBP107,506.67 (1,130,285 raw).
+- **Pass 73** (`wb_fv_pass73.py`): road forge 20,000 raw (GBP79.26/km), air forge 110,000 raw
+  (GBP435.94/km), the cobblestone capital corrected from the 1819 turnpike average to the sett band
+  midpoint GBP6,000/km, and per-object routine maintenance. Concrete is 0.25 per cent of its own
+  capital against asphalt 0.50, so the concrete road is GBP59 against the asphalt's GBP79; the
+  concrete runway is GBP246 against the asphalt's GBP114 because the concrete runway's class capital
+  is 4.33 times the asphalt's, which the research shows is a PCN/width/pavement-box artefact, not a
+  material premium. The measured-side binds on the concrete and asphalt runways are rejected.
+- No `.dat` `cost=` or `maintenance=` was changed.
+- **Outstanding**: `forge_cost_road` and `forge_cost_air` in `simuconf.tab` remain 315,000 and
+  1,875,000; the workbooks and generator carry 20,000 and 110,000. The negative way-only finding B2
+  is resolved for road, air and water; the 41 lb tramway measured-side bind remains for the tram
+  pass. The rail/narrow gauge scope addition, the tram double count, the rail and water maintenance
+  double deflation, the concrete runway capital comparison, the motorway lane/carriageway question,
+  the air deflators and the HRA/SMA shared class capital are listed in the audit report.
 
 ## What this is
 

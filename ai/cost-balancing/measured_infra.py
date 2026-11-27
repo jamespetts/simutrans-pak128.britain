@@ -23,7 +23,8 @@ import math
 import os
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-BASE = os.path.dirname(os.path.dirname(HERE))
+# HERE is <workspace>/New/ai/cost-balancing; the workspace root is three levels up.
+BASE = os.path.dirname(os.path.dirname(os.path.dirname(HERE)))
 FEATURES = os.path.join(HERE, 'infrastructure-features.csv')
 PRICES = os.path.join(BASE, 'New', 'config', 'prices.tab')
 OUT = os.path.join(HERE, 'measured-infrastructure.csv')
@@ -91,7 +92,9 @@ WAY_KM = {
     'canal large':  (272000.0, 1900),
     # full road construction, so every surface has a rate
     'dirt':         (100.0, 1900),    # formation only, low end of the 50-250/km bed band
-    'cobble':       (174.0, 1819),    # no separate cobble rate: a made road of the turnpike era
+    # A sett carriageway, not the 1819 turnpike network average. Measured band GBP3,400-8,000/km,
+    # working band GBP5,000-7,000; midpoint GBP6,000. Road and air research 2026-11-27 section 2.2.
+    'cobble':       (6000.0, 1900),
     'urban road':   (1610000.0, 2011),   # HS2 urban GBP 230/m2 x 7 m carriageway
     'major road':   (1449000.0, 2011),   # HS2 major GBP 207/m2 x 7 m carriageway
     'elevated':     (21000000.0, 2005),  # DLR City Airport viaduct 19-24m/km, midpoint
@@ -272,8 +275,10 @@ def way_rate(row):
                                   'measured 50-250 GBP/km road-bed band')
         if 'cobble' in nm:
             v, y = WAY_KM['cobble']
-            return to1900(v, y), ('no separate cobble rate; a made road of the turnpike era, '
-                                  'GBP 280/mile 1819')
+            return to1900(v, y), ('sett carriageway GBP3,400-8,000/km measured, working band '
+                                  'GBP5,000-7,000; midpoint GBP6,000. The previous GBP123/km was '
+                                  'the 1819 turnpike network average, not a sett rate. Road and '
+                                  'air research 2026-11-27 section 2.2.')
         if 'macadam' in nm or 'improved' in nm:
             v, y = WAY_KM['macadam']
             return to1900(v, y), '1820s Telford/McAdam, GBP 1,200-2,400 a mile nominal'
@@ -341,7 +346,7 @@ def way_rate(row):
     return None, 'no measured rate for this way type'
 
 
-def bridge_rate(row):
+def bridge_material(row):
     mat = (row.get('material') or '').lower()
     nm = row['name'].lower()
     if not mat:
@@ -349,6 +354,28 @@ def bridge_rate(row):
             if k in nm:
                 mat = {'masonry': 'stone', 'wood': 'timber'}.get(k, k)
                 break
+    return mat
+
+
+def bridge_upkeep(row):
+    """(GBP per metre-year, material, note) from the measured 1886 bridge upkeep rates.
+
+    Cudworth 1886, via New/ai/infrastructure-cost-evidence.md section 4: iron 0.23-0.25,
+    brick 0.05, stone 0.04-0.05, steel 0.27-0.32, timber 0.52-0.55 GBP/m-year. Timber deck
+    renewal is separate. There is no measured concrete rate; the brick rate is used as the
+    proxy and the note says so.
+    """
+    mat = bridge_material(row)
+    rate = {'iron': 0.24, 'brick': 0.05, 'stone': 0.045, 'steel': 0.30,
+            'timber': 0.53, 'concrete': 0.05}.get(mat)
+    if rate is None:
+        return None, mat or 'unstated', 'no measured upkeep rate for this material'
+    note = '' if mat != 'concrete' else ' (no measured concrete rate; brick used)'
+    return rate, mat, note
+
+
+def bridge_rate(row):
+    mat = bridge_material(row)
     if mat == 'timber':
         return 48000.0, ('no measured timber viaduct rate; the iron trestle lower bound of '
                          'GBP 48/m is used as the nearest measured structure')
@@ -737,35 +764,38 @@ def maintenance(row):
             return None, None
         else:
             per_km, y = 44.0, 1966
-        total = to1900(per_km, y) / 8.0
-        basis = 'way upkeep GBP %0.1f a tile-year at 1900 (GBP %0.0f/km-year nominal %d)' % (
+        # Per kilometre-year, matching the workbook's "Class fixed (GBP/yr)" column. The earlier
+        # version divided by 8 and then relied on a manual x8 correction in the workbook; the
+        # generator could not reproduce it. The unit is now correct at source.
+        total = to1900(per_km, y)
+        basis = 'way upkeep GBP %0.1f a km-year at 1900 (GBP %0.0f/km-year nominal %d)' % (
             total, per_km, y)
         if water:
             basis += (' | canal upkeep only: canal ways carry no wear and are not renewed, so '
                       'this carries no renewal element (decision 2026-11-24)')
         if (row.get('elevated') or '').lower() == 'yes':
-            b, bbasis = bridge_rate(row)
-            if b is None:
+            # The elevated structure is maintained at the measured bridge UPKEEP rate, not at its
+            # capital. The previous version called bridge_rate(), which returns capital in GBP/km,
+            # and added it to the annual charge; that made upkeep about 100 per cent of capital a
+            # year. The ground/bed preparation is a capital item in the forge, which is retained;
+            # the plain-way upkeep above covers the bed's routine upkeep.
+            rate, mat, note = bridge_upkeep(row)
+            if rate is None:
                 return None, None
-            total += b / 8.0
-            basis += ' | plus elevated structure at ' + bbasis
+            total += rate * 1000.0
+            basis += (' | plus elevated structure upkeep at %0.3f GBP/m-year (%s)%s, GBP%0.0f '
+                      'per km-year; no separate measured ground-levelling upkeep exists, and the '
+                      'ground preparation is the forge capital item'
+                      % (rate, mat, note, rate * 1000.0))
         return total, basis
     if t == 'bridge':
         # Measured upkeep per metre-year, 1886 prices: iron GBP 0.23-0.25 (two NER structures,
         # 18-year means), brick GBP 0.05 (Hownes Gill), stone GBP 0.04-0.05 (inferred),
         # steel GBP 0.27-0.32 (inferred from painting intervals), timber GBP 0.52-0.55 renewal.
         # A bridge tile is 125 m of geographic length.
-        mat = (row.get('material') or '').lower()
-        if not mat:
-            for k in ('iron', 'steel', 'stone', 'masonry', 'brick', 'concrete', 'timber', 'wood'):
-                if k in nm:
-                    mat = {'masonry': 'stone', 'wood': 'timber'}.get(k, k)
-                    break
-        rate = {'iron': 0.24, 'brick': 0.05, 'stone': 0.045, 'steel': 0.30,
-                'timber': 0.53, 'concrete': 0.05}.get(mat)
+        rate, mat, note = bridge_upkeep(row)
         if rate is None:
             return None, None
-        note = '' if mat != 'concrete' else ' (no measured concrete rate; brick used)'
         return rate * 125.0, (
             'bridge upkeep %0.3f GBP/m-year at 1886 prices%s over %d m of tile'
             % (rate, note, 125))

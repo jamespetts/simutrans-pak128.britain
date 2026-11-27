@@ -2280,11 +2280,23 @@ def extrapolation(cls, name, dat, gbp_per_dat=0.00396311, intro=None):
     # maintenance is withheld pending a measured series.
     # Annual real maintenance per km = .dat x 0.00792622 x 12 (the monthly figure already
     # includes the engine's x2 monthly adjustment).
-    if cls not in ('tunnels', 'stops-stations/piers'):
+    # The synthesis value is per object and must override the measured waytype rate for plain
+    # ways: measured_infra.maintenance() returns one rate per waytype (one road rate, one rail
+    # rate, and the rail rate as the fallback for air and power), so a setdefault here would keep
+    # that coarse rate and silently discard the per-object value. That is why every road surface
+    # and every air surface carried the same maintenance target, and why the concrete/asphalt
+    # differential disappeared. The override must NOT reach the elevated ways or the bridges:
+    # their measured Cudworth upkeep rate is already per object, and the synthesis's old 2-per-cent
+    # absolute values would replace it (for example the concrete elevated track at 3,994.8 instead
+    # of the measured 56.67). The measured rate remains the fallback where no per-object synthesis
+    # value exists.
+    elevated_way = 'elevated structure upkeep' in ((mv or {}).get('maint_basis') or '')
+    is_bridge = str(cls or '').startswith('bridge')
+    if cls not in ('tunnels', 'stops-stations/piers') and not elevated_way and not is_bridge:
         rec = synth_recommendations().get(name)
         if rec and rec.get('rec_maint'):
-            x.setdefault('maint_gbp_yr', round(rec['rec_maint'] * 0.00792622 * 12, 1))
-            x.setdefault('maint_year', 1900)
+            x['maint_gbp_yr'] = round(rec['rec_maint'] * 0.00792622 * 12, 1)
+            x['maint_year'] = 1900
             x['basis'] = (x.get('basis', '') + ' | maintenance: ' +
                           rec.get('note', 'infrastructure-cost-synthesis.md')).strip(' |')
     if cls and str(cls).endswith('vehicles') and x:

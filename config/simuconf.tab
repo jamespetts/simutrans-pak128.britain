@@ -889,7 +889,7 @@ cost_multiply_headquarter=10000
 
 forge_cost_road = 315000
 forge_cost_track = 88000
-forge_cost_water = 125000
+forge_cost_water = 0
 forge_cost_monorail = 108000
 forge_cost_maglev = 108000
 forge_cost_tram = 225000

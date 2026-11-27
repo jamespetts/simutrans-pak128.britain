@@ -368,10 +368,27 @@ FORGE_KEY = {
 
 def forge_for(row):
     """Forge (formation) charge per tile for a plain way; 0 for everything else.
-    Bridges, tunnels, piers and way objects do not pay it (wegbauer/tunnel_builder)."""
+    Bridges, tunnels, piers and way objects do not pay it (wegbauer/tunnel_builder).
+
+    Water is zero by the decision of 2026-11-24: for a canal the forging is the building and
+    there is no separate formation, so the whole channel construction is in the way object.
+    The simuconf.tab setting was changed to 0 on 2026-11-27 in both the source and the live
+    runtime copy; this override keeps the workbook aligned with it.
+    """
     if pick(row, 'obj_type', 'obj', 'type') != 'way':
         return 0
     wt = (pick(row, 'waytype') or '').lower()
+    if wt == 'water':
+        return 0
+    if wt == 'road':
+        # Road and air research 2026-11-27 section 4: the bed of an unsurfaced track of
+        # bridleway width, GBP79.26/km, the only per-waytype value no greater than the cheapest
+        # road. The simuconf.tab setting is still 315,000; this override follows the research.
+        return 20000
+    if wt == 'air':
+        # Road and air research 2026-11-27 section 6: 76 per cent of the grass taxiway's whole
+        # construction, GBP435.94/km. The simuconf.tab setting is still 1,875,000.
+        return 110000
     return FORGE.get(FORGE_KEY.get(wt, ''), 0)
 
 # ---------------------------------------------------------------- sheet helpers
@@ -429,18 +446,41 @@ def write_params_sheet(wb):
     # Forge (formation) charges: read from simuconf.tab; shown here for reference.
     rec = {
         'track': '76,000-101,000', 'narrowgauge': '76,000-114,000', 'road': '250,000-380,000',
-        'tram': '150,000-300,000', 'water': '300,000-450,000, or 125,000', 'air': '1,500,000-2,250,000',
-        'monorail': '90,000-125,000', 'maglev': '90,000-125,000',
+        'tram': '150,000-300,000', 'water': '0 (decision 2026-11-24; whole construction in the way object)',
+        'air': '1,500,000-2,250,000', 'monorail': '90,000-125,000', 'maglev': '90,000-125,000',
     }
     r = len(PARAM_ROWS) + 2
     for key in ('track', 'road', 'water', 'tram', 'narrowgauge', 'maglev', 'monorail', 'air'):
         if key in FORGE:
             ws.cell(r, 1, 'FORGE_' + key.upper()).font = LABEL_FONT
-            ws.cell(r, 2, FORGE[key])
-            ws.cell(r, 3, 'forge_cost_%s in simuconf.tab: formation charge per tile, before the '
-                          'infrastructure index. Charged on plain and elevated ways; bridges, tunnels, '
-                          'piers and way objects do not pay it. Synthesis recommendation: %s.'
-                          % (key, rec.get(key, '-'))).alignment = WRAP
+            if key == 'water':
+                value = 0
+                note = ('forge_cost_water: 0 per the user direction of 2026-11-27 and the recorded '
+                        'decision of 2026-11-24. For a canal the forging is the building and there '
+                        'is no separate formation, so the whole construction is in the way object. '
+                        'The simuconf.tab setting was changed to 0 on 2026-11-27 in both the source '
+                        'and the live runtime copy.')
+            elif key == 'road':
+                value = 20000
+                note = ('forge_cost_road: 20,000 raw = GBP79.26/km, the road and air research '
+                        'recommendation of 2026-11-27: the bed of an unsurfaced track of bridleway '
+                        'width, 79 per cent of the bridleway and 72 per cent of Telford\'s measured '
+                        'bed-preparation rate. The live simuconf.tab setting is still 315,000; its '
+                        'change is outstanding.')
+            elif key == 'air':
+                value = 110000
+                note = ('forge_cost_air: 110,000 raw = GBP435.94/km, the road and air research '
+                        'recommendation of 2026-11-27: 76 per cent of the grass taxiway, the '
+                        'formation share of a grass strip. The live simuconf.tab setting is still '
+                        '1,875,000; its change is outstanding.')
+            else:
+                value = FORGE[key]
+                note = ('forge_cost_%s in simuconf.tab: formation charge per tile, before the '
+                        'infrastructure index. Charged on plain and elevated ways; bridges, tunnels, '
+                        'piers and way objects do not pay it. Synthesis recommendation: %s.'
+                        % (key, rec.get(key, '-')))
+            ws.cell(r, 2, value)
+            ws.cell(r, 3, note).alignment = WRAP
             r += 1
     ws.column_dimensions['A'].width = 30
     ws.column_dimensions['B'].width = 12
@@ -746,7 +786,9 @@ def fill_cap_row(ws, r, row, prows, ev, en):
         dat = None          # upkeep setting, not a capital cost
     forge = forge_for(row)
     ws.cell(r, 10, dat if dat is not None else '')
-    ws.cell(r, 11, forge if forge else '')
+    # Write 0 as 0, not blank: water is deliberately zero by the 2026-11-24 decision, and a blank
+    # would read as "no forge" rather than "forge set to zero".
+    ws.cell(r, 11, forge if forge is not None else '')
     ws.cell(r, 12, '=IF(ISNUMBER({d}{r}),{d}{r}*Params!{fac},"")'.format(
         d=L['dat'], r=r, fac=fam.cap_cell))
     ws.cell(r, 13, '=IF(ISNUMBER({d}{r}),({d}{r}+N({f}{r}))*Params!{fac},"")'.format(
@@ -828,9 +870,16 @@ def fill_maint_row(ws, r, row, prows, ev, en):
     ws.cell(r, 15, '=IFERROR(IF(AND(ISNUMBER({km}{r}),ISNUMBER(P{r})),{km}{r}*P{r}/100,""),"")'.format(
         km=L['km_sc'], r=r))
 
+    # measured_infra.maintenance() now returns way upkeep per kilometre-year, matching the
+    # workbook column, so a way needs no correction. The bridge branch still returns per
+    # tile-year, so bridge rows keep the x8 correction until their own unit pass.
+    obj_type = pick(row, 'obj_type', 'obj', 'type')
+    way_scale = 8.0 if obj_type == 'bridge' else 1.0
     m = ev.match(prows, cls, base)
     if m:
-        ws.cell(r, 17, m.get('maint_gbp_yr'))
+        ws.cell(r, 17, (m.get('maint_gbp_yr') * way_scale
+                        if isinstance(m.get('maint_gbp_yr'), (int, float))
+                        else m.get('maint_gbp_yr')))
         ws.cell(r, 18, m.get('maint_year'))
         ws.cell(r, 22, m.get('perkm_gbp'))
         ws.cell(r, 23, m.get('perkm_year'))
@@ -845,7 +894,9 @@ def fill_maint_row(ws, r, row, prows, ev, en):
 
     x = ev.extrapolation(cls, base, None, fam.m_num * RATE_CAPITAL, intro_year(row) or None)
     if x:
-        ws.cell(r, 27, x.get('maint_gbp_yr'))
+        ws.cell(r, 27, (x.get('maint_gbp_yr') * way_scale
+                        if isinstance(x.get('maint_gbp_yr'), (int, float))
+                        else x.get('maint_gbp_yr')))
         ws.cell(r, 28, x.get('maint_year'))
         ws.cell(r, 29, x.get('perkm_gbp'))
         ws.cell(r, 30, x.get('perkm_year'))
