@@ -2112,6 +2112,58 @@ CATEGORY_07
 farm products
 hydrogene
 maglev
+#_________________________________staff types_________________________________
+# The engine composes "Staff type N" for the staff-wage chart column and looks
+# up "staff_type_N_description" for its tooltip. Types are defined in
+# config/staff.tab. Every entry is a two-line pair; no blank lines.
+Staff type 0
+Train driver
+Staff type 1
+Locomotive fireman
+Staff type 2
+Train guard
+Staff type 3
+Carriage attendant
+Staff type 4
+General labourer
+Staff type 5
+Tram/bus driver
+Staff type 6
+Tram/bus conductor
+Staff type 7
+Ship's officer
+Staff type 8
+Ship's ratings
+Staff type 9
+Ship's catering staff
+Staff type 10
+Flight crew
+Staff type 11
+Cabin crew
+staff_type_0_description
+Driver of a locomotive, railcar or multiple unit.
+staff_type_1_description
+Fires steam locomotives.
+staff_type_2_description
+Guard responsible for the safe working of the train; travels in the brake carriage, brake van or designated guard's car.
+staff_type_3_description
+Catering, buffet and Pullman car attendants, and travelling post office staff.
+staff_type_4_description
+General manual worker employed on construction, maintenance and general handling work.
+staff_type_5_description
+Driver of a bus, tram, lorry, van or similar vehicle.
+staff_type_6_description
+Conductor on a bus or tram.
+staff_type_7_description
+Master, mates, engineers and radio officers on boats, ships and hovercraft.
+staff_type_8_description
+The ship's non-officer crew: bosun, carpenter, seamen, stokers, firemen, greasers and deckhands.
+staff_type_9_description
+Cooks, stewards, pursers and hotel-services staff on boats and ships.
+staff_type_10_description
+Pilots, flight engineers, navigators and radio officers on aircraft.
+staff_type_11_description
+Cabin crew on passenger aircraft.
 #___________________________________way-signs____________________________________
 #___________________________________way-signs____________________________________
 tvm-stop-board-maglev
