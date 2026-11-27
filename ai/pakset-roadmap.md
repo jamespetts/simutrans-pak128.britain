@@ -170,6 +170,13 @@ for new engine features.
   [graphics/anglia-sources](graphics/anglia-sources.md).
   `[USER-DIRECTION:2026-11-15]` `[EXECUTION-VERIFIED:2026-11-15]`
 
+- Stop waiting comfort: the ex-15 fields `maximum_comfortable_wait_minutes`,
+  `maximum_tolerable_wait_minutes` and `comfort_capacity` added to the 51 passenger-enabled
+  buildings in `New/stations/`, calibrated to maximum tolerated waiting. Method, per-object
+  values and evidence: [comfort/stop-waiting](comfort/stop-waiting.md) and
+  [comfort/stop-waiting-evidence](comfort/stop-waiting-evidence.md).
+  `[CODE New ex-15, working tree 2026-11-27]` `[EXECUTION-VERIFIED:2026-11-27]`
+
 ## Open questions
 
 - What other work items should be entered, and in what order?

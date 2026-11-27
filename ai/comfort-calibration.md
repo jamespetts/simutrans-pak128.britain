@@ -1,14 +1,16 @@
 ---
 status: draft
-verified: none
+verified: New ex-15 @ f60346f99 (working tree), 2026-11-27
 ---
 # Comfort calibration
 
-**Covers**: how passenger comfort is calibrated across every vehicle type: what the numbers
-mean, the anchor vehicles, the line that relates maximum comfortable and maximum tolerable
-journey times, the method per vehicle type, and the register of calibrated vehicles.
+**Covers**: how passenger comfort is calibrated for vehicles and for waiting at stops: what the
+numbers mean, the anchor vehicles, the line that relates maximum comfortable and maximum tolerable
+journey times, the method per vehicle type, the stop waiting method, and the register of calibrated
+vehicles.
 Children: [private cars](comfort/private-cars.md), [player vehicles](comfort/player-vehicles.md)
-(rail, road, air and sea), and the [register](comfort/comfort-table.md).
+(rail, road, air and sea), [stop waiting](comfort/stop-waiting.md), and the
+[register](comfort/comfort-table.md).
 
 ## What the number means
 
@@ -56,6 +58,8 @@ evidence is in the private-car audit of that date.
 - [Private cars](comfort/private-cars.md) — citycars, including motorcycle outfits.
 - [Player vehicles](comfort/player-vehicles.md) — rail, road, air and sea; the old rating and
   the migration to explicit times.
+- [Stop waiting](comfort/stop-waiting.md) — the three waiting-comfort fields on passenger
+  buildings, the maximum-tolerance method and the per-object values.
 - [Register](comfort/comfort-table.md) — every calibrated vehicle, with intro and retire years
   and the reason for its values.
 

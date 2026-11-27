@@ -60,7 +60,7 @@ do not use line-number references to files that change. Never edit a document's 
 - [infrastructure-cost-evidence](infrastructure-cost-evidence.md) — read before rebalancing any infrastructure object, or when a measured historical cost is needed: the evidence behind the cost recommendations, by domain, with sources.
 - [infrastructure-cost-synthesis](infrastructure-cost-synthesis.md) — read when deciding what an infrastructure object should cost: the scaling map, the cross-cutting maintenance finding, current against recommended values, and the decisions taken or outstanding.
 - [class](class.md) — read when touching passenger or mail classes, accommodation, comfort, catering, or fare-dependent revenue; keyed from [balancing](balancing.md).
-- [comfort-calibration](comfort-calibration.md) — read before setting or changing any comfort value: what the number means, the anchors, the line, the per-type methods and the register of calibrated vehicles.
+- [comfort-calibration](comfort-calibration.md) — read before setting or changing any comfort value: what the number means, the anchors, the line, the per-type methods, stop waiting comfort and the register of calibrated vehicles.
 
 ## Build, data & infrastructure
 

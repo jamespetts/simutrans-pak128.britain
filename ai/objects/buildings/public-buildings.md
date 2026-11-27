@@ -15,6 +15,9 @@ harbours, and headquarters.
   `hq`. `[CODE New master @ e36ec2321]`
 - Source folders include `New/stations/`, `New/depots/`, `New/signalboxes/`, `New/attractions/`,
   and `New/hq/`. `[CODE New master @ e36ec2321]`
+- Passenger-enabled stop and station-extension buildings carry the waiting-comfort fields
+  `maximum_comfortable_wait_minutes`, `maximum_tolerable_wait_minutes` and `comfort_capacity`.
+  Method, values and evidence: [stop-waiting](../../comfort/stop-waiting.md).
 
 ## Planned sections
 

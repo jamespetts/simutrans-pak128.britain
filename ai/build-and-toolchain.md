@@ -43,6 +43,16 @@ verified: New master @ 92c7b701c
   ../../New/makeobj-extended pak128 <out.pak> *.dat'`); PowerShell quoting of a Git Bash
   invocation proved unreliable (2026-11-15).
   `[CODE New ex-15 @ 0ba8d7fc6]` `[USER-DIRECTION:2026-11-15]`
+- **Verify a new building field by compiling, not by searching the binary.** On 2026-11-27 the
+  checked-in `makeobj-extended` (23 November 2026) silently dropped the new stop waiting fields
+  even though the key strings were present in the executable. A makeobj rebuilt from the current
+  ex-15 source wrote them. Compile a two-object test pak with and without the field and compare
+  the building node size or bytes; the field is present only if the node grows by the field's
+  width. Searching the executable for the key name does not prove that the writer supports it.
+  The rebuilt binary is dynamically linked against MSYS2's `libpng16-16.dll` and `libstdc++-6.dll`;
+  run the build with `C:\msys64\mingw64\bin` on `PATH`. A static relink was attempted and failed
+  on the MSYS2 zlib link order, so the dynamic binary is the working build.
+  `[CODE New ex-15 @ f60346f99 (working tree), 2026-11-27]`
 - **Folder argument separator.** A whole folder can be compiled directly from PowerShell with
   `.\makeobj-extended PAK128 pak128.Britain-Ex/citycars.pak citycars/` from `New/`. The source
   folder must end in a **forward slash**. Two wrong forms both fail without a useful message: a

@@ -17,6 +17,8 @@ verified: none
   (`cur`, `mon`), `New/citybuildings/` (`res`, `com`, `ind`), `New/signalboxes/` (signalbox),
   `New/townhall/` (`tow`), `New/hq/` (`hq`), and `New/piers/` (piers, a separate object type).
   `[CODE New master @ e36ec2321]`
+- Passenger-enabled stop and station-extension buildings carry waiting-comfort fields; see
+  [stop-waiting](../comfort/stop-waiting.md).
 
 ## Child docs
 

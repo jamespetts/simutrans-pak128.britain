@@ -84,6 +84,8 @@ catering and travelling post offices modify revenue.
 - The discomfort penalty is calibrated higher than the luxury bonus:
   `max_discomfort_penalty_differential = 220` with `max_discomfort_penalty_percent = 25`.
   `[CODE New master @ eff439751]`
+- Waiting comfort at stops is a separate application of the same curve, with per-building
+  comfortable and tolerable waiting times; see [stop-waiting](comfort/stop-waiting.md).
 
 ## Catering and travelling post offices
 

@@ -1,6 +1,6 @@
 ---
 status: draft
-verified: New ex-15 @ cedd39abc (working tree, 2026-11-23)
+verified: New ex-15 @ f60346f99 (working tree, 2026-11-27)
 ---
 # Calibration sources
 
@@ -62,11 +62,16 @@ from observed values.
 | Vehicle maintenance | Repair and servicing prices | ONS RPI DOCT; CPI maintenance and repair components; wage and parts indices | 1987-2026; earlier under research | `vehicle maintenance` (planned) |
 | Car access | Share of households with a car or van, by income quintile | National Travel Survey table NTS0703, "Household car availability by household income quintile: England, 2002 onwards" (DfT, NTS 2025 release, 10 September 2026), value = 100 minus the "no car or van" percentage; the general Great Britain vehicle-availability series in DfT Transport Statistics Great Britain 2008, section 9, is the anchor for the 1951-2001 rows, which are extrapolations, not measurements | 2002-2025 measured; 1951-2001 extrapolated; 2030 and 2050 projected by a logarithmic continuation of the 2002-2025 trend, with the three highest classes held at their 2025 equality | `privatecar.tab` |
 | Freight | Rail freight revenue per ton-mile | Canal Acts and Acworth 1905 (pre-1845); Cmd. 525 (1920) and HANSARD charge changes (1913-1923); Ministry of Transport monthly Railway Statistics via NBER (1920-1931); Annual Abstract of Statistics (1938-1951); BR Facts and Figures and GERS yearbooks RH087/RH062/RH071 (1948-1977); Serpell 1982 (real, cross-check); ORR Table 1310 and nominal freight income (1982-2026) | 1750-2050 | `goods rate` (implemented) |
+| Stop waiting comfort | Maximum comfortable and tolerable waiting time, and comfortable waiting capacity, at passenger stops and station buildings | Board of Trade, *Requirements ... in regard to the Opening of Railways* (1892/1902); Hansard 1889-90, 1940 and 1957; Quick, *Railway Passenger Stations in Great Britain* (RCHS 2023); Network Rail NR/GN/CIV/100/03 (2023) and NR/GN/CIV/200/03 (2022); DfT, *Rail Passenger Experience of Disruption Handling* (2021); CAA CAP 1258 (2015); Heathrow Winter Resilience Enquiry (2011); TRB TRR 817 (1981); IATA ADRM; Fan et al. (2016); Arhin et al. (2019); Shore (1898); Woodforde diaries; Harper (1903); Watson (1917); Place (1990) | 1700-2026 | `maximum_comfortable_wait_minutes`, `maximum_tolerable_wait_minutes` and `comfort_capacity` in `New/stations/*.dat` |
 
 The general index measures consumer prices. Land, construction and vehicles are assets or
 investment goods whose real prices can diverge from consumer prices by a large factor. The
 registry exists so that each price type is tied to the series that measures that type, not to
 the general index by default.
+
+Stop waiting comfort is recorded in the headers of the affected `New/stations/*.dat` files and in
+[comfort/stop-waiting](comfort/stop-waiting.md); the evidence and source records are in
+[comfort/stop-waiting-evidence](comfort/stop-waiting-evidence.md).
 
 ## Splicing and cross-checks
 
