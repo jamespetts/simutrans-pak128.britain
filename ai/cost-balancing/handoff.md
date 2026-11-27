@@ -69,6 +69,69 @@ road and air research it commissioned is [research-pricing-report-58](research-p
   double deflation, the concrete runway capital comparison, the motorway lane/carriageway question,
   the air deflators and the HRA/SMA shared class capital are listed in the audit report.
 
+## The four gap classes and pass 74 (2026-11-27)
+
+The user named four classes with no usable target: tram track maintenance, depot capital, maglev
+maintenance and station extension buildings. Pass 74 (`wb_fv_pass74.py`) fills them in the
+workbooks; the full analysis and the further-research note are in
+[research-pricing-report-59](research-pricing-report-59.md).
+
+- **Tram permanent way.** The maintenance sheet had no target. The 1930-31 Ministry of Transport
+  return gives permanent-way maintenance and renewals at GBP1,635,654 against GBP35,807,350 of
+  permanent-way capital, 4.568 per cent a year. The routine component after a 30-year renewal is
+  GBP42-50 a km-year, raw 446-526 (band 297-767). The existing `.dat` values of 450-700 sit inside
+  the band, so the gap was documentation. The 41 lb measured bind (GBP600 in 1911) is a per-mile
+  forge rate and is rejected. `forge_cost_tram` is corrected in the workbook and Params from
+  225,000 to **89,000 raw** (GBP352.70/km); the live `simuconf.tab` is still 225,000 and that
+  config change is outstanding.
+- **Maglev guideway.** No target existed. Routine maintenance is **0.15 per cent of capital a
+  year** on the concrete structure, raw 2,019 at grade and 2,492 elevated (band 0.08-0.25 per cent,
+  raw 1,077-4,153). This supersedes both the synthesis's 42,000 raw and pass 74's 1.2 per cent: the
+  evidence (Transrapid 0.08, CIGGT 0.12, Volpe 0.215, Morgantown 0.008-0.031) is an order of
+  magnitude below the combined rate. The class capital moves from GBP124,786 and GBP152,238 to
+  **GBP128,000 and GBP158,000 a track-km**, band GBP105,000-160,000 and GBP130,000-195,000: the
+  1993 Hamburg-Berlin and 2007 Munich estimates agree within 4-7 per cent once deflated to 1900 and
+  labour-adjusted at L = 0.25, R = 1.09, and the Shanghai and Changsha rates bracket them at
+  R = 6.5. The linear motor and line-side power are charged nowhere because the pakset has no
+  maglev way object; that is recorded as a separate task, worth GBP16,047 a track-km for the stator
+  alone. Evidence rows: `research-pricing-rows-59b.csv`; method and sources:
+  [research-pricing-report-59](research-pricing-report-59.md) §3.
+- **Depots.** The engine charges `cost_depot_<waytype> x level` and ignores the building cost, so
+  every depot is 27-200 times too cheap. The workbook now carries, per object, the measured target,
+  the required level and the setting implied by the present level; the four proposed settings are
+  rail 189,245, road 47,185, ship 329,035 and air 4,729,871 raw. **None is applied**: the settings
+  are stored in savegames. Depot maintenance is 1.5 per cent of capital a year and its route into
+  the game is the depot `.dat` `maintenance` field, which is unscaled at 0.00792622 GBP per raw per
+  month. Level, maintenance field and setting must change together at the `.dat` pass.
+- **Station extension buildings.** The eight goods and mail extensions were priced as passenger
+  concourses, treating a 250-unit goods capacity as 250 passenger places (GBP3,700 for a goods
+  bunker). They are now priced by floor area at a measured rate per square metre: GBP225-1,800 each, with
+  maintenance at 1.5-5 per cent a year instead of the 31 per cent the `.dat` fields carry.
+- **Pass 73 correction.** Its rejection of the two paved-runway measured binds did not take effect:
+  `ws.cell(r, c, None)` is a no-op in openpyxl. Pass 74 sets the cells' `.value` to `None` and the
+  binds are now cleared.
+
+Verification: the vehicle coherence audit passes (3,539 vehicles, 0 failures), the distance check
+reports 1,524 rows and 0 deviations, and the generosity shading was re-run over 14,847 cells. The
+workbook keeps its fills; a LibreOffice-recalculated copy for reading formula results is in
+`ai/temp/lo-pass74d/`.
+
+**Pass 75** (`wb_fv_pass75.py`) makes the four derivations visible and checkable in the sheets, so
+that a reader does not have to take the notes on trust:
+
+- `Ways - tram` maintenance: columns AR-AS (25-year and 40-year life) and a derivation block
+  at rows 17-29 showing class capital, measured combined charge, annualised renewal, routine
+  component, raw value and the current `.dat` value. The notes state plainly that 4.568 per cent a
+  year is the measurement and the renewal life is an assumption; the "band" is a sensitivity range
+  on that assumption and did not exist before pass 74.
+- `Ways - maglev` maintenance: columns AR-AS at 0.75 and 2.0 per cent.
+- `Depots` capital: columns AK-AP with the level in force, the measured cost per unit, the target,
+  the charge the game makes today, the ratio and the constraint; plus a note that a depot can only
+  cost `cost_depot_<waytype> × level`, framing the engine-change-or-level choice.
+- `Stations & bus stops` capital: columns AI-AN with the inferred floor area, rate, derived capital,
+  current `.dat` capital, ratio and evidence class. The evidence class says ESTIMATE, because there
+  is no measured goods-shed price.
+
 ## What this is
 
 Two workbooks, `New/cost-balancing-capital.xlsx` and `New/cost-balancing-maintenance.xlsx`, compare
@@ -254,10 +317,12 @@ dining/bogie/steel were wired was wrong.
    or tare based term is the next research question and would change the overhaul events too.
 6. **Maglev maintenance and overhaul evidence.** The acquisition price is applied by pass 65
    (1,088 GBP a seat; the 507.6 Almujibah estimate remains the serial-production floor). The
-   maintenance rate stays 0.00010257 GBP a seat-km because no operator account separates
-   rolling-stock maintenance. The remaining routes are a Shanghai operator maintenance line, a
-   Changsha 架修 contract value and an Incheon asset-class split; [negative-findings](negative-findings.md)
-   records them.
+   rolling-stock maintenance rate stays 0.00010257 GBP a seat-km because no operator account
+   separates rolling-stock maintenance; it passes a capital-share check at 2.8 per cent of class
+   capital on every row, but it is applied to payload tonnes on the box and flat cars. The guideway
+   now carries a routine-only estimate at 1.2 per cent of capital (pass 74). The remaining routes
+   are a Shanghai operator maintenance line and guideway line, a Changsha 架修 contract value and
+   an Incheon asset-class split; [negative-findings](negative-findings.md) records them.
 7. **Water: the per-gross-ton ladder is applied.** Pass 70 re-based 177 of the 216 rows on the
    measured per-gross-ton capital rates and research pass 57 raised the tonnage coverage to 177
    rows. The remaining work in the class is to close the 18 unidentified hulls (5 generic
@@ -290,6 +355,19 @@ dining/bogie/steel were wired was wrong.
     carried.
 13. **`.dat` update.** **Decision: not yet.** It remains one total-set pass, not object by
     object, after the workbook review.
+14. **The 89,000 tram forge and the four depot settings.** Pass 74 puts them in the workbooks and
+    the Params sheet. The live `simuconf.tab` still has `forge_cost_tram = 225000` and
+    `cost_depot_rail/road/ship/air = 2000/1000/4000/7500`. Both are config changes for the user to
+    approve; the depot settings are stored in savegames. `[USER-DIRECTION:2026-11-27]`
+15. **Depot levels.** The proposed setting values only work if each depot's `level` is set to its
+    size in the same operation, because the engine charges `cost_depot_* × level`. The required
+    level per object is in [research-pricing-report-59](research-pricing-report-59.md) §9 and in
+    column AI of the `Depots` sheet. Changing a level alone changes the depot's default
+    maintenance as well as its price.
+16. **The tram renewal life.** The 30-year life that splits the measured 4.568 per cent into
+    routine and renewal is an inference. A municipal renewal-fund account, or the MoT return's
+    Part III renewals line, would replace it. [research-pricing-report-59](research-pricing-report-59.md)
+    §2.3 and §7.
 
 ## Water: the capital question
 
@@ -497,7 +575,7 @@ The pass 62-65 review baselines are `ai/temp/pre-pass62/`, `ai/temp/pre-pass63/`
 
 ## Files
 
-The patch scripts for this work are `wb_fv_pass57.py` to `wb_fv_pass71.py` and
+The patch scripts for this work are `wb_fv_pass57.py` to `wb_fv_pass74.py` and
 `wb_distance_check.py`, in `New/ai/cost-balancing/`. The independent review is
 `sanity-check-2026-11-25.md` (2 blocking, 7 material, 9 minor, 7 observations; the blocking two
 are `.dat`-pass decisions). The class and era distance table is

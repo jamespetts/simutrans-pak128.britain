@@ -1,6 +1,6 @@
 ---
 status: draft
-verified: none
+verified: amended 2026-11-27 from research-pricing-report-59 section 3
 ---
 
 # Research report 17: maglev guideway construction and maintenance cost, overseas systems
@@ -22,6 +22,16 @@ statement of what each number includes.
 ---
 
 ## 1. The answer in one page
+
+**Amended 2026-11-27.** A later research pass re-derived the guideway capital and maintenance with a
+documented labour adjustment and put every source on the pakset's 1900 infrastructure index. Three
+statements below need qualifying: the Munich figures in §1.3 are now verified against the primary
+document and are *not* the outlier the 1993 comparison suggested once both are deflated (the 1993
+figure rises to GBP166,963 a track-km elevated and GBP132,310 at grade, against Munich's GBP155,279
+and GBP126,990); the mixed price bases in §5.3 should be read after the deflation; and §7's 1-2 per
+cent maintenance recommendation is superseded by 0.15 per cent of the structure, band 0.08-0.25 per
+cent. The current figures, the labour method and the sources are in
+[research-pricing-report-59](research-pricing-report-59.md) §3.
 
 1. **Only one system publishes something close to a guideway-only figure as built: Linimo.** The
    Aichi prefectural government splits the JPY 99.7bn cost into JPY 64.1bn of public

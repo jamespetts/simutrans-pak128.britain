@@ -1,6 +1,7 @@
 ---
 status: draft
-verified: New ex-15 @ fcd40c0bc + passes 62-65 + KB corrections (working tree), 2026-11-25
+verified: New ex-15 @ fcd40c0bc + passes 62-65 + KB corrections (working tree), 2026-11-25;
+  gap classes updated for pass 74, 2026-11-27
 ---
 # Cost data coverage
 
@@ -154,9 +155,13 @@ gauge forge basis is terrain, not gauge.
 so no British evidence can exist. The acquisition price uses the 2003 Shanghai imported-car
 transaction (1,088 GBP a seat in 1900 money; the Almujibah and Preston EUR 49,233 a seat estimate
 remains the serial-production floor). Maintenance uses the overseas rate EUR 0.011 a seat-km
-(0.00010257 GBP), because no operator account separates rolling-stock maintenance. Rule,
-conversion and open questions:
-[vehicle-cost/maglev-costs](vehicle-cost/maglev-costs.md); [research-pricing-report-55](cost-balancing/research-pricing-report-55.md).
+(0.00010257 GBP), because no operator account separates rolling-stock maintenance. The rate passes
+a capital-share check: every maglev row's annual figure is 2.8 per cent of its own class capital,
+inside the aircraft, ship and carriage bands. The rate is still applied to payload tonnes on the
+box and flat cars, which is conceptually wrong even though the annual figure passes that test.
+Rule, conversion and open questions:
+[vehicle-cost/maglev-costs](vehicle-cost/maglev-costs.md); [research-pricing-report-55](cost-balancing/research-pricing-report-55.md);
+[research-pricing-report-59](cost-balancing/research-pricing-report-59.md) §3.
 
 **Vehicle overhauls and upgrades — Fair (rail), Poor (everything else).** All 3,539 vehicles
 carry a maintenance figure and an overhaul target; 403 carry an `upgrade_price`, most of them the
@@ -225,10 +230,23 @@ resolved).
 
 **Tram ways — Fair.** Track laid £600/mile 1911 (excluding electrification); line equipment
 maintenance and renewal £58/km/year 1930-31; a defensible street-reservation forge basis. The
-rail-vs-tram forge differential in the present data is wrong (conflict 4).
+rail-vs-tram forge differential in the present data is wrong (conflict 4). The maintenance side is
+now measured: the Ministry of Transport 1930-31 return puts permanent-way maintenance and renewals
+at £1,635,654 against permanent-way capital of £35,807,350, which is 4.568 per cent a year and
+1.024d a car-mile; the routine component after deducting a 30-year renewal is £42-50 a km-year,
+raw 446-526 ([research-pricing-report-59](cost-balancing/research-pricing-report-59.md) §2).
 
 **Narrow-gauge, monorail, maglev ways — Poor/None.** Forge derivations only (£250-620/km narrow,
-terrain-dominated; monorail and maglev explicitly without British historical basis).
+terrain-dominated; monorail and maglev explicitly without British historical basis). Maglev
+capital is a labour-adjusted overseas guideway estimate: GBP128,000 a track-km at grade and
+GBP158,000 elevated (bands GBP105,000-160,000 and GBP130,000-195,000), structure only. The 1993
+Hamburg-Berlin and 2007 Munich estimates agree within 4-7 per cent once deflated to 1900 and
+adjusted for labour at L = 0.25, R = 1.09; the Shanghai residual and the Changsha unit rate
+bracket them at R = 6.5. Maintenance is 0.15 per cent of capital a year (band 0.08-0.25), raw 2,019
+and 2,492, from Transrapid 0.08, CIGGT 0.12, Volpe 0.215 and Morgantown 0.008-0.031. The linear
+motor (GBP16,047 a track-km) and line-side power and control (GBP64,495) are charged nowhere
+because no maglev way object exists
+([research-pricing-report-59](cost-balancing/research-pricing-report-59.md) §3).
 
 **Bridges and viaducts — Good (ladder), Fair (parameters).** Per-metre ladders by construction
 (masonry and brick £55-160/m; iron trestles £48-280/m by span and pier height; tubular and major
@@ -281,10 +299,18 @@ measured (timber 4-8%, brick 0.8-1.5%); canopies and roofs per square; shelters 
 pole and flag £300-500 to modern shelter £7,000-12,000; 25 named station projects 1851-1984.
 Conflicts: station maintenance at 15-30% of capital a month against a defensible 10% a year
 (conflict 2); which Tilbury 1906 items are station cost unresolved; no goods shed priced apart.
+The eight goods and mail extension buildings are now priced as buildings, not as passenger
+concourses: floor area times a measured £/m² ladder, GBP225-1,800 each, with maintenance at 1.5-5
+per cent a year ([research-pricing-report-59](cost-balancing/research-pricing-report-59.md) §5).
 
-**Depots — Fair.** Eight named sheds 1851-1969 (each a different building, no series); the class
-carries no cost line in the present settings. No measured depot maintenance figure (present
-maintenance is too low where most things are too high, conflict 6).
+**Depots — Fair.** Eight named sheds 1851-1969 (each a different building, no series); measured
+per-unit rates of £750 a rail road, £187 a bus, £478 a tram car, £208 a horse, £1,304 a slip and
+£13,812-25,440 a hangar stand. Depot maintenance is measured at 1.5% of capital a year (band
+1.0-2.0%, report 16). The gap is the engine's price mechanism, not the data: the game charges
+`cost_depot_* × level` and ignores the building cost, so each object's measured target can only be
+reached by setting `level` to its size. The proposed settings and the required level per object are
+in [research-pricing-report-59](cost-balancing/research-pricing-report-59.md) §4 and §9, and the
+engine limitation in [engine-bugs](engine-bugs.md) §4.
 
 **Headquarters — Fair (standing charge), Poor (building).** The administrative overhead is well
 bracketed (3.3-5.8% of receipts across six undertakings 1838-1958, about £175 per route km a year).

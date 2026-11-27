@@ -1,6 +1,6 @@
 ---
 status: draft
-verified: simutrans-extended ex-15 @ 2ec587a
+verified: simutrans-extended ex-15 @ 2ec587a; depot price mechanism checked at ex-15 @ ebf26cfb9b, 2026-11-27
 ---
 # Engine bugs
 
@@ -210,6 +210,62 @@ Lay one tile of `cast_iron` (`maintenance=800`, no forge), read the tooltip, the
 way-maintenance line of the monthly finance report for the same month. The charge should be
 `800 × 0.125 × 2 ÷ 100 = 2.00` Simucredits at index 100; the tooltip will show about half of the
 undoubled figure.
+
+## 4. A depot cannot carry its own price; the charge is a per-waytype constant times `level`
+
+Priority 1 for pakset cost balancing (every depot is 27-200 times too cheap), but the fix is a
+design change rather than a defect in the arithmetic. Recorded here because the pakset cannot
+correct depot prices without it.
+
+### Where
+
+`tool_build_depot_t::tool_depot_aux` callers in `simtool.cc` (lines 7966-7973 and 7999-8023 at the
+commit below), and `dataobj/settings.cc` (lines 2792-2795) for the four settings.
+
+### What the code does
+
+Four settings exist: `cost_depot_rail`, `cost_depot_road`, `cost_depot_ship` and `cost_depot_air`.
+`tram_wt`, `narrowgauge_wt`, `maglev_wt` and `monorail_wt` all take `cost_depot_rail`. The charge is
+`cost_depot_<waytype> * desc->get_level()`. `building_desc_t::get_price()` is never consulted, so a
+depot's own `cost` field is dead.
+
+The pakset's depot `level` values are 1 to 16 and were set for an older engine in which `level`
+was the depot price. They do not describe the building: a horse stable and a twelve-road steam
+shed differ only by that number. `[CODE simutrans-extended ex-15 @ ebf26cfb9b]`
+
+### Effect
+
+`cost_depot_rail` is 2,000 raw and the steam depot's level is 12, so the game charges 24,000 raw,
+GBP95.11 at 1900, against a measured GBP3,000 for a four-road shed. The tram depot is GBP47.56
+against GBP9,560. The full table is in
+[cost-balancing/research-pricing-report-59](cost-balancing/research-pricing-report-59.md) §4.
+
+### Proposed fix
+
+In the depot callers, take the price from the descriptor when it has one:
+
+```cpp
+const sint64 price = (desc->get_base_price() != PRICE_MAGIC)
+    ? -desc->get_price()
+    : settings.get_cost_depot_<waytype>() * desc->get_level();
+```
+
+`price` and `maintenance` already exist on every building descriptor, and
+`building_reader.cc` already initialises `scaled_price` from `price` at read, so no `.pak` format
+change is needed. With this, a depot can carry a measured price directly, and `level` can return
+to being a size.
+
+Note that `scaled_price` is not rescaled for depots (they are absent from
+`hausbauer_t::modifiable_station_buildings`), so the descriptor price is charged unscaled, which is
+the wanted behaviour: the same convention the depot `maintenance` field already uses.
+
+### Interim treatment without the fix
+
+Set the four settings to the measured price per unit of size and set each depot's `level` to its
+size, in one operation, at the `.dat` pass. The proposed values are 189,245 rail, 47,185 road,
+329,035 ship and 4,729,871 air raw. The required level per object is in the report's section 9.
+Two limits remain: one setting cannot distinguish traction within a waytype, and the required level
+is a price quotient rather than a measurement.
 
 ## Checked and not defects
 

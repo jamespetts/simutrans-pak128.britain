@@ -72,6 +72,12 @@ capture rule). `[USER-DIRECTION:2026-11-15]`
   public; only material we hold rights to may be published. In the blends repository,
   `citycars/references/` and `*/references/` are gitignored for this reason.
   `[USER-DIRECTION:2026-11-15]`
+- **Downloaded reference material is stored in `Research/` at the workspace root, never in
+  `ai/temp/`.** `ai/temp/` is deliberately cleared at the end of every session, so anything placed
+  there is disposable by design; `Research/` is not cleared and already holds the Matthews thesis
+  and the BR facts and figures volumes. Every figure read from a source must in any case be
+  transcribed into the committed knowledge base with its page reference, so that the loss of a
+  local copy never loses the claim. `[USER-DIRECTION:2026-11-27]`
 - Before selecting a model for Blender MCP, read the
   [local model experience](graphics/model-selection.md#local-blender-mcp-model-experience):
   the user identifies GPT 6.1 Sol as the only successful model so far and a Terra model
@@ -97,6 +103,14 @@ capture rule). `[USER-DIRECTION:2026-11-15]`
   [vehicle-cost/maintenance-decomposition](vehicle-cost/maintenance-decomposition.md) standing
   rule 0; automated check:
   [wb_audit_coherence](cost-balancing/wb_audit_coherence.py). `[USER-DIRECTION:2026-11-25]`
+- **A depot's price is `cost_depot_<waytype> × level`, not its `.dat` `cost`.** The four settings
+  cover rail (including tram, narrow gauge, maglev and monorail), road, water and air. A depot's
+  own `cost` field is never read. Depot maintenance is chargeable through the `.dat` `maintenance`
+  field, which is unscaled at 0.00792622 GBP per raw per month. Setting `level`, `maintenance` and
+  the setting must be done as one operation. Limitation and proposed engine fix:
+  [engine-bugs](engine-bugs.md) §4; figures:
+  [cost-balancing/research-pricing-report-59](cost-balancing/research-pricing-report-59.md) §4.
+  `[CODE simutrans-extended ex-15 @ ebf26cfb9b]`
 - **Mean annual distance is a class and era table, not a per-row default.** The value converts an
   overhaul interval in years to the engine's kilometre field and sets the reference duty for the
   fixed/per-km split. The table, its evidence and the rows it applies to:

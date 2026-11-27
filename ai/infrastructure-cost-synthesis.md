@@ -1,6 +1,7 @@
 ﻿---
 status: draft
-verified: New ex-15 @ fcd40c0bc + KB corrections (working tree), 2026-11-25; simutrans-extended ex-15 @ 22cc3af
+verified: New ex-15 @ fcd40c0bc + KB corrections (working tree), 2026-11-25; simutrans-extended ex-15 @ 22cc3af;
+  gap classes and tram forge updated for pass 74, 2026-11-27
 ---
 # Infrastructure cost synthesis
 
@@ -193,8 +194,19 @@ These are scaled as buildings, so the `.dat` values carry the ×2,019 factor.
 The evidence gives timber 4-8% of capital a year in maintenance, brick 0.8-1.5%, concrete 1.5-2.5%; the recommendations meet that, the present values, with concrete below brick, do not.
 
 Bus shelters, loading bays, bus terminals and every depot have **no cost line**: `cost_depot_rail` =
-2,000 implies **£7.93**, against £3,973 for the Tilbury shed and £20,390 for Plaistow. Suggested
-1,000,000 rail and 500,000 road.
+2,000 implies **£7.93**, against £3,973 for the Tilbury shed and £20,390 for Plaistow. The engine
+charges `cost_depot_<waytype> × level` and ignores the building cost, so a depot's own price cannot
+be set. The measured per-unit rates and the proposed settings are in
+[research-pricing-report-59](cost-balancing/research-pricing-report-59.md) §4: £750 a rail road,
+£187 a bus, £1,304 a slip and £18,745 a hangar stand, with the required `level` per object in
+§9. Depot maintenance is 1.5 per cent of capital a year and is charged through the depot `.dat`
+`maintenance` field, which is unscaled.
+
+The eight goods and mail **station extension buildings** were priced as passenger concourses in
+the workbook, treating a 250-unit goods capacity as 250 passenger places. They are now priced as
+buildings: floor area times a measured £/m² ladder, GBP225-1,800 each, with maintenance at 1.5-5
+per cent a year. The passenger station buildings and terminals are unchanged.
+[research-pricing-report-59](cost-balancing/research-pricing-report-59.md) §5
 
 ### 3.6 Signals, signalboxes, electrification
 
@@ -291,7 +303,7 @@ Values are 1900 pounds per **route** kilometre; the setting is the pound figure 
 | track | 15,000 | **76,000-101,000** | £110/km flat (1803), £253/km with fencing (1830), £250-400/km typical (1855-1900), up to £4,600/km in heavy terrain |
 | narrow gauge | 10,000 | **76,000-114,000** | £250-450/km typical, £500-620/km for a Festiniog-type mountain line; terrain-dominated, not gauge-dominated |
 | road | 7,500 | **250,000-380,000** | turnpike and macadam formation £50-250/km, modern asphalt roadbed £2,000-8,000/km. One value cannot fit both eras; the recommendation favours the early road |
-| tram | 5,000 | **150,000-300,000** | £600-1,200/km, a street reservation sharing the road formation, so trench and concrete bed only |
+| tram | 5,000 | **89,000** | £600 a mile (1911) deflated to 1900 = £352.70/km, the trench and concrete bed only; corrected in pass 74, superseding the 150,000-300,000 derived from a misread of the same figure |
 | water | 25,000 | **0** | canals: formation folded into the way cost (§4.5, 2026-11-24) |
 | air | 22,500 | **1,500,000-2,250,000** | £6,000-9,000/km formation, 30-40% of the pavement cost; the present value is 67 to 100 times below the range |
 | monorail | 20,000 | **90,000-125,000** if a ground formation | no British historical basis |
@@ -312,6 +324,12 @@ in the forge). The recommended settings were applied on 2026-11-22 as the midpoi
 above: track 88,000, narrow gauge 95,000, road 315,000, tram 225,000, water 125,000 (superseded
 2026-11-24 by §4.5: water → 0), air 1,875,000, monorail and maglev 108,000. `[USER-DIRECTION:2026-11-22]`
 `[LITERATURE:research-pricing-report-3.md §4.5]`
+
+**Tram forge correction, 2026-11-27.** The 1911 £600 a mile figure is £352.70 a kilometre at 1900
+money, which is 89,000 raw. The recommendation of 150,000-300,000 read the same figure at £600-1,200
+a kilometre, which is a mile-to-kilometre slip. The applied simuconf value of 225,000 was 2.54 times
+its own source. The workbook and Params sheet carry 89,000; the live setting is still 225,000.
+[research-pricing-report-59](cost-balancing/research-pricing-report-59.md) §2.4
 
 ## 6. Defects found in passing
 
@@ -335,6 +353,10 @@ above: track 88,000, narrow gauge 95,000, road 315,000, tram 225,000, water 125,
 | Straight-sided retaining walls, modern | Use the Victorian £0.70-1.70/m² of wall face and scale by wall height |
 | Structure maintenance by type where no account exists | Apply the measured relativities: brick 0.5× plain line, iron 1.2-1.5× plain line, timber 7-8× the brick rate, tunnel 1.5-2.5× plain line |
 | Dock and pier maintenance | Use 2-4% a year for timber and 0.8-1% for masonry and concrete |
+| Tram way maintenance | Routine only: 4.568% of the class capital less the way object's annualised renewal (30-year life), raw 446-526 a km-year, band 297-767. [research-pricing-report-59](cost-balancing/research-pricing-report-59.md) §2 |
+| Maglev guideway maintenance | Routine only: 1.2% of the row's own capital a year, band 0.75-2.0%, raw 15,743 at grade and 19,207 elevated. ESTIMATE; no operator account. [research-pricing-report-59](cost-balancing/research-pricing-report-59.md) §3 |
+| Depot capital | Measured per-unit rate × size, but the engine cannot take a per-object depot price: set `cost_depot_*` to £750 (rail), £187 (road), £1,304 (water) and £18,745 (air) a level and each depot `level` to its size, in one operation. [research-pricing-report-59](cost-balancing/research-pricing-report-59.md) §4, §9 |
+| Goods and mail station extensions | Floor area times a measured £/m² ladder (minimal brick store 1.24-2.00, goods shed 2.50-3.25, station building about 6.00), not a passenger-place rate. [research-pricing-report-59](cost-balancing/research-pricing-report-59.md) §5 |
 | Hangars, terminals and towers before 1950 | Deflate modern £/m² on the `buildings` index; there is no measured pre-war figure |
 | Total signalling cost per route km before 1909 | Use Rapier's 1874 model: 10 levers a mile, one box per 1.5 miles, 4.2 posts a km, about £315/route km |
 | Contact-wire and conductor-rail renewal | 35-45% of new build for wire every 35-40 years, 25-35% for conductor rail every 60-80 years |
@@ -398,3 +420,29 @@ currently charge, and it may account for part of the balance gap in section 8.
 2. **`forge_cost_track`** (water is settled: 0 for canals, §4.5).
 3. **The masonry and brick structures**, five times too low, then the free shelters and depots.
 4. **Signals**, the meaning now settled (§4.6): calibrate the 168 objects to the per-post ladder.
+
+## 11. The four gap classes, filled 2026-11-27
+
+Tram permanent-way maintenance, depot capital and maintenance, maglev guideway maintenance and the
+goods and mail station extension buildings had no usable target before this pass. The evidence, the
+method and the value entered for each are in
+[research-pricing-report-59](cost-balancing/research-pricing-report-59.md). Three results change the
+earlier recommendations in this document:
+
+- **Tram way maintenance is measured, and the existing `.dat` values are about right.** The
+  1930-31 Ministry of Transport return gives permanent-way maintenance and renewals at 4.568 per
+  cent of permanent-way capital a year. The routine component after a 30-year renewal is GBP42-50
+  a km-year. The `.dat` values of 450-700 raw (GBP43-67) sit inside the band.
+- **The maglev maintenance recommendation of 42,000 raw is replaced, twice.** It was 2 per cent of
+  elevated capital, a combined rate. The routine-only rule took it to 1.2 per cent, raw 19,207. The
+  labour-adjusted guideway research of 2026-11-27 then found that 0.15 per cent of the structure is
+  the measured and modelled rate, so the elevated row is raw 2,492 and the at-grade row raw 2,019.
+  The maglev capital rises slightly to GBP128,000 and GBP158,000 a track-km, and the two German
+  estimates behind it now agree within 4-7 per cent.
+- **The depot suggestion of 1,000,000 rail and 500,000 road is withdrawn.** It could not be
+  reached: the engine charges `cost_depot_* x level` and ignores the building cost. The
+  replacement is a measured per-unit setting plus a required level per object, in
+  [research-pricing-report-59](cost-balancing/research-pricing-report-59.md) §4 and §9.
+
+The live `forge_cost_tram` is still 225,000 raw; the workbook carries 89,000 and the config change
+is outstanding. No `.dat` value and no `cost_depot_*` setting was changed.

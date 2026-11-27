@@ -1,6 +1,7 @@
 ---
 status: draft
-verified: New ex-15 @ 81ffb5911 (working tree, uncommitted pass 72), 2026-11-27; simutrans-extended-sources ex-15 @ ebf26cfb9b
+verified: New ex-15 @ 81ffb5911 (working tree, uncommitted pass 72), 2026-11-27; simutrans-extended-sources ex-15 @ ebf26cfb9b;
+  tram and maglev maintenance rows amended by pass 74, 2026-11-27
 ---
 # Way and forge cost model: audit, 2026-11-26
 
@@ -374,6 +375,14 @@ The `maintenance()` branch returns `None` for both. The maintenance workbook has
 target for any tram or maglev way row, although the synthesis §3.1 and §3.7 carry recommended values
 (500-800 raw units for tram, 42,000 for maglev).
 
+**Filled 2026-11-27 (pass 74).** Tram way maintenance is now measured: raw 446-526 a km-year
+(GBP42.45-50.03), the routine component of the 4.568 per cent a year the 1930-31 Ministry of
+Transport return gives, band 297-767 at a 25-40 year renewal life. The synthesis's 500-800 raw
+happens to contain the answer. Maglev guideway maintenance is an ESTIMATE at 1.2 per cent of the
+row's own capital, raw 15,743 at grade and 19,207 elevated, band 9,840-32,011; this supersedes the
+42,000 raw, which was a 2 per cent combined rate.
+[research-pricing-report-59](research-pricing-report-59.md) §2 and §3.
+
 ## 5. The measured-price binder
 
 `evidence_data.match()` lines 1430-1432 accept any row whose `kind` is `capital` and whose
@@ -496,6 +505,12 @@ The scope of each measured price still has to be recorded, because the arithmeti
 | Maglev | 42,000 raw units (GBP3,995 per km-year), the synthesis §3.7 value, which is 2 per cent of its elevated-way capital | synthesis §3.7 |
 | Power | GBP10.14 per km-year (GBP650 nominal 2015 deflated) | evidence §9 |
 | Elevated | the bridge upkeep rate, not the capital: 0.045-0.53 GBP per metre-year (GBP45-530 per km-year) plus the way upkeep; where no material rate exists, 2 per cent of capital and say so | evidence §4; Cudworth 1886 |
+
+The tram and maglev rows above were replaced by pass 74 on 2026-11-27. Tram is raw 446-526 a
+km-year (routine only, measured 4.568 per cent a year less a 30-year renewal, band 297-767);
+maglev is raw 15,743 at grade and 19,207 elevated (routine only, 1.2 per cent of the row's own
+capital, band 9,840-32,011), which halves the 42,000.
+[research-pricing-report-59](research-pricing-report-59.md) §2 and §3.
 
 ### 7.5 The binder replacement
 

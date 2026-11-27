@@ -1,6 +1,7 @@
 ---
 status: draft
-verified: New ex-15 @ fcd40c0bc + passes 62-65 (working tree), 2026-11-25
+verified: New ex-15 @ fcd40c0bc + passes 62-65 (working tree), 2026-11-25;
+  gap classes updated for pass 74, 2026-11-27
 ---
 # Cost-balancing register
 
@@ -93,9 +94,9 @@ pass (defined above). `[CODE New ex-15 working tree, 2026-11-23]`
 | Rail ways (track) | no | yes | yes (L&M 1830 account; Leicester/Leeds/Dewsbury 1877-82; Mills c.1898) | yes | Permanent way £1,300-1,900/km flat 1830-1900; rail weight ladder; whole-line capital £20,300-22,400/km 1858-1902. [infrastructure-cost-evidence](infrastructure-cost-evidence.md) §1-2 |
 | Road ways | no | yes | partial (2011 motorway yard rates) | yes | Turnpike to motorway: construction and upkeep figures 1819-2021; the motorway object is the decisive 2.5x-too-cheap check. [infrastructure-cost-evidence](infrastructure-cost-evidence.md) §3 |
 | Canal ways | no | yes | yes (7 named canals 1724-1905; itemised Leeds & Liverpool estimate) | yes | £1,850-5,560/km narrow and barge, £14,750-33,000/km ship; canals are deliberately zero-forge and unrenewed — for a canal the forging is the building, so the formation is folded into the per-class way cost and `forge_cost_water` goes to 0 at the costing pass (decision 2026-11-24, conflict 7 resolved). [infrastructure-cost-evidence](infrastructure-cost-evidence.md) §5 |
-| Tram ways | no | partial (track £600/mile 1911; forge £600-1,200/km) | no | partial | Street reservation basis. [prices-forum-fragments](prices-forum-fragments.md) "Rails and permanent way" |
+| Tram ways | no | partial (track £600/mile 1911; forge £600-1,200/km; 1930-31 permanent-way charge and capital) | no | partial | Street reservation basis. Forge corrected to 89,000 raw (GBP352.70/km), 225,000 being 2.54 times its own source; the 41 lb measured bind rejected. Maintenance target 446-526 raw a km-year (GBP42-50), the routine component of the measured 4.568 per cent a year, band 297-767 at a 25-40 year renewal life. [research-pricing-report-59](cost-balancing/research-pricing-report-59.md) §2 |
 | Narrow-gauge ways | no | partial (forge £250-620/km) | no | partial | Terrain-dominated forge basis only. [infrastructure-cost-synthesis](infrastructure-cost-synthesis.md) §5 |
-| Monorail / maglev ways | no | no | no | no | Forge recommendation without historical basis. [infrastructure-cost-synthesis](infrastructure-cost-synthesis.md) §5 |
+| Monorail / maglev ways | no | yes (maglev: labour-adjusted overseas guideway rates) | partial (Munich 2007, Hamburg-Berlin 1993, Shanghai 2004, Changsha 2022) | partial | Maglev capital GBP128,000 a track-km at grade and GBP158,000 elevated (bands GBP105,000-160,000 and GBP130,000-195,000), structure only: the 1993 and 2007 German estimates agree within 4 and 7 per cent once deflated and labour-adjusted, and the Shanghai and Changsha rates bracket them. Maintenance 0.15 per cent of capital a year, raw 2,019 and 2,492, band 0.08-0.25 per cent. The linear motor and line-side power are charged nowhere because the pakset has no maglev electrification way object. [research-pricing-report-59](cost-balancing/research-pricing-report-59.md) §3 |
 | Bridges and viaducts | no | yes | yes (25 named viaducts 1828-1978) | partial | £/m ladders by material and span class; height and span are deliberately not costed in the data. [infrastructure-cost-evidence](infrastructure-cost-evidence.md) §4 |
 | Tunnels | no | yes | yes (21 named tunnels 1779-1962) | partial | £/m by ground and method; two table artefacts recorded. [infrastructure-cost-evidence](infrastructure-cost-evidence.md) §4 |
 | Piers, docks, quays | no | yes (per metre by construction) | partial (Margate 1853; Tilbury works) | yes | Per-metre ladder by construction type; maintenance heuristic 0.8-4% a year. The 111 pier rows (support structures on which normal ways are built, not elevated ways, which are whole structures retained for compatibility) are charged by pass 68 at 19 per cent of the matching bridge family's measured rate (the midpoint of the measured 13-25 per cent low-bridge substructure share), capital only: the measured share is a structure share, not a maintenance one, and no substructure maintenance rate is measured. [infrastructure-cost-evidence](infrastructure-cost-evidence.md) §5 |
@@ -103,8 +104,8 @@ pass (defined above). `[CODE New ex-15 working tree, 2026-11-23]`
 | Roadsigns | no | no | no | no | No historical cost data anywhere. |
 | Way objects (electrification) | no | yes | partial (Southern 1925; BR 1955 pair; Romford 1986) | yes | £/track-km ladders 1925-2016; pakset era order reversed (750 V DC cheaper than AC). [infrastructure-cost-evidence](infrastructure-cost-evidence.md) §8 |
 | Crossings (level) | no | no | no | no | Field semantics only ([objects/crossing](objects/crossing.md)); no cost data. |
-| Stations, platforms, shelters, bus stops | no | yes (platform £/m of face; canopies; shelters) | yes (25 forum station rows 1851-1984) | yes | Per-metre and per-item ladders by construction; station maintenance conflict unresolved (conflict 2). [infrastructure-cost-evidence](infrastructure-cost-evidence.md) §6 |
-| Depots | no | partial (8 named sheds 1851-1969) | partial | partial | No cost line in current settings; suggested 1,000,000 rail / 500,000 road. [infrastructure-cost-synthesis](infrastructure-cost-synthesis.md) §3.5 |
+| Stations, platforms, shelters, bus stops | no | yes (platform £/m of face; canopies; shelters) | yes (25 forum station rows 1851-1984) | yes | Per-metre and per-item ladders by construction; station maintenance conflict unresolved (conflict 2). The eight goods and mail extension buildings are priced by floor area at a measured £/m² ladder (GBP225-1,800 each) and maintained at 1.5-5 per cent a year, not as passenger concourses. [research-pricing-report-59](cost-balancing/research-pricing-report-59.md) §5 |
+| Depots | no | yes (per-unit rates: £750 a rail road, £187 a bus, £478 a tram car, £208 a horse, £1,304 a slip, £13,812-25,440 a hangar stand) | partial (8 named sheds 1851-1969) | partial | Capital: measured per-unit rate x size. The engine charges `cost_depot_* x level` and ignores the building cost, so the four settings and every depot `level` must change together at the `.dat` pass; proposal and required level per object in [research-pricing-report-59](cost-balancing/research-pricing-report-59.md) §4 and §9, engine limitation in [engine-bugs](engine-bugs.md) §4. Maintenance: 1.5 per cent of capital a year (band 1.0-2.0, report 16), charged through the depot `.dat` `maintenance` field, which is unscaled at 0.00792622 GBP per raw per month. |
 | Airports (runways, terminals, hangars, towers) | no | yes (per m2 ladders; control towers £2.3m-£50m) | partial (Stansted 1991; Luton; Heathrow) | yes | Deflate modern £/m2 on the `buildings` index for pre-1950. [infrastructure-cost-evidence](infrastructure-cost-evidence.md) §9 |
 | Power lines | no | yes (132/275 kV 1959; 400 kV 1965, 2012) | partial (the line rates) | yes | 132 kV £10,000/mile and 275 kV £25,000/mile 1959; 400 kV £65,800/mile 1965 and £1.6m/km 2012; maintenance £650/km-year. [infrastructure-cost-evidence](infrastructure-cost-evidence.md) §9 |
 | Grid substations (engine `cost_transformer`) | no | partial (1933 and 1953 inferred; modern measured) | partial | yes | Modelling choice, 2026-11-24: the game object is a 132 kV grid supply point at each power station and town. £27m for 273 stations in 1933 leaves about £40,000 each, £25,000 at 1900. `cost_transformer` 2,500 → 6,308,177; `cost_maintain_transformer` 100 → 2,628. [infrastructure-cost-evidence](infrastructure-cost-evidence.md) §9 |
@@ -143,9 +144,9 @@ pass (defined above). `[CODE New ex-15 working tree, 2026-11-23]`
 - Class data sufficient to extrapolate, in summary: rail carriages, rail wagons, multiple units,
   road vehicles, ships, aircraft, rail ways, road ways, canal ways, piers, stations, airports,
   electrification, power lines, grid substations, horses, forge costs. Partial: locomotives (steam
-  with known weight only), inland boats, trams, narrow-gauge/monorail/maglev vehicles and ways,
-  bridges, tunnels, signals, depots, land alteration. No: roadsigns, crossings, industry and
-  city buildings, trees, ground objects.
+  with known weight only), inland boats, trams, tram ways, maglev ways and vehicles, narrow-gauge
+  and monorail, bridges, tunnels, signals, depots, land alteration. No: roadsigns, crossings,
+  industry and city buildings, trees, ground objects.
 
 ## Open questions
 

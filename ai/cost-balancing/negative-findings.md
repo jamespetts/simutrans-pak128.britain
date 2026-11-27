@@ -1,6 +1,7 @@
 ---
 status: draft
-verified: New ex-15 @ fcd40c0bc + passes 62-65 (working tree), 2026-11-25
+verified: New ex-15 @ fcd40c0bc + passes 62-65 (working tree), 2026-11-25;
+  tram and goods-shed routes added for pass 74, 2026-11-27
 ---
 # Negative findings and archive routes
 
@@ -108,6 +109,19 @@ points are interpolations; the 1990 rung is untested. Do not re-run the same web
 
 **Status**: the 1913-1938 points validate the 1900-1950 interpolation; the 2018 Class 92 contract
 supplied the class override. The 1995 rung remains DERIVED. Do not re-run the same web searches.
+
+## Tram permanent-way maintenance and depot accounts
+
+| Sought | Sources checked | Result | Remaining route | Report |
+|---|---|---|---|---|
+| GB tramway route mileage, 1930-31 | MoT annual return 1930-31 summary table, `ekeving.se/ext/uk/TW-LR-TT_1931/0-11.pdf` | The 10-page summary carries Parts I-III only; Part IV (statistical information, "length of line open for traffic") is not in the file | The full return: archive.org `railways00609100`, `railways00609133`, `railways00609101`, `railways00590412`; one Part IV page per year | [59](research-pricing-report-59.md) §2 |
+| Tram permanent-way renewal share | MoT returns 1925-26 and 1930-31 | The revenue head is printed gross of renewals out of revenue; the split is not in the summary | Part III, "expenditure during the year on renewals charged to Funds", by undertaking | [59](research-pricing-report-59.md) §2 |
+| Goods shed or station building maintenance by building | Midland Railway station-buildings account book, Science Museum object 2013-7027 (Settle and Carlisle, 1894-1901) | Not read: the object record describes the contents (repair and maintenance of station buildings, locomotive and goods sheds, with materials and wages) but no figures | Visit the Science Museum Group collection or order a copy; the closest identified upkeep account for goods sheds | [59](research-pricing-report-59.md) §7 |
+| Goods shed construction cost per square metre | Historic England goods-shed study; GER Way and Works Committee minutes; GWR Moor Street budget | The study gives types and dimensions but no construction prices; Moor Street GBP8,800 in 1910 but no size | Railway company contract records (TNA RAIL classes), the GER minutes, and the National Records of Scotland Methil goods-shed estimates (RHP27628, 1897) | [59](research-pricing-report-59.md) §5, §7 |
+
+**Status**: the tram routine figure is entered with a band; the route mileage and the renewal split
+would each narrow it. The depot per-unit rates are measured; the missing measurement is a single
+account that states a building's maintenance and its capital value (report 16 §3.5 says the same).
 
 ## Closed questions
 
